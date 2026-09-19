@@ -1,0 +1,89 @@
+# config/models.yaml
+# Multi-Model AI Council and LLM Orchestration Configuration
+
+providers:
+  anthropic:
+    default_model: "claude-3-5-sonnet-20241022"
+    reasoning_model: "claude-3-5-sonnet-20241022"
+    temperature: 0.2
+    api_key_env: "ANTHROPIC_API_KEY"
+  openai:
+    default_model: "gpt-4o"
+    reasoning_model: "o1-preview"
+    temperature: 0.2
+    api_key_env: "OPENAI_API_KEY"
+  gemini:
+    default_model: "gemini-1.5-pro"
+    fast_model: "gemini-1.5-flash"
+    temperature: 0.2
+    api_key_env: "GEMINI_API_KEY"
+  mock:
+    enabled_as_fallback: true
+    description: "Offline deterministic mock provider used when API keys are absent."
+
+council_roles:
+  client_steward:
+    provider: "anthropic"
+    fallback_provider: "gemini"
+    prompt_file: "prompts/client_steward.txt"
+    focus: "Client goals, constraints, values, and horizon alignment."
+    
+  fundamental_analyst:
+    provider: "openai"
+    fallback_provider: "anthropic"
+    prompt_file: "prompts/fundamental_analyst.txt"
+    focus: "Competitive moat, financial quality, ROIC, capital allocation."
+
+  valuation_analyst:
+    provider: "anthropic"
+    fallback_provider: "openai"
+    prompt_file: "prompts/valuation_analyst.txt"
+    focus: "Deterministic DCF interpretation, terminal value sensitivity, comps."
+
+  quant_analyst:
+    provider: "gemini"
+    fallback_provider: "openai"
+    prompt_file: "prompts/quant_analyst.txt"
+    focus: "Factor rankings, beta, volatility, covariance, and tracking error."
+
+  macro_analyst:
+    provider: "anthropic"
+    fallback_provider: "openai"
+    prompt_file: "prompts/macro_analyst.txt"
+    focus: "Interest rate sensitivity, inflation regime, business cycle positioning."
+
+  bull_researcher:
+    provider: "openai"
+    fallback_provider: "gemini"
+    prompt_file: "prompts/bull_researcher.txt"
+    focus: "Strongest empirical upside case, growth vectors, margin expansion."
+
+  bear_researcher:
+    provider: "anthropic"
+    fallback_provider: "openai"
+    prompt_file: "prompts/bear_researcher.txt"
+    focus: "Adversarial thesis, downside vulnerabilities, competitive threats."
+
+  risk_officer:
+    provider: "gemini"
+    fallback_provider: "anthropic"
+    prompt_file: "prompts/risk_officer.txt"
+    focus: "Portfolio tail risk, marginal CVaR contribution, concentration limits."
+
+  evidence_auditor:
+    provider: "openai"
+    fallback_provider: "anthropic"
+    prompt_file: "prompts/evidence_auditor.txt"
+    focus: "Audit claims against deterministic numerical outputs and source filings."
+
+  committee_chair:
+    provider: "anthropic"
+    fallback_provider: "openai"
+    prompt_file: "prompts/committee_chair.txt"
+    focus: "Synthesis of independent reports, debate adjudication, final committee verdict."
+
+execution_protocol:
+  independent_phase_a_b: true    # Models A and B must not see each other's outputs initially
+  max_retries: 3
+  timeout_seconds: 45
+  require_fact_labeling: true     # Must prefix claims with [FACT], [CALCULATION], or [INFERENCE]

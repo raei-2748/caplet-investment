@@ -1,0 +1,38 @@
+# config/competition.yaml
+# Official Wharton Global High School Investment Competition Rules & Constraints
+
+competition:
+  name: "2026-2027 Wharton Global High School Investment Competition"
+  simulator_platform: "Wharton Investment Simulator (WInS)"
+  starting_capital_usd: 100000.00
+  base_currency: "USD"
+  
+timeline:
+  trading_start_date: "2026-09-28"
+  trading_end_date: "2026-12-04"
+  midterm_ips_deadline: "2026-10-30"
+  final_report_deadline: "2026-12-11"
+  semifinal_announcement_date: "2027-01-25"
+
+trading_rules:
+  min_stocks: 10                   # Wharton typically mandates holding between 10 and 20 stocks
+  max_stocks: 20
+  min_position_weight: 0.025       # Minimum 2.5% allocation
+  max_position_weight: 0.150       # Maximum 15.0% allocation per stock
+  max_sector_weight: 0.250         # Maximum 25.0% allocation per GICS sector
+  min_cash_balance_pct: 0.005      # Minimum 0.5% cash buffer maintained
+  max_cash_balance_pct: 0.100      # Cannot sit > 10% in cash (must remain predominantly invested)
+  allow_short_selling: false       # Long-only portfolio (Wharton prohibition on shorting)
+  allow_options_derivatives: false # No derivatives or leverage permitted
+  allow_penny_stocks: false        # Minimum price filter (e.g. >= $5.00)
+  min_share_price_usd: 5.00
+  trading_execution:
+    commission_per_trade_usd: 0.00
+    slippage_estimate_bps: 5.0     # 5 bps realistic execution friction in backtests
+  
+evaluation_rubric_weights:
+  client_alignment_and_ips: 0.25
+  depth_of_research_and_valuation: 0.25
+  portfolio_construction_and_risk: 0.20
+  learning_journey_and_defense: 0.20
+  originality_and_ethics: 0.10

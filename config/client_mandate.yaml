@@ -1,0 +1,90 @@
+# config/client_mandate.yaml
+# Authoritative specification of the Wharton Client Mandate and Strategy
+
+client:
+  name: "Dr. Elena Vance (Representative Demonstration Client)"
+  description: "Biomedical engineer and academic entrepreneur building an endowment for medical innovation research."
+  investment_horizon:
+    timeframe_years: 10
+    timeframe_description: "Long-term capital growth with capital preservation after year 7."
+  financial_goals:
+    primary: "Achieve annualized nominal return of 8-10% net of inflation and costs."
+    secondary: "Generate 2.0% annual cash yield for scholarship grant funding starting Year 3."
+    target_wealth_multiplier: 2.2
+  liquidity_needs:
+    minimum_cash_buffer_pct: 0.02
+    annual_liquidity_draw_pct: 0.015
+    emergency_liquidity_days: 5
+  risk_capacity: "Moderate-High (Substantial non-portfolio academic assets, no debt)."
+  risk_tolerance: "Moderate (Loss aversion during market drawdowns exceeding 20%)."
+  values:
+    impact_objectives:
+      - "Healthcare innovation and accessibility"
+      - "Sustainable operational footprint"
+      - "R&D intensity and technological advancement"
+    exclusion_sectors:
+      - "Tobacco"
+      - "Controversial Weapons"
+      - "Thermal Coal Extraction"
+  constraints:
+    min_market_cap_usd: 1000000000  # $1B minimum market cap
+    min_daily_volume_usd: 5000000   # $5M average daily dollar volume
+    max_emerging_market_exposure: 0.10
+    us_exchange_listed_only: true
+  special_preferences:
+    preferred_themes:
+      - "Quality Healthcare & Life Sciences"
+      - "Automation & Productive AI Infrastructure"
+      - "Energy Transition & Grid Reliability"
+
+strategy:
+  core_thesis: >
+    Compounding high-ROIC, low-leverage businesses exposed to structural secular tailwinds,
+    acquired at prices below intrinsic DCF value, disciplined by systematic risk budgeting.
+  investment_principles:
+    - "Quality First: Invest exclusively in businesses with sustainable moats and high cash ROIC."
+    - "Margin of Safety: Refuse capital allocation without verifiable upside to conservative DCF."
+    - "Tail-Risk Awareness: Construct portfolios using robust CVaR and hierarchical risk parity."
+    - "Auditable Lineage: Every recommendation must have empirical, point-in-time evidence."
+  stock_selection_rules:
+    min_fcf_conversion: 0.70       # FCF / Net Income >= 70%
+    min_roic: 0.12                 # Return on Invested Capital >= 12%
+    max_net_debt_ebitda: 3.0       # Net Debt / EBITDA <= 3.0x
+    min_discount_to_fair_value: 0.10 # >= 10% expected upside to base DCF
+  portfolio_roles:
+    core_compounders:
+      target_weight_range: [0.40, 0.60]
+      description: "Resilient market leaders with pricing power and consistent reinvestment rates."
+    secular_growth:
+      target_weight_range: [0.20, 0.35]
+      description: "High-growth businesses driving technological or healthcare innovation."
+    defensive_cash_generators:
+      target_weight_range: [0.15, 0.30]
+      description: "Low-beta, steady dividend growers providing portfolio stability."
+  sell_rules:
+    - "Thesis Breach: Deterioration in fundamental moat or ROIC dropping below cost of capital for two quarters."
+    - "Valuation Excess: Price exceeding 135% of optimistic Bull Case DCF valuation."
+    - "Risk Breach: Position risk contribution exceeding 25% of total portfolio variance."
+    - "Opportunity Cost: Superior risk-adjusted replacement available with >= 15% valuation spread."
+  rebalance_rules:
+    frequency: "Monthly review, quarterly rebalance"
+    drift_threshold_pct: 0.03      # Trigger rebalance if position drifts > 3% from target
+    turnover_limit_quarterly: 0.20  # Max 20% quarterly portfolio turnover
+  review_rules:
+    mandatory_review_days: 45
+    earnings_reaction_review: true
+
+risk:
+  max_position: 0.15               # Max 15% in any single security
+  min_position: 0.025              # Min 2.5% in any active holding
+  max_sector: 0.25                 # Max 25% in any single GICS sector
+  max_industry: 0.15               # Max 15% in any single industry
+  max_factor_exposure: 1.5         # Max z-score factor tilt vs benchmark
+  liquidity_constraints:
+    max_position_vs_adv: 0.05      # Position must not exceed 5% of 30-day ADV
+  volatility_target: 0.14          # Target annualized portfolio volatility
+  drawdown_threshold: 0.18         # Max allowable simulated peak-to-trough drawdown
+  concentration_limits:
+    max_top_3_pct: 0.40
+    min_holdings_count: 10
+    max_holdings_count: 20

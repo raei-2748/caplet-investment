@@ -1,0 +1,38 @@
+# config/data.yaml
+# Data Provider Interfaces, Storage, and Point-in-Time Parameters
+
+storage:
+  raw_dir: "data/raw"
+  interim_dir: "data/interim"
+  processed_dir: "data/processed"
+  cache_dir: "data/cache"
+  duckdb_path: "data/cache/wharton_ic.duckdb"
+
+providers:
+  market_data:
+    primary: "yfinance"
+    cache_ttl_hours: 24
+    historical_start_date: "2015-01-01"
+    adjusted_prices: true
+    auto_retry_count: 3
+    retry_backoff_factor: 1.5
+
+  filings:
+    primary: "sec_edgar"
+    company_facts_url: "https://data.sec.gov/api/xbrl/companyfacts/"
+    user_agent: "WhartonICTeam student_research@wharton-ic.org"
+    enforce_filing_date_cutoff: true  # CRITICAL: published_date <= as_of_date
+
+  macro:
+    primary: "fred"
+    series:
+      risk_free_10y: "DGS10"
+      risk_free_3m: "DTB3"
+      inflation_cpi: "CPIAUCSL"
+      gdp_growth: "A191RL1Q225SBEA"
+      fed_funds_rate: "FEDFUNDS"
+
+point_in_time:
+  strict_mode: true               # If true, raise exception when any record lacks as_of date
+  reject_future_data: true        # Prevent look-ahead leakage
+  stale_data_warning_days: 90     # Warn if fundamental filing is older than 90 days

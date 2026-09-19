@@ -1,0 +1,32 @@
+# config/portfolio.yaml
+# Portfolio Construction, Optimization Models, and Benchmark Configurations
+
+benchmark:
+  ticker: "SPY"
+  name: "SPDR S&P 500 ETF Trust"
+  secondary_ticker: "ACWI"
+  secondary_name: "iShares MSCI ACWI ETF"
+
+optimization:
+  primary_method: "hrp"            # Hierarchical Risk Parity as primary robust allocator
+  comparison_methods:
+    - "equal_weight"               # Naïve baseline (must be benchmarked against)
+    - "inverse_volatility"         # Simple risk weighting
+    - "factor_score_weighted"      # Multi-factor score proportional allocation
+    - "max_sharpe"                 # Classical Mean-Variance
+    - "min_volatility"             # Minimum Variance
+    - "mean_cvar"                  # Semi-variance / Tail-risk optimization (skfolio MeanRisk)
+    - "risk_budgeting"             # Equal Risk Contribution (ERC)
+    - "hrp"                        # Hierarchical Risk Parity
+
+constraints:
+  min_weight: 0.025                # 2.5% minimum allocation
+  max_weight: 0.150                # 15.0% maximum allocation per security
+  max_sector_weight: 0.250         # 25.0% maximum per GICS sector
+  cash_buffer_pct: 0.020           # 2.0% cash allocation
+  target_assets_count: 14          # Recommended 12-16 holdings (within Wharton 10-20 limits)
+
+rebalancing:
+  frequency: "quarterly"           # Walk-forward rebalance cadence
+  transaction_cost_bps: 5.0        # Estimated institutional execution fee / slippage
+  turnover_constraint_pct: 0.25    # Maximum allowable portfolio turnover per rebalance
