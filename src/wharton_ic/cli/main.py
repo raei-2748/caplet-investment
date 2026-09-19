@@ -380,7 +380,22 @@ def journal_lessons():
 def journal_evolution():
     """Outputs the complete 'How our thinking evolved over the competition' story."""
     engine = DecisionJournalEngine()
-    console.print(engine.reconstruct_evolution_story())
+    console.print(engine.get_evolution_narrative())
+
+@journal_app.command("verify-chain")
+def journal_verify_chain():
+    """Verifies the cryptographic hash-chain integrity of the Decision Journal."""
+    engine = DecisionJournalEngine()
+    res = engine.verify_chain()
+    if res["valid"]:
+        console.print(f"[bold green]✓ Decision Journal Hash Chain Verified: {res['status']}[/bold green]")
+        console.print(f"Events verified: {res['event_count']}, Head Hash: {res.get('head_hash', 'N/A')[:16]}...")
+    else:
+        console.print(f"[bold red]✗ TAMPERING DETECTED in Decision Journal![/bold red]")
+        console.print(f"Broken Event ID: {res['tampered_event_id']}, Index: {res['index']}")
+        console.print(f"Reason: {res['reason']}")
+        raise typer.Exit(code=1)
+
 
 
 # ==========================================

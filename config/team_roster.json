@@ -1,0 +1,110 @@
+[
+  {
+    "member_id": "CAPLET-01",
+    "display_name": "Lead Portfolio Manager",
+    "role": "Portfolio Manager",
+    "active": true,
+    "added_at": "2026-09-19",
+    "source": "WHARTON_OFFICIAL_REGISTRATION",
+    "eligibility_status": "VERIFIED_HIGH_SCHOOL_STUDENT"
+  },
+  {
+    "member_id": "CAPLET-02",
+    "display_name": "Chief Risk Officer",
+    "role": "Risk Lead",
+    "active": true,
+    "added_at": "2026-09-19",
+    "source": "WHARTON_OFFICIAL_REGISTRATION",
+    "eligibility_status": "VERIFIED_HIGH_SCHOOL_STUDENT"
+  },
+  {
+    "member_id": "CAPLET-03",
+    "display_name": "Fundamental Analyst Lead",
+    "role": "Equity Research",
+    "active": true,
+    "added_at": "2026-09-19",
+    "source": "WHARTON_OFFICIAL_REGISTRATION",
+    "eligibility_status": "VERIFIED_HIGH_SCHOOL_STUDENT"
+  },
+  {
+    "member_id": "CAPLET-04",
+    "display_name": "Quantitative Strategist",
+    "role": "Quant Modeling",
+    "active": true,
+    "added_at": "2026-09-19",
+    "source": "WHARTON_OFFICIAL_REGISTRATION",
+    "eligibility_status": "VERIFIED_HIGH_SCHOOL_STUDENT"
+  },
+  {
+    "member_id": "STUDENT-A",
+    "display_name": "Student A",
+    "role": "Student Analyst",
+    "active": true,
+    "added_at": "2026-09-19",
+    "source": "WHARTON_OFFICIAL_REGISTRATION",
+    "eligibility_status": "VERIFIED_HIGH_SCHOOL_STUDENT"
+  },
+  {
+    "member_id": "STUDENT-B",
+    "display_name": "Student B",
+    "role": "Student Analyst",
+    "active": true,
+    "added_at": "2026-09-19",
+    "source": "WHARTON_OFFICIAL_REGISTRATION",
+    "eligibility_status": "VERIFIED_HIGH_SCHOOL_STUDENT"
+  },
+  {
+    "member_id": "STUDENT-C",
+    "display_name": "Student C",
+    "role": "Student Analyst",
+    "active": true,
+    "added_at": "2026-09-19",
+    "source": "WHARTON_OFFICIAL_REGISTRATION",
+    "eligibility_status": "VERIFIED_HIGH_SCHOOL_STUDENT"
+  },
+  {
+    "member_id": "STUDENT-LEAD",
+    "display_name": "Student Lead",
+    "role": "Team Lead",
+    "active": true,
+    "added_at": "2026-09-19",
+    "source": "WHARTON_OFFICIAL_REGISTRATION",
+    "eligibility_status": "VERIFIED_HIGH_SCHOOL_STUDENT"
+  },
+  {
+    "member_id": "RAY",
+    "display_name": "Ray",
+    "role": "Student Researcher",
+    "active": true,
+    "added_at": "2026-09-19",
+    "source": "WHARTON_OFFICIAL_REGISTRATION",
+    "eligibility_status": "VERIFIED_HIGH_SCHOOL_STUDENT"
+  },
+  {
+    "member_id": "ELENA",
+    "display_name": "Elena",
+    "role": "Student Researcher",
+    "active": true,
+    "added_at": "2026-09-19",
+    "source": "WHARTON_OFFICIAL_REGISTRATION",
+    "eligibility_status": "VERIFIED_HIGH_SCHOOL_STUDENT"
+  },
+  {
+    "member_id": "PM",
+    "display_name": "PM",
+    "role": "Portfolio Manager",
+    "active": true,
+    "added_at": "2026-09-19",
+    "source": "WHARTON_OFFICIAL_REGISTRATION",
+    "eligibility_status": "VERIFIED_HIGH_SCHOOL_STUDENT"
+  },
+  {
+    "member_id": "RISK",
+    "display_name": "Risk",
+    "role": "Risk Officer",
+    "active": true,
+    "added_at": "2026-09-19",
+    "source": "WHARTON_OFFICIAL_REGISTRATION",
+    "eligibility_status": "VERIFIED_HIGH_SCHOOL_STUDENT"
+  }
+]

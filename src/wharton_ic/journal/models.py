@@ -2,6 +2,8 @@
 
 from datetime import datetime
 from enum import Enum
+import hashlib
+import json
 from typing import Any, Dict, List, Optional
 from pydantic import BaseModel, Field, ConfigDict
 
@@ -27,7 +29,9 @@ class JournalEventType(str, Enum):
 
 
 class JournalEvent(BaseModel):
-    """An immutable, timestamped record of an authentic team decision or learning event."""
+    """An immutable, tamper-evident record of an authentic team decision or learning event."""
+    model_config = ConfigDict(frozen=True)
+
     event_id: str
     timestamp: str = Field(default_factory=lambda: datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
     event_type: JournalEventType
@@ -43,6 +47,15 @@ class JournalEvent(BaseModel):
     later_outcome: Optional[str] = None
     retrospective_lesson: Optional[str] = None
     metadata: Dict[str, Any] = Field(default_factory=dict)
+    
+    # Hash-chain integrity fields
+    previous_event_hash: Optional[str] = None
+    event_hash: Optional[str] = None
 
-    model_config = ConfigDict(frozen=True)
-
+    def compute_canonical_hash(self, prev_hash: Optional[str] = None) -> str:
+        """Computes deterministic SHA-256 hash over event payload and previous hash."""
+        data = self.model_dump(exclude={"event_hash", "previous_event_hash"})
+        canonical_json = json.dumps(data, sort_keys=True)
+        prev = prev_hash or self.previous_event_hash or "GENESIS"
+        to_hash = f"{prev}:{self.timestamp}:{canonical_json}"
+        return hashlib.sha256(to_hash.encode("utf-8")).hexdigest()

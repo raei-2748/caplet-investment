@@ -1,8 +1,8 @@
-"""AI Authorship Firewall protecting authentic student authorship."""
+"""AI Authorship Firewall protecting authentic student authorship (Caplet V2.1)."""
 
 from typing import List, Tuple
 from wharton_ic.core.exceptions import WhartonICException
-from wharton_ic.reporting_v2.models import AuthorshipType, ContentBlock
+from wharton_ic.reporting_v2.models import AuthorshipType, ContentBlock, ContentOrigin
 
 
 class AIAuthorshipViolationError(WhartonICException):
@@ -11,7 +11,7 @@ class AIAuthorshipViolationError(WhartonICException):
 
 
 class AIAuthorshipFirewall:
-    """Enforces strict academic integrity and Wharton AI policy compliance."""
+    """Enforces strict academic integrity, non-washable provenance, and Wharton AI policy compliance."""
 
     @staticmethod
     def audit_blocks(blocks: List[ContentBlock]) -> Tuple[bool, List[str]]:
@@ -27,13 +27,20 @@ class AIAuthorshipFirewall:
                     "Students must rewrite and synthesize in 'report/student_authored/'."
                 )
 
-            # Rule 2: UNKNOWN authorship cannot be submitted
-            elif b.authorship_type == AuthorshipType.UNKNOWN:
+            # Rule 2: Authorship Washing Detection (AI origin cannot masquerade as pure HUMAN_AUTHORED)
+            elif b.origin == ContentOrigin.AI and b.authorship_type == AuthorshipType.HUMAN_AUTHORED:
                 violations.append(
-                    f"Block {b.block_id} has UNKNOWN authorship. All text must be verified as student-authored or deterministic code."
+                    f"Block {b.block_id} has origin=AI but is labeled as HUMAN_AUTHORED. "
+                    "AI-generated text cannot be washed into human origin simply through editing."
                 )
 
-            # Rule 3: AI_ASSISTED_IDEA must carry mandatory disclosure
+            # Rule 3: Unknown origin blocks final compilation
+            elif b.origin == ContentOrigin.UNKNOWN or b.authorship_type == AuthorshipType.UNKNOWN:
+                violations.append(
+                    f"Block {b.block_id} has UNKNOWN origin/authorship. Unknown origin blocks final compilation."
+                )
+
+            # Rule 4: AI_ASSISTED_IDEA must carry mandatory disclosure
             elif b.authorship_type == AuthorshipType.AI_ASSISTED_IDEA:
                 if not b.has_mandatory_disclosure and not b.citations:
                     violations.append(

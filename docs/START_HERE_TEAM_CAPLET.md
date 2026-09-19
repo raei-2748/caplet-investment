@@ -175,12 +175,27 @@ In late November, we do **NOT** ask an AI to write our report. Instead:
 | **View Trading Notes** | `wharton-ic journal trading-notes` |
 | **View Decision Timeline** | `wharton-ic journal timeline` |
 | **Reconstruct Story** | `wharton-ic journal evolution` |
-| **Compile Evidence Pack** | `wharton-ic report evidence-pack` |
-| **Run Judge Review** | `wharton-ic report judge-review` |
 | **Audit AI Authorship** | `wharton-ic report audit-ai` |
+| **Verify Journal Hash-Chain** | `wharton-ic journal verify-chain` |
 
 ---
 
-## 9. Let's Win Wharton!
+## 9. Key V2.1 Enhancements: What You Need to Know
+
+### 1. Multi-Signature Student Governance
+Major competition actions (Strategy approval, Final portfolio freeze) require **at least 2 registered, distinct student signatures** from `config/team_roster.json`. AI agents are strictly forbidden from signing approval forms. If student debate notes are not recorded, the system strictly stores `NOT_RECORDED` rather than synthesizing fake student consensus.
+
+### 2. Proposition-Level Evidence Verification
+Having a source citation is no longer enough (`SOURCE_EXISTS != SOURCE_SUPPORTS_CLAIM`). Every factual claim requires a verified locator (page/paragraph) and direct supporting quote. Any contradictory evidence is immediately flagged.
+
+### 3. Cryptographic Decision Journal
+Every logged event is cryptographically hashed and chained to the previous event with SHA-256. Running `wharton-ic journal verify-chain` mathematically proves that our decision history was written chronologically in real-time throughout the 10 weeks, providing unbreakable integrity for judges.
+
+### 4. Non-Washable Authorship Lineage
+AI-generated text can never be "washed" into human-authored text by simply revising it. The AI Authorship Firewall permanently preserves `origin = AI` even after student edits, ensuring 100% transparent compliance with Wharton's AI policy.
+
+---
+
+## 10. Let's Win Wharton!
 
 You now have the most sophisticated, ethical, and auditable operating system in the entire Wharton competition. Focus on client fit, master your company moats, be honest about mistakes, and enjoy the journey as a team!

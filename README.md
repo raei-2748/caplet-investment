@@ -1,12 +1,12 @@
-# `wharton-ic`: Wharton-Native Infrastructure & AI Council V2
+# `wharton-ic`: Reference-Grounded Architecture & AI Council V2.1
 ## Institutional Decision-Support Operating System for Team Caplet
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
-[![Tests](https://img.shields.io/badge/tests-47%20passed-brightgreen.svg)](tests/)
+[![Tests](https://img.shields.io/badge/tests-58%20passed-brightgreen.svg)](tests/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Wharton Competition](https://img.shields.io/badge/Wharton%20IC-2026--2027-red.svg)](https://globalyouth.wharton.upenn.edu/investment-competition/)
 
-`wharton-ic` is an institutional-grade, auditable, client-constrained investment research and decision-support operating system engineered specifically for **Team Caplet** in the **2026–2027 Wharton Global High School Investment Competition**.
+`wharton-ic` is an institutional-grade, reference-grounded, client-constrained investment research and decision-support operating system engineered specifically for **Team Caplet** in the **2026–2027 Wharton Global High School Investment Competition**.
 
 It is built around one foundational principle:
 

@@ -49,6 +49,7 @@ class SecurityResearchProposal(BaseModel):
     committee_recommendation: CommitteeRecommendation = CommitteeRecommendation.RESEARCH_MORE
     committee_conditions: List[str] = Field(default_factory=list)
     council_deliberation_log: Dict[str, Any] = Field(default_factory=dict)
+    council_disagreements: List[str] = Field(default_factory=list)
 
     # Mandatory Human Governance Gate
     human_status: HumanSecurityStatus = HumanSecurityStatus.PENDING_STUDENT_DECISION

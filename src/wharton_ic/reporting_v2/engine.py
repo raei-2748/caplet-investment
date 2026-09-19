@@ -14,6 +14,7 @@ from wharton_ic.reporting_v2.models import (
     ContentBlock,
     ReportEvidencePack,
 )
+from wharton_ic.rules.models import AuthorityLevel, RuleStatus
 from wharton_ic.rules.registry import RuleRegistry
 from wharton_ic.strategy.engine import StrategyCouncilEngine
 
@@ -45,8 +46,20 @@ class WhartonReportEngineV2:
         j_engine = journal_engine or DecisionJournalEngine(self.root_dir / "decisions" / "journal")
         auditor = evidence_auditor or EvidenceLineageAuditor()
 
-        # 1. Rules
-        verified_rules = [r.model_dump() for r in rules.list_rules()]
+        # 1. Rules: Distinguish Verified vs Unknown vs Team Interpretations
+        all_rules = rules.list_rules()
+        verified_rules = [
+            r.model_dump() for r in all_rules
+            if r.status in (RuleStatus.OFFICIAL_PUBLIC_VERIFIED, RuleStatus.OFFICIAL_PRIVATE_VERIFIED) and r.authority_level > AuthorityLevel.TEAM_INTERPRETATION
+        ]
+        unknown_rules = [
+            r.model_dump() for r in all_rules
+            if r.status == RuleStatus.UNKNOWN
+        ]
+        team_interpretations = [
+            r.model_dump() for r in all_rules
+            if r.authority_level == AuthorityLevel.TEAM_INTERPRETATION
+        ]
 
         # 2. Client Mandate
         mandate = m_engine.load_mandate()
@@ -74,6 +87,8 @@ class WhartonReportEngineV2:
         pack = ReportEvidencePack(
             pack_id=f"PACK-{datetime.now().strftime('%Y%m%d-%H%M%S')}",
             verified_rules=verified_rules,
+            unknown_rules=unknown_rules,
+            team_interpretations=team_interpretations,
             client_mandate=mandate_dict,
             approved_strategy=strategy_dict,
             decision_timeline=timeline,

@@ -25,33 +25,23 @@ This document records the provenance, licensing, and attribution of external lib
 
 ---
 
-## 2. Conceptual Provenance and Intellectual Lineage
+## 2. Reference Repositories Forensic Metadata (V2.1)
 
-The design of `wharton-ic` draws conceptual inspiration from multiple institutional frameworks while maintaining 100% original, clean-room implementation:
-
-1. **Declarative Pipeline Configuration & Report Outputs**:
-   - *Inspiration*: `gavin-ho1/wharton-investment-comp` (Hotchkiss School - Bullish Bearcats, MIT License).
-   - *Attribution*: The concept of separating pipeline stages into a declarative YAML configuration file and exporting automated final report tables was inspired by the Hotchkiss workflow.
-   - *Distinction*: `wharton-ic` completely reimagines the backend with point-in-time stores, out-of-sample walk-forward backtests, client-mandate constraints, and deterministic DCF engines.
-
-2. **Adversarial Multi-Agent Financial Council**:
-   - *Inspiration*: `TauricResearch/TradingAgents` (Apache-2.0 License) and `AI4Finance-Foundation/FinRobot` (Apache-2.0 License).
-   - *Attribution*: The division of labor into independent analytical roles (Fundamental, Quant, Valuation, Macro) followed by an adversarial Bull vs. Bear debate and Risk Officer review.
-   - *Distinction*: In `wharton-ic`, language models are strictly forbidden from performing financial arithmetic. All numerical calculations are executed by deterministic Python engines and provided as frozen inputs to the council.
-
-3. **Mandate Abstraction**:
-   - *Inspiration*: `virattt/ai-hedge-fund` (MIT License).
-   - *Attribution*: Structuring the investment strategy as a client mandate with explicit constraints.
-   - *Distinction*: `wharton-ic` adapts the mandate specifically to Wharton High School Investment Competition rules (client case study, ethics/impact values, risk tolerance, investment horizon, and approved universe constraints).
-
-4. **Convex Portfolio Optimization**:
-   - *Implementation*: Direct integration of `skfolio` (BSD-3-Clause).
-   - *Distinction*: `wharton-ic` wraps `skfolio` estimators with Wharton-specific constraint management, tracking error budgets, benchmark comparisons, and explainable decision logs.
+| Repository | Exact Commit SHA | Inspected Date | License | Competition Verified | Role in Caplet |
+|---|---|---|---|---|---|
+| **TauricResearch/TradingAgents** | `2d17df8da1536c121e4d7395ac5a5dcec9e96d6f` | 2026-09-19 | Apache-2.0 | General FinTech | ADAPT: State graph, deterministic checkpointing, multi-round debate |
+| **AI4Finance-Foundation/FinRobot** | `6d6ccd32c1b8b1904dc656cf06897438aba3daec` | 2026-09-19 | Apache-2.0 | General FinTech | ADAPT: Specialist agent library, compute-vs-reasoning boundaries |
+| **virattt/ai-hedge-fund** | `154a8b2f46dca0f40764d814e4e747b0ad71f4c4` | 2026-09-19 | MIT | General FinTech | ADAPT: First-class `CapletMandate` independent of tickers |
+| **gavin-ho1/wharton-investment-comp** | `ac08d15fce77d06064bf8dd7303a6bf04c3ec2f0` | 2026-09-19 | MIT | Yes (Hotchkiss Top 50 Semifinalist 2025-26) | ADAPT: Correlation clustering, deterministic report exhibits |
+| **aaravp6/All-Wharton-Investment-Competition** | `9b6a93bb79a4a33298e057bd96be92b149d0cbee` | 2026-09-19 | NONE (Unlicensed) | Yes (Amity 2nd Global 2022-23) | LEARN_ONLY: Client liability survival simulation concept |
+| **davidliu-2008/wharton-investment-competition25-26** | `89526f3e284d84c64b2d799739290c9148d42b6d` | 2026-09-19 | NONE (Unlicensed) | Yes (Semifinalist 2025-26) | LEARN_ONLY: Barbell defensive/offensive sleeve concept |
 
 ---
 
 ## 3. Compliance and Originality Declaration
 
 - **No Code Plagiarism**: No proprietary strategy code, heuristic factor weights, or competition narratives from previous competitors have been copied or reproduced.
+- **Unlicensed Repositories Protected**: Code from `aaravp6/All-Wharton-Investment-Competition` and `davidliu-2008/wharton-investment-competition25-26` is strictly classified as `LEARN_ONLY` due to the absence of an open-source license. Zero lines of code have been imported from them.
 - **Original Architecture**: All data schemas, valuation models, risk metrics, decision ledgers, and CLI commands were designed and coded specifically for `wharton-ic`.
 - **License Compatibility**: All open-source packages and architectural inspirations comply with their respective MIT, Apache-2.0, and BSD licenses.
+

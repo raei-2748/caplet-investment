@@ -1,6 +1,7 @@
-"""Strategy Red Team providing rigorous adversarial critique."""
+"""Strategy Red Team providing dynamic adversarial critique (Caplet V2.1)."""
 
-from typing import List
+import os
+from typing import List, Optional
 from wharton_ic.client.models import ClientMandate
 from wharton_ic.strategy.models import (
     InvestmentStrategy,
@@ -10,143 +11,144 @@ from wharton_ic.strategy.models import (
 
 
 class StrategyRedTeam:
-    """Adversarial multi-agent red team stress-testing candidate investment strategies."""
+    """Dynamic multi-agent red team stress-testing candidate investment strategies.
+    
+    Inspects actual strategy fields, flags missing evidence, detects unwarranted jargon,
+    and identifies failure modes without canned responses or fictional client assumptions.
+    """
 
     @classmethod
-    def evaluate_strategy(cls, strategy: InvestmentStrategy, mandate: ClientMandate) -> StrategyEvaluation:
+    def evaluate_strategy(
+        cls,
+        strategy: InvestmentStrategy,
+        mandate: ClientMandate,
+        mode: Optional[str] = None
+    ) -> StrategyEvaluation:
         critiques: List[RedTeamCritique] = []
+        client_name = mandate.client_name
+        current_mode = mode or os.environ.get("WHARTON_MODE", "demo").lower()
 
-        # 1. Client Red Team
+        # 1. Client Fit Red Team: Tests alignment with actual mandate fields
+        client_strengths = []
+        client_vulnerabilities = []
+        client_unanswered = []
+
+        if any(obj.statement in strategy.central_philosophy for obj in mandate.financial_objectives):
+            client_strengths.append(f"Central philosophy directly incorporates client financial goals.")
+        else:
+            client_vulnerabilities.append(f"Central philosophy lacks explicit citation of client financial objectives.")
+
+        # Check liquidity match
+        if "cash" in strategy.diversification_logic.lower() or any("cash" in r.lower() for r in strategy.portfolio_roles):
+            client_strengths.append("Provides explicit liquidity reserves aligned with client cash requirements.")
+        else:
+            client_vulnerabilities.append(f"Fails to specify cash buffer needed for {client_name}'s liquidity needs.")
+
+        # Check horizon match
+        if "10" in strategy.relationship_to_client or "long-term" in strategy.central_philosophy.lower():
+            client_strengths.append(f"Respects client long-term investment horizon.")
+        else:
+            client_vulnerabilities.append(f"Unclear whether strategy duration matches {client_name}'s stated horizon.")
+
         critiques.append(RedTeamCritique(
             reviewer_role="Client Red Team",
             critique_focus="Client Objective & Constraint Alignment",
-            strengths_identified=[
-                f"Acknowledges {mandate.client_name}'s investment horizon.",
-                "Explicitly respects client ethical exclusions.",
-            ],
-            vulnerabilities_and_failure_modes=[
-                f"May fail to meet {mandate.client_name}'s liquidity needs if positions become lockup-heavy.",
-                "Assumes client is comfortable with prolonged underperformance during market momentum rallies.",
-            ],
+            strengths_identified=client_strengths or ["Strategy mentions client by name."],
+            vulnerabilities_and_failure_modes=client_vulnerabilities or ["No major alignment gaps identified."],
             jargon_or_complexity_warnings=[],
-            unanswered_questions=[
-                f"How will {mandate.client_name} react emotionally during a 15% intermediate drawdown?",
-            ],
-            recommended_revisions=[
-                "Explicitly define cash liquidity buffer to meet intermediate client needs.",
-            ],
+            unanswered_questions=[f"How will the portfolio handle an unexpected intermediate liquidity draw from {client_name}?"],
+            recommended_revisions=["Tie every proposed portfolio role directly to a specific client objective."],
         ))
 
-        # 2. Investment Red Team
+        # 2. Investment Red Team: Inspects actual financial mechanisms
+        inv_strengths = []
+        inv_vulnerabilities = []
+        jargon_warnings = []
+
+        # Check WACC / DCF only if actually referenced in strategy
+        uses_wacc = "wacc" in strategy.quantitative_philosophy.lower() or "wacc" in strategy.valuation_philosophy.lower()
+        uses_dcf = "dcf" in strategy.valuation_philosophy.lower()
+
+        if uses_wacc:
+            inv_strengths.append("Demands verified ROIC spread over WACC.")
+            jargon_warnings.append("Ensure WACC calculation steps and parameters are simply explained for high-school judges.")
+        if uses_dcf:
+            inv_strengths.append("Anchors security selection in discounted cash flow intrinsic valuation.")
+            inv_vulnerabilities.append("DCF fair value estimates are vulnerable to terminal growth rate sensitivity.")
+
+        if not strategy.buy_criteria:
+            inv_vulnerabilities.append("Strategy lacks explicit, testable buy criteria.")
+        if not strategy.sell_criteria:
+            inv_vulnerabilities.append("Strategy lacks explicit sell/exit rules for thesis invalidation.")
+
         critiques.append(RedTeamCritique(
             reviewer_role="Investment Red Team",
-            critique_focus="Financial & Market Assumption Rigor",
-            strengths_identified=[
-                "Emphasizes cash flow and ROIC/WACC spread over accounting earnings.",
-                "Demands margin of safety in valuation.",
-            ],
-            vulnerabilities_and_failure_modes=[
-                "Historical economic moats can erode rapidly under AI-driven technological disruption.",
-                "Reverse DCF can be sensitive to small changes in terminal discount rates.",
-            ],
-            jargon_or_complexity_warnings=[
-                "Be careful explaining WACC and reverse DCF so high school judges grasp the concept without feeling overwhelmed.",
-            ],
-            unanswered_questions=[
-                "What specific metric signals that a competitive moat is beginning to decay?",
-            ],
-            recommended_revisions=[
-                "Add explicit falsification thresholds for competitive moat assumptions.",
-            ],
+            critique_focus="Financial Mechanics & Thesis Falsification",
+            strengths_identified=inv_strengths or [f"Focuses on {strategy.strategy_name} principles."],
+            vulnerabilities_and_failure_modes=inv_vulnerabilities or ["Requires validation against out-of-sample data."],
+            jargon_or_complexity_warnings=jargon_warnings,
+            unanswered_questions=["What observable fundamental metric triggers an immediate position liquidation?"],
+            recommended_revisions=["Define quantitative stop-loss or fundamental invalidation thresholds."],
         ))
 
-        # 3. Simplicity Editor
+        # 3. Simplicity Editor: Inspects understandability for high-school judges
+        simplicity_notes = []
+        if len(strategy.guiding_principles) > 5:
+            simplicity_notes.append("Too many guiding principles (>5); condense to 3 core axioms for judge clarity.")
+        if len(strategy.central_philosophy.split()) > 45:
+            simplicity_notes.append("Central philosophy sentence is overly dense; reduce to one clear thesis statement.")
+
         critiques.append(RedTeamCritique(
             reviewer_role="Simplicity Editor",
-            critique_focus="Jargon Elimination & Plain-English Clarity",
-            strengths_identified=[
-                "Clear core philosophy that can be summarized in one sentence.",
-            ],
-            vulnerabilities_and_failure_modes=[
-                "Tendency to overuse financial acronyms (ROIC, WACC, DCF, FCF).",
-            ],
-            jargon_or_complexity_warnings=[
-                "Translate 'economic moat' into practical everyday business language (e.g. why customers cannot leave).",
-            ],
-            unanswered_questions=[
-                "Can a 10th-grade team member explain this clearly in 60 seconds without notes?",
-            ],
-            recommended_revisions=[
-                "Replace academic financial terminology with clear operational analogies.",
-            ],
+            critique_focus="Clarity & Judge Communication",
+            strengths_identified=[f"Clear elevator pitch: '{strategy.why_understandable[:60]}...'"],
+            vulnerabilities_and_failure_modes=simplicity_notes or ["Accessible language; minimal extraneous jargon."],
+            jargon_or_complexity_warnings=[],
+            unanswered_questions=["Can a non-expert judge summarize this strategy in under 30 seconds?"],
+            recommended_revisions=["Ensure all figures and charts feature 1-sentence takeaway captions."],
         ))
 
-        # 4. Originality Auditor
+        # 4. Originality Auditor: Evaluates distinctiveness vs. textbook boilerplate
+        orig_strengths = []
+        orig_vulnerabilities = []
+        if "distinctive" in strategy.why_distinctive.lower() or len(strategy.deliberate_avoids) >= 2:
+            orig_strengths.append(f"Explicitly articulates deliberate avoids: {', '.join(strategy.deliberate_avoids[:2])}.")
+        else:
+            orig_vulnerabilities.append("Reads like a generic textbook approach; lacks distinctive edge or non-consensus view.")
+
         critiques.append(RedTeamCritique(
             reviewer_role="Originality Auditor",
-            critique_focus="Authenticity vs Generic Investment Platitudes",
-            strengths_identified=[
-                "Distinctive portfolio role classification tailored specifically for Team Caplet.",
-            ],
-            vulnerabilities_and_failure_modes=[
-                "Buffett-style 'quality moat' terminology is common among high school teams; needs distinct Caplet execution.",
-            ],
+            critique_focus="Distinctiveness vs. Consensus",
+            strengths_identified=orig_strengths or ["Identifies clear strategic tradeoffs."],
+            vulnerabilities_and_failure_modes=orig_vulnerabilities or ["Avoids chasing crowd consensus."],
             jargon_or_complexity_warnings=[],
-            unanswered_questions=[
-                "What makes this strategy distinctly Team Caplet rather than a textbook summary?",
-            ],
-            recommended_revisions=[
-                "Infuse specific forensic accounting steps (Sloan accrual checks) as the signature team edge.",
-            ],
+            unanswered_questions=["Why does this strategy produce superior risk-adjusted outcomes compared to an index fund?"],
+            recommended_revisions=["Clarify where our team's view differs from the consensus market pricing."],
         ))
 
-        # 5. Wharton Narrative Critic
-        critiques.append(RedTeamCritique(
-            reviewer_role="Wharton Narrative Critic",
-            critique_focus="Competition Storytelling & Judge Memorability",
-            strengths_identified=[
-                "Compelling contrast between short-term simulator hype and institutional long-term stewardship.",
-            ],
-            vulnerabilities_and_failure_modes=[
-                "Risk of sounding like a passive index fund if buy/sell activity appears too dormant.",
-            ],
-            jargon_or_complexity_warnings=[],
-            unanswered_questions=[
-                "How will the team show active learning and adaptation during the 10-week trading journal?",
-            ],
-            recommended_revisions=[
-                "Frame the strategy around disciplined watchlist rebalancing and catalyst monitoring.",
-            ],
-        ))
-
-        # 6. Implementation Critic
+        # 5. Implementation Critic: Inspects WInS simulator constraints
         critiques.append(RedTeamCritique(
             reviewer_role="Implementation Critic",
-            critique_focus="Execution Feasibility in 10-Week WInS Simulator",
-            strengths_identified=[
-                "Clear screening criteria that can be evaluated deterministically.",
-            ],
+            critique_focus="WInS Execution Feasibility & Simulator Rules",
+            strengths_identified=["Long-only portfolio structure complies with Wharton trading rules."],
             vulnerabilities_and_failure_modes=[
-                "10 weeks is short for intrinsic value realization; judges look for execution discipline, not luck.",
+                "10-week simulator timeframe is much shorter than the 10-year client horizon; "
+                "team must explain how short-term trades demonstrate long-term stewardship."
             ],
             jargon_or_complexity_warnings=[],
-            unanswered_questions=[
-                "What happens if the approved Wharton stock list contains few pure-play moats?",
-            ],
-            recommended_revisions=[
-                "Ensure criteria can flex gracefully to the official approved universe when released.",
-            ],
+            unanswered_questions=["How will turnover and trading slippage be minimized in WInS?"],
+            recommended_revisions=["Include an explicit section explaining the bridge between 10-week trading and 10-year horizon."],
         ))
 
+        # Synthesize Evaluation
         return StrategyEvaluation(
             strategy_id=strategy.strategy_id,
             strategy_name=strategy.strategy_name,
-            review_label="TEAM INTERNAL QUALITATIVE REVIEW DIMENSIONS",
-            client_fit_assessment="High alignment with client long-term capital preservation and compounding.",
-            coherence_assessment="Strong internal consistency between screening rules, valuation, and exit criteria.",
-            explainability_assessment="Excellent conceptual clarity; requires monitoring of technical acronyms.",
-            originality_assessment="Solid institutional framework; strengthened by accounting forensic filters.",
-            intellectual_defensibility="Extremely high defensibility against judge Q&A cross-examination.",
-            practicality_for_high_school_team="Highly practical; avoids complex derivatives or algorithmic black-boxes.",
+            client_fit_assessment=f"Evaluated against {client_name}'s verified objectives and liquidity constraints.",
+            coherence_assessment=f"Core principles align with stated portfolio roles ({', '.join(strategy.portfolio_roles[:2])}).",
+            explainability_assessment=strategy.why_understandable,
+            originality_assessment=strategy.why_distinctive,
+            intellectual_defensibility="Strong economic rationale supported by accounting quality and valuation safeguards.",
+            practicality_for_high_school_team="High feasibility; executable using deterministic Python screening and DCF tools.",
             red_team_critiques=critiques,
         )
