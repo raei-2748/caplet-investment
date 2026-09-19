@@ -1,218 +1,262 @@
-# `wharton-ic`: Institutional Investment Research & Decision-Support Operating System
+# `wharton-ic`: Wharton-Native Infrastructure & AI Council V2
+## Institutional Decision-Support Operating System for Team Caplet
 
-[![Python 3.12+](https://img.shields.io/badge/python-3.12%2B-blue.svg)](https://www.python.org/downloads/)
-[![Tests](https://img.shields.io/badge/tests-14%20passed-brightgreen.svg)](tests/)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
+[![Tests](https://img.shields.io/badge/tests-47%20passed-brightgreen.svg)](tests/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Wharton Competition](https://img.shields.io/badge/Wharton%20IC-2026--2027-red.svg)](https://globalyouth.wharton.upenn.edu/competitions/investment-competition/)
+[![Wharton Competition](https://img.shields.io/badge/Wharton%20IC-2026--2027-red.svg)](https://globalyouth.wharton.upenn.edu/investment-competition/)
 
-`wharton-ic` is an institutional-quality, auditable, client-constrained investment operating system engineered specifically for high school teams competing in the **Wharton Global High School Investment Competition**.
+`wharton-ic` is an institutional-grade, auditable, client-constrained investment research and decision-support operating system engineered specifically for **Team Caplet** in the **2026–2027 Wharton Global High School Investment Competition**.
 
-It is **NOT** a generic algorithmic trading bot or black-box stock picker. Wharton does not primarily reward short-term simulated returns; it evaluates teams on **client alignment, strategic coherence, depth of analysis, disciplined portfolio construction, risk awareness, originality, and the ability to defend decisions**.
+It is built around one foundational principle:
 
-`wharton-ic` anchors the entire competition journey on a rigorous fiduciary pipeline:
-$$\text{CLIENT} \to \text{STRATEGY} \to \text{RESEARCH} \to \text{EVIDENCE} \to \text{VALUATION} \to \text{PORTFOLIO} \to \text{RISK} \to \text{COUNCIL} \to \text{HUMAN SIGN-OFF} \to \text{MONITORING} \to \text{AUDIT TRAIL}$$
-
----
-
-## 1. Non-Negotiable Core Design Principles
-
-1. **Numbers from Code; Reasoning from Models**
-   Language models are hard-coded to **never** perform authoritative financial arithmetic, portfolio optimization, valuation mathematics, factor rankings, or backtest returns in natural language prose. Vectorized Python libraries (`skfolio`, `scipy`, `pandas`, `cvxpy`, `statsmodels`) compute 100% of mathematical figures. Language models interpret, challenge assumptions, construct bull/bear theses, and synthesize evidence.
-2. **Point-in-Time Integrity (Zero Look-Ahead Leakage)**
-   Historical analyses and backtests strictly enforce `filing_date <= as_of_date`. Future fundamentals, restatements, or prices cannot contaminate historical states.
-3. **Evidence Before Assertion**
-   The Evidence Auditor automatically cross-references every qualitative claim against verified deterministic data, tagging statements as `[FACT]`, `[CALCULATION]`, or `[INFERENCE]`.
-4. **Client First**
-   No security is "good" in isolation. Every asset must serve an explicit strategic role (Core Compounder, Secular Growth, Defensive Cash Generator) mapped to client goals, horizon, liquidity, and ethical exclusions.
-5. **Human Sovereign Approval**
-   The platform is pure decision-support. No security can be purchased on the Wharton Investment Simulator without an explicit human student signature recorded in `15_human_decision.md`.
-6. **Simple Must Beat Complex**
-   Sophisticated models (Hierarchical Risk Parity, Mean-CVaR, multi-factor models) are rigorously benchmarked against naive Equal Weight and SPY baselines.
+> **WHARTON IS THE ROOT CONFIGURATION.**
+> - No guessed competition rules.
+> - No invented judging weights.
+> - No fake client constraints presented as real.
+> - No previous-team strategy treated as authoritative.
+> - No AI agent is allowed to substitute its own assumptions for official Wharton materials or student decisions.
 
 ---
 
-## 2. System Architecture
+## 1. The 7-Level Hierarchy of Authority
+
+The system programmatically enforces an authority hierarchy across all code, models, and reports:
+
+```
+[Level 100] OFFICIAL_PRIVATE_VERIFIED
+    └── Released Sept 15, 2026 via SurveyMonkey Apply (Client case, WInS trading limits, rubrics)
+           │
+[Level 80]  OFFICIAL_PUBLIC_VERIFIED
+    └── Published on Wharton Global Youth webpages (Dates, team composition, ethics policy)
+           │
+[Level 60]  OFFICIAL_GUIDEBOOK_VERIFIED
+    └── Official current competition guidebooks and participant FAQs
+           │
+[Level 40]  TEAM_INTERPRETATION
+    └── Explicit deductions authored and signed by student team members
+           │
+[Level 20]  HISTORICAL_ONLY
+    └── 2025 or earlier competition materials (Usable for benchmarking only; NEVER overrides current)
+           │
+[Level 10]  INSPIRATION
+    └── Previous winning team repositories and strategies
+           │
+[Level 0]   AI_REASONING
+    └── Model generation and argumentation — NEVER AUTHORITATIVE EVIDENCE
+```
+
+Any unknown private competition rule explicitly remains `UNKNOWN / AWAITING_OFFICIAL_MATERIAL` with confidence `0.0`. The system fails closed rather than inventing arbitrary constraints.
+
+---
+
+## 2. End-to-End System Architecture
 
 ```mermaid
 flowchart TD
-    subgraph Config ["1. Configuration Layer (YAML)"]
-        C1["client_mandate.yaml\n(Goals, Horizon, Values, Constraints)"]
-        C2["competition.yaml\n(Wharton Rules: 10-20 Stocks, 15% Max Asset, 25% Sector)"]
-        C3["risk.yaml\n(14% Target Vol, 20% Max DD, Fat-Tailed Scenarios)"]
+    subgraph RulesLayer ["1. Wharton Rule Custodian & Ingestion"]
+        R1["wharton_public_2026_27.yaml\n(Verified Public Timeline & Philosophy)"]
+        R2["wharton_private_2026_27.yaml\n(Placeholder awaiting Sept 15 release)"]
+        R3["Official Material Ingestion\n(competition/official/2026_27/manifest.yaml)"]
+        R4["RuleRegistry & ConflictDetector\n(Precedence: Private > Public > Historical)"]
     end
 
-    subgraph Data ["2. Point-in-Time Data Engine"]
-        D1["ApprovedUniverseEngine\n(Authoritative Wharton Securities)"]
-        D2["PointInTimeStore\n(Filing date isolation)"]
-        D3["YFinance & SEC EDGAR Adapters\n(Parquet disk cache)"]
+    subgraph ClientLayer ["2. Client Mandate Engine"]
+        C1["Client Case PDF\n(SurveyMonkey Apply)"]
+        C2["ClientMandate Schema\n(CLIENT_FACT vs INTERPRETATION vs ASSUMPTION)"]
+        C3["ClientMandateAuditor\n(Objective Tensions & Citation Checks)"]
+        C4["Human Client Approval Gate\n(wharton-ic client approve)"]
     end
 
-    subgraph Quant ["3. Deterministic Quantitative Engines"]
-        Q1["Fundamental Forensics\n(ROIC, Sloan Accruals, Altman Z)"]
-        Q2["FactorScreeningEngine\n(Winsorized Sector-Neutral Z)"]
-        Q3["ValuationEngine\n(DCF, WACC, Reverse DCF, Comps)"]
-        Q4["PortfolioOptimizer (skfolio)\n(HRP, CVaR, MinVol, MaxSharpe)"]
-        Q5["Convex Constraint Projector (CVXPY)\n(Box Bounds & Sector Caps)"]
-        Q6["WalkForwardBacktester\n(Rolling out-of-sample)"]
-        Q7["ScenarioStressEngine\n(Student-t Monte Carlo 5,000 paths)"]
+    subgraph StrategyLayer ["3. Strategy Formation & Red Team"]
+        S1["Strategy Architect A\n(Resilient Quality Moats)"]
+        S2["Strategy Architect B\n(Structural Transitions)"]
+        S3["Strategy Architect C\n(All-Weather Endowment)"]
+        S4["Strategy Red Team\n(6 Adversarial Lenses)"]
+        S5["Human Strategy Gate\n(Minimum 2 Student Signatures)"]
     end
 
-    subgraph Council ["4. Multi-Model AI Council"]
-        A1["Blind Phase A & B\n(Independent Model Evaluations)"]
-        A2["Adversarial Debate\n(Bull vs. Bear Researcher)"]
-        A3["Risk Officer & Client Steward Review"]
-        A4["Evidence Auditor\n(Fact & Math Reconciliation)"]
-        A5["Committee Chair Memo"]
+    subgraph ResearchLayer ["4. Security Research & Evidence Lineage"]
+        F1["Synthetic Fixtures\n(TEST_ALPHA, TEST_BETA, TEST_GAMMA)"]
+        F2["Security Proposal Schema\n(13 Institutional Questions)"]
+        F3["EvidenceLineageAuditor\n(SOURCE → DATUM → CALC → CLAIM → THESIS)"]
+        F4["Security Council (11 Roles)\n(Chair produces RECOMMENDATION only)"]
+        F5["Human Security Gate\n(Signed 15_human_decision.md)"]
     end
 
-    subgraph Governance ["5. Auditability & Human Gate"]
-        G1["Immutable Decision Ledger\n(00_metadata to 14_verdict)"]
-        G2{"15_human_decision.md\n(Mandatory Student Signature)"}
-        G3["PortfolioMonitor\n(Weight drift & thesis breach alerts)"]
+    subgraph JournalLayer ["5. Decision History & Trading Notes"]
+        J1["DecisionJournalEngine\n(17 Event Types: Trades, Mistakes, Lessons)"]
+        J2["Official Trading Notes\n(wharton-ic journal trading-notes)"]
+        J3["Competition Evolution Story\n('How Our Thinking Evolved')"]
     end
 
-    subgraph Output ["6. Deliverables & Report Pack"]
-        O1["outputs/report_pack/\n(Verified CSV/MD Tables & Captions)"]
-        O2["outputs/charts/\n(Publication-Grade PNG Visuals)"]
-        O3["AI_USE.md & ai_use_log.jsonl\n(Ethics & Attribution)"]
+    subgraph ReportLayer ["6. Reporting Engine & AI Authorship Firewall"]
+        RP1["Report Evidence Pack\n(Tables, Charts, Decisions, Audit Alerts)"]
+        RP2["Student-Authored Text\n(report/student_authored/)"]
+        RP3["AI Authorship Firewall\n(Rejects raw AI-generated prose)"]
+        RP4["Wharton Judge Review Council\n(9 Perspectives; judge_review.md)"]
     end
 
-    Config --> Data
-    Data --> Quant
-    Quant --> Council
-    Council --> Governance
-    Governance --> Output
+    RulesLayer --> ClientLayer
+    ClientLayer --> StrategyLayer
+    StrategyLayer --> ResearchLayer
+    ResearchLayer --> JournalLayer
+    JournalLayer --> ReportLayer
 ```
 
 ---
 
-## 3. Quick Start & Installation
+## 3. Subsystem Breakdown
 
-### Prerequisites
-- macOS or Linux
-- Python 3.12+
-- `uv` package manager (`curl -LsSf https://astral.sh/uv/install.sh | sh`)
+### A. Wharton Rule Custodian (`src/wharton_ic/rules/`)
+- Encodes all verified public facts (competition dates, team rules, evaluation philosophy, deliverables, AI guidelines).
+- `RuleRegistry`, `RuleValidator`, `RuleConflictDetector`, `RuleCitationExporter`.
+- `OfficialMaterialIngestor`: SHA-256 tracking of private files into `competition/official/2026_27/manifest.yaml`.
 
-### Installation
+### B. Client Mandate Engine (`src/wharton_ic/client/`)
+- Categorizes all inputs into `CLIENT_FACT` (with primary citation), `TEAM_INTERPRETATION`, and `STRATEGIC_ASSUMPTION`.
+- `ClientMandateAuditor`: Detects dialectical tensions between horizon, return goals, and risk capacity.
+- Human approval gate required before strategy generation.
+
+### C. Strategy Council & Red Team (`src/wharton_ic/strategy/`)
+- Three independent Strategy Architects (A: Quality Moats, B: Structural Transitions, C: All-Weather).
+- Strategy Red Team: 6 adversarial reviewers (Client, Investment, Simplicity, Originality, Narrative, Implementation).
+- Qualitative dimensions strictly labeled `TEAM INTERNAL REVIEW DIMENSIONS`.
+- Human Strategy Gate requiring $\ge 2$ student signatures and 20+ character rationale.
+- Durable Strategy Memory answering the 14 competition reflection questions.
+
+### D. Security Research & Evidence Lineage (`src/wharton_ic/research/`, `src/wharton_ic/evidence/`)
+- 13-question institutional security proposal template.
+- Test fixtures using synthetic tickers: `TEST_ALPHA`, `TEST_BETA`, `TEST_GAMMA`.
+- Rebuilt Evidence System: Prohibits AI self-certification. 7 statuses (`VERIFIED`, `UNSUPPORTED`, `CONTRADICTED`, `INFERENCE`, etc.).
+- Lineage DAG: `SOURCE` $\to$ `DATUM` $\to$ `CALCULATION` $\to$ `CLAIM` $\to$ `THESIS` $\to$ `DECISION` $\to$ `REPORT STATEMENT`.
+
+### E. Decision History, Journal & Trading Notes (`src/wharton_ic/journal/`)
+- Immutable timestamped event logging across 17 competition categories.
+- Reconstructs authentic narrative: *"How our thinking evolved over the competition"*.
+- Automatically generates official Wharton Trading Notes deliverable.
+
+### F. Report Engine V2 & AI Authorship Firewall (`src/wharton_ic/reporting_v2/`)
+- Compiles a **Report Evidence Pack**, not ghostwritten student prose.
+- AI Authorship Firewall enforces content-block level provenance (`HUMAN_AUTHORED`, `AI_ASSISTED_IDEA`, `DETERMINISTIC_CODE`). Rejects raw `AI_GENERATED` narrative in submissions.
+- Physical file segregation: AI ideas in `outputs/research_assistance/`; student drafts in `report/student_authored/`.
+
+### G. Wharton Judge Review Council (`src/wharton_ic/review/`)
+- 9 adversarial review perspectives auditing student draft packages.
+- Generates `outputs/report_pack/judge_review.md` without fake numerical points.
+
+---
+
+## 4. Mode Isolation: DEMO vs. PRODUCTION
+
+| Feature | DEMO Mode (`WHARTON_MODE=demo`) | PRODUCTION Mode (`WHARTON_MODE=production`) |
+| :--- | :--- | :--- |
+| **Client Mandate** | Prototype demo client (`demo_client_mandate.yaml`) | **FAILS CLOSED** if official 2026 client case is missing |
+| **Securities** | Synthetic test fixtures (`TEST_ALPHA`, etc.) | Requires official approved Wharton stock list |
+| **AI Reasoning** | Deterministic mock generator fallback | **FAILS CLOSED** (`CouncilPartialError`) if API keys missing |
+| **Outputs** | `decisions/demo/`, `outputs/demo/` | `decisions/`, `outputs/` |
+| **Submission** | Labeled **DEMONSTRATION ONLY** | Verified competition deliverable packages |
+
+---
+
+## 5. Comprehensive CLI Reference
+
 ```bash
-# Clone the repository
-git clone https://github.com/raei-2748/caplet-investment.git wharton-ic
-cd wharton-ic
+# ---------------------------------------------------------
+# 1. RULES & INGESTION
+# ---------------------------------------------------------
+wharton-ic rules status                          # View status of verified vs unknown rules
+wharton-ic rules list                            # List all rules with authority level
+wharton-ic rules conflicts                       # Check for rule contradictions / supersessions
+wharton-ic rules verify RULE_ID --by "Student"   # Verify a pending parsed rule
+wharton-ic rules export-citations                # Export Markdown citations table
+wharton-ic ingest-official <FILE> --type <TYPE>  # Ingest official September 15 package
 
-# Create Python 3.12 virtual environment and install dependencies
-uv venv --python 3.12
-source .venv/bin/activate
-uv pip install -e .
+# ---------------------------------------------------------
+# 2. CLIENT MANDATE
+# ---------------------------------------------------------
+wharton-ic client show                           # Display active client mandate
+wharton-ic client audit                          # Audit client facts, tensions, and citations
+wharton-ic client approve --signer "PM" --notes "Audited against official case study PDF."
 
-# Verify CLI installation
-wharton-ic --help
+# ---------------------------------------------------------
+# 3. STRATEGY COUNCIL & RED TEAM
+# ---------------------------------------------------------
+wharton-ic strategy run-council                  # Run Architects A, B, C & Red Team
+wharton-ic strategy candidates                   # List candidate strategy summaries
+wharton-ic strategy approve --id "STRAT-A-QUALITY-MOAT" --signer "PM" --signer "Risk" --rationale "..."
+wharton-ic strategy show                         # Display active approved strategy
+wharton-ic strategy memory                       # Answer 14 competition reflection questions
+
+# ---------------------------------------------------------
+# 4. SECURITY RESEARCH & EVIDENCE
+# ---------------------------------------------------------
+wharton-ic research fixture-eval TEST_ALPHA      # Evaluate synthetic fixture
+wharton-ic screen --top-n 10                     # Multi-factor quality & value screen
+wharton-ic value <TICKER> --wacc 0.08 --growth 0.03  # 3-Stage DCF & Reverse DCF
+wharton-ic propose <TICKER>                      # Run 11-member Security Council
+wharton-ic review <TICKER> --approve --signer "PM" --notes "Approved following council debate."
+
+# ---------------------------------------------------------
+# 5. DECISION JOURNAL & TRADING NOTES
+# ---------------------------------------------------------
+wharton-ic journal add --type TRADE_EXECUTED --title "..." --decision "..." --reason "..." --participant "..."
+wharton-ic journal timeline                      # View chronological decision timeline
+wharton-ic journal trading-notes                 # Export official Trading Notes deliverable
+wharton-ic journal lessons                       # View mistakes and lessons learned
+wharton-ic journal evolution                     # Reconstruct competition journey narrative
+
+# ---------------------------------------------------------
+# 6. REPORT ENGINE & AI AUDIT
+# ---------------------------------------------------------
+wharton-ic report evidence-pack                  # Compile comprehensive Report Evidence Pack
+wharton-ic report judge-review                   # Run 9-role Judge Review Council
+wharton-ic report audit-ai                       # Audit text blocks through AI Authorship Firewall
+
+# ---------------------------------------------------------
+# 7. PROTOTYPE DEMONSTRATION
+# ---------------------------------------------------------
+wharton-ic demo                                  # Run complete local workflow demonstration
 ```
 
-### Run All Tests
+---
+
+## 6. Complete Documentation Suite
+
+All system manuals are located in `docs/`:
+
+1. **[`START_HERE_TEAM_CAPLET.md`](docs/START_HERE_TEAM_CAPLET.md)** — The flagship high-school student handbook.
+2. **[`v2_gap_audit.md`](docs/v2_gap_audit.md)** — Architectural audit and rationalization report.
+3. **[`wharton_rule_system.md`](docs/wharton_rule_system.md)** — Rule custodian and 7-level authority precedence.
+4. **[`ai_council_architecture.md`](docs/ai_council_architecture.md)** — Multi-agent hierarchy and 7-phase protocol.
+5. **[`client_mandate_process.md`](docs/client_mandate_process.md)** — Fact classification and mandate tension audit.
+6. **[`strategy_council.md`](docs/strategy_council.md)** — Strategy architects, red teaming, and human gate.
+7. **[`decision_governance.md`](docs/decision_governance.md)** — 16 decision artifacts and human trade gates.
+8. **[`evidence_lineage.md`](docs/evidence_lineage.md)** — Anti-hallucination engine and evidence DAG.
+9. **[`trading_notes_and_journal.md`](docs/trading_notes_and_journal.md)** — 17 journal event types and Trading Notes.
+10. **[`report_engine.md`](docs/report_engine.md)** — Report evidence pack and Team Caplet architecture.
+11. **[`ai_authorship_compliance.md`](docs/ai_authorship_compliance.md)** — AI firewall and academic integrity policy.
+12. **[`production_vs_demo.md`](docs/production_vs_demo.md)** — Mode isolation and fail-closed protocols.
+13. **[`wharton_workflow_v2.md`](docs/wharton_workflow_v2.md)** — Master season roadmap (Sept 15 – Dec 4, 2026).
+14. **[`methodology.md`](docs/methodology.md)** — Mathematical formulations for all financial models.
+
+---
+
+## 7. Verification & Test Suite
+
+The test suite covers **47 automated tests** across all 33 acceptance criteria:
+
 ```bash
-# Run 100% of acceptance tests (Unit, Leakage, Regression, Integration)
-pytest -v
+# Run complete test suite
+pytest tests/
 ```
 
----
-
-## 4. Complete CLI Command Reference
-
-| Command | Description |
-|---|---|
-| `wharton-ic demo` | **Runs full end-to-end competition demonstration workflow.** |
-| `wharton-ic audit-references` | Displays forensic audit of past winning Wharton competitor repositories. |
-| `wharton-ic ingest-official` | Ingests official Wharton competition files from `competition/official/`. |
-| `wharton-ic update-data` | Refreshes local Parquet price caches and financial statements. |
-| `wharton-ic screen` | Executes multi-factor cross-sectional screening across approved universe. |
-| `wharton-ic research TICKER` | Displays audited point-in-time fundamentals, ROIC, and accrual metrics. |
-| `wharton-ic value TICKER` | Runs deterministic DCF, WACC, Comps, Reverse DCF, and 2D Sensitivity. |
-| `wharton-ic debate TICKER` | Executes adversarial Bull vs. Bear debate and Evidence Audit. |
-| `wharton-ic propose TICKER` | Convenes multi-model council and generates immutable decision ledger. |
-| `wharton-ic portfolio` | Runs all 8 `skfolio` optimizers with Wharton box & sector constraints. |
-| `wharton-ic backtest` | Executes out-of-sample walk-forward backtest with turnover slippage. |
-| `wharton-ic stress` | Runs 2008/2020/2022 crisis replays and 5,000-path fat-tailed Monte Carlo. |
-| `wharton-ic monitor` | Scans portfolio for weight drift (>3%), sector caps, and thesis drawdowns. |
-| `wharton-ic review TICKER` | Inspects decision ledger and human approval status. |
-| `wharton-ic export-report-pack` | Exports verified tables, publication charts, and captions for Final Report. |
-
----
-
-## 5. The Immutable Decision Ledger
-
-Every investment considered by the team receives a dedicated, tamper-proof directory in `decisions/YYYY-MM-DD_TICKER/` containing 16 standardized artifacts:
-
-```
-decisions/2026-09-19_MSFT/
-├── 00_metadata.json          # Decision ID, ticker, status, author, target weight
-├── 01_client_fit.json        # Quantitative goal, horizon, liquidity, and values scores
-├── 02_sources.json           # Raw SEC filings, URLs, retrieval timestamps, hashes
-├── 03_fundamentals.json      # Audited ROIC, Net Debt/EBITDA, Altman Z, accruals
-├── 04_valuation.json         # DCF cash flow schedules, WACC inputs, sensitivity matrix
-├── 05_quant.json             # Factor percentiles, beta, annualized vol, tracking error
-├── 06_macro.md               # Macroeconomic sensitivity and interest rate exposure
-├── 07_independent_model_A.md # Blind independent report from Model Family A (OpenAI)
-├── 08_independent_model_B.md # Blind independent report from Model Family B (Anthropic)
-├── 09_bull_case.md           # Strongest evidence-backed upside thesis & variant perception
-├── 10_bear_case.md           # Adversarial failure modes & thesis-breaking exit conditions
-├── 11_risk.json              # Marginal volatility contribution & marginal CVaR
-├── 12_portfolio_impact.json  # Post-trade sector concentration & correlation delta
-├── 13_evidence_audit.json    # Classification into [FACT], [CALCULATION], [INFERENCE]
-├── 14_committee_verdict.json # Council synthesis & target weight recommendation
-└── 15_human_decision.md      # MANDATORY STUDENT SIGNATURE BLOCK
-```
-
-> [!IMPORTANT]
-> **Human Approval Gate**: `15_human_decision.md` must be signed with `APPROVED` by a student team member before any trade can be placed on the Wharton Investment Simulator.
-
----
-
-## 6. Official Wharton Files Ingestion
-
-When official Wharton materials are released for the 2026–2027 competition, place them directly into `competition/official/`:
-- `client_case.pdf`: Official client profile and mandate.
-- `approved_securities.csv`: Official authorized stock and ETF list.
-- `competition_rules.pdf`: WInS trading guidelines and constraints.
-
-Then run:
-```bash
-wharton-ic ingest-official
-```
-
----
-
-## 7. AI Ethics & Wharton Policy Compliance
-
-`wharton-ic` is strictly engineered to comply with Wharton's competition ethics policies:
-- **No Unlabeled AI Prose**: All tables, metrics, and figure captions exported to `outputs/report_pack/` are generated deterministically by Python code.
-- **Machine-Readable Audit Trail**: Every LLM interaction is recorded in `outputs/ai_use_log.jsonl` tracking model name, timestamp, prompt version, and role.
-- **Student Ownership**: All investment theses, portfolio selections, and report text represent the independent intellectual work of high school team members.
-- See [docs/AI_USE.md](docs/AI_USE.md) for our full disclosure text to include in the Final Report Appendix.
-
----
-
-## 8. Documentation Sitemap
-
-- [docs/architecture.md](docs/architecture.md): Deep architectural specification and subsystem data flow.
-- [docs/reference_audit.md](docs/reference_audit.md): Forensic technical audit of 9 past winner & AI framework repositories.
-- [docs/benchmark_against_previous_teams.md](docs/benchmark_against_previous_teams.md): Comparative infrastructure matrix vs past finalists.
-- [docs/methodology.md](docs/methodology.md): Mathematical formulations for DCF, WACC, HRP, CVaR, and Monte Carlo.
-- [docs/data_dictionary.md](docs/data_dictionary.md): Provenance fields, accounting variables, and risk metrics.
-- [docs/decision_process.md](docs/decision_process.md): Human-in-the-loop decision governance manual.
-- [docs/wharton_workflow.md](docs/wharton_workflow.md): Step-by-step student playbook from Day 1 to Final Report.
-- [docs/AI_USE.md](docs/AI_USE.md): Ethical AI disclosure and compliance guidelines.
-- [docs/THIRD_PARTY.md](docs/THIRD_PARTY.md): Provenance and open-source licensing acknowledgments.
-
----
-
-## 9. Limitations & Technical Debt
-
-1. **Market Data Provider Fallback**: While `yfinance` serves as a resilient, zero-cost data provider with local Parquet caching and synthetic fallbacks, high-frequency intraday tick data is out of scope (unnecessary for Wharton's long-term horizon).
-2. **Options and Derivatives**: Per official Wharton competition rules, short-selling and derivatives are prohibited and intentionally unsupported.
-3. **Execution Delay**: WInS simulator trades execute on market open/close; backtests assume execution at the next trading day's adjusted close with 5 bps slippage friction.
-
----
-
-## 10. License
-Distributed under the MIT License. See `LICENSE` for details.
-All open-source libraries (`skfolio`, `scipy`, `cvxpy`, `pydantic`, `typer`) are utilized in full compliance with their respective BSD, Apache-2.0, and MIT licenses.
+Test coverage includes:
+- **Rules (Tests 1–5)**: UNKNOWN confidence bounds, private rule precedence, historical rule protection, pending parsed rule states, conflict detection.
+- **Demo/Production (Tests 6–9)**: Synthetic data rejection in production, mock AI prohibition, demo artifact exclusion, fail-closed material checks.
+- **Client (Tests 10–12)**: Source citation requirements, interpretation separation, human approval enforcement.
+- **Strategy (Tests 13–16)**: AI approval prohibition, signature thresholds, alternative preservation, client linkage.
+- **Evidence (Tests 17–21)**: Anti-hallucination, unsupported number detection, contradiction flagging, inference labeling, DAG lineage tracing.
+- **Council (Tests 22–25)**: Independent phase blind isolation, provider failure `CouncilPartialError`, human approval gate, disagreement preservation.
+- **Journal (Tests 26–28)**: Immutable event timestamping, append-only integrity, timeline narrative reconstruction.
+- **Reporting (Tests 29–33)**: AI prose rejection, factual source lineage, missing evidence alerts, public deliverable audit, architecture labeling.

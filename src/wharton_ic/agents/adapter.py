@@ -1,11 +1,20 @@
-"""Provider-agnostic LLM adapter supporting Anthropic, OpenAI, Gemini, and Mock fallback."""
+"""Provider-agnostic LLM adapter supporting Anthropic, OpenAI, Gemini, and Mock fallback.
 
-import os
-import json
+Strictly isolates DEMO from PRODUCTION execution:
+- In DEMO mode, deterministic mock fallback is enabled for local offline testing.
+- In PRODUCTION mode, missing keys or failed API calls FAIL CLOSED with CouncilPartialError.
+"""
+
 from datetime import datetime
+import json
+import os
 from pathlib import Path
-from typing import Dict, Any, Optional
+from typing import Any, Dict, Optional
+
+from wharton_ic.core.config import ConfigManager
+from wharton_ic.core.exceptions import CouncilPartialError
 from wharton_ic.core.logging import logger
+
 
 class AIUseLogger:
     """Logs every LLM interaction to outputs/ai_use_log.jsonl for Wharton competition compliance."""
@@ -22,7 +31,9 @@ class AIUseLogger:
         prompt_version: str,
         prompt_text: str,
         response_text: str,
-        is_mock: bool = False
+        is_mock: bool = False,
+        influenced_human_decision: bool = False,
+        cost_estimate_usd: float = 0.0,
     ) -> None:
         """Appends a machine-readable record to the audit log."""
         record = {
@@ -34,7 +45,9 @@ class AIUseLogger:
             "is_mock": is_mock,
             "prompt_length_chars": len(prompt_text),
             "response_length_chars": len(response_text),
-            "wharton_report_impact": True
+            "influenced_human_decision": influenced_human_decision,
+            "cost_estimate_usd": cost_estimate_usd,
+            "wharton_report_impact": True,
         }
         try:
             with open(self.log_path, "a", encoding="utf-8") as f:
@@ -42,15 +55,19 @@ class AIUseLogger:
         except Exception as e:
             logger.warning(f"Failed to append to AI use log: {e}")
 
+
 ai_logger = AIUseLogger()
 
+
 class LLMAdapter:
-    """
-    Unified multi-model client supporting OpenAI, Anthropic, Gemini,
-    with an audited deterministic mock provider when API keys are absent.
+    """Unified multi-model client supporting OpenAI, Anthropic, Gemini.
+    
+    In PRODUCTION mode, fails closed if providers are unavailable.
+    In DEMO mode, engages deterministic mock generator.
     """
 
-    def __init__(self):
+    def __init__(self, config_mgr: Optional[ConfigManager] = None):
+        self.config_mgr = config_mgr or ConfigManager()
         self.anthropic_key = os.getenv("ANTHROPIC_API_KEY")
         self.openai_key = os.getenv("OPENAI_API_KEY")
         self.gemini_key = os.getenv("GEMINI_API_KEY")
@@ -62,83 +79,112 @@ class LLMAdapter:
         system_prompt: str,
         user_prompt: str,
         role: str = "analyst",
-        prompt_version: str = "1.0.0"
+        prompt_version: str = "1.0.0",
+        influenced_decision: bool = False,
     ) -> str:
-        """Routes prompt to appropriate provider or engages deterministic mock generator."""
+        """Routes prompt to appropriate provider or engages deterministic mock generator in DEMO mode."""
         provider_clean = provider.lower()
+        is_prod = self.config_mgr.is_production
 
         # Check live keys
-        if provider_clean == "anthropic" and self.anthropic_key:
-            try:
-                import requests
-                headers = {
-                    "x-api-key": self.anthropic_key,
-                    "anthropic-version": "2023-06-01",
-                    "content-type": "application/json"
-                }
-                payload = {
-                    "model": model,
-                    "max_tokens": 2048,
-                    "system": system_prompt,
-                    "messages": [{"role": "user", "content": user_prompt}]
-                }
-                resp = requests.post("https://api.anthropic.com/v1/messages", headers=headers, json=payload, timeout=30)
-                if resp.status_code == 200:
-                    text = resp.json()["content"][0]["text"]
-                    ai_logger.record_call(provider, model, role, prompt_version, user_prompt, text, False)
-                    return text
-            except Exception as e:
-                logger.warning(f"Anthropic API call failed ({e}). Falling back to deterministic mock.")
+        if provider_clean == "anthropic":
+            if not self.anthropic_key and is_prod:
+                raise CouncilPartialError(
+                    "PRODUCTION ERROR: ANTHROPIC_API_KEY is not set. "
+                    "Cannot complete council deliberation in production mode without active provider."
+                )
+            if self.anthropic_key:
+                try:
+                    import requests
+                    headers = {
+                        "x-api-key": self.anthropic_key,
+                        "anthropic-version": "2023-06-01",
+                        "content-type": "application/json",
+                    }
+                    payload = {
+                        "model": model,
+                        "max_tokens": 2048,
+                        "system": system_prompt,
+                        "messages": [{"role": "user", "content": user_prompt}],
+                    }
+                    resp = requests.post("https://api.anthropic.com/v1/messages", headers=headers, json=payload, timeout=30)
+                    if resp.status_code == 200:
+                        text = resp.json()["content"][0]["text"]
+                        ai_logger.record_call(provider, model, role, prompt_version, user_prompt, text, False, influenced_decision)
+                        return text
+                except Exception as e:
+                    if is_prod:
+                        raise CouncilPartialError(f"PRODUCTION ERROR: Anthropic API call failed ({e}). Fail closed.")
+                    logger.warning(f"Anthropic API call failed ({e}). Falling back to deterministic mock in DEMO mode.")
 
-        elif provider_clean == "openai" and self.openai_key:
-            try:
-                import requests
-                headers = {
-                    "Authorization": f"Bearer {self.openai_key}",
-                    "Content-Type": "application/json"
-                }
-                payload = {
-                    "model": model,
-                    "messages": [
-                        {"role": "system", "content": system_prompt},
-                        {"role": "user", "content": user_prompt}
-                    ],
-                    "temperature": 0.2
-                }
-                resp = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload, timeout=30)
-                if resp.status_code == 200:
-                    text = resp.json()["choices"][0]["message"]["content"]
-                    ai_logger.record_call(provider, model, role, prompt_version, user_prompt, text, False)
-                    return text
-            except Exception as e:
-                logger.warning(f"OpenAI API call failed ({e}). Falling back to deterministic mock.")
+        elif provider_clean == "openai":
+            if not self.openai_key and is_prod:
+                raise CouncilPartialError(
+                    "PRODUCTION ERROR: OPENAI_API_KEY is not set. "
+                    "Cannot complete council deliberation in production mode without active provider."
+                )
+            if self.openai_key:
+                try:
+                    import requests
+                    headers = {
+                        "Authorization": f"Bearer {self.openai_key}",
+                        "Content-Type": "application/json",
+                    }
+                    payload = {
+                        "model": model,
+                        "messages": [
+                            {"role": "system", "content": system_prompt},
+                            {"role": "user", "content": user_prompt},
+                        ],
+                        "temperature": 0.2,
+                    }
+                    resp = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload, timeout=30)
+                    if resp.status_code == 200:
+                        text = resp.json()["choices"][0]["message"]["content"]
+                        ai_logger.record_call(provider, model, role, prompt_version, user_prompt, text, False, influenced_decision)
+                        return text
+                except Exception as e:
+                    if is_prod:
+                        raise CouncilPartialError(f"PRODUCTION ERROR: OpenAI API call failed ({e}). Fail closed.")
+                    logger.warning(f"OpenAI API call failed ({e}). Falling back to deterministic mock in DEMO mode.")
 
-        elif provider_clean == "gemini" and self.gemini_key:
-            try:
-                import requests
-                url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={self.gemini_key}"
-                payload = {
-                    "contents": [{"parts": [{"text": f"{system_prompt}\n\n{user_prompt}"}]}],
-                    "generationConfig": {"temperature": 0.2}
-                }
-                resp = requests.post(url, json=payload, timeout=30)
-                if resp.status_code == 200:
-                    text = resp.json()["candidates"][0]["content"]["parts"][0]["text"]
-                    ai_logger.record_call(provider, model, role, prompt_version, user_prompt, text, False)
-                    return text
-            except Exception as e:
-                logger.warning(f"Gemini API call failed ({e}). Falling back to deterministic mock.")
+        elif provider_clean == "gemini":
+            if not self.gemini_key and is_prod:
+                raise CouncilPartialError(
+                    "PRODUCTION ERROR: GEMINI_API_KEY is not set. "
+                    "Cannot complete council deliberation in production mode without active provider."
+                )
+            if self.gemini_key:
+                try:
+                    import requests
+                    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={self.gemini_key}"
+                    payload = {
+                        "contents": [{"parts": [{"text": f"{system_prompt}\n\n{user_prompt}"}]}],
+                        "generationConfig": {"temperature": 0.2},
+                    }
+                    resp = requests.post(url, json=payload, timeout=30)
+                    if resp.status_code == 200:
+                        text = resp.json()["candidates"][0]["content"]["parts"][0]["text"]
+                        ai_logger.record_call(provider, model, role, prompt_version, user_prompt, text, False, influenced_decision)
+                        return text
+                except Exception as e:
+                    if is_prod:
+                        raise CouncilPartialError(f"PRODUCTION ERROR: Gemini API call failed ({e}). Fail closed.")
+                    logger.warning(f"Gemini API call failed ({e}). Falling back to deterministic mock in DEMO mode.")
 
-        # Fallback: Deterministic Mock Generator grounded in prompt inputs
+        # If in production and reached here without response: FAIL CLOSED
+        if is_prod:
+            raise CouncilPartialError(
+                f"PRODUCTION ERROR: No valid response received from provider '{provider}' and mock fallback is prohibited in PRODUCTION."
+            )
+
+        # Fallback: Deterministic Mock Generator grounded in prompt inputs (DEMO ONLY)
         mock_text = self._generate_grounded_mock_response(role, user_prompt)
-        ai_logger.record_call(f"mock_{provider}", model, role, prompt_version, user_prompt, mock_text, True)
+        ai_logger.record_call(f"mock_{provider}", model, role, prompt_version, user_prompt, mock_text, True, influenced_decision)
         return mock_text
 
     def _generate_grounded_mock_response(self, role: str, prompt: str) -> str:
-        """
-        Generates realistic, structured, professional investment analysis text
-        strictly mirroring the numbers passed into the prompt.
-        """
+        """Generates structured analysis text strictly for DEMO / local testing."""
         role_lower = role.lower()
 
         if "client_steward" in role_lower:
@@ -146,10 +192,10 @@ class LLMAdapter:
                 "### 1. Executive Alignment Verdict\n"
                 "**SUPPORT**: This asset strongly satisfies the client mandate's core requirement for resilient long-term capital compounding.\n\n"
                 "### 2. Goal & Horizon Fit\n"
-                "- [FACT] Client investment horizon is 10 years, matching the company's competitive reinvestment cycle.\n"
+                "- [FACT] Client investment horizon matches the company's competitive reinvestment cycle.\n"
                 "- [INFERENCE] High cash conversion supports capital preservation while generating required long-term wealth compounding.\n\n"
                 "### 3. Values & Impact Alignment\n"
-                "- [FACT] Zero exposure to excluded sectors (Tobacco, Weapons, Coal).\n"
+                "- [FACT] Zero exposure to excluded sectors.\n"
                 "- [INFERENCE] Sustainable corporate operations align with client impact objectives.\n\n"
                 "### 4. Strategic Portfolio Role Justification\n"
                 "Recommended Role: **Core Compounder** (Target allocation: 5.0% - 10.0%).\n\n"
@@ -253,5 +299,6 @@ class LLMAdapter:
 
         else:
             return "Standard independent analysis: Asset exhibits high quality, verifiable valuation margin of safety, and strong mandate alignment."
+
 
 llm_adapter = LLMAdapter()

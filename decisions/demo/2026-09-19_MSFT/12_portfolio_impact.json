@@ -1,0 +1,9 @@
+{
+  "marginal_volatility_contribution": 0.018,
+  "marginal_cvar_contribution": 0.024,
+  "current_portfolio_weight": 0.0,
+  "target_portfolio_weight": 0.075,
+  "sector_concentration_post_trade": 0.165,
+  "pairwise_correlation_max": 0.65,
+  "diversification_delta": 0.015
+}

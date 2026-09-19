@@ -1,0 +1,113 @@
+"""Synthetic test fixtures for unit and pipeline tests.
+
+CRITICAL: Uses ONLY TEST_ALPHA, TEST_BETA, and TEST_GAMMA.
+Never uses live tickers (MSFT, AAPL, NVDA) as mock research.
+"""
+
+from typing import Dict, List
+from wharton_ic.research.models import (
+    CommitteeRecommendation,
+    HumanSecurityStatus,
+    SecurityResearchProposal,
+)
+
+
+def get_mock_security_proposals() -> Dict[str, SecurityResearchProposal]:
+    """Returns synthetic fixtures for pipeline validation."""
+    return {
+        "TEST_ALPHA": SecurityResearchProposal(
+            proposal_id="PROP-TEST-ALPHA-01",
+            ticker="TEST_ALPHA",
+            company_name="Alpha Dynamics Synthetic Corp",
+            sector="Industrials",
+            as_of_date="2026-09-19",
+            why_in_strategy="Provides essential industrial automation equipment with high customer switching costs.",
+            client_objective_served="Generates stable 7-10 year cash flows aligned with capital preservation.",
+            portfolio_role="Core Compounder",
+            investment_thesis="Installed base of automated manufacturing machinery drives 70% recurring maintenance revenue.",
+            variant_perception="Market prices stock as a cyclical manufacturer, ignoring high-margin software service expansion.",
+            supporting_evidence_ids=["FILING-ALPHA-10K-2025", "CALC-ROIC-ALPHA"],
+            contradicting_evidence_ids=["FILING-ALPHA-SUPPLY-CHAIN-RISK"],
+            key_risks=["Potential delay in European factory expansion."],
+            falsification_conditions=["Recurring service revenue falls below 55% of gross profit."],
+            review_triggers=["Operating margin drops by more than 200 bps."],
+            why_better_than_alternatives="Higher ROIC (18.5% vs peer 11.2%) and lower financial leverage.",
+            portfolio_impact="Lowers overall portfolio volatility and improves cash conversion efficiency.",
+            jargon_free_summary="Alpha makes essential factory machines that companies cannot easily replace, creating steady income.",
+            deterministic_metrics={
+                "roic": 0.185,
+                "wacc": 0.078,
+                "sloan_accruals": -0.042,
+                "altman_z": 4.15,
+                "dcf_fair_value": 115.50,
+                "market_price": 98.20,
+            },
+            committee_recommendation=CommitteeRecommendation.SUPPORT,
+            committee_conditions=["Verify European customer contract renewals"],
+            human_status=HumanSecurityStatus.PENDING_STUDENT_DECISION,
+        ),
+        "TEST_BETA": SecurityResearchProposal(
+            proposal_id="PROP-TEST-BETA-01",
+            ticker="TEST_BETA",
+            company_name="Beta Healthcare Logistics Synthetic",
+            sector="Health Care",
+            as_of_date="2026-09-19",
+            why_in_strategy="Inelastic cold-chain pharmaceutical distribution network.",
+            client_objective_served="Non-cyclical defensive cash flow buffer.",
+            portfolio_role="Defensive Stabilizer",
+            investment_thesis="Exclusive distribution contracts for temperature-sensitive biologics.",
+            variant_perception="Regulatory reimbursement fear is overblown given mission-critical delivery role.",
+            supporting_evidence_ids=["FILING-BETA-10K-2025"],
+            contradicting_evidence_ids=[],
+            key_risks=["Refrigeration transport energy price spikes."],
+            falsification_conditions=["Loss of primary hospital network contract."],
+            review_triggers=["Fuel surcharge pass-through degradation."],
+            why_better_than_alternatives="Highest route density in North America.",
+            portfolio_impact="Provides negative correlation to economic slowdowns.",
+            jargon_free_summary="Beta delivers temperature-sensitive medicines that hospitals need daily regardless of the economy.",
+            deterministic_metrics={
+                "roic": 0.142,
+                "wacc": 0.065,
+                "sloan_accruals": -0.021,
+                "altman_z": 3.82,
+                "dcf_fair_value": 78.40,
+                "market_price": 64.10,
+            },
+            committee_recommendation=CommitteeRecommendation.SUPPORT,
+            human_status=HumanSecurityStatus.PENDING_STUDENT_DECISION,
+        ),
+        "TEST_GAMMA": SecurityResearchProposal(
+            proposal_id="PROP-TEST-GAMMA-01",
+            ticker="TEST_GAMMA",
+            company_name="Gamma Speculative Tech Synthetic",
+            sector="Information Technology",
+            as_of_date="2026-09-19",
+            why_in_strategy="Fails team core quality criteria; included to test negative rejection gate.",
+            client_objective_served="None - violates capital preservation objective.",
+            portfolio_role="Tactical Speculation",
+            investment_thesis="Rapid user acquisition in cloud gaming with negative free cash flow.",
+            variant_perception="Belief that monetization will follow market share.",
+            supporting_evidence_ids=[],
+            contradicting_evidence_ids=["FILING-GAMMA-CASH-BURN"],
+            key_risks=["Imminent dilution from convertible debt financing."],
+            falsification_conditions=["Cash runway under 6 months."],
+            review_triggers=["Any additional share issuance."],
+            why_better_than_alternatives="It is NOT better; represents poor risk-reward.",
+            portfolio_impact="Increases portfolio drawdown risk significantly.",
+            jargon_free_summary="Gamma is burning cash rapidly without a proven path to profitability.",
+            deterministic_metrics={
+                "roic": -0.085,
+                "wacc": 0.112,
+                "sloan_accruals": 0.142,
+                "altman_z": 1.45,
+                "dcf_fair_value": 18.00,
+                "market_price": 42.50,
+            },
+            committee_recommendation=CommitteeRecommendation.REJECT,
+            committee_conditions=["Excessive cash burn, negative ROIC, extreme valuation risk"],
+            human_status=HumanSecurityStatus.HUMAN_REJECTED,
+            approved_by="Student Risk Committee",
+            approval_timestamp="2026-09-19 12:00:00",
+            approval_notes="Rejected unanimously due to negative cash flow and high dilution risk.",
+        ),
+    }

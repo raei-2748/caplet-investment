@@ -1,0 +1,9 @@
+{
+  "goal_alignment_score": 0.88,
+  "horizon_fit": "10-Year Horizon: Matches long-term reinvestment cycle.",
+  "liquidity_fit": "High Liquidity: Large-cap daily volume > $100M.",
+  "risk_capacity_fit": "Pristine Balance Sheet: Net Debt / EBITDA < 2.0x.",
+  "values_and_impact_fit": "Approved: Zero exclusion sector exposure.",
+  "strategic_role": "Core Compounder",
+  "summary_rationale": "High ROIC business providing steady compounding and capital preservation."
+}

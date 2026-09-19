@@ -1,0 +1,22 @@
+{
+  "filings": {
+    "ticker": "MSFT",
+    "filing_date": "2026-08-05",
+    "period_end": "2026-07-01",
+    "fiscal_period": "FY2025",
+    "revenue": 74577952179.1986,
+    "gross_profit": 41017873698.55923,
+    "operating_income": 21816255752.38272,
+    "net_income": 17453004601.906178,
+    "operating_cash_flow": 22007921606.68693,
+    "capital_expenditures": 3667986934.447822,
+    "free_cash_flow": 18339934672.23911,
+    "total_assets": 144763584460.55865,
+    "total_debt": 20118568811.292614,
+    "cash_and_equivalents": 16220487928.487535,
+    "shares_outstanding": 886794332.7297866
+  },
+  "as_of_date": "2026-09-19",
+  "source_provider": "yfinance_edgar_pipeline",
+  "retrieved_at": "2026-09-19T03:13:49.159103"
+}

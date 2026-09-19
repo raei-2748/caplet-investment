@@ -26,7 +26,7 @@ class ProvenanceMetadata(BaseModel):
         if pub_date > self.as_of:
             if strict:
                 raise PointInTimeViolationError(
-                    message="Information was published after the effective as_of date",
+                    message="Look-Ahead Bias Violation: Information was published after the effective as_of date",
                     as_of_date=str(self.as_of),
                     published_date=str(pub_date),
                     field=self.field

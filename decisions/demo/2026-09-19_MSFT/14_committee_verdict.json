@@ -1,0 +1,14 @@
+{
+  "recommendation": "PROPOSED",
+  "target_weight": 0.075,
+  "chair_report": "### 1. Committee Recommendation\n**RECOMMEND APPROVAL (PROPOSED STATUS)**\n\n### 2. Synthesis of Council Deliberation\nThe Council evaluated the asset across fundamental, valuation, quantitative, and adversarial bear perspectives. The Bull thesis is supported by robust cash conversion, while the Bear concerns are mitigated by conservative leverage.\n\n### 3. Recommended Portfolio Weight\nTarget allocation: **7.5%** in the Core Compounder portfolio role.\n\n### 4. Governance Gate\n**Awaiting Human Investment Committee recorded decision.**",
+  "agent_disagreements": [
+    "Bull model projects 12% 5-year FCF CAGR; Bear model caps forecast at 5% due to macro headwinds.",
+    "Valuation multiple risk flagged by Bear researcher."
+  ],
+  "exit_conditions": [
+    "ROIC dropping below WACC for two consecutive quarters",
+    "Net Debt / EBITDA exceeding 3.0x",
+    "Thesis breach: loss of market leadership in core segment"
+  ]
+}

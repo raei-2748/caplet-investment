@@ -1,0 +1,47 @@
+# Wharton Global High School Investment Competition 2026-2027
+# Official Private Registered-Team Materials Placeholder
+# Status: AWAITING_OFFICIAL_MATERIAL
+# Release Date: September 15, 2026 (via SurveyMonkey Apply)
+
+competition_year: "2026-2027"
+status: "AWAITING_OFFICIAL_MATERIAL"
+source_portal: "SurveyMonkey Apply"
+ingested_at: null
+human_verified: false
+verified_by: null
+
+# Client Profile (UNKNOWN until official case release)
+client_case:
+  client_id: null
+  client_name: null
+  primary_goal: null
+  horizon_years: null
+  risk_profile: null
+  esg_restrictions: null
+  cash_needs: null
+  status: "UNKNOWN"
+
+# Official Trading & Portfolio Rules (UNKNOWN until official release)
+trading_rules:
+  min_positions: null
+  max_positions: null
+  min_position_weight: null
+  max_position_weight: null
+  max_sector_weight: null
+  cash_drag_min: null
+  cash_drag_max: null
+  min_total_trades: null
+  trading_frequency_rules: null
+  status: "UNKNOWN"
+
+# Approved Securities Universe (UNKNOWN until official release)
+approved_securities:
+  list_file: null
+  count: null
+  status: "UNKNOWN"
+
+# Official Evaluation Rubric / Deliverable Specifications (UNKNOWN until official release)
+evaluation_rubric:
+  rubric_version: null
+  weights: null
+  status: "UNKNOWN"

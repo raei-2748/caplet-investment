@@ -1,0 +1,51 @@
+{
+  "status": "WARNING_UNSUPPORTED_CLAIMS",
+  "total_claims": 7,
+  "verified_claims": 6,
+  "unsupported_claims": 1,
+  "verification_rate": 0.8571428571428571,
+  "evidence_breakdown": [
+    {
+      "claim": "Strong compounding flywheel powered by secular demand and operational leverage.",
+      "claim_type": "INFERENCE",
+      "source_reference": "bull_case",
+      "is_verified": true
+    },
+    {
+      "claim": "The market underappreciates the durability of high ROIC and free cash flow generation.",
+      "claim_type": "INFERENCE",
+      "source_reference": "bull_case",
+      "is_verified": true
+    },
+    {
+      "claim": "Expansion into high-margin service segments and international operating leverage.",
+      "claim_type": "INFERENCE",
+      "source_reference": "bull_case",
+      "is_verified": true
+    },
+    {
+      "claim": "Valuation multiple leaves limited room for operational execution missteps.",
+      "claim_type": "INFERENCE",
+      "source_reference": "bear_case",
+      "is_verified": true
+    },
+    {
+      "claim": "Potential deceleration in organic growth and intensifying regulatory scrutiny.",
+      "claim_type": "INFERENCE",
+      "source_reference": "bear_case",
+      "is_verified": true
+    },
+    {
+      "claim": "ROIC declining below cost of capital for two consecutive quarters.",
+      "claim_type": "INFERENCE",
+      "source_reference": "bear_case",
+      "is_verified": true
+    },
+    {
+      "claim": "Debt/EBITDA expanding beyond 3.5x.",
+      "claim_type": "UNSUPPORTED",
+      "source_reference": "bear_case",
+      "is_verified": false
+    }
+  ]
+}

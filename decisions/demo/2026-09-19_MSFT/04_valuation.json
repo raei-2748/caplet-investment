@@ -1,0 +1,22 @@
+{
+  "ticker": "MSFT",
+  "valuation_date": "2026-09-19",
+  "current_price": 493.7799987792969,
+  "bear_case_price": 113.00148351984213,
+  "base_case_price": 200.75780825419844,
+  "bull_case_price": 301.1006371157611,
+  "bear_upside_pct": -0.7711501401450042,
+  "base_upside_pct": -0.593426609521439,
+  "bull_upside_pct": -0.39021297367222235,
+  "key_assumptions": {
+    "wacc_base": 0.09985828313785793,
+    "wacc_bear": 0.10985828313785792,
+    "terminal_growth_base": 0.025,
+    "terminal_growth_bear": 0.02,
+    "terminal_growth_bull": 0.03,
+    "base_cagr_5yr": 0.068,
+    "bear_cagr_5yr": 0.022,
+    "bull_cagr_5yr": 0.117
+  },
+  "model_timestamp": "2026-09-19 03:13:49.150382"
+}
