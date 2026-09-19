@@ -3,7 +3,7 @@
 **Security**: MSFT
 **Allocated Weight**: 8.5%
 **Governance Status**: APPROVED
-**Signed At**: 2026-09-19T03:11:15.197678
+**Signed At**: 2026-09-19T03:13:49.161170
 
 ---
 
