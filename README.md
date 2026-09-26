@@ -151,7 +151,7 @@ flowchart TD
 
 | Feature | DEMO Mode (`WHARTON_MODE=demo`) | PRODUCTION Mode (`WHARTON_MODE=production`) |
 | :--- | :--- | :--- |
-| **Client Mandate** | Prototype demo client (`demo_client_mandate.yaml`) | **FAILS CLOSED** if official 2026 client case is missing |
+| **Client Mandate** | Official case mandate (`client_mandate.yaml`, Laura Gao); no fictional client | **FAILS CLOSED** if official 2026 client case is missing |
 | **Securities** | Synthetic test fixtures (`TEST_ALPHA`, etc.) | Requires official approved Wharton stock list |
 | **AI Reasoning** | Deterministic mock generator fallback | **FAILS CLOSED** (`CouncilPartialError`) if API keys missing |
 | **Outputs** | `decisions/demo/`, `outputs/demo/` | `decisions/`, `outputs/` |

@@ -80,20 +80,14 @@ class ConfigManager:
         return self.load_yaml("wharton_private_2026_27.yaml")
 
     def get_client_mandate_config(self) -> Dict[str, Any]:
-        if self.is_production:
-            mandate = self.load_yaml("client_mandate.yaml")
-            if not mandate or mandate.get("client_name") is None:
-                raise ProductionMissingMaterialError(
-                    "PRODUCTION ERROR: Official client case not loaded into config/client_mandate.yaml. "
-                    "Cannot construct client mandate in production mode."
-                )
-            return mandate
-        else:
-            # In demo mode, fallback to demo client mandate
-            demo_mandate = self.load_yaml("demo_client_mandate.yaml")
-            if demo_mandate:
-                return demo_mandate
-            return self.load_yaml("client_mandate.yaml")
+        # There is no fictional demo client: both modes use the official case mandate.
+        mandate = self.load_yaml("client_mandate.yaml")
+        if self.is_production and (not mandate or mandate.get("client_name") is None):
+            raise ProductionMissingMaterialError(
+                "PRODUCTION ERROR: Official client case not loaded into config/client_mandate.yaml. "
+                "Cannot construct client mandate in production mode."
+            )
+        return mandate
 
     def ensure_production_ready(self) -> None:
         """Validates that all required official materials exist for production operation."""

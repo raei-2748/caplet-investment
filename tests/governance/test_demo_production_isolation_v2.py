@@ -16,9 +16,7 @@ from wharton_ic.reporting_v2.models import ContentBlock, AuthorshipType
 def test_6_production_cannot_use_synthetic_financial_data(monkeypatch, tmp_path):
     """TEST 6: Production mode fails if attempting to access unverified/synthetic client mandate."""
     monkeypatch.setenv("WHARTON_MODE", "PRODUCTION")
-    # Isolated config dir with only the demo mandate, independent of the real client_mandate.yaml
-    demo_src = Path(__file__).resolve().parents[2] / "config" / "demo_client_mandate.yaml"
-    (tmp_path / "demo_client_mandate.yaml").write_text(demo_src.read_text(encoding="utf-8"))
+    # Empty config dir: no official client case has been loaded
     cfg = ConfigManager(config_dir=tmp_path)
     assert cfg.is_production is True
     # client_mandate.yaml without official content raises ProductionMissingMaterialError

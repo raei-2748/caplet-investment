@@ -32,6 +32,11 @@ class CouncilOrchestrator:
         self.models_cfg = config_manager.models
         self.client_cfg = config_manager.client_mandate
 
+    def _client_summary(self) -> str:
+        """Client name plus financial objectives from the ClientMandate-shaped config."""
+        objectives = [o.get("statement", "") for o in self.client_cfg.get("financial_objectives", [])]
+        return "; ".join([self.client_cfg.get("client_name", "")] + objectives)
+
     def _read_prompt(self, filename: str) -> str:
         """Reads a versioned prompt from prompts/ directory."""
         path = self.prompts_dir / filename
@@ -76,7 +81,7 @@ class CouncilOrchestrator:
                 company_name=company_name,
                 sector=sector,
                 industry=industry,
-                client_overview=self.client_cfg.get("client", {}).get("description", ""),
+                client_overview=self._client_summary(),
                 fundamentals=fundamentals,
                 valuation=f"Base: ${valuation.base_case_price:.2f}, Upside: {valuation.base_upside_pct*100:.1f}%",
                 factors=factors
@@ -94,7 +99,7 @@ class CouncilOrchestrator:
                 company_name=company_name,
                 sector=sector,
                 industry=industry,
-                client_overview=self.client_cfg.get("client", {}).get("description", ""),
+                client_overview=self._client_summary(),
                 fundamentals=fundamentals,
                 valuation=f"Base: ${valuation.base_case_price:.2f}, Upside: {valuation.base_upside_pct*100:.1f}%",
                 factors=factors
@@ -128,7 +133,7 @@ class CouncilOrchestrator:
             system_prompt="You are the Bull Researcher building the strongest evidence-based upside case.",
             user_prompt=prompt_bull.format(
                 ticker=ticker,
-                client_summary=self.client_cfg.get("client", {}).get("objectives", ""),
+                client_summary=self._client_summary(),
                 fundamentals=fundamentals,
                 valuation=f"Bull Case: ${valuation.bull_case_price:.2f} ({valuation.bull_upside_pct*100:.1f}% upside)",
                 factors=factors
@@ -144,7 +149,7 @@ class CouncilOrchestrator:
             system_prompt="You are the Adversarial Bear Researcher identifying structural flaws and failure modes.",
             user_prompt=prompt_bear.format(
                 ticker=ticker,
-                client_summary=self.client_cfg.get("client", {}).get("objectives", ""),
+                client_summary=self._client_summary(),
                 fundamentals=fundamentals,
                 bear_valuation=f"Bear Case: ${valuation.bear_case_price:.2f} ({valuation.bear_upside_pct*100:.1f}%)",
                 factors=factors

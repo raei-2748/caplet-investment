@@ -957,6 +957,14 @@ def run_demo():
         title="wharton-ic Competition System"
     ))
 
+    # Demo artifacts go to the demo folders so they never mix with real team work
+    repo_root = Path(__file__).resolve().parents[3]
+    decision_ledger.base_dir = repo_root / "decisions" / "demo"
+    report_pack_generator.output_dir = repo_root / "outputs" / "demo" / "report_pack"
+    visualizer.output_dir = repo_root / "outputs" / "demo" / "charts"
+    for d in (decision_ledger.base_dir, report_pack_generator.output_dir, visualizer.output_dir):
+        d.mkdir(parents=True, exist_ok=True)
+
     # 1. Screen
     screen_universe(model="wharton_garp", top_n=10)
 
@@ -967,9 +975,9 @@ def run_demo():
     # 3. Simulate Human Sign-off for Demo
     decision_ledger.record_human_approval(
         ticker="MSFT",
-        student_name="Ray (Lead Student Portfolio Manager)",
+        student_name="DEMO SIMULATION (not a real approval)",
         allocated_weight=0.085,
-        notes="Approved by unanimous human committee consensus. High ROIC compounder within client mandate."
+        notes="Simulated sign-off for the demo pipeline only. No student approved this."
     )
     console.print("[green]Simulated Human Sign-Off recorded in 15_human_decision.md for MSFT.[/green]")
 
@@ -992,7 +1000,7 @@ def run_demo():
     mc_results = stress_engine.run_fat_tailed_monte_carlo()
     replays = stress_engine.run_historical_replay()
 
-    console.print(f"[bold green]Monte Carlo Probability of Meeting 9% Client Goal: {mc_results['probability_goal_attained']*100:.1f}%[/bold green]")
+    console.print(f"[bold green]Monte Carlo Probability of Exceeding 9% Illustrative Hurdle (not a client target): {mc_results['probability_goal_attained']*100:.1f}%[/bold green]")
     console.print(f"[bold red]Monte Carlo Probability of Drawdown > 20%: {mc_results['probability_drawdown_gt_20pct']*100:.1f}%[/bold red]")
 
     # 7. Generate Visualizations
@@ -1017,8 +1025,8 @@ def run_demo():
         "Ticker": "MSFT",
         "Role": "Core Compounder",
         "Target Weight": "8.5%",
-        "Human Decision": "APPROVED",
-        "Approved By": "Ray (Lead Portfolio Manager)"
+        "Human Decision": "SIMULATED (DEMO)",
+        "Approved By": "DEMO SIMULATION"
     }]
     report_pack_dir = report_pack_generator.generate_report_pack(
         weights_dict=w_dict,
@@ -1032,8 +1040,8 @@ def run_demo():
     console.print(Panel.fit(
         f"[bold green]DEMONSTRATION COMPLETE[/bold green]\n"
         f"Verified Report Pack: {report_pack_dir.resolve()}\n"
-        f"Charts Generated: outputs/charts/\n"
-        f"Decision Ledger: decisions/{end_dt.isoformat()}_MSFT/",
+        f"Charts Generated: outputs/demo/charts/\n"
+        f"Decision Ledger: decisions/demo/{end_dt.isoformat()}_MSFT/",
         title="wharton-ic Success"
     ))
 
