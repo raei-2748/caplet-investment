@@ -1,4 +1,17 @@
-competition_year: "2026-2027"
-source: "Wharton Global Youth Program / SurveyMonkey Apply"
-created_at: "2026-09-19"
-documents: []
+competition_year: 2026-2027
+source: Wharton Global Youth Program / SurveyMonkey Apply
+created_at: '2026-09-19'
+documents:
+- filename: Laura_Gao_2026_Client_Profile.pdf
+  sha256_hash: bfb653cb9d530322b41d5290748e552d30e2db97798fa6dfb78fb80e2e1fead7
+  document_type: client_case
+  source: SurveyMonkey Apply
+  received_date: '2026-09-26'
+  competition_year: 2026-2027
+  authority: OFFICIAL_PRIVATE_VERIFIED
+  version: '1.0'
+  parsed: false
+  human_verified: false
+  verified_by: null
+  verification_notes: null
+last_updated: '2026-09-26 10:27:38'

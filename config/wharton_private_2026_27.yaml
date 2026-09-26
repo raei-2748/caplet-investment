@@ -1,25 +1,54 @@
 # Wharton Global High School Investment Competition 2026-2027
-# Official Private Registered-Team Materials Placeholder
-# Status: AWAITING_OFFICIAL_MATERIAL
+# Official Private Registered-Team Materials
+# Status: AWAITING_OFFICIAL_MATERIAL (client case ingested; trading rules, approved universe
+# and rubrics still missing, so production stays blocked until they are ingested)
 # Release Date: September 15, 2026 (via SurveyMonkey Apply)
 
 competition_year: "2026-2027"
 status: "AWAITING_OFFICIAL_MATERIAL"
 source_portal: "SurveyMonkey Apply"
-ingested_at: null
+ingested_at: "2026-09-26"
 human_verified: false
 verified_by: null
 
-# Client Profile (UNKNOWN until official case release)
+# Client Profile (from official case: competition/official/2026_27/Laura_Gao_2026_Client_Profile.pdf)
+# Facts transcribed from the case; human_verified stays false until a team member checks them against the PDF.
 client_case:
-  client_id: null
-  client_name: null
-  primary_goal: null
-  horizon_years: null
-  risk_profile: null
-  esg_restrictions: null
-  cash_needs: null
-  status: "UNKNOWN"
+  client_id: "WGHSIC-2026-27-LAURA-GAO"
+  client_name: "Laura Gao"
+  source_file: "competition/official/2026_27/Laura_Gao_2026_Client_Profile.pdf"
+  year_convention: "Year = calendar year - 2026 (2026 is Year 0, 2027 Year 1, 2031 Year 5, 2033 Year 7)"  # p.2
+  cash_flow_timing: "All contributions and withdrawals occur at the beginning of the applicable year"  # p.2
+  contributions:  # p.2
+    - {year: 2027, amount_usd: 300000}
+    - {year: 2028, amount_usd: 150000}
+  no_other_flows_before: 2033  # p.2; living expenses covered outside the portfolio
+  operating_commitment:  # p.3
+    payment_usd: 50000
+    first_year: 2033
+    last_year: 2042
+    count: 10
+    inflation_adjusted: false
+    funding_certainty: "high degree of certainty"
+    outside_funding_allowed: false
+  facility_contribution:  # p.3
+    year: 2033
+    amount: "No predetermined amount; team recommends and justifies"
+  co_sponsor_communication:  # p.3-4
+    year: 2031
+    requirement: "Recommend a dollar range and a stated confidence level; range must protect the operating commitment; draft part of fundraising materials"
+  wins_results_excluded_from_projections: true  # p.4
+  out_of_scope:  # p.4
+    - "Personal income and capital gains taxes"
+    - "Legal/regulatory requirements for a residency in Taiwan"
+    - "Facility total cost, construction budget, funding gap, business plan"
+    - "Size or composition of a separate contingency fund or endowment"
+  primary_goal: "Fund ten $50,000 operating payments (2033-2042) with a high degree of certainty and determine a responsible 2033 facility contribution"
+  horizon_years: 16  # 2027 first contribution through 2042 final payment
+  risk_profile: "Willing to take thoughtful risks; wants a recommended balance between growth and protecting capital required for her goals"  # p.2
+  esg_restrictions: null  # none stated in the case
+  cash_needs: "None before 2033; then reserve funding plus facility contribution"
+  status: "INGESTED_PENDING_HUMAN_VERIFICATION"
 
 # Official Trading & Portfolio Rules (UNKNOWN until official release)
 trading_rules:
@@ -45,3 +74,9 @@ evaluation_rubric:
   rubric_version: null
   weights: null
   status: "UNKNOWN"
+  # Deliverables named in the client case (p.4); detailed Final Report requirements released at start of Week 7.
+  deliverables:
+    - "Trading Notes Analysis"
+    - "Investment Policy Statement"
+    - "Final Report"
+  evaluated_together: true

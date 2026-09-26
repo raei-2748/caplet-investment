@@ -13,15 +13,26 @@ from wharton_ic.reporting_v2.firewall import AIAuthorshipFirewall, AIAuthorshipV
 from wharton_ic.reporting_v2.models import ContentBlock, AuthorshipType
 
 
-def test_6_production_cannot_use_synthetic_financial_data(monkeypatch):
+def test_6_production_cannot_use_synthetic_financial_data(monkeypatch, tmp_path):
     """TEST 6: Production mode fails if attempting to access unverified/synthetic client mandate."""
     monkeypatch.setenv("WHARTON_MODE", "PRODUCTION")
-    cfg = ConfigManager()
+    # Isolated config dir with only the demo mandate, independent of the real client_mandate.yaml
+    demo_src = Path(__file__).resolve().parents[2] / "config" / "demo_client_mandate.yaml"
+    (tmp_path / "demo_client_mandate.yaml").write_text(demo_src.read_text(encoding="utf-8"))
+    cfg = ConfigManager(config_dir=tmp_path)
     assert cfg.is_production is True
     # client_mandate.yaml without official content raises ProductionMissingMaterialError
     with pytest.raises(ProductionMissingMaterialError) as exc:
         cfg.get_client_mandate_config()
     assert "Official client case not loaded" in str(exc.value)
+
+
+def test_6b_production_loads_official_client_mandate(monkeypatch):
+    """TEST 6b: Production mode loads the ingested official client case, not the demo client."""
+    monkeypatch.setenv("WHARTON_MODE", "PRODUCTION")
+    mandate = ConfigManager().get_client_mandate_config()
+    assert mandate["client_name"] == "Laura Gao"
+    assert mandate["human_approved"] is False
 
 
 def test_7_production_cannot_use_mock_ai(monkeypatch):
