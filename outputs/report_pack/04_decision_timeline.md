@@ -4,4 +4,4 @@ This table reconstructs the team's investment decision journey, linking every ho
 
 | Date       | Ticker   | Role            | Target Weight   | Human Decision   | Approved By                  |
 |:-----------|:---------|:----------------|:----------------|:-----------------|:-----------------------------|
-| 2026-09-19 | MSFT     | Core Compounder | 8.5%            | APPROVED         | Ray (Lead Portfolio Manager) |
+| 2026-09-26 | MSFT     | Core Compounder | 8.5%            | APPROVED         | Ray (Lead Portfolio Manager) |

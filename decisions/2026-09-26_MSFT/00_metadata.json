@@ -1,0 +1,12 @@
+{
+  "decision_id": "2026-09-26_MSFT",
+  "ticker": "MSFT",
+  "timestamp": "2026-09-26T10:28:58.898343",
+  "as_of_date": "2026-09-26",
+  "portfolio_role": "Core Compounder",
+  "proposed_weight": 0.075,
+  "human_status": "APPROVED",
+  "confidence_score": 0.85,
+  "approved_by": "Ray (Lead Student Portfolio Manager)",
+  "approval_timestamp": "2026-09-26T10:28:58.900969"
+}
