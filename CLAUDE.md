@@ -98,8 +98,11 @@ first trade by Oct 10 (third-party only).
       Equity weight 50/60/70% in the sleeve: median $205k/$207k/$209k (barely matters).
 - [x] Trading Notes blueprint drafted: `research/blueprints/01_trading_notes_blueprint.md` (awaiting team approval)
 - [ ] Team reads `01_chair_memo.md` + `round2_referee_ruling.md` (section 4: 12 concepts) and picks the strategy
-- [ ] Ultracode "strategy perfection audit": prompt DRAFT v2 (adds dimension 0 "why Wharton chose Laura") in `research/ultracode_strategy_audit_prompt.md`,
-      awaiting Ray's approval before launch
+- [ ] Ultracode run to be launched by Ray in a NEW session with `research/ultracode_prompt_v3_client_insight.md`
+      (question engine: case anomalies, why Laura, top-practitioner lens, her world, co-sponsors, judges, contrarian;
+      so-what/anchor/adversarial filters; outputs to research/insight_v1/). Start it on this branch; re-paste the
+      team's two client documents (kept out of the repo). Allow primary domains first if possible.
+      (v2 audit prompt `research/ultracode_strategy_audit_prompt.md` superseded by v3 for now.)
 - [ ] Final run: decision pack + first-week trade plan + defence Q&A (after the items above)
 - [ ] Code: `report audit-ai` always passes (audits one hard-coded block); built-in $100k/25% sector defaults and the
       31-stock default universe marked "Wharton-approved" are not official
