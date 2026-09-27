@@ -92,6 +92,8 @@ first trade by Oct 10 (third-party only).
       Equity weight 50/60/70% in the sleeve: median $205k/$207k/$209k (barely matters).
 - [x] Trading Notes blueprint drafted: `research/blueprints/01_trading_notes_blueprint.md` (awaiting team approval)
 - [ ] Team reads `01_chair_memo.md` + `round2_referee_ruling.md` (section 4: 12 concepts) and picks the strategy
+- [ ] Ultracode "strategy perfection audit": prompt DRAFT v1 in `research/ultracode_strategy_audit_prompt.md`,
+      awaiting Ray's approval before launch
 - [ ] Final run: decision pack + first-week trade plan + defence Q&A (after the items above)
 - [ ] Code: `report audit-ai` always passes (audits one hard-coded block); built-in $100k/25% sector defaults and the
       31-stock default universe marked "Wharton-approved" are not official
