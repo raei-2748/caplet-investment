@@ -32,6 +32,12 @@ Inputs (status labels):
   model values on the par curve (ASSUMPTION), not market quotes. IBGA facts (for the note in the .md): net assets
   $73.7m, 30-day average volume 84,912 shares, 9,537 shares traded on 2026-09-25 (ishares.com, VERIFIED-PRIMARY).
 
+- Section 10 (added 2026-09-27 after the S4 red team) prints the ONE pre-chosen capped-hedge rule (IEF at its formula
+  weight, TLH one point under the cap, SPTL the rest) for caps from 25% to 43%, option (iii) under a cap, and the
+  order sizes. It imports research/insight_v1/scripts/S4_red_team_checks.py for forward-consistent tracking.
+  SPTL facts: ssga.com, read 2026-09-27 12:42 UTC (VERIFIED-PRIMARY). Sections 3-4 still print $100k/$500k and
+  options (i)/(iii) tables; the .md now uses only the $300,000 figures.
+
 How to run (from the repo root):
     .venv/bin/python research/insight_v1/scripts/S3_allocation_numbers.py
 """
@@ -263,3 +269,62 @@ def capped_variants(work_cap=24.0, hedge_share=66.0):
 
 
 capped_variants()
+
+
+# ---------- 10. Revision after S4 red team (2026-09-27): ONE pre-chosen capped rule, measured forward-consistently ----------
+# Rule (S4 finding 3): IEF stays at its formula weight (23.6% of the total, under a 24% working cap); TLH is held one
+# point under the cap; SPTL (alternate VGLT) takes the rest of the 66% hedge. Tracking uses S4's forward-consistent
+# method (fund forward value vs liability forward value; research/insight_v1/scripts/S4_red_team_checks.py), which
+# replaces S1's mixed spot/forward method (S4 finding 8). SPTL is modelled with VGLT holdings (S1 ASSUMPTION).
+# SPTL issuer facts re-read by S3 on ssga.com 2026-09-27 12:42 UTC: OAD 13.65y (Sep 24), 0.03% gross, 110 holdings,
+# AUM $10,949.50M (Sep 24), prior-day exchange volume 1,088,651 (VERIFIED-PRIMARY).
+def capped_rule_table():
+    import sys
+    sys.path.insert(0, "research/insight_v1/wins_now")
+    sys.path.insert(0, "research/insight_v1/scripts")
+    import S1_hedge_weights as s1
+    from S4_red_team_checks import fwd_track, worst
+    dur = {"IEF": 6.86, "TLH": 11.59, "SPTL": 13.65, "TLT": 14.88, "VGIT": 4.9, "VGLT": 13.5}
+
+    def show(label, tot):                                     # tot: share of the TOTAL portfolio, in %
+        h = sum(tot.values())
+        w = {k: v / h for k, v in tot.items()}
+        tw, pa = worst(fwd_track(w))
+        d = sum(w[k] * dur[k] for k in w)
+        print(f"   {label}: " + " / ".join(f"{k} {v:.1f}" for k, v in tot.items()) +
+              f" (hedge {h:.1f}%) | issuer duration {d:.2f}y | worst 50bp twist ${tw:,.0f} "
+              f"({tw / s1.L0:.2%} of the hedge) | worst +/-100bp ${pa:,.0f}")
+
+    print("\n[S3 v1 capped rule, option (ii), hedge 66% of the total; forward-consistent tracking]")
+    ief = 66.0 * (1 - w_tlh)
+    for cap in (None, 43, 40, 35, 30, 25):
+        tlh = 66.0 * w_tlh if cap is None or cap - 1 >= 66.0 * w_tlh else cap - 1
+        mix = {"IEF": ief, "TLH": tlh}
+        if 66.0 - ief - tlh > 1e-9:
+            mix["SPTL"] = 66.0 - ief - tlh
+        show(f"cap {'none' if cap is None else f'{cap}%'}", mix)
+    show("alternate VGLT at a 25% cap", {"IEF": ief, "TLH": 24.0, "VGLT": 66.0 - ief - 24.0})
+    show("if TLH is missing, no cap: IEF/TLT", {"IEF": 66.0 * (1 - w_tlt), "TLT": 66.0 * w_tlt})
+    # TLH missing AND a 25% cap: IEF and SPTL at 24 each; the remaining 18 split VGIT/VGLT to hit 9.90 (issuer)
+    r18 = 66.0 - 48.0
+    xg = (TARGET * 66 - 24 * (dur["IEF"] + dur["SPTL"]) - r18 * dur["VGLT"]) / (dur["VGIT"] - dur["VGLT"])
+    show("TLH missing, 25% cap", {"IEF": 24.0, "SPTL": 24.0, "VGIT": xg, "VGLT": r18 - xg})
+
+    # Option (iii): the literal Jan-2027 book. 2027 leftover in T-bills (S4 finding 13) -> WInS: hedge 98%, cash 2%.
+    print("\n[option (iii), hedge 98% of the total (ladder $294,387 of $300,000), cash 2%, VT 0%]")
+    show("no cap", {"IEF": 98 * (1 - w_tlh), "TLH": 98 * w_tlh})
+    # 25% cap: IEF, TLH, SPTL at 24 each; the remaining 26 split VGIT/VGLT to hit 9.90 on issuer durations
+    rest = 98 - 72
+    x = (TARGET * 98 - 24 * (dur["IEF"] + dur["TLH"] + dur["SPTL"]) - rest * dur["VGLT"]) / (dur["VGIT"] - dur["VGLT"])
+    show("25% cap (five Treasury funds)", {"IEF": 24.0, "TLH": 24.0, "SPTL": 24.0, "VGIT": x, "VGLT": rest - x})
+
+    # Share counts for the (ii) orders at 2026-09-25 closes (SPTL close $24.27, ssga.com, VERIFIED-PRIMARY)
+    px = {**PX, "SPTL": 24.27}
+    print("\n[orders at $300,000, option (ii)] approximate shares at 2026-09-25 closes (recompute on the trade date):")
+    for label, mix in (("no cap", {"IEF": ief, "TLH": 66.0 * w_tlh, "VT": 20.5, "VGSH": 12.5}),
+                       ("25% cap", {"IEF": ief, "TLH": 24.0, "SPTL": 66.0 - ief - 24.0, "VT": 20.5, "VGSH": 12.5})):
+        print(f"   {label}: " + "; ".join(f"{k} {v:.1f}% ${3000 * v:,.0f} ~{int(3000 * v // px[k]):,} sh"
+                                          for k, v in mix.items()))
+
+
+capped_rule_table()

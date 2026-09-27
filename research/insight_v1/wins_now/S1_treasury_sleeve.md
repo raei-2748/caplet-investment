@@ -12,8 +12,9 @@ Data snapshots used by the script, all VERIFIED-PRIMARY and downloaded 2026-09-2
 
 ## Summary (short version)
 1. **The better WInS hedge is IEF + TLH, not IEF + TLT.** Weights from today's issuer durations: IEF 35.7% / TLH 64.3%.
-   IEF holds notes maturing Aug 2033 to May 2036. TLH holds bonds maturing Feb 2037 to May 2046. Together they own bonds
-   that mature in the same years as Laura's ten payments (2033-2042). IEF + TLT is a "barbell": 7-10y notes plus 20-30y
+   IEF holds notes maturing May 2033 to Aug 2036. TLH holds bonds maturing Feb 2037 to Aug 2046. Together their bonds sit
+   closer to Laura's ten payment dates (2033-2042) than IEF + TLT's do; 74.7% of TLH's bond weight matures after the
+   last payment, so this is a closer fit, not a year-by-year match [corrected by S3 after the S4 red team, 2026-09-27]. IEF + TLT is a "barbell": 7-10y notes plus 20-30y
    bonds, with nothing in between. Under a 50bp twist of the curve, IEF+TLT misses the liability by up to **$3,619**.
    IEF+TLH misses by up to **$1,352**. Both mixes stay within about $1.3k of the liability under ±100bp parallel moves
    (VERIFIED-PRIMARY inputs, model output).
@@ -61,9 +62,9 @@ Liquidity is shown as the 30-day average share volume times price, about $/day. 
 ### 1a. Intermediate and long Treasury funds (constant maturity: the fund keeps rolling, so it never matures)
 | Fund | What it holds (index) | Eff. duration (as of) | Expense | YTM / 30-day SEC | Net assets; liquidity | 2025-26 list | Status |
 |---|---|---|---|---|---|---|---|
-| IEF iShares 7-10Y | 16 Treasury notes, maturities Aug-2033 to May-2036 (ICE US Treasury 7-10Y) | 6.86y (9/24) | 0.15% | 5.17% / 4.84% | $41.6bn; ~8.8m sh/day (~$0.8bn); spread 0.01% | **Yes** (line 1053, #88) | VERIFIED-PRIMARY |
-| TLT iShares 20+Y | 47 bonds, maturities Aug-2044 to May-2056 (ICE US Treasury 20+Y) | 14.88y (9/24) | 0.15% | 5.54% / 5.41% | $45.8bn; ~35.9m sh/day (~$2.8bn); 0.01% | **Yes** (line 1041, #87) | VERIFIED-PRIMARY |
-| TLH iShares 10-20Y | 61 bonds, maturities Feb-2037 to May-2046 (ICE US Treasury 10-20Y) | 11.59y (9/24) | 0.15% | 5.49% / 5.29% | $10.5bn; ~2.0m sh/day (~$0.18bn); 0.01% | No | VERIFIED-PRIMARY |
+| IEF iShares 7-10Y | 16 Treasury notes, maturities May-2033 to Aug-2036 [corrected by S3 after the S4 red team, 2026-09-27] (ICE US Treasury 7-10Y) | 6.86y (9/24) | 0.15% | 5.17% / 4.84% | $41.6bn; ~8.8m sh/day (~$0.8bn); spread 0.01% | **Yes** (line 1053, #88) | VERIFIED-PRIMARY |
+| TLT iShares 20+Y | 47 bonds, maturities May-2044 to Aug-2056 [corrected by S3 after the S4 red team, 2026-09-27] (ICE US Treasury 20+Y) | 14.88y (9/24) | 0.15% | 5.54% / 5.41% | $45.8bn; ~35.9m sh/day (~$2.8bn); 0.01% | **Yes** (line 1041, #87) | VERIFIED-PRIMARY |
+| TLH iShares 10-20Y | 61 bonds, maturities Feb-2037 to Aug-2046 [corrected by S3 after the S4 red team, 2026-09-27] (ICE US Treasury 10-20Y) | 11.59y (9/24) | 0.15% | 5.49% / 5.29% | $10.5bn; ~2.0m sh/day (~$0.18bn); 0.01% | No | VERIFIED-PRIMARY |
 | GOVT iShares US Treasury | 218 notes/bonds, Aug-2027 to May-2056 (ICE US Treasury Core) | 5.45y (9/24) | 0.05% | 5.09% / 4.83% | $41.6bn; ~10.9m sh/day (~$0.24bn); 0.05% | **Yes** (line 1089, #91) | VERIFIED-PRIMARY |
 | IEI iShares 3-7Y | 83 notes (ICE US Treasury 3-7Y) | 4.20y (9/24) | 0.15% | 5.06% / 4.65% | $17.2bn; ~2.0m sh/day | No | VERIFIED-PRIMARY |
 | VGIT Vanguard Interm. Treasury | 102 bonds (Bloomberg US Treasury 3-10Y) | 4.9y (8/31) | 0.03% (as of 2025-12-19) | YTM 4.5% (8/31) / SEC 4.78% (9/24) | $48.3bn total fund (8/31) | No | VERIFIED-PRIMARY |
@@ -182,11 +183,11 @@ What the numbers say:
 - TLH puts the long leg on the 10y and 20y points, where the liability is. That cuts the worst twist error by about 63%
   **with the same number of funds and the same fee**. This is complexity-free precision.
 - Scale check: a 50bp twist in the 6 weeks of WInS trading would be unusual. Realistic 10-20bp twists mean errors of a
-  few hundred dollars for IEF/TLH, against about $1k for IEF/TLT. The case for TLH is the logic ("the bonds mature when
-  Laura pays"), not the dollars.
+  few hundred dollars for IEF/TLH, against about $1k for IEF/TLT. The case for TLH is the logic (its bonds sit closer to the payment dates than TLT's), not the dollars. The earlier
+  wording "the bonds mature when Laura pays" was wrong for most of TLH [corrected by S3 after the S4 red team, 2026-09-27].
 - **Weights drift.** As rates rose, TLT's duration fell from 15.31 to 14.88 and IEF's from 6.95 to 6.86. That moved the
   match by 2.7 points of weight. Rule for the team: recompute weights from the issuer page on every trade date.
-  - IEF/TLH weight = (D_TLH - 9.90) / (D_TLH - D_IEF).
+  - IEF weight = (D_TLH - 9.90) / (D_TLH - D_IEF); TLH weight = 1 - IEF weight [corrected by S3 after the S4 red team, 2026-09-27].
   - Note that the liability's own duration also shortens by about 0.25 a quarter as time passes (ASSUMPTION: rough
     roll-down; not modelled here).
 
@@ -361,8 +362,8 @@ Every WInS pick below is **PENDING APPROVAL CHECK: confirm on this year's WInS a
 
 ## What this teaches
 Two portfolios with the same duration can behave differently. Duration only promises protection when every interest
-rate moves by the same amount. Laura's payments fall between 2033 and 2042. IEF + TLH owns bonds maturing in exactly
-those years, so it follows her payments even when short and long rates move apart. IEF + TLT gets the same total
+rate moves by the same amount. Laura's payments fall between 2033 and 2042. IEF + TLH owns bonds much closer to
+those years than IEF + TLT does (though most of TLH matures after 2042 [corrected by S3 after the S4 red team, 2026-09-27]), so it follows her payments even when short and long rates move apart. IEF + TLT gets the same total
 duration by pairing short bonds with 30-year bonds she does not need, and the gap shows up when the curve twists. Adding
 a third fund did not help. The simplest fix was choosing the right second fund. For her real money, the best "hedge" is
 not a fund at all: ten zero-coupon Treasuries that each pay $50,000 just before a payment date. Real instruments carry
