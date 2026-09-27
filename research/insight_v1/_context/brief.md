@@ -56,6 +56,10 @@ Quotes: exact wording only, from the primary source, with URL, date of the piece
 into new meaning, or polish a quote.
 
 ## 4. Hard rules (v4 Part 5 + CLAUDE.md)
+- SCOPE = SEMIFINALS ONLY (team leader, 2026-09-27). The Top 50 is chosen on the written deliverables (Trading Notes
+  Oct 23, IPS Nov 6, Final Report Dec 4). Do NOT produce anything for the finale round: no finale pitch prep, no
+  judge Q&A or defence question banks. Questions that fail the filters are simply "parked" (logged), not turned
+  into a Q&A bank. "Judges" below means the semifinal readers of the written deliverables.
 - Official materials and verified data only; never invent facts; label assumptions.
 - NO submission-ready prose: no drafted elevator pitch, IPS paragraphs, trading notes, reflections, report text or
   fundraising paragraphs. Produce specifications, evidence, numbers, checklists and "what a strong sentence must
