@@ -38,13 +38,19 @@ Python: use `/home/user/caplet-investment/.venv/bin/python` (numpy, scipy, panda
 Run scripts from the repo root. Save any new script under `research/insight_v1/scripts/` with a docstring that lists
 inputs (with status labels) and how to run it.
 
-## 2. Source access (checked 2026-09-27 11:35 UTC)
-Reachable with WebFetch/curl: home.treasury.gov, fred.stlouisfed.org, www.ishares.com, am.jpmorgan.com,
+## 2. Source access (checked 2026-09-27 11:35 UTC; updated 12:40 UTC)
+IMPORTANT: the WebFetch tool is BLOCKED (EGRESS_BLOCKED) for most hosts, but curl through the proxy WORKS. To read a
+page use the helper (from the repo root):
+  `.venv/bin/python research/insight_v1/scripts/fetch_text.py URL` (prints visible text; handles PDFs)
+  `.venv/bin/python research/insight_v1/scripts/fetch_text.py URL --grep "exact phrase"` (verifies a quote verbatim)
+or plain `curl -sSL URL`. WebSearch (load with ToolSearch "select:WebSearch") works for finding URLs; then open the
+page with the helper before calling anything VERIFIED-PRIMARY.
+Reachable with curl: home.treasury.gov, fred.stlouisfed.org, www.ishares.com, am.jpmorgan.com,
 globalyouth.wharton.upenn.edu, magazine.wharton.upenn.edu, lauragao.com, en.wikipedia.org,
 poetsandquantsforundergrads.com, wghsinvcomp.smapply.us (public pages only), www.federalreserve.gov, nuvoices.com,
-legacy.diversebooks.org, www.bookweb.org, thenerddaily.com, www.apra.gov.au. Blocked/refused: www.futurefund.gov.au
-(HTTP 403 from the site). Load web tools with ToolSearch ("select:WebFetch,WebSearch"). If a source is blocked or
-refuses, say so; never guess its content.
+legacy.diversebooks.org, www.bookweb.org, thenerddaily.com, www.apra.gov.au. Refused by the site (403):
+www.futurefund.gov.au, afpglobal.org, candid.org help pages, artres.moc.gov.tw, SSRN; ws.dgbas.gov.tw data files fail
+TLS. If a source is blocked or refuses, say so; never guess its content.
 
 ## 3. Status labels (use on EVERY factual claim and number)
 - VERIFIED-PRIMARY: you read it on the primary source page/file yourself (give URL + access date or repo path).
@@ -257,3 +263,51 @@ SNIPPET-UNVERIFIED for 2026-27):
 Implications for every output: tie each recommendation to one of these five areas; prefer insights that show
 understanding of Laura over technical flourishes; where an idea would be best shown as a chart in the Final Report,
 say which chart and what data it needs.
+
+## 14. PHASE A RESULTS (2026-09-27; these SUPERSEDE earlier sections where they conflict)
+Files: `research/insight_v1/phase_A/case_register.md` (324 R-ids: R-C case, R-I IPS guide, R-T trading-notes guide,
+R-S SMApply page, R-W public Wharton web pages, R-AN anomalies), `fact_register.md` (F-ids), `stakeholder_map.md`
+(SH/BS ids), `wins_week1_guardrails.md` (G ids). Anchor your work to these ids.
+WInS 2026-27 rules are now VERIFIED-PRIMARY (public SMApply "Trading Details" and FAQ pages, read 2026-09-27; R-W56-R-W92,
+F-605-F-608, G1-G4): $300,000 virtual starting cash (= Laura's Year-1 deposit; the $150k is not added); trading
+2026-09-28 to 2026-11-06, then the portfolio is frozen; up to 200 trades; no trade above 2x a security's daily
+volume; permitted: cash, stocks priced >= $5, "Any Exchange-Traded Funds (ETFs) available on WInS", "Any
+Government/Treasury Bonds from any exchange available on WInS" (so INDIVIDUAL Treasury bonds are a permitted type);
+banned: margin, short selling, stock-secured debt, crypto, derivatives, anything else; NO sector minimum (the
+third-party "sector minimum = team size" claim is FALSE); commissions $25 per stock/ETF trade and $10 per Treasury bond
+trade; bond prices update daily, coupons semiannual; no separate approved ETF list this year (the 2025-26 list is
+history only). 2026-27 WInS User Guide: "Day Trading: This is not permitted."; a per-security "Position Limit" exists
+but its value is shown only on the logged-in Portfolio Summary > Session Rules page (the Stock-Trak default is 25% per
+security - UNVERIFIED for this season); trade notes cannot be edited, only added to. The SMApply FAQ says "Investments
+permitted (for BOTH contributions)" (meaning unclear). Remaining approval check for any security: is it actually
+listed in WInS, and does it fit the Session Rules position limit? So recommendations are now "PENDING WInS
+AVAILABILITY + POSITION-LIMIT CHECK".
+Semifinal basis: the Rules & Roles page says Top 50 are chosen on the IPS and Final Reports; SMApply and the case say
+all three deliverables are evaluated - treat all three as scored. AI policy: "If you use AI to assist you in any way
+during the competition, how you use it must be recorded in your Works Cited pages"; students "must use their voice and
+words". The Rules page tells teams to operate by the CFA Institute Asset Manager Code. Contacting the client =
+disqualification. "While the client is real, the financial scenario is developed specifically for the competition."
+Field: 2025-26 had 6,300+ registered teams but ~2,300 (2,339) submitted final reports.
+Updated numbers (VERIFIED-PRIMARY unless noted): FOMC 2026-09-16 raised to 3.75-4.00% (12-0), IORB 3.90%, SEP medians
+fed funds 4.1 end-2026, longer run 3.2, PCE inflation 3.7% in 2026. IEF duration 6.86y (YTM 5.17%), TLT 14.88y (YTM
+5.54%) as of 2026-09-24 -> duration match to the 9.90y liability (valued at 2027-01-01) = 62.2% IEF / 37.8% TLT; to
+the SPOT duration today (10.16y; spot PV $288,924) = 58.9% / 41.1% (use spot duration for hedging the WInS book today).
+The same ten-payment ladder cost MORE than $300k on 173 of 185 trading days of 2026 ($316.5k on Jan 2; $325.6k on Feb
+27; $313.0k on Jun 30); it has been <= $300k only since 2026-09-10; P(cost > $300k on 2027-01-01) ~24% (ASSUMPTION:
+zero-drift lognormal, 2026 realised vol 7.24%). Value of the payments on 2031-01-01 at forwards $356,384; on
+2033-01-01 $394,930. Taiwan CPI Aug 2026 +2.04% y/y (the 2.4% figure is wrong); DGBAS forecasts 2.07%/1.90%
+(2026/2027), CBC 2.03%/1.83%; CBC discount rate 2% (held 2026-09-17); Taiwan overnight call rate 0.812%. Taiwan
+construction cost index 119.50 (Aug 2026, 2021=100), +6.53% y/y, but flat in 2024-25 and ~3.54%/yr since 2021 (the
+"3.2x CPI" ratio is a one-year spike). USD/TWD 31.82 (FRED, 2026-09-18); vol of daily log changes 1y 4.03%, 3y 5.64%,
+5y 5.25%, 10y 4.69%; 2-year realised moves sd 6.8% since 2006, 9.4% since 1983. iShares iBonds Treasury funds exist
+for Dec 2026-2036, 2044-46, 2054-56, NONE for Dec 2037-2043 (only the Jan 2033-2037 payments can be matched by them).
+JPM 2026 LTCMA also: EM equity 7.80% compound (9.74% arith, 20.93% vol); long Treasuries 4.90/5.69/13.02; TIPS 4.30;
+U.S. Aggregate 4.80; large cap vs long Treasuries correlation 0.02; data date 2025-09-30 when the 10y was 4.16% (~100bp
+below today) - bond assumptions look ~1pp conservative vs today's yields; the 2027 edition is not out yet.
+Blind spots found (stakeholder map): no management-fee assumption anywhere (~$17k lower median surplus at 0.5%/yr,
+~$34k at 1.0%; ASSUMPTION arithmetic); the CFA Asset Manager Code unused; credibility is part of Laura's human
+capital (her 2028 income is reputation-driven); funders underfund operations, so her covering ten years of operations
+lets co-sponsor money go to the building; the case never names a currency ("dollar range") - write US$ explicitly;
+book advances arrive in instalments, so the 2028 deposit can be LATE as well as smaller; school documentation has no
+owner yet. The case pull quote "The only person who needs to believe in something is yourself." has no attribution in
+the PDF text layer: verify before presenting it as Laura's words.

@@ -88,13 +88,25 @@ VERIFIED from primary files in `competition/official_market_data/` (team downloa
   compound (16.78% vol); EAFE 7.50%; U.S. intermediate Treasuries 4.00%; long Treasuries 4.90%; cash 3.10%;
   inflation 2.50%. Implication: the council scenario "6.7% geometric" is the right one (growth-first shortfall ~3%,
   its median facility ~$19-27k above lock-early, but a far worse downside; the lock-early case still holds).
-Still from search snippets only (UNVERIFIED): Fed hike to 3.75-4.00% on 2026-09-16; Taiwan construction costs
-+6.54% y/y (Aug 2026), CPI ~2.0%; USD/TWD ~31.8 with ~5% annual volatility (FRED mirror data); last year's
-approved ETF list is historical (`competition/historical/2025_26/`); sector minimum = team size, 200-trade cap,
-first trade by Oct 10 (third-party only).
+VERIFIED 2026-09-27 by the insight_v1 run (primary pages; details in `research/insight_v1/phase_A/`):
+- WInS 2026-27 rules (public SMApply Trading Details + FAQ): $300,000 virtual cash (= Laura's 2027 deposit; the $150k
+  is not added); trading Sep 28 - Nov 6 then frozen; up to 200 trades; no trade above 2x a security's daily volume;
+  allowed: cash, stocks >= $5, any ETF available on WInS, government/Treasury bonds available on WInS (individual
+  Treasuries allowed); banned: margin, shorting, stock-secured debt, crypto, derivatives, anything else; NO sector
+  minimum (the "sector minimum = team size" claim is false); commissions $25/stock-ETF trade, $10/bond trade; no
+  separate approved ETF list this year; day trading not permitted (2026-27 User Guide); a per-security position limit
+  exists, shown only in WInS Portfolio Summary > Session Rules (check before the first trade); trade notes cannot be
+  edited, only added to. "First trade by Oct 10" still unverified (check the logged-in Trading Details page).
+- Fed raised to 3.75-4.00% on 2026-09-16 (12-0). Taiwan CPI Aug 2026 +2.04% y/y; construction cost index +6.53% y/y
+  but ~3.5%/yr since 2021; USD/TWD 31.82 (Sep 18), daily-change vol 4.0-5.6% depending on window.
+- IEF 6.86y / TLT 14.88y durations (2026-09-24): match to 9.90y = 62.2/37.8; to today's spot duration 10.16y = 58.9/41.1.
+- The ladder cost more than $300k on 173 of 185 trading days in 2026; it fits under $300k only since Sep 10.
+- AI policy: any AI use must be recorded in the Final Report's Works Cited; students must use their own voice and words.
+- 2025-26: 6,300+ teams registered but ~2,300 submitted final reports.
 
 ## Open items
-- [ ] Team: this year's WInS rules, approved list, starting cash, trading-note location/limits (Ray checking)
+- [ ] Team: log into WInS before the first trade: screenshot Session Rules (position limit), check each security is listed,
+      read the logged-in Trading Details page (activity minimums), and note the trade-note character limit
 - [x] Interview part 2 answered (team deferred; provisional calls recorded above)
 - [ ] Team: assign roles; check SMApply for a trading-rules page, search tickers in WInS, ask advisor/Wharton for list
 - [x] Verified from primary files: Treasury curve, IEF/TLT durations, JPM LTCMA compound basis (2026-09-27)
