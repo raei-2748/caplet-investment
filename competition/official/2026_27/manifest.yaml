@@ -2,6 +2,30 @@ competition_year: 2026-2027
 source: Wharton Global Youth Program / SurveyMonkey Apply
 created_at: '2026-09-19'
 documents:
+- filename: 2026_WGY_Investment_Competition_Guide.pdf
+  sha256_hash: 3638e84692ed0d826660a65e89cad0ce7eea8c1907b6a8f00ce02c0d51fb7add
+  document_type: competition_guide
+  source: SurveyMonkey Apply public guide page (https://wghsinvcomp.smapply.us/res/p/guide/ -> upenn.box.com/shared/static/b9kh53xila9czkyznk1xv5yegl3snlc1.pdf)
+  received_date: '2026-09-27'
+  competition_year: 2026-2027
+  authority: OFFICIAL_PUBLIC_VERIFIED
+  version: '1.0'
+  parsed: true
+  human_verified: false
+  verified_by: null
+  verification_notes: Downloaded by the insight_v1 run (AI) on 2026-09-27; text extraction alongside (.txt). Found by agent B7a.
+- filename: 2026_WGY_Competition_Infographic.pdf
+  sha256_hash: 2827f92a989d6d72fbc253d80d975eb06bd00c86f631e83850ae17eec544ed10
+  document_type: competition_infographic
+  source: SurveyMonkey Apply public guide page (https://wghsinvcomp.smapply.us/res/p/guide/ -> upenn.box.com/s/l2p0l26svbbptmcizhmswyq5f7rbyp44)
+  received_date: '2026-09-27'
+  competition_year: 2026-2027
+  authority: OFFICIAL_PUBLIC_VERIFIED
+  version: '1.0'
+  parsed: true
+  human_verified: false
+  verified_by: null
+  verification_notes: Downloaded by the insight_v1 run (AI) on 2026-09-27; text extraction alongside (.txt). Found by agent B7a.
 - filename: Laura_Gao_2026_Client_Profile.pdf
   sha256_hash: bfb653cb9d530322b41d5290748e552d30e2db97798fa6dfb78fb80e2e1fead7
   document_type: client_case

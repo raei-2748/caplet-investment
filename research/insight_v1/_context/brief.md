@@ -311,3 +311,23 @@ lets co-sponsor money go to the building; the case never names a currency ("doll
 book advances arrive in instalments, so the 2028 deposit can be LATE as well as smaller; school documentation has no
 owner yet. The case pull quote "The only person who needs to believe in something is yourself." has no attribution in
 the PDF text layer: verify before presenting it as Laura's words.
+
+## 15. NEW OFFICIAL DOCUMENTS (found by B7a, filed 2026-09-27)
+`competition/official/2026_27/2026_WGY_Investment_Competition_Guide.{pdf,txt}` (5 pages) and
+`2026_WGY_Competition_Infographic.{pdf,txt}` (1 page), from the public SMApply guide page; SHA-256 in manifest.yaml.
+Key lines (quote from the .txt files; cite as "Guide p.N"): "Judges want to understand not only what your team decided
+to do, but also the reasoning, assumptions, and tradeoffs behind those decisions." (p.5); "The competition recognizes
+thoughtful strategy, research and analysis, client understanding, disciplined decisions, management of risk and
+uncertainty, communication, and creativity." (p.5); "Your team will need to consider the client's goals, time
+horizons, required cash flows, funding commitments, liquidity needs, desired degree of funding certainty, risk
+tolerance, and communication with potential co-sponsors." (p.2); "It is up to your team to determine what additional
+research and analysis you need" (p.2); "The goal is to develop a cohesive strategy in which your investment decisions
+work together to support the client's objectives across a range of possible market outcomes." (p.2); the Trading Note
+"should capture the reasoning behind the decision, including its alignment with your strategy, the supporting research
+or analysis, and its expected role in growth, liquidity, risk management, or future funding." (p.3); WInS "is not the
+competition scorecard" and teams are not evaluated on ranking, number of trades, outperformance or making money (p.3);
+"A long-term strategy may include planned adjustments as funding dates approach, but it should not be rewritten simply
+because markets move or hindsight reveals a different outcome." (p.5). Infographic: "Strategy guides every decision.";
+"Strong teams explain the reasoning, assumptions, and tradeoffs behind their decisions."
+Phase B produced 472 questions (20 agents) and 271 Laura quotes (259 marked VERIFIED-PRIMARY by the agents; D13 will
+re-verify every one).
