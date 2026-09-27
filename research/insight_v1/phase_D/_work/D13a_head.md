@@ -2,9 +2,11 @@
 
 Agent D13a (Quote Verifier for Laura's own words). All checks were made on 2026-09-27. The companion file
 `D13a_laura_quotes_verified.json` holds the same judgements, one object per id. The scripts are
-`research/insight_v1/scripts/D13a_laura_quotes_check.py` (re-fetches every page and saves the text around each quote to
-`phase_D/_work/D13a_contexts.json`) and `research/insight_v1/scripts/D13a_build_outputs.py` (writes the JSON and the
-table below from the recorded judgements).
+`research/insight_v1/scripts/D13a_laura_quotes_check.py` and `research/insight_v1/scripts/D13a_build_outputs.py`.
+- The check script re-fetches every page and records whether each quote is found in
+  `phase_D/_work/D13a_contexts.json`. That file holds no page text, because the text around a quote can contain the
+  private material this check screens out.
+- The build script writes the JSON and the table below from the recorded judgements.
 
 ## Summary
 

@@ -8,9 +8,11 @@ Inputs (status labels):
 - LAURA_IDS below: the 100 ids that D13b assigned to D13a as Laura's own words, plus the 4 ids of the case pull quote
   (a scoping judgement, ASSUMPTION, re-checked by D13a on each source page).
 - NEW below: candidate quotes D13a found on primary pages while searching for the pull quote's source (not in Phase B).
-Output: research/insight_v1/phase_D/_work/D13a_contexts.json (id -> found flag, mechanical result, context window);
-stdout summary.
-Run from the repo root: .venv/bin/python research/insight_v1/scripts/D13a_laura_quotes_check.py
+Output: research/insight_v1/phase_D/_work/D13a_contexts.json (id -> URL, mechanical result, found flag; NO page text,
+because the text around a quote can contain private material that the privacy screen excludes); stdout summary.
+Optional: --windows PATH also writes the 350-character text windows around each quote to PATH for human review. PATH
+must be OUTSIDE the repo (e.g. the session scratchpad); never commit those windows.
+Run from the repo root: .venv/bin/python research/insight_v1/scripts/D13a_laura_quotes_check.py [--windows PATH]
 """
 import json
 import os
@@ -74,8 +76,14 @@ def main():
         else:
             rec["found"], rec["context"] = window(page, phrase)
         out[qid] = rec
+    if "--windows" in sys.argv:
+        path = os.path.abspath(sys.argv[sys.argv.index("--windows") + 1])
+        if path.startswith(os.path.abspath(".") + os.sep):
+            sys.exit("--windows PATH must be outside the repo (the windows can hold private material)")
+        json.dump(out, open(path, "w"), indent=1, ensure_ascii=False)
+    slim = {k: {f: v for f, v in r.items() if f != "context"} for k, r in out.items()}
     os.makedirs("research/insight_v1/phase_D/_work", exist_ok=True)
-    json.dump(out, open("research/insight_v1/phase_D/_work/D13a_contexts.json", "w"), indent=1, ensure_ascii=False)
+    json.dump(slim, open("research/insight_v1/phase_D/_work/D13a_contexts.json", "w"), indent=1, ensure_ascii=False)
     found = sum(1 for r in out.values() if r["found"])
     print(f"checked {len(out)} quotes ({len(LAURA_IDS)} Laura ids, {len(PULL_IDS)} pull-quote ids, {len(NEW)} new); "
           f"found verbatim: {found}; not found: {[k for k, r in out.items() if not r['found']]}")

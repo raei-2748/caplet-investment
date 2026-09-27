@@ -50,8 +50,10 @@ lines 31-33, and the PDF page 1 rendered and viewed on 2026-09-27):
 - **How to cite it:** as the case's framing of her outlook, for example "the case's profile of Laura highlights the
   line ..." (Client Profile, p.1). Do not write "Laura said", "in an interview" or "her motto".
 - **Why this matters for the deliverables** (guidance, not text to submit). The case uses the line as her
-  philosophy. Brief section 14 notes the tension with 2031, when co-sponsors must believe her dollar range and
-  "overpromising" damages credibility. Her own verified words hold both sides of that tension:
+  philosophy. The Phase A case register (anomaly R-AN30) sets it against the 2031 task. In 2031 co-sponsors must
+  believe her dollar range, and case p.3 warns: "If Laura promises more than she can ultimately contribute, she could
+  damage her credibility and lose the confidence or participation of co-sponsors." (VERIFIED-REPO-FILE, case txt
+  lines 114-115). Her own verified words hold both sides of that tension:
   - D13a-N02 (2016) says other people's doubts matter less than launching. That is the closest verified match to the
     pull quote.
   - D13a-N01 (2016) says letting down "people who were your earliest supporters and were the first to believe in you"
@@ -80,8 +82,9 @@ lines 31-33, and the PDF page 1 rendered and viewed on 2026-09-27):
 2. Read every source page in full, not just the matching sentence. For each quote I checked the speaker, the piece
    date and the question being answered, and whether trimming changed the meaning. Dates come from page metadata
    where it exists (article dates; PDF creation dates for her resume and guides).
-3. `D13a_laura_quotes_check.py` re-fetched every page with the current fetch helper and saved 350 characters on
-   each side of every quote. All 106 were found verbatim (104 Phase B ids and 2 new).
+3. `D13a_laura_quotes_check.py` re-fetched every page with the current fetch helper. All 106 quotes were found
+   verbatim (104 Phase B ids and 2 new). The 350 characters on each side of each quote, which I reviewed, were saved
+   only outside the repo (option `--windows`), because they include private material from the source pages.
 4. Applied the privacy screen (brief section 4 and this task) to every quote. Family, partner, relationships, health,
    home life and anything outside her public professional work were excluded even when public.
 5. Pull quote: rendered case page 1 to see the layout. PyMuPDF was installed in the session scratchpad only, not in
@@ -129,8 +132,9 @@ Also read for the pull-quote search:
 ## What this teaches
 
 - **A quote is three facts, not one:** the words, who said them, and what question they answered. The script got the
-  words right for all 104 ids. Reading the page around them changed the status of 11 ids and the safe use of about a
-  dozen more.
+  words right for all 104 ids. Reading the page around them changed the status of 11 ids and attached a condition of
+  use to about 20 more (for example "not about investing", "a question, not a statement", "do not quote the sentence
+  before").
 - **Short fragments are where meaning slips.** "risk-adverse", "No more gimmicks." and "It's not published in
   Mandarin" all mean something different once you read the sentence they came from.
 - **A pull quote with no name is not a quote from the person.** Cite the document that printed it (the case), and

@@ -332,3 +332,34 @@ because markets move or hindsight reveals a different outcome." (p.5). Infograph
 "Strong teams explain the reasoning, assumptions, and tradeoffs behind their decisions."
 Phase B produced 472 questions (20 agents) and 271 Laura quotes (259 marked VERIFIED-PRIMARY by the agents; D13 will
 re-verify every one).
+
+## 16. PHASE C AND D13 RESULTS (2026-09-27/28; supersede earlier sections where they conflict)
+Phase C: 472 questions -> 248 merged -> 48 survivors (`phase_C/survivors.json`, `filter_log.md`); 200 parked
+(`phase_C/parked.json`, mostly judged "already answered" by Phase A, the wins_now ticket or the council). High-priority
+parked items that were killed as already answered (their answers must still reach the final spec): M008 (2031
+message order: floor bought, conditional stretch, invitation to co-fund), M007 (bad-year rule), M015 (fundraising
+leads with the fully pre-funded ten years of operations), M021 (dated decision log from today), M149 (funded-status
+glide path wording), M033 (whole-portfolio equity share visible to a first reader), M035 (diversification shown to a
+fixed-income reader), M040 (range as a rule vs a forecast).
+D13 quote verification (`phase_D/D13a_laura_quotes_verified.md/.json`, `D13b_other_quotes_verified.md/.json`,
+`D13c_voice_map.md`): Laura quotes 91 VERIFIED-PRIMARY, 6 PARAPHRASE-UNVERIFIED, 7 EXCLUDE-PRIVACY; all 171 non-Laura
+quotes verified (2 wording corrections; 6 attribution warnings, e.g. Wharton paraphrases of a judge and a past client).
+RULES FROM D13 (binding for all later phases):
+- Only D13a VERIFIED-PRIMARY lines may be presented as Laura's words, with outlet, year and context; label student-era
+  lines; several verified lines are safe only in context (e.g. "risk-adverse" is about choosing a business major, not
+  investment risk; "No more gimmicks." is about fantasy drafts; "explain myself" is about language choices) - read the
+  D13a notes before using any line.
+- The case pull quote "The only person who needs to believe in something is yourself." is VERIFIED-REPO-FILE as the
+  CASE's text but NOT verifiable as Laura's words: cite it as the case's words only.
+- Do NOT describe a "floor-first leap" (quit only after the book deal secured a floor) as Laura's trait: it rests on a
+  reporter's sentence next to personal material, not her words.
+- There is no verified statement by Laura about investing: never write her "investment philosophy". No "falling
+  safely" / book-title puns; the case's own "appropriate balance" is fine.
+- No Laura quotes in the Trading Notes or the IPS (the IPS bans formal citations); at most 1-2 in the Final Report.
+- Her verified words carry two risk ideas: regret-driven leaps ("you should always take the jump because you're always
+  going to regret not doing it") and not letting down "people who were your earliest supporters and were the first to
+  believe in you" (student-era, Daily Pennsylvanian 2016). The second supports "promise first"; the first means the plan
+  must honestly answer why whole-portfolio equity is only ~0-2% in 2027, ~20% in 2028-30 and ~4% after the 2031 floor.
+- Two certainty gaps must be named plainly: the ladder may cost more than $300k in January 2027 (roughly 1 in 4 to 1
+  in 3 modelled rate paths), so part of the promise can wait on 2028 income she called "unstable"; and "certain" is in
+  nominal USD while the residency's costs are in Taiwan and a fixed $50k buys less each year.
