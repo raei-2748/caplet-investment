@@ -363,3 +363,14 @@ RULES FROM D13 (binding for all later phases):
 - Two certainty gaps must be named plainly: the ladder may cost more than $300k in January 2027 (roughly 1 in 4 to 1
   in 3 modelled rate paths), so part of the promise can wait on 2028 income she called "unstable"; and "certain" is in
   nominal USD while the residency's costs are in Taiwan and a fixed $50k buys less each year.
+
+## 17. SCOPE: NO FINAL REPORT WORK YET (team leader, 2026-09-28; supersedes earlier mentions of the Final Report)
+Work only for (1) WInS trading now, (2) the Trading Notes Analysis (Oct 23) and (3) the IPS (Nov 6). Do NOT produce
+Final Report material: no Final Report narrative, chapter plans, visuals/chart specs, Works Cited plans, fundraising
+excerpt drafts or checklists, final operating-reserve calculations, detailed projections, or final 2031 range numbers
+presented as Final Report content. BUT the IPS freezes the strategy on Nov 6 and the Final Report must later apply it
+without redesign (Guide p.5), so the STRATEGY must already contain the decision RULES the Final Report will apply: how
+the operating reserve is funded and changes; how the 2031 co-sponsor range is determined (the method, not final
+figures); how the facility contribution and financial flexibility are decided; which "if X then Y" rules apply. Put
+such items under "IPS: rules to fix before Nov 6". Anything purely Final-Report goes to a short "later (after Nov 9)"
+list in open_questions.md, one line each.
