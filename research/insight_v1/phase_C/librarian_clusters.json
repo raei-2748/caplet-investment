@@ -1,0 +1,1962 @@
+[
+ {
+  "source_ids": [
+   "B1a-03",
+   "B1b-02",
+   "B2a-11",
+   "B4b-03",
+   "B7a-02",
+   "B7b-07",
+   "B8b-18"
+  ],
+  "canonical_text": "Should every WInS trade note from now on open with a one-line purpose, name its role in the Guide's own words (growth, liquidity, risk management, future funding) using the same fixed labels the IPS and Final Report will use, link it to one dated cash flow of Laura's, and carry one dated, checkable data point and one named risk?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B1a-05",
+   "B1b-03",
+   "B4b-01",
+   "B7a-13",
+   "B7a-14",
+   "B7b-02",
+   "B7b-09"
+  ],
+  "canonical_text": "Should the three Trading Notes be one 'supported', one 'tested' and one 'refined' decision, and which pre-written rule (a WInS rebalancing band or rate trigger) and which dated market events between Sept 28 and Oct 20 can make a genuine rule-triggered trade happen before the Oct 23 deadline?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B1a-22",
+   "B1b-21",
+   "B4b-23",
+   "B8a-14",
+   "B8b-07",
+   "B9a-14",
+   "B10b-06"
+  ],
+  "canonical_text": "What explicit rule or share of the post-reserve surplus should stay uncommitted as 'financial flexibility' (anchored to Laura's stated wish to keep options open and try many ventures, and checked against benchmarks such as Brunel's 10%), rather than 'whatever is left' or simply the unpledged upside, and does she rank it above a bigger facility contribution?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B2a-01",
+   "B2b-10",
+   "B3b-02",
+   "B4a-06",
+   "B4b-14",
+   "B8b-05",
+   "B10b-02"
+  ],
+  "canonical_text": "If rates fall and the ladder costs more than $300k on the January 2027 purchase date (it did on 173 of 185 trading days in 2026), should the IPS base rule be 'buy as much as the first deposit affords, longest rungs first, and complete it from the 2028 deposit' with a stated shortfall limit and 'fully funded by 1 January 2028 at the latest' as the headline, and should the purchase be made in full, in stages or on yield triggers in a way Laura would recognise as hers?",
+  "domain_tag": "D1"
+ },
+ {
+  "source_ids": [
+   "B1a-01",
+   "B1b-05",
+   "B2a-02",
+   "B3a-05",
+   "B7a-16",
+   "B9a-01"
+  ],
+  "canonical_text": "Should the WInS book (exactly Laura's $300k Year-1 deposit; the $150k is never added) mirror her literal 2027 portfolio (about 97% Treasury ladder plus a small labelled surplus sleeve, since her ability to take risk only switches on in 2028) rather than the post-2028 ~65/35 target mix, and which one IPS sentence says which book WInS represents?",
+  "domain_tag": "D10"
+ },
+ {
+  "source_ids": [
+   "B1a-08",
+   "B1b-12",
+   "B7a-15",
+   "B7b-10",
+   "B10b-11"
+  ],
+  "canonical_text": "Which contingent 'if X, then Y' rules (rates fall before Jan 2027; 2028 deposit smaller or late; 2031 floor; 2033 reserve; facility share), each with trigger, action and record, must the IPS pre-declare before the Nov 6 freeze so the Final Report's numbers read as applications of the IPS rather than a redesign after results?",
+  "domain_tag": "D8"
+ },
+ {
+  "source_ids": [
+   "B2a-07",
+   "B4a-19",
+   "B7a-26",
+   "B8a-24",
+   "B8b-27"
+  ],
+  "canonical_text": "Which pre-committed, purpose-tied 'bad-year rule' should the IPS carry for Laura's emotions in a downturn (e.g. if equities fall X%, the promise portfolio is untouched and the sleeve is rebalanced at the next review; reserve held as individual bonds rather than funds), and would a 'letter to Future You' framing feel natural or gimmicky?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B2a-14",
+   "B4a-14",
+   "B8a-12",
+   "B8b-02",
+   "B9a-07"
+  ],
+  "canonical_text": "Should Laura's 2031 message be ordered as an unconditional floor already bought, then a conditional stretch released only if the portfolio reaches a stated level, then an invitation for partners to commit on top, matching her own proof-before-asking and staged-growth record and her product-manager 'committed plus stretch' language rather than percentiles?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B3a-03",
+   "B3a-11",
+   "B3a-16",
+   "B3b-04",
+   "B9b-13"
+  ],
+  "canonical_text": "What correlation between the 2028 $150k deposit and 2027 equity returns should the model assume (her creative income stepped up in the 2020 crash; 'other entrepreneurial ventures' such as freelance tech design may be the most cyclical source), or should wrong-way income risk be shown as named scenarios (late, smaller, both with falling rates) with the assumption stated in the Final Report?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B3a-08",
+   "B3b-09",
+   "B5b-16",
+   "B8a-20",
+   "B9b-18"
+  ],
+  "canonical_text": "Should the team reject any 'AI hedge' tilt, describe Laura's own AI exposure as two-sided (lost illustration work vs AI-licensing income), disclose in one truthful sentence the broad index's AI (~40% of the S&P 500), mega-cap and Taiwan concentration without implying a values preference, and leave any AI tilt to her, a builder of ML products?",
+  "domain_tag": "D2"
+ },
+ {
+  "source_ids": [
+   "B7a-08",
+   "B7b-01",
+   "B7b-12",
+   "B10a-19",
+   "B10b-18"
+  ],
+  "canonical_text": "Since lock-early is now the textbook answer that AI tools and hundreds of teams will give, which 2-3 Laura-specific, checkable decisions make our 'clear and creative thesis' different, and what one claim can only our strategy truthfully make in the 50-word pitch?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B1a-02",
+   "B5b-19",
+   "B7b-06",
+   "B10b-15"
+  ],
+  "canonical_text": "Since hundreds of teams will clone Wharton's example note (a Treasury ETF bought to 'begin preparing' and 'reduce portfolio volatility') and stocks and Treasuries fell together in 2026, what single fact and wording should our Treasury note lead with ('matches her ten payments', bought all at once, now) so long-duration bonds read as reducing risk to Laura's promise rather than to portfolio volatility?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B1a-09",
+   "B1b-10",
+   "B4a-18",
+   "B4b-12"
+  ],
+  "canonical_text": "Which governance elements must the 500-word IPS carry (who decides what among automatic rules, the firm and Laura; dated reviews in 2028, 2031 and 2033; event triggers such as a funded ratio below 100%, a short or late deposit or a residency delay; one rebalancing rule), and which can be cut for a nameless, sizeless firm?",
+  "domain_tag": "D10"
+ },
+ {
+  "source_ids": [
+   "B1a-24",
+   "B1b-17",
+   "B6a-14",
+   "B8b-11"
+  ],
+  "canonical_text": "What should the Final Report say, without solving it, about the residency after 2042 (year eleven, falling dependence on her US$50k, why the case says 'endowment') so co-sponsors do not assume a perpetual fund, and should flexibility money be framed as helping it outlast her commitment?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B1b-15",
+   "B2b-17",
+   "B6a-05",
+   "B8a-23"
+  ],
+  "canonical_text": "Since capital funders test whether operations are sustainable after the building is finished, should the fundraising draft lead with Laura's fully pre-funded ten years of operations as the credibility anchor (the community before its container), with the facility range second?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B1b-26",
+   "B2b-02",
+   "B7a-03",
+   "B7b-17"
+  ],
+  "canonical_text": "Who reads our written deliverables first (Wharton student evaluators or Aberdeen asset managers), how long do they spend, what do they look for first, and how much fixed-income precision versus plain English should we therefore target?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B1b-27",
+   "B3a-20",
+   "B3b-03",
+   "B8b-13"
+  ],
+  "canonical_text": "Given the case's firm 'will contribute $150,000' but no public next-book deal, a 2025 writing break and a 2020 contract that may be fully delivered, what confidence label and deposit stress test should the deliverables attach to the 2028 deposit as a named source of uncertainty, without speculating about her real finances?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B2b-05",
+   "B3a-15",
+   "B8a-02",
+   "B8b-03"
+  ],
+  "canonical_text": "Does Laura's documented career 'thoughtful risk' (leaving a steady tech job only after the HarperCollins book deal was signed; her talk 'Taking the Leap to Pursue Art Full-Time from a Traditional Tech Job') show 'floor first, then leap', and should the IPS use it as evidence for 'lock the promise, then take risk with the surplus' instead of 'high appetite, so more equity'?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B2b-09",
+   "B4b-05",
+   "B7a-06",
+   "B9b-04"
+  ],
+  "canonical_text": "Should the IPS state Laura's risk tolerance, which the case never states, in two parts, ability (low for the promise, high capacity for loss on the sleeve) and willingness (inferred without speaking to her, so ~60% sleeve equity is set by willingness and the 2031 promise), and which evidence would change that inference?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B2b-14",
+   "B3b-21",
+   "B8a-21",
+   "B8b-28"
+  ],
+  "canonical_text": "What voice and pronoun conventions should the deliverables use (her site lists she/her and they/them, the case uses 'she'; the IPS audience is unstated) so the writing reads as authentic, allowing a moment of warmth without forced humour?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B2b-20",
+   "B7a-18",
+   "B8a-17",
+   "B10b-21"
+  ],
+  "canonical_text": "Should the team keep a dated decision log from today (disagreements, roles, mistakes, reasons for not trading), echoing Laura's daily comics diary only if that is not decoration, so Articulation has a true challenge-and-adaptation story even though lock-early decides early?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B3a-10",
+   "B3b-07",
+   "B5b-04",
+   "B5b-17"
+  ],
+  "canonical_text": "Is a U.S.-China/Taiwan crisis (e.g. a blockade between 2031 and 2033) the single correlated scenario that hits the growth sleeve, TWD, the residency and possibly her income at once while the Treasury ladder holds, and should the Final Report name it as such, state that her income effect is uncertain in sign, and set the 2031 range's low end with it?",
+  "domain_tag": "D4"
+ },
+ {
+  "source_ids": [
+   "B3b-10",
+   "B7a-19",
+   "B7b-25",
+   "B8b-26"
+  ],
+  "canonical_text": "How specific should our AI-use record be (what AI did, what students decided and redid by hand, each member's role, no AI-generated images for an illustrator client), and can it become an Articulation trust signal rather than a risk?",
+  "domain_tag": "D10"
+ },
+ {
+  "source_ids": [
+   "B3b-19",
+   "B6a-11",
+   "B8b-09",
+   "B9b-15"
+  ],
+  "canonical_text": "Who exactly will read her 2031 fundraising material (Taiwan's annual, project-based public culture funders; libraries, universities and cultural foundations; translation or residency funders; private donors), and should the draft answer the first question of 2-3 named reader types rather than 'co-sponsors' in general?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B4a-02",
+   "B4a-03",
+   "B4b-07",
+   "B4b-08"
+  ],
+  "canonical_text": "Do practitioner yardsticks (the UK regulator's ~90% hedge for a mature 10-year-duration scheme, a nil 'employer covenant' after 2028, Brunel's extra risk for needs 6-15 years away, J.P. Morgan's critique of hibernation) justify fully hedging Laura's payments in 2027, and what sentence says why we depart from a gradual glide path?",
+  "domain_tag": "D8"
+ },
+ {
+  "source_ids": [
+   "B4a-05",
+   "B4b-13",
+   "B9b-23",
+   "B10a-05"
+  ],
+  "canonical_text": "What fee would a real adviser disclose for Laura's ~$450k, and should the IPS say the reserve is held as directly owned Treasuries needing almost no management, with fees charged on or paid only from the growth sleeve so the ladder's ~$7.7k headroom is never eroded?",
+  "domain_tag": "D8"
+ },
+ {
+  "source_ids": [
+   "B4a-15",
+   "B8b-06",
+   "B9b-25",
+   "B10b-19"
+  ],
+  "canonical_text": "Does the case allow the facility contribution to be committed in 2033 but drawn in stages against construction milestones (including a tranche after 2033), and would staging raise the responsible amount or preserve flexibility better than a lump sum on 1 January 2033?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B4a-20",
+   "B5a-16",
+   "B7b-04",
+   "B8b-23"
+  ],
+  "canonical_text": "Should the team log from the first WInS trade the daily value of Laura's ten payments on that day's curve (~$289 per bp), the ladder cost, the funded ratio and the WInS hedge value, so a Trading Note can report whether the IEF/TLT mix tracked the promise within X%?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B5a-02",
+   "B5a-20",
+   "B5b-10",
+   "B5b-21"
+  ],
+  "canonical_text": "Which dated events or reversals before Laura's January 2027 purchase (an AI-equity bust, a fall in the term premium or expected policy rates within the 10y's 5.17%) could erase the 27bp cushion and push the ladder above $300k, and should the purchase rule therefore be a funded-ratio trigger rather than a rate view?",
+  "domain_tag": "D1"
+ },
+ {
+  "source_ids": [
+   "B5a-13",
+   "B5b-01",
+   "B5b-02",
+   "B10a-03"
+  ],
+  "canonical_text": "How many extra points a year does sleeve equity really expect over simply buying Treasuries in 2026 (JPM 6.7% vs Vanguard 4.2-6.2%; CAPE ~41 vs forward P/E 19.1; ~5.0% on a 6-year Treasury), and does that move the sleeve equity weight from 60% toward 40-50%?",
+  "domain_tag": "D2"
+ },
+ {
+  "source_ids": [
+   "B6b-06",
+   "B6b-20",
+   "B8b-22",
+   "B9b-16"
+  ],
+  "canonical_text": "Which single Final Report chart shows the promise and the 2031 range most honestly (ten 'bought' blocks plus a floor bar with a narrow ~±5% whisker for three 2031 starting states, versus a fan chart of the 2026-view $159k-$273k band), in a form Laura, an illustrator and data-story maker, could redraw for co-sponsors?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B7b-05",
+   "B8a-15",
+   "B8b-25",
+   "B10a-14"
+  ],
+  "canonical_text": "Should the WInS hedge be placed in dated steps under a rule written in advance (core Treasury trades in week 1, then a documented refinement), so the trades rehearse Laura's January-2027 lock in a true sequence, and which of the plan's future decision points can a real WInS trade rehearse rather than only words?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B7b-13",
+   "B10a-04",
+   "B10b-04",
+   "B10b-12"
+  ],
+  "canonical_text": "Will a first-screen reader see the whole-portfolio equity share (~1.5% in 2027, ~20% in 2028-30, ~4% in 2031-32) as timid or incoherent for a client who 'has been willing to take thoughtful risks', and should the IPS describe risk goal by goal (promise and bought floor: none; upside: full market risk) with one clause or number saying where her risk appetite lives?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B9a-03",
+   "B9a-11",
+   "B9b-03",
+   "B10a-06"
+  ],
+  "canonical_text": "Should every sleeve recommendation be judged against Laura's riskless control (the whole surplus locked at ~5.08%, ~$204k in 2033) rather than the S&P 500, given 60% sleeve equity gives median ~$207-210k but p5 ~$159-162k and ends below $204k in 42-46% of paths, and would an all-Treasury rival beat us on simplicity?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B1a-07",
+   "B7b-20",
+   "B10b-13"
+  ],
+  "canonical_text": "How do we show 'appropriate diversification' and understanding of the investments to a fixed-income reader when the 2027 book is about 97% one issuer (the U.S. Treasury) held in 3-6 WInS positions while rivals hold 20-40?",
+  "domain_tag": "D8"
+ },
+ {
+  "source_ids": [
+   "B1a-10",
+   "B1b-22",
+   "B7b-11"
+  ],
+  "canonical_text": "With charts, citations and 'detailed financial calculations' excluded, which few numbers and rules must the 500-word IPS carry in words to be testable, and are small tables allowed?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B1a-14",
+   "B1b-11",
+   "B10b-20"
+  ],
+  "canonical_text": "What liquidity need does the case actually give Laura (none before 2033), and what should the IPS's required 'liquidity' clause say about where liquidity sits in lock early, better than a rival's cash bucket?",
+  "domain_tag": "D8"
+ },
+ {
+  "source_ids": [
+   "B1a-16",
+   "B1b-07",
+   "B2b-16"
+  ],
+  "canonical_text": "Since this year's case names no values or ESG preference and every value word describes her work rather than her money, should the deliverables say explicitly that no values screen is applied and that her impact comes through the residency and how we communicate, or stay silent?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B1a-17",
+   "B1b-19",
+   "B4b-20"
+  ],
+  "canonical_text": "Since Laura decides the 2033 contribution herself, should 'will fall within that range' be partly a policy outcome (contribute at most the top, keep any excess as flexibility), so the stated confidence is the probability of affording the bottom and the top is set at a stated percentile?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B1a-18",
+   "B1b-18",
+   "B10b-05"
+  ],
+  "canonical_text": "Should the recommended co-sponsor 'dollar range' be a figure computed today (a 5-7-year forecast), a rule Laura applies in 2031 (a 2-year forecast with today's projection as illustration), or both, presented so it neither looks evasive nor drifts into the 'one exact amount' the case rejects?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B1a-19",
+   "B4b-22",
+   "B6a-06"
+  ],
+  "canonical_text": "Should the plan pre-schedule a late-2032 checkpoint (when annual public funders set 2033 budgets) at which the 2031 range may narrow or its upside be revisited, but the floor never falls?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B1a-26",
+   "B1b-13",
+   "B7b-27"
+  ],
+  "canonical_text": "Which market date should the IPS and Final Report numbers be priced on (25 Sep, the 6 Nov freeze, or the latest curve before 4 Dec), given the case gives no 2027 prices, and how should that assumption be stated?",
+  "domain_tag": "D1"
+ },
+ {
+  "source_ids": [
+   "B1a-27",
+   "B1b-28",
+   "B3b-08"
+  ],
+  "canonical_text": "Since the case never says why the residency is in Taiwan, should deliverables refuse to supply a reason and never link her Wuhan birth to Taiwan, and may they cite her public professional statement that she worked as a comic artist from Taipei?",
+  "domain_tag": "D4"
+ },
+ {
+  "source_ids": [
+   "B1b-06",
+   "B5a-18",
+   "B7a-17"
+  ],
+  "canonical_text": "Should the WInS book hold one or more individual Treasuries maturing near Laura's payment dates (Nov 2032-Nov 2041) to show cash-flow matching rather than only duration matching with constant-maturity ETFs, and which of those maturities does the WInS bond list actually offer?",
+  "domain_tag": "D1"
+ },
+ {
+  "source_ids": [
+   "B2a-03",
+   "B2b-11",
+   "B7a-09"
+  ],
+  "canonical_text": "Should we rule out every identity- or interest-themed security (the EWT/Taiwan tilt, publishing or media stocks, creator-economy themes), because the case states no background-to-portfolio link and readers and Laura would read turning her biography into holdings as tokenism?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B2a-04",
+   "B4b-15",
+   "B9a-06"
+  ],
+  "canonical_text": "Should the IPS turn the case's 'understands that investing involves uncertainty and periods of market volatility' into a stated acceptable loss for the growth sleeve only (an 'affordable loss' in dollars for the worst 2033 facility outcome she can accept, holding in ~19 of 20 cases), anchored to her known liabilities, while the payments carry no market risk?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B2a-05",
+   "B3a-09",
+   "B3b-06"
+  ],
+  "canonical_text": "Should the human-capital 'underweight publishing, media and education' tilt (e.g. HarperCollins's parent News Corp) be dropped now, since it barely changes a broad-index sleeve and mainly cuts AI platforms that might offset her AI risk, keeping only a stated link?",
+  "domain_tag": "D2"
+ },
+ {
+  "source_ids": [
+   "B2a-06",
+   "B5a-01",
+   "B10a-13"
+  ],
+  "canonical_text": "Should the IPS and first Treasury trade note say why locking is right in this rate world (real 10y 2.85%, highest since 2008; the ladder costs ~58% of face against ~95% in Wharton's 2021 ten-payment case) rather than 'rates are high', and pre-commit to no regret if rates rise after the lock?",
+  "domain_tag": "D1"
+ },
+ {
+  "source_ids": [
+   "B2a-10",
+   "B8a-07",
+   "B8b-16"
+  ],
+  "canonical_text": "Should the team adopt the case's new vocabulary (certainty, co-sponsor, flexibility) and ban old pitch words and 'finance-bro' phrases ('maximise returns', 'alpha', 'beat the market', 'aggressive growth', 'pitch/convince/win') that echo the 'ideal Whartonite' voice Laura publicly rejected?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B2a-13",
+   "B2b-03",
+   "B6a-04"
+  ],
+  "canonical_text": "What does the unattributed pull quote signal (self-reliance; private conviction turned into public credibility), and should the fundraising draft treat it as the private starting point with the bought floor as its costly public proof, or not use it at all?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B2b-04",
+   "B8a-01",
+   "B8b-01"
+  ],
+  "canonical_text": "Is the case pull quote 'The only person who needs to believe in something is yourself.' traceable to Laura on a primary source, and until it is, should deliverables attribute it to the case profile rather than to her?",
+  "domain_tag": "D10"
+ },
+ {
+  "source_ids": [
+   "B2b-06",
+   "B3a-14",
+   "B8a-06"
+  ],
+  "canonical_text": "Given Laura's CFPB, trading-firm (Belvedere Trading) and financial-literacy-teaching background, what would she check first or reject on sight (unlabelled probabilities, undisclosed costs, jargon, a sales tone), and should the IPS carry a one-line costs-and-conflicts statement and the WInS plan keep trades few?",
+  "domain_tag": "D8"
+ },
+ {
+  "source_ids": [
+   "B3a-04",
+   "B5a-19",
+   "B10a-10"
+  ],
+  "canonical_text": "How large is the joint tail in which rates fall before January 2027 (ladder above $300k, long rungs bought first) and the 2028 deposit is then late or smaller, for example through a 2027 U.S. recession that both lowers yields and shrinks her publishing and speaking income?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B3a-18",
+   "B3b-18",
+   "B9a-20"
+  ],
+  "canonical_text": "Should the Final Report leave Laura's 'continued business income' uncounted as a flexibility source or overrun backstop, sizing the buffer from portfolio money only, since her human capital is uncertain, earned in USD against NT$ costs, and may shrink after 2033 if she runs the residency?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B4a-16",
+   "B9a-10",
+   "B10a-09"
+  ],
+  "canonical_text": "Should the facility floor be locked progressively before 2031 (a ratchet each January 2029-2031, funded-status triggers, or stepping sleeve equity down in 2029-30) rather than on one date, given that a -30% equity year in 2030 at 60% sleeve equity cuts the announced floor by ~18%?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B4b-11",
+   "B5a-03",
+   "B5b-12"
+  ],
+  "canonical_text": "With the U.S. rated below AAA by all three agencies, what honest wording should replace 'certain barring U.S. default', naming which layer of default the ladder covers (non-payment, technical delay, inflation) and that the realistic residual risk is a delayed payment rather than a loss?",
+  "domain_tag": "D1"
+ },
+ {
+  "source_ids": [
+   "B4b-18",
+   "B8a-18",
+   "B8b-19"
+  ],
+  "canonical_text": "Should the plan's headline progress measure be what it secures ('all ten years of operating payments bought', funded ratio), reported the same way across all deliverables with portfolio dollars second?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B5a-22",
+   "B5a-23",
+   "B8a-10"
+  ],
+  "canonical_text": "What facility-cost inflation assumption should the Final Report use (Taiwan construction costs measured in USD; whether the 2026 +6.53% jump is a fading AI-boom wage spike or a new trend; a rural index if the residency is outside Taipei), and how should it caveat location?",
+  "domain_tag": "D4"
+ },
+ {
+  "source_ids": [
+   "B5b-23",
+   "B6b-22",
+   "B10a-18"
+  ],
+  "canonical_text": "Should the sleeve results (the 2031 floor, the 2031-33 band, the 2033 facility contribution, and the barbell and ratchet advantages) be checked against real historical paths (after the Dec 1999 CAPE peak, 2000-02, 2008, 2022, and actual two-year outcomes of a sleeve-like mix) rather than only the i.i.d. lognormal model?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B6a-07",
+   "B6b-02",
+   "B10a-07"
+  ],
+  "canonical_text": "What share of the 2031 sleeve should be locked as the floor (80%, or toward 100%, which costs only about $1k of median 2033 value but shrinks the range toward one number), and does a near-total lock dodge the case's uncertainty task while funders reward stretch gifts?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B7a-12",
+   "B7b-19",
+   "B9b-11"
+  ],
+  "canonical_text": "Should the Final Report evaluate implementation by how closely the WInS bond book tracked the present value of Laura's payments and against our own IPS rules, telling a statistics graduate that six weeks of P&L against the S&P 500 is noise?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B1a-11",
+   "B6b-01"
+  ],
+  "canonical_text": "Before more un-editable WInS notes are saved, should the team fix one certainty vocabulary (bought/locked, model-expected, possible) and tie each of the case's three words (certainty, confidence, reliability) to one object, so no note says 'guaranteed' or 'safe' in a way later deliverables must qualify?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B1a-12",
+   "B9b-06"
+  ],
+  "canonical_text": "Is this portfolio all of Laura's investable wealth or one goal-dedicated pool (the case says she has resources outside it), and should the IPS say so and let that raise her capacity to take risk with the surplus?",
+  "domain_tag": "D8"
+ },
+ {
+  "source_ids": [
+   "B1a-15",
+   "B9b-05"
+  ],
+  "canonical_text": "Which time-horizon stages should the IPS name (2027 buy, 2028 top-up, 2031 announce, 2033 gift), each a dated gate with conditions a former tech product manager would recognise, and at which boundary does her ability to take risk step down?",
+  "domain_tag": "D8"
+ },
+ {
+  "source_ids": [
+   "B1a-20",
+   "B1b-24"
+  ],
+  "canonical_text": "With no facility cost given, what makes Laura's contribution 'meaningful' to co-sponsors: its dollar size, its share of her post-reserve capacity, or the certainty that it will be delivered alongside her secured ten years of operations?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B1b-01",
+   "B7a-01"
+  ],
+  "canonical_text": "What do the newly found 2026-27 Investment Competition Guide and Competition Infographic add to or change in our Phase A conclusions and checklists?",
+  "domain_tag": "D10"
+ },
+ {
+  "source_ids": [
+   "B1b-08",
+   "B7a-07"
+  ],
+  "canonical_text": "What will the median and top-decile 2026-27 report look like (how many teams will reuse last season's growth-target template or copy Wharton's Treasury-ETF example), and which one visible feature proves ours did not?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B1b-09",
+   "B2b-01"
+  ],
+  "canonical_text": "Since Wharton replaced 'compelling and clever pitch' and 'win him/her over as a client' with 'recommendations that can earn her confidence' and 'authentic team voice', should every deliverable aim to earn trust through adviser-style disclosure rather than to persuade?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B1b-20",
+   "B9a-13"
+  ],
+  "canonical_text": "Where exactly must inflation appear in the deliverables, and should every co-sponsor dollar figure be tagged as 2033 dollars with a today's-construction-cost equivalent (e.g. $204k in 2033 is about $160k of 2026 cost at 3.54%/yr)?",
+  "domain_tag": "D4"
+ },
+ {
+  "source_ids": [
+   "B2b-08",
+   "B9a-16"
+  ],
+  "canonical_text": "Should the 500-word IPS be organised one-to-one on the IPS guide's five client items and the case's required tests (as Laura once built a case competition around the client's problem areas) rather than on the CFA grid?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B2b-12",
+   "B9b-24"
+  ],
+  "canonical_text": "How many of the IPS's 500 words should describe Laura as a person rather than her goals, which beyond-the-case facts earn a place, and what may each sentence rest on so she feels understood rather than analysed?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B3a-06",
+   "B8a-09"
+  ],
+  "canonical_text": "Is Laura's 2028 income more exposed to political and budget cycles (corporate DEI/ERG event budgets, school and library book challenges, the 2025-26 speaking shocks) than to the stock market, making her deposit risk mostly diversifying and a media/publishing equity underweight a weak hedge?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B3a-07",
+   "B3b-20"
+  ],
+  "canonical_text": "How should the Final Report describe policy risk to her school and library channel (possibly her largest identifiable publishing-income risk): cite the verified 2025-26 events in one clause without claiming her book was banned, or stay generic?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B3a-12",
+   "B3b-14"
+  ],
+  "canonical_text": "Which exact words may the deliverables use about Laura's books and honours ('bestselling', finalist vs winner, 'professor', dates) so nothing is overstated?",
+  "domain_tag": "D10"
+ },
+ {
+  "source_ids": [
+   "B3b-05",
+   "B8b-04"
+  ],
+  "canonical_text": "Does Laura-specific evidence (her lumpy creative income and working design studio as human capital; her regret-of-omission framing 'you're always going to regret not doing it') argue for the low or the high end of the 50/60/70% sleeve equity weight?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B3b-11",
+   "B7b-16"
+  ],
+  "canonical_text": "Should the Final Report use a few clean analytic charts that each carry a conclusion, meeting the standard of Laura's own 'Visual Data Stories' rather than imitating comic style?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B3b-12",
+   "B9b-22"
+  ],
+  "canonical_text": "Which of Laura's own verified ideas can the strategy echo honestly, and should every Laura-specific sentence pass a written 'swap test' (kept only if it rests on her professional record, cut if it works only because of her ethnicity, sexuality or birthplace)?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B4a-08",
+   "B4b-16"
+  ],
+  "canonical_text": "Should the ten-payment reserve be held from 2027 in a separate, labelled sub-account with a written rule that it pays only the ten payments (naming who may override it and when), so 'set aside in 2033' labels money already segregated?",
+  "domain_tag": "D8"
+ },
+ {
+  "source_ids": [
+   "B4a-09",
+   "B4b-09"
+  ],
+  "canonical_text": "Where does our 'bought' funding certainty sit next to published standards (Solvency II 99.5%, UK low-dependency at least 90% hedged, goals-based 'needs' at 90-95%, planners' 75-90% zones), and should the Final Report present it as a deliberate client choice with a stated price?",
+  "domain_tag": "D8"
+ },
+ {
+  "source_ids": [
+   "B4a-22",
+   "B4b-25"
+  ],
+  "canonical_text": "Does Australia's Retirement Income Covenant (income, stability, flexible access) mirror the IPS guide's growth-certainty-flexibility trio closely enough to earn a place, should the IPS state a priority order (promise, then flexibility, then growth), and does the Future Fund show why a promise without government backing must be matched?",
+  "domain_tag": "D8"
+ },
+ {
+  "source_ids": [
+   "B4a-23",
+   "B4b-04"
+  ],
+  "canonical_text": "Under Chhabra's risk-allocation buckets, is Laura's aspirational bucket already filled by her career, future books and the residency, so the portfolio should hold only safety (reserve) and market (broad sleeve) assets and refuse thematic, single-stock or country tilts?",
+  "domain_tag": "D8"
+ },
+ {
+  "source_ids": [
+   "B4a-24",
+   "B4b-17"
+  ],
+  "canonical_text": "Which named frameworks (cash-flow matching/LDI, funded-status de-risking, goals-based buckets, Yale-style lagged spending, UPMIFA prudence) fit which part of the plan and would readers recognise, which should be left out, and should they be named in the IPS or only in one Final Report mapping table?",
+  "domain_tag": "D8"
+ },
+ {
+  "source_ids": [
+   "B4b-06",
+   "B10a-17"
+  ],
+  "canonical_text": "Is the right professional analogue for Laura's ~152%-funded surplus a pension 'surplus glidepath' (which might carry more return-seeking assets than our ~20% equity) or a dated floor-plus-upside, and where should the Final Report say we depart from pension practice?",
+  "domain_tag": "D8"
+ },
+ {
+  "source_ids": [
+   "B5a-09",
+   "B5b-18"
+  ],
+  "canonical_text": "What is the real value of the ten fixed $50k payments at the market's own inflation price and under one historical stress, who bears the erosion, and should the Final Report show co-sponsors the payments in both nominal and real terms?",
+  "domain_tag": "D1"
+ },
+ {
+  "source_ids": [
+   "B5a-12",
+   "B9a-04"
+  ],
+  "canonical_text": "Which return should the sleeve's bonds earn in the model when JPM's LTCMA (4.00%, set at a 4.16% 10y) and CBO sit ~100bp below today's yields: the curve forward (~5.08%) or a published house assumption?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B5a-14",
+   "B5b-11"
+  ],
+  "canonical_text": "Which stock-bond correlation should the model use (JPM's ~0, the 2016-2020 regime where bonds hedged stocks, or the 2022-2026 regime where both fell), and should the sleeve p5 and the 2031 range be stress-tested at a positive correlation?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B5a-15",
+   "B7b-03"
+  ],
+  "canonical_text": "How do we evidence discipline-by-inaction (not selling or trading the Treasury hedge as yields rise or around the Oct 28 FOMC and Nov 4 refunding announcement), given that a decision not to trade cannot itself be a Trading Note?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B5a-21",
+   "B5b-03"
+  ],
+  "canonical_text": "What share of the S&P 500 and of a world fund depends on TSMC's Taiwan fabs (direct weight plus U.S. firms whose leading chips it makes), and is the growth sleeve therefore doubling Laura's Taiwan bet alongside the residency?",
+  "domain_tag": "D4"
+ },
+ {
+  "source_ids": [
+   "B5a-24",
+   "B5b-05"
+  ],
+  "canonical_text": "Should the IPS carry a one-line rule for the locked payments if the residency is delayed or cannot operate in Taiwan (e.g. a blockade), tying the promise to the residency's operating expenses rather than the place, since the USD Treasury reserve is portable?",
+  "domain_tag": "D4"
+ },
+ {
+  "source_ids": [
+   "B5b-06",
+   "B5b-07"
+  ],
+  "canonical_text": "Do TWD and equities tend to fall together (TWD weakens in crises and jumps in good times), making FX risk partly self-hedging and the 2031-33 facility range narrower in NT$ than in US$?",
+  "domain_tag": "D4"
+ },
+ {
+  "source_ids": [
+   "B6a-01",
+   "B6b-11"
+  ],
+  "canonical_text": "Would a professional co-funder count any part of Laura's range as money raised beyond the written, bought floor, and should the fundraising part therefore lead with the floor rather than the range or its midpoint?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B6a-03",
+   "B6b-13"
+  ],
+  "canonical_text": "Should part of Laura's above-floor amount be offered as a 1:1 match or challenge for co-sponsor gifts instead of a plain range, given field evidence that a match raises giving but larger ratios add nothing?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B6a-15",
+   "B6a-19"
+  ],
+  "canonical_text": "Since the seed-money effect is measured against a known campaign goal and the facility cost is deliberately unknown, should the Final Report cite institutional readiness rules (e.g. Kresge's 20-50% raised before applying and written-pledge counting) rather than small-donor experiments for why her contribution helps?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B6a-18",
+   "B6b-18"
+  ],
+  "canonical_text": "What minimum checklist must a funder-grade founder contribution statement in Laura's fundraising part meet to be credible to a finance reader and a non-specialist at once, and what can be dropped to keep it short?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B6b-07",
+   "B10b-16"
+  ],
+  "canonical_text": "Which is largest for what Laura's facility money buys by 2033: market risk, USD/TWD risk (2-year p5/p95 -12.1%/+10.6% since 2006 against a ~-4%/+5% market band) or Taiwan construction inflation, and does any NT$ figure need its own band or an 'illustration at a dated rate' label?",
+  "domain_tag": "D4"
+ },
+ {
+  "source_ids": [
+   "B6b-09",
+   "B10a-08"
+  ],
+  "canonical_text": "Should the 2031 pledge be tied only to money already bought, treating the bottom as the only promise and the equity upside as Laura's flexibility money (never promised, with no 'best estimate' shown), since beating a promise earns no credit while missing it is punished?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B6b-21",
+   "B9b-17"
+  ],
+  "canonical_text": "Should the co-sponsor wording be written to survive translation into Mandarin (every probability numeric, no idioms, US$ every time, a dated NT$ reference, 'confidence' defined in words)?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B7a-04",
+   "B7b-18"
+  ],
+  "canonical_text": "Which of our Treasury-matching and bond statements would an Aberdeen fixed-income professional mark wrong or loose, and which would gain credibility?",
+  "domain_tag": "D1"
+ },
+ {
+  "source_ids": [
+   "B7b-15",
+   "B10b-09"
+  ],
+  "canonical_text": "Since readers may expect a probability for how certainty was evaluated (last season's strong teams headlined Monte Carlo), what stress table, residual-risk list and checkable number (e.g. a market-implied U.S. default figure) should sit beside our model-free certainty definition?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B7b-23",
+   "B8a-22"
+  ],
+  "canonical_text": "Would book-title puns and identity metaphors ('strong foundations for messy roots', 'lessons for falling'), which many teams will use, read as authentic or as tokenism to readers and to Laura, and what is the most our deliverables should use?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B7b-24",
+   "B8a-16"
+  ],
+  "canonical_text": "Would a candid 'anti-resume' in the Articulation section (last season's rule violation and the pre-trade compliance routine it produced, rejected ideas, WInS mistakes) earn more of Laura's respect than a polished success story?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B7b-26",
+   "B8a-25"
+  ],
+  "canonical_text": "How should the team verify external facts about Laura when secondary sources conflict (dates, bios, a transcript link to another episode, a Wharton staff quote easily mistaken for hers) or refer to other people with her name, so every fact matches the case identifiers?",
+  "domain_tag": "D10"
+ },
+ {
+  "source_ids": [
+   "B8a-03",
+   "B8b-15"
+  ],
+  "canonical_text": "Which elements of our strategy or presentation would Laura call 'gimmicks' (Taiwan equity tilt, identity-themed funds, branded framework names, book-title themes and puns, extra model layers or heavy Monte Carlo in the main text), and should they be cut?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B8a-08",
+   "B8b-12"
+  ],
+  "canonical_text": "How late should the 'late 2028 deposit' stress case be (for example about 12 months), given that both of Laura's books appeared about 9-12 months after first announced?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B8a-13",
+   "B8b-08"
+  ],
+  "canonical_text": "Given Laura's free-access record (a free festival, mini grants, pro-bono school visits), should the Final Report assume residency program fees are immaterial, making the operating commitment and a post-2033 flexibility buffer more important?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B8a-19",
+   "B8b-20"
+  ],
+  "canonical_text": "How large should the Final Report's trade-offs and assumptions disclosure be: one compact, separate 'trade-offs we made' box (e.g. what growth-first offered at the median and what it risked) or pages of caveats?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B8b-10",
+   "B10b-07"
+  ],
+  "canonical_text": "Under a floor-plus-cap range rule, where does good-market money go if the 2033 portfolio lands above the top of the 2031 range, and does sending it to flexibility undercut the 'meaningful contribution' signal and the case's demand to show how favourable outcomes affect the amount?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B8b-24",
+   "B9b-21"
+  ],
+  "canonical_text": "Which rejected alternatives (growth-first, rolling short, equity-heavy, all-Treasury) should the Final Report show with one number each as the team's experiment log, and how much of Articulation should explain why we scrapped growth-first?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B9a-02",
+   "B9b-02"
+  ],
+  "canonical_text": "What is Laura's required return per goal (payments: the locked Treasury rate, only ~1.05%/yr across both deposits; facility: a stated hurdle), and should the IPS say her needs can be met below today's Treasury yield instead of setting one portfolio return target?",
+  "domain_tag": "D8"
+ },
+ {
+  "source_ids": [
+   "B1a-04"
+  ],
+  "canonical_text": "When one strategic decision needs several trades (because of a position limit or a two-fund duration match), which trade carries the note, and should each note name its companion trades so it stands alone when quoted?",
+  "domain_tag": "D10"
+ },
+ {
+  "source_ids": [
+   "B1a-06"
+  ],
+  "canonical_text": "Does the WInS rule 'no more than twice a security's current daily trading volume' use today's running volume, so that an overnight order from Australia filled at the open in a thin Treasury fund or individual bond could be rejected or only partly filled?",
+  "domain_tag": "D10"
+ },
+ {
+  "source_ids": [
+   "B1a-13"
+  ],
+  "canonical_text": "Should the Final Report give Laura one recommendation, or a small menu of options for her to choose from?",
+  "domain_tag": "D8"
+ },
+ {
+  "source_ids": [
+   "B1a-21"
+  ],
+  "canonical_text": "Since the facility money is only what is left after the reserve, is it a residual claim? And should the Final Report show co-sponsors that matching the reserve early removes the leverage that would make the gift swing more than the whole portfolio?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B1a-23"
+  ],
+  "canonical_text": "What would it cost to make the ten payments inflation-indexed, and should the Final Report show that the phrase 'not adjusted for inflation' is what makes the promise fit inside the first deposit?",
+  "domain_tag": "D1"
+ },
+ {
+  "source_ids": [
+   "B1a-25"
+  ],
+  "canonical_text": "The case fixes every payment date, yet asks teams to state assumptions about 'the timing of cash flows'. Which timing assumptions does it want?",
+  "domain_tag": "D1"
+ },
+ {
+  "source_ids": [
+   "B1a-28"
+  ],
+  "canonical_text": "What does the way Wharton's cases have changed across seasons reveal about what this year's designers want rewarded?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B1a-29"
+  ],
+  "canonical_text": "Should the fundraising draft be written as a 2031 document with clearly labelled illustrative figures from today's projection, or as a template with blanks?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B1b-04"
+  ],
+  "canonical_text": "Does this year's Trading Notes Analysis still expect one stock, one ETF and one team choice, as last season's reports show, or may all three notes be bond or ETF trades?",
+  "domain_tag": "D10"
+ },
+ {
+  "source_ids": [
+   "B1b-14"
+  ],
+  "canonical_text": "Does 'objectives that reflect ... her passion for innovation' justify any innovation, tech or AI tilt, or does 'innovation' describe the residency itself?",
+  "domain_tag": "D2"
+ },
+ {
+  "source_ids": [
+   "B1b-16"
+  ],
+  "canonical_text": "Will co-sponsors read 'operating reserve' in its nonprofit sense (a few months of expenses held by the organisation) rather than the case's ten-year personal set-aside, and should the fundraising draft use a different, plainer label?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B1b-23"
+  ],
+  "canonical_text": "Which three tradeoffs should the IPS name explicitly, since the Guide, the Infographic and the FAQ all say strong teams explain 'reasoning, assumptions, and tradeoffs'?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B1b-25"
+  ],
+  "canonical_text": "Given that the FAQ still carries recycled text ('10 weeks of trading', 'long-term portion of your portfolio'), does 'Investments permitted (for BOTH contributions)' really limit Laura's long-term plan to instruments listed in WInS?",
+  "domain_tag": "D10"
+ },
+ {
+  "source_ids": [
+   "B2a-08"
+  ],
+  "canonical_text": "With a statistics-degree client and an academic director who holds an M.A. in Statistics and runs the Wharton Financial Analytics Initiative, what would a statistically trained reader reject on sight in our certainty definition and 2031 confidence statement?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B2a-09"
+  ],
+  "canonical_text": "The committed outflow grew from 50% of the client's money (Jordan) to 111% (Laura), and this is the first case with no return target; should the Final Report spend most of its analysis on funding reliability, the facility rule and the co-sponsor range rather than on security selection?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B2a-12"
+  ],
+  "canonical_text": "Past clients said what won them over (feeling 'seen', plans 'not just about the numbers'); with no personal hooks in Laura's case, which case-stated facts about how she thinks should every recommendation visibly mirror so she feels understood rather than analysed?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B2a-15"
+  ],
+  "canonical_text": "All six clients pay something forward, and Laura's residency serves 'artists, writers, designers, entrepreneurs, and educators', her own roles; are the residents third parties who rely on the ten payments, and does that raise the bar for certainty and for how we describe it to co-sponsors?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B2a-16"
+  ],
+  "canonical_text": "The case opens with Laura's belief that 'stories have the power to change how people see the world', and her first work answered misinformation; should the co-sponsor draft be a short story backed by numbers (problem, promise, proof, range) rather than a table-first term sheet?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B2a-17"
+  ],
+  "canonical_text": "Top-50 lists show many client-themed team names, and a 2024 semifinal judge praised the ability to 'connect the client's objectives to an investment strategy'; under this year's 'authentic team voice', which creative element is authentic for us and which is decoration?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B2a-18"
+  ],
+  "canonical_text": "How did the 2021-22 finalists fund Jordan's ten scholarship payments (cash, dividend stocks, bonds), and does that show readers accept an answer suited to its rate regime, so a Treasury match in 2026 will not look 'too simple'?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B2a-19"
+  ],
+  "canonical_text": "The 2024-25 case wrote '$10,000 USD' for a Nigerian project, while the 2026-27 case names no currency for a Taiwan project; is currency a deliberate simplification (one disclosure line) rather than a hidden test (a modelled TWD scenario)?",
+  "domain_tag": "D4"
+ },
+ {
+  "source_ids": [
+   "B2b-07"
+  ],
+  "canonical_text": "Because Laura taught financial literacy to high school students and the case calls her an educator, should each key concept (the certainty definition, the 2031 range) come with a one-line plain-English version she could repeat to a co-sponsor?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B2b-13"
+  ],
+  "canonical_text": "Since the 2023-24 prompt 'Explain what makes your investment strategy unique compared to other teams' has been dropped, should our 50-word elevator pitch contain any comparison with other approaches?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B2b-15"
+  ],
+  "canonical_text": "The case says Laura 'has no shortage of ideas' but ties flexibility to the residency 'as the project develops'; should our flexibility rule reserve leftover money for the residency, the project she has chosen, unless Laura explicitly decides otherwise?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B2b-18"
+  ],
+  "canonical_text": "Past clients praised teams that made them feel 'seen' (Jordan) and went beyond 'just ... the numbers' (Ayoola), but semifinal readers are not Laura; what written evidence shows those readers that the plan 'can earn her confidence'?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B2b-19"
+  ],
+  "canonical_text": "Should one clause of the fundraising draft cite Laura's record of building platforms and communities (The Sign.al; the city-backed Amazon HQ2 case competition) as evidence the residency will be run well, given the case says her contribution signals commitment and viability?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B2b-21"
+  ],
+  "canonical_text": "Since 'Laura Gao believes stories have the power to change how people see the world' follows Wharton's house template ('Connor Barwin ... believes in the power of community'), should criterion 5's 'compelling narrative' be met with the plan's own 2027-2042 timeline story rather than book metaphors?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B2b-22"
+  ],
+  "canonical_text": "Should the team assign an owner to watch Wharton Global Youth and Wharton Magazine for a new Laura interview before Dec 4, with a pre-set rule that anything published after the Nov 6 freeze may shape FR sentences but never the strategy?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B3a-01"
+  ],
+  "canonical_text": "How big is the 2028 deposit risk compared with market risk for the facility range, and should the Final Report show the facility range as a table by deposit size?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B3a-02"
+  ],
+  "canonical_text": "Because the 2028 deposit is known by 2031, should the 2031 co-sponsor range exclude deposit risk and cover only 2031-33 market risk on the portfolio she actually has then?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B3a-13"
+  ],
+  "canonical_text": "Which claims in the team's two client documents must be removed before anything reaches a deliverable because they are personal, unverified, or contradicted by the case?",
+  "domain_tag": "D10"
+ },
+ {
+  "source_ids": [
+   "B3a-17"
+  ],
+  "canonical_text": "What does 'licensing' cover for an author whose publisher bought only world English rights, and does it add market-linked income such as AI-training licences or film/TV options?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B3a-19"
+  ],
+  "canonical_text": "Should the IPS pre-commit, in one sentence, what happens if the 2028 contribution is late or smaller?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B3b-01"
+  ],
+  "canonical_text": "Should the IPS name, as the client benefit, that from the Treasury purchase onward her ten-year promise stops depending on her own future earnings (book deals, speaking, licensing)?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B3b-13"
+  ],
+  "canonical_text": "Is there one principle drawn from her books' plots (not titles) that maps onto a real mechanism in our plan, such as Kirby keeping her goal but changing route after a fall, and where, if anywhere, may it appear?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B3b-15"
+  ],
+  "canonical_text": "How much real 2025-26 news about her career (no announced next book, a 2025 writing break, her college closing in 2027) may the FR use, given that the financial scenario is fictional?",
+  "domain_tag": "D10"
+ },
+ {
+  "source_ids": [
+   "B3b-16"
+  ],
+  "canonical_text": "Should the co-sponsor draft carry one line on what the range is NOT (not a pledge of the top figure, not a facility-cost estimate, not an NT$ promise), applying her founding principle of pre-empting misreading?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B3b-17"
+  ],
+  "canonical_text": "What readability level should the IPS and FR target, given that her books are rated 'Ages 14-up' and she designs teaching material to be 'less daunting' than essays?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B4a-01"
+  ],
+  "canonical_text": "What surplus buffer above 100% funded do pension practitioners require before calling a plan 'hibernated', and is Laura's 102.6% funded ratio (27bp cushion) enough to call the promise 'high certainty' before the 2028 deposit arrives?",
+  "domain_tag": "D8"
+ },
+ {
+  "source_ids": [
+   "B4a-04"
+  ],
+  "canonical_text": "Should the IPS describe the portfolio as following a funded-status glide path (de-risk as the funded ratio rises) rather than a calendar glide path, and then list the three planned changes (2028 top-up, 2031 floor, post-2033 run-off)?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B4a-07"
+  ],
+  "canonical_text": "Can the plan borrow municipal finance's distinction between economic defeasance (Treasuries bought to cover payments) and legal defeasance (a formal escrow checked by an independent verification agent) to reconcile 'funded 2027, set aside 2033', and should the FR include a one-table sufficiency check of each rung against each $50k payment?",
+  "domain_tag": "D8"
+ },
+ {
+  "source_ids": [
+   "B4a-10"
+  ],
+  "canonical_text": "US public pensions discount promises at their assumed return (median 7.0%); at 7% Laura's payments would 'cost' about $250k instead of $292k - should the FR show this $42k gap to explain why growth-first plans under-reserve?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B4a-11"
+  ],
+  "canonical_text": "Is the lottery annuity (funded by U.S. Treasury securities, 'the higher the interest rates, the higher the advertised Grand Prize') a usable everyday precedent for 'bought, not forecast', or does it fail the credibility test next to the municipal escrow precedent?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B4a-12"
+  ],
+  "canonical_text": "Since Yale sets each year's spending from its endowment value 'from two years ago' for budget predictability, should Laura's 2031 range be framed as a Yale-style lagged rule (known in 2031, applied in 2033, part locked, part smoothed), and would naming the precedent help co-sponsors trust it?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B4a-13"
+  ],
+  "canonical_text": "Does the case's 'responsibly contribute' track UPMIFA's legal prudence factors for endowment spending (economic conditions, inflation, expected total return, other resources, investment policy), and should the team define a 'responsible facility contribution' against them?",
+  "domain_tag": "D8"
+ },
+ {
+  "source_ids": [
+   "B4a-17"
+  ],
+  "canonical_text": "Should post-2033 'financial flexibility' be written as a draw rule on the leftover money (overruns first, then a capped or smoothed yearly draw, endowment-style) rather than a dollar size?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B4a-21"
+  ],
+  "canonical_text": "Should the FR report risk as 'expected negative years out of 20' (Australia's Standard Risk Measure) for the growth sleeve, and explain why that label and volatility both misstate the reserve, whose held-to-maturity payments stay certain even in negative mark-to-market years?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B4a-25"
+  ],
+  "canonical_text": "Would a pension CIO consider buying the promise from an insurer (a deferred 10-year period-certain annuity, the 'buyout' option), and which Laura-specific reason rejects it: insurer credit risk, the 'for BOTH contributions' permitted list, or loss of liquidity if the residency changes?",
+  "domain_tag": "D8"
+ },
+ {
+  "source_ids": [
+   "B4b-02"
+  ],
+  "canonical_text": "Of the four standard 'get back on track' levers, which can Laura use, and should the IPS pre-commit never to use 'add equity to catch up'?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B4b-10"
+  ],
+  "canonical_text": "What does insisting on Treasuries rather than high-grade corporate bonds cost Laura, and does the saving survive expected downgrade losses?",
+  "domain_tag": "D1"
+ },
+ {
+  "source_ids": [
+   "B4b-19"
+  ],
+  "canonical_text": "Should the FR cite 'behaviour gap' or 'adviser's alpha' figures to justify pre-commitment rules, given that a 2026 FAJ paper finds timing losses of only 0.10% a year versus Morningstar's 1.2%?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B4b-21"
+  ],
+  "canonical_text": "Should the fundraising draft report uncertainty as dollar outcomes in named scenarios (practice: 'outcomes, not probabilities'), with at most one probability and wording that pre-empts the 'wrong side of maybe' reaction?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B4b-24"
+  ],
+  "canonical_text": "After the 2031 floor is locked, should the rest of the sleeve still hold equities, given that practitioners keep money needed within 3-5 years mainly in fixed income, and should the lock share equal the promised floor?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B5a-04"
+  ],
+  "canonical_text": "Should the Final Report use Wharton's own Penn Wharton Budget Model estimate (25% chance of reaching the U.S. debt outer bound within 14 years, about 2040, inside the 2033-2042 payment window) to state honestly how certain 'certain' is in real terms?",
+  "domain_tag": "D1"
+ },
+ {
+  "source_ids": [
+   "B5a-05"
+  ],
+  "canonical_text": "Does the projected debt-limit X-date of about February 2028, with Congress needing to act by January 1, 2028 (the day the $150k arrives), require a clause in the plan's 2028 top-up rule?",
+  "domain_tag": "D1"
+ },
+ {
+  "source_ids": [
+   "B5a-06"
+  ],
+  "canonical_text": "Do the reserve's Nov-15 maturities (paying ~47 days before each Jan-1 payment; 2033-01-01 is a Saturday) double as a buffer against a technical Treasury payment delay, and is that the stated reason to prefer them?",
+  "domain_tag": "D1"
+ },
+ {
+  "source_ids": [
+   "B5a-07"
+  ],
+  "canonical_text": "If an agency downgrades the U.S. again, what will the plan do, and should the IPS pre-commit to no forced selling of held-to-maturity Treasuries on a rating change?",
+  "domain_tag": "D1"
+ },
+ {
+  "source_ids": [
+   "B5a-08"
+  ],
+  "canonical_text": "Since no U.S.-dollar asset is safer than a Treasury and every rival plan shares that floor, should the IPS spend only one clause on sovereign risk and use the words on the risks the ladder does not cover (inflation, TWD, operations)?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B5a-10"
+  ],
+  "canonical_text": "Given the 2026 evidence (Fed independence upheld in Trump v. Cook, a 12-0 hike, 5y5y inflation anchored at 2.34%) against a highly partisan Fed-chair confirmation, should a 1970s-style inflation regime be a stress case rather than the base case for 2033-2042?",
+  "domain_tag": "D1"
+ },
+ {
+  "source_ids": [
+   "B5a-11"
+  ],
+  "canonical_text": "Should the post-2033 flexibility money (not the nominal reserve) be named as the buffer that lets Laura top up the operating budget if inflation erodes it, and should part of it sit in TIPS?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B5a-17"
+  ],
+  "canonical_text": "Does the 20-year 'hump' in the Treasury curve (20y 5.54% above 30y 5.49%) make the 10-20 year sector the cheapest place to buy Laura's 2037-2042 rungs, adding a price reason to the matching reason for a 10-20y hedge fund?",
+  "domain_tag": "D1"
+ },
+ {
+  "source_ids": [
+   "B5b-08"
+  ],
+  "canonical_text": "With a 19.6%-of-GDP current-account surplus, insurers' reduced FX hedging and central-bank smoothing, is the main 2027-2033 FX risk a sudden TWD appreciation, and how large should the FX stress be?",
+  "domain_tag": "D4"
+ },
+ {
+  "source_ids": [
+   "B5b-09"
+  ],
+  "canonical_text": "Should real erosion of the fixed $50k be measured with U.S. CPI, Taiwan CPI, or Taiwan wages (the residency's main running cost), converted at USD/TWD?",
+  "domain_tag": "D4"
+ },
+ {
+  "source_ids": [
+   "B5b-13"
+  ],
+  "canonical_text": "When the 2027 J.P. Morgan LTCMA appears (likely mid/late October 2026, between the Trading Notes and the IPS), will it change the plan's numbers, and which edition must the IPS and Final Report use?",
+  "domain_tag": "D2"
+ },
+ {
+  "source_ids": [
+   "B5b-14"
+  ],
+  "canonical_text": "Is JPM's highest equity return (EM 7.8%) worth an emerging-market tilt when MSCI EM is now 26.85% Taiwan plus a large China weight, making EM a double bet on the Strait?",
+  "domain_tag": "D2"
+ },
+ {
+  "source_ids": [
+   "B5b-15"
+  ],
+  "canonical_text": "Will AI mega-IPOs and hyperscaler equity raises push AI concentration in broad funds higher during 2027-2033, and does the IPS need a simple concentration review trigger?",
+  "domain_tag": "D2"
+ },
+ {
+  "source_ids": [
+   "B5b-20"
+  ],
+  "canonical_text": "Given the ~310bp U.S.-Taiwan short-rate gap, the partial natural hedge and the jump risk, should any of the 2031 floor be converted to NT$?",
+  "domain_tag": "D4"
+ },
+ {
+  "source_ids": [
+   "B5b-22"
+  ],
+  "canonical_text": "Should the sleeve's non-U.S. equities stay currency-unhedged, since USD/TWD moves with the broad dollar and unhedged foreign holdings partly offset NT$ cost rises?",
+  "domain_tag": "D4"
+ },
+ {
+  "source_ids": [
+   "B6a-02"
+  ],
+  "canonical_text": "Will co-sponsors write Laura's stated low end into their own grant conditions, so that missing it releases them and her shortfall cascades to others?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B6a-08"
+  ],
+  "canonical_text": "Should co-sponsor material describe the operating commitment as US$500,000 nominal or at its 2033 value of about US$395k, given that professional recipients book multi-year pledges at present value?",
+  "domain_tag": "D1"
+ },
+ {
+  "source_ids": [
+   "B6a-09"
+  ],
+  "canonical_text": "How much of Laura's portfolio should co-sponsor material disclose to prove that the promise is Treasury-backed, without exposing her whole finances?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B6a-10"
+  ],
+  "canonical_text": "Because the case bans withdrawals before 2033, which words accurately describe Laura's 2031 floor as a promise backed by assets she still owns, so that 'set aside for the residency' does not overstate it?",
+  "domain_tag": "D10"
+ },
+ {
+  "source_ids": [
+   "B6a-12"
+  ],
+  "canonical_text": "Do Taiwan public subsidies require a self-funded share (自籌款), so that Laura's fixed US$50k makes the residency eligible for public operating money that could offset its real erosion?",
+  "domain_tag": "D4"
+ },
+ {
+  "source_ids": [
+   "B6a-13"
+  ],
+  "canonical_text": "If the residency is delayed or cannot open, what happens to Laura's facility money, and should co-sponsor material say so, given that a refund promise raised giving in the seed-money experiment?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B6a-16"
+  ],
+  "canonical_text": "Should one Trading Note reflection tie an executed Treasury purchase to co-sponsor credibility (locking the promise first lets her later range be honest), even though the co-sponsor draft is not expected yet?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B6a-17"
+  ],
+  "canonical_text": "Which single co-sponsor rule belongs in the 500-word IPS, given that the IPS excludes the final range but must set the approach to the facility contribution and then freezes?",
+  "domain_tag": "D10"
+ },
+ {
+  "source_ids": [
+   "B6a-20"
+  ],
+  "canonical_text": "Should Laura's US$50k payments be described as unrestricted general operating support, since flexible operating money is what arts funders say is scarcest?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B6b-03"
+  ],
+  "canonical_text": "Should the 2031 floor be bought before Laura's very first co-sponsor conversation, so the first number any funder hears is already 'committed, imminent or backstopped', and what record proves it to a funder's due diligence?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B6b-04"
+  ],
+  "canonical_text": "Which confidence level should the 2031 statement carry, and should it always use 'dual format' (a calibrated word such as the IPCC's 'very likely' plus its numeric band), never a verbal term alone?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B6b-05"
+  ],
+  "canonical_text": "What exactly does our confidence percentage refer to (paths of a stated model, or past two-year periods), and must the fundraising part name that reference class?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B6b-08"
+  ],
+  "canonical_text": "How should the two ends of the range be labelled so readers do not treat a result just outside a hard edge as a broken promise, without words like 'can' or 'up to' making the top sound likely?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B6b-10"
+  ],
+  "canonical_text": "Should the confidence statement give the chance of missing the range on each side separately (below the floor versus above the top), following the IPCC advice to give reciprocal statements?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B6b-12"
+  ],
+  "canonical_text": "Since capital funders expect 'project-cost estimates are firm' but the case leaves facility cost undetermined, what must the fundraising part say so her contribution reads as sized from her portfolio, not a share of an unknown budget, and fixed if costs change?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B6b-14"
+  ],
+  "canonical_text": "Should the fundraising part state a two-way 'no substitution' rule: co-sponsor money never replaces Laura's ten operating payments, and her operating reserve is never drawn for the building?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B6b-15"
+  ],
+  "canonical_text": "How can the fundraising part sound confident without overpromising, given evidence that people prefer confident advisers but do not dislike advice given as ranges or numeric probabilities?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B6b-16"
+  ],
+  "canonical_text": "Which two or three drivers of change should the 2031 statement name in advance, given evidence that explaining uncertainty up front protects trust when numbers later change?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B6b-17"
+  ],
+  "canonical_text": "Should the fundraising part attribute the range and confidence to Laura's investment team, with an as-of date, key assumptions and limits, borrowing the disclosure elements regulated advisers use for hypothetical projections?",
+  "domain_tag": "D10"
+ },
+ {
+  "source_ids": [
+   "B6b-19"
+  ],
+  "canonical_text": "How wide can the stated range be before non-specialists find it useless, given that the preference for range forecasts peaks at low imprecision and falls as ranges widen?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B6b-23"
+  ],
+  "canonical_text": "Should every sentence of the fundraising part pass a 'floor test' (still true if 2033 lands exactly at the floor) and a 'top test' (nothing implies the top is expected), as a pre-submission check against overpromising?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B7a-05"
+  ],
+  "canonical_text": "Is the 2026-27 deliverable structure (three-note Trading Notes Analysis, 500-word IPS, strategy freeze) new this season, and how much weight should past winners' reports get as templates?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B7a-10"
+  ],
+  "canonical_text": "Do the readers reward quantitative sophistication (algorithms, optimisation, ML) or restraint, and how many quantitative tools should the Final Report show?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B7a-11"
+  ],
+  "canonical_text": "What is our cut list: which concepts stay in the Final Report's main text, which go to an appendix, which are dropped, and what test decides?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B7a-20"
+  ],
+  "canonical_text": "Can the semifinal readers see our WInS holdings and transaction history, and if so must every open position at the Nov 6 freeze have a stated purpose?",
+  "domain_tag": "D10"
+ },
+ {
+  "source_ids": [
+   "B7a-21"
+  ],
+  "canonical_text": "What are the realistic odds of the Top 50, and what does the pattern of past semifinal schools say about which controllable features matter most?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B7a-22"
+  ],
+  "canonical_text": "Is there any sign that non-U.S. teams are disadvantaged in the written round, and does anything in our writing (spelling, date format, currency labels, Australian references) create avoidable friction for U.S. readers?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B7a-23"
+  ],
+  "canonical_text": "Does the Final Report open with the strategy clearly stated up front, so a reader who reads only page 1 can state our strategy, our certainty definition and our facility range?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B7a-24"
+  ],
+  "canonical_text": "Which Final Report content must be collected during trading because it cannot be recreated after the Nov 6 freeze, given instructions arrive only on Nov 9?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B7a-25"
+  ],
+  "canonical_text": "Can we find any readable public account of what 2025-26 finalists (FigCapital, HHA Investments, Hooke, Perse Capital, Asgard Assets) wrote for the Barwin case, to calibrate the most recent strong team before our IPS freezes?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B7b-08"
+  ],
+  "canonical_text": "What is the unpublished 'required trading activity' rule, and could a low-turnover, few-holding portfolio fail it?",
+  "domain_tag": "D10"
+ },
+ {
+  "source_ids": [
+   "B7b-14"
+  ],
+  "canonical_text": "Which word counter will Wharton use for the 50/500/100-word limits, and what internal caps protect us from a counting dispute?",
+  "domain_tag": "D10"
+ },
+ {
+  "source_ids": [
+   "B7b-21"
+  ],
+  "canonical_text": "Should the team pre-build FR components before Nov 9, assuming a page cap near last season's 15 pages?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B7b-22"
+  ],
+  "canonical_text": "Pre-mortem: if we miss the Top 50 with a correct strategy, which single cause is most likely, and what dated countermeasure prevents it?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B7b-28"
+  ],
+  "canonical_text": "What single table would let a reader verify in one minute that our TN, IPS, WInS book and FR tell one strategy (IPS rule, WInS trade, note quoted, FR evaluation)?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B8a-04"
+  ],
+  "canonical_text": "Should the IPS open with a one-sentence purpose statement and treat each security as a replaceable 'medium' (primary pick plus alternates) serving that fixed purpose?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B8a-05"
+  ],
+  "canonical_text": "How should the team describe Laura's quantitative background, given that the case/resume say 'Statistics and Information Decisions', her own 2022 words say 'business analytics', and Poets&Quants 2018 says 'Economics with a concentration in Business Analytics'?",
+  "domain_tag": "D7"
+ },
+ {
+  "source_ids": [
+   "B8a-11"
+  ],
+  "canonical_text": "How should the FR and co-sponsor draft describe Taiwan geopolitical risk, given that Laura's founding public work was a protest against reducing a place to its worst headline?",
+  "domain_tag": "D4"
+ },
+ {
+  "source_ids": [
+   "B8b-14"
+  ],
+  "canonical_text": "May the FR quote Laura's own public phrase 'self-employed, with unstable income' to justify the human-capital reasoning without being intrusive?",
+  "domain_tag": "D10"
+ },
+ {
+  "source_ids": [
+   "B8b-17"
+  ],
+  "canonical_text": "Must the team refuse to use Laura's identity-context advice (e.g. 'be in an environment in which you feel safe and supported… before you make any big reveals') as a finance metaphor, even though it fits the 2031 floor exactly?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B8b-21"
+  ],
+  "canonical_text": "Can the IPS central idea be framed as 'both, not either-or' (a locked promise AND growth), echoing Laura's non-identity teaching note rather than identity quotes?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B9a-05"
+  ],
+  "canonical_text": "Do domain-specific risk research and entrepreneurial-finance theory support reading 'Although … thoughtful risks' as 'her career risk does not carry over to this portfolio', and should the IPS risk sentence say so?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B9a-08"
+  ],
+  "canonical_text": "What does 'financial flexibility as the project develops' buy for someone who builds in stages (overrun buffer, option to expand after proof, or option to pivot), and should the held-back money's asset mix and horizon follow that answer?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B9a-09"
+  ],
+  "canonical_text": "Does Laura tolerate losses only she bears (she helped launch an Anti-Resume Project to normalize failure) differently from shortfalls others see (range, payments), so post-2033 held-back money can carry more market risk than the 2031-33 range money?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B9a-12"
+  ],
+  "canonical_text": "Does Laura accept that her facility absorbs every rate move before January 2027 one-for-one (each 25bp fall ~ +$7.3k ladder cost ~ -$9.9k 2033 facility; -100bp ~ -$41k), and should the IPS say so in one clause?",
+  "domain_tag": "D1"
+ },
+ {
+  "source_ids": [
+   "B9a-15"
+  ],
+  "canonical_text": "Should the Final Report include a short table 'what the profile does not tell us -> what we assumed -> what changes if we are wrong' (outside resources, use of held-back money, affordable loss, other ideas, currency, who runs the residency)?",
+  "domain_tag": "D8"
+ },
+ {
+  "source_ids": [
+   "B9a-17"
+  ],
+  "canonical_text": "Laura 'has no shortage of ideas' and the case bars withdrawals before 2033: should the IPS present that as her own pre-commitment, with any new idea before 2033 funded outside the portfolio?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B9a-18"
+  ],
+  "canonical_text": "Does 'the capital required for her goals' grow in 2031, when the announced range's low end becomes a public commitment, so the IPS defines protected capital as reserve (from 2027) plus announced floor (from 2031)?",
+  "domain_tag": "D8"
+ },
+ {
+  "source_ids": [
+   "B9a-19"
+  ],
+  "canonical_text": "Why is the longest-horizon money (reserve, to 2042) invested most safely while the facility money (needed by 2031-33) takes the risk, and which one line answers a reader who expects 'longer horizon = more stocks'?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B9a-21"
+  ],
+  "canonical_text": "Should the FR's client section open with one table (goal -> required or desired return -> risk she can bear -> horizon -> where the money sits -> stage when risk switches on/off) instead of a narrative biography?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B9b-01"
+  ],
+  "canonical_text": "What job is Laura hiring an asset-management firm to do: grow her money, or let her make public promises in 2031 that she never has to walk back?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B9b-07"
+  ],
+  "canonical_text": "Should the IPS state one primary goal plus explicit guardrails that are never breached (all ten payments bought; no 2031 announcement above what is bought)?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B9b-08"
+  ],
+  "canonical_text": "Should the IPS include a roughly 15-word 'non-goals' clause (not beating the market, not timing rates, not funding beyond 2042, not estimating facility cost)?",
+  "domain_tag": "D10"
+ },
+ {
+  "source_ids": [
+   "B9b-09"
+  ],
+  "canonical_text": "Should every key number in the Final Report carry an evidence grade (observed price / historical estimate / assumption, plus a quality word), as her own 'Match Quality' column does?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B9b-10"
+  ],
+  "canonical_text": "What rounding rule should the deliverables use so that no number looks more precise than the model behind it?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B9b-12"
+  ],
+  "canonical_text": "Should the Final Report attribute the WInS result to its causes (rate moves on the Treasury part, equity moves, commissions, cash drag), as she once attributed 1.5M unexplained ad transactions?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B9b-14"
+  ],
+  "canonical_text": "Before submitting, should the team usability-test the co-sponsor paragraph and the IPS rules with about five non-finance readers and report what changed, as she tested products with nurses and doctors?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B9b-19"
+  ],
+  "canonical_text": "What is the smallest set of rules that still passes all five case tests, and can each extra rule show a measurable improvement?",
+  "domain_tag": "D8"
+ },
+ {
+  "source_ids": [
+   "B9b-20"
+  ],
+  "canonical_text": "Does the plan show Laura, in one table, how each goal fails softly (payments, the 2031 announcement, the facility, flexibility), and who would notice?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B10a-01"
+  ],
+  "canonical_text": "When every tested design has about the same median 2033 surplus, what rule should choose between them: the p5 Laura can accept, the p95 she hopes for, the floor co-sponsors can bank, or the simplest structure?",
+  "domain_tag": "D6"
+ },
+ {
+  "source_ids": [
+   "B10a-02"
+  ],
+  "canonical_text": "Should the sleeve become a barbell: in January 2028 lock a facility floor in a Treasury maturing just before 2033 and hold the rest 100% in broad equity, instead of a rebalanced 60/40 sleeve plus an 80% lock in 2031?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B10a-11"
+  ],
+  "canonical_text": "Does any lock timing, for example buying the whole ladder with both deposits in January 2028, give Laura materially more upside?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B10a-12"
+  ],
+  "canonical_text": "In WInS, should the growth money's short-Treasury slot be a defined-maturity fund ending December 2032 (the facility date) rather than a 1-3 year Treasury fund, so every holding has a job tied to a date?",
+  "domain_tag": "D1"
+ },
+ {
+  "source_ids": [
+   "B10a-15"
+  ],
+  "canonical_text": "Should the IPS justify where risk sits with the case's own asymmetry, that outside money may fill a facility shortfall but never an operating shortfall?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B10a-16"
+  ],
+  "canonical_text": "Is part of 'pursuing growth' the growth of what the residency can raise, since a bought, credible floor may pull in co-sponsor money, and can the IPS say so without overclaiming?",
+  "domain_tag": "D5"
+ },
+ {
+  "source_ids": [
+   "B10b-01"
+  ],
+  "canonical_text": "With the 2028 deposit present (the case says she 'will' make it), a 70-95% lock also shows no payment shortfall in the model; what is our real reason to lock 100%, and where are we overstating it?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B10b-03"
+  ],
+  "canonical_text": "Does answering the reserve question with 'it is the 2027 ladder and it changes by itself' satisfy the case's size / initial composition / change requirement, or will it read as a dodge?",
+  "domain_tag": "D1"
+ },
+ {
+  "source_ids": [
+   "B10b-08"
+  ],
+  "canonical_text": "Should the Final Report show that the reserve design many rivals will propose, an equity 'bucket' for the 2040-42 payments, needs 1.8-2.6 times the Treasury price?",
+  "domain_tag": "D3"
+ },
+ {
+  "source_ids": [
+   "B10b-10"
+  ],
+  "canonical_text": "Rivals who buy the reserve in 2033 at cautious rates will show reserves of about $405-440k; will a first-screen reader read our $395k as smaller and so riskier, and how do we show the rate was locked in 2027?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B10b-14"
+  ],
+  "canonical_text": "Can our three Trading Notes, drawn from a mostly-Treasury book, show distinct official roles (future funding, growth, risk management), and have we placed a growth trade with a role-worded note yet?",
+  "domain_tag": "D9"
+ },
+ {
+  "source_ids": [
+   "B10b-17"
+  ],
+  "canonical_text": "If rivals show $300k+ facility contributions from 8-10% return assumptions, should our Final Report include a same-assumptions chart (lock early vs growth-first vs partial locks) that shows what bigger numbers cost in payment risk?",
+  "domain_tag": "D3"
+ }
+]
