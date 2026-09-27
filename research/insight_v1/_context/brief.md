@@ -233,3 +233,27 @@ forwards (slightly overstates G's shortfall).
 Write your detailed file at the exact path you are given. Structure: short summary first; then the body; every claim
 labelled; sources listed with URL + access date; a "What this teaches" note at the end. Keep jargon out or define it.
 Return the structured summary you are asked for (it feeds the next phase).
+
+## 13. PRIORITY: understand the client deeply (team leader, 2026-09-27) and how Wharton judges
+The single most important thing in this run is a DEEP understanding of Laura Gao: her goals, constraints, risk
+tolerance (willingness vs ability), time horizons, values and way of thinking, researched BEYOND what the case
+states (her public professional record, her books, her own words), and a strategy tailored to her rather than a
+generic portfolio. Every agent should ask: "does this make the plan more hers?"
+
+How Wharton judges (the official 2026-27 wording is in SMApply_Deliverables_Page_2026-09-27.md and wins; the team
+leader's summary below also draws on past-season Wharton teacher guides found on Scribd, a secondary source,
+SNIPPET-UNVERIFIED for 2026-27):
+- Investment Strategy: a clear, creative investment thesis; primarily long-term with appropriate shorter-term
+  thinking; portfolio decisions consistently follow that thesis; appropriate diversification.
+- Client Knowledge & Objectives: understand the client deeply; research beyond what is given; tailor the strategy to
+  her goals, constraints, risk tolerance and time horizon rather than a generic portfolio.
+- Portfolio Analysis: genuine understanding of the investments; quantitative AND qualitative analysis; explain why
+  each security belongs and how it fits the strategy.
+- Articulation of Competition Experience: explain the decision-making process, not just the final portfolio; show
+  teamwork, communication, challenges, adaptations and learning.
+- Creativity & Presentation: a compelling narrative; effective graphs/visuals rather than walls of text (Final Report
+  only: the IPS bans charts); an authentic team voice rather than artificial sophistication; clear, persuasive
+  communication.
+Implications for every output: tie each recommendation to one of these five areas; prefer insights that show
+understanding of Laura over technical flourishes; where an idea would be best shown as a chart in the Final Report,
+say which chart and what data it needs.
