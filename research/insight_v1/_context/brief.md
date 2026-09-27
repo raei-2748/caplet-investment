@@ -43,7 +43,8 @@ IMPORTANT: the WebFetch tool is BLOCKED (EGRESS_BLOCKED) for most hosts, but cur
 page use the helper (from the repo root):
   `.venv/bin/python research/insight_v1/scripts/fetch_text.py URL` (prints visible text; handles PDFs)
   `.venv/bin/python research/insight_v1/scripts/fetch_text.py URL --grep "exact phrase"` (verifies a quote verbatim)
-or plain `curl -sSL URL`. WebSearch (load with ToolSearch "select:WebSearch") works for finding URLs; then open the
+or plain `curl -sSL URL`. (Helper fixed 2026-09-27 ~13:50 UTC: an HTML-parsing bug hid text on some pages, e.g.
+Poets&Quants; a 'NOT FOUND' from an earlier run is not evidence a quote is absent.) WebSearch (load with ToolSearch "select:WebSearch") works for finding URLs; then open the
 page with the helper before calling anything VERIFIED-PRIMARY.
 Reachable with curl: home.treasury.gov, fred.stlouisfed.org, www.ishares.com, am.jpmorgan.com,
 globalyouth.wharton.upenn.edu, magazine.wharton.upenn.edu, lauragao.com, en.wikipedia.org,

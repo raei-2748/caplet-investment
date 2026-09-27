@@ -38,37 +38,38 @@ def fetch(url):
 
 
 class Text(HTMLParser):
-    SKIP = {"script", "style", "noscript", "svg", "head"}
     BLOCK = {"p", "div", "br", "li", "h1", "h2", "h3", "h4", "h5", "h6", "tr", "section", "article", "blockquote"}
 
     def __init__(self):
         super().__init__(convert_charrefs=True)
-        self.out, self.skip = [], 0
+        self.out = []
 
     def handle_starttag(self, tag, attrs):
-        if tag in self.SKIP:
-            self.skip += 1
-        elif tag in self.BLOCK:
+        if tag in self.BLOCK:
             self.out.append("\n")
 
     def handle_endtag(self, tag):
-        if tag in self.SKIP and self.skip:
-            self.skip -= 1
-        elif tag in self.BLOCK:
+        if tag in self.BLOCK:
             self.out.append("\n")
 
     def handle_data(self, data):
-        if not self.skip:
-            self.out.append(data)
+        self.out.append(data)
 
 
 def to_text(raw):
     if raw[:5] == b"%PDF-":
         from pypdf import PdfReader
         return "\n".join(p.extract_text() or "" for p in PdfReader(io.BytesIO(raw)).pages)
-    p = Text()
-    p.feed(raw.decode("utf-8", errors="replace"))
-    lines = [re.sub(r"[ \t\r\f\v]+", " ", l).strip() for l in "".join(p.out).split("\n")]
+    h = raw.decode("utf-8", errors="replace")
+    # Drop non-visible blocks with a regex first (robust to malformed nesting that confused a skip counter).
+    h = re.sub(r"(?is)<(script|style|noscript|svg|template)\b.*?</\1\s*>", " ", h)
+    h = re.sub(r"(?is)<head\b.*?</head\s*>", " ", h)
+    h = re.sub(r"(?s)<!--.*?-->", " ", h)
+    # Tag stripping by regex (html.parser silently dropped text on some pages, e.g. Poets&Quants).
+    h = re.sub(r"(?i)</?(p|div|br|li|h[1-6]|tr|section|article|blockquote|ul|ol|table)\b[^>]*>", "\n", h)
+    h = re.sub(r"(?s)<[^>]+>", "", h)
+    h = html.unescape(h)
+    lines = [re.sub(r"[ \t\r\f\v\u00a0]+", " ", l).strip() for l in h.split("\n")]
     return "\n".join(l for l in lines if l)
 
 
