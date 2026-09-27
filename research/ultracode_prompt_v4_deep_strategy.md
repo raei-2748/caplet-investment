@@ -135,12 +135,12 @@ official requirement or verified fact it anchors to. Use the seed bank in Part 6
   credibility; what a strong pledge range and fundraising paragraph must contain).
 - B7 Competition Meta & Judges (what past semifinalists and winners did; judge commentary; what a "typical strong
   team" will submit this year; how deliverable mechanics shape scoring; how to show a 16-year strategy in 6 weeks).
-
 - B8 Voice of Laura (2 agents): collect Laura's OWN words from public sources beyond the case (her website, published
   interviews, podcasts/talk transcripts, Q&As, Wharton Magazine, Poets&Quants, book pages and her books' public
   excerpts). For each quote: exact wording, source URL, date, context. Then map quotes to values, to how she makes
   decisions and handles risk, and to implications for the strategy and for how we communicate with her. Questions to
   generate: what would she find inauthentic, what would earn her trust, which of her own ideas does our strategy echo.
+
 ## Phase C: Filter (code dedupe + 6 skeptic agents in batches)
 A question survives only if it passes all four:
 - So-what: its answer would change a decision, a number, or a sentence in a deliverable (Oct 23, Nov 6, Dec 4).
