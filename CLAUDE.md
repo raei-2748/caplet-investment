@@ -12,7 +12,9 @@ decision, deadline or open item changes, and commit it with the related change. 
 - Do NOT write the Trading Notes, IPS or Final Report. The team wants knowledge: numbers, models, devil's advocate,
   trade checks, research/fact-checking. Wharton AI policy: AI for brainstorming; AI-generated work may not be
   submitted as the students' own and must be cited.
-- Goal: win the Global Finale, keep deliverables plain-English (judges reward simple, elegant ideas).
+- Goal: top priority is reaching the Top 50 semifinals (chosen on the written Trading Notes, IPS and Final Report);
+  the finale comes later. Keep deliverables plain-English (judges reward simple, elegant ideas). Semis-first does not
+  change the rule that the team writes the deliverables; the assistant reviews drafts, checks trades and numbers.
 - Repo is public; the team leader accepted putting competition materials in it. Do not commit student personal data
   (surnames, emails, birthdays) or rankings of teammates.
 
