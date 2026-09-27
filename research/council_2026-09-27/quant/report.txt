@@ -1,0 +1,38 @@
+seed 20260927, n=100000
+BASE g=6.7% vol16 rv.9       a: P(all10)=0.9669  Facility p5/25/50/75/95 = [ 20. 135. 233. 348. 555.]k  floor ratio q05=0.60 q95=1.94  medA2031=203k P(A2031>0)=0.970
+BASE g=6.7% vol16 rv.9       b: P(all10)=1.0000  Facility p5/25/50/75/95 = [130. 175. 212. 258. 341.]k  floor ratio q05=0.96 q95=1.33  medA2031=189k P(A2031>0)=1.000
+BASE g=6.7% vol16 rv.9       c: P(all10)=1.0000  Facility p5/25/50/75/95 = [146. 182. 212. 248. 313.]k  floor ratio q05=0.96 q95=1.33  medA2031=189k P(A2031>0)=1.000
+2033 reserve cost pctiles (k): [362. 386. 404. 424. 455.]
+g=4.2% (Vgd low)             a: P(all10)=0.9338  Facility p5/25/50/75/95 = [  0.  93. 182. 288. 476.]k  floor ratio q05=0.38 q95=1.95  medA2031=167k P(A2031>0)=0.947
+g=4.2% (Vgd low)             b: P(all10)=1.0000  Facility p5/25/50/75/95 = [119. 160. 194. 235. 311.]k  floor ratio q05=0.94 q95=1.30  medA2031=176k P(A2031>0)=1.000
+g=4.2% (Vgd low)             c: P(all10)=1.0000  Facility p5/25/50/75/95 = [136. 169. 197. 231. 290.]k  floor ratio q05=0.94 q95=1.30  medA2031=179k P(A2031>0)=1.000
+g=5.2% (Vgd mid)             a: P(all10)=0.9497  Facility p5/25/50/75/95 = [  0. 110. 202. 311. 507.]k  floor ratio q05=0.48 q95=1.95  medA2031=181k P(A2031>0)=0.958
+g=5.2% (Vgd mid)             b: P(all10)=1.0000  Facility p5/25/50/75/95 = [124. 165. 201. 244. 323.]k  floor ratio q05=0.95 q95=1.31  medA2031=181k P(A2031>0)=1.000
+g=5.2% (Vgd mid)             c: P(all10)=1.0000  Facility p5/25/50/75/95 = [140. 174. 203. 238. 299.]k  floor ratio q05=0.95 q95=1.31  medA2031=183k P(A2031>0)=1.000
+g=7.8%                       a: P(all10)=0.9761  Facility p5/25/50/75/95 = [ 35. 155. 256. 376. 592.]k  floor ratio q05=0.67 q95=1.93  medA2031=219k P(A2031>0)=0.977
+g=7.8%                       b: P(all10)=1.0000  Facility p5/25/50/75/95 = [136. 182. 221. 268. 355.]k  floor ratio q05=0.96 q95=1.34  medA2031=195k P(A2031>0)=1.000
+g=7.8%                       c: P(all10)=1.0000  Facility p5/25/50/75/95 = [150. 187. 219. 256. 323.]k  floor ratio q05=0.96 q95=1.34  medA2031=194k P(A2031>0)=1.000
+eq vol 20%                   a: P(all10)=0.9350  Facility p5/25/50/75/95 = [  0. 118. 238. 386. 666.]k  floor ratio q05=0.45 q95=2.22  medA2031=205k P(A2031>0)=0.940
+eq vol 20%                   b: P(all10)=1.0000  Facility p5/25/50/75/95 = [119. 169. 214. 271. 381.]k  floor ratio q05=0.93 q95=1.38  medA2031=190k P(A2031>0)=1.000
+eq vol 20%                   c: P(all10)=1.0000  Facility p5/25/50/75/95 = [134. 176. 213. 260. 347.]k  floor ratio q05=0.93 q95=1.38  medA2031=190k P(A2031>0)=1.000
+fat tails t4                 a: P(all10)=0.9704  Facility p5/25/50/75/95 = [ 27. 142. 230. 336. 548.]k  floor ratio q05=0.65 q95=1.85  medA2031=201k P(A2031>0)=0.973
+fat tails t4                 b: P(all10)=1.0000  Facility p5/25/50/75/95 = [133. 177. 212. 254. 338.]k  floor ratio q05=0.96 q95=1.32  medA2031=189k P(A2031>0)=1.000
+fat tails t4                 c: P(all10)=1.0000  Facility p5/25/50/75/95 = [149. 184. 212. 244. 309.]k  floor ratio q05=0.96 q95=1.32  medA2031=189k P(A2031>0)=1.000
+rate vol 150bp               a: P(all10)=0.9575  Facility p5/25/50/75/95 = [  9. 131. 233. 352. 566.]k  floor ratio q05=0.60 q95=2.01  medA2031=202k P(A2031>0)=0.956
+rate vol 150bp               b: P(all10)=0.9999  Facility p5/25/50/75/95 = [116. 168. 211. 263. 356.]k  floor ratio q05=0.93 q95=1.36  medA2031=188k P(A2031>0)=1.000
+rate vol 150bp               c: P(all10)=1.0000  Facility p5/25/50/75/95 = [145. 181. 213. 250. 316.]k  floor ratio q05=0.93 q95=1.36  medA2031=189k P(A2031>0)=1.000
+rho(eq,dy)=-0.3              a: P(all10)=0.9769  Facility p5/25/50/75/95 = [ 33. 140. 231. 341. 540.]k  floor ratio q05=0.63 q95=1.86  medA2031=202k P(A2031>0)=0.981
+rho(eq,dy)=-0.3              b: P(all10)=1.0000  Facility p5/25/50/75/95 = [135. 177. 212. 255. 334.]k  floor ratio q05=0.94 q95=1.34  medA2031=189k P(A2031>0)=1.000
+rho(eq,dy)=-0.3              c: P(all10)=1.0000  Facility p5/25/50/75/95 = [146. 181. 212. 248. 312.]k  floor ratio q05=0.94 q95=1.34  medA2031=189k P(A2031>0)=1.000
+start curve -100bp           a: P(all10)=0.9510  Facility p5/25/50/75/95 = [  1. 115. 210. 324. 527.]k  floor ratio q05=0.55 q95=2.10  medA2031=182k P(A2031>0)=0.952
+start curve -100bp           b: P(all10)=1.0000  Facility p5/25/50/75/95 = [ 98. 137. 169. 209. 281.]k  floor ratio q05=0.94 q95=1.32  medA2031=153k P(A2031>0)=1.000
+start curve -100bp           c: P(all10)=1.0000  Facility p5/25/50/75/95 = [113. 141. 166. 194. 246.]k  floor ratio q05=0.94 q95=1.32  medA2031=149k P(A2031>0)=1.000
+start curve +100bp           a: P(all10)=0.9784  Facility p5/25/50/75/95 = [ 39. 156. 255. 373. 584.]k  floor ratio q05=0.65 q95=1.81  medA2031=223k P(A2031>0)=0.982
+start curve +100bp           b: P(all10)=1.0000  Facility p5/25/50/75/95 = [161. 211. 253. 305. 399.]k  floor ratio q05=0.97 q95=1.34  medA2031=223k P(A2031>0)=1.000
+start curve +100bp           c: P(all10)=1.0000  Facility p5/25/50/75/95 = [177. 220. 257. 301. 379.]k  floor ratio q05=0.97 q95=1.34  medA2031=226k P(A2031>0)=1.000
+2028 contrib = 0             a: P(all10)=0.6014  Facility p5/25/50/75/95 = [  0.   0.  29. 113. 266.]k  floor ratio q05=-0.74 q95=3.91  medA2031=21k P(A2031>0)=0.588
+2028 contrib = 0             b: P(all10)=0.6318  Facility p5/25/50/75/95 = [ 0.  0. 19. 43. 80.]k  floor ratio q05=0.92 q95=1.42  medA2031=17k P(A2031>0)=0.624
+2028 contrib = 0             c: P(all10)=1.0000  Facility p5/25/50/75/95 = [ 6.  7.  9. 10. 13.]k  floor ratio q05=0.96 q95=1.33  medA2031=8k P(A2031>0)=1.000
+2028 contrib=75k             a: P(all10)=0.8648  Facility p5/25/50/75/95 = [  0.  47. 131. 231. 410.]k  floor ratio q05=0.22 q95=2.59  medA2031=112k P(A2031>0)=0.865
+2028 contrib=75k             b: P(all10)=0.9983  Facility p5/25/50/75/95 = [ 52.  83. 110. 143. 202.]k  floor ratio q05=0.96 q95=1.33  medA2031=98k P(A2031>0)=0.998
+2028 contrib=75k             c: P(all10)=1.0000  Facility p5/25/50/75/95 = [ 76.  95. 110. 129. 163.]k  floor ratio q05=0.96 q95=1.33  medA2031=98k P(A2031>0)=1.000
