@@ -49,7 +49,13 @@ Competition Experience; Creativity & Presentation. All three evaluated deliverab
 
 ## Key facts (verification status)
 - 10y Treasury 5.17% close 2026-09-25 (snippets, UNVERIFIED primary); Fed hiked to 3.75-4.00% on 2026-09-16.
+- CONFLICT (re-searched 2026-09-27): a search summary claiming to quote Treasury's official Sep 25 par curve gave
+  10y 4.22% (2y 3.72, 5y 3.77, 7y 3.97, 20y 4.77, 30y 4.78), contradicting the 5.17% from several other snippets.
+  Search summaries are not reliable for this; the official CSV must be checked by hand before any number is used.
 - Ladder PV at 2027-01-01 $292.3k (Curve A); a stale-looking Curve B gives $314.5k. DV01 ~$289/bp.
+  Flat-rate check: 5.26% -> $295k, 4.8% -> $308k, 4.5% -> $317k, 4.3% -> $324k. If the lower curve is right the
+  ladder does NOT fit in the $300k deposit (2028 deposit must top it up).
+- IEF effective duration: snippets say 6.89y (Sep 2026) and ~7.5y (earlier 2026); TLT: not found. UNVERIFIED.
 - Last year's approved ETF list (`competition/historical/2025_26/`): Treasury IEF, TLT, GOVT, SHY, SHV, BIL, VGSH,
   USFR; TIPS TIP, VTIP; no iBonds/STRIPS. IEF/TLT ~65/35 duration-matches ~9.9y (durations UNVERIFIED).
 - Taiwan: construction costs +6.54% y/y (Aug 2026), CPI ~2.0%; USD/TWD ~31.8, ~5% annual volatility.
