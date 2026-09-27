@@ -46,6 +46,13 @@ Competition Experience; Creativity & Presentation. All three evaluated deliverab
 - Assistant's view (not a council consensus): 60% equity in the growth sleeve, lock 80% of the sleeve as the 2031
   floor, WInS mirrors post-2028 target (~65% Treasuries / 35% equity), only two rules in the IPS.
 - NOT YET DECIDED BY THE TEAM. The team has not read the memos yet.
+- Interview part 2 (2026-09-27): the team deferred to the assistant's evidence-based calls, provisionally:
+  (1) growth sleeve ~60% equity (weakest call: 50-70% barely changes the median);
+  (2) 2031: guaranteed floor + upside with stated probability (case p.3: overpromising damages credibility);
+  (3) post-2033 leftover mainly as project flexibility/overrun buffer, ventures second (case p.3 "flexibility as the
+  project develops"; living costs covered elsewhere); principle only, no contingency sizing required;
+  (4) no roles assigned yet; suggested roles: lead, trader, rates analyst, growth/risk analyst, client/co-sponsor
+  lead, Taiwan/inflation researcher. The team must be able to defend these in its own words.
 
 ## Key facts (verification status)
 VERIFIED from primary files in `competition/official_market_data/` (team download 2026-09-27):
@@ -67,7 +74,8 @@ first trade by Oct 10 (third-party only).
 
 ## Open items
 - [ ] Team: this year's WInS rules, approved list, starting cash, trading-note location/limits (Ray checking)
-- [ ] Team: interview part 2: Laura's risk appetite, 2031 promise trade-off, post-2033 leftover use, who does what
+- [x] Interview part 2 answered (team deferred; provisional calls recorded above)
+- [ ] Team: assign roles; check SMApply for a trading-rules page, search tickers in WInS, ask advisor/Wharton for list
 - [x] Verified from primary files: Treasury curve, IEF/TLT durations, JPM LTCMA compound basis (2026-09-27)
 - [ ] Re-run the council Monte Carlo with JPM's official compound/vol figures (was run on assumptions)
 - [ ] Team reads `01_chair_memo.md` + `round2_referee_ruling.md` (section 4: 12 concepts) and picks the strategy
