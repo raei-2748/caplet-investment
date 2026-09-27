@@ -28,8 +28,9 @@ draft reviews, not submission-ready prose.
 ## Team
 Lessons from 2025-26 (Ray, no feedback received): strategy packaging was over-complex for the insight; the team traded
 assets outside the trading rules. So: complexity must earn its place; check every trade against this year's rules and
-approved list before placing it; client first. Team is Australian (use only if it earns its place). No active
-teacher-advisor (a registered school advisor is still required for eligibility; advisors may not make decisions).
+approved list before placing it; client first. Team is Australian (use only if it earns its place). The team has a
+supervisor/advisor who handles administrative work only (consistent with the rules: advisors may not make decisions;
+all strategy decisions are the students'; worth noting in the Final Report's Articulation section).
 Ray's personal goal: learn markets and client analysis; include plain-English "what this teaches" notes.
 Ray (Team Leader), Ahaan, Darren, Harry, Eric, Young (6 students). Roster in `config/team_roster.json`,
 pending Wharton roster confirmation (due Oct 9; members locked after submission).

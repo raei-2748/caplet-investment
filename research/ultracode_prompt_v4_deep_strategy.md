@@ -92,7 +92,8 @@ rejects: facility as a dated liability, income-gap cash buffer, values screens a
    -> Every decision must trace back to Laura or the case.
 4. Team is from Australia (rare among entrants). Use an Australian angle only if it earns its place (e.g. how
    Australia's superannuation system / Future Fund frame long-term promises), never for its own sake.
-5. No active teacher-advisor; the six students do the work with AI research support. Ray's personal goal: learn as
+5. The team's supervisor/advisor handles administrative work only (as the rules require, advisors make no
+   decisions); the six students do the work with AI research support. Ray's personal goal: learn as
    much as possible about markets and client analysis. -> Every output includes a short plain-English "what this
    teaches" note.
 
