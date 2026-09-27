@@ -248,6 +248,25 @@ if __name__ == "__main__":
         print("  ".join(f"{n} {w[n]*100:4.1f}%" for n in combo) + f"  fee {fee:.3f}%  worst twist ${tw:,.0f}  "
               f"worst ±100 ${pa:,.0f}  " + "  ".join(f"{v:+,.0f}" for v in te.values()))
 
+    print("\n=== 3-fund matches solving value, duration AND zero 2s30s-twist error exactly (weights >= 0) ===")
+    res3b = []
+    k30 = "steepener 50bp (2s30s)"
+    for combo in itertools.combinations(pool, 3):
+        A = np.array([[1, 1, 1], [ISSUER_DUR[n][0] for n in combo], [R_S[n][k30] for n in combo]])
+        b = np.array([1, LIAB_TARGET, (L_S[k30] - L0) / L0])
+        try:
+            w = np.linalg.solve(A, b)
+        except np.linalg.LinAlgError:
+            continue
+        if w.min() < 0.02:
+            continue
+        w = dict(zip(combo, w)); te, tw, pa, fee = summary(w)
+        res3b.append((tw, combo, w, te, pa, fee))
+    res3b.sort(key=lambda x: x[0])
+    for tw, combo, w, te, pa, fee in res3b[:12]:
+        print("  ".join(f"{n} {w[n]*100:4.1f}%" for n in combo) + f"  fee {fee:.3f}%  worst twist ${tw:,.0f}  "
+              f"worst ±100 ${pa:,.0f}  " + "  ".join(f"{v:+,.0f}" for v in te.values()))
+
     print("\n=== Named mixes for the write-up ===")
     named = {
         "IEF/TLT (brief, 2026-06-30 durations 64.8/35.2)": {"IEF": .648, "TLT": .352},
@@ -272,22 +291,23 @@ if __name__ == "__main__":
     f = build(PAR)
     mspd = list(csv.DictReader(open(ROOT + "S1_mspd_table5_2026-08-31_fixed_2032plus.csv")))
     cost = lambda d: 50000 * f(yf(d)) / f(TA)
-    tot_p = tot_c = 0.0
+    tot_rec = 0.0
+    print("payment | principal STRIPS available in the 8 months before it (maturity, CUSIP, underlying, $m already "
+          "stripped) | cost at 2027-01-01 | Nov-15 coupon STRIP cost | exact-date zero")
     for pay in PAY:
         yr = pay.year - 1
         nov15 = date(yr, 11, 15)
-        prin = [r for r in mspd if r["maturity_date"] <= f"{yr}-12-31"]
-        best = max(prin, key=lambda r: r["maturity_date"]) if prin else None
-        pm = date.fromisoformat(best["maturity_date"])
-        cands = [r for r in mspd if r["maturity_date"] == best["maturity_date"]]
-        best = max(cands, key=lambda r: float(r["stripped_thousands"]))
-        c_prin, c_cpn, c_exact = cost(pm), cost(nov15), cost(pay)
-        tot_p += c_prin; tot_c += c_cpn
-        print(f"{pay}  principal STRIP {best['principal_strip_cusip']} matures {pm} (from {best['coupon_pct']}% "
-              f"{best['security_class'][9:-1].lower()} {best['underlying_cusip']}, stripped ${float(best['stripped_thousands'])/1e3:,.0f}m) "
-              f"cost ${c_prin:,.0f} | Nov-15-{yr} coupon STRIP cost ${c_cpn:,.0f} | exact-Jan-1 zero ${c_exact:,.0f}")
-    print(f"Totals: principal-STRIPS ladder ${tot_p:,.0f}; all-Nov-15 coupon-STRIPS ladder ${tot_c:,.0f}; "
-          f"liability (exact dates) ${L0:,.0f}")
+        win = [r for r in mspd if f"{yr}-05-01" <= r["maturity_date"] <= f"{yr}-12-31"]
+        opts = "; ".join(f"{r['maturity_date']} {r['principal_strip_cusip']} ({r['coupon_pct']}% "
+                         f"{r['security_class'].split()[1][:-1].lower()}, ${float(r['stripped_thousands'])/1e3:,.0f}m) "
+                         f"${cost(date.fromisoformat(r['maturity_date'])):,.0f}" for r in win) or "none"
+        has_nov = any(r["maturity_date"] == nov15.isoformat() for r in win)
+        rec = cost(nov15)  # recommended rung: Nov-15 principal STRIP if it exists, else Nov-15 coupon STRIP
+        tot_rec += rec
+        print(f"{pay} | {opts} | Nov-15 rung ({'principal' if has_nov else 'coupon/interest'} STRIP) ${rec:,.0f} "
+              f"| exact ${cost(pay):,.0f}")
+    print(f"Total, ten Nov-15 rungs: ${tot_rec:,.0f} vs exact-date liability ${L0:,.0f} "
+          f"(extra ${tot_rec - L0:,.0f} = cost of receiving each $50k ~47 days early, before T-bill reinvestment)")
     # Nov 15 2036 note: not yet issued at record date 2026-08-31 (ASSUMPTION: 10-year note issued Nov 2026)
     print(f"If the Nov-15-2036 10-year note (expected Nov 2026 refunding; ASSUMPTION) is used for Jan-2037: "
           f"${cost(date(2036, 11, 15)):,.0f} instead of Aug-15-2036 ${cost(date(2036, 8, 15)):,.0f}")
