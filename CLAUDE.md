@@ -37,7 +37,7 @@ Competition Experience; Creativity & Presentation. All three evaluated deliverab
 
 ## Strategy status (council work in `research/council_2026-09-27/`, AI brainstorming)
 - Leading option after 2 council rounds: "Lock early". Jan 2027 buy Treasuries matching the ten payments
-  (~$292-295k at 2026-09-25 yields, UNVERIFIED); shortfall topped up from 2028 deposit (buy long rungs first); all
+  ($292k at the official 2026-09-25 curve); shortfall topped up from 2028 deposit (buy long rungs first); all
   risk in the surplus growth sleeve; 2031 range = floor bought in a 2-yr Treasury + upside with stated model
   probability; "high certainty" = market-priced full funding, cash-flow/duration matched, residual risk US default.
   Keep the team's two-clock sleeve management and pre-mortem discipline.
@@ -48,25 +48,28 @@ Competition Experience; Creativity & Presentation. All three evaluated deliverab
 - NOT YET DECIDED BY THE TEAM. The team has not read the memos yet.
 
 ## Key facts (verification status)
-- 10y Treasury 5.17% close 2026-09-25 (snippets, UNVERIFIED primary); Fed hiked to 3.75-4.00% on 2026-09-16.
-- CONFLICT (re-searched 2026-09-27): a search summary claiming to quote Treasury's official Sep 25 par curve gave
-  10y 4.22% (2y 3.72, 5y 3.77, 7y 3.97, 20y 4.77, 30y 4.78), contradicting the 5.17% from several other snippets.
-  Search summaries are not reliable for this; the official CSV must be checked by hand before any number is used.
-- Ladder PV at 2027-01-01 $292.3k (Curve A); a stale-looking Curve B gives $314.5k. DV01 ~$289/bp.
-  Flat-rate check: 5.26% -> $295k, 4.8% -> $308k, 4.5% -> $317k, 4.3% -> $324k. If the lower curve is right the
-  ladder does NOT fit in the $300k deposit (2028 deposit must top it up).
-- IEF effective duration: snippets say 6.89y (Sep 2026) and ~7.5y (earlier 2026); TLT: not found. UNVERIFIED.
-- Last year's approved ETF list (`competition/historical/2025_26/`): Treasury IEF, TLT, GOVT, SHY, SHV, BIL, VGSH,
-  USFR; TIPS TIP, VTIP; no iBonds/STRIPS. IEF/TLT ~65/35 duration-matches ~9.9y (durations UNVERIFIED).
-- Taiwan: construction costs +6.54% y/y (Aug 2026), CPI ~2.0%; USD/TWD ~31.8, ~5% annual volatility.
-- JPM 2026 LTCMA US large cap 6.7%: arithmetic vs geometric UNVERIFIED (matters: 6.7% arithmetic ~5.5% compound).
-- Sector minimum = team size (6), 200-trade cap, first trade by Oct 10: third-party sources only, UNVERIFIED.
+VERIFIED from primary files in `competition/official_market_data/` (team download 2026-09-27):
+- Treasury par curve 2026-09-25 (treasury.gov): 1y 4.50, 2y 4.81, 3y 4.94, 5y 4.98, 7y 5.06, 10y 5.17, 20y 5.54,
+  30y 5.49. (A search summary claiming 10y 4.22% was wrong.)
+- Ten payments valued at 2027-01-01 from that curve: $292,264; DV01 $289/bp; duration 9.90y; headroom under the
+  $300k deposit $7.7k = 27bp (a 25bp rally costs +$7.3k, -100bp +$30.6k). Script:
+  `research/verified_2026-09-27/official_curve_pv.py`.
+- IEF effective duration 6.95y, TLT 15.31y, both 0.15% expense (fact sheets as of 2026-06-30) -> duration match
+  64.8% IEF / 35.2% TLT.
+- JPM 2026 LTCMA (data 2025-09-30): U.S. large cap 6.70% COMPOUND (7.94% arithmetic, 16.47% vol); AC World 7.00%
+  compound (16.78% vol); EAFE 7.50%; U.S. intermediate Treasuries 4.00%; long Treasuries 4.90%; cash 3.10%;
+  inflation 2.50%. Implication: the council scenario "6.7% geometric" is the right one (growth-first shortfall ~3%,
+  its median facility ~$19-27k above lock-early, but a far worse downside; the lock-early case still holds).
+Still from search snippets only (UNVERIFIED): Fed hike to 3.75-4.00% on 2026-09-16; Taiwan construction costs
++6.54% y/y (Aug 2026), CPI ~2.0%; USD/TWD ~31.8 with ~5% annual volatility (FRED mirror data); last year's
+approved ETF list is historical (`competition/historical/2025_26/`); sector minimum = team size, 200-trade cap,
+first trade by Oct 10 (third-party only).
 
 ## Open items
 - [ ] Team: this year's WInS rules, approved list, starting cash, trading-note location/limits (Ray checking)
 - [ ] Team: interview part 2: Laura's risk appetite, 2031 promise trade-off, post-2033 leftover use, who does what
-- [ ] Verify from primary sources: Treasury par curve CSV, IEF/TLT fact-sheet durations, JPM LTCMA basis
-      (needs the user to allow the domains, or upload files)
+- [x] Verified from primary files: Treasury curve, IEF/TLT durations, JPM LTCMA compound basis (2026-09-27)
+- [ ] Re-run the council Monte Carlo with JPM's official compound/vol figures (was run on assumptions)
 - [ ] Team reads `01_chair_memo.md` + `round2_referee_ruling.md` (section 4: 12 concepts) and picks the strategy
 - [ ] Final run: decision pack + first-week trade plan + defence Q&A (after the items above)
 - [ ] Code: `report audit-ai` always passes (audits one hard-coded block); built-in $100k/25% sector defaults and the
