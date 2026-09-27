@@ -14,4 +14,40 @@ documents:
   human_verified: false
   verified_by: null
   verification_notes: null
-last_updated: '2026-09-26 10:27:38'
+- filename: 2026_WGY_Investment_Policy-FINAL.pdf
+  sha256_hash: d4aeaca75c2875fb7c6b59833f94606b729404ad0d983e34e7fe13188800df6a
+  document_type: ips_instructions
+  source: SurveyMonkey Apply
+  received_date: '2026-09-27'
+  competition_year: 2026-2027
+  authority: OFFICIAL_PRIVATE_VERIFIED
+  version: '1.0'
+  parsed: false
+  human_verified: false
+  verified_by: null
+  verification_notes: null
+- filename: 2026_WGY_Trading_Notes_Analysis-FINAL.pdf
+  sha256_hash: 72bbc4a90ba02dd17dcacc0bea4339fb261f6aa33483784a275d7b3083d05d52
+  document_type: trading_notes_instructions
+  source: SurveyMonkey Apply
+  received_date: '2026-09-27'
+  competition_year: 2026-2027
+  authority: OFFICIAL_PRIVATE_VERIFIED
+  version: '1.0'
+  parsed: false
+  human_verified: false
+  verified_by: null
+  verification_notes: null
+- filename: SMApply_Deliverables_Page_2026-09-27.md
+  sha256_hash: 6a9c047777795bdcce3b1f7069b6640e9fb2708ab315394f4b18f544aa125e43
+  document_type: judging_evaluation_criteria
+  source: SurveyMonkey Apply
+  received_date: '2026-09-27'
+  competition_year: 2026-2027
+  authority: OFFICIAL_PRIVATE_VERIFIED
+  version: '1.0'
+  parsed: false
+  human_verified: false
+  verified_by: null
+  verification_notes: null
+last_updated: '2026-09-27 05:09:12'

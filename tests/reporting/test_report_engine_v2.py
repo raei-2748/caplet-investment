@@ -67,8 +67,8 @@ def test_32_official_requirement_coverage_can_be_audited(tmp_path):
 
     deliv_names = [r.title for r in deliverable_rules]
     assert any("Investment Policy Statement" in name for name in deliv_names)
-    assert any("Comprehensive Final Report" in name for name in deliv_names)
-    assert any("Trading Notes" in name for name in deliv_names)
+    assert any("Final Report & Official School Documentation" in name for name in deliv_names)
+    assert any("Trading Notes Analysis" in name for name in deliv_names)
 
 
 def test_33_compiler_distinguishes_official_requirements_from_team_design(tmp_path):
