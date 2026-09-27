@@ -1,4 +1,4 @@
-# DRAFT v1 (awaiting Ray's approval): Ultracode prompt "Strategy perfection audit"
+# DRAFT v2 (awaiting Ray's approval): Ultracode prompt "Strategy perfection audit"
 
 ## Goal
 Make Team Caplet's investment strategy for Laura Gao as strong as possible on every dimension the judges and the
@@ -20,8 +20,14 @@ honestly, but change it only where evidence shows a real improvement.
 - Team thinking: research/council_2026-09-27/team_notes_2026-09-27.md.
 - Prior AI analysis (brainstorming, lower authority): research/council_2026-09-27/.
 - Historical only: competition/historical/2025_26/.
+- Team client research: research/team_materials/review_why_laura_and_public_profile.md, plus the team's two original
+  documents (provided to the run privately, not committed). Fact-check their claims before relying on them.
 
 ## Dimensions to audit (one auditor each)
+0. Why Wharton chose Laura (lens for all others): what the client choice and the case design signal (client trend
+   2023-2027, co-sponsors, certainty, creative/irregular income, diaspora and Taiwan), and whether the strategy
+   answers that deeper purpose with analysis rather than decoration or tokenism. Separate verified facts from
+   interpretation.
 1. Case-requirement coverage: every "must/should/teams are expected" in the case, line by line.
 2. Five official evaluation criteria: what a top score needs on each; where the strategy is weak.
 3. Client understanding: Laura's profile, fears, goals; generic vs genuinely tailored.

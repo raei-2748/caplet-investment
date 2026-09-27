@@ -63,6 +63,12 @@ Competition Experience; Creativity & Presentation. All three evaluated deliverab
   (4) no roles assigned yet; suggested roles: lead, trader, rates analyst, growth/risk analyst, client/co-sponsor
   lead, Taiwan/inflation researcher. The team must be able to defend these in its own words.
 
+## Client insight (team docs reviewed 2026-09-27: `research/team_materials/review_why_laura_and_public_profile.md`)
+Keep: client trend toward community-infrastructure funding; willingness vs capacity (career risk -> portfolio should
+not add correlated risk; bites via the 2028 deposit); human-capital hedge; low-cost transparency; framing from her
+books. Rejected as conflicting with the case: facility as a dated liability, income-gap cash buffer, values screens
+as a decision, residency = where she lives.
+
 ## Key facts (verification status)
 VERIFIED from primary files in `competition/official_market_data/` (team download 2026-09-27):
 - Treasury par curve 2026-09-25 (treasury.gov): 1y 4.50, 2y 4.81, 3y 4.94, 5y 4.98, 7y 5.06, 10y 5.17, 20y 5.54,
@@ -92,7 +98,7 @@ first trade by Oct 10 (third-party only).
       Equity weight 50/60/70% in the sleeve: median $205k/$207k/$209k (barely matters).
 - [x] Trading Notes blueprint drafted: `research/blueprints/01_trading_notes_blueprint.md` (awaiting team approval)
 - [ ] Team reads `01_chair_memo.md` + `round2_referee_ruling.md` (section 4: 12 concepts) and picks the strategy
-- [ ] Ultracode "strategy perfection audit": prompt DRAFT v1 in `research/ultracode_strategy_audit_prompt.md`,
+- [ ] Ultracode "strategy perfection audit": prompt DRAFT v2 (adds dimension 0 "why Wharton chose Laura") in `research/ultracode_strategy_audit_prompt.md`,
       awaiting Ray's approval before launch
 - [ ] Final run: decision pack + first-week trade plan + defence Q&A (after the items above)
 - [ ] Code: `report audit-ai` always passes (audits one hard-coded block); built-in $100k/25% sector defaults and the
