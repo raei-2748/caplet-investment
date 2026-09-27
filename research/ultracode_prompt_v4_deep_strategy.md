@@ -82,7 +82,20 @@ research/team_materials/review_why_laura_and_public_profile.md (keeps: client tr
 infrastructure; willingness vs capacity; human-capital hedge; low-cost transparency; framing from her books;
 rejects: facility as a dated liability, income-gap cash buffer, values screens as a decision, residency = home).
 
-# PART 2: MISSION
+# PART 2: LESSONS FROM LAST YEAR (Ray competed in 2025-26; no feedback received; team's own diagnosis)
+1. Over-complex packaging: the insight did not earn its complexity; fancy framing was easy for judges to spot.
+   -> DESIGN PRINCIPLE: complexity must earn its place. Best insight, highest value, least complexity.
+2. Traded assets outside the trading rules (a direct rule violation).
+   -> Compliance with this year's WInS rules and approved list comes before any strategy idea.
+3. Most teams ignore the client and assume the most complex method wins.
+   -> Every decision must trace back to Laura or the case.
+4. Team is from Australia (rare among entrants). Use an Australian angle only if it earns its place (e.g. how
+   Australia's superannuation system / Future Fund frame long-term promises), never for its own sake.
+5. No active teacher-advisor; the six students do the work with AI research support. Ray's personal goal: learn as
+   much as possible about markets and client analysis. -> Every output includes a short plain-English "what this
+   teaches" note.
+
+# PART 3: MISSION
 NORTH STAR: "Why would Laura choose our firm's strategy over 6,000 others?" Every phase must answer to it. Skill and a
 correct strategy are necessary but not sufficient; the winning strategy also reflects who she is, what she values and
 how she thinks, in ways she would recognise as hers.
@@ -92,7 +105,7 @@ an understanding of Laura, of the case designers' intent, and of the 2026 invest
 miss. Surface every anomaly, blind spot and "why is it like this?" question; answer the ones that matter with
 evidence; turn the answers into specific, approved-by-team strategy improvements.
 
-# PART 3: TEAM OF AGENTS (about 50-60 agents; follow this roster)
+# PART 4: TEAM OF AGENTS (about 50-60 agents; follow this roster)
 
 ## Phase A: Foundations (3 agents, parallel)
 - A1 Case Lawyer: extract every requirement, instruction, number, definition and notable word choice from the four
@@ -110,7 +123,8 @@ official requirement or verified fact it anchors to. Use the seed bank in Part 5
   Wharton is testing; what she represents; how it connects to investing).
 - B3 Laura's World & Human Capital (her public professional record, values, books and their lessons; income risks:
   publishing cycles, book challenges, AI and illustration, US-China; privacy respected; no tokenism).
-- B4 Top-Practitioner Benchmark (how the best goals-based wealth managers, pension CIOs, endowment CIOs and private
+- B4 Top-Practitioner Benchmark (include, only if it earns its place, how Australian superannuation funds and the
+  Future Fund approach long-dated promises; how the best goals-based wealth managers, pension CIOs, endowment CIOs and private
   bankers, e.g. at Goldman Sachs, BlackRock, JPMorgan, Vanguard, would approach this exact client; their published
   frameworks; governance, rebalancing, behavioural coaching, reporting of uncertainty).
 - B5 2026 Macro & Markets Landscape (rates and why they are high; Fed path; inflation regimes; U.S. fiscal position and
@@ -127,10 +141,12 @@ official requirement or verified fact it anchors to. Use the seed bank in Part 5
   team" will submit this year; how deliverable mechanics shape scoring; how to show a 16-year strategy in 6 weeks).
 
 ## Phase C: Filter (code dedupe + 6 skeptic agents in batches)
-A question survives only if it passes all three:
+A question survives only if it passes all four:
 - So-what: its answer would change a decision, a number, or a sentence in a deliverable (Oct 23, Nov 6, Dec 4).
 - Anchor: tied to the official case/criteria or to a verified fact bearing on them.
 - Adversarial: at least 2 of 3 skeptics fail to show it is trivial, already answered in Part 1, or wrong.
+- Simplicity: the resulting insight can be stated in one plain sentence, and any added complexity changes the
+  result; otherwise simplify or cut (last year's main failure).
 Failed-but-interesting questions go to a Finale Q&A bank. Log counts dropped at each step.
 
 ## Phase D: Research & answer (10-12 specialist agents; each takes the surviving questions in its domain)
@@ -155,13 +171,15 @@ concrete implication (decision / number / sentence) and which deliverable it aff
 - E1 Strategy Architect: turns answers into specific change proposals to the current strategy, with side effects.
 - E2-E4 Red team: a Wharton judge, Laura herself, a rival team's best strategist; each attacks the revised strategy.
 - E5 Pre-mortem analyst: "It is January 2027 and we missed the semifinals. Why?" List causes and fixes.
-- E6 Chief Strategist: resolves conflicts, ranks changes by impact, writes the final specification.
+- E6 Chief Strategist: resolves conflicts, ranks changes by impact, writes the final specification; final checks:
+  (a) every decision traces to Laura or the case; (b) nothing is more complex than it needs to be; (c) nothing
+  requires trading outside the WInS rules.
 
 ## Phase F: Completeness loop (1-2 agents)
 Completeness critic asks: which lens, stakeholder, source, risk or requirement was not covered? Anything found becomes
 another round of Phases B-E for that gap. Stop when two consecutive rounds add nothing that passes the filters.
 
-# PART 4: RULES
+# PART 5: RULES
 - CLAUDE.md working rules apply. Official materials and verified data only; never invent facts; label assumptions.
 - No submission-ready prose (no drafted pitch, IPS paragraphs, notes or report text). Produce specifications,
   evidence, numbers and checklists that the team turns into its own writing. Nothing goes to judges without team
@@ -169,11 +187,12 @@ another round of Phases B-E for that gap. Stop when two consecutive rounds add n
 - Quotes: exact wording from primary sources only, with URL and date; never invent or polish a quote.
 - Respect privacy: use Laura's public professional record only; no personal-life details; never suggest contacting
   her. No student personal data.
-- No ticker selection (this year's approved list is unknown); instrument types only.
+- No ticker selection (this year's approved list is unknown); instrument types only. Never recommend any trade that
+  is not confirmed as permitted by this year's WInS rules and approved list.
 - Report blocked sources rather than guessing. Write outputs only under research/insight_v1/; commit and push; update
   CLAUDE.md with the key results and open items.
 
-# PART 5: SEED QUESTION BANK (start here, go beyond)
+# PART 6: SEED QUESTION BANK (start here, go beyond)
 Case design:
 1. "The investment strategy that Laura ultimately chooses": she is comparing firms. What makes her choose us?
 2. Why does the case say the teacher-PM "makes the final investment decisions"? What governance must the IPS set?
@@ -223,7 +242,7 @@ Laura's voice:
 33. Which of her own public statements about risk, failure, belonging, money or success does our strategy embody?
 34. What would she find inauthentic or "finance-bro" in a typical team's pitch?
 
-# PART 6: OUTPUTS (research/insight_v1/)
+# PART 7: OUTPUTS (research/insight_v1/)
 1. insights.md: top 15-25 insights ranked by impact: question -> answer -> evidence -> what changes -> deliverable.
 2. anomaly_register.md: every case anomaly, likely purpose, our response.
 3. why_laura.md: verified facts vs interpretation; the one-sentence thesis it supports.
