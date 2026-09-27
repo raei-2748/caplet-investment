@@ -7,7 +7,8 @@ Agent S3 (Allocation Architect), insight_v1 run, written 2026-09-27. **This is a
 Inputs:
 - `research/insight_v1/wins_now/S1_treasury_sleeve.md` (hedge, cash and ladder research)
 - `research/insight_v1/wins_now/S2_growth_sleeve.md` (growth sleeve research)
-- `research/insight_v1/phase_A/case_register.md` (A1). There is no `phase_A/wins_week1_guardrails.md` yet.
+- `research/insight_v1/phase_A/case_register.md` (A1)
+- `research/insight_v1/phase_A/wins_week1_guardrails.md` (A4, which appeared while this file was being written; it adds the position-limit and day-trading constraints used in sections B-D and F)
 
 Script: `research/insight_v1/scripts/S3_allocation_numbers.py`. Run it from the repo root with `.venv/bin/python research/insight_v1/scripts/S3_allocation_numbers.py`. It reproduces the verified $292,264 and 9.90y, then prints every allocation, share count, band trigger and reserve value used below.
 
@@ -57,6 +58,10 @@ Script: `research/insight_v1/scripts/S3_allocation_numbers.py`. Run it from the 
    - Jan 2028: the sleeve becomes 60% VT / 40% VGSH.
    - 2031: about 80% of the sleeve goes into the 2-year Treasury note that should mature on 2032-12-31. That maturity is an ASSUMPTION: the December 2025 note matured on 2027-12-31 (VERIFIED-PRIMARY).
    - From 2033: each Nov-15 rung waits about 47 days in T-bills and then pays that year's Jan 1 payment. The reserve then runs down with no rebalancing: $394.9k on 2033-01-01, $223.1k on 2038-01-01.
+7. **Two platform limits to check on Day 1 (from A4's `phase_A/wins_week1_guardrails.md`).**
+   - **Position limit.** This season's WInS user guide lists a per-security "Position Limit" but does not give the number. Stock-Trak's default is 25%.
+   - If it is below about 43%, TLH at 42.4% is blocked. Use the ready-made capped mixes in section D.1b. The best one is IEF 22.6% / TLH 24.0% / the U.S. Treasury 3.125% due 2041-11-15 at 19.4%, with a worst twist error of $1,114. The ETF-only version is IEF 24 / TLH 24 / SPTL 14 / SPTI 4 ($2,083).
+   - **Day trading is "not permitted".** Never buy and sell the same security on the same U.S. trading day.
 
 ---
 
@@ -70,6 +75,8 @@ Script: `research/insight_v1/scripts/S3_allocation_numbers.py`. Run it from the 
 - **Rebalancing band:** a range around a target weight. The team trades only when a weight leaves the range.
 - **STRIPS:** zero-coupon Treasuries. Each one pays a single amount on a single date.
 - **Mirror:** the WInS portfolio's weights chosen to represent Laura's real plan.
+- **Twist error:** how many dollars the hedge's change in value misses the change in the payments' value by, when short-term and long-term rates move 25bp in opposite directions. Uses S1's scenarios on a $292,264 hedge; smaller is better.
+- **Position limit:** the most WInS lets you hold in any one security, as a share of the portfolio (set in Session Rules).
 
 ---
 
@@ -88,6 +95,8 @@ All of these are VERIFIED-PRIMARY. I fetched https://wghsinvcomp.smapply.us/res/
 | "Orders placed while the market is closed are filled at the security's opening price when the market reopens." / "International equity orders … are processed at the end of the applicable trading day." | All picks are U.S.-listed, so they fill at real-time or opening prices. From Australia, daytime orders fill at the next U.S. open. |
 | "The bond prices are updated once daily at U.S. market open" | Individual Treasuries in WInS show stale prices during the day. This is one reason ETFs are the primary hedge. |
 | "If you make an error, we encourage you to run with it and not scramble to 'fix' it." | Record errors honestly in the decision log. Do not trade to undo them. |
+| 2026-27 WInS User Guide p.6 (A4, VERIFIED-PRIMARY): "Position Limit: This is how much of your portfolio you can invest in one single stock. Day Trading: This is not permitted." Stock-Trak's generic FAQ: "The default position limit is 25%" | The limit's value is UNKNOWN. The 2024-25 screenshot showed a bond limit of 100% [PRIOR]. Read Session Rules before the first order. Under a 25% limit only TLH (42.4%) breaks: use section D.1b. Never buy and sell the same security on the same day. |
+| Stock-Trak blog (2017, A4): students "cannot edit or delete their trade notes" | Treat every note as permanent. Write it before pressing submit. |
 
 ---
 
@@ -113,7 +122,7 @@ Plan numbers at 2028-01-01 come from the script (section 3):
 | Matches the plan's total equity (17-24%)? | No: 34% is a risk level the plan never holds | **Yes** (20.4% at 60/40) | No: that is the 2027 level only (~1-2%) |
 | What the WInS portfolio shows | Promise + growth | **Promise + growth + a bought floor: three funding purposes** | Promise only. Growth is a ~$4.5k token trade |
 | Strongest argument for it | Largest visible growth sleeve | Same proportions as the model and the planned IPS | WInS cash = the 2027 deposit, and "$150,000 … will not be added to WInS" (VERIFIED-PRIMARY) |
-| Main weakness | Contradicts the IPS/model numbers, and judges read the notes and the IPS together | Needs one sentence saying WInS holds the target mix after both deposits, scaled to $300k | Describes 1 of the 6 pre-2033 years; the growth note would be token |
+| Main weakness | Contradicts the IPS/model numbers, and judges read the notes and the IPS together | Needs one sentence saying WInS holds the target mix after both deposits, scaled to $300k | Describes 1 of the 6 pre-2033 years; the growth note would be token. Under a 25% position limit, 97.5% of Treasuries would need at least 4-5 positions |
 
 **Recommendation: (ii).** Reasons, each tied to the case or to Trading Notes quality:
 1. **It is the council's post-2028 mirror with the sleeve modelled correctly.** It follows the task's default and removes the brief's 35%-vs-20-24% inconsistency (brief section 9) with a computed number instead of a compromise.
@@ -143,6 +152,8 @@ All weights and share counts come from the script. Share counts use the 2026-09-
 | **VGSH** Vanguard Short-Term Treasury ETF (PENDING APPROVAL CHECK), **bought in week 2** | 2031 floor proxy: the safe part of the growth sleeve, the money Laura will turn into a promised floor two years before 2033 | **12.5%** (40% of the sleeve, less the float) | $12,500 (~217 sh) | **$37,500 (~651 sh)** | $62,500 (~1,085 sh) | SHY (0.15%, 1.79y). Or a WInS-listed ~2-year U.S. Treasury note, e.g. CUSIP 91282CRP8, 4.75%, due 2028-09-30 (exists: VERIFIED-PRIMARY; listed in WInS: UNVERIFIED; $10 commission) | VGSH yes (#93, line 1113; 0.04% then); SHY yes (#86, line 1029) |
 | **Cash** | Trading float for commissions (no margin allowed). Also where ETF distributions land (~$825/month from the hedge, ASSUMPTION ~5% yield) | **1%** | $1,000 | **$3,000** | $5,000 | BIL, only if money must wait more than about 2-3 weeks (section B.1); alternates SGOV, SHV | BIL yes (#92, line 1101); SGOV no; SHV yes (#90, line 1077) |
 | **Total** | | 100% | | | | | |
+
+**Position-limit check.** TLH at 42.4% is the only position above 25%. If Session Rules show a single-security limit below about 43%, do not trade this table. Use section D.1b instead: the hedge's share and duration stay the same, and only its split changes.
 
 Key facts, all issuer primary pages accessed 2026-09-27. "S3" means I read the page myself today (curl). S1/S2 read the same pages today.
 
@@ -192,7 +203,7 @@ These time-zone details are an ASSUMPTION: the team's state is not recorded. Ord
 
 | Step | When | Trade | Size ($300k) | Why this order | Cost |
 |---|---|---|---|---|---|
-| 0 | Before any order (Mon Sep 28, Australian daytime) | None. Run the compliance checks (section F.2). The team formally chooses option (i), (ii) or (iii) and records who decided. | none | Last year's lesson was trading outside the rules. Also, the strategy is not yet approved. | $0 |
+| 0 | Before any order (Mon Sep 28, Australian daytime) | None. Run the compliance checks (section F.2), starting with **Session Rules** (position limit, day trading). The team formally chooses option (i), (ii) or (iii) and records who decided. If the position limit is below about 43%, switch to section D.1b now. | none | Last year's lesson was trading outside the rules. Also, the strategy is not yet approved. | $0 |
 | 1 | Day 1 (orders fill at the Mon Sep 28 ET open) | **BUY IEF** | 23.6%, ~786 sh | The promise comes first: protect the payments before taking any risk (the lock-early logic). The hedge is a no-regret trade: it is ≥65% under all three options. | $25 |
 | 2 | Day 1 | **BUY TLH** | 42.4%, ~1,362 sh | Second half of the hedge. Recompute both weights from the issuer pages that morning. | $25 |
 | 3 | Day 1, only after step 0 picked (ii) or (i) | **BUY VT** | 20.5%, ~384 sh (34% under (i)) | Risk is taken only with money the promise does not need. Its size depends on the option chosen, so it follows the decision. | $25 |
@@ -204,7 +215,8 @@ These time-zone details are an ASSUMPTION: the team's state is not recorded. Ord
 | Nov 6 | IPS due; WInS freezes | No "tidy-up" trades in the last days | | The frozen mix must be the mix the IPS describes | |
 
 Notes on the calendar:
-- Trades 1-4 use 4 of the 200 trades and cost $100.
+- Trades 1-4 use 4 of the 200 trades and cost $100. Under the D.1b capped hedge, add 1-2 trades ($10-50).
+- **No day trading.** No step buys and sells the same security on the same U.S. trading day. A rebalance always trades two *different* securities (VT against VGSH, or IEF against TLH). If a mistake happens, wait at least one trading day before any correcting trade, and run with it where possible (R-W94).
 - **Cash vs BIL for the waiting money:** a round trip in BIL costs $50 in commissions. $37,500 earns about $3.69 a day at BIL's 3.59% SEC yield (S1), so BIL breaks even only after about 14 days.
   - For a 1-2 week wait, cash is simpler and at least as good. ASSUMPTION: WInS pays no interest on cash (UNVERIFIED; check in WInS).
   - Use BIL only if the decision will take longer than about 3 weeks.
@@ -224,7 +236,10 @@ The WInS note is quoted "exactly as it appears in WInS", and "Yes, we will verif
 - [ ] At most one number, and a verified one (e.g. duration about 9.9 years).
 
 What could go wrong:
+- **Position limit below about 43%.** WInS rejects the TLH order. Switch to section D.1b before ordering, not after a rejection.
+  - The note then describes a three-part hedge. If the U.S. Treasury 2041 bond is used, name it as the bond that matures just before Laura's last payment.
 - **TLH not tradable in WInS.** Use IEF 62.1% / TLT 37.9% of the hedge (both were on the 2025-26 list). Say in the note that it misses a 50bp twist by up to $3.6k.
+  - Under a 25% limit this pair also breaks (IEF would be 41.0%). Use D.1b row 3 instead.
 - **Stale weights.** The IEF/TLT match moved 2.7 points of weight between the June fact sheets and today (S1). Always re-read the issuer page first.
 - **Rates rise in WInS** (+50bp is about -$9.8k). Someone will want to sell. The pre-committed rule in the note is the defence.
 - **Order entered overnight** fills at the next open, which may gap. This does not matter for the reasoning.
@@ -288,7 +303,8 @@ The worked trigger sizes come from the script. The duration drifts are illustrat
 6. **Trade for ranking, or trade in the last days before the Nov 6 freeze** to make the portfolio look better.
 7. **Write or edit a note after the fact**, or reuse practice-account trades (they were reset, R-W77).
 8. **Let the advisor place trades** (R-W87). Let cash go negative (no margin).
-9. **Re-weight to the June fact-sheet numbers** (64.8/35.2). Use today's issuer durations.
+9. **Day-trade.** Never buy and sell the same security on the same U.S. trading day ("Day Trading: This is not permitted", 2026-27 WInS guide, via A4). Never push any position above the Session Rules position limit.
+10. **Re-weight to the June fact-sheet numbers** (64.8/35.2). Use today's issuer durations.
 
 ---
 
@@ -303,6 +319,20 @@ The worked trigger sizes come from the script. The duration drifts are illustrat
 | VGSH | SHY 12.5% (0.15%, 1.79y) | A WInS-listed ~2-year U.S. Treasury note | A literal floor instrument, but its price updates only once a day | SHY yes |
 | BIL (if used) | SGOV | SHV, or plain cash | none | SGOV no; SHV yes |
 | Treasury ETFs as a class (very unlikely) | A literal ladder of U.S. Treasuries from the WInS bond list (D.3) | none | Most literal; 10 trades at $10 each | n/a |
+
+### D.1b If Session Rules cap a single security below about 43%
+The hedge's share (66%) and duration (9.90y) do not change. Only its split does.
+- **Source of the cap:** Stock-Trak's default is 25% (A4, generic platform page). This season's value is UNKNOWN.
+- **Working cap of 24%:** each capped fund is held at 24% of the total, leaving a 1-point buffer. ASSUMPTION: the limit is checked at the fill price.
+- **Method:** script section 9, using S1's holdings-based model and the same scenarios as S1. For comparison, the uncapped IEF/TLH mix has a worst twist error of $1,352.
+- Every line is PENDING APPROVAL CHECK.
+
+| Use when | Mix (share of total portfolio) | Duration | Worst 50bp twist | ±100bp worst | Notes |
+|---|---|---|---|---|---|
+| **1. The WInS bond list includes the 3.125% U.S. Treasury due 2041-11-15 and bonds have their own higher limit** (the 2024-25 screenshot showed 100% [PRIOR]) | IEF 22.6% / TLH 24.0% / **UST 3.125% 2041-11-15 (CUSIP 912810QT8) 19.4%** | 9.90y | **$1,114** | $693 | Better than uncapped IEF/TLH. The bond's principal STRIP is Laura's last rung (S1), so it gives a literal story. Model duration 11.35y and price 77.88 per 100 face are model values; use the WInS quote. $10 commission. Prices update once a day. Pays coupons (R-W91) |
+| **2. ETFs only** | IEF 24.0% / TLH 24.0% / SPTL 14.0% / SPTI 4.0% | 9.90y | $2,083 | $899 | All liquid (SPTI/SPTL about $10bn each, S1). SPTI/SPTL were not on the 2025-26 list. VGLT/VGIT are equivalent alternates |
+| 3. TLH also missing | SPTI 14.0% / SPTL 19.0% / VGIT 13.8% / VGLT 19.2% | 9.90y | $3,833 | $972 | Each pair is split across two issuers so every position is under the cap. Fees 0.03% |
+| (not recommended) | IEF 24.1% / TLH 25.0% / IBGA 16.9% | 9.90y | $1,468 | $1,043 | IBGA (iBonds Dec 2044) holds only $73.7m. Only 9,537 shares traded on 2026-09-25, against a 30-day average of 84,912 (ishares.com, VERIFIED-PRIMARY). The order would be about 2,200 shares, so the WInS volume cap could bite early in the day |
 
 ### D.2 Sector-minimum fallback (contingency only)
 SMApply says: "There is no required sector allocation or minimum number of sectors" (VERIFIED-PRIMARY today). Use this only if Wharton later says otherwise or WInS rejects broad ETFs.
@@ -340,6 +370,7 @@ Costs of the fallback:
   - 10 trades and 10 notes for one idea;
   - Wharton's own example note uses a Treasury ETF.
 - **Check the drop-down on Day 1** and record what exists. It could support one "tested the strategy" note later, but only if the team wants it.
+- **Exception:** if a position limit blocks TLH, a single bond (the 3.125% due 2041-11-15) is the best fix (D.1b row 1). One bond in a three-part hedge is simple enough to earn its place. A ten-bond ladder is not.
 
 ---
 
@@ -434,9 +465,19 @@ All are **PENDING APPROVAL CHECK: confirm on this year's WInS approved list/rule
 | SGOV / SHV | Float (alternate) | No / Yes (#90, line 1077, 0.15) | 0.09%, 0.11y / 0.15%, 0.28y |
 | Select Sector SPDRs, VNQ | Sector fallback only | 10 of 11 yes (XLRE no); VNQ yes | 0.08% gross (S2, fact sheets 6/30) |
 | U.S. Treasury notes (e.g. 91282CRP8) | Optional floor or ladder illustration | Not an ETF (the bond rule applies) | Exists: fiscaldata.treasury.gov; availability in WInS UNVERIFIED |
+| U.S. Treasury 3.125% due 2041-11-15 (912810QT8) | Hedge part 3, **only under a position limit** (D.1b) | Not an ETF | Exists: MSPD Table V (S1); listed in WInS UNVERIFIED; model duration 11.35y |
+| IBGA | Not recommended (thin) | No | $73.7m; 9,537 shares traded 9/25; ishares.com |
 
 ### F.2 Exact checks in WInS before the first order
 - [ ] 1. Log into the **official** account, not practice. Practice trades were reset (R-W77). A student places every trade, never the advisor (R-W87).
+- [ ] 1b. Open **Portfolio Simulation > Portfolio Summary > Session Rules** (2026-27 WInS guide, via A4). Record:
+  - the position limit, both per single position and per security type (equity/ETF vs bond);
+  - day trading;
+  - trades allowed;
+  - commissions;
+  - the trading end time on Nov 6.
+
+  If the single-position limit is below about 43%, use section D.1b.
 - [ ] 2. Re-read the SMApply Trading Details and FAQ pages that morning, and note any change to the $300k, 200-trade, volume and commission rules.
 - [ ] 3. For each ticker, search WInS and confirm:
   - it appears as an **ETF** (not a mutual fund, ETN or leveraged product);
@@ -444,7 +485,9 @@ All are **PENDING APPROVAL CHECK: confirm on this year's WInS approved list/rule
 - [ ] 4. Confirm each order has a real-time quote and is not routed as "international" (all picks are U.S.-listed).
 - [ ] 5. Read the daily volume WInS shows and confirm the order is below **twice** that volume. This matters for VT and VGSH, whose issuers do not publish volume.
 - [ ] 6. Confirm the commission shown ($25 per ETF trade) and that cash stays positive after all orders (no margin).
-- [ ] 7. Find the Trading Note field. Check its **character limit** and whether it can be edited after submission. Write the note before pressing submit.
+- [ ] 7. Find the Trading Note field and check for a **character limit**. None is published anywhere. The guide's example note is 59 words / 413 characters (A4).
+  - Assume the note **cannot be edited or deleted**: Stock-Trak says students "cannot edit or delete their trade notes" (2017, via A4).
+  - Write the note before pressing submit.
 - [ ] 8. Open the Treasury-bond drop-down. Record which U.S. maturities exist (Nov 2032-Nov 2041; a ~2-year note), the minimum face amount, and how accrued interest is shown.
 - [ ] 9. Check whether WInS pays interest on cash. This decides cash vs BIL for money that waits.
 - [ ] 10. Recompute the IEF/TLH weights from the issuer pages (ishares.com, "Effective Duration") on the trade date. Record the numbers and the time.
@@ -457,6 +500,7 @@ All are **PENDING APPROVAL CHECK: confirm on this year's WInS approved list/rule
 1. **Which mirror: (i), (ii) or (iii)?** S3 recommends (ii). The team decides and writes the one sentence on what WInS represents.
 2. **Duration anchor: 9.90 (Jan-2027 purchase) or 8.92 (2028 view).** The weights differ a lot (TLH 64.3% vs 43.5%). S3 recommends 9.90, and the team must keep to one.
 3. **Tradable in WInS?** TLH, VT and VGSH need checking. So do the note-field limit, interest on cash, and which U.S. Treasuries are in the drop-down.
+3b. **Session Rules position limit, and how "day trading" is defined.** A limit below about 43% forces the D.1b hedge. The U.S. Treasury 2041 bond variant needs bonds to have their own higher limit and the bond to be listed.
 4. **The sleeve's bond instrument (VGSH) has no exact JPM line.** Update `strategy_mc.py` (sleeve bonds, and AC World for equity) so the model, the IPS and WInS agree.
 5. **Update the brief and CLAUDE.md (main loop):**
    - starting cash is $300k (VERIFIED-PRIMARY);
@@ -468,7 +512,7 @@ All are **PENDING APPROVAL CHECK: confirm on this year's WInS approved list/rule
 
 ## Sources (all accessed 2026-09-27)
 - **SMApply (VERIFIED-PRIMARY, curl):** https://wghsinvcomp.smapply.us/res/p/trading/ ; https://wghsinvcomp.smapply.us/res/p/faqs/ . WebFetch was blocked by the egress proxy; curl succeeded.
-- **iShares product pages (VERIFIED-PRIMARY, curl):** https://www.ishares.com/us/products/239456/ (IEF), /239453/ (TLH), /239454/ (TLT), /239452/ (SHY), /314116/ (SGOV). These gave effective duration (9/24), net assets, closing price and 30-day volume (9/25), expense ratio and SEC yield.
+- **iShares product pages (VERIFIED-PRIMARY, curl):** https://www.ishares.com/us/products/239456/ (IEF), /239453/ (TLH), /239454/ (TLT), /239452/ (SHY), /314116/ (SGOV), /337747/ (IBGA). These gave effective duration (9/24), net assets, closing price and 30-day volume (9/25), expense ratio and SEC yield.
 - **Vanguard (VERIFIED-PRIMARY):** https://investor.vanguard.com/vmf/api/{VT,VGSH,VTI,VXUS}/{profile,price,expense,characteristic}, the data behind https://investor.vanguard.com/investment-products/etfs/profile/{ticker}.
 - **State Street (VERIFIED-PRIMARY):** https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-1-3-month-t-bill-etf-bil (redirected from the old spdr-bloomberg-1-3-month-t-bill-etf-bil URL).
 - **U.S. Treasury (VERIFIED-PRIMARY):**
@@ -480,7 +524,7 @@ All are **PENDING APPROVAL CHECK: confirm on this year's WInS approved list/rule
   - `competition/historical/2025_26/25-26-WGHIC-Approved-ETF-List.txt` (lines as cited)
   - `competition/official_market_data/daily-treasury-rates_2026-09.csv` and `JPM_LTCMA_2026_US_matrix_USD.pdf` p.2
   - `research/verified_2026-09-27/official_curve_pv.py` and `strategy_mc.py`
-  - `research/insight_v1/phase_A/case_register.md`
+  - `research/insight_v1/phase_A/case_register.md` and `research/insight_v1/phase_A/wins_week1_guardrails.md` (A4: the 2026-27 WInS user guide, Session Rules and the Stock-Trak FAQ/blog, all as quoted there)
   - `research/insight_v1/wins_now/S1_treasury_sleeve.md` and `S2_growth_sleeve.md`
 
 ## What this teaches

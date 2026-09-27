@@ -25,6 +25,12 @@ Inputs (status labels):
 - Nov-15 STRIPS ladder cost $294,387 (S1, VERIFIED-PRIMARY inputs, model output).
 - ASSUMPTIONS: growth sleeve 60% equity / 40% short Treasuries (brief section 7 and CLAUDE.md provisional call);
   forward rates are realised when valuing the reserve after 2033; T-bill rate 4.0% for the 47-day wait.
+- Sections 8-9 (position-limit contingency) import research/insight_v1/wins_now/S1_hedge_weights.py, which values
+  each fund from its actual holdings (S1 snapshot CSVs, VERIFIED-PRIMARY). The 25% single-security cap is Stock-Trak's
+  generic default (quoted by A4 in phase_A/wins_week1_guardrails.md; this season's value UNKNOWN). The 3.125%
+  Treasury bond due 2041-11-15 (CUSIP 912810QT8) comes from S1's MSPD Table V extract; its price and duration are
+  model values on the par curve (ASSUMPTION), not market quotes. IBGA facts (for the note in the .md): net assets
+  $73.7m, 30-day average volume 84,912 shares, 9,537 shares traded on 2026-09-25 (ishares.com, VERIFIED-PRIMARY).
 
 How to run (from the repo root):
     .venv/bin/python research/insight_v1/scripts/S3_allocation_numbers.py
@@ -164,3 +170,96 @@ print(f"\n[sector fallback] equity ${eq:,.0f}: US 62% ${eq * .62:,.0f} in sector
 print("   " + "; ".join(f"{k} ${eq * .62 * v / 100:,.0f}" for k, v in SECT.items()))
 print(f"   commissions: 12 buys x $25 = $300; smallest position ${eq * .62 * .02:,.0f} "
       f"(commission = {25 / (eq * .62 * .02):.1%} of it)")
+
+
+# ---------- 8. If WInS caps any single security at 25% of the portfolio (Stock-Trak default; season value UNKNOWN) ----------
+# Source of the 25% default: Stock-Trak Wharton portal FAQ, quoted in research/insight_v1/phase_A/wins_week1_guardrails.md
+# (VERIFIED-PRIMARY by A4, generic platform page, not season-specific). Reuses S1's holdings-based model.
+def capped_hedge_search(cap_total=25.0, hedge_share=66.0, top=6):
+    import itertools
+    import sys
+    from scipy.optimize import minimize
+    sys.path.insert(0, "research/insight_v1/wins_now")
+    import S1_hedge_weights as s1
+    cap = cap_total / hedge_share                                 # cap as a share of the hedge sleeve
+    pool = ["IEF", "TLH", "TLT", "SPTI", "SPTL", "VGIT", "VGLT", "IEI", "GOVT", "IBTQ", "IBTR", "IBGA"]
+    twists = [k for k in s1.SCEN if "parallel" not in k]
+    res = []
+    for combo in itertools.combinations(pool, 3):
+        D_ = np.array([s1.ISSUER_DUR[n][0] for n in combo])
+        R_ = np.array([[s1.R_S[n][k] for n in combo] for k in twists])
+        dl = np.array([s1.L_S[k] - s1.L0 for k in twists])
+        obj = lambda w: ((s1.L0 * R_ @ w - dl) ** 2).sum()
+        cons = [{"type": "eq", "fun": lambda w: w.sum() - 1}, {"type": "eq", "fun": lambda w, D_=D_: w @ D_ - TARGET}]
+        best = None
+        for x0 in ([1 / 3] * 3, [.3, .35, .35], [.35, .3, .35], [.35, .35, .3]):
+            r = minimize(obj, np.array(x0), bounds=[(0, cap)] * 3, constraints=cons, method="SLSQP")
+            if r.success and abs(r.x.sum() - 1) < 1e-6 and abs(r.x @ D_ - TARGET) < 1e-4 and \
+                    (best is None or r.fun < best.fun):
+                best = r
+        if best is not None:
+            w = dict(zip(combo, best.x))
+            te, twist, par_, fee = s1.summary(w)
+            res.append((twist, par_, fee, w))
+    res.sort(key=lambda x: x[0])
+    print(f"\n[cap {cap_total:.0f}% per security] best 3-fund hedges (each <= {cap:.1%} of a {hedge_share:.0f}% hedge), "
+          f"duration {TARGET}y:")
+    for twist, par_, fee, w in res[:top]:
+        print("   " + " / ".join(f"{n} {v:.1%} (total {v * hedge_share:.1f}%)" for n, v in w.items()) +
+              f": worst twist ${twist:,.0f}, +/-100bp worst ${par_:,.0f}, fee {fee:.3f}%")
+    liquid = [r for r in res if not ({"IBTQ", "IBTR", "IBGA"} & set(r[3]))]
+    print("   best using only large, liquid funds (no iBonds):")
+    for twist, par_, fee, w in liquid[:3]:
+        print("   " + " / ".join(f"{n} {v:.1%} (total {v * hedge_share:.1f}%)" for n, v in w.items()) +
+              f": worst twist ${twist:,.0f}, +/-100bp worst ${par_:,.0f}, fee {fee:.3f}%")
+    # reference: uncapped IEF/TLH and a two-issuer split (half IEF/TLH, half SPTI/SPTL)
+    for label, w in (("uncapped IEF/TLH", s1.two_fund("IEF", "TLH")),
+                     ("half IEF/TLH + half SPTI/SPTL",
+                      {**{k: v / 2 for k, v in s1.two_fund("IEF", "TLH").items()},
+                       **{k: v / 2 for k, v in s1.two_fund("SPTI", "SPTL").items()}})):
+        te, twist, par_, fee = s1.summary(w)
+        print(f"   ref {label}: " + " / ".join(f"{n} {v:.1%} (total {v * hedge_share:.1f}%)" for n, v in w.items())
+              + f": worst twist ${twist:,.0f}, +/-100bp worst ${par_:,.0f}")
+
+
+capped_hedge_search()
+
+
+# ---------- 9. Ready-to-use capped hedge mixes (used in the .md, section D.1b) ----------
+def capped_variants(work_cap=24.0, hedge_share=66.0):
+    """Ready-to-use hedge mixes when a single-security cap of 25% applies. Each capped fund is held at 24% of the
+    total (1-point buffer, ASSUMPTION: the cap is checked at the fill price). Weights solve duration = 9.90 exactly."""
+    import sys
+    sys.path.insert(0, "research/insight_v1/wins_now")
+    import S1_hedge_weights as s1
+    b = work_cap / hedge_share
+    out = []
+    # V1: IEF + TLH at the cap + one U.S. Treasury bond (ASSUMPTION: bonds have their own, higher limit, as in the
+    # 2024-25 Session Rules screenshot quoted by A4). 3.125% bond due 2041-11-15, CUSIP 912810QT8 (S1, MSPD Table V).
+    s1.FUND_CF["UST41"] = s1.cashflows(100.0, 3.125, "2041-11-15")
+    v0 = s1.fund_value("UST41", s1.PAR)
+    d_b = s1.eff_dur(lambda p: s1.fund_value("UST41", p))
+    s1.R_S["UST41"] = {k: s1.fund_value("UST41", s1.shifted(fn)) / v0 - 1 for k, fn in s1.SCEN.items()}
+    a = (d_b * (1 - b) - (TARGET - 11.59 * b)) / (d_b - 6.86)
+    out.append((f"IEF + TLH + UST 3.125% 2041-11-15 (model dur {d_b:.2f}y, model price {v0:.2f})",
+                {"IEF": a, "TLH": b, "UST41": 1 - a - b}, {"IEF": 6.86, "TLH": 11.59, "UST41": d_b}))
+    # V2: ETFs only: IEF and TLH at the cap, the rest SPTL + SPTI solving the duration
+    rest = 1 - 2 * b
+    x = (TARGET - b * (6.86 + 11.59) - rest * 4.78) / (13.65 - 4.78)
+    out.append(("IEF + TLH + SPTL + SPTI (ETFs only)", {"IEF": b, "TLH": b, "SPTL": x, "SPTI": rest - x},
+                {"IEF": 6.86, "TLH": 11.59, "SPTL": 13.65, "SPTI": 4.78}))
+    # V3: TLH missing as well: split each leg across two issuers (SPDR and Vanguard pairs, half each)
+    p1, p2 = s1.two_fund("SPTI", "SPTL"), s1.two_fund("VGIT", "VGLT")
+    out.append(("TLH missing: half SPTI/SPTL + half VGIT/VGLT", {**{k: v / 2 for k, v in p1.items()},
+                                                                  **{k: v / 2 for k, v in p2.items()}},
+                {"SPTI": 4.78, "SPTL": 13.65, "VGIT": 4.9, "VGLT": 13.5}))
+    print(f"\n[cap variants] each capped position held at {work_cap:.0f}% of the total; hedge = {hedge_share:.0f}%:")
+    for label, w, dd in out:
+        te, twist, par_, _ = s1.summary(w)
+        dur = sum(w[k] * dd[k] for k in w)
+        print(f"   {label}: " + " / ".join(f"{k} {v * hedge_share:.1f}%" for k, v in w.items()) +
+              f"; duration {dur:.2f}y; worst 50bp twist ${twist:,.0f}; +/-100bp worst ${par_:,.0f}; "
+              f"largest single position {max(w.values()) * hedge_share:.1f}%")
+
+
+capped_variants()
