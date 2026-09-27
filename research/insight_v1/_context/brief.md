@@ -70,10 +70,16 @@ into new meaning, or polish a quote.
   contain it. Never suggest contacting her. No student personal data (no surnames, emails, birthdays).
 - Identity: her books and public work are about identity, belonging, immigration and community; you may cite these
   themes as her public work. Never use identity as decoration or as a reason to pick investments (tokenism).
-- No ticker selection: this year's approved list, starting cash and WInS rules are UNKNOWN (team confirmed
-  2026-09-27). Speak in instrument types. IEF/TLT appear only as the verified duration data already in the repo.
-  Never recommend a trade not confirmed as permitted; every trade-related item carries "confirm against this year's
-  WInS list/rules before trading".
+- Securities and allocations ARE allowed (team leader, 2026-09-27, superseding the earlier "no tickers" rule): you
+  may recommend specific securities (ETF tickers, Treasury maturities/STRIPS) and portfolio weights, both for the WInS
+  portfolio and for Laura's long-term portfolio. This year's approved list, starting cash and WInS rules are still
+  UNKNOWN; the team will check approval later. So every security recommendation must: (a) carry the label
+  "PENDING APPROVAL CHECK: confirm on this year's WInS approved list/rules before trading"; (b) give a primary pick
+  plus 1-2 alternates of the same instrument type, so a substitute exists if a pick is not approved; (c) say whether
+  it was on the 2025-26 approved list (historical only: competition/historical/2025_26/); (d) cite key facts (expense
+  ratio, duration or maturity, holdings/index, liquidity) from the issuer's primary page with access date; (e) trace
+  to the strategy and to Laura or the case. Prefer low-cost, liquid, broad, transparent funds; no leverage, inverse or
+  thematic bets unless the case clearly justifies them.
 - Write only under `research/insight_v1/` (your assigned path). Do not edit official files, configs, CLAUDE.md,
   src/ or tests/. Do not commit or push (the main loop does that).
 - Plain English for high-school students who want to learn; define each technical term the first time it appears;
