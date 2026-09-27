@@ -83,12 +83,16 @@ infrastructure; willingness vs capacity; human-capital hedge; low-cost transpare
 rejects: facility as a dated liability, income-gap cash buffer, values screens as a decision, residency = home).
 
 # PART 2: MISSION
+NORTH STAR: "Why would Laura choose our firm's strategy over 6,000 others?" Every phase must answer to it. Skill and a
+correct strategy are necessary but not sufficient; the winning strategy also reflects who she is, what she values and
+how she thinks, in ways she would recognise as hers.
+
 Make our strategy one that no judge, no co-sponsor, no statistician and no rival can poke a hole in, and that shows
 an understanding of Laura, of the case designers' intent, and of the 2026 investing world that 99% of teams will
 miss. Surface every anomaly, blind spot and "why is it like this?" question; answer the ones that matter with
 evidence; turn the answers into specific, approved-by-team strategy improvements.
 
-# PART 3: TEAM OF AGENTS (about 45-55 agents; follow this roster)
+# PART 3: TEAM OF AGENTS (about 50-60 agents; follow this roster)
 
 ## Phase A: Foundations (3 agents, parallel)
 - A1 Case Lawyer: extract every requirement, instruction, number, definition and notable word choice from the four
@@ -98,7 +102,7 @@ evidence; turn the answers into specific, approved-by-team strategy improvements
 - A3 Blind-spot Mapper: list stakeholders (Laura, co-sponsors, residency participants, the teacher-PM, judges, rival
   teams, Wharton as organiser) and what each would care about.
 
-## Phase B: Question generation (7 lenses x 2 independent agents = 14; parallel)
+## Phase B: Question generation (8 lenses x 2 independent agents = 16; parallel)
 Each lens gets two agents with different starting angles; each must produce 15-30 questions, each tagged with the
 official requirement or verified fact it anchors to. Use the seed bank in Part 5 but go beyond it.
 - B1 Case Anomalies (every unusual word, number, omission, ordering, design choice in the official documents).
@@ -114,6 +118,11 @@ official requirement or verified fact it anchors to. Use the seed bank in Part 5
   and construction costs; what this means for a 2027-2042 liability).
 - B6 Co-sponsors & Philanthropy (how foundations and co-funders assess a founder's pledge; seed and matching gifts;
   credibility; what a strong pledge range and fundraising paragraph must contain).
+- B8 Voice of Laura (2 agents): collect Laura's OWN words from public sources beyond the case (her website, published
+  interviews, podcasts/talk transcripts, Q&As, Wharton Magazine, Poets&Quants, book pages and her books' public
+  excerpts). For each quote: exact wording, source URL, date, context. Then map quotes to values, to how she makes
+  decisions and handles risk, and to implications for the strategy and for how we communicate with her. Questions to
+  generate: what would she find inauthentic, what would earn her trust, which of her own ideas does our strategy echo.
 - B7 Competition Meta & Judges (what past semifinalists and winners did; judge commentary; what a "typical strong
   team" will submit this year; how deliverable mechanics shape scoring; how to show a 16-year strategy in 6 weeks).
 
@@ -135,6 +144,8 @@ Failed-but-interesting questions go to a Finale Q&A bank. Log counts dropped at 
 - D7 Wharton Intent Historian (client trend, official Wharton framing, past case designs vs this one).
 - D8 Professional-Practice Benchmarker (map our strategy against named industry frameworks, with sources).
 - D9 Communication Analyst (can each idea be said in plain English within 550 words; jargon and overclaim risks).
+- D13 Quote Verifier: checks every Laura quote against its primary source; a quote that cannot be verified verbatim is
+  marked PARAPHRASE/UNVERIFIED and must not be presented as her words.
 - D10 Compliance Officer (AI policy, format rules, eligibility, anything disqualifying).
 - D11-D12 Overflow researchers for heavy topics.
 Every answer: evidence with sources (primary first; snippets labelled UNVERIFIED), Python for numbers, and the
@@ -155,6 +166,7 @@ another round of Phases B-E for that gap. Stop when two consecutive rounds add n
 - No submission-ready prose (no drafted pitch, IPS paragraphs, notes or report text). Produce specifications,
   evidence, numbers and checklists that the team turns into its own writing. Nothing goes to judges without team
   approval.
+- Quotes: exact wording from primary sources only, with URL and date; never invent or polish a quote.
 - Respect privacy: use Laura's public professional record only; no personal-life details; never suggest contacting
   her. No student personal data.
 - No ticker selection (this year's approved list is unknown); instrument types only.
@@ -206,6 +218,11 @@ Competition:
 30. How do we show a 16-year strategy through 6 weeks of trades?
 31. Pre-mortem: why might a strong team with a correct strategy still miss the Top 50?
 
+Laura's voice:
+32. Why would Laura choose our firm over 6,000 others? What would make her feel understood rather than analysed?
+33. Which of her own public statements about risk, failure, belonging, money or success does our strategy embody?
+34. What would she find inauthentic or "finance-bro" in a typical team's pitch?
+
 # PART 6: OUTPUTS (research/insight_v1/)
 1. insights.md: top 15-25 insights ranked by impact: question -> answer -> evidence -> what changes -> deliverable.
 2. anomaly_register.md: every case anomaly, likely purpose, our response.
@@ -217,3 +234,6 @@ Competition:
 8. premortem.md and finale_qa_bank.md.
 9. open_questions.md: what only the team can answer; data still needed; sources blocked.
 10. scripts/: all Python used, runnable.
+11. laura_in_her_own_words.md: verified quotes (exact wording, URL, date, context) -> value -> implication for
+    strategy and communication; unverified paraphrases listed separately.
+12. why_us.md: the answer to the North Star, with the evidence behind each reason.
