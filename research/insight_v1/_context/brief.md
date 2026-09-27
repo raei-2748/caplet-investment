@@ -374,3 +374,9 @@ the operating reserve is funded and changes; how the 2031 co-sponsor range is de
 figures); how the facility contribution and financial flexibility are decided; which "if X then Y" rules apply. Put
 such items under "IPS: rules to fix before Nov 6". Anything purely Final-Report goes to a short "later (after Nov 9)"
 list in open_questions.md, one line each.
+Tightened the same day (team leader): "We only need items for trading notes and IPS." WInS trading is in scope only
+as the source of the Trading Notes (notes must quote executed WInS trades). Every output must say which of the two
+deliverables it serves (TN or IPS); drop anything that serves neither. The two primary outputs of this run are
+`trading_notes_pack.md` (which trades to make and when, what each WInS note and each <=100-word reflection must
+contain, checklists only) and `ips_spec.md` (what the 50-word pitch and the 500-word IPS must contain, the decision
+rules to fix before Nov 6, format compliance) - specifications, never drafted text.
