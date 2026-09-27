@@ -18,6 +18,13 @@ decision, deadline or open item changes, and commit it with the related change. 
 - Repo is public; the team leader accepted putting competition materials in it. Do not commit student personal data
   (surnames, emails, birthdays) or rankings of teammates.
 
+## Mandate (Ray, 2026-09-27)
+The assistant has freedom to make decisions and choose its workflow, sticking tightly to the competition and the
+materials provided, asking when information is needed, with the goal of reaching the semifinals. Everything that is
+sent to the judges must be approved by the team. Assistant outputs are for inspiration and research; the team does
+not submit them as they are. Deliverable help = blueprints (content, arguments, verified numbers, checklists) and
+draft reviews, not submission-ready prose.
+
 ## Team
 Ray (Team Leader), Ahaan, Darren, Harry, Eric, Young (6 students). Roster in `config/team_roster.json`,
 pending Wharton roster confirmation (due Oct 9; members locked after submission).
@@ -79,7 +86,11 @@ first trade by Oct 10 (third-party only).
 - [x] Interview part 2 answered (team deferred; provisional calls recorded above)
 - [ ] Team: assign roles; check SMApply for a trading-rules page, search tickers in WInS, ask advisor/Wharton for list
 - [x] Verified from primary files: Treasury curve, IEF/TLT durations, JPM LTCMA compound basis (2026-09-27)
-- [ ] Re-run the council Monte Carlo with JPM's official compound/vol figures (was run on assumptions)
+- [x] Re-ran strategy simulation on official inputs: `research/verified_2026-09-27/strategy_mc.py` (2026-09-27).
+      Base: Lock-early never misses a payment; 2033 surplus p5/p50/p95 $159k/$207k/$273k; 2031 floor median $165k.
+      Growth-first: 3.2% miss; surplus p5/p50/p95 $20k/$226k/$540k; 13.7% miss if 2028 deposit is $75k, 40.8% if $0.
+      Equity weight 50/60/70% in the sleeve: median $205k/$207k/$209k (barely matters).
+- [x] Trading Notes blueprint drafted: `research/blueprints/01_trading_notes_blueprint.md` (awaiting team approval)
 - [ ] Team reads `01_chair_memo.md` + `round2_referee_ruling.md` (section 4: 12 concepts) and picks the strategy
 - [ ] Final run: decision pack + first-week trade plan + defence Q&A (after the items above)
 - [ ] Code: `report audit-ai` always passes (audits one hard-coded block); built-in $100k/25% sector defaults and the
