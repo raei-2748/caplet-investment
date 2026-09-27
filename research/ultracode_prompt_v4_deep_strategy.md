@@ -1,4 +1,4 @@
-# Ultracode prompt v4: "Leave nothing unconsidered" (for a NEW session; Ray approves before launch)
+# Ultracode prompt v4 (FINAL, locked 2026-09-27): "Leave nothing unconsidered" (for a NEW session; Ray approves before launch)
 
 How to use: start a new Claude Code session on branch `claude/zealous-turing-l19aqc` (or after merging it to main).
 If possible, first allow primary domains in the environment's network settings (home.treasury.gov,
@@ -34,8 +34,9 @@ deliverables. Today is late September 2026; WInS trading started Sept 28.
 - Laura Gao, Wharton 2018 (Statistics & Information Decisions Management), former tech product manager, author of
   "The Wuhan I Know" (2020) and the graphic memoir "Messy Roots"; bestselling author, illustrator, entrepreneur,
   educator. Born in Wuhan, raised in Texas. Quote: "The only person who needs to believe in something is yourself."
-- Framing: we are young analysts at an asset management firm; our portfolio manager (the team's teacher/advisor)
-  makes final investment decisions; we hope to develop "the investment strategy that Laura ultimately chooses".
+- Framing (case fiction): we are young analysts at an asset management firm; our portfolio manager (the team's
+  teacher/advisor) makes final investment decisions; we hope to develop "the investment strategy that Laura ultimately
+  chooses". Real competition rules differ: advisors may NOT make decisions or trade; the students decide.
 - Money in: $300,000 at the start of 2027 (Year 1); $150,000 at the start of 2028 from publishing advances, speaking,
   licensing and other ventures. No other additions or withdrawals before 2033. Living costs are covered outside the
   portfolio. Year number = calendar year - 2026; all flows at the beginning of the year.
@@ -117,7 +118,7 @@ evidence; turn the answers into specific, approved-by-team strategy improvements
 
 ## Phase B: Question generation (8 lenses x 2 independent agents = 16; parallel)
 Each lens gets two agents with different starting angles; each must produce 15-30 questions, each tagged with the
-official requirement or verified fact it anchors to. Use the seed bank in Part 5 but go beyond it.
+official requirement or verified fact it anchors to. Use the seed bank in Part 6 but go beyond it.
 - B1 Case Anomalies (every unusual word, number, omission, ordering, design choice in the official documents).
 - B2 Why Laura / Case-Designer Intent (client history 2021-2027: Jordan, Hjemdahl, Ash, Ayoola, Barwin, Gao; what
   Wharton is testing; what she represents; how it connects to investing).
@@ -132,14 +133,14 @@ official requirement or verified fact it anchors to. Use the seed bank in Part 5
   and construction costs; what this means for a 2027-2042 liability).
 - B6 Co-sponsors & Philanthropy (how foundations and co-funders assess a founder's pledge; seed and matching gifts;
   credibility; what a strong pledge range and fundraising paragraph must contain).
+- B7 Competition Meta & Judges (what past semifinalists and winners did; judge commentary; what a "typical strong
+  team" will submit this year; how deliverable mechanics shape scoring; how to show a 16-year strategy in 6 weeks).
+
 - B8 Voice of Laura (2 agents): collect Laura's OWN words from public sources beyond the case (her website, published
   interviews, podcasts/talk transcripts, Q&As, Wharton Magazine, Poets&Quants, book pages and her books' public
   excerpts). For each quote: exact wording, source URL, date, context. Then map quotes to values, to how she makes
   decisions and handles risk, and to implications for the strategy and for how we communicate with her. Questions to
   generate: what would she find inauthentic, what would earn her trust, which of her own ideas does our strategy echo.
-- B7 Competition Meta & Judges (what past semifinalists and winners did; judge commentary; what a "typical strong
-  team" will submit this year; how deliverable mechanics shape scoring; how to show a 16-year strategy in 6 weeks).
-
 ## Phase C: Filter (code dedupe + 6 skeptic agents in batches)
 A question survives only if it passes all four:
 - So-what: its answer would change a decision, a number, or a sentence in a deliverable (Oct 23, Nov 6, Dec 4).
@@ -160,9 +161,9 @@ Failed-but-interesting questions go to a Finale Q&A bank. Log counts dropped at 
 - D7 Wharton Intent Historian (client trend, official Wharton framing, past case designs vs this one).
 - D8 Professional-Practice Benchmarker (map our strategy against named industry frameworks, with sources).
 - D9 Communication Analyst (can each idea be said in plain English within 550 words; jargon and overclaim risks).
+- D10 Compliance Officer (AI policy, format rules, eligibility, anything disqualifying).
 - D13 Quote Verifier: checks every Laura quote against its primary source; a quote that cannot be verified verbatim is
   marked PARAPHRASE/UNVERIFIED and must not be presented as her words.
-- D10 Compliance Officer (AI policy, format rules, eligibility, anything disqualifying).
 - D11-D12 Overflow researchers for heavy topics.
 Every answer: evidence with sources (primary first; snippets labelled UNVERIFIED), Python for numbers, and the
 concrete implication (decision / number / sentence) and which deliverable it affects.
@@ -189,14 +190,21 @@ another round of Phases B-E for that gap. Stop when two consecutive rounds add n
   her. No student personal data.
 - No ticker selection (this year's approved list is unknown); instrument types only. Never recommend any trade that
   is not confirmed as permitted by this year's WInS rules and approved list.
-- Report blocked sources rather than guessing. Write outputs only under research/insight_v1/; commit and push; update
-  CLAUDE.md with the key results and open items.
+- Report blocked sources rather than guessing. Write outputs only under research/insight_v1/; update CLAUDE.md with
+  the key results and open items.
+- Resilience: after EVERY phase, write that phase's interim results to research/insight_v1/phase_<X>/ and commit and
+  push to branch claude/zealous-turing-l19aqc, so nothing is lost if the run stops.
+- Priority: rank and deliver insights by deadline: first what affects the Trading Notes (Oct 23) and trading in
+  WInS now, then the IPS (Nov 6), then the Final Report (Dec 4).
+- Write every output in plain English for high-school students who want to learn; define any technical term the
+  first time it appears; include the short "what this teaches" note.
 
 # PART 6: SEED QUESTION BANK (start here, go beyond)
 Case design:
 1. "The investment strategy that Laura ultimately chooses": she is comparing firms. What makes her choose us?
 2. Why does the case say the teacher-PM "makes the final investment decisions"? What governance must the IPS set?
-3. Ten x $50k = $500k, equal to last season's WInS starting cash. Coincidence, and does it matter?
+3. Ten x $50k = $500k, equal to last season's WInS starting cash (search-confirmed for 2025-26 only; this season's
+   starting cash UNVERIFIED). Coincidence, and does it matter?
 4. The money arrives Jan 2027 but rates move until then; our cushion is ~0.27%. What is the rule if rates fall first?
 5. "Before making the first operating payment or contributing to the facility": is this ordering the intended
    priority rule (promise first, dream second)?

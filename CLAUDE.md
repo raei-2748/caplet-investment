@@ -103,7 +103,7 @@ first trade by Oct 10 (third-party only).
       Equity weight 50/60/70% in the sleeve: median $205k/$207k/$209k (barely matters).
 - [x] Trading Notes blueprint drafted: `research/blueprints/01_trading_notes_blueprint.md` (awaiting team approval)
 - [ ] Team reads `01_chair_memo.md` + `round2_referee_ruling.md` (section 4: 12 concepts) and picks the strategy
-- [ ] Ultracode run to be launched by Ray in a NEW session with `research/ultracode_prompt_v4_deep_strategy.md` (v4: full context,
+- [ ] Ultracode run to be launched by Ray in a NEW session with `research/ultracode_prompt_v4_deep_strategy.md` (v4 FINAL, locked 2026-09-27: full context,
       fixed agent roster ~45-55 in phases A-F, 31 seed questions; supersedes v3)
       (question engine: case anomalies, why Laura, top-practitioner lens, her world, co-sponsors, judges, contrarian;
       so-what/anchor/adversarial filters; outputs to research/insight_v1/). Start it on this branch; re-paste the
