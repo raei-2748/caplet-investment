@@ -102,7 +102,7 @@ def test_mandate_first_independence_zero_tickers():
         CapletMandate(
             mandate_id="MANDATE-INVALID",
             client_mandate_id="CLI-001",
-            client_name="Elena Foster",
+            client_name="Laura Gao",
             wharton_rules_snapshot_id="WHARTON-2026",
             objective_hierarchy=["Beat inflation by investing in MSFT stock"],
             risk_philosophy="Capital preservation first.",
@@ -252,18 +252,18 @@ def test_human_governance_roster_and_ai_rejection(tmp_path):
     roster = TeamRoster(storage_path=roster_file)
 
     # 1. Valid registered students pass
-    signers = roster.validate_signatures(["Student A", "Student B"], min_signers=2)
+    signers = roster.validate_signatures(["Ray", "Ahaan"], min_signers=2)
     assert len(signers) == 2
 
     # 2. Reject AI agent signatures
     for fake_sig in ["Committee Chair Agent", "AI Assistant", "Valuation Bot", "Model Lead"]:
         with pytest.raises(HumanGovernanceError) as exc:
-            roster.validate_signatures([fake_sig, "Student A"], min_signers=2)
+            roster.validate_signatures([fake_sig, "Ray"], min_signers=2)
         assert "AI agents are forbidden from signing" in str(exc.value)
 
     # 3. Reject duplicate signatures by the same student
     with pytest.raises(HumanGovernanceError) as exc:
-        roster.validate_signatures(["Student A", "Student A"], min_signers=2)
+        roster.validate_signatures(["Ray", "Ray"], min_signers=2)
     assert "Duplicate signature detected" in str(exc.value)
 
     # 4. Strategy approval stores NOT_RECORDED when student discussion omitted
@@ -273,7 +273,7 @@ def test_human_governance_roster_and_ai_rejection(tmp_path):
 
     decision = engine.approve_strategy(
         strategy_id="STRAT-A-QUALITY-MOAT",
-        student_signatures=["Student A", "Student B"],
+        student_signatures=["Ray", "Ahaan"],
         student_rationale="Authentic student rationale for choosing quality moats.",
         discussion_notes=None,  # Omitted notes
     )
@@ -311,7 +311,7 @@ def test_proposition_level_evidence_verification():
                 locator="Item 8 - Financial Statements, Consolidated Income Statement, Page 62",
                 verbatim_quote="Total revenue: $245,123 million",
                 support_type=SourceSupportType.DIRECT_SUPPORT,
-                verified_by="Student Analyst Lead",
+                verified_by="Ahaan",
             )
         ],
         as_of_date="2026-09-19",
@@ -354,7 +354,7 @@ def test_decision_journal_hash_chaining_and_tamper_detection(tmp_path):
         participants=["Lead PM", "Risk Lead"],
         student_discussion="Discussed Quality Moats vs Macro Regime.",
         final_student_decision="Pursue Quality Moats.",
-        reasoning="Matches Elena's endowment horizon.",
+        reasoning="Matches Laura's operating commitment.",
     )
     engine.add_event(evt1)
 
@@ -411,7 +411,7 @@ def test_ai_authorship_firewall_and_non_washable_lineage():
         section_id="intro",
         origin=ContentOrigin.AI,
         authorship_type=AuthorshipType.HUMAN_AUTHORED,
-        author_identity="Student A",
+        author_identity="Ray",
         content_text="Student claims this is pure human work, but origin was AI.",
     )
     with pytest.raises(AIAuthorshipViolationError) as exc2:
@@ -428,7 +428,7 @@ def test_ai_authorship_firewall_and_non_washable_lineage():
         content_text="Original AI concept.",
         has_mandatory_disclosure=True,
     )
-    legit_block.record_human_edit("Student A", "Rewrote thesis in student voice.")
+    legit_block.record_human_edit("Ray", "Rewrote thesis in student voice.")
     assert legit_block.origin == ContentOrigin.AI
     assert legit_block.last_editor == EditorIdentity.HUMAN
     assert legit_block.authorship_type == AuthorshipType.HUMAN_EDITED

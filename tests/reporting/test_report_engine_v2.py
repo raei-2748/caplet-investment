@@ -20,7 +20,7 @@ def test_29_final_report_compiler_rejects_unlabeled_ai_prose(tmp_path):
             block_id="B-01",
             section_id="intro",
             authorship_type=AuthorshipType.HUMAN_AUTHORED,
-            author_identity="Student A",
+            author_identity="Ray",
             content_text="Team Caplet approaches this mandate with disciplined fiduciary care."
         ),
         ContentBlock(
