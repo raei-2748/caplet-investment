@@ -608,3 +608,44 @@ Script: `research/insight_v1/scripts/D6_behavioural_numbers.py`.
   bought floor supports, say how sure you are on both sides, and name the model.
 - **Evidence can be contested.** The famous "1.2% a year behaviour gap" has a serious 2026 rebuttal. Use rules
   because they are cheap insurance, not because a disputed number says they pay.
+
+---
+
+## Audit corrections (AY1)
+
+Auditor AY1 (cluster auditor: client psychology and co-sponsors), 2026-09-28. The text above is left unchanged; where
+it conflicts with these corrections, the corrections win. Full audit: `research/insight_v1/phase_D/audit_client_cosponsors.md`.
+Check script: `research/insight_v1/scripts/AY1_audit_checks.py` (reuses this file's engine and random stream).
+
+**Reproduction.** `D6_behavioural_numbers.py` re-run 2026-09-28: every quoted number reproduces (base $159k/$207k/$273k;
+the case B design table; every rule pick on the 10-point grid; 27% / 62% / -$3k / -$21k / 14% / -$9k / 10% / 50%; 40% and
+5.4% for growth-first; the M197 ratios and dollar states; the case word counts, re-checked by grep on the case text).
+**Sources re-opened 2026-09-28** (fetch helper, `--grep` found verbatim unless stated): CFA Institute 2020 risk
+profiling (both reconciliation rules; "Risk-taking ability sets an upper volatility bound"; "measured by evaluating an
+investor's past decisions and actions"); CFA 2010 IPS paper ("account for known liabilities..."); Weber, Blais & Betz
+("highly domain-specific"); Tenney, Spellman & MacCoun 2008 (found; the second sentence missed the grep only because
+the PDF writes "justiﬁed" with a ligature); Du et al. 2011 (both phrases); van der Bles et al. 2020; Thaler & Johnson
+1990 (both phrases); Benartzi & Thaler w4369 (both phrases); Morningstar Mind the Gap 2025 (7.0% vs 8.2%, 1.2 points,
+"nearly 97%"); FAJ 2026 ("0.10% per year"); the 2022-24 criterion "would win him/her over as a client" (Wharton WordPress
+REST, page modified 2024-06-03) and the 2026-27 "earn her confidence" (SMApply page L51). All VERIFIED-PRIMARY or
+VERIFIED-REPO-FILE. Yaniv & Foster 1995 (image-only scan) was not re-checked.
+
+| # | Severity | Issue | Correction |
+|---|---|---|---|
+| C1 | important | **"The rule picks 60% ... does not change with heavier-tailed returns" is a 10-point-grid artefact** (finding 3, s2.3, s4). On a 5-point grid (AY1 [3], [3b]) the same rule picks: 60% (JPM, 4% bonds); **65%** (JPM, 5% bonds, this file's own case B); 55% (Vanguard midpoint); 65% / 70% with fat tails (A / B); 55-60% with a 0.5% yearly fee; 50-55% with 1.0%. D6's own fat-tail line shows 70% at 4.9% (under 5%) in case B, so "pick unchanged at 60%" is wrong there. Also, a Student-t with the *same variance* makes the 5% tail lighter, so it is not a stress test. | Say: "the rule gives about 55-70% depending on the return, bond and fee assumptions; 60% sits inside that band, and so does D2's 50% under cautious inputs." The rule gives a checkable *reason* for a choice in the 50-70% band; it does not "confirm" 60%. IPS: state the rule and "about 60%" (or the team's pick), never a decimal. Historical crash sequences (D3) are the real stress test. |
+| C2 | important | **Hedge-note trait row overclaims (s1.1 table; tier 1, notes are permanent).** (a) "sizes to a specific promise (~$292k)": under option (ii) the WInS hedge is $198,000 (66% of $300,000, the ladder's ~65% share of both deposits scaled; AY1 [5]); only under (iii) is the order about $292k-294k. (b) "so the residency's operating money stops depending on markets": the funds never mature and move about 10% per 1-point rate change; the ticket already bans "match" and "stable". | (a) Say the hedge is set to the payments' rate sensitivity (about 10 years) and, under (ii), scaled to the share of the post-2028 portfolio the ladder takes; put the ~$292k in the reflection as the real-plan cost. (b) Replace with "moves with the value of her payments when rates change". |
+| C3 | important | **Internal inconsistency with M018 and the D13 rule.** s1.2 says career risk-taking does not transfer to investment risk ("highly domain-specific"), then says of her regret line: "That is the reason the growth money holds real stock". Using her career-regret words as the reason for equity is the same domain transfer, and D13 bans writing her "investment philosophy" (brief s16). | The reason for holding stock is the case ("appropriate balance between pursuing growth and protecting the capital") plus the CFA risk-profile rules and the stated share rule. Regret research (Richardson & Gilovich) is context only. Brief s16 treats her regret line as a *tension the plan must answer* (why equity is only ~0-2% in 2027, ~20% in 2028-30, ~4% after the 2031 floor), not as a justification. |
+| C4 | important | **IPS spec gaps** (s2.2 pitch spec, s2.1 risk passage). Pitch item 1 "the ten payments are bought in 2027, before any risk is taken" holds only if the ladder costs no more than $300k in January 2027 (it cost more on 173 of 185 trading days of 2026, brief s14; modelled ~24%, ASSUMPTION). The risk passage omits brief s16's second certainty gap. | Pitch/IPS spec item 1: "bought in January 2027; if prices have risen, the rest is completed from the 2028 deposit before any growth money is invested" (D8 rule 1, D12 rule 2). Add risk-passage item 7: "certain" means nominal US$; a fixed $50k buys less each year in Taiwan (named, not solved). Add item 8 (parked M033): state the whole-portfolio stock share by stage, not only the growth money's. |
+| C5 | important | **M197 width guidance assumes all unlocked money is promised (s = 1).** "Keep the lock share at 70-90%; below 70% the range tops 1.5x; behavioural evidence ... argues against anything below 70%" conflicts with D5's candidate a = 0.7, s = 0.5. | Width ≈ 1 + s(1 - a)/a x 1.21 at a p90 top (AY1 [2]). D5's (0.7, 0.5) gives 1.26x, narrower than this file's 80% base (1.30x). Restate the criterion as the width itself (about 1.3x or less) or the promised-but-at-risk share s(1 - a) (about 0.20 or less), not the lock share. The evidence cannot choose between D5's (0.7, 0.5) and (0.8, 1.0). |
+| C6 | important | **Scope (brief s17, 2026-09-28).** s3.1 (M197 numbers, dollar states, bar chart), the FR bad-year illustration (s2.1), the FR design-table chart (s2.3) and "the FR could open from the 2031 conversation" (s2.2) are Final Report material. | Move to the "later (after Nov 9)" list. Keep for the IPS: the per-goal risk passage (with C4), the share rule (with C1), and the range METHOD (bottom = bought amount; top = a stated percentile given 2031 holdings; two-sided confidence, model named). |
+| C7 | minor | **VGSH trait row** ("money that can later become an amount she can state to co-sponsors because it is already owned"). | Keep the ticket's "could later become *part of* a promised amount" (AX2 D2-C6): in the plan the 2031 amount is bought from the whole growth money, stocks included. Never "the floor". D12's role word "risk management" (the Guide's word, checkable with a number) is compatible; the echoed case trait fits "flexibility as the project develops" better than "credibility". Team chooses and records it. |
+| C8 | minor | **"Risk need nil"** (finding 1, s2.1 table). | Add "at today's prices": if the January 2027 price is above $300k, the gap is a *funding* need met by the 2028 deposit, not a reason to take market risk. The conclusion (no market risk on the promise) stands. |
+| C9 | minor | **"Report '10 of 10 payments covered' first"** (bad-year table). | True only once the ladder is complete, which may be January 2028 (C4). Real-portfolio reporting is Final Report material. |
+| C10 | minor | **Applicability labels.** Tenney et al. study eyewitness credibility (a car-accident scenario); Du et al. study investors reading earnings forecasts. | Label their use for arts co-sponsors INT (the file already flags Du et al.). |
+| C11 | minor | **Top percentile differs from D5** (p90 here, 85% in D5). | One percentile in the IPS method (see D5 C10). |
+
+**Status after audit.** Finding 1 (per-goal risk profile via the CFA framework) stands and is the strongest IPS
+contribution in the cluster. Finding 2 stands (word counts and criterion change re-verified) with C4. Finding 3 is
+downgraded from "confirms 60%" to "gives a stated reason for a 50-70% choice" (C1). Finding 4's numbers reproduce; its
+pre-commitments stand. Finding 5 stands, with C3. Finding 6 stands, with C2 and C7. Finding 7 is parked to the later
+list, and its lock-share guidance is restated (C5, C6).

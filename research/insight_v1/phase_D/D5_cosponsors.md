@@ -328,3 +328,42 @@ what is shared (half of the growth beyond it) and what is kept (the other half),
 itself: it can only miss upward. The same two numbers answer three case requirements at once: a credible range,
 favourable and unfavourable outcomes, and preserved flexibility. And the reader decides what a number means: a funder
 counts only money promised without conditions, so the plan should lead with exactly that.
+
+---
+
+## Audit corrections (AY1)
+
+Auditor AY1 (cluster auditor: client psychology and co-sponsors), 2026-09-28. The text above is left unchanged; where
+it conflicts with these corrections, the corrections win. Full audit: `research/insight_v1/phase_D/audit_client_cosponsors.md`.
+Check script: `research/insight_v1/scripts/AY1_audit_checks.py` (reuses this file's engine and random stream).
+
+**Reproduction.** `D5_range_and_flexibility.py` re-run 2026-09-28: every number in sections 0-4 reproduces exactly
+(floor $127k/$165k/$217k and surplus $159k/$207k/$273k reconcile with F-401/F-402; the (a, s) table; $118k-$147k and
+$178k-$223k; 50% / 10%; P(above top) 15%, excess $2k/$8k; NT$4.59m/4.30m/4.90m; 7.2/11.0/14.9%), except C4.
+**Sources re-opened 2026-09-28** (fetch helper, `--grep` found verbatim): Kresge guide ("Written pledges or cash", "All
+pledges must be paid within five years", "committed, imminent or backstopped", "plan for sustaining support"); FASB ASU
+2018-08 ("barriers to entitlement are overcome"; 958-605-55-51 "did not receive a promise to give"); Rondeau & List ("an
+unconditional commitment by a donor"; abstract sentence); Huck & Rasul abstract; PKF 2019 ("how the grantee would
+respond to any unexpected revenue shortfalls or cost overruns"); Brunel 2012 ("reserve 10 percent of their total
+wealth"; "opportunistic goals"); Das et al. 2018 Table 1 (Wants/Fears 80-85, Needs/Nightmares 90-95). All
+VERIFIED-PRIMARY. Case lines R-C34, R-C58, R-C61, R-C66-R-C70 and IPS guide p.2 L68-77, VERIFIED-REPO-FILE.
+
+| # | Severity | Issue | Correction |
+|---|---|---|---|
+| C1 | important | **Scope (brief s17, 2026-09-28, written after this file).** Sections 2-4 are Final Report material; the fundraising-excerpt checklist (section 4, M094) is named as out of scope ("fundraising excerpt drafts or checklists"). | Keep for the IPS only the METHOD, as "IPS: rules to fix before Nov 6": (1) in 2031 buy a share a of the growth money as a Treasury note maturing before the 2033 contribution; that bought amount is the bottom of the range; (2) in 2033 the gift = the bought amount + a share s of what the rest has become, uncapped; the other (1 - s) stays uncommitted for the project; (3) the top = the bought amount + s x a stated percentile of the rest; confidence stated on both sides with the model named; (4) the operating payments are never touched. Move to the "later (after Nov 9)" list, one line each: the excerpt checklist (section 4), the NT$ reference, the "likely figure" presentation, the p5/p50/p95 visual, the midpoint point, Kresge's pledge window. |
+| C2 | important | **Withdrawn: "Kresge's own word 'backstopped' describes Laura's floor exactly" (s2 implication).** Kresge's glossary: "Backstopping–Formal use of specific alternative resources to cover anticipated government funds, planned gifts or long-term financing. These alternative resources often are organizational money, which will be replaced once the expected funding is available." The "committed, imminent or backstopped" sentence applies only to "long-term financing, government funds (if a substantial amount), organizational funds or bequests", not to individual pledges (VERIFIED-PRIMARY, re-read). | Laura's floor is her own asset behind her own expected gift, not a backstop of someone else's funding. Drop the clause. Finding 3 should say: Kresge counts "Written pledges or cash" from individuals; it wants *certain other source types* (financing, government, organizational funds, bequests) committed, imminent or backstopped. |
+| C3 | important | **"Guarantee" overclaim** (finding 3 "The floor is a guarantee, not a forecast"; s2 "bottom guaranteed"; s3/s4 "never below it"). The floor is not a legal guarantee: she cannot transfer it before 2033 (R-C34), and the case says she will "describe how much she expects to contribute" (case L110, VERIFIED-REPO-FILE). By the FASB logic this file cites (958-605-55-51, an "intention to give" is not a promise to give), a co-sponsor could book even the floor only if Laura states it as a written, unconditional pledge, which is her legal and communication choice (out of scope). | Use "bought, not forecast", always with "in US$, barring a U.S. Treasury default". Downgrade "a professional co-funder counts only the bought floor as money" from a finding to INT: "funders count unconditional written pledges; the bought floor is the only part Laura *could* state that way". |
+| C4 | minor | **Arithmetic.** "between $168k and $184k in 98% of them (p1-p95)": p1 to p95 spans 94% of paths by definition. | AY1 check [1]: 94.4% of paths fall in $168k-$184k; p1/p99 = $167.8k/$187.6k. Say "about 94% (p1-p95)" or "98% (p1-p99, $168k-$188k)". |
+| C5 | important | **Cross-file contradiction with D6 on the lock share, resolved.** D5 proposes a = 0.7; D6 says the behavioural evidence "supports 80-90% and argues against anything below 70%". D6's widths assume s = 1 (all unlocked money promised). The width depends on both: top / bottom ≈ 1 + s(1 - a)/a x 1.21 (q = 90%; AY1 check [2]). | D5's (a 0.7, s 0.5) gives 1.25-1.26x, narrower than D6's own base (a 0.8, s 1.0) at 1.29-1.30x. The comparable quantity is the share of the growth money that is promised but still at market risk in 2031, s(1 - a): 0.15 (D5) vs 0.20 (D6 base) vs 0.30 (a 0.7, s 1.0). D5's rule passes D6's width test. Present one team choice: "how much of the promised gift is still at market risk in 2031", not the lock share alone. (AX2's D4 C2 threshold of "70% locked" was also computed with s = 1.) |
+| C6 | minor | **The range is lopsided by design** (worth knowing before choosing wording). The lower half of US$144k-US$180k is reached only if the unlocked money loses about 36% in two years (AY1 [1]); the lowest ~65% of the width (floor to p1) is reached in under 1% of modelled paths. A reader who anchors on the midpoint is misled, and D6's evidence (Du et al.: "as precise as warranted") pulls the other way. | Not a rule change. For the IPS method, name the bottom as "the amount already bought", never as a low-case forecast. The "likely figure" vs a narrower stressed bottom is a Final-Report presentation choice (later list). |
+| C7 | minor | **Model input.** The floor assumes the 2031 two-year rate equals today's 4.81% (ASSUMPTION). | At 3.0% the floor is 3.4% lower; at 6.0% it is 2.3% higher (AY1 [4]). Small; another reason the IPS states the method and no dollar floor. |
+| C8 | minor | **Tautology presented as evidence** (finding 4). "A floor copied from today's median is missed in 50% of paths" and "the p10-p90 bottom is missed in 10%" are true by the definition of a median and a percentile. | Keep the conclusion (the range must be a 2031 rule); label the two numbers "by definition", not as findings. |
+| C9 | minor | **Precision** (finding 8). 7.2/11.0/14.9% are cost *increases*; the pledge's buying power falls 6.7/9.9/13.0%. The index is in NT$, so US$ buying power also moves with USD/TWD. | Correct the wording if used; this is Final-Report material (later list). |
+| C10 | minor | **Harmonise the top percentile.** D5 uses q = 85% ("about 1 in 7 above the top"); D6 uses p90 ("about 9 in 10"); D8 rule 3 says "the top = [stated percentile] of the rest", which omits the give-back share s. | Pick one percentile for the IPS method. D8 rule 3 should read "top = bought amount + [share] x [stated percentile] of the rest" so that it matches D8 rule 4 and this file (flagged to the main loop; D8 not edited). |
+
+**Status after audit.** Finding 1 (hidden contradiction between "promise the upside" and "keep flexibility") stands:
+it is the most useful new result in the cluster. Findings 2 and 5 reproduce (5 stands). Finding 3: direction stands
+("lead with what is bought"); the Kresge "backstopped" link is withdrawn and the "counts" claim is INT (C2, C3).
+Finding 4 stands with C8. Finding 6 is parked to the later list (C1). Finding 7 stands and is the part that goes
+forward. Finding 8 stands (Brunel is not a benchmark). Candidate a = 0.7 / s = 0.5 survives as a team choice and is
+compatible with D6 once the width is measured by s(1 - a) (C5).

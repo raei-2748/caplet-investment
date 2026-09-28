@@ -355,3 +355,111 @@ text.
    possible.
 3. **Waiting is a forecast.** Buying in stages or on a trigger feels careful, but with a fixed promise it only adds a
    chance of falling short, for almost no expected gain.
+
+---
+
+## Audit corrections (AX1b)
+
+Auditor AX1b (rates cluster), 2026-09-28. The D1 text above is unchanged. Full audit: `research/insight_v1/phase_D/audit_rates_D1.md`.
+New check script: `.venv/bin/python research/insight_v1/scripts/AX1b_rates_audit.py`.
+**Reproduced:** both D1 scripts re-run and every number quoted above matches the output, except items 12-14 below. The
+2026 curve snapshot is byte-identical to a fresh treasury.gov download (2026-09-28). Every quote was re-checked with the
+fetch helper and found verbatim.
+**Verdict: sound direction, pass with corrections.** Buy at once, longest-dated payments first, finish the ladder before
+any growth money, and the conditional one-rung WInS order all survive. Nothing is blocking. Items 1-9 must be fixed
+before this reaches the strategy team.
+
+**Important**
+1. **The gap odds are understated for the real ladder** (summary 1, M004 [6]). 24.3% belongs to the idealised
+   exact-date ladder. The real Nov-15 ladder has 30.5% on D1's inputs, and 30-35% across reasonable inputs:
+   - 2026 volatility windows of 7.2-7.8%;
+   - an "unchanged curve" drift, which adds ~$1.0k to the January cost (+3.4 points).
+
+   Model-free check: the 10-year yield fell by 19bp or more over 68 trading days in 32-36% of windows (FRED DGS10 since
+   1962 and since 1990; DERIVED, audit script [B]-[C]). Say "about 1 in 3" for the real ladder. Use "1 in 4" only for
+   the exact-date ideal.
+2. **"P(gap > one whole payment) = 0.01%" and rule 5's "at most part of the first payment" are thin-tail overclaims.**
+   - Since 1990 the 10-year fell by 148bp or more over 68 trading days in 0.1% of windows (all in late 2008). Since
+     1962 it was 1.5%.
+   - It fell by 100bp or more in 2.1% of windows since 1990 (the model says 0.4%), including 2008 and 2020.
+   - A repeat of the worst 3-month fall since 1990 (-167bp, Sep-Dec 2008) leaves all of the 2033 payment and ~16% of
+     2034 waiting, which is $48.6k (32%) of the 2028 deposit (DERIVED).
+   - Fix: drop "0.01%" and "at most". State the 2026-worst figure as one day's figure, not a ceiling. Note that a $75k
+     deposit still covers the 2008-size case.
+3. **"Fully funded … 1 January 2028 at the latest" (M004 rule 4) overclaims.** It contradicts D1's own rule 3 (a late
+   deposit or one paid in instalments) and the joint tail. Use "when the second deposit arrives (the case dates it to
+   the start of 2028)".
+4. **Guide p.5 is misapplied** (summary 2, rule 1). This is the same error AX2 found in D2 (C3). "Should not be
+   rewritten simply because markets move" (Guide L156-157) sits in the post-IPS evaluation stage. A staging or trigger
+   rule written into the IPS in advance would not breach it. The case against staging rests only on the numbers, so
+   remove "matches Guide p.5" and "the Guide says".
+5. **The 2019 Stock-Trak list says nothing about 2032-2035 maturities** (summary 6, M044 one-sentence answer).
+   - No nominal Treasury maturing between Feb 2031 and Feb 2036 existed when that list was built. The 30-year bond was
+     suspended from Feb 2002 to Feb 2006 (Wikipedia, SNIPPET-UNVERIFIED), and the list itself jumps from 15-Feb-2031 to
+     15-Feb-2036.
+   - All 29 securities maturing 2032-2035 in S1's MSPD file are notes (VRF). They were issued from 2022 on
+     (INTERPRETATION from the coupon and maturity pattern).
+   - Nothing on the list was issued after Feb 2014, so the list is stale.
+   - Fix: delete "suggests the 2032-2035 notes may be missing". The logged-in drop-down check stays tier 1.
+6. **The IBTM fallback makes one TN checklist line false.** "Held to maturity, so later price moves do not change the
+   $50,000 it repays" does not hold for IBTM. iShares: the funds "do not seek to return any predetermined amount" and
+   move to cash near termination (VP, ishares.com/us/products/328944, read 2026-09-28). If tier 3 is used, the note may
+   say only "a fund that ends in December 2032". Notes are permanent.
+7. **Third-note conflict with D12 and D10.** D1 makes the rung a "strong candidate to replace the VGSH buy". D12 gives
+   VGSH the only "risk management" role word, so the three notes carry three distinct roles, and D10 lists note variety
+   as a TN factor. Under (ii) the rung would be a second "future funding" note. Under (iii) there is no VGSH buy, so the
+   rung is the natural extra note. Make the recommendation conditional on (ii) or (iii). The team decides.
+8. **Rung rationale.** "The reason is the evidence it gives" reads as a trade made to show something. The ticket forbids
+   that ("Do not create a decision just to get a note") and R-W88 discourages turnover. State the reason as
+   implementation: the promise is dated, so where WInS lists a dated Treasury near a payment date, the book holds one,
+   as the real ladder does. The evidence it gives is a by-product.
+9. **The rung under a position cap below 44% is not computed.** `D1_wins_rung.py` solves only the no-cap case, but the
+   ticket's gate (e) needs the branch picked in advance. A 2032 rung raises the long-fund need (TLH 68.3% under (iii)).
+   Rule: if the cap is under 44%, buy the rung only if it is the 2039/2040 bond and the re-solve needs no new fund.
+   Otherwise skip it. Re-run before the session.
+
+**Minor**
+10. The Stock-Trak page lists **72** Treasuries, not 32. Only 32 of them are still outstanding on 2026-09-28 (VP,
+    re-read). Two symbols are mistyped: `B-T-4.375-15052014` is the 15-May-2041 bond and `B-T-5.25-15022028` is the
+    15-Nov-2028 bond. Search the drop-down by maturity, not by a built-up symbol. The linked page also says "There are
+    no volume limit rules on Bonds" and "You can only use market orders" (VP; generic, UNVERIFIED for WInS). Add both to
+    the gate check. Its "We only have US bonds" contradicts SMApply's six-country list, which confirms the page is out
+    of date.
+11. **Staging "+0.2 points"** comes from the zero-drift assumption (Jensen's inequality). Suppose instead the curve stays
+    where it is and the waiting cash earns bill rates. Then staging *lowers* expected funding: tranches -0.21 points,
+    trigger -0.35. P(under 1.00) rises to 34-35%, with p5 0.959/0.897 (audit [D]). Say "no reliable gain (+0.2 to -0.5
+    points) and a 27-35% chance of needing the 2028 deposit". The conclusion gets stronger.
+12. Worst 2026 day: **68.7%** of the 2033 payment waits, not ~71%. The 2033 rung costs $40,210 on the Feb-27 curve
+    (audit [A]).
+13. Coupon vs zero should compare prices on the same date. The STRIP 912821KC8 is ~$36.8k on 2026-09-25 against the note
+    at ~$48.4k. $37,253 is its 1 Jan 2027 forward value (audit [F]).
+14. Accrued interest on $50k face is **$768-824** for settlement from 29 Sep to 9 Oct 2026, not "$750-800" (audit [G]).
+    WInS shows its own figure.
+15. **The -421bp break-even is false precision.** At that shift the 1-month yield would be -0.17%. Say "a fall of more
+    than 4 percentage points, the size of the largest 3-month fall on record (-410bp, Jul-Oct 1982)".
+16. "Re-solve with `D1_wins_rung.py` on the trade date" does nothing as written. The script's curve and durations are
+    fixed at 2026-09-25 (via `S1_hedge_weights.py`). Either update S1's inputs first, or use the hand formula with
+    issuer durations on the trade date: IEF share of hedge = ((1-r)·D_TLH + r·D_rung - D_target)/(D_TLH - D_IEF).
+17. **"The IPS bans detailed calculations" overstates.** IPS guide L51 says "Focus on … rather than … presenting
+    detailed financial calculations". The explicit ban (L123) covers graphics, charts, images, attachments, links,
+    footnotes and formal citations. "In words" is still the right advice.
+18. "No probabilities in a note" is D1's own judgement, not an official rule. Label it as such.
+19. **Near-final wording.** Summary 1's quoted headline, rule 5's quoted "content" and the pitch phrase are close to
+    paste-ready. Turn them into lists of required elements. "Bought first, with her own two deposits" is also wrong in
+    the ~2 in 3 paths where the first deposit alone buys the ladder. The element that holds in every path is "payments
+    bought before any money takes stock-market risk".
+20. **"Is it hers?"** The "finished or not" line is about posting art (D13 context rule). Drop the link to it; the rule
+    stands on its numbers.
+21. **Finding 7 (PDF creation date) is unearned.** The 19bp headroom and 176/185 days already show the fit is
+    knife-edge. Remove it from the top-findings list; one line in the body at most.
+22. **Wording.** "Today the real ladder costs $294,387" should read "costs $294,387 for purchase on 1 Jan 2027, priced
+    from the 25 Sep curve". "What this teaches" #2 says $300k "bought" the ladder on 9 of 185 days; say it "would have
+    covered the January cost implied by that day's curve".
+23. **Addition (supports D1): longest-first also leaves less of the promise unfunded if the deposit never comes.**
+    - At -100bp: $31.4k (2033) versus $47.7k (2042) under nearest-first. At -50bp: $12.0k versus $19.0k (audit [E]).
+    - Counterpoint for the team to weigh: under longest-first, any shortfall falls on the residency's first operating
+      year.
+24. **Cross-link (supports D1 under option (iii)).** AX2 flagged as blocking (D10 C1) that under option (iii) with no cap
+    there are only two orders, while Oct 23 needs three executed trades. If WInS lists a suitable bond, the rung is a
+    genuine third trade with a strategy reason, instead of or alongside AX2's BIL/SGOV leftover trade. This fits
+    item 7: under (iii) the rung matters most.
