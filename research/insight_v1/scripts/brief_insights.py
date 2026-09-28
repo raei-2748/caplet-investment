@@ -1,186 +1,147 @@
-"""Plain-English insight text for the client report (build_client_brief.py).
+"""Plain-English insight sections for the client report (Phases 1, 4, 5 and the open decisions).
 
-Distilled from the phase A, C, D and E files of the insight_v1 run (numbers exactly as there; E6_final_spec.md and
-audit corrections win where files differ; "model" = a computer estimate, not a forecast).
+Distilled on 2026-09-28 from phase_A, phase_C, phase_D (specialists and audits), phase_E (red teams, final spec) and
+open_questions.md. The final spec (phase_E/E6_final_spec.md) and the audit corrections win over earlier figures.
+"Model" marks a computer estimate, not a forecast. Background points about Laura come from her checked public
+professional record only; none is for quoting in the IPS or the Trading Notes.
 """
 
 
-def ul(items):
-    return "<ul>" + "".join(f"<li>{i}</li>" for i in items) + "</ul>"
+def sections(hbars, bullets):
+    B = bullets
 
+    phase1_extra = f"""
+<h2>Traps hidden in the case</h2>
+{B(["$450,000 goes in and $500,000 is promised, yet the ten payments cost only about $294,000 today: the difference is interest.",
+    "\"High degree of certainty\" is never defined. We define it by price: bought, not forecast.",
+    "The reserve is \"set aside\" in 2033, when the first payment is due; buying it in 2027 is safer.",
+    "No currency is named, though the residency is in Taiwan. The rules effectively ban currency contracts, so there is no hedge.",
+    "The story's advisor \"decides\"; the real rules forbid it. All decisions are the students'."])}"""
 
-def block(title, items):
-    return f"<h2>{title}</h2>" + ul(items)
+    rates = ("Phase 4 · Research: interest rates and the first purchase", f"""
+<p>Twelve specialists answered the 48 questions, and five auditors re-ran their numbers. The first question was the
+most urgent: what if the ten bonds cost more than $300,000 when the money arrives?</p>
+<h2>How much money would be missing in January 2027 if rates fall first</h2>
+{hbars([("Rates fall 0.5 percentage points", 9169, False, "$9,169"), ("Rates fall 1 point", 24793, False, "$24,793"),
+        ("Repeat of 2026's worst day", 27631, False, "$27,631"), ("Repeat of late 2008", 48600, False, "about $48,600")],
+       55000, label_w=250, bar_w=380)}
+<p class="cap">Model estimates. In every case the $150,000 deposit in 2028 covers the gap; about $51,000 covers the
+worst three-month fall since 1990.</p>
+{B(["<b>Buy everything on arrival.</b> Waiting for better prices, or buying in stages, gives no reliable gain and a 27-35% chance of needing the 2028 deposit (model).",
+    "<b>If short, buy the latest payments first.</b> After a 1-point fall with no second deposit, $31,400 would be unfunded, against $47,700 the other way round. The cost: part of the first year waits for the 2028 deposit.",
+    "<b>Never promise \"at most\".</b> A repeat of late 2008 would need a third of the second deposit. The honest wording is \"when the second deposit arrives\".",
+    "<b>The one stress case we name:</b> if rates fall and the second deposit never comes, $11,957 (0.5-point fall) or $31,413 (1-point fall) of the 2033 payment is unfunded.",
+    "<b>Useless alarms are dropped.</b> A \"below fully funded\" warning can never fire once all payments are bought; the right check is simply \"is every payment bought?\""])}""")
 
+    stocks = ("Phase 4 · Research: stocks and our computer model", f"""
+<h2>Stocks: worth owning, but only with money nobody relies on</h2>
+{B(["<b>The hurdle is not zero.</b> Government bonds for her 2028-2033 dates earn about 5.2% a year, so stocks must beat that to be worth their risk.",
+    "<b>The extra reward is small and uncertain:</b> JPMorgan expects stocks to beat bonds by 1.5-1.8 points a year; Vanguard by about zero; all sources range from -1.2 to +2.4 points.",
+    "<b>Prices look high on past profits but normal on next year's</b>, because 2026 profits are expected to jump about 32%, led by AI chips. The plan must work either way.",
+    "<b>A world fund spreads the AI bet.</b> Its ten largest companies are 21.7% of it, against 38.8% for the main U.S. index. It still owns Asian chipmakers, so we never claim it removes AI risk."])}
+<h2>Share of the fund in its ten largest companies</h2>
+{hbars([("World stock fund (our choice)", 21.7, True, "21.7%"), ("Main U.S. index (S&amp;P 500)", 38.8, False, "38.8%")],
+       45, label_w=250, bar_w=380)}
+<h2>What the model taught us</h2>
+{B(["<b>Payments are never short if the 2028 deposit arrives</b>, even if it is only $75,000 or a year late (model).",
+    "<b>The biggest drivers of the building money</b> are the size of the second deposit (a $75,000 deposit cuts the typical result by $98,000), fees (1% on everything costs about $32,000) and which forecaster is right (Vanguard's view: -$6,000).",
+    "<b>Buying only part of the payments</b> never fails if the deposit arrives, but fails in 13-26% of futures without it. Buying all ten costs just $900-5,200 of typical building money.",
+    "<b>The model has too few crashes</b> (big falls in 0.3% of years versus 3.1% in history), so we always show real history beside it. In history replays, the payments stayed secure every time."])}""")
 
-PHASE1_EXTRA = block("Surprises and traps in the case", [
-    "Laura puts in $450,000 and must pay out $500,000, yet the ten payments cost only about $294,000 today, because bonds earn interest until each payment is due.",
-    "\"A high degree of certainty\" is never defined. We define it by price: the payments are bought, not forecast.",
-    "The reserve is \"set aside\" in 2033, the day the first payment is due. We explain why we buy it in 2027.",
-    "No currency is named, although the residency is in Taiwan. The rules on permitted investments apply to both deposits, so we read them as ruling out currency contracts.",
-    "The case says she \"will\" add $150,000. Testing a missing deposit is our own stress test, and we label it that way.",
-    "In the story an advisor \"decides\"; the real rules say advisors may not make decisions. Every choice is the students'.",
-    "Gains in the trading game never count toward Laura's money, and trade notes can never be edited.",
-    "There is no approved fund list this year, so the platform may accept trades the rules ban. Older rules found online (a sector minimum, other cash amounts) are wrong.",
-    "Wharton's sample trading note will be widely copied. Ours must carry facts only Laura's plan has.",
-]) + block("People we might forget", [
-    "The residency's staff live on fixed $50,000 payments that buy less each year and stop after 2042.",
-    "Taiwanese partners think in Taiwan dollars, and \"dollar\" is ambiguous in Taiwan, so we always write \"U.S. dollars\".",
-    "Book advances come in instalments, so the 2028 deposit could be late, not only smaller. The plan's rules handle both.",
-    "Laura's credibility is part of her income. A missed public number would hurt her twice.",
-    "Funders dislike paying running costs. Because operations are already funded, partners' money can go to the building.",
-    "After 2033 she may earn less while running the residency: another reason to keep some money back.",
-])
+    taiwan = ("Phase 4 · Research: Taiwan, currency and the competition rules", f"""
+<h2>What a fixed $50,000 is worth in today's money</h2>
+{hbars([("Today", 50000, False, "$50,000"), ("2033 payment", 42063, True, "$42,063"), ("2042 payment", 33681, True, "$33,681")],
+       55000, label_w=250, bar_w=380)}
+<p class="cap">At 2.5% a year inflation. The payments are certain in U.S. dollars, but they buy less each year; we name this gap once.</p>
+{B(["<b>Building costs in Taiwan</b> are expected, not certain, to rise about 2-3.5% a year, so a fixed U.S. dollar buys roughly 12-20% less building by 2033. The +6.53% jump of 2026 is named but not projected forward.",
+    "<b>The exchange rate</b> is about 31.82 Taiwan dollars per U.S. dollar (18 September 2026). Any Taiwan-dollar figure is dated and illustrative; U.S. dollars are what we commit to.",
+    "<b>No currency hedge.</b> A contract to swap later is a derivative, banned in the competition, and would cost about 5.9% today.",
+    "<b>Natural cushions:</b> the Taiwan dollar tends to weaken when U.S. stocks fall, which helps a U.S.-dollar gift. The 1995-96 crisis moved it at most 4.4%. A war threatens the project, not the payments."])}
+<h2>The competition's rules, in practice</h2>
+{B(["<b>Format mistakes mean exclusion.</b> At the required double spacing, 550 words nearly fill two pages, so we plan for at most 470 words plus a 48-word pitch.",
+    "<b>Notes are permanent</b> and may be cut at 300 characters. Test the box safely first. Never use \"guaranteed\", \"risk-free\", \"safe\", \"match\" or Laura quotes.",
+    "<b>The advisor handles administration only.</b> Written rules decide; rules change only if Laura's circumstances change, never because markets move.",
+    "<b>Trading basics:</b> no same-day buying and selling, orders fill at the next open, keep at least $1,000 in cash, and only students place trades."])}""")
 
-PHASE4_BODY = """<p>Twelve specialists answered the 48 questions, and five auditors re-ran the maths and re-opened the sources.
-Here is everything they found, in plain words.</p>""" + "".join([
-    block("Interest rates and the January 2027 purchase", [
-        "The ten bonds cost about $294,387 at 25 September prices, $5,613 under $300,000. A fall in interest rates of just 0.19 percentage points would use up that cushion; the model puts the chance at about 1 in 3.",
-        "Buy all ten as soon as the money arrives and keep any leftover in short-term government bills. Waiting for better prices or buying in stages gives no reliable gain and a 27-35% chance (model) of needing the 2028 deposit.",
-        "If money is short, buy the latest payments first. After a one-point rate fall with no second deposit, $31,400 would be missing instead of $47,700. The cost: the first operating year is the one that waits.",
-        "How big the gap could get (model): $9,169 after a half-point fall, $24,793 after a one-point fall, $27,631 on 2026's worst day. A repeat of late 2008's sharp fall would need $48,600, a third of the second deposit, so we never promise an \"at most\" figure.",
-        "The 2028 deposit finishes the payments before anything else. About $43,000 of it covers a 1.5-point fall, and $51,000 the worst three-month fall since 1990.",
-        "Considered and rejected: a \"funding below 100%\" alarm. It can never go off once every payment is bought; the right question is simply \"is every payment bought?\"",
-    ]),
-    block("Stocks and AI", [
-        "Stocks must beat about 5.2% a year, what U.S. government bonds pay for Laura's 2028-2033 dates, not zero.",
-        "Forecasters disagree about how much extra stocks will earn: JPMorgan about 1.5 to 1.8 points a year above bonds, Vanguard about zero, all sources between -1.2 and +2.4. Stocks are there for upside, not to meet the goals.",
-        "U.S. shares look very expensive against ten years of average profits (second only to December 1999) but normal against next year's expected profits, because profits are expected to rise 32%, led by AI chips. The plan must work either way.",
-        "The world stock fund's ten biggest holdings (21.7%, all AI-linked) are far less concentrated than the S&amp;P 500's (38.8%), but it still owns Asian AI chipmakers. We never claim it \"halves AI exposure\", and we use no Taiwan, AI or theme funds.",
-        "Moving the growth money between 50% and 60% in stocks barely changes the typical result (-$1,500 to +$400). The final plan simply puts all spare money in one world stock fund.",
-    ]),
-    block("The computer model and stress tests", [
-        "If the 2028 deposit arrives, even at $75,000 or a year late, the payments are never short (model). The biggest swings come from that deposit ($75,000 instead of $150,000 cuts the typical result by $98,000), from fees, and from which forecaster you believe (Vanguard's view: -$6,000).",
-        "Fees matter: a 0.5% yearly fee on the growth money wipes out most of what stocks add. So all costs come only from the stock fund.",
-        "The model has too few crashes (big falls in 0.3% of years, against 3.1% in reality), so we always show real history beside it. Replaying past crashes: before the floor is bought, building money falls 19-48%; after, only about 4-6%. The payments stay bought.",
-        "Buying only 80-90% of the payments fails in 13-26% of futures if the second deposit never comes. Buying all ten costs just $900 to $5,200 of typical building money. Full certainty is cheap.",
-        "The \"safe floor in 2028, rest in stocks\" design beat locking growth in 2031 on bad cases, at the same stock risk, so it became the final plan.",
-        "Considered and rejected: locking 80-90% in 2031 and giving \"90%, capped\" (it announced about $17,000 less than was owned); a model-based \"80% confident\" range (right only 62-93% of the time); locking the floor in three steps (a $2,000-6,000 gain, not worth a second rule).",
-    ]),
-    block("Taiwan, currency and building costs", [
-        "Building costs in Taiwan are expected to rise about 2-3.5% a year, so each U.S. dollar buys roughly 12-20% less building by 2033. 2026's +6.53% jump is a spike to mention, not the trend.",
-        "\"Certain\" means certain in U.S. dollars. At 2.5% inflation, $50,000 is worth $42,063 in 2033 and $33,681 in 2042 in today's money. We name this gap once.",
-        "Any Taiwan-dollar figure is an illustration only (NT$31.82 per U.S. dollar on 18 September 2026). By 2031 the exchange rate could move about 11-13% either way.",
-        "No currency conversion or hedge before the building decision: a currency contract is a banned derivative, and it would cost about 5.9% now.",
-        "Cushions: the Taiwan dollar tends to weaken when U.S. stocks fall, which helps; the 1995-96 missile crisis moved it by at most 4.4%. War is outside all the data. It would threaten the project, not the bought payments.",
-    ]),
-    block("Who Laura is", [
-        "She holds two attitudes to risk: leaps whose cost she carries herself are fine, but letting down the people who backed her is worse. So money others rely on takes no risk. (Her public phrases are background for the team only, not text for the IPS or notes.)",
-        "Bold in her career does not mean bold with investments. We never use her career story as a reason to own stocks, and since she has made no public statement about investing, we never describe her \"investment philosophy\".",
-        "She has taught financial literacy to teenagers and interned in trading and in consumer protection. Expect plain words and named costs: she dislikes a show-off finance tone, not finance.",
-        "Her public projects put access first and grew once the community backed them. \"Operations first, partners invited later\" fits her.",
-        "She would welcome: purpose first, costs and gaps named, discarded drafts shown, rounded numbers, and what is secured (\"10 of 10 years funded\") before any dollar amounts.",
-        "She would reject on sight: the case's pull quote presented as hers; puns on her book titles; her identity or Taiwan as a reason for a holding; false precision; hidden costs; one-sided risk stories; wrong facts about her work.",
-        "Dropped: \"floor first, then leap\" as a trait of hers. It came from a reporter's sentence, not her own words.",
-    ]),
-    block("Co-sponsors and the 2031 range", [
-        "Funders count only unconditional pledges and cash. So Laura leads with what is bought: in U.S. dollars, not forecast, barring a U.S. government default. Never \"guaranteed\": she only \"expects\" to give more.",
-        "Confidence both ways: below the bottom only if the U.S. government defaults; the top is reached if stocks are no lower two years later (true in 84% of U.S. two-year periods since 1928; 73% in the model).",
-        "Words: \"owned\", \"expected if stocks hold their value\", \"kept\". Never \"promised\". Strong markets add to the money she keeps, not to the gift, though she may still choose to give more.",
-        "Flexibility needs a rule, not leftovers. Keeping half the fund gives about $32,000 in the typical case, roughly three to four years of Taiwan building-cost rises.",
-        "Considered and rejected: a model-based top with no cap; converting to Taiwan dollars early; a \"10% of wealth\" rule of thumb; giving three-quarters or all of the fund.",
-    ]),
-    block("Behaviour and risk, goal by goal", [
-        "Judge risk one goal at a time, not as \"moderate\" overall. The payments need no risk and can bear none. The stock fund can bear losses: her living costs are covered elsewhere and nothing is withdrawn before 2033.",
-        "Her ability to take risk is lowest before the 2028 deposit, which depends on her career, and the plan holds no stocks then.",
-        "The payments need only about 1.05% a year to be met. More stocks would add about $11,000-14,000 in the typical case but cost $41,000-56,000 in a bad case (model).",
-        "The stock fund falls in about a quarter of years (model). In the worst tenth of 2031-32 outcomes, the typical gift is still about $169,000, and never below the floor.",
-        "Decide in advance: never sell stocks to protect a gain or to \"wait for a recovery\". Rules change only when her circumstances change, never because markets move.",
-        "Her big bets are already her career and books, so the portfolio holds only broad funds, and the money she keeps sits in short-term government bills.",
-    ]),
-    block("What the judges and the case designers test", [
-        "The three written deliverables are judged together, the notes are quoted exactly, and the game's ranking counts for little.",
-        "This year's case is about certainty and credibility: \"certainty\" appears 4 times, \"credible\" or \"credibility\" 3 times, \"growth\" once. None of the five \"must\" tests mentions growth.",
-        "Creativity means fit to Laura, not clever investments. Rivals using AI may reach the same design, so our edge is Laura-specific reasons and real evidence of the team's own process.",
-        "Simplicity wins: a past semifinal judge praised \"simple, elegant ideas\", and the 2022-23 champions said \"less is more\".",
-        "\"Supported, tested or refined\" is a menu, not a quota. A note may say \"refined\" only if the team's log shows the change was decided before the trade.",
-        "The strategy freezes on 6 November, so every rule must be fixed by then. Changes based on research before that date are fine.",
-        "Breaking the format rules means exclusion, so the IPS stays well inside its limits. The working checklists hold the details.",
-    ]),
-    block("What professional investors do", [
-        "Pension funds \"lock down the benefits promised, then grow surplus assets\". Our design is standard professional practice.",
-        "Professional policy statements fix rules for market turmoil in advance, and can even state a policy of not rebalancing. Ours never rebalances.",
-        "The competition points to a professional code: know the client, follow the stated rules, disclose fees plainly, keep records.",
-        "A typical adviser charges about 1% a year. Charging costs only to the stock fund costs about $3,000 (typical); charging them on everything, about $31,000 (model).",
-        "Returns are stated as a range from two published forecasters, never as a target.",
-        "Considered and rejected: inflation-linked U.S. bonds (they track U.S. prices, not Taiwan's), and buying only part of the payments.",
-    ]),
-    block("How to talk about the plan", [
-        "Central idea: a split of jobs. Money others rely on is bought when it arrives; money nobody relies on is fully in world stocks.",
-        "Pitch: purpose first; each deposit buys a promise; she tells partners only what she owns. No numbers, and never \"bought in January 2027\", which fails in about 1 case in 3.",
-        "One word per job: \"certainty\" for the payments, \"confident\" for the range, \"credibility\" for her standing. Avoid \"guaranteed\", \"risk-free\", \"100%\", jargon, return targets and \"innovative\".",
-        "Name the two gaps plainly (the January price, and what fixed dollars buy in Taiwan) and keep risk talk to about 15% of the words.",
-        "In the trading game, funds never mature, so say \"moves like\" or \"stands in for\", never \"matched\" or \"locked\". Measured against fixed payments, cash is actually the riskier choice: a 0.1-point rate move changes the payments' value by about $2,900.",
-        "Name three trade-offs as \"gives up X to get Y\", and test the text on six outside readers, three with a finance background and three without.",
-    ]),
-    block("What the auditors corrected", [
-        "The chance that the bonds cost more than $300,000 is about 1 in 3, not 1 in 4.",
-        "\"At most\" promises and a \"0.01% chance\" were dropped: the model's 1-in-10,000 event actually happened in 2008.",
-        "About $26,000, not $25,000, covers a one-point rate fall.",
-        "The back-up fund for the building floor repays no fixed amount, so we never say it \"repays $150,000\".",
-        "Building costs are \"expected\", not \"certain\", to rise; one +8.1% figure was construction wages only.",
-        "JPMorgan's bond assumption is 0.5 to 1 point out of date, so results are shown with Vanguard's view too.",
-    ]),
-])
+    client = ("Phase 4 · Research: Laura, her partners and her attitude to risk", f"""
+<h2>What we learned about Laura</h2>
+{B(["In her public interviews she separates two kinds of risk: leaps whose cost she carries herself are fine, but letting down early supporters is worse. So money other people rely on takes no risk.",
+    "Being bold in a career does not predict being bold with investments. We never use her career story as a reason to own stocks.",
+    "She has taught financial literacy and expects plain words and clearly stated costs. She would reject a show-off tone, hidden fees, false precision and one-sided risk stories.",
+    "Her public projects put access first and grew once a community backed them. \"Operations first, partners invited later\" fits how she works.",
+    "We found no public statement of hers about investing, so we never describe her \"investment philosophy\".",
+    "A popular reading, that she only leaps once a floor is secured, comes from a reporter, not from her. We dropped it."])}
+<h2>What her partners will look for</h2>
+{B(["Funders count only money that is actually committed, so we lead with what is bought, in U.S. dollars.",
+    "Three words, one meaning each: <i>owned</i> (the floor), <i>expected if stocks hold their value</i> (the top), <i>kept</i> (her flexibility). Never \"promised\".",
+    "Because her operations are fully funded, partners' money can go to the building, which funders prefer to running costs."])}
+<h2>Risk, one goal at a time</h2>
+{B(["The payments need no risk and can bear none. The stock fund can bear losses: her living costs are covered elsewhere and nothing is withdrawn before 2033.",
+    "Her ability to take risk is lowest before the 2028 deposit, which depends on her career. The plan holds no stocks until then.",
+    "Rules decided in advance: never sell stocks to protect a gain or to \"wait for a recovery\". The stock fund falls in about a quarter of years (model); even in the worst tenth of outcomes the gift stays near $169,000."])}""")
 
-PHASE4 = [("Phase 4 · Research: what the specialists found", PHASE4_BODY)]
+    craft = ("Phase 4 · Research: what judges look for and how to say it", f"""
+<h2>What the judges and the case are really testing</h2>
+{B(["The case's words have shifted toward certainty and credibility: \"certainty\" appears 4 times, \"credible/credibility\" 3 times, \"growth\" once.",
+    "Creativity means fit to Laura, not clever investments. Rivals using AI may reach a similar design, so our edge is reasons that are true only of her, plus real evidence of our process.",
+    "Simplicity wins. A past judge praised \"simple, elegant ideas\"; past champions said \"less is more\".",
+    "All three deliverables are judged together and notes are quoted exactly, so the notes must never contradict the IPS."])}
+<h2>What professional investors do</h2>
+{B(["Pension funds \"lock down the benefits promised, then grow surplus assets\". Our design is standard professional practice, applied to one person.",
+    "Professional policies set rules for bad markets in advance, each with a trigger, an action and a record, and may choose never to rebalance, as we do.",
+    "A typical adviser charges about 1% a year. Charging costs only to the stock fund costs Laura about $3,000; charging them on everything, about $31,000 (model)."])}
+<h2>How to say it</h2>
+{B(["<b>The central idea is a split of jobs:</b> money others rely on is bought when it arrives; money nobody relies on is fully invested in world stocks.",
+    "<b>The pitch:</b> purpose first; each deposit buys a promise; she tells partners only what she owns. No numbers, no dates that could turn out wrong.",
+    "<b>Name trade-offs plainly</b> as \"gives up X to get Y\", and keep talk of risk to about 15% of the words.",
+    "<b>Test it on people:</b> six outside readers restate the plan in their own words; anything two or more misread gets rewritten."])}""")
 
-_JUDGE_ROWS = [("Investment strategy", 7), ("Client knowledge", 7), ("Portfolio analysis", 7),
-               ("Articulation", 5), ("Creativity and presentation", 6)]
+    judge = ("Phase 5 · Stress tests: the judge and \"Laura\"", f"""
+<p>Four teams were asked to attack the draft plan. Their findings changed the final design.</p>
+<h2>The judge's scores for the draft plan (out of 10)</h2>
+{hbars([("Investment strategy", 7, False, "7"), ("Client knowledge", 7, False, "7"), ("Portfolio analysis", 7, False, "7"),
+        ("Articulation", 5, True, "5"), ("Creativity and presentation", 6, False, "6")], 10, label_w=250, bar_w=380, h_row=28)}
+<p class="cap">32 of 50: "Top-50 substance, not yet Top-50 presentation". The ten fixes it proposed lift this to about 38.</p>
+{B(["<b>Too dense:</b> about 55 ideas in 550 words. Now at most 12 ideas in 10 short blocks.",
+    "<b>The pitch led with a rule, not a purpose</b>, and skipped the residency. Now: purpose first, \"each dollar has one job\".",
+    "<b>The best story was unused:</b> we dropped the 75%-stock plan after testing showed missed payments. One reflection now tells it."])}
+<h2>\"Laura\" (a simulation based on her public words)</h2>
+{B(["<b>Would likely choose us:</b> once bought, the payments stop depending on markets or her future earnings; the 2031 figure never needs taking back; gaps are named; she keeps her own two decisions.",
+    "<b>Would push back on:</b> rules before purpose, \"promised\" for money still at risk, unstated fees, and labels such as \"loss tolerance\". All fixed.",
+    "<b>Felt it was timid.</b> Our answer: the payments cost about 98% of her first deposit, so the caution is arithmetic, not a judgement of her. Stocks are there for a bigger gift and more flexibility in good markets.",
+    "<b>Her likely questions:</b> which residency year waits if bond prices rise (2033); what she pays; what stays hers; whether a crash changes the plan (no)."])}""")
 
+    rival = ("Phase 5 · Stress tests: the rival and the pre-mortem", f"""
+<h2>The rival team's best attack, and what we did</h2>
+<p>A rival strategist proposed buying the $150,000 building floor in 2028 instead of locking stocks in 2031. It was
+better: the floor is fixed three years earlier ($150,000, against $134,000 in a bad case or $93,000 after a 1929-style
+crash), and the worst historical result improves from $120,000 to $169,000. <b>We adopted it.</b></p>
+{B(["What we accept in return: a smaller typical gift ($174,000 against about $186,000-188,000) and a lower best case.",
+    "Where the old design still wins: if a crash fully recovers before 2031, as in 1973-78. It remains the documented alternative for the team's vote.",
+    "The rival's own figures for falling rates were wrong and were corrected before use."])}
+<h2>The pre-mortem: imagine we failed, then ask why</h2>
+<table><tr><th style="width:38%">How we could fail</th><th>Prevention</th></tr>
+<tr><td>The team does not own the plan</td><td>Each student writes 3-5 lines in their own words, with no AI open, before each vote; two-minute explain-backs.</td></tr>
+<tr><td>A format breach (fatal)</td><td>Letter size, Word "Double" spacing, at most 470 + 48 words counted twice, PDF checked; freeze 3 November.</td></tr>
+<tr><td>Too many ideas</td><td>At most 12 ideas; six outside readers restate it.</td></tr>
+<tr><td>AI wording in permanent notes</td><td>Draft offline; search every five-word phrase against the research folder; keep a dated AI-use log.</td></tr>
+<tr><td>Notes contradict the IPS</td><td>One vocabulary and one set of labels, fixed before the first note.</td></tr>
+<tr><td>Missed deadlines</td><td>Roles set now, submit a day early (22 October, 5 November), watch exam clashes.</td></tr>
+<tr><td>Breaking a trading rule</td><td>No same-day selling, no tidy-up trades, check the holding limit first.</td></tr></table>""")
 
-def _judge_chart():
-    out = []
-    for i, (lab, v) in enumerate(_JUDGE_ROWS):
-        y = 6 + i * 30
-        w = v / 10 * 400
-        out.append(f'<text x="238" y="{y + 15}" class="n" text-anchor="end">{lab}</text>')
-        out.append(f'<rect x="250" y="{y + 3}" width="400" height="16" fill="none" stroke="#e2e2e2"/>')
-        out.append(f'<rect x="250" y="{y + 3}" width="{w:.0f}" height="16" fill="#c4c4c4"/>')
-        out.append(f'<text x="660" y="{y + 15}" class="b">{v} / 10</text>')
-    return f'<svg viewBox="0 0 800 {12 + len(_JUDGE_ROWS) * 30}" class="fig">{"".join(out)}</svg>'
+    decisions = """
+<p>These choices belong to the team. For each, we give our recommendation.</p>
+<table><tr><th style="width:40%">Decision</th><th>Our recommendation</th></tr>
+<tr><td>Secure all ten payments first?</td><td>Yes. Each student writes why, in their own words, before the vote.</td></tr>
+<tr><td>Building floor in 2028, or lock growth in 2031?</td><td>2028. Choose the design all six students can explain in two minutes.</td></tr>
+<tr><td>What the trading game shows</td><td>Laura's plan in January 2028, scaled to $300,000; switch to her 2027 portfolio only if outside readers are twice confused.</td></tr>
+<tr><td>How much of the stock fund is given in 2033</td><td>Half. The kept half is about three to four years of Taiwan building-cost rises.</td></tr>
+<tr><td>More stocks, given "too cautious" feedback?</td><td>No by default. If yes, a smaller floor ($100,000-134,000), and state what certainty costs.</td></tr>
+<tr><td>Roles</td><td>Every student owns a note or reflection and a block of the IPS; one trader plus a backup.</td></tr>
+<tr><td>Keep the research folder public until 4 December?</td><td>The team leader decides and records the copying risk.</td></tr></table>
+<h2>Checks still needed on the trading platform</h2>
+<ul><li>Screenshot the session rules: holding limit, trades allowed, fees. If the limit is under about 17%, pause and ask Wharton.</li>
+<li>Confirm each fund and a Treasury maturing in the second half of 2032 is listed; check any activity minimum.</li>
+<li>Test the note box length without saving; record the exact username for the title page.</li></ul>"""
 
-
-PHASE5_BODY = f"""<p>Four teams read the draft plan and tried to break it. Everything they found was either fixed or
-answered in the final plan.</p>
-<h2>A Wharton judge</h2>
-{_judge_chart()}
-<p class="cap">The judge's scores for the earlier draft: 32 of 50. With ten fixes, about 38 of 50. The Top 50 is roughly
-the top 2% of finishing teams.</p>""" + ul([
-    "Too dense: about 55 ideas in 550 words. Fixed: about 12 ideas in 10 short blocks, on four dates.",
-    "The pitch opened with a ban on stocks that the trading game breaks on day one, and it skipped the residency. Fixed: purpose first, and \"each dollar has one job\".",
-    "A bond expert's red pen: short bonds used for dated money, no reason given for buying the latest payments first, and a withdrawn number. All fixed.",
-    "Six named risks read as defensive. Fixed: two gaps plus a U.S. default, named once.",
-    "The best story was unused: \"we tested a 75%-stock plan and dropped it\" (it missed payments in about 3% of model futures, and about 40% without the 2028 deposit). It is now one of the trading notes.",
-]) + block("\"Laura\" (a simulation grounded in the case and her checked public words)", [
-    "Would likely choose us: once bought, the payments stop depending on markets or her future earnings; the 2031 figure never needs taking back; gaps are named; she keeps her own decisions; no identity-based holdings.",
-    "Pushed back on: codes and bans before purpose, \"promised\" for money still at risk, unstated fees, and personality labels. All fixed.",
-    "Found it timid. Fixed by explaining (the payments cost about 98% of her first deposit), not by adding stock, and by saying what stocks are for: a bigger gift and flexibility in good markets. A fall costs only the extra.",
-    "The questions she would ask: which year waits if 2027 prices are high (2033); what she pays; what stays hers; whether a crash changes the plan (no).",
-]) + block("A rival team's best strategist", [
-    "The attack: \"Buy a bond in January 2028 that repays the full $150,000 by 2033, put the rest in one world stock fund, and trade nothing in 2031.\" We adopted it.",
-    "Why it is better: the lowest number she announces is fixed three years early ($150,000, against $134,000 in a bad case, or $93,000 after a 1929-style crash, for the old design); the worst six-year stretch leaves $169,000 against $120,000; the typical result is the same.",
-    "What we accept in return: a typical gift of $174,000 instead of about $186,000-188,000; a best case $16,000 lower; strong markets grow her kept money rather than the gift.",
-    "Where the old design still wins: if a crash recovers before 2031, as in 1973-78.",
-]) + block("Pre-mortem: imagine we failed. Why?", [
-    "The likeliest failure is ownership, presentation and process, not the strategy.",
-    "The team does not own the plan: each student writes their own reasons, without AI, before every vote; devil's-advocate pairs; two-minute explain-backs.",
-    "A format breach, which is fatal: strict limits, finish early, check the final PDF.",
-    "Too dense: about 12 ideas, tested on six outside readers.",
-    "AI wording in permanent notes: draft offline, check for copied phrases, keep a dated log of AI use.",
-    "Process: roles agreed now, deadlines two days early, weekly check-ins. School holidays and exams (13 October to 5 November) may clash.",
-    "Cheap but fatal: submit a day early (22 October, 5 November); roster in by 7 October; no contact with the client; no paid help; all six members involved.",
-])
-
-PHASE5 = [("Phase 5 · Stress tests: four teams tried to break the plan", PHASE5_BODY)]
-
-OPEN_DECISIONS = """<p>The team decides every one of these. Our recommendation is shown for each.</p>
-<table><tr><th style="width:36%">Decision</th><th>Our recommendation</th></tr>
-<tr><td>Buy all ten payments first?</td><td>Yes. Each student writes why, in their own words, before the vote, and the vote is recorded.</td></tr>
-<tr><td>Floor bought in 2028, or growth locked in 2031?</td><td>2028. Choose the design all six students can explain in two minutes.</td></tr>
-<tr><td>What the trading game shows</td><td>Laura's plan in January 2028, scaled to $300,000. If outside readers think her real 2027 money holds stocks, show her first-year portfolio instead.</td></tr>
-<tr><td>Share of the stock fund given to the building</td><td>Half. The half she keeps is about three years of Taiwan building-cost rises.</td></tr>
-<tr><td>More stock, since reviewers found the plan cautious?</td><td>No, by default. If wanted, a smaller floor (about $100,000-134,000) is the option. Either way, state what certainty costs.</td></tr>
-<tr><td>Labels and roles</td><td>The team's own labels, identical everywhere, before the first note. Every student owns a note or reflection and a part of the IPS.</td></tr>
-<tr><td>Keep the repository public until 4 December?</td><td>The team leader decides by 2 October, weighing the risk of copying.</td></tr>
-<tr><td>Checks on the trading platform</td><td>Record the holding limit, confirm each fund is listed, test the note box without saving, and check for any minimum-activity rule. Never add trades just to reach a count.</td></tr></table>"""
+    return phase1_extra, [rates, stocks, taiwan, client, craft], [judge, rival], decisions
