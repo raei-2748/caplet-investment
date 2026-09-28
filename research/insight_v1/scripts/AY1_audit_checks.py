@@ -1,6 +1,6 @@
 """AY1 (cluster auditor: client psychology and co-sponsors) - checks behind the corrections to D5, D6 and D12.
 
-How to run (repo root):  .venv/bin/python research/insight_v1/scripts/AY1_audit_checks.py   (about 10 seconds)
+How to run (repo root):  .venv/bin/python research/insight_v1/scripts/AY1_audit_checks.py   (a few seconds)
 
 It re-uses the specialists' own engines (same random stream, same inputs), so every difference from their files is a
 difference in what is computed, not in the simulation:

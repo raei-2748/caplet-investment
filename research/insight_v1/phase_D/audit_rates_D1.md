@@ -25,7 +25,7 @@ says.
 
 ## Verdict (short)
 
-**D1 passes with corrections: 0 blocking, 9 important, 14 minor, plus 1 addition and 1 cross-link.**
+**D1 passes with corrections: 0 blocking, 9 important, 13 minor, plus 1 addition and 1 cross-link.**
 
 What holds:
 - Both scripts reproduce exactly.
@@ -76,7 +76,7 @@ normalisation it is **byte-identical** to `scripts/data/D3/treasury_par_2026_raw
 | 11 | Guide p.5 "should not be rewritten simply because markets move" | `2026_WGY_Investment_Competition_Guide.txt` L154-159 | VRF. The line sits in the post-IPS "evaluation and reflection" stage (important item 4) |
 | 12 | IPS guide: "Focus on … rather than … detailed financial calculations" | `2026_WGY_Investment_Policy-FINAL.txt` L51; the explicit ban is at L123 | VRF. It is a focus instruction, not a ban (minor item 17) |
 | 13 | CUSIPs 91282CFV8 → 912821KC8; 912810QD3 → 912803DJ9; 912810QL5 → 912803DP5 | `wins_now/S1_mspd_table5_2026-08-31_fixed_2032plus.csv` | VRF (MSPD, per S1). Only $26.1m of the 2032 note is stripped |
-| 14 | Laura quotes B8b-Q31 ("finished or not") and B8b-Q18 ("unstable income") | `D13a_laura_quotes_verified.md` rows 100 and 127 | VRF, VERIFIED-PRIMARY there. D1 keeps both out of TN/IPS (correct) |
+| 14 | Laura quotes B8b-Q31 ("finished or not") and B8b-Q18 ("unstable income") | `D13a_laura_quotes_verified.md` lines 100 and 127 | VRF, VERIFIED-PRIMARY there. D1 keeps both out of TN/IPS (correct) |
 | 15 | Moody's cut the U.S. to Aa1 on 2025-05-16 | Wikipedia (secondary) | Found. The status stays SNIP, as D1 labels it |
 | 16 | (AX1b) The 30-year bond was suspended from 2002-02-18 to 2006-02-09 | https://en.wikipedia.org/wiki/United_States_Treasury_security | Found verbatim; secondary, so SNIP. The Stock-Trak list's own jump from Feb-2031 to Feb-2036 agrees |
 

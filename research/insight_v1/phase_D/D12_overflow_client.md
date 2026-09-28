@@ -323,3 +323,46 @@ Six people are enough to find the big misunderstandings, and the fixes matter mo
    different words. Sorting them shows where the plan still needs a rule.
 4. **Test understanding, not approval.** People say "clear" to be polite. Asking them to repeat the idea in their own
    words shows what they actually took away.
+
+---
+
+## Audit corrections (AY1)
+
+Auditor AY1 (cluster auditor: client psychology and co-sponsors), 2026-09-28. The text above is left unchanged; where
+it conflicts with these corrections, the corrections win. Full audit: `research/insight_v1/phase_D/audit_client_cosponsors.md`.
+Check script: `research/insight_v1/scripts/AY1_audit_checks.py`.
+
+**Reproduction.** `D12_note_roles.py`, `D12_evidence_grades.py` and `D12_reader_test.py` re-run 2026-09-28: every number
+reproduces (59 words / 413 characters, 27%, 43 words; -6.9/-11.6/-1.9/-10.2%; -$20,312 / -$29,108; 12.4%; 19 and 15
+weekdays; 6/5/3 of 14; 67/84/89/96%; 98/89, 89/60, 74/34, 47/11%). The detection figures were also recomputed by hand
+(binomial).
+**Sources re-opened 2026-09-28** (fetch helper, `--grep` found verbatim unless stated): HowTheMarketWorks ("we allow up
+to 300 characters"); Stock-Trak 2017 blog ("cannot edit or delete", "can add more notes to the same trade"; it also
+says professors can make notes "Required"; no length limit stated); Stock-Trak FAQ "What are Trading Notes?" (no limit
+stated); 2026-27 WInS User Guide ("Enter a T rade Note (these are important!) ..." found with a PDF kerning space, on PDF
+page 10; no character limit anywhere in the guide); digital.gov paraphrase testing (all four phrases); Nielsen 2000
+("31%"; both group recommendations); lauragao.com/rewriting-herstory ("The [unfinished] results are below.", "Match
+Quality"; recount 6 Good / 5 Unsure / 3 Bad). Guide L84-86, TN guide L1-5 and L44, R-W20/R-W21, VERIFIED-REPO-FILE.
+
+| # | Severity | Issue | Correction |
+|---|---|---|---|
+| C1 | important | **The 4-element note spec drops two things the official Guide says a note should capture** (M247 "Specification (TN)"). Guide L84-86: the note "should capture the reasoning behind the decision, including its alignment with your strategy, the supporting research or analysis, and its expected role in growth, liquidity, risk management, or future funding" (VERIFIED-REPO-FILE). D12's four elements (action and type; role word; Laura's need; risk or rule) omit "supporting research or analysis" and treat alignment only through "the rule". The action and ticker are already in the WInS trade record. | Note elements, in this order of priority: (1) the reasoning: Laura's specific need; (2) alignment with the strategy (which part of the plan this trade is); (3) one piece of supporting research or analysis a reader can check (for the hedge, e.g. "rate sensitivity about 10 years, like her payments"); (4) the role word. The risk accepted moves to the reflection if space is short. Notes are permanent: fix this in the TN pack before the first order. |
+| C2 | important | **Evidence for the 300-character cap is weak and partly contrary** (summary 1, M247). The only source is a sister product (HowTheMarketWorks, VERIFIED-PRIMARY for that product). No Stock-Trak or WInS page states any limit (AY1 re-check). Wharton's own 413-character example is counter-evidence (Wharton presumably wrote an example that fits its own box), not only a "27% would be cut" risk. | Keep "draft to 300 characters" as a cheap precaution, labelled "UNVERIFIED for WInS; evidence mixed". Verify at zero risk *before* the first real note: ask Stock-Trak support (the blog points to Live Chat) or Wharton via Contact Us; or type a long test text on the order-review screen and do **not** press Confirm, then clear it. Never cut C1's Guide elements to fit a limit that has not been seen. |
+| C3 | important | **Option (iii) does not give three hedge trades** (M247 "Decision input for gate box (b)"). SPTL is bought only if the Session Rules cap is under 44% (ticket s3). With no cap, (iii) is two orders (IEF, TLH). | Under (iii) with no cap, a third executed trade must come from a genuine later decision (for example the Oct 19-23 duration refresh, which trades only if the hedge is outside 9.65-10.15). So the TN cost of (iii) is larger than "one role three times": it may not yield three notes without a planned decision. AX2 made the same point as blocking for D10. |
+| C4 | important | **IPS rules omit brief s16's second certainty gap** (M231 "IPS: rules to fix before Nov 6"). | Add rule/item 6: name in one clause that "certain" is in nominal US$, and a fixed $50,000 buys less each year in Taiwan (named, not solved; the case fixes the payments in nominal terms). |
+| C5 | minor | **Citation.** "p.8" for the Trade Note sentence. | PDF page 10 (pypdf check). Content verified. |
+| C6 | minor | **False precision:** "Only 3 of 19 key numbers are safe in the IPS". The 19 is this file's own register, so the count describes the list, not the plan. "173 of 185 trading days" is a computed count (bootstrapped curve), as of late September; it changes as 2026 goes on. | Say "only the case's fixed figures and one dated price fact". If the fact goes into the IPS, recompute and date it in the week of Nov 2, and use words ("on most trading days of 2026 so far"). The finding about four unobservable inputs stands. |
+| C7 | minor | **"That habit is the model"** (Match Quality column). The column grades a text-matching algorithm's outputs in a student project (VERIFIED-PRIMARY); treating it as her habit for financial numbers is interpretation. | Label INT. It stays private, as the file already says (no use in TN or IPS; no tokenism). |
+| C8 | minor | **Assumption labels in M234.** Nielsen-Landauer's L = 31% is for software-usability problems; using it for paraphrase misreadings is an analogy. The binomial detection figures assume independent readers. | Label both ASSUMPTION. The protocol stands (the digital.gov method itself is VERIFIED-PRIMARY). |
+| C9 | minor | **Time zone.** "5:00 p.m. EST = 9:00 a.m. Sat Nov 7 AEDT". | True for NSW/VIC/ACT/TAS; 8:00 a.m. AEST in Queensland (the team's state is not recorded, ticket s4). |
+| C10 | minor | **VGSH wording across files.** D12 "risk management"; ticket "a different funding purpose ... could later become an amount Laura can promise"; D6 "credibility or flexibility"; AX2 D2-C6 endorses the ticket. | Compatible if the note uses one Guide role word ("risk management" or "liquidity") and never implies VGSH is the 2031 floor (the floor is bought from the whole growth money). The 12.4%-vs-20% number is the ordinary effect of holding about 38% Treasuries in the growth money, not a special VGSH property; present it that way. Team chooses and records. |
+
+**FYI for the main loop (not a D12 error).** The 2026-27 WInS User Guide defines "Position Limit: This is how much of
+your portfolio you can invest in one single stock." (VERIFIED-PRIMARY, re-read). Whether it applies to ETFs is not
+stated; the ticket's capped-hedge branch already covers both cases, but the Session Rules screenshot should record
+whether ETFs are included.
+
+**Status after audit.** Finding 1 downgraded from "WInS notes may be capped at 300 characters" to "a sister product
+caps at 300; WInS unverified; evidence mixed; check before the first note" (C2), and its element split is replaced by
+C1. Finding 2 stands with C3 and C10. Finding 3 stands (the four unobservable inputs are right), with C4 and C6.
+Finding 4 stands, with C8. Finding 5 stands (the hedge is "risk management" only against the payments).
