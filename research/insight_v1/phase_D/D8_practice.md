@@ -438,3 +438,105 @@ they eat, not with the whole balance.
    with safety.
 5. **Compare costs with the margin they eat.** 0.5% a year sounds small. Taken from the ladder, it is twice the
    ladder's safety margin.
+
+---
+
+## Audit corrections (AY2)
+
+Auditor AY2, 2026-09-28. The text above is left unchanged. Each item says what to correct, its severity
+(blocking / important / minor), and which deliverable it touches (TN or IPS). Evidence and the cross-file view are in
+`research/insight_v1/phase_D/audit_judges_practice_comms.md`. New check script:
+`research/insight_v1/scripts/AY2_audit_checks.py`.
+
+**Reproduced and confirmed (no change needed):**
+- **Script:** `D8_practice_numbers.py` was re-run. Every quoted figure reproduces: the $292,264 and $394,930 checks;
+  the IRRs; $203,998; +$8.9k/+$10.7k/+$12.5k; the fee table; 0.6x/2.1x/4.2x; drift 50/62/73% with 49% outside the
+  band.
+- **Sources re-found verbatim with `fetch_text.py --grep`:**
+  - CFA IPS 2010 (four quotes);
+  - Asset Manager Code B.5.a, "expressly understood and agreed to", "gross- and net-of-fees returns", and B.6.a
+    "ability and willingness" (found after a PDF line break);
+  - Russell (three quotes, including "surplus glidepath");
+  - Kitces ("really is 1%", "1.75% ... up to $500k", "almost 1.25%");
+  - Chhabra 2016 and CFA 2015;
+  - APRA ("within one year", "must not exceed three years");
+  - BofA, NISA, Yale, FCA FG11/05.
+- **Team notes L18 mapping:** confirmed.
+
+**Corrections**
+1. **[important, IPS] Rule 1 overclaims in the joint tail.** Rule 1 says: "If the 2028 deposit is smaller or late ...
+   only the facility range shrinks."
+   - That is false when rates fall before January 2027 **and** the 2028 deposit is smaller than the shortfall (about
+     $7k at -50bp, $23k at -100bp; brief s6). Some nearest-dated payments then stay unbought.
+   - The frozen rule must say what happens in that case: all of the deposit goes to the unbought payments, no growth
+     money is created, and the unfunded amount is stated. It must not claim that only the facility shrinks.
+   - The case says she "will contribute" $150k, so this is a stress beyond the case. A rule frozen on Nov 6 still must
+     not overclaim.
+2. **[important, IPS] Top finding 2 and the M109 answer overstate the headline.** The headline reads: "Laura's needs
+   can be met at today's Treasury yields ... about $200k needs 4.81%/yr, below today's 5-year Treasury (4.98%)."
+   - (a) Wrong horizon. The 5-year par yield covers 2026-2031, not 2028-2033. The matching figure is the 5.23% forward,
+     which this file itself says is not lockable (the 2028 money arrives in 2028). If 5-year rates are 1 point lower in
+     January 2028, a Treasury-only surplus gives about $195k (AY2 arithmetic: $7,736 x 1.3513 + $150k x 1.0423^5).
+   - (b) Not a need. The facility has no required amount (case L104: "There is no predetermined facility
+     contribution"). "$200k" is an illustration.
+   - Correct to: the payments need what the bought ladder earns; about $200k of facility money would need 4.81%/yr,
+     below the 5.23% the curve implies for 2028-2033 today (not lockable). Keep "stocks are for upside" as a
+     devil's-advocate argument, not a finding of fact.
+3. **[upgrade, IPS] The devil's-advocate numbers hold on one input set.** `AY2_audit_checks.py` [1] re-ran them. Inputs
+   (ASM): AC World 7.00% compound, 16.78% vol; bonds at the 5.23% forward, held fixed; 200k paths.
+   - 60% stocks: p5 $155k (-$49k vs Treasury-only $204k), median +$13k, p95 +$104k.
+   - 50% and 70% stocks: p5 -$41k / -$56k; median +$11k / +$14k.
+   - Replace "+$11k vs about $45k (different input sets)" with "about +$11-14k in the middle vs -$41-56k in a bad case,
+     one input set".
+   - Caveat: the bond rate is held fixed, so the uncertainty in the 2028 reinvestment rate is ignored.
+4. **[minor, IPS] Present both sides of the equity weight.** This file calls M109 "the strongest single argument for
+   the low end of the band". D13c, brief s16 and D9 M071 raise the opposite risk: the plan already looks very cautious
+   for a client who "takes the jump", and the case asks for "pursuing growth". Both must reach the team together;
+   neither decides the 50/60/70 weight.
+5. **[minor, IPS] The fee comparison misreads the headroom.** "Taken from the ladder, a fee eats the headroom several
+   times over: 0.15% = 0.6x" is wrong for 0.15%, since 0.6x is less than the headroom. More basically, once the
+   ladder is bought it has no spare money: any fee taken from it breaks full funding. For scale: 0.5%/yr over 2027-42
+   is about 2x the $7,736 left over in 2027.
+6. **[minor, IPS] Two different "middle cases" in one file.** M109 uses bonds at 5.23% (60% stocks: $214.7k); M026
+   uses 3.9% (no fee: $209.3k). Pick one, or label both, before any number travels.
+7. **[minor, IPS] Rule 2 passes on governance, not on lift.** It fails this file's own "lift in a reported number"
+   test: the median lift is about 0 (F-407), and weight drift is not an outcome number. It passes because the risk held
+   then equals the risk stated (CFA element 4c; Code B.5.a). Say so.
+8. **[upgrade, IPS] Cite the IPS guide as the main reason for rule 4.** The guide says the IPS "should also establish
+   your strategic approach to preparing for the operating commitment, managing the operating reserve's asset
+   composition over time, determining a responsible facility contribution, and preserving appropriate financial
+   flexibility" (IPS guide L48-50, VRF). That is more direct than the test matrix.
+9. **[minor, scope] Move the Final Report items to the "later (after Nov 9)" list, one line each.** Brief s17 was added
+   after this file was written. The items are:
+   - the framework-map table;
+   - the "FR" bullets under M081, M006, M235 and M063;
+   - the M109 FR chart candidate;
+   - the M026 FR fee base case and sensitivity;
+   - the Chhabra FR citation.
+
+   Keep now only the IPS rule specs, the IPS sentence specs and the TN clause content.
+10. **[minor] The Yale quote is verbatim but trimmed.** Yale then "take[s] 20% of that amount and add[s] it to 80% of
+    the total amount spent in the most recent fiscal year" (re-verified). So "spending set from the value from two years
+    ago" misdescribes a smoothing rule, and the analogy to a bought floor is weak. It is Final Report only; park it.
+11. **[minor] Two verbs are stronger than their sources.**
+    - "Code F.4.d requires": the Code's guidance says Managers "should provide" gross- and net-of-fees returns "at a
+      minimum". Use "recommends".
+    - "binds teams to the Code": the Rules page says teams "should review ... and operate by these standards" (R-W29).
+      "Binds" is strong.
+12. **[minor, IPS] Word the governance line so it cannot read as permission to revise.** "Rules change only at a
+    scheduled review" must not read as permission to revise the strategy after Nov 6. The IPS guide L73-74 says "may
+    not revise its investment strategy after the submission deadline". Tie the review to Laura's circumstances from 2027
+    on, and never invoke it in the Final Report.
+13. **[minor, IPS] The fee clause is the first thing to cut.** The case is silent on fees, so "no ongoing fee on the
+    bought payments" is a team policy assumption, not a case fact. It is the first candidate to cut if the IPS runs
+    over the word budget (budget table in the audit summary).
+14. **[minor, TN] Mark the ready-made clause.** M081's TN clause "one broad index because her own career already
+    carries her concentrated bets" (L134-135) reads as reflection text. Recast it as content (her concentrated bets are
+    her career, which already drives the 2028 deposit) and let the team word it.
+15. **[minor, IPS] Fix one citation.** M063 cites F-409 for "exactly when the plan holds almost no stocks", but F-409
+    covers the period after 2028 (17-24% stocks). The ~0% stocks in 2027 come from the ticket's real 2027 book
+    (option iii).
+
+**Verdict for D8:** strong on evidence (every practice quote verified) and on structure (four rules plus governance,
+now also backed by IPS guide L48-50). Fix items 1-2 before any rule or headline goes into the IPS spec. The
+devil's-advocate point is confirmed (item 3) but must travel with its counter-argument (item 4).

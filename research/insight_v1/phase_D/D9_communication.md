@@ -728,3 +728,98 @@ uses data recorded at the time.
    careful one. The yardstick decides the answer.
 4. **Write the record while it is cheap.** A dated fact and a named risk in each note, plus one decision-log column,
    cost minutes now and make every later deliverable consistent almost automatically.
+
+---
+
+## Audit corrections (AY2)
+
+Auditor AY2, 2026-09-28. The text above is left unchanged. Each item says what to correct, its severity
+(blocking / important / minor), and which deliverable it touches (TN or IPS). Evidence and the cross-file view are in
+`research/insight_v1/phase_D/audit_judges_practice_comms.md`.
+
+**Reproduced and confirmed (no change needed):**
+- **Scripts:** `D9_numbers.py`, `D9_ips_page_fit.py` and `D9_draft_checker.py --demo` were re-run. Every quoted figure
+  reproduces:
+  - vocabulary counts; 40.3/38.7/38.5% (simulation 38.8%);
+  - $2,890 per 10bp; about $20.4k a year; T3 +$30,600 / -$27,374; 69-77%;
+  - 44-46 of 46 lines; about 525 words;
+  - 59 words, 413 characters, 0 digits.
+- **Sample PDF:** AY2 re-measured Wharton's sample with pypdf. It is US Letter at a 24.0 pt line pitch, with one blank
+  line (48 pt) before the IPS heading.
+- **Sources re-found verbatim:** Investor.gov; IPCC (two quotes); the retired Wharton judging page (two quotes);
+  Overachiever "with unstable income".
+- **Official lines as cited:** IPS guide L82, L101, L104, L116, L123-124; case L85 vs L91-92.
+- **Extra support for M001:** the TN guide itself says notes "should document the research, analysis, and reasoning
+  behind your investment decisions" (TN guide L7-8).
+
+**Corrections**
+1. **[important, TN] The VGSH row of the fixed-labels table overclaims.**
+   - The row maps VGSH to "the amount she can promise co-sponsors in 2031" and gives "already owned" as its certainty
+     word. This brings back the "floor proxy" overclaim the S4 red team removed (ticket, changes after red team, item
+     4).
+   - In 2026-2030, VGSH is part of the growth money. The 2031 floor is bought only in 2031, from all of the growth
+     money.
+   - Use: role word "liquidity" (or "future funding"); label "short-Treasury part of the growth money"; Laura need
+     "facility contribution and flexibility; the kind of asset a 2031 floor can later be built from" (the ticket's "can
+     later become"). No "already owned" before 2031.
+   - WInS notes are permanent, so this must be fixed before the first order.
+2. **[important, IPS] The certainty vocabulary leaves out "uncertainty".**
+   - The official files use "uncertainty" 11 times (AY2 whole-word count): case 2, IPS guide 1, Guide 6,
+     Infographic 1, SMApply 1.
+   - Case test 3 says a strategy "Addresses how investment uncertainty could affect both the operating commitment and
+     the facility contribution" (L137). The Creativity criterion asks for "investment uncertainty clearly and
+     credibly".
+   - So the vocabulary must not imply that the payments carry no uncertainty. Add a row: "uncertainty" is the official
+     word for what markets can do to both goals. For the payments it is limited to named residuals: rates before
+     purchase, the 2028 deposit in the rates-fall branch, a U.S. default, and purchasing power in Taiwan.
+3. **[important, IPS] The assumption line leaves out currency.** Brief s16, which is binding, requires both certainty
+   gaps to be named plainly. One is that "certain" is in nominal U.S. dollars while the residency's costs are in
+   Taiwan. Put the USD/TWD purchasing-power point into the same assumption clause as inflation. The words are the
+   team's; D4 owns the numbers.
+4. **[important, TN] The M012 one-sentence answer is a fill-in sentence for a permanent WInS note.** It reads: "The
+   position holds the value of Laura's ten fixed $50,000 payments, which cost about $X at [trade-date] Treasury prices
+   ..."
+   - WInS notes are quoted exactly and cannot be edited, so a template the team fills in becomes AI-written text in a
+     submitted deliverable (Wharton AI policy; brief s4).
+   - Recast it as the element list already in the checklist, and mark each quoted phrase "illustrative, do not copy".
+   - The same applies to three phrases that are close to pitch- or IPS-ready: "measured against her payments, not
+     against the screen" (L288), "risk only where others can help" (L483) and the M143 claim sentence (L445).
+5. **[important, IPS] Nobody has added up the IPS elements across D7, D8 and D9.** This file owns the page-fit check.
+   - Together the three files ask for about 13-15 IPS elements. Their own estimates sum to roughly 310-475 words before
+     connecting words, against this file's 470-490-word cap.
+   - The ips_spec owner should set one budget (table in the audit summary, section 5). Merge the return objective into
+     rule 2; merge risk tolerance with the M241 principle; fold inflation and currency into the certainty definition.
+     Cut the fee clause first.
+6. **[minor, IPS] "Locked" is the wrong word for 5.08/5.24/5.48% (L76-78, L497-510).** These are forward rates implied
+   by the 2026-09-25 curve for a January 2027 purchase. Nothing is locked until her money arrives; D8 says this
+   correctly for its 5.23%. Say "the rates today's curve implies for a January 2027 purchase". The 4-in-10 conclusion
+   does not change in kind.
+7. **[minor, IPS] T1's "+$139k in the worst 5% of paths" misreads a percentile gap.** It, and "gives up $267k of
+   best-case upside", are differences between two strategies' percentiles, not gains in the same paths. Say "the bad
+   case (5th percentile) is about $139k higher". These numbers belong on the later list in any case.
+8. **[minor, TN] Also fix blueprint 01's risk example.** When blueprint 01 section 3 is updated (M001 implication),
+   remove its risk example "bond prices fall if rates rise, which does not matter for held-to-maturity matching"
+   (blueprint L35). It is false for WInS funds, which never mature, and it contradicts this file's own vocabulary.
+9. **[minor, TN + IPS] Some terms and vocabulary rows state "bought in January 2027" flatly.** Examples: L140 "Ladder:
+   real Treasury bonds bought in January 2027"; L195 and L243 "stands in for the bonds she buys in January 2027". Add
+   "starting January 2027; completed from the 2028 deposit if prices have risen", to match D7 M011 and this file's
+   M143.
+10. **[minor, TN] "Hundreds of teams will copy its wording" is D9's judgement.** Label it INT; there is no evidence
+    about other teams' notes.
+11. **[minor, IPS] Page fit: add a fallback.** (INT) The official sample is set at exactly 24 pt. So "Exactly 24 pt"
+    line spacing is a defensible reading of "double-spaced" if a draft overflows under Word's "Double". The team
+    decides, and the exported-PDF check stays binding. A common rule of thumb (about 250-300 double-spaced words a
+    page) also puts 550 words plus headings right at two pages, which supports the 470-490 target.
+12. **[minor, TN + IPS] Using the draft checker counts as AI use.** Running `D9_draft_checker.py` (an AI-built tool) on
+    drafts must be logged in the team's AI-use record (R-W46), like any other AI help.
+13. **[minor, TN + IPS] Pick one place for the statistics degree.** This file says "once at most" in the IPS, but the
+    ticket uses it in the VT note and D7 uses it for the certainty definition. Across the TN and the IPS, pick one
+    place (decoration/tokenism risk).
+14. **[minor, TN + IPS] The option (ii) word cost (M012) is also a consistency cost.** D7's pitch rule ("no stock risk
+    until all ten payments are bought") reads as contradicted by a day-one VT buy next to a $198k hedge, unless the
+    scaling clause appears (D7 correction 3). Give gate box (b) both inputs.
+
+**Verdict for D9:** the strongest communication work in the cluster. The page-fit risk is real and confirmed on
+Wharton's own sample, and the note template, vocabulary and trade-off specs are well evidenced. Fix items 1-4 before
+the first WInS order and before the certainty glossary is adopted. Item 5 is the main cross-file task for whoever
+writes `ips_spec.md`.

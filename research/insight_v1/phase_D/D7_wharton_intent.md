@@ -270,3 +270,105 @@ Repo files (VERIFIED-REPO-FILE): `competition/official/2026_27/{Laura_Gao_2026_C
 4. **Say what you control.** "Bought in January 2027" depends on interest rates; "no stock risk until the payments are
    bought" depends only on the team. Laura's case warns that overpromising costs credibility; the pitch is the first
    place that warning applies.
+
+---
+
+## Audit corrections (AY2)
+
+Auditor AY2, 2026-09-28. The text above is left unchanged. Each item says what to correct, its severity
+(blocking / important / minor), and which deliverable it touches (TN or IPS). Evidence and the cross-file view are in
+`research/insight_v1/phase_D/audit_judges_practice_comms.md`. New check script:
+`research/insight_v1/scripts/AY2_audit_checks.py`.
+
+**Reproduced and confirmed (no change needed):**
+- **Script:** `D7_rule_trigger_odds.py` was re-run. Every quoted figure reproduces: 4.45bp/day; band odds; drift
+  ~0.08y; 76/53/35/12%; 83% "touched"; ~23%.
+- **Sources re-found verbatim with `fetch_text.py --grep`:** FOMC "October 27-28"; "Can you tweak it? Absolutely!";
+  "Your strategy should be unique to your team."; the 2021-22 case wording; DMV's Finest "less is more".
+- **Repo lines as cited:** the TN guide, Guide p.5 L156-158, the Infographic and blueprint 01 L66.
+
+**Corrections**
+1. **[important, TN] Refinement candidate (a) is not a "refined" decision.**
+   - Candidate (a) is the position-limit TLH/SPTL split. The wins_now ticket's gate boxes (c) and (e) require the
+     Session Rules screenshot and the cap branch **before** the first order. The capped branch then places TLH and
+     SPTL in the same first session.
+   - Calling SPTL a "refinement" would describe a pre-planned purchase as a later change (R-W28 risk). SPTL also has
+     the same job as TLH, so it adds no new funding purpose.
+   - Keep (a) only if an order is actually rejected by a limit the team could not see beforehand, and the note says
+     so. Candidate (b), the pre-announced provisional growth split with a decision week, remains the honest route to
+     "refined".
+2. **[important, TN] "Tested" must use a pre-registered window.** The window is the fill date to the Oct 20 close (or
+   the last close before writing).
+   - The planning figure is the end-date chance of a move of 10bp or more (~53%).
+   - The "~83% touched at some close" figure is only reachable by picking the day with the biggest move, which is
+     cherry-picking.
+   - Report small moves and poor tracking as they are.
+3. **[important, TN + IPS] The pitch rule clashes with WInS option (ii).**
+   - The rule is "no dollar takes stock-market risk until all ten payments are bought". Under ticket option (ii),
+     WInS buys VT (20.5%) on day one next to a hedge of about $198k against a promise priced at about $292k.
+   - This file's own TN plan (hedge note, growth note, VGSH note) assumes option (ii).
+   - Under (ii), the ticket's three-element scaling sentence must appear in the IPS, and a scaling clause in the hedge
+     and growth notes. Otherwise a reader sees the pitch contradicted by the notes (case L161-162: "a clear and
+     consistent investment strategy across all three").
+   - Under (iii), the rule is visibly true, but there is no growth note.
+   - This is a new input to gate box (b); it does not decide it.
+4. **[important, IPS] Pitch spec (b), "payments certain in US$", must be conditional.** Write "once bought, in US$,
+   barring a U.S. default". Otherwise it repeats the date-certain overclaim that finding 1 warns against.
+   - The joint tail also applies: rates fall before January 2027 **and** the 2028 deposit is smaller than the shortfall
+     (about $7k at -50bp, $23k at -100bp; brief s6).
+5. **[minor, TN] The data-capture step cannot be run as written.**
+   - `research/verified_2026-09-27/official_curve_pv.py` is hard-coded to the 2026-09-25 curve. It returns the
+     2027-01-01 forward value, not a spot value on other dates. Use `A2_curve_recheck.py` (`spot_pv` / `value_at`) or
+     `D9_numbers.py` [3].
+   - The treasury.gov yearly CSV keeps every date, so curves can be pulled later. Only the WInS position values need
+     same-day screenshots.
+   - Two capture points (the fill date and the end date) are enough; the middle dates are optional.
+   - Check for IEF/TLH ex-dividend dates inside the window, or compare total returns. A monthly distribution (about
+     0.4%) is large next to a ~1% signal.
+6. **[minor, TN] The two-decimal band odds (0.00% / 0.12% / 0.29%) are false precision from a thin-tailed model.**
+   `AY2_audit_checks.py` [2] re-runs them under other assumptions (ASM):
+
+   | Assumption | 55-65 band | 57-63 band / whole book +/-2 |
+   |---|---|---|
+   | Fat tails (Student-t, 3 degrees of freedom) | ~0.1% | ~0.7% |
+   | Crisis-level 35% volatility | 1-2% | 11-15% |
+
+   The conclusion is unchanged. Write "very unlikely (about 0-2% even in a crisis)". If a tighter band fires in a
+   crash, that is a genuine rule-triggered note.
+7. **[minor, IPS] The IPS clause "the hedge is never traded because rates moved" conflicts with the ticket's hedge
+   duration band.** The ticket re-mixes IEF against TLH when the mix leaves 9.65-10.15y, and rate moves can cause
+   that. Specify instead: the hedge is never sold or trimmed because rates moved; it is only re-mixed to keep its rate
+   sensitivity near the payments'.
+8. **[minor, TN] Wording of the "or" finding.** Summary finding 3 says "supported, tested, *or* refined" appears in all
+   four official texts. In fact the TN guide L12 says "aligned with, tested, or refined" and the case L152 says
+   "reflected, tested, or refined". The conclusion (every version says "or"; no quota) is confirmed.
+9. **[minor, IPS] The case-trend claims need four fixes.**
+   - (a) "certainty 6 now" counts "uncertainty" as well. The case has 4 "certainty" and 2 "uncertainty"; use D9's 4.
+   - (b) The 2021-22 case also had a ten-year payment stream (a $5,000 scholarship "for at least 10 years",
+     re-verified), so "past cases were growth or return targets" is too broad. What is new is the size (face $500k vs
+     $450k deposited) and the certainty/co-sponsor language.
+   - (c) "111%" is face value. At today's prices the payments cost $292k, 97% of the first deposit. Say "face value"
+     so the figure does not imply the plan is underfunded.
+   - (d) The 2025-26 part is SNIPPET-UNVERIFIED, so the summary's "VERIFIED-PRIMARY past case pages" label is mixed.
+10. **[minor, IPS] The Hahn caveat is too narrow.** The page says she "served as a judge for the semifinals" and praised
+    "your written reports and the videos" (re-verified; D13b agrees). Drop "not the written round" and keep "past-season
+    semifinal judge".
+11. **[minor, TN] Label the R-W28 reading INT.** R-W28 bans lying about decisions and fabricating analyses. It does not
+    name staged trades. "Staging, which R-W28 forbids" is a strong reading, not the rule's text: presenting such a
+    trade as rule-driven would misstate the reasoning.
+12. **[minor, scope] Move the Final Report items to the "later (after Nov 9)" list.** Brief s17 was added after this
+    file was written. The items are the funded-ratio chart, "optional fourth for the FR only", the FR chart line under
+    M011 and the Works Cited logging. The optional AI comparison test adds work without changing a decision: drop it
+    unless the team asks for it.
+13. **[minor, TN + IPS] Mark ready-made wording as illustrative.** Three phrases read as text to copy: the italic rule
+    sentence (L23-24, L159-160) and the example note phrase "decide by Fri Oct 16 after our own research" (L121). Mark
+    them as illustrative content; the team writes its own words (Wharton AI policy; brief s4).
+14. **[minor, TN] "Oct 12 Columbus Day bond market closed" has no source here.** Label it ASSUMPTION. treasury.gov
+    will show no curve for that date.
+15. **[minor, TN] The "tested" reflection spec has to fit the official questions.** It lists five contents, but the TN
+    guide asks each 100-word reflection to answer three questions: why; how it aligned; how it served the client's
+    goals, funding needs or risk. The rate move and the two % changes (about 20-25 words) must sit inside those three
+    answers, not replace them.
+
+**Verdict for D7:** sound and useful. The "no quota" reading and "do not stage a trade" are confirmed. Before the TN
+plan is final, fix items 1-3; before the pitch spec is final, fix item 4.

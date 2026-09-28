@@ -28,7 +28,7 @@ from dataclasses import replace
 import numpy as np
 
 sys.path.insert(0, "research/insight_v1/scripts")
-from strategy_mc_v2 import Cfg, growth_2y, pct, range_eval, simulate  # noqa: E402
+from strategy_mc_v2 import CENTRAL, Cfg, growth_2y, pct, range_eval, simulate  # noqa: E402
 
 HIST = "research/insight_v1/scripts/data/D3/damodaran_histretSP_1928_2025.csv"
 
@@ -120,5 +120,26 @@ def main():
               f"${np.median(rr['surplus']) / 1000:.1f}k")
 
 
+def central():
+    """Section 6: the same rules on the D3 central case (STRIPS ladder, Sep-Dec 2026 rate risk, AC World + short
+    govt/credit, fund expenses) - the numbers to prefer in the Final Report."""
+    print("\n== 6. Central case: floor share x top x contribution rule")
+    print("  floor share | top | rule | median floor | median top | P(within) | P(top reached) | contribution "
+          "p5/p50/p95 | flexibility p5/p50/p95")
+    for a in (0.8, 0.9):
+        cfg = replace(CENTRAL, floor_share=a)
+        r = simulate(cfg)
+        pg = growth_2y(cfg)
+        for top in (80, 90):
+            for name, kw in (("give all, capped", dict(contribution="cap")),
+                             ("give 90%, capped", dict(contribution="share_cap", share=0.9)),
+                             ("give 80%, capped", dict(contribution="share_cap", share=0.8))):
+                e = range_eval(r, ("pct", top), pg, **kw)
+                print(f"  {a:.0%} | p{top} | {name:17s} | ${np.median(e['lo']) / 1000:.0f}k | ${np.median(e['hi']) / 1000:.0f}k | "
+                      f"{e['p_within'] * 100:.0f}% | {e['p_top'] * 100:.0f}% | {'/'.join(f'${v}k' for v in pct(e['C']))} | "
+                      f"{'/'.join(f'${v}k' for v in pct(e['flex']))}")
+
+
 if __name__ == "__main__":
     main()
+    central()
