@@ -31,6 +31,9 @@ the same lognormal fit and random stream as the verified strategy_mc.py) and put
      before 2033 and the median cost; versus fees charged on the stock fund only.
  [7] The WInS book for the recommended design (Laura's plan on 2 Jan 2028 scaled to $300,000), with no cap and with a
      25% single-security cap (ticket v1 section 3 hedge branch; IBTM one point under the cap), at the 2026-09-25 closes.
+ [8] Rates fall before 1 Jan 2027 (-50/-100/-150bp, D1/D3 top-up table): the minimum, the stock fund and the 2033 total,
+     with the five-year rate unchanged or lower in January 2028. Corrects E4 [7], which kept the 2027 leftover (about
+     $8k) in the growth money although a fall that creates a gap leaves no leftover.
 
 INPUTS and status labels
  - $292,264 ladder at 2027-01-01, leftover $7,736 (VERIFIED-REPO-FILE inputs, official_curve_pv.py; F-101, F-104);
@@ -242,6 +245,34 @@ def section7():
           f" stock fund {(G - lock) / tot * 100:.1f}% of {k(tot)}")
 
 
+def section8(req):
+    """Rates fall before 1 Jan 2027 (E6 correction to E4 [7]). When the ladder costs more than $300,000 there is no
+    2027 leftover: the whole first deposit is in the ladder, and the January-2028 top-up (D1/D3 table, VRF inputs) comes
+    out of the $150,000 deposit alone. E4 [7] subtracted the top-up from growth money that still held the grown 2027
+    leftover, so it counted about $8k twice. Two conventions for the five-year rate in January 2028: unchanged at 4.98%
+    (E4's convention) and lower by the same amount as the fall (the fall persists; ASSUMPTION parallel shift)."""
+    print("\n[8] Rates fall before 1 Jan 2027: minimum and stock fund (corrects E4 [7], which kept the 2027 leftover)")
+    lock_base = D6.DEP / (1 + Y5) ** 5
+    base_exact = LEFT * (1 + Y1) + D6.DEP - lock_base
+    base_strips = 5_613 * (1 + Y1) + D6.DEP - lock_base
+    print(f"    no fall: stock fund {k(base_exact)} (exact-date ladder, as [2]); {k(base_strips)} on the Nov-15 STRIPS"
+          f" basis of the top-up table (headroom $5,613)")
+    for lab, shift, topup in (("-50bp", -0.005, 9_555), ("-100bp", -0.010, 25_711), ("-150bp", -0.015, 42_633)):
+        e4_fund = LEFT * (1 + Y1) + D6.DEP - lock_base - topup
+        for lab5, y5 in (("5-year stays 4.98%", Y5), ("5-year also lower", Y5 + shift)):
+            cost = D6.DEP / (1 + y5) ** 5
+            left = D6.DEP - topup
+            if left >= cost:
+                fund, minimum = left - cost, float(D6.DEP)
+            else:
+                fund, minimum = 0.0, left * (1 + y5) ** 5
+            total = minimum + fund * np.prod(1 + req[:, 1:6], axis=1)
+            print(f"    {lab:6s} ({lab5:18s}): top-up {k(topup)}; minimum {k(minimum)}; stock fund {k(fund)};"
+                  f" facility+flexibility money 2033 p5/p50/p95 {pct3(total)}")
+        print(f"           E4 [7] printed a stock fund of {k(max(e4_fund, 0))}"
+              + ("" if e4_fund >= 0 else f" and a minimum of {k(150_000 + e4_fund * (1 + Y5) ** 5)}"))
+
+
 if __name__ == "__main__":
     req, rbd = D6.draws(E4.JPM_ACWI, bd=D6.BD_CONSISTENT)
     section1(req, rbd)
@@ -251,3 +282,4 @@ if __name__ == "__main__":
     section5()
     section6(req, rbd)
     section7()
+    section8(req)
