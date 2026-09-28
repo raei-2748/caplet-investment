@@ -1,14 +1,14 @@
 # Team Caplet: project memory
 
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
-decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-09-27.
+decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-09-28.
 
 ## Working rules (from the team leader)
 - Use only exact official Wharton materials and verified sources. No fictional clients, rules, rosters or data.
   Anything not verified is marked UNVERIFIED; never fill gaps from memory or "typical" rules.
-- Research online and verify facts; cite URL + date. Primary sites (treasury.gov, FRED, iShares, JPM, Wharton,
-  SMApply) are blocked by this environment's network policy; only WebSearch snippets and GitHub work unless the
-  user allows those domains.
+- Research online and verify facts; cite URL + date. Network access was widened on 2026-09-27: primary sites load
+  with curl, but the WebFetch tool is still blocked, so read pages with
+  `.venv/bin/python research/insight_v1/scripts/fetch_text.py URL [--grep "exact phrase"]`.
 - Do NOT write the Trading Notes, IPS or Final Report. The team wants knowledge: numbers, models, devil's advocate,
   trade checks, research/fact-checking. Wharton AI policy: AI for brainstorming; AI-generated work may not be
   submitted as the students' own and must be cited.
@@ -69,6 +69,29 @@ Competition Experience; Creativity & Presentation. All three evaluated deliverab
   (4) no roles assigned yet; suggested roles: lead, trader, rates analyst, growth/risk analyst, client/co-sponsor
   lead, Taiwan/inflation researcher. The team must be able to defend these in its own words.
 
+## insight_v1 research run (2026-09-27/28; AI-generated research, NOT yet approved by the team)
+Outputs in `research/insight_v1/` (scope set by Ray: Trading Notes and IPS only; no Final Report or finale work):
+`trading_notes_pack.md` and `ips_spec.md` (the two primary files: specifications and checklists, no drafted text),
+`securities_and_allocation.md`, `why_us.md`, `strategy_changes.md`, `open_questions.md`; the final strategy spec is
+`phase_E/E6_final_spec.md` (numbers reproduced by `scripts/E6_final_checks.py`). Process: 472 questions -> 48 survived
+skeptic filters -> 12 audited specialists -> red teams -> chief strategist.
+- Recommended design (REC, pending team vote; alternative ALT = the earlier 2031 lock): Jan 2027 the first deposit
+  buys the ten payments (longest-dated first if short; any gap is the first use of the 2028 deposit). Jan 2028 the
+  second deposit first completes the ladder, then buys a Treasury repaying $150,000 just before 2033 (the building
+  minimum), and puts the rest (~$40k) in one world stock fund untouched to 2033. 2031: nothing traded; the range is
+  the owned minimum up to minimum + half the fund's value that day. 2033: ladder = operating reserve; gift = minimum +
+  half the fund (capped at the announced top); the rest stays hers. MODEL vs ALT: total facility+flexibility money
+  p5/p50/p95 $182k/$207k/$250k vs $168k/$210k/$266k; worst historical 6-year window $169k vs $120k; costs: less stock
+  (~9% of all money 2028-32), median gift $174k vs ~$186-188k.
+- WInS: recommended book (ii)R = Laura's plan on 2 Jan 2028 scaled to $300k (IEF 23.5 / TLH 42.5 / building-minimum
+  stand-in ~24.3% via the 15-Nov-2032 note or IBTM / VT 8.7%), every ticker pending the WInS listing and position-limit
+  check. Three notes: TLH (supported + tested), building minimum (refined only if the REC/ALT vote is logged first),
+  VT. Notes may be capped at 300 characters (test at zero risk first); notes cannot be edited.
+- Verified corrections: the real Nov-15 STRIPS ladder costs $294,387 on the 2026-09-25 curve, headroom $5,613 (19bp),
+  not $7.7k/27bp; it would cost more than $300k in about 1 in 3 modelled rate paths. The case pull quote is the case's
+  words, not verifiable as Laura's; no Laura quotes in the Trading Notes or IPS. 2026-27 Competition Guide and
+  Infographic PDFs filed in `competition/official/2026_27/`.
+
 ## Client insight (team docs reviewed 2026-09-27: `research/team_materials/review_why_laura_and_public_profile.md`)
 Keep: client trend toward community-infrastructure funding; willingness vs capacity (career risk -> portfolio should
 not add correlated risk; bites via the 2028 deposit); human-capital hedge; low-cost transparency; framing from her
@@ -116,13 +139,16 @@ VERIFIED 2026-09-27 by the insight_v1 run (primary pages; details in `research/i
       Equity weight 50/60/70% in the sleeve: median $205k/$207k/$209k (barely matters).
 - [x] Trading Notes blueprint drafted: `research/blueprints/01_trading_notes_blueprint.md` (awaiting team approval)
 - [ ] Team reads `01_chair_memo.md` + `round2_referee_ruling.md` (section 4: 12 concepts) and picks the strategy
-- [ ] Ultracode run to be launched by Ray in a NEW session with `research/ultracode_prompt_v4_deep_strategy.md` (v4 FINAL, locked 2026-09-27: full context,
+- [x] (done, see above) Ultracode run to be launched by Ray in a NEW session with `research/ultracode_prompt_v4_deep_strategy.md` (v4 FINAL, locked 2026-09-27: full context,
       fixed agent roster ~45-55 in phases A-F, 31 seed questions; supersedes v3)
       (question engine: case anomalies, why Laura, top-practitioner lens, her world, co-sponsors, judges, contrarian;
       so-what/anchor/adversarial filters; outputs to research/insight_v1/). Start it on this branch; re-paste the
       team's two client documents (kept out of the repo). Allow primary domains first if possible.
       (v2 audit prompt `research/ultracode_strategy_audit_prompt.md` superseded by v3 for now.)
-- [ ] Final run: decision pack + first-week trade plan + defence Q&A (after the items above)
+- [x] Ultracode insight_v1 run executed 2026-09-27/28 (see section above; outputs await team review and votes)
+- [ ] Team: read `research/insight_v1/trading_notes_pack.md` and `ips_spec.md`; take the three gate votes (lock-early;
+      REC or ALT; WInS book (ii)R) and log them before the first WInS order (target fills Fri Oct 2 ET, hard stop Oct 9)
+- [ ] Team: open decisions and WInS checks listed in `research/insight_v1/open_questions.md`
 - [ ] Code: `report audit-ai` always passes (audits one hard-coded block); built-in $100k/25% sector defaults and the
       31-stock default universe marked "Wharton-approved" are not official
 
