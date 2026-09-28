@@ -1,6 +1,11 @@
 # Securities and allocation: final WInS holdings and Laura's instrument map (insight_v1, writer W1)
 
-**Summary:** WInS book (ii)R (Laura's plan on 2 Jan 2028, scaled to $300,000): IEF 23.5% + TLH 42.5% (operations hedge), building minimum 24.3% (2032 Treasury note, else IBTM, else VGIT/SPTI), VT 8.7%, cash about 1%. Fallbacks: stand-in minimum, book (iii), or the ALT book. Laura's real plan: a ten-rung STRIPS ladder in 2027; in 2028, completion, then a zero-coupon Treasury repaying the $150,000, then one world stock fund; nothing traded in 2031; the ladder becomes the operating reserve in 2033 and runs down to 2042 (E6 s0, s4, s5; INT).
+**Summary (5 lines)**
+1. WInS book (ii)R (Laura's plan on 2 Jan 2028, scaled to $300,000): IEF 23.5% + TLH 42.5% (operations hedge), building minimum 24.3% (2032 Treasury note, else IBTM, else VGIT/SPTI), VT 8.7%, cash about 1% (E6 s5.2; INT).
+2. Fallbacks decided in advance: an undated stand-in for the minimum, book (iii), or the ALT book; position-limit branches before any order (E6 s5.3, s5.10).
+3. Laura's real plan: a ten-rung STRIPS ladder in 2027; in 2028, completion, then a zero-coupon Treasury repaying the $150,000, then one world stock fund held to 2033 (E6 s1, s4).
+4. Nothing is traded in 2031; in 2033 the ladder becomes the operating reserve and runs down to 2042 (E6 R3-R5).
+5. Every ticker is pending the WInS listing and position-limit check, and each has a same-type alternate (section 6 has the issuer facts).
 
 **Serves: Trading Notes (TN)** (the WInS holdings the notes quote) **and IPS** (the instruments behind blocks B3, B4, B6, B8 and B10; the IPS itself names no ticker). Authority: `research/insight_v1/phase_E/E6_final_spec.md`; fund facts copied from `wins_now/securities_and_allocation_v1.md` s12 ("ticket v1"). Supersedes ticket v1 s1 and s11 for the book and the long-term map (E6 s5.1, s9 #1, #5, #7). PROVISIONAL until the team votes. AI-generated research; no deliverable text.
 

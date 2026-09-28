@@ -101,7 +101,7 @@ Every ticker in this table is **PENDING WInS AVAILABILITY + POSITION-LIMIT CHECK
 
 - Never add to a holding within one point of the cap. A 20-24% stock fall, or a 10-12% fall with a 50bp rally, can lift TLH above a 25% cap (T2 [5]; ASM that WInS re-checks the limit).
 - A pre-chosen branch (for example the SPTL split) is **not** a "refined" decision (AY2 D7 C1). An order rejected by a limit nobody could see is a genuine rule-driven trade.
-- SPTL's alternate is VGLT. Describe every branch as "about 10 years"; never two decimals.
+- SPTL's alternate is VGLT. Describe every branch as "about 10 years"; never two decimals. Every ticker in this section is **PENDING WInS AVAILABILITY + POSITION-LIMIT CHECK**.
 
 ---
 
