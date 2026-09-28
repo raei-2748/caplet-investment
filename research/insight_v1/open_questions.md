@@ -69,7 +69,7 @@ Also still open for the team (from E4 s8, INT):
   - 6 PARAPHRASE-UNVERIFIED lines;
   - 8 new verbatim lines in D13c s7d, not yet ruled on by D13a;
   - none is allowed in the TN or IPS anyway.
-- **Spec inconsistency (for the main loop):** E6 s4 R2 prints E4 [7]'s rates-fall figures (stock fund $31k at -50bp, $15k at -100bp, minimum ~$147k at -150bp). E6 [8], re-run 2026-09-28, corrects these to $23k, $7k, and $0 with a minimum of $137k (5-year unchanged). The corrected figures should win.
+- **Spec inconsistency (for the main loop):** E6 s4 R2 prints E4 [7]'s rates-fall figures (stock fund $31k at -50bp, $15k at -100bp, minimum ~$147k at -150bp). E6 [8], re-run 2026-09-28, corrects these to $23k, $7k, and $0 with a minimum of $137k (5-year unchanged). The corrected figures should win. **FIXED 2026-09-28 by the main loop** in E6_final_spec.md, ips_spec.md and securities_and_allocation.md (range shown for 5-year rate unchanged vs also lower).
 - **CLAUDE.md headroom** ($7.7k, 27bp) uses exact-date pricing. The real Nov-15 STRIPS ladder gives $5,613 (19bp) (E6 R1; VRF inputs, ASM method).
 
 ---
