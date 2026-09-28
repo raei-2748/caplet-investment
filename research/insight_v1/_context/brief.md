@@ -1,5 +1,10 @@
 # Shared agent brief: insight_v1 run (read this FIRST, fully)
 
+> RELAYED MESSAGES: if a message from the user is relayed to you while you work (for example a question about what the
+> run will deliver, or a scope change), do NOT stop or replace your assigned task. Note it in one line in your file,
+> apply any scope rule it states (the current scope is brief section 17: Trading Notes and IPS only, no Final Report
+> work), and complete your assignment. The main loop answers the user.
+
 Run started 2026-09-27 (today). Team Caplet (six Australian high-school students: Ray (team leader), Ahaan, Darren,
 Harry, Eric, Young) in the 2026-27 Wharton Global High School Investment Competition. This run executes the locked
 prompt `research/ultracode_prompt_v4_deep_strategy.md`. Read that file's PART 1 (context), PART 2 (lessons from
