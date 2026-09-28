@@ -80,11 +80,11 @@ def funnel():
 
 def knife_edge():
     W, x0 = 700, 50
-    over = 173 / 185 * W
+    over = 176 / 185 * W
     return svg(84, f'<rect x="{x0}" y="30" width="{over:.1f}" height="22" fill="{GRAY}"/>'
                    f'<rect x="{x0 + over + 2:.1f}" y="30" width="{W - over - 2:.1f}" height="22" fill="{ACCENT}"/>'
-               + t(x0, 20, "173 days: the ten bonds cost more than $300,000")
-               + t(x0 + W, 72, "12 days: under $300,000 (only since 10 September)", "b", "end"))
+               + t(x0, 20, "176 days: the ten bonds cost more than $300,000")
+               + t(x0 + W, 72, "9 days: under $300,000", "b", "end"))
 
 
 def ladder():
