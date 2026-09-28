@@ -4,13 +4,56 @@
 2. Her first deposit buys the ten operating payments. Her second deposit, which is her own career income, buys the building's minimum in 2028 (case L43-45, L91-92, VRF).
 3. On one set of model paths, this design (REC) has about the same middle as the 2031-lock design (ALT) and better bad cases: total p5/p50/p95 $182k/$207k/$250k against $168k/$210k/$266k (MODEL, E6 [2], re-run 2026-09-28).
 4. It loses on median gift, stock exposure and p95. The simulated client (E3) would choose the firm on substance but could be won by a rival with the same plan in plainer words. So the edge only counts if the words carry it.
-5. Limits: E3 is a simulation, not Laura. No blind multi-evaluator tournament was run (time). E2 scored the older E1 design, not this spec.
+5. Limits: every "Laura" here is a simulation grounded only in the case and her verified public words. A blind contest (section 0 below) ranked our strategy first with all 3 simulated evaluators; E2 scored the older E1 design, not this spec.
 
 **Serves:** TN (Oct 23) and IPS (Nov 6). This file holds reasons and evidence only. None of it is text to submit, and the team writes every word.
 
 **Labels:** VP = VERIFIED-PRIMARY; VRF = VERIFIED-REPO-FILE; SNIP = SNIPPET-UNVERIFIED; ASM = ASSUMPTION; MODEL = model output from assumptions, not a forecast; INT = judgement; SIM = simulated-client reaction (a kind of INT, never a fact about Laura). Case lines refer to `competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt`. E6 [n] is a section of `scripts/E6_final_checks.py`. W3 re-ran it on 2026-09-28 and every figure below that cites it matched. Every ticker named here is **PENDING WInS AVAILABILITY + POSITION-LIMIT CHECK**; primaries and alternates are in `securities_and_allocation.md` s1-s2. **R1-R8 in this file are reasons, not the spec's decision rules R1-R10** (those live in `ips_spec.md` s(c)).
 
 ---
+
+
+## 0. Blind "Laura's Choice" contest (added 2026-09-28 by the main loop)
+**Serves: IPS (strategy choice) and TN (what the notes must show).** Files: `phase_E/tournament/` (firm_A-F.md,
+fairness_log.md, eval_L1-L3.md); numbers for the rival firms: `scripts/E7_tournament_field_numbers.py` (MODEL).
+Six anonymised one-pagers (300-380 words, same seven sections, loaded words and tells removed by a fairness auditor):
+ours (Firm D, the E6 REC design) and five rival approaches (A: typical strong team with a Monte Carlo 95% and staged
+reserve; B: growth-first 75% equity; C: themed/values tilts; E: generic 60/40 to 40/60; F: complex optimiser).
+Three evaluators (simulations of Laura, grounded ONLY in the case, D13a VERIFIED-PRIMARY lines and the D13c voice map)
+ranked all six, each reading them in a different order.
+
+| Evaluator | Ranking (1st -> 6th) | Score for ours (/10) | Next best |
+|---|---|---|---|
+| L1 | D, A, E, F, C, B | 7.5 | A 6.0 |
+| L2 | D, A, E, F, C, B | 8.0 | A 6.5 |
+| L3 | D, A, E, B, F, C | 8.0 | A 6.0 |
+Borda total (6 points for 1st ... 1 for 6th): **D 18 (maximum)**, A 15, E 12, F 8, B 5, C 5. Ours was first 3/3.
+
+**Why they chose ours (their reasons, with the evidence they cited):**
+- The 2031 bottom is money she already owns, so she cannot overpromise (case p.3 credibility warning, L114-115).
+- It is the only plan whose payments do not depend on markets until 2033: the market-based plans miss a payment in
+  0.3-3.2% of model paths, 7-14% if the 2028 deposit is $75k, and 41-46% if it never arrives (MODEL, E7/strategy_mc) -
+  and that deposit comes from income she herself called "unstable" (B8b-Q18, VERIFIED-PRIMARY, Overachiever 2021).
+- It names its own costs and gaps (the ~1-in-3 January price risk, the joint tail, lower far upside), which matches how
+  she talks about unfinished work and costs (B8b-Q18, B9b-Q09) and her line about not letting down "people who were your
+  earliest supporters" (D13a-N01, student-era, Daily Pennsylvanian 2016).
+- Medians are nearly equal across plans (ours $207k vs A $206k, E $213k; MODEL), so the market plans mainly buy far
+  upside at the price of payment risk.
+
+**What all three said ours must still fix (actions for the IPS; the first is the most important):**
+1. **"Appropriate balance" is not yet shown** (case L69-74; her "take the jump" line B1b-Q11): stocks average 7.5% of
+   all her money 2028-32. State where the leap is (the residency itself; the growth money takes the market risk), give
+   the price of certainty in one line (median about equal to the typical plan, give-up only at the far upside: p95
+   $250k), and show one tested alternative with a smaller 2028 floor and more in stocks, so the choice is visibly a
+   choice. -> team decision D-open (see open_questions.md).
+2. **Call the $150k bond the bought floor of the 2031 range, not a "minimum facility contribution"** fixed in 2028 (case
+   p.3: no predetermined contribution; flexibility as the project develops) (L2).
+3. **State the in-range confidence directly** (case L117-118): under the cap rule the 2033 contribution always lands
+   between the owned bottom and the announced top, barring a U.S. default; keep ~73% (model) / 84% (history) only as the
+   chance of reaching the top (L1, L3). Say how meaningful a ~$150k-$175k range is (case L111-112).
+4. Already in the spec, but must be visible in the IPS: the joint-tail rule (payments first, the floor shrinks, stated
+   in dollars; R1-R2) and both certainty gaps (nominal US$ vs Taiwan costs; the inflation assumption; what a fixed $50k
+   buys by 2042; case L90, L146-147).
 
 ## 0. Honest limits (read first)
 
@@ -21,7 +64,7 @@
 
   It does not cover REC's 2028 minimum, its cap or its lower stock share (INT).
 - **E2 scored E1 as specified:** 7/7/7/5/6 = 32/50, and about 38/50 after its ten fixes (INT). E6 adopted most of those fixes, but no reader has scored the E6 spec.
-- **The planned blind multi-evaluator tournament was not run, for time reasons.** It would have had several readers compare anonymised strategies. Every "we beat X" below is therefore one run's analysis, not an independent verdict.
+- **A lean blind contest was run after this file was first written (see section 0).** Three independent simulated-Laura evaluators, each reading six anonymised one-page strategies in a different order, ranked ours first. It is still a simulation (3 evaluators, archetype rivals modelled on one engine; see `phase_E/tournament/fairness_log.md`), not Laura's view.
 - **The "rival" became our recommendation.** E4's strongest rival design was adopted as REC. The rivals left to beat are archetypes (growth-first, all-Treasury, the 2031 lock, a same-plan team with better words), not real teams.
 - **The model has thin tails** (AX1 C12, VRF audit). That is why history windows are shown beside it. The results also depend on the return input: JPM AC World 7.00% compound (VRF). On a Vanguard-like 5.08% input, REC is $179k/$202k/$242k (E6 [4], ASM hybrid).
 

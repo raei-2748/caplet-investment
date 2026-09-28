@@ -337,6 +337,15 @@ Tags give the skeptics' kill reasons (already_answered, no_so_what, trivial, wro
 
 ---
 
+## Added after the blind Laura's Choice contest (2026-09-28)
+- **D-open (balance), decide before the IPS:** all three simulated evaluators ranked our plan first but said it reads as
+  timid (7.5% average stock share 2028-32). Test one alternative with a smaller 2028 floor (for example $100-120k) and
+  more in the world stock fund against REC on `scripts/E6_final_checks.py`'s engine, then choose and state the price of
+  certainty in one line. Default: keep REC and state the price (median about equal to the typical plan; p95 $250k).
+- **Wording:** call the $150k bond "the bought floor of the 2031 range", never a "minimum facility contribution".
+- **In-range confidence:** state that the 2033 contribution lands inside the announced range by the cap rule (barring a
+  U.S. default); report ~73% (model) / 84% (history) only as the chance of reaching the top.
+
 ## What this teaches
 
 - Keep open questions in three different piles: choices only the team can make, facts only the platform can show, and sources nobody has checked yet. Mixing them hides which ones block the next trade.
