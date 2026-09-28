@@ -1,25 +1,54 @@
 # Wharton Global High School Investment Competition 2026-2027
-# Official Private Registered-Team Materials Placeholder
-# Status: AWAITING_OFFICIAL_MATERIAL
+# Official Private Registered-Team Materials
+# Status: AWAITING_OFFICIAL_MATERIAL (client case ingested; trading rules, approved universe
+# and rubrics still missing, so production stays blocked until they are ingested)
 # Release Date: September 15, 2026 (via SurveyMonkey Apply)
 
 competition_year: "2026-2027"
 status: "AWAITING_OFFICIAL_MATERIAL"
 source_portal: "SurveyMonkey Apply"
-ingested_at: null
+ingested_at: "2026-09-26"
 human_verified: false
 verified_by: null
 
-# Client Profile (UNKNOWN until official case release)
+# Client Profile (from official case: competition/official/2026_27/Laura_Gao_2026_Client_Profile.pdf)
+# Facts transcribed from the case; human_verified stays false until a team member checks them against the PDF.
 client_case:
-  client_id: null
-  client_name: null
-  primary_goal: null
-  horizon_years: null
-  risk_profile: null
-  esg_restrictions: null
-  cash_needs: null
-  status: "UNKNOWN"
+  client_id: "WGHSIC-2026-27-LAURA-GAO"
+  client_name: "Laura Gao"
+  source_file: "competition/official/2026_27/Laura_Gao_2026_Client_Profile.pdf"
+  year_convention: "Year = calendar year - 2026 (2026 is Year 0, 2027 Year 1, 2031 Year 5, 2033 Year 7)"  # p.2
+  cash_flow_timing: "All contributions and withdrawals occur at the beginning of the applicable year"  # p.2
+  contributions:  # p.2
+    - {year: 2027, amount_usd: 300000}
+    - {year: 2028, amount_usd: 150000}
+  no_other_flows_before: 2033  # p.2; living expenses covered outside the portfolio
+  operating_commitment:  # p.3
+    payment_usd: 50000
+    first_year: 2033
+    last_year: 2042
+    count: 10
+    inflation_adjusted: false
+    funding_certainty: "high degree of certainty"
+    outside_funding_allowed: false
+  facility_contribution:  # p.3
+    year: 2033
+    amount: "No predetermined amount; team recommends and justifies"
+  co_sponsor_communication:  # p.3-4
+    year: 2031
+    requirement: "Recommend a dollar range and a stated confidence level; range must protect the operating commitment; draft part of fundraising materials"
+  wins_results_excluded_from_projections: true  # p.4
+  out_of_scope:  # p.4
+    - "Personal income and capital gains taxes"
+    - "Legal/regulatory requirements for a residency in Taiwan"
+    - "Facility total cost, construction budget, funding gap, business plan"
+    - "Size or composition of a separate contingency fund or endowment"
+  primary_goal: "Fund ten $50,000 operating payments (2033-2042) with a high degree of certainty and determine a responsible 2033 facility contribution"
+  horizon_years: 16  # 2027 first contribution through 2042 final payment
+  risk_profile: "Willing to take thoughtful risks; wants a recommended balance between growth and protecting capital required for her goals"  # p.2
+  esg_restrictions: null  # none stated in the case
+  cash_needs: "None before 2033; then reserve funding plus facility contribution"
+  status: "INGESTED_PENDING_HUMAN_VERIFICATION"
 
 # Official Trading & Portfolio Rules (UNKNOWN until official release)
 trading_rules:
@@ -40,8 +69,56 @@ approved_securities:
   count: null
   status: "UNKNOWN"
 
-# Official Evaluation Rubric / Deliverable Specifications (UNKNOWN until official release)
+# Evaluation criteria and deliverable specifications (official SMApply materials)
 evaluation_rubric:
-  rubric_version: null
-  weights: null
-  status: "UNKNOWN"
+  source: "competition/official/2026_27/SMApply_Deliverables_Page_2026-09-27.md"
+  weights: null   # no weights published
+  evaluated_deliverables: ["Trading Notes Analysis", "Investment Policy Statement", "Final Report"]
+  evaluated_together: true
+  criteria:
+    - name: "Investment Strategy"
+      description: "Clear and creative investment thesis; disciplined planning across Laura's changing time horizons and cash-flow needs; appropriate diversification; consistency with the team's IPS."
+    - name: "Client Knowledge and Objectives"
+      description: "Strategy tailored to Laura's circumstances, priorities, risk considerations and residency goals; thoughtful understanding of the client; recommendations that can earn her confidence."
+    - name: "Portfolio Analysis"
+      description: "Effective use of investment concepts and tools; integrates quantitative and qualitative analysis; reasonable assumptions and projections to evaluate funding reliability, the facility contribution and financial flexibility under varying market outcomes."
+    - name: "Articulation of Competition Experience"
+      description: "Teamwork, communication and learning; clear explanation of research and decision-making; meaningful reflection on growth and response to challenges."
+    - name: "Creativity and Presentation"
+      description: "Compelling, well-organized narrative in an authentic team voice; effective use of data; original thinking and reflection; clear, credible communication of Laura's potential facility contribution and investment uncertainty to prospective co-sponsors."
+  status: "OFFICIAL_INGESTED_PENDING_HUMAN_VERIFICATION"
+
+deliverables:
+  team_roster:
+    deadline: "2026-10-09 17:00 ET"
+    members_locked_after_submission: true
+    required_fields: ["Full name (each student)", "Unique email (each student)", "Birthday (each student)",
+                      "Anticipated graduation year (each student)", "Official team name", "School country",
+                      "School state (U.S. only)", "School city", "Official school website URL"]
+  trading_notes_analysis:
+    source: "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.pdf"
+    deadline: "2026-10-23 17:00 ET"
+    notes_required: 3
+    notes_must_match_executed_wins_trades: true   # "Yes, we will verify this."
+    include_note_exactly_as_in_wins: true
+    reflection_max_words_per_note: 100
+    reflection_must_cover: ["Why the team made the decision", "How it aligned with the overall strategy",
+                            "How it supported the client's goals, funding needs or risk considerations"]
+    not_expected: ["Final operating reserve size", "Long-term projections", "Facility contribution", "Co-sponsor communication"]
+    submission: "SurveyMonkey Apply form"
+  investment_policy_statement:
+    source: "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.pdf"
+    deadline: "2026-11-06 17:00 ET"
+    trading_locks_at_deadline: true
+    strategy_frozen_after_deadline: true
+    title_page: {max_pages: 1, must_include: ["Official team name (as on roster)", "Member names as 'First Name, Last Initial' (as on roster)", "WInS username"]}
+    strategy_pages: {max_pages: 2, elevator_pitch_max_words: 50, ips_max_words: 500}
+    format: {font: "Times New Roman", size_pt: 12, spacing: "double", margins_in: 1, file: "PDF", max_file_mb: 5}
+    prohibited: ["Graphics", "Charts", "Images", "Attachments", "External links", "Footnotes", "Formal citations"]
+    not_expected: ["Final operating-reserve calculations", "Detailed portfolio projections", "Final facility-contribution range", "Draft co-sponsor communication"]
+    noncompliance: "Not considered for semifinal selection"
+  final_report:
+    deadline: "2026-12-04 17:00 ET"
+    instructions_release: "2026-11-09"
+    requirements: null   # not yet released
+    school_documentation: "Official school documentation, separate file, submitted with the Final Report"

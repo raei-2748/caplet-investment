@@ -15,8 +15,8 @@ def test_full_workflow_demonstration():
     assert "DEMONSTRATION COMPLETE" in result.stdout
 
 def test_report_pack_compliance_no_unlabeled_ai_prose():
-    """TEST 12: Verify outputs/report_pack/ contains zero unlabeled AI-generated prose."""
-    report_pack_dir = Path("outputs/report_pack")
+    """TEST 12: Verify outputs/demo/report_pack/ contains zero unlabeled AI-generated prose."""
+    report_pack_dir = Path("outputs/demo/report_pack")
     assert report_pack_dir.exists(), "Report pack directory must exist"
 
     weights_md = report_pack_dir / "01_portfolio_weights.md"

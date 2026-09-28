@@ -34,7 +34,7 @@ def test_14_human_strategy_approval_requires_explicit_rationale(tmp_path):
     with pytest.raises(HumanGovernanceError) as exc:
         engine.approve_strategy(
             strategy_id="STRAT-A-QUALITY-MOAT",
-            student_signatures=["Student A", "Student B"],
+            student_signatures=["Ray", "Ahaan"],
             student_rationale="Too short",
             discussion_notes="Notes"
         )
@@ -43,7 +43,7 @@ def test_14_human_strategy_approval_requires_explicit_rationale(tmp_path):
     # Valid approval succeeds
     decision = engine.approve_strategy(
         strategy_id="STRAT-A-QUALITY-MOAT",
-        student_signatures=["Student A (Lead PM)", "Student B (Risk Lead)"],
+        student_signatures=["Ray (Team Leader)", "Ahaan"],
         student_rationale="Unanimously chosen for economic moat defensibility against judge Q&A scrutiny.",
         discussion_notes="Extensive debate over 10-week catalyst horizon vs quality compounding."
     )
@@ -59,7 +59,7 @@ def test_15_strategy_alternatives_and_rejections_preserved(tmp_path):
 
     decision = engine.approve_strategy(
         strategy_id="STRAT-A-QUALITY-MOAT",
-        student_signatures=["Student A", "Student B"],
+        student_signatures=["Ray", "Ahaan"],
         student_rationale="Chosen for long-term client suitability and defensibility in finals.",
         discussion_notes="Debated A vs B vs C."
     )
@@ -77,7 +77,7 @@ def test_16_every_final_strategy_principle_links_to_client(tmp_path):
 
     engine.approve_strategy(
         strategy_id="STRAT-A-QUALITY-MOAT",
-        student_signatures=["Student A", "Student B"],
+        student_signatures=["Ray", "Ahaan"],
         student_rationale="Optimal fit for long-term capital compounding and preservation.",
         discussion_notes="Notes"
     )

@@ -3,15 +3,43 @@ source_name: "Wharton Global Youth Program Official Webpages"
 source_url: "https://globalyouth.wharton.upenn.edu/investment-competition/"
 retrieved_at: "2026-09-19"
 authority_level: "OFFICIAL_PUBLIC_VERIFIED"
+# Re-checked 2026-09-27 by web search restricted to globalyouth.wharton.upenn.edu (direct page
+# fetches are blocked in the dev environment). Items not confirmed on Wharton's public pages are
+# marked `unverified_public`; Wharton says deadlines and trading rules are published only on
+# SurveyMonkey Apply, so check those against the SMApply materials.
+verification_2026_09_27:
+  sources:
+    - "https://globalyouth.wharton.upenn.edu/competitions/investment-competition/"
+    - "https://globalyouth.wharton.upenn.edu/competitions/investment-competition/rules-roles/"
+    - "https://globalyouth.wharton.upenn.edu/competitions/investment-competition/faq/"
+    - "https://globalyouth.wharton.upenn.edu/competitions/investment-competition/deliverables/"
+    - "https://globalyouth.wharton.upenn.edu/ai-policy/"
+  confirmed:
+    - "Registration closed 2026-09-11 5:00 p.m. ET"
+    - "Materials released to Team Leaders via SurveyMonkey Apply on 2026-09-15"
+    - "Competition runs 2026-09-28 to 2026-12-04 (trading itself ends 2026-11-06 per SMApply)"
+    - "Official team roster due 2026-10-09"
+    - "Teams of 4-6 students from the same school"
+    - "Four required deliverables: Official Team Roster, Trading Notes Analysis, IPS, Comprehensive Final Report"
+    - "AI may be used to brainstorm; AI-generated work may not be submitted as your own and must be cited"
+  unverified_public:
+    # Deadlines and deliverables now confirmed from the SMApply Deliverables page (see timeline).
+    - "Starting capital for 2026-27 ($500,000 was confirmed for the 2025-26 season only)"
+    - "Sector minimum equal to team size, 200-trade cap, first trade by 2026-10-10 (third-party sources only)"
 
 timeline:
+  # Deadlines corrected 2026-09-27 from the SMApply Deliverables page (higher authority than
+  # public pages): competition/official/2026_27/SMApply_Deliverables_Page_2026-09-27.md
+  # All deadlines are 5:00 p.m. ET. No extensions.
   materials_release_date: "2026-09-15"
   competition_start_date: "2026-09-28"
   team_roster_deadline: "2026-10-09"
+  trading_notes_deadline: "2026-10-23"
   ips_deadline: "2026-11-06"
-  trading_period_end_date: "2026-12-04"
+  trading_period_end_date: "2026-11-06"   # "Trading ends and your portfolio is locked" at the IPS deadline
+  final_report_instructions_release: "2026-11-09"
   final_report_deadline: "2026-12-04"
-  school_documentation_deadline: "2026-12-04"
+  school_documentation_deadline: "2026-12-04"   # submitted with the Final Report as a separate file
 
 philosophy:
   performance_determines_winner: false
@@ -27,30 +55,31 @@ philosophy:
     - "Strategy development and reflection"
     - "Learning from mistakes and market dynamics"
 
-deliverables:
+deliverables:   # four required deliverables per SMApply Deliverables page
   - name: "Team Roster"
     deadline: "2026-10-09"
     mandatory: true
-  - name: "School Documentation"
-    deadline: "2026-12-04"
+    evaluated: false
+  - name: "Trading Notes Analysis"
+    deadline: "2026-10-23"
     mandatory: true
+    evaluated: true
   - name: "Investment Policy Statement (IPS)"
     deadline: "2026-11-06"
     mandatory: true
-  - name: "Comprehensive Final Report"
+    evaluated: true
+  - name: "Final Report & Official School Documentation"
     deadline: "2026-12-04"
     mandatory: true
-  - name: "Trading Notes / Required Trading Justifications"
-    deadline: "2026-12-04"
-    mandatory: true
-  - name: "WInS Trading Activity"
-    deadline: "2026-12-04"
-    mandatory: true
+    evaluated: true
 
 team_rules:
   min_students: 4
   max_students: 6
   eligibility: "Students must attend the same secondary school."
+  team_leader_min_age: "16 by 2026-09-28"
+  advisor: "One Advisor who is a teacher/educator at the team's school; may not make decisions or trade. Paid advisors or consultants are prohibited."
+  member_changes: "Removing a member requires a written Advisor request approved by Wharton."
   account_structure: "One shared WInS account per registered team."
   student_responsibilities: "Students are responsible for developing strategy, conducting research, analyzing data, and placing trades."
   team_leader_role: "Primary communication liaison and deliverable submitter."

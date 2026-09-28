@@ -17,13 +17,13 @@ class TeamMember(BaseModel):
     """An authentic high school student registered on Team Caplet."""
     model_config = ConfigDict(frozen=True)
 
-    member_id: str = Field(description="Unique identifier, e.g. 'CAPLET-01'")
+    member_id: str = Field(description="Unique identifier, e.g. 'RAY'")
     display_name: str
     role: str = Field(description="Team role, e.g. 'Lead PM', 'Chief Risk Officer'")
     active: bool = True
     added_at: str = Field(default_factory=lambda: datetime.now().strftime("%Y-%m-%d"))
-    source: str = "WHARTON_OFFICIAL_REGISTRATION"
-    eligibility_status: str = "VERIFIED_HIGH_SCHOOL_STUDENT"
+    source: str = "TEAM_LEADER_PROVIDED"
+    eligibility_status: str = "PENDING_WHARTON_ROSTER_CONFIRMATION"
 
 
 class TeamRoster:
@@ -41,19 +41,18 @@ class TeamRoster:
                 data = json.load(f)
                 self._members = [TeamMember(**m) for m in data]
         else:
-            # Default authentic team slots (4 to 7 students per Wharton rules + registered aliases)
+            # Team Caplet as provided by the team leader (2026-09-27). Wharton registration of
+            # this roster (due 2026-10-09) is not yet confirmed, so eligibility stays unverified.
             self._members = [
-                TeamMember(member_id="CAPLET-01", display_name="Lead Portfolio Manager", role="Portfolio Manager"),
-                TeamMember(member_id="CAPLET-02", display_name="Chief Risk Officer", role="Risk Lead"),
-                TeamMember(member_id="CAPLET-03", display_name="Fundamental Analyst Lead", role="Equity Research"),
-                TeamMember(member_id="CAPLET-04", display_name="Quantitative Strategist", role="Quant Modeling"),
-                TeamMember(member_id="STUDENT-A", display_name="Student A", role="Student Analyst"),
-                TeamMember(member_id="STUDENT-B", display_name="Student B", role="Student Analyst"),
-                TeamMember(member_id="STUDENT-LEAD", display_name="Student Lead", role="Team Lead"),
-                TeamMember(member_id="PM", display_name="PM", role="Portfolio Manager"),
-                TeamMember(member_id="RISK", display_name="Risk", role="Risk Officer"),
-                TeamMember(member_id="RAY", display_name="Ray", role="Student Researcher"),
-                TeamMember(member_id="ELENA", display_name="Elena", role="Student Researcher"),
+                TeamMember(member_id=mid, display_name=name, role=role)
+                for mid, name, role in [
+                    ("RAY", "Ray", "Team Leader"),
+                    ("AHAAN", "Ahaan", "Team Member"),
+                    ("DARREN", "Darren", "Team Member"),
+                    ("HARRY", "Harry", "Team Member"),
+                    ("ERIC", "Eric", "Team Member"),
+                    ("YOUNG", "Young", "Team Member"),
+                ]
             ]
             self.save()
 
@@ -74,7 +73,7 @@ class TeamRoster:
         if not raw_query:
             return None
 
-        # Clean role in parentheses e.g. "Student A (Lead PM)" -> "student a"
+        # Clean role in parentheses e.g. "Ray (Team Leader)" -> "ray"
         cleaned_query = raw_query.split("(")[0].strip()
 
         for m in self._members:
@@ -82,30 +81,8 @@ class TeamRoster:
                 continue
             m_id = m.member_id.lower()
             m_name = m.display_name.lower()
-            if (
-                m_id == raw_query
-                or m_name == raw_query
-                or m_id == cleaned_query
-                or m_name == cleaned_query
-                or cleaned_query.startswith(m_name)
-                or m_name.startswith(cleaned_query)
-            ):
+            if cleaned_query in (m_id, m_name) or raw_query in (m_id, m_name):
                 return m
-
-        # If name starts with "student ", recognize as student analyst
-        if cleaned_query.startswith("student ") or cleaned_query.startswith("student-"):
-            synthetic_id = cleaned_query.replace(" ", "-").upper()
-            display = cleaned_query.title()
-            new_member = TeamMember(
-                member_id=synthetic_id,
-                display_name=display,
-                role="Student Analyst",
-                active=True,
-                source="WHARTON_OFFICIAL_REGISTRATION",
-                eligibility_status="VERIFIED_HIGH_SCHOOL_STUDENT",
-            )
-            self._members.append(new_member)
-            return new_member
 
         return None
 

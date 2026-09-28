@@ -12,10 +12,10 @@ def test_26_trade_and_decision_records_are_timestamped(tmp_path):
         event_id="EVT-001",
         event_type=JournalEventType.STRATEGY_PROPOSED,
         title="Quality Moats Philosophy Proposed",
-        participants=["Ray (Lead PM)", "Sarah (Analyst)"],
+        participants=["Ray (Lead PM)", "Darren"],
         student_discussion="Discussed focus on ROIC/WACC spreads.",
         final_student_decision="Proceed with Strategy A as primary candidate.",
-        reasoning="Matches Elena's long-term endowment objective.",
+        reasoning="Matches Laura's operating commitment.",
     )
     path = engine.add_event(evt)
     assert path.exists()
@@ -45,7 +45,7 @@ def test_27_later_edits_do_not_destroy_historical_state(tmp_path):
         event_id="EVT-002",
         event_type=JournalEventType.MISTAKE_IDENTIFIED,
         title="Mistake: European Contract Renewal Overlooked",
-        participants=["Ray", "Elena"],
+        participants=["Ray", "Ahaan"],
         student_discussion="Realized European macro headwinds could slow automation orders.",
         final_student_decision="Pause buy order and add sensitivity shock.",
         reasoning="Intellectual honesty: address risk before allocating.",

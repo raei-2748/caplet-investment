@@ -7,7 +7,7 @@
 ## 1. The Necessity of Mode Isolation
 
 During early software development, engineering teams frequently rely on:
-- Synthetic client profiles (e.g., Dr. Elena Vance)
+- Synthetic client profiles (the former Dr. Elena Vance demo client has been removed)
 - Mock stocks and toy models
 - Deterministic mock LLM responses for offline unit tests
 
@@ -21,7 +21,7 @@ If these synthetic prototypes are mixed with actual competition operations, stud
 
 | Dimension | DEMO Mode (`WHARTON_MODE=demo`) | PRODUCTION Mode (`WHARTON_MODE=production`) |
 | :--- | :--- | :--- |
-| **Client Mandate** | Permitted to use prototype `demo_client_mandate.yaml` | **FAILS CLOSED** if official 2026 client case is missing |
+| **Client Mandate** | Official case mandate (`client_mandate.yaml`, Laura Gao); no fictional client | **FAILS CLOSED** if official 2026 client case is missing |
 | **Security Universe**| Permitted to use synthetic fixtures (`TEST_ALPHA`, etc.) | Requires official approved Wharton stock universe |
 | **LLM Reasoning** | Deterministic mock generator active if no API keys | **FAILS CLOSED** (`CouncilPartialError`) if API keys missing |
 | **Rules Registry** | Explores hypothetical constraints | Strict enforcement of verified 2026-27 rules |

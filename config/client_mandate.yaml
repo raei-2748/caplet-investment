@@ -1,90 +1,148 @@
 # config/client_mandate.yaml
-# Authoritative specification of the Wharton Client Mandate and Strategy
+# Official 2026-27 client mandate, structured to wharton_ic.client.models.ClientMandate.
+# Source: competition/official/2026_27/Laura_Gao_2026_Client_Profile.pdf (4 pages).
+# CLIENT_FACT items restate the case and cite its page. Team reasoning belongs in
+# TEAM_INTERPRETATION / STRATEGIC_ASSUMPTION items and must be signed off via
+# `wharton-ic client approve` before strategy generation.
 
-client:
-  name: "Dr. Elena Vance (Representative Demonstration Client)"
-  description: "Biomedical engineer and academic entrepreneur building an endowment for medical innovation research."
-  investment_horizon:
-    timeframe_years: 10
-    timeframe_description: "Long-term capital growth with capital preservation after year 7."
-  financial_goals:
-    primary: "Achieve annualized nominal return of 8-10% net of inflation and costs."
-    secondary: "Generate 2.0% annual cash yield for scholarship grant funding starting Year 3."
-    target_wealth_multiplier: 2.2
-  liquidity_needs:
-    minimum_cash_buffer_pct: 0.02
-    annual_liquidity_draw_pct: 0.015
-    emergency_liquidity_days: 5
-  risk_capacity: "Moderate-High (Substantial non-portfolio academic assets, no debt)."
-  risk_tolerance: "Moderate (Loss aversion during market drawdowns exceeding 20%)."
-  values:
-    impact_objectives:
-      - "Healthcare innovation and accessibility"
-      - "Sustainable operational footprint"
-      - "R&D intensity and technological advancement"
-    exclusion_sectors:
-      - "Tobacco"
-      - "Controversial Weapons"
-      - "Thermal Coal Extraction"
-  constraints:
-    min_market_cap_usd: 1000000000  # $1B minimum market cap
-    min_daily_volume_usd: 5000000   # $5M average daily dollar volume
-    max_emerging_market_exposure: 0.10
-    us_exchange_listed_only: true
-  special_preferences:
-    preferred_themes:
-      - "Quality Healthcare & Life Sciences"
-      - "Automation & Productive AI Infrastructure"
-      - "Energy Transition & Grid Reliability"
+client_id: "WGHSIC-2026-27-LAURA-GAO"
+client_name: "Laura Gao"
+mandate_version: "1.0"
+created_at: "2026-09-26 00:00:00"
 
-strategy:
-  core_thesis: >
-    Compounding high-ROIC, low-leverage businesses exposed to structural secular tailwinds,
-    acquired at prices below intrinsic DCF value, disciplined by systematic risk budgeting.
-  investment_principles:
-    - "Quality First: Invest exclusively in businesses with sustainable moats and high cash ROIC."
-    - "Margin of Safety: Refuse capital allocation without verifiable upside to conservative DCF."
-    - "Tail-Risk Awareness: Construct portfolios using robust CVaR and hierarchical risk parity."
-    - "Auditable Lineage: Every recommendation must have empirical, point-in-time evidence."
-  stock_selection_rules:
-    min_fcf_conversion: 0.70       # FCF / Net Income >= 70%
-    min_roic: 0.12                 # Return on Invested Capital >= 12%
-    max_net_debt_ebitda: 3.0       # Net Debt / EBITDA <= 3.0x
-    min_discount_to_fair_value: 0.10 # >= 10% expected upside to base DCF
-  portfolio_roles:
-    core_compounders:
-      target_weight_range: [0.40, 0.60]
-      description: "Resilient market leaders with pricing power and consistent reinvestment rates."
-    secular_growth:
-      target_weight_range: [0.20, 0.35]
-      description: "High-growth businesses driving technological or healthcare innovation."
-    defensive_cash_generators:
-      target_weight_range: [0.15, 0.30]
-      description: "Low-beta, steady dividend growers providing portfolio stability."
-  sell_rules:
-    - "Thesis Breach: Deterioration in fundamental moat or ROIC dropping below cost of capital for two quarters."
-    - "Valuation Excess: Price exceeding 135% of optimistic Bull Case DCF valuation."
-    - "Risk Breach: Position risk contribution exceeding 25% of total portfolio variance."
-    - "Opportunity Cost: Superior risk-adjusted replacement available with >= 15% valuation spread."
-  rebalance_rules:
-    frequency: "Monthly review, quarterly rebalance"
-    drift_threshold_pct: 0.03      # Trigger rebalance if position drifts > 3% from target
-    turnover_limit_quarterly: 0.20  # Max 20% quarterly portfolio turnover
-  review_rules:
-    mandatory_review_days: 45
-    earnings_reaction_review: true
+financial_objectives:
+  - item_id: "FO-01"
+    category: "CLIENT_FACT"
+    statement: >-
+      Fund ten annual operating payments of $50,000 (fixed, not inflation-adjusted) at the
+      beginning of each year 2033-2042 with a high degree of certainty, from the portfolio alone.
+    official_source_citation: "Client Profile p.3, Operating Commitment"
+  - item_id: "FO-02"
+    category: "CLIENT_FACT"
+    statement: >-
+      At the beginning of 2033, set aside an operating reserve for the ten payments; team must
+      recommend its size, initial composition, and how composition changes as payments are made.
+    official_source_citation: "Client Profile p.3, Operating Commitment"
+  - item_id: "FO-03"
+    category: "CLIENT_FACT"
+    statement: >-
+      After establishing the reserve in 2033, recommend and justify how much of the remaining
+      portfolio Laura can responsibly contribute to the residency facility.
+    official_source_citation: "Client Profile p.3, Facility Contribution"
+  - item_id: "FO-04"
+    category: "CLIENT_FACT"
+    statement: >-
+      Preserve appropriate financial flexibility; committing all remaining assets could limit
+      flexibility as the project develops.
+    official_source_citation: "Client Profile p.3, Facility Contribution; p.4 bullet list"
 
-risk:
-  max_position: 0.15               # Max 15% in any single security
-  min_position: 0.025              # Min 2.5% in any active holding
-  max_sector: 0.25                 # Max 25% in any single GICS sector
-  max_industry: 0.15               # Max 15% in any single industry
-  max_factor_exposure: 1.5         # Max z-score factor tilt vs benchmark
-  liquidity_constraints:
-    max_position_vs_adv: 0.05      # Position must not exceed 5% of 30-day ADV
-  volatility_target: 0.14          # Target annualized portfolio volatility
-  drawdown_threshold: 0.18         # Max allowable simulated peak-to-trough drawdown
-  concentration_limits:
-    max_top_3_pct: 0.40
-    min_holdings_count: 10
-    max_holdings_count: 20
+nonfinancial_objectives:
+  - item_id: "NFO-01"
+    category: "CLIENT_FACT"
+    statement: >-
+      In 2031, communicate a credible dollar range (not a single number) for the 2033 facility
+      contribution to co-sponsors, with a stated confidence level; the range must protect the
+      operating commitment. Team drafts part of the fundraising materials.
+    official_source_citation: "Client Profile p.3-4, Communicating with Co-Sponsors"
+  - item_id: "NFO-02"
+    category: "CLIENT_FACT"
+    statement: >-
+      Protect Laura's credibility: promising more than she can contribute could damage her
+      credibility and co-sponsor participation.
+    official_source_citation: "Client Profile p.3, Communicating with Co-Sponsors"
+
+investment_horizon:
+  item_id: "IH-01"
+  category: "CLIENT_FACT"
+  statement: >-
+    Contributions at the beginning of 2027 (Year 1) and 2028 (Year 2); reserve and facility
+    contribution at the beginning of 2033 (Year 7); final operating payment at the beginning of
+    2042 (Year 16). Year number = calendar year - 2026.
+  official_source_citation: "Client Profile p.2-3"
+
+liquidity_requirements:
+  item_id: "LR-01"
+  category: "CLIENT_FACT"
+  statement: >-
+    No withdrawals before 2033. From 2033: reserve set-aside, facility contribution, then
+    $50,000 at the beginning of each year through 2042. Living expenses are covered outside the
+    portfolio.
+  official_source_citation: "Client Profile p.2-3"
+
+return_objectives:
+  item_id: "RO-01"
+  category: "CLIENT_FACT"
+  statement: >-
+    No stated return target. Projections start from $300,000 (2027) plus $150,000 (2028) using
+    reasonable return assumptions consistent with the strategy; WInS trading gains or losses are
+    not added to projections.
+  official_source_citation: "Client Profile p.2, p.4 Developing Laura's Investment Strategy"
+
+risk_tolerance:
+  item_id: "RT-01"
+  category: "CLIENT_FACT"
+  statement: >-
+    Understands investing involves uncertainty and volatility; has taken thoughtful risks in her
+    career; wants the team to recommend a balance between pursuing growth and protecting the
+    capital required for her goals.
+  official_source_citation: "Client Profile p.2, Laura's Financial Goals"
+
+risk_capacity:
+  item_id: "RC-01"
+  category: "CLIENT_FACT"
+  statement: >-
+    Living expenses and short-term needs are met outside the portfolio, but the ten operating
+    payments cannot rely on outside funding.
+  official_source_citation: "Client Profile p.2-3"
+
+drawdown_concerns:
+  item_id: "DC-01"
+  category: "CLIENT_FACT"
+  statement: >-
+    No numeric drawdown limit is given. Teams must explain how favorable and unfavorable market
+    outcomes affect the operating commitment and the facility contribution.
+  official_source_citation: "Client Profile p.3-4"
+
+income_needs:
+  item_id: "IN-01"
+  category: "CLIENT_FACT"
+  statement: "No income needs from the portfolio before 2033."
+  official_source_citation: "Client Profile p.2"
+
+ethical_preferences: []
+impact_objectives:
+  - item_id: "IO-01"
+    category: "CLIENT_FACT"
+    statement: >-
+      Establish a collaborative creative residency in Taiwan in 2033 for artists, writers,
+      designers, entrepreneurs, and educators.
+    official_source_citation: "Client Profile p.2, The Creative Residency"
+sector_preferences: []
+explicit_exclusions: []
+implicit_constraints:
+  - item_id: "IC-01"
+    category: "CLIENT_FACT"
+    statement: >-
+      Taxes and Taiwan legal/regulatory requirements are out of scope; teams need not estimate
+      facility cost, funding gap, or size a separate contingency fund.
+    official_source_citation: "Client Profile p.3-4"
+
+uncertainties:
+  - "2033 portfolio value (and therefore facility contribution) is uncertain when the range is communicated in 2031."
+  - "Inflation affects facility costs and real portfolio projections; operating payments are fixed nominal."
+tensions_or_conflicts:
+  - "Growth for a larger facility contribution vs. high certainty for the operating commitment."
+  - "A meaningful contribution signals commitment vs. preserving financial flexibility."
+  - "A wide range protects credibility vs. a narrow range is more useful to co-sponsors."
+assumptions_requiring_student_judgment:
+  - "Definition of 'high degree of certainty' and how it is evaluated."
+  - "Return, inflation, and cash-flow timing assumptions for projections."
+  - "Operating reserve size and composition, and its glide path as payments are made."
+  - "Dollar range and confidence level communicated to co-sponsors in 2031."
+evidence_source_ids:
+  - "competition/official/2026_27/Laura_Gao_2026_Client_Profile.pdf"
+
+human_approved: false
+approved_by: null
+approval_timestamp: null
+approval_rationale: null

@@ -150,7 +150,7 @@ class PortfolioVisualizer:
         ax.fill_between(days, p05, p95, color="#1f77b4", alpha=0.20, label="5th–95th Percentile Range")
         ax.plot(days, p50, color="#1f77b4", linewidth=2.5, label=f"Median Path (${mc_results['percentiles_ending_wealth']['p50_median']:,.0f})")
         ax.axhline(starting_capital, color="#666666", linestyle=":", label="Starting Capital ($100,000)")
-        ax.axhline(target_capital, color="#2ca02c", linestyle="--", linewidth=1.5, label=f"Client Target 9% (${target_capital:,.0f})")
+        ax.axhline(target_capital, color="#2ca02c", linestyle="--", linewidth=1.5, label=f"Illustrative 9% Hurdle (${target_capital:,.0f})")
 
         ax.set_xlabel("Trading Days Forward (1 Year)", fontsize=11, fontweight="bold")
         ax.set_ylabel("Portfolio Capital ($ USD)", fontsize=11, fontweight="bold")
