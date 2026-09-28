@@ -397,3 +397,33 @@ From the repo root:
 - **A number you have already bought needs no model.** The payments and the 2031 floor are certain in dollars because
   they are purchased. Everything the model says is about the money that is still invested.
 - **An honest range is set from the money still at risk.** A rule of thumb like "1.25 × the floor" is not.
+
+## Audit corrections (AX1)
+
+Auditor AX1 (cluster auditor, rates and quant), 2026-09-28. D3's text above is unchanged. Full audit:
+`research/insight_v1/phase_D/audit_rates_quant.md`. Checks: `.venv/bin/python research/insight_v1/scripts/AX1_quant_audit.py`.
+The companion list for `D3_quant.md` (C1-C25) applies here too wherever the same claims appear.
+
+**What holds.** `strategy_mc_v2.py` was re-run and reproduces every table in sections 2-4. With all switches off it
+matches the verified model path by path (largest difference $0.54 for lock-early, $0.00 for growth-first; AX1 [1]).
+Inputs re-checked on 2026-09-28:
+- JPM matrix rows and correlations (repo PDF p.2);
+- the treasury.gov 09/25/2026 row (live = repo file);
+- FRED DGS10: 70.6bp a year in 2026; 0.48pp sd of 98-day moves since 1990;
+- Damodaran rows (2008, 2022, 2025);
+- the Vanguard VCMM wording (both quotes verbatim).
+
+**Verdict:** passes with corrections: 0 blocking, 3 important, 7 minor.
+
+| # | Severity | Issue | Correction |
+|---|---|---|---|
+| V1 | important | **Section 5, row 1 contradicts section 4(a).** "All ten payments bought in January 2027 at a known price: Robust". But in about 30% of rate paths (24-34%, and 1 in 3 on history, AX1 [5]-[6]) the ladder costs more than $300k. Part of the 2033 payment is then bought in January 2028, at a price not known today. The same slip appears in "What this teaches" 2 ("certain in dollars because they are purchased"). | "All ten bought by January 2028 once the deposit arrives. All ten bought in January 2027 in about 2 of 3 rate paths." The robust statement is "bought, not forecast, from each purchase date; certain in nominal US$ barring a U.S. Treasury default". |
+| V2 | important | **Capped rules shown as "P(within) 100%"** (summary 5; tables (g) and "the same rules in the central case"; section 5 row 8). That 100% is a rule, not a model result. The "Floor + half of the excess above it" row gives the same contribution and flexibility as "Give 90%, capped" but announces the whole bought floor as the bottom: median $165k vs $148k; central case $163k vs $146k (AX1 [8]). | Report capped rules only with P(top reached). Put "Floor + a share of the excess, uncapped" beside the capped rule as the team's choice, with its two-sided confidence (below the floor only on a U.S. default; above the top about 1 in 5). See D3_quant C2-C3 and D5 finding 5. |
+| V3 | important | **Section 4(c): "The riskless control ... has a median of $204k. A 0.5% sleeve fee takes away the whole median gain from equity."** Seen from today the control is not riskless: central case $170k/$201k/$233k (AX1 [3]). And the median gain is not the expected gain: the mean lift of 60% equity is +$7.0k with no fee and +$2.0k after a 0.5% sleeve fee (AX1 [2]). | "All-Treasury benchmark (sure only after each lock date)". "A 0.5% sleeve fee removes the median gain and most of the average gain." See D3_quant C4-C5. |
+| V4 | minor | **Summary 3 and section 5 row 2:** "any deposit of about $43k ... even after a 150bp fall (about a 4-standard-deviation move) ... Robust". "4 standard deviations" is bell-curve language. The 10-year actually fell 174bp in 98 days (23 Sep to 30 Dec 2008). That fall needs about **$51k** (gap $49.6k; finishing in January 2028 $51.0k, with no further fall in 2027). Falls of ≥150bp over 98 days occurred in 0.11% of windows since 1990 and 1.43% since 1962 (AX1 [6]; FRED VP, derived). | "About $43k covers a 150bp fall and about $51k the worst 98-day fall since 1990, if rates do not fall further during 2027." Drop "robust". |
+| V5 | minor | **Summary 5: "P(ladder costs more than $300k) is 24-34%".** 24% is the exact-date ladder, which Laura would not buy. The real ladder gives 30-34%, and history gives 35.8% for a ≥19bp fall (since 1990). In 2026 the real ladder fit under $300k on only 9 of 185 days (AX1 [5]-[6]). | "About 1 in 3" (AX1b made the same correction to D1). |
+| V6 | minor | **Robustness wording.** Summary 4 says "fat tails move p1/p5/p95 by less than about $7k", but the t3 run moves p95 by -$8k. Section 5 says "median ≈ $200-210k ($197-211k across the (a), (d), (e) and 2031-yield switches)", but the listed switches span $201-211k; $197k comes from the fee and Vanguard-central runs. | "About $8k"; "$201-211k across those switches; $197k with a 1% sleeve fee". |
+| V7 | minor | **Section 4(g) purchasing power** uses the "give 80%" rule, while D3 recommends "give 90%, capped". It also deflates a US$ amount by a NT$ construction-cost index without the exchange rate (F-513). | Final Report material (brief s17): move to the later list. If kept, say which rule it uses and that USD/TWD is left out. |
+| V8 | minor | **Section 6 limit 3:** "the error is small" for parallel-only rate moves is not computed. | Say "not computed". For scale, S3/S4 found $1.5-3.8k per 50bp twist for the WInS hedge (a different object). |
+| V9 | minor | **Scope (brief s17).** This is a model report, so it may stay as documentation, but it must say which deliverable it feeds. Its inputs to the IPS rules are (a) the payment-completion clause, (b) fees and what they are charged on, and (f)/(g) the method for the 2031 range and contribution. Its only TN input is via M034 (sleeve share) and M028. The dollar tables in (f)/(g) and section 5's "how to present it" column are Final-Report presentation. | Add a one-line "serves: IPS (rules); TN (via M034/M028)" header when the main loop merges. Move the presentation column and the dollar ranges to the later list. |
+| V10 | minor | **Jargon:** "tornado table" (What this teaches), "multivariate t", "clipped at 8 standard deviations", "common random numbers" (defined), "forward-implied". | Define "tornado table" (a list of switches sorted by how much each moves the result) and the others in one line each, or drop them. |

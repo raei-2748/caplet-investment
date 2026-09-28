@@ -97,10 +97,9 @@ shares of the $300,000 [3]. The twist error is the worst 50bp twist, measured fo
 
 | Single-security limit shown | Option (ii): hedge 66% | Option (iii): hedge 98% |
 |---|---|---|
-| None, or 65%+ | IEF 23.5 / TLH 42.5 (about 9.9y; $1.5k) | IEF 34.9 / TLH 63.1 (about 9.9y; $1.5k) |
-| 44-64% | same as above | IEF 34.9 / TLH at the cap minus 1 / **SPTL** the rest |
-| 35% | IEF 23.5 / TLH 34 / SPTL 8.5 (10.2y; $2.1k) | IEF 34 / TLH 34 / SPTL 30 (10.6y; $3.0k) |
-| 25% | IEF 23.5 / TLH 24 / SPTL 18.5 (10.5y; $2.8k) | IEF 24 / TLH 24 / SPTL 24 / VGIT 17.6 / VGLT 8.4 (9.9y; $2.8k) |
+| None, or 65% or more | IEF 23.5 / TLH 42.5 (about 9.9y; $1.5k) | IEF 34.9 / TLH 63.1 (about 9.9y; $1.5k) |
+| 44-64% | same as above | IEF 34.9 / TLH at the cap minus 1 / **SPTL** the rest (at 50%: TLH 49 / SPTL 14.1; about 10.2y) |
+| 25-43% | IEF 23.5 / TLH at the cap minus 1 / **SPTL** the rest (v0 rule). At 35%: TLH 34 / SPTL 8.5 (10.2y; $2.1k). At 25%: TLH 24 / SPTL 18.5 (10.5y; $2.8k). If SPTL would be under 2% (a 43% cap), put the sliver in IEF | 36-43%: IEF 34.9 / TLH at the cap minus 1 / SPTL the rest. 25-35%: IEF and TLH at the cap minus 1, SPTL the rest up to the cap minus 1, then VGIT and VGLT solved to about 10 years. At 35%: IEF 34 / TLH 34 / SPTL 30 (10.6y; $3.0k). At 25%: IEF 24 / TLH 24 / SPTL 24 / VGIT 17.6 / VGLT 8.4 (9.9y; $2.8k) |
 | **Under 25% (new rule)** | IEF, TLH and SPTL at the cap minus 1; VGIT, then VGLT, take the rest so the hedge stays about 10 years. At 20%: IEF 19 / TLH 19 / SPTL 19 / VGIT 9 (9.9y; $2.6k). At 60/40 VT (20.5%) exceeds 19%, so split the equity into VTI 12.7% (~100 sh) and VXUS 7.8% (~270 sh). At 50/50 VT (17%) fits down to an 18% cap. **If 5 or more hedge funds would be needed (a cap of about 17% or less), stop and ask Wharton (Contact Us) before trading.** | **Switch to (ii) and re-vote gate box (b).** (iii) needs 6 funds at 20% and is not feasible at 15% with the listed Treasury ETFs. **Exception:** Session Rules show a separate, higher bond limit **and** the Bonds drop-down lists a Jul-Dec 2037-2041 Treasury. Then keep the ETFs at the cap minus 1 and carry the rest of the hedge in that bond, re-solved to about 10 years on the trade date |
 
 - SPTL's alternate is VGLT. Every branch is described in notes as "about 10 years"; never quote two decimals.
@@ -130,6 +129,8 @@ $300,000 buys the payments, and her room for stock risk starts with the 2028 mon
 The four elements the Guide asks for (p.3 L84-86, VRF) are the reasoning, the alignment with strategy, the supporting
 research or analysis, and the expected role. D9 M001 and D12 M247 map them to a **core that fits in 300 characters**.
 The trade record already shows the side, ticker and quantity, so name the instrument type in a few words at most.
+Mapping: C1 and C2 carry the reasoning and the alignment with the strategy, C1 names the role, C3 is the research,
+and C4 names the risk the team accepts.
 - [ ] **C1 Role:** one Guide role word plus the team's fixed label (tables above). Never switch labels between notes.
 - [ ] **C2 Laura's dated need:** the ten $50,000 payments 2033-2042, or the facility contribution and flexibility in
       2033, or the small 2027 leftover waiting for the 2028 deposit. **Under (ii), fold the scaling into this

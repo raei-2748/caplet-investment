@@ -5,7 +5,7 @@ Agent T1 (Trading-Now editor), insight_v1 run, written 2026-09-28 about 01:00 UT
 (Nov 6). No Final Report work (brief s17).** AI-generated research: decisions to take, evidence and checklists. It is
 not text to submit; the six students decide and write every note, reflection and IPS sentence (Wharton AI policy).
 The orders themselves are in `research/insight_v1/wins_now/securities_and_allocation_v1.md` (the ticket). No relayed
-user messages arrived during this task. Nothing was committed.
+user messages arrived during this task. T1 did not commit anything.
 
 Labels: **VP** verified on the primary page; **VRF** verified in a repo file; **SNIP** snippet or secondary, unverified;
 **ASM** assumption or model output (not a forecast); **INT** our interpretation (a judgement, not a fact). A file name
@@ -110,13 +110,13 @@ logged-in Trading Details page before the first order. Earlier fills also give t
 | Note roles | Three distinct roles: future funding, growth, risk management/liquidity (D12). This fits the TN guide's first sentence, "approach to growth, risk, liquidity, funding reliability, financial flexibility, and future cash-flow needs" (VRF) | Future funding plus liquidity only; every note is a promise or cash note (D12; D10 C1) |
 | Truth at a date | Holds +20.5 points of equity at 60/40 (+17.0 at 50/50) versus Laura's ~0% in January 2027 (D10, AX2 C7) | True at a stated date without scaling (D10) |
 | Words needed | Three-element IPS sentence of about 25-40 words: the post-2028 mix; scaled to $300k; in January 2027 almost all of her real $300k buys the ladder. Plus a short scaling marker folded into each hedge and growth note (AY2 C1; D9 M012). Otherwise the pitch rule "no stock risk until the payments are bought" looks contradicted | About 12-20 IPS words; the hedge note sizes to the ~$292-294k promise in one clause (D9) |
-| Reader risk | "They put 20% in stocks when the payments cost 97% of the first deposit" | "About 98% Treasuries for a client who 'has been willing to take thoughtful risks'" (case L69-71, VRF). One reflection must answer "why so little equity?" (D13c N1) |
+| Reader risk | A reader may think the team holds about 20% stocks although the payments cost 97% of the first deposit | A reader may see about 98% Treasuries as timid for a client who "has been willing to take thoughtful risks" (case L69-71, VRF). One reflection must answer "why so little equity?" (D13c N1) |
 | Leaning | S3 ticket: (ii). D12: a TN reason for (ii) | D10: (iii) at medium-low confidence, "not decision-ready" until C1 was fixed (AX2) |
 
 **T1 call: (ii), medium-low confidence (INT).**
 - The first judged deliverable is the Trading Notes. Under (ii), three notes can show three different jobs and a
   growth decision; under (iii) they cannot.
-- The extra IPS words for (ii) (about 20 more) are affordable inside AY2's budget.
+- The extra IPS words for (ii) (about 15-20 more than (iii)) fit inside AY2's word budget.
 - A cap below 25% would make (iii) clumsy.
 - **Where (iii) wins:** literal truth and IPS economy. If the team prefers those, or finds the scaling hard to explain in
   its own words, (iii) is fully defensible. With the T-bill trade (and a rung if listed) it can still give three notes.
@@ -130,17 +130,17 @@ logged-in Trading Details page before the first order. Earlier fills also give t
     points a year across sources (AX2 C2).
   - On one input set, stocks at 50-70% add about +$11-14k in the middle but cost about $41-56k at p5 versus
     Treasuries only (ASM).
-  - D6's own rule ("the most stock that still leaves about 19 in 20 paths with every dollar she put in") picks 60%
-    under JPM and 50% under Vanguard's midpoint. Applied under both published forecasts, it picks 50% (INT synthesis;
-    D6, ASM).
+  - D6's own rule (hold the most stock that still leaves about a 19-in-20 chance that the growth money ends 2033 with
+    at least every dollar Laura put in) picks 60% under JPM and 50% under Vanguard's midpoint. Applied under both
+    published forecasts, it picks 50% (INT synthesis; D6, ASM).
 - **For 60/40 (D6; D13c; D3 M034; CLAUDE.md):**
   - It is the team's recorded provisional call.
   - D6's rule picks 60% under JPM, and 60% is at the edge under Vanguard (5.4% versus a 5% threshold, ASM).
   - The plan already looks cautious for someone whose risk words are about taking the jump (D13c N1; AY2 C5). A
     growth share set near the minimum "to look safe" should be avoided.
   - D3: 40-60% are all defensible.
-- **T1 call: 50/50, medium-low confidence.** It holds under both published houses. It is simpler to say ("half of the
-  money the promise does not need"). It protects the bad case that feeds the 2031 promise.
+- **T1 call: 50/50, medium-low confidence.** It holds under both published houses. It is simpler to explain (stocks are
+  exactly half of the money the promise does not need). It protects the bad case that feeds the 2031 promise.
   - The IPS reason must rest on what does not change (the 2031 promise; a flat median across houses), not on this
     year's valuations (AX2 C7).
   - The Guide's "should not be rewritten simply because markets move" applies after the IPS, so a research-based change
