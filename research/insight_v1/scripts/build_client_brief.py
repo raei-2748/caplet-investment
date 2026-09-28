@@ -16,7 +16,7 @@ import tempfile
 import pypdfium2
 
 sys.path.insert(0, os.path.dirname(__file__))
-from brief_insights import PHASE1_EXTRA, PHASE4, PHASE5, OPEN_DECISIONS  # noqa: E402
+from brief_insights import sections  # noqa: E402
 
 OUT = "research/insight_v1/Team_Caplet_Strategy_Brief.pdf"
 CHROME = "/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell"
@@ -196,8 +196,8 @@ ul, ol {{ margin: 0 0 8px 0; padding-left: 17px; }} li {{ margin: 2px 0; break-i
 .big b {{ display: block; font-size: 16pt; font-weight: normal; }}
 .big span {{ font-size: 8.3pt; color: {MUTED}; }}
 .muted {{ color: {MUTED}; }}
-.toc td {{ padding: 6px 10px 6px 0; }} .toc td:last-child {{ text-align: right; width: 12%; color: {MUTED}; }}
-.toc tr.p td {{ font-weight: bold; border-bottom: 1px solid {INK}; padding-top: 14px; }}
+.toc td {{ padding: 3px 10px 3px 0; }} .toc td:last-child {{ text-align: right; width: 12%; color: {MUTED}; }}
+.toc tr.p td {{ font-weight: bold; border-bottom: 1px solid {INK}; padding-top: 10px; }}
 .cover {{ page: cover; height: 296mm; padding: 24mm; position: relative; }}
 .cover h1 {{ font-size: 28pt; margin-top: 70mm; }}
 .cover .sub {{ font-size: 12pt; color: {MUTED}; }}
@@ -214,6 +214,9 @@ def sec(part, title, body):
 
 def bullets(items):
     return "<ul>" + "".join(f"<li>{i}</li>" for i in items) + "</ul>"
+
+
+PHASE1_EXTRA, PHASE4, PHASE5, OPEN_DECISIONS = sections(hbars, bullets)
 
 
 # ---- Executive summary ----
@@ -364,26 +367,25 @@ trivial or already answered, and at least two of three sceptics agreed it should
 <div class="note">Why work this way? It stops a clever plan being built on an unchecked fact. Every figure in this report
 can be traced to an official document, a checked source, or a model we can re-run.</div>""")
 
-sec(P2, "Phase 1 · Foundations: what the rules and facts really say", f"""
-<p>We broke every official document into 324 numbered lines so that any claim can point to its exact sentence, checked
-market facts at their original sources, mapped everyone with a stake in the plan, and set trading guardrails.</p>
+sec(P2, "Phase 1 · Foundations: the real rules and facts", f"""
+<p>We logged every official document as 324 numbered lines, checked market facts at their sources, mapped everyone
+with a stake in the plan, and set trading guardrails.</p>
 <h2>This year's trading rules are public</h2>
 <p>$300,000 of virtual cash (the same as Laura's first deposit), up to 200 trades, any listed fund or U.S. government
 bond, no minimum number of sectors, no day trading, and notes that cannot be edited once saved. The limit on any one
-holding is visible only after logging in.</p>
+holding is visible only after logging in, and a common 25% limit would block our largest fund, so it is checked first. Two official documents, the 2026-27 Competition Guide and Infographic,
+were missing from our files and are now filed; the Infographic says "Strong teams explain the reasoning, assumptions,
+and tradeoffs behind their decisions." Last year about 2,300 of 6,300+ registered teams finished.</p>
 <h2>$300,000 is only just enough</h2>
 <p>The ten payment bonds cost about $294,000, leaving about $5,600 spare. Earlier in 2026 the same bonds cost more.</p>
 {knife_edge()}
-<p class="cap">Trading days in 2026 up to 25 September.</p>
+<p class="cap">Trading days in 2026 up to 25 September, for the ladder of bonds we would actually buy.</p>
 <h2>Market facts, checked at the source</h2>
 {bullets(["The U.S. central bank raised its rate to 3.75-4.00% on 16 September 2026. The 10-year government bond yield was 5.17% on 25 September (an online summary claiming 4.22% was wrong).",
-          "Taiwan: prices up 2.04% over the year to August; building costs up 6.53% over the year but about 3.5% a year since 2021.",
-          "JPMorgan expects world stocks to return about 7.0% a year over the long run, and cash about 3.1%."])}
+          "Taiwan: prices up 2.04% in the year to August; building costs up 6.53%, but about 3.5% a year since 2021.",
+          "JPMorgan expects long-run returns of about 7.0% a year for world stocks and 3.1% for cash."])}
 {PHASE1_EXTRA}
-<h2>Two official documents were missing</h2>
-<p>The 2026-27 Competition Guide and Infographic are now filed. The Infographic says what judges reward: "Strong teams
-explain the reasoning, assumptions, and tradeoffs behind their decisions." Last year about 2,300 of 6,300+ registered
-teams finished.</p>""")
+""")
 
 sec(P2, "Phase 2 · Questions: looking from every angle", f"""
 <p>Twenty question-writers, working in pairs from ten angles, produced 472 questions and collected 271 quotes.</p>
