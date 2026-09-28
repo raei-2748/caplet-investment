@@ -185,6 +185,8 @@ class Cfg:
     cut_frac: float = 0.5                # size of the cut (0.5 -> $75k, 1.0 -> $0)
     rho_deposit: float = 0.0             # correlation of the cut with the 2027 stock shock (ASSUMPTION range 0-0.9)
     rho_stock_rate: float = 0.0          # corr(2027 stock shock, 2027 yield change); JPM ~0; 2000-21 era ~+0.65
+    rho_pre_stock: float = 0.0           # corr(2027 stock shock, the Sep-Dec 2026 yield change): markets pricing a
+                                         # 2027 recession early (ASSUMPTION scenario, 0 = independent)
     # (c) fees
     fund_expense: float = 0.0            # sleeve fund expense ratio per year (e.g. 0.00048 = 60% VT + 40% VGSH)
     adv_fee_sleeve: float = 0.0          # advisory fee on sleeve + floor, per year (ASSUMPTION 0/0.5/1.0%)
@@ -197,6 +199,7 @@ class Cfg:
     tails: str = "normal"                # 'normal' | 't'
     t_nu: float = 5.0
     t_clip: float = 8.0
+    t_scale: float = 1.0                 # 1.0 keeps the variance; ~1.09 (nu=4) keeps the normal model's 5% bad year
     # strategies that buy payments in 2033 (G, partial locks): verified convention
     rate33_mean: float = 0.0526
     rate33_sd: float = 0.010
@@ -223,7 +226,7 @@ def returns(cfg, d):
     rho = CORR[(EQ_CORR_FAMILY[cfg.eq_asset], BOND_CORR_FAMILY[cfg.bd_asset])]
     xe, xb = d["z1"], rho * d["z1"] + np.sqrt(1 - rho ** 2) * d["z2"]
     if cfg.tails == "t":                                     # multivariate t, unit variance, clipped
-        scale = np.sqrt((cfg.t_nu - 2) / d["chi"])
+        scale = cfg.t_scale * np.sqrt((cfg.t_nu - 2) / d["chi"])
         xe = np.clip(xe * scale, -cfg.t_clip, cfg.t_clip)
         xb = np.clip(xb * scale, -cfg.t_clip, cfg.t_clip)
     me, se = asset_params(cfg.eq_asset)
@@ -235,7 +238,7 @@ def returns(cfg, d):
 
 def rate_path(cfg, d):
     """Parallel par-curve shifts (pp): dy0 before the Jan-2027 purchase, dys[:, y] during year y (2027 = 0)."""
-    dy0 = cfg.pre_rate_sd * d["zpre"]
+    dy0 = cfg.pre_rate_sd * (cfg.rho_pre_stock * d["z1"][:, 0] + np.sqrt(1 - cfg.rho_pre_stock ** 2) * d["zpre"])
     e = d["zy"].copy()
     e[:, 0] = cfg.rho_stock_rate * d["z1"][:, 0] + np.sqrt(1 - cfg.rho_stock_rate ** 2) * d["zy"][:, 0]
     return dy0, cfg.yearly_rate_sd * e
@@ -291,7 +294,7 @@ def simulate(cfg=Cfg(), strategy="L", lock_frac=1.0, ret=None):
         rung27 = rung27 * lock_frac
     order = rung27[:, ::-1]                                               # longest first
     cum_before = np.cumsum(order, axis=1) - order
-    frac_long_first = np.clip((300_000 - cum_before) / order, 0, 1)
+    frac_long_first = np.clip((300_000 - cum_before) / np.where(order > 0, order, 1.0), 0, 1)
     frac = frac_long_first[:, ::-1]                                       # funded fraction per rung (2033..2042)
     cost27 = (rung27 * frac).sum(1)
     unfunded = 1 - frac                                                   # share of each rung still to buy
@@ -416,8 +419,49 @@ def range_eval(res, top_rule, plan_growth, contribution="all", share=1.0, k_exce
 
 
 # ------------------------------------------------------------------ printed tables
+# The D3 "central" case: every VERIFIED real-world feature on, every judgement parameter at the team's provisional
+# value. Nov-15 STRIPS ladder; Sep-Dec 2026 rate risk at 2026's realised volatility; VT-like global equity and a
+# short-Treasury sleeve (what WInS holds); fund expense ratios. No advisory fee (the team has not set one).
+CENTRAL = Cfg(ladder="strips", pre_rate_sd=0.37, eq_asset="ACWI", bd_asset="SHORT_GC", fund_expense=0.00048)
+
+
 def fmt(ps):
     return "/".join(f"${v}k" for v in ps)
+
+
+def tornado(base_cfg=Cfg()):
+    """One switch at a time vs the verified base: change in 2033 surplus p5/p50/p95 and payment risk."""
+    b = simulate(base_cfg)
+    b5, b50, b95 = (np.percentile(b["surplus"], q) for q in (5, 50, 95))
+    rows = [
+        ("(a) Nov-15 STRIPS ladder, no rate move", dict(ladder="strips")),
+        ("(a) rates move before purchase, sd 37bp (exact ladder)", dict(pre_rate_sd=0.37)),
+        ("(a) both, sd 37bp", dict(ladder="strips", pre_rate_sd=0.37)),
+        ("(a) both, sd 48bp (1990-2026 98-day moves)", dict(ladder="strips", pre_rate_sd=0.48)),
+        ("(b) deposit $75k", dict(deposit=75_000)),
+        ("(b) deposit late (2029)", dict(deposit_year=2)),
+        ("(b) deposit missing", dict(deposit=0.0)),
+        ("(b) deposit cut to $0 in 25% of paths, rho 0.6", dict(cut_prob=0.25, cut_frac=1.0, rho_deposit=0.6)),
+        ("(c) fund expense 0.048%", dict(fund_expense=0.00048)),
+        ("(c) + advisory 0.5% on sleeve", dict(fund_expense=0.00048, adv_fee_sleeve=0.005)),
+        ("(c) + advisory 1.0% on sleeve", dict(fund_expense=0.00048, adv_fee_sleeve=0.01)),
+        ("(c) + advisory 0.5% on sleeve and ladder", dict(fund_expense=0.00048, adv_fee_sleeve=0.005, adv_fee_ladder=0.005)),
+        ("(c) + advisory 1.0% on sleeve and ladder", dict(fund_expense=0.00048, adv_fee_sleeve=0.01, adv_fee_ladder=0.01)),
+        ("(d) AC World equity", dict(eq_asset="ACWI")),
+        ("(d) AC World + short govt/credit (WInS-like)", dict(eq_asset="ACWI", bd_asset="SHORT_GC")),
+        ("(d) AC World + short Treasuries at 3.5%", dict(eq_asset="ACWI", bd_asset="SHORT_TSY_LOW")),
+        ("(d) AC World + short Treasuries at 4.9% (forwards)", dict(eq_asset="ACWI", bd_asset="SHORT_TSY_FWD")),
+        ("(d) Vanguard-midpoint U.S. equity 5.2%", dict(eq_asset="US_LC_VANGUARD")),
+        ("(e) Student-t nu=4, same variance", dict(tails="t", t_nu=4.0)),
+        ("(e) Student-t nu=4, same 5% bad year (x1.09)", dict(tails="t", t_nu=4.0, t_scale=1.09)),
+        ("2031 2-year yield 3.0% (not 4.81%)", dict(y2_2031=0.03)),
+    ]
+    out = []
+    for name, kw in rows:
+        r = simulate(replace(base_cfg, **kw))
+        q5, q50, q95 = (np.percentile(r["surplus"], q) for q in (5, 50, 95))
+        out.append((name, q5 - b5, q50 - b50, q95 - b95, np.mean(r["short_face"] > 0)))
+    return (b5, b50, b95), out
 
 
 def main():
@@ -429,6 +473,23 @@ def main():
     print(f"  2031 floor p5/50/95 {fmt(pct(base['floor33']))} (verified $127k/$165k/$217k)")
     g = simulate(Cfg(), "G")
     print(f"  growth-first miss {np.mean(g['surplus'] < 0) * 100:.1f}% (verified 3.2%); surplus {fmt(pct(g['surplus']))}")
+
+    c = simulate(CENTRAL)
+    print("\nD3 CENTRAL CASE (STRIPS ladder + Sep-Dec 2026 rate risk + AC World / short govt-credit + fund expenses)")
+    print(f"  2033 surplus p5/25/50/75/95 {fmt(pct(c['surplus'], (5, 25, 50, 75, 95)))}; 2031 floor p5/50/95 "
+          f"{fmt(pct(c['floor33']))}; P(ladder > $300k in Jan 2027) {np.mean(c['gap27'] > 0) * 100:.0f}%; "
+          f"P(payments short) {np.mean(c['short_face'] > 0) * 100:.1f}% (deposit arrives)")
+    ctl = simulate(Cfg(), "C")
+    ctl_c = simulate(CENTRAL, "C")
+    print(f"  riskless control (all surplus in Treasuries maturing 2033; 2028 part locked at the 2028 rate): "
+          f"verified inputs {fmt(pct(ctl['surplus']))}; central {fmt(pct(ctl_c['surplus']))}")
+
+    print("\nWHAT EACH SWITCH CHANGES (one at a time vs the verified base; 2033 surplus change in $k; payment risk)")
+    (b5, b50, b95), rows = tornado()
+    print(f"  base p5/p50/p95 ${b5 / 1000:.0f}k/${b50 / 1000:.0f}k/${b95 / 1000:.0f}k")
+    print("  switch | d p5 | d p50 | d p95 | P(payments short)")
+    for name, d5, d50, d95, ps in rows:
+        print(f"  {name:52s} | {d5 / 1000:+6.1f} | {d50 / 1000:+6.1f} | {d95 / 1000:+6.1f} | {ps * 100:5.2f}%")
 
     # (a) ------------------------------------------------------------------------------------------------
     print("\n(a) RATE RISK BEFORE THE JANUARY 2027 PURCHASE (longest rungs first; short rungs topped up from the 2028 "
@@ -444,17 +505,23 @@ def main():
     r = simulate(Cfg(ladder="strips", pre_rate_sd=0.37, markup=0.0025))
     print(f"  strips + 0.25% broker mark-up (ASSUMPTION), sd 0.37pp: P(cost>$300k) {np.mean(r['gap27'] > 0) * 100:.1f}%; "
           f"surplus {fmt(pct(r['surplus']))}")
+    print("  cost of the Nov-15 STRIPS ladder by parallel move before purchase (gap = part bought from the 2028 deposit):")
+    for bp in (25, 0, -19, -25, -50, -75, -100, -150):
+        cst = TABLES["strip"][1][I0 + bp].sum() if False else interp_rows(TABLES["strip"][1], np.array([bp / 100]))[0].sum()
+        print(f"    {bp:+4d}bp: ${cst:,.0f}; gap ${max(cst - 300_000, 0):,.0f}")
 
     # (b) ------------------------------------------------------------------------------------------------
     print("\n(b) 2028 DEPOSIT SCENARIOS (lock-early; Nov-15 STRIPS; pre-purchase sd 0.37pp) vs growth-first")
-    print("  scenario | L: P(short) | L: mean short if short | L: surplus p5/p50/p95 | G: miss")
+    print("  scenario | L: P(short) | L: mean short (face) if short | L: surplus p5/p50/p95 | G: miss")
     base_a = dict(ladder="strips", pre_rate_sd=0.37)
     scen = [("full $150k 2028", {}), ("$75k 2028", {"deposit": 75_000}), ("late: $150k in 2029", {"deposit_year": 2}),
             ("missing", {"deposit": 0.0}),
             ("cut to $75k in 25% of paths, rho 0.6", {"cut_prob": 0.25, "cut_frac": 0.5, "rho_deposit": 0.6}),
             ("cut to $0 in 25% of paths, rho 0.6", {"cut_prob": 0.25, "cut_frac": 1.0, "rho_deposit": 0.6}),
-            ("cut to $0 in 25%, rho 0.6, stock-rate +0.65", {"cut_prob": 0.25, "cut_frac": 1.0, "rho_deposit": 0.6,
-                                                          "rho_stock_rate": 0.65})]
+            ("cut to $0 in 25%, rho 0.6, pre-rate link 0.5", {"cut_prob": 0.25, "cut_frac": 1.0, "rho_deposit": 0.6,
+                                                             "rho_pre_stock": 0.5}),
+            ("cut to $0 in 25%, rho 0.9, pre-rate link 0.8", {"cut_prob": 0.25, "cut_frac": 1.0, "rho_deposit": 0.9,
+                                                             "rho_pre_stock": 0.8})]
     for name, kw in scen:
         r = simulate(Cfg(**base_a, **kw))
         gg = simulate(Cfg(**kw), "G")
@@ -462,7 +529,7 @@ def main():
         ms = sh[sh > 0].mean() if (sh > 0).any() else 0
         print(f"  {name:44s} | {np.mean(sh > 0) * 100:5.2f}% | ${ms:,.0f} | {fmt(pct(r['surplus']))} | "
               f"{np.mean(gg['surplus'] < 0) * 100:.1f}%")
-    print("  correlation sensitivity (deposit cut to $0 in 25% of paths; L with (a) on):")
+    print("  deposit-cut correlation sensitivity (cut to $0 in 25% of paths):")
     for rho in (0.0, 0.3, 0.6, 0.9):
         r = simulate(Cfg(**base_a, cut_prob=0.25, cut_frac=1.0, rho_deposit=rho))
         gg = simulate(Cfg(cut_prob=0.25, cut_frac=1.0, rho_deposit=rho), "G")
@@ -483,6 +550,8 @@ def main():
     r = simulate(Cfg(deposit=0.0, adv_fee_ladder=0.01, adv_fee_sleeve=0.01))
     print(f"  stress: 1% on everything AND deposit missing: P(fees exceed the leftover money) "
           f"{np.mean(r['breach'] > 0) * 100:.0f}%, mean dent ${r['breach'][r['breach'] > 0].mean():,.0f}")
+    ctl_fee = simulate(Cfg(adv_fee_sleeve=0.0), "C")
+    print(f"  riskless control has no advisory fee: median ${np.median(ctl_fee['surplus']) / 1000:.0f}k")
 
     # (d) ------------------------------------------------------------------------------------------------
     print("\n(d) ASSETS (what the sleeve holds)")
@@ -493,14 +562,14 @@ def main():
         print(f"  {eq:15s} | {bd:13s} | {fmt(pct(r['surplus']))} | {fmt(pct(r['floor33']))}")
 
     # (e) ------------------------------------------------------------------------------------------------
-    print("\n(e) FAT TAILS (multivariate Student-t, same median and sd of log returns, clipped at 8 sd)")
+    print("\n(e) FAT TAILS (multivariate Student-t; median of log returns unchanged; clipped at 8 sd)")
     print("  tails | 1-yr equity p1/p5 | simulated arithmetic mean | surplus p1/p5/p50/p95 | floor p5")
-    for tails, nu in (("normal", 5.0), ("t", 6.0), ("t", 4.0), ("t", 3.0)):
-        cfg = Cfg(tails=tails, t_nu=nu)
+    for tails, nu, sc in (("normal", 5.0, 1.0), ("t", 6.0, 1.0), ("t", 4.0, 1.0), ("t", 3.0, 1.0), ("t", 4.0, 1.09)):
+        cfg = Cfg(tails=tails, t_nu=nu, t_scale=sc)
         rq, _ = returns(cfg, draws(cfg))
         r = simulate(cfg)
-        print(f"  {tails}{'' if tails == 'normal' else int(nu)} | {np.percentile(rq, 1) * 100:.1f}%/"
-              f"{np.percentile(rq, 5) * 100:.1f}% | {rq.mean() * 100:.2f}% | "
+        lab = "normal" if tails == "normal" else f"t{int(nu)}" + (" x1.09" if sc != 1.0 else "")
+        print(f"  {lab:9s} | {np.percentile(rq, 1) * 100:.1f}%/{np.percentile(rq, 5) * 100:.1f}% | {rq.mean() * 100:.2f}% | "
               f"{fmt(pct(r['surplus'], (1, 5, 50, 95)))} | ${pct(r['floor33'], (5,))[0]}k")
 
     # (f) ------------------------------------------------------------------------------------------------
@@ -522,26 +591,33 @@ def main():
     print("  robustness: range set with the JPM-normal planning model (80% floor, p80 / p90 top); outcomes from:")
     plan = growth_2y(Cfg())
     for name, cfg in (("same model", Cfg()), ("Student-t nu=4", Cfg(tails="t", t_nu=4.0)),
+                      ("Student-t nu=4 x1.09", Cfg(tails="t", t_nu=4.0, t_scale=1.09)),
                       ("Vanguard-midpoint equities", Cfg(eq_asset="US_LC_VANGUARD")),
-                      ("equities 1.7pp/yr weaker", Cfg(eq_mu_shift=np.log(1.05) - np.log(1.067)))):
+                      ("equities 1.7pp/yr weaker", Cfg(eq_mu_shift=np.log(1.05) - np.log(1.067))),
+                      ("equities 3pp/yr stronger", Cfg(eq_mu_shift=np.log(1.097) - np.log(1.067)))):
         r = simulate(cfg)
         e80, e90 = range_eval(r, ("pct", 80), plan), range_eval(r, ("pct", 90), plan)
         print(f"    {name:28s}: P(within) p80-top {e80['p_within'] * 100:.1f}%, p90-top {e90['p_within'] * 100:.1f}%")
 
     # (g) ------------------------------------------------------------------------------------------------
-    print("\n(g) 2033 CONTRIBUTION RULE vs FLEXIBILITY KEPT (80% floor; top = p80 rule)")
+    print("\n(g) 2033 CONTRIBUTION RULE vs FLEXIBILITY KEPT (80% floor; top = p80 rule; verified base)")
     print("  rule | contribution p5/p50/p95 | flexibility p5/p50/p95 | flex share of surplus (median) | P(flex=0) | "
           "P(within range)")
     r = simulate(Cfg())
     for name, kw in (("give everything", dict(contribution="all")), ("cap at the top", dict(contribution="cap")),
                      ("90% of surplus", dict(contribution="share", share=0.9)),
                      ("80% of surplus", dict(contribution="share", share=0.8)),
+                     ("90% of surplus, capped", dict(contribution="share_cap", share=0.9)),
                      ("80% of surplus, capped", dict(contribution="share_cap", share=0.8)),
                      ("floor + half the excess", dict(contribution="excess", k_excess=0.5))):
         e = range_eval(r, ("pct", 80), plan, **kw)
         fl = e["flex"]
         print(f"  {name:24s} | {fmt(pct(e['C']))} | {fmt(pct(fl))} | {np.median(fl / r['surplus']) * 100:.0f}% | "
               f"{np.mean(fl < 1) * 100:.0f}% | {e['p_within'] * 100:.1f}%")
+    print("  purchasing power of the median contribution (80% of surplus rule): 2026 U.S. dollars at JPM 2.5% "
+          f"inflation ${np.median(0.8 * r['surplus']) / 1.025 ** 7 / 1000:.0f}k; at the Taiwan construction-cost trend "
+          f"3.54%/yr (F-508) ${np.median(0.8 * r['surplus']) / 1.0354 ** 7 / 1000:.0f}k (nominal "
+          f"${np.median(0.8 * r['surplus']) / 1000:.0f}k)")
 
 
 if __name__ == "__main__":

@@ -221,3 +221,38 @@ yield pages (script-rendered, no data in the page text).
   (currencies). You state them as ranges and label the date and rate you used.
 - A hedge has a price: locking NT$ early costs about 6% today, roughly the size of the risk it removes. Sometimes the
   right decision is to disclose the risk rather than pay to remove it.
+
+---
+
+## Audit corrections (AX2)
+
+Auditor AX2 (cluster auditor: equity, Taiwan/FX, compliance), 2026-09-28. The text above is left unchanged; where it
+conflicts with these corrections, the corrections win. Full audit: `research/insight_v1/phase_D/audit_markets_rules.md`.
+Check script: `research/insight_v1/scripts/AX2_audit_checks.py`.
+
+**Reproduction.** `D4_facility_purchasing_power.py` re-run 2026-09-28 with live FRED (DEXTAUS 1983-10-03 to
+2026-09-18, latest 31.82; SP500 10 years) and the live DGBAS CCI platform (latest 119.51; fit error 0.164 pts): every
+number in this file reproduces (market sd 0.164/0.027; FX sd 0.068/0.064/0.096/0.165; CCI sd 0.058/0.113; variance
+shares 61/9/29 and 8/53/39; drift -11%/-12%/-20%/-33%; correlations -0.38, -0.60, -0.36; crisis +4.4%/+0.2%; NT$ band
+-11.4%/+12.7%; 51/27/7%; forward -5.9%; 23%). **Sources re-opened:** case L77, L114-120, L146-148, L164, L169
+(VERIFIED-REPO-FILE); FRED and DGBAS through the live run (VERIFIED-PRIMARY inputs, derived outputs). Not re-opened:
+Wikipedia crisis dates (secondary) and the Taiwan 2-year yield 1.66% (SNIPPET-UNVERIFIED; the page is script-rendered).
+
+| # | Severity | Issue | Correction |
+|---|---|---|---|
+| C1 | important | **Scope.** Brief section 17 (team leader, 2026-09-28, written after this file) limits the run to the Trading Notes and the IPS. Implications 1-5 are Final Report material, and implication 5 is a chart spec, which section 17 bans ("no ... visuals/chart specs"). | Move implications 1-5 to one-line "later (after Nov 9)" entries. What serves the **IPS** now, as rules to fix before Nov 6 (method only, no figures): (a) the promise, the reserve and the 2031 range are stated in **US$**, and any NT$ figure is dated and illustrative; (b) facility money stays in US$ Treasuries until the facility decision, with no currency conversion or hedge before then; (c) the IPS names the assumption that Taiwan building costs are expected to rise, so a fixed US$ amount buys less (case L146-148). **TN: none. WInS: none** (EWT stays dropped). |
+| C2 | important | **The 2031 ranking depends on the open floor share.** "In 2031 the market is the smallest factor" holds because the model locks 80% of the growth money. | AX2 re-run (same method; AX2 script section 1): 2031-view market log sd at 60% sleeve equity = 0.027 (80% floor), 0.040 (70%), 0.054 (60%), 0.067 (50%); at 50% equity 0.023/0.034/0.045/0.056. FX is 0.068 and construction 0.058. So the market is the smallest factor only for floor shares of about **70% or more**, and at 50% it ties FX. Change the confidence line from "high (robust ...)" to "high **given a floor share of 70% or more**; the floor share is an open team parameter (ticket section 8)". |
+| C3 | important | **The rules reason for not locking NT$ is missing, and the 23% figure is a counterfactual.** A two-year NT$ forward is a derivative. WInS bans derivatives, and the SMApply FAQ lists permitted investments "for BOTH contributions" (R-AN15; reading 1 is the brief's safe assumption), so a forward is out of bounds for the plan as well. The "paid off in only 23% of windows" figure applies *today's* 5.9% rate gap to every past window. The real gap varied (U.S. rates near zero in 2009-2015). | The conclusion "don't lock NT$ in 2031" stands on the rules first and cost second. Say "5.9% fewer NT$ than today's spot rate; that is a cost only if the exchange rate would otherwise not move (random-walk ASSUMPTION)". Label the 23% as "if today's rate gap had applied in every past window". Taiwan 2-year 1.66% stays SNIPPET-UNVERIFIED. Define covered interest parity: the forward rate is set by the gap between the two countries' interest rates. |
+| C4 | minor | **The today-view ranking depends on the FX sample.** With FX since 1983 the 6.3-year FX sd (0.165) ties the market (0.164). | Summary item 1: "largest spread, or tied with FX on the 1983 sample". |
+| C5 | minor | **"51% of past 2-year windows below its dated NT$ value" carries no information.** For a zero-drift exchange rate it is a coin flip. | Lead with "more than 5% below in 27% of windows, more than 10% below in 7%". |
+| C6 | minor | **Conflation** ("That is what 'protecting the commitment' looks like"). The case's operating commitment (the ten payments) is protected by the ladder. The 2031 floor protects the credibility of the facility range (case L114-120). | Keep the two apart in every spec. |
+| C7 | minor | **"A risk that is certain to erode value."** CCI fell in 2009, 2013, 2015 and 2016 (script, calendar-year growth), and the 6.3-year p5 is -0.6%. | Say "expected to erode". |
+| C8 | minor | **Implication 7** uses +8.1% as "wages". It is the CCI *construction* wage class (F-508), not wages in general. | Do not use it for the residency's running costs. |
+| C9 | minor | "Most teams will skip" (summary item 2) is unsupported. | Delete. |
+| C10 | minor | **Jargon and labels.** "log sd", "variance share", "bootstrapped" and "square-root-of-time" are undefined. "DERIVED" is not a brief label. | Define them or cut them. Map DERIVED to "ASSUMPTION method on VERIFIED-PRIMARY inputs". |
+| C11 | minor | **Inputs use the 60% equity sleeve.** D2 proposes 50%. | At 50% the 2031-view market sd falls from 0.027 to 0.023 (80% floor). The rankings do not change. |
+
+**Status after audit.** All numbers reproduce (script outputs on VERIFIED-PRIMARY inputs; model parts ASSUMPTION).
+Summary items 1 and 3 are conditional (C2, C4). Item 4's conclusion survives with a stronger, rules-based reason (C3).
+Items 2 and 5 stand with wording fixes (C7, C5). The deliverable routing changes: only the three IPS rules in C1 go
+forward now; everything else waits until after Nov 9.

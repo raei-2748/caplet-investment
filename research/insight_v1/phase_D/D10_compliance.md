@@ -327,3 +327,47 @@ advance let you act later without anyone asking whether you changed your mind af
    only fall below 100% before the ladder is bought, so the real test is simply "is the promise fully bought?"
 4. **Format is part of the strategy.** Two double-spaced pages hold about 550 words only if the layout is tight. Test
    the PDF early, because a page too many means the strategy is never read.
+
+---
+
+## Audit corrections (AX2)
+
+Auditor AX2 (cluster auditor: equity, Taiwan/FX, compliance), 2026-09-28. The text above is left unchanged; where it
+conflicts with these corrections, the corrections win. Full audit: `research/insight_v1/phase_D/audit_markets_rules.md`.
+Check script: `research/insight_v1/scripts/AX2_audit_checks.py`.
+
+**Reproduction.** Both D10 scripts were re-run on 2026-09-28. The three-book table, positions, commissions, leftover
+$4,438-6,636, VT 0.9-1.3%, equity gaps (+20.5 / 0.0 / +0.9), limit-drift thresholds (101 / 118 / 128bp) and every
+page-fit row in section 2.3 reproduce exactly. The two exceptions are C5 and C6.
+**Sources re-opened 2026-09-28** (fetch helper `--grep`, all YES):
+- SMApply Trading Details: E2, E3, "does not require frequent or same-day trading", the 2x-volume rule and 200 trades.
+- Rules & Roles: the advisor sentence (G1).
+- CFA *Elements of an IPS* (2010): the 2a heading, "no less frequently than annually", 4c "If the policy is not to
+  rebalance, this policy should be documented in the IPS", and "objective course of action".
+- Wharton AI policy: the Works Cited sentence.
+- SMApply FAQ: "Investments permitted (for BOTH contributions)" (line 42 of the page text).
+
+Repo texts re-read (VERIFIED-REPO-FILE): case L4-5, L101-120, L129-133; Guide L60-61, L70-90, L156-159; IPS guide
+L46-75, L82-123; TN guide L12-31, L42-53; SMApply page L49. Not re-opened: the Asset Manager Code quotes (via SH-25/D8),
+B1a's 2021-23 case wording (G3), and the Stock-Trak blog and FAQ (via A4).
+
+| # | Severity | Issue | Correction |
+|---|---|---|---|
+| C1 | **blocking** (for the (ii)/(iii) vote) | **Option (iii) may not produce three executed trades by Oct 23.** With no cap, (iii) has two orders (IEF, TLH). The ticket's duration refresh trades only if the hedge leaves 9.65-10.15 years, and a position-limit response happens only if a cap bites, so neither is guaranteed. The TN guide requires three notes from "trades your team executed in WInS" ("Yes, we will verify this", TN L42, L53). The ticket forbids creating a decision just to get a note. | The lean to (iii) is not decision-ready until the team names its genuine third trade in advance. The plan's own rule supplies one: the 2027 leftover "waits in T-bills" (ticket section 8), so buying BIL or SGOV for the ~2% leftover is a real, plan-consistent trade with a liquidity role (PENDING WInS AVAILABILITY + POSITION-LIMIT CHECK; $25 commission). State the cost as well: under (iii) all three notes are promise or liquidity notes, which is weaker on "a cohesive portfolio strategy" (TN L14-15). The ticket leans (ii) and D10 leans (iii); the team should see both sets of reasons side by side, including this one, before it votes (gate box b). |
+| C2 | important | **"Pass every WInS rule, whatever the position limit" overclaims.** The script tests only no cap, 35% and 25%. Below about 24%, option (iii) would need six or more Treasury funds, and the ticket's fallback is undefined (the script's VGIT/VGLT step does not check the cap). Volumes for the Vanguard funds (VT, VGSH, VGIT, VGLT) are unchecked, and availability is still pending. | Say "passes every published rule under no cap, a 35% cap or a 25% cap; Vanguard volumes and any cap under 25% are unchecked". Add a one-line rule for a cap under 25% before the first order (e.g. more funds at cap-1, re-run script section 1). |
+| C3 | important | **The page-fit numbers are optimistic.** The model compares continuous text height with two full pages, but a line cannot split across a page break (24 whole lines a page on Letter, not 24.4). Word's "Double" for Times New Roman 12 may also be 27.6pt; D10 mentions this but does not put a number on it. | AX2 re-run with D10's own functions, whole lines (AX2 script, section 4): Letter, 5 paragraphs, 0pt spacing: median 93.8% (p95 102.1%) at 26.58pt and **97.8% (p95 106.5%) at 27.6pt**. Letter, 7 paragraphs, 0pt, 27.6pt: **median 100.0%, so it does not reliably fit**. D9's independent script agrees: at 27.6pt there are 0-2 spare lines on Letter (about 525 IPS words at most). Wharton's own sample uses a 24pt line and fits with 8-10 spare. The conclusion holds and is stronger: the layout is tight, so set spacing to 0 and test the exported PDF. Set the word target from the team's real PDF (D9's `--draft` option lays out the team's own words); "about 480 words" may be too many on Letter with Word defaults. |
+| C4 | minor | "The most likely way to lose a semifinal place" ranks risks without evidence. | Say "a real, cheap-to-avoid disqualification risk". |
+| C5 | minor | "Worst order 0.19% of the volume cap". | The script's maximum is **0.17%** (SPTL, 3,724 shares, in the middle path at a 35% cap); for option (iii) it is 0.14%. These figures use 30-day or prior-day volume, not the day's current volume. The margin is so large that the conclusion stands. |
+| C6 | minor | A4 range "89-99%". | The script's A4 medians run **89.5-101.0%**: 9 paragraphs with 8pt spacing and a 0.5in indent overflows. |
+| C7 | minor | **The numbers assume the 60/40 sleeve.** | If D2's 50/50 is adopted, (ii) becomes VT 17.0 / VGSH 16.0. The Jan-2027 equity gap is then **+17.0** (not +20.5), and the real 2028-2030 equity share is **17.0%** (F-409), not 20.4%. |
+| C8 | minor | The chance the ladder costs more than $300k is quoted as 24% only. | Quote the range "about 24-31%" (F-112: 24%; ticket/S4: 30.7%), as brief section 16 does ("roughly 1 in 4 to 1 in 3"). |
+| C9 | minor | **Submission-ready prose.** Section 1.3 gives a quotable sentence ("WInS is her first deposit on the day it is invested"). | Replace it with elements: the date; stand-in funds; no scaling. |
+| C10 | minor | **The "earliest supporters" line is student-era** (Daily Pennsylvanian, 2016-01-28; D13a-N01). It is about entrepreneurship, not about a WInS book. | Label it student-era. Do not use a Laura quote to argue for a book choice (tokenism risk; D13 rules). |
+| C11 | minor | R-AN15 ("Investments permitted (for BOTH contributions)") is not discussed under M005. | Cite it as checked. It concerns which instruments are permitted, not which date WInS shows, so E13 stands. |
+| C12 | minor | "Cash-flow matched, ratio stays at 100%" is true only for the real STRIPS ladder. | The WInS funds are duration-matched stand-ins with a twist error of $1.5-2.8k (ticket section 3). Say so wherever the funded-ratio point is applied to WInS. |
+| C13 | minor | "A missing one can cost the whole scenario analysis its legitimacy" overstates. | Say "a response not authorised in the IPS in advance may read as a post-freeze change (Guide L158)". |
+
+**Status after audit.** The M005 answer stands with C2: both books comply under the caps tested, one IPS sentence must
+name the date, and the middle path is dropped. The lean to (iii) is **not decision-ready** until C1 is attached. The
+M013 keep/cut table stands, and every quote behind it was re-verified. For the page fit, the direction is confirmed
+but the numbers are downgraded to "optimistic by about 1.5-6 points" (C3).
