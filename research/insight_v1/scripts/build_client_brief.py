@@ -188,8 +188,8 @@ p {{ margin: 0 0 8px 0; }}
 table {{ width: 100%; border-collapse: collapse; font-size: 9.3pt; margin: 6px 0 12px 0; }}
 tr {{ break-inside: avoid; }}
 th {{ text-align: left; font-weight: bold; border-bottom: 1px solid {INK}; padding: 4px 10px 4px 0; }}
-td {{ border-bottom: 1px solid {RULE}; padding: 5px 10px 5px 0; vertical-align: top; }}
-ul, ol {{ margin: 0 0 8px 0; padding-left: 17px; }} li {{ margin: 3px 0; break-inside: avoid; }}
+td {{ border-bottom: 1px solid {RULE}; padding: 4px 10px 4px 0; vertical-align: top; }}
+ul, ol {{ margin: 0 0 8px 0; padding-left: 17px; }} li {{ margin: 2px 0; break-inside: avoid; }}
 .note {{ border-left: 2px solid {ACCENT}; padding: 2px 0 2px 12px; margin: 12px 0; break-inside: avoid; }}
 .big {{ display: flex; gap: 24px; margin: 14px 0 8px 0; break-inside: avoid; }}
 .big div {{ flex: 1; border-top: 1px solid {INK}; padding-top: 8px; }}
@@ -460,8 +460,8 @@ sec(P2, "Phase 6 · Decision: what changed from the earlier plan", f"""
           "Inflation-linked U.S. bonds: they track U.S. prices, not Taiwan building costs.",
           "A Taiwan fund, AI or theme tilts: concentration and tokenism.",
           "Locking growth in 2031 (the earlier design): kept as the documented alternative for the team's vote."])}
-<p class="muted">Kept unchanged from the team's original thinking: buy all ten payments first and hold them to the end;
-latest payments first; the only remaining risk is a U.S. default; flexibility after 2033; the pre-mortem discipline.</p>""")
+<p class="muted">Kept from the team's original thinking: buy all ten payments first, latest first, and hold them to the end.</p>
+""")
 
 sec(P2, "Phases 7 and 8 · Blind test and final check", f"""
 <h2>Phase 7 · Blind test</h2>

@@ -87,6 +87,11 @@ skeptic filters -> 12 audited specialists -> red teams -> chief strategist.
   stand-in ~24.3% via the 15-Nov-2032 note or IBTM / VT 8.7%), every ticker pending the WInS listing and position-limit
   check. Three notes: TLH (supported + tested), building minimum (refined only if the REC/ALT vote is logged first),
   VT. Notes may be capped at 300 characters (test at zero risk first); notes cannot be edited.
+- Readable outputs (2026-09-28): `research/insight_v1/Team_Caplet_Strategy_Brief.pdf` = 27-page client-style report
+  (executive summary, the plan with diagrams, every insight by research phase, decisions; built by
+  `scripts/build_client_brief.py` + `scripts/brief_insights.py`); `Team_Caplet_insight_v1_research_record.pdf` = the
+  full 831-page record. The real Nov-15 ladder cost more than $300k on 176 of 185 trading days of 2026 (173 = idealised).
+  Branch `claude/stoic-planck-lih8tw` (PR #1) merged to `main` on 2026-09-28 at Ray's request.
 - Verified corrections: the real Nov-15 STRIPS ladder costs $294,387 on the 2026-09-25 curve, headroom $5,613 (19bp),
   not $7.7k/27bp; it would cost more than $300k in about 1 in 3 modelled rate paths. The case pull quote is the case's
   words, not verifiable as Laura's; no Laura quotes in the Trading Notes or IPS. 2026-27 Competition Guide and
