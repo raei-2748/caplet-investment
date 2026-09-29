@@ -1,0 +1,4 @@
+scenario,event,announcement,dgs10_start_date,dgs10_start,dgs10_end_date,dgs10_end,dgs10_change_pp,alt_prior_close_change_pp,sp500_start_date,sp500_start,sp500_end_date,sp500_end,sp500_change
+S4a,"S&P (5 Aug 2011, after the close)",2011-08-05,2011-08-05,2.5800,2011-09-02,2.0200,-0.5600,-0.3200,2011-08-05,1199.3800,2011-09-02,1173.9700,-0.0212
+S4b,"Fitch (1 Aug 2023, after the close)",2023-08-01,2023-08-01,4.0500,2023-08-29,4.1200,0.0700,0.2300,2023-08-01,4576.7300,2023-08-29,4497.6299,-0.0173
+S4c,"Moody's (16 May 2025, after the close)",2025-05-16,2025-05-16,4.4300,2025-06-16,4.4600,0.0300,-0.0400,2025-05-16,5958.3799,2025-06-16,6033.1099,0.0125

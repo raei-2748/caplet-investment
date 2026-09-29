@@ -1,0 +1,52 @@
+M5 blind rebuild: cost of certainty and century backtest (MODEL; 28 Sep 2026 curve for 'today')
+====================================================================================================
+Part A. Reproduction of M1 G on the daily 1990-2026 curves (must agree with numbers.yaml):
+  V0_D                                     blind=      289119.2  numbers.yaml=      289119.2  OK
+  cost_2020_median                         blind=     458828.06  numbers.yaml=      458828.0  OK
+  cost_2020_max                            blind=     470249.27  numbers.yaml=      470249.0  OK
+  cost_2020_max_date                       blind=    2020-08-04  numbers.yaml=    2020-08-04  OK
+  cheapest_since_spot                      blind=    2002-05-28  numbers.yaml=    2002-05-28  OK
+  cost_2020_min                            blind=      408089.5  numbers.yaml=      408089.0  OK
+  share_days_le_300k_since_2000_spot       blind=        0.1112  numbers.yaml=        0.1112  OK
+  share_days_le_300k_since_1990_spot       blind=        0.3454  numbers.yaml=        0.3454  OK
+  days_priced_since_2000                   blind=          6688  numbers.yaml=          6688  OK
+
+Part A. Extended series 1871-2026:
+  lowest_since_1871            $  110,213.99  1981-09-30  (fred_cmt)
+  highest_since_1871           $  470,249.27  2020-08-04  (treasury_par)
+  lowest_since_1962            $  110,213.99  1981-09-30  (fred_cmt)
+  highest_since_1962           $  470,249.27  2020-08-04  (treasury_par)
+  n_months_since_1871                              1869
+  share_months_le_V0D_since_1871                   0.2327
+  share_months_le_300k_since_1871                  0.2627
+  share_months_le_V0D_since_1962                   0.5109
+  share_months_le_300k_since_1962                  0.547
+  share_years_median_below_V0D_1871_2026           0.2308
+  n_years_1871_2026                                156
+  share_months_le_V0D_since_1871_adj_median        0.2354
+  share_months_le_V0D_since_1871_adj_p95           0.2376
+  share_months_le_300k_since_1871_adj_median       0.2654
+  share_months_le_300k_since_1871_adj_p95          0.2697
+  years whose median cost was below today's: [1871, 1872, 1873, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000]
+  A4(a) flat/full - 1, 1962-2026 monthly: {'median': 0.00759, 'p05': -0.00839, 'p95': 0.02053, 'n': 777}
+  A4(b) FRED vs Treasury file, first day of month 1990-2026: {'n_months': 441, 'largest_abs_diff_usd': 0.0, 'date': '1990-01-02', 'median_abs_diff_usd': 0.0}
+
+Part B. Backtest checks (today_yields view): today_G=157,929.90, today_Cf=117,193.70, today_fund0=40,736.20, target_fund0=40,736.00, target_Cf=117,194.00, rescaled_world_eq_meanlog_1872_2025=0.07, raw_world_eq_meanlog_1872_2025=0.09, rescaled_us_eq_meanlog_1872_2025=0.07, raw_us_eq_meanlog_1872_2025=0.09
+
+Part B. Summary per view and fund series (149 windows, Y = 1872..2020):
+                 view fund_series  gift_worst  gift_worst_Y  gift_p10  gift_median  gift_p90  gift_best  T33_worst  T33_p10  T33_median  T33_p90  real_gift_worst  real_gift_median  real_T33_worst  real_T33_median share_top_reached  n_short_S_gt_0  largest_S  n_topup_T_gt_0  largest_T  ips_variant_gift_worst  n_C_gt_300k  ladder_cost_C_median  ladder_cost_C_max  ladder_cost_C_max_Y
+                 hist    world_eq      29,498          2020    66,507      131,555   227,009    404,067     29,498   66,507     131,555  362,797           23,392           125,200          23,392          132,030             96.0%               0          0             112    121,027                  29,289          112               338,354            411,482                 2013
+                 hist       us_eq      29,498          2020    66,507      131,555   230,915    363,376     29,498   66,507     131,555  382,104           23,392           124,682          23,392          132,030             94.0%               0          0             112    121,027                  29,315          112               338,354            411,482                 2013
+         today_yields    world_eq     158,969          1928   169,056      175,903   187,368    200,060    172,897  193,858     213,571  256,818           88,002           156,699          97,911          191,798             84.6%               0          0               0          0                 158,969            0               292,418            292,418                 1872
+         today_yields       us_eq     157,825          1929   168,131      175,982   185,556    195,631    170,639  190,266     215,211  247,518           88,922           155,119          99,751          194,512             78.5%               0          0               0          0                 157,825            0               292,418            292,418                 1872
+today_yields_rescaled    world_eq     158,349          1928   167,451      174,092   184,418    196,597    170,319  188,920     206,413  244,791           86,886           154,351          95,679          184,451             75.8%               0          0               0          0                 158,349            0               292,418            292,418                 1872
+today_yields_rescaled       us_eq     157,364          1929   166,676      174,246   183,462    192,944    168,653  186,392     208,938  238,136           87,880           153,603          97,668          187,495             73.2%               0          0               0          0                 157,364            0               292,418            292,418                 1872
+
+Era table (hist view, world_eq):
+      era  n  median_ladder_cost  median_gift  worst_gift  worst_gift_Y  median_T33 share_top_reached  n_topup
+1872-1913 42             346,303      122,016      97,286          1899     122,016             95.2%       39
+1914-1945 32             356,228      110,715      46,879          1941     110,715            100.0%       31
+1946-1981 36             328,108      149,896      54,169          1946     151,341             97.2%       22
+1982-2020 39             301,211      168,310      29,498          2020     199,019             92.3%       20
+
+Conventions: scale-free dollars; no fees; STRIPS-like zero rungs; pre-1962 curves flat at the long rate; annual steps.
