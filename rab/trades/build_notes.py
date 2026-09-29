@@ -254,8 +254,8 @@ NOTES = [
         id="T38", ticker="T 4.500% 15-May-2038", books={"Portfolio": 10, "BookL": 9},
         use="Friday bond order (both books)", rung="T_4.500%_15-May-2038", job="payments", tn_role="tested",
         serves="Laura's 7th payment, $50,000 on 1 Jan 2039 (2027 deposit)",
-        facts=["U.S. Treasury bond 4.500% due 15 May 2038, CUSIP 912810PX0: the latest WInS bond before the payment "
-               "(ends about 7.6 months early)",
+        facts=["U.S. Treasury bond 4.500% due 15 May 2038, CUSIP 912810PX0: the latest Treasury bond maturing before the "
+               "payment (MSPD list, M9; ends about 7.6 months early)",
                "yield check, 28 Sep prices: this bond 14.4bp from the curve (passes); the 4.375% Feb 2038 bond at "
                "99.98 was 92bp off and the 4.5% Feb 2036 at 102.95 was 111bp off (both stale)",
                "the Sheet records this bond's accrued interest as 0.530; about 1.66 is right (fix before 6 Nov)"],
