@@ -1,0 +1,8 @@
+Delta_r: 8565 start dates; p2.5 -4.71, median -0.10, p97.5 +4.90 points; share below -5.06 (r floored at 0): 0.4%
+phi checks: r=y5 -> 0.9965 (spec 0.9965); r=0 -> 0.9755 (spec 0.9755)
+PR-3: h* = 0.025, announced floor A = $145,000; P(phi F < A) = 0.000%
+PR-6 s*: T 0.50, BOOT 0.47, BAYES 0.47, L 0.50; robust s* = 0.47 -> PR-7: s = 0.5 (keep s = 1/2 (0.40 <= s* <= 0.60: evidence does not justify changing a simple rule))
+Pareto T: 120 points, s in [0.00, 0.51], 115 feasible on 200k, 2 dominated by a grid point (28s)
+Pareto BOOT: 120 points, s in [0.00, 0.47], 120 feasible on 200k, 3 dominated by a grid point (26s)
+Pareto BAYES: 120 points, s in [0.00, 0.47], 120 feasible on 200k, 17 dominated by a grid point (32s)
+M4 done in 97s -> /Users/ray/Research/rab-ws/ws2/rab/verification/blind/out/M4

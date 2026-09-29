@@ -1,0 +1,57 @@
+Gate A reproduction (blind curve):
+  V0_nov15               blind      289119.20  locked    289119.20  diff +0.00
+  VA_nov15               blind      292418.11  locked    292418.11  diff +0.00
+  headroom_nov15         blind        7581.89  locked      7581.89  diff -0.00
+  breakeven_bp_nov15     blind          26.20  locked        26.20  diff -0.00
+  V0_exact               blind      287016.47  locked    287016.47  diff -0.00
+  VA_exact               blind      290291.38  locked    290291.38  diff +0.00
+  breakeven_bp_exact     blind          33.22  locked        33.20  diff +0.02
+  V2028_nov15            blind      306524.65  locked    306525.00  diff -0.35
+  V2028_exact            blind      304295.32  locked    304295.00  diff +0.32
+  floor_cost_2028        blind      117193.70  locked    117194.00  diff -0.30
+  B0                     blind       40736.19  locked     40736.00  diff +0.19
+T scale c = 0.1162464 (spec 0.1162464), discarded share 0.268% (spec 0.268%)
+T scale c = 0.1162464; raw draws discarded 0.268%
+Shiller monthly: n=1860, mean log 0.007459 (x12 0.0895), sd 0.04026
+BAYES: fitting StudentT to 155 annual log returns (pymc NUTS, 4 x (1000 + 1000), target_accept 0.9) ...
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [m_h, sigma, nu_prime]
+Sampling 4 chains for 1_000 tune and 1_000 draw iterations (4_000 + 4_000 draws total) took 1 seconds.
+BAYES fit done in 4s; converged=True
+         mean      sd eti89_lb eti89_ub ess_bulk ess_tail r_hat mcse_mean  mcse_sd
+m_h    0.0946  0.0131    0.073     0.12     2599     2567  1.00   0.00026  0.00021
+sigma  0.1566  0.0118     0.14     0.18     2693     2787  1.00   0.00023  0.00016
+nu       18.1    11.5      6.5       39     2621     2864  1.00      0.22      0.3
+L check: median top 174,988 vs analytic 174,952; P(top) 0.7328 vs 0.7325
+E6 reconcile (L, B0=40,400, seed 20260927): total p5/p50/p95 = 182,115 / 206,744 / 249,872 (insight_v1 H8: 182,000 / 207,000 / 250,000; H8 is a rounded 25 Sep figure)
+M3 done in 6s -> /Users/ray/Research/rab-ws/ws2/rab/verification/blind/out/M3
+Delta_r: 8565 start dates; p2.5 -4.71, median -0.10, p97.5 +4.90 points; share below -5.06 (r floored at 0): 0.4%
+phi checks: r=y5 -> 0.9965 (spec 0.9965); r=0 -> 0.9755 (spec 0.9755)
+PR-3: h* = 0.025, announced floor A = $145,000; P(phi F < A) = 0.000%
+PR-6 s*: T 0.50, BOOT 0.47, BAYES 0.47, L 0.50; robust s* = 0.47 -> PR-7: s = 0.5 (keep s = 1/2 (0.40 <= s* <= 0.60: evidence does not justify changing a simple rule))
+Pareto T: 120 points, s in [0.00, 0.51], 115 feasible on 200k, 2 dominated by a grid point (28s)
+Pareto BOOT: 120 points, s in [0.00, 0.47], 120 feasible on 200k, 3 dominated by a grid point (26s)
+Pareto BAYES: 120 points, s in [0.00, 0.47], 120 feasible on 200k, 17 dominated by a grid point (32s)
+M4 done in 97s -> /Users/ray/Research/rab-ws/ws2/rab/verification/blind/out/M4
+base: V_A(0) = 292,418.11 (locked 292,418.11); B0 = 40,736.19 (locked 40,736.19); V_28 = 306,524.65
+X4 d: 2.5%/97.5% = -93.0 / +92.0 bp (n=9123); X5 e: -1.95 / +2.27 points (n=8940)
+tornado base: median top 174,950, p5 166,073, median gift 174,158
+  X4 curve shift to 1 Jan 2027 (bp)          low   143,309  high   194,187  swing   50,878
+  X5 5-year yield change in 2027 (pts)       low   167,901  high   182,227  swing   14,325
+  X6 yearly fee on all assets                low   174,950  high   166,586  swing    8,364
+  X1 stock fund compound return              low   172,963  high   175,656  swing    2,694
+  X2 sd of annual log return                 low   174,951  high   174,950  swing        1
+  X3 tail heaviness 1/nu                     low   174,950  high   174,951  swing        0
+  X7 floor delivery ratio (gift only)        low   174,950  high   174,950  swing        0
+Sobol A top2031: n=180224; S1 luck 0.169 vs assumptions 0.789; ST top: X4 d 0.731, u1 0.079, u2 0.072, u3 0.066
+Sobol A gift2033: n=229376; S1 luck 0.178 vs assumptions 0.773; ST top: X4 d 0.694, u1 0.074, u2 0.068, u3 0.063
+Sobol B: 32768 parameter sets x 4000 luck paths in 111s
+Sobol B ST (median top): X4 d 0.898, X5 e 0.067, X6 fee 0.033, X1 mu_c 0.003, X2 sd_log 0.000, X3 inv_nu 0.000
+Sobol B ST (p5 top):     X4 d 0.917, X5 e 0.045, X6 fee 0.030, X2 sd_log 0.009, X1 mu_c 0.002, X3 inv_nu 0.000
+IPS must state (Sobol B median ST): ['X4', 'X5', 'X6']; p5 ranking ['X4', 'X5', 'X6'] agrees=True; tornado ['X4', 'X5', 'X6'] agrees=True
+floor reading d=+0bp: V_A 292,418; IPS F 150,000 B0 40,736; E6 F 150,000 B0 40,736
+floor reading d=-50bp: V_A 307,082; IPS F 142,612 B0 28,501; E6 F 150,000 B0 22,590
+floor reading d=-100bp: V_A 322,582; IPS F 126,560 B0 22,836; E6 F 150,000 B0 3,626
+M8 done in 116s -> /Users/ray/Research/rab-ws/ws2/rab/verification/blind/out/M8
+307 headline keys -> /Users/ray/Research/rab-ws/ws2/rab/verification/blind/out/blind_headlines.json, /Users/ray/Research/rab-ws/ws2/rab/verification/blind/out/BLIND_HEADLINES.md
