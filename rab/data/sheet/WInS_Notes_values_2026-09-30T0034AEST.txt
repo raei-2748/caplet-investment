@@ -1,0 +1,28 @@
+# Sheet 1EHCJxbFI0UOzNOpOWvDfzNqbK45qWuopZcL7HNN3VPM, tab "WInS Notes", values as displayed.
+# Read-only via the logged-in Chrome browser (tqx=out:html), 2026-09-30 ~00:34 AEST, text copied verbatim by WS1 (WInS account number redacted).
+# The tab records what the team saw in WInS on 29 Sep 2026 (no orders placed). Prices: 28 Sep 2026 closes as WInS
+# displayed them (15-minute delayed data).
+What WInS shows (read 29 Sep 2026, no orders placed) Read from the logged-in WInS account Caplet-[account number redacted]. Prices are 28 Sep 2026 closes as WInS displayed them (15-minute delayed data). Topic Trading window Starting cash Trades Day trading, margin, short selling Security types Finding Trading started 28 Sep 2026 9:30 am ET and ends 6 Nov 2026 4:00 pm ET (39 days left on 29 Sep) $300,000; no weekly deposits; 0% interest on cash 200 allowed; 0 used. Open and cancelled orders do not count Not allowed Stocks and ETFs on many exchanges; bonds limited to US Treasury bonds Where seen Session Rules Session Rules Session Rules; Portfolio FAQ Session Rules Session Rules What it means for us Matches the IPS deadline; the book is frozen on 6 Nov Idle cash earns nothing, so keep cash near 1% The planned book needs about 4 to 5 trades No change The bond page also lists UK, German, French and Dutch exchanges, but the rules allow US Treasuries only
+Minimum buy price $3.00 Session Rules The official Wharton guide says $5; all our ETFs are well above both
+Fractional shares Not allowed Session Rules Round share counts down
+Commission $25 per stock or ETF trade; $10 per bond trade Session Rules Matches the Portfolio tab
+Position limit Stocks and ETFs: 200% per position and per security. Bonds: 100% per security and for all bonds Session Rules No position-limit branch applies; the recommended book can be bought as planned
+Volume rule Orders can take at most half of a security's market volume; larger orders wait Portfolio FAQ Our largest order (TLH, about 1,375 shares) is far below half of 4.45m
+Fills US orders fill at real-time bid/ask; orders placed while the market is closed fill at the next open. Bonds fill at end-of-day prices Portfolio FAQ; trading page Place orders during US hours if you want a known price
+Trade note box 300-character maximum (maxlength on the note box) Trade Notes page Wharton's 413-character example would not fit. Draft notes to 300 characters or less
+Adding notes Notes are added in Preview Order and can also be added or viewed from Order History or Transaction History (Add/View Notes) Portfolio FAQ; Trade Notes page Whether a saved note can be edited later is not confirmed. Treat the first note as final
+2032 Treasury Not listed. The WInS bond list has 43 US Treasuries; none mature between 15 Feb 2031 and 15 Feb 2036 Bonds page drop-down Use IBTM for the building minimum (research choice 2)
+Week 1 email Posted on the dashboard (26-27 Week-One-Email.pdf); opens as a download, not read here Dashboard Someone on the team should read it
+Market context WInS news on 28 Sep: 10-year Treasury yield above 5.25% IEF quote page news Higher yields make the Treasury ladder cheaper than the 25 Sep model price. Rerun the ladder cost before the IPS
+Ticker Name as shown in WInS Last close 28 Sep 2026 Volume 28 Sep 2026
+IEF iShares 7-10 Year Treasury Bond ETF $89.53 11,367,342
+TLH iShares 10-20 Year Treasury Bond ETF $92.75 4,450,770
+IBTM iShares iBonds Dec 2032 Term Treasury ETF $21.76 268,076
+VT Vanguard Total World Stock ETF $158.81 2,631,243
+VGIT Vanguard Intermediate-Term Treasury ETF $56.70 4,616,404
+SPTI State Street SPDR Portfolio Intermediate Term Treasury ETF $27.30 3,239,327
+VTI Vanguard Morningstar Total Stock Market ETF $375.84 3,940,404
+VXUS Vanguard Total International Stock ETF $85.75 6,666,961
+TLT iShares 20+ Year Treasury Bond ETF $78.62 63,463,430
+SPTL State Street SPDR Portfolio Long Term Treasury ETF $24.06 15,539,399
+SGOV iShares 0-3 Month Treasury Bond ETF $100.67 20,998,859

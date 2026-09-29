@@ -1,0 +1,27 @@
+# Sheet 1EHCJxbFI0UOzNOpOWvDfzNqbK45qWuopZcL7HNN3VPM, tab "Book L", values as displayed.
+# Read-only via the logged-in Chrome browser (Google Visualization endpoint, tqx=out:html), 2026-09-30 ~00:33 AEST
+# (2026-09-29 ~10:33 ET), text copied verbatim from the page by WS1. ETF prices in this tab are live GOOGLEFINANCE
+# values at the read time (US market open), so ETF sizes/costs below move with the market; bond clean prices and
+# accrued are typed-in values described as WInS 28 Sep 2026 prices. Column headers (from the connector sample):
+# Pays Laura on 1 Jan | Holding | Type | Ends or matures | Discount factor (28 Sep curve) | Target value today ($) |
+# Price (ETF per share; bond clean per $100) | Accrued interest per $100 face | Size (shares, or face $ for bonds) |
+# Cost ($) | Weight | Note
+Book L: Laura's first deposit as a literal ladder Alternative WInS book for the D3 vote. WInS's $300,000 = Laura's 1 Jan 2027 deposit, dollar for dollar: one holding for each $50,000 payment. The stock fund is absent because it is bought with the 2028 deposit, which WInS never receives. Provisional; nothing traded. Blue text = input. Green = link to the Portfolio tab. Black = formula. Each holding is sized to be worth $50,000 on its payment date with interest reinvested. Inputs Summary
+Starting cash ($) $300,000 Ladder cost ($) $292,244
+Commission per ETF trade ($) $25 Commissions ($) $175
+Commission per bond trade ($) $10 Cash left ($) $7,581
+Payment per year ($) $50,000 Cash left (% of starting cash) 2.5%
+Trades needed 10
+Holdings
+Pays Laura on 1 Jan Holding Type Ends or matures Note
+2033 IBTM ETF 15 Dec 2032 0.729825 $36,491 $21.75 1,678 $36,497 12.2% iShares iBonds Dec 2032 Term Treasury ETF. Also the building-minimum fund in the current plan
+2034 IBTO ETF 15 Dec 2033 0.691509 $34,575 $23.01 1,503 $34,584 11.5% iBonds Dec 2033. Not IBTN, which is an unrelated company in WInS
+2035 IBTP ETF 15 Dec 2034 0.655288 $32,764 $24.07 1,362 $32,783 10.9% iBonds Dec 2034
+2036 IBTQ ETF 15 Dec 2035 0.620501 $31,025 $23.67 1,311 $31,031 10.3% iBonds Dec 2035
+2037 IBTR ETF 15 Dec 2036 0.586914 $29,346 $23.45 1,252 $29,359 9.8% iBonds Dec 2036
+2038 T 4.750% 15-Feb-2037 Treasury bond 15 Feb 2037 0.581302 $29,065 97.152 0.560 30,000 $29,314 9.8% WInS price checked against the curve (-8bp). Coupons reinvested
+2039 T 4.500% 15-May-2038 Treasury bond 15 May 2038 0.541306 $27,065 94.281 0.530 29,000 $27,495 9.2% Used instead of the 4.375% Feb 2038, whose WInS price is stale (about 85bp off)
+2040 T 4.375% 15-Nov-2039 Treasury bond 15 Nov 2039 0.495540 $24,777 91.363 1.606 27,000 $25,102 8.4% WInS price checked against the curve (+13bp)
+2041 T 4.250% 15-Nov-2040 Treasury bond 15 Nov 2040 0.466558 $23,328 89.186 1.572 26,000 $23,597 7.9% WInS price checked against the curve (+14bp)
+2042 T 3.125% 15-Nov-2041 Treasury bond 15 Nov 2041 0.438835 $21,942 76.367 1.156 29,000 $22,482 7.5% WInS price checked against the curve (+15bp)
+Total $290,379 $292,244 97.4%

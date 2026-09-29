@@ -1,0 +1,80 @@
+M1 ladder pricer | curve: U.S. Treasury Daily Par Yield Curve 2026-09-28 (https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv) | valuation and settlement date 2026-09-28 | MODEL prices
+[A] Ten $50,000 payments (1 Jan 2033-2042) on the par curve of 2026-09-28 (D1 method)
+    reuse check: this Curve equals D1_purchase_rule.curve() on all 23 dates (max diff 0.0e+00)
+    exact 1 Jan dates : value at 2026-09-28 $287,016.47; forward to 1 Jan 2027 $290,291.38 (headroom $9,709; passes $300k after a 33.2bp parallel fall); forward to 1 Jan 2028 $304,295
+    Nov-15 STRIPS dates: value at 2026-09-28 $289,119.20; forward to 1 Jan 2027 $292,418.11 (headroom $7,582; passes $300k after a 26.2bp parallel fall); forward to 1 Jan 2028 $306,525
+    band days/365                    : exact spot $286,900 fwd $290,176 | Nov-15 spot $289,003 fwd $292,303
+    band days/365 + 1-3M nodes (GPT) : exact spot $286,900 fwd $290,087 | Nov-15 spot $289,003 fwd $292,214
+    band PCHIP par interpolation     : exact spot $286,535 fwd $289,804 | Nov-15 spot $288,667 fwd $291,961
+    band linear zero rates           : exact spot $287,024 fwd $290,299 | Nov-15 spot $289,125 fwd $292,424
+    STRIPS (Laura's real ladder, Nov-15 basis): each $50,000 waits 47 days in cash; no coupons to reinvest
+
+[B] Cost of the WInS book (Sheet tabs Portfolio and Book L; quantities as read 30 Sep 00:30 AEST)
+    Portfolio tab, sheet_as_read             : securities $294,377.15 + commissions $200 = $294,577.15; cash left $5,422.85
+    Portfolio tab, close_0928                : securities $294,564.50 + commissions $200 = $294,764.50; cash left $5,235.50
+    Portfolio tab, close_0928_model_accrued  : securities $294,782.88 + commissions $200 = $294,982.88; cash left $5,017.12
+      holding                    qty      price     value  weight
+      IBTM                       4,486    21.760  97,615.36 32.54%
+      IBTO                       1,016    23.020  23,388.32  7.80%
+      IBTP                         921    24.100  22,196.10  7.40%
+      IBTQ                         886    23.700  20,998.20  7.00%
+      IBTR                         846    23.490  19,872.54  6.62%
+      T 4.750% 15-Feb-2037      20,000    97.712  19,542.40  6.51%
+      T 4.500% 15-May-2038      19,000    94.811  18,014.09  6.00%
+      T 4.375% 15-Nov-2039      18,000    92.969  16,734.42  5.58%
+      T 4.250% 15-Nov-2040      17,000    90.758  15,428.86  5.14%
+      T 3.125% 15-Nov-2041      19,000    77.523  14,729.37  4.91%
+      VT                           164   158.810  26,044.84  8.68%
+      dated holdings (ladder + floor in IBTM) 89.5%, VT 8.7%, cash 1.7%
+    Book L (sizes as read), close_0928              : securities $292,405.89 + commissions $175 = $292,580.89; cash left $7,419.11
+    Book L (sizes as read), close_0928_model_accrued: securities $292,739.11 + commissions $175 = $292,914.11; cash left $7,085.89
+    [B4] sizing rule re-run at 28 Sep closes (differences from the displayed sizes are due to live prices)
+      Book L rule: targets $290,378.98; cost $292,417.23; cash left $7,582.77; size changes: IBTM 1,678->1,677, IBTO 1,503->1,502, IBTP 1,362->1,360, IBTQ 1,311->1,310, IBTR 1,252->1,250
+      Portfolio rule: cost $294,673.39; cash left $5,326.61; size changes: IBTM 4,486->4,484, IBTP 921->920, IBTR 846->845
+
+[D] iBonds look-through: holdings 2026-09-24 (iShares), shares/NAV 28 Sep
+    IBTM: NAV 21.75, close 21.76 (premium +0.02%); iShares avg YTM 5.11% vs par curve at its 5.75y average maturity 5.09% -> +1.6bp ok; look-through model NAV 20.8181 (NAV/model +4.48%: holdings 24 Sep vs shares 28 Sep do not line up; implied 24 Sep shares 25,412,409 vs 26,550,000 on 28 Sep)
+    IBTO: NAV 23.00, close 23.02 (premium +0.05%); iShares avg YTM 5.14% vs par curve at its 6.69y average maturity 5.14% -> +0.4bp ok; look-through model NAV 23.0061 (NAV/model -0.03%, shift +0.5bp)
+    IBTP: NAV 24.09, close 24.10 (premium +0.06%); iShares avg YTM 5.19% vs par curve at its 7.76y average maturity 5.17% -> +1.7bp ok; look-through model NAV 24.0998 (NAV/model -0.04%, shift +0.6bp)
+    IBTQ: NAV 23.69, close 23.70 (premium +0.03%); iShares avg YTM 5.22% vs par curve at its 8.75y average maturity 5.20% -> +1.7bp ok; look-through model NAV 23.7075 (NAV/model -0.07%, shift +1.0bp)
+    IBTR: NAV 23.47, close 23.49 (premium +0.05%); iShares avg YTM 5.23% vs par curve at its 9.56y average maturity 5.23% -> +0.3bp ok; look-through model NAV 21.2684 (NAV/model +10.35%: holdings 24 Sep vs shares 28 Sep do not line up; implied 24 Sep shares 1,449,914 vs 1,600,000 on 28 Sep)
+    (look-through: holdings 24 Sep, shares 28 Sep; where they do not line up, the cash-flow schedule in [E] is scaled to the published NAV)
+    cash margin (Portfolio units, 28 Sep closes, bonds and iBonds repriced on a parallel shift, VT flat): cost $294,765; all cash used after a 27.6bp fall; cash below $1,000 after a 22.4bp fall
+
+[C] Yield check of WInS bond prices against the 2026-09-28 curve (settlement = 2026-09-28; flag if |gap| > 25bp)
+    T 4.750% 15-Feb-2037   WInS clean   97.152 -> yield  5.11%; model clean   95.963 (yield  5.26%): gap  -15.3bp (vs par  -14.8bp) ok; accrued model 0.568 vs recorded 0.560
+    T 4.500% 15-May-2038   WInS clean   94.281 -> yield  5.16%; model clean   93.087 (yield  5.30%): gap  -14.4bp (vs par  -13.9bp) ok; accrued model 1.663 vs recorded 0.530 <- MISMATCH
+    T 4.375% 15-Nov-2039   WInS clean   91.363 -> yield  5.30%; model clean   90.779 (yield  5.36%): gap   -6.6bp (vs par   -5.7bp) ok; accrued model 1.617 vs recorded 1.606
+    T 4.250% 15-Nov-2040   WInS clean   89.186 -> yield  5.35%; model clean   88.717 (yield  5.40%): gap   -5.1bp (vs par   -3.9bp) ok; accrued model 1.571 vs recorded 1.572
+    T 3.125% 15-Nov-2041   WInS clean   76.367 -> yield  5.44%; model clean   76.204 (yield  5.45%): gap   -1.9bp (vs par   +1.1bp) ok; accrued model 1.155 vs recorded 1.156
+    T 4.500% 15-Feb-2036   WInS clean  102.950 -> yield  4.12%; model clean   94.662 (yield  5.23%): gap -110.9bp (vs par -110.4bp) FLAG: stale or wrong; accrued model 0.538
+    T 4.375% 15-Feb-2038   WInS clean   99.980 -> yield  4.38%; model clean   92.183 (yield  5.30%): gap  -92.1bp (vs par  -91.3bp) FLAG: stale or wrong; accrued model 0.523
+
+[E] Coupon reinvestment stress (holder cash flows to each 1 Jan payment date; S = 2026-09-28; bonds at WInS clean + model accrued; iBonds by look-through scaled to NAV, 0.07% fee)
+    Book L rung      pays   cost     own yld   @own     @own-2pp  @2%      @0%      @curve   (target $50,000)
+    IBTM                 2033    36,513   4.98%   49,686   48,672   48,192   47,244   49,856
+    IBTO                 2034    34,599   5.03%   49,611   48,299   47,657   46,459   49,829
+    IBTP                 2035    32,824   5.09%   49,737   48,203   47,413   46,052   49,951
+    IBTQ                 2036    31,071   5.13%   49,654   47,823   46,863   45,279   49,919
+    IBTR                 2037    29,409   5.14%   49,525   47,274   46,087   44,169   49,906
+    T 4.750% 15-Feb-2037 2038    29,316   5.10%   51,712   48,832   47,378   44,962   52,377
+    T 4.500% 15-May-2038 2039    27,824   5.16%   51,964   48,822   47,190   44,660   52,669
+    T 4.375% 15-Nov-2039 2040    25,105   5.30%   50,203   47,080   45,320   42,947   50,731
+    T 4.250% 15-Nov-2040 2041    23,597   5.35%   50,098   46,613   44,596   42,022   50,710
+    T 3.125% 15-Nov-2041 2042    22,481   5.44%   50,965   47,556   45,490   43,047   51,531
+    total (ten rungs)           292,739          503,154  479,175  466,185  446,840  507,479   vs $500,000
+    extra cost to make every rung reach $50,000 (buffer, more of the same holdings): own: $1,175; own-2pp: $12,348; 0.02: $20,399; 0.0: $33,549; curve: $363
+    Portfolio tab rungs, delivered value vs the curve scenario: IBTM 0%: 94.8%; IBTO 0%: 93.2%; IBTP 0%: 92.2%; IBTQ 0%: 90.7%; IBTR 0%: 88.5%; T 4.750% 0%: 85.8%; T 4.500% 0%: 84.8%; T 4.375% 0%: 84.7%; T 4.250% 0%: 82.9%; T 3.125% 0%: 83.5%
+
+[F] Plan split on 2 Jan 2028 (E6 [7] method) on this curve
+    exact : ladder 65.5% / floor 25.2% / stock fund 9.2% of $464,450 (fund $42,961; floor costs $117,194; 2027 leftover $9,709)
+    nov15 : ladder 66.0% / floor 25.2% / stock fund 8.8% of $464,455 (fund $40,736; floor costs $117,194; 2027 leftover $7,582)
+    (the Portfolio tab types in 65.9 / 24.3 (+1 cash) / 8.7, from E6 [7] on the 25 Sep curve)
+
+[G] History: the same ten payments on every Treasury par curve 1990-2026 (same time to maturity as on 2026-09-28)
+    nov15 spot    : today $289,119; 2020 median $458,828 (min $408,089, max $470,249 on 2020-08-04); highest $470,249 on 2020-08-04; last day as cheap as today: 2002-05-28; <= $300k on 11.1% of days since 2000 (34.5% since 1990)
+    nov15 fwd_2027: today $292,418; 2020 median $458,959 (min $409,753, max $470,384 on 2020-08-04); highest $470,384 on 2020-08-04; last day as cheap as today: 2002-06-10; <= $300k on 9.8% of days since 2000 (33.3% since 1990)
+    nov15 deposit check (gap bigger than the whole 2028 deposit): 197 of 6688 days since 2000, years [2020, 2021]; worst 2020-08-04 $20,588 (2027 dollars)
+    exact spot    : today $287,016; 2020 median $457,976 (min $406,898, max $469,597 on 2020-08-04); highest $469,597 on 2020-08-04; last day as cheap as today: 2002-05-28; <= $300k on 12.1% of days since 2000 (35.4% since 1990)
+    exact fwd_2027: today $290,291; 2020 median $458,107 (min $408,557, max $469,731 on 2020-08-04); highest $469,731 on 2020-08-04; last day as cheap as today: 2002-06-10; <= $300k on 10.9% of days since 2000 (34.2% since 1990)
+    exact deposit check (gap bigger than the whole 2028 deposit): 183 of 6688 days since 2000, years [2020]; worst 2020-08-04 $19,935 (2027 dollars)

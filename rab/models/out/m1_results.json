@@ -1,0 +1,1713 @@
+{
+ "meta": {
+  "curve_date": "2026-09-28",
+  "curve_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+  "curve_file": "rab/data/treasury_par_2000_2026/2026.csv",
+  "valuation_date": "2026-09-28",
+  "wins_prices": "rab/data/wins/wins_prices_2026-09-28.csv",
+  "portfolio_snapshot": "rab/data/sheet/Portfolio_values_2026-09-30T0030AEST.csv",
+  "method": "rab/models/M1_METHOD.md"
+ },
+ "A": {
+  "curve_date": "2026-09-28",
+  "par_yields_pct": {
+   "1 Mo": "4.04",
+   "2 Mo": "4.20",
+   "3 Mo": "4.28",
+   "6 Mo": "4.41",
+   "1 Yr": "4.59",
+   "2 Yr": "4.92",
+   "3 Yr": "5.01",
+   "5 Yr": "5.06",
+   "7 Yr": "5.15",
+   "10 Yr": "5.24",
+   "20 Yr": "5.60",
+   "30 Yr": "5.56"
+  },
+  "exact": {
+   "spot": 287016.4664097238,
+   "fwd_2027": 290291.3819066209,
+   "fwd_2028": 304295.3203172015,
+   "headroom_2027": 9708.618093379075,
+   "breakeven_fall_bp": 33.21662664074089,
+   "rungs_spot": {
+    "2033": 36400.08691532799,
+    "2034": 34489.48007947374,
+    "2035": 32681.820424450714,
+    "2036": 30945.7577100236,
+    "2037": 29268.500282348527,
+    "2038": 27645.038787765534,
+    "2039": 26085.19795952041,
+    "2040": 24587.336937229556,
+    "2041": 23145.95740829874,
+    "2042": 21767.289905284993
+   },
+   "fwd_2027_band": [
+    289804.0160583368,
+    290299.00221424864
+   ]
+  },
+  "nov15": {
+   "spot": 289119.2036498361,
+   "fwd_2027": 292418.11180074257,
+   "fwd_2028": 306524.6457284812,
+   "headroom_2027": 7581.888199257432,
+   "breakeven_fall_bp": 26.19634455649045,
+   "rungs_spot": {
+    "2033": 36652.74719382571,
+    "2034": 34727.72987554145,
+    "2035": 32910.69621205837,
+    "2036": 31165.53127366708,
+    "2037": 29482.448265407107,
+    "2038": 27850.67488115781,
+    "2039": 26282.733395992687,
+    "2040": 24776.9833386253,
+    "2041": 23327.896090374565,
+    "2042": 21941.763123186032
+   },
+   "fwd_2027_band": [
+    291960.8531576577,
+    292424.0875690773
+   ]
+  },
+  "band": {
+   "days/365": {
+    "exact": {
+     "spot": 286900.1315363987,
+     "fwd_2027": 290175.9745649306,
+     "fwd_2028": 304185.18937101524
+    },
+    "nov15": {
+     "spot": 289003.4475428889,
+     "fwd_2027": 292303.3063606077,
+     "fwd_2028": 306415.225217688
+    }
+   },
+   "days/365 + 1-3M nodes (GPT)": {
+    "exact": {
+     "spot": 286900.1315363987,
+     "fwd_2027": 290087.4793567556,
+     "fwd_2028": 304185.18937101524
+    },
+    "nov15": {
+     "spot": 289003.4475428889,
+     "fwd_2027": 292214.1623782866,
+     "fwd_2028": 306415.225217688
+    }
+   },
+   "PCHIP par interpolation": {
+    "exact": {
+     "spot": 286534.59876796143,
+     "fwd_2027": 289804.0160583368,
+     "fwd_2028": 303844.99539273104
+    },
+    "nov15": {
+     "spot": 288667.10355953535,
+     "fwd_2027": 291960.8531576577,
+     "fwd_2028": 306106.33106164087
+    }
+   },
+   "linear zero rates": {
+    "exact": {
+     "spot": 287024.0007490276,
+     "fwd_2027": 290299.00221424864,
+     "fwd_2028": 304240.83980325
+    },
+    "nov15": {
+     "spot": 289125.1120026789,
+     "fwd_2027": 292424.0875690773,
+     "fwd_2028": 306467.98405133636
+    }
+   }
+  }
+ },
+ "B": {
+  "portfolio": {
+   "sheet_as_read": {
+    "rows": [
+     {
+      "name": "IBTM",
+      "type": "ETF",
+      "qty": 4486,
+      "px": 21.75,
+      "value": 97570.5,
+      "commission": 25
+     },
+     {
+      "name": "IBTO",
+      "type": "ETF",
+      "qty": 1016,
+      "px": 23.01,
+      "value": 23378.16,
+      "commission": 25
+     },
+     {
+      "name": "IBTP",
+      "type": "ETF",
+      "qty": 921,
+      "px": 24.07,
+      "value": 22168.47,
+      "commission": 25
+     },
+     {
+      "name": "IBTQ",
+      "type": "ETF",
+      "qty": 886,
+      "px": 23.67,
+      "value": 20971.620000000003,
+      "commission": 25
+     },
+     {
+      "name": "IBTR",
+      "type": "ETF",
+      "qty": 846,
+      "px": 23.45,
+      "value": 19838.7,
+      "commission": 25
+     },
+     {
+      "name": "T 4.750% 15-Feb-2037",
+      "type": "Treasury",
+      "qty": 20000,
+      "px": 97.712,
+      "value": 19542.4,
+      "commission": 10
+     },
+     {
+      "name": "T 4.500% 15-May-2038",
+      "type": "Treasury",
+      "qty": 19000,
+      "px": 94.811,
+      "value": 18014.090000000004,
+      "commission": 10
+     },
+     {
+      "name": "T 4.375% 15-Nov-2039",
+      "type": "Treasury",
+      "qty": 18000,
+      "px": 92.969,
+      "value": 16734.42,
+      "commission": 10
+     },
+     {
+      "name": "T 4.250% 15-Nov-2040",
+      "type": "Treasury",
+      "qty": 17000,
+      "px": 90.758,
+      "value": 15428.86,
+      "commission": 10
+     },
+     {
+      "name": "T 3.125% 15-Nov-2041",
+      "type": "Treasury",
+      "qty": 19000,
+      "px": 77.523,
+      "value": 14729.37,
+      "commission": 10
+     },
+     {
+      "name": "VT",
+      "type": "ETF",
+      "qty": 164,
+      "px": 158.54,
+      "value": 26000.559999999998,
+      "commission": 25
+     }
+    ],
+    "securities": 294377.14999999997,
+    "commissions": 200,
+    "cost": 294577.14999999997,
+    "cash_left": 5422.850000000035
+   },
+   "close_0928": {
+    "rows": [
+     {
+      "name": "IBTM",
+      "type": "ETF",
+      "qty": 4486,
+      "px": 21.76,
+      "value": 97615.36,
+      "commission": 25
+     },
+     {
+      "name": "IBTO",
+      "type": "ETF",
+      "qty": 1016,
+      "px": 23.02,
+      "value": 23388.32,
+      "commission": 25
+     },
+     {
+      "name": "IBTP",
+      "type": "ETF",
+      "qty": 921,
+      "px": 24.1,
+      "value": 22196.100000000002,
+      "commission": 25
+     },
+     {
+      "name": "IBTQ",
+      "type": "ETF",
+      "qty": 886,
+      "px": 23.7,
+      "value": 20998.2,
+      "commission": 25
+     },
+     {
+      "name": "IBTR",
+      "type": "ETF",
+      "qty": 846,
+      "px": 23.49,
+      "value": 19872.539999999997,
+      "commission": 25
+     },
+     {
+      "name": "T 4.750% 15-Feb-2037",
+      "type": "Treasury",
+      "qty": 20000,
+      "px": 97.712,
+      "value": 19542.4,
+      "commission": 10
+     },
+     {
+      "name": "T 4.500% 15-May-2038",
+      "type": "Treasury",
+      "qty": 19000,
+      "px": 94.811,
+      "value": 18014.090000000004,
+      "commission": 10
+     },
+     {
+      "name": "T 4.375% 15-Nov-2039",
+      "type": "Treasury",
+      "qty": 18000,
+      "px": 92.969,
+      "value": 16734.42,
+      "commission": 10
+     },
+     {
+      "name": "T 4.250% 15-Nov-2040",
+      "type": "Treasury",
+      "qty": 17000,
+      "px": 90.75800000000001,
+      "value": 15428.860000000002,
+      "commission": 10
+     },
+     {
+      "name": "T 3.125% 15-Nov-2041",
+      "type": "Treasury",
+      "qty": 19000,
+      "px": 77.52300000000001,
+      "value": 14729.370000000003,
+      "commission": 10
+     },
+     {
+      "name": "VT",
+      "type": "ETF",
+      "qty": 164,
+      "px": 158.81,
+      "value": 26044.84,
+      "commission": 25
+     }
+    ],
+    "securities": 294564.50000000006,
+    "commissions": 200,
+    "cost": 294764.50000000006,
+    "cash_left": 5235.499999999942
+   },
+   "close_0928_model_accrued": {
+    "rows": [
+     {
+      "name": "IBTM",
+      "type": "ETF",
+      "qty": 4486,
+      "px": 21.76,
+      "value": 97615.36,
+      "commission": 25
+     },
+     {
+      "name": "IBTO",
+      "type": "ETF",
+      "qty": 1016,
+      "px": 23.02,
+      "value": 23388.32,
+      "commission": 25
+     },
+     {
+      "name": "IBTP",
+      "type": "ETF",
+      "qty": 921,
+      "px": 24.1,
+      "value": 22196.100000000002,
+      "commission": 25
+     },
+     {
+      "name": "IBTQ",
+      "type": "ETF",
+      "qty": 886,
+      "px": 23.7,
+      "value": 20998.2,
+      "commission": 25
+     },
+     {
+      "name": "IBTR",
+      "type": "ETF",
+      "qty": 846,
+      "px": 23.49,
+      "value": 19872.539999999997,
+      "commission": 25
+     },
+     {
+      "name": "T 4.750% 15-Feb-2037",
+      "type": "Treasury",
+      "qty": 20000,
+      "px": 97.7199347826087,
+      "value": 19543.98695652174,
+      "commission": 10
+     },
+     {
+      "name": "T 4.500% 15-May-2038",
+      "type": "Treasury",
+      "qty": 19000,
+      "px": 95.94404347826088,
+      "value": 18229.368260869567,
+      "commission": 10
+     },
+     {
+      "name": "T 4.375% 15-Nov-2039",
+      "type": "Treasury",
+      "qty": 18000,
+      "px": 92.97984782608695,
+      "value": 16736.372608695652,
+      "commission": 10
+     },
+     {
+      "name": "T 4.250% 15-Nov-2040",
+      "type": "Treasury",
+      "qty": 17000,
+      "px": 90.75665217391305,
+      "value": 15428.630869565219,
+      "commission": 10
+     },
+     {
+      "name": "T 3.125% 15-Nov-2041",
+      "type": "Treasury",
+      "qty": 19000,
+      "px": 77.52189130434783,
+      "value": 14729.15934782609,
+      "commission": 10
+     },
+     {
+      "name": "VT",
+      "type": "ETF",
+      "qty": 164,
+      "px": 158.81,
+      "value": 26044.84,
+      "commission": 25
+     }
+    ],
+    "securities": 294782.8780434783,
+    "commissions": 200,
+    "cost": 294982.8780434783,
+    "cash_left": 5017.121956521703
+   }
+  },
+  "portfolio_split_close_0928": {
+   "dated_holdings_incl_floor": 0.8950655333333335,
+   "vt": 0.08681613333333334,
+   "cash": 0.017451666666666473
+  },
+  "bookL": {
+   "close_0928": {
+    "rows": [
+     {
+      "name": "IBTM",
+      "type": "ETF",
+      "qty": 1678,
+      "px": 21.76,
+      "pays": 2033,
+      "end": "2032-12-15",
+      "value": 36513.280000000006,
+      "commission": 25
+     },
+     {
+      "name": "IBTO",
+      "type": "ETF",
+      "qty": 1503,
+      "px": 23.02,
+      "pays": 2034,
+      "end": "2033-12-15",
+      "value": 34599.06,
+      "commission": 25
+     },
+     {
+      "name": "IBTP",
+      "type": "ETF",
+      "qty": 1362,
+      "px": 24.1,
+      "pays": 2035,
+      "end": "2034-12-15",
+      "value": 32824.200000000004,
+      "commission": 25
+     },
+     {
+      "name": "IBTQ",
+      "type": "ETF",
+      "qty": 1311,
+      "px": 23.7,
+      "pays": 2036,
+      "end": "2035-12-15",
+      "value": 31070.7,
+      "commission": 25
+     },
+     {
+      "name": "IBTR",
+      "type": "ETF",
+      "qty": 1252,
+      "px": 23.49,
+      "pays": 2037,
+      "end": "2036-12-15",
+      "value": 29409.48,
+      "commission": 25
+     },
+     {
+      "name": "T 4.750% 15-Feb-2037",
+      "type": "Treasury",
+      "qty": 30000,
+      "px": 97.712,
+      "pays": 2038,
+      "end": "2037-02-15",
+      "value": 29313.6,
+      "commission": 10
+     },
+     {
+      "name": "T 4.500% 15-May-2038",
+      "type": "Treasury",
+      "qty": 29000,
+      "px": 94.811,
+      "pays": 2039,
+      "end": "2038-05-15",
+      "value": 27495.19,
+      "commission": 10
+     },
+     {
+      "name": "T 4.375% 15-Nov-2039",
+      "type": "Treasury",
+      "qty": 27000,
+      "px": 92.969,
+      "pays": 2040,
+      "end": "2039-11-15",
+      "value": 25101.63,
+      "commission": 10
+     },
+     {
+      "name": "T 4.250% 15-Nov-2040",
+      "type": "Treasury",
+      "qty": 26000,
+      "px": 90.75800000000001,
+      "pays": 2041,
+      "end": "2040-11-15",
+      "value": 23597.080000000005,
+      "commission": 10
+     },
+     {
+      "name": "T 3.125% 15-Nov-2041",
+      "type": "Treasury",
+      "qty": 29000,
+      "px": 77.52300000000001,
+      "pays": 2042,
+      "end": "2041-11-15",
+      "value": 22481.670000000006,
+      "commission": 10
+     }
+    ],
+    "securities": 292405.89,
+    "commissions": 175,
+    "cost": 292580.89,
+    "cash_left": 7419.109999999986
+   },
+   "close_0928_model_accrued": {
+    "rows": [
+     {
+      "name": "IBTM",
+      "type": "ETF",
+      "qty": 1678,
+      "px": 21.76,
+      "pays": 2033,
+      "end": "2032-12-15",
+      "value": 36513.280000000006,
+      "commission": 25
+     },
+     {
+      "name": "IBTO",
+      "type": "ETF",
+      "qty": 1503,
+      "px": 23.02,
+      "pays": 2034,
+      "end": "2033-12-15",
+      "value": 34599.06,
+      "commission": 25
+     },
+     {
+      "name": "IBTP",
+      "type": "ETF",
+      "qty": 1362,
+      "px": 24.1,
+      "pays": 2035,
+      "end": "2034-12-15",
+      "value": 32824.200000000004,
+      "commission": 25
+     },
+     {
+      "name": "IBTQ",
+      "type": "ETF",
+      "qty": 1311,
+      "px": 23.7,
+      "pays": 2036,
+      "end": "2035-12-15",
+      "value": 31070.7,
+      "commission": 25
+     },
+     {
+      "name": "IBTR",
+      "type": "ETF",
+      "qty": 1252,
+      "px": 23.49,
+      "pays": 2037,
+      "end": "2036-12-15",
+      "value": 29409.48,
+      "commission": 25
+     },
+     {
+      "name": "T 4.750% 15-Feb-2037",
+      "type": "Treasury",
+      "qty": 30000,
+      "px": 97.7199347826087,
+      "pays": 2038,
+      "end": "2037-02-15",
+      "value": 29315.980434782614,
+      "commission": 10
+     },
+     {
+      "name": "T 4.500% 15-May-2038",
+      "type": "Treasury",
+      "qty": 29000,
+      "px": 95.94404347826088,
+      "pays": 2039,
+      "end": "2038-05-15",
+      "value": 27823.772608695654,
+      "commission": 10
+     },
+     {
+      "name": "T 4.375% 15-Nov-2039",
+      "type": "Treasury",
+      "qty": 27000,
+      "px": 92.97984782608695,
+      "pays": 2040,
+      "end": "2039-11-15",
+      "value": 25104.55891304348,
+      "commission": 10
+     },
+     {
+      "name": "T 4.250% 15-Nov-2040",
+      "type": "Treasury",
+      "qty": 26000,
+      "px": 90.75665217391305,
+      "pays": 2041,
+      "end": "2040-11-15",
+      "value": 23596.729565217393,
+      "commission": 10
+     },
+     {
+      "name": "T 3.125% 15-Nov-2041",
+      "type": "Treasury",
+      "qty": 29000,
+      "px": 77.52189130434783,
+      "pays": 2042,
+      "end": "2041-11-15",
+      "value": 22481.34847826087,
+      "commission": 10
+     }
+    ],
+    "securities": 292739.11000000004,
+    "commissions": 175,
+    "cost": 292914.11000000004,
+    "cash_left": 7085.889999999956
+   }
+  },
+  "bookL_rule": {
+   "rows": [
+    {
+     "name": "IBTM",
+     "type": "ETF",
+     "qty": 1677,
+     "px": 21.76,
+     "df": 0.7298254598075581,
+     "target": 36491.2729903779,
+     "shown_qty": 1678,
+     "value": 36491.520000000004,
+     "commission": 25
+    },
+    {
+     "name": "IBTO",
+     "type": "ETF",
+     "qty": 1502,
+     "px": 23.02,
+     "df": 0.6915093252903198,
+     "target": 34575.46626451599,
+     "shown_qty": 1503,
+     "value": 34576.04,
+     "commission": 25
+    },
+    {
+     "name": "IBTP",
+     "type": "ETF",
+     "qty": 1360,
+     "px": 24.1,
+     "df": 0.6552884191993806,
+     "target": 32764.420959969033,
+     "shown_qty": 1362,
+     "value": 32776.0,
+     "commission": 25
+    },
+    {
+     "name": "IBTQ",
+     "type": "ETF",
+     "qty": 1310,
+     "px": 23.7,
+     "df": 0.6205014159247741,
+     "target": 31025.070796238706,
+     "shown_qty": 1311,
+     "value": 31047.0,
+     "commission": 25
+    },
+    {
+     "name": "IBTR",
+     "type": "ETF",
+     "qty": 1250,
+     "px": 23.49,
+     "df": 0.586914118113468,
+     "target": 29345.705905673403,
+     "shown_qty": 1252,
+     "value": 29362.499999999996,
+     "commission": 25
+    },
+    {
+     "name": "T 4.750% 15-Feb-2037",
+     "type": "Treasury",
+     "qty": 30000,
+     "px": 97.712,
+     "df": 0.5813022299967963,
+     "target": 29065.11149983981,
+     "shown_qty": 30000,
+     "value": 29313.6,
+     "commission": 10
+    },
+    {
+     "name": "T 4.500% 15-May-2038",
+     "type": "Treasury",
+     "qty": 29000,
+     "px": 94.811,
+     "df": 0.5413057040132485,
+     "target": 27065.285200662427,
+     "shown_qty": 29000,
+     "value": 27495.19,
+     "commission": 10
+    },
+    {
+     "name": "T 4.375% 15-Nov-2039",
+     "type": "Treasury",
+     "qty": 27000,
+     "px": 92.969,
+     "df": 0.495539666772506,
+     "target": 24776.9833386253,
+     "shown_qty": 27000,
+     "value": 25101.63,
+     "commission": 10
+    },
+    {
+     "name": "T 4.250% 15-Nov-2040",
+     "type": "Treasury",
+     "qty": 26000,
+     "px": 90.75800000000001,
+     "df": 0.4665579218074913,
+     "target": 23327.896090374565,
+     "shown_qty": 26000,
+     "value": 23597.080000000005,
+     "commission": 10
+    },
+    {
+     "name": "T 3.125% 15-Nov-2041",
+     "type": "Treasury",
+     "qty": 29000,
+     "px": 77.52300000000001,
+     "df": 0.4388352624637207,
+     "target": 21941.763123186032,
+     "shown_qty": 29000,
+     "value": 22481.670000000006,
+     "commission": 10
+    }
+   ],
+   "securities": 292242.23,
+   "commissions": 175,
+   "cost": 292417.23,
+   "cash_left": 7582.770000000019
+  },
+  "portfolio_rule": {
+   "rows": [
+    {
+     "name": "IBTM",
+     "type": "ETF",
+     "qty": 4484,
+     "px": 21.76,
+     "target": 97586.27995344822,
+     "shown_qty": 4486,
+     "value": 97571.84000000001,
+     "commission": 25
+    },
+    {
+     "name": "IBTO",
+     "type": "ETF",
+     "qty": 1016,
+     "px": 23.02,
+     "target": 23390.46998101541,
+     "shown_qty": 1016,
+     "value": 23388.32,
+     "commission": 25
+    },
+    {
+     "name": "IBTP",
+     "type": "ETF",
+     "qty": 920,
+     "px": 24.1,
+     "target": 22172.754430459965,
+     "shown_qty": 921,
+     "value": 22172.0,
+     "commission": 25
+    },
+    {
+     "name": "IBTQ",
+     "type": "ETF",
+     "qty": 886,
+     "px": 23.7,
+     "target": 21003.096985675205,
+     "shown_qty": 886,
+     "value": 20998.2,
+     "commission": 25
+    },
+    {
+     "name": "IBTR",
+     "type": "ETF",
+     "qty": 845,
+     "px": 23.49,
+     "target": 19863.54350635772,
+     "shown_qty": 846,
+     "value": 19849.05,
+     "commission": 25
+    },
+    {
+     "name": "T 4.750% 15-Feb-2037",
+     "type": "Treasury",
+     "qty": 20000,
+     "px": 97.712,
+     "target": 19830.462969024018,
+     "shown_qty": 20000,
+     "value": 19542.4,
+     "commission": 10
+    },
+    {
+     "name": "T 4.500% 15-May-2038",
+     "type": "Treasury",
+     "qty": 19000,
+     "px": 94.811,
+     "target": 18600.32023092624,
+     "shown_qty": 19000,
+     "value": 18014.090000000004,
+     "commission": 10
+    },
+    {
+     "name": "T 4.375% 15-Nov-2039",
+     "type": "Treasury",
+     "qty": 18000,
+     "px": 92.969,
+     "target": 16981.09219533399,
+     "shown_qty": 18000,
+     "value": 16734.42,
+     "commission": 10
+    },
+    {
+     "name": "T 4.250% 15-Nov-2040",
+     "type": "Treasury",
+     "qty": 17000,
+     "px": 90.75800000000001,
+     "target": 15963.27374041733,
+     "shown_qty": 17000,
+     "value": 15428.860000000002,
+     "commission": 10
+    },
+    {
+     "name": "T 3.125% 15-Nov-2041",
+     "type": "Treasury",
+     "qty": 19000,
+     "px": 77.52300000000001,
+     "target": 15208.706007341927,
+     "shown_qty": 19000,
+     "value": 14729.370000000003,
+     "commission": 10
+    },
+    {
+     "name": "VT",
+     "type": "ETF",
+     "qty": 164,
+     "px": 158.81,
+     "target": 26100.0,
+     "shown_qty": 164,
+     "value": 26044.84,
+     "commission": 25
+    }
+   ],
+   "securities": 294473.3900000001,
+   "commissions": 200,
+   "cost": 294673.3900000001,
+   "cash_left": 5326.609999999928
+  },
+  "cash_margin": {
+   "cost_at_0": 294764.50000000006,
+   "fall_bp_cash_zero": 27.635934266503188,
+   "fall_bp_cash_below_1000": 22.41129388363736
+  }
+ },
+ "D": {
+  "IBTM": {
+   "nav": 21.75,
+   "close": 21.76,
+   "model_nav": 20.818075018815033,
+   "ratio": 1.044765185078001,
+   "shift_bp": -86.28995088098485,
+   "notes": 15,
+   "last_note": "2032-11-30",
+   "ishares_avg_ytm": "5.11%",
+   "wam": 5.75,
+   "par_at_wam": 0.050937500000000004,
+   "ytm_gap_bp": 1.6250000000000293,
+   "premium_discount_pct": 0.02,
+   "implied_shares_at_holdings_date": 25412408.816070765,
+   "lookthrough_reliable": false
+  },
+  "IBTO": {
+   "nav": 23.0,
+   "close": 23.02,
+   "model_nav": 23.006072706724,
+   "ratio": 0.999736038966693,
+   "shift_bp": 0.4620124160873627,
+   "notes": 11,
+   "last_note": "2033-11-15",
+   "ishares_avg_ytm": "5.14%",
+   "wam": 6.69,
+   "par_at_wam": 0.0513605,
+   "ytm_gap_bp": 0.3949999999999093,
+   "premium_discount_pct": 0.05,
+   "implied_shares_at_holdings_date": 19555161.8007154,
+   "lookthrough_reliable": true
+  },
+  "IBTP": {
+   "nav": 24.09,
+   "close": 24.1,
+   "model_nav": 24.09980574373006,
+   "ratio": 0.9995931193871714,
+   "shift_bp": 0.6303144354868435,
+   "notes": 4,
+   "last_note": "2034-11-15",
+   "ishares_avg_ytm": "5.19%",
+   "wam": 7.76,
+   "par_at_wam": 0.051728,
+   "ytm_gap_bp": 1.7199999999999855,
+   "premium_discount_pct": 0.06,
+   "implied_shares_at_holdings_date": 13105332.30563984,
+   "lookthrough_reliable": true
+  },
+  "IBTQ": {
+   "nav": 23.69,
+   "close": 23.7,
+   "model_nav": 23.707471821257958,
+   "ratio": 0.9992630246957717,
+   "shift_bp": 1.0379097620093582,
+   "notes": 4,
+   "last_note": "2035-11-15",
+   "ishares_avg_ytm": "5.22%",
+   "wam": 8.75,
+   "par_at_wam": 0.052025,
+   "ytm_gap_bp": 1.749999999999946,
+   "premium_discount_pct": 0.03,
+   "implied_shares_at_holdings_date": 10707891.451560156,
+   "lookthrough_reliable": true
+  },
+  "IBTR": {
+   "nav": 23.47,
+   "close": 23.49,
+   "model_nav": 21.268431529764847,
+   "ratio": 1.103513438080946,
+   "shift_bp": -127.99599808873458,
+   "notes": 4,
+   "last_note": "2036-08-15",
+   "ishares_avg_ytm": "5.23%",
+   "wam": 9.56,
+   "par_at_wam": 0.052268,
+   "ytm_gap_bp": 0.3200000000000425,
+   "premium_discount_pct": 0.05,
+   "implied_shares_at_holdings_date": 1449914.3778280253,
+   "lookthrough_reliable": false
+  }
+ },
+ "C": [
+  {
+   "bond": "T 4.750% 15-Feb-2037",
+   "cusip": "912810PT9",
+   "wins_clean": 97.152,
+   "accrued_model": 0.5679347826086957,
+   "accrued_recorded": 0.56,
+   "model_clean": 95.96332662538337,
+   "yield_wins": 0.051061951839037265,
+   "yield_model": 0.05258885902113653,
+   "gap_bp": -15.269071820992671,
+   "gap_vs_par_bp": -14.765286537758785,
+   "flag": false,
+   "clean_band_25bp": [
+    94.05496773235488,
+    97.91884783742185
+   ],
+   "accrued_flag": false
+  },
+  {
+   "bond": "T 4.500% 15-May-2038",
+   "cusip": "912810PX0",
+   "wins_clean": 94.281,
+   "accrued_model": 1.6630434782608696,
+   "accrued_recorded": 0.53,
+   "model_clean": 93.0873220791801,
+   "yield_wins": 0.05159420727297683,
+   "yield_model": 0.05303330375112758,
+   "gap_bp": -14.39096478150749,
+   "gap_vs_par_bp": -13.917475524851813,
+   "flag": false,
+   "clean_band_25bp": [
+    91.05726994900827,
+    95.17295727273813
+   ],
+   "accrued_flag": true
+  },
+  {
+   "bond": "T 4.375% 15-Nov-2039",
+   "cusip": "912810QD3",
+   "wins_clean": 91.363,
+   "accrued_model": 1.6168478260869565,
+   "accrued_recorded": 1.606,
+   "model_clean": 90.77931598792202,
+   "yield_wins": 0.05295506580291548,
+   "yield_model": 0.05361591744732527,
+   "gap_bp": -6.608516444097933,
+   "gap_vs_par_bp": -5.719978521153204,
+   "flag": false,
+   "clean_band_25bp": [
+    88.61262821032528,
+    93.01200271936982
+   ],
+   "accrued_flag": false
+  },
+  {
+   "bond": "T 4.250% 15-Nov-2040",
+   "cusip": "912810QL5",
+   "wins_clean": 89.186,
+   "accrued_model": 1.5706521739130435,
+   "accrued_recorded": 1.572,
+   "model_clean": 88.71678824793194,
+   "yield_wins": 0.053498406089887734,
+   "yield_model": 0.05401290471292595,
+   "gap_bp": -5.144986230382134,
+   "gap_vs_par_bp": -3.893967848555904,
+   "flag": false,
+   "clean_band_25bp": [
+    86.4802664476604,
+    91.02600936517834
+   ],
+   "accrued_flag": false
+  },
+  {
+   "bond": "T 3.125% 15-Nov-2041",
+   "cusip": "912810QT8",
+   "wins_clean": 76.367,
+   "accrued_model": 1.1548913043478262,
+   "accrued_recorded": 1.156,
+   "model_clean": 76.20369929797606,
+   "yield_wins": 0.05435966597672828,
+   "yield_model": 0.05454847717608027,
+   "gap_bp": -1.888111993519903,
+   "gap_vs_par_bp": 1.1210950855580077,
+   "flag": false,
+   "clean_band_25bp": [
+    74.08130102386934,
+    78.40101889484998
+   ],
+   "accrued_flag": false
+  },
+  {
+   "bond": "T 4.500% 15-Feb-2036",
+   "cusip": "912810FT0",
+   "wins_clean": 102.95,
+   "accrued_model": 0.5380434782608695,
+   "accrued_recorded": null,
+   "model_clean": 94.66196926438535,
+   "yield_wins": 0.041171621124112275,
+   "yield_model": 0.05226448660037533,
+   "gap_bp": -110.92865476263057,
+   "gap_vs_par_bp": -110.4316327013824,
+   "flag": true,
+   "clean_band_25bp": [
+    92.9055748776349,
+    96.45822269427025
+   ],
+   "accrued_flag": false
+  },
+  {
+   "bond": "T 4.375% 15-Feb-2038",
+   "cusip": "912810PW2",
+   "wins_clean": 99.98,
+   "accrued_model": 0.5230978260869565,
+   "accrued_recorded": null,
+   "model_clean": 92.18254809098637,
+   "yield_wins": 0.043767662925388966,
+   "yield_model": 0.05297862025401232,
+   "gap_bp": -92.10957328623357,
+   "gap_vs_par_bp": -91.30571160853334,
+   "flag": true,
+   "clean_band_25bp": [
+    90.19485939313672,
+    94.22374701955327
+   ],
+   "accrued_flag": false
+  }
+ ],
+ "C_table": [
+  {
+   "cusip": "91282CPZ8",
+   "security_class": "Treasury Notes",
+   "coupon_pct": 4.125,
+   "maturity": "2036-02-15",
+   "model_clean": 91.896,
+   "accrued": 0.4932,
+   "model_yield_pct": 5.228,
+   "clean_low_(+25bp)": 90.171,
+   "clean_high_(-25bp)": 93.661
+  },
+  {
+   "cusip": "912810FT0",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 4.5,
+   "maturity": "2036-02-15",
+   "model_clean": 94.662,
+   "accrued": 0.538,
+   "model_yield_pct": 5.226,
+   "clean_low_(+25bp)": 92.906,
+   "clean_high_(-25bp)": 96.458
+  },
+  {
+   "cusip": "91282CQQ7",
+   "security_class": "Treasury Notes",
+   "coupon_pct": 4.375,
+   "maturity": "2036-05-15",
+   "model_clean": 93.571,
+   "accrued": 1.6168,
+   "model_yield_pct": 5.233,
+   "clean_low_(+25bp)": 91.792,
+   "clean_high_(-25bp)": 95.392
+  },
+  {
+   "cusip": "91282CRF0",
+   "security_class": "Treasury Notes",
+   "coupon_pct": 4.625,
+   "maturity": "2036-08-15",
+   "model_clean": 95.296,
+   "accrued": 0.553,
+   "model_yield_pct": 5.24,
+   "clean_low_(+25bp)": 93.463,
+   "clean_high_(-25bp)": 97.173
+  },
+  {
+   "cusip": "912810PT9",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 4.75,
+   "maturity": "2037-02-15",
+   "model_clean": 95.963,
+   "accrued": 0.5679,
+   "model_yield_pct": 5.259,
+   "clean_low_(+25bp)": 94.055,
+   "clean_high_(-25bp)": 97.919
+  },
+  {
+   "cusip": "912810PU6",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 5.0,
+   "maturity": "2037-05-15",
+   "model_clean": 97.87,
+   "accrued": 1.8478,
+   "model_yield_pct": 5.263,
+   "clean_low_(+25bp)": 95.905,
+   "clean_high_(-25bp)": 99.884
+  },
+  {
+   "cusip": "912810PW2",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 4.375,
+   "maturity": "2038-02-15",
+   "model_clean": 92.183,
+   "accrued": 0.5231,
+   "model_yield_pct": 5.298,
+   "clean_low_(+25bp)": 90.195,
+   "clean_high_(-25bp)": 94.224
+  },
+  {
+   "cusip": "912810PX0",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 4.5,
+   "maturity": "2038-05-15",
+   "model_clean": 93.087,
+   "accrued": 1.663,
+   "model_yield_pct": 5.303,
+   "clean_low_(+25bp)": 91.057,
+   "clean_high_(-25bp)": 95.173
+  },
+  {
+   "cusip": "912810QA9",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 3.5,
+   "maturity": "2039-02-15",
+   "model_clean": 83.462,
+   "accrued": 0.4185,
+   "model_yield_pct": 5.343,
+   "clean_low_(+25bp)": 81.479,
+   "clean_high_(-25bp)": 85.502
+  },
+  {
+   "cusip": "912810QB7",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 4.25,
+   "maturity": "2039-05-15",
+   "model_clean": 90.051,
+   "accrued": 1.5707,
+   "model_yield_pct": 5.343,
+   "clean_low_(+25bp)": 87.949,
+   "clean_high_(-25bp)": 92.216
+  },
+  {
+   "cusip": "912810QC5",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 4.5,
+   "maturity": "2039-08-15",
+   "model_clean": 92.148,
+   "accrued": 0.538,
+   "model_yield_pct": 5.351,
+   "clean_low_(+25bp)": 89.988,
+   "clean_high_(-25bp)": 94.372
+  },
+  {
+   "cusip": "912810QD3",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 4.375,
+   "maturity": "2039-11-15",
+   "model_clean": 90.779,
+   "accrued": 1.6168,
+   "model_yield_pct": 5.362,
+   "clean_low_(+25bp)": 88.613,
+   "clean_high_(-25bp)": 93.012
+  },
+  {
+   "cusip": "912810QE1",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 4.625,
+   "maturity": "2040-02-15",
+   "model_clean": 92.952,
+   "accrued": 0.553,
+   "model_yield_pct": 5.37,
+   "clean_low_(+25bp)": 90.726,
+   "clean_high_(-25bp)": 95.245
+  },
+  {
+   "cusip": "912810QH4",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 4.375,
+   "maturity": "2040-05-15",
+   "model_clean": 90.375,
+   "accrued": 1.6168,
+   "model_yield_pct": 5.38,
+   "clean_low_(+25bp)": 88.163,
+   "clean_high_(-25bp)": 92.658
+  },
+  {
+   "cusip": "912810SR0",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 1.125,
+   "maturity": "2040-05-15",
+   "model_clean": 58.969,
+   "accrued": 0.4158,
+   "model_yield_pct": 5.422,
+   "clean_low_(+25bp)": 57.235,
+   "clean_high_(-25bp)": 60.762
+  },
+  {
+   "cusip": "912810QK7",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 3.875,
+   "maturity": "2040-08-15",
+   "model_clean": 85.271,
+   "accrued": 0.4633,
+   "model_yield_pct": 5.396,
+   "clean_low_(+25bp)": 83.112,
+   "clean_high_(-25bp)": 87.499
+  },
+  {
+   "cusip": "912810SQ2",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 1.125,
+   "maturity": "2040-08-15",
+   "model_clean": 58.376,
+   "accrued": 0.1345,
+   "model_yield_pct": 5.434,
+   "clean_low_(+25bp)": 56.633,
+   "clean_high_(-25bp)": 60.179
+  },
+  {
+   "cusip": "912810QL5",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 4.25,
+   "maturity": "2040-11-15",
+   "model_clean": 88.717,
+   "accrued": 1.5707,
+   "model_yield_pct": 5.401,
+   "clean_low_(+25bp)": 86.48,
+   "clean_high_(-25bp)": 91.026
+  },
+  {
+   "cusip": "912810ST6",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 1.375,
+   "maturity": "2040-11-15",
+   "model_clean": 60.264,
+   "accrued": 0.5082,
+   "model_yield_pct": 5.442,
+   "clean_low_(+25bp)": 58.474,
+   "clean_high_(-25bp)": 62.116
+  },
+  {
+   "cusip": "912810QN1",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 4.75,
+   "maturity": "2041-02-15",
+   "model_clean": 93.493,
+   "accrued": 0.5679,
+   "model_yield_pct": 5.406,
+   "clean_low_(+25bp)": 91.156,
+   "clean_high_(-25bp)": 95.905
+  },
+  {
+   "cusip": "912810SW9",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 1.875,
+   "maturity": "2041-02-15",
+   "model_clean": 64.715,
+   "accrued": 0.2242,
+   "model_yield_pct": 5.445,
+   "clean_low_(+25bp)": 62.836,
+   "clean_high_(-25bp)": 66.658
+  },
+  {
+   "cusip": "912810QQ4",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 4.375,
+   "maturity": "2041-05-15",
+   "model_clean": 89.555,
+   "accrued": 1.6168,
+   "model_yield_pct": 5.417,
+   "clean_low_(+25bp)": 87.257,
+   "clean_high_(-25bp)": 91.929
+  },
+  {
+   "cusip": "912810SY5",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 2.25,
+   "maturity": "2041-05-15",
+   "model_clean": 68.043,
+   "accrued": 0.8315,
+   "model_yield_pct": 5.447,
+   "clean_low_(+25bp)": 66.093,
+   "clean_high_(-25bp)": 70.062
+  },
+  {
+   "cusip": "912810QS0",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 3.75,
+   "maturity": "2041-08-15",
+   "model_clean": 82.944,
+   "accrued": 0.4484,
+   "model_yield_pct": 5.436,
+   "clean_low_(+25bp)": 80.731,
+   "clean_high_(-25bp)": 85.233
+  },
+  {
+   "cusip": "912810TA6",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 1.75,
+   "maturity": "2041-08-15",
+   "model_clean": 62.479,
+   "accrued": 0.2092,
+   "model_yield_pct": 5.467,
+   "clean_low_(+25bp)": 60.601,
+   "clean_high_(-25bp)": 64.424
+  },
+  {
+   "cusip": "912810QT8",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 3.125,
+   "maturity": "2041-11-15",
+   "model_clean": 76.204,
+   "accrued": 1.1549,
+   "model_yield_pct": 5.455,
+   "clean_low_(+25bp)": 74.081,
+   "clean_high_(-25bp)": 78.401
+  },
+  {
+   "cusip": "912810TC2",
+   "security_class": "Treasury Bonds",
+   "coupon_pct": 2.0,
+   "maturity": "2041-11-15",
+   "model_clean": 64.568,
+   "accrued": 0.7391,
+   "model_yield_pct": 5.474,
+   "clean_low_(+25bp)": 62.639,
+   "clean_high_(-25bp)": 66.568
+  }
+ ],
+ "E": {
+  "bookL": [
+   {
+    "holding": "IBTM",
+    "pays": "2033-01-01",
+    "cost": 36513.280000000006,
+    "own_yield": 0.049807864555738296,
+    "v_own": 49686.14467343133,
+    "v_own-2pp": 48672.14767849964,
+    "v_0.02": 48191.61375506488,
+    "v_0.0": 47243.804063926924,
+    "v_curve": 49855.802881804586
+   },
+   {
+    "holding": "IBTO",
+    "pays": "2034-01-01",
+    "cost": 34599.06,
+    "own_yield": 0.05025455691217945,
+    "v_own": 49610.617502294626,
+    "v_own-2pp": 48299.25669600872,
+    "v_0.02": 47656.9669871742,
+    "v_0.0": 46458.760830402134,
+    "v_curve": 49829.22898148854
+   },
+   {
+    "holding": "IBTP",
+    "pays": "2035-01-01",
+    "cost": 32824.200000000004,
+    "own_yield": 0.05094927430666533,
+    "v_own": 49736.58705873428,
+    "v_own-2pp": 48203.01093631329,
+    "v_0.02": 47412.713486987006,
+    "v_0.0": 46051.55665772213,
+    "v_curve": 49950.97499886585
+   },
+   {
+    "holding": "IBTQ",
+    "pays": "2036-01-01",
+    "cost": 31070.7,
+    "own_yield": 0.051276929701593345,
+    "v_own": 49653.80447520165,
+    "v_own-2pp": 47822.632511880955,
+    "v_0.02": 46863.269237910965,
+    "v_0.0": 45278.952879320124,
+    "v_curve": 49918.68034584179
+   },
+   {
+    "holding": "IBTR",
+    "pays": "2037-01-01",
+    "cost": 29409.48,
+    "own_yield": 0.051438403234927675,
+    "v_own": 49524.965212034345,
+    "v_own-2pp": 47274.01738763407,
+    "v_0.02": 46087.145122588256,
+    "v_0.0": 44168.605010508334,
+    "v_curve": 49905.66115127146
+   },
+   {
+    "holding": "T 4.750% 15-Feb-2037",
+    "pays": "2038-01-01",
+    "cost": 29315.980434782614,
+    "own_yield": 0.05104241252238202,
+    "v_own": 51712.42651120832,
+    "v_own-2pp": 48831.7434047066,
+    "v_0.02": 47377.743749890105,
+    "v_0.0": 44962.5,
+    "v_curve": 52377.17089985375
+   },
+   {
+    "holding": "T 4.500% 15-May-2038",
+    "pays": "2039-01-01",
+    "cost": 27823.772608695654,
+    "own_yield": 0.05160495311896554,
+    "v_own": 51963.82599306698,
+    "v_own-2pp": 48822.230481497354,
+    "v_0.02": 47189.61445198281,
+    "v_0.0": 44660.0,
+    "v_curve": 52668.962018801314
+   },
+   {
+    "holding": "T 4.375% 15-Nov-2039",
+    "pays": "2040-01-01",
+    "cost": 25104.55891304348,
+    "own_yield": 0.05295560399070409,
+    "v_own": 50202.99398656175,
+    "v_own-2pp": 47080.23358511941,
+    "v_0.02": 45319.80839012612,
+    "v_0.0": 42946.875,
+    "v_curve": 50731.326238117974
+   },
+   {
+    "holding": "T 4.250% 15-Nov-2040",
+    "pays": "2041-01-01",
+    "cost": 23596.729565217393,
+    "own_yield": 0.0534932682184883,
+    "v_own": 50097.766655507075,
+    "v_own-2pp": 46613.11028228837,
+    "v_0.02": 44596.447950060036,
+    "v_0.0": 42022.5,
+    "v_curve": 50710.22575472095
+   },
+   {
+    "holding": "T 3.125% 15-Nov-2041",
+    "pays": "2042-01-01",
+    "cost": 22481.34847826087,
+    "own_yield": 0.05435611974428517,
+    "v_own": 50964.568009593815,
+    "v_own-2pp": 47556.236882901045,
+    "v_0.02": 45489.69300136319,
+    "v_0.0": 43046.875,
+    "v_curve": 51531.42943446318
+   }
+  ],
+  "portfolio": [
+   {
+    "holding": "IBTM",
+    "own_yield": 0.04980786455573821,
+    "v_curve": 133285.53738246445,
+    "ratio_own": 0.9965970218396544,
+    "ratio_own-2pp": 0.9762584266046,
+    "ratio_0.02": 0.9666199513287336,
+    "ratio_0.0": 0.9476089308185441
+   },
+   {
+    "holding": "IBTO",
+    "own_yield": 0.05025455691217977,
+    "v_curve": 33683.63050245665,
+    "ratio_own": 0.9956127862368673,
+    "ratio_own-2pp": 0.969295686151432,
+    "ratio_0.02": 0.956405867826666,
+    "ratio_0.0": 0.9323596166350774
+   },
+   {
+    "holding": "IBTP",
+    "own_yield": 0.05094927430666527,
+    "v_curve": 33777.42141993792,
+    "ratio_own": 0.9957080329235518,
+    "ratio_own-2pp": 0.9650064075307381,
+    "ratio_0.02": 0.9491849456004318,
+    "ratio_0.0": 0.921935090531621
+   },
+   {
+    "holding": "IBTQ",
+    "own_yield": 0.05127692970159338,
+    "v_curve": 33736.04178979088,
+    "ratio_own": 0.9946938527059404,
+    "ratio_own-2pp": 0.9580107522987553,
+    "ratio_0.02": 0.9387922299475341,
+    "ratio_0.0": 0.9070542844006058
+   },
+   {
+    "holding": "IBTR",
+    "own_yield": 0.05143840323492778,
+    "v_curve": 33722.19595365468,
+    "ratio_own": 0.9923716882923729,
+    "ratio_own-2pp": 0.9472676305066777,
+    "ratio_0.02": 0.9234853132772108,
+    "ratio_0.0": 0.8850419770339629
+   },
+   {
+    "holding": "T 4.750% 15-Feb-2037",
+    "own_yield": 0.051042412522382015,
+    "v_curve": 34918.113933235836,
+    "ratio_own": 0.9873085090846843,
+    "ratio_own-2pp": 0.9323096793080694,
+    "ratio_0.02": 0.9045495000193374,
+    "ratio_0.0": 0.8584369722062545
+   },
+   {
+    "holding": "T 4.500% 15-May-2038",
+    "own_yield": 0.0516049531189655,
+    "v_curve": 34507.25097783534,
+    "ratio_own": 0.9866119247711264,
+    "ratio_own-2pp": 0.926963976697874,
+    "ratio_0.02": 0.8959662891237056,
+    "ratio_0.0": 0.8479377281833969
+   },
+   {
+    "holding": "T 4.375% 15-Nov-2039",
+    "own_yield": 0.052955603990703835,
+    "v_curve": 33820.88415874532,
+    "ratio_own": 0.9895856802742273,
+    "ratio_own-2pp": 0.9280308061362045,
+    "ratio_0.02": 0.8933298565349587,
+    "ratio_0.0": 0.846555337394886
+   },
+   {
+    "holding": "T 4.250% 15-Nov-2040",
+    "own_yield": 0.05349326821848829,
+    "v_curve": 33156.68607039447,
+    "ratio_own": 0.9879223748248279,
+    "ratio_own-2pp": 0.9192053395256053,
+    "ratio_0.02": 0.8794369831001642,
+    "ratio_0.0": 0.8286790164030742
+   },
+   {
+    "holding": "T 3.125% 15-Nov-2041",
+    "own_yield": 0.054356119744285024,
+    "v_curve": 33761.97100878622,
+    "ratio_own": 0.9889996953104069,
+    "ratio_own-2pp": 0.9228588728240555,
+    "ratio_0.02": 0.8827562809841368,
+    "ratio_0.0": 0.8353518517227687
+   }
+  ],
+  "bookL_totals": {
+   "own": 503153.7000776342,
+   "own-2pp": 479174.61984684947,
+   "0.02": 466185.0161331475,
+   "0.0": 446840.4294418796,
+   "curve": 507479.4627052294
+  },
+  "bookL_buffer": {
+   "own": 1174.769201769722,
+   "own-2pp": 12347.88681303997,
+   "0.02": 20399.30058630526,
+   "0.0": 33549.33940650126,
+   "curve": 362.6073095490409
+  },
+  "bookL_cost": 292739.11000000004
+ },
+ "F": {
+  "exact": {
+   "ladder": 0.6551740897524152,
+   "floor": 0.2523281579219604,
+   "fund": 0.09249775232562436,
+   "total": 464449.5639810667,
+   "fund_usd": 42960.54073686493,
+   "floor_cost": 117193.70292700024,
+   "leftover_2027": 9708.618093379075
+  },
+  "nov15": {
+   "ladder": 0.6599669453444275,
+   "floor": 0.25232545314756105,
+   "fund": 0.08770760150801146,
+   "total": 464454.54259608453,
+   "fund_usd": 40736.193940603116,
+   "floor_cost": 117193.70292700024,
+   "leftover_2027": 7581.888199257432
+  }
+ },
+ "G": {
+  "nov15": {
+   "days": 9191,
+   "first": "1990-01-02",
+   "last": "2026-09-28",
+   "spot": {
+    "today": 289119.2036498361,
+    "y2020_median": 458828.0638911932,
+    "y2020_min": 408089.49884747673,
+    "y2020_max": 470249.2705687235,
+    "y2020_max_date": "2020-08-04",
+    "max": 470249.2705687235,
+    "max_date": "2020-08-04",
+    "last_date_at_or_below_today": "2002-05-28",
+    "share_days_le_300k_since_2000": 0.11124401913875598,
+    "share_days_le_300k_since_1990": 0.34544663257534547,
+    "share_days_cheaper_than_today_since_2000": 0.05682667863017796
+   },
+   "fwd_2027": {
+    "today": 292418.11180074257,
+    "y2020_median": 458959.319764828,
+    "y2020_min": 409752.8079143103,
+    "y2020_max": 470383.793680303,
+    "y2020_max_date": "2020-08-04",
+    "max": 470383.793680303,
+    "max_date": "2020-08-04",
+    "last_date_at_or_below_today": "2002-06-10",
+    "share_days_le_300k_since_2000": 0.09763755980861244,
+    "share_days_le_300k_since_1990": 0.33271678816233274,
+    "share_days_cheaper_than_today_since_2000": 0.06116345147300733
+   },
+   "unfunded_days_since_2000": 197,
+   "days_since_2000": 6688,
+   "unfunded_years": [
+    2020,
+    2021
+   ],
+   "unfunded_worst": {
+    "date": "2020-08-04",
+    "usd_2027": 20587.640145200246
+   }
+  },
+  "exact": {
+   "days": 9191,
+   "first": "1990-01-02",
+   "last": "2026-09-28",
+   "spot": {
+    "today": 287016.4664097238,
+    "y2020_median": 457975.71356762684,
+    "y2020_min": 406898.3812274174,
+    "y2020_max": 469596.697301717,
+    "y2020_max_date": "2020-08-04",
+    "max": 469596.697301717,
+    "max_date": "2020-08-04",
+    "last_date_at_or_below_today": "2002-05-28",
+    "share_days_le_300k_since_2000": 0.12066387559808613,
+    "share_days_le_300k_since_1990": 0.3541507996953541,
+    "share_days_cheaper_than_today_since_2000": 0.0572753103035741
+   },
+   "fwd_2027": {
+    "today": 290291.3819066209,
+    "y2020_median": 458106.7256113934,
+    "y2020_min": 408556.8354848459,
+    "y2020_max": 469731.0337331847,
+    "y2020_max_date": "2020-08-04",
+    "max": 469731.0337331847,
+    "max_date": "2020-08-04",
+    "last_date_at_or_below_today": "2002-06-10",
+    "share_days_le_300k_since_2000": 0.10855263157894737,
+    "share_days_le_300k_since_1990": 0.34163855946034166,
+    "share_days_cheaper_than_today_since_2000": 0.06161208314640347
+   },
+   "unfunded_days_since_2000": 183,
+   "days_since_2000": 6688,
+   "unfunded_years": [
+    2020
+   ],
+   "unfunded_worst": {
+    "date": "2020-08-04",
+    "usd_2027": 19934.880198081955
+   }
+  }
+ }
+}
