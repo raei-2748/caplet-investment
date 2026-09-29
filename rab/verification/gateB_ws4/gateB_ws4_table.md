@@ -93,3 +93,25 @@
 | &nbsp;&nbsp;1962-2026 vol (E3 residual sd), bp/yr | 101.1 | 101.1 | -3.41e-13 | 2% | MATCH |
 | &nbsp;&nbsp;E5 horizon sd sigma_h, bp | 50.77 | 50.77 | +5.4e-13 | 2% | MATCH |
 | &nbsp;&nbsp;E1, purchase Mon 4 Jan 2027 | 33.72% | 33.72% | +0.00pp | 2pp | MATCH |
+| `sensitivity_purchase_4jan2027_median` | 33.07% | 33.08% | +0.01pp | 2pp | WITHIN TOL |
+| &nbsp;&nbsp;4 Jan median, primary at strict n_h = 64 | 32.95% | 33.08% | +0.13pp | 2pp | WITHIN TOL |
+| &nbsp;&nbsp;4 Jan E2 (n_h = 65) | 27.24% | 27.24% | +0.00pp | 2pp | MATCH |
+| &nbsp;&nbsp;4 Jan E3 (n_h = 65) | 33.15% | 33.15% | +0.00pp | 2pp | MATCH |
+| &nbsp;&nbsp;4 Jan E4 (n_h = 65) | 32.71% | 32.68% | -0.03pp | 2pp | WITHIN TOL |
+| &nbsp;&nbsp;4 Jan E5 (n_h = 65) | 33.07% | 33.08% | +0.01pp | 2pp | WITHIN TOL |
+| &nbsp;&nbsp;4 Jan Cost_RW(R) | $293,536.88 | $293,536.88 | -0.00 | $1 | MATCH |
+| &nbsp;&nbsp;4 Jan RW break-even | 22.321bp | 22.321bp | -0.0000bp | 0.01bp | MATCH |
+| `pv_today_R_usd` (D) | $289,119.20 | $289,119.20 | +0.00 | $1 | MATCH |
+| &nbsp;&nbsp;2033 rung cost at R, 1 Jan 2027, yields unchanged | $37,166.35 | $37,166.35 | +0.00 | $1 | MATCH |
+| &nbsp;&nbsp;ladder yield today | 5.3289% | 5.3289% | +0.0000bp | 0.01bp | MATCH |
+| &nbsp;&nbsp;d ladder yield / d parallel shift | 1.008 | 1.008 | +5.33e-13 | 2% | MATCH |
+| &nbsp;&nbsp;median P(gap > $10k) | 13.37% | 13.37% | +0.00pp | 2pp | MATCH |
+| &nbsp;&nbsp;R3 strategy_mc_v2 (a), 25 Sep, analytic | 30.09% | 30.09% | +0.00pp | 2pp | MATCH |
+| &nbsp;&nbsp;R3' same on 28 Sep | 23.95% | 23.95% | +0.00pp | 2pp | MATCH |
+| &nbsp;&nbsp;E1 windows (95-day) | 15,855 | 15,855 | +0 | exact | MATCH |
+| &nbsp;&nbsp;E1 non-overlapping windows | 247 | 247 | +0 | exact | MATCH |
+| &nbsp;&nbsp;E2 windows (10y 4.0-6.5%) | 5,661 | 5,661 | +0 | exact | MATCH |
+| &nbsp;&nbsp;15-month windows | 15,605 | 15,605 | +0 | exact | MATCH |
+| &nbsp;&nbsp;2028 mean top-up if any H-FHS | $11,155 | $11,155 | -0 | min(2%, $500) = $223 | MATCH |
+| &nbsp;&nbsp;2028 mean top-up if any H-LVL | $8,423 | $8,423 | +0 | min(2%, $500) = $168 | MATCH |
+| &nbsp;&nbsp;2028 mean top-up if any H-RAW | $13,431 | $13,431 | +0 | min(2%, $500) = $269 | MATCH |

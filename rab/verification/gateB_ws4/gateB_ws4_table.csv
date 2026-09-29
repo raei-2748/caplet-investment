@@ -92,3 +92,25 @@ ewma_vol_today,"EWMA ladder-yield vol at D, bp/yr",81.2050152716812,81.205015271
 "1962-2026 vol (E3 residual sd), bp/yr",,101.1068593581012,101.10685935810086,-3.410605131648481e-13,2%,MATCH,False,
 "E5 horizon sd sigma_h, bp",,50.77463575965404,50.77463575965458,5.400124791776761e-13,2%,MATCH,False,
 "E1, purchase Mon 4 Jan 2027",sensitivity,0.3372445117335352,0.3372445117335352,0.0,2pp,MATCH,False,
+sensitivity_purchase_4jan2027_median,"median E1-E5, purchase 4 Jan; primary code rerun at the spec's n_h = 65",0.33067,0.3308,0.00012999999999996348,2pp,WITHIN TOL,False,primary rerun via primary_4jan_variant.py
+"4 Jan median, primary at strict n_h = 64",1 Jan 2027 is a holiday: spec erratum,0.32952,0.3308,0.0012800000000000034,2pp,WITHIN TOL,False,n_h 64 vs 65 (spec erratum)
+4 Jan E2 (n_h = 65),,0.27235772357723576,0.27235772357723576,0.0,2pp,MATCH,False,
+4 Jan E3 (n_h = 65),,0.33154,0.33154,0.0,2pp,MATCH,False,
+4 Jan E4 (n_h = 65),,0.32713,0.32681,-0.00031999999999998696,2pp,WITHIN TOL,False,Monte Carlo noise (samplers)
+4 Jan E5 (n_h = 65),,0.33067,0.3308,0.00012999999999996348,2pp,WITHIN TOL,False,rho over 98-day vs 95-day windows
+4 Jan Cost_RW(R),,293536.87798497296,293536.8779849729,-5.820766091346741e-11,$1,MATCH,False,
+4 Jan RW break-even,,22.321191442173717,22.321191440977746,-1.1959713219766854e-09,0.01bp,MATCH,False,
+pv_today_R_usd,"PV of the ten payments on 28 Sep (numbers.yaml Gate A $289,119.20)",289119.20364983607,289119.2036498361,5.820766091346741e-11,$1,MATCH,True,"primary value from its own rungs_rw(R, D)"
+"2033 rung cost at R, 1 Jan 2027, yields unchanged",threshold for 'a whole payment waits',37166.345892302656,37166.345892302656,0.0,$1,MATCH,False,
+ladder yield today,percent,5.328944902355116,5.328944902355138,2.220446049250313e-14,0.01bp,MATCH,False,
+d ladder yield / d parallel shift,,1.0075057661568465,1.0075057661573794,5.329070518200751e-13,2%,MATCH,False,
+median P(gap > $10k),median over E1-E5,0.13372,0.13372,0.0,2pp,MATCH,False,
+"R3 strategy_mc_v2 (a), 25 Sep, analytic",insight_v1 printed 30.2% (Monte Carlo),0.300851627737351,0.30085162774829644,1.0945411244023262e-11,2pp,MATCH,False,
+R3' same on 28 Sep,,0.23946973725542947,0.2394697372663886,1.0959122498377383e-11,2pp,MATCH,False,
+E1 windows (95-day),count,15855,15855,0,exact,MATCH,False,
+E1 non-overlapping windows,count,247,247,0,exact,MATCH,False,
+E2 windows (10y 4.0-6.5%),count,5661,5661,0,exact,MATCH,False,
+15-month windows,count,15605,15605,0,exact,MATCH,False,
+2028 mean top-up if any H-FHS,,11155.344989020665,11155.34498902059,-7.457856554538012e-11,"min(2%, $500) = $223",MATCH,False,
+2028 mean top-up if any H-LVL,,8423.149749500324,8423.149749500324,0.0,"min(2%, $500) = $168",MATCH,False,
+2028 mean top-up if any H-RAW,,13431.215624012353,13431.215624012355,1.8189894035458565e-12,"min(2%, $500) = $269",MATCH,False,

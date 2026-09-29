@@ -1,15 +1,15 @@
 {
  "meta": {
-  "run_utc": "2026-09-29T16:55:19+00:00",
+  "run_utc": "2026-09-29T23:18:02+00:00",
   "seed": 20260930,
   "primary": "rab/results/M2/m2_results.json",
   "blind": "rab/verification/blind/results.json"
  },
  "table": {
-  "n_rows": 93,
-  "n_decision": 29,
-  "n_match": 76,
-  "n_within_tol": 17,
+  "n_rows": 115,
+  "n_decision": 30,
+  "n_match": 94,
+  "n_within_tol": 21,
   "n_unreconciled": 0,
   "max_abs_prob_diff_pp": 0.425719837484545,
   "max_abs_prob_diff_decision_pp": 0.004999999999999449,
@@ -385,6 +385,324 @@
     9281.45116730519,
     28752.600684895497
    ]
+  },
+  "AX1b_B_unchanged_curve": {
+   "printed": "about +$1.0k (inventory: +$1,044), +3.4 points (25 Sep)",
+   "primary_25sep_rw_minus_fwd_usd": 1044.2630961393006,
+   "primary_28sep_rw_minus_fwd_usd": 983.023667847563,
+   "primary_28sep_R5_minus_R2_pp": 2.9545728145878525
+  }
+ },
+ "third_pricer_vs_primary": {
+  "source": "rab/verification/blind/deterministic_check.json (standard library only, commit 97c3467)",
+  "author_checks": {
+   "checks": 23,
+   "fail": 0,
+   "no_reference": 0
+  },
+  "n": 29,
+  "n_fail": 0,
+  "max_abs_usd_diff": 7.639755494892597e-11,
+  "max_abs_bp_diff": 1.3057963599294453e-09,
+  "rows": [
+   {
+    "what": "Cost_FWD(R)",
+    "third_pricer": 292418.11180074257,
+    "primary": 292418.1118007425,
+    "diff": 5.820766091346741e-11,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "Cost_RW(R)",
+    "third_pricer": 293401.13546859,
+    "primary": 293401.1354685901,
+    "diff": -5.820766091346741e-11,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "PV today",
+    "third_pricer": 289119.2036498361,
+    "primary": 289119.20364983607,
+    "diff": 5.820766091346741e-11,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "FWD break-even",
+    "third_pricer": 26.196344556462357,
+    "primary": 26.196344557768153,
+    "diff": -1.3057963599294453e-09,
+    "tol": 0.0001,
+    "kind": "bp",
+    "ok": true
+   },
+   {
+    "what": "RW break-even",
+    "third_pricer": 22.7755657289094,
+    "primary": 22.775565730131103,
+    "diff": -1.2217036271522375e-09,
+    "tol": 0.0001,
+    "kind": "bp",
+    "ok": true
+   },
+   {
+    "what": "ladder yield today (%)",
+    "third_pricer": 5.328944902355137,
+    "primary": 5.328944902355116,
+    "diff": 2.1316282072803006e-14,
+    "tol": 1e-06,
+    "kind": "pct",
+    "ok": true
+   },
+   {
+    "what": "d ladder yield / d shift",
+    "third_pricer": 1.0075057661578235,
+    "primary": 1.0075057661568465,
+    "diff": 9.769962616701378e-13,
+    "tol": 1e-06,
+    "kind": "ratio",
+    "ok": true
+   },
+   {
+    "what": "2033 rung cost at R (RW)",
+    "third_pricer": 37166.345892302656,
+    "primary": 37166.345892302656,
+    "diff": 0.0,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "2028 fund base, FWD",
+    "third_pricer": 40736.193940603116,
+    "primary": 40736.193940603174,
+    "diff": -5.820766091346741e-11,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "2028 floor base",
+    "third_pricer": 117193.70292700024,
+    "primary": 117193.70292700024,
+    "diff": 0.0,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "2028 fund base, RW",
+    "third_pricer": 39708.04948640146,
+    "primary": 39708.0494864014,
+    "diff": 5.820766091346741e-11,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "H13 -50bp fund, 5y unchanged",
+    "third_pricer": 25418.61233749782,
+    "primary": 25418.612337497878,
+    "diff": -5.820766091346741e-11,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "H13 -50bp floor face, 5y unchanged",
+    "third_pricer": 150000.0,
+    "primary": 150000.0,
+    "diff": 0.0,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "H13 -50bp fund, 5y also lower",
+    "third_pricer": 22589.616957067192,
+    "primary": 22589.61695706725,
+    "diff": -5.820766091346741e-11,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "H13 -50bp floor face, 5y also lower",
+    "third_pricer": 150000.0,
+    "primary": 150000.0,
+    "diff": 0.0,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "H13 -50bp top-up Jan 2028",
+    "third_pricer": 7387.68473550193,
+    "primary": 7387.684735501869,
+    "diff": 6.093614501878619e-11,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "H13 -100bp fund, 5y unchanged",
+    "third_pricer": 9366.057426210871,
+    "primary": 9366.057426210813,
+    "diff": 5.820766091346741e-11,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "H13 -100bp floor face, 5y unchanged",
+    "third_pricer": 150000.0,
+    "primary": 150000.0,
+    "diff": 0.0,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "H13 -100bp fund, 5y also lower",
+    "third_pricer": 3625.7211701058113,
+    "primary": 3625.721170105753,
+    "diff": 5.820766091346741e-11,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "H13 -100bp floor face, 5y also lower",
+    "third_pricer": 150000.0,
+    "primary": 150000.0,
+    "diff": 0.0,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "H13 -100bp top-up Jan 2028",
+    "third_pricer": 23440.239646788887,
+    "primary": 23440.239646788945,
+    "diff": -5.820766091346741e-11,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "H13 -150bp fund, 5y unchanged",
+    "third_pricer": 0.0,
+    "primary": 0.0,
+    "diff": 0.0,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "H13 -150bp floor face, 5y unchanged",
+    "third_pricer": 140469.4926649478,
+    "primary": 140469.4926649478,
+    "diff": 0.0,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "H13 -150bp fund, 5y also lower",
+    "third_pricer": 0.0,
+    "primary": 0.0,
+    "diff": 0.0,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "H13 -150bp floor face, 5y also lower",
+    "third_pricer": 130723.97353209906,
+    "primary": 130723.97353209906,
+    "diff": 0.0,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "H13 -150bp top-up Jan 2028",
+    "third_pricer": 40252.40004211781,
+    "primary": 40252.40004211781,
+    "diff": 0.0,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "H14 -50bp unfunded 2033",
+    "third_pricer": 9281.451167305266,
+    "primary": 9281.45116730519,
+    "diff": 7.639755494892597e-11,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "H14 -100bp unfunded 2033",
+    "third_pricer": 28752.600684895497,
+    "primary": 28752.600684895573,
+    "diff": -7.639755494892597e-11,
+    "tol": 0.01,
+    "kind": "usd",
+    "ok": true
+   },
+   {
+    "what": "E5 closed form vs primary E5 Monte Carlo",
+    "third_pricer": 0.32687387139153545,
+    "primary": 0.32662,
+    "diff": 0.0002538713915354318,
+    "tol": 0.02,
+    "kind": "prob",
+    "ok": true
+   }
+  ]
+ },
+ "four_jan": {
+  "primary_n_h_64": {
+   "median": 0.32952,
+   "estimators": {
+    "E1": 0.3372445117335352,
+    "E2": 0.27235772357723576,
+    "E3": 0.33046,
+    "E4": 0.32567,
+    "E5": 0.32952
+   },
+   "rho": 0.9888442632225181,
+   "cost_rw": 293536.87798497296,
+   "breakeven_rw": 22.321191442173717
+  },
+  "primary_n_h_65": {
+   "median": 0.33067,
+   "estimators": {
+    "E1": 0.3372445117335352,
+    "E2": 0.27235772357723576,
+    "E3": 0.33154,
+    "E4": 0.32713,
+    "E5": 0.33067
+   },
+   "rho": 0.9888442632225181
+  },
+  "blind_n_h_65": {
+   "median": 0.3308,
+   "estimators": {
+    "E1": 0.3372445117335352,
+    "E2": 0.27235772357723576,
+    "E3": 0.33154,
+    "E4": 0.32681,
+    "E5": 0.3308
+   },
+   "rho_used": 0.9895187030784705
   }
  },
  "pass": true

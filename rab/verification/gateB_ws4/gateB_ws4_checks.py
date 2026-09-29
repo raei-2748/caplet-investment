@@ -12,6 +12,11 @@ What it does (all read-only on inputs; writes only into this folder):
   [C] Cause checks for every difference: R1/R2/R5 valuation convention vs insight_v1 D1 code, R4 float ties vs AX1b code.
   [H] insight_v1 reconciliation (rab/inventory.md s2 H5, H6, H7, H13, H14): 25 Sep reruns of both builds, S4 30.7%,
       strategy_mc_v2 34.4%, D1 exact-date 18.7%, 2026 days over $300k.
+  [X] Added at the 30 Sep re-check (second reconciler session): the blind headline keys first reported in commit
+      97c3467 (4 Jan five-estimator median, PV today, 2033 rung, window counts, R3), with the primary's own code rerun
+      on a 4 Jan purchase (primary_4jan_variant.py, in memory); and the blind builder's standard-library third pricer
+      (rab/verification/blind/deterministic_check.json) compared against the PRIMARY, which that script never saw.
+      Writes gateB_ws4_third_pricer.md as well.
 Run from the worktree root:
     /Users/ray/Research/rab-ws/.venv/bin/python rab/verification/gateB_ws4/gateB_ws4_checks.py
 Seed 20260930 (sub-seeds noted inline). Runtime about 30 s.
@@ -86,6 +91,29 @@ with tempfile.TemporaryDirectory() as td:
     B25 = json.load(open(td / "b" / "results.json"))
 P25H = {(r["shift_bp"], r["five_year"]): r for r in P25["h13_h14"]}
 B25H = B25["H13_recheck"]["results"]
+
+# ---------------------------------------------------------------------------------------------------------------- [X] added 30 Sep re-check
+# (a) 4 Jan purchase: the blind reports a five-estimator 4 Jan median; the primary only ran E1 on 4 Jan. Rerun the
+#     primary's own code with A = 2027-01-04 (in memory; primary_4jan_variant.py), at the spec's n_h = 65 and strict 64.
+say("[X] re-running the primary build with the purchase on Mon 4 Jan 2027 (n_h 64 and 65) ...")
+with tempfile.TemporaryDirectory() as td:
+    td = Path(td)
+    P4 = {}
+    for n in (64, 65):
+        cmd = [PY, str(HERE / "primary_4jan_variant.py"), str(td / f"p{n}")] + (["--n-h", "65"] if n == 65 else [])
+        subprocess.run(cmd, check=True, capture_output=True, cwd=ROOT)
+        P4[n] = json.load(open(td / f"p{n}" / "m2_results.json"))
+assert P4[64]["meta"]["n_h"] == 64 and P4[65]["meta"]["n_h"] == 65
+# (b) primary functions for keys the primary does not publish (PV today, 2033 rung cost): load the primary module
+_spec_p = importlib.util.spec_from_file_location("m2_primary", ROOT / "rab/models/m2_rate_paths.py")
+PM = importlib.util.module_from_spec(_spec_p)
+_spec_p.loader.exec_module(PM)
+_D, _A = dt.date(2026, 9, 28), dt.date(2027, 1, 1)
+_R = PM.to_par12(PM.read_treasury()[_D])[None, :]
+P_PV_TODAY = float(PM.rungs_rw(_R, _D).sum())
+P_RUNG2033 = float(PM.rungs_rw(_R, _A)[0, 0])
+# (c) the blind builder's standard-library third pricer (rab/verification/blind/deterministic_check.py, commit 97c3467)
+DC = json.load(open(ROOT / "rab/verification/blind/deterministic_check.json"))
 
 # ---------------------------------------------------------------------------------------------------------------- [T] table
 # kind -> tolerance rule.  decision = the number feeds a decision or a quoted figure (vs supporting / reconciliation).
@@ -189,8 +217,36 @@ add("ewma_vol_today", "EWMA ladder-yield vol at D, bp/yr", P["panel"]["ewma_vol_
 add("  1962-2026 vol (E3 residual sd), bp/yr", "", P["vasicek"][0]["sigma_bp_yr"], bf[0]["sigma_bp_per_yr"], "rel2", False)
 add("  E5 horizon sd sigma_h, bp", "", P["move"]["sigma_h_bp"], BE["E5_move_options"]["sigma_h_bp"], "rel2", False)
 add("  E1, purchase Mon 4 Jan 2027", "sensitivity", psens("S-E1-4Jan")["P_gap"], Bl["sensitivities"]["purchase_4jan2027"]["per_estimator"]["E1"], "prob", False)
+# ---- [X] rows added at the 30 Sep re-check: blind headline keys first reported in 97c3467, and quoted sub-values
+s4b = Bl["sensitivities"]["purchase_4jan2027"]
+add("sensitivity_purchase_4jan2027_median", "median E1-E5, purchase 4 Jan; primary code rerun at the spec's n_h = 65",
+    P4[65]["headline"]["P_gap"], s4b["P_median"], "prob", False, "primary rerun via primary_4jan_variant.py")
+add("  4 Jan median, primary at strict n_h = 64", "1 Jan 2027 is a holiday: spec erratum", P4[64]["headline"]["P_gap"], s4b["P_median"],
+    "prob", False, "n_h 64 vs 65 (spec erratum)")
+for e in ("E2", "E3", "E4", "E5"):
+    add(f"  4 Jan {e} (n_h = 65)", "", P4[65]["headline"]["estimators"][e], s4b["per_estimator"][e], "prob", False,
+        {"E4": "Monte Carlo noise (samplers)", "E5": "rho over 98-day vs 95-day windows"}.get(e, ""))
+add("  4 Jan Cost_RW(R)", "", P4[65]["base"]["cost_rw"], s4b["cost_rw_R_usd"], "usd_det", False)
+add("  4 Jan RW break-even", "", P4[65]["base"]["breakeven_fall_bp_rw"], s4b["breakeven_fall_bp_rw"], "bp_det", False)
+add("pv_today_R_usd", "PV of the ten payments on 28 Sep (numbers.yaml Gate A $289,119.20)", P_PV_TODAY, Bl["deterministic"]["pv_today_R_usd"],
+    "usd_det", True, "primary value from its own rungs_rw(R, D)")
+add("  2033 rung cost at R, 1 Jan 2027, yields unchanged", "threshold for 'a whole payment waits'", P_RUNG2033,
+    Bl["deterministic"]["rung_costs_rw_R_usd"]["2033"], "usd_det", False)
+add("  ladder yield today", "percent", P["panel"]["ladder_yield_today_pct"], Bl["ladder_yield"]["y_D_pct"], "pct_det", False)
+add("  d ladder yield / d parallel shift", "", P["panel"]["dy_per_parallel_shift"], Bl["ladder_yield"]["dy_db_at_R"], "rel2", False)
+add("  median P(gap > $10k)", "median over E1-E5", P["headline"]["median_P_gap_gt_10k"],
+    float(np.median([BE[k]["P_gap_gt_10k"] for k in BE])), "prob", False)
+add("  R3 strategy_mc_v2 (a), 25 Sep, analytic", "insight_v1 printed 30.2% (Monte Carlo)", prow("R3 ")["P"],
+    Bl["reconciliation"]["R3_strategy_mc_v2_parallel_37bp"]["P_25sep_analytic"], "prob", False)
+add("  R3' same on 28 Sep", "", prow("R3'")["P"], Bl["reconciliation"]["R3_strategy_mc_v2_parallel_37bp"]["P_28sep_analytic"], "prob", False)
+add("  E1 windows (95-day)", "count", pest(0)["n_scenarios"], Bl["windows"]["count"], "exact", False)
+add("  E1 non-overlapping windows", "count", pest(0)["n_indep"], Bl["windows"]["n_nonoverlapping"], "exact", False)
+add("  E2 windows (10y 4.0-6.5%)", "count", pest(1)["n_scenarios"], BE["E2_history_similar_level"]["n_scenarios"], "exact", False)
+add("  15-month windows", "count", PF["H-RAW"]["n_windows"], BF["H-RAW"]["n"], "exact", False)
+for v in ("H-FHS", "H-LVL", "H-RAW"):
+    add(f"  2028 mean top-up if any {v}", "", PF[v]["mean_topup_given_topup"], BF[v]["mean_T_given_pos"], "usd", False)
 
-TOL = {"prob": 0.02, "pca": 0.005, "theta": 0.05, "kappa": 0.02, "usd_det": 1.0, "bp_det": 0.01, "exact": 1e-9}
+TOL = {"prob": 0.02, "pca": 0.005, "theta": 0.05, "kappa": 0.02, "usd_det": 1.0, "bp_det": 0.01, "exact": 1e-9, "pct_det": 1e-4}
 
 
 def verdict(r):
@@ -206,9 +262,9 @@ def verdict(r):
     else:
         tol = TOL[k]
         r["tol"] = {"prob": "2pp", "pca": "0.5pt", "theta": "5bp", "kappa": "0.02/yr", "usd_det": "$1", "bp_det": "0.01bp",
-                    "exact": "exact"}[k]
+                    "exact": "exact", "pct_det": "0.01bp"}[k]
     ok = abs(d) <= tol
-    same = abs(d) <= {"usd_det": 0.005, "bp_det": 1e-4}.get(k, 1e-9) or (k in ("prob",) and abs(d) < 5e-7)
+    same = abs(d) <= {"usd_det": 0.005, "bp_det": 1e-4, "pct_det": 1e-8}.get(k, 1e-9) or (k in ("prob",) and abs(d) < 5e-7)
     r["verdict"] = ("MATCH" if same else "WITHIN TOL") if ok else "UNRECONCILED"
     return r
 
@@ -228,6 +284,10 @@ def fmt(v, k):
         return f"{v:.3f}%"
     if k == "kappa":
         return f"{v:.4f}"
+    if k == "pct_det":
+        return f"{v:.4f}%"
+    if k == "exact" and float(v).is_integer():
+        return f"{int(v):,}"
     return f"{v:.4g}"
 
 
@@ -240,8 +300,8 @@ def fdiff(d, k):
         return f"{d:+,.0f}"
     if k == "bp_det":
         return f"{d:+.4f}bp"
-    if k == "theta":
-        return f"{100 * d:+.2f}bp"
+    if k in ("theta", "pct_det"):
+        return f"{100 * d:+.2f}bp" if k == "theta" else f"{100 * d:+.4f}bp"
     return f"{d:+.3g}"
 
 
@@ -473,7 +533,61 @@ say(f"[H] 25 Sep M2 headline: primary {P25['headline']['P_gap']:.4%}, blind {B25
     f"S4 30.7% -> {hv['H5_components_25sep']['S4_red_team_vol_7.24']['rebuilt']:.4%}; sd48 -> "
     f"{hv['H5_components_25sep']['strategy_mc_v2_sd_48bp']['analytic']:.4%}; H6 exact -> {hv['H6_28sep']['model_exact']['rebuilt_blind_engine']:.4%}; "
     f"H7 to 25 Sep {hv['H7_days_over_300k_2026']['rebuilt_to_25sep']}; H14 25 Sep {hv['H14']['primary_25sep']}")
+# inventory M2 row AX1b [B]: an "unchanged curve" drift adds about $1.0k to the January cost and lifts the odds ~3 points
+hv["AX1b_B_unchanged_curve"] = {"printed": "about +$1.0k (inventory: +$1,044), +3.4 points (25 Sep)",
+                                "primary_25sep_rw_minus_fwd_usd": P25["base"]["cost_rw"] - P25["base"]["cost_fwd"],
+                                "primary_28sep_rw_minus_fwd_usd": P["base"]["cost_rw"] - P["base"]["cost_fwd"],
+                                "primary_28sep_R5_minus_R2_pp": 100 * (prow("R5")["P"] - prow("R2 ")["P"])}
+say(f"[H] AX1b [B] unchanged-curve drift: 25 Sep +${hv['AX1b_B_unchanged_curve']['primary_25sep_rw_minus_fwd_usd']:,.0f}, "
+    f"28 Sep +${hv['AX1b_B_unchanged_curve']['primary_28sep_rw_minus_fwd_usd']:,.0f}; R5 - R2 = "
+    f"{hv['AX1b_B_unchanged_curve']['primary_28sep_R5_minus_R2_pp']:+.2f}pp")
 
-OUT["pass"] = bool(n_unrec == 0)
+# ---------------------------------------------------------------------------------------------------------------- [X] third pricer vs primary
+# deterministic_check.py (standard library only) was compared by its author with numbers.yaml and m2_blind only.
+# Here it is compared with the PRIMARY build, which it never saw.
+dd, d28, d13 = DC["deterministic"], DC["base_2028"], DC["H13"]
+tp = [("Cost_FWD(R)", dd["cost_fwd_R_usd"], P["base"]["cost_fwd"], "usd"),
+      ("Cost_RW(R)", dd["cost_rw_R_usd"], P["base"]["cost_rw"], "usd"),
+      ("PV today", dd["pv_today_R_usd"], P_PV_TODAY, "usd"),
+      ("FWD break-even", dd["breakeven_fall_bp_fwd"], P["base"]["breakeven_fall_bp_fwd"], "bp"),
+      ("RW break-even", dd["breakeven_fall_bp_rw"], P["base"]["breakeven_fall_bp_rw"], "bp"),
+      ("ladder yield today (%)", dd["ladder_yield_y_D_pct"], P["panel"]["ladder_yield_today_pct"], "pct"),
+      ("d ladder yield / d shift", dd["dy_db_at_R"], P["panel"]["dy_per_parallel_shift"], "ratio"),
+      ("2033 rung cost at R (RW)", dd["rung_2033_cost_at_A_rw_usd"], P_RUNG2033, "usd"),
+      ("2028 fund base, FWD", d28["fwd"]["S_usd"], P["fifteen_months"]["base_fwd_fund"], "usd"),
+      ("2028 floor base", d28["fwd"]["F_usd"], P["fifteen_months"]["base_fwd_floor"], "usd"),
+      ("2028 fund base, RW", d28["rw"]["S_usd"], P["fifteen_months"]["base_rw"]["fund_p50"], "usd")]
+for b in (-50, -100, -150):
+    for lab5, tag in (("5y unchanged", "y5_unchanged"), ("5y also lower", "y5_shifted")):
+        tp.append((f"H13 {b}bp fund, {lab5}", d13[f"{b}bp"][tag]["stock_fund_usd"], PH[(b, lab5)]["stock_fund"], "usd"))
+        tp.append((f"H13 {b}bp floor face, {lab5}", d13[f"{b}bp"][tag]["floor_face_usd"], PH[(b, lab5)]["floor_face"], "usd"))
+    tp.append((f"H13 {b}bp top-up Jan 2028", d13[f"{b}bp"]["topup_on_B_usd"], PH[(b, "5y unchanged")]["topup_2028"], "usd"))
+for b in (-50, -100):
+    tp.append((f"H14 {b}bp unfunded 2033", DC["H14"][f"{b}bp"]["unfunded_2033_usd"], PH[(b, "5y unchanged")]["unfunded_2033_if_no_deposit"], "usd"))
+tp.append(("E5 closed form vs primary E5 Monte Carlo", DC["E5_closed_form"]["P_gap_gt_0"], pest(4)["P_gap"], "prob"))
+TP_TOL = {"usd": 0.01, "bp": 1e-4, "pct": 1e-6, "ratio": 1e-6, "prob": 0.02}
+tp_rows = [{"what": w, "third_pricer": a, "primary": b, "diff": a - b, "tol": TP_TOL[k], "kind": k, "ok": abs(a - b) <= TP_TOL[k]}
+           for w, a, b, k in tp]
+OUT["third_pricer_vs_primary"] = {"source": "rab/verification/blind/deterministic_check.json (standard library only, commit 97c3467)",
+                                  "author_checks": DC["summary"], "n": len(tp_rows), "n_fail": sum(not r["ok"] for r in tp_rows),
+                                  "max_abs_usd_diff": max(abs(r["diff"]) for r in tp_rows if r["kind"] == "usd"),
+                                  "max_abs_bp_diff": max(abs(r["diff"]) for r in tp_rows if r["kind"] == "bp"), "rows": tp_rows}
+tmd = ["| Quantity | Third pricer (stdlib) | Primary | Diff | Tol | OK |", "|---|---|---|---|---|---|"]
+for r in tp_rows:
+    f_ = {"usd": lambda v: f"${v:,.2f}", "bp": lambda v: f"{v:.4f}bp", "pct": lambda v: f"{v:.6f}%", "ratio": lambda v: f"{v:.8f}",
+          "prob": lambda v: f"{100 * v:.2f}%"}[r["kind"]]
+    tmd.append(f"| {r['what']} | {f_(r['third_pricer'])} | {f_(r['primary'])} | {r['diff']:+.2e} | {r['tol']:g} | {'yes' if r['ok'] else 'NO'} |")
+(HERE / "gateB_ws4_third_pricer.md").write_text("\n".join(tmd) + "\n")
+say(f"[X] third pricer vs primary: {len(tp_rows)} comparisons, {OUT['third_pricer_vs_primary']['n_fail']} failures; max $ diff "
+    f"{OUT['third_pricer_vs_primary']['max_abs_usd_diff']:.2e}; max bp diff {OUT['third_pricer_vs_primary']['max_abs_bp_diff']:.2e}")
+OUT["four_jan"] = {"primary_n_h_64": {"median": P4[64]["headline"]["P_gap"], "estimators": P4[64]["headline"]["estimators"],
+                                      "rho": P4[64]["move"]["rho_median"], "cost_rw": P4[64]["base"]["cost_rw"],
+                                      "breakeven_rw": P4[64]["base"]["breakeven_fall_bp_rw"]},
+                   "primary_n_h_65": {"median": P4[65]["headline"]["P_gap"], "estimators": P4[65]["headline"]["estimators"],
+                                      "rho": P4[65]["move"]["rho_median"]},
+                   "blind_n_h_65": {"median": s4b["P_median"], "estimators": s4b["per_estimator"], "rho_used": BE["E5_move_options"]["rho_median"]}}
+say(f"[X] 4 Jan median: primary n_h 64 {P4[64]['headline']['P_gap']:.4%}, n_h 65 {P4[65]['headline']['P_gap']:.4%}; blind (65) {s4b['P_median']:.4%}")
+
+OUT["pass"] = bool(n_unrec == 0 and OUT["third_pricer_vs_primary"]["n_fail"] == 0)
 json.dump(OUT, open(HERE / "gateB_ws4_results.json", "w"), indent=1, default=float)
-say(f"wrote {HERE / 'gateB_ws4_results.json'}, gateB_ws4_table.csv, gateB_ws4_table.md; pass = {OUT['pass']}")
+say(f"wrote {HERE / 'gateB_ws4_results.json'}, gateB_ws4_table.csv, gateB_ws4_table.md, gateB_ws4_third_pricer.md; pass = {OUT['pass']}")

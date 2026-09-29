@@ -230,3 +230,8 @@ the headline takes no view on direction by construction.
   eigendecomposition give 32.30% and 32.31% over 4,000,000 draws each). Erratum, s2: 1 Jan 2027 is a bond-market
   holiday, so the 4 Jan sensitivity has n_h = 64, not 65 (E5 closed form 33.0% vs 33.1%; sensitivity only).
 
+- 30 Sep 2026, Gate B re-check (second reconciler session; no result changes). A fifth reading, for the 4 Jan
+  sensitivity only: every horizon-dependent input uses the 98-day horizon, including E5's rho (median realised
+  volatility / MOVE over 98-day windows: 0.9888, against 0.9895 over 95-day windows). The reference code does this;
+  the blind build reused the 95-day rho, a 0.01pp difference. With the reference code on 4 Jan, the median of E1-E5 is
+  33.07% at n_h = 65 (blind 33.08%) and 32.95% at the corrected n_h = 64.
