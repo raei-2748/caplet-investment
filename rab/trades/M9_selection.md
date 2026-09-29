@@ -36,7 +36,7 @@ today's curve.
 | 1 Jan 2036 payment | **IBTQ** iShares iBonds Dec 2035 Term Treasury ETF [UNVERIFIED name] | IBTP (ends a year early) | Same logic. At 2%, it delivers 93.9% against 91.7%. |
 | 1 Jan 2037 payment | **IBTR** iShares iBonds Dec 2036 Term Treasury ETF [UNVERIFIED name] | IBTQ, or the 4.5% bond of 15 Feb 2036 only if its WInS price passes the check (it was 111bp off on 29 Sep) | The only holding that ends in late 2036. It is thin ($37.6m in assets, iShares, 28 Sep), but our order is 2.5% of a median day. |
 | 1 Jan 2038 payment | **T 4.750% 15-Feb-2037** (CUSIP 912810PT9) [price SEEN; WInS string UNVERIFIED] | T 5.000% 15-May-2037 (912810PU6), if listed | Its price passes (-15bp). The May-2037 bond ends 3 months later but has a higher coupon, so it comes out the same at 2% (90.5% each). |
-| 1 Jan 2039 payment | **T 4.500% 15-May-2038** (912810PX0) [price SEEN] | T 4.375% 15-Feb-2038 only if Friday's price passes (92bp off on 29 Sep), else T 5.000% 15-May-2037 | It is the last bond maturing before the payment, and its price passes (-14bp). **The Sheet's accrued interest for it (0.530) is a typo**: about 1.7 is right. |
+| 1 Jan 2039 payment | **T 4.500% 15-May-2038** (912810PX0) [price SEEN] | T 4.375% 15-Feb-2038 only if Friday's price passes (92bp off on 29 Sep), else T 5.000% 15-May-2037 | It is the last bond maturing before the payment, and its price passes (-14bp). **The Sheet's accrued interest for it (0.530) is a typo**: 1.66 is right on 28 Sep (1.71 on 2 Oct). |
 | 1 Jan 2040 payment | **T 4.375% 15-Nov-2039** (912810QD3) [price SEEN] | T 4.500% 15-Aug-2039 (912810QC5), if listed | It ends 7 weeks before the payment and its price passes (-7bp). The runner-up is about equal (89.0% against 89.3% at 2%). |
 | 1 Jan 2041 payment | **T 4.250% 15-Nov-2040** (912810QL5) [price SEEN] | **T 1.375% 15-Nov-2040 (912810ST6), better if listed** | Same date, but only 17% of its cash comes as coupons, against 38%. At 2%, it delivers 93.9% against 87.9%. See the decision below. |
 | 1 Jan 2042 payment | **T 3.125% 15-Nov-2041** (912810QT8) [price SEEN] | **T 2.000% 15-Nov-2041 (912810TC2), better if listed** | Same date. Coupons are 24% of its cash against 33%. At 2%, it delivers 91.0% against 88.3%. |
@@ -117,9 +117,9 @@ It does not change the strategy.
 | Finding | Class | Evidence |
 |---|---|---|
 | IBTM carries two jobs (the 2033 payment and the floor); iBonds "do not seek to return any predetermined amount" | note-in-Final-Report; notes never say IBTM "repays" a sum | iShares (insight_v1 `open_questions.md` s3); `assumptions.md` C5 |
-| T 4.500% May-2038 accrued typo in the Sheet (0.530, about 1.7 is right) | fix-before-6-Nov (Sheet input); tickets already use the right figure | `numbers.yaml` `wins.bond_accrued_mismatch` |
+| T 4.500% May-2038 accrued typo in the Sheet (0.530; 1.66 on 28 Sep, 1.71 on 2 Oct) | fix-before-6-Nov (Sheet input); tickets already use the right figure | `numbers.yaml` `wins.bond_accrued_mismatch` |
 | Two stale WInS bond prices (4.5% Feb-2036, 4.375% Feb-2038) | ignore for Friday (not in the book); re-check only if needed as alternates | `wins.bond_check.*` (-111bp, -92bp) |
-| The 2038 and 2039 bonds end 10.5 and 7.6 months early (no later bond exists in that class) | note-in-Final-Report (money waits in bills in Laura's plan; 0% in WInS) | MSPD Table V; `assumptions.md` C6 |
+| The bonds for the 2038 and 2039 payments end 10.5 and 7.6 months early (for 2039 no later bond exists in that class; for 2038 the 5.000% May 2037 ends 3 months later and comes out the same at 2%) | note-in-Final-Report (money waits in bills in Laura's plan; 0% in WInS) | MSPD Table V; `assumptions.md` C6 |
 | VT against VTI + VXUS / ACWI | ignore (VT stays); WS3 owns the return comparison | fees and stock counts: insight_v1 `wins_now/S2_growth_sleeve.md` (Vanguard and iShares pages, 30 Jun / 24 Sep 2026) |
 
 ## Limits

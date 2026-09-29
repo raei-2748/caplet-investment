@@ -39,7 +39,7 @@ day is UNVERIFIED).
 | | Fires if | The trade | TN role | IPS sentence it carries out |
 |---|---|---|---|---|
 | **A. Repair** | A Friday ticket did not fill, was skipped because its price failed the check, or filled only in part | Place it at today's prices; the refresh re-sizes it | supported | "The January 2027 deposit buys the liability-hedging portfolio, latest payments first." |
-| **B. Rates-fall test** | The refresh says the ten payments now cost **more than $300,000** on 1 Jan 2027. Today (28 Sep curve) they cost about $292,000, so yields would have to fall about a quarter of a point (about 26bp). | Sell VT down to the new stock-fund share the refresh prints; buy IBTM with the proceeds. Two trades, $50; only if the amount is at least $2,500 | tested | "A moderate fall in yields would leave some payments for the 2028 deposit to complete" |
+| **B. Rates-fall test** | The refresh says the ten payments now cost **more than $300,000** on 1 Jan 2027. Today (28 Sep curve) they cost about $292,000, so yields would have to fall about a quarter of a percentage point (about 26bp). | Sell VT down to the new stock-fund share the refresh prints; buy IBTM with the proceeds. Two trades, $50; only if the amount is at least $2,500 | tested | "A moderate fall in yields would leave some payments for the 2028 deposit to complete" |
 | **D. Coupon refinement** | WInS lists the 1.375% 15 Nov 2040 bond; its price passes the 25bp check that day; the team did not swap on Friday; the team has agreed the IPS wording on coupons | Day 1: sell the 4.250% 15 Nov 2040 bond. Day 2 (once the cash shows): buy the 1.375% 15 Nov 2040 bond. Two trades, $20 | refined | "Laura's 2027 deposit buys Treasuries maturing before each of her ten $50,000 payments." (plus the team's new sentence on reinvested coupons) |
 | **C. Spare cash** | WInS cash is above **$6,300**: the $3,300 float (1.1%) plus at least $3,000, so the $25 commission is under 1% | Buy VT with everything above $3,300 | supported | "The rest, plus any 2027 remainder, forms the return-seeking portfolio" |
 | **None** | Nothing fires | No trade. Write "checked 14 Oct: the rules said hold" in the decision log | - | - |
@@ -82,7 +82,8 @@ fixed-income judge is most likely to raise.
 - **C** does not fire at the cash Friday's tickets leave (about $5,000, `tickets.md`), unless fills or prices leave
   more.
 - **D** is the most likely October trade, **if** WInS lists the bond and the team agrees. Otherwise the most likely
-  outcome is no trade, and the three notes come from Friday's eleven.
+  outcome is no trade, and the three notes come from the first eleven trades (ten on Friday, VT on Mon 5 Oct
+  ET). The 14 Oct check itself is then reported in the IBTR reflection ("checked 14 Oct: the rule said hold").
 
 ## What we will not do
 
@@ -95,5 +96,5 @@ fixed-income judge is most likely to raise.
 ## For the Trading Notes Analysis
 
 If D runs, its buy leg is the natural **refined** pick: new research changed an implementation choice, for a reason
-the team can state in one line. B would be the natural **tested** pick. A and C are **supported**. As with every pick,
+the team can state in one line. B would be the natural **tested** pick (feature the VT sale, OB_S, in place of IBTR). A and C are **supported**. As with every pick,
 use only filled trades with notes saved in WInS, and keep two alternates.

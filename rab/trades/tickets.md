@@ -14,11 +14,13 @@ AI-generated trade tickets (Claude Code, RAB Kit WS6) for Team Caplet. Nothing h
 
 ## Order sequence and why
 
-1-5. **iBonds ETFs, latest payment first (IBTR, IBTQ, IBTP, IBTO, IBTM).** ETFs fill at live prices, so the cash they use is known at once. The IPS buys the ladder "latest payments first". IBTR is also a small first order, a safe way to learn the order screen. Place them after the first hour (thin funds, wide spreads at the open, and the WInS rule that an order may take only half of the volume traded so far).
-6. **VT (Portfolio book only).** The growth money goes in after the dated holdings: payments before growth.
-7-11. **Treasury bonds, latest payment first (Nov-2041 ... Feb-2037).** WInS fills bonds at end-of-day prices, so their cash is committed last; sizing them after the ETFs have filled keeps cash safe.
+The order is for cash control only. It is not the IPS rule "latest payments first": that rule says which payments a short 2027 deposit funds, not the order of WInS trades.
 
-### Portfolio tab book (current plan, 11 trades)
+1-5. **iBonds ETFs (IBTR, IBTQ, IBTP, IBTO, IBTM), Friday.** They fill at live prices, so the cash they use is known at once. IBTR is also a small first order, a safe way to learn the order screen. Place them after the first hour: thin funds, wide spreads at the open, and the WInS FAQ rule that an order may take at most half of a security's market volume (we read that as the volume traded so far that day: UNVERIFIED).
+6-10. **Treasury bonds (Nov-2041 ... Feb-2037), Friday.** WInS fills bonds at end-of-day prices, so their cash is known only after the close; sizing them after the iBonds have filled keeps cash safe.
+11. **VT (Portfolio book only), the next session (Mon 5 Oct ET), once all five bonds show Filled.** It is sized from the cash WInS then shows (`--cash-before-vt`), and WInS Order History shows the payments and the floor bought before any stocks, as the IPS describes.
+
+### Portfolio tab book (current plan, 11 trades: 1-10 on Friday, VT in the session after the bonds fill)
 
 | # | Ticker or bond | Exact WInS name to look for | Serves (Laura's plan) | Quantity | Reference price (as of) | Max price | Commission | Expected Preview total | Cash after: expected / worst case | Size vs 2x-volume limit; vs median day | Yield vs curve |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -27,12 +29,12 @@ AI-generated trade tickets (Claude Code, RAB Kit WS6) for Team Caplet. Nothing h
 | 3 | **IBTP** | iShares iBonds Dec 2034 Term Treasury ETF [UNVERIFIED (issuer name)] | Jan 2035 payment | 921 shares | $24.10 (iShares close, 2026-09-28) | $24.28 | $25 | $22,221.10 | $236,858.16 / $236,345.98 | 0.5%; 1.1% PASS | - |
 | 4 | **IBTO** | iShares iBonds Dec 2033 Term Treasury ETF [UNVERIFIED (issuer name)] | Jan 2034 payment | 1,016 shares | $23.02 (iShares close, 2026-09-28) | $23.19 | $25 | $23,413.32 | $213,444.84 / $212,759.94 | 0.2%; 0.6% PASS | - |
 | 5 | **IBTM** | iShares iBonds Dec 2032 Term Treasury ETF [SEEN 2026-09-29] | Jan 2033 payment + facility floor (both jobs in one holding) | 4,486 shares | $21.76 (WInS close, 2026-09-28) | $21.90 | $25 | $97,640.36 | $115,804.48 / $114,491.54 | 1.2%; 2.8% PASS | - |
-| 6 | **VT** | Vanguard Total World Stock ETF [SEEN 2026-09-29] | Branch: the world stock fund (growth money) | 164 shares | $158.81 (WInS close, 2026-09-28) | $161.18 | $25 | $26,069.84 | $89,734.64 / $88,033.02 | <0.1%; <0.1% PASS | - |
-| 7 | bond | U.S. Treasury bond 3.125% maturing 15 Nov 2041, CUSIP 912810QT8 [UNVERIFIED (WInS string not recorded)] | Jan 2042 payment | $19,000 face | 76.367 clean (2026-09-28) + 1.189 accrued on 2 Oct, per $100 | 77.239 clean | $10 | $14,745.61 | $74,989.03 / $73,116.87 | WInS shows no bond volume (UNVERIFIED) | -1.9bp PASS |
-| 8 | bond | U.S. Treasury bond 4.250% maturing 15 Nov 2040, CUSIP 912810QL5 [UNVERIFIED (WInS string not recorded)] | Jan 2041 payment | $17,000 face | 89.186 clean (2026-09-28) + 1.617 accrued on 2 Oct, per $100 | 90.107 clean | $10 | $15,446.48 | $59,542.54 / $57,507.95 | WInS shows no bond volume (UNVERIFIED) | -5.1bp PASS |
-| 9 | bond | U.S. Treasury bond 4.375% maturing 15 Nov 2039, CUSIP 912810QD3 [UNVERIFIED (WInS string not recorded)] | Jan 2040 payment | $18,000 face | 91.363 clean (2026-09-28) + 1.664 accrued on 2 Oct, per $100 | 92.255 clean | $10 | $16,754.93 | $42,787.61 / $40,586.02 | WInS shows no bond volume (UNVERIFIED) | -6.6bp PASS |
-| 10 | bond | U.S. Treasury bond 4.500% maturing 15 May 2038, CUSIP 912810PX0 [UNVERIFIED (WInS string not recorded)] | Jan 2039 payment | $19,000 face | 94.281 clean (2026-09-28) + 1.712 accrued on 2 Oct, per $100 (Sheet records 0.530: wrong) | 95.121 clean | $10 | $18,248.66 | $24,538.95 / $22,170.70 | WInS shows no bond volume (UNVERIFIED) | -14.4bp PASS |
-| 11 | bond | U.S. Treasury bond 4.750% maturing 15 Feb 2037, CUSIP 912810PT9 [UNVERIFIED (WInS string not recorded)] | Jan 2038 payment | $20,000 face | 97.152 clean (2026-09-28) + 0.620 accrued on 2 Oct, per $100 | 97.940 clean | $10 | $19,564.31 | $4,974.64 / $2,441.01 | WInS shows no bond volume (UNVERIFIED) | -15.3bp PASS |
+| 6 | bond | U.S. Treasury bond 3.125% maturing 15 Nov 2041, CUSIP 912810QT8 [UNVERIFIED (WInS string not recorded)] | Jan 2042 payment | $19,000 face | 76.367 clean (2026-09-28) + 1.189 accrued on 2 Oct, per $100 | 77.239 clean | $10 | $14,745.61 | $101,058.87 / $99,575.39 | WInS shows no bond volume (UNVERIFIED) | -1.9bp PASS |
+| 7 | bond | U.S. Treasury bond 4.250% maturing 15 Nov 2040, CUSIP 912810QL5 [UNVERIFIED (WInS string not recorded)] | Jan 2041 payment | $17,000 face | 89.186 clean (2026-09-28) + 1.617 accrued on 2 Oct, per $100 | 90.107 clean | $10 | $15,446.48 | $85,612.38 / $83,966.47 | WInS shows no bond volume (UNVERIFIED) | -5.1bp PASS |
+| 8 | bond | U.S. Treasury bond 4.375% maturing 15 Nov 2039, CUSIP 912810QD3 [UNVERIFIED (WInS string not recorded)] | Jan 2040 payment | $18,000 face | 91.363 clean (2026-09-28) + 1.664 accrued on 2 Oct, per $100 | 92.255 clean | $10 | $16,754.93 | $68,857.45 / $67,044.54 | WInS shows no bond volume (UNVERIFIED) | -6.6bp PASS |
+| 9 | bond | U.S. Treasury bond 4.500% maturing 15 May 2038, CUSIP 912810PX0 [UNVERIFIED (WInS string not recorded)] | Jan 2039 payment | $19,000 face | 94.281 clean (2026-09-28) + 1.712 accrued on 2 Oct, per $100 (Sheet records 0.530: wrong) | 95.121 clean | $10 | $18,248.66 | $50,608.79 / $48,629.22 | WInS shows no bond volume (UNVERIFIED) | -14.4bp PASS |
+| 10 | bond | U.S. Treasury bond 4.750% maturing 15 Feb 2037, CUSIP 912810PT9 [UNVERIFIED (WInS string not recorded)] | Jan 2038 payment | $20,000 face | 97.152 clean (2026-09-28) + 0.620 accrued on 2 Oct, per $100 | 97.940 clean | $10 | $19,564.31 | $31,044.48 / $28,899.53 | WInS shows no bond volume (UNVERIFIED) | -15.3bp PASS |
+| 11 | **VT** | Vanguard Total World Stock ETF [SEEN 2026-09-29] | Branch: the world stock fund (growth money) | 164 shares | $158.81 (WInS close, 2026-09-28) | $161.18 | $25 | $26,069.84 | $4,974.64 / $2,441.01 | <0.1%; <0.1% PASS | - |
 
 - Total at the reference prices with the accrued interest recorded in the Sheet: **$294,764.50**, cash left **$5,235.50** (1.7%).
 - Expected on the trade date (bond accrued interest recomputed to 2026-10-02): $295,025.36, cash $4,974.64 (the 'expected' cash column).
@@ -48,12 +50,12 @@ Details, Portfolio:
 | 3 | IBTP | $21,998.89 to $22,443.31 | Check the name says Dec 2034. | IBTO (ends a year early) |
 | 4 | IBTO | $23,179.19 to $23,647.45 | NOT IBTN: in WInS, IBTN is INSCORP Inc (SEEN 29 Sep). Type IBTO and read the name. | IBTM (ends a year early) |
 | 5 | IBTM | $96,663.96 to $98,616.76 | Largest order. Check the name says Dec 2032. | none dated: no WInS Treasury matures between Feb 2031 and Feb 2036 (SEEN 29 Sep); if it cannot be bought, keep the cash and retry next session |
-| 6 | VT | $25,681.16 to $26,458.52 | Not VTI (U.S. only). | VTI + VXUS in VT's own U.S./non-U.S. mix (two trades) |
-| 7 | T 3.125% 15-Nov-2041 | $14,582.21 to $14,916.15 | Same date as the 2.000% Nov-2041: check the coupon. Curve check band (25bp): clean 74.081 to 78.401. | 2.000% 15 Nov 2041 (912810TC2), if listed and within 25bp |
-| 8 | T 4.250% 15-Nov-2040 | $15,291.93 to $15,608.92 | Same date as the 1.375% Nov-2040: check the coupon. Curve check band (25bp): clean 86.480 to 91.026. | 1.375% 15 Nov 2040 (912810ST6), if listed and within 25bp |
-| 9 | T 4.375% 15-Nov-2039 | $16,587.38 to $16,922.48 | Not the 4.375% Feb-2038 (stale price on 29 Sep): check the maturity. Curve check band (25bp): clean 88.613 to 93.012. | 4.500% 15 Aug 2039 (912810QC5), if listed and within 25bp |
-| 10 | T 4.500% 15-May-2038 | $18,066.18 to $18,431.15 | Not the 4.500% Feb-2036 or Aug-2039: check the maturity. Sheet accrued 0.530 is a typo (about 1.7 is right); use what WInS shows. Curve check band (25bp): clean 91.057 to 95.173. | 4.375% 15 Feb 2038 (912810PW2) only if its WInS price passes the yield check (stale on 29 Sep); else 5.000% 15 May 2037 (912810PU6) |
-| 11 | T 4.750% 15-Feb-2037 | $19,368.67 to $19,759.96 | Check the maturity says 2037. Curve check band (25bp): clean 94.055 to 97.919. | 5.000% 15 May 2037 (912810PU6), if listed and within 25bp |
+| 6 | T 3.125% 15-Nov-2041 | $14,582.21 to $14,916.15 | Same date as the 2.000% Nov-2041: check the coupon. Curve check band (25bp): clean 74.081 to 78.401. | 2.000% 15 Nov 2041 (912810TC2), if listed and within 25bp |
+| 7 | T 4.250% 15-Nov-2040 | $15,291.93 to $15,608.92 | Same date as the 1.375% Nov-2040: check the coupon. Curve check band (25bp): clean 86.480 to 91.026. | 1.375% 15 Nov 2040 (912810ST6), if listed and within 25bp |
+| 8 | T 4.375% 15-Nov-2039 | $16,587.38 to $16,922.48 | Not the 4.375% Feb-2038 (stale price on 29 Sep): check the maturity. Curve check band (25bp): clean 88.613 to 93.012. | 4.500% 15 Aug 2039 (912810QC5), if listed and within 25bp |
+| 9 | T 4.500% 15-May-2038 | $18,066.18 to $18,431.15 | Not the 4.500% Feb-2036 or Aug-2039: check the maturity. Sheet accrued 0.530 is a typo (1.66 on 28 Sep, 1.71 on 2 Oct); use what WInS shows. Curve check band (25bp): clean 91.057 to 95.173. | 4.375% 15 Feb 2038 (912810PW2) only if its WInS price passes the yield check (stale on 29 Sep); else 5.000% 15 May 2037 (912810PU6) |
+| 10 | T 4.750% 15-Feb-2037 | $19,368.67 to $19,759.96 | Check the maturity says 2037. Curve check band (25bp): clean 94.055 to 97.919. | 5.000% 15 May 2037 (912810PU6), if listed and within 25bp |
+| 11 | VT | $25,681.16 to $26,458.52 | Not VTI (U.S. only). Order 11: place it only in the session after all five bonds show Filled (Mon 5 Oct ET); re-run with --cash-before-vt first. | VTI + VXUS in VT's own U.S./non-U.S. mix (two trades) |
 
 ### Book L (literal ladder, 10 trades; only if the 1 Oct vote picks it)
 
@@ -87,7 +89,7 @@ Details, BookL:
 | 6 | T 3.125% 15-Nov-2041 | $22,251.79 to $22,761.49 | Same date as the 2.000% Nov-2041: check the coupon. Curve check band (25bp): clean 74.081 to 78.401. | 2.000% 15 Nov 2041 (912810TC2), if listed and within 25bp |
 | 7 | T 4.250% 15-Nov-2040 | $23,382.36 to $23,867.17 | Same date as the 1.375% Nov-2040: check the coupon. Curve check band (25bp): clean 86.480 to 91.026. | 1.375% 15 Nov 2040 (912810ST6), if listed and within 25bp |
 | 8 | T 4.375% 15-Nov-2039 | $24,876.12 to $25,378.67 | Not the 4.375% Feb-2038 (stale price on 29 Sep): check the maturity. Curve check band (25bp): clean 88.613 to 93.012. | 4.500% 15 Aug 2039 (912810QC5), if listed and within 25bp |
-| 9 | T 4.500% 15-May-2038 | $27,569.48 to $28,126.44 | Not the 4.500% Feb-2036 or Aug-2039: check the maturity. Sheet accrued 0.530 is a typo (about 1.7 is right); use what WInS shows. Curve check band (25bp): clean 91.057 to 95.173. | 4.375% 15 Feb 2038 (912810PW2) only if its WInS price passes the yield check (stale on 29 Sep); else 5.000% 15 May 2037 (912810PU6) |
+| 9 | T 4.500% 15-May-2038 | $27,569.48 to $28,126.44 | Not the 4.500% Feb-2036 or Aug-2039: check the maturity. Sheet accrued 0.530 is a typo (1.66 on 28 Sep, 1.71 on 2 Oct); use what WInS shows. Curve check band (25bp): clean 91.057 to 95.173. | 4.375% 15 Feb 2038 (912810PW2) only if its WInS price passes the yield check (stale on 29 Sep); else 5.000% 15 May 2037 (912810PU6) |
 | 10 | T 4.750% 15-Feb-2037 | $29,048.05 to $29,634.88 | Check the maturity says 2037. Curve check band (25bp): clean 94.055 to 97.919. | 5.000% 15 May 2037 (912810PU6), if listed and within 25bp |
 
 ## Alternates: the clean price range that passes the 25bp curve check
@@ -119,7 +121,7 @@ Curve 2026-09-28. Use an alternate only when the planned bond fails its check or
 | C2 cash | 21 of 21 | all tickets |
 | C3 volume | 11 of 11 | all tickets |
 | C4 bonds | 10 of 10 | all tickets |
-| C5 ledger | 15 of 15 | Portfolio total: $294,764.50 vs numbers.yaml $294,764.50; BookL total: $292,580.89 vs numbers.yaml $292,580.89; Portfolio split: dated holdings incl. floor 89.51% (tab target 90.2%), VT 8.68% (target 8.7%), cash 1.75% (target 1.1%); equals numbers.yaml wins.portfolio.split_close_0928; Portfolio IBTR value: $19,872.54; Portfolio IBTQ value: $20,998.20; Portfolio IBTP value: $22,196.10; Portfolio IBTO value: $23,388.32; Portfolio IBTM value: $97,615.36; Portfolio VT value: $26,044.84; Portfolio T 3.125% 15-Nov-2041 value: $14,729.37; Portfolio T 4.250% 15-Nov-2040 value: $15,428.86; Portfolio T 4.375% 15-Nov-2039 value: $16,734.42; Portfolio T 4.500% 15-May-2038 value: $18,014.09; Portfolio T 4.750% 15-Feb-2037 value: $19,542.40; numbers.yaml hash: 492ed3203958 |
+| C5 ledger | 15 of 15 | Portfolio total: $294,764.50 vs numbers.yaml $294,764.50; BookL total: $292,580.89 vs numbers.yaml $292,580.89; Portfolio split: dated holdings incl. floor 89.51% (tab target 90.2%), VT 8.68% (target 8.7%), cash 1.75% (target 1.1%); equals numbers.yaml wins.portfolio.split_close_0928; Portfolio IBTR value: $19,872.54; Portfolio IBTQ value: $20,998.20; Portfolio IBTP value: $22,196.10; Portfolio IBTO value: $23,388.32; Portfolio IBTM value: $97,615.36; Portfolio T 3.125% 15-Nov-2041 value: $14,729.37; Portfolio T 4.250% 15-Nov-2040 value: $15,428.86; Portfolio T 4.375% 15-Nov-2039 value: $16,734.42; Portfolio T 4.500% 15-May-2038 value: $18,014.09; Portfolio T 4.750% 15-Feb-2037 value: $19,542.40; Portfolio VT value: $26,044.84; numbers.yaml hash: 492ed3203958 |
 | C6 words | 5 of 5 | rab/trades/tickets.md: clean; rab/trades/tickets.csv: clean; rab/trades/M9_selection.md: clean; rab/trades/friday_checklist.md: clean; rab/trades/october_trade.md: clean |
 
 ## Times (from `rab/trades/trades_clock.py`, zoneinfo)
@@ -128,13 +130,15 @@ Curve 2026-09-28. Use an alternate only when the planned bond fails its check or
 |---|---|---|
 | Fri 2 Oct: read WInS bond prices, run refresh_tickets.py (Thursday close and curve are out) | Fri 2 Oct 2026 7:00 AM EDT | Fri 2 Oct 2026 9:00 PM AEST |
 | Fri 2 Oct: U.S. market opens (do not trade in the first 15 minutes) | Fri 2 Oct 2026 9:30 AM EDT | Fri 2 Oct 2026 11:30 PM AEST |
-| Fri 2 Oct: first ETF orders allowed (after the opening rush) | Fri 2 Oct 2026 9:45 AM EDT | Fri 2 Oct 2026 11:45 PM AEST |
+| Fri 2 Oct: earliest any order may go in, only if Plan A cannot wait (iBonds normally wait for 10:30) | Fri 2 Oct 2026 9:45 AM EDT | Fri 2 Oct 2026 11:45 PM AEST |
 | Fri 2 Oct: Plan A starts: iBonds orders after the first hour | Fri 2 Oct 2026 10:30 AM EDT | Sat 3 Oct 2026 12:30 AM AEST |
-| Fri 2 Oct: Plan A ends (all eleven orders in) | Fri 2 Oct 2026 11:30 AM EDT | Sat 3 Oct 2026 1:30 AM AEST |
+| Fri 2 Oct: Plan A ends (orders 1-10 in; VT waits for the bond fills) | Fri 2 Oct 2026 11:30 AM EDT | Sat 3 Oct 2026 1:30 AM AEST |
 | Fri 2 Oct: Plan B starts (if Plan A was missed): last full trading hours | Fri 2 Oct 2026 2:00 PM EDT | Sat 3 Oct 2026 4:00 AM AEST |
 | Fri 2 Oct: Plan B last order (bonds need time before the close) | Fri 2 Oct 2026 3:30 PM EDT | Sat 3 Oct 2026 5:30 AM AEST |
 | Fri 2 Oct: U.S. market closes; bond orders fill at end-of-day prices | Fri 2 Oct 2026 4:00 PM EDT | Sat 3 Oct 2026 6:00 AM AEST |
 | Mon 5 Oct: first open after Sydney daylight saving starts | Mon 5 Oct 2026 9:30 AM EDT | Tue 6 Oct 2026 12:30 AM AEDT |
+| Mon 5 Oct: order 11 (VT, Portfolio book) once all five bonds show Filled; after the first hour | Mon 5 Oct 2026 10:30 AM EDT | Tue 6 Oct 2026 1:30 AM AEDT |
+| Mon 5 Oct: VT fallback, last full trading hours (if the first window was missed) | Mon 5 Oct 2026 2:00 PM EDT | Tue 6 Oct 2026 5:00 AM AEDT |
 | Fri 9 Oct: team roster due | Fri 9 Oct 2026 5:00 PM EDT | Sat 10 Oct 2026 8:00 AM AEDT |
 | Wed 14 Oct: October price check uses this close | Wed 14 Oct 2026 4:00 PM EDT | Thu 15 Oct 2026 7:00 AM AEDT |
 | Thu 15 Oct: October trade window opens (if a trigger fires) | Thu 15 Oct 2026 10:30 AM EDT | Fri 16 Oct 2026 1:30 AM AEDT |

@@ -13,10 +13,12 @@ Two modes
                   passes it with --wins-prices. Units are re-sized with the Sheet's own rules (--units rule, default
                   in this mode). Writes rab/trades/out/tickets_<curve date>.csv and .md.
 
-Order sequence (both books): iBonds ETFs latest payment first (IBTR ... IBTM), then VT (Portfolio only), then the
-Treasury bonds latest payment first. ETFs first because they fill at live prices; bonds last because WInS fills them at
-end-of-day prices, so their cash is committed last (premortem PM-03). Within each group, the IPS order "latest payments
-first".
+Order sequence (both books): iBonds ETFs (IBTR ... IBTM), then the Treasury bonds (Nov-2041 ... Feb-2037), then VT
+(Portfolio only) as order 11, in the session after the bonds show Filled. The iBonds go first because they fill at live
+prices, so the cash they use is known at once; the bonds next because WInS fills them at end-of-day prices, so their
+cash is known only after the close (premortem PM-03); VT last so it is sized from the cash actually left and WInS Order
+History shows the payments and the floor before growth (judge panel, 30 Sep). The order inside each group is for cash
+control only; it is not the IPS rule "latest payments first", which says which payments a short 2027 deposit funds.
 
 Checks (exit status 1 if any fails)
   C1 names    every ticket carries an expected WInS name and a SEEN/UNVERIFIED tag; SEEN names equal tab WInS Notes;
@@ -108,7 +110,8 @@ SEC = {
                     "be bought, keep the cash and retry next session"},
     "VT": {"type": "ETF", "name": "Vanguard Total World Stock ETF", "status": "SEEN 2026-09-29", "ends": "-",
            "pays": None, "serves": {"Portfolio": "Branch: the world stock fund (growth money)"},
-           "trap": "Not VTI (U.S. only).", "alt": "VTI + VXUS in VT's own U.S./non-U.S. mix (two trades)"},
+           "trap": "Not VTI (U.S. only). Order 11: place it only in the session after all five bonds show Filled "
+                   "(Mon 5 Oct ET); re-run with --cash-before-vt first.", "alt": "VTI + VXUS in VT's own U.S./non-U.S. mix (two trades)"},
     "T 3.125% 15-Nov-2041": {"type": "Treasury", "name": "U.S. Treasury bond 3.125% maturing 15 Nov 2041",
                              "cusip": "912810QT8", "status": "UNVERIFIED (WInS string not recorded)",
                              "ends": "15 Nov 2041", "pays": 2042,
@@ -132,7 +135,7 @@ SEC = {
                              "ends": "15 May 2038", "pays": 2039,
                              "serves": {"Portfolio": "Jan 2039 payment", "BookL": "Jan 2039 payment"},
                              "trap": "Not the 4.500% Feb-2036 or Aug-2039: check the maturity. Sheet accrued 0.530 "
-                                     "is a typo (about 1.7 is right); use what WInS shows.",
+                                     "is a typo (1.66 on 28 Sep, 1.71 on 2 Oct); use what WInS shows.",
                              "alt": "4.375% 15 Feb 2038 (912810PW2) only if its WInS price passes the yield check "
                                     "(stale on 29 Sep); else 5.000% 15 May 2037 (912810PU6)"},
     "T 4.750% 15-Feb-2037": {"type": "Treasury", "name": "U.S. Treasury bond 4.750% maturing 15 Feb 2037",
@@ -142,12 +145,12 @@ SEC = {
                              "trap": "Check the maturity says 2037.",
                              "alt": "5.000% 15 May 2037 (912810PU6), if listed and within 25bp"},
 }
-ORDER = {"Portfolio": ["IBTR", "IBTQ", "IBTP", "IBTO", "IBTM", "VT", "T 3.125% 15-Nov-2041", "T 4.250% 15-Nov-2040",
-                       "T 4.375% 15-Nov-2039", "T 4.500% 15-May-2038", "T 4.750% 15-Feb-2037"]}
+ORDER = {"Portfolio": ["IBTR", "IBTQ", "IBTP", "IBTO", "IBTM", "T 3.125% 15-Nov-2041", "T 4.250% 15-Nov-2040",
+                       "T 4.375% 15-Nov-2039", "T 4.500% 15-May-2038", "T 4.750% 15-Feb-2037", "VT"]}
 ORDER["BookL"] = [k for k in ORDER["Portfolio"] if k != "VT"]
-WHY = {"IBTR": "iBonds first (live prices, cash certain); latest payment first (IPS); smallest-risk start",
-       "VT": "after the dated holdings (payments before growth)",
-       "T 3.125% 15-Nov-2041": "bonds last: WInS fills them at end-of-day prices"}
+WHY = {"IBTR": "iBonds first (live prices, so cash is known at once); a small first order to learn the screen",
+       "T 3.125% 15-Nov-2041": "bonds after the iBonds: WInS fills them at end-of-day prices",
+       "VT": "last, in the next session: sized from the cash left after the bonds fill (payments and floor first)"}
 
 
 ALTERNATES = ["T 2.000% 15-Nov-2041", "T 1.375% 15-Nov-2040", "T 4.500% 15-Aug-2039", "T 5.000% 15-May-2037",
@@ -455,11 +458,15 @@ def ticket(book, seq, k, qty, ctx):
 
 
 def build(book, units, ctx):
-    """Cash walk in sequence. ctx['cash_after_etfs'] (Friday, optional) replaces the modelled cash after the last ETF
-    with what WInS actually shows, so the bonds are sized from the cash actually left (PM-03)."""
+    """Cash walk in sequence. ctx['cash_after_etfs'] (Friday, optional) replaces the modelled cash after the last iBonds
+    ETF with what WInS actually shows, so the bonds are sized from the cash actually left (PM-03).
+    ctx['cash_before_vt'] (Portfolio, optional) replaces the modelled cash before VT (order 11, placed after the bonds
+    fill) with what WInS shows then."""
     rows, cash_l, cash_r, cash_w = [], START_CASH, START_CASH, START_CASH
-    last_etf = max(i for i, k in enumerate(ORDER[book]) if SEC[k]["type"] == "ETF")
+    last_etf = max(i for i, k in enumerate(ORDER[book]) if SEC[k]["type"] == "ETF" and k != "VT")
     for i, k in enumerate(ORDER[book], 1):
+        if k == "VT" and ctx.get("cash_before_vt") is not None:
+            cash_l = cash_r = cash_w = ctx["cash_before_vt"]
         t = ticket(book, i, k, units[k], ctx)
         cash_l -= t["cost_locked"]
         cash_r -= t["cost_ref"]
@@ -469,6 +476,16 @@ def build(book, units, ctx):
         t.update({"cash_after_locked": cash_l, "cash_after_ref": cash_r, "cash_after_worst": cash_w})
         rows.append(t)
     return rows
+
+
+def size_vt_from_cash(units, ctx):
+    """--cash-before-vt: VT gets the plan share, or less if the cash WInS shows would leave under $1,000 in the worst
+    case (VT at its max price). It never takes more than the plan share; spare cash waits for October trigger C."""
+    t = ticket("Portfolio", 11, "VT", 1, ctx)
+    afford = math.floor((ctx["cash_before_vt"] - FLOAT_MIN - t["commission"]) / t["max_price"])
+    u = dict(units)
+    u["VT"] = max(0, min(u["VT"], afford))
+    return u
 
 
 def trim_for_float(book, units, ctx):
@@ -518,7 +535,8 @@ def run_checks(books, ctx, numbers, units_mode):
             stale = [r["id"] for r in rows if "STALE" in r["price_status"]]
             out.append(("C4 bonds", f"{book}: every price fresh or typed from WInS", not stale,
                         "missing: " + ", ".join(stale) if stale else "all typed"))
-    if ctx["basis"] == "locked" and units_mode == "sheet" and ctx.get("cash_after_etfs") is None:
+    if (ctx["basis"] == "locked" and units_mode == "sheet" and ctx.get("cash_after_etfs") is None
+            and ctx.get("cash_before_vt") is None):
         want = {"Portfolio": numbers["wins.portfolio.cost_close_0928"]["value"],
                 "BookL": numbers["wins.bookL.cost_close_0928"]["value"]}
         for book, rows in books.items():
@@ -582,7 +600,7 @@ def money(x):
 
 
 def md_book(book, rows, ctx):
-    L = [f"### {'Portfolio tab book (current plan, 11 trades)' if book == 'Portfolio' else 'Book L (literal ladder, 10 trades; only if the 1 Oct vote picks it)'}",
+    L = [f"### {'Portfolio tab book (current plan, 11 trades: 1-10 on Friday, VT in the session after the bonds fill)' if book == 'Portfolio' else 'Book L (literal ladder, 10 trades; only if the 1 Oct vote picks it)'}",
          "",
          "| # | Ticker or bond | Exact WInS name to look for | Serves (Laura's plan) | Quantity | Reference price (as of) | "
          "Max price | Commission | Expected Preview total | Cash after: expected / worst case | Size vs 2x-volume limit; vs median day | Yield vs curve |",
@@ -661,13 +679,17 @@ def write_md(path, books, ctx, checks, trims, units_mode):
          "5. **No repeats, no same-day sells:** a pending order is not a failed order. Check Order History before "
          "re-entering anything. Never sell something the day it was bought; log a mistake, fix it another day.", "",
          "## Order sequence and why", "",
-         "1-5. **iBonds ETFs, latest payment first (IBTR, IBTQ, IBTP, IBTO, IBTM).** ETFs fill at live prices, so the "
-         "cash they use is known at once. The IPS buys the ladder \"latest payments first\". IBTR is also a small first "
-         "order, a safe way to learn the order screen. Place them after the first hour (thin funds, wide spreads at the "
-         "open, and the WInS rule that an order may take only half of the volume traded so far).",
-         "6. **VT (Portfolio book only).** The growth money goes in after the dated holdings: payments before growth.",
-         "7-11. **Treasury bonds, latest payment first (Nov-2041 ... Feb-2037).** WInS fills bonds at end-of-day "
-         "prices, so their cash is committed last; sizing them after the ETFs have filled keeps cash safe.", ""]
+         "The order is for cash control only. It is not the IPS rule \"latest payments first\": that rule says which "
+         "payments a short 2027 deposit funds, not the order of WInS trades.", "",
+         "1-5. **iBonds ETFs (IBTR, IBTQ, IBTP, IBTO, IBTM), Friday.** They fill at live prices, so the cash they use "
+         "is known at once. IBTR is also a small first order, a safe way to learn the order screen. Place them after "
+         "the first hour: thin funds, wide spreads at the open, and the WInS FAQ rule that an order may take at most "
+         "half of a security's market volume (we read that as the volume traded so far that day: UNVERIFIED).",
+         "6-10. **Treasury bonds (Nov-2041 ... Feb-2037), Friday.** WInS fills bonds at end-of-day prices, so their "
+         "cash is known only after the close; sizing them after the iBonds have filled keeps cash safe.",
+         "11. **VT (Portfolio book only), the next session (Mon 5 Oct ET), once all five bonds show Filled.** It is "
+         "sized from the cash WInS then shows (`--cash-before-vt`), and WInS Order History shows the payments and the "
+         "floor bought before any stocks, as the IPS describes.", ""]
     for book, rows in books.items():
         L += md_book(book, rows, ctx)
         L += [f"Details, {book}:", ""] + md_detail(rows)
@@ -720,15 +742,20 @@ def main():
                     help='use a named alternate, e.g. --swap "T 4.250%% 15-Nov-2040=T 1.375%% 15-Nov-2040" (needs --units rule)')
     ap.add_argument("--book", choices=["both", "Portfolio", "BookL"], default="both",
                     help="which book to build (the 1 Oct vote decides; required with --cash-after-etfs)")
-    ap.add_argument("--cash-after-etfs", type=float, help="Friday: the cash WInS shows after the ETF orders filled; "
-                    "bonds are then re-sized from it (use with --units rule)")
+    ap.add_argument("--cash-after-etfs", type=float, help="Friday: the cash WInS shows after the five iBonds orders "
+                    "filled; bonds are then re-sized from it (use with --units rule)")
+    ap.add_argument("--cash-before-vt", type=float, help="Portfolio, next session: the cash WInS shows once the bonds "
+                    "have filled; VT (order 11) is sized from it, never above the plan share")
     a = ap.parse_args()
     td = date.fromisoformat(a.trade_date)
     if a.cash_after_etfs is not None and a.book == "both":
         ap.error("--cash-after-etfs needs --book Portfolio or --book BookL (the cash differs by book)")
+    if a.cash_before_vt is not None and a.book != "Portfolio":
+        ap.error("--cash-before-vt needs --book Portfolio (Book L holds no VT)")
     ctx = locked_context(td) if a.basis == "locked" else friday_context(td, a.wins_prices)
     ctx["alternates"] = alternates_check(ctx)
     ctx["cash_after_etfs"] = a.cash_after_etfs
+    ctx["cash_before_vt"] = a.cash_before_vt
     units_mode = a.units or ("sheet" if a.basis == "locked" else "rule")
     for sw in a.swap:
         if units_mode != "rule":
@@ -740,17 +767,20 @@ def main():
     books = {}
     for book in (("Portfolio", "BookL") if a.book == "both" else (a.book,)):
         u = units[book]
+        if book == "Portfolio" and a.cash_before_vt is not None:
+            u = size_vt_from_cash(u, ctx)
         if units_mode == "rule":
             u, t = trim_for_float(book, u, ctx)
             trims += [f"{book}: {x}" for x in t]
         books[book] = build(book, u, ctx)
     numbers = yaml.safe_load(open(os.path.join(ROOT, "rab/numbers.yaml")))["numbers"]
     checks = run_checks(books, ctx, numbers, units_mode)
-    if a.basis == "locked" and units_mode == "sheet" and a.cash_after_etfs is None and a.book == "both" and not a.swap:
+    if (a.basis == "locked" and units_mode == "sheet" and a.cash_after_etfs is None and a.cash_before_vt is None
+            and a.book == "both" and not a.swap):
         csv_p, md_p = os.path.join(HERE, "tickets.csv"), a.md or os.path.join(HERE, "tickets.md")
     else:
         tag = f"{ctx['curve_date'].isoformat()}_{a.basis}_{units_mode}" + ("" if a.book == "both" else f"_{a.book}") \
-            + ("_swap" if a.swap else "")
+            + ("_swap" if a.swap else "") + ("_vt" if a.cash_before_vt is not None else "")
         csv_p, md_p = os.path.join(HERE, "out", f"tickets_{tag}.csv"), a.md or os.path.join(HERE, "out", f"tickets_{tag}.md")
     write_csv(csv_p, books)
     write_md(md_p, books, ctx, checks, trims, units_mode)

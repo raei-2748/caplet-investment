@@ -12,14 +12,16 @@ not from that file. Every time below comes from `rab/trades/trades_clock.py` (zo
 | Thu 1 Oct, team meeting | - | Vote: Portfolio tab or Book L; low-coupon swap yes/no (`M9_selection.md`); roles; notes drafted |
 | **Fri 2 Oct 9:00 PM AEST** | Fri 7:00 AM EDT | Read-only checks in WInS; type prices; run the refresh |
 | Fri 2 Oct 11:30 PM AEST | Fri 9:30 AM EDT | U.S. market opens. Watch, do not trade for 15 minutes |
-| Fri 2 Oct 11:45 PM AEST | Fri 9:45 AM EDT | Earliest ETF order (only if Plan A cannot wait) |
-| **Sat 3 Oct 12:30 AM AEST** | Fri 10:30 AM EDT | **Plan A: orders 1-11 in sequence** |
+| Fri 2 Oct 11:45 PM AEST | Fri 9:45 AM EDT | Earliest any order may go in, only if Plan A cannot wait (iBonds normally wait for 10:30) |
+| **Sat 3 Oct 12:30 AM AEST** | Fri 10:30 AM EDT | **Plan A: orders 1-10 in sequence** (Portfolio book: VT waits) |
 | Sat 3 Oct 1:30 AM AEST | Fri 11:30 AM EDT | Plan A should be finished |
 | Sat 3 Oct 4:00 AM AEST | Fri 2:00 PM EDT | Plan B start, only if Plan A did not happen |
 | Sat 3 Oct 5:30 AM AEST | Fri 3:30 PM EDT | Last order of the day (bonds need to be in before the close) |
 | Sat 3 Oct 6:00 AM AEST | Fri 4:00 PM EDT | Close. Bond orders fill at end-of-day prices |
 | Sat 3 Oct 8:00 AM AEST or later | Fri 6:00 PM EDT | Check fills, copy notes back, screenshots, Trade Log |
 | Sun 4 Oct | - | Sydney moves to AEDT: from Mon 5 Oct the open is 12:30 AM AEDT the next day |
+| **Tue 6 Oct 1:30 AM AEDT** | Mon 5 Oct 10:30 AM EDT | **Order 11: VT** (Portfolio book), only once all five bonds show Filled |
+| Tue 6 Oct 5:00 AM AEDT | Mon 5 Oct 2:00 PM EDT | VT fallback window, if the first was missed (last order by 3:30 PM EDT) |
 
 ## Roles (suggested; each person opts in)
 
@@ -29,9 +31,9 @@ whoever holds the team login.
 | Role | What it involves | Suggested | Needs consent |
 |---|---|---|---|
 | Trader | Logged in; types every order; submits only after the checker says "tick" | the team member who holds the login | yes: login, awake 12:30-1:30 AM |
-| Checker | Reads ticker, WInS name, quantity and Preview total aloud against the ticket; says "tick" or "stop" | Ahaan D. | yes: awake 12:30-1:30 AM (a video call works) |
+| Checker | Reads ticker, WInS name, quantity and Preview total aloud against the ticket; says "tick" or "stop" | Ahaan D. | yes: awake 12:30-1:30 AM Sat, and for VT on Tue 6 Oct (a video call works) |
 | Price reader | Fri 9 PM: reads the bond prices, accrued interest and ETF names in WInS (read-only) into the price file | Darren W. | yes: needs the login screen, or the trader shares a screen |
-| Refresh runner | Runs `refresh_tickets.py`; posts the new ticket file; re-runs it after the ETFs fill | Ray W. | no (the repo is his) |
+| Refresh runner | Runs `refresh_tickets.py`; posts the new ticket file; re-runs it after the iBonds fill, and on Monday before VT | Ray W. | no (the repo is his) |
 | Recorder | Trade Log tab: fills, commissions, cash, the note as saved, screenshots | Harry Y. | no (can be done Saturday morning) |
 | Note keeper | Holds the final note texts (the team's own words); counts characters; pastes each note | Eric Z. | yes: awake for Plan A or B |
 | Timekeeper and backup | Watches the clock; calls Plan B if Plan A slips; second checker | Young Y. | yes: awake for Plan A or B |
@@ -42,14 +44,21 @@ any AI help goes in `docs/AI_USE.md`.
 ## Thursday 1 Oct (before Friday)
 
 - [ ] Vote on the book: the **Portfolio tab** (11 trades) or **Book L** (10 trades). Record the vote, names and date.
-- [ ] Decide the low-coupon question (`M9_selection.md`): swap on Friday if listed, keep the swap for October, or no.
+- [ ] Decide the low-coupon question (`M9_selection.md`) on its merits: swap on Friday if the bond is listed and its
+      price passes the 25bp check, keep the swap for October (trigger D), or no. This settles which Nov-2040 note is
+      typed: **T40b** if WInS does not list the 1.375%, **SW40** if it is listed and swapped, **T40c** if it is listed
+      but kept for October (`notes.md` s4-s5). That note is the planned "refined" pick.
+- [ ] Laura-lens reason for the vote: Book L shows only the payments, so the floor and the stock fund, two of her
+      three goals, never appear in WInS before the 23 Oct Trading Notes Analysis (`notes.md` s6).
 - [ ] Strategy name: keep any brand name **out of** WInS notes unless Ray confirms the final name (premortem PM-16).
 - [ ] Notes drafted offline: at most 285 characters, plain ASCII (no curly quotes, dashes, "~", "<="), one
       paragraph. None of the overclaim words on the banned list (`rab/premortem.md`, Gate C check 2; say "backed by
       the U.S. government", and never that an iBonds fund repays a set sum). Dollar figures only as "in Laura's
       plan", otherwise percentages. At most one number per note. Briefs and EXAMPLE notes (labelled `EXAMPLE - team
       rewrites`) are in `notes.md`; draft from the brief, then run `note_check.py --ticker <holding> --text "..."`,
-      which also measures overlap with the exemplar.
+      which also measures overlap with the exemplar. Each writer adds **one thing only WInS showed that day** (the
+      exact WInS name string, that the price passed the check, or the Preview price as the note's one number, dated).
+      No exemplar can contain it, so no note is a copy.
 - [ ] Everyone reads the five stop rules at the top of `tickets.md`.
 
 ## Friday 9:00 PM AEST (7:00 AM ET): read-only checks, then refresh
@@ -77,14 +86,19 @@ Nothing is ordered in this step.
    and the alternate's price passes. The script must end with `0 fail`. Share `rab/trades/out/tickets_*.md`.
    - If a bond **fails the 25bp check**, it is stale: use the alternate named on its ticket, or skip it today and
      buy it on Monday.
+   - The script prints "ten payments cost $X on 1 Jan 2027" on the latest curve. **That line is the test in the IBTR
+     note** (the "tested" pick): read it aloud and write it in the Trade Log. If it is above $300,000, the IBTR note
+     changes: tell Ray before trading (`october_trade.md` trigger B describes what the plan then does).
    - If a fetch fails, the script says so, falls back to the committed 28 Sep files and marks those prices STALE
      (the check fails). Type the WInS price for every flagged ETF too (the template has a row for each) and re-run
      until it ends with `0 fail`. Never work out sizes by hand.
 
 ## Friday 11:30 PM AEST: open. Plan A from 12:30 AM AEST
 
-Order sequence (see `tickets.md` for the reasons): **1 IBTR, 2 IBTQ, 3 IBTP, 4 IBTO, 5 IBTM, 6 VT, then the bonds
-7 Nov-2041, 8 Nov-2040, 9 Nov-2039, 10 May-2038, 11 Feb-2037.** (Book L: the same without VT.)
+Order sequence (see `tickets.md` for the reasons): **1 IBTR, 2 IBTQ, 3 IBTP, 4 IBTO, 5 IBTM, then the bonds
+6 Nov-2041, 7 Nov-2040, 8 Nov-2039, 9 May-2038, 10 Feb-2037.** **11 VT goes in the next session** (Mon 5 Oct ET), once
+all five bonds show Filled, so WInS Order History shows the payments and the floor bought before any stocks.
+(Book L: orders 1-10 only.)
 
 **Every order, the same nine steps:**
 
@@ -102,17 +116,17 @@ Order sequence (see `tickets.md` for the reasons): **1 IBTR, 2 IBTQ, 3 IBTP, 4 I
 9. Order History: Filled or Pending? **Never re-enter a pending order.** Open Add/View Notes and copy the saved note
    back into the Trade Log; compare it with the planned text (the box cuts silently at 300).
 
-**After order 6 (all ETFs filled):** read the WInS cash. If it is below the ticket's worst-case "Cash after" for
-order 6, re-run the refresh with `--cash-after-etfs <cash shown> --book <book>` before the bonds. It trims bond face
+**After order 5 (all five iBonds filled):** read the WInS cash. If it is below the ticket's worst-case "Cash after"
+for order 5, re-run the refresh with `--cash-after-etfs <cash shown> --book <book>` before the bonds. It trims bond face
 $1,000 at a time, earliest payment first, so at least $1,000 of cash is always left.
 
-**Bonds (orders 7-11)** fill at end-of-day prices, so WInS cash will not show them until after the close. Do not treat
+**Bonds (orders 6-10)** fill at end-of-day prices, so WInS cash will not show them until after the close. Do not treat
 "pending" as a failure.
 
 ## Plan B (if Plan A did not happen): Sat 4:00-5:30 AM AEST
 
 Same sequence, same steps. The last order goes in by 5:30 AM AEST (3:30 PM ET). If even Plan B slips, trade on
-Monday 5 Oct ET, which is Tue 6 Oct from 12:30 AM AEDT. Nothing in the plan depends on Friday itself.
+Monday 5 Oct ET, which is Tue 6 Oct from 12:30 AM AEDT. Nothing in the plan depends on Friday itself. VT always goes in the session after the bonds fill.
 
 ## Saturday morning (from 8:00 AM AEST)
 
@@ -123,6 +137,18 @@ Monday 5 Oct ET, which is Tue 6 Oct from 12:30 AM AEDT. Nothing in the plan depe
       discuss it, and fix it only on a later day, with a note explaining why.
 - [ ] Anything unfilled: it becomes trigger A of `october_trade.md`, or is simply placed on Monday.
 - [ ] AI-use log: the tickets, checklist and any exemplar wording used (`docs/AI_USE.md`).
+
+## Monday 5 Oct ET (Tue 6 Oct from 1:30 AM AEDT): order 11, VT (Portfolio book only)
+
+1. [ ] Order History: all five bonds **Filled**? If any is still pending, wait: VT goes in only after the bonds.
+2. [ ] Read the WInS cash. Refresh runner:
+   `/Users/ray/Research/rab-ws/.venv/bin/python rab/trades/refresh_tickets.py --basis friday --trade-date 2026-10-05
+   --wins-prices rab/trades/wins_prices_friday.csv --book Portfolio --cash-before-vt <cash shown>` (Friday's price file
+   is fine: only the VT row is used). Use **only the VT row**: the
+   plan share, or fewer shares if the cash would fall below $1,000. Never more than the plan share (spare cash waits
+   for October trigger C).
+3. [ ] Same nine steps as Friday. The VT note says it was bought last; if VT was placed before the bonds by mistake,
+   do not use that wording.
 
 ## WInS facts: what is known and what to verify on Friday
 

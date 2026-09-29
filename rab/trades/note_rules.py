@@ -35,7 +35,12 @@ BANNED = {
     r"[‒-―‘’“”~]|<=|>=": "not plain ASCII punctuation (PM-12)",
 }
 ROLE_WORDS = ["growth", "liquidity", "risk management", "future funding"]   # Competition Guide p.3
-LAURA_ANCHORS = [r"Laura", r"\bher\b", r"\b20(3[3-9]|4[0-2])\b", r"(?i)facility", r"(?i)co-?sponsor"]
+# A payment year alone is not an anchor: it could fit any client (judge panel, 30 Sep 2026).
+LAURA_ANCHORS = [r"Laura", r"\bher\b", r"(?i)facility", r"(?i)co-?sponsor", r"(?i)residency"]
+# A note that may be featured in the Trading Notes Analysis must also say what the payment is for or who hears the
+# range: the residency, co-sponsors, or which of her ten payments ("her ninth", "the fourth of Laura's ten").
+PICK_ANCHORS = [r"(?i)residency", r"(?i)co-?sponsor",
+                r"(?i)\b(her|laura's) (ten|first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|last)\b"]
 CASE_FACTS = {"$50,000", "$300,000", "$150,000"}   # client case design facts (Laura's plan)
 SECURITY_COUPONS = {"3.125%", "4.250%", "4.375%", "4.500%", "4.750%", "1.375%", "2.000%", "5.000%", "4.5%",
                     "4.25%", "4.75%", "3.5%"}
@@ -91,6 +96,12 @@ def check_text(text, declared=()):
                 ", ".join(dollars) + (" (say 'in Laura's plan', or use a percentage of the WInS portfolio)"
                                       if dollars else ""), "WARN"))
     return res
+
+
+def pick_anchor(text):
+    """(ok, detail) for a note that may be featured: it names the residency, co-sponsors or which of her ten payments."""
+    ok = any(re.search(p, text) for p in PICK_ANCHORS)
+    return ok, "" if ok else "a featured note names the residency, co-sponsors or which of her ten payments"
 
 
 def words(text):
