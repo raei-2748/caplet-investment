@@ -93,8 +93,10 @@ T 3.125% 15-Nov-2041, VT). `Book L`: the ten ladder holdings and sizes in I4.
 - Book L: target_h = 50,000 x DF(end_h) with end = 15 Dec of the iBond's year or the bond's maturity; ETF shares =
   ceiling(target / price); bond face = ceiling(target / (dirty/100) / 1,000) x 1,000.
 - Portfolio: ladder share 65.9%, floor 24.3%, stock fund 8.7%, cash 1.1% of $300,000 (typed-in split). Rung
-  target_h = 0.659 x 300,000 x (Book L cost_h / Book L total cost); IBTM adds 0.243 x 300,000; VT target =
+  target_h = 0.659 x 300,000 x (Book L value_h / sum of the ten Book L values), where the Book L values are those of
+  the Book L rule above at the same prices (commissions excluded); IBTM adds 0.243 x 300,000; VT target =
   0.087 x 300,000. ETF shares = floor(target / price); bond face = floor(target / (dirty/100) / 1,000) x 1,000.
+  Dirty = clean + recorded accrued (I4).
 
 **B5. Cash margin.** Keep the Portfolio quantities and `close_0928` prices. Apply a parallel shift b to the curve:
 each Treasury's value scales by Dirty_model(b) / Dirty_model(0) (section C step 2); each iBond ETF's value scales by
