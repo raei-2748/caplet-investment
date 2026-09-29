@@ -1,0 +1,57 @@
+Curve snapshot 2026-01-02..2026-09-28 (186 dates); 09/25 row equals repo file: True
+
+[1]-[2] Cost at 2027-01-01, gap over $300k, and the longest-first split
+  shift | ladder | exact-date cost | gap | fully bought | waiting part (2027 $) | 2028 $ needed | % of $150k
+    +0bp | exact-date    | $290,291 | $-9,709 | all ten | $0 | $0 | 0.0%
+   -25bp | exact-date    | $297,565 | $-2,435 | all ten | $0 | $0 | 0.0%
+   -50bp | exact-date    | $305,044 | $5,044 | 2034-2042; 2033: 87% bought | $5,044 | $5,262 | 3.5%
+   -75bp | exact-date    | $312,736 | $12,736 | 2034-2042; 2033: 67% bought | $12,736 | $13,252 | 8.8%
+  -100bp | exact-date    | $320,646 | $20,646 | 2034-2042; 2033: 47% bought | $20,646 | $21,431 | 14.3%
+  -150bp | exact-date    | $337,152 | $37,152 | 2034-2042; 2033: 8% bought | $37,152 | $38,375 | 25.6%
+  -200bp | exact-date    | $354,619 | $54,619 | 2035-2042; 2034: 67% bought | $54,619 | $56,141 | 37.4%
+    +0bp | Nov-15 STRIPS | $292,418 | $-7,582 | all ten | $0 | $0 | 0.0%
+   -25bp | Nov-15 STRIPS | $299,649 | $-351 | all ten | $0 | $0 | 0.0%
+   -50bp | Nov-15 STRIPS | $307,082 | $7,082 | 2034-2042; 2033: 81% bought | $7,082 | $7,388 | 4.9%
+   -75bp | Nov-15 STRIPS | $314,724 | $14,724 | 2034-2042; 2033: 62% bought | $14,724 | $15,322 | 10.2%
+  -100bp | Nov-15 STRIPS | $322,582 | $22,582 | 2034-2042; 2033: 42% bought | $22,582 | $23,440 | 15.6%
+  -150bp | Nov-15 STRIPS | $338,969 | $38,969 | 2034-2042; 2033: 4% bought | $38,969 | $40,252 | 26.8%
+  -200bp | Nov-15 STRIPS | $356,301 | $56,301 | 2035-2042; 2034: 63% bought | $56,301 | $57,869 | 38.6%
+
+[3] If rates first fall 100bp (gap exists) and then fall ANOTHER 100bp during 2027:
+  exact longest-first (waiting = earliest payments): waiting $20,646 (2027 $); needed Jan 2028 $21,431; after a further -100bp $22,514 (+$1,083, +5%)
+  exact nearest-first (waiting = latest payments): waiting $20,646 (2027 $); needed Jan 2028 $21,431; after a further -100bp $24,653 (+$3,222, +15%)
+  Nov15 longest-first (waiting = earliest payments): waiting $22,582 (2027 $); needed Jan 2028 $23,440; after a further -100bp $24,594 (+$1,153, +5%)
+  Nov15 nearest-first (waiting = latest payments): waiting $22,582 (2027 $); needed Jan 2028 $23,440; after a further -100bp $26,928 (+$3,488, +15%)
+
+[4] Break-even parallel falls (Jan 2027 purchase)
+  exact-date: gap>0 below -33bp; gap > whole first payment below -160bp; gap > whole 2028 deposit below -430bp (10y would be 0.87%)
+  Nov-15 STRIPS: gap>0 below -26bp; gap > whole first payment below -155bp; gap > whole 2028 deposit below -428bp (10y would be 0.89%)
+
+[5] Longest-first on every 2026 curve date
+  exact: worst day 2026-02-27 (10y 3.97%): cost $325,563, gap $25,563, 2028 $ $26,412 = 17.6% of the deposit; days with a gap: 173/186
+     2026-01-02: cost $316,546; gap $16,546; waiting: 42% of the 2033 payment
+     2026-06-30: cost $312,974; gap $12,974; waiting: 34% of the 2033 payment
+     2026-09-10: cost $297,879; gap $-2,121; all ten bought
+     2026-09-25: cost $292,264; gap $-7,736; all ten bought
+     realised volatility of this ladder's cost in 2026: 7.25%/yr
+  Nov-15: worst day 2026-02-27 (10y 3.97%): cost $327,631, gap $27,631, 2028 $ $28,549 = 19.0% of the deposit; days with a gap: 176/186
+     2026-01-02: cost $318,655; gap $18,655; waiting: 47% of the 2033 payment
+     2026-06-30: cost $315,020; gap $15,020; waiting: 39% of the 2033 payment
+     2026-09-10: cost $299,990; gap $-10; all ten bought
+     2026-09-25: cost $294,387; gap $-5,613; all ten bought
+     realised volatility of this ladder's cost in 2026: 7.17%/yr
+
+[6] Model gap on 2027-01-01 (ASSUMPTION: zero-drift lognormal cost, horizon 0.26y)
+  exact : base $290,291, vol 7.25%: P(gap>0) 18.7%; P(gap > whole first payment) 0.003%; gap at p75/p90/p95/p99: $0, $4,388, $8,507, $16,385
+  Nov-15: base $292,418, vol 7.17%: P(gap>0) 24.2%; P(gap > whole first payment) 0.005%; gap at p75/p90/p95/p99: $0, $6,457, $10,558, $18,399
+
+[7] Buy all on 2027-01-01 vs 4 quarterly tranches in 2027 vs 'wait for a 5% funded margin, else buy on 2027-12-31' (ASSUMPTION: ladder cost relative to T-bills is zero-drift lognormal, vol as above)
+  buy at once           : mean funded ratio 1.0259; sd 0.0000; P(<1.00) 0.0%; p5 1.0259
+  4 quarterly tranches  : mean funded ratio 1.0280; sd 0.0345; P(<1.00) 21.1%; p5 0.9725
+  5% trigger / year-end : mean funded ratio 1.0282; sd 0.0467; P(<1.00) 21.1%; p5 0.9210
+  (starting funded ratio on today's curve, Nov-15 ladder: 1.0259; the at-once row assumes the curve on the purchase day equals today's, so its spread is zero by construction; the spread of the purchase-day cost itself is item [6])
+
+[8] Joint tail: rates fall before Jan 2027 AND the 2028 deposit is missing, half or late
+  -50bp: gap $7,082 (2027 $) -> needed Jan 2028 $7,388. Deposit $0: $9,281 of the $50,000 Jan-2033 payment unfunded (1.9% of the $500k promised). Deposit $75k: covered. Deposit 6 months late (1 Jul 2028, rates unchanged): needs $7,563 (+$176).
+  -100bp: gap $22,582 (2027 $) -> needed Jan 2028 $23,440. Deposit $0: $28,753 of the $50,000 Jan-2033 payment unfunded (5.8% of the $500k promised). Deposit $75k: covered. Deposit 6 months late (1 Jul 2028, rates unchanged): needs $23,939 (+$499).
+  +0bp: gap $0 (2027 $) -> needed Jan 2028 $0. Deposit $0: none. Deposit $75k: covered. Deposit 6 months late (1 Jul 2028, rates unchanged): needs $0 (+$0).
