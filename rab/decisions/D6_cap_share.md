@@ -29,7 +29,7 @@ rule was **written and committed before any result existed** (`M4_SPEC.md` secti
   about 3 times in 4, and lands below the middle of the range at most about 1 time in 200 (history model). The share
   decides only who gets the upside, the building or Laura's reserve, dollar for dollar in expectation.
 - **What would change it:** the size of the reserve Laura wants. If a 5% reserve is enough, the rule gives about 2/3.
-  If she wants 15%, it gives about 1/4. The stock model hardly matters (`rule_sensitivity.csv`).
+  If she wants 15%, it gives about 1/5 (largest passing share 0.23; PR-7 rounds down to 0.20). The stock model hardly matters (`rule_sensitivity.csv`).
 
 ## 3. Confidence statement for the IPS method (PM-25)
 
@@ -42,11 +42,11 @@ outside its range. The models add only where it lands: at the top about 3 in 4 t
 
 | # | Finding | Evidence | Triage |
 |---|---|---|---|
-| 1 | **Announce the floor rounded down, to $145,000.** In Laura's real plan (strict FAQ reading), the floor is a coupon Treasury or an iBond fund whose income must be reinvested. It pays about $149,000 in a typical case and about $146,000 at worst, and falls short of $150,000 in about 2 of 3 cases. The gift itself stays at or above $150,000 in every path of the fat-tail and Bayesian models and in all but 5 of 200,000 history paths, because half the fund covers the shortfall. Only the claim "already owned" needs the round-down. | M4 `floor_delivery.csv`, `fig_M4_floor.png` | **fix-before-6-Nov**, optional wording in the IPS range method ("the floor she owns, rounded down to the nearest $5,000") |
+| 1 | **Announce the floor rounded down, to $145,000.** In Laura's real plan (strict FAQ reading), the floor is a coupon Treasury or an iBond fund whose income must be reinvested. It pays about $149,000 in a typical case and about $146,000 at worst, and falls short of $150,000 in about 2 of 3 cases. The gift itself stays at or above $150,000 in every path of the fat-tail and Bayesian models and in all but a handful (3 to 5) of 200,000 history paths, because half the fund covers the shortfall. Only the claim "already owned" needs the round-down. | M4 `floor_delivery.csv`, `fig_M4_floor.png` | **fix-before-6-Nov**, optional wording in the IPS range method ("the floor she owns, rounded down to the nearest $5,000") |
 | 2 | **Name the three assumptions that move the range**: yields on 1 Jan 2027 (the ladder purchase), the 5-year yield in Jan 2028 (the floor's price), and costs paid from the stock fund. January-2027 yields alone explain about 90% of the variation in the typical top. The stock-return assumption moves it by under $3k. | M8 `must_state.csv`, `fig_M8_tornado.png` | **fix-before-6-Nov** (the case requires the assumptions to be stated; IPS assumptions paragraph) |
 | 3 | **Floor wording (F4):** "the whole remainder" and "keep $150,000" differ only if yields fall before January 2027. After a 0.5-point (50bp) fall they give a floor of $143k with a $29k fund against $150k with a $23k fund. | M8 `floor_reading.csv` | **fix-before-6-Nov** (already flagged; the team picks one reading) |
-| 4 | Option for the 2031 wording: announce both ends from the rounded-down floor ($145k to $145k + half the fund). The top is then reached 9 times in 10 instead of 3 in 4, with a gift about $3,000 lower on average. Exploratory, not pre-registered. | M4 `run_log.txt` | **note-in-Final-Report** |
-| 5 | A narrower range is possible but no longer "owned". Raising the low end to about $160k breaks the promise in up to 42 of 10,000 history paths, and to $165k in up to about 2%. The owned floor keeps the bottom free of any model. | M4 `narrower_range.csv`, `fig_M4_narrower.png` | **note-in-Final-Report** (why the bottom is the floor) |
+| 4 | Option for the 2031 wording: announce both ends from the rounded-down floor ($145k to $145k + half the fund). The top is then reached 9 times in 10 instead of 3 in 4, with a gift about $3,500 lower on average. Exploratory, not pre-registered. | M4 `run_log.txt` | **note-in-Final-Report** |
+| 5 | A narrower range is possible but no longer "owned". Raising the low end to about $160k breaks the promise in up to about 40 of 10,000 history paths, and to $165k in up to about 2%. The owned floor keeps the bottom free of any model. | M4 `narrower_range.csv`, `fig_M4_narrower.png` | **note-in-Final-Report** (why the bottom is the floor) |
 | 6 | The return model barely matters: the typical 2031 top is about $175k in every model (90% of paths $165k-$190k), because only about 9% of Laura's money is in stocks and half of that is promised. | M3 `summary.csv`, `fig_M3_top2031.png` | **note-in-Final-Report** |
 
 ## 5. What would make this memo wrong
@@ -56,3 +56,11 @@ outside its range. The models add only where it lands: at the top about 3 in 4 t
 - Yields fall sharply before 1 Jan 2027. The range then starts from a smaller floor and fund; the share question is
   unchanged.
 - A model with stocks and yields falling together would widen the bad cases a little. It is not built here (WS3/M7).
+
+## 6. Gate B (30 Sep 2026)
+
+A blind rebuild of M3, M4 and M8 from their specs reaches the same decision: robust share 0.47, keep half, announce
+$145,000, and the same three assumptions to state. Every figure in this memo agrees within tolerance
+(`rab/gates/gate_B_ws2.md`). Four wording fixes were made here: 15% reserve -> about 1/5 (was 1/4); "all but 5"
+-> "a handful (3 to 5)"; the announced-basis gift is about $3,500 lower (was $3,000); and about 40 (was 42) in
+10,000 at a $160k low end.

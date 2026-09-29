@@ -1,4 +1,4 @@
-M4 cap optimiser | run 2026-09-29 16:28 UTC | 2026-09-29 12:28 EDT | 2026-09-30 02:28 AEST | numbers.yaml 492ed3203958 | rule: M4_SPEC.md s5 (pre-registered, commit 3d98ce0)
+M4 cap optimiser | run 2026-09-29 23:20 UTC | 2026-09-29 19:20 EDT | 2026-09-30 09:20 AEST | numbers.yaml 492ed3203958 | rule: M4_SPEC.md s5 (pre-registered, commit 3d98ce0)
   floor delivery phi (8565 historical 30-month changes of the 1-year yield since 1990): p0.5 0.9757, p5 0.9776, median 0.9960, max 1.0214; floor pays $146,330 at worst, $149,404 at the median
   PR-3: h* = 0.025 -> announced floor A = $145,000 (P(floor holding pays less) = 0.000%)
   L      s* = 0.50 | at s = 1/2: E[gift] $174,153, gift p5 $164,058, kept p5 $16,596, P(kept >= 10% of gift) 95.09%, P(gift < $145k) 0.000%, P(gift = face-based top) 24.6%, P(fund no lower in 2033) 73.5%, E[shortfall below top] $1,715
@@ -13,8 +13,8 @@ M4 cap optimiser | run 2026-09-29 16:28 UTC | 2026-09-29 12:28 EDT | 2026-09-30 
   rule sensitivity (robust s* = min over T, BOOT, BAYES), rows = kept-money threshold, columns = confidence:
     keep >= 5% of gift: 90%: 0.76, 95%: 0.72, 99%: 0.59
     keep >= 10% of gift: 90%: 0.53, 95%: 0.47, 99%: 0.20
-    keep >= 15% of gift: 90%: 0.32, 95%: 0.23, 99%: 0.03
-    keep >= 20% of gift: 90%: 0.13, 95%: 0.01, 99%: nan
+    keep >= 15% of gift: 90%: 0.32, 95%: 0.23, 99%: none
+    keep >= 20% of gift: 90%: 0.13, 95%: 0.01, 99%: none
   narrower range, T    : low end raised to $154,975 (l=0.4) -> P(gift below it) 0.00%; to $159,963 (l=0.6) -> 0.03%; to $164,950 (l=0.8) -> 0.88%
   narrower range, BOOT : low end raised to $155,195 (l=0.4) -> P(gift below it) 0.03%; to $160,292 (l=0.6) -> 0.42%; to $165,390 (l=0.8) -> 2.15%
   narrower range, BAYES: low end raised to $154,987 (l=0.4) -> P(gift below it) 0.00%; to $159,980 (l=0.6) -> 0.03%; to $164,973 (l=0.8) -> 1.14%

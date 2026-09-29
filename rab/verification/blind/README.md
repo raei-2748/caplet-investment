@@ -106,6 +106,8 @@ $182,000 / $207,000 / $250,000.
 
 ## Gate B comparison (for WS0; this builder did not open the primary's results)
 
+**Done (30 Sep, WS2 Gate B reconciler): PASS, 0 UNRECONCILED; see `rab/gates/gate_B_ws2.md`.**
+
 `out/BLIND_HEADLINES.md` lists 307 keys with the tolerance from the spec beside each: M3 range ends and gift
 percentiles 2%, probabilities 2 points, BAYES posterior means 10%; M4 s* 0.02, h* and A identical; M8 base exact,
 tornado medians 1%, Sobol ST 0.05 or the 95% interval, top-3 identical. Monte Carlo noise alone at N = 200,000 is

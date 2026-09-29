@@ -123,3 +123,17 @@ No change to the decision rule (PR-1 to PR-8) or to any input. Additions, none o
 - A3. A brute-force grid (s, l in steps of 0.05; h in {0, 0.025, 0.05}) on all 200,000 paths, as a check on NSGA-II
   (`pareto_grid_<model>.csv`); the log counts NSGA-II points dominated by a grid point.
 - A4. `fig_M4_narrower.png` (plain version of `narrower_range.csv`).
+
+## 10. Gate B clarifications (30 Sep 2026; the decision rule PR-1 to PR-8 is unchanged)
+
+- C1. Section 6.6 (narrower range): which low end? Section 3 with h = h* gives L = F (1 - h*) + l s B3 =
+  $146,250 + l s B3. The primary build used the announced floor, L = A + l s B3 = $145,000 + l s B3, which is what
+  Laura would actually say. The blind build followed the text literally. At the same typical low end the two readings
+  give the same P(G < L) to within 0.04 points in one build, and to within 0.08 points across both builds. Quote the result by the level of the low end (e.g. "about $160k"),
+  not by l.
+- C2. PR-8 rule sensitivity: the robust s* is "none" when any decision model has no passing share. The primary's
+  `run_log.txt` line had skipped the missing model and showed 0.03 at 15% / 99%. This is fixed in `m4_cap.py`; the
+  CSV was always right.
+- C3. D2 "G = U" depends on the floor draw: it holds only when phi >= 1 + s (B3 - B5)+ / F. Each build samples phi from
+  the same 8,565 changes, so the two differ by up to 0.45 points (3.3 standard errors). When phi is averaged over the
+  full list, the builds agree to within 0.02 points.

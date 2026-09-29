@@ -1,4 +1,4 @@
-M8 sensitivity | run 2026-09-29 16:29 UTC | 2026-09-29 12:29 EDT | 2026-09-30 02:29 AEST | numbers.yaml 492ed3203958
+M8 sensitivity | run 2026-09-29 23:21 UTC | 2026-09-29 19:21 EDT | 2026-09-30 09:21 AEST | numbers.yaml 492ed3203958
   checks: V_A(0) = $292,418.11 (numbers.yaml $292,418.11); B0(0,0) = $40,736.19 (numbers.yaml B0 $40,736.19)
   historical ranges (2.5-97.5%, since 1990): 95-day 10-year change -93 to 92 bp (n=9123); 1-year 5-year change -1.95 to 2.27 points (n=8940)
   base: bottom $150,000, median top $174,941, p5 top $166,063, median gift $174,156

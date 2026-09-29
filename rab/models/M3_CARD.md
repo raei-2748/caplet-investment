@@ -19,7 +19,7 @@ with seed 20260930, all centred on JPM's 7.00% for world stocks.
 pays its face value, (b) the 2028 deposit arrived in full (known before 2031), (c) the gift is capped at the top, and
 (d) no fee is taken from the floor. Across 1.6 million model paths, no gift fell outside its range. The models add only
 where in the range the gift lands: at the top in about 3 of 4 cases, and in the upper half in about 99 of 100.
-In about 1 in 5 cases the fund is worth less in 2031 than it cost in 2028. The range is then narrower, but its bottom
+In about 1 in 5 cases (21-24% by model) the fund is worth less in 2031 than it cost in 2028. The range is then narrower, but its bottom
 does not move.
 
 **Checks passed.** The analytic median top ($174,952) and P(top) (73.3%) match. On E6's own basis (fund $40,443) the
@@ -48,6 +48,12 @@ fund VT.
 - The floor's own payout is taken as exactly $150,000 here; M4 relaxes this.
 
 **What this teaches (plain English).** The choice of stock model hardly matters. It moves the typical 2031 top by less
-than $1,000 and the 1-in-20 top by about $2,000. Only about 9% of Laura's money is in stocks, and only half of that is
+than $1,000, the 1-in-20 low top by about $1,000 and the 1-in-20 high top by about $2,000. Only about 9% of Laura's money is in stocks, and only half of that is
 promised, so model risk stays small. The bottom never depends on a model. The top is a fair "expected" figure: it is
 reached about 3 times in 4, and the gift almost never lands in the lower half.
+
+**Gate B (30 Sep 2026).** A blind rebuild from `M3_SPEC.md` agrees on every M3 key within tolerance (largest gaps in
+the three decision models: median top $34, P(top) 0.12 points; `rab/gates/gate_B_ws2.md`). Each build's rule code gives the other's published
+figures exactly on the other's paths, so the gaps are sampling noise. On insight_v1's own random draws the reference
+model reproduces E6's printed H8 figures exactly. Wording fix at this gate: the 1-in-20 low top moves by about
+$1,000 across models (it said $2,000, which is the 1-in-20 high top).

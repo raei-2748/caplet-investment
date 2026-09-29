@@ -107,3 +107,15 @@ Phi(sqrt(2) mu_L / sig_L) = 73.3%. BAYES posterior means within 10% of each othe
   doi:10.1111/j.1540-6261.2012.01722.x (why an uncertain mean matters for multi-year horizons)
 - Shiller, R. J. ie_data.xls, "U.S. Stock Markets 1871-Present and CAPE Ratio", shillerdata.com (fetched 30 Sep 2026 AEST).
 - WS5 ref [15]: Anarkulova, Cederburg & O'Doherty (2022), JFE 143(1), 409-433 (`rab/literature/references.md`, rab/ws5).
+
+## 8. Gate B clarifications (30 Sep 2026; sections 1-7 unchanged)
+
+- C1. Section 4.5 (E6 reconciliation). insight_v1 E6's own fund is B0 = 7,736 x 1.045 + 150,000 - 150,000 / 1.0498^5
+  = $40,442.6 (the "40,400" above is that figure rounded). E6's draws are `numpy.random.default_rng(20260927)
+  .standard_normal((200000, 6))`, columns 1-5 = 2028-2032 (`D6_behavioural_numbers.py` `draws`). The primary build used
+  B0 = $40,443 on its own seed-20260930 paths; the blind build used B0 = $40,400 on its own stream. Both land within
+  $0.4k of E6. The Gate B check (`rab/verification/gateB_ws2/`) feeds E6's exact draws through both rule codes and
+  reproduces every printed H8 figure.
+- C2. BAYES-hist takes its forward centre from the posterior sample, so two separate MCMC runs give slightly different
+  BAYES-hist paths: the posterior means of m_h were 0.0952 and 0.0946. BAYES, the decision model, does not depend on
+  m_h. It is not a bug, and BAYES-hist is a sensitivity variant only.

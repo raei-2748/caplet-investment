@@ -166,10 +166,13 @@ def main():
                 rs.append({"model": m, "kappa": kap, "confidence": conf, "s_star": max(ok) if ok else None})
     dfr = pd.DataFrame(rs)
     dfr.to_csv(os.path.join(OUT, "rule_sensitivity.csv"), index=False)
-    piv = dfr[dfr.model.isin(M3.DECISION)].groupby(["kappa", "confidence"])["s_star"].min().unstack()
+    # Gate B fix (30 Sep): a model with no passing share makes the robust s* "none"; pandas' min() skipped it.
+    piv = dfr[dfr.model.isin(M3.DECISION)].groupby(["kappa", "confidence"])["s_star"].agg(
+        lambda v: v.min() if v.notna().all() else np.nan).unstack()
     say("  rule sensitivity (robust s* = min over T, BOOT, BAYES), rows = kept-money threshold, columns = confidence:")
     for kap, rr in piv.iterrows():
-        say(f"    keep >= {kap:.0%} of gift: " + ", ".join(f"{c:.0%}: {v:.2f}" for c, v in rr.items()))
+        say(f"    keep >= {kap:.0%} of gift: " + ", ".join(f"{c:.0%}: " + ("none" if pd.isna(v) else f"{v:.2f}")
+                                                          for c, v in rr.items()))
 
     # narrower range (l > 0), s = 1/2
     nr = []

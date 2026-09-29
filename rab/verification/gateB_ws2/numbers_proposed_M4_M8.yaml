@@ -1,0 +1,317 @@
+# Gate-B-reconciled WS2 entries (M4, M8) proposed for rab/numbers.yaml (NOT the Gate A file). Written by
+# rab/verification/gateB_ws2/gateB_ws2_checks.py. value = primary build (rab/results/), blind = blind
+# rebuild. The M3 entries are in rab/results/M3/numbers_proposed.yaml (also reconciled). WS1/WS0 review and
+# merge; WS2 does not write rab/numbers.yaml (PM-35).
+proposed:
+  m4.cap_share_robust:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    as_of: '2026-09-28'
+    instrument_basis: stock fund B0 = $40,736 (2 Jan 2028); floor $150,000 face, iBond/coupon delivery phi; s = 1/2 unless
+      stated; no fees
+    gate_b: reconciled, rab/gates/gate_B_ws2.md
+    method: rab/models/M4_SPEC.md s5 PR-6 (pre-registered, 3d98ce0)
+    source: rab/models/m4_cap.py -> rab/results/M4/decision.csv
+    value:
+      T: 0.5
+      BOOT: 0.47
+      BAYES: 0.47
+      robust: 0.47
+    blind:
+      T: 0.5
+      BOOT: 0.47
+      BAYES: 0.47
+      robust: 0.47
+    unit: share
+    quote_as: half is about the largest share that still lets Laura keep a tenth of her gift in 19 of 20 outcomes (MODEL)
+  m4.cap_share_recommendation:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    as_of: '2026-09-28'
+    instrument_basis: stock fund B0 = $40,736 (2 Jan 2028); floor $150,000 face, iBond/coupon delivery phi; s = 1/2 unless
+      stated; no fees
+    gate_b: reconciled, rab/gates/gate_B_ws2.md
+    method: M4_SPEC PR-7
+    source: rab/results/M4/decision.csv
+    value: 0.5
+    blind: 0.5
+    unit: share
+    quote_as: keep half (decision D6, to ratify 26 Oct)
+  m4.announced_floor:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    as_of: '2026-09-28'
+    instrument_basis: stock fund B0 = $40,736 (2 Jan 2028); floor $150,000 face, iBond/coupon delivery phi; s = 1/2 unless
+      stated; no fees
+    gate_b: reconciled, rab/gates/gate_B_ws2.md
+    method: M4_SPEC PR-3
+    source: rab/results/M4/floor_delivery.csv
+    value: 145000.0
+    blind: 145000.0
+    unit: USD
+    quote_as: $145,000 (the owned floor, rounded down to $5,000)
+  m4.floor_delivery:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    as_of: '2026-09-28'
+    instrument_basis: stock fund B0 = $40,736 (2 Jan 2028); floor $150,000 face, iBond/coupon delivery phi; s = 1/2 unless
+      stated; no fees
+    gate_b: reconciled, rab/gates/gate_B_ws2.md
+    method: M4_SPEC s2
+    source: rab/results/M4/floor_delivery.csv
+    value:
+      worst: 146330
+      median: 149404
+      p95: 152404
+      P_below_150k: 0.6929
+    blind:
+      median: 149410
+      p95: 152426
+    unit: USD / probability
+    quote_as: an iBond-fund floor pays about $149,000 in a typical case and at least about $146,000; it falls short of $150,000
+      about 2 times in 3 (MODEL)
+  m4.keep_10pct_at_half:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    as_of: '2026-09-28'
+    instrument_basis: stock fund B0 = $40,736 (2 Jan 2028); floor $150,000 face, iBond/coupon delivery phi; s = 1/2 unless
+      stated; no fees
+    gate_b: reconciled, rab/gates/gate_B_ws2.md
+    method: M4_SPEC PR-5
+    source: rab/results/M4/s_profile.csv (s = 0.5)
+    value:
+      T: 0.953
+      BOOT: 0.9359
+      BAYES: 0.9325
+    blind:
+      T: 0.9538
+      BOOT: 0.9371
+      BAYES: 0.9322
+    unit: probability
+    quote_as: about 19 times in 20 (MODEL)
+  m4.kept_at_half:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    as_of: '2026-09-28'
+    instrument_basis: stock fund B0 = $40,736 (2 Jan 2028); floor $150,000 face, iBond/coupon delivery phi; s = 1/2 unless
+      stated; no fees
+    gate_b: reconciled, rab/gates/gate_B_ws2.md
+    method: M4_SPEC s4
+    source: rab/results/M4/s_profile.csv (s = 0.5)
+    value:
+      T:
+      - 16720
+      - 32503
+      BOOT:
+      - 15491
+      - 33608
+      BAYES:
+      - 15483
+      - 32538
+    blind:
+      T:
+      - 16781
+      - 32451
+      BOOT:
+      - 15547
+      - 33633
+      BAYES:
+      - 15495
+      - 32547
+    unit: USD (p5, p50)
+    quote_as: Laura keeps about $33,000 in a typical case and at least about $15,000 in a 1-in-20 bad case (MODEL)
+  m4.below_middle_at_half:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    as_of: '2026-09-28'
+    instrument_basis: stock fund B0 = $40,736 (2 Jan 2028); floor $150,000 face, iBond/coupon delivery phi; s = 1/2 unless
+      stated; no fees
+    gate_b: reconciled, rab/gates/gate_B_ws2.md
+    method: M4_SPEC s4 D3
+    source: rab/results/M4/s_profile.csv
+    value:
+      T: 0.0003
+      BOOT: 0.0043
+      BAYES: 0.0003
+    blind:
+      T: 0.0003
+      BOOT: 0.0044
+      BAYES: 0.0003
+    unit: probability
+    quote_as: below the middle of the range at most about 1 time in 200 (MODEL, history model)
+  m4.rule_sensitivity:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    as_of: '2026-09-28'
+    instrument_basis: stock fund B0 = $40,736 (2 Jan 2028); floor $150,000 face, iBond/coupon delivery phi; s = 1/2 unless
+      stated; no fees
+    gate_b: reconciled, rab/gates/gate_B_ws2.md
+    method: M4_SPEC PR-8
+    source: rab/results/M4/rule_sensitivity.csv
+    value:
+      keep5pct_95: 0.72
+      keep15pct_95: 0.23
+      keep10pct_99: 0.2
+    blind:
+      keep5pct_95: 0.72
+      keep15pct_95: 0.23
+      keep10pct_99: 0.2
+    unit: share (robust s*)
+    quote_as: 'a 5% reserve would allow about 2/3; a 15% reserve about 1/5 (PR-7: 2/3 and 0.20) (MODEL)'
+  m4.announced_basis_top:
+    scale: laura_plan
+    status: MODEL (exploratory, not pre-registered)
+    curve_date: '2026-09-28'
+    as_of: '2026-09-28'
+    instrument_basis: stock fund B0 = $40,736 (2 Jan 2028); floor $150,000 face, iBond/coupon delivery phi; s = 1/2 unless
+      stated; no fees
+    gate_b: reconciled, rab/gates/gate_B_ws2.md
+    method: M4_SPEC s9 A2
+    source: rab/results/M4/run_log.txt
+    value:
+      T: 0.9301
+      BOOT: 0.9044
+      BAYES: 0.9069
+    blind:
+      T: 0.9295
+      BOOT: 0.9053
+      BAYES: 0.9077
+    unit: probability
+    quote_as: about 9 times in 10, with a gift about $3,500 lower on average (MODEL)
+  m4.narrower_range_breach:
+    scale: laura_plan
+    status: 'MODEL (explored, never recommended: PR-1)'
+    curve_date: '2026-09-28'
+    as_of: '2026-09-28'
+    instrument_basis: stock fund B0 = $40,736 (2 Jan 2028); floor $150,000 face, iBond/coupon delivery phi; s = 1/2 unless
+      stated; no fees
+    gate_b: reconciled, rab/gates/gate_B_ws2.md
+    method: M4_SPEC s6.6, compared at the same typical low end
+    source: rab/verification/gateB_ws2/gateB_ws2_results.json
+    value:
+      160k: 0.0038
+      165k: 0.0193
+    blind:
+      160k: 0.004
+      165k: 0.0185
+    unit: probability (worst of three models)
+    quote_as: a low end of $160k would be broken about 4 times in 1,000; $165k about 2 times in 100 (MODEL, history model)
+  m8.jan2027_yields:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    as_of: '2026-09-28'
+    instrument_basis: stock fund B0 = $40,736 (2 Jan 2028); floor $150,000 face, iBond/coupon delivery phi; s = 1/2 unless
+      stated; no fees
+    gate_b: reconciled, rab/gates/gate_B_ws2.md
+    method: rab/models/M8_SPEC.md s3
+    source: rab/results/M8/sobol_B.csv, tornado.csv
+    value:
+      sobol_ST_median_top: 0.8976
+      tornado_median_top:
+      - 143304
+      - 194170
+    blind:
+      sobol_ST_median_top: 0.8981
+      tornado_median_top:
+      - 143309
+      - 194187
+    unit: Sobol total index; USD (median 2031 top at low, high)
+    quote_as: Treasury yields on 1 Jan 2027 explain about 90% of the variation in the typical 2031 top (MODEL)
+  m8.jan2028_5y_yield:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    as_of: '2026-09-28'
+    instrument_basis: stock fund B0 = $40,736 (2 Jan 2028); floor $150,000 face, iBond/coupon delivery phi; s = 1/2 unless
+      stated; no fees
+    gate_b: reconciled, rab/gates/gate_B_ws2.md
+    method: rab/models/M8_SPEC.md s3
+    source: rab/results/M8/sobol_B.csv, tornado.csv
+    value:
+      sobol_ST_median_top: 0.0677
+      tornado_median_top:
+      - 167894
+      - 182214
+    blind:
+      sobol_ST_median_top: 0.0671
+      tornado_median_top:
+      - 167901
+      - 182227
+    unit: Sobol total index; USD (median 2031 top at low, high)
+    quote_as: the 5-year yield in Jan 2028 (the floor's price) moves the typical top between about $168k and $182k (MODEL)
+  m8.costs:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    as_of: '2026-09-28'
+    instrument_basis: stock fund B0 = $40,736 (2 Jan 2028); floor $150,000 face, iBond/coupon delivery phi; s = 1/2 unless
+      stated; no fees
+    gate_b: reconciled, rab/gates/gate_B_ws2.md
+    method: rab/models/M8_SPEC.md s3
+    source: rab/results/M8/sobol_B.csv, tornado.csv
+    value:
+      sobol_ST_median_top: 0.0326
+      tornado_median_top:
+      - 174941
+      - 166584
+    blind:
+      sobol_ST_median_top: 0.0328
+      tornado_median_top:
+      - 174950
+      - 166586
+    unit: Sobol total index; USD (median 2031 top at low, high)
+    quote_as: a 1% yearly cost on all assets cuts the typical top by about $8k (MODEL)
+  m8.expected_return:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    as_of: '2026-09-28'
+    instrument_basis: stock fund B0 = $40,736 (2 Jan 2028); floor $150,000 face, iBond/coupon delivery phi; s = 1/2 unless
+      stated; no fees
+    gate_b: reconciled, rab/gates/gate_B_ws2.md
+    method: rab/models/M8_SPEC.md s3
+    source: rab/results/M8/sobol_B.csv, tornado.csv
+    value:
+      sobol_ST_median_top: 0.0032
+      tornado_median_top:
+      - 172954
+      - 175647
+    blind:
+      sobol_ST_median_top: 0.0032
+      tornado_median_top:
+      - 172963
+      - 175656
+    unit: Sobol total index; USD (median 2031 top at low, high)
+    quote_as: the stock-return assumption (4.1% to 8%) moves the typical top by under $3k (MODEL)
+  m8.floor_reading_minus50bp:
+    scale: laura_plan
+    status: MODEL (deterministic)
+    curve_date: '2026-09-28'
+    as_of: '2026-09-28'
+    instrument_basis: stock fund B0 = $40,736 (2 Jan 2028); floor $150,000 face, iBond/coupon delivery phi; s = 1/2 unless
+      stated; no fees
+    gate_b: reconciled, rab/gates/gate_B_ws2.md
+    method: M8_SPEC s3.5 (flag F4)
+    source: rab/results/M8/floor_reading.csv
+    value:
+      IPS_floor: 142612
+      IPS_fund: 28501
+      E6_floor: 150000
+      E6_fund: 22590
+    blind:
+      IPS_floor: 142612
+      IPS_fund: 28501
+      E6_floor: 150000
+      E6_fund: 22590
+    unit: USD
+    quote_as: 'after a 0.5-point fall before Jan 2027: floor $143k + fund $29k (IPS ''whole remainder'') or floor $150k +
+      fund $23k (keep $150k)'

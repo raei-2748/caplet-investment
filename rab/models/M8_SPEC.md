@@ -81,3 +81,9 @@ top-3 list identical.
   analysis of model output. Comput. Phys. Commun. 181(2), 259-270. doi:10.1016/j.cpc.2009.09.018
 - Herman, J., & Usher, W. (2017). SALib: An open-source Python library for sensitivity analysis. JOSS 2(9), 97.
   doi:10.21105/joss.00097
+
+## 6. Gate B clarifications (30 Sep 2026; sections 1-5 unchanged)
+
+- C1. "How much is luck" can be summarised two ways from the same Sobol A indices. The sum of S1 over u1..u3 is 0.17
+  for the 2031 top; the sum of ST is 0.22. Both builds give identical values under each definition. The blind build
+  quoted S1 and the primary ST. Quote "about a fifth" and name the index used.

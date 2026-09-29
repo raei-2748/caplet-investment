@@ -27,7 +27,7 @@ The robust s* is 0.47, inside the [0.40, 0.60] band, so PR-7 **keeps one half**.
 flexibility rule: it is about the largest share at which Laura keeps a tenth of her gift in 19 of 20 outcomes.
 
 **What would change it** (`rule_sensitivity.csv`, robust s*): if Laura needs to keep only 5% of the gift, the rule gives
-about 0.72 (so 2/3). At 15% it gives about 0.23 (so 1/4). Asking for 99% instead of 95% confidence at 10% gives 0.20.
+about 0.72 (so 2/3). At 15% it gives about 0.23 (so 0.20 under PR-7, which never rounds up to 1/4). Asking for 99% instead of 95% confidence at 10% gives 0.20.
 The answer depends on how much flexibility Laura wants, not on the stock model.
 
 **Three things the share does not change** (the same for every s, because gift minus floor scales with s): the chance
@@ -42,7 +42,7 @@ dominates 7-8 of its roughly 120 points (`pareto_*.csv`, `pareto_grid_*.csv`), s
 
 **Added after the first run (not pre-registered; no decision uses it).** If the top is also announced from the
 rounded-down floor ($145k + half the fund), the gift reaches the top in 90-93% of paths instead of 72-75%. The median
-top falls to about $170k and the expected gift falls by about $3k.
+top falls to about $170k and the expected gift falls by about $3,500.
 
 **Limits and failure modes.** The 10% flexibility threshold and the 95% level are value judgements, fixed in advance
 (Taiwan building costs rose about 3.5% a year: rab/assumptions.md E8). The floor model is a stylised coupon bullet with
@@ -53,3 +53,11 @@ finite sample: 0 in 200,000 is not proof of impossibility.
 co-sponsors down. It only decides who gets the upside, the building or Laura's own reserve. Half is about the most she
 can promise while still keeping a tenth of her gift aside in 19 of 20 outcomes. Say the floor as $145,000 so that the
 "owned" part is true in every case.
+
+**Gate B (30 Sep 2026).** A blind rebuild from `M4_SPEC.md` gives the same s* (0.50 / 0.47 / 0.47), the same
+h* and $145,000, and the same PR-7 answer (`rab/gates/gate_B_ws2.md`). Across 10 more seeds (2 million more paths
+per model) the robust s* is 0.47 every time. Fixed at this gate: the robust rule-sensitivity line in `run_log.txt`
+now says "none" when any model has no passing share (it showed 0.03 at 15% / 99%); the 15% reading above (1/4 ->
+0.20); the A2 fall in the expected gift ($3k -> $3,500). The narrower-range figures hold at the same typical low end
+in both builds (at $160k up to about 0.4%, at $165k up to about 1.9%). The blind NSGA-II run is dominated by the grid
+at 2 / 3 / 17 points, against 8 / 8 / 7 here: both fronts are indicative only.
