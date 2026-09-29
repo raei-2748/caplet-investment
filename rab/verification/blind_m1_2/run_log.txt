@@ -1,0 +1,67 @@
+Curve 2026-09-28: 1Y 4.59  10Y 5.24  30Y 5.56
+A3 Nov-15 basis: V0 $289,119  V_A $292,418  headroom $7,582  break-even fall 26.20bp  fwd 2028 $306,525
+A3 exact basis : V0 $287,016  V_A $290,291  headroom $9,709  break-even fall 33.22bp  fwd 2028 $304,295
+   A4 i_days365                      nov15 V0 $289,003 V_A $292,303 | exact V0 $286,900 V_A $290,176
+   A4 ii_days365_plus_short_nodes    nov15 V0 $289,003 V_A $292,214 | exact V0 $286,900 V_A $290,087
+   A4 iii_pchip_par                  nov15 V0 $288,667 V_A $291,961 | exact V0 $286,535 V_A $289,804
+   A4 iv_zero_rates_linear           nov15 V0 $289,125 V_A $292,424 | exact V0 $287,024 V_A $290,299
+B1 portfolio sheet_as_read              cost   294,577.15  cash left   5,422.85
+B1 portfolio close_0928                 cost   294,764.50  cash left   5,235.50
+B1 portfolio close_0928_model_accrued   cost   294,982.88  cash left   5,017.12
+B1 bookL     sheet_as_read              cost   292,418.81  cash left   7,581.19
+B1 bookL     close_0928                 cost   292,580.89  cash left   7,419.11
+B1 bookL     close_0928_model_accrued   cost   292,914.11  cash left   7,085.89
+B6 headline holdings (close_0928):
+   IBTM                   q     4,486  price   21.7600  cost   97,640.36
+   IBTO                   q     1,016  price   23.0200  cost   23,413.32
+   IBTP                   q       921  price   24.1000  cost   22,221.10
+   IBTQ                   q       886  price   23.7000  cost   21,023.20
+   IBTR                   q       846  price   23.4900  cost   19,897.54
+   T 4.750% 15-Feb-2037   q    20,000  price   97.7120  cost   19,552.40
+   T 4.500% 15-May-2038   q    19,000  price   94.8110  cost   18,024.09
+   T 4.375% 15-Nov-2039   q    18,000  price   92.9690  cost   16,744.42
+   T 4.250% 15-Nov-2040   q    17,000  price   90.7580  cost   15,438.86
+   T 3.125% 15-Nov-2041   q    19,000  price   77.5230  cost   14,739.37
+   VT                     q       164  price  158.8100  cost   26,069.84
+B5 fall to $300k cost: 27.64bp; to cash<$1,000: 22.41bp
+C  yield check (gap = WInS - model, bp; par gap = WInS - par at maturity):
+   T 4.750% 15-Feb-2037   clean  97.152 acc_m 0.5679 acc_r 0.56  y_w 5.1062 y_m 5.2589 gap  -15.3 par  -14.8 ok
+   T 4.500% 15-May-2038   clean  94.281 acc_m 1.6630 acc_r 0.53  y_w 5.1594 y_m 5.3033 gap  -14.4 par  -13.9 ok
+   T 4.375% 15-Nov-2039   clean  91.363 acc_m 1.6168 acc_r 1.606  y_w 5.2955 y_m 5.3616 gap   -6.6 par   -5.7 ok
+   T 4.250% 15-Nov-2040   clean  89.186 acc_m 1.5707 acc_r 1.572  y_w 5.3498 y_m 5.4013 gap   -5.1 par   -3.9 ok
+   T 3.125% 15-Nov-2041   clean  76.367 acc_m 1.1549 acc_r 1.156  y_w 5.4360 y_m 5.4548 gap   -1.9 par   +1.1 ok
+   T 4.500% 15-Feb-2036   clean 102.950 acc_m 0.5380 acc_r None  y_w 4.1172 y_m 5.2264 gap -110.9 par -110.4 FLAG  [if dirty: gap -104.1]
+   T 4.375% 15-Feb-2038   clean  99.980 acc_m 0.5231 acc_r None  y_w 4.3768 y_m 5.2979 gap  -92.1 par  -91.3 FLAG  [if dirty: gap -86.2]
+D  iBonds look-through:
+   IBTM modelNAV 20.8181 pub 21.75 ratio-1 -4.285% shift -86.3bp  ytm gap +1.6bp  prem +0.046%
+   IBTO modelNAV 23.0061 pub 23.00 ratio-1 +0.026% shift +0.5bp  ytm gap +0.4bp  prem +0.087%
+   IBTP modelNAV 24.0998 pub 24.09 ratio-1 +0.041% shift +0.6bp  ytm gap +1.7bp  prem +0.042%
+   IBTQ modelNAV 23.7075 pub 23.69 ratio-1 +0.074% shift +1.0bp  ytm gap +1.7bp  prem +0.042%
+   IBTR modelNAV 21.2684 pub 23.47 ratio-1 -9.380% shift -128.0bp  ytm gap +0.3bp  prem +0.085%
+E  Book L delivered value by scenario (sum of ten):
+   own_yield          $503,373  vs 500k      +3,373  buffer $1,019
+   own_minus_2pts     $479,369  vs 500k     -20,631  buffer $12,203
+   r_2pct             $466,330  vs 500k     -33,670  buffer $20,288
+   r_0pct             $446,967  vs 500k     -53,033  buffer $33,448
+   curve              $507,660  vs 500k      +7,660  buffer $236
+   IBTM                   own 5.015%  own $49,791 -2 $48,766 2% $48,264 0% $47,308 curve $49,943
+   IBTO                   own 5.051%  own $49,699 -2 $48,377 2% $47,714 0% $46,508 curve $49,901
+   IBTP                   own 5.097%  own $49,747 -2 $48,212 2% $47,419 0% $46,057 curve $49,959
+   IBTQ                   own 5.128%  own $49,656 -2 $47,825 2% $46,865 0% $45,280 curve $49,920
+   IBTR                   own 5.147%  own $49,539 -2 $47,286 2% $46,095 0% $44,175 curve $49,916
+   T 4.750% 15-Feb-2037   own 5.104%  own $51,712 -2 $48,832 2% $47,378 0% $44,962 curve $52,377
+   T 4.500% 15-May-2038   own 5.160%  own $51,964 -2 $48,822 2% $47,190 0% $44,660 curve $52,669
+   T 4.375% 15-Nov-2039   own 5.296%  own $50,203 -2 $47,080 2% $45,320 0% $42,947 curve $50,731
+   T 4.250% 15-Nov-2040   own 5.349%  own $50,098 -2 $46,613 2% $44,596 0% $42,022 curve $50,710
+   T 3.125% 15-Nov-2041   own 5.436%  own $50,965 -2 $47,556 2% $45,490 0% $43,047 curve $51,531
+F  exact_basis: ladder 65.5%  floor 25.2%  stock 9.2%  total $464,450
+F  nov15_basis: ladder 66.0%  floor 25.2%  stock 8.8%  total $464,455
+G  9191 days 1990-01-02..2026-09-28
+   V0_nov15  onD $289,119  2020 med $458,828 [$408,089,$470,249]  max $470,249 2020-08-04  le300k 90s 34.5% 00s 11.1%  cheapest since 2002-05-28
+   VA_nov15  onD $292,418  2020 med $458,959 [$409,753,$470,384]  max $470,384 2020-08-04  le300k 90s 33.3% 00s 9.8%  cheapest since 2002-06-10
+   V0_exact  onD $287,016  2020 med $457,976 [$406,898,$469,597]  max $469,597 2020-08-04  le300k 90s 35.4% 00s 12.1%  cheapest since 2002-05-28
+   VA_exact  onD $290,291  2020 med $458,107 [$408,557,$469,731]  max $469,731 2020-08-04  le300k 90s 34.2% 00s 10.9%  cheapest since 2002-06-10
+   deposit check nov15: unfunded days 197 (2.1%)  max $20,588 2020-08-04
+   deposit check exact: unfunded days 183 (2.0%)  max $19,935 2020-08-04
+checks: Book L DF vs Sheet display agree(6dp): True | G on D vs A: {'V0_nov15_diff': 0.0, 'VA_nov15_diff': 0.0, 'V0_exact_diff': 0.0, 'VA_exact_diff': 0.0}
+SUMMARY {"pv_ten_payments_usd": 289119.2, "book_total_cost_usd": 294764.5}
