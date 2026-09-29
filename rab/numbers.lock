@@ -1,0 +1,3 @@
+492ed3203958a93ddd3fd7345dcc41e46dd93c9e67f9c2adec1ca63a0771f638  rab/numbers.yaml
+# Gate A PASS, 30 Sep 2026 (Sydney). Curve 2026-09-28. 70 entries.
+# Verify: re-run build_numbers.py --lock (deterministic) or: shasum -a 256 rab/numbers.yaml
