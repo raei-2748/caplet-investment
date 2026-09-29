@@ -147,7 +147,7 @@ def main():
         m7["h19"]["h19_reproduced"], "USD of 2026 at 2.5% (7 and 16 years)", "quote only in the Final Report appendix",
         "reference", "REPRODUCED", "insight_v1 strategy_changes.md I4 convention",
         "rab/results/M7/M7_results.json h19", note="2.5% now sourced: JPM 2026 LTCMA U.S. inflation 2.50% (repo PDF p.2).")
-    doc = {"ws3_numbers_proposed": {"status": "PROPOSED by WS3 for WS1/WS0 (not locked; numbers.yaml unchanged)",
+    doc = {"ws3_numbers_proposed": {"status": "PROPOSED by WS3 for WS1/WS0 (not yet in numbers.yaml; numbers.yaml unchanged)",
                                     "numbers_yaml_sha256_read": open(os.path.join(H.WT, "rab", "numbers.lock")).read().split()[0]
                                     if os.path.exists(os.path.join(H.WT, "rab", "numbers.lock")) else "n/a"},
            "numbers": out}

@@ -1,7 +1,7 @@
 """Shared helpers for WS3 models M5 (backtest), M6 (rivals) and M7 (stress). AI-generated research code (Claude Code).
 
 Curve = M1_METHOD.md A1 ("D1 method"): linear par on a 0.5-year grid, semiannual bootstrap, log-linear discount
-factors, days/365.25. Re-implemented here (not imported from m1_ladder.py) and checked against the locked
+factors, days/365.25. Re-implemented here (not imported from m1_ladder.py) and checked against the Gate A
 numbers.yaml headline in `self_test()`.
 """
 import csv
@@ -134,7 +134,7 @@ def kusd(x):
 
 
 def self_test():
-    """The re-implemented curve must reproduce the locked headline to the cent."""
+    """The re-implemented curve must reproduce the Gate A headline to the cent."""
     n = numbers()
     cv = today_curve()
     v0 = ladder_value(cv, [yf(D_REF, p) for p in NOV15])

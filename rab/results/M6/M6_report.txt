@@ -1,21 +1,21 @@
 [M6] Rivals on the same metrics (MODEL). History lens: 149 start years 1872-2020. MC lens: JPM 2026 LTCMA, 200,000 paths, seed 20260930.
     JPM correlation matrix (9 assets) needed a positive-definite fix: True (min eigenvalue after 9.99e-09)
     re-verify insight_v1 H16 (growth-first 75->40 misses a payment; was 3.2% / 13.7% / 40.8%): on this basis 2.2% / 10.6% / 35.1% with a 2028 deposit of $150k / $75k / $0 (REC: 0% / 0%, its ladder is bought from the first deposit)
-  Root-and-Branch (adopted)     | MC: short  0.00%; 2033 money p5/p50/p95 $181k / $207k / $252k; certain in 2031 $150k; gift p5/p50 $165k / $174k
+  Root-and-Branch (adopted)     | MC: short  0.00%; 2033 money p5/p50/p95 $181k / $207k / $252k; certain in 2031 $150k; gift p5/p50 $164.6k / $174.0k
                                 | history: short in 0/149 (max $0k); 2033 money worst $29k (2020) p10 $67k median $132k; real median $132k; gift median $132k; trades 13
-  All-Treasury                  | MC: short  0.00%; 2033 money p5/p50/p95 $191k / $202k / $213k; certain in 2031 $202k; gift p5/p50 $191k / $202k
+  All-Treasury                  | MC: short  0.00%; 2033 money p5/p50/p95 $191k / $202k / $213k; certain in 2031 $202k; gift p5/p50 $190.8k / $202.1k
                                 | history: short in 0/149 (max $0k); 2033 money worst $29k (2020) p10 $67k median $132k; real median $132k; gift median $132k; trades 12
-  60/40 whole portfolio         | MC: short  1.27%; 2033 money p5/p50/p95 $53k / $245k / $527k; certain in 2031 $0k; gift p5/p50 $21k / $96k
+  60/40 whole portfolio         | MC: short  1.27%; 2033 money p5/p50/p95 $53k / $245k / $527k; certain in 2031 $0k; gift p5/p50 $21.1k / $96.5k
                                 | history: short in 2/149 (max $35k); 2033 money worst $-35k (1927) p10 $83k median $222k; real median $188k; gift median $82k; trades 24
-  Ladder + 60/40 growth money   | MC: short  0.00%; 2033 money p5/p50/p95 $154k / $216k / $307k; certain in 2031 $0k; gift p5/p50 $72k / $94k
+  Ladder + 60/40 growth money   | MC: short  0.00%; 2033 money p5/p50/p95 $154k / $216k / $307k; certain in 2031 $0k; gift p5/p50 $72.0k / $94.3k
                                 | history: short in 0/149 (max $0k); 2033 money worst $42k (2020) p10 $79k median $145k; real median $132k; gift median $63k; trades 21
-  Glide path 65->20             | MC: short  0.17%; 2033 money p5/p50/p95 $88k / $233k / $434k; certain in 2031 $0k; gift p5/p50 $37k / $100k
+  Glide path 65->20             | MC: short  0.17%; 2033 money p5/p50/p95 $88k / $233k / $434k; certain in 2031 $0k; gift p5/p50 $36.5k / $100.5k
                                 | history: short in 3/149 (max $58k); 2033 money worst $-58k (1929) p10 $82k median $180k; real median $157k; gift median $79k; trades 24
-  Growth-first 75->40           | MC: short  2.23%; 2033 money p5/p50/p95 $36k / $249k / $571k; certain in 2031 $0k; gift p5/p50 $11k / $100k
+  Growth-first 75->40           | MC: short  2.23%; 2033 money p5/p50/p95 $36k / $249k / $571k; certain in 2031 $0k; gift p5/p50 $10.9k / $100.3k
                                 | history: short in 3/149 (max $88k); 2033 money worst $-88k (1929) p10 $88k median $240k; real median $192k; gift median $93k; trades 24
-  CPPI m=3                      | MC: short  0.00%; 2033 money p5/p50/p95 $153k / $199k / $408k; certain in 2031 $0k; gift p5/p50 $71k / $89k; $150k floor broken 1.99%
+  CPPI m=3                      | MC: short  0.00%; 2033 money p5/p50/p95 $153k / $199k / $408k; certain in 2031 $0k; gift p5/p50 $71.0k / $88.7k; $150k floor broken 1.99%
                                 | history: short in 0/149 (max $0k); 2033 money worst $33k (2020) p10 $66k median $131k; real median $126k; gift median $61k; $150k floor broken in 1; trades 72
-  CPPI m=5                      | MC: short  0.01%; 2033 money p5/p50/p95 $124k / $176k / $578k; certain in 2031 $0k; gift p5/p50 $57k / $80k; $150k floor broken 26.25%
+  CPPI m=5                      | MC: short  0.01%; 2033 money p5/p50/p95 $124k / $176k / $578k; certain in 2031 $0k; gift p5/p50 $56.9k / $79.8k; $150k floor broken 26.25%
                                 | history: short in 0/149 (max $0k); 2033 money worst $33k (2020) p10 $66k median $128k; real median $120k; gift median $59k; $150k floor broken in 1; trades 72
   TIPS ladder + REC branch      | MC: at least one payment short in 60.0% of paths (p95 total shortfall $102k); history (today's breakevens, 140 inflation paths 1872-2011): short in 92, largest total shortfall $108k, smallest payment $35k
     TIPS: AR(1) phi 0.741, shock sd 0.0187, mean 0.0234, start 0.0340; to deliver every payment in 95% of paths the TIPS ladder must be 1.43x as big (about $125k more)

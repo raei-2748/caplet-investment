@@ -249,7 +249,7 @@ def part_b():
     today_par = n["market.par_curve"]["value"]
     c27 = n["laura.ladder.cost_2027_strips"]["value"]
     tc = H.today_curve()
-    # today's rung costs on 1 Jan 2027 (forward), scaled so they sum to the locked headline
+    # today's rung costs on 1 Jan 2027 (forward), they sum to the Gate A headline
     t_rungs = H.PAY * tc.df(np.array([H.yf(H.D_REF, p) for p in H.NOV15])) / float(tc.df(H.yf(H.D_REF, H.A27)))
     assert abs(t_rungs.sum() - c27) < 0.01
     y1_today, y5_today = today_par["1 Yr"] / 100, today_par["5 Yr"] / 100

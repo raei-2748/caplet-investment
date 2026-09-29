@@ -48,7 +48,7 @@ A TIPS ladder protects purchasing power Laura did not promise, and puts at risk 
 
 ## Assumptions and limits
 
-MC: i.i.d. lognormal annual returns fitted to JPM (compound and arithmetic returns matched), JPM correlations (the
+MC: i.i.d. lognormal annual returns fitted to JPM (compound and arithmetic returns reproduced), JPM correlations (the
 9-asset block needed a tiny positive-definite fix), no fat tails (WS2's M3 has them); rates move only through the bond
 fund (duration 5); REC's ladder price for 2027 is fixed (pre-2027 rate risk is WS4's M2). History: M5's data and limits;
 the "REIT" is a home-price index before 2009; gold was fixed-price before 1971. The 2031 gift rule applied to rivals

@@ -3,7 +3,7 @@
 WS3, 2026-09-30. AI-generated research (Claude Code) for Team Caplet. Every number is MODEL (history replayed through
 the adopted rules), not a forecast. Spec `M5_SPEC.md`; code `m5_backtest.py` (deterministic, 3 s); outputs `rab/results/M5/`.
 
-**What it does.** (A) Prices Laura's ten $50,000 payments exactly like the locked headline (`laura.ladder.cost_today_strips`,
+**What it does.** (A) Prices Laura's ten $50,000 payments exactly like the Gate A headline (`laura.ladder.cost_today_strips`,
 $289,119) on every Treasury curve back to 1871. (B) Replays Root-and-Branch from 149 start years (1872-2020): that era's
 yields buy the ladder and the floor, that era's stock returns drive the branch, and the 2031 range and 2033 gift follow
 the adopted rules. A second view keeps today's yields and replays only history's returns.
@@ -32,7 +32,7 @@ median gift $122k, $111k, $150k, $168k. Figures: `fig_cost_of_certainty.png`, `f
 
 Certainty is bought with Treasuries, so its price depends on the interest rate on the day the money arrives. Today's
 rates are high by the standard of the last 150 years: only about one month in four since 1871 would have bought the
-ten payments as cheaply. That is why Root-and-Branch can both lock the payments and promise a $150,000 bottom with a
+ten payments as cheaply. That is why Root-and-Branch can both buy the payments outright and promise a $150,000 bottom with a
 stock fund on top. At the lower rates of most past eras the same promises would still have been kept, but they would
 have left about $130,000 for the facility instead of about $175,000.
 

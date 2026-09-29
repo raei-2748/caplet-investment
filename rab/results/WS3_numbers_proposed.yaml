@@ -1,5 +1,5 @@
 ws3_numbers_proposed:
-  status: PROPOSED by WS3 for WS1/WS0 (not locked; numbers.yaml unchanged)
+  status: PROPOSED by WS3 for WS1/WS0 (not yet in numbers.yaml; numbers.yaml unchanged)
   numbers_yaml_sha256_read: 492ed3203958a93ddd3fd7345dcc41e46dd93c9e67f9c2adec1ca63a0771f638
 numbers:
   ws3.certainty.share_months_as_cheap_since_1871:

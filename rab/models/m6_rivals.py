@@ -576,7 +576,7 @@ def main():
         if r.rival != "R6":
             say(f"  {r.name:30s}| MC: short {r.mc_unfunded:6.2%}; 2033 money p5/p50/p95 {H.kusd(r.mc_T33_p5)} / "
                 f"{H.kusd(r.mc_T33_p50)} / {H.kusd(r.mc_T33_p95)}; certain in 2031 {H.kusd(r.mc_certain31_p50)}; gift "
-                f"p5/p50 {H.kusd(r.mc_gift_p5)} / {H.kusd(r.mc_gift_p50)}"
+                f"p5/p50 ${r.mc_gift_p5 / 1000:,.1f}k / ${r.mc_gift_p50 / 1000:,.1f}k"
                 + (f"; $150k floor broken {r.mc_floor_broken:.2%}" if r.rival in ("R5", "R5m5") else ""))
             say(f"  {'':30s}| history: short in {int(r.h_unfunded)}/{int(r.h_windows)} (max {H.kusd(r.h_max_shortfall)}); 2033 "
                 f"money worst {H.kusd(r.h_T33_worst)} ({int(r.h_T33_worst_Y)}) p10 {H.kusd(r.h_T33_p10)} median "

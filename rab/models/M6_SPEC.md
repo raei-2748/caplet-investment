@@ -33,7 +33,7 @@ reserve is set aside: a rival that already holds the ladder uses it; any other r
 - `T33`: money for the facility and flexibility on 1 Jan Y+6 = all assets minus the reserve (ladder rivals: all
   non-ladder assets). Reported worst / p10 / median (history) and p5 / p50 / p95 (MC). Negative = unfunded.
 - `certain31`: what can be promised in 2031 with certainty by construction = face value of Treasuries already held
-  that mature by 1 Jan Y+6 and are not needed for the payments (0 for rivals that lock nothing).
+  that mature by 1 Jan Y+6 and are not needed for the payments (0 for rivals that hold no such Treasuries).
 - `gift`: the adopted announcement rule applied to each rival: bottom = certain31; uncertain part U31 =
   max(0, surplus31 - PV31(bottom)) where surplus31 = assets on 1 Jan Y+4 minus the value of whatever still has to fund
   the payments (the reserve at 1 Jan Y+4 prices for rivals without a ladder: 50,000 x sum_k DF_{Y+4}(tau31_k),

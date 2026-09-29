@@ -8,7 +8,7 @@ not read it). Strategy is not reopened (RUN_PLAN s0): this model tests the adopt
 ## 0. Questions
 
 1. **Cost of certainty.** What would Laura's ten $50,000 payments have cost on every Treasury curve the data allow
-   (1871-2026), priced exactly like the locked headline (`laura.ladder.cost_today_strips`)? Where does 28 Sep 2026 sit?
+   (1871-2026), priced exactly like the Gate A headline (`laura.ladder.cost_today_strips`)? Where does 28 Sep 2026 sit?
 2. **Backtest.** If Laura's two deposits had arrived in year Y and Y+1 (instead of 2027 and 2028), with that era's
    yields for the ladder and the floor and that era's stock returns for the branch, what would the plan have
    delivered? Every start year Y the data allow.
