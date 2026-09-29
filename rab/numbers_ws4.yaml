@@ -1,0 +1,119 @@
+# WS4 headline numbers (M2 rate paths + pre-2027 hedge memo). AI-generated (Claude Code) for Team Caplet.
+# NOT rab/numbers.yaml: WS1 is its only writer. The six M2 keys below are proposed for it in
+# rab/results/M2/m2_proposed_numbers.yaml (fix-before-6-Nov, WS1/WS0: add with a changelog line and a new lock).
+# Every entry is Laura's plan, MODEL, Treasury par curve of 2026-09-28, Nov-15 STRIPS basis, no dealer mark-up,
+# and reconciled at Gate B (rab/gates/gate_B_ws4.md; row = key in rab/verification/gateB_ws4/gateB_ws4_table.csv)
+# unless marked otherwise. Quote the quote_as string. Never put a rate-odds or gap figure in a WInS note.
+# Re-run on Friday's curve (m2_rate_paths.py --curve-date) before quoting anything after 2 Oct.
+meta:
+  stream: WS4
+  written: 2026-09-30 (Sydney)
+  curve_date: '2026-09-28'
+  numbers_yaml_sha256: 492ed3203958a93ddd3fd7345dcc41e46dd93c9e67f9c2adec1ca63a0771f638
+  results_file: rab/results/M2/m2_results.json
+numbers:
+  ws4.gap_odds_2027:
+    value: 0.3266
+    unit: probability
+    quote_as: about 1 in 3 (MODEL, 28 Sep 2026 curve)
+    what: chance the ten payments cost more than $300,000 on 1 Jan 2027 (median of five methods, no view on direction)
+    source: rab/results/M2/m2_results.json headline.P_gap
+    gate_b_row: laura.rates.gap_odds_2027 (MATCH)
+  ws4.gap_odds_2027_range:
+    value: [0.2667, 0.3316]
+    unit: probability (lowest, highest of the five methods)
+    quote_as: roughly 25-35% depending on the method
+    source: rab/results/M2/m2_results.json headline.range
+    gate_b_row: gap_odds_range_min, gap_odds_range_max (MATCH)
+  ws4.gap_odds_purchase_4jan2027:
+    value: 0.3295
+    unit: probability
+    quote_as: also about 1 in 3 if bought on Mon 4 Jan 2027 (first trading day; 1 Jan is a bond-market holiday)
+    source: rab/verification/gateB_ws4/primary_4jan_variant.py -> gateB_ws4_table.csv
+    gate_b_row: 4 Jan median, primary at strict n_h = 64 (WITHIN TOL; blind 0.3308 at n_h = 65)
+  ws4.cost_2027_forward:
+    value: 292418.11
+    unit: USD on 1 Jan 2027
+    quote_as: about $292,000 if forward rates come true
+    source: rab/numbers.yaml laura.ladder.cost_2027_strips (= m2_results.json base.cost_fwd)
+    gate_b_row: Cost_FWD(R) (MATCH)
+    note: the price a perfect forward hedge would fix (MODEL, no financing spread)
+  ws4.cost_2027_yields_unchanged:
+    value: 293401.14
+    unit: USD on 1 Jan 2027
+    quote_as: about $293,000 if yields stay where they are
+    source: rab/results/M2/m2_results.json base.cost_rw
+    gate_b_row: cost_2027_yields_unchanged (MATCH)
+  ws4.perfect_hedge_expected_gain:
+    value: 983.02
+    unit: USD
+    quote_as: about $1,000 at most
+    what: cost_2027_yields_unchanged minus cost_2027_forward (expected gain of a free, perfect hedge with no view on rates)
+    source: DERIVED here from the two reconciled keys above (unrounded m2_results.json base.cost_rw - base.cost_fwd)
+    gate_b_row: n/a (difference of two MATCH rows)
+  ws4.headroom_2027_forward:
+    value: 7581.89
+    unit: USD
+    quote_as: about $7,600 of room under $300,000
+    source: rab/numbers.yaml laura.ladder.headroom_2027_strips
+  ws4.breakeven_fall_bp:
+    value: {forward: 26.20, yields_unchanged: 22.78}
+    unit: basis points (parallel fall of the par curve by the purchase day)
+    quote_as: a fall of about a quarter of a percentage point uses up the room
+    source: rab/numbers.yaml laura.ladder.breakeven_fall_bp_strips; m2_results.json base.breakeven_fall_bp_rw
+    gate_b_row: breakeven_fall_bp_yields_unchanged (MATCH)
+  ws4.gap_if_any_typical:
+    value: 10010
+    unit: USD (2027 dollars)
+    quote_as: if there is a shortfall it is typically about $10,000
+    source: rab/results/M2/m2_results.json headline.median_mean_gap_given_gap
+    gate_b_row: gap_if_any_typical (MATCH)
+  ws4.gap_p95:
+    value: 18213
+    unit: USD (2027 dollars)
+    quote_as: in about 1 path in 20 the shortfall is about $18,000 or more
+    source: rab/results/M2/m2_results.json headline.median_gap_p95
+    gate_b_row: median gap p95 (MATCH)
+  ws4.p_whole_payment_waits:
+    value: 0.0027
+    unit: probability (highest of the five methods)
+    quote_as: under 0.3%
+    what: chance the shortfall exceeds the whole 2033 rung ($37,166.35 on 1 Jan 2027)
+    source: rab/results/M2/m2_results.json headline.max_P_whole_payment_waits
+    gate_b_row: P_whole_payment_waits_max (MATCH)
+  ws4.stock_fund_2028_median:
+    value: 40968
+    unit: USD on 1 Jan 2028 (median, history at similar yield levels H-LVL; H-RAW 41,366; H-FHS 37,908)
+    quote_as: typically about $41,000
+    source: rab/results/M2/m2_results.json fifteen_months.variants
+    gate_b_row: stock_fund_2028_median (MATCH)
+  ws4.p_stock_fund_below_20k_2028:
+    value: 0.1684
+    unit: probability (H-RAW, the median of three variants 12.3-20.0%)
+    quote_as: under $20,000 in about 1 path in 6
+    source: rab/results/M2/m2_results.json fifteen_months.variants
+    gate_b_row: P_stock_fund_below_20k_2028 (MATCH)
+  ws4.stock_fund_2028_p95:
+    value: 70945
+    unit: USD on 1 Jan 2028 (p95, H-RAW)
+    quote_as: about $71,000 in a good (1-in-20) case
+    source: rab/results/M2/m2_results.json fifteen_months.variants
+    gate_b_row: not a separate row; blind rebuild rab/verification/blind/results.json H-RAW S_p95 = 70,944.66 (identical)
+  ws4.topup_2028_after_150bp_fall:
+    value: 40252
+    unit: USD in Jan 2028 (of the $150,000 deposit)
+    quote_as: even a 1.5-point fall before January needs only about $40,000 of the 2028 deposit
+    source: rab/results/M2/m2_results.json h13_h14 (shift -150bp)
+    gate_b_row: H13 top-up Jan 2028 -150bp (MATCH)
+  ws4.unfunded_2033_no_deposit:
+    value: {minus_50bp: 9281.45, minus_100bp: 28752.60}
+    unit: USD of the 2033 payment unfunded if rates fall first AND the 2028 deposit never arrives
+    quote_as: after a 1-point fall with no 2028 deposit, about $29,000 of the 2033 payment is unfunded (our own stress case)
+    source: rab/results/M2/m2_results.json h13_h14; rab/results/M2/m2_h13_h14_recheck.csv
+    gate_b_row: H14_unfunded_2033_minus50bp, H14 -100bp (MATCH)
+  ws4.move_index:
+    value: {'2026-09-28': 101.82, '2026-09-29': 106.29}
+    unit: index points (ICE BofA MOVE, via Yahoo ^MOVE, a secondary source)
+    quote_as: not for deliverables (input only)
+    source: rab/data/m2/MOVE_yahoo_daily.csv
+    gate_b_row: E5 uses 101.82 (MATCH); 29 Sep value is DATA only, not yet run through M2
