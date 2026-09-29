@@ -47,7 +47,9 @@ any AI help goes in `docs/AI_USE.md`.
 - [ ] Notes drafted offline: at most 285 characters, plain ASCII (no curly quotes, dashes, "~", "<="), one
       paragraph. None of the overclaim words on the banned list (`rab/premortem.md`, Gate C check 2; say "backed by
       the U.S. government", and never that an iBonds fund repays a set sum). Dollar figures only as "in Laura's
-      plan", otherwise percentages. At most one number per note.
+      plan", otherwise percentages. At most one number per note. Briefs and EXAMPLE notes (labelled `EXAMPLE - team
+      rewrites`) are in `notes.md`; draft from the brief, then run `note_check.py --ticker <holding> --text "..."`,
+      which also measures overlap with the exemplar.
 - [ ] Everyone reads the five stop rules at the top of `tickets.md`.
 
 ## Friday 9:00 PM AEST (7:00 AM ET): read-only checks, then refresh
