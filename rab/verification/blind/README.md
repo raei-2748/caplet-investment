@@ -154,3 +154,38 @@ PCA shares within 0.5pt (78.3 / 12.4 / 5.1). A difference is explained, never av
 They now run only on the Gate A curve (`gate_a_date`). No 28 Sep output changed: a rerun reproduces `results.json`
 exactly apart from the run time stamp. The 25 Sep run (used for the insight_v1 reconciliation) gives 37.90%, the same as
 the reference build. Reconciliation record: `rab/gates/gate_B_ws4.md`.
+
+## 9. Re-run and third check (30 Sep 2026, later session of the WS4 blind builder)
+
+A second session of this role was asked to "try again" (the first session's report did not reach the run
+coordinator; its work above was already committed). This session did two things, neither of which changes a number:
+
+1. **Reproducibility re-run.** `m2_blind.py` re-run from the committed tree (numpy 2.5.3, pandas 3.0.6,
+   statsmodels 0.15.0) reproduces `results.json` byte-for-byte except `run_started_utc` and `runtime_s` (3.5s). Every
+   line of `run.log` above is unchanged, so the headline stays 32.66% ("about 1 in 3"), range 26.67-33.16%.
+2. **Third, standard-library-only pricer for the deterministic keys**: `deterministic_check.py` and its output
+   `deterministic_check.json`. It was written from `M2_SPEC.md` s2-s3, s7 (H14) and s8 (2028 base, H13) plus the
+   28 Sep row of the par-curve CSV, without reading `m2_blind.py` or any reference code, and uses only `math`, `csv`,
+   `json`, `datetime` (no numpy, pandas, scipy or statsmodels), the way Gate A's tie-breaker did for M1. Results,
+   28 Sep curve:
+
+   | Key | Stdlib check | Compared with | Diff |
+   |---|---|---|---|
+   | Cost_FWD(R) | $292,418.11 | numbers.yaml $292,418.11; m2_blind | +$0.002; $0.000000 |
+   | Cost_RW(R) | $293,401.14 | m2_blind | $0.000000 |
+   | PV of the ten payments on 28 Sep | $289,119.20 | Gate A $289,119.20 | +$0.004 |
+   | Break-even parallel fall, FWD / RW | 26.1963bp / 22.7756bp | numbers.yaml 26.2; m2_blind | -0.0037bp; 0.0000bp |
+   | Ladder yield y(D); dy/db | 5.3289%; 1.0075 | m2_blind 5.3289%; 1.0075 | 0; 0 |
+   | 2028 base S / F (FWD step 1); S (RW step 1) | $40,736.19 / $117,193.70; $39,708.05 | numbers.yaml $40,736 / $117,194; m2_blind | +$0.19 / -$0.30; $0.00 |
+   | H14 unfunded 2033 at -50 / -100bp | $9,281.45 / $28,752.60 | spec $9,281 / $28,753; m2_blind | +$0.45 / -$0.40; $0.00 |
+   | H13 funds (-50: 25,419 / 22,590; -100: 9,366 / 3,626) and -150bp floor faces (140,469 / 130,724) | as listed | m2_blind | $0.00 on all six |
+   | E5 closed form 1 - Phi(b*_RW / sigma_h), sigma_h = 50.77bp read from `results.json` | 32.69% | m2_blind Monte Carlo 32.66% | +0.03pp (MC noise) |
+
+   23 comparisons, 0 failures; exit code 0. On the 25 Sep curve (`--curve-date 2026-09-25`) it gives Cost_FWD
+   $294,387.44 and a FWD break-even of 19.31bp, the same figures `results.json` holds for the insight_v1
+   reconciliation rows R1 and R3. One defect was found and fixed in the check itself before commit: `dy/db` was first
+   printed in percent per bp (0.0101) instead of bp per bp (1.0075).
+
+   Run: `/Users/ray/Research/rab-ws/.venv/bin/python rab/verification/blind/deterministic_check.py [--curve-date D]`.
+   The Monte Carlo and history-panel keys (E1-E4, E5's rho, the 2028 window variants, R1-R5) are not rebuilt here;
+   they rest on the two builds reconciled in `rab/gates/gate_B_ws4.md`.

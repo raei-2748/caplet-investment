@@ -1,0 +1,338 @@
+{
+ "meta": {
+  "curve_date": "2026-09-28",
+  "purchase_date": "2027-01-01",
+  "second_deposit": "2028-01-01",
+  "horizon_days": 95,
+  "basis": "Nov-15 STRIPS, ten x $50,000, MODEL",
+  "python": "3.12.12",
+  "libraries": "standard library only"
+ },
+ "reference_curve_R_pct": {
+  "0.083333": 4.04,
+  "0.166667": 4.2,
+  "0.250000": 4.28,
+  "0.500000": 4.41,
+  "1.000000": 4.59,
+  "2.000000": 4.92,
+  "3.000000": 5.01,
+  "5.000000": 5.06,
+  "7.000000": 5.15,
+  "10.000000": 5.24,
+  "20.000000": 5.6,
+  "30.000000": 5.56
+ },
+ "deterministic": {
+  "cost_fwd_R_usd": 292418.11180074257,
+  "cost_rw_R_usd": 293401.13546859,
+  "pv_today_R_usd": 289119.2036498361,
+  "headroom_fwd_usd": 7581.888199257432,
+  "headroom_rw_usd": 6598.864531409985,
+  "breakeven_fall_bp_fwd": 26.196344556462357,
+  "breakeven_fall_bp_rw": 22.7755657289094,
+  "ladder_yield_y_D_pct": 5.328944902355137,
+  "dy_db_at_R": 1.0075057661578235,
+  "rung_2033_cost_at_A_rw_usd": 37166.345892302656
+ },
+ "H14": {
+  "-50bp": {
+   "gap_usd": 7082.255534621363,
+   "rung_2033_fwd_usd": 38152.7382246498,
+   "unfunded_2033_usd": 9281.451167305266
+  },
+  "-100bp": {
+   "gap_usd": 22581.60804620746,
+   "rung_2033_fwd_usd": 39268.80961775082,
+   "unfunded_2033_usd": 28752.600684895497
+  }
+ },
+ "base_2028": {
+  "fwd": {
+   "leftover_usd": 7581.888199257432,
+   "grown_at_1y_pct": 4.59,
+   "G_usd": 157929.89686760335,
+   "F_usd": 117193.70292700024,
+   "S_usd": 40736.193940603116
+  },
+  "rw": {
+   "leftover_usd": 6598.864531409985,
+   "grown_at_1y_pct": 4.59,
+   "G_usd": 156901.7524134017,
+   "F_usd": 117193.70292700024,
+   "S_usd": 39708.04948640146
+  }
+ },
+ "H13": {
+  "-50bp": {
+   "gap_usd": 7082.255534621363,
+   "topup_on_B_usd": 7387.68473550193,
+   "G_usd": 142612.31526449806,
+   "y5_unchanged": {
+    "y5_pct": 5.06,
+    "floor_cost_usd": 117193.70292700024,
+    "stock_fund_usd": 25418.61233749782,
+    "floor_face_usd": 150000.0
+   },
+   "y5_shifted": {
+    "y5_pct": 4.56,
+    "floor_cost_usd": 120022.69830743087,
+    "stock_fund_usd": 22589.616957067192,
+    "floor_face_usd": 150000.0
+   }
+  },
+  "-100bp": {
+   "gap_usd": 22581.60804620746,
+   "topup_on_B_usd": 23440.239646788887,
+   "G_usd": 126559.76035321111,
+   "y5_unchanged": {
+    "y5_pct": 5.06,
+    "floor_cost_usd": 117193.70292700024,
+    "stock_fund_usd": 9366.057426210871,
+    "floor_face_usd": 150000.0
+   },
+   "y5_shifted": {
+    "y5_pct": 4.06,
+    "floor_cost_usd": 122934.0391831053,
+    "stock_fund_usd": 3625.7211701058113,
+    "floor_face_usd": 150000.0
+   }
+  },
+  "-150bp": {
+   "gap_usd": 38969.01352618571,
+   "topup_on_B_usd": 40252.40004211781,
+   "G_usd": 109747.5999578822,
+   "y5_unchanged": {
+    "y5_pct": 5.06,
+    "floor_cost_usd": 117193.70292700024,
+    "stock_fund_usd": 0.0,
+    "floor_face_usd": 140469.4926649478
+   },
+   "y5_shifted": {
+    "y5_pct": 3.5599999999999996,
+    "floor_cost_usd": 125930.5355313429,
+    "stock_fund_usd": 0.0,
+    "floor_face_usd": 130723.97353209906
+   }
+  }
+ },
+ "E5_closed_form": {
+  "sigma_h_bp_input": 50.77463575965458,
+  "breakeven_rw_bp": 22.7755657289094,
+  "P_gap_gt_0": 0.32687387139153545,
+  "note": "1 - Phi(b*_RW / sigma_h): a parallel Normal shift; consistency with E5"
+ },
+ "checks": [
+  {
+   "key": "cost_fwd_R_usd",
+   "mine": 292418.11180074257,
+   "ref": 292418.11,
+   "diff": 0.0018007425824180245,
+   "tol": 1.0,
+   "source": "numbers.yaml (Gate A)",
+   "verdict": "MATCH"
+  },
+  {
+   "key": "breakeven_fall_bp_fwd",
+   "mine": 26.196344556462357,
+   "ref": 26.2,
+   "diff": -0.0036554435376423555,
+   "tol": 0.05,
+   "source": "numbers.yaml (Gate A, 1 dp)",
+   "verdict": "MATCH"
+  },
+  {
+   "key": "S2028_base_fwd_usd",
+   "mine": 40736.193940603116,
+   "ref": 40736.0,
+   "diff": 0.19394060311606154,
+   "tol": 1.0,
+   "source": "numbers.yaml (Gate A, whole dollars)",
+   "verdict": "MATCH"
+  },
+  {
+   "key": "F2028_base_usd",
+   "mine": 117193.70292700024,
+   "ref": 117194.0,
+   "diff": -0.29707299976143986,
+   "tol": 1.0,
+   "source": "numbers.yaml (Gate A, whole dollars)",
+   "verdict": "MATCH"
+  },
+  {
+   "key": "H14_-50bp_unfunded_2033_usd",
+   "mine": 9281.451167305266,
+   "ref": 9281.0,
+   "diff": 0.4511673052656988,
+   "tol": 1.0,
+   "source": "M2_SPEC s8 must-reproduce",
+   "verdict": "MATCH"
+  },
+  {
+   "key": "H14_-100bp_unfunded_2033_usd",
+   "mine": 28752.600684895497,
+   "ref": 28753.0,
+   "diff": -0.3993151045033301,
+   "tol": 1.0,
+   "source": "M2_SPEC s8 must-reproduce",
+   "verdict": "MATCH"
+  },
+  {
+   "key": "pv_today_R_usd",
+   "mine": 289119.2036498361,
+   "ref": 289119.2,
+   "diff": 0.0036498361150734127,
+   "tol": 0.01,
+   "source": "Gate A headline (task brief)",
+   "verdict": "MATCH"
+  },
+  {
+   "key": "cost_fwd_R_usd vs m2_blind",
+   "mine": 292418.11180074257,
+   "ref": 292418.11180074257,
+   "diff": 0.0,
+   "tol": 0.01,
+   "source": "m2_blind results.json headline_keys",
+   "verdict": "MATCH"
+  },
+  {
+   "key": "cost_rw_R_usd vs m2_blind",
+   "mine": 293401.13546859,
+   "ref": 293401.1354685901,
+   "diff": -5.820766091346741e-11,
+   "tol": 0.01,
+   "source": "m2_blind results.json headline_keys",
+   "verdict": "MATCH"
+  },
+  {
+   "key": "breakeven_fall_bp_fwd vs m2_blind",
+   "mine": 26.196344556462357,
+   "ref": 26.196344556462236,
+   "diff": 1.2079226507921703e-13,
+   "tol": 0.0001,
+   "source": "m2_blind results.json headline_keys",
+   "verdict": "MATCH"
+  },
+  {
+   "key": "breakeven_fall_bp_rw vs m2_blind",
+   "mine": 22.7755657289094,
+   "ref": 22.775565728909466,
+   "diff": -6.750155989720952e-14,
+   "tol": 0.0001,
+   "source": "m2_blind results.json headline_keys",
+   "verdict": "MATCH"
+  },
+  {
+   "key": "S2028_base_fwd_usd vs m2_blind",
+   "mine": 40736.193940603116,
+   "ref": 40736.193940603116,
+   "diff": 0.0,
+   "tol": 0.01,
+   "source": "m2_blind results.json headline_keys",
+   "verdict": "MATCH"
+  },
+  {
+   "key": "F2028_base_usd vs m2_blind",
+   "mine": 117193.70292700024,
+   "ref": 117193.70292700024,
+   "diff": 0.0,
+   "tol": 0.01,
+   "source": "m2_blind results.json headline_keys",
+   "verdict": "MATCH"
+  },
+  {
+   "key": "S2028_base_rw_usd vs m2_blind",
+   "mine": 39708.04948640146,
+   "ref": 39708.0494864014,
+   "diff": 5.820766091346741e-11,
+   "tol": 0.01,
+   "source": "m2_blind results.json headline_keys",
+   "verdict": "MATCH"
+  },
+  {
+   "key": "H13_-50bp_fund_y5_unchanged vs m2_blind",
+   "mine": 25418.61233749782,
+   "ref": 25418.612337497878,
+   "diff": -5.820766091346741e-11,
+   "tol": 0.01,
+   "source": "m2_blind results.json headline_keys",
+   "verdict": "MATCH"
+  },
+  {
+   "key": "H13_-50bp_fund_y5_shifted vs m2_blind",
+   "mine": 22589.616957067192,
+   "ref": 22589.61695706725,
+   "diff": -5.820766091346741e-11,
+   "tol": 0.01,
+   "source": "m2_blind results.json headline_keys",
+   "verdict": "MATCH"
+  },
+  {
+   "key": "H13_-100bp_fund_y5_unchanged vs m2_blind",
+   "mine": 9366.057426210871,
+   "ref": 9366.057426210871,
+   "diff": 0.0,
+   "tol": 0.01,
+   "source": "m2_blind results.json headline_keys",
+   "verdict": "MATCH"
+  },
+  {
+   "key": "H13_-100bp_fund_y5_shifted vs m2_blind",
+   "mine": 3625.7211701058113,
+   "ref": 3625.7211701058113,
+   "diff": 0.0,
+   "tol": 0.01,
+   "source": "m2_blind results.json headline_keys",
+   "verdict": "MATCH"
+  },
+  {
+   "key": "H13_-150bp_floor_face_y5_unchanged vs m2_blind",
+   "mine": 140469.4926649478,
+   "ref": 140469.4926649478,
+   "diff": 0.0,
+   "tol": 0.01,
+   "source": "m2_blind results.json headline_keys",
+   "verdict": "MATCH"
+  },
+  {
+   "key": "H13_-150bp_floor_face_y5_shifted vs m2_blind",
+   "mine": 130723.97353209906,
+   "ref": 130723.97353209906,
+   "diff": 0.0,
+   "tol": 0.01,
+   "source": "m2_blind results.json headline_keys",
+   "verdict": "MATCH"
+  },
+  {
+   "key": "H14_-50bp_unfunded_2033_usd vs m2_blind",
+   "mine": 9281.451167305266,
+   "ref": 9281.45116730519,
+   "diff": 7.639755494892597e-11,
+   "tol": 0.01,
+   "source": "m2_blind results.json headline_keys",
+   "verdict": "MATCH"
+  },
+  {
+   "key": "H14_-100bp_unfunded_2033_usd vs m2_blind",
+   "mine": 28752.600684895497,
+   "ref": 28752.600684895497,
+   "diff": 0.0,
+   "tol": 0.01,
+   "source": "m2_blind results.json headline_keys",
+   "verdict": "MATCH"
+  },
+  {
+   "key": "E5 P(gap>0): closed form vs m2_blind Monte Carlo",
+   "mine": 0.32687387139153545,
+   "ref": 0.32662,
+   "diff": 0.0002538713915354318,
+   "tol": 0.005,
+   "source": "m2_blind results.json (100,000 draws; MC noise ~0.15pp)",
+   "verdict": "MATCH"
+  }
+ ],
+ "summary": {
+  "checks": 23,
+  "fail": 0,
+  "no_reference": 0
+ }
+}
