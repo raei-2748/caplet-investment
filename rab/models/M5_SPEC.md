@@ -111,3 +111,13 @@ windows with a top-up marked).
 Deterministic model: per-window values to $1; summary statistics to $100; shares to 0.5pp; dates identical.
 Part A: V0 to $1 on the H1 days (must equal M1 G: `history.cost_2020_median` 458,828, `history.cost_max` 470,249 on
 2020-08-04, `history.cheapest_since` 2002-05-28), extended-series statistics to $100.
+
+## 7. Changelog
+
+- **2026-09-30, Gate B (`rab/gates/gate_B_ws3.md`)**. These are clarifications only; no method or number changed.
+  - A3(ii): "lowest and highest V0 since 1871" can be read over month-start observations or over every curve date.
+    Both builds report both readings. Month starts: $111,249 (1 Oct 1981) and $468,154 (3 Aug 2020). Every curve
+    date: $110,214 (30 Sep 1981) and $470,249 (4 Aug 2020). Quote the every-curve-date figure as "the cheapest day".
+  - H1: the 11 Oct 2010 row of the Treasury file has every tenor blank. Both builds drop it.
+  - The insight_v1 H9 reconciliation (U.S. stocks, starts 1928-2020, rescaled over 1928-2025, today's yields) is a
+    reference-build extra, not part of this spec. Gate B recomputed it separately and it matches to the cent.

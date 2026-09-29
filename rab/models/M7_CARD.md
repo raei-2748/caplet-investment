@@ -71,3 +71,5 @@ that the 2031 range is announced after the floor is bought, so its bottom is cer
 | Inflation is the risk the plan leaves with Laura (payments fixed in dollars, as the case requires). If the IPS has no sentence saying so, add one | fix-before-6-Nov (wording only, if absent); else note-in-Final-Report |
 | A 2011-style flight to safety before 1 Jan 2027 costs about $20k of stock fund but no payment; WS4 owns the pre-2027 hedge memo | note-in-Final-Report |
 | The $150,000 bottom holds for falls up to about 1 point before the money arrives | note-in-Final-Report (supports the "certain by construction if..." wording, PM safeguard) |
+
+**Gate B (30 Sep 2026).** A blind rebuild from `M7_SPEC.md` reproduces every scenario, threshold, downgrade move and real value to the cent. The spec erratum for S2 (`/100` on `jpn_ltrate`) is logged in the spec changelog; both builds used percentage points. Record: `rab/gates/gate_B_ws3.md`.

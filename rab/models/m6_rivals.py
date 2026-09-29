@@ -334,16 +334,19 @@ def summarise(hist, mc):
         h = hist[hist.rival == rid]
         m = mc[rid]
         rec = dict(rival=rid, name=NAMES[rid], trades=TRADES[rid])
+        # Gate B fix: count with an explicit bool array. `floor_broken` is NaN for non-CPPI rows, so the column is object
+        # dtype, and a pandas sum of numpy bools there is a logical OR (it returned 1 instead of 94 / 106).
+        nb = lambda s: int(np.sum(s.to_numpy(dtype=bool)))
         if rid != "R6":
-            rec.update(h_windows=len(h), h_unfunded=int(h.unfunded.sum()), h_max_shortfall=h.shortfall.max(),
+            rec.update(h_windows=len(h), h_unfunded=nb(h.unfunded), h_max_shortfall=h.shortfall.max(),
                        h_T33_worst=h.T33.min(), h_T33_worst_Y=int(h.loc[h.T33.idxmin(), "Y"]), h_T33_p10=h.T33.quantile(.1),
                        h_T33_median=h.T33.median(), h_T33_p90=h.T33.quantile(.9), h_realT33_median=h.real_T33.median(),
                        h_realT33_worst=h.real_T33.min(), h_certain31_median=h.certain31.median(),
                        h_gift_worst=h.gift.min(), h_gift_p10=h.gift.quantile(.1), h_gift_median=h.gift.median())
             if rid in ("R5", "R5m5"):
-                rec["h_floor_broken"] = int(h.floor_broken.sum())
+                rec["h_floor_broken"] = nb(h.floor_broken)
         else:
-            rec.update(h_windows=len(h), h_unfunded=int(h.unfunded.sum()), h_max_shortfall=h.shortfall.max(),
+            rec.update(h_windows=len(h), h_unfunded=nb(h.unfunded), h_max_shortfall=h.shortfall.max(),
                        h_shortfall_median=h.shortfall.median(), h_min_payment=h.tips_min_payment.min())
         rec.update(mc_unfunded=float(np.mean(m["unfunded"])), mc_T33_p5=float(np.percentile(m["T33"], 5)),
                    mc_T33_p50=float(np.median(m["T33"])), mc_T33_p95=float(np.percentile(m["T33"], 95)),
@@ -608,6 +611,23 @@ def main():
         v = rob[lab]
         say(f"  ROBUSTNESS gold/REIT history, {lab} ({v['windows']} windows): p10 {v['p10_change']:+,.0f}, spread "
             f"x{v['spread80_ratio']:.2f}, median {v['median_change']:+,.0f}")
+    # Gate B fix: record the rule's final output (M6_SPEC s5 + s7) next to the base-seed test, so the CSV alone cannot be
+    # read as a switch. A base-seed pass counts only if the MC test that passed also passes on every other seed.
+    fin = []
+    for r in D.itertuples():
+        v = rob["mc"][r.fund]
+        seeds_ok = ((r.test1_p5 and v["c1a"] == rob["seeds"]) or (r.test1_spread and v["c1b"] == rob["seeds"])) and \
+            v["c3"] == rob["seeds"]
+        fin.append("KEEP VT" if not r.passes_numbers else ("SWITCH (if the sentence and WInS check pass)" if seeds_ok
+                                                          else "KEEP VT (not seed-robust)"))
+    D["mc_seeds_p5_test_passed"] = [rob["mc"][f]["c1a"] for f in D.fund]
+    D["mc_seeds_spread_test_passed"] = [rob["mc"][f]["c1b"] for f in D.fund]
+    D["mc_seeds"] = rob["seeds"]
+    D["final"] = fin
+    D = D.rename(columns={"decision": "decision_seed_20260930"})
+    D.to_csv(os.path.join(OUT, "fund_choice_decision.csv"), index=False, float_format="%.4f")
+    for r in D.itertuples():
+        say(f"  FINAL {r.name:24s}: {r.final}")
     fig_rivals(S)
     fig_funds(F)
     res = dict(summary=S.to_dict("records"), h16_reverified=h16, tips=infl, rec_mc=recinfo, jpm=mcinfo, fund_alternatives=F.to_dict("records"),

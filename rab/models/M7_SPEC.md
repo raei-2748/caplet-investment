@@ -89,3 +89,13 @@ Deterministic: every value to $1; dates and event moves identical (1bp).
 Parallel shifts of today's curve (no twists); analog returns are annual and in each market's own currency (Japan in
 yen); the world fund in S1/S5/S7 is the VT-like proxy (M5); no fees; the ladder is held to maturity, so price moves
 after 1 Jan 2027 change only its market value, never the payments.
+
+## 8. Changelog
+
+- **2026-09-30, Gate B (`rab/gates/gate_B_ws3.md`)**. These are clarifications only; no number changed.
+  - S2 erratum: "(`jpn_ltrate` A0+t+1 - A0+t)/100" should read `jpn_ltrate`(A0+t+1) - `jpn_ltrate`(A0+t), in
+    percentage points. `jpn_ltrate` is already in percent, like the 10 Yr column used in S1. Both builds used
+    percentage points. The literal reading (blind row `S2_lit`, a shift of about -0.01pp, gift $163,194) is not used.
+  - Downgrade base: all three announcements came after the U.S. close, so "the last close before the announcement"
+    is that day's close (both builds). Using the previous day's close instead gives 2011 -32bp, 2023 +23bp and
+    2025 -4bp (blind `downgrade_events.csv`, `alt_prior_close_change_pp`).

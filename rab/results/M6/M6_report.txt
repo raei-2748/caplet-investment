@@ -14,9 +14,9 @@
   Growth-first 75->40           | MC: short  2.23%; 2033 money p5/p50/p95 $36k / $249k / $571k; certain in 2031 $0k; gift p5/p50 $10.9k / $100.3k
                                 | history: short in 3/149 (max $88k); 2033 money worst $-88k (1929) p10 $88k median $240k; real median $192k; gift median $93k; trades 24
   CPPI m=3                      | MC: short  0.00%; 2033 money p5/p50/p95 $153k / $199k / $408k; certain in 2031 $0k; gift p5/p50 $71.0k / $88.7k; $150k floor broken 1.99%
-                                | history: short in 0/149 (max $0k); 2033 money worst $33k (2020) p10 $66k median $131k; real median $126k; gift median $61k; $150k floor broken in 1; trades 72
+                                | history: short in 0/149 (max $0k); 2033 money worst $33k (2020) p10 $66k median $131k; real median $126k; gift median $61k; $150k floor broken in 94; trades 72
   CPPI m=5                      | MC: short  0.01%; 2033 money p5/p50/p95 $124k / $176k / $578k; certain in 2031 $0k; gift p5/p50 $56.9k / $79.8k; $150k floor broken 26.25%
-                                | history: short in 0/149 (max $0k); 2033 money worst $33k (2020) p10 $66k median $128k; real median $120k; gift median $59k; $150k floor broken in 1; trades 72
+                                | history: short in 0/149 (max $0k); 2033 money worst $33k (2020) p10 $66k median $128k; real median $120k; gift median $59k; $150k floor broken in 106; trades 72
   TIPS ladder + REC branch      | MC: at least one payment short in 60.0% of paths (p95 total shortfall $102k); history (today's breakevens, 140 inflation paths 1872-2011): short in 92, largest total shortfall $108k, smallest payment $35k
     TIPS: AR(1) phi 0.741, shock sd 0.0187, mean 0.0234, start 0.0340; to deliver every payment in 95% of paths the TIPS ladder must be 1.43x as big (about $125k more)
 
@@ -46,3 +46,7 @@
   ROBUSTNESS gold/REIT history, gold_float_era_1971_2020 (50 windows): p10 +1,801, spread x0.80, median -459
   ROBUSTNESS gold/REIT history, reit_half_as_VT_1928_2020 (93 windows): p10 +1,238, spread x0.88, median -228
   ROBUSTNESS gold/REIT history, both_1971_2020 (50 windows): p10 +873, spread x0.91, median +54
+  FINAL VTI + VXUS 62/38        : KEEP VT
+  FINAL U.S. only               : KEEP VT
+  FINAL VT + small/value tilt   : KEEP VT
+  FINAL VT + gold/REIT          : KEEP VT (not seed-robust)

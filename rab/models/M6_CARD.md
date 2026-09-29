@@ -20,9 +20,13 @@ lenses: 149 historical start years (each era's yields and returns) and a Monte C
 | 60/40 whole portfolio | 1.3% / 2 | 53 / 245 / 527 | 83 / 222 / 527 | 0 | 24 |
 | Glide path 65 -> 20 | 0.2% / 3 | 88 / 233 / 434 | 82 / 180 / 440 | 0 | 24 |
 | Growth-first 75 -> 40 | 2.2% / 3 | 36 / 249 / 571 | 88 / 240 / 558 | 0 | 24 |
-| CPPI, multiplier 3 | never / 0 ($150k floor broken 2.0% / 1) | 153 / 199 / 408 | 66 / 131 / 512 | 0 | up to 72 |
-| CPPI, multiplier 5 | 0.01% / 0 (floor broken 26% / 1) | 124 / 176 / 578 | 66 / 128 / 578 | 0 | up to 72 |
+| CPPI, multiplier 3 | never / 0 ($150k missed in 2.0% / 94 of 149*) | 153 / 199 / 408 | 66 / 131 / 512 | 0 | up to 72 |
+| CPPI, multiplier 5 | 0.01% / 0 ($150k missed in 26% / 106 of 149*) | 124 / 176 / 578 | 66 / 128 / 578 | 0 | up to 72 |
 | TIPS ladder + same branch | a payment short in 60% of paths / 92 of 140 inflation paths | as adopted | as adopted | $150k | 13 |
+
+\* History lens: at the lower yields of most past eras, even Root-and-Branch's floor came out below $150k in 91 of 149
+start years (M5), so history cannot tell the two apart on this point; the Monte Carlo lens (today's yields) can. Gate B
+(`rab/gates/gate_B_ws3.md`) corrected the history counts, which read "1" because of a counting bug in the summary.
 
 insight_v1 H16 re-verified on this basis: growth-first misses a payment in 2.2% / 10.6% / 35.1% of paths with a 2028
 deposit of $150k / $75k / $0 (was 3.2 / 13.7 / 40.8% on the old engine). Root-and-Branch: 0% in all three, because the
@@ -36,7 +40,9 @@ than about $1,400 (MC 5th percentile for VT: $165k; history 10th percentile: $16
 VT + 10% gold + 10% REIT passes the number tests only at the edge (gift spread 0.899 of VT's against a 0.90 bar;
 passes on 17 of 20 other seeds; history spread 0.80-0.91 even after removing its flattering proxies; median -$0.7k to
 +$0.3k; real ETFs 2012-2025: no gain). Under the spec's own tolerance (same decision on any seed) the switch is not
-robust: **VT stays**. Memo: `rab/decisions/D_fund_choice.md`.
+robust: **VT stays**. Memo: `rab/decisions/D_fund_choice.md`. Gate B: with the seed noise removed (100 seeds x 200,000
+paths, both builds' samplers) the ratio is 0.899, just 0.001 under the bar. So "not robust" means "on the line", not
+"fails": with 200,000 paths the test passes on about 4 seeds in 5.
 
 ## What this teaches (plain English)
 

@@ -76,7 +76,7 @@ numbers:
       worst_Y: 1928
       p10: 169056.0
       median: 175903.0
-      top_reached: 0.85
+      top_reached: 0.846
     unit: USD
     quote_as: with today's yields, the worst five-year stretch since 1872 still gives a gift of about $159,000
     scale: laura_plan
@@ -163,7 +163,7 @@ numbers:
       the payments.'
   ws3.rivals.sixty_forty:
     value:
-      mc_short: 0.01
+      mc_short: 0.0127
       mc_T33:
       - 53342.0
       - 245276.0
@@ -217,7 +217,7 @@ numbers:
       the payments.'
   ws3.rivals.glide:
     value:
-      mc_short: 0.0
+      mc_short: 0.0017
       mc_T33:
       - 87700.0
       - 233406.0
@@ -244,7 +244,7 @@ numbers:
       the payments.'
   ws3.rivals.growth_first:
     value:
-      mc_short: 0.02
+      mc_short: 0.0223
       mc_T33:
       - 35898.0
       - 248638.0
@@ -283,7 +283,7 @@ numbers:
       - 130982.0
       - 511595.0
       trades: 72
-      mc_floor_broken: 0.02
+      mc_floor_broken: 0.0199
     unit: USD / share
     quote_as: quote only in the Final Report (rivals table)
     scale: model
@@ -299,7 +299,7 @@ numbers:
       the payments.'
   ws3.rivals.cppi5:
     value:
-      mc_short: 0.0
+      mc_short: 0.0001
       mc_T33:
       - 123681.0
       - 175564.0
@@ -311,7 +311,7 @@ numbers:
       - 127622.0
       - 577738.0
       trades: 72
-      mc_floor_broken: 0.26
+      mc_floor_broken: 0.2625
     unit: USD / share
     quote_as: quote only in the Final Report (rivals table)
     scale: model
@@ -344,9 +344,9 @@ numbers:
     note: ''
   ws3.rivals.H16_reverified:
     value:
-      deposit_150k: 0.022
-      deposit_75k: 0.106
-      deposit_0: 0.351
+      deposit_150k: 0.0223
+      deposit_75k: 0.1062
+      deposit_0: 0.3509
     unit: probability
     quote_as: a growth-first plan misses a payment in about 1 path in 45 (1 in 10 if the 2028 deposit is halved)
     scale: model
@@ -377,7 +377,9 @@ numbers:
     source: rab/results/M6/fund_choice_decision.csv; M6_results.json fund_robustness
     as_of: '2026-09-28'
     note: 'Gold/REIT passes the number tests on the base seed only at the threshold (spread ratio 0.899 vs 0.90) and on 17
-      of 20 other seeds: not robust under M6_SPEC s7, so VT stays.'
+      of 20 other seeds: not robust under M6_SPEC s7, so VT stays. Gate B (rab/gates/gate_B_ws3.md): without seed noise the
+      ratio is 0.8991 (reference sampler) and 0.8991 (blind sampler), 100 seeds x 200,000 paths each: just under the bar,
+      so at the spec''s 200,000 paths the spread test passes on about 80% of seeds, not all of them.'
   ws3.stress.thresholds_bp:
     value:
       topup_starts: 26.2

@@ -32,5 +32,15 @@ $900-1,800. On real ETFs
 Laura's money on 2 Jan 2028, so no alternative moves the gift by more than about $1,500 either way; each extra fund
 is another $25 WInS trade and another thing to explain. GLD / VNQ listings on WInS are UNVERIFIED.
 
+**Gate B check (`rab/gates/gate_B_ws3.md`).** A separately written blind build reaches the same decision: tests 1-3
+pass on the base seed (spread ratio 0.8999), the switch is not seed-robust (14 of 20 seeds), and VT stays. With the seed
+noise removed (100 seeds x 200,000 paths, each build's own sampler) both builds give a ratio of 0.8991. So gold/REIT
+sits on the line (0.001 under the 0.90 bar), rather than clearly failing. At the spec's 200,000 paths the test passes on
+about 4 seeds in 5, which is why the robustness clause (M6_SPEC s7) rejects the switch. With far more paths it would
+pass tests 1-3 every time, and test 4 would then decide. Test 4 asks whether WInS lists GLD and VNQ (UNVERIFIED) and
+whether two more $25 trades and more explaining are worth a bad-case gain of about $1,200 (0.7% of the gift). The
+recommendation stands: it follows the pre-registered rule as written. The team should see it as a close call, not a
+clear loss for gold/REIT.
+
 **What would change it.** A robust pass of the rule (all seeds) with a bad-case gain of $2,000 or more; or a reason to
 hold no U.S. concentration risk that the team can say in one sentence. Neither applies now.

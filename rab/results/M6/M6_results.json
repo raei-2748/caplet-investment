@@ -218,7 +218,7 @@
    "mc_gift_p5": 70952.4391580162,
    "mc_gift_p50": 88662.3705246412,
    "mc_gift_p95": 141564.9278436536,
-   "h_floor_broken": 1.0,
+   "h_floor_broken": 94.0,
    "mc_floor_broken": 0.01986,
    "h_shortfall_median": NaN,
    "h_min_payment": NaN,
@@ -250,7 +250,7 @@
    "mc_gift_p5": 56862.61969461132,
    "mc_gift_p50": 79825.95141894011,
    "mc_gift_p95": 189814.99200523813,
-   "h_floor_broken": 1.0,
+   "h_floor_broken": 106.0,
    "mc_floor_broken": 0.262485,
    "h_shortfall_median": NaN,
    "h_min_payment": NaN,
@@ -771,7 +771,11 @@
    "test3_median": true,
    "passes_numbers": false,
    "one_sentence": "Same stocks as VT in two funds: one more trade and one more thing to explain, no new risk spread (fails the one-sentence test for a benefit).",
-   "decision": "KEEP VT"
+   "decision_seed_20260930": "KEEP VT",
+   "mc_seeds_p5_test_passed": 0,
+   "mc_seeds_spread_test_passed": 0,
+   "mc_seeds": 20,
+   "final": "KEEP VT"
   },
   {
    "fund": "A2",
@@ -788,7 +792,11 @@
    "test3_median": true,
    "passes_numbers": false,
    "one_sentence": "Puts every stock dollar in one country; a judge would ask why Laura bets on the U.S. alone.",
-   "decision": "KEEP VT"
+   "decision_seed_20260930": "KEEP VT",
+   "mc_seeds_p5_test_passed": 0,
+   "mc_seeds_spread_test_passed": 0,
+   "mc_seeds": 20,
+   "final": "KEEP VT"
   },
   {
    "fund": "A3",
@@ -805,7 +813,11 @@
    "test3_median": true,
    "passes_numbers": false,
    "one_sentence": "Tilts to small and cheap companies, which have sometimes paid more but can lag for a decade.",
-   "decision": "KEEP VT"
+   "decision_seed_20260930": "KEEP VT",
+   "mc_seeds_p5_test_passed": 0,
+   "mc_seeds_spread_test_passed": 0,
+   "mc_seeds": 20,
+   "final": "KEEP VT"
   },
   {
    "fund": "A4",
@@ -822,7 +834,11 @@
    "test3_median": true,
    "passes_numbers": true,
    "one_sentence": "Adds gold and property, which do not always fall with stocks.",
-   "decision": "SWITCH (if the sentence and WInS check pass)"
+   "decision_seed_20260930": "SWITCH (if the sentence and WInS check pass)",
+   "mc_seeds_p5_test_passed": 0,
+   "mc_seeds_spread_test_passed": 17,
+   "mc_seeds": 20,
+   "final": "KEEP VT (not seed-robust)"
   }
  ],
  "fund_robustness": {

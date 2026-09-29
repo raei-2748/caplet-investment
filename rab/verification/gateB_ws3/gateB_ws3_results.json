@@ -1,0 +1,3879 @@
+{
+ "tally": {
+  "MATCH": 204,
+  "MC NOISE": 74
+ },
+ "decision_tally": {
+  "MATCH": 179,
+  "MC NOISE": 56
+ },
+ "unreconciled": [],
+ "row_level": {
+  "M5 cost-of-certainty series (every curve date 1871-2026)": {
+   "rows_joined": 17262,
+   "only_primary": 0,
+   "only_blind": 0,
+   "tolerance": 0.011,
+   "max_abs_diff": 0.0,
+   "columns": {
+    "V0": {
+     "blind_col": "V0",
+     "max_abs_diff": 0.0,
+     "nan_mismatch": 0
+    }
+   },
+   "verdict": "MATCH"
+  },
+  "M5 cost by calendar year (min / median / max)": {
+   "rows_joined": 156,
+   "only_primary": 0,
+   "only_blind": 0,
+   "tolerance": 0.51,
+   "max_abs_diff": 0.5,
+   "columns": {
+    "V0_min": {
+     "blind_col": "min",
+     "max_abs_diff": 0.5,
+     "nan_mismatch": 0
+    },
+    "V0_median": {
+     "blind_col": "median",
+     "max_abs_diff": 0.5,
+     "nan_mismatch": 0
+    },
+    "V0_max": {
+     "blind_col": "max",
+     "max_abs_diff": 0.5,
+     "nan_mismatch": 0
+    }
+   },
+   "verdict": "MATCH"
+  },
+  "M5 backtest, every (view, fund, start year): 6 x 149 windows": {
+   "rows_joined": 894,
+   "only_primary": 0,
+   "only_blind": 0,
+   "tolerance": 0.011,
+   "max_abs_diff": 0.0109,
+   "columns": {
+    "C": {
+     "blind_col": "ladder_cost_C",
+     "max_abs_diff": 0.0049,
+     "nan_mismatch": 0
+    },
+    "L": {
+     "blind_col": "leftover_L",
+     "max_abs_diff": 0.0049,
+     "nan_mismatch": 0
+    },
+    "T": {
+     "blind_col": "topup_T",
+     "max_abs_diff": 0.005,
+     "nan_mismatch": 0
+    },
+    "G": {
+     "blind_col": "growth_money_G",
+     "max_abs_diff": 0.005,
+     "nan_mismatch": 0
+    },
+    "S": {
+     "blind_col": "short_S",
+     "max_abs_diff": 0.0,
+     "nan_mismatch": 0
+    },
+    "F": {
+     "blind_col": "floor_face_F",
+     "max_abs_diff": 0.005,
+     "nan_mismatch": 0
+    },
+    "fund0": {
+     "blind_col": "fund0",
+     "max_abs_diff": 0.0058,
+     "nan_mismatch": 0
+    },
+    "fund31": {
+     "blind_col": "fund31",
+     "max_abs_diff": 0.0093,
+     "nan_mismatch": 0
+    },
+    "fund33": {
+     "blind_col": "fund33",
+     "max_abs_diff": 0.0109,
+     "nan_mismatch": 0
+    },
+    "bottom": {
+     "blind_col": "bottom",
+     "max_abs_diff": 0.005,
+     "nan_mismatch": 0
+    },
+    "top": {
+     "blind_col": "top",
+     "max_abs_diff": 0.0064,
+     "nan_mismatch": 0
+    },
+    "gift": {
+     "blind_col": "gift",
+     "max_abs_diff": 0.0066,
+     "nan_mismatch": 0
+    },
+    "kept": {
+     "blind_col": "kept",
+     "max_abs_diff": 0.0088,
+     "nan_mismatch": 0
+    },
+    "T33": {
+     "blind_col": "T33",
+     "max_abs_diff": 0.0109,
+     "nan_mismatch": 0
+    },
+    "real_gift": {
+     "blind_col": "real_gift",
+     "max_abs_diff": 0.0066,
+     "nan_mismatch": 0
+    },
+    "real_T33": {
+     "blind_col": "real_T33",
+     "max_abs_diff": 0.0107,
+     "nan_mismatch": 0
+    },
+    "ips_F": {
+     "blind_col": "ips_variant_F",
+     "max_abs_diff": 0.005,
+     "nan_mismatch": 0
+    },
+    "ips_gift": {
+     "blind_col": "ips_variant_gift",
+     "max_abs_diff": 0.0066,
+     "nan_mismatch": 0
+    },
+    "top_reached": {
+     "blind_col": "top_reached",
+     "mismatches": 0
+    },
+    "basis_Y": {
+     "blind_col": "basis_Y",
+     "mismatches": 0
+    },
+    "basis_Y1": {
+     "blind_col": "basis_Y1",
+     "mismatches": 0
+    }
+   },
+   "verdict": "MATCH"
+  },
+  "M6 history lens, every (rival, start year): 8 rivals x 149": {
+   "rows_joined": 1192,
+   "only_primary": 0,
+   "only_blind": 0,
+   "tolerance": 0.011,
+   "max_abs_diff": 0.005,
+   "columns": {
+    "T33": {
+     "blind_col": "T33",
+     "max_abs_diff": 0.005,
+     "nan_mismatch": 0
+    },
+    "certain31": {
+     "blind_col": "certain31",
+     "max_abs_diff": 0.005,
+     "nan_mismatch": 0
+    },
+    "gift": {
+     "blind_col": "gift",
+     "max_abs_diff": 0.005,
+     "nan_mismatch": 0
+    },
+    "shortfall": {
+     "blind_col": "shortfall",
+     "max_abs_diff": 0.0049,
+     "nan_mismatch": 0
+    },
+    "top": {
+     "blind_col": "top",
+     "max_abs_diff": 0.005,
+     "nan_mismatch": 0
+    },
+    "real_T33": {
+     "blind_col": "real_T33",
+     "max_abs_diff": 0.005,
+     "nan_mismatch": 0
+    },
+    "promise_missed": {
+     "blind_col": "promise_missed",
+     "max_abs_diff": 0.0,
+     "nan_mismatch": 0
+    },
+    "unfunded": {
+     "blind_col": "unfunded",
+     "mismatches": 0
+    }
+   },
+   "verdict": "MATCH"
+  },
+  "M6 TIPS ladder, every inflation path 1872-2011 (140)": {
+   "rows_joined": 140,
+   "only_primary": 0,
+   "only_blind": 0,
+   "tolerance": 0.011,
+   "max_abs_diff": 0.0,
+   "columns": {
+    "shortfall": {
+     "blind_col": "total_gap",
+     "max_abs_diff": 0.0,
+     "nan_mismatch": 0
+    },
+    "tips_paid_total": {
+     "blind_col": "total_paid",
+     "max_abs_diff": 0.0,
+     "nan_mismatch": 0
+    },
+    "tips_min_payment": {
+     "blind_col": "min_paid",
+     "max_abs_diff": 0.0,
+     "nan_mismatch": 0
+    },
+    "unfunded": {
+     "blind_col": "any_short",
+     "mismatches": 0
+    }
+   },
+   "verdict": "MATCH"
+  },
+  "M6 fund alternatives, history 1928-2020 (93) and ETF 2011-2020 (10) lenses": {
+   "rows_joined": 9,
+   "only_primary": 0,
+   "only_blind": 0,
+   "tolerance": 0.011,
+   "max_abs_diff": 0.0049,
+   "columns": {
+    "gift_worst": {
+     "blind_col": "gift_worst",
+     "max_abs_diff": 0.0044,
+     "nan_mismatch": 0
+    },
+    "gift_p10": {
+     "blind_col": "gift_p10",
+     "max_abs_diff": 0.0047,
+     "nan_mismatch": 0
+    },
+    "gift_p50": {
+     "blind_col": "gift_p50",
+     "max_abs_diff": 0.0049,
+     "nan_mismatch": 0
+    },
+    "gift_p90": {
+     "blind_col": "gift_p90",
+     "max_abs_diff": 0.0047,
+     "nan_mismatch": 0
+    },
+    "T33_p50": {
+     "blind_col": "T33_p50",
+     "max_abs_diff": 0.0026,
+     "nan_mismatch": 0
+    },
+    "p_top": {
+     "blind_col": "p_top",
+     "max_abs_diff": 0.004,
+     "nan_mismatch": 0
+    }
+   },
+   "verdict": "MATCH"
+  },
+  "M7 stress table, every scenario (13) and quantity": {
+   "rows_joined": 13,
+   "only_primary": 0,
+   "only_blind": 0,
+   "tolerance": 0.011,
+   "max_abs_diff": 0.005,
+   "columns": {
+    "C": {
+     "blind_col": "ladder_cost_C",
+     "max_abs_diff": 0.0037,
+     "nan_mismatch": 0
+    },
+    "L": {
+     "blind_col": "leftover_L",
+     "max_abs_diff": 0.0037,
+     "nan_mismatch": 0
+    },
+    "T": {
+     "blind_col": "topup_T",
+     "max_abs_diff": 0.0008,
+     "nan_mismatch": 0
+    },
+    "G": {
+     "blind_col": "growth_money_G",
+     "max_abs_diff": 0.0047,
+     "nan_mismatch": 0
+    },
+    "y5": {
+     "blind_col": "y5",
+     "max_abs_diff": 0.005,
+     "nan_mismatch": 0
+    },
+    "F": {
+     "blind_col": "floor_face_F",
+     "max_abs_diff": 0.004,
+     "nan_mismatch": 0
+    },
+    "fund0": {
+     "blind_col": "fund0",
+     "max_abs_diff": 0.0047,
+     "nan_mismatch": 0
+    },
+    "fund31": {
+     "blind_col": "fund31",
+     "max_abs_diff": 0.0048,
+     "nan_mismatch": 0
+    },
+    "fund33": {
+     "blind_col": "fund33",
+     "max_abs_diff": 0.0047,
+     "nan_mismatch": 0
+    },
+    "top": {
+     "blind_col": "top",
+     "max_abs_diff": 0.0048,
+     "nan_mismatch": 0
+    },
+    "gift": {
+     "blind_col": "gift",
+     "max_abs_diff": 0.0048,
+     "nan_mismatch": 0
+    },
+    "kept": {
+     "blind_col": "kept",
+     "max_abs_diff": 0.0048,
+     "nan_mismatch": 0
+    },
+    "T33": {
+     "blind_col": "T33",
+     "max_abs_diff": 0.0047,
+     "nan_mismatch": 0
+    },
+    "shortfall": {
+     "blind_col": "short_S",
+     "max_abs_diff": 0.0,
+     "nan_mismatch": 0
+    },
+    "deflator_2033": {
+     "blind_col": "deflator_2033",
+     "max_abs_diff": 0.0032,
+     "nan_mismatch": 0
+    },
+    "real_gift": {
+     "blind_col": "real_gift",
+     "max_abs_diff": 0.0044,
+     "nan_mismatch": 0
+    },
+    "real_T33": {
+     "blind_col": "real_T33",
+     "max_abs_diff": 0.005,
+     "nan_mismatch": 0
+    },
+    "real_pay_2033": {
+     "blind_col": "real_pay_2033",
+     "max_abs_diff": 0.004,
+     "nan_mismatch": 0
+    },
+    "real_pay_2042": {
+     "blind_col": "real_pay_2042",
+     "max_abs_diff": 0.0034,
+     "nan_mismatch": 0
+    },
+    "real_pay_total": {
+     "blind_col": "real_pay_total",
+     "max_abs_diff": 0.0043,
+     "nan_mismatch": 0
+    },
+    "R1_T33": {
+     "blind_col": "R1_T33",
+     "max_abs_diff": 0.0044,
+     "nan_mismatch": 0
+    },
+    "R2_T33": {
+     "blind_col": "R2_T33",
+     "max_abs_diff": 0.0045,
+     "nan_mismatch": 0
+    },
+    "R5_T33": {
+     "blind_col": "R5_T33",
+     "max_abs_diff": 0.0047,
+     "nan_mismatch": 0
+    },
+    "funded": {
+     "blind_col": "payments_funded",
+     "mismatches": 0
+    }
+   },
+   "verdict": "MATCH"
+  },
+  "M7 real value, every inflation path (9) and payment (10)": {
+   "rows_joined": 9,
+   "only_primary": 0,
+   "only_blind": 0,
+   "tolerance": 0.011,
+   "max_abs_diff": 0.005,
+   "columns": {
+    "pay_2033": {
+     "blind_col": "real_2033",
+     "max_abs_diff": 0.004,
+     "nan_mismatch": 0
+    },
+    "pay_2034": {
+     "blind_col": "real_2034",
+     "max_abs_diff": 0.0048,
+     "nan_mismatch": 0
+    },
+    "pay_2035": {
+     "blind_col": "real_2035",
+     "max_abs_diff": 0.0039,
+     "nan_mismatch": 0
+    },
+    "pay_2036": {
+     "blind_col": "real_2036",
+     "max_abs_diff": 0.0039,
+     "nan_mismatch": 0
+    },
+    "pay_2037": {
+     "blind_col": "real_2037",
+     "max_abs_diff": 0.005,
+     "nan_mismatch": 0
+    },
+    "pay_2038": {
+     "blind_col": "real_2038",
+     "max_abs_diff": 0.0047,
+     "nan_mismatch": 0
+    },
+    "pay_2039": {
+     "blind_col": "real_2039",
+     "max_abs_diff": 0.0045,
+     "nan_mismatch": 0
+    },
+    "pay_2040": {
+     "blind_col": "real_2040",
+     "max_abs_diff": 0.0044,
+     "nan_mismatch": 0
+    },
+    "pay_2041": {
+     "blind_col": "real_2041",
+     "max_abs_diff": 0.004,
+     "nan_mismatch": 0
+    },
+    "pay_2042": {
+     "blind_col": "real_2042",
+     "max_abs_diff": 0.0035,
+     "nan_mismatch": 0
+    },
+    "total": {
+     "blind_col": "total_real",
+     "max_abs_diff": 0.0046,
+     "nan_mismatch": 0
+    }
+   },
+   "verdict": "MATCH"
+  },
+  "M7 real value, U.S. history distribution (p5/p50/p95 per payment)": {
+   "rows_joined": 10,
+   "only_primary": 0,
+   "only_blind": 0,
+   "tolerance": 0.011,
+   "max_abs_diff": 0.0042,
+   "columns": {
+    "p5": {
+     "blind_col": "p5",
+     "max_abs_diff": 0.0036,
+     "nan_mismatch": 0
+    },
+    "p50": {
+     "blind_col": "p50",
+     "max_abs_diff": 0.0042,
+     "nan_mismatch": 0
+    },
+    "p95": {
+     "blind_col": "p95",
+     "max_abs_diff": 0.003,
+     "nan_mismatch": 0
+    }
+   },
+   "verdict": "MATCH"
+  },
+  "proposed_precision": [
+   {
+    "entry": "ws3.rivals.sixty_forty.mc_short",
+    "proposed": 0.0127,
+    "model": 0.01272,
+    "ok": true
+   },
+   {
+    "entry": "ws3.rivals.glide.mc_short",
+    "proposed": 0.0017,
+    "model": 0.0017,
+    "ok": true
+   },
+   {
+    "entry": "ws3.rivals.growth_first.mc_short",
+    "proposed": 0.0223,
+    "model": 0.02235,
+    "ok": true
+   },
+   {
+    "entry": "ws3.rivals.cppi3.mc_short",
+    "proposed": 0.0,
+    "model": 0.0,
+    "ok": true
+   },
+   {
+    "entry": "ws3.rivals.cppi3.mc_floor_broken",
+    "proposed": 0.0199,
+    "model": 0.01986,
+    "ok": true
+   },
+   {
+    "entry": "ws3.rivals.cppi5.mc_short",
+    "proposed": 0.0001,
+    "model": 6.5e-05,
+    "ok": true
+   },
+   {
+    "entry": "ws3.rivals.cppi5.mc_floor_broken",
+    "proposed": 0.2625,
+    "model": 0.262485,
+    "ok": true
+   }
+  ],
+  "h18_third": {
+   "days": 6688,
+   "unfunded_days": 197,
+   "years": [
+    2020,
+    2021
+   ],
+   "worst_date": "2020-08-04",
+   "worst_usd": 20587.640145200246
+  },
+  "insight_v1": [
+   {
+    "ref": "H8",
+    "insight_v1": "REC total p5/p50/p95 $182k / $207k / $250k; gift $165k / $174k / $188k; P(top) 73% (25 Sep, E6 engine, seed 20260927)",
+    "primary": "$181.3k / $206.7k / $251.7k; gift $164.6k / $174.0k / $188.6k",
+    "blind": "$181.4k / $206.8k / $252.2k; gift $164.6k / $174.0k / $188.6k; P(top) 73.4%",
+    "why": "Within $2k at every point (E6 [2] re-run today prints the H8 figures unchanged). Causes: the 28 Sep basis (leftover $7,582 vs $7,736, 5-year yield 5.06% vs 4.98%, bond fund 5.06% vs 5.00%), M6's correlated 9-asset JPM draws vs E6's one-asset lognormal, and seed 20260930 vs 20260927. WS2's M3 owns H8"
+   },
+   {
+    "ref": "H9",
+    "insight_v1": "rescaled worst $169k (1928), raw worst $171k, p10 $185k, median $214k",
+    "primary": "$168,730 / $171,525 / $185,124 / $214,419",
+    "blind": "(third computation) $168,730 / $171,525 / $185,124 / $214,419",
+    "why": "Reproduced on the 28 Sep basis (E6 [5] re-run today, 25 Sep basis: $169k / $171k / $185k / $214k, top reached 77%). The raw worst is $171.5k because the 28 Sep stock fund is $40,736, about $290 more than E6's 25 Sep $40,443. M5's own worst ($159k gift, $173k total) is lower because M5 adds 1872-1927 and uses a world fund"
+   },
+   {
+    "ref": "H12",
+    "insight_v1": "bad 2031-32 returns: gift median $169k, never below the announced bottom",
+    "primary": "not an M5-M7 output; closest: S6 2008-in-2028 gift $164,302, S5 Depression $159,298",
+    "blind": "S6 $164,302; S5 $159,298",
+    "why": "Different question (a named episode, not the bottom decile). Both agree the gift never falls below the bottom once the floor is bought. WS2 owns H12"
+   },
+   {
+    "ref": "H13",
+    "insight_v1": "rates fall first: fund $20-23k (-50bp), $1-7k (-100bp), none, floor $127-137k (-150bp) on 25 Sep",
+    "primary": "-50bp fund $22,590, floor $150,000; -100bp fund $3,626, floor $150,000; -150bp fund $0, floor $130,724",
+    "blind": "-50bp fund $22,590, floor $150,000; -100bp fund $3,626, floor $150,000; -150bp fund $0, floor $130,724",
+    "why": "Both M7 engines give exactly the low end of WS4's 28 Sep ranges (WS4 Gate B: $22,590-25,419 / $3,626-9,366 / none; floor $130,724-140,469): a fall that persists to Jan 2028 is the E6 [8] convention with the smallest fund. The fund is used up at 109.3bp; the 25 Sep figures were lower because there was less room"
+   },
+   {
+    "ref": "H16",
+    "insight_v1": "growth-first misses a payment 3.2% / 13.7% / 40.8% ($150k / $75k / $0 2028 deposit), 25 Sep, old engine with 4.00% bonds",
+    "primary": "2.23% / 10.62% / 35.09%",
+    "blind": "2.27% / 10.68% / 35.24%",
+    "why": "Superseded, not reproduced: the M6 bond fund earns today's 5.06% (JPM 4.00% before), so the whole-portfolio plan grows faster and misses less. Both builds agree within 0.2pp"
+   },
+   {
+    "ref": "H17",
+    "insight_v1": "2020 median about $459k; max $470,249 on 4 Aug 2020; cheapest since 28 May 2002; <= $300k on 11.1% of days since 2000",
+    "primary": "$458,828; $470,249 on 2020-08-04; 2002-05-28; 11.1%",
+    "blind": "$458,828; $470,249 on 2020-08-04; 2002-05-28; 11.1%",
+    "why": "Identical (three pricers at Gate A, both WS3 builds here)"
+   },
+   {
+    "ref": "H18",
+    "insight_v1": "a payment partly unfunded on 197 of 6,688 days, all 2020-21; worst $20,588 on 4 Aug 2020",
+    "primary": "not an M5 output (M5 is start-of-year); M5 start years 1872-2020: 0 unfunded",
+    "blind": "197 of 6688 days (2020, 2021); worst $20,588 on 2020-08-04",
+    "why": "Third computation here with the blind curve code (forward to the day's 1 Jan 2027 equivalent, deposit valued one year later). A 1 January start never hits it, which is why M5 finds 0 of 149"
+   },
+   {
+    "ref": "H19",
+    "insight_v1": "$42,063 (2033), $33,681 (2042) at 2.5% (ASSUMPTION)",
+    "primary": "$42,063.26 / $33,681.25",
+    "blind": "$42,063.26 / $33,681.25",
+    "why": "Exact with its own convention (7 and 16 years from 2026). The M7 headline ($35,342) uses 1 Jan 2027 dollars and the 2.34% breakeven, so it is not the same number; the 2.5% is now sourced to JPM"
+   }
+  ]
+ },
+ "rows": [
+  {
+   "section": "M5",
+   "key": "m5.cost_of_certainty.today_usd: ten payments on 28 Sep 2026",
+   "decision": true,
+   "primary": 289119.2036498361,
+   "blind": 289119.2,
+   "kind": "usd_det",
+   "note": "numbers.yaml laura.ladder.cost_today_strips 289,119.20",
+   "diff_num": -0.0036498361150734127,
+   "diff": "-0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  2020 median cost",
+   "decision": true,
+   "primary": 458828.06389119325,
+   "blind": 458828.06,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.0038911932497285306,
+   "diff": "-0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  peak cost ($470,249)",
+   "decision": true,
+   "primary": 470249.2705687235,
+   "blind": 470249.27,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.0005687234806828201,
+   "diff": "-0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  peak date",
+   "decision": true,
+   "primary": "2020-08-04",
+   "blind": "2020-08-04",
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  cheapest since (last day as cheap)",
+   "decision": true,
+   "primary": "2002-05-28",
+   "blind": "2002-05-28",
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "m5.cost_of_certainty.share_months_since_1871_as_cheap",
+   "decision": true,
+   "primary": 0.23274478330658105,
+   "blind": 0.2327,
+   "kind": "share_det",
+   "note": "",
+   "diff_num": -4.478330658105878e-05,
+   "diff": "-0.00pp",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  same, flat-curve bias removed (median error)",
+   "decision": true,
+   "primary": 0.23542001070090957,
+   "blind": 0.2354,
+   "kind": "share_det",
+   "note": "",
+   "diff_num": -2.0010700909567358e-05,
+   "diff": "-0.00pp",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  same, flat-curve bias removed (95th pct error)",
+   "decision": true,
+   "primary": 0.2375601926163724,
+   "blind": 0.2376,
+   "kind": "share_det",
+   "note": "",
+   "diff_num": 3.980738362760472e-05,
+   "diff": "+0.00pp",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  share of months since 1962",
+   "decision": true,
+   "primary": 0.510939510939511,
+   "blind": 0.5109,
+   "kind": "share_det",
+   "note": "",
+   "diff_num": -3.9510939510933873e-05,
+   "diff": "-0.00pp",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  share of months since 1871 at or under $300,000",
+   "decision": false,
+   "primary": 0.26270733012306047,
+   "blind": 0.2627,
+   "kind": "share_det",
+   "note": "",
+   "diff_num": -7.330123060478311e-06,
+   "diff": "-0.00pp",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  share of calendar years whose median is below today",
+   "decision": false,
+   "primary": 0.23076923076923078,
+   "blind": 0.2308,
+   "kind": "share_det",
+   "note": "",
+   "diff_num": 3.076923076922311e-05,
+   "diff": "+0.00pp",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  cheapest day ($110,214)",
+   "decision": true,
+   "primary": 110213.99480946996,
+   "blind": 110213.99,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.004809469959582202,
+   "diff": "-0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  cheapest day, date",
+   "decision": true,
+   "primary": "1981-09-30",
+   "blind": "1981-09-30",
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  cheapest month start since 1871 ($111,249)",
+   "decision": false,
+   "primary": 111248.75085606707,
+   "blind": 111248.75,
+   "kind": "usd_det",
+   "note": "blind monthly file, 1981-10-01; the blind report's 'lowest since 1871' ($110,214) is over every curve date, not month starts: spec wording (A3 ii), both builds give both figures",
+   "diff_num": -0.00085606706852559,
+   "diff": "-0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  highest day ($470,249, 4 Aug 2020)",
+   "decision": false,
+   "primary": 470249.2705687235,
+   "blind": 470249.27,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.0005687234806828201,
+   "diff": "-0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  flat-vs-full curve bias, median",
+   "decision": false,
+   "primary": 0.007589738174594185,
+   "blind": 0.00759,
+   "kind": "share_det",
+   "note": "",
+   "diff_num": 2.618254058154093e-07,
+   "diff": "+0.00pp",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  FRED vs Treasury file, largest difference",
+   "decision": false,
+   "primary": 0.0,
+   "blind": 0.0,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  share of days since 2000 at or under $300,000 (insight_v1 H17: 11.1%)",
+   "decision": false,
+   "primary": 0.11124401913875598,
+   "blind": 0.1112,
+   "kind": "share_det",
+   "note": "6688 days in the primary series",
+   "diff_num": -4.4019138755985177e-05,
+   "diff": "-0.00pp",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "m5.hist.start_years_all_payments_paid (windows with no payment short)",
+   "decision": true,
+   "primary": 149,
+   "blind": 149,
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  dearest ladder ($411k)",
+   "decision": true,
+   "primary": 411482.0,
+   "blind": 411482.210632344,
+   "kind": "usd_det",
+   "note": "primary: era table maximum",
+   "diff_num": 0.2106323440093547,
+   "diff": "+0.21 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  start years where the 2028 deposit finished the ladder",
+   "decision": true,
+   "primary": 112,
+   "blind": 112,
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  start years with the floor below $150k",
+   "decision": true,
+   "primary": 91,
+   "blind": 91,
+   "kind": "exact",
+   "note": "blind counts fund0 = 0, which is the same event (G < floor cost)",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "m5.hist.gift_median_usd",
+   "decision": true,
+   "primary": 131555.09357666713,
+   "blind": 131555.09357666713,
+   "kind": "usd_sum",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  gift p10",
+   "decision": true,
+   "primary": 66506.81978566451,
+   "blind": 66506.81978566451,
+   "kind": "usd_sum",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  gift worst",
+   "decision": true,
+   "primary": 29497.940449916587,
+   "blind": 29497.940449916587,
+   "kind": "usd_sum",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  gift worst start year",
+   "decision": true,
+   "primary": 2020,
+   "blind": 2020,
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  share of windows with the top reached",
+   "decision": false,
+   "primary": 0.959731543624161,
+   "blind": 0.959731543624161,
+   "kind": "share_det",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00pp",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "m5.today_yields.gift_worst_usd",
+   "decision": true,
+   "primary": 158969.38990081995,
+   "blind": 158969.3903155106,
+   "kind": "usd_sum",
+   "note": "",
+   "diff_num": 0.00041469064308330417,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  worst start year (fund bought the next year)",
+   "decision": true,
+   "primary": 1928,
+   "blind": 1928,
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  gift p10",
+   "decision": true,
+   "primary": 169055.5621072512,
+   "blind": 169055.56298826582,
+   "kind": "usd_sum",
+   "note": "",
+   "diff_num": 0.0008810146246105433,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  gift median",
+   "decision": true,
+   "primary": 175903.01661977218,
+   "blind": 175903.01781737193,
+   "kind": "usd_sum",
+   "note": "",
+   "diff_num": 0.001197599747683853,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  top reached",
+   "decision": true,
+   "primary": 0.8456375838926175,
+   "blind": 0.8456375838926175,
+   "kind": "share_det",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00pp",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  windows with the floor below $150k",
+   "decision": true,
+   "primary": 0,
+   "blind": 0,
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  check: fund0 at today's yields (numbers.yaml 40,736)",
+   "decision": true,
+   "primary": 40736.193940603116,
+   "blind": 40736.19582399976,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.0018833966460078955,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  era 1872-1913: median ladder cost / median gift / worst gift",
+   "decision": false,
+   "primary": "346,303 / 122,016 / 97,286",
+   "blind": "346,303 / 122,016 / 97,286",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  era 1914-1945: median ladder cost / median gift / worst gift",
+   "decision": false,
+   "primary": "356,228 / 110,715 / 46,879",
+   "blind": "356,228 / 110,715 / 46,879",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  era 1946-1981: median ladder cost / median gift / worst gift",
+   "decision": false,
+   "primary": "328,108 / 149,896 / 54,169",
+   "blind": "328,108 / 149,896 / 54,169",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  era 1982-2020: median ladder cost / median gift / worst gift",
+   "decision": false,
+   "primary": "301,211 / 168,310 / 29,498",
+   "blind": "301,211 / 168,310 / 29,498",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "m5.H9_reverified.rescaled_total_worst_usd (third computation, this script)",
+   "decision": true,
+   "primary": 168730.1484953716,
+   "blind": 168730.14936134103,
+   "kind": "usd_det",
+   "note": "blind M5 has no H9 row (not in M5_SPEC); recomputed here from annual_history.csv and the blind build's fund0",
+   "diff_num": 0.0008659694285597652,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  H9 raw total worst (blind per-window T33, U.S., 1928-2020)",
+   "decision": true,
+   "primary": 171524.62132525368,
+   "blind": 171524.6223,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.000974746304564178,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  H9 rescaled p10",
+   "decision": true,
+   "primary": 185123.63632925705,
+   "blind": 185123.6379531628,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.00162390575860627,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M5",
+   "key": "  H9 rescaled median",
+   "decision": true,
+   "primary": 214419.30225256702,
+   "blind": 214419.30523092824,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.0029783612117171288,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "m6.rec.mc_T33_median_usd",
+   "decision": true,
+   "primary": 206724.84118847502,
+   "blind": 206776.76348042343,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 51.922291948401835,
+   "diff": "+52 (+0.03%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  REC MC T33 p5",
+   "decision": true,
+   "primary": 181344.4804211519,
+   "blind": 181352.26423036752,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 7.783809215616202,
+   "diff": "+8 (+0.00%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  REC MC T33 p95",
+   "decision": true,
+   "primary": 251748.9296281339,
+   "blind": 252227.5860937488,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 478.65646561491303,
+   "diff": "+479 (+0.19%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  REC MC gift p5",
+   "decision": true,
+   "primary": 164589.23035461866,
+   "blind": 164578.96482672973,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": -10.265527888928773,
+   "diff": "-10 (-0.01%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  REC MC gift p50",
+   "decision": true,
+   "primary": 173982.2109996719,
+   "blind": 173997.56261219387,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 15.351612521975767,
+   "diff": "+15 (+0.01%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  REC MC payments short (share)",
+   "decision": true,
+   "primary": 0.0,
+   "blind": 0.0,
+   "kind": "prob_mc",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.000pp (0.0 SE)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "  REC certain by 2031",
+   "decision": true,
+   "primary": 150000.0,
+   "blind": 150000.0,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "m6.sixty_forty_whole.mc_payment_short",
+   "decision": true,
+   "primary": 0.01272,
+   "blind": 0.012505,
+   "kind": "prob_mc",
+   "note": "",
+   "diff_num": -0.0002149999999999999,
+   "diff": "-0.021pp (0.6 SE)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  60/40 history windows short (of 149)",
+   "decision": true,
+   "primary": 2,
+   "blind": 2,
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "  60/40 MC T33 p5",
+   "decision": true,
+   "primary": 53342.100398335395,
+   "blind": 53653.129868888595,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 311.02947055319964,
+   "diff": "+311 (+0.58%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  glide path 65->20 MC short",
+   "decision": true,
+   "primary": 0.0017,
+   "blind": 0.00179,
+   "kind": "prob_mc",
+   "note": "",
+   "diff_num": 9.000000000000002e-05,
+   "diff": "+0.009pp (0.7 SE)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  growth-first 75->40 MC short",
+   "decision": true,
+   "primary": 0.02235,
+   "blind": 0.022675,
+   "kind": "prob_mc",
+   "note": "",
+   "diff_num": 0.00032500000000000237,
+   "diff": "+0.033pp (0.7 SE)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  R1 MC T33 p5",
+   "decision": false,
+   "primary": 190798.8416743496,
+   "blind": 190892.21533201516,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 93.37365766556468,
+   "diff": "+93 (+0.05%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  R1 MC T33 p50",
+   "decision": false,
+   "primary": 202134.87980879465,
+   "blind": 202187.73864543927,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 52.85883664462017,
+   "diff": "+53 (+0.03%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  R1 MC T33 p95",
+   "decision": false,
+   "primary": 213299.43275036657,
+   "blind": 213316.75336108232,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 17.320610715745715,
+   "diff": "+17 (+0.01%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  R1 history windows short / T33 median",
+   "decision": false,
+   "primary": "0 / 131,555",
+   "blind": "0 / 131,555",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "  R3 MC T33 p5",
+   "decision": false,
+   "primary": 154246.34553916554,
+   "blind": 154134.95136344206,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": -111.39417572348611,
+   "diff": "-111 (-0.07%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  R3 MC T33 p50",
+   "decision": false,
+   "primary": 216300.36246744593,
+   "blind": 216348.6371394763,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 48.274672030383954,
+   "diff": "+48 (+0.02%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  R3 MC T33 p95",
+   "decision": false,
+   "primary": 306899.16343004507,
+   "blind": 307644.62067225063,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 745.4572422055644,
+   "diff": "+745 (+0.24%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  R3 history windows short / T33 median",
+   "decision": false,
+   "primary": "0 / 144,719",
+   "blind": "0 / 144,719",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "  R4 MC T33 p5",
+   "decision": false,
+   "primary": 87699.86065165972,
+   "blind": 87667.64796350646,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": -32.21268815326039,
+   "diff": "-32 (-0.04%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  R4 MC T33 p50",
+   "decision": false,
+   "primary": 233405.68646370637,
+   "blind": 232699.5445185819,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": -706.1419451244583,
+   "diff": "-706 (-0.30%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  R4 MC T33 p95",
+   "decision": false,
+   "primary": 434332.2910288572,
+   "blind": 434199.8173009838,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": -132.4737278733519,
+   "diff": "-132 (-0.03%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  R4 history windows short / T33 median",
+   "decision": false,
+   "primary": "3 / 180,302",
+   "blind": "3 / 180,302",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "  R4b MC T33 p5",
+   "decision": false,
+   "primary": 35897.949544170406,
+   "blind": 35675.290977150275,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": -222.65856702013116,
+   "diff": "-223 (-0.62%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  R4b MC T33 p50",
+   "decision": false,
+   "primary": 248637.69356778494,
+   "blind": 247845.02900998754,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": -792.6645577973977,
+   "diff": "-793 (-0.32%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  R4b MC T33 p95",
+   "decision": false,
+   "primary": 570794.2948621388,
+   "blind": 572492.9086167519,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 1698.6137546130922,
+   "diff": "+1,699 (+0.30%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  R4b history windows short / T33 median",
+   "decision": false,
+   "primary": "3 / 239,961",
+   "blind": "3 / 239,961",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "  R5 MC T33 p5",
+   "decision": false,
+   "primary": 153264.35676692848,
+   "blind": 153283.8292524732,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 19.47248554471298,
+   "diff": "+19 (+0.01%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  R5 MC T33 p50",
+   "decision": false,
+   "primary": 198870.99929192284,
+   "blind": 198892.41430588398,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 21.415013961144723,
+   "diff": "+21 (+0.01%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  R5 MC T33 p95",
+   "decision": false,
+   "primary": 408137.83441681304,
+   "blind": 411313.6641241777,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 3175.829707364668,
+   "diff": "+3,176 (+0.78%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  R5 history windows short / T33 median",
+   "decision": false,
+   "primary": "0 / 130,982",
+   "blind": "0 / 130,982",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "  R5m5 MC T33 p5",
+   "decision": false,
+   "primary": 123681.44208564555,
+   "blind": 123927.61459065958,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 246.17250501402305,
+   "diff": "+246 (+0.20%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  R5m5 MC T33 p50",
+   "decision": false,
+   "primary": 175563.58164177387,
+   "blind": 175380.60759001342,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": -182.9740517604514,
+   "diff": "-183 (-0.10%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  R5m5 MC T33 p95",
+   "decision": false,
+   "primary": 578087.2454936383,
+   "blind": 582972.22600538,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 4884.980511741713,
+   "diff": "+4,885 (+0.85%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  R5m5 history windows short / T33 median",
+   "decision": false,
+   "primary": "0 / 127,622",
+   "blind": "0 / 127,622",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "m6.H16_reverified.growth_first_short_deposit_75k",
+   "decision": true,
+   "primary": 0.10621,
+   "blind": 0.106825,
+   "kind": "prob_mc",
+   "note": "",
+   "diff_num": 0.0006150000000000044,
+   "diff": "+0.062pp (0.6 SE)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  H16 deposit $150k",
+   "decision": true,
+   "primary": 0.02235,
+   "blind": 0.022675,
+   "kind": "prob_mc",
+   "note": "",
+   "diff_num": 0.00032500000000000237,
+   "diff": "+0.033pp (0.7 SE)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  H16 deposit $0",
+   "decision": true,
+   "primary": 0.350855,
+   "blind": 0.35242,
+   "kind": "prob_mc",
+   "note": "",
+   "diff_num": 0.0015650000000000386,
+   "diff": "+0.157pp (1.0 SE)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "m6.cppi3.mc_floor_broken (T33 < $150k)",
+   "decision": true,
+   "primary": 0.01986,
+   "blind": 0.019584999999999964,
+   "kind": "prob_mc",
+   "note": "blind: 1 - promised_150k_met_share (same event); the blind's 'floor_broken_share' 1.60% is a different event (cushion negative at some 1 Jan 2028-32)",
+   "diff_num": -0.00027500000000003563,
+   "diff": "-0.028pp (0.6 SE)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  CPPI m=3 MC T33 median",
+   "decision": true,
+   "primary": 198870.99929192284,
+   "blind": 198892.41430588398,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 21.415013961144723,
+   "diff": "+21 (+0.01%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  CPPI m=5 MC $150k missed",
+   "decision": true,
+   "primary": 0.262485,
+   "blind": 0.26383999999999996,
+   "kind": "prob_mc",
+   "note": "",
+   "diff_num": 0.0013549999999999396,
+   "diff": "+0.135pp (1.0 SE)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  CPPI m=3 history: windows with T33 < $150k",
+   "decision": false,
+   "primary": 94,
+   "blind": 94,
+   "kind": "exact",
+   "note": "per-window primary CSV: 94. The committed summary said 1 (numpy-bool sum in an object column); fixed in m6_rivals.py at this gate",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "  CPPI m=5 history: windows with T33 < $150k",
+   "decision": false,
+   "primary": 106,
+   "blind": 106,
+   "kind": "exact",
+   "note": "per-window primary CSV: 106. The committed summary said 1 (numpy-bool sum in an object column); fixed in m6_rivals.py at this gate",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "m6.tips_ladder.mc_any_payment_short",
+   "decision": true,
+   "primary": 0.599635,
+   "blind": 0.599635,
+   "kind": "prob_mc",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.000pp (0.0 SE)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "  TIPS history paths short (of 140)",
+   "decision": true,
+   "primary": 92,
+   "blind": 92,
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "  TIPS MC total shortfall p95",
+   "decision": false,
+   "primary": 101936.62911518801,
+   "blind": 101936.62911518801,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0 (+0.00%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "  TIPS AR(1) phi",
+   "decision": false,
+   "primary": 0.741224,
+   "blind": 0.741224,
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "  TIPS ladder size needed for full delivery in 95% of paths (x; third computation)",
+   "decision": true,
+   "primary": 1.4260459978151907,
+   "blind": 1.4260459978151907,
+   "kind": "pct_mc",
+   "note": "blind build's own inflation paths (same seed and draw order by spec), scale = p95 of max_k 50,000 / paid_k",
+   "diff_num": 0.0,
+   "diff": "+0 (+0.00%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "  ... extra cost ($125k)",
+   "decision": true,
+   "primary": 124583.56545418219,
+   "blind": 124583.56545418219,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0 (+0.00%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "m6.fund_choice.gold_reit_spread_ratio (seed 20260930)",
+   "decision": true,
+   "primary": 0.8991778261111392,
+   "blind": 0.8999397570917864,
+   "kind": "ratio_mc",
+   "note": "",
+   "diff_num": 0.0007619309806472518,
+   "diff": "+0.0008",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  A4 MC gift p5 change",
+   "decision": true,
+   "primary": 1164.3658361894195,
+   "blind": 1150.4368593452964,
+   "kind": "pct_mc",
+   "note": "relative to VT's p5 ($165k): -0.01%",
+   "diff_num": -13.928976844123099,
+   "diff": "-14 (-1.20%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  A4 history p10 change",
+   "decision": true,
+   "primary": 1388.1709638962348,
+   "blind": 1388.1709638962348,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "  A4 history spread80 ratio",
+   "decision": true,
+   "primary": 0.798657,
+   "blind": 0.798657,
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "  A4 tests 1-3 on seed 20260930",
+   "decision": true,
+   "primary": true,
+   "blind": true,
+   "kind": "bool",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "  A4 spread test passed on 20 other seeds",
+   "decision": true,
+   "primary": 17,
+   "blind": 14,
+   "kind": "count_mc",
+   "note": "different seed sets (reference 20261930-49, blind 20260930-49); see the large-sample row",
+   "diff_num": -3.0,
+   "diff": "-3",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  A4 spread ratio without noise (100 seeds x 200k paths each build)",
+   "decision": true,
+   "primary": 0.8991099877700713,
+   "blind": 0.8991280994183714,
+   "kind": "ratio_mc",
+   "note": "se 0.0001; pooled 10M paths 0.8989 / 0.8992; passes the 0.90 bar on 80% / 85% of 200k-path seeds",
+   "diff_num": 1.8111648300012106e-05,
+   "diff": "+0.0000",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "M6",
+   "key": "  A1 tests 1-3 pass",
+   "decision": true,
+   "primary": false,
+   "blind": false,
+   "kind": "bool",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "  A2 tests 1-3 pass",
+   "decision": true,
+   "primary": false,
+   "blind": false,
+   "kind": "bool",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "  A3 tests 1-3 pass",
+   "decision": true,
+   "primary": false,
+   "blind": false,
+   "kind": "bool",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M6",
+   "key": "  final decision (all four alternatives)",
+   "decision": true,
+   "primary": "KEEP VT",
+   "blind": "KEEP VT",
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  history, all ten payments real total p5",
+   "decision": false,
+   "primary": 251912.67882063854,
+   "blind": 251912.67882063854,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  history, all ten payments real total p50",
+   "decision": false,
+   "primary": 387761.1659271933,
+   "blind": 387761.1659271933,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  history, all ten payments real total p95",
+   "decision": false,
+   "primary": 650011.7028848705,
+   "blind": 650011.7028848705,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "m7.threshold.floor_150k_holds_to_bp",
+   "decision": true,
+   "primary": 109.31704232961475,
+   "blind": 109.31704222402803,
+   "kind": "bp",
+   "note": "",
+   "diff_num": -1.0558672158822446e-07,
+   "diff": "-0.0000bp",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  top-up starts (numbers.yaml 26.2bp)",
+   "decision": true,
+   "primary": 26.196344556462375,
+   "blind": 26.1963445549723,
+   "kind": "bp",
+   "note": "",
+   "diff_num": -1.4900756184488273e-09,
+   "diff": "-0.0000bp",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  a payment unfunded",
+   "decision": true,
+   "primary": 428.4107572496356,
+   "blind": 428.4107572496781,
+   "kind": "bp",
+   "note": "",
+   "diff_num": 4.2518877307884395e-11,
+   "diff": "+0.0000bp",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "m7.stress.worst_gift_usd (S2b)",
+   "decision": true,
+   "primary": 147189.00596295256,
+   "blind": 147189.00596295256,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  S0 gift / real gift",
+   "decision": true,
+   "primary": "174,951.79 / 152,281.07",
+   "blind": "174,951.79 / 152,281.07",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  S1 gift / real gift",
+   "decision": true,
+   "primary": "175,371.69 / 110,092.98",
+   "blind": "175,371.69 / 110,092.98",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  S2 gift / real gift",
+   "decision": true,
+   "primary": "161,659.33 / 146,551.03",
+   "blind": "161,659.33 / 146,551.03",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  S2b gift / real gift",
+   "decision": true,
+   "primary": "147,189.01 / 133,433.07",
+   "blind": "147,189.01 / 133,433.07",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  S3 gift / real gift",
+   "decision": true,
+   "primary": "169,315.37 / 132,983.52",
+   "blind": "169,315.37 / 132,983.52",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  S3b gift / real gift",
+   "decision": true,
+   "primary": "181,896.86 / 142,865.26",
+   "blind": "181,896.86 / 142,865.26",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  S4a gift / real gift",
+   "decision": true,
+   "primary": "162,469.12 / 141,415.94",
+   "blind": "162,469.12 / 141,415.94",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  S4b gift / real gift",
+   "decision": true,
+   "primary": "176,468.91 / 153,601.59",
+   "blind": "176,468.91 / 153,601.59",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  S4c gift / real gift",
+   "decision": true,
+   "primary": "175,603.10 / 152,847.98",
+   "blind": "175,603.10 / 152,847.98",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  S4d gift / real gift",
+   "decision": true,
+   "primary": "184,237.66 / 160,363.65",
+   "blind": "184,237.66 / 160,363.65",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  S5 gift / real gift",
+   "decision": true,
+   "primary": "159,298.42 / 208,777.47",
+   "blind": "159,298.42 / 208,777.47",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  S6 gift / real gift",
+   "decision": true,
+   "primary": "164,301.51 / 143,010.88",
+   "blind": "164,301.51 / 143,010.88",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  S7 gift / real gift",
+   "decision": true,
+   "primary": "178,826.12 / 138,361.82",
+   "blind": "178,826.12 / 138,361.82",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  every scenario funds every payment",
+   "decision": true,
+   "primary": true,
+   "blind": true,
+   "kind": "bool",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "m7.downgrade_2011.dy_bp (FRED DGS10, 20 trading days)",
+   "decision": true,
+   "primary": -56.0,
+   "blind": -56.00000000000001,
+   "kind": "bp",
+   "note": "",
+   "diff_num": -7.105427357601002e-15,
+   "diff": "-0.0000bp",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  Fitch 2023",
+   "decision": true,
+   "primary": 7.0,
+   "blind": 7.000000000000001,
+   "kind": "bp",
+   "note": "",
+   "diff_num": 8.881784197001252e-16,
+   "diff": "+0.0000bp",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  Moody's 2025",
+   "decision": true,
+   "primary": 3.0,
+   "blind": 3.0,
+   "kind": "bp",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.0000bp",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  S4a ladder cost / fund0",
+   "decision": true,
+   "primary": "308,897.07 / 20,357.03",
+   "blind": "308,897.07 / 20,357.03",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "m7.real_value.pay_2042_breakeven_usd",
+   "decision": true,
+   "primary": 35341.81220051389,
+   "blind": 35341.81220051389,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  all ten at breakeven",
+   "decision": true,
+   "primary": 393053.0793644196,
+   "blind": 393053.0793644196,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  1970s path: 2042 payment",
+   "decision": true,
+   "primary": 18414.188159907066,
+   "blind": 18414.188159907066,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  1970s path: all ten",
+   "decision": true,
+   "primary": 226340.65937555785,
+   "blind": 226340.65937555785,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  history 2042 payment p5 / p50 / p95",
+   "decision": true,
+   "primary": "18,588.61 / 34,189.69 / 71,621.31",
+   "blind": "18,588.61 / 34,189.69 / 71,621.31",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "M7",
+   "key": "  H19 reproduced (2033 / 2042)",
+   "decision": true,
+   "primary": "42,063.26 / 33,681.25",
+   "blind": "42,063.26 / 33,681.25",
+   "kind": "text",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.certainty.share_months_as_cheap_since_1871.value",
+   "decision": true,
+   "primary": 0.2327,
+   "blind": 0.2327,
+   "kind": "share_det",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00pp",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.certainty.low_1981.usd",
+   "decision": true,
+   "primary": 110214.0,
+   "blind": 110213.99,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.00999999999476131,
+   "diff": "-0.01 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.backtest.hist.unfunded_windows.unfunded",
+   "decision": true,
+   "primary": 0,
+   "blind": 0,
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.backtest.hist.unfunded_windows.topups",
+   "decision": true,
+   "primary": 112,
+   "blind": 112,
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.backtest.hist.unfunded_windows.floor_below_150k",
+   "decision": true,
+   "primary": 91,
+   "blind": 91,
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.backtest.hist.unfunded_windows.ladder_cost_max",
+   "decision": true,
+   "primary": 411482.0,
+   "blind": 411482.210632344,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.2106323440093547,
+   "diff": "+0.21 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.backtest.hist.gift.worst",
+   "decision": true,
+   "primary": 29498.0,
+   "blind": 29497.940449916587,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.05955008341334178,
+   "diff": "-0.06 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.backtest.hist.gift.p10",
+   "decision": true,
+   "primary": 66507.0,
+   "blind": 66506.81978566451,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.18021433548710775,
+   "diff": "-0.18 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.backtest.hist.gift.median",
+   "decision": true,
+   "primary": 131555.0,
+   "blind": 131555.09357666713,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.09357666713185608,
+   "diff": "+0.09 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.backtest.today_yields.gift.worst",
+   "decision": true,
+   "primary": 158969.0,
+   "blind": 158969.3903155106,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.39031551059451886,
+   "diff": "+0.39 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.backtest.today_yields.gift.p10",
+   "decision": true,
+   "primary": 169056.0,
+   "blind": 169055.56298826582,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.43701173417503014,
+   "diff": "-0.44 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.backtest.today_yields.gift.median",
+   "decision": true,
+   "primary": 175903.0,
+   "blind": 175903.01781737193,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.017817371932324022,
+   "diff": "+0.02 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.backtest.today_yields.gift.top_reached",
+   "decision": true,
+   "primary": 0.846,
+   "blind": 0.8456375838926175,
+   "kind": "share_det",
+   "note": "",
+   "diff_num": -0.00036241610738252383,
+   "diff": "-0.04pp",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.backtest.H9_reverified.total_worst_raw",
+   "decision": true,
+   "primary": 171525.0,
+   "blind": 171524.6223,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.3777000000118278,
+   "diff": "-0.38 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.backtest.H9_reverified.total_worst_rescaled",
+   "decision": true,
+   "primary": 168730.0,
+   "blind": 168730.14936134103,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.14936134102754295,
+   "diff": "+0.15 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.backtest.H9_reverified.p10_rescaled",
+   "decision": true,
+   "primary": 185124.0,
+   "blind": 185123.6379531628,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.3620468371955212,
+   "diff": "-0.36 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.backtest.H9_reverified.median_rescaled",
+   "decision": true,
+   "primary": 214419.0,
+   "blind": 214419.30523092824,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.3052309282356873,
+   "diff": "+0.31 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.rec.mc_short",
+   "decision": true,
+   "primary": 0.0,
+   "blind": 0.0,
+   "kind": "prob_mc",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.000pp (0.0 SE)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.rec.mc_T33_p5",
+   "decision": true,
+   "primary": 181344.0,
+   "blind": 181352.26423036752,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 8.26423036752385,
+   "diff": "+8 (+0.00%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.rec.mc_T33_p50",
+   "decision": true,
+   "primary": 206725.0,
+   "blind": 206776.76348042343,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 51.76348042342579,
+   "diff": "+52 (+0.03%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.rec.mc_T33_p95",
+   "decision": true,
+   "primary": 251749.0,
+   "blind": 252227.5860937488,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 478.58609374880325,
+   "diff": "+479 (+0.19%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.rec.mc_certain31",
+   "decision": true,
+   "primary": 150000.0,
+   "blind": 150000.0,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0 (+0.00%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.rec.hist_short",
+   "decision": true,
+   "primary": "0/149",
+   "blind": "0/149",
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.rec.hist_T33_p10",
+   "decision": true,
+   "primary": 66507.0,
+   "blind": 66506.81978566451,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.18021433548710775,
+   "diff": "-0.18 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.rec.hist_T33_p50",
+   "decision": true,
+   "primary": 131555.0,
+   "blind": 131555.09357666713,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.09357666713185608,
+   "diff": "+0.09 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.rec.hist_T33_p90",
+   "decision": true,
+   "primary": 362797.0,
+   "blind": 362797.0161550348,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.01615503482753411,
+   "diff": "+0.02 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.rec.trades",
+   "decision": true,
+   "primary": 13,
+   "blind": 13,
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.all_treasury.mc_short",
+   "decision": true,
+   "primary": 0.0,
+   "blind": 0.0,
+   "kind": "prob_mc",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.000pp (0.0 SE)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.all_treasury.mc_T33_p5",
+   "decision": true,
+   "primary": 190799.0,
+   "blind": 190892.21533201516,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 93.21533201515558,
+   "diff": "+93 (+0.05%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.all_treasury.mc_T33_p50",
+   "decision": true,
+   "primary": 202135.0,
+   "blind": 202187.73864543927,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 52.73864543926902,
+   "diff": "+53 (+0.03%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.all_treasury.mc_T33_p95",
+   "decision": true,
+   "primary": 213299.0,
+   "blind": 213316.75336108232,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 17.753361082315678,
+   "diff": "+18 (+0.01%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.all_treasury.mc_certain31",
+   "decision": true,
+   "primary": 202135.0,
+   "blind": 202187.73864543927,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 52.73864543926902,
+   "diff": "+53 (+0.03%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.all_treasury.hist_short",
+   "decision": true,
+   "primary": "0/149",
+   "blind": "0/149",
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.all_treasury.hist_T33_p10",
+   "decision": true,
+   "primary": 66507.0,
+   "blind": 66506.81978566451,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.18021433548710775,
+   "diff": "-0.18 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.all_treasury.hist_T33_p50",
+   "decision": true,
+   "primary": 131555.0,
+   "blind": 131555.09357666713,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.09357666713185608,
+   "diff": "+0.09 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.all_treasury.hist_T33_p90",
+   "decision": true,
+   "primary": 303630.0,
+   "blind": 303629.8335567257,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.16644327429821715,
+   "diff": "-0.17 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.all_treasury.trades",
+   "decision": true,
+   "primary": 12,
+   "blind": 12,
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.sixty_forty.mc_short",
+   "decision": true,
+   "primary": 0.0127,
+   "blind": 0.012505,
+   "kind": "prob_mc",
+   "note": "",
+   "diff_num": -0.000194999999999999,
+   "diff": "-0.019pp (0.6 SE)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.sixty_forty.mc_T33_p5",
+   "decision": true,
+   "primary": 53342.0,
+   "blind": 53653.129868888595,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 311.1298688885945,
+   "diff": "+311 (+0.58%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.sixty_forty.mc_T33_p50",
+   "decision": true,
+   "primary": 245276.0,
+   "blind": 244729.57090819537,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": -546.4290918046318,
+   "diff": "-546 (-0.22%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.sixty_forty.mc_T33_p95",
+   "decision": true,
+   "primary": 526584.0,
+   "blind": 527953.481180975,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 1369.4811809749808,
+   "diff": "+1,369 (+0.26%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.sixty_forty.mc_certain31",
+   "decision": true,
+   "primary": 0.0,
+   "blind": 0.0,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0 (+0.00%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.sixty_forty.hist_short",
+   "decision": true,
+   "primary": "2/149",
+   "blind": "2/149",
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.sixty_forty.hist_T33_p10",
+   "decision": true,
+   "primary": 83431.0,
+   "blind": 83430.82888852604,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.17111147395917214,
+   "diff": "-0.17 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.sixty_forty.hist_T33_p50",
+   "decision": true,
+   "primary": 221833.0,
+   "blind": 221832.99800300726,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.0019969927379861474,
+   "diff": "-0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.sixty_forty.hist_T33_p90",
+   "decision": true,
+   "primary": 527149.0,
+   "blind": 527148.8368728099,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.16312719008419663,
+   "diff": "-0.16 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.sixty_forty.trades",
+   "decision": true,
+   "primary": 24,
+   "blind": 24,
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.ladder_6040.mc_short",
+   "decision": true,
+   "primary": 0.0,
+   "blind": 0.0,
+   "kind": "prob_mc",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.000pp (0.0 SE)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.ladder_6040.mc_T33_p5",
+   "decision": true,
+   "primary": 154246.0,
+   "blind": 154134.95136344206,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": -111.04863655794179,
+   "diff": "-111 (-0.07%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.ladder_6040.mc_T33_p50",
+   "decision": true,
+   "primary": 216300.0,
+   "blind": 216348.6371394763,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 48.63713947631186,
+   "diff": "+49 (+0.02%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.ladder_6040.mc_T33_p95",
+   "decision": true,
+   "primary": 306899.0,
+   "blind": 307644.62067225063,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 745.6206722506322,
+   "diff": "+746 (+0.24%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.ladder_6040.mc_certain31",
+   "decision": true,
+   "primary": 0.0,
+   "blind": 0.0,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0 (+0.00%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.ladder_6040.hist_short",
+   "decision": true,
+   "primary": "0/149",
+   "blind": "0/149",
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.ladder_6040.hist_T33_p10",
+   "decision": true,
+   "primary": 78789.0,
+   "blind": 78789.32476765352,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.3247676535247592,
+   "diff": "+0.32 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.ladder_6040.hist_T33_p50",
+   "decision": true,
+   "primary": 144719.0,
+   "blind": 144719.34895290373,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.3489529037324246,
+   "diff": "+0.35 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.ladder_6040.hist_T33_p90",
+   "decision": true,
+   "primary": 372289.0,
+   "blind": 372289.40313145536,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.40313145535765216,
+   "diff": "+0.40 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.ladder_6040.trades",
+   "decision": true,
+   "primary": 21,
+   "blind": 21,
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.glide.mc_short",
+   "decision": true,
+   "primary": 0.0017,
+   "blind": 0.00179,
+   "kind": "prob_mc",
+   "note": "",
+   "diff_num": 9.000000000000002e-05,
+   "diff": "+0.009pp (0.7 SE)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.glide.mc_T33_p5",
+   "decision": true,
+   "primary": 87700.0,
+   "blind": 87667.64796350646,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": -32.352036493539345,
+   "diff": "-32 (-0.04%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.glide.mc_T33_p50",
+   "decision": true,
+   "primary": 233406.0,
+   "blind": 232699.5445185819,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": -706.4554814180883,
+   "diff": "-706 (-0.30%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.glide.mc_T33_p95",
+   "decision": true,
+   "primary": 434332.0,
+   "blind": 434199.8173009838,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": -132.18269901617896,
+   "diff": "-132 (-0.03%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.glide.mc_certain31",
+   "decision": true,
+   "primary": 0.0,
+   "blind": 0.0,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0 (+0.00%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.glide.hist_short",
+   "decision": true,
+   "primary": "3/149",
+   "blind": "3/149",
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.glide.hist_T33_p10",
+   "decision": true,
+   "primary": 81714.0,
+   "blind": 81713.95507338161,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.044926618385943584,
+   "diff": "-0.04 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.glide.hist_T33_p50",
+   "decision": true,
+   "primary": 180302.0,
+   "blind": 180301.8572525271,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.14274747291347012,
+   "diff": "-0.14 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.glide.hist_T33_p90",
+   "decision": true,
+   "primary": 440016.0,
+   "blind": 440016.39800863987,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.39800863986602053,
+   "diff": "+0.40 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.glide.trades",
+   "decision": true,
+   "primary": 24,
+   "blind": 24,
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.growth_first.mc_short",
+   "decision": true,
+   "primary": 0.0223,
+   "blind": 0.022675,
+   "kind": "prob_mc",
+   "note": "",
+   "diff_num": 0.00037500000000000033,
+   "diff": "+0.038pp (0.8 SE)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.growth_first.mc_T33_p5",
+   "decision": true,
+   "primary": 35898.0,
+   "blind": 35675.290977150275,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": -222.70902284972544,
+   "diff": "-223 (-0.62%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.growth_first.mc_T33_p50",
+   "decision": true,
+   "primary": 248638.0,
+   "blind": 247845.02900998754,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": -792.9709900124581,
+   "diff": "-793 (-0.32%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.growth_first.mc_T33_p95",
+   "decision": true,
+   "primary": 570794.0,
+   "blind": 572492.9086167519,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 1698.908616751898,
+   "diff": "+1,699 (+0.30%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.growth_first.mc_certain31",
+   "decision": true,
+   "primary": 0.0,
+   "blind": 0.0,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0 (+0.00%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.growth_first.hist_short",
+   "decision": true,
+   "primary": "3/149",
+   "blind": "3/149",
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.growth_first.hist_T33_p10",
+   "decision": true,
+   "primary": 88461.0,
+   "blind": 88461.11903182289,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.11903182289097458,
+   "diff": "+0.12 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.growth_first.hist_T33_p50",
+   "decision": true,
+   "primary": 239961.0,
+   "blind": 239961.40454860363,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.40454860363388434,
+   "diff": "+0.40 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.growth_first.hist_T33_p90",
+   "decision": true,
+   "primary": 557699.0,
+   "blind": 557698.5331462928,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.4668537072138861,
+   "diff": "-0.47 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.growth_first.trades",
+   "decision": true,
+   "primary": 24,
+   "blind": 24,
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.cppi3.mc_short",
+   "decision": true,
+   "primary": 0.0,
+   "blind": 0.0,
+   "kind": "prob_mc",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.000pp (0.0 SE)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.cppi3.mc_T33_p5",
+   "decision": true,
+   "primary": 153264.0,
+   "blind": 153283.8292524732,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 19.829252473195083,
+   "diff": "+20 (+0.01%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.cppi3.mc_T33_p50",
+   "decision": true,
+   "primary": 198871.0,
+   "blind": 198892.41430588398,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 21.414305883983616,
+   "diff": "+21 (+0.01%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.cppi3.mc_T33_p95",
+   "decision": true,
+   "primary": 408138.0,
+   "blind": 411313.6641241777,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 3175.6641241777106,
+   "diff": "+3,176 (+0.78%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.cppi3.mc_certain31",
+   "decision": true,
+   "primary": 0.0,
+   "blind": 0.0,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0 (+0.00%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.cppi3.hist_short",
+   "decision": true,
+   "primary": "0/149",
+   "blind": "0/149",
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.cppi3.hist_T33_p10",
+   "decision": true,
+   "primary": 66389.0,
+   "blind": 66388.66582536284,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.33417463715886697,
+   "diff": "-0.33 (+0.001%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.cppi3.hist_T33_p50",
+   "decision": true,
+   "primary": 130982.0,
+   "blind": 130982.27463693102,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.27463693101890385,
+   "diff": "+0.27 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.cppi3.hist_T33_p90",
+   "decision": true,
+   "primary": 511595.0,
+   "blind": 511594.5066009246,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.4933990754070692,
+   "diff": "-0.49 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.cppi3.trades",
+   "decision": true,
+   "primary": 72,
+   "blind": 72,
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.cppi3.mc_floor_broken",
+   "decision": true,
+   "primary": 0.0199,
+   "blind": 0.019584999999999964,
+   "kind": "prob_mc",
+   "note": "",
+   "diff_num": -0.00031500000000003747,
+   "diff": "-0.032pp (0.7 SE)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.cppi5.mc_short",
+   "decision": true,
+   "primary": 0.0001,
+   "blind": 5.5e-05,
+   "kind": "prob_mc",
+   "note": "",
+   "diff_num": -4.5e-05,
+   "diff": "-0.005pp (1.6 SE)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.cppi5.mc_T33_p5",
+   "decision": true,
+   "primary": 123681.0,
+   "blind": 123927.61459065958,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 246.61459065957752,
+   "diff": "+247 (+0.20%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.cppi5.mc_T33_p50",
+   "decision": true,
+   "primary": 175564.0,
+   "blind": 175380.60759001342,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": -183.39240998658352,
+   "diff": "-183 (-0.10%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.cppi5.mc_T33_p95",
+   "decision": true,
+   "primary": 578087.0,
+   "blind": 582972.22600538,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 4885.226005380042,
+   "diff": "+4,885 (+0.85%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.cppi5.mc_certain31",
+   "decision": true,
+   "primary": 0.0,
+   "blind": 0.0,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0 (+0.00%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.cppi5.hist_short",
+   "decision": true,
+   "primary": "0/149",
+   "blind": "0/149",
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.cppi5.hist_T33_p10",
+   "decision": true,
+   "primary": 66389.0,
+   "blind": 66388.66582536284,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.33417463715886697,
+   "diff": "-0.33 (+0.001%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.cppi5.hist_T33_p50",
+   "decision": true,
+   "primary": 127622.0,
+   "blind": 127621.50260799442,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.4973920055781491,
+   "diff": "-0.50 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.cppi5.hist_T33_p90",
+   "decision": true,
+   "primary": 577738.0,
+   "blind": 577737.9441510332,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.05584896681830287,
+   "diff": "-0.06 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.cppi5.trades",
+   "decision": true,
+   "primary": 72,
+   "blind": 72,
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.cppi5.mc_floor_broken",
+   "decision": true,
+   "primary": 0.2625,
+   "blind": 0.26383999999999996,
+   "kind": "prob_mc",
+   "note": "",
+   "diff_num": 0.0013399999999999523,
+   "diff": "+0.134pp (1.0 SE)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.tips_ladder.mc_p_any_short",
+   "decision": true,
+   "primary": 0.6,
+   "blind": 0.599635,
+   "kind": "prob_mc",
+   "note": "",
+   "diff_num": -0.0003649999999999487,
+   "diff": "-0.036pp (0.2 SE)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.tips_ladder.hist_short",
+   "decision": true,
+   "primary": "92/140",
+   "blind": "92/140",
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.H16_reverified.deposit_150k",
+   "decision": true,
+   "primary": 0.0223,
+   "blind": 0.022675,
+   "kind": "prob_mc",
+   "note": "",
+   "diff_num": 0.00037500000000000033,
+   "diff": "+0.038pp (0.8 SE)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.H16_reverified.deposit_75k",
+   "decision": true,
+   "primary": 0.1062,
+   "blind": 0.106825,
+   "kind": "prob_mc",
+   "note": "",
+   "diff_num": 0.0006250000000000006,
+   "diff": "+0.063pp (0.6 SE)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.rivals.H16_reverified.deposit_0",
+   "decision": true,
+   "primary": 0.3509,
+   "blind": 0.35242,
+   "kind": "prob_mc",
+   "note": "",
+   "diff_num": 0.0015200000000000213,
+   "diff": "+0.152pp (1.0 SE)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.fund_choice.decision",
+   "decision": true,
+   "primary": "KEEP VT",
+   "blind": "KEEP VT",
+   "kind": "exact",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.fund_choice.gold_reit_mc_p5_change",
+   "decision": true,
+   "primary": 1164.0,
+   "blind": 1150.4368593452964,
+   "kind": "pct_mc",
+   "note": "",
+   "diff_num": -13.563140654703602,
+   "diff": "-14 (-1.17%)",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.fund_choice.gold_reit_spread_ratio",
+   "decision": true,
+   "primary": 0.8992,
+   "blind": 0.8999397570917864,
+   "kind": "ratio_mc",
+   "note": "",
+   "diff_num": 0.0007397570917864194,
+   "diff": "+0.0007",
+   "verdict": "MC NOISE"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.thresholds_bp.topup_starts",
+   "decision": true,
+   "primary": 26.2,
+   "blind": 26.2,
+   "kind": "bp",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.0000bp",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.thresholds_bp.fund_used_up",
+   "decision": true,
+   "primary": 109.3,
+   "blind": 109.3,
+   "kind": "bp",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.0000bp",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.thresholds_bp.payment_unfunded",
+   "decision": true,
+   "primary": 428.4,
+   "blind": 428.4,
+   "kind": "bp",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.0000bp",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S1.gift",
+   "decision": true,
+   "primary": 175372.0,
+   "blind": 175371.6911449704,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.3088550296088215,
+   "diff": "-0.31 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S1.real_gift",
+   "decision": true,
+   "primary": 110093.0,
+   "blind": 110092.98183005539,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.018169944611145183,
+   "diff": "-0.02 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S1.floor",
+   "decision": true,
+   "primary": 150000.0,
+   "blind": 150000.0,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S1.payments_funded",
+   "decision": true,
+   "primary": true,
+   "blind": true,
+   "kind": "bool",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S2.gift",
+   "decision": true,
+   "primary": 161659.0,
+   "blind": 161659.32847612147,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.3284761214745231,
+   "diff": "+0.33 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S2.real_gift",
+   "decision": true,
+   "primary": 146551.0,
+   "blind": 146551.02881822817,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.028818228165619075,
+   "diff": "+0.03 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S2.floor",
+   "decision": true,
+   "primary": 150000.0,
+   "blind": 150000.0,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S2.payments_funded",
+   "decision": true,
+   "primary": true,
+   "blind": true,
+   "kind": "bool",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S3.gift",
+   "decision": true,
+   "primary": 169315.0,
+   "blind": 169315.37076833026,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.3707683302636724,
+   "diff": "+0.37 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S3.real_gift",
+   "decision": true,
+   "primary": 132984.0,
+   "blind": 132983.5175153369,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.48248466310906224,
+   "diff": "-0.48 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S3.floor",
+   "decision": true,
+   "primary": 150000.0,
+   "blind": 150000.0,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S3.payments_funded",
+   "decision": true,
+   "primary": true,
+   "blind": true,
+   "kind": "bool",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S4a.gift",
+   "decision": true,
+   "primary": 162469.0,
+   "blind": 162469.1198988757,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.1198988757096231,
+   "diff": "+0.12 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S4a.real_gift",
+   "decision": true,
+   "primary": 141416.0,
+   "blind": 141415.93590367874,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.0640963212645147,
+   "diff": "-0.06 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S4a.floor",
+   "decision": true,
+   "primary": 150000.0,
+   "blind": 150000.0,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S4a.payments_funded",
+   "decision": true,
+   "primary": true,
+   "blind": true,
+   "kind": "bool",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S5.gift",
+   "decision": true,
+   "primary": 159298.0,
+   "blind": 159298.42475175895,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.42475175895378925,
+   "diff": "+0.42 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S5.real_gift",
+   "decision": true,
+   "primary": 208777.0,
+   "blind": 208777.4739746306,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.47397463058587164,
+   "diff": "+0.47 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S5.floor",
+   "decision": true,
+   "primary": 150000.0,
+   "blind": 150000.0,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S5.payments_funded",
+   "decision": true,
+   "primary": true,
+   "blind": true,
+   "kind": "bool",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S6.gift",
+   "decision": true,
+   "primary": 164302.0,
+   "blind": 164301.50585527736,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.4941447226447053,
+   "diff": "-0.49 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S6.real_gift",
+   "decision": true,
+   "primary": 143011.0,
+   "blind": 143010.87637681345,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.12362318654777482,
+   "diff": "-0.12 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S6.floor",
+   "decision": true,
+   "primary": 150000.0,
+   "blind": 150000.0,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.stress.S6.payments_funded",
+   "decision": true,
+   "primary": true,
+   "blind": true,
+   "kind": "bool",
+   "note": "",
+   "diff": "same",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.real_value.breakeven.pay_2033",
+   "decision": true,
+   "primary": 43521.0,
+   "blind": 43520.86599339587,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.13400660413026344,
+   "diff": "-0.13 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.real_value.breakeven.pay_2042",
+   "decision": true,
+   "primary": 35342.0,
+   "blind": 35341.81220051389,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.18779948611336295,
+   "diff": "-0.19 (+0.001%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.real_value.breakeven.all_ten",
+   "decision": true,
+   "primary": 393053.0,
+   "blind": 393053.0793644196,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.07936441962374374,
+   "diff": "+0.08 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.real_value.1970s.pay_2042",
+   "decision": true,
+   "primary": 18414.0,
+   "blind": 18414.188159907066,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.18815990706571029,
+   "diff": "+0.19 (+0.001%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.real_value.1970s.all_ten",
+   "decision": true,
+   "primary": 226341.0,
+   "blind": 226340.65937555785,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.34062444214941934,
+   "diff": "-0.34 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.real_value.history_2042.p5",
+   "decision": true,
+   "primary": 18589.0,
+   "blind": 18588.610225579057,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.3897744209425582,
+   "diff": "-0.39 (+0.002%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.real_value.history_2042.p50",
+   "decision": true,
+   "primary": 34190.0,
+   "blind": 34189.6877571909,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": -0.3122428091010079,
+   "diff": "-0.31 (+0.001%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.real_value.history_2042.p95",
+   "decision": true,
+   "primary": 71621.0,
+   "blind": 71621.31069976074,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.3106997607392259,
+   "diff": "+0.31 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.real_value.H19_reverified.2033",
+   "decision": true,
+   "primary": 42063.26175417096,
+   "blind": 42063.26175417096,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  },
+  {
+   "section": "proposed",
+   "key": "ws3.real_value.H19_reverified.2042",
+   "decision": true,
+   "primary": 33681.2466750725,
+   "blind": 33681.2466750725,
+   "kind": "usd_det",
+   "note": "",
+   "diff_num": 0.0,
+   "diff": "+0.00 (+0.000%)",
+   "verdict": "MATCH"
+  }
+ ],
+ "numbers_yaml_sha256": "492ed3203958a93ddd3fd7345dcc41e46dd93c9e67f9c2adec1ca63a0771f638"
+}

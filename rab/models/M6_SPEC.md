@@ -135,3 +135,20 @@ probabilities within 2pp, with any seed; decisions of the switch rule identical.
 No fees, taxes or commissions (except as trade counts). i.i.d. annual lognormal returns in the MC lens (no fat tails;
 WS2's M3 has them). The JPM equity assumptions are dated 30 Sep 2025. The bond proxy is an intermediate fund, not the
 WInS book. The TIPS ladder cost is assumed equal to the nominal ladder's. REIT history before 2009 is not available here.
+
+## 9. Changelog
+
+- **2026-09-30, Gate B (`rab/gates/gate_B_ws3.md`)**. These are clarifications only. The switch rule in s5 is unchanged.
+  - R5 "floor broken" means T33 < 150,000 on 1 Jan 2033, i.e. the $150,000 promise is missed. MC: 1.99% (reference)
+    against 1.96% (blind). A negative cushion at some 1 Jan 2028-32 is a different, secondary statistic (blind 1.60%).
+    In the history lens the promise is missed in 94 (m = 3) and 106 (m = 5) of 149 windows. The reference summary
+    had read 1 because of a counting bug, fixed at Gate B. At history's yields REC's own floor is below $150,000 in
+    91 of 149 windows, so only the MC lens separates the two.
+  - R6 `unfunded` = at least one of the ten payments is paid below $50,000.
+  - s5/s7 robustness: the spec did not fix the other seeds. The reference build used 20261930-20261949 and the blind
+    build used 20260930-20260949. With the noise removed, A4's spread90 ratio is 0.8991 in both builds (100 seeds x
+    200,000 paths). The s7 outcome therefore depends on the path count: at 200,000 paths A4 passes on about 80-85% of
+    seeds, so it is "not robust". A future rerun should keep 200,000 paths and 20 seeds, or report the noise-free
+    ratio next to the seed count.
+  - `fund_choice_decision.csv` now records the rule's final output (`final`, after s7), next to the base-seed test
+    (`decision_seed_20260930`).

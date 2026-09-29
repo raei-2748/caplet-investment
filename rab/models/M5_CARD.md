@@ -55,3 +55,5 @@ known to within about 26bp).
 | IPS "about $460,000 at 2020 yields", "cheapest since 2002", "every Treasury curve since 2000": rebuilt with independent code, identical | ignore (supports the IPS) |
 | The $150,000 bottom is certain only once the floor is bought (Jan 2028); in 91 of 149 historical start years it came out lower. If the IPS states the bottom without that condition, add it ("certain by construction if the 2028 deposit arrives and yields have not fallen more than about 1 point first", M7 threshold 109bp) | fix-before-6-Nov (wording only, if absent) |
 | "Only about one month in four since 1871 was as cheap" is a stronger, checked line than "cheapest since 2002" | note-in-Final-Report (optional) |
+
+**Gate B (30 Sep 2026).** A blind rebuild from `M5_SPEC.md` reproduces every M5 number to the cent: 17,262 curve dates, 894 start-year windows and every summary. H9 was recomputed a third way and also matches. Record: `rab/gates/gate_B_ws3.md`.

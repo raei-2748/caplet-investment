@@ -31,8 +31,10 @@ def main():
     m5 = json.load(open(os.path.join(R, "M5", "M5_results.json")))
     m6 = json.load(open(os.path.join(R, "M6", "M6_results.json")))
     m7 = json.load(open(os.path.join(R, "M7", "M7_results.json")))
-    S5 = pd.read_csv(os.path.join(R, "M5", "backtest_summary.csv")).set_index(["view", "fund"])
-    S6 = pd.read_csv(os.path.join(R, "M6", "rivals_summary.csv")).set_index("rival")
+    # Gate B fix: summaries come from the JSON (full precision). The CSVs are written with 2 decimals, which had turned
+    # probabilities such as the glide path's 0.17% into 0.0 and 60/40's 1.27% into 0.01.
+    S5 = pd.DataFrame(m5["part_b_summary"]).set_index(["view", "fund"])
+    S6 = pd.DataFrame(m6["summary"]).set_index("rival")
     T7 = pd.read_csv(os.path.join(R, "M7", "stress_table.csv")).set_index("id")
     P7 = pd.read_csv(os.path.join(R, "M7", "real_value_paths.csv")).set_index("path")
     HD = pd.read_csv(os.path.join(R, "M7", "real_value_history_distribution.csv")).set_index("payment")
@@ -99,21 +101,32 @@ def main():
         "rab/results/M6/M6_results.json tips")
     h16 = m6["h16_reverified"]
     out["ws3.rivals.H16_reverified"] = entry(
-        dict(deposit_150k=r0(h16["deposit_150000"], 3), deposit_75k=r0(h16["deposit_75000"], 3),
-             deposit_0=r0(h16["deposit_0"], 3)), "probability",
+        dict(deposit_150k=r0(h16["deposit_150000"], 4), deposit_75k=r0(h16["deposit_75000"], 4),
+             deposit_0=r0(h16["deposit_0"], 4)), "probability",
         "a growth-first plan misses a payment in about 1 path in 45 (1 in 10 if the 2028 deposit is halved)",
         "model", "MODEL", M6m, "rab/results/M6/M6_results.json h16_reverified",
         note="Supersedes ref.H16 (3.2% / 13.7% / 40.8%, old engine with 4.00% bonds).")
     dec = pd.read_csv(os.path.join(R, "M6", "fund_choice_decision.csv"))
     rob = m6["fund_robustness"]["mc"]["A4"]
+    finals = dec.set_index("fund")["final"]
+    decision = "KEEP VT" if all(str(f).startswith("KEEP VT") for f in finals) else "SWITCH: " + ", ".join(
+        f for f, v in finals.items() if not str(v).startswith("KEEP VT"))
+    gb = os.path.join(H.WT, "rab", "verification", "gateB_ws3", "gateB_ws3_mc_precision.json")
+    gbn = ""
+    if os.path.exists(gb):
+        g = json.load(open(gb))
+        gbn = (f" Gate B (rab/gates/gate_B_ws3.md): without seed noise the ratio is {g['reference']['ratio_mean']:.4f} "
+               f"(reference sampler) and {g['blind']['ratio_mean']:.4f} (blind sampler), 100 seeds x 200,000 paths each: "
+               f"just under the bar, so at the spec's 200,000 paths the spread test passes on about "
+               f"{g['reference']['share_seeds_ratio_le_090']:.0%} of seeds, not all of them.")
     out["ws3.fund_choice"] = entry(
-        dict(decision="KEEP VT", gold_reit_mc_p5_change=r0(dec.set_index("fund").loc["A4", "mc_p5_change"]),
+        dict(decision=decision, gold_reit_mc_p5_change=r0(dec.set_index("fund").loc["A4", "mc_p5_change"]),
              gold_reit_spread_ratio=r0(dec.set_index("fund").loc["A4", "mc_spread90_ratio"], 4),
              gold_reit_spread_test_seeds=f"{rob['c1b']}/20"), "USD / ratio",
         "none of four alternatives to VT moves the bad-case gift by more than about $1,500", "laura_plan", "MODEL",
         M6m + " section 5", "rab/results/M6/fund_choice_decision.csv; M6_results.json fund_robustness",
         note="Gold/REIT passes the number tests on the base seed only at the threshold (spread ratio 0.899 vs 0.90) and "
-             "on 17 of 20 other seeds: not robust under M6_SPEC s7, so VT stays.")
+             f"on {rob['c1b']} of 20 other seeds: not robust under M6_SPEC s7, so VT stays." + gbn)
     th = m7["thresholds"]
     M7m = "rab/models/M7_SPEC.md"
     out["ws3.stress.thresholds_bp"] = entry(
