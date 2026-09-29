@@ -8,6 +8,91 @@
   "portfolio_snapshot": "rab/data/sheet/Portfolio_values_2026-09-30T0030AEST.csv",
   "method": "rab/models/M1_METHOD.md"
  },
+ "headline": {
+  "basis": "nov15: 15 Nov 2032 ... 15 Nov 2041, the STRIPS maturities that fund the 1 Jan payments (A5, A6)",
+  "curve_date": "2026-09-28",
+  "pv_ten_payments_usd": 289119.2,
+  "cost_2027_usd": 292418.11,
+  "headroom_2027_usd": 7581.89,
+  "breakeven_fall_bp": 26.2,
+  "secondary_exact_basis": {
+   "pv_usd": 287016.47,
+   "fwd_2027_usd": 290291.38,
+   "note": "liability value on the payment dates themselves; no WInS or STRIPS instrument matures on 1 Jan, so this is not a buyable cost"
+  },
+  "book_price_set": "close_0928",
+  "book_total_cost_usd": 294764.5,
+  "book_commissions_usd": 200,
+  "book_cash_left_usd": 5235.5,
+  "book_holdings": [
+   {
+    "ticker": "IBTM",
+    "quantity": 4486,
+    "price": 21.76,
+    "cost_usd": 97640.36
+   },
+   {
+    "ticker": "IBTO",
+    "quantity": 1016,
+    "price": 23.02,
+    "cost_usd": 23413.32
+   },
+   {
+    "ticker": "IBTP",
+    "quantity": 921,
+    "price": 24.1,
+    "cost_usd": 22221.1
+   },
+   {
+    "ticker": "IBTQ",
+    "quantity": 886,
+    "price": 23.7,
+    "cost_usd": 21023.2
+   },
+   {
+    "ticker": "IBTR",
+    "quantity": 846,
+    "price": 23.49,
+    "cost_usd": 19897.54
+   },
+   {
+    "ticker": "T 4.750% 15-Feb-2037",
+    "quantity": 20000,
+    "price": 97.712,
+    "cost_usd": 19552.4
+   },
+   {
+    "ticker": "T 4.500% 15-May-2038",
+    "quantity": 19000,
+    "price": 94.811,
+    "cost_usd": 18024.09
+   },
+   {
+    "ticker": "T 4.375% 15-Nov-2039",
+    "quantity": 18000,
+    "price": 92.969,
+    "cost_usd": 16744.42
+   },
+   {
+    "ticker": "T 4.250% 15-Nov-2040",
+    "quantity": 17000,
+    "price": 90.75800000000001,
+    "cost_usd": 15438.86
+   },
+   {
+    "ticker": "T 3.125% 15-Nov-2041",
+    "quantity": 19000,
+    "price": 77.52300000000001,
+    "cost_usd": 14739.37
+   },
+   {
+    "ticker": "VT",
+    "quantity": 164,
+    "price": 158.81,
+    "cost_usd": 26069.84
+   }
+  ]
+ },
  "A": {
   "curve_date": "2026-09-28",
   "par_yields_pct": {

@@ -78,3 +78,5 @@ M1 ladder pricer | curve: U.S. Treasury Daily Par Yield Curve 2026-09-28 (https:
     exact spot    : today $287,016; 2020 median $457,976 (min $406,898, max $469,597 on 2020-08-04); highest $469,597 on 2020-08-04; last day as cheap as today: 2002-05-28; <= $300k on 12.1% of days since 2000 (35.4% since 1990)
     exact fwd_2027: today $290,291; 2020 median $458,107 (min $408,557, max $469,731 on 2020-08-04); highest $469,731 on 2020-08-04; last day as cheap as today: 2002-06-10; <= $300k on 10.9% of days since 2000 (34.2% since 1990)
     exact deposit check (gap bigger than the whole 2028 deposit): 183 of 6688 days since 2000, years [2020]; worst 2020-08-04 $19,935 (2027 dollars)
+
+[A6 HEADLINE] ten payments $289,119.20 on 2026-09-28 (Nov-15 STRIPS basis, the IPS '$289k'); $292,418.11 on 1 Jan 2027 (headroom $7,581.89, 26.20bp). Secondary: exact-date liability value $287,016.47. WInS book (Portfolio tab, close_0928) $294,764.50 incl. $200 commissions; cash left $5,235.50

@@ -70,6 +70,14 @@ STRIPS that would fund them): 15 November of the year before each payment (15 No
 **A5. Laura's real ladder is a STRIPS ladder** (zero-coupon, Nov-15 basis): no coupon reinvestment; each $50,000 waits
 47 days (15 Nov to 1 Jan) in cash.
 
+**A6. Headline (added 30 Sep 2026 at Gate A; changes no number).** The headline "cost of the ten payments" is the
+**Nov-15 basis**: spot V0 at D, and V_A on 1 January 2027 against the $300,000 deposit, with its headroom and
+break-even fall. Reason: A5. No Treasury or STRIPS matures on 1 January, so the exact-date value is the liability's
+value, not a price anyone can pay; it is always a little lower, because each payment is discounted 47 days longer.
+The IPS "$289k" and the section G history lines ("about $460,000 at 2020 yields") are on this basis. Always report
+the exact basis too, labelled "exact basis (payment dates; not buyable)". Any one-number summary field
+(e.g. `pv_ten_payments_usd`) is the Nov-15 spot V0.
+
 ## B. Cost of the WInS book
 
 **B1. Book cost** for a list of holdings h with quantity q_h and price P_h:
@@ -102,6 +110,12 @@ T 3.125% 15-Nov-2041, VT). `Book L`: the ten ladder holdings and sizes in I4.
 each Treasury's value scales by Dirty_model(b) / Dirty_model(0) (section C step 2); each iBond ETF's value scales by
 model NAV(b) / model NAV(0) (section D); VT is unchanged. Report the fall in yields (positive bp) at which cost
 reaches $300,000, and at which cash left falls below $1,000 (solve to 0.01bp).
+
+**B6. Headline (added 30 Sep 2026 at Gate A; changes no number).** The headline WInS book cost is the `Portfolio`
+tab (B2) at `close_0928` prices, commissions included; per holding, cost_usd = value_h + its commission, and the
+reported price is the ETF price per share or the bond's dirty price per $100 (clean + recorded accrued). The other
+price sets and Book L are secondary and are always named. Book L's cost at a price set already includes its $175
+of commissions; do not add them again.
 
 ## C. Yield check of WInS bond prices
 
@@ -152,7 +166,8 @@ Portfolio tab: V_h(r) / V_h(curve) per rung (the Portfolio rungs are Book L rung
 With V_A (exact basis) from A3: leftover = 300,000 - V_A. On 2 January 2028: ladder = V0 / DF(1 Jan 2028);
 growth money G = leftover x (1 + y1) + 150,000; floor = 150,000 / (1 + y5)^5; stock fund = G - floor;
 total = ladder + G. y1, y5 = the 1-year and 5-year par yields of the reference curve (annual compounding, as E6).
-Shares: ladder / total, floor / total, stock fund / total. Also report on the Nov-15 basis.
+Shares: ladder / total, floor / total, stock fund / total. Also report on the Nov-15 basis. (F keeps E6's exact basis
+first because the `Portfolio` tab's typed split came from E6 on that basis; this is a comparison, not the A6 headline.)
 
 ## G. History ("cheapest since", "2020 yields")
 
@@ -163,11 +178,23 @@ and on the exact basis. Report: the 2020 median, minimum and maximum; the maximu
 share of days with V_A <= 300,000 (since 2000 and since 1990); and the last date before D with a value at or below
 the value on D ("the cheapest since ..."). Deposit check (as the rescued script): unfunded part on day d =
 max(0, V_A(d) - 300,000 - 150,000 x DF_d(A_d + 365 days) / DF_d(A_d)); count the days with a positive value.
+The share of days with V0 <= 300,000 may also be reported, but only named as such. The two answer different
+questions: V0 asks "would $300,000 in hand that day have bought all ten payments?"; V_A asks "would the ladder have
+cost at most $300,000 on the day the deposit arrives?". Never quote one under the other's name.
+Headline history figures are on the Nov-15 basis (A6).
 
 ## Tolerances and gate
 
 Gate A: the blind builder's A3 values (both bases, spot and forward) and B1 costs agree with the reference to $1.
 Yields in C to 0.5bp. E and G to $100 and to the same dates. A difference is explained, never averaged.
+Compare like with like: both bases in A3 separately, not just two one-number summaries. A summary field compared
+across builders must use the A6/B6 definitions.
+
+## Changelog
+
+- 30 Sep 2026 (Gate A reconciliation, `rab/verification/gateA_reconciliation.md`): added A6 (headline basis),
+  B6 (headline book cost), the V0 vs V_A naming rule in G, the F basis note, and the like-with-like rule above.
+  These are clarifications only: no formula changed and no number moved. The blind build (d0e4ac5) predates them.
 
 ## Known limits (state them wherever the numbers are used)
 

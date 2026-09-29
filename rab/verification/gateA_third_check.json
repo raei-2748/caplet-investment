@@ -1,0 +1,170 @@
+{
+ "curve_date": "2026-09-28",
+ "A": {
+  "nov15": {
+   "spot": 289119.2036498361,
+   "fwd_2027": 292418.11180074257,
+   "fwd_2028": 306524.6457284812,
+   "headroom_2027": 7581.888199257432,
+   "breakeven_fall_bp": 26.196344569325447
+  },
+  "exact": {
+   "spot": 287016.4664097238,
+   "fwd_2027": 290291.3819066209,
+   "fwd_2028": 304295.3203172015,
+   "headroom_2027": 9708.618093379075,
+   "breakeven_fall_bp": 33.216626569628716
+  }
+ },
+ "B": {
+  "portfolio_close_0928": {
+   "holdings": [
+    {
+     "ticker": "IBTM",
+     "quantity": 4486.0,
+     "price": 21.76,
+     "value": 97615.36,
+     "commission": 25.0,
+     "cost_usd": 97640.36
+    },
+    {
+     "ticker": "IBTO",
+     "quantity": 1016.0,
+     "price": 23.02,
+     "value": 23388.32,
+     "commission": 25.0,
+     "cost_usd": 23413.32
+    },
+    {
+     "ticker": "IBTP",
+     "quantity": 921.0,
+     "price": 24.1,
+     "value": 22196.100000000002,
+     "commission": 25.0,
+     "cost_usd": 22221.100000000002
+    },
+    {
+     "ticker": "IBTQ",
+     "quantity": 886.0,
+     "price": 23.7,
+     "value": 20998.2,
+     "commission": 25.0,
+     "cost_usd": 21023.2
+    },
+    {
+     "ticker": "IBTR",
+     "quantity": 846.0,
+     "price": 23.49,
+     "value": 19872.539999999997,
+     "commission": 25.0,
+     "cost_usd": 19897.539999999997
+    },
+    {
+     "ticker": "T 4.750% 15-Feb-2037",
+     "quantity": 20000.0,
+     "price": 97.712,
+     "value": 19542.4,
+     "commission": 10.0,
+     "cost_usd": 19552.4
+    },
+    {
+     "ticker": "T 4.500% 15-May-2038",
+     "quantity": 19000.0,
+     "price": 94.811,
+     "value": 18014.090000000004,
+     "commission": 10.0,
+     "cost_usd": 18024.090000000004
+    },
+    {
+     "ticker": "T 4.375% 15-Nov-2039",
+     "quantity": 18000.0,
+     "price": 92.969,
+     "value": 16734.42,
+     "commission": 10.0,
+     "cost_usd": 16744.42
+    },
+    {
+     "ticker": "T 4.250% 15-Nov-2040",
+     "quantity": 17000.0,
+     "price": 90.75800000000001,
+     "value": 15428.860000000002,
+     "commission": 10.0,
+     "cost_usd": 15438.860000000002
+    },
+    {
+     "ticker": "T 3.125% 15-Nov-2041",
+     "quantity": 19000.0,
+     "price": 77.52300000000001,
+     "value": 14729.370000000003,
+     "commission": 10.0,
+     "cost_usd": 14739.370000000003
+    },
+    {
+     "ticker": "VT",
+     "quantity": 164.0,
+     "price": 158.81,
+     "value": 26044.84,
+     "commission": 25.0,
+     "cost_usd": 26069.84
+    }
+   ],
+   "cost": 294764.5,
+   "commissions": 200.0,
+   "cash_left": 5235.5
+  }
+ },
+ "headline": {
+  "pv_ten_payments_usd": 289119.2036498361,
+  "basis": "nov15 (A6)",
+  "book_total_cost_usd": 294764.5
+ },
+ "C": {
+  "T 4.750% 15-Feb-2037": {
+   "accrued_model": 0.5679347826086957,
+   "gap_bp": -15.26907182087811,
+   "flag": false
+  },
+  "T 4.500% 15-May-2038": {
+   "accrued_model": 1.6630434782608696,
+   "gap_bp": -14.390964781445525,
+   "flag": false
+  },
+  "T 4.375% 15-Nov-2039": {
+   "accrued_model": 1.6168478260869565,
+   "gap_bp": -6.608516444095436,
+   "flag": false
+  },
+  "T 4.250% 15-Nov-2040": {
+   "accrued_model": 1.5706521739130435,
+   "gap_bp": -5.144986230383175,
+   "flag": false
+  },
+  "T 3.125% 15-Nov-2041": {
+   "accrued_model": 1.1548913043478262,
+   "gap_bp": -1.8881119933222834,
+   "flag": false
+  },
+  "T 4.500% 15-Feb-2036": {
+   "accrued_model": 0.5380434782608695,
+   "gap_bp": -110.92865476231228,
+   "flag": true
+  },
+  "T 4.375% 15-Feb-2038": {
+   "accrued_model": 0.5230978260869565,
+   "gap_bp": -92.10957328606106,
+   "flag": true
+  }
+ },
+ "comparison": {
+  "n_checks": 38,
+  "max_abs_diff_usd": 0.0036498361150734127,
+  "fails": [],
+  "tolerance": "$1 (USD), 0.01bp (break-even), 0.5bp (C yields)"
+ },
+ "primary_vs_blind_other_sections": {
+  "n_numbers": 65,
+  "n_dates": 8,
+  "max_abs_diff": 0.0,
+  "fails": []
+ }
+}

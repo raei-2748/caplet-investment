@@ -656,6 +656,31 @@ def section_g(row):
     return res
 
 
+# ---------------------------------------------------------------------------------------------------- [A6] headline
+def headline(res):
+    """M1_METHOD.md A6: the Nov-15 (STRIPS) basis is the headline cost; the exact basis is secondary.
+    Book headline (B6): the Portfolio tab at close_0928 prices, recorded accrued, commissions included."""
+    n, e = res["A"]["nov15"], res["A"]["exact"]
+    bk = res["B"]["portfolio"]["close_0928"]
+    return {
+        "basis": "nov15: 15 Nov 2032 ... 15 Nov 2041, the STRIPS maturities that fund the 1 Jan payments (A5, A6)",
+        "curve_date": res["meta"]["curve_date"],
+        "pv_ten_payments_usd": round(n["spot"], 2),
+        "cost_2027_usd": round(n["fwd_2027"], 2),
+        "headroom_2027_usd": round(n["headroom_2027"], 2),
+        "breakeven_fall_bp": round(n["breakeven_fall_bp"], 2),
+        "secondary_exact_basis": {"pv_usd": round(e["spot"], 2), "fwd_2027_usd": round(e["fwd_2027"], 2),
+                                  "note": "liability value on the payment dates themselves; no WInS or STRIPS "
+                                          "instrument matures on 1 Jan, so this is not a buyable cost"},
+        "book_price_set": "close_0928",
+        "book_total_cost_usd": round(bk["cost"], 2),
+        "book_commissions_usd": bk["commissions"],
+        "book_cash_left_usd": round(bk["cash_left"], 2),
+        "book_holdings": [{"ticker": r["name"], "quantity": r["qty"], "price": r["px"],
+                           "cost_usd": round(r["value"] + r["commission"], 2)} for r in bk["rows"]],
+    }
+
+
 # -------------------------------------------------------------------------------------------------------------- main
 def main():
     ap = argparse.ArgumentParser()
@@ -686,6 +711,16 @@ def main():
     res["F"] = section_f(row, res["A"])
     if not a.skip_history:
         res["G"] = section_g(row)
+    # [A6] one-number summary, so no reader has to pick a basis (Gate A reconciliation, 30 Sep 2026:
+    # the two pricers agreed on both bases; the $2,102.73 gap was only which basis each put in its summary field)
+    hl = headline(res)
+    res = {"meta": res["meta"], "headline": hl, **{k: v for k, v in res.items() if k != "meta"}}
+    say(f"\n[A6 HEADLINE] ten payments ${hl['pv_ten_payments_usd']:,.2f} on {s} (Nov-15 STRIPS basis, the IPS "
+        f"'$289k'); ${hl['cost_2027_usd']:,.2f} on 1 Jan 2027 (headroom ${hl['headroom_2027_usd']:,.2f}, "
+        f"{hl['breakeven_fall_bp']:.2f}bp). Secondary: exact-date liability value "
+        f"${hl['secondary_exact_basis']['pv_usd']:,.2f}. WInS book (Portfolio tab, close_0928) "
+        f"${hl['book_total_cost_usd']:,.2f} incl. ${hl['book_commissions_usd']:,.0f} commissions; "
+        f"cash left ${hl['book_cash_left_usd']:,.2f}")
     os.makedirs(OUT, exist_ok=True)
     tag = s.isoformat()
     with open(os.path.join(OUT, f"m1_bond_check_{tag}.csv"), "w", newline="") as f:
