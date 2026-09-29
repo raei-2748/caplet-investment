@@ -42,7 +42,7 @@ dominates 7-8 of its roughly 120 points (`pareto_*.csv`, `pareto_grid_*.csv`), s
 
 **Added after the first run (not pre-registered; no decision uses it).** If the top is also announced from the
 rounded-down floor ($145k + half the fund), the gift reaches the top in 90-93% of paths instead of 72-75%. The median
-top falls to about $170k and the expected gift falls by about $3.5k.
+top falls to about $170k and the expected gift falls by about $3k.
 
 **Limits and failure modes.** The 10% flexibility threshold and the 95% level are value judgements, fixed in advance
 (Taiwan building costs rose about 3.5% a year: rab/assumptions.md E8). The floor model is a stylised coupon bullet with
