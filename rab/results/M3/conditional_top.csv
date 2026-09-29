@@ -1,0 +1,4 @@
+model,P_top_all,P_top_given_B3_below_median,P_top_given_B3_above_median
+BOOT,0.743715,0.74293,0.7445
+BOOT-b60,0.74703,0.7414662451478651,0.7525888609012035
+L,0.73453,0.73629,0.73277

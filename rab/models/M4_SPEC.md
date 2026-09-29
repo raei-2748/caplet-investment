@@ -112,3 +112,14 @@ s*_m within 0.02; probabilities within 2 points; E[G] and percentiles within 2%;
   doi:10.1109/ACCESS.2020.2990567
 - WS5 refs [11] Das et al. (2018) (goal tiers and target success rates) and [19] van der Bles et al. (2020) (numeric
   ranges keep trust), `rab/literature/references.md` on rab/ws5.
+
+## 9. Deviations and additions (logged after the first run, 30 Sep 2026; sections 1-8 unchanged)
+
+No change to the decision rule (PR-1 to PR-8) or to any input. Additions, none of which any decision uses:
+- A1. `s_profile.csv` also reports `P_top_fund` = P(B5 >= B3). Reason: with phi < 1 the gift almost never equals the
+  face-based top U exactly (it falls short by (1 - phi) F), so the spec's D2 measure "G < U" reads as about 75% missed
+  even when the fund held its value. D2 is kept as specified.
+- A2. The variant "top also announced from the rounded-down floor", U_A = A + s B3 (columns `A_*`, `run_log.txt`).
+- A3. A brute-force grid (s, l in steps of 0.05; h in {0, 0.025, 0.05}) on all 200,000 paths, as a check on NSGA-II
+  (`pareto_grid_<model>.csv`); the log counts NSGA-II points dominated by a grid point.
+- A4. `fig_M4_narrower.png` (plain version of `narrower_range.csv`).

@@ -1,0 +1,8 @@
+input,label,base,low,high,n_hist
+mu_c,Stock fund's expected return,0.07,0.0408,0.08,
+sd_log,Stock fund's volatility,0.1542182238530465,0.12,0.2,
+inv_nu,Fat tails,0.0,0.0,0.3333333333333333,
+d,Yield move before the Jan 2027 purchase,0.0,-93.00000000000001,92.0,9123.0
+e,5-year yield move during 2027 (floor price),0.0,-1.9500000000000002,2.27,8940.0
+fee,Yearly costs paid from the stock fund,0.0,0.0,0.01,
+phi,What the floor fund pays (reinvestment),1.0,0.9755,1.0,

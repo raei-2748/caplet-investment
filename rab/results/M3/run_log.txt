@@ -1,0 +1,17 @@
+M3 branch Monte Carlo | run 2026-09-29 16:30 UTC | 2026-09-29 12:30 EDT | 2026-09-30 02:30 AEST | numbers.yaml sha256 492ed3203958 (Gate A lock)
+  inputs: B0 = $40,736.19 (stock fund, 2 Jan 2028, Nov-15 basis), F = $150,000, s = 1/2, curve 2026-09-28; JPM AC World median 7.00%, sd log 0.154218
+  T: nu = 4, truncation |x - mu| <= 5.0 sd, calibrated scale c = 0.1162464 (0.7538 sd), 0.2680% of raw draws discarded
+  L          top 2031 p5/p50/p95 $166k / $175k / $189k | gift 2033 $165k / $174k / $188k | kept $16k / $32k / $66k | P(top) 73.5% | P(upper half) 99.99% | annual log mean 0.0679 sd 0.1542
+  T          top 2031 p5/p50/p95 $166k / $175k / $189k | gift 2033 $165k / $174k / $188k | kept $17k / $32k / $66k | P(top) 75.5% | P(upper half) 99.93% | annual log mean 0.0676 sd 0.1541
+  BOOT       top 2031 p5/p50/p95 $165k / $175k / $189k | gift 2033 $164k / $175k / $188k | kept $15k / $33k / $67k | P(top) 74.4% | P(upper half) 99.23% | annual log mean 0.0678 sd 0.1755
+  BAYES      top 2031 p5/p50/p95 $165k / $175k / $191k | gift 2033 $164k / $174k / $190k | kept $15k / $32k / $72k | P(top) 72.0% | P(upper half) 99.92% | annual log mean 0.0677 sd 0.1711
+  BOOT-raw   top 2031 p5/p50/p95 $166k / $177k / $192k | gift 2033 $165k / $176k / $191k | kept $17k / $38k / $77k | P(top) 79.6% | P(upper half) 99.36% | annual log mean 0.0895 sd 0.1755
+  BOOT-b1    top 2031 p5/p50/p95 $167k / $175k / $187k | gift 2033 $166k / $174k / $186k | kept $17k / $32k / $61k | P(top) 76.5% | P(upper half) 99.98% | annual log mean 0.0676 sd 0.1395
+  BOOT-b60   top 2031 p5/p50/p95 $166k / $175k / $189k | gift 2033 $164k / $175k / $188k | kept $16k / $33k / $66k | P(top) 74.7% | P(upper half) 99.08% | annual log mean 0.0677 sd 0.1775
+  BAYES-hist top 2031 p5/p50/p95 $167k / $177k / $194k | gift 2033 $166k / $176k / $193k | kept $18k / $38k / $84k | P(top) 79.3% | P(upper half) 99.95% | annual log mean 0.0954 sd 0.1708
+  check L: median top 174,988 vs analytic 174,952; P(top) 0.7345 vs analytic 0.7325
+  BOOT     P(top) 74.4%; if the fund is below its median in 2031 74.3%, above 74.5%
+  BOOT-b60 P(top) 74.7%; if the fund is below its median in 2031 74.1%, above 75.3%
+  L        P(top) 73.5%; if the fund is below its median in 2031 73.6%, above 73.3%
+  BAYES posterior (Shiller annual 1871-2025): m_h 0.0952 (90% 0.0735-0.1168); sigma 0.1567 (90% 0.1378-0.1762); nu 17.8012 (90% 6.1610-39.0361); sd_implied 0.1707 (90% 0.1534-0.1906)
+  reconcile E6: B0 on the E6 basis $40,443 vs $40,736 now; table in reconcile_E6.csv

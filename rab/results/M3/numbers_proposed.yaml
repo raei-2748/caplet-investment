@@ -1,0 +1,152 @@
+# WS2 proposed entries for rab/numbers.yaml (NOT the Gate A file). WS1/WS0 review and merge; WS2 does not
+# write rab/numbers.yaml (PM-35). Values are MODEL outputs of rab/models/m3_branch.py.
+proposed:
+  m3.top2031_median:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    maturity_convention: ladder and leftover on the Nov-15 STRIPS basis (Gate A headline)
+    instrument_basis: stock fund B0 = $40,736 (2 Jan 2028); floor $150,000 face; s = 1/2; no fees
+    method: rab/models/M3_SPEC.md
+    source: rab/models/m3_branch.py -> rab/results/M3/summary.csv
+    as_of: '2026-09-28'
+    valuation_date: '2031-01-01'
+    value:
+      L: 174988
+      T: 174938
+      BOOT: 175487
+      BAYES: 174966
+    unit: USD
+    quote_as: a top of about $175,000 in a typical case (MODEL, median in each of three return models)
+  m3.top2031_90pct:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    maturity_convention: ladder and leftover on the Nov-15 STRIPS basis (Gate A headline)
+    instrument_basis: stock fund B0 = $40,736 (2 Jan 2028); floor $150,000 face; s = 1/2; no fees
+    method: rab/models/M3_SPEC.md
+    source: rab/models/m3_branch.py -> rab/results/M3/summary.csv
+    as_of: '2026-09-28'
+    valuation_date: '2031-01-01'
+    value:
+      L:
+      - 166060
+      - 188714
+      T:
+      - 166121
+      - 188635
+      BOOT:
+      - 165204
+      - 189223
+      BAYES:
+      - 165300
+      - 190727
+    unit: USD (p5, p95)
+    quote_as: the top will probably be between about $165k and $190k (MODEL)
+  m3.p_top_reached:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    maturity_convention: ladder and leftover on the Nov-15 STRIPS basis (Gate A headline)
+    instrument_basis: stock fund B0 = $40,736 (2 Jan 2028); floor $150,000 face; s = 1/2; no fees
+    method: rab/models/M3_SPEC.md
+    source: rab/models/m3_branch.py -> rab/results/M3/summary.csv
+    as_of: '2026-09-28'
+    valuation_date: '2033-01-01'
+    value:
+      L: 0.735
+      T: 0.755
+      BOOT: 0.744
+      BAYES: 0.72
+    unit: probability
+    quote_as: about 3 in 4 (MODEL)
+  m3.p_upper_half:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    maturity_convention: ladder and leftover on the Nov-15 STRIPS basis (Gate A headline)
+    instrument_basis: stock fund B0 = $40,736 (2 Jan 2028); floor $150,000 face; s = 1/2; no fees
+    method: rab/models/M3_SPEC.md
+    source: rab/models/m3_branch.py -> rab/results/M3/summary.csv
+    as_of: '2026-09-28'
+    valuation_date: '2033-01-01'
+    value:
+      L: 0.9999
+      T: 0.9993
+      BOOT: 0.9923
+      BAYES: 0.9992
+    unit: probability
+    quote_as: at least halfway up the range in almost every case (MODEL)
+  m3.gift2033:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    maturity_convention: ladder and leftover on the Nov-15 STRIPS basis (Gate A headline)
+    instrument_basis: stock fund B0 = $40,736 (2 Jan 2028); floor $150,000 face; s = 1/2; no fees
+    method: rab/models/M3_SPEC.md
+    source: rab/models/m3_branch.py -> rab/results/M3/summary.csv
+    as_of: '2026-09-28'
+    valuation_date: '2033-01-01'
+    value:
+      L:
+      - 165133
+      - 174175
+      - 187923
+      T:
+      - 165114
+      - 174230
+      - 187864
+      BOOT:
+      - 163723
+      - 174571
+      - 188298
+      BAYES:
+      - 164143
+      - 174023
+      - 189749
+    unit: USD (p5, p50, p95)
+    quote_as: a 2033 gift of about $174,000 in a typical case, never below $150,000 (MODEL)
+  m3.kept2033:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    maturity_convention: ladder and leftover on the Nov-15 STRIPS basis (Gate A headline)
+    instrument_basis: stock fund B0 = $40,736 (2 Jan 2028); floor $150,000 face; s = 1/2; no fees
+    method: rab/models/M3_SPEC.md
+    source: rab/models/m3_branch.py -> rab/results/M3/summary.csv
+    as_of: '2026-09-28'
+    valuation_date: '2033-01-01'
+    value:
+      L:
+      - 16494
+      - 32230
+      - 66171
+      T:
+      - 16615
+      - 32170
+      - 65757
+      BOOT:
+      - 15397
+      - 33270
+      - 67469
+      BAYES:
+      - 15398
+      - 32214
+      - 71925
+    unit: USD (p5, p50, p95)
+    quote_as: Laura keeps about $30k-$35k in a typical case (MODEL)
+  m3.range_confidence:
+    scale: laura_plan
+    status: BY CONSTRUCTION
+    curve_date: '2026-09-28'
+    maturity_convention: ladder and leftover on the Nov-15 STRIPS basis (Gate A headline)
+    instrument_basis: stock fund B0 = $40,736 (2 Jan 2028); floor $150,000 face; s = 1/2; no fees
+    method: rab/models/M3_SPEC.md
+    source: rab/models/m3_branch.py -> rab/results/M3/summary.csv
+    as_of: '2026-09-28'
+    valuation_date: '2033-01-01'
+    value: 1.0
+    unit: probability
+    quote_as: certain by construction if the floor holdings pay, the 2028 deposit arrives, the gift is capped and no fee is
+      taken from the floor
+    note: Not a model output; M4 quantifies the floor-delivery condition.

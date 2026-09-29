@@ -1,0 +1,4 @@
+rank,input,label,ST_median_top,in_p5_top3,in_tornado_top3
+1,d,Yield move before the Jan 2027 purchase,0.8975759371658542,True,True
+2,e,5-year yield move during 2027 (floor price),0.06769081701632054,True,True
+3,fee,Yearly costs paid from the stock fund,0.03259651865685225,True,True
