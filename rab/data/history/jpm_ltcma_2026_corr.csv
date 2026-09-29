@@ -1,0 +1,1771 @@
+row,col,corr
+U.S. Inflation,U.S. Inflation,1.0
+U.S. Cash,U.S. Inflation,-0.03
+U.S. Cash,U.S. Cash,1.0
+U.S. Intermediate Treasuries,U.S. Inflation,-0.27
+U.S. Intermediate Treasuries,U.S. Cash,0.2
+U.S. Intermediate Treasuries,U.S. Intermediate Treasuries,1.0
+U.S. Long Treasuries,U.S. Inflation,-0.22
+U.S. Long Treasuries,U.S. Cash,0.05
+U.S. Long Treasuries,U.S. Intermediate Treasuries,0.84
+U.S. Long Treasuries,U.S. Long Treasuries,1.0
+TIPS,U.S. Inflation,-0.03
+TIPS,U.S. Cash,0.02
+TIPS,U.S. Intermediate Treasuries,0.63
+TIPS,U.S. Long Treasuries,0.61
+TIPS,TIPS,1.0
+U.S. Aggregate Bonds,U.S. Inflation,-0.24
+U.S. Aggregate Bonds,U.S. Cash,0.1
+U.S. Aggregate Bonds,U.S. Intermediate Treasuries,0.85
+U.S. Aggregate Bonds,U.S. Long Treasuries,0.85
+U.S. Aggregate Bonds,TIPS,0.76
+U.S. Aggregate Bonds,U.S. Aggregate Bonds,1.0
+U.S. Securitized,U.S. Inflation,-0.22
+U.S. Securitized,U.S. Cash,0.1
+U.S. Securitized,U.S. Intermediate Treasuries,0.79
+U.S. Securitized,U.S. Long Treasuries,0.75
+U.S. Securitized,TIPS,0.7
+U.S. Securitized,U.S. Aggregate Bonds,0.94
+U.S. Securitized,U.S. Securitized,1.0
+U.S. Short Duration Government/Credit,U.S. Inflation,-0.29
+U.S. Short Duration Government/Credit,U.S. Cash,0.32
+U.S. Short Duration Government/Credit,U.S. Intermediate Treasuries,0.85
+U.S. Short Duration Government/Credit,U.S. Long Treasuries,0.61
+U.S. Short Duration Government/Credit,TIPS,0.63
+U.S. Short Duration Government/Credit,U.S. Aggregate Bonds,0.82
+U.S. Short Duration Government/Credit,U.S. Securitized,0.77
+U.S. Short Duration Government/Credit,U.S. Short Duration Government/Credit,1.0
+U.S. Long Duration Government/Credit,U.S. Inflation,-0.22
+U.S. Long Duration Government/Credit,U.S. Cash,0.04
+U.S. Long Duration Government/Credit,U.S. Intermediate Treasuries,0.75
+U.S. Long Duration Government/Credit,U.S. Long Treasuries,0.91
+U.S. Long Duration Government/Credit,TIPS,0.7
+U.S. Long Duration Government/Credit,U.S. Aggregate Bonds,0.94
+U.S. Long Duration Government/Credit,U.S. Securitized,0.82
+U.S. Long Duration Government/Credit,U.S. Short Duration Government/Credit,0.67
+U.S. Long Duration Government/Credit,U.S. Long Duration Government/Credit,1.0
+U.S. Inv Grade Corporate Bonds,U.S. Inflation,-0.19
+U.S. Inv Grade Corporate Bonds,U.S. Cash,0.02
+U.S. Inv Grade Corporate Bonds,U.S. Intermediate Treasuries,0.55
+U.S. Inv Grade Corporate Bonds,U.S. Long Treasuries,0.62
+U.S. Inv Grade Corporate Bonds,TIPS,0.73
+U.S. Inv Grade Corporate Bonds,U.S. Aggregate Bonds,0.87
+U.S. Inv Grade Corporate Bonds,U.S. Securitized,0.77
+U.S. Inv Grade Corporate Bonds,U.S. Short Duration Government/Credit,0.67
+U.S. Inv Grade Corporate Bonds,U.S. Long Duration Government/Credit,0.86
+U.S. Inv Grade Corporate Bonds,U.S. Inv Grade Corporate Bonds,1.0
+U.S. Long Corporate Bonds,U.S. Inflation,-0.19
+U.S. Long Corporate Bonds,U.S. Cash,0.01
+U.S. Long Corporate Bonds,U.S. Intermediate Treasuries,0.54
+U.S. Long Corporate Bonds,U.S. Long Treasuries,0.69
+U.S. Long Corporate Bonds,TIPS,0.68
+U.S. Long Corporate Bonds,U.S. Aggregate Bonds,0.87
+U.S. Long Corporate Bonds,U.S. Securitized,0.75
+U.S. Long Corporate Bonds,U.S. Short Duration Government/Credit,0.61
+U.S. Long Corporate Bonds,U.S. Long Duration Government/Credit,0.92
+U.S. Long Corporate Bonds,U.S. Inv Grade Corporate Bonds,0.97
+U.S. Long Corporate Bonds,U.S. Long Corporate Bonds,1.0
+U.S. High Yield Bonds,U.S. Inflation,-0.01
+U.S. High Yield Bonds,U.S. Cash,-0.03
+U.S. High Yield Bonds,U.S. Intermediate Treasuries,0.03
+U.S. High Yield Bonds,U.S. Long Treasuries,0.04
+U.S. High Yield Bonds,TIPS,0.51
+U.S. High Yield Bonds,U.S. Aggregate Bonds,0.41
+U.S. High Yield Bonds,U.S. Securitized,0.41
+U.S. High Yield Bonds,U.S. Short Duration Government/Credit,0.31
+U.S. High Yield Bonds,U.S. Long Duration Government/Credit,0.36
+U.S. High Yield Bonds,U.S. Inv Grade Corporate Bonds,0.67
+U.S. High Yield Bonds,U.S. Long Corporate Bonds,0.61
+U.S. High Yield Bonds,U.S. High Yield Bonds,1.0
+U.S. Leveraged Loans,U.S. Inflation,0.15
+U.S. Leveraged Loans,U.S. Cash,-0.04
+U.S. Leveraged Loans,U.S. Intermediate Treasuries,-0.34
+U.S. Leveraged Loans,U.S. Long Treasuries,-0.26
+U.S. Leveraged Loans,TIPS,0.18
+U.S. Leveraged Loans,U.S. Aggregate Bonds,0.05
+U.S. Leveraged Loans,U.S. Securitized,0.06
+U.S. Leveraged Loans,U.S. Short Duration Government/Credit,-0.04
+U.S. Leveraged Loans,U.S. Long Duration Government/Credit,0.05
+U.S. Leveraged Loans,U.S. Inv Grade Corporate Bonds,0.36
+U.S. Leveraged Loans,U.S. Long Corporate Bonds,0.32
+U.S. Leveraged Loans,U.S. High Yield Bonds,0.76
+U.S. Leveraged Loans,U.S. Leveraged Loans,1.0
+World Government Bonds hedged,U.S. Inflation,-0.29
+World Government Bonds hedged,U.S. Cash,0.12
+World Government Bonds hedged,U.S. Intermediate Treasuries,0.87
+World Government Bonds hedged,U.S. Long Treasuries,0.87
+World Government Bonds hedged,TIPS,0.64
+World Government Bonds hedged,U.S. Aggregate Bonds,0.88
+World Government Bonds hedged,U.S. Securitized,0.8
+World Government Bonds hedged,U.S. Short Duration Government/Credit,0.74
+World Government Bonds hedged,U.S. Long Duration Government/Credit,0.85
+World Government Bonds hedged,U.S. Inv Grade Corporate Bonds,0.68
+World Government Bonds hedged,U.S. Long Corporate Bonds,0.7
+World Government Bonds hedged,U.S. High Yield Bonds,0.17
+World Government Bonds hedged,U.S. Leveraged Loans,-0.17
+World Government Bonds hedged,World Government Bonds hedged,1.0
+World Government Bonds,U.S. Inflation,-0.18
+World Government Bonds,U.S. Cash,0.13
+World Government Bonds,U.S. Intermediate Treasuries,0.77
+World Government Bonds,U.S. Long Treasuries,0.68
+World Government Bonds,TIPS,0.69
+World Government Bonds,U.S. Aggregate Bonds,0.82
+World Government Bonds,U.S. Securitized,0.74
+World Government Bonds,U.S. Short Duration Government/Credit,0.76
+World Government Bonds,U.S. Long Duration Government/Credit,0.76
+World Government Bonds,U.S. Inv Grade Corporate Bonds,0.71
+World Government Bonds,U.S. Long Corporate Bonds,0.7
+World Government Bonds,U.S. High Yield Bonds,0.35
+World Government Bonds,U.S. Leveraged Loans,-0.03
+World Government Bonds,World Government Bonds hedged,0.75
+World Government Bonds,World Government Bonds,1.0
+World ex-U.S. Government Bonds hedged,U.S. Inflation,-0.3
+World ex-U.S. Government Bonds hedged,U.S. Cash,0.12
+World ex-U.S. Government Bonds hedged,U.S. Intermediate Treasuries,0.74
+World ex-U.S. Government Bonds hedged,U.S. Long Treasuries,0.74
+World ex-U.S. Government Bonds hedged,TIPS,0.59
+World ex-U.S. Government Bonds hedged,U.S. Aggregate Bonds,0.79
+World ex-U.S. Government Bonds hedged,U.S. Securitized,0.71
+World ex-U.S. Government Bonds hedged,U.S. Short Duration Government/Credit,0.65
+World ex-U.S. Government Bonds hedged,U.S. Long Duration Government/Credit,0.77
+World ex-U.S. Government Bonds hedged,U.S. Inv Grade Corporate Bonds,0.66
+World ex-U.S. Government Bonds hedged,U.S. Long Corporate Bonds,0.67
+World ex-U.S. Government Bonds hedged,U.S. High Yield Bonds,0.24
+World ex-U.S. Government Bonds hedged,U.S. Leveraged Loans,-0.07
+World ex-U.S. Government Bonds hedged,World Government Bonds hedged,0.96
+World ex-U.S. Government Bonds hedged,World Government Bonds,0.68
+World ex-U.S. Government Bonds hedged,World ex-U.S. Government Bonds hedged,1.0
+World ex-U.S. Government Bonds,U.S. Inflation,-0.17
+World ex-U.S. Government Bonds,U.S. Cash,0.12
+World ex-U.S. Government Bonds,U.S. Intermediate Treasuries,0.68
+World ex-U.S. Government Bonds,U.S. Long Treasuries,0.58
+World ex-U.S. Government Bonds,TIPS,0.66
+World ex-U.S. Government Bonds,U.S. Aggregate Bonds,0.76
+World ex-U.S. Government Bonds,U.S. Securitized,0.69
+World ex-U.S. Government Bonds,U.S. Short Duration Government/Credit,0.71
+World ex-U.S. Government Bonds,U.S. Long Duration Government/Credit,0.69
+World ex-U.S. Government Bonds,U.S. Inv Grade Corporate Bonds,0.7
+World ex-U.S. Government Bonds,U.S. Long Corporate Bonds,0.68
+World ex-U.S. Government Bonds,U.S. High Yield Bonds,0.42
+World ex-U.S. Government Bonds,U.S. Leveraged Loans,0.04
+World ex-U.S. Government Bonds,World Government Bonds hedged,0.67
+World ex-U.S. Government Bonds,World Government Bonds,0.98
+World ex-U.S. Government Bonds,World ex-U.S. Government Bonds hedged,0.63
+World ex-U.S. Government Bonds,World ex-U.S. Government Bonds,1.0
+Emerging Markets Sovereign Debt,U.S. Inflation,-0.16
+Emerging Markets Sovereign Debt,U.S. Cash,0.03
+Emerging Markets Sovereign Debt,U.S. Intermediate Treasuries,0.34
+Emerging Markets Sovereign Debt,U.S. Long Treasuries,0.38
+Emerging Markets Sovereign Debt,TIPS,0.63
+Emerging Markets Sovereign Debt,U.S. Aggregate Bonds,0.67
+Emerging Markets Sovereign Debt,U.S. Securitized,0.61
+Emerging Markets Sovereign Debt,U.S. Short Duration Government/Credit,0.51
+Emerging Markets Sovereign Debt,U.S. Long Duration Government/Credit,0.64
+Emerging Markets Sovereign Debt,U.S. Inv Grade Corporate Bonds,0.83
+Emerging Markets Sovereign Debt,U.S. Long Corporate Bonds,0.79
+Emerging Markets Sovereign Debt,U.S. High Yield Bonds,0.76
+Emerging Markets Sovereign Debt,U.S. Leveraged Loans,0.46
+Emerging Markets Sovereign Debt,World Government Bonds hedged,0.47
+Emerging Markets Sovereign Debt,World Government Bonds,0.62
+Emerging Markets Sovereign Debt,World ex-U.S. Government Bonds hedged,0.49
+Emerging Markets Sovereign Debt,World ex-U.S. Government Bonds,0.65
+Emerging Markets Sovereign Debt,Emerging Markets Sovereign Debt,1.0
+Emerging Markets Local Currency Debt,U.S. Inflation,-0.06
+Emerging Markets Local Currency Debt,U.S. Cash,0.11
+Emerging Markets Local Currency Debt,U.S. Intermediate Treasuries,0.26
+Emerging Markets Local Currency Debt,U.S. Long Treasuries,0.22
+Emerging Markets Local Currency Debt,TIPS,0.47
+Emerging Markets Local Currency Debt,U.S. Aggregate Bonds,0.5
+Emerging Markets Local Currency Debt,U.S. Securitized,0.44
+Emerging Markets Local Currency Debt,U.S. Short Duration Government/Credit,0.44
+Emerging Markets Local Currency Debt,U.S. Long Duration Government/Credit,0.46
+Emerging Markets Local Currency Debt,U.S. Inv Grade Corporate Bonds,0.63
+Emerging Markets Local Currency Debt,U.S. Long Corporate Bonds,0.6
+Emerging Markets Local Currency Debt,U.S. High Yield Bonds,0.62
+Emerging Markets Local Currency Debt,U.S. Leveraged Loans,0.35
+Emerging Markets Local Currency Debt,World Government Bonds hedged,0.3
+Emerging Markets Local Currency Debt,World Government Bonds,0.63
+Emerging Markets Local Currency Debt,World ex-U.S. Government Bonds hedged,0.31
+Emerging Markets Local Currency Debt,World ex-U.S. Government Bonds,0.69
+Emerging Markets Local Currency Debt,Emerging Markets Sovereign Debt,0.81
+Emerging Markets Local Currency Debt,Emerging Markets Local Currency Debt,1.0
+Emerging Markets Corporate Bonds,U.S. Inflation,-0.1
+Emerging Markets Corporate Bonds,U.S. Cash,-0.01
+Emerging Markets Corporate Bonds,U.S. Intermediate Treasuries,0.22
+Emerging Markets Corporate Bonds,U.S. Long Treasuries,0.27
+Emerging Markets Corporate Bonds,TIPS,0.56
+Emerging Markets Corporate Bonds,U.S. Aggregate Bonds,0.58
+Emerging Markets Corporate Bonds,U.S. Securitized,0.51
+Emerging Markets Corporate Bonds,U.S. Short Duration Government/Credit,0.45
+Emerging Markets Corporate Bonds,U.S. Long Duration Government/Credit,0.55
+Emerging Markets Corporate Bonds,U.S. Inv Grade Corporate Bonds,0.8
+Emerging Markets Corporate Bonds,U.S. Long Corporate Bonds,0.74
+Emerging Markets Corporate Bonds,U.S. High Yield Bonds,0.72
+Emerging Markets Corporate Bonds,U.S. Leveraged Loans,0.55
+Emerging Markets Corporate Bonds,World Government Bonds hedged,0.34
+Emerging Markets Corporate Bonds,World Government Bonds,0.49
+Emerging Markets Corporate Bonds,World ex-U.S. Government Bonds hedged,0.34
+Emerging Markets Corporate Bonds,World ex-U.S. Government Bonds,0.51
+Emerging Markets Corporate Bonds,Emerging Markets Sovereign Debt,0.89
+Emerging Markets Corporate Bonds,Emerging Markets Local Currency Debt,0.72
+Emerging Markets Corporate Bonds,Emerging Markets Corporate Bonds,1.0
+U.S. Muni 1-15 Yr Blend,U.S. Inflation,-0.18
+U.S. Muni 1-15 Yr Blend,U.S. Cash,0.05
+U.S. Muni 1-15 Yr Blend,U.S. Intermediate Treasuries,0.54
+U.S. Muni 1-15 Yr Blend,U.S. Long Treasuries,0.53
+U.S. Muni 1-15 Yr Blend,TIPS,0.59
+U.S. Muni 1-15 Yr Blend,U.S. Aggregate Bonds,0.73
+U.S. Muni 1-15 Yr Blend,U.S. Securitized,0.71
+U.S. Muni 1-15 Yr Blend,U.S. Short Duration Government/Credit,0.57
+U.S. Muni 1-15 Yr Blend,U.S. Long Duration Government/Credit,0.66
+U.S. Muni 1-15 Yr Blend,U.S. Inv Grade Corporate Bonds,0.71
+U.S. Muni 1-15 Yr Blend,U.S. Long Corporate Bonds,0.68
+U.S. Muni 1-15 Yr Blend,U.S. High Yield Bonds,0.45
+U.S. Muni 1-15 Yr Blend,U.S. Leveraged Loans,0.19
+U.S. Muni 1-15 Yr Blend,World Government Bonds hedged,0.62
+U.S. Muni 1-15 Yr Blend,World Government Bonds,0.58
+U.S. Muni 1-15 Yr Blend,World ex-U.S. Government Bonds hedged,0.6
+U.S. Muni 1-15 Yr Blend,World ex-U.S. Government Bonds,0.56
+U.S. Muni 1-15 Yr Blend,Emerging Markets Sovereign Debt,0.64
+U.S. Muni 1-15 Yr Blend,Emerging Markets Local Currency Debt,0.41
+U.S. Muni 1-15 Yr Blend,Emerging Markets Corporate Bonds,0.51
+U.S. Muni 1-15 Yr Blend,U.S. Muni 1-15 Yr Blend,1.0
+U.S. Muni High Yield,U.S. Inflation,0.16
+U.S. Muni High Yield,U.S. Cash,-0.07
+U.S. Muni High Yield,U.S. Intermediate Treasuries,0.18
+U.S. Muni High Yield,U.S. Long Treasuries,0.28
+U.S. Muni High Yield,TIPS,0.5
+U.S. Muni High Yield,U.S. Aggregate Bonds,0.46
+U.S. Muni High Yield,U.S. Securitized,0.46
+U.S. Muni High Yield,U.S. Short Duration Government/Credit,0.22
+U.S. Muni High Yield,U.S. Long Duration Government/Credit,0.42
+U.S. Muni High Yield,U.S. Inv Grade Corporate Bonds,0.58
+U.S. Muni High Yield,U.S. Long Corporate Bonds,0.52
+U.S. Muni High Yield,U.S. High Yield Bonds,0.52
+U.S. Muni High Yield,U.S. Leveraged Loans,0.49
+U.S. Muni High Yield,World Government Bonds hedged,0.32
+U.S. Muni High Yield,World Government Bonds,0.29
+U.S. Muni High Yield,World ex-U.S. Government Bonds hedged,0.32
+U.S. Muni High Yield,World ex-U.S. Government Bonds,0.3
+U.S. Muni High Yield,Emerging Markets Sovereign Debt,0.58
+U.S. Muni High Yield,Emerging Markets Local Currency Debt,0.32
+U.S. Muni High Yield,Emerging Markets Corporate Bonds,0.57
+U.S. Muni High Yield,U.S. Muni 1-15 Yr Blend,0.65
+U.S. Muni High Yield,U.S. Muni High Yield,1.0
+U.S. Large Cap,U.S. Inflation,-0.01
+U.S. Large Cap,U.S. Cash,0.01
+U.S. Large Cap,U.S. Intermediate Treasuries,-0.01
+U.S. Large Cap,U.S. Long Treasuries,0.02
+U.S. Large Cap,TIPS,0.34
+U.S. Large Cap,U.S. Aggregate Bonds,0.3
+U.S. Large Cap,U.S. Securitized,0.29
+U.S. Large Cap,U.S. Short Duration Government/Credit,0.16
+U.S. Large Cap,U.S. Long Duration Government/Credit,0.29
+U.S. Large Cap,U.S. Inv Grade Corporate Bonds,0.51
+U.S. Large Cap,U.S. Long Corporate Bonds,0.49
+U.S. Large Cap,U.S. High Yield Bonds,0.75
+U.S. Large Cap,U.S. Leveraged Loans,0.58
+U.S. Large Cap,World Government Bonds hedged,0.14
+U.S. Large Cap,World Government Bonds,0.32
+U.S. Large Cap,World ex-U.S. Government Bonds hedged,0.22
+U.S. Large Cap,World ex-U.S. Government Bonds,0.38
+U.S. Large Cap,Emerging Markets Sovereign Debt,0.63
+U.S. Large Cap,Emerging Markets Local Currency Debt,0.59
+U.S. Large Cap,Emerging Markets Corporate Bonds,0.56
+U.S. Large Cap,U.S. Muni 1-15 Yr Blend,0.28
+U.S. Large Cap,U.S. Muni High Yield,0.35
+U.S. Large Cap,U.S. Large Cap,1.0
+U.S. Mid Cap,U.S. Inflation,-0.02
+U.S. Mid Cap,U.S. Cash,-0.02
+U.S. Mid Cap,U.S. Intermediate Treasuries,-0.05
+U.S. Mid Cap,U.S. Long Treasuries,0.0
+U.S. Mid Cap,TIPS,0.34
+U.S. Mid Cap,U.S. Aggregate Bonds,0.29
+U.S. Mid Cap,U.S. Securitized,0.29
+U.S. Mid Cap,U.S. Short Duration Government/Credit,0.13
+U.S. Mid Cap,U.S. Long Duration Government/Credit,0.28
+U.S. Mid Cap,U.S. Inv Grade Corporate Bonds,0.52
+U.S. Mid Cap,U.S. Long Corporate Bonds,0.5
+U.S. Mid Cap,U.S. High Yield Bonds,0.79
+U.S. Mid Cap,U.S. Leveraged Loans,0.62
+U.S. Mid Cap,World Government Bonds hedged,0.11
+U.S. Mid Cap,World Government Bonds,0.29
+U.S. Mid Cap,World ex-U.S. Government Bonds hedged,0.18
+U.S. Mid Cap,World ex-U.S. Government Bonds,0.36
+U.S. Mid Cap,Emerging Markets Sovereign Debt,0.63
+U.S. Mid Cap,Emerging Markets Local Currency Debt,0.59
+U.S. Mid Cap,Emerging Markets Corporate Bonds,0.57
+U.S. Mid Cap,U.S. Muni 1-15 Yr Blend,0.29
+U.S. Mid Cap,U.S. Muni High Yield,0.36
+U.S. Mid Cap,U.S. Large Cap,0.96
+U.S. Mid Cap,U.S. Mid Cap,1.0
+U.S. Small Cap,U.S. Inflation,-0.04
+U.S. Small Cap,U.S. Cash,-0.03
+U.S. Small Cap,U.S. Intermediate Treasuries,-0.08
+U.S. Small Cap,U.S. Long Treasuries,-0.05
+U.S. Small Cap,TIPS,0.26
+U.S. Small Cap,U.S. Aggregate Bonds,0.22
+U.S. Small Cap,U.S. Securitized,0.24
+U.S. Small Cap,U.S. Short Duration Government/Credit,0.08
+U.S. Small Cap,U.S. Long Duration Government/Credit,0.21
+U.S. Small Cap,U.S. Inv Grade Corporate Bonds,0.42
+U.S. Small Cap,U.S. Long Corporate Bonds,0.41
+U.S. Small Cap,U.S. High Yield Bonds,0.71
+U.S. Small Cap,U.S. Leveraged Loans,0.55
+U.S. Small Cap,World Government Bonds hedged,0.06
+U.S. Small Cap,World Government Bonds,0.22
+U.S. Small Cap,World ex-U.S. Government Bonds hedged,0.14
+U.S. Small Cap,World ex-U.S. Government Bonds,0.29
+U.S. Small Cap,Emerging Markets Sovereign Debt,0.54
+U.S. Small Cap,Emerging Markets Local Currency Debt,0.53
+U.S. Small Cap,Emerging Markets Corporate Bonds,0.48
+U.S. Small Cap,U.S. Muni 1-15 Yr Blend,0.23
+U.S. Small Cap,U.S. Muni High Yield,0.27
+U.S. Small Cap,U.S. Large Cap,0.9
+U.S. Small Cap,U.S. Mid Cap,0.95
+U.S. Small Cap,U.S. Small Cap,1.0
+Euro Area Large Cap,U.S. Inflation,-0.03
+Euro Area Large Cap,U.S. Cash,0.08
+Euro Area Large Cap,U.S. Intermediate Treasuries,0.03
+Euro Area Large Cap,U.S. Long Treasuries,0.0
+Euro Area Large Cap,TIPS,0.32
+Euro Area Large Cap,U.S. Aggregate Bonds,0.33
+Euro Area Large Cap,U.S. Securitized,0.32
+Euro Area Large Cap,U.S. Short Duration Government/Credit,0.26
+Euro Area Large Cap,U.S. Long Duration Government/Credit,0.29
+Euro Area Large Cap,U.S. Inv Grade Corporate Bonds,0.52
+Euro Area Large Cap,U.S. Long Corporate Bonds,0.5
+Euro Area Large Cap,U.S. High Yield Bonds,0.73
+Euro Area Large Cap,U.S. Leveraged Loans,0.52
+Euro Area Large Cap,World Government Bonds hedged,0.11
+Euro Area Large Cap,World Government Bonds,0.44
+Euro Area Large Cap,World ex-U.S. Government Bonds hedged,0.16
+Euro Area Large Cap,World ex-U.S. Government Bonds,0.52
+Euro Area Large Cap,Emerging Markets Sovereign Debt,0.68
+Euro Area Large Cap,Emerging Markets Local Currency Debt,0.73
+Euro Area Large Cap,Emerging Markets Corporate Bonds,0.62
+Euro Area Large Cap,U.S. Muni 1-15 Yr Blend,0.3
+Euro Area Large Cap,U.S. Muni High Yield,0.31
+Euro Area Large Cap,U.S. Large Cap,0.84
+Euro Area Large Cap,U.S. Mid Cap,0.83
+Euro Area Large Cap,U.S. Small Cap,0.75
+Euro Area Large Cap,Euro Area Large Cap,1.0
+Japanese Equity,U.S. Inflation,-0.08
+Japanese Equity,U.S. Cash,0.03
+Japanese Equity,U.S. Intermediate Treasuries,0.06
+Japanese Equity,U.S. Long Treasuries,0.07
+Japanese Equity,TIPS,0.31
+Japanese Equity,U.S. Aggregate Bonds,0.35
+Japanese Equity,U.S. Securitized,0.34
+Japanese Equity,U.S. Short Duration Government/Credit,0.27
+Japanese Equity,U.S. Long Duration Government/Credit,0.34
+Japanese Equity,U.S. Inv Grade Corporate Bonds,0.55
+Japanese Equity,U.S. Long Corporate Bonds,0.53
+Japanese Equity,U.S. High Yield Bonds,0.68
+Japanese Equity,U.S. Leveraged Loans,0.49
+Japanese Equity,World Government Bonds hedged,0.15
+Japanese Equity,World Government Bonds,0.38
+Japanese Equity,World ex-U.S. Government Bonds hedged,0.19
+Japanese Equity,World ex-U.S. Government Bonds,0.44
+Japanese Equity,Emerging Markets Sovereign Debt,0.61
+Japanese Equity,Emerging Markets Local Currency Debt,0.63
+Japanese Equity,Emerging Markets Corporate Bonds,0.58
+Japanese Equity,U.S. Muni 1-15 Yr Blend,0.28
+Japanese Equity,U.S. Muni High Yield,0.31
+Japanese Equity,U.S. Large Cap,0.74
+Japanese Equity,U.S. Mid Cap,0.74
+Japanese Equity,U.S. Small Cap,0.67
+Japanese Equity,Euro Area Large Cap,0.78
+Japanese Equity,Japanese Equity,1.0
+Hong Kong Equity,U.S. Inflation,-0.05
+Hong Kong Equity,U.S. Cash,-0.02
+Hong Kong Equity,U.S. Intermediate Treasuries,-0.01
+Hong Kong Equity,U.S. Long Treasuries,0.02
+Hong Kong Equity,TIPS,0.24
+Hong Kong Equity,U.S. Aggregate Bonds,0.29
+Hong Kong Equity,U.S. Securitized,0.27
+Hong Kong Equity,U.S. Short Duration Government/Credit,0.21
+Hong Kong Equity,U.S. Long Duration Government/Credit,0.27
+Hong Kong Equity,U.S. Inv Grade Corporate Bonds,0.5
+Hong Kong Equity,U.S. Long Corporate Bonds,0.46
+Hong Kong Equity,U.S. High Yield Bonds,0.57
+Hong Kong Equity,U.S. Leveraged Loans,0.48
+Hong Kong Equity,World Government Bonds hedged,0.02
+Hong Kong Equity,World Government Bonds,0.31
+Hong Kong Equity,World ex-U.S. Government Bonds hedged,0.02
+Hong Kong Equity,World ex-U.S. Government Bonds,0.37
+Hong Kong Equity,Emerging Markets Sovereign Debt,0.6
+Hong Kong Equity,Emerging Markets Local Currency Debt,0.67
+Hong Kong Equity,Emerging Markets Corporate Bonds,0.64
+Hong Kong Equity,U.S. Muni 1-15 Yr Blend,0.29
+Hong Kong Equity,U.S. Muni High Yield,0.36
+Hong Kong Equity,U.S. Large Cap,0.56
+Hong Kong Equity,U.S. Mid Cap,0.56
+Hong Kong Equity,U.S. Small Cap,0.49
+Hong Kong Equity,Euro Area Large Cap,0.67
+Hong Kong Equity,Japanese Equity,0.58
+Hong Kong Equity,Hong Kong Equity,1.0
+UK Large Cap,U.S. Inflation,0.04
+UK Large Cap,U.S. Cash,0.02
+UK Large Cap,U.S. Intermediate Treasuries,-0.08
+UK Large Cap,U.S. Long Treasuries,-0.09
+UK Large Cap,TIPS,0.28
+UK Large Cap,U.S. Aggregate Bonds,0.24
+UK Large Cap,U.S. Securitized,0.25
+UK Large Cap,U.S. Short Duration Government/Credit,0.15
+UK Large Cap,U.S. Long Duration Government/Credit,0.22
+UK Large Cap,U.S. Inv Grade Corporate Bonds,0.47
+UK Large Cap,U.S. Long Corporate Bonds,0.45
+UK Large Cap,U.S. High Yield Bonds,0.72
+UK Large Cap,U.S. Leveraged Loans,0.61
+UK Large Cap,World Government Bonds hedged,0.0
+UK Large Cap,World Government Bonds,0.34
+UK Large Cap,World ex-U.S. Government Bonds hedged,0.06
+UK Large Cap,World ex-U.S. Government Bonds,0.42
+UK Large Cap,Emerging Markets Sovereign Debt,0.62
+UK Large Cap,Emerging Markets Local Currency Debt,0.67
+UK Large Cap,Emerging Markets Corporate Bonds,0.6
+UK Large Cap,U.S. Muni 1-15 Yr Blend,0.23
+UK Large Cap,U.S. Muni High Yield,0.36
+UK Large Cap,U.S. Large Cap,0.81
+UK Large Cap,U.S. Mid Cap,0.8
+UK Large Cap,U.S. Small Cap,0.72
+UK Large Cap,Euro Area Large Cap,0.91
+UK Large Cap,Japanese Equity,0.76
+UK Large Cap,Hong Kong Equity,0.71
+UK Large Cap,UK Large Cap,1.0
+EAFE Equity,U.S. Inflation,-0.03
+EAFE Equity,U.S. Cash,0.05
+EAFE Equity,U.S. Intermediate Treasuries,0.02
+EAFE Equity,U.S. Long Treasuries,0.02
+EAFE Equity,TIPS,0.35
+EAFE Equity,U.S. Aggregate Bonds,0.34
+EAFE Equity,U.S. Securitized,0.33
+EAFE Equity,U.S. Short Duration Government/Credit,0.25
+EAFE Equity,U.S. Long Duration Government/Credit,0.32
+EAFE Equity,U.S. Inv Grade Corporate Bonds,0.56
+EAFE Equity,U.S. Long Corporate Bonds,0.54
+EAFE Equity,U.S. High Yield Bonds,0.77
+EAFE Equity,U.S. Leveraged Loans,0.57
+EAFE Equity,World Government Bonds hedged,0.11
+EAFE Equity,World Government Bonds,0.44
+EAFE Equity,World ex-U.S. Government Bonds hedged,0.16
+EAFE Equity,World ex-U.S. Government Bonds,0.52
+EAFE Equity,Emerging Markets Sovereign Debt,0.71
+EAFE Equity,Emerging Markets Local Currency Debt,0.75
+EAFE Equity,Emerging Markets Corporate Bonds,0.65
+EAFE Equity,U.S. Muni 1-15 Yr Blend,0.3
+EAFE Equity,U.S. Muni High Yield,0.35
+EAFE Equity,U.S. Large Cap,0.87
+EAFE Equity,U.S. Mid Cap,0.87
+EAFE Equity,U.S. Small Cap,0.78
+EAFE Equity,Euro Area Large Cap,0.97
+EAFE Equity,Japanese Equity,0.86
+EAFE Equity,Hong Kong Equity,0.71
+EAFE Equity,UK Large Cap,0.94
+EAFE Equity,EAFE Equity,1.0
+Chinese Domestic Equity,U.S. Inflation,-0.05
+Chinese Domestic Equity,U.S. Cash,0.06
+Chinese Domestic Equity,U.S. Intermediate Treasuries,-0.01
+Chinese Domestic Equity,U.S. Long Treasuries,0.03
+Chinese Domestic Equity,TIPS,0.13
+Chinese Domestic Equity,U.S. Aggregate Bonds,0.19
+Chinese Domestic Equity,U.S. Securitized,0.19
+Chinese Domestic Equity,U.S. Short Duration Government/Credit,0.13
+Chinese Domestic Equity,U.S. Long Duration Government/Credit,0.18
+Chinese Domestic Equity,U.S. Inv Grade Corporate Bonds,0.31
+Chinese Domestic Equity,U.S. Long Corporate Bonds,0.29
+Chinese Domestic Equity,U.S. High Yield Bonds,0.34
+Chinese Domestic Equity,U.S. Leveraged Loans,0.29
+Chinese Domestic Equity,World Government Bonds hedged,0.05
+Chinese Domestic Equity,World Government Bonds,0.17
+Chinese Domestic Equity,World ex-U.S. Government Bonds hedged,0.05
+Chinese Domestic Equity,World ex-U.S. Government Bonds,0.2
+Chinese Domestic Equity,Emerging Markets Sovereign Debt,0.35
+Chinese Domestic Equity,Emerging Markets Local Currency Debt,0.37
+Chinese Domestic Equity,Emerging Markets Corporate Bonds,0.41
+Chinese Domestic Equity,U.S. Muni 1-15 Yr Blend,0.14
+Chinese Domestic Equity,U.S. Muni High Yield,0.21
+Chinese Domestic Equity,U.S. Large Cap,0.34
+Chinese Domestic Equity,U.S. Mid Cap,0.34
+Chinese Domestic Equity,U.S. Small Cap,0.31
+Chinese Domestic Equity,Euro Area Large Cap,0.38
+Chinese Domestic Equity,Japanese Equity,0.34
+Chinese Domestic Equity,Hong Kong Equity,0.61
+Chinese Domestic Equity,UK Large Cap,0.39
+Chinese Domestic Equity,EAFE Equity,0.4
+Chinese Domestic Equity,Chinese Domestic Equity,1.0
+Emerging Markets Equity,U.S. Inflation,-0.02
+Emerging Markets Equity,U.S. Cash,0.03
+Emerging Markets Equity,U.S. Intermediate Treasuries,0.0
+Emerging Markets Equity,U.S. Long Treasuries,0.02
+Emerging Markets Equity,TIPS,0.35
+Emerging Markets Equity,U.S. Aggregate Bonds,0.32
+Emerging Markets Equity,U.S. Securitized,0.3
+Emerging Markets Equity,U.S. Short Duration Government/Credit,0.24
+Emerging Markets Equity,U.S. Long Duration Government/Credit,0.3
+Emerging Markets Equity,U.S. Inv Grade Corporate Bonds,0.54
+Emerging Markets Equity,U.S. Long Corporate Bonds,0.51
+Emerging Markets Equity,U.S. High Yield Bonds,0.72
+Emerging Markets Equity,U.S. Leveraged Loans,0.56
+Emerging Markets Equity,World Government Bonds hedged,0.08
+Emerging Markets Equity,World Government Bonds,0.41
+Emerging Markets Equity,World ex-U.S. Government Bonds hedged,0.11
+Emerging Markets Equity,World ex-U.S. Government Bonds,0.48
+Emerging Markets Equity,Emerging Markets Sovereign Debt,0.7
+Emerging Markets Equity,Emerging Markets Local Currency Debt,0.8
+Emerging Markets Equity,Emerging Markets Corporate Bonds,0.7
+Emerging Markets Equity,U.S. Muni 1-15 Yr Blend,0.27
+Emerging Markets Equity,U.S. Muni High Yield,0.38
+Emerging Markets Equity,U.S. Large Cap,0.73
+Emerging Markets Equity,U.S. Mid Cap,0.74
+Emerging Markets Equity,U.S. Small Cap,0.66
+Emerging Markets Equity,Euro Area Large Cap,0.82
+Emerging Markets Equity,Japanese Equity,0.71
+Emerging Markets Equity,Hong Kong Equity,0.83
+Emerging Markets Equity,UK Large Cap,0.81
+Emerging Markets Equity,EAFE Equity,0.86
+Emerging Markets Equity,Chinese Domestic Equity,0.57
+Emerging Markets Equity,Emerging Markets Equity,1.0
+AC Asia ex-Japan Equity,U.S. Inflation,-0.07
+AC Asia ex-Japan Equity,U.S. Cash,0.03
+AC Asia ex-Japan Equity,U.S. Intermediate Treasuries,0.03
+AC Asia ex-Japan Equity,U.S. Long Treasuries,0.06
+AC Asia ex-Japan Equity,TIPS,0.33
+AC Asia ex-Japan Equity,U.S. Aggregate Bonds,0.34
+AC Asia ex-Japan Equity,U.S. Securitized,0.32
+AC Asia ex-Japan Equity,U.S. Short Duration Government/Credit,0.26
+AC Asia ex-Japan Equity,U.S. Long Duration Government/Credit,0.33
+AC Asia ex-Japan Equity,U.S. Inv Grade Corporate Bonds,0.56
+AC Asia ex-Japan Equity,U.S. Long Corporate Bonds,0.53
+AC Asia ex-Japan Equity,U.S. High Yield Bonds,0.69
+AC Asia ex-Japan Equity,U.S. Leveraged Loans,0.53
+AC Asia ex-Japan Equity,World Government Bonds hedged,0.11
+AC Asia ex-Japan Equity,World Government Bonds,0.4
+AC Asia ex-Japan Equity,World ex-U.S. Government Bonds hedged,0.12
+AC Asia ex-Japan Equity,World ex-U.S. Government Bonds,0.46
+AC Asia ex-Japan Equity,Emerging Markets Sovereign Debt,0.68
+AC Asia ex-Japan Equity,Emerging Markets Local Currency Debt,0.76
+AC Asia ex-Japan Equity,Emerging Markets Corporate Bonds,0.69
+AC Asia ex-Japan Equity,U.S. Muni 1-15 Yr Blend,0.29
+AC Asia ex-Japan Equity,U.S. Muni High Yield,0.38
+AC Asia ex-Japan Equity,U.S. Large Cap,0.7
+AC Asia ex-Japan Equity,U.S. Mid Cap,0.7
+AC Asia ex-Japan Equity,U.S. Small Cap,0.63
+AC Asia ex-Japan Equity,Euro Area Large Cap,0.78
+AC Asia ex-Japan Equity,Japanese Equity,0.69
+AC Asia ex-Japan Equity,Hong Kong Equity,0.88
+AC Asia ex-Japan Equity,UK Large Cap,0.76
+AC Asia ex-Japan Equity,EAFE Equity,0.82
+AC Asia ex-Japan Equity,Chinese Domestic Equity,0.62
+AC Asia ex-Japan Equity,Emerging Markets Equity,0.98
+AC Asia ex-Japan Equity,AC Asia ex-Japan Equity,1.0
+AC World Equity,U.S. Inflation,-0.02
+AC World Equity,U.S. Cash,0.03
+AC World Equity,U.S. Intermediate Treasuries,0.0
+AC World Equity,U.S. Long Treasuries,0.01
+AC World Equity,TIPS,0.37
+AC World Equity,U.S. Aggregate Bonds,0.33
+AC World Equity,U.S. Securitized,0.32
+AC World Equity,U.S. Short Duration Government/Credit,0.21
+AC World Equity,U.S. Long Duration Government/Credit,0.32
+AC World Equity,U.S. Inv Grade Corporate Bonds,0.56
+AC World Equity,U.S. Long Corporate Bonds,0.54
+AC World Equity,U.S. High Yield Bonds,0.79
+AC World Equity,U.S. Leveraged Loans,0.61
+AC World Equity,World Government Bonds hedged,0.13
+AC World Equity,World Government Bonds,0.39
+AC World Equity,World ex-U.S. Government Bonds hedged,0.19
+AC World Equity,World ex-U.S. Government Bonds,0.47
+AC World Equity,Emerging Markets Sovereign Debt,0.7
+AC World Equity,Emerging Markets Local Currency Debt,0.71
+AC World Equity,Emerging Markets Corporate Bonds,0.64
+AC World Equity,U.S. Muni 1-15 Yr Blend,0.29
+AC World Equity,U.S. Muni High Yield,0.37
+AC World Equity,U.S. Large Cap,0.97
+AC World Equity,U.S. Mid Cap,0.94
+AC World Equity,U.S. Small Cap,0.87
+AC World Equity,Euro Area Large Cap,0.92
+AC World Equity,Japanese Equity,0.82
+AC World Equity,Hong Kong Equity,0.68
+AC World Equity,UK Large Cap,0.9
+AC World Equity,EAFE Equity,0.96
+AC World Equity,Chinese Domestic Equity,0.41
+AC World Equity,Emerging Markets Equity,0.86
+AC World Equity,AC Asia ex-Japan Equity,0.82
+AC World Equity,AC World Equity,1.0
+U.S. Equity Value Factor,U.S. Inflation,-0.04
+U.S. Equity Value Factor,U.S. Cash,-0.03
+U.S. Equity Value Factor,U.S. Intermediate Treasuries,-0.05
+U.S. Equity Value Factor,U.S. Long Treasuries,-0.04
+U.S. Equity Value Factor,TIPS,0.29
+U.S. Equity Value Factor,U.S. Aggregate Bonds,0.25
+U.S. Equity Value Factor,U.S. Securitized,0.27
+U.S. Equity Value Factor,U.S. Short Duration Government/Credit,0.13
+U.S. Equity Value Factor,U.S. Long Duration Government/Credit,0.24
+U.S. Equity Value Factor,U.S. Inv Grade Corporate Bonds,0.47
+U.S. Equity Value Factor,U.S. Long Corporate Bonds,0.45
+U.S. Equity Value Factor,U.S. High Yield Bonds,0.75
+U.S. Equity Value Factor,U.S. Leveraged Loans,0.57
+U.S. Equity Value Factor,World Government Bonds hedged,0.09
+U.S. Equity Value Factor,World Government Bonds,0.28
+U.S. Equity Value Factor,World ex-U.S. Government Bonds hedged,0.17
+U.S. Equity Value Factor,World ex-U.S. Government Bonds,0.35
+U.S. Equity Value Factor,Emerging Markets Sovereign Debt,0.6
+U.S. Equity Value Factor,Emerging Markets Local Currency Debt,0.59
+U.S. Equity Value Factor,Emerging Markets Corporate Bonds,0.54
+U.S. Equity Value Factor,U.S. Muni 1-15 Yr Blend,0.25
+U.S. Equity Value Factor,U.S. Muni High Yield,0.3
+U.S. Equity Value Factor,U.S. Large Cap,0.96
+U.S. Equity Value Factor,U.S. Mid Cap,0.96
+U.S. Equity Value Factor,U.S. Small Cap,0.93
+U.S. Equity Value Factor,Euro Area Large Cap,0.83
+U.S. Equity Value Factor,Japanese Equity,0.74
+U.S. Equity Value Factor,Hong Kong Equity,0.55
+U.S. Equity Value Factor,UK Large Cap,0.82
+U.S. Equity Value Factor,EAFE Equity,0.86
+U.S. Equity Value Factor,Chinese Domestic Equity,0.32
+U.S. Equity Value Factor,Emerging Markets Equity,0.72
+U.S. Equity Value Factor,AC Asia ex-Japan Equity,0.68
+U.S. Equity Value Factor,AC World Equity,0.94
+U.S. Equity Value Factor,U.S. Equity Value Factor,1.0
+U.S. Equity Momentum Factor,U.S. Inflation,0.0
+U.S. Equity Momentum Factor,U.S. Cash,0.02
+U.S. Equity Momentum Factor,U.S. Intermediate Treasuries,-0.02
+U.S. Equity Momentum Factor,U.S. Long Treasuries,0.03
+U.S. Equity Momentum Factor,TIPS,0.37
+U.S. Equity Momentum Factor,U.S. Aggregate Bonds,0.3
+U.S. Equity Momentum Factor,U.S. Securitized,0.29
+U.S. Equity Momentum Factor,U.S. Short Duration Government/Credit,0.15
+U.S. Equity Momentum Factor,U.S. Long Duration Government/Credit,0.3
+U.S. Equity Momentum Factor,U.S. Inv Grade Corporate Bonds,0.52
+U.S. Equity Momentum Factor,U.S. Long Corporate Bonds,0.5
+U.S. Equity Momentum Factor,U.S. High Yield Bonds,0.76
+U.S. Equity Momentum Factor,U.S. Leveraged Loans,0.6
+U.S. Equity Momentum Factor,World Government Bonds hedged,0.14
+U.S. Equity Momentum Factor,World Government Bonds,0.3
+U.S. Equity Momentum Factor,World ex-U.S. Government Bonds hedged,0.22
+U.S. Equity Momentum Factor,World ex-U.S. Government Bonds,0.36
+U.S. Equity Momentum Factor,Emerging Markets Sovereign Debt,0.63
+U.S. Equity Momentum Factor,Emerging Markets Local Currency Debt,0.56
+U.S. Equity Momentum Factor,Emerging Markets Corporate Bonds,0.55
+U.S. Equity Momentum Factor,U.S. Muni 1-15 Yr Blend,0.3
+U.S. Equity Momentum Factor,U.S. Muni High Yield,0.38
+U.S. Equity Momentum Factor,U.S. Large Cap,0.97
+U.S. Equity Momentum Factor,U.S. Mid Cap,0.96
+U.S. Equity Momentum Factor,U.S. Small Cap,0.89
+U.S. Equity Momentum Factor,Euro Area Large Cap,0.8
+U.S. Equity Momentum Factor,Japanese Equity,0.72
+U.S. Equity Momentum Factor,Hong Kong Equity,0.54
+U.S. Equity Momentum Factor,UK Large Cap,0.77
+U.S. Equity Momentum Factor,EAFE Equity,0.84
+U.S. Equity Momentum Factor,Chinese Domestic Equity,0.35
+U.S. Equity Momentum Factor,Emerging Markets Equity,0.72
+U.S. Equity Momentum Factor,AC Asia ex-Japan Equity,0.69
+U.S. Equity Momentum Factor,AC World Equity,0.94
+U.S. Equity Momentum Factor,U.S. Equity Value Factor,0.91
+U.S. Equity Momentum Factor,U.S. Equity Momentum Factor,1.0
+U.S. Equity Quality Factor,U.S. Inflation,-0.03
+U.S. Equity Quality Factor,U.S. Cash,0.01
+U.S. Equity Quality Factor,U.S. Intermediate Treasuries,0.01
+U.S. Equity Quality Factor,U.S. Long Treasuries,0.04
+U.S. Equity Quality Factor,TIPS,0.35
+U.S. Equity Quality Factor,U.S. Aggregate Bonds,0.31
+U.S. Equity Quality Factor,U.S. Securitized,0.31
+U.S. Equity Quality Factor,U.S. Short Duration Government/Credit,0.17
+U.S. Equity Quality Factor,U.S. Long Duration Government/Credit,0.31
+U.S. Equity Quality Factor,U.S. Inv Grade Corporate Bonds,0.52
+U.S. Equity Quality Factor,U.S. Long Corporate Bonds,0.5
+U.S. Equity Quality Factor,U.S. High Yield Bonds,0.73
+U.S. Equity Quality Factor,U.S. Leveraged Loans,0.55
+U.S. Equity Quality Factor,World Government Bonds hedged,0.16
+U.S. Equity Quality Factor,World Government Bonds,0.33
+U.S. Equity Quality Factor,World ex-U.S. Government Bonds hedged,0.24
+U.S. Equity Quality Factor,World ex-U.S. Government Bonds,0.39
+U.S. Equity Quality Factor,Emerging Markets Sovereign Debt,0.64
+U.S. Equity Quality Factor,Emerging Markets Local Currency Debt,0.6
+U.S. Equity Quality Factor,Emerging Markets Corporate Bonds,0.56
+U.S. Equity Quality Factor,U.S. Muni 1-15 Yr Blend,0.31
+U.S. Equity Quality Factor,U.S. Muni High Yield,0.34
+U.S. Equity Quality Factor,U.S. Large Cap,0.99
+U.S. Equity Quality Factor,U.S. Mid Cap,0.95
+U.S. Equity Quality Factor,U.S. Small Cap,0.89
+U.S. Equity Quality Factor,Euro Area Large Cap,0.83
+U.S. Equity Quality Factor,Japanese Equity,0.73
+U.S. Equity Quality Factor,Hong Kong Equity,0.54
+U.S. Equity Quality Factor,UK Large Cap,0.8
+U.S. Equity Quality Factor,EAFE Equity,0.87
+U.S. Equity Quality Factor,Chinese Domestic Equity,0.33
+U.S. Equity Quality Factor,Emerging Markets Equity,0.71
+U.S. Equity Quality Factor,AC Asia ex-Japan Equity,0.68
+U.S. Equity Quality Factor,AC World Equity,0.95
+U.S. Equity Quality Factor,U.S. Equity Value Factor,0.96
+U.S. Equity Quality Factor,U.S. Equity Momentum Factor,0.96
+U.S. Equity Quality Factor,U.S. Equity Quality Factor,1.0
+U.S. Equity Minimum Volatility Factor,U.S. Inflation,-0.02
+U.S. Equity Minimum Volatility Factor,U.S. Cash,-0.06
+U.S. Equity Minimum Volatility Factor,U.S. Intermediate Treasuries,0.02
+U.S. Equity Minimum Volatility Factor,U.S. Long Treasuries,0.07
+U.S. Equity Minimum Volatility Factor,TIPS,0.36
+U.S. Equity Minimum Volatility Factor,U.S. Aggregate Bonds,0.32
+U.S. Equity Minimum Volatility Factor,U.S. Securitized,0.31
+U.S. Equity Minimum Volatility Factor,U.S. Short Duration Government/Credit,0.16
+U.S. Equity Minimum Volatility Factor,U.S. Long Duration Government/Credit,0.33
+U.S. Equity Minimum Volatility Factor,U.S. Inv Grade Corporate Bonds,0.52
+U.S. Equity Minimum Volatility Factor,U.S. Long Corporate Bonds,0.51
+U.S. Equity Minimum Volatility Factor,U.S. High Yield Bonds,0.72
+U.S. Equity Minimum Volatility Factor,U.S. Leveraged Loans,0.53
+U.S. Equity Minimum Volatility Factor,World Government Bonds hedged,0.17
+U.S. Equity Minimum Volatility Factor,World Government Bonds,0.33
+U.S. Equity Minimum Volatility Factor,World ex-U.S. Government Bonds hedged,0.24
+U.S. Equity Minimum Volatility Factor,World ex-U.S. Government Bonds,0.4
+U.S. Equity Minimum Volatility Factor,Emerging Markets Sovereign Debt,0.64
+U.S. Equity Minimum Volatility Factor,Emerging Markets Local Currency Debt,0.61
+U.S. Equity Minimum Volatility Factor,Emerging Markets Corporate Bonds,0.54
+U.S. Equity Minimum Volatility Factor,U.S. Muni 1-15 Yr Blend,0.31
+U.S. Equity Minimum Volatility Factor,U.S. Muni High Yield,0.35
+U.S. Equity Minimum Volatility Factor,U.S. Large Cap,0.92
+U.S. Equity Minimum Volatility Factor,U.S. Mid Cap,0.91
+U.S. Equity Minimum Volatility Factor,U.S. Small Cap,0.84
+U.S. Equity Minimum Volatility Factor,Euro Area Large Cap,0.78
+U.S. Equity Minimum Volatility Factor,Japanese Equity,0.68
+U.S. Equity Minimum Volatility Factor,Hong Kong Equity,0.53
+U.S. Equity Minimum Volatility Factor,UK Large Cap,0.78
+U.S. Equity Minimum Volatility Factor,EAFE Equity,0.83
+U.S. Equity Minimum Volatility Factor,Chinese Domestic Equity,0.29
+U.S. Equity Minimum Volatility Factor,Emerging Markets Equity,0.68
+U.S. Equity Minimum Volatility Factor,AC Asia ex-Japan Equity,0.64
+U.S. Equity Minimum Volatility Factor,AC World Equity,0.89
+U.S. Equity Minimum Volatility Factor,U.S. Equity Value Factor,0.92
+U.S. Equity Minimum Volatility Factor,U.S. Equity Momentum Factor,0.89
+U.S. Equity Minimum Volatility Factor,U.S. Equity Quality Factor,0.94
+U.S. Equity Minimum Volatility Factor,U.S. Equity Minimum Volatility Factor,1.0
+U.S. Equity Dividend Yield Factor,U.S. Inflation,-0.02
+U.S. Equity Dividend Yield Factor,U.S. Cash,-0.06
+U.S. Equity Dividend Yield Factor,U.S. Intermediate Treasuries,-0.03
+U.S. Equity Dividend Yield Factor,U.S. Long Treasuries,0.0
+U.S. Equity Dividend Yield Factor,TIPS,0.33
+U.S. Equity Dividend Yield Factor,U.S. Aggregate Bonds,0.28
+U.S. Equity Dividend Yield Factor,U.S. Securitized,0.29
+U.S. Equity Dividend Yield Factor,U.S. Short Duration Government/Credit,0.15
+U.S. Equity Dividend Yield Factor,U.S. Long Duration Government/Credit,0.28
+U.S. Equity Dividend Yield Factor,U.S. Inv Grade Corporate Bonds,0.49
+U.S. Equity Dividend Yield Factor,U.S. Long Corporate Bonds,0.48
+U.S. Equity Dividend Yield Factor,U.S. High Yield Bonds,0.74
+U.S. Equity Dividend Yield Factor,U.S. Leveraged Loans,0.57
+U.S. Equity Dividend Yield Factor,World Government Bonds hedged,0.1
+U.S. Equity Dividend Yield Factor,World Government Bonds,0.3
+U.S. Equity Dividend Yield Factor,World ex-U.S. Government Bonds hedged,0.17
+U.S. Equity Dividend Yield Factor,World ex-U.S. Government Bonds,0.37
+U.S. Equity Dividend Yield Factor,Emerging Markets Sovereign Debt,0.62
+U.S. Equity Dividend Yield Factor,Emerging Markets Local Currency Debt,0.62
+U.S. Equity Dividend Yield Factor,Emerging Markets Corporate Bonds,0.55
+U.S. Equity Dividend Yield Factor,U.S. Muni 1-15 Yr Blend,0.29
+U.S. Equity Dividend Yield Factor,U.S. Muni High Yield,0.32
+U.S. Equity Dividend Yield Factor,U.S. Large Cap,0.92
+U.S. Equity Dividend Yield Factor,U.S. Mid Cap,0.94
+U.S. Equity Dividend Yield Factor,U.S. Small Cap,0.89
+U.S. Equity Dividend Yield Factor,Euro Area Large Cap,0.81
+U.S. Equity Dividend Yield Factor,Japanese Equity,0.7
+U.S. Equity Dividend Yield Factor,Hong Kong Equity,0.57
+U.S. Equity Dividend Yield Factor,UK Large Cap,0.82
+U.S. Equity Dividend Yield Factor,EAFE Equity,0.85
+U.S. Equity Dividend Yield Factor,Chinese Domestic Equity,0.3
+U.S. Equity Dividend Yield Factor,Emerging Markets Equity,0.72
+U.S. Equity Dividend Yield Factor,AC Asia ex-Japan Equity,0.68
+U.S. Equity Dividend Yield Factor,AC World Equity,0.91
+U.S. Equity Dividend Yield Factor,U.S. Equity Value Factor,0.96
+U.S. Equity Dividend Yield Factor,U.S. Equity Momentum Factor,0.87
+U.S. Equity Dividend Yield Factor,U.S. Equity Quality Factor,0.93
+U.S. Equity Dividend Yield Factor,U.S. Equity Minimum Volatility Factor,0.95
+U.S. Equity Dividend Yield Factor,U.S. Equity Dividend Yield Factor,1.0
+Global Convertible Bonds hedged,U.S. Inflation,-0.11
+Global Convertible Bonds hedged,U.S. Cash,0.0
+Global Convertible Bonds hedged,U.S. Intermediate Treasuries,-0.03
+Global Convertible Bonds hedged,U.S. Long Treasuries,0.04
+Global Convertible Bonds hedged,TIPS,0.38
+Global Convertible Bonds hedged,U.S. Aggregate Bonds,0.35
+Global Convertible Bonds hedged,U.S. Securitized,0.33
+Global Convertible Bonds hedged,U.S. Short Duration Government/Credit,0.22
+Global Convertible Bonds hedged,U.S. Long Duration Government/Credit,0.34
+Global Convertible Bonds hedged,U.S. Inv Grade Corporate Bonds,0.61
+Global Convertible Bonds hedged,U.S. Long Corporate Bonds,0.57
+Global Convertible Bonds hedged,U.S. High Yield Bonds,0.82
+Global Convertible Bonds hedged,U.S. Leveraged Loans,0.68
+Global Convertible Bonds hedged,World Government Bonds hedged,0.14
+Global Convertible Bonds hedged,World Government Bonds,0.31
+Global Convertible Bonds hedged,World ex-U.S. Government Bonds hedged,0.21
+Global Convertible Bonds hedged,World ex-U.S. Government Bonds,0.38
+Global Convertible Bonds hedged,Emerging Markets Sovereign Debt,0.71
+Global Convertible Bonds hedged,Emerging Markets Local Currency Debt,0.62
+Global Convertible Bonds hedged,Emerging Markets Corporate Bonds,0.7
+Global Convertible Bonds hedged,U.S. Muni 1-15 Yr Blend,0.34
+Global Convertible Bonds hedged,U.S. Muni High Yield,0.41
+Global Convertible Bonds hedged,U.S. Large Cap,0.86
+Global Convertible Bonds hedged,U.S. Mid Cap,0.89
+Global Convertible Bonds hedged,U.S. Small Cap,0.83
+Global Convertible Bonds hedged,Euro Area Large Cap,0.8
+Global Convertible Bonds hedged,Japanese Equity,0.75
+Global Convertible Bonds hedged,Hong Kong Equity,0.65
+Global Convertible Bonds hedged,UK Large Cap,0.77
+Global Convertible Bonds hedged,EAFE Equity,0.85
+Global Convertible Bonds hedged,Chinese Domestic Equity,0.47
+Global Convertible Bonds hedged,Emerging Markets Equity,0.8
+Global Convertible Bonds hedged,AC Asia ex-Japan Equity,0.78
+Global Convertible Bonds hedged,AC World Equity,0.9
+Global Convertible Bonds hedged,U.S. Equity Value Factor,0.83
+Global Convertible Bonds hedged,U.S. Equity Momentum Factor,0.89
+Global Convertible Bonds hedged,U.S. Equity Quality Factor,0.84
+Global Convertible Bonds hedged,U.S. Equity Minimum Volatility Factor,0.77
+Global Convertible Bonds hedged,U.S. Equity Dividend Yield Factor,0.79
+Global Convertible Bonds hedged,Global Convertible Bonds hedged,1.0
+U.S. Core Real Estate,U.S. Inflation,0.34
+U.S. Core Real Estate,U.S. Cash,-0.12
+U.S. Core Real Estate,U.S. Intermediate Treasuries,-0.28
+U.S. Core Real Estate,U.S. Long Treasuries,-0.19
+U.S. Core Real Estate,TIPS,0.07
+U.S. Core Real Estate,U.S. Aggregate Bonds,-0.15
+U.S. Core Real Estate,U.S. Securitized,-0.11
+U.S. Core Real Estate,U.S. Short Duration Government/Credit,-0.23
+U.S. Core Real Estate,U.S. Long Duration Government/Credit,-0.14
+U.S. Core Real Estate,U.S. Inv Grade Corporate Bonds,-0.02
+U.S. Core Real Estate,U.S. Long Corporate Bonds,-0.05
+U.S. Core Real Estate,U.S. High Yield Bonds,0.32
+U.S. Core Real Estate,U.S. Leveraged Loans,0.42
+U.S. Core Real Estate,World Government Bonds hedged,-0.2
+U.S. Core Real Estate,World Government Bonds,-0.17
+U.S. Core Real Estate,World ex-U.S. Government Bonds hedged,-0.17
+U.S. Core Real Estate,World ex-U.S. Government Bonds,-0.15
+U.S. Core Real Estate,Emerging Markets Sovereign Debt,0.09
+U.S. Core Real Estate,Emerging Markets Local Currency Debt,0.1
+U.S. Core Real Estate,Emerging Markets Corporate Bonds,0.2
+U.S. Core Real Estate,U.S. Muni 1-15 Yr Blend,-0.22
+U.S. Core Real Estate,U.S. Muni High Yield,0.33
+U.S. Core Real Estate,U.S. Large Cap,0.35
+U.S. Core Real Estate,U.S. Mid Cap,0.32
+U.S. Core Real Estate,U.S. Small Cap,0.28
+U.S. Core Real Estate,Euro Area Large Cap,0.2
+U.S. Core Real Estate,Japanese Equity,0.24
+U.S. Core Real Estate,Hong Kong Equity,0.19
+U.S. Core Real Estate,UK Large Cap,0.32
+U.S. Core Real Estate,EAFE Equity,0.26
+U.S. Core Real Estate,Chinese Domestic Equity,0.13
+U.S. Core Real Estate,Emerging Markets Equity,0.28
+U.S. Core Real Estate,AC Asia ex-Japan Equity,0.27
+U.S. Core Real Estate,AC World Equity,0.32
+U.S. Core Real Estate,U.S. Equity Value Factor,0.32
+U.S. Core Real Estate,U.S. Equity Momentum Factor,0.32
+U.S. Core Real Estate,U.S. Equity Quality Factor,0.31
+U.S. Core Real Estate,U.S. Equity Minimum Volatility Factor,0.35
+U.S. Core Real Estate,U.S. Equity Dividend Yield Factor,0.31
+U.S. Core Real Estate,Global Convertible Bonds hedged,0.23
+U.S. Core Real Estate,U.S. Core Real Estate,1.0
+U.S. Value-Added Real Estate,U.S. Inflation,0.34
+U.S. Value-Added Real Estate,U.S. Cash,-0.12
+U.S. Value-Added Real Estate,U.S. Intermediate Treasuries,-0.28
+U.S. Value-Added Real Estate,U.S. Long Treasuries,-0.19
+U.S. Value-Added Real Estate,TIPS,0.07
+U.S. Value-Added Real Estate,U.S. Aggregate Bonds,-0.15
+U.S. Value-Added Real Estate,U.S. Securitized,-0.11
+U.S. Value-Added Real Estate,U.S. Short Duration Government/Credit,-0.23
+U.S. Value-Added Real Estate,U.S. Long Duration Government/Credit,-0.14
+U.S. Value-Added Real Estate,U.S. Inv Grade Corporate Bonds,-0.02
+U.S. Value-Added Real Estate,U.S. Long Corporate Bonds,-0.05
+U.S. Value-Added Real Estate,U.S. High Yield Bonds,0.32
+U.S. Value-Added Real Estate,U.S. Leveraged Loans,0.42
+U.S. Value-Added Real Estate,World Government Bonds hedged,-0.2
+U.S. Value-Added Real Estate,World Government Bonds,-0.17
+U.S. Value-Added Real Estate,World ex-U.S. Government Bonds hedged,-0.17
+U.S. Value-Added Real Estate,World ex-U.S. Government Bonds,-0.15
+U.S. Value-Added Real Estate,Emerging Markets Sovereign Debt,0.09
+U.S. Value-Added Real Estate,Emerging Markets Local Currency Debt,0.1
+U.S. Value-Added Real Estate,Emerging Markets Corporate Bonds,0.2
+U.S. Value-Added Real Estate,U.S. Muni 1-15 Yr Blend,-0.22
+U.S. Value-Added Real Estate,U.S. Muni High Yield,0.33
+U.S. Value-Added Real Estate,U.S. Large Cap,0.35
+U.S. Value-Added Real Estate,U.S. Mid Cap,0.32
+U.S. Value-Added Real Estate,U.S. Small Cap,0.28
+U.S. Value-Added Real Estate,Euro Area Large Cap,0.2
+U.S. Value-Added Real Estate,Japanese Equity,0.24
+U.S. Value-Added Real Estate,Hong Kong Equity,0.19
+U.S. Value-Added Real Estate,UK Large Cap,0.32
+U.S. Value-Added Real Estate,EAFE Equity,0.26
+U.S. Value-Added Real Estate,Chinese Domestic Equity,0.13
+U.S. Value-Added Real Estate,Emerging Markets Equity,0.28
+U.S. Value-Added Real Estate,AC Asia ex-Japan Equity,0.27
+U.S. Value-Added Real Estate,AC World Equity,0.32
+U.S. Value-Added Real Estate,U.S. Equity Value Factor,0.32
+U.S. Value-Added Real Estate,U.S. Equity Momentum Factor,0.32
+U.S. Value-Added Real Estate,U.S. Equity Quality Factor,0.31
+U.S. Value-Added Real Estate,U.S. Equity Minimum Volatility Factor,0.35
+U.S. Value-Added Real Estate,U.S. Equity Dividend Yield Factor,0.31
+U.S. Value-Added Real Estate,Global Convertible Bonds hedged,0.23
+U.S. Value-Added Real Estate,U.S. Core Real Estate,1.0
+U.S. Value-Added Real Estate,U.S. Value-Added Real Estate,1.0
+European Core Real Estate,U.S. Inflation,0.37
+European Core Real Estate,U.S. Cash,-0.02
+European Core Real Estate,U.S. Intermediate Treasuries,-0.29
+European Core Real Estate,U.S. Long Treasuries,-0.27
+European Core Real Estate,TIPS,0.19
+European Core Real Estate,U.S. Aggregate Bonds,-0.08
+European Core Real Estate,U.S. Securitized,-0.05
+European Core Real Estate,U.S. Short Duration Government/Credit,-0.1
+European Core Real Estate,U.S. Long Duration Government/Credit,-0.11
+European Core Real Estate,U.S. Inv Grade Corporate Bonds,0.14
+European Core Real Estate,U.S. Long Corporate Bonds,0.07
+European Core Real Estate,U.S. High Yield Bonds,0.49
+European Core Real Estate,U.S. Leveraged Loans,0.52
+European Core Real Estate,World Government Bonds hedged,-0.2
+European Core Real Estate,World Government Bonds,0.06
+European Core Real Estate,World ex-U.S. Government Bonds hedged,-0.15
+European Core Real Estate,World ex-U.S. Government Bonds,0.13
+European Core Real Estate,Emerging Markets Sovereign Debt,0.3
+European Core Real Estate,Emerging Markets Local Currency Debt,0.37
+European Core Real Estate,Emerging Markets Corporate Bonds,0.4
+European Core Real Estate,U.S. Muni 1-15 Yr Blend,-0.07
+European Core Real Estate,U.S. Muni High Yield,0.34
+European Core Real Estate,U.S. Large Cap,0.54
+European Core Real Estate,U.S. Mid Cap,0.5
+European Core Real Estate,U.S. Small Cap,0.43
+European Core Real Estate,Euro Area Large Cap,0.51
+European Core Real Estate,Japanese Equity,0.41
+European Core Real Estate,Hong Kong Equity,0.46
+European Core Real Estate,UK Large Cap,0.58
+European Core Real Estate,EAFE Equity,0.55
+European Core Real Estate,Chinese Domestic Equity,0.4
+European Core Real Estate,Emerging Markets Equity,0.61
+European Core Real Estate,AC Asia ex-Japan Equity,0.57
+European Core Real Estate,AC World Equity,0.58
+European Core Real Estate,U.S. Equity Value Factor,0.47
+European Core Real Estate,U.S. Equity Momentum Factor,0.53
+European Core Real Estate,U.S. Equity Quality Factor,0.49
+European Core Real Estate,U.S. Equity Minimum Volatility Factor,0.43
+European Core Real Estate,U.S. Equity Dividend Yield Factor,0.43
+European Core Real Estate,Global Convertible Bonds hedged,0.53
+European Core Real Estate,U.S. Core Real Estate,0.65
+European Core Real Estate,U.S. Value-Added Real Estate,0.65
+European Core Real Estate,European Core Real Estate,1.0
+Asia Pacific Core Real Estate,U.S. Inflation,0.2
+Asia Pacific Core Real Estate,U.S. Cash,-0.11
+Asia Pacific Core Real Estate,U.S. Intermediate Treasuries,-0.24
+Asia Pacific Core Real Estate,U.S. Long Treasuries,-0.22
+Asia Pacific Core Real Estate,TIPS,0.25
+Asia Pacific Core Real Estate,U.S. Aggregate Bonds,0.05
+Asia Pacific Core Real Estate,U.S. Securitized,0.08
+Asia Pacific Core Real Estate,U.S. Short Duration Government/Credit,-0.03
+Asia Pacific Core Real Estate,U.S. Long Duration Government/Credit,0.02
+Asia Pacific Core Real Estate,U.S. Inv Grade Corporate Bonds,0.32
+Asia Pacific Core Real Estate,U.S. Long Corporate Bonds,0.26
+Asia Pacific Core Real Estate,U.S. High Yield Bonds,0.65
+Asia Pacific Core Real Estate,U.S. Leveraged Loans,0.64
+Asia Pacific Core Real Estate,World Government Bonds hedged,-0.17
+Asia Pacific Core Real Estate,World Government Bonds,0.16
+Asia Pacific Core Real Estate,World ex-U.S. Government Bonds hedged,-0.12
+Asia Pacific Core Real Estate,World ex-U.S. Government Bonds,0.24
+Asia Pacific Core Real Estate,Emerging Markets Sovereign Debt,0.47
+Asia Pacific Core Real Estate,Emerging Markets Local Currency Debt,0.51
+Asia Pacific Core Real Estate,Emerging Markets Corporate Bonds,0.54
+Asia Pacific Core Real Estate,U.S. Muni 1-15 Yr Blend,0.15
+Asia Pacific Core Real Estate,U.S. Muni High Yield,0.48
+Asia Pacific Core Real Estate,U.S. Large Cap,0.57
+Asia Pacific Core Real Estate,U.S. Mid Cap,0.62
+Asia Pacific Core Real Estate,U.S. Small Cap,0.53
+Asia Pacific Core Real Estate,Euro Area Large Cap,0.61
+Asia Pacific Core Real Estate,Japanese Equity,0.51
+Asia Pacific Core Real Estate,Hong Kong Equity,0.64
+Asia Pacific Core Real Estate,UK Large Cap,0.69
+Asia Pacific Core Real Estate,EAFE Equity,0.66
+Asia Pacific Core Real Estate,Chinese Domestic Equity,0.36
+Asia Pacific Core Real Estate,Emerging Markets Equity,0.7
+Asia Pacific Core Real Estate,AC Asia ex-Japan Equity,0.67
+Asia Pacific Core Real Estate,AC World Equity,0.65
+Asia Pacific Core Real Estate,U.S. Equity Value Factor,0.59
+Asia Pacific Core Real Estate,U.S. Equity Momentum Factor,0.57
+Asia Pacific Core Real Estate,U.S. Equity Quality Factor,0.55
+Asia Pacific Core Real Estate,U.S. Equity Minimum Volatility Factor,0.6
+Asia Pacific Core Real Estate,U.S. Equity Dividend Yield Factor,0.63
+Asia Pacific Core Real Estate,Global Convertible Bonds hedged,0.6
+Asia Pacific Core Real Estate,U.S. Core Real Estate,0.55
+Asia Pacific Core Real Estate,U.S. Value-Added Real Estate,0.55
+Asia Pacific Core Real Estate,European Core Real Estate,0.63
+Asia Pacific Core Real Estate,Asia Pacific Core Real Estate,1.0
+U.S. REITs,U.S. Inflation,-0.02
+U.S. REITs,U.S. Cash,-0.05
+U.S. REITs,U.S. Intermediate Treasuries,0.13
+U.S. REITs,U.S. Long Treasuries,0.23
+U.S. REITs,TIPS,0.41
+U.S. REITs,U.S. Aggregate Bonds,0.42
+U.S. REITs,U.S. Securitized,0.41
+U.S. REITs,U.S. Short Duration Government/Credit,0.21
+U.S. REITs,U.S. Long Duration Government/Credit,0.43
+U.S. REITs,U.S. Inv Grade Corporate Bonds,0.55
+U.S. REITs,U.S. Long Corporate Bonds,0.55
+U.S. REITs,U.S. High Yield Bonds,0.68
+U.S. REITs,U.S. Leveraged Loans,0.42
+U.S. REITs,World Government Bonds hedged,0.29
+U.S. REITs,World Government Bonds,0.39
+U.S. REITs,World ex-U.S. Government Bonds hedged,0.33
+U.S. REITs,World ex-U.S. Government Bonds,0.42
+U.S. REITs,Emerging Markets Sovereign Debt,0.62
+U.S. REITs,Emerging Markets Local Currency Debt,0.58
+U.S. REITs,Emerging Markets Corporate Bonds,0.52
+U.S. REITs,U.S. Muni 1-15 Yr Blend,0.34
+U.S. REITs,U.S. Muni High Yield,0.38
+U.S. REITs,U.S. Large Cap,0.77
+U.S. REITs,U.S. Mid Cap,0.79
+U.S. REITs,U.S. Small Cap,0.75
+U.S. REITs,Euro Area Large Cap,0.68
+U.S. REITs,Japanese Equity,0.58
+U.S. REITs,Hong Kong Equity,0.46
+U.S. REITs,UK Large Cap,0.64
+U.S. REITs,EAFE Equity,0.71
+U.S. REITs,Chinese Domestic Equity,0.18
+U.S. REITs,Emerging Markets Equity,0.59
+U.S. REITs,AC Asia ex-Japan Equity,0.57
+U.S. REITs,AC World Equity,0.76
+U.S. REITs,U.S. Equity Value Factor,0.78
+U.S. REITs,U.S. Equity Momentum Factor,0.74
+U.S. REITs,U.S. Equity Quality Factor,0.78
+U.S. REITs,U.S. Equity Minimum Volatility Factor,0.83
+U.S. REITs,U.S. Equity Dividend Yield Factor,0.81
+U.S. REITs,Global Convertible Bonds hedged,0.66
+U.S. REITs,U.S. Core Real Estate,0.44
+U.S. REITs,U.S. Value-Added Real Estate,0.44
+U.S. REITs,European Core Real Estate,0.36
+U.S. REITs,Asia Pacific Core Real Estate,0.59
+U.S. REITs,U.S. REITs,1.0
+Commercial Mortgage Loans,U.S. Inflation,0.07
+Commercial Mortgage Loans,U.S. Cash,0.03
+Commercial Mortgage Loans,U.S. Intermediate Treasuries,0.25
+Commercial Mortgage Loans,U.S. Long Treasuries,0.24
+Commercial Mortgage Loans,TIPS,0.55
+Commercial Mortgage Loans,U.S. Aggregate Bonds,0.48
+Commercial Mortgage Loans,U.S. Securitized,0.49
+Commercial Mortgage Loans,U.S. Short Duration Government/Credit,0.33
+Commercial Mortgage Loans,U.S. Long Duration Government/Credit,0.39
+Commercial Mortgage Loans,U.S. Inv Grade Corporate Bonds,0.51
+Commercial Mortgage Loans,U.S. Long Corporate Bonds,0.45
+Commercial Mortgage Loans,U.S. High Yield Bonds,0.5
+Commercial Mortgage Loans,U.S. Leveraged Loans,0.43
+Commercial Mortgage Loans,World Government Bonds hedged,0.36
+Commercial Mortgage Loans,World Government Bonds,0.31
+Commercial Mortgage Loans,World ex-U.S. Government Bonds hedged,0.37
+Commercial Mortgage Loans,World ex-U.S. Government Bonds,0.32
+Commercial Mortgage Loans,Emerging Markets Sovereign Debt,0.57
+Commercial Mortgage Loans,Emerging Markets Local Currency Debt,0.41
+Commercial Mortgage Loans,Emerging Markets Corporate Bonds,0.53
+Commercial Mortgage Loans,U.S. Muni 1-15 Yr Blend,0.51
+Commercial Mortgage Loans,U.S. Muni High Yield,0.59
+Commercial Mortgage Loans,U.S. Large Cap,0.31
+Commercial Mortgage Loans,U.S. Mid Cap,0.33
+Commercial Mortgage Loans,U.S. Small Cap,0.24
+Commercial Mortgage Loans,Euro Area Large Cap,0.29
+Commercial Mortgage Loans,Japanese Equity,0.15
+Commercial Mortgage Loans,Hong Kong Equity,0.3
+Commercial Mortgage Loans,UK Large Cap,0.28
+Commercial Mortgage Loans,EAFE Equity,0.29
+Commercial Mortgage Loans,Chinese Domestic Equity,0.23
+Commercial Mortgage Loans,Emerging Markets Equity,0.37
+Commercial Mortgage Loans,AC Asia ex-Japan Equity,0.35
+Commercial Mortgage Loans,AC World Equity,0.32
+Commercial Mortgage Loans,U.S. Equity Value Factor,0.27
+Commercial Mortgage Loans,U.S. Equity Momentum Factor,0.35
+Commercial Mortgage Loans,U.S. Equity Quality Factor,0.33
+Commercial Mortgage Loans,U.S. Equity Minimum Volatility Factor,0.38
+Commercial Mortgage Loans,U.S. Equity Dividend Yield Factor,0.32
+Commercial Mortgage Loans,Global Convertible Bonds hedged,0.35
+Commercial Mortgage Loans,U.S. Core Real Estate,0.31
+Commercial Mortgage Loans,U.S. Value-Added Real Estate,0.31
+Commercial Mortgage Loans,European Core Real Estate,0.3
+Commercial Mortgage Loans,Asia Pacific Core Real Estate,0.43
+Commercial Mortgage Loans,U.S. REITs,0.42
+Commercial Mortgage Loans,Commercial Mortgage Loans,1.0
+Global Core Infrastructure,U.S. Inflation,0.15
+Global Core Infrastructure,U.S. Cash,0.04
+Global Core Infrastructure,U.S. Intermediate Treasuries,-0.18
+Global Core Infrastructure,U.S. Long Treasuries,-0.22
+Global Core Infrastructure,TIPS,0.22
+Global Core Infrastructure,U.S. Aggregate Bonds,0.06
+Global Core Infrastructure,U.S. Securitized,0.07
+Global Core Infrastructure,U.S. Short Duration Government/Credit,0.05
+Global Core Infrastructure,U.S. Long Duration Government/Credit,0.01
+Global Core Infrastructure,U.S. Inv Grade Corporate Bonds,0.28
+Global Core Infrastructure,U.S. Long Corporate Bonds,0.23
+Global Core Infrastructure,U.S. High Yield Bonds,0.56
+Global Core Infrastructure,U.S. Leveraged Loans,0.57
+Global Core Infrastructure,World Government Bonds hedged,-0.14
+Global Core Infrastructure,World Government Bonds,0.23
+Global Core Infrastructure,World ex-U.S. Government Bonds hedged,-0.08
+Global Core Infrastructure,World ex-U.S. Government Bonds,0.33
+Global Core Infrastructure,Emerging Markets Sovereign Debt,0.48
+Global Core Infrastructure,Emerging Markets Local Currency Debt,0.54
+Global Core Infrastructure,Emerging Markets Corporate Bonds,0.48
+Global Core Infrastructure,U.S. Muni 1-15 Yr Blend,0.14
+Global Core Infrastructure,U.S. Muni High Yield,0.3
+Global Core Infrastructure,U.S. Large Cap,0.47
+Global Core Infrastructure,U.S. Mid Cap,0.48
+Global Core Infrastructure,U.S. Small Cap,0.43
+Global Core Infrastructure,Euro Area Large Cap,0.57
+Global Core Infrastructure,Japanese Equity,0.46
+Global Core Infrastructure,Hong Kong Equity,0.51
+Global Core Infrastructure,UK Large Cap,0.59
+Global Core Infrastructure,EAFE Equity,0.58
+Global Core Infrastructure,Chinese Domestic Equity,0.13
+Global Core Infrastructure,Emerging Markets Equity,0.58
+Global Core Infrastructure,AC Asia ex-Japan Equity,0.52
+Global Core Infrastructure,AC World Equity,0.55
+Global Core Infrastructure,U.S. Equity Value Factor,0.48
+Global Core Infrastructure,U.S. Equity Momentum Factor,0.46
+Global Core Infrastructure,U.S. Equity Quality Factor,0.47
+Global Core Infrastructure,U.S. Equity Minimum Volatility Factor,0.46
+Global Core Infrastructure,U.S. Equity Dividend Yield Factor,0.49
+Global Core Infrastructure,Global Convertible Bonds hedged,0.45
+Global Core Infrastructure,U.S. Core Real Estate,0.29
+Global Core Infrastructure,U.S. Value-Added Real Estate,0.29
+Global Core Infrastructure,European Core Real Estate,0.48
+Global Core Infrastructure,Asia Pacific Core Real Estate,0.56
+Global Core Infrastructure,U.S. REITs,0.38
+Global Core Infrastructure,Commercial Mortgage Loans,0.38
+Global Core Infrastructure,Global Core Infrastructure,1.0
+Global Core Transport,U.S. Inflation,0.25
+Global Core Transport,U.S. Cash,0.13
+Global Core Transport,U.S. Intermediate Treasuries,-0.01
+Global Core Transport,U.S. Long Treasuries,0.01
+Global Core Transport,TIPS,-0.11
+Global Core Transport,U.S. Aggregate Bonds,-0.16
+Global Core Transport,U.S. Securitized,-0.14
+Global Core Transport,U.S. Short Duration Government/Credit,-0.15
+Global Core Transport,U.S. Long Duration Government/Credit,-0.14
+Global Core Transport,U.S. Inv Grade Corporate Bonds,-0.33
+Global Core Transport,U.S. Long Corporate Bonds,-0.28
+Global Core Transport,U.S. High Yield Bonds,-0.23
+Global Core Transport,U.S. Leveraged Loans,-0.12
+Global Core Transport,World Government Bonds hedged,-0.06
+Global Core Transport,World Government Bonds,-0.12
+Global Core Transport,World ex-U.S. Government Bonds hedged,-0.1
+Global Core Transport,World ex-U.S. Government Bonds,-0.16
+Global Core Transport,Emerging Markets Sovereign Debt,-0.29
+Global Core Transport,Emerging Markets Local Currency Debt,-0.14
+Global Core Transport,Emerging Markets Corporate Bonds,-0.28
+Global Core Transport,U.S. Muni 1-15 Yr Blend,-0.25
+Global Core Transport,U.S. Muni High Yield,-0.1
+Global Core Transport,U.S. Large Cap,-0.07
+Global Core Transport,U.S. Mid Cap,-0.12
+Global Core Transport,U.S. Small Cap,-0.11
+Global Core Transport,Euro Area Large Cap,-0.08
+Global Core Transport,Japanese Equity,-0.23
+Global Core Transport,Hong Kong Equity,-0.12
+Global Core Transport,UK Large Cap,-0.13
+Global Core Transport,EAFE Equity,-0.14
+Global Core Transport,Chinese Domestic Equity,-0.13
+Global Core Transport,Emerging Markets Equity,-0.15
+Global Core Transport,AC Asia ex-Japan Equity,-0.13
+Global Core Transport,AC World Equity,-0.11
+Global Core Transport,U.S. Equity Value Factor,-0.1
+Global Core Transport,U.S. Equity Momentum Factor,-0.08
+Global Core Transport,U.S. Equity Quality Factor,-0.06
+Global Core Transport,U.S. Equity Minimum Volatility Factor,-0.04
+Global Core Transport,U.S. Equity Dividend Yield Factor,-0.09
+Global Core Transport,Global Convertible Bonds hedged,-0.27
+Global Core Transport,U.S. Core Real Estate,0.24
+Global Core Transport,U.S. Value-Added Real Estate,0.24
+Global Core Transport,European Core Real Estate,0.04
+Global Core Transport,Asia Pacific Core Real Estate,-0.01
+Global Core Transport,U.S. REITs,0.06
+Global Core Transport,Commercial Mortgage Loans,0.04
+Global Core Transport,Global Core Infrastructure,0.02
+Global Core Transport,Global Core Transport,1.0
+Global Timberland,U.S. Inflation,-0.07
+Global Timberland,U.S. Cash,0.16
+Global Timberland,U.S. Intermediate Treasuries,-0.07
+Global Timberland,U.S. Long Treasuries,-0.16
+Global Timberland,TIPS,0.17
+Global Timberland,U.S. Aggregate Bonds,0.1
+Global Timberland,U.S. Securitized,0.11
+Global Timberland,U.S. Short Duration Government/Credit,0.13
+Global Timberland,U.S. Long Duration Government/Credit,0.05
+Global Timberland,U.S. Inv Grade Corporate Bonds,0.26
+Global Timberland,U.S. Long Corporate Bonds,0.22
+Global Timberland,U.S. High Yield Bonds,0.37
+Global Timberland,U.S. Leveraged Loans,0.29
+Global Timberland,World Government Bonds hedged,-0.06
+Global Timberland,World Government Bonds,0.25
+Global Timberland,World ex-U.S. Government Bonds hedged,-0.02
+Global Timberland,World ex-U.S. Government Bonds,0.32
+Global Timberland,Emerging Markets Sovereign Debt,0.4
+Global Timberland,Emerging Markets Local Currency Debt,0.51
+Global Timberland,Emerging Markets Corporate Bonds,0.34
+Global Timberland,U.S. Muni 1-15 Yr Blend,0.14
+Global Timberland,U.S. Muni High Yield,0.13
+Global Timberland,U.S. Large Cap,0.45
+Global Timberland,U.S. Mid Cap,0.47
+Global Timberland,U.S. Small Cap,0.45
+Global Timberland,Euro Area Large Cap,0.56
+Global Timberland,Japanese Equity,0.38
+Global Timberland,Hong Kong Equity,0.53
+Global Timberland,UK Large Cap,0.53
+Global Timberland,EAFE Equity,0.55
+Global Timberland,Chinese Domestic Equity,0.34
+Global Timberland,Emerging Markets Equity,0.53
+Global Timberland,AC Asia ex-Japan Equity,0.5
+Global Timberland,AC World Equity,0.52
+Global Timberland,U.S. Equity Value Factor,0.47
+Global Timberland,U.S. Equity Momentum Factor,0.44
+Global Timberland,U.S. Equity Quality Factor,0.44
+Global Timberland,U.S. Equity Minimum Volatility Factor,0.46
+Global Timberland,U.S. Equity Dividend Yield Factor,0.47
+Global Timberland,Global Convertible Bonds hedged,0.41
+Global Timberland,U.S. Core Real Estate,-0.01
+Global Timberland,U.S. Value-Added Real Estate,-0.01
+Global Timberland,European Core Real Estate,0.26
+Global Timberland,Asia Pacific Core Real Estate,0.43
+Global Timberland,U.S. REITs,0.35
+Global Timberland,Commercial Mortgage Loans,0.1
+Global Timberland,Global Core Infrastructure,0.46
+Global Timberland,Global Core Transport,-0.04
+Global Timberland,Global Timberland,1.0
+Commodities,U.S. Inflation,0.28
+Commodities,U.S. Cash,-0.03
+Commodities,U.S. Intermediate Treasuries,-0.16
+Commodities,U.S. Long Treasuries,-0.21
+Commodities,TIPS,0.27
+Commodities,U.S. Aggregate Bonds,0.0
+Commodities,U.S. Securitized,-0.01
+Commodities,U.S. Short Duration Government/Credit,0.02
+Commodities,U.S. Long Duration Government/Credit,-0.01
+Commodities,U.S. Inv Grade Corporate Bonds,0.19
+Commodities,U.S. Long Corporate Bonds,0.16
+Commodities,U.S. High Yield Bonds,0.43
+Commodities,U.S. Leveraged Loans,0.4
+Commodities,World Government Bonds hedged,-0.2
+Commodities,World Government Bonds,0.19
+Commodities,World ex-U.S. Government Bonds hedged,-0.17
+Commodities,World ex-U.S. Government Bonds,0.26
+Commodities,Emerging Markets Sovereign Debt,0.32
+Commodities,Emerging Markets Local Currency Debt,0.43
+Commodities,Emerging Markets Corporate Bonds,0.32
+Commodities,U.S. Muni 1-15 Yr Blend,-0.05
+Commodities,U.S. Muni High Yield,0.2
+Commodities,U.S. Large Cap,0.42
+Commodities,U.S. Mid Cap,0.44
+Commodities,U.S. Small Cap,0.35
+Commodities,Euro Area Large Cap,0.45
+Commodities,Japanese Equity,0.36
+Commodities,Hong Kong Equity,0.41
+Commodities,UK Large Cap,0.58
+Commodities,EAFE Equity,0.5
+Commodities,Chinese Domestic Equity,0.18
+Commodities,Emerging Markets Equity,0.54
+Commodities,AC Asia ex-Japan Equity,0.47
+Commodities,AC World Equity,0.5
+Commodities,U.S. Equity Value Factor,0.41
+Commodities,U.S. Equity Momentum Factor,0.42
+Commodities,U.S. Equity Quality Factor,0.4
+Commodities,U.S. Equity Minimum Volatility Factor,0.39
+Commodities,U.S. Equity Dividend Yield Factor,0.45
+Commodities,Global Convertible Bonds hedged,0.41
+Commodities,U.S. Core Real Estate,0.35
+Commodities,U.S. Value-Added Real Estate,0.35
+Commodities,European Core Real Estate,0.55
+Commodities,Asia Pacific Core Real Estate,0.55
+Commodities,U.S. REITs,0.29
+Commodities,Commercial Mortgage Loans,0.12
+Commodities,Global Core Infrastructure,0.44
+Commodities,Global Core Transport,-0.1
+Commodities,Global Timberland,0.39
+Commodities,Commodities,1.0
+Gold,U.S. Inflation,-0.01
+Gold,U.S. Cash,0.13
+Gold,U.S. Intermediate Treasuries,0.36
+Gold,U.S. Long Treasuries,0.3
+Gold,TIPS,0.46
+Gold,U.S. Aggregate Bonds,0.38
+Gold,U.S. Securitized,0.32
+Gold,U.S. Short Duration Government/Credit,0.38
+Gold,U.S. Long Duration Government/Credit,0.34
+Gold,U.S. Inv Grade Corporate Bonds,0.36
+Gold,U.S. Long Corporate Bonds,0.32
+Gold,U.S. High Yield Bonds,0.14
+Gold,U.S. Leveraged Loans,-0.04
+Gold,World Government Bonds hedged,0.28
+Gold,World Government Bonds,0.5
+Gold,World ex-U.S. Government Bonds hedged,0.22
+Gold,World ex-U.S. Government Bonds,0.5
+Gold,Emerging Markets Sovereign Debt,0.32
+Gold,Emerging Markets Local Currency Debt,0.39
+Gold,Emerging Markets Corporate Bonds,0.3
+Gold,U.S. Muni 1-15 Yr Blend,0.23
+Gold,U.S. Muni High Yield,0.15
+Gold,U.S. Large Cap,0.03
+Gold,U.S. Mid Cap,0.03
+Gold,U.S. Small Cap,-0.03
+Gold,Euro Area Large Cap,0.12
+Gold,Japanese Equity,0.07
+Gold,Hong Kong Equity,0.22
+Gold,UK Large Cap,0.14
+Gold,EAFE Equity,0.14
+Gold,Chinese Domestic Equity,0.21
+Gold,Emerging Markets Equity,0.25
+Gold,AC Asia ex-Japan Equity,0.23
+Gold,AC World Equity,0.11
+Gold,U.S. Equity Value Factor,0.0
+Gold,U.S. Equity Momentum Factor,0.06
+Gold,U.S. Equity Quality Factor,0.05
+Gold,U.S. Equity Minimum Volatility Factor,0.09
+Gold,U.S. Equity Dividend Yield Factor,0.05
+Gold,Global Convertible Bonds hedged,0.13
+Gold,U.S. Core Real Estate,-0.07
+Gold,U.S. Value-Added Real Estate,-0.07
+Gold,European Core Real Estate,0.13
+Gold,Asia Pacific Core Real Estate,0.22
+Gold,U.S. REITs,0.1
+Gold,Commercial Mortgage Loans,0.38
+Gold,Global Core Infrastructure,0.18
+Gold,Global Core Transport,0.06
+Gold,Global Timberland,0.22
+Gold,Commodities,0.34
+Gold,Gold,1.0
+Private Equity,U.S. Inflation,0.07
+Private Equity,U.S. Cash,-0.01
+Private Equity,U.S. Intermediate Treasuries,-0.31
+Private Equity,U.S. Long Treasuries,-0.35
+Private Equity,TIPS,0.18
+Private Equity,U.S. Aggregate Bonds,0.01
+Private Equity,U.S. Securitized,0.03
+Private Equity,U.S. Short Duration Government/Credit,-0.01
+Private Equity,U.S. Long Duration Government/Credit,-0.05
+Private Equity,U.S. Inv Grade Corporate Bonds,0.35
+Private Equity,U.S. Long Corporate Bonds,0.26
+Private Equity,U.S. High Yield Bonds,0.71
+Private Equity,U.S. Leveraged Loans,0.67
+Private Equity,World Government Bonds hedged,-0.22
+Private Equity,World Government Bonds,0.1
+Private Equity,World ex-U.S. Government Bonds hedged,-0.14
+Private Equity,World ex-U.S. Government Bonds,0.2
+Private Equity,Emerging Markets Sovereign Debt,0.57
+Private Equity,Emerging Markets Local Currency Debt,0.59
+Private Equity,Emerging Markets Corporate Bonds,0.6
+Private Equity,U.S. Muni 1-15 Yr Blend,0.13
+Private Equity,U.S. Muni High Yield,0.37
+Private Equity,U.S. Large Cap,0.75
+Private Equity,U.S. Mid Cap,0.78
+Private Equity,U.S. Small Cap,0.74
+Private Equity,Euro Area Large Cap,0.76
+Private Equity,Japanese Equity,0.59
+Private Equity,Hong Kong Equity,0.68
+Private Equity,UK Large Cap,0.78
+Private Equity,EAFE Equity,0.78
+Private Equity,Chinese Domestic Equity,0.49
+Private Equity,Emerging Markets Equity,0.8
+Private Equity,AC Asia ex-Japan Equity,0.76
+Private Equity,AC World Equity,0.81
+Private Equity,U.S. Equity Value Factor,0.75
+Private Equity,U.S. Equity Momentum Factor,0.76
+Private Equity,U.S. Equity Quality Factor,0.74
+Private Equity,U.S. Equity Minimum Volatility Factor,0.7
+Private Equity,U.S. Equity Dividend Yield Factor,0.73
+Private Equity,Global Convertible Bonds hedged,0.79
+Private Equity,U.S. Core Real Estate,0.32
+Private Equity,U.S. Value-Added Real Estate,0.32
+Private Equity,European Core Real Estate,0.62
+Private Equity,Asia Pacific Core Real Estate,0.7
+Private Equity,U.S. REITs,0.52
+Private Equity,Commercial Mortgage Loans,0.35
+Private Equity,Global Core Infrastructure,0.62
+Private Equity,Global Core Transport,-0.21
+Private Equity,Global Timberland,0.6
+Private Equity,Commodities,0.54
+Private Equity,Gold,0.1
+Private Equity,Private Equity,1.0
+Venture Capital,U.S. Inflation,-0.07
+Venture Capital,U.S. Cash,-0.08
+Venture Capital,U.S. Intermediate Treasuries,-0.23
+Venture Capital,U.S. Long Treasuries,-0.23
+Venture Capital,TIPS,0.16
+Venture Capital,U.S. Aggregate Bonds,0.03
+Venture Capital,U.S. Securitized,0.05
+Venture Capital,U.S. Short Duration Government/Credit,-0.04
+Venture Capital,U.S. Long Duration Government/Credit,-0.02
+Venture Capital,U.S. Inv Grade Corporate Bonds,0.27
+Venture Capital,U.S. Long Corporate Bonds,0.2
+Venture Capital,U.S. High Yield Bonds,0.54
+Venture Capital,U.S. Leveraged Loans,0.51
+Venture Capital,World Government Bonds hedged,-0.11
+Venture Capital,World Government Bonds,0.03
+Venture Capital,World ex-U.S. Government Bonds hedged,-0.02
+Venture Capital,World ex-U.S. Government Bonds,0.11
+Venture Capital,Emerging Markets Sovereign Debt,0.45
+Venture Capital,Emerging Markets Local Currency Debt,0.4
+Venture Capital,Emerging Markets Corporate Bonds,0.46
+Venture Capital,U.S. Muni 1-15 Yr Blend,0.12
+Venture Capital,U.S. Muni High Yield,0.32
+Venture Capital,U.S. Large Cap,0.63
+Venture Capital,U.S. Mid Cap,0.67
+Venture Capital,U.S. Small Cap,0.7
+Venture Capital,Euro Area Large Cap,0.55
+Venture Capital,Japanese Equity,0.5
+Venture Capital,Hong Kong Equity,0.49
+Venture Capital,UK Large Cap,0.54
+Venture Capital,EAFE Equity,0.58
+Venture Capital,Chinese Domestic Equity,0.47
+Venture Capital,Emerging Markets Equity,0.6
+Venture Capital,AC Asia ex-Japan Equity,0.59
+Venture Capital,AC World Equity,0.64
+Venture Capital,U.S. Equity Value Factor,0.6
+Venture Capital,U.S. Equity Momentum Factor,0.66
+Venture Capital,U.S. Equity Quality Factor,0.61
+Venture Capital,U.S. Equity Minimum Volatility Factor,0.53
+Venture Capital,U.S. Equity Dividend Yield Factor,0.54
+Venture Capital,Global Convertible Bonds hedged,0.72
+Venture Capital,U.S. Core Real Estate,0.24
+Venture Capital,U.S. Value-Added Real Estate,0.24
+Venture Capital,European Core Real Estate,0.51
+Venture Capital,Asia Pacific Core Real Estate,0.44
+Venture Capital,U.S. REITs,0.35
+Venture Capital,Commercial Mortgage Loans,0.29
+Venture Capital,Global Core Infrastructure,0.42
+Venture Capital,Global Core Transport,-0.15
+Venture Capital,Global Timberland,0.4
+Venture Capital,Commodities,0.29
+Venture Capital,Gold,0.0
+Venture Capital,Private Equity,0.76
+Venture Capital,Venture Capital,1.0
+Diversified Hedge Funds,U.S. Inflation,0.06
+Diversified Hedge Funds,U.S. Cash,0.04
+Diversified Hedge Funds,U.S. Intermediate Treasuries,-0.27
+Diversified Hedge Funds,U.S. Long Treasuries,-0.18
+Diversified Hedge Funds,TIPS,0.21
+Diversified Hedge Funds,U.S. Aggregate Bonds,0.06
+Diversified Hedge Funds,U.S. Securitized,0.04
+Diversified Hedge Funds,U.S. Short Duration Government/Credit,-0.03
+Diversified Hedge Funds,U.S. Long Duration Government/Credit,0.08
+Diversified Hedge Funds,U.S. Inv Grade Corporate Bonds,0.35
+Diversified Hedge Funds,U.S. Long Corporate Bonds,0.32
+Diversified Hedge Funds,U.S. High Yield Bonds,0.61
+Diversified Hedge Funds,U.S. Leveraged Loans,0.68
+Diversified Hedge Funds,World Government Bonds hedged,-0.14
+Diversified Hedge Funds,World Government Bonds,0.05
+Diversified Hedge Funds,World ex-U.S. Government Bonds hedged,-0.06
+Diversified Hedge Funds,World ex-U.S. Government Bonds,0.12
+Diversified Hedge Funds,Emerging Markets Sovereign Debt,0.46
+Diversified Hedge Funds,Emerging Markets Local Currency Debt,0.4
+Diversified Hedge Funds,Emerging Markets Corporate Bonds,0.49
+Diversified Hedge Funds,U.S. Muni 1-15 Yr Blend,0.11
+Diversified Hedge Funds,U.S. Muni High Yield,0.4
+Diversified Hedge Funds,U.S. Large Cap,0.68
+Diversified Hedge Funds,U.S. Mid Cap,0.71
+Diversified Hedge Funds,U.S. Small Cap,0.64
+Diversified Hedge Funds,Euro Area Large Cap,0.63
+Diversified Hedge Funds,Japanese Equity,0.58
+Diversified Hedge Funds,Hong Kong Equity,0.54
+Diversified Hedge Funds,UK Large Cap,0.67
+Diversified Hedge Funds,EAFE Equity,0.69
+Diversified Hedge Funds,Chinese Domestic Equity,0.43
+Diversified Hedge Funds,Emerging Markets Equity,0.66
+Diversified Hedge Funds,AC Asia ex-Japan Equity,0.63
+Diversified Hedge Funds,AC World Equity,0.72
+Diversified Hedge Funds,U.S. Equity Value Factor,0.63
+Diversified Hedge Funds,U.S. Equity Momentum Factor,0.74
+Diversified Hedge Funds,U.S. Equity Quality Factor,0.66
+Diversified Hedge Funds,U.S. Equity Minimum Volatility Factor,0.59
+Diversified Hedge Funds,U.S. Equity Dividend Yield Factor,0.61
+Diversified Hedge Funds,Global Convertible Bonds hedged,0.8
+Diversified Hedge Funds,U.S. Core Real Estate,0.33
+Diversified Hedge Funds,U.S. Value-Added Real Estate,0.33
+Diversified Hedge Funds,European Core Real Estate,0.57
+Diversified Hedge Funds,Asia Pacific Core Real Estate,0.59
+Diversified Hedge Funds,U.S. REITs,0.42
+Diversified Hedge Funds,Commercial Mortgage Loans,0.27
+Diversified Hedge Funds,Global Core Infrastructure,0.41
+Diversified Hedge Funds,Global Core Transport,-0.18
+Diversified Hedge Funds,Global Timberland,0.45
+Diversified Hedge Funds,Commodities,0.5
+Diversified Hedge Funds,Gold,0.11
+Diversified Hedge Funds,Private Equity,0.76
+Diversified Hedge Funds,Venture Capital,0.7
+Diversified Hedge Funds,Diversified Hedge Funds,1.0
+Event Driven Hedge Funds,U.S. Inflation,0.04
+Event Driven Hedge Funds,U.S. Cash,0.01
+Event Driven Hedge Funds,U.S. Intermediate Treasuries,-0.18
+Event Driven Hedge Funds,U.S. Long Treasuries,-0.16
+Event Driven Hedge Funds,TIPS,0.26
+Event Driven Hedge Funds,U.S. Aggregate Bonds,0.16
+Event Driven Hedge Funds,U.S. Securitized,0.17
+Event Driven Hedge Funds,U.S. Short Duration Government/Credit,0.09
+Event Driven Hedge Funds,U.S. Long Duration Government/Credit,0.15
+Event Driven Hedge Funds,U.S. Inv Grade Corporate Bonds,0.43
+Event Driven Hedge Funds,U.S. Long Corporate Bonds,0.4
+Event Driven Hedge Funds,U.S. High Yield Bonds,0.77
+Event Driven Hedge Funds,U.S. Leveraged Loans,0.76
+Event Driven Hedge Funds,World Government Bonds hedged,-0.06
+Event Driven Hedge Funds,World Government Bonds,0.18
+Event Driven Hedge Funds,World ex-U.S. Government Bonds hedged,0.02
+Event Driven Hedge Funds,World ex-U.S. Government Bonds,0.26
+Event Driven Hedge Funds,Emerging Markets Sovereign Debt,0.57
+Event Driven Hedge Funds,Emerging Markets Local Currency Debt,0.53
+Event Driven Hedge Funds,Emerging Markets Corporate Bonds,0.57
+Event Driven Hedge Funds,U.S. Muni 1-15 Yr Blend,0.2
+Event Driven Hedge Funds,U.S. Muni High Yield,0.41
+Event Driven Hedge Funds,U.S. Large Cap,0.8
+Event Driven Hedge Funds,U.S. Mid Cap,0.85
+Event Driven Hedge Funds,U.S. Small Cap,0.82
+Event Driven Hedge Funds,Euro Area Large Cap,0.75
+Event Driven Hedge Funds,Japanese Equity,0.69
+Event Driven Hedge Funds,Hong Kong Equity,0.59
+Event Driven Hedge Funds,UK Large Cap,0.79
+Event Driven Hedge Funds,EAFE Equity,0.81
+Event Driven Hedge Funds,Chinese Domestic Equity,0.4
+Event Driven Hedge Funds,Emerging Markets Equity,0.74
+Event Driven Hedge Funds,AC Asia ex-Japan Equity,0.7
+Event Driven Hedge Funds,AC World Equity,0.85
+Event Driven Hedge Funds,U.S. Equity Value Factor,0.82
+Event Driven Hedge Funds,U.S. Equity Momentum Factor,0.81
+Event Driven Hedge Funds,U.S. Equity Quality Factor,0.78
+Event Driven Hedge Funds,U.S. Equity Minimum Volatility Factor,0.72
+Event Driven Hedge Funds,U.S. Equity Dividend Yield Factor,0.79
+Event Driven Hedge Funds,Global Convertible Bonds hedged,0.87
+Event Driven Hedge Funds,U.S. Core Real Estate,0.34
+Event Driven Hedge Funds,U.S. Value-Added Real Estate,0.34
+Event Driven Hedge Funds,European Core Real Estate,0.53
+Event Driven Hedge Funds,Asia Pacific Core Real Estate,0.66
+Event Driven Hedge Funds,U.S. REITs,0.59
+Event Driven Hedge Funds,Commercial Mortgage Loans,0.3
+Event Driven Hedge Funds,Global Core Infrastructure,0.49
+Event Driven Hedge Funds,Global Core Transport,-0.18
+Event Driven Hedge Funds,Global Timberland,0.47
+Event Driven Hedge Funds,Commodities,0.53
+Event Driven Hedge Funds,Gold,0.05
+Event Driven Hedge Funds,Private Equity,0.82
+Event Driven Hedge Funds,Venture Capital,0.67
+Event Driven Hedge Funds,Diversified Hedge Funds,0.86
+Event Driven Hedge Funds,Event Driven Hedge Funds,1.0
+Long Bias Hedge Funds,U.S. Inflation,-0.02
+Long Bias Hedge Funds,U.S. Cash,0.03
+Long Bias Hedge Funds,U.S. Intermediate Treasuries,-0.1
+Long Bias Hedge Funds,U.S. Long Treasuries,-0.09
+Long Bias Hedge Funds,TIPS,0.3
+Long Bias Hedge Funds,U.S. Aggregate Bonds,0.24
+Long Bias Hedge Funds,U.S. Securitized,0.23
+Long Bias Hedge Funds,U.S. Short Duration Government/Credit,0.17
+Long Bias Hedge Funds,U.S. Long Duration Government/Credit,0.23
+Long Bias Hedge Funds,U.S. Inv Grade Corporate Bonds,0.5
+Long Bias Hedge Funds,U.S. Long Corporate Bonds,0.47
+Long Bias Hedge Funds,U.S. High Yield Bonds,0.77
+Long Bias Hedge Funds,U.S. Leveraged Loans,0.68
+Long Bias Hedge Funds,World Government Bonds hedged,0.01
+Long Bias Hedge Funds,World Government Bonds,0.28
+Long Bias Hedge Funds,World ex-U.S. Government Bonds hedged,0.08
+Long Bias Hedge Funds,World ex-U.S. Government Bonds,0.36
+Long Bias Hedge Funds,Emerging Markets Sovereign Debt,0.62
+Long Bias Hedge Funds,Emerging Markets Local Currency Debt,0.62
+Long Bias Hedge Funds,Emerging Markets Corporate Bonds,0.61
+Long Bias Hedge Funds,U.S. Muni 1-15 Yr Blend,0.23
+Long Bias Hedge Funds,U.S. Muni High Yield,0.36
+Long Bias Hedge Funds,U.S. Large Cap,0.87
+Long Bias Hedge Funds,U.S. Mid Cap,0.9
+Long Bias Hedge Funds,U.S. Small Cap,0.85
+Long Bias Hedge Funds,Euro Area Large Cap,0.82
+Long Bias Hedge Funds,Japanese Equity,0.77
+Long Bias Hedge Funds,Hong Kong Equity,0.69
+Long Bias Hedge Funds,UK Large Cap,0.83
+Long Bias Hedge Funds,EAFE Equity,0.88
+Long Bias Hedge Funds,Chinese Domestic Equity,0.47
+Long Bias Hedge Funds,Emerging Markets Equity,0.84
+Long Bias Hedge Funds,AC Asia ex-Japan Equity,0.81
+Long Bias Hedge Funds,AC World Equity,0.93
+Long Bias Hedge Funds,U.S. Equity Value Factor,0.86
+Long Bias Hedge Funds,U.S. Equity Momentum Factor,0.89
+Long Bias Hedge Funds,U.S. Equity Quality Factor,0.85
+Long Bias Hedge Funds,U.S. Equity Minimum Volatility Factor,0.77
+Long Bias Hedge Funds,U.S. Equity Dividend Yield Factor,0.82
+Long Bias Hedge Funds,Global Convertible Bonds hedged,0.92
+Long Bias Hedge Funds,U.S. Core Real Estate,0.28
+Long Bias Hedge Funds,U.S. Value-Added Real Estate,0.28
+Long Bias Hedge Funds,European Core Real Estate,0.57
+Long Bias Hedge Funds,Asia Pacific Core Real Estate,0.63
+Long Bias Hedge Funds,U.S. REITs,0.62
+Long Bias Hedge Funds,Commercial Mortgage Loans,0.3
+Long Bias Hedge Funds,Global Core Infrastructure,0.52
+Long Bias Hedge Funds,Global Core Transport,-0.19
+Long Bias Hedge Funds,Global Timberland,0.5
+Long Bias Hedge Funds,Commodities,0.53
+Long Bias Hedge Funds,Gold,0.14
+Long Bias Hedge Funds,Private Equity,0.83
+Long Bias Hedge Funds,Venture Capital,0.73
+Long Bias Hedge Funds,Diversified Hedge Funds,0.86
+Long Bias Hedge Funds,Event Driven Hedge Funds,0.93
+Long Bias Hedge Funds,Long Bias Hedge Funds,1.0
+Relative Value Hedge Funds,U.S. Inflation,0.1
+Relative Value Hedge Funds,U.S. Cash,-0.02
+Relative Value Hedge Funds,U.S. Intermediate Treasuries,-0.23
+Relative Value Hedge Funds,U.S. Long Treasuries,-0.18
+Relative Value Hedge Funds,TIPS,0.27
+Relative Value Hedge Funds,U.S. Aggregate Bonds,0.15
+Relative Value Hedge Funds,U.S. Securitized,0.15
+Relative Value Hedge Funds,U.S. Short Duration Government/Credit,0.08
+Relative Value Hedge Funds,U.S. Long Duration Government/Credit,0.14
+Relative Value Hedge Funds,U.S. Inv Grade Corporate Bonds,0.45
+Relative Value Hedge Funds,U.S. Long Corporate Bonds,0.4
+Relative Value Hedge Funds,U.S. High Yield Bonds,0.81
+Relative Value Hedge Funds,U.S. Leveraged Loans,0.86
+Relative Value Hedge Funds,World Government Bonds hedged,-0.1
+Relative Value Hedge Funds,World Government Bonds,0.11
+Relative Value Hedge Funds,World ex-U.S. Government Bonds hedged,-0.02
+Relative Value Hedge Funds,World ex-U.S. Government Bonds,0.19
+Relative Value Hedge Funds,Emerging Markets Sovereign Debt,0.59
+Relative Value Hedge Funds,Emerging Markets Local Currency Debt,0.54
+Relative Value Hedge Funds,Emerging Markets Corporate Bonds,0.63
+Relative Value Hedge Funds,U.S. Muni 1-15 Yr Blend,0.21
+Relative Value Hedge Funds,U.S. Muni High Yield,0.48
+Relative Value Hedge Funds,U.S. Large Cap,0.68
+Relative Value Hedge Funds,U.S. Mid Cap,0.73
+Relative Value Hedge Funds,U.S. Small Cap,0.66
+Relative Value Hedge Funds,Euro Area Large Cap,0.68
+Relative Value Hedge Funds,Japanese Equity,0.64
+Relative Value Hedge Funds,Hong Kong Equity,0.63
+Relative Value Hedge Funds,UK Large Cap,0.75
+Relative Value Hedge Funds,EAFE Equity,0.74
+Relative Value Hedge Funds,Chinese Domestic Equity,0.43
+Relative Value Hedge Funds,Emerging Markets Equity,0.75
+Relative Value Hedge Funds,AC Asia ex-Japan Equity,0.71
+Relative Value Hedge Funds,AC World Equity,0.76
+Relative Value Hedge Funds,U.S. Equity Value Factor,0.69
+Relative Value Hedge Funds,U.S. Equity Momentum Factor,0.71
+Relative Value Hedge Funds,U.S. Equity Quality Factor,0.65
+Relative Value Hedge Funds,U.S. Equity Minimum Volatility Factor,0.63
+Relative Value Hedge Funds,U.S. Equity Dividend Yield Factor,0.69
+Relative Value Hedge Funds,Global Convertible Bonds hedged,0.82
+Relative Value Hedge Funds,U.S. Core Real Estate,0.39
+Relative Value Hedge Funds,U.S. Value-Added Real Estate,0.39
+Relative Value Hedge Funds,European Core Real Estate,0.58
+Relative Value Hedge Funds,Asia Pacific Core Real Estate,0.69
+Relative Value Hedge Funds,U.S. REITs,0.52
+Relative Value Hedge Funds,Commercial Mortgage Loans,0.38
+Relative Value Hedge Funds,Global Core Infrastructure,0.52
+Relative Value Hedge Funds,Global Core Transport,-0.19
+Relative Value Hedge Funds,Global Timberland,0.43
+Relative Value Hedge Funds,Commodities,0.55
+Relative Value Hedge Funds,Gold,0.09
+Relative Value Hedge Funds,Private Equity,0.79
+Relative Value Hedge Funds,Venture Capital,0.59
+Relative Value Hedge Funds,Diversified Hedge Funds,0.83
+Relative Value Hedge Funds,Event Driven Hedge Funds,0.9
+Relative Value Hedge Funds,Long Bias Hedge Funds,0.85
+Relative Value Hedge Funds,Relative Value Hedge Funds,1.0
+Macro Hedge Funds,U.S. Inflation,0.01
+Macro Hedge Funds,U.S. Cash,0.01
+Macro Hedge Funds,U.S. Intermediate Treasuries,-0.14
+Macro Hedge Funds,U.S. Long Treasuries,-0.11
+Macro Hedge Funds,TIPS,0.04
+Macro Hedge Funds,U.S. Aggregate Bonds,-0.11
+Macro Hedge Funds,U.S. Securitized,-0.18
+Macro Hedge Funds,U.S. Short Duration Government/Credit,-0.04
+Macro Hedge Funds,U.S. Long Duration Government/Credit,-0.05
+Macro Hedge Funds,U.S. Inv Grade Corporate Bonds,0.0
+Macro Hedge Funds,U.S. Long Corporate Bonds,0.01
+Macro Hedge Funds,U.S. High Yield Bonds,0.08
+Macro Hedge Funds,U.S. Leveraged Loans,0.07
+Macro Hedge Funds,World Government Bonds hedged,-0.14
+Macro Hedge Funds,World Government Bonds,0.04
+Macro Hedge Funds,World ex-U.S. Government Bonds hedged,-0.11
+Macro Hedge Funds,World ex-U.S. Government Bonds,0.06
+Macro Hedge Funds,Emerging Markets Sovereign Debt,0.05
+Macro Hedge Funds,Emerging Markets Local Currency Debt,0.12
+Macro Hedge Funds,Emerging Markets Corporate Bonds,0.02
+Macro Hedge Funds,U.S. Muni 1-15 Yr Blend,-0.13
+Macro Hedge Funds,U.S. Muni High Yield,-0.09
+Macro Hedge Funds,U.S. Large Cap,0.14
+Macro Hedge Funds,U.S. Mid Cap,0.17
+Macro Hedge Funds,U.S. Small Cap,0.13
+Macro Hedge Funds,Euro Area Large Cap,0.17
+Macro Hedge Funds,Japanese Equity,0.1
+Macro Hedge Funds,Hong Kong Equity,0.15
+Macro Hedge Funds,UK Large Cap,0.22
+Macro Hedge Funds,EAFE Equity,0.2
+Macro Hedge Funds,Chinese Domestic Equity,0.09
+Macro Hedge Funds,Emerging Markets Equity,0.22
+Macro Hedge Funds,AC Asia ex-Japan Equity,0.19
+Macro Hedge Funds,AC World Equity,0.2
+Macro Hedge Funds,U.S. Equity Value Factor,0.14
+Macro Hedge Funds,U.S. Equity Momentum Factor,0.17
+Macro Hedge Funds,U.S. Equity Quality Factor,0.14
+Macro Hedge Funds,U.S. Equity Minimum Volatility Factor,0.15
+Macro Hedge Funds,U.S. Equity Dividend Yield Factor,0.18
+Macro Hedge Funds,Global Convertible Bonds hedged,0.22
+Macro Hedge Funds,U.S. Core Real Estate,0.03
+Macro Hedge Funds,U.S. Value-Added Real Estate,0.03
+Macro Hedge Funds,European Core Real Estate,0.16
+Macro Hedge Funds,Asia Pacific Core Real Estate,0.11
+Macro Hedge Funds,U.S. REITs,0.08
+Macro Hedge Funds,Commercial Mortgage Loans,-0.16
+Macro Hedge Funds,Global Core Infrastructure,0.04
+Macro Hedge Funds,Global Core Transport,-0.07
+Macro Hedge Funds,Global Timberland,0.3
+Macro Hedge Funds,Commodities,0.42
+Macro Hedge Funds,Gold,0.27
+Macro Hedge Funds,Private Equity,0.23
+Macro Hedge Funds,Venture Capital,0.14
+Macro Hedge Funds,Diversified Hedge Funds,0.46
+Macro Hedge Funds,Event Driven Hedge Funds,0.27
+Macro Hedge Funds,Long Bias Hedge Funds,0.3
+Macro Hedge Funds,Relative Value Hedge Funds,0.27
+Macro Hedge Funds,Macro Hedge Funds,1.0
+Direct Lending,U.S. Inflation,0.15
+Direct Lending,U.S. Cash,-0.06
+Direct Lending,U.S. Intermediate Treasuries,-0.24
+Direct Lending,U.S. Long Treasuries,-0.22
+Direct Lending,TIPS,0.19
+Direct Lending,U.S. Aggregate Bonds,0.07
+Direct Lending,U.S. Securitized,0.15
+Direct Lending,U.S. Short Duration Government/Credit,-0.06
+Direct Lending,U.S. Long Duration Government/Credit,0.02
+Direct Lending,U.S. Inv Grade Corporate Bonds,0.28
+Direct Lending,U.S. Long Corporate Bonds,0.24
+Direct Lending,U.S. High Yield Bonds,0.62
+Direct Lending,U.S. Leveraged Loans,0.62
+Direct Lending,World Government Bonds hedged,-0.12
+Direct Lending,World Government Bonds,0.01
+Direct Lending,World ex-U.S. Government Bonds hedged,-0.03
+Direct Lending,World ex-U.S. Government Bonds,0.1
+Direct Lending,Emerging Markets Sovereign Debt,0.45
+Direct Lending,Emerging Markets Local Currency Debt,0.42
+Direct Lending,Emerging Markets Corporate Bonds,0.45
+Direct Lending,U.S. Muni 1-15 Yr Blend,0.18
+Direct Lending,U.S. Muni High Yield,0.44
+Direct Lending,U.S. Large Cap,0.55
+Direct Lending,U.S. Mid Cap,0.61
+Direct Lending,U.S. Small Cap,0.58
+Direct Lending,Euro Area Large Cap,0.51
+Direct Lending,Japanese Equity,0.38
+Direct Lending,Hong Kong Equity,0.48
+Direct Lending,UK Large Cap,0.57
+Direct Lending,EAFE Equity,0.54
+Direct Lending,Chinese Domestic Equity,0.22
+Direct Lending,Emerging Markets Equity,0.53
+Direct Lending,AC Asia ex-Japan Equity,0.49
+Direct Lending,AC World Equity,0.57
+Direct Lending,U.S. Equity Value Factor,0.59
+Direct Lending,U.S. Equity Momentum Factor,0.53
+Direct Lending,U.S. Equity Quality Factor,0.53
+Direct Lending,U.S. Equity Minimum Volatility Factor,0.55
+Direct Lending,U.S. Equity Dividend Yield Factor,0.59
+Direct Lending,Global Convertible Bonds hedged,0.55
+Direct Lending,U.S. Core Real Estate,0.35
+Direct Lending,U.S. Value-Added Real Estate,0.35
+Direct Lending,European Core Real Estate,0.39
+Direct Lending,Asia Pacific Core Real Estate,0.65
+Direct Lending,U.S. REITs,0.52
+Direct Lending,Commercial Mortgage Loans,0.46
+Direct Lending,Global Core Infrastructure,0.42
+Direct Lending,Global Core Transport,-0.08
+Direct Lending,Global Timberland,0.38
+Direct Lending,Commodities,0.42
+Direct Lending,Gold,0.03
+Direct Lending,Private Equity,0.66
+Direct Lending,Venture Capital,0.45
+Direct Lending,Diversified Hedge Funds,0.54
+Direct Lending,Event Driven Hedge Funds,0.67
+Direct Lending,Long Bias Hedge Funds,0.59
+Direct Lending,Relative Value Hedge Funds,0.67
+Direct Lending,Macro Hedge Funds,-0.05
+Direct Lending,Direct Lending,1.0

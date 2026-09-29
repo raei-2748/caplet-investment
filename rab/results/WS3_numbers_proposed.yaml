@@ -1,0 +1,577 @@
+ws3_numbers_proposed:
+  status: PROPOSED by WS3 for WS1/WS0 (not locked; numbers.yaml unchanged)
+  numbers_yaml_sha256_read: 492ed3203958a93ddd3fd7345dcc41e46dd93c9e67f9c2adec1ca63a0771f638
+numbers:
+  ws3.certainty.share_months_as_cheap_since_1871:
+    value: 0.2327
+    unit: share of month-start curves 1871-2026
+    quote_as: only about one month in four since 1871 was as cheap as 28 Sep 2026
+    scale: history
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: each curve date (same time to maturity)
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M5_SPEC.md part A
+    source: rab/results/M5/M5_results.json part_a.extended.since_1871
+    as_of: '2026-09-28'
+    note: 'Pre-1962 curves flat at the long rate; bias-corrected 0.235 / 0.238. Since 1962: 0.511.'
+  ws3.certainty.low_1981:
+    value:
+      usd: 110214.0
+      date: '1981-09-30'
+    unit: USD
+    quote_as: about $110,000 on 30 Sep 1981, the cheapest day since at least 1962 (and the cheapest month since 1871)
+    scale: history
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: each curve date
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M5_SPEC.md part A
+    source: rab/results/M5/M5_results.json part_a.extended.since_1962_daily
+    as_of: '2026-09-28'
+    note: ''
+  ws3.backtest.hist.unfunded_windows:
+    value:
+      windows: 149
+      unfunded: 0
+      topups: 112
+      floor_below_150k: 91
+      ladder_cost_max: 411482.0
+    unit: start years 1872-2020
+    quote_as: starting on 1 January of any year since 1872, the plan would have paid all ten payments
+    scale: history
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M5_SPEC.md part B
+    source: rab/results/M5/backtest_summary.csv (hist, world_eq)
+    as_of: '2026-09-28'
+    note: History's yields and returns. The ladder cost more than $300,000 in most start years (lower yields than today),
+      so the 2028 deposit finished it and the bottom was below $150,000 in 91 of 149.
+  ws3.backtest.hist.gift:
+    value:
+      worst: 29498.0
+      worst_Y: 2020
+      p10: 66507.0
+      median: 131555.0
+    unit: USD
+    quote_as: at the yields of a typical past era the same promises would have left about $130,000 for the facility
+    scale: history
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M5_SPEC.md part B
+    source: rab/results/M5/backtest_summary.csv (hist, world_eq)
+    as_of: '2026-09-28'
+    note: ''
+  ws3.backtest.today_yields.gift:
+    value:
+      worst: 158969.0
+      worst_Y: 1928
+      p10: 169056.0
+      median: 175903.0
+      top_reached: 0.85
+    unit: USD
+    quote_as: with today's yields, the worst five-year stretch since 1872 still gives a gift of about $159,000
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M5_SPEC.md part B
+    source: rab/results/M5/backtest_summary.csv (today_yields, world_eq)
+    as_of: '2026-09-28'
+    note: Worst window = fund bought 1929 (Great Depression). Floor $150,000 in every window.
+  ws3.backtest.H9_reverified:
+    value:
+      total_worst_raw: 171525.0
+      total_worst_rescaled: 168730.0
+      p10_rescaled: 185124.0
+      median_rescaled: 214419.0
+    unit: USD
+    quote_as: quote only in the Final Report appendix
+    scale: reference
+    status: REPRODUCED
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: E6 [5] convention (U.S. S&P, windows 1928-2020, rescaled to 7% over 1928-2025) on the 28 Sep basis
+    source: rab/results/M5/M5_results.json h9_reconciliation
+    as_of: '2026-09-28'
+    note: 'insight_v1 H9: $171k / $169k / $185k / $214k. Unchanged.'
+  ws3.rivals.rec:
+    value:
+      mc_short: 0.0
+      mc_T33:
+      - 181344.0
+      - 206725.0
+      - 251749.0
+      mc_certain31: 150000.0
+      hist_short: 0/149
+      hist_T33:
+      - 66507.0
+      - 131555.0
+      - 362797.0
+      trades: 13
+    unit: USD / share
+    quote_as: quote only in the Final Report (rivals table)
+    scale: model
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M6_SPEC.md
+    source: rab/results/M6/rivals_summary.csv
+    as_of: '2026-09-28'
+    note: 'MC: JPM 2026 LTCMA, 200,000 paths, seed 20260930. T33 = money for the facility and flexibility on 1 Jan 2033 after
+      the payments.'
+  ws3.rivals.all_treasury:
+    value:
+      mc_short: 0.0
+      mc_T33:
+      - 190799.0
+      - 202135.0
+      - 213299.0
+      mc_certain31: 202135.0
+      hist_short: 0/149
+      hist_T33:
+      - 66507.0
+      - 131555.0
+      - 303630.0
+      trades: 12
+    unit: USD / share
+    quote_as: quote only in the Final Report (rivals table)
+    scale: model
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M6_SPEC.md
+    source: rab/results/M6/rivals_summary.csv
+    as_of: '2026-09-28'
+    note: 'MC: JPM 2026 LTCMA, 200,000 paths, seed 20260930. T33 = money for the facility and flexibility on 1 Jan 2033 after
+      the payments.'
+  ws3.rivals.sixty_forty:
+    value:
+      mc_short: 0.01
+      mc_T33:
+      - 53342.0
+      - 245276.0
+      - 526584.0
+      mc_certain31: 0.0
+      hist_short: 2/149
+      hist_T33:
+      - 83431.0
+      - 221833.0
+      - 527149.0
+      trades: 24
+    unit: USD / share
+    quote_as: quote only in the Final Report (rivals table)
+    scale: model
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M6_SPEC.md
+    source: rab/results/M6/rivals_summary.csv
+    as_of: '2026-09-28'
+    note: 'MC: JPM 2026 LTCMA, 200,000 paths, seed 20260930. T33 = money for the facility and flexibility on 1 Jan 2033 after
+      the payments.'
+  ws3.rivals.ladder_6040:
+    value:
+      mc_short: 0.0
+      mc_T33:
+      - 154246.0
+      - 216300.0
+      - 306899.0
+      mc_certain31: 0.0
+      hist_short: 0/149
+      hist_T33:
+      - 78789.0
+      - 144719.0
+      - 372289.0
+      trades: 21
+    unit: USD / share
+    quote_as: quote only in the Final Report (rivals table)
+    scale: model
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M6_SPEC.md
+    source: rab/results/M6/rivals_summary.csv
+    as_of: '2026-09-28'
+    note: 'MC: JPM 2026 LTCMA, 200,000 paths, seed 20260930. T33 = money for the facility and flexibility on 1 Jan 2033 after
+      the payments.'
+  ws3.rivals.glide:
+    value:
+      mc_short: 0.0
+      mc_T33:
+      - 87700.0
+      - 233406.0
+      - 434332.0
+      mc_certain31: 0.0
+      hist_short: 3/149
+      hist_T33:
+      - 81714.0
+      - 180302.0
+      - 440016.0
+      trades: 24
+    unit: USD / share
+    quote_as: quote only in the Final Report (rivals table)
+    scale: model
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M6_SPEC.md
+    source: rab/results/M6/rivals_summary.csv
+    as_of: '2026-09-28'
+    note: 'MC: JPM 2026 LTCMA, 200,000 paths, seed 20260930. T33 = money for the facility and flexibility on 1 Jan 2033 after
+      the payments.'
+  ws3.rivals.growth_first:
+    value:
+      mc_short: 0.02
+      mc_T33:
+      - 35898.0
+      - 248638.0
+      - 570794.0
+      mc_certain31: 0.0
+      hist_short: 3/149
+      hist_T33:
+      - 88461.0
+      - 239961.0
+      - 557699.0
+      trades: 24
+    unit: USD / share
+    quote_as: quote only in the Final Report (rivals table)
+    scale: model
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M6_SPEC.md
+    source: rab/results/M6/rivals_summary.csv
+    as_of: '2026-09-28'
+    note: 'MC: JPM 2026 LTCMA, 200,000 paths, seed 20260930. T33 = money for the facility and flexibility on 1 Jan 2033 after
+      the payments.'
+  ws3.rivals.cppi3:
+    value:
+      mc_short: 0.0
+      mc_T33:
+      - 153264.0
+      - 198871.0
+      - 408138.0
+      mc_certain31: 0.0
+      hist_short: 0/149
+      hist_T33:
+      - 66389.0
+      - 130982.0
+      - 511595.0
+      trades: 72
+      mc_floor_broken: 0.02
+    unit: USD / share
+    quote_as: quote only in the Final Report (rivals table)
+    scale: model
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M6_SPEC.md
+    source: rab/results/M6/rivals_summary.csv
+    as_of: '2026-09-28'
+    note: 'MC: JPM 2026 LTCMA, 200,000 paths, seed 20260930. T33 = money for the facility and flexibility on 1 Jan 2033 after
+      the payments.'
+  ws3.rivals.cppi5:
+    value:
+      mc_short: 0.0
+      mc_T33:
+      - 123681.0
+      - 175564.0
+      - 578087.0
+      mc_certain31: 0.0
+      hist_short: 0/149
+      hist_T33:
+      - 66389.0
+      - 127622.0
+      - 577738.0
+      trades: 72
+      mc_floor_broken: 0.26
+    unit: USD / share
+    quote_as: quote only in the Final Report (rivals table)
+    scale: model
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M6_SPEC.md
+    source: rab/results/M6/rivals_summary.csv
+    as_of: '2026-09-28'
+    note: 'MC: JPM 2026 LTCMA, 200,000 paths, seed 20260930. T33 = money for the facility and flexibility on 1 Jan 2033 after
+      the payments.'
+  ws3.rivals.tips_ladder:
+    value:
+      mc_p_any_short: 0.6
+      hist_short: 92/140
+      extra_cost_95pct: 125000.0
+    unit: share / USD
+    quote_as: a TIPS ladder would leave at least one $50,000 payment short in most inflation paths
+    scale: model
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M6_SPEC.md
+    source: rab/results/M6/M6_results.json tips
+    as_of: '2026-09-28'
+    note: ''
+  ws3.rivals.H16_reverified:
+    value:
+      deposit_150k: 0.022
+      deposit_75k: 0.106
+      deposit_0: 0.351
+    unit: probability
+    quote_as: a growth-first plan misses a payment in about 1 path in 45 (1 in 10 if the 2028 deposit is halved)
+    scale: model
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M6_SPEC.md
+    source: rab/results/M6/M6_results.json h16_reverified
+    as_of: '2026-09-28'
+    note: Supersedes ref.H16 (3.2% / 13.7% / 40.8%, old engine with 4.00% bonds).
+  ws3.fund_choice:
+    value:
+      decision: KEEP VT
+      gold_reit_mc_p5_change: 1164.0
+      gold_reit_spread_ratio: 0.8992
+      gold_reit_spread_test_seeds: 17/20
+    unit: USD / ratio
+    quote_as: none of four alternatives to VT moves the bad-case gift by more than about $1,500
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M6_SPEC.md section 5
+    source: rab/results/M6/fund_choice_decision.csv; M6_results.json fund_robustness
+    as_of: '2026-09-28'
+    note: 'Gold/REIT passes the number tests on the base seed only at the threshold (spread ratio 0.899 vs 0.90) and on 17
+      of 20 other seeds: not robust under M6_SPEC s7, so VT stays.'
+  ws3.stress.thresholds_bp:
+    value:
+      topup_starts: 26.2
+      fund_used_up: 109.3
+      payment_unfunded: 428.4
+    unit: basis points (parallel fall before 1 Jan 2027, persisting to Jan 2028)
+    quote_as: the $150,000 bottom survives a fall in yields of about 1 percentage point before the money arrives
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M7_SPEC.md
+    source: rab/results/M7/M7_results.json thresholds
+    as_of: '2026-09-28'
+    note: topup_starts equals laura.ladder.breakeven_fall_bp_strips (26.2).
+  ws3.stress.S1:
+    value:
+      name: 1970s stagflation (1973-78)
+      gift: 175372.0
+      real_gift: 110093.0
+      floor: 150000.0
+      payments_funded: true
+    unit: USD
+    quote_as: quote only in the Final Report (stress table)
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M7_SPEC.md
+    source: rab/results/M7/stress_table.csv
+    as_of: '2026-09-28'
+    note: ''
+  ws3.stress.S2:
+    value:
+      name: Japan's lost decade (1990-95)
+      gift: 161659.0
+      real_gift: 146551.0
+      floor: 150000.0
+      payments_funded: true
+    unit: USD
+    quote_as: quote only in the Final Report (stress table)
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M7_SPEC.md
+    source: rab/results/M7/stress_table.csv
+    as_of: '2026-09-28'
+    note: ''
+  ws3.stress.S3:
+    value:
+      name: 2022 happens in 2028
+      gift: 169315.0
+      real_gift: 132984.0
+      floor: 150000.0
+      payments_funded: true
+    unit: USD
+    quote_as: quote only in the Final Report (stress table)
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M7_SPEC.md
+    source: rab/results/M7/stress_table.csv
+    as_of: '2026-09-28'
+    note: ''
+  ws3.stress.S4a:
+    value:
+      name: S&P downgrade 2011-style, before the ladder is bought
+      gift: 162469.0
+      real_gift: 141416.0
+      floor: 150000.0
+      payments_funded: true
+    unit: USD
+    quote_as: quote only in the Final Report (stress table)
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M7_SPEC.md
+    source: rab/results/M7/stress_table.csv
+    as_of: '2026-09-28'
+    note: ''
+  ws3.stress.S5:
+    value:
+      name: Great Depression (1928-33)
+      gift: 159298.0
+      real_gift: 208777.0
+      floor: 150000.0
+      payments_funded: true
+    unit: USD
+    quote_as: quote only in the Final Report (stress table)
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M7_SPEC.md
+    source: rab/results/M7/stress_table.csv
+    as_of: '2026-09-28'
+    note: ''
+  ws3.stress.S6:
+    value:
+      name: 2008 happens in 2028
+      gift: 164302.0
+      real_gift: 143011.0
+      floor: 150000.0
+      payments_funded: true
+    unit: USD
+    quote_as: quote only in the Final Report (stress table)
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M7_SPEC.md
+    source: rab/results/M7/stress_table.csv
+    as_of: '2026-09-28'
+    note: ''
+  ws3.real_value.breakeven:
+    value:
+      pay_2033: 43521.0
+      pay_2042: 35342.0
+      all_ten: 393053.0
+    unit: USD of 1 Jan 2027
+    quote_as: at the market's expected inflation the last $50,000 payment buys about what $35,000 buys in 2027
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M7_SPEC.md section 4
+    source: rab/results/M7/real_value_paths.csv
+    as_of: '2026-09-28'
+    note: Inflation 2.34% a year = FRED T10YIE on 28 Sep 2026.
+  ws3.real_value.1970s:
+    value:
+      pay_2042: 18414.0
+      all_ten: 226341.0
+    unit: USD of 1 Jan 2027
+    quote_as: in a 1970s-style inflation the last payment would buy about what $18,000 buys in 2027
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M7_SPEC.md section 4
+    source: rab/results/M7/real_value_paths.csv
+    as_of: '2026-09-28'
+    note: ''
+  ws3.real_value.history_2042:
+    value:
+      p5: 18589.0
+      p50: 34190.0
+      p95: 71621.0
+    unit: USD of 1 Jan 2027
+    quote_as: quote only in the Final Report appendix
+    scale: history
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: rab/models/M7_SPEC.md section 4
+    source: rab/results/M7/real_value_history_distribution.csv
+    as_of: '2026-09-28'
+    note: ''
+  ws3.real_value.H19_reverified:
+    value:
+      '2033': 42063.26175417096
+      '2042': 33681.2466750725
+    unit: USD of 2026 at 2.5% (7 and 16 years)
+    quote_as: quote only in the Final Report appendix
+    scale: reference
+    status: REPRODUCED
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: see method
+    method: insight_v1 strategy_changes.md I4 convention
+    source: rab/results/M7/M7_results.json h19
+    as_of: '2026-09-28'
+    note: '2.5% now sourced: JPM 2026 LTCMA U.S. inflation 2.50% (repo PDF p.2).'

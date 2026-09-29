@@ -1,0 +1,35 @@
+[A] Cost of certainty: the ten payments on every curve 1871-2026 (Nov-15 basis, same time to maturity as on 28 Sep 2026)
+    reproduce M1 G today       : $289,119.20 vs numbers.yaml $289,119.20 -> OK
+    reproduce M1 G 2020 median : $458,828.06 vs numbers.yaml $458,828.00 -> OK
+    reproduce M1 G 2020 max    : $470,249.27 vs numbers.yaml $470,249.00 -> OK
+    reproduce M1 G max date 2020-08-04 (numbers.yaml 2020-08-04); cheapest since 2002-05-28 (numbers.yaml 2002-05-28)
+    since_1871: 1869 month-start curves; lowest $111,249 (1981-10-01), highest $468,154 (2020-08-03); months at or below today's $289,119: 23.3%; at or below $300,000: 26.3%
+    since_1962: 777 month-start curves; lowest $111,249 (1981-10-01), highest $468,154 (2020-08-03); months at or below today's $289,119: 51.1%; at or below $300,000: 54.7%
+    daily since 1962: lowest $110,214 on 1981-09-30; highest $470,249 on 2020-08-04
+    years (1871-2026) whose median cost is below today's: 23.1%
+    check A4(a) flat-at-10y vs full curve, 1962-2026 month starts: median +0.8%, 5th-95th pct -0.8% .. +2.1%
+        1960s: median -0.1% (5th -1.3%, 95th +0.2%), n=96
+        1970s: median +0.5% (5th -1.2%, 95th +1.4%), n=120
+        1980s: median +0.8% (5th -1.9%, 95th +2.3%), n=120
+        1990s: median +1.2% (5th +0.2%, 95th +2.0%), n=120
+        2000s: median +1.5% (5th +0.4%, 95th +2.4%), n=120
+        2010s: median +0.7% (5th +0.2%, 95th +1.7%), n=120
+        2020s: median +0.8% (5th +0.5%, 95th +1.3%), n=81
+    check A4(b) FRED vs Treasury par file, 441 month starts 1990-2026: largest difference $0 (median $0; FRED lacks the 2-month tenor)
+    sensitivity: correcting pre-1962 months for the flat-curve bias (+0.8% / +2.1%) gives 23.5% / 23.8% of months since 1871 at or below today
+
+[B] Start-year backtest of the adopted plan (Y plays 2027 .. Y+6 plays 2033)
+    check today_yields: fund0 $40,736 vs numbers.yaml laura.stock_fund_2028_usd.strips $40,736; floor cost $117,194 vs laura.floor_cost_2028 $117,194
+    hist                   world_eq (149 windows): gift worst $29k (2020), p10 $67k, median $132k, best $404k | total worst $29k (2020), median $132k | real gift worst $23k (2020), median $125k | top reached 96% | top-up in 112 (max $121k), unfunded in 0 (max $0k); floor below $150k in 91; IPS-wording worst gift $29k
+    today_yields           world_eq (149 windows): gift worst $159k (1928), p10 $169k, median $176k, best $200k | total worst $173k (1927), median $214k | real gift worst $88k (1915), median $157k | top reached 85% | top-up in 0 (max $0k), unfunded in 0 (max $0k); floor below $150k in 0; IPS-wording worst gift $159k
+    today_yields_rescaled  world_eq (149 windows): gift worst $158k (1928), p10 $167k, median $174k, best $197k | total worst $170k (1927), median $206k | real gift worst $87k (1915), median $154k | top reached 76% | top-up in 0 (max $0k), unfunded in 0 (max $0k); floor below $150k in 0; IPS-wording worst gift $158k
+    hist                   us_eq    (149 windows): gift worst $29k (2020), p10 $67k, median $132k, best $363k | total worst $29k (2020), median $132k | real gift worst $23k (2020), median $125k | top reached 94% | top-up in 112 (max $121k), unfunded in 0 (max $0k); floor below $150k in 91; IPS-wording worst gift $29k
+    today_yields           us_eq    (149 windows): gift worst $158k (1929), p10 $168k, median $176k, best $196k | total worst $171k (1927), median $215k | real gift worst $89k (1915), median $155k | top reached 79% | top-up in 0 (max $0k), unfunded in 0 (max $0k); floor below $150k in 0; IPS-wording worst gift $158k
+    today_yields_rescaled  us_eq    (149 windows): gift worst $157k (1929), p10 $167k, median $174k, best $193k | total worst $169k (1927), median $209k | real gift worst $88k (1915), median $154k | top reached 73% | top-up in 0 (max $0k), unfunded in 0 (max $0k); floor below $150k in 0; IPS-wording worst gift $157k
+    eras (hist view, VT-like world fund):
+      1872-1913: ladder cost median $346k (max $365k), top-ups 39/42; stock fund median $0k; gift median $122k, worst $97k; real gift median $121k; top reached 95%
+      1914-1945: ladder cost median $356k (max $409k), top-ups 31/32; stock fund median $0k; gift median $111k, worst $47k; real gift median $101k; top reached 100%
+      1946-1981: ladder cost median $328k (max $400k), top-ups 22/36; stock fund median $2k; gift median $150k, worst $54k; real gift median $122k; top reached 97%
+      1982-2020: ladder cost median $301k (max $411k), top-ups 20/39; stock fund median $30k; gift median $168k, worst $29k; real gift median $145k; top reached 92%
+    five lowest gifts (hist, world): 2020 gift $29k (ladder $410k, top-up $121k, floor $29k, fund $0k); 2012 gift $41k (ladder $407k, top-up $111k, floor $41k, fund $0k); 2013 gift $46k (ladder $411k, top-up $108k, floor $46k, fund $0k); 1941 gift $47k (ladder $409k, top-up $108k, floor $47k, fund $0k); 2015 gift $51k (ladder $401k, top-up $103k, floor $51k, fund $0k)
+    reconcile insight_v1 H9 on the 28 Sep basis (U.S., 1928-2020 starts): raw total worst $172k (1928); rescaled worst $169k (1928), p10 $185k, median $214k (H9: $171k / $169k / $185k / $214k)

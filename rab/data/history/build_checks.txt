@@ -1,0 +1,9 @@
+JPM LTCMA 2026 matrix: 59 assets parsed (positions 1..59); missing positions: []
+U.S. equity 1928-2020: Damodaran vs JST USA correlation 0.975; geometric-mean gap +0.08pp/yr
+ex-U.S. 1991-2020: JST GDP-weighted vs Ken French developed ex-U.S. correlation 0.954; geometric means 6.84% vs 6.37%
+world mix vs actual VT 2009-2025: correlation 0.991; geometric means 12.42% vs 11.31%
+CPI Dec-Dec 1914-2025: Shiller vs FRED CPIAUCNS max abs difference 0.00pp
+start-of-year 10y yield 1929-1961: Shiller January GS10 minus Damodaran end of prior year: median -4bp, max abs 41bp
+Shiller current copy vs Yale copy, 1788 common months before 2020: largest price difference 0.00%, largest GS10 difference 0.00 points
+annual_history.csv: 155 years 1871-2025; world_eq complete 1872-2025 (154 years)
+soy_curves.csv: 156 years; bases: {'flat_shiller_gs10': 91, 'treasury_par': 37, 'fred_cmt': 28}

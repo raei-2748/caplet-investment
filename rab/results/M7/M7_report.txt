@@ -1,0 +1,34 @@
+[M7] Downgrade windows (FRED DGS10; S&P 500 from Yahoo, secondary):
+    S&P downgrade (AAA to AA+), 2011-08-05: 10-year 2.58% -> 2.02% after 20 trading days (-56bp); S&P 500 -2.1% (lowest -6.7%)
+    Fitch downgrade (AAA to AA+), 2023-08-01: 10-year 4.05% -> 4.12% after 20 trading days (+7bp); S&P 500 -1.7% (lowest -4.5%)
+    Moody's downgrade (Aaa to Aa1), 2025-05-16: 10-year 4.43% -> 4.46% after 20 trading days (+3bp); S&P 500 +1.3% (lowest -2.6%)
+
+[M7] Stress table (REC; 2027 = 1 Jan 2027; all MODEL):
+  S0   Base (JPM 7% stocks, breakeven inflation)                 | ladder $292k, top-up $0k, floor $150k at 5.06%, fund $41k -> 2031 $50k -> 2033 $57k; range $150k-$175k; gift $175k (real $152k); payments funded; real value 2042 payment $35k | All-Treasury $202k, 60/40 $237k, CPPI $219k
+  S1   1970s stagflation (1973-78)                               | ladder $292k, top-up $0k, floor $150k at 5.57%, fund $44k -> 2031 $51k -> 2033 $60k; range $150k-$175k; gift $175k (real $110k); payments funded; real value 2042 payment $18k | All-Treasury $207k, 60/40 $238k, CPPI $190k
+  S7   Great Inflation (1966-71)                                 | ladder $292k, top-up $0k, floor $150k at 5.12%, fund $41k -> 2031 $58k -> 2033 $68k; range $150k-$179k; gift $179k (real $138k); payments funded; real value 2042 payment $18k | All-Treasury $203k, 60/40 $289k, CPPI $250k
+  S2   Japan's lost decade (1990-95)                             | ladder $292k, top-up $0k, floor $150k at 4.22%, fund $36k -> 2031 $25k -> 2033 $23k; range $150k-$163k; gift $162k (real $147k); payments funded; real value 2042 payment $46k | All-Treasury $194k, 60/40 $-98k, CPPI $150k
+  S2b  Japan, and rates fall 1pp before Jan 2027                 | ladder $323k, top-up $24k, floor $147k at 3.22%, fund $0k -> 2031 $0k -> 2033 $0k; range $147k-$147k; gift $147k (real $133k); payments funded; real value 2042 payment $46k | All-Treasury $147k, 60/40 $-129k, CPPI $143k
+  S3   2022 happens in 2028                                      | ladder $292k, top-up $0k, floor $150k at 5.06%, fund $41k -> 2031 $39k -> 2033 $44k; range $150k-$169k; gift $169k (real $133k); payments funded; real value 2042 payment $32k | All-Treasury $202k, 60/40 $173k, CPPI $185k
+  S3b  2022 happens in 2027                                      | ladder $292k, top-up $0k, floor $150k at 7.22%, fund $52k -> 2031 $64k -> 2033 $73k; range $150k-$182k; gift $182k (real $143k); payments funded; real value 2042 payment $32k | All-Treasury $224k, 60/40 $215k, CPPI $228k
+  S5   Great Depression (1928-33)                                | ladder $292k, top-up $0k, floor $150k at 5.33%, fund $42k -> 2031 $19k -> 2033 $27k; range $150k-$159k; gift $159k (real $209k); payments funded; real value 2042 payment $51k | All-Treasury $205k, 60/40 $65k, CPPI $149k
+  S6   2008 happens in 2028                                      | ladder $292k, top-up $0k, floor $150k at 5.06%, fund $41k -> 2031 $29k -> 2033 $33k; range $150k-$164k; gift $164k (real $143k); payments funded; real value 2042 payment $35k | All-Treasury $202k, 60/40 $57k, CPPI $126k
+  S4a  S&P downgrade 2011-style, before the ladder is bought     | ladder $309k, top-up $9k, floor $150k at 4.50%, fund $20k -> 2031 $25k -> 2033 $29k; range $150k-$162k; gift $162k (real $141k); payments funded; real value 2042 payment $35k | All-Treasury $175k, 60/40 $221k, CPPI $188k
+  S4b  Fitch downgrade 2023-style, before the ladder is bought   | ladder $290k, top-up $0k, floor $150k at 5.13%, fund $43k -> 2031 $53k -> 2033 $61k; range $150k-$176k; gift $176k (real $154k); payments funded; real value 2042 payment $35k | All-Treasury $205k, 60/40 $239k, CPPI $223k
+  S4c  Moody's downgrade 2025-style, before the ladder is bought | ladder $292k, top-up $0k, floor $150k at 5.09%, fund $42k -> 2031 $51k -> 2033 $59k; range $150k-$176k; gift $176k (real $153k); payments funded; real value 2042 payment $35k | All-Treasury $204k, 60/40 $238k, CPPI $221k
+  S4d  Downgrade + buyers' strike (hypothetical)                 | ladder $265k, top-up $0k, floor $150k at 6.06%, fund $75k -> 2031 $68k -> 2033 $78k; range $150k-$184k; gift $184k (real $160k); payments funded; real value 2042 payment $35k | All-Treasury $250k, 60/40 $167k, CPPI $179k
+
+[M7] Thresholds (parallel fall before 1 Jan 2027, still there in Jan 2028): top-up needed beyond 26.2bp; stock fund used up (floor still $150,000) beyond 109.3bp; a payment unfunded beyond 428.4bp
+
+[M7] Real value of the ten $50,000 payments (1 Jan 2027 dollars):
+    Market breakeven 2.34% (T10YIE, 28 Sep 2026)                 avg 2.34%: 2033 $44k, 2042 $35k, all ten $393k
+    Cleveland Fed expected 2.57% (EXPINF10YR, Sep 2026)          avg 2.57%: 2033 $43k, 2042 $34k, all ten $384k
+    JPM 2026 LTCMA 2.50%                                         avg 2.50%: 2033 $43k, 2042 $35k, all ten $387k
+    Fed target 2.00%                                             avg 2.00%: 2033 $44k, 2042 $37k, all ten $407k
+    1970s stagflation (1973-78)                                  avg 6.89%: 2033 $31k, 2042 $18k, all ten $226k
+    Great Inflation (1966-71)                                    avg 6.88%: 2033 $39k, 2042 $18k, all ten $285k
+    Japan's lost decade (1990-95)                                avg 0.63%: 2033 $45k, 2042 $46k, all ten $450k
+    2021-25 inflation, then breakeven (S3)                       avg 3.04%: 2033 $39k, 2042 $32k, all ten $355k
+    Great Depression (1928-33)                                   avg -0.16%: 2033 $66k, 2042 $51k, all ten $607k
+    U.S. history (140 15-year windows 1872-2025): 2042 payment p5/p50/p95 $19k / $34k / $72k; all ten $252k / $388k / $650k
+    insight_v1 H19 reproduced with its own convention (2.5%, 7 and 16 years from 2026): $42,063 / $33,681 -> match True; 2.5% is now sourced to JPM 2026 LTCMA U.S. inflation (2.50%)
