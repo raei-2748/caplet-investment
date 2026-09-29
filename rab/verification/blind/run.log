@@ -1,0 +1,17 @@
+panel: 16170 dates 1962-01-02..2026-09-28; FRED vs Treasury 10Y max |diff| = 0.000pp over 9190 dates
+Cost_FWD(R) = 292,418.11 (yaml 292,418.11); Cost_RW(R) = 293,401.14; break-even fall FWD 26.20bp (yaml 26.2), RW 22.78bp
+ladder yield y(D) = 5.3289%, dy/db = 1.0075, EWMA sigma_D = 5.12 bp/day = 81.2 bp/yr
+windows (h=95d): 15855 starts 1963-01-03..2026-06-25, mean 64.7 panel changes each
+E1 P = 0.3316 (n=15855); E2 P = 0.2667 (n=5661)
+E3 P = 0.3269; phi_hat=0.999750 theta=6.190% kappa_bc=0.0007/yr half-life=966.34y; plug-in hat 0.3165, bc 0.3273; ADF p=0.420
+E4 P = 0.3220 (RW variant 0.3102); PCA shares [0.7826, 0.1236, 0.0505]
+E5 P = 0.3266; MOVE_D=101.82 rho=0.9895 [0.8662,1.1374] sigma_h=50.77bp
+HEADLINE P = 0.3266 (about 1 in 3), range 0.2667-0.3316
+R1 0.3023 (0.305) | R2 0.2384 (0.242) | R3 0.3009 (0.302) | R4 26bp: 0.2783/0.3137/0.2885 (0.276/0.311/0.285) | R5 0.2683 | R6 0.3266
+2028 base (FWD step 1): S = 40,736 (yaml 40736.0), F = 117,194 (yaml 117194.0); RW base S = 39,708
+2028 H-FHS: S p5/p50/p95 = 1,410/37,908/77,268; P(S<20k)=0.200 P(S=0)=0.042 P(T>0)=0.334
+2028 H-LVL: S p5/p50/p95 = 10,339/40,968/64,356; P(S<20k)=0.123 P(S=0)=0.008 P(T>0)=0.272
+2028 H-RAW: S p5/p50/p95 = 1,596/41,366/70,945; P(S<20k)=0.168 P(S=0)=0.045 P(T>0)=0.298
+H13 fund (y5 unchanged / shifted): -50bp: 25,419/22,590; -100bp: 9,366/3,626; -150bp: 0/0 | H14: -50bp: 9,281 (must 9281), -100bp: 28,753 (must 28753)
+4 Jan purchase: median P = 0.3308; history raw 1962+ P = 0.2952
+wrote /Users/ray/Research/rab-ws/ws4/rab/verification/blind/results.json in 3.1s
