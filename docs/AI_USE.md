@@ -47,3 +47,17 @@ flowchart LR
 When submitting the Final Report to Wharton, include the following statement:
 
 > *"Our team designed an institutional-grade investment research platform (`wharton-ic`) to manage point-in-time financial data, compute deterministic DCF valuations, and optimize portfolio risk using hierarchical risk parity and Conditional Value at Risk (skfolio). Multi-model AI agents were utilized in a strictly governed decision-support role—facilitating adversarial Bull vs. Bear debate, checking fact citations against SEC filings, and stress-testing our hypotheses. All investment decisions, trade authorizations, and report narratives were conceived, debated, and authored 100% by student team members."*
+
+---
+
+## 5. AI Use Log: Laura Gao Strategy Session (25 Sep 2026)
+
+| Date | Tool | Task | What students must verify / rewrite |
+|---|---|---|---|
+| 2026-09-24 | Claude (Cowork) | Read the client case; web research on WInS rules, past winners, LDI / cash-flow matching, goals-based wealth management, Treasury yields, Taiwan inflation (`docs/research_laura_gao_and_wins.md`) | Check every source link; confirm WInS rules on SMApply |
+| 2026-09-25 | Claude (Cowork) | Stage 1: transcribed the case into `config/client_mandate.yaml`; added the 23 Oct Trading Notes deadline | Compare the YAML line by line with the PDF; set `human_approved: true` only after review |
+| 2026-09-25 | Claude (Cowork) | Stage 2: wrote `model/laura/` (simulation, historical replay, tests, charts) using sourced assumptions | Re-run `python -m model.laura.run` and `pytest`; each team member should be able to explain one assumption in `assumptions.yaml` |
+| 2026-09-25 | Claude (Cowork) | Stage 3–4: decision memos D1–D8 (structured debate) and red-team review | Memos are **analysis, not submission text**. The student committee must accept, change or reject each decision and record it |
+| 2026-09-25 | Claude (Cowork) | Stage 5: bullet outlines for the Trading Notes, IPS, Final Report and co-sponsor talking points | **All submitted prose is written by students.** Outlines may guide structure only |
+
+Disclosure to adapt for the Final Report appendix: AI (Claude) was used for research, building and testing a projection model, and structured critique. Students checked the sources, made all decisions, and wrote all submitted text.

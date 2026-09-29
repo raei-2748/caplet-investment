@@ -1,90 +1,74 @@
 # config/client_mandate.yaml
-# Authoritative specification of the Wharton Client Mandate and Strategy
+# OFFICIAL 2026-27 client: Laura Gao.
+# Source: competition/official/2026_27/client_case_laura_gao_2026.pdf (Wharton Global Youth Program, released 2026-09-15)
+# The previous demo client (Dr. Elena Vance) is preserved in config/demo_client_mandate.yaml.
+# Facts below are transcribed from the case. Items marked TEAM_DECISION are ours to recommend, not given by the case.
+
+client_name: "Laura Gao"
+human_approved: false          # set true once the student committee has reviewed this transcription
+source_document: "competition/official/2026_27/client_case_laura_gao_2026.pdf"
 
 client:
-  name: "Dr. Elena Vance (Representative Demonstration Client)"
-  description: "Biomedical engineer and academic entrepreneur building an endowment for medical innovation research."
-  investment_horizon:
-    timeframe_years: 10
-    timeframe_description: "Long-term capital growth with capital preservation after year 7."
-  financial_goals:
-    primary: "Achieve annualized nominal return of 8-10% net of inflation and costs."
-    secondary: "Generate 2.0% annual cash yield for scholarship grant funding starting Year 3."
-    target_wealth_multiplier: 2.2
-  liquidity_needs:
-    minimum_cash_buffer_pct: 0.02
-    annual_liquidity_draw_pct: 0.015
-    emergency_liquidity_days: 5
-  risk_capacity: "Moderate-High (Substantial non-portfolio academic assets, no debt)."
-  risk_tolerance: "Moderate (Loss aversion during market drawdowns exceeding 20%)."
+  name: "Laura Gao"
+  description: >
+    Bestselling graphic novelist (The Wuhan I Know; Messy Roots), illustrator, entrepreneur, educator and
+    public speaker. Born in Wuhan, raised in Texas; Wharton BS 2018 (Statistics & Information Decisions
+    Management); former tech product manager. Plans a collaborative creative residency in Taiwan from 2033.
+  objectives: >
+    (1) Fund ten fixed $50,000 annual operating payments (2033-2042) with a high degree of certainty from the
+    portfolio alone. (2) After setting aside that operating reserve in 2033, contribute a responsible amount
+    toward the residency facility while preserving financial flexibility. (3) In 2031, communicate a credible
+    dollar range for the 2033 facility contribution to prospective co-sponsors.
   values:
-    impact_objectives:
-      - "Healthcare innovation and accessibility"
-      - "Sustainable operational footprint"
-      - "R&D intensity and technological advancement"
-    exclusion_sectors:
-      - "Tobacco"
-      - "Controversial Weapons"
-      - "Thermal Coal Extraction"
-  constraints:
-    min_market_cap_usd: 1000000000  # $1B minimum market cap
-    min_daily_volume_usd: 5000000   # $5M average daily dollar volume
-    max_emerging_market_exposure: 0.10
-    us_exchange_listed_only: true
-  special_preferences:
-    preferred_themes:
-      - "Quality Healthcare & Life Sciences"
-      - "Automation & Productive AI Infrastructure"
-      - "Energy Transition & Grid Reliability"
+    - "Storytelling; identity, belonging and community"
+    - "Education (her books are used in classrooms)"
+    - "Creativity combined with entrepreneurship; willingness to pursue unconventional opportunities"
+    - "Supporting artists, writers, designers, entrepreneurs and educators"
+  exclusions: []               # none specified by the case
+  risk_attitude: >
+    Has taken thoughtful risks in her career; understands volatility; wants an appropriate balance between
+    pursuing growth and protecting the capital required for her goals.
 
-strategy:
-  core_thesis: >
-    Compounding high-ROIC, low-leverage businesses exposed to structural secular tailwinds,
-    acquired at prices below intrinsic DCF value, disciplined by systematic risk budgeting.
-  investment_principles:
-    - "Quality First: Invest exclusively in businesses with sustainable moats and high cash ROIC."
-    - "Margin of Safety: Refuse capital allocation without verifiable upside to conservative DCF."
-    - "Tail-Risk Awareness: Construct portfolios using robust CVaR and hierarchical risk parity."
-    - "Auditable Lineage: Every recommendation must have empirical, point-in-time evidence."
-  stock_selection_rules:
-    min_fcf_conversion: 0.70       # FCF / Net Income >= 70%
-    min_roic: 0.12                 # Return on Invested Capital >= 12%
-    max_net_debt_ebitda: 3.0       # Net Debt / EBITDA <= 3.0x
-    min_discount_to_fair_value: 0.10 # >= 10% expected upside to base DCF
-  portfolio_roles:
-    core_compounders:
-      target_weight_range: [0.40, 0.60]
-      description: "Resilient market leaders with pricing power and consistent reinvestment rates."
-    secular_growth:
-      target_weight_range: [0.20, 0.35]
-      description: "High-growth businesses driving technological or healthcare innovation."
-    defensive_cash_generators:
-      target_weight_range: [0.15, 0.30]
-      description: "Low-beta, steady dividend growers providing portfolio stability."
-  sell_rules:
-    - "Thesis Breach: Deterioration in fundamental moat or ROIC dropping below cost of capital for two quarters."
-    - "Valuation Excess: Price exceeding 135% of optimistic Bull Case DCF valuation."
-    - "Risk Breach: Position risk contribution exceeding 25% of total portfolio variance."
-    - "Opportunity Cost: Superior risk-adjusted replacement available with >= 15% valuation spread."
-  rebalance_rules:
-    frequency: "Monthly review, quarterly rebalance"
-    drift_threshold_pct: 0.03      # Trigger rebalance if position drifts > 3% from target
-    turnover_limit_quarterly: 0.20  # Max 20% quarterly portfolio turnover
-  review_rules:
-    mandatory_review_days: 45
-    earnings_reaction_review: true
+timeline_convention:
+  year_zero: 2026              # Year N = calendar year - 2026
+  cash_flow_timing: "beginning_of_year"
 
-risk:
-  max_position: 0.15               # Max 15% in any single security
-  min_position: 0.025              # Min 2.5% in any active holding
-  max_sector: 0.25                 # Max 25% in any single GICS sector
-  max_industry: 0.15               # Max 15% in any single industry
-  max_factor_exposure: 1.5         # Max z-score factor tilt vs benchmark
-  liquidity_constraints:
-    max_position_vs_adv: 0.05      # Position must not exceed 5% of 30-day ADV
-  volatility_target: 0.14          # Target annualized portfolio volatility
-  drawdown_threshold: 0.18         # Max allowable simulated peak-to-trough drawdown
-  concentration_limits:
-    max_top_3_pct: 0.40
-    min_holdings_count: 10
-    max_holdings_count: 20
+cash_flows:
+  contributions:
+    - {year: 2027, year_index: 1, amount_usd: 300000, source: "initial investment"}
+    - {year: 2028, year_index: 2, amount_usd: 150000, source: "publishing advances, speaking, licensing, other ventures"}
+  no_other_flows_before: 2033   # no additions or withdrawals before 2033
+  operating_commitment:
+    payment_usd: 50000
+    count: 10
+    first_year: 2033
+    last_year: 2042
+    inflation_adjusted: false
+    certainty_required: "high degree of certainty (definition is a TEAM_DECISION)"
+    outside_funding_allowed: false   # co-sponsors, grants, fees may NOT be relied upon
+  operating_reserve:
+    set_aside_date: "start of 2033, before first payment and before facility contribution"
+    size: TEAM_DECISION
+    composition: TEAM_DECISION
+    composition_path_2033_2042: TEAM_DECISION
+  facility_contribution:
+    date: "2033, after reserve is set aside"
+    amount: TEAM_DECISION        # no predetermined amount; must preserve flexibility
+  cosponsor_communication:
+    date: 2031
+    deliverable: "dollar range + stated confidence + fundraising-material draft (students write prose)"
+
+scope_exclusions:
+  - "personal income and capital gains taxes"
+  - "Taiwan legal/regulatory requirements"
+  - "facility total cost, construction budget, funding gap, business plan"
+  - "size/composition of any separate contingency fund or endowment"
+  - "WInS gains/losses are NOT added to long-term projections"
+
+assumptions_required_by_case:
+  - "investment performance"
+  - "timing of cash flows"
+  - "outside funding"
+  - "inflation effect on portfolio projections and facility costs"
+  - "financial flexibility to preserve"
+  - "favourable and unfavourable outcomes"

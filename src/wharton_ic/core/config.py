@@ -82,9 +82,11 @@ class ConfigManager:
     def get_client_mandate_config(self) -> Dict[str, Any]:
         if self.is_production:
             mandate = self.load_yaml("client_mandate.yaml")
-            if not mandate or mandate.get("client_name") is None:
+            # Fail closed until the official case is transcribed AND the student committee sets human_approved: true.
+            if not mandate or mandate.get("client_name") is None or not mandate.get("human_approved"):
                 raise ProductionMissingMaterialError(
-                    "PRODUCTION ERROR: Official client case not loaded into config/client_mandate.yaml. "
+                    "PRODUCTION ERROR: Official client case not loaded into config/client_mandate.yaml "
+                    "(or not yet human-approved: set human_approved: true after student review). "
                     "Cannot construct client mandate in production mode."
                 )
             return mandate

@@ -8,6 +8,8 @@ timeline:
   materials_release_date: "2026-09-15"
   competition_start_date: "2026-09-28"
   team_roster_deadline: "2026-10-09"
+  trading_notes_deadline: "2026-10-23"   # Trading Notes Analysis (SMApply deliverables page, verified 2026-09-24)
+  final_report_instructions_release: "2026-11-09"
   ips_deadline: "2026-11-06"
   trading_period_end_date: "2026-12-04"
   final_report_deadline: "2026-12-04"
@@ -33,6 +35,9 @@ deliverables:
     mandatory: true
   - name: "School Documentation"
     deadline: "2026-12-04"
+    mandatory: true
+  - name: "Trading Notes Analysis"
+    deadline: "2026-10-23"
     mandatory: true
   - name: "Investment Policy Statement (IPS)"
     deadline: "2026-11-06"
