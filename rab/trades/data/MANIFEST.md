@@ -18,3 +18,10 @@ bond drop-down on 29 Sep (tab `WInS Notes`). So WInS probably lists bonds of thi
 
 WS6-notes (30 Sep): the iShares list has Treasury iBonds ending Dec 2026 ... Dec 2036, then Dec 2044. None ends
 Dec 2037 to Dec 2043, so the 2038-2042 payments need individual bonds (confirms insight_v1 S1 item 6, 27 Sep).
+
+| File | Source | Retrieved | As of | sha256 |
+|---|---|---|---|---|
+| `ips_doc_text_2026-09-30.txt` | IPS Google Doc 1qtEuzXq_QYdQ9VJlusPY9km2l80E1hkk8FPR0iw71-w ("IPS Report"), Google Drive connector `read_file_content`, read-only | 30 Sep 2026 (Sydney), WS6-notes retry | doc text on that date (headed "EXEMPLAR ONLY. NOT FOR SUBMISSION.") | 791915b020023058aafa71998b37f76af22f8185cf37eec343a6d849d18bba84 |
+
+Why: `build_notes.py` fails if any IPS sentence quoted in `notes.md` / `notes.csv` is not verbatim in this snapshot. If the
+team edits the IPS, re-read the doc, replace the snapshot and rebuild; a changed sentence then shows up as a failure.

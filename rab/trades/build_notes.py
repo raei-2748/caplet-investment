@@ -38,6 +38,9 @@ LABEL = "EXAMPLE - team rewrites"
 # ----------------------------------------------------------------------------------------------- word rules
 # One rule set for exemplars and team drafts: rab/trades/note_rules.py (standard library only).
 from note_rules import BANNED, MAX_NOTE, check_text  # noqa: E402,F401
+from note_check import WHARTON_EXAMPLE  # noqa: E402  (official example note, for its length only)
+
+IPS_SNAPSHOT = os.path.join(HERE, "data", "ips_doc_text_2026-09-30.txt")
 
 # ----------------------------------------------------------------------------------------------- IPS sentences
 # Quoted exactly from the IPS Google Doc 1qtEuzXq_QYdQ9VJlusPY9km2l80E1hkk8FPR0iw71-w, read 30 Sep 2026 (Drive
@@ -71,18 +74,21 @@ NOTES = [
         serves="Laura's 5th payment, $50,000 on 1 Jan 2037 (2027 deposit)",
         facts=["iShares iBonds Dec 2036 Term Treasury ETF: 4 Treasuries maturing in 2036; ends on or about "
                "15 Dec 2036; pays income monthly (iShares, 28 Sep)",
-               "first order of the day: the IPS buys the latest payments first",
+               "first order of the day: WInS orders run ETFs before bonds (cash control) and, among the funds, latest "
+               "payment first. The IPS rule 'latest payments first' says which payments Laura's 2027 deposit funds if "
+               "it falls short; it is not the order of WInS trades (the 2038-2042 bonds are bought last)",
                "thinnest fund: about $38m in assets (iShares, 28 Sep); place it after the first hour"],
         ips=["LATEST", "FALL"],
         number=("optional, Laura's plan: 'yields would have to fall about a quarter of a percentage point before "
                 "1 Jan 2027 for the ten payments to cost more than $300,000'",
                 "laura.ladder.breakeven_fall_bp_strips (26.2bp, MODEL, 28 Sep curve; re-lock after Friday)"),
         dont=["that the fund pays a set $50,000", "'thin' or 'risky' as a description of the holding",
-              "any WInS dollar amount as if it were Laura's"],
+              "any WInS dollar amount as if it were Laura's",
+              "'we buy the latest payments first' (WInS order history shows the 2038-2042 bonds bought after it)"],
         friday="WInS name string for IBTR; if IBTR cannot be bought, the order becomes IBTQ and this note changes.",
         exemplar=("Role: future funding. This iShares iBonds Treasury fund ends in Dec 2036, before Laura's 1 Jan "
-                  "2037 payment. We buy the latest payments first, so if yields fall before 2027 any gap is in the "
-                  "earliest payment, which her 2028 deposit can fill. Its income is reinvested at unknown rates."),
+                  "2037 payment. Her plan funds the latest payments first, so if yields fall before 2027 any gap falls "
+                  "on her first payment, which the 2028 deposit can fill. Its income must be reinvested."),
         nums={},
     ),
     dict(
@@ -184,17 +190,19 @@ NOTES = [
         rung=None, job="stock fund (growth)", tn_role="supported",
         serves="the return-seeking portfolio: growth for Laura's 2033 facility contribution above the floor",
         facts=["Vanguard Total World Stock ETF (SEEN in WInS 29 Sep): a global index fund of thousands of companies",
-               "bought after all ten dated holdings and the floor: payments first, then growth",
+               "sized from what is left after the ten dated holdings and the floor (payments first, then growth). In "
+               "the WInS order list VT is #6, before the five bonds, only because ETF orders go first for cash control",
                "Portfolio tab: 8.7% of the book; in Laura's plan about $41,000 on 2 Jan 2028 (MODEL)"],
         ips=["BRANCH", "DECLINE"],
         number=("'about 9% of our WInS portfolio' (or, not both: 'about $41,000 in Laura's plan')",
                 "wins.portfolio.split_close_0928 vt 0.0868 (WInS book); laura.stock_fund_2028_usd.strips 40,736"),
         dont=["a return forecast (the IPS's 'should outperform' belongs in the IPS, not a note)",
-              "probabilities, CAPE or valuation calls", "'Laura likes risk'", "any 2031 or 2033 dollar figure"],
+              "probabilities, CAPE or valuation calls", "'Laura likes risk'", "any 2031 or 2033 dollar figure",
+              "that VT was bought after the payments (it is WInS order 6 of 11; say the money was set aside first)"],
         friday="VT's share after re-sizing (still 'about 9%' unless the refresh moves it by a point).",
-        exemplar=("Role: growth. Money goes to stocks only after the payments and the facility floor are bought: "
-                  "about 9% of our WInS portfolio, in this world fund of thousands of companies, held to 2033. A "
-                  "stock fall can shrink only the part of Laura's facility contribution above the floor."),
+        exemplar=("Role: growth. Stocks get only the money left once the payments and the facility floor are set "
+                  "aside: about 9% of our WInS portfolio, in this world fund of thousands of companies, held to 2033. "
+                  "A stock fall can shrink only the part of Laura's facility contribution above the floor."),
         nums={"9%": "wins.portfolio.split_close_0928 (vt 0.0868)"},
     ),
     dict(
@@ -230,7 +238,7 @@ NOTES = [
         dont=["that the swap will happen; say 'we are checking'"],
         friday="If the 1.375% is listed and swapped, use SW40; if WInS does not list it, use T40b.",
         exemplar=("Role: future funding. The 4.250% Treasury bond maturing 15 Nov 2040 is for Laura's $50,000 "
-                  "payment on 1 Jan 2041. Reinvesting its coupons until then is the main risk, so we are checking "
+                  "payment on 1 Jan 2041. The rate its coupons earn until then is the main unknown, so we are checking "
                   "whether WInS lists a lower-coupon bond of the same date. Its price passed our curve check."),
         nums={},
     ),
@@ -265,9 +273,9 @@ NOTES = [
         dont=["that WInS is 'wrong' or 'broken' (say 'stale')", "'bp'", "the Sheet's accrued-interest typo"],
         friday=("Re-check both prices on Friday. If the Feb 2038 price now passes, say what the check showed that "
                 "day, or date the stale price ('on 29 Sep ...')."),
-        exemplar=("Role: future funding. For Laura's 1 Jan 2039 payment we chose this 4.500% Treasury bond of 15 May "
-                  "2038, coupons reinvested. We checked each candidate's WInS price against the Treasury yield curve: "
-                  "the 4.375% Feb 2038 bond was about 1 point of yield off, so we treated it as stale."),
+        exemplar=("Role: future funding. This 4.500% Treasury bond of 15 May 2038 is the last one maturing before "
+                  "Laura's 1 Jan 2039 payment. Its WInS price passed our yield curve check; the 4.375% Feb 2038 price "
+                  "was about 1 point of yield off, so we treated it as stale. Its coupons must be reinvested."),
         nums={"1 point": "wins.bond_check.T_4.375%_15-Feb-2038 (gap -92.1bp)"},
     ),
     dict(
@@ -374,6 +382,66 @@ VARIANTS = [
     ),
 ]
 
+# ----------------------------------------------------------------------------------------------- reflection outlines
+# Bullets for the Trading Notes Analysis reflections (TN guide: why / how it aligned / how it served the client).
+# Each outline is 100 words or fewer (checked in main). Students write the prose; these are prompts, not text.
+OUTLINES = [
+    ("Pick 1, IBTM (refined)", [
+        "Why: the IPS floor is \"Treasuries maturing in late 2032\", but WInS lists none between Feb 2031 and Feb 2036 "
+        "(SEEN 29 Sep); the fund ending Dec 2032 was the closest fit.",
+        "Aligned: one holding carries her first payment and the floor, set aside before any stocks.",
+        "Served Laura: her artists' first payment and the floor she quotes co-sponsors avoid the stock market.",
+        "Refined: the plan adapted to WInS; the strategy did not change.",
+        "Limit: iShares says it \"does not seek to return any predetermined amount\"; income reinvested.",
+        "One number at most: \"about a third of our WInS portfolio\".",
+    ]),
+    ("Pick 2, 4.500% May 2038 bond (tested)", [
+        "Why: before any bond order we checked each WInS price against that day's Treasury yield curve (within a "
+        "quarter of a point of yield).",
+        "Tested: this bond passed; the 4.375% Feb 2038 price was about 1 point of yield off, so we treated it as "
+        "stale. Use Friday's result if different.",
+        "Aligned: \"Laura's 2027 deposit buys Treasuries maturing before each of her ten $50,000 payments.\" It is the "
+        "last bond maturing before the 2039 payment, so skipping the stale one cost nothing.",
+        "Served Laura: funding reliability; the plan's cost of her payments rests on fair prices.",
+        "One number at most.",
+    ]),
+    ("Pick 3, VT (supported)", [
+        "Why: once the ten payments and the floor are set aside, the rest (about 9% of the WInS portfolio) goes into "
+        "one world fund of thousands of companies, held to 2033.",
+        "Aligned: \"A market decline can reduce the facility contribution, but not below the floor.\"",
+        "Served Laura: growth for the facility from money no artist or co-sponsor relies on; in a bad year only the "
+        "part above the floor shrinks.",
+        "Tradeoff: more stock raises the expected result modestly but widens the range, and the floor quoted in 2031 "
+        "would not hold.",
+        "Never: a return forecast or a probability.",
+    ]),
+]
+ALT_OUTLINES = [
+    ("Alternate A, IBTR (supported)", [
+        "Why: the IPS buys \"latest payments first\", so a fall in yields before January 2027 leaves the gap on the "
+        "first payment.",
+        "Aligned: \"A moderate fall in yields would leave some payments for the 2028 deposit to complete\".",
+        "Served Laura: a rate fall is absorbed by her 2028 deposit, not by the artists' later payments; its income "
+        "is reinvested.",
+        "One number at most: \"about a quarter of a percentage point\" (the fall that lifts the ten payments above "
+        "$300,000; MODEL, 28 Sep curve).",
+    ]),
+    ("Alternate B, 3.125% Nov 2041 bond (supported)", [
+        "Why: no iBonds Treasury fund ends Dec 2037 to Dec 2043 (iShares list, 30 Sep), so her last five payments use "
+        "individual Treasury bonds.",
+        "Aligned: the IPS pitch sentence on dated Treasuries.",
+        "Served Laura: her last payment has a Treasury maturing 47 days before it; the rate its coupons earn is the "
+        "main unknown.",
+        "One number at most.",
+    ]),
+]
+MAX_OUTLINE_WORDS = 100
+
+
+def outline_words(bullets):
+    return len(" ".join(bullets).split())
+
+
 def check_note(n):
     """Every check in note_rules.check_text must pass for an exemplar (FAIL and WARN alike)."""
     return [(name, ok, detail) for name, ok, detail, _sev in check_text(n["exemplar"], list(n.get("nums", {})))]
@@ -439,6 +507,24 @@ def brief_cell(n, T, Y, book):
     return " ".join(parts)
 
 
+def role_of(text):
+    """The official role word(s) the exemplar opens with ('Role: future funding.' -> 'future funding')."""
+    m = re.match(r"Role: ([^.]+)\.", text)
+    return m.group(1) if m else ""
+
+
+def check_ips_quotes():
+    """Every IPS sentence quoted in the kit must appear verbatim in the 30 Sep snapshot of the IPS doc."""
+    doc = open(IPS_SNAPSHOT).read()
+    not_ips = {"about a third of our WInS portfolio", "about a quarter of a percentage point",
+               "does not seek to return any predetermined amount"}   # numbers.yaml quote_as strings; iShares text
+    quoted = list(IPS.values())
+    for _, bullets in OUTLINES + ALT_OUTLINES:
+        for b in bullets:   # quotes are checked bullet by bullet, never across bullets
+            quoted += [q for q in re.findall(r'"([^"]+)"', b) if q not in not_ips]
+    return [q for q in quoted if q.rstrip(".") not in doc]
+
+
 def write_csv(path, T, Y):
     rows = []
     for n in NOTES:
@@ -449,18 +535,22 @@ def write_csv(path, T, Y):
                          f"size differs. " + "; ".join(l for l in book_facts(n, T, Y) if l.startswith("Book L")) + ".")
             rows.append(dict(ticker=n["ticker"], brief=brief, exemplar=n["exemplar"], char_count=len(n["exemplar"]),
                              book=book, seq=seq, note_id=n["id"], use=n["use"], label=LABEL,
-                             numbers="; ".join(f"{k} = {v}" for k, v in n.get("nums", {}).items())))
+                             numbers="; ".join(f"{k} = {v}" for k, v in n.get("nums", {}).items()),
+                             role=role_of(n["exemplar"]), tn_role=n["tn_role"],
+                             ips_quote=" / ".join(IPS[k] for k in n["ips"])))
     for v in VARIANTS:
         brief = (f"Serves: {v['serves']}. {v['brief']} IPS: " +
                  " / ".join(f"\"{IPS[k]}\"" for k in v["ips"]))
         rows.append(dict(ticker=v["ticker"], brief=brief, exemplar=v["exemplar"], char_count=len(v["exemplar"]),
                          book="conditional", seq="", note_id=v["id"], use=v["use"], label=LABEL,
-                         numbers="; ".join(f"{k} = {x}" for k, x in v.get("nums", {}).items())))
+                         numbers="; ".join(f"{k} = {x}" for k, x in v.get("nums", {}).items()),
+                         role=role_of(v["exemplar"]), tn_role=v["tn_role"],
+                         ips_quote=" / ".join(IPS[k] for k in v["ips"])))
     order = {"Portfolio": 0, "BookL": 1, "conditional": 2}
     rows.sort(key=lambda r: (order[r["book"]], int(r["seq"]) if r["seq"] != "" else 99))
     with open(path, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["ticker", "brief", "exemplar", "char_count", "book", "seq", "note_id",
-                                          "use", "label", "numbers"])
+                                          "use", "label", "numbers", "role", "tn_role", "ips_quote"])
         w.writeheader()
         w.writerows(rows)
     return rows
@@ -515,7 +605,8 @@ def write_md(path, T, Y, h, results):
     A("- **Feature these three in the Trading Notes Analysis** (Portfolio book): **IBTM** (refined: a dated fund "
       "carries the floor because WInS lists no late-2032 Treasury), **the 4.500% May 2038 bond** (tested: the price "
       "check that rejected a stale WInS price), and **VT** (supported: growth only with money nobody else relies on). "
-      "They cover payments, floor and growth, and one is a process check. Alternates: IBTR and the October trade (s6).")
+      "They cover payments, floor and growth, and one is a process check. Alternates: IBTR and the 3.125% Nov 2041 "
+      "bond; an October trade that fills with a saved note can replace a pick (s6).")
     A("- **Book L** would leave the analysis with payments only: the floor and the stock fund never appear in WInS. "
       "That is a point for the 1 Oct vote, not a change to the plan (s7).")
     A("")
@@ -531,6 +622,9 @@ def write_md(path, T, Y, h, results):
     A("- **The box:** 300 characters maximum (maxlength, SEEN 29 Sep). The kit limit is **285**, plain ASCII (straight "
       "quotes; no dashes, `~` or `<=`), one paragraph. Whether a saved note can be edited is UNVERIFIED: treat the first "
       "save as final.")
+    A(f"- **The Guide's own example note** (Trading Note Instruction p.2) is {len(WHARTON_EXAMPLE)} characters, so it "
+      "would not fit the WInS box, and it would be true of any client. Use it for tone only; `note_check.py` warns if a "
+      "draft echoes it.")
     A("- **Laura-specific:** name the payment date, the floor or the facility. Would the note be true of any client? "
       "Then rewrite it.")
     A("- **Numbers:** at most one analytic number, from `numbers.yaml` or a named, dated source. Dollar figures only as "
@@ -604,7 +698,8 @@ def write_md(path, T, Y, h, results):
       "before buying. Two prices failed, one of them the other 2038 bond. It links the plan's cost claim to the "
       "prices actually paid (funding reliability). |")
     A("| 3 | VT, Friday #6 (VT) | **supported** | growth | Shows the balance the Guide asks for: growth only with money "
-      "nobody else relies on, bought after the payments and floor. Answers \"why so little stock?\" with the "
+      "nobody else relies on, sized from what is left after the payments and floor. Answers "
+      "\"why so little stock?\" with the "
       "client's own priorities. |")
     A("")
     A("**Alternates (keep two):** (a) **IBTR, Friday #1** (supported: \"latest payments first\", the rule for a fall "
@@ -622,49 +717,21 @@ def write_md(path, T, Y, h, results):
       "(supported); alternates the Nov 2041 bond and IBTQ. All three are payments: each reflection must say once "
       "that WInS holds only Laura's 2027 deposit, and the floor and stock fund come in 2028.")
     A("")
-    A("### Reflection outlines (bullets only; students write the prose, 100 words or fewer)")
+    A("### Reflection outlines (bullets only; each outline 100 words or fewer; students write the prose)")
     A("")
-    A("**Pick 1, IBTM (refined).**")
+    A("Each follows the three questions the TN guide asks: why the team made the decision, how it aligned with the "
+      "strategy, and how it served Laura's goals, funding needs or risks. Word counts are checked by build_notes.py.")
     A("")
-    A("- Why: the IPS floor is \"Treasuries maturing in late 2032\"; WInS lists no Treasury between Feb 2031 and "
-      "Feb 2036 (SEEN 29 Sep); a fund ending about 15 Dec 2032 was the closest fit, so one holding took two jobs.")
-    A("- Aligned: IPS floor sentence and \"latest payments first\" (the 2033 payment is the one the 2028 deposit can "
-      "complete).")
-    A("- Served Laura: the first payment her artists rely on, and the least she can quote co-sponsors, sit outside "
-      "the stock market.")
-    A("- Refined (only if true): the 29 Sep WInS Notes entry is dated before the order; cite that change, not a new "
-      "strategy.")
-    A("- Honest limit: iShares says the fund \"does not seek to return any predetermined amount\"; its income is "
-      "reinvested. If confidence is mentioned: \"certain by construction if the floor holdings pay, the 2028 deposit "
-      "arrives and the gift is capped\"; no dollar figure (the floor announced rounded down is Final Report "
-      "material).")
-    A("- One number at most: \"about a third of our WInS portfolio\".")
-    A("")
-    A("**Pick 2, 4.500% May 2038 bond (tested).**")
-    A("")
-    A("- Why: before any bond order the team compared each WInS price with the Treasury's own yield curve (25bp band, "
-      "stated in words).")
-    A("- What the test showed: this bond passed; the 4.375% Feb 2038 (and 4.5% Feb 2036) prices were about 1 point "
-      "of yield off, so the team treated them as stale. Use Friday's result if it differs.")
-    A("- Aligned: \"Laura's 2027 deposit buys Treasuries maturing before each of her ten $50,000 payments\"; the "
-      "stated cost of the payments assumes fair prices.")
-    A("- Served Laura: funding reliability. The plan's cost of the payments rests on fair prices; the stale price was "
-      "about 8 points per $100 above the curve price (99.98 against 92.18; wins.bond_check, MODEL), so it would have "
-      "misstated what her deposit buys.")
-    A("- The May 2038 bond is also the latest bond maturing before the 2039 payment (Treasury MSPD list), so "
-      "skipping the stale one cost nothing.")
-    A("- One number at most (either \"about 1 point of yield\" or \"about 8 points per $100\").")
-    A("")
-    A("**Pick 3, VT (supported).**")
-    A("")
-    A("- Why: after the ten payments and the floor, what is left (about 9% of the WInS portfolio, which shows her "
-      "plan after both deposits, scaled down) goes into one global fund of thousands of companies, held to 2033.")
-    A("- Aligned: IPS \"The rest, plus any 2027 remainder, forms the return-seeking portfolio ...\" and \"A market "
-      "decline can reduce the facility contribution, but not below the floor.\"")
-    A("- Served Laura: growth and flexibility for the facility, from money no artist or co-sponsor relies on.")
-    A("- The tradeoff (\"why so little stock?\"): moving floor money into stocks raises the expected outcome modestly "
-      "but widens the range, and the floor quoted in 2031 would no longer hold (IPS paragraph 4).")
-    A("- Never: a return forecast, a probability, a 2031 or 2033 figure. One number at most.")
+    for title, bullets in OUTLINES + ALT_OUTLINES:
+        A(f"**{title}** ({outline_words(bullets)} words)")
+        A("")
+        for b in bullets:
+            A(f"- {b}")
+        A("")
+    A("**Keep out of all reflections:** the 2031 range, its top, any co-sponsor or facility dollar figure and the "
+      "operating reserve size (TN guide: Final Report material); WInS gains, losses or rank; the strategy name "
+      "until Ray confirms it. If confidence comes up, the only safe wording is \"certain by construction if the "
+      "floor holdings pay, the 2028 deposit arrives and the gift is capped\" (premortem PM-25).")
     A("")
     A("## 7. Triage (the strategy is unchanged; nothing here is applied to the IPS or the Sheet)")
     A("")
@@ -700,7 +767,8 @@ def write_md(path, T, Y, h, results):
     A("## 9. Sources")
     A("")
     A("- Trading Note Instruction.pdf and Competition Guide.pdf p.3 (Drive folder Knox Wharton 2026; official 2026-27).")
-    A("- IPS Google Doc 1qtEuzXq_QYdQ9VJlusPY9km2l80E1hkk8FPR0iw71-w, read 30 Sep 2026 (read-only).")
+    A("- IPS Google Doc 1qtEuzXq_QYdQ9VJlusPY9km2l80E1hkk8FPR0iw71-w, read 30 Sep 2026 (read-only); text snapshot in "
+      "`data/ips_doc_text_2026-09-30.txt`, and build_notes.py checks every quoted IPS sentence against it.")
     A("- Sheet 1EHCJxbFI0UOzNOpOWvDfzNqbK45qWuopZcL7HNN3VPM tabs WInS Notes, Portfolio, Book L (snapshots in "
       "`rab/data/sheet/`, read 30 Sep 00:30-00:34 AEST).")
     A("- iShares product pages, 28 Sep (`rab/data/ishares/`): monthly distributions; \"terminate on or about ... "
@@ -736,13 +804,20 @@ def main():
     rows = write_csv(csv_path, T, Y)
     write_md(md_path, T, Y, h, results)
     g = grep_outputs([csv_path, md_path])
+    ips_missing = check_ips_quotes()
+    long_outlines = [(t, outline_words(b)) for t, b in OUTLINES + ALT_OUTLINES if outline_words(b) > MAX_OUTLINE_WORDS]
     for nid, cs in results.items():
         bad = [f"{c[0]} ({c[2]})" for c in cs if not c[1]]
         print(f"{nid:7s} {len(next(x for x in NOTES + VARIANTS if x['id'] == nid)['exemplar']):4d} chars  "
               f"{'pass' if not bad else 'FAIL: ' + ', '.join(bad)}")
     print(f"notes.csv rows: {len(rows)}; superseded/stale grep hits: {g or 'none'}; numbers.yaml {h[:12]}")
-    print(f"{fails + len(g)} fail")
-    return 1 if fails or g else 0
+    print(f"IPS quotes not verbatim in the 30 Sep snapshot: {ips_missing or 'none'}")
+    print("reflection outlines (words): " + ", ".join(f"{t.split(',')[0]} {outline_words(b)}"
+                                                        for t, b in OUTLINES + ALT_OUTLINES)
+          + (f"; OVER {MAX_OUTLINE_WORDS}: {long_outlines}" if long_outlines else ""))
+    nfail = fails + len(g) + len(ips_missing) + len(long_outlines)
+    print(f"{nfail} fail")
+    return 1 if nfail else 0
 
 
 if __name__ == "__main__":

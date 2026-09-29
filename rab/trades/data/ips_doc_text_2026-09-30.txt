@@ -1,0 +1,30 @@
+# Snapshot: IPS Google Doc 1qtEuzXq_QYdQ9VJlusPY9km2l80E1hkk8FPR0iw71-w ("IPS Report"), read-only via the Google Drive
+# connector (read_file_content), 30 Sep 2026 (Sydney), by RAB Kit WS6-notes. Text as returned, blank lines collapsed.
+# The doc is headed "EXEMPLAR ONLY. NOT FOR SUBMISSION."; its strategy text is the adopted one. Used only to check
+# that every IPS sentence quoted in notes.md / notes.csv appears verbatim. Local branch only; never pushed.
+
+Example
+
+EXEMPLAR ONLY. NOT FOR SUBMISSION.
+
+Caplet
+
+Ray W. | Ahaan D. | Darren W. | Harry Y. | Eric Z. | Young Y.
+
+WInS Username: Caplet-10465936
+
+Investment Strategy Elevator Pitch
+
+Under our strategy, Root-and-Branch, Laura's 2027 deposit buys Treasuries maturing before each of her ten $50,000 payments. Her 2028 deposit buys a Treasury floor for the facility, and the rest goes into global equities. Co-sponsors hear a range from the floor up, and her contribution cannot fall outside it.
+
+Investment Policy Statement
+
+This policy governs the portfolio Laura Gao will fund with $300,000 in January 2027 and $150,000 in January 2028 for the Taiwan creative residency she plans to open in 2033. Its primary objective is to fund ten operating payments of $50,000, due each January from 2033 through 2042, with a high degree of certainty and without outside funding. By high certainty we mean that each payment is matched by a dated Treasury ETF or bond maturing just before it, so that once bought it depends essentially on the US government. The secondary objective is a responsible 2033 facility contribution that leaves Laura financial flexibility.
+
+Laura understands market volatility and is comfortable with business risk, but her ability to take risk differs by goal. For the operating payments, the main risk is a shortfall, and her tolerance is below average because the residency's artists rely on that money. For facility money above a floor she can promise co-sponsors, her tolerance is above average. Her living costs are met elsewhere, so the portfolio needs no liquidity before 2033.
+
+We call our liability-driven approach Root-and-Branch. The roots, meaning the payments and facility floor, are secured before anything is invested in the branch, the return-seeking portfolio. The January 2027 deposit buys the liability-hedging portfolio, latest payments first. This cash-flow matching, unlike immunization, needs no rebalancing. At September 2026 yields the ten payments cost less than $300,000. A moderate fall in yields would leave some payments for the 2028 deposit to complete, and only 2020-level yields, when they would have cost about $460,000, could leave part of one unfunded. We tested this on every Treasury curve since 2000. Part of the remainder buys Treasuries maturing in late 2032 that, with coupons reinvested, repay the whole remainder as Laura's facility floor. The rest, plus any 2027 remainder, forms the return-seeking portfolio, a global index fund of thousands of companies held to 2033. In January 2033 the hedging portfolio becomes the operating reserve, held to maturity and shrinking as each holding pays out. Our WInS portfolio shows the allocation after both deposits, scaled down.
+
+A market decline can reduce the facility contribution, but not below the floor. Equities should outperform Treasuries over five years but can fall sharply, so moving money from the floor into equities raises the expected outcome modestly but widens the range of results. We do not recommend it, because Laura will quote the floor to co-sponsors in 2031. Inflation leaves the fixed payments unchanged but raises facility costs and erodes the floor's real value.
+
+In 2031 Laura will give co-sponsors a range from the floor to the floor plus half the equity fund's value then. Her 2033 contribution will be the floor plus half the fund's value then, capped at the announced top, so it cannot fall outside the range. The other half remains with Laura as a cushion if costs rise or co-sponsors fall short.

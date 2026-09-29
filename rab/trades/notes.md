@@ -5,7 +5,7 @@ WS6-notes, RAB Kit, 30 Sep 2026 (Sydney). AI-generated research (Claude Code, Cl
 **Bottom line.**
 
 - Every Friday ticket (both books) has a brief and an exemplar; so do the Friday swap variants and each October trigger. All exemplars are 284 characters or fewer, plain ASCII, one paragraph, and pass the banned-word and number checks (s8).
-- **Feature these three in the Trading Notes Analysis** (Portfolio book): **IBTM** (refined: a dated fund carries the floor because WInS lists no late-2032 Treasury), **the 4.500% May 2038 bond** (tested: the price check that rejected a stale WInS price), and **VT** (supported: growth only with money nobody else relies on). They cover payments, floor and growth, and one is a process check. Alternates: IBTR and the October trade (s6).
+- **Feature these three in the Trading Notes Analysis** (Portfolio book): **IBTM** (refined: a dated fund carries the floor because WInS lists no late-2032 Treasury), **the 4.500% May 2038 bond** (tested: the price check that rejected a stale WInS price), and **VT** (supported: growth only with money nobody else relies on). They cover payments, floor and growth, and one is a process check. Alternates: IBTR and the 3.125% Nov 2041 bond; an October trade that fills with a saved note can replace a pick (s6).
 - **Book L** would leave the analysis with payments only: the floor and the stock fund never appear in WInS. That is a point for the 1 Oct vote, not a change to the plan (s7).
 
 ## 1. What a note must do
@@ -13,6 +13,7 @@ WS6-notes, RAB Kit, 30 Sep 2026 (Sydney). AI-generated research (Claude Code, Cl
 - **Official test** (Competition Guide p.3): a note captures "the reasoning behind the decision, including its alignment with your strategy, the supporting research or analysis, and its expected role in growth, liquidity, risk management, or future funding." The TN Analysis later quotes three notes "exactly as it appears in WInS" and asks how each decision "aligned with, tested, or refined" the strategy (Trading Note Instruction).
 - **Shape used by every exemplar:** `Role: <official role word>.` + what is bought and which of Laura's needs it serves + the research or check behind it + the honest limit. About 45 words.
 - **The box:** 300 characters maximum (maxlength, SEEN 29 Sep). The kit limit is **285**, plain ASCII (straight quotes; no dashes, `~` or `<=`), one paragraph. Whether a saved note can be edited is UNVERIFIED: treat the first save as final.
+- **The Guide's own example note** (Trading Note Instruction p.2) is 413 characters, so it would not fit the WInS box, and it would be true of any client. Use it for tone only; `note_check.py` warns if a draft echoes it.
 - **Laura-specific:** name the payment date, the floor or the facility. Would the note be true of any client? Then rewrite it.
 - **Numbers:** at most one analytic number, from `numbers.yaml` or a named, dated source. Dollar figures only as Laura's case facts ($50,000 payments, $300,000 first deposit) or "in Laura's plan"; WInS amounts as percentages. Never a WInS gain, loss or ranking.
 - **Coupon caveat:** every note that ties a holding to a payment says, in a few words, that its income or coupons must be reinvested (premortem PM-23). A bond's amount due at maturity is set; the total with reinvested coupons is not. An iBonds fund's end value is never fixed.
@@ -45,7 +46,7 @@ Order: iBonds funds latest payment first, then VT, then bonds latest payment fir
 
 - **Serves:** Laura's 5th payment, $50,000 on 1 Jan 2037 (2027 deposit). **Job:** payments. **Likely TN role:** supported.
 - iShares iBonds Dec 2036 Term Treasury ETF: 4 Treasuries maturing in 2036; ends on or about 15 Dec 2036; pays income monthly (iShares, 28 Sep)
-- first order of the day: the IPS buys the latest payments first
+- first order of the day: WInS orders run ETFs before bonds (cash control) and, among the funds, latest payment first. The IPS rule 'latest payments first' says which payments Laura's 2027 deposit funds if it falls short; it is not the order of WInS trades (the 2038-2042 bonds are bought last)
 - thinnest fund: about $38m in assets (iShares, 28 Sep); place it after the first hour
 - Portfolio #1: 846 shares, expected Preview total $19,897.54 (ticket), 6.6% of the book (numbers.yaml)
 - Book L #1: 1,252 shares, expected Preview total $29,434.48 (ticket), 9.8% of the book (ticket cost / $300,000)
@@ -53,12 +54,12 @@ Order: iBonds funds latest payment first, then VT, then bonds latest payment fir
 - **IPS:** "The January 2027 deposit buys the liability-hedging portfolio, latest payments first."
 - **IPS:** "A moderate fall in yields would leave some payments for the 2028 deposit to complete"
 - **One number:** optional, Laura's plan: 'yields would have to fall about a quarter of a percentage point before 1 Jan 2027 for the ten payments to cost more than $300,000'. Source: laura.ladder.breakeven_fall_bp_strips (26.2bp, MODEL, 28 Sep curve; re-lock after Friday).
-- **Do not say:** that the fund pays a set $50,000; 'thin' or 'risky' as a description of the holding; any WInS dollar amount as if it were Laura's.
+- **Do not say:** that the fund pays a set $50,000; 'thin' or 'risky' as a description of the holding; any WInS dollar amount as if it were Laura's; 'we buy the latest payments first' (WInS order history shows the 2038-2042 bonds bought after it).
 - **Re-check Friday:** WInS name string for IBTR; if IBTR cannot be bought, the order becomes IBTQ and this note changes.
 
-> **EXAMPLE - team rewrites** (284 characters; checks pass)
+> **EXAMPLE - team rewrites** (280 characters; checks pass)
 >
-> Role: future funding. This iShares iBonds Treasury fund ends in Dec 2036, before Laura's 1 Jan 2037 payment. We buy the latest payments first, so if yields fall before 2027 any gap is in the earliest payment, which her 2028 deposit can fill. Its income is reinvested at unknown rates.
+> Role: future funding. This iShares iBonds Treasury fund ends in Dec 2036, before Laura's 1 Jan 2037 payment. Her plan funds the latest payments first, so if yields fall before 2027 any gap falls on her first payment, which the 2028 deposit can fill. Its income must be reinvested.
 
 ### IBTQ: Portfolio #2, Book L #2
 
@@ -152,18 +153,18 @@ Order: iBonds funds latest payment first, then VT, then bonds latest payment fir
 
 - **Serves:** the return-seeking portfolio: growth for Laura's 2033 facility contribution above the floor. **Job:** stock fund (growth). **Likely TN role:** supported.
 - Vanguard Total World Stock ETF (SEEN in WInS 29 Sep): a global index fund of thousands of companies
-- bought after all ten dated holdings and the floor: payments first, then growth
+- sized from what is left after the ten dated holdings and the floor (payments first, then growth). In the WInS order list VT is #6, before the five bonds, only because ETF orders go first for cash control
 - Portfolio tab: 8.7% of the book; in Laura's plan about $41,000 on 2 Jan 2028 (MODEL)
 - Portfolio #6: 164 shares, expected Preview total $26,069.84 (ticket), 8.7% of the book (numbers.yaml)
 - **IPS:** "The rest, plus any 2027 remainder, forms the return-seeking portfolio, a global index fund of thousands of companies held to 2033."
 - **IPS:** "A market decline can reduce the facility contribution, but not below the floor."
 - **One number:** 'about 9% of our WInS portfolio' (or, not both: 'about $41,000 in Laura's plan'). Source: wins.portfolio.split_close_0928 vt 0.0868 (WInS book); laura.stock_fund_2028_usd.strips 40,736.
-- **Do not say:** a return forecast (the IPS's 'should outperform' belongs in the IPS, not a note); probabilities, CAPE or valuation calls; 'Laura likes risk'; any 2031 or 2033 dollar figure.
+- **Do not say:** a return forecast (the IPS's 'should outperform' belongs in the IPS, not a note); probabilities, CAPE or valuation calls; 'Laura likes risk'; any 2031 or 2033 dollar figure; that VT was bought after the payments (it is WInS order 6 of 11; say the money was set aside first).
 - **Re-check Friday:** VT's share after re-sizing (still 'about 9%' unless the refresh moves it by a point).
 
-> **EXAMPLE - team rewrites** (273 characters; checks pass)
+> **EXAMPLE - team rewrites** (280 characters; checks pass)
 >
-> Role: growth. Money goes to stocks only after the payments and the facility floor are bought: about 9% of our WInS portfolio, in this world fund of thousands of companies, held to 2033. A stock fall can shrink only the part of Laura's facility contribution above the floor.
+> Role: growth. Stocks get only the money left once the payments and the facility floor are set aside: about 9% of our WInS portfolio, in this world fund of thousands of companies, held to 2033. A stock fall can shrink only the part of Laura's facility contribution above the floor.
 
 ### T 3.125% 15-Nov-2041 (T41): Portfolio #7, Book L #6
 
@@ -196,9 +197,9 @@ Order: iBonds funds latest payment first, then VT, then bonds latest payment fir
 - **Do not say:** that the swap will happen; say 'we are checking'.
 - **Re-check Friday:** If the 1.375% is listed and swapped, use SW40; if WInS does not list it, use T40b.
 
-> **EXAMPLE - team rewrites** (276 characters; checks pass)
+> **EXAMPLE - team rewrites** (281 characters; checks pass)
 >
-> Role: future funding. The 4.250% Treasury bond maturing 15 Nov 2040 is for Laura's $50,000 payment on 1 Jan 2041. Reinvesting its coupons until then is the main risk, so we are checking whether WInS lists a lower-coupon bond of the same date. Its price passed our curve check.
+> Role: future funding. The 4.250% Treasury bond maturing 15 Nov 2040 is for Laura's $50,000 payment on 1 Jan 2041. The rate its coupons earn until then is the main unknown, so we are checking whether WInS lists a lower-coupon bond of the same date. Its price passed our curve check.
 
 ### T 4.375% 15-Nov-2039 (T39): Portfolio #9, Book L #8
 
@@ -233,9 +234,9 @@ Order: iBonds funds latest payment first, then VT, then bonds latest payment fir
 - **Do not say:** that WInS is 'wrong' or 'broken' (say 'stale'); 'bp'; the Sheet's accrued-interest typo.
 - **Re-check Friday:** Re-check both prices on Friday. If the Feb 2038 price now passes, say what the check showed that day, or date the stale price ('on 29 Sep ...').
 
-> **EXAMPLE - team rewrites** (280 characters; checks pass)
+> **EXAMPLE - team rewrites** (284 characters; checks pass)
 >
-> Role: future funding. For Laura's 1 Jan 2039 payment we chose this 4.500% Treasury bond of 15 May 2038, coupons reinvested. We checked each candidate's WInS price against the Treasury yield curve: the 4.375% Feb 2038 bond was about 1 point of yield off, so we treated it as stale.
+> Role: future funding. This 4.500% Treasury bond of 15 May 2038 is the last one maturing before Laura's 1 Jan 2039 payment. Its WInS price passed our yield curve check; the 4.375% Feb 2038 price was about 1 point of yield off, so we treated it as stale. Its coupons must be reinvested.
 
 ### T 4.750% 15-Feb-2037 (T37): Portfolio #11, Book L #10
 
@@ -279,7 +280,7 @@ Due Fri 23 Oct 2026 5:00 PM EDT = Sat 24 Oct 2026 8:00 AM AEDT. Target: submit T
 |---|---|---|---|---|
 | 1 | IBTM, Friday #5 (IBTM_P) | **refined** | payments + floor | The most Laura-specific holding: the floor is what she can tell co-sponsors, and it carries her first payment. It shows the plan adapting to what WInS offers: the IPS says "Treasuries maturing in late 2032", WInS lists none (SEEN 29 Sep), so a fund ending Dec 2032 does both jobs. Honest limit: its end value is not fixed. |
 | 2 | 4.500% 15 May 2038 bond, Friday #10 (T38) | **tested** | payments + process check | A check a judge can verify: the WInS price of every bond the team considered was tested against the official Treasury curve before buying. Two prices failed, one of them the other 2038 bond. It links the plan's cost claim to the prices actually paid (funding reliability). |
-| 3 | VT, Friday #6 (VT) | **supported** | growth | Shows the balance the Guide asks for: growth only with money nobody else relies on, bought after the payments and floor. Answers "why so little stock?" with the client's own priorities. |
+| 3 | VT, Friday #6 (VT) | **supported** | growth | Shows the balance the Guide asks for: growth only with money nobody else relies on, sized from what is left after the payments and floor. Answers "why so little stock?" with the client's own priorities. |
 
 **Alternates (keep two):** (a) **IBTR, Friday #1** (supported: "latest payments first", the rule for a fall in yields); (b) **the 3.125% Nov 2041 bond, Friday #7** (supported: why the last five payments use bonds).
 
@@ -291,33 +292,50 @@ Due Fri 23 Oct 2026 5:00 PM EDT = Sat 24 Oct 2026 8:00 AM AEDT. Target: submit T
 
 **If the 1 Oct vote picks Book L:** feature IBTM (IBTM_L, refined), the May 2038 bond (tested) and IBTR (supported); alternates the Nov 2041 bond and IBTQ. All three are payments: each reflection must say once that WInS holds only Laura's 2027 deposit, and the floor and stock fund come in 2028.
 
-### Reflection outlines (bullets only; students write the prose, 100 words or fewer)
+### Reflection outlines (bullets only; each outline 100 words or fewer; students write the prose)
 
-**Pick 1, IBTM (refined).**
+Each follows the three questions the TN guide asks: why the team made the decision, how it aligned with the strategy, and how it served Laura's goals, funding needs or risks. Word counts are checked by build_notes.py.
 
-- Why: the IPS floor is "Treasuries maturing in late 2032"; WInS lists no Treasury between Feb 2031 and Feb 2036 (SEEN 29 Sep); a fund ending about 15 Dec 2032 was the closest fit, so one holding took two jobs.
-- Aligned: IPS floor sentence and "latest payments first" (the 2033 payment is the one the 2028 deposit can complete).
-- Served Laura: the first payment her artists rely on, and the least she can quote co-sponsors, sit outside the stock market.
-- Refined (only if true): the 29 Sep WInS Notes entry is dated before the order; cite that change, not a new strategy.
-- Honest limit: iShares says the fund "does not seek to return any predetermined amount"; its income is reinvested. If confidence is mentioned: "certain by construction if the floor holdings pay, the 2028 deposit arrives and the gift is capped"; no dollar figure (the floor announced rounded down is Final Report material).
+**Pick 1, IBTM (refined)** (99 words)
+
+- Why: the IPS floor is "Treasuries maturing in late 2032", but WInS lists none between Feb 2031 and Feb 2036 (SEEN 29 Sep); the fund ending Dec 2032 was the closest fit.
+- Aligned: one holding carries her first payment and the floor, set aside before any stocks.
+- Served Laura: her artists' first payment and the floor she quotes co-sponsors avoid the stock market.
+- Refined: the plan adapted to WInS; the strategy did not change.
+- Limit: iShares says it "does not seek to return any predetermined amount"; income reinvested.
 - One number at most: "about a third of our WInS portfolio".
 
-**Pick 2, 4.500% May 2038 bond (tested).**
+**Pick 2, 4.500% May 2038 bond (tested)** (100 words)
 
-- Why: before any bond order the team compared each WInS price with the Treasury's own yield curve (25bp band, stated in words).
-- What the test showed: this bond passed; the 4.375% Feb 2038 (and 4.5% Feb 2036) prices were about 1 point of yield off, so the team treated them as stale. Use Friday's result if it differs.
-- Aligned: "Laura's 2027 deposit buys Treasuries maturing before each of her ten $50,000 payments"; the stated cost of the payments assumes fair prices.
-- Served Laura: funding reliability. The plan's cost of the payments rests on fair prices; the stale price was about 8 points per $100 above the curve price (99.98 against 92.18; wins.bond_check, MODEL), so it would have misstated what her deposit buys.
-- The May 2038 bond is also the latest bond maturing before the 2039 payment (Treasury MSPD list), so skipping the stale one cost nothing.
-- One number at most (either "about 1 point of yield" or "about 8 points per $100").
+- Why: before any bond order we checked each WInS price against that day's Treasury yield curve (within a quarter of a point of yield).
+- Tested: this bond passed; the 4.375% Feb 2038 price was about 1 point of yield off, so we treated it as stale. Use Friday's result if different.
+- Aligned: "Laura's 2027 deposit buys Treasuries maturing before each of her ten $50,000 payments." It is the last bond maturing before the 2039 payment, so skipping the stale one cost nothing.
+- Served Laura: funding reliability; the plan's cost of her payments rests on fair prices.
+- One number at most.
 
-**Pick 3, VT (supported).**
+**Pick 3, VT (supported)** (98 words)
 
-- Why: after the ten payments and the floor, what is left (about 9% of the WInS portfolio, which shows her plan after both deposits, scaled down) goes into one global fund of thousands of companies, held to 2033.
-- Aligned: IPS "The rest, plus any 2027 remainder, forms the return-seeking portfolio ..." and "A market decline can reduce the facility contribution, but not below the floor."
-- Served Laura: growth and flexibility for the facility, from money no artist or co-sponsor relies on.
-- The tradeoff ("why so little stock?"): moving floor money into stocks raises the expected outcome modestly but widens the range, and the floor quoted in 2031 would no longer hold (IPS paragraph 4).
-- Never: a return forecast, a probability, a 2031 or 2033 figure. One number at most.
+- Why: once the ten payments and the floor are set aside, the rest (about 9% of the WInS portfolio) goes into one world fund of thousands of companies, held to 2033.
+- Aligned: "A market decline can reduce the facility contribution, but not below the floor."
+- Served Laura: growth for the facility from money no artist or co-sponsor relies on; in a bad year only the part above the floor shrinks.
+- Tradeoff: more stock raises the expected result modestly but widens the range, and the floor quoted in 2031 would not hold.
+- Never: a return forecast or a probability.
+
+**Alternate A, IBTR (supported)** (83 words)
+
+- Why: the IPS buys "latest payments first", so a fall in yields before January 2027 leaves the gap on the first payment.
+- Aligned: "A moderate fall in yields would leave some payments for the 2028 deposit to complete".
+- Served Laura: a rate fall is absorbed by her 2028 deposit, not by the artists' later payments; its income is reinvested.
+- One number at most: "about a quarter of a percentage point" (the fall that lifts the ten payments above $300,000; MODEL, 28 Sep curve).
+
+**Alternate B, 3.125% Nov 2041 bond (supported)** (58 words)
+
+- Why: no iBonds Treasury fund ends Dec 2037 to Dec 2043 (iShares list, 30 Sep), so her last five payments use individual Treasury bonds.
+- Aligned: the IPS pitch sentence on dated Treasuries.
+- Served Laura: her last payment has a Treasury maturing 47 days before it; the rate its coupons earn is the main unknown.
+- One number at most.
+
+**Keep out of all reflections:** the 2031 range, its top, any co-sponsor or facility dollar figure and the operating reserve size (TN guide: Final Report material); WInS gains, losses or rank; the strategy name until Ray confirms it. If confidence comes up, the only safe wording is "certain by construction if the floor holdings pay, the 2028 deposit arrives and the gift is capped" (premortem PM-25).
 
 ## 7. Triage (the strategy is unchanged; nothing here is applied to the IPS or the Sheet)
 
@@ -333,17 +351,17 @@ Due Fri 23 Oct 2026 5:00 PM EDT = Sat 24 Oct 2026 8:00 AM AEDT. Target: submit T
 
 | Note | Chars | Length | ASCII | 1 para | Banned | Role | Laura | One number at most | Numbers traced | Dollar scale |
 |---|---|---|---|---|---|---|---|---|---|---|
-| IBTR | 284 | pass | pass | pass | pass | pass | pass | pass | pass | pass |
+| IBTR | 280 | pass | pass | pass | pass | pass | pass | pass | pass | pass |
 | IBTQ | 282 | pass | pass | pass | pass | pass | pass | pass | pass | pass |
 | IBTP | 284 | pass | pass | pass | pass | pass | pass | pass | pass | pass |
 | IBTO | 276 | pass | pass | pass | pass | pass | pass | pass | pass | pass |
 | IBTM_P | 283 | pass | pass | pass | pass | pass | pass | pass | pass | pass |
 | IBTM_L | 271 | pass | pass | pass | pass | pass | pass | pass | pass | pass |
-| VT | 273 | pass | pass | pass | pass | pass | pass | pass | pass | pass |
+| VT | 280 | pass | pass | pass | pass | pass | pass | pass | pass | pass |
 | T41 | 271 | pass | pass | pass | pass | pass | pass | pass | pass | pass |
-| T40 | 276 | pass | pass | pass | pass | pass | pass | pass | pass | pass |
+| T40 | 281 | pass | pass | pass | pass | pass | pass | pass | pass | pass |
 | T39 | 276 | pass | pass | pass | pass | pass | pass | pass | pass | pass |
-| T38 | 280 | pass | pass | pass | pass | pass | pass | pass | pass | pass |
+| T38 | 284 | pass | pass | pass | pass | pass | pass | pass | pass | pass |
 | T37 | 274 | pass | pass | pass | pass | pass | pass | pass | pass | pass |
 | T40b | 270 | pass | pass | pass | pass | pass | pass | pass | pass | pass |
 | SW40 | 269 | pass | pass | pass | pass | pass | pass | pass | pass | pass |
@@ -359,7 +377,7 @@ Superseded-book and stale-fact greps run over this file and `notes.csv` too (pre
 ## 9. Sources
 
 - Trading Note Instruction.pdf and Competition Guide.pdf p.3 (Drive folder Knox Wharton 2026; official 2026-27).
-- IPS Google Doc 1qtEuzXq_QYdQ9VJlusPY9km2l80E1hkk8FPR0iw71-w, read 30 Sep 2026 (read-only).
+- IPS Google Doc 1qtEuzXq_QYdQ9VJlusPY9km2l80E1hkk8FPR0iw71-w, read 30 Sep 2026 (read-only); text snapshot in `data/ips_doc_text_2026-09-30.txt`, and build_notes.py checks every quoted IPS sentence against it.
 - Sheet 1EHCJxbFI0UOzNOpOWvDfzNqbK45qWuopZcL7HNN3VPM tabs WInS Notes, Portfolio, Book L (snapshots in `rab/data/sheet/`, read 30 Sep 00:30-00:34 AEST).
 - iShares product pages, 28 Sep (`rab/data/ishares/`): monthly distributions; "terminate on or about ... December 15"; "does not seek to return any predetermined amount".
 - iShares product screener, fetched 30 Sep 2026 ~02:34 AEST: https://www.ishares.com/us/product-screener/product-screener-v3.1.jsn (extract in `data/ishares_ibonds_treasury_list_2026-09-30.csv`).
