@@ -232,7 +232,8 @@ add("wins.portfolio.cash_margin", {"fall_bp_cash_zero": round(cm["fall_bp_cash_z
 for key, lab in (("close_0928", "cost_close_0928"), ("close_0928_model_accrued", "cost_model_accrued")):
     p = B["bookL"][key]
     add(f"wins.bookL.{lab}", {"cost": round(p["cost"], 2), "cash_left": round(p["cash_left"], 2),
-                              "commissions": p["commissions"]}, "USD", "about $292,600 including $175 commission",
+                              "commissions": p["commissions"]}, "USD",
+        f"about {k(p['cost'], 100)} including ${p['commissions']} commission",
         "wins_book", "MODEL", f"{SRC} B.bookL.{key}",
         "Book L sizes as displayed at the read (live ETF prices move them). Earlier reads: $292,226 (29 Sep), "
         "$292,244 (30 Sep 00:33 AEST, as displayed). The sizing rule at 28 Sep closes gives $292,417 / cash $7,583.",
@@ -331,8 +332,16 @@ REF = [
      "REFERENCE, WS3 M7 recomputes with a sourced inflation input", "strategy_changes.md I4", "n/a"),
 ]
 for id_, v, unit, status, src, asof in REF:
-    add(id_, v, unit, "see status", "reference", status, f"research/insight_v1/{src}" if not src.startswith("research")
-        else src, "From rab/inventory.md s2 (re-run 30 Sep where marked there).", as_of=asof)
+    q = ("do not quote (superseded or retired)" if status.startswith(("SUPERSEDED", "RETIRED"))
+         else "quote only after the owner stream re-verifies it on the 28 Sep basis")
+    add(id_, v, unit, q, "reference", status, f"research/insight_v1/{src}" if not src.startswith("research")
+        else src, "From rab/inventory.md s2 (re-run 30 Sep where marked there).", curve_date=asof, as_of=asof)
+
+# every entry carries the same fields (PM-24); missing ones are explicit
+FIELDS = ["value", "unit", "quote_as", "scale", "status", "curve_date", "valuation_date", "maturity_convention",
+          "instrument_basis", "method", "source", "as_of"]
+for id_, e in N.items():
+    N[id_] = {f: e.get(f, "n/a") for f in FIELDS} | {k_: v for k_, v in e.items() if k_ not in FIELDS}
 
 # ---------------------------------------------------------------------------------------------- write
 now = datetime.now(timezone.utc)

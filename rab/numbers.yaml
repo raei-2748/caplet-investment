@@ -2,8 +2,8 @@
 numbers_yaml:
   status: DRAFT (not locked). Locks at Gate A when a blind second pricer agrees with M1 to $1 (RUN_PLAN s3).
   writer: WS1 only (PM-35). Other streams read; changes after lock go through WS0 with a changelog line.
-  generated_et: 2026-09-29 11:20 EDT
-  generated_sydney: 2026-09-30 01:20 AEST
+  generated_et: 2026-09-29 11:21 EDT
+  generated_sydney: 2026-09-30 01:21 AEST
   curve_date: '2026-09-28'
   rules:
   - Quote the quote_as string, not the raw value, in anything the team reads.
@@ -30,9 +30,13 @@ numbers:
     scale: market
     status: VERIFIED-PRIMARY
     curve_date: '2026-09-28'
-    as_of: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: n/a
+    instrument_basis: n/a
+    method: n/a
     source: rab/data/treasury_par_2000_2026/2026.csv (home.treasury.gov Daily Treasury Par Yield Curve; byte-identical re-fetch
       30 Sep 2026)
+    as_of: '2026-09-28'
     note: Latest official curve at the fetch (29 Sep 2026 ~10:40 ET; the 29 Sep curve publishes after the close). FRED DGS
       series (rab/data/fred/) end 25 Sep and match the Treasury 25 Sep row.
   laura.ladder.cost_today_strips:
@@ -46,8 +50,8 @@ numbers:
     maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
     instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
     method: rab/models/M1_METHOD.md section A (D1 method)
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json A.nov15.spot
+    as_of: '2026-09-28'
     note: HEADLINE for 'what the ten payments cost today'. Equals insight_v1 H3 ($289,119) to the cent.
   laura.ladder.cost_2027_strips:
     value: 292418.11
@@ -60,8 +64,8 @@ numbers:
     maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
     instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
     method: rab/models/M1_METHOD.md section A (D1 method)
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json A.nov15.fwd_2027
+    as_of: '2026-09-28'
     note: HEADLINE for 'cost against the $300,000 deposit'. Forward value on the day the deposit arrives. Equals H3.
   laura.ladder.headroom_2027_strips:
     value: 7581.89
@@ -74,8 +78,8 @@ numbers:
     maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
     instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
     method: rab/models/M1_METHOD.md section A (D1 method)
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json A.nov15.headroom_2027
+    as_of: '2026-09-28'
   laura.ladder.breakeven_fall_bp_strips:
     value: 26.2
     unit: basis points
@@ -87,8 +91,8 @@ numbers:
     maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
     instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
     method: rab/models/M1_METHOD.md section A (D1 method)
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json A.nov15.breakeven_fall_bp
+    as_of: '2026-09-28'
     note: Parallel shift of the par curve.
   laura.ladder.value_today_exact:
     value: 287016.47
@@ -101,8 +105,8 @@ numbers:
     maturity_convention: 1 Jan 2033 ... 1 Jan 2042 (the payment dates themselves)
     instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
     method: rab/models/M1_METHOD.md section A (D1 method)
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json A.exact.spot
+    as_of: '2026-09-28'
     note: Value of the payments on their own dates (liability value); not a buyable ladder.
   laura.ladder.value_2027_exact:
     value: 290291.38
@@ -115,8 +119,8 @@ numbers:
     maturity_convention: 1 Jan 2033 ... 1 Jan 2042 (the payment dates themselves)
     instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
     method: rab/models/M1_METHOD.md section A (D1 method)
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json A.exact.fwd_2027
+    as_of: '2026-09-28'
     note: Equals the $290,291 in rab/premortem.md PM-24.
   laura.ladder.breakeven_fall_bp_exact:
     value: 33.2
@@ -129,8 +133,8 @@ numbers:
     maturity_convention: 1 Jan 2033 ... 1 Jan 2042 (the payment dates themselves)
     instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
     method: rab/models/M1_METHOD.md section A (D1 method)
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json A.exact.breakeven_fall_bp
+    as_of: '2026-09-28'
   laura.ladder.cost_2027_strips_model_band:
     value:
     - 291961
@@ -144,8 +148,8 @@ numbers:
     maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
     instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
     method: rab/models/M1_METHOD.md section A (D1 method)
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json A.band
+    as_of: '2026-09-28'
     note: Band over days/365, +1-3M nodes, PCHIP par, linear zero rates. Never quote a single variant.
   laura.ladder.gpt_check:
     value:
@@ -160,8 +164,8 @@ numbers:
     maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
     instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
     method: rab/models/M1_METHOD.md section A (D1 method)
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json A.band['days/365 + 1-3M nodes (GPT)']; research/insight_v1/verification/ladder_2026-09-28/gpt/
+    as_of: '2026-09-28'
     note: ChatGPT's blind figures ($289,003 / $292,214) reproduced to the cent by the D1 method with its two conventions.
   laura.ladder.value_2028:
     value:
@@ -176,8 +180,8 @@ numbers:
     maturity_convention: both
     instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
     method: rab/models/M1_METHOD.md section A (D1 method)
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json A.*.fwd_2028
+    as_of: '2026-09-28'
     note: Input to the plan split.
   laura.ladder.strips_reinvestment:
     value: 0
@@ -190,8 +194,8 @@ numbers:
     maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
     instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
     method: rab/models/M1_METHOD.md section A (D1 method)
-    as_of: '2026-09-28'
     source: M1_METHOD.md A5
+    as_of: '2026-09-28'
     note: 'A STRIPS ladder has no coupons; each $50,000 waits 47 days (15 Nov to 1 Jan) in cash. Applies only if Laura''s
       real plan may use STRIPS (FAQ ''for BOTH contributions'': under the strict reading it may not).'
   laura.plan_split_2028.strips:
@@ -207,9 +211,9 @@ numbers:
     valuation_date: '2028-01-02'
     maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
     instrument_basis: ladder forward value + floor (5-year par, annual) + stock fund
-    as_of: '2026-09-28'
     method: M1_METHOD.md section F
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json F.nov15
+    as_of: '2026-09-28'
     note: 'E6 [7] method on the 28 Sep curve. The Portfolio tab types 65.9 / 24.3 (+1 point cash) / 8.7 (25 Sep, exact basis).
       On the STRIPS basis 28 Sep gives 66.0 / 25.2 / 8.8: within 0.1 point of the tab.'
   laura.stock_fund_2028_usd.strips:
@@ -222,8 +226,9 @@ numbers:
     valuation_date: '2028-01-02'
     maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
     instrument_basis: growth money minus floor cost
-    as_of: '2026-09-28'
+    method: n/a
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json F.nov15.fund_usd
+    as_of: '2026-09-28'
   laura.plan_split_2028.exact:
     value:
       ladder: 0.6552
@@ -237,9 +242,9 @@ numbers:
     valuation_date: '2028-01-02'
     maturity_convention: 1 Jan 2033 ... 1 Jan 2042 (the payment dates themselves)
     instrument_basis: ladder forward value + floor (5-year par, annual) + stock fund
-    as_of: '2026-09-28'
     method: M1_METHOD.md section F
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json F.exact
+    as_of: '2026-09-28'
     note: 'E6 [7] method on the 28 Sep curve. The Portfolio tab types 65.9 / 24.3 (+1 point cash) / 8.7 (25 Sep, exact basis).
       On the STRIPS basis 28 Sep gives 66.0 / 25.2 / 8.8: within 0.1 point of the tab.'
   laura.stock_fund_2028_usd.exact:
@@ -252,8 +257,9 @@ numbers:
     valuation_date: '2028-01-02'
     maturity_convention: 1 Jan 2033 ... 1 Jan 2042 (the payment dates themselves)
     instrument_basis: growth money minus floor cost
-    as_of: '2026-09-28'
+    method: n/a
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json F.exact.fund_usd
+    as_of: '2026-09-28'
   laura.floor_cost_2028:
     value: 117194
     unit: USD
@@ -264,8 +270,9 @@ numbers:
     valuation_date: '2028-01-02'
     maturity_convention: 5 years
     instrument_basis: floor
-    as_of: '2026-09-28'
+    method: n/a
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json F.nov15.floor_cost
+    as_of: '2026-09-28'
     note: 150,000 / (1 + 5-year par)^5, annual compounding (E6 convention). The rate in Jan 2028 is unknown.
   history.cost_2020_median:
     value: 458828
@@ -278,8 +285,8 @@ numbers:
     maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
     instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
     method: M1_METHOD.md section G (= rab/rescued/ladder_history_2000_2026.py, extended to 1990)
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json G.nov15.spot.y2020_median
+    as_of: '2026-09-28'
     note: Backs the IPS line 'about $460,000 at 2020 yields' (was UNVERIFIED). 2020 range and exact basis below.
   history.cost_2020_range:
     value:
@@ -294,8 +301,8 @@ numbers:
     maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
     instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
     method: M1_METHOD.md section G (= rab/rescued/ladder_history_2000_2026.py, extended to 1990)
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json G.nov15.spot
+    as_of: '2026-09-28'
   history.cost_max:
     value:
       usd: 470249
@@ -309,8 +316,8 @@ numbers:
     maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
     instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
     method: M1_METHOD.md section G (= rab/rescued/ladder_history_2000_2026.py, extended to 1990)
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json G.nov15.spot.max
+    as_of: '2026-09-28'
   history.cheapest_since:
     value:
       spot: '2002-05-28'
@@ -325,8 +332,8 @@ numbers:
     maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
     instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
     method: M1_METHOD.md section G (= rab/rescued/ladder_history_2000_2026.py, extended to 1990)
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json G.*.last_date_at_or_below_today
+    as_of: '2026-09-28'
     note: 'Backs ''cheapest since 2002'' (was UNVERIFIED): the last day the same payments cost as little as on 28 Sep 2026
       was 28 May 2002 (10 Jun 2002 on the 1 Jan 2027 forward basis). Adding 1990-1999 does not change it.'
   history.share_days_le_300k:
@@ -343,8 +350,8 @@ numbers:
     maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
     instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
     method: M1_METHOD.md section G (= rab/rescued/ladder_history_2000_2026.py, extended to 1990)
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json G.nov15
+    as_of: '2026-09-28'
   history.days_priced_since_2000:
     value: 6688
     unit: trading days
@@ -356,8 +363,8 @@ numbers:
     maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
     instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
     method: M1_METHOD.md section G (= rab/rescued/ladder_history_2000_2026.py, extended to 1990)
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json G.nov15
+    as_of: '2026-09-28'
     note: 'Backs ''tested on every Treasury curve since 2000'' in the narrow sense: the ladder cost and the deposit check
       run on all of them.'
   history.unfunded_days:
@@ -378,8 +385,8 @@ numbers:
     maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
     instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
     method: M1_METHOD.md section G (= rab/rescued/ladder_history_2000_2026.py, extended to 1990)
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json G.nov15.unfunded_*
+    as_of: '2026-09-28'
     note: Day d counts if the 1 Jan 2027 gap exceeds the whole 2028 deposit on that day's curve (deposit on time).
   reinvest.bookL_delivered:
     value:
@@ -398,8 +405,8 @@ numbers:
     instrument_basis: 'Book L: the ten WInS-listed holdings (IBTM-IBTR iBonds ETFs + five coupon Treasuries), sized for
       Laura''s 2027 deposit dollar for dollar'
     method: M1_METHOD.md section E
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json E.bookL_totals
+    as_of: '2026-09-28'
     note: Applies if Laura's real ladder must use WInS-listed instruments (strict FAQ reading). iBonds by look-through (holdings
       24 Sep, scaled to NAV), 0.07% fee, distributions paid when coupons are received.
   reinvest.bookL_buffer_cost:
@@ -418,8 +425,8 @@ numbers:
     instrument_basis: 'Book L: the ten WInS-listed holdings (IBTM-IBTR iBonds ETFs + five coupon Treasuries), sized for
       Laura''s 2027 deposit dollar for dollar'
     method: M1_METHOD.md section E
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json E.bookL_buffer
+    as_of: '2026-09-28'
     note: More of the same holdings, rung by rung. Compare with the $7,600 headroom.
   reinvest.rung.IBTM:
     value:
@@ -441,8 +448,8 @@ numbers:
     instrument_basis: 'Book L: the ten WInS-listed holdings (IBTM-IBTR iBonds ETFs + five coupon Treasuries), sized for
       Laura''s 2027 deposit dollar for dollar'
     method: M1_METHOD.md section E
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json E.bookL
+    as_of: '2026-09-28'
   reinvest.rung.IBTO:
     value:
       pays: '2034-01-01'
@@ -463,8 +470,8 @@ numbers:
     instrument_basis: 'Book L: the ten WInS-listed holdings (IBTM-IBTR iBonds ETFs + five coupon Treasuries), sized for
       Laura''s 2027 deposit dollar for dollar'
     method: M1_METHOD.md section E
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json E.bookL
+    as_of: '2026-09-28'
   reinvest.rung.IBTP:
     value:
       pays: '2035-01-01'
@@ -485,8 +492,8 @@ numbers:
     instrument_basis: 'Book L: the ten WInS-listed holdings (IBTM-IBTR iBonds ETFs + five coupon Treasuries), sized for
       Laura''s 2027 deposit dollar for dollar'
     method: M1_METHOD.md section E
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json E.bookL
+    as_of: '2026-09-28'
   reinvest.rung.IBTQ:
     value:
       pays: '2036-01-01'
@@ -507,8 +514,8 @@ numbers:
     instrument_basis: 'Book L: the ten WInS-listed holdings (IBTM-IBTR iBonds ETFs + five coupon Treasuries), sized for
       Laura''s 2027 deposit dollar for dollar'
     method: M1_METHOD.md section E
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json E.bookL
+    as_of: '2026-09-28'
   reinvest.rung.IBTR:
     value:
       pays: '2037-01-01'
@@ -529,8 +536,8 @@ numbers:
     instrument_basis: 'Book L: the ten WInS-listed holdings (IBTM-IBTR iBonds ETFs + five coupon Treasuries), sized for
       Laura''s 2027 deposit dollar for dollar'
     method: M1_METHOD.md section E
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json E.bookL
+    as_of: '2026-09-28'
   reinvest.rung.T_4.750%_15-Feb-2037:
     value:
       pays: '2038-01-01'
@@ -551,8 +558,8 @@ numbers:
     instrument_basis: 'Book L: the ten WInS-listed holdings (IBTM-IBTR iBonds ETFs + five coupon Treasuries), sized for
       Laura''s 2027 deposit dollar for dollar'
     method: M1_METHOD.md section E
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json E.bookL
+    as_of: '2026-09-28'
   reinvest.rung.T_4.500%_15-May-2038:
     value:
       pays: '2039-01-01'
@@ -573,8 +580,8 @@ numbers:
     instrument_basis: 'Book L: the ten WInS-listed holdings (IBTM-IBTR iBonds ETFs + five coupon Treasuries), sized for
       Laura''s 2027 deposit dollar for dollar'
     method: M1_METHOD.md section E
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json E.bookL
+    as_of: '2026-09-28'
   reinvest.rung.T_4.375%_15-Nov-2039:
     value:
       pays: '2040-01-01'
@@ -595,8 +602,8 @@ numbers:
     instrument_basis: 'Book L: the ten WInS-listed holdings (IBTM-IBTR iBonds ETFs + five coupon Treasuries), sized for
       Laura''s 2027 deposit dollar for dollar'
     method: M1_METHOD.md section E
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json E.bookL
+    as_of: '2026-09-28'
   reinvest.rung.T_4.250%_15-Nov-2040:
     value:
       pays: '2041-01-01'
@@ -617,8 +624,8 @@ numbers:
     instrument_basis: 'Book L: the ten WInS-listed holdings (IBTM-IBTR iBonds ETFs + five coupon Treasuries), sized for
       Laura''s 2027 deposit dollar for dollar'
     method: M1_METHOD.md section E
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json E.bookL
+    as_of: '2026-09-28'
   reinvest.rung.T_3.125%_15-Nov-2041:
     value:
       pays: '2042-01-01'
@@ -639,8 +646,8 @@ numbers:
     instrument_basis: 'Book L: the ten WInS-listed holdings (IBTM-IBTR iBonds ETFs + five coupon Treasuries), sized for
       Laura''s 2027 deposit dollar for dollar'
     method: M1_METHOD.md section E
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json E.bookL
+    as_of: '2026-09-28'
   wins.portfolio.cost_close_0928:
     value:
       cost: 294764.5
@@ -650,13 +657,13 @@ numbers:
     quote_as: about $294,800 including $200 commission
     scale: wins_book
     status: MODEL
-    instrument_basis: Sheet tab Portfolio (Laura's Jan-2028 plan scaled to $300,000)
     curve_date: '2026-09-28'
     valuation_date: '2026-09-28'
     maturity_convention: as held
+    instrument_basis: Sheet tab Portfolio (Laura's Jan-2028 plan scaled to $300,000)
     method: M1_METHOD.md section B
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json B.portfolio.close_0928
+    as_of: '2026-09-28'
     note: HEADLINE WInS book cost. Portfolio-tab quantities; 28 Sep closes; bond accrued as recorded in the Sheet.
   wins.portfolio.cost_model_accrued:
     value:
@@ -667,13 +674,13 @@ numbers:
     quote_as: about $295,000
     scale: wins_book
     status: MODEL
-    instrument_basis: Sheet tab Portfolio (Laura's Jan-2028 plan scaled to $300,000)
     curve_date: '2026-09-28'
     valuation_date: '2026-09-28'
     maturity_convention: as held
+    instrument_basis: Sheet tab Portfolio (Laura's Jan-2028 plan scaled to $300,000)
     method: M1_METHOD.md section B
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json B.portfolio.close_0928_model_accrued
+    as_of: '2026-09-28'
     note: As close_0928 with accrued recomputed (act/act) at 28 Sep; the recorded 0.530 on the May-2038 bond looks wrong
       (see wins.bond_accrued_mismatch).
   wins.portfolio.cost_sheet_as_read:
@@ -685,13 +692,13 @@ numbers:
     quote_as: about $294,600
     scale: wins_book
     status: MODEL
-    instrument_basis: Sheet tab Portfolio (Laura's Jan-2028 plan scaled to $300,000)
     curve_date: '2026-09-28'
     valuation_date: '2026-09-28'
     maturity_convention: as held
+    instrument_basis: Sheet tab Portfolio (Laura's Jan-2028 plan scaled to $300,000)
     method: M1_METHOD.md section B
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json B.portfolio.sheet_as_read
+    as_of: '2026-09-28'
     note: Sheet values as displayed 30 Sep 00:30 AEST (ETF prices live 29 Sep intraday).
   wins.portfolio.holdings_close_0928:
     value:
@@ -754,13 +761,13 @@ numbers:
     quote_as: use percentages in notes (e.g. IBTM about a third of the book)
     scale: wins_book
     status: MODEL
-    instrument_basis: Sheet tab Portfolio
     curve_date: '2026-09-28'
     valuation_date: '2026-09-28'
     maturity_convention: as held
+    instrument_basis: Sheet tab Portfolio
     method: M1_METHOD.md section B
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json B.portfolio.close_0928.rows
+    as_of: '2026-09-28'
     note: Bond price = clean + accrued per $100 face; bond qty = face $ (UNVERIFIED WInS unit, PM-02).
   wins.portfolio.split_close_0928:
     value:
@@ -771,13 +778,13 @@ numbers:
     quote_as: dated Treasury holdings 90%, world stock fund 9%, cash 2%
     scale: wins_book
     status: MODEL
-    instrument_basis: Sheet tab Portfolio
     curve_date: '2026-09-28'
     valuation_date: '2026-09-28'
     maturity_convention: as held
+    instrument_basis: Sheet tab Portfolio
     method: M1_METHOD.md section B
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json B.portfolio_split_close_0928
+    as_of: '2026-09-28'
     note: Dated holdings include IBTM's floor share.
   wins.portfolio.targets_typed:
     value:
@@ -790,13 +797,13 @@ numbers:
     quote_as: the ladder is about two-thirds of the WInS book
     scale: wins_book
     status: SEEN (Sheet, 30 Sep)
-    instrument_basis: Sheet tab Portfolio
     curve_date: '2026-09-28'
     valuation_date: '2026-09-28'
     maturity_convention: as held
+    instrument_basis: Sheet tab Portfolio
     method: M1_METHOD.md section B
-    as_of: '2026-09-28'
     source: rab/data/sheet/Portfolio_values_2026-09-30T0030AEST.csv
+    as_of: '2026-09-28'
     note: Typed-in split x $300,000 (IBTM = its rung + floor).
   wins.portfolio.cash_margin:
     value:
@@ -806,13 +813,13 @@ numbers:
     quote_as: if yields fall about a fifth of a point before Friday, re-size the units or cash drops below $1,000
     scale: wins_book
     status: MODEL
-    instrument_basis: Sheet tab Portfolio
     curve_date: '2026-09-28'
     valuation_date: '2026-09-28'
     maturity_convention: as held
+    instrument_basis: Sheet tab Portfolio
     method: M1_METHOD.md section B
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json B.cash_margin
+    as_of: '2026-09-28'
     note: Units fixed at the Portfolio tab; bonds and iBonds repriced on a parallel shift; VT unchanged. WS0 rough check
       said about 28bp.
   wins.bookL.cost_close_0928:
@@ -824,13 +831,13 @@ numbers:
     quote_as: about $292,600 including $175 commission
     scale: wins_book
     status: MODEL
-    instrument_basis: Sheet tab Book L (literal ladder, one holding per payment)
     curve_date: '2026-09-28'
     valuation_date: '2026-09-28'
     maturity_convention: as held
+    instrument_basis: Sheet tab Book L (literal ladder, one holding per payment)
     method: M1_METHOD.md section B
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json B.bookL.close_0928
+    as_of: '2026-09-28'
     note: 'Book L sizes as displayed at the read (live ETF prices move them). Earlier reads: $292,226 (29 Sep), $292,244
       (30 Sep 00:33 AEST, as displayed). The sizing rule at 28 Sep closes gives $292,417 / cash $7,583.'
   wins.bookL.cost_model_accrued:
@@ -839,16 +846,16 @@ numbers:
       cash_left: 7085.89
       commissions: 175
     unit: USD
-    quote_as: about $292,600 including $175 commission
+    quote_as: about $292,900 including $175 commission
     scale: wins_book
     status: MODEL
-    instrument_basis: Sheet tab Book L (literal ladder, one holding per payment)
     curve_date: '2026-09-28'
     valuation_date: '2026-09-28'
     maturity_convention: as held
+    instrument_basis: Sheet tab Book L (literal ladder, one holding per payment)
     method: M1_METHOD.md section B
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json B.bookL.close_0928_model_accrued
+    as_of: '2026-09-28'
     note: 'Book L sizes as displayed at the read (live ETF prices move them). Earlier reads: $292,226 (29 Sep), $292,244
       (30 Sep 00:33 AEST, as displayed). The sizing rule at 28 Sep closes gives $292,417 / cash $7,583.'
   wins.bookL.cost_rule_close_0928:
@@ -860,13 +867,13 @@ numbers:
     quote_as: about $292,400
     scale: wins_book
     status: MODEL
-    instrument_basis: Sheet tab Book L
     curve_date: '2026-09-28'
     valuation_date: '2026-09-28'
     maturity_convention: as held
+    instrument_basis: Sheet tab Book L
     method: M1_METHOD.md section B
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json B.bookL_rule
+    as_of: '2026-09-28'
     note: Re-runs the Sheet's own sizing rule (target 50,000 x DF(end date), round up) at 28 Sep closes. Target sum reproduces
       the Sheet's $290,379.
   wins.bond_check.T_4.750%_15-Feb-2037:
@@ -889,8 +896,8 @@ numbers:
     maturity_convention: T 4.750% 15-Feb-2037
     instrument_basis: CUSIP 912810PT9
     method: M1_METHOD.md section C
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json C
+    as_of: '2026-09-28'
     note: gap = yield of WInS price - yield of curve model price (negative = WInS price rich). The Sheet's own checks (-8/+6/+13/+14/+15bp)
       are reproduced (-7.5/+6.2/+12.7/+13.5/+14.6bp) by treating the clean price as the full price, i.e. they left accrued
       interest out; with it, all five are -15 to -2bp.
@@ -914,8 +921,8 @@ numbers:
     maturity_convention: T 4.500% 15-May-2038
     instrument_basis: CUSIP 912810PX0
     method: M1_METHOD.md section C
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json C
+    as_of: '2026-09-28'
     note: gap = yield of WInS price - yield of curve model price (negative = WInS price rich). The Sheet's own checks (-8/+6/+13/+14/+15bp)
       are reproduced (-7.5/+6.2/+12.7/+13.5/+14.6bp) by treating the clean price as the full price, i.e. they left accrued
       interest out; with it, all five are -15 to -2bp.
@@ -939,8 +946,8 @@ numbers:
     maturity_convention: T 4.375% 15-Nov-2039
     instrument_basis: CUSIP 912810QD3
     method: M1_METHOD.md section C
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json C
+    as_of: '2026-09-28'
     note: gap = yield of WInS price - yield of curve model price (negative = WInS price rich). The Sheet's own checks (-8/+6/+13/+14/+15bp)
       are reproduced (-7.5/+6.2/+12.7/+13.5/+14.6bp) by treating the clean price as the full price, i.e. they left accrued
       interest out; with it, all five are -15 to -2bp.
@@ -964,8 +971,8 @@ numbers:
     maturity_convention: T 4.250% 15-Nov-2040
     instrument_basis: CUSIP 912810QL5
     method: M1_METHOD.md section C
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json C
+    as_of: '2026-09-28'
     note: gap = yield of WInS price - yield of curve model price (negative = WInS price rich). The Sheet's own checks (-8/+6/+13/+14/+15bp)
       are reproduced (-7.5/+6.2/+12.7/+13.5/+14.6bp) by treating the clean price as the full price, i.e. they left accrued
       interest out; with it, all five are -15 to -2bp.
@@ -989,8 +996,8 @@ numbers:
     maturity_convention: T 3.125% 15-Nov-2041
     instrument_basis: CUSIP 912810QT8
     method: M1_METHOD.md section C
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json C
+    as_of: '2026-09-28'
     note: gap = yield of WInS price - yield of curve model price (negative = WInS price rich). The Sheet's own checks (-8/+6/+13/+14/+15bp)
       are reproduced (-7.5/+6.2/+12.7/+13.5/+14.6bp) by treating the clean price as the full price, i.e. they left accrued
       interest out; with it, all five are -15 to -2bp.
@@ -1014,8 +1021,8 @@ numbers:
     maturity_convention: T 4.500% 15-Feb-2036
     instrument_basis: CUSIP 912810FT0
     method: M1_METHOD.md section C
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json C
+    as_of: '2026-09-28'
     note: gap = yield of WInS price - yield of curve model price (negative = WInS price rich). The Sheet's own checks (-8/+6/+13/+14/+15bp)
       are reproduced (-7.5/+6.2/+12.7/+13.5/+14.6bp) by treating the clean price as the full price, i.e. they left accrued
       interest out; with it, all five are -15 to -2bp.
@@ -1039,8 +1046,8 @@ numbers:
     maturity_convention: T 4.375% 15-Feb-2038
     instrument_basis: CUSIP 912810PW2
     method: M1_METHOD.md section C
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json C
+    as_of: '2026-09-28'
     note: gap = yield of WInS price - yield of curve model price (negative = WInS price rich). The Sheet's own checks (-8/+6/+13/+14/+15bp)
       are reproduced (-7.5/+6.2/+12.7/+13.5/+14.6bp) by treating the clean price as the full price, i.e. they left accrued
       interest out; with it, all five are -15 to -2bp.
@@ -1060,8 +1067,8 @@ numbers:
     maturity_convention: 15 May 2038
     instrument_basis: CUSIP 912810PX0
     method: M1_METHOD.md section 2
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json C
+    as_of: '2026-09-28'
     note: 'The May-2038 bond pays coupons 15 May / 15 Nov (MSPD Table V), so on 28 Sep it has about 136 days of accrued
       (1.663 per $100). 0.530 fits a 15 Feb / 15 Aug schedule. Friday: read the accrued WInS shows at Preview.'
   wins.ibond_checks:
@@ -1110,8 +1117,8 @@ numbers:
     maturity_convention: 15 Dec of each fund's year
     instrument_basis: iShares iBonds Dec 2032-2036 Term Treasury ETFs
     method: M1_METHOD.md section D
-    as_of: '2026-09-28'
     source: rab/models/m1_ladder.py -> rab/models/out/m1_results.json D
+    as_of: '2026-09-28'
     note: Look-through NAV matches for IBTO/IBTP/IBTQ within 0.07%; IBTM/IBTR holdings (24 Sep) and share counts (28 Sep)
       do not line up (creations on 25 Sep likely, UNVERIFIED).
   market.etf_2026-09-28:
@@ -1206,38 +1213,53 @@ numbers:
     status: VERIFIED-PRIMARY (Nasdaq consolidated; WInS close where seen)
     curve_date: n/a
     valuation_date: '2026-09-28'
-    as_of: '2026-09-28'
     maturity_convention: n/a
     instrument_basis: exchange-traded funds
     method: rab/data/fetch_snapshot.py S
     source: rab/data/etf/etf_summary_2026-09-28.csv
+    as_of: '2026-09-28'
     note: Ticket prices must come from WInS on the day (PM-29). Avg 20d volume equals iShares' '30 Day Avg. Volume'.
   ref.H1.ladder_2027_strips_25sep:
     value: 294387
     unit: USD
-    quote_as: see status
+    quote_as: do not quote (superseded or retired)
     scale: reference
     status: SUPERSEDED by laura.ladder.cost_2027_strips (28 Sep)
-    as_of: '2026-09-25'
+    curve_date: '2026-09-25'
+    valuation_date: n/a
+    maturity_convention: n/a
+    instrument_basis: n/a
+    method: n/a
     source: research/insight_v1/D1_purchase_rule.py [1],[4]; 25 Sep curve; headroom $5,613 = 19bp
+    as_of: '2026-09-25'
     note: From rab/inventory.md s2 (re-run 30 Sep where marked there).
   ref.H2.ladder_2027_exact_25sep:
     value: 292264
     unit: USD
-    quote_as: see status
+    quote_as: do not quote (superseded or retired)
     scale: reference
     status: SUPERSEDED by laura.ladder.value_2027_exact (28 Sep)
-    as_of: '2026-09-25'
+    curve_date: '2026-09-25'
+    valuation_date: n/a
+    maturity_convention: n/a
+    instrument_basis: n/a
+    method: n/a
     source: research/insight_v1/verified_2026-09-27/official_curve_pv.py; 25 Sep curve
+    as_of: '2026-09-25'
     note: From rab/inventory.md s2 (re-run 30 Sep where marked there).
   ref.H5.one_in_three:
     value: about 1 in 3
     unit: probability
-    quote_as: see status
+    quote_as: do not quote (superseded or retired)
     scale: reference
     status: 'RETIRED: 25 Sep (19bp) basis; WS4 gives the reconciled figure'
-    as_of: '2026-09-25'
+    curve_date: '2026-09-25'
+    valuation_date: n/a
+    maturity_convention: n/a
+    instrument_basis: n/a
+    method: n/a
     source: research/insight_v1/D3_model_v2_results.md, S4_red_team.md, D1 [6], AX1b [C]
+    as_of: '2026-09-25'
     note: From rab/inventory.md s2 (re-run 30 Sep where marked there).
   ref.H6.gap_odds_28sep:
     value:
@@ -1247,11 +1269,16 @@ numbers:
       - 0.276
       - 0.311
     unit: probability
-    quote_as: see status
+    quote_as: quote only after the owner stream re-verifies it on the 28 Sep basis
     scale: reference
     status: REFERENCE, WS4 owns (chance the ladder costs more than $300,000 on 1 Jan 2027)
-    as_of: '2026-09-28'
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: n/a
+    instrument_basis: n/a
+    method: n/a
     source: research/insight_v1/D1 rerun [6] (zero-drift lognormal); AX1b [C] (68-day windows)
+    as_of: '2026-09-28'
     note: From rab/inventory.md s2 (re-run 30 Sep where marked there).
   ref.H7.days_over_300k_2026:
     value:
@@ -1259,11 +1286,16 @@ numbers:
       nov15: 176/185
       worst: 27 Feb 2026 $327,631
     unit: trading days
-    quote_as: see status
+    quote_as: quote only after the owner stream re-verifies it on the 28 Sep basis
     scale: reference
     status: REFERENCE (2026 curves)
-    as_of: '2026-09-25'
+    curve_date: '2026-09-25'
+    valuation_date: n/a
+    maturity_convention: n/a
+    instrument_basis: n/a
+    method: n/a
     source: research/insight_v1/D1_purchase_rule.py [5]
+    as_of: '2026-09-25'
     note: From rab/inventory.md s2 (re-run 30 Sep where marked there).
   ref.H8.rec_2033_total:
     value:
@@ -1271,22 +1303,32 @@ numbers:
       p50: 207000
       p95: 250000
     unit: USD
-    quote_as: see status
+    quote_as: quote only after the owner stream re-verifies it on the 28 Sep basis
     scale: reference
     status: REFERENCE, WS2 re-verifies on the 28 Sep basis (JPM ACWI 7.00%, 25 Sep, 200k paths)
-    as_of: '2026-09-25'
+    curve_date: '2026-09-25'
+    valuation_date: n/a
+    maturity_convention: n/a
+    instrument_basis: n/a
+    method: n/a
     source: research/insight_v1/E6_final_checks.py [1]-[2]
+    as_of: '2026-09-25'
     note: From rab/inventory.md s2 (re-run 30 Sep where marked there).
   ref.H9.history_worst:
     value:
       rescaled_1928: 169000
       raw: 171000
     unit: USD
-    quote_as: see status
+    quote_as: quote only after the owner stream re-verifies it on the 28 Sep basis
     scale: reference
     status: REFERENCE, WS3 re-verifies
-    as_of: '2026-09-25'
+    curve_date: '2026-09-25'
+    valuation_date: n/a
+    maturity_convention: n/a
+    instrument_basis: n/a
+    method: n/a
     source: research/insight_v1/E6_final_checks.py [5] (93 windows 1928-2025)
+    as_of: '2026-09-25'
     note: From rab/inventory.md s2 (re-run 30 Sep where marked there).
   ref.H10.stock_fund_2028:
     value:
@@ -1294,11 +1336,16 @@ numbers:
       share: 0.087
       of_total: 464000
     unit: USD
-    quote_as: see status
+    quote_as: do not quote (superseded or retired)
     scale: reference
     status: SUPERSEDED by laura.plan_split_2028.* and laura.stock_fund_2028_usd.* (28 Sep)
-    as_of: '2026-09-25'
+    curve_date: '2026-09-25'
+    valuation_date: n/a
+    maturity_convention: n/a
+    instrument_basis: n/a
+    method: n/a
     source: research/insight_v1/E6_final_checks.py [2],[7]
+    as_of: '2026-09-25'
     note: From rab/inventory.md s2 (re-run 30 Sep where marked there).
   ref.H11.vanguard_like:
     value:
@@ -1307,11 +1354,16 @@ numbers:
       p95: 242000
       p_top: 0.67
     unit: USD
-    quote_as: see status
+    quote_as: quote only after the owner stream re-verifies it on the 28 Sep basis
     scale: reference
     status: REFERENCE, WS2
-    as_of: '2026-09-25'
+    curve_date: '2026-09-25'
+    valuation_date: n/a
+    maturity_convention: n/a
+    instrument_basis: n/a
+    method: n/a
     source: research/insight_v1/E6_final_checks.py [4]
+    as_of: '2026-09-25'
     note: From rab/inventory.md s2 (re-run 30 Sep where marked there).
   ref.H13.rates_fall_first:
     value:
@@ -1319,31 +1371,46 @@ numbers:
       -100bp: fund $1-7k
       -150bp: no fund; floor $127-137k
     unit: USD
-    quote_as: see status
+    quote_as: quote only after the owner stream re-verifies it on the 28 Sep basis
     scale: reference
     status: REFERENCE, WS4
-    as_of: '2026-09-25'
+    curve_date: '2026-09-25'
+    valuation_date: n/a
+    maturity_convention: n/a
+    instrument_basis: n/a
+    method: n/a
     source: research/insight_v1/E6_final_checks.py [8]
+    as_of: '2026-09-25'
     note: From rab/inventory.md s2 (re-run 30 Sep where marked there).
   ref.H14.joint_tail_no_deposit:
     value:
       -50bp_28sep: 9281
       -100bp_28sep: 28753
     unit: USD unfunded of the 2033 payment
-    quote_as: see status
+    quote_as: quote only after the owner stream re-verifies it on the 28 Sep basis
     scale: reference
     status: REFERENCE, WS4
-    as_of: '2026-09-28'
+    curve_date: '2026-09-28'
+    valuation_date: n/a
+    maturity_convention: n/a
+    instrument_basis: n/a
+    method: n/a
     source: research/insight_v1/D1_purchase_rule.py [8] rerun on 28 Sep
+    as_of: '2026-09-28'
     note: From rab/inventory.md s2 (re-run 30 Sep where marked there).
   ref.H15.floor_variants:
     value: 'each $25k less floor: median +$2-3k, p5 -$9-10k'
     unit: USD
-    quote_as: see status
+    quote_as: quote only after the owner stream re-verifies it on the 28 Sep basis
     scale: reference
     status: REFERENCE, WS2 (D6 memo)
-    as_of: '2026-09-25'
+    curve_date: '2026-09-25'
+    valuation_date: n/a
+    maturity_convention: n/a
+    instrument_basis: n/a
+    method: n/a
     source: research/insight_v1/F1_floor_variants.py
+    as_of: '2026-09-25'
     note: From rab/inventory.md s2 (re-run 30 Sep where marked there).
   ref.H16.growth_first_miss:
     value:
@@ -1351,20 +1418,30 @@ numbers:
       deposit_75k: 0.137
       deposit_0: 0.408
     unit: probability
-    quote_as: see status
+    quote_as: quote only after the owner stream re-verifies it on the 28 Sep basis
     scale: reference
     status: REFERENCE (not re-run), WS3 M6
-    as_of: '2026-09-25'
+    curve_date: '2026-09-25'
+    valuation_date: n/a
+    maturity_convention: n/a
+    instrument_basis: n/a
+    method: n/a
     source: research/insight_v1/strategy_mc.py via why_us.md
+    as_of: '2026-09-25'
     note: From rab/inventory.md s2 (re-run 30 Sep where marked there).
   ref.H19.real_value_50k:
     value:
       '2033': 42063
       '2042': 33681
     unit: USD of today at 2.5% inflation (ASSUMPTION)
-    quote_as: see status
+    quote_as: quote only after the owner stream re-verifies it on the 28 Sep basis
     scale: reference
     status: REFERENCE, WS3 M7 recomputes with a sourced inflation input
-    as_of: n/a
+    curve_date: n/a
+    valuation_date: n/a
+    maturity_convention: n/a
+    instrument_basis: n/a
+    method: n/a
     source: research/insight_v1/strategy_changes.md I4
+    as_of: n/a
     note: From rab/inventory.md s2 (re-run 30 Sep where marked there).
