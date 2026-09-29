@@ -33,7 +33,7 @@ way. With market luck included, luck in 2028-2030 explains only about 0.22 of th
    how much of the 2028 deposit must complete the ladder. That in turn sets the floor and the size of the stock fund.
 2. **The 5-year Treasury yield when the floor is bought (Jan 2028).** Higher yields make the floor cheaper and the
    stock fund bigger.
-3. **Costs, and who pays them.** The IPS already charges costs to the stock fund; a 1% yearly fee on all assets
+3. **Costs, and who pays them.** The IPS text read on 30 Sep does not yet say who pays costs (WS2 D_ips_three_assumptions: fix-before-6-Nov); the model charges them to the stock fund. A 1% yearly fee on all assets
    would cut the typical top by about $8k and the typical gift by about $11k.
 
 The stock-return assumption is not on the list. Across the published range (4.1% to 8%) it moves the typical top by

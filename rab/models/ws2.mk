@@ -4,6 +4,10 @@ PY ?= /Users/ray/Research/rab-ws/.venv/bin/python
 
 all: m3 m4 m8
 
+# WS2 headline numbers for the decision memos (reads results + blind outputs + Gate B outputs; no model run)
+numbers:
+	$(PY) rab/models/build_numbers_ws2.py
+
 data:
 	$(PY) rab/data/ws2_returns/fetch_returns.py
 	$(PY) rab/data/ws2_returns/build_returns.py
@@ -20,4 +24,4 @@ m4: m3
 m8: m3
 	$(PY) rab/models/m8_sensitivity.py
 
-.PHONY: all data m3 m3-refit m4 m8
+.PHONY: all data m3 m3-refit m4 m8 numbers
