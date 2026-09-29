@@ -56,7 +56,7 @@ numbers:
   laura.ladder.cost_2027_strips:
     value: 292418.11
     unit: USD
-    quote_as: about $292,000 on 1 Jan 2027, locked in at 28 Sep 2026 yields
+    quote_as: about $292,000 on 1 Jan 2027, at 28 Sep 2026 yields
     scale: laura_plan
     status: MODEL
     curve_date: '2026-09-28'

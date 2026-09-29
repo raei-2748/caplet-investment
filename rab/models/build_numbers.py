@@ -69,7 +69,7 @@ add("laura.ladder.cost_today_strips", round(s["spot"], 2), "USD", f"about $289,0
     "HEADLINE for 'what the ten payments cost today'. Equals insight_v1 H3 ($289,119) to the cent.",
     **laura_basis(STRIPS))
 add("laura.ladder.cost_2027_strips", round(s["fwd_2027"], 2), "USD",
-    "about $292,000 on 1 Jan 2027, locked in at 28 Sep 2026 yields", "laura_plan", "MODEL", f"{SRC} A.nov15.fwd_2027",
+    "about $292,000 on 1 Jan 2027, at 28 Sep 2026 yields", "laura_plan", "MODEL", f"{SRC} A.nov15.fwd_2027",
     "HEADLINE for 'cost against the $300,000 deposit'. Forward value on the day the deposit arrives. Equals H3.",
     **laura_basis(STRIPS, val="2027-01-01"))
 add("laura.ladder.headroom_2027_strips", round(s["headroom_2027"], 2), "USD", "about $7,600 of room under $300,000",
