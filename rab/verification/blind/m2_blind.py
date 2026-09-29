@@ -370,7 +370,9 @@ def run(curve_date: dt.date, out_dir: Path, quick: bool = False) -> dict:
         "H14": nums["ref.H14.joint_tail_no_deposit"]["value"],
     }
     yaml_curve = nums["market.par_curve"]["value"]
-    assert all(abs(float(yaml_curve[k]) - R[IDX[k]]) < 1e-9 for k in TENOR_NAMES), "numbers.yaml par curve != panel row"
+    gate_a_date = D == dt.date(2026, 9, 28)   # the numbers.yaml cross-checks hold only on the Gate A curve (Gate B fix)
+    if gate_a_date:
+        assert all(abs(float(yaml_curve[k]) - R[IDX[k]]) < 1e-9 for k in TENOR_NAMES), "numbers.yaml par curve != panel row"
 
     # ---- s3.2 deterministic checks -----------------------------------------------------------------------
     cost_fwd_R = float(cost_fwd(R[None, :], D, A)[0])
@@ -389,7 +391,8 @@ def run(curve_date: dt.date, out_dir: Path, quick: bool = False) -> dict:
     }
     say(f"Cost_FWD(R) = {cost_fwd_R:,.2f} (yaml {ref['cost_2027_strips']:,.2f}); Cost_RW(R) = {cost_rw_R:,.2f}; "
         f"break-even fall FWD {be_fwd:.2f}bp (yaml {ref['breakeven_fall_bp_strips']}), RW {be_rw:.2f}bp")
-    assert abs(cost_fwd_R - ref["cost_2027_strips"]) < 0.01, "Cost_FWD(R) does not reproduce numbers.yaml to the cent"
+    if gate_a_date:
+        assert abs(cost_fwd_R - ref["cost_2027_strips"]) < 0.01, "Cost_FWD(R) does not reproduce numbers.yaml to the cent"
 
     # ---- s3.3 ladder yield, dy, EWMA -----------------------------------------------------------------------
     y = ladder_yield(P12, D)

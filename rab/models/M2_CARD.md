@@ -75,4 +75,9 @@ So "1 in 3" survives, but for new reasons; 24.2% should not be quoted. On the 25
   The IPS draft does not quote the odds (inventory F2), so no IPS change.
 - **fix-before-6-Nov (RAB files only, WS0; no IPS change)**: `rab/assumptions.md` C2 and `rab/premortem.md` PM-32 quote 24.2% as the model figure;
   replace with `laura.rates.gap_odds_2027` once WS1 adds it; retire `ref.H5`, mark `ref.H6` reproduced.
-- **ignore**: the 4 Jan vs 1 Jan purchase date (34% vs 33%).
+- **ignore**: the 4 Jan vs 1 Jan purchase date (E1: 33.7% vs 33.2%; median of five in the blind rebuild: 33.1% vs
+  32.7%). Corrected at Gate B: this line used to compare E1 on 4 Jan with the five-method median on 1 Jan.
+
+**Gate B (30 Sep 2026): PASS.** The blind rebuild from `M2_SPEC.md` matches every headline key (decision keys within
+0.005pp, deterministic figures to the cent); see `rab/gates/gate_B_ws4.md`. Monte Carlo noise in the headline is about
+0.15pp (noise-free median 32.6%), so quote "about 1 in 3", never a decimal.

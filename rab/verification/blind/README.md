@@ -147,3 +147,10 @@ Probabilities within 2pp: headline, E1-E5, R1-R6, P(S < $20k), P(S = 0), P(top-u
 the cost and gap quantiles, S and F quantiles, H13 fund and floor face. Exact to $1: Cost_FWD(R), break-evens,
 H13/H14, the $40,736 / $117,194 base. Vasicek theta within 5bp (6.19%), kappa within 0.02 (0.0007 bc, 0.063 hat);
 PCA shares within 0.5pt (78.3 / 12.4 / 5.1). A difference is explained, never averaged.
+
+## 8. Gate B note (30 Sep 2026, WS4 reconciler)
+
+`--curve-date` failed for any date other than 28 Sep, because two numbers.yaml cross-check asserts ran on every date.
+They now run only on the Gate A curve (`gate_a_date`). No 28 Sep output changed: a rerun reproduces `results.json`
+exactly apart from the run time stamp. The 25 Sep run (used for the insight_v1 reconciliation) gives 37.90%, the same as
+the reference build. Reconciliation record: `rab/gates/gate_B_ws4.md`.

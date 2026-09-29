@@ -219,4 +219,14 @@ the headline takes no view on direction by construction.
   and, for every estimator, the "parallel-equivalent" spread (the parallel shift of R with the same RW cost, by
   interpolation on a 0.25bp grid from -400 to +400bp: mean, sd, robust sd = IQR / 1.349). R3 note: the analytic
   value of strategy_mc_v2 (a) is 30.1%; its Monte Carlo printed 30.2% (noise). `--out` option added.
+- 30 Sep 2026, Gate B (after the blind rebuild; no result of the reference build changes; `rab/gates/gate_B_ws4.md`).
+  Four readings the blind builder had to guess are now written down, each as the reference build already does it:
+  (1) s7 R1/R2/R5: "daily Cost_FWD" means each 2026 row's curve valued on **that row's own date** (v = the row's date,
+  as insight_v1 `D1_purchase_rule.py` `curve()` does), not on D; the fixed-D reading gives 30.2 / 23.8 / 26.8% and is
+  a variant only. (2) s7 R4: the test is the raw floating-point `change <= -X/100` in percent, as `AX1b_rates_audit.py`
+  line 100; it counts only some of the windows that fell exactly X bp (29 of 74 at 26bp since 1962), so the inclusive
+  count is 27.8 / 31.4 / 28.8% and the strict one 27.4 / 30.8 / 28.3%. (3) Seeds: the bootstrap generator
+  `[20260930, 9]` is created afresh for each estimator. (4) E4: the sampler is free (numpy SVD and an
+  eigendecomposition give 32.30% and 32.31% over 4,000,000 draws each). Erratum, s2: 1 Jan 2027 is a bond-market
+  holiday, so the 4 Jan sensitivity has n_h = 64, not 65 (E5 closed form 33.0% vs 33.1%; sensitivity only).
 
