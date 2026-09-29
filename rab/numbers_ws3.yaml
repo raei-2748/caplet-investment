@@ -1,0 +1,780 @@
+# WS3 headline numbers (M5 history, M6 rivals + fund choice, M7 stress) used in the WS3 decision memos
+# rab/decisions/D_fund_choice.md, D_rivals.md, D_stress_bad_year.md. AI-generated (Claude Code) for Team Caplet.
+# NOT rab/numbers.yaml: WS1 is its only writer. Keys for the next lock are in rab/results/WS3_numbers_proposed.yaml
+# (the FIXED file of commit 52e30ec). Every entry is MODEL, Treasury par curve of 2026-09-28, Nov-15 STRIPS basis,
+# Laura's plan unless the unit says otherwise. 'blind' = the same figure from the blind build
+# (rab/verification/blind/out/blind_headlines.json); 'gate_b' = its verdict at Gate B tolerances (rab/gates/gate_B_ws3.md).
+# None of these may go in a WInS Trading Note (not in numbers.yaml). Written by rab/decisions/build_numbers_ws3.py.
+meta:
+  stream: WS3
+  written: 2026-09-30 (Sydney)
+  curve_date: '2026-09-28'
+  numbers_yaml_sha256: 492ed3203958a93ddd3fd7345dcc41e46dd93c9e67f9c2adec1ca63a0771f638
+  builder: rab/decisions/build_numbers_ws3.py
+numbers:
+  ws3.fund.stock_fund_share_of_deposits:
+    value: 0.0905
+    unit: share of $450,000 (2027 + 2028 deposits)
+    quote_as: about 9% of Laura's money
+    source: 'DERIVED: rab/numbers.yaml laura.stock_fund_2028_usd.strips (40,736) / 450,000'
+    gate_b: n/a (locked key / case fact)
+  ws3.fund.vt_gift_mc:
+    value:
+      gift_p5: 165158.0
+      gift_p50: 174169.0
+    unit: USD (2033 gift, Laura's plan)
+    quote_as: with VT the bad-case (1 in 20) gift is about $165,000 and the typical gift about $174,000
+    source: rab/results/M6/fund_alternatives.csv (A0, MC_JPM)
+    gate_b: MC NOISE (within Gate B tolerance)
+    blind:
+      gift_p5: 165150.0
+      gift_p50: 174171.0
+  ws3.fund.alt.A1:
+    value:
+      mc_p5_change: 279.3572
+      mc_spread_ratio: 0.9814
+      mc_median_change: 157.7629
+      hist_p10_change: 190.2772
+      hist_spread_ratio: 0.9784
+      hist_median_change: 363.4381
+      seeds_spread_test_passed: 0/20
+      final: KEEP VT
+    unit: 'USD change vs VT (gift: MC 5th percentile / median; history 10th percentile / median); spread ratios'
+    quote_as: 'VTI + VXUS 62/38: quote only as a row of the Final Report table'
+    source: rab/results/M6/fund_choice_decision.csv (row A1)
+    gate_b: 'history lens: MATCH; MC lens: MC NOISE (within Gate B tolerance); final decision identical'
+    blind:
+      mc_p5_change: 281.7162
+      mc_spread_ratio: 0.9815
+      mc_median_change: 155.1161
+      hist_p10_change: 190.2772
+      hist_spread_ratio: 0.9784
+      hist_median_change: 363.4381
+      seeds_spread_test_passed: 0/20
+      final: KEEP VT
+  ws3.fund.alt.A2:
+    value:
+      mc_p5_change: -61.3908
+      mc_spread_ratio: 0.977
+      mc_median_change: -203.8989
+      hist_p10_change: -1480.9607
+      hist_spread_ratio: 1.0206
+      hist_median_change: 483.3664
+      seeds_spread_test_passed: 0/20
+      final: KEEP VT
+    unit: 'USD change vs VT (gift: MC 5th percentile / median; history 10th percentile / median); spread ratios'
+    quote_as: 'U.S. only: quote only as a row of the Final Report table'
+    source: rab/results/M6/fund_choice_decision.csv (row A2)
+    gate_b: 'history lens: MATCH; MC lens: MC NOISE (within Gate B tolerance); final decision identical'
+    blind:
+      mc_p5_change: -45.2479
+      mc_spread_ratio: 0.9759
+      mc_median_change: -230.0266
+      hist_p10_change: -1480.9607
+      hist_spread_ratio: 1.0206
+      hist_median_change: 483.3664
+      seeds_spread_test_passed: 0/20
+      final: KEEP VT
+  ws3.fund.alt.A3:
+    value:
+      mc_p5_change: -77.846
+      mc_spread_ratio: 1.0243
+      mc_median_change: 101.8937
+      hist_p10_change: 812.371
+      hist_spread_ratio: 1.1036
+      hist_median_change: 1590.4234
+      seeds_spread_test_passed: 0/20
+      final: KEEP VT
+    unit: 'USD change vs VT (gift: MC 5th percentile / median; history 10th percentile / median); spread ratios'
+    quote_as: 'VT + small/value tilt: quote only as a row of the Final Report table'
+    source: rab/results/M6/fund_choice_decision.csv (row A3)
+    gate_b: 'history lens: MATCH; MC lens: MC NOISE (within Gate B tolerance); final decision identical'
+    blind:
+      mc_p5_change: -58.5863
+      mc_spread_ratio: 1.0222
+      mc_median_change: 85.556
+      hist_p10_change: 812.371
+      hist_spread_ratio: 1.1036
+      hist_median_change: 1590.4234
+      seeds_spread_test_passed: 0/20
+      final: KEEP VT
+  ws3.fund.alt.A4:
+    value:
+      mc_p5_change: 1164.3658
+      mc_spread_ratio: 0.8992
+      mc_median_change: 338.2003
+      hist_p10_change: 1388.171
+      hist_spread_ratio: 0.7987
+      hist_median_change: -737.1531
+      seeds_spread_test_passed: 17/20
+      final: KEEP VT (not seed-robust)
+    unit: 'USD change vs VT (gift: MC 5th percentile / median; history 10th percentile / median); spread ratios'
+    quote_as: 'VT + gold/REIT: quote only as a row of the Final Report table'
+    source: rab/results/M6/fund_choice_decision.csv (row A4)
+    gate_b: 'history lens: MATCH; MC lens: MC NOISE (within Gate B tolerance); final decision identical'
+    blind:
+      mc_p5_change: 1150.4369
+      mc_spread_ratio: 0.8999
+      mc_median_change: 330.4083
+      hist_p10_change: 1388.171
+      hist_spread_ratio: 0.7987
+      hist_median_change: -737.1531
+      seeds_spread_test_passed: 14/20
+      final: KEEP VT (not seed-robust)
+  ws3.fund.gold_reit_noise_free:
+    value:
+      spread_ratio_ref: 0.8991
+      spread_ratio_blind: 0.8991
+      bar: 0.9
+      share_seeds_pass_ref: 0.8
+      share_seeds_pass_blind: 0.85
+      p5_gain_ref: 1164.0
+      p5_gain_blind: 1165.0
+      median_gain_ref: 342.0
+      margin_under_bar: 0.0009
+    unit: ratio / share of 200,000-path seeds / USD
+    quote_as: 'gold/REIT is 0.001 under the 0.90 bar: a close call'
+    source: rab/verification/gateB_ws3/gateB_ws3_mc_precision.json (100 seeds x 200,000 paths per build)
+    gate_b: MC NOISE (0.8991 in both builds; gate_B_ws3.md s4)
+  ws3.fund.gold_reit_history_without_proxies:
+    value:
+      p10_change_min: 873.0
+      p10_change_max: 1801.0
+      spread_ratio_min: 0.8
+      spread_ratio_max: 0.91
+    unit: USD / ratio
+    quote_as: with the flattering history proxies removed, gold/REIT still narrows the spread
+    source: rab/results/M6/M6_results.json fund_robustness (3 history variants)
+    gate_b: reference build only (robustness check; not in the blind spec)
+  ws3.fund.gold_reit_etf_lens:
+    value:
+      p10_change: -110.0
+      median_change: -581.0
+    unit: USD change vs VT, real ETF returns (80% VT + 10% GLD + 10% VNQ), 10 windows 2012-2025
+    quote_as: on real ETF prices gold/REIT added nothing
+    source: 'DERIVED: rab/results/M6/fund_alternatives.csv (etf_2011_2020 rows)'
+    gate_b: MATCH
+    blind:
+      p10_change: -110.0
+      median_change: -581.0
+  ws3.fund.max_abs_badcase_change:
+    value: 1481.0
+    unit: USD (largest bad-case change vs VT, any alternative, either lens)
+    quote_as: no alternative moves the bad-case gift by more than about $1,500
+    source: 'DERIVED: max |mc_p5_change|, |hist_p10_change| in rab/results/M6/fund_choice_decision.csv'
+    gate_b: 'derived from reconciled rows (U.S. only, history: MATCH)'
+  ws3.fund.gold_reit_gain_share_of_gift:
+    value: 0.0067
+    unit: share of VT's median gift
+    quote_as: about 0.7% of the gift
+    source: 'DERIVED: gold_reit_noise_free.p5_gain_ref / vt_gift_mc.gift_p50'
+    gate_b: derived from MC NOISE rows
+  ws3.rivals.REC:
+    value:
+      mc_short: 0.0
+      mc_T33_p5: 181344.0
+      mc_T33_p50: 206725.0
+      mc_T33_p95: 251749.0
+      mc_certain31_p50: 150000.0
+      h_T33_p10: 66507.0
+      h_T33_median: 131555.0
+      h_T33_p90: 362797.0
+      hist_short: 0/149
+      hist_max_shortfall: 0.0
+      trades: 13
+    unit: share of paths / USD of 2033 money for the facility and flexibility after the payments (T33) / count
+    quote_as: 'Root-and-Branch (adopted): quote only as a row of the Final Report rivals table'
+    source: rab/results/M6/M6_results.json summary (= rivals_summary.csv, full precision)
+    gate_b: 'MC lens: MC NOISE (within Gate B tolerance); history lens: MATCH'
+    blind:
+      mc_short: 0.0
+      mc_T33_p5: 181352.0
+      mc_T33_p50: 206777.0
+      mc_T33_p95: 252228.0
+      mc_certain31_p50: 150000.0
+      h_T33_p10: 66507.0
+      h_T33_median: 131555.0
+      h_T33_p90: 362797.0
+  ws3.rivals.R1:
+    value:
+      mc_short: 0.0
+      mc_T33_p5: 190799.0
+      mc_T33_p50: 202135.0
+      mc_T33_p95: 213299.0
+      mc_certain31_p50: 202135.0
+      h_T33_p10: 66507.0
+      h_T33_median: 131555.0
+      h_T33_p90: 303630.0
+      hist_short: 0/149
+      hist_max_shortfall: 0.0
+      trades: 12
+    unit: share of paths / USD of 2033 money for the facility and flexibility after the payments (T33) / count
+    quote_as: 'All-Treasury: quote only as a row of the Final Report rivals table'
+    source: rab/results/M6/M6_results.json summary (= rivals_summary.csv, full precision)
+    gate_b: 'MC lens: MC NOISE (within Gate B tolerance); history lens: MATCH'
+    blind:
+      mc_short: 0.0
+      mc_T33_p5: 190892.0
+      mc_T33_p50: 202188.0
+      mc_T33_p95: 213317.0
+      mc_certain31_p50: 202188.0
+      h_T33_p10: 66507.0
+      h_T33_median: 131555.0
+      h_T33_p90: 303630.0
+  ws3.rivals.R2:
+    value:
+      mc_short: 0.01272
+      mc_T33_p5: 53342.0
+      mc_T33_p50: 245276.0
+      mc_T33_p95: 526584.0
+      mc_certain31_p50: 0.0
+      h_T33_p10: 83431.0
+      h_T33_median: 221833.0
+      h_T33_p90: 527149.0
+      hist_short: 2/149
+      hist_max_shortfall: 35341.0
+      trades: 24
+    unit: share of paths / USD of 2033 money for the facility and flexibility after the payments (T33) / count
+    quote_as: '60/40 whole portfolio: quote only as a row of the Final Report rivals table'
+    source: rab/results/M6/M6_results.json summary (= rivals_summary.csv, full precision)
+    gate_b: 'MC lens: MC NOISE (within Gate B tolerance); history lens: MATCH'
+    blind:
+      mc_short: 0.01251
+      mc_T33_p5: 53653.0
+      mc_T33_p50: 244730.0
+      mc_T33_p95: 527953.0
+      mc_certain31_p50: 0.0
+      h_T33_p10: 83431.0
+      h_T33_median: 221833.0
+      h_T33_p90: 527149.0
+  ws3.rivals.R3:
+    value:
+      mc_short: 0.0
+      mc_T33_p5: 154246.0
+      mc_T33_p50: 216300.0
+      mc_T33_p95: 306899.0
+      mc_certain31_p50: 0.0
+      h_T33_p10: 78789.0
+      h_T33_median: 144719.0
+      h_T33_p90: 372289.0
+      hist_short: 0/149
+      hist_max_shortfall: 0.0
+      trades: 21
+    unit: share of paths / USD of 2033 money for the facility and flexibility after the payments (T33) / count
+    quote_as: 'Ladder + 60/40 growth money: quote only as a row of the Final Report rivals table'
+    source: rab/results/M6/M6_results.json summary (= rivals_summary.csv, full precision)
+    gate_b: 'MC lens: MC NOISE (within Gate B tolerance); history lens: MATCH'
+    blind:
+      mc_short: 0.0
+      mc_T33_p5: 154135.0
+      mc_T33_p50: 216349.0
+      mc_T33_p95: 307645.0
+      mc_certain31_p50: 0.0
+      h_T33_p10: 78789.0
+      h_T33_median: 144719.0
+      h_T33_p90: 372289.0
+  ws3.rivals.R4:
+    value:
+      mc_short: 0.0017
+      mc_T33_p5: 87700.0
+      mc_T33_p50: 233406.0
+      mc_T33_p95: 434332.0
+      mc_certain31_p50: 0.0
+      h_T33_p10: 81714.0
+      h_T33_median: 180302.0
+      h_T33_p90: 440016.0
+      hist_short: 3/149
+      hist_max_shortfall: 58161.0
+      trades: 24
+    unit: share of paths / USD of 2033 money for the facility and flexibility after the payments (T33) / count
+    quote_as: 'Glide path 65->20: quote only as a row of the Final Report rivals table'
+    source: rab/results/M6/M6_results.json summary (= rivals_summary.csv, full precision)
+    gate_b: 'MC lens: MC NOISE (within Gate B tolerance); history lens: MATCH'
+    blind:
+      mc_short: 0.00179
+      mc_T33_p5: 87668.0
+      mc_T33_p50: 232700.0
+      mc_T33_p95: 434200.0
+      mc_certain31_p50: 0.0
+      h_T33_p10: 81714.0
+      h_T33_median: 180302.0
+      h_T33_p90: 440016.0
+  ws3.rivals.R4b:
+    value:
+      mc_short: 0.02235
+      mc_T33_p5: 35898.0
+      mc_T33_p50: 248638.0
+      mc_T33_p95: 570794.0
+      mc_certain31_p50: 0.0
+      h_T33_p10: 88461.0
+      h_T33_median: 239961.0
+      h_T33_p90: 557699.0
+      hist_short: 3/149
+      hist_max_shortfall: 88182.0
+      trades: 24
+    unit: share of paths / USD of 2033 money for the facility and flexibility after the payments (T33) / count
+    quote_as: 'Growth-first 75->40: quote only as a row of the Final Report rivals table'
+    source: rab/results/M6/M6_results.json summary (= rivals_summary.csv, full precision)
+    gate_b: 'MC lens: MC NOISE (within Gate B tolerance); history lens: MATCH'
+    blind:
+      mc_short: 0.02268
+      mc_T33_p5: 35675.0
+      mc_T33_p50: 247845.0
+      mc_T33_p95: 572493.0
+      mc_certain31_p50: 0.0
+      h_T33_p10: 88461.0
+      h_T33_median: 239961.0
+      h_T33_p90: 557699.0
+  ws3.rivals.R5:
+    value:
+      mc_short: 0.0
+      mc_T33_p5: 153264.0
+      mc_T33_p50: 198871.0
+      mc_T33_p95: 408138.0
+      mc_certain31_p50: 0.0
+      h_T33_p10: 66389.0
+      h_T33_median: 130982.0
+      h_T33_p90: 511595.0
+      hist_short: 0/149
+      hist_max_shortfall: 0.0
+      trades: 72
+      mc_floor_150k_missed: 0.0199
+      hist_floor_150k_missed: 94/149
+    unit: share of paths / USD of 2033 money for the facility and flexibility after the payments (T33) / count
+    quote_as: 'CPPI multiplier 3: quote only as a row of the Final Report rivals table'
+    source: rab/results/M6/M6_results.json summary (= rivals_summary.csv, full precision)
+    gate_b: 'MC lens: MC NOISE (within Gate B tolerance); history lens: MATCH'
+    blind:
+      mc_short: 0.0
+      mc_T33_p5: 153284.0
+      mc_T33_p50: 198892.0
+      mc_T33_p95: 411314.0
+      mc_certain31_p50: 0.0
+      mc_floor_150k_missed: 0.0
+      h_T33_p10: 66389.0
+      h_T33_median: 130982.0
+      h_T33_p90: 511595.0
+  ws3.rivals.R5m5:
+    value:
+      mc_short: 6.0e-05
+      mc_T33_p5: 123681.0
+      mc_T33_p50: 175564.0
+      mc_T33_p95: 578087.0
+      mc_certain31_p50: 0.0
+      h_T33_p10: 66389.0
+      h_T33_median: 127622.0
+      h_T33_p90: 577738.0
+      hist_short: 0/149
+      hist_max_shortfall: 0.0
+      trades: 72
+      mc_floor_150k_missed: 0.2625
+      hist_floor_150k_missed: 106/149
+    unit: share of paths / USD of 2033 money for the facility and flexibility after the payments (T33) / count
+    quote_as: 'CPPI multiplier 5: quote only as a row of the Final Report rivals table'
+    source: rab/results/M6/M6_results.json summary (= rivals_summary.csv, full precision)
+    gate_b: 'MC lens: MC NOISE (within Gate B tolerance); history lens: MATCH'
+    blind:
+      mc_short: 6.0e-05
+      mc_T33_p5: 123928.0
+      mc_T33_p50: 175381.0
+      mc_T33_p95: 582972.0
+      mc_certain31_p50: 0.0
+      mc_floor_150k_missed: 0.0
+      h_T33_p10: 66389.0
+      h_T33_median: 127622.0
+      h_T33_p90: 577738.0
+  ws3.rivals.R6_tips:
+    value:
+      mc_any_payment_short: 0.5996
+      hist_short: 92/140
+      scale_for_95pct: 1.43
+      extra_cost_for_95pct: 124584.0
+    unit: share of paths / count / multiple / USD
+    quote_as: a TIPS ladder leaves at least one $50,000 payment short in most inflation paths
+    source: rab/results/M6/M6_results.json tips
+    gate_b: MATCH (same seed and draw order by spec; gate_B_ws3.md s2)
+    blind:
+      mc_any_payment_short: 0.5996
+      hist_short_share: 0.6571
+  ws3.rivals.rec_minus_all_treasury_mc:
+    value:
+      T33_p5: -9454.0
+      T33_p50: 4590.0
+      T33_p95: 38449.0
+    unit: USD (difference of percentiles, not a percentile of differences)
+    quote_as: against all Treasuries, Root-and-Branch gives up about $9,500 in a bad case for about $38,000 in a good case
+    source: 'DERIVED: ws3.rivals.REC minus ws3.rivals.R1'
+    gate_b: derived from MC NOISE rows
+  ws3.rivals.stress_rec_vs_all_treasury:
+    value:
+      S0_rec_T33: 207135.0
+      S0_all_treasury_T33: 202140.0
+      S5_rec_T33: 176632.0
+      S5_all_treasury_T33: 204750.0
+      S6_rec_T33: 182748.0
+      S6_all_treasury_T33: 202140.0
+      S2b_rec_T33: 147189.0
+      S2b_all_treasury_T33: 147189.0
+      S5_all_treasury_ahead: 28119.0
+    unit: USD of 2033 money (T33) in M7 scenarios
+    quote_as: in a 1929-style crash all Treasuries would end about $28,000 ahead
+    source: rab/results/M7/M7_results.json stress (T33, R1_T33)
+    gate_b: MATCH
+    blind:
+      S0_rec_T33: 207135.0
+      S0_all_treasury_T33: 202140.0
+      S5_rec_T33: 176632.0
+      S5_all_treasury_T33: 204750.0
+      S6_rec_T33: 182748.0
+      S6_all_treasury_T33: 202140.0
+      S2b_rec_T33: 147189.0
+      S2b_all_treasury_T33: 147189.0
+      S5_all_treasury_ahead: 28119.0
+  ws3.stress.thresholds_bp:
+    value:
+      topup_starts: 26.2
+      fund_used_up: 109.3
+      payment_unfunded: 428.4
+    unit: basis points (parallel fall before 1 Jan 2027 that lasts to Jan 2028)
+    quote_as: the $150,000 bottom survives a fall in yields of about 1 point before the money arrives; a payment needs a fall of over 4 points
+    source: rab/results/M7/M7_results.json thresholds
+    gate_b: MATCH
+    blind:
+      topup_starts: 26.2
+      fund_used_up: 109.3
+      payment_unfunded: 428.4
+    note: topup_starts = rab/numbers.yaml laura.ladder.breakeven_fall_bp_strips (26.2)
+  ws3.stress.S0:
+    value:
+      ladder_2027: 292418.11
+      topup: 0.0
+      floor: 150000.0
+      fund_2028: 40736.19
+      range_top_2031: 174951.79
+      gift_2033: 174951.79
+      laura_keeps: 32182.82
+      T33: 207134.62
+      real_gift: 152281.07
+      name: Base (JPM 7% stocks, breakeven inflation)
+      payments_funded: true
+      range_bottom_2031: 150000.0
+    unit: USD (Laura's plan)
+    quote_as: quote only in the Final Report stress table
+    source: rab/results/M7/M7_results.json stress (= stress_table.csv)
+    gate_b: MATCH
+    blind:
+      ladder_2027: 292418.11
+      topup: 0.0
+      floor: 150000.0
+      fund_2028: 40736.19
+      range_top_2031: 174951.79
+      gift_2033: 174951.79
+      laura_keeps: 32182.82
+      T33: 207134.62
+      real_gift: 152281.07
+  ws3.stress.S1:
+    value:
+      ladder_2027: 292418.11
+      topup: 0.0
+      floor: 150000.0
+      fund_2028: 43539.74
+      range_top_2031: 175371.69
+      gift_2033: 175371.69
+      laura_keeps: 34943.21
+      T33: 210314.9
+      real_gift: 110092.98
+      name: 1970s stagflation (1973-78)
+      payments_funded: true
+      range_bottom_2031: 150000.0
+    unit: USD (Laura's plan)
+    quote_as: quote only in the Final Report stress table
+    source: rab/results/M7/M7_results.json stress (= stress_table.csv)
+    gate_b: MATCH
+    blind:
+      ladder_2027: 292418.11
+      topup: 0.0
+      floor: 150000.0
+      fund_2028: 43539.74
+      range_top_2031: 175371.69
+      gift_2033: 175371.69
+      laura_keeps: 34943.21
+      T33: 210314.9
+      real_gift: 110092.98
+  ws3.stress.S2:
+    value:
+      ladder_2027: 292418.11
+      topup: 0.0
+      floor: 150000.0
+      fund_2028: 35956.1
+      range_top_2031: 162678.04
+      gift_2033: 161659.33
+      laura_keeps: 11659.33
+      T33: 173318.66
+      real_gift: 146551.03
+      name: Japan's lost decade (1990-95)
+      payments_funded: true
+      range_bottom_2031: 150000.0
+    unit: USD (Laura's plan)
+    quote_as: quote only in the Final Report stress table
+    source: rab/results/M7/M7_results.json stress (= stress_table.csv)
+    gate_b: MATCH
+    blind:
+      ladder_2027: 292418.11
+      topup: 0.0
+      floor: 150000.0
+      fund_2028: 35956.1
+      range_top_2031: 162678.04
+      gift_2033: 161659.33
+      laura_keeps: 11659.33
+      T33: 173318.66
+      real_gift: 146551.03
+  ws3.stress.S2b:
+    value:
+      ladder_2027: 322581.61
+      topup: 24401.04
+      floor: 147189.01
+      fund_2028: 0.0
+      range_top_2031: 147189.01
+      gift_2033: 147189.01
+      laura_keeps: 0.0
+      T33: 147189.01
+      real_gift: 133433.07
+      name: Japan, and rates fall 1pp before Jan 2027
+      payments_funded: true
+      range_bottom_2031: 147189.01
+    unit: USD (Laura's plan)
+    quote_as: quote only in the Final Report stress table
+    source: rab/results/M7/M7_results.json stress (= stress_table.csv)
+    gate_b: MATCH
+    blind:
+      ladder_2027: 322581.61
+      topup: 24401.04
+      floor: 147189.01
+      fund_2028: 0.0
+      range_top_2031: 147189.01
+      gift_2033: 147189.01
+      laura_keeps: 0.0
+      T33: 147189.01
+      real_gift: 133433.07
+  ws3.stress.S3:
+    value:
+      ladder_2027: 292418.11
+      topup: 0.0
+      floor: 150000.0
+      fund_2028: 40736.19
+      range_top_2031: 169315.37
+      gift_2033: 169315.37
+      laura_keeps: 24912.97
+      T33: 194228.34
+      real_gift: 132983.52
+      name: 2022 happens in 2028
+      payments_funded: true
+      range_bottom_2031: 150000.0
+    unit: USD (Laura's plan)
+    quote_as: quote only in the Final Report stress table
+    source: rab/results/M7/M7_results.json stress (= stress_table.csv)
+    gate_b: MATCH
+    blind:
+      ladder_2027: 292418.11
+      topup: 0.0
+      floor: 150000.0
+      fund_2028: 40736.19
+      range_top_2031: 169315.37
+      gift_2033: 169315.37
+      laura_keeps: 24912.97
+      T33: 194228.34
+      real_gift: 132983.52
+  ws3.stress.S3b:
+    value:
+      ladder_2027: 292418.11
+      topup: 0.0
+      floor: 150000.0
+      fund_2028: 52074.69
+      range_top_2031: 181896.86
+      gift_2033: 181896.86
+      laura_keeps: 41140.58
+      T33: 223037.44
+      real_gift: 142865.26
+      name: 2022 happens in 2027
+      payments_funded: true
+      range_bottom_2031: 150000.0
+    unit: USD (Laura's plan)
+    quote_as: quote only in the Final Report stress table
+    source: rab/results/M7/M7_results.json stress (= stress_table.csv)
+    gate_b: MATCH
+    blind:
+      ladder_2027: 292418.11
+      topup: 0.0
+      floor: 150000.0
+      fund_2028: 52074.69
+      range_top_2031: 181896.86
+      gift_2033: 181896.86
+      laura_keeps: 41140.58
+      T33: 223037.44
+      real_gift: 142865.26
+  ws3.stress.S4a:
+    value:
+      ladder_2027: 308897.07
+      topup: 9275.31
+      floor: 150000.0
+      fund_2028: 20357.03
+      range_top_2031: 162469.12
+      gift_2033: 162469.12
+      laura_keeps: 16082.67
+      T33: 178551.79
+      real_gift: 141415.94
+      name: S&P downgrade 2011-style, before the ladder is bought
+      payments_funded: true
+      range_bottom_2031: 150000.0
+    unit: USD (Laura's plan)
+    quote_as: quote only in the Final Report stress table
+    source: rab/results/M7/M7_results.json stress (= stress_table.csv)
+    gate_b: MATCH
+    blind:
+      ladder_2027: 308897.07
+      topup: 9275.31
+      floor: 150000.0
+      fund_2028: 20357.03
+      range_top_2031: 162469.12
+      gift_2033: 162469.12
+      laura_keeps: 16082.67
+      T33: 178551.79
+      real_gift: 141415.94
+  ws3.stress.S5:
+    value:
+      ladder_2027: 292418.11
+      topup: 0.0
+      floor: 150000.0
+      fund_2028: 42230.57
+      range_top_2031: 159298.42
+      gift_2033: 159298.42
+      laura_keeps: 17333.09
+      T33: 176631.51
+      real_gift: 208777.47
+      name: Great Depression (1928-33)
+      payments_funded: true
+      range_bottom_2031: 150000.0
+    unit: USD (Laura's plan)
+    quote_as: quote only in the Final Report stress table
+    source: rab/results/M7/M7_results.json stress (= stress_table.csv)
+    gate_b: MATCH
+    blind:
+      ladder_2027: 292418.11
+      topup: 0.0
+      floor: 150000.0
+      fund_2028: 42230.57
+      range_top_2031: 159298.42
+      gift_2033: 159298.42
+      laura_keeps: 17333.09
+      T33: 176631.51
+      real_gift: 208777.47
+  ws3.stress.S6:
+    value:
+      ladder_2027: 292418.11
+      topup: 0.0
+      floor: 150000.0
+      fund_2028: 40736.19
+      range_top_2031: 164301.51
+      gift_2033: 164301.51
+      laura_keeps: 18446.08
+      T33: 182747.59
+      real_gift: 143010.88
+      name: 2008 happens in 2028
+      payments_funded: true
+      range_bottom_2031: 150000.0
+    unit: USD (Laura's plan)
+    quote_as: quote only in the Final Report stress table
+    source: rab/results/M7/M7_results.json stress (= stress_table.csv)
+    gate_b: MATCH
+    blind:
+      ladder_2027: 292418.11
+      topup: 0.0
+      floor: 150000.0
+      fund_2028: 40736.19
+      range_top_2031: 164301.51
+      gift_2033: 164301.51
+      laura_keeps: 18446.08
+      T33: 182747.59
+      real_gift: 143010.88
+  ws3.stress.worst_gift_13_scenarios:
+    value: 147189.01
+    unit: USD
+    quote_as: the lowest gift in all 13 stress scenarios is about $147,000 (Japan, with a 1-point fall before Jan 2027)
+    source: rab/results/M7/M7_results.json stress (min gift, S2b)
+    gate_b: MATCH (gate_B_ws3.md s2)
+  ws3.stress.worst_gift_once_floor_bought:
+    value:
+      gift: 159298.42
+      scenario: S5
+      base_gift: 174951.79
+      drop_vs_base: 15653.37
+    unit: USD
+    quote_as: once the $150,000 floor is bought, the worst replay (Great Depression) still gives about $159,000
+    source: rab/results/M7/M7_results.json stress (scenarios with floor = 150,000)
+    gate_b: MATCH (derived from MATCH rows)
+  ws3.stress.downgrades_dy10_bp:
+    value:
+      y2011: -56.0
+      y2023: 7.0
+      y2025: 3.0
+    unit: basis points, 10-year yield over the 20 trading days after each downgrade (FRED DGS10)
+    quote_as: after the 2011 downgrade the 10-year yield fell about half a point
+    source: rab/results/M7/M7_results.json downgrades
+    gate_b: MATCH
+    blind:
+      y2011: -56.0
+      y2023: 7.0
+      y2025: 3.0
+  ws3.stress.today_yields_backtest:
+    value:
+      gift_worst: 158969.39
+      gift_median: 175903.02
+      share_top_reached: 0.85
+      windows: 149
+      payments_short: 0
+      floor_below_150k: 0
+      worst_start_year: 1928
+      note_fund_bought: 1929
+    unit: USD / count (149 start years 1872-2020, today's yields, history's returns)
+    quote_as: with today's yields, the worst stretch since 1872 still gives a gift of about $159,000
+    source: rab/results/M5/M5_results.json part_b_summary (today_yields, world_eq)
+    gate_b: MATCH
+    blind:
+      gift_worst: 158969.39
+      gift_median: 175903.02
+      share_top_reached: 0.85
+  ws3.stress.real_value_payments:
+    value:
+      breakeven_2042: 35341.81
+      breakeven_2033: 43520.87
+      s1970s_2042: 18414.19
+      breakeven_inflation: 0.0234
+    unit: USD of 1 Jan 2027 (what each $50,000 payment buys)
+    quote_as: at the market's expected inflation the last $50,000 payment buys about what $35,000 buys in 2027; in a 1970s-style decade about
+      $18,000
+    source: rab/results/M7/M7_results.json real_value_paths
+    gate_b: MATCH
+    blind:
+      breakeven_2042: 35341.81
+      breakeven_2033: 43520.87
+      s1970s_2042: 18414.19
+  ws3.inputs.mc:
+    value:
+      stocks_ac_world_compound_pct: 7.0
+      treasury_5y_par_pct: 5.06
+      paths: 200000
+      seed: 20260930
+    unit: percent a year / count
+    quote_as: 'J.P. Morgan 2026: world stocks 7.0% a year; Treasuries at today''s 5.06% five-year yield'
+    source: rab/data/history/jpm_ltcma_2026_usd.csv; M6_SPEC.md s4 (5-year par of 28 Sep 2026)
+    gate_b: MATCH (inputs shared by spec)
+  ws3.ips.word_count_30sep:
+    value:
+      words: 483
+      limit: 500
+      spare: 17
+    unit: words (whitespace count)
+    quote_as: the 30 Sep IPS has about 17 words to spare
+    source: 'DERIVED: wc -w of the IPS body in /Users/ray/Research/rab-ws/ws6/rab/trades/data/ips_doc_text_2026-09-30.txt (branch rab/ws6)'
+    gate_b: n/a
+    note: Google Docs may count hyphenated or dollar tokens differently; recount in the Doc.
