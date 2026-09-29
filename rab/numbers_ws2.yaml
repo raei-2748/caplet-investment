@@ -282,7 +282,7 @@ numbers:
     quote_as: see the D6 memo table (round to $1k; probabilities to whole percent)
     what: expected 2033 gift, chance Laura keeps >= 10% of her gift, kept money p5 / p50, chance the gift is below the announced
       $145,000, by share s
-    source: rab/results/M4/s_profile.csv; blind rab/verification/blind/out/M4/s_profile.csv
+    source: rab/results/M4/s_profile.csv; blind rab/verification/blind_ws2/out/M4/s_profile.csv
     gate_b: WITHIN TOL (compared here against the blind s_profile.csv with the Gate B tolerances)
   ws2.d6.p_gift_below_145k_any_share:
     value: 0.0
@@ -511,7 +511,7 @@ numbers:
     status: MODEL (deterministic)
     quote_as: 'after a 0.5-point fall: floor $143k + fund $29k under ''the whole remainder'', or floor $150k + fund $23k
       under ''keep $150,000'' (MODEL)'
-    source: rab/results/M8/floor_reading.csv (flag F4); blind rab/verification/blind/out/M8/floor_reading.csv
+    source: rab/results/M8/floor_reading.csv (flag F4); blind rab/verification/blind_ws2/out/M8/floor_reading.csv
     gate_b: MATCH to the cent (gate_B_ws2.md s2)
   ws2.assume.sobol_total_index_median_top:
     value:
@@ -566,7 +566,7 @@ numbers:
     unit: USD (median 2031 top with one input at its low / high; d in bp, e in points, fee and mu_c as yearly rates)
     quote_as: Jan-2027 yields (historical 95-day moves, 2.5-97.5%) move the typical top from about $143k to $194k; the Jan-2028
       5-year yield $168k-$182k; a 1% yearly cost $175k -> $167k; the stock return (4.1%-8%) $173k-$176k (MODEL)
-    source: rab/results/M8/tornado.csv; blind rab/verification/blind/out/M8/tornado.csv
+    source: rab/results/M8/tornado.csv; blind rab/verification/blind_ws2/out/M8/tornado.csv
     gate_b: WITHIN TOL
   ws2.assume.must_state:
     value:

@@ -178,7 +178,7 @@ def write_numbers_proposed(head: dict) -> None:
     def entry(key, value, unit, quote, note):
         lines.extend([f"  {key}:", f"    value: {value}", f"    unit: {unit}", f"    quote_as: {quote}", "    scale: laura_plan",
                       "    status: MODEL (blind rebuild)", "    curve_date: '2026-09-28'", "    valuation_date: '2031-01-01'",
-                      "    method: rab/verification/blind/blind_m3.py (M3_SPEC.md)", f"    note: {note}"])
+                      "    method: rab/verification/blind_ws2/blind_m3.py (M3_SPEC.md)", f"    note: {note}"])
     entry("branch.range2031.bottom", 150000, "USD", "$150,000 (the owned floor)", "certain by construction if the four M3_SPEC s5 conditions hold")
     lo_k, hi_k = round(a['top2031_p50_range'][0] / 1000), round(a['top2031_p50_range'][1] / 1000)
     q_top = f"about ${lo_k},000 in every model" if lo_k == hi_k else f"about ${lo_k}k-{hi_k}k"

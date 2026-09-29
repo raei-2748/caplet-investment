@@ -1,4 +1,4 @@
-Gate B WS2 checks | 2026-09-29 23:39 UTC | 2026-09-29 19:39 EDT | 2026-09-30 09:39 AEST | numbers.yaml sha256 492ed3203958 (Gate A lock)
+Gate B WS2 checks | 2026-09-29 23:59 UTC | 2026-09-29 19:59 EDT | 2026-09-30 09:59 AEST | numbers.yaml sha256 492ed3203958 (Gate A lock)
 [1] 307 blind headline keys compared: {'WITHIN TOL': 247, 'MATCH': 53, 'REPORT': 7}
     largest noise z among probabilities: {'key': 'M4.adopted_half.T.P_top_gift_eq_U', 'primary': 0.251055, 'blind': 0.2556, 'noise_z': -3.3}
     largest relative gap within tolerance: {'key': 'M3.BAYES.posterior_mean.nu', 'primary': 17.801196359121658, 'blind': 18.1218, 'rel': -0.017691600220637167}

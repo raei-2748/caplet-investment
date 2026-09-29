@@ -31,7 +31,7 @@ program's random paths. The small gaps between the builds are therefore dice, no
   - code: `rab/models/m3_branch.py`, `m4_cap.py`, `m8_sensitivity.py` (commits 46e8a89 and 591f938);
   - specs: 3d98ce0, where the M4 decision rule was committed before any M4 code was written;
   - outputs: `rab/results/`.
-- **Blind build:** `rab/verification/blind/` (ef2beae), built from the three specs and the raw inputs only. Its README
+- **Blind build:** `rab/verification/blind_ws2/` (ef2beae), built from the three specs and the raw inputs only. Its README
   discloses that the builder saw the primary's STATUS line before building.
 - **Evidence the builds are independent:**
   - different random streams (SeedSequence spawn against per-tag hashes);
@@ -42,7 +42,7 @@ program's random paths. The small gaps between the builds are therefore dice, no
 - **Reruns today:**
   - Primary: `make -f rab/models/ws2.mk all` took 57 s. Every CSV, PNG and YAML came out byte-identical; only the
     run-log time stamps changed, plus the one line fixed in s3 #5.
-  - Blind: its rerun this morning was byte-identical (`rab/verification/blind/README.md`).
+  - Blind: its rerun this morning was byte-identical (`rab/verification/blind_ws2/README.md`).
 - **Check script:** `rab/verification/gateB_ws2/gateB_ws2_checks.py` (about 20 s, seed 20260930).
   - `gateB_ws2_table.csv` / `.md`: all 307 keys;
   - `gateB_ws2_primary_headlines.csv`: 36 rows;
@@ -245,4 +245,4 @@ These are the cards' stated limits. WS7 should challenge them.
     untouched.
 - **Rerun from the worktree root:** `make -f rab/models/ws2.mk all` (about 1 minute), then
   `/Users/ray/Research/rab-ws/.venv/bin/python rab/verification/gateB_ws2/gateB_ws2_checks.py` (about 20 s). The
-  check needs the blind paths; `rab/verification/blind/run_all.sh` regenerates them.
+  check needs the blind paths; `rab/verification/blind_ws2/run_all.sh` regenerates them.

@@ -1,7 +1,7 @@
 """Build rab/numbers_ws2.yaml: WS2 headline numbers for the three decision memos in rab/decisions/.
 
 Reads only files already produced and reconciled at Gate B (rab/gates/gate_B_ws2.md): the primary results in
-rab/results/M3, M4, M8, the blind rebuild in rab/verification/blind/out, and the Gate B check outputs. No model is
+rab/results/M3, M4, M8, the blind rebuild in rab/verification/blind_ws2/out, and the Gate B check outputs. No model is
 re-run here. For every entry the primary value is `value` and, where the blind build has the same quantity, the
 blind value is `blind` with a verdict against the Gate B tolerances (dollars +-2%, probabilities +-2 points,
 shares 0.02). Entries marked DERIVED are simple arithmetic on reconciled keys.
@@ -19,7 +19,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
 RES = ROOT / "rab" / "results"
-BLIND = ROOT / "rab" / "verification" / "blind" / "out"
+BLIND = ROOT / "rab" / "verification" / "blind_ws2" / "out"
 GB = ROOT / "rab" / "verification" / "gateB_ws2"
 OUT = ROOT / "rab" / "numbers_ws2.yaml"
 MODELS = ["T", "BOOT", "BAYES"]  # the three decision models (M4_SPEC PR-2); L is reference only
@@ -136,7 +136,7 @@ def main():
         quote_as="see the D6 memo table (round to $1k; probabilities to whole percent)",
         what="expected 2033 gift, chance Laura keeps >= 10% of her gift, kept money p5 / p50, chance the gift is "
              "below the announced $145,000, by share s",
-        source="rab/results/M4/s_profile.csv; blind rab/verification/blind/out/M4/s_profile.csv",
+        source="rab/results/M4/s_profile.csv; blind rab/verification/blind_ws2/out/M4/s_profile.csv",
         gate_b=f"{worst(vs)} (compared here against the blind s_profile.csv with the Gate B tolerances)")
 
     pd_max = float(prof[prof["model"].isin(MODELS)]["P_D"].max())
@@ -300,7 +300,7 @@ def main():
         value=fr, unit="USD (2028 floor face and stock fund, if yields fall before Jan 2027)", status="MODEL (deterministic)",
         quote_as="after a 0.5-point fall: floor $143k + fund $29k under 'the whole remainder', or floor $150k + "
                  "fund $23k under 'keep $150,000' (MODEL)",
-        source="rab/results/M8/floor_reading.csv (flag F4); blind rab/verification/blind/out/M8/floor_reading.csv",
+        source="rab/results/M8/floor_reading.csv (flag F4); blind rab/verification/blind_ws2/out/M8/floor_reading.csv",
         gate_b=f"{worst(vs)} to the cent (gate_B_ws2.md s2)")
 
     # ------------------------------------------------------------------ the three assumptions
@@ -330,7 +330,7 @@ def main():
         quote_as="Jan-2027 yields (historical 95-day moves, 2.5-97.5%) move the typical top from about $143k to "
                  "$194k; the Jan-2028 5-year yield $168k-$182k; a 1% yearly cost $175k -> $167k; the stock return "
                  "(4.1%-8%) $173k-$176k (MODEL)",
-        source="rab/results/M8/tornado.csv; blind rab/verification/blind/out/M8/tornado.csv", gate_b=worst(vs))
+        source="rab/results/M8/tornado.csv; blind rab/verification/blind_ws2/out/M8/tornado.csv", gate_b=worst(vs))
 
     n["ws2.assume.must_state"] = dict(
         value=must["input"].tolist(), unit="inputs, ranked by ST",

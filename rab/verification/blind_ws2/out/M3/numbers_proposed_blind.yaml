@@ -9,7 +9,7 @@ numbers:
     status: MODEL (blind rebuild)
     curve_date: '2026-09-28'
     valuation_date: '2031-01-01'
-    method: rab/verification/blind/blind_m3.py (M3_SPEC.md)
+    method: rab/verification/blind_ws2/blind_m3.py (M3_SPEC.md)
     note: certain by construction if the four M3_SPEC s5 conditions hold
   branch.range2031.top_median_3models:
     value: [174966, 175472]
@@ -19,7 +19,7 @@ numbers:
     status: MODEL (blind rebuild)
     curve_date: '2026-09-28'
     valuation_date: '2031-01-01'
-    method: rab/verification/blind/blind_m3.py (M3_SPEC.md)
+    method: rab/verification/blind_ws2/blind_m3.py (M3_SPEC.md)
     note: median of F + half the 2031 fund
   branch.range2031.top_90pct_3models:
     value: [165182, 190687]
@@ -29,7 +29,7 @@ numbers:
     status: MODEL (blind rebuild)
     curve_date: '2026-09-28'
     valuation_date: '2031-01-01'
-    method: rab/verification/blind/blind_m3.py (M3_SPEC.md)
+    method: rab/verification/blind_ws2/blind_m3.py (M3_SPEC.md)
     note: as seen today
   branch.gift2033.P_top_reached_3models:
     value: [0.7184, 0.7549]
@@ -39,7 +39,7 @@ numbers:
     status: MODEL (blind rebuild)
     curve_date: '2026-09-28'
     valuation_date: '2031-01-01'
-    method: rab/verification/blind/blind_m3.py (M3_SPEC.md)
+    method: rab/verification/blind_ws2/blind_m3.py (M3_SPEC.md)
     note: P(B5 >= B3)
   branch.gift2033.P_upper_half_3models:
     value: [0.9924, 0.9992]
@@ -49,5 +49,5 @@ numbers:
     status: MODEL (blind rebuild)
     curve_date: '2026-09-28'
     valuation_date: '2031-01-01'
-    method: rab/verification/blind/blind_m3.py (M3_SPEC.md)
+    method: rab/verification/blind_ws2/blind_m3.py (M3_SPEC.md)
     note: P(B5/B3 >= 0.5)

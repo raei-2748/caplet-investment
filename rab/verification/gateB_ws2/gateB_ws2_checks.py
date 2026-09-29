@@ -4,7 +4,7 @@ WS2 Gate B reconciler, RAB Kit, 2026-09-30 (Sydney). AI-generated verification (
 deliverable text. Nothing here changes the strategy or rab/numbers.yaml.
 
 What it does
-  1. Every one of the blind build's 307 headline keys (rab/verification/blind/out/blind_headlines.json) is matched to
+  1. Every one of the blind build's 307 headline keys (rab/verification/blind_ws2/out/blind_headlines.json) is matched to
      the primary build's value in rab/results/, with the spec tolerance -> gateB_ws2_table.csv / .md.
   2. The primary build's own 29 headline keys (its WS2 summary) against the blind value.
   3. Cross-evaluation: each build's rule code run on the OTHER build's return paths and floor draws. If the rule code
@@ -18,7 +18,7 @@ What it does
 
 Run from the worktree root (about 3 minutes, no network, seed 20260930):
     /Users/ray/Research/rab-ws/.venv/bin/python rab/verification/gateB_ws2/gateB_ws2_checks.py
-Needs the blind paths in rab/verification/blind/out/paths/ (regenerate with rab/verification/blind/run_all.sh).
+Needs the blind paths in rab/verification/blind_ws2/out/paths/ (regenerate with rab/verification/blind_ws2/run_all.sh).
 """
 import json
 import math
@@ -33,7 +33,7 @@ from scipy import stats
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, "..", "..", ".."))
 PRIM = os.path.join(ROOT, "rab", "results")
-BLIND = os.path.join(ROOT, "rab", "verification", "blind")
+BLIND = os.path.join(ROOT, "rab", "verification", "blind_ws2")
 BLO = os.path.join(BLIND, "out")
 sys.path.insert(0, os.path.join(ROOT, "rab", "models"))
 sys.path.insert(0, BLIND)

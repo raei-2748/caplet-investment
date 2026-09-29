@@ -1,5 +1,9 @@
 # WS2 blind rebuild: M3 (branch), M4 (cap share, D6), M8 (sensitivity)
 
+Moved on 30 Sep 2026 from `rab/verification/blind/` to `rab/verification/blind_ws2/`, because WS3 and WS4 use
+`rab/verification/blind/` on `rab/integration`, so the two collided on merge. Only the folder name changed. The
+scripts find their paths relative to themselves, and the run logs in `out/` still show the old folder name.
+
 Gate B dual computation for the RAB Kit (RUN_PLAN s2, s3). Built 2026-09-30 (Sydney) from the SPEC files only.
 AI-generated research (Claude Code) for Team Caplet; no deliverable text. Nothing here changes the strategy.
 
