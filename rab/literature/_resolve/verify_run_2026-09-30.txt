@@ -1,0 +1,21 @@
+OK  leibowitz1986dedicated       10.2469/faj.v42.n1.68              resolves=True title_match=0.98
+OK  ang2013ldi                   10.3905/jpm.2013.40.1.071          resolves=True title_match=0.99
+OK  roy1952safety                10.2307/1907413                    resolves=True title_match=1.00
+OK  perold1988dynamic            10.2469/faj.v44.n1.16              resolves=True title_match=1.00
+OK  black1992cppi                10.1016/0165-1889(92)90043-E       resolves=True title_match=1.00
+OK  rubinstein1988crash          10.2469/faj.v44.n1.38              resolves=True title_match=1.00
+OK  dybvig1999protect            10.2469/faj.v55.n1.2241            resolves=True title_match=1.00
+OK  shefrin2000bpt               10.2307/2676187                    resolves=True title_match=1.00
+OK  chhabra2005beyond            10.3905/jwm.2005.470606            resolves=True title_match=0.99
+OK  das2010mental                10.1017/S0022109010000141          resolves=True title_match=1.00
+OK  das2018gbwm                  10.2139/ssrn.3117765               resolves=True title_match=1.00
+OK  brunel2015gbwm               10.1002/9781119025306              resolves=True title_match=0.99
+OK  sharpe1991arithmetic         10.2469/faj.v47.n1.7               resolves=True title_match=1.00
+OK  doeswijk2014global           10.2469/faj.v70.n2.1               resolves=True title_match=0.98
+OK  anarkulova2022stocks         10.1016/j.jfineco.2021.06.040      resolves=True title_match=0.99
+OK  bodie1995risk                10.2469/faj.v51.n3.1901            resolves=True title_match=1.00
+OK  campbell2001longterm         10.1257/aer.91.1.99                resolves=True title_match=1.00
+OK  fleckenstein2014tips         10.1111/jofi.12032                 resolves=True title_match=0.95
+OK  vanderbles2020trust          10.1073/pnas.1913678117            resolves=True title_match=1.00
+OK  spiegelhalter2011visualizing 10.1126/science.1191181            resolves=True title_match=1.00
+20 entries, 0 problems
