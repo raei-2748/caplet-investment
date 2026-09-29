@@ -1,0 +1,1512 @@
+{
+ "meta": {
+  "agent": "WS1-blind-pricer",
+  "curve_date": "2026-09-28",
+  "settle": "2026-09-28",
+  "curve_file": "rab/data/treasury_par_2000_2026/2026.csv",
+  "curve_source": "U.S. Treasury Daily Par Yield Curve (home.treasury.gov), row 09/28/2026",
+  "spec": "rab/models/M1_METHOD.md",
+  "code_read": "none of m1_ladder.py / insight_v1 / numbers.yaml"
+ },
+ "A": {
+  "curve_inputs_pct": {
+   "1 Mo": 4.04,
+   "2 Mo": 4.2,
+   "3 Mo": 4.28,
+   "6 Mo": 4.41,
+   "1 Yr": 4.59,
+   "2 Yr": 4.92,
+   "3 Yr": 5.01,
+   "5 Yr": 5.06,
+   "7 Yr": 5.15,
+   "10 Yr": 5.24,
+   "20 Yr": 5.6,
+   "30 Yr": 5.56
+  },
+  "par_grid_pct": [
+   4.41,
+   4.59,
+   4.755,
+   4.92,
+   4.965,
+   5.01,
+   5.0225,
+   5.035,
+   5.0475,
+   5.06,
+   5.0825,
+   5.105,
+   5.1275,
+   5.15,
+   5.165,
+   5.18,
+   5.195,
+   5.21,
+   5.225,
+   5.24,
+   5.258,
+   5.276,
+   5.294,
+   5.312,
+   5.33,
+   5.348,
+   5.366,
+   5.384,
+   5.402,
+   5.42,
+   5.438,
+   5.456,
+   5.474,
+   5.492,
+   5.51,
+   5.528,
+   5.546,
+   5.564,
+   5.582,
+   5.6,
+   5.598,
+   5.596,
+   5.594,
+   5.592,
+   5.59,
+   5.588,
+   5.586,
+   5.584,
+   5.582,
+   5.58,
+   5.578,
+   5.576,
+   5.574,
+   5.572,
+   5.57,
+   5.568,
+   5.566,
+   5.564,
+   5.562,
+   5.56
+  ],
+  "df_grid": [
+   0.978425713,
+   0.9556137933,
+   0.931863164,
+   0.9071821143,
+   0.8843784746,
+   0.8617438616,
+   0.8402969539,
+   0.8192742555,
+   0.7986691687,
+   0.7784751568,
+   0.7582218039,
+   0.738306197,
+   0.718726447,
+   0.699480565,
+   0.6810179765,
+   0.662921923,
+   0.6451870934,
+   0.6278082058,
+   0.6107800086,
+   0.5940972819,
+   0.5775199598,
+   0.561267426,
+   0.54533558,
+   0.5297203151,
+   0.5144175199,
+   0.499423081,
+   0.4847328838,
+   0.4703428154,
+   0.4562487656,
+   0.4424466289,
+   0.4289323062,
+   0.4157017065,
+   0.4027507482,
+   0.3900753609,
+   0.3776714868,
+   0.365535082,
+   0.3536621182,
+   0.3420485837,
+   0.3306904851,
+   0.3195838479,
+   0.3111186429,
+   0.3028899004,
+   0.2948909465,
+   0.2871152976,
+   0.279556655,
+   0.2722088998,
+   0.2650660875,
+   0.2581224432,
+   0.2513723562,
+   0.2448103759,
+   0.2384312068,
+   0.2322297042,
+   0.2262008699,
+   0.2203398476,
+   0.2146419195,
+   0.2091025015,
+   0.2037171403,
+   0.1984815086,
+   0.1933914025,
+   0.188442737
+  ],
+  "df_1jan2027": 0.9887185231769967,
+  "df_1jan2028": 0.9432168267015543,
+  "exact": {
+   "dates": [
+    "2033-01-01",
+    "2034-01-01",
+    "2035-01-01",
+    "2036-01-01",
+    "2037-01-01",
+    "2038-01-01",
+    "2039-01-01",
+    "2040-01-01",
+    "2041-01-01",
+    "2042-01-01"
+   ],
+   "df_per_date": [
+    0.7280017383065598,
+    0.6897896015894748,
+    0.6536364084890143,
+    0.618915154200472,
+    0.5853700056469705,
+    0.5529007757553107,
+    0.5217039591904082,
+    0.4917467387445911,
+    0.46291914816597474,
+    0.43534579810569984
+   ],
+   "pv_per_date": [
+    36400.08691532799,
+    34489.48007947374,
+    32681.820424450714,
+    30945.7577100236,
+    29268.500282348527,
+    27645.038787765534,
+    26085.19795952041,
+    24587.336937229556,
+    23145.95740829874,
+    21767.289905284993
+   ],
+   "V0_spot": 287016.4664097238,
+   "V_A_1jan2027": 290291.3819066209,
+   "headroom_vs_300k": 9708.618093379075,
+   "breakeven_parallel_fall_bp": 33.216626689402034,
+   "V_1jan2028": 304295.3203172015
+  },
+  "nov15": {
+   "dates": [
+    "2032-11-15",
+    "2033-11-15",
+    "2034-11-15",
+    "2035-11-15",
+    "2036-11-15",
+    "2037-11-15",
+    "2038-11-15",
+    "2039-11-15",
+    "2040-11-15",
+    "2041-11-15"
+   ],
+   "df_per_date": [
+    0.7330549438765142,
+    0.694554597510829,
+    0.6582139242411674,
+    0.6233106254733416,
+    0.5896489653081421,
+    0.5570134976231562,
+    0.5256546679198537,
+    0.495539666772506,
+    0.4665579218074913,
+    0.4388352624637207
+   ],
+   "pv_per_date": [
+    36652.74719382571,
+    34727.72987554145,
+    32910.69621205837,
+    31165.53127366708,
+    29482.448265407107,
+    27850.67488115781,
+    26282.733395992687,
+    24776.9833386253,
+    23327.896090374565,
+    21941.763123186032
+   ],
+   "V0_spot": 289119.2036498361,
+   "V_A_1jan2027": 292418.11180074257,
+   "headroom_vs_300k": 7581.888199257432,
+   "breakeven_parallel_fall_bp": 26.196344595245115,
+   "V_1jan2028": 306524.6457284812
+  },
+  "A4_model_risk_band": {
+   "i_days365": {
+    "exact": {
+     "V0_spot": 286900.1315363987,
+     "V_A_1jan2027": 290175.9745649306
+    },
+    "nov15": {
+     "V0_spot": 289003.4475428889,
+     "V_A_1jan2027": 292303.3063606077
+    }
+   },
+   "ii_days365_short_nodes": {
+    "exact": {
+     "V0_spot": 286900.1315363987,
+     "V_A_1jan2027": 290087.4793567556
+    },
+    "nov15": {
+     "V0_spot": 289003.4475428889,
+     "V_A_1jan2027": 292214.1623782866
+    }
+   },
+   "iii_pchip": {
+    "exact": {
+     "V0_spot": 286534.59876796143,
+     "V_A_1jan2027": 289804.0160583368
+    },
+    "nov15": {
+     "V0_spot": 288667.10355953535,
+     "V_A_1jan2027": 291960.8531576577
+    }
+   },
+   "iv_zero_linear": {
+    "exact": {
+     "V0_spot": 287024.0007490276,
+     "V_A_1jan2027": 290299.00221424864
+    },
+    "nov15": {
+     "V0_spot": 289125.1120026789,
+     "V_A_1jan2027": 292424.0875690773
+    }
+   }
+  }
+ },
+ "B": {
+  "accrued": {
+   "T 4.750% 15-Feb-2037": {
+    "recorded": 0.56,
+    "model": 0.5679347826086957,
+    "prev_coupon": "2026-08-15",
+    "next_coupon": "2027-02-15",
+    "days_accrued": 44,
+    "days_period": 184,
+    "clean": 97.152
+   },
+   "T 4.500% 15-May-2038": {
+    "recorded": 0.53,
+    "model": 1.6630434782608696,
+    "prev_coupon": "2026-05-15",
+    "next_coupon": "2026-11-15",
+    "days_accrued": 136,
+    "days_period": 184,
+    "clean": 94.281
+   },
+   "T 4.375% 15-Nov-2039": {
+    "recorded": 1.606,
+    "model": 1.6168478260869565,
+    "prev_coupon": "2026-05-15",
+    "next_coupon": "2026-11-15",
+    "days_accrued": 136,
+    "days_period": 184,
+    "clean": 91.363
+   },
+   "T 4.250% 15-Nov-2040": {
+    "recorded": 1.572,
+    "model": 1.5706521739130435,
+    "prev_coupon": "2026-05-15",
+    "next_coupon": "2026-11-15",
+    "days_accrued": 136,
+    "days_period": 184,
+    "clean": 89.186
+   },
+   "T 3.125% 15-Nov-2041": {
+    "recorded": 1.156,
+    "model": 1.1548913043478262,
+    "prev_coupon": "2026-05-15",
+    "next_coupon": "2026-11-15",
+    "days_accrued": 136,
+    "days_period": 184,
+    "clean": 76.367
+   }
+  },
+  "portfolio": {
+   "sheet_as_read": {
+    "rows": [
+     {
+      "ticker": "IBTM",
+      "quantity": 4486.0,
+      "price": 21.75,
+      "value": 97570.5,
+      "commission": 25.0,
+      "cost": 97595.5,
+      "weight": 0.325235
+     },
+     {
+      "ticker": "IBTO",
+      "quantity": 1016.0,
+      "price": 23.01,
+      "value": 23378.16,
+      "commission": 25.0,
+      "cost": 23403.16,
+      "weight": 0.0779272
+     },
+     {
+      "ticker": "IBTP",
+      "quantity": 921.0,
+      "price": 24.07,
+      "value": 22168.47,
+      "commission": 25.0,
+      "cost": 22193.47,
+      "weight": 0.0738949
+     },
+     {
+      "ticker": "IBTQ",
+      "quantity": 886.0,
+      "price": 23.67,
+      "value": 20971.620000000003,
+      "commission": 25.0,
+      "cost": 20996.620000000003,
+      "weight": 0.0699054
+     },
+     {
+      "ticker": "IBTR",
+      "quantity": 846.0,
+      "price": 23.45,
+      "value": 19838.7,
+      "commission": 25.0,
+      "cost": 19863.7,
+      "weight": 0.06612900000000001
+     },
+     {
+      "ticker": "T 4.750% 15-Feb-2037",
+      "quantity": 20000.0,
+      "price": 97.712,
+      "value": 19542.4,
+      "commission": 10.0,
+      "cost": 19552.4,
+      "weight": 0.06514133333333334
+     },
+     {
+      "ticker": "T 4.500% 15-May-2038",
+      "quantity": 19000.0,
+      "price": 94.811,
+      "value": 18014.090000000004,
+      "commission": 10.0,
+      "cost": 18024.090000000004,
+      "weight": 0.06004696666666668
+     },
+     {
+      "ticker": "T 4.375% 15-Nov-2039",
+      "quantity": 18000.0,
+      "price": 92.969,
+      "value": 16734.42,
+      "commission": 10.0,
+      "cost": 16744.42,
+      "weight": 0.055781399999999995
+     },
+     {
+      "ticker": "T 4.250% 15-Nov-2040",
+      "quantity": 17000.0,
+      "price": 90.758,
+      "value": 15428.86,
+      "commission": 10.0,
+      "cost": 15438.86,
+      "weight": 0.05142953333333333
+     },
+     {
+      "ticker": "T 3.125% 15-Nov-2041",
+      "quantity": 19000.0,
+      "price": 77.523,
+      "value": 14729.37,
+      "commission": 10.0,
+      "cost": 14739.37,
+      "weight": 0.0490979
+     },
+     {
+      "ticker": "VT",
+      "quantity": 164.0,
+      "price": 158.54,
+      "value": 26000.559999999998,
+      "commission": 25.0,
+      "cost": 26025.559999999998,
+      "weight": 0.08666853333333333
+     }
+    ],
+    "value": 294377.14999999997,
+    "commissions": 200.0,
+    "cost": 294577.14999999997,
+    "cash_left": 5422.850000000035
+   },
+   "close_0928": {
+    "rows": [
+     {
+      "ticker": "IBTM",
+      "quantity": 4486.0,
+      "price": 21.76,
+      "value": 97615.36,
+      "commission": 25.0,
+      "cost": 97640.36,
+      "weight": 0.32538453333333334
+     },
+     {
+      "ticker": "IBTO",
+      "quantity": 1016.0,
+      "price": 23.02,
+      "value": 23388.32,
+      "commission": 25.0,
+      "cost": 23413.32,
+      "weight": 0.07796106666666666
+     },
+     {
+      "ticker": "IBTP",
+      "quantity": 921.0,
+      "price": 24.1,
+      "value": 22196.100000000002,
+      "commission": 25.0,
+      "cost": 22221.100000000002,
+      "weight": 0.07398700000000001
+     },
+     {
+      "ticker": "IBTQ",
+      "quantity": 886.0,
+      "price": 23.7,
+      "value": 20998.2,
+      "commission": 25.0,
+      "cost": 21023.2,
+      "weight": 0.069994
+     },
+     {
+      "ticker": "IBTR",
+      "quantity": 846.0,
+      "price": 23.49,
+      "value": 19872.539999999997,
+      "commission": 25.0,
+      "cost": 19897.539999999997,
+      "weight": 0.06624179999999999
+     },
+     {
+      "ticker": "T 4.750% 15-Feb-2037",
+      "quantity": 20000.0,
+      "price": 97.712,
+      "value": 19542.4,
+      "commission": 10.0,
+      "cost": 19552.4,
+      "weight": 0.06514133333333334
+     },
+     {
+      "ticker": "T 4.500% 15-May-2038",
+      "quantity": 19000.0,
+      "price": 94.811,
+      "value": 18014.090000000004,
+      "commission": 10.0,
+      "cost": 18024.090000000004,
+      "weight": 0.06004696666666668
+     },
+     {
+      "ticker": "T 4.375% 15-Nov-2039",
+      "quantity": 18000.0,
+      "price": 92.969,
+      "value": 16734.42,
+      "commission": 10.0,
+      "cost": 16744.42,
+      "weight": 0.055781399999999995
+     },
+     {
+      "ticker": "T 4.250% 15-Nov-2040",
+      "quantity": 17000.0,
+      "price": 90.75800000000001,
+      "value": 15428.860000000002,
+      "commission": 10.0,
+      "cost": 15438.860000000002,
+      "weight": 0.05142953333333334
+     },
+     {
+      "ticker": "T 3.125% 15-Nov-2041",
+      "quantity": 19000.0,
+      "price": 77.52300000000001,
+      "value": 14729.370000000003,
+      "commission": 10.0,
+      "cost": 14739.370000000003,
+      "weight": 0.04909790000000001
+     },
+     {
+      "ticker": "VT",
+      "quantity": 164.0,
+      "price": 158.81,
+      "value": 26044.84,
+      "commission": 25.0,
+      "cost": 26069.84,
+      "weight": 0.08681613333333334
+     }
+    ],
+    "value": 294564.50000000006,
+    "commissions": 200.0,
+    "cost": 294764.50000000006,
+    "cash_left": 5235.499999999942
+   },
+   "close_0928_model_accrued": {
+    "rows": [
+     {
+      "ticker": "IBTM",
+      "quantity": 4486.0,
+      "price": 21.76,
+      "value": 97615.36,
+      "commission": 25.0,
+      "cost": 97640.36,
+      "weight": 0.32538453333333334
+     },
+     {
+      "ticker": "IBTO",
+      "quantity": 1016.0,
+      "price": 23.02,
+      "value": 23388.32,
+      "commission": 25.0,
+      "cost": 23413.32,
+      "weight": 0.07796106666666666
+     },
+     {
+      "ticker": "IBTP",
+      "quantity": 921.0,
+      "price": 24.1,
+      "value": 22196.100000000002,
+      "commission": 25.0,
+      "cost": 22221.100000000002,
+      "weight": 0.07398700000000001
+     },
+     {
+      "ticker": "IBTQ",
+      "quantity": 886.0,
+      "price": 23.7,
+      "value": 20998.2,
+      "commission": 25.0,
+      "cost": 21023.2,
+      "weight": 0.069994
+     },
+     {
+      "ticker": "IBTR",
+      "quantity": 846.0,
+      "price": 23.49,
+      "value": 19872.539999999997,
+      "commission": 25.0,
+      "cost": 19897.539999999997,
+      "weight": 0.06624179999999999
+     },
+     {
+      "ticker": "T 4.750% 15-Feb-2037",
+      "quantity": 20000.0,
+      "price": 97.7199347826087,
+      "value": 19543.98695652174,
+      "commission": 10.0,
+      "cost": 19553.98695652174,
+      "weight": 0.0651466231884058
+     },
+     {
+      "ticker": "T 4.500% 15-May-2038",
+      "quantity": 19000.0,
+      "price": 95.94404347826088,
+      "value": 18229.368260869567,
+      "commission": 10.0,
+      "cost": 18239.368260869567,
+      "weight": 0.06076456086956522
+     },
+     {
+      "ticker": "T 4.375% 15-Nov-2039",
+      "quantity": 18000.0,
+      "price": 92.97984782608695,
+      "value": 16736.372608695652,
+      "commission": 10.0,
+      "cost": 16746.372608695652,
+      "weight": 0.05578790869565217
+     },
+     {
+      "ticker": "T 4.250% 15-Nov-2040",
+      "quantity": 17000.0,
+      "price": 90.75665217391305,
+      "value": 15428.630869565219,
+      "commission": 10.0,
+      "cost": 15438.630869565219,
+      "weight": 0.05142876956521739
+     },
+     {
+      "ticker": "T 3.125% 15-Nov-2041",
+      "quantity": 19000.0,
+      "price": 77.52189130434783,
+      "value": 14729.15934782609,
+      "commission": 10.0,
+      "cost": 14739.15934782609,
+      "weight": 0.049097197826086965
+     },
+     {
+      "ticker": "VT",
+      "quantity": 164.0,
+      "price": 158.81,
+      "value": 26044.84,
+      "commission": 25.0,
+      "cost": 26069.84,
+      "weight": 0.08681613333333334
+     }
+    ],
+    "value": 294782.8780434783,
+    "commissions": 200.0,
+    "cost": 294982.8780434783,
+    "cash_left": 5017.121956521703
+   }
+  },
+  "bookL": {
+   "sheet_as_read": {
+    "rows": [
+     {
+      "ticker": "IBTM",
+      "quantity": 1678.0,
+      "price": 21.75,
+      "value": 36496.5,
+      "commission": 25.0,
+      "cost": 36521.5,
+      "weight": 0.121655
+     },
+     {
+      "ticker": "IBTO",
+      "quantity": 1503.0,
+      "price": 23.01,
+      "value": 34584.03,
+      "commission": 25.0,
+      "cost": 34609.03,
+      "weight": 0.1152801
+     },
+     {
+      "ticker": "IBTP",
+      "quantity": 1362.0,
+      "price": 24.07,
+      "value": 32783.340000000004,
+      "commission": 25.0,
+      "cost": 32808.340000000004,
+      "weight": 0.10927780000000001
+     },
+     {
+      "ticker": "IBTQ",
+      "quantity": 1311.0,
+      "price": 23.67,
+      "value": 31031.370000000003,
+      "commission": 25.0,
+      "cost": 31056.370000000003,
+      "weight": 0.10343790000000001
+     },
+     {
+      "ticker": "IBTR",
+      "quantity": 1252.0,
+      "price": 23.45,
+      "value": 29359.399999999998,
+      "commission": 25.0,
+      "cost": 29384.399999999998,
+      "weight": 0.09786466666666666
+     },
+     {
+      "ticker": "T 4.750% 15-Feb-2037",
+      "quantity": 30000.0,
+      "price": 97.712,
+      "value": 29313.6,
+      "commission": 10.0,
+      "cost": 29323.6,
+      "weight": 0.097712
+     },
+     {
+      "ticker": "T 4.500% 15-May-2038",
+      "quantity": 29000.0,
+      "price": 94.811,
+      "value": 27495.19,
+      "commission": 10.0,
+      "cost": 27505.19,
+      "weight": 0.09165063333333333
+     },
+     {
+      "ticker": "T 4.375% 15-Nov-2039",
+      "quantity": 27000.0,
+      "price": 92.969,
+      "value": 25101.63,
+      "commission": 10.0,
+      "cost": 25111.63,
+      "weight": 0.0836721
+     },
+     {
+      "ticker": "T 4.250% 15-Nov-2040",
+      "quantity": 26000.0,
+      "price": 90.758,
+      "value": 23597.08,
+      "commission": 10.0,
+      "cost": 23607.08,
+      "weight": 0.07865693333333335
+     },
+     {
+      "ticker": "T 3.125% 15-Nov-2041",
+      "quantity": 29000.0,
+      "price": 77.523,
+      "value": 22481.67,
+      "commission": 10.0,
+      "cost": 22491.67,
+      "weight": 0.07493889999999999
+     }
+    ],
+    "value": 292243.81,
+    "commissions": 175.0,
+    "cost": 292418.81,
+    "cash_left": 7581.190000000002
+   },
+   "close_0928": {
+    "rows": [
+     {
+      "ticker": "IBTM",
+      "quantity": 1678.0,
+      "price": 21.76,
+      "value": 36513.280000000006,
+      "commission": 25.0,
+      "cost": 36538.280000000006,
+      "weight": 0.12171093333333335
+     },
+     {
+      "ticker": "IBTO",
+      "quantity": 1503.0,
+      "price": 23.02,
+      "value": 34599.06,
+      "commission": 25.0,
+      "cost": 34624.06,
+      "weight": 0.1153302
+     },
+     {
+      "ticker": "IBTP",
+      "quantity": 1362.0,
+      "price": 24.1,
+      "value": 32824.200000000004,
+      "commission": 25.0,
+      "cost": 32849.200000000004,
+      "weight": 0.10941400000000001
+     },
+     {
+      "ticker": "IBTQ",
+      "quantity": 1311.0,
+      "price": 23.7,
+      "value": 31070.7,
+      "commission": 25.0,
+      "cost": 31095.7,
+      "weight": 0.10356900000000001
+     },
+     {
+      "ticker": "IBTR",
+      "quantity": 1252.0,
+      "price": 23.49,
+      "value": 29409.48,
+      "commission": 25.0,
+      "cost": 29434.48,
+      "weight": 0.0980316
+     },
+     {
+      "ticker": "T 4.750% 15-Feb-2037",
+      "quantity": 30000.0,
+      "price": 97.712,
+      "value": 29313.6,
+      "commission": 10.0,
+      "cost": 29323.6,
+      "weight": 0.097712
+     },
+     {
+      "ticker": "T 4.500% 15-May-2038",
+      "quantity": 29000.0,
+      "price": 94.811,
+      "value": 27495.19,
+      "commission": 10.0,
+      "cost": 27505.19,
+      "weight": 0.09165063333333333
+     },
+     {
+      "ticker": "T 4.375% 15-Nov-2039",
+      "quantity": 27000.0,
+      "price": 92.969,
+      "value": 25101.63,
+      "commission": 10.0,
+      "cost": 25111.63,
+      "weight": 0.0836721
+     },
+     {
+      "ticker": "T 4.250% 15-Nov-2040",
+      "quantity": 26000.0,
+      "price": 90.75800000000001,
+      "value": 23597.080000000005,
+      "commission": 10.0,
+      "cost": 23607.080000000005,
+      "weight": 0.07865693333333335
+     },
+     {
+      "ticker": "T 3.125% 15-Nov-2041",
+      "quantity": 29000.0,
+      "price": 77.52300000000001,
+      "value": 22481.670000000006,
+      "commission": 10.0,
+      "cost": 22491.670000000006,
+      "weight": 0.07493890000000002
+     }
+    ],
+    "value": 292405.89,
+    "commissions": 175.0,
+    "cost": 292580.89,
+    "cash_left": 7419.109999999986
+   },
+   "close_0928_model_accrued": {
+    "rows": [
+     {
+      "ticker": "IBTM",
+      "quantity": 1678.0,
+      "price": 21.76,
+      "value": 36513.280000000006,
+      "commission": 25.0,
+      "cost": 36538.280000000006,
+      "weight": 0.12171093333333335
+     },
+     {
+      "ticker": "IBTO",
+      "quantity": 1503.0,
+      "price": 23.02,
+      "value": 34599.06,
+      "commission": 25.0,
+      "cost": 34624.06,
+      "weight": 0.1153302
+     },
+     {
+      "ticker": "IBTP",
+      "quantity": 1362.0,
+      "price": 24.1,
+      "value": 32824.200000000004,
+      "commission": 25.0,
+      "cost": 32849.200000000004,
+      "weight": 0.10941400000000001
+     },
+     {
+      "ticker": "IBTQ",
+      "quantity": 1311.0,
+      "price": 23.7,
+      "value": 31070.7,
+      "commission": 25.0,
+      "cost": 31095.7,
+      "weight": 0.10356900000000001
+     },
+     {
+      "ticker": "IBTR",
+      "quantity": 1252.0,
+      "price": 23.49,
+      "value": 29409.48,
+      "commission": 25.0,
+      "cost": 29434.48,
+      "weight": 0.0980316
+     },
+     {
+      "ticker": "T 4.750% 15-Feb-2037",
+      "quantity": 30000.0,
+      "price": 97.7199347826087,
+      "value": 29315.980434782614,
+      "commission": 10.0,
+      "cost": 29325.980434782614,
+      "weight": 0.09771993478260871
+     },
+     {
+      "ticker": "T 4.500% 15-May-2038",
+      "quantity": 29000.0,
+      "price": 95.94404347826088,
+      "value": 27823.772608695654,
+      "commission": 10.0,
+      "cost": 27833.772608695654,
+      "weight": 0.09274590869565218
+     },
+     {
+      "ticker": "T 4.375% 15-Nov-2039",
+      "quantity": 27000.0,
+      "price": 92.97984782608695,
+      "value": 25104.55891304348,
+      "commission": 10.0,
+      "cost": 25114.55891304348,
+      "weight": 0.08368186304347826
+     },
+     {
+      "ticker": "T 4.250% 15-Nov-2040",
+      "quantity": 26000.0,
+      "price": 90.75665217391305,
+      "value": 23596.729565217393,
+      "commission": 10.0,
+      "cost": 23606.729565217393,
+      "weight": 0.0786557652173913
+     },
+     {
+      "ticker": "T 3.125% 15-Nov-2041",
+      "quantity": 29000.0,
+      "price": 77.52189130434783,
+      "value": 22481.34847826087,
+      "commission": 10.0,
+      "cost": 22491.34847826087,
+      "weight": 0.07493782826086956
+     }
+    ],
+    "value": 292739.11000000004,
+    "commissions": 175.0,
+    "cost": 292914.11000000004,
+    "cash_left": 7085.889999999956
+   }
+  },
+  "B4_sizing_check": {
+   "sheet_as_read": {
+    "bookL": {
+     "IBTM": {
+      "df_end": 0.7298254598075581,
+      "target": 36491.2729903779,
+      "size": 1678,
+      "sheet_size": 1678.0,
+      "match": true,
+      "value": 36496.5
+     },
+     "IBTO": {
+      "df_end": 0.6915093252903198,
+      "target": 34575.46626451599,
+      "size": 1503,
+      "sheet_size": 1503.0,
+      "match": true,
+      "value": 34584.03
+     },
+     "IBTP": {
+      "df_end": 0.6552884191993806,
+      "target": 32764.420959969033,
+      "size": 1362,
+      "sheet_size": 1362.0,
+      "match": true,
+      "value": 32783.340000000004
+     },
+     "IBTQ": {
+      "df_end": 0.6205014159247741,
+      "target": 31025.070796238706,
+      "size": 1311,
+      "sheet_size": 1311.0,
+      "match": true,
+      "value": 31031.370000000003
+     },
+     "IBTR": {
+      "df_end": 0.586914118113468,
+      "target": 29345.705905673403,
+      "size": 1252,
+      "sheet_size": 1252.0,
+      "match": true,
+      "value": 29359.399999999998
+     },
+     "T 4.750% 15-Feb-2037": {
+      "df_end": 0.5813022299967963,
+      "target": 29065.11149983981,
+      "size": 30000,
+      "sheet_size": 30000.0,
+      "match": true,
+      "value": 29313.6
+     },
+     "T 4.500% 15-May-2038": {
+      "df_end": 0.5413057040132485,
+      "target": 27065.285200662427,
+      "size": 29000,
+      "sheet_size": 29000.0,
+      "match": true,
+      "value": 27495.19
+     },
+     "T 4.375% 15-Nov-2039": {
+      "df_end": 0.495539666772506,
+      "target": 24776.9833386253,
+      "size": 27000,
+      "sheet_size": 27000.0,
+      "match": true,
+      "value": 25101.63
+     },
+     "T 4.250% 15-Nov-2040": {
+      "df_end": 0.4665579218074913,
+      "target": 23327.896090374565,
+      "size": 26000,
+      "sheet_size": 26000.0,
+      "match": true,
+      "value": 23597.08
+     },
+     "T 3.125% 15-Nov-2041": {
+      "df_end": 0.4388352624637207,
+      "target": 21941.763123186032,
+      "size": 29000,
+      "sheet_size": 29000.0,
+      "match": true,
+      "value": 22481.67
+     }
+    },
+    "bookL_value_sum": 292243.81,
+    "portfolio": {
+     "IBTM": {
+      "target": 97589.51540838453,
+      "size": 4486,
+      "sheet_size": 4486.0,
+      "match": true
+     },
+     "IBTO": {
+      "target": 23395.748676421925,
+      "size": 1016,
+      "sheet_size": 1016.0,
+      "match": true
+     },
+     "IBTP": {
+      "target": 22177.5999909117,
+      "size": 921,
+      "sheet_size": 921.0,
+      "match": true
+     },
+     "IBTQ": {
+      "target": 20992.40989569634,
+      "size": 886,
+      "sheet_size": 886.0,
+      "match": true
+     },
+     "IBTR": {
+      "target": 19861.338996367453,
+      "size": 846,
+      "sheet_size": 846.0,
+      "match": true
+     },
+     "T 4.750% 15-Feb-2037": {
+      "target": 19830.355756722445,
+      "size": 20000,
+      "sheet_size": 20000.0,
+      "match": true
+     },
+     "T 4.500% 15-May-2038": {
+      "target": 18600.219669323364,
+      "size": 19000,
+      "sheet_size": 19000.0,
+      "match": true
+     },
+     "T 4.375% 15-Nov-2039": {
+      "target": 16981.000387997952,
+      "size": 18000,
+      "sheet_size": 18000.0,
+      "match": true
+     },
+     "T 4.250% 15-Nov-2040": {
+      "target": 15963.18743586049,
+      "size": 17000,
+      "sheet_size": 17000.0,
+      "match": true
+     },
+     "T 3.125% 15-Nov-2041": {
+      "target": 15208.623782313816,
+      "size": 19000,
+      "sheet_size": 19000.0,
+      "match": true
+     },
+     "VT": {
+      "target": 26100.0,
+      "size": 164,
+      "sheet_size": 164.0,
+      "match": true
+     }
+    }
+   },
+   "close_0928": {
+    "bookL": {
+     "IBTM": {
+      "df_end": 0.7298254598075581,
+      "target": 36491.2729903779,
+      "size": 1677,
+      "sheet_size": 1678.0,
+      "match": false,
+      "value": 36491.520000000004
+     },
+     "IBTO": {
+      "df_end": 0.6915093252903198,
+      "target": 34575.46626451599,
+      "size": 1502,
+      "sheet_size": 1503.0,
+      "match": false,
+      "value": 34576.04
+     },
+     "IBTP": {
+      "df_end": 0.6552884191993806,
+      "target": 32764.420959969033,
+      "size": 1360,
+      "sheet_size": 1362.0,
+      "match": false,
+      "value": 32776.0
+     },
+     "IBTQ": {
+      "df_end": 0.6205014159247741,
+      "target": 31025.070796238706,
+      "size": 1310,
+      "sheet_size": 1311.0,
+      "match": false,
+      "value": 31047.0
+     },
+     "IBTR": {
+      "df_end": 0.586914118113468,
+      "target": 29345.705905673403,
+      "size": 1250,
+      "sheet_size": 1252.0,
+      "match": false,
+      "value": 29362.499999999996
+     },
+     "T 4.750% 15-Feb-2037": {
+      "df_end": 0.5813022299967963,
+      "target": 29065.11149983981,
+      "size": 30000,
+      "sheet_size": 30000.0,
+      "match": true,
+      "value": 29313.6
+     },
+     "T 4.500% 15-May-2038": {
+      "df_end": 0.5413057040132485,
+      "target": 27065.285200662427,
+      "size": 29000,
+      "sheet_size": 29000.0,
+      "match": true,
+      "value": 27495.19
+     },
+     "T 4.375% 15-Nov-2039": {
+      "df_end": 0.495539666772506,
+      "target": 24776.9833386253,
+      "size": 27000,
+      "sheet_size": 27000.0,
+      "match": true,
+      "value": 25101.63
+     },
+     "T 4.250% 15-Nov-2040": {
+      "df_end": 0.4665579218074913,
+      "target": 23327.896090374565,
+      "size": 26000,
+      "sheet_size": 26000.0,
+      "match": true,
+      "value": 23597.080000000005
+     },
+     "T 3.125% 15-Nov-2041": {
+      "df_end": 0.4388352624637207,
+      "target": 21941.763123186032,
+      "size": 29000,
+      "sheet_size": 29000.0,
+      "match": true,
+      "value": 22481.670000000006
+     }
+    },
+    "bookL_value_sum": 292242.23,
+    "portfolio": {
+     "IBTM": {
+      "target": 97586.27995344822,
+      "size": 4484,
+      "sheet_size": 4486.0,
+      "match": false
+     },
+     "IBTO": {
+      "target": 23390.46998101541,
+      "size": 1016,
+      "sheet_size": 1016.0,
+      "match": true
+     },
+     "IBTP": {
+      "target": 22172.754430459965,
+      "size": 920,
+      "sheet_size": 921.0,
+      "match": false
+     },
+     "IBTQ": {
+      "target": 21003.096985675205,
+      "size": 886,
+      "sheet_size": 886.0,
+      "match": true
+     },
+     "IBTR": {
+      "target": 19863.54350635772,
+      "size": 845,
+      "sheet_size": 846.0,
+      "match": false
+     },
+     "T 4.750% 15-Feb-2037": {
+      "target": 19830.462969024018,
+      "size": 20000,
+      "sheet_size": 20000.0,
+      "match": true
+     },
+     "T 4.500% 15-May-2038": {
+      "target": 18600.320230926245,
+      "size": 19000,
+      "sheet_size": 19000.0,
+      "match": true
+     },
+     "T 4.375% 15-Nov-2039": {
+      "target": 16981.09219533399,
+      "size": 18000,
+      "sheet_size": 18000.0,
+      "match": true
+     },
+     "T 4.250% 15-Nov-2040": {
+      "target": 15963.27374041733,
+      "size": 17000,
+      "sheet_size": 17000.0,
+      "match": true
+     },
+     "T 3.125% 15-Nov-2041": {
+      "target": 15208.706007341927,
+      "size": 19000,
+      "sheet_size": 19000.0,
+      "match": true
+     },
+     "VT": {
+      "target": 26100.0,
+      "size": 164,
+      "sheet_size": 164.0,
+      "match": true
+     }
+    }
+   }
+  },
+  "portfolio_sheet_values": {
+   "IBTM": 97590.0,
+   "IBTO": 23396.0,
+   "IBTP": 22178.0,
+   "IBTQ": 20992.0,
+   "IBTR": 19861.0,
+   "T 4.750% 15-Feb-2037": 19830.0,
+   "T 4.500% 15-May-2038": 18600.0,
+   "T 4.375% 15-Nov-2039": 16981.0,
+   "T 4.250% 15-Nov-2040": 15963.0,
+   "T 3.125% 15-Nov-2041": 15209.0,
+   "VT": 26100.0
+  },
+  "portfolio_status": {
+   "IBTM": "Listed in WInS; vote pending",
+   "IBTO": "Listed in WInS; vote pending",
+   "IBTP": "Listed in WInS; vote pending",
+   "IBTQ": "Listed in WInS; vote pending",
+   "IBTR": "Listed in WInS; vote pending",
+   "T 4.750% 15-Feb-2037": "Price checked (-8bp); vote pending",
+   "T 4.500% 15-May-2038": "Price checked (+6bp); vote pending",
+   "T 4.375% 15-Nov-2039": "Price checked (+13bp); vote pending",
+   "T 4.250% 15-Nov-2040": "Price checked (+14bp); vote pending",
+   "T 3.125% 15-Nov-2041": "Price checked (+15bp); vote pending",
+   "VT": "Listed in WInS; vote pending"
+  }
+ },
+ "C": {
+  "T 4.750% 15-Feb-2037": {
+   "coupon": 4.75,
+   "maturity": "2037-02-15",
+   "cusip": "912810PT9",
+   "clean_wins": 97.152,
+   "accrued_model": 0.5679347826086957,
+   "accrued_recorded": 0.56,
+   "dirty_wins_model_accrued": 97.7199347826087,
+   "dirty_model_curve": 96.53126140799208,
+   "clean_model_curve": 95.96332662538337,
+   "yield_wins_pct": 5.1061951839037265,
+   "yield_model_pct": 5.258885902113653,
+   "gap_bp": -15.269071820992671,
+   "yield_minus_par_at_maturity_bp": -14.765286537758785,
+   "par_at_maturity_pct": 5.253848049281315,
+   "flag_stale": false,
+   "in_book": true,
+   "yield_wins_recorded_accrued_pct": 5.107206926384354,
+   "gap_recorded_accrued_bp": -15.167897572929897
+  },
+  "T 4.500% 15-May-2038": {
+   "coupon": 4.5,
+   "maturity": "2038-05-15",
+   "cusip": "912810PX0",
+   "clean_wins": 94.281,
+   "accrued_model": 1.6630434782608696,
+   "accrued_recorded": 0.53,
+   "dirty_wins_model_accrued": 95.94404347826088,
+   "dirty_model_curve": 94.75036555744097,
+   "clean_model_curve": 93.0873220791801,
+   "yield_wins_pct": 5.159420727297683,
+   "yield_model_pct": 5.303330375112758,
+   "gap_bp": -14.39096478150749,
+   "yield_minus_par_at_maturity_bp": -13.917475524851813,
+   "par_at_maturity_pct": 5.298595482546201,
+   "flag_stale": false,
+   "in_book": true,
+   "yield_wins_recorded_accrued_pct": 5.295966071147325,
+   "gap_recorded_accrued_bp": -0.7364303965432667
+  },
+  "T 4.375% 15-Nov-2039": {
+   "coupon": 4.375,
+   "maturity": "2039-11-15",
+   "cusip": "912810QD3",
+   "clean_wins": 91.363,
+   "accrued_model": 1.6168478260869565,
+   "accrued_recorded": 1.606,
+   "dirty_wins_model_accrued": 92.97984782608695,
+   "dirty_model_curve": 92.39616381400897,
+   "clean_model_curve": 90.77931598792202,
+   "yield_wins_pct": 5.295506580291548,
+   "yield_model_pct": 5.361591744732527,
+   "gap_bp": -6.608516444097933,
+   "yield_minus_par_at_maturity_bp": -5.719978521153204,
+   "par_at_maturity_pct": 5.35270636550308,
+   "flag_stale": false,
+   "in_book": true,
+   "yield_wins_recorded_accrued_pct": 5.29673000925956,
+   "gap_recorded_accrued_bp": -6.486173547296664
+  },
+  "T 4.250% 15-Nov-2040": {
+   "coupon": 4.25,
+   "maturity": "2040-11-15",
+   "cusip": "912810QL5",
+   "clean_wins": 89.186,
+   "accrued_model": 1.5706521739130435,
+   "accrued_recorded": 1.572,
+   "dirty_wins_model_accrued": 90.75665217391305,
+   "dirty_model_curve": 90.28744042184499,
+   "clean_model_curve": 88.71678824793194,
+   "yield_wins_pct": 5.349840608988774,
+   "yield_model_pct": 5.401290471292595,
+   "gap_bp": -5.144986230382134,
+   "yield_minus_par_at_maturity_bp": -3.893967848555904,
+   "par_at_maturity_pct": 5.388780287474333,
+   "flag_stale": false,
+   "in_book": true,
+   "yield_wins_recorded_accrued_pct": 5.349693304561315,
+   "gap_recorded_accrued_bp": -5.159716673127993
+  },
+  "T 3.125% 15-Nov-2041": {
+   "coupon": 3.125,
+   "maturity": "2041-11-15",
+   "cusip": "912810QT8",
+   "clean_wins": 76.367,
+   "accrued_model": 1.1548913043478262,
+   "accrued_recorded": 1.156,
+   "dirty_wins_model_accrued": 77.52189130434783,
+   "dirty_model_curve": 77.35859060232389,
+   "clean_model_curve": 76.20369929797606,
+   "yield_wins_pct": 5.435966597672828,
+   "yield_model_pct": 5.454847717608027,
+   "gap_bp": -1.888111993519903,
+   "yield_minus_par_at_maturity_bp": 1.1210950855580077,
+   "par_at_maturity_pct": 5.424755646817248,
+   "flag_stale": false,
+   "in_book": true,
+   "yield_wins_recorded_accrued_pct": 5.435838577239274,
+   "gap_recorded_accrued_bp": -1.9009140368753812
+  },
+  "T 4.500% 15-Feb-2036": {
+   "coupon": 4.5,
+   "maturity": "2036-02-15",
+   "cusip": "912810FT0",
+   "clean_wins": 102.95,
+   "accrued_model": 0.5380434782608695,
+   "accrued_recorded": null,
+   "dirty_wins_model_accrued": 103.48804347826088,
+   "dirty_model_curve": 95.20001274264622,
+   "clean_model_curve": 94.66196926438535,
+   "yield_wins_pct": 4.117162112411227,
+   "yield_model_pct": 5.2264486600375335,
+   "gap_bp": -110.92865476263057,
+   "yield_minus_par_at_maturity_bp": -110.4316327013824,
+   "par_at_maturity_pct": 5.221478439425051,
+   "flag_stale": true,
+   "in_book": false,
+   "yield_if_price_is_dirty_pct": 4.185899691372623,
+   "gap_if_price_is_dirty_bp": -104.05489686649095
+  },
+  "T 4.375% 15-Feb-2038": {
+   "coupon": 4.375,
+   "maturity": "2038-02-15",
+   "cusip": "912810PW2",
+   "clean_wins": 99.98,
+   "accrued_model": 0.5230978260869565,
+   "accrued_recorded": null,
+   "dirty_wins_model_accrued": 100.50309782608696,
+   "dirty_model_curve": 92.70564591707333,
+   "clean_model_curve": 92.18254809098637,
+   "yield_wins_pct": 4.376766292538896,
+   "yield_model_pct": 5.2978620254012325,
+   "gap_bp": -92.10957328623357,
+   "yield_minus_par_at_maturity_bp": -91.30571160853334,
+   "par_at_maturity_pct": 5.28982340862423,
+   "flag_stale": true,
+   "in_book": false,
+   "yield_if_price_is_dirty_pct": 4.435801203730602,
+   "gap_if_price_is_dirty_bp": -86.206082167063
+  }
+ },
+ "F": {
+  "y1_pct": 4.59,
+  "y5_pct": 5.06,
+  "exact": {
+   "leftover_1jan2027": 9708.618093379075,
+   "ladder_2jan2028": 304295.3203172015,
+   "growth_money_G": 160154.24366386517,
+   "floor": 117193.70292700024,
+   "stock_fund": 42960.54073686493,
+   "total": 464449.5639810667,
+   "share_ladder": 0.6551740897524152,
+   "share_floor": 0.2523281579219604,
+   "share_fund": 0.09249775232562436
+  },
+  "nov15": {
+   "leftover_1jan2027": 7581.888199257432,
+   "ladder_2jan2028": 306524.6457284812,
+   "growth_money_G": 157929.89686760335,
+   "floor": 117193.70292700024,
+   "stock_fund": 40736.193940603116,
+   "total": 464454.54259608453,
+   "share_ladder": 0.6599669453444275,
+   "share_floor": 0.25232545314756105,
+   "share_fund": 0.08770760150801146
+  }
+ },
+ "G": {
+  "n_days": 9191,
+  "first": "1990-01-02",
+  "last": "2026-09-28",
+  "V0_exact": {
+   "value_on_D_from_history_row": 287016.4664097238,
+   "value_on_D_sectionA": 287016.4664097238,
+   "2020_median": 457975.71356762684,
+   "2020_min": 406898.3812274174,
+   "2020_max": 469596.697301717,
+   "2020_max_date": "2020-08-04",
+   "all_time_max": 469596.697301717,
+   "all_time_max_date": "2020-08-04",
+   "cheapest_since_last_date_at_or_below_D": "2002-05-28"
+  },
+  "V_A_exact": {
+   "value_on_D_from_history_row": 290291.3819066209,
+   "value_on_D_sectionA": 290291.3819066209,
+   "2020_median": 458106.7256113934,
+   "2020_min": 408556.8354848459,
+   "2020_max": 469731.0337331847,
+   "2020_max_date": "2020-08-04",
+   "all_time_max": 469731.0337331847,
+   "all_time_max_date": "2020-08-04",
+   "cheapest_since_last_date_at_or_below_D": "2002-06-10",
+   "share_days_le_300k_since_1990": 0.34163855946034166,
+   "share_days_le_300k_since_2000": 0.10855263157894737,
+   "deposit_check_days_unfunded": 183,
+   "deposit_check_share_unfunded": 0.01991078228701991,
+   "deposit_check_max_unfunded": 19934.880198081955,
+   "deposit_check_max_unfunded_date": "2020-08-04"
+  },
+  "V0_nov15": {
+   "value_on_D_from_history_row": 289119.2036498361,
+   "value_on_D_sectionA": 289119.2036498361,
+   "2020_median": 458828.0638911932,
+   "2020_min": 408089.49884747673,
+   "2020_max": 470249.2705687235,
+   "2020_max_date": "2020-08-04",
+   "all_time_max": 470249.2705687235,
+   "all_time_max_date": "2020-08-04",
+   "cheapest_since_last_date_at_or_below_D": "2002-05-28"
+  },
+  "V_A_nov15": {
+   "value_on_D_from_history_row": 292418.11180074257,
+   "value_on_D_sectionA": 292418.11180074257,
+   "2020_median": 458959.319764828,
+   "2020_min": 409752.8079143103,
+   "2020_max": 470383.793680303,
+   "2020_max_date": "2020-08-04",
+   "all_time_max": 470383.793680303,
+   "all_time_max_date": "2020-08-04",
+   "cheapest_since_last_date_at_or_below_D": "2002-06-10",
+   "share_days_le_300k_since_1990": 0.33271678816233274,
+   "share_days_le_300k_since_2000": 0.09763755980861244,
+   "deposit_check_days_unfunded": 197,
+   "deposit_check_share_unfunded": 0.021434011533021435,
+   "deposit_check_max_unfunded": 20587.640145200246,
+   "deposit_check_max_unfunded_date": "2020-08-04"
+  }
+ }
+}
