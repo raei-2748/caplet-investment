@@ -1,0 +1,13 @@
+row,P,detail
+"R1 D1 [6] 25 Sep: lognormal, forward centre, 2026 vol",0.3052,"{""base"": 294387.4397, ""vol"": 0.0716, ""t"": 0.2683, ""n_days"": 185}"
+R2 D1 [6] on 2026-09-28: same method,0.2421,"{""base"": 292418.1118, ""vol"": 0.0717, ""t"": 0.2601, ""n_days"": 186}"
+"R2e same, exact 1 Jan basis (not buyable)",0.187,"{""base"": 290291.3819, ""vol"": 0.0725, ""t"": 0.2601, ""n_days"": 186}"
+"R3 strategy_mc_v2 (a) 25 Sep: parallel shift sd 37bp, forward centre",0.3009,"{""breakeven_bp"": 19.3123}"
+R3' same on 2026-09-28,0.2395,"{""breakeven_bp"": 26.1963}"
+R4 AX1b [C]: 68-trading-day falls in FRED DGS10 >= X bp,,"{""detail"": {""insight_v1 file since 1962 >= 19bp"": 0.3179503105590062, ""insight_v1 file since 1962 >= 26bp"": 0.275527950310559, ""insight_v1 file since 1990 >= 19bp"": 0.36114461133647624, ""insight_v1 file since 1990 >= 26bp"": 0.3106019076855608, ""insight_v1 file since 2000 >= 19bp"": 0.34043517679057117, ""insight_v1 file since 2000 >= 26bp"": 0.28543366576004836, ""rab/data file since 1962 >= 19bp"": 0.3179305633190485, ""rab/data file since 1962 >= 26bp"": 0.27551083783615926, ""rab/data file since 1990 >= 19bp"": 0.3611050208287656, ""rab/data file since 1990 >= 26bp"": 0.3105678579258934, ""rab/data file since 2000 >= 19bp"": 0.3403837437679408, ""rab/data file since 2000 >= 26bp"": 0.2853905423780027}}"
+R5 R2 with the no-view centre (yields unchanged),0.2716,"{""base"": 293401.1355, ""vol"": 0.0717, ""t"": 0.2601, ""n_days"": 186}"
+R6 M2 headline: median of E1-E5 (no-view centre),0.3266,{}
+"waterfall: insight_v1 '1 in 3' basis (25 Sep curve, 19bp headroom)",0.3052,
+waterfall: curve moved up by 28 Sep (26bp headroom),0.2421,
+"waterfall: no view on rates: yields unchanged, not forwards",0.2716,
+waterfall: volatility and curve shape from five methods (M2 headline),0.3266,

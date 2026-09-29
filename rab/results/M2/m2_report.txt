@@ -1,0 +1,83 @@
+M2 rate paths (WS4, RAB Kit). AI-generated research (Claude Code) for Team Caplet. MODEL outputs.
+Run 2026-09-29 12:19 EDT = 2026-09-30 02:19 AEST. Seed 20260930.
+Reference curve D = 2026-09-28; purchase A = 2027-01-01 (h = 95 calendar days, n_h = 64 business days); second deposit B = 2028-01-01 (h2 = 460 days).
+Reference par curve (percent): 1 Mo 4.04, 2 Mo 4.20, 3 Mo 4.28, 6 Mo 4.41, 1 Yr 4.59, 2 Yr 4.92, 3 Yr 5.01, 5 Yr 5.06, 7 Yr 5.15, 10 Yr 5.24, 20 Yr 5.60, 30 Yr 5.56
+
+[S3] Vector curve equals M1 Curve (max |DF diff| 1.1e-16). Cost_FWD(R) = $292,418.11 (numbers.yaml laura.ladder.cost_2027_strips $292,418.11 on 28 Sep); Cost_RW(R) = $293,401.14 (yields unchanged on 2027-01-01; +$983)
+     Break-even parallel fall: FWD 26.20bp (numbers.yaml 26.2bp on 28 Sep); RW 22.78bp
+
+[S4] Panel 1962-01-02 .. 2026-09-28: 16,170 days (6,979 FRED before 1990-01-02, 9,191 Treasury). FRED vs Treasury 10y max |diff| 0.00pp over 9,190 common days.
+     Ladder yield today 5.329% (d ladder yield / d parallel par shift = 1.008). EWMA vol today 81bp/yr (5.12bp/day); panel average 101bp/yr; 2026 so far 71bp/yr.
+     15,855 overlapping 95-day windows (1963-01-03 .. 2026-06-25); 247 non-overlapping. Scale factor k_s median 0.99 (p5 0.45, p95 3.02).
+
+[E3] Vasicek on the ladder yield (statsmodels AutoReg, daily):
+     1962+: n 16,169; phi 0.999750 (se 0.000172) -> bias-corrected 0.999997; theta 6.19%; kappa 0.063/yr (bc 0.001); half-life 11.0y (bc 966.3y); sigma 101bp/yr; ADF p 0.420; drift to 2027-01-01 +1.4bp (bc +0.0bp); plug-in P  31.6% (bc  32.7%)
+     1990+: n 9,190; phi 0.999373 (se 0.000314) -> bias-corrected 0.999808; theta 3.91%; kappa 0.158/yr (bc 0.048); half-life 4.4y (bc 14.3y); sigma 92bp/yr; ADF p 0.192; drift to 2027-01-01 -5.6bp (bc -1.7bp); plug-in P  35.3% (bc  32.5%)
+     2000+: n 6,687; phi 0.998703 (se 0.000544) -> bias-corrected 0.999301; theta 3.29%; kappa 0.327/yr (bc 0.176); half-life 2.1y (bc 3.9y); sigma 93bp/yr; ADF p 0.161; drift to 2027-01-01 -16.2bp (bc -8.9bp); plug-in P  44.2% (bc  38.1%)
+     predictive (1962+, bc, parameter uncertainty):  32.7%; 49.4% of parameter draws are random walks; mean drift +0.2bp
+
+[E4] PCA of daily changes 1990+: level/slope/curve explain 78.3% / 12.4% / 5.1%. VAR(1) eigenvalue moduli 0.99457, 0.99896, 0.99896 (half-lives 0.5y, 2.7y, 2.7y)
+     forecast to 2027-01-01: mean 10y change -2.3bp, sd 45bp; P  32.2%; random-walk version  30.9%
+
+[E5] MOVE on 2026-09-28: 101.82. Realised ladder-yield vol / MOVE over 5,908 windows since 2002-11-12: median 0.990 (IQR 0.866-1.137). sigma to 2027-01-01: 50.8bp -> P  32.7% (MOVE as is:  32.8%)
+
+[S5] Five headline estimators (RW convention, Nov-15 basis, purchase 1 Jan 2027):
+     E1:  33.2% (90% block-bootstrap  29.8%- 36.7%) [FWD 30.8%]; spread of rates to 2027-01-01 (parallel-equivalent) sd 56bp, robust sd 48bp, mean -0.2bp; P(gap > $10k)  13.9%; mean gap if any $10,525; gap p95 $19,331; P(a whole payment waits) 0.27% - E1 history rescaled to today's volatility, 1962+
+     E2:  26.7% (90% block-bootstrap  21.6%- 33.2%) [FWD 24.9%]; spread of rates to 2027-01-01 (parallel-equivalent) sd 39bp, robust sd 38bp, mean -0.1bp; P(gap > $10k)   7.8%; mean gap if any $8,006; gap p95 $12,575; P(a whole payment waits) 0.04% - E2 history at similar yield levels (10y 4.0-6.5%), 1962+
+     E3:  32.7%; spread of rates to 2027-01-01 (parallel-equivalent) sd 51bp, robust sd 51bp, mean +0.1bp; P(gap > $10k)  13.5%; mean gap if any $10,128; gap p95 $18,572; P(a whole payment waits) 0.14% - E3 one-factor Vasicek AR(1) on the ladder yield, 1962+, bias-corrected, parameter uncertainty
+     E4:  32.2%; spread of rates to 2027-01-01 (parallel-equivalent) sd 45bp, robust sd 45bp, mean -2.1bp; P(gap > $10k)  11.4%; mean gap if any $8,802; gap p95 $16,022; P(a whole payment waits) 0.05% - E4 three-factor curve model (PCA + VAR(1)), 1990+
+     E5:  32.7% [FWD 30.3%]; spread of rates to 2027-01-01 (parallel-equivalent) sd 51bp, robust sd 51bp, mean +0.3bp; P(gap > $10k)  13.4%; mean gap if any $10,010; gap p95 $18,213; P(a whole payment waits) 0.14% - E5 options-market volatility (MOVE, calibrated to the ladder)
+     HEADLINE (median of five):  32.7% = about 1 in 3; range  26.7% -  33.2%
+     Sensitivities (not headline):
+        30.9%  [FWD  28.5%] (sd 46bp, mean +0.1bp) E4-RW same factors, no mean reversion (sensitivity)
+        32.8%  (sd 51bp, mean +0.3bp) E5 rho = 1 (MOVE as is)
+        30.4%  (sd 45bp, mean +0.3bp) E5 rho at its 25th pct
+        34.7%  (sd 58bp, mean +0.4bp) E5 rho at its 75th pct
+        32.1%  (sd 49bp, mean +0.3bp) E5 regression calibration (RV = 24.3 + 0.721 x MOVE)
+        27.4%  (sd 38bp, mean +0.2bp) E5 MOVE 63-day average (76.4) x rho
+        29.5%  [FWD  27.5%] (sd 58bp, mean +0.1bp) History 1962+, raw (no scaling, no demeaning)
+        29.7%  [FWD  27.6%] (sd 58bp, mean -0.1bp) History 1962+, demeaned, not rescaled
+        33.3%  [FWD  31.0%] (sd 46bp, mean -2.6bp) History 1990+, raw
+        31.2%  [FWD  29.1%] (sd 46bp, mean -0.0bp) History 1990+, demeaned
+        29.5%  [FWD  27.4%] (sd 44bp, mean +0.0bp) History 2000+, demeaned
+        30.7%  [FWD  27.4%] (sd 46bp, mean -0.1bp) History 2022+, demeaned
+        25.7%  [FWD  23.8%] (sd 39bp, mean +1.8bp) History similar-level, raw (not demeaned)
+        29.5%  [FWD  27.4%] (sd 56bp, mean +5.2bp) History 1962+ rescaled, not demeaned
+        33.7%  (sd 57bp, mean -0.7bp) E1 with purchase on Mon 4 Jan 2027 (98 days)
+
+[S7] Reconciliation with insight_v1's 'about 1 in 3'
+      30.5%  R1 D1 [6] 25 Sep: lognormal, forward centre, 2026 vol (base $294,387, vol 7.16%/yr, t 0.268y)
+      24.2%  R2 D1 [6] on 2026-09-28: same method (base $292,418, vol 7.17%/yr, t 0.260y)
+      18.7%  R2e same, exact 1 Jan basis (not buyable) (base $290,291, vol 7.25%/yr, t 0.260y)
+      30.1%  R3 strategy_mc_v2 (a) 25 Sep: parallel shift sd 37bp, forward centre (break-even 19.31bp)
+      23.9%  R3' same on 2026-09-28 (break-even 26.20bp)
+     R4 AX1b [C]: 68-trading-day falls in FRED DGS10 >= X bp:
+         insight_v1 file since 1962 >= 19bp: 31.8%
+         insight_v1 file since 1962 >= 26bp: 27.6%
+         insight_v1 file since 1990 >= 19bp: 36.1%
+         insight_v1 file since 1990 >= 26bp: 31.1%
+         insight_v1 file since 2000 >= 19bp: 34.0%
+         insight_v1 file since 2000 >= 26bp: 28.5%
+         rab/data file since 1962 >= 19bp: 31.8%
+         rab/data file since 1962 >= 26bp: 27.6%
+         rab/data file since 1990 >= 19bp: 36.1%
+         rab/data file since 1990 >= 26bp: 31.1%
+         rab/data file since 2000 >= 19bp: 34.0%
+         rab/data file since 2000 >= 26bp: 28.5%
+      27.2%  R5 R2 with the no-view centre (yields unchanged) (base $293,401, vol 7.17%/yr, t 0.260y)
+      32.7%  R6 M2 headline: median of E1-E5 (no-view centre)
+     Waterfall: insight_v1 '1 in 3' basis (25 Sep curve, 19bp headroom) 30.5% -> curve moved up by 28 Sep (26bp headroom) 24.2% -> no view on rates: yields unchanged, not forwards 27.2% -> volatility and curve shape from five methods (M2 headline) 32.7%
+
+[S8] Fifteen months: rate moves to 2027-01-01 and 2028-01-01 (history), longest-first top-up, floor and stock fund
+     check (FWD base, E6/M1 F method): stock fund $40,736 (numbers.yaml $40,736), floor $117,194 (numbers.yaml $117,194); RW base (yields unchanged to both dates): fund $39,708
+     H-FHS (rescaled to today's volatility, demeaned): 15,605 windows; stock fund p5/p50/p95 $1,410 / $37,908 / $77,268; P(fund < $20k) 20.0%; P(no fund) 4.2%; P(top-up) 33.4%; floor cost p5/p95 $100,454 / $131,950; floor below $150k in 4.2%
+     H-LVL (10y 4.0-6.5% at start, demeaned): 5,416 windows; stock fund p5/p50/p95 $10,339 / $40,968 / $64,356; P(fund < $20k) 12.3%; P(no fund) 0.8%; P(top-up) 27.2%; floor cost p5/p95 $107,689 / $129,691; floor below $150k in 0.8%
+     H-RAW (all windows, as history happened): 15,605 windows; stock fund p5/p50/p95 $1,596 / $41,366 / $70,945; P(fund < $20k) 16.8%; P(no fund) 4.5%; P(top-up) 29.8%; floor cost p5/p95 $105,020 / $131,805; floor below $150k in 4.5%
+
+[S8] Re-check of WS4-owned references on the 2026-09-28 curve (FWD convention, as D1/E6)
+     -50bp (5y unchanged ): gap $7,082; top-up Jan 2028 $7,388; floor cost $117,194; stock fund $25,419; floor face $150,000; H14 no deposit: $9,281 of the 2033 payment unfunded
+     -50bp (5y also lower): gap $7,082; top-up Jan 2028 $7,388; floor cost $120,023; stock fund $22,590; floor face $150,000
+     -100bp (5y unchanged ): gap $22,582; top-up Jan 2028 $23,440; floor cost $117,194; stock fund $9,366; floor face $150,000; H14 no deposit: $28,753 of the 2033 payment unfunded
+     -100bp (5y also lower): gap $22,582; top-up Jan 2028 $23,440; floor cost $122,934; stock fund $3,626; floor face $150,000
+     -150bp (5y unchanged ): gap $38,969; top-up Jan 2028 $40,252; floor cost $117,194; stock fund $0; floor face $140,469; H14 no deposit: $48,205 of the 2033 payment unfunded
+     -150bp (5y also lower): gap $38,969; top-up Jan 2028 $40,252; floor cost $125,931; stock fund $0; floor face $130,724

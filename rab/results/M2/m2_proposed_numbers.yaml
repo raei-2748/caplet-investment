@@ -1,0 +1,111 @@
+# Proposed numbers.yaml entries from M2 (WS4). WS1 is the only writer: WS0/WS1 review, then add with a
+# changelog line and a new lock hash. Nothing here is in numbers.yaml yet.
+# Generated 2026-09-29T12:19-04:00 (2026-09-30T02:19+10:00) by rab/models/m2_rate_paths.py
+proposed:
+  laura.rates.gap_odds_2027:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: '2027-01-01'
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
+    as_of: '2026-09-28'
+    value: 0.3266
+    unit: probability
+    quote_as: about 1 in 3 (MODEL; five methods give 25-35%)
+    method: rab/models/M2_SPEC.md s5 (median of E1-E5, no-view centre)
+    source: rab/models/m2_rate_paths.py -> rab/results/M2/m2_results.json headline
+    note: Chance the ten payments cost more than $300,000 on 1 Jan 2027. Replaces ref.H5 ('about 1 in 3', 25 Sep) and ref.H6
+      (24.2%, forward centre and 2026 volatility). Never in a WInS note.
+  laura.rates.gap_odds_2027_range:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: '2027-01-01'
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
+    as_of: '2026-09-28'
+    value:
+    - 0.2667
+    - 0.3316
+    unit: probability (min, max of E1-E5)
+    quote_as: between about 25% and 35% depending on the method
+    method: rab/models/M2_SPEC.md s5
+    source: m2_results.json headline.range
+  laura.rates.cost_2027_yields_unchanged:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: '2027-01-01'
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
+    as_of: '2026-09-28'
+    value: 293401.14
+    unit: USD
+    quote_as: about $293,000 if yields stay where they are
+    method: rab/models/M2_SPEC.md s3.2 (RW)
+    source: m2_results.json base.cost_rw
+    note: 'Higher than laura.ladder.cost_2027_strips (forward rates come true): each bond is 3 months shorter and rolls down
+      an upward-sloping curve.'
+  laura.rates.breakeven_fall_bp_yields_unchanged:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: '2027-01-01'
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
+    as_of: '2026-09-28'
+    value: 22.78
+    unit: basis points
+    quote_as: about 23bp
+    method: rab/models/M2_SPEC.md s3.2
+    source: m2_results.json base.breakeven_fall_bp_rw
+    note: Parallel fall of the par curve on the purchase day that makes the ladder cost $300,000.
+  laura.rates.gap_if_any_2027:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: '2027-01-01'
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
+    as_of: '2026-09-28'
+    value:
+      median_mean_gap_given_gap: 10010
+      median_gap_p95: 18213
+      max_P_whole_payment_waits: 0.00271
+    unit: USD (2027 dollars)
+    quote_as: if there is a shortfall it is typically about $10,000, paid from the 2028 deposit
+    method: rab/models/M2_SPEC.md s6 (medians over E1-E5)
+    source: m2_results.json headline
+  laura.rates.stock_fund_2028_range:
+    scale: laura_plan
+    status: MODEL
+    curve_date: '2026-09-28'
+    valuation_date: '2028-01-01'
+    maturity_convention: 15 Nov of the year before each payment (STRIPS maturity dates)
+    instrument_basis: zero-coupon ladder on the par-derived zero curve (D1 method); MODEL, no dealer mark-up
+    as_of: '2026-09-28'
+    value:
+      H-FHS:
+      - 1410
+      - 37908
+      - 77268
+      H-LVL:
+      - 10339
+      - 40968
+      - 64356
+      H-RAW:
+      - 1596
+      - 41366
+      - 70945
+    unit: USD on 1 Jan 2028 (p5, p50, p95)
+    quote_as: typically about $41,000; under $20,000 in about 1 in 6 rate paths
+    method: rab/models/M2_SPEC.md s8
+    source: m2_results.json fifteen_months
+    note: History of 15-month curve moves; floor = $150,000 face repaid by late 2032 if affordable (E6 rule; see inventory F4
+      for the IPS 'whole remainder' wording).
+  retire:
+    ref.H5.one_in_three: superseded by laura.rates.gap_odds_2027
+    ref.H6.gap_odds_28sep: reproduced (R2); superseded by laura.rates.gap_odds_2027 as the quoted figure
+    ref.H13.rates_fall_first: re-checked on 28 Sep in rab/results/M2/m2_h13_h14_recheck.csv
+    ref.H14.joint_tail_no_deposit: reproduced on 28 Sep in rab/results/M2/m2_h13_h14_recheck.csv

@@ -32,14 +32,14 @@ them being off.
 | I1 | `rab/data/treasury_par_2000_2026/<year>.csv`, `rab/data/treasury_par_1990_1999/<year>.csv` | U.S. Treasury Daily Par Yield Curve, 2 Jan 1990 - 28 Sep 2026, percent (semiannual bond-equivalent). Rows are in reverse date order in some files; sort by date |
 | I2 | `rab/data/fred/DGS1MO.csv, DGS3MO, DGS6MO, DGS1, DGS2, DGS3, DGS5, DGS7, DGS10, DGS20, DGS30` | FRED constant-maturity yields (same concept as I1), used **only for dates before 2 Jan 1990**. "." or blank = missing |
 | I3 | `rab/data/m2/MOVE_yahoo_daily.csv` | ICE BofA MOVE index, daily close, 12 Nov 2002 - 29 Sep 2026, Yahoo Finance `^MOVE` (secondary source; ICE owns the index). Column `Close` |
-| I4 | `rab/numbers.yaml` (LOCKED, sha256 in `rab/numbers.lock`) | Cross-checks only: `laura.ladder.cost_2027_strips` ($292,418.11), `laura.ladder.breakeven_fall_bp_strips` (26.2), `laura.stock_fund_2028_usd.strips` ($40,736), `laura.floor_cost_2028` ($117,194), `ref.H6.gap_odds_28sep`, `ref.H13`, `ref.H14` |
+| I4 | `rab/numbers.yaml` (Gate A version, sha256 in `rab/numbers.lock`) | Cross-checks only: `laura.ladder.cost_2027_strips` ($292,418.11), `laura.ladder.breakeven_fall_bp_strips` (26.2), `laura.stock_fund_2028_usd.strips` ($40,736), `laura.floor_cost_2028` ($117,194), `ref.H6.gap_odds_28sep`, `ref.H13`, `ref.H14` |
 | I5 | `research/insight_v1/scripts/data/D3/treasury_par_2026_raw.csv`, `research/insight_v1/scripts/data/D3/fred_DGS10.csv` | insight_v1's own inputs, used only to reproduce its 25 Sep figures in the reconciliation (section 7) |
 
 ## 2. Dates and constants
 
-- Reference date **D = 2026-09-28** (the locked curve; the row `09/28/2026` of I1 is the reference curve **R**).
+- Reference date **D = 2026-09-28** (the Gate A curve; the row `09/28/2026` of I1 is the reference curve **R**).
   The code takes `--curve-date` so it can be re-run on Friday's curve; every date below moves with D.
-- Purchase date **A = 2027-01-01** (the deposit date; the valuation date of the locked forward cost). Horizon
+- Purchase date **A = 2027-01-01** (the deposit date; the valuation date of the Gate A forward cost). Horizon
   h = A - D = **95 calendar days**. Business-day horizon n_h = number of weekdays strictly after D and strictly
   before A, excluding U.S. bond-market holidays on which Treasury publishes no curve (in 2026: 12 Oct, 11 Nov,
   26 Nov, 25 Dec). For D = 28 Sep 2026, **n_h = 64**. (Sensitivity: purchase on Mon 4 Jan 2027, h = 98, n_h = 65.)
@@ -59,7 +59,7 @@ interpolation of (0, 0), (t_j, ln DF_j), flat beyond 30y. Implementations must m
 **3.2 Ladder cost functions** for a par vector c:
 - **RW ("yields unchanged", no view; PRIMARY):** the curve on the purchase day is c, valued at A:
   Cost_RW(c) = sum_Y 50,000 x DF_{c,v=A}(P_Y).
-- **FWD ("forward rates come true"; the basis of the locked 26.2bp headroom and of insight_v1 D1):** c is today's curve
+- **FWD ("forward rates come true"; the basis of the numbers.yaml 26.2bp headroom and of insight_v1 D1):** c is today's curve
   shocked today and carried at its own short rate: Cost_FWD(c) = [sum_Y 50,000 x DF_{c,v=D}(P_Y)] / DF_{c,v=D}(A).
 - Cost_FWD(R) must equal $292,418.11 (I4). Cost_RW(R) is the "yields unchanged" cost; it is higher when the curve
   slopes up, because on 1 Jan 2027 each bond is three months shorter and rolls down to a lower yield.
@@ -104,8 +104,8 @@ Delta' over all windows, tenor by tenor ("no view on direction").
 
 **E3. One-factor Vasicek (AR(1)) on the ladder yield, 1962+, fitted with statsmodels.**
 1. Fit y_t = c + phi y_{t-1} + e_t by OLS on the whole panel series y (one step = one panel date; statsmodels
-   `AutoReg(y, lags=1, trend="c")`). Keep c_hat, phi_hat, residual sd s_e (ddof = number of parameters, i.e.
-   statsmodels `sigma2`), the 2x2 parameter covariance, n = number of observations used.
+   `AutoReg(y, lags=1, trend="c")`). Keep c_hat, phi_hat, residual sd s_e with s_e^2 = statsmodels
+   `sigma2` = (sum of squared residuals) / n, the 2x2 parameter covariance, n = number of observations used.
 2. Small-sample bias correction (Kendall 1954; Marriott and Pope 1954): phi_bc = min(1, phi_hat + (1 + 3 phi_hat)/n);
    theta = c_hat / (1 - phi_hat) (the long-run level, kept); c_bc = theta (1 - phi_bc).
 3. Vasicek reading (report): kappa = -ln(phi) x 252 per year, half-life = ln 2 / kappa years, sigma = s_e x sqrt(252)
@@ -207,3 +207,16 @@ day. History assumes the future resembles some mix of the past; E1 assumes today
 E3/E4 fit daily data whose mean reversion is weak and biased (E3 corrects the AR(1) bias, E4 does not); E5 relies
 on a secondary source for MOVE and on a stable MOVE-to-ladder ratio. None of this forecasts the direction of rates:
 the headline takes no view on direction by construction.
+
+## Changelog
+
+- 30 Sep 2026, before any estimator was run: E3 step 1 wording made exact (s_e^2 = SSR / n, statsmodels `sigma2`;
+  it previously said "ddof = number of parameters", which statsmodels does not use). E3 step 4 mean written in a
+  form that stays finite as phi -> 1 (same quantity).
+- 30 Sep 2026, after the first run (headline rule and E1-E5 unchanged): added **sensitivities only** - E5 with a
+  regression calibration (OLS of RV_s on MOVE_s, evaluated at MOVE_D) and with the 63-day average MOVE; history
+  sub-samples (1962+ raw, 1990+, 2000+, 2022+, similar-level raw, rescaled not demeaned); purchase on 4 Jan 2027;
+  and, for every estimator, the "parallel-equivalent" spread (the parallel shift of R with the same RW cost, by
+  interpolation on a 0.25bp grid from -400 to +400bp: mean, sd, robust sd = IQR / 1.349). R3 note: the analytic
+  value of strategy_mc_v2 (a) is 30.1%; its Monte Carlo printed 30.2% (noise). `--out` option added.
+

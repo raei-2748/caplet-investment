@@ -1,0 +1,5 @@
+variant,n_windows,fund_p5,fund_p50,fund_p95,P_fund_lt_20k,P_fund_zero,P_topup,mean_topup_given_topup,floor_cost_p5,floor_cost_p50,floor_cost_p95,P_floor_face_below_150k
+"H-FHS (rescaled to today's volatility, demeaned)",15605,1410.3212,37908.0052,77267.73,0.2004,0.042,0.334,11155.345,100453.8594,118629.9965,131950.0335,0.042
+"H-LVL (10y 4.0-6.5% at start, demeaned)",5416,10339.1859,40967.9231,64356.0752,0.1233,0.0076,0.272,8423.1497,107688.6473,116624.2555,129690.7359,0.0076
+"H-RAW (all windows, as history happened)",15605,1595.6027,41366.2802,70944.6596,0.1684,0.0452,0.2984,13431.2156,105020.008,116748.5232,131804.7942,0.0452
+base: yields unchanged to both dates (RW),1,39708.0495,39708.0495,39708.0495,0.0,0.0,0.0,0.0,117193.7029,117193.7029,117193.7029,0.0
