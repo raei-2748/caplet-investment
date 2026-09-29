@@ -1,0 +1,63 @@
+{
+ "purpose": "A4 (VT + gold/REIT) vs A0 (VT) spread90 ratio without seed noise; threshold 0.90 (M6_SPEC s5)",
+ "reference": {
+  "seeds": 100,
+  "paths_per_seed": 200000,
+  "seed_first": 20262000,
+  "seed_last": 20262099,
+  "ratio_mean": 0.8991099877700713,
+  "ratio_sd": 0.0010158328280456088,
+  "ratio_se": 0.00010158328280456088,
+  "ratio_min": 0.8966850479227481,
+  "ratio_max": 0.9020755840938676,
+  "share_seeds_ratio_le_090": 0.8,
+  "p5_change_mean": 1164.375726601483,
+  "median_change_mean": 341.962123216,
+  "pooled_paths": 10000000,
+  "pooled": {
+   "A0": [
+    165145.421875,
+    174149.078125,
+    187909.03125
+   ],
+   "A4": [
+    166309.546875,
+    174490.015625,
+    186772.48515624998
+   ],
+   "spread_ratio": 0.8989320605599253,
+   "p5_change": 1164.125,
+   "median_change": 340.9375
+  }
+ },
+ "blind": {
+  "seeds": 100,
+  "paths_per_seed": 200000,
+  "seed_first": 20262000,
+  "seed_last": 20262099,
+  "ratio_mean": 0.8991280994183714,
+  "ratio_sd": 0.000951357450177486,
+  "ratio_se": 9.51357450177486e-05,
+  "ratio_min": 0.8970905473997068,
+  "ratio_max": 0.9018977724448889,
+  "share_seeds_ratio_le_090": 0.85,
+  "p5_change_mean": 1165.2691652168955,
+  "median_change_mean": 340.5378105047811,
+  "pooled_paths": 10000000,
+  "pooled": {
+   "A0": [
+    165142.390625,
+    174153.75,
+    187919.953125
+   ],
+   "A4": [
+    166307.734375,
+    174494.4375,
+    186789.953125
+   ],
+   "spread_ratio": 0.8992278585559803,
+   "p5_change": 1165.34375,
+   "median_change": 340.6875
+  }
+ }
+}

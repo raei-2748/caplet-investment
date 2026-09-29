@@ -1,4 +1,16 @@
-# Blind rebuild of M2 (rate paths to Jan 2027 / Jan 2028)
+# Blind rebuilds (Gate B)
+
+This folder holds two independent blind rebuilds, one per stream, merged into `rab/integration` on 2026-09-30:
+
+- **WS4, M2 (rate paths):** `m2_blind.py`, `results.json`, `run.log`, `deterministic_check.py/.json`. README: section A.
+- **WS3, M5/M6/M7 (history, rivals, stress):** `blind_*.py`, `collect_headlines.py`, `run_all.sh`, `BLIND_REPORT.md`,
+  `out/`. README: section B.
+
+The two builds share no code and no files; this index was added when the two READMEs met at the same path.
+
+---
+
+## A. Blind rebuild of M2 (rate paths to Jan 2027 / Jan 2028)
 
 WS4 blind builder, 2026-09-30 (Sydney). AI-generated verification work (Claude Code) for Team Caplet; no deliverable
 text. Gate B evidence: M2 rebuilt from `rab/models/M2_SPEC.md` alone, with no code shared with the reference build.
@@ -189,3 +201,41 @@ coordinator; its work above was already committed). This session did two things,
    Run: `/Users/ray/Research/rab-ws/.venv/bin/python rab/verification/blind/deterministic_check.py [--curve-date D]`.
    The Monte Carlo and history-panel keys (E1-E4, E5's rho, the 2028 window variants, R1-R5) are not rebuilt here;
    they rest on the two builds reconciled in `rab/gates/gate_B_ws4.md`.
+
+---
+
+## B. WS3 blind rebuild of M5, M6, M7
+
+Second, independent implementation of the three WS3 models for Gate B (RUN_PLAN s3: "each model rebuilt blind from
+its spec"). AI-generated verification code (Claude Code, blind builder) for Team Caplet; no deliverable text.
+
+## Protocol
+
+- Read: `rab/models/M5_SPEC.md`, `M6_SPEC.md`, `M7_SPEC.md`; `rab/data/**` (curves, FRED, history snapshot, JPM
+  tables, market inflation); the locked `rab/numbers.yaml` (sha256 492ed320..., unchanged).
+- Not read: any `.py` under `rab/models/` or `rab/results/`, anything under `research/insight_v1/`, the primary's
+  result files. The only leak was one-sentence headline lines in `rab-ws/STATUS.md` and the primary's commit message,
+  seen while checking conventions; they were not used to write or tune code (`BLIND_REPORT.md`, Disclosure).
+- Curve method (`blind_curve.py`) written from M5_SPEC section 2 alone; it reproduces the Gate A headline to the cent.
+
+## Files
+
+| File | What |
+|---|---|
+| `blind_curve.py` | Par-curve bootstrap (D1 method), dates and constants of the plan |
+| `blind_m5.py` | Cost-of-certainty series 1871-2026 and the start-year backtest 1872-2020 |
+| `blind_m6.py` | Rivals (REC, R1-R6) in the history and MC lenses; branch-fund alternatives and the switch rule |
+| `blind_m7.py` | Stress scenarios S0-S7 with thresholds, and the real value of the payments |
+| `collect_headlines.py` | Flattens the three `*_results.json` into `out/blind_headlines.json` and writes `BLIND_REPORT.md` |
+| `run_all.sh` | Runs everything in order (about 15 s) |
+| `out/M5`, `out/M6`, `out/M7` | The spec's named outputs (CSV, PNG, JSON, report and run log) |
+| `BLIND_REPORT.md` | Headline numbers, checks and the readings chosen where the spec is ambiguous |
+
+## Run
+
+```
+zsh rab/verification/blind/run_all.sh
+```
+
+Python: `/Users/ray/Research/rab-ws/.venv/bin/python` (numpy, pandas, scipy, matplotlib, pyyaml). Seeds: 20260930
+(returns), 20260936 (inflation). Deterministic apart from the MC lens, whose tolerances are in M6_SPEC section 7.

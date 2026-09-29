@@ -1,0 +1,279 @@
+section,key,decision,primary,blind,kind,note,diff,verdict
+M5,m5.cost_of_certainty.today_usd: ten payments on 28 Sep 2026,True,289119.2036498361,289119.2,usd_det,"numbers.yaml laura.ladder.cost_today_strips 289,119.20",-0.00 (+0.000%),MATCH
+M5,  2020 median cost,True,458828.06389119325,458828.06,usd_det,,-0.00 (+0.000%),MATCH
+M5,"  peak cost ($470,249)",True,470249.2705687235,470249.27,usd_det,,-0.00 (+0.000%),MATCH
+M5,  peak date,True,2020-08-04,2020-08-04,exact,,same,MATCH
+M5,  cheapest since (last day as cheap),True,2002-05-28,2002-05-28,exact,,same,MATCH
+M5,m5.cost_of_certainty.share_months_since_1871_as_cheap,True,0.23274478330658105,0.2327,share_det,,-0.00pp,MATCH
+M5,"  same, flat-curve bias removed (median error)",True,0.23542001070090957,0.2354,share_det,,-0.00pp,MATCH
+M5,"  same, flat-curve bias removed (95th pct error)",True,0.2375601926163724,0.2376,share_det,,+0.00pp,MATCH
+M5,  share of months since 1962,True,0.510939510939511,0.5109,share_det,,-0.00pp,MATCH
+M5,"  share of months since 1871 at or under $300,000",False,0.26270733012306047,0.2627,share_det,,-0.00pp,MATCH
+M5,  share of calendar years whose median is below today,False,0.23076923076923078,0.2308,share_det,,+0.00pp,MATCH
+M5,"  cheapest day ($110,214)",True,110213.99480946996,110213.99,usd_det,,-0.00 (+0.000%),MATCH
+M5,"  cheapest day, date",True,1981-09-30,1981-09-30,exact,,same,MATCH
+M5,"  cheapest month start since 1871 ($111,249)",False,111248.75085606707,111248.75,usd_det,"blind monthly file, 1981-10-01; the blind report's 'lowest since 1871' ($110,214) is over every curve date, not month starts: spec wording (A3 ii), both builds give both figures",-0.00 (+0.000%),MATCH
+M5,"  highest day ($470,249, 4 Aug 2020)",False,470249.2705687235,470249.27,usd_det,,-0.00 (+0.000%),MATCH
+M5,"  flat-vs-full curve bias, median",False,0.007589738174594185,0.00759,share_det,,+0.00pp,MATCH
+M5,"  FRED vs Treasury file, largest difference",False,0.0,0.0,usd_det,,+0.00 (+0.000%),MATCH
+M5,"  share of days since 2000 at or under $300,000 (insight_v1 H17: 11.1%)",False,0.11124401913875598,0.1112,share_det,6688 days in the primary series,-0.00pp,MATCH
+M5,m5.hist.start_years_all_payments_paid (windows with no payment short),True,149,149,exact,,same,MATCH
+M5,  dearest ladder ($411k),True,411482.0,411482.210632344,usd_det,primary: era table maximum,+0.21 (+0.000%),MATCH
+M5,  start years where the 2028 deposit finished the ladder,True,112,112,exact,,same,MATCH
+M5,  start years with the floor below $150k,True,91,91,exact,"blind counts fund0 = 0, which is the same event (G < floor cost)",same,MATCH
+M5,m5.hist.gift_median_usd,True,131555.09357666713,131555.09357666713,usd_sum,,+0.00 (+0.000%),MATCH
+M5,  gift p10,True,66506.81978566451,66506.81978566451,usd_sum,,+0.00 (+0.000%),MATCH
+M5,  gift worst,True,29497.940449916587,29497.940449916587,usd_sum,,+0.00 (+0.000%),MATCH
+M5,  gift worst start year,True,2020,2020,exact,,same,MATCH
+M5,  share of windows with the top reached,False,0.959731543624161,0.959731543624161,share_det,,+0.00pp,MATCH
+M5,m5.today_yields.gift_worst_usd,True,158969.38990081995,158969.3903155106,usd_sum,,+0.00 (+0.000%),MATCH
+M5,  worst start year (fund bought the next year),True,1928,1928,exact,,same,MATCH
+M5,  gift p10,True,169055.5621072512,169055.56298826582,usd_sum,,+0.00 (+0.000%),MATCH
+M5,  gift median,True,175903.01661977218,175903.01781737193,usd_sum,,+0.00 (+0.000%),MATCH
+M5,  top reached,True,0.8456375838926175,0.8456375838926175,share_det,,+0.00pp,MATCH
+M5,  windows with the floor below $150k,True,0,0,exact,,same,MATCH
+M5,"  check: fund0 at today's yields (numbers.yaml 40,736)",True,40736.193940603116,40736.19582399976,usd_det,,+0.00 (+0.000%),MATCH
+M5,  era 1872-1913: median ladder cost / median gift / worst gift,False,"346,303 / 122,016 / 97,286","346,303 / 122,016 / 97,286",text,,same,MATCH
+M5,  era 1914-1945: median ladder cost / median gift / worst gift,False,"356,228 / 110,715 / 46,879","356,228 / 110,715 / 46,879",text,,same,MATCH
+M5,  era 1946-1981: median ladder cost / median gift / worst gift,False,"328,108 / 149,896 / 54,169","328,108 / 149,896 / 54,169",text,,same,MATCH
+M5,  era 1982-2020: median ladder cost / median gift / worst gift,False,"301,211 / 168,310 / 29,498","301,211 / 168,310 / 29,498",text,,same,MATCH
+M5,"m5.H9_reverified.rescaled_total_worst_usd (third computation, this script)",True,168730.1484953716,168730.14936134103,usd_det,blind M5 has no H9 row (not in M5_SPEC); recomputed here from annual_history.csv and the blind build's fund0,+0.00 (+0.000%),MATCH
+M5,"  H9 raw total worst (blind per-window T33, U.S., 1928-2020)",True,171524.62132525368,171524.6223,usd_det,,+0.00 (+0.000%),MATCH
+M5,  H9 rescaled p10,True,185123.63632925705,185123.6379531628,usd_det,,+0.00 (+0.000%),MATCH
+M5,  H9 rescaled median,True,214419.30225256702,214419.30523092824,usd_det,,+0.00 (+0.000%),MATCH
+M6,m6.rec.mc_T33_median_usd,True,206724.84118847502,206776.76348042343,pct_mc,,+52 (+0.03%),MC NOISE
+M6,  REC MC T33 p5,True,181344.4804211519,181352.26423036752,pct_mc,,+8 (+0.00%),MC NOISE
+M6,  REC MC T33 p95,True,251748.9296281339,252227.5860937488,pct_mc,,+479 (+0.19%),MC NOISE
+M6,  REC MC gift p5,True,164589.23035461866,164578.96482672973,pct_mc,,-10 (-0.01%),MC NOISE
+M6,  REC MC gift p50,True,173982.2109996719,173997.56261219387,pct_mc,,+15 (+0.01%),MC NOISE
+M6,  REC MC payments short (share),True,0.0,0.0,prob_mc,,+0.000pp (0.0 SE),MATCH
+M6,  REC certain by 2031,True,150000.0,150000.0,usd_det,,+0.00 (+0.000%),MATCH
+M6,m6.sixty_forty_whole.mc_payment_short,True,0.01272,0.012505,prob_mc,,-0.021pp (0.6 SE),MC NOISE
+M6,  60/40 history windows short (of 149),True,2,2,exact,,same,MATCH
+M6,  60/40 MC T33 p5,True,53342.100398335395,53653.129868888595,pct_mc,,+311 (+0.58%),MC NOISE
+M6,  glide path 65->20 MC short,True,0.0017,0.00179,prob_mc,,+0.009pp (0.7 SE),MC NOISE
+M6,  growth-first 75->40 MC short,True,0.02235,0.022675,prob_mc,,+0.033pp (0.7 SE),MC NOISE
+M6,  R1 MC T33 p5,False,190798.8416743496,190892.21533201516,pct_mc,,+93 (+0.05%),MC NOISE
+M6,  R1 MC T33 p50,False,202134.87980879465,202187.73864543927,pct_mc,,+53 (+0.03%),MC NOISE
+M6,  R1 MC T33 p95,False,213299.43275036657,213316.75336108232,pct_mc,,+17 (+0.01%),MC NOISE
+M6,  R1 history windows short / T33 median,False,"0 / 131,555","0 / 131,555",text,,same,MATCH
+M6,  R3 MC T33 p5,False,154246.34553916554,154134.95136344206,pct_mc,,-111 (-0.07%),MC NOISE
+M6,  R3 MC T33 p50,False,216300.36246744593,216348.6371394763,pct_mc,,+48 (+0.02%),MC NOISE
+M6,  R3 MC T33 p95,False,306899.16343004507,307644.62067225063,pct_mc,,+745 (+0.24%),MC NOISE
+M6,  R3 history windows short / T33 median,False,"0 / 144,719","0 / 144,719",text,,same,MATCH
+M6,  R4 MC T33 p5,False,87699.86065165972,87667.64796350646,pct_mc,,-32 (-0.04%),MC NOISE
+M6,  R4 MC T33 p50,False,233405.68646370637,232699.5445185819,pct_mc,,-706 (-0.30%),MC NOISE
+M6,  R4 MC T33 p95,False,434332.2910288572,434199.8173009838,pct_mc,,-132 (-0.03%),MC NOISE
+M6,  R4 history windows short / T33 median,False,"3 / 180,302","3 / 180,302",text,,same,MATCH
+M6,  R4b MC T33 p5,False,35897.949544170406,35675.290977150275,pct_mc,,-223 (-0.62%),MC NOISE
+M6,  R4b MC T33 p50,False,248637.69356778494,247845.02900998754,pct_mc,,-793 (-0.32%),MC NOISE
+M6,  R4b MC T33 p95,False,570794.2948621388,572492.9086167519,pct_mc,,"+1,699 (+0.30%)",MC NOISE
+M6,  R4b history windows short / T33 median,False,"3 / 239,961","3 / 239,961",text,,same,MATCH
+M6,  R5 MC T33 p5,False,153264.35676692848,153283.8292524732,pct_mc,,+19 (+0.01%),MC NOISE
+M6,  R5 MC T33 p50,False,198870.99929192284,198892.41430588398,pct_mc,,+21 (+0.01%),MC NOISE
+M6,  R5 MC T33 p95,False,408137.83441681304,411313.6641241777,pct_mc,,"+3,176 (+0.78%)",MC NOISE
+M6,  R5 history windows short / T33 median,False,"0 / 130,982","0 / 130,982",text,,same,MATCH
+M6,  R5m5 MC T33 p5,False,123681.44208564555,123927.61459065958,pct_mc,,+246 (+0.20%),MC NOISE
+M6,  R5m5 MC T33 p50,False,175563.58164177387,175380.60759001342,pct_mc,,-183 (-0.10%),MC NOISE
+M6,  R5m5 MC T33 p95,False,578087.2454936383,582972.22600538,pct_mc,,"+4,885 (+0.85%)",MC NOISE
+M6,  R5m5 history windows short / T33 median,False,"0 / 127,622","0 / 127,622",text,,same,MATCH
+M6,m6.H16_reverified.growth_first_short_deposit_75k,True,0.10621,0.106825,prob_mc,,+0.062pp (0.6 SE),MC NOISE
+M6,  H16 deposit $150k,True,0.02235,0.022675,prob_mc,,+0.033pp (0.7 SE),MC NOISE
+M6,  H16 deposit $0,True,0.350855,0.35242,prob_mc,,+0.157pp (1.0 SE),MC NOISE
+M6,m6.cppi3.mc_floor_broken (T33 < $150k),True,0.01986,0.019584999999999964,prob_mc,blind: 1 - promised_150k_met_share (same event); the blind's 'floor_broken_share' 1.60% is a different event (cushion negative at some 1 Jan 2028-32),-0.028pp (0.6 SE),MC NOISE
+M6,  CPPI m=3 MC T33 median,True,198870.99929192284,198892.41430588398,pct_mc,,+21 (+0.01%),MC NOISE
+M6,  CPPI m=5 MC $150k missed,True,0.262485,0.26383999999999996,prob_mc,,+0.135pp (1.0 SE),MC NOISE
+M6,  CPPI m=3 history: windows with T33 < $150k,False,94,94,exact,per-window primary CSV: 94. The committed summary said 1 (numpy-bool sum in an object column); fixed in m6_rivals.py at this gate,same,MATCH
+M6,  CPPI m=5 history: windows with T33 < $150k,False,106,106,exact,per-window primary CSV: 106. The committed summary said 1 (numpy-bool sum in an object column); fixed in m6_rivals.py at this gate,same,MATCH
+M6,m6.tips_ladder.mc_any_payment_short,True,0.599635,0.599635,prob_mc,,+0.000pp (0.0 SE),MATCH
+M6,  TIPS history paths short (of 140),True,92,92,exact,,same,MATCH
+M6,  TIPS MC total shortfall p95,False,101936.62911518801,101936.62911518801,pct_mc,,+0 (+0.00%),MATCH
+M6,  TIPS AR(1) phi,False,0.741224,0.741224,exact,,same,MATCH
+M6,  TIPS ladder size needed for full delivery in 95% of paths (x; third computation),True,1.4260459978151907,1.4260459978151907,pct_mc,"blind build's own inflation paths (same seed and draw order by spec), scale = p95 of max_k 50,000 / paid_k",+0 (+0.00%),MATCH
+M6,  ... extra cost ($125k),True,124583.56545418219,124583.56545418219,pct_mc,,+0 (+0.00%),MATCH
+M6,m6.fund_choice.gold_reit_spread_ratio (seed 20260930),True,0.8991778261111392,0.8999397570917864,ratio_mc,,+0.0008,MC NOISE
+M6,  A4 MC gift p5 change,True,1164.3658361894195,1150.4368593452964,pct_mc,relative to VT's p5 ($165k): -0.01%,-14 (-1.20%),MC NOISE
+M6,  A4 history p10 change,True,1388.1709638962348,1388.1709638962348,usd_det,,+0.00 (+0.000%),MATCH
+M6,  A4 history spread80 ratio,True,0.798657,0.798657,exact,,same,MATCH
+M6,  A4 tests 1-3 on seed 20260930,True,True,True,bool,,same,MATCH
+M6,  A4 spread test passed on 20 other seeds,True,17,14,count_mc,"different seed sets (reference 20261930-49, blind 20260930-49); see the large-sample row",-3,MC NOISE
+M6,  A4 spread ratio without noise (100 seeds x 200k paths each build),True,0.8991099877700713,0.8991280994183714,ratio_mc,se 0.0001; pooled 10M paths 0.8989 / 0.8992; passes the 0.90 bar on 80% / 85% of 200k-path seeds,+0.0000,MC NOISE
+M6,  A1 tests 1-3 pass,True,False,False,bool,,same,MATCH
+M6,  A2 tests 1-3 pass,True,False,False,bool,,same,MATCH
+M6,  A3 tests 1-3 pass,True,False,False,bool,,same,MATCH
+M6,  final decision (all four alternatives),True,KEEP VT,KEEP VT,exact,,same,MATCH
+M7,"  history, all ten payments real total p5",False,251912.67882063854,251912.67882063854,usd_det,,+0.00 (+0.000%),MATCH
+M7,"  history, all ten payments real total p50",False,387761.1659271933,387761.1659271933,usd_det,,+0.00 (+0.000%),MATCH
+M7,"  history, all ten payments real total p95",False,650011.7028848705,650011.7028848705,usd_det,,+0.00 (+0.000%),MATCH
+M7,m7.threshold.floor_150k_holds_to_bp,True,109.31704232961475,109.31704222402803,bp,,-0.0000bp,MATCH
+M7,  top-up starts (numbers.yaml 26.2bp),True,26.196344556462375,26.1963445549723,bp,,-0.0000bp,MATCH
+M7,  a payment unfunded,True,428.4107572496356,428.4107572496781,bp,,+0.0000bp,MATCH
+M7,m7.stress.worst_gift_usd (S2b),True,147189.00596295256,147189.00596295256,usd_det,,+0.00 (+0.000%),MATCH
+M7,  S0 gift / real gift,True,"174,951.79 / 152,281.07","174,951.79 / 152,281.07",text,,same,MATCH
+M7,  S1 gift / real gift,True,"175,371.69 / 110,092.98","175,371.69 / 110,092.98",text,,same,MATCH
+M7,  S2 gift / real gift,True,"161,659.33 / 146,551.03","161,659.33 / 146,551.03",text,,same,MATCH
+M7,  S2b gift / real gift,True,"147,189.01 / 133,433.07","147,189.01 / 133,433.07",text,,same,MATCH
+M7,  S3 gift / real gift,True,"169,315.37 / 132,983.52","169,315.37 / 132,983.52",text,,same,MATCH
+M7,  S3b gift / real gift,True,"181,896.86 / 142,865.26","181,896.86 / 142,865.26",text,,same,MATCH
+M7,  S4a gift / real gift,True,"162,469.12 / 141,415.94","162,469.12 / 141,415.94",text,,same,MATCH
+M7,  S4b gift / real gift,True,"176,468.91 / 153,601.59","176,468.91 / 153,601.59",text,,same,MATCH
+M7,  S4c gift / real gift,True,"175,603.10 / 152,847.98","175,603.10 / 152,847.98",text,,same,MATCH
+M7,  S4d gift / real gift,True,"184,237.66 / 160,363.65","184,237.66 / 160,363.65",text,,same,MATCH
+M7,  S5 gift / real gift,True,"159,298.42 / 208,777.47","159,298.42 / 208,777.47",text,,same,MATCH
+M7,  S6 gift / real gift,True,"164,301.51 / 143,010.88","164,301.51 / 143,010.88",text,,same,MATCH
+M7,  S7 gift / real gift,True,"178,826.12 / 138,361.82","178,826.12 / 138,361.82",text,,same,MATCH
+M7,  every scenario funds every payment,True,True,True,bool,,same,MATCH
+M7,"m7.downgrade_2011.dy_bp (FRED DGS10, 20 trading days)",True,-56.0,-56.00000000000001,bp,,-0.0000bp,MATCH
+M7,  Fitch 2023,True,7.0,7.000000000000001,bp,,+0.0000bp,MATCH
+M7,  Moody's 2025,True,3.0,3.0,bp,,+0.0000bp,MATCH
+M7,  S4a ladder cost / fund0,True,"308,897.07 / 20,357.03","308,897.07 / 20,357.03",text,,same,MATCH
+M7,m7.real_value.pay_2042_breakeven_usd,True,35341.81220051389,35341.81220051389,usd_det,,+0.00 (+0.000%),MATCH
+M7,  all ten at breakeven,True,393053.0793644196,393053.0793644196,usd_det,,+0.00 (+0.000%),MATCH
+M7,  1970s path: 2042 payment,True,18414.188159907066,18414.188159907066,usd_det,,+0.00 (+0.000%),MATCH
+M7,  1970s path: all ten,True,226340.65937555785,226340.65937555785,usd_det,,+0.00 (+0.000%),MATCH
+M7,  history 2042 payment p5 / p50 / p95,True,"18,588.61 / 34,189.69 / 71,621.31","18,588.61 / 34,189.69 / 71,621.31",text,,same,MATCH
+M7,  H19 reproduced (2033 / 2042),True,"42,063.26 / 33,681.25","42,063.26 / 33,681.25",text,,same,MATCH
+proposed,ws3.certainty.share_months_as_cheap_since_1871.value,True,0.2327,0.2327,share_det,,+0.00pp,MATCH
+proposed,ws3.certainty.low_1981.usd,True,110214.0,110213.99,usd_det,,-0.01 (+0.000%),MATCH
+proposed,ws3.backtest.hist.unfunded_windows.unfunded,True,0,0,exact,,same,MATCH
+proposed,ws3.backtest.hist.unfunded_windows.topups,True,112,112,exact,,same,MATCH
+proposed,ws3.backtest.hist.unfunded_windows.floor_below_150k,True,91,91,exact,,same,MATCH
+proposed,ws3.backtest.hist.unfunded_windows.ladder_cost_max,True,411482.0,411482.210632344,usd_det,,+0.21 (+0.000%),MATCH
+proposed,ws3.backtest.hist.gift.worst,True,29498.0,29497.940449916587,usd_det,,-0.06 (+0.000%),MATCH
+proposed,ws3.backtest.hist.gift.p10,True,66507.0,66506.81978566451,usd_det,,-0.18 (+0.000%),MATCH
+proposed,ws3.backtest.hist.gift.median,True,131555.0,131555.09357666713,usd_det,,+0.09 (+0.000%),MATCH
+proposed,ws3.backtest.today_yields.gift.worst,True,158969.0,158969.3903155106,usd_det,,+0.39 (+0.000%),MATCH
+proposed,ws3.backtest.today_yields.gift.p10,True,169056.0,169055.56298826582,usd_det,,-0.44 (+0.000%),MATCH
+proposed,ws3.backtest.today_yields.gift.median,True,175903.0,175903.01781737193,usd_det,,+0.02 (+0.000%),MATCH
+proposed,ws3.backtest.today_yields.gift.top_reached,True,0.846,0.8456375838926175,share_det,,-0.04pp,MATCH
+proposed,ws3.backtest.H9_reverified.total_worst_raw,True,171525.0,171524.6223,usd_det,,-0.38 (+0.000%),MATCH
+proposed,ws3.backtest.H9_reverified.total_worst_rescaled,True,168730.0,168730.14936134103,usd_det,,+0.15 (+0.000%),MATCH
+proposed,ws3.backtest.H9_reverified.p10_rescaled,True,185124.0,185123.6379531628,usd_det,,-0.36 (+0.000%),MATCH
+proposed,ws3.backtest.H9_reverified.median_rescaled,True,214419.0,214419.30523092824,usd_det,,+0.31 (+0.000%),MATCH
+proposed,ws3.rivals.rec.mc_short,True,0.0,0.0,prob_mc,,+0.000pp (0.0 SE),MATCH
+proposed,ws3.rivals.rec.mc_T33_p5,True,181344.0,181352.26423036752,pct_mc,,+8 (+0.00%),MC NOISE
+proposed,ws3.rivals.rec.mc_T33_p50,True,206725.0,206776.76348042343,pct_mc,,+52 (+0.03%),MC NOISE
+proposed,ws3.rivals.rec.mc_T33_p95,True,251749.0,252227.5860937488,pct_mc,,+479 (+0.19%),MC NOISE
+proposed,ws3.rivals.rec.mc_certain31,True,150000.0,150000.0,pct_mc,,+0 (+0.00%),MATCH
+proposed,ws3.rivals.rec.hist_short,True,0/149,0/149,exact,,same,MATCH
+proposed,ws3.rivals.rec.hist_T33_p10,True,66507.0,66506.81978566451,usd_det,,-0.18 (+0.000%),MATCH
+proposed,ws3.rivals.rec.hist_T33_p50,True,131555.0,131555.09357666713,usd_det,,+0.09 (+0.000%),MATCH
+proposed,ws3.rivals.rec.hist_T33_p90,True,362797.0,362797.0161550348,usd_det,,+0.02 (+0.000%),MATCH
+proposed,ws3.rivals.rec.trades,True,13,13,exact,,same,MATCH
+proposed,ws3.rivals.all_treasury.mc_short,True,0.0,0.0,prob_mc,,+0.000pp (0.0 SE),MATCH
+proposed,ws3.rivals.all_treasury.mc_T33_p5,True,190799.0,190892.21533201516,pct_mc,,+93 (+0.05%),MC NOISE
+proposed,ws3.rivals.all_treasury.mc_T33_p50,True,202135.0,202187.73864543927,pct_mc,,+53 (+0.03%),MC NOISE
+proposed,ws3.rivals.all_treasury.mc_T33_p95,True,213299.0,213316.75336108232,pct_mc,,+18 (+0.01%),MC NOISE
+proposed,ws3.rivals.all_treasury.mc_certain31,True,202135.0,202187.73864543927,pct_mc,,+53 (+0.03%),MC NOISE
+proposed,ws3.rivals.all_treasury.hist_short,True,0/149,0/149,exact,,same,MATCH
+proposed,ws3.rivals.all_treasury.hist_T33_p10,True,66507.0,66506.81978566451,usd_det,,-0.18 (+0.000%),MATCH
+proposed,ws3.rivals.all_treasury.hist_T33_p50,True,131555.0,131555.09357666713,usd_det,,+0.09 (+0.000%),MATCH
+proposed,ws3.rivals.all_treasury.hist_T33_p90,True,303630.0,303629.8335567257,usd_det,,-0.17 (+0.000%),MATCH
+proposed,ws3.rivals.all_treasury.trades,True,12,12,exact,,same,MATCH
+proposed,ws3.rivals.sixty_forty.mc_short,True,0.0127,0.012505,prob_mc,,-0.019pp (0.6 SE),MC NOISE
+proposed,ws3.rivals.sixty_forty.mc_T33_p5,True,53342.0,53653.129868888595,pct_mc,,+311 (+0.58%),MC NOISE
+proposed,ws3.rivals.sixty_forty.mc_T33_p50,True,245276.0,244729.57090819537,pct_mc,,-546 (-0.22%),MC NOISE
+proposed,ws3.rivals.sixty_forty.mc_T33_p95,True,526584.0,527953.481180975,pct_mc,,"+1,369 (+0.26%)",MC NOISE
+proposed,ws3.rivals.sixty_forty.mc_certain31,True,0.0,0.0,pct_mc,,+0 (+0.00%),MATCH
+proposed,ws3.rivals.sixty_forty.hist_short,True,2/149,2/149,exact,,same,MATCH
+proposed,ws3.rivals.sixty_forty.hist_T33_p10,True,83431.0,83430.82888852604,usd_det,,-0.17 (+0.000%),MATCH
+proposed,ws3.rivals.sixty_forty.hist_T33_p50,True,221833.0,221832.99800300726,usd_det,,-0.00 (+0.000%),MATCH
+proposed,ws3.rivals.sixty_forty.hist_T33_p90,True,527149.0,527148.8368728099,usd_det,,-0.16 (+0.000%),MATCH
+proposed,ws3.rivals.sixty_forty.trades,True,24,24,exact,,same,MATCH
+proposed,ws3.rivals.ladder_6040.mc_short,True,0.0,0.0,prob_mc,,+0.000pp (0.0 SE),MATCH
+proposed,ws3.rivals.ladder_6040.mc_T33_p5,True,154246.0,154134.95136344206,pct_mc,,-111 (-0.07%),MC NOISE
+proposed,ws3.rivals.ladder_6040.mc_T33_p50,True,216300.0,216348.6371394763,pct_mc,,+49 (+0.02%),MC NOISE
+proposed,ws3.rivals.ladder_6040.mc_T33_p95,True,306899.0,307644.62067225063,pct_mc,,+746 (+0.24%),MC NOISE
+proposed,ws3.rivals.ladder_6040.mc_certain31,True,0.0,0.0,pct_mc,,+0 (+0.00%),MATCH
+proposed,ws3.rivals.ladder_6040.hist_short,True,0/149,0/149,exact,,same,MATCH
+proposed,ws3.rivals.ladder_6040.hist_T33_p10,True,78789.0,78789.32476765352,usd_det,,+0.32 (+0.000%),MATCH
+proposed,ws3.rivals.ladder_6040.hist_T33_p50,True,144719.0,144719.34895290373,usd_det,,+0.35 (+0.000%),MATCH
+proposed,ws3.rivals.ladder_6040.hist_T33_p90,True,372289.0,372289.40313145536,usd_det,,+0.40 (+0.000%),MATCH
+proposed,ws3.rivals.ladder_6040.trades,True,21,21,exact,,same,MATCH
+proposed,ws3.rivals.glide.mc_short,True,0.0017,0.00179,prob_mc,,+0.009pp (0.7 SE),MC NOISE
+proposed,ws3.rivals.glide.mc_T33_p5,True,87700.0,87667.64796350646,pct_mc,,-32 (-0.04%),MC NOISE
+proposed,ws3.rivals.glide.mc_T33_p50,True,233406.0,232699.5445185819,pct_mc,,-706 (-0.30%),MC NOISE
+proposed,ws3.rivals.glide.mc_T33_p95,True,434332.0,434199.8173009838,pct_mc,,-132 (-0.03%),MC NOISE
+proposed,ws3.rivals.glide.mc_certain31,True,0.0,0.0,pct_mc,,+0 (+0.00%),MATCH
+proposed,ws3.rivals.glide.hist_short,True,3/149,3/149,exact,,same,MATCH
+proposed,ws3.rivals.glide.hist_T33_p10,True,81714.0,81713.95507338161,usd_det,,-0.04 (+0.000%),MATCH
+proposed,ws3.rivals.glide.hist_T33_p50,True,180302.0,180301.8572525271,usd_det,,-0.14 (+0.000%),MATCH
+proposed,ws3.rivals.glide.hist_T33_p90,True,440016.0,440016.39800863987,usd_det,,+0.40 (+0.000%),MATCH
+proposed,ws3.rivals.glide.trades,True,24,24,exact,,same,MATCH
+proposed,ws3.rivals.growth_first.mc_short,True,0.0223,0.022675,prob_mc,,+0.038pp (0.8 SE),MC NOISE
+proposed,ws3.rivals.growth_first.mc_T33_p5,True,35898.0,35675.290977150275,pct_mc,,-223 (-0.62%),MC NOISE
+proposed,ws3.rivals.growth_first.mc_T33_p50,True,248638.0,247845.02900998754,pct_mc,,-793 (-0.32%),MC NOISE
+proposed,ws3.rivals.growth_first.mc_T33_p95,True,570794.0,572492.9086167519,pct_mc,,"+1,699 (+0.30%)",MC NOISE
+proposed,ws3.rivals.growth_first.mc_certain31,True,0.0,0.0,pct_mc,,+0 (+0.00%),MATCH
+proposed,ws3.rivals.growth_first.hist_short,True,3/149,3/149,exact,,same,MATCH
+proposed,ws3.rivals.growth_first.hist_T33_p10,True,88461.0,88461.11903182289,usd_det,,+0.12 (+0.000%),MATCH
+proposed,ws3.rivals.growth_first.hist_T33_p50,True,239961.0,239961.40454860363,usd_det,,+0.40 (+0.000%),MATCH
+proposed,ws3.rivals.growth_first.hist_T33_p90,True,557699.0,557698.5331462928,usd_det,,-0.47 (+0.000%),MATCH
+proposed,ws3.rivals.growth_first.trades,True,24,24,exact,,same,MATCH
+proposed,ws3.rivals.cppi3.mc_short,True,0.0,0.0,prob_mc,,+0.000pp (0.0 SE),MATCH
+proposed,ws3.rivals.cppi3.mc_T33_p5,True,153264.0,153283.8292524732,pct_mc,,+20 (+0.01%),MC NOISE
+proposed,ws3.rivals.cppi3.mc_T33_p50,True,198871.0,198892.41430588398,pct_mc,,+21 (+0.01%),MC NOISE
+proposed,ws3.rivals.cppi3.mc_T33_p95,True,408138.0,411313.6641241777,pct_mc,,"+3,176 (+0.78%)",MC NOISE
+proposed,ws3.rivals.cppi3.mc_certain31,True,0.0,0.0,pct_mc,,+0 (+0.00%),MATCH
+proposed,ws3.rivals.cppi3.hist_short,True,0/149,0/149,exact,,same,MATCH
+proposed,ws3.rivals.cppi3.hist_T33_p10,True,66389.0,66388.66582536284,usd_det,,-0.33 (+0.001%),MATCH
+proposed,ws3.rivals.cppi3.hist_T33_p50,True,130982.0,130982.27463693102,usd_det,,+0.27 (+0.000%),MATCH
+proposed,ws3.rivals.cppi3.hist_T33_p90,True,511595.0,511594.5066009246,usd_det,,-0.49 (+0.000%),MATCH
+proposed,ws3.rivals.cppi3.trades,True,72,72,exact,,same,MATCH
+proposed,ws3.rivals.cppi3.mc_floor_broken,True,0.0199,0.019584999999999964,prob_mc,,-0.032pp (0.7 SE),MC NOISE
+proposed,ws3.rivals.cppi5.mc_short,True,0.0001,5.5e-05,prob_mc,,-0.005pp (1.6 SE),MC NOISE
+proposed,ws3.rivals.cppi5.mc_T33_p5,True,123681.0,123927.61459065958,pct_mc,,+247 (+0.20%),MC NOISE
+proposed,ws3.rivals.cppi5.mc_T33_p50,True,175564.0,175380.60759001342,pct_mc,,-183 (-0.10%),MC NOISE
+proposed,ws3.rivals.cppi5.mc_T33_p95,True,578087.0,582972.22600538,pct_mc,,"+4,885 (+0.85%)",MC NOISE
+proposed,ws3.rivals.cppi5.mc_certain31,True,0.0,0.0,pct_mc,,+0 (+0.00%),MATCH
+proposed,ws3.rivals.cppi5.hist_short,True,0/149,0/149,exact,,same,MATCH
+proposed,ws3.rivals.cppi5.hist_T33_p10,True,66389.0,66388.66582536284,usd_det,,-0.33 (+0.001%),MATCH
+proposed,ws3.rivals.cppi5.hist_T33_p50,True,127622.0,127621.50260799442,usd_det,,-0.50 (+0.000%),MATCH
+proposed,ws3.rivals.cppi5.hist_T33_p90,True,577738.0,577737.9441510332,usd_det,,-0.06 (+0.000%),MATCH
+proposed,ws3.rivals.cppi5.trades,True,72,72,exact,,same,MATCH
+proposed,ws3.rivals.cppi5.mc_floor_broken,True,0.2625,0.26383999999999996,prob_mc,,+0.134pp (1.0 SE),MC NOISE
+proposed,ws3.rivals.tips_ladder.mc_p_any_short,True,0.6,0.599635,prob_mc,,-0.036pp (0.2 SE),MC NOISE
+proposed,ws3.rivals.tips_ladder.hist_short,True,92/140,92/140,exact,,same,MATCH
+proposed,ws3.rivals.H16_reverified.deposit_150k,True,0.0223,0.022675,prob_mc,,+0.038pp (0.8 SE),MC NOISE
+proposed,ws3.rivals.H16_reverified.deposit_75k,True,0.1062,0.106825,prob_mc,,+0.063pp (0.6 SE),MC NOISE
+proposed,ws3.rivals.H16_reverified.deposit_0,True,0.3509,0.35242,prob_mc,,+0.152pp (1.0 SE),MC NOISE
+proposed,ws3.fund_choice.decision,True,KEEP VT,KEEP VT,exact,,same,MATCH
+proposed,ws3.fund_choice.gold_reit_mc_p5_change,True,1164.0,1150.4368593452964,pct_mc,,-14 (-1.17%),MC NOISE
+proposed,ws3.fund_choice.gold_reit_spread_ratio,True,0.8992,0.8999397570917864,ratio_mc,,+0.0007,MC NOISE
+proposed,ws3.stress.thresholds_bp.topup_starts,True,26.2,26.2,bp,,+0.0000bp,MATCH
+proposed,ws3.stress.thresholds_bp.fund_used_up,True,109.3,109.3,bp,,+0.0000bp,MATCH
+proposed,ws3.stress.thresholds_bp.payment_unfunded,True,428.4,428.4,bp,,+0.0000bp,MATCH
+proposed,ws3.stress.S1.gift,True,175372.0,175371.6911449704,usd_det,,-0.31 (+0.000%),MATCH
+proposed,ws3.stress.S1.real_gift,True,110093.0,110092.98183005539,usd_det,,-0.02 (+0.000%),MATCH
+proposed,ws3.stress.S1.floor,True,150000.0,150000.0,usd_det,,+0.00 (+0.000%),MATCH
+proposed,ws3.stress.S1.payments_funded,True,True,True,bool,,same,MATCH
+proposed,ws3.stress.S2.gift,True,161659.0,161659.32847612147,usd_det,,+0.33 (+0.000%),MATCH
+proposed,ws3.stress.S2.real_gift,True,146551.0,146551.02881822817,usd_det,,+0.03 (+0.000%),MATCH
+proposed,ws3.stress.S2.floor,True,150000.0,150000.0,usd_det,,+0.00 (+0.000%),MATCH
+proposed,ws3.stress.S2.payments_funded,True,True,True,bool,,same,MATCH
+proposed,ws3.stress.S3.gift,True,169315.0,169315.37076833026,usd_det,,+0.37 (+0.000%),MATCH
+proposed,ws3.stress.S3.real_gift,True,132984.0,132983.5175153369,usd_det,,-0.48 (+0.000%),MATCH
+proposed,ws3.stress.S3.floor,True,150000.0,150000.0,usd_det,,+0.00 (+0.000%),MATCH
+proposed,ws3.stress.S3.payments_funded,True,True,True,bool,,same,MATCH
+proposed,ws3.stress.S4a.gift,True,162469.0,162469.1198988757,usd_det,,+0.12 (+0.000%),MATCH
+proposed,ws3.stress.S4a.real_gift,True,141416.0,141415.93590367874,usd_det,,-0.06 (+0.000%),MATCH
+proposed,ws3.stress.S4a.floor,True,150000.0,150000.0,usd_det,,+0.00 (+0.000%),MATCH
+proposed,ws3.stress.S4a.payments_funded,True,True,True,bool,,same,MATCH
+proposed,ws3.stress.S5.gift,True,159298.0,159298.42475175895,usd_det,,+0.42 (+0.000%),MATCH
+proposed,ws3.stress.S5.real_gift,True,208777.0,208777.4739746306,usd_det,,+0.47 (+0.000%),MATCH
+proposed,ws3.stress.S5.floor,True,150000.0,150000.0,usd_det,,+0.00 (+0.000%),MATCH
+proposed,ws3.stress.S5.payments_funded,True,True,True,bool,,same,MATCH
+proposed,ws3.stress.S6.gift,True,164302.0,164301.50585527736,usd_det,,-0.49 (+0.000%),MATCH
+proposed,ws3.stress.S6.real_gift,True,143011.0,143010.87637681345,usd_det,,-0.12 (+0.000%),MATCH
+proposed,ws3.stress.S6.floor,True,150000.0,150000.0,usd_det,,+0.00 (+0.000%),MATCH
+proposed,ws3.stress.S6.payments_funded,True,True,True,bool,,same,MATCH
+proposed,ws3.real_value.breakeven.pay_2033,True,43521.0,43520.86599339587,usd_det,,-0.13 (+0.000%),MATCH
+proposed,ws3.real_value.breakeven.pay_2042,True,35342.0,35341.81220051389,usd_det,,-0.19 (+0.001%),MATCH
+proposed,ws3.real_value.breakeven.all_ten,True,393053.0,393053.0793644196,usd_det,,+0.08 (+0.000%),MATCH
+proposed,ws3.real_value.1970s.pay_2042,True,18414.0,18414.188159907066,usd_det,,+0.19 (+0.001%),MATCH
+proposed,ws3.real_value.1970s.all_ten,True,226341.0,226340.65937555785,usd_det,,-0.34 (+0.000%),MATCH
+proposed,ws3.real_value.history_2042.p5,True,18589.0,18588.610225579057,usd_det,,-0.39 (+0.002%),MATCH
+proposed,ws3.real_value.history_2042.p50,True,34190.0,34189.6877571909,usd_det,,-0.31 (+0.001%),MATCH
+proposed,ws3.real_value.history_2042.p95,True,71621.0,71621.31069976074,usd_det,,+0.31 (+0.000%),MATCH
+proposed,ws3.real_value.H19_reverified.2033,True,42063.26175417096,42063.26175417096,usd_det,,+0.00 (+0.000%),MATCH
+proposed,ws3.real_value.H19_reverified.2042,True,33681.2466750725,33681.2466750725,usd_det,,+0.00 (+0.000%),MATCH

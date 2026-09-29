@@ -1,0 +1,14 @@
+series,date,value,url
+T5YIE,2026-09-28,2.33,https://fred.stlouisfed.org/series/T5YIE
+T10YIE,2026-09-28,2.34,https://fred.stlouisfed.org/series/T10YIE
+T5YIFR,2026-09-28,2.35,https://fred.stlouisfed.org/series/T5YIFR
+DFII5,2026-09-25,2.64,https://fred.stlouisfed.org/series/DFII5
+DFII7,2026-09-25,2.73,https://fred.stlouisfed.org/series/DFII7
+DFII10,2026-09-25,2.83,https://fred.stlouisfed.org/series/DFII10
+DFII20,2026-09-25,3.08,https://fred.stlouisfed.org/series/DFII20
+DFII30,2026-09-25,3.22,https://fred.stlouisfed.org/series/DFII30
+EXPINF5YR,2026-09-01,2.5835855,https://fred.stlouisfed.org/series/EXPINF5YR
+EXPINF10YR,2026-09-01,2.57264358,https://fred.stlouisfed.org/series/EXPINF10YR
+EXPINF20YR,2026-09-01,2.58980778,https://fred.stlouisfed.org/series/EXPINF20YR
+EXPINF30YR,2026-09-01,2.608087,https://fred.stlouisfed.org/series/EXPINF30YR
+CPIAUCNS,2026-08-01,334.98,https://fred.stlouisfed.org/series/CPIAUCNS

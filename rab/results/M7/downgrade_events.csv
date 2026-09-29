@@ -1,0 +1,4 @@
+event,announced,base_date,y10_base,end_date,y10_end,dy_bp,spx_change,spx_min_change
+S&P downgrade (AAA to AA+),2011-08-05,2011-08-05,2.5800,2011-09-02,2.0200,-56.0000,-0.0212,-0.0666
+Fitch downgrade (AAA to AA+),2023-08-01,2023-08-01,4.0500,2023-08-29,4.1200,7.0000,-0.0173,-0.0452
+Moody's downgrade (Aaa to Aa1),2025-05-16,2025-05-16,4.4300,2025-06-16,4.4600,3.0000,0.0125,-0.0261
