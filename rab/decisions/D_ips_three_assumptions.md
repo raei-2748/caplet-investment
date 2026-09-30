@@ -57,6 +57,9 @@ and what must the IPS say about them?
 **Implications**
 - **IPS: fix-before-6-Nov, costs only.** About ten words, paid for by trimming elsewhere.
 - **IPS: none for assumption 1**, which is already covered. **Assumption 2 is optional** if words allow.
+- **Not a range assumption, but stated anyway: coupon reinvestment** on the ten holdings. It does not move the 2031
+  top. It decides whether Laura's cushion survives (D6 memo; W `ws2.d6.ladder_gap`). It is already fix-before-6-Nov
+  (Gate A, `rab/assumptions.md` C3: "needs no rebalancing"), so it shares the spare words with the cost clause.
 - This refines Gate B triage item 1, which marked all three fix-before. Reasons: the IPS text read today, and the
   500-word limit.
 - **Final Report: note-in-Final-Report.** Include the table above, and the stock-return assumption with why it hardly

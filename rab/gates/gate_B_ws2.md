@@ -246,3 +246,40 @@ These are the cards' stated limits. WS7 should challenge them.
 - **Rerun from the worktree root:** `make -f rab/models/ws2.mk all` (about 1 minute), then
   `/Users/ray/Research/rab-ws/.venv/bin/python rab/verification/gateB_ws2/gateB_ws2_checks.py` (about 20 s). The
   check needs the blind paths; `rab/verification/blind_ws2/run_all.sh` regenerates them.
+
+## 8. Re-check after the merge (30 Sep, 14:28 AEST)
+
+- **The verdict still holds: PASS, 0 UNRECONCILED.**
+  - `make -f rab/models/ws2.mk all` was rerun. Every output was byte-identical; only the three run-log time stamps
+    changed, and those were reverted.
+  - `gateB_ws2_checks.py` was rerun on the moved blind folder. All six outputs were byte-identical; only the log time
+    stamp changed.
+  - The WS2 files on `rab/integration` match `rab/ws2` (ac258db).
+  - `numbers.yaml` is still `492ed320...`.
+- **A red-team challenge that Gate B cannot settle (for Gate D, not a discrepancy).**
+  - WS7 (`rab/redteam/ws7_devils_advocate_checks.py` [1], commit 913c4f1 on rab/ws7) reran the primary M4 code. It
+    took the Book L coupon-reinvestment shortfall (`numbers.yaml` `reinvest.rung.*`) out of Laura's kept money.
+  - Its "as run" rows reproduce the primary exactly, because they use the same code (T s* 0.50, 95.3%; BOOT 0.47,
+    93.6%).
+  - With the shortfall at today's yields minus 2 points, no share passes PR-5, not even share 0 (T 94.9%).
+  - This is a different question from M4_SPEC, whose K has no ladder term. It is one of the shared assumptions in s6
+    (one curve, the stylised floor), which the two builds cannot test against each other.
+  - The D6 numbers above are reconciled on the spec's basis. Whether that basis is the right one for Book L is WS7's
+    item at Gate D. It is not reopened here, and the strategy is unchanged.
+
+## 9. Coupon check for WS7's challenge (30 Sep, after s8)
+
+- **What was added.** `rab/models/m4_ladder_gap.py` (make target `m4-gap`). It is a sensitivity, not part of the
+  pre-registered rule. It reruns the D6 rule with Laura's kept money reduced by the Book L rung gaps
+  (`numbers.yaml` `reinvest.rung.*`), on both builds in one run: primary code and paths, and blind code and paths.
+  Outputs: `rab/results/M4/ladder_gap*.csv` and `ladder_gap_log.txt`. Keys: `ws2.d6.ladder_gap` and
+  `ws2.d6.ladder_gap_tolerance` in `rab/numbers_ws2.yaml`.
+- **Reconciliation.** The primary rows equal WS7's output (913c4f1) line for line. Primary against blind is WITHIN TOL
+  on every probability. The robust share is the same in every scenario (0.47 / 0.42 / none / none / none). The
+  tolerances are within 1.4%. The only split is T at yields 2 points lower and share 0: 94.9% against 95.0%, a
+  knife-edge on the 95% line. Both builds still give "none" as the robust share, because BOOT and BAYES fail.
+- **Result.** Under rule reading R1, Laura's real ladder is Book L. At today's yields the gap is about $1,613 (valued
+  1 Jan 2033), and PR-7 still keeps half (robust 0.42). Half survives gaps up to about $2,352. At yields 2 points
+  lower no share passes. Decision memos updated; the strategy and the D6 decision are unchanged. The coupon fix stays
+  the Gate A / Gate D item.
+- Every earlier output is unchanged: the new script writes only new files. `numbers.yaml` is still `492ed320...`.
