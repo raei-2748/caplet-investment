@@ -1,0 +1,30 @@
+[1] D6 rule with kept money net of the Book L coupon shortfall (MODEL)
+    scenario none (M4 as run): rung gaps $0, value on 1 Jan 2033 $0
+    scenario own yield - 2pp : rung gaps $20,826, value on 1 Jan 2033 $18,003
+    scenario 2%              : rung gaps $33,814, value on 1 Jan 2033 $30,493
+    scenario 0%              : rung gaps $53,159, value on 1 Jan 2033 $53,159
+    T      none (M4 as run) largest passing share 0.5 | P(kept >= 10% of gift): share 1/2 95.3%, share 0 100.0% | kept, 1-in-20 case, share 1/2 $16,720
+    T      own yield - 2pp  largest passing share None | P(kept >= 10% of gift): share 1/2 41.6%, share 0 94.9% | kept, 1-in-20 case, share 1/2 $-1,283
+    T      2%               largest passing share None | P(kept >= 10% of gift): share 1/2 17.3%, share 0 76.4% | kept, 1-in-20 case, share 1/2 $-13,773
+    T      0%               largest passing share None | P(kept >= 10% of gift): share 1/2 3.5%, share 0 30.2% | kept, 1-in-20 case, share 1/2 $-36,439
+    BOOT   none (M4 as run) largest passing share 0.47 | P(kept >= 10% of gift): share 1/2 93.6%, share 0 99.6% | kept, 1-in-20 case, share 1/2 $15,491
+    BOOT   own yield - 2pp  largest passing share None | P(kept >= 10% of gift): share 1/2 45.2%, share 0 93.0% | kept, 1-in-20 case, share 1/2 $-2,511
+    BOOT   2%               largest passing share None | P(kept >= 10% of gift): share 1/2 20.6%, share 0 75.7% | kept, 1-in-20 case, share 1/2 $-15,002
+    BOOT   0%               largest passing share None | P(kept >= 10% of gift): share 1/2 3.8%, share 0 34.1% | kept, 1-in-20 case, share 1/2 $-37,668
+    BAYES  none (M4 as run) largest passing share 0.47 | P(kept >= 10% of gift): share 1/2 93.2%, share 0 100.0% | kept, 1-in-20 case, share 1/2 $15,483
+    BAYES  own yield - 2pp  largest passing share None | P(kept >= 10% of gift): share 1/2 42.8%, share 0 92.8% | kept, 1-in-20 case, share 1/2 $-2,520
+    BAYES  2%               largest passing share None | P(kept >= 10% of gift): share 1/2 20.9%, share 0 73.3% | kept, 1-in-20 case, share 1/2 $-15,010
+    BAYES  0%               largest passing share None | P(kept >= 10% of gift): share 1/2 5.2%, share 0 32.9% | kept, 1-in-20 case, share 1/2 $-37,676
+
+[2] Fund choice: gold/REIT (A4) against VT (A0), gift percentiles (rab/results/M6/fund_alternatives.csv)
+    MC_JPM            : bad case (p5) +1,164; good case (p95) -1,128; spread narrows 2,292, of which the lower good case is 49%; median total 2033 money +564
+    history_1928_2020 : bad case (p5) +832; good case (p95) -3,900; spread narrows 4,732, of which the lower good case is 82%; median total 2033 money -4,370
+    etf_2011_2020     : bad case (p5) +129; good case (p95) -1,159; spread narrows 1,289, of which the lower good case is 90%; median total 2033 money -2,854
+
+[3] WInS bond list vs MSPD Table V (31 Aug 2026)
+    MSPD classes: {'Treasury Notes': 242, 'Treasury Bonds': 113, 'Treasury Inflation-Protected Securities': 54, 'Grand Total': 1}
+    Treasury Bonds outstanding: 112; maturing strictly between 15 Feb 2031 and 15 Feb 2036: 0
+    Treasury Bonds maturing 2036-2042: 32; of which coupon < 3%: 10 [('1.125', '2040-05-15'), ('1.125', '2040-08-15'), ('1.375', '2040-11-15'), ('1.875', '2041-02-15'), ('2.25', '2041-05-15'), ('1.75', '2041-08-15'), ('2', '2041-11-15'), ('2.375', '2042-02-15'), ('2.75', '2042-08-15'), ('2.75', '2042-11-15')]
+    WInS drop-down: 43 US Treasuries including matured ones (tab WInS Notes, premortem PM-01); 7 of the 2036-2042 bonds were seen with prices (tab Book L, wins_prices_2026-09-28.csv)
+
+[4] IPS body words (30 Sep snapshot): 483 of 500
