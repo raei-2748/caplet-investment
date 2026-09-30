@@ -7,7 +7,8 @@ What it checks (rules in note_rules.py; sources there):
         a banned word, or phrase overlap of 50% or more with an EXAMPLE note (PM-13: rewrite, or disclose the
         exemplar in the Final Report's Works Cited).
   WARN  286-300 characters, no official role word, nothing tied to Laura (a year alone does not count), more than one
-        analytic number, a number not traced to rab/numbers.yaml, a dollar figure without "in Laura's plan",
+        analytic number, a number not traced to rab/numbers.yaml (digits, or words such as "a quarter of a
+        percentage point", "almost exactly", "most of"), a dollar figure without "in Laura's plan",
         overlap of 25-49% (not a pass: rewrite, or disclose the exemplar in Works Cited), or a shared run of 6 or
         more words with an exemplar. With --pick (a note that may be featured in the Trading Notes Analysis): no
         mention of the residency, co-sponsors or which of her ten payments.
@@ -99,7 +100,7 @@ def self_test():
         print(f"   {r['note_id']:7s} {len(r['exemplar']):3d} chars  {'pass' if not bad else bad}")
         ok &= not bad
     base = next(r for r in ex if r["note_id"] == "IBTM_P")["exemplar"]
-    copied = base.replace("it covers", "it funds").replace("What its income earns", "What its income makes")
+    copied = base.replace("has two jobs", "does two jobs").replace("Its end value", "Its final value")
     assert copied != base
     f, _ = report(copied, ticker="IBTM", ex=ex, quiet=True)
     print(f"2. A lightly edited copy of the IBTM exemplar is caught: {'yes' if any('overlap' in x for x in f) else 'NO'}")
@@ -122,6 +123,14 @@ def self_test():
     _, w_gen = report(generic, ticker="IBTR", ex=ex, quiet=True, pick=True)
     caught = not any("pick anchor" in x for x in w_pick) and any("pick anchor" in x for x in w_gen)
     print(f"5. --pick passes the IBTR exemplar and warns on a draft with no residency, co-sponsor or 'her ten': "
+          f"{'yes' if caught else 'NO'}")
+    ok &= caught
+    wordnum = ("Role: future funding. Tested before our first order: Laura's ten $50,000 payments cost under her "
+               "$300,000 first deposit. If yields fall about a fifth of a percentage point, her 2028 deposit tops up "
+               "the earliest.")
+    _, w_word = report(wordnum, ticker="IBTR", ex=ex, quiet=True)
+    caught = any("numbers traced" in x and "a fifth of a percentage point" in x for x in w_word)
+    print(f"6. A number written in words that is not declared ('a fifth of a percentage point') is flagged: "
           f"{'yes' if caught else 'NO'}")
     ok &= caught
     print("SELF-TEST " + ("PASS" if ok else "FAIL"))

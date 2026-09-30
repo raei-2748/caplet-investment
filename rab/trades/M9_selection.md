@@ -35,7 +35,7 @@ today's curve.
 | 1 Jan 2035 payment | **IBTP** iShares iBonds Dec 2034 Term Treasury ETF [UNVERIFIED name] | IBTO (ends a year early) | Same logic. At 2%, it delivers 94.9% against 92.4% for the runner-up. |
 | 1 Jan 2036 payment | **IBTQ** iShares iBonds Dec 2035 Term Treasury ETF [UNVERIFIED name] | IBTP (ends a year early) | Same logic. At 2%, it delivers 93.9% against 91.7%. |
 | 1 Jan 2037 payment | **IBTR** iShares iBonds Dec 2036 Term Treasury ETF [UNVERIFIED name] | IBTQ, or the 4.5% bond of 15 Feb 2036 only if its WInS price passes the check (it was 111bp off on 29 Sep) | The only holding that ends in late 2036. It is thin ($37.6m in assets, iShares, 28 Sep), but our order is 2.5% of a median day. |
-| 1 Jan 2038 payment | **T 4.750% 15-Feb-2037** (CUSIP 912810PT9) [price SEEN; WInS string UNVERIFIED] | T 5.000% 15-May-2037 (912810PU6), if listed | Its price passes (-15bp). The May-2037 bond ends 3 months later but has a higher coupon, so it comes out the same at 2% (90.5% each). |
+| 1 Jan 2038 payment | **T 4.750% 15-Feb-2037** (CUSIP 912810PT9) [price SEEN; WInS string UNVERIFIED] | **T 5.000% 15-May-2037 (912810PU6), swap in if listed and passing (1 Oct rule)** | Its price passes (-15bp). The May-2037 bond ends 3 months nearer the payment and delivers the same share at 2% (90.5% each), so it is the last bond before the payment, as for 2039. |
 | 1 Jan 2039 payment | **T 4.500% 15-May-2038** (912810PX0) [price SEEN] | T 4.375% 15-Feb-2038 only if Friday's price passes (92bp off on 29 Sep), else T 5.000% 15-May-2037 | It is the last bond maturing before the payment, and its price passes (-14bp). **The Sheet's accrued interest for it (0.530) is a typo**: 1.66 is right on 28 Sep (1.71 on 2 Oct). |
 | 1 Jan 2040 payment | **T 4.375% 15-Nov-2039** (912810QD3) [price SEEN] | T 4.500% 15-Aug-2039 (912810QC5), if listed | It ends 7 weeks before the payment and its price passes (-7bp). The runner-up is about equal (89.0% against 89.3% at 2%). |
 | 1 Jan 2041 payment | **T 4.250% 15-Nov-2040** (912810QL5) [price SEEN] | **T 1.375% 15-Nov-2040 (912810ST6), better if listed** | Same date, but only 17% of its cash comes as coupons, against 38%. At 2%, it delivers 93.9% against 87.9%. See the decision below. |
@@ -101,13 +101,22 @@ so less has to be reinvested at rates nobody knows. That is the risk the IPS lin
 At today's forward rates both need about $23,000 (MODEL: $26,456 / $24,641 / $23,266 / $23,146 in
 `m9_screen_2026-09-28.json`; the 1.375% is at the curve model price because no WInS price has been seen).
 
-- **If WInS lists them on Friday and their prices pass the 25bp check,** the team can use them in place of the
-  4.250% and 3.125% bonds. Run `refresh_tickets.py --basis friday --swap "T 4.250% 15-Nov-2040=T 1.375% 15-Nov-2040"`
-  (and the same for Nov-2041). It re-sizes the ticket and checks the price.
-- **Or keep Friday as planned, and make the swap the October refinement** (`october_trade.md`, trigger D), after the
-  team has worked through the coupon issue and fixed the IPS wording.
-- **If WInS does not list them,** nothing changes in WInS. The Final Report can still say that in Laura's real plan,
-  low-coupon bonds (or STRIPS, if the looser reading of "for BOTH contributions" holds) cut the coupon risk.
+**The rule for the 1 Oct vote (revised after the second judge panel, 30 Sep): one rule for every same-slot
+alternate.** If WInS lists it and its price is inside its 25bp band on Friday, swap it in on Friday
+(`refresh_tickets.py --basis friday --swap "OLD=NEW"`; it re-sizes the ticket and checks the price). If it is listed
+but its price fails, buy the planned bond; October trigger D swaps only if the price passes later. If it is not
+listed, nothing changes in WInS. Keeping a listed, passing bond for October is no longer an option: it would look
+like a trade made to create a "refined" pick. The three alternates:
+
+- **1.375% 15 Nov 2040** for the 4.250% (the 2041 payment; the gain above);
+- **2.000% 15 Nov 2041** for the 3.125% (the 2042 payment; coupons 33% down to 24% of the cash);
+- **5.000% 15 May 2037** for the 4.750% Feb 2037 (the 2038 payment). This one is about timing, not coupons: it ends
+  three months nearer the payment, so less money waits, and at 2% both deliver the same share (90.5%). The table's
+  $27,645 against $27,985 prices the May 2037 bond at the curve model and the Feb 2037 bond at a WInS price 15bp
+  rich, so that 1.2% gap is not a reason on its own; Friday's WInS prices decide the size.
+
+If WInS lists none of them, the Final Report can still say that in Laura's real plan, low-coupon bonds (or STRIPS,
+if the looser reading of "for BOTH contributions" holds) cut the coupon risk.
 
 This is security selection inside the adopted strategy: the same payment dates and the same kind of instrument.
 It does not change the strategy.

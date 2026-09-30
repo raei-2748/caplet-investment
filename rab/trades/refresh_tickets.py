@@ -374,6 +374,19 @@ def dirty_for_sizing(k, ctx):
     return p["ref"] + acc
 
 
+def plan_split(ctx):
+    """Laura's plan after both deposits, from this context's curve (M1_METHOD.md section F): the ten payments at
+    their 1 Jan 2027 cost (Nov-15 basis), the $150,000 floor at the 5-year yield, the stock fund = the rest. If the
+    payments cost more than $300,000, the 2028 deposit tops up the earliest first and the stock fund is smaller."""
+    L = m1.liability(ctx["cv"], "nov15")
+    y1, y5 = float(ctx["row"]["1 Yr"]) / 100, float(ctx["row"]["5 Yr"]) / 100
+    left = START_CASH - L["fwd_2027"]
+    G = left * (1 + y1) + 150_000
+    floor = 150_000 / (1 + y5) ** 5
+    tot = L["fwd_2028"] + G
+    return L, {"ladder": L["fwd_2028"] / tot, "floor": floor / tot, "vt": (G - floor) / tot}
+
+
 def units_rule(ctx):
     """The Sheet's own sizing rules (M1_METHOD.md B4), at this context's prices and curve."""
     cv = ctx["cv"]
@@ -433,9 +446,12 @@ def ticket(book, seq, k, qty, ctx):
         dm = m1.model_dirty(cv, c, mat, s_chk)
         y_mod = m1.street_yield(c, mat, s_chk, dm)
         gap = (y_ref - y_mod) * 1e4
-        mx = m1.clean_at_yield(c, mat, s_chk, y_ref - BOND_MOVE_BP / 1e4)
-        mn = m1.clean_at_yield(c, mat, s_chk, y_ref + BOND_MOVE_BP / 1e4)
         band25 = (m1.clean_at_yield(c, mat, s_chk, y_mod + 0.0025), m1.clean_at_yield(c, mat, s_chk, y_mod - 0.0025))
+        # max/min price: 10bp of yield either side of the reference, but never outside the 25bp curve band, so stop
+        # rule 3's two tests cannot disagree (judge panel round 2, 30 Sep: the Feb-2037 max 97.940 sat above the band
+        # top 97.919 because its reference was already 15.3bp rich)
+        mx = min(m1.clean_at_yield(c, mat, s_chk, y_ref - BOND_MOVE_BP / 1e4), band25[1])
+        mn = max(m1.clean_at_yield(c, mat, s_chk, y_ref + BOND_MOVE_BP / 1e4), band25[0])
         acc_locked = a_rec if a_rec is not None else a_tr
         # expected Preview: the accrued WInS itself showed (typed on Friday), else our act/act figure to the trade date
         a_prev = a_rec if (ctx["basis"] == "friday" and a_rec is not None) else a_tr
@@ -708,7 +724,9 @@ def write_md(path, books, ctx, checks, trims, units_mode):
           "issuer/Nasdaq close); bonds: the clean price WInS showed (per $100 face) plus accrued interest. Ticket "
           "prices on Friday come only from WInS or a timestamped close (PM-29).",
           f"- **Max price:** ETFs: reference x (1 + the larger of 0.5% and two daily standard deviations over 20 "
-          f"sessions). Bonds: the clean price at a yield {BOND_MOVE_BP}bp below the reference yield.",
+          f"sessions). Bonds: the clean price at a yield {BOND_MOVE_BP}bp below the reference yield, capped at the top "
+          f"of the 25bp curve band (and the min price floored at its bottom), so the two price tests in stop rule 3 "
+          f"always agree.",
           "- **2x-volume check:** shares / (2 x 30-session average daily volume), the official rule; the column also "
           "shows shares / the 20-session median day (kit rule: at most 10%). Every order is also below half of the "
           "lowest day in 20 sessions (the WInS FAQ rule, worst full day). Volumes: Nasdaq consolidated, complete sessions.",
@@ -746,6 +764,10 @@ def main():
                     "filled; bonds are then re-sized from it (use with --units rule)")
     ap.add_argument("--cash-before-vt", type=float, help="Portfolio, next session: the cash WInS shows once the bonds "
                     "have filled; VT (order 11) is sized from it, never above the plan share")
+    ap.add_argument("--split-from-curve", action="store_true",
+                    help="size the Portfolio book from the plan split this curve prints, not the typed 65.9/24.3/8.7 "
+                    "(use only when the IBTR test fails: ten payments above $300,000 on 1 Jan 2027; needs --units "
+                    "rule; one point of the floor stays as cash, as in the typed split)")
     a = ap.parse_args()
     td = date.fromisoformat(a.trade_date)
     if a.cash_after_etfs is not None and a.book == "both":
@@ -762,6 +784,13 @@ def main():
             ap.error("--swap needs --units rule (the Sheet has no units for an alternate)")
         old, new = [x.strip() for x in sw.split("=")]
         add_swap(ctx, old, new)
+    if a.split_from_curve:
+        if units_mode != "rule":
+            ap.error("--split-from-curve needs --units rule (the Sheet's units are the typed split)")
+        _, sp = plan_split(ctx)
+        SPLIT.update({"ladder": round(sp["ladder"], 3), "floor": round(sp["floor"] - 0.01, 3), "vt": round(sp["vt"], 3)})
+        print(f"--split-from-curve: sizing from ladder {SPLIT['ladder']:.1%} / floor {SPLIT['floor']:.1%} (+1.0% cash) / "
+              f"stock fund {SPLIT['vt']:.1%}")
     units = units_sheet() if units_mode == "sheet" else units_rule(ctx)
     trims = []
     books = {}
@@ -789,17 +818,14 @@ def main():
     checks += words
     write_md(md_p, books, ctx, checks, trims, units_mode)
     # plan-split drift warning (information only; the split is the team's typed input). M1_METHOD.md section F.
-    L = m1.liability(ctx["cv"], "nov15")
-    y1, y5 = float(ctx["row"]["1 Yr"]) / 100, float(ctx["row"]["5 Yr"]) / 100
-    left = START_CASH - L["fwd_2027"]
-    G = left * (1 + y1) + 150_000
-    floor = 150_000 / (1 + y5) ** 5
-    tot = L["fwd_2028"] + G
-    split = {"ladder": L["fwd_2028"] / tot, "floor": floor / tot, "vt": (G - floor) / tot}
+    L, split = plan_split(ctx)
     print(f"{ctx['label']}\ncurve {ctx['curve_date']}: ten payments cost ${L['fwd_2027']:,.0f} on 1 Jan 2027 "
-          f"(Nov-15 basis, MODEL); plan split ladder {split['ladder']:.1%} / floor {split['floor']:.1%} / stock fund "
-          f"{split['vt']:.1%} vs typed 65.9 / 25.3 (24.3 + 1 cash) / 8.7")
-    if abs(split["vt"] - SPLIT["vt"]) > 0.01:
+          f"(Nov-15 zero-coupon basis, the numbers.yaml basis; MODEL); plan split ladder {split['ladder']:.1%} / floor "
+          f"{split['floor']:.1%} / stock fund {split['vt']:.1%} vs typed 65.9 / 25.3 (24.3 + 1 cash) / 8.7")
+    if L["fwd_2027"] > START_CASH and not a.split_from_curve:
+        print("  IBTR TEST FAILS: the ten payments cost more than $300,000. Do not stop trading: re-run with "
+              "--split-from-curve and trade that ticket (friday_checklist.md, 'If the IBTR test fails')")
+    elif abs(split["vt"] - SPLIT["vt"]) > 0.01 and not a.split_from_curve:
         print("  NOTE: the stock-fund share moved more than 1 point from the typed split: a team decision, "
               "not applied here (see october_trade.md trigger B)")
     for book, rows in books.items():
