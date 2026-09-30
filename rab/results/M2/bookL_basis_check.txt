@@ -1,0 +1,20 @@
+holding                  pays              cost     at fwds       x     resized
+IBTM                     2033-01-01   36,513.28   49,855.80  1.0029   36,618.89
+IBTO                     2034-01-01   34,599.06   49,829.23  1.0034   34,717.64
+IBTP                     2035-01-01   32,824.20   49,950.97  1.0010   32,856.42
+IBTQ                     2036-01-01   31,070.70   49,918.68  1.0016   31,121.32
+IBTR                     2037-01-01   29,409.48   49,905.66  1.0019   29,465.07
+T 4.750% 15-Feb-2037     2038-01-01   29,315.98   52,377.17  0.9546   27,985.46
+T 4.500% 15-May-2038     2039-01-01   27,823.77   52,668.96  0.9493   26,413.82
+T 4.375% 15-Nov-2039     2040-01-01   25,104.56   50,731.33  0.9856   24,742.66
+T 4.250% 15-Nov-2040     2041-01-01   23,596.73   50,710.23  0.9860   23,266.24
+T 3.125% 15-Nov-2041     2042-01-01   22,481.35   51,531.43  0.9703   21,813.24
+
+Book L as sized, ex commission          292,739.11
+Book L as sized, with $175 commission    292,914.11
+Book L delivers at forward rates        507,479.46  (target 500,000.00)
+Book L resized to $50,000 a rung at forwards, ex commission      289,000.75
+Book L resized to $50,000 a rung at forwards, with commission    289,175.75
+STRIPS, Nov-15 basis (numbers.yaml laura.ladder.cost_today_strips)   289,119.20
+Resized Book L minus STRIPS: ex commission -118.45; with commission +56.55
+Extra cost of the Sheet sizing over the resized ladder (ex commission) 3,738.36
