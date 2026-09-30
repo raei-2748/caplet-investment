@@ -6,7 +6,8 @@ inputs (numbers.yaml, the Sheet/WInS snapshots, the ETF volume file, MSPD Table 
 instead of trusting refresh_tickets.py or build_notes.py. Standard library + PyYAML.
 
 Checks (RAB Kit RUN_PLAN s3 WS6 DoD and Gate C):
-  G1 length     every exemplar <= 300 characters (WInS box), <= 285 (kit margin), char_count column right, ASCII, one
+  G1 length     every exemplar <= 300 characters (WInS box), <= its kit_limit (285, or 295 when no security name is
+                left to swap in: judge panel round 3), char_count column right, ASCII, one
                 paragraph; the exemplar in notes.md is the same text; each TN reflection outline <= 100 words.
   G2 names      every ticket and note security has an expected WInS name that fits its ticker (iBonds: 'Dec <year>' ends
                 the right year; bonds: coupon + maturity, CUSIP in MSPD with that coupon and date); never IBTN /
@@ -25,7 +26,11 @@ Checks (RAB Kit RUN_PLAN s3 WS6 DoD and Gate C):
   G7 mirror     the committed mirrors of the Sheet tabs 'RAB Tickets' / 'RAB Notes' (rab/sheets/*.csv, written by
                 build_sheet_tabs.py) carry the same orders, quantities, prices and max prices as tickets.csv and the same
                 exemplar text as notes.csv, with no retired note left. (The LIVE tabs are read with the Sheets connector
-                and compared by hand; this script stays offline. See gate_C.md.)
+                and compared by hand; this script stays offline. See gate_C.md.) Also: the tab's own cost formulas
+                (Q expected, R worst case) evaluated from the mirror equal the kit's Preview and worst-case costs.
+  G8 live       optional: the newest dated read-only snapshot of the LIVE 'RAB Notes' tab (rab/data/sheet/
+                RAB_Notes_live_*.json) against the kit, exemplar and brief. Differences are STALE (fix before
+                Friday), never FAIL.
 
 Run from the worktree root:  /Users/ray/Research/rab-ws/.venv/bin/python rab/trades/check_gate_c.py
 Writes rab/gates/gate_C_results.json. Exit 1 if any FAIL. UNVERIFIED = cannot be settled offline (needs the WInS
@@ -57,7 +62,7 @@ if "--self-test" in sys.argv:   # mutation tests: each broken copy of the kit mu
         ("wrong ordinal", "notes.csv", "is for the fourth of Laura's ten", "is for the fifth of Laura's ten", "G5 trace"),
         ("stale fact in a kit doc", "tickets.md", "# ", "# Trading ends Dec 4. ", "G6 stale"),
         ("superseded book as current", "october_trade.md", "# ", "# Buy TLH. ", "G6 stale"),
-        ("Sheet mirror out of date", "notes.csv", "Its reinvested income can vary.", "Its reinvested income may vary.", "G7 mirror"),
+        ("Sheet mirror out of date", "notes.csv", "the amount it pays out that December is not fixed.", "the amount it pays out that December may vary.", "G7 mirror"),
     ]
     bad = 0
     for label, f, old, new, want in CASES:
@@ -163,7 +168,9 @@ for n in notes:
     t = n["exemplar"]
     ok = len(t) <= BOX and int(n["char_count"]) == len(t) and t.isascii() and "\n" not in t and t == t.strip()
     rec("G1 length", n["note_id"], ok, f"{len(t)} chars (box {BOX}); char_count column {n['char_count']}; ascii {t.isascii()}")
-    rec("G1 length", n["note_id"] + " kit margin", len(t) <= KIT, f"{len(t)} <= {KIT}")
+    kit = int(n.get("kit_limit") or KIT)
+    rec("G1 length", n["note_id"] + " kit margin", len(t) <= kit and kit in (KIT, 295),
+        f"{len(t)} <= {kit}" + (" (no security name left to swap in)" if kit != KIT else ""))
     rec("G1 length", n["note_id"] + " same text in notes.md", t in notes_md, "exemplar found verbatim in notes.md")
 outl = re.search(r"### Reflection outlines.*?(?=\*\*Keep out of all reflections)", notes_md, re.S).group(0)
 for m in re.finditer(r"\*\*((?:Pick|Alternate) [^*]+)\*\* \((\d+) words[^)]*\)\n\n((?:- .*\n?)+)", outl):
@@ -338,32 +345,34 @@ NOV40 = "T40b|T40s|SW40|OD_S|OD_B"
 # (note ids, regex span in the exemplar, derivation -> (ok, detail, status)). Rebuilt 30 Sep after the second judge
 # panel's exemplar rewrites (notes.md at 104476c+): every number word in the new texts sits inside one of these.
 CLAIMS = [
-    ("IBTR|IBTR_F", r"Tested before this first order", lambda: (tickets[0]["id"] == "IBTR" and tickets[0]["seq"] == "1",
+    ("IBTR|IBTR_F", r"We checked first", lambda: (tickets[0]["id"] == "IBTR" and tickets[0]["seq"] == "1",
      "IBTR is Friday order 1 (tickets.csv seq 1); the refresh runs before any order (friday_checklist.md)", None)),
     ("IBTR", r"cost under her \$300,000 first deposit",
      lambda: (cost27 < 300000, f"laura.ladder.cost_2027_strips ${cost27:,.2f} < $300,000 (28 Sep curve, zero-coupon basis; re-run Friday)", None)),
     ("IBTR_F", r"cost more than her \$300,000 first deposit", cond("typed only if the Friday refresh is above $300,000 (friday_checklist.md)")),
-    ("IBTR", r"about a quarter of a percentage point", lambda: (20 <= be <= 30, f"laura.ladder.breakeven_fall_bp_strips {be}bp; the note says 'over about'", None)),
+    ("IBTR", r"about a quarter of a percentage point", lambda: (22.5 <= be < 30, f"laura.ladder.breakeven_fall_bp_strips {be}bp: 'about a quarter' "
+     "is the 22.5-30bp band refresh_tickets.py prints; the note says 'over about'", None)),
     ("IBTR|IBTR_F", r"future funding for the fifth", None),
     ("IBTR|IBTR_F|OB_S", r"tops up (the earliest|her first payment)",
      lambda: ("latest payments first" in ips and "for the 2028 deposit to complete" in ips,
               "IPS 'latest payments first' + 'leave some payments for the 2028 deposit to complete': a short deposit leaves the earliest", None)),
-    ("IBTR", r"stocks get less", lambda: ("secured before anything is invested" in ips,
-     "IPS: payments and floor 'secured before anything is invested' in stocks; WS4 memo: the gap lands on the stock fund", None)),
-    ("IBTR_F", r"so we hold less stock than planned", cond("--split-from-curve lowers VT's share when the test fails (refresh_tickets.py)")),
+    ("IBTR", r"the facility gets less", lambda: ("for the 2028 deposit to complete" in ips and "repay the whole remainder" in ips,
+     "IPS: the 2028 deposit completes the payments, and the floor and stock fund come from what remains: a top-up "
+     "leaves less for the facility whether the floor is fixed (kit, WS4) or the remainder (IPS literal)", None)),
+    ("IBTR_F", r"so less is left for the facility", cond("--split-from-curve lowers the facility share when the test fails (refresh_tickets.py)")),
     ("IBTQ", r"the fourth of Laura's ten", None),
-    ("IBTQ", r"no Treasury bond maturing between Feb 2031 and Feb 2036", lambda: (gap_seen, "tab WInS Notes, SEEN 29 Sep", None)),
+    ("IBTQ", r"WInS lists no Treasury bond maturing in 2035", lambda: (gap_seen, "tab WInS Notes, SEEN 29 Sep (gap Feb 2031-Feb 2036)", None)),
     ("IBTQ", r"closest fit", lambda: (slot(2036, "IBTQ")["months_early"] < slot(2036, "IBTP")["months_early"],
                                       "M9 slot 2036: IBTQ ends 0.6 months early, IBTP 12.6", None)),
-    ("IBTP", r"almost exactly the value", lambda: (abs(prem) < 0.1, f"wins.ibond_checks.IBTP.premium_to_nav_pct {prem}% on 28 Sep; the note reports the trade-date re-run", "CONDITIONAL")),
+    ("IBTP", r"almost exactly the value", lambda: (abs(prem) < 0.1, f"wins.ibond_checks.IBTP.premium_to_nav_pct {prem}% on 28 Sep; the note reports the 1 Oct close premium read on Friday", "CONDITIONAL")),
     ("IBTO", r"the second of Laura's ten", None),
     ("IBTO", r"WInS lists no Treasury bond maturing in 2033", lambda: (gap_seen, "tab WInS Notes, SEEN 29 Sep (gap Feb 2031-Feb 2036)", None)),
     ("IBTM_P", r"has two jobs", lambda: ("floor" in tickets[4]["serves"] and "2033" in tickets[4]["serves"],
      f"Portfolio ticket 5 serves '{tickets[4]['serves']}'", None)),
     ("IBTM_P|IBTM_R", r"(her|Laura's) first \$50,000 payment", None),
     ("IBTM_P|VT|IBTM_R|OC", r"the least she plans to give", lambda: ("floor she can promise co-sponsors" in ips, "IPS: 'a floor she can promise co-sponsors' (definition)", None)),
-    ("IBTM_R", r"the half of the stock fund she keeps", lambda: ("The other half remains with Laura" in ips,
-     "IPS: 'The other half remains with Laura as a cushion'; naming it the backstop needs the 1 Oct vote", "CONDITIONAL")),
+    ("IBTM_R", r"the stock-fund half she keeps, not the floor, the first call on a shortfall", lambda: ("The other half remains with Laura" in ips,
+     "IPS: 'The other half remains with Laura as a cushion'; naming it the first call needs the 1 Oct vote and the IPS draft", "CONDITIONAL")),
     ("T41|SW41", r"the last of Laura's ten", None),
     ("T41", r"No iBonds Treasury fund ends (between|from) 2037 (and|to) 2043",
      lambda: (not [y for y in ish_end if 2037 <= y <= 2043], f"iShares list 30 Sep: ends {ish_end[:11][-1]} then {[y for y in ish_end if y > 2036][0]}", None)),
@@ -374,23 +383,23 @@ CLAIMS = [
      lambda: (all(rung0(k) < 1 for k in ("T_4.750%_15-Feb-2037", "T_4.500%_15-May-2038", "T_4.375%_15-Nov-2039", "T_4.250%_15-Nov-2040", "T_3.125%_15-Nov-2041")),
               "reinvest.rung.* at_0pct: set coupons + principal are 84-90% of each bond rung's $50,000", None)),
     (NOV40, r"(the )?ninth( of Laura's ten)?( \$50,000)?( payment)?", None),
-    (NOV40, r"(A lower-coupon bond of that date would leave|which leaves|[Mm]ore of its value (is owed|comes) at maturity, so) less (of her payment )?(rest(s|ing)|rides) on reinvest(ed|ing) coupons",
+    (NOV40, r"(A lower-coupon bond of that date would leave|which leaves|[Mm]ore of what it pays comes at maturity, so) less (of her payment )?(rest(s|ing)|rides) on reinvest(ed|ing) coupons",
      lambda: (lambda a, b: (a < b, f"M9 slot 2041: share of cash as coupons 1.375% {a:.1%} vs 4.250% {b:.1%}", None))(*cs(2041, "T 1.375% 15-Nov-2040", "T 4.250% 15-Nov-2040"))),
-    ("SW41", r"more of its value is owed at maturity, so less rests on reinvesting coupons",
+    ("SW41", r"more of what it pays comes at maturity, so less rests on reinvesting coupons",
      lambda: (lambda a, b: (a < b, f"M9 slot 2042: coupons share 2.000% {a:.1%} vs 3.125% {b:.1%}", None))(*cs(2042, "T 2.000% 15-Nov-2041", "T 3.125% 15-Nov-2041"))),
     ("T40b", r"but WInS does not list one", cond("used only if the Friday drop-down shows no 1.375% Nov-2040 (notes.md s4)")),
     ("T40s", r"WInS lists a 1\.375% bond of that date", cond("used only if the drop-down lists it (notes.md s5)")),
-    ("T40s", r"its price failed our curve check today", cond("used only if its Friday price is outside the 25bp band (notes.md s5)")),
-    ("T38|T40b", r"Its (WInS )?price passed our curve check",
+    ("T40s", r"its 1 Oct price failed our curve check", cond("used only if its 1 Oct price (shown Friday) is outside the 25bp band (notes.md s5)")),
+    ("T38|T40b", r"Its 1 Oct (WInS )?price passed our curve check",
      lambda: (lambda k: (not V(k)["flag"] and abs(V(k)["gap_bp"]) <= 25, f"{k} gap {V(k)['gap_bp']}bp, inside 25bp (28 Sep; re-checked Friday)", None))(
          "wins.bond_check.T_4.500%_15-May-2038" if nid_ctx[0] == "T38" else "wins.bond_check.T_4.250%_15-Nov-2040")),
     ("T39", r"about seven weeks", lambda: (6.5 <= d(date(2039, 11, 15), date(2040, 1, 1)) / 7 <= 7.5, f"15 Nov 2039 -> 1 Jan 2040 = {d(date(2039, 11, 15), date(2040, 1, 1))} days", None)),
-    ("T39", r"cover most of that payment",
+    ("T39", r"cover most of (it|that payment)",
      lambda: (0.5 < rung0("T_4.375%_15-Nov-2039") < 1, f"reinvest.rung.T_4.375%_15-Nov-2039 at_0pct {rung0('T_4.375%_15-Nov-2039'):.1%} of $50,000", None)),
-    ("T38", r"is the last before Laura's \$50,000 residency payment on 1 Jan 2039",
+    ("T38", r"is the last to mature before Laura's \$50,000 residency payment on 1 Jan 2039",
      lambda: (not between("2038-05-15", "2039-01-01"), "MSPD Table V 31 Aug 2026: no Treasury bond matures 16 May 2038 - 31 Dec 2038", None)),
     ("T38", r"about seven and a half months", lambda: (abs(d(date(2038, 5, 15), date(2039, 1, 1)) / 30.4375 - 7.5) < 0.25, f"15 May 2038 -> 1 Jan 2039 = {d(date(2038, 5, 15), date(2039, 1, 1))} days", None)),
-    ("T38", r"the 4\.375% Feb 2038 bond's price was stale", lambda: (abs(gap38) > 25, f"wins.bond_check.T_4.375%_15-Feb-2038 gap {gap38}bp (the 28 Sep close, seen 29 Sep)", None)),
+    ("T38", r"in her plan its money waits", lambda: (True, "Laura's plan holds the money in Treasury bills between maturity and payment (notes.md T38 brief)", None)),
     ("T37", r"about ten and a half months early", lambda: (abs(d(date(2037, 2, 15), date(2038, 1, 1)) / 30.4375 - 10.5) < 0.25, f"15 Feb 2037 -> 1 Jan 2038 = {d(date(2037, 2, 15), date(2038, 1, 1))} days", None)),
     ("T37", r"It is the last WInS bond maturing before then",
      lambda: ([(float(r["interest_rate_pct"]), r["maturity_date"]) for r in between("2037-02-15", "2038-01-01")] == [(5.0, "2037-05-15")],
@@ -400,14 +409,16 @@ CLAIMS = [
     ("SW37", r"its money waits three months less than with the Feb 2037 bond",
      lambda: (abs(d(date(2037, 2, 15), date(2037, 5, 15)) / 30.4375 - 3) < 0.25, f"15 Feb 2037 -> 15 May 2037 = {d(date(2037, 2, 15), date(2037, 5, 15))} days", None)),
     ("VT", r"bought last", lambda: (tickets[10]["id"] == "VT" and tickets[10]["seq"] == "11", "VT is Portfolio order 11 of 11", None)),
-    ("VT", r"A fall can cut her contribution, not below the floor",
+    ("VT", r"thousands of companies", lambda: ("a global index fund of thousands of companies" in ips, "IPS: 'a global index fund of thousands of companies'", None)),
+    ("VT", r"A fall can cut her (contribution|gift), not below the floor",
      lambda: ("not below the floor" in ips, "IPS: equities 'can reduce the facility contribution, but not below the floor'", None)),
-    ("VT", r"Half the fund stays hers", lambda: ("The other half remains with Laura" in ips, "IPS: 'The other half remains with Laura as a cushion'", None)),
+    ("VT", r"lifts the top of the range co-sponsors hear", lambda: ("to the floor plus half the equity fund" in ips,
+     "IPS: the range runs from the floor to the floor plus half the fund, so a rise moves only its top", None)),
     ("IBTM_L", r"the first of Laura's ten", None),
     ("IBTM_L", r"WInS lists no Treasury bond maturing in late 2032", lambda: (gap_seen, "tab WInS Notes, SEEN 29 Sep", None)),
     ("IBTM_L", r"closest fit", lambda: (slot(2033, "IBTM")["months_early"] < slot(2033, "T 5.375% 15-Feb-2031")["months_early"], "M9 slot 2033: IBTM 0.6 months early", None)),
     ("SW41|OD_S", r"(bond of )?the same date", lambda: (True, "same maturity (15 Nov): MSPD rows for both coupons", None)),
-    ("SW40|SW41|SW37", r"(Its|Its WInS) price passed our curve check", cond("used only if the WInS price sits inside the 25bp band the refresh prints (notes.md s5)")),
+    ("SW40|SW41|SW37", r"Its 1 Oct (WInS )?price passed our curve check", cond("used only if the WInS price sits inside the 25bp band the refresh prints (notes.md s5)")),
     ("OD_S", r"whose price now passes our curve check", cond("trigger D: the Friday price was stale (T40s) and now passes (october_trade.md)")),
     ("OD_B", r"Its price was stale on 2 Oct and now passes our curve check", cond("trigger D: the Friday price was stale (T40s) and now passes (october_trade.md)")),
     ("OB_S", r"(Laura's |the )ten payments now cost more than (Laura's|her) \$300,000 first deposit",
@@ -582,6 +593,73 @@ for f in ("rab_tickets.csv", "rab_notes.csv"):
             and not re.search(r"(?i)supersed|stale|retired|not the current", line)]
     rec("G6 stale", f"sheets/{f}", not hits, f"hits: {hits[:5]}" if hits else "none")
 
+# G7 (4th run): evaluate the tab's own cost formulas (columns Q and R) from the mirror's values and compare them with
+# the kit. The live tab showed worst-case cash $2,477.19 against tickets.md $2,445.28 because column R used the 2 Oct
+# accrued (N) instead of the kit's worst-case accrued (to the settle date); build_sheet_tabs.py now writes that to AE.
+wc_col = next((i for i, h_ in enumerate(H) if h_.startswith("Worst-case accrued per $100")), None)
+rec("G7 mirror", "RAB Tickets: worst-case accrued column", wc_col is not None,
+    "present" if wc_col is not None else "missing: column R cannot match the kit's worst case")
+for b in ("Portfolio", "BookL"):
+    tq = tw = 0.0
+    for t_ in [x for x in tickets if x["book"] == b]:
+        s_ = sh_rows.get((b, t_["seq"]))
+        if s_ is None:
+            continue
+        qty, comm = fnum(s_[col("Quantity")]), COMM[s_[col("Type")]]
+        if s_[col("Type")] == "Treasury":
+            q_ = qty / 100 * (fnum(s_[col("Reference price")]) + fnum(s_[col("Accrued interest per $100 (bonds)")])) + comm
+            acc_col = wc_col if wc_col is not None else col("Accrued interest per $100 (bonds)")  # old tab: R used N
+            w_ = qty / 100 * (fnum(s_[col("Max price (do not pay above)")]) + fnum(s_[acc_col])) + comm
+        else:
+            q_ = qty * fnum(s_[col("Reference price")]) + comm
+            w_ = qty * fnum(s_[col("Max price (do not pay above)")]) + comm
+        tq += q_
+        tw += w_
+        ok = abs(q_ - num(t_["preview_expected"])) < 0.02 and abs(w_ - num(t_["cost_max"])) < 0.02
+        rec("G7 mirror", f"RAB Tickets {b} #{t_['seq']} formulas", ok,
+            f"tab Q ${q_:,.2f} vs kit ${num(t_['preview_expected']):,.2f}; tab R ${w_:,.2f} vs kit ${num(t_['cost_max']):,.2f}")
+    bk = [x for x in tickets if x["book"] == b]
+    kit_exp = START_CASH - sum(num(x["preview_expected"]) for x in bk)   # tickets.md 'expected' cash
+    kit_w = num(bk[-1]["cash_after_worst"])
+    ok = abs(START_CASH - tq - kit_exp) < 0.05 and abs(START_CASH - tw - kit_w) < 0.05
+    rec("G7 mirror", f"RAB Tickets summary {b}", ok,
+        f"tab cash left expected ${START_CASH - tq:,.2f} / worst ${START_CASH - tw:,.2f}; kit "
+        f"${kit_exp:,.2f} / ${kit_w:,.2f}")
+
+# ------------------------------------------------------------------------------------------------ G8 live tabs
+# Optional: a dated read-only snapshot of the LIVE 'RAB Notes' tab (Sheets connector values.get, saved as JSON under
+# rab/data/sheet/). A live exemplar that differs from the mirror is STALE: the kit is right, the team's tab is not yet
+# rewritten (gate_C.md open item 7). STALE never fails the gate; it is a fix-before-Friday item.
+live = sorted(f for f in os.listdir(P("rab", "data", "sheet")) if f.startswith("RAB_Notes_live_") and f.endswith(".json"))
+if live:
+    LV = json.load(open(P("rab", "data", "sheet", live[-1])))["values"]
+    li = next(i for i, r in enumerate(LV) if r[:3] == ["Book", "Order", "Note ID"])
+    LH = LV[li]
+    lv_ex = {r[LH.index("Note ID")]: r[LH.index("Exemplar note")] for r in LV[li + 1:]
+             if len(r) > LH.index("Exemplar note") and r[LH.index("Note ID")]}
+    typed = [r[LH.index("Note ID")] for r in LV[li + 1:] if len(r) > LH.index("Team note (write here)")
+             and r[LH.index("Team note (write here)")].strip()]
+    for n_ in notes:
+        got = lv_ex.get(n_["note_id"])
+        rec("G8 live", f"live RAB Notes {n_['note_id']} ({live[-1][15:-5]})", got == n_["exemplar"],
+            "same as the kit" if got == n_["exemplar"] else ("missing on the live tab" if got is None
+                                                            else "live text is an older build"),
+            status=None if got == n_["exemplar"] else "STALE")
+    lv_br = {r[LH.index("Note ID")]: r[LH.index("Brief (facts the note may use)")] for r in LV[li + 1:]
+             if len(r) > LH.index("Brief (facts the note may use)") and r[LH.index("Note ID")]}
+    for n_ in notes:
+        got = lv_br.get(n_["note_id"])
+        rec("G8 live", f"live RAB Notes brief {n_['note_id']}", got == n_["brief"],
+            "same as the kit" if got == n_["brief"] else ("missing on the live tab" if got is None
+                                                         else "live brief is an older build"),
+            status=None if got == n_["brief"] else "STALE")
+    extra = sorted(set(lv_ex) - {n_["note_id"] for n_ in notes})
+    rec("G8 live", "live RAB Notes: no retired note left", not extra, f"extra ids: {extra}" if extra else "none",
+        status=None if not extra else "STALE")
+    rec("G8 live", "live RAB Notes: Team note column empty (safe to rewrite)", not typed,
+        "empty" if not typed else f"students typed in: {typed} (keep column M when rewriting)",
+        status=None if not typed else "STALE")
+
 # ------------------------------------------------------------------------------------------------ report
 cnt = {}
 for c, i, s, _ in R:
@@ -595,7 +673,8 @@ for c in sorted(cnt):
     print(f"{c:10s} " + ", ".join(f"{k} {v}" for k, v in sorted(cnt[c].items())))
 nf = sum(1 for r in R if r[2] == "FAIL")
 print(f"\nTOTAL {len(R)} checks: FAIL {nf}, UNVERIFIED {sum(1 for r in R if r[2] == 'UNVERIFIED')}, "
-      f"CONDITIONAL {sum(1 for r in R if r[2] == 'CONDITIONAL')}; numbers.yaml {h[:12]}")
+      f"CONDITIONAL {sum(1 for r in R if r[2] == 'CONDITIONAL')}, STALE (live tab) {sum(1 for r in R if r[2] == 'STALE')}; "
+      f"numbers.yaml {h[:12]}")
 out_dir = P("rab", "gates") if T == T0 else T
 os.makedirs(out_dir, exist_ok=True)
 json.dump({"numbers_yaml_sha256": h, "counts": cnt,

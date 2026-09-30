@@ -5,7 +5,8 @@
 # and reconciled at Gate B (rab/gates/gate_B_ws4.md; row = key in rab/verification/gateB_ws4/gateB_ws4_table.csv)
 # unless marked otherwise. Quote the quote_as string. Never put a rate-odds or gap figure in a WInS note.
 # Re-run on Friday's curve (m2_rate_paths.py --curve-date) before quoting anything after 2 Oct.
-# Odds and gap figures are STRIPS basis; see ws4.bookL_* for the WInS-listed ladder (coupon caveat, numbers.yaml reinvest.*).
+# Odds and gap figures are STRIPS basis; see ws4.bookL_* for the WInS-listed ladder (sized alike it costs the same to
+# within $100: rab/results/M2/bookL_basis_check.txt; its coupon risk is numbers.yaml reinvest.*, owned by D6/D_range/D_stress).
 meta:
   stream: WS4
   written: 2026-09-30 (Sydney)
@@ -116,22 +117,29 @@ numbers:
     value: 292914.11
     unit: USD on 28 Sep 2026, including $175 commission (Book L, the WInS-listed ladder, model accrued interest)
     quote_as: about $292,900 today for the WInS-listed ladder, against about $289,000 for STRIPS
-    what: basis caveat for every odds figure above (they are STRIPS basis); under assumptions.md R1(a) Laura's real
-      ladder is the WInS-listed one
+    what: the Sheet's Book L sizing (targets at each holding's end date, rounded up); it over-delivers, about $507,479
+      at forward rates against $500,000 (numbers.yaml reinvest.bookL_delivered.at_curve_forwards), so it is not a
+      like-for-like price comparison with STRIPS; see ws4.bookL_cost_resized
     source: rab/numbers.yaml wins.bookL.cost_model_accrued (locked, Gate A); STRIPS figure laura.ladder.cost_today_strips
     gate_b_row: n/a (locked numbers.yaml entry)
+  ws4.bookL_cost_resized:
+    value: {with_commission: 289175.75, ex_commission: 289000.75}
+    unit: USD on 28 Sep 2026 (Book L rescaled rung by rung to deliver exactly $50,000 per payment at forward rates;
+      WInS commission $175 = five ETF trades at $25 + five Treasury trades at $10)
+    quote_as: sized to pay exactly $50,000 a year, the WInS-listed ladder costs about $289,200, within $100 of STRIPS
+    what: like-for-like cost of the buyable ladder; minus STRIPS (laura.ladder.cost_today_strips 289,119.20) is
+      +56.55 with commission, -118.45 without; the Sheet sizing costs 3,738.36 more (ex commission) for extra money
+    status: DERIVED (MODEL) from the Gate-A-passed M1 output; stdlib and venv runs identical; not a Gate B row
+    source: rab/results/M2/bookL_basis_check.py -> bookL_basis_check.txt (reads rab/models/out/m1_results.json
+      E.bookL cost and v_curve)
+    gate_b_row: n/a (answers STATUS.md [ws7-fact-audit] 30 Sep, 'sizing artefact')
   ws4.gap_odds_2027_bookL:
     value: null
     unit: probability
-    quote_as: not computed; likely higher than the STRIPS figure (less room at today's prices)
-    status: NOT COMPUTED (M2 prices STRIPS only; a Book L run would need its own Gate B reconciliation)
-    source: rab/decisions/D_pre2027_rate_hedge.md (Evidence, Basis)
-  ws4.bookL_coupon_buffer_2pct:
-    value: 20399
-    unit: USD extra today
-    quote_as: about $20,000 more today keeps every payment whole if coupons earn only 2%
-    source: rab/numbers.yaml reinvest.bookL_buffer_cost.at_2pct (locked, Gate A)
-    gate_b_row: n/a (locked numbers.yaml entry)
+    quote_as: about the same as the STRIPS figure once sized alike (not computed)
+    status: 'NOT COMPUTED (M2 prices STRIPS only; a Book L run would need its own Gate B reconciliation). A WS7 scratch
+      run found about 35% (STATUS.md [ws7-kac-2], 30 Sep) - UNVERIFIED, not for quoting'
+    source: rab/decisions/D_pre2027_rate_hedge.md (Evidence, Basis); ws4.bookL_cost_resized
   ws4.move_index:
     value: {'2026-09-28': 101.82, '2026-09-29': 106.29}
     unit: index points (ICE BofA MOVE, via Yahoo ^MOVE, a secondary source)

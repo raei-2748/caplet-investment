@@ -57,11 +57,16 @@ and what must the IPS say about them?
 **Implications**
 - **IPS: fix-before-6-Nov, costs only.** About ten words, paid for by trimming elsewhere.
 - **IPS: none for assumption 1**, which is already covered. **Assumption 2 is optional** if words allow.
-- **Not a range assumption, but stated anyway: coupon reinvestment** on the ten holdings. It does not move the 2031
-  top. It decides whether Laura's cushion survives (D6 memo; W `ws2.d6.ladder_gap`). It is already fix-before-6-Nov
-  (Gate A, `rab/assumptions.md` C3: "needs no rebalancing"), so it shares the spare words with the cost clause.
+- **Not a range assumption, but stated anyway: coupon reinvestment** on the ten holdings, with who pays a shortfall.
+  With Laura's half paying first (D6 v5, WS3 rule 3), it never moves the 2031 top at today's yields and lowers it in
+  7-10% of paths if coupons earn 2 points less. It decides whether Laura's cushion survives (W `ws2.d6.gap_owner`).
+  It is already fix-before-6-Nov (Gate A, `rab/assumptions.md` C3: "needs no rebalancing"); the owner adds WS3's
+  "if coupons earn less" to the cushion sentence. With the cost clause and WS3's rules 1-2 this may need more than
+  the 17 spare words: the team trims elsewhere.
 - This refines Gate B triage item 1, which marked all three fix-before. Reasons: the IPS text read today, and the
   500-word limit.
 - **Final Report: note-in-Final-Report.** Include the table above, and the stock-return assumption with why it hardly
   matters. The source is JPM 2026 LTCMA, AC World 7.00%, data to 30 Sep 2025 (`rab/assumptions.md` E1).
 - **Trading Notes: none.** Keep Sobol shares and yield scenarios out of WInS notes.
+
+v5: coupon bullet names the kit's one owner (Laura's half first; D6 v5 = WS3 rule 3).

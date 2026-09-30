@@ -249,6 +249,14 @@ against the table here.
   20: `bookL_cost_today` ($292,914.11) and `bookL_coupon_buffer_2pct` ($20,399) are locked numbers.yaml entries
   (`wins.bookL.cost_model_accrued`, `reinvest.bookL_buffer_cost`); `gap_odds_2027_bookL` is `null`, NOT COMPUTED.
   None of the three is an M2 result, so this gate's table is unchanged, and the decision rests on none of them.
+- **Second memo revision (30 Sep, after WS7's fact-audit; 6b609b0):** the memo's "Book L odds likely higher" was
+  wrong. The Sheet sizes Book L to each holding's end date and rounds up, so it delivers $507,479 at forward rates,
+  not $500,000 (numbers.yaml `reinvest.bookL_delivered.at_curve_forwards`). Rescaled rung by rung to pay exactly
+  $50,000 at forwards, it costs $289,175.75 with commission ($289,000.75 without), against $289,119.20 for STRIPS
+  (`rab/results/M2/bookL_basis_check.py`, reads the Gate-A-passed `m1_results.json`; stdlib and venv runs identical).
+  So the odds should be about the same on either basis; still not computed. `bookL_coupon_buffer_2pct` was removed
+  (the memo no longer uses it; the coupon-gap owner belongs to D6/D_range/D_stress) and `bookL_cost_resized` added
+  (DERIVED, not an M2 result): still 20 entries. This gate's table is unchanged and the decision rests on none of them.
 
 ## 7. What Gate B cannot catch
 

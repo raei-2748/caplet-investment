@@ -7,7 +7,9 @@ WInS note box maxlength 300 (tab WInS Notes, SEEN 29 Sep 2026).
 """
 import re
 
-MAX_NOTE = 285   # kit limit (PM-12): leaves 15 characters of margin under the box
+MAX_NOTE = 285   # kit limit (PM-12): leaves 15 characters of margin under the box for a longer WInS name string
+MAX_FIXED = 295  # a note whose text is fixed before Friday: it names no security (IBTR) or only one whose exact WInS
+                 # name was SEEN (IBTM, VT), so no longer name can be swapped in (judge panel round 3, 30 Sep)
 BOX = 300        # WInS note box maxlength (SEEN 29 Sep 2026)
 
 # pattern -> why it is banned in a note
@@ -26,13 +28,21 @@ BANNED = {
     r"(?i)\bprofit|\bgain(s|ed)?\b|\brank(ing)?\b": "WInS results are not judged (Guide p.3; PM-18)",
     r"(?i)root-and-branch|roots first|\broots?\b|\bbranch(es)?\b": "no strategy name until Ray confirms it (PM-16)",
     r"(?i)laura's portfolio": "the WInS book is a scaled model, not her portfolio (pack s6.2)",
-    r"(?i)operating reserve": "reserve size is Final Report material (TN guide)",
+    # the idea is the case's own word for her commitment; only its size is Final Report material (TN guide p.1)
+    r"(?i)(\$[\d,.]+k?|\d+(\.\d+)?%)[^.]{0,40}operating reserve|operating reserve[^.]{0,40}(\$[\d,.]+|\d+(\.\d+)?%)":
+        "no operating reserve size (TN guide: not expected yet)",
     r"(?i)statistics degree|taiwan|heritage": "not a reason for a trade (pack s6.2; team decision D8)",
     r"\bbp\b|(?i:basis point)": "jargon: say 'points of yield' (plain English)",
     r"\bIEF\b|\bTLH\b|\bVGSH\b|\(ii\)R|(?i:duration match)|(?<![\d,.$])9\.90(?!\d)": "superseded book (PM-20)",
     r"100,000|\$100k|Dec 4\b|500k|(?i:no Treasuries)|\$0 commission": "stale repo fact (PM-31)",
     r"(?i)\brepa(y|ys|id)\b": "never for an iBonds fund; for one bond say 'the amount due at maturity' (PM-14)",
     r"[‒-―‘’“”~]|<=|>=": "not plain ASCII punctuation (PM-12)",
+    # judge panel round 3: unconditional coverage and ownership claims got past the checks
+    r"(?i)\bcover(s|ed)? the rest\b": "false reassurance: the rest depends on reinvested coupons (reinvest.rung.*)",
+    r"(?i)\bcovers? (her|the|that|each) payment": "false reassurance: a bond or fund covers most of a payment, not all",
+    r"(?i)\bdeliver(s|ed)? (a |the )?(full |whole )?\$50,000": "no holding delivers a set $50,000 (reinvest.rung.*)",
+    r"(?i)(?<!at least )\bhalf (of )?(the |the stock |the equity )?fund stays": "say what the half is for: her cushion",
+    r"\$21\.76|\$23\.02|\$24\.10|\$23\.70|\$23\.49|\$158\.81": "a 28 Sep kit reference price: type the price WInS shows that day",
 }
 ROLE_WORDS = ["growth", "liquidity", "risk management", "future funding"]   # Competition Guide p.3
 # A payment year alone is not an anchor: it could fit any client (judge panel, 30 Sep 2026).
@@ -108,11 +118,12 @@ def numbers_in(text):
     return out
 
 
-def check_text(text, declared=()):
-    """List of (check, ok, detail, severity). severity FAIL blocks; WARN asks for a second look."""
+def check_text(text, declared=(), limit=MAX_NOTE):
+    """List of (check, ok, detail, severity). severity FAIL blocks; WARN asks for a second look. `limit` is the kit
+    limit for this note: MAX_NOTE, or MAX_FIXED for a note with no security name left to swap in on Friday."""
     res = []
     n = len(text)
-    res.append(("length", n <= MAX_NOTE, f"{n} characters (kit limit {MAX_NOTE}, box {BOX})",
+    res.append(("length", n <= limit, f"{n} characters (kit limit {limit}, box {BOX})",
                 "FAIL" if n > BOX else "WARN"))
     bad = sorted({c for c in text if not c.isascii()})
     res.append(("ascii", not bad, " ".join(f"{c!r}->{ASCII_FIX.get(c, '?')!r}" for c in bad), "FAIL"))

@@ -18,14 +18,18 @@
    "PASS": 21
   },
   "G5 trace": {
-   "PASS": 165,
+   "PASS": 170,
    "CONDITIONAL": 16
   },
   "G6 stale": {
    "PASS": 18
   },
   "G7 mirror": {
-   "PASS": 46
+   "PASS": 70
+  },
+  "G8 live": {
+   "STALE": 31,
+   "PASS": 17
   }
  },
  "checks": [
@@ -39,13 +43,13 @@
    "check": "G1 length",
    "item": "IBTR",
    "status": "PASS",
-   "detail": "285 chars (box 300); char_count column 285; ascii True"
+   "detail": "294 chars (box 300); char_count column 294; ascii True"
   },
   {
    "check": "G1 length",
    "item": "IBTR kit margin",
    "status": "PASS",
-   "detail": "285 <= 285"
+   "detail": "294 <= 295 (no security name left to swap in)"
   },
   {
    "check": "G1 length",
@@ -57,13 +61,13 @@
    "check": "G1 length",
    "item": "IBTQ",
    "status": "PASS",
-   "detail": "278 chars (box 300); char_count column 278; ascii True"
+   "detail": "274 chars (box 300); char_count column 274; ascii True"
   },
   {
    "check": "G1 length",
    "item": "IBTQ kit margin",
    "status": "PASS",
-   "detail": "278 <= 285"
+   "detail": "274 <= 285"
   },
   {
    "check": "G1 length",
@@ -75,13 +79,13 @@
    "check": "G1 length",
    "item": "IBTP",
    "status": "PASS",
-   "detail": "259 chars (box 300); char_count column 259; ascii True"
+   "detail": "264 chars (box 300); char_count column 264; ascii True"
   },
   {
    "check": "G1 length",
    "item": "IBTP kit margin",
    "status": "PASS",
-   "detail": "259 <= 285"
+   "detail": "264 <= 285"
   },
   {
    "check": "G1 length",
@@ -93,13 +97,13 @@
    "check": "G1 length",
    "item": "IBTO",
    "status": "PASS",
-   "detail": "276 chars (box 300); char_count column 276; ascii True"
+   "detail": "267 chars (box 300); char_count column 267; ascii True"
   },
   {
    "check": "G1 length",
    "item": "IBTO kit margin",
    "status": "PASS",
-   "detail": "276 <= 285"
+   "detail": "267 <= 285"
   },
   {
    "check": "G1 length",
@@ -111,13 +115,13 @@
    "check": "G1 length",
    "item": "IBTM_P",
    "status": "PASS",
-   "detail": "255 chars (box 300); char_count column 255; ascii True"
+   "detail": "287 chars (box 300); char_count column 287; ascii True"
   },
   {
    "check": "G1 length",
    "item": "IBTM_P kit margin",
    "status": "PASS",
-   "detail": "255 <= 285"
+   "detail": "287 <= 295 (no security name left to swap in)"
   },
   {
    "check": "G1 length",
@@ -147,13 +151,13 @@
    "check": "G1 length",
    "item": "T40b",
    "status": "PASS",
-   "detail": "284 chars (box 300); char_count column 284; ascii True"
+   "detail": "283 chars (box 300); char_count column 283; ascii True"
   },
   {
    "check": "G1 length",
    "item": "T40b kit margin",
    "status": "PASS",
-   "detail": "284 <= 285"
+   "detail": "283 <= 285"
   },
   {
    "check": "G1 length",
@@ -165,13 +169,13 @@
    "check": "G1 length",
    "item": "T39",
    "status": "PASS",
-   "detail": "277 chars (box 300); char_count column 277; ascii True"
+   "detail": "284 chars (box 300); char_count column 284; ascii True"
   },
   {
    "check": "G1 length",
    "item": "T39 kit margin",
    "status": "PASS",
-   "detail": "277 <= 285"
+   "detail": "284 <= 285"
   },
   {
    "check": "G1 length",
@@ -183,13 +187,13 @@
    "check": "G1 length",
    "item": "T38",
    "status": "PASS",
-   "detail": "278 chars (box 300); char_count column 278; ascii True"
+   "detail": "270 chars (box 300); char_count column 270; ascii True"
   },
   {
    "check": "G1 length",
    "item": "T38 kit margin",
    "status": "PASS",
-   "detail": "278 <= 285"
+   "detail": "270 <= 285"
   },
   {
    "check": "G1 length",
@@ -219,13 +223,13 @@
    "check": "G1 length",
    "item": "VT",
    "status": "PASS",
-   "detail": "285 chars (box 300); char_count column 285; ascii True"
+   "detail": "286 chars (box 300); char_count column 286; ascii True"
   },
   {
    "check": "G1 length",
    "item": "VT kit margin",
    "status": "PASS",
-   "detail": "285 <= 285"
+   "detail": "286 <= 295 (no security name left to swap in)"
   },
   {
    "check": "G1 length",
@@ -243,7 +247,7 @@
    "check": "G1 length",
    "item": "IBTM_L kit margin",
    "status": "PASS",
-   "detail": "265 <= 285"
+   "detail": "265 <= 295 (no security name left to swap in)"
   },
   {
    "check": "G1 length",
@@ -255,13 +259,13 @@
    "check": "G1 length",
    "item": "IBTR_F",
    "status": "PASS",
-   "detail": "256 chars (box 300); char_count column 256; ascii True"
+   "detail": "261 chars (box 300); char_count column 261; ascii True"
   },
   {
    "check": "G1 length",
    "item": "IBTR_F kit margin",
    "status": "PASS",
-   "detail": "256 <= 285"
+   "detail": "261 <= 295 (no security name left to swap in)"
   },
   {
    "check": "G1 length",
@@ -273,13 +277,13 @@
    "check": "G1 length",
    "item": "IBTM_R",
    "status": "PASS",
-   "detail": "280 chars (box 300); char_count column 280; ascii True"
+   "detail": "287 chars (box 300); char_count column 287; ascii True"
   },
   {
    "check": "G1 length",
    "item": "IBTM_R kit margin",
    "status": "PASS",
-   "detail": "280 <= 285"
+   "detail": "287 <= 295 (no security name left to swap in)"
   },
   {
    "check": "G1 length",
@@ -309,13 +313,13 @@
    "check": "G1 length",
    "item": "SW40",
    "status": "PASS",
-   "detail": "271 chars (box 300); char_count column 271; ascii True"
+   "detail": "278 chars (box 300); char_count column 278; ascii True"
   },
   {
    "check": "G1 length",
    "item": "SW40 kit margin",
    "status": "PASS",
-   "detail": "271 <= 285"
+   "detail": "278 <= 285"
   },
   {
    "check": "G1 length",
@@ -327,13 +331,13 @@
    "check": "G1 length",
    "item": "SW41",
    "status": "PASS",
-   "detail": "278 chars (box 300); char_count column 278; ascii True"
+   "detail": "285 chars (box 300); char_count column 285; ascii True"
   },
   {
    "check": "G1 length",
    "item": "SW41 kit margin",
    "status": "PASS",
-   "detail": "278 <= 285"
+   "detail": "285 <= 285"
   },
   {
    "check": "G1 length",
@@ -345,13 +349,13 @@
    "check": "G1 length",
    "item": "SW37",
    "status": "PASS",
-   "detail": "267 chars (box 300); char_count column 267; ascii True"
+   "detail": "273 chars (box 300); char_count column 273; ascii True"
   },
   {
    "check": "G1 length",
    "item": "SW37 kit margin",
    "status": "PASS",
-   "detail": "267 <= 285"
+   "detail": "273 <= 285"
   },
   {
    "check": "G1 length",
@@ -363,13 +367,13 @@
    "check": "G1 length",
    "item": "OD_S",
    "status": "PASS",
-   "detail": "283 chars (box 300); char_count column 283; ascii True"
+   "detail": "284 chars (box 300); char_count column 284; ascii True"
   },
   {
    "check": "G1 length",
    "item": "OD_S kit margin",
    "status": "PASS",
-   "detail": "283 <= 285"
+   "detail": "284 <= 285"
   },
   {
    "check": "G1 length",
@@ -381,13 +385,13 @@
    "check": "G1 length",
    "item": "OD_B",
    "status": "PASS",
-   "detail": "274 chars (box 300); char_count column 274; ascii True"
+   "detail": "277 chars (box 300); char_count column 277; ascii True"
   },
   {
    "check": "G1 length",
    "item": "OD_B kit margin",
    "status": "PASS",
-   "detail": "274 <= 285"
+   "detail": "277 <= 285"
   },
   {
    "check": "G1 length",
@@ -423,7 +427,7 @@
    "check": "G1 length",
    "item": "OB_B kit margin",
    "status": "PASS",
-   "detail": "264 <= 285"
+   "detail": "264 <= 295 (no security name left to swap in)"
   },
   {
    "check": "G1 length",
@@ -441,7 +445,7 @@
    "check": "G1 length",
    "item": "OC kit margin",
    "status": "PASS",
-   "detail": "247 <= 285"
+   "detail": "247 <= 295 (no security name left to swap in)"
   },
   {
    "check": "G1 length",
@@ -459,31 +463,31 @@
    "check": "G1 length",
    "item": "outline: Pick 2, refined: SW40, SW41 or OD_B (a b",
    "status": "PASS",
-   "detail": "59 words counted (stated 59; TN limit 100)"
+   "detail": "60 words counted (stated 60; TN limit 100)"
   },
   {
    "check": "G1 length",
    "item": "outline: Pick 3, VT (supported)",
    "status": "PASS",
-   "detail": "60 words counted (stated 60; TN limit 100)"
+   "detail": "59 words counted (stated 59; TN limit 100)"
   },
   {
    "check": "G1 length",
-   "item": "outline: Alternate A, IBTM (supported; pick 2 if ",
+   "item": "outline: Alternate A, IBTM (supported: the floor ",
    "status": "PASS",
-   "detail": "46 words counted (stated 46; TN limit 100)"
+   "detail": "45 words counted (stated 45; TN limit 100)"
   },
   {
    "check": "G1 length",
    "item": "outline: Alternate B, 4.375% Nov 2039 bond (suppo",
    "status": "PASS",
-   "detail": "33 words counted (stated 33; TN limit 100)"
+   "detail": "41 words counted (stated 41; TN limit 100)"
   },
   {
    "check": "G1 length",
-   "item": "outline: Alternate C, 4.500% May 2038 bond (suppo",
+   "item": "outline: Alternate C, 3.125% Nov 2041 bond (suppo",
    "status": "PASS",
-   "detail": "43 words counted (stated 43; TN limit 100)"
+   "detail": "41 words counted (stated 41; TN limit 100)"
   },
   {
    "check": "G2 names",
@@ -1363,7 +1367,7 @@
   },
   {
    "check": "G5 trace",
-   "item": "note IBTR: 'Tested before this first order'",
+   "item": "note IBTR: 'We checked first'",
    "status": "PASS",
    "detail": "IBTR is Friday order 1 (tickets.csv seq 1); the refresh runs before any order (friday_checklist.md)"
   },
@@ -1377,7 +1381,7 @@
    "check": "G5 trace",
    "item": "note IBTR: 'about a quarter of a percentage point'",
    "status": "PASS",
-   "detail": "laura.ladder.breakeven_fall_bp_strips 26.2bp; the note says 'over about'"
+   "detail": "laura.ladder.breakeven_fall_bp_strips 26.2bp: 'about a quarter' is the 22.5-30bp band refresh_tickets.py prints; the note says 'over about'"
   },
   {
    "check": "G5 trace",
@@ -1393,9 +1397,9 @@
   },
   {
    "check": "G5 trace",
-   "item": "note IBTR: 'stocks get less'",
+   "item": "note IBTR: 'the facility gets less'",
    "status": "PASS",
-   "detail": "IPS: payments and floor 'secured before anything is invested' in stocks; WS4 memo: the gap lands on the stock fund"
+   "detail": "IPS: the 2028 deposit completes the payments, and the floor and stock fund come from what remains: a top-up leaves less for the facility whether the floor is fixed (kit, WS4) or the remainder (IPS literal)"
   },
   {
    "check": "G5 trace",
@@ -1411,9 +1415,9 @@
   },
   {
    "check": "G5 trace",
-   "item": "note IBTQ: 'no Treasury bond maturing between Feb 2031 and Feb'",
+   "item": "note IBTQ: 'WInS lists no Treasury bond maturing in 2035'",
    "status": "PASS",
-   "detail": "tab WInS Notes, SEEN 29 Sep"
+   "detail": "tab WInS Notes, SEEN 29 Sep (gap Feb 2031-Feb 2036)"
   },
   {
    "check": "G5 trace",
@@ -1437,13 +1441,19 @@
    "check": "G5 trace",
    "item": "note IBTP: 'almost exactly the value'",
    "status": "CONDITIONAL",
-   "detail": "wins.ibond_checks.IBTP.premium_to_nav_pct 0.06% on 28 Sep; the note reports the trade-date re-run"
+   "detail": "wins.ibond_checks.IBTP.premium_to_nav_pct 0.06% on 28 Sep; the note reports the 1 Oct close premium read on Friday"
   },
   {
    "check": "G5 trace",
    "item": "note IBTP: date 1 Jan 2035",
    "status": "PASS",
    "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTP: date 1 Oct",
+   "status": "PASS",
+   "detail": "check date (28/29 Sep), curve date 1 Oct, Friday trade date 2 Oct, or payment/maturity day"
   },
   {
    "check": "G5 trace",
@@ -1543,7 +1553,7 @@
   },
   {
    "check": "G5 trace",
-   "item": "note T40b: 'the ninth of Laura's ten $50,000 payment'",
+   "item": "note T40b: 'ninth $50,000 payment'",
    "status": "PASS",
    "detail": "'ninth' = payment 9 of 10; T 4.250% 15-Nov-2040 serves 1 Jan 2041"
   },
@@ -1561,7 +1571,7 @@
   },
   {
    "check": "G5 trace",
-   "item": "note T40b: 'Its price passed our curve check'",
+   "item": "note T40b: 'Its 1 Oct WInS price passed our curve check'",
    "status": "PASS",
    "detail": "wins.bond_check.T_4.250%_15-Nov-2040 gap -5.1bp, inside 25bp (28 Sep; re-checked Friday)"
   },
@@ -1585,6 +1595,12 @@
   },
   {
    "check": "G5 trace",
+   "item": "note T40b: date 1 Oct",
+   "status": "PASS",
+   "detail": "check date (28/29 Sep), curve date 1 Oct, Friday trade date 2 Oct, or payment/maturity day"
+  },
+  {
+   "check": "G5 trace",
    "item": "note T40b: payment year",
    "status": "PASS",
    "detail": "note says [2041]; ticket serves 2041"
@@ -1597,7 +1613,7 @@
   },
   {
    "check": "G5 trace",
-   "item": "note T39: 'cover most of that payment'",
+   "item": "note T39: 'cover most of it'",
    "status": "PASS",
    "detail": "reinvest.rung.T_4.375%_15-Nov-2039 at_0pct 85.9% of $50,000"
   },
@@ -1627,13 +1643,13 @@
   },
   {
    "check": "G5 trace",
-   "item": "note T38: 'Its WInS price passed our curve check'",
+   "item": "note T38: 'Its 1 Oct WInS price passed our curve check'",
    "status": "PASS",
    "detail": "wins.bond_check.T_4.500%_15-May-2038 gap -14.4bp, inside 25bp (28 Sep; re-checked Friday)"
   },
   {
    "check": "G5 trace",
-   "item": "note T38: 'is the last before Laura's $50,000 residency payme'",
+   "item": "note T38: 'is the last to mature before Laura's $50,000 resid'",
    "status": "PASS",
    "detail": "MSPD Table V 31 Aug 2026: no Treasury bond matures 16 May 2038 - 31 Dec 2038"
   },
@@ -1645,9 +1661,9 @@
   },
   {
    "check": "G5 trace",
-   "item": "note T38: 'the 4.375% Feb 2038 bond's price was stale'",
+   "item": "note T38: 'in her plan its money waits'",
    "status": "PASS",
-   "detail": "wins.bond_check.T_4.375%_15-Feb-2038 gap -92.1bp (the 28 Sep close, seen 29 Sep)"
+   "detail": "Laura's plan holds the money in Treasury bills between maturity and payment (notes.md T38 brief)"
   },
   {
    "check": "G5 trace",
@@ -1669,15 +1685,9 @@
   },
   {
    "check": "G5 trace",
-   "item": "note T38: date 29 Sep",
+   "item": "note T38: date 1 Oct",
    "status": "PASS",
    "detail": "check date (28/29 Sep), curve date 1 Oct, Friday trade date 2 Oct, or payment/maturity day"
-  },
-  {
-   "check": "G5 trace",
-   "item": "note T38: coupon 4.375%",
-   "status": "PASS",
-   "detail": "a Treasury bond with this coupon matures 2036-2042 (MSPD)"
   },
   {
    "check": "G5 trace",
@@ -1729,21 +1739,21 @@
   },
   {
    "check": "G5 trace",
-   "item": "note VT: 'bought last'",
+   "item": "note VT: 'thousands of companies'",
    "status": "PASS",
-   "detail": "VT is Portfolio order 11 of 11"
+   "detail": "IPS: 'a global index fund of thousands of companies'"
   },
   {
    "check": "G5 trace",
-   "item": "note VT: 'A fall can cut her contribution, not below the flo'",
+   "item": "note VT: 'A fall can cut her gift, not below the floor'",
    "status": "PASS",
    "detail": "IPS: equities 'can reduce the facility contribution, but not below the floor'"
   },
   {
    "check": "G5 trace",
-   "item": "note VT: 'Half the fund stays hers'",
+   "item": "note VT: 'lifts the top of the range co-sponsors hear'",
    "status": "PASS",
-   "detail": "IPS: 'The other half remains with Laura as a cushion'"
+   "detail": "IPS: the range runs from the floor to the floor plus half the fund, so a rise moves only its top"
   },
   {
    "check": "G5 trace",
@@ -1777,7 +1787,7 @@
   },
   {
    "check": "G5 trace",
-   "item": "note IBTR_F: 'Tested before this first order'",
+   "item": "note IBTR_F: 'We checked first'",
    "status": "PASS",
    "detail": "IBTR is Friday order 1 (tickets.csv seq 1); the refresh runs before any order (friday_checklist.md)"
   },
@@ -1801,9 +1811,9 @@
   },
   {
    "check": "G5 trace",
-   "item": "note IBTR_F: 'so we hold less stock than planned'",
+   "item": "note IBTR_F: 'so less is left for the facility'",
    "status": "CONDITIONAL",
-   "detail": "--split-from-curve lowers VT's share when the test fails (refresh_tickets.py)"
+   "detail": "--split-from-curve lowers the facility share when the test fails (refresh_tickets.py)"
   },
   {
    "check": "G5 trace",
@@ -1825,9 +1835,9 @@
   },
   {
    "check": "G5 trace",
-   "item": "note IBTM_R: 'the half of the stock fund she keeps'",
+   "item": "note IBTM_R: 'the stock-fund half she keeps, not the floor, the '",
    "status": "CONDITIONAL",
-   "detail": "IPS: 'The other half remains with Laura as a cushion'; naming it the backstop needs the 1 Oct vote"
+   "detail": "IPS: 'The other half remains with Laura as a cushion'; naming it the first call needs the 1 Oct vote and the IPS draft"
   },
   {
    "check": "G5 trace",
@@ -1849,9 +1859,9 @@
   },
   {
    "check": "G5 trace",
-   "item": "note T40s: 'its price failed our curve check today'",
+   "item": "note T40s: 'its 1 Oct price failed our curve check'",
    "status": "CONDITIONAL",
-   "detail": "used only if its Friday price is outside the 25bp band (notes.md s5)"
+   "detail": "used only if its 1 Oct price (shown Friday) is outside the 25bp band (notes.md s5)"
   },
   {
    "check": "G5 trace",
@@ -1873,19 +1883,25 @@
   },
   {
    "check": "G5 trace",
+   "item": "note T40s: date 1 Oct",
+   "status": "PASS",
+   "detail": "check date (28/29 Sep), curve date 1 Oct, Friday trade date 2 Oct, or payment/maturity day"
+  },
+  {
+   "check": "G5 trace",
    "item": "note SW40: 'ninth $50,000 payment'",
    "status": "PASS",
    "detail": "'ninth' = payment 9 of 10; T 1.375% 15-Nov-2040 serves 1 Jan 2041"
   },
   {
    "check": "G5 trace",
-   "item": "note SW40: 'more of its value is owed at maturity, so less of '",
+   "item": "note SW40: 'more of what it pays comes at maturity, so less of'",
    "status": "PASS",
    "detail": "M9 slot 2041: share of cash as coupons 1.375% 16.6% vs 4.250% 38.1%"
   },
   {
    "check": "G5 trace",
-   "item": "note SW40: 'Its WInS price passed our curve check'",
+   "item": "note SW40: 'Its 1 Oct WInS price passed our curve check'",
    "status": "CONDITIONAL",
    "detail": "used only if the WInS price sits inside the 25bp band the refresh prints (notes.md s5)"
   },
@@ -1909,13 +1925,19 @@
   },
   {
    "check": "G5 trace",
+   "item": "note SW40: date 1 Oct",
+   "status": "PASS",
+   "detail": "check date (28/29 Sep), curve date 1 Oct, Friday trade date 2 Oct, or payment/maturity day"
+  },
+  {
+   "check": "G5 trace",
    "item": "note SW41: 'the last of Laura's ten'",
    "status": "PASS",
    "detail": "'last' = payment 10 of 10; T 2.000% 15-Nov-2041 serves 1 Jan 2042"
   },
   {
    "check": "G5 trace",
-   "item": "note SW41: 'more of its value is owed at maturity, so less res'",
+   "item": "note SW41: 'more of what it pays comes at maturity, so less re'",
    "status": "PASS",
    "detail": "M9 slot 2042: coupons share 2.000% 23.7% vs 3.125% 32.6%"
   },
@@ -1927,7 +1949,7 @@
   },
   {
    "check": "G5 trace",
-   "item": "note SW41: 'Its price passed our curve check'",
+   "item": "note SW41: 'Its 1 Oct price passed our curve check'",
    "status": "CONDITIONAL",
    "detail": "used only if the WInS price sits inside the 25bp band the refresh prints (notes.md s5)"
   },
@@ -1951,6 +1973,12 @@
   },
   {
    "check": "G5 trace",
+   "item": "note SW41: date 1 Oct",
+   "status": "PASS",
+   "detail": "check date (28/29 Sep), curve date 1 Oct, Friday trade date 2 Oct, or payment/maturity day"
+  },
+  {
+   "check": "G5 trace",
    "item": "note SW37: 'It is the last Treasury bond maturing before then'",
    "status": "PASS",
    "detail": "MSPD Table V: no Treasury bond matures 16 May 2037 - 31 Dec 2037"
@@ -1963,7 +1991,7 @@
   },
   {
    "check": "G5 trace",
-   "item": "note SW37: 'Its WInS price passed our curve check'",
+   "item": "note SW37: 'Its 1 Oct WInS price passed our curve check'",
    "status": "CONDITIONAL",
    "detail": "used only if the WInS price sits inside the 25bp band the refresh prints (notes.md s5)"
   },
@@ -1987,6 +2015,12 @@
   },
   {
    "check": "G5 trace",
+   "item": "note SW37: date 1 Oct",
+   "status": "PASS",
+   "detail": "check date (28/29 Sep), curve date 1 Oct, Friday trade date 2 Oct, or payment/maturity day"
+  },
+  {
+   "check": "G5 trace",
    "item": "note SW37: payment year",
    "status": "PASS",
    "detail": "note says [2038]; ticket serves 2038"
@@ -1999,7 +2033,7 @@
   },
   {
    "check": "G5 trace",
-   "item": "note OD_S: 'More of its value is owed at maturity, so less of '",
+   "item": "note OD_S: 'More of what it pays comes at maturity, so less of'",
    "status": "PASS",
    "detail": "M9 slot 2041: share of cash as coupons 1.375% 16.6% vs 4.250% 38.1%"
   },
@@ -2041,7 +2075,7 @@
   },
   {
    "check": "G5 trace",
-   "item": "note OD_B: 'More of its value comes at maturity, so less rides'",
+   "item": "note OD_B: 'More of what it pays comes at maturity, so less ri'",
    "status": "PASS",
    "detail": "M9 slot 2041: share of cash as coupons 1.375% 16.6% vs 4.250% 38.1%"
   },
@@ -2506,6 +2540,438 @@
    "item": "sheets/rab_notes.csv",
    "status": "PASS",
    "detail": "none"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets: worst-case accrued column",
+   "status": "PASS",
+   "detail": "present"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #1 formulas",
+   "status": "PASS",
+   "detail": "tab Q $19,897.54 vs kit $19,897.54; tab R $20,066.74 vs kit $20,066.74"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #2 formulas",
+   "status": "PASS",
+   "detail": "tab Q $21,023.20 vs kit $21,023.20; tab R $21,200.40 vs kit $21,200.40"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #3 formulas",
+   "status": "PASS",
+   "detail": "tab Q $22,221.10 vs kit $22,221.10; tab R $22,386.88 vs kit $22,386.88"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #4 formulas",
+   "status": "PASS",
+   "detail": "tab Q $23,413.32 vs kit $23,413.32; tab R $23,586.04 vs kit $23,586.04"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #5 formulas",
+   "status": "PASS",
+   "detail": "tab Q $97,640.36 vs kit $97,640.36; tab R $98,268.40 vs kit $98,268.40"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #6 formulas",
+   "status": "PASS",
+   "detail": "tab Q $14,745.62 vs kit $14,745.61; tab R $14,916.15 vs kit $14,916.15"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #7 formulas",
+   "status": "PASS",
+   "detail": "tab Q $15,446.48 vs kit $15,446.48; tab R $15,608.93 vs kit $15,608.92"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #8 formulas",
+   "status": "PASS",
+   "detail": "tab Q $16,754.93 vs kit $16,754.93; tab R $16,921.94 vs kit $16,921.93"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #9 formulas",
+   "status": "PASS",
+   "detail": "tab Q $18,248.67 vs kit $18,248.66; tab R $18,415.32 vs kit $18,415.32"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #10 formulas",
+   "status": "PASS",
+   "detail": "tab Q $19,564.32 vs kit $19,564.31; tab R $19,725.42 vs kit $19,725.43"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #11 formulas",
+   "status": "PASS",
+   "detail": "tab Q $26,069.84 vs kit $26,069.84; tab R $26,458.52 vs kit $26,458.52"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets summary Portfolio",
+   "status": "PASS",
+   "detail": "tab cash left expected $4,974.62 / worst $2,445.27; kit $4,974.64 / $2,445.28"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #1 formulas",
+   "status": "PASS",
+   "detail": "tab Q $29,434.48 vs kit $29,434.48; tab R $29,684.88 vs kit $29,684.88"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #2 formulas",
+   "status": "PASS",
+   "detail": "tab Q $31,095.70 vs kit $31,095.70; tab R $31,357.90 vs kit $31,357.90"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #3 formulas",
+   "status": "PASS",
+   "detail": "tab Q $32,849.20 vs kit $32,849.20; tab R $33,094.36 vs kit $33,094.36"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #4 formulas",
+   "status": "PASS",
+   "detail": "tab Q $34,624.06 vs kit $34,624.06; tab R $34,879.57 vs kit $34,879.57"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #5 formulas",
+   "status": "PASS",
+   "detail": "tab Q $36,538.28 vs kit $36,538.28; tab R $36,773.20 vs kit $36,773.20"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #6 formulas",
+   "status": "PASS",
+   "detail": "tab Q $22,501.21 vs kit $22,501.20; tab R $22,761.49 vs kit $22,761.49"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #7 formulas",
+   "status": "PASS",
+   "detail": "tab Q $23,618.73 vs kit $23,618.74; tab R $23,867.18 vs kit $23,867.17"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #8 formulas",
+   "status": "PASS",
+   "detail": "tab Q $25,127.40 vs kit $25,127.40; tab R $25,377.90 vs kit $25,377.89"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #9 formulas",
+   "status": "PASS",
+   "detail": "tab Q $27,847.97 vs kit $27,847.96; tab R $28,102.33 vs kit $28,102.33"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #10 formulas",
+   "status": "PASS",
+   "detail": "tab Q $29,341.48 vs kit $29,341.47; tab R $29,583.13 vs kit $29,583.14"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets summary BookL",
+   "status": "PASS",
+   "detail": "tab cash left expected $7,021.49 / worst $4,518.06; kit $7,021.52 / $4,518.06"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes IBTR (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes IBTQ (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes IBTP (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes IBTO (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes IBTM_P (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes T41 (2026-09-30T1614AEST)",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes T40b (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes T39 (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes T38 (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes T37 (2026-09-30T1614AEST)",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes VT (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes IBTM_L (2026-09-30T1614AEST)",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes IBTR_F (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes IBTM_R (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes T40s (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes SW40 (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes SW41 (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes SW37 (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes OD_S (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes OD_B (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes OB_S (2026-09-30T1614AEST)",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes OB_B (2026-09-30T1614AEST)",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes OC (2026-09-30T1614AEST)",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief IBTR",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief IBTQ",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief IBTP",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief IBTO",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief IBTM_P",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief T41",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief T40b",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief T39",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief T38",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief T37",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief VT",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief IBTM_L",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief IBTR_F",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief IBTM_R",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief T40s",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief SW40",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief SW41",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief SW37",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief OD_S",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief OD_B",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief OB_S",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief OB_B",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief OC",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes: no retired note left",
+   "status": "PASS",
+   "detail": "none"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes: Team note column empty (safe to rewrite)",
+   "status": "PASS",
+   "detail": "empty"
   }
  ]
 }

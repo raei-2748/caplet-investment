@@ -2,7 +2,8 @@
 
 WS4, 30 Sep 2026 (Sydney). AI-generated (Claude Code) for Team Caplet; the team ratifies and writes every deliverable.
 Laura's plan, MODEL, 28 Sep 2026 curve, Gate B reconciled (`rab/gates/gate_B_ws4.md`). Keys: `rab/numbers_ws4.yaml`
-(W), `rab/numbers.yaml` (N); results `rab/results/M2/m2_results.json`.
+(W), `rab/numbers.yaml` (N); results `rab/results/M2/m2_results.json`. Revised 30 Sep: Book L basis
+corrected (WS7 fact-audit); decision unchanged.
 
 **Decision: do not hedge.** Buy all ten holdings at once on the first trading day of 2027 (Mon 4 Jan; 1 Jan is a
 bond-market holiday), latest payments first; any shortfall is the first call on the 2028 deposit. No hedge trade in WInS.
@@ -32,10 +33,12 @@ or our WInS book, act now?
 - Payments are at risk from the price only if rates fall *and* the 2028 deposit never comes (our stress case): after
   a 1-point fall, about $29,000 of the 2033 payment is unfunded (W).
 - Basis: these figures are for zero-coupon STRIPS. Under our rule reading (`assumptions.md` R1) Laura's real ladder
-  is the WInS-listed one (Book L: five iBonds ETFs, five coupon bonds). It costs about $292,900 today with commission,
-  against about $289,000 for STRIPS (N), so its odds are likely higher (not computed). A lasting fall also cuts what
-  its coupons earn: about $20,000 more today keeps every payment whole if coupons earn only 2% (N
-  `reinvest.bookL_buffer_cost`). No allowed trade hedges this either; see the coupon fix under Implications.
+  is the WInS-listed one (Book L: five iBonds ETFs, five coupon bonds). As the Sheet sizes it, it costs about $292,900
+  with commission, but it buys more than needed: about $507,000 at forward rates against $500,000 (N). Sized to pay
+  exactly $50,000 a year at forward rates it costs about $289,200, within $100 of STRIPS (W `ws4.bookL_cost_resized`;
+  `rab/results/M2/bookL_basis_check.txt`). So the odds are about the same on either basis (not separately computed;
+  a WS7 scratch run found about 35%, UNVERIFIED).
+- Book L's own risk comes after purchase (coupons reinvested at lower yields); no allowed trade hedges it.
 - A perfect hedge fixes about $292,000; with no view on rates the expected price is about $293,000, so it gains $0 to
   about $1,000 in expectation (W) and gives away the fund's upside if rates rise.
 - The rate move is settled by January 2028, three years before the 2031 range: it sizes the range but cannot break a promise.
@@ -45,7 +48,7 @@ completes the ladder before any stocks, range announced only after both purchase
 
 **Confidence.** High on the decision (every hedging tool is outside the rules; the design absorbs the risk). Medium on
 the odds: a three-month figure that moves with volatility (MOVE 101.8 on 28 Sep, 106.3 on 29 Sep; W), on a STRIPS
-basis; Book L's odds are not computed and likely higher. The decision does not depend on the exact figure.
+basis; Book L sized alike should be about the same (not computed). The decision does not depend on the exact figure.
 
 **What would change it.** (1) Wharton says the investment limits do not bind her real plan *and* the 2028 deposit
 becomes doubtful: a futures hedge would then protect payments, not just the fund (Final Report discussion; no
@@ -55,10 +58,12 @@ decision stands, but re-run the range and fund figures.
 **Implications.**
 - **IPS: none from this memo.** It already says the January 2027 deposit buys "latest payments first" and a fall
   leaves payments "for the 2028 deposit to complete". Optional: add "at once". Keep the odds out. The coupon wording
-  ("needs no rebalancing") is already fix-before-6-Nov (Gate A; `assumptions.md` C3; `D_stress_bad_year.md`), with
-  the cost of a coupon buffer as a Final Report note.
+  ("needs no rebalancing") is already fix-before-6-Nov (Gate A; `assumptions.md` C3). Who covers a coupon shortfall
+  must be one rule across D6, D_range and D_stress (WS7 red team r3, fix-before-6-Nov); this memo adds no other.
 - **Final Report: note-in-Final-Report.** One paragraph, "Why Laura does not hedge before January 2027": the rules, about
-  1 in 3 for a zero-coupon ladder (likely higher for the WInS-listed one), typically about $10,000 from the 2028
-  deposit, range announced after the risk has passed.
+  1 in 3 (zero-coupon basis; about the same for the WInS-listed ladder sized to pay exactly $500,000), typically
+  about $10,000 from the 2028 deposit, range announced after the risk has passed.
 - **Trading Notes:** no hedge trade; no note says WInS trades lock in Laura's 2027 prices; no odds or gap figure in a
   WInS note. The note on the latest rung (the 15-Nov-2041 bond, for the 2042 payment) can say "latest payments first".
+  WS6 `notes.md`/`build_notes.py` still say "likely higher" for the buyable ladder: change to "about the same once
+  sized alike" (not edited here).

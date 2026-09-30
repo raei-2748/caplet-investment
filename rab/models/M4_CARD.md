@@ -44,6 +44,13 @@ dominates 7-8 of its roughly 120 points (`pareto_*.csv`, `pareto_grid_*.csv`), s
 rounded-down floor ($145k + half the fund), the gift reaches the top in 90-93% of paths instead of 72-75%. The median
 top falls to about $170k and the expected gift falls by about $3,500.
 
+**Coupons (added after Gate B; not pre-registered).** M4 assumes zero-coupon STRIPS, so there is nothing to
+reinvest. On the WInS-listed Book L, someone must pay a coupon shortfall. `m4_ladder_gap.py` charges it to Laura's
+kept money in 2033; `m4_gap_owner.py` adds the whole fund paying in 2031 and WS3's rule 3 (Laura's half first; the
+2031 top lowered only by what it cannot cover), the owner the D6 memo v5 adopts. Both builds agree: at today's yields
+half still holds (robust 0.42 with Laura's half first, 0.45 with the whole fund first); at yields 2 points lower no
+share passes under any owner (`gate_B_ws2.md` s9-s10).
+
 **Limits and failure modes.** The 10% flexibility threshold and the 95% level are value judgements, fixed in advance
 (Taiwan building costs rose about 3.5% a year: rab/assumptions.md E8). The floor model is a stylised coupon bullet with
 one reinvestment rate per path and no link between rates and stocks. The disappointment odds are small numbers from a
@@ -51,7 +58,8 @@ finite sample: 0 in 200,000 is not proof of impossibility.
 
 **What this teaches (plain English).** Promising more of the stock fund does not make it likelier that Laura lets
 co-sponsors down. It only decides who gets the upside, the building or Laura's own reserve. Half is about the most she
-can promise while still keeping a tenth of her gift aside in 19 of 20 outcomes. Say the floor as $145,000 so that the
+can promise while still keeping a tenth of her gift aside in about 19 of 20 outcomes (exactly at 0.47; half gives
+93-95%). Say the floor as $145,000 so that the
 "owned" part is true in every case.
 
 **Gate B (30 Sep 2026).** A blind rebuild from `M4_SPEC.md` gives the same s* (0.50 / 0.47 / 0.47), the same
