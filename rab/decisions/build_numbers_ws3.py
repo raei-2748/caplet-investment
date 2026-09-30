@@ -15,6 +15,7 @@ import hashlib
 import json
 import os
 import re
+import subprocess
 import sys
 
 import pandas as pd
@@ -26,6 +27,8 @@ OUT = os.path.join(ROOT, "rab", "numbers_ws3.yaml")
 MEMOS = ["D_fund_choice.md", "D_rivals.md", "D_stress_bad_year.md"]
 IPS_SNAPSHOT = "/Users/ray/Research/rab-ws/ws6/rab/trades/data/ips_doc_text_2026-09-30.txt"  # rab/ws6, read-only
 IPS_WORDS_30SEP = 483  # wc -w of the IPS body in that snapshot (checked below when the file is present)
+WS7_COMMIT = "9db8d35"  # rab/ws7: coupon-reinvestment check (read from git, not from the ws7 worktree)
+WS7_FILE = "rab/redteam/ws7_assumptions_reinvest_check_output.txt"
 
 
 def load():
@@ -145,6 +148,30 @@ def build():
     N["ws3.fund.gold_reit_gain_share_of_gift"] = e(round(P["reference"]["p5_change_mean"] / float(vt.gift_p50), 4), "share of VT's median gift",
                                                    "about 0.7% of the gift", "DERIVED: gold_reit_noise_free.p5_gain_ref / vt_gift_mc.gift_p50",
                                                    "derived from MC NOISE rows")
+    # where gold/REIT's narrower spread comes from: a higher bad case or a lower good case (rule's own percentiles:
+    # MC p5/p95 = spread90, history p10/p90 = spread80); raised by WS7's devil's advocate (rab/ws7 913c4f1), recomputed here
+    m0, m4 = a.loc[("A0", "MC_JPM")], a.loc[("A4", "MC_JPM")]
+    h0, h4 = a.loc[("A0", "history_1928_2020")], a.loc[("A4", "history_1928_2020")]
+    ref = dict(mc_p95_change=float(m4.gift_p95 - m0.gift_p95),
+               mc_spread_narrowing=float((m0.gift_p95 - m0.gift_p5) - (m4.gift_p95 - m4.gift_p5)),
+               hist_p90_change=float(h4.gift_p90 - h0.gift_p90),
+               hist_spread_narrowing=float((h0.gift_p90 - h0.gift_p10) - (h4.gift_p90 - h4.gift_p10)),
+               hist_T33_median_change=float(h4.T33_p50 - h0.T33_p50))
+    bl = dict(mc_p95_change=B["M6.fund.MC.A4.gift_p95"] - B["M6.fund.MC.A0.gift_p95"],
+              mc_spread_narrowing=B["M6.fund.MC.A0.spread90"] - B["M6.fund.MC.A4.spread90"],
+              hist_p90_change=B["M6.fund.history_1928_2020.A4.gift_p90"] - B["M6.fund.history_1928_2020.A0.gift_p90"],
+              hist_spread_narrowing=B["M6.fund.history_1928_2020.A0.spread80"] - B["M6.fund.history_1928_2020.A4.spread80"],
+              hist_T33_median_change=B["M6.fund.history_1928_2020.A4.T33_p50"] - B["M6.fund.history_1928_2020.A0.T33_p50"])
+    val = rnd(ref, 0)
+    val.update(mc_share_from_lower_good_case=round(-ref["mc_p95_change"] / ref["mc_spread_narrowing"], 2),
+               hist_share_from_lower_good_case=round(-ref["hist_p90_change"] / ref["hist_spread_narrowing"], 2))
+    hist_ref = {k: v for k, v in ref.items() if k.startswith("hist")}
+    N["ws3.fund.gold_reit_good_case"] = e(
+        val, "USD change vs VT (gift good case: MC 95th / history 90th percentile; total 2033 money median) / share",
+        "gold/REIT narrows the spread about half (MC) to two-thirds (history) by trimming the good case",
+        "DERIVED: rab/results/M6/fund_alternatives.csv (A0, A4; MC_JPM and history_1928_2020 rows)",
+        f"history lens: {verdict(hist_ref, bl, 'det')}; MC lens: "
+        f"{verdict({k: v for k, v in ref.items() if k.startswith('mc')}, bl, 'mc', scale=float(vt.gift_p5))}", rnd(bl, 0))
 
     # ---------------- rivals (M6 part A) ----------------
     S = {r["rival"]: r for r in m6["summary"]}
@@ -188,6 +215,18 @@ def build():
         "USD (difference of percentiles, not a percentile of differences)",
         "against all Treasuries, Root-and-Branch gives up about $9,500 in a bad case for about $38,000 in a good case",
         "DERIVED: ws3.rivals.REC minus ws3.rivals.R1", "derived from MC NOISE rows")
+    # the facility's own gift (not the 2033 money): All-Treasury promises everything, Root-and-Branch floor + half the fund
+    ref = {f"{rid}_gift_{p}": S[rid][f"mc_gift_{p}"] for rid in ("REC", "R1") for p in ("p5", "p50", "p95")}
+    bl = {f"{rid}_gift_{p}": B[f"M6.MC.{rid}.gift_{p}"] for rid in ("REC", "R1") for p in ("p5", "p50", "p95")}
+    val = rnd(ref, 0)
+    val.update(all_treasury_ahead_p50=round(S["R1"]["mc_gift_p50"] - S["REC"]["mc_gift_p50"], 0),
+               all_treasury_ahead_at_every_mc_percentile=bool(all(S["R1"][f"mc_gift_{p}"] > S["REC"][f"mc_gift_{p}"] for p in ("p5", "p50", "p95"))),
+               hist_gift_all_treasury_ge_rec=bool(all(S["R1"][k] >= S["REC"][k] - 0.005 for k in ("h_gift_worst", "h_gift_p10", "h_gift_median"))))
+    N["ws3.rivals.facility_gift_rec_vs_all_treasury_mc"] = e(
+        val, "USD (2033 facility gift, MC 5th / median / 95th percentile)",
+        "for the facility alone, All-Treasury gives more at every percentile (about $28,000 more at the median)",
+        "rab/results/M6/M6_results.json summary (mc_gift_p5/p50/p95; = rivals_summary.csv)", verdict(ref, bl, "mc"), rnd(bl, 0),
+        note="raised by the WS7 judge panel (STATUS [WS7-redteam]); M6_SPEC.md s2 gift rule: R1 has no uncertain part, so gift = T33")
     st = {s["id"]: s for s in m7["stress"]}
     ref = {f"{i}_{k}": st[i][src] for i in ("S0", "S5", "S6", "S2b") for k, src in (("rec_T33", "T33"), ("all_treasury_T33", "R1_T33"))}
     bl = {f"{i}_{k}": B[f"M7.{i}.{src}"] for i in ("S0", "S5", "S6", "S2b") for k, src in (("rec_T33", "T33"), ("all_treasury_T33", "R1_T33"))}
@@ -259,6 +298,29 @@ def build():
                                 treasury_5y_par_pct=round(100 * st["S0"]["y5"], 2), paths=int(m6["paths"]), seed=int(m6["seed"])),
                            "percent a year / count", "J.P. Morgan 2026: world stocks 7.0% a year; Treasuries at today's 5.06% five-year yield",
                            "rab/data/history/jpm_ltcma_2026_usd.csv; M6_SPEC.md s4 (5-year par of 28 Sep 2026)", "MATCH (inputs shared by spec)")
+    # ---------------- external: WS7's coupon-reinvestment check (cited, NOT Gate-B checked by WS3) ----------------
+    txt = subprocess.run(["git", "-C", ROOT, "show", f"{WS7_COMMIT}:{WS7_FILE}"], capture_output=True, text=True, check=True).stdout
+    num = lambda s: float(s.replace(",", ""))
+    be = re.search(r"break-even flat rate: total \$500k at ([\d.]+)%; every rung \$50k at ([\d.]+)%", txt)
+    m07 = re.search(r"policy matched:.*?start 2007-06: delivered \$([\d,]+), shortfall \$([\d,]+)", txt, re.S)
+    b07 = re.search(r"policy bills:.*?start 2007-06: delivered \$([\d,]+), shortfall \$([\d,]+)", txt, re.S)
+    ms = re.search(r"policy matched: .*?worst \$([\d,]+); starts with any payment short (\d+)/(\d+)", txt)
+    unch = re.search(r"bills at today's 1-year ([\d.]+)% with NO change: delivered \$([\d,]+); shortfall \$([\d,]+)", txt)
+    assert all((be, m07, b07, ms, unch)), "WS7 output format changed"
+    N["ws3.external.ws7_coupon_reinvestment"] = e(
+        dict(breakeven_reinvest_rate_total_500k_pct=num(be.group(1)), breakeven_every_rung_pct=num(be.group(2)),
+             y2007_matched_delivered=num(m07.group(1)), y2007_matched_shortfall=num(m07.group(2)),
+             y2007_bills_delivered=num(b07.group(1)), y2007_bills_shortfall=num(b07.group(2)),
+             hist_1962_2011_matched_worst_delivered=num(ms.group(1)),
+             hist_1962_2011_matched_starts_any_short=f"{ms.group(2)}/{ms.group(3)}",
+             bills_unchanged_1y_pct=num(unch.group(1)), bills_unchanged_shortfall=num(unch.group(3))),
+        "percent a year / USD delivered to the ten payments in total (target $500,000)",
+        "the WInS book's ten payments total $500,000 only if coupons are reinvested at about 5% (4.97%) or more",
+        f"WS7 red team, git {WS7_COMMIT} (branch rab/ws7): {WS7_FILE}; Book L holder cash flows from rab/models/m1_ladder.py",
+        "NOT Gate-B checked (WS7 read-only MODEL check, not rebuilt by WS3); UNVERIFIED for team outputs until WS1 adopts it",
+        note="Every WS3 'never short' / 'all payments paid' figure is on the zero-coupon (STRIPS) basis; this is the coupon-basis caveat "
+             "(gate_B_ws3.md s7). '2007' = yield changes since June 2007 added to the 28 Sep 2026 curve; 'matched' = each coupon buys "
+             "a zero to its payment date, 'bills' = rolled in 1-year bills.")
     words = IPS_WORDS_30SEP
     if os.path.exists(IPS_SNAPSHOT):
         txt = open(IPS_SNAPSHOT).read().split("\nInvestment Policy Statement\n", 1)[1]
@@ -280,6 +342,8 @@ def write(N):
         "# (the FIXED file of commit 52e30ec). Every entry is MODEL, Treasury par curve of 2026-09-28, Nov-15 STRIPS basis,\n"
         "# Laura's plan unless the unit says otherwise. 'blind' = the same figure from the blind build\n"
         "# (rab/verification/blind/out/blind_headlines.json); 'gate_b' = its verdict at Gate B tolerances (rab/gates/gate_B_ws3.md).\n"
+        "# Exception: ws3.external.* is cited from WS7 (coupon basis, git 9db8d35), NOT Gate-B checked; UNVERIFIED for team outputs.\n"
+        "# Every 'never short' / 'all payments paid' figure here holds on the STRIPS basis only (gate_B_ws3.md s7).\n"
         "# None of these may go in a WInS Trading Note (not in numbers.yaml). Written by rab/decisions/build_numbers_ws3.py.\n")
     meta = dict(meta=dict(stream="WS3", written="2026-09-30 (Sydney)", curve_date="2026-09-28", numbers_yaml_sha256=sha,
                           builder="rab/decisions/build_numbers_ws3.py"))
@@ -291,7 +355,7 @@ def write(N):
 
 # ---------------- traceability check of the memos ----------------
 ALLOW = {  # case facts, rule thresholds, commissions, calendar facts: not model outputs
-    "$": {50000, 150000, 300000, 450000, 2000, 1000, 500, 25, 10},
+    "$": {50000, 150000, 300000, 450000, 500000, 2000, 1000, 500, 25, 10},  # 500000 = ten $50,000 payments
     "%": {10, 62, 38, 70, 30, 80, 20, 60, 40, 65, 75, 95, 99.5, 100},
     "bp": set(),
     "dec": {0.90, 0.95},

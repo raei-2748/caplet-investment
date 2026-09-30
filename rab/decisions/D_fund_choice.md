@@ -31,6 +31,9 @@ yields with the returns of 1928-2020. VT itself: bad case about $165,000, typica
 - Gold/REIT is the close call. With the seed noise removed its spread ratio is 0.8991 in both builds (100 seeds of
   200,000 paths each), 0.001 under the 0.90 bar. At the rule's 200,000 paths it passes on 80-85% of seeds (17 of 20 in
   the reference build, 14 of 20 in the blind build), so it fails the every-seed clause.
+- It narrows the spread partly by trimming the good case: about half of the narrowing in the MC ($1,128 off the 95th
+  percentile) and about two-thirds in history ($2,338 off the 90th), where it also leaves about $4,400 less total 2033
+  money at the median (W `gold_reit_good_case`). A narrower range bought with Laura's upside is a weak reason to switch.
 - Its history case is flattered: gold's price was fixed before 1971, and the only long "REIT" series is home prices.
   With those removed it still narrows the spread (0.80-0.91) and gains $873-1,801 in the bad case. On real ETF prices
   (10 windows, 2012-2025) its bad case was $110 lower and its median $581 lower.
