@@ -22,7 +22,10 @@
    "CONDITIONAL": 16
   },
   "G6 stale": {
-   "PASS": 16
+   "PASS": 18
+  },
+  "G7 mirror": {
+   "PASS": 46
   }
  },
  "checks": [
@@ -2215,6 +2218,294 @@
    "item": "trades_clock.py",
    "status": "PASS",
    "detail": "only inside banned-pattern lists"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #1",
+   "status": "PASS",
+   "detail": "same as tickets.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #2",
+   "status": "PASS",
+   "detail": "same as tickets.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #3",
+   "status": "PASS",
+   "detail": "same as tickets.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #4",
+   "status": "PASS",
+   "detail": "same as tickets.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #5",
+   "status": "PASS",
+   "detail": "same as tickets.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #6",
+   "status": "PASS",
+   "detail": "same as tickets.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #7",
+   "status": "PASS",
+   "detail": "same as tickets.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #8",
+   "status": "PASS",
+   "detail": "same as tickets.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #9",
+   "status": "PASS",
+   "detail": "same as tickets.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #10",
+   "status": "PASS",
+   "detail": "same as tickets.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #11",
+   "status": "PASS",
+   "detail": "same as tickets.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #1",
+   "status": "PASS",
+   "detail": "same as tickets.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #2",
+   "status": "PASS",
+   "detail": "same as tickets.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #3",
+   "status": "PASS",
+   "detail": "same as tickets.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #4",
+   "status": "PASS",
+   "detail": "same as tickets.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #5",
+   "status": "PASS",
+   "detail": "same as tickets.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #6",
+   "status": "PASS",
+   "detail": "same as tickets.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #7",
+   "status": "PASS",
+   "detail": "same as tickets.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #8",
+   "status": "PASS",
+   "detail": "same as tickets.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #9",
+   "status": "PASS",
+   "detail": "same as tickets.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #10",
+   "status": "PASS",
+   "detail": "same as tickets.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets row count",
+   "status": "PASS",
+   "detail": "21 rows vs 21 tickets"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes IBTR",
+   "status": "PASS",
+   "detail": "same text as notes.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes IBTQ",
+   "status": "PASS",
+   "detail": "same text as notes.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes IBTP",
+   "status": "PASS",
+   "detail": "same text as notes.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes IBTO",
+   "status": "PASS",
+   "detail": "same text as notes.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes IBTM_P",
+   "status": "PASS",
+   "detail": "same text as notes.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes T41",
+   "status": "PASS",
+   "detail": "same text as notes.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes T40b",
+   "status": "PASS",
+   "detail": "same text as notes.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes T39",
+   "status": "PASS",
+   "detail": "same text as notes.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes T38",
+   "status": "PASS",
+   "detail": "same text as notes.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes T37",
+   "status": "PASS",
+   "detail": "same text as notes.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes VT",
+   "status": "PASS",
+   "detail": "same text as notes.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes IBTM_L",
+   "status": "PASS",
+   "detail": "same text as notes.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes IBTR_F",
+   "status": "PASS",
+   "detail": "same text as notes.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes IBTM_R",
+   "status": "PASS",
+   "detail": "same text as notes.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes T40s",
+   "status": "PASS",
+   "detail": "same text as notes.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes SW40",
+   "status": "PASS",
+   "detail": "same text as notes.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes SW41",
+   "status": "PASS",
+   "detail": "same text as notes.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes SW37",
+   "status": "PASS",
+   "detail": "same text as notes.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes OD_S",
+   "status": "PASS",
+   "detail": "same text as notes.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes OD_B",
+   "status": "PASS",
+   "detail": "same text as notes.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes OB_S",
+   "status": "PASS",
+   "detail": "same text as notes.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes OB_B",
+   "status": "PASS",
+   "detail": "same text as notes.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes OC",
+   "status": "PASS",
+   "detail": "same text as notes.csv"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Notes: no retired note left",
+   "status": "PASS",
+   "detail": "none"
+  },
+  {
+   "check": "G6 stale",
+   "item": "sheets/rab_tickets.csv",
+   "status": "PASS",
+   "detail": "none"
+  },
+  {
+   "check": "G6 stale",
+   "item": "sheets/rab_notes.csv",
+   "status": "PASS",
+   "detail": "none"
   }
  ]
 }

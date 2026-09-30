@@ -20,7 +20,12 @@ Checks (RAB Kit RUN_PLAN s3 WS6 DoD and Gate C):
                 every number word in every exemplar is a case fact, a security term, a date, a numbers.yaml key, or a
                 derivation this script shows.
   G6 stale      no stale facts (100,000 / $100k / Dec 4 / 500k / $0 commission / no Treasuries) and no superseded book
-                (TLH / IEF / VGSH) as current, in any kit output (md/csv); code hits only inside banned-pattern lists.
+                (TLH / IEF / VGSH) as current, in any kit output (md/csv) and the Sheet-tab mirrors; code hits only
+                inside banned-pattern lists.
+  G7 mirror     the committed mirrors of the Sheet tabs 'RAB Tickets' / 'RAB Notes' (rab/sheets/*.csv, written by
+                build_sheet_tabs.py) carry the same orders, quantities, prices and max prices as tickets.csv and the same
+                exemplar text as notes.csv, with no retired note left. (The LIVE tabs are read with the Sheets connector
+                and compared by hand; this script stays offline. See gate_C.md.)
 
 Run from the worktree root:  /Users/ray/Research/rab-ws/.venv/bin/python rab/trades/check_gate_c.py
 Writes rab/gates/gate_C_results.json. Exit 1 if any FAIL. UNVERIFIED = cannot be settled offline (needs the WInS
@@ -52,6 +57,7 @@ if "--self-test" in sys.argv:   # mutation tests: each broken copy of the kit mu
         ("wrong ordinal", "notes.csv", "is for the fourth of Laura's ten", "is for the fifth of Laura's ten", "G5 trace"),
         ("stale fact in a kit doc", "tickets.md", "# ", "# Trading ends Dec 4. ", "G6 stale"),
         ("superseded book as current", "october_trade.md", "# ", "# Buy TLH. ", "G6 stale"),
+        ("Sheet mirror out of date", "notes.csv", "Its reinvested income can vary.", "Its reinvested income may vary.", "G7 mirror"),
     ]
     bad = 0
     for label, f, old, new, want in CASES:
@@ -530,6 +536,51 @@ for f in [f for f in sorted(os.listdir(T0)) if f.endswith(".py") and f != "check
     bad = [(i + 1, p) for i, line in enumerate(lines) for p in STALE if re.search(p, line)
            and not re.search(r"BANNED|pats|r\"|r'|supersed|stale", line)]
     rec("G6 stale", f, not bad, "only inside banned-pattern lists" if not bad else f"hits: {bad[:5]}")
+
+# ------------------------------------------------------------------------------------------------ G7 sheet mirror
+# The team reads the kit through the Sheet tabs 'RAB Tickets' / 'RAB Notes'. Their committed mirrors in rab/sheets/
+# (written by build_sheet_tabs.py) must carry the same orders and the same exemplar text as the kit, and pass G1/G6.
+SH = P("rab", "sheets")
+sh_t = list(csv.reader(open(os.path.join(SH, "rab_tickets.csv"))))
+sh_n = list(csv.reader(open(os.path.join(SH, "rab_notes.csv"))))
+hi = next(i for i, r in enumerate(sh_t) if r[:3] == ["Book", "Order", "Ticker or bond"])
+H = sh_t[hi]
+col = lambda name: H.index(name)  # noqa: E731
+sh_rows = {(r[0], r[1]): r for r in sh_t[hi + 1:] if r and r[0] in ("Portfolio", "BookL") and r[1].isdigit()}
+fnum = lambda s: float(s) if s not in ("", None) else None  # noqa: E731
+for t_ in tickets:
+    key = (t_["book"], t_["seq"])
+    s_ = sh_rows.get(key)
+    if s_ is None:
+        rec("G7 mirror", f"RAB Tickets {key}", False, "row missing from rab/sheets/rab_tickets.csv")
+        continue
+    pairs = [("ticker", s_[col("Ticker or bond")], t_["id"] if t_["ticker"].startswith("(") else t_["ticker"]),
+             ("qty", fnum(s_[col("Quantity")]), fnum(t_["qty"])),
+             ("ref_price", fnum(s_[col("Reference price")]), fnum(t_["ref_price"])),
+             ("max_price", fnum(s_[col("Max price (do not pay above)")]), fnum(t_["max_price"])),
+             ("preview", fnum(s_[col("Kit Preview total ($, tickets.csv)")]), fnum(t_["preview_expected"]))]
+    bad = [(k, a, b) for k, a, b in pairs if (a != b if isinstance(a, str) or a is None or b is None
+                                              else abs(a - b) > 0.005)]
+    rec("G7 mirror", f"RAB Tickets {key[0]} #{key[1]}", not bad, f"differs: {bad}" if bad else "same as tickets.csv")
+rec("G7 mirror", "RAB Tickets row count", len(sh_rows) == len(tickets), f"{len(sh_rows)} rows vs {len(tickets)} tickets")
+nh = next(i for i, r in enumerate(sh_n) if r[:3] == ["Book", "Order", "Note ID"])
+NH = sh_n[nh]
+sh_ex = {}
+for r in sh_n[nh + 1:]:
+    if len(r) > NH.index("Exemplar note") and r[NH.index("Note ID")]:
+        sh_ex.setdefault(r[NH.index("Note ID")], set()).add(r[NH.index("Exemplar note")])
+for n_ in notes:
+    got = sh_ex.get(n_["note_id"])
+    ok = got == {n_["exemplar"]} and len(n_["exemplar"]) <= BOX
+    rec("G7 mirror", f"RAB Notes {n_['note_id']}", ok,
+        "same text as notes.csv" if ok else ("missing" if not got else f"differs from notes.csv ({[len(g) for g in got]} chars)"))
+extra = sorted(set(sh_ex) - {n_["note_id"] for n_ in notes})
+rec("G7 mirror", "RAB Notes: no retired note left", not extra, f"extra ids: {extra}" if extra else "none")
+for f in ("rab_tickets.csv", "rab_notes.csv"):
+    txt = open(os.path.join(SH, f)).read()
+    hits = [(i + 1, p) for i, line in enumerate(txt.splitlines()) for p in STALE if re.search(p, line)
+            and not re.search(r"(?i)supersed|stale|retired|not the current", line)]
+    rec("G6 stale", f"sheets/{f}", not hits, f"hits: {hits[:5]}" if hits else "none")
 
 # ------------------------------------------------------------------------------------------------ report
 cnt = {}
