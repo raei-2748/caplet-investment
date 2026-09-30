@@ -3,6 +3,48 @@
 WS6-gateC, RAB Kit, 30 Sep 2026 (Sydney). This is an AI-generated check (Claude Code) for Team Caplet. Nothing was run
 against WInS and no order was placed. The IPS, the Sheet and `numbers.yaml` were not edited. The Sheet was only read.
 
+## Fourth run (on kit commit ef8aaf6, 30 Sep 16:14 AEST)
+
+- **Result: 490 checks, 0 FAIL**, 18 UNVERIFIED (WInS name strings, open item 1), 16 CONDITIONAL (open item 3),
+  31 STALE (the live Sheet tab, open item 7). `--self-test` 10 of 10. `numbers.yaml` sha256 `492ed3203958...` matches
+  `rab/numbers.lock` and `/Users/ray/Research/rab-kit`. `refresh_tickets.py` 83 of 83, `build_notes.py` 0 fail,
+  `note_check.py --self-test` pass; the kit rebuilds byte-identical.
+- **Independent spot check (pandas, separate from the checker):** no ticket is IBTN and no expected name says INSCORP;
+  longest exemplar 294 characters, none above its `kit_limit`; cash walk Portfolio $294,764.50 incl. $200 commissions,
+  $5,235.50 left, lowest worst-case $2,445.28; Book L $292,580.89 incl. $175, $7,419.11 left, lowest $4,518.06; largest
+  ETF order 1.2% of the 2x-volume limit; all quantities whole. Stale-fact grep (100,000 / $100k / Dec 4 / 500k /
+  $0 commission / no Treasuries / TLH / IEF) over the kit .md/.csv and both mirrors: no hits.
+- **Cross-stream claims re-checked.** The coupon-shortfall owner in IBTM_R ("the stock-fund half she keeps, not the
+  floor") agrees with WS3 rule 3 and WS2 v5 on integration (Laura's half first, then the gift above the floor, then the
+  floor). WS4's withdrawn "buyable ladder costs more / about 22bp" claim is gone from the kit: `notes.md` s1 and the
+  triage table now say the WInS-listed ladder sized to $50,000 a rung is within $100 of STRIPS.
+- **One trivial fix, made in place (the Sheet mirror builder).** The tab's worst-case column R priced bonds with the
+  2 Oct accrued (column N), but the kit's worst case uses the accrued to the latest fill date (5 Oct). So the tab showed
+  worst-case cash **$2,477.19** (Portfolio) and **$4,566.42** (Book L), while `tickets.md` says **$2,445.28** and
+  **$4,518.06**. `build_sheet_tabs.py` now writes the kit's worst-case accrued into a new last column (AE) and column R
+  uses it; the mirror now matches the kit to the cent. No ticket, quantity or decision changes (both figures are far
+  above the $1,000 cash floor). The checker now evaluates the tab's own formulas (G7, +24 checks); run on the old
+  builder it FAILs 13 of them and reproduces exactly the live figures above.
+  The tab's expected cash ($4,974.62 / $7,021.49) differs from `tickets.md` ($4,974.64 / $7,021.52) only because the
+  tab rounds each trade to the cent. Ignore.
+- **New G8: the live 'RAB Notes' tab.** I read both live tabs read-only (Sheets connector, 16:14 AEST) and saved the
+  Notes read as `rab/data/sheet/RAB_Notes_live_2026-09-30T1614AEST.json`. WS6-sheets rewrote the tabs after the third
+  run, so the T37 max price (97.919), the note list (IBTR_F, IBTM_R, T40s, SW37 present; T40c gone) and every ticket row
+  on 'RAB Tickets' now match. But the tabs hold the **round-2 build (dd68e6e)**, not round 3 (ef8aaf6): **17 of 23
+  exemplars and 14 briefs are older text**. Example: the live IBTR exemplar still ends "stocks get less", which judge
+  J2 flagged against the IPS floor definition; the kit now says "the facility gets less". The live IBTR brief still
+  says the buyable ladder "costs more and has less room", which WS4 withdrew. The Team note column is empty, so a
+  rewrite loses nothing. Open item 7 updated below.
+
+## Re-run after the round-3 notes revision (WS6-revise, 30 Sep)
+
+- **418 checks: 0 FAIL, 18 UNVERIFIED, 16 CONDITIONAL; `--self-test` 10 of 10.** The claim patterns follow the new
+  exemplar texts ("the facility gets less", "Its 1 Oct WInS price passed", "more of what it pays comes at
+  maturity", VT's "thousands of companies" and "the top of the range", IBTM_R's "first call on a shortfall"). G1's
+  kit margin now reads each note's `kit_limit` (285, or 295 when no security name is left to swap in; longest note 294,
+  all under the 300 box). The mirrors in `rab/sheets/` were rebuilt, so G7 passes. Open item 7 (the live Sheet tabs)
+  still stands and now covers these texts too. Details: `rab/trades/judge_response.md`, round 3.
+
 ## Current run (third run, on kit commit cc887b3 plus this commit)
 
 - **Result:** 413 checks: **0 FAIL**, 18 UNVERIFIED (WInS name strings), 16 CONDITIONAL (open item 3).
@@ -33,7 +75,8 @@ against WInS and no order was placed. The IPS, the Sheet and `numbers.yaml` were
 | G4 volume (4) | ETFs: quantity at most 2 x the 30-session average volume (official rule) and at most half of the quietest day in 20 sessions (WInS FAQ). Bonds: WInS shows no bond volume, so a split plan has to exist | 21 PASS. Largest ETF order is 1.2% of the 2x limit. Bond split plan is in `M9_selection.md` |
 | G5 traceability (5) | Every ticket field equals numbers.yaml or a committed dated file, or is worked out again here. Every cent figure in tickets.md traces. Every digit and every number word in the exemplars traces to a case fact, a security term, a numbers.yaml key or a derivation shown in the check | 165 PASS, 16 CONDITIONAL (open item 3) |
 | G6 stale facts (6) | Search for 100,000 / $100k / Dec 4 / 500k / $0 commission / "no Treasuries", and for TLH / IEF / VGSH as the current book, in every kit .md and .csv and both Sheet mirrors. In code, a hit is allowed only inside a banned-pattern list | 18 PASS: no hits |
-| G7 Sheet mirror | The rab/sheets mirrors match tickets.csv and notes.csv row by row | 46 PASS (the live tabs do not match: open item 7) |
+| G7 Sheet mirror | The rab/sheets mirrors match tickets.csv and notes.csv row by row; from the 4th run, the tab's own formulas (Q expected, R worst case, per-book cash left) evaluated from the mirror equal the kit | 4th run: 70 PASS |
+| G8 live tab (4th run) | The newest dated read-only snapshot of the live 'RAB Notes' tab: exemplar and brief equal the kit, no retired note, Team note column empty | 17 PASS, 31 STALE (open item 7) |
 
 ## Open items (the strategy is unchanged)
 
@@ -45,7 +88,7 @@ against WInS and no order was placed. The IPS, the Sheet and `numbers.yaml` were
 | 4 | The IBTR test and the OB_S trigger use the 28 Sep curve (about $292,000; a fall of about a quarter of a percentage point). | fix-before-6-Nov (already planned) | Friday re-lock of `laura.ladder.cost_2027_strips` and `breakeven_fall_bp_strips`. If the cost is above $300,000, the team trades `--split-from-curve` and types IBTR_F |
 | 5 | The tickets' 30-session volume `adv30` is not in numbers.yaml. It comes from the committed, dated `rab/data/etf/etf_summary_2026-09-28.csv`, which was re-read to the share. | note (WS1 request in `notes.md` s7) | Add `adv30` at the Friday re-lock |
 | 6 | The Sheet tab Book L shows its own curve gaps: "+13bp" for Nov-2039 and "about 85bp off" for Feb-2038. M1 gives -6.6bp and -92.1bp. The tickets and notes use M1 only. | note-in-Final-Report (Sheet labels only) | `rab/data/sheet/Book_L_values_2026-09-30T0033AEST.txt` against `wins.bond_check.*` |
-| 7 | **The live Sheet tabs 'RAB Tickets' and 'RAB Notes' are out of date:** T37 max price 97.940 against 97.919; 26 changed exemplars; T40c still listed; IBTR_F, IBTM_R, T40s and SW37 missing. The team works from these tabs on Friday. | **fix-before-6-Nov (before Friday 2 Oct)** | Ray (or WS6-sheets) re-runs `rab/sheets/build_sheet_tabs.py` and writes `rab_tickets.json` / `rab_notes.json` to the two tabs, then reads them back. The 'Team note' column (M) must be kept if students have typed in it. Until then, use `tickets.md` / `notes.md` |
+| 7 | **The live Sheet tabs are one build behind (4th run, 16:14 AEST).** 'RAB Notes' holds round-2 text: 17 of 23 exemplars and 14 briefs differ from `notes.csv` (e.g. IBTR "stocks get less"; IBTR brief "costs more and has less room"). 'RAB Tickets' rows match, but its worst-case column R uses the 2 Oct accrued (worst-case cash $2,477.19 / $4,566.42 against the kit's $2,445.28 / $4,518.06). (Third run: T37 97.940, T40c and 4 missing notes; all fixed by WS6-sheets since.) | **fix-before-6-Nov (before Friday 2 Oct)** | WS6-sheets (or Ray) re-runs `rab/sheets/build_sheet_tabs.py` and writes `rab_tickets.json` (now 31 columns, new AE) / `rab_notes.json` to the two tabs, then reads them back and saves a new `rab/data/sheet/RAB_Notes_live_*.json`; `check_gate_c.py` G8 must then show 0 STALE. The Team note column (M) was empty at 16:14; keep it if students have typed since. Until then, use `tickets.md` / `notes.md` |
 
 These items were already known and fall outside this check. The Sheet records 0.530 as the May-2038 bond's accrued
 interest (`tickets.csv` `accrued_rec`; the kit trades on 1.712 for 2 Oct). The IPS says "needs no rebalancing". Both
@@ -61,7 +104,9 @@ A local file, `rab/trades/out/tickets_2026-09-28_friday_rule_Portfolio.csv`, is 
   MSPD coupons without decimals, a rounding allowance of $0.16 or less per bond ticket for the 3-decimal max price).
 - **Second run (cc887b3, after the second judge panel):** 365 checks, 0 FAIL, 18 UNVERIFIED, 16 CONDITIONAL; self-test
   9 of 9. One kit fix: bond max price capped at the band top (T37 97.940 -> 97.919). Ticket totals unchanged.
-- **Third run (this commit):** added G7 and the Sheet-mirror stale scan; read the live tabs; found open item 7.
+- **Third run (dd68e6e):** added G7 and the Sheet-mirror stale scan; read the live tabs; found open item 7.
+- **Fourth run (ef8aaf6 + this commit):** 490 checks, 0 FAIL, 31 STALE; G7 formula checks; new G8 live-tab snapshot
+  check; one in-place fix to the mirror builder's worst-case column. Kit tickets and notes unchanged.
 
 Run from the worktree root:
 

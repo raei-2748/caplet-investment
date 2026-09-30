@@ -2,7 +2,7 @@
 
 WS6, RAB Kit, 30 Sep 2026 (Sydney). AI-generated decision memo (Claude Code) for Team Caplet. **The team ratifies it
 before the check date; nothing here is applied to the IPS or the Sheet.** Triage: it does not change the strategy.
-Revised after the second judge panel (30 Sep): trigger D now fires only on a new fact (a price that was stale on Friday and passes later), not on IPS wording, and trigger B names its basis.
+Revised after the second judge panel (30 Sep): trigger D now fires only on a new fact (a price that was stale on Friday and passes later), not on IPS wording, and trigger B names its basis. Third panel (30 Sep): trigger B's size follows the team's floor definition (`--floor-rule`), and the refresh prints the day's break-even with the cost.
 
 ## Why a second trade, and why a rule
 
@@ -39,7 +39,7 @@ day is UNVERIFIED).
 | | Fires if | The trade | TN role | IPS sentence it carries out |
 |---|---|---|---|---|
 | **A. Repair** | A Friday ticket did not fill, was skipped because its price failed the check, or filled only in part | Place it at today's prices; the refresh re-sizes it | supported | "The January 2027 deposit buys the liability-hedging portfolio, latest payments first." |
-| **B. Rates-fall test** | The refresh says the ten payments now cost **more than $300,000** on 1 Jan 2027, on the zero-coupon basis of `numbers.yaml` (its "ten payments cost" line; if WS1 locks a buyable-basis test before 14 Oct, use that one and say so in the decision log). Today (28 Sep curve) they cost about $292,000, so yields would have to fall more than about a quarter of a percentage point (about 26bp). | Sell VT down to the new stock-fund share the refresh prints; buy IBTM with the proceeds. Two trades, $50; only if the amount is at least $2,500 | tested | "A moderate fall in yields would leave some payments for the 2028 deposit to complete" |
+| **B. Rates-fall test** | The refresh says the ten payments now cost **more than $300,000** on 1 Jan 2027, on the zero-coupon basis of `numbers.yaml` (its "ten payments cost" line; if WS1 locks a buyable-basis test before 14 Oct, use that one and say so in the decision log). Today (28 Sep curve) they cost about $292,000, so yields would have to fall more than about a quarter of a percentage point (about 26bp). | Sell VT down to the new stock-fund share the refresh prints (with `--floor-rule` set to the team's floor definition, `notes.md` s7); buy IBTM with the proceeds. Two trades, $50; only if the amount is at least $2,500 | tested | "A moderate fall in yields would leave some payments for the 2028 deposit to complete" |
 | **D. Coupon refinement** | A new fact since Friday: the 1.375% 15 Nov 2040 bond was listed on Friday but its price failed the 25bp check (note T40s), or it was not listed then and is now; its price passes the check that day | Day 1: sell the 4.250% 15 Nov 2040 bond. Day 2 (once the cash shows): buy the 1.375% 15 Nov 2040 bond. Two trades, $20 | refined | "Laura's 2027 deposit buys Treasuries maturing before each of her ten $50,000 payments." (either bond fits it) |
 | **C. Spare cash** | WInS cash is above **$6,300**: the $3,300 float (1.1%) plus at least $3,000, so the $25 commission is under 1% | Buy VT with everything above $3,300 | supported | "The rest, plus any 2027 remainder, forms the return-seeking portfolio" |
 | **None** | Nothing fires | No trade. Write "checked 14 Oct: the rules said hold" in the decision log | - | - |
@@ -49,10 +49,14 @@ B comes before D and C because it is the market test the IPS itself describes. A
 ### Why B buys IBTM
 
 The 2027 deposit buys the latest payments first. If yields fall and the ladder costs more than the deposit, it is
-the **earliest** payment (1 Jan 2033) that the 2028 deposit completes, before any stocks, so the stock fund gets less
-(only a very large fall would reach the floor; WS4 `D_pre2027_rate_hedge.md`). Both the payment and the floor sit
-in IBTM. So moving the excess from VT into IBTM does in WInS what the IPS says would happen to Laura's money. The
-dated holdings already in WInS rise in value when yields fall, so only the stock-fund share needs moving.
+the **earliest** payment (1 Jan 2033) that the 2028 deposit completes, before any stocks, so less is left for the
+facility. Which part shrinks depends on the floor's definition, which the team settles (`notes.md` s7, judge panel
+round 3): under the kit's model (`--floor-rule fixed`, WS4 `D_pre2027_rate_hedge.md`) the floor stays $150,000 and
+the stock fund absorbs the gap (only a very large fall would reach the floor); read literally, the IPS ("repay the
+whole remainder as Laura's facility floor", `--floor-rule remainder`) lowers the floor by the whole gap and the stock
+fund by only about a fifth of it, so the VT sale is much smaller. Both the payment and the floor sit in IBTM. So
+moving the excess from VT into IBTM does in WInS what the IPS says would happen to Laura's money. The dated holdings
+already in WInS rise in value when yields fall, so only the stock-fund share needs moving.
 
 ### Why D is worth a trade (from `M9_selection.md`)
 

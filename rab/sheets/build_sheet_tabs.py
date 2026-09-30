@@ -61,18 +61,23 @@ def tickets():
         "Check: formula minus kit ($)", "Stop if Preview below ($)", "Stop if Preview above ($)",
         "Cash after: expected ($)", "Cash after: worst case ($)", "Cash check", "30-day avg daily volume",
         "Order size vs 2x daily volume", "Trap to avoid", "Alternate", "Why this order",
+        "Worst-case accrued per $100 (bonds, if the fill slips to Mon 5 Oct)",
     ]
     rows.append(hdr)
     for i, r in enumerate(t.itertuples(index=False)):
         n = first + i
         bond = r.type == "Treasury"
+        # Gate C (4th run): the worst case must use the kit's worst-case accrued (to the settle date, 5 Oct), not the
+        # 2 Oct figure in column N, or the tab's worst-case cash ($2,477.19) disagrees with tickets.md ($2,445.28).
+        # Backed out of cost_max, which uses the unrounded max price, so it is kept to 4 decimals.
+        acc_w = round((r.cost_max - r.commission) * 100 / r.qty - r.max_price, 4) if bond else ""
         rows.append([
             txt(r.book), int(r.seq), txt(r.id), txt(r.type), txt(r.wins_name_expected), txt(r.wins_name_status),
             txt(r.cusip), txt(r.serves), int(r.qty), txt(r.qty_unit), num(r.ref_price), txt(r.ref_asof),
             txt(r.ref_source), num(r.accrued_trade) if bond else "", num(r.max_price),
             f'=IF(D{n}="Treasury",$B$6,$B$5)',
             f'=IF(D{n}="Treasury",I{n}/100*(K{n}+N{n}),I{n}*K{n})+P{n}',
-            f'=IF(D{n}="Treasury",I{n}/100*(O{n}+N{n}),I{n}*O{n})+P{n}',
+            f'=IF(D{n}="Treasury",I{n}/100*(O{n}+AE{n}),I{n}*O{n})+P{n}',
             num(r.preview_expected),
             f"=ROUND(Q{n}-S{n},2)",
             num(r.stop_if_preview_below), num(r.stop_if_preview_above),
@@ -81,7 +86,7 @@ def tickets():
             f'=IF(X{n}>=$B$7,"OK","STOP: below cash floor")',
             num(r.adv30),
             f'=IF(Z{n}="","bond: n/a",I{n}/(2*Z{n}))',
-            txt(r.trap), txt(r.alternate), txt(r.why_here),
+            txt(r.trap), txt(r.alternate), txt(r.why_here), acc_w,
         ])
     end = len(rows)
     rows.append([None])

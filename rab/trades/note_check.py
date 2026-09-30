@@ -6,7 +6,8 @@ What it checks (rules in note_rules.py; sources there):
   FAIL  over 300 characters (the WInS box cuts silently), non-ASCII characters, more than one paragraph,
         a banned word, or phrase overlap of 50% or more with an EXAMPLE note (PM-13: rewrite, or disclose the
         exemplar in the Final Report's Works Cited).
-  WARN  286-300 characters, no official role word, nothing tied to Laura (a year alone does not count), more than one
+  WARN  over the kit limit but within 300 (285, or 295 for a note with no security name left to swap in: the
+        kit_limit column of notes.csv), no official role word, nothing tied to Laura (a year alone does not count), more than one
         analytic number, a number not traced to rab/numbers.yaml (digits, or words such as "a quarter of a
         percentage point", "almost exactly", "most of"), a dollar figure without "in Laura's plan",
         overlap of 25-49% (not a pass: rewrite, or disclose the exemplar in Works Cited), or a shared run of 6 or
@@ -30,7 +31,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from note_rules import check_text, phrase_overlap, pick_anchor  # noqa: E402
+from note_rules import MAX_NOTE, check_text, phrase_overlap, pick_anchor  # noqa: E402
 
 WHARTON_EXAMPLE = (   # Trading Note Instruction.pdf p.2 (official 2026-27), typed with straight quotes
     "We are purchasing shares of an intermediate-term U.S. Treasury bond ETF to reduce portfolio volatility and begin "
@@ -57,7 +58,9 @@ def report(text, ticker=None, ex=None, quiet=False, declared=(), pick=False):
     pool = [r for r in ex if ticker is None or r["ticker"] == ticker or r["note_id"] == ticker] or ex
     if not declared:   # numbers the exemplars for this holding already trace to numbers.yaml (notes.csv 'numbers')
         declared = [d.split(" = ")[0] for r in pool for d in r.get("numbers", "").split("; ") if d]
-    for name, ok, detail, sev in check_text(text, declared):
+    # kit limit: 285, or 295 when every exemplar for this holding has no WInS name left to swap in (notes.csv kit_limit)
+    limit = min(int(r.get("kit_limit") or MAX_NOTE) for r in pool) if ticker and pool is not ex else MAX_NOTE
+    for name, ok, detail, sev in check_text(text, declared, limit):
         if not ok:
             (fails if sev == "FAIL" else warns).append(f"{name}: {detail}")
     if pick:
@@ -95,7 +98,8 @@ def self_test():
     print(f"1. Every exemplar in notes.csv passes the text checks ({len(ex)} notes):")
     for r in ex:
         declared = [d.split(" = ")[0] for d in r.get("numbers", "").split("; ") if d]
-        f, w = report(r["exemplar"], ex=[], quiet=True, declared=declared)
+        f, w = report(r["exemplar"], ticker=r["note_id"], ex=[r], quiet=True, declared=declared)
+        f, w = ([x for x in xs if not x.startswith("overlap with EXAMPLE")] for xs in (f, w))   # it overlaps itself
         bad = f + w
         print(f"   {r['note_id']:7s} {len(r['exemplar']):3d} chars  {'pass' if not bad else bad}")
         ok &= not bad
@@ -126,12 +130,19 @@ def self_test():
           f"{'yes' if caught else 'NO'}")
     ok &= caught
     wordnum = ("Role: future funding. Tested before our first order: Laura's ten $50,000 payments cost under her "
-               "$300,000 first deposit. If yields fall about a fifth of a percentage point, her 2028 deposit tops up "
+               "$300,000 first deposit. If yields fall about a tenth of a percentage point, her 2028 deposit tops up "
                "the earliest.")
     _, w_word = report(wordnum, ticker="IBTR", ex=ex, quiet=True)
-    caught = any("numbers traced" in x and "a fifth of a percentage point" in x for x in w_word)
-    print(f"6. A number written in words that is not declared ('a fifth of a percentage point') is flagged: "
+    caught = any("numbers traced" in x and "a tenth of a percentage point" in x for x in w_word)
+    print(f"6. A number written in words that is not declared ('a tenth of a percentage point') is flagged: "
           f"{'yes' if caught else 'NO'}")
+    ok &= caught
+    reassure = ("Role: future funding. The 4.375% Treasury bond maturing 15 Nov 2039 is for Laura's eighth payment; its "
+                "coupons and principal cover most of it and reinvested coupons cover the rest. Bought at $21.76 on 2 Oct.")
+    f, _ = report(reassure, ex=ex, quiet=True)
+    caught = sum(1 for x in f if x.startswith("banned words") and "cover the rest" in x and "$21.76" in x) == 1
+    print(f"7. False reassurance ('cover the rest') and a copied 28 Sep kit price ('$21.76') are caught: "
+          f"{'yes' if caught else 'NO ' + str(f)}")
     ok &= caught
     print("SELF-TEST " + ("PASS" if ok else "FAIL"))
     return 0 if ok else 1

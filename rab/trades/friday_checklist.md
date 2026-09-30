@@ -9,7 +9,8 @@ not from that file. Every time below comes from `rab/trades/trades_clock.py` (zo
 
 | When (Sydney) | When (U.S. Eastern) | What |
 |---|---|---|
-| Thu 1 Oct, team meeting | - | Vote: Portfolio tab or Book L; the one swap rule for same-slot alternates (`M9_selection.md`); the backstop sentence yes/no; roles; notes drafted |
+| Thu 1 Oct, before the meeting | - | One student logs in read-only (no orders) and copies the whole WInS bond drop-down (all 43 bonds: coupon and maturity) into the WInS Notes tab |
+| Thu 1 Oct, team meeting | - | Vote: Portfolio tab or Book L; the one swap rule for same-slot alternates (`M9_selection.md`); the backstop sentence yes/no; the floor's definition; roles; notes drafted |
 | **Fri 2 Oct 9:00 PM AEST** | Fri 7:00 AM EDT | Read-only checks in WInS; type prices; run the refresh |
 | Fri 2 Oct 11:30 PM AEST | Fri 9:30 AM EDT | U.S. market opens. Watch, do not trade for 15 minutes |
 | Fri 2 Oct 11:45 PM AEST | Fri 9:45 AM EDT | Earliest any order may go in, only if Plan A cannot wait (iBonds normally wait for 10:30) |
@@ -43,6 +44,12 @@ any AI help goes in `docs/AI_USE.md`.
 
 ## Thursday 1 Oct (before Friday)
 
+- [ ] **Before the vote: read the whole bond drop-down.** One student logs in (read-only: no order screen is
+      submitted) and copies all 43 bonds WInS lists, coupon and maturity, into the WInS Notes tab. WInS lists only
+      about 38% of the 113 Treasury bonds outstanding (MSPD Table V, 31 Aug 2026), so whether the 1.375% 15 Nov 2040,
+      2.000% 15 Nov 2041 and 5.000% 15 May 2037 are listed is genuinely open. The vote then knows which of SW40, SW41
+      and SW37 can happen, and writers draft only those variants. Prices are still checked on Friday against the
+      25bp band.
 - [ ] Vote on the book: the **Portfolio tab** (11 trades) or **Book L** (10 trades). Record the vote, names and date.
 - [ ] Adopt **one swap rule** for the three same-slot alternates (`M9_selection.md`): if WInS lists it and its price
       is inside its 25bp band on Friday, swap it in on Friday (`--swap`); if it is listed but its price fails, buy the
@@ -50,22 +57,32 @@ any AI help goes in `docs/AI_USE.md`.
       bond. The three: **1.375% 15 Nov 2040** for the 4.250% (notes SW40 / T40s / T40b), **2.000% 15 Nov 2041** for
       the 3.125% (SW41 / T41), **5.000% 15 May 2037** for the 4.750% Feb 2037 (SW37 / T37). Keeping a listed, passing
       bond for October is no longer an option (it would look like a trade made to create a pick; T40c is retired).
-- [ ] Decide the **backstop sentence** (wording only; `notes.md` s7 triage row 2): does the policy name the half of
-      the stock fund Laura keeps, not the floor, as the money that covers a shortfall from coupons or fund end values?
-      Yes: order 5's note is **IBTM_R** (a "refined" pick). No: it is **IBTM_P** (supported). Nothing here edits the IPS.
+- [ ] Decide the **backstop sentence** (wording only; `notes.md` s7): does the policy make the half of the stock
+      fund Laura keeps, not the floor, the **first call** on a shortfall from coupons or fund end values? It covers a
+      modest shortfall, not any (about $20,000, the size of the 2% gap). Yes, and the IPS draft carries the sentence
+      the same day: order 5's note is **IBTM_R** (a "refined" pick), and by 6 Nov the IPS names the order of use
+      (first a payment shortfall, then facility costs or co-sponsor gaps). No: it is **IBTM_P** (supported). Nothing
+      here edits the IPS.
+- [ ] Decide the **floor's definition** (`notes.md` s7): (a) the IPS as written, the floor is what is left of the
+      2028 deposit after any top-up (`--floor-rule remainder`), or (b) a $150,000 floor, cut only if the payments need
+      more than the stock fund (`--floor-rule fixed`, the kit default). It matters only if yields fall before 2028
+      (the IBTR test fails, or October trigger B fires). Record the choice in the vote minutes.
 - [ ] The refined pick is then the first that exists: SW40, SW41, OD_B (October), IBTM_R. If none, the team features
-      IBTM_P as supported and does not force "refined" (`notes.md` s6).
+      the Nov 2039 bond (T39) as supported, with the reinvestment discovery, and does not force "refined"
+      (`notes.md` s6).
 - [ ] Laura-lens reason for the vote: Book L shows only the payments, so the floor and the stock fund, two of her
       three goals, never appear in WInS before the 23 Oct Trading Notes Analysis (`notes.md` s6).
 - [ ] Strategy name: keep any brand name **out of** WInS notes unless Ray confirms the final name (premortem PM-16).
-- [ ] Notes drafted offline: at most 285 characters, plain ASCII (no curly quotes, dashes, "~", "<="), one
+- [ ] Notes drafted offline: at most 285 characters (295 for the IBTR, IBTM and VT notes, whose names cannot get
+      longer: `note_check.py --ticker` applies the right limit), plain ASCII (no curly quotes, dashes, "~", "<="), one
       paragraph. None of the overclaim words on the banned list (`rab/premortem.md`, Gate C check 2; say "backed by
       the U.S. government", and never that an iBonds fund repays a set sum). Dollar figures only as "in Laura's
       plan", otherwise percentages. At most one number per note. Briefs and EXAMPLE notes (labelled `EXAMPLE - team
       rewrites`) are in `notes.md`; draft from the brief, then run `note_check.py --ticker <holding> --text "..."`,
       which also measures overlap with the exemplar. Each writer adds **one thing only WInS showed that day** (the
-      exact WInS name string, that the price passed the check, or the Preview price as the note's one number, dated).
-      No exemplar can contain it, so no note is a copy.
+      exact WInS name string, that its 1 Oct price passed the check, the 1 Oct close premium, or the Preview price as
+      the note's one number, dated: the price WInS shows, never a kit reference price). No exemplar can contain it,
+      so no note is a copy.
 - [ ] Everyone reads the five stop rules at the top of `tickets.md`.
 
 ## Friday 9:00 PM AEST (7:00 AM ET): read-only checks, then refresh
@@ -80,6 +97,9 @@ Nothing is ordered in this step.
    whether Preview shows the commission, and whether a bond Preview shows accrued interest.
 3. [ ] Type **IBTO, IBTP, IBTQ, IBTR** and copy each name exactly as WInS shows it. Type **IBTN** once: it should say
    INSCORP Inc. It is never a buy.
+   - [ ] IBTP note: on the iShares IBTP page, read the **Premium/Discount** published for the 1 Oct close (or the
+     1 Oct closing price and NAV, and divide). Write it, with its date, in the Trade Log. More than about 0.1% either
+     way: the IBTP note says what was found instead of "almost exactly".
 4. [ ] Bond drop-down: for each planned bond, find it by **coupon and maturity**. Copy the clean price and accrued
    interest per $100 into `rab/trades/wins_prices_friday.csv` (copy of `wins_prices_friday_TEMPLATE.csv`). Do the
    same for the alternates: 2.000% 15 Nov 2041, 1.375% 15 Nov 2040, 4.500% 15 Aug 2039, 5.000% 15 May 2037, and the
@@ -97,8 +117,14 @@ Nothing is ordered in this step.
    - If a bond **fails the 25bp check**, it is stale: use the alternate named on its ticket, or skip it today and
      buy it on Monday.
    - The script prints "ten payments cost $X on 1 Jan 2027" on the latest curve (the zero-coupon basis of
-     `numbers.yaml`). **That line is the test in the IBTR note** (the "tested" pick): read it aloud and write it in the
-     Trade Log. If it is above $300,000, the script says **IBTR TEST FAILS**: go to "If the IBTR test fails" below.
+     `numbers.yaml`), then the room under $300,000, the **break-even fall** and the **words for the IBTR note**
+     (under 22.5bp "about a fifth", 22.5-30 "about a quarter", 30-37.5 "about a third"). **These lines are the test
+     in the IBTR note** (the "tested" pick): read them aloud and write them in the Trade Log; the note keeper types
+     the printed words. The break-even moved from 19.3bp to 28.9bp between 25 and 29 Sep, so never reuse the 28 Sep
+     words without looking. If the cost is above $300,000, the script says **IBTR TEST FAILS**: go to "If the IBTR
+     test fails" below.
+   - The bond prices WInS shows on Friday morning are the 1 Oct closes, so the bond notes say "Its 1 Oct WInS price
+     passed our curve check". Bonds fill at end-of-day prices: record each fill price in the Trade Log.
    - If a fetch fails, the script says so, falls back to the committed 28 Sep files and marks those prices STALE
      (the check fails). Type the WInS price for every flagged ETF too (the template has a row for each) and re-run
      until it ends with `0 fail`. Never work out sizes by hand.
@@ -107,10 +133,11 @@ Nothing is ordered in this step.
 
 The rule, set before anyone knew the answer, now decides the trade. Do not stop trading and do not skip IBTR.
 
-1. [ ] Re-run the refresh with `--split-from-curve` added. It sizes the Portfolio book from the plan split the curve
-       prints: the dated holdings get more and VT less, because Laura's 2028 deposit tops up the earliest payments
-       before any stocks (IPS: "A moderate fall in yields would leave some payments for the 2028 deposit to
-       complete"). Book L is unchanged (it holds only the ladder).
+1. [ ] Re-run the refresh with `--split-from-curve` and `--floor-rule <the definition voted on Thursday>` added. It
+       sizes the Portfolio book from the plan split the curve prints: the dated holdings get more and VT less,
+       because Laura's 2028 deposit tops up the earliest payments first and less is left for the facility (IPS: "A
+       moderate fall in yields would leave some payments for the 2028 deposit to complete"). The script also prints
+       the split under the other definition. Book L is unchanged (it holds only the ladder).
 2. [ ] Trade orders 1-10 from that ticket. Order 1's note is **IBTR_F** (`notes.md` s5), in the team's own words.
 3. [ ] On Monday, add `--split-from-curve` to the VT refresh too, so VT gets the smaller share.
 4. [ ] Tell Ray; the Friday figure goes in the Trade Log and to WS1 for the re-lock.

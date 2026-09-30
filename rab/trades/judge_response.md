@@ -1,11 +1,148 @@
 # Response to the WS6 notes judge panels (30 Sep 2026)
 
-WS6-revise, RAB Kit, 30 Sep 2026 (Sydney). AI-generated (Claude Code, Claude Opus 5.5) for Team Caplet. Two rounds of
-three panels each: round 2 reviewed `notes.md` at 104476c, round 1 at c11b02f. In both, J1 is the WGHSIC judge
+WS6-revise, RAB Kit, 30 Sep 2026 (Sydney). AI-generated (Claude Code, Claude Opus 5.5) for Team Caplet. Three rounds
+of three panels each: round 3 reviewed `notes.md` at dd68e6e, round 2 at 104476c, round 1 at c11b02f. In each, J1 is the WGHSIC judge
 (self-scoresheet scale), J2 is Laura and her co-sponsors, and J3 is the pedantic fact-checker. Each point is either
 fixed or rejected with a one-line reason. **The strategy is unchanged.** The IPS, the live Sheet and `numbers.yaml`
 were not edited. IPS wording items are triaged for the team (`notes.md` s7), and new figures are requested from WS1
 (`notes.md` s7, "Requests to WS1").
+
+## Round 3 (panel at dd68e6e)
+
+### What changed
+
+- **Who absorbs a gap (J2 #1-2, J3 #2-3).** IBTR now ends "the facility gets less" and IBTR_F "less is left for
+  the facility". Both are true whether the floor is a fixed $150,000 (the kit's model, WS4) or what is left of the
+  2028 deposit (the IPS read literally). The two definitions are a new fix-before-6-Nov triage row and a new 1 Oct
+  vote item. `refresh_tickets.py` gains `--floor-rule fixed|remainder`. The default is unchanged. When the test fails,
+  the script prints the split under the other definition too. The strategy is unchanged.
+- **IBTR's number follows Friday's curve (J1 #1).** The refresh now prints the room, the break-even and the words to
+  type: under 22.5bp "about a fifth", 22.5-30 "about a quarter", 30-37.5 "about a third". On the Gate A basis it
+  prints 26.2bp and "about a quarter", as locked. I re-ran J1's figures on par curves fetched 30 Sep: 20.1bp (24 Sep),
+  19.3 (25 Sep), 26.2 (28 Sep) and 28.9 (29 Sep). The brief quotes them as MODEL; only 28 Sep is locked.
+- **Basis corrected (J2 #8, J3 #4).** WS4's 22.8bp is the same STRIPS basis with yields unchanged. It is not the
+  buyable ladder. A WInS-listed ladder sized to $50,000 a rung costs within $100 of STRIPS (WS4 memo;
+  `bookL_basis_check.txt`). The "about a fifth" basis switch and "likely higher" are deleted. WS1 request 9 is
+  rewritten.
+- **Exemplars:**
+  - IBTR (294 characters): "We checked first: ... Treasuries for Laura's ten $50,000 payments cost under her
+    $300,000 first deposit. It is future funding for the fifth payment. ... the facility gets less."
+  - IBTR_F follows IBTR.
+  - T39: "in her plan", and "the rest depends on reinvested coupons".
+  - IBTM_R: "the first call on a shortfall".
+  - IBTM_P: one sentence, and "It holds 2032 Treasuries".
+  - VT: "thousands of companies worldwide" and "the top of the range". "Bought last" and "Half the fund stays hers" are
+    dropped.
+  - IBTP: "At the 1 Oct close" (the premium iShares publishes).
+  - IBTQ and IBTO: the whole payout "is not fixed".
+  - T38: "in her plan its money waits ... in Treasury bills", with no stale-price clause.
+  - Every bond check is dated: "Its 1 Oct (WInS) price passed our curve check".
+  - The swap notes say "more of what it pays comes at maturity".
+- **Kit limit.** 285, or 295 for a note with no security name left to swap in (IBTR and IBTR_F name none; IBTM and
+  VT were SEEN). This is J1's own proposal for IBTR. Every exemplar is 300 or fewer (longest 294). The limit is the
+  new `kit_limit` column in `notes.csv`. `note_check.py --ticker` and Gate C G1 apply it.
+- **Picks.**
+  - Pick 2 is still the first of SW40, SW41, OD_B or IBTM_R. IBTM_R now also needs the IPS draft to carry the
+    sentence the same day.
+  - If none exists, the fallback is **T39** (supported: the reinvestment discovery), not IBTM_P.
+  - The alternates are now IBTM_P, T39 and T41. T38's price check and the IBTN trap go to the Final Report.
+  - Reflections:
+    - Pick 1 leads with "$300,000 alone ... on only about 1 day in 9 since 2000".
+    - Pick 2's one number is "$466,000 against ten $50,000 payments" at 2%.
+    - Pick 3 adds the tradeoff, her balance clause, the cushion and the cap. It also names what backs the floor
+      when pick 2 is a bond swap.
+    - The scale sentence is reworded.
+    - The new rule-reading clause goes in any featured reflection whose note cites a WInS listing gap.
+- **Checker.**
+  - `note_rules.py` bans "covers the rest", "covers her/the/that/each payment", "delivers $50,000", "half the fund
+    stays" (unless it follows "at least") and the kit's 28 Sep reference prices ($21.76 ...). It now allows "operating
+    reserve" and bans only a reserve size.
+  - `note_check.py` self-test 7 catches the first and the last of these.
+  - Gate C's claim patterns follow the new texts.
+- **Runbook.** `friday_checklist.md` gets three additions:
+  - Thursday: read the whole bond drop-down read-only; vote on the floor definition and on the IPS-draft condition
+    for IBTM_R.
+  - Friday: the break-even and words lines, the IBTP premium step and the dated bond prices.
+  - `--floor-rule` in the failed-test branch.
+
+  `october_trade.md` trigger B follows the floor definition. The `tickets.md` volume note now cites the Nasdaq URL,
+  the fetch time and the file, and shows that the numbers.yaml series gives lower ratios.
+
+### Round 3, J1: WGHSIC judge
+
+| # | Point | Verdict | What changed, or why not |
+|---|---|---|---|
+| 1 | The refresh prints no Friday break-even | Fixed | Room, break-even and words printed; J1's bands (plus guards under 15bp and over 37.5bp); Trade Log; WS1 request 1 |
+| 2 | IBTR wording clipped; allow about 295 | Fixed | 294 characters, "Treasuries for", "the fifth payment". J1's model dropped the role word (the checker failed it), so it opens "We checked first:" |
+| 3 | Read the drop-down before the vote | Fixed | Thursday read-only copy of all 43 bonds into the WInS Notes tab; writers draft only the variants that can happen |
+| 4 | IBTM_R "any gap" | Fixed | "The first call on a shortfall" (J2): "cover a shortfall" would still promise cover |
+| 5 | IBTM_R needs an IPS clause | Fixed | Triage row: the order of use by 6 Nov; type IBTM_R only if the IPS draft carries the sentence on 1 Oct |
+| 6 | VT has no research | Fixed | "Thousands of companies worldwide" (the IPS phrase); "bought last" dropped |
+| 7 | T39 "most of that payment" false at WInS scale | Fixed | "In her plan"; the brief gives the scale ($18,000 face) |
+| 8 | IBTP "on the trade date" | Fixed | J3's more exact form: "At the 1 Oct close", the premium iShares publishes for that close |
+| 9 | IBTM_P grammar and no research | Fixed in part | One sentence, no colons or split parenthesis, 287 characters. It uses "It holds 2032 Treasuries" (J2) in place of "WInS lists no late-2032 Treasury"; that reason moves to the alternate A outline with the rule-reading clause |
+| 10 | Pick 1 history tests a different threshold | Fixed | Leads with the 1-in-9 quote_as; the 1-in-10 forward figure after WS1 request 12 |
+| 11 | VT reflection has no tradeoff | Fixed | Tradeoff bullet (IPS paraphrase), 59 words |
+| 12 | Two $300,000s side by side | Fixed | J1's scale sentence |
+| 13 | Fallback should be T39, not IBTM_P | Fixed | T39 is the pick-2 fallback; IBTM_P is alternate A |
+| 14 | "Curve check" is jargon | Agreed (ignore) | The definition stays in the pick 2 outline |
+| 15 | T38 tested WInS data | Fixed | Out of the alternates (J2 #15); the story goes to the Final Report, as J1 suggested |
+
+### Round 3, J2: Laura and co-sponsors
+
+| # | Point | Verdict | What changed, or why not |
+|---|---|---|---|
+| 1 | IBTR points at the wrong pocket | Fixed | "The facility gets less"; IBTR_F, the pick 1 row and the brief follow it |
+| 2 | Two floor definitions | Triaged (fix-before-6-Nov) + tool | Vote item, IPS sentence, `--floor-rule`; the kit default is unchanged; no strategy change |
+| 3 | T39 "covers the rest" | Fixed | "The rest depends on reinvested coupons"; now banned by the checker |
+| 4 | IBTM_R "any gap" | Fixed | J2's "first call", with "shortfall" |
+| 5 | VT: "stays hers", "lifts the range" | Fixed in part | "The top of the range". "Her cushion" goes in the reflection: the note's spare characters carry J1's research phrase (286 characters) |
+| 6 | IBTM_R should outrank the swaps | Rejected in part | J1 and J3 rank a trade-made refinement higher, so the swaps stay first. J2's own fallback is adopted: when pick 2 is a swap, the VT reflection names what backs the floor |
+| 7 | IBTM_P soft floor | Fixed | "It holds 2032 Treasuries"; the name string is the Friday fact; no price slot |
+| 8 | Delete "about a fifth" and "likely higher" | Fixed | Both are gone. The Friday words band (J1 #1) is different: it follows the day's curve, not a basis switch |
+| 9 | Pick 1 stakes | Fixed | "1 day in 9", then "less is left for the facility" |
+| 10 | Pick 2 needs a number | Fixed | "About $466,000 against ten $50,000 payments" at 2% |
+| 11 | Pick 3 cherry-picks her sentence | Fixed | Her balance clause, the cushion and the cap |
+| 12 | "WInS lists no..." reads as a simulator limit | Fixed | New rule-reading clause (s6) and triage row |
+| 13 | The checker bans "operating reserve" | Fixed | Only a reserve size is banned. The optional T41 clause is not used: no room |
+| 14 | IBTQ/IBTO caveats understate the limit | Fixed | "What it pays out is not fixed" / "the amount it pays out that December is not fixed"; IBTQ drops the 2031 span |
+| 15 | T38 and IBTP reason about WInS | Fixed | Alternate C is T41; T38 says her plan's Treasury bills; IBTP is not featured |
+| 16 | iBonds rungs slightly short | Triaged (note-in-Final-Report) | Row added; "delivers $50,000" banned |
+
+### Round 3, J3: fact-checker
+
+| # | Point | Verdict | What changed, or why not |
+|---|---|---|---|
+| 1 | T39 false reassurance | Fixed | As J2 #3, plus "in her plan" (J1) |
+| 2 | IBTR/IBTR_F/pick 1 "stocks get less" | Fixed | "The facility gets less". Not used: "Tested first:" (J1 asked for an opening that is not a label) |
+| 3 | IPS floor ambiguity | Triaged | As J2 #2 |
+| 4 | 22.8bp misattributed | Fixed | Brief, triage row and request 9, checked against WS4 memo lines 27-35 |
+| 5 | IBTP check cannot measure what it claims | Fixed | J3's text; checklist step for the published 1 Oct premium; request 2 |
+| 6 | VT loose claims | Fixed | "The top of the range"; "stays hers" dropped. "At least half stays with her" is not used; the cushion goes in the reflection |
+| 7 | IBTM_R exists only in the note | Fixed in part | "Shortfall"; typed only if the IPS draft carries the sentence; ranked last of the refined routes. **Rejected:** "feature IBTM_P instead". Once IBTM_R is typed, WInS holds its text, and with the sentence in the IPS draft "our policy" is true. The fallback when nothing refined exists is T39 |
+| 8 | Pick 1 history selective | Fixed | As J1 #10 |
+| 9 | Bond checks on a price the order will not get | Fixed | "Its 1 Oct (WInS) price" in T40b, T38, SW40, SW41 and SW37 ("its 1 Oct price failed" in T40s); fill price to the Trade Log. T40b trimmed to "Laura's ninth $50,000 payment" |
+| 10 | T38 stale clause | Fixed | Dropped |
+| 11 | $21.76 example | Fixed | Placeholder; the 28 Sep closes are banned; self-test 7 |
+| 12 | IBTM is not a fund of late-2032 Treasuries | Fixed | Brief and triage row (IPS wording), 91282CPQ8 added; checked: 47.5% by weight matures by 31 May 2032 (S1 snapshot) |
+| 13 | "1 Jan" and "operating payment" | Triaged (note-in-Final-Report) | Row added |
+| 14 | Checker misses coverage claims | Fixed | Four patterns added; self-test 7 |
+| 15 | "More of its value is owed" | Fixed | "More of what it pays comes at maturity" in SW40, SW41, OD_S and OD_B |
+| 16 | IBTO wording | Superseded | J2 #14 (the whole payout is not fixed) |
+| 17 | Ticket volume not in numbers.yaml | Fixed in part | `tickets.md` cites the Nasdaq URL, fetch time and file, and says the numbers.yaml series gives lower ratios. numbers.yaml is WS1's (request 7) |
+
+### Checks after round 3
+
+- `build_notes.py`: 0 fail.
+  - 23 exemplars, the longest 294 characters. Every exemplar is within its kit limit (285, or 295) and under 300.
+  - Outlines are 60, 60 and 59 words, and 81 and 88 with their shared sentence.
+  - Pick openings: 0 shared. Variety passes.
+- `note_check.py --self-test`: PASS (7 tests).
+- `refresh_tickets.py`: 83 pass, 0 fail. `tickets.csv` is byte-identical, and it prints 26.2bp and "about a quarter".
+- `check_gate_c.py`: 418 checks, 0 FAIL, 18 UNVERIFIED, 16 CONDITIONAL. `--self-test` catches 10 of 10.
+  `build_sheet_tabs.py` rebuilt the mirrors.
+- `numbers.yaml` is unchanged (sha256 492ed320...).
+- Not done (outside WS6): the live Sheet tabs still need the re-sync (Gate C open item 7).
 
 ## Round 2 (panel at 104476c)
 
@@ -154,7 +291,7 @@ were not edited. IPS wording items are triaged for the team (`notes.md` s7), and
 
 ## Round 1 (panel at c11b02f)
 
-Kept as the record of round 1. Where round 2 changed a round-1 answer (T40c, the IBTR wording, the certainty phrase, the outlines' 70-word limit), round 2 wins.
+Kept as the record of round 1. Where rounds 2 and 3 changed a round-1 answer (T40c, the IBTR wording, the certainty phrase, the outlines' 70-word limit), round 2 wins.
 
 ### Round 1: what changed
 
