@@ -1,0 +1,16 @@
+Coupon-reinvestment break-even, BLIND M1 build (blind_m1_2.py), Book L as sized in the Sheet, 28 Sep 2026 closes
+  total delivered = $500,000 at a flat reinvestment rate of 4.9541%  (WS7 primary: 4.97%)
+  every rung >= $50,000 at a flat rate of 5.5313%  (WS7 primary: 5.60%)
+  total at 2%: $466,330  at 0%: $446,967  (numbers.yaml reinvest.bookL_delivered: $466,185 / $446,840)
+  per rung, rate at which it reaches $50,000:
+    IBTM                         pays 2033-01-01   5.412%
+    IBTO                         pays 2034-01-01   5.489%
+    IBTP                         pays 2035-01-01   5.413%
+    IBTQ                         pays 2036-01-01   5.484%
+    IBTR                         pays 2037-01-01   5.531%
+    T 4.750% 15-Feb-2037         pays 2038-01-01   3.944%
+    T 4.500% 15-May-2038         pays 2039-01-01   3.943%
+    T 4.375% 15-Nov-2039         pays 2040-01-01   5.175%
+    T 4.250% 15-Nov-2040         pays 2041-01-01   5.298%
+    T 3.125% 15-Nov-2041         pays 2042-01-01   4.908%
+verdict: total break-even DIFFERS at 2dp; every-rung break-even DIFFERS at 2dp

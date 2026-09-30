@@ -1,0 +1,13 @@
+trace_memos: 392 figures in 11 memos, 0 untraced (sources: rab/numbers.yaml, rab/numbers_ws2.yaml, rab/numbers_ws3.yaml, rab/numbers_ws4.yaml, rab/trades/tickets.csv + tickets.md, rab/trades/out/m9_screen_*.json)
+
+rab/decisions/D6_cap_share.md: 68 figures, 0 untraced
+rab/decisions/D7_wins_book.md: 12 figures, 0 untraced
+rab/decisions/D_certainty_definition.md: 23 figures, 0 untraced
+rab/decisions/D_fund_choice.md: 51 figures, 0 untraced
+rab/decisions/D_ips_edit_ledger.md: 2 figures, 0 untraced
+rab/decisions/D_ips_three_assumptions.md: 29 figures, 0 untraced
+rab/decisions/D_pre2027_rate_hedge.md: 31 figures, 0 untraced
+rab/decisions/D_range_confidence_2031.md: 31 figures, 0 untraced
+rab/decisions/D_rivals.md: 36 figures, 0 untraced
+rab/decisions/D_stress_bad_year.md: 55 figures, 0 untraced
+rab/trades/october_trade.md: 54 figures, 0 untraced
