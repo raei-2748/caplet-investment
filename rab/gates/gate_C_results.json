@@ -1,0 +1,2046 @@
+{
+ "numbers_yaml_sha256": "492ed3203958a93ddd3fd7345dcc41e46dd93c9e67f9c2adec1ca63a0771f638",
+ "counts": {
+  "G0 lock": {
+   "PASS": 1
+  },
+  "G1 length": {
+   "PASS": 66
+  },
+  "G2 names": {
+   "PASS": 26,
+   "UNVERIFIED": 18
+  },
+  "G3 cash": {
+   "PASS": 27
+  },
+  "G4 volume": {
+   "PASS": 21
+  },
+  "G5 trace": {
+   "PASS": 153,
+   "CONDITIONAL": 8
+  },
+  "G6 stale": {
+   "PASS": 16
+  }
+ },
+ "checks": [
+  {
+   "check": "G0 lock",
+   "item": "numbers.yaml sha256",
+   "status": "PASS",
+   "detail": "492ed3203958 (numbers.lock and rab-kit agree: True)"
+  },
+  {
+   "check": "G1 length",
+   "item": "IBTR",
+   "status": "PASS",
+   "detail": "282 chars (box 300); char_count column 282; ascii True"
+  },
+  {
+   "check": "G1 length",
+   "item": "IBTR kit margin",
+   "status": "PASS",
+   "detail": "282 <= 285"
+  },
+  {
+   "check": "G1 length",
+   "item": "IBTR same text in notes.md",
+   "status": "PASS",
+   "detail": "exemplar found verbatim in notes.md"
+  },
+  {
+   "check": "G1 length",
+   "item": "IBTQ",
+   "status": "PASS",
+   "detail": "278 chars (box 300); char_count column 278; ascii True"
+  },
+  {
+   "check": "G1 length",
+   "item": "IBTQ kit margin",
+   "status": "PASS",
+   "detail": "278 <= 285"
+  },
+  {
+   "check": "G1 length",
+   "item": "IBTQ same text in notes.md",
+   "status": "PASS",
+   "detail": "exemplar found verbatim in notes.md"
+  },
+  {
+   "check": "G1 length",
+   "item": "IBTP",
+   "status": "PASS",
+   "detail": "276 chars (box 300); char_count column 276; ascii True"
+  },
+  {
+   "check": "G1 length",
+   "item": "IBTP kit margin",
+   "status": "PASS",
+   "detail": "276 <= 285"
+  },
+  {
+   "check": "G1 length",
+   "item": "IBTP same text in notes.md",
+   "status": "PASS",
+   "detail": "exemplar found verbatim in notes.md"
+  },
+  {
+   "check": "G1 length",
+   "item": "IBTO",
+   "status": "PASS",
+   "detail": "281 chars (box 300); char_count column 281; ascii True"
+  },
+  {
+   "check": "G1 length",
+   "item": "IBTO kit margin",
+   "status": "PASS",
+   "detail": "281 <= 285"
+  },
+  {
+   "check": "G1 length",
+   "item": "IBTO same text in notes.md",
+   "status": "PASS",
+   "detail": "exemplar found verbatim in notes.md"
+  },
+  {
+   "check": "G1 length",
+   "item": "IBTM_P",
+   "status": "PASS",
+   "detail": "285 chars (box 300); char_count column 285; ascii True"
+  },
+  {
+   "check": "G1 length",
+   "item": "IBTM_P kit margin",
+   "status": "PASS",
+   "detail": "285 <= 285"
+  },
+  {
+   "check": "G1 length",
+   "item": "IBTM_P same text in notes.md",
+   "status": "PASS",
+   "detail": "exemplar found verbatim in notes.md"
+  },
+  {
+   "check": "G1 length",
+   "item": "T41",
+   "status": "PASS",
+   "detail": "267 chars (box 300); char_count column 267; ascii True"
+  },
+  {
+   "check": "G1 length",
+   "item": "T41 kit margin",
+   "status": "PASS",
+   "detail": "267 <= 285"
+  },
+  {
+   "check": "G1 length",
+   "item": "T41 same text in notes.md",
+   "status": "PASS",
+   "detail": "exemplar found verbatim in notes.md"
+  },
+  {
+   "check": "G1 length",
+   "item": "T40b",
+   "status": "PASS",
+   "detail": "279 chars (box 300); char_count column 279; ascii True"
+  },
+  {
+   "check": "G1 length",
+   "item": "T40b kit margin",
+   "status": "PASS",
+   "detail": "279 <= 285"
+  },
+  {
+   "check": "G1 length",
+   "item": "T40b same text in notes.md",
+   "status": "PASS",
+   "detail": "exemplar found verbatim in notes.md"
+  },
+  {
+   "check": "G1 length",
+   "item": "T39",
+   "status": "PASS",
+   "detail": "283 chars (box 300); char_count column 283; ascii True"
+  },
+  {
+   "check": "G1 length",
+   "item": "T39 kit margin",
+   "status": "PASS",
+   "detail": "283 <= 285"
+  },
+  {
+   "check": "G1 length",
+   "item": "T39 same text in notes.md",
+   "status": "PASS",
+   "detail": "exemplar found verbatim in notes.md"
+  },
+  {
+   "check": "G1 length",
+   "item": "T38",
+   "status": "PASS",
+   "detail": "278 chars (box 300); char_count column 278; ascii True"
+  },
+  {
+   "check": "G1 length",
+   "item": "T38 kit margin",
+   "status": "PASS",
+   "detail": "278 <= 285"
+  },
+  {
+   "check": "G1 length",
+   "item": "T38 same text in notes.md",
+   "status": "PASS",
+   "detail": "exemplar found verbatim in notes.md"
+  },
+  {
+   "check": "G1 length",
+   "item": "T37",
+   "status": "PASS",
+   "detail": "276 chars (box 300); char_count column 276; ascii True"
+  },
+  {
+   "check": "G1 length",
+   "item": "T37 kit margin",
+   "status": "PASS",
+   "detail": "276 <= 285"
+  },
+  {
+   "check": "G1 length",
+   "item": "T37 same text in notes.md",
+   "status": "PASS",
+   "detail": "exemplar found verbatim in notes.md"
+  },
+  {
+   "check": "G1 length",
+   "item": "VT",
+   "status": "PASS",
+   "detail": "282 chars (box 300); char_count column 282; ascii True"
+  },
+  {
+   "check": "G1 length",
+   "item": "VT kit margin",
+   "status": "PASS",
+   "detail": "282 <= 285"
+  },
+  {
+   "check": "G1 length",
+   "item": "VT same text in notes.md",
+   "status": "PASS",
+   "detail": "exemplar found verbatim in notes.md"
+  },
+  {
+   "check": "G1 length",
+   "item": "IBTM_L",
+   "status": "PASS",
+   "detail": "265 chars (box 300); char_count column 265; ascii True"
+  },
+  {
+   "check": "G1 length",
+   "item": "IBTM_L kit margin",
+   "status": "PASS",
+   "detail": "265 <= 285"
+  },
+  {
+   "check": "G1 length",
+   "item": "IBTM_L same text in notes.md",
+   "status": "PASS",
+   "detail": "exemplar found verbatim in notes.md"
+  },
+  {
+   "check": "G1 length",
+   "item": "T40c",
+   "status": "PASS",
+   "detail": "284 chars (box 300); char_count column 284; ascii True"
+  },
+  {
+   "check": "G1 length",
+   "item": "T40c kit margin",
+   "status": "PASS",
+   "detail": "284 <= 285"
+  },
+  {
+   "check": "G1 length",
+   "item": "T40c same text in notes.md",
+   "status": "PASS",
+   "detail": "exemplar found verbatim in notes.md"
+  },
+  {
+   "check": "G1 length",
+   "item": "SW40",
+   "status": "PASS",
+   "detail": "285 chars (box 300); char_count column 285; ascii True"
+  },
+  {
+   "check": "G1 length",
+   "item": "SW40 kit margin",
+   "status": "PASS",
+   "detail": "285 <= 285"
+  },
+  {
+   "check": "G1 length",
+   "item": "SW40 same text in notes.md",
+   "status": "PASS",
+   "detail": "exemplar found verbatim in notes.md"
+  },
+  {
+   "check": "G1 length",
+   "item": "SW41",
+   "status": "PASS",
+   "detail": "281 chars (box 300); char_count column 281; ascii True"
+  },
+  {
+   "check": "G1 length",
+   "item": "SW41 kit margin",
+   "status": "PASS",
+   "detail": "281 <= 285"
+  },
+  {
+   "check": "G1 length",
+   "item": "SW41 same text in notes.md",
+   "status": "PASS",
+   "detail": "exemplar found verbatim in notes.md"
+  },
+  {
+   "check": "G1 length",
+   "item": "OD_S",
+   "status": "PASS",
+   "detail": "276 chars (box 300); char_count column 276; ascii True"
+  },
+  {
+   "check": "G1 length",
+   "item": "OD_S kit margin",
+   "status": "PASS",
+   "detail": "276 <= 285"
+  },
+  {
+   "check": "G1 length",
+   "item": "OD_S same text in notes.md",
+   "status": "PASS",
+   "detail": "exemplar found verbatim in notes.md"
+  },
+  {
+   "check": "G1 length",
+   "item": "OD_B",
+   "status": "PASS",
+   "detail": "277 chars (box 300); char_count column 277; ascii True"
+  },
+  {
+   "check": "G1 length",
+   "item": "OD_B kit margin",
+   "status": "PASS",
+   "detail": "277 <= 285"
+  },
+  {
+   "check": "G1 length",
+   "item": "OD_B same text in notes.md",
+   "status": "PASS",
+   "detail": "exemplar found verbatim in notes.md"
+  },
+  {
+   "check": "G1 length",
+   "item": "OB_S",
+   "status": "PASS",
+   "detail": "276 chars (box 300); char_count column 276; ascii True"
+  },
+  {
+   "check": "G1 length",
+   "item": "OB_S kit margin",
+   "status": "PASS",
+   "detail": "276 <= 285"
+  },
+  {
+   "check": "G1 length",
+   "item": "OB_S same text in notes.md",
+   "status": "PASS",
+   "detail": "exemplar found verbatim in notes.md"
+  },
+  {
+   "check": "G1 length",
+   "item": "OB_B",
+   "status": "PASS",
+   "detail": "266 chars (box 300); char_count column 266; ascii True"
+  },
+  {
+   "check": "G1 length",
+   "item": "OB_B kit margin",
+   "status": "PASS",
+   "detail": "266 <= 285"
+  },
+  {
+   "check": "G1 length",
+   "item": "OB_B same text in notes.md",
+   "status": "PASS",
+   "detail": "exemplar found verbatim in notes.md"
+  },
+  {
+   "check": "G1 length",
+   "item": "OC",
+   "status": "PASS",
+   "detail": "254 chars (box 300); char_count column 254; ascii True"
+  },
+  {
+   "check": "G1 length",
+   "item": "OC kit margin",
+   "status": "PASS",
+   "detail": "254 <= 285"
+  },
+  {
+   "check": "G1 length",
+   "item": "OC same text in notes.md",
+   "status": "PASS",
+   "detail": "exemplar found verbatim in notes.md"
+  },
+  {
+   "check": "G1 length",
+   "item": "outline: Pick 1, IBTR (tested)",
+   "status": "PASS",
+   "detail": "68 words counted (stated 68; TN limit 100)"
+  },
+  {
+   "check": "G1 length",
+   "item": "outline: Pick 2, the Nov 2040 bond (refined: SW40",
+   "status": "PASS",
+   "detail": "69 words counted (stated 69; TN limit 100)"
+  },
+  {
+   "check": "G1 length",
+   "item": "outline: Pick 3, VT (supported)",
+   "status": "PASS",
+   "detail": "70 words counted (stated 70; TN limit 100)"
+  },
+  {
+   "check": "G1 length",
+   "item": "outline: Alternate A, IBTM (supported)",
+   "status": "PASS",
+   "detail": "62 words counted (stated 62; TN limit 100)"
+  },
+  {
+   "check": "G1 length",
+   "item": "outline: Alternate B, 4.375% Nov 2039 bond (suppo",
+   "status": "PASS",
+   "detail": "35 words counted (stated 35; TN limit 100)"
+  },
+  {
+   "check": "G1 length",
+   "item": "outline: Alternate C, 4.500% May 2038 bond (suppo",
+   "status": "PASS",
+   "detail": "43 words counted (stated 43; TN limit 100)"
+  },
+  {
+   "check": "G2 names",
+   "item": "Portfolio #1 IBTR",
+   "status": "PASS",
+   "detail": "iShares iBonds Dec 2036 Term Treasury ETF [UNVERIFIED (issuer name)]"
+  },
+  {
+   "check": "G2 names",
+   "item": "Portfolio #1 IBTR WInS string",
+   "status": "UNVERIFIED",
+   "detail": "not recorded from WInS yet; Friday checklist step copies it"
+  },
+  {
+   "check": "G2 names",
+   "item": "Portfolio #2 IBTQ",
+   "status": "PASS",
+   "detail": "iShares iBonds Dec 2035 Term Treasury ETF [UNVERIFIED (issuer name)]"
+  },
+  {
+   "check": "G2 names",
+   "item": "Portfolio #2 IBTQ WInS string",
+   "status": "UNVERIFIED",
+   "detail": "not recorded from WInS yet; Friday checklist step copies it"
+  },
+  {
+   "check": "G2 names",
+   "item": "Portfolio #3 IBTP",
+   "status": "PASS",
+   "detail": "iShares iBonds Dec 2034 Term Treasury ETF [UNVERIFIED (issuer name)]"
+  },
+  {
+   "check": "G2 names",
+   "item": "Portfolio #3 IBTP WInS string",
+   "status": "UNVERIFIED",
+   "detail": "not recorded from WInS yet; Friday checklist step copies it"
+  },
+  {
+   "check": "G2 names",
+   "item": "Portfolio #4 IBTO",
+   "status": "PASS",
+   "detail": "iShares iBonds Dec 2033 Term Treasury ETF [UNVERIFIED (issuer name)]"
+  },
+  {
+   "check": "G2 names",
+   "item": "Portfolio #4 IBTO WInS string",
+   "status": "UNVERIFIED",
+   "detail": "not recorded from WInS yet; Friday checklist step copies it"
+  },
+  {
+   "check": "G2 names",
+   "item": "Portfolio #5 IBTM",
+   "status": "PASS",
+   "detail": "iShares iBonds Dec 2032 Term Treasury ETF [SEEN 2026-09-29]"
+  },
+  {
+   "check": "G2 names",
+   "item": "Portfolio #6 T 3.125% 15-Nov-2041",
+   "status": "PASS",
+   "detail": "U.S. Treasury bond 3.125% maturing 15 Nov 2041 [UNVERIFIED (WInS string not recorded)] CUSIP 912810QT8"
+  },
+  {
+   "check": "G2 names",
+   "item": "Portfolio #6 T 3.125% 15-Nov-2041 WInS string",
+   "status": "UNVERIFIED",
+   "detail": "not recorded from WInS yet; Friday checklist step copies it"
+  },
+  {
+   "check": "G2 names",
+   "item": "Portfolio #7 T 4.250% 15-Nov-2040",
+   "status": "PASS",
+   "detail": "U.S. Treasury bond 4.250% maturing 15 Nov 2040 [UNVERIFIED (WInS string not recorded)] CUSIP 912810QL5"
+  },
+  {
+   "check": "G2 names",
+   "item": "Portfolio #7 T 4.250% 15-Nov-2040 WInS string",
+   "status": "UNVERIFIED",
+   "detail": "not recorded from WInS yet; Friday checklist step copies it"
+  },
+  {
+   "check": "G2 names",
+   "item": "Portfolio #8 T 4.375% 15-Nov-2039",
+   "status": "PASS",
+   "detail": "U.S. Treasury bond 4.375% maturing 15 Nov 2039 [UNVERIFIED (WInS string not recorded)] CUSIP 912810QD3"
+  },
+  {
+   "check": "G2 names",
+   "item": "Portfolio #8 T 4.375% 15-Nov-2039 WInS string",
+   "status": "UNVERIFIED",
+   "detail": "not recorded from WInS yet; Friday checklist step copies it"
+  },
+  {
+   "check": "G2 names",
+   "item": "Portfolio #9 T 4.500% 15-May-2038",
+   "status": "PASS",
+   "detail": "U.S. Treasury bond 4.500% maturing 15 May 2038 [UNVERIFIED (WInS string not recorded)] CUSIP 912810PX0"
+  },
+  {
+   "check": "G2 names",
+   "item": "Portfolio #9 T 4.500% 15-May-2038 WInS string",
+   "status": "UNVERIFIED",
+   "detail": "not recorded from WInS yet; Friday checklist step copies it"
+  },
+  {
+   "check": "G2 names",
+   "item": "Portfolio #10 T 4.750% 15-Feb-2037",
+   "status": "PASS",
+   "detail": "U.S. Treasury bond 4.750% maturing 15 Feb 2037 [UNVERIFIED (WInS string not recorded)] CUSIP 912810PT9"
+  },
+  {
+   "check": "G2 names",
+   "item": "Portfolio #10 T 4.750% 15-Feb-2037 WInS string",
+   "status": "UNVERIFIED",
+   "detail": "not recorded from WInS yet; Friday checklist step copies it"
+  },
+  {
+   "check": "G2 names",
+   "item": "Portfolio #11 VT",
+   "status": "PASS",
+   "detail": "Vanguard Total World Stock ETF [SEEN 2026-09-29]"
+  },
+  {
+   "check": "G2 names",
+   "item": "BookL #1 IBTR",
+   "status": "PASS",
+   "detail": "iShares iBonds Dec 2036 Term Treasury ETF [UNVERIFIED (issuer name)]"
+  },
+  {
+   "check": "G2 names",
+   "item": "BookL #1 IBTR WInS string",
+   "status": "UNVERIFIED",
+   "detail": "not recorded from WInS yet; Friday checklist step copies it"
+  },
+  {
+   "check": "G2 names",
+   "item": "BookL #2 IBTQ",
+   "status": "PASS",
+   "detail": "iShares iBonds Dec 2035 Term Treasury ETF [UNVERIFIED (issuer name)]"
+  },
+  {
+   "check": "G2 names",
+   "item": "BookL #2 IBTQ WInS string",
+   "status": "UNVERIFIED",
+   "detail": "not recorded from WInS yet; Friday checklist step copies it"
+  },
+  {
+   "check": "G2 names",
+   "item": "BookL #3 IBTP",
+   "status": "PASS",
+   "detail": "iShares iBonds Dec 2034 Term Treasury ETF [UNVERIFIED (issuer name)]"
+  },
+  {
+   "check": "G2 names",
+   "item": "BookL #3 IBTP WInS string",
+   "status": "UNVERIFIED",
+   "detail": "not recorded from WInS yet; Friday checklist step copies it"
+  },
+  {
+   "check": "G2 names",
+   "item": "BookL #4 IBTO",
+   "status": "PASS",
+   "detail": "iShares iBonds Dec 2033 Term Treasury ETF [UNVERIFIED (issuer name)]"
+  },
+  {
+   "check": "G2 names",
+   "item": "BookL #4 IBTO WInS string",
+   "status": "UNVERIFIED",
+   "detail": "not recorded from WInS yet; Friday checklist step copies it"
+  },
+  {
+   "check": "G2 names",
+   "item": "BookL #5 IBTM",
+   "status": "PASS",
+   "detail": "iShares iBonds Dec 2032 Term Treasury ETF [SEEN 2026-09-29]"
+  },
+  {
+   "check": "G2 names",
+   "item": "BookL #6 T 3.125% 15-Nov-2041",
+   "status": "PASS",
+   "detail": "U.S. Treasury bond 3.125% maturing 15 Nov 2041 [UNVERIFIED (WInS string not recorded)] CUSIP 912810QT8"
+  },
+  {
+   "check": "G2 names",
+   "item": "BookL #6 T 3.125% 15-Nov-2041 WInS string",
+   "status": "UNVERIFIED",
+   "detail": "not recorded from WInS yet; Friday checklist step copies it"
+  },
+  {
+   "check": "G2 names",
+   "item": "BookL #7 T 4.250% 15-Nov-2040",
+   "status": "PASS",
+   "detail": "U.S. Treasury bond 4.250% maturing 15 Nov 2040 [UNVERIFIED (WInS string not recorded)] CUSIP 912810QL5"
+  },
+  {
+   "check": "G2 names",
+   "item": "BookL #7 T 4.250% 15-Nov-2040 WInS string",
+   "status": "UNVERIFIED",
+   "detail": "not recorded from WInS yet; Friday checklist step copies it"
+  },
+  {
+   "check": "G2 names",
+   "item": "BookL #8 T 4.375% 15-Nov-2039",
+   "status": "PASS",
+   "detail": "U.S. Treasury bond 4.375% maturing 15 Nov 2039 [UNVERIFIED (WInS string not recorded)] CUSIP 912810QD3"
+  },
+  {
+   "check": "G2 names",
+   "item": "BookL #8 T 4.375% 15-Nov-2039 WInS string",
+   "status": "UNVERIFIED",
+   "detail": "not recorded from WInS yet; Friday checklist step copies it"
+  },
+  {
+   "check": "G2 names",
+   "item": "BookL #9 T 4.500% 15-May-2038",
+   "status": "PASS",
+   "detail": "U.S. Treasury bond 4.500% maturing 15 May 2038 [UNVERIFIED (WInS string not recorded)] CUSIP 912810PX0"
+  },
+  {
+   "check": "G2 names",
+   "item": "BookL #9 T 4.500% 15-May-2038 WInS string",
+   "status": "UNVERIFIED",
+   "detail": "not recorded from WInS yet; Friday checklist step copies it"
+  },
+  {
+   "check": "G2 names",
+   "item": "BookL #10 T 4.750% 15-Feb-2037",
+   "status": "PASS",
+   "detail": "U.S. Treasury bond 4.750% maturing 15 Feb 2037 [UNVERIFIED (WInS string not recorded)] CUSIP 912810PT9"
+  },
+  {
+   "check": "G2 names",
+   "item": "BookL #10 T 4.750% 15-Feb-2037 WInS string",
+   "status": "UNVERIFIED",
+   "detail": "not recorded from WInS yet; Friday checklist step copies it"
+  },
+  {
+   "check": "G2 names",
+   "item": "IBTN never a ticket",
+   "status": "PASS",
+   "detail": "IBTN = INSCORP Inc in WInS (SEEN 29 Sep)"
+  },
+  {
+   "check": "G2 names",
+   "item": "Friday step copies iBonds names + reads IBTN",
+   "status": "PASS",
+   "detail": "friday_checklist.md step 3"
+  },
+  {
+   "check": "G2 names",
+   "item": "Friday step records bond strings",
+   "status": "PASS",
+   "detail": "friday_checklist.md bond drop-down read"
+  },
+  {
+   "check": "G2 names",
+   "item": "conditional note security T 1.375% 15-Nov-2040",
+   "status": "PASS",
+   "detail": "MSPD Table V 31 Aug 2026: 1 row(s); WInS listing UNVERIFIED (notes used only if listed)"
+  },
+  {
+   "check": "G2 names",
+   "item": "conditional note security T 2.000% 15-Nov-2041",
+   "status": "PASS",
+   "detail": "MSPD Table V 31 Aug 2026: 1 row(s); WInS listing UNVERIFIED (notes used only if listed)"
+  },
+  {
+   "check": "G3 cash",
+   "item": "Portfolio #1 IBTR",
+   "status": "PASS",
+   "detail": "cost $19,897.54 (comm $25); cash after: locked $280,102.46 / Preview $280,102.46 / worst $279,933.26"
+  },
+  {
+   "check": "G4 volume",
+   "item": "Portfolio #1 IBTR",
+   "status": "PASS",
+   "detail": "846 shares = 0.80% of 2 x ADV30 (52,804); 11.1% of the lowest day in 20 (7,639)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #1 IBTR volumes",
+   "status": "PASS",
+   "detail": "adv30 = rab/data/etf/etf_summary_2026-09-28.csv avg_volume_30d (Nasdaq, 30 sessions to 28 Sep); median20/min20 = numbers.yaml market.etf_2026-09-28 (ticket median of an even count keeps .5; yaml rounds it)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #1 IBTR price",
+   "status": "PASS",
+   "detail": "ref 23.49 = numbers.yaml market.etf_2026-09-28 close; max/min = ref x (1 +- 0.81%), band = max(0.5%, 2 x 20-session daily sd) (refresh_tickets.py)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #1 IBTR qty",
+   "status": "PASS",
+   "detail": "846 = numbers.yaml wins.portfolio.holdings_close_0928 qty"
+  },
+  {
+   "check": "G3 cash",
+   "item": "Portfolio #2 IBTQ",
+   "status": "PASS",
+   "detail": "cost $21,023.20 (comm $25); cash after: locked $259,079.26 / Preview $259,079.26 / worst $258,732.86"
+  },
+  {
+   "check": "G4 volume",
+   "item": "Portfolio #2 IBTQ",
+   "status": "PASS",
+   "detail": "886 shares = 0.51% of 2 x ADV30 (86,882); 4.8% of the lowest day in 20 (18,278)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #2 IBTQ volumes",
+   "status": "PASS",
+   "detail": "adv30 = rab/data/etf/etf_summary_2026-09-28.csv avg_volume_30d (Nasdaq, 30 sessions to 28 Sep); median20/min20 = numbers.yaml market.etf_2026-09-28 (ticket median of an even count keeps .5; yaml rounds it)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #2 IBTQ price",
+   "status": "PASS",
+   "detail": "ref 23.7 = numbers.yaml market.etf_2026-09-28 close; max/min = ref x (1 +- 0.81%), band = max(0.5%, 2 x 20-session daily sd) (refresh_tickets.py)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #2 IBTQ qty",
+   "status": "PASS",
+   "detail": "886 = numbers.yaml wins.portfolio.holdings_close_0928 qty"
+  },
+  {
+   "check": "G3 cash",
+   "item": "Portfolio #3 IBTP",
+   "status": "PASS",
+   "detail": "cost $22,221.10 (comm $25); cash after: locked $236,858.16 / Preview $236,858.16 / worst $236,345.98"
+  },
+  {
+   "check": "G4 volume",
+   "item": "Portfolio #3 IBTP",
+   "status": "PASS",
+   "detail": "921 shares = 0.49% of 2 x ADV30 (94,221); 3.5% of the lowest day in 20 (26,563)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #3 IBTP volumes",
+   "status": "PASS",
+   "detail": "adv30 = rab/data/etf/etf_summary_2026-09-28.csv avg_volume_30d (Nasdaq, 30 sessions to 28 Sep); median20/min20 = numbers.yaml market.etf_2026-09-28 (ticket median of an even count keeps .5; yaml rounds it)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #3 IBTP price",
+   "status": "PASS",
+   "detail": "ref 24.1 = numbers.yaml market.etf_2026-09-28 close; max/min = ref x (1 +- 0.73%), band = max(0.5%, 2 x 20-session daily sd) (refresh_tickets.py)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #3 IBTP qty",
+   "status": "PASS",
+   "detail": "921 = numbers.yaml wins.portfolio.holdings_close_0928 qty"
+  },
+  {
+   "check": "G3 cash",
+   "item": "Portfolio #4 IBTO",
+   "status": "PASS",
+   "detail": "cost $23,413.32 (comm $25); cash after: locked $213,444.84 / Preview $213,444.84 / worst $212,759.94"
+  },
+  {
+   "check": "G4 volume",
+   "item": "Portfolio #4 IBTO",
+   "status": "PASS",
+   "detail": "1016 shares = 0.24% of 2 x ADV30 (211,074); 2.1% of the lowest day in 20 (49,271)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #4 IBTO volumes",
+   "status": "PASS",
+   "detail": "adv30 = rab/data/etf/etf_summary_2026-09-28.csv avg_volume_30d (Nasdaq, 30 sessions to 28 Sep); median20/min20 = numbers.yaml market.etf_2026-09-28 (ticket median of an even count keeps .5; yaml rounds it)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #4 IBTO price",
+   "status": "PASS",
+   "detail": "ref 23.02 = numbers.yaml market.etf_2026-09-28 close; max/min = ref x (1 +- 0.70%), band = max(0.5%, 2 x 20-session daily sd) (refresh_tickets.py)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #4 IBTO qty",
+   "status": "PASS",
+   "detail": "1,016 = numbers.yaml wins.portfolio.holdings_close_0928 qty"
+  },
+  {
+   "check": "G3 cash",
+   "item": "Portfolio #5 IBTM",
+   "status": "PASS",
+   "detail": "cost $97,640.36 (comm $25); cash after: locked $115,804.48 / Preview $115,804.48 / worst $114,491.54"
+  },
+  {
+   "check": "G4 volume",
+   "item": "Portfolio #5 IBTM",
+   "status": "PASS",
+   "detail": "4486 shares = 1.20% of 2 x ADV30 (186,480); 5.2% of the lowest day in 20 (85,726)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #5 IBTM volumes",
+   "status": "PASS",
+   "detail": "adv30 = rab/data/etf/etf_summary_2026-09-28.csv avg_volume_30d (Nasdaq, 30 sessions to 28 Sep); median20/min20 = numbers.yaml market.etf_2026-09-28 (ticket median of an even count keeps .5; yaml rounds it)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #5 IBTM price",
+   "status": "PASS",
+   "detail": "ref 21.76 = numbers.yaml market.etf_2026-09-28 close; max/min = ref x (1 +- 0.60%), band = max(0.5%, 2 x 20-session daily sd) (refresh_tickets.py)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #5 IBTM qty",
+   "status": "PASS",
+   "detail": "4,486 = numbers.yaml wins.portfolio.holdings_close_0928 qty"
+  },
+  {
+   "check": "G3 cash",
+   "item": "Portfolio #6 T 3.125% 15-Nov-2041",
+   "status": "PASS",
+   "detail": "cost $14,739.37 (comm $10); cash after: locked $101,065.11 / Preview $101,058.87 / worst $99,575.41"
+  },
+  {
+   "check": "G4 volume",
+   "item": "Portfolio #6 T 3.125% 15-Nov-2041",
+   "status": "PASS",
+   "detail": "$19,000 face = 4.3e-07 of the $44.6bn outstanding (MSPD); WInS shows no bond volume, so 2x-volume is UNVERIFIED; split plan: M9_selection.md (still waiting at 3:30pm ET -> half each over the next two sessions)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #6 T 3.125% 15-Nov-2041 price",
+   "status": "PASS",
+   "detail": "clean 76.367 = wins.bond_check wins_clean; gap -1.9bp; accrued on 2 Oct re-derived 1.1889 (act/act) vs ticket 1.1889"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #6 T 3.125% 15-Nov-2041 qty",
+   "status": "PASS",
+   "detail": "19,000 = numbers.yaml wins.portfolio.holdings_close_0928 qty and price = clean + accrued"
+  },
+  {
+   "check": "G3 cash",
+   "item": "Portfolio #7 T 4.250% 15-Nov-2040",
+   "status": "PASS",
+   "detail": "cost $15,438.86 (comm $10); cash after: locked $85,626.25 / Preview $85,612.38 / worst $83,966.46"
+  },
+  {
+   "check": "G4 volume",
+   "item": "Portfolio #7 T 4.250% 15-Nov-2040",
+   "status": "PASS",
+   "detail": "$17,000 face = 4.0e-07 of the $42.9bn outstanding (MSPD); WInS shows no bond volume, so 2x-volume is UNVERIFIED; split plan: M9_selection.md (still waiting at 3:30pm ET -> half each over the next two sessions)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #7 T 4.250% 15-Nov-2040 price",
+   "status": "PASS",
+   "detail": "clean 89.186 = wins.bond_check wins_clean; gap -5.1bp; accrued on 2 Oct re-derived 1.6168 (act/act) vs ticket 1.6168"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #7 T 4.250% 15-Nov-2040 qty",
+   "status": "PASS",
+   "detail": "17,000 = numbers.yaml wins.portfolio.holdings_close_0928 qty and price = clean + accrued"
+  },
+  {
+   "check": "G3 cash",
+   "item": "Portfolio #8 T 4.375% 15-Nov-2039",
+   "status": "PASS",
+   "detail": "cost $16,744.42 (comm $10); cash after: locked $68,881.83 / Preview $68,857.45 / worst $67,044.55"
+  },
+  {
+   "check": "G4 volume",
+   "item": "Portfolio #8 T 4.375% 15-Nov-2039",
+   "status": "PASS",
+   "detail": "$18,000 face = 4.0e-07 of the $44.6bn outstanding (MSPD); WInS shows no bond volume, so 2x-volume is UNVERIFIED; split plan: M9_selection.md (still waiting at 3:30pm ET -> half each over the next two sessions)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #8 T 4.375% 15-Nov-2039 price",
+   "status": "PASS",
+   "detail": "clean 91.363 = wins.bond_check wins_clean; gap -6.6bp; accrued on 2 Oct re-derived 1.6644 (act/act) vs ticket 1.6644"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #8 T 4.375% 15-Nov-2039 qty",
+   "status": "PASS",
+   "detail": "18,000 = numbers.yaml wins.portfolio.holdings_close_0928 qty and price = clean + accrued"
+  },
+  {
+   "check": "G3 cash",
+   "item": "Portfolio #9 T 4.500% 15-May-2038",
+   "status": "PASS",
+   "detail": "cost $18,024.09 (comm $10); cash after: locked $50,857.74 / Preview $50,608.79 / worst $48,629.32"
+  },
+  {
+   "check": "G4 volume",
+   "item": "Portfolio #9 T 4.500% 15-May-2038",
+   "status": "PASS",
+   "detail": "$19,000 face = 7.5e-07 of the $25.5bn outstanding (MSPD); WInS shows no bond volume, so 2x-volume is UNVERIFIED; split plan: M9_selection.md (still waiting at 3:30pm ET -> half each over the next two sessions)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #9 T 4.500% 15-May-2038 price",
+   "status": "PASS",
+   "detail": "clean 94.281 = wins.bond_check wins_clean; gap -14.4bp; accrued on 2 Oct re-derived 1.7120 (act/act) vs ticket 1.712"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #9 T 4.500% 15-May-2038 qty",
+   "status": "PASS",
+   "detail": "19,000 = numbers.yaml wins.portfolio.holdings_close_0928 qty and price = clean + accrued"
+  },
+  {
+   "check": "G3 cash",
+   "item": "Portfolio #10 T 4.750% 15-Feb-2037",
+   "status": "PASS",
+   "detail": "cost $19,552.40 (comm $10); cash after: locked $31,305.34 / Preview $31,044.48 / worst $28,899.66"
+  },
+  {
+   "check": "G4 volume",
+   "item": "Portfolio #10 T 4.750% 15-Feb-2037",
+   "status": "PASS",
+   "detail": "$20,000 face = 1.2e-06 of the $16.6bn outstanding (MSPD); WInS shows no bond volume, so 2x-volume is UNVERIFIED; split plan: M9_selection.md (still waiting at 3:30pm ET -> half each over the next two sessions)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #10 T 4.750% 15-Feb-2037 price",
+   "status": "PASS",
+   "detail": "clean 97.152 = wins.bond_check wins_clean; gap -15.3bp; accrued on 2 Oct re-derived 0.6196 (act/act) vs ticket 0.6196"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #10 T 4.750% 15-Feb-2037 qty",
+   "status": "PASS",
+   "detail": "20,000 = numbers.yaml wins.portfolio.holdings_close_0928 qty and price = clean + accrued"
+  },
+  {
+   "check": "G3 cash",
+   "item": "Portfolio #11 VT",
+   "status": "PASS",
+   "detail": "cost $26,069.84 (comm $25); cash after: locked $5,235.50 / Preview $4,974.64 / worst $2,441.14"
+  },
+  {
+   "check": "G4 volume",
+   "item": "Portfolio #11 VT",
+   "status": "PASS",
+   "detail": "164 shares = 0.00% of 2 x ADV30 (2,223,657); 0.0% of the lowest day in 20 (1,456,477)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #11 VT volumes",
+   "status": "PASS",
+   "detail": "adv30 = rab/data/etf/etf_summary_2026-09-28.csv avg_volume_30d (Nasdaq, 30 sessions to 28 Sep); median20/min20 = numbers.yaml market.etf_2026-09-28 (ticket median of an even count keeps .5; yaml rounds it)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #11 VT price",
+   "status": "PASS",
+   "detail": "ref 158.81 = numbers.yaml market.etf_2026-09-28 close; max/min = ref x (1 +- 1.49%), band = max(0.5%, 2 x 20-session daily sd) (refresh_tickets.py)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio #11 VT qty",
+   "status": "PASS",
+   "detail": "164 = numbers.yaml wins.portfolio.holdings_close_0928 qty"
+  },
+  {
+   "check": "G3 cash",
+   "item": "Portfolio total",
+   "status": "PASS",
+   "detail": "$294,764.50 incl. $200 commissions <= $300,000; cash left $5,235.50; = numbers.yaml wins.portfolio.cost_close_0928"
+  },
+  {
+   "check": "G3 cash",
+   "item": "Portfolio lowest cash",
+   "status": "PASS",
+   "detail": "lowest cash in any case $2,441.14 (kit floor $1,000: True)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "Portfolio split",
+   "status": "PASS",
+   "detail": "VT 8.68%, cash 1.75% = wins.portfolio.split_close_0928"
+  },
+  {
+   "check": "G3 cash",
+   "item": "BookL #1 IBTR",
+   "status": "PASS",
+   "detail": "cost $29,434.48 (comm $25); cash after: locked $270,565.52 / Preview $270,565.52 / worst $270,315.12"
+  },
+  {
+   "check": "G4 volume",
+   "item": "BookL #1 IBTR",
+   "status": "PASS",
+   "detail": "1252 shares = 1.19% of 2 x ADV30 (52,804); 16.4% of the lowest day in 20 (7,639)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #1 IBTR volumes",
+   "status": "PASS",
+   "detail": "adv30 = rab/data/etf/etf_summary_2026-09-28.csv avg_volume_30d (Nasdaq, 30 sessions to 28 Sep); median20/min20 = numbers.yaml market.etf_2026-09-28 (ticket median of an even count keeps .5; yaml rounds it)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #1 IBTR price",
+   "status": "PASS",
+   "detail": "ref 23.49 = numbers.yaml market.etf_2026-09-28 close; max/min = ref x (1 +- 0.81%), band = max(0.5%, 2 x 20-session daily sd) (refresh_tickets.py)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #1 IBTR qty",
+   "status": "PASS",
+   "detail": "1,252 = Sheet tab Book L snapshot rab/data/sheet/Book_L_values_2026-09-30T0033AEST.txt"
+  },
+  {
+   "check": "G3 cash",
+   "item": "BookL #2 IBTQ",
+   "status": "PASS",
+   "detail": "cost $31,095.70 (comm $25); cash after: locked $239,469.82 / Preview $239,469.82 / worst $238,957.22"
+  },
+  {
+   "check": "G4 volume",
+   "item": "BookL #2 IBTQ",
+   "status": "PASS",
+   "detail": "1311 shares = 0.75% of 2 x ADV30 (86,882); 7.2% of the lowest day in 20 (18,278)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #2 IBTQ volumes",
+   "status": "PASS",
+   "detail": "adv30 = rab/data/etf/etf_summary_2026-09-28.csv avg_volume_30d (Nasdaq, 30 sessions to 28 Sep); median20/min20 = numbers.yaml market.etf_2026-09-28 (ticket median of an even count keeps .5; yaml rounds it)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #2 IBTQ price",
+   "status": "PASS",
+   "detail": "ref 23.7 = numbers.yaml market.etf_2026-09-28 close; max/min = ref x (1 +- 0.81%), band = max(0.5%, 2 x 20-session daily sd) (refresh_tickets.py)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #2 IBTQ qty",
+   "status": "PASS",
+   "detail": "1,311 = Sheet tab Book L snapshot rab/data/sheet/Book_L_values_2026-09-30T0033AEST.txt"
+  },
+  {
+   "check": "G3 cash",
+   "item": "BookL #3 IBTP",
+   "status": "PASS",
+   "detail": "cost $32,849.20 (comm $25); cash after: locked $206,620.62 / Preview $206,620.62 / worst $205,862.86"
+  },
+  {
+   "check": "G4 volume",
+   "item": "BookL #3 IBTP",
+   "status": "PASS",
+   "detail": "1362 shares = 0.72% of 2 x ADV30 (94,221); 5.1% of the lowest day in 20 (26,563)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #3 IBTP volumes",
+   "status": "PASS",
+   "detail": "adv30 = rab/data/etf/etf_summary_2026-09-28.csv avg_volume_30d (Nasdaq, 30 sessions to 28 Sep); median20/min20 = numbers.yaml market.etf_2026-09-28 (ticket median of an even count keeps .5; yaml rounds it)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #3 IBTP price",
+   "status": "PASS",
+   "detail": "ref 24.1 = numbers.yaml market.etf_2026-09-28 close; max/min = ref x (1 +- 0.73%), band = max(0.5%, 2 x 20-session daily sd) (refresh_tickets.py)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #3 IBTP qty",
+   "status": "PASS",
+   "detail": "1,362 = Sheet tab Book L snapshot rab/data/sheet/Book_L_values_2026-09-30T0033AEST.txt"
+  },
+  {
+   "check": "G3 cash",
+   "item": "BookL #4 IBTO",
+   "status": "PASS",
+   "detail": "cost $34,624.06 (comm $25); cash after: locked $171,996.56 / Preview $171,996.56 / worst $170,983.29"
+  },
+  {
+   "check": "G4 volume",
+   "item": "BookL #4 IBTO",
+   "status": "PASS",
+   "detail": "1503 shares = 0.36% of 2 x ADV30 (211,074); 3.1% of the lowest day in 20 (49,271)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #4 IBTO volumes",
+   "status": "PASS",
+   "detail": "adv30 = rab/data/etf/etf_summary_2026-09-28.csv avg_volume_30d (Nasdaq, 30 sessions to 28 Sep); median20/min20 = numbers.yaml market.etf_2026-09-28 (ticket median of an even count keeps .5; yaml rounds it)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #4 IBTO price",
+   "status": "PASS",
+   "detail": "ref 23.02 = numbers.yaml market.etf_2026-09-28 close; max/min = ref x (1 +- 0.70%), band = max(0.5%, 2 x 20-session daily sd) (refresh_tickets.py)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #4 IBTO qty",
+   "status": "PASS",
+   "detail": "1,503 = Sheet tab Book L snapshot rab/data/sheet/Book_L_values_2026-09-30T0033AEST.txt"
+  },
+  {
+   "check": "G3 cash",
+   "item": "BookL #5 IBTM",
+   "status": "PASS",
+   "detail": "cost $36,538.28 (comm $25); cash after: locked $135,458.28 / Preview $135,458.28 / worst $134,210.09"
+  },
+  {
+   "check": "G4 volume",
+   "item": "BookL #5 IBTM",
+   "status": "PASS",
+   "detail": "1678 shares = 0.45% of 2 x ADV30 (186,480); 2.0% of the lowest day in 20 (85,726)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #5 IBTM volumes",
+   "status": "PASS",
+   "detail": "adv30 = rab/data/etf/etf_summary_2026-09-28.csv avg_volume_30d (Nasdaq, 30 sessions to 28 Sep); median20/min20 = numbers.yaml market.etf_2026-09-28 (ticket median of an even count keeps .5; yaml rounds it)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #5 IBTM price",
+   "status": "PASS",
+   "detail": "ref 21.76 = numbers.yaml market.etf_2026-09-28 close; max/min = ref x (1 +- 0.60%), band = max(0.5%, 2 x 20-session daily sd) (refresh_tickets.py)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #5 IBTM qty",
+   "status": "PASS",
+   "detail": "1,678 = Sheet tab Book L snapshot rab/data/sheet/Book_L_values_2026-09-30T0033AEST.txt"
+  },
+  {
+   "check": "G3 cash",
+   "item": "BookL #6 T 3.125% 15-Nov-2041",
+   "status": "PASS",
+   "detail": "cost $22,491.67 (comm $10); cash after: locked $112,966.61 / Preview $112,957.08 / worst $111,448.62"
+  },
+  {
+   "check": "G4 volume",
+   "item": "BookL #6 T 3.125% 15-Nov-2041",
+   "status": "PASS",
+   "detail": "$29,000 face = 6.5e-07 of the $44.6bn outstanding (MSPD); WInS shows no bond volume, so 2x-volume is UNVERIFIED; split plan: M9_selection.md (still waiting at 3:30pm ET -> half each over the next two sessions)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #6 T 3.125% 15-Nov-2041 price",
+   "status": "PASS",
+   "detail": "clean 76.367 = wins.bond_check wins_clean; gap -1.9bp; accrued on 2 Oct re-derived 1.1889 (act/act) vs ticket 1.1889"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #6 T 3.125% 15-Nov-2041 qty",
+   "status": "PASS",
+   "detail": "29,000 = Sheet tab Book L snapshot rab/data/sheet/Book_L_values_2026-09-30T0033AEST.txt"
+  },
+  {
+   "check": "G3 cash",
+   "item": "BookL #7 T 4.250% 15-Nov-2040",
+   "status": "PASS",
+   "detail": "cost $23,607.08 (comm $10); cash after: locked $89,359.53 / Preview $89,338.34 / worst $87,581.41"
+  },
+  {
+   "check": "G4 volume",
+   "item": "BookL #7 T 4.250% 15-Nov-2040",
+   "status": "PASS",
+   "detail": "$26,000 face = 6.1e-07 of the $42.9bn outstanding (MSPD); WInS shows no bond volume, so 2x-volume is UNVERIFIED; split plan: M9_selection.md (still waiting at 3:30pm ET -> half each over the next two sessions)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #7 T 4.250% 15-Nov-2040 price",
+   "status": "PASS",
+   "detail": "clean 89.186 = wins.bond_check wins_clean; gap -5.1bp; accrued on 2 Oct re-derived 1.6168 (act/act) vs ticket 1.6168"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #7 T 4.250% 15-Nov-2040 qty",
+   "status": "PASS",
+   "detail": "26,000 = Sheet tab Book L snapshot rab/data/sheet/Book_L_values_2026-09-30T0033AEST.txt"
+  },
+  {
+   "check": "G3 cash",
+   "item": "BookL #8 T 4.375% 15-Nov-2039",
+   "status": "PASS",
+   "detail": "cost $25,111.63 (comm $10); cash after: locked $64,247.90 / Preview $64,210.94 / worst $62,203.55"
+  },
+  {
+   "check": "G4 volume",
+   "item": "BookL #8 T 4.375% 15-Nov-2039",
+   "status": "PASS",
+   "detail": "$27,000 face = 6.1e-07 of the $44.6bn outstanding (MSPD); WInS shows no bond volume, so 2x-volume is UNVERIFIED; split plan: M9_selection.md (still waiting at 3:30pm ET -> half each over the next two sessions)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #8 T 4.375% 15-Nov-2039 price",
+   "status": "PASS",
+   "detail": "clean 91.363 = wins.bond_check wins_clean; gap -6.6bp; accrued on 2 Oct re-derived 1.6644 (act/act) vs ticket 1.6644"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #8 T 4.375% 15-Nov-2039 qty",
+   "status": "PASS",
+   "detail": "27,000 = Sheet tab Book L snapshot rab/data/sheet/Book_L_values_2026-09-30T0033AEST.txt"
+  },
+  {
+   "check": "G3 cash",
+   "item": "BookL #9 T 4.500% 15-May-2038",
+   "status": "PASS",
+   "detail": "cost $27,505.19 (comm $10); cash after: locked $36,742.71 / Preview $36,362.98 / worst $34,101.35"
+  },
+  {
+   "check": "G4 volume",
+   "item": "BookL #9 T 4.500% 15-May-2038",
+   "status": "PASS",
+   "detail": "$29,000 face = 1.1e-06 of the $25.5bn outstanding (MSPD); WInS shows no bond volume, so 2x-volume is UNVERIFIED; split plan: M9_selection.md (still waiting at 3:30pm ET -> half each over the next two sessions)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #9 T 4.500% 15-May-2038 price",
+   "status": "PASS",
+   "detail": "clean 94.281 = wins.bond_check wins_clean; gap -14.4bp; accrued on 2 Oct re-derived 1.7120 (act/act) vs ticket 1.712"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #9 T 4.500% 15-May-2038 qty",
+   "status": "PASS",
+   "detail": "29,000 = Sheet tab Book L snapshot rab/data/sheet/Book_L_values_2026-09-30T0033AEST.txt"
+  },
+  {
+   "check": "G3 cash",
+   "item": "BookL #10 T 4.750% 15-Feb-2037",
+   "status": "PASS",
+   "detail": "cost $29,323.60 (comm $10); cash after: locked $7,419.11 / Preview $7,021.52 / worst $4,511.86"
+  },
+  {
+   "check": "G4 volume",
+   "item": "BookL #10 T 4.750% 15-Feb-2037",
+   "status": "PASS",
+   "detail": "$30,000 face = 1.8e-06 of the $16.6bn outstanding (MSPD); WInS shows no bond volume, so 2x-volume is UNVERIFIED; split plan: M9_selection.md (still waiting at 3:30pm ET -> half each over the next two sessions)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #10 T 4.750% 15-Feb-2037 price",
+   "status": "PASS",
+   "detail": "clean 97.152 = wins.bond_check wins_clean; gap -15.3bp; accrued on 2 Oct re-derived 0.6196 (act/act) vs ticket 0.6196"
+  },
+  {
+   "check": "G5 trace",
+   "item": "BookL #10 T 4.750% 15-Feb-2037 qty",
+   "status": "PASS",
+   "detail": "30,000 = Sheet tab Book L snapshot rab/data/sheet/Book_L_values_2026-09-30T0033AEST.txt"
+  },
+  {
+   "check": "G3 cash",
+   "item": "BookL total",
+   "status": "PASS",
+   "detail": "$292,580.89 incl. $175 commissions <= $300,000; cash left $7,419.11; = numbers.yaml wins.bookL.cost_close_0928"
+  },
+  {
+   "check": "G3 cash",
+   "item": "BookL lowest cash",
+   "status": "PASS",
+   "detail": "lowest cash in any case $4,511.86 (kit floor $1,000: True)"
+  },
+  {
+   "check": "G3 cash",
+   "item": "trade count",
+   "status": "PASS",
+   "detail": "16 planned at most (11 + October 5) of 200"
+  },
+  {
+   "check": "G3 cash",
+   "item": "order sequence",
+   "status": "PASS",
+   "detail": "VT is order 11, after the bonds fill (tickets.md)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTR: 'We first re-priced'",
+   "status": "PASS",
+   "detail": "IBTR is Friday order 1 (tickets.csv seq 1); the refresh runs before any order (friday_checklist.md)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTR: 'under her $300,000 deposit at latest yields'",
+   "status": "PASS",
+   "detail": "laura.ladder.cost_2027_strips $292,418.11 < $300,000 (28 Sep curve; re-run Friday)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTR: 'about a quarter of a percentage point'",
+   "status": "PASS",
+   "detail": "laura.ladder.breakeven_fall_bp_strips 26.2bp"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTR: 'leaves the earliest'",
+   "status": "PASS",
+   "detail": "IPS 'latest payments first' (snapshot 30 Sep): a short deposit leaves the earliest"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTR: payment year",
+   "status": "PASS",
+   "detail": "note says [2037]; ticket serves 2037"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTQ: 'the fourth of Laura's ten'",
+   "status": "PASS",
+   "detail": "'fourth' = payment 4 of 10; IBTQ serves 1 Jan 2036"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTQ: 'no Treasury bond maturing between Feb 2031 and Feb'",
+   "status": "PASS",
+   "detail": "tab WInS Notes, SEEN 29 Sep"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTQ: 'closest fit'",
+   "status": "PASS",
+   "detail": "M9 slot 2036: IBTQ ends 0.6 months early, IBTP 12.6"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTQ: date 1 Jan 2036",
+   "status": "PASS",
+   "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTQ: payment year",
+   "status": "PASS",
+   "detail": "note says [2036]; ticket serves 2036"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTP: 'almost exactly the value'",
+   "status": "PASS",
+   "detail": "wins.ibond_checks.IBTP.premium_to_nav_pct 0.06% (28 Sep)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTP: date 1 Jan 2035",
+   "status": "PASS",
+   "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTP: date 28 Sep",
+   "status": "PASS",
+   "detail": "check date (28/29 Sep) or payment/maturity day"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTP: payment year",
+   "status": "PASS",
+   "detail": "note says [2035]; ticket serves 2035"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTO: 'the second of Laura's ten'",
+   "status": "PASS",
+   "detail": "'second' = payment 2 of 10; IBTO serves 1 Jan 2034"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTO: 'WInS lists no Treasury bond maturing in 2033'",
+   "status": "PASS",
+   "detail": "tab WInS Notes, SEEN 29 Sep (gap Feb 2031-Feb 2036)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTO: date 1 Jan 2034",
+   "status": "PASS",
+   "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTO: payment year",
+   "status": "PASS",
+   "detail": "note says [2034]; ticket serves 2034"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTM_P: 'her first $50,000 payment'",
+   "status": "PASS",
+   "detail": "'first' = payment 1 of 10; IBTM serves 1 Jan 2033"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTM_P: 'the least she plans to give'",
+   "status": "PASS",
+   "detail": "IPS: 'a floor she can promise co-sponsors' (definition)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T41: 'the last of Laura's ten'",
+   "status": "PASS",
+   "detail": "'last' = payment 10 of 10; T 3.125% 15-Nov-2041 serves 1 Jan 2042"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T41: 'No iBonds Treasury fund ends between 2037 and 2043'",
+   "status": "PASS",
+   "detail": "iShares list 30 Sep: ends 2036 then 2044"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T41: 'her last five payments use single bonds'",
+   "status": "PASS",
+   "detail": "tickets: 5 Treasury bonds serve 2038-2042"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T41: coupon 3.125%",
+   "status": "PASS",
+   "detail": "a Treasury bond with this coupon matures 2036-2042 (MSPD)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T41: date 15 Nov 2041",
+   "status": "PASS",
+   "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T41: date 1 Jan 2042",
+   "status": "PASS",
+   "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T41: payment year",
+   "status": "PASS",
+   "detail": "note says [2042]; ticket serves 2042"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T40b: 'the ninth of Laura's ten'",
+   "status": "PASS",
+   "detail": "'ninth' = payment 9 of 10; T 4.250% 15-Nov-2040 serves 1 Jan 2041"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T40b: 'A lower-coupon bond of that date would leave less '",
+   "status": "PASS",
+   "detail": "M9 slot 2041: share of cash as coupons 1.375% 16.6% vs 4.250% 38.1%"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T40b: 'but WInS does not list one'",
+   "status": "CONDITIONAL",
+   "detail": "used only if the Friday drop-down shows no 1.375% Nov-2040 (notes.md s5)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T40b: 'Its WInS price passed our curve check'",
+   "status": "PASS",
+   "detail": "wins.bond_check.T_4.250%_15-Nov-2040 gap -5.1bp, inside 25bp (28 Sep; re-checked Friday)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T40b: coupon 4.250%",
+   "status": "PASS",
+   "detail": "a Treasury bond with this coupon matures 2036-2042 (MSPD)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T40b: date 15 Nov 2040",
+   "status": "PASS",
+   "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T40b: date 1 Jan 2041",
+   "status": "PASS",
+   "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T40b: payment year",
+   "status": "PASS",
+   "detail": "note says [2041]; ticket serves 2041"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T39: 'about seven weeks'",
+   "status": "PASS",
+   "detail": "15 Nov 2039 -> 1 Jan 2040 = 47 days"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T39: coupon 4.375%",
+   "status": "PASS",
+   "detail": "a Treasury bond with this coupon matures 2036-2042 (MSPD)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T39: date 15 Nov 2039",
+   "status": "PASS",
+   "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T39: date 1 Jan 2040",
+   "status": "PASS",
+   "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T39: payment year",
+   "status": "PASS",
+   "detail": "note says [2040]; ticket serves 2040"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T38: 'Its WInS price passed our curve check'",
+   "status": "PASS",
+   "detail": "wins.bond_check.T_4.500%_15-May-2038 gap -14.4bp, inside 25bp (28 Sep; re-checked Friday)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T38: 'is the last before Laura's $50,000 residency payme'",
+   "status": "PASS",
+   "detail": "MSPD Table V 31 Aug 2026: no Treasury bond matures 16 May 2038 - 31 Dec 2038"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T38: 'almost a full percentage point of yield off'",
+   "status": "PASS",
+   "detail": "wins.bond_check.T_4.375%_15-Feb-2038 gap -92.1bp"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T38: coupon 4.500%",
+   "status": "PASS",
+   "detail": "a Treasury bond with this coupon matures 2036-2042 (MSPD)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T38: date 15 May 2038",
+   "status": "PASS",
+   "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T38: date 1 Jan 2039",
+   "status": "PASS",
+   "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T38: date 29 Sep",
+   "status": "PASS",
+   "detail": "check date (28/29 Sep) or payment/maturity day"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T38: payment year",
+   "status": "PASS",
+   "detail": "note says [2039]; ticket serves 2039"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T37: 'about ten and a half months early'",
+   "status": "PASS",
+   "detail": "15 Feb 2037 -> 1 Jan 2038 = 320 days"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T37: 'The only later bond before 2038, the 5.000% May 20'",
+   "status": "PASS",
+   "detail": "MSPD: Treasury bonds maturing after 15 Feb 2037 and before 2038 = 5.000% 15 May 2037 only"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T37: 'comes out about the same once coupons count'",
+   "status": "PASS",
+   "detail": "M9 slot 2038 delivered at 2%: 4.750% 90.5% vs 5.000% 90.5%"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T37: coupon 4.750%",
+   "status": "PASS",
+   "detail": "a Treasury bond with this coupon matures 2036-2042 (MSPD)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T37: date 15 Feb 2037",
+   "status": "PASS",
+   "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T37: date 1 Jan 2038",
+   "status": "PASS",
+   "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T37: coupon 5.000%",
+   "status": "PASS",
+   "detail": "a Treasury bond with this coupon matures 2036-2042 (MSPD)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T37: payment year",
+   "status": "PASS",
+   "detail": "note says [2038]; ticket serves 2038"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note VT: 'the least she plans to give'",
+   "status": "PASS",
+   "detail": "IPS: 'a floor she can promise co-sponsors' (definition)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note VT: 'bought last'",
+   "status": "PASS",
+   "detail": "VT is Portfolio order 11 of 11"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note VT: 'about 9% of our WInS portfolio'",
+   "status": "PASS",
+   "detail": "wins.portfolio.split_close_0928 vt 0.0868"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note VT: 'A fall cuts only her contribution above the floor'",
+   "status": "PASS",
+   "detail": "IPS: equities 'can reduce the facility contribution, but not below the floor'"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note VT: 9%",
+   "status": "PASS",
+   "detail": "= wins.portfolio.split_close_0928 (vt 0.0868)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTM_L: 'the first of Laura's ten'",
+   "status": "PASS",
+   "detail": "'first' = payment 1 of 10; IBTM serves 1 Jan 2033"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTM_L: 'WInS lists no Treasury bond maturing in late 2032'",
+   "status": "PASS",
+   "detail": "tab WInS Notes, SEEN 29 Sep"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTM_L: 'closest fit'",
+   "status": "PASS",
+   "detail": "M9 slot 2033: IBTM 0.6 months early"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTM_L: date 1 Jan 2033",
+   "status": "PASS",
+   "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTM_L: payment year",
+   "status": "PASS",
+   "detail": "note says [2033]; ticket serves 2033"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T40c: 'the ninth of Laura's ten'",
+   "status": "PASS",
+   "detail": "'ninth' = payment 9 of 10; T 4.250% 15-Nov-2040 serves 1 Jan 2041"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T40c: 'which leaves less income to reinvest'",
+   "status": "PASS",
+   "detail": "M9 slot 2041: share of cash as coupons 1.375% 16.6% vs 4.250% 38.1%"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T40c: 'WInS also lists a 1.375% bond'",
+   "status": "CONDITIONAL",
+   "detail": "used only if the drop-down lists it (notes.md s5)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T40c: coupon 4.250%",
+   "status": "PASS",
+   "detail": "a Treasury bond with this coupon matures 2036-2042 (MSPD)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T40c: date 15 Nov 2040",
+   "status": "PASS",
+   "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T40c: coupon 1.375%",
+   "status": "PASS",
+   "detail": "a Treasury bond with this coupon matures 2036-2042 (MSPD)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note SW40: 'the ninth of Laura's ten'",
+   "status": "PASS",
+   "detail": "'ninth' = payment 9 of 10; T 1.375% 15-Nov-2040 serves 1 Jan 2041"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note SW40: 'its low coupon leaves less income to reinvest'",
+   "status": "PASS",
+   "detail": "M9 slot 2041: share of cash as coupons 1.375% 16.6% vs 4.250% 38.1%"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note SW40: 'at about the same cost on today's curve'",
+   "status": "PASS",
+   "detail": "M9 slot 2041 need for $50,000 at curve forwards: 1.375% $23,146 vs 4.250% $23,266"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note SW40: 'Its WInS price passed our curve check'",
+   "status": "CONDITIONAL",
+   "detail": "used only if the WInS price sits inside the 25bp band the refresh prints (notes.md s5)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note SW40: coupon 1.375%",
+   "status": "PASS",
+   "detail": "a Treasury bond with this coupon matures 2036-2042 (MSPD)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note SW40: date 15 Nov 2040",
+   "status": "PASS",
+   "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note SW40: coupon 4.250%",
+   "status": "PASS",
+   "detail": "a Treasury bond with this coupon matures 2036-2042 (MSPD)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note SW41: 'the last of Laura's ten'",
+   "status": "PASS",
+   "detail": "'last' = payment 10 of 10; T 2.000% 15-Nov-2041 serves 1 Jan 2042"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note SW41: 'bond of the same date'",
+   "status": "PASS",
+   "detail": "same maturity (15 Nov): MSPD rows for both coupons"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note SW41: 'Its price passed our curve check'",
+   "status": "CONDITIONAL",
+   "detail": "used only if the WInS price sits inside the 25bp band the refresh prints (notes.md s5)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note SW41: 'a lower coupon means less income to reinvest'",
+   "status": "PASS",
+   "detail": "M9 slot 2042: coupons share 2.000% 23.7% vs 3.125% 32.6%"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note SW41: coupon 2.000%",
+   "status": "PASS",
+   "detail": "a Treasury bond with this coupon matures 2036-2042 (MSPD)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note SW41: date 15 Nov 2041",
+   "status": "PASS",
+   "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note SW41: date 1 Jan 2042",
+   "status": "PASS",
+   "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note SW41: coupon 3.125%",
+   "status": "PASS",
+   "detail": "a Treasury bond with this coupon matures 2036-2042 (MSPD)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note SW41: payment year",
+   "status": "PASS",
+   "detail": "note says [2042]; ticket serves 2042"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note OD_S: 'The lower coupon leaves less income to reinvest'",
+   "status": "PASS",
+   "detail": "M9 slot 2041: share of cash as coupons 1.375% 16.6% vs 4.250% 38.1%"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note OD_S: 'bond of the same date'",
+   "status": "PASS",
+   "detail": "same maturity (15 Nov): MSPD rows for both coupons"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note OD_S: coupon 4.250%",
+   "status": "PASS",
+   "detail": "a Treasury bond with this coupon matures 2036-2042 (MSPD)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note OD_S: date 15 Nov 2040",
+   "status": "PASS",
+   "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note OD_S: coupon 1.375%",
+   "status": "PASS",
+   "detail": "a Treasury bond with this coupon matures 2036-2042 (MSPD)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note OD_S: payment year",
+   "status": "PASS",
+   "detail": "note says [2041]; ticket serves 2041"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note OD_B: 'ninth payment'",
+   "status": "PASS",
+   "detail": "'ninth' = payment 9 of 10; T 1.375% 15-Nov-2040 serves 1 Jan 2041"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note OD_B: 'More of its value comes at maturity, so less rides'",
+   "status": "PASS",
+   "detail": "M9 slot 2041: share of cash as coupons 1.375% 16.6% vs 4.250% 38.1%"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note OD_B: 'at about the same cost today'",
+   "status": "PASS",
+   "detail": "M9 slot 2041 need for $50,000 at curve forwards: 1.375% $23,146 vs 4.250% $23,266"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note OD_B: 'Its price passed our curve check'",
+   "status": "CONDITIONAL",
+   "detail": "used only if the WInS price sits inside the 25bp band the refresh prints (notes.md s5)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note OD_B: coupon 1.375%",
+   "status": "PASS",
+   "detail": "a Treasury bond with this coupon matures 2036-2042 (MSPD)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note OD_B: date 15 Nov 2040",
+   "status": "PASS",
+   "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note OD_B: coupon 4.250%",
+   "status": "PASS",
+   "detail": "a Treasury bond with this coupon matures 2036-2042 (MSPD)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note OB_S: 'the ten payments now cost more than Laura's $300,0'",
+   "status": "CONDITIONAL",
+   "detail": "October trigger B only: the 14 Oct re-price is above $300,000 (october_trade.md)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note OB_S: 'Less is left for stocks'",
+   "status": "CONDITIONAL",
+   "detail": "consequence of trigger B (october_trade.md)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note OB_B: 'so the payments come first'",
+   "status": "PASS",
+   "detail": "IPS: payments and floor 'secured before anything is invested'"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note OC: 'Our cash is more than fees and rounding need'",
+   "status": "CONDITIONAL",
+   "detail": "trigger C: cash above $6,300 = $3,300 float (wins.portfolio.targets_typed cash_1.1pct) + $3,000 (october_trade.md)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "label 'October trigger C: spare cash above $6,3': $6,300",
+   "status": "PASS",
+   "detail": "october_trade.md trigger C ($3,300 float + $3,000)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "tickets.md dollar figures",
+   "status": "PASS",
+   "detail": "154 cent-level figures; untraced: []"
+  },
+  {
+   "check": "G6 stale",
+   "item": "M9_selection.md",
+   "status": "PASS",
+   "detail": "none"
+  },
+  {
+   "check": "G6 stale",
+   "item": "friday_checklist.md",
+   "status": "PASS",
+   "detail": "none"
+  },
+  {
+   "check": "G6 stale",
+   "item": "judge_response.md",
+   "status": "PASS",
+   "detail": "none"
+  },
+  {
+   "check": "G6 stale",
+   "item": "notes.csv",
+   "status": "PASS",
+   "detail": "none"
+  },
+  {
+   "check": "G6 stale",
+   "item": "notes.md",
+   "status": "PASS",
+   "detail": "none"
+  },
+  {
+   "check": "G6 stale",
+   "item": "october_trade.md",
+   "status": "PASS",
+   "detail": "none"
+  },
+  {
+   "check": "G6 stale",
+   "item": "tickets.csv",
+   "status": "PASS",
+   "detail": "none"
+  },
+  {
+   "check": "G6 stale",
+   "item": "tickets.md",
+   "status": "PASS",
+   "detail": "none"
+  },
+  {
+   "check": "G6 stale",
+   "item": "wins_prices_friday_TEMPLATE.csv",
+   "status": "PASS",
+   "detail": "none"
+  },
+  {
+   "check": "G6 stale",
+   "item": "data/MANIFEST.md",
+   "status": "PASS",
+   "detail": "none"
+  },
+  {
+   "check": "G6 stale",
+   "item": "build_notes.py",
+   "status": "PASS",
+   "detail": "only inside banned-pattern lists"
+  },
+  {
+   "check": "G6 stale",
+   "item": "m9_screen.py",
+   "status": "PASS",
+   "detail": "only inside banned-pattern lists"
+  },
+  {
+   "check": "G6 stale",
+   "item": "note_check.py",
+   "status": "PASS",
+   "detail": "only inside banned-pattern lists"
+  },
+  {
+   "check": "G6 stale",
+   "item": "note_rules.py",
+   "status": "PASS",
+   "detail": "only inside banned-pattern lists"
+  },
+  {
+   "check": "G6 stale",
+   "item": "refresh_tickets.py",
+   "status": "PASS",
+   "detail": "only inside banned-pattern lists"
+  },
+  {
+   "check": "G6 stale",
+   "item": "trades_clock.py",
+   "status": "PASS",
+   "detail": "only inside banned-pattern lists"
+  }
+ ]
+}
