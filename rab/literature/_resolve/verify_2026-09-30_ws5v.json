@@ -1,0 +1,791 @@
+{
+ "10.2469/faj.v42.n1.68": {
+  "curl": "403 https://www.tandfonline.com/doi/full/10.2469/faj.v42.n1.68",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "The Dedicated Bond Portfolio in Pension Funds—Part I: Motivations and Basics"
+   ],
+   "subtitle": [],
+   "authors": [
+    [
+     "Martin L.",
+     "Leibowitz"
+    ]
+   ],
+   "year": 1986,
+   "container": [
+    "Financial Analysts Journal"
+   ],
+   "volume": "42",
+   "issue": "1",
+   "page": "68-75",
+   "abstract": ""
+  },
+  "openalex": {
+   "abstract": "(1986). The Dedicated Bond Portfolio in Pension Funds—Part I: Motivations and Basics. Financial Analysts Journal: Vol. 42, No. 1, pp. 68-75.",
+   "title": "The Dedicated Bond Portfolio in Pension Funds—Part I: Motivations and Basics",
+   "year": 1986
+  }
+ },
+ "10.3905/jpm.2013.40.1.071": {
+  "curl": "429 https://www.pm-research.com/lookup/doi/10.3905%3A%3A%3Ajpm.2013.40.1.071?implicit-login=true",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "Liability-Driven Investment with DownsideRisk"
+   ],
+   "subtitle": [],
+   "authors": [
+    [
+     "Andrew",
+     "Ang"
+    ],
+    [
+     "Bingxu",
+     "Chen"
+    ],
+    [
+     "Suresh",
+     "Sundaresan"
+    ]
+   ],
+   "year": 2013,
+   "container": [
+    "The Journal of Portfolio Management"
+   ],
+   "volume": "40",
+   "issue": "1",
+   "page": "71-87",
+   "abstract": ""
+  },
+  "openalex": {
+   "abstract": "The authors develop a liability-driven investment framework that incorporates downside risk penalties for not meeting liabilities. The shortfall between the asset and liabilities can be valued as an option that swaps the value of the endogenously determined optimal portfolio for the value of the liabilities. The optimal portfolio selection exhibits endogenous risk aversion and, as the funding ratio deviates from the fully funded case in both directions, effective risk aversion decreases. When funding is low, the manager swings for the fences to take on risk, betting on the chance that liabilities can be covered. Over-funded plans also can afford to take on more risk, as liabilities are already well covered and so invest aggressively in risky securities. TOPICS:Portfolio construction, options, risk management",
+   "title": "Liability-Driven Investment with DownsideRisk",
+   "year": 2013
+  }
+ },
+ "10.2307/1907413": {
+  "curl": "200 https://www.jstor.org/stable/1907413?origin=crossref",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "Safety First and the Holding of Assets"
+   ],
+   "subtitle": [],
+   "authors": [
+    [
+     "A. D.",
+     "Roy"
+    ]
+   ],
+   "year": 1952,
+   "container": [
+    "Econometrica"
+   ],
+   "volume": "20",
+   "issue": "3",
+   "page": "431",
+   "abstract": ""
+  },
+  "openalex": {
+   "title": "Safety First and the Holding of Assets",
+   "year": 1952
+  }
+ },
+ "10.2469/faj.v44.n1.16": {
+  "curl": "403 https://www.tandfonline.com/doi/full/10.2469/faj.v44.n1.16",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "Dynamic Strategies for Asset Allocation"
+   ],
+   "subtitle": [],
+   "authors": [
+    [
+     "Andre F.",
+     "Perold"
+    ],
+    [
+     "William F.",
+     "Sharpe"
+    ]
+   ],
+   "year": 1988,
+   "container": [
+    "Financial Analysts Journal"
+   ],
+   "volume": "44",
+   "issue": "1",
+   "page": "16-27",
+   "abstract": ""
+  },
+  "openalex": {
+   "abstract": "As risky assets (e.g., stocks) fluctuate in value, the value of a portfolio containing them may change, as may their allocation relative to the safe assets (e.g., bills) within the portfolio. One must decide how to rebalance the portfolio in response to such changes. Dynamic strategies are explicit rules for doing so. Different strategies will produce different risk and return characteristics. Buy-and-hold strategies are nothing strategies. They have a minimum return proportional to the amount allocated to bills and an upside proportional to the amount allocated to stocks. Their performance is linearly related to the performance of the equity market. Strategies that sell stocks as the market falls and buys stocks as the market rises represent the purchase of portfolio insurance. Particular examples are constant-proportion portfolio insurance and option-based portfolio insurance. These strategies have better downside protection and better upside potential than buy-and-hold strategies. They do worse in...",
+   "title": "Dynamic Strategies for Asset Allocation",
+   "year": 1988
+  }
+ },
+ "10.2469/faj.v44.n1.38": {
+  "curl": "403 https://www.tandfonline.com/doi/full/10.2469/faj.v44.n1.38",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "Portfolio Insurance and the Market Crash"
+   ],
+   "subtitle": [],
+   "authors": [
+    [
+     "Mark",
+     "Rubinstein"
+    ]
+   ],
+   "year": 1988,
+   "container": [
+    "Financial Analysts Journal"
+   ],
+   "volume": "44",
+   "issue": "1",
+   "page": "38-47",
+   "abstract": ""
+  },
+  "openalex": {
+   "abstract": "(1988). Portfolio Insurance and the Market Crash. Financial Analysts Journal: Vol. 44, No. 1, pp. 38-47.",
+   "title": "Portfolio Insurance and the Market Crash",
+   "year": 1988
+  }
+ },
+ "10.2469/faj.v55.n1.2241": {
+  "curl": "403 https://www.tandfonline.com/doi/full/10.2469/faj.v55.n1.2241",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "Using Asset Allocation to Protect Spending"
+   ],
+   "subtitle": [],
+   "authors": [
+    [
+     "Philip H.",
+     "Dybvig"
+    ]
+   ],
+   "year": 1999,
+   "container": [
+    "Financial Analysts Journal"
+   ],
+   "volume": "55",
+   "issue": "1",
+   "page": "49-62",
+   "abstract": ""
+  },
+  "openalex": {
+   "abstract": "The management of an educational endowment or other income-producing portfolio involves two strategic decisions at the fund level: asset allocation and choice of a spending rule. Traditionally, these two decisions are linked, for example, to preserve capital on average, but the optimal link would be more dynamic. This article describes a new protective strategy that links spending and asset allocation in a way that preserves spending power in down markets but participates significantly in up markets. The strategy is similar to constant proportions portfolio insurance, in that part of the fund is maintained in safe assets to preserve the value needed for continued expenditures. Like portfolio insurance, the strategy outperforms traditional strategies when markets are persistently up or persistently down but underperforms when portfolios are whipsawed by alternating ups and downs.",
+   "title": "Using Asset Allocation to Protect Spending",
+   "year": 1999
+  }
+ },
+ "10.2307/2676187": {
+  "curl": "200 https://www.jstor.org/stable/2676187?origin=crossref",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "Behavioral Portfolio Theory"
+   ],
+   "subtitle": [],
+   "authors": [
+    [
+     "Hersh",
+     "Shefrin"
+    ],
+    [
+     "Meir",
+     "Statman"
+    ]
+   ],
+   "year": 2000,
+   "container": [
+    "The Journal of Financial and Quantitative Analysis"
+   ],
+   "volume": "35",
+   "issue": "2",
+   "page": "127",
+   "abstract": ""
+  },
+  "openalex": {
+   "abstract": "We develop a positive behavioral portfolio theory (BPT) and explore its implications for portfolio construction and security design. The optimal portfolios of BPT investors resemble combinations of bonds and lottery tickets, consistent with Friedman and Savage's (1948) observation. We compare the BPT efficient frontier with the mean-variance efficient frontier and show that, in general, the two frontiers do not coincide. Optimal BPT portfolios are also different from optimal CAPM portfolios. In particular, the CAPM twofund separation does not hold in BPT. We present BPT in a single mental account version (BPT-SA) and a multiple mental account version (BPT-MA). BPT-SA investors integrate their portfolios into a single mental account, while BPT-MA investors segregate their port? folios into several mental accounts. BPT-MA portfolios resemble layered pyramids, where layers are associated with aspirations. We explore a two-layer portfolio where the low aspiration layer is designed to avoid poverty while the high aspiration layer is designed for a shot at riches.",
+   "title": "Behavioral Portfolio Theory",
+   "year": 2000
+  }
+ },
+ "10.3905/jwm.2005.470606": {
+  "curl": "429 http://pm-research.com/lookup/doi/10.3905/jwm.2005.470606",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "Beyond Markowitz"
+   ],
+   "subtitle": [
+    "A Comprehensive Wealth Allocation Framework for Individual Investors"
+   ],
+   "authors": [
+    [
+     "Ashvin B.",
+     "Chhabra"
+    ]
+   ],
+   "year": 2005,
+   "container": [
+    "The Journal of Wealth Management"
+   ],
+   "volume": "7",
+   "issue": "4",
+   "page": "8-34",
+   "abstract": ""
+  },
+  "openalex": {
+   "abstract": "In sharp contrast to the recommendations of Modern Portfolio Theory, a vast majority of investors are not well diversified. The author attempts to provide a solution to this diversification paradox, by expanding the Markowitz framework of diversifying market risk to also include the concepts of personal risk and aspirational goals. The wealth allocation framework enables individual investors to construct appropriate portfolios using all their assets, such as their home, mortgage, market investments, and human capital. The investor may choose to accept a slightly lower average rate of return in exchange for downside protection and upside potential. The resulting portfolios are designed to meet individual investors9 needs and preferences, as well as to protect individuals from personal, market, and aspirational risk factors. A major conclusion of this work is that, for the individual investor, risk allocation should precede asset allocation.",
+   "title": "Beyond Markowitz",
+   "year": 2005
+  }
+ },
+ "10.1017/S0022109010000141": {
+  "curl": "200 https://www.cambridge.org/core/journals/journal-of-financial-and-quantitative-analysis/article/portfolio-optimization-with-mental-accounts/4B23CFB326982C52014A1BA447FA9244",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "Portfolio Optimization with Mental Accounts"
+   ],
+   "subtitle": [],
+   "authors": [
+    [
+     "Sanjiv",
+     "Das"
+    ],
+    [
+     "Harry",
+     "Markowitz"
+    ],
+    [
+     "Jonathan",
+     "Scheid"
+    ],
+    [
+     "Meir",
+     "Statman"
+    ]
+   ],
+   "year": 2010,
+   "container": [
+    "Journal of Financial and Quantitative Analysis"
+   ],
+   "volume": "45",
+   "issue": "2",
+   "page": "311-334",
+   "abstract": "<jats:title>Abstract</jats:title><jats:p>We integrate appealing features of Markowitz’s mean-variance portfolio theory (MVT) and Shefrin and Statman’s behavioral portfolio theory (BPT) into a new mental accounting (MA) framework. Features of the MA framework include an MA structure of portfolios, a definition of risk as the probability of failing to reach the threshold level in each mental account, and attitudes toward risk that vary by account. We demonstrate a mathematical equivalence between MVT, MA, and risk management using value at risk (VaR). The aggregate allocation across MA subportfolios is mean-variance efficient with short selling. Short-selling constraints on mental accounts impose very minor reductions in certainty equivalents, only if binding for the aggregate portfolio, offsetting utility losses from errors in specifying risk-aversion coefficients in MVT applications. These generalizations of MVT and BPT via a unified MA framework result in a fruitful connection between investor consumption goals and portfolio production.</jats:p>"
+  },
+  "openalex": {
+   "abstract": "Abstract We integrate appealing features of Markowitz’s mean-variance portfolio theory (MVT) and Shefrin and Statman’s behavioral portfolio theory (BPT) into a new mental accounting (MA) framework. Features of the MA framework include an MA structure of portfolios, a definition of risk as the probability of failing to reach the threshold level in each mental account, and attitudes toward risk that vary by account. We demonstrate a mathematical equivalence between MVT, MA, and risk management using value at risk (VaR). The aggregate allocation across MA subportfolios is mean-variance efficient with short selling. Short-selling constraints on mental accounts impose very minor reductions in certainty equivalents, only if binding for the aggregate portfolio, offsetting utility losses from errors in specifying risk-aversion coefficients in MVT applications. These generalizations of MVT and BPT via a unified MA framework result in a fruitful connection between investor consumption goals and portfolio production.",
+   "title": "Portfolio Optimization with Mental Accounts",
+   "year": 2010
+  }
+ },
+ "10.1002/9781119025306": {
+  "curl": "403 https://onlinelibrary.wiley.com/doi/book/10.1002/9781119025306",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "Goals‐Based Wealth Management"
+   ],
+   "subtitle": [
+    "An Integrated and Practical Approach to Changing the Structure of Wealth Advisory Practices"
+   ],
+   "authors": [
+    [
+     "Jean L.P.",
+     "Brunel"
+    ]
+   ],
+   "year": 2015,
+   "container": [],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "abstract": ""
+  },
+  "openalex": {
+   "title": "Goals‐Based Wealth Management",
+   "year": 2015
+  }
+ },
+ "10.2469/faj.v47.n1.7": {
+  "curl": "403 https://www.tandfonline.com/doi/full/10.2469/faj.v47.n1.7",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "The Arithmetic of Active Management"
+   ],
+   "subtitle": [],
+   "authors": [
+    [
+     "William F.",
+     "Sharpe"
+    ]
+   ],
+   "year": 1991,
+   "container": [
+    "Financial Analysts Journal"
+   ],
+   "volume": "47",
+   "issue": "1",
+   "page": "7-9",
+   "abstract": ""
+  },
+  "openalex": {
+   "abstract": "(1991). The Arithmetic of Active Management. Financial Analysts Journal: Vol. 47, No. 1, pp. 7-9.",
+   "title": "The Arithmetic of Active Management",
+   "year": 1991
+  }
+ },
+ "10.2469/faj.v70.n2.1": {
+  "curl": "403 https://www.tandfonline.com/doi/full/10.2469/faj.v70.n2.1",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "The Global Multi-Asset Market Portfolio, 1959–2012"
+   ],
+   "subtitle": [],
+   "authors": [
+    [
+     "Ronald",
+     "Doeswijk"
+    ],
+    [
+     "Trevin",
+     "Lam"
+    ],
+    [
+     "Laurens",
+     "Swinkels"
+    ]
+   ],
+   "year": 2014,
+   "container": [
+    "Financial Analysts Journal"
+   ],
+   "volume": "70",
+   "issue": "2",
+   "page": "26-41",
+   "abstract": ""
+  },
+  "openalex": {
+   "abstract": "The market portfolio contains important information for purposes of strategic asset allocation. One could consider it a natural benchmark for investors. The authors composed the invested global multi-asset market portfolio for 1990–2012 by estimating the market capitalization for equities, private equity, real estate, high-yield bonds, emerging-market debt, investment-grade credits, government bonds, and inflation-linked bonds. They also used an expanded period (1959–2012) for the main asset categories: equities, real estate, nongovernment bonds, and government bonds.",
+   "title": "The Global Multi-Asset Market Portfolio, 1959–2012",
+   "year": 2014
+  }
+ },
+ "10.1016/j.jfineco.2021.06.040": {
+  "curl": "200 https://linkinghub.elsevier.com/retrieve/pii/S0304405X2100310X",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "Stocks for the long run? Evidence from a broad sample of developed markets"
+   ],
+   "subtitle": [],
+   "authors": [
+    [
+     "Aizhan",
+     "Anarkulova"
+    ],
+    [
+     "Scott",
+     "Cederburg"
+    ],
+    [
+     "Michael S.",
+     "O’Doherty"
+    ]
+   ],
+   "year": 2022,
+   "container": [
+    "Journal of Financial Economics"
+   ],
+   "volume": "143",
+   "issue": "1",
+   "page": "409-433",
+   "abstract": ""
+  },
+  "openalex": {
+   "title": "Stocks for the long run? Evidence from a broad sample of developed markets",
+   "year": 2021
+  }
+ },
+ "10.2139/ssrn.3594660": {
+  "curl": "403 https://www.ssrn.com/abstract=3594660",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "Stocks for the Long Run? Evidence from a Broad Sample of Developed Markets"
+   ],
+   "subtitle": [],
+   "authors": [
+    [
+     "Aizhan",
+     "Anarkulova"
+    ],
+    [
+     "Scott",
+     "Cederburg"
+    ],
+    [
+     "Michael S.",
+     "O'Doherty"
+    ]
+   ],
+   "year": 2020,
+   "container": [],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "abstract": "<jats:p>We characterize the distribution of long-term equity returns based on the historical record of stock market performance in a broad cross section of 39 developed countries over the period from 1841 to 2019. Our comprehensive sample mitigates concerns over survivor and easy data biases that plague other work in this area. A bootstrap simulation analysis implies substantial uncertainty about long-horizon stock market outcomes, and we estimate a 12% chance that a diversified investor with a 30-year investment horizon will lose relative to inflation. The results contradict the conventional advice that stocks are safe investments over long holding periods.</jats:p>"
+  },
+  "openalex": {
+   "title": "Stocks for the Long Run? Evidence from a Broad Sample of Developed Markets",
+   "year": 2020
+  }
+ },
+ "10.2469/faj.v51.n3.1901": {
+  "curl": "403 https://www.tandfonline.com/doi/full/10.2469/faj.v51.n3.1901",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "On the Risk of Stocks in the Long Run"
+   ],
+   "subtitle": [],
+   "authors": [
+    [
+     "Zvi",
+     "Bodie"
+    ]
+   ],
+   "year": 1995,
+   "container": [
+    "Financial Analysts Journal"
+   ],
+   "volume": "51",
+   "issue": "3",
+   "page": "18-22",
+   "abstract": ""
+  },
+  "openalex": {
+   "abstract": "A familiar proposition is that investing in common stocks is less risky the longer an investor plans to hold them. If this proposition were true, then the cost of insuring against earning less than the risk-free rate of interest should decline as the investment horizon lengthens. This paper shows that the opposite is true, even if stock returns are mean reverting in the long run. The case for young people investing more heavily than older people in stocks cannot, therefore, rest solely on the long-run properties of stock returns. For guarantors of money-fixed annuities, the proposition that stocks in their portfolios are a better hedge the longer the maturity of their obligations is unambiguously wrong.",
+   "title": "On the Risk of Stocks in the Long Run",
+   "year": 1995
+  }
+ },
+ "10.1257/aer.91.1.99": {
+  "curl": "403 https://pubs.aeaweb.org/doi/10.1257/aer.91.1.99",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "Who Should Buy Long-Term Bonds?"
+   ],
+   "subtitle": [],
+   "authors": [
+    [
+     "John Y",
+     "Campbell"
+    ],
+    [
+     "Luis M",
+     "Viceira"
+    ]
+   ],
+   "year": 2001,
+   "container": [
+    "American Economic Review"
+   ],
+   "volume": "91",
+   "issue": "1",
+   "page": "99-127",
+   "abstract": "<jats:p> According to conventional wisdom, long-term bonds are appropriate for conservative long-term investors. This paper develops a model of optimal consumption and portfolio choice for infinite-lived investors with recursive utility who face stochastic interest rates, solves the model using an approximate analytical method, and evaluates conventional wisdom. As risk aversion increases, the myopic component of risky asset demand disappears but the intertemporal hedging component does not. Conservative investors hold assets to hedge the risk that real interest rates will decline. Long-term inflation-indexed bonds are most suitable for this purpose, but nominal bonds may also be used if inflation risk is low. (JEL G12) </jats:p>"
+  },
+  "openalex": {
+   "abstract": "According to conventional wisdom, long-term bonds are appropriate for conservative long-term investors. This paper develops a model of optimal consumption and portfolio choice for infinite-lived investors with recursive utility who face stochastic interest rates, solves the model using an approximate analytical method, and evaluates conventional wisdom. As risk aversion increases, the myopic component of risky asset demand disappears but the intertemporal hedging component does not. Conservative investors hold assets to hedge the risk that real interest rates will decline. Long-term inflation-indexed bonds are most suitable for this purpose, but nominal bonds may also be used if inflation risk is low. (JEL G12)",
+   "title": "Who Should Buy Long-Term Bonds?",
+   "year": 2001
+  }
+ },
+ "10.1111/jofi.12032": {
+  "curl": "403 https://onlinelibrary.wiley.com/doi/10.1111/jofi.12032",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "The TIPS‐Treasury Bond Puzzle"
+   ],
+   "subtitle": [],
+   "authors": [
+    [
+     "MATTHIAS",
+     "FLECKENSTEIN"
+    ],
+    [
+     "FRANCIS A.",
+     "LONGSTAFF"
+    ],
+    [
+     "HANNO",
+     "LUSTIG"
+    ]
+   ],
+   "year": 2014,
+   "container": [
+    "The Journal of Finance"
+   ],
+   "volume": "69",
+   "issue": "5",
+   "page": "2151-2197",
+   "abstract": "<jats:title>ABSTRACT</jats:title><jats:p>We show that the price of a Treasury bond and an inflation‐swapped Treasury Inflation‐Protected Securities (TIPS) issue exactly replicating the cash flows of the Treasury bond can differ by more than $20 per $100 notional. Treasury bonds are almost always overvalued relative to TIPS. Total TIPS‐Treasury mispricing has exceeded $56 billion, representing nearly 8% of the total amount of TIPS outstanding. We find direct evidence that the mispricing narrows as additional capital flows into the markets. This provides strong support for the slow‐moving‐capital explanation of arbitrage persistence.</jats:p>"
+  },
+  "openalex": {
+   "abstract": "ABSTRACT We show that the price of a Treasury bond and an inflation‐swapped Treasury Inflation‐Protected Securities (TIPS) issue exactly replicating the cash flows of the Treasury bond can differ by more than $20 per $100 notional. Treasury bonds are almost always overvalued relative to TIPS. Total TIPS‐Treasury mispricing has exceeded $56 billion, representing nearly 8% of the total amount of TIPS outstanding. We find direct evidence that the mispricing narrows as additional capital flows into the markets. This provides strong support for the slow‐moving‐capital explanation of arbitrage persistence.",
+   "title": "The TIPS‐Treasury Bond Puzzle",
+   "year": 2013
+  }
+ },
+ "10.1073/pnas.1913678117": {
+  "curl": "403 https://pnas.org/doi/full/10.1073/pnas.1913678117",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "The effects of communicating uncertainty on public trust in facts and numbers"
+   ],
+   "subtitle": [],
+   "authors": [
+    [
+     "Anne Marthe",
+     "van der Bles"
+    ],
+    [
+     "Sander",
+     "van der Linden"
+    ],
+    [
+     "Alexandra L. J.",
+     "Freeman"
+    ],
+    [
+     "David J.",
+     "Spiegelhalter"
+    ]
+   ],
+   "year": 2020,
+   "container": [
+    "Proceedings of the National Academy of Sciences"
+   ],
+   "volume": "117",
+   "issue": "14",
+   "page": "7672-7683",
+   "abstract": "<jats:p>\n                    Uncertainty is inherent to our knowledge about the state of the world yet often not communicated alongside scientific facts and numbers. In the “posttruth” era where facts are increasingly contested, a common assumption is that communicating uncertainty will reduce public trust. However, a lack of systematic research makes it difficult to evaluate such claims. We conducted five experiments—including one preregistered replication with a national sample and one field experiment on the\n                    <jats:italic>BBC News</jats:italic>\n                    website (total\n                    <jats:italic>n</jats:italic>\n                    = 5,780)—to examine whether communicating epistemic uncertainty about facts across different topics (e.g., global warming, immigration), formats (verbal vs. numeric), and magnitudes (high vs. low) influences public trust. Results show that whereas people do perceive greater uncertainty when it is communicated, we observed only a small decrease in trust in numbers and trustworthiness of the source, and mostly for verbal uncertainty communication. These results could help reassure all communicators of facts and science that they can be more open and transparent about the limits of human knowledge.\n                  </jats:p>"
+  },
+  "openalex": {
+   "abstract": "Uncertainty is inherent to our knowledge about the state of the world yet often not communicated alongside scientific facts and numbers. In the “posttruth” era where facts are increasingly contested, a common assumption is that communicating uncertainty will reduce public trust. However, a lack of systematic research makes it difficult to evaluate such claims. We conducted five experiments—including one preregistered replication with a national sample and one field experiment on the BBC News website (total n = 5,780)—to examine whether communicating epistemic uncertainty about facts across different topics (e.g., global warming, immigration), formats (verbal vs. numeric), and magnitudes (high vs. low) influences public trust. Results show that whereas people do perceive greater uncertainty when it is communicated, we observed only a small decrease in trust in numbers and trustworthiness of the source, and mostly for verbal uncertainty communication. These results could help reassure all communicators of facts and science that they can be more open and transparent about the limits of human knowledge.",
+   "title": "The effects of communicating uncertainty on public trust in facts and numbers",
+   "year": 2020
+  }
+ },
+ "10.1126/science.1191181": {
+  "curl": "403 https://www.science.org/doi/10.1126/science.1191181",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "Visualizing Uncertainty About the Future"
+   ],
+   "subtitle": [],
+   "authors": [
+    [
+     "David",
+     "Spiegelhalter"
+    ],
+    [
+     "Mike",
+     "Pearson"
+    ],
+    [
+     "Ian",
+     "Short"
+    ]
+   ],
+   "year": 2011,
+   "container": [
+    "Science"
+   ],
+   "volume": "333",
+   "issue": "6048",
+   "page": "1393-1400",
+   "abstract": "<jats:p>We are all faced with uncertainty about the future, but we can get the measure of some uncertainties in terms of probabilities. Probabilities are notoriously difficult to communicate effectively to lay audiences, and in this review we examine current practice for communicating uncertainties visually, using examples drawn from sport, weather, climate, health, economics, and politics. Despite the burgeoning interest in infographics, there is limited experimental evidence on how different types of visualizations are processed and understood, although the effectiveness of some graphics clearly depends on the relative numeracy of an audience. Fortunately, it is increasingly easy to present data in the form of interactive visualizations and in multiple types of representation that can be adjusted to user needs and capabilities. Nonetheless, communicating deeper uncertainties resulting from incomplete or disputed knowledge—or from essential indeterminacy about the future—remains a challenge.</jats:p>"
+  },
+  "openalex": {
+   "abstract": "We are all faced with uncertainty about the future, but we can get the measure of some uncertainties in terms of probabilities. Probabilities are notoriously difficult to communicate effectively to lay audiences, and in this review we examine current practice for communicating uncertainties visually, using examples drawn from sport, weather, climate, health, economics, and politics. Despite the burgeoning interest in infographics, there is limited experimental evidence on how different types of visualizations are processed and understood, although the effectiveness of some graphics clearly depends on the relative numeracy of an audience. Fortunately, it is increasingly easy to present data in the form of interactive visualizations and in multiple types of representation that can be adjusted to user needs and capabilities. Nonetheless, communicating deeper uncertainties resulting from incomplete or disputed knowledge--or from essential indeterminacy about the future--remains a challenge.",
+   "title": "Visualizing Uncertainty About the Future",
+   "year": 2011
+  }
+ },
+ "10.1111/j.1540-6261.1980.tb02190.x": {
+  "curl": "403 https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1980.tb02190.x",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "Who Should Buy Portfolio Insurance?"
+   ],
+   "subtitle": [],
+   "authors": [
+    [
+     "HAYNE E.",
+     "LELAND"
+    ]
+   ],
+   "year": 1980,
+   "container": [
+    "The Journal of Finance"
+   ],
+   "volume": "35",
+   "issue": "2",
+   "page": "581-594",
+   "abstract": ""
+  },
+  "openalex": {
+   "title": "Who Should Buy Portfolio Insurance?",
+   "year": 1980
+  }
+ },
+ "10.1017/S0020268100052811": {
+  "curl": "200 https://www.cambridge.org/core/journals/journal-of-the-institute-of-actuaries/article/abs/review-of-the-principles-of-lifeoffice-valuations/42DE39108ADCAD8D476B8E633F8E606F",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "Review of the Principles of Life-office Valuations"
+   ],
+   "subtitle": [],
+   "authors": [
+    [
+     "F. M.",
+     "Redington"
+    ]
+   ],
+   "year": 1952,
+   "container": [
+    "Journal of the Institute of Actuaries"
+   ],
+   "volume": "78",
+   "issue": "3",
+   "page": "286-340",
+   "abstract": "<jats:p>\n                    The original purpose of this paper—undertaken at request but not unwillingly—was to review the principles and practice of life-office valuations in the light of modern conditions. It was difficult, however, to deal satisfactorily with the principles of valuation\n                    <jats:italic>in vacuo</jats:italic>\n                    without reference to more fundamental principles. As a consequence the paper has become more ambitious in its scope than originally intended—and has threatened to run away with itself. The reader will perhaps be less disappointed if he is warned in advance that he is to be taken on a ramble through the actuarial countryside and that any interest lies in the journey rather than the destination.\n                  </jats:p>"
+  },
+  "openalex": {
+   "abstract": "The original purpose of this paper—undertaken at request but not unwillingly—was to review the principles and practice of life-office valuations in the light of modern conditions. It was difficult, however, to deal satisfactorily with the principles of valuation in vacuo without reference to more fundamental principles. As a consequence the paper has become more ambitious in its scope than originally intended—and has threatened to run away with itself. The reader will perhaps be less disappointed if he is warned in advance that he is to be taken on a ramble through the actuarial countryside and that any interest lies in the journey rather than the destination.",
+   "title": "Review of the Principles of Life-office Valuations",
+   "year": 1952
+  }
+ },
+ "10.2469/faj.v60.n1.2591": {
+  "curl": "403 https://www.tandfonline.com/doi/full/10.2469/faj.v60.n1.2591",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "Empirical TIPS"
+   ],
+   "subtitle": [],
+   "authors": [
+    [
+     "Richard",
+     "Roll"
+    ]
+   ],
+   "year": 2004,
+   "container": [
+    "Financial Analysts Journal"
+   ],
+   "volume": "60",
+   "issue": "1",
+   "page": "31-53",
+   "abstract": ""
+  },
+  "openalex": {
+   "abstract": "U.S. Treasury Inflation-Indexed Securities (commonly known as TIPS) were first issued in January 1997. Through the third quarter of 2003, 12 TIPS had been issued, with original maturities ranging from 5 to 30 years. One TIP bond has already matured. This study documents the correlations of TIPS returns with the returns on nominal bonds and with equity returns over the past seven years; TIPS real and effective nominal durations; and changes in the volatility of TIPS over time. TIPS are used here to estimate real yield curves, which are then compared against nominal yield curves to derive the term structure of anticipated inflation on a daily basis. An explanation offered for the dramatic decline in TIPS real yields since 1999 is supported by empirical tests. Finally, given plausible assumptions about future expected returns, the article shows that an investment portfolio diversified between U.S. equities and nominal bonds would be improved by the addition of TIPS. U.S. Treasury Inflation-Indexed Securities (commonly known as TIPS) were first issued in January 1997. Through the third quarter of 2003, 12 TIPS have been issued, with original maturities ranging from 5 years to 30 years. One TIP bond has already matured. With the accumulation of almost seven years of daily TIPS trading experience, sample sizes are more than adequate to establish some empirical facts about TIPS behavior. So, now seems to be a good moment to undertake a systematic empirical study of these interesting new assets. This study reports correlations of TIPS returns with the returns on nominal bonds and with equity returns over the past seven years. It calculates TIPS real and effective nominal durations and traces changes in the volatility of TIPS returns over time. It presents empirical measures of the effective nominal durations of TIPS and their return sensitivities to changes in the shape of the nominal term structure of interest rates. The study finds that TIPS return volatility has varied remarkably over their available history. TIPS provide an opportunity to estimate the entire term structure of anticipated inflation by comparing real yields on TIPS and ordinary yields on nominal bonds.TIPS real yields have declined dramatically since 1999. The article offers a tax-based explanation (with some supporting evidence). Finally, the article assesses the benefits of including TIPS in a balanced and diversified investment portfolio.",
+   "title": "Empirical TIPS",
+   "year": 2004
+  }
+ },
+ "10.1016/0165-1889(92)90043-E": {
+  "curl": "200 https://linkinghub.elsevier.com/retrieve/pii/016518899290043E",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "Theory of constant proportion portfolio insurance"
+   ],
+   "subtitle": [],
+   "authors": [
+    [
+     "Fischer",
+     "Black"
+    ],
+    [
+     "AndréF.",
+     "Perold"
+    ]
+   ],
+   "year": 1992,
+   "container": [
+    "Journal of Economic Dynamics and Control"
+   ],
+   "volume": "16",
+   "issue": "3-4",
+   "page": "403-426",
+   "abstract": ""
+  },
+  "openalex": {
+   "title": "Theory of constant proportion portfolio insurance",
+   "year": 1992
+  }
+ },
+ "10.2139/ssrn.3117765": {
+  "curl": "403 https://www.ssrn.com/abstract=3117765",
+  "handle": 1,
+  "crossref": {
+   "title": [
+    "A New Approach to Goals-Based Wealth Management"
+   ],
+   "subtitle": [],
+   "authors": [
+    [
+     "Sanjiv Ranjan",
+     "Das"
+    ],
+    [
+     "Daniel N",
+     "Ostrov"
+    ],
+    [
+     "Anand",
+     "Radhakrishnan"
+    ],
+    [
+     "Deep",
+     "Srivastav"
+    ]
+   ],
+   "year": 2018,
+   "container": [
+    "SSRN Electronic Journal"
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "abstract": ""
+  },
+  "openalex": {
+   "title": "A New Approach to Goals-Based Wealth Management",
+   "year": 2018
+  }
+ }
+}
