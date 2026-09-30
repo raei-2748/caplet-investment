@@ -178,10 +178,19 @@ Both builds follow the same specs, so the assumptions they share are not tested 
 - The adopted 2031 rule applied to rivals that would announce differently.
 - A home-price index in place of REITs before 2009.
 - MODEL STRIPS prices with no mark-up.
+- **Zero-coupon rungs with no coupon reinvestment** (M5 spec, M1 A5). Every "never short" and "all payments paid" key
+  above (M5 149 of 149, the M6 REC lens, all 13 M7 scenarios) is reconciled *on this basis only*.
 - Parallel curve shifts in M7.
 - GLD and VNQ listings on WInS (UNVERIFIED).
 
 WS7 should challenge these.
+
+**Added 30 Sep, after WS7's challenge (outside this gate; not re-derived here).** WS7 found coupon reinvestment to be
+the weakest load-bearing assumption (`rab/redteam/ws7_assumptions_reinvest_check.py` and its `_output.txt`, commit
+9db8d35 on rab/ws7, MODEL). The adopted reading R1(a) means the real plan holds WInS coupon bonds and iBonds, not
+STRIPS. The payments then total $500k only if coupons are reinvested at about 4.97% or more. So any memo or deliverable
+that quotes a WS3 "never short" figure must say "on a zero-coupon (STRIPS) basis". This does not change any Gate B
+verdict, because both builds share the basis. It is WS7's finding to triage, not this gate's.
 
 ## 8. Files and rerun
 
@@ -200,3 +209,6 @@ WS7 should challenge these.
 - **Rerun** from the worktree root (seed 20260930):
   - `/Users/ray/Research/rab-ws/.venv/bin/python rab/verification/gateB_ws3/gateB_ws3_checks.py --rerun` (about 25 s)
   - then `.../gateB_ws3_mc_precision.py` (about 50 s)
+- **Re-verified 30 Sep, after the decision-memo commit 0b6b5cb:** `--rerun` again reproduces all 67 tracked outputs
+  byte for byte (only the blind headlines' time stamp differs). It still gives 278 rows: 204 MATCH, 74 MC NOISE and 0
+  UNRECONCILED. `numbers.yaml` is still `492ed320...`.

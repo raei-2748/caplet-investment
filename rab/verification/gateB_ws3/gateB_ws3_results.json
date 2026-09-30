@@ -1,4 +1,11 @@
 {
+ "rerun": {
+  "files": 67,
+  "differ": [],
+  "identical_but_time_stamp": [
+   "rab/verification/blind/out/blind_headlines.json"
+  ]
+ },
  "tally": {
   "MATCH": 204,
   "MC NOISE": 74
