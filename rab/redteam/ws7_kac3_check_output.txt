@@ -1,0 +1,30 @@
+[1] Share of the coupon gap still unseen at a check date (own yield until the date, lower rate after)
+  late rate 2%      cut 2031-01-01: policy matched gap arising after cut $16,192 of $36,969 = 44%
+  late rate 2%      cut 2031-01-01: policy bills   gap arising after cut $32,367 of $36,969 = 88%
+  late rate 2%      cut 2033-01-01: policy matched gap arising after cut $10,211 of $36,969 = 28%
+  late rate 2%      cut 2033-01-01: policy bills   gap arising after cut $26,395 of $36,969 = 71%
+  late rate own-2pp cut 2031-01-01: policy matched gap arising after cut $10,316 of $23,979 = 43%
+  late rate own-2pp cut 2031-01-01: policy bills   gap arising after cut $20,792 of $23,979 = 87%
+  late rate own-2pp cut 2033-01-01: policy matched gap arising after cut $6,448 of $23,979 = 27%
+  late rate own-2pp cut 2033-01-01: policy bills   gap arising after cut $16,775 of $23,979 = 70%
+
+[2] Per-rung delivery (Book L as sized in the Sheet)
+  IBTM                   pays 2033-01-01 own 4.98% at own $49,686 at curve $49,856
+  IBTO                   pays 2034-01-01 own 5.03% at own $49,611 at curve $49,829
+  IBTP                   pays 2035-01-01 own 5.09% at own $49,737 at curve $49,951
+  IBTQ                   pays 2036-01-01 own 5.13% at own $49,654 at curve $49,919
+  IBTR                   pays 2037-01-01 own 5.14% at own $49,525 at curve $49,906
+  T 4.750% 15-Feb-2037   pays 2038-01-01 own 5.10% at own $51,712 at curve $52,377
+  T 4.500% 15-May-2038   pays 2039-01-01 own 5.16% at own $51,964 at curve $52,669
+  T 4.375% 15-Nov-2039   pays 2040-01-01 own 5.30% at own $50,203 at curve $50,731
+  T 4.250% 15-Nov-2040   pays 2041-01-01 own 5.35% at own $50,098 at curve $50,710
+  T 3.125% 15-Nov-2041   pays 2042-01-01 own 5.44% at own $50,965 at curve $51,531
+  rungs under $50,000: at own yield 5/10, at curve forwards 5/10
+
+[3] Post-2033 costs on the operating reserve (reserve = PV of remaining payments, flat yield; fee on the balance at each 1 Jan after the payment, 2033-2041)
+  yield 5% fee 0.25%/yr: PV at 1 Jan 2033 of fees $4,154; reserve after 2033 payment $355,391
+  yield 5% fee 0.50%/yr: PV at 1 Jan 2033 of fees $8,309; reserve after 2033 payment $355,391
+  yield 5% fee 1.00%/yr: PV at 1 Jan 2033 of fees $16,617; reserve after 2033 payment $355,391
+  yield 3% fee 0.25%/yr: PV at 1 Jan 2033 of fees $4,675; reserve after 2033 payment $389,305
+  yield 3% fee 0.50%/yr: PV at 1 Jan 2033 of fees $9,350; reserve after 2033 payment $389,305
+  yield 3% fee 1.00%/yr: PV at 1 Jan 2033 of fees $18,699; reserve after 2033 payment $389,305
