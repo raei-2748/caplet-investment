@@ -45,10 +45,11 @@ rounded-down floor ($145k + half the fund), the gift reaches the top in 90-93% o
 top falls to about $170k and the expected gift falls by about $3,500.
 
 **Coupons (added after Gate B; not pre-registered).** M4 assumes zero-coupon STRIPS, so there is nothing to
-reinvest. On the WInS-listed Book L, a coupon shortfall must be paid by someone. `m4_ladder_gap.py` charges it to
-Laura's kept money in 2033; `m4_gap_owner.py` has the stock fund fill it in 2031 before the range is set (the owner
-the D6 memo v4 adopts). Both builds agree: at today's yields half still holds (robust 0.45 with the fund paying, 0.42
-with the kept money paying); at yields 2 points lower no share passes under either owner (`gate_B_ws2.md` s9-s10).
+reinvest. On the WInS-listed Book L, someone must pay a coupon shortfall. `m4_ladder_gap.py` charges it to Laura's
+kept money in 2033; `m4_gap_owner.py` adds the whole fund paying in 2031 and WS3's rule 3 (Laura's half first; the
+2031 top lowered only by what it cannot cover), the owner the D6 memo v5 adopts. Both builds agree: at today's yields
+half still holds (robust 0.42 with Laura's half first, 0.45 with the whole fund first); at yields 2 points lower no
+share passes under any owner (`gate_B_ws2.md` s9-s10).
 
 **Limits and failure modes.** The 10% flexibility threshold and the 95% level are value judgements, fixed in advance
 (Taiwan building costs rose about 3.5% a year: rab/assumptions.md E8). The floor model is a stylised coupon bullet with
