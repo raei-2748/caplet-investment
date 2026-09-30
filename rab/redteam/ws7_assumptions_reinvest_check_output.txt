@@ -1,0 +1,44 @@
+Book L spot cost (model accrued) $292,739 + comm $175; fwd to 1 Jan 2027 $296,256; fwd headroom $3,744
+
+[1] Flat reinvestment rate r (all coupons and fund income reinvested at r to each 1 Jan payment date)
+  r= 0.0%: delivered $446,840; rungs under $50k: 10; worst rung $42,022; buffer (no netting) $33,549, netted $33,549
+  r= 1.0%: delivered $456,204; rungs under $50k: 10; worst rung $43,252; buffer (no netting) $27,026, netted $27,026
+  r= 2.0%: delivered $466,185; rungs under $50k: 10; worst rung $44,596; buffer (no netting) $20,399, netted $20,399
+  r= 3.0%: delivered $476,837; rungs under $50k: 10; worst rung $46,067; buffer (no netting) $13,673, netted $13,673
+  r= 3.5%: delivered $482,433; rungs under $50k: 10; worst rung $46,854; buffer (no netting) $10,275, netted $10,275
+  r= 4.0%: delivered $488,220; rungs under $50k: 8; worst rung $47,678; buffer (no netting) $6,951, netted $6,858
+  r= 4.5%: delivered $494,206; rungs under $50k: 8; worst rung $48,540; buffer (no netting) $4,359, netted $3,440
+  r= 5.0%: delivered $500,400; rungs under $50k: 7; worst rung $49,355; buffer (no netting) $1,823, netted $1,409
+  break-even flat rate: total $500k at 4.97%; every rung $50k at 5.60%;
+  2027 deposit can still fund the buffer (spot headroom $3,701) down to r = 4.63% (netted 4.46%)
+  own yields: IBTM 4.98%, IBTO 5.03%, IBTP 5.09%, IBTQ 5.13%, IBTR 5.14%, T 4.750% 5.10%, T 4.500% 5.16%, T 4.375% 5.30%, T 4.250% 5.35%, T 3.125% 5.44%
+  coupon share of cash before maturity (bonds): T 4.750% 15-Feb-2037 32%, T 4.500% 15-May-2038 34%, T 4.375% 15-Nov-2039 36%, T 4.250% 15-Nov-2040 37%, T 3.125% 15-Nov-2041 32%
+
+[2] Historical change-analog replays: 593 monthly starts 1962-01-15..2011-05-15 (yield changes since the start month, added to today's curve, floored at 0; FRED CMT)
+  policy matched: delivered p5 $472,438 / median $501,704 / p95 $541,596; worst $458,335; starts with any payment short 387/593 (65%); total < $500k in 47%
+    largest shortfalls (sum of rung gaps): 1984-07 $41,665 (10 rungs); 1984-06 $41,325 (10 rungs); 1984-05 $41,076 (10 rungs); 1982-01 $40,594 (10 rungs); 1981-09 $40,575 (10 rungs)
+    share of starts short, by decade: 1960s 12%, 1970s 15%, 1980s 98%, 1990s 91%, 2000s 95%, 2010s 100%
+    start 2000-01: delivered $477,404, shortfall $22,596 over 10 rungs
+    start 2007-06: delivered $475,934, shortfall $24,066 over 10 rungs
+    start 2008-09: delivered $499,390, shortfall $4,355 over 7 rungs
+    start 1990-01: delivered $491,203, shortfall $9,758 over 8 rungs
+    start 1981-09: delivered $459,425, shortfall $40,575 over 10 rungs
+  policy bills: delivered p5 $450,352 / median $486,551 / p95 $547,079; worst $446,961; starts with any payment short 465/593 (78%); total < $500k in 60%
+    largest shortfalls (sum of rung gaps): 1981-08 $53,039 (10 rungs); 1981-09 $52,985 (10 rungs); 1981-05 $52,917 (10 rungs); 1982-02 $52,895 (10 rungs); 1981-10 $52,771 (10 rungs)
+    share of starts short, by decade: 1960s 42%, 1970s 40%, 1980s 100%, 1990s 100%, 2000s 100%, 2010s 100%
+    start 2000-01: delivered $456,489, shortfall $43,511 over 10 rungs
+    start 2007-06: delivered $451,422, shortfall $48,578 over 10 rungs
+    start 2008-09: delivered $486,046, shortfall $14,150 over 9 rungs
+    start 1990-01: delivered $463,656, shortfall $36,344 over 10 rungs
+    start 1981-09: delivered $447,015, shortfall $52,985 over 10 rungs
+
+[3] Book L (as sized) at MODEL prices: spot $291,786; fwd 1 Jan 2027 $295,115; headroom $4,885; break-even parallel fall 22.0bp (STRIPS headline: 26.2bp)
+  Japan long rate 1990..2006: 1990:7.4, 1991:6.5, 1992:4.9, 1993:3.7, 1994:3.7, 1995:2.5, 1996:2.2, 1997:1.7, 1998:1.1, 1999:1.8, 2000:1.7, 2001:1.3, 2002:1.2, 2003:1.0, 2004:1.5, 2005:1.4, 2006:1.7
+[4] Japan 1990 long-rate changes applied to reinvestment (matched): delivered $473,183; shortfall $26,817; rungs short 10
+[4] Japan 1991 long-rate changes applied to reinvestment (matched): delivered $474,016; shortfall $25,984; rungs short 10
+[4] US 2000 5-yr CMT changes, annual steps (matched): delivered $484,165; shortfall $15,835
+[4] US 2007 5-yr CMT changes, annual steps (matched): delivered $479,460; shortfall $20,540
+
+[5] bills at today's 1-year 4.59% with NO change: delivered $494,675; shortfall $7,127
+    2007-06 matched replay per payment: 2033: $48,048, 2034: $47,589, 2035: $47,508, 2036: $47,187, 2037: $46,651, 2038: $48,477, 2039: $48,939, 2040: $47,069, 2041: $46,707, 2042: $47,760
+    2007-06 bills replay per payment:   2033: $47,278, 2034: $46,494, 2035: $46,088, 2036: $45,372, 2037: $44,455, 2038: $45,789, 2039: $45,704, 2040: $43,672, 2041: $42,701, 2042: $43,869
