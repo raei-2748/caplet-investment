@@ -1,0 +1,24 @@
+RAB Lab page checks (rab/page/build_page.py)
+  numbers.yaml sha256 492ed3203958; seed 20260930; subsample first 20,000 of 200,000 paths per model; B0 $40,736.19; F $150,000; announced low end $145,000
+  (a) storage rounding (int16 z/2000, phi to 1e-6): largest dollar change $2.76, largest probability change 0.010 points (over 30 model x scenario x share cases)
+  (b) subsample (20,000) vs published (200,000), share 1/2:
+      T     STRIPS: median top $174,909 vs $174,938; top p5 $166,175 vs $166,121; p95 $188,447 vs $188,635; P(fund below cost 2031) 20.7% vs 20.7%
+      T     none (STRIPS basis, M4 as specified): P(keeps>=10%) 95.5% vs 95.3%; E gift $174,184 vs $174,192; kept 1-in-20 $16,789 vs $16,720; P(gift<$145k) 0.00% vs 0.00%
+      T     Book L, curve forwards              : P(keeps>=10%) 94.6% vs 94.4%; E gift $174,184 vs $174,192; kept 1-in-20 $16,290 vs $16,221; P(gift<$145k) 0.00% vs 0.00%
+      T     Book L, today's yields              : P(keeps>=10%) 92.4% vs 92.2%; E gift $174,184 vs $174,192; kept 1-in-20 $15,176 vs $15,107; P(gift<$145k) 0.00% vs 0.00%
+      T     Book L, today's yields - 2 points   : P(keeps>=10%) 41.6% vs 41.6%; E gift $173,927 vs $173,930; kept 1-in-20 $0 vs $0; P(gift<$145k) 0.00% vs 0.00%
+      T     Book L, 2%                          : P(keeps>=10%) 18.8% vs 19.1%; E gift $169,005 vs $169,010; kept 1-in-20 $0 vs $0; P(gift<$145k) 1.07% vs 1.05%
+      BOOT  STRIPS: median top $175,501 vs $175,487; top p5 $165,142 vs $165,204; p95 $189,137 vs $189,223; P(fund below cost 2031) 22.2% vs 21.7%
+      BOOT  none (STRIPS basis, M4 as specified): P(keeps>=10%) 93.3% vs 93.6%; E gift $174,080 vs $174,129; kept 1-in-20 $15,262 vs $15,491; P(gift<$145k) 0.00% vs 0.00%
+      BOOT  Book L, curve forwards              : P(keeps>=10%) 92.5% vs 92.7%; E gift $174,080 vs $174,129; kept 1-in-20 $14,763 vs $14,993; P(gift<$145k) 0.00% vs 0.00%
+      BOOT  Book L, today's yields              : P(keeps>=10%) 90.3% vs 90.5%; E gift $174,080 vs $174,129; kept 1-in-20 $13,649 vs $13,879; P(gift<$145k) 0.00% vs 0.00%
+      BOOT  Book L, today's yields - 2 points   : P(keeps>=10%) 45.4% vs 45.2%; E gift $173,619 vs $173,690; kept 1-in-20 $0 vs $0; P(gift<$145k) 0.41% vs 0.31%
+      BOOT  Book L, 2%                          : P(keeps>=10%) 22.8% vs 22.8%; E gift $168,817 vs $168,872; kept 1-in-20 $0 vs $0; P(gift<$145k) 2.83% vs 2.64%
+      BAYES STRIPS: median top $175,039 vs $174,966; top p5 $165,282 vs $165,300; p95 $190,555 vs $190,727; P(fund below cost 2031) 24.1% vs 24.3%
+      BAYES none (STRIPS basis, M4 as specified): P(keeps>=10%) 92.9% vs 93.2%; E gift $174,211 vs $174,228; kept 1-in-20 $15,327 vs $15,483; P(gift<$145k) 0.00% vs 0.00%
+      BAYES Book L, curve forwards              : P(keeps>=10%) 91.9% vs 92.2%; E gift $174,211 vs $174,228; kept 1-in-20 $14,829 vs $14,985; P(gift<$145k) 0.00% vs 0.00%
+      BAYES Book L, today's yields              : P(keeps>=10%) 89.3% vs 89.6%; E gift $174,211 vs $174,228; kept 1-in-20 $13,715 vs $13,870; P(gift<$145k) 0.00% vs 0.00%
+      BAYES Book L, today's yields - 2 points   : P(keeps>=10%) 43.1% vs 42.8%; E gift $173,819 vs $173,850; kept 1-in-20 $0 vs $0; P(gift<$145k) 0.01% vs 0.01%
+      BAYES Book L, 2%                          : P(keeps>=10%) 23.1% vs 22.8%; E gift $168,720 vs $168,737; kept 1-in-20 $0 vs $0; P(gift<$145k) 1.60% vs 1.58%
+  (c) page JS (node) vs numpy twin on the stored data, 30 cases: largest dollar gap $0.000000, largest probability gap 0.0000 points -> PASS
+  page /Users/ray/Research/rab-ws/ws8/rab/page/index.html 987 KB

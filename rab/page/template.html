@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RAB Lab</title>
+<meta name="description" content="AI research companion for Team Caplet's Root-and-Branch plan: co-sponsor range explorer, cost of certainty since 1871, Friday tickets and decisions. Not a competition submission.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap">
+<style>
+/* Layout: one calm column (max 1080px) of four numbered-by-role sections; the explorer splits controls | results
+   on wide screens and stacks on phones. Root = Treasury green (bonds, the floor), Branch = amber (the stock fund). */
+:root {
+  --bg: #f4f6f4;
+  --surface: #ffffff;
+  --sunk: #eaeeeb;
+  --ink: #18201c;
+  --ink-2: #4f5a54;
+  --ink-3: #7b857f;
+  --rule: #d5dcd7;
+  --root: #22684a;
+  --root-soft: #d6e8de;
+  --branch: #a86412;
+  --branch-soft: #f2e2cc;
+  --good: #22684a;
+  --warn: #9a5b00;
+  --bad: #b3261e;
+  --focus: #1b5ea8;
+  --f-display: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --r: 10px;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111513; --surface: #181e1b; --sunk: #202724; --ink: #e4ebe6; --ink-2: #aab5ae; --ink-3: #7f8a84;
+    --rule: #2e3833; --root: #6cc298; --root-soft: #1f3a2d; --branch: #e2a857; --branch-soft: #3b2c17;
+    --good: #6cc298; --warn: #e2a857; --bad: #f08a80; --focus: #8ab8f0; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111513; --surface: #181e1b; --sunk: #202724; --ink: #e4ebe6; --ink-2: #aab5ae; --ink-3: #7f8a84;
+  --rule: #2e3833; --root: #6cc298; --root-soft: #1f3a2d; --branch: #e2a857; --branch-soft: #3b2c17;
+  --good: #6cc298; --warn: #e2a857; --bad: #f08a80; --focus: #8ab8f0; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 15px/1.55 var(--f-body); }
+.wrap { max-width: 1080px; margin: 0 auto; padding-inline: 16px; padding-block: 20px 56px; display: grid; gap: 28px; }
+h1, h2, h3 { font-family: var(--f-display); font-weight: 600; text-wrap: balance; margin: 0; letter-spacing: -0.005em; }
+h1 { font-size: clamp(30px, 6vw, 42px); line-height: 1.05; }
+h2 { font-size: clamp(22px, 4vw, 27px); line-height: 1.15; }
+h3 { font-size: 17px; }
+p { margin: 0; max-width: 68ch; }
+a { color: var(--root); }
+small, .note { font-size: 13px; color: var(--ink-2); }
+.mono, .num { font-family: var(--f-mono); font-variant-numeric: tabular-nums; }
+.eyebrow { font: 500 12px/1.2 var(--f-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+/* header */
+.banner { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; border: 1px dashed var(--warn);
+  color: var(--warn); border-radius: var(--r); padding: 8px 12px; font-size: 13px; }
+.banner b { font-weight: 600; }
+header.top { display: grid; gap: 12px; }
+header.top .lede { font-size: 16px; color: var(--ink-2); }
+.legend-inline { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+.sw.root { background: var(--root); } .sw.branch { background: var(--branch); }
+nav.jump { display: flex; flex-wrap: wrap; gap: 8px; }
+nav.jump a { text-decoration: none; color: var(--ink); background: var(--surface); border: 1px solid var(--rule);
+  border-radius: 999px; padding: 6px 12px; font-size: 13px; }
+nav.jump a:hover { border-color: var(--root); }
+
+section.block { display: grid; gap: 16px; padding-top: 8px; border-top: 1px solid var(--rule); }
+section.block > header { display: grid; gap: 6px; }
+
+/* explorer */
+.explorer { display: grid; gap: 16px; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 860px) { .explorer { grid-template-columns: 320px minmax(0, 1fr); align-items: start; } }
+.panel { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--r); padding: 16px; min-width: 0; }
+.controls { display: grid; gap: 18px; }
+.ctl { display: grid; gap: 6px; }
+.ctl label, .ctl .lbl { display: flex; justify-content: space-between; gap: 8px; font-weight: 500; font-size: 14px; }
+.ctl output { font-family: var(--f-mono); font-variant-numeric: tabular-nums; color: var(--root); font-weight: 500; }
+.ctl .hint { font-size: 12.5px; color: var(--ink-3); }
+input[type="range"] { width: 100%; accent-color: var(--root); margin: 0; height: 28px; }
+.ticks { position: relative; height: 16px; font: 11px var(--f-mono); color: var(--ink-3); margin: -4px 9px 0; }
+.ticks span { position: absolute; transform: translateX(-50%); white-space: nowrap; cursor: pointer; }
+.ticks span.adopted { color: var(--root); font-weight: 500; }
+.seg { display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid var(--rule); border-radius: 8px; overflow: hidden; }
+.seg button { font: 500 13px var(--f-body); padding: 8px 4px; border: 0; background: var(--surface); color: var(--ink-2);
+  cursor: pointer; border-left: 1px solid var(--rule); }
+.seg button:first-child { border-left: 0; }
+.seg button[aria-pressed="true"] { background: var(--root-soft); color: var(--ink); }
+select { font: 14px var(--f-body); padding: 8px; border-radius: 8px; border: 1px solid var(--rule); background: var(--surface);
+  color: var(--ink); width: 100%; }
+button.reset { justify-self: start; font: 500 13px var(--f-body); padding: 7px 12px; border-radius: 8px;
+  border: 1px solid var(--rule); background: var(--sunk); color: var(--ink); cursor: pointer; }
+
+.results { display: grid; gap: 14px; }
+.headline { display: grid; gap: 4px; }
+.headline .big { font: 600 clamp(22px, 4.2vw, 30px)/1.15 var(--f-display); }
+.headline .big .num { font-family: var(--f-display); }
+.chart-wrap { width: 100%; }
+.chart-wrap svg { display: block; width: 100%; height: auto; }
+svg text { font-family: var(--f-mono); font-size: 11px; fill: var(--ink-2); }
+svg .t-ink { fill: var(--ink); }
+svg .t-root { fill: var(--root); }
+svg .t-branch { fill: var(--branch); }
+.stats { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; margin: 0; }
+@media (min-width: 560px) { .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 24px; } }
+.stat { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; align-items: baseline;
+  padding: 9px 0; border-bottom: 1px solid var(--rule); }
+.stat dt { font-size: 13.5px; color: var(--ink-2); }
+.stat dd { margin: 0; font: 500 15px var(--f-mono); font-variant-numeric: tabular-nums; text-align: right; }
+.stat .sub { grid-column: 1 / -1; font-size: 12px; color: var(--ink-3); }
+.chip { display: inline-block; font: 500 11px/1 var(--f-mono); letter-spacing: 0.04em; text-transform: uppercase;
+  padding: 4px 6px; border-radius: 4px; margin-left: 6px; vertical-align: 1px; }
+.chip.good { color: var(--good); background: var(--root-soft); }
+.chip.warn { color: var(--warn); background: var(--branch-soft); }
+.chip.bad { color: var(--bad); background: var(--sunk); border: 1px solid var(--bad); }
+.chip.muted { color: var(--ink-2); background: var(--sunk); }
+.reading { font-size: 14px; color: var(--ink-2); }
+.reading b { color: var(--ink); font-weight: 600; }
+details.method { font-size: 13px; color: var(--ink-2); }
+details.method summary { cursor: pointer; color: var(--ink); font-weight: 500; }
+details.method ul { margin: 8px 0 0; padding-left: 18px; display: grid; gap: 4px; }
+
+/* cost of certainty */
+.facts { display: flex; flex-wrap: wrap; gap: 10px 28px; }
+.fact { display: grid; gap: 2px; min-width: 0; }
+.fact .v { font: 600 22px var(--f-display); font-variant-numeric: tabular-nums; }
+.fact .k { font-size: 12.5px; color: var(--ink-2); max-width: 26ch; }
+.tip { font: 12.5px var(--f-mono); color: var(--ink); min-height: 1.5em; }
+
+/* tables */
+.scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; border: 1px solid var(--rule); border-radius: var(--r); background: var(--surface); }
+table { border-collapse: collapse; width: 100%; min-width: 940px; font-size: 13px; }
+table.timeline { min-width: 560px; }
+td.sec { min-width: 220px; }
+td.chk { min-width: 130px; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font: 500 11.5px/1.3 var(--f-mono); letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink-3);
+  background: var(--sunk); position: sticky; top: 0; }
+td.n, th.n { text-align: right; font-family: var(--f-mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr:last-child td { border-bottom: 0; }
+td .nm { display: block; font-size: 12px; color: var(--ink-2); max-width: 30ch; }
+td .tk { font: 600 13.5px var(--f-mono); white-space: nowrap; }
+tr.bond td .tk { color: var(--root); } tr.etf.vt td .tk { color: var(--branch); }
+.tbar { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; justify-content: space-between; }
+.tbar .seg { grid-template-columns: repeat(2, auto); }
+.tbar .seg button { padding: 7px 14px; }
+.sum { font-size: 13.5px; color: var(--ink-2); }
+.sum b { color: var(--ink); font-family: var(--f-mono); font-weight: 500; }
+ul.rules { margin: 0; padding-left: 18px; display: grid; gap: 4px; font-size: 13.5px; max-width: 80ch; }
+
+/* decisions */
+.dec { display: grid; gap: 12px; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 720px) { .dec { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.dcard { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--r); padding: 14px 16px; display: grid; gap: 6px; align-content: start; min-width: 0; }
+.dcard .what { font-weight: 600; }
+.dcard .ans { font-family: var(--f-display); font-size: 17px; font-weight: 600; color: var(--root); }
+.dcard p { font-size: 13.5px; color: var(--ink-2); }
+.dcard .src { font: 11.5px var(--f-mono); color: var(--ink-3); overflow-wrap: anywhere; }
+.timeline td:first-child { white-space: nowrap; font-family: var(--f-mono); }
+footer.foot { border-top: 1px solid var(--rule); padding-top: 14px; display: grid; gap: 6px; font-size: 12.5px; color: var(--ink-3); }
+footer.foot code { font-family: var(--f-mono); overflow-wrap: anywhere; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="banner" role="note"><b>AI research, not a submission.</b> Built by Claude Code for Team Caplet (RAB Kit, WS8, 30 Sep 2026). Model figures on the 28 Sep 2026 Treasury curve. The team checks, decides and writes every deliverable.</div>
+
+<header class="top">
+  <span class="eyebrow">Wharton Global High School Investment Competition 2026-27 &middot; client Laura Gao</span>
+  <h1>RAB Lab</h1>
+  <p class="lede">The Root-and-Branch plan, opened up. <span class="legend-inline"><span class="sw root"></span>Root</span>: Treasuries dated to Laura's ten $50,000 payments, and a floor that repays her 2028 deposit. <span class="legend-inline"><span class="sw branch"></span>Branch</span>: one world stock fund (VT). In 2031 co-sponsors hear a range; the 2033 gift is capped at its top.</p>
+  <nav class="jump" aria-label="Sections">
+    <a href="#range">Co-sponsor range</a><a href="#certainty">Cost of certainty</a><a href="#tickets">Friday tickets</a><a href="#decisions">Decisions</a>
+  </nav>
+</header>
+
+<!-- 1. Range explorer -->
+<section class="block" id="range">
+  <header>
+    <span class="eyebrow">Range explorer &middot; models M3 and M4</span>
+    <h2>What co-sponsors hear in 2031, and where the 2033 gift lands</h2>
+    <p class="note">The range runs from the floor, quoted as its worst case rounded down to $145,000, to the floor plus a share of the stock fund's 2031 value. Move the sliders to see what changes and what does not.</p>
+  </header>
+  <div class="explorer">
+    <div class="panel controls" aria-label="Assumptions">
+      <div class="ctl">
+        <span class="lbl" id="lbl-model">Return model</span>
+        <div class="seg" role="group" aria-labelledby="lbl-model" id="model-seg"></div>
+        <span class="hint" id="model-long"></span>
+      </div>
+      <div class="ctl">
+        <label for="share">Share of the fund promised (D6) <output id="share-out" for="share"></output></label>
+        <input type="range" id="share" min="0" max="1" step="0.01" value="0.5">
+        <div class="ticks" id="share-ticks"></div>
+        <span class="hint">Adopted: half. The pre-registered D6 rule's exact answer is 0.47.</span>
+      </div>
+      <div class="ctl">
+        <label for="ret">Typical yearly stock return (median) <output id="ret-out" for="ret"></output></label>
+        <input type="range" id="ret" min="0.02" max="0.12" step="any" value="0.07">
+        <span class="hint">JPM 2026 long-term estimate for world stocks: 7.0%.</span>
+      </div>
+      <div class="ctl">
+        <label for="vol">Volatility (yearly ups and downs) <output id="vol-out" for="vol"></output></label>
+        <input type="range" id="vol" min="0.08" max="0.30" step="any" value="0.154">
+        <span class="hint">Standard deviation of yearly log returns. Model setting shown on reset.</span>
+      </div>
+      <div class="ctl">
+        <label for="scen">Laura's ten holdings</label>
+        <select id="scen"></select>
+        <span class="hint">Book L pays coupons that must be reinvested. A shortfall is paid by Laura's half first, then the gift above the floor, then the floor (WS3 rule 3).</span>
+      </div>
+      <button class="reset" id="reset" type="button">Reset to the model's settings</button>
+    </div>
+
+    <div class="panel results" aria-live="polite">
+      <div class="headline">
+        <span class="eyebrow">2031 range told to co-sponsors (typical path)</span>
+        <div class="big"><span class="num" id="h-low">$145,000</span> to <span class="num" id="h-top">-</span></div>
+        <span class="note" id="h-band"></span>
+      </div>
+      <div class="chart-wrap" id="range-chart" role="img" aria-label="Range and gift distribution chart"></div>
+      <dl class="stats" id="stats"></dl>
+      <p class="reading" id="reading"></p>
+      <details class="method">
+        <summary>How this is computed</summary>
+        <ul>
+          <li>20,000 of M3's 200,000 paths per model (seed 20260930), regenerated by M3's own code, with M4's floor-payout draws for the same paths. At the model's own settings the page matches the published 200,000-path figures within sampling noise (<code>rab/page/page_check.txt</code>).</li>
+          <li>Moving the return or volatility slider rescales each model's own shocks: yearly log return = ln(1 + median) + volatility &times; shock. The shape of each model (fat tails, history's streaks) is kept. For the uncertain-mean model the spread of its centre scales with volatility too.</li>
+          <li>Fund bought 2 Jan 2028 for about $41,000. 2031 top = $150,000 + share &times; fund value in 2031. 2033 gift = floor payout + share &times; the lower of the fund's 2031 and 2033 values, capped at the top. Laura keeps the rest.</li>
+          <li>"Keeps at least 10% of her gift in 95% of paths" is the D6 rule's flexibility test (M4_SPEC, pre-registered). "Gift at the top" uses M3's definition: the fund is worth at least its 2031 value in 2033.</li>
+          <li>Coupon scenarios: the gap on Laura's Book L holdings (numbers.yaml <code>reinvest.rung.*</code>), valued in 2031, as in <code>m4_gap_owner.py</code>. A yield fall after 2031 is not modelled.</li>
+        </ul>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- 2. Cost of certainty -->
+<section class="block" id="certainty">
+  <header>
+    <span class="eyebrow">Cost of certainty &middot; model M5</span>
+    <h2>What the ten $50,000 payments cost on every Treasury curve since 1871</h2>
+    <p class="note">The price today of Treasuries that pay $50,000 at the start of each year 2033-2042 (zero-coupon basis). Lower yields mean a higher price.</p>
+  </header>
+  <div class="facts" id="cost-facts"></div>
+  <div class="panel">
+    <div class="tip" id="cost-tip" aria-live="polite">Hover or tap the chart to read a date.</div>
+    <div class="chart-wrap" id="cost-chart" role="img" aria-label="Line chart of the cost of the ten payments, 1871 to 2026"></div>
+    <p class="note">Before 1962 the curve is flat at Shiller's long rate (monthly; overstates the cost by a median 0.8%). 1962-1989 FRED constant-maturity yields, 1990 on the Treasury par curve (one point per week shown). Source: <code>rab/results/M5/cost_of_certainty_series.csv</code>.</p>
+  </div>
+</section>
+
+<!-- 3. Friday tickets -->
+<section class="block" id="tickets">
+  <header>
+    <span class="eyebrow">Friday 2 Oct 2026 &middot; WInS trade kit (Gate C passed)</span>
+    <h2>The Friday ticket table</h2>
+    <p class="note">Reference prices are 28 Sep closes. On Friday the team re-runs <code>refresh_tickets.py --basis friday</code> and trades from that output, not from this page. Nothing here places an order.</p>
+  </header>
+  <div class="tbar">
+    <div class="seg" role="group" aria-label="Book" id="book-seg">
+      <button type="button" data-book="Portfolio" aria-pressed="true">Portfolio tab (kit pick)</button>
+      <button type="button" data-book="BookL" aria-pressed="false">Book L</button>
+    </div>
+    <div class="sum" id="book-sum"></div>
+  </div>
+  <div class="scroll"><table id="tix"><thead><tr>
+    <th>#</th><th>Security (name to look for)</th><th>Serves in Laura's plan</th><th class="n">Quantity</th><th class="n">Ref. price</th><th class="n">Max price</th><th class="n">Cost incl. commission</th><th class="n">Cash after (expected / worst)</th><th>Checks</th>
+  </tr></thead><tbody></tbody></table></div>
+  <ul class="rules">
+    <li><b>Name:</b> read ticker, name, quantity and total aloud. IBTN in WInS is INSCORP Inc, never a buy. Bonds: match coupon and maturity.</li>
+    <li><b>Total:</b> stop if the WInS preview is outside the ticket's stop band. <b>Price:</b> never above the max price.</li>
+    <li><b>Cash:</b> never below $1,000 (cash earns 0%). Bonds fill at end-of-day prices; check cash the next morning.</li>
+    <li><b>No repeats, no same-day sells.</b> Check Order History before re-entering anything. Commission $25 per ETF trade, $10 per Treasury trade.</li>
+  </ul>
+</section>
+
+<!-- 4. Decisions -->
+<section class="block" id="decisions">
+  <header>
+    <span class="eyebrow">Decisions &middot; for the team to ratify</span>
+    <h2>What the kit recommends, and when each call is due</h2>
+    <p class="note">None of these reopens the strategy. Each memo lists its options, evidence and what would change the answer.</p>
+  </header>
+  <div class="dec">
+    <div class="dcard"><span class="eyebrow">Thu 1 Oct vote &middot; D7</span><span class="what">Which book goes into WInS</span><span class="ans">Portfolio tab</span><p>Only this book shows the floor (IBTM) and the stock fund (VT) before the 23 Oct Trading Notes Analysis, and the IPS draft already describes it. Book L is simpler but hides two of Laura's three goals. Read the Week-One email first.</p><span class="src">rab/decisions/D7_wins_book.md</span></div>
+    <div class="dcard"><span class="eyebrow">D6 &middot; ratify by 26 Oct</span><span class="what">Share of the fund promised in 2031</span><span class="ans">Keep half</span><p>The pre-registered rule gives 0.47 on the zero-coupon basis and 0.42 on Book L at today's yields, both inside the 0.40-0.60 band that keeps half. A coupon shortfall is paid by Laura's half first. At yields 2 points lower no share passes: the share is not the lever.</p><span class="src">rab/decisions/D6_cap_share.md &middot; numbers_ws2.yaml ws2.d6.s_star &middot; results/M4/gap_owner_robust.csv</span></div>
+    <div class="dcard"><span class="eyebrow">2031 range</span><span class="what">How confident is the range?</span><span class="ans">By construction, if five things hold</span><p>Quote the bottom as the floor holding's worst case rounded down to $5,000 ($145,000 today). Then say where in the range the gift will probably land.</p><span class="src">rab/decisions/D_range_confidence_2031.md</span></div>
+    <div class="dcard"><span class="eyebrow">Before January 2027</span><span class="what">Hedge against falling yields?</span><span class="ans">Do not hedge</span><p>Buy all ten holdings on the first trading day of 2027, latest payments first. Any shortfall is the first call on the 2028 deposit. No hedge trade in WInS.</p><span class="src">rab/decisions/D_pre2027_rate_hedge.md</span></div>
+    <div class="dcard"><span class="eyebrow">Branch fund</span><span class="what">VT or something else?</span><span class="ans">Keep VT</span><p>One fund that owns the world's stock market, left alone until 2033. No alternative tested improved the bad case by more than about $1,500.</p><span class="src">rab/decisions/D_fund_choice.md</span></div>
+    <div class="dcard"><span class="eyebrow">Rivals</span><span class="what">Is Root-and-Branch still the plan?</span><span class="ans">Keep Root-and-Branch</span><p>The only plan tested that passes both hard tests and still holds stocks with money no payment relies on. Name All-Treasury as the closest rival.</p><span class="src">rab/decisions/D_rivals.md</span></div>
+    <div class="dcard"><span class="eyebrow">Bad year</span><span class="what">What Laura does when markets fall</span><span class="ans">Sell nothing</span><p>A six-line clause: hold Treasuries to maturity and the fund to 2033; coupons buy a Treasury maturing before the same payment; one order for any payment shortfall.</p><span class="src">rab/decisions/D_stress_bad_year.md</span></div>
+    <div class="dcard"><span class="eyebrow">IPS</span><span class="what">Assumptions the IPS must name</span><span class="ans">Three</span><p>Treasury yields when the 2027 deposit buys the ten holdings; the 5-year yield when the floor is bought in January 2028; costs, paid by the stock fund. The stock-return assumption is not among them, as the explorer above shows.</p><span class="src">rab/decisions/D_ips_three_assumptions.md &middot; D_ips_edit_ledger.md</span></div>
+  </div>
+  <div class="scroll"><table class="timeline"><thead><tr><th>By</th><th>Team decision</th><th>Memo</th></tr></thead><tbody>
+    <tr><td>Thu 1 Oct</td><td>Which book goes into WInS; swap rule branch (a) or (b); roles. Read the Week-One email first.</td><td>D7_wins_book.md, friday_checklist.md</td></tr>
+    <tr><td>9 Oct</td><td>Whether to ask Wharton the "both contributions" question.</td><td>redteam/triage.md D15</td></tr>
+    <tr><td>14 Oct</td><td>Floor definition (IPS remainder or fixed $150,000); October trigger B kept, two-sided or dropped.</td><td>trades/notes.md s7, triage D12</td></tr>
+    <tr><td>20 Oct</td><td>The one-sentence certainty definition (IPS, pick 2's reflection).</td><td>D_certainty_definition.md</td></tr>
+    <tr><td>22 Oct</td><td>Which three notes are featured: IBTR (tested), a refined note if one exists, VT (supported).</td><td>trades/notes.md s6</td></tr>
+    <tr><td>26 Oct</td><td>D6 share with costs; who covers a coupon shortfall.</td><td>D6_cap_share.md, triage D1-D3, D10-D11</td></tr>
+    <tr><td>6 Nov</td><td>IPS words (17 spare; about 21-36 more needed). Trading ends and the portfolio freezes 4pm ET.</td><td>D_ips_edit_ledger.md</td></tr>
+  </tbody></table></div>
+</section>
+
+<footer class="foot">
+  <span>AI-generated research companion (Claude Code), RAB Kit WS8, 30 Sep 2026 (Sydney). Not part of any Wharton submission; log its use in <code>docs/AI_USE.md</code>.</span>
+  <span id="foot-meta"></span>
+  <span>Rebuild: <code>/Users/ray/Research/rab-ws/.venv/bin/python rab/page/build_page.py</code> (checks in <code>rab/page/page_check.txt</code>).</span>
+</footer>
+</div>
+
+<script>
+/*__LAB_CORE__*/
+</script>
+<script>
+(function () {
+  "use strict";
+  var DATA = "__LAB_DATA__";
+  var P = LabCore.prepare(DATA), meta = DATA.meta;
+  var $ = function (id) { return document.getElementById(id); };
+  var NS = "http://www.w3.org/2000/svg";
+  function el(tag, attrs, parent) {
+    var e = document.createElementNS(NS, tag);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    if (parent) parent.appendChild(e);
+    return e;
+  }
+  function usd(v) { var r = Math.round(v / 1000) * 1000; return (r < 0 ? "-$" : "$") + Math.abs(r).toLocaleString("en-US"); }
+  function usdk(v) { return "$" + Math.round(v / 1000) + "k"; }
+  function prob(p, n) {
+    if (p === 0) return "0 of " + n.toLocaleString("en-US");
+    if (p < 0.001) return "<0.1%";
+    if (p < 0.01 || p > 0.99) return (p * 100).toFixed(1) + "%";
+    return Math.round(p * 100) + "%";
+  }
+  function money(v, dp) { return "$" + Number(v).toLocaleString("en-US", { minimumFractionDigits: dp, maximumFractionDigits: dp }); }
+
+  // ---------------- range explorer state
+  var state = { model: "T", s: 0.5, mu: null, vol: null, scen: 0 };
+  var models = Object.keys(DATA.models);
+  var seg = $("model-seg");
+  models.forEach(function (k) {
+    var b = document.createElement("button");
+    b.type = "button"; b.textContent = DATA.models[k].label; b.dataset.model = k;
+    b.setAttribute("aria-pressed", k === state.model ? "true" : "false");
+    b.addEventListener("click", function () { setModel(k, true); });
+    seg.appendChild(b);
+  });
+  var scenSel = $("scen");
+  DATA.scenarios.forEach(function (s, i) {
+    var o = document.createElement("option"); o.value = i;
+    o.textContent = s.label + (s.g31 > 0 ? " (gap about " + usd(s.g31) + " in 2031)" : "");
+    scenSel.appendChild(o);
+  });
+  var ticks = [[0, "none"], [1 / 3, "1/3"], [0.5, "1/2"], [2 / 3, "2/3"], [1, "all"]];
+  ticks.forEach(function (t) {
+    var sp = document.createElement("span"); sp.textContent = t[1];
+    sp.style.left = (t[0] * 100) + "%";
+    if (t[0] === 0.5) sp.className = "adopted";
+    sp.addEventListener("click", function () { $("share").value = t[0]; state.s = t[0]; update(); });
+    $("share-ticks").appendChild(sp);
+  });
+  function setModel(k, resetSliders) {
+    state.model = k;
+    Array.prototype.forEach.call(seg.children, function (b) { b.setAttribute("aria-pressed", b.dataset.model === k ? "true" : "false"); });
+    $("model-long").textContent = DATA.models[k].long + ".";
+    if (resetSliders) { state.mu = DATA.models[k].mean; state.vol = DATA.models[k].sd; syncSliders(); }
+    update();
+  }
+  function syncSliders() {
+    $("ret").value = Math.exp(state.mu) - 1;
+    $("vol").value = state.vol;
+    $("share").value = state.s;
+  }
+  $("share").addEventListener("input", function (e) { state.s = +e.target.value; update(); });
+  $("ret").addEventListener("input", function (e) { state.mu = Math.log(1 + +e.target.value); update(); });
+  $("vol").addEventListener("input", function (e) { state.vol = +e.target.value; update(); });
+  scenSel.addEventListener("change", function (e) { state.scen = +e.target.value; update(); });
+  $("reset").addEventListener("click", function () {
+    state.s = meta.s_adopted; state.scen = 0; scenSel.value = 0; setModel(state.model, true);
+  });
+
+  function drawRange(r) {
+    var host = $("range-chart"); host.innerHTML = "";
+    lastR = r;
+    var W = Math.max(320, Math.min(720, host.clientWidth || 640)), H = 250, L = 24, R = 24, top = 16, narrow = W < 520;
+    var g = r.giftSorted, n = g.length;
+    var lo = Math.min(meta.A - 8000, LabCore.pct(g, 0.5) - 4000);
+    var hi = Math.max(LabCore.pct(g, 99.5), r.top_p95) + 6000;
+    lo = Math.floor(lo / 10000) * 10000; hi = Math.ceil(hi / 10000) * 10000;
+    var x = function (v) { return L + (v - lo) / (hi - lo) * (W - L - R); };
+    var svg = el("svg", { viewBox: "0 0 " + W + " " + H, preserveAspectRatio: "xMidYMid meet" }, host);
+    // range bar (2031): floor quote to typical top, with the 90% band of the top
+    var yb = top + 20;
+    el("text", { x: L, y: top + 2, "class": "t-ink" }, svg).textContent = "2031 range told to co-sponsors";
+    el("rect", { x: x(r.top_p5), y: yb - 3, width: Math.max(1, x(r.top_p95) - x(r.top_p5)), height: 22, rx: 3, fill: "var(--branch-soft)" }, svg);
+    el("rect", { x: x(meta.A), y: yb + 3, width: Math.max(1, x(r.top_p50) - x(meta.A)), height: 10, rx: 2, fill: "var(--root)" }, svg);
+    el("line", { x1: x(r.top_p50), x2: x(r.top_p50), y1: yb - 3, y2: yb + 19, stroke: "var(--branch)", "stroke-width": 2 }, svg);
+    var tl = el("text", { x: x(r.top_p50), y: yb + 34, "text-anchor": "middle", "class": "t-branch" }, svg);
+    tl.textContent = "typical top " + usdk(r.top_p50);
+    el("text", { x: x(meta.A), y: yb + 34, "text-anchor": "middle", "class": "t-root" }, svg).textContent = "low end " + usdk(meta.A);
+    // histogram of the 2033 gift
+    var bins = narrow ? 30 : 46, bw = (hi - lo) / bins, counts = new Array(bins).fill(0);
+    for (var i = 0; i < n; i++) { var b = Math.floor((g[i] - lo) / bw); if (b >= 0 && b < bins) counts[b]++; }
+    var cmax = Math.max.apply(null, counts), base = H - 26, hh = base - (yb + 62);
+    el("text", { x: L, y: yb + 56, "class": "t-ink" }, svg).textContent = "2033 gift: how often each amount comes up";
+    counts.forEach(function (c, j) {
+      if (!c) return;
+      var h = Math.max(1, c / cmax * hh), x0 = x(lo + j * bw);
+      var mid = lo + (j + 0.5) * bw;
+      el("rect", { x: x0 + 0.5, y: base - h, width: Math.max(1, x(lo + (j + 1) * bw) - x0 - 1), height: h,
+        fill: mid < meta.A ? "var(--bad)" : "var(--root)", opacity: mid < meta.A ? 1 : 0.55 }, svg);
+    });
+    el("line", { x1: x(meta.A), x2: x(meta.A), y1: yb + 62, y2: base, stroke: "var(--root)", "stroke-dasharray": "3 3" }, svg);
+    el("line", { x1: L, x2: W - R, y1: base, y2: base, stroke: "var(--rule)" }, svg);
+    var step = ((hi - lo) > 120000 || narrow) ? 20000 : 10000;
+    for (var v = Math.ceil(lo / step) * step; v <= hi; v += step) {
+      el("line", { x1: x(v), x2: x(v), y1: base, y2: base + 4, stroke: "var(--ink-3)" }, svg);
+      el("text", { x: x(v), y: base + 17, "text-anchor": "middle" }, svg).textContent = usdk(v);
+    }
+  }
+
+  function stat(dt, dd, sub, chip) {
+    return '<div class="stat"><dt>' + dt + '</dt><dd>' + dd + (chip ? ' <span class="chip ' + chip[0] + '">' + chip[1] + '</span>' : '') +
+      '</dd>' + (sub ? '<span class="sub">' + sub + '</span>' : '') + '</div>';
+  }
+
+  function update() {
+    var sc = DATA.scenarios[state.scen];
+    var r = LabCore.compute(P, { model: state.model, s: state.s, mu: state.mu, vol: state.vol, g31: sc.g31, rate: sc.rate });
+    $("share-out").textContent = state.s === 0.5 ? "1/2 (adopted)" : state.s.toFixed(2);
+    $("ret-out").textContent = ((Math.exp(state.mu) - 1) * 100).toFixed(1) + "%";
+    $("vol-out").textContent = (state.vol * 100).toFixed(1) + "%";
+    $("h-top").textContent = usd(r.top_p50);
+    $("h-band").textContent = "The top depends on the fund in 2031: between " + usd(r.top_p5) + " and " + usd(r.top_p95) + " in 9 of 10 paths. The bottom does not move.";
+    var keepOk = r.p_keep10 >= meta.conf;
+    var html = "";
+    html += stat("Gift in 2033, typical", usd(r.gift_p50), "1 in 20 below " + usd(r.gift_p5) + ", 1 in 20 above " + usd(r.gift_p95) + "; average " + usd(r.gift_mean));
+    html += stat("Gift below the $145,000 low end", prob(r.p_below_low, r.n), "The promise co-sponsors hear is broken", r.p_below_low === 0 ? ["good", "never"] : (r.p_below_low <= 0.005 ? ["warn", "rare"] : ["bad", "breaks"]));
+    html += stat("Laura keeps at least 10% of her gift", prob(r.p_keep10, r.n), "D6 flexibility test: needs 95% of paths", keepOk ? ["good", "passes"] : ["bad", "fails"]);
+    html += stat("Laura keeps, 1-in-20 bad case", usd(r.kept_p5), "Her half of the fund plus any floor surplus, after the gift");
+    html += stat("Gift at the top of the range", prob(r.p_top, r.n), "Fund worth at least its 2031 value in 2033");
+    html += stat("Fund worth less in 2031 than it cost", prob(r.p_fund_down, r.n), "The range narrows; its bottom stays");
+    if (sc.g31 > 0) html += stat("2031 top lowered for a coupon gap", prob(r.p_lowered, r.n), "Only when Laura's half cannot cover the gap");
+    $("stats").innerHTML = html;
+    var m = DATA.models[state.model];
+    var atModel = Math.abs(state.mu - m.mean) < 1e-9 && Math.abs(state.vol - m.sd) < 1e-9;
+    var read = "";
+    if (r.p_below_low === 0) read += "<b>The low end holds on every path.</b> ";
+    else read += "<b>The low end breaks on " + prob(r.p_below_low, r.n) + " of paths</b>, because a coupon gap larger than Laura's half reaches the floor. ";
+    read += "Changing the share moves money between the gift and Laura's cushion, one for one on average; it does not change the chance of reaching the top. ";
+    if (!atModel) read += "Your return and volatility differ from the model's own (" + ((Math.exp(m.mean) - 1) * 100).toFixed(1) + "% and " + (m.sd * 100).toFixed(1) + "%).";
+    else read += "Settings are the model's own, as in M3 and M4.";
+    $("reading").innerHTML = read;
+    drawRange(r);
+  }
+
+  // ---------------- cost of certainty
+  var lastR = null;
+  function drawCost() {
+    var c = DATA.cost, n = c.d.length;
+    var t = c.d.map(function (d) { var p = d.split("-"); return +p[0] + (+p[1] - 1) / 12 + (+p[2] - 1) / 365; });
+    var v = c.v.map(function (x) { return x * 100; });
+    $("cost-facts").innerHTML =
+      '<div class="fact"><span class="v num">' + money(c.today.v, 0) + '</span><span class="k">ten payments on the 28 Sep 2026 curve (numbers.yaml)</span></div>' +
+      '<div class="fact"><span class="v num">' + money(c.y2020_median, 0) + '</span><span class="k">the same payments at the 2020 median</span></div>' +
+      '<div class="fact"><span class="v num">' + Math.round(c.share_months_le_today_1871 * 100) + '%</span><span class="k">of months since 1871 as cheap as today (' + Math.round(c.share_months_le_today_1962 * 100) + '% since 1962)</span></div>' +
+      '<div class="fact"><span class="v num">' + c.last_as_cheap.slice(0, 4) + '</span><span class="k">last time it was this cheap (' + c.last_as_cheap + ')</span></div>';
+    var host = $("cost-chart"); host.innerHTML = "";
+    var W = Math.max(320, Math.min(760, host.clientWidth || 720)), H = W < 520 ? 260 : 300, L = 50, R = 14, T = 12, B = 28, narrow = W < 520;
+    var x0 = 1871, x1 = 2027, y0 = 100000, y1 = 500000;
+    var X = function (a) { return L + (a - x0) / (x1 - x0) * (W - L - R); };
+    var Y = function (a) { return T + (1 - (a - y0) / (y1 - y0)) * (H - T - B); };
+    var svg = el("svg", { viewBox: "0 0 " + W + " " + H }, host);
+    el("rect", { x: X(1871), y: T, width: X(1962) - X(1871), height: H - T - B, fill: "var(--sunk)" }, svg);
+    el("text", { x: X(1872), y: T + 13 }, svg).textContent = "flat curve (approximate)";
+    for (var yv = 100000; yv <= 500000; yv += 100000) {
+      el("line", { x1: L, x2: W - R, y1: Y(yv), y2: Y(yv), stroke: "var(--rule)" }, svg);
+      el("text", { x: L - 6, y: Y(yv) + 4, "text-anchor": "end" }, svg).textContent = usdk(yv);
+    }
+    for (var yr = narrow ? 1900 : 1880; yr <= 2020; yr += narrow ? 40 : 20) {
+      el("text", { x: X(yr), y: H - 8, "text-anchor": "middle" }, svg).textContent = yr;
+    }
+    // $300,000 deposit line
+    el("line", { x1: L, x2: W - R, y1: Y(300000), y2: Y(300000), stroke: "var(--branch)", "stroke-dasharray": "4 4" }, svg);
+    el("text", { x: X(narrow ? 1874 : 1923), y: Y(300000) + (narrow ? -8 : 16), "class": "t-branch" }, svg).textContent = narrow ? "$300k deposit" : "$300,000 first deposit";
+    var d = "";
+    for (var i = 0; i < n; i++) d += (i ? "L" : "M") + X(t[i]).toFixed(1) + " " + Y(v[i]).toFixed(1);
+    el("path", { d: d, fill: "none", stroke: "var(--root)", "stroke-width": 1.4, "stroke-linejoin": "round" }, svg);
+    function mark(date, val, label, anchor, dy) {
+      var p = date.split("-"), tt = +p[0] + (+p[1] - 1) / 12;
+      el("circle", { cx: X(tt), cy: Y(val), r: 4, fill: "var(--ink)", stroke: "var(--surface)", "stroke-width": 1.5 }, svg);
+      el("text", { x: X(tt) + (anchor === "end" ? -8 : 8), y: Y(val) + dy, "text-anchor": anchor, "class": "t-ink" }, svg).textContent = label;
+    }
+    mark(c.max.date, c.max.v, (narrow ? "2020 " : "Aug 2020 high ") + usdk(c.max.v), "end", 4);
+    mark(c.min.date, c.min.v, (narrow ? "1981 " : "Sep 1981 low ") + usdk(c.min.v), narrow ? "end" : "start", 4);
+    mark(c.today.date, c.today.v, "today " + usdk(c.today.v), "end", 16);
+    var cross = el("line", { x1: 0, x2: 0, y1: T, y2: H - B, stroke: "var(--ink-3)", opacity: 0 }, svg);
+    var dot = el("circle", { r: 4, fill: "var(--root)", opacity: 0 }, svg);
+    function at(evt) {
+      var rect = svg.getBoundingClientRect(), px = (evt.clientX - rect.left) / rect.width * W;
+      var tt = x0 + (px - L) / (W - L - R) * (x1 - x0);
+      var lo = 0, hi = n - 1;
+      while (hi - lo > 1) { var mid = (lo + hi) >> 1; if (t[mid] < tt) lo = mid; else hi = mid; }
+      var j = Math.abs(t[lo] - tt) < Math.abs(t[hi] - tt) ? lo : hi;
+      cross.setAttribute("x1", X(t[j])); cross.setAttribute("x2", X(t[j])); cross.setAttribute("opacity", 0.6);
+      dot.setAttribute("cx", X(t[j])); dot.setAttribute("cy", Y(v[j])); dot.setAttribute("opacity", 1);
+      $("cost-tip").textContent = c.d[j] + ": the ten payments would have cost about " + usd(v[j]) + (t[j] < 1962 ? " (flat-curve estimate)" : "");
+    }
+    svg.addEventListener("pointermove", at);
+    svg.addEventListener("pointerdown", at);
+  }
+  drawCost();
+  var rt = null;
+  window.addEventListener("resize", function () {
+    clearTimeout(rt);
+    rt = setTimeout(function () { drawCost(); if (lastR) drawRange(lastR); }, 150);
+  });
+
+  // ---------------- tickets
+  function renderBook(book) {
+    var rows = DATA.tickets.filter(function (r) { return r.book === book; });
+    var tb = document.querySelector("#tix tbody"); tb.innerHTML = "";
+    var total = 0, cash = 300000;   // official WInS starting cash; running cash = start - costs so far (as tickets.md)
+    rows.forEach(function (r) {
+      var bond = r.type !== "ETF";
+      var tr = document.createElement("tr");
+      tr.className = (bond ? "bond" : "etf") + (r.ticker === "VT" ? " vt" : "");
+      var name = r.wins_name_expected;
+      var status = /UNVERIFIED/.test(r.wins_name_status) ? '<span class="chip warn">check name</span>' : '<span class="chip good">seen</span>';
+      var qty = bond ? money(+r.qty, 0) + " face" : (+r.qty).toLocaleString("en-US") + " sh";
+      var price = bond ? (+r.ref_price).toFixed(3) : money(+r.ref_price, 2);
+      var mx = bond ? (+r.max_price).toFixed(3) : money(+r.max_price, 2);
+      var cost = +r.preview_expected; total += cost; cash -= cost;
+      var checks = [];
+      checks.push(r.x_of_2adv30 === "" ? "volume n/a in WInS" : "vol " + (r.x_of_2adv30 * 100 < 0.1 ? "<0.1" : (r.x_of_2adv30 * 100).toFixed(1)) + "% of 2x");
+      if (bond && r.yield_check) checks.push("yield " + (+r.yield_gap_bp).toFixed(1) + "bp " + r.yield_check);
+      tr.innerHTML = '<td class="n">' + r.seq + '</td>' +
+        '<td class="sec"><span class="tk">' + (bond ? r.id.replace(/^T /, "") : r.ticker) + '</span>' + status + '<span class="nm">' + name + '</span></td>' +
+        '<td>' + r.serves + '</td>' +
+        '<td class="n">' + qty + '</td><td class="n">' + price + '</td><td class="n">' + mx + '</td>' +
+        '<td class="n">' + money(cost, 2) + '</td>' +
+        '<td class="n">' + money(cash, 2) + '<br><small>' + money(+r.cash_after_worst, 2) + '</small></td>' +
+        '<td class="chk"><small>' + checks.join("<br>") + '</small></td>';
+      tb.appendChild(tr);
+    });
+    var last = rows[rows.length - 1];
+    $("book-sum").innerHTML = rows.length + " trades &middot; cost <b>" + money(total, 2) + "</b> &middot; cash left <b>" + money(cash, 2) +
+      "</b> expected, <b>" + money(+last.cash_after_worst, 2) + "</b> worst case";
+    Array.prototype.forEach.call(document.querySelectorAll("#book-seg button"), function (b) { b.setAttribute("aria-pressed", b.dataset.book === book ? "true" : "false"); });
+  }
+  Array.prototype.forEach.call(document.querySelectorAll("#book-seg button"), function (b) {
+    b.addEventListener("click", function () { renderBook(b.dataset.book); });
+  });
+
+  $("foot-meta").textContent = "Data: numbers.yaml sha256 " + meta.numbers_sha + " (Gate A lock), curve " + meta.curve_date +
+    "; " + meta.n_sub.toLocaleString("en-US") + " of " + meta.n_full.toLocaleString("en-US") + " paths per model, seed " + meta.seed + ".";
+  state.mu = DATA.models[state.model].mean; state.vol = DATA.models[state.model].sd;
+  syncSliders(); setModel(state.model, false); renderBook("Portfolio");
+})();
+</script>
+</body>
+</html>

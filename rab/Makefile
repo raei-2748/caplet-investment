@@ -16,9 +16,9 @@ ROOT := $(abspath $(dir $(lastword $(MAKEFILE_LIST)))/..)
 RUN   = cd "$(ROOT)" && $(PY)
 
 .PHONY: all models m1 numbers-lock m2 bookl ws2 m5 m6 m7 ws3-numbers stream-numbers kit m9 tickets notes sheets \
-        redteam checks gate-a gate-b gate-c trace verify blind env
+        redteam checks gate-a gate-b gate-c trace verify blind env page
 
-all: models stream-numbers kit
+all: models stream-numbers kit page
 
 models: m1 m2 bookl ws2 m5 m6 m7
 
@@ -63,6 +63,10 @@ notes: tickets
 	$(RUN) rab/trades/build_notes.py
 sheets: notes
 	$(RUN) rab/sheets/build_sheet_tabs.py
+
+# WS8 RAB Lab page (rab/page/index.html): exports M3/M4 paths, M5 history and the tickets; JS checked under node.
+page: ws2 m5 tickets
+	$(RUN) rab/page/build_page.py
 
 # WS7 red-team scratch checks (single build, MODEL, UNVERIFIED until a stream reproduces them).
 redteam: numbers-lock
