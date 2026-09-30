@@ -1,0 +1,60 @@
+# Capital-market and client assumptions for the Laura Gao model.
+# Every number has a source or is labelled TEAM_ASSUMPTION. Change here, re-run `python -m model.laura.run`.
+# Research date: 2026-09-25 (Sydney).
+
+client:
+  contributions: {2027: 300000, 2028: 150000}      # case: beginning of year
+  payment: 50000                                   # case: fixed nominal, not inflation-adjusted
+  payment_years: [2033, 2034, 2035, 2036, 2037, 2038, 2039, 2040, 2041, 2042]
+  start_year: 2027
+  reserve_year: 2033
+  announce_year: 2031
+
+rates:
+  # Starting flat yield for 6-15 year Treasuries (the maturities that match the payments).
+  # US Treasury par curve 23-Sep-2026: 5Y 4.99%, 7Y 5.05%, 10Y 5.11%, 20Y 5.45%. Liability-weighted ~5.15%.
+  y0: 0.0515
+  # Mean-reverting (discrete Vasicek) annual process for the flat yield.
+  # Long-run level: FOMC Sep-2026 SEP longer-run fed funds median 3.2% + ~1.0% term premium (TEAM_ASSUMPTION) = 4.2%.
+  long_run: 0.042
+  kappa: 0.15          # TEAM_ASSUMPTION: ~4.3-year half-life
+  # Annual sd of 10Y yield changes (FRED GS10 year-end): 0.97pp over 1990-2026, 0.83pp over 2000-2026, 1.12pp 1962-2026.
+  sigma: 0.009
+  floor: 0.0025
+  cash_spread: 0.006   # cash yields ~0.6pp below the 6-15y curve (1Y 4.49% vs 10Y 5.11% on 23-Sep-2026)
+  bond_duration: 6.0   # intermediate Treasury sleeve (e.g., 5-10y Treasury index), modified duration
+  bond_convexity: 45.0
+
+inflation:
+  # 10Y breakeven = 10Y nominal 5.11% - 10Y TIPS real 2.63% (US Treasury, 22/23-Sep-2026) ~= 2.5%.
+  us_breakeven: 0.025
+  # Taiwan CPI: +2.20% y/y May-2026 (DGBAS); CBC 2026 forecast 1.80%. Facility-cost inflation TEAM_ASSUMPTION 2.5%
+  # (construction/property typically runs above CPI).
+  taiwan_facility_cost_inflation: 0.025
+
+equity:
+  # Arithmetic mean nominal return and volatility for a diversified global equity sleeve.
+  # Sources: J.P. Morgan 2026 LTCMA: US large cap 6.7%, global equity (USD) 7.0% (geometric, 10-15y).
+  #          Vanguard (30-Jun-2026 VCMM): US equity 4.2-6.2%, developed ex-US 4.5-6.5% (10y, annualised).
+  #          Damodaran 1928-2025 S&P 500 geometric 10.0% (history, not forecast).
+  # Base arithmetic 7.5% with 16% vol => geometric ~6.2%, between Vanguard's upper range and J.P. Morgan.
+  scenarios:
+    bear: {mu: 0.050, sigma: 0.17}   # geometric ~3.6%: below Vanguard's range
+    base: {mu: 0.075, sigma: 0.16}   # geometric ~6.2%
+    bull: {mu: 0.095, sigma: 0.16}   # geometric ~8.2%: closer to post-1976 history
+  t_dof: 5              # fat tails (Student-t shocks, rescaled to unit variance)
+  # Correlation between the equity shock and the yield shock.
+  # Negative => stocks fall when yields rise => bonds and stocks fall together (2022 / 1970s inflation regime).
+  # Positive => yields fall in equity selloffs (2000-2020 regime). AQR: sign depends on inflation vs growth uncertainty.
+  rho_regimes: {inflation_regime: -0.20, base: 0.00, growth_regime: 0.30}
+
+simulation:
+  n_paths: 20000
+  seed: 20260925
+
+policy:            # TEAM_DECISION defaults (see decisions/ memos); override in run.py sensitivity loops
+  growth_sleeve_equity: 0.80       # D4
+  flexibility_buffer: 0.20         # D5: share of the 2033 surplus NOT committed to the facility
+  announce_lock_fraction: 0.70     # D6: share of 2031 surplus moved into 2033-maturing Treasuries
+  announce_quantiles: [0.10, 0.90] # D6: communicated range
+  twd_shock: 0.15                  # +/- USD/TWD sensitivity for facility purchasing power
