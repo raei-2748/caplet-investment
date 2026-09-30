@@ -279,6 +279,16 @@ def locked_context(trade_date):
             "label": "Gate A basis: 28 Sep 2026 closes and par curve; WInS bond prices recorded 29 Sep (tab Book L)"}
 
 
+def parse_price(text):
+    """A price as typed from WInS: '$23.49', '1,023.50', ' 76.367 ' -> float; anything else ('not listed', 'n/a') ->
+    None. WS7 fact audit r2 (Gate D): the checklist tells the team to write 'not listed', and float() crashed on it."""
+    t = re.sub(r"[\s$,]", "", text or "")
+    if not re.fullmatch(r"\d+(\.\d+)?", t):
+        return None
+    v = float(t)
+    return v if v > 0 else None
+
+
 def friday_context(trade_date, wins_prices):
     """Fresh data with fallbacks, so a failed fetch never blocks Friday: curve -> the committed Gate A curve;
     Nasdaq -> Yahoo -> the committed 28 Sep volume file. Any price that falls back to 28 Sep is flagged STALE and
@@ -330,22 +340,41 @@ def friday_context(trade_date, wins_prices):
     typed = {}
     if wins_prices and os.path.exists(wins_prices):
         for r in csv.DictReader(open(wins_prices)):
-            if r.get("clean_or_etf_price_shown", "").strip():
-                typed[r["instrument"].strip()] = r
+            inst = (r.get("instrument") or "").strip()
+            raw_px = (r.get("clean_or_etf_price_shown") or "").strip()
+            if not inst or not raw_px:
+                continue
+            px_val = parse_price(raw_px)
+            if px_val is None:
+                # 'not listed', 'n/a' or any other text: the checklist says to write it (WS7 fact audit r2, Gate D)
+                note = "NOT LISTED" if re.search(r"(?i)not\s*listed|n/?a|none|absent", raw_px) else "NOT A NUMBER"
+                if inst in SEC:
+                    warn.append(f"{inst}: price cell reads '{raw_px}' ({note}); a PLANNED holding cannot be skipped "
+                                f"silently: it falls back to 28 Sep and fails the check. Stop and tell Ray")
+                else:
+                    warn.append(f"{inst}: price cell reads '{raw_px}' ({note}); treated as not listed (no swap)")
+                continue
+            acc_raw = (r.get("accrued_per100_shown") or "").strip()
+            acc_val = parse_price(acc_raw) if acc_raw else None
+            if acc_raw and acc_val is None:
+                warn.append(f"{inst}: accrued cell reads '{acc_raw}' (not a number); the model accrued is used instead")
+            r = dict(r)
+            r["_price"], r["_accrued"] = px_val, acc_val
+            typed[inst] = r
     else:
         warn.append(f"no WInS price file at {wins_prices}: bond prices fall back to 28 Sep and fail the check")
     for k, meta in SEC.items():
         r = typed.get(k)
         if r is not None:
-            px[k] = {"ref": float(r["clean_or_etf_price_shown"]), "asof": r.get("seen_at_et", "").strip() or "Friday",
-                     "source": f"WInS, typed by {r.get('seen_by', '').strip() or 'team'}",
-                     "acc_shown": float(r["accrued_per100_shown"]) if r.get("accrued_per100_shown", "").strip() else None,
+            px[k] = {"ref": r["_price"], "asof": (r.get("seen_at_et") or "").strip() or "Friday",
+                     "source": f"WInS, typed by {(r.get('seen_by') or '').strip() or 'team'}",
+                     "acc_shown": r["_accrued"],
                      "status": "SEEN in WInS (typed)"}
         elif meta["type"] == "Treasury":
             w = wins[k]
             px[k] = {"ref": w["price"], "asof": w["price_date"], "source": "WInS 28 Sep (recorded 29 Sep)",
                      "acc_shown": None, "status": "STALE REFERENCE: read this bond in WInS and re-run"}
-    alt_px = {k: {"ref": float(typed[k]["clean_or_etf_price_shown"]), "asof": typed[k].get("seen_at_et", "") or "Friday"}
+    alt_px = {k: {"ref": typed[k]["_price"], "asof": (typed[k].get("seen_at_et") or "").strip() or "Friday"}
               for k in ALTERNATES if k in typed}
     for w_ in warn:
         print("WARNING:", w_)
@@ -374,14 +403,15 @@ def dirty_for_sizing(k, ctx):
     return p["ref"] + acc
 
 
-def plan_split(ctx, floor_rule="fixed"):
+def plan_split(ctx, floor_rule="remainder"):
     """Laura's plan after both deposits, from this context's curve (M1_METHOD.md section F): the ten payments at
     their 1 Jan 2027 cost (Nov-15 basis), the floor at the 5-year yield, the stock fund = the rest. If the payments
     cost more than $300,000, the 2028 deposit tops up the earliest first and less is left for the facility.
     floor_rule (the team's floor definition, notes.md s7; judge panel round 3):
-      fixed      the floor stays $150,000 and the stock fund absorbs a top-up (the kit's model, WS4; default)
+      fixed      the floor stays $150,000 and the stock fund absorbs a top-up (the kit's model, WS4)
       remainder  the IPS read literally: the floor Treasuries 'repay the whole remainder' of the 2028 deposit after
                  the top-up, so the floor falls by the whole top-up and the stock fund by only its cost share.
+                 Default since Gate D (WS7, 30 Sep): the IPS outranks the repo until the team votes (by 14 Oct).
     The two agree whenever the payments cost $300,000 or less (any 2027 remainder goes to the stock fund)."""
     L = m1.liability(ctx["cv"], "nov15")
     y1, y5 = float(ctx["row"]["1 Yr"]) / 100, float(ctx["row"]["5 Yr"]) / 100
@@ -803,10 +833,11 @@ def main():
                     "filled; bonds are then re-sized from it (use with --units rule)")
     ap.add_argument("--cash-before-vt", type=float, help="Portfolio, next session: the cash WInS shows once the bonds "
                     "have filled; VT (order 11) is sized from it, never above the plan share")
-    ap.add_argument("--floor-rule", choices=["fixed", "remainder"], default="fixed",
-                    help="the team's floor definition for --split-from-curve and trigger B (notes.md s7): fixed = a "
-                    "$150,000 floor, the stock fund absorbs a top-up (default, the kit's model); remainder = the IPS "
-                    "read literally, the floor is what is left of the 2028 deposit")
+    ap.add_argument("--floor-rule", choices=["fixed", "remainder"], default="remainder",
+                    help="the team's floor definition for --split-from-curve and trigger B (notes.md s7): remainder = "
+                    "the IPS read literally, the floor is what is left of the 2028 deposit (default until the team "
+                    "votes, by 14 Oct: the IPS outranks the repo); fixed = a $150,000 floor, the stock fund absorbs a "
+                    "top-up (the kit's model, WS4)")
     ap.add_argument("--split-from-curve", action="store_true",
                     help="size the Portfolio book from the plan split this curve prints, not the typed 65.9/24.3/8.7 "
                     "(use only when the IBTR test fails: ten payments above $300,000 on 1 Jan 2027; needs --units "

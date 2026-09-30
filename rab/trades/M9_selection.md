@@ -86,8 +86,10 @@ string for every bond is UNVERIFIED. Find each bond by coupon and maturity, neve
 
 **Why the low-coupon bonds may be listed.** The Treasury's own list of bonds (MSPD Table V, 31 Aug 2026,
 `rab/trades/data/`) has no bond maturing between 15 Feb 2031 and 15 Feb 2036. That is exactly the gap the team saw in
-the WInS drop-down. So WInS probably lists that class of bond, and the 1.375% Nov-2040 and 2.000% Nov-2041 belong to
-it. This is an inference: check the drop-down on Friday.
+the WInS drop-down. Whether WInS lists the 1.375% Nov-2040 and 2.000% Nov-2041 is unknown until the drop-down is read
+(Thursday's read-only login, before the vote). The seven WInS bonds seen so far look like 30-year bonds issued
+2006-2011, while these two are 20-year bonds from 2020-21 (WS7 devil's advocate r5, UNVERIFIED), so do not assume
+they are there.
 
 ## The one decision (triage: decide at the 1 Oct vote; otherwise note-in-Final-Report)
 
@@ -104,8 +106,10 @@ At today's forward rates both need about $23,000 (MODEL: $26,456 / $24,641 / $23
 **The rule for the 1 Oct vote (revised after the second judge panel, 30 Sep): one rule for every same-slot
 alternate.** If WInS lists it and its price is inside its 25bp band on Friday, swap it in on Friday
 (`refresh_tickets.py --basis friday --swap "OLD=NEW"`; it re-sizes the ticket and checks the price). If it is listed
-but its price fails, buy the planned bond; October trigger D swaps only if the price passes later. If it is not
-listed, nothing changes in WInS. Keeping a listed, passing bond for October is no longer an option: it would look
+but its price fails, the vote picks one branch (Gate D): (a) buy the planned bond, and October trigger D swaps only
+if the price passes later (a Treasury sold two weeks after purchase); or (b) leave that order out on Friday, keep the
+cash, and buy the alternate if its price passes by the 14 Oct close, otherwise the planned bond (one trade, nothing
+sold; WS7 prefers (b)). If it is not listed, nothing changes in WInS. Keeping a listed, passing bond for October is no longer an option: it would look
 like a trade made to create a "refined" pick. The three alternates:
 
 - **1.375% 15 Nov 2040** for the 4.250% (the 2041 payment; the gain above);

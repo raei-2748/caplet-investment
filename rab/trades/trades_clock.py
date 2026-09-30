@@ -16,6 +16,10 @@ SYD = ZoneInfo("Australia/Sydney")
 EVENTS = [
     ("Fri 2 Oct: read WInS bond prices, run refresh_tickets.py (Thursday close and curve are out)",
      datetime(2026, 10, 2, 7, 0, tzinfo=ET)),
+    # Longbridge finance_calendar (read-only, 30 Sep 2026): U.S. September employment data 2026-10-02T12:30:00Z.
+    # BLS schedule page returned HTTP 403, so the BLS date is UNVERIFIED (WS7 fact audit r2, fixed at Gate D).
+    ("Fri 2 Oct: U.S. jobs report (UNVERIFIED with BLS): yields and ETF prices can jump; re-check every ETF price "
+     "against its max before ordering", datetime(2026, 10, 2, 8, 30, tzinfo=ET)),
     ("Fri 2 Oct: U.S. market opens (do not trade in the first 15 minutes)", datetime(2026, 10, 2, 9, 30, tzinfo=ET)),
     ("Fri 2 Oct: earliest any order may go in, only if Plan A cannot wait (iBonds normally wait for 10:30)",
      datetime(2026, 10, 2, 9, 45, tzinfo=ET)),

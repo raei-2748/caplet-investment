@@ -9,9 +9,10 @@ not from that file. Every time below comes from `rab/trades/trades_clock.py` (zo
 
 | When (Sydney) | When (U.S. Eastern) | What |
 |---|---|---|
-| Thu 1 Oct, before the meeting | - | One student logs in read-only (no orders) and copies the whole WInS bond drop-down (all 43 bonds: coupon and maturity) into the WInS Notes tab |
-| Thu 1 Oct, team meeting | - | Vote: Portfolio tab or Book L; the one swap rule for same-slot alternates (`M9_selection.md`); the backstop sentence yes/no; the floor's definition; roles; notes drafted |
+| Thu 1 Oct, before the meeting | - | One student logs in read-only (no orders), copies the whole WInS bond drop-down (all 43 bonds: coupon and maturity) into the WInS Notes tab, and opens the Week-One email and the Trading Details page (step moved from Friday at Gate D) |
+| Thu 1 Oct, team meeting | - | Vote on three things only: Portfolio tab or Book L (`rab/decisions/D7_wins_book.md`); the one swap rule for same-slot alternates (`M9_selection.md`); roles. Notes drafted. Not on Thursday's agenda (Gate D): the backstop sentence (decided with D6 by 26 Oct) and the floor's definition (by 14 Oct) |
 | **Fri 2 Oct 9:00 PM AEST** | Fri 7:00 AM EDT | Read-only checks in WInS; type prices; run the refresh |
+| Fri 2 Oct 10:30 PM AEST | Fri 8:30 AM EDT | U.S. jobs report (Longbridge calendar; BLS date UNVERIFIED). Yields and ETF prices can jump: re-check every ETF price against its max before ordering (step 6 below) |
 | Fri 2 Oct 11:30 PM AEST | Fri 9:30 AM EDT | U.S. market opens. Watch, do not trade for 15 minutes |
 | Fri 2 Oct 11:45 PM AEST | Fri 9:45 AM EDT | Earliest any order may go in, only if Plan A cannot wait (iBonds normally wait for 10:30) |
 | **Sat 3 Oct 12:30 AM AEST** | Fri 10:30 AM EDT | **Plan A: orders 1-10 in sequence** (Portfolio book: VT waits) |
@@ -32,46 +33,60 @@ whoever holds the team login.
 | Role | What it involves | Suggested | Needs consent |
 |---|---|---|---|
 | Trader | Logged in; types every order; submits only after the checker says "tick" | the team member who holds the login | yes: login, awake 12:30-1:30 AM |
-| Checker | Reads ticker, WInS name, quantity and Preview total aloud against the ticket; says "tick" or "stop" | Ahaan D. | yes: awake 12:30-1:30 AM Sat, and for VT on Tue 6 Oct (a video call works) |
-| Price reader | Fri 9 PM: reads the bond prices, accrued interest and ETF names in WInS (read-only) into the price file | Darren W. | yes: needs the login screen, or the trader shares a screen |
+| Checker | Reads ticker, WInS name, quantity and Preview total aloud against the ticket; says "tick" or "stop" | assigned at the 1 Oct vote | yes: awake 12:30-1:30 AM Sat, and for VT on Tue 6 Oct (a video call works) |
+| Price reader | Fri 9 PM: reads the bond prices, accrued interest and ETF names in WInS (read-only) into the price file | assigned at the 1 Oct vote | yes: needs the login screen, or the trader shares a screen |
 | Refresh runner | Runs `refresh_tickets.py`; posts the new ticket file; re-runs it after the iBonds fill, and on Monday before VT | Ray W. | no (the repo is his) |
-| Recorder | Trade Log tab: fills, commissions, cash, the note as saved, screenshots | Harry Y. | no (can be done Saturday morning) |
-| Note keeper | Holds the final note texts (the team's own words); counts characters; pastes each note | Eric Z. | yes: awake for Plan A or B |
-| Timekeeper and backup | Watches the clock; calls Plan B if Plan A slips; second checker | Young Y. | yes: awake for Plan A or B |
+| Recorder | Trade Log tab: fills, commissions, cash, the note as saved, screenshots | assigned at the 1 Oct vote | no (can be done Saturday morning) |
+| Note keeper | Holds the final note texts (the team's own words); counts characters; pastes each note | assigned at the 1 Oct vote | yes: awake for Plan A or B |
+| Timekeeper and backup | Watches the clock; calls Plan B if Plan A slips; second checker | assigned at the 1 Oct vote | yes: awake for Plan A or B |
 
-Every student should write at least one note or reflection. Exemplars stay labelled `EXAMPLE - team rewrites`, and
+Student names are kept out of this file (the GitHub repo is public; WS7 fact audit r2): the vote minutes and the
+team's private Sheet hold who does what. Every student should write at least one note or reflection. Exemplars stay labelled `EXAMPLE - team rewrites`, and
 any AI help goes in `docs/AI_USE.md`.
 
 ## Thursday 1 Oct (before Friday)
 
-- [ ] **Before the vote: read the whole bond drop-down.** One student logs in (read-only: no order screen is
-      submitted) and copies all 43 bonds WInS lists, coupon and maturity, into the WInS Notes tab. WInS lists only
-      about 38% of the 113 Treasury bonds outstanding (MSPD Table V, 31 Aug 2026), so whether the 1.375% 15 Nov 2040,
-      2.000% 15 Nov 2041 and 5.000% 15 May 2037 are listed is genuinely open. The vote then knows which of SW40, SW41
-      and SW37 can happen, and writers draft only those variants. Prices are still checked on Friday against the
-      25bp band.
-- [ ] Vote on the book: the **Portfolio tab** (11 trades) or **Book L** (10 trades). Record the vote, names and date.
-- [ ] Adopt **one swap rule** for the three same-slot alternates (`M9_selection.md`): if WInS lists it and its price
-      is inside its 25bp band on Friday, swap it in on Friday (`--swap`); if it is listed but its price fails, buy the
-      planned bond and let October trigger D swap only if the price passes later; if it is not listed, buy the planned
+- [ ] **Before the vote, one read-only login (no order screen is submitted), two reads.**
+  - **The whole bond drop-down.** Copy all 43 bonds WInS lists, coupon and maturity, into the WInS Notes tab. The
+    WInS list has 43 Treasuries, some already matured, against 112 Treasury bonds outstanding (MSPD Table V, 31 Aug
+    2026), so whether the 1.375% 15 Nov 2040, 2.000% 15 Nov 2041 and 5.000% 15 May 2037 are listed is genuinely
+    open. The vote then knows which of SW40, SW41 and SW37 can happen, and writers draft only those variants.
+    Prices are still checked on Friday against the 25bp band.
+  - **The Week-One email** (dashboard, "26-27 Week-One-Email.pdf": the team opens it; nothing is submitted) and the
+    logged-in **Trading Details** page. Write down any trading-activity minimum, first-trade date or order rule, and
+    bring it to the vote: it can change the book or the number of trades. Do **not** add trades to meet a count (the
+    October rule is the only planned second trade). If it contradicts this runbook, the vote settles it first.
+- [ ] **Vote 1, the book:** the **Portfolio tab** (11 trades) or **Book L** (10 trades). The two-sided comparison is
+      `rab/decisions/D7_wins_book.md` (Gate D). Record the vote and the date; names go in the minutes, not the repo.
+- [ ] **Vote 2, one swap rule** for the three same-slot alternates (`M9_selection.md`): if WInS lists it and its
+      price is inside its 25bp band on Friday, swap it in on Friday (`--swap`); if it is not listed, buy the planned
       bond. The three: **1.375% 15 Nov 2040** for the 4.250% (notes SW40 / T40s / T40b), **2.000% 15 Nov 2041** for
       the 3.125% (SW41 / T41), **5.000% 15 May 2037** for the 4.750% Feb 2037 (SW37 / T37). Keeping a listed, passing
       bond for October is no longer an option (it would look like a trade made to create a pick; T40c is retired).
-- [ ] Decide the **backstop sentence** (wording only; `notes.md` s7): does the policy make the half of the stock
-      fund Laura keeps, not the floor, the **first call** on a shortfall from coupons or fund end values? It covers a
-      modest shortfall, not any (about $20,000, the size of the 2% gap). Yes, and the IPS draft carries the sentence
-      the same day: order 5's note is **IBTM_R** (a "refined" pick), and by 6 Nov the IPS names the order of use
-      (first a payment shortfall, then facility costs or co-sponsor gaps). No: it is **IBTM_P** (supported). Nothing
-      here edits the IPS.
-- [ ] Decide the **floor's definition** (`notes.md` s7): (a) the IPS as written, the floor is what is left of the
-      2028 deposit after any top-up (`--floor-rule remainder`), or (b) a $150,000 floor, cut only if the payments need
-      more than the stock fund (`--floor-rule fixed`, the kit default). It matters only if yields fall before 2028
-      (the IBTR test fails, or October trigger B fires). Record the choice in the vote minutes.
-- [ ] The refined pick is then the first that exists: SW40, SW41, OD_B (October), IBTM_R. If none, the team features
-      the Nov 2039 bond (T39) as supported, with the reinvestment discovery, and does not force "refined"
-      (`notes.md` s6).
+      **If it is listed but its Friday price fails, choose one branch now:**
+  - (a) buy the planned bond on Friday; October trigger D sells it and buys the alternate if the alternate's price
+    passes later (two trades, a Treasury sold about two weeks after it was bought; notes T40s, OD_S, OD_B).
+  - (b) do not place that bond order on Friday and keep its money in cash (one bond order, 5-10% of the book,
+    `tickets.md`); re-check the alternate's price each session until the 14 Oct close, then buy the alternate if it
+    passes, otherwise the planned bond, sized by the refresh that day (one trade, no Treasury sale; for Nov 2040 the
+    buy note is OD_B without "in place of the 4.250% bond we sold"). Gate D (WS7) prefers (b):
+    no Treasury is sold, which keeps "held to maturity" true, and cash earning 0% for two weeks is not judged.
+- [ ] **Vote 3, roles** (table above): each duty that needs a yes gets one from the person.
+- [ ] **Not on Thursday's agenda** (moved at Gate D, WS7 red team r4 and devil's advocate r5). Neither changes a
+      Friday trade.
+  - The **backstop sentence** (does the half of the stock fund Laura keeps, not the floor, pay first for a coupon
+    shortfall; D6 decision 2, `notes.md` s7): decided with D6 decision 1 by the 26 Oct meeting, after WS2 re-runs D6
+    with costs. **Order 5's note on Friday is IBTM_P.** IBTM_R is not typed on Friday.
+  - The **floor's definition** (`notes.md` s7): (a) the IPS as written, the floor is what is left of the 2028
+    deposit after any top-up (`--floor-rule remainder`, now the refresh default), or (b) a $150,000 floor, cut only
+    if the payments need more than the stock fund (`--floor-rule fixed`, the kit's model). It matters only if yields
+    fall before 2028 (the IBTR test fails, or October trigger B fires). Decide it **by 14 Oct**, before the October
+    check; until then the refresh follows the IPS as written.
+- [ ] The refined pick is then the first that exists: SW40, SW41, OD_B (October). If none, the team features the
+      Nov 2039 bond (T39) as supported, with the reinvestment discovery, and does not force "refined" (`notes.md` s6;
+      whether IBTM_P is the better fallback is a team choice by 22 Oct, `rab/redteam/triage.md`).
 - [ ] Laura-lens reason for the vote: Book L shows only the payments, so the floor and the stock fund, two of her
-      three goals, never appear in WInS before the 23 Oct Trading Notes Analysis (`notes.md` s6).
+      three goals, never appear in WInS before the 23 Oct Trading Notes Analysis (`notes.md` s6; `D7_wins_book.md`).
 - [ ] Strategy name: keep any brand name **out of** WInS notes unless Ray confirms the final name (premortem PM-16).
 - [ ] Notes drafted offline: at most 285 characters (295 for the IBTR, IBTM and VT notes, whose names cannot get
       longer: `note_check.py --ticker` applies the right limit), plain ASCII (no curly quotes, dashes, "~", "<="), one
@@ -89,10 +104,10 @@ any AI help goes in `docs/AI_USE.md`.
 
 Nothing is ordered in this step.
 
-1. [ ] **Read the Week-One email** (dashboard, "26-27 Week-One-Email.pdf") and the logged-in **Trading Details**
-   page. If a trading-activity minimum is stated, write it down. Do **not** add trades to meet a count: the October
-   rule (`october_trade.md`) is the only planned second trade. If it says something that contradicts this runbook,
-   stop and tell the team.
+1. [ ] **Week-One email and Trading Details:** read on Thursday before the vote (moved at Gate D). If Thursday's
+   read did not happen, read them now (the team opens the file; nothing is submitted) and write down any
+   trading-activity minimum. Do **not** add trades to meet a count: the October rule (`october_trade.md`) is the
+   only planned second trade. If either says something that contradicts this runbook, stop and tell the team.
 2. [ ] Open an order screen for IBTM (do not submit). Record: **which order types exist** (market, limit, other),
    whether Preview shows the commission, and whether a bond Preview shows accrued interest.
 3. [ ] Type **IBTO, IBTP, IBTQ, IBTR** and copy each name exactly as WInS shows it. Type **IBTN** once: it should say
@@ -128,12 +143,24 @@ Nothing is ordered in this step.
    - If a fetch fails, the script says so, falls back to the committed 28 Sep files and marks those prices STALE
      (the check fails). Type the WInS price for every flagged ETF too (the template has a row for each) and re-run
      until it ends with `0 fail`. Never work out sizes by hand.
+   - The price file takes numbers as WInS shows them ("23.49", "$23.49" and "1,023.50" all work). For an alternate
+     WInS does not list, write `not listed` in the price column: the refresh prints a WARNING and treats it as not
+     listed (no swap). A planned holding marked `not listed` is never skipped silently: it fails the check, so stop
+     and tell Ray.
+6. [ ] **After the U.S. jobs report (10:30 PM AEST, 8:30 AM EDT; BLS date UNVERIFIED).** Yields can move several
+   hundredths of a percentage point in minutes, and an ETF's max price sits only about 0.5-0.9% above its reference.
+   Before order 1, compare each ETF's WInS price with its max on the ticket. If any is above its max, type the WInS
+   prices into the price file and re-run the refresh (it must end with `0 fail`) before ordering. The IBTR test
+   result and the note's words stay the 7:00 AM figure (Thursday's curve; it is what the note dates). Bonds fill at
+   end-of-day prices, so their max cannot be enforced at Preview: record each bond's fill against its 25bp band in
+   the Trade Log.
 
 ### If the IBTR test fails (the refresh says more than $300,000)
 
 The rule, set before anyone knew the answer, now decides the trade. Do not stop trading and do not skip IBTR.
 
-1. [ ] Re-run the refresh with `--split-from-curve` and `--floor-rule <the definition voted on Thursday>` added. It
+1. [ ] Re-run the refresh with `--split-from-curve` added (`--floor-rule remainder`, the IPS as written, is the
+       default until the team decides the floor's definition, by 14 Oct; add `--floor-rule fixed` only if it has). It
        sizes the Portfolio book from the plan split the curve prints: the dated holdings get more and VT less,
        because Laura's 2028 deposit tops up the earliest payments first and less is left for the facility (IPS: "A
        moderate fall in yields would leave some payments for the 2028 deposit to complete"). The script also prints
@@ -163,7 +190,9 @@ all five bonds show Filled, so WInS Order History shows the payments and the flo
 7. Note keeper pastes the team's note (at most 285 characters) into the Preview note box. Read it once aloud.
 8. Submit. Screenshot the Preview and the confirmation.
 9. Order History: Filled or Pending? **Never re-enter a pending order.** Open Add/View Notes and copy the saved note
-   back into the Trade Log; compare it with the planned text (the box cuts silently at 300).
+   back into the Trade Log; compare it with the planned text (the box cuts silently at 300). On the first order only,
+   also write down whether that screen lets a second, dated note be added (do not add one): if it does, the IBTR
+   trade can carry a dated follow-up after the 14 Oct check (Gate D triage).
 
 **After order 5 (all five iBonds filled):** read the WInS cash. If it is below the ticket's worst-case "Cash after"
 for order 5, re-run the refresh with `--cash-after-etfs <cash shown> --book <book>` before the bonds. It trims bond face
@@ -213,8 +242,8 @@ Monday 5 Oct ET, which is Tue 6 Oct from 12:30 AM AEDT. Nothing in the plan depe
 | Bond quantity unit and minimum lot | UNVERIFIED: the Preview total tells you |
 | Whether a bond Preview includes accrued interest; the settlement date used | UNVERIFIED |
 | Whether pending orders hold back cash | UNVERIFIED |
-| Whether a saved note can be edited | UNVERIFIED: treat the first note as final |
+| Whether a saved note can be edited, or a second note added | UNVERIFIED: treat the first note as final; step 9 records whether a note can be added |
 | Exact WInS names of IBTO, IBTP, IBTQ, IBTR and of every bond | UNVERIFIED |
 | Whether the low-coupon alternates are listed | UNVERIFIED |
 | Whether fund distributions are paid into WInS cash | UNVERIFIED |
-| Any "required trading activity" minimum (FAQ mentions one, undefined) | UNREAD: Week-One email and Trading Details, step 1 |
+| Any "required trading activity" minimum (FAQ mentions one, undefined) | UNREAD: Week-One email and Trading Details, read Thursday before the vote |

@@ -43,6 +43,9 @@ BANNED = {
     r"(?i)\bdeliver(s|ed)? (a |the )?(full |whole )?\$50,000": "no holding delivers a set $50,000 (reinvest.rung.*)",
     r"(?i)(?<!at least )\bhalf (of )?(the |the stock |the equity )?fund stays": "say what the half is for: her cushion",
     r"\$21\.76|\$23\.02|\$24\.10|\$23\.70|\$23\.49|\$158\.81": "a 28 Sep kit reference price: type the price WInS shows that day",
+    # Gate D (WS7 red team r4): a check on the 1 Oct close says nothing about the fill (ETFs fill at live bid/ask)
+    r"(?i)paid a fair price|(not|never) paying extra|paid no(thing)? extra|did not overpay": "the check is of the 1 Oct "
+        "close, not the fill: end on the dated fact",
 }
 ROLE_WORDS = ["growth", "liquidity", "risk management", "future funding"]   # Competition Guide p.3
 # A payment year alone is not an anchor: it could fit any client (judge panel, 30 Sep 2026).

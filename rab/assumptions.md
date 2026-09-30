@@ -3,6 +3,27 @@
 WS0, 2026-09-30 (Sydney). Every load-bearing assumption, with a rating and the evidence behind it. AI-generated
 planning material for Team Caplet; no deliverable text. Companion to `rab/premortem.md` (PM-xx ids).
 
+**Errata, 30 Sep 2026 (Gate D, WS7-fixer).** The rows below were written before the Gate A lock and the later
+memos. Where a row and this block disagree, this block wins; quote only `rab/numbers*.yaml` `quote_as` strings.
+- **C2:** the model chance of a gap on 1 Jan 2027 is **about 1 in 3** (`ws4.gap_odds_2027` 0.3266, WS4 reconciled
+  five methods). The 24.2% figure is superseded.
+- **C3:** the Book L reinvestment figures are the locked `reinvest.bookL_delivered` (MODEL): about $503,000 at
+  own yields, $479,000 two points lower, $466,000 at 2%, $447,000 at 0%, $507,000 at curve forwards. The example
+  IPS wording "coupons reinvested in Treasury bills" contradicts adopted stress rule 2 (`D_stress_bad_year.md`:
+  coupons buy a Treasury for the same payment, not bills; bills leave about twice the exposure after 2031, WS7
+  kac-3, UNVERIFIED). Use "coupons reinvested in Treasuries for the same payment".
+- **C9:** **Solid (STRIPS basis; reproduced).** WS1 reproduced all three claims: 2020 median $458,828
+  (`history.cost_2020_median`), every daily curve since 2000 (6,688 days, `history.days_priced_since_2000`), and
+  the cheapest since 28 May 2002 (`history.cheapest_since`).
+- **E3:** **Caveated.** Under the adopted rule 3 (`D_stress_bad_year.md`, D6 decision 2, not yet ratified), a coupon
+  shortfall is paid first from the half of the stock fund Laura keeps, so a small part of the payments can depend on
+  equities (D6 says it "qualifies E3").
+- **W3:** the locked Portfolio book costs $294,764.50 with $200 commission and leaves $5,235.50
+  (`wins.portfolio.cost_close_0928`); a parallel fall of 27.6bp uses the cash up (`wins.portfolio.cash_margin`).
+- **R14:** the Week-One email and Trading Details page are now read on Thursday 1 Oct, before the vote
+  (`rab/trades/friday_checklist.md`). The rating stays Unsupported until they are read.
+- **W1/W2:** the two-sided comparison for the 1 Oct vote is `rab/decisions/D7_wins_book.md`.
+
 **Ratings.**
 - **Solid:** primary evidence, unlikely to be wrong.
 - **Caveated:** true, but only within limits that outputs must state.

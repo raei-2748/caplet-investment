@@ -28,8 +28,10 @@ or our WInS book, act now?
 - Chance it costs more than $300,000: **about 1 in 3** (median of five methods, roughly 25-35%); a 4 Jan purchase
   too (W).
 - If short, typically about $10,000; about $18,000 or more in 1 path in 20; a whole payment waits under 0.3% (W).
-- The gap lands on the stock fund, not the payments: on 1 Jan 2028 typically about $41,000, under $20,000 in about
-  1 path in 6 (W). Even a 1.5-point fall needs only about $40,000 of the $150,000 deposit (W).
+- The gap lands on the facility, not the payments. Under the kit's fixed-$150,000 floor reading it lands on the
+  stock fund, which on 1 Jan 2028 is typically about $41,000 and under $20,000 in about 1 path in 6 (W). Read
+  literally, the IPS puts most of it on the floor instead; the team settles the reading by 14 Oct. Even a 1.5-point
+  fall needs only about $40,000 of the $150,000 deposit (W).
 - Payments are at risk from the price only if rates fall *and* the 2028 deposit never comes (our stress case): after
   a 1-point fall, about $29,000 of the 2033 payment is unfunded (W).
 - Basis: these figures are for zero-coupon STRIPS. Under our rule reading (`assumptions.md` R1) Laura's real ladder
@@ -37,7 +39,8 @@ or our WInS book, act now?
   with commission, but it buys more than needed: about $507,000 at forward rates against $500,000 (N). Sized to pay
   exactly $50,000 a year at forward rates it costs about $289,200, within $100 of STRIPS (W `ws4.bookL_cost_resized`;
   `rab/results/M2/bookL_basis_check.txt`). So the odds are about the same on either basis (not separately computed;
-  a WS7 scratch run found about 35%, UNVERIFIED).
+  a WS7 scratch figure of about 35% was on the Sheet-sized Book L, which over-buys, so it is not comparable and is
+  not quoted).
 - Book L's own risk comes after purchase (coupons reinvested at lower yields); no allowed trade hedges it.
 - A perfect hedge fixes about $292,000; with no view on rates the expected price is about $293,000, so it gains $0 to
   about $1,000 in expectation (W) and gives away the fund's upside if rates rise.
@@ -64,6 +67,6 @@ decision stands, but re-run the range and fund figures.
   1 in 3 (zero-coupon basis; about the same for the WInS-listed ladder sized to pay exactly $500,000), typically
   about $10,000 from the 2028 deposit, range announced after the risk has passed.
 - **Trading Notes:** no hedge trade; no note says WInS trades lock in Laura's 2027 prices; no odds or gap figure in a
-  WInS note. The note on the latest rung (the 15-Nov-2041 bond, for the 2042 payment) can say "latest payments first".
-  WS6 `notes.md`/`build_notes.py` still say "likely higher" for the buyable ladder: change to "about the same once
-  sized alike" (not edited here).
+  WInS note. "Latest payments first" is the IPS funding rule for Laura's January 2027 purchase, not the WInS trade
+  order (the Nov-2041 bond is WInS order 6, after the five iBonds, for cash control), so no WInS note says it
+  (WS6 `notes.md` "Do not say"; WS7 fact audit r2, fixed at Gate D).

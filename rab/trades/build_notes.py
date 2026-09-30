@@ -138,7 +138,9 @@ NOTES = [
               "'any gap falls on her first payment' (a large fall reaches several of the earliest; the IPS says "
               "'some payments')",
               "that the fund pays a set $50,000; 'thin' or 'risky' about the holding",
-              "'we buy the latest payments first' (the IPS funding rule, not the WInS trade order)"],
+              "'we buy the latest payments first' (the IPS funding rule, not the WInS trade order)",
+              "a note that never says what was bought, or an 'It' that could mean the deposit or the check (name the "
+              "fund: 'this Dec 2036 Treasury fund'; Gate D)"],
         friday=("Friday fact, inside the note: the curve date ('at 1 Oct yields'). The refresh prints 'ten payments "
                 "cost $X on 1 Jan 2027', the break-even and the words for this note: read them aloud, write them in "
                 "the Trade Log, and type the printed words in place of 'a quarter' if they differ. If X is above "
@@ -146,10 +148,11 @@ NOTES = [
                 "name string for IBTR in the Trade Log. If IBTR cannot be bought, the order becomes IBTQ and this note "
                 "changes."),
         slot=("inside: 'at 1 Oct yields'", 0), limit=MAX_FIXED,
-        exemplar=("We checked first: at 1 Oct yields, Treasuries for Laura's ten $50,000 payments cost under her "
-                  "$300,000 first deposit. It is future funding for the fifth payment. If yields fall over about a "
-                  "quarter of a percentage point by January, her 2028 deposit tops up the earliest; the facility gets "
-                  "less."),
+        # Gate D (WS7 red team r4): the note names what was bought ('this Dec 2036 Treasury fund'), and 'It' no longer
+        # has an unclear referent; 'We checked first:' was cut to pay for it.
+        exemplar=("At 1 Oct yields, Treasuries for Laura's ten $50,000 payments cost under her $300,000 first deposit; "
+                  "this Dec 2036 Treasury fund is future funding for the fifth. If yields fall over about a quarter of "
+                  "a percentage point by January, her 2028 deposit tops up the earliest; the facility gets less."),
         nums={"a quarter of a percentage point": "laura.ladder.breakeven_fall_bp_strips (26.2bp, zero-coupon basis)",
               "a fifth of a percentage point": "only if Friday's refresh prints it (break-even under 22.5bp; WS1 "
                                               "re-locks it, request 1)",
@@ -203,7 +206,8 @@ NOTES = [
               "that the yield is locked in for Laura",
               "'its yield was close to the Treasury curve, so the price was fair' (a Treasury fund's yield always is)",
               "'on the trade date' (that day's value is published only after the note is saved)",
-              "'so we paid a fair price' (the check is of the 1 Oct close, not of the fill)"],
+              "'so we paid a fair price' or 'so we were not paying extra' (the check is of the 1 Oct close, not of "
+              "the fill; both are banned words since Gate D)"],
         friday=("Friday fact, inside the note: 'At the 1 Oct close'. On Friday morning read the Premium/Discount "
                 "iShares publishes for the 1 Oct close on the IBTP page (or its 1 Oct closing price and NAV, and "
                 "divide), and write it in the Trade Log with its date. If it is more than about 0.1% either way, write "
@@ -211,7 +215,7 @@ NOTES = [
         slot=("inside: 'At the 1 Oct close' (the premium iShares publishes for Thursday's close)", 0),
         exemplar=("The iShares iBonds Dec 2034 Term Treasury ETF is future funding for Laura's $50,000 residency "
                   "payment on 1 Jan 2035. At the 1 Oct close its price was almost exactly the value of the 2034 "
-                  "Treasuries it holds, so we were not paying extra; its end value is not fixed."),
+                  "Treasuries it holds; its end value is not fixed."),
         nums={"almost exactly": "wins.ibond_checks.IBTP.premium_to_nav_pct (0.06% on 28 Sep; the 1 Oct close figure "
                                 "is read on Friday)"},
     ),
@@ -278,7 +282,8 @@ NOTES = [
         friday=("Re-read the WInS bond list for a 2032 Treasury (if one appears, tell Ray before trading). Friday fact: "
                 "the WInS name string (SEEN 29 Sep; re-read it). A dated Preview price as the one number ('Bought at "
                 "$__.__ on 2 Oct', the price WInS shows, never a kit reference price) fits only if the team trims "
-                "elsewhere. If the team adopted the backstop sentence at the 1 Oct vote, type IBTM_R (s5) instead."),
+                "elsewhere. This is the Friday note for order 5: IBTM_R is not typed (Gate D moved the backstop "
+                "decision to 26 Oct)."),
         slot=SLOT_SEEN, limit=MAX_FIXED,
         exemplar=("Future funding and risk management: the iShares iBonds Dec 2032 Term Treasury ETF has two jobs in "
                   "Laura's plan, her first $50,000 payment and the facility floor, the least she plans to give, which "
@@ -345,8 +350,8 @@ NOTES = [
                "which note (the 1 Oct rule, one rule for all same-slot alternates): T40b if WInS does not list the "
                "1.375%; SW40 if it is listed and its price passes the 25bp check; T40s if it is listed but its price "
                "fails. T40 and T40c are retired (T40c kept a better listed bond for October: a staged trade)",
-               "T40b records a constraint, not a change, so it is not a 'refined' pick; pick 2 then goes to IBTM_R or "
-               "the T39 fallback (s6)",
+               "T40b records a constraint, not a change, so it is not a 'refined' pick; pick 2 then goes to OD_B if "
+               "October trigger D runs, or the T39 fallback (s6)",
                "the price the team checks on Friday morning is the 1 Oct close (WInS shows the previous close; bonds "
                "fill at end-of-day prices), so the note dates it; record the fill price in the Trade Log"],
         ips=["PITCH"],
@@ -488,8 +493,7 @@ NOTES = [
         dont=["'only' before what a fall cuts (a fall also cuts the half she keeps)",
               "'a rise lifts the top' without 'before 2031' (after 2031 the contribution is capped)",
               "'lifts the range' (only the top moves; the floor does not)",
-              "'Half the fund stays hers' (drops its purpose, her cushion; with IBTM_R featured, that half also has a "
-              "job)",
+              "'Half the fund stays hers' (drops its purpose, her cushion)",
               "'gets what was left' about WInS (about 1.7% stays as cash; say 'Laura's plan')",
               "a return forecast (the IPS's 'should outperform' belongs in the IPS, not a note)",
               "probabilities, CAPE or valuation calls", "'Laura likes risk'", "any 2031 or 2033 dollar figure",
@@ -513,26 +517,30 @@ VARIANTS = [
         ips=["FALL", "LATEST"], slot=("inside: 'at 1 Oct yields'", 0), limit=MAX_FIXED,
         brief=("The failed-test version of IBTR: the rule decides the trade. Orders 1-10 come from the "
                "`--split-from-curve` ticket (more in the dated holdings), and VT on Monday gets the smaller share the "
-               "refresh prints (friday_checklist.md; `--floor-rule` follows the team's floor definition, s7). The note "
+               "refresh prints (friday_checklist.md; `--floor-rule` follows the team's floor definition, s7; until it "
+               "is decided, by 14 Oct, the default is `remainder`, the IPS as written). The note "
                "says 'less is left for the facility', true whichever part shrinks. Tell Ray; WS1 records Friday's "
                "figure."),
-        exemplar=("We checked first: at 1 Oct yields, Treasuries for Laura's ten $50,000 payments cost more than her "
-                  "$300,000 first deposit. It is future funding for the fifth payment. As our plan says, her 2028 "
+        exemplar=("At 1 Oct yields, Treasuries for Laura's ten $50,000 payments cost more than her $300,000 first "
+                  "deposit; this Dec 2036 Treasury fund is future funding for the fifth. As our plan says, her 2028 "
                   "deposit tops up the earliest ones, so less is left for the facility."),
         nums={},
     ),
     dict(
-        id="IBTM_R", ticker="IBTM", use="Friday order 5 (Portfolio), only if the 1 Oct vote adopts the backstop sentence",
-        tn_role="refined", pick="Pick 2 (refined), if typed and no SW40, SW41 or OD_B",
+        id="IBTM_R", ticker="IBTM",
+        use="Not typed on Friday (Gate D): wording only, if the backstop is adopted with D6 by 26 Oct",
+        tn_role="refined", pick="not a pick (never typed on Friday)",
         serves="Laura's 1st payment and the floor", ips=["FLOOR", "CUSHION"], slot=SLOT_SEEN, limit=MAX_FIXED,
-        brief=("Replaces IBTM_P. Records a change in the policy, decided before the order: the half of the stock fund "
-               "Laura keeps becomes the first call on a shortfall from coupons or fund end values, before the floor. "
-               "Type it only if the 1 Oct vote adopts the sentence and the IPS draft carries it the same day (the note "
-               "says 'our policy'); by 6 Nov the IPS also names the order of use (first a payment shortfall, then "
-               "facility costs or co-sponsor gaps) and admits the cushion may be partly used (s7). The kept half, "
+        brief=("Gate D (WS7 red team r4, devil's advocate r5): the backstop is no longer on the 1 Oct agenda. It is "
+               "decided with D6 by 26 Oct, after order 5 is placed, so order 5's Friday note is IBTM_P and this text "
+               "is kept only as wording for the IPS and the Final Report (a WInS note cannot be edited: UNVERIFIED). "
+               "It records the policy: the half of the stock fund Laura keeps becomes the first call on a shortfall "
+               "from coupons or fund end values, before the floor; the IPS then names the order of use (first a "
+               "payment shortfall, then facility costs or co-sponsor gaps) and admits the cushion may be partly used "
+               "(s7). The kept half, "
                "about $20,000 in Jan 2028 (half of laura.stock_fund_2028_usd.strips $40,736), is about the size of "
                "the 2% gap ($20,399 more today, reinvest.bookL_buffer_cost at_2pct; $33,549 at 0%), so it covers a "
-               "modest shortfall, not any. If not adopted, type IBTM_P."),
+               "modest shortfall, not any."),
         exemplar=("Risk management: the iShares iBonds Dec 2032 Term Treasury ETF holds money for Laura's first $50,000 "
                   "payment and her facility floor (the least she plans to give). Its end value is not fixed, so our "
                   "policy makes the stock-fund half she keeps, not the floor, the first call on a shortfall."),
@@ -544,7 +552,8 @@ VARIANTS = [
         tn_role="supported", serves="Laura's 9th payment (1 Jan 2041)", ips=["PITCH"],
         slot=("inside: 'its 1 Oct price failed our curve check'", 0),
         brief=("Same bond as T40b. A genuinely new fact decides it: the better bond is listed but its price is stale "
-               "today. If its price passes on a later check, October trigger D swaps (OD_S, OD_B)."),
+               "today. Typed only under branch (a) of the 1 Oct swap rule: if the price passes on a later check, "
+               "October trigger D swaps (OD_S, OD_B). Under branch (b) nothing is bought for this rung on Friday."),
         exemplar=("Future funding: the 4.250% Treasury bond maturing 15 Nov 2040 is for the ninth of Laura's ten "
                   "$50,000 payments. WInS lists a 1.375% bond of that date, which leaves less resting on reinvested "
                   "coupons, but its 1 Oct price failed our curve check, so we buy this one."),
@@ -647,10 +656,11 @@ VARIANTS = [
 # Notes that may be featured in the Trading Notes Analysis: they must also name the residency, co-sponsors or which
 # of her ten payments (judge panel, 30 Sep: a year alone could fit any client). Round 2 added OB_S (it was pick 1
 # under trigger B but was never checked), IBTR_F, IBTM_R and SW41.
-PICK_IDS = {"IBTR", "IBTR_F", "OB_S", "SW40", "SW41", "OD_B", "IBTM_R", "IBTM_P", "VT", "T39", "T41"}
+# Gate D: IBTM_R left the picks (never typed on Friday).
+PICK_IDS = {"IBTR", "IBTR_F", "OB_S", "SW40", "SW41", "OD_B", "IBTM_P", "VT", "T39", "T41"}
 # The notes that can sit side by side as the three picks (s6). No two may open with the same two words in any
 # combination (judge panel round 2: picks 1 and 2 both opened 'Future funding: the').
-PICK_SLOTS = [["IBTR", "IBTR_F", "OB_S"], ["SW40", "SW41", "OD_B", "IBTM_R", "T39", "IBTM_P", "T41"], ["VT"]]
+PICK_SLOTS = [["IBTR", "IBTR_F", "OB_S"], ["SW40", "SW41", "OD_B", "T39", "IBTM_P", "T41"], ["VT"]]
 
 # ----------------------------------------------------------------------------------------------- reflection outlines
 # Bullets for the Trading Notes Analysis reflections (TN guide: why / how it aligned / how it served the client).
@@ -680,18 +690,18 @@ OUTLINES = [
         "merges them (request 10); a ladder of WInS-listed holdings sized to $50,000 a rung costs within $100 of "
         "STRIPS, so the odds are about the same on it. Name the basis in one clause and use the same one in the note "
         "and the IPS."),
-    ("Pick 2, refined: SW40, SW41 or OD_B (a bond changed), or IBTM_R (the policy changed); else T39 (supported)", [
+    ("Pick 2, refined: SW40, SW41 or OD_B (a bond changed); else T39 (supported)", [
         "Why: pricing each rung showed most of each payment is owed as set coupons and principal; the rest depends on "
         "reinvesting coupons.",
-        "Refined: a low-coupon bond of the same date (SW40, SW41, OD_B), or the stock-fund half Laura keeps becomes "
-        "first call on a shortfall (IBTM_R).",
+        "Refined: a low-coupon bond of the same date (SW40, SW41, OD_B), so less of that payment rests on "
+        "reinvested coupons.",
         "Curve check: yield within a quarter of a percentage point of the official curve.",
     ], "the certainty phrase",
         "Numbers: the one number is 'if coupons earn only 2%, the ten holdings deliver about $466,000 against ten "
         "$50,000 payments' (reinvest.bookL_delivered quote_as; Laura's plan, MODEL). It sizes both the swap's benefit and what "
         "the first call must cover (about $20,000 more today keeps every payment whole at 2%, "
         "reinvest.bookL_buffer_cost). 'Most of each payment' is reinvest.rung.*.at_0pct (84-95% of the $50,000); a "
-        "percentage needs WS1 request 11. With IBTM_R, add the rule-reading clause. If no refined note exists, do "
+        "percentage needs WS1 request 11. If no refined note exists, do "
         "not force one: feature T39 (alternate B) as supported, with the same discovery and number."),
     ("Pick 3, VT (supported)", [
         "Why: the payments use almost all her first deposit; stocks get what is left after them and the floor.",
@@ -932,7 +942,9 @@ def write_md(path, T, Y, h, results, boiler, pv):
       f"`tickets.csv` and the locked `rab/numbers.yaml` (sha256 {h[:12]}...); do not edit by hand. Basis: 28 Sep "
       "2026 curve and closes, WInS prices seen 29 Sep. Revised three times after the judge panels of 30 Sep (round 1 "
       "at c11b02f, round 2 at 104476c, round 3 at dd68e6e); every point and the answer to it is in "
-      "`judge_response.md`. Nothing here changes the strategy.")
+      "`judge_response.md`. Gate D fixes (WS7, 30 Sep: IBTR names its fund, IBTP ends on the dated fact, the 1 Oct "
+      "vote settles only the book, the swap rule and roles, IBTM_R is not typed on Friday) are in "
+      "`rab/gates/gate_D.md`. Nothing here changes the strategy.")
     A("")
     A("**Bottom line.**")
     A("")
@@ -946,17 +958,19 @@ def write_md(path, T, Y, h, results, boiler, pv):
       "quarter of a percentage point on 28 Sep, her 2028 deposit tops up the earliest and less is left for the "
       "facility; the refresh prints Friday's break-even and the words to type; the 14 Oct check runs it again), **a "
       "refined note** (the first that exists: SW40 or SW41, a low-coupon bond swapped in on Friday; OD_B, the October "
-      "swap; IBTM_R, a policy sentence adopted at the 1 Oct vote and carried in the IPS draft), and **VT** "
+      "swap), and **VT** "
       "(supported: a global fund of thousands of companies, with what Laura's plan leaves after the payments and the "
       "floor). If no refined note exists, feature **T39** as supported (the reinvestment discovery): three honest "
       "labels beat a hollow 'refined'.")
     A("- **Before the 1 Oct vote**, a student logs in read-only (no orders) and copies all 43 bonds in the WInS bond "
       "drop-down (coupon and maturity) into the WInS Notes tab, so the vote knows which swaps can happen and writers "
-      "draft only those variants. **The vote then settles four things:** one rule for every same-slot alternate "
-      "(listed and inside its 25bp band means swap on Friday: 1.375% Nov 2040, 2.000% Nov 2041, 5.000% May 2037); "
-      "whether the policy makes the half of the stock fund Laura keeps, not the floor, the first call on a shortfall "
-      "(IBTM_R); the floor's definition (fixed at $150,000, or what is left of the 2028 deposit, as the IPS reads; "
-      "s7); and the book. T40c (a better bond kept for October) is retired: it would look like a staged trade.")
+      "draft only those variants; the same login reads the Week-One email and Trading Details page. **The vote then "
+      "settles three things** (Gate D): the book (`rab/decisions/D7_wins_book.md`); one rule for every same-slot "
+      "alternate (listed and inside its 25bp band means swap on Friday: 1.375% Nov 2040, 2.000% Nov 2041, 5.000% May "
+      "2037; listed but failing: branch (a) or (b), `friday_checklist.md`); and roles. The backstop sentence (IBTM_R) "
+      "moves to the 26 Oct D6 decision, so order 5's Friday note is IBTM_P; the floor's definition is decided by "
+      "14 Oct, and until then the refresh follows the IPS as written (`--floor-rule remainder`). T40c (a better bond "
+      "kept for October) is retired: it would look like a staged trade.")
     A(f"- **VT is order 11**, placed in the session after the bonds fill ({vt_time}), so WInS Order History shows "
       "the payments and the floor bought before any stocks, as the IPS says (`tickets.md`, `friday_checklist.md`).")
     A("- **No 'set amount' alone, no 'covers the rest'.** In Laura's plan a bond rung's set coupons and principal cover "
@@ -976,7 +990,7 @@ def write_md(path, T, Y, h, results, boiler, pv):
       "limit. About 45 words. The exemplars open in several ways on purpose: vary yours too (s8 checks it).")
     A("- **The box:** 300 characters maximum (maxlength, SEEN 29 Sep). The kit limit is **285**, which keeps 15 "
       "characters for a WInS name string longer than ours; a note with no security name left to swap in (IBTR and "
-      "IBTR_F name none; IBTM and VT were SEEN in WInS) may run to **295**. Plain ASCII (straight quotes; no dashes, "
+      "IBTR_F describe their fund, not its WInS name; IBTM and VT were SEEN in WInS) may run to **295**. Plain ASCII (straight quotes; no dashes, "
       "`~` or `<=`), one paragraph. Whether a saved note can be edited is UNVERIFIED: treat the first save as final.")
     A(f"- **The Guide's own example note** (Trading Note Instruction p.2) is {len(WHARTON_EXAMPLE)} characters, so it "
       "would not fit the WInS box, and it would be true of any client. Use it for tone only; `note_check.py` warns if a "
@@ -1050,8 +1064,8 @@ def write_md(path, T, Y, h, results, boiler, pv):
       "decides three notes** under the one 1 Oct rule (listed and inside its 25bp band means swap): order 7 is **T40b** "
       "if WInS does not list the 1.375% Nov 2040, **SW40** if it is listed and passes, **T40s** if it is listed but "
       "its price fails; order 6 is T41 or **SW41**; order 10 is T37 or **SW37**. Thursday's read of the full bond "
-      "drop-down tells the writers in advance which of these can happen. Order 5 is IBTM_P, or **IBTM_R** if the "
-      "1 Oct vote adopted the backstop sentence. Order 1 is IBTR, or **IBTR_F** if the refresh says the payments cost "
+      "drop-down tells the writers in advance which of these can happen. Order 5 is IBTM_P (IBTM_R is not typed on "
+      "Friday: Gate D). Order 1 is IBTR, or **IBTR_F** if the refresh says the payments cost "
       "more than $300,000. Sizes are the Gate A tickets; Friday's refresh re-sizes them. WInS names of IBTO-IBTR and "
       "every bond string are UNVERIFIED until read on Friday.")
     A("")
@@ -1087,12 +1101,10 @@ def write_md(path, T, Y, h, results, boiler, pv):
       "shrinks is the floor definition in s7). On Friday the test decides the ticket (`--split-from-curve` if it "
       "fails); the 14 Oct check runs it again, so the reflection reports two results. |")
     A("| 2 | The first that exists: **SW40** (1.375% Nov 2040 swapped in on Friday), **SW41** (2.000% Nov 2041), "
-      "**OD_B** (October trigger D), **IBTM_R** (backstop sentence adopted at the 1 Oct vote and carried in the IPS "
-      "draft that day) | **refined** | payments (reinvestment) or the floor | A discovery with its reason: pricing "
+      "**OD_B** (October trigger D) | **refined** | payments (reinvestment) | A discovery with its reason: pricing "
       "each rung showed that most of each payment is owed as set coupons and principal and the rest depends on "
-      "reinvesting coupons (at 2% the ten holdings deliver about $466,000 against ten $50,000 payments). The change is either the "
-      "bond (less rests on coupons) or the policy (the stock-fund half Laura keeps, not the floor, is the first call on "
-      "a shortfall). A bond swap is a decision made through a trade, so it ranks first. **If none exists, do not force "
+      "reinvesting coupons (at 2% the ten holdings deliver about $466,000 against ten $50,000 payments). The change is the "
+      "bond: less of the payment rests on coupons. A policy change (IBTM_R) is no longer typed on Friday (Gate D). **If none exists, do not force "
       "'refined'**: feature **T39** (alternate B) as supported, with the same discovery. T40b records a constraint, "
       "not a change. |")
     A("| 3 | VT, order 11 (VT) | **supported** | growth | A global fund of thousands of companies, with what Laura's "
@@ -1168,11 +1180,11 @@ def write_md(path, T, Y, h, results, boiler, pv):
       "room under $300,000 (`laura.ladder.headroom_2027_strips`). If the floor were tapped, the bottom of the "
       "co-sponsor range would break. One sentence naming the order closes it: the half of the stock fund Laura keeps "
       "is the first call, before the floor. That half (about $20,000 in Jan 2028) is about the size of the 2% gap, so "
-      "it covers a modest shortfall, not any. If IBTM_R is typed and featured, the IPS by 6 Nov names the order of use "
-      "(first a payment shortfall, then facility costs or co-sponsor gaps) and admits the cushion may be partly used; "
-      "the TN Analysis must agree with the IPS that follows it (TN instructions p.1). WS7 challenges whether keeping "
-      "half still holds once that half is the backstop (D6, `rab/redteam/`). | decide at the 1 Oct vote if IBTM_R is "
-      "to be typed; otherwise fix-before-6-Nov (wording only; the team chooses) | `reinvest.*`; "
+      "it covers a modest shortfall, not any. If adopted, the IPS by 6 Nov names the order of use (first a payment "
+      "shortfall, then facility costs or co-sponsor gaps) and admits the cushion may be partly used. WS7 challenges "
+      "whether keeping half still holds once that half is the backstop, and whether the chain may end in money from "
+      "outside the portfolio (D6; `rab/redteam/triage.md`). | fix-before-6-Nov: decided with D6 by 26 Oct, not at "
+      "the 1 Oct vote (Gate D); IBTM_R is not typed on Friday (wording only; the team chooses) | `reinvest.*`; "
       "`laura.stock_fund_2028_usd.strips`; IPS \"The other half remains with Laura as a cushion\" |")
     A("| **Two definitions of the floor.** The IPS says the 2028 floor Treasuries \"repay the whole remainder as "
       "Laura's facility floor\": read literally, a pre-2028 fall in yields that makes the 2028 deposit top up the "
@@ -1183,8 +1195,9 @@ def write_md(path, T, Y, h, results, boiler, pv):
       "no promise breaks either way, but the IPS, the notes and the Final Report must use one definition. The notes "
       "now say 'less is left for the facility', true on either. | fix-before-6-Nov: the team picks (a) the IPS "
       "reading, floor = what is left of the 2028 deposit (`--floor-rule remainder`), or (b) a $150,000 floor cut only "
-      "if the payments need more than the stock fund (`--floor-rule fixed`, the default), and the IPS says in one "
-      "sentence which pocket absorbs a pre-2028 fall. A definition, not a strategy change | IPS snapshot 30 Sep; "
+      "if the payments need more than the stock fund (`--floor-rule fixed`), by 14 Oct (Gate D; until then the "
+      "refresh default is `remainder`, the IPS as written), and the IPS says in one sentence which pocket absorbs a "
+      "pre-2028 fall. A definition, not a strategy change | IPS snapshot 30 Sep; "
       "`laura.floor_cost_2028` ($117,194 per $150,000); `assumptions.md` C2, C11; WS4 `D_pre2027_rate_hedge.md` |")
     A("| The IBTR test and every \"cost under $300,000\" figure are on the zero-coupon (STRIPS) basis of "
       "`numbers.yaml` with forward rates coming true (26.2bp on 28 Sep). WS4's 22.8bp is the same STRIPS basis with "
@@ -1231,9 +1244,10 @@ def write_md(path, T, Y, h, results, boiler, pv):
       "| fix-before-6-Nov (Sheet input); keep it out of notes | `wins.bond_accrued_mismatch`; tickets row 9 |")
     A("| Strategy name: kept out of WInS notes; the reflections lose their easiest link to the IPS without it. | "
       "decide by 22 Oct (Ray confirms the name) | IPS snapshot pitch paragraph |")
-    A("| WS7's working tree holds uncommitted ticket edits (IBTM split into two orders, VT as order 12, a buyable-basis "
-      "test). If they are merged, this file's order numbers go stale. | WS0 decides which tickets are final before "
-      "Friday; then re-run `build_notes.py` (it checks note order against `tickets.csv`) | `git status` in ws7, 30 Sep |")
+    A("| An interrupted WS7 agent left ticket edits (IBTM split into two orders, VT as order 12, a buyable-basis test) "
+      "in `git stash` on rab/ws7 (stash@{0}, 30 Sep 15:19). They are in no commit and no worktree. | Gate D (WS7): "
+      "NOT applied; `tickets.csv` on rab/integration is final for Friday (Gate C re-run 0 FAIL). Never `git stash "
+      "pop` it | `git stash list` in ws7; `rab/gates/gate_D.md` |")
     A("")
     A("**Requests to WS1 for the Friday re-lock** (WS6 does not write `numbers.yaml`, PM-35; until they land, no note "
       "or reflection quotes these figures):")

@@ -129,6 +129,7 @@ Curve 2026-09-28. Use an alternate only when the planned bond fails its check or
 | Event | U.S. Eastern | Sydney |
 |---|---|---|
 | Fri 2 Oct: read WInS bond prices, run refresh_tickets.py (Thursday close and curve are out) | Fri 2 Oct 2026 7:00 AM EDT | Fri 2 Oct 2026 9:00 PM AEST |
+| Fri 2 Oct: U.S. jobs report (UNVERIFIED with BLS): yields and ETF prices can jump; re-check every ETF price against its max before ordering | Fri 2 Oct 2026 8:30 AM EDT | Fri 2 Oct 2026 10:30 PM AEST |
 | Fri 2 Oct: U.S. market opens (do not trade in the first 15 minutes) | Fri 2 Oct 2026 9:30 AM EDT | Fri 2 Oct 2026 11:30 PM AEST |
 | Fri 2 Oct: earliest any order may go in, only if Plan A cannot wait (iBonds normally wait for 10:30) | Fri 2 Oct 2026 9:45 AM EDT | Fri 2 Oct 2026 11:45 PM AEST |
 | Fri 2 Oct: Plan A starts: iBonds orders after the first hour | Fri 2 Oct 2026 10:30 AM EDT | Sat 3 Oct 2026 12:30 AM AEST |

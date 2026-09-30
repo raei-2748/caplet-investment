@@ -6,6 +6,18 @@ material for Team Caplet; no deliverable text.
 **The question.** It is 7am. The RAB Kit failed or embarrassed the team: in Friday's WInS trades (Fri 2 Oct ET), in
 the Trading Notes Analysis (due 23 Oct), or later in front of judges. What went wrong?
 
+**Errata, 30 Sep 2026 (Gate D, WS7-fixer).** Written before the Gate A lock. Where an item and this block disagree,
+this block wins; later agents quote only `rab/numbers*.yaml` `quote_as` strings.
+- **PM-03:** the locked Portfolio book costs $294,764.50 with $200 commission and leaves $5,235.50
+  (`wins.portfolio.cost_close_0928`); the cash is used up by a parallel fall of 27.6bp (`wins.portfolio.cash_margin`).
+- **PM-22:** the three history claims are REPRODUCED on the STRIPS basis (`history.cost_2020_median` $458,828,
+  `history.days_priced_since_2000` 6,688, `history.cheapest_since` 28 May 2002). Closed for code; the basis is
+  stated in the Final Report.
+- **PM-23:** the reinvestment table is the locked `reinvest.bookL_delivered` (about $503,000 / $479,000 / $466,000 /
+  $447,000 at own yields / two points lower / 2% / 0%; $507,000 at curve forwards). The pre-lock figures in the item
+  are superseded.
+- **PM-32:** reconciled: **about 1 in 3** (`ws4.gap_odds_2027` 0.3266). The 24.2% figure is superseded.
+
 **How to use this file.** Every later agent applies the *Check* column for the items it touches. Gate owners tick
 them at Gates A-D. Items marked *Gate C* become automated checks (spec at the end).
 

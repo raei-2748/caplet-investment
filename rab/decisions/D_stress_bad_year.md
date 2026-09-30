@@ -14,9 +14,12 @@ floor money. (D) Sell Treasuries whose prices fell. (E) Hedge before January 202
 - **Payments, STRIPS basis** (zero-coupon, as M5-M7 model them): paid in all 13 replayed episodes and all 149 start
   years at today's yields; at risk only after a fall of more than about 4.3 points (428bp) before investing.
 - **Yields fall before investing.** Beyond 26bp the 2028 deposit finishes the payments (N
-  `laura.ladder.breakeven_fall_bp_strips`); up to 109bp the floor stays $150,000. Worst replay: Japan plus a 1-point
+  `laura.ladder.breakeven_fall_bp_strips`); under the kit's fixed-$150,000 floor reading, up to 109bp the floor stays
+  $150,000 (read literally, the IPS lowers the floor by most of the gap instead, W `ws2.range.floor_reading`; the
+  team settles the reading by 14 Oct). Worst replay: Japan plus a 1-point
   fall leaves a floor of $147,189 and no fund.
-- **Yields fall after investing** (outside M5-M7). The WInS book's income must be reinvested: the ten holdings deliver
+- **Yields fall after investing** (outside M5-M7). The income of Laura's ladder of WInS-listed holdings (Book L)
+  must be reinvested: the ten holdings deliver
   about $503,000 at today's yields, $466,000 at 2%, $447,000 at 0% (N `reinvest.bookL_delivered`). A 2007-style
   replay leaves them about $24,000 short with coupons matched to payments, $49,000 in bills (WS7, one build, W `ws3.external`).
 - **Stocks and yields often fall together**, when Laura's half is smallest. Last column: WS2's 2% coupon gap valued in
@@ -46,7 +49,7 @@ floor money. (D) Sell Treasuries whose prices fell. (E) Hedge before January 202
 4. Stocks fall: before 2031 the range narrows, its bottom fixed; after 2031 the gift slides toward the floor, never
    below it, and Laura's half takes the rest.
 5. Yields fall before investing: buy at once, latest payments first; the 2028 deposit completes the payments, then the
-   floor; the stock fund gets what is left.
+   floor; the stock fund gets what is left (fixed-floor reading; under the IPS wording the floor takes most of it).
 6. Inflation: the payments stay $50,000 as promised; Laura's half, not the payments or the floor, meets higher costs.
 
 Rule 3 (was "fill the gap from the whole fund") gives one first owner before and after 2033, as WS2's range memo

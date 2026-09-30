@@ -5,8 +5,9 @@ MODEL, 28 Sep 2026 curve, Gate B reconciled (`rab/gates/gate_B_ws2.md`, coupon c
 Keys: `rab/numbers_ws2.yaml` (W), `rab/numbers.yaml` (N).
 
 **Decisions. (1) Keep half. (2) A coupon shortfall is paid by Laura's half first, then the gift above the floor,
-then the floor** (WS3 stress rule 3, as in WS6's IBTM_R). Ratify (2) at the 1 Oct vote (it decides IBTM_R) and (1)
-at the 26 Oct meeting.
+then the floor** (WS3 stress rule 3, as in WS6's IBTM_R). Decide (2) with (1) at the 26 Oct meeting, after WS2
+re-runs D6 with costs (Gate D moved (2) off the 1 Oct vote: no Friday trade depends on it, so order 5's note on
+Friday is IBTM_P and IBTM_R is not typed; `rab/redteam/triage.md`).
 
 **Question.** The 2031 top is the floor plus a share of the stock fund (about $41,000 in 2028,
 N `laura.stock_fund_2028_usd.strips`); the 2033 gift is capped there and Laura keeps the rest. Is half right, and
@@ -73,8 +74,9 @@ Low if coupons earn 2 points less for years.
 - **IPS: fix-before-6-Nov, no new item.** The share: none. The owner: WS3's three words in the cushion sentence
   ("if coupons earn less"), next to the Gate A coupon fix of "needs no rebalancing" (`rab/assumptions.md` C3). The
   team chooses the words; the 17 spare words are shared with the cost clause.
-- **WS6: fix-now if IBTM_R is typed.** Its owner is right. "Cover any gap" is not: at 2% her half runs out and the
-  gift falls below $145,000 in 1-3% of paths. Name her half as the first cover.
+- **WS6: IBTM_R is not typed on Friday (Gate D).** If the policy is adopted by 26 Oct, it goes in the IPS and the
+  Final Report, not a WInS note. Its owner is right. "Cover any gap" is not: at 2% her half runs out and the gift
+  falls below $145,000 in 1-3% of paths. Name her half as the first cover.
 - **Final Report: note-in-Final-Report.** The options table as the reason for half; the cushion as the question for
   Laura; the coupon table with both owners; a shortfall makes a small part of the payments depend on stocks
   (qualifies `rab/assumptions.md` E3).

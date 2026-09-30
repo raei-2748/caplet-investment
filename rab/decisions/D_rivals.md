@@ -44,8 +44,8 @@ protecting the capital" and a strategy that "preserves appropriate financial fle
 contribution". All-Treasury maximises the gift but gives up growth and leaves Laura nothing; the no-ladder plans put
 the payments at risk for growth. Name All-Treasury as the closest rival.
 
-**Confidence.** High on the two hard tests, STRIPS basis (history exact, MC agrees, both builds match). The WInS book's
-coupon holdings deliver about $503,000 if coupons earn today's yields and about $466,000 at 2% (N
+**Confidence.** High on the two hard tests, STRIPS basis (history exact, MC agrees, both builds match). Laura's ladder of
+WInS-listed holdings (Book L) delivers about $503,000 if coupons earn today's yields and about $466,000 at 2% (N
 `reinvest.bookL_delivered`, locked); every plan holding the ladder shares this and the stress memo's rule 3 says who
 pays (Laura's half first), so no ranking changes. Medium on the
 edge over All-Treasury: it rests on the equity premium (JPM world stocks 7.0% against today's 5.06% five-year yield;

@@ -40,18 +40,24 @@ day is UNVERIFIED).
 |---|---|---|---|---|
 | **A. Repair** | A Friday ticket did not fill, was skipped because its price failed the check, or filled only in part | Place it at today's prices; the refresh re-sizes it | supported | "The January 2027 deposit buys the liability-hedging portfolio, latest payments first." |
 | **B. Rates-fall test** | The refresh says the ten payments now cost **more than $300,000** on 1 Jan 2027, on the zero-coupon basis of `numbers.yaml` (its "ten payments cost" line; if WS1 locks a buyable-basis test before 14 Oct, use that one and say so in the decision log). Today (28 Sep curve) they cost about $292,000, so yields would have to fall more than about a quarter of a percentage point (about 26bp). | Sell VT down to the new stock-fund share the refresh prints (with `--floor-rule` set to the team's floor definition, `notes.md` s7); buy IBTM with the proceeds. Two trades, $50; only if the amount is at least $2,500 | tested | "A moderate fall in yields would leave some payments for the 2028 deposit to complete" |
-| **D. Coupon refinement** | A new fact since Friday: the 1.375% 15 Nov 2040 bond was listed on Friday but its price failed the 25bp check (note T40s), or it was not listed then and is now; its price passes the check that day | Day 1: sell the 4.250% 15 Nov 2040 bond. Day 2 (once the cash shows): buy the 1.375% 15 Nov 2040 bond. Two trades, $20 | refined | "Laura's 2027 deposit buys Treasuries maturing before each of her ten $50,000 payments." (either bond fits it) |
+| **D. Coupon refinement** | A new fact since Friday: the 1.375% 15 Nov 2040 bond was listed on Friday but its price failed the 25bp check (note T40s), or it was not listed then and is now; its price passes the check that day | Under branch (a) of the 1 Oct swap rule: day 1 sell the 4.250% 15 Nov 2040 bond; day 2 (once the cash shows) buy the 1.375% 15 Nov 2040 bond. Two trades, $20. Under branch (b) nothing was bought on Friday for this rung and nothing is sold: buy the 1.375% (one trade, $10), or the 4.250% if the 1.375% still fails on 14 Oct (`friday_checklist.md`, Vote 2) | refined | "Laura's 2027 deposit buys Treasuries maturing before each of her ten $50,000 payments." (either bond fits it) |
 | **C. Spare cash** | WInS cash is above **$6,300**: the $3,300 float (1.1%) plus at least $3,000, so the $25 commission is under 1% | Buy VT with everything above $3,300 | supported | "The rest, plus any 2027 remainder, forms the return-seeking portfolio" |
 | **None** | Nothing fires | No trade. Write "checked 14 Oct: the rules said hold" in the decision log | - | - |
 
 B comes before D and C because it is the market test the IPS itself describes. At most one of B, D and C runs.
+
+**If the 1 Oct vote picks Book L** (WS7 fact audit r2, fixed at Gate D): Book L holds only the ten dated holdings,
+so **B and C give no trade**. B: record the test result in the decision log (the 2028 deposit would top up the
+earliest payments; Book L has no VT to sell). C: Book L's expected cash after Friday is about $7,000 (`tickets.md`),
+above $6,300, but spare cash stays as cash, because Book L holds no stock fund. A and D apply to both books.
 
 ### Why B buys IBTM
 
 The 2027 deposit buys the latest payments first. If yields fall and the ladder costs more than the deposit, it is
 the **earliest** payment (1 Jan 2033) that the 2028 deposit completes, before any stocks, so less is left for the
 facility. Which part shrinks depends on the floor's definition, which the team settles (`notes.md` s7, judge panel
-round 3): under the kit's model (`--floor-rule fixed`, WS4 `D_pre2027_rate_hedge.md`) the floor stays $150,000 and
+round 3; decide by 14 Oct, and until then the refresh follows the IPS as written, `--floor-rule remainder`, the default
+since Gate D): under the kit's model (`--floor-rule fixed`, WS4 `D_pre2027_rate_hedge.md`) the floor stays $150,000 and
 the stock fund absorbs the gap (only a very large fall would reach the floor); read literally, the IPS ("repay the
 whole remainder as Laura's facility floor", `--floor-rule remainder`) lowers the floor by the whole gap and the stock
 fund by only about a fifth of it, so the VT sale is much smaller. Both the payment and the floor sit in IBTM. So
@@ -64,8 +70,8 @@ Of the 4.250% bond's cash before 1 Jan 2041, 38% comes as coupons that must be r
 1.375% bond of the same date it is 17%. If coupons earn only 2%, the 1.375% bond delivers 93.9% of the value at
 today's forward rates, against 87.9% (MODEL, per dollar). In Laura's plan, being sure of $50,000 on 1 Jan 2041 at 2%
 takes about $25,000 of the 1.375% bond against about $26,000 of the 4.250%. At today's forward rates both cost about
-$23,000. The trade changes nothing about the date, the kind of instrument or the strategy. It reduces the one risk a
-fixed-income judge is most likely to raise.
+$23,000. The trade changes nothing about the date, the kind of instrument or the strategy. It reduces the coupon risk a
+fixed-income judge is most likely to raise, on one of the ten rungs.
 
 - **Size.** Sell the whole holding: $17,000 face in the Portfolio book, or $26,000 in Book L. Buy the face value that
   `refresh_tickets.py --units rule --swap "T 4.250% 15-Nov-2040=T 1.375% 15-Nov-2040"` prints. At 28 Sep prices that
@@ -85,8 +91,8 @@ fixed-income judge is most likely to raise.
 - **B** needs a fall of about 26bp in about two weeks. In 2026 the 10-year par yield's daily changes had a standard
   deviation of about 4.5bp. That is our calculation from `rab/data/treasury_par_2000_2026/2026.csv` (185 sessions),
   so this fall would be roughly a two-standard-deviation move: possible, not likely. WS4 owns the reconciled odds.
-- **C** does not fire at the cash Friday's tickets leave (about $5,000, `tickets.md`), unless fills or prices leave
-  more.
+- **C** does not fire at the cash Friday's Portfolio tickets leave (about $5,000, `tickets.md`), unless fills or
+  prices leave more. In Book L it never trades (above).
 - **D** fires only if the 1.375% bond's Friday price was stale (or it was not listed) and it passes later. If it was
   listed and passing on Friday, the Friday swap rule already bought it. So the most likely outcome is no trade, and
   the three notes come from the first eleven trades (ten on Friday, VT on Mon 5 Oct ET). The 14 Oct check itself is
