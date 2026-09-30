@@ -5,6 +5,7 @@
 # Laura's plan unless the unit says otherwise. 'blind' = the same figure from the blind build
 # (rab/verification/blind/out/blind_headlines.json); 'gate_b' = its verdict at Gate B tolerances (rab/gates/gate_B_ws3.md).
 # Exception: ws3.external.* is cited from WS7 (coupon basis, git 9db8d35), NOT Gate-B checked; UNVERIFIED for team outputs.
+# ws3.stress.coupon_gap_vs_laura_half reads WS2's both-build ladder gap (rab/ws2 git 186ecad) and pairs it with M7 by hand.
 # Every 'never short' / 'all payments paid' figure here holds on the STRIPS basis only (gate_B_ws3.md s7).
 # None of these may go in a WInS Trading Note (not in numbers.yaml). Written by rab/decisions/build_numbers_ws3.py.
 meta:
@@ -802,6 +803,35 @@ numbers:
       breakeven_2042: 35341.81
       breakeven_2033: 43520.87
       s1970s_2042: 18414.19
+  ws3.stress.coupon_gap_vs_laura_half:
+    value:
+      gap_2033:
+        today_yields: 1613
+        yields_2pp_lower: 18003
+        coupons_at_2pct: 30493
+        coupons_at_0pct: 53159
+      laura_half_2033:
+        base: 32182.82
+        2008_in_2028: 18446.08
+        japan_1990_95: 11659.33
+        depression_1928_33: 17333.09
+      beyond_her_half:
+        yields_2pp_lower__base: 0.0
+        yields_2pp_lower__2008_in_2028: 0.0
+        yields_2pp_lower__japan_1990_95: 6343.67
+        yields_2pp_lower__depression_1928_33: 669.91
+        coupons_at_2pct__base: 0.0
+        coupons_at_2pct__2008_in_2028: 12046.92
+        coupons_at_2pct__japan_1990_95: 18833.67
+        coupons_at_2pct__depression_1928_33: 13159.91
+    unit: 'USD valued 1 Jan 2033 (gap: Book L payments short of $50,000, summed over rungs; half: M7 ''Laura keeps'')'
+    quote_as: if coupons earn only 2% for years, the gap (about $30,000 in 2033 money) uses up about all of Laura's half in the base case and
+      is about $12,000-19,000 more than her half after a 2008, 1929 or Japan-style fall
+    source: 'gap: rab/ws2 git 186ecad rab/numbers_ws2.yaml ws2.d6.ladder_gap (rab/results/M4/ladder_gap.csv); half: rab/results/M7/M7_results.json
+      stress ''kept'' (S0, S6, S2, S5)'
+    gate_b: 'gap: WITHIN TOL at WS2''s Gate B (gate_B_ws2.md s9, both builds); half: MATCH (M7); pairing: by hand, not a model'
+    note: 'M7 models no coupons (STRIPS basis). Each ''beyond'' = max(0, gap - half): an illustration of who pays, not a probability. today_yields
+      gap is covered in every episode.'
   ws3.inputs.mc:
     value:
       stocks_ac_world_compound_pct: 7.0
@@ -824,6 +854,8 @@ numbers:
       hist_1962_2011_matched_starts_any_short: 387/593
       bills_unchanged_1y_pct: 4.59
       bills_unchanged_shortfall: 7127.0
+      japan1990_matched_delivered: 473183.0
+      japan1990_matched_shortfall: 26817.0
     unit: percent a year / USD delivered to the ten payments in total (target $500,000)
     quote_as: the WInS book's ten payments total $500,000 only if coupons are reinvested at about 5% (4.97%) or more
     source: 'WS7 red team, git 9db8d35 (branch rab/ws7): rab/redteam/ws7_assumptions_reinvest_check_output.txt; Book L holder cash flows from
