@@ -541,6 +541,21 @@ hv["AX1b_B_unchanged_curve"] = {"printed": "about +$1.0k (inventory: +$1,044), +
 say(f"[H] AX1b [B] unchanged-curve drift: 25 Sep +${hv['AX1b_B_unchanged_curve']['primary_25sep_rw_minus_fwd_usd']:,.0f}, "
     f"28 Sep +${hv['AX1b_B_unchanged_curve']['primary_28sep_rw_minus_fwd_usd']:,.0f}; R5 - R2 = "
     f"{hv['AX1b_B_unchanged_curve']['primary_28sep_R5_minus_R2_pp']:+.2f}pp")
+# Third session: the two inventory M2 figures s5 had not rebuilt. (a) D1 [6] 25 Sep exact-date basis, printed 24.3%.
+# (b) AX1b [B] "+3.4 points" on 25 Sep: D1 [6]'s lognormal with the yields-unchanged centre instead of forwards.
+t25_ = (A - A25).days / 365.25
+vol_e25 = float(np.std(np.diff(np.log(ce[upto25])), ddof=1) * math.sqrt(252))
+vol_n25 = float(np.std(np.diff(np.log(cn[upto25])), ddof=1) * math.sqrt(252))
+c_ex25 = float(ce[upto25][-1])
+p_ex25 = float(1 - norm.cdf(math.log(300_000 / c_ex25) / (vol_e25 * math.sqrt(t25_))))
+p_n25 = float(1 - norm.cdf(math.log(300_000 / float(cn[upto25][-1])) / (vol_n25 * math.sqrt(t25_))))
+p_rw25 = float(1 - norm.cdf(math.log(300_000 / P25["base"]["cost_rw"]) / (vol_n25 * math.sqrt(t25_))))
+hv["third_session_25sep"] = {
+    "D1_6_exact_25sep": {"printed": 0.243, "rebuilt_blind_engine": p_ex25, "cost_exact_fwd": c_ex25, "vol": vol_e25, "t": t25_},
+    "D1_6_nov15_25sep_same_code": {"printed": 0.305, "rebuilt_blind_engine": p_n25, "cost_nov15_fwd": float(cn[upto25][-1]), "vol": vol_n25},
+    "AX1b_B_lift_25sep": {"printed_pp": 3.4, "R1_with_rw_centre": p_rw25, "lift_pp": 100 * (p_rw25 - p_n25)}}
+say(f"[H] 25 Sep exact-date D1 [6]: {p_ex25:.4%} (printed 24.3%; cost ${c_ex25:,.2f}, vol {vol_e25:.4f}); Nov-15 same code "
+    f"{p_n25:.4%}; AX1b [B] 25 Sep lift {100 * (p_rw25 - p_n25):+.2f}pp (printed +3.4)")
 
 # ---------------------------------------------------------------------------------------------------------------- [X] third pricer vs primary
 # deterministic_check.py (standard library only) was compared by its author with numbers.yaml and m2_blind only.
