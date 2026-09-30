@@ -1,0 +1,15 @@
+T scale c = 0.1162464; raw draws discarded 0.268%
+Shiller monthly: n=1860, mean log 0.007459 (x12 0.0895), sd 0.04026
+BAYES: fitting StudentT to 155 annual log returns (pymc NUTS, 4 x (1000 + 1000), target_accept 0.9) ...
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [m_h, sigma, nu_prime]
+Sampling 4 chains for 1_000 tune and 1_000 draw iterations (4_000 + 4_000 draws total) took 1 seconds.
+BAYES fit done in 4s; converged=True
+         mean      sd eti89_lb eti89_ub ess_bulk ess_tail r_hat mcse_mean  mcse_sd
+m_h    0.0946  0.0131    0.073     0.12     2599     2567  1.00   0.00026  0.00021
+sigma  0.1566  0.0118     0.14     0.18     2693     2787  1.00   0.00023  0.00016
+nu       18.1    11.5      6.5       39     2621     2864  1.00      0.22      0.3
+L check: median top 174,988 vs analytic 174,952; P(top) 0.7328 vs 0.7325
+E6 reconcile (L, B0=40,400, seed 20260927): total p5/p50/p95 = 182,115 / 206,744 / 249,872 (insight_v1 H8: 182,000 / 207,000 / 250,000; H8 is a rounded 25 Sep figure)
+M3 done in 6s -> /Users/ray/Research/rab-ws/ws2/rab/verification/blind/out/M3

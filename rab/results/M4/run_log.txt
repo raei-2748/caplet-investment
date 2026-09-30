@@ -1,0 +1,23 @@
+M4 cap optimiser | run 2026-09-29 23:20 UTC | 2026-09-29 19:20 EDT | 2026-09-30 09:20 AEST | numbers.yaml 492ed3203958 | rule: M4_SPEC.md s5 (pre-registered, commit 3d98ce0)
+  floor delivery phi (8565 historical 30-month changes of the 1-year yield since 1990): p0.5 0.9757, p5 0.9776, median 0.9960, max 1.0214; floor pays $146,330 at worst, $149,404 at the median
+  PR-3: h* = 0.025 -> announced floor A = $145,000 (P(floor holding pays less) = 0.000%)
+  L      s* = 0.50 | at s = 1/2: E[gift] $174,153, gift p5 $164,058, kept p5 $16,596, P(kept >= 10% of gift) 95.09%, P(gift < $145k) 0.000%, P(gift = face-based top) 24.6%, P(fund no lower in 2033) 73.5%, E[shortfall below top] $1,715
+         announced-basis top (A + s B3, added after the first run): P(top reached) 92.4%, P(kept >= 10% of gift) 97.46%, E[gift] $170,683, median top $169,988
+  T      s* = 0.50 | at s = 1/2: E[gift] $174,192, gift p5 $164,048, kept p5 $16,720, P(kept >= 10% of gift) 95.30%, P(gift < $145k) 0.000%, P(gift = face-based top) 25.1%, P(fund no lower in 2033) 75.5%, E[shortfall below top] $1,673
+         announced-basis top (A + s B3, added after the first run): P(top reached) 93.0%, P(kept >= 10% of gift) 97.38%, E[gift] $170,670, median top $169,938
+  BOOT   s* = 0.47 | at s = 1/2: E[gift] $174,129, gift p5 $162,651, kept p5 $15,491, P(kept >= 10% of gift) 93.59%, P(gift < $145k) 0.000%, P(gift = face-based top) 24.5%, P(fund no lower in 2033) 74.4%, E[shortfall below top] $1,932
+         announced-basis top (A + s B3, added after the first run): P(top reached) 90.4%, P(kept >= 10% of gift) 95.78%, E[gift] $170,703, median top $170,487
+  BAYES  s* = 0.47 | at s = 1/2: E[gift] $174,228, gift p5 $163,106, kept p5 $15,483, P(kept >= 10% of gift) 93.25%, P(gift < $145k) 0.000%, P(gift = face-based top) 24.1%, P(fund no lower in 2033) 72.0%, E[shortfall below top] $1,868
+         announced-basis top (A + s B3, added after the first run): P(top reached) 90.7%, P(kept >= 10% of gift) 96.13%, E[gift] $170,830, median top $169,966
+  ROBUST s* = 0.47 -> recommendation s = 0.500 (keep 1/2: robust optimum within [0.40, 0.60] (PR-7))
+  rule sensitivity (robust s* = min over T, BOOT, BAYES), rows = kept-money threshold, columns = confidence:
+    keep >= 5% of gift: 90%: 0.76, 95%: 0.72, 99%: 0.59
+    keep >= 10% of gift: 90%: 0.53, 95%: 0.47, 99%: 0.20
+    keep >= 15% of gift: 90%: 0.32, 95%: 0.23, 99%: none
+    keep >= 20% of gift: 90%: 0.13, 95%: 0.01, 99%: none
+  narrower range, T    : low end raised to $154,975 (l=0.4) -> P(gift below it) 0.00%; to $159,963 (l=0.6) -> 0.03%; to $164,950 (l=0.8) -> 0.88%
+  narrower range, BOOT : low end raised to $155,195 (l=0.4) -> P(gift below it) 0.03%; to $160,292 (l=0.6) -> 0.42%; to $165,390 (l=0.8) -> 2.15%
+  narrower range, BAYES: low end raised to $154,987 (l=0.4) -> P(gift below it) 0.00%; to $159,980 (l=0.6) -> 0.03%; to $164,973 (l=0.8) -> 1.14%
+  Pareto T    : NSGA-II 116 non-dominated points (s 0.00-0.50, l 0.34-1.00); grid front 313 points (s up to 0.50); NSGA-II points dominated by a grid point: 8
+  Pareto BOOT : NSGA-II 120 non-dominated points (s 0.00-0.47, l 0.20-1.00); grid front 328 points (s up to 0.45); NSGA-II points dominated by a grid point: 8
+  Pareto BAYES: NSGA-II 120 non-dominated points (s 0.00-0.47, l 0.38-1.00); grid front 272 points (s up to 0.45); NSGA-II points dominated by a grid point: 7

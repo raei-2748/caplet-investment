@@ -1,0 +1,161 @@
+{
+  "h_star": 0.025,
+  "A_announced_floor": 145000.0,
+  "s_star_by_model": {
+    "T": 0.5,
+    "BOOT": 0.47,
+    "BAYES": 0.47,
+    "L": 0.5
+  },
+  "s_star_robust": 0.47,
+  "PR7_recommendation": 0.5,
+  "PR7_reason": "keep s = 1/2 (0.40 <= s* <= 0.60: evidence does not justify changing a simple rule)",
+  "N": 200000,
+  "seed": 20260930,
+  "phi": {
+    "p0.5": 0.9756547263958049,
+    "p1": 0.9761283200231361,
+    "p5": 0.9776355448608214,
+    "p50": 0.9960699678169366,
+    "p95": 1.016168270345302,
+    "max": 1.0213809058713381,
+    "min": 0.9755365054268342
+  },
+  "delta_r_n": 8565,
+  "adopted_half": {
+    "T": {
+      "E_G": 174199.94148773086,
+      "G_p5": 164072.17836177928,
+      "G_p50": 173379.65816385637,
+      "G_p95": 187057.65806193836,
+      "E_K": 35832.67117596934,
+      "K_p5": 16780.934692286894,
+      "K_p50": 32450.6017064225,
+      "P_K_ge_thr_G": 0.953785,
+      "P_G_lt_L": 0.0,
+      "E_width": 30866.01109587184,
+      "U_p50": 174965.64192245528,
+      "L_p50": 145000.0,
+      "P_top_fund": 0.75488,
+      "P_top_gift_eq_U": 0.25558,
+      "P_G_below_middle": 0.000325,
+      "E_U_minus_G": 1666.0696081409753
+    },
+    "BOOT": {
+      "E_G": 174110.74054266678,
+      "G_p5": 162701.11567629522,
+      "G_p50": 173639.66983411682,
+      "G_p95": 187397.32844839597,
+      "E_K": 36596.495460662474,
+      "K_p5": 15547.35329803775,
+      "K_p50": 33633.15483338549,
+      "P_K_ge_thr_G": 0.937105,
+      "P_G_lt_L": 0.0,
+      "E_width": 31035.960858215003,
+      "U_p50": 175472.00106754305,
+      "L_p50": 145000.0,
+      "P_top_fund": 0.74363,
+      "P_top_gift_eq_U": 0.24824,
+      "P_G_below_middle": 0.004425,
+      "E_U_minus_G": 1925.2203155482268
+    },
+    "BAYES": {
+      "E_G": 174241.8362584044,
+      "G_p5": 163101.3467679996,
+      "G_p50": 173201.27994486596,
+      "G_p95": 188939.61167766573,
+      "E_K": 36815.23079024229,
+      "K_p5": 15495.239183188964,
+      "K_p50": 32546.635647327086,
+      "P_K_ge_thr_G": 0.932165,
+      "P_G_lt_L": 0.0,
+      "E_width": 31103.889222077847,
+      "U_p50": 175000.65877174953,
+      "L_p50": 145000.0,
+      "P_top_fund": 0.71837,
+      "P_top_gift_eq_U": 0.242765,
+      "P_G_below_middle": 0.00033,
+      "E_U_minus_G": 1862.0529636734643
+    },
+    "L": {
+      "E_G": 174166.33334792854,
+      "G_p5": 164054.29479636563,
+      "G_p50": 173336.2105044461,
+      "G_p95": 187129.8789375605,
+      "E_K": 35932.520887812905,
+      "K_p5": 16581.96318596057,
+      "K_p50": 32563.606816703003,
+      "P_K_ge_thr_G": 0.950445,
+      "P_G_lt_L": 0.0,
+      "E_width": 30880.1936095679,
+      "U_p50": 174988.24604106846,
+      "L_p50": 145000.0,
+      "P_top_fund": 0.732755,
+      "P_top_gift_eq_U": 0.249135,
+      "P_G_below_middle": 4e-05,
+      "E_U_minus_G": 1713.8602616393691
+    }
+  },
+  "pareto": {
+    "T": {
+      "n_front": 120,
+      "n_feasible_on_200k": 115,
+      "s_range": [
+        0.0,
+        0.5073137265242541
+      ],
+      "max_E_G_feasible": 174493.22693788444,
+      "s_at_max_E_G": 0.50583989896657,
+      "front_points_dominated_by_grid": 2,
+      "elapsed_s": 27.744154930114746
+    },
+    "BOOT": {
+      "n_front": 120,
+      "n_feasible_on_200k": 120,
+      "s_range": [
+        6.800116025829084e-16,
+        0.4719825198126589
+      ],
+      "max_E_G_feasible": 172709.1930620482,
+      "s_at_max_E_G": 0.4719825198126589,
+      "front_points_dominated_by_grid": 3,
+      "elapsed_s": 25.8490469455719
+    },
+    "BAYES": {
+      "n_front": 120,
+      "n_feasible_on_200k": 120,
+      "s_range": [
+        2.7755575615628914e-17,
+        0.4706715648565691
+      ],
+      "max_E_G_feasible": 172767.2491506078,
+      "s_at_max_E_G": 0.4706715648565691,
+      "front_points_dominated_by_grid": 17,
+      "elapsed_s": 31.626750946044922
+    }
+  },
+  "rule_sensitivity_s_star_robust": {
+    "thr0.05_conf0.9": 0.76,
+    "thr0.05_conf0.95": 0.72,
+    "thr0.05_conf0.99": 0.59,
+    "thr0.1_conf0.9": 0.53,
+    "thr0.1_conf0.95": 0.47,
+    "thr0.1_conf0.99": 0.2,
+    "thr0.15_conf0.9": 0.32,
+    "thr0.15_conf0.95": 0.23,
+    "thr0.15_conf0.99": null,
+    "thr0.2_conf0.9": 0.13,
+    "thr0.2_conf0.95": 0.01,
+    "thr0.2_conf0.99": null
+  },
+  "elapsed_s": 97.01100397109985,
+  "log": [
+    "Delta_r: 8565 start dates; p2.5 -4.71, median -0.10, p97.5 +4.90 points; share below -5.06 (r floored at 0): 0.4%",
+    "phi checks: r=y5 -> 0.9965 (spec 0.9965); r=0 -> 0.9755 (spec 0.9755)",
+    "PR-3: h* = 0.025, announced floor A = $145,000; P(phi F < A) = 0.000%",
+    "PR-6 s*: T 0.50, BOOT 0.47, BAYES 0.47, L 0.50; robust s* = 0.47 -> PR-7: s = 0.5 (keep s = 1/2 (0.40 <= s* <= 0.60: evidence does not justify changing a simple rule))",
+    "Pareto T: 120 points, s in [0.00, 0.51], 115 feasible on 200k, 2 dominated by a grid point (28s)",
+    "Pareto BOOT: 120 points, s in [0.00, 0.47], 120 feasible on 200k, 3 dominated by a grid point (26s)",
+    "Pareto BAYES: 120 points, s in [0.00, 0.47], 120 feasible on 200k, 17 dominated by a grid point (32s)"
+  ]
+}

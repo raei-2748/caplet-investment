@@ -1,0 +1,5 @@
+model,label,bottom_usd,bottom_confidence,top_median_usd,top_p5_usd,top_p95_usd,P_gift_reaches_top,P_gift_upper_half,gift_p5_usd,gift_p50_usd,gift_p95_usd,P_fund_below_cost_2031
+L,"Reference (lognormal, insight_v1)",150000.0,certain by construction if: floor pays face; 2028 deposit arrived; gift capped; no fee from the floor,174988.42,166059.78,188713.9,0.73453,0.99994,165133.21,174174.66,187922.58,0.22204
+T,Fat tails (Student-t),150000.0,certain by construction if: floor pays face; 2028 deposit arrived; gift capped; no fee from the floor,174937.71,166121.29,188634.88,0.75471,0.9993,165113.96,174229.63,187863.5,0.207135
+BOOT,History (Shiller bootstrap),150000.0,certain by construction if: floor pays face; 2028 deposit arrived; gift capped; no fee from the floor,175487.06,165203.71,189222.81,0.743715,0.99228,163723.35,174571.36,188298.18,0.21745
+BAYES,Uncertain mean (Bayesian),150000.0,certain by construction if: floor pays face; 2028 deposit arrived; gift capped; no fee from the floor,174966.35,165300.06,190726.95,0.71963,0.999215,164142.94,174022.85,189748.54,0.242775

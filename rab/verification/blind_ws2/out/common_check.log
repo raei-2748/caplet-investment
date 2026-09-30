@@ -1,0 +1,13 @@
+Gate A reproduction (blind curve):
+  V0_nov15               blind      289119.20  locked    289119.20  diff +0.00
+  VA_nov15               blind      292418.11  locked    292418.11  diff +0.00
+  headroom_nov15         blind        7581.89  locked      7581.89  diff -0.00
+  breakeven_bp_nov15     blind          26.20  locked        26.20  diff -0.00
+  V0_exact               blind      287016.47  locked    287016.47  diff -0.00
+  VA_exact               blind      290291.38  locked    290291.38  diff +0.00
+  breakeven_bp_exact     blind          33.22  locked        33.20  diff +0.02
+  V2028_nov15            blind      306524.65  locked    306525.00  diff -0.35
+  V2028_exact            blind      304295.32  locked    304295.00  diff +0.32
+  floor_cost_2028        blind      117193.70  locked    117194.00  diff -0.30
+  B0                     blind       40736.19  locked     40736.00  diff +0.19
+T scale c = 0.1162464 (spec 0.1162464), discarded share 0.268% (spec 0.268%)
