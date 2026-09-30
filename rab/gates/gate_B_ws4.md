@@ -243,6 +243,12 @@ against the table here.
 - **Verdict:** nothing downstream rests on an unreconciled number.
 - **Wording (ignore; for the memo's owner):** the memo says "Medium on the odds: a one-quarter figure". This could be
   read as "1 in 4". "A three-month figure" says what is meant.
+- **Memo revision (30 Sep, after this check):** the wording is fixed ("a three-month figure"). The memo now carries the
+  coupon-reinvestment caveat required by numbers.yaml's rules: its odds are STRIPS basis, and the WInS-listed ladder
+  (Book L, the real ladder under `assumptions.md` R1) is not computed. Three entries were added, so the key file has
+  20: `bookL_cost_today` ($292,914.11) and `bookL_coupon_buffer_2pct` ($20,399) are locked numbers.yaml entries
+  (`wins.bookL.cost_model_accrued`, `reinvest.bookL_buffer_cost`); `gap_odds_2027_bookL` is `null`, NOT COMPUTED.
+  None of the three is an M2 result, so this gate's table is unchanged, and the decision rests on none of them.
 
 ## 7. What Gate B cannot catch
 
