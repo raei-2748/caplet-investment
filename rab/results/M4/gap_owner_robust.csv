@@ -1,13 +1,13 @@
-build,scenario,s_star_robust_A,s_star_robust_B
-primary,"none (STRIPS basis, M4 as specified)",0.47,0.47
-primary,"Book L, curve forwards",0.45,0.46
-primary,"Book L, today's yields",0.42,0.45
-primary,"Book L, today's yields - 2 points",,
-primary,"Book L, 2%",,
-primary,"Book L, 0%",,
-blind,"none (STRIPS basis, M4 as specified)",0.47,0.47
-blind,"Book L, curve forwards",0.45,0.46
-blind,"Book L, today's yields",0.42,0.45
-blind,"Book L, today's yields - 2 points",,
-blind,"Book L, 2%",,
-blind,"Book L, 0%",,
+build,scenario,s_star_robust_A,s_star_robust_B,s_star_robust_C
+primary,"none (STRIPS basis, M4 as specified)",0.47,0.47,0.47
+primary,"Book L, curve forwards",0.45,0.46,0.45
+primary,"Book L, today's yields",0.42,0.45,0.42
+primary,"Book L, today's yields - 2 points",,,
+primary,"Book L, 2%",,,
+primary,"Book L, 0%",,,
+blind,"none (STRIPS basis, M4 as specified)",0.47,0.47,0.47
+blind,"Book L, curve forwards",0.45,0.46,0.45
+blind,"Book L, today's yields",0.42,0.45,0.42
+blind,"Book L, today's yields - 2 points",,,
+blind,"Book L, 2%",,,
+blind,"Book L, 0%",,,

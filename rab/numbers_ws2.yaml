@@ -502,388 +502,1014 @@ numbers:
   ws2.d6.gap_owner:
     value:
       none (STRIPS basis, M4 as specified):
-        s_star_robust_A: 0.47
-        blind_s_star_robust_A: 0.47
-        pr7_recommends_A: 0.5
-        s_star_robust_B: 0.47
-        blind_s_star_robust_B: 0.47
-        pr7_recommends_B: 0.5
-        P_keep10_at_half_B:
-          T: 0.953
-          BOOT: 0.9359
-          BAYES: 0.9325
-        blind_P_keep10_at_half_B:
-          T: 0.9538
-          BOOT: 0.9371
-          BAYES: 0.9322
-        P_keep10_at_half_A:
-          T: 0.953
-          BOOT: 0.9359
-          BAYES: 0.9325
-        blind_P_keep10_at_half_A:
-          T: 0.9538
-          BOOT: 0.9371
-          BAYES: 0.9322
-        E_gift_at_half_B:
-          T: 174192
-          BOOT: 174129
-          BAYES: 174228
-        blind_E_gift_at_half_B:
-          T: 174200
-          BOOT: 174111
-          BAYES: 174242
-        top_median_at_half_B:
-          T: 174938
-          BOOT: 175487
-          BAYES: 174966
-        blind_top_median_at_half_B:
-          T: 174966
-          BOOT: 175472
-          BAYES: 175001
-        P_fund_below_gap_2031_B:
-          T: 0.0
-          BOOT: 0.0
-          BAYES: 0.0
-        blind_P_fund_below_gap_2031_B:
-          T: 0.0
-          BOOT: 0.0
-          BAYES: 0.0
-        P_gift_below_145k_at_half_B:
-          T: 0.0
-          BOOT: 0.0
-          BAYES: 0.0
-        blind_P_gift_below_145k_at_half_B:
-          T: 0.0
-          BOOT: 0.0
-          BAYES: 0.0
-        gap_valued_1jan2033: 0
         gap_valued_1jan2031: 0
+        gap_valued_1jan2033: 0
         rung_gaps_sum: 0
         surplus_on_other_rungs_not_netted: 0
+        A:
+          s_star_robust: 0.47
+          blind_s_star_robust: 0.47
+          pr7_recommends: 0.5
+          P_keep10_at_half:
+            T: 0.953
+            BOOT: 0.9359
+            BAYES: 0.9325
+          blind_P_keep10_at_half:
+            T: 0.9538
+            BOOT: 0.9371
+            BAYES: 0.9322
+          top_median_at_half:
+            T: 174938
+            BOOT: 175487
+            BAYES: 174966
+          blind_top_median_at_half:
+            T: 174966
+            BOOT: 175472
+            BAYES: 175001
+          E_gift_at_half:
+            T: 174192
+            BOOT: 174129
+            BAYES: 174228
+          blind_E_gift_at_half:
+            T: 174200
+            BOOT: 174111
+            BAYES: 174242
+          P_top_lowered_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_top_lowered_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          P_gift_below_145k_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_gift_below_145k_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+        B:
+          s_star_robust: 0.47
+          blind_s_star_robust: 0.47
+          pr7_recommends: 0.5
+          P_keep10_at_half:
+            T: 0.953
+            BOOT: 0.9359
+            BAYES: 0.9325
+          blind_P_keep10_at_half:
+            T: 0.9538
+            BOOT: 0.9371
+            BAYES: 0.9322
+          top_median_at_half:
+            T: 174938
+            BOOT: 175487
+            BAYES: 174966
+          blind_top_median_at_half:
+            T: 174966
+            BOOT: 175472
+            BAYES: 175001
+          E_gift_at_half:
+            T: 174192
+            BOOT: 174129
+            BAYES: 174228
+          blind_E_gift_at_half:
+            T: 174200
+            BOOT: 174111
+            BAYES: 174242
+          P_top_lowered_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_top_lowered_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          P_gift_below_145k_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_gift_below_145k_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+        C:
+          s_star_robust: 0.47
+          blind_s_star_robust: 0.47
+          pr7_recommends: 0.5
+          P_keep10_at_half:
+            T: 0.953
+            BOOT: 0.9359
+            BAYES: 0.9325
+          blind_P_keep10_at_half:
+            T: 0.9538
+            BOOT: 0.9371
+            BAYES: 0.9322
+          top_median_at_half:
+            T: 174938
+            BOOT: 175487
+            BAYES: 174966
+          blind_top_median_at_half:
+            T: 174966
+            BOOT: 175472
+            BAYES: 175001
+          E_gift_at_half:
+            T: 174192
+            BOOT: 174129
+            BAYES: 174228
+          blind_E_gift_at_half:
+            T: 174200
+            BOOT: 174111
+            BAYES: 174242
+          P_top_lowered_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_top_lowered_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          P_gift_below_145k_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_gift_below_145k_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
       Book L, curve forwards:
-        s_star_robust_A: 0.45
-        blind_s_star_robust_A: 0.45
-        pr7_recommends_A: 0.5
-        s_star_robust_B: 0.46
-        blind_s_star_robust_B: 0.46
-        pr7_recommends_B: 0.5
-        P_keep10_at_half_B:
-          T: 0.9497
-          BOOT: 0.9327
-          BAYES: 0.9286
-        blind_P_keep10_at_half_B:
-          T: 0.9507
-          BOOT: 0.9342
-          BAYES: 0.9285
-        P_keep10_at_half_A:
-          T: 0.9441
-          BOOT: 0.9274
-          BAYES: 0.9221
-        blind_P_keep10_at_half_A:
-          T: 0.9453
-          BOOT: 0.9287
-          BAYES: 0.9214
-        E_gift_at_half_B:
-          T: 173973
-          BOOT: 173912
-          BAYES: 174011
-        blind_E_gift_at_half_B:
-          T: 173980
-          BOOT: 173893
-          BAYES: 174024
-        top_median_at_half_B:
-          T: 174712
-          BOOT: 175261
-          BAYES: 174740
-        blind_top_median_at_half_B:
-          T: 174740
-          BOOT: 175246
-          BAYES: 174775
-        P_fund_below_gap_2031_B:
-          T: 0.0
-          BOOT: 0.0
-          BAYES: 0.0
-        blind_P_fund_below_gap_2031_B:
-          T: 0.0
-          BOOT: 0.0
-          BAYES: 0.0
-        P_gift_below_145k_at_half_B:
-          T: 0.0
-          BOOT: 0.0
-          BAYES: 0.0
-        blind_P_gift_below_145k_at_half_B:
-          T: 0.0
-          BOOT: 0.0
-          BAYES: 0.0
-        gap_valued_1jan2033: 499
         gap_valued_1jan2031: 452
+        gap_valued_1jan2033: 499
         rung_gaps_sum: 539
         surplus_on_other_rungs_not_netted: 8018
+        A:
+          s_star_robust: 0.45
+          blind_s_star_robust: 0.45
+          pr7_recommends: 0.5
+          P_keep10_at_half:
+            T: 0.9441
+            BOOT: 0.9274
+            BAYES: 0.9221
+          blind_P_keep10_at_half:
+            T: 0.9453
+            BOOT: 0.9287
+            BAYES: 0.9214
+          top_median_at_half:
+            T: 174938
+            BOOT: 175487
+            BAYES: 174966
+          blind_top_median_at_half:
+            T: 174966
+            BOOT: 175472
+            BAYES: 175001
+          E_gift_at_half:
+            T: 174192
+            BOOT: 174129
+            BAYES: 174228
+          blind_E_gift_at_half:
+            T: 174200
+            BOOT: 174111
+            BAYES: 174242
+          P_top_lowered_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_top_lowered_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          P_gift_below_145k_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_gift_below_145k_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+        B:
+          s_star_robust: 0.46
+          blind_s_star_robust: 0.46
+          pr7_recommends: 0.5
+          P_keep10_at_half:
+            T: 0.9497
+            BOOT: 0.9327
+            BAYES: 0.9286
+          blind_P_keep10_at_half:
+            T: 0.9507
+            BOOT: 0.9342
+            BAYES: 0.9285
+          top_median_at_half:
+            T: 174712
+            BOOT: 175261
+            BAYES: 174740
+          blind_top_median_at_half:
+            T: 174740
+            BOOT: 175246
+            BAYES: 174775
+          E_gift_at_half:
+            T: 173973
+            BOOT: 173912
+            BAYES: 174011
+          blind_E_gift_at_half:
+            T: 173980
+            BOOT: 173893
+            BAYES: 174024
+          P_top_lowered_2031_at_half:
+            T: 1.0
+            BOOT: 1.0
+            BAYES: 1.0
+          blind_P_top_lowered_2031_at_half:
+            T: 1.0
+            BOOT: 1.0
+            BAYES: 1.0
+          P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          P_gift_below_145k_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_gift_below_145k_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+        C:
+          s_star_robust: 0.45
+          blind_s_star_robust: 0.45
+          pr7_recommends: 0.5
+          P_keep10_at_half:
+            T: 0.9441
+            BOOT: 0.9274
+            BAYES: 0.9221
+          blind_P_keep10_at_half:
+            T: 0.9453
+            BOOT: 0.9287
+            BAYES: 0.9214
+          top_median_at_half:
+            T: 174938
+            BOOT: 175487
+            BAYES: 174966
+          blind_top_median_at_half:
+            T: 174966
+            BOOT: 175472
+            BAYES: 175001
+          E_gift_at_half:
+            T: 174192
+            BOOT: 174129
+            BAYES: 174228
+          blind_E_gift_at_half:
+            T: 174200
+            BOOT: 174111
+            BAYES: 174242
+          P_top_lowered_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_top_lowered_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          P_gift_below_145k_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_gift_below_145k_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
       Book L, today's yields:
-        s_star_robust_A: 0.42
-        blind_s_star_robust_A: 0.42
-        pr7_recommends_A: 0.5
-        s_star_robust_B: 0.45
-        blind_s_star_robust_B: 0.45
-        pr7_recommends_B: 0.5
-        P_keep10_at_half_B:
-          T: 0.9421
-          BOOT: 0.9254
-          BAYES: 0.9197
-        blind_P_keep10_at_half_B:
-          T: 0.9434
-          BOOT: 0.9268
-          BAYES: 0.9192
-        P_keep10_at_half_A:
-          T: 0.9219
-          BOOT: 0.9052
-          BAYES: 0.8956
-        blind_P_keep10_at_half_A:
-          T: 0.9229
-          BOOT: 0.9056
-          BAYES: 0.8954
-        E_gift_at_half_B:
-          T: 173482
-          BOOT: 173426
-          BAYES: 173524
-        blind_E_gift_at_half_B:
-          T: 173490
-          BOOT: 173408
-          BAYES: 173538
-        top_median_at_half_B:
-          T: 174206
-          BOOT: 174756
-          BAYES: 174235
-        blind_top_median_at_half_B:
-          T: 174234
-          BOOT: 174741
-          BAYES: 174269
-        P_fund_below_gap_2031_B:
-          T: 0.0
-          BOOT: 0.0
-          BAYES: 0.0
-        blind_P_fund_below_gap_2031_B:
-          T: 0.0
-          BOOT: 0.0
-          BAYES: 0.0
-        P_gift_below_145k_at_half_B:
-          T: 0.0
-          BOOT: 0.0
-          BAYES: 0.0
-        blind_P_gift_below_145k_at_half_B:
-          T: 0.0
-          BOOT: 0.0
-          BAYES: 0.0
-        gap_valued_1jan2033: 1613
         gap_valued_1jan2031: 1463
+        gap_valued_1jan2033: 1613
         rung_gaps_sum: 1787
         surplus_on_other_rungs_not_netted: 4942
+        A:
+          s_star_robust: 0.42
+          blind_s_star_robust: 0.42
+          pr7_recommends: 0.5
+          P_keep10_at_half:
+            T: 0.9219
+            BOOT: 0.9052
+            BAYES: 0.8956
+          blind_P_keep10_at_half:
+            T: 0.9229
+            BOOT: 0.9056
+            BAYES: 0.8954
+          top_median_at_half:
+            T: 174938
+            BOOT: 175487
+            BAYES: 174966
+          blind_top_median_at_half:
+            T: 174966
+            BOOT: 175472
+            BAYES: 175001
+          E_gift_at_half:
+            T: 174192
+            BOOT: 174129
+            BAYES: 174228
+          blind_E_gift_at_half:
+            T: 174200
+            BOOT: 174111
+            BAYES: 174242
+          P_top_lowered_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_top_lowered_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          P_gift_below_145k_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_gift_below_145k_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+        B:
+          s_star_robust: 0.45
+          blind_s_star_robust: 0.45
+          pr7_recommends: 0.5
+          P_keep10_at_half:
+            T: 0.9421
+            BOOT: 0.9254
+            BAYES: 0.9197
+          blind_P_keep10_at_half:
+            T: 0.9434
+            BOOT: 0.9268
+            BAYES: 0.9192
+          top_median_at_half:
+            T: 174206
+            BOOT: 174756
+            BAYES: 174235
+          blind_top_median_at_half:
+            T: 174234
+            BOOT: 174741
+            BAYES: 174269
+          E_gift_at_half:
+            T: 173482
+            BOOT: 173426
+            BAYES: 173524
+          blind_E_gift_at_half:
+            T: 173490
+            BOOT: 173408
+            BAYES: 173538
+          P_top_lowered_2031_at_half:
+            T: 1.0
+            BOOT: 1.0
+            BAYES: 1.0
+          blind_P_top_lowered_2031_at_half:
+            T: 1.0
+            BOOT: 1.0
+            BAYES: 1.0
+          P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          P_gift_below_145k_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_gift_below_145k_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+        C:
+          s_star_robust: 0.42
+          blind_s_star_robust: 0.42
+          pr7_recommends: 0.5
+          P_keep10_at_half:
+            T: 0.9219
+            BOOT: 0.9052
+            BAYES: 0.8956
+          blind_P_keep10_at_half:
+            T: 0.9229
+            BOOT: 0.9056
+            BAYES: 0.8954
+          top_median_at_half:
+            T: 174938
+            BOOT: 175487
+            BAYES: 174966
+          blind_top_median_at_half:
+            T: 174966
+            BOOT: 175472
+            BAYES: 175001
+          E_gift_at_half:
+            T: 174192
+            BOOT: 174129
+            BAYES: 174228
+          blind_E_gift_at_half:
+            T: 174200
+            BOOT: 174111
+            BAYES: 174242
+          P_top_lowered_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_top_lowered_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          P_gift_below_145k_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_gift_below_145k_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
       Book L, today's yields - 2 points:
-        s_star_robust_A: null
-        blind_s_star_robust_A: null
-        pr7_recommends_A: null
-        s_star_robust_B: null
-        blind_s_star_robust_B: null
-        pr7_recommends_B: null
-        P_keep10_at_half_B:
-          T: 0.7024
-          BOOT: 0.7048
-          BAYES: 0.6782
-        blind_P_keep10_at_half_B:
-          T: 0.7035
-          BOOT: 0.7049
-          BAYES: 0.6784
-        P_keep10_at_half_A:
-          T: 0.4158
-          BOOT: 0.4516
-          BAYES: 0.428
-        blind_P_keep10_at_half_A:
-          T: 0.4147
-          BOOT: 0.4533
-          BAYES: 0.4277
-        E_gift_at_half_B:
-          T: 165952
-          BOOT: 165962
-          BAYES: 166055
-        blind_E_gift_at_half_B:
-          T: 165960
-          BOOT: 165942
-          BAYES: 166070
-        top_median_at_half_B:
-          T: 166453
-          BOOT: 167002
-          BAYES: 166482
-        blind_top_median_at_half_B:
-          T: 166481
-          BOOT: 166987
-          BAYES: 166516
-        P_fund_below_gap_2031_B:
-          T: 0.0003
-          BOOT: 0.0064
-          BAYES: 0.0005
-        blind_P_fund_below_gap_2031_B:
-          T: 0.0002
-          BOOT: 0.0062
-          BAYES: 0.0004
-        P_gift_below_145k_at_half_B:
-          T: 0.0
-          BOOT: 0.0025
-          BAYES: 0.0
-        blind_P_gift_below_145k_at_half_B:
-          T: 0.0
-          BOOT: 0.0025
-          BAYES: 0.0
-        gap_valued_1jan2033: 18003
         gap_valued_1jan2031: 16969
+        gap_valued_1jan2033: 18003
         rung_gaps_sum: 20826
         surplus_on_other_rungs_not_netted: 0
+        A:
+          s_star_robust: null
+          blind_s_star_robust: null
+          pr7_recommends: null
+          P_keep10_at_half:
+            T: 0.4158
+            BOOT: 0.4516
+            BAYES: 0.428
+          blind_P_keep10_at_half:
+            T: 0.4147
+            BOOT: 0.4533
+            BAYES: 0.4277
+          top_median_at_half:
+            T: 174938
+            BOOT: 175487
+            BAYES: 174966
+          blind_top_median_at_half:
+            T: 174966
+            BOOT: 175472
+            BAYES: 175001
+          E_gift_at_half:
+            T: 173989
+            BOOT: 173790
+            BAYES: 173927
+          blind_E_gift_at_half:
+            T: 174001
+            BOOT: 173778
+            BAYES: 173939
+          P_top_lowered_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_top_lowered_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          P_gift_below_145k_at_half:
+            T: 0.0001
+            BOOT: 0.0035
+            BAYES: 0.0003
+          blind_P_gift_below_145k_at_half:
+            T: 0.0001
+            BOOT: 0.003
+            BAYES: 0.0003
+        B:
+          s_star_robust: null
+          blind_s_star_robust: null
+          pr7_recommends: null
+          P_keep10_at_half:
+            T: 0.7024
+            BOOT: 0.7048
+            BAYES: 0.6782
+          blind_P_keep10_at_half:
+            T: 0.7035
+            BOOT: 0.7049
+            BAYES: 0.6784
+          top_median_at_half:
+            T: 166453
+            BOOT: 167002
+            BAYES: 166482
+          blind_top_median_at_half:
+            T: 166481
+            BOOT: 166987
+            BAYES: 166516
+          E_gift_at_half:
+            T: 165952
+            BOOT: 165962
+            BAYES: 166055
+          blind_E_gift_at_half:
+            T: 165960
+            BOOT: 165942
+            BAYES: 166070
+          P_top_lowered_2031_at_half:
+            T: 1.0
+            BOOT: 1.0
+            BAYES: 1.0
+          blind_P_top_lowered_2031_at_half:
+            T: 1.0
+            BOOT: 1.0
+            BAYES: 1.0
+          P_fund_below_gap_2031_at_half:
+            T: 0.0003
+            BOOT: 0.0064
+            BAYES: 0.0005
+          blind_P_fund_below_gap_2031_at_half:
+            T: 0.0002
+            BOOT: 0.0062
+            BAYES: 0.0004
+          P_gift_below_145k_at_half:
+            T: 0.0
+            BOOT: 0.0025
+            BAYES: 0.0
+          blind_P_gift_below_145k_at_half:
+            T: 0.0
+            BOOT: 0.0025
+            BAYES: 0.0
+        C:
+          s_star_robust: null
+          blind_s_star_robust: null
+          pr7_recommends: null
+          P_keep10_at_half:
+            T: 0.416
+            BOOT: 0.452
+            BAYES: 0.4283
+          blind_P_keep10_at_half:
+            T: 0.415
+            BOOT: 0.4537
+            BAYES: 0.4282
+          top_median_at_half:
+            T: 174938
+            BOOT: 175487
+            BAYES: 174966
+          blind_top_median_at_half:
+            T: 174966
+            BOOT: 175472
+            BAYES: 175001
+          E_gift_at_half:
+            T: 173930
+            BOOT: 173690
+            BAYES: 173850
+          blind_E_gift_at_half:
+            T: 173942
+            BOOT: 173676
+            BAYES: 173863
+          P_top_lowered_2031_at_half:
+            T: 0.07
+            BOOT: 0.0914
+            BAYES: 0.0957
+          blind_P_top_lowered_2031_at_half:
+            T: 0.0693
+            BOOT: 0.0907
+            BAYES: 0.0953
+          P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0013
+            BAYES: 0.0
+          blind_P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0012
+            BAYES: 0.0
+          P_gift_below_145k_at_half:
+            T: 0.0
+            BOOT: 0.0031
+            BAYES: 0.0001
+          blind_P_gift_below_145k_at_half:
+            T: 0.0
+            BOOT: 0.0028
+            BAYES: 0.0001
       Book L, 2%:
-        s_star_robust_A: null
-        blind_s_star_robust_A: null
-        pr7_recommends_A: null
-        s_star_robust_B: null
-        blind_s_star_robust_B: null
-        pr7_recommends_B: null
-        P_keep10_at_half_B:
-          T: 0.3878
-          BOOT: 0.4239
-          BAYES: 0.4009
-        blind_P_keep10_at_half_B:
-          T: 0.3874
-          BOOT: 0.4231
-          BAYES: 0.402
-        P_keep10_at_half_A:
-          T: 0.1729
-          BOOT: 0.2061
-          BAYES: 0.2086
-        blind_P_keep10_at_half_A:
-          T: 0.1729
-          BOOT: 0.2063
-          BAYES: 0.2086
-        E_gift_at_half_B:
-          T: 159913
-          BOOT: 159913
-          BAYES: 160045
-        blind_E_gift_at_half_B:
-          T: 159923
-          BOOT: 159894
-          BAYES: 160061
-        top_median_at_half_B:
-          T: 160283
-          BOOT: 160833
-          BAYES: 160312
-        blind_top_median_at_half_B:
-          T: 160311
-          BOOT: 160818
-          BAYES: 160346
-        P_fund_below_gap_2031_B:
-          T: 0.0261
-          BOOT: 0.042
-          BAYES: 0.0375
-        blind_P_fund_below_gap_2031_B:
-          T: 0.0259
-          BOOT: 0.0423
-          BAYES: 0.0373
-        P_gift_below_145k_at_half_B:
-          T: 0.0091
-          BOOT: 0.0213
-          BAYES: 0.0129
-        blind_P_gift_below_145k_at_half_B:
-          T: 0.0087
-          BOOT: 0.021
-          BAYES: 0.0126
-        gap_valued_1jan2033: 30493
         gap_valued_1jan2031: 29309
+        gap_valued_1jan2033: 30493
         rung_gaps_sum: 33814
         surplus_on_other_rungs_not_netted: 0
+        A:
+          s_star_robust: null
+          blind_s_star_robust: null
+          pr7_recommends: null
+          P_keep10_at_half:
+            T: 0.1729
+            BOOT: 0.2061
+            BAYES: 0.2086
+          blind_P_keep10_at_half:
+            T: 0.1729
+            BOOT: 0.2063
+            BAYES: 0.2086
+          top_median_at_half:
+            T: 174938
+            BOOT: 175487
+            BAYES: 174966
+          blind_top_median_at_half:
+            T: 174966
+            BOOT: 175472
+            BAYES: 175001
+          E_gift_at_half:
+            T: 170933
+            BOOT: 170729
+            BAYES: 170575
+          blind_E_gift_at_half:
+            T: 170952
+            BOOT: 170720
+            BAYES: 170591
+          P_top_lowered_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_top_lowered_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          P_gift_below_145k_at_half:
+            T: 0.0148
+            BOOT: 0.031
+            BAYES: 0.023
+          blind_P_gift_below_145k_at_half:
+            T: 0.0145
+            BOOT: 0.0304
+            BAYES: 0.0233
+        B:
+          s_star_robust: null
+          blind_s_star_robust: null
+          pr7_recommends: null
+          P_keep10_at_half:
+            T: 0.3878
+            BOOT: 0.4239
+            BAYES: 0.4009
+          blind_P_keep10_at_half:
+            T: 0.3874
+            BOOT: 0.4231
+            BAYES: 0.402
+          top_median_at_half:
+            T: 160283
+            BOOT: 160833
+            BAYES: 160312
+          blind_top_median_at_half:
+            T: 160311
+            BOOT: 160818
+            BAYES: 160346
+          E_gift_at_half:
+            T: 159913
+            BOOT: 159913
+            BAYES: 160045
+          blind_E_gift_at_half:
+            T: 159923
+            BOOT: 159894
+            BAYES: 160061
+          P_top_lowered_2031_at_half:
+            T: 1.0
+            BOOT: 1.0
+            BAYES: 1.0
+          blind_P_top_lowered_2031_at_half:
+            T: 1.0
+            BOOT: 1.0
+            BAYES: 1.0
+          P_fund_below_gap_2031_at_half:
+            T: 0.0261
+            BOOT: 0.042
+            BAYES: 0.0375
+          blind_P_fund_below_gap_2031_at_half:
+            T: 0.0259
+            BOOT: 0.0423
+            BAYES: 0.0373
+          P_gift_below_145k_at_half:
+            T: 0.0091
+            BOOT: 0.0213
+            BAYES: 0.0129
+          blind_P_gift_below_145k_at_half:
+            T: 0.0087
+            BOOT: 0.021
+            BAYES: 0.0126
+        C:
+          s_star_robust: null
+          blind_s_star_robust: null
+          pr7_recommends: null
+          P_keep10_at_half:
+            T: 0.1911
+            BOOT: 0.2276
+            BAYES: 0.2276
+          blind_P_keep10_at_half:
+            T: 0.1913
+            BOOT: 0.2272
+            BAYES: 0.2279
+          top_median_at_half:
+            T: 170567
+            BOOT: 171665
+            BAYES: 170624
+          blind_top_median_at_half:
+            T: 170622
+            BOOT: 171635
+            BAYES: 170692
+          E_gift_at_half:
+            T: 169010
+            BOOT: 168872
+            BAYES: 168737
+          blind_E_gift_at_half:
+            T: 169020
+            BOOT: 168841
+            BAYES: 168754
+          P_top_lowered_2031_at_half:
+            T: 0.7416
+            BOOT: 0.7003
+            BAYES: 0.7083
+          blind_P_top_lowered_2031_at_half:
+            T: 0.7441
+            BOOT: 0.7017
+            BAYES: 0.7092
+          P_fund_below_gap_2031_at_half:
+            T: 0.0011
+            BOOT: 0.0088
+            BAYES: 0.0016
+          blind_P_fund_below_gap_2031_at_half:
+            T: 0.001
+            BOOT: 0.0087
+            BAYES: 0.0014
+          P_gift_below_145k_at_half:
+            T: 0.0105
+            BOOT: 0.0264
+            BAYES: 0.0158
+          blind_P_gift_below_145k_at_half:
+            T: 0.0101
+            BOOT: 0.0263
+            BAYES: 0.0153
       Book L, 0%:
-        s_star_robust_A: null
-        blind_s_star_robust_A: null
-        pr7_recommends_A: null
-        s_star_robust_B: null
-        blind_s_star_robust_B: null
-        pr7_recommends_B: null
-        P_keep10_at_half_B:
-          T: 0.056
-          BOOT: 0.0655
-          BAYES: 0.0793
-        blind_P_keep10_at_half_B:
-          T: 0.0561
-          BOOT: 0.0638
-          BAYES: 0.0785
-        P_keep10_at_half_A:
-          T: 0.0347
-          BOOT: 0.0379
-          BAYES: 0.0524
-        blind_P_keep10_at_half_A:
-          T: 0.0347
-          BOOT: 0.0382
-          BAYES: 0.0531
-        E_gift_at_half_B:
-          T: 145381
-          BOOT: 145449
-          BAYES: 145325
-        blind_E_gift_at_half_B:
-          T: 145408
-          BOOT: 145425
-          BAYES: 145353
-        top_median_at_half_B:
-          T: 146716
-          BOOT: 147815
-          BAYES: 146774
-        blind_top_median_at_half_B:
-          T: 146772
-          BOOT: 147785
-          BAYES: 146842
-        P_fund_below_gap_2031_B:
-          T: 0.6016
-          BOOT: 0.5639
-          BAYES: 0.5855
-        blind_P_fund_below_gap_2031_B:
-          T: 0.6025
-          BOOT: 0.5649
-          BAYES: 0.5838
-        P_gift_below_145k_at_half_B:
-          T: 0.4626
-          BOOT: 0.4357
-          BAYES: 0.4672
-        blind_P_gift_below_145k_at_half_B:
-          T: 0.4598
-          BOOT: 0.4368
-          BAYES: 0.4648
-        gap_valued_1jan2033: 53159
         gap_valued_1jan2031: 53159
+        gap_valued_1jan2033: 53159
         rung_gaps_sum: 53159
         surplus_on_other_rungs_not_netted: 0
-    unit: USD / share / probability
-    quote_as: if the stock fund fills any coupon gap in 2031 before the range is set, the rule keeps half at today's yields
-      (largest passing share 0.45 in all three models, against 0.42 if Laura's kept money pays in 2033); at yields 2 points
-      lower still no share passes under either owner; the top then drops about $8,500 instead of the gift breaking the range
-      (MODEL)
-    what: 'mechanism A: Laura''s kept money pays the gap in 2033 (v3 memos; equals ws2.d6.ladder_gap). Mechanism B: the
-      gap valued 1 Jan 2031 is set aside from the stock fund before the share is applied (WS3 stress rule 3: payments first);
-      the rest of the fund keeps its stock path; if the gap exceeds the fund the floor pays the rest (the bottom moves).
-      Flat-rate scenarios only: a fall in yields after 2031 is not modelled. ''curve forwards'' = coupons earn the 28 Sep
-      curve''s forward rates (numbers.yaml at_curve).'
+        A:
+          s_star_robust: null
+          blind_s_star_robust: null
+          pr7_recommends: null
+          P_keep10_at_half:
+            T: 0.0347
+            BOOT: 0.0379
+            BAYES: 0.0524
+          blind_P_keep10_at_half:
+            T: 0.0347
+            BOOT: 0.0382
+            BAYES: 0.0531
+          top_median_at_half:
+            T: 174938
+            BOOT: 175487
+            BAYES: 174966
+          blind_top_median_at_half:
+            T: 174966
+            BOOT: 175472
+            BAYES: 175001
+          E_gift_at_half:
+            T: 155002
+            BOOT: 155571
+            BAYES: 155177
+          blind_E_gift_at_half:
+            T: 155006
+            BOOT: 155564
+            BAYES: 155195
+          P_top_lowered_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_top_lowered_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          blind_P_fund_below_gap_2031_at_half:
+            T: 0.0
+            BOOT: 0.0
+            BAYES: 0.0
+          P_gift_below_145k_at_half:
+            T: 0.3152
+            BOOT: 0.3126
+            BAYES: 0.3391
+          blind_P_gift_below_145k_at_half:
+            T: 0.3145
+            BOOT: 0.313
+            BAYES: 0.3377
+        B:
+          s_star_robust: null
+          blind_s_star_robust: null
+          pr7_recommends: null
+          P_keep10_at_half:
+            T: 0.056
+            BOOT: 0.0655
+            BAYES: 0.0793
+          blind_P_keep10_at_half:
+            T: 0.0561
+            BOOT: 0.0638
+            BAYES: 0.0785
+          top_median_at_half:
+            T: 146716
+            BOOT: 147815
+            BAYES: 146774
+          blind_top_median_at_half:
+            T: 146772
+            BOOT: 147785
+            BAYES: 146842
+          E_gift_at_half:
+            T: 145381
+            BOOT: 145449
+            BAYES: 145325
+          blind_E_gift_at_half:
+            T: 145408
+            BOOT: 145425
+            BAYES: 145353
+          P_top_lowered_2031_at_half:
+            T: 1.0
+            BOOT: 1.0
+            BAYES: 1.0
+          blind_P_top_lowered_2031_at_half:
+            T: 1.0
+            BOOT: 1.0
+            BAYES: 1.0
+          P_fund_below_gap_2031_at_half:
+            T: 0.6016
+            BOOT: 0.5639
+            BAYES: 0.5855
+          blind_P_fund_below_gap_2031_at_half:
+            T: 0.6025
+            BOOT: 0.5649
+            BAYES: 0.5838
+          P_gift_below_145k_at_half:
+            T: 0.4626
+            BOOT: 0.4357
+            BAYES: 0.4672
+          blind_P_gift_below_145k_at_half:
+            T: 0.4598
+            BOOT: 0.4368
+            BAYES: 0.4648
+        C:
+          s_star_robust: null
+          blind_s_star_robust: null
+          pr7_recommends: null
+          P_keep10_at_half:
+            T: 0.0761
+            BOOT: 0.0964
+            BAYES: 0.1038
+          blind_P_keep10_at_half:
+            T: 0.0759
+            BOOT: 0.0964
+            BAYES: 0.1034
+          top_median_at_half:
+            T: 147449
+            BOOT: 148400
+            BAYES: 147751
+          blind_top_median_at_half:
+            T: 147524
+            BOOT: 148369
+            BAYES: 147801
+          E_gift_at_half:
+            T: 148878
+            BOOT: 149255
+            BAYES: 149556
+          blind_E_gift_at_half:
+            T: 148887
+            BOOT: 149205
+            BAYES: 149579
+          P_top_lowered_2031_at_half:
+            T: 0.9952
+            BOOT: 0.9983
+            BAYES: 0.9933
+          blind_P_top_lowered_2031_at_half:
+            T: 0.9949
+            BOOT: 0.9982
+            BAYES: 0.9931
+          P_fund_below_gap_2031_at_half:
+            T: 0.0915
+            BOOT: 0.1136
+            BAYES: 0.1221
+          blind_P_fund_below_gap_2031_at_half:
+            T: 0.0915
+            BOOT: 0.1136
+            BAYES: 0.1221
+          P_gift_below_145k_at_half:
+            T: 0.4398
+            BOOT: 0.418
+            BAYES: 0.4398
+          blind_P_gift_below_145k_at_half:
+            T: 0.4369
+            BOOT: 0.4187
+            BAYES: 0.438
+    unit: USD / share / probability (at share 1/2 unless stated)
+    quote_as: with Laura's half paying a coupon shortfall first (WS3 rule 3), the rule keeps half at today's yields (largest
+      passing share 0.42 in all three models) and the 2031 top is never lowered; at yields 2 points lower no share passes
+      under any owner, the top is lowered in 7-10% of paths, and the gift falls below $145,000 in at most about 1 path in
+      300 (MODEL)
+    what: 'A: Laura''s kept money pays the gap in 2033 (v3; equals ws2.d6.ladder_gap). B: the gap valued 1 Jan 2031 is set
+      aside from the whole stock fund before the share is applied (WS3 rule 3 before ad74847); the top becomes F + s (fund
+      - gap). C (adopted, D6 v5): Laura''s part (1 - s) of the 2031 fund covers the gap first; the 2031 top is lowered only
+      by the part it cannot cover; she pays her part in 2033 and, if her money runs out, the gift is cut, never below the
+      floor unless the gap exceeds the fund (WS3 rule 3 from ad74847). Flat-rate scenarios: a fall in yields after 2031
+      is not modelled. ''curve forwards'' = coupons earn the 28 Sep curve''s forward rates (numbers.yaml at_curve). Rung
+      gaps are max(0, 50,000 - delivered); surpluses on later rungs are not netted.'
     source: rab/results/M4/gap_owner.csv and gap_owner_robust.csv (rab/models/m4_gap_owner.py)
     gate_b: WITHIN TOL (primary vs blind in the same run; mechanism A equals ladder_gap.csv on all 30 rows)
   ws2.d6.gap_owner_tolerance:
     value:
-      s=0.00: 16306
-      s=0.33: 8047
-      s=0.40: 4678
-      s=0.50: null
+      B:
+        s=0.00: 16306
+        s=0.33: 8047
+        s=0.40: 4678
+        s=0.50: null
+      C:
+        s=0.00: 14484
+        s=0.33: 4358
+        s=0.40: 2216
+        s=0.50: null
     blind:
-      s=0.00: 16324
-      s=0.33: 8075
-      s=0.40: 4770
-      s=0.50: null
-    unit: USD valued 1 Jan 2031 (largest gap the stock fund can fill in 2031 with share s still passing PR-4 and PR-5 in
-      all three models; null = fails with no gap)
-    quote_as: with the stock fund filling it first, the rule keeps half for a 2031 gap up to about $4,700 (about twice the
-      $2,400 if Laura's kept money pays it); no share passes above about $16,000 (MODEL)
+      B:
+        s=0.00: 16324
+        s=0.33: 8075
+        s=0.40: 4770
+        s=0.50: null
+      C:
+        s=0.00: 14584
+        s=0.33: 4422
+        s=0.40: 2243
+        s=0.50: null
+    unit: USD valued 1 Jan 2031 (largest gap for which share s still passes PR-4 and PR-5 in all three models; null = fails
+      with no gap)
+    quote_as: with Laura's half paying first, the rule keeps half for a 2031 gap up to about $2,200 (about $4,700 if the
+      whole fund paid first); no share passes above about $14,500 (MODEL)
     what: s = 0.40 is the smallest robust s* at which PR-7 still keeps half; s = 0.50 is null because half passes PR-5 only
-      under T even with no gap
+      under T even with no gap. Mechanism A's tolerance (valued 2033) is ws2.d6.ladder_gap_tolerance.
     source: rab/results/M4/gap_owner_tolerance.csv (rab/models/m4_gap_owner.py)
     gate_b: WITHIN TOL
   ws2.range.gift_inside_range:

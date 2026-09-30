@@ -7,8 +7,9 @@ blind value is `blind` with a verdict against the Gate B tolerances (dollars +-2
 shares 0.02). Entries marked DERIVED are simple arithmetic on reconciled keys. The two ws2.d6.ladder_gap* entries
 come from rab/models/m4_ladder_gap.py, which runs the primary and the blind build side by side (a sensitivity added
 after Gate B for WS7's red-team challenge; recorded in rab/gates/gate_B_ws2.md s9). The two ws2.d6.gap_owner* entries
-come from rab/models/m4_gap_owner.py (both builds in one run; gate_B_ws2.md s10): the same D6 rule when the stock fund,
-not Laura's kept money, fills the gap in 2031 before the range is set (WS3 stress rule 3).
+come from rab/models/m4_gap_owner.py (both builds in one run; gate_B_ws2.md s10): the same D6 rule under three owners of
+a coupon gap (kept money in 2033; the whole fund in 2031; Laura's part first with the 2031 top lowered only by what it
+cannot cover, WS3 stress rule 3 from ad74847).
 
 Run from the worktree root:  /Users/ray/Research/rab-ws/.venv/bin/python rab/models/build_numbers_ws2.py
 """
@@ -241,69 +242,75 @@ def main():
              "passes PR-5 only under T (it is kept by PR-7's 0.40-0.60 band, not by passing in every model)",
         source="rab/results/M4/ladder_gap_tolerance.csv (rab/models/m4_ladder_gap.py)", gate_b=worst(tv))
 
-    # D6 when the stock fund fills the gap in 2031 before the range is set (WS3 D_stress_bad_year.md rule 3;
-    # rab/models/m4_gap_owner.py, both builds in one run). Mechanism A = the v3 check above, reproduced exactly.
+    # Who pays a coupon gap (rab/models/m4_gap_owner.py, both builds in one run): A = kept money in 2033 (v3, equals
+    # ws2.d6.ladder_gap), B = whole fund in 2031 before the range, C = Laura's part first and the 2031 top lowered only
+    # by what it cannot cover (WS3 D_stress_bad_year.md rule 3 from ad74847; the owner D6 v5 adopts).
     go = pd.read_csv(RES / "M4" / "gap_owner.csv")
     gor = pd.read_csv(RES / "M4" / "gap_owner_robust.csv")
     got = pd.read_csv(RES / "M4" / "gap_owner_tolerance.csv")
+    MECH = ("A", "B", "C")
     val, vs = {}, []
     for sc in gor["scenario"].unique():
         rp = gor[(gor["build"] == "primary") & (gor["scenario"] == sc)].iloc[0]
         rb = gor[(gor["build"] == "blind") & (gor["scenario"] == sc)].iloc[0]
-        e = {}
-        for mech in ("A", "B"):
+        g0 = go[go["scenario"] == sc].iloc[0]
+        e = dict(gap_valued_1jan2031=r0(g0["g31"]), gap_valued_1jan2033=r0(g0["g33"]),
+                 rung_gaps_sum=r0(g0["gap_sum"]), surplus_on_other_rungs_not_netted=r0(g0["surplus_sum"]))
+        for mech in MECH:
             sp, sb = nan2none(rp[f"s_star_robust_{mech}"]), nan2none(rb[f"s_star_robust_{mech}"])
             vs.append("MATCH" if sp == sb else ("OUTSIDE TOL" if sp is None or sb is None
                                                  else verdict(sp, sb, "share")))
-            e[f"s_star_robust_{mech}"], e[f"blind_s_star_robust_{mech}"] = sp, sb
             rec = pr7(sp)
-            e[f"pr7_recommends_{mech}"] = None if rec is None else round(rec, 4)
-        pick = lambda b, col: {m: float(go[(go["build"] == b) & (go["scenario"] == sc) & (go["model"] == m)][col]
-                                        .iloc[0]) for m in MODELS}
-        for col, kind, key in (("P_keep10_half_B", "prob", "P_keep10_at_half_B"),
-                               ("P_keep10_half_A", "prob", "P_keep10_at_half_A"),
-                               ("E_gift_half_B", "usd", "E_gift_at_half_B"),
-                               ("top_median_half_B", "usd", "top_median_at_half_B"),
-                               ("P_fund_short_B", "prob", "P_fund_below_gap_2031_B"),
-                               ("P_gift_below_145k_half_B", "prob", "P_gift_below_145k_at_half_B")):
-            a, b = pick("primary", col), pick("blind", col)
-            f = r0 if kind == "usd" else p4
-            e[key], e["blind_" + key] = {m: f(a[m]) for m in MODELS}, {m: f(b[m]) for m in MODELS}
-            vs += [verdict(f(a[m]), f(b[m]), kind) for m in MODELS]
-        g0 = go[go["scenario"] == sc].iloc[0]
-        e["gap_valued_1jan2033"], e["gap_valued_1jan2031"] = r0(g0["g33"]), r0(g0["g31"])
-        e["rung_gaps_sum"], e["surplus_on_other_rungs_not_netted"] = r0(g0["gap_sum"]), r0(g0["surplus_sum"])
+            d = dict(s_star_robust=sp, blind_s_star_robust=sb, pr7_recommends=None if rec is None else round(rec, 4))
+            pick = lambda b, col: {m: float(go[(go["build"] == b) & (go["scenario"] == sc) & (go["model"] == m)]
+                                            [col].iloc[0]) for m in MODELS}
+            for col, kind, key in (("P_keep10_half", "prob", "P_keep10_at_half"),
+                                   ("top_median_half", "usd", "top_median_at_half"),
+                                   ("E_gift_half", "usd", "E_gift_at_half"),
+                                   ("P_top_lowered_half", "prob", "P_top_lowered_2031_at_half"),
+                                   ("P_fund_short", "prob", "P_fund_below_gap_2031_at_half"),
+                                   ("P_gift_below_145k_half", "prob", "P_gift_below_145k_at_half")):
+                a, b = pick("primary", f"{col}_{mech}"), pick("blind", f"{col}_{mech}")
+                f = r0 if kind == "usd" else p4
+                d[key], d["blind_" + key] = {m: f(a[m]) for m in MODELS}, {m: f(b[m]) for m in MODELS}
+                vs += [verdict(f(a[m]), f(b[m]), kind) for m in MODELS]
+            e[mech] = d
         val[sc] = e
     checks.append(("gap-owner sensitivity primary vs blind", worst(vs)))
     n["ws2.d6.gap_owner"] = dict(
-        value=val, unit="USD / share / probability",
-        quote_as="if the stock fund fills any coupon gap in 2031 before the range is set, the rule keeps half at "
-                 "today's yields (largest passing share 0.45 in all three models, against 0.42 if Laura's kept "
-                 "money pays in 2033); at yields 2 points lower still no share passes under either owner; the top "
-                 "then drops about $8,500 instead of the gift breaking the range (MODEL)",
-        what="mechanism A: Laura's kept money pays the gap in 2033 (v3 memos; equals ws2.d6.ladder_gap). Mechanism B: "
-             "the gap valued 1 Jan 2031 is set aside from the stock fund before the share is applied (WS3 stress "
-             "rule 3: payments first); the rest of the fund keeps its stock path; if the gap exceeds the fund the "
-             "floor pays the rest (the bottom moves). Flat-rate scenarios only: a fall in yields after 2031 is not "
-             "modelled. 'curve forwards' = coupons earn the 28 Sep curve's forward rates (numbers.yaml at_curve).",
+        value=val, unit="USD / share / probability (at share 1/2 unless stated)",
+        quote_as="with Laura's half paying a coupon shortfall first (WS3 rule 3), the rule keeps half at today's yields "
+                 "(largest passing share 0.42 in all three models) and the 2031 top is never lowered; at yields 2 "
+                 "points lower no share passes under any owner, the top is lowered in 7-10% of paths, and the gift "
+                 "falls below $145,000 in at most about 1 path in 300 (MODEL)",
+        what="A: Laura's kept money pays the gap in 2033 (v3; equals ws2.d6.ladder_gap). B: the gap valued 1 Jan 2031 "
+             "is set aside from the whole stock fund before the share is applied (WS3 rule 3 before ad74847); the top "
+             "becomes F + s (fund - gap). C (adopted, D6 v5): Laura's part (1 - s) of the 2031 fund covers the gap "
+             "first; the 2031 top is lowered only by the part it cannot cover; she pays her part in 2033 and, if her "
+             "money runs out, the gift is cut, never below the floor unless the gap exceeds the fund (WS3 rule 3 from "
+             "ad74847). Flat-rate scenarios: a fall in yields after 2031 is not modelled. 'curve forwards' = coupons "
+             "earn the 28 Sep curve's forward rates (numbers.yaml at_curve). Rung gaps are max(0, 50,000 - "
+             "delivered); surpluses on later rungs are not netted.",
         source="rab/results/M4/gap_owner.csv and gap_owner_robust.csv (rab/models/m4_gap_owner.py)",
         gate_b=f"{worst(vs)} (primary vs blind in the same run; mechanism A equals ladder_gap.csv on all 30 rows)")
 
-    gtp = got[got["build"] == "primary"].groupby("s")["max_gap_1jan2031"]
-    gtb = got[got["build"] == "blind"].groupby("s")["max_gap_1jan2031"]
-    agg = lambda g: {f"s={s:.2f}": (None if x.isna().any() else r0(x.min())) for s, x in g}
-    tpv, tbv = agg(gtp), agg(gtb)
-    tv = [("MATCH" if tpv[k] == tbv[k] else "OUTSIDE TOL") if tpv[k] is None or tbv[k] is None
-          else verdict(tpv[k], tbv[k], "usd") for k in tpv]
+    tval, tbl, tv = {}, {}, []
+    for mech in ("B", "C"):
+        agg = lambda b: {f"s={s:.2f}": (None if x.isna().any() else r0(x.min()))
+                         for s, x in got[(got["build"] == b) & (got["mech"] == mech)].groupby("s")["max_gap_1jan2031"]}
+        tval[mech], tbl[mech] = agg("primary"), agg("blind")
+        tv += [("MATCH" if tval[mech][k] == tbl[mech][k] else "OUTSIDE TOL")
+               if tval[mech][k] is None or tbl[mech][k] is None else verdict(tval[mech][k], tbl[mech][k], "usd")
+               for k in tval[mech]]
     checks.append(("gap-owner tolerance primary vs blind", worst(tv)))
     n["ws2.d6.gap_owner_tolerance"] = dict(
-        value=tpv, blind=tbv,
-        unit="USD valued 1 Jan 2031 (largest gap the stock fund can fill in 2031 with share s still passing PR-4 "
-             "and PR-5 in all three models; null = fails with no gap)",
-        quote_as="with the stock fund filling it first, the rule keeps half for a 2031 gap up to about $4,700 "
-                 "(about twice the $2,400 if Laura's kept money pays it); no share passes above about $16,000 (MODEL)",
+        value=tval, blind=tbl,
+        unit="USD valued 1 Jan 2031 (largest gap for which share s still passes PR-4 and PR-5 in all three models; "
+             "null = fails with no gap)",
+        quote_as="with Laura's half paying first, the rule keeps half for a 2031 gap up to about $2,200 (about $4,700 "
+                 "if the whole fund paid first); no share passes above about $14,500 (MODEL)",
         what="s = 0.40 is the smallest robust s* at which PR-7 still keeps half; s = 0.50 is null because half passes "
-             "PR-5 only under T even with no gap",
+             "PR-5 only under T even with no gap. Mechanism A's tolerance (valued 2033) is ws2.d6.ladder_gap_tolerance.",
         source="rab/results/M4/gap_owner_tolerance.csv (rab/models/m4_gap_owner.py)", gate_b=worst(tv))
 
     # ------------------------------------------------------------------ 2031 range: stated confidence

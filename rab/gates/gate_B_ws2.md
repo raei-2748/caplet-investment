@@ -288,18 +288,22 @@ These are the cards' stated limits. WS7 should challenge them.
 
 - **Why.** WS7 found three owners for the same gap across the kit: Laura's kept half (WS2 range memo v3 condition 5;
   WS6 note IBTM_R), the ten holdings (WS2 D6 memo v3), and the whole stock fund in 2031 before the range is set (WS3
-  `D_stress_bad_year.md` rule 3), with none named after 2033.
+  `D_stress_bad_year.md` rule 3 before ad74847), with none named after 2033. While this check ran, WS3 rewrote its
+  rule 3 (ad74847): Laura's half first, then the gift above the floor, then the floor; in 2031 the top is lowered by
+  any gap her half cannot cover; her half in Treasuries from 2033.
 - **What was added.** `rab/models/m4_gap_owner.py` (make target `m4-owner`). Sensitivity, not pre-registered; the
-  D6 rule is untouched. On both builds in one run it compares mechanism A (kept money pays in 2033: the s9 check) with
-  mechanism B (the fund fills the gap, valued 1 Jan 2031, before the share is applied; the fund left keeps its stock
-  path; if the gap exceeds the fund, the floor pays the rest and the bottom moves). It adds a "curve forwards" gap
-  scenario (numbers.yaml `at_curve`). Outputs: `rab/results/M4/gap_owner*.csv`, `gap_owner_log.txt`. Keys:
-  `ws2.d6.gap_owner`, `ws2.d6.gap_owner_tolerance`.
+  D6 rule is untouched. On both builds in one run it compares A (kept money pays in 2033: the s9 check), B (the whole
+  fund fills the gap, valued 1 Jan 2031, before the share is applied) and C (WS3's new rule 3). If a gap exceeds the
+  fund, the floor pays the rest and the bottom moves. It adds a "curve forwards" gap scenario (numbers.yaml
+  `at_curve`). Outputs: `rab/results/M4/gap_owner*.csv`, `gap_owner_log.txt`. Keys: `ws2.d6.gap_owner`,
+  `ws2.d6.gap_owner_tolerance`.
 - **Reconciliation.** Mechanism A reproduces `ladder_gap.csv` on all 30 shared rows (asserted in the script).
-  Primary against blind is WITHIN TOL on every entry; the robust share is identical in every scenario and mechanism
-  (B: 0.47 / 0.46 / 0.45 / none / none / none). Tolerance at share 0.40: $4,678 primary, $4,770 blind (1.9%). Two
-  reruns gave byte-identical outputs.
-- **Result.** Mechanism B keeps half at today's yields (robust 0.45, against 0.42 under A) and roughly doubles the gap
-  half can absorb. At yields 2 points lower no share passes under either mechanism, but under B the gift stays at or
-  above $145,000 in at least 99.75% of paths (PR-4 holds): the top falls instead. Memos v4 adopt B as the single owner
-  rule. `numbers.yaml` is still `492ed320...`.
+  Primary against blind is WITHIN TOL on every entry, and the robust share is identical in every scenario and
+  mechanism (STRIPS / forwards / today / -2pp / 2% / 0%: A and C 0.47 / 0.45 / 0.42 / none / none / none; B 0.47 /
+  0.46 / 0.45 / none / none / none). Tolerance at share 0.40 (valued 2031): C $2,216 primary, $2,243 blind; B $4,678,
+  $4,770. Reruns give byte-identical outputs.
+- **Result.** C equals A wherever Laura's half covers the gap, which is every path at today's yields: half is kept
+  (robust 0.42). At yields 2 points lower no share passes under any mechanism; under C the top is lowered in 7-10%
+  of paths and the gift falls below $145,000 in at most 0.31% (PR-4 holds). B keeps half more securely (0.45) but
+  lowers the top for every dollar of gap. D6 v5 adopts C, the owner WS3 and WS6 already use; B is the recorded
+  runner-up. `numbers.yaml` is still `492ed320...`.
