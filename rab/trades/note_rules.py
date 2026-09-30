@@ -49,8 +49,46 @@ ASCII_FIX = {"‘": "'", "’": "'", "“": '"', "”": '"', "–": "-", "—": 
              "…": "...", " ": " "}
 
 
+# Quantities written in words count as numbers too (notes.md s1; judge panel round 2, 30 Sep: the digit-only check let
+# untraced comparisons through). Each hit must be declared (a numbers.yaml key or a dated source), like a digit.
+# Order matters: the first pattern that matches a span takes it, so "a quarter of a percentage point" is one token.
+WORD_CASE = [   # IPS design facts, like the $50,000 case facts: the range is the floor plus half the fund
+    r"(?i)\bhalf (?:of )?the (?:stock |equity )?fund\b",
+]
+WORD_QUANT = [
+    r"(?i)\ba (?:quarter|fifth|third|tenth|half) of a percentage point\b",
+    r"(?i)\b(?:a full|one|two|three|half a) percentage points?\b",
+    r"(?i)\bpercentage points?\b",
+    r"(?i)\ba (?:quarter|fifth|third|tenth) of\b",
+    r"(?i)\bhalf (?:of|the)\b",
+    r"(?i)\babout the same\b",
+    r"(?i)\balmost exactly\b",
+    r"(?i)\btwice\b",
+    r"(?i)\bmost of\b",
+]
+
+
+def word_numbers_in(text):
+    """(token, kind, start) for every quantity written in words: kind 'case' (IPS design) or 'analytic'."""
+    taken, out = [], []
+    for pats, kind in ((WORD_CASE, "case"), (WORD_QUANT, "analytic")):
+        for pat in pats:
+            for m in re.finditer(pat, text):
+                if any(a < m.end() and m.start() < b for a, b in taken):
+                    continue
+                taken.append((m.start(), m.end()))
+                out.append((m.group(0).lower(), kind, m.start()))
+    return sorted(out, key=lambda x: x[2])
+
+
+def is_declared(tok, declared):
+    """Traced if a declared entry is the token itself (words) or starts with it (digits: '9%' declared as '9%')."""
+    return any(tok == d.lower() or tok == d.split()[0] for d in declared if d)
+
+
 def numbers_in(text):
-    """(token, kind) for every number: kind is 'date', 'year', 'coupon', 'case' or 'analytic'."""
+    """(token, kind) for every number, in digits or in words: kind is 'date', 'year', 'coupon', 'case' or
+    'analytic'. Word quantities (word_numbers_in) follow the digits."""
     out = []
     for m in re.finditer(r"\$?\d[\d,]*(?:\.\d+)?%?", text):
         tok = m.group(0).rstrip(",.")
@@ -66,6 +104,7 @@ def numbers_in(text):
         else:
             kind = "analytic"
         out.append((tok, kind))
+    out += [(tok, kind) for tok, kind, _ in word_numbers_in(text)]
     return out
 
 
@@ -86,7 +125,7 @@ def check_text(text, declared=()):
                 "name her payment date, the floor or the facility", "WARN"))
     nums = numbers_in(text)
     analytic = [t for t, k in nums if k == "analytic"]
-    untraced = [t for t in analytic if not any(t == d.split()[0] for d in declared)]
+    untraced = [t for t in analytic if not is_declared(t, declared)]
     res.append(("at most one analytic number", len(analytic) <= 1, ", ".join(analytic), "WARN"))
     res.append(("numbers traced", not untraced,
                 ", ".join(untraced) + (" (find each in rab/numbers.yaml or name a dated source)" if untraced else ""),

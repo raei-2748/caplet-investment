@@ -2,7 +2,7 @@
 
 WS6, RAB Kit, 30 Sep 2026 (Sydney). AI-generated decision memo (Claude Code) for Team Caplet. **The team ratifies it
 before the check date; nothing here is applied to the IPS or the Sheet.** Triage: it does not change the strategy.
-Trigger D depends on one fix-before-6-Nov item: the IPS wording on coupon reinvestment (premortem PM-23).
+Revised after the second judge panel (30 Sep): trigger D now fires only on a new fact (a price that was stale on Friday and passes later), not on IPS wording, and trigger B names its basis.
 
 ## Why a second trade, and why a rule
 
@@ -39,8 +39,8 @@ day is UNVERIFIED).
 | | Fires if | The trade | TN role | IPS sentence it carries out |
 |---|---|---|---|---|
 | **A. Repair** | A Friday ticket did not fill, was skipped because its price failed the check, or filled only in part | Place it at today's prices; the refresh re-sizes it | supported | "The January 2027 deposit buys the liability-hedging portfolio, latest payments first." |
-| **B. Rates-fall test** | The refresh says the ten payments now cost **more than $300,000** on 1 Jan 2027. Today (28 Sep curve) they cost about $292,000, so yields would have to fall about a quarter of a percentage point (about 26bp). | Sell VT down to the new stock-fund share the refresh prints; buy IBTM with the proceeds. Two trades, $50; only if the amount is at least $2,500 | tested | "A moderate fall in yields would leave some payments for the 2028 deposit to complete" |
-| **D. Coupon refinement** | WInS lists the 1.375% 15 Nov 2040 bond; its price passes the 25bp check that day; the team did not swap on Friday; the team has agreed the IPS wording on coupons | Day 1: sell the 4.250% 15 Nov 2040 bond. Day 2 (once the cash shows): buy the 1.375% 15 Nov 2040 bond. Two trades, $20 | refined | "Laura's 2027 deposit buys Treasuries maturing before each of her ten $50,000 payments." (plus the team's new sentence on reinvested coupons) |
+| **B. Rates-fall test** | The refresh says the ten payments now cost **more than $300,000** on 1 Jan 2027, on the zero-coupon basis of `numbers.yaml` (its "ten payments cost" line; if WS1 locks a buyable-basis test before 14 Oct, use that one and say so in the decision log). Today (28 Sep curve) they cost about $292,000, so yields would have to fall more than about a quarter of a percentage point (about 26bp). | Sell VT down to the new stock-fund share the refresh prints; buy IBTM with the proceeds. Two trades, $50; only if the amount is at least $2,500 | tested | "A moderate fall in yields would leave some payments for the 2028 deposit to complete" |
+| **D. Coupon refinement** | A new fact since Friday: the 1.375% 15 Nov 2040 bond was listed on Friday but its price failed the 25bp check (note T40s), or it was not listed then and is now; its price passes the check that day | Day 1: sell the 4.250% 15 Nov 2040 bond. Day 2 (once the cash shows): buy the 1.375% 15 Nov 2040 bond. Two trades, $20 | refined | "Laura's 2027 deposit buys Treasuries maturing before each of her ten $50,000 payments." (either bond fits it) |
 | **C. Spare cash** | WInS cash is above **$6,300**: the $3,300 float (1.1%) plus at least $3,000, so the $25 commission is under 1% | Buy VT with everything above $3,300 | supported | "The rest, plus any 2027 remainder, forms the return-seeking portfolio" |
 | **None** | Nothing fires | No trade. Write "checked 14 Oct: the rules said hold" in the decision log | - | - |
 
@@ -49,7 +49,8 @@ B comes before D and C because it is the market test the IPS itself describes. A
 ### Why B buys IBTM
 
 The 2027 deposit buys the latest payments first. If yields fall and the ladder costs more than the deposit, it is
-the **earliest** payment (1 Jan 2033) that the 2028 deposit completes, and the floor gets less. Both of those jobs sit
+the **earliest** payment (1 Jan 2033) that the 2028 deposit completes, before any stocks, so the stock fund gets less
+(only a very large fall would reach the floor; WS4 `D_pre2027_rate_hedge.md`). Both the payment and the floor sit
 in IBTM. So moving the excess from VT into IBTM does in WInS what the IPS says would happen to Laura's money. The
 dated holdings already in WInS rise in value when yields fall, so only the stock-fund share needs moving.
 
@@ -67,11 +68,12 @@ fixed-income judge is most likely to raise.
   is about $15,000 each way (MODEL illustration); the refresh on the day gives the real size.
 - **Why two days.** Bonds fill at end-of-day prices, and it is UNVERIFIED whether a pending sale frees cash the same
   day. So sell first, then buy once the cash shows.
-- **The same rule for the 2.000% 15 Nov 2041 bond**, in place of the 3.125%, if it is listed and passes. The gain is
+- **The same rule for the 2.000% 15 Nov 2041 bond**, in place of the 3.125%, if its Friday price was stale and now passes. The gain is
   smaller (coupons 33% down to 24%).
-- **Do not do it** if either price fails the check, if the IPS still says the ladder "needs no rebalancing" without a
-  word on coupons (the note and the IPS must agree), or if the team is not sure. No trade is better than a trade the
-  team cannot explain.
+- **Do not do it** if either price fails the check, if the team is not sure, or if the 1.375% bond was listed and
+  passing on Friday (then the Friday rule already swapped it: SW40). Waiting for IPS wording is not a reason: the
+  IPS line "Treasuries maturing before each of her ten $50,000 payments" fits either bond. No trade is better
+  than a trade the team cannot explain.
 
 ## What is likely (28 Sep numbers)
 
@@ -81,9 +83,10 @@ fixed-income judge is most likely to raise.
   so this fall would be roughly a two-standard-deviation move: possible, not likely. WS4 owns the reconciled odds.
 - **C** does not fire at the cash Friday's tickets leave (about $5,000, `tickets.md`), unless fills or prices leave
   more.
-- **D** is the most likely October trade, **if** WInS lists the bond and the team agrees. Otherwise the most likely
-  outcome is no trade, and the three notes come from the first eleven trades (ten on Friday, VT on Mon 5 Oct
-  ET). The 14 Oct check itself is then reported in the IBTR reflection ("checked 14 Oct: the rule said hold").
+- **D** fires only if the 1.375% bond's Friday price was stale (or it was not listed) and it passes later. If it was
+  listed and passing on Friday, the Friday swap rule already bought it. So the most likely outcome is no trade, and
+  the three notes come from the first eleven trades (ten on Friday, VT on Mon 5 Oct ET). The 14 Oct check itself is
+  then reported in the IBTR reflection ("checked 14 Oct: the rule said hold").
 
 ## What we will not do
 

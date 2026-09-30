@@ -33,12 +33,12 @@ The order is for cash control only. It is not the IPS rule "latest payments firs
 | 7 | bond | U.S. Treasury bond 4.250% maturing 15 Nov 2040, CUSIP 912810QL5 [UNVERIFIED (WInS string not recorded)] | Jan 2041 payment | $17,000 face | 89.186 clean (2026-09-28) + 1.617 accrued on 2 Oct, per $100 | 90.107 clean | $10 | $15,446.48 | $85,612.38 / $83,966.47 | WInS shows no bond volume (UNVERIFIED) | -5.1bp PASS |
 | 8 | bond | U.S. Treasury bond 4.375% maturing 15 Nov 2039, CUSIP 912810QD3 [UNVERIFIED (WInS string not recorded)] | Jan 2040 payment | $18,000 face | 91.363 clean (2026-09-28) + 1.664 accrued on 2 Oct, per $100 | 92.255 clean | $10 | $16,754.93 | $68,857.45 / $67,044.54 | WInS shows no bond volume (UNVERIFIED) | -6.6bp PASS |
 | 9 | bond | U.S. Treasury bond 4.500% maturing 15 May 2038, CUSIP 912810PX0 [UNVERIFIED (WInS string not recorded)] | Jan 2039 payment | $19,000 face | 94.281 clean (2026-09-28) + 1.712 accrued on 2 Oct, per $100 (Sheet records 0.530: wrong) | 95.121 clean | $10 | $18,248.66 | $50,608.79 / $48,629.22 | WInS shows no bond volume (UNVERIFIED) | -14.4bp PASS |
-| 10 | bond | U.S. Treasury bond 4.750% maturing 15 Feb 2037, CUSIP 912810PT9 [UNVERIFIED (WInS string not recorded)] | Jan 2038 payment | $20,000 face | 97.152 clean (2026-09-28) + 0.620 accrued on 2 Oct, per $100 | 97.940 clean | $10 | $19,564.31 | $31,044.48 / $28,899.53 | WInS shows no bond volume (UNVERIFIED) | -15.3bp PASS |
-| 11 | **VT** | Vanguard Total World Stock ETF [SEEN 2026-09-29] | Branch: the world stock fund (growth money) | 164 shares | $158.81 (WInS close, 2026-09-28) | $161.18 | $25 | $26,069.84 | $4,974.64 / $2,441.01 | <0.1%; <0.1% PASS | - |
+| 10 | bond | U.S. Treasury bond 4.750% maturing 15 Feb 2037, CUSIP 912810PT9 [UNVERIFIED (WInS string not recorded)] | Jan 2038 payment | $20,000 face | 97.152 clean (2026-09-28) + 0.620 accrued on 2 Oct, per $100 | 97.919 clean | $10 | $19,564.31 | $31,044.48 / $28,903.80 | WInS shows no bond volume (UNVERIFIED) | -15.3bp PASS |
+| 11 | **VT** | Vanguard Total World Stock ETF [SEEN 2026-09-29] | Branch: the world stock fund (growth money) | 164 shares | $158.81 (WInS close, 2026-09-28) | $161.18 | $25 | $26,069.84 | $4,974.64 / $2,445.28 | <0.1%; <0.1% PASS | - |
 
 - Total at the reference prices with the accrued interest recorded in the Sheet: **$294,764.50**, cash left **$5,235.50** (1.7%).
 - Expected on the trade date (bond accrued interest recomputed to 2026-10-02): $295,025.36, cash $4,974.64 (the 'expected' cash column).
-- Worst case (every ETF at its max price, every bond at its max clean price, accrued to 2026-10-05): $297,558.99, cash $2,441.01.
+- Worst case (every ETF at its max price, every bond at its max clean price, accrued to 2026-10-05): $297,554.72, cash $2,445.28.
 - 11 trades; commissions $200.
 
 Details, Portfolio:
@@ -70,11 +70,11 @@ Details, Portfolio:
 | 7 | bond | U.S. Treasury bond 4.250% maturing 15 Nov 2040, CUSIP 912810QL5 [UNVERIFIED (WInS string not recorded)] | Jan 2041 payment | $26,000 face | 89.186 clean (2026-09-28) + 1.617 accrued on 2 Oct, per $100 | 90.107 clean | $10 | $23,618.74 | $89,338.34 / $87,581.43 | WInS shows no bond volume (UNVERIFIED) | -5.1bp PASS |
 | 8 | bond | U.S. Treasury bond 4.375% maturing 15 Nov 2039, CUSIP 912810QD3 [UNVERIFIED (WInS string not recorded)] | Jan 2040 payment | $27,000 face | 91.363 clean (2026-09-28) + 1.664 accrued on 2 Oct, per $100 | 92.255 clean | $10 | $25,127.40 | $64,210.94 / $62,203.54 | WInS shows no bond volume (UNVERIFIED) | -6.6bp PASS |
 | 9 | bond | U.S. Treasury bond 4.500% maturing 15 May 2038, CUSIP 912810PX0 [UNVERIFIED (WInS string not recorded)] | Jan 2039 payment | $29,000 face | 94.281 clean (2026-09-28) + 1.712 accrued on 2 Oct, per $100 (Sheet records 0.530: wrong) | 95.121 clean | $10 | $27,847.96 | $36,362.98 / $34,101.20 | WInS shows no bond volume (UNVERIFIED) | -14.4bp PASS |
-| 10 | bond | U.S. Treasury bond 4.750% maturing 15 Feb 2037, CUSIP 912810PT9 [UNVERIFIED (WInS string not recorded)] | Jan 2038 payment | $30,000 face | 97.152 clean (2026-09-28) + 0.620 accrued on 2 Oct, per $100 | 97.940 clean | $10 | $29,341.47 | $7,021.52 / $4,511.67 | WInS shows no bond volume (UNVERIFIED) | -15.3bp PASS |
+| 10 | bond | U.S. Treasury bond 4.750% maturing 15 Feb 2037, CUSIP 912810PT9 [UNVERIFIED (WInS string not recorded)] | Jan 2038 payment | $30,000 face | 97.152 clean (2026-09-28) + 0.620 accrued on 2 Oct, per $100 | 97.919 clean | $10 | $29,341.47 | $7,021.52 / $4,518.06 | WInS shows no bond volume (UNVERIFIED) | -15.3bp PASS |
 
 - Total at the reference prices with the accrued interest recorded in the Sheet: **$292,580.89**, cash left **$7,419.11** (2.5%).
 - Expected on the trade date (bond accrued interest recomputed to 2026-10-02): $292,978.48, cash $7,021.52 (the 'expected' cash column).
-- Worst case (every ETF at its max price, every bond at its max clean price, accrued to 2026-10-05): $295,488.33, cash $4,511.67.
+- Worst case (every ETF at its max price, every bond at its max clean price, accrued to 2026-10-05): $295,481.94, cash $4,518.06.
 - 10 trades; commissions $175.
 
 Details, BookL:
@@ -108,7 +108,7 @@ Curve 2026-09-28. Use an alternate only when the planned bond fails its check or
 ## How the columns are built
 
 - **Reference price:** ETFs: the closing price on the date shown (WInS where the team saw it, else the issuer/Nasdaq close); bonds: the clean price WInS showed (per $100 face) plus accrued interest. Ticket prices on Friday come only from WInS or a timestamped close (PM-29).
-- **Max price:** ETFs: reference x (1 + the larger of 0.5% and two daily standard deviations over 20 sessions). Bonds: the clean price at a yield 10bp below the reference yield.
+- **Max price:** ETFs: reference x (1 + the larger of 0.5% and two daily standard deviations over 20 sessions). Bonds: the clean price at a yield 10bp below the reference yield, capped at the top of the 25bp curve band (and the min price floored at its bottom), so the two price tests in stop rule 3 always agree.
 - **2x-volume check:** shares / (2 x 30-session average daily volume), the official rule; the column also shows shares / the 20-session median day (kit rule: at most 10%). Every order is also below half of the lowest day in 20 sessions (the WInS FAQ rule, worst full day). Volumes: Nasdaq consolidated, complete sessions.
 - **Yield check:** the yield of the WInS price minus the yield of the price from the official par curve (M1_METHOD.md section C); over 25bp either way = stale or wrong, use the alternate.
 - **Bond quantity:** face value in dollars. The WInS unit (dollars, $1,000 bonds or $100 units) is UNVERIFIED: enter whatever makes the Preview total land inside the stop band.

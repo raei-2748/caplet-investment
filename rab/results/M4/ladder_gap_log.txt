@@ -1,0 +1,56 @@
+M4 ladder-gap sensitivity (not pre-registered; MODEL; 28 Sep 2026 curve; 200,000 paths per model)
+  gap scenario none (STRIPS basis, M4 as specified)  : rung gaps $0 over 0 rungs, valued 1 Jan 2033 at 0%: $0
+  gap scenario Book L, today's yields                : rung gaps $1,787 over 5 rungs, valued 1 Jan 2033 at 5%: $1,613
+  gap scenario Book L, today's yields - 2 points     : rung gaps $20,826 over 10 rungs, valued 1 Jan 2033 at 3%: $18,003
+  gap scenario Book L, 2%                            : rung gaps $33,814 over 10 rungs, valued 1 Jan 2033 at 2%: $30,493
+  gap scenario Book L, 0%                            : rung gaps $53,159 over 10 rungs, valued 1 Jan 2033 at 0%: $53,159
+  primary T     none (STRIPS basis, M4 as specified)   s*  0.5 | P(kept >= 10% of gift): half 95.3%, zero 100.0% | kept p5 at half $16,720 | half: P(kept < 0) 0.00%, P(gift < $145k if payments come first) 0.00%
+  primary T     Book L, today's yields                 s* 0.45 | P(kept >= 10% of gift): half 92.2%, zero 100.0% | kept p5 at half $15,107 | half: P(kept < 0) 0.00%, P(gift < $145k if payments come first) 0.00%
+  primary T     Book L, today's yields - 2 points      s* none | P(kept >= 10% of gift): half 41.6%, zero 94.9% | kept p5 at half $-1,283 | half: P(kept < 0) 7.23%, P(gift < $145k if payments come first) 0.01%
+  primary T     Book L, 2%                             s* none | P(kept >= 10% of gift): half 17.3%, zero 76.4% | kept p5 at half $-13,773 | half: P(kept < 0) 43.95%, P(gift < $145k if payments come first) 1.48%
+  primary T     Book L, 0%                             s* none | P(kept >= 10% of gift): half 3.5%, zero 30.2% | kept p5 at half $-36,439 | half: P(kept < 0) 87.70%, P(gift < $145k if payments come first) 31.52%
+  primary BOOT  none (STRIPS basis, M4 as specified)   s* 0.47 | P(kept >= 10% of gift): half 93.6%, zero 99.6% | kept p5 at half $15,491 | half: P(kept < 0) 0.00%, P(gift < $145k if payments come first) 0.00%
+  primary BOOT  Book L, today's yields                 s* 0.42 | P(kept >= 10% of gift): half 90.5%, zero 99.4% | kept p5 at half $13,879 | half: P(kept < 0) 0.00%, P(gift < $145k if payments come first) 0.00%
+  primary BOOT  Book L, today's yields - 2 points      s* none | P(kept >= 10% of gift): half 45.2%, zero 93.0% | kept p5 at half $-2,511 | half: P(kept < 0) 8.92%, P(gift < $145k if payments come first) 0.35%
+  primary BOOT  Book L, 2%                             s* none | P(kept >= 10% of gift): half 20.6%, zero 75.7% | kept p5 at half $-15,002 | half: P(kept < 0) 41.60%, P(gift < $145k if payments come first) 3.10%
+  primary BOOT  Book L, 0%                             s* none | P(kept >= 10% of gift): half 3.8%, zero 34.1% | kept p5 at half $-37,668 | half: P(kept < 0) 85.19%, P(gift < $145k if payments come first) 31.26%
+  primary BAYES none (STRIPS basis, M4 as specified)   s* 0.47 | P(kept >= 10% of gift): half 93.2%, zero 100.0% | kept p5 at half $15,483 | half: P(kept < 0) 0.00%, P(gift < $145k if payments come first) 0.00%
+  primary BAYES Book L, today's yields                 s* 0.42 | P(kept >= 10% of gift): half 89.6%, zero 99.9% | kept p5 at half $13,870 | half: P(kept < 0) 0.00%, P(gift < $145k if payments come first) 0.00%
+  primary BAYES Book L, today's yields - 2 points      s* none | P(kept >= 10% of gift): half 42.8%, zero 92.8% | kept p5 at half $-2,520 | half: P(kept < 0) 9.78%, P(gift < $145k if payments come first) 0.03%
+  primary BAYES Book L, 2%                             s* none | P(kept >= 10% of gift): half 20.9%, zero 73.3% | kept p5 at half $-15,010 | half: P(kept < 0) 44.60%, P(gift < $145k if payments come first) 2.30%
+  primary BAYES Book L, 0%                             s* none | P(kept >= 10% of gift): half 5.2%, zero 32.9% | kept p5 at half $-37,676 | half: P(kept < 0) 84.30%, P(gift < $145k if payments come first) 33.91%
+  blind   T     none (STRIPS basis, M4 as specified)   s*  0.5 | P(kept >= 10% of gift): half 95.4%, zero 100.0% | kept p5 at half $16,781 | half: P(kept < 0) 0.00%, P(gift < $145k if payments come first) 0.00%
+  blind   T     Book L, today's yields                 s* 0.46 | P(kept >= 10% of gift): half 92.3%, zero 100.0% | kept p5 at half $15,168 | half: P(kept < 0) 0.00%, P(gift < $145k if payments come first) 0.00%
+  blind   T     Book L, today's yields - 2 points      s*  0.0 | P(kept >= 10% of gift): half 41.5%, zero 95.0% | kept p5 at half $-1,222 | half: P(kept < 0) 7.14%, P(gift < $145k if payments come first) 0.01%
+  blind   T     Book L, 2%                             s* none | P(kept >= 10% of gift): half 17.3%, zero 76.5% | kept p5 at half $-13,712 | half: P(kept < 0) 44.07%, P(gift < $145k if payments come first) 1.45%
+  blind   T     Book L, 0%                             s* none | P(kept >= 10% of gift): half 3.5%, zero 30.1% | kept p5 at half $-36,378 | half: P(kept < 0) 87.69%, P(gift < $145k if payments come first) 31.45%
+  blind   BOOT  none (STRIPS basis, M4 as specified)   s* 0.47 | P(kept >= 10% of gift): half 93.7%, zero 99.6% | kept p5 at half $15,547 | half: P(kept < 0) 0.00%, P(gift < $145k if payments come first) 0.00%
+  blind   BOOT  Book L, today's yields                 s* 0.42 | P(kept >= 10% of gift): half 90.6%, zero 99.4% | kept p5 at half $13,935 | half: P(kept < 0) 0.00%, P(gift < $145k if payments come first) 0.00%
+  blind   BOOT  Book L, today's yields - 2 points      s* none | P(kept >= 10% of gift): half 45.3%, zero 93.1% | kept p5 at half $-2,455 | half: P(kept < 0) 8.85%, P(gift < $145k if payments come first) 0.30%
+  blind   BOOT  Book L, 2%                             s* none | P(kept >= 10% of gift): half 20.6%, zero 75.7% | kept p5 at half $-14,946 | half: P(kept < 0) 41.60%, P(gift < $145k if payments come first) 3.04%
+  blind   BOOT  Book L, 0%                             s* none | P(kept >= 10% of gift): half 3.8%, zero 34.0% | kept p5 at half $-37,612 | half: P(kept < 0) 85.19%, P(gift < $145k if payments come first) 31.30%
+  blind   BAYES none (STRIPS basis, M4 as specified)   s* 0.47 | P(kept >= 10% of gift): half 93.2%, zero 100.0% | kept p5 at half $15,495 | half: P(kept < 0) 0.00%, P(gift < $145k if payments come first) 0.00%
+  blind   BAYES Book L, today's yields                 s* 0.42 | P(kept >= 10% of gift): half 89.5%, zero 99.9% | kept p5 at half $13,883 | half: P(kept < 0) 0.00%, P(gift < $145k if payments come first) 0.00%
+  blind   BAYES Book L, today's yields - 2 points      s* none | P(kept >= 10% of gift): half 42.8%, zero 92.8% | kept p5 at half $-2,508 | half: P(kept < 0) 9.83%, P(gift < $145k if payments come first) 0.03%
+  blind   BAYES Book L, 2%                             s* none | P(kept >= 10% of gift): half 20.9%, zero 73.3% | kept p5 at half $-14,998 | half: P(kept < 0) 44.59%, P(gift < $145k if payments come first) 2.33%
+  blind   BAYES Book L, 0%                             s* none | P(kept >= 10% of gift): half 5.3%, zero 32.8% | kept p5 at half $-37,664 | half: P(kept < 0) 84.29%, P(gift < $145k if payments come first) 33.77%
+  robust s* (min over T, BOOT, BAYES; PR-7 keeps half only if 0.40-0.60):
+    primary none (STRIPS basis, M4 as specified)   0.47
+    primary Book L, today's yields                 0.42
+    primary Book L, today's yields - 2 points      none
+    primary Book L, 2%                             none
+    primary Book L, 0%                             none
+    blind   none (STRIPS basis, M4 as specified)   0.47
+    blind   Book L, today's yields                 0.42
+    blind   Book L, today's yields - 2 points      none
+    blind   Book L, 2%                             none
+    blind   Book L, 0%                             none
+  largest gap (valued 1 Jan 2033) that still passes PR-5 in all three models:
+    blind   share 0.00: $15,477
+    blind   share 0.33: $4,699
+    blind   share 0.40: $2,383
+    blind   share 0.50: $-943
+    primary share 0.00: $15,369
+    primary share 0.33: $4,626
+    primary share 0.40: $2,352
+    primary share 0.50: $-955

@@ -4,6 +4,8 @@
 # (the FIXED file of commit 52e30ec). Every entry is MODEL, Treasury par curve of 2026-09-28, Nov-15 STRIPS basis,
 # Laura's plan unless the unit says otherwise. 'blind' = the same figure from the blind build
 # (rab/verification/blind/out/blind_headlines.json); 'gate_b' = its verdict at Gate B tolerances (rab/gates/gate_B_ws3.md).
+# Exception: ws3.external.* is cited from WS7 (coupon basis, git 9db8d35), NOT Gate-B checked; UNVERIFIED for team outputs.
+# Every 'never short' / 'all payments paid' figure here holds on the STRIPS basis only (gate_B_ws3.md s7).
 # None of these may go in a WInS Trading Note (not in numbers.yaml). Written by rab/decisions/build_numbers_ws3.py.
 meta:
   stream: WS3
@@ -169,6 +171,25 @@ numbers:
     quote_as: about 0.7% of the gift
     source: 'DERIVED: gold_reit_noise_free.p5_gain_ref / vt_gift_mc.gift_p50'
     gate_b: derived from MC NOISE rows
+  ws3.fund.gold_reit_good_case:
+    value:
+      mc_p95_change: -1128.0
+      mc_spread_narrowing: 2292.0
+      hist_p90_change: -2338.0
+      hist_spread_narrowing: 3726.0
+      hist_T33_median_change: -4370.0
+      mc_share_from_lower_good_case: 0.49
+      hist_share_from_lower_good_case: 0.63
+    unit: 'USD change vs VT (gift good case: MC 95th / history 90th percentile; total 2033 money median) / share'
+    quote_as: gold/REIT narrows the spread about half (MC) to two-thirds (history) by trimming the good case
+    source: 'DERIVED: rab/results/M6/fund_alternatives.csv (A0, A4; MC_JPM and history_1928_2020 rows)'
+    gate_b: 'history lens: MATCH; MC lens: MC NOISE (within Gate B tolerance)'
+    blind:
+      mc_p95_change: -1127.0
+      mc_spread_narrowing: 2277.0
+      hist_p90_change: -2338.0
+      hist_spread_narrowing: 3726.0
+      hist_T33_median_change: -4370.0
   ws3.rivals.REC:
     value:
       mc_short: 0.0
@@ -405,6 +426,29 @@ numbers:
     quote_as: against all Treasuries, Root-and-Branch gives up about $9,500 in a bad case for about $38,000 in a good case
     source: 'DERIVED: ws3.rivals.REC minus ws3.rivals.R1'
     gate_b: derived from MC NOISE rows
+  ws3.rivals.facility_gift_rec_vs_all_treasury_mc:
+    value:
+      REC_gift_p5: 164589.0
+      REC_gift_p50: 173982.0
+      REC_gift_p95: 188636.0
+      R1_gift_p5: 190799.0
+      R1_gift_p50: 202135.0
+      R1_gift_p95: 213299.0
+      all_treasury_ahead_p50: 28153.0
+      all_treasury_ahead_at_every_mc_percentile: true
+      hist_gift_all_treasury_ge_rec: true
+    unit: USD (2033 facility gift, MC 5th / median / 95th percentile)
+    quote_as: for the facility alone, All-Treasury gives more at every percentile (about $28,000 more at the median)
+    source: rab/results/M6/M6_results.json summary (mc_gift_p5/p50/p95; = rivals_summary.csv)
+    gate_b: MC NOISE (within Gate B tolerance)
+    blind:
+      REC_gift_p5: 164579.0
+      REC_gift_p50: 173998.0
+      REC_gift_p95: 188629.0
+      R1_gift_p5: 190892.0
+      R1_gift_p50: 202188.0
+      R1_gift_p95: 213317.0
+    note: 'raised by the WS7 judge panel (STATUS [WS7-redteam]); M6_SPEC.md s2 gift rule: R1 has no uncertain part, so gift = T33'
   ws3.rivals.stress_rec_vs_all_treasury:
     value:
       S0_rec_T33: 207135.0
@@ -768,6 +812,26 @@ numbers:
     quote_as: 'J.P. Morgan 2026: world stocks 7.0% a year; Treasuries at today''s 5.06% five-year yield'
     source: rab/data/history/jpm_ltcma_2026_usd.csv; M6_SPEC.md s4 (5-year par of 28 Sep 2026)
     gate_b: MATCH (inputs shared by spec)
+  ws3.external.ws7_coupon_reinvestment:
+    value:
+      breakeven_reinvest_rate_total_500k_pct: 4.97
+      breakeven_every_rung_pct: 5.6
+      y2007_matched_delivered: 475934.0
+      y2007_matched_shortfall: 24066.0
+      y2007_bills_delivered: 451422.0
+      y2007_bills_shortfall: 48578.0
+      hist_1962_2011_matched_worst_delivered: 458335.0
+      hist_1962_2011_matched_starts_any_short: 387/593
+      bills_unchanged_1y_pct: 4.59
+      bills_unchanged_shortfall: 7127.0
+    unit: percent a year / USD delivered to the ten payments in total (target $500,000)
+    quote_as: the WInS book's ten payments total $500,000 only if coupons are reinvested at about 5% (4.97%) or more
+    source: 'WS7 red team, git 9db8d35 (branch rab/ws7): rab/redteam/ws7_assumptions_reinvest_check_output.txt; Book L holder cash flows from
+      rab/models/m1_ladder.py'
+    gate_b: NOT Gate-B checked (WS7 read-only MODEL check, not rebuilt by WS3); UNVERIFIED for team outputs until WS1 adopts it
+    note: Every WS3 'never short' / 'all payments paid' figure is on the zero-coupon (STRIPS) basis; this is the coupon-basis caveat (gate_B_ws3.md
+      s7). '2007' = yield changes since June 2007 added to the 28 Sep 2026 curve; 'matched' = each coupon buys a zero to its payment date, 'bills'
+      = rolled in 1-year bills.
   ws3.ips.word_count_30sep:
     value:
       words: 483
