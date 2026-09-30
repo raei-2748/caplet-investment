@@ -1,0 +1,22 @@
+# iShares US product screener, fetched 2026-09-30 ~02:34 AEST (2026-09-29 ~12:34 ET) by WS6-notes, read-only GET.
+# URL: https://www.ishares.com/us/product-screener/product-screener-v3.1.jsn?dcrPath=/templatedata/config/product-screener-v3/data/en/us-ishares/ishares-product-screener-backend-config&siteEntryPassthrough=true
+# Full response sha256 8f60ffe073a92866cdf21a4fa79068b1fcfc87ee727cfdc5760b7f1eb27be013 (1,903,689 bytes; not committed). Filter: fundName contains iBonds + Term + Treasury.
+# Finding: Treasury iBonds end Dec 2026 ... Dec 2036, then Dec 2044. None ends Dec 2037-Dec 2043 (confirms insight_v1 S1 item 6, 27 Sep).
+ticker,fund_name,inception,nav_as_of,ishares_product_id
+IBTG,iShares iBonds Dec 2026 Term Treasury ETF,"Feb 25, 2020","Sep 28, 2026",312457
+IBTH,iShares iBonds Dec 2027 Term Treasury ETF,"Feb 25, 2020","Sep 28, 2026",312460
+IBTI,iShares iBonds Dec 2028 Term Treasury ETF,"Feb 25, 2020","Sep 28, 2026",312463
+IBTJ,iShares iBonds Dec 2029 Term Treasury ETF,"Feb 25, 2020","Sep 28, 2026",312466
+IBTK,iShares iBonds Dec 2030 Term Treasury ETF,"Jul 14, 2020","Sep 28, 2026",314830
+IBTL,iShares iBonds Dec 2031 Term Treasury ETF,"Jul 13, 2021","Sep 28, 2026",319421
+IBTM,iShares iBonds Dec 2032 Term Treasury ETF,"Jul 06, 2022","Sep 28, 2026",328944
+IBTO,iShares iBonds Dec 2033 Term Treasury ETF,"Jun 27, 2023","Sep 28, 2026",332291
+IBTP,iShares iBonds Dec 2034 Term Treasury ETF,"Jun 11, 2024","Sep 28, 2026",337745
+IBTQ,iShares iBonds Dec 2035 Term Treasury ETF,"Mar 25, 2025","Sep 28, 2026",342105
+IBTR,iShares iBonds Dec 2036 Term Treasury ETF,"Mar 25, 2026","Sep 28, 2026",350028
+IBGA,iShares iBonds Dec 2044 Term Treasury ETF,"Jun 11, 2024","Sep 28, 2026",337747
+IBGB,iShares iBonds Dec 2045 Term Treasury ETF,"Mar 25, 2025","Sep 28, 2026",342124
+IBGC,iShares iBonds Dec 2046 Term Treasury ETF,"Mar 25, 2026","Sep 28, 2026",350030
+IBGK,iShares iBonds Dec 2054 Term Treasury ETF,"Jun 11, 2024","Sep 28, 2026",337749
+IBGL,iShares iBonds Dec 2055 Term Treasury ETF,"Mar 25, 2025","Sep 28, 2026",342146
+IBGM,iShares iBonds Dec 2056 Term Treasury ETF,"Mar 25, 2026","Sep 28, 2026",350032

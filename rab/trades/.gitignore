@@ -1,0 +1,5 @@
+out/tickets_*
+out/treasury_par_*_fetched_*
+out/etf_history_fetched_*
+wins_prices_friday.csv
+__pycache__/
