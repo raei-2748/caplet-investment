@@ -3,6 +3,15 @@
 WS6-gateC, RAB Kit, 30 Sep 2026 (Sydney). This is an AI-generated check (Claude Code) for Team Caplet. Nothing was run
 against WInS and no order was placed. The IPS, the Sheet and `numbers.yaml` were not edited. The Sheet was only read.
 
+## Re-run after the round-3 notes revision (WS6-revise, 30 Sep)
+
+- **418 checks: 0 FAIL, 18 UNVERIFIED, 16 CONDITIONAL; `--self-test` 10 of 10.** The claim patterns follow the new
+  exemplar texts ("the facility gets less", "Its 1 Oct WInS price passed", "more of what it pays comes at
+  maturity", VT's "thousands of companies" and "the top of the range", IBTM_R's "first call on a shortfall"). G1's
+  kit margin now reads each note's `kit_limit` (285, or 295 when no security name is left to swap in; longest note 294,
+  all under the 300 box). The mirrors in `rab/sheets/` were rebuilt, so G7 passes. Open item 7 (the live Sheet tabs)
+  still stands and now covers these texts too. Details: `rab/trades/judge_response.md`, round 3.
+
 ## Current run (third run, on kit commit cc887b3 plus this commit)
 
 - **Result:** 413 checks: **0 FAIL**, 18 UNVERIFIED (WInS name strings), 16 CONDITIONAL (open item 3).

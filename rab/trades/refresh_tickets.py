@@ -374,17 +374,39 @@ def dirty_for_sizing(k, ctx):
     return p["ref"] + acc
 
 
-def plan_split(ctx):
+def plan_split(ctx, floor_rule="fixed"):
     """Laura's plan after both deposits, from this context's curve (M1_METHOD.md section F): the ten payments at
-    their 1 Jan 2027 cost (Nov-15 basis), the $150,000 floor at the 5-year yield, the stock fund = the rest. If the
-    payments cost more than $300,000, the 2028 deposit tops up the earliest first and the stock fund is smaller."""
+    their 1 Jan 2027 cost (Nov-15 basis), the floor at the 5-year yield, the stock fund = the rest. If the payments
+    cost more than $300,000, the 2028 deposit tops up the earliest first and less is left for the facility.
+    floor_rule (the team's floor definition, notes.md s7; judge panel round 3):
+      fixed      the floor stays $150,000 and the stock fund absorbs a top-up (the kit's model, WS4; default)
+      remainder  the IPS read literally: the floor Treasuries 'repay the whole remainder' of the 2028 deposit after
+                 the top-up, so the floor falls by the whole top-up and the stock fund by only its cost share.
+    The two agree whenever the payments cost $300,000 or less (any 2027 remainder goes to the stock fund)."""
     L = m1.liability(ctx["cv"], "nov15")
     y1, y5 = float(ctx["row"]["1 Yr"]) / 100, float(ctx["row"]["5 Yr"]) / 100
     left = START_CASH - L["fwd_2027"]
     G = left * (1 + y1) + 150_000
-    floor = 150_000 / (1 + y5) ** 5
+    face = 150_000 if floor_rule == "fixed" else 150_000 - max(0.0, -left) * (1 + y1)
+    floor = max(face, 0.0) / (1 + y5) ** 5
     tot = L["fwd_2028"] + G
     return L, {"ladder": L["fwd_2028"] / tot, "floor": floor / tot, "vt": (G - floor) / tot}
+
+
+def breakeven_words(bp):
+    """The words the IBTR note types for the break-even fall (judge panel round 3: 19.3bp on 25 Sep, 26.2bp on
+    28 Sep, 28.9bp on 29 Sep on the same code, so the note's words follow Friday's figure)."""
+    if bp <= 0:
+        return "none: the test fails today (type IBTR_F)"
+    if bp < 15:
+        return "under a fifth: tell Ray before typing the note"
+    if bp < 22.5:
+        return "about a fifth of a percentage point"
+    if bp < 30:
+        return "about a quarter of a percentage point"
+    if bp < 37.5:
+        return "about a third of a percentage point"
+    return "over a third: tell Ray before typing the note"
 
 
 def units_rule(ctx):
@@ -672,6 +694,19 @@ def md_detail(rows):
     return L + [""]
 
 
+def vol_note(ctx):
+    """Locked basis only: the same ratio on numbers.yaml's avg_volume_20d (equal to iShares' '30 Day Avg. Volume'),
+    so a reader can see which series is the stricter one (judge panel round 3)."""
+    try:
+        ny = yaml.safe_load(open(os.path.join(ROOT, "rab/numbers.yaml")))["numbers"]["market.etf_2026-09-28"]["value"]
+    except Exception:  # noqa: BLE001
+        return ""
+    stricter = all(ctx["stats"][t]["adv30"] <= ny[t]["avg_volume_20d"] for t in ctx["stats"] if t in ny)
+    return ("On numbers.yaml's `avg_volume_20d` (iShares' 30-day figure) every iBonds and VT average is "
+            + ("at least as large, so the ratios would be lower: the Nasdaq series used here is the stricter one."
+               if stricter else "smaller for at least one fund; the larger ratio of the two is the one that counts."))
+
+
 def write_md(path, books, ctx, checks, trims, units_mode):
     L = [f"# Friday WInS tickets", "",
          f"**Basis:** {ctx['label']}. **Trade date:** Fri {ctx['trade_date']:%-d %b %Y} (U.S. Eastern). "
@@ -729,7 +764,11 @@ def write_md(path, books, ctx, checks, trims, units_mode):
           f"always agree.",
           "- **2x-volume check:** shares / (2 x 30-session average daily volume), the official rule; the column also "
           "shows shares / the 20-session median day (kit rule: at most 10%). Every order is also below half of the "
-          "lowest day in 20 sessions (the WInS FAQ rule, worst full day). Volumes: Nasdaq consolidated, complete sessions.",
+          "lowest day in 20 sessions (the WInS FAQ rule, worst full day). Volumes: Nasdaq consolidated, complete sessions"
+          + (" (source: https://api.nasdaq.com/api/quote/<TICKER>/historical, fetched 29 Sep 2026 10:44 EDT, "
+             "`rab/data/etf/nasdaq_historical.json`, summarised as `avg_volume_30d` in "
+             "`rab/data/etf/etf_summary_2026-09-28.csv`; not yet in numbers.yaml, WS1 request 7). " + vol_note(ctx)
+             if ctx["basis"] == "locked" else " (fetched on the day; saved in `rab/trades/out/`)."),
           "- **Yield check:** the yield of the WInS price minus the yield of the price from the official par curve "
           "(M1_METHOD.md section C); over 25bp either way = stale or wrong, use the alternate.",
           "- **Bond quantity:** face value in dollars. The WInS unit (dollars, $1,000 bonds or $100 units) is "
@@ -764,6 +803,10 @@ def main():
                     "filled; bonds are then re-sized from it (use with --units rule)")
     ap.add_argument("--cash-before-vt", type=float, help="Portfolio, next session: the cash WInS shows once the bonds "
                     "have filled; VT (order 11) is sized from it, never above the plan share")
+    ap.add_argument("--floor-rule", choices=["fixed", "remainder"], default="fixed",
+                    help="the team's floor definition for --split-from-curve and trigger B (notes.md s7): fixed = a "
+                    "$150,000 floor, the stock fund absorbs a top-up (default, the kit's model); remainder = the IPS "
+                    "read literally, the floor is what is left of the 2028 deposit")
     ap.add_argument("--split-from-curve", action="store_true",
                     help="size the Portfolio book from the plan split this curve prints, not the typed 65.9/24.3/8.7 "
                     "(use only when the IBTR test fails: ten payments above $300,000 on 1 Jan 2027; needs --units "
@@ -787,10 +830,10 @@ def main():
     if a.split_from_curve:
         if units_mode != "rule":
             ap.error("--split-from-curve needs --units rule (the Sheet's units are the typed split)")
-        _, sp = plan_split(ctx)
+        _, sp = plan_split(ctx, a.floor_rule)
         SPLIT.update({"ladder": round(sp["ladder"], 3), "floor": round(sp["floor"] - 0.01, 3), "vt": round(sp["vt"], 3)})
-        print(f"--split-from-curve: sizing from ladder {SPLIT['ladder']:.1%} / floor {SPLIT['floor']:.1%} (+1.0% cash) / "
-              f"stock fund {SPLIT['vt']:.1%}")
+        print(f"--split-from-curve ({a.floor_rule} floor): sizing from ladder {SPLIT['ladder']:.1%} / floor "
+              f"{SPLIT['floor']:.1%} (+1.0% cash) / stock fund {SPLIT['vt']:.1%}")
     units = units_sheet() if units_mode == "sheet" else units_rule(ctx)
     trims = []
     books = {}
@@ -818,13 +861,22 @@ def main():
     checks += words
     write_md(md_p, books, ctx, checks, trims, units_mode)
     # plan-split drift warning (information only; the split is the team's typed input). M1_METHOD.md section F.
-    L, split = plan_split(ctx)
+    L, split = plan_split(ctx, a.floor_rule)
+    be = m1.breakeven_bp(ctx["row"], "nov15")
     print(f"{ctx['label']}\ncurve {ctx['curve_date']}: ten payments cost ${L['fwd_2027']:,.0f} on 1 Jan 2027 "
-          f"(Nov-15 zero-coupon basis, the numbers.yaml basis; MODEL); plan split ladder {split['ladder']:.1%} / floor "
-          f"{split['floor']:.1%} / stock fund {split['vt']:.1%} vs typed 65.9 / 25.3 (24.3 + 1 cash) / 8.7")
+          f"(Nov-15 zero-coupon basis, the numbers.yaml basis; MODEL); plan split ({a.floor_rule} floor) ladder "
+          f"{split['ladder']:.1%} / floor {split['floor']:.1%} / stock fund {split['vt']:.1%} vs typed 65.9 / 25.3 "
+          f"(24.3 + 1 cash) / 8.7")
+    print(f"  IBTR test: room under $300,000 ${START_CASH - L['fwd_2027']:,.0f}; break-even fall {be:.1f}bp of yield "
+          f"(parallel, before 1 Jan 2027; MODEL). Words for the IBTR note: '{breakeven_words(be)}'. Read both lines "
+          f"aloud and write them in the Trade Log (WS1 re-locks them)")
     if L["fwd_2027"] > START_CASH and not a.split_from_curve:
+        other = "remainder" if a.floor_rule == "fixed" else "fixed"
+        _, alt = plan_split(ctx, other)
         print("  IBTR TEST FAILS: the ten payments cost more than $300,000. Do not stop trading: re-run with "
               "--split-from-curve and trade that ticket (friday_checklist.md, 'If the IBTR test fails')")
+        print(f"  the other floor definition ({other}) would give ladder {alt['ladder']:.1%} / floor {alt['floor']:.1%} "
+              f"/ stock fund {alt['vt']:.1%}: use --floor-rule for the definition the team chose (notes.md s7)")
     elif abs(split["vt"] - SPLIT["vt"]) > 0.01 and not a.split_from_curve:
         print("  NOTE: the stock-fund share moved more than 1 point from the typed split: a team decision, "
               "not applied here (see october_trade.md trigger B)")
