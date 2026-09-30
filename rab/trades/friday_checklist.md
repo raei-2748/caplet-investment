@@ -9,7 +9,7 @@ not from that file. Every time below comes from `rab/trades/trades_clock.py` (zo
 
 | When (Sydney) | When (U.S. Eastern) | What |
 |---|---|---|
-| Thu 1 Oct, team meeting | - | Vote: Portfolio tab or Book L; low-coupon swap yes/no (`M9_selection.md`); roles; notes drafted |
+| Thu 1 Oct, team meeting | - | Vote: Portfolio tab or Book L; the one swap rule for same-slot alternates (`M9_selection.md`); the backstop sentence yes/no; roles; notes drafted |
 | **Fri 2 Oct 9:00 PM AEST** | Fri 7:00 AM EDT | Read-only checks in WInS; type prices; run the refresh |
 | Fri 2 Oct 11:30 PM AEST | Fri 9:30 AM EDT | U.S. market opens. Watch, do not trade for 15 minutes |
 | Fri 2 Oct 11:45 PM AEST | Fri 9:45 AM EDT | Earliest any order may go in, only if Plan A cannot wait (iBonds normally wait for 10:30) |
@@ -44,10 +44,17 @@ any AI help goes in `docs/AI_USE.md`.
 ## Thursday 1 Oct (before Friday)
 
 - [ ] Vote on the book: the **Portfolio tab** (11 trades) or **Book L** (10 trades). Record the vote, names and date.
-- [ ] Decide the low-coupon question (`M9_selection.md`) on its merits: swap on Friday if the bond is listed and its
-      price passes the 25bp check, keep the swap for October (trigger D), or no. This settles which Nov-2040 note is
-      typed: **T40b** if WInS does not list the 1.375%, **SW40** if it is listed and swapped, **T40c** if it is listed
-      but kept for October (`notes.md` s4-s5). That note is the planned "refined" pick.
+- [ ] Adopt **one swap rule** for the three same-slot alternates (`M9_selection.md`): if WInS lists it and its price
+      is inside its 25bp band on Friday, swap it in on Friday (`--swap`); if it is listed but its price fails, buy the
+      planned bond and let October trigger D swap only if the price passes later; if it is not listed, buy the planned
+      bond. The three: **1.375% 15 Nov 2040** for the 4.250% (notes SW40 / T40s / T40b), **2.000% 15 Nov 2041** for
+      the 3.125% (SW41 / T41), **5.000% 15 May 2037** for the 4.750% Feb 2037 (SW37 / T37). Keeping a listed, passing
+      bond for October is no longer an option (it would look like a trade made to create a pick; T40c is retired).
+- [ ] Decide the **backstop sentence** (wording only; `notes.md` s7 triage row 2): does the policy name the half of
+      the stock fund Laura keeps, not the floor, as the money that covers a shortfall from coupons or fund end values?
+      Yes: order 5's note is **IBTM_R** (a "refined" pick). No: it is **IBTM_P** (supported). Nothing here edits the IPS.
+- [ ] The refined pick is then the first that exists: SW40, SW41, OD_B (October), IBTM_R. If none, the team features
+      IBTM_P as supported and does not force "refined" (`notes.md` s6).
 - [ ] Laura-lens reason for the vote: Book L shows only the payments, so the floor and the stock fund, two of her
       three goals, never appear in WInS before the 23 Oct Trading Notes Analysis (`notes.md` s6).
 - [ ] Strategy name: keep any brand name **out of** WInS notes unless Ray confirms the final name (premortem PM-16).
@@ -82,16 +89,31 @@ Nothing is ordered in this step.
    /Users/ray/Research/rab-ws/.venv/bin/python rab/trades/refresh_tickets.py --basis friday \
        --wins-prices rab/trades/wins_prices_friday.csv --book Portfolio      # or --book BookL
    ```
-   Add `--swap "T 4.250% 15-Nov-2040=T 1.375% 15-Nov-2040"` (and/or the Nov-2041 pair) only if the team voted for it
-   and the alternate's price passes. The script must end with `0 fail`. Share `rab/trades/out/tickets_*.md`.
+   Under the one swap rule (Thursday), add a `--swap` for each same-slot alternate that is listed and whose price
+   passes: `--swap "T 4.250% 15-Nov-2040=T 1.375% 15-Nov-2040"`, `--swap "T 3.125% 15-Nov-2041=T 2.000% 15-Nov-2041"`,
+   `--swap "T 4.750% 15-Feb-2037=T 5.000% 15-May-2037"`. The script must end with `0 fail`. Share
+   `rab/trades/out/tickets_*.md`. Tell the note keeper which notes this settles (T40b / SW40 / T40s, T41 / SW41,
+   T37 / SW37).
    - If a bond **fails the 25bp check**, it is stale: use the alternate named on its ticket, or skip it today and
      buy it on Monday.
-   - The script prints "ten payments cost $X on 1 Jan 2027" on the latest curve. **That line is the test in the IBTR
-     note** (the "tested" pick): read it aloud and write it in the Trade Log. If it is above $300,000, the IBTR note
-     changes: tell Ray before trading (`october_trade.md` trigger B describes what the plan then does).
+   - The script prints "ten payments cost $X on 1 Jan 2027" on the latest curve (the zero-coupon basis of
+     `numbers.yaml`). **That line is the test in the IBTR note** (the "tested" pick): read it aloud and write it in the
+     Trade Log. If it is above $300,000, the script says **IBTR TEST FAILS**: go to "If the IBTR test fails" below.
    - If a fetch fails, the script says so, falls back to the committed 28 Sep files and marks those prices STALE
      (the check fails). Type the WInS price for every flagged ETF too (the template has a row for each) and re-run
      until it ends with `0 fail`. Never work out sizes by hand.
+
+### If the IBTR test fails (the refresh says more than $300,000)
+
+The rule, set before anyone knew the answer, now decides the trade. Do not stop trading and do not skip IBTR.
+
+1. [ ] Re-run the refresh with `--split-from-curve` added. It sizes the Portfolio book from the plan split the curve
+       prints: the dated holdings get more and VT less, because Laura's 2028 deposit tops up the earliest payments
+       before any stocks (IPS: "A moderate fall in yields would leave some payments for the 2028 deposit to
+       complete"). Book L is unchanged (it holds only the ladder).
+2. [ ] Trade orders 1-10 from that ticket. Order 1's note is **IBTR_F** (`notes.md` s5), in the team's own words.
+3. [ ] On Monday, add `--split-from-curve` to the VT refresh too, so VT gets the smaller share.
+4. [ ] Tell Ray; the Friday figure goes in the Trade Log and to WS1 for the re-lock.
 
 ## Friday 11:30 PM AEST: open. Plan A from 12:30 AM AEST
 
@@ -144,7 +166,8 @@ Monday 5 Oct ET, which is Tue 6 Oct from 12:30 AM AEDT. Nothing in the plan depe
 2. [ ] Read the WInS cash. Refresh runner:
    `/Users/ray/Research/rab-ws/.venv/bin/python rab/trades/refresh_tickets.py --basis friday --trade-date 2026-10-05
    --wins-prices rab/trades/wins_prices_friday.csv --book Portfolio --cash-before-vt <cash shown>` (Friday's price file
-   is fine: only the VT row is used). Use **only the VT row**: the
+   is fine: only the VT row is used; add `--split-from-curve` if the IBTR test failed on Friday). Use **only the VT
+   row**: the
    plan share, or fewer shares if the cash would fall below $1,000. Never more than the plan share (spare cash waits
    for October trigger C).
 3. [ ] Same nine steps as Friday. The VT note says it was bought last; if VT was placed before the bonds by mistake,

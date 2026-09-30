@@ -5,7 +5,7 @@
    "PASS": 1
   },
   "G1 length": {
-   "PASS": 66
+   "PASS": 75
   },
   "G2 names": {
    "PASS": 26,
@@ -18,8 +18,8 @@
    "PASS": 21
   },
   "G5 trace": {
-   "PASS": 153,
-   "CONDITIONAL": 8
+   "PASS": 165,
+   "CONDITIONAL": 16
   },
   "G6 stale": {
    "PASS": 16
@@ -36,13 +36,13 @@
    "check": "G1 length",
    "item": "IBTR",
    "status": "PASS",
-   "detail": "282 chars (box 300); char_count column 282; ascii True"
+   "detail": "285 chars (box 300); char_count column 285; ascii True"
   },
   {
    "check": "G1 length",
    "item": "IBTR kit margin",
    "status": "PASS",
-   "detail": "282 <= 285"
+   "detail": "285 <= 285"
   },
   {
    "check": "G1 length",
@@ -72,13 +72,13 @@
    "check": "G1 length",
    "item": "IBTP",
    "status": "PASS",
-   "detail": "276 chars (box 300); char_count column 276; ascii True"
+   "detail": "259 chars (box 300); char_count column 259; ascii True"
   },
   {
    "check": "G1 length",
    "item": "IBTP kit margin",
    "status": "PASS",
-   "detail": "276 <= 285"
+   "detail": "259 <= 285"
   },
   {
    "check": "G1 length",
@@ -90,13 +90,13 @@
    "check": "G1 length",
    "item": "IBTO",
    "status": "PASS",
-   "detail": "281 chars (box 300); char_count column 281; ascii True"
+   "detail": "276 chars (box 300); char_count column 276; ascii True"
   },
   {
    "check": "G1 length",
    "item": "IBTO kit margin",
    "status": "PASS",
-   "detail": "281 <= 285"
+   "detail": "276 <= 285"
   },
   {
    "check": "G1 length",
@@ -108,13 +108,13 @@
    "check": "G1 length",
    "item": "IBTM_P",
    "status": "PASS",
-   "detail": "285 chars (box 300); char_count column 285; ascii True"
+   "detail": "255 chars (box 300); char_count column 255; ascii True"
   },
   {
    "check": "G1 length",
    "item": "IBTM_P kit margin",
    "status": "PASS",
-   "detail": "285 <= 285"
+   "detail": "255 <= 285"
   },
   {
    "check": "G1 length",
@@ -126,13 +126,13 @@
    "check": "G1 length",
    "item": "T41",
    "status": "PASS",
-   "detail": "267 chars (box 300); char_count column 267; ascii True"
+   "detail": "279 chars (box 300); char_count column 279; ascii True"
   },
   {
    "check": "G1 length",
    "item": "T41 kit margin",
    "status": "PASS",
-   "detail": "267 <= 285"
+   "detail": "279 <= 285"
   },
   {
    "check": "G1 length",
@@ -144,13 +144,13 @@
    "check": "G1 length",
    "item": "T40b",
    "status": "PASS",
-   "detail": "279 chars (box 300); char_count column 279; ascii True"
+   "detail": "284 chars (box 300); char_count column 284; ascii True"
   },
   {
    "check": "G1 length",
    "item": "T40b kit margin",
    "status": "PASS",
-   "detail": "279 <= 285"
+   "detail": "284 <= 285"
   },
   {
    "check": "G1 length",
@@ -162,13 +162,13 @@
    "check": "G1 length",
    "item": "T39",
    "status": "PASS",
-   "detail": "283 chars (box 300); char_count column 283; ascii True"
+   "detail": "277 chars (box 300); char_count column 277; ascii True"
   },
   {
    "check": "G1 length",
    "item": "T39 kit margin",
    "status": "PASS",
-   "detail": "283 <= 285"
+   "detail": "277 <= 285"
   },
   {
    "check": "G1 length",
@@ -198,13 +198,13 @@
    "check": "G1 length",
    "item": "T37",
    "status": "PASS",
-   "detail": "276 chars (box 300); char_count column 276; ascii True"
+   "detail": "258 chars (box 300); char_count column 258; ascii True"
   },
   {
    "check": "G1 length",
    "item": "T37 kit margin",
    "status": "PASS",
-   "detail": "276 <= 285"
+   "detail": "258 <= 285"
   },
   {
    "check": "G1 length",
@@ -216,13 +216,13 @@
    "check": "G1 length",
    "item": "VT",
    "status": "PASS",
-   "detail": "282 chars (box 300); char_count column 282; ascii True"
+   "detail": "285 chars (box 300); char_count column 285; ascii True"
   },
   {
    "check": "G1 length",
    "item": "VT kit margin",
    "status": "PASS",
-   "detail": "282 <= 285"
+   "detail": "285 <= 285"
   },
   {
    "check": "G1 length",
@@ -250,19 +250,55 @@
   },
   {
    "check": "G1 length",
-   "item": "T40c",
+   "item": "IBTR_F",
    "status": "PASS",
-   "detail": "284 chars (box 300); char_count column 284; ascii True"
+   "detail": "256 chars (box 300); char_count column 256; ascii True"
   },
   {
    "check": "G1 length",
-   "item": "T40c kit margin",
+   "item": "IBTR_F kit margin",
    "status": "PASS",
-   "detail": "284 <= 285"
+   "detail": "256 <= 285"
   },
   {
    "check": "G1 length",
-   "item": "T40c same text in notes.md",
+   "item": "IBTR_F same text in notes.md",
+   "status": "PASS",
+   "detail": "exemplar found verbatim in notes.md"
+  },
+  {
+   "check": "G1 length",
+   "item": "IBTM_R",
+   "status": "PASS",
+   "detail": "280 chars (box 300); char_count column 280; ascii True"
+  },
+  {
+   "check": "G1 length",
+   "item": "IBTM_R kit margin",
+   "status": "PASS",
+   "detail": "280 <= 285"
+  },
+  {
+   "check": "G1 length",
+   "item": "IBTM_R same text in notes.md",
+   "status": "PASS",
+   "detail": "exemplar found verbatim in notes.md"
+  },
+  {
+   "check": "G1 length",
+   "item": "T40s",
+   "status": "PASS",
+   "detail": "263 chars (box 300); char_count column 263; ascii True"
+  },
+  {
+   "check": "G1 length",
+   "item": "T40s kit margin",
+   "status": "PASS",
+   "detail": "263 <= 285"
+  },
+  {
+   "check": "G1 length",
+   "item": "T40s same text in notes.md",
    "status": "PASS",
    "detail": "exemplar found verbatim in notes.md"
   },
@@ -270,13 +306,13 @@
    "check": "G1 length",
    "item": "SW40",
    "status": "PASS",
-   "detail": "285 chars (box 300); char_count column 285; ascii True"
+   "detail": "271 chars (box 300); char_count column 271; ascii True"
   },
   {
    "check": "G1 length",
    "item": "SW40 kit margin",
    "status": "PASS",
-   "detail": "285 <= 285"
+   "detail": "271 <= 285"
   },
   {
    "check": "G1 length",
@@ -288,13 +324,13 @@
    "check": "G1 length",
    "item": "SW41",
    "status": "PASS",
-   "detail": "281 chars (box 300); char_count column 281; ascii True"
+   "detail": "278 chars (box 300); char_count column 278; ascii True"
   },
   {
    "check": "G1 length",
    "item": "SW41 kit margin",
    "status": "PASS",
-   "detail": "281 <= 285"
+   "detail": "278 <= 285"
   },
   {
    "check": "G1 length",
@@ -304,15 +340,33 @@
   },
   {
    "check": "G1 length",
+   "item": "SW37",
+   "status": "PASS",
+   "detail": "267 chars (box 300); char_count column 267; ascii True"
+  },
+  {
+   "check": "G1 length",
+   "item": "SW37 kit margin",
+   "status": "PASS",
+   "detail": "267 <= 285"
+  },
+  {
+   "check": "G1 length",
+   "item": "SW37 same text in notes.md",
+   "status": "PASS",
+   "detail": "exemplar found verbatim in notes.md"
+  },
+  {
+   "check": "G1 length",
    "item": "OD_S",
    "status": "PASS",
-   "detail": "276 chars (box 300); char_count column 276; ascii True"
+   "detail": "283 chars (box 300); char_count column 283; ascii True"
   },
   {
    "check": "G1 length",
    "item": "OD_S kit margin",
    "status": "PASS",
-   "detail": "276 <= 285"
+   "detail": "283 <= 285"
   },
   {
    "check": "G1 length",
@@ -324,13 +378,13 @@
    "check": "G1 length",
    "item": "OD_B",
    "status": "PASS",
-   "detail": "277 chars (box 300); char_count column 277; ascii True"
+   "detail": "274 chars (box 300); char_count column 274; ascii True"
   },
   {
    "check": "G1 length",
    "item": "OD_B kit margin",
    "status": "PASS",
-   "detail": "277 <= 285"
+   "detail": "274 <= 285"
   },
   {
    "check": "G1 length",
@@ -342,13 +396,13 @@
    "check": "G1 length",
    "item": "OB_S",
    "status": "PASS",
-   "detail": "276 chars (box 300); char_count column 276; ascii True"
+   "detail": "285 chars (box 300); char_count column 285; ascii True"
   },
   {
    "check": "G1 length",
    "item": "OB_S kit margin",
    "status": "PASS",
-   "detail": "276 <= 285"
+   "detail": "285 <= 285"
   },
   {
    "check": "G1 length",
@@ -360,13 +414,13 @@
    "check": "G1 length",
    "item": "OB_B",
    "status": "PASS",
-   "detail": "266 chars (box 300); char_count column 266; ascii True"
+   "detail": "264 chars (box 300); char_count column 264; ascii True"
   },
   {
    "check": "G1 length",
    "item": "OB_B kit margin",
    "status": "PASS",
-   "detail": "266 <= 285"
+   "detail": "264 <= 285"
   },
   {
    "check": "G1 length",
@@ -378,13 +432,13 @@
    "check": "G1 length",
    "item": "OC",
    "status": "PASS",
-   "detail": "254 chars (box 300); char_count column 254; ascii True"
+   "detail": "247 chars (box 300); char_count column 247; ascii True"
   },
   {
    "check": "G1 length",
    "item": "OC kit margin",
    "status": "PASS",
-   "detail": "254 <= 285"
+   "detail": "247 <= 285"
   },
   {
    "check": "G1 length",
@@ -394,33 +448,33 @@
   },
   {
    "check": "G1 length",
-   "item": "outline: Pick 1, IBTR (tested)",
+   "item": "outline: Pick 1, IBTR (tested; IBTR_F if the test",
    "status": "PASS",
-   "detail": "68 words counted (stated 68; TN limit 100)"
+   "detail": "60 words counted (stated 60; TN limit 100)"
   },
   {
    "check": "G1 length",
-   "item": "outline: Pick 2, the Nov 2040 bond (refined: SW40",
+   "item": "outline: Pick 2, refined: SW40, SW41 or OD_B (a b",
    "status": "PASS",
-   "detail": "69 words counted (stated 69; TN limit 100)"
+   "detail": "59 words counted (stated 59; TN limit 100)"
   },
   {
    "check": "G1 length",
    "item": "outline: Pick 3, VT (supported)",
    "status": "PASS",
-   "detail": "70 words counted (stated 70; TN limit 100)"
+   "detail": "60 words counted (stated 60; TN limit 100)"
   },
   {
    "check": "G1 length",
-   "item": "outline: Alternate A, IBTM (supported)",
+   "item": "outline: Alternate A, IBTM (supported; pick 2 if ",
    "status": "PASS",
-   "detail": "62 words counted (stated 62; TN limit 100)"
+   "detail": "46 words counted (stated 46; TN limit 100)"
   },
   {
    "check": "G1 length",
    "item": "outline: Alternate B, 4.375% Nov 2039 bond (suppo",
    "status": "PASS",
-   "detail": "35 words counted (stated 35; TN limit 100)"
+   "detail": "33 words counted (stated 33; TN limit 100)"
   },
   {
    "check": "G1 length",
@@ -942,7 +996,7 @@
    "check": "G3 cash",
    "item": "Portfolio #10 T 4.750% 15-Feb-2037",
    "status": "PASS",
-   "detail": "cost $19,552.40 (comm $10); cash after: locked $31,305.34 / Preview $31,044.48 / worst $28,899.66"
+   "detail": "cost $19,552.40 (comm $10); cash after: locked $31,305.34 / Preview $31,044.48 / worst $28,903.86"
   },
   {
    "check": "G4 volume",
@@ -966,7 +1020,7 @@
    "check": "G3 cash",
    "item": "Portfolio #11 VT",
    "status": "PASS",
-   "detail": "cost $26,069.84 (comm $25); cash after: locked $5,235.50 / Preview $4,974.64 / worst $2,441.14"
+   "detail": "cost $26,069.84 (comm $25); cash after: locked $5,235.50 / Preview $4,974.64 / worst $2,445.34"
   },
   {
    "check": "G4 volume",
@@ -1002,7 +1056,7 @@
    "check": "G3 cash",
    "item": "Portfolio lowest cash",
    "status": "PASS",
-   "detail": "lowest cash in any case $2,441.14 (kit floor $1,000: True)"
+   "detail": "lowest cash in any case $2,445.34 (kit floor $1,000: True)"
   },
   {
    "check": "G5 trace",
@@ -1260,7 +1314,7 @@
    "check": "G3 cash",
    "item": "BookL #10 T 4.750% 15-Feb-2037",
    "status": "PASS",
-   "detail": "cost $29,323.60 (comm $10); cash after: locked $7,419.11 / Preview $7,021.52 / worst $4,511.86"
+   "detail": "cost $29,323.60 (comm $10); cash after: locked $7,419.11 / Preview $7,021.52 / worst $4,518.16"
   },
   {
    "check": "G4 volume",
@@ -1290,7 +1344,7 @@
    "check": "G3 cash",
    "item": "BookL lowest cash",
    "status": "PASS",
-   "detail": "lowest cash in any case $4,511.86 (kit floor $1,000: True)"
+   "detail": "lowest cash in any case $4,518.16 (kit floor $1,000: True)"
   },
   {
    "check": "G3 cash",
@@ -1306,33 +1360,45 @@
   },
   {
    "check": "G5 trace",
-   "item": "note IBTR: 'We first re-priced'",
+   "item": "note IBTR: 'Tested before this first order'",
    "status": "PASS",
    "detail": "IBTR is Friday order 1 (tickets.csv seq 1); the refresh runs before any order (friday_checklist.md)"
   },
   {
    "check": "G5 trace",
-   "item": "note IBTR: 'under her $300,000 deposit at latest yields'",
+   "item": "note IBTR: 'cost under her $300,000 first deposit'",
    "status": "PASS",
-   "detail": "laura.ladder.cost_2027_strips $292,418.11 < $300,000 (28 Sep curve; re-run Friday)"
+   "detail": "laura.ladder.cost_2027_strips $292,418.11 < $300,000 (28 Sep curve, zero-coupon basis; re-run Friday)"
   },
   {
    "check": "G5 trace",
    "item": "note IBTR: 'about a quarter of a percentage point'",
    "status": "PASS",
-   "detail": "laura.ladder.breakeven_fall_bp_strips 26.2bp"
+   "detail": "laura.ladder.breakeven_fall_bp_strips 26.2bp; the note says 'over about'"
   },
   {
    "check": "G5 trace",
-   "item": "note IBTR: 'leaves the earliest'",
+   "item": "note IBTR: 'future funding for the fifth'",
    "status": "PASS",
-   "detail": "IPS 'latest payments first' (snapshot 30 Sep): a short deposit leaves the earliest"
+   "detail": "'fifth' = payment 5 of 10; IBTR serves 1 Jan 2037"
   },
   {
    "check": "G5 trace",
-   "item": "note IBTR: payment year",
+   "item": "note IBTR: 'tops up the earliest'",
    "status": "PASS",
-   "detail": "note says [2037]; ticket serves 2037"
+   "detail": "IPS 'latest payments first' + 'leave some payments for the 2028 deposit to complete': a short deposit leaves the earliest"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTR: 'stocks get less'",
+   "status": "PASS",
+   "detail": "IPS: payments and floor 'secured before anything is invested' in stocks; WS4 memo: the gap lands on the stock fund"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTR: date 1 Oct",
+   "status": "PASS",
+   "detail": "check date (28/29 Sep), curve date 1 Oct, Friday trade date 2 Oct, or payment/maturity day"
   },
   {
    "check": "G5 trace",
@@ -1367,20 +1433,14 @@
   {
    "check": "G5 trace",
    "item": "note IBTP: 'almost exactly the value'",
-   "status": "PASS",
-   "detail": "wins.ibond_checks.IBTP.premium_to_nav_pct 0.06% (28 Sep)"
+   "status": "CONDITIONAL",
+   "detail": "wins.ibond_checks.IBTP.premium_to_nav_pct 0.06% on 28 Sep; the note reports the trade-date re-run"
   },
   {
    "check": "G5 trace",
    "item": "note IBTP: date 1 Jan 2035",
    "status": "PASS",
    "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
-  },
-  {
-   "check": "G5 trace",
-   "item": "note IBTP: date 28 Sep",
-   "status": "PASS",
-   "detail": "check date (28/29 Sep) or payment/maturity day"
   },
   {
    "check": "G5 trace",
@@ -1414,6 +1474,12 @@
   },
   {
    "check": "G5 trace",
+   "item": "note IBTM_P: 'has two jobs'",
+   "status": "PASS",
+   "detail": "Portfolio ticket 5 serves 'Jan 2033 payment + facility floor (both jobs in one holding)'"
+  },
+  {
+   "check": "G5 trace",
    "item": "note IBTM_P: 'her first $50,000 payment'",
    "status": "PASS",
    "detail": "'first' = payment 1 of 10; IBTM serves 1 Jan 2033"
@@ -1432,15 +1498,21 @@
   },
   {
    "check": "G5 trace",
-   "item": "note T41: 'No iBonds Treasury fund ends between 2037 and 2043'",
+   "item": "note T41: 'No iBonds Treasury fund ends from 2037 to 2043'",
    "status": "PASS",
    "detail": "iShares list 30 Sep: ends 2036 then 2044"
   },
   {
    "check": "G5 trace",
-   "item": "note T41: 'her last five payments use single bonds'",
+   "item": "note T41: 'her last five payments use individual bonds'",
    "status": "PASS",
    "detail": "tickets: 5 Treasury bonds serve 2038-2042"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T41: 'part of each payment comes from reinvested coupons'",
+   "status": "PASS",
+   "detail": "reinvest.rung.* at_0pct: set coupons + principal are 84-90% of each bond rung's $50,000"
   },
   {
    "check": "G5 trace",
@@ -1468,7 +1540,7 @@
   },
   {
    "check": "G5 trace",
-   "item": "note T40b: 'the ninth of Laura's ten'",
+   "item": "note T40b: 'the ninth of Laura's ten $50,000 payment'",
    "status": "PASS",
    "detail": "'ninth' = payment 9 of 10; T 4.250% 15-Nov-2040 serves 1 Jan 2041"
   },
@@ -1482,11 +1554,11 @@
    "check": "G5 trace",
    "item": "note T40b: 'but WInS does not list one'",
    "status": "CONDITIONAL",
-   "detail": "used only if the Friday drop-down shows no 1.375% Nov-2040 (notes.md s5)"
+   "detail": "used only if the Friday drop-down shows no 1.375% Nov-2040 (notes.md s4)"
   },
   {
    "check": "G5 trace",
-   "item": "note T40b: 'Its WInS price passed our curve check'",
+   "item": "note T40b: 'Its price passed our curve check'",
    "status": "PASS",
    "detail": "wins.bond_check.T_4.250%_15-Nov-2040 gap -5.1bp, inside 25bp (28 Sep; re-checked Friday)"
   },
@@ -1519,6 +1591,12 @@
    "item": "note T39: 'about seven weeks'",
    "status": "PASS",
    "detail": "15 Nov 2039 -> 1 Jan 2040 = 47 days"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T39: 'cover most of that payment'",
+   "status": "PASS",
+   "detail": "reinvest.rung.T_4.375%_15-Nov-2039 at_0pct 85.9% of $50,000"
   },
   {
    "check": "G5 trace",
@@ -1558,9 +1636,15 @@
   },
   {
    "check": "G5 trace",
-   "item": "note T38: 'almost a full percentage point of yield off'",
+   "item": "note T38: 'about seven and a half months'",
    "status": "PASS",
-   "detail": "wins.bond_check.T_4.375%_15-Feb-2038 gap -92.1bp"
+   "detail": "15 May 2038 -> 1 Jan 2039 = 231 days"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T38: 'the 4.375% Feb 2038 bond's price was stale'",
+   "status": "PASS",
+   "detail": "wins.bond_check.T_4.375%_15-Feb-2038 gap -92.1bp (the 28 Sep close, seen 29 Sep)"
   },
   {
    "check": "G5 trace",
@@ -1584,7 +1668,13 @@
    "check": "G5 trace",
    "item": "note T38: date 29 Sep",
    "status": "PASS",
-   "detail": "check date (28/29 Sep) or payment/maturity day"
+   "detail": "check date (28/29 Sep), curve date 1 Oct, Friday trade date 2 Oct, or payment/maturity day"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T38: coupon 4.375%",
+   "status": "PASS",
+   "detail": "a Treasury bond with this coupon matures 2036-2042 (MSPD)"
   },
   {
    "check": "G5 trace",
@@ -1600,15 +1690,9 @@
   },
   {
    "check": "G5 trace",
-   "item": "note T37: 'The only later bond before 2038, the 5.000% May 20'",
-   "status": "PASS",
-   "detail": "MSPD: Treasury bonds maturing after 15 Feb 2037 and before 2038 = 5.000% 15 May 2037 only"
-  },
-  {
-   "check": "G5 trace",
-   "item": "note T37: 'comes out about the same once coupons count'",
-   "status": "PASS",
-   "detail": "M9 slot 2038 delivered at 2%: 4.750% 90.5% vs 5.000% 90.5%"
+   "item": "note T37: 'It is the last WInS bond maturing before then'",
+   "status": "CONDITIONAL",
+   "detail": "used only if WInS does not list the 5.000% May 2037, the one later bond (MSPD)"
   },
   {
    "check": "G5 trace",
@@ -1630,12 +1714,6 @@
   },
   {
    "check": "G5 trace",
-   "item": "note T37: coupon 5.000%",
-   "status": "PASS",
-   "detail": "a Treasury bond with this coupon matures 2036-2042 (MSPD)"
-  },
-  {
-   "check": "G5 trace",
    "item": "note T37: payment year",
    "status": "PASS",
    "detail": "note says [2038]; ticket serves 2038"
@@ -1654,21 +1732,15 @@
   },
   {
    "check": "G5 trace",
-   "item": "note VT: 'about 9% of our WInS portfolio'",
-   "status": "PASS",
-   "detail": "wins.portfolio.split_close_0928 vt 0.0868"
-  },
-  {
-   "check": "G5 trace",
-   "item": "note VT: 'A fall cuts only her contribution above the floor'",
+   "item": "note VT: 'A fall can cut her contribution, not below the flo'",
    "status": "PASS",
    "detail": "IPS: equities 'can reduce the facility contribution, but not below the floor'"
   },
   {
    "check": "G5 trace",
-   "item": "note VT: 9%",
+   "item": "note VT: 'Half the fund stays hers'",
    "status": "PASS",
-   "detail": "= wins.portfolio.split_close_0928 (vt 0.0868)"
+   "detail": "IPS: 'The other half remains with Laura as a cushion'"
   },
   {
    "check": "G5 trace",
@@ -1702,57 +1774,111 @@
   },
   {
    "check": "G5 trace",
-   "item": "note T40c: 'the ninth of Laura's ten'",
+   "item": "note IBTR_F: 'Tested before this first order'",
+   "status": "PASS",
+   "detail": "IBTR is Friday order 1 (tickets.csv seq 1); the refresh runs before any order (friday_checklist.md)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTR_F: 'cost more than her $300,000 first deposit'",
+   "status": "CONDITIONAL",
+   "detail": "typed only if the Friday refresh is above $300,000 (friday_checklist.md)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTR_F: 'future funding for the fifth'",
+   "status": "PASS",
+   "detail": "'fifth' = payment 5 of 10; IBTR serves 1 Jan 2037"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTR_F: 'tops up the earliest'",
+   "status": "PASS",
+   "detail": "IPS 'latest payments first' + 'leave some payments for the 2028 deposit to complete': a short deposit leaves the earliest"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTR_F: 'so we hold less stock than planned'",
+   "status": "CONDITIONAL",
+   "detail": "--split-from-curve lowers VT's share when the test fails (refresh_tickets.py)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTR_F: date 1 Oct",
+   "status": "PASS",
+   "detail": "check date (28/29 Sep), curve date 1 Oct, Friday trade date 2 Oct, or payment/maturity day"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTM_R: 'Laura's first $50,000 payment'",
+   "status": "PASS",
+   "detail": "'first' = payment 1 of 10; IBTM serves 1 Jan 2033"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTM_R: 'the least she plans to give'",
+   "status": "PASS",
+   "detail": "IPS: 'a floor she can promise co-sponsors' (definition)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note IBTM_R: 'the half of the stock fund she keeps'",
+   "status": "CONDITIONAL",
+   "detail": "IPS: 'The other half remains with Laura as a cushion'; naming it the backstop needs the 1 Oct vote"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T40s: 'the ninth of Laura's ten $50,000 payment'",
    "status": "PASS",
    "detail": "'ninth' = payment 9 of 10; T 4.250% 15-Nov-2040 serves 1 Jan 2041"
   },
   {
    "check": "G5 trace",
-   "item": "note T40c: 'which leaves less income to reinvest'",
+   "item": "note T40s: 'which leaves less resting on reinvested coupons'",
    "status": "PASS",
    "detail": "M9 slot 2041: share of cash as coupons 1.375% 16.6% vs 4.250% 38.1%"
   },
   {
    "check": "G5 trace",
-   "item": "note T40c: 'WInS also lists a 1.375% bond'",
+   "item": "note T40s: 'WInS lists a 1.375% bond of that date'",
    "status": "CONDITIONAL",
    "detail": "used only if the drop-down lists it (notes.md s5)"
   },
   {
    "check": "G5 trace",
-   "item": "note T40c: coupon 4.250%",
+   "item": "note T40s: 'its price failed our curve check today'",
+   "status": "CONDITIONAL",
+   "detail": "used only if its Friday price is outside the 25bp band (notes.md s5)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note T40s: coupon 4.250%",
    "status": "PASS",
    "detail": "a Treasury bond with this coupon matures 2036-2042 (MSPD)"
   },
   {
    "check": "G5 trace",
-   "item": "note T40c: date 15 Nov 2040",
+   "item": "note T40s: date 15 Nov 2040",
    "status": "PASS",
    "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
   },
   {
    "check": "G5 trace",
-   "item": "note T40c: coupon 1.375%",
+   "item": "note T40s: coupon 1.375%",
    "status": "PASS",
    "detail": "a Treasury bond with this coupon matures 2036-2042 (MSPD)"
   },
   {
    "check": "G5 trace",
-   "item": "note SW40: 'the ninth of Laura's ten'",
+   "item": "note SW40: 'ninth $50,000 payment'",
    "status": "PASS",
    "detail": "'ninth' = payment 9 of 10; T 1.375% 15-Nov-2040 serves 1 Jan 2041"
   },
   {
    "check": "G5 trace",
-   "item": "note SW40: 'its low coupon leaves less income to reinvest'",
+   "item": "note SW40: 'more of its value is owed at maturity, so less of '",
    "status": "PASS",
    "detail": "M9 slot 2041: share of cash as coupons 1.375% 16.6% vs 4.250% 38.1%"
-  },
-  {
-   "check": "G5 trace",
-   "item": "note SW40: 'at about the same cost on today's curve'",
-   "status": "PASS",
-   "detail": "M9 slot 2041 need for $50,000 at curve forwards: 1.375% $23,146 vs 4.250% $23,266"
   },
   {
    "check": "G5 trace",
@@ -1786,6 +1912,12 @@
   },
   {
    "check": "G5 trace",
+   "item": "note SW41: 'more of its value is owed at maturity, so less res'",
+   "status": "PASS",
+   "detail": "M9 slot 2042: coupons share 2.000% 23.7% vs 3.125% 32.6%"
+  },
+  {
+   "check": "G5 trace",
    "item": "note SW41: 'bond of the same date'",
    "status": "PASS",
    "detail": "same maturity (15 Nov): MSPD rows for both coupons"
@@ -1795,12 +1927,6 @@
    "item": "note SW41: 'Its price passed our curve check'",
    "status": "CONDITIONAL",
    "detail": "used only if the WInS price sits inside the 25bp band the refresh prints (notes.md s5)"
-  },
-  {
-   "check": "G5 trace",
-   "item": "note SW41: 'a lower coupon means less income to reinvest'",
-   "status": "PASS",
-   "detail": "M9 slot 2042: coupons share 2.000% 23.7% vs 3.125% 32.6%"
   },
   {
    "check": "G5 trace",
@@ -1816,25 +1942,61 @@
   },
   {
    "check": "G5 trace",
-   "item": "note SW41: date 1 Jan 2042",
-   "status": "PASS",
-   "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
-  },
-  {
-   "check": "G5 trace",
    "item": "note SW41: coupon 3.125%",
    "status": "PASS",
    "detail": "a Treasury bond with this coupon matures 2036-2042 (MSPD)"
   },
   {
    "check": "G5 trace",
-   "item": "note SW41: payment year",
+   "item": "note SW37: 'It is the last Treasury bond maturing before then'",
    "status": "PASS",
-   "detail": "note says [2042]; ticket serves 2042"
+   "detail": "MSPD Table V: no Treasury bond matures 16 May 2037 - 31 Dec 2037"
   },
   {
    "check": "G5 trace",
-   "item": "note OD_S: 'The lower coupon leaves less income to reinvest'",
+   "item": "note SW37: 'its money waits three months less than with the Fe'",
+   "status": "PASS",
+   "detail": "15 Feb 2037 -> 15 May 2037 = 89 days"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note SW37: 'Its WInS price passed our curve check'",
+   "status": "CONDITIONAL",
+   "detail": "used only if the WInS price sits inside the 25bp band the refresh prints (notes.md s5)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note SW37: coupon 5.000%",
+   "status": "PASS",
+   "detail": "a Treasury bond with this coupon matures 2036-2042 (MSPD)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note SW37: date 15 May 2037",
+   "status": "PASS",
+   "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note SW37: date 1 Jan 2038",
+   "status": "PASS",
+   "detail": "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note SW37: payment year",
+   "status": "PASS",
+   "detail": "note says [2038]; ticket serves 2038"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note OD_S: 'ninth payment'",
+   "status": "PASS",
+   "detail": "'ninth' = payment 9 of 10; T 4.250% 15-Nov-2040 serves 1 Jan 2041"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note OD_S: 'More of its value is owed at maturity, so less of '",
    "status": "PASS",
    "detail": "M9 slot 2041: share of cash as coupons 1.375% 16.6% vs 4.250% 38.1%"
   },
@@ -1843,6 +2005,12 @@
    "item": "note OD_S: 'bond of the same date'",
    "status": "PASS",
    "detail": "same maturity (15 Nov): MSPD rows for both coupons"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note OD_S: 'whose price now passes our curve check'",
+   "status": "CONDITIONAL",
+   "detail": "trigger D: the Friday price was stale (T40s) and now passes (october_trade.md)"
   },
   {
    "check": "G5 trace",
@@ -1864,12 +2032,6 @@
   },
   {
    "check": "G5 trace",
-   "item": "note OD_S: payment year",
-   "status": "PASS",
-   "detail": "note says [2041]; ticket serves 2041"
-  },
-  {
-   "check": "G5 trace",
    "item": "note OD_B: 'ninth payment'",
    "status": "PASS",
    "detail": "'ninth' = payment 9 of 10; T 1.375% 15-Nov-2040 serves 1 Jan 2041"
@@ -1882,15 +2044,9 @@
   },
   {
    "check": "G5 trace",
-   "item": "note OD_B: 'at about the same cost today'",
-   "status": "PASS",
-   "detail": "M9 slot 2041 need for $50,000 at curve forwards: 1.375% $23,146 vs 4.250% $23,266"
-  },
-  {
-   "check": "G5 trace",
-   "item": "note OD_B: 'Its price passed our curve check'",
+   "item": "note OD_B: 'Its price was stale on 2 Oct and now passes our cu'",
    "status": "CONDITIONAL",
-   "detail": "used only if the WInS price sits inside the 25bp band the refresh prints (notes.md s5)"
+   "detail": "trigger D: the Friday price was stale (T40s) and now passes (october_trade.md)"
   },
   {
    "check": "G5 trace",
@@ -1912,21 +2068,39 @@
   },
   {
    "check": "G5 trace",
-   "item": "note OB_S: 'the ten payments now cost more than Laura's $300,0'",
+   "item": "note OD_B: date 2 Oct",
+   "status": "PASS",
+   "detail": "check date (28/29 Sep), curve date 1 Oct, Friday trade date 2 Oct, or payment/maturity day"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note OB_S: 'tops up her first payment'",
+   "status": "PASS",
+   "detail": "IPS 'latest payments first' + 'leave some payments for the 2028 deposit to complete': a short deposit leaves the earliest"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note OB_S: 'Laura's ten payments now cost more than her $300,0'",
    "status": "CONDITIONAL",
    "detail": "October trigger B only: the 14 Oct re-price is above $300,000 (october_trade.md)"
   },
   {
    "check": "G5 trace",
-   "item": "note OB_S: 'Less is left for stocks'",
+   "item": "note OB_S: 'leaving less for the facility'",
    "status": "CONDITIONAL",
-   "detail": "consequence of trigger B (october_trade.md)"
+   "detail": "consequence of trigger B: the 2028 deposit tops up the payment first, so less reaches the facility (october_trade.md)"
   },
   {
    "check": "G5 trace",
    "item": "note OB_B: 'so the payments come first'",
    "status": "PASS",
    "detail": "IPS: payments and floor 'secured before anything is invested'"
+  },
+  {
+   "check": "G5 trace",
+   "item": "note OC: 'the least she plans to give'",
+   "status": "PASS",
+   "detail": "IPS: 'a floor she can promise co-sponsors' (definition)"
   },
   {
    "check": "G5 trace",

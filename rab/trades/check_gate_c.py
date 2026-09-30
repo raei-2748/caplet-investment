@@ -46,7 +46,8 @@ if "--self-test" in sys.argv:   # mutation tests: each broken copy of the kit mu
         ("note over 300 characters", "notes.csv", "Role: future funding. The iShares iBonds Dec 2033", "Role: future funding. " + "x" * 300 + " The iShares iBonds Dec 2033", "G1 length"),
         ("IBTN as a ticket", "tickets.csv", "Portfolio,4,IBTO,IBTO,", "Portfolio,4,IBTO,IBTN,", "G2 names"),
         ("quantity 3x ADV", "tickets.csv", ",4486,shares,", ",600000,shares,", "G4 volume"),
-        ("an untraced percentage in a note", "notes.csv", "about 9% of our WInS portfolio", "about 12% of our WInS portfolio", "G5 trace"),
+        ("a coupon no Treasury has", "notes.csv", "The 4.500% Treasury bond maturing 15 May 2038", "The 4.600% Treasury bond maturing 15 May 2038", "G5 trace"),
+        ("an untraced word quantity", "notes.csv", "over about a quarter of a percentage point", "over about a third of a percentage point", "G5 trace"),
         ("an untraced number word", "notes.csv", "ends about seven weeks before", "ends about eight weeks before", "G5 trace"),
         ("wrong ordinal", "notes.csv", "is for the fourth of Laura's ten", "is for the fifth of Laura's ten", "G5 trace"),
         ("stale fact in a kit doc", "tickets.md", "# ", "# Trading ends Dec 4. ", "G6 stale"),
@@ -159,7 +160,7 @@ for n in notes:
     rec("G1 length", n["note_id"] + " kit margin", len(t) <= KIT, f"{len(t)} <= {KIT}")
     rec("G1 length", n["note_id"] + " same text in notes.md", t in notes_md, "exemplar found verbatim in notes.md")
 outl = re.search(r"### Reflection outlines.*?(?=\*\*Keep out of all reflections)", notes_md, re.S).group(0)
-for m in re.finditer(r"\*\*((?:Pick|Alternate) [^*]+)\*\* \((\d+) words\)\n\n((?:- .*\n?)+)", outl):
+for m in re.finditer(r"\*\*((?:Pick|Alternate) [^*]+)\*\* \((\d+) words[^)]*\)\n\n((?:- .*\n?)+)", outl):
     words = len(re.findall(r"\S+", re.sub(r"^- ", "", m.group(3), flags=re.M)))
     rec("G1 length", "outline: " + m.group(1)[:40], words <= 100, f"{words} words counted (stated {m.group(2)}; TN limit 100)")
 
@@ -303,7 +304,7 @@ rec("G3 cash", "order sequence", [r["id"] for r in tickets if r["book"] == "Port
 SERVE = {}
 for r in tickets:
     SERVE[r["id"]] = int(re.search(r"Jan (\d{4})", r["serves"]).group(1)) if "Jan" in r["serves"] else None
-for sec in ("T 1.375% 15-Nov-2040", "T 2.000% 15-Nov-2041"):
+for sec in ("T 1.375% 15-Nov-2040", "T 2.000% 15-Nov-2041", "T 5.000% 15-May-2037"):
     SERVE[sec] = bond_terms(sec)[1].year + 1
 
 
@@ -324,65 +325,88 @@ between = lambda lo, hi: [r for r in mspd if r["security_class1_desc"] == "Treas
 gap_seen = "none mature between 15 Feb 2031 and 15 Feb 2036" in wins_notes
 cs = lambda y, a, b: (slot(y, a)["coupon_share_of_cash"], slot(y, b)["coupon_share_of_cash"])  # noqa: E731
 
-# (note ids, regex span in the exemplar, derivation -> (ok, detail, status))
+rung0 = lambda k: V(f"reinvest.rung.{k}")["at_0pct"] / 50000  # noqa: E731  set coupons + principal, share of $50,000
+cond = lambda why: (lambda: (True, why, "CONDITIONAL"))  # noqa: E731
+NOV40 = "T40b|T40s|SW40|OD_S|OD_B"
+
+# (note ids, regex span in the exemplar, derivation -> (ok, detail, status)). Rebuilt 30 Sep after the second judge
+# panel's exemplar rewrites (notes.md at 104476c+): every number word in the new texts sits inside one of these.
 CLAIMS = [
-    ("IBTR", r"We first re-priced", lambda: (True, "IBTR is Friday order 1 (tickets.csv seq 1); the refresh runs before any order (friday_checklist.md)", None)),
-    ("IBTR", r"under her \$300,000 deposit at latest yields",
-     lambda: (cost27 < 300000, f"laura.ladder.cost_2027_strips ${cost27:,.2f} < $300,000 (28 Sep curve; re-run Friday)", None)),
-    ("IBTR", r"about a quarter of a percentage point", lambda: (20 <= be <= 30, f"laura.ladder.breakeven_fall_bp_strips {be}bp", None)),
-    ("IBTR", r"leaves the earliest", lambda: ("latest payments first" in ips, "IPS 'latest payments first' (snapshot 30 Sep): a short deposit leaves the earliest", None)),
+    ("IBTR|IBTR_F", r"Tested before this first order", lambda: (tickets[0]["id"] == "IBTR" and tickets[0]["seq"] == "1",
+     "IBTR is Friday order 1 (tickets.csv seq 1); the refresh runs before any order (friday_checklist.md)", None)),
+    ("IBTR", r"cost under her \$300,000 first deposit",
+     lambda: (cost27 < 300000, f"laura.ladder.cost_2027_strips ${cost27:,.2f} < $300,000 (28 Sep curve, zero-coupon basis; re-run Friday)", None)),
+    ("IBTR_F", r"cost more than her \$300,000 first deposit", cond("typed only if the Friday refresh is above $300,000 (friday_checklist.md)")),
+    ("IBTR", r"about a quarter of a percentage point", lambda: (20 <= be <= 30, f"laura.ladder.breakeven_fall_bp_strips {be}bp; the note says 'over about'", None)),
+    ("IBTR|IBTR_F", r"future funding for the fifth", None),
+    ("IBTR|IBTR_F|OB_S", r"tops up (the earliest|her first payment)",
+     lambda: ("latest payments first" in ips and "for the 2028 deposit to complete" in ips,
+              "IPS 'latest payments first' + 'leave some payments for the 2028 deposit to complete': a short deposit leaves the earliest", None)),
+    ("IBTR", r"stocks get less", lambda: ("secured before anything is invested" in ips,
+     "IPS: payments and floor 'secured before anything is invested' in stocks; WS4 memo: the gap lands on the stock fund", None)),
+    ("IBTR_F", r"so we hold less stock than planned", cond("--split-from-curve lowers VT's share when the test fails (refresh_tickets.py)")),
     ("IBTQ", r"the fourth of Laura's ten", None),
     ("IBTQ", r"no Treasury bond maturing between Feb 2031 and Feb 2036", lambda: (gap_seen, "tab WInS Notes, SEEN 29 Sep", None)),
     ("IBTQ", r"closest fit", lambda: (slot(2036, "IBTQ")["months_early"] < slot(2036, "IBTP")["months_early"],
                                       "M9 slot 2036: IBTQ ends 0.6 months early, IBTP 12.6", None)),
-    ("IBTP", r"almost exactly the value", lambda: (abs(prem) < 0.1, f"wins.ibond_checks.IBTP.premium_to_nav_pct {prem}% (28 Sep)", None)),
+    ("IBTP", r"almost exactly the value", lambda: (abs(prem) < 0.1, f"wins.ibond_checks.IBTP.premium_to_nav_pct {prem}% on 28 Sep; the note reports the trade-date re-run", "CONDITIONAL")),
     ("IBTO", r"the second of Laura's ten", None),
     ("IBTO", r"WInS lists no Treasury bond maturing in 2033", lambda: (gap_seen, "tab WInS Notes, SEEN 29 Sep (gap Feb 2031-Feb 2036)", None)),
-    ("IBTM_P", r"her first \$50,000 payment", None),
-    ("IBTM_P|VT", r"the least she plans to give", lambda: ("floor she can promise co-sponsors" in ips, "IPS: 'a floor she can promise co-sponsors' (definition)", None)),
-    ("T41", r"the last of Laura's ten", None),
-    ("T41", r"No iBonds Treasury fund ends between 2037 and 2043",
+    ("IBTM_P", r"has two jobs", lambda: ("floor" in tickets[4]["serves"] and "2033" in tickets[4]["serves"],
+     f"Portfolio ticket 5 serves '{tickets[4]['serves']}'", None)),
+    ("IBTM_P|IBTM_R", r"(her|Laura's) first \$50,000 payment", None),
+    ("IBTM_P|VT|IBTM_R|OC", r"the least she plans to give", lambda: ("floor she can promise co-sponsors" in ips, "IPS: 'a floor she can promise co-sponsors' (definition)", None)),
+    ("IBTM_R", r"the half of the stock fund she keeps", lambda: ("The other half remains with Laura" in ips,
+     "IPS: 'The other half remains with Laura as a cushion'; naming it the backstop needs the 1 Oct vote", "CONDITIONAL")),
+    ("T41|SW41", r"the last of Laura's ten", None),
+    ("T41", r"No iBonds Treasury fund ends (between|from) 2037 (and|to) 2043",
      lambda: (not [y for y in ish_end if 2037 <= y <= 2043], f"iShares list 30 Sep: ends {ish_end[:11][-1]} then {[y for y in ish_end if y > 2036][0]}", None)),
-    ("T41", r"her last five payments use single bonds",
+    ("T41", r"her last five payments use (single|individual) bonds",
      lambda: (sorted(SERVE[r["id"]] for r in tickets if r["book"] == "Portfolio" and r["type"] == "Treasury") == list(range(2038, 2043)),
               "tickets: 5 Treasury bonds serve 2038-2042", None)),
-    ("T40b|T40c|SW40|OD_S|OD_B", r"(the )?ninth( of Laura's ten)?( payment)?", None),
-    ("T40b|T40c|SW40|OD_S|OD_B", r"(A lower-coupon bond of that date would leave|which leaves|its low coupon leaves|The lower coupon leaves|More of its value comes at maturity, so) less (income to reinvest|rides on reinvested coupons)",
+    ("T41", r"part of each payment comes from reinvested coupons",
+     lambda: (all(rung0(k) < 1 for k in ("T_4.750%_15-Feb-2037", "T_4.500%_15-May-2038", "T_4.375%_15-Nov-2039", "T_4.250%_15-Nov-2040", "T_3.125%_15-Nov-2041")),
+              "reinvest.rung.* at_0pct: set coupons + principal are 84-90% of each bond rung's $50,000", None)),
+    (NOV40, r"(the )?ninth( of Laura's ten)?( \$50,000)?( payment)?", None),
+    (NOV40, r"(A lower-coupon bond of that date would leave|which leaves|[Mm]ore of its value (is owed|comes) at maturity, so) less (of her payment )?(rest(s|ing)|rides) on reinvest(ed|ing) coupons",
      lambda: (lambda a, b: (a < b, f"M9 slot 2041: share of cash as coupons 1.375% {a:.1%} vs 4.250% {b:.1%}", None))(*cs(2041, "T 1.375% 15-Nov-2040", "T 4.250% 15-Nov-2040"))),
-    ("T40b", r"but WInS does not list one", lambda: (True, "used only if the Friday drop-down shows no 1.375% Nov-2040 (notes.md s5)", "CONDITIONAL")),
-    ("T40c", r"WInS also lists a 1\.375% bond", lambda: (True, "used only if the drop-down lists it (notes.md s5)", "CONDITIONAL")),
-    ("SW40|OD_B", r"at about the same cost (on today's curve|today)",
-     lambda: (lambda a, b: (abs(a / b - 1) < 0.01, f"M9 slot 2041 need for $50,000 at curve forwards: 1.375% ${a:,.0f} vs 4.250% ${b:,.0f}", None))(
-         slot(2041, "T 1.375% 15-Nov-2040")["need_50k_curve"], slot(2041, "T 4.250% 15-Nov-2040")["need_50k_curve"])),
-    ("T38|T40b", r"Its WInS price passed our curve check",
+    ("SW41", r"more of its value is owed at maturity, so less rests on reinvesting coupons",
+     lambda: (lambda a, b: (a < b, f"M9 slot 2042: coupons share 2.000% {a:.1%} vs 3.125% {b:.1%}", None))(*cs(2042, "T 2.000% 15-Nov-2041", "T 3.125% 15-Nov-2041"))),
+    ("T40b", r"but WInS does not list one", cond("used only if the Friday drop-down shows no 1.375% Nov-2040 (notes.md s4)")),
+    ("T40s", r"WInS lists a 1\.375% bond of that date", cond("used only if the drop-down lists it (notes.md s5)")),
+    ("T40s", r"its price failed our curve check today", cond("used only if its Friday price is outside the 25bp band (notes.md s5)")),
+    ("T38|T40b", r"Its (WInS )?price passed our curve check",
      lambda: (lambda k: (not V(k)["flag"] and abs(V(k)["gap_bp"]) <= 25, f"{k} gap {V(k)['gap_bp']}bp, inside 25bp (28 Sep; re-checked Friday)", None))(
          "wins.bond_check.T_4.500%_15-May-2038" if nid_ctx[0] == "T38" else "wins.bond_check.T_4.250%_15-Nov-2040")),
     ("T39", r"about seven weeks", lambda: (6.5 <= d(date(2039, 11, 15), date(2040, 1, 1)) / 7 <= 7.5, f"15 Nov 2039 -> 1 Jan 2040 = {d(date(2039, 11, 15), date(2040, 1, 1))} days", None)),
+    ("T39", r"cover most of that payment",
+     lambda: (0.5 < rung0("T_4.375%_15-Nov-2039") < 1, f"reinvest.rung.T_4.375%_15-Nov-2039 at_0pct {rung0('T_4.375%_15-Nov-2039'):.1%} of $50,000", None)),
     ("T38", r"is the last before Laura's \$50,000 residency payment on 1 Jan 2039",
      lambda: (not between("2038-05-15", "2039-01-01"), "MSPD Table V 31 Aug 2026: no Treasury bond matures 16 May 2038 - 31 Dec 2038", None)),
-    ("T38", r"almost a full percentage point of yield off", lambda: (80 <= abs(gap38) < 100, f"wins.bond_check.T_4.375%_15-Feb-2038 gap {gap38}bp", None)),
+    ("T38", r"about seven and a half months", lambda: (abs(d(date(2038, 5, 15), date(2039, 1, 1)) / 30.4375 - 7.5) < 0.25, f"15 May 2038 -> 1 Jan 2039 = {d(date(2038, 5, 15), date(2039, 1, 1))} days", None)),
+    ("T38", r"the 4\.375% Feb 2038 bond's price was stale", lambda: (abs(gap38) > 25, f"wins.bond_check.T_4.375%_15-Feb-2038 gap {gap38}bp (the 28 Sep close, seen 29 Sep)", None)),
     ("T37", r"about ten and a half months early", lambda: (abs(d(date(2037, 2, 15), date(2038, 1, 1)) / 30.4375 - 10.5) < 0.25, f"15 Feb 2037 -> 1 Jan 2038 = {d(date(2037, 2, 15), date(2038, 1, 1))} days", None)),
-    ("T37", r"The only later bond before 2038, the 5\.000% May 2037",
+    ("T37", r"It is the last WInS bond maturing before then",
      lambda: ([(float(r["interest_rate_pct"]), r["maturity_date"]) for r in between("2037-02-15", "2038-01-01")] == [(5.0, "2037-05-15")],
-              "MSPD: Treasury bonds maturing after 15 Feb 2037 and before 2038 = 5.000% 15 May 2037 only", None)),
-    ("T37", r"comes out about the same once coupons count",
-     lambda: (lambda a, b: (abs(a - b) < 0.005, f"M9 slot 2038 delivered at 2%: 4.750% {a:.1%} vs 5.000% {b:.1%}", None))(
-         slot(2038, "T 4.750% 15-Feb-2037")["r_0.02"], slot(2038, "T 5.000% 15-May-2037")["r_0.02"])),
+              "used only if WInS does not list the 5.000% May 2037, the one later bond (MSPD)", "CONDITIONAL")),
+    ("SW37", r"It is the last Treasury bond maturing before then",
+     lambda: (not between("2037-05-15", "2038-01-01"), "MSPD Table V: no Treasury bond matures 16 May 2037 - 31 Dec 2037", None)),
+    ("SW37", r"its money waits three months less than with the Feb 2037 bond",
+     lambda: (abs(d(date(2037, 2, 15), date(2037, 5, 15)) / 30.4375 - 3) < 0.25, f"15 Feb 2037 -> 15 May 2037 = {d(date(2037, 2, 15), date(2037, 5, 15))} days", None)),
     ("VT", r"bought last", lambda: (tickets[10]["id"] == "VT" and tickets[10]["seq"] == "11", "VT is Portfolio order 11 of 11", None)),
-    ("VT", r"about 9% of our WInS portfolio", lambda: (round(V("wins.portfolio.split_close_0928")["vt"] * 100) == 9, "wins.portfolio.split_close_0928 vt 0.0868", None)),
-    ("VT", r"A fall cuts only her contribution above the floor",
+    ("VT", r"A fall can cut her contribution, not below the floor",
      lambda: ("not below the floor" in ips, "IPS: equities 'can reduce the facility contribution, but not below the floor'", None)),
+    ("VT", r"Half the fund stays hers", lambda: ("The other half remains with Laura" in ips, "IPS: 'The other half remains with Laura as a cushion'", None)),
     ("IBTM_L", r"the first of Laura's ten", None),
     ("IBTM_L", r"WInS lists no Treasury bond maturing in late 2032", lambda: (gap_seen, "tab WInS Notes, SEEN 29 Sep", None)),
     ("IBTM_L", r"closest fit", lambda: (slot(2033, "IBTM")["months_early"] < slot(2033, "T 5.375% 15-Feb-2031")["months_early"], "M9 slot 2033: IBTM 0.6 months early", None)),
-    ("SW41", r"the last of Laura's ten", None),
     ("SW41|OD_S", r"(bond of )?the same date", lambda: (True, "same maturity (15 Nov): MSPD rows for both coupons", None)),
-    ("SW40|SW41|OD_B", r"(Its|Its WInS) price passed our curve check", lambda: (True, "used only if the WInS price sits inside the 25bp band the refresh prints (notes.md s5)", "CONDITIONAL")),
-    ("SW41", r"a lower coupon means less income to reinvest",
-     lambda: (lambda a, b: (a < b, f"M9 slot 2042: coupons share 2.000% {a:.1%} vs 3.125% {b:.1%}", None))(*cs(2042, "T 2.000% 15-Nov-2041", "T 3.125% 15-Nov-2041"))),
-    ("OB_S", r"the ten payments now cost more than Laura's \$300,000 first deposit",
+    ("SW40|SW41|SW37", r"(Its|Its WInS) price passed our curve check", cond("used only if the WInS price sits inside the 25bp band the refresh prints (notes.md s5)")),
+    ("OD_S", r"whose price now passes our curve check", cond("trigger D: the Friday price was stale (T40s) and now passes (october_trade.md)")),
+    ("OD_B", r"Its price was stale on 2 Oct and now passes our curve check", cond("trigger D: the Friday price was stale (T40s) and now passes (october_trade.md)")),
+    ("OB_S", r"(Laura's |the )ten payments now cost more than (Laura's|her) \$300,000 first deposit",
      lambda: ("B." in octmd or "Trigger B" in octmd or "**B." in octmd, "October trigger B only: the 14 Oct re-price is above $300,000 (october_trade.md)", "CONDITIONAL")),
-    ("OB_S", r"Less is left for stocks", lambda: (True, "consequence of trigger B (october_trade.md)", "CONDITIONAL")),
+    ("OB_S", r"leaving less for the facility", cond("consequence of trigger B: the 2028 deposit tops up the payment first, so less reaches the facility (october_trade.md)")),
     ("OB_B", r"so the payments come first", lambda: ("secured before anything is invested" in ips, "IPS: payments and floor 'secured before anything is invested'", None)),
     ("OC", r"Our cash is more than fees and rounding need", lambda: ("$6,300" in octmd and V("wins.portfolio.targets_typed")["cash_1.1pct"] == 3300,
                                                                    "trigger C: cash above $6,300 = $3,300 float (wins.portfolio.targets_typed cash_1.1pct) + $3,000 (october_trade.md)", "CONDITIONAL")),
@@ -418,7 +442,7 @@ for n in notes:
             if ids != "*":
                 rec("G5 trace", f"note {nid}: '{m.group(0)[:50]}'", ok, det, stt if ok and stt else None)
     # every number word must sit inside a traced claim; allowed pure-grammar words listed with their reason
-    GRAMMAR = {("T40b", "one"): "pronoun ('list one')", ("T37", "only"): "inside the MSPD claim", ("T37", "later"): "inside MSPD claim"}
+    GRAMMAR = {("T40b", "one"): "pronoun ('list one')", ("T40s", "one"): "pronoun ('buy this one')"}
     for m in NUMWORD.finditer(t):
         if not any(a <= m.start() < b for a, b in covered) and (nid, m.group(0).lower()) not in GRAMMAR:
             rec("G5 trace", f"note {nid}: number word '{m.group(0)}'", False,
@@ -442,8 +466,9 @@ for n in notes:
             rec("G5 trace", f"note {nid}: date {dm.group(0)}", ok, "payment date 1 Jan 2033-2042 or a real maturity (MSPD / iShares)")
             continue
         if re.fullmatch(r"\d{1,2}", tok) and re.match(r"\s(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)", t[m.end():m.end() + 4]):
-            rec("G5 trace", f"note {nid}: date {tok} {t[m.end() + 1:m.end() + 4]}", tok in ("28", "29", "1", "15"),
-                "check date (28/29 Sep) or payment/maturity day")
+            mon = t[m.end() + 1:m.end() + 4]
+            rec("G5 trace", f"note {nid}: date {tok} {mon}", tok in ("28", "29", "1", "15") or (tok == "2" and mon == "Oct"),
+                "check date (28/29 Sep), curve date 1 Oct, Friday trade date 2 Oct, or payment/maturity day")
             continue
         if re.fullmatch(r"20[2-4]\d", tok):
             continue   # years: covered by the payment/maturity checks above and the ticket 'serves' column

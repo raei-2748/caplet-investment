@@ -3,6 +3,28 @@
 WS6-gateC, RAB Kit, 30 Sep 2026 (Sydney). AI-generated check (Claude Code) for Team Caplet. Nothing was run
 against WInS, no order was placed, and the IPS, the Sheet and `numbers.yaml` were not touched.
 
+## Re-run after the second judge panel (30 Sep, WS6-revise): still PASS
+
+- **Result:** 365 checks: **0 FAIL**, 18 UNVERIFIED (the same WInS name strings), 16 CONDITIONAL (each named in
+  open item 3 below). 23 exemplars (T40c retired; IBTR_F, IBTM_R, T40s and SW37 added), longest 285 characters;
+  outlines 60 words or fewer.
+- **Checker updated to the new texts, not loosened:** the claim list was rebuilt so every number word in the rewritten
+  notes sits inside a derivation (for example "cover most of that payment" = `reinvest.rung.T_4.375%_15-Nov-2039`
+  at_0pct 85.9% of $50,000; "about seven and a half months" = 231 days; "three months less" = 89 days). The outline
+  count now reads headers that carry the shared-sentence total, and "2 Oct" (the Friday trade date) is an allowed
+  date. `--self-test` now breaks the kit 9 ways (adds an untraced word quantity, "a third of a percentage point") and
+  catches all 9.
+- **One kit fix (a judge found it):** the Feb-2037 bond's max price (97.940) sat above the top of its 25bp band
+  (97.919), so stop rule 3's two tests disagreed. `refresh_tickets.py` now caps a bond's max price at the band top and
+  floors its min price at the band bottom. Ticket totals are unchanged ($294,764.50 and $292,580.89); lowest
+  worst-case cash is now $2,445.28 (Portfolio) and $4,518.06 (Book L). 83 of 83 ticket checks pass.
+- **Open item 3 now lists 16 conditional claims:** T40b, T40s, T37 (drop-down cases), SW40, SW41, SW37, OD_S, OD_B
+  (price passes), IBTR_F (test fails), IBTM_R (backstop sentence adopted), IBTP (trade-date premium re-run), OB_S,
+  OC (October triggers). **Open item 4:** a failed IBTR test no longer means "stop": the team trades the
+  `--split-from-curve` ticket and types IBTR_F (`friday_checklist.md`).
+
+## First run (WS6-gateC, 30 Sep)
+
 - **Checker:** `rab/trades/check_gate_c.py` (standard library + PyYAML, no network). It does not trust
   `refresh_tickets.py` or `build_notes.py`. It works every number out again from the committed inputs: `numbers.yaml`,
   the Sheet and WInS snapshots in `rab/data/sheet/`, the ETF volume file `rab/data/etf/etf_summary_2026-09-28.csv`,
