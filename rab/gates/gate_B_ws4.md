@@ -21,6 +21,15 @@ outputs, not deliverable text. The strategy is not reopened (RUN_PLAN s0). Nothi
 All 93 original rows are unchanged to the byte. The table now has 115 rows (94 MATCH, 21 WITHIN TOL, 0 UNRECONCILED).
 The third pricer agrees with the reference build on all 29 of its comparisons. The verdict stands.
 
+**Third session, same day ("Continue").** Nothing in M2 had changed since the re-check. The only new WS4 commit
+(e95e48b) adds the hedge memo and `rab/numbers_ws4.yaml`. This session:
+- reran the check script: the 115-row table is byte-identical, still 0 UNRECONCILED;
+- rebuilt the two insight_v1 figures in the inventory's M2 rows that s5 had not yet rebuilt (s5): the 25 Sep
+  exact-date 24.3% and the 25 Sep "+3.4 points". Both reproduce;
+- checked that every figure in `numbers_ws4.yaml` and the hedge memo rests on a reconciled row (s6b). All 17 do.
+
+The verdict stands.
+
 **In plain English.** "About 1 in 3" (32.7%, MODEL, 28 Sep curve) holds up. Two separately written programs get the
 same answer, a noise-free recomputation gets 32.6%, and a third program with no maths libraries gets the same dollar
 figures. The chance is that the ten dated holdings cost more than the $300,000 deposit on 1 Jan 2027.
@@ -177,7 +186,8 @@ figures behind the decisions have now been computed three ways, with no shared c
 | Ref | insight_v1 figure | Rebuilt here | Why the M2 answer differs |
 |---|---|---|---|
 | H5 (25 Sep, "about 1 in 3") | D1 [6] 30.5%<br>S4 30.7%<br>strategy_mc_v2 30.2% / 34.4%<br>AX1b 19bp: 31.8 / 36.1 / 34.0% | 30.52%<br>30.73%<br>30.09% (analytic, both builds) / 34.37%<br>31.80 / 36.11 / 34.04% | On the same 25 Sep curve, M2 gives 37.9% in both builds. Two reasons: yields-unchanged pricing ($295,432, 15.7bp of room against 19.3bp) and today's higher volatility |
-| AX1b [B] (M2 inventory row) | An "unchanged curve" adds about $1.0k to the January cost (inventory: +$1,044) and lifts the odds about 3 points | +$1,044 on 25 Sep and +$983 on 28 Sep (Cost_RW - Cost_FWD); +2.95pp (R2 24.2% to R5 27.2%) | Reproduced. This is waterfall step 3: M2 takes no view on direction, so it prices the ladder at unchanged yields |
+| D1 [6] exact dates, 25 Sep (M2 inventory row; third session) | 24.3% (30.5% on the Nov-15 basis) | 24.29% (exact-date cost $292,263.85, volatility 7.24%/yr); the same code gives 30.52% on the Nov-15 basis | Reproduced. Payment-date pricing is not buyable (nothing matures on 1 Jan), so it is a secondary figure, as at Gate A |
+| AX1b [B] (M2 inventory row) | An "unchanged curve" adds about $1.0k to the January cost (inventory: +$1,044) and lifts the odds about 3 points (+3.4 on 25 Sep) | +$1,044 on 25 Sep and +$983 on 28 Sep (Cost_RW - Cost_FWD); odds +3.42pp on 25 Sep (third session) and +2.95pp on 28 Sep (R2 24.2% to R5 27.2%) | Reproduced. This is waterfall step 3: M2 takes no view on direction, so it prices the ladder at unchanged yields |
 | H6 (28 Sep) | 24.2% Nov-15<br>18.7% exact dates<br>history 27.6 / 31.1% | 24.21%<br>18.70% (recomputed with the blind build's curve code)<br>27.55 / 31.06% | 24.2% becomes 27.2% (+3.0pp, yields-unchanged pricing), then 32.7% (+5.5pp, the five methods' volatility and curve shape). strategy_mc_v2 on 28 Sep: 23.95% |
 | H7 (2026 days over $300k) | 173/185 exact, 176/185 Nov-15; worst 27 Feb, $327,631 | Identical to 25 Sep. To 28 Sep: 173/186 and 176/186. The last Nov-15 day over $300k was 22 Sep | Not an M2 output. Context: the ladder cost more than $300k on almost every 2026 trading day up to 22 Sep |
 | H13 (E6 [8], 25 Sep) | -50bp: fund $20-23k<br>-100bp: fund $1-7k<br>-150bp: no fund; floor $127-137k | Both builds on 25 Sep: top-ups $9,555 / $25,711 / $42,633 (the figures E6 hard-codes)<br>funds $19,962-22,804 / $881-6,648 / none<br>floor $127,395-136,900 | On 28 Sep: $22,590-25,419 / $3,626-9,366 / none; floor $130,724-140,469. Yields rose, so the top-ups are smaller and the floor is cheaper |
@@ -215,6 +225,25 @@ come true and use 2026's calm volatility. With no view on direction and today's 
 - The 4 Jan n_h erratum and the rho-window reading.
 - The wording points in s3 #9.
 
+## 6b. Downstream use of M2 numbers (third session)
+
+The rule is that no decision may rest on an unreconciled number. The hedge memo (`rab/decisions/D_pre2027_rate_hedge.md`)
+and its key file (`rab/numbers_ws4.yaml`, 17 entries) were written after this gate first passed, so both were checked
+against the table here.
+- **Numbers in the file:** 15 of the 17 entries point to a MATCH or WITHIN TOL row, or to a locked numbers.yaml entry.
+  - The 4 Jan figure, 32.95%, is the row "4 Jan median, primary at strict n_h = 64" (WITHIN TOL).
+  - `perfect_hedge_expected_gain` ($983.02) is the difference of two MATCH rows.
+- **The two entries without a row of their own:**
+  - `stock_fund_2028_p95`: $70,944.66 in both builds (`m2_2028_horizon.csv` H-RAW and the blind build's
+    `results.json`), identical.
+  - `move_index`: an input, not a result. The 29 Sep value (106.29) is data that has not yet been run through M2.
+- **Numbers in the memo:** each is one of those entries, a numbers.yaml entry, or the insight_v1 staging result
+  (D1 [7]). The memo labels that result "not re-checked".
+  - The memo does not rest on D1 [7]. It rejects staged buying as a rate bet, which is a reason and not a figure.
+- **Verdict:** nothing downstream rests on an unreconciled number.
+- **Wording (ignore; for the memo's owner):** the memo says "Medium on the odds: a one-quarter figure". This could be
+  read as "1 in 4". "A three-month figure" says what is meant.
+
 ## 7. What Gate B cannot catch
 
 Both builds (and the third pricer) follow the same spec, so the assumptions they share are not tested:
@@ -240,6 +269,8 @@ These are the reference card's stated limits. WS7 should challenge them.
   - `rab/models/M2_CARD.md` (s3 #7, a Gate B line and the re-check)
   - `rab/verification/blind/m2_blind.py` (s3 #5)
   - `rab/verification/blind/README.md` (s8)
+- **Changed in the third session:** `gateB_ws4_checks.py` now also rebuilds the two inventory figures in s5 (its
+  output gains the key `insight_v1.third_session_25sep`; the 115-row table is unchanged) and this record (s5, s6b).
 - **Not changed:** any reference result in `rab/results/M2/`, `rab/numbers.yaml`, and the third pricer.
 - **Rerun** from the worktree root (about 40 s, seed 20260930; it reruns both builds on 25 Sep and the reference build
   on 4 Jan, in temporary folders):

@@ -1,6 +1,6 @@
 {
  "meta": {
-  "run_utc": "2026-09-29T23:18:02+00:00",
+  "run_utc": "2026-09-30T04:31:00+00:00",
   "seed": 20260930,
   "primary": "rab/results/M2/m2_results.json",
   "blind": "rab/verification/blind/results.json"
@@ -391,6 +391,26 @@
    "primary_25sep_rw_minus_fwd_usd": 1044.2630961393006,
    "primary_28sep_rw_minus_fwd_usd": 983.023667847563,
    "primary_28sep_R5_minus_R2_pp": 2.9545728145878525
+  },
+  "third_session_25sep": {
+   "D1_6_exact_25sep": {
+    "printed": 0.243,
+    "rebuilt_blind_engine": 0.24291591060138362,
+    "cost_exact_fwd": 292263.85069807037,
+    "vol": 0.07236732360518557,
+    "t": 0.2683093771389459
+   },
+   "D1_6_nov15_25sep_same_code": {
+    "printed": 0.305,
+    "rebuilt_blind_engine": 0.3052103992636799,
+    "cost_nov15_fwd": 294387.43968606216,
+    "vol": 0.07156411407886995
+   },
+   "AX1b_B_lift_25sep": {
+    "printed_pp": 3.4,
+    "R1_with_rw_centre": 0.3394554312649889,
+    "lift_pp": 3.4245032001309017
+   }
   }
  },
  "third_pricer_vs_primary": {
