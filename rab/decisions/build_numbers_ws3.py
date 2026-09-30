@@ -29,6 +29,8 @@ IPS_SNAPSHOT = "/Users/ray/Research/rab-ws/ws6/rab/trades/data/ips_doc_text_2026
 IPS_WORDS_30SEP = 483  # wc -w of the IPS body in that snapshot (checked below when the file is present)
 WS7_COMMIT = "9db8d35"  # rab/ws7: coupon-reinvestment check (read from git, not from the ws7 worktree)
 WS7_FILE = "rab/redteam/ws7_assumptions_reinvest_check_output.txt"
+WS2_COMMIT = "186ecad"  # rab/ws2: D6 memos v3, ws2.d6.ladder_gap (Book L coupon gap, both builds; read from git)
+WS2_FILE = "rab/numbers_ws2.yaml"
 
 
 def load():
@@ -293,6 +295,29 @@ def build():
     N["ws3.stress.real_value_payments"] = e(val, "USD of 1 Jan 2027 (what each $50,000 payment buys)",
                                             "at the market's expected inflation the last $50,000 payment buys about what $35,000 buys in 2027; in a 1970s-style decade about $18,000",
                                             "rab/results/M7/M7_results.json real_value_paths", verdict(ref, bl, "det"), rnd(bl, 2))
+    # Coupon gap on the WInS-listed ladder (Book L) against the half of the stock fund Laura keeps in each M7 episode.
+    # Gap = WS2's ws2.d6.ladder_gap (sum over rungs of max(0, 50,000 - delivered), valued 1 Jan 2033 at the reinvestment
+    # rate; locked Book L flows, numbers.yaml reinvest.rung.*). Kept = M7 'kept' (2033 dollars). M7 has no coupons, so
+    # each pairing of a yield case with a stock episode is by hand: an illustration of the clause's rule 3, not a model.
+    w2 = yaml.safe_load(subprocess.run(["git", "-C", ROOT, "show", f"{WS2_COMMIT}:{WS2_FILE}"], capture_output=True, text=True,
+                                       check=True).stdout)["numbers"]["ws2.d6.ladder_gap"]["value"]
+    gap = {"today_yields": w2["Book L, today's yields"]["gap_valued_1jan2033"],
+           "yields_2pp_lower": w2["Book L, today's yields - 2 points"]["gap_valued_1jan2033"],
+           "coupons_at_2pct": w2["Book L, 2%"]["gap_valued_1jan2033"],
+           "coupons_at_0pct": w2["Book L, 0%"]["gap_valued_1jan2033"]}
+    eps = (("S0", "base"), ("S6", "2008_in_2028"), ("S2", "japan_1990_95"), ("S5", "depression_1928_33"))
+    kept = {nm: round(st[sid]["kept"], 2) for sid, nm in eps}
+    beyond = {f"{g}__{nm}": round(max(0.0, gap[g] - kept[nm]), 2) for g in ("yields_2pp_lower", "coupons_at_2pct") for _, nm in eps}
+    N["ws3.stress.coupon_gap_vs_laura_half"] = e(
+        dict(gap_2033=gap, laura_half_2033=kept, beyond_her_half=beyond),
+        "USD valued 1 Jan 2033 (gap: Book L payments short of $50,000, summed over rungs; half: M7 'Laura keeps')",
+        "if coupons earn only 2% for years, the gap (about $30,000 in 2033 money) uses up about all of Laura's half in the base "
+        "case and is about $12,000-19,000 more than her half after a 2008, 1929 or Japan-style fall",
+        f"gap: rab/ws2 git {WS2_COMMIT} {WS2_FILE} ws2.d6.ladder_gap (rab/results/M4/ladder_gap.csv); half: "
+        "rab/results/M7/M7_results.json stress 'kept' (S0, S6, S2, S5)",
+        "gap: WITHIN TOL at WS2's Gate B (gate_B_ws2.md s9, both builds); half: MATCH (M7); pairing: by hand, not a model",
+        note="M7 models no coupons (STRIPS basis). Each 'beyond' = max(0, gap - half): an illustration of who pays, "
+             "not a probability. today_yields gap is covered in every episode.")
     jpm = pd.read_csv(os.path.join(ROOT, "rab", "data", "history", "jpm_ltcma_2026_usd.csv")).set_index("asset")
     N["ws3.inputs.mc"] = e(dict(stocks_ac_world_compound_pct=float(jpm.loc["AC World Equity", "compound_2026"]),
                                 treasury_5y_par_pct=round(100 * st["S0"]["y5"], 2), paths=int(m6["paths"]), seed=int(m6["seed"])),
@@ -306,14 +331,16 @@ def build():
     b07 = re.search(r"policy bills:.*?start 2007-06: delivered \$([\d,]+), shortfall \$([\d,]+)", txt, re.S)
     ms = re.search(r"policy matched: .*?worst \$([\d,]+); starts with any payment short (\d+)/(\d+)", txt)
     unch = re.search(r"bills at today's 1-year ([\d.]+)% with NO change: delivered \$([\d,]+); shortfall \$([\d,]+)", txt)
-    assert all((be, m07, b07, ms, unch)), "WS7 output format changed"
+    jp = re.search(r"Japan 1990 long-rate changes applied to reinvestment \(matched\): delivered \$([\d,]+); shortfall \$([\d,]+)", txt)
+    assert all((be, m07, b07, ms, unch, jp)), "WS7 output format changed"
     N["ws3.external.ws7_coupon_reinvestment"] = e(
         dict(breakeven_reinvest_rate_total_500k_pct=num(be.group(1)), breakeven_every_rung_pct=num(be.group(2)),
              y2007_matched_delivered=num(m07.group(1)), y2007_matched_shortfall=num(m07.group(2)),
              y2007_bills_delivered=num(b07.group(1)), y2007_bills_shortfall=num(b07.group(2)),
              hist_1962_2011_matched_worst_delivered=num(ms.group(1)),
              hist_1962_2011_matched_starts_any_short=f"{ms.group(2)}/{ms.group(3)}",
-             bills_unchanged_1y_pct=num(unch.group(1)), bills_unchanged_shortfall=num(unch.group(3))),
+             bills_unchanged_1y_pct=num(unch.group(1)), bills_unchanged_shortfall=num(unch.group(3)),
+             japan1990_matched_delivered=num(jp.group(1)), japan1990_matched_shortfall=num(jp.group(2))),
         "percent a year / USD delivered to the ten payments in total (target $500,000)",
         "the WInS book's ten payments total $500,000 only if coupons are reinvested at about 5% (4.97%) or more",
         f"WS7 red team, git {WS7_COMMIT} (branch rab/ws7): {WS7_FILE}; Book L holder cash flows from rab/models/m1_ladder.py",
@@ -343,6 +370,7 @@ def write(N):
         "# Laura's plan unless the unit says otherwise. 'blind' = the same figure from the blind build\n"
         "# (rab/verification/blind/out/blind_headlines.json); 'gate_b' = its verdict at Gate B tolerances (rab/gates/gate_B_ws3.md).\n"
         "# Exception: ws3.external.* is cited from WS7 (coupon basis, git 9db8d35), NOT Gate-B checked; UNVERIFIED for team outputs.\n"
+        "# ws3.stress.coupon_gap_vs_laura_half reads WS2's both-build ladder gap (rab/ws2 git 186ecad) and pairs it with M7 by hand.\n"
         "# Every 'never short' / 'all payments paid' figure here holds on the STRIPS basis only (gate_B_ws3.md s7).\n"
         "# None of these may go in a WInS Trading Note (not in numbers.yaml). Written by rab/decisions/build_numbers_ws3.py.\n")
     meta = dict(meta=dict(stream="WS3", written="2026-09-30 (Sydney)", curve_date="2026-09-28", numbers_yaml_sha256=sha,
