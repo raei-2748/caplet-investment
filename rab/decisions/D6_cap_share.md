@@ -1,15 +1,17 @@
 # D6: what share of the stock fund Laura promises in 2031
 
 WS2, 30 Sep 2026. AI-generated (Claude Code) for Team Caplet; the team ratifies and writes every deliverable.
-Laura's plan, MODEL, 28 Sep 2026 curve, Gate B reconciled (`rab/gates/gate_B_ws2.md`; the Book L check in s9 was run
-on both builds). Keys: `rab/numbers_ws2.yaml` (W), `rab/numbers.yaml` (N).
+MODEL, 28 Sep 2026 curve, Gate B reconciled (`rab/gates/gate_B_ws2.md`, coupon checks s9-s10 on both builds).
+Keys: `rab/numbers_ws2.yaml` (W), `rab/numbers.yaml` (N).
 
-**Decision: keep half.** Ratify at the 26 Oct meeting. IPS: no change.
+**Decisions. (1) Keep half. (2) A coupon shortfall is paid by the stock fund first, the floor last.** Ratify (2) at
+the 1 Oct vote (it decides WS6's IBTM_R note) and (1) at the 26 Oct meeting.
 
-**Question.** In 2031 the top of the range is the floor plus a share of the stock fund (about $41,000 in 2028,
-N `laura.stock_fund_2028_usd.strips`). The 2033 gift is capped at that top, and Laura keeps the rest. Is half right?
+**Question.** The 2031 top is the floor plus a share of the stock fund (about $41,000 in 2028,
+N `laura.stock_fund_2028_usd.strips`); the 2033 gift is capped there and Laura keeps the rest. Is half right, and
+who pays if coupons on the ten holdings earn too little?
 
-**Options** (low to high across three return models: fat tails, history, uncertain mean; W `ws2.d6.options`)
+**Options** (three return models: fat tails, history, uncertain mean; W `ws2.d6.options`)
 
 | Share promised | Expected gift | Laura keeps at least 10% of her gift | She keeps, in a 1-in-20 bad case |
 |---|---|---|---|
@@ -20,47 +22,63 @@ N `laura.stock_fund_2028_usd.strips`). The 2033 gift is capped at that top, and 
 | all | about $199k | 17-21% | $0 |
 
 **Evidence**
-- **The rule was fixed before any result** (`M4_SPEC.md` s5, commit 3d98ce0):
-  - the gift stays above the announced $145,000 in 99.5% of paths;
-  - Laura keeps at least 10% of her gift in 95% of paths (about three years of Taiwan building-cost rises);
-  - take the largest share that passes in all three models;
-  - change "half" only if that share falls outside 0.40-0.60.
-- **Result.** The largest passing share is 0.50, 0.47 and 0.47, so the robust answer is 0.47 (W `ws2.d6.s_star`),
-  confirmed by the blind rebuild and 10 more seeds.
-- **More promised does not mean more broken promises.** No path puts the gift below $145,000 at any share
-  (W `ws2.d6.p_gift_below_145k_any_share`). The share only moves the upside between the building and Laura's cushion.
-- **Half sits at the edge.** It adds about $1,500 of expected gift over 0.47 (W `ws2.d6.half_vs_047_expected_gift`).
-  It passes the 10% test only under fat tails (93-94% in the other two models). The 0.40-0.60 band stops a 0.03 gap
-  from replacing a rule co-sponsors can follow.
+- **Rule fixed before any result** (`M4_SPEC.md` s5, commit 3d98ce0): the gift stays above the announced $145,000 in
+  99.5% of paths; Laura keeps at least 10% of her gift (about three years of Taiwan building-cost rises) in 95%; take
+  the largest share passing in all three models; change "half" only if it falls outside 0.40-0.60.
+- **Result:** 0.50, 0.47, 0.47, so 0.47 (W `ws2.d6.s_star`), confirmed blind and on 10 more seeds. No path puts the
+  gift below $145,000 at any share (W `ws2.d6.p_gift_below_145k_any_share`). Half adds about $1,500 of expected gift
+  over 0.47 (W `ws2.d6.half_vs_047_expected_gift`) but passes the 10% test only under fat tails.
+- **Coupons** (checked after the rule; W `ws2.d6.gap_owner`). The rule assumes zero-coupon STRIPS; under our rule
+  reading (`rab/assumptions.md` R1) Laura's real ladder is Book L, which pays coupons. WS7 found three owners for a
+  shortfall across the kit. We tested the two that differ: the whole fund before the range (WS3 stress rule 3), and
+  Laura's kept half in 2033.
 
-**Decision.** Keep half. It is the simple share nearest the rule's answer, it never breaks the promise, and it matches
-the IPS: "The other half remains with Laura as a cushion".
+| Coupons earn | Gap, rung by rung (2031 value) | Largest passing share: fund pays in 2031 / kept half pays in 2033 | Gift below $145,000 if the fund pays |
+|---|---|---|---|
+| The curve's forward rates | about $500 | 0.46 / 0.45 | never |
+| Today's yields | about $1,500 | 0.45 / 0.42 | never |
+| 2 points lower | about $17,000 | none / none | at most 1 path in 400 |
+| 2% | about $29,000 | none / none | 1-2% of paths |
 
-**Confidence.** High that the rule gives half on its own zero-coupon basis (two builds, 11 seeds). Medium for the
-WInS-listed ladder that our rule reading requires (`rab/assumptions.md` R1): it gives half at today's yields, but only
-just. Medium on the rule itself: "10% in 95% of cases" is a value judgement, not a fact about Laura.
+  Rung by rung ignores what later bonds deliver above $50,000 (about $4,900 at today's yields). Half survives a 2031
+  gap up to about $4,700 if the fund pays, about $2,400 (2033 value) if the kept half pays
+  (W `ws2.d6.gap_owner_tolerance`, `ws2.d6.ladder_gap_tolerance`). At 2 points lower no share passes, not even
+  zero, so the share is not the lever; if the fund pays, the promise holds, the top falls about $8,500, and Laura
+  keeps 10% of her gift in about 7 paths in 10.
+
+**Decision.**
+1. **Keep half:** the simple share nearest the rule's answer; it never breaks the promise; it stays inside the band
+   with Book L at today's yields under either owner; it matches the IPS ("The other half remains with Laura as a
+   cushion").
+2. **Owner chain:** coupons buy Treasuries for the same payment (WS3 rule 2). In 2031, before the range is set, the
+   stock fund fills any shortfall in the ten holdings at that day's prices (WS3 rule 3). After that, the part Laura
+   keeps pays; in January 2033 the gift is cut only if that part runs out, and never below the floor. After the
+   January 2033 set-aside, Laura's kept money pays. The floor pays only if a shortfall exceeds the whole fund.
+   Why: the range must protect the operating commitment (case), so co-sponsors never hear a top that is later cut to
+   pay Laura's payments; half holds more securely; it matches WS3.
+
+**Confidence.** High that the rule gives half on its zero-coupon basis (two builds, 11 seeds). Medium-high with
+Book L at today's yields (0.45, both builds). Medium on the rule itself: "10% in 95% of cases" is a value judgement.
+Low if coupons earn 2 points less for years.
 
 **What would change it**
-- **Coupons on Laura's real ladder** (WS7 red team; W `ws2.d6.ladder_gap`, `ws2.d6.ladder_gap_tolerance`; a check
-  added after the rule, run on both builds). The rule assumes zero-coupon STRIPS: nothing to reinvest. Under R1 her
-  real ladder is Book L, which pays coupons, and any reinvestment shortfall comes out of her cushion.
-  - At today's yields the gap is about $1,600. The rule still keeps half (robust share 0.42).
-  - The rule keeps half for gaps up to about $2,400.
-  - At yields 2 points lower, the gap is about $18,000. No share passes, not even zero, which covers about $15,000 at
-    most. The fix belongs in the ten holdings (Gate D), not in the share.
-- **Laura's cushion** (W `ws2.d6.rule_sensitivity`). A 5% cushion gives 2/3. A 15% cushion gives 1/5, and so does 10%
-  at 99% confidence. The stock model barely matters.
-- **Costs** over 1% a year, or any cost charged to the floor.
-- **Stocks and yields falling together.** This is not modelled (WS3/M7).
-- **Counting the top from $145,000** (range memo, option D): half would pass the 10% test in every model (96-97%, primary build only).
+- **A 2031 gap above about $4,700:** the rule stops picking half. Fix the holdings (lower-coupon bonds where WInS
+  lists them, coupons into same-date Treasuries), not the share.
+- **Yields falling after 2031:** not modelled; Laura's part carries it. WS7 reports a Japan-style case where it is
+  too small (not Gate-B checked).
+- **Laura's cushion** (W `ws2.d6.rule_sensitivity`): 5% gives 2/3; 15%, or 10% at 99% confidence, gives 1/5.
+- Costs over 1% a year or charged to the floor; stocks and yields falling together (not modelled).
 
 **Implications**
-- **IPS: none from D6.** Coupon reinvestment is already a fix-before-6-Nov item (Gate A; `rab/assumptions.md` C3): the
-  IPS phrase "needs no rebalancing". Gate D owns it.
-- **Final Report: note-in-Final-Report.** Use the options table as the reason for half. Raise the cushion as the
-  question to ask Laura. Say that half still holds with the WInS-listed ladder at today's yields, but not if coupons
-  earn much less.
-- **Trading Notes.** Keep shares, odds and ranges out of WInS notes. The VT note may say in words that only half the
-  stock fund is ever promised.
+- **IPS: fix-before-6-Nov, no new item.** The share: none. The owner: fold into the Gate A coupon fix of "needs no
+  rebalancing" (`rab/assumptions.md` C3), e.g. "any shortfall is filled from the stock fund before the range is set"
+  (the team's words). With the cost clause and WS3's rules 1-2 this exceeds the 17 spare words: trim elsewhere.
+- **WS6: fix-now if IBTM_R is typed.** It says the half Laura keeps, "not the floor, cover any gap". "Not the floor"
+  is right; "the half she keeps" and "any gap" are not: the whole fund pays first, and at 2% the gap exceeds the
+  fund in about 3-4% of paths.
+- **Final Report: note-in-Final-Report.** Options table as the reason for half; the cushion as the question for
+  Laura; the coupon table and owner chain; a shortfall makes a small part of the payments depend on stocks
+  (qualifies `rab/assumptions.md` E3).
+- **Trading Notes.** No shares, odds or ranges in WInS notes. The VT note may say only half the fund is promised.
 
-Version 3: adds the Book L check (re-derives WS7's figures). Version 2 corrected "19 in 20 at half" to 93-95%.
+v4 adds the owner chain (gate_B_ws2.md s10); v3 the Book L check; v2 corrected "19 in 20 at half" to 93-95%.

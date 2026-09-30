@@ -1,0 +1,67 @@
+M4 gap-owner sensitivity (not pre-registered; MODEL; 28 Sep 2026 curve; 200,000 paths per model per build)
+  A = kept money pays in 2033 (v3 memos; m4_ladder_gap.py); B = stock fund fills the gap in 2031 before the range is set (WS3 stress rule 3)
+  gap scenario none (STRIPS basis, M4 as specified)  : rung gaps $0 over 0 rungs (surpluses on other rungs $0, not netted); valued 1 Jan 2033 $0, 1 Jan 2031 $0 at 0%
+  gap scenario Book L, curve forwards                : rung gaps $539 over 5 rungs (surpluses on other rungs $8,018, not netted); valued 1 Jan 2033 $499, 1 Jan 2031 $452 at 5%
+  gap scenario Book L, today's yields                : rung gaps $1,787 over 5 rungs (surpluses on other rungs $4,942, not netted); valued 1 Jan 2033 $1,613, 1 Jan 2031 $1,463 at 5%
+  gap scenario Book L, today's yields - 2 points     : rung gaps $20,826 over 10 rungs (surpluses on other rungs $0, not netted); valued 1 Jan 2033 $18,003, 1 Jan 2031 $16,969 at 3%
+  gap scenario Book L, 2%                            : rung gaps $33,814 over 10 rungs (surpluses on other rungs $0, not netted); valued 1 Jan 2033 $30,493, 1 Jan 2031 $29,309 at 2%
+  gap scenario Book L, 0%                            : rung gaps $53,159 over 10 rungs (surpluses on other rungs $0, not netted); valued 1 Jan 2033 $53,159, 1 Jan 2031 $53,159 at 0%
+  primary T     none (STRIPS basis, M4 as specified)   s* A  0.5 B  0.5 | half: P(kept >= 10%) A 95.3% B 95.3% | E gift A $174,192 B $174,192 | B: top median $174,938, kept p5 $16,720, P(fund < gap) 0.00%, P(gift < $145k) 0.00%
+  primary T     Book L, curve forwards                 s* A 0.49 B 0.49 | half: P(kept >= 10%) A 94.4% B 95.0% | E gift A $174,192 B $173,973 | B: top median $174,712, kept p5 $16,509, P(fund < gap) 0.00%, P(gift < $145k) 0.00%
+  primary T     Book L, today's yields                 s* A 0.45 B 0.48 | half: P(kept >= 10%) A 92.2% B 94.2% | E gift A $174,192 B $173,482 | B: top median $174,206, kept p5 $16,046, P(fund < gap) 0.00%, P(gift < $145k) 0.00%
+  primary T     Book L, today's yields - 2 points      s* A none B 0.09 | half: P(kept >= 10%) A 41.6% B 70.2% | E gift A $173,989 B $165,952 | B: top median $166,453, kept p5 $8,671, P(fund < gap) 0.03%, P(gift < $145k) 0.00%
+  primary T     Book L, 2%                             s* A none B none | half: P(kept >= 10%) A 17.3% B 38.8% | E gift A $170,933 B $159,913 | B: top median $160,283, kept p5 $2,028, P(fund < gap) 2.61%, P(gift < $145k) 0.91%
+  primary T     Book L, 0%                             s* A none B none | half: P(kept >= 10%) A 3.5% B 5.6% | E gift A $155,002 B $145,381 | B: top median $146,716, kept p5 $0, P(fund < gap) 60.16%, P(gift < $145k) 46.26%
+  primary BOOT  none (STRIPS basis, M4 as specified)   s* A 0.47 B 0.47 | half: P(kept >= 10%) A 93.6% B 93.6% | E gift A $174,129 B $174,129 | B: top median $175,487, kept p5 $15,491, P(fund < gap) 0.00%, P(gift < $145k) 0.00%
+  primary BOOT  Book L, curve forwards                 s* A 0.45 B 0.46 | half: P(kept >= 10%) A 92.7% B 93.3% | E gift A $174,129 B $173,912 | B: top median $175,261, kept p5 $15,282, P(fund < gap) 0.00%, P(gift < $145k) 0.00%
+  primary BOOT  Book L, today's yields                 s* A 0.42 B 0.45 | half: P(kept >= 10%) A 90.5% B 92.5% | E gift A $174,129 B $173,426 | B: top median $174,756, kept p5 $14,832, P(fund < gap) 0.00%, P(gift < $145k) 0.00%
+  primary BOOT  Book L, today's yields - 2 points      s* A none B none | half: P(kept >= 10%) A 45.2% B 70.5% | E gift A $173,790 B $165,962 | B: top median $167,002, kept p5 $7,567, P(fund < gap) 0.64%, P(gift < $145k) 0.25%
+  primary BOOT  Book L, 2%                             s* A none B none | half: P(kept >= 10%) A 20.6% B 42.4% | E gift A $170,729 B $159,913 | B: top median $160,833, kept p5 $835, P(fund < gap) 4.20%, P(gift < $145k) 2.13%
+  primary BOOT  Book L, 0%                             s* A none B none | half: P(kept >= 10%) A 3.8% B 6.6% | E gift A $155,571 B $145,449 | B: top median $147,815, kept p5 $0, P(fund < gap) 56.39%, P(gift < $145k) 43.57%
+  primary BAYES none (STRIPS basis, M4 as specified)   s* A 0.47 B 0.47 | half: P(kept >= 10%) A 93.2% B 93.2% | E gift A $174,228 B $174,228 | B: top median $174,966, kept p5 $15,483, P(fund < gap) 0.00%, P(gift < $145k) 0.00%
+  primary BAYES Book L, curve forwards                 s* A 0.45 B 0.46 | half: P(kept >= 10%) A 92.2% B 92.9% | E gift A $174,228 B $174,011 | B: top median $174,740, kept p5 $15,286, P(fund < gap) 0.00%, P(gift < $145k) 0.00%
+  primary BAYES Book L, today's yields                 s* A 0.42 B 0.45 | half: P(kept >= 10%) A 89.6% B 92.0% | E gift A $174,228 B $173,524 | B: top median $174,235, kept p5 $14,834, P(fund < gap) 0.00%, P(gift < $145k) 0.00%
+  primary BAYES Book L, today's yields - 2 points      s* A none B none | half: P(kept >= 10%) A 42.8% B 67.8% | E gift A $173,927 B $166,055 | B: top median $166,482, kept p5 $7,628, P(fund < gap) 0.05%, P(gift < $145k) 0.00%
+  primary BAYES Book L, 2%                             s* A none B none | half: P(kept >= 10%) A 20.9% B 40.1% | E gift A $170,575 B $160,045 | B: top median $160,312, kept p5 $978, P(fund < gap) 3.75%, P(gift < $145k) 1.29%
+  primary BAYES Book L, 0%                             s* A none B none | half: P(kept >= 10%) A 5.2% B 7.9% | E gift A $155,177 B $145,325 | B: top median $146,774, kept p5 $0, P(fund < gap) 58.55%, P(gift < $145k) 46.72%
+  blind   T     none (STRIPS basis, M4 as specified)   s* A  0.5 B  0.5 | half: P(kept >= 10%) A 95.4% B 95.4% | E gift A $174,200 B $174,200 | B: top median $174,966, kept p5 $16,781, P(fund < gap) 0.00%, P(gift < $145k) 0.00%
+  blind   T     Book L, curve forwards                 s* A 0.49 B  0.5 | half: P(kept >= 10%) A 94.5% B 95.1% | E gift A $174,200 B $173,980 | B: top median $174,740, kept p5 $16,576, P(fund < gap) 0.00%, P(gift < $145k) 0.00%
+  blind   T     Book L, today's yields                 s* A 0.46 B 0.48 | half: P(kept >= 10%) A 92.3% B 94.3% | E gift A $174,200 B $173,490 | B: top median $174,234, kept p5 $16,113, P(fund < gap) 0.00%, P(gift < $145k) 0.00%
+  blind   T     Book L, today's yields - 2 points      s* A  0.0 B 0.09 | half: P(kept >= 10%) A 41.5% B 70.4% | E gift A $174,001 B $165,960 | B: top median $166,481, kept p5 $8,747, P(fund < gap) 0.02%, P(gift < $145k) 0.00%
+  blind   T     Book L, 2%                             s* A none B none | half: P(kept >= 10%) A 17.3% B 38.7% | E gift A $170,952 B $159,923 | B: top median $160,311, kept p5 $2,070, P(fund < gap) 2.59%, P(gift < $145k) 0.87%
+  blind   T     Book L, 0%                             s* A none B none | half: P(kept >= 10%) A 3.5% B 5.6% | E gift A $155,006 B $145,408 | B: top median $146,772, kept p5 $0, P(fund < gap) 60.25%, P(gift < $145k) 45.98%
+  blind   BOOT  none (STRIPS basis, M4 as specified)   s* A 0.47 B 0.47 | half: P(kept >= 10%) A 93.7% B 93.7% | E gift A $174,111 B $174,111 | B: top median $175,472, kept p5 $15,547, P(fund < gap) 0.00%, P(gift < $145k) 0.00%
+  blind   BOOT  Book L, curve forwards                 s* A 0.45 B 0.46 | half: P(kept >= 10%) A 92.9% B 93.4% | E gift A $174,111 B $173,893 | B: top median $175,246, kept p5 $15,351, P(fund < gap) 0.00%, P(gift < $145k) 0.00%
+  blind   BOOT  Book L, today's yields                 s* A 0.42 B 0.45 | half: P(kept >= 10%) A 90.6% B 92.7% | E gift A $174,111 B $173,408 | B: top median $174,741, kept p5 $14,896, P(fund < gap) 0.00%, P(gift < $145k) 0.00%
+  blind   BOOT  Book L, today's yields - 2 points      s* A none B none | half: P(kept >= 10%) A 45.3% B 70.5% | E gift A $173,778 B $165,942 | B: top median $166,987, kept p5 $7,581, P(fund < gap) 0.62%, P(gift < $145k) 0.25%
+  blind   BOOT  Book L, 2%                             s* A none B none | half: P(kept >= 10%) A 20.6% B 42.3% | E gift A $170,720 B $159,894 | B: top median $160,818, kept p5 $804, P(fund < gap) 4.23%, P(gift < $145k) 2.10%
+  blind   BOOT  Book L, 0%                             s* A none B none | half: P(kept >= 10%) A 3.8% B 6.4% | E gift A $155,564 B $145,425 | B: top median $147,785, kept p5 $0, P(fund < gap) 56.49%, P(gift < $145k) 43.68%
+  blind   BAYES none (STRIPS basis, M4 as specified)   s* A 0.47 B 0.47 | half: P(kept >= 10%) A 93.2% B 93.2% | E gift A $174,242 B $174,242 | B: top median $175,001, kept p5 $15,495, P(fund < gap) 0.00%, P(gift < $145k) 0.00%
+  blind   BAYES Book L, curve forwards                 s* A 0.45 B 0.46 | half: P(kept >= 10%) A 92.1% B 92.8% | E gift A $174,242 B $174,024 | B: top median $174,775, kept p5 $15,291, P(fund < gap) 0.00%, P(gift < $145k) 0.00%
+  blind   BAYES Book L, today's yields                 s* A 0.42 B 0.45 | half: P(kept >= 10%) A 89.5% B 91.9% | E gift A $174,242 B $173,538 | B: top median $174,269, kept p5 $14,836, P(fund < gap) 0.00%, P(gift < $145k) 0.00%
+  blind   BAYES Book L, today's yields - 2 points      s* A none B none | half: P(kept >= 10%) A 42.8% B 67.8% | E gift A $173,939 B $166,070 | B: top median $166,516, kept p5 $7,670, P(fund < gap) 0.04%, P(gift < $145k) 0.00%
+  blind   BAYES Book L, 2%                             s* A none B none | half: P(kept >= 10%) A 20.9% B 40.2% | E gift A $170,591 B $160,061 | B: top median $160,346, kept p5 $986, P(fund < gap) 3.73%, P(gift < $145k) 1.26%
+  blind   BAYES Book L, 0%                             s* A none B none | half: P(kept >= 10%) A 5.3% B 7.8% | E gift A $155,195 B $145,353 | B: top median $146,842, kept p5 $0, P(fund < gap) 58.38%, P(gift < $145k) 46.48%
+  robust s* (min over T, BOOT, BAYES; PR-7 keeps half only if 0.40-0.60):
+    primary none (STRIPS basis, M4 as specified)   A 0.47  B 0.47
+    primary Book L, curve forwards                 A 0.45  B 0.46
+    primary Book L, today's yields                 A 0.42  B 0.45
+    primary Book L, today's yields - 2 points      A none  B none
+    primary Book L, 2%                             A none  B none
+    primary Book L, 0%                             A none  B none
+    blind   none (STRIPS basis, M4 as specified)   A 0.47  B 0.47
+    blind   Book L, curve forwards                 A 0.45  B 0.46
+    blind   Book L, today's yields                 A 0.42  B 0.45
+    blind   Book L, today's yields - 2 points      A none  B none
+    blind   Book L, 2%                             A none  B none
+    blind   Book L, 0%                             A none  B none
+  mechanism B: largest gap (valued 1 Jan 2031, set aside at 3%) that still passes PR-4 and PR-5 in all three models:
+    blind   share 0.00: $16,324
+    blind   share 0.33: $8,075
+    blind   share 0.40: $4,770
+    blind   share 0.50: fails with no gap (BOOT, BAYES)
+    primary share 0.00: $16,306
+    primary share 0.33: $8,047
+    primary share 0.40: $4,678
+    primary share 0.50: fails with no gap (BOOT, BAYES)
+  self-check: mechanism A reproduces rab/results/M4/ladder_gap.csv on all 30 shared rows: True

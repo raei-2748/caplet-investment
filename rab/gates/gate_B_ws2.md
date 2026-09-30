@@ -283,3 +283,23 @@ These are the cards' stated limits. WS7 should challenge them.
   lower no share passes. Decision memos updated; the strategy and the D6 decision are unchanged. The coupon fix stays
   the Gate A / Gate D item.
 - Every earlier output is unchanged: the new script writes only new files. `numbers.yaml` is still `492ed320...`.
+
+## 10. Who fills a coupon gap: the gap-owner check (30 Sep, after the WS7 r3 / kac-2 / fact-audit rounds)
+
+- **Why.** WS7 found three owners for the same gap across the kit: Laura's kept half (WS2 range memo v3 condition 5;
+  WS6 note IBTM_R), the ten holdings (WS2 D6 memo v3), and the whole stock fund in 2031 before the range is set (WS3
+  `D_stress_bad_year.md` rule 3), with none named after 2033.
+- **What was added.** `rab/models/m4_gap_owner.py` (make target `m4-owner`). Sensitivity, not pre-registered; the
+  D6 rule is untouched. On both builds in one run it compares mechanism A (kept money pays in 2033: the s9 check) with
+  mechanism B (the fund fills the gap, valued 1 Jan 2031, before the share is applied; the fund left keeps its stock
+  path; if the gap exceeds the fund, the floor pays the rest and the bottom moves). It adds a "curve forwards" gap
+  scenario (numbers.yaml `at_curve`). Outputs: `rab/results/M4/gap_owner*.csv`, `gap_owner_log.txt`. Keys:
+  `ws2.d6.gap_owner`, `ws2.d6.gap_owner_tolerance`.
+- **Reconciliation.** Mechanism A reproduces `ladder_gap.csv` on all 30 shared rows (asserted in the script).
+  Primary against blind is WITHIN TOL on every entry; the robust share is identical in every scenario and mechanism
+  (B: 0.47 / 0.46 / 0.45 / none / none / none). Tolerance at share 0.40: $4,678 primary, $4,770 blind (1.9%). Two
+  reruns gave byte-identical outputs.
+- **Result.** Mechanism B keeps half at today's yields (robust 0.45, against 0.42 under A) and roughly doubles the gap
+  half can absorb. At yields 2 points lower no share passes under either mechanism, but under B the gift stays at or
+  above $145,000 in at least 99.75% of paths (PR-4 holds): the top falls instead. Memos v4 adopt B as the single owner
+  rule. `numbers.yaml` is still `492ed320...`.
