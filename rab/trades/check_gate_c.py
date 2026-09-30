@@ -26,7 +26,11 @@ Checks (RAB Kit RUN_PLAN s3 WS6 DoD and Gate C):
   G7 mirror     the committed mirrors of the Sheet tabs 'RAB Tickets' / 'RAB Notes' (rab/sheets/*.csv, written by
                 build_sheet_tabs.py) carry the same orders, quantities, prices and max prices as tickets.csv and the same
                 exemplar text as notes.csv, with no retired note left. (The LIVE tabs are read with the Sheets connector
-                and compared by hand; this script stays offline. See gate_C.md.)
+                and compared by hand; this script stays offline. See gate_C.md.) Also: the tab's own cost formulas
+                (Q expected, R worst case) evaluated from the mirror equal the kit's Preview and worst-case costs.
+  G8 live       optional: the newest dated read-only snapshot of the LIVE 'RAB Notes' tab (rab/data/sheet/
+                RAB_Notes_live_*.json) against the kit, exemplar and brief. Differences are STALE (fix before
+                Friday), never FAIL.
 
 Run from the worktree root:  /Users/ray/Research/rab-ws/.venv/bin/python rab/trades/check_gate_c.py
 Writes rab/gates/gate_C_results.json. Exit 1 if any FAIL. UNVERIFIED = cannot be settled offline (needs the WInS
@@ -589,6 +593,73 @@ for f in ("rab_tickets.csv", "rab_notes.csv"):
             and not re.search(r"(?i)supersed|stale|retired|not the current", line)]
     rec("G6 stale", f"sheets/{f}", not hits, f"hits: {hits[:5]}" if hits else "none")
 
+# G7 (4th run): evaluate the tab's own cost formulas (columns Q and R) from the mirror's values and compare them with
+# the kit. The live tab showed worst-case cash $2,477.19 against tickets.md $2,445.28 because column R used the 2 Oct
+# accrued (N) instead of the kit's worst-case accrued (to the settle date); build_sheet_tabs.py now writes that to AE.
+wc_col = next((i for i, h_ in enumerate(H) if h_.startswith("Worst-case accrued per $100")), None)
+rec("G7 mirror", "RAB Tickets: worst-case accrued column", wc_col is not None,
+    "present" if wc_col is not None else "missing: column R cannot match the kit's worst case")
+for b in ("Portfolio", "BookL"):
+    tq = tw = 0.0
+    for t_ in [x for x in tickets if x["book"] == b]:
+        s_ = sh_rows.get((b, t_["seq"]))
+        if s_ is None:
+            continue
+        qty, comm = fnum(s_[col("Quantity")]), COMM[s_[col("Type")]]
+        if s_[col("Type")] == "Treasury":
+            q_ = qty / 100 * (fnum(s_[col("Reference price")]) + fnum(s_[col("Accrued interest per $100 (bonds)")])) + comm
+            acc_col = wc_col if wc_col is not None else col("Accrued interest per $100 (bonds)")  # old tab: R used N
+            w_ = qty / 100 * (fnum(s_[col("Max price (do not pay above)")]) + fnum(s_[acc_col])) + comm
+        else:
+            q_ = qty * fnum(s_[col("Reference price")]) + comm
+            w_ = qty * fnum(s_[col("Max price (do not pay above)")]) + comm
+        tq += q_
+        tw += w_
+        ok = abs(q_ - num(t_["preview_expected"])) < 0.02 and abs(w_ - num(t_["cost_max"])) < 0.02
+        rec("G7 mirror", f"RAB Tickets {b} #{t_['seq']} formulas", ok,
+            f"tab Q ${q_:,.2f} vs kit ${num(t_['preview_expected']):,.2f}; tab R ${w_:,.2f} vs kit ${num(t_['cost_max']):,.2f}")
+    bk = [x for x in tickets if x["book"] == b]
+    kit_exp = START_CASH - sum(num(x["preview_expected"]) for x in bk)   # tickets.md 'expected' cash
+    kit_w = num(bk[-1]["cash_after_worst"])
+    ok = abs(START_CASH - tq - kit_exp) < 0.05 and abs(START_CASH - tw - kit_w) < 0.05
+    rec("G7 mirror", f"RAB Tickets summary {b}", ok,
+        f"tab cash left expected ${START_CASH - tq:,.2f} / worst ${START_CASH - tw:,.2f}; kit "
+        f"${kit_exp:,.2f} / ${kit_w:,.2f}")
+
+# ------------------------------------------------------------------------------------------------ G8 live tabs
+# Optional: a dated read-only snapshot of the LIVE 'RAB Notes' tab (Sheets connector values.get, saved as JSON under
+# rab/data/sheet/). A live exemplar that differs from the mirror is STALE: the kit is right, the team's tab is not yet
+# rewritten (gate_C.md open item 7). STALE never fails the gate; it is a fix-before-Friday item.
+live = sorted(f for f in os.listdir(P("rab", "data", "sheet")) if f.startswith("RAB_Notes_live_") and f.endswith(".json"))
+if live:
+    LV = json.load(open(P("rab", "data", "sheet", live[-1])))["values"]
+    li = next(i for i, r in enumerate(LV) if r[:3] == ["Book", "Order", "Note ID"])
+    LH = LV[li]
+    lv_ex = {r[LH.index("Note ID")]: r[LH.index("Exemplar note")] for r in LV[li + 1:]
+             if len(r) > LH.index("Exemplar note") and r[LH.index("Note ID")]}
+    typed = [r[LH.index("Note ID")] for r in LV[li + 1:] if len(r) > LH.index("Team note (write here)")
+             and r[LH.index("Team note (write here)")].strip()]
+    for n_ in notes:
+        got = lv_ex.get(n_["note_id"])
+        rec("G8 live", f"live RAB Notes {n_['note_id']} ({live[-1][15:-5]})", got == n_["exemplar"],
+            "same as the kit" if got == n_["exemplar"] else ("missing on the live tab" if got is None
+                                                            else "live text is an older build"),
+            status=None if got == n_["exemplar"] else "STALE")
+    lv_br = {r[LH.index("Note ID")]: r[LH.index("Brief (facts the note may use)")] for r in LV[li + 1:]
+             if len(r) > LH.index("Brief (facts the note may use)") and r[LH.index("Note ID")]}
+    for n_ in notes:
+        got = lv_br.get(n_["note_id"])
+        rec("G8 live", f"live RAB Notes brief {n_['note_id']}", got == n_["brief"],
+            "same as the kit" if got == n_["brief"] else ("missing on the live tab" if got is None
+                                                         else "live brief is an older build"),
+            status=None if got == n_["brief"] else "STALE")
+    extra = sorted(set(lv_ex) - {n_["note_id"] for n_ in notes})
+    rec("G8 live", "live RAB Notes: no retired note left", not extra, f"extra ids: {extra}" if extra else "none",
+        status=None if not extra else "STALE")
+    rec("G8 live", "live RAB Notes: Team note column empty (safe to rewrite)", not typed,
+        "empty" if not typed else f"students typed in: {typed} (keep column M when rewriting)",
+        status=None if not typed else "STALE")
+
 # ------------------------------------------------------------------------------------------------ report
 cnt = {}
 for c, i, s, _ in R:
@@ -602,7 +673,8 @@ for c in sorted(cnt):
     print(f"{c:10s} " + ", ".join(f"{k} {v}" for k, v in sorted(cnt[c].items())))
 nf = sum(1 for r in R if r[2] == "FAIL")
 print(f"\nTOTAL {len(R)} checks: FAIL {nf}, UNVERIFIED {sum(1 for r in R if r[2] == 'UNVERIFIED')}, "
-      f"CONDITIONAL {sum(1 for r in R if r[2] == 'CONDITIONAL')}; numbers.yaml {h[:12]}")
+      f"CONDITIONAL {sum(1 for r in R if r[2] == 'CONDITIONAL')}, STALE (live tab) {sum(1 for r in R if r[2] == 'STALE')}; "
+      f"numbers.yaml {h[:12]}")
 out_dir = P("rab", "gates") if T == T0 else T
 os.makedirs(out_dir, exist_ok=True)
 json.dump({"numbers_yaml_sha256": h, "counts": cnt,

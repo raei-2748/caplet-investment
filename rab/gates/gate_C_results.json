@@ -25,7 +25,11 @@
    "PASS": 18
   },
   "G7 mirror": {
-   "PASS": 46
+   "PASS": 70
+  },
+  "G8 live": {
+   "STALE": 31,
+   "PASS": 17
   }
  },
  "checks": [
@@ -2536,6 +2540,438 @@
    "item": "sheets/rab_notes.csv",
    "status": "PASS",
    "detail": "none"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets: worst-case accrued column",
+   "status": "PASS",
+   "detail": "present"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #1 formulas",
+   "status": "PASS",
+   "detail": "tab Q $19,897.54 vs kit $19,897.54; tab R $20,066.74 vs kit $20,066.74"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #2 formulas",
+   "status": "PASS",
+   "detail": "tab Q $21,023.20 vs kit $21,023.20; tab R $21,200.40 vs kit $21,200.40"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #3 formulas",
+   "status": "PASS",
+   "detail": "tab Q $22,221.10 vs kit $22,221.10; tab R $22,386.88 vs kit $22,386.88"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #4 formulas",
+   "status": "PASS",
+   "detail": "tab Q $23,413.32 vs kit $23,413.32; tab R $23,586.04 vs kit $23,586.04"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #5 formulas",
+   "status": "PASS",
+   "detail": "tab Q $97,640.36 vs kit $97,640.36; tab R $98,268.40 vs kit $98,268.40"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #6 formulas",
+   "status": "PASS",
+   "detail": "tab Q $14,745.62 vs kit $14,745.61; tab R $14,916.15 vs kit $14,916.15"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #7 formulas",
+   "status": "PASS",
+   "detail": "tab Q $15,446.48 vs kit $15,446.48; tab R $15,608.93 vs kit $15,608.92"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #8 formulas",
+   "status": "PASS",
+   "detail": "tab Q $16,754.93 vs kit $16,754.93; tab R $16,921.94 vs kit $16,921.93"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #9 formulas",
+   "status": "PASS",
+   "detail": "tab Q $18,248.67 vs kit $18,248.66; tab R $18,415.32 vs kit $18,415.32"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #10 formulas",
+   "status": "PASS",
+   "detail": "tab Q $19,564.32 vs kit $19,564.31; tab R $19,725.42 vs kit $19,725.43"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets Portfolio #11 formulas",
+   "status": "PASS",
+   "detail": "tab Q $26,069.84 vs kit $26,069.84; tab R $26,458.52 vs kit $26,458.52"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets summary Portfolio",
+   "status": "PASS",
+   "detail": "tab cash left expected $4,974.62 / worst $2,445.27; kit $4,974.64 / $2,445.28"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #1 formulas",
+   "status": "PASS",
+   "detail": "tab Q $29,434.48 vs kit $29,434.48; tab R $29,684.88 vs kit $29,684.88"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #2 formulas",
+   "status": "PASS",
+   "detail": "tab Q $31,095.70 vs kit $31,095.70; tab R $31,357.90 vs kit $31,357.90"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #3 formulas",
+   "status": "PASS",
+   "detail": "tab Q $32,849.20 vs kit $32,849.20; tab R $33,094.36 vs kit $33,094.36"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #4 formulas",
+   "status": "PASS",
+   "detail": "tab Q $34,624.06 vs kit $34,624.06; tab R $34,879.57 vs kit $34,879.57"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #5 formulas",
+   "status": "PASS",
+   "detail": "tab Q $36,538.28 vs kit $36,538.28; tab R $36,773.20 vs kit $36,773.20"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #6 formulas",
+   "status": "PASS",
+   "detail": "tab Q $22,501.21 vs kit $22,501.20; tab R $22,761.49 vs kit $22,761.49"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #7 formulas",
+   "status": "PASS",
+   "detail": "tab Q $23,618.73 vs kit $23,618.74; tab R $23,867.18 vs kit $23,867.17"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #8 formulas",
+   "status": "PASS",
+   "detail": "tab Q $25,127.40 vs kit $25,127.40; tab R $25,377.90 vs kit $25,377.89"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #9 formulas",
+   "status": "PASS",
+   "detail": "tab Q $27,847.97 vs kit $27,847.96; tab R $28,102.33 vs kit $28,102.33"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets BookL #10 formulas",
+   "status": "PASS",
+   "detail": "tab Q $29,341.48 vs kit $29,341.47; tab R $29,583.13 vs kit $29,583.14"
+  },
+  {
+   "check": "G7 mirror",
+   "item": "RAB Tickets summary BookL",
+   "status": "PASS",
+   "detail": "tab cash left expected $7,021.49 / worst $4,518.06; kit $7,021.52 / $4,518.06"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes IBTR (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes IBTQ (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes IBTP (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes IBTO (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes IBTM_P (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes T41 (2026-09-30T1614AEST)",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes T40b (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes T39 (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes T38 (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes T37 (2026-09-30T1614AEST)",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes VT (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes IBTM_L (2026-09-30T1614AEST)",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes IBTR_F (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes IBTM_R (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes T40s (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes SW40 (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes SW41 (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes SW37 (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes OD_S (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes OD_B (2026-09-30T1614AEST)",
+   "status": "STALE",
+   "detail": "live text is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes OB_S (2026-09-30T1614AEST)",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes OB_B (2026-09-30T1614AEST)",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes OC (2026-09-30T1614AEST)",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief IBTR",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief IBTQ",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief IBTP",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief IBTO",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief IBTM_P",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief T41",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief T40b",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief T39",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief T38",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief T37",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief VT",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief IBTM_L",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief IBTR_F",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief IBTM_R",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief T40s",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief SW40",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief SW41",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief SW37",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief OD_S",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief OD_B",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief OB_S",
+   "status": "STALE",
+   "detail": "live brief is an older build"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief OB_B",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes brief OC",
+   "status": "PASS",
+   "detail": "same as the kit"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes: no retired note left",
+   "status": "PASS",
+   "detail": "none"
+  },
+  {
+   "check": "G8 live",
+   "item": "live RAB Notes: Team note column empty (safe to rewrite)",
+   "status": "PASS",
+   "detail": "empty"
   }
  ]
 }
