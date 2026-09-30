@@ -1,0 +1,86 @@
+% Model cards, condensed from rab/models/M*_CARD.md, M1_METHOD.md and rab/trades/M9_selection.md (30 Sep 2026).
+% Full cards and specs live next to the code; these are summaries. All outputs MODEL, 28 Sep 2026 curve, seed 20260930.
+\small
+\newcommand{\card}[2]{\par\medskip\noindent\colorbox{black!6}{\parbox{\dimexpr\textwidth-2\fboxsep}{\textbf{#1}\hfill{\footnotesize #2}}}\par\smallskip}
+\newcommand{\cf}[1]{\textbf{#1.}~}
+
+\card{M1 Ladder pricer}{spec \texttt{M1\_METHOD.md}; code \texttt{m1\_ladder.py}; out \texttt{rab/models/out/}}
+\cf{Question} What the ten payments and the WInS book cost on the reference curve; whether WInS bond prices are fair.
+\cf{Method} Par curve on a half-year grid (linear), bootstrapped to discount factors, log-linear interpolation;
+payments valued on the Nov-15 STRIPS basis (headline) and on the exact dates; forward to 1 Jan 2027 and 2028; book
+costed with commissions; bond yield check (flag beyond 25bp); iBonds look-through; coupon reinvestment stress (section E);
+cost-of-certainty history on every curve since 1990 (section G).
+\cf{Data} Treasury par curve 28 Sep 2026; WInS prices recorded 28--29 Sep; iShares facts; Nasdaq closes.
+\cf{Limits} Model prices, no dealer mark-up; one curve, one day; WInS settlement, bond unit and accrued conventions \UNV;
+history keeps today's time to maturity. \cf{Failure mode} quoting the exact-date value (not buyable) as the cost.
+\cf{Verification} Gate A: four builders, maximum difference \$0.00 on every headline.
+
+\card{M2 Rate paths to January 2027}{spec \texttt{M2\_SPEC.md}; code \texttt{m2\_rate\_paths.py}; out \texttt{results/M2/}}
+\cf{Question} The chance the ten payments cost more than \$300,000 on 1 Jan 2027, and whether to hedge.
+\cf{Method} Five estimators with no view on direction (rescaled history since 1963; history at similar yield levels;
+bias-corrected Vasicek AR(1); three-factor PCA + VAR(1); MOVE-calibrated options volatility); headline = their median.
+\cf{Data} Treasury par curves 1990--2026, FRED constant maturity 1962--1989, MOVE (secondary source).
+\cf{Limits} A quarter-by-quarter figure that moves with volatility; STRIPS basis only; fitted mean reversion is
+indistinguishable from none. \cf{Failure mode} quoting a decimal, or quoting the superseded 24.2\%.
+\cf{Verification} Gate B (WS4): blind rebuild within 0.005 points on decision keys; third standard-library pricer agrees.
+
+\card{M3 Branch Monte Carlo}{spec \texttt{M3\_SPEC.md}; code \texttt{m3\_branch.py}; out \texttt{results/M3/}}
+\cf{Question} The 2031 range top and the 2033 gift under the adopted rule.
+\cf{Method} 200,000 paths per model: Student-$t$ ($\nu=4$), Shiller block bootstrap (24-month blocks, re-centred on
+7.0\%), Bayesian uncertain mean (PyMC, $\hat r\le1.001$), lognormal reference reproducing insight\_v1.
+\cf{Data} Shiller monthly 1871--2026; Damodaran 1928--2025; J.P.~Morgan 2026 LTCMA (world stocks 7.00\%).
+\cf{Limits} U.S. history stands in for VT; no link between stocks and rates; floor taken at face (M4 relaxes this).
+\cf{Failure mode} reading the model percentile as the confidence that the gift lands in the range (that is by construction).
+\cf{Verification} Gate B (WS2): median top within \$34, probability of reaching the top within 0.12 points.
+
+\card{M4 Cap optimiser (D6)}{spec \texttt{M4\_SPEC.md} s5 (rule committed first, 3d98ce0); code \texttt{m4\_cap.py}}
+\cf{Question} What share of the stock fund to promise at the top of the 2031 range.
+\cf{Method} Pre-registered rule: largest share with the gift above the announced floor in 99.5\% of paths and Laura
+keeping $\ge$10\% of her gift in 95\%, in all three decision models; keep half if the answer is in 0.40--0.60. Floor
+delivery modelled with historical reinvestment rates and the fund fee; announced floor = worst case rounded down to
+\$5,000. NSGA-II (pymoo) front as an indicative check. Coupon-gap variants with three owners (\texttt{m4\_gap\_owner.py}).
+\cf{Limits} The 10\% and 95\% are value judgements; 0 in 200,000 is not proof of impossibility.
+\cf{Verification} Gate B (WS2): same answer (0.50 / 0.47 / 0.47) in both builds and on ten more seeds.
+
+\card{M5 Century backtest}{spec \texttt{M5\_SPEC.md}; code \texttt{m5\_backtest.py}; out \texttt{results/M5/}}
+\cf{Question} The price of certainty on every curve since 1871, and the plan replayed from 149 start years.
+\cf{Method} M1's pricer on daily (1962+) and month-start (1871+) curves; each start year's yields buy the ladder and
+floor and its returns drive the fund; second view with today's yields and history's returns.
+\cf{Data} Treasury and FRED curves; Shiller long rate (flat curve before 1962); Damodaran, JST, French returns; CPI.
+\cf{Limits} Flat pre-1962 curves overstate cost by a median 0.8\%; a fixed 62\% U.S. weight; annual steps; no fees.
+\cf{Failure mode} reading the history-yield gift (median about \$132,000) as today's outlook.
+\cf{Verification} Gate B (WS3): blind rebuild identical to the cent on 19,685 rows.
+
+\card{M6 Rivals and fund choice}{spec \texttt{M6\_SPEC.md} (switch rule first); code \texttt{m6\_rivals.py}}
+\cf{Question} Does any rival plan, or any alternative to VT, do better on the case's own tests?
+\cf{Method} Same money and payments for eight rivals (all-Treasury, 60/40, ladder + 60/40, glide paths, CPPI $m=3,5$,
+TIPS ladder); history lens (149 start years) and J.P.~Morgan Monte Carlo (200,000 paths); four fund alternatives
+against a pre-registered switch rule.
+\cf{Limits} Lognormal MC without fat tails; gold fixed before 1971 and home prices as a REIT proxy in history.
+\cf{Failure mode} comparing gifts instead of the case's two hard tests; treating a threshold result as a decision.
+\cf{Verification} Gate B (WS3): history to the cent; MC within 0.85\%; gold/REIT on the line in both builds.
+
+\card{M7 Stress}{spec \texttt{M7\_SPEC.md}; code \texttt{m7\_stress.py}; out \texttt{results/M7/}}
+\cf{Question} What bad episodes do to the payments, the floor and the gift; the real value of the payments.
+\cf{Method} Today's curve shifted as in each episode; episode stock returns through the fund; adopted rules
+applied; thresholds solved for a parallel fall; inflation paths from market breakevens, forecasts and history.
+\cf{Limits} Parallel shifts only; foreign episodes in local currency; zero-coupon rungs; payment delays not modelled.
+\cf{Failure mode} reading the Great Depression's high real gift as good news (deflation).
+\cf{Verification} Gate B (WS3): every scenario, threshold and real value reproduced to the cent.
+
+\card{M8 Sensitivity}{spec \texttt{M8\_SPEC.md}; code \texttt{m8\_sensitivity.py}; out \texttt{results/M8/}}
+\cf{Question} Which assumptions move the 2031 range, and which three the IPS must state.
+\cf{Method} Full chain from the Jan 2027 purchase to the 2031 range with M1's pricer; tornado on 200,000 common paths;
+Sobol total-order indices (SALib); pre-registered selection rule.
+\cf{Limits} Inputs independent; uniform ranges for return, volatility and fee are judgements.
+\cf{Verification} Gate B (WS2): same three assumptions, same ranking.
+
+\card{M9 Security selection}{\texttt{rab/trades/M9\_selection.md}; code \texttt{m9\_screen.py}}
+\cf{Question} Which WInS security best fills each slot, with a runner-up.
+\cf{Method} Screen on maturity before the payment, WInS price vs curve (25bp flag), share of cash arriving as coupons
+and delivery if coupons earn 0\% or 2\%, cost, the 2$\times$-daily-volume rule, and the exact WInS name (IBTN in WInS is
+INSCORP Inc, not an iBond).
+\cf{Result} Every \texttt{Portfolio} holding is the best seen in WInS; no order needs splitting; low-coupon 2040 and
+2041 bonds are an upgrade if listed.
+\cf{Verification} Gate C: 490 checks, 0 failures; reproduces \texttt{reinvest.rung.*} exactly.
+\normalsize

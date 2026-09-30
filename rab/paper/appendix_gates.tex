@@ -1,0 +1,56 @@
+% Gate tables, condensed from rab/gates/gate_A.md, gate_B_ws2/ws3/ws4.md, gate_C.md, gate_D.md (30 Sep 2026).
+\small
+Gates follow \texttt{RUN\_PLAN.md} s3: A (data), B (models), C (trade kit), D (red team). Each is go / fix / stop.
+
+\subsection*{Gate A (data): PASS}
+\begin{center}
+\begin{tabular}{lcccc}
+\toprule
+Quantity (28 Sep 2026 curve, MODEL) & Primary & Blind 1 & Blind 2 & Third \\
+\midrule
+Ten payments, Nov-15 STRIPS basis (headline) & \$289,119.20 & \$289,119.20 & \$289,119.20 & \$289,119.20 \\
+Ten payments, exact 1 Jan basis (not buyable) & \$287,016.47 & \$287,016.47 & \$287,016.47 & \$287,016.47 \\
+\texttt{Portfolio} book, incl.\ \$200 commission & \$294,764.50 & \$294,764.50 & \$294,764.50 & \$294,764.50 \\
+\bottomrule
+\end{tabular}
+\end{center}
+Maximum difference \$0.00. Primary vs blind 1: 65 numbers and 8 dates identical. A first-round \$2,102.73 gap was two
+builders reporting different bases; the spec now fixes the headline basis. \texttt{numbers.yaml} locked with a hash
+(\texttt{rab/numbers.lock}); the lock re-runs byte for byte.
+\keys{\nk{laura.ladder.cost_today_strips}, \nk{laura.ladder.value_today_exact}, \nk{wins.portfolio.cost_close_0928}}
+
+\subsection*{Gate B (models): PASS in all three streams}
+\begin{center}
+\begin{tabularx}{\textwidth}{>{\raggedright}p{2.5cm}>{\raggedright}p{3.0cm}>{\raggedright\arraybackslash}X}
+\toprule
+Stream (models) & Rows compared & Result \\
+\midrule
+WS2 (M3, M4, M8) & 307 blind keys; 29 primary headline keys & 53 match, 247 within tolerance, 7 report-only, 0 outside. Decision numbers identical: $s^*$ 0.50/0.47/0.47, floor \$145,000, the same three IPS assumptions. Rule code gives the other build's numbers exactly on its paths. \\
+WS3 (M5, M6, M7) & 278 keys; 19,685 deterministic rows & 204 match, 74 Monte Carlo noise, 0 unreconciled. Deterministic figures to the cent; MC percentiles within 0.85\%, probabilities within 0.16 points. Three reference bugs fixed, none changing a headline. \\
+WS4 (M2) & 115 rows & 94 match, 21 within tolerance, 0 unreconciled. Decision keys within 0.005 points and \$0.00; a third standard-library pricer agrees on all 29 comparisons. \\
+\bottomrule
+\end{tabularx}
+\end{center}
+Tolerances were fixed in advance: range ends $\pm$2\%, probabilities $\pm$2 points. Records:
+\texttt{rab/gates/gate\_B\_ws2.md}, \texttt{gate\_B\_ws3.md}, \texttt{gate\_B\_ws4.md}.
+
+\subsection*{Gate C (trade kit): PASS for the kit}
+490 automated checks, 0 failures; 18 \UNV{} (WInS name strings not yet seen), 16 conditional, 31 stale (the live
+Sheet tab, to be rewritten before Friday). Checks: note length ($\le$300 characters; longest exemplar 294), exact
+ticker names (no IBTN), cash never negative in the order sequence (lowest worst case \$2,445.28 for the
+\texttt{Portfolio} book), every order at most 1.2\% of the 2$\times$-volume limit, every number traced to
+\texttt{numbers.yaml}; the kit rebuilds byte-identical. Record: \texttt{rab/gates/gate\_C.md}.
+
+\subsection*{Gate D (red team): PASS}
+Four red-team reports (three-judge panel, devil's advocate, key-assumptions challenge, fact audit) gave 56 items,
+43 after de-duplication: \textbf{17 fixed, 25 deferred with an owner and a deadline, 1 rejected}. Every fix is
+wording, sequencing, tooling or evidence; the strategy is unchanged. The most important deferred items:
+\begin{itemize}
+  \item the coupon-shortfall owner chain must end inside the portfolio, never in ``her own money'' (decide with D6, 26 Oct);
+  \item the definition of ``a high degree of certainty'' (now drafted in \texttt{D\_certainty\_definition.md}; by 20 Oct);
+  \item the IPS word budget: about 40--50 words of edits against 17 spare (ledger with paired cuts);
+  \item D6 ``keep half'' re-run with costs charged to the stock fund (before 26 Oct);
+  \item the October trigger that would sell VT after a fall (decide by 14 Oct).
+\end{itemize}
+Record: \texttt{rab/gates/gate\_D.md}, \texttt{rab/redteam/triage.md}.
+\normalsize
