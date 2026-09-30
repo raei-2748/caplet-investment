@@ -4,7 +4,9 @@ Reads only files already produced and reconciled at Gate B (rab/gates/gate_B_ws2
 rab/results/M3, M4, M8, the blind rebuild in rab/verification/blind_ws2/out, and the Gate B check outputs. No model is
 re-run here. For every entry the primary value is `value` and, where the blind build has the same quantity, the
 blind value is `blind` with a verdict against the Gate B tolerances (dollars +-2%, probabilities +-2 points,
-shares 0.02). Entries marked DERIVED are simple arithmetic on reconciled keys.
+shares 0.02). Entries marked DERIVED are simple arithmetic on reconciled keys. The two ws2.d6.ladder_gap* entries
+come from rab/models/m4_ladder_gap.py, which runs the primary and the blind build side by side (a sensitivity added
+after Gate B for WS7's red-team challenge; recorded in rab/gates/gate_B_ws2.md s9).
 
 Run from the worktree root:  /Users/ray/Research/rab-ws/.venv/bin/python rab/models/build_numbers_ws2.py
 """
@@ -178,6 +180,64 @@ def main():
         source="rab/results/M4/rule_sensitivity.csv",
         gate_b=worst([gb(f"M4.rule_sensitivity.thr{k}_conf{c}") for k in (0.05, 0.1, 0.15, 0.2)
                       for c in (0.9, 0.95, 0.99)]))
+
+    # D6 under a Book L coupon-reinvestment gap charged to Laura's kept money (rab/models/m4_ladder_gap.py; both
+    # builds computed in one run: primary code + paths, blind code + paths). Sensitivity, not pre-registered.
+    lg = pd.read_csv(RES / "M4" / "ladder_gap.csv")
+    lgr = pd.read_csv(RES / "M4" / "ladder_gap_robust.csv")
+    lgt = pd.read_csv(RES / "M4" / "ladder_gap_tolerance.csv")
+    nan2none = lambda x: None if pd.isna(x) else float(x)
+    val, vs = {}, []
+    for sc in lgr["scenario"].unique():
+        rp = lgr[(lgr["build"] == "primary") & (lgr["scenario"] == sc)].iloc[0]
+        rb = lgr[(lgr["build"] == "blind") & (lgr["scenario"] == sc)].iloc[0]
+        sp, sb = nan2none(rp["s_star_robust"]), nan2none(rb["s_star_robust"])
+        vs.append("MATCH" if sp == sb else ("OUTSIDE TOL" if sp is None or sb is None else verdict(sp, sb, "share")))
+        ph = {m: p4(lg[(lg["build"] == "primary") & (lg["scenario"] == sc) & (lg["model"] == m)]["P_keep10_half"]
+                    .iloc[0]) for m in MODELS}
+        bh = {m: p4(lg[(lg["build"] == "blind") & (lg["scenario"] == sc) & (lg["model"] == m)]["P_keep10_half"]
+                    .iloc[0]) for m in MODELS}
+        vs += [verdict(ph[m], bh[m], "prob") for m in MODELS]
+        pick = lambda b, col: {m: p4(lg[(lg["build"] == b) & (lg["scenario"] == sc) & (lg["model"] == m)][col]
+                                     .iloc[0]) for m in MODELS}
+        pn, bn = pick("primary", "P_kept_negative_half"), pick("blind", "P_kept_negative_half")
+        pa, ba = (pick("primary", "P_gift_below_A_payments_first_half"),
+                  pick("blind", "P_gift_below_A_payments_first_half"))
+        vs += [verdict(pn[m], bn[m], "prob") for m in MODELS] + [verdict(pa[m], ba[m], "prob") for m in MODELS]
+        gap = float(lg[lg["scenario"] == sc]["gap_pv_2033"].iloc[0])
+        rec = pr7(sp)
+        val[sc] = dict(gap_valued_1jan2033=r0(gap), s_star_robust=sp,
+                       pr7_recommends=None if rec is None else round(rec, 4),
+                       P_keep10_at_half=ph, P_kept_negative_at_half=pn, P_gift_below_145k_payments_first_at_half=pa,
+                       blind_s_star_robust=sb, blind_P_keep10_at_half=bh, blind_P_kept_negative_at_half=bn,
+                       blind_P_gift_below_145k_payments_first_at_half=ba)
+    checks.append(("ladder-gap sensitivity primary vs blind", worst(vs)))
+    n["ws2.d6.ladder_gap"] = dict(
+        value=val, unit="USD valued 1 Jan 2033 / share / probability",
+        quote_as="if Laura's real ladder is the WInS-listed Book L and its coupons are reinvested at today's yields, "
+                 "the gap is about $1,600 and the rule still keeps half; at yields 2 points lower the gap is about "
+                 "$18,000 and no share passes, not even zero; the gift falls below $145,000 (payments first) at most "
+                 "about 1 time in 300 at that level, 1-3% of paths if coupons earn 2%, about 1 in 3 at 0% (MODEL)",
+        what="D6 rule (PR-4, PR-5, PR-7) with K replaced by K minus the Book L rung gaps (numbers.yaml reinvest.rung.*, "
+             "sum of max(0, 50,000 - delivered), valued 1 Jan 2033 at 5% / 3% / 2% / 0%). Not pre-registered: M4_SPEC "
+             "K has no ladder term because the headline STRIPS basis has no coupons (laura.ladder.strips_reinvestment). "
+             "Re-derives WS7's red-team check [1] (rab/redteam/ws7_devils_advocate_checks.py, 913c4f1 on rab/ws7). "
+             "payments_first: the ten payments have priority, so any gap the kept money cannot cover cuts the gift.",
+        source="rab/results/M4/ladder_gap.csv and ladder_gap_robust.csv (rab/models/m4_ladder_gap.py)",
+        gate_b=f"{worst(vs)} (primary vs blind in the same run; primary also equals WS7's output line for line)")
+
+    tp = lgt[lgt["build"] == "primary"].groupby("s")["max_gap_pv_2033"].min()
+    tb = lgt[lgt["build"] == "blind"].groupby("s")["max_gap_pv_2033"].min()
+    tv = [verdict(tp[s], tb[s], "usd") for s in tp.index]
+    checks.append(("ladder-gap tolerance primary vs blind", worst(tv)))
+    n["ws2.d6.ladder_gap_tolerance"] = dict(
+        value={f"s={s:.2f}": r0(tp[s]) for s in tp.index}, blind={f"s={s:.2f}": r0(tb[s]) for s in tb.index},
+        unit="USD valued 1 Jan 2033 (largest ladder gap with P(K - gap >= 10% of gift) >= 95% in all three models)",
+        quote_as="the rule still keeps half if the ladder gap is under about $2,400 (valued 2033); no share passes "
+                 "once it is above about $15,000 (MODEL)",
+        what="s = 0.40 is the smallest robust s* at which PR-7 still keeps half; s = 0.50 is negative because half "
+             "passes PR-5 only under T (it is kept by PR-7's 0.40-0.60 band, not by passing in every model)",
+        source="rab/results/M4/ladder_gap_tolerance.csv (rab/models/m4_ladder_gap.py)", gate_b=worst(tv))
 
     # ------------------------------------------------------------------ 2031 range: stated confidence
     within = {m: float(m3.loc[m, "P_G_within_range"]) for m in m3.index}

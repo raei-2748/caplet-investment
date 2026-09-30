@@ -266,3 +266,20 @@ These are the cards' stated limits. WS7 should challenge them.
     (one curve, the stylised floor), which the two builds cannot test against each other.
   - The D6 numbers above are reconciled on the spec's basis. Whether that basis is the right one for Book L is WS7's
     item at Gate D. It is not reopened here, and the strategy is unchanged.
+
+## 9. Coupon check for WS7's challenge (30 Sep, after s8)
+
+- **What was added.** `rab/models/m4_ladder_gap.py` (make target `m4-gap`). It is a sensitivity, not part of the
+  pre-registered rule. It reruns the D6 rule with Laura's kept money reduced by the Book L rung gaps
+  (`numbers.yaml` `reinvest.rung.*`), on both builds in one run: primary code and paths, and blind code and paths.
+  Outputs: `rab/results/M4/ladder_gap*.csv` and `ladder_gap_log.txt`. Keys: `ws2.d6.ladder_gap` and
+  `ws2.d6.ladder_gap_tolerance` in `rab/numbers_ws2.yaml`.
+- **Reconciliation.** The primary rows equal WS7's output (913c4f1) line for line. Primary against blind is WITHIN TOL
+  on every probability. The robust share is the same in every scenario (0.47 / 0.42 / none / none / none). The
+  tolerances are within 1.4%. The only split is T at yields 2 points lower and share 0: 94.9% against 95.0%, a
+  knife-edge on the 95% line. Both builds still give "none" as the robust share, because BOOT and BAYES fail.
+- **Result.** Under rule reading R1, Laura's real ladder is Book L. At today's yields the gap is about $1,613 (valued
+  1 Jan 2033), and PR-7 still keeps half (robust 0.42). Half survives gaps up to about $2,352. At yields 2 points
+  lower no share passes. Decision memos updated; the strategy and the D6 decision are unchanged. The coupon fix stays
+  the Gate A / Gate D item.
+- Every earlier output is unchanged: the new script writes only new files. `numbers.yaml` is still `492ed320...`.
