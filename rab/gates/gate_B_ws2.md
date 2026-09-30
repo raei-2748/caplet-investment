@@ -246,3 +246,23 @@ These are the cards' stated limits. WS7 should challenge them.
 - **Rerun from the worktree root:** `make -f rab/models/ws2.mk all` (about 1 minute), then
   `/Users/ray/Research/rab-ws/.venv/bin/python rab/verification/gateB_ws2/gateB_ws2_checks.py` (about 20 s). The
   check needs the blind paths; `rab/verification/blind_ws2/run_all.sh` regenerates them.
+
+## 8. Re-check after the merge (30 Sep, 14:28 AEST)
+
+- **The verdict still holds: PASS, 0 UNRECONCILED.**
+  - `make -f rab/models/ws2.mk all` was rerun. Every output was byte-identical; only the three run-log time stamps
+    changed, and those were reverted.
+  - `gateB_ws2_checks.py` was rerun on the moved blind folder. All six outputs were byte-identical; only the log time
+    stamp changed.
+  - The WS2 files on `rab/integration` match `rab/ws2` (ac258db).
+  - `numbers.yaml` is still `492ed320...`.
+- **A red-team challenge that Gate B cannot settle (for Gate D, not a discrepancy).**
+  - WS7 (`rab/redteam/ws7_devils_advocate_checks.py` [1], commit 913c4f1 on rab/ws7) reran the primary M4 code. It
+    took the Book L coupon-reinvestment shortfall (`numbers.yaml` `reinvest.rung.*`) out of Laura's kept money.
+  - Its "as run" rows reproduce the primary exactly, because they use the same code (T s* 0.50, 95.3%; BOOT 0.47,
+    93.6%).
+  - With the shortfall at today's yields minus 2 points, no share passes PR-5, not even share 0 (T 94.9%).
+  - This is a different question from M4_SPEC, whose K has no ladder term. It is one of the shared assumptions in s6
+    (one curve, the stylised floor), which the two builds cannot test against each other.
+  - The D6 numbers above are reconciled on the spec's basis. Whether that basis is the right one for Book L is WS7's
+    item at Gate D. It is not reopened here, and the strategy is unchanged.
