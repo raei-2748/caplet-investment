@@ -1,0 +1,49 @@
+[1] D6 share sweep, adopted owner C (Laura's part first, top lowered in 2031 by what it cannot cover)
+  Book L, today's yields (gap valued 1 Jan 2031 $1,463)
+    T     s=0.00 keep10 100.0% E[G] $149.0k Kp5 $31.2k G<145k 0.00% | s=0.25 keep10 99.5% E[G] $161.6k Kp5 $23.1k G<145k 0.00% | s=0.33 keep10 98.7% E[G] $165.8k Kp5 $20.5k G<145k 0.00% | s=0.40 keep10 97.4% E[G] $169.2k Kp5 $18.3k G<145k 0.00% | s=0.42 keep10 96.8% E[G] $170.2k Kp5 $17.7k G<145k 0.00% | s=0.50 keep10 92.2% E[G] $174.2k Kp5 $15.1k G<145k 0.00% | s=0.67 keep10 65.0% E[G] $182.6k Kp5 $9.7k G<145k 0.00%
+    BOOT  s=0.00 keep10 99.4% E[G] $149.0k Kp5 $28.7k G<145k 0.00% | s=0.25 keep10 98.2% E[G] $161.6k Kp5 $21.3k G<145k 0.00% | s=0.33 keep10 97.2% E[G] $165.8k Kp5 $18.8k G<145k 0.00% | s=0.40 keep10 95.7% E[G] $169.1k Kp5 $16.8k G<145k 0.00% | s=0.42 keep10 95.1% E[G] $170.1k Kp5 $16.2k G<145k 0.00% | s=0.50 keep10 90.5% E[G] $174.1k Kp5 $13.9k G<145k 0.00% | s=0.67 keep10 66.2% E[G] $182.5k Kp5 $8.9k G<145k 0.00%
+    BAYES s=0.00 keep10 99.9% E[G] $149.0k Kp5 $28.9k G<145k 0.00% | s=0.25 keep10 99.1% E[G] $161.7k Kp5 $21.4k G<145k 0.00% | s=0.33 keep10 98.0% E[G] $165.8k Kp5 $18.9k G<145k 0.00% | s=0.40 keep10 96.0% E[G] $169.2k Kp5 $16.9k G<145k 0.00% | s=0.42 keep10 95.1% E[G] $170.2k Kp5 $16.3k G<145k 0.00% | s=0.50 keep10 89.6% E[G] $174.2k Kp5 $13.9k G<145k 0.00% | s=0.67 keep10 63.2% E[G] $182.6k Kp5 $8.8k G<145k 0.00%
+  Book L, today's yields - 2 points (gap valued 1 Jan 2031 $16,969)
+    T     s=0.00 keep10 94.9% E[G] $149.0k Kp5 $14.8k G<145k 0.01% | s=0.25 keep10 78.6% E[G] $161.6k Kp5 $6.7k G<145k 0.01% | s=0.33 keep10 67.8% E[G] $165.8k Kp5 $4.1k G<145k 0.01% | s=0.40 keep10 57.6% E[G] $169.1k Kp5 $2.1k G<145k 0.01% | s=0.42 keep10 54.4% E[G] $170.1k Kp5 $1.5k G<145k 0.01% | s=0.50 keep10 41.6% E[G] $173.9k Kp5 $0.0k G<145k 0.00% | s=0.67 keep10 20.7% E[G] $180.7k Kp5 $0.0k G<145k 0.00%
+    BOOT  s=0.00 keep10 93.0% E[G] $149.0k Kp5 $12.3k G<145k 0.42% | s=0.25 keep10 77.8% E[G] $161.5k Kp5 $4.9k G<145k 0.40% | s=0.33 keep10 68.6% E[G] $165.6k Kp5 $2.6k G<145k 0.38% | s=0.40 keep10 59.8% E[G] $168.9k Kp5 $0.8k G<145k 0.36% | s=0.42 keep10 56.9% E[G] $169.9k Kp5 $0.3k G<145k 0.36% | s=0.50 keep10 45.2% E[G] $173.7k Kp5 $0.0k G<145k 0.31% | s=0.67 keep10 24.7% E[G] $180.4k Kp5 $0.0k G<145k 0.16%
+    BAYES s=0.00 keep10 92.8% E[G] $149.0k Kp5 $12.5k G<145k 0.03% | s=0.25 keep10 75.5% E[G] $161.6k Kp5 $5.0k G<145k 0.03% | s=0.33 keep10 65.7% E[G] $165.8k Kp5 $2.6k G<145k 0.02% | s=0.40 keep10 56.8% E[G] $169.1k Kp5 $0.7k G<145k 0.02% | s=0.42 keep10 54.0% E[G] $170.0k Kp5 $0.2k G<145k 0.02% | s=0.50 keep10 42.8% E[G] $173.9k Kp5 $0.0k G<145k 0.01% | s=0.67 keep10 24.3% E[G] $180.5k Kp5 $0.0k G<145k 0.00%
+  Book L, 2% (gap valued 1 Jan 2031 $29,309)
+    T     s=0.00 keep10 76.4% E[G] $148.9k Kp5 $2.6k G<145k 1.75% | s=0.25 keep10 46.2% E[G] $160.7k Kp5 $0.0k G<145k 1.56% | s=0.33 keep10 35.3% E[G] $164.1k Kp5 $0.0k G<145k 1.43% | s=0.40 keep10 27.7% E[G] $166.5k Kp5 $0.0k G<145k 1.28% | s=0.42 keep10 25.7% E[G] $167.1k Kp5 $0.0k G<145k 1.23% | s=0.50 keep10 19.1% E[G] $169.0k Kp5 $0.0k G<145k 1.05% | s=0.67 keep10 11.5% E[G] $170.7k Kp5 $0.0k G<145k 0.77%
+    BOOT  s=0.00 keep10 75.7% E[G] $148.7k Kp5 $0.5k G<145k 3.50% | s=0.25 keep10 49.4% E[G] $160.4k Kp5 $0.0k G<145k 3.22% | s=0.33 keep10 39.3% E[G] $163.8k Kp5 $0.0k G<145k 3.07% | s=0.40 keep10 31.8% E[G] $166.2k Kp5 $0.0k G<145k 2.93% | s=0.42 keep10 29.8% E[G] $166.8k Kp5 $0.0k G<145k 2.88% | s=0.50 keep10 22.8% E[G] $168.9k Kp5 $0.0k G<145k 2.64% | s=0.67 keep10 14.2% E[G] $170.8k Kp5 $0.0k G<145k 2.01%
+    BAYES s=0.00 keep10 73.3% E[G] $148.8k Kp5 $0.6k G<145k 2.66% | s=0.25 keep10 46.9% E[G] $160.4k Kp5 $0.0k G<145k 2.34% | s=0.33 keep10 37.5% E[G] $163.8k Kp5 $0.0k G<145k 2.09% | s=0.40 keep10 30.8% E[G] $166.1k Kp5 $0.0k G<145k 1.86% | s=0.42 keep10 29.0% E[G] $166.7k Kp5 $0.0k G<145k 1.79% | s=0.50 keep10 22.8% E[G] $168.7k Kp5 $0.0k G<145k 1.58% | s=0.67 keep10 14.8% E[G] $170.8k Kp5 $0.0k G<145k 1.10%
+
+[2] D6 robust share s* (PR-4/PR-5, grid 0.01) with yearly costs f x $465k paid from the stock fund, 2028-33
+  none (STRIPS basis, M4 a f=0.00%: T s*=0.5 keep10@half=95.3% | BOOT s*=0.47 keep10@half=93.6% | BAYES s*=0.47 keep10@half=93.2%
+  none (STRIPS basis, M4 a f=0.05%: T s*=0.48 keep10@half=94.1% | BOOT s*=0.44 keep10@half=92.4% | BAYES s*=0.44 keep10@half=91.8%
+  none (STRIPS basis, M4 a f=0.10%: T s*=0.46 keep10@half=92.7% | BOOT s*=0.42 keep10@half=91.1% | BAYES s*=0.42 keep10@half=90.2%
+  none (STRIPS basis, M4 a f=0.25%: T s*=0.38 keep10@half=87.5% | BOOT s*=0.33 keep10@half=86.0% | BAYES s*=0.33 keep10@half=84.5%
+  none (STRIPS basis, M4 a f=0.50%: T s*=0.2 keep10@half=75.3% | BOOT s*=0.09 keep10@half=75.4% | BAYES s*=0.11 keep10@half=72.7%
+  none (STRIPS basis, M4 a f=1.00%: T s*=None keep10@half=46.9% | BOOT s*=None keep10@half=50.5% | BAYES s*=None keep10@half=48.0%
+  Book L, today's yields   f=0.00%: T s*=0.45 keep10@half=92.2% | BOOT s*=0.42 keep10@half=90.5% | BAYES s*=0.42 keep10@half=89.6%
+  Book L, today's yields   f=0.05%: T s*=0.43 keep10@half=90.5% | BOOT s*=0.39 keep10@half=88.9% | BAYES s*=0.39 keep10@half=87.8%
+  Book L, today's yields   f=0.10%: T s*=0.41 keep10@half=88.8% | BOOT s*=0.37 keep10@half=87.2% | BAYES s*=0.37 keep10@half=85.8%
+  Book L, today's yields   f=0.25%: T s*=0.33 keep10@half=82.2% | BOOT s*=0.27 keep10@half=81.3% | BAYES s*=0.27 keep10@half=79.2%
+  Book L, today's yields   f=0.50%: T s*=0.12 keep10@half=68.8% | BOOT s*=0.01 keep10@half=69.8% | BAYES s*=0.03 keep10@half=66.9%
+  Book L, today's yields   f=1.00%: T s*=None keep10@half=41.0% | BOOT s*=None keep10@half=44.8% | BAYES s*=None keep10@half=42.8%
+
+[3]/[4] Coupon reinvestment: rung by rung vs pooled dedicated reserve (same ten holdings, 28 Sep prices)
+  Book L as sized $292,739 (check: + reinvest.bookL_buffer_cost at 2% = $313,138); resized to $50,000/rung at forwards $289,001
+  cash earns 4.0%: rung by rung $299,595 (+10,594) | pooled LP $294,248 (+5,247) | pooled LP keeping >= half of every dated rung $295,185 (+6,184)
+  cash earns 3.0%: rung by rung $306,412 (+17,412) | pooled LP $297,878 (+8,877) | pooled LP keeping >= half of every dated rung $299,364 (+10,363)
+  cash earns 2.5%: rung by rung $309,787 (+20,787) | pooled LP $299,668 (+10,668) | pooled LP keeping >= half of every dated rung $301,407 (+12,407)
+  cash earns 2.0%: rung by rung $313,138 (+24,138) | pooled LP $301,444 (+12,443) | pooled LP keeping >= half of every dated rung $303,420 (+14,419)
+     free LP holdings at 2% ($ cost): IBTM 0, IBTO 0, IBTP 27,158, IBTQ 35,361, IBTR 36,844, T 4.750% 39,944, T 4.500% 41,264, T 4.375% 41,301, T 4.250% 42,086, T 3.125% 37,485
+  cash earns 0.0%: rung by rung $326,288 (+37,288) | pooled LP $308,388 (+19,387) | pooled LP keeping >= half of every dated rung $311,239 (+22,239)
+  free LP fits $300,000 at 28 Sep prices if cash earns >= 2.41%; fits $300,000/1.011 (1 Jan 2027 forward roll) if >= 3.32%
+  [4] Book L as sized: cash 5% to 2033 then 3%: extra reserve needed on 1 Jan 2033 $13,611
+  [4] Book L as sized: cash 5% to 2033 then 2%: extra reserve needed on 1 Jan 2033 $21,230
+  [4] Book L as sized: cash 5% to 2033 then 0%: extra reserve needed on 1 Jan 2033 $38,257
+  [4] resized to $50,000/rung at forwards: cash 5% to 2033 then 3%: extra reserve needed on 1 Jan 2033 $19,279
+  [4] resized to $50,000/rung at forwards: cash 5% to 2033 then 2%: extra reserve needed on 1 Jan 2033 $27,150
+  [4] resized to $50,000/rung at forwards: cash 5% to 2033 then 0%: extra reserve needed on 1 Jan 2033 $44,737
+
+[5] IBTR test: falls in the average 5/7/10/20-year par yield larger than the 28 Sep break-even (26.2bp)
+  2026: 3-session changes sd 7.2bp; falls > 26.2bp 0.00% of 183
+  2026: 9-session changes sd 11.2bp; falls > 26.2bp 0.00% of 177
+  2000-2026: 3-session changes sd 9.6bp; falls > 26.2bp 0.82% of 6684
+  2000-2026: 9-session changes sd 16.2bp; falls > 26.2bp 4.61% of 6678
