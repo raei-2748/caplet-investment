@@ -10,6 +10,7 @@ Report's Works Cited. Log every file below in the team's AI-use record (date, to
 | File | What it is | Basis |
 |---|---|---|
 | `01_Caplet_Team_Brief_15Oct2026.pdf` (+ `.md`) | **Start here.** 19-page team brief: the list of instructions and nuances first, then the reasons. Covers the TNA picks, the IPS V5 problems, WInS checks, the AI-use record, privacy, and the calendar to 4 Dec. | Repo at commit `2affd4c` (14 Oct); market data to 14 Oct close |
+| `04_North_Star_Memo_16Oct2026.md` | Ray's tips (simplicity, coherence, growth, creativity, audience) checked against Wharton's FAQ and rubric. The one idea and its system, a rule budget for the IPS, what is genuinely creative, what Wharton students and professionals recognise (Penn course catalog), the growth story to curate, judge questions, and decisions for vote set A. | Repo at commit `6144dd7`; sources read 16 Oct |
 | `02_Caplet_Team_Brief_1Oct2026.pdf` | 3-page brief sent before the first trades. Superseded by the 15 Oct brief; kept for the record. | 30 Sep repo, 29 Sep curve |
 | `03_Repo_Review_30Sep2026.md` | The first full repo review (plan, numbers checked independently, risks, judge questions). Parts are superseded by the 6 Oct Wharton email (WInS-listed securities only, so STRIPS numbers no longer apply). | 30 Sep repo |
 | `supporting/tna_review_merged_14Oct.md` | Three simulated-judge reviews of the WInS trade notes, merged. Picks and swap rules; no drafted reflections. | 14 Oct |

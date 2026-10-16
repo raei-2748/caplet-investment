@@ -14,6 +14,9 @@ decision, deadline or open item changes, and commit it with the related change. 
 - Only Ray places/cancels WInS orders (7 Oct mis-click incident). Scheduled checks: `ops/routines/`.
 - Team exports in `team/google_drive/` are snapshots; the Google Docs are the live copies.
 - Assistant review 30 Sep-15 Oct: research/assistant_review_2026-10/ (AI-generated research, not for submission; start with its README and the 15 Oct team brief PDF).
+- 16 Oct North Star memo (`research/assistant_review_2026-10/04_North_Star_Memo_16Oct2026.md`): one idea ("commit only
+  money she already owns"), one fact, one rule, one picture; IPS rule budget of 3 rules + 1 trade-off; curate, don't
+  decorate, the growth story; adds word-list, name and "promise" decisions to vote set A (Sun 18 Oct), before the TNA.
 
 ## Working rules (from the team leader)
 - Use only exact official Wharton materials and verified sources. No fictional clients, rules, rosters or data.
