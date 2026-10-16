@@ -8,3 +8,4 @@
 | `JPM_LTCMA_2026_US_matrix_USD.pdf` | J.P. Morgan Asset Management 2026 LTCMA, USD assumption matrix | data as of 2025-09-30 |
 
 Calculations from these files: `research/verified_2026-09-27/official_curve_pv.py`.
+- `daily-treasury-rates_2026-10.csv`: treasury.gov daily par yield curve, October 2026 (downloaded 16 Oct 2026; latest row 15 Oct).
