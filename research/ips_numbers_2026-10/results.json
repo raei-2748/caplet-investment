@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "curve_date": "2026-10-15",
+    "paths": 200000,
+    "seed": 20261016,
+    "rate_vol_pp_per_yr": 1.0,
+    "equity": "VT ~ lognormal, 7.00% compound, 16.78% vol (JPM 2026 LTCMA AC World), minus 0.06% fee",
+    "basis": "MODEL; par yields used as zero rates; rates and stocks independent"
+  },
+  "ladder_cost_1jan2027_today_curve": 295924,
+  "ladder_cost_bootstrap_headline": {
+    "2026-10-15": {
+      "cost": 294453,
+      "headroom": 5547
+    },
+    "2026-10-14": {
+      "cost": 291750,
+      "headroom": 8250
+    },
+    "2026-10-13": {
+      "cost": 290985,
+      "headroom": 9015
+    },
+    "2026-10-09": {
+      "cost": 289893,
+      "headroom": 10107
+    },
+    "2026-10-08": {
+      "cost": 290349,
+      "headroom": 9651
+    }
+  },
+  "ladder_headroom": 4076,
+  "ladder_headroom_bp": 13.4,
+  "p_ladder_over_300k_on_1jan2027": 0.352,
+  "ladder_delivery_p5_p50": [
+    474524,
+    500309
+  ],
+  "ladder_shortfall": {
+    "p_any_over_1k": 0.471,
+    "p50": 0,
+    "p95": 25476,
+    "p99": 33189
+  },
+  "per_rung_p5_p50": {
+    "2033": [
+      "IBTM",
+      49273,
+      50001
+    ],
+    "2034": [
+      "IBTO",
+      48981,
+      50003
+    ],
+    "2035": [
+      "IBTP",
+      48637,
+      50006
+    ],
+    "2036": [
+      "IBTQ",
+      48242,
+      50011
+    ],
+    "2037": [
+      "IBTR",
+      47795,
+      50017
+    ],
+    "2038": [
+      "T 4.75% Feb-2037",
+      46489,
+      50019
+    ],
+    "2039": [
+      "T 4.50% May-2038",
+      46384,
+      50033
+    ],
+    "2040": [
+      "T 4.375% Nov-2039",
+      46444,
+      50050
+    ],
+    "2041": [
+      "T 4.25% Nov-2040",
+      45941,
+      50065
+    ],
+    "2042": [
+      "T 3.125% Nov-2041",
+      46047,
+      50074
+    ]
+  },
+  "ladder_delivery_if_rates_fall_and_stay": {
+    "+0pp": 500000,
+    "-1pp": 489036,
+    "-2pp": 478793,
+    "-3pp": 469215,
+    "-4.5pp": 456426
+  },
+  "stock_fund_2jan2028": {
+    "p5": 20417,
+    "p50": 32296,
+    "p95": 42654
+  },
+  "floor_paid": {
+    "p1": 119792,
+    "p5": 130738,
+    "p50": 149453
+  },
+  "p_floor_remainder_below_150k": 0.352,
+  "range_2031": {
+    "bottom_p50": 145000,
+    "bottom_mode_share_145k": 0.679,
+    "top_p5": 144816,
+    "top_p50": 167819,
+    "top_p95": 183931,
+    "width_p50": 24781
+  },
+  "gift_2033": {
+    "p5": 142387,
+    "p50": 167001,
+    "p95": 182986,
+    "mean": 165693
+  },
+  "p_gift_inside_range": 0.9941,
+  "p_gift_at_top_within_1k": 0.761,
+  "p_gift_below_middle": 0.0194,
+  "p_floor_holding_pays_below_bottom": 0.0,
+  "p_shortfall_needs_gift_above_floor": 0.0568,
+  "post2033_shortfall": {
+    "p95": 5535,
+    "p99": 7234,
+    "p_exceeds_what_laura_kept": 0.063,
+    "p_exceeds_kept_if_kept_in_VT_to_2042": 0.0561,
+    "median_uncovered_when_it_happens": 3150
+  },
+  "floor_paid_vs_remainder": {
+    "p1": 0.987,
+    "p50": 1.0
+  },
+  "p_payment_needs_more_than_kept_half_and_leftover_total": 0.0708,
+  "laura_kept_2033": {
+    "p5": 0,
+    "p50": 27860
+  },
+  "allocation_jan2028_typical": {
+    "payment_treasuries": 0.668,
+    "floor_treasury_IBTM": 0.246,
+    "leftover_treasury": 0.009,
+    "VT": 0.069,
+    "total": 464875
+  },
+  "history_replay": {
+    "start_months": 701,
+    "p_shortfall_over_1k": 0.484,
+    "worst_shortfall": 38670,
+    "p95_shortfall": 22300,
+    "worst_start": "1984-06-01"
+  }
+}

@@ -1,7 +1,7 @@
 # Team Caplet: project memory
 
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
-decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-14.
+decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-16.
 
 ## Current status (2026-10-14) - read this before the older sections below
 - Full rules, dates, formats, portfolio and open items: `COMPETITION.md` (single source of truth). Onboarding: `START_HERE.md`.
@@ -10,6 +10,10 @@ decision, deadline or open item changes, and commit it with the related change. 
 - 6 Oct Wharton email: Laura's real plan may use only WInS-listed stocks, ETFs and Treasury bonds. STRIPS-based
   numbers below and in `research/insight_v1/` are superseded (banners added). The floor is IBTM.
 - IPS latest draft = Google Doc "IPS Report" tab "Version 5" (export in `team/google_drive/ips_report/`).
+- IPS numbers rebuilt 16 Oct on the 15 Oct curve: `research/ips_numbers_2026-10/IPS_number_sheet.md`. Ladder ~$294k
+  (headroom ~$5.5k, over $300k on 1 Jan 2027 in ~1 in 3); range ~$145k-$168k; gift inside ~99%; coupon-reinvestment
+  shortfall ~$21k if yields fall 2pt for good, not covered by what Laura kept in ~6-7% of paths. TEAM DECISION before
+  6 Nov: state the risk / keep Laura's half to 2042 / hold a buffer from the 2028 deposit.
 - Next: TNA due 23 Oct ET (Sat 24 Oct 08:00 AEDT); IPS + trading freeze 6 Nov; Final Report 4 Dec.
 - Only Ray places/cancels WInS orders (7 Oct mis-click incident). Scheduled checks: `ops/routines/`.
 - Team exports in `team/google_drive/` are snapshots; the Google Docs are the live copies.
@@ -20,21 +24,20 @@ decision, deadline or open item changes, and commit it with the related change. 
 - Research online and verify facts; cite URL + date. Network access was widened on 2026-09-27: primary sites load
   with curl, but the WebFetch tool is still blocked, so read pages with
   `.venv/bin/python research/insight_v1/scripts/fetch_text.py URL [--grep "exact phrase"]`.
-- Do NOT write the Trading Notes, IPS or Final Report. The team wants knowledge: numbers, models, devil's advocate,
-  trade checks, research/fact-checking. Wharton AI policy: AI for brainstorming; AI-generated work may not be
-  submitted as the students' own and must be cited.
+- Deliverable edits (Ray, 2026-10-16; replaces the old "do not write the deliverables" rule): the assistant may edit
+  the IPS, Trading Notes and Final Report, but only as Google Docs SUGGESTIONS (suggest mode, never direct edits),
+  each labelled "[AI]" so the team can see, accept or reject it. Log every AI edit in `docs/AI_USE.md`; the team
+  records accepted AI wording in the Final Report's Works Cited (Wharton fact: any AI use must be cited there).
 - Goal: top priority is reaching the Top 50 semifinals (chosen on the written Trading Notes, IPS and Final Report);
-  the finale comes later. Keep deliverables plain-English (judges reward simple, elegant ideas). Semis-first does not
-  change the rule that the team writes the deliverables; the assistant reviews drafts, checks trades and numbers.
+  the finale comes later. Keep deliverables plain-English (judges reward simple, elegant ideas).
 - Repo is public; the team leader accepted putting competition materials in it. Do not commit student personal data
   (surnames, emails, birthdays) or rankings of teammates.
 
 ## Mandate (Ray, 2026-09-27)
 The assistant has freedom to make decisions and choose its workflow, sticking tightly to the competition and the
 materials provided, asking when information is needed, with the goal of reaching the semifinals. Everything that is
-sent to the judges must be approved by the team. Assistant outputs are for inspiration and research; the team does
-not submit them as they are. Deliverable help = blueprints (content, arguments, verified numbers, checklists) and
-draft reviews, not submission-ready prose.
+sent to the judges must be approved by the team. Deliverable help = verified numbers, checks, draft reviews and,
+since 2026-10-16, labelled "[AI]" Google Docs suggestions that the team accepts or rejects.
 
 ## Team
 Lessons from 2025-26 (Ray, no feedback received): strategy packaging was over-complex for the insight; the team traded

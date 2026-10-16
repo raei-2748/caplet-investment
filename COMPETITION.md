@@ -139,8 +139,9 @@ school website. (Personal details are deliberately not stored in this public rep
 
 - Wharton: AI may be used for brainstorming. AI-generated work may not be submitted as the students' own; any AI
   use must be recorded in the Final Report's Works Cited. Students use their own voice and words.
-- So in this repo, everything AI-made is research, numbers, checks and blueprints. **The team writes every
-  deliverable.** Files in `team/ai_outputs/` are labelled "AI, not for submission".
+- Since 16 Oct (Ray's decision): Claude may edit the IPS, Trading Notes and Final Report, but only as Google Docs
+  **suggestions labelled "[AI]"**. The team accepts or rejects each one, and accepted AI wording goes in Works Cited.
+  Files in `team/ai_outputs/` are labelled "AI, not for submission".
 - Log AI use as you go: `research/insight_v1/AI_USE*` and the AI-use rows in the team sheet.
 - The advisor handles admin only; all strategy decisions are the students'.
 
@@ -198,6 +199,8 @@ scrolled. Rule since then: **only Ray places or cancels WInS orders.** AI may fi
 - [ ] Fill the team sheet's Trade Log and units-held columns (needed to evaluate the implementation).
 - [ ] **IPS Version 5** (47 + ~498 words): render check of the page/line count; soften absolute claims
       ("never below the floor", "cannot miss") or back them; add the trade-off sentence; put back the certainty evidence.
+- [ ] **IPS numbers** (16 Oct): use `research/ips_numbers_2026-10/IPS_number_sheet.md` for the dollar range, the
+      confidence, the allocation and the return assumption; pick one coupon-risk option (section 3) before 6 Nov.
 - [ ] **Request the school documentation letter** now.
 - [ ] Final Report: start the experience log (dates, decisions, turning points) and the sources list now; the time
       between 9 Nov and 4 Dec is short.
