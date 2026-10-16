@@ -2,7 +2,7 @@
 
 AI-generated (Claude Code) for Team Caplet, under Ray's 16 Oct rule: edits go into the Google Doc "IPS Report", tab
 "Version 5", only as suggestions tagged [AI]. The team accepts or rejects each one and records accepted AI wording in
-the Final Report's Works Cited. Numbers come from `IPS_number_sheet.md`. Word count: 497 now, 494 after all twelve.
+the Final Report's Works Cited. Numbers come from `IPS_number_sheet.md`. Word count: 497 now, 498 after all thirteen (tags removed). Written into the Google Doc as suggestions on 16 Oct 2026.
 
 | # | Current text | Suggested text | Why |
 |---|---|---|---|
