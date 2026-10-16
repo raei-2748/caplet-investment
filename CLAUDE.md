@@ -14,6 +14,13 @@ decision, deadline or open item changes, and commit it with the related change. 
 - Only Ray places/cancels WInS orders (7 Oct mis-click incident). Scheduled checks: `ops/routines/`.
 - Team exports in `team/google_drive/` are snapshots; the Google Docs are the live copies.
 - Assistant review 30 Sep-15 Oct: research/assistant_review_2026-10/ (AI-generated research, not for submission; start with its README and the 15 Oct team brief PDF).
+- 16 Oct North Star memo (`research/assistant_review_2026-10/04_North_Star_Memo_16Oct2026.md`): one idea ("commit only
+  money she already owns"), one fact, one rule, one picture; IPS rule budget of 3 rules + 1 trade-off; curate, don't
+  decorate, the growth story; adds word-list, name and "promise" decisions to vote set A (Sun 18 Oct), before the TNA.
+- 16 Oct pre-mortem (`research/assistant_review_2026-10/05_Premortem_Review_16Oct2026.md`): the live V5 (edited 16 Oct)
+  added ~a dozen figures ($294k, $21k, 7%, $145k-$168k, "99 in 100") with no source in NUMBERS.md (lab items 02-05
+  todo) and dropped the diversification and annual-review clauses; TNA reflections not started; Trade Log blank;
+  ask Wharton what "required trading activity" means; school letter still to request. WInS book: hold.
 
 ## Working rules (from the team leader)
 - Use only exact official Wharton materials and verified sources. No fictional clients, rules, rosters or data.
