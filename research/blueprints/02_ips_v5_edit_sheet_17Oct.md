@@ -56,7 +56,7 @@ New since the 14 Oct review: the 2031 range numbers on the WInS-only basis (`res
 
 | V5 passage | Problem | The fix must... | Use |
 |---|---|---|---|
-| "but never below the floor" | absolute; IBTM payout is not fixed | replace with a stated confidence, or the rule that makes it hold (rounding down) | gift never fell below the quoted bottom in 600,000 model paths, *given* the rounding and the cap |
+| "but never below the floor" | absolute; IBTM payout is not fixed | replace with a stated confidence, or the rule that makes it hold (rounding down) | gift never fell below the quoted bottom ($145k on a $150k floor) in 600,000 model paths, *given* the rounding and the cap |
 | "the equity half Laura keeps is her defense" | fine in idea; size it | optionally give the bad-case cushion | Laura keeps ~$12k (bad case, p5) / ~$29k (median) |
 | no inflation number | | one clause: payments are nominal so the ladder is unaffected; the floor buys ~12% less after 5 years at 2.5% inflation | 1/1.025^5 = 0.88 |
 
@@ -64,8 +64,8 @@ New since the 14 Oct review: the 2031 range numbers on the WInS-only basis (`res
 
 | V5 passage | Problem | The fix must... | Use |
 |---|---|---|---|
-| "quoted rounded down after any expected shortfall" | ambiguous (V5 vs Tab 15 meaning) | define "rounded down" once (Set A vote) | model rounds to the $5k below |
-| "to the floor plus half the equity fund's value then" | correct; the reason for "half" is weak | give the reason as Laura's cushion, not credibility: the share does not change the odds of reaching the top | P(reach top) ~75-78% at any share; cushion p5 $16k / $12k / $8k / $0 for 1/3, 1/2, 2/3, all |
+| "quoted rounded down after any expected shortfall" | ambiguous (V5 vs Tab 15 meaning) | define "rounded down" once (Set A vote) | model: worst-case IBTM payout (~2.5% under), then down to $5k = $145k on a $150k floor |
+| "to the floor plus half the equity fund's value then" | correct; the reason for "half" is weak | give the reason as Laura's cushion, not credibility: the share does not change the odds of reaching the top | P(reach top) ~74-76% at any share; cushion p5 $16k / $12k / $8k / $0 for 1/3, 1/2, 2/3, all |
 | "so she cannot miss the range" | absolute | keep the logic (capped gift, owned floor) but drop "cannot" or name the conditions | conditions: 2028 deposit arrives; IBTM pays close to its yield; no ladder gap after 2031 |
 | "missing a narrower one would harm her credibility more" | true in spirit but the stronger, checkable point is the two-odds statement | optionally state the confidence: top ~3 in 4, at least halfway ~99 in 100 (the IPS does not need final numbers) | IPS instructions :68-70 |
 

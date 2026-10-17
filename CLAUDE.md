@@ -14,7 +14,7 @@ decision, deadline or open item changes, and commit it with the related change. 
 - Only Ray places/cancels WInS orders (7 Oct mis-click incident). Scheduled checks: `ops/routines/`.
 - Team exports in `team/google_drive/` are snapshots; the Google Docs are the live copies.
 - 2031 range numbers (17 Oct, WInS-only basis, model): `research/range_2031/README.md`. Today's estimate: bottom
-  $150k (= floor, the 2028 remainder), top ~$170k (p5-p95 $145k-$195k); ~3 in 4 to reach the top, ~99% at least
+  $145k (the ~$150k IBTM floor rounded down: its payout is not fixed), top ~$170k (p5-p95 $145k-$195k); ~3 in 4 to reach the top, ~99% at least
   halfway. Ladder headroom fell to $1,913 (7bp) on the 16 Oct curve (cost $298,087), so the floor is not a fixed $150k.
 - Assistant review 30 Sep-15 Oct: research/assistant_review_2026-10/ (AI-generated research, not for submission; start with its README and the 15 Oct team brief PDF).
 
