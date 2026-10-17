@@ -10,7 +10,7 @@ Basis: the plan in COMPETITION.md s7; the 16 Oct curve; `research/range_2031/`. 
 `research/blueprints/02_ips_v5_edit_sheet_17Oct.md` and `03_tna_reflection_outlines_17Oct.md`. Votes still open
 (Set A): the strategy name (Root-and-Branch is kept from V5), the floor description, the meaning of "rounded down".
 
-Word counts (by spaces / hyphenated words split): pitch 39 / 41 (limit 50); IPS 485 / 490 (limit 500); IBTM 92 / 95,
+Word counts (by spaces / hyphenated words split): pitch 39 / 41 (limit 50); IPS 482 / 486 (limit 500); IBTM 92 / 95,
 IBTR 94 / 96, VT 95 / 98 (limit 100 each). Dollar figures are dated 16-17 Oct: re-price before any use.
 
 ## Elevator pitch
@@ -19,17 +19,15 @@ Laura's ten operating payments must come from her portfolio alone, so Root-and-B
 
 ## Investment Policy Statement
 
-This policy governs the portfolio Laura Gao funds with $300,000 in January 2027 and $150,000 in January 2028. Its first objective is ten $50,000 payments to her Taiwan residency, each January from 2033 to 2042, funded with high certainty from the portfolio alone. We define high certainty as each payment being paid for at purchase by Treasuries, or funds holding them, maturing shortly before it, not by future market returns. The second objective is a facility contribution with a minimum Laura can state confidently in 2031 and room to grow above it.
+Laura Gao funds this portfolio with $300,000 in January 2027 and $150,000 in January 2028. Its first objective is ten $50,000 payments to her Taiwan residency, each January from 2033 to 2042, funded with high certainty from the portfolio alone. We define high certainty as each payment being paid for at purchase by Treasuries, or funds holding them, maturing shortly before it, not by future market returns. The second objective is a facility contribution with a minimum Laura can state confidently in 2031 and room to grow above it.
 
-Laura's living costs are covered elsewhere and nothing is withdrawn before 2033, so her capacity for risk is high. She has taken thoughtful risks throughout her career, but a missed payment would let down the residency's artists, so the payments carry no stock-market risk. Because her 2028 deposit depends on publishing and speaking income, the first deposit alone is planned to buy the payments.
+Her living costs are covered elsewhere and nothing is withdrawn before 2033, so her capacity for risk is high. She has taken thoughtful risks throughout her career, but a missed payment would let down the residency's artists, so the payments carry no stock-market risk. Because her 2028 deposit depends on publishing and speaking income, the first deposit alone is planned to buy the payments.
 
-In January 2027 the first deposit buys the payments, longest-dated first, as distant payments are most sensitive to interest rates. Where no individual Treasury matures in time, we use iBonds Treasury funds, which hold one year's Treasuries and then pay out. If falling yields push the cost above $300,000, the 2028 deposit completes the payments first. What remains buys a Treasury fund maturing in December 2032, the floor of her contribution. The rest, with any 2027 leftover, goes into one global index fund. The result is roughly two-thirds payment Treasuries, one quarter floor and one tenth stocks. Stocks are small because they are what remains after both promises are bought, not because Laura avoids risk.
+In January 2027 the first deposit buys the payments, longest-dated first, as distant payments are most sensitive to interest rates. Where no individual Treasury matures in time, we use iBonds Treasury funds, which end like a bond. If falling yields push the cost above $300,000, the 2028 deposit completes the payments first. What remains buys a Treasury fund maturing in December 2032, the floor of her contribution, and the rest, with any 2027 leftover, goes into one global index fund, where we assume about 7% a year. The result is roughly two-thirds payment Treasuries, one quarter floor and one tenth stocks: stocks are what remains after both promises are bought, not a sign that Laura avoids risk. Holdings are kept to maturity, so nothing is sold in a falling market, and reviewed with Laura each January. WInS shows this mix, scaled down.
 
-Holdings are then kept to maturity, with income reinvested at each January review, where we confirm with Laura that each payment is still covered and her goals are unchanged. We trade only if a shortfall appears or a holding becomes unavailable. Each payment is in cash by its due date, so nothing is sold in a falling market.
+In 2031 Laura gives co-sponsors a range. Its bottom is the floor, rounded down because a fund's payout is not fixed; its top adds half the stock fund's value that day. In 2033 she contributes the floor plus half the fund, capped at the top, so the gift is designed to stay inside the range: near the top if stocks hold, nearer the bottom if they fall. We prefer a range built to hold, since missing a narrower one would harm her credibility more. The other half stays with Laura as a cushion.
 
-In 2031 Laura gives co-sponsors a range. Its bottom is the floor, rounded down because a fund's payout is not fixed; its top adds half the stock fund's value that day. In 2033 she contributes the floor plus half the fund, capped at the top. If stocks hold their value, the gift reaches the top; if they fall, it moves toward the bottom. The other half stays with Laura as a cushion against rising building costs or smaller co-sponsor gifts.
-
-The remaining risks are a US default, iBonds funds paying slightly less than expected, and coupons reinvested at lower rates. A shortfall is covered by the 2027 leftover, then Laura's half of the stock fund, then the contribution above the floor, and only then the floor, so the payments come before every facility dollar. Investing the floor in stocks would raise the expected gift, but we accept a smaller one for a range Laura can keep.
+Beyond a US default, the main risk is reinvestment: if yields fell two points and stayed there, reinvested income would leave the payments about $21,000 short. Any shortfall is covered by the 2027 leftover, then Laura's half of the stock fund, then the contribution above the floor, and only then the floor, so the payments come first. Inflation or a stronger Taiwan dollar would raise facility costs, which her cushion helps absorb. Investing the floor in stocks would raise the expected gift, but we accept a smaller one for a range Laura can keep.
 
 ## Trading Notes Analysis reflections
 
@@ -56,7 +54,12 @@ We bought IBTM because WInS lists no individual Treasury maturing between 2031 a
   planned to buy the payments; "thoughtful risks" is the case's phrase.
 - **Shape and trade-off stated once:** two-thirds / one quarter / one tenth, and "a smaller expected gift for a range
   Laura can keep".
-- **Time order:** objectives, profile, 2027, 2028, hold and review, 2031 and 2033, risks.
+- **Time order:** objectives, profile, 2027-2028 and holding, 2031 and 2033, risks.
+- **Evidence kept from the team's live V5 (17 Oct combined version):** the tested reinvestment risk (yields 2 points
+  lower for good: about $21,000 short; rab/numbers.yaml reinvest.bookL_delivered, own yield -2pp = $479,175, MODEL),
+  the 7% stock return assumption (JPM 2026 LTCMA world equities, 7.0% compound), the inflation / Taiwan dollar line,
+  the WInS-scaled sentence and "a range built to hold". Fixed from V5: "lands inside the range about 99 times in 100"
+  (the gift stays inside by design; 99% is the chance it lands at least halfway).
 - **The IBTR reflection is the "tested" example:** the note predicted a risk and the market moved most of the way
   there within ten days (model cost about $292,000 on 6 Oct, $298,000 on 16 Oct).
 - **Not included (Final Report material):** final range numbers, reserve size, projections, co-sponsor text.
