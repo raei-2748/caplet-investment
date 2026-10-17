@@ -64,3 +64,18 @@ COLM 2026, arXiv:2604.03136 (uploaded by Ray, 17 Oct). It studies fiction, so on
 - IBTM: who chose the zero-coupon Treasury for the floor, and how the team reacted to the 6 Oct email.
 - VT: whether anyone argued for more stocks, and what settled it.
 - Any doubt you still have. Judges trust a team that names one.
+
+## 6. v8: the paper's findings applied to the whole text
+
+| StoryScope finding | v8 move |
+|---|---|
+| AI states the theme; humans let facts carry it | The IPS opens on the case's hidden tension instead of a purpose statement: ten payments of $50,000 are $500,000, more than the $450,000 deposited, so interest must close the gap. Nothing then says what that "means". |
+| AI resolves neatly; humans keep honest ambivalence | "Why half? It is a judgement." The reason follows in one plain line. |
+| AI is linear; humans revisit and correct | IBTR opens on the team's own correction: the note's first draft said 0.3 points and was cut to 0.2 after re-pricing with the bonds WInS lists (0.3 matches the idealised $292k ladder in V2/V3; 0.2 matches the WInS-listed $293k ladder). |
+| Humans engage the outside world by name | "starting with 2042", "By 16 October", "Wharton's 6 October email", "167 shares" |
+| Claude keeps one cool, even register | Mixed sentence lengths and plain, blunt sentences: "We did not sell anything." "We chose not to." A section headed "What could go wrong." |
+| AI over-describes | Cut every sentence that restated an earlier one (the inflation line, "so the payments carry no stock market risk" after "not the place for them") |
+
+Checked again after the rewrite: TNR 12 double-spaced render ends on page 3; the words growth, liquidity and diversified
+are present; no colons in any reflection; every number traces to WInS fills, the 16 Oct curve or `research/range_2031/`.
+Team to confirm: the reason for the 0.3 to 0.2 change, and "we had chosen" in the IBTM reflection.
