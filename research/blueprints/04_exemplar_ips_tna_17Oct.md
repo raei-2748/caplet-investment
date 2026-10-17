@@ -10,9 +10,9 @@ Basis: the plan in COMPETITION.md s7; the 16 Oct curve; `research/range_2031/`. 
 `research/blueprints/02_ips_v5_edit_sheet_17Oct.md` and `03_tna_reflection_outlines_17Oct.md`. Votes still open
 (Set A): the strategy name (Root-and-Branch is kept from V5), the floor description, the meaning of "rounded down".
 
-Version v6 (17 Oct, rewritten in the plain institutional style described in `07_style_study_17Oct.md`). Word counts (by
-spaces / hyphenated words split, section labels included): pitch 45 / 47 (limit 50); IPS 492 / 494 (limit 500);
-VT 94 / 96, IBTR 94 / 94, IBTM 94 / 97 (limit 100 each). The three reflections cover the three verbs the
+Version v7 (17 Oct; style from `07_style_study_17Oct.md`, reflections restructured using StoryScope, see s5 of that file).
+Word counts (by spaces / hyphenated words split, section labels included): pitch 45 / 47 (limit 50); IPS 494 / 496
+(limit 500); VT 95 / 97, IBTR 96 / 96, IBTM 93 / 95 (limit 100 each). The three reflections cover the three verbs the
 TNA page rewards: VT **supported** the strategy, IBTR **tested** it (yields moved toward the risk its note named),
 IBTM **refined** it (the week-2 rule turned it from a WInS stand-in into Laura's real floor). Dollar figures are dated 16-17 Oct: re-price before any use.
 
@@ -24,15 +24,15 @@ Our strategy, Root-and-Branch, puts Laura's ten operating payments first. Its ro
 
 Objectives. This policy covers the $300,000 Laura invests in January 2027 and the $150,000 she adds in January 2028. Its first objective is to fund ten $50,000 payments to her Taiwan residency, each January from 2033 to 2042, with a high degree of certainty from the portfolio alone. By high certainty, we mean that each payment is matched at purchase by Treasuries maturing shortly before it, with any shortfall covered by her other holdings. Its second objective is a facility contribution with a minimum Laura can announce in 2031.
 
-Risk tolerance. Laura's living costs are covered elsewhere and she will withdraw nothing before 2033, so the portfolio can afford risk. She has taken thoughtful risks throughout her career, but the residency needs reliable operating support, so the payments take no stock market risk. Her 2028 deposit depends on publishing and speaking income, so the first deposit alone is planned to cover the payments.
+Risk tolerance. Laura's living costs are covered elsewhere and she withdraws nothing before 2033, so the portfolio can afford risk. She has taken thoughtful risks throughout her career, but the residency needs reliable operating support, so the payments take no stock market risk. Her 2028 deposit depends on publishing and speaking income, so the first deposit alone is planned to cover the payments.
 
-Allocation. In January 2027 we will buy Treasuries for the ten payments, latest first. If falling rates push the cost above $300,000, the 2028 deposit will first pay for the rest. What remains buys a Treasury fund maturing in December 2032, which forms the floor of her facility contribution. The rest goes into one diversified global stock index fund for growth, expected to return about 7% a year. After 2028, about two-thirds of the portfolio will fund the payments, a quarter will form the floor and less than a tenth will be in stocks.
+Allocation. In January 2027 we will buy Treasuries for the ten payments, latest first. If falling rates push the cost above $300,000, the 2028 deposit will first pay for the rest. What remains buys a Treasury fund maturing in December 2032, the floor of her facility contribution. The rest goes into one diversified global stock index fund for growth, expected to return about 7% a year. After 2028, about two-thirds of the portfolio will fund the payments, a quarter will form the floor and less than a tenth will be in stocks.
 
-Review. Treasuries are held to maturity, so liquidity comes from maturing bonds, not sales. We will not move the stock fund into bonds before 2033, because the floor already protects the minimum. We will review the portfolio with Laura each January and act only if a payment is no longer covered. From 2033, the payment Treasuries become the operating reserve, which runs down as each one matures.
+Review. Treasuries are held to maturity, so liquidity comes from maturing bonds, not sales. We will not move the stock fund into bonds before 2033, because the floor already protects the minimum. We will review it with Laura each January and act only if a payment is no longer covered. From 2033, the payment Treasuries become the operating reserve, which runs down as each one matures.
 
 The 2031 range. In 2031 Laura will tell co-sponsors a range. The bottom is the floor, rounded down because a fund's payout is not fixed. The top is the floor plus half the stock fund's value then, less any expected payment shortfall her half cannot cover. In 2033 she will give the floor plus half the fund, but no more than the top, so her gift falls inside the range unless the payments need the floor. In our tests, it reached the top about three times in four. The other half stays with Laura for flexibility.
 
-Risks. Apart from a US default, the main risk is lower rates on reinvested bond interest. If rates fell two points for good, the payments would be about $21,000 short. Laura's half of the stock fund covers this first, then the gift above the floor, and only then the floor. Her half also covers higher facility costs from inflation or a stronger Taiwan dollar. Putting the floor in stocks would raise the expected gift, but we prefer a range Laura can keep.
+Risks. Apart from a US default, the main risk is lower rates on reinvested bond interest. If rates fell two points for good, the payments would be about $21,000 short. Laura's half of the stock fund covers this first, then the gift above the floor, and only then the floor. Her half also covers higher facility costs from inflation or a stronger Taiwan dollar. Putting the floor in stocks would raise the expected gift, but a fall before 2033 could then break a number Laura has already quoted.
 
 ## Trading Notes Analysis reflections
 
@@ -40,15 +40,15 @@ Each note must be pasted from WInS itself (these copies are from the 14 Oct expo
 
 ### 1. VT, 10/07/2026 08:27:19 PM ET
 
-We bought VT to spread Laura's growth money across about 10,000 companies worldwide for a 0.06% fee, so one low-cost fund diversifies it without stock picking. Only money the payments and the floor do not need takes stock market risk, less than a tenth of the portfolio, held until 2033. We kept it small on purpose. More stocks would raise her expected gift but shrink the minimum she can announce. In 2031, half of VT's value will set the top of her range for co-sponsors, and the other half stays with her for flexibility.
+We bought 167 shares of VT, about 9% of our portfolio, because it holds about 10,000 companies across the world for a 0.06% fee. It is deliberately small. Every extra dollar in stocks comes out of the floor, and the floor is the number Laura will quote co-sponsors. VT only decides how far her gift rises above it. Half its value in 2031 sets the top of her range, and the other half stays with her. Half is a judgement. It gives co-sponsors a real top and still leaves Laura money if building costs rise.
 
 ### 2. IBTR, 10/07/2026 04:42:53 AM ET (the re-placed order)
 
-IBTR holds Treasuries maturing in 2036 and funds Laura's 2037 payment. We bought the ten payments latest first, because distant payments move the most when interest rates change. Our note named the main risk. If yields fell about 0.2 percentage points before January, $300,000 would no longer buy all ten payments. Within ten days yields fell nearly that far, and our model cost rose from about $292,000 to $298,000. We held, because our plan already covers this. The 2028 deposit completes the payments first, so they stay whole and only the facility floor shrinks.
+Nine days after we placed this order, the risk in its note had almost arrived. IBTR pays for Laura's 2037 payment. We bought the ladder from the latest payment back, because the far payments move most when rates change. The note warned that if yields fell about 0.2 points, $300,000 would no longer cover all ten payments. By 16 October our model cost had climbed from about $292,000 to $298,000. We did not sell anything or rewrite the plan. The 2028 deposit tops up the ladder first, and that money comes out of her facility floor.
 
 ### 3. IBTM, 10/06/2026 10:01:41 PM ET
 
-Wharton's week-2 guidance limited Laura's real plan to securities listed on WInS, which ruled out the zero-coupon Treasury we had planned for her facility floor. WInS lists no individual Treasury maturing in 2032, so IBTM became the floor itself. It holds 2032 Treasuries and pays out in December 2032, two weeks before her first $50,000 payment, which it also funds. Because a fund's payout is not fixed, as our note says, Laura will quote the floor to co-sponsors rounded down. This keeps her 2031 minimum credible, and the payments still come before the floor.
+Wharton's 6 October email changed this trade's job. Laura's real plan could now use only securities listed on WInS, so the zero-coupon Treasury we had chosen for her facility floor was out. WInS has no individual Treasury maturing in 2032. IBTM, a fund that holds 2032 Treasuries and pays out that December, became the floor itself, as well as funding her first $50,000 payment. Our note names the catch. A fund's payout is not fixed. So Laura will quote co-sponsors the floor rounded down, a few thousand dollars below what IBTM should return.
 
 ## Why it is written this way (what to copy: the choices, not the sentences)
 - **Certainty is defined, not asserted** ("paid for at purchase ... not by future market returns"), and the leftover

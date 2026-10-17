@@ -43,3 +43,24 @@ not wording to copy.
 3. If a sentence has a colon, split it into two sentences.
 4. Say the number, not the adjective ("about $21,000 short", not "a modest gap").
 5. Read it aloud. If you would not say it to Laura across a table, rewrite it.
+
+## 5. What the StoryScope paper adds (structure, not wording)
+
+Source: Russell, Rajendhran, Pham, Iyyer and Wieting, "StoryScope: Investigating idiosyncrasies in AI fiction",
+COLM 2026, arXiv:2604.03136 (uploaded by Ray, 17 Oct). It studies fiction, so only the general findings transfer.
+
+| Finding (paper, s4.1 and s5) | What it means for our reflections | v7 change |
+|---|---|---|
+| AI over-explains: narrators state the theme 77% of the time vs 52% for humans | Do not end on the moral ("This keeps her 2031 minimum credible") | Each reflection ends on a concrete consequence |
+| AI is linear and tidy; humans use time jumps and leave loose ends | Start where the story starts; admit an open judgement | IBTR opens nine days after the trade; VT says "Half is a judgement" |
+| Humans name specific outside things about twice as often (47% vs 24%) | Name the email, the date, the share count | "Wharton's 6 October email", "167 shares", "By 16 October" |
+| Claude "keeps it cool": restraint, uniform voice, quiet endings | Vary sentence length; let one sentence be short and blunt | "It is deliberately small." "Half is a judgement." |
+| Surface edits barely move detection (93.9% after LAMP rewriting vs 95.5%) | Rewording AI text does not make it the team's; only real decisions and real detail do | See the list below |
+
+**Details only the team can supply** (they make the text genuinely yours; add only if true):
+- IBTR: the cancelled 6 Oct order's note said "0.3 percentage points" and the re-placed 7 Oct note says "about 0.2"
+  (both in `team/google_drive/ips_report/05_...`). If you changed it because yields had moved overnight, that is a
+  real "tested" detail.
+- IBTM: who chose the zero-coupon Treasury for the floor, and how the team reacted to the 6 Oct email.
+- VT: whether anyone argued for more stocks, and what settled it.
+- Any doubt you still have. Judges trust a team that names one.
