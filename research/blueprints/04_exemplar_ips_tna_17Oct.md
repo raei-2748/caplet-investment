@@ -10,29 +10,29 @@ Basis: the plan in COMPETITION.md s7; the 16 Oct curve; `research/range_2031/`. 
 `research/blueprints/02_ips_v5_edit_sheet_17Oct.md` and `03_tna_reflection_outlines_17Oct.md`. Votes still open
 (Set A): the strategy name (Root-and-Branch is kept from V5), the floor description, the meaning of "rounded down".
 
-Version v8 (17 Oct; full rewrite using the StoryScope findings, `07_style_study_17Oct.md` s5-6). Word counts (by spaces /
-hyphenated words split, section labels included): pitch 42 / 44 (limit 50); IPS 493 / 496 (limit 500); VT 95 / 97,
-IBTR 96 / 97, IBTM 93 / 95 (limit 100 each). The three reflections cover the three verbs the
+Version v9 (17 Oct; professional register, see `08_harsh_review_17Oct.md`). Word counts (by spaces / hyphenated words
+split, section labels included): pitch 46 / 48 (limit 50); IPS 492 / 496 (limit 500); VT 91 / 92, IBTR 97 / 98,
+IBTM 92 / 93 (limit 100 each). The three reflections cover the three verbs the
 TNA page rewards: VT **supported** the strategy, IBTR **tested** it (yields moved toward the risk its note named),
 IBTM **refined** it (the week-2 rule turned it from a WInS stand-in into Laura's real floor). Dollar figures are dated 16-17 Oct: re-price before any use.
 
 ## Elevator pitch
 
-Laura has promised her residency ten payments of $50,000, more than she will deposit. Root-and-Branch buys those payments first, with Treasuries that come due one by one, then a Treasury floor for her facility gift. One global stock fund does the growing.
+Laura's ten $50,000 operating payments exceed her $450,000 in deposits. Root-and-Branch funds them first with Treasuries matched to each due date, then buys a Treasury floor for her facility contribution. One global equity fund provides growth above that floor, within a range she can credibly announce.
 
 ## Investment Policy Statement
 
-Objectives. Laura has promised ten payments of $50,000 to her Taiwan residency, one each January from 2033 to 2042. That is $500,000, more than the $450,000 she will deposit, so interest must close the gap. Our first objective is to fund every payment with a high degree of certainty from the portfolio alone. By that we mean each payment is matched at purchase by a Treasury maturing shortly before it. Our second objective is a facility contribution with a minimum Laura can announce in 2031.
+Objectives. Laura has committed ten $50,000 payments to her Taiwan residency, due each January from 2033 to 2042, totalling $500,000 against $450,000 in deposits. The primary objective is to meet every payment with a high degree of certainty from the portfolio alone. We define this as matching each payment at purchase with Treasuries maturing shortly before it, with any reinvestment shortfall covered by her other assets. The secondary objective is a facility contribution with a minimum Laura can announce in 2031.
 
-Risk tolerance. Laura has other income for living costs and takes nothing out before 2033, so the portfolio can carry risk. She has taken thoughtful risks all her career, but the residency's running costs are not the place for them. Her 2028 deposit depends on book and speaking income, so the 2027 deposit is planned to cover the payments alone.
+Return and risk. The payments require an annual return of about 5.1% on the 2027 deposit, which Treasuries currently provide with little margin. Laura's capacity for risk is high, since other income meets her living costs and nothing is withdrawn before 2033. She has taken thoughtful risks throughout her career, but the operating commitment should not depend on equity markets. Because her 2028 deposit relies on publishing and speaking income, the 2027 deposit alone is intended to fund the payments.
 
-Allocation. In January 2027 we will buy Treasuries for all ten payments, starting with 2042. If falling rates push the cost above $300,000, the 2028 deposit finishes the job. The rest of that deposit buys the floor of her facility contribution, a Treasury fund maturing in December 2032. What is left goes into one diversified global index fund for growth, assumed to earn about 7% a year. The result is roughly two-thirds payment Treasuries, a quarter floor and less than a tenth stocks.
+Allocation. In January 2027 the first deposit buys Treasuries for all ten payments, beginning with 2042, the most rate-sensitive payment. If lower yields raise the cost above $300,000, the 2028 deposit completes the ladder first. Its remainder buys the facility floor, a Treasury fund maturing in December 2032. The balance is invested in one diversified global equity index fund for growth, assumed to return about 7% a year before inflation. The result is roughly two-thirds payment Treasuries, one quarter floor and under one tenth equities.
 
-Review. Each Treasury is held to maturity, so liquidity never depends on selling in a falling market. The stock fund stays invested until 2033, because the floor already protects the minimum. Every January we check with Laura that each payment is covered, and act only if one is not. From 2033 the payment Treasuries are the operating reserve, which runs down to nothing by 2042.
+Monitoring. Treasuries are held to maturity, so liquidity comes from maturing bonds rather than sales. The equity fund remains invested without rebalancing until 2033, as the floor already protects the minimum. Each January we will review the portfolio with Laura and act only if a payment is uncovered. From 2033 these Treasuries form the operating reserve, declining as each matures.
 
-The 2031 range. In 2031 Laura will tell co-sponsors a range. The bottom is the floor, rounded down, because a fund's payout is not fixed. The top adds half the stock fund's value that day, less any payment shortfall her half could not cover. In 2033 she gives the floor plus half the fund, and no more than the top. In our tests the gift reached the top about three times in four. In a bad market it slides toward the bottom, but stays inside the range unless the payments need the floor. Why half? It is a judgement. Half gives co-sponsors a real top and leaves Laura money if building costs or the Taiwan dollar rise.
+The 2031 range. In 2031 Laura will give co-sponsors a range whose lower bound is the floor, rounded down because a fund's payout is not fixed. Its upper bound adds half the equity fund's value then, less any expected payment shortfall her half cannot cover. In 2033 she contributes the floor plus half the fund, capped at the upper bound, so weak markets move the contribution toward the lower bound without breaching it unless the payments require the floor. Our simulations show it reaching the upper bound in about three of four market paths. Half is a judgement, balancing a meaningful upper bound against Laura's flexibility.
 
-What could go wrong. Apart from a US default, the main risk is that reinvested interest earns less if rates fall. If rates dropped two points for good, the payments would be about $21,000 short. Laura's half of the stock fund pays that first, then the gift above the floor, and the floor last. We could put the floor in stocks for a bigger expected gift. We chose not to, because a crash before 2033 would break a number Laura has already given.
+Risks. Beyond a US default, the principal risk is lower reinvestment rates. A permanent two-point fall would leave the payments about $21,000 short, met first from Laura's half of the equity fund, then the contribution above the floor, and only then the floor. Inflation and a stronger Taiwan dollar would raise facility costs, not the fixed payments. Investing the floor in equities would raise the expected contribution, but a decline before 2033 could breach a figure Laura has already announced.
 
 ## Trading Notes Analysis reflections
 
@@ -40,15 +40,15 @@ Each note must be pasted from WInS itself (these copies are from the 14 Oct expo
 
 ### 1. VT, 10/07/2026 08:27:19 PM ET
 
-We bought 167 shares of VT, about 9% of our portfolio, because it holds about 10,000 companies across the world for a 0.06% fee. It is deliberately small. Every extra dollar in stocks comes out of the floor, and the floor is the number Laura will quote co-sponsors. VT only decides how far her gift rises above it. Half its value in 2031 sets the top of her range, and the other half stays with her. Half is a judgement. It gives co-sponsors a real top and still leaves Laura money if building costs rise.
+We purchased 167 shares of VT, about 9% of our WInS portfolio, for exposure to roughly 10,000 companies worldwide at a 0.06% expense ratio. A single global index fund diversifies Laura's growth assets without security selection. The position is deliberately small, since every additional dollar in equities reduces the floor Laura will announce to co-sponsors. VT therefore determines only how far her contribution rises above that floor. In 2031, half of its value sets the upper bound of her range, and Laura retains the other half to preserve her flexibility.
 
 ### 2. IBTR, 10/07/2026 04:42:53 AM ET (the re-placed order)
 
-Our first draft of this note said 0.3 percentage points. We cut it to 0.2 the next morning, after re-pricing the ladder with the bonds WInS actually lists. Nine days later, falling yields had used up most of that margin. IBTR pays for Laura's 2037 payment, and we bought the ladder from the last payment backwards because far payments swing most with rates. By 16 October our model cost had climbed from about $292,000 to $298,000. We did not sell anything. If the gap opens, the 2028 deposit closes it, and her facility floor gets smaller.
+IBTR funds Laura's 2037 payment. We purchased the ladder in reverse order, beginning with 2042, because distant payments are most sensitive to interest rates. Our first draft of this note cited 0.3 percentage points, which we reduced to 0.2 after re-pricing the ladder with the bonds available on WInS. Nine days later, falling yields had absorbed most of that margin, and our modelled cost rose from about $292,000 to $298,000. We did not trade in response. Under our policy, the 2028 deposit completes the ladder first, so any shortfall reduces the facility floor rather than the payments.
 
 ### 3. IBTM, 10/06/2026 10:01:41 PM ET
 
-Wharton's 6 October email changed this trade's job. Laura's real plan could now use only securities listed on WInS, so the zero-coupon Treasury we had chosen for her facility floor was out. WInS has no individual Treasury maturing in 2032. IBTM, a fund that holds 2032 Treasuries and pays out that December, became the floor itself, as well as funding her first $50,000 payment. Our note names the catch. A fund's payout is not fixed. So Laura will quote co-sponsors the floor rounded down, a few thousand dollars below what IBTM should return.
+Wharton's 6 October guidance limited Laura's recommended portfolio to securities listed on WInS, which excluded the zero-coupon Treasury we had planned for her facility floor. Because WInS lists no individual Treasury maturing in 2032, IBTM, a fund holding 2032 Treasuries that distributes its assets in December 2032, became the floor itself and also funds her first $50,000 payment. As our note acknowledges, a fund's final payout is not fixed. Laura will therefore announce the floor rounded down, a few thousand dollars below IBTM's expected value, so that her stated minimum remains credible.
 
 ## Why it is written this way (what to copy: the choices, not the sentences)
 - **Certainty is defined, not asserted** ("paid for at purchase ... not by future market returns"), and the leftover
