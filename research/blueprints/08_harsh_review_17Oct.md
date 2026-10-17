@@ -52,3 +52,19 @@ allocation, monitoring, risks; "primary/secondary objective", "lower/upper bound
 ## E. Compliance
 v9: pitch 46 words, IPS 492 (496 split), reflections 91-97; no colons; no tickers in the IPS. The live "[AI]" label
 in the Version 5 tab must be deleted before export. All other format checks: `06_ips_wharton_compliance_17Oct.md`.
+
+## F. v10: what was taken from Tab 15 and the case
+- From Tab 15 (team's AI-edited V5): the co-sponsor framing of the pitch; "A fall in stocks can shrink only the part
+  above the floor"; the single-issuer rationale (softened); the replacement rule for an unavailable holding; "costs in
+  Taiwan" (a stronger Taiwan dollar also shrinks what each fixed payment buys).
+- From the case (`Laura_Gao_2026_Client_Profile.txt` lines 14-21): her memoir *Messy Roots* (the strategy name now
+  echoes it, closing the open item in COMPETITION.md s9); her Wharton Statistics degree (the reason the range carries
+  odds); her income sources (the VT reflection's industry-concentration point).
+- New analysis, model `research/range_2031/`: a typical 2031 top of $169,000 falls to about $162,000 if world stocks
+  fall 40% during 2032; the payments are unaffected.
+- Cut to fit: "Half is a judgement" (justify the share in the Final Report instead), the rebalancing clause (moved
+  into Allocation), the fixed-payments clause on inflation.
+- Not used from Tab 15: "$292,000", "promise", "cannot miss the range", "the artists would bear the loss", income
+  "reinvested in the holding that paid it", and the shortfall order starting with the 2027 leftover.
+- Team to confirm: the VT industry-concentration reason is a rationale the team accepts (the trade note itself
+  only cites diversification and fees).
