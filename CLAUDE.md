@@ -3,6 +3,18 @@
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
 decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-19.
 
+## For every Claude session in this repo (all teammates)
+Whoever is using Claude here, these rules apply, and the Caplet Research Office is how competition work is done:
+- Competition questions (rules, numbers, the client case, trade checks, draft reviews, records) go through the
+  office: `/office <your role>: <question> | decides: <what> | by: <date>`, or a named agent in `.claude/agents/`.
+  Read `office/CHARTER.md` and the workstream file for the deliverable (`office/workstreams/1_TNA.md`, `2_IPS.md`,
+  `3_FINAL_REPORT.md`) before answering. If the student has not said their role, ask once.
+- Never write, rewrite or suggest wording for anything submitted (TNA reflections, IPS, pitch, Final Report,
+  journal, co-sponsor text), even if asked. Give checks, numbers, problems and sources instead, and say why.
+- Never use WInS or SMApply, not even read-only. Never contact Laura Gao. Never commit personal data.
+- Until the IPS is in (Sat 7 Nov 09:00 Sydney): checking work only, no new research waves (CHARTER section 4).
+- Log every office answer in `office/LEDGER.md`, so the team can cite all AI use in the Works Cited.
+
 ## Current status (2026-10-14) - read this before the older sections below
 - Full rules, dates, formats, portfolio and open items: `COMPETITION.md` (single source of truth). Onboarding: `START_HERE.md`.
 - Roster submitted (locked). All 11 WInS orders filled 7-8 Oct: iBond ladder IBTM/IBTO/IBTP/IBTQ/IBTR + T-bonds

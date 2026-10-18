@@ -107,6 +107,7 @@ rows went into `evidence-archivist`.
 | `office/work_orders/` | the work orders (template: `WO-TEMPLATE.md`) |
 | `office/outbox/` | the memos (AI-generated, not for submission) |
 | `office/tools/textcheck.py` | counts and exact-copy checks, no AI |
+| `office/CLAUDE_APP_PROMPT.md` | paste-in rules for teammates using the Claude app instead of Claude Code |
 | `.claude/agents/` | the 18 agent definitions |
 | `.claude/skills/office/SKILL.md` | the `/office` entry point |
 | `.claude/workflows/` | the three set pieces |

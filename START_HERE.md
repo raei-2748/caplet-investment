@@ -30,6 +30,17 @@ entry: official rules, the client case, our strategy research, the WInS portfoli
 - **Edit the live Google Docs**, not the exports in `team/google_drive/` (those are snapshots from 14 Oct).
 - The repo is **public**. Don't commit passwords, emails, birthdays or full surnames.
 
+## Using Claude with this repo
+The team uses one AI system, the **Caplet Research Office** (`office/README.md`).
+- **Claude Code** (terminal, desktop or claude.ai/code), opened in this repo, loads the 18 office agents and the
+  house rules automatically. Ask questions like this:
+  `/office rates analyst: what is the room under $300k on the 16 Oct close? | decides: IPS certainty sentence | by: Tue 27 Oct`
+  Use your role, not your name. Answers arrive as one-page memos in `office/outbox/`.
+- **Claude app or claude.ai chat**: paste `office/CLAUDE_APP_PROMPT.md` into the chat first, or into a Claude
+  Project's instructions, so Claude follows the same rules.
+- With either one, Claude will not write your reflections, IPS or report. That is Wharton's AI policy, not a bug.
+  Log any AI use you make outside the office in `office/LEDGER.md` or `docs/AI_USE.md`.
+
 ## Using the repo
 ```bash
 git clone https://github.com/raei-2748/caplet-investment.git
