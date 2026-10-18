@@ -1,7 +1,7 @@
 # Team Caplet: project memory
 
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
-decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-17.
+decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-18.
 
 ## Current status (2026-10-14) - read this before the older sections below
 - Full rules, dates, formats, portfolio and open items: `COMPETITION.md` (single source of truth). Onboarding: `START_HERE.md`.
@@ -16,7 +16,7 @@ decision, deadline or open item changes, and commit it with the related change. 
 - 2031 range numbers (17 Oct, WInS-only basis, model): `research/range_2031/README.md`. Today's estimate: bottom
   $145k (the ~$150k IBTM floor rounded down: its payout is not fixed), top ~$170k (p5-p95 $145k-$195k); ~3 in 4 to reach the top, ~99% at least
   halfway. Ladder headroom fell to $1,913 (7bp) on the 16 Oct curve (cost $298,087), so the floor is not a fixed $150k.
-- 17 Oct: AI exemplar (Ray's request; a model to learn from, not for submission) of the pitch, IPS and the three TNA
+- 17-18 Oct: AI exemplar v12 (Ray's request; a model to learn from, not for submission; plain formal prose, no scalpel style in the IPS) of the pitch, IPS and the three TNA
   reflections: `research/blueprints/04_exemplar_ips_tna_17Oct.md`, also in the IPS Report Doc as SUGGESTIONS only
   (Version 5 + Trading Note Reflection tabs). Google Doc edits: suggestion mode only, never direct edits; Ray reviews all.
 - Assistant review 30 Sep-15 Oct: research/assistant_review_2026-10/ (AI-generated research, not for submission; start with its README and the 15 Oct team brief PDF).

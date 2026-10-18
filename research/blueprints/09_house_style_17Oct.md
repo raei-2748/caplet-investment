@@ -1,5 +1,8 @@
 # Caplet house style: "the scalpel" (17 Oct 2026)
 
+**18 Oct, team decision: not used for the IPS.** The IPS is written in plain formal prose (no principle headings, no
+short closing lines); see `04_exemplar_ips_tna_17Oct.md` v12.
+
 AI-generated research (Claude Code). Built from close reading of five exemplary sources, all fetched 17 Oct 2026:
 
 | Source | What it does that we copy | Example (verbatim) |
