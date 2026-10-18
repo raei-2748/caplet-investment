@@ -1,0 +1,398 @@
+{
+ "file": "oct16/lenses/L07_final_report_foresight.md",
+ "summary": "The Final Report decides most of the Top 50 judgement: it alone can show Portfolio Analysis (projections under varying outcomes), Articulation and the co-sponsor part of Creativity, and the Top 50 is picked on the IPS and Final Report. The window is 25 days (instructions Tue 10 Nov Sydney, due Sat 5 Dec 09:00) and Knox's term ends Thu 3 Dec; last year 30 of 63 dated comments in the Knox report came in the final two days, with an instruction to make up stories, so the team must pre-build before 9 Nov. Forecast (from Wharton's own 2022-24 specs and last year's doc): title page, a ~150-word team reflection and maybe an advisor reflection, Portfolio-at-a-Glance with WInS and recommended snapshots plus a same-or-different answer, 5-8 pages of report details, APA Works Cited recording AI use, and a page range with a minimum as well as a maximum. Evidence the team must start collecting now is missing: the trade log is blank, the journal stops 7 Oct, the AI log has no entries 1-15 Oct, and no WInS history, source list or post-freeze tracking exists. The ladder-cost conflict is a basis difference: $294.5k prices the payment dates, while Caplet's holdings cost $297.8k-$298.6k on 15 Oct; use the holdings basis and one valuation date (the 6 Nov close), and present January as roughly break-even because the $1.4k-$2.2k room is smaller than one day's move and than the gap between two sensible methods. The AI kit's 'note-in-Final-Report' backlog includes STRIPS-basis tables without banners and must not be imported. After the freeze, the right implementation evidence is the ladder tracking the payments, and about $1,539 of November coupons will sit as cash, conflicting with V5's 'income reinvested'. Finale readiness is low because key calls and numbers came from AI; the lens gives 30 forecast judge questions with what a good answer must cover and a no-laptop test. Commit 412e9e3 adds useful Final Report numbers and the October curve, but its headline ladder cost is on the wrong basis and its [AI] suggestion rule is riskiest in the Articulation and co-sponsor sections.",
+ "findings": [
+  {
+   "id": "FR-01",
+   "title": "The Final Report window is 25 days, ends after Knox's term, and last year's report was written in its final two days",
+   "severity": "critical",
+   "deliverables": [
+    "FinalReport",
+    "Team"
+   ],
+   "problem": "Instructions arrive Tue 10 Nov Sydney; the report is due Sat 5 Dec 09:00. Knox Term 4 ends Thu 3 Dec (Presentation Day) and Fri 4 Dec is a staff day, so the advisor and administrator are hardest to reach at the end. Last year 30 of 63 dated comments in the Knox Final Report doc came on 11-12 Dec (deadline 12 Dec), including an instruction to make up stories. Last year's window was 46 days; this year's is 25. Starting on 10 Nov would repeat that pattern with less time.",
+   "evidence": [
+    "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:51 \"Detailed Final Report instructions and requirements will be shared on November 9.\"",
+    "https://www.knox.nsw.edu.au/about/public-information/term-dates (accessed 16 Oct 2026): \"Thursday 3 December Presentation Day and Term 4 Concludes\"; \"Friday 4 December Staff Professional Development Day\"",
+    "team/google_drive/2025_knox_wharton.md:3800-3890 comment list: 26 comments dated 2025-12-11 and 4 dated 2025-12-12 of 63 dated comments (my count)",
+    "team/google_drive/2025_knox_wharton.md:3827 \"Make up stories, and make them sound realistic\"",
+    "oct16/research/KB_what_wins.md:134-136 (2025-26 criteria posted 27 Oct for 12 Dec, 46 days)"
+   ],
+   "fix": "Pre-build every module that does not depend on the instructions before 9 Nov (forecast structure, evidence ledger, valuation-date numbers, charts). Target submission Wed 2 Dec Sydney; no section due in its owner's exam week. Success = on 10 Nov the team fits and edits existing material, it does not start writing.",
+   "deadline": "Modules pre-built by Mon 9 Nov; submit by Wed 2 Dec (hard stop Sat 5 Dec 09:00 Sydney)",
+   "confidence": "high",
+   "new_vs_known": "known-deeper"
+  },
+  {
+   "id": "FR-02",
+   "title": "Forecast: the page range is likely a floor as well as a ceiling; under-length reports were not reviewed",
+   "severity": "high",
+   "deliverables": [
+    "FinalReport"
+   ],
+   "problem": "Wharton's past Final Report specs set a page range and rejected reports outside it at both ends, with a minimum for the main section. A team whose own lesson is 'complexity must earn its place' could write too little and be excluded on format alone. This year's numbers are unknown until 9 Nov.",
+   "evidence": [
+    "Wharton WordPress page 3768 (https://globalyouth.wharton.upenn.edu/wp-json/wp/v2/pages/3768, re-read 16 Oct 2026 from oct16/research/KB_verify/wp_3768.json), 2023-24: Report Details \"must be a minimum of 5 pages\" and \"a maximum of 8 pages\"; \"Reports that go over or under this range will not be reviewed.\"",
+    "Same page 2022-23 block: 9-12 pages, out of range \"will be disqualified\" (oct16/research/KB_what_wins.md:78)",
+    "CLAUDE.md:40 \"strategy packaging was over-complex for the insight ... complexity must earn its place\""
+   ],
+   "fix": "Plan modules for roughly 10-13 pages (FORECAST) that can shrink or grow by a page; fill length with depth (assumptions box, good/bad cases, implementation scorecard, decision story), not new frameworks. Replace with the real range on 10 Nov and check the PDF page count with two people.",
+   "deadline": "Module plan by Mon 9 Nov; page check by Sun 29 Nov",
+   "confidence": "medium",
+   "new_vs_known": "new"
+  },
+  {
+   "id": "FR-03",
+   "title": "Portfolio-at-a-Glance: two snapshots and one mapping are needed, but Caplet's plan has three dates and WInS mislabels the bond funds",
+   "severity": "high",
+   "deliverables": [
+    "FinalReport",
+    "Strategy"
+   ],
+   "problem": "Past reports required a WInS snapshot plus a recommended-portfolio snapshot and a 150-word 'same or different' answer. Caplet's plan is a Jan 2027 book, a Jan 2028 book and a shrinking 2033 reserve, so 'recommended portfolio' is ambiguous. The WInS book mirrors the Jan 2028 plan scaled to $300k, but team files state the mapping three ways, and a WInS screenshot shows the iBond funds as 61.6% 'Long Equities', which would make a Treasury plan look stock-heavy.",
+   "evidence": [
+    "Page 3768, 2023-24: \"Page 4 must include two graphic/visual portfolio snapshots: Your team's WInS Portfolio [and] Your team's Final Re[commended Portfolio]\"; \"Why are your WInS Portfolio and Recommended Portfolio for Hilary the same? ... different?\" (accessed 16 Oct 2026)",
+    "team/google_drive/sheets/portfolio_and_trading_notes/portfolio.csv:2 \"Laura's plan on 2 Jan 2028, after both deposits, scaled to WInS's $300,000 starting cash\"; :38-39 IBTM split 1,142 / 3,361 shares",
+    "COMPETITION.md:98 \"The WInS pie chart labels the iBond ETFs \\\"Long Equities\\\" (61.6%)\"",
+    "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:56-62 (allocation Jan 2027 / Jan 2028 / 2033)",
+    "oct16/lenses/L08_coherence_numbers.findings.json COH-06 (three mappings)"
+   ],
+   "fix": "Decide which date 'recommended portfolio' means (forecast: Jan 2028) and use it everywhere. Build each snapshot as a team table (holding, job, payment year, value, weight) from WInS numbers, with one stated scale and the IBTM split, and a line on why WInS's label differs from the holdings.",
+   "deadline": "Mapping agreed before Wed 4 Nov (IPS); tables built from the 7 Nov freeze capture",
+   "confidence": "medium",
+   "new_vs_known": "known-deeper"
+  },
+  {
+   "id": "FR-04",
+   "title": "Use one valuation date and the holdings basis for every Final Report number; the room under $300k is inside model noise",
+   "severity": "high",
+   "deliverables": [
+    "FinalReport",
+    "IPS",
+    "TNA",
+    "Finale"
+   ],
+   "problem": "The $294.5k (number sheet) and $298.6k (lenses) ladder costs use the same 15 Oct curve and payments; they differ because the sheet prices the payment dates while Caplet's holdings mature 0.5-10.5 months earlier (about $3.4k), plus forward vs unchanged curve (about $0.8k). For Caplet's plan only the holdings basis is right. Even then the room ($1.4k-$2.2k) is smaller than one day's move ($2.7k on 15 Oct), the 5-15 Oct range ($6.5k) and the gap between a bootstrap and a simple par-yield method ($1.4k). A precise 'surplus' claim can be false by the time it is read.",
+   "evidence": [
+    "oct16/research/KB_verify/num/reconcile.py re-run on caplet-latest/competition/official_market_data/daily-treasury-rates_2026-10.csv: payment dates fwd $294,461 (room $5,539); holdings fwd $297,847 ($2,153, 7.4bp); holdings unchanged $298,628 ($1,372, 4.7bp)",
+    "oct16/lenses/L07/series_out.txt: holdings-basis forward cost $291,389 (5 Oct), $295,163 (14 Oct), $297,847 (15 Oct)",
+    "oct16/lenses/L07/simple.py: par-yield discounting of the same holdings gives $299,995",
+    "caplet-latest/research/ips_numbers_2026-10/ips_numbers.py:70-89 prices to dt.date(y, 1, 1); :122 scales the 1-in-3 odds to that basis",
+    "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:12-13 \"about $294,000\" / \"about $5,500\" / \"1 case in 3\""
+   ],
+   "fix": "Choose the 6 Nov close as the single valuation date, price Caplet's actual holdings, state the method once and add a sensitivity line (about $290 per 0.01 point). Describe January's purchase as roughly break-even with V5's rule that the 2028 deposit completes the ladder first. Re-derive or drop the '1 case in 3' figure. Every student can explain why $294.5k is not Caplet's number.",
+   "deadline": "Numbers rebuilt Sat 7-Mon 9 Nov on the 6 Nov curve; any TNA figure dated to one close before Sat 24 Oct",
+   "confidence": "high",
+   "new_vs_known": "known-deeper"
+  },
+  {
+   "id": "FR-05",
+   "title": "'Evaluate implementation' needs a plan-vs-actual scorecard, and its WInS records are not yet captured",
+   "severity": "high",
+   "deliverables": [
+    "FinalReport",
+    "Trades"
+   ],
+   "problem": "The Final Report must evaluate how effectively the IPS strategy was implemented. The team sheet's Trade Log is blank; only fill prices sit in COMPETITION.md, with no accrued interest, commissions or cash after each trade; fills slipped from the target Fri 2 Oct to 6-8 Oct; four notes sit on cancelled orders. Whether WInS history stays accessible after the season is unverified. Without records, the evaluation becomes memory and assertion.",
+   "evidence": [
+    "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:75-77 \"your team will evaluate how effectively it implemented that strategy\"",
+    "team/google_drive/sheets/portfolio_and_trading_notes/trade_log.csv:2-60 (all rows blank)",
+    "COMPETITION.md:172-188 (fills table; \"Every weight is within 0.2 pt of target\")",
+    "CLAUDE.md open items: \"target fills Fri Oct 2 ET, hard stop Oct 9\"",
+    "oct14/final.md section 2: \"Four notes sit on cancelled orders\""
+   ],
+   "fix": "Capture Order History, Transaction History, holdings, notes and Session Rules now and in full after 4:00 pm ET Fri 6 Nov (crop username and account number). Fill the Trade Log. Build a scorecard per order: target vs actual weight, fill, time, commission, what went wrong and the rule it produced.",
+   "deadline": "Trade Log filled by Sun 18 Oct; full capture Sat 7 Nov 08:00 Sydney",
+   "confidence": "high",
+   "new_vs_known": "known-deeper"
+  },
+  {
+   "id": "FR-06",
+   "title": "After the freeze, track the book against the payments it covers, and expect cash to pile up from November coupons",
+   "severity": "medium",
+   "deliverables": [
+    "FinalReport",
+    "Strategy"
+   ],
+   "problem": "Returns are not scored, so the useful evidence of implementation is whether the ladder's value moved with the value of the payments it covers. Separately, the frozen book will receive income it cannot reinvest: about $1,539 of Treasury coupons on 15 Nov from the May-2038 and three November bonds, plus iBond monthly distributions (amounts unverified). V5 says income is 'reinvested in the holding that paid it', which the frozen WInS book cannot do, so the December snapshot will show more cash than the plan.",
+   "evidence": [
+    "competition/official/2026_27/2026_WGY_Investment_Competition_Guide.txt:70-78 (WInS not the scorecard; not judged on making money)",
+    "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:59 bonds \"pay out every six months\"; :63 corporate actions incl. \"bond coupons\"",
+    "COMPETITION.md:172-188 faces (May-2038 20 units, Nov-2039 18, Nov-2040 18, Nov-2041 20); team/google_drive/sheets/portfolio_and_trading_notes/portfolio.csv:25-29 coupons 4.500%, 4.375%, 4.250%, 3.125%; my arithmetic $450 + $393.75 + $382.50 + $312.50 = $1,538.75",
+    "COMPETITION.md:97 WInS shows the May-2038 bond's last coupon as 15 Aug (payment date in WInS UNVERIFIED)",
+    "team/google_drive/ips_report/01_version_5.md:26 \"with income reinvested in the holding that paid it\""
+   ],
+   "fix": "Keep a weekly record 7 Nov-4 Dec: WInS value, cash, income received, ladder value vs the value of the payments it covers on that day's Treasury curve, VT value, 10-year yield. In the Final Report explain the cash build-up as a result of the freeze, and make the income wording match what WInS actually does.",
+   "deadline": "Record starts Sat 7 Nov; income wording settled before the IPS (Wed 4 Nov)",
+   "confidence": "medium",
+   "new_vs_known": "new"
+  },
+  {
+   "id": "FR-07",
+   "title": "The AI kit's 'note-in-Final-Report' backlog includes STRIPS-basis tables with no superseded banner",
+   "severity": "high",
+   "deliverables": [
+    "FinalReport",
+    "Repo"
+   ],
+   "problem": "The kit parks material for the Final Report: 10 triage rows and 7 decision memos say 'note-in-Final-Report'. D_rivals and D_stress_bad_year model every payment as STRIPS and ask for their tables in the report; D_range_confidence_2031 uses the 28 Sep curve. None carries the 14 Oct superseded banner that D_certainty_definition has, although the 6 Oct email limits Laura's plan to WInS-listed securities. The repo's only Final Report outline is for the abandoned plan. Importing any of this would put superseded numbers and uncredited AI work into the report.",
+   "evidence": [
+    "rab/redteam/triage.md: 10 rows marked note-in-Final-Report (e.g. :54-62)",
+    "rab/decisions/D_rivals.md:12 \"Every plan's payments are modelled as zero-coupon (STRIPS) Treasuries\"; :61 \"This table (\\\"STRIPS basis\\\" in the heading)\"",
+    "rab/decisions/D_stress_bad_year.md:14 \"Payments, STRIPS basis\"; :72",
+    "rab/decisions/D_range_confidence_2031.md:3-4 \"MODEL, 28 Sep 2026 curve\"; :75",
+    "rab/decisions/D_certainty_definition.md:1 (banner present)",
+    "deliverables/final_report_outline.md:5 \"$298k lock cost ... 2031 committed minimum ≈ $113k\"",
+    "COMPETITION.md:87-90 (6 Oct email)"
+   ],
+   "fix": "Before 9 Nov the team lists which backlog items it actually wants, re-runs every kept number on WInS-listed holdings and the valuation date, and cites the AI origin in Works Cited. Success = no STRIPS-basis or 28 Sep number and no AI table presented as student work in the report.",
+   "deadline": "Backlog triaged by Mon 9 Nov",
+   "confidence": "high",
+   "new_vs_known": "known-deeper"
+  },
+  {
+   "id": "FR-08",
+   "title": "The Final Report carries Portfolio Analysis, Articulation and the co-sponsor part of Creativity almost alone",
+   "severity": "high",
+   "deliverables": [
+    "FinalReport",
+    "IPS",
+    "TNA"
+   ],
+   "problem": "The IPS bans projections, charts and citations and the TNA allows 100-word reflections, so three criteria can only be shown in the Final Report. Caplet's material is thinnest exactly there: AI-built projections, a 10-bullet journal ending 7 Oct, an empty Client Portrait and no student notes for the fundraising draft.",
+   "evidence": [
+    "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:57-59 (Portfolio Analysis, Articulation, Creativity wording)",
+    "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:51-52, 68-70, 123",
+    "team/google_drive/final_report.md:14-27",
+    "team/google_drive/client_portrait.md:14-15 \"Placeholder for now\"",
+    "Rules page via oct16/research/KB_what_wins.md:68 Top 50 \"based on the strength of their Investment Policy Statement (IPS) and Final Reports\""
+   ],
+   "fix": "Use a criterion-by-criterion plan (section 3.1 of the lens file): each phrase of each criterion is mapped to a Final Report section with a student owner who checks the draft against the exact words.",
+   "deadline": "Plan by Mon 9 Nov; check on drafts Sun 22 and Sun 29 Nov",
+   "confidence": "high",
+   "new_vs_known": "known-deeper"
+  },
+  {
+   "id": "FR-09",
+   "title": "The IPS must hold a principle for every Final Report computation, and only claims the team can cite",
+   "severity": "high",
+   "deliverables": [
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "After 6 Nov any new rule is a strategy change. V5 has no definition or test of 'high degree of certainty', no return assumption, no valuation date for the 2031 top, and only a partial reserve path, yet the Final Report must compute all of these. IPS sources must appear in the Final Report, so an unsourced IPS claim (for example the pitch's co-sponsor claim) becomes a visible gap in December.",
+   "evidence": [
+    "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:72-74 (no revision after the deadline); :124-125 \"Relevant sources and supporting evidence must be included in the Final Report.\"",
+    "team/google_drive/ips_report/01_version_5.md:20 \"with high certainty\"; :26 reserve \"shrinking as each payment is made\"; :30 \"the floor plus half the equity fund's value then\"; :16 \"co-sponsors who fund the building rarely pay to run it\"",
+    "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:94-99, 146-149"
+   ],
+   "fix": "Before the IPS is final, check a hook table (reserve path, certainty definition and test, return/inflation/FX assumptions named, valuation date for the range, shortfall order, flexibility). Add principles, not numbers, where missing, and drop claims the team cannot source.",
+   "deadline": "Before IPS submission (target Thu 5 Nov Sydney)",
+   "confidence": "high",
+   "new_vs_known": "known-deeper"
+  },
+  {
+   "id": "FR-10",
+   "title": "Articulation needs a true dated record; the 7 Oct incident must be told as it happened, including the AI tool",
+   "severity": "high",
+   "deliverables": [
+    "FinalReport",
+    "Team",
+    "Finale"
+   ],
+   "problem": "Articulation scores the decision-making process and 'response to challenges'. Caplet has real material (stale prices, IBTN mix-up, sector-rule myth, night trading, the 7 Oct cancelled order) but the journal stops 7 Oct with blanks, key calls were deferred to AI, and last year's report used quoted dialogue and vote counts under an instruction to make stories up. The 7 Oct cancellation was an AI browser click, so a truthful account names AI.",
+   "evidence": [
+    "team/google_drive/final_report.md:16 \"[who argued what]\"; :23 \"Outcome and reasons: [fill in]\"; :27 (night trading)",
+    "COMPETITION.md:192-193 \"on 7 Oct an AI browser click cancelled the wrong order (May-2038)\"",
+    "CLAUDE.md:75 \"the team deferred to the assistant's evidence-based calls\"",
+    "team/google_drive/2025_knox_wharton.md:190 \"The vote was 4-2\"; :214 FMC loss story; :3827 \"Make up stories\"",
+    "Rules page Ethics: do not \"invent teamwork and experiential stories\" (oct16/research/R2_past_rules_rubrics.md, section 1.6)"
+   ],
+   "fix": "Back-fill a decision log, meeting notes, challenges log and learning log only from records (chats, emails, Doc history). For 7 Oct record time, order, how it was found, what changed, what it cost and the lesson about tools in trading. Success = every story in the report traces to a dated record.",
+   "deadline": "Back-fill by Sun 25 Oct, then weekly",
+   "confidence": "high",
+   "new_vs_known": "known-deeper"
+  },
+  {
+   "id": "FR-11",
+   "title": "The Works Cited AI entry must be true, specific and complete; the current log and template are not",
+   "severity": "high",
+   "deliverables": [
+    "FinalReport",
+    "All"
+   ],
+   "problem": "Wharton requires that AI use 'in any way' be recorded in Works Cited; 2023-24 asked for 1-2 sentences per AI tool on how it was used. Caplet's AI use is large (councils, 472 questions, models, memos, exemplar IPS v3-v12, example notes, mock judges, the WInS click, these reviews, and [AI] suggestions since 16 Oct). The log has 24 dated rows and none from 1-15 Oct. Its template disclosure says students 'made all decisions, and wrote all submitted text', which becomes untrue if any [AI] wording is accepted, and sections 1-4 describe a DCF platform the strategy never used.",
+   "evidence": [
+    "Wharton AI Policy (oct16/research/KB_what_wins.md:81): \"how you use it must be recorded in your Works Cited pages\"",
+    "Page 3768, 2023-24: \"please include 1-2 sentences on how you used that AI tool to achieve your goal\" (accessed 16 Oct 2026)",
+    "caplet-latest/docs/AI_USE.md:60-77 (rows dated 24-30 Sep and 16 Oct only); :91 \"Students checked the sources, made all decisions, and wrote all submitted text.\"; :45-51 DCF/skfolio disclosure",
+    "CLAUDE.md insight_v1 section: \"472 questions -> 48 survived ... 12 audited specialists\"",
+    "caplet-latest/CLAUDE.md:26-30 ([AI] suggestion rule)"
+   ],
+   "fix": "Keep an AI record from now (date, tool and model, task, output, what students kept or rejected, exact accepted [AI] wording, the WInS browser use) and write the Works Cited entry from it by tool and task. Success = a reader could predict what AI did and did not do, and every sentence is literally true.",
+   "deadline": "Record back-filled by Sun 18 Oct; entry drafted by students by Sun 29 Nov",
+   "confidence": "high",
+   "new_vs_known": "known-deeper"
+  },
+  {
+   "id": "FR-12",
+   "title": "Prepare for a 150-word team reflection and an advisor reflection the advisor writes",
+   "severity": "medium",
+   "deliverables": [
+    "FinalReport",
+    "Team"
+   ],
+   "problem": "Last year's Knox report had a 150-word team takeaways box and an advisor paragraph; 2022-23 and 2023-24 required 150-word advisor reflections. If this year's instructions repeat this, both must be ready in a 25-day window that ends with the school term. Last year's advisor paragraph sat in the students' edited doc; who wrote it is unverified.",
+   "evidence": [
+    "team/google_drive/2025_knox_wharton.md:247 \"Section 2: Describe in 150 words or less, your takeaways from this team's competition experience.\"",
+    "team/google_drive/2025_knox_wharton.md:84-86 \"SECTION 2: ADVISOR AND TEAM REFLECTIONS\"",
+    "Page 3768 2022-23 and 2023-24 summary pages (oct16/research/R2_past_rules_rubrics.md section 2.1)"
+   ],
+   "fix": "A weekly learning log (one line per student) feeds the team reflection. Tell the advisor now that a reflection may be asked for and give them the evidence log in November; the advisor writes their own words.",
+   "deadline": "Advisor told by Fri 23 Oct; learning log weekly from now",
+   "confidence": "medium",
+   "new_vs_known": "new"
+  },
+  {
+   "id": "FR-13",
+   "title": "Five purposeful charts, built by students from data collected now; no WInS pie chart",
+   "severity": "medium",
+   "deliverables": [
+    "FinalReport"
+   ],
+   "problem": "'Uses data effectively' replaced 'visually pleasing ... many creative elements'. The only chart plan is for the abandoned plan; the kit's charts are AI-made and partly STRIPS-era; the WInS chart mislabels the bond funds. Charts need data series (weekly book vs payments, valuation-date curve) that must be collected before the report window.",
+   "evidence": [
+    "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:59 \"uses data effectively to support conclusions\"",
+    "oct16/research/KB_what_wins.md:195 (old 'visually pleasing ... many creative elements' dropped)",
+    "deliverables/final_report_outline.md:7-15 (charts 01-05 of the old plan)",
+    "COMPETITION.md:98"
+   ],
+   "fix": "Plan five charts, each answering one client question: cash-flow timeline 2027-2042; the 2031 range; coupon-reinvestment sensitivity; ladder vs payments during WInS; allocation over time. Students build them from data they can explain.",
+   "deadline": "Data collection from now; drafts by Sun 15 Nov",
+   "confidence": "medium",
+   "new_vs_known": "known-deeper"
+  },
+  {
+   "id": "FR-14",
+   "title": "The school letter must be signed before Thu 3 Dec, with names exactly as on the roster",
+   "severity": "medium",
+   "deliverables": [
+    "FinalReport",
+    "Team"
+   ],
+   "problem": "The signed letter on school letterhead is required with the report and lists the advisor and every student by full name. It had not been requested as of 13 Oct. Term ends Thu 3 Dec and Fri 4 Dec is a staff day. Semifinalists later need letterhead documentation and signed consent and waiver forms.",
+   "evidence": [
+    "competition/official/2026_27/2026_27_School_Documentation_Template.txt:1-28 (letterhead, administrator position, full address, advisor first and last name, students' first and last names, team leader first, signature, date)",
+    "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:52 \"Do not wait until the last minute to request documentation.\"",
+    "COMPETITION.md:128-132 \"Request it early (not yet requested as of 13 Oct)\"",
+    "Knox term dates page (accessed 16 Oct 2026)",
+    "Rules page via oct16/research/R4_2026_27_specifics.md:342-343 (semifinal letterhead; Consent and Waiver, parent signature under 18)"
+   ],
+   "fix": "Ask through the advisor now; hold the letter by Fri 20 Nov; check each name against the private roster note; keep it off the repo.",
+   "deadline": "Request by Fri 23 Oct; in hand Fri 20 Nov",
+   "confidence": "high",
+   "new_vs_known": "known-deeper"
+  },
+  {
+   "id": "FR-15",
+   "title": "Students cannot yet defend the numbers and decisions live without AI",
+   "severity": "high",
+   "deliverables": [
+    "Finale",
+    "Team",
+    "FinalReport"
+   ],
+   "problem": "Semifinal and finale questions test ownership, and past semifinals required each member to explain their contribution. The strategy calls were deferred to AI, the IPS draft is labelled as AI-generated by the team, every number is AI-built and most students have no recorded role. Judges at past finales included a fixed-income or credit specialist. No real judge question lists are public.",
+   "evidence": [
+    "CLAUDE.md:75 \"the team deferred to the assistant's evidence-based calls\"",
+    "team/google_drive/ips_report/01_version_5.md:36 \"Best version that AI generated\"",
+    "2025-26 Semifinalists Next Steps PDF via oct16/research/KB_what_wins.md:75, 212 (\"Every team member must have a speaking role and briefly explain how they contributed value\")",
+    "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:89 \"All team members must participate.\"",
+    "oct16/research/KB_what_wins.md:181 (Aberdeen fixed-income/credit judge 2024-2026)"
+   ],
+   "fix": "Use the 30-question list and numbers table in the lens file. Every second week run a no-laptop test: each student answers five questions aloud in 60 seconds with the right number, date and basis; each student rebuilds at least one number in a spreadsheet. Success = any student answers any question in their own words.",
+   "deadline": "First test by Sun 1 Nov; repeat fortnightly through the Final Report",
+   "confidence": "high",
+   "new_vs_known": "known-deeper"
+  },
+  {
+   "id": "FR-16",
+   "title": "Agree the line between 'what we would do differently' and redesign before writing it",
+   "severity": "medium",
+   "deliverables": [
+    "FinalReport",
+    "Finale"
+   ],
+   "problem": "The Guide allows decisions the team would make differently but forbids redesign after seeing results. Some tempting lessons are strategy changes (more stocks, a dedicated reserve) that would read as redesign; others are implementation lessons (order timing, after-hours iBond spreads, AI in WInS, roles set late, decisions not logged).",
+   "evidence": [
+    "competition/official/2026_27/2026_WGY_Investment_Competition_Guide.txt:156-159 \"you may not redesign your strategy after observing the results\"",
+    "team/google_drive/final_report.md:19-20 (stale prices; after-hours spreads)",
+    "COMPETITION.md:100, 192-193",
+    "2025-26 semifinal rule allowing reflection on weaknesses \"without changing the original strategy\" (oct16/research/KB_what_wins.md:214-215)"
+   ],
+   "fix": "Make a two-column list (implementation lesson vs strategy question) agreed by the team before drafting. Strategy weaknesses are stated as limitations with their size, never as changes.",
+   "deadline": "List agreed by Sun 15 Nov",
+   "confidence": "medium",
+   "new_vs_known": "new"
+  },
+  {
+   "id": "FR-17",
+   "title": "Anything the semifinal or finale will show must already be in the Final Report (no new material)",
+   "severity": "medium",
+   "deliverables": [
+    "FinalReport",
+    "Finale"
+   ],
+   "problem": "Past semifinals disqualified 'completely new material' and required a case study of one stock or ETF in the portfolio. Caplet's natural case study (IBTM, or VT), the alternatives it rejected and its co-sponsor logic must be in the report to be usable later.",
+   "evidence": [
+    "oct16/research/KB_what_wins.md:210-215 (2025-26: \"a case study of one stock or ETF\"; \"Do NOT introduce completely new material\")",
+    "oct16/lenses/L04_uniqueness.findings.json UNIQ-15 (IBTM as the ETF case study)"
+   ],
+   "fix": "The report contains a plain IBTM explanation (holdings, its two jobs, why its payout is not fixed, its final months) and an alternatives table on WInS-listed instruments. Success = a semifinal deck can be built from the report with nothing new.",
+   "deadline": "In the Final Report draft by Sun 22 Nov",
+   "confidence": "medium",
+   "new_vs_known": "known-deeper"
+  },
+  {
+   "id": "FR-18",
+   "title": "The public repo and fork collide with the semifinal/finale posting ban and the title-page username",
+   "severity": "medium",
+   "deliverables": [
+    "Repo",
+    "FinalReport",
+    "Finale"
+   ],
+   "problem": "Wharton bans recording, screenshots and posting presentations or participants online during the Semifinals or Global Finale. The repo is public and a team member's fork exists, so semifinal slides, recordings or notes committed there would be posted online. The Final Report title page will carry the WInS username, so a report PDF or draft in the repo would publish it.",
+   "evidence": [
+    "Rules page via oct16/research/R4_2026_27_specifics.md:344 \"Video recording, audio recording, photography, screenshots, or posting presentations or participants online during the Semifinals or Global Finale is strictly prohibited.\"",
+    "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:98-100 (WInS username on the title page)",
+    "CLAUDE.md working rules: \"Repo is public\"",
+    "Task context: public fork created 15 Oct 2026 22:10 UTC"
+   ],
+   "fix": "Keep Final Report drafts, the title page, the school letter and any semifinal or finale material on the private Drive only; never commit them. Success = nothing judged or presented is published by the team before or during judging.",
+   "deadline": "Rule agreed now; applies from the first Final Report draft",
+   "confidence": "medium",
+   "new_vs_known": "new"
+  },
+  {
+   "id": "FR-19",
+   "title": "Finale logistics from Sydney: week 1 of Knox Term 2, unfunded travel, late-night virtual sessions",
+   "severity": "low",
+   "deliverables": [
+    "Finale",
+    "Team"
+   ],
+   "problem": "The Global Finale is 29-30 April 2027. Knox Term 2 2027 begins Tue 27 April, so a trip falls in week 1 of term; Wharton does not fund travel and in-person teams need an accompanying adult. Virtual attendance is allowed; with Sydney 14 hours ahead of Philadelphia then, a 9:00 am EDT session is 11:00 pm Sydney.",
+   "evidence": [
+    "Wharton main page \"April 29 & 30\" (oct16/research/KB_what_wins.md:112)",
+    "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:86-87 (costs not covered; virtual allowed)",
+    "Rules page via oct16/research/R4_2026_27_specifics.md:348 \"At least one adult ... must accompany the team\"",
+    "https://www.knox.nsw.edu.au/about/public-information/term-dates (accessed 16 Oct 2026) \"Tuesday 27 April Term 2 Commences\" (2027)"
+   ],
+   "fix": "Note it in the availability calendar; decide only if selected (finalists were announced around 20-25 March in past years).",
+   "deadline": "No action before selection; note in calendar by Sun 18 Oct",
+   "confidence": "medium",
+   "new_vs_known": "new"
+  }
+ ]
+}

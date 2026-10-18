@@ -1,0 +1,571 @@
+[
+ {
+  "id": "UNIQ-01",
+  "title": "The case funnels competent teams into one shape; Caplet must win on three repeated ideas, not on structure",
+  "severity": "medium",
+  "deliverables": [
+   "All"
+  ],
+  "problem": "Wharton's example trade note, the IPS prompts and the case's 2033 reserve wording all point teams to a glide path into bonds, with a Monte Carlo '95%' and a percentile band for 2031. The strongest rivals will also ladder Treasuries (2021-22 had a similar ten-year payment case). Caplet's own research admits 'no structural edge' against a same-plan rival with plainer words. With about 2.1% of reports reaching the Top 50, 'a good ladder' alone is not memorable. Verifier: the prediction of what other teams will do is INFERENCE; the 'no structural edge' line comes from AI-simulated evaluators (research/insight_v1/why_us.md:18-23), not real judges.",
+  "evidence": [
+   "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:36-39: 'intermediate-term U.S. Treasury bond ETF ... as the residency funding date approaches'",
+   "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:22-23: 'How will the portfolio's asset allocation and composition change as future funding needs approach'",
+   "competition/official/2026_27/2026_WGY_Investment_Competition_Guide.txt:156: 'planned adjustments as funding dates approach'",
+   "research/insight_v1/why_us.md:90: 'Against a same-plan rival with warmer, plainer words: we have no structural edge'",
+   "oct16/research/KB_what_wins.md 1.1 and 3.3 (49 of 2,339 in 2025-26; 2021-22 'for at least 10 years' case [N22])"
+  ],
+  "fix": "Team votes on at most three signature ideas (suggested: each deposit has one job; promise only what is already bought; an evidence-based co-sponsor range). Each is defined once in plain words and used the same way in the TNA, IPS and Final Report, since consistency with the IPS is scored (deliverables.txt:55).",
+  "confidence": "medium",
+  "new_vs_known": "new",
+  "deadline": "Vote with vote set A, Sun 18 Oct (Sydney), before TNA reflections",
+  "lens": "L04_uniqueness",
+  "verdict": "adjusted",
+  "verifier_note": "Quotes verified (TNA:36-39, IPS:22-23, Guide:156, why_us.md:3,90; KB 1.1 and 3.3). Severity high -> medium: the 'modal team' shape is INFERENCE, and 'no structural edge' is a finding of simulated AI evaluators (why_us.md:18-23), not of judges. The case itself says 'There is no single correct strategy' (case:126-128). The actionable part duplicates UNIQ-02/03."
+ },
+ {
+  "id": "UNIQ-02",
+  "title": "Caplet's distinctive material sits in files judges never read",
+  "severity": "medium",
+  "deliverables": [
+   "TNA",
+   "IPS",
+   "FinalReport"
+  ],
+  "problem": "Judges see 3 notes plus at most 300 words of reflections, a 550-word IPS and the Final Report. The ideas that set Caplet apart (two deposits/two jobs, funder evidence, why-now, price of certainty, real learning stories) are in an 831-page AI record, a 27-page brief and team notes. IPS V5 clearly shows only two of the eight keepers (dated matching; iBonds as dated cash), with the owned floor partly visible. Verifier: much of this is Final Report material by design (IPS:68-70; TNA:20-23), so the near-term risk is limited to the TNA (23 Oct ET) and the IPS (6 Nov).",
+  "evidence": [
+   "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:31-41 (50 + 500 words)",
+   "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:46 ('100 words or fewer')",
+   "CLAUDE.md insight_v1 section: '831-page record'",
+   "team/google_drive/ips_report/01_version_5.md:16-30",
+   "team/google_drive/notes_and_discussions.md:209-228 (co-sponsor research), :276-316 (price of certainty, history)"
+  ],
+  "fix": "Make a team-only 'visibility map': each signature idea, the deliverable and paragraph it lives in, and the student who owns it. Anything not on the map stays out of the deliverables.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "Map by Wed 28 Oct (before the IPS outline)",
+  "lens": "L04_uniqueness",
+  "verdict": "adjusted",
+  "verifier_note": "Evidence exists (IPS:31-41 50+500 words; TNA:46 100 words; V5:16-30). Severity high -> medium: most 'buried' items are Final Report material by Wharton's design. The IPS 'is not expected to include ... a final facility-contribution range, or the draft communication to co-sponsors' (IPS:68-70), and the TNA is not expected to include projections or co-sponsor text (TNA:20-23). So it is mainly a timing issue; the visibility map is still a cheap, useful fix."
+ },
+ {
+  "id": "UNIQ-03",
+  "title": "'Each deposit has one job' is the single elegant idea, and V5 does not state it",
+  "severity": "high",
+  "deliverables": [
+   "IPS",
+   "TNA",
+   "FinalReport"
+  ],
+  "problem": "The case gives two deposits and two goals (case:43-45, 88-92, 101-107). Caplet's design gives each deposit a main job. That is client-driven and easy to remember. V5 describes the sequence (V5:24), but the pitch leads with 'co-sponsors who fund the building rarely pay to run it' (V5:16). That claim is only weakly supported (a US 'starvation cycle' article about overhead), not by evidence that co-sponsors 'rarely' fund operations. The idea only works as a rule: on 15 Oct the holdings basis left $1,372 of room (4.7bp, 0%-carry basis), and about 1 model path in 3 overflows by January. It also needs the 2028 deposit's two parts and the kept half's role settled first.",
+  "evidence": [
+   "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:43-45, 88-92, 101-107",
+   "research/insight_v1/why_us.md:3-4: 'each deposit buys one promise when it arrives'",
+   "team/google_drive/ips_report/01_version_5.md:16 (pitch), :24 (sequence)",
+   "oct16/research/KB_verify/num/reconcile.py re-run on caplet-latest/competition/official_market_data/daily-treasury-rates_2026-10.csv: WInS maturities, unchanged curve $298,628, room $1,372 (4.7bp)",
+   "research/insight_v1/phase_A/stakeholder_map.md:263-265 (SSIR 'starvation cycle', W-3)",
+   "oct14/final.md:435, :779 (pitch claim 'unsupported, not contradicted')",
+   "verify/L03_strategy_redteam.final.json STRAT-01 verifier note ('about 1 in 3 is fair')"
+  ],
+  "fix": "Students carry the idea in their own words in the pitch and the first IPS rule: one job per deposit, with the overflow step (any shortfall is the first call on the 2028 deposit). No dollar figure in the pitch. The IBTM and IBTR reflections use the same labels.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "TNA reflections Tue 20 Oct; IPS outline Wed 28 Oct; IPS due Sat 7 Nov 09:00 Sydney",
+  "lens": "L04_uniqueness",
+  "verdict": "adjusted",
+  "verifier_note": "Case lines and V5:16, 24 verified; reconcile.py re-run gives $298,628 / $1,372 (4.7bp). Corrections: (1) the odds that $300k falls short by January are about 1 in 3 on the payment-date basis (16 Oct sheet 35%; L03 verifier 28%), higher on the strict 0%-carry basis; the lens's 44-45% mixes bases. (2) 'Rarely pay to run it' is weakly supported, not unsupported (SSIR 'starvation cycle', research/insight_v1/phase_A/stakeholder_map.md:263-265). The 15 Oct brief already said 'unsupported, not contradicted' (oct14/final.md:779). (3) The slogan is not literally true: the 2028 deposit has two parts (floor + stock fund) and Laura's kept half has three jobs in V5 (see L04-V2). Severity stays high because the pitch is the first thing judges read."
+ },
+ {
+  "id": "UNIQ-04",
+  "title": "The 'why now' fact survives only on the holdings basis; the team's figures and the case-timing story are stale or false",
+  "severity": "medium",
+  "deliverables": [
+   "FinalReport",
+   "Finale",
+   "IPS"
+  ],
+  "problem": "The team note says the 28 Sep cost was 'the cheapest since May 2002' and that $300k bought all ten on 'only 11% of days since 2000' (notes_and_discussions.md:311-320). Those figures value the old Nov-15 ladder on the trade date. A re-price of every treasury.gov par curve, 3 Jan 2000 to 15 Oct 2026 (6,698 days), gives different answers by basis. Holdings maturities, curve unchanged, valued at 1 Jan 2027: 562 days (8.4%), none from 13 Jul 2007 to 22 Sep 2026. Payment dates: 687 days (10.3%), including one day in Oct 2023 (19 Oct, $299,192), with the first 2026 day on 10 Sep. Either way the true point stands: for most of the last 18 years $300k could not buy all ten payments (2021 median about $427k; peak about $472k on 4 Aug 2020, MODEL). The case-PDF timing story is speculation on any basis.",
+  "evidence": [
+   "team/google_drive/notes_and_discussions.md:173 ('first day in 2026 the ten-payment ladder cost dropped under $300k'), :309-316 ('$289,119, the cheapest since May 2002'; 'Only 11% of days')",
+   "oct16/lenses/L04/hist_ladder.py and oct16/lenses/L04/hist_ladder_output.txt (data: rab/data/treasury_par_2000_2026/, competition/official_market_data/daily-treasury-rates_2026-09.csv, caplet-latest/.../daily-treasury-rates_2026-10.csv)",
+   "verify/L04w/h2.py (verifier re-run): payment-date basis 687 days; 2023-10-19 $299,192; first 2026 day 2026-09-10",
+   "research/insight_v1/verification/ladder_2026-09-28/README.md:3-11 ($289,119 = Nov-15 ladder valued on 28 Sep)"
+  ],
+  "fix": "If used, the fact goes in the Final Report with its date, its basis and the plan's rule for price changes (a chart only if the 9 Nov instructions allow it). Use a basis-proof wording (rarely affordable since 2008), not 'first time since 2007' or 'since 2002'. The IPS gets at most a clause with no figure. A student rebuilds the figure in a spreadsheet, and the AI help goes in Works Cited. Drop the case-timing story.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "Re-run and log by Sun 15 Nov; Final Report due Sat 5 Dec 09:00 Sydney",
+  "lens": "L04_uniqueness",
+  "verdict": "adjusted",
+  "verifier_note": "hist_ladder.py re-run reproduces 562 days (8.4%), last pre-2026 day 13 Jul 2007, first 2026 day 23 Sep, 2021 median $427,021, peak $472,013. Team's $289,119 is the Nov-15 ladder valued on 28 Sep, not at 1 Jan 2027 (research/insight_v1/verification/ladder_2026-09-28/README.md:3-11), so 'stale' is right. But the fact is basis-sensitive: on the payment-date basis $300k bought all ten on 687 days (10.3%), including 19 Oct 2023 ($299,192), and the first 2026 day was 10 Sep. So 'no day since 2007' holds only on the strict holdings basis, and the case-timing story is not 'false', just speculative (the PDF creation date and any designer intent are UNVERIFIED). A chart in the Final Report is UNVERIFIED until the 9 Nov instructions. Severity high -> medium: this is extra material for the Final Report, and the only real risk is quoting stale or one-basis figures."
+ },
+ {
+  "id": "UNIQ-05",
+  "title": "Co-sponsor communication is the clearest open chance, and Caplet holds verified evidence most teams lack",
+  "severity": "high",
+  "deliverables": [
+   "FinalReport",
+   "IPS",
+   "Finale"
+  ],
+  "problem": "Creativity now scores communicating 'investment uncertainty clearly and credibly to prospective co-sponsors', a clause new this year. The modal answer will be a percentile band. Five sources re-checked today support a better-designed message: numbers next to probability words; keeping a promise beats exceeding it; seed money signals viability; announcing a lead gift raises giving; one large U.S. capital funder counts only written pledges or cash. Limits: mostly U.S. individual donors or one U.S. foundation, not Taiwanese institutional co-sponsors. Verifier corrections: the Kresge guide is dated 2011 and the challenge grant is now used only 'on occasion'. Its 'committed, imminent or backstopped' test covers named sources only. Budescu's result is that numeric ranges 'increase the correspondence', not that they fix the problem.",
+  "evidence": [
+   "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:59",
+   "Laura_Gao_2026_Client_Profile.txt:110-120 ('meaningful personal contribution may signal'; 'credible range')",
+   "https://www.nature.com/articles/nclimate2194 (accessed 16 Oct 2026): '25 samples in 24 countries and 17 languages' ... 'closer to 50% than intended'",
+   "https://www.chicagobooth.edu/review/dont-bother-doing-more-than-you-promised (accessed 16 Oct 2026): 'exceeded promises made them no happier'",
+   "https://ideas.repec.org/p/van/wpaper/0008.html (accessed 16 Oct 2026): 'seed money from 10% to 67% ... nearly a sixfold increase'",
+   "https://ideas.repec.org/a/eee/pubeco/v95y2011i5-6p351-362.html (accessed 16 Oct 2026): 'simply announcing the presence of a lead gift'",
+   "https://kresge.org/sites/default/files/GuidetoChallengeGrant.pdf (accessed 16 Oct 2026): 'Written pledges or cash'; 'committed, imminent or backstopped'",
+   "Kresge guide p.1 (accessed 16 Oct 2026): 'Updated June 30, 2011'; 'Although the challenge grant is no longer the centerpiece of our work, it is used on occasion'"
+  ],
+  "fix": "The students' fundraising excerpt must give: a dated, bought bottom; a top set by a stated rule; the chance of reaching the top in words and a number; what bad markets do; and a re-quote rule for the two-year campaign. It must never promise to exceed the top, and it states the evidence's limits. Sources go in the Final Report; the IPS carries only the principle (IPS:68-70, 123-125).",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "Principle in IPS outline Wed 28 Oct; excerpt drafted by Sun 22 Nov",
+  "lens": "L04_uniqueness",
+  "verdict": "adjusted",
+  "verifier_note": "All five quotes found on the live pages (16 Oct 2026). Corrections: the Kresge guide is 'Updated June 30, 2011' and says 'the challenge grant is no longer the centerpiece of our work'. 'Committed, imminent or backstopped' applies only to long-term financing, government funds, organizational funds and bequests, not to all other sources. Budescu: numerical ranges 'increase the correspondence', which is less than 'fixed much'. Gneezy-Epley is cited through a magazine summary, so the Final Report should cite the original paper. Severity stays high: the case requires the fundraising excerpt (case:123-124) and the rubric scores it (deliverables.txt:59)."
+ },
+ {
+  "id": "UNIQ-06",
+  "title": "'About 99%' confidence is circular and looks like everyone's Monte Carlo; the informative number is the chance of reaching the top",
+  "severity": "medium",
+  "deliverables": [
+   "IPS",
+   "FinalReport"
+  ],
+  "problem": "The number sheet's 'about 99% (99.4% of 200,000 paths)' is half true by design: the cap stops the gift going above the top. The other half is a real model test of the bottom against coupon shortfalls (IPS_number_sheet.md:17). Quoted as a bare '99 times in 100' ([AI] suggestion 12, IPS_v5_suggestions.md:20), it reads like everyone's Monte Carlo and hides the uncertainty co-sponsors care about: where inside the range the gift lands ('at or within $1,000 of the top in about 3 cases in 4', line 18, MODEL).",
+  "evidence": [
+   "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:17-18",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:20",
+   "oct16/lenses/L03_strategy_redteam.findings.json STRAT-07"
+  ],
+  "fix": "The Final Report must still state a confidence, because the case requires one (case:117-118). Explain what makes the top hold (the cap) and what makes the bottom hold (bought Treasuries; the coupon-shortfall test). Add where in the range the gift is likely to land, in words and a number. Rebuild on the holdings basis before quoting. The IPS does not need the range or the figure (IPS:68-70).",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "Before the IPS draft, Sat 31 Oct",
+  "lens": "L04_uniqueness",
+  "verdict": "adjusted",
+  "verifier_note": "Number sheet lines 17-18 and suggestion 12 (IPS_v5_suggestions.md:20) verified. Partly wrong: the top cannot be exceeded by design, but the 99.4% is also a real model test of the bottom (the gift falls below it only after a coupon shortfall bigger than the leftover plus Laura's half; sheet line 17). The case requires a confidence statement (case:117-118), so the fix must restate it, not drop it. The final range and co-sponsor text are not expected in the IPS (IPS:68-70), so suggestions 11-12 are optional there."
+ },
+ {
+  "id": "UNIQ-07",
+  "title": "The rubric scores 'appropriate diversification', and [AI] suggestion 8 deletes V5's only defence of one-issuer concentration",
+  "severity": "high",
+  "deliverables": [
+   "IPS",
+   "FinalReport"
+  ],
+  "problem": "Caplet is about 90% U.S. Treasuries plus one world fund. The IPS instructions ask how the team approaches 'portfolio construction and diversification' (IPS:45-47), and the rubric scores 'appropriate diversification' (deliverables.txt:55). V5 has two diversification points: the one-issuer defence and 'thousands of companies' (V5:24). [AI] suggestion 8 cuts the first and suggestion 7 drops the second (IPS_v5_suggestions.md:15-16). Accepted together, they leave the IPS with no answer to an element it is explicitly asked to cover.",
+  "evidence": [
+   "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:55: 'uses appropriate diversification'",
+   "team/google_drive/ips_report/01_version_5.md:24",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:16, :18",
+   "oct16/research/KB_what_wins.md 7.2 #3 ('U.S. government concentration' as a likely bond-judge probe)",
+   "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:45-47: 'Explain how your team will approach risk and return, liquidity, portfolio construction and diversification'",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:15 (suggestion 7 drops 'thousands of companies')"
+  ],
+  "fix": "Reject suggestions 7 and 8 as written, unless their content survives elsewhere. Keep one plain, student-written reason why matching beats spreading for the payments (dollar obligations, dated holdings, one maturity a year). Keep one fact on how the growth money is spread (about 10,000 stocks in one fund; Vanguard data 31 Aug 2026 shows 10,088-10,112).",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "IPS draft Sat 31 Oct",
+  "lens": "L04_uniqueness",
+  "verdict": "adjusted",
+  "verifier_note": "Confirmed and stronger than stated. The IPS instructions ask teams to 'Explain how your team will approach ... portfolio construction and diversification' (IPS:45-47). V5 never uses the word 'diversification'. Its only diversification content is the one-issuer sentence (cut by suggestion 8, line 16) and 'a global index fund of thousands of companies' (V5:24). Suggestion 7 (line 15) rewrites that to 'a world stock index fund' and drops 'thousands of companies'. Accepting 7 and 8 together leaves no diversification content. Severity high kept."
+ },
+ {
+  "id": "UNIQ-08",
+  "title": "'Certainty by price, not by model' is distinctive only if it is literally true",
+  "severity": "medium",
+  "deliverables": [
+   "IPS",
+   "FinalReport"
+  ],
+  "problem": "Defining certainty by a checkable price is Caplet's most distinctive answer to the case's 'define ... explain how ... assumptions' ask. But the holdings pay coupons that must be reinvested: about $21,000 short if yields fall two points for good (MODEL). V5's 'depends mainly on the US government' overstates, so a bond-expert reader can break the claim.",
+  "evidence": [
+   "Laura_Gao_2026_Client_Profile.txt:97-99",
+   "research/insight_v1/why_us.md:78 (R2)",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:30-48",
+   "team/google_drive/ips_report/01_version_5.md:20",
+   "oct16/lenses/L03_strategy_redteam.findings.json STRAT-02, STRAT-04",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:49-54 (three options)"
+  ],
+  "fix": "Before 6 Nov, pick one coupon-risk option. The choices are L03's dedicated design (about $5-10k, MODEL) or one of the 16 Oct sheet's three options (state the risk; keep Laura's half to 2042; a $10-20k buffer; IPS_number_sheet.md:49-54). Whichever is chosen, check it against the IBTM and IBTR notes, which cannot be edited. Then state the definition so that it is literally true.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "Vote set B, Tue 27 Oct",
+  "lens": "L04_uniqueness",
+  "verdict": "adjusted",
+  "verifier_note": "Sheet lines 30-48, V5:20 and why_us.md:78 verified. Overlaps L03 STRAT-02/04, which the verifier cut to medium. Corrections to the fix: the 16 Oct sheet offers three options (state the risk; keep Laura's half to 2042; a $10-20k buffer from the 2028 deposit), and L03's dedicated design competes with them. The L03 verifier also noted that the dedicated design drops the IBTM 2033 rung that a likely TNA pick describes, so any design change must be checked against the filled notes first."
+ },
+ {
+  "id": "UNIQ-09",
+  "title": "'Operations pre-funded' is a real funder-facing edge, but V5's pitch over-claims it",
+  "severity": "medium",
+  "deliverables": [
+   "IPS",
+   "FinalReport"
+  ],
+  "problem": "V5's pitch says co-sponsors 'rarely pay to run it' (V5:16). The case says operating support beyond Laura's commitment 'may come from co-sponsors' (case:85-86), and no verified source supports 'rarely'. The lens's own kernel is misread. Kresge's 'sustaining support gained during the campaign' means keeping donors, not running costs. The usable lines are Kresge's 2011 question about building 'a larger support base of private giving to address annual operating needs' and the SSIR overhead 'starvation cycle'.",
+  "evidence": [
+   "team/google_drive/ips_report/01_version_5.md:16",
+   "Laura_Gao_2026_Client_Profile.txt:85-86",
+   "https://kresge.org/sites/default/files/GuidetoChallengeGrant.pdf (accessed 16 Oct 2026), p.3 Q3: 'build a larger support base of private giving to address annual operating needs'; Q6 is about donor support",
+   "research/insight_v1/phase_A/stakeholder_map.md:263-265 (SSIR 'starvation cycle')"
+  ],
+  "fix": "Students reframe the claim to what the sources show: funders worry about running costs, and Laura can show ten years already paid for. Cite the sources with their dates in the Final Report. The pitch must not rest on 'rarely'.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "IPS draft Sat 31 Oct",
+  "lens": "L04_uniqueness",
+  "verdict": "adjusted",
+  "verifier_note": "V5:16 and case:85-86 verified. The Kresge quote is real but misread. Q6, 'Do you have a plan for sustaining support gained during the campaign after it concludes?', sits in a list of fundraising questions and means keeping donor support, not operating costs. The relevant Kresge line is Q3: 'build a larger support base of private giving to address annual operating needs'. It comes from a 2011 guide that the funder itself calls 'a reference'. The SSIR 'starvation cycle' (stakeholder_map.md:263-265) gives partial support to the idea that funders underfund running costs."
+ },
+ {
+  "id": "UNIQ-10",
+  "title": "Answer 'too timid' with a measured price of certainty, not more stocks; the existing table is on the old model",
+  "severity": "medium",
+  "deliverables": [
+   "FinalReport",
+   "Finale"
+  ],
+  "problem": "All three simulated Lauras called the plan too timid. The team has a smaller-floor table (each $25k less floor adds about $2-3k at the middle and costs about $9-10k in a bad case), but it came from the STRIPS-era model and cannot be quoted. Most teams will simply assert a 'balance'.",
+  "evidence": [
+   "team/google_drive/notes_and_discussions.md:99, :276-301",
+   "research/insight_v1/scripts/F1_floor_variants.py (named at notes_and_discussions.md:282)",
+   "Laura_Gao_2026_Client_Profile.txt:69-74 ('appropriate balance')"
+  ],
+  "fix": "Re-run the floor-variant comparison and an all-Treasury baseline on WInS-listed holdings and a current curve. Show it in the Final Report as a choice the team made.",
+  "confidence": "medium",
+  "new_vs_known": "known-deeper",
+  "deadline": "Re-run by Sun 15 Nov",
+  "lens": "L04_uniqueness",
+  "verdict": "adjusted",
+  "verifier_note": "notes_and_discussions.md:101 ('too timid'), :278-305 (table) and F1_floor_variants.py (imports the E4/E6 engine, the STRIPS-era model) verified. Not new: the 15 Oct brief already flagged 'Why not all Treasuries?' as needing an answer on the right basis (oct14/final.md:437) and the open 'too timid' critique (:613). Changed to known-deeper."
+ },
+ {
+  "id": "UNIQ-11",
+  "title": "Write the IPS as a short numbered rulebook in time order, which matches Wharton's own definition of a strategy",
+  "severity": "medium",
+  "deliverables": [
+   "IPS"
+  ],
+  "problem": "Wharton's 2023-24 feedback: 'Your strategy is a set of rules and guidelines; a plan of attack'. Its older guide warned that a strategy 'buried somewhere ... rather than clearly stated ... up front' will not be among the strongest. The modal IPS is an essay of considerations. Structure and headings are allowed.",
+  "evidence": [
+   "oct16/research/KB_what_wins.md 4.1 ([D4], [W6], re-opened)",
+   "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:66 ('You do not need to address these points separately'), :101-102 ('Formatting choices not specified below are left to the team's discretion')",
+   "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:82-83, 103-105",
+   "oct16/lenses/L06_ips_attack.md:79 (41/46 lines; 48 with blank lines)",
+   "oct14/final.md:457 (time order already advised)"
+  ],
+  "fix": "About six numbered rules, each a decision with its trigger, in date order (2027, 2028, review, 2031, 2033, 2033-42). Count heading words (target at most 470 IPS words on the higher of two counters). Use no blank lines between rules. Check page fit on the rendered PDF (Letter) before 6 Nov: the 2-page limit is a disqualifying requirement (IPS:82-83, 103-105).",
+  "confidence": "medium",
+  "new_vs_known": "known-deeper",
+  "deadline": "IPS outline Wed 28 Oct",
+  "lens": "L04_uniqueness",
+  "verdict": "adjusted",
+  "verifier_note": "IPS:66 and :101-102 quoted correctly. Not new: time order is already objective 6 in the 15 Oct brief (oct14/final.md:457), so changed to known-deeper. The fix also misses a format risk. Pages 2-3 have a 2-page maximum (IPS:103-105), and 'Submissions that do not meet the requirements below will not be considered for semifinal selection' (IPS:82-83). L06 measured V5 at 41 of 46 Letter lines, and blank lines between nine blocks push it to 48 (oct16/lenses/L06_ips_attack.md:79). Numbered rules with headings add short lines."
+ },
+ {
+  "id": "UNIQ-12",
+  "title": "Make '11 trades and hold' read as discipline by logging the decisions not to trade",
+  "severity": "medium",
+  "deliverables": [
+   "TNA",
+   "FinalReport"
+  ],
+  "problem": "The Guide and TNA instructions reward 'disciplined decisions' (Guide:181-182; TNA:7). Wharton does not score trade count (Guide:74-77) and discourages frequent trading (faqs.txt:39), so holding is defensible. But the discipline only shows if the checks are logged. The last logged check in the brief is the 14 Oct close. The IBTR note's 'about 0.2 percentage points' was 22.7-23bp of room on 6 Oct and 4.7bp on 15 Oct (same basis), which makes it a genuine 'tested' story if dated.",
+  "evidence": [
+   "competition/official/2026_27/2026_WGY_Investment_Competition_Guide.txt:181-182",
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:15",
+   "oct14/final.md section 10 (6 Oct 22.7bp; 14 Oct checks)",
+   "reconcile.py re-run: 15 Oct 4.7bp",
+   "competition/official/2026_27/2026_WGY_Investment_Competition_Guide.txt:74-77 (not evaluated on how many trades)",
+   "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:39"
+  ],
+  "fix": "Keep a dated log of each trigger check and the rule's answer ('hold') through 6 Nov. The IBTR reflection dates its figure to one close. The Final Report shows the log as evidence of discipline.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "Log from Sat 17 Oct; IBTR figure fixed before Tue 20 Oct",
+  "lens": "L04_uniqueness",
+  "verdict": "adjusted",
+  "verifier_note": "Guide:181-182 and TNA:7 ('making disciplined decisions') support the idea. The 22.7bp -> 4.7bp figures are like-for-like (reconcile.py: 6 Oct $293,453 / 23.0bp; 15 Oct 4.7bp). But Wharton says teams are not judged on 'How many trades you make' (Guide:74-77), and the FAQ advises against much buying and selling (faqs.txt:39). So '11 trades reads as passive' is a weak risk. The value of the log is evidence for the IBTR 'tested' story and for Articulation. Severity medium kept because the IBTR dating issue (L05 TNA-01) is due before the TNA."
+ },
+ {
+  "id": "UNIQ-13",
+  "title": "Real, dated learning stories set Caplet apart; the 7 Oct mis-click is double-edged",
+  "severity": "medium",
+  "deliverables": [
+   "FinalReport",
+   "Team"
+  ],
+  "problem": "Articulation scores 'response to challenges' (deliverables.txt:58). Caplet has true, specific stories in its journal: the sector-minimum rule traced to a mislabelled third-party site and checked against the primary page (5 Oct; final_report.md:22); stale WInS bond prices caught and a 25bp yield-check rule adopted (29-30 Sep; :19); 'IBTN' found to be an unrelated company (:18). The STRIPS drop after the 6 Oct email is recorded only in CLAUDE.md, not in the journal. The 7 Oct mis-click is double-edged: an honest account shows learning, but it also tells judges that an AI browser operated WInS (COMPETITION.md:192-193). Wharton's FAQ says 'Students should place trades on WInS, NOT the advisor' (faqs.txt:34; written about advisors).",
+  "evidence": [
+   "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:58",
+   "team/google_drive/final_report.md:18, :19, :22",
+   "CLAUDE.md 'Current status' (6 Oct email; STRIPS superseded)",
+   "COMPETITION.md:192-193: 'an AI browser click cancelled the wrong order'",
+   "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:34",
+   "oct16/lenses/L09_integrity_compliance.findings.json INT-08"
+  ],
+  "fix": "Back-fill the journal with the STRIPS/6 Oct story. Record who, when, what changed and the AI's role for each story. The team decides together, knowingly, whether the mis-click goes in Articulation with its process fix. Never hide it, never feature it, never invent or polish a story.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "Journal back-fill Sun 25 Oct",
+  "lens": "L04_uniqueness",
+  "verdict": "adjusted",
+  "verifier_note": "Stories confirmed, but the citations are wrong. final_report.md has 27 lines. The stories are at :18 (iBonds, IBTN), :19 (stale prices, 25bp rule) and :22 (sector minimum, 5 Oct). The STRIPS drop after the 6 Oct email is not in the journal; it is recorded in CLAUDE.md 'Current status'. COMPETITION.md:192-193 and faqs.txt:34 verified; the lens correctly notes the FAQ is about advisors. Overlaps L09 INT-08."
+ },
+ {
+  "id": "UNIQ-14",
+  "title": "'Root-and-Branch' is an English idiom for a complete overhaul",
+  "severity": "low",
+  "deliverables": [
+   "IPS",
+   "TNA",
+   "FinalReport"
+  ],
+  "problem": "Merriam-Webster defines 'root-and-branch' as 'complete or thorough', with the example 'a root and branch overhaul of local schools'. A native-English judge may read 'radical change' into a hold strategy. The tree image does echo Laura's book Messy Roots, which is a plus. Last year's team used a heavy metaphor set. Merriam-Webster labels the phrase 'chiefly British', so the reading depends on the judge: likely unnoticed by many US readers, clear to British or Australian readers.",
+  "evidence": [
+   "https://www.merriam-webster.com/dictionary/root-and-branch (accessed 16 Oct 2026): ': complete or thorough' / 'a root and branch overhaul of local schools'",
+   "Laura_Gao_2026_Client_Profile.txt:22 (Messy Roots)",
+   "team/google_drive/2025_knox_wharton.md:188, :846 (Foundation/Construction/Transformation; 'Builder Mindset')"
+  ],
+  "fix": "Ask two native-English adults outside the team what the name suggests. If kept, explain the image once and theme nothing else.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "With vote set A, Sun 18 Oct",
+  "lens": "L04_uniqueness",
+  "verdict": "adjusted",
+  "verifier_note": "Merriam-Webster quote found (16 Oct 2026), but the entry labels the phrase 'chiefly British'. Most past Top-50 reviewers are Wharton or US asset-management staff (KB 2.2), so many US judges may not read it as an idiom at all, while British and Australian readers will. Low severity kept. Overlaps L02 CLIENT-19."
+ },
+ {
+  "id": "UNIQ-15",
+  "title": "iBond ETFs as 'dated cash' are a true trade-level edge; prepare IBTM as the semifinal ETF case study",
+  "severity": "medium",
+  "deliverables": [
+   "FinalReport",
+   "Finale",
+   "TNA"
+  ],
+  "problem": "WInS lists no Treasury maturing Feb 2031 to Feb 2036, so Caplet used defined-maturity iBond funds: cash-flow matching under the WInS-only rule, where many teams will use duration-matched IEF/TLT (INFERENCE). Past semifinals required 'a case study of one stock or ETF' and banned new material, and a fixed-income or credit judge sat on the 2024-2026 finale panels.",
+  "evidence": [
+   "team/google_drive/final_report.md:34",
+   "oct16/research/KB_what_wins.md 2.2, 2.4 ([D1], [N10], [N13], [N16])",
+   "iShares page cached 14 Oct (oct14/wins7/ibtp.html): 'the Funds do not seek to return any predetermined amount'"
+  ],
+  "fix": "The Final Report explains IBTM's two jobs, what it holds, why its payout is not fixed and what happens in its final months, in plain words, so it is already on file for a semifinal case study.",
+  "confidence": "medium",
+  "new_vs_known": "known-deeper",
+  "deadline": "Final Report, Sat 5 Dec 09:00 Sydney",
+  "lens": "L04_uniqueness",
+  "verdict": "confirmed",
+  "verifier_note": "final_report.md:18 (no WInS Treasury Feb 2031-Feb 2036; iBonds used), KB 2.2/2.4 (2025-26 semifinal 'case study of one stock or ETF'; no new material; an abrdn fixed-income/credit judge on every finale panel 2022-2026) and the cached iShares disclaimer (oct14/wins7/ibtp.html) all verified. Note: the 2026-27 semifinal format is UNVERIFIED (KB 2.4)."
+ },
+ {
+  "id": "UNIQ-16",
+  "title": "Label every number with its basis and date; it is cheap, rare and directly marked",
+  "severity": "medium",
+  "deliverables": [
+   "TNA",
+   "FinalReport"
+  ],
+  "problem": "Portfolio Analysis scores 'reasonable assumptions and projections'. Caplet already has two 'ladder costs' for the same day ($294.5k and $298.6k). A visible convention (market price with date / model estimate / assumption) prevents that error and shows judgement.",
+  "evidence": [
+   "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:57",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:12-13",
+   "oct16/lenses/L08_coherence_numbers.findings.json COH-08"
+  ],
+  "fix": "Keep one student-owned numbers sheet. Each figure in the TNA reflections and Final Report carries its date and type. The IPS keeps very few figures (IPS:51-52).",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "Before TNA reflections, Tue 20 Oct",
+  "lens": "L04_uniqueness",
+  "verdict": "adjusted",
+  "verifier_note": "deliverables.txt:57 and sheet lines 12-13 verified. Not new: the 15 Oct brief already requires every dollar figure to be on the WInS-listed basis and dated (oct14/final.md objective 8), and L08 COH-08 covers it; changed to known-deeper. The TNA does not ask for projections (TNA:20-23), so the reflections need few or no new figures."
+ },
+ {
+  "id": "UNIQ-17",
+  "title": "AI wording is the modal 2026 voice; the [AI] suggestion rule gives away Caplet's most distinctive asset",
+  "severity": "high",
+  "deliverables": [
+   "IPS",
+   "TNA",
+   "FinalReport"
+  ],
+  "problem": "Creativity scores 'an authentic team voice', and Wharton flagged 'generated or generic responses' in 2025-26. The 16 Oct rule lets the AI edit all three deliverables as [AI] suggestions, and 13 IPS rewrites already exist. V5 is described by a team comment as 'Best version that AI generated'. A team whose analysis is largely AI-built can still stand out through its own words and real story; accepting AI wording removes that.",
+  "evidence": [
+   "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:59",
+   "oct16/research/KB_what_wins.md 4.2 ([D1]: 'authentic team voice, not generated or generic responses')",
+   "caplet-latest/CLAUDE.md:26-30",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:9-21",
+   "team/google_drive/ips_report/01_version_5.md:36"
+  ],
+  "fix": "Limit AI items to facts, numbers and flags. Students write every submitted sentence. Accepted AI ideas are credited in Works Cited.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "Team decision Sun 18 Oct",
+  "lens": "L04_uniqueness",
+  "verdict": "confirmed",
+  "verifier_note": "Verified: rule text at caplet-latest/CLAUDE.md:27-30 (cited as 26-30); 13 rewrites at IPS_v5_suggestions.md:9-21; V5:36 comment 'Best version that AI generated'; deliverables.txt:59 'authentic team voice'; KB 4.2 [D1]. 'AI wording is the modal 2026 voice' is INFERENCE. Overlaps L09 INT-01 (critical), which should lead."
+ },
+ {
+  "id": "UNIQ-18",
+  "title": "Several tempting 'clever' ideas would cost marks or credibility",
+  "severity": "medium",
+  "deliverables": [
+   "All"
+  ],
+  "problem": "Themed picks (EWT, TSMC, GLD) are not hedges and the strategy freezes on 6 Nov. Quant showcases invite 'hiding behind fancy terms'. Marketing the AI council risks ownership and plagiarism problems. The case-timing story is false on the holdings basis. Laura-biography details and quotes are unverified or inappropriate for a real person. Chinese-language text, comic art in the written round, '99.4%'-style precision and Australian branding all risk backfiring.",
+  "evidence": [
+   "team/google_drive/final_report.md:23 (EWT, GLD)",
+   "oct16/research/KB_what_wins.md 4.2 ([N12], [D4]) and 3.2 (Hotchkiss)",
+   "docs/benchmark_against_previous_teams.md:21-25",
+   "team/google_drive/notes_and_discussions.md:173, :202, :232-246, :271",
+   "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:123 (no images in the IPS)"
+  ],
+  "fix": "Agree a 'do not use' list (section 6 of the lens file) with vote set A. The TNA editor and IPS format checker check drafts against it.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "Sun 18 Oct",
+  "lens": "L04_uniqueness",
+  "verdict": "adjusted",
+  "verifier_note": "Section 6 sources mostly check out (final_report.md:23 EWT/GLD, not :39; IPS:123; KB 4.2). One misapplied quote: Wharton's 'NOT investment strategies' refers to slogans such as 'buy low and sell high' and 'invest in growth markets' and to Porter's Five Forces (KB 4.2 [D4]), not to themed stock picks. The comic-art ban is verified only for the IPS (IPS:123); the Final Report format is UNVERIFIED until 9 Nov."
+ },
+ {
+  "id": "UNIQ-19",
+  "title": "The Australian angle earns a place only as authentic detail in Articulation",
+  "severity": "low",
+  "deliverables": [
+   "FinalReport"
+  ],
+  "problem": "No Australian school has made a Top 50 since 2021-22, which is motivation, not content. The one true, client-neutral detail is trading a U.S. market overnight: orders were placed while the U.S. market was closed and filled at the next open, and the journal records a member asleep at 12:30 AM. Australian framing of the strategy (for example superannuation analogies) does not serve Laura.",
+  "evidence": [
+   "oct16/research/KB_what_wins.md 5.2",
+   "oct14/final.md section 5 (orders placed while the market was closed, filled at next open)",
+   "team/google_drive/final_report.md:43",
+   "team/google_drive/notes_and_discussions.md:205 ('Inspirations from Australian superannuation?')"
+  ],
+  "fix": "At most one line in Articulation about what the team learned (order timing, next-open fills). No 'first Australian' claims.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "Final Report, Sat 5 Dec 09:00 Sydney",
+  "lens": "L04_uniqueness",
+  "verdict": "confirmed",
+  "verifier_note": "KB 5.2 (no Australian school in the 2022-23 to 2025-26 Top lists; Brisbane State High 2020-21 and 2021-22), final_report.md:27 (cited as :43; a member asleep at 12:30 AM), notes_and_discussions.md:204 and the 15 Oct brief's next-open fills (oct14/final.md:114, 277-279) all verified. Low severity is fair."
+ },
+ {
+  "id": "UNIQ-20",
+  "title": "Ladder cost: two honest figures for the same holdings; use the strict one for certainty claims",
+  "severity": "medium",
+  "deliverables": [
+   "IPS",
+   "TNA",
+   "FinalReport"
+  ],
+  "problem": "The 16 Oct sheet's $294k and $5.5k room (IPS_number_sheet.md:12-13) price $50,000 at each 1 Jan payment date with forward rates (ips_numbers.py:87). That equals Caplet's holdings only if the cash from each earlier maturity (2 weeks to 10.5 months early) earns today's forward rates until the payment. The strict figure, where the cash earns nothing and the curve is unchanged, is $298,628, leaving $1,372 (4.7bp; reconcile.py on the 15 Oct close). That strict figure is the same basis as the IBTR note's 6 Oct '$300k is enough unless yields fall about 0.2 points' ($293,453, 23bp then). V5's '$292,000' is the payment-date forward figure; like-for-like it is now about $294.5k. The sheet's '1 case in 3' is anchored to the lower figure (ips_numbers.py:122); on the strict basis the odds are higher. Neither figure counts coupon reinvestment (sheet section 2).",
+  "evidence": [
+   "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:12-13",
+   "caplet-latest/research/ips_numbers_2026-10/ips_numbers.py:87 (dt.date(y, 1, 1)), :122 (odds anchored to it)",
+   "oct16/research/KB_verify/num/reconcile.py re-run by verifier 16 Oct: payment dates fwd $294,461 / unch $295,246; WInS maturities fwd $297,847 / unch $298,628; 6 Oct WInS unch $293,453 (23.0bp)",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:13 (suggestion 5, 'about $294,000')",
+   "verify/L03_strategy_redteam.final.json STRAT-01 verifier note"
+  ],
+  "fix": "For any 'certainty' or 'already bought' claim, and for the IBTR reflection, use the strict figure (about $298.6k, about $1.4k room on 15 Oct), dated, with its assumption named (early cash earns nothing). Use about $294.5k only with its assumption named (early cash earns today's rates). Prefer no dollar figure in the IPS (IPS:51-52; oct14/final.md objective 8). If suggestion 5 is kept, it must name its date and assumption.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "Before the IBTR reflection, Tue 20 Oct",
+  "lens": "L04_uniqueness",
+  "verdict": "adjusted",
+  "verifier_note": "Numbers reproduce exactly (reconcile.py: $294,461 / $295,246 / $297,847 / $298,628) and ips_numbers.py:87 prices to dt.date(y,1,1), with :122 anchoring the odds to that figure. But the interpretation is wrong. $294.5k is not 'a ladder Caplet cannot own': it is Caplet's own holdings if the cash from each early maturity earns today's forward rates until the payment date. $298.6k assumes that cash earns 0% and the curve is unchanged. So the gap is a reinvestment assumption, not ownership. Both figures are zero-coupon views and ignore coupon reinvestment."
+ },
+ {
+  "id": "L04-V1",
+  "title": "The co-sponsor research Caplet calls its 'most original part' misreads its key funder source",
+  "severity": "medium",
+  "deliverables": [
+   "FinalReport",
+   "IPS"
+  ],
+  "problem": "Team notes say 'Kresge Foundation counts only \"written pledges or cash\"' and conclude that 'only the bought floor ... counts as real money in any funder's books' (notes_and_discussions.md:213-215). The guide's counting list also includes 'Organizational funds', 'Long-term financing' and 'In-kind materials and services', so 'only' is false, and one funder's rule does not make 'any funder's books'. Note 17 says 'One of Kresge's first questions to any building applicant is how the project will sustain itself after the campaign' (:220). The guide's question 6 is about sustaining donor support. The guide is a 2011 reference for a programme Kresge says is 'no longer the centerpiece of our work'. V5's pitch premise (operations first, because funders 'rarely pay to run it', V5:16) grows from this note, and L01 repeats the claim (L01_judge_panel.md:413). This section is where Caplet hopes to stand out, and the Final Report must cite sources, so a misread primary source is costly.",
+  "evidence": [
+   "team/google_drive/notes_and_discussions.md:210-220",
+   "https://kresge.org/sites/default/files/GuidetoChallengeGrant.pdf (accessed 16 Oct 2026): p.1 'Updated June 30, 2011', 'no longer the centerpiece of our work'; p.3 Q1 'Are they leading with their own gifts?', Q3 'address annual operating needs', Q6 'sustaining support gained during the campaign'; p.8 counting list incl. 'Organizational funds', 'Long-term financing', 'In-kind materials'",
+   "team/google_drive/ips_report/01_version_5.md:16",
+   "oct16/lenses/L01_judge_panel.md:413"
+  ],
+  "fix": "A student re-reads the Kresge guide (about 15 pages) and the other four sources, and logs each claim with its exact quote, page, date and scope (US, 2011, one funder). Drop 'only' and 'any funder'. Use Q1 (board leaders 'leading with their own gifts'; by analogy only, it supports a meaningful personal contribution) and Q3 (operating needs) correctly. Settle this before the pitch premise is rewritten.",
+  "deadline": "Before the IPS outline, Wed 28 Oct; source log complete before Final Report drafting (Sun 15 Nov)",
+  "new_vs_known": "new",
+  "confidence": "high",
+  "lens": "L04_uniqueness",
+  "verdict": "verifier-added",
+  "verifier_note": "Found while checking UNIQ-05/09 against the live Kresge PDF. Not flagged by any other lens; L01 repeats the claim."
+ },
+ {
+  "id": "L04-V2",
+  "title": "The 'one job' signature clashes with Laura's kept half, which has three jobs in V5",
+  "severity": "medium",
+  "deliverables": [
+   "IPS",
+   "FinalReport"
+  ],
+  "problem": "The lens's top signature (K1/UNIQ-03) is 'each deposit has one job'. But V5 gives the half of the stock fund that Laura keeps three jobs. It is the second source for payment shortfalls (V5:26), her defence against inflation and a stronger Taiwan dollar (V5:28), and a cushion if costs rise or co-sponsors fall short (V5:30). The 16 Oct sheet adds a fourth option: keep it to 2042 as the named payment back-up (IPS_number_sheet.md:52). The case asks for flexibility 'as the project develops' (case:102-103). A judge who hears 'one job each' and then reads one pot doing three jobs will see a contradiction in the very idea meant to be memorable.",
+  "evidence": [
+   "team/google_drive/ips_report/01_version_5.md:26, :28, :30",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:49-54",
+   "Laura_Gao_2026_Client_Profile.txt:101-103",
+   "oct16/lenses/L03_strategy_redteam.md:95 (STRAT-05); L06_ips_attack.md:423 (IPS-09); L02_client_forensic.md:14"
+  ],
+  "fix": "Vote set B settles what the kept half is for (one main job, with any back-up role stated as a ranked fallback). Only after that should the team adopt a 'one job' signature, worded so that it stays literally true.",
+  "deadline": "Vote set B, Tue 27 Oct",
+  "new_vs_known": "known-deeper (three jobs flagged by L02/L03/L06; the clash with the L04 signature is new)",
+  "confidence": "high",
+  "lens": "L04_uniqueness",
+  "verdict": "verifier-added",
+  "verifier_note": "Interaction between L04's recommended signature and a known V5 defect."
+ },
+ {
+  "id": "L04-V3",
+  "title": "The lens adds about six items to an IPS that is already at 497 of 500 words and near the 2-page limit",
+  "severity": "medium",
+  "deliverables": [
+   "IPS"
+  ],
+  "problem": "V5 is 47 + 497 words (verifier count), and the 15 Oct brief's safe target is 45 / 470 on the higher of two counters (oct14/final.md:58). L04 asks the IPS to carry: the one-job rule with its overflow step (UNIQ-03), a certainty definition and the leftover risk (UNIQ-08), a diversification reason (UNIQ-07), a co-sponsor principle (UNIQ-05), a why-now clause (K4) and numbered rule headings (UNIQ-11). It gives no cut list. Pages 2-3 have a 2-page maximum, and non-compliant submissions 'will not be considered for semifinal selection' (IPS:82-83, 103-105). L06 measured V5 at 41 of 46 Letter lines (L06_ips_attack.md:79).",
+  "evidence": [
+   "team/google_drive/ips_report/01_version_5.md:16, :20-30 (47 + 497 words)",
+   "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:82-83, 103-109",
+   "oct14/final.md:58, :467 (word budget)",
+   "oct16/lenses/L06_ips_attack.md:79"
+  ],
+  "fix": "Before drafting, the team writes a word budget per rule. Each addition is paired with a named cut. The why-now and co-sponsor evidence go to the Final Report; the IPS keeps only principles. Check the rendered PDF's page count and both word counters before submission.",
+  "deadline": "IPS outline Wed 28 Oct; final check before Fri 6 Nov 5:00 pm ET (Sat 7 Nov 09:00 Sydney)",
+  "new_vs_known": "known-deeper (word and page limits known; the L04 additions are new)",
+  "confidence": "high",
+  "lens": "L04_uniqueness",
+  "verdict": "verifier-added",
+  "verifier_note": "L04's fixes are each reasonable, but together they do not fit the format."
+ },
+ {
+  "id": "L04-V4",
+  "title": "Four new L04 decisions land on the already full Sun 18 Oct vote, five days before the TNA",
+  "severity": "low",
+  "deliverables": [
+   "TNA",
+   "Team"
+  ],
+  "problem": "L04 schedules the signature-idea vote (UNIQ-01), the outside-adult name test (UNIQ-14), the do-not-use list (UNIQ-18) and the AI-wording decision (UNIQ-17) for vote set A on Sun 18 Oct. That vote already carries the name, floor wording, shortfall order, ladder-cost basis and the October rule (oct14/final.md:43, 360, 470). The TNA is due Fri 23 Oct 5:00 pm ET (Sat 24 Oct 08:00 Sydney).",
+  "evidence": [
+   "oct14/final.md:43, :360, :470",
+   "competition/official/2026_27/2026_WGY_Investment_Competition_Guide.txt:169"
+  ],
+  "fix": "On 18 Oct, decide only what the TNA reflections need: the labels used in the IBTM, IBTR and VT reflections, the do-not-use list and the AI-wording rule. Move the name test and the other signature choices to vote set B (Tue 27 Oct).",
+  "deadline": "Sun 18 Oct",
+  "new_vs_known": "new",
+  "confidence": "medium",
+  "lens": "L04_uniqueness",
+  "verdict": "verifier-added",
+  "verifier_note": "Process risk created by the lens's own deadlines."
+ }
+]

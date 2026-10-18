@@ -1,0 +1,427 @@
+{
+ "file": "oct16/lenses/L08_coherence_numbers.md",
+ "summary": "I re-priced the ladder on the official Treasury curve up to the 15 Oct close. The room under $300k has collapsed. On the IBTR note's own basis (WInS-listed maturities, yields unchanged) the ten payments now cost $298,624. That leaves $1,376, or 4.7bp; on 6 Oct the room was 22.7bp. A rough model puts the chance that the ladder costs more than $300k by January at about 45%. So the IBTR note's \"about 0.2 points\", the planned reflection's \"yields have fallen slightly\", V5's \"$292,000\" and COMPETITION.md's \"$293k / 0.2pp\" are all stale. The 2028 top-up is now a central case, and under V5's own \"remainder\" rule a top-up shrinks the floor. The same re-pricing cuts the plan's stock share from about 9% (about $40k) to about 7.2% (about $33.5k). WInS holds 8.8% VT, and COMPETITION.md calls the drift \"trivial\" because it measures against fixed 6 Oct targets. The VT note, which cannot be edited, says stocks \"only\" set the gift above the minimum. V5 gives Laura's half of the fund three more jobs: covering payment shortfalls, defending against inflation and a stronger Taiwan dollar, and acting as a cushion. That half is worth only about $23k by 2033 (MODEL), and the 2027 leftover that comes first is about $1.4k and sits in stocks. The floor has six definitions across team files. The team's own rab memo rejects quoting $150k because the IBTM floor \"pays under $150,000 about 2 times in 3\", yet $150k is still the figure in most team files. V5's \"never below the floor\" survives only because the floor used to be STRIPS: the journal says so, and the 6 Oct email removed that reason. Other gaps: the WInS book is the 2 Jan 2028 plan scaled by about 0.643, but 9 of 11 notes speak of \"$50,000 payments\" with no scale. V5 says payments depend \"mainly on the US government\", while the notes admit reinvestment and payout risk; coupons supply 38-44% of each bond-funded payment. The reserve size is never defined (old files say $413k, $422k or $500k; the 15 Oct curve gives about $396-405k). One correction to the 15 Oct brief: \"$292k\" also reproduces on the WInS-listed forward basis for 29-30 Sep, so the real defect is a missing date and basis label, not only the old STRIPS basis. The fixes all need one dated numbers sheet with a re-price rule (6 Nov close for the IPS and Final Report), one glossary, and votes on the floor, the shortfall order and what the WInS mirror is pinned to.",
+ "findings": [
+  {
+   "id": "COH-01",
+   "title": "Ladder room fell to 4.7bp on 15 Oct; IBTR note, V5 and COMPETITION.md quote stale figures",
+   "severity": "high",
+   "deliverables": [
+    "TNA",
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "On the 15 Oct close the ten payments cost $298,624 on 1 Jan 2027 on the IBTR note's basis. Room is $1,376 (4.7bp); on 6 Oct it was 22.7bp. On the forward basis it is $297,778 (7.7bp). Yields are down 15-20bp since the trades. Rough odds of the ladder costing more than $300k by January: about 45% (MODEL). Quoted figures still say 'about 0.2 points', 'fallen slightly', '$292,000' and '$293k'. Under V5 a top-up shrinks the floor ('sized to return that remainder'), so '$150k floor' becomes wrong in about half the outcomes. Three deliverables with different dated numbers will look like three plans.",
+   "evidence": [
+    "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:15 'If yields fall more than about 0.2 percentage points by January'",
+    "05_trading_note_reflection_wins_trading_notes.md:29 'Yields have fallen slightly since the trade'",
+    "team/google_drive/ips_report/01_version_5.md:16 'about $292,000 of Treasuries'; :24 'At late-September 2026 yields they cost about $292,000'",
+    "COMPETITION.md:153-154 'It costs about $293k on the 6 Oct curve; a fall in yields of about 0.2 percentage points'",
+    "ops/routines/MONITOR.md:22 6 Oct baseline 7y 5.15, 10y 5.27, 20y 5.68, $293,447, 22.7bp",
+    "https://home.treasury.gov daily par curve CSV (accessed 16 Oct 2026): 15 Oct 5y 4.91, 7y 5.00, 10y 5.10, 20y 5.48; repriced in scratchpad/oct16/lenses/L08/series_live.csv"
+   ],
+   "fix": "Pick one ladder basis and date-stamp every figure. Re-run the cost for the IBTR reflection on the writer's date. The IPS uses no point figure, or one that survives \u00b125bp, and treats the top-up as an expected branch with its stated effect on the floor. The FR shows the cost path from 6 Oct to the 6 Nov close.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Mon 19 Oct (re-run for TNA, submit Thu 22 Oct); IPS Sat 7 Nov 09:00 Sydney; FR re-price on 6 Nov close"
+  },
+  {
+   "id": "COH-02",
+   "title": "Plan stock share now about 7.2% ($33.5k) vs '~9% / ~$40k' in files and 8.8% VT in WInS",
+   "severity": "high",
+   "deliverables": [
+    "IPS",
+    "FinalReport",
+    "Trades"
+   ],
+   "problem": "Re-priced 2028 split: 66.5/25.1/8.4 (6 Oct), 67.0/25.1/7.8 (14 Oct), 67.6/25.3/7.2 (15 Oct). The 2027 leftover shrank from about $8k to $1.4k. WInS VT is 8.84% at cost. COMPETITION.md calls drift trivial against fixed 6 Oct targets. The team's own October rule sizes VT to the re-priced plan share. The frozen book will look off-plan in the FR.",
+   "evidence": [
+    "COMPETITION.md:156 '(~9% of all money)'; :188-189 'Every weight is within 0.2 pt of target ... drift is trivial'",
+    "CLAUDE.md:92 '(~$40k)'; :96 '~9% of all money'",
+    "team/google_drive/notes_and_discussions.md:109 'The rest, about $40k'",
+    "team/google_drive/ips_report/09_old_versions_v3_tab_7.md:20 '40K goes to growth'",
+    "team/google_drive/sheets/portfolio_and_trading_notes/portfolio.csv:12 'Stock fund,8.7%'",
+    "rab/trades/october_trade.md:39 trigger B 'Sell VT down to the new stock-fund share the refresh prints'",
+    "scratchpad/oct16/lenses/L08/split.py output (15 Oct): fund $33,483, split 67.6%/25.3%/7.2%"
+   ],
+   "fix": "Record a team decision on what the WInS mirror is pinned to: the 6 Oct trade-date snapshot plus a tolerance band, or re-priced (any trade needs a vote, a second check and Ray, by Wed 4 Nov 4 pm ET). Replace every '9%' and '$40k' with a dated figure. The FR explains the gap in one line.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Vote set B Tue 27 Oct; any trade by Wed 4 Nov 4:00 pm ET (Thu 5 Nov 08:00 Sydney)"
+  },
+  {
+   "id": "COH-03",
+   "title": "VT note says stocks 'only' affect the gift; V5 gives Laura's half three more jobs",
+   "severity": "high",
+   "deliverables": [
+    "TNA",
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "The filled VT note (cannot be edited) says stocks only set how far the gift rises. V5 also uses Laura's half as the second shortfall source, the inflation and Taiwan-dollar defence, and the cushion for costs and co-sponsor shortfalls. That half is about $23k by 2033 (MODEL, JPM 7.0%). The first shortfall source, the 2027 leftover, is about $1.4k (15 Oct) and per Tab 7 sits in VT. A judge reading the TNA and IPS together sees one small fund doing four jobs.",
+   "evidence": [
+    "05_trading_note_reflection_wins_trading_notes.md:14 'They only set how far her gift rises above her promised minimum.'",
+    "01_version_5.md:26 'first from the 2027 leftover, then the half Laura keeps, then the contribution above the floor'",
+    "01_version_5.md:28 'the equity half Laura keeps is her defense'; :30 'The other half stays with Laura as a cushion if costs rise or co-sponsors fall short'",
+    "team/google_drive/ips_report/15_tab_15.md:34 'Tab 7 \u7684\u8ba1\u7b97\uff0840K = 32K + 8K\uff09\u663e\u793a\u5b83\u8fdb\u4e86\u589e\u957f\u90e8\u5206'",
+    "CLAUDE.md:126 'AC World 7.00% compound'"
+   ],
+   "fix": "Agree one ordered list of what Laura's half covers, with each claim sized or bounded. Say where the 2027 leftover waits and whether it is safe money. The VT reflection explains the note's 'only' honestly (true for the gift, not for her cushion) without repeating it.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Vote set A Sun 18 Oct; TNA Thu 22 Oct; IPS 6 Nov"
+  },
+  {
+   "id": "COH-04",
+   "title": "Six floor definitions; own memo rejects quoting $150k; V5 contradicts itself on the shortfall and the floor",
+   "severity": "high",
+   "deliverables": [
+    "TNA",
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "The floor appears as $150k face 'she owns', IBTM 'about $150k', 'the remainder', 'rounded down after any expected shortfall', 'projected payout rounded down' and '$145k worst case'. The rab memo rejects quoting $150k because the IBTM floor pays under $150k about 2 times in 3. V5:26 never touches the floor in the shortfall order, but V5:30 implies the shortfall comes out of the quoted floor. The bottom of the 2031 range is the case's central credibility number.",
+   "evidence": [
+    "team/google_drive/strategy_notes.md:47 'About $150k is locked into a Treasury by 2028'",
+    "notes_and_discussions.md:110 'At least $150k, which I already own'",
+    "COMPETITION.md:155-156 'sized to return about $150k by 2033'",
+    "01_version_5.md:24 'sized to return that remainder'; :30 'quoted rounded down after any expected shortfall'",
+    "15_tab_15.md:16 'quoted at the 2032 ETF's projected payout rounded down'",
+    "rab/decisions/D_range_confidence_2031.md:8 'rounded down to $5,000 ($145,000 today)'; :18 'the iBond-fund floor pays under $150,000 about 2 times in 3'",
+    "Laura_Gao_2026_Client_Profile.txt:114-115 'If Laura promises more than she can ultimately contribute, she could damage her credibility'"
+   ],
+   "fix": "One definition used in all three deliverables. It must cover: the holding (IBTM); what it is sized to (fixed $150k or the remainder); what is quoted and how far it is rounded down, with the reason; and what happens after a ladder top-up. Retire the '$150k she owns' phrasing.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Vote set A Sun 18 Oct (before the IBTM reflection)"
+  },
+  {
+   "id": "COH-05",
+   "title": "'Never below the floor' was kept only because the floor was STRIPS; that reason ended on 6 Oct",
+   "severity": "high",
+   "deliverables": [
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "The journal says the absolute claim was kept on purpose because the real floor was STRIPS and IBTM was only a WInS stand-in. After the 6 Oct email IBTM is the real floor, and its payout is not fixed (IBTM note). V5:28 keeps the claim. Files still call IBTM a 'stand-in'. The journal has no 6 Oct entry, which loses the team's best 'response to challenges' story.",
+   "evidence": [
+    "team/google_drive/final_report.md:24 'kept 'never below the floor' on purpose (STRIPS in real life, IBTM as the WInS stand-in)'",
+    "01_version_5.md:28 'Markets can shrink the facility contribution, but never below the floor'",
+    "05_trading_note_reflection_wins_trading_notes.md:19 'although the final payout is not fixed'",
+    "COMPETITION.md:87-90 (6 Oct email); :155 floor in IBTM; :176 '2028 floor stand-in'",
+    "CLAUDE.md:97-98 'building-minimum stand-in'",
+    "smapply_public_2026-10-14/deliverables.txt:58 Articulation criterion 'response to challenges'"
+   ],
+   "fix": "Make every certainty word about the floor match the IBTM note. Add a dated journal entry, in the students' words, saying what the 6 Oct email changed (STRIPS to IBTM, stand-in to real holding) and how the wording changed.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Journal by Sun 25 Oct; IPS Sat 7 Nov 09:00 Sydney"
+  },
+  {
+   "id": "COH-06",
+   "title": "WInS-to-plan mapping stated three ways; notes skip the 0.643 scale",
+   "severity": "high",
+   "deliverables": [
+    "TNA",
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "Officially WInS is the 'simulator balance' and the 'implementation'. COMPETITION.md glosses it as '= Laura's 2027 deposit'. The book traded is the 2 Jan 2028 plan scaled by about 0.643, so rungs are sized for about $32k, not $50k. 9 of 11 filled notes say '$50,000 payment' with no scale; only Nov-2041 says scaled. The IBTR note says $300k buys all ten payments, while WInS put 65.9% into the ladder. Wharton verifies notes against trades, so the sizing gap reads as an error unless explained once.",
+   "evidence": [
+    "competition/official/2026_27/smapply_public_2026-10-14/trading.txt:26 'The $300,000 is your team's WInS simulator balance'",
+    "Laura_Gao_2026_Client_Profile.txt:129 'The WInS portfolio represents each team's implementation'",
+    "COMPETITION.md:70 '(= Laura's 2027 deposit; the $150k is NOT added)'",
+    "portfolio.csv:2 'Laura's plan on 2 Jan 2028, after both deposits, scaled to WInS's $300,000'; :10 'Payment ladder,65.9%'",
+    "05_...md:18 filled Nov-2039 '$50,000 payment' vs :40 cancelled 'scaled 2040 payment'; :24 'scaled to the model portfolio'",
+    "05_...md:15 'her first $300,000 is enough to buy Treasuries for all ten payments'",
+    "deliverables/ips_outline.md:3 'WInS is the real ladder'",
+    "TNA-FINAL.txt:53 'Yes, we will verify this.'"
+   ],
+   "fix": "State one mapping, the same in all three deliverables: the plan date, the scale (about 64 cents of WInS per plan dollar), and why VT and the floor appear although the $150k is not in WInS. Drop the '= 2027 deposit' gloss and the 'real ladder' line.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "TNA Thu 22 Oct; IPS 6 Nov"
+  },
+  {
+   "id": "COH-07",
+   "title": "V5 'depends mainly on the US government' vs notes admitting reinvestment and payout risk",
+   "severity": "medium",
+   "deliverables": [
+    "TNA",
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "The filled notes say reinvested coupons fund part of each payment, that early proceeds carry reinvestment-rate risk, and that iBond payouts are not fixed. Recomputed on WInS holdings: principal covers 56-62% of each bond rung's target. At 0% reinvestment the rungs deliver 89-96%; break-even is about 2-4%. An IPS certainty claim naming only default risk contradicts our own executed evidence.",
+   "evidence": [
+    "01_version_5.md:20 'each payment depends mainly on the US government paying its debts'",
+    "05_...md:18 'reinvested coupons fund the rest'; :24 'reinvested coupons funding part of each'; :16 'reinvestment-rate risk on the proceeds'; :19-22 'payout is not fixed'",
+    "Laura_Gao_2026_Client_Profile.txt:97-99 'define what they consider a high degree of funding certainty ... identify the assumptions'",
+    "Recompute in L08_coherence_numbers.md COH-07 table (scale 0.643, target about $32,150)"
+   ],
+   "fix": "The IPS certainty standard names the residual risks (issuer, coupon reinvestment, iBond payout, early-maturity wait) and which money covers each. The FR quantifies them with dated numbers.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Vote set B Tue 27 Oct; IPS 6 Nov"
+  },
+  {
+   "id": "COH-08",
+   "title": "'$292,000' has no date or basis; CLAUDE.md labels a superseded headroom 'VERIFIED'",
+   "severity": "medium",
+   "deliverables": [
+    "IPS",
+    "FinalReport",
+    "Repo"
+   ],
+   "problem": "$292k reproduces both as the 25 Sep STRIPS/idealised value ($292,264) and as the WInS-listed forward value on 29-30 Sep ($292,844 / $291,850). So the defect is the missing date and basis, which corrects the 15 Oct brief's 'STRIPS only'. On the IBTR note's basis late September was $293.0-296.7k. CLAUDE.md lists $7.7k/27bp as VERIFIED next to its own correction. Team files quote $289k, $294k, $297k and $298k.",
+   "evidence": [
+    "CLAUDE.md:121-122 'headroom under the $300k deposit $7.7k = 27bp' under VERIFIED; :106-107 'headroom $5,613 (19bp), not $7.7k/27bp'",
+    "scratchpad/oct16/lenses/L08/series_live.csv 2026-09-29/30 buyable fwd 292844/291850; unch 293968/293025",
+    "notes_and_discussions.md:65 '$294,000'; :318 '$289,119'; :362 '$297k'; deliverables/ips_outline.md:20 '\u2248 $298k'"
+   ],
+   "fix": "Name one basis (WInS-listed maturities, dated curve, yields unchanged to 1 Jan 2027). Mark all older figures superseded in the numbers sheet and fix the VERIFIED label.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Mon 19 Oct"
+  },
+  {
+   "id": "COH-09",
+   "title": "Six strategy names, including in the 'single source of truth'",
+   "severity": "medium",
+   "deliverables": [
+    "All"
+   ],
+   "problem": "Root-and-Branch (IPS, journal), Roots First (COMPETITION.md heading and open item), Lock early, Keep every promise grow the rest, Lock then grow, and 'two cheques'. 'Consistency with the team's IPS' is part of a scored criterion, and teammates copy from COMPETITION.md.",
+   "evidence": [
+    "01_version_5.md:16, :24 'Root-and-Branch'",
+    "team/google_drive/final_report.md:21 'Strategy name settled as Root-and-Branch (earlier 'Roots First')'",
+    "COMPETITION.md:147 'Our strategy (\"Roots First\")'; :204",
+    "CLAUDE.md:65 'Lock early'",
+    "research/insight_v1/Team_Caplet_Strategy_Brief.pdf p.1 'Keep every promise, grow the rest'",
+    "deliverables/ips_outline.md:18 'Lock, then grow'; deliverables/final_report_outline.md:5 'two cheques'",
+    "smapply_public_2026-10-14/deliverables.txt:55 'maintains consistency with the team's IPS'"
+   ],
+   "fix": "Vote on one name and use it identically in the TNA, IPS and FR. State the Messy Roots link once.",
+   "confidence": "high",
+   "new_vs_known": "known-repeat",
+   "deadline": "Vote set A Sun 18 Oct"
+  },
+  {
+   "id": "COH-10",
+   "title": "Feb-2037 bond is 4.750%, not 5.000%; the wrong coupon puts its yield 26bp off",
+   "severity": "medium",
+   "deliverables": [
+    "FinalReport",
+    "Repo"
+   ],
+   "problem": "COMPETITION.md lists 5.000% Feb-2037. WInS, the sheet and portfolio_check say 4.750%. 5.000% is the unlisted May-2037 issue. At the 96.019 fill the real coupon gives a 5.25% yield; the wrong one gives 5.51%. That error would enter the FR's implementation review.",
+   "evidence": [
+    "COMPETITION.md:181 '5.000% T-bond Feb-2037'",
+    "05_...md:16 'B-T-4.750-15022037'",
+    "portfolio.csv:25 'T 4.750% 15-Feb-2037'; ops/routines/portfolio_check.py:12",
+    "team/google_drive/sheets/portfolio_and_trading_notes/trading_notes.csv:129 'WInS does not list the 5.000% May-2037 (checked 5 Oct)'",
+    "scratchpad/oct14_ytm.py output: 4.75% -> 5.253%, 5.00% -> 5.509%"
+   ],
+   "fix": "Correct the line and add the coupons for the other bonds before FR drafting.",
+   "confidence": "high",
+   "new_vs_known": "known-repeat",
+   "deadline": "Before 10 Nov (FR drafting)"
+  },
+  {
+   "id": "COH-11",
+   "title": "Operating reserve size and composition path not defined; old figures conflict",
+   "severity": "medium",
+   "deliverables": [
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "The case requires the reserve's size, initial composition and how it changes. Team files give $413k, $422k/$439k (old model) and $500k. V5 gives none. On the 15 Oct curve the ten payments are worth about $396k (forward) to $405k on 1 Jan 2033 (MODEL). The composition path is not written: iBonds mature to cash each December, and the Feb-2037/May-2038 proceeds go to a short-term Treasury ETF per the notes, which V5 omits.",
+   "evidence": [
+    "Laura_Gao_2026_Client_Profile.txt:94-97 'Teams must recommend its size and initial asset composition and explain how its composition should change'",
+    "deliverables/ips_outline.md:52 'median value \u2248 $413k'",
+    "notes_and_discussions.md:349 'the reserve costs about $439k instead of $422k'; :51 '$500,000 in total'",
+    "01_version_5.md:26 'payment Treasuries become the operating reserve'",
+    "05_...md:16-17 'short-term Treasury ETF'; 15_tab_15.md:35"
+   ],
+   "fix": "Agree one definition of reserve size (market value on 1 Jan 2033, face of holdings, or $500k of payments) and one 2033-42 composition path matching the notes. Retire old figures.",
+   "confidence": "medium",
+   "new_vs_known": "new",
+   "deadline": "IPS principle 6 Nov; FR numbers 4 Dec"
+  },
+  {
+   "id": "COH-12",
+   "title": "Shortfall order differs between V5 and the rab memos; V5 drops the 2031 top check",
+   "severity": "medium",
+   "deliverables": [
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "V5 and Tab 15 use leftover, then Laura's half, then above-floor. The rab D6 memo says 'Name her half as the first cover'. D_range uses half then above-floor, plus a 2031 check that lowers the top before it is announced. V5 has no 2031 check, so a known shortfall is absorbed only in 2033, after the top has been quoted.",
+   "evidence": [
+    "01_version_5.md:26",
+    "15_tab_15.md:20",
+    "rab/decisions/D6_cap_share.md:79 'Name her half as the first cover.'",
+    "rab/decisions/D_range_confidence_2031.md:44-45 condition 5; :47 'the 2031 check lowers the top before it is announced'"
+   ],
+   "fix": "Write one complete order from first source to last, with the floor's place stated. Decide whether the 2031 quote adjusts for a known shortfall. Use the same order in the IPS and FR.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Vote set B Tue 27 Oct"
+  },
+  {
+   "id": "COH-13",
+   "title": "'Income reinvested ... held without trading' fits neither WInS nor the trade notes",
+   "severity": "medium",
+   "deliverables": [
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "In WInS, distributions and coupons arrive as cash at 0% and the plan is hold. Bond coupons are smaller than a $1,000 unit. The notes park early proceeds in a short-term Treasury ETF. The sheet brief says T-bills, which are not on WInS. Tab 15 notes that 'held without trading' clashes with the 2028 purchase.",
+   "evidence": [
+    "01_version_5.md:26 'held without trading, with income reinvested in the holding that paid it'",
+    "COMPETITION.md:80 '0% interest on cash'; :82 '$1,000 face' units; :188-190",
+    "05_...md:16-17 'short-term Treasury ETF'",
+    "trading_notes.csv:129 'the money waits in Treasury bills (0% in WInS)'",
+    "15_tab_15.md:29"
+   ],
+   "fix": "One rule for income and early proceeds that is true for Laura's plan, with WInS cash at 0% explained.",
+   "confidence": "high",
+   "new_vs_known": "known-repeat",
+   "deadline": "IPS 6 Nov"
+  },
+  {
+   "id": "COH-14",
+   "title": "'Latest payments first' vs WInS order timestamps (IBTM placed before IBTR)",
+   "severity": "low",
+   "deliverables": [
+    "TNA",
+    "FinalReport"
+   ],
+   "problem": "V5 says the 2027 deposit buys the latest payments first. WInS order times show Nov-2041 and Nov-2040 first, then the 2033-36 iBonds, then the re-placed 2037-2040 rungs. Two picks show IBTM (6 Oct 10:01 PM) before IBTR (7 Oct 4:42 AM). The kit says the order was cash control only, and all ETFs filled at the same open. A judge comparing timestamps could see a contradiction.",
+   "evidence": [
+    "01_version_5.md:24 'buys the payments latest first'",
+    "05_...md:14-24 order timestamps",
+    "rab/trades/tickets.md:17 'The order is for cash control only. It is not the IPS rule \"latest payments first\"'"
+   ],
+   "fix": "Have a one-line explanation ready (the rule is about which payments a short deposit funds, not trade order). Never claim WInS followed it.",
+   "confidence": "medium",
+   "new_vs_known": "new",
+   "deadline": "TNA Thu 22 Oct"
+  },
+  {
+   "id": "COH-15",
+   "title": "Stale STRIPS-era team files will feed the Final Report (Strategy Brief PDF has no in-PDF banner)",
+   "severity": "medium",
+   "deliverables": [
+    "FinalReport",
+    "Repo"
+   ],
+   "problem": "The team-readable files hold many superseded numbers and false claims. Notes & Discussions has '1 in 3' and '1 in 4' in the same document, $204k vs $202k, and 'ten US Treasury bonds, one matures in 2033'. The 27-page Strategy Brief has no superseded notice inside the PDF ('ten U.S. government bonds', '$150,000 she owns outright', '~$40,000', '$294,000'). trading_notes_pack.md recommends IEF+TLH with no banner, and CLAUDE.md calls it a primary file. The co-sponsor points and FR outline say $113k and $298k.",
+   "evidence": [
+    "notes_and_discussions.md:65, :71, :121, :193, :295, :318, :322, :596",
+    "research/insight_v1/Team_Caplet_Strategy_Brief.pdf p.3 (text search finds no 'STRIPS' or 'supersed')",
+    "research/insight_v1/trading_notes_pack.md:4 'IEF + TLH'; CLAUDE.md:85 'the two primary files'; CLAUDE.md:101",
+    "deliverables/cosponsor_talking_points.md 'Today's projection: \u2248 $113k'; deliverables/final_report_outline.md:5 '$298k lock cost'",
+    "COMPETITION.md:94 'none maturing Feb 2031 to Feb 2036'"
+   ],
+   "fix": "Before 9 Nov, banner or archive every file a student may open for the FR. Take FR figures only from one dated numbers sheet.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Mon 9 Nov"
+  },
+  {
+   "id": "COH-16",
+   "title": "IPS outline says 'Show chart 02', which the IPS rules ban",
+   "severity": "low",
+   "deliverables": [
+    "IPS"
+   ],
+   "problem": "deliverables/ips_outline.md tells writers to show a chart. The official IPS brief bans charts, and non-compliant IPS files are excluded from semifinal selection.",
+   "evidence": [
+    "deliverables/ips_outline.md:19 'Show chart 02 (certainty vs facility)'",
+    "2026_WGY_Investment_Policy-FINAL.txt:123 'Graphics, charts, images ... are not permitted'; :82-83 'will not be considered for semifinal selection'"
+   ],
+   "fix": "Remove or banner the line. Charts only in the FR, if its 9 Nov instructions allow them.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Before IPS drafting (Wed 28 Oct)"
+  },
+  {
+   "id": "COH-17",
+   "title": "Team rule statements go beyond official wording (Top-50 basis; 'video presentation')",
+   "severity": "low",
+   "deliverables": [
+    "FinalReport",
+    "Team"
+   ],
+   "problem": "The live Rules page says the Top 50 is chosen on the IPS and Final Reports. SMApply says all three deliverables are evaluated. CLAUDE.md states TNA+IPS+FR selection as fact. COMPETITION.md says 'short video presentation', but the FAQ means a live presentation over video conference, and the Rules page bans recording.",
+   "evidence": [
+    "https://globalyouth.wharton.upenn.edu/competitions/investment-competition/rules-roles/ (accessed 16 Oct 2026) 'The top 50 teams will be selected as semifinalists based on the strength of their Investment Policy Statement (IPS) and Final Reports.'",
+    "smapply_public_2026-10-14/deliverables.txt:28 'Your Trading Notes Analysis, Investment Policy Statement and Final Report are evaluated.'",
+    "CLAUDE.md:26 'chosen on the written Trading Notes, IPS and Final Report'",
+    "COMPETITION.md:26 'short video presentation'; faqs.txt:89 'via video conference for the Semifinals'"
+   ],
+   "fix": "Treat all three as scored, but label the official wording difference. Correct the semifinal format wording.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Before FR drafting"
+  },
+  {
+   "id": "COH-18",
+   "title": "'About 91% Treasuries' vs 89.5-90.2% elsewhere (different basis)",
+   "severity": "low",
+   "deliverables": [
+    "FinalReport"
+   ],
+   "problem": "The FR is meant to explain the 'Long Equities' pie-chart label. Files give 91% (cash excluded) and 89.5-90.2% (cash included) without saying which.",
+   "evidence": [
+    "COMPETITION.md:98 'about 91% Treasuries'",
+    "ops/monitor_reports/2026-10-13 Caplet check.md:16",
+    "rab/trades/tickets.md:124 'dated holdings incl. floor 89.51% (tab target 90.2%)'"
+   ],
+   "fix": "State the basis once, using the frozen 6 Nov book.",
+   "confidence": "medium",
+   "new_vs_known": "new",
+   "deadline": "FR 4 Dec"
+  },
+  {
+   "id": "COH-19",
+   "title": "No re-price rule for numbers and sources that go stale before 6 Nov / 4 Dec",
+   "severity": "medium",
+   "deliverables": [
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "These move or may be superseded before submission: ladder cost and odds, leftover, floor, fund split, WInS value and iBond distributions, the Fed (next FOMC 27-28 Oct per search listings), the JPM LTCMA (2026 edition, data 30 Sep 2025; no newer edition found 16 Oct, UNVERIFIED), VT and IBTP fact-sheet data, Taiwan CPI and USD/TWD. Without one valuation date per deliverable the three will carry mixed dates.",
+   "evidence": [
+    "CLAUDE.md:126 'JPM 2026 LTCMA (data 2025-09-30)'; :139 'Fed raised to 3.75-4.00% on 2026-09-16'",
+    "COMPETITION.md:188-190 value 13 Oct; iBond distributions around 6 Nov",
+    "Web search 16 Oct 2026 (Chicago Fed / federalreserve.gov listings): FOMC 27-28 Oct and 8-9 Dec, tentative",
+    "Web search 16 Oct 2026: no 2027 JPM LTCMA edition found"
+   ],
+   "fix": "Adopt the re-price table in L08 COH-19. IPS and FR on the 6 Nov close; TNA on the writer's dated run. Re-check the Fed after 28 Oct and the LTCMA edition before FR drafting.",
+   "confidence": "medium",
+   "new_vs_known": "new",
+   "deadline": "Rule by Tue 27 Oct; apply 6 Nov and before 4 Dec"
+  },
+  {
+   "id": "COH-20",
+   "title": "Terminology drift between the TNA notes and the IPS",
+   "severity": "medium",
+   "deliverables": [
+    "TNA",
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "The facility money has six names (facility contribution, gift, minimum contribution, promised minimum, minimum figure, building money). The payments are 'running costs' and 'operating payments'. Banned-list words ('secure', 'promised') appear. Judges reading all three may think these are different things.",
+   "evidence": [
+    "01_version_5.md:16 'minimum contribution', 'gift', 'secure'; :20 'facility contribution'",
+    "05_...md:14 'promised minimum'; :19 'minimum figure'",
+    "Strategy Brief p.3 'building money'"
+   ],
+   "fix": "A six-to-eight-term glossary used the same way in all three deliverables. Each reflection maps a filled note's different word once.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Vote set A Sun 18 Oct; TNA Thu 22 Oct"
+  }
+ ]
+}

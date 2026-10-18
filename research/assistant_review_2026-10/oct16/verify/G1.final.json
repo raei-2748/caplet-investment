@@ -1,0 +1,192 @@
+[
+ {
+  "id": "G1-01",
+  "title": "First Taiwan funder source found: the Ministry of Culture's artist-village grant shows how a Taiwanese public funder reads an applicant's own money",
+  "severity": "high",
+  "deliverables": [
+   "FinalReport"
+  ],
+  "problem": "All of Caplet's co-sponsor evidence is U.S. (Kresge 2011, SSIR, U.S. field studies), so the team cannot yet answer 'Why would a Taiwanese co-sponsor believe Laura's range?' with a source. The rubric scores tailoring to her 'residency goals' and credible co-sponsor communication. One primary Taiwan rule text is now readable: the MOC artist-village operating grant. Its form puts own money (自籌經費) in a separate column beside the amount asked and the total; reviewers judge 'concrete feasibility' and 'reasonable budgeting'; amounts are NT$; there is no minimum own share for private applicants (a 50-90% MOC share applies only to city/county governments); no pledge letter or bank proof for own money is listed. Limits: the copy is the 26 Jul 2019 text hosted by a county bureau; a search snippet says it was amended on 23 Nov 2023 (UNVERIFIED); it is one public programme for running residencies, not a building funder or a private sponsor.",
+  "evidence": [
+   "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:56 'residency goals'; :59 'clearly and credibly to prospective co-sponsors'",
+   "team/google_drive/notes_and_discussions.md:210-224 (all U.S. sources)",
+   "oct16/verify/L04_uniqueness.final.json UNIQ-05 'not Taiwanese institutional co-sponsors'",
+   "https://www.hccc.gov.tw/Utility/DisplayFile?id=7839 (MOC 文化部補助藝術村營運扶植計畫作業要點, as amended 26 Jul 2019; copy on Hualien County Cultural Affairs Bureau site; accessed 16 Oct 2026) form: '申請經費 自籌經費 總經費' (gaps/G1_taiwan_cosponsors/src/hccc_7839.txt:153)",
+   "https://www.hccc.gov.tw/Utility/DisplayFile?id=7839 (MOC 文化部補助藝術村營運扶植計畫作業要點, as amended 26 Jul 2019; copy on Hualien County Cultural Affairs Bureau site; accessed 16 Oct 2026) point 9(2): '具體可行性…經費編列合理性' (src:76-77); point 6: '新臺幣三百萬元為上限' and the fiscal-tier ratios '百分之五十…百分之九十' for local governments only (src:34-43); point 8: '其他相關單位資源証明' (src:64-65)"
+  ],
+  "fix": "The client/co-sponsor lead opens the MOC text (reading list #1) and the grants portal (#2), confirms or updates the version, and logs the facts with quote, date and scope. The Final Report may then use one sourced Taiwan fact for the co-sponsor section, stated with its limits (one public programme, NT$, one year). If the students cannot confirm it, they say 'no Taiwan source; we rely on the case's logic (case:110-116)'. No claim about whether Laura would receive any grant (case:164-169).",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "Source log by Sun 15 Nov; Final Report Sat 5 Dec 09:00 Sydney",
+  "lens": "G1",
+  "verdict": "self-verified"
+ },
+ {
+  "id": "G1-02",
+  "title": "V5's pitch premise points the wrong way for the one Taiwan funder found: it pays to run residencies, not to build them",
+  "severity": "high",
+  "deliverables": [
+   "IPS",
+   "FinalReport"
+  ],
+  "problem": "The pitch opens 'Laura's co-sponsors who fund the building rarely pay to run it' (V5:16). Earlier reviews found this unsupported (the case says operating support beyond Laura's 'may come from co-sponsors, grants', case:85-86). New: the only Taiwan primary source found does the reverse. The MOC artist-village grant funds annual operating plans (resident stays, staff, administration) and equipment, not construction. A judge who knows Taiwan's artist-village system, or who reads the case closely, can see the premise as wrong. The pitch is the first thing a screener reads, and the IPS freezes on 6 Nov.",
+  "evidence": [
+   "team/google_drive/ips_report/01_version_5.md:16",
+   "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:85-86 'any operating support beyond Laura's commitment, may come from co-sponsors, grants'",
+   "https://www.hccc.gov.tw/Utility/DisplayFile?id=7839 (MOC 文化部補助藝術村營運扶植計畫作業要點, as amended 26 Jul 2019; copy on Hualien County Cultural Affairs Bureau site; accessed 16 Oct 2026) point 5: '年度營運計畫：包含國內外文化相關人才駐村…專業營運人力培植、行政管理'; '空間發展計畫：包含添購或升級藝術村之創作設備暨設施' (src/hccc_7839.txt:27-32)",
+   "Previously flagged as unsupported: scratchpad/oct14/final.md:435; oct16/verify/L04_uniqueness.final.json (case:85-86 note); L06_ips_attack.final.json"
+  ],
+  "fix": "The team rebases the pitch's reason on the case rule that the portfolio alone must fund the payments (case:91-92), not on a claim about co-sponsor behaviour. Whatever the students write must survive this test: 'Is it true for a Taiwanese public residency funder?' The IPS cannot carry citations (IPS instructions :123), so the pitch must not need one.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "IPS Fri 6 Nov 5 pm ET (Sat 7 Nov 09:00 Sydney); pitch decision by Wed 28 Oct",
+  "lens": "G1",
+  "verdict": "self-verified"
+ },
+ {
+  "id": "G1-03",
+  "title": "Taiwanese public grants run one year at a time and depend on the budget vote; this backs a dated range with a re-quote rule and gives an honest 'ten years pre-funded' contrast",
+  "severity": "medium",
+  "deliverables": [
+   "FinalReport"
+  ],
+  "problem": "The MOC grant is single-year by default; multi-year (at most 2 years) is open only after 3 years in a row of funding; amounts depend on the Legislative Yuan budget and may be cut or stopped; each year's window is one month, announced separately; applicants must report operating status and site-use rights. So a Taiwanese public funder fixes numbers in yearly NT$ budgets, and a new residency would first apply once it exists. Two uses: (1) Laura's 2031 range is a pre-application signal; the firm figure enters a later budget, which supports CLIENT-12's 'quote date' and UNIQ-05's 're-quote rule'. (2) Laura's ten pre-funded years (2033-2042) are something this funder's own rules cannot offer. This is a sourced replacement for the misread Kresge 'sustain' note (L04-V1). It is an inference from one programme, not a general law.",
+  "evidence": [
+   "https://www.hccc.gov.tw/Utility/DisplayFile?id=7839 (MOC 文化部補助藝術村營運扶植計畫作業要點, as amended 26 Jul 2019; copy on Hualien County Cultural Affairs Bureau site; accessed 16 Oct 2026) point 4: '以單一年度執行完畢為原則'; '過去曾連續三年獲本部補助者，得申請跨年度計畫（至多二年）' (src/hccc_7839.txt:19-22)",
+   "https://www.hccc.gov.tw/Utility/DisplayFile?id=7839 (MOC 文化部補助藝術村營運扶植計畫作業要點, as amended 26 Jul 2019; copy on Hualien County Cultural Affairs Bureau site; accessed 16 Oct 2026) point 9(5): '相關補助金額需俟立法院預算審議結果而定，本部得視實際情況酌減或停止補助' (src:82-83); point 7: '受理申請期間為期一個月，期間另行公告之' (src:45); point 8(1),(3),(5) (src:51-66)",
+   "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:109 'begin approaching potential co-sponsors in 2031'",
+   "oct16/verify/L04_uniqueness.final.json L04-V1 (Kresge Q6 misread)"
+  ],
+  "fix": "Add to the fundraising-excerpt checklist: the range carries its date and basis; it says when and how it will be re-stated as one number; it does not promise multi-year facility money. Students may use point (2) in the Final Report with the source and its limits. Do not describe Taiwan's grant law in general terms (case:169).",
+  "confidence": "medium",
+  "new_vs_known": "new",
+  "deadline": "Checklist by Mon 9 Nov; Final Report Sat 5 Dec 09:00 Sydney",
+  "lens": "G1",
+  "verdict": "self-verified"
+ },
+ {
+  "id": "G1-04",
+  "title": "Currency: Taiwan's residency grant rules are in NT$, so CLIENT-10's labelled FX line matters more for the fundraising excerpt",
+  "severity": "medium",
+  "deliverables": [
+   "FinalReport"
+  ],
+  "problem": "CLIENT-10 was lowered to 'low' because the case never says the co-sponsors are Taiwanese or count in NT$. That is still true. But the one Taiwanese residency funder found writes every amount in NT$ (stipend, per-application cap, annual cap). If any co-sponsor is a Taiwanese public body, Laura's US$ range will be read in NT$. At 10-year USD/TWD volatility of 4.69% a year, a two-year 1-standard-deviation move is about 6.6% (MODEL, from VERIFIED FRED data to 18 Sep 2026). V5:28 already asserts a stronger Taiwan dollar raises costs, so the team has taken a view on FX without saying who bears it in the co-sponsor message.",
+  "evidence": [
+   "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:117 'recommend the dollar range'",
+   "https://www.hccc.gov.tw/Utility/DisplayFile?id=7839 (MOC 文化部補助藝術村營運扶植計畫作業要點, as amended 26 Jul 2019; copy on Hualien County Cultural Affairs Bureau site; accessed 16 Oct 2026) points 5(1), 6(1), 13(5): '新臺幣五百元', '新臺幣三百萬元', '新臺幣五百萬元' (src/hccc_7839.txt:28, 34, 120-121)",
+   "research/insight_v1/phase_A/fact_register.md:25 'Volatility over the last 10 years is 4.69%'; :208 USD/TWD 31.82 on 2026-09-18 (FRED DEXTAUS)",
+   "team/google_drive/ips_report/01_version_5.md:28",
+   "oct16/verify/L02_client_forensic.final.json CLIENT-10"
+  ],
+  "fix": "The excerpt states the range in US dollars (the case's unit), says that is the currency of Laura's commitment, says who bears FX moves, and, if an NT$ figure is shown, labels it illustrative with the rate and its date. No NT$ facility cost or gap (case:164-167). Raise CLIENT-10 to medium for the Final Report only; the IPS needs at most one labelled assumption.",
+  "confidence": "medium",
+  "new_vs_known": "known-deeper",
+  "deadline": "Final Report Sat 5 Dec 09:00 Sydney",
+  "lens": "G1",
+  "verdict": "self-verified"
+ },
+ {
+  "id": "G1-05",
+  "title": "Taiwan's public-grant rules make a founder's figure a declared budget line that must match across funders; the range and later numbers must reconcile",
+  "severity": "medium",
+  "deliverables": [
+   "FinalReport"
+  ],
+  "problem": "Under the Executive Yuan's rules for all central-government grants to private groups, a project that asks two or more public funders must list the whole budget and each funder's amount; hiding or faking cancels the grant and claws back money. Leftover money is returned in proportion to each funder's share. The MOC grant adds that a changed or failed plan must be reported for approval, and that rule breaches can bring recovery and a two-year bar. So in Taiwan's public setting, Laura's own contribution would be a declared number seen side by side with other funders' numbers. This supports the case's warning on overpromising (case:114-116) with a Taiwan-specific mechanism. Limit: penalties are for hiding or faking, not for an honest shortfall; the 2016 text is the version read.",
+  "evidence": [
+   "https://www.dbas.taichung.gov.tw/media/280896/811511461738.pdf (Executive Yuan 中央政府各機關對民間團體及個人補(捐)助預算執行應注意事項, 6 Dec 2016 text; accessed 16 Oct 2026) point 4(1): '同一案件向二個以上機關提出申請補（捐）助，應列明全部經費內容…如有隱匿不實或造假情事，應撤銷該補（捐）助案件，並收回已撥付款項' (src/ey_tc.txt:31-33); point 4(5) pro-rata return (src:43-44)",
+   "https://www.hccc.gov.tw/Utility/DisplayFile?id=7839 (MOC 文化部補助藝術村營運扶植計畫作業要點, as amended 26 Jul 2019; copy on Hualien County Cultural Affairs Bureau site; accessed 16 Oct 2026) point 13(2): '若計畫變更或因故無法履行，應即函報本部核准' (src/hccc_7839.txt:114-115); point 14 (src:122-123)",
+   "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:114-116"
+  ],
+  "fix": "Checklist item: one set of numbers, dated, the same for every co-sponsor; the bottom of the range is the figure she can put in a budget line; the top is labelled conditional with its rule. The Final Report must not claim that Taiwan penalises an honest miss.",
+  "confidence": "medium",
+  "new_vs_known": "new",
+  "deadline": "Checklist by Mon 9 Nov; Final Report Sat 5 Dec 09:00 Sydney",
+  "lens": "G1",
+  "verdict": "self-verified"
+ },
+ {
+  "id": "G1-06",
+  "title": "The '17 languages, relevant for Taiwanese readers' note overreaches: the open paper names China and Hong Kong, not Taiwan",
+  "severity": "low",
+  "deliverables": [
+   "FinalReport"
+  ],
+  "problem": "Team notes say the uncertainty-words result 'holds across 17 languages (relevant for Taiwanese readers)'. The paper's open page thanks translators for 'China and Hong Kong'; Taiwan is not named. The full country list sits in the paywalled methods (UNVERIFIED). Claiming a Taiwan sample would be a small but checkable error in the section Caplet hopes will stand out.",
+  "evidence": [
+   "team/google_drive/notes_and_discussions.md:224",
+   "https://link.springer.com/10.1038/nclimate2194 (accessed 16 Oct 2026): '25 samples in 24 countries and 17 languages'; acknowledgements 'W. Au (China and Hong Kong)'"
+  ],
+  "fix": "Say 'including Chinese-language samples' or check the full paper (reading list #5). Do not say Taiwan was sampled unless the methods confirm it.",
+  "confidence": "medium",
+  "new_vs_known": "new",
+  "deadline": "Source log by Sun 15 Nov",
+  "lens": "G1",
+  "verdict": "self-verified"
+ },
+ {
+  "id": "G1-07",
+  "title": "COMPETITION.md calls Laura 'a fictional client'; the official page treats her as a real person who must not be contacted",
+  "severity": "low",
+  "deliverables": [
+   "FinalReport",
+   "Team"
+  ],
+  "problem": "The team's single source of truth says 'Laura is a fictional client'. The official client page says 'Teams are not permitted to contact Laura Gao', and the team's own working rules treat the case quote as not verifiable as Laura's. If students think she is fictional, they may invent quotes or details about her in the fundraising excerpt, which is risky for a real person and for credibility.",
+  "evidence": [
+   "COMPETITION.md:49 'Laura is a fictional client'",
+   "competition/official/2026_27/smapply_public_2026-10-14/client.txt:23 'Teams are not permitted to contact Laura Gao.'",
+   "CLAUDE.md:107 'The case pull quote is the case's words, not verifiable as Laura's; no Laura quotes in the Trading Notes or IPS'"
+  ],
+  "fix": "Team corrects COMPETITION.md (the AI does not edit the repo). Checklist item for the excerpt: no invented quotes, no facts about Laura beyond the case.",
+  "confidence": "medium",
+  "new_vs_known": "new",
+  "deadline": "Before Final Report drafting, Sun 15 Nov",
+  "lens": "G1",
+  "verdict": "self-verified"
+ },
+ {
+  "id": "G1-08",
+  "title": "Ladder-cost conflict ($294k vs $298.6k) explained; it changes today's floor estimate, not the 2031 co-sponsor logic",
+  "severity": "low",
+  "deliverables": [
+   "IPS",
+   "FinalReport"
+  ],
+  "problem": "The 16 Oct number sheet's $294,453 (headroom $5,547) prices $50,000 at each payment date (1 Jan 2033-2042) on a bootstrapped 15 Oct curve, carried forward to 1 Jan 2027. That is the value of the payments, i.e. an ideal zero-coupon match that is not buyable since the 6 Oct WInS-only email. The lenses' $298,624 (headroom $1,376, 4.7bp) prices to the WInS holdings' own earlier maturity dates (15 Dec for iBonds; Feb/May/Nov for the bonds) and assumes yields stay unchanged to 1 Jan 2027. On WInS dates with forward rates it is $297,778 (7.7bp). So about $3.3k of the gap is maturity dates and about $0.8k is 'unchanged' vs forward. The sheet says the 2028 deposit tops up any ladder gap first, which lowers the floor, so the $145k quoted floor is softer than shown. For co-sponsors this matters little: by 2031 the floor is already bought (Jan 2028) and is a known figure.",
+  "evidence": [
+   "caplet-latest/research/ips_numbers_2026-10/ips_numbers.py:70-89 (cost = sum of PAY discounted to dt.date(y,1,1) for payment years)",
+   "caplet-latest/research/ips_numbers_2026-10/results.json: '2026-10-15': cost 294453, headroom 5547",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:13-15 (floor lower if ladder costs more than $300k)",
+   "oct16/lenses/L08_coherence_numbers.md:33-35 ($298,624 yields unchanged; $297,778 forward; WInS-listed maturities)"
+  ],
+  "fix": "Use $298.6k / 4.7bp (15 Oct, MODEL) for 'what Laura's WInS-listed plan costs if yields stay put' and for the IBTR note's trigger; use about $297.8k for a forward-rate cost of the same holdings; use $294k only as 'the value of the ten payments', not as the ladder's cost. Always state date and basis. The co-sponsor excerpt quotes the floor as bought, not today's model.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "IPS Fri 6 Nov; Final Report Sat 5 Dec 09:00 Sydney",
+  "lens": "G1",
+  "verdict": "self-verified"
+ },
+ {
+  "id": "G1-09",
+  "title": "Make the Taiwan check student-owned: a five-link reading list with one question each",
+  "severity": "medium",
+  "deliverables": [
+   "FinalReport",
+   "Team"
+  ],
+  "problem": "Key Taiwan pages (moc.gov.tw, artres.moc.gov.tw, NCAF) would not load from the AI's sandbox (HTTP 403 / proxy refusal on 16 Oct). The students can open them from Sydney. Doing this themselves turns an AI gap into the team's own research, which fits 'authentic team voice' and the Articulation criterion. Without it, the co-sponsor section rests only on U.S. sources and the case's logic.",
+  "evidence": [
+   "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:58 'clearly explains the team's research and decision-making process'; :59 'authentic team voice'",
+   "oct16/gaps/G1_taiwan_cosponsors/student_reading_list.md",
+   "Access log 16 Oct 2026: artres.moc.gov.tw, moc.gov.tw, law.moc.gov.tw, www.ncafroc.org.tw returned HTTP 403 via page.py"
+  ],
+  "fix": "Assign the reading list to the client/co-sponsor lead (or two students). Log answers by Sun 15 Nov. Success test: one student can answer 'Why would a Taiwanese co-sponsor believe Laura's range?' with one logged source, or say honestly 'no source found; we rely on the case's logic'. Record the AI's part in the Works Cited.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "Sun 15 Nov; Final Report Sat 5 Dec 09:00 Sydney",
+  "lens": "G1",
+  "verdict": "self-verified"
+ }
+]

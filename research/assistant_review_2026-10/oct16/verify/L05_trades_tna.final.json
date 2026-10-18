@@ -1,0 +1,536 @@
+[
+ {
+  "id": "TNA-01",
+  "title": "IBTR note's threshold almost used up: 4.7bp of room on 15 Oct",
+  "severity": "medium",
+  "deliverables": [
+   "TNA",
+   "IPS"
+  ],
+  "problem": "The filled IBTR note (set on the 6 Oct curve) says the first $300,000 buys all ten payments unless yields fall more than about 0.2 points. On the note's own basis (WInS holdings' maturity dates, yields unchanged to 1 Jan 2027) the room was $6,552 / 22.7bp on 6 Oct, 13.9bp on 14 Oct and $1,376 / 4.7bp on 15 Oct; long yields are down about 0.15-0.20 points since 6 Oct (7y 5.15 to 5.00, 20y 5.68 to 5.48). MODEL: roughly 28% chance the cost is above $300k on 20 Oct, about 45% by 31 Dec. The note stays true as a dated, conditional statement. The risk is a reflection that states a current status ('0.16 points left', 'not triggered') which is false or on a different basis by the time it is read. Basis note: the 16 Oct number sheet's $294,453 / $5,547 prices $50k on each 1 Jan payment date with forward rates; L05's $298,624 / $1,376 prices $50k on each WInS holding's earlier maturity with yields unchanged (dates explain about $3,390, curve assumption about $780; verify/L05w/decomp.py).",
+  "evidence": [
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:15 \"If yields fall more than about 0.2 percentage points by January, the 2028 deposit would top up the ladder\"",
+   "ops/routines/MONITOR.md:22 \"On 6 Oct the executable ladder cost $293,447, and a 22.7bp fall would take it to $300k\"",
+   "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv (accessed 16 Oct 2026): 10/15/2026 7y 5.00, 10y 5.10, 20y 5.48",
+   "scratchpad oct16/lenses/L05/ladder_series_out.txt: \"room 15 Oct $ 1376.0 4.7 bp\"; \"days above 300k in 2026: 182 of 198\"",
+   "scratchpad oct14/tna_merge.md:78 \"The room left is now about 0.16 percentage points\"",
+   "caplet-latest/competition/official_market_data/daily-treasury-rates_2026-10.csv:2 and :8 (15 Oct and 6 Oct rows)",
+   "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:20-23 'not expected to ... complete long-term portfolio projections'",
+   "verify/L05w/decomp.py output: 10/15 maturities unch 298,624; paydates fwd 294,453"
+  ],
+  "fix": "Preferred: the IBTR reflection explains the rule set in advance (what happens if yields fall past the line, and who bears it) without quoting a fresh ladder figure. If the team does quote one, it names the date and the basis ('WInS holdings, yields unchanged'), comes from a saved, dated script output, and the same basis appears in the IPS. Prepare logic for both outcomes. Never present WInS bond gains from falling yields as good news.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "Decide 'number or no number' at the Sun 18 Oct vote; if a number, run it Wed 21 Oct Sydney; TNA team target Thu 22 Oct (official Sat 24 Oct 08:00 Sydney)",
+  "lens": "L05_trades_tna",
+  "verdict": "adjusted",
+  "verifier_note": "Numbers reproduce exactly and the note's basis is confirmed by MONITOR.md:22 ($293,447 / 22.7bp on 6 Oct). Corrected: no committed repo script produces this basis (ips_numbers.py uses the payment-date forward basis); the note is dated and conditional, not false; the TNA brief says no projections are expected (TNA:20-23), so a reflection needs no fresh number. Severity high -> medium."
+ },
+ {
+  "id": "TNA-02",
+  "title": "IPS '$292,000' is stale and unlabelled; the '2027 leftover first' backstop is $1.4k-$5.5k and may be zero",
+  "severity": "high",
+  "deliverables": [
+   "IPS",
+   "TNA",
+   "FinalReport"
+  ],
+  "problem": "IPS V5 and Tab 15 quote about $292,000 'at late-September 2026 yields' with no basis. On 15 Oct the cost is $294,453 (sheet basis) or $298,624 (IBTR-note basis). V5's shortfall order starts with the 2027 leftover, now about $5.5k or $1.4k depending on basis, and zero if the line is crossed, so the real first backstop becomes Laura's half. The branch CLAUDE.md:13-14 tells the team to use the sheet's ~$294k in the IPS while the IBTR note was set on the other basis: a TNA and an IPS on different bases break the TNA brief's consistency requirement.",
+  "evidence": [
+   "team/google_drive/ips_report/01_version_5.md:24 \"At late-September 2026 yields they cost about $292,000\"",
+   "team/google_drive/ips_report/01_version_5.md:26 \"Any shortfall expected in 2033 comes first from the 2027 leftover\"",
+   "team/google_drive/ips_report/15_tab_15.md:7 \"Its roots, about $292,000 of Treasuries\"",
+   "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:29-31 'consistent with the strategic approach your team is developing and will later articulate in its IPS'",
+   "caplet-latest/CLAUDE.md:13-14 'Ladder ~$294k (headroom ~$5.5k ...)'",
+   "caplet-latest/research/ips_numbers_2026-10/results.json ladder_cost_bootstrap_headline 2026-10-15 cost 294453 headroom 5547"
+  ],
+  "fix": "Add to vote set A: one named basis and date for the ladder figure, used in both TNA and IPS (see TNA-V01), and what the IPS says if the line is crossed. Say plainly whether the 2027 leftover may be zero, and do not rely on it as a buffer.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "Decision Sun 18 Oct; IPS text by Wed 4 Nov format check (IPS due 6 Nov ET)",
+  "lens": "L05_trades_tna",
+  "verdict": "adjusted",
+  "verifier_note": "Lines confirmed (V5:16, :24, :26; Tab 15:7). Corrected: '$292,000' is right for late September on the forward payment-date basis (about $292.8k on 29 Sep per L08) - the defect is a missing date/basis label, not a wrong number. Better official anchor is TNA:29-31. The 412e9e3 branch now directs the team to the sheet's $294k basis, which differs from the IBTR note's basis."
+ },
+ {
+  "id": "TNA-03",
+  "title": "Trigger B on the WInS basis: a crossing still means 'hold'; restate or retire the rule",
+  "severity": "medium",
+  "deliverables": [
+   "Trades",
+   "Strategy",
+   "TNA"
+  ],
+  "problem": "Trigger B (sell VT, buy IBTM) is written on the superseded zero-coupon basis and was never ratified. On the WInS-listed basis at 2/3 scale, the VT sale reaches the kit's $2,500 minimum only after about 17.7bp more fall (fixed-floor reading; MODEL chance by the 20 Oct window close about 1.5%) or about 69bp (IPS V5 'sized to return that remainder' reading, where VT takes about a fifth of the gap). Without a logged decision, a crossing invites a panic or staged trade. The rule's own check date (14 Oct close, october_trade.md:18) has passed with no outcome logged in the repo, and the trade window opened Fri 16 Oct 1:30 AEDT and closes Wed 21 Oct 6:30 AEDT.",
+  "evidence": [
+   "rab/trades/october_trade.md:42 \"on the zero-coupon basis of numbers.yaml ... only if the amount is at least $2,500\"",
+   "rab/trades/october_trade.md:62-63 \"lowers the floor by the whole gap and the stock fund by only about a fifth of it\"",
+   "rab/trades/october_trade.md:20 \"Trade window closes | Tue 20 Oct 2026 3:30 PM EDT | Wed 21 Oct 2026 6:30 AM AEDT\"",
+   "team/google_drive/notes_and_discussions.md:308 \"scaled down to $300k\"",
+   "competition/official/2026_27/2026_WGY_Investment_Competition_Guide.txt:156-157 \"should not be rewritten simply because markets move\"",
+   "rab/trades/october_trade.md:3-4 'The team ratifies it before the check date'",
+   "rab/trades/october_trade.md:18-19 (check uses the 14 Oct close; window opens Fri 16 Oct 1:30 AM AEDT)"
+  ],
+  "fix": "By Sun 18 Oct, restate trigger B on the WInS-listed basis using the floor reading the IPS will use, or retire it. Log the 14, 15 and 20 Oct checks (rule, number, 'hold'). The log is the monitoring evidence for IBTR and the Final Report.",
+  "confidence": "medium",
+  "new_vs_known": "new",
+  "deadline": "Sun 18 Oct vote; window closes Wed 21 Oct 06:30 Sydney",
+  "lens": "L05_trades_tna",
+  "verdict": "adjusted",
+  "verifier_note": "Quotes and arithmetic confirmed ($2,500/(2/3) = $3,750 -> 17.7bp beyond $1,376; one-fifth reading -> 69bp). No ratification recorded in team docs. Added: the rule's own check date (14 Oct close) passed with no logged outcome; the window is open now. On the sheet's basis the bp gaps are about 14bp larger."
+ },
+ {
+  "id": "TNA-04",
+  "title": "11 trades and 'hold' reads as passive unless monitoring is shown",
+  "severity": "medium",
+  "deliverables": [
+   "TNA",
+   "FinalReport",
+   "Trades"
+  ],
+  "problem": "Wharton says trade count is not scored and discourages frequent trading. But it also calls WInS evidence of decisions 'as market conditions changed' and wants notes 'at the time' of each decision. All 11 orders were placed within 25 hours (6 Oct 7:55 PM to 7 Oct 8:27 PM ET), and WInS shows nothing since. Earlier years asked how trades informed the strategy as it 'evolved'.",
+  "evidence": [
+   "competition/official/2026_27/smapply_public_2026-10-14/wins.txt:23 \"How many trades you make\" (not evaluated)",
+   "competition/official/2026_27/smapply_public_2026-10-14/wins.txt:41 \"made decisions as market conditions changed\"",
+   "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:39 \"you should not be doing a lot of buying and selling\"",
+   "competition/official/2026_27/smapply_public_2026-10-14/trading.txt:53 \"does not require frequent or same-day trading\"",
+   "scratchpad oct16/research/R2_pages/wp_2024_deliverables.txt:143 \"reflect on how they informed your understanding and design of your final strategy\""
+  ],
+  "fix": "Frame hold as a decision taken repeatedly by rule. Keep a dated log of each check (rule, number, result) and put one clause of it in the IBTR reflection, with the full log in the Final Report. Show that the one-pass build was deliberate (every payment holding before VT). Never trade for show or imply trades that did not happen.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "Log started by Sun 18 Oct; used in the TNA Thu 22 Oct and the Final Report 4 Dec",
+  "lens": "L05_trades_tna",
+  "verdict": "adjusted",
+  "verifier_note": "Quotes confirmed; order span 24.5h confirmed from the export. 'WInS shows nothing since' is inferred from COMPETITION.md:172, not observed. Wharton explicitly does not score trade count and discourages frequent trading, so high overstates the Top-50 risk. Severity high -> medium."
+ },
+ {
+  "id": "TNA-05",
+  "title": "WInS 'Add Note' exists; do not add notes to the picked trades",
+  "severity": "medium",
+  "deliverables": [
+   "TNA",
+   "Trades"
+  ],
+  "problem": "WInS lets the team add notes to executed trades from Order and Transaction History. A later 'review' note on IBTR would blur which note is quoted 'exactly as it appears in WInS'. It would also clash with Wharton's wish that notes record reasoning 'at the time it is made', and could look retro-fitted when Wharton verifies.",
+  "evidence": [
+   "team/google_drive/sheets/portfolio_and_trading_notes/wins_notes.csv:17 \"Notes are added in Preview Order and can also be added or viewed from Order History or Transaction History (Add/View Notes)\"",
+   "competition/official/2026_27/smapply_public_2026-10-14/wins.txt:43 \"record the reasoning, research, and intended strategic role of each decision at the time it is made\"",
+   "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:44 \"Include each Trading Note exactly as it appears in WInS.\""
+  ],
+  "fix": "Add no notes to IBTR, IBTM or VT before the TNA is submitted. Keep monitoring in the team's dated decision log. Any later WInS note must only record a real review, never 'correct' a quoted note.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "Until TNA submission Thu 22 Oct, and after",
+  "lens": "L05_trades_tna",
+  "verdict": "confirmed",
+  "verifier_note": "wins_notes.csv:17, wins.txt:43 and TNA:44 say what is claimed."
+ },
+ {
+  "id": "TNA-06",
+  "title": "Liquidity is the one Wharton theme the trio never mentions; labels are optional",
+  "severity": "medium",
+  "deliverables": [
+   "TNA"
+  ],
+  "problem": "The hard checklist is the three instruction bullets (why, alignment, client link). 'Tested/refined' appears only in the purpose text, so label headings waste scarce words. The purpose and the Guide name liquidity as a theme or role, but no note or planned reflection covers it, although the plan is about cash arriving on time.",
+  "evidence": [
+   "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:4-6 \"growth, risk, liquidity, funding reliability, financial flexibility, and future cash-flow needs\"",
+   "competition/official/2026_27/2026_WGY_Investment_Competition_Guide.txt:85-86 \"expected role in growth, liquidity, risk management, or future funding\"",
+   "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:46-52 (the three required bullets)",
+   "rab/trades/note_rules.py:50 ROLE_WORDS = [\"growth\", \"liquidity\", \"risk management\", \"future funding\"]"
+  ],
+  "fix": "Use the verbs naturally inside the sentences, without headers. Let one reflection (IBTM is the natural one) show that cash is ready before the payment date: the fund ends about mid-Dec 2032, 17 days before 1 Jan 2033. Check coverage with the theme table in the report.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "Outline Mon 19 Oct",
+  "lens": "L05_trades_tna",
+  "verdict": "confirmed",
+  "verifier_note": "TNA:4-6, Guide:85-86, note_rules.py:50 verified; 15 Dec to 1 Jan = 17 days."
+ },
+ {
+  "id": "TNA-07",
+  "title": "Wharton's example note models a glide path; Caplet locks early and must say why",
+  "severity": "medium",
+  "deliverables": [
+   "TNA",
+   "IPS"
+  ],
+  "problem": "Wharton's only example buys a Treasury ETF to balance growth with cash flows 'as the residency funding date approaches': gradual de-risking. Caplet buys the whole payment set six years early with about 9% in stocks. Judges primed by the example may ask 'why now?', and no note answers it.",
+  "evidence": [
+   "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:36-39 \"This trade supports our plan to balance continued growth with reliable future cash flows as the residency funding date approaches.\"",
+   "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:90 \"each payment is a fixed $50,000 and is not adjusted for inflation\""
+  ],
+  "fix": "IBTR or IBTM gives the reason in one plain clause, in the students' words: the payments are fixed in dollars, and waiting leaves them exposed to falling yields, which is the risk TNA-01 shows is real. This is the team's most distinctive idea, so it earns the words.",
+  "confidence": "medium",
+  "new_vs_known": "new",
+  "deadline": "Outline Mon 19 Oct",
+  "lens": "L05_trades_tna",
+  "verdict": "confirmed",
+  "verifier_note": "TNA:36-39 and Client Profile:90 verified."
+ },
+ {
+  "id": "TNA-08",
+  "title": "Show three different kinds of decision; record the VT 'copout' debate outcome",
+  "severity": "medium",
+  "deliverables": [
+   "TNA",
+   "FinalReport"
+  ],
+  "problem": "The deliverable asks about the team's decision-making process. Three buys placed within 22 hours can read as one decision. The strongest authentic material for VT (a teammate's 5 Oct argument for stock picking, plus EWT and GLD) has no recorded outcome, so VT's reflection lacks a 'why not something else'.",
+  "evidence": [
+   "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:3 \"What Was Your Team's Decision-Making Process?\"",
+   "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:14-15 \"used individual investments as part of a cohesive portfolio strategy\"",
+   "team/google_drive/final_report.md:23 \"Darren argued the world fund is a 'copout' ... Outcome and reasons: [fill in]\"",
+   "team/google_drive/final_report.md:24 \"kept 'never below the floor' on purpose (STRIPS in real life, IBTM as the WInS stand-in)\""
+  ],
+  "fix": "Give each pick a different decision type: IBTR a rule set in advance; IBTM a change forced by the 6 Oct email (subject to gate G3); VT a choice among alternatives. Record the VT debate outcome and reasons by Sun 18 Oct. Give each reflection one link to the other two so the three read as one strategy.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "VT outcome Sun 18 Oct; drafts Tue 20 Oct",
+  "lens": "L05_trades_tna",
+  "verdict": "confirmed",
+  "verifier_note": "final_report.md:23-24 verified; VT outcome still '[fill in]'. First name only, no ranking."
+ },
+ {
+  "id": "TNA-09",
+  "title": "Top 50 selection names the IPS and Final Report only, so time-box the TNA",
+  "severity": "low",
+  "deliverables": [
+   "TNA",
+   "IPS",
+   "Team",
+   "Repo"
+  ],
+  "problem": "Wharton's live Rules page says the Top 50 are chosen 'based on the strength of their IPS and Final Reports'. The TNA is evaluated and judged with them, and it fixes facts the IPS must repeat, but its weight for the semifinals is unclear. COMPETITION.md says 'written deliverables'. Over-investing in the TNA risks squeezing the IPS rewrite.",
+  "evidence": [
+   "https://globalyouth.wharton.upenn.edu/competitions/investment-competition/rules-roles/ (accessed 16 Oct 2026): \"The top 50 teams will be selected as semifinalists based on the strength of their Investment Policy Statement (IPS) and Final Reports.\"",
+   "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:27 \"Your Trading Notes Analysis, Investment Policy Statement and Final Report are evaluated.\"",
+   "COMPETITION.md:41 \"The Top 50 semifinalists are chosen on the written deliverables\"",
+   "research/insight_v1/phase_A/case_register.md:32 'Official sources disagree on what decides the semifinals'",
+   "Rules & Roles (accessed 16 Oct 2026): 'teams must meet all competition requirements and submit the competition deliverables by the published deadlines'"
+  ],
+  "fix": "Finish the TNA by Thu 22 Oct within a fixed time budget, correct and consistent. Keep vote set B and the IPS rewrite on schedule. Correct COMPETITION.md:41 to quote the Rules page.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "TNA Thu 22 Oct; IPS work from Tue 27 Oct",
+  "lens": "L05_trades_tna",
+  "verdict": "adjusted",
+  "verifier_note": "Rules page quote verified (16 Oct). But the official-source conflict was already logged (research/insight_v1/phase_A/case_register.md:32; L08 table) so it is known, not new; the same page requires all deliverables by the deadlines to stay eligible. Severity medium -> low."
+ },
+ {
+  "id": "TNA-10",
+  "title": "'Required trading activity' still undefined; Week-One email still unread",
+  "severity": "medium",
+  "deliverables": [
+   "Trades",
+   "All"
+  ],
+  "problem": "Rules & Roles has a 'Trading Requirements' heading with only the sentence that teams must meet 'required trading activity' guidelines. Advisors monitor 'portfolio activity'. The Week-One email, the likeliest place for the rule, is logged unread, with no later record of anyone reading it. This is the only rule that could make an 11-trade hold book non-compliant.",
+  "evidence": [
+   "https://globalyouth.wharton.upenn.edu/competitions/investment-competition/rules-roles/ (accessed 16 Oct 2026): \"Teams must meet the required trading activity and portfolio management guidelines throughout the competition.\"",
+   "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:76 (same sentence)",
+   "team/google_drive/sheets/portfolio_and_trading_notes/wins_notes.csv:19 \"opens as a download, not read here ... Someone on the team should read it\"",
+   "Rules & Roles (accessed 16 Oct 2026): advisors responsible for \"Monitoring team engagement and portfolio activity\""
+  ],
+  "fix": "A student reads the Week-One email and the logged-in Trading Details read-only and records the exact words privately. If a minimum exists, meet it only through a pre-set rule trade with its own strategy reason, never to reach a count.",
+  "confidence": "medium",
+  "new_vs_known": "known-deeper",
+  "deadline": "Sat 17 Oct Sydney",
+  "lens": "L05_trades_tna",
+  "verdict": "confirmed",
+  "verifier_note": "Rules page :451/:421 and faqs.txt:76 verified 16 Oct; wins_notes.csv:19 shows the email unread; the public trading page has no activity minimum."
+ },
+ {
+  "id": "TNA-11",
+  "title": "SMApply: 'Mark as Complete' is not the same as submitting; the form is unseen",
+  "severity": "medium",
+  "deliverables": [
+   "TNA",
+   "IPS",
+   "FinalReport"
+  ],
+  "problem": "Nobody has recorded the TNA form (fields, limits, text or upload). SurveyMonkey Apply says submitting the application needs all required tasks completed, and that tasks marked complete can still be edited before submission. Wharton's exact flow is UNVERIFIED. The team could think it has submitted when it has only marked a task complete, or press a whole-application submit that locks later tasks.",
+  "evidence": [
+   "https://help.surveymonkey.com/en/apply/faqs/application-faq/ (accessed 16 Oct 2026): \"To be able to submit your application you will first need to complete all required tasks within your application.\"",
+   "same page: \"If you have previously pressed Marked as Complete on a form, but have not yet Submitted your application, you can choose to make Edits to your task.\"",
+   "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:54 \"Your team will submit their trading notes via the SurveyMonkey Apply form.\""
+  ],
+  "fix": "Ray opens the TNA task without submitting and records the fields, counters, text or upload, and how the submitted roster task's status reads. On the day, screenshot the final status (team Drive only). Check what any application-wide button locks before pressing it.",
+  "confidence": "medium",
+  "new_vs_known": "new",
+  "deadline": "Inspect Sat 17 Oct; submit Thu 22 Oct Sydney",
+  "lens": "L05_trades_tna",
+  "verdict": "confirmed",
+  "verifier_note": "Both SurveyMonkey help quotes verified 16 Oct; Wharton's own flow remains UNVERIFIED as stated."
+ },
+ {
+  "id": "TNA-12",
+  "title": "Add identifier lines (security, buy, quantity, ET order time) outside the reflections",
+  "severity": "low",
+  "deliverables": [
+   "TNA"
+  ],
+  "problem": "Wharton will verify each note against an executed trade. WInS timestamps are order times in ET, not fills (iBonds filled 7 Oct, VT 8 Oct, not yet confirmed from Transaction History). Mislabelling the order date as the execution date, or converting to Sydney time, creates verification friction.",
+  "evidence": [
+   "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:53 \"Yes, we will verify this.\"",
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:8 \"with times in US Eastern as WInS shows them\"",
+   "COMPETITION.md:176-186 (IBTM 4,503 sh; IBTR 853 sh; VT 167 sh)"
+  ],
+  "fix": "If the form allows, put one identifier line per pick outside the 100 words: security, buy, quantity, and the order date and time exactly as WInS shows them. Take fill dates from Transaction History. Never convert times to Sydney time. Copy every identifier from WInS, not from COMPETITION.md (its Feb-2037 coupon is wrong; see TNA-V03).",
+  "confidence": "medium",
+  "new_vs_known": "known-deeper",
+  "deadline": "Thu 22 Oct",
+  "lens": "L05_trades_tna",
+  "verdict": "adjusted",
+  "verifier_note": "Optional polish: the TNA only requires the note exactly as in WInS. Added: COMPETITION.md:181 gives the Feb-2037 bond as 5.000% while WInS and portfolio.csv:25 say 4.750%, so identifiers must be copied from WInS. Severity medium -> low."
+ },
+ {
+  "id": "TNA-13",
+  "title": "Copy fidelity: notes are straight-quote ASCII; Google Docs inserts curly quotes",
+  "severity": "low",
+  "deliverables": [
+   "TNA"
+  ],
+  "problem": "All 15 exported notes are plain ASCII with straight apostrophes, while the team's Google Doc text uses curly ones ('Laura’s'). Retyping or autocorrect would change 'Laura's' and break 'exactly as it appears'. The Markdown export also mangles formatting, so it is not a safe paste source.",
+  "evidence": [
+   "character scan of team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:14-24: no non-ASCII characters; IBTR 294, IBTM 292, VT 288 characters",
+   "team/google_drive/ips_report/15_tab_15.md:7 \"Laura’s co-sponsors\" (curly apostrophe)",
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:28 \"**IBTM (6 Oct, 10:**01 PM)\" (broken formatting)"
+  ],
+  "fix": "Copy each note from the WInS Trade Notes page and paste it as plain text (Ctrl+Shift+V). Never retype or tidy. Delete the date and ticker cells if copying a table row. A second student compares character by character and checks the lengths 294 / 292 / 288.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "Thu 22 Oct",
+  "lens": "L05_trades_tna",
+  "verdict": "confirmed",
+  "verifier_note": "Re-scanned: all 11 filled notes are ASCII; IBTR 294, IBTM 292, VT 288 characters; Tab 15 has 5 curly apostrophes."
+ },
+ {
+  "id": "TNA-14",
+  "title": "VT note faults re-verified; the 6 Oct AI-draft overlap is low for all three picks",
+  "severity": "medium",
+  "deliverables": [
+   "TNA",
+   "IPS"
+  ],
+  "problem": "The VT note's 'They only set how far her gift rises above her promised minimum' is wrong under IPS V5, where Laura's half is also a cushion and a backstop. 'Promised' overclaims, 'They' is unclear, and the note gives no sizing. The facts check out: 0.06% fee and 10,180 holdings. Compared with the 6 Oct AI-draft column, the picks share few 4-word runs (IBTR 0%, IBTM 4-9%, VT 2-4%), so the authorship issue is limited to the 30 Sep examples already flagged.",
+  "evidence": [
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:14 \"They only set how far her gift rises above her promised minimum.\"",
+   "team/google_drive/ips_report/01_version_5.md:30 \"The other half stays with Laura as a cushion if costs rise or co-sponsors fall short.\"",
+   "https://stockanalysis.com/etf/vt/ (accessed 16 Oct 2026): \"Expense Ratio 0.06%\", \"Holdings 10180\"",
+   "team/google_drive/sheets/portfolio_and_trading_notes/trading_notes.csv header \"Proposed note — AI draft, not saved in WInS\""
+  ],
+  "fix": "VT's reflection corrects the role honestly, states the size (about 9% of all money) and the trade-off, and names the alternative rejected. Keep VT as the growth pick.",
+  "confidence": "high",
+  "new_vs_known": "known-repeat",
+  "deadline": "Draft Tue 20 Oct",
+  "lens": "L05_trades_tna",
+  "verdict": "confirmed",
+  "verifier_note": "stockanalysis VT page shows 0.06% and 10180 holdings (16 Oct). Re-computed 4-gram overlap vs the 6 Oct AI-draft column: IBTR 0%, IBTM 4%, VT 4%; vs the AI exemplar column IBTM 15%, VT 22% (the exemplar issue already flagged)."
+ },
+ {
+  "id": "TNA-15",
+  "title": "AI disclosure: the 16 Oct [AI]-suggestion rule lets AI wording into the TNA with no citation before 4 Dec",
+  "severity": "high",
+  "deliverables": [
+   "TNA",
+   "FinalReport"
+  ],
+  "problem": "Wharton: 'AI-generated work may not be submitted as your own' and 'Any AI-generated material included in your report must be properly cited, just like any other reference source.' The IPS bans formal citations; the TNA instructions do not. Commit 412e9e3 lets the assistant put [AI] suggestions into the TNA, IPS and Final Report and records accepted AI wording only in the Final Report's Works Cited (4 Dec). The TNA (23 Oct) and IPS (6 Nov) are submitted and judged before that, and the quoted WInS notes already share wording with AI exemplars (VT, IBTM).",
+  "evidence": [
+   "Rules & Roles https://globalyouth.wharton.upenn.edu/competitions/investment-competition/rules-roles/ (accessed 16 Oct 2026): 'AI-generated work may not be submitted as your own.' / 'Any AI-generated material included in your report must be properly cited, just like any other reference source.'",
+   "same page: 'If you include material generated by an AI program, it should be cited like any other reference material'",
+   "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:123-124 'formal citations are not permitted'",
+   "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:40-54 (no citation ban)",
+   "caplet-latest/CLAUDE.md:27-30 and caplet-latest/COMPETITION.md:142-144 (the 16 Oct [AI]-suggestion rule)",
+   "scratchpad oct14/tna_merge.md:166 'The last 13 words are verbatim from the AI exemplar'"
+  ],
+  "fix": "Team decision, logged before drafting starts: either accept no [AI] wording into the TNA reflections (students write them; AI only checks facts and counts), or, if any is accepted, acknowledge it in the TNA submission itself (e.g. a short factual line outside the reflections if the form allows) rather than waiting for 4 Dec. Decide the same question for the IPS, where citations are banned. Record the choice in docs/AI_USE.md. The team may ask Wharton through its official contact route in its own words.",
+  "confidence": "medium",
+  "new_vs_known": "new",
+  "deadline": "Decide Sun 18 Oct, before any [AI] suggestion is accepted into the TNA",
+  "lens": "L05_trades_tna",
+  "verdict": "adjusted",
+  "verifier_note": "Rules page wording verified 16 Oct; IPS-FINAL:123-124 bans formal citations; TNA brief has no ban. Upgraded because 412e9e3 now lets [AI] suggestions into the TNA and IPS while recording accepted AI wording only in the 4 Dec Works Cited, after both are judged. Severity medium -> high."
+ },
+ {
+  "id": "TNA-16",
+  "title": "Volume rule differs: public 'twice daily volume' vs WInS FAQ 'at most half'",
+  "severity": "low",
+  "deliverables": [
+   "Trades"
+  ],
+  "problem": "If any further trade happens (for example trigger D's bond swap, where WInS bond volume is unknown), the stricter WInS reading could leave an order waiting or part-filled near the freeze. The half-volume wording is UNVERIFIED (team transcription of the logged-in WInS FAQ).",
+  "evidence": [
+   "competition/official/2026_27/smapply_public_2026-10-14/trading.txt:41 \"no more than twice a security's current daily trading volume\"",
+   "team/google_drive/sheets/portfolio_and_trading_notes/wins_notes.csv:14 \"Orders can take at most half of a security's market volume; larger orders wait\""
+  ],
+  "fix": "Before any order, follow the stricter half-volume reading. Check no part-filled order is left open at the 6 Nov 4:00 pm ET freeze.",
+  "confidence": "medium",
+  "new_vs_known": "new",
+  "deadline": "Before any trade; freeze Sat 7 Nov 08:00 Sydney",
+  "lens": "L05_trades_tna",
+  "verdict": "adjusted",
+  "verifier_note": "Public rule verified (trading.txt:41). The 'at most half' wording is the team's own transcription of the WInS Portfolio FAQ (wins_notes.csv:14), not a primary copy: treat as UNVERIFIED but follow the stricter reading."
+ },
+ {
+  "id": "TNA-17",
+  "title": "Fix the date of the dated figure to the 20 Oct close",
+  "severity": "low",
+  "deliverables": [
+   "TNA",
+   "IPS"
+  ],
+  "problem": "Submitting on Thu 22 Oct Sydney (Wed 21 Oct ET) means the latest usable close is 20 Oct. Chasing newer data on submission day risks errors and an inconsistent IPS.",
+  "evidence": [
+   "scratchpad oct14/final.md item 18: Ray submits and screenshots the confirmation, with a checker, Thu 22 Oct",
+   "rab/trades/october_trade.md:20 (window closes Tue 20 Oct 3:30 PM EDT)",
+   "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:20-23"
+  ],
+  "fix": "Only if the reflection quotes a ladder figure: name it 'on the 20 Oct curve, WInS holdings, yields unchanged' (or the basis the IPS adopts), run it Wed 21 Oct Sydney morning, save the output, and keep that date even if submission slips. The IPS states its own date and the same basis.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "Wed 21 Oct Sydney",
+  "lens": "L05_trades_tna",
+  "verdict": "adjusted",
+  "verifier_note": "Removed a teammate surname initial from the evidence. Merged logic with TNA-01: a fixed date matters only if the reflection quotes a number, which TNA:20-23 does not require; any number must also name its basis. Severity medium -> low."
+ },
+ {
+  "id": "TNA-18",
+  "title": "Past years: Wharton always rewarded notes showing learning; no stock/ETF mix needed this year",
+  "severity": "low",
+  "deliverables": [
+   "TNA",
+   "FinalReport"
+  ],
+  "problem": "2023-24 asked for one stock and one ETF note, 150 words, on how trades 'informed your understanding and design of your final strategy'. 2025-26 had an ETF / Stock / Team Choice section. 2026-27 drops the categories, so no individual stock is needed. Knox's 2025-26 reflections leaned on jargon (P/E, 'supercycle') and the team did not reach the semis (cause unknown). Past winners' notes are not public.",
+  "evidence": [
+   "scratchpad oct16/research/R2_pages/wp_2024_deliverables.txt:143 \"Choose two (2) Trading Notes ... one related to a stock and the other to an ETF ... 150 words or less\" (source https://globalyouth.wharton.upenn.edu/investment-competition/deliverables/, accessed 16 Oct 2026)",
+   "team/google_drive/2025_knox_wharton.md:90-110 (2025-26 reflections: \"beta 0.52\", \"supercycle\" in the trading notes tab at 1570)",
+   "scratchpad oct16/research/R2_past_rules_rubrics.md:44-46"
+  ],
+  "fix": "Keep the reflections plain and learning-focused (see TNA-08). No stock trade is needed for the TNA.",
+  "confidence": "medium",
+  "new_vs_known": "new",
+  "deadline": "Drafts Tue 20 Oct",
+  "lens": "L05_trades_tna",
+  "verdict": "confirmed",
+  "verifier_note": "R2 page :143 verified; 2025_knox_wharton.md:100/:306 show 'beta 0.52' and 'supercycle'; 'No Australian team made the Top 50 in 2024, 2025 or 2026' (team/Winning Team Portrait and Scoresheet.md:45) supports the semis claim."
+ },
+ {
+  "id": "TNA-19",
+  "title": "'Only Ray trades' vs Wharton's 'all members ... placing trades': frame as team decisions",
+  "severity": "low",
+  "deliverables": [
+   "FinalReport",
+   "Team"
+  ],
+  "problem": "Rules & Roles makes all members responsible for placing trades in the shared account, and the FAQ says trading 'should be a team decision'. The repo rule that only Ray places or cancels orders is a sensible control after the 7 Oct mis-click, not a breach. Unexplained, it could read as one-person trading in the Articulation section.",
+  "evidence": [
+   "https://globalyouth.wharton.upenn.edu/competitions/investment-competition/rules-roles/ (accessed 16 Oct 2026): \"collaborating with teammates and placing trades through the team's shared WInS account\"",
+   "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:34 \"It should be a team decision.\"",
+   "COMPETITION.md:193 \"only Ray places or cancels WInS orders\""
+  ],
+  "fix": "Keep vote records and checker names. In the Final Report, describe team decisions, one trader and one checker, and why.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "Final Report 4 Dec; records kept from now",
+  "lens": "L05_trades_tna",
+  "verdict": "confirmed",
+  "verifier_note": "Rules page :393 and faqs.txt:34 verified 16 Oct."
+ },
+ {
+  "id": "TNA-20",
+  "title": "Scale: WInS shows about $197k of payment holdings against the note's '$300,000 buys all ten'",
+  "severity": "medium",
+  "deliverables": [
+   "TNA",
+   "IPS"
+  ],
+  "problem": "A verifier comparing the IBTR note with WInS positions sees about $197k of payment holdings: iBonds $183,850.85 less IBTM's floor shares (3,361 x $21.65), plus bonds $84,801 and about $1.3k accrued. That is two-thirds of the real-plan ladder, because WInS mirrors the post-2028 plan scaled by 300/450. Unexplained, it looks like the note is wrong.",
+  "evidence": [
+   "COMPETITION.md:176-185 (fills and quantities)",
+   "team/google_drive/sheets/portfolio_and_trading_notes/portfolio.csv:38-39 per scratchpad oct14/tna_merge.md:91 (1,142 payment / 3,361 floor shares)",
+   "team/google_drive/notes_and_discussions.md:308 \"scaled down to $300k\""
+  ],
+  "fix": "One scale clause, once, in the IBTR reflection. Never call the WInS book 'Laura's portfolio'. The IPS keeps 'scaled down'.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "Draft Tue 20 Oct",
+  "lens": "L05_trades_tna",
+  "verdict": "confirmed",
+  "verifier_note": "Recomputed: iBonds $183,851 - 3,361 x $21.65 + bonds $84,801 = $195.9k before accrued; floor shares at portfolio.csv:39."
+ },
+ {
+  "id": "TNA-V01",
+  "title": "Two ladder-cost bases now in circulation ($294,453 vs $298,624 on 15 Oct); name one",
+  "severity": "high",
+  "deliverables": [
+   "TNA",
+   "IPS",
+   "FinalReport"
+  ],
+  "problem": "The 16 Oct number sheet (unmerged branch, which the branch CLAUDE.md tells the team to use for the IPS) prices the ten payments at $294,453, room $5,547 (~19bp). The IBTR note, MONITOR.md and lenses L03/L05/L08 use $298,624, room $1,376 (4.7bp). Same payments, same valuation date (1 Jan 2027), same curve date and bootstrap. Difference: the sheet puts each $50k on the 1 Jan payment date and rolls the curve on forwards (assumes cash waiting between maturity and payment earns forward rates); L05 puts it on each WInS holding's earlier maturity (15 Dec 2032 ... 15 Nov 2041) with yields unchanged. Dates explain about $3,390, curve assumption about $780. The sheet also stores a third figure ($295,924, headroom $4,076, 13.4bp) in results.json, and its code comment says the gap is ~$200 (it is ~$1,470). Mixing bases moves the IBTR test's goalposts by ~14bp and makes TNA and IPS disagree.",
+  "evidence": [
+   "verify/L05w/decomp.py on caplet-latest/competition/official_market_data/daily-treasury-rates_2026-10.csv: 10/15 paydates fwd 294,453; paydates unch 295,246; maturities fwd 297,841; maturities unch 298,624; 10/06 maturities unch 293,448",
+   "caplet-latest/research/ips_numbers_2026-10/ips_numbers.py:70-89 (bootstrap to payment dates, forward to 1 Jan 2027) and :57 '(C1: ~$200 difference)'",
+   "caplet-latest/research/ips_numbers_2026-10/results.json ladder_cost_1jan2027_today_curve 295924, ladder_headroom 4076, ladder_headroom_bp 13.4",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:11-12 'about $294,000' / 'about $5,500 (about 0.19 points)'",
+   "ops/routines/MONITOR.md:22 'On 6 Oct the executable ladder cost $293,447, and a 22.7bp fall would take it to $300k'",
+   "caplet-latest/CLAUDE.md:13-14"
+  ],
+  "fix": "Team picks one basis and writes it next to every ladder figure. For the IBTR note's test and any TNA reflection, use the note's own basis (WInS holdings' maturities, yields unchanged): 22.7bp room on 6 Oct, 4.7bp on 15 Oct. For the IPS headline, either quote the cautious WInS-holdings figure (safer for a 'high certainty' claim) or give a dated range covering both (about $294-299k on 15 Oct). Quote crossing odds as MODEL and on one basis (sheet ~35%, L05 basis ~45% by 1 Jan 2027). Ask for the sheet's internal $1.5k mismatch to be fixed or explained before its numbers are used.",
+  "deadline": "Basis chosen at the Sun 18 Oct vote; IPS figure re-run on the chosen basis before the Wed 4 Nov format check",
+  "new_vs_known": "new",
+  "confidence": "high",
+  "lens": "L05_trades_tna",
+  "verdict": "verifier-added",
+  "verifier_note": "Added by verifier; evidence re-opened 16 Oct 2026."
+ },
+ {
+  "id": "TNA-V02",
+  "title": "IBTR 'enough for all ten payments' depends on coupon reinvestment; no reflection may say 'locked' or 'secured'",
+  "severity": "medium",
+  "deliverables": [
+   "TNA",
+   "IPS"
+  ],
+  "problem": "On the WInS holdings each payment is part principal, part coupons that must be reinvested at unknown rates. The 16 Oct sheet finds a delivery shortfall of about $21k if yields fall 2 points and stay there, and the IPS's own chain (leftover, Laura's half, gift above floor) fails to cover a small part in about 6-7 of 100 paths. The IBTR note's 'enough to buy Treasuries for all ten payments' is true only at today's forward reinvestment rates. A TNA reflection calling the payments 'locked', 'secured' or 'certain' would conflict with the IPS the team is about to adopt. The five T-bond notes already admit reinvested coupons fund part of each payment, so the team's own record supports an honest framing.",
+  "evidence": [
+   "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:27-36 (shortfall table: 2 points lower, $21,000) and :46-48 ('6-7 of 100 paths ... \"cannot miss\" is not literally true')",
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:15 (IBTR: 'enough to buy Treasuries for all ten payments')",
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:18 and :24 ('reinvested coupons fund the rest' / 'funding part of each')"
+  ],
+  "fix": "In the IBTR (or IBTM) reflection, avoid absolute words; if certainty is mentioned, tie it to what the team actually controls (principal dated before each payment) and acknowledge that coupons are reinvested at future rates. Keep the TNA consistent with whichever coupon-risk option (sheet section 3) the team picks for the IPS.",
+  "deadline": "Wording check before TNA submission Thu 22 Oct; coupon-risk option before 6 Nov",
+  "new_vs_known": "new",
+  "confidence": "high",
+  "lens": "L05_trades_tna",
+  "verdict": "verifier-added",
+  "verifier_note": "Added by verifier; evidence re-opened 16 Oct 2026."
+ },
+ {
+  "id": "TNA-V03",
+  "title": "COMPETITION.md lists the Feb-2037 bond as 5.000%; WInS and the team sheet say 4.750%",
+  "severity": "low",
+  "deliverables": [
+   "TNA",
+   "FinalReport",
+   "Repo"
+  ],
+  "problem": "COMPETITION.md calls itself the single source of truth, but its holdings table gives the Feb-2037 Treasury a 5.000% coupon. The WInS security ID (B-T-4.750-15022037), the filled trade note and portfolio.csv all say 4.750%. Any identifier line, holdings table or Final Report figure copied from COMPETITION.md would misstate an executed trade that Wharton can verify.",
+  "evidence": [
+   "COMPETITION.md:181 '| 5.000% T-bond Feb-2037 | 20 units ($20k face) | 96.019 | 2038 |'",
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:16 'B-T-4.750-15022037 ... the 4.750% Treasury maturing 15 Feb 2037'",
+   "team/google_drive/sheets/portfolio_and_trading_notes/portfolio.csv:25 'T 4.750% 15-Feb-2037'"
+  ],
+  "fix": "A student corrects COMPETITION.md:181 to 4.750% (team-approved repo change) and adds the missing coupons for the Nov-2039/2040/2041 rows from WInS. Copy all identifiers from WInS Transaction History.",
+  "deadline": "Before any identifier line is written (Tue 20 Oct)",
+  "new_vs_known": "new",
+  "confidence": "high",
+  "lens": "L05_trades_tna",
+  "verdict": "verifier-added",
+  "verifier_note": "Added by verifier; evidence re-opened 16 Oct 2026."
+ }
+]

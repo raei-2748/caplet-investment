@@ -1,0 +1,495 @@
+[
+ {
+  "id": "COMM-01",
+  "title": "The lines a judge will remember from V5 are the wrong ones",
+  "severity": "high",
+  "deliverables": [
+   "IPS",
+   "TNA",
+   "FinalReport"
+  ],
+  "problem": "A screening reader keeps one or two lines. In V5 the most quotable lines are the unsupported co-sponsor claim, 'never below the floor', 'cannot miss the range' and 'no dollar asset is safer'. Each is false or unsupported by Caplet's own numbers, so the judge's lasting impression is built on claims the team cannot defend. The true, simple idea (the bottom of the range is owned, not forecast; never promise money you don't own) is in team notes, not in V5.",
+  "evidence": [
+   "team/google_drive/ips_report/01_version_5.md:16 'Laura's co-sponsors who fund the building rarely pay to run it'",
+   "team/google_drive/ips_report/01_version_5.md:28 'but never below the floor'; :30 'so she cannot miss the range'; :24 'no dollar asset is safer'",
+   "team/google_drive/strategy_notes.md:20 'the bottom of the range is money she already owns rather than a forecast'",
+   "team/Winning Team Portrait and Scoresheet.md:56 'a simple rule we can state (\"never promise money you don't own\")'",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:48 '\"cannot miss\" is not literally true'",
+   "https://globalyouth.wharton.upenn.edu/news/lets-go-announcing-the-top-10-teams-advancing-to-the-wharton-investment-competitions-2025-global-finale/ (accessed 16 Oct 2026) 'the best solutions are made up of simple, elegant ideas'"
+  ],
+  "fix": "The team picks one central idea that is literally true. It appears in the pitch and in the first two sentences of the IPS body, and it is the line the TNA reflections and Final Report repeat. Test: three non-finance adults read the pitch once; a day later each can repeat the idea, and none repeats a claim the team cannot prove. The students write it in their own words.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "Idea agreed at vote set A (Sun 18 Oct Sydney); in the IPS by Sat 7 Nov 09:00 Sydney (Fri 6 Nov 5 pm ET)",
+  "lens": "L11_communication",
+  "verdict": "confirmed",
+  "verifier_note": "All four quoted lines found at V5:16, :24, :28, :30; case:85-86 says operating support 'may' come from co-sponsors; number sheet :48 admits 'cannot miss' is not literally true; Wharton quote re-opened 16 Oct (FOUND). Extra support: the team kept 'never below the floor' on 5 Oct because the real floor was to be STRIPS (final_report.md:24); the 6 Oct email removed STRIPS, so that reason is gone. Already on the team's own fix list (COMPETITION.md:200), so known-deeper is right."
+ },
+ {
+  "id": "COMM-02",
+  "title": "Readable sentences, overloaded page: about 18 rules, 7 years and 5 dollar figures in 497 words",
+  "severity": "medium",
+  "deliverables": [
+   "IPS"
+  ],
+  "problem": "V5 scores Flesch-Kincaid grade 10.7 and Flesch Reading Ease 52, plainer than Wharton's own IPS brief (FK 15.9) and the case (FK 13.7), so the team may think it is simple enough. But a judge must hold about 18 separate rules, 7 distinct years and 5 dollar figures: one rule every 28 words. That is where 'over-complex for the insight' returns.",
+  "evidence": [
+   "oct16/lenses/L11/readab.py + readab.json (computed 16 Oct 2026): V5 body 497 words, 26 sentences, avg 19.1, FK 10.7, FRE 52; Wharton IPS brief FK 15.9; case FK 13.7",
+   "team/google_drive/ips_report/01_version_5.md:20-30 (18 rules listed in L11 section 3)",
+   "research/insight_v1/ips_spec.md:70 'at most 12 ideas in 10 blocks'",
+   "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:51-52 'rather than describing individual investments or presenting detailed financial calculations'; :101-102 'Keep the presentation simple and focus on communicating the investment strategy clearly'",
+   "team/Winning Team Portrait and Scoresheet.md:58 'our plan looks like a pile of engineering (four dates, a cap rule, a half-of-fund rule)'",
+   "CLAUDE.md:40 'strategy packaging was over-complex for the insight'"
+  ],
+  "fix": "Cut implementation detail, not required topics. First list the topics the IPS brief requires (IPS:15-20: risk and return, liquidity, construction and diversification, planned changes, operating commitment, reserve composition, facility contribution, flexibility). Keep one rule per topic. Move pure implementation (latest-first buying, the substitution clause, WInS scaling, accepting one issuer) to the Final Report unless the team judges it central. After each draft, count rules, distinct years, dollar figures and names per idea. The team decides.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "Outline at vote set B (Tue 27 Oct Sydney); IPS due Sat 7 Nov 09:00 Sydney",
+  "lens": "L11_communication",
+  "verdict": "adjusted",
+  "verifier_note": "Counts reproduced (497 words, 7 years, 5 dollar figures; readab.json). But the '18 rules' is the lens's own count, the 'at most 12 ideas' cap is an AI spec, not a Wharton rule, and the team's scoresheet already flagged the 'pile of engineering' (Scoresheet:58), so not new. The IPS brief itself asks for about ten topics (IPS:15-20) and other lenses say V5 misses some, so cutting to 10-12 conflicts with adding required items. Severity high -> medium."
+ },
+ {
+  "id": "COMM-03",
+  "title": "No line of the four-line story (problem, idea, proof, trade-off) is both true and present in V5",
+  "severity": "medium",
+  "deliverables": [
+   "IPS",
+   "FinalReport",
+   "Finale"
+  ],
+  "problem": "Wharton says judges want 'the reasoning, assumptions, and tradeoffs'. An elegant story needs four lines: client problem, idea, proof, trade-off. V5 has a candidate for each, but each is flawed. Problem = an unsupported co-sponsor claim. Idea = stated at word 166, inside a metaphor. Proof = '$292,000' at late-September yields: stale and with its basis unstated. Trade-off = a sentence other lenses show runs the wrong way.",
+  "evidence": [
+   "competition/official/2026_27/2026_WGY_Investment_Competition_Guide.txt:183-184 'the reasoning, assumptions, and tradeoffs behind those decisions'",
+   "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:83 'communicate their reasoning, assumptions, tradeoffs, and competition experience clearly and authentically'",
+   "team/google_drive/ips_report/01_version_5.md:16, :24 ('Our approach, Root-and-Branch' at word 166, IPS-08), :24 '$292,000', :28 trade-off sentence (IPS-18)",
+   "L11_communication.md section 5 (test table)"
+  ],
+  "fix": "Use the four-line structure and tests in L11 section 5. Each line must be literally true, use the case's words, contain no team-made term, and carry at most one dated number on the right basis. The same four lines appear in the pitch, IPS body, relevant TNA reflections and Final Report. Each student can say them aloud without notes.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "Before vote set B (Tue 27 Oct Sydney); final by Sat 7 Nov 09:00 Sydney",
+  "lens": "L11_communication",
+  "verdict": "adjusted",
+  "verifier_note": "Guide:183-184 and faqs.txt:83 quoted correctly. Mostly a frame that repackages COMM-01, COMM-04 and other lenses' IPS-08/IPS-18, so severity high -> medium. One correction: V5's '$292,000' is on the payment-date basis (the 25 Sep figure, CLAUDE.md key facts $292,264) that assumes money from each bond earns interest until the payment; it is stale and its basis is unstated, not simply 'the wrong basis' (see COMM-04)."
+ },
+ {
+  "id": "COMM-04",
+  "title": "Ladder cost: $294k vs $298.6k on the same 15 Oct curve; which figure for which claim",
+  "severity": "high",
+  "deliverables": [
+   "IPS",
+   "TNA",
+   "FinalReport"
+  ],
+  "problem": "On the 15 Oct curve, Caplet's files give 'about $294,000, $5,500 headroom' (number sheet) and '$298,624, $1,376' (lenses). Both are right, but they answer different questions. $294k (payment dates, forward basis) assumes the money from each bond earns today's implied rates in a short-term Treasury fund until the 1 Jan payment, which is what the team's notes say happens. $298.6k (owned maturity dates, curve unchanged) assumes that money earns nothing in the gap, so it is a cautious upper bound. A reader sees opposite stories ('comfortable room' or 'almost none'). The number sheet's '1 case in 3' belongs to the $294k basis only. The room also moves fast: 14 to 15 Oct it fell from $8,242 to $5,539 (payment-date basis) and from $4,007 to $1,372 (owned, unchanged).",
+  "evidence": [
+   "Re-run 16 Oct: oct16/research/KB_verify/num/reconcile.py on caplet-latest/competition/official_market_data/daily-treasury-rates_2026-10.csv (15 Oct row): payment dates fwd $294,461 room $5,539 (19.0bp); payment dates unchanged $295,246 (16.3bp); owned maturities fwd $297,847 room $2,153 (7.4bp); owned maturities unchanged $298,628 room $1,372 (4.7bp)",
+   "caplet-latest/research/ips_numbers_2026-10/ips_numbers.py:87 prices to dt.date(y, 1, 1) (payment dates)",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:5 'Root-and-Branch on WInS-listed holdings'; :12-13 'about $294,000', 'about $5,500', '1 case in 3 (35%)'",
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:15 IBTR note 'about 0.2 percentage points' (6 Oct, owned-bonds basis per KB_what_wins.md section 7.1(a))",
+   "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:68-70 IPS 'not expected to include ... detailed portfolio projections'"
+  ],
+  "fix": "Pick one basis, name it in words and use it everywhere. If the claim is 'the first deposit covers the payments with the bonds we hold, counting interest on money waiting for each payment', use about $294-295k on 15 Oct. If the claim is the cautious one ('even if money waiting for a payment earns nothing'), use about $298k. Never put the two side by side unlabelled. Every figure is dated, because it moves by thousands of dollars in a day. In the IPS, prefer the rule (what happens if yields fall) over a level; the IPS 'is not expected to include ... detailed portfolio projections' (IPS:68-70). In the IBTR reflection, compare like with like: the note's 0.2 points (6 Oct) was on the owned basis (23-27bp that day), so give any update on that same basis.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "Settle the basis at vote set A (Sun 18 Oct); IBTR reflection by Sat 24 Oct 08:00 Sydney (target Thu 22 Oct)",
+  "lens": "L11_communication",
+  "verdict": "adjusted",
+  "verifier_note": "All four figures reproduced today (reconcile.py, 15 Oct row): $294,461/$5,539 (19.0bp), $295,246, $297,847/$2,153 (7.4bp), $298,628/$1,372 (4.7bp); ips_numbers.py:87 prices to 1 Jan. But the lens's 'which is right' is one-sided. The $298.6k basis assumes the money from each bond earns nothing between its maturity and the 1 Jan payment. The team's own notes say that money is held in a short-term Treasury ETF (05_...md:16-17). So $294.5k is not 'an ideal ladder Caplet does not own'. It is the cost of the owned bonds if that gap money earns today's implied rates. The '44-45%' over-$300k odds were not re-run by the lens: UNVERIFIED. Also, the room moved about $2,600-2,700 in one day (14 to 15 Oct) on both bases. Severity stays high because the IBTR reflection (due 23 Oct) is likely to quote it."
+ },
+ {
+  "id": "COMM-05",
+  "title": "V5 does not sound like the team, and editing out the 'tells' is not the fix",
+  "severity": "high",
+  "deliverables": [
+   "IPS",
+   "TNA",
+   "FinalReport"
+  ],
+  "problem": "Creativity scores 'an authentic team voice'. V5 carries a doc comment saying it is the 'Best version that AI generated'. Its rhythm follows the AI spec's recipe of 'one action and one because' (four 'since', one 'given that', one causal 'as' in 26 sentences), with three concede-then-justify sentences and no sentence only this team could have written. Reworking AI text to hide its style would still be AI work presented as the team's.",
+  "evidence": [
+   "team/google_drive/ips_report/01_version_5.md:36 'Best version that AI generated; We cannot submit as it is'",
+   "research/insight_v1/ips_spec.md:70 'one action and one \"because\" per case date'",
+   "team/google_drive/ips_report/01_version_5.md:24 'may look like a weakness, but we accept it, since'; :28 'would raise ... but we do not, as'; :30 'We prefer ... since'",
+   "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:59 'an authentic team voice'",
+   "https://globalyouth.wharton.upenn.edu/wp-content/uploads/2026/01/25%E2%80%9326-Semifinalists-%E2%80%93-Next-Steps-FINAL.pdf (via KB_what_wins.md [D1], re-opened by KB 16 Oct 2026) 'not generated or generic responses'",
+   "team/google_drive/final_report.md:22, :23, :27 (sector-rule tracing; 5 Oct 'copout' debate '[fill in]'; Oct 7 12:30 AM market open)"
+  ],
+  "fix": "Students write fresh from a bullet outline with AI files closed; no tell-removal editing. Real team-only material (the Sydney-night market opens, the 5 Oct debate and its outcome, tracing the false sector rule) is captured as facts for the Final Report's Articulation section, told in the students' words.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "IPS outline by Tue 27 Oct Sydney; IPS Sat 7 Nov 09:00 Sydney; journal entries from now to 4 Dec",
+  "lens": "L11_communication",
+  "verdict": "confirmed",
+  "verifier_note": "V5:36 comment 'Best version that AI generated' confirmed; deliverables.txt:59 'authentic team voice' confirmed; Wharton AI policy re-opened 16 Oct: students 'must use their voice and words' (FOUND); 2025-26 semifinal PDF 'not generated or generic responses' (FOUND; that rule was for semifinal written answers). The connective counts (4 'since', 1 'given that') are verified but are weak style evidence; the doc comment is the real evidence. Overlaps L09 INT-01; severity high is fair given the AI policy."
+ },
+ {
+  "id": "COMM-06",
+  "title": "Complexity moved backstage; the Final Report will be written from a jargon-heavy AI kit",
+  "severity": "medium",
+  "deliverables": [
+   "FinalReport",
+   "Strategy"
+  ],
+  "problem": "The team's own documents are nearly free of internal jargon, but the AI kit is not. The Final Report has 25 days (9 Nov to 4 Dec) and needs projections, which live in that kit. Copying its words would bring back last year's over-complexity in the one document with no word cap.",
+  "evidence": [
+   "Corrected grep counts (grep -r -I -o -w, case-sensitive, 16 Oct): rab/ RAB 263, REC 482, p95 300, rung 449, STRIPS 320, bp 342; research/ p95 474, STRIPS 312, sleeve 1,507",
+   "Zero REC/ALT/RAB/DV01/p95/bp in team/google_drive/final_report.md, strategy_notes.md and ips_report/01_version_5.md (grep 16 Oct, re-checked)",
+   "team/google_drive/2025_knox_wharton.md:222 'elegant frameworks are not always effective frameworks ... Clarity beats complexity'",
+   "team/google_drive/2025_knox_wharton.md:654, :670, :844 (Point-Line-Plane, Stewardship Surface, 3P Sleeves, Investing as Renovation); Greenox Matrix e.g. :170",
+   "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:51 (Final Report instructions 9 Nov)"
+  ],
+  "fix": "Before 9 Nov the team agrees a one-page glossary (L11 section 6) and one student-owned numbers sheet with plain labels. No kit term enters a deliverable unless it is on the glossary. Each Final Report number traces to the sheet.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "Glossary and numbers sheet by Mon 9 Nov ET (Tue 10 Nov Sydney); Final Report Sat 5 Dec 09:00 Sydney",
+  "lens": "L11_communication",
+  "verdict": "adjusted",
+  "verifier_note": "The grep counts are inflated and mix methods: 'RAB 2,206' is a case-insensitive whole-word count that mostly hits the folder name 'rab/' in paths (1,943 hits), and 'p95 1,110' / 'gate 1,055' are substring counts that include binary files and words like 'aggregate'. Case-sensitive, whole-word, text-only counts (16 Oct): RAB 263, REC 482, p95 300 (rab/) and 474 (research/), rung 449, STRIPS 320 and 312, bp 342, sleeve 1,507. The point stands (the AI kit is jargon-heavy; team docs have zero REC/ALT/RAB/DV01/p95/bp, confirmed). The risk is in the future (from 9 Nov) and the team's own files are clean today, so high -> medium."
+ },
+ {
+  "id": "COMM-07",
+  "title": "Five image families, and 'facility floor' reads literally as the floor of the building",
+  "severity": "medium",
+  "deliverables": [
+   "IPS",
+   "TNA",
+   "FinalReport"
+  ],
+  "problem": "V5 mixes a tree (roots, branch), a building (floor, top, capped), furniture (cushion), the military (defense) and, in the notes, a ladder. The case is about a real building, the residency facility, and V5 writes 'facility floor' three times. Read fast, that is a floor of the facility. The case never uses 'floor'.",
+  "evidence": [
+   "team/google_drive/ips_report/01_version_5.md:22 'Above the facility floor'; :24 'a facility floor' and 'Laura's facility floor'",
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:28 'the facility floor' (suggested-picks text)",
+   "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:83-86, 100-107 (facility wording; no 'floor' in the case, grep 16 Oct)",
+   "team/google_drive/ips_report/01_version_5.md:16-30 (roots, branch, floor, top, capped, cushion, defense)"
+  ],
+  "fix": "At most one image family, explained once in plain words, or none. Name the minimum gift by what it is, using the case's noun 'facility contribution' plus a plain word for the minimum. Never put 'facility' next to 'floor'. The same term goes in all three deliverables.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "Term list at vote set A (Sun 18 Oct); TNA reflections by Sat 24 Oct 08:00 Sydney",
+  "lens": "L11_communication",
+  "verdict": "confirmed",
+  "verifier_note": "'facility floor' appears 3 times in V5 (:22, :24 twice); 'floor' 10 times; the case text has no 'floor' (grep 16 Oct). Image families verified. Note: the IBTM note (a likely TNA pick) says 'a floor for her facility contribution' and cannot be edited (see verifier-added L11-V01), so the fix must work with that word in the TNA."
+ },
+ {
+  "id": "COMM-08",
+  "title": "The 16 Oct [AI] suggestions double V5's dollar figures and mix four number formats",
+  "severity": "medium",
+  "deliverables": [
+   "IPS"
+  ],
+  "problem": "Applied to V5, the 13 suggestions keep the length (497 to 498 words) but raise digit tokens from 22 to 31 and dollar figures from 5 to 10. They add six shares and odds in four formats ('two-thirds', 'a quarter', 'under a tenth', '7%', 'two points', '99 times in 100'), and the longest sentence grows from 29 to 32 words. Suggestion 11's 'today' has no date and inserts a 2031 range the IPS is not expected to include.",
+  "evidence": [
+   "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:9-21 (suggestions 1-13)",
+   "oct16/lenses/L11/v5_after_ai.txt and script output (16 Oct): before 22 numeric tokens / 5 dollar figures / longest 29; after 31 / 10 / 32",
+   "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:68-70 'not expected to include ... a final facility-contribution range'; :101-102 'Keep the presentation simple'"
+  ],
+  "fix": "If the team uses that file, take facts, not sentences (authorship). Keep the IPS to principles with at most one dated figure on the owned-bonds basis. Any number added must be checked against the number rules (L11 section 7).",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "Before vote set B (Tue 27 Oct Sydney)",
+  "lens": "L11_communication",
+  "verdict": "confirmed",
+  "verifier_note": "Reproduced: after the 13 suggestions the body has 498 words, 31 digit tokens, 10 dollar figures, longest sentence 32 words. IPS:68-70 does say a final facility-contribution range is not expected. Extra: the suggestions file's own header says '494 after all twelve' (:5) but lists 13 and measures 498, two words under the 500 cap (also found by L06 and L01 verify)."
+ },
+ {
+  "id": "COMM-09",
+  "title": "'Secure in about 93-95 cases in 100' puts a certainty word next to a failure rate",
+  "severity": "medium",
+  "deliverables": [
+   "IPS",
+   "FinalReport"
+  ],
+  "problem": "The number sheet's option 1 wording says payments are 'secure in about 93-95 cases in 100', which says two opposite things at once. Suggestion 12 gives the co-sponsor range 'about 99 times in 100'. Side by side, a reader sees the range described as surer than the payments, the reverse of the case's priority.",
+  "evidence": [
+   "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:50 'payments are secure in about 93-95 cases in 100 from the plan alone'",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:20 'about 99 times in 100'",
+   "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:91 'All ten payments must be funded by the investment portfolio with a high degree of certainty'"
+  ],
+  "fix": "Certainty words only where they are literally true. Any probability says 'in our model', gives its date, and is stated once in one format. The team decides whether any probability belongs in the IPS. The payments' claim must never read weaker than the range's.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "Certainty wording at vote set B (Tue 27 Oct Sydney)",
+  "lens": "L11_communication",
+  "verdict": "confirmed",
+  "verifier_note": "Number sheet :50 and suggestions :20 quoted correctly; case:91 quoted correctly. Caveat for the fix: the case requires teams to 'state how confident they are' in the range (case:117-118), so a probability must appear in the Final Report; the open choice is only whether one goes in the IPS (IPS:68-70)."
+ },
+ {
+  "id": "COMM-10",
+  "title": "The team's own draft checker passes V5's real jargon, and V5 breaks the team's own word rules",
+  "severity": "low",
+  "deliverables": [
+   "IPS",
+   "TNA"
+  ],
+  "problem": "research/insight_v1/scripts/D9_draft_checker.py reports V5's pitch as 'Jargon: none' and 'Overclaim: none'. Its jargon list targets backstage words (DV01, p95, sleeve, STRIPS) and misses the words V5 actually uses: secure(s), never, cannot, defined-maturity, rate-sensitive, issuer, equities, facility floor, and the unsupported 'rarely'. V5 also says 'We match each payment', which the team's own spec says to avoid (ips_spec.md:157). A clean run can give false comfort.",
+  "evidence": [
+   "research/insight_v1/scripts/D9_draft_checker.py:56-61 (JARGON list); re-run read-only 16 Oct on V5 pitch and body: pitch overclaim 'none', jargon 'none'; body flags 'safer', 'match', 'certainty' and 'many numbers'",
+   "research/insight_v1/ips_spec.md:157 'avoid \"guaranteed\", \"risk-free\", \"100%\", \"matched\"'",
+   "team/google_drive/ips_report/01_version_5.md:20 'We match each payment'"
+  ],
+  "fix": "Do not treat a clean checker run as a plain-English pass. Use human tests (L11 section 5) and the blacklist (section 6). If anyone updates the checker, its word list should come from the drafts, not the kit.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "Before TNA reflections are final (target Thu 22 Oct Sydney)",
+  "lens": "L11_communication",
+  "verdict": "adjusted",
+  "verifier_note": "Checker run reproduced: pitch 'none'/'none'; body flags only 'safer', 'match', 'certainty'. But the checker also flags 'many numbers for a document that should carry rules' on the body, so it is not blind. And the 'ladder' point is wrong: the ips_spec ban list at :53 is for the pitch (section a3), so it does not apply to a WInS note. Removed that point. It is a team tool, not a deliverable, so medium -> low."
+ },
+ {
+  "id": "COMM-11",
+  "title": "Not all jargon costs the same: judges know 'Treasury', nobody knows 'the branch'",
+  "severity": "medium",
+  "deliverables": [
+   "IPS",
+   "TNA",
+   "FinalReport"
+  ],
+  "problem": "In 2025-26 the Top 50 readers were Wharton student evaluators and Aberdeen asset managers, who know Treasury, yield, ETF and ladder. What costs marks is the team's own words (roots, branch, floor, cap, the half, the 2027 leftover, the 2028 remainder), and any finance jargon in the co-sponsor text, which is judged on being clear and credible to non-finance co-sponsors.",
+  "evidence": [
+   "https://globalyouth.wharton.upenn.edu/news/a-winning-season-thousands-of-teams-bigger-stakes-and-the-top-50-2026-investment-competition-teams-revealed/ (via KB_what_wins.md [N14], re-opened by KB 16 Oct 2026) 'Wharton School student evaluators' + 'Aberdeen Investments'",
+   "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:59 'communicates Laura's potential facility contribution and investment uncertainty clearly and credibly to prospective co-sponsors'",
+   "https://globalyouth.wharton.upenn.edu/wp-json/wp/v2/pages/3778 (accessed 16 Oct 2026) 'Excessive investing jargon doesn't necessarily dazzle the judges.'",
+   "team/google_drive/notes_and_discussions.md:544 'Avoid finance-bro tone and jargon. She left that world on purpose.'"
+  ],
+  "fix": "Three tiers. Standard finance words are fine for judges if used correctly. Team-made words are banned unless defined once and used identically everywhere. Co-sponsor material uses everyday words only, tested on a non-finance adult.",
+  "confidence": "medium",
+  "new_vs_known": "new",
+  "deadline": "Glossary at vote set A (Sun 18 Oct); co-sponsor text by Sat 5 Dec 09:00 Sydney",
+  "lens": "L11_communication",
+  "verdict": "confirmed",
+  "verifier_note": "2025-26 Top 50 readers re-opened 16 Oct: 'Wharton School student evaluators' and 'a professional review panel of asset managers from Aberdeen Investments' (FOUND). deliverables.txt:59 co-sponsor wording confirmed (exact text 'clearly and credibly to prospective co-sponsors'). Legacy judging page (modified 3 Jun 2024) 'Excessive investing jargon doesn't necessarily dazzle the judges' FOUND in the saved copy and live JSON. notes_and_discussions.md:544 confirmed."
+ },
+ {
+  "id": "COMM-12",
+  "title": "Use the case's words for the case's ideas",
+  "severity": "medium",
+  "deliverables": [
+   "IPS",
+   "TNA",
+   "FinalReport"
+  ],
+  "problem": "The judges wrote the case's terms, so those terms need no definition. V5 swaps several for its own: 'high certainty' for the case's 'high degree of certainty' (case:91) and 'high degree of funding certainty' (case:97-98); 'cushion' and 'the half Laura keeps' for 'financial flexibility' (case:103); 'building' for 'facility'. Each swap costs the reader a translation step and loses the match with the criteria wording.",
+  "evidence": [
+   "team/google_drive/ips_report/01_version_5.md:16 'building'; :20 'high certainty'; :30 'cushion'",
+   "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:91, :97-98, :103 ('high degree of certainty', 'high degree of funding certainty', 'financial flexibility')",
+   "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:55-59 ('funding reliability', 'financial flexibility', 'facility contribution')"
+  ],
+  "fix": "Build a term map: each case idea, the case's exact word, and the one word the team will use. Coin a word only where the case has none (for example, the minimum gift). Use the map across all three deliverables.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "Vote set A (Sun 18 Oct Sydney)",
+  "lens": "L11_communication",
+  "verdict": "adjusted",
+  "verifier_note": "Swaps confirmed (V5:16 'building', :20 'high certainty', :30 'cushion'). Small correction: case:91 says 'a high degree of certainty'; 'high degree of funding certainty' is case:97-98. The criteria words (deliverables.txt:55-59) are confirmed. Severity medium kept."
+ },
+ {
+  "id": "COMM-13",
+  "title": "Trade notes are packed to the 300-character limit; reflections must carry the 'why' in plain words",
+  "severity": "low",
+  "deliverables": [
+   "TNA"
+  ],
+  "problem": "The 11 filled notes run 252-294 characters, with 60 numbers in 30 sentences (2.0 a sentence). Wharton's example note has none. The suggested picks are lighter (VT 3 numbers, IBTR 5, IBTM 3), but if the reflections also pack figures, the 'why' gets lost. Keep: each note starts with a Wharton role word from the Guide.",
+  "evidence": [
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:14-24 (character counts 252-294; readab.json numbers/sentence 2.0)",
+   "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:36-39 (example note, 413 characters, zero numbers); :44 'exactly as it appears in WInS'; :46 '100 words or fewer'",
+   "team/google_drive/final_report.md:17 'the trade note box holds 300 characters'",
+   "competition/official/2026_27/2026_WGY_Investment_Competition_Guide.txt:85-86 'growth, liquidity, risk management, or future funding'"
+  ],
+  "fix": "Each reflection carries the reason in plain words, with at most one dated number labelled as market price or model. Do not repeat a number already in the quoted note unless it is updated and dated.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "TNA: target Thu 22 Oct Sydney; hard Sat 24 Oct 08:00 Sydney (Fri 23 Oct 5 pm ET)",
+  "lens": "L11_communication",
+  "verdict": "adjusted",
+  "verifier_note": "Character counts (252-294) and 60 numbers in 30 sentences reproduced. But only three notes go in the TNA. The three suggested picks are the least dense notes (VT 3 numbers, IBTR 5, IBTM 3), and the densest notes (Feb-2037, Nov-2039, Nov-2041) are not picks. '450 words of figures' overstates it: about 450 words in total, of which the notes are a small part. The fix is still sound. Medium -> low."
+ },
+ {
+  "id": "COMM-14",
+  "title": "The clearest trade-off sentence in the whole entry is already in the filled IBTR note",
+  "severity": "medium",
+  "deliverables": [
+   "TNA",
+   "IPS",
+   "FinalReport"
+  ],
+  "problem": "The IBTR note states a concrete if-then rule with a client consequence (yields fall more than about 0.2 points, so the 2028 deposit tops up the ladder, leaving less for the facility). That is the shape judges reward. V5's own trade-off sentence is disputed by other lenses. The note's figure is now stale: about 4.7-7.4bp of room on 15 Oct on the owned-bonds basis.",
+  "evidence": [
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:15 'If yields fall more than about 0.2 percentage points by January, the 2028 deposit would top up the ladder, leaving less for the facility.'",
+   "team/google_drive/ips_report/01_version_5.md:28 'Moving floor money into equities would raise the expected contribution' (IPS-18)",
+   "competition/official/2026_27/2026_WGY_Investment_Competition_Guide.txt:184 'tradeoffs behind those decisions'",
+   "oct16/research/KB_verify/num/reconcile.py re-run 16 Oct (owned maturities: 7.4bp fwd, 4.7bp unchanged)"
+  ],
+  "fix": "The IPS and Final Report trade-off uses the same structure and words as the note (cause, rule, cost to Laura), so the three documents agree. The IBTR reflection dates the note's figure and gives the current one on the same basis.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "IBTR reflection by Sat 24 Oct 08:00 Sydney; IPS by Sat 7 Nov 09:00 Sydney",
+  "lens": "L11_communication",
+  "verdict": "confirmed",
+  "verifier_note": "IBTR note quote at 05_...md:15 confirmed; Guide:184 confirmed. Re-run: on the note's own basis (owned maturities) the room was 23.0-26.8bp on 6 Oct and 4.7-7.4bp on 15 Oct. On the payment-date basis it was 16-19bp on 15 Oct. The reflection must say which basis it uses (see L11-V02)."
+ },
+ {
+  "id": "COMM-15",
+  "title": "Dates and time zones: Sydney dates in a reflection will not match WInS's ET dates",
+  "severity": "low",
+  "deliverables": [
+   "TNA",
+   "FinalReport"
+  ],
+  "problem": "WInS shows US Eastern times in US numeric format ('10/07/2026' = 7 Oct, which an Australian reads as 10 July). The team lives in Sydney time (15 hours ahead until Sun 1 Nov, 16 after). A reflection or Final Report that gives a Sydney date for a trade will differ by a day from what WInS shows. Team files mix 'placed' (6-7 Oct ET) and 'filled' (7-8 Oct) dates. These are not contradictions, but they invite confusion.",
+  "evidence": [
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:14-24 (order dates 10/06-10/07/2026, ET)",
+   "CLAUDE.md:8 and COMPETITION.md:172 'filled 7-8 Oct'",
+   "team/google_drive/final_report.md:27 'Oct7: ... 12:30 AM that the market would open' (Sydney time)",
+   "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:53 'Yes, we will verify this.'",
+   "Clock: AEDT (UTC+11) from Sun 4 Oct 2026; US EDT to EST on Sun 1 Nov 2026, so 15 hours apart until 1 Nov and 16 after"
+  ],
+  "fix": "In deliverables, give WInS events in ET as WInS shows them, with month names. Market data uses the US close date. Team deadlines use Sydney time with ET in brackets. Use 'placed' and 'filled' precisely.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "TNA by Sat 24 Oct 08:00 Sydney",
+  "lens": "L11_communication",
+  "verdict": "adjusted",
+  "verifier_note": "Clock facts are right: AEDT from Sun 4 Oct 2026; US clocks change Sun 1 Nov 2026; 15 hours apart until then. But TNA:53 'Yes, we will verify this' refers to notes matching executed trades, not to dates in reflections, and the TNA asks for no dates. 'Filled 7-8 Oct' (CLAUDE.md:8) does not conflict with orders placed 6-7 Oct ET: orders placed in the US evening fill in the next US session. So the risk is reader confusion, not failing verification. Medium -> low."
+ },
+ {
+  "id": "COMM-16",
+  "title": "Odds and shares are written six ways across the team's number sources; one format needed",
+  "severity": "low",
+  "deliverables": [
+   "IPS",
+   "TNA",
+   "FinalReport"
+  ],
+  "problem": "The number sheet and suggestions use '1 case in 3 (35%)', '99.4% of 200,000 paths', 'about 99 times in 100', '93-95 cases in 100', 'about 1 in 50', '3 cases in 4', '90% band', '0.19 points of yield'. The notes say 'percentage points' and team memos say 'bp'. Every conversion a reader must make costs trust, which matters for co-sponsor credibility.",
+  "evidence": [
+   "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:12-19, :42-50",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:15, :18, :20",
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:15 'percentage points'"
+  ],
+  "fix": "Adopt the number rules in L11 section 7: one odds format ('X in 100', always 'in our model', dated); 'percentage points' for yield changes; never 'bp' in a deliverable; dollars to the nearest $1,000, ranges to $5,000; month-name dates; plan vs WInS scale stated.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "Rules agreed at vote set A (Sun 18 Oct); applied through 5 Dec",
+  "lens": "L11_communication",
+  "verdict": "adjusted",
+  "verifier_note": "Formats found as quoted (number sheet :12-19, :42-50; suggestions :15, :18, :20). These are working files, not deliverables, so the harm happens only if they are copied, which COMM-08/09 already cover. Medium -> low."
+ },
+ {
+  "id": "COMM-17",
+  "title": "The same case-restating first sentence has survived all seven IPS drafts",
+  "severity": "medium",
+  "deliverables": [
+   "IPS"
+  ],
+  "problem": "Every IPS body from V1 to V5 and Tab 15 opens 'This policy governs ...' and restates the two deposits and the residency. The first words a judge reads are facts the judge wrote, and the central idea first appears at word 166. Wharton warns against repeating known client facts and against a strategy that is not stated up front.",
+  "evidence": [
+   "team/google_drive/ips_report/01_version_5.md:20; 15_tab_15.md:10; 02_v4_need_to_humanise.md:20; 08_old_versions_v3.md:20; 10_old_versions_v3_v3_improved.md:20; 11_old_versions_v2.md:22; 13_old_versions_v1.md:20",
+   "https://globalyouth.wharton.upenn.edu/wp-json/wp/v2/pages/3778 (accessed 16 Oct 2026) 'Don't use precious space repeating known facts about your client and defining concepts.'",
+   "https://globalyouth.wharton.upenn.edu/developing-strategy/ (via KB_what_wins.md [W6], re-opened by KB 16 Oct 2026) 'rather than clearly stated, defined and articulated up front, you will not be among the strongest teams'"
+  ],
+  "fix": "The first sentence of the IPS body states the team's central idea, not the case. Swap test: if the opening would be true for every team in the competition, replace it.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "IPS outline by Tue 27 Oct Sydney",
+  "lens": "L11_communication",
+  "verdict": "confirmed",
+  "verifier_note": "Openings confirmed in V5:20, Tab 15:10, V4:20, V3:20, V3-improved:20, V2:22, V1:20 (plus a legal-style variant in 14_old_versions_tab_10.md:6). Wharton quotes re-opened 16 Oct: 'Don't use precious space repeating known facts about your client' (legacy 2022-24 judging page, FOUND) and the legacy 'Developing a Strategy' page, 'you will not be among the strongest teams' (FOUND). Both are older guidance, not 2026-27 rules."
+ },
+ {
+  "id": "COMM-18",
+  "title": "Names a bond judge reads differently: 'Caplet', 'cap', 'floor', 'root-and-branch'",
+  "severity": "low",
+  "deliverables": [
+   "IPS",
+   "FinalReport",
+   "Finale"
+  ],
+  "problem": "To a fixed-income reader a caplet is one period of an interest-rate cap (an option, a derivative, and WInS bans derivatives), and 'cap' and 'floor' are names of interest-rate derivatives. V5 uses 'floor' 10 times and 'capped' once under a team named Caplet. 'Root and branch' means 'complete or thorough' (an overhaul), an odd label for a hold strategy. A credit specialist sat on the 2024-2026 finale panels. The team name is fixed; the strategy words are not.",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Interest_rate_cap_and_floor (accessed 16 Oct 2026) 'a series of European call options, known as caplets'",
+   "https://www.merriam-webster.com/dictionary/root-and-branch (accessed 16 Oct 2026) 'complete or thorough' / 'a root and branch overhaul of local schools'",
+   "team/google_drive/ips_report/01_version_5.md:16-30 ('floor' x10, 'capped' x1)",
+   "CLAUDE.md key facts: WInS bans derivatives (VERIFIED 27 Sep, public Trading Details)",
+   "KB_what_wins.md section 2.2 (Aberdeen fixed-income/credit judge on 2024-2026 finale panels [N10][N13][N16])"
+  ],
+  "fix": "Ask two outside adults, one with finance training, what the strategy name suggests. Avoid the noun 'cap' (use 'upper limit' or 'top of the range'). Explain any name once, literally. Whether to own the Caplet joke in a presentation is the team's call.",
+  "confidence": "medium",
+  "new_vs_known": "new",
+  "deadline": "Name confirmed at vote set A (Sun 18 Oct Sydney)",
+  "lens": "L11_communication",
+  "verdict": "confirmed",
+  "verifier_note": "Wikipedia 'known as caplets' and Merriam-Webster 'complete or thorough' (marked 'chiefly British') both FOUND 16 Oct. Aberdeen fixed-income/credit judge on the 2024-2026 finale panels is supported by KB rows 20 and section 'the bond seat' [N10][N13][N16]. Low is fair."
+ },
+ {
+  "id": "COMM-19",
+  "title": "Mixed US and Australian spelling across drafts",
+  "severity": "low",
+  "deliverables": [
+   "IPS",
+   "TNA",
+   "FinalReport"
+  ],
+  "problem": "V5 and Tab 15 use the US 'defense', while V4 used the Australian 'prioritise'. It is small, but a mix inside one team's documents reads as several authors or tools.",
+  "evidence": [
+   "team/google_drive/ips_report/01_version_5.md:28 'defense'; 15_tab_15.md:18 'defense'",
+   "team/google_drive/ips_report/02_v4_need_to_humanise.md:24 'prioritise', 'prioritising'"
+  ],
+  "fix": "Pick one spelling convention (Australian is the team's real voice) and apply it to all three deliverables at the final proofread.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "Final proofread before each submission (24 Oct, 7 Nov, 5 Dec Sydney)",
+  "lens": "L11_communication",
+  "verdict": "confirmed",
+  "verifier_note": "'defense' at V5:28 and Tab 15:18; 'prioritise/prioritising' at V4:16, :24. Low is fair."
+ },
+ {
+  "id": "L11-V01",
+  "lens": "L11_communication",
+  "verdict": "verifier-added",
+  "title": "The filled WInS notes lock in the TNA's words; the lens's blacklist would give one idea two names in the same entry",
+  "severity": "medium",
+  "deliverables": [
+   "TNA",
+   "IPS",
+   "FinalReport"
+  ],
+  "problem": "The TNA must quote each note 'exactly as it appears in WInS', and notes cannot be edited. The filled notes already use words that L11's blacklist says to replace: 'ladder' (IBTR), 'floor' (IBTM), 'payout is not fixed' (IBTM, IBTO, IBTP, IBTQ), 'reinvestment-rate risk' (Feb-2037), 'scaled to the model portfolio' (Nov-2041). Two of the three suggested picks already name the minimum two ways: 'floor' (IBTM) and 'promised minimum' (VT). If the reflections swap in blacklist words ('minimum gift', 'bonds maturing each year'), one TNA entry uses two names for one thing, which is the drift COMM-07 and COMM-12 warn against. The TNA is submitted on 23 Oct, two weeks before the IPS, so its words are fixed first.",
+  "evidence": [
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:14 'promised minimum'; :15 'top up the ladder'; :16 'reinvestment-rate risk'; :19 'provides a floor for her facility contribution' and 'final payout is not fixed'; :20-22 'payout is not fixed'; :24 'scaled to the model portfolio'",
+   "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:44 'Include each Trading Note exactly as it appears in WInS.'",
+   "L11_communication.md section 6 (blacklist rows for floor, ladder, payout is not fixed, scaled to the model portfolio, reinvestment-rate risk)",
+   "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:22-23 (TNA due Oct 23, IPS Nov 6)"
+  ],
+  "fix": "Build the term map (COMM-12) starting from the words already frozen in WInS, not from a blank list. In each reflection, keep the note's own word for each idea. Where two picked notes use different words (floor / promised minimum), link them once in plain words. Then either the IPS uses the same words, or the Final Report says once that they mean the same thing. Decide the strategy name and the minimum's name before the reflections are written. The students write all wording.",
+  "deadline": "Term map before reflections are drafted (target Tue 20 Oct Sydney); TNA hard deadline Sat 24 Oct 08:00 Sydney (Fri 23 Oct 5 pm ET)",
+  "new_vs_known": "new",
+  "confidence": "high",
+  "verifier_note": "Missed by L11: its blacklist (section 6) conflicts with the exact-quote rule for the TNA."
+ },
+ {
+  "id": "L11-V02",
+  "lens": "L11_communication",
+  "verdict": "verifier-added",
+  "title": "Look-alike numbers on different bases hide a real change: the IBTR note's 'about 0.2 points' and the number sheet's '0.19 points'",
+  "severity": "medium",
+  "deliverables": [
+   "TNA",
+   "IPS",
+   "FinalReport"
+  ],
+  "problem": "The IBTR note (6 Oct) says yields can fall 'about 0.2 percentage points' before the 2028 deposit must help. The 16 Oct number sheet says the headroom is 'about 0.19 points of yield'. Read side by side, a judge sees no change. But they are on different bases. On the note's basis (the maturity dates of the bonds held), the room fell from about 0.23-0.27 points on 6 Oct to about 0.05-0.07 points on 15 Oct. The 0.19 is the payment-date basis, which on 6 Oct was 0.35-0.39. The team itself changed the figure between orders: the cancelled IBTR note said 0.3 and the filled one says 0.2. The room also swings by about $2,600-2,700 in a single day (14 to 15 Oct, both bases).",
+  "evidence": [
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:15 (filled IBTR note, 'about 0.2 percentage points') and :37 (cancelled IBTR note, '0.3 percentage points')",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:13 'about $5,500 (about 0.19 points of yield)'",
+   "Verifier re-run 16 Oct of oct16/research/KB_verify/num/reconcile.py on caplet-latest/competition/official_market_data/daily-treasury-rates_2026-10.csv: 6 Oct owned maturities 23.0bp (unchanged) / 26.8bp (forward), payment dates 34.8 / 38.6bp; 13 Oct owned 16.4bp (matches the 0.16 in oct14/tna_merge.md:78); 14 Oct owned $4,007 (13.9bp), payment-date forward $8,242; 15 Oct owned $1,372 (4.7bp), payment-date forward $5,539 (19.0bp)"
+  ],
+  "fix": "Any update to the note's figure uses the note's basis, and says so in words. Never set a new number beside an old one unless both have the same basis and a date. Because the room moves thousands of dollars a day, the reflection and the IPS should rest on the rule (if yields fall past the line, the 2028 deposit tops up the payments and the facility gets less). Any level is a dated example only. Re-run on the day the text is frozen, not earlier.",
+  "deadline": "IBTR reflection numbers frozen Thu 22 Oct Sydney (re-run that day); TNA hard Sat 24 Oct 08:00 Sydney",
+  "new_vs_known": "new",
+  "confidence": "high",
+  "verifier_note": "Missed by L11: the near-equal figures are a communication trap separate from the $294k vs $298.6k conflict; numbers re-run by the verifier."
+ }
+]

@@ -1,0 +1,354 @@
+{
+ "file": "oct16/lenses/L03_strategy_redteam.md",
+ "summary": "The Roots First / Root-and-Branch skeleton holds up: Treasuries back every promise, stocks only back money nobody has been promised, and the 2031 range's bottom is already owned. A fixed-income judge would still find five holes, and all must be fixed before the strategy locks on 6 Nov (IPS-FINAL.txt:73-74).\n(1) \"High degree of certainty\" is never defined in IPS V5. The kit's \"never short\" evidence uses zero-coupon STRIPS, banned since 6 Oct. On the WInS-listed holdings, about $45k of the $500k depends on reinvesting coupons, and the kit's own historical replay finds a payment short in 65% of start months.\n(2) About 72% of that reinvestment risk ($32.6k of $45.2k, MODEL) arrives after the 2033 gift is paid. V5's shortfall order only covers shortfalls \"expected in 2033\". After that, only Laura's kept half (about $13k at p5) remains, and the kit's chain ends in \"her own money\", which the case forbids.\n(3) Each rung is sized to reinvest its own coupons, the reinvestment-hungry design. A standard dedicated (cash-flow-matched) version of the same ten holdings, assuming waiting cash earns 0%, costs about $309.6k on the 15 Oct curve ($304.1k at 2%). So \"certain even if coupons earn nothing\" costs only about $5-10k of the 2028 deposit: a simple, distinctive upgrade.\n(4) The room under $300k has almost gone: $298,628 on the 15 Oct close, leaving $1,372 (4.7bp). The ladder cost over $300k on 182 of 198 trading days in 2026, with about a 44% chance it is over at year-end. The IBTR note's \"about 0.2 points\" is now about 0.05.\n(5) VT is about 7.8% of Laura's money, with a median gain over Treasuries of only about $4.2k by 2033. The team's own rival memo says All-Treasury gives the facility more at every percentile, and COMPETITION.md:164 and V5:28 state the floor-vs-stocks trade-off backwards for the gift. The branch must be reframed as Laura's flexibility money.\nOther gaps: Laura's kept half is promised to three jobs; the 2031 \"confidence by construction\" can read as a tautology; the floor-size rule can make the branch vanish when yields are low; iBond mechanics are glossed (money-market final months, 0.07% fee, about 60% of money in one sponsor's trusts); each WInS rung pays only about $33-34k while the notes say \"$50,000 payment\"; the operating reserve's 2033 size depends on 2033 yields ($376k-$439k); facility inflation would leave the $150k floor buying about $118k in 2026 Taiwan building costs; and Taiwan-dollar risk (about \u00b111-20% over six years) is as big as the whole equity half.",
+ "findings": [
+  {
+   "id": "STRAT-02",
+   "title": "High degree of certainty is undefined in V5 and tested only on banned zero-coupon instruments",
+   "severity": "critical",
+   "deliverables": [
+    "IPS",
+    "FinalReport",
+    "TNA"
+   ],
+   "problem": "The case requires teams to define, evaluate and give the assumptions behind 'high degree of certainty'. V5 never defines it and claims each payment 'depends mainly on the US government'. The kit's 'never short' tests use STRIPS (banned since 6 Oct). On the WInS-listed holdings, about $45-53k of the $500k depends on reinvesting coupons at about 5%. The kit's 1962-2011 replay finds a payment short in 65% of start months (single build). The 15 Oct brief's 'no payment missed unless yields fall about 420bp' is wrong on the WInS basis. The team's own WInS notes admit 'reinvested coupons fund the rest', so V5 contradicts them.",
+   "evidence": [
+    "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt p3: 'define what they consider a high degree of funding certainty, explain how they evaluated that level of certainty'",
+    "team/google_drive/ips_report/01_version_5.md:20 'once bought, each payment depends mainly on the US government paying its debts'",
+    "rab/decisions/D_certainty_definition.md test 3: 'The ten total $500,000 only if coupons earn about 5% or more'",
+    "rab/redteam/ws7_assumptions_reinvest_check_output.txt [2]: 'starts with any payment short 387/593 (65%); total < $500k in 47%'",
+    "rab/decisions/D_rivals.md: 'Every plan's payments are modelled as zero-coupon (STRIPS) Treasuries'",
+    "scratchpad/oct14/final.md:580 'no payment is missed unless yields fall about 420bp'",
+    "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:18 'reinvested coupons fund the rest'",
+    "MODEL lenses/L03/cf_model.py on 15 Oct curve: owed at 0% reinvestment about $455k of $500k"
+   ],
+   "fix": "Adopt one standard that is literally true for the WInS-listed holdings (for example, covered even if waiting cash earns 0% or 2%; see STRAT-04). Test it on the real holdings, list its assumptions, and delete or label every STRIPS-basis 'never short' figure in team files. The IPS gives the principle; the Final Report gives the tests and figures.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "IPS Fri 6 Nov 5pm ET (Sat 7 Nov 09:00 Sydney); Final Report 4 Dec"
+  },
+  {
+   "id": "STRAT-03",
+   "title": "Most reinvestment risk arrives after the 2033 gift is paid, and the shortfall order does not cover it",
+   "severity": "high",
+   "deliverables": [
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "About 72% ($32.6k of $45.2k) of the ladder's reinvestment dependence is earned after 1 Jan 2033. If reinvestment is 2 points below forwards only after 2033, the pooled reserve ends about $10k short (MODEL). V5's shortfall order covers only a shortfall 'expected in 2033'. By then the contribution above the floor has been paid and cannot be clawed back, and Laura's kept half is about $13k at p5. The kit's rule ends in 'she adds her own money', which the case forbids.",
+   "evidence": [
+    "team/google_drive/ips_report/01_version_5.md:26 'Any shortfall expected in 2033 comes first from the 2027 leftover, then the half Laura keeps, then the contribution above the floor'",
+    "rab/decisions/D_stress_bad_year.md rule 3: 'beyond it, she adds her own money'",
+    "Laura_Gao_2026_Client_Profile.txt p3: 'Teams may not rely on co-sponsors, grants, program fees, or other outside funding to meet this requirement'",
+    "MODEL lenses/L03/cf_1015.txt: 'of which earned after 1 Jan 2033: $32,563'",
+    "MODEL lenses/L03/pooled_1015.txt: 'fwd pre, fwd-2pt post end-2042 surplus $-9,977'"
+   ],
+   "fix": "Write into the IPS a rule that covers post-2033 shortfalls without outside money. Options: a buffer measured on the 2033 curve and set aside before the gift; dedicating the ladder from the start; or Laura's half held in Treasuries to 2042 and sized for that job. The 2031 'rounded down' bottom must use the same rule and the same stress.",
+   "confidence": "medium",
+   "new_vs_known": "new",
+   "deadline": "IPS Fri 6 Nov 5pm ET"
+  },
+  {
+   "id": "STRAT-04",
+   "title": "Own-rung ladder maximises reinvestment risk; a dedicated version makes certainty literal for about $5-10k more",
+   "severity": "high",
+   "deliverables": [
+    "IPS",
+    "FinalReport",
+    "Strategy"
+   ],
+   "problem": "V5 reinvests income 'in the holding that paid it', and each rung is sized alone, so certainty depends on 6-15 years of compounding at unknown rates. A standard dedication of the same 10 holdings, assuming waiting cash earns 0%, costs about $309.6k on the 15 Oct curve ($306.9k at 1%, $304.1k at 2%). The own-rung design needs about $327k to be safe at 0%. The extra $5-10k could come from the 2028 deposit before the floor (floor about $140-145k instead of $150k).",
+   "evidence": [
+    "team/google_drive/ips_report/01_version_5.md:26 'with income reinvested in the holding that paid it'",
+    "rab/decisions/D_stress_bad_year.md rule 2: 'Each bond's coupons buy a Treasury maturing before the same payment'",
+    "MODEL lenses/L03/lp_carry.txt: '10/15/2026 carry 0%: dedication cost on 1 Jan 2027 $309,634' and 'carry 2% ... $304,102'",
+    "MODEL lenses/L03/cf_1015.txt: 'own-rung sizing scaled so each rung pays $50k at 0%: $327,416'"
+   ],
+   "fix": "The team chooses between own-rung + explicit buffer, dedication at a stated carry rate (0% or 2%), or keeping the current design and stating certainty depends on coupons earning about 5%. Record the full 43-bond WInS list and re-run the dedication on it. A student rebuilds the LP independently. The IPS principle and the Final Report numbers must follow the choice; the WInS book need not be re-traded, but any gap must be explained.",
+   "confidence": "medium",
+   "new_vs_known": "new",
+   "deadline": "vote by Tue 27 Oct; IPS Fri 6 Nov"
+  },
+  {
+   "id": "STRAT-01",
+   "title": "Room under $300k almost gone: the IBTR note's trigger and V5's $292k are stale",
+   "severity": "high",
+   "deliverables": [
+    "TNA",
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "On the 15 Oct close the WInS-listed ladder costs $298,628 (room $1,372, 4.7bp; forward basis $2,153, 7.4bp). It cost over $300k on 182 of 198 trading days in 2026, and the chance it is over at year-end is about 44% (MODEL). The IBTR note's 'about 0.2 percentage points' is now about 0.05. V5 quotes 'about $292,000' and COMPETITION.md says 'about $293k on the 6 Oct curve'. The '2027 money buys the payments, 2028 money buys the facility' story is now a coin flip.",
+   "evidence": [
+    "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:15 'If yields fall more than about 0.2 percentage points by January, the 2028 deposit would top up the ladder'",
+    "team/google_drive/ips_report/01_version_5.md:24 'At late-September 2026 yields they cost about $292,000'",
+    "COMPETITION.md:152-153 'It costs about $293k on the 6 Oct curve'",
+    "https://home.treasury.gov daily par yield CSV 2026 (accessed 16 Oct 2026): 15 Oct 10y 5.10, 20y 5.48",
+    "MODEL oct14/factcheck/ladder.py re-run: '10/15/2026 WInS-listed unch cost $298,628 room $1,372 breakeven 4.7bp'",
+    "MODEL lenses/L03/gapodds.txt: 'days over $300k in 2026: 182 of 198'; 'P(cost>300k on 31 Dec) ~ 44%'"
+   ],
+   "fix": "Describe the 2027 purchase as a rule that works either way. Date every figure and give its sensitivity (about $2.9k per 10bp). In the IBTR reflection, present the 6 Oct test as now nearly biting, with a date. In the Final Report, state the 1 Jan 2027 curve assumption.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "TNA Fri 23 Oct 5pm ET (Sat 24 Oct 08:00 Sydney); IPS 6 Nov"
+  },
+  {
+   "id": "STRAT-05",
+   "title": "Laura's kept half is promised to three jobs and is small",
+   "severity": "high",
+   "deliverables": [
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "The same money is named as the payments' backstop (held in Treasuries 2033-42 under rule 3), the inflation/Taiwan-dollar defence ('equity half') and the cushion for cost overruns or co-sponsor shortfalls. It is about $25k median and about $13k at p5 (MODEL); in the kit's 2008 replay it is $18.4k, against a $30k coupon gap at 2%. The reserve's long bonds (duration about 11) cannot be sold for flexibility without price risk.",
+   "evidence": [
+    "team/google_drive/ips_report/01_version_5.md:28 'the equity half Laura keeps is her defense'",
+    "team/google_drive/ips_report/01_version_5.md:30 'The other half stays with Laura as a cushion if costs rise or co-sponsors fall short'",
+    "rab/decisions/D_stress_bad_year.md rule 3: 'From the 2033 gift to the last payment she holds her half in Treasuries, not stocks'",
+    "rab/decisions/D_stress_bad_year.md table: '2008 happens in 2028 ... Laura keeps $18,446 ... gap beyond her half $12,047'",
+    "MODEL lenses/L03/sleeve.txt: 'Laura keeps $13,312' (p5), '$24,677' (p50)",
+    "Laura_Gao_2026_Client_Profile.txt p3: 'committing all remaining assets could limit her financial flexibility as the project develops'"
+   ],
+   "fix": "Give each job one named source and size, state the priority when they collide (payments first), and drop 'equity half' wording if the half moves to Treasuries in 2033.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "IPS Fri 6 Nov"
+  },
+  {
+   "id": "STRAT-06",
+   "title": "The growth branch is tiny and the floor-vs-stocks trade-off is stated backwards",
+   "severity": "high",
+   "deliverables": [
+    "IPS",
+    "FinalReport",
+    "TNA"
+   ],
+   "problem": "VT is about $35k (7.8% of the $450k). Its median 2033 gain over Treasuries is about $4.2k (mean $7.8k, MODEL, JPM 7.0%/16.78%). The team's rival memo says All-Treasury is better for the facility at every percentile. Under the half rule a bigger floor raises the median gift ($175k at a $150k floor vs $152k at $100k), yet COMPETITION.md:164 and V5:28 say the opposite. The 'too timid' criticism is still open, while the case calls Laura 'willing to take thoughtful risks'.",
+   "evidence": [
+    "COMPETITION.md:164 'less stock means a lower median contribution'",
+    "team/google_drive/ips_report/01_version_5.md:28 'Moving floor money into equities would raise the expected contribution'",
+    "rab/decisions/D_rivals.md: 'For the facility alone it is better at every percentile (gift $191k / $202k / $213k against $165k / $174k / $189k)'",
+    "team/google_drive/strategy_notes.md:22 'the \"timid plan\" criticism is still open'",
+    "MODEL lenses/L03/sleeve.txt: 'VT $35,188 (7.8% of all money)'; 'median gain from stocks $4,227'"
+   ],
+   "fix": "Reframe the branch as Laura's flexibility money (the case asks for flexibility), 100% stocks because nobody has been promised it. Give the facility trade-off the right sign, prepare a one-line answer to 'why not all Treasuries?', and decide the floor size as a principle.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "IPS Fri 6 Nov"
+  },
+  {
+   "id": "STRAT-10",
+   "title": "WInS rungs pay about $33-34k each but the notes say they fund $50,000 payments",
+   "severity": "medium",
+   "deliverables": [
+    "TNA",
+    "FinalReport"
+   ],
+   "problem": "The WInS book is Laura's post-2028 allocation scaled to $300k: iBond rungs are 0.676x and bonds 0.654-0.667x of Laura's rungs. Most notes still say, for example, 'IBTO is for Laura's second $50,000 payment'; only the Nov-2041 note mentions scaling. VT and the floor stand-in were bought 15 months before Laura would buy them. A judge who multiplies shares by about $25 sees about $25k of face value, not $50k.",
+   "evidence": [
+    "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:20 'IBTO is for Laura's second $50,000 payment'",
+    "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:24 'scaled to the model portfolio'",
+    "rab/trades/tickets.md: Portfolio IBTO 1,016 shares vs Book L 1,503 shares",
+    "COMPETITION.md:176-185 filled quantities"
+   ],
+   "fix": "State the mapping once in every reflection and in the IPS: the WInS book is scaled, so each rung is about two-thirds of a payment. Add a WInS-to-Laura mapping table to the Final Report.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "TNA Fri 23 Oct 5pm ET"
+  },
+  {
+   "id": "STRAT-07",
+   "title": "'Confidence by construction' for the 2031 range can read as a tautology",
+   "severity": "medium",
+   "deliverables": [
+    "FinalReport",
+    "IPS"
+   ],
+   "problem": "The gift is defined as floor + half the fund, capped at the top, so it cannot fall outside the range unless the floor fails. The case also asks how favourable and unfavourable markets affect the amount. The range is narrow (typical top about $175k), and the gift lands at or near the top about 3 times in 4. Answering 'about 100%' can look like dodging the probability question.",
+   "evidence": [
+    "rab/decisions/D_range_confidence_2031.md: 'Say the 2033 gift lands inside the range by construction, if five things hold'",
+    "Laura_Gao_2026_Client_Profile.txt p3: 'state how confident they are that her 2033 contribution will fall within that range. They should explain how favorable and unfavorable market outcomes could affect the amount'",
+    "team/google_drive/ips_report/01_version_5.md:30 'so she cannot miss the range'"
+   ],
+   "fix": "In the Final Report, give both the structural guarantee with its conditions and where the gift is likely to land, with what moves it, on the WInS-listed basis. The IPS needs only the principle.",
+   "confidence": "medium",
+   "new_vs_known": "new",
+   "deadline": "Final Report Fri 4 Dec 5pm ET"
+  },
+  {
+   "id": "STRAT-08",
+   "title": "Floor-size rule and the 2027-to-2028 sequence can make the branch vanish",
+   "severity": "medium",
+   "deliverables": [
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "The floor is either 'the remainder' or 'about $150k'. A floor for $150k costs $112k-$130k in Jan 2028 depending on yields (MODEL). Add a 2027 top-up of up to about $14k (p95), and a low-yield path leaves VT under about $10k, so the 2031 range collapses. At the 2 Jan 2026 curve the ladder alone cost $325k.",
+   "evidence": [
+    "team/google_drive/ips_report/01_version_5.md:24 'sized to return that remainder'",
+    "COMPETITION.md:155-156 'sized to return about $150k by 2033'",
+    "rab/decisions/D_rivals.md: 'Yields falling more than about 1 point before January 2027: the fund is used up'",
+    "MODEL lenses/L03/gapodds.txt: 'first 01/02/2026 325,241'"
+   ],
+   "fix": "Write one priority order into the IPS (payments, then floor or a minimum branch, then the rest), say what happens to the range if the branch is small, and test it at the Jan 2026 curve.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "IPS Fri 6 Nov"
+  },
+  {
+   "id": "STRAT-09",
+   "title": "iBond ETF mechanics glossed: money-market final months, fees, sponsor concentration, substitution gap",
+   "severity": "medium",
+   "deliverables": [
+    "IPS",
+    "FinalReport",
+    "TNA"
+   ],
+   "problem": "iBonds pay no predetermined amount, and in their final months sit in cash at money-market yields. Weighted average maturities (IBTM 5.71y, IBTR 9.55y as of 14 Oct) imply waits of about 6-7 months before 15 Dec. The 0.07% fee is not in any curve-based ladder cost (roughly $1-1.5k over the life, about today's whole room). About 60% of Laura's money sits in one sponsor's iBond trusts. V5's 'substitute a Treasury maturing earlier' runs into WInS listing no Treasury maturing Feb 2031 to Feb 2036. IBTR is young, but its assets grew from $37.6m to $109.1m.",
+   "evidence": [
+    "https://www.ishares.com/us/products/350028/ishares-ibonds-dec-2036-term-treasury-etf (accessed 16 Oct 2026): 'its portfolio will transition to cash and cash-like instruments. As a result, its yield will tend to move toward prevailing money market rates'",
+    "same page: 'the Funds do not seek to return any predetermined amount'; 'Expense Ratio 0.07%'; 'Net Assets of Fund $109,148,633 as of Oct 15, 2026'",
+    "https://www.ishares.com/us/products/328944/ishares-ibonds-dec-2032-term-treasury-etf (accessed 16 Oct 2026): 'Weighted Avg Maturity 5.71 yrs as of Oct 14, 2026'",
+    "rab/data/ishares/ibonds_facts.csv: IBTR net assets $37,557,081 Sep 28 2026",
+    "COMPETITION.md:93 'none maturing Feb 2031 to Feb 2036'",
+    "team/google_drive/ips_report/01_version_5.md:26 'we substitute a Treasury maturing earlier'"
+   ],
+   "fix": "Add one honest clause on what an iBond pays, include fees in the ladder cost, and check the substitution rule against the WInS bond gap. Put the details in the Final Report.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "IPS 6 Nov (clause); Final Report 4 Dec"
+  },
+  {
+   "id": "STRAT-11",
+   "title": "Operating reserve size and composition-over-time not pinned down",
+   "severity": "medium",
+   "deliverables": [
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "Both the case and the IPS brief ask for the reserve's size, initial composition and how it changes. V5 says only that it shrinks. Its 1 Jan 2033 market value depends on 2033 yields (about $376k at 7%, $405k at 5%, $439k at 3%, MODEL) while it pays $500k. Waiting cash (iBond final months; Feb-2037 10.5 months early; May-2038 7.5 months early) and post-2033 coupons have no stated home. SGOV was listed on WInS on 28 Sep, but cash is not on the 14 Oct permitted list.",
+   "evidence": [
+    "Laura_Gao_2026_Client_Profile.txt p3: 'recommend its size and initial asset composition and explain how its composition should change, if at all'",
+    "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:48-49 'managing the operating reserve's asset composition over time'",
+    "team/google_drive/ips_report/01_version_5.md:26 'shrinking as each payment is made'",
+    "team/google_drive/sheets/portfolio_and_trading_notes/wins_notes.csv: 'SGOV,iShares 0-3 Month Treasury Bond ETF,$100.67'",
+    "MODEL annuity-due: 10 x $50k at 5% = $405,391"
+   ],
+   "fix": "In the IPS, state the composition principle (runs off; waiting cash goes to a named type; coupons follow a named rule). In the Final Report, give the reserve size as face cash flows and as market value at a stated 2033 yield, with a per-year table.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "IPS 6 Nov; Final Report 4 Dec"
+  },
+  {
+   "id": "STRAT-12",
+   "title": "Facility-cost inflation named but not measured",
+   "severity": "medium",
+   "deliverables": [
+    "FinalReport",
+    "IPS"
+   ],
+   "problem": "The case asks for 'the effect of inflation on portfolio projections and facility costs'. V5 has one clause. The $150k nominal floor buys about $118k in 2026 Taiwan building costs at 3.54%/yr (the average since 2021), or about $96k at the latest +6.53% y/y.",
+   "evidence": [
+    "Laura_Gao_2026_Client_Profile.txt p4: 'the effect of inflation on portfolio projections and facility costs'",
+    "research/insight_v1/phase_A/fact_register.md:206 'Average since the 2021 base: 3.54%/yr'; '+6.53% y/y'",
+    "team/google_drive/ips_report/01_version_5.md:28 'Inflation or a stronger Taiwan dollar raises facility costs'",
+    "MODEL: 150/1.0354^7 = about $118k"
+   ],
+   "fix": "In the Final Report, state the inflation assumptions (US CPI for projections; Taiwan construction cost for the facility), show the floor and range in both nominal and 2026-cost terms, and explain that the nominal ladder is deliberate.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Final Report Fri 4 Dec"
+  },
+  {
+   "id": "STRAT-13",
+   "title": "Taiwan-dollar risk is as large as the whole equity half and is not quantified",
+   "severity": "medium",
+   "deliverables": [
+    "FinalReport"
+   ],
+   "problem": "Over 6-year windows since 1990, the TWD moved against the USD from about -21.7% (p5) to +12.4% (p95), with a maximum gain of +20.2%. A 12.4% TWD rise cuts the TWD value of a $175k gift by about $19k, similar to the equity half's p5-p95 spread ($13k-$46k). Derivatives are banned, so no hedge is possible; the case never names a currency.",
+   "evidence": [
+    "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXTAUS (accessed 16 Oct 2026): 31.94 on 2026-10-09",
+    "MODEL lenses/L03/fx.txt: '6-year change in TWD value vs USD since 1990 (n=370): p5 -21.7% p50 -1.2% p95 12.4%, max TWD gain 20.2%'",
+    "COMPETITION.md:78 'Banned | margin, shorting, stock-secured debt, crypto, derivatives'",
+    "rab/assumptions.md L10: 'The case writes \"$\" and never names a currency'"
+   ],
+   "fix": "In the Final Report, state the currency assumption (quote the range in USD), size the FX risk in one sentence, explain why it is unhedged, and note it in the co-sponsor message.",
+   "confidence": "medium",
+   "new_vs_known": "new",
+   "deadline": "Final Report Fri 4 Dec"
+  },
+  {
+   "id": "STRAT-15",
+   "title": "Overbuilt behind the scenes, under-explained on the page; 'just a bond ladder' risk",
+   "severity": "medium",
+   "deliverables": [
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "The kit has 10 decision memos, about 9 models and 1.6 million paths, mostly on the STRIPS basis. V5 omits items the IPS brief names: liquidity, return assumptions, the certainty definition, and reserve composition over time. The core ladder is textbook liability-driven investing, so without its insights stated, judges may see 'a bond ladder anyone could do'; with model clutter, it repeats last year's over-complexity.",
+   "evidence": [
+    "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:45-50 'approach risk and return, liquidity, portfolio construction ... managing the operating reserve's asset composition over time'",
+    "rab/decisions/D_range_confidence_2031.md: 'No gift fell outside the range in 1.6 million paths'",
+    "CLAUDE.md Team section: 'strategy packaging was over-complex for the insight'"
+   ],
+   "fix": "Keep three load-bearing numbers rebuilt on the WInS basis (cost vs deposit, certainty test, where the gift lands). Make the distinctive ideas explicit, each in one sentence: certainty that holds with coupons earning nothing; an owned bottom and capped top so Laura cannot overpromise; stocks only where nothing is promised.",
+   "confidence": "medium",
+   "new_vs_known": "known-deeper",
+   "deadline": "IPS 6 Nov; Final Report 4 Dec"
+  },
+  {
+   "id": "STRAT-16",
+   "title": "Return assumptions rest on one year-old house view",
+   "severity": "low",
+   "deliverables": [
+    "FinalReport"
+   ],
+   "problem": "All equity projections use JPM's 2026 LTCMA (data to 30 Sep 2025). A 2027 edition was not found on 16 Oct (UNVERIFIED). The 7.00% is a compound figure; means are higher.",
+   "evidence": [
+    "CLAUDE.md Key facts: 'JPM 2026 LTCMA (data 2025-09-30) ... AC World 7.00% compound (16.78% vol)'",
+    "rab/assumptions.md E1: 'the 2027 edition is due about October 2026'",
+    "WebSearch 16 Oct 2026: only the 2026 edition returned (https://privatebank.jpmorgan.com/nam/en/insights/markets-and-investing/pb-ltcmas)"
+   ],
+   "fix": "Name the source and date, state compound vs arithmetic, cross-check with a second house, and re-check JPM's page in late November.",
+   "confidence": "medium",
+   "new_vs_known": "known-deeper",
+   "deadline": "Final Report Fri 4 Dec"
+  },
+  {
+   "id": "STRAT-14",
+   "title": "TIPS and tax: bank the easy 'considered and rejected' points",
+   "severity": "low",
+   "deliverables": [
+    "FinalReport"
+   ],
+   "problem": "Judges may ask 'why not TIPS?'. The answer is strong: the payments are fixed nominal, and the kit found a TIPS ladder would need about 1.43x the size (STRIPS basis, re-run before quoting). Tax is explicitly out of scope, so no words should go on iBond tax treatment.",
+   "evidence": [
+    "Laura_Gao_2026_Client_Profile.txt p3: 'each payment is a fixed $50,000 and is not adjusted for inflation'",
+    "Laura_Gao_2026_Client_Profile.txt p4: 'teams do not need to account for personal income taxes, capital gains taxes'",
+    "rab/decisions/D_rivals.md: 'A TIPS ladder ... 1.43 times the size, about $125k more'"
+   ],
+   "fix": "Add one line each in the Final Report and re-run the TIPS figure on the current basis.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Final Report Fri 4 Dec"
+  },
+  {
+   "id": "STRAT-17",
+   "title": "Long-bond early maturities and price swings: harmless but unexplained",
+   "severity": "low",
+   "deliverables": [
+    "FinalReport"
+   ],
+   "problem": "The Feb-2037 and May-2038 bonds end 10.5 and 7.5 months before their payments. Waiting cash changes the outcome by only about $0-2k per rung. WInS book value will swing with rates although the held-to-maturity cash flows do not.",
+   "evidence": [
+    "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:16 'The 10.5-month gap creates reinvestment-rate risk'",
+    "scratchpad/oct14/final.md:592 'about \u00b1$9.4-9.5k, or 3.1%'"
+   ],
+   "fix": "One sentence in the Final Report: value moves, cash flows do not. Name where waiting cash sits.",
+   "confidence": "high",
+   "new_vs_known": "known-repeat",
+   "deadline": "Final Report Fri 4 Dec"
+  }
+ ]
+}

@@ -1,4 +1,4 @@
-# Assistant review, 30 Sep to 15 Oct 2026
+# Assistant review, 30 Sep to 16 Oct 2026
 
 AI-generated research and review (Claude Code), made at the request of the team. **It is not submission text.**
 Nothing here may be copied into the Trading Notes, IPS or Final Report. Wharton's AI policy allows AI for brainstorming,
@@ -9,7 +9,9 @@ Report's Works Cited. Log every file below in the team's AI-use record (date, to
 
 | File | What it is | Basis |
 |---|---|---|
-| `01_Caplet_Team_Brief_15Oct2026.pdf` (+ `.md`) | **Start here.** 19-page team brief: the list of instructions and nuances first, then the reasons. Covers the TNA picks, the IPS V5 problems, WInS checks, the AI-use record, privacy, and the calendar to 4 Dec. | Repo at commit `2affd4c` (14 Oct); market data to 14 Oct close |
+| `04_What_Stops_Us_Winning_16Oct2026.pdf` (+ `.md`) | **Newest; start here.** 14-page report: what is stopping the team from winning, from every angle. Part 1 is a ranked to-do list with deadlines and owner roles; then traps, how to stand out without gimmicks, what past competitions show (winners, judges, past Final Report rules), and sections on the client, strategy, TNA, IPS, Final Report, integrity, numbers, team process and communication. Fact-checked (about 650 claims re-opened). | Repo at `2affd4c` plus branch commit `412e9e3`; Treasury curve to 15 Oct; web sources accessed 16 Oct |
+| `oct16/` | The evidence behind the 16 Oct report: past-competition research (`research/KB_what_wins.md`, `R1`-`R4`), twelve attack lenses (`lenses/`), their skeptical verifications (`verify/`), and the ladder-cost reconciliation script. Finding IDs in the report (e.g. STRAT-02, TNA-13) point to `lenses/*.findings.json` and `verify/*.final.json`. In the report, `oct14/final.md` means `01_Caplet_Team_Brief_15Oct2026.md`, and `caplet-latest/` means branch commit `412e9e3`. | 16 Oct |
+| `01_Caplet_Team_Brief_15Oct2026.pdf` (+ `.md`) | The 15 Oct brief. 19-page team brief: the list of instructions and nuances first, then the reasons. Covers the TNA picks, the IPS V5 problems, WInS checks, the AI-use record, privacy, and the calendar to 4 Dec. | Repo at commit `2affd4c` (14 Oct); market data to 14 Oct close |
 | `02_Caplet_Team_Brief_1Oct2026.pdf` | 3-page brief sent before the first trades. Superseded by the 15 Oct brief; kept for the record. | 30 Sep repo, 29 Sep curve |
 | `03_Repo_Review_30Sep2026.md` | The first full repo review (plan, numbers checked independently, risks, judge questions). Parts are superseded by the 6 Oct Wharton email (WInS-listed securities only, so STRIPS numbers no longer apply). | 30 Sep repo |
 | `supporting/tna_review_merged_14Oct.md` | Three simulated-judge reviews of the WInS trade notes, merged. Picks and swap rules; no drafted reflections. | 14 Oct |

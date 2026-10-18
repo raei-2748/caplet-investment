@@ -1,0 +1,607 @@
+[
+ {
+  "id": "TP-01",
+  "title": "Key strategy calls were deferred to AI; the six students have not yet argued them through",
+  "severity": "high",
+  "deliverables": [
+   "IPS",
+   "FinalReport",
+   "Strategy",
+   "Finale",
+   "Team"
+  ],
+  "problem": "Key calls (lock the ten payments first, the $150k floor, the half split) began as AI council output, and the team's own doc says so. The team did act on them (1 Oct 'IPS content locked'; trades 6-8 Oct), but no record shows the students' own reasons, the options they rejected, or who argued what. The old 'team has not read the memos' line is from 28 Sep and is out of date. Without a student-owned reason for each core decision, the team cannot honestly explain its decision-making process (an Articulation requirement), and Wharton treats using AI ideas as your own as plagiarism unless cited.",
+  "evidence": [
+   "team/google_drive/notes_and_discussions.md:69 \"The idea came from our AI council run on 27 September.\"",
+   "team/google_drive/final_report.md:21 \"1 Oct: model check backed the $150k floor and 50/50 split; IPS content locked.\" (decision recorded, reasons and dissent not)",
+   "CLAUDE.md:75 \"the team deferred to the assistant's evidence-based calls, provisionally\" (section dated 2026-09-28, marked superseded)",
+   "CLAUDE.md:165-166 gate votes still unticked",
+   "team/google_drive/ips_report/01_version_5.md:36 comment \"Best version that AI generated; We cannot submit as it is\"",
+   "Rules & Roles (https://globalyouth.wharton.upenn.edu/competitions/investment-competition/rules-roles/, accessed 16 Oct 2026): \"Beware that use may also stifle your own independent thinking and creativity.\" and \"Plagiarism includes, but is not limited to, the use of another's words or ideas as if they are one's own.\""
+  ],
+  "fix": "Two ratification meetings before 6 Nov (Sun 18 and Sun 25 Oct). For each core decision, one student explains it in 60 seconds without notes, a second argues the best alternative, the team votes, and the vote, reasons and dissent are logged in students' words. Success means every IPS decision has a student owner who can name the rejected option and why. A decision that fails is learned properly or changed before the freeze.",
+  "confidence": "high",
+  "deadline": "Sun 25 Oct (before IPS drafting); hard stop Sat 7 Nov 09:00 Sydney IPS + freeze",
+  "new_vs_known": "known-deeper",
+  "lens": "L10_team_process",
+  "verdict": "adjusted",
+  "verifier_note": "Quotes exist, but CLAUDE.md:74-75 sit in a section headed 'as of 2026-09-28 (superseded by Current status above)'. Since then the team did decide things: the journal records '1 Oct: model check backed the $150k floor and 50/50 split; IPS content locked' (final_report.md:21), and the 11 trades were placed 6-8 Oct. So 'the team has not read the memos' is stale. What still holds: the reasons, the options and who argued what are not recorded in students' words; the team's own doc credits the idea to the AI council (notes_and_discussions.md:69); the gate-vote box is unticked (CLAUDE.md:165). Wharton's plagiarism rule covers ideas as well as words (Rules & Roles: 'the use of another's words or ideas as if they are one's own', live 16 Oct). Lowered from critical to high: it is a real integrity and Articulation risk, but no breach has happened yet. Overlaps L09 INT-04."
+ },
+ {
+  "id": "TP-02",
+  "title": "Articulation needs a real dated record; the journal is thin and last year's comments said to make up stories",
+  "severity": "high",
+  "deliverables": [
+   "FinalReport",
+   "Team"
+  ],
+  "problem": "The journal has 9 dated entries, stops at 7 Oct and still has blanks ('[who argued what]', 'Outcome and reasons: [fill in]'). There are no minutes, the PM Dashboard export is empty and the Trade Log rows are blank. Last year's logs were empty too, and a comment in last year's doc in December told the team to 'make up stories'. Four of this year's six were on that team. Wharton's Ethics text bans inventing teamwork stories. Without a real record, the Articulation section will be generic or reconstructed from memory.",
+  "evidence": [
+   "team/google_drive/final_report.md:16 \"[who argued what]\"; :23 \"Outcome and reasons: [fill in]\"",
+   "team/google_drive/sheets/pm_dashboard/sheet1.csv is 0 bytes; trade_log.csv has headers and empty rows",
+   "team/google_drive/2025_knox_wharton.md:3393-3412 LOGS, Recording Summary, Meeting Minutes \"(empty tab)\"",
+   "team/google_drive/2025_knox_wharton.md:3827 \"Make up stories, and make them sound realistic\" (11 Dec 2025)",
+   "team/google_drive/2025_knox_wharton.md:76 last year's members include four of this year's six",
+   "Rules & Roles line 557 (accessed 16 Oct 2026): \"invent teamwork and experiential stories\""
+  ],
+  "fix": "Adopt 'no artefact, no story'. The historian keeps an evidence ledger (date, what, who including AI, options, decision, reason, dissent, artefact link on the private Drive, criterion part), updated 10 minutes after every meeting. Back-fill 27 Sep-16 Oct from Doc version history and chat by Sun 25 Oct. Before submission, two students check that every experience claim maps to a ledger row; cut anything that does not.",
+  "confidence": "high",
+  "deadline": "Back-fill by Sun 25 Oct; ledger ongoing; Final Report Sat 5 Dec 09:00 Sydney",
+  "new_vs_known": "known-deeper",
+  "lens": "L10_team_process",
+  "verdict": "adjusted",
+  "verifier_note": "All evidence checked: journal has 9 dated entries plus 2 loose lines and stops at 7 Oct with two blanks (final_report.md:16, :23); pm_dashboard/sheet1.csv is 0 bytes; trade_log.csv is headers plus empty rows; last year's LOGS, Recording Summary and Meeting Minutes tabs are '(empty tab)' (2025_knox_wharton.md:3393-3412); the 'Make up stories, and make them sound realistic' comment is dated 2025-12-11 (line 3827); four of this year's six are on last year's roster (line 76). 'Deadline eve' is UNVERIFIED (last year's due date is not in the repo), so it is removed. Severity lowered from critical to high: a thin record costs Articulation marks; it only becomes a disqualification risk if stories are invented. The 15 Oct brief already asked for the journal back-fill (final.md item 23), so this is known-deeper. Do not name who wrote last year's comment."
+ },
+ {
+  "id": "TP-03",
+  "title": "Semifinal tests ownership: last year every member had to explain their contribution, with no new strategy, 13 days after the announcement",
+  "severity": "medium",
+  "deliverables": [
+   "Finale",
+   "Team",
+   "FinalReport"
+  ],
+  "problem": "Last year's semifinal was a 10-minute video in which every member had a speaking role and had to explain how they added value. New material or a new strategy meant disqualification, and four written answers had to be in an authentic, non-generated voice. The video was due 13 days after the 27 Jan announcement, which falls in the Australian summer holidays. Five of six students have no recorded role, so those answers would be weak. This year's FAQ says a live panel; the exact format is unverified.",
+  "evidence": [
+   "2025-26 Semifinalists Next Steps PDF (https://globalyouth.wharton.upenn.edu/wp-content/uploads/2026/01/25%E2%80%9326-Semifinalists-%E2%80%93-Next-Steps-FINAL.pdf, accessed 16 Oct 2026) lines 40-41: \"Every team member must have a speaking role and briefly explain how they contributed value to the team.\"",
+   "Same PDF lines 47-51: \"Do NOT introduce completely new material, or your team will be disqualified.\" \"Teams are not permitted to present a partially or entirely new strategy.\"",
+   "Same PDF line 90 video due \"8:00 a.m. ET on Monday, February 9\"; line 106 \"authentic team voice, not generated or generic responses\"",
+   "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:89 \"to a live panel of judges. All team members must participate.\"",
+   "Wharton news 27 Jan 2026 (accessed 16 Oct 2026): Top 50 revealed; semis \"meet virtually the week of March 9\"",
+   "Knox term dates (accessed 16 Oct 2026): 2027 Term 1 commences Friday 29 January"
+  ],
+  "fix": "Each role must produce something the student can point to as their contribution (a section, a number sheet, a check, a decision record). Rehearse 'what was your job and what value did you add' in the 60-second test from now on. After 4 Dec, collect late Jan-Mar 2027 availability and agree how the team meets in the holidays. Practise explaining the plan to a non-investor.",
+  "confidence": "medium",
+  "deadline": "Roles by Sun 18 Oct; availability at the post-4 Dec retrospective; semifinal likely Feb 2027 (UNVERIFIED)",
+  "new_vs_known": "new",
+  "lens": "L10_team_process",
+  "verdict": "adjusted",
+  "verifier_note": "PDF re-fetched 16 Oct: lines quoted are exact ('Every team member must have a speaking role and briefly explain how they contributed value to the team.'; 'Do NOT introduce completely new material, or your team will be disqualified.'; video due '8:00 a.m. ET on Monday, February 9'; 'authentic team voice, not generated or generic responses'). 27 Jan to 9 Feb is 13 days. Knox 2027 Term 1 starts Fri 29 Jan (knox term-dates page). This year's FAQ says 'via video conference for the Semifinals ... to a live panel of judges. All team members must participate.' (faqs.txt:89), so the format may differ. Lowered from high to medium: it matters only after the Top 50 cut, and its main fix (roles that produce an artefact) is already in TP-05."
+ },
+ {
+  "id": "TP-04",
+  "title": "Single point of failure: leader = trader = repo = routines = alerts = submitter",
+  "severity": "high",
+  "deliverables": [
+   "All",
+   "Team",
+   "Repo"
+  ],
+  "problem": "One student places all trades, makes every student commit, runs all 10 AI routines on his Mac, receives every alert and Wharton email, and submits. The leader cannot be changed without Wharton approval. Illness, an exam or a missed Saturday-morning alarm could sink a no-extension deadline. Wharton also expects every member to share in trading and decisions.",
+  "evidence": [
+   "CLAUDE.md:14 \"Only Ray places/cancels WInS orders\"; COMPETITION.md:193",
+   "git log main (16 Oct 2026): 96 commits Ray, 45 Claude, no other student (all branches: 100 / 68)",
+   "ops/README.md:3 \"the routines that run on Ray's Mac\"; 10 files in ops/routines/scheduled_tasks/",
+   "ops/routines/WATCHER.md:21 \"send Ray a push notification\"",
+   "Rules & Roles lines 367, 391, 393 (live, accessed 16 Oct 2026): leader not changeable without advisor request; leader submits; all members \"placing trades through the team's shared WInS account\"",
+   "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:34 \"It should be a team decision. We strongly encourage teams to identify different roles for each team member.\""
+  ],
+  "fix": "Keep one keyboard for WInS safety, but make each trade a logged team decision with a second student reading the ticket back. Name a deputy who holds every final file and the checklist and is on call at each deadline. Submit 36-48 hours early (Thursday evening Sydney). Send alerts to the team chat. Check whether a second student can open SMApply; if not, the deputy watches each submission live.",
+  "confidence": "high",
+  "deadline": "Deputy named Sun 18 Oct; TNA submit Thu 22 Oct evening Sydney",
+  "new_vs_known": "known-deeper",
+  "lens": "L10_team_process",
+  "verdict": "adjusted",
+  "verifier_note": "Confirmed in substance. Corrections: git log on main shows 96 commits by Ray and 45 by Claude (100 and 68 across all branches), not 98; no other student appears in either. ops/README.md:3, scheduled task paths, WATCHER.md:21 push to Ray, Rules & Roles lines 367/391/393 and FAQ:34 'It should be a team decision.' all verified live or in repo. The 15 Oct brief already raised the single point of failure (final.md:101, :608), so known-deeper is right. Fix is allowed and practical."
+ },
+ {
+  "id": "TP-05",
+  "title": "Roles still blank on 16 Oct; the 28 Sep pre-mortem's failure story and tripwires have come true",
+  "severity": "high",
+  "deliverables": [
+   "Team",
+   "FinalReport",
+   "Finale"
+  ],
+  "problem": "Roles are still empty even on the 16 Oct branch, and the school's own pack asked teams to agree responsibilities before registering. The pre-mortem's imagined failure (gate slipped in the holidays, fills in week 2, one student up at 1 a.m.) matches the journal. Two of its tripwires have fired. The next is 'no full IPS draft by Mon 26 Oct'.",
+  "evidence": [
+   "team/google_drive/team_list.md:30-45 Roles column empty",
+   "caplet-latest/CLAUDE.md:83 \"(4) no roles assigned yet\"; :153 \"[ ] Team: assign roles\"",
+   "team/google_drive/team_list.md:129 \"Agreement on team responsibilities and availability during September–December\"",
+   "research/insight_v1/phase_E/E5_premortem.md:271-273 \"The gate meeting slipped during the school holidays; the first fills came in week 2 ... one student wrote every note at 1 a.m.\"",
+   "team/google_drive/final_report.md:27 \"Oct7: Eric fall in sleep because our time is freaking 12:30 AM that the market would open\"",
+   "research/insight_v1/phase_E/E5_premortem.md:290-291 tripwires \"A week with no logged meeting. One student's name on more than half the log entries.\""
+  ],
+  "fix": "Assign roles at the Sun 18 Oct meeting (lead, deputy, trader+checker, historian/AI-log keeper, rates analyst, growth/risk analyst, client lead, rules/format/privacy lead, editor; each with a backup; at most three per person). Every student owns one TNA reflection or IPS section, one Final Report section and one 60-second topic. Keep the table on the private Drive.",
+  "confidence": "high",
+  "deadline": "Sun 18 Oct",
+  "new_vs_known": "known-deeper",
+  "lens": "L10_team_process",
+  "verdict": "confirmed",
+  "verifier_note": "team_list.md roles column empty for all six; caplet-latest/CLAUDE.md:83 and :153 still say no roles; team_list.md:129 'Agreement on team responsibilities and availability during September–December'; E5_premortem.md:271-273 and :290-291 quoted correctly; journal line 27 records the 12:30 AM session. Known from the 15 Oct brief item 4 (known-deeper is right). Keep the role table on the private Drive, not the public repo."
+ },
+ {
+  "id": "TP-06",
+  "title": "School calendar: TNA ends Term 4 week 2, IPS week 4, Final Report two days after term ends; HSC window overlaps",
+  "severity": "medium",
+  "deliverables": [
+   "TNA",
+   "IPS",
+   "FinalReport",
+   "Team"
+  ],
+  "problem": "Trading and most research happened in the Knox holidays (26 Sep-12 Oct), and that time is over. Every deadline falls on a Saturday morning in Sydney. The Final Report is due Sat 5 Dec, after Knox's Presentation Day and last day of term (Thu 3 Dec), and the school letter needs an administrator's signature before staff leave. HSC exams run 13 Oct-5 Nov. Whether any member sits them is unverified. After 1 Nov the US open is 01:30 Sydney.",
+  "evidence": [
+   "Knox term dates (https://www.knox.nsw.edu.au/about/public-information/term-dates, accessed 16 Oct 2026): Term 3 concludes Fri 25 Sep; Term 4 commences Tue 13 Oct; Thu 3 Dec \"Presentation Day and Term 4 Concludes\"",
+   "NESA (https://www.nsw.gov.au/education-and-training/nesa/news/all/2026-hsc-timetables-released, accessed 16 Oct 2026): \"starting with English Paper 1 on Tuesday 13 October and finishing with Physics in the morning of Thursday 5 November\"",
+   "COMPETITION.md:15-24 deadlines in Sydney time; :132 school letter \"not yet requested as of 13 Oct\"",
+   "team/google_drive/final_report.md:27 night-trading fatigue"
+  ],
+  "fix": "Build one shared calendar of exams, assessments, commitments and travel (18 Oct-5 Dec and late Jan-Mar 2027). Set internal deadlines two days early, and give no writing task in a student's exam week. Ask the advisor for the school letter now, with a target of Fri 20 Nov. Make no trades after 1 Nov unless forced; if forced, set the order in Sydney daylight.",
+  "confidence": "high",
+  "deadline": "Calendar Sun 18 Oct; letter in hand Fri 20 Nov",
+  "new_vs_known": "known-deeper",
+  "lens": "L10_team_process",
+  "verdict": "adjusted",
+  "verifier_note": "Knox dates verified (Term 3 ends Fri 25 Sep; Term 4 starts Tue 13 Oct; Thu 3 Dec 'Presentation Day and Term 4 Concludes'; Fri 4 Dec staff day). NESA quote verified ('starting with English Paper 1 on Tuesday 13 October and finishing with Physics in the morning of Thursday 5 November'). Every deadline is a Saturday morning in Sydney: correct. But this is not new: the 28 Sep pre-mortem already flagged the holidays and the HSC window (E5_premortem.md:276-283) and the 15 Oct brief set the school-letter target of Fri 20 Nov (final.md item 10). Whether any member sits the HSC is UNVERIFIED. Lowered to medium; the school-letter part is shared with TP-20."
+ },
+ {
+  "id": "TP-07",
+  "title": "At least eight open team decisions with no meeting booked; 'settled' decisions do not reach the records",
+  "severity": "high",
+  "deliverables": [
+   "TNA",
+   "IPS",
+   "FinalReport",
+   "Team"
+  ],
+  "problem": "About six team decisions are open with no booked, agreed meeting: the three TNA picks, vote set A, vote set B (including floor size), the coupon-reinvestment option, the outcome of Darren's 5 Oct challenge, and the AI rule. Undecided items get decided by default, by the last editor or the AI. A settled decision also fails to spread: the journal says the name was settled as Root-and-Branch on 1 Oct and IPS V5 uses it, but the 'single source of truth' still says Roots First two weeks later.",
+  "evidence": [
+   "COMPETITION.md:110 \"Our suggested picks (team decides)\"",
+   "caplet-latest/CLAUDE.md:15-16 \"TEAM DECISION before 6 Nov: state the risk / keep Laura's half to 2042 / hold a buffer from the 2028 deposit\"",
+   "team/google_drive/notes_and_discussions.md:303 \"Team vote needed (D2/D6).\"",
+   "CLAUDE.md:165-166 gate votes unticked",
+   "team/google_drive/final_report.md:21 \"Strategy name settled as Root-and-Branch (earlier 'Roots First')\" vs COMPETITION.md:147 \"Our strategy (\"Roots First\")\" and :204"
+  ],
+  "fix": "Put the TNA picks, vote set A, Darren's challenge and the AI rule on the Sun 18 Oct agenda. Put vote set B, the coupon option, the floor size and the gate votes on Sun 25 Oct. Each decision gets a half-page options note from its student owner, with five decisions at most per meeting. After each vote, update one decisions register, COMPETITION.md and the AI memory file the same day.",
+  "confidence": "high",
+  "deadline": "Sun 18 Oct and Sun 25 Oct",
+  "new_vs_known": "known-deeper",
+  "lens": "L10_team_process",
+  "verdict": "adjusted",
+  "verifier_note": "Evidence verified (COMPETITION.md:110; caplet-latest/CLAUDE.md:15-16; notes_and_discussions.md:303; CLAUDE.md:165-166; final_report.md:21 vs COMPETITION.md:147 and :204). Two corrections. (1) The count double-counts: floor size is part of vote set B in the 15 Oct brief, the 'timid' floor question got a 1 Oct outcome (final_report.md:21), and the insight_v1 gate votes are settled in practice by the 6-8 Oct trades even though the box is unticked. About six distinct decisions are open. (2) Vote sets A and B were already scheduled in the 15 Oct brief (final.md items 11, 15, 19: picks Mon 19 Oct, set B Tue 27 Oct). This lens proposes Sun 18 and Sun 25 instead, so the team now has two AI schedules; it must pick one. IPS V5 already uses Root-and-Branch, so only COMPETITION.md lags."
+ },
+ {
+  "id": "TP-08",
+  "title": "Team-wide rules changed by one person in the AI's memory file, reversing the 15 Oct advice within a day",
+  "severity": "high",
+  "deliverables": [
+   "All",
+   "Team"
+  ],
+  "problem": "About 24 hours after the 15 Oct brief asked the whole team to agree that students write every submitted word, the leader alone changed the rule. The AI may now edit all three deliverables as [AI] suggestions, and the commit deleted 'the team does not submit them as they are' and 'not submission-ready prose'. The same commit added 13 AI rewrites of IPS V5. No team vote is recorded for this or for the earlier mandate and trading rule. An integrity breach lands on all six students (integrity detail is in L09 INT-01; this finding is about decision rights).",
+  "evidence": [
+   "caplet-latest/CLAUDE.md:27-30 \"Deliverable edits (Ray, 2026-10-16; replaces the old 'do not write the deliverables' rule)\"",
+   "CLAUDE.md:35-37 (removed on the branch) \"Assistant outputs are for inspiration and research; the team does not submit them as they are\"",
+   "caplet-latest/COMPETITION.md:142 \"Since 16 Oct (Ray's decision)\"",
+   "scratchpad oct14/final.md:33 item 1 \"Agree that students write every word that is submitted ... Whole team\"",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md (13 AI rewrites)",
+   "Rules & Roles line 559 (accessed 16 Oct 2026) \"grounds for dismissal\""
+  ],
+  "fix": "Agree a one-page team charter at the Sun 18 Oct meeting. Strategy, trades, the AI-use rule, what is submitted and the name need a logged whole-team vote. The section owner decides wording inside their section. The leader decides submission timing inside the agreed window. Read the Wharton AI text aloud before the AI-rule vote. The AI memory file only records team decisions, with date and vote.",
+  "confidence": "high",
+  "deadline": "Sun 18 Oct, before any [AI] suggestion is accepted into the TNA",
+  "new_vs_known": "new",
+  "lens": "L10_team_process",
+  "verdict": "confirmed",
+  "verifier_note": "Verified in git show 412e9e3: CLAUDE.md lines replaced ('Do NOT write the Trading Notes, IPS or Final Report' and 'Assistant outputs are for inspiration and research; the team does not submit them as they are' removed); COMPETITION.md:142 'Since 16 Oct (Ray's decision)'; IPS_v5_suggestions.md has 13 rows (its own text says 'twelve'). No team vote is recorded anywhere. The 15 Oct brief's first action was 'Agree that students write every word that is submitted' (final.md:33). Commit time 01:24 UTC 16 Oct is about a day after that brief. Integrity side is L09 INT-01; this finding is decision rights only. Fix (charter, logged vote) is allowed and contains no prose."
+ },
+ {
+  "id": "TP-09",
+  "title": "The team's rule documents now contradict each other on who writes the deliverables",
+  "severity": "medium",
+  "deliverables": [
+   "All",
+   "Team",
+   "Repo"
+  ],
+  "problem": "The team's rule files disagree on who writes the deliverables. On the 16 Oct branch, START_HERE says the team writes everything and AI is research only, while CLAUDE.md and COMPETITION.md say the AI may suggest wording. Main (where most sessions start) still has the old rule, because the branch is not merged. The routines on Ray's Mac read a third rules file in a private memory folder. A student following START_HERE, an AI session on main, and an AI session on the branch will follow different rules, and on 4 Dec the team may not agree on what to disclose in the Works Cited.",
+  "evidence": [
+   "caplet-latest/START_HERE.md:26 \"The team writes all deliverables (TNA, IPS, Final Report). AI output here is research and checking only\"",
+   "caplet-latest/CLAUDE.md:27-30 AI may edit as [AI] suggestions; main CLAUDE.md still says \"Do NOT write the Trading Notes, IPS or Final Report\"",
+   "caplet-latest/COMPETITION.md:142-144 \"Claude may edit the IPS, Trading Notes and Final Report\"",
+   "git: 412e9e3 is only on branch claude/fervent-edison-sqk1ry (not merged to main)",
+   "ops/routines/JUDGE.md:10 loads \"<Claude memory folder>/MEMORY.md\"; ops/routines/WATCHER.md:19 compares against \"<Claude memory folder>/wharton-2026-27-official-rules.md\""
+  ],
+  "fix": "Choose one rule by team vote (TP-08) and copy it word for word into START_HERE, COMPETITION and CLAUDE.md the same day. Whatever the rule, the AI-use log records every AI suggestion and whether it was accepted, so the Works Cited can be exact.",
+  "confidence": "high",
+  "deadline": "Sun 18 Oct",
+  "new_vs_known": "new",
+  "lens": "L10_team_process",
+  "verdict": "adjusted",
+  "verifier_note": "Contradiction confirmed: caplet-latest/START_HERE.md:26 'The team writes all deliverables (TNA, IPS, Final Report). AI output here is research and checking only' vs caplet-latest/CLAUDE.md:27-30 and COMPETITION.md:142-144. docs/AI_USE.md:65 is a dated 29 Sep log entry, not a rule, so it is dropped as evidence. Added: the new rule exists only on the unmerged branch claude/fervent-edison-sqk1ry, so main's CLAUDE.md still says 'Do NOT write'; and the scheduled routines load a separate rules memory on Ray's Mac (JUDGE.md:10, WATCHER.md:19). That makes at least three rule stores. Lowered from high to medium because TP-08 carries the decision-rights risk."
+ },
+ {
+  "id": "TP-10",
+  "title": "Nobody owns the numbers: $294,453 vs $298,624 ladder cost on the same 15 Oct curve (reason and which to use)",
+  "severity": "high",
+  "deliverables": [
+   "IPS",
+   "TNA",
+   "FinalReport",
+   "Team"
+  ],
+  "problem": "Two AI pipelines a day apart gave two ladder costs on the same 15 Oct curve, and no student owns the basis. The number sheet ($294,453, room $5,547) discounts each $50k to its 1 Jan payment date with forward rates. L08 ($298,624, room $1,376 or 4.7bp) prices the actual WInS holdings at their earlier maturity dates, with the early cash earning nothing and yields unchanged. Both sums are right on their own basis. Because the team's own trade notes say early proceeds wait in a short-term Treasury ETF, about $294.5k-$295k (room about $5k, 16-19bp) is the fair figure for what the plan costs. About $298.6k (4.7bp) is the cautious bound and the like-for-like check on the IBTR note's 0.2-point trigger. The '1 in 3' odds are fair on the market-rate basis; 45% applies only if early cash earns 0%.",
+  "evidence": [
+   "caplet-latest/research/ips_numbers_2026-10/results.json ladder_cost_bootstrap_headline: cost 294453, headroom 5547",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:13-14 \"about $294,000\" / \"about $5,500\" / \"1 case in 3\"",
+   "scratchpad oct16/lenses/L08/series_live.csv row for 2026-10-15: \"2026-10-15,buyable,297778,2222,7.7,298624,1376,4.7\"",
+   "scratchpad oct16/lenses/L10/calc/basis.py re-run 16 Oct: payment-date zeros 294453; holding-maturity zeros with idle cash 297841",
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:16-17 Feb-2037 and May-2038 notes: proceeds \"held in a short-term Treasury ETF\"",
+   "scratchpad oct16/verify/L08_coherence_numbers_verify.md 'The number conflict' table: odds about 28-33% on market-rate bases, 44-45% on the 0% basis",
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:15 IBTR note \"more than about 0.2 percentage points\""
+  ],
+  "fix": "A student rates analyst owns one dated numbers sheet with two named lines: (1) 'plan cost', with payment dates and early cash in a short Treasury ETF, for the IPS and Final Report; (2) 'IBTR trigger check', on the holding-date basis the note used, for the TNA reflection. They re-run it on fixed dates (20 Oct close for the TNA; 6 Nov close for the IPS) and are the only source writers quote. The rates analyst can explain the $294k vs $298k gap in 60 seconds: earlier maturities, and what the early cash earns.",
+  "confidence": "high",
+  "deadline": "Basis agreed Sun 18 Oct; TNA figure dated 20 Oct; IPS figure 6 Nov close",
+  "new_vs_known": "new",
+  "lens": "L10_team_process",
+  "verdict": "adjusted",
+  "verifier_note": "The diagnosis is right; the recommendation is not. I re-ran calc/basis.py on the official 15 Oct par curve (caplet-latest/competition/official_market_data/daily-treasury-rates_2026-10.csv): payment-date zeros carried to 1 Jan 2027 = $294,453 (matches results.json); zeros at the WInS holding maturities with the early cash left idle = $297,841. L08's $298,624 is the same holding-date method on a 'yields unchanged' basis. The gap is about $3.4k from early cash earning nothing between each maturity and its payment, and about $0.8k from forward vs unchanged. But the team's own WInS notes say early proceeds wait in a short-term Treasury ETF (05_trading_note_reflection_wins_trading_notes.md, Feb-2037 and May-2038 notes). Cash that earns market short rates brings the holding-date cost back to roughly the payment-date figure. So about $294.5k-$295.3k (room about $4.7k-$5.5k, 16-19bp) is the right figure for 'what the ten payments cost' in the IPS and Final Report. $298.6k (room $1.4k, 4.7bp) is a conservative bound, and it is the like-for-like check for the IBTR note's 'about 0.2 percentage points' trigger, which was stated on that holding-date basis (22.7bp on 6 Oct). The '45%' top-up odds hold only on the 0%-cash basis; on market-rate bases the L08 verifier got about 28-33%, so '1 in 3' is fair. Severity stays high: the TNA quotes a dated figure in 7 days and notes cannot be edited."
+ },
+ {
+  "id": "TP-11",
+  "title": "Advice overload: about 745,000 words of AI research; advice is not turning into action",
+  "severity": "medium",
+  "deliverables": [
+   "Team",
+   "Repo"
+  ],
+  "problem": "research/ holds 537,267 words, rab/ 181,418 and docs/ 26,616. On top of that sit an 831-page record, a 27-page brief, a 30 Sep review and a 15 Oct brief with 30 actions. That is about 50 hours of reading per student. The core process advice was already given on 28 Sep and not acted on. More reports make the AI more central and are not read.",
+  "evidence": [
+   "wc -w over research/, rab/, docs/ .md/.txt/.yaml (16 Oct 2026): 537,267 / 181,418 / 26,616",
+   "find research rab -name '*.md' = 162 files",
+   "scratchpad oct14/final.md 10,761 words, 30 numbered actions; scratchpad REPORT.md 5,659 words",
+   "research/insight_v1/phase_E/E5_premortem.md:85 PM-05 \"Roles and a shared exam/travel calendar this week; internal deadlines two days early\""
+  ],
+  "fix": "At most one page of AI input per role per week, chosen by that student, and five team actions per week, picked at the weekly meeting. AI is pull, not push: it answers only a named student's question, with a number, a check or a list of problems. Nobody reads the 831-page record; each analyst reads the one page behind the numbers they own.",
+  "confidence": "high",
+  "deadline": "From Sun 18 Oct",
+  "new_vs_known": "new",
+  "lens": "L10_team_process",
+  "verdict": "adjusted",
+  "verifier_note": "Word counts reproduced exactly (537,267 / 181,418 / 26,616; 162 .md files; final.md 10,761 words with 30 actions; REPORT.md 5,659). PM-05 at E5_premortem.md:85 verified. The point is fair, but lowered from high to medium: reading load does not itself block the Top 50, and the real harms (ownership, decisions) are carried by TP-01/TP-07. This lens itself adds about 62k characters and 22 findings, 11 of them due Sun 18 Oct (see V-02)."
+ },
+ {
+  "id": "TP-12",
+  "title": "Information reaches one person; the other five see snapshots",
+  "severity": "medium",
+  "deliverables": [
+   "Team",
+   "Finale"
+  ],
+  "problem": "Wharton emails, rule-watch alerts and live routine copies all reach one person. The team sees 14 Oct exports. The 6 Oct email that changed the plan basis is not filed in full. The only sign of another student in GitHub is a fork with no pushes. Students who did not see a change cannot explain it later, and the journal misses it.",
+  "evidence": [
+   "Rules & Roles line 391 (accessed 16 Oct 2026) leader is \"receiving Competition communications and notifications\"",
+   "ops/routines/WATCHER.md:21; ops/README.md:9 \"The live copies are in ~/Research/caplet-monitor/\"",
+   "START_HERE.md:29 \"those are snapshots from 14 Oct\"",
+   "GitHub API forks metadata (accessed 16 Oct 2026): created 2026-10-15T22:10:20Z, pushed_at 2026-10-15T22:10:24Z (owner not named)"
+  ],
+  "fix": "The rules lead posts a five-line digest in the team chat every Sunday (what changed, what was decided, what is due, who owns it, any Wharton email forwarded in full). The historian copies it into the ledger.",
+  "confidence": "medium",
+  "deadline": "First digest Sun 18 Oct",
+  "new_vs_known": "new",
+  "lens": "L10_team_process",
+  "verdict": "confirmed",
+  "verifier_note": "Rules & Roles line 391 verified live; WATCHER.md:21 and ops/README.md:9 '~/Research/caplet-monitor/' verified; START_HERE.md:29 'snapshots from 14 Oct' verified; the 6 Oct email exists only as a one-sentence quote (COMPETITION.md:87-90). GitHub API (16 Oct): fork created 2026-10-15T22:10:20Z, pushed_at 22:10:24Z (owner not named). Medium is fair."
+ },
+ {
+  "id": "TP-13",
+  "title": "Darren's 5 Oct challenge has no recorded outcome; the 1 Oct floor decision has no recorded reasons",
+  "severity": "medium",
+  "deliverables": [
+   "IPS",
+   "FinalReport",
+   "Strategy",
+   "Team"
+  ],
+  "problem": "The team's best documented internal debate, Darren's 5 Oct view that the world fund is a 'copout' (with stock picking, EWT and GLD raised), has 'Outcome and reasons: [fill in]'. The earlier 'too timid' question got an AI recommendation on 29 Sep and a 1 Oct journal line saying the model check backed the $150k floor, but no student reasons or vote are logged. At the semifinal, a student who still disagrees could say so.",
+  "evidence": [
+   "team/google_drive/final_report.md:23 \"Darren argued the world fund is a 'copout' ... Outcome and reasons: [fill in]\"",
+   "team/google_drive/notes_and_discussions.md:101 \"too timid\"",
+   "team/google_drive/notes_and_discussions.md:282 \"Would buying a smaller floor in 2028 and putting more in stocks give Laura a better deal?\"",
+   "team/google_drive/notes_and_discussions.md:303 \"AI recommendation: keep the $150k floor ... Team vote needed (D2/D6).\""
+  ],
+  "fix": "At the Sun 25 Oct meeting, whoever holds the 'more stock / EWT / GLD' view presents it, and the growth/risk analyst answers with refreshed numbers. The team votes and logs 'disagree and commit' if needed. Success means every student can state the strongest case for more stock and the team's answer. If persuaded, change the plan before 6 Nov.",
+  "confidence": "high",
+  "deadline": "Sun 25 Oct; before the 6 Nov freeze",
+  "new_vs_known": "known",
+  "lens": "L10_team_process",
+  "verdict": "adjusted",
+  "verifier_note": "Quotes verified (final_report.md:23; notes_and_discussions.md:101, :282, :303). Correction: the smaller-floor test is dated 29 Sep (notes:280), and the journal records a 1 Oct outcome, 'model check backed the $150k floor and 50/50 split' (final_report.md:21). So the floor question was decided, though without logged reasons or a vote count. What is truly open is Darren's 5 Oct 'copout' challenge (stock picking, EWT, GLD), which came after that. Already raised in the 15 Oct brief (final.md:613) and in L05 TNA-08, so known. Lowered to medium."
+ },
+ {
+  "id": "TP-14",
+  "title": "The written 'lessons from last year' leave out every process lesson, and four patterns are back",
+  "severity": "medium",
+  "deliverables": [
+   "Team",
+   "FinalReport"
+  ],
+  "problem": "CLAUDE.md lists only 'over-complex' and 'traded outside the rules'. Last year's doc also shows a hub-and-spoke leader, ChatGPT-iterated drafts, an AI-judge tab, empty logs, an AI post-mortem that said to assign an Editor, deadline-eve invented-story comments and post-midterm drift. Hub-and-spoke, AI-iterated drafts, AI judging and empty logs are already repeating.",
+  "evidence": [
+   "CLAUDE.md:40-42 two lessons only",
+   "team/google_drive/2025_knox_wharton.md:3870 \"I will pool the candidates here and you guys filter\"",
+   "team/google_drive/2025_knox_wharton.md:3846 \"developed from report version 2 with critiques and feedbacks provided by ChatGPT\"",
+   "team/google_drive/2025_knox_wharton.md:3128 \"Final Report AI Judge\"; ops/routines/JUDGE.md:24 five AI judges",
+   "team/google_drive/2025_knox_wharton.md:3389 \"Assign a dedicated 'Editor' role\""
+  ],
+  "fix": "At the Sun 18 Oct meeting, the six students write their own process-lessons list (not AI), each with a tripwire. Examples: one name on more than half a week's entries; no full draft five days before a deadline; any 'expand the story' comment; a rule changed without a vote.",
+  "confidence": "high",
+  "deadline": "Sun 18 Oct",
+  "new_vs_known": "known-deeper",
+  "lens": "L10_team_process",
+  "verdict": "adjusted",
+  "verifier_note": "Evidence verified (CLAUDE.md:40-42; 2025_knox_wharton.md:3870, :3846, :3128 'Final Report AI Judge', :3389 'Assign a dedicated \"Editor\" role'; JUDGE.md:22 'Run 5 independent judges'). The pattern claim is fair. Lowered from high to medium because each repeating pattern is already its own finding (TP-02, TP-04, TP-08, V-01); this one is the summary."
+ },
+ {
+  "id": "TP-15",
+  "title": "The team's idea of 'what judges want' (MPT, D/E, Sharpe, HAR) does not match its own strategy",
+  "severity": "medium",
+  "deliverables": [
+   "IPS",
+   "FinalReport"
+  ],
+  "problem": "The team plans 'textbook models' including company D/E metrics and modern portfolio theory for a held Treasury ladder plus one world fund. Stock metrics have no role, and a volatility model has no decision to inform. This repeats last year's over-complexity, and it suggests some students still picture a stock-picking contest.",
+  "evidence": [
+   "team/google_drive/notes_and_discussions.md:270 \"simple textbook models e.g., monte carlo, modern portfolio theory, company metrics (sharpe, D/E, etc)\"",
+   "team/google_drive/notes_and_discussions.md:271 \"Eric's HAR model or some random ass quant model ... (don't show on the report)\"",
+   "CLAUDE.md:40 \"strategy packaging was over-complex for the insight\""
+  ],
+  "fix": "Keep a 'tools we actually used to decide' list: each tool names the decision it changed, and anything that changed nothing stays out. A student's own model may get one honest line if it truly tested something.",
+  "confidence": "high",
+  "deadline": "Final Report outline, Sun 15 Nov",
+  "new_vs_known": "new",
+  "lens": "L10_team_process",
+  "verdict": "confirmed",
+  "verifier_note": "notes_and_discussions.md:270-271 verified verbatim. A held Treasury ladder plus one world fund gives company D/E no job. Medium is fair. The fix is a checklist, not prose."
+ },
+ {
+  "id": "TP-16",
+  "title": "24 project-management techniques listed; the ones in use were run by AI, the student-run ones are not running",
+  "severity": "low",
+  "deliverables": [
+   "Team",
+   "FinalReport"
+  ],
+  "problem": "Strategy Notes lists 24 techniques. Several exist in the repo (pre-mortem, red team, stage gates, assumption map), but AI ran them. The ones only students can run (decision journal, retrospectives, RAID log) leave no trace: the PM Dashboard is empty and the Trade Log is blank. Judges reward 'we did X and it caught Y', told honestly, including who did it.",
+  "evidence": [
+   "team/google_drive/strategy_notes.md:30-53 (24 techniques incl. \"Dependency Mapping ... Especially useful for finding single points of failure\")",
+   "team/google_drive/sheets/pm_dashboard/sheet1.csv 0 bytes",
+   "team/google_drive/sheets/portfolio_and_trading_notes/trade_log.csv empty rows"
+  ],
+  "fix": "Run three for real: the decision journal (ledger), a 10-minute retrospective after each deliverable, and a RAID-lite list reviewed each meeting. Each leaves an artefact for the Final Report.",
+  "confidence": "high",
+  "deadline": "First retrospective Sun 25 Oct (after the TNA)",
+  "new_vs_known": "new",
+  "lens": "L10_team_process",
+  "verdict": "adjusted",
+  "verifier_note": "The list has exactly 24 techniques (strategy_notes.md:30-53), the dashboard is 0 bytes and the trade log is blank. But 'none visibly in use' is false: a pre-mortem (research/insight_v1/phase_E/E5_premortem.md, rab/premortem.md), red teams (rab/redteam/), stage gates (rab/gates/gate_A-D) and assumption mapping (rab/assumptions.md) all exist. They were run by AI, not by the students. The real point is that the student-run ones (decision journal, retrospective, RAID log) are not running. Lowered to low; it overlaps TP-02."
+ },
+ {
+  "id": "TP-17",
+  "title": "The decision story is murky but salvageable: growth-first, tested, changed",
+  "severity": "medium",
+  "deliverables": [
+   "FinalReport",
+   "Finale"
+  ],
+  "problem": "One team doc credits the AI council. The 27 Sep notes labelled 'student-authored' already framed the case as liability matching and leaned to locking part early. The switch from growth-first came from a test showing payment shortfalls. This is exactly the 'decision-making process' and 'response to challenges' story, but only if it is true and AI's role is stated at each step. Authorship of the 27 Sep notes is unverified.",
+  "evidence": [
+   "team/google_drive/notes_and_discussions.md:69 \"The idea came from our AI council run on 27 September.\"",
+   "research/council_2026-09-27/team_notes_2026-09-27.md:2 \"Student-authored brainstorming\"; :38 \"lock part now and raise it by rules (author leans to this)\"; :40 \"In 2031 promise a floor then protect it\"",
+   "CLAUDE.md:70 \"Growth-first ... failed: 3-8% payment shortfall\""
+  ],
+  "fix": "The historian rebuilds 27 Sep-7 Oct from Doc version history, chat and commit dates: who proposed what, what AI produced, which test changed minds, what was rejected, with AI labelled at each step. Success is a one-page true timeline all six agree with.",
+  "confidence": "medium",
+  "deadline": "Sun 25 Oct",
+  "new_vs_known": "new",
+  "lens": "L10_team_process",
+  "verdict": "confirmed",
+  "verifier_note": "notes_and_discussions.md:69 and research/council_2026-09-27/team_notes_2026-09-27.md:2, :38, :40 verified verbatim; CLAUDE.md:70 verified. Authorship of the 27 Sep notes is correctly marked UNVERIFIED. Medium is fair."
+ },
+ {
+  "id": "TP-18",
+  "title": "Real, specific experience material exists and is not being captured",
+  "severity": "medium",
+  "deliverables": [
+   "FinalReport",
+   "Finale"
+  ],
+  "problem": "The team has checkable moments most teams will not have, but they sit scattered or unlogged, losing who did what and why. They include night trading from Sydney, the 7 Oct AI mis-click and new rule, WInS quirks (no 2031-36 Treasuries, IBTN, stale prices, the coupon date, the pie chart), the sector-rule false alarm, the 5 Oct reserve catch, the 6 Oct email, and the ladder cost rising $4.6k in a week.",
+  "evidence": [
+   "team/google_drive/final_report.md:17-27",
+   "COMPETITION.md:92-100 WInS quirks; :192-193 7 Oct incident; :87-90 6 Oct email",
+   "caplet-latest/research/ips_numbers_2026-10/results.json: 2026-10-09 cost 289893; 2026-10-15 cost 294453"
+  ],
+  "fix": "The historian logs each one: date, who found it (student or AI, honestly), action, lesson, artefact. Pick two or three for the Final Report; depth beats a list.",
+  "confidence": "high",
+  "deadline": "Ledger back-fill by Sun 25 Oct",
+  "new_vs_known": "new",
+  "lens": "L10_team_process",
+  "verdict": "confirmed",
+  "verifier_note": "final_report.md:17-27 and COMPETITION.md:87-100, :192-193 verified; results.json shows $289,893 (9 Oct) and $294,453 (15 Oct), a rise of $4,560. The fix asks for honest attribution (student or AI), which matters because the 7 Oct incident was an AI browser click (COMPETITION.md:192)."
+ },
+ {
+  "id": "TP-19",
+  "title": "Self-scoresheet drops two of three parts of the Articulation criterion; AI mock judges inherit the gap",
+  "severity": "medium",
+  "deliverables": [
+   "FinalReport",
+   "TNA"
+  ],
+  "problem": "The team's scoresheet tests only 'a decision that supported, tested or refined' and 'a real change or discovery'. It does not test teamwork, communication, learning, growth or response to challenges, so the AI mock judges that load it will not test them either.",
+  "evidence": [
+   "team/Winning Team Portrait and Scoresheet.md:103-107 (two Articulation questions only)",
+   "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:58 \"Demonstrates teamwork, communication, and learning; ... reflects meaningfully on the team's growth and response to challenges.\"",
+   "ops/routines/JUDGE.md:11 loads the scoresheet; :30 \"0-3 per scoresheet question\""
+  ],
+  "fix": "Add questions on how work was divided and communicated, one real conflict and its resolution, what each student learned, and how the process changed after a mistake. Score against the official words.",
+  "confidence": "high",
+  "deadline": "Before the Final Report outline, Sun 15 Nov",
+  "new_vs_known": "new",
+  "lens": "L10_team_process",
+  "verdict": "confirmed",
+  "verifier_note": "Scoresheet section 4 has only the two questions (Winning Team Portrait and Scoresheet.md:103-107); the official criterion (deliverables.txt:58) reads 'Demonstrates teamwork, communication, and learning; clearly explains the team's research and decision-making process; and reflects meaningfully on the team's growth and response to challenges.' JUDGE.md:11 loads the scoresheet. Note the scoresheet itself is AI-drafted (docs/AI_USE.md:63), see V-01."
+ },
+ {
+  "id": "TP-20",
+  "title": "Advisor: school letter before term ends, a possible advisor reflection, one advisor may serve four Knox teams",
+  "severity": "medium",
+  "deliverables": [
+   "FinalReport",
+   "Team"
+  ],
+  "problem": "Last year's Final Report had an advisor reflection section; whether this year's does is unverified. Four Knox teams (21 students) appear on the team list; whether they share one advisor is unverified, but if so, letters and reflections pile up in the last week of term. The letter was not requested as of 13 Oct, and there is no record of updates to the advisor, whose duties include monitoring engagement.",
+  "evidence": [
+   "team/google_drive/2025_knox_wharton.md:84-86 \"SECTION 2: ADVISOR AND TEAM REFLECTIONS\"",
+   "team/google_drive/team_list.md:32-52 four teams, 21 students",
+   "COMPETITION.md:132 \"not yet requested as of 13 Oct\"",
+   "Rules & Roles lines 421, 425 (accessed 16 Oct 2026): \"Monitoring team engagement and portfolio activity\"; \"An Advisor may oversee a maximum of five teams\""
+  ],
+  "fix": "Send the advisor a five-line update every second Sunday. Ask for the letter now and aim to hold it by Fri 20 Nov. If an advisor reflection is required, give the advisor the evidence ledger; the advisor writes it, not the team or AI.",
+  "confidence": "medium",
+  "deadline": "Letter request this week; letter in hand Fri 20 Nov; submit by Wed 2 Dec",
+  "new_vs_known": "known-deeper",
+  "lens": "L10_team_process",
+  "verdict": "confirmed",
+  "verifier_note": "2025_knox_wharton.md 'SECTION 2: ADVISOR AND TEAM REFLECTIONS' verified (around line 84); four Knox teams with 5+6+4+6 = 21 students (team_list.md); COMPETITION.md:132 'not yet requested as of 13 Oct'; Rules & Roles 'Monitoring team engagement and portfolio activity' and 'An Advisor may oversee a maximum of five teams' verified live. Whether this year's Final Report has an advisor section, and whether one advisor serves all four teams, are correctly marked UNVERIFIED. Known-deeper (final.md item 10)."
+ },
+ {
+  "id": "TP-21",
+  "title": "Outside readers: last year an outside reviewer steered the narrative on deadline eve",
+  "severity": "medium",
+  "deliverables": [
+   "FinalReport",
+   "IPS"
+  ],
+  "problem": "Last year an outside reviewer of unknown role left content-steering comments on 11 Dec 2025, and drafts were marked as explicitly developed from that feedback. Unpaid secondary advisers are allowed, but work must not come from 'unofficial' advisors. A reader who tells you what story to tell is steering authorship.",
+  "evidence": [
+   "team/google_drive/2025_knox_wharton.md:3864 \"work on a strategy that aims to overdeliver on the goal\"; :3886 \"the long story of how a leader eventually decided to step up\"",
+   "team/google_drive/2025_knox_wharton.md:3812 \"This draft was refined explicitly based on [the reviewer's] feedback\"",
+   "Rules & Roles lines 427, 559 (accessed 16 Oct 2026)"
+  ],
+  "fix": "Outside readers give scores against the official criteria and questions only, with no suggested sentences or story ideas. Keep a list of who read what and when, with confirmation they were unpaid.",
+  "confidence": "high",
+  "deadline": "Before the first outside read (TNA, Wed 21 Oct)",
+  "new_vs_known": "known-deeper",
+  "lens": "L10_team_process",
+  "verdict": "adjusted",
+  "verifier_note": "Comments verified (2025_knox_wharton.md:3812, :3864, :3886, all dated 2025-12-11). An outside reader is planned this year (scoresheet line 121; final.md item 17, Wed 21 Oct), so the guardrail is timely. But unpaid secondary advisors are allowed (Rules & Roles line 427), and there is no sign of steering this year. Lowered from high to medium. Keep the reviewer unnamed."
+ },
+ {
+  "id": "TP-22",
+  "title": "The school's information pack has the wrong portfolio size and omits the TNA",
+  "severity": "low",
+  "deliverables": [
+   "TNA",
+   "Team"
+  ],
+  "problem": "The pack in the shared Team List doc says $500,000 (this year is $300,000), and its key dates leave out the 23 Oct Trading Notes Analysis. Caplet tracks the TNA elsewhere, but the advisor, parents or other Knox teams relying on the pack could miss a scored deliverable.",
+  "evidence": [
+   "team/google_drive/team_list.md:69 \"Teams manage a $500,000 virtual portfolio\"",
+   "team/google_drive/team_list.md:101-103 key dates: roster, IPS, Final Report only",
+   "COMPETITION.md:20 \"Trading Notes Analysis (TNA) | Fri 23 Oct\""
+  ],
+  "fix": "The rules lead tells the advisor so the shared pack is corrected for all Knox teams.",
+  "confidence": "high",
+  "deadline": "This week (before Fri 23 Oct ET)",
+  "new_vs_known": "known",
+  "lens": "L10_team_process",
+  "verdict": "adjusted",
+  "verifier_note": "Verified: team_list.md:69 '$500,000 virtual portfolio'; key dates (team_list.md:101-103) omit the TNA. But the 15 Oct brief already raised exactly this (final.md item 29 and line 248), so it is not new. Kept at low as a reminder only."
+ },
+ {
+  "id": "V-01",
+  "title": "Closed AI loop: AI wrote the scoresheet, AI suggests the wording, AI judges score it",
+  "severity": "medium",
+  "deliverables": [
+   "TNA",
+   "IPS",
+   "FinalReport",
+   "Team"
+  ],
+  "problem": "The team's quality bar is AI-made: the self-scoresheet was drafted by Claude on 29 Sep. Five scheduled AI judges score drafts against that scoresheet and return 'top 3 fixes'. Since 16 Oct, AI may also suggest the wording. The same system now sets the bar, writes text and marks it. Drafts drift toward what an AI rewards, gaps in the scoresheet (TP-19) are never caught, and the 'authentic team voice' Wharton asks for gets weaker. The only independent human check is one planned outside reader.",
+  "evidence": [
+   "caplet-latest/docs/AI_USE.md:63 (2026-09-29) Claude \"drafted a self-scoresheet from the official 2026-27 Guide, IPS and Trading Note instructions\"",
+   "team/Winning Team Portrait and Scoresheet.md:3 \"AI-assisted research (Claude Code)\"",
+   "ops/routines/JUDGE.md:11 loads the scoresheet; :22 \"Run 5 independent judges\"; returns \"0-3 per scoresheet question ... the top 3 fixes\"",
+   "caplet-latest/CLAUDE.md:27-30 AI may now suggest deliverable wording",
+   "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:59 Creativity criterion: \"in an authentic team voice\""
+  ],
+  "fix": "Humans score first: two students and the outside reader mark each draft against the official criterion text (copied from deliverables.txt, not the AI scoresheet) before any AI judge runs. Students rewrite the Articulation questions in the scoresheet themselves. Any AI judge output is a list of problems only; no AI-written fixes go into a draft that AI-suggested wording also touched.",
+  "deadline": "Before the TNA outside read, Wed 21 Oct",
+  "new_vs_known": "new",
+  "confidence": "medium",
+  "lens": "L10_team_process",
+  "verdict": "verifier-added",
+  "verifier_note": "Added by verifier; evidence checked in repo on 16 Oct 2026."
+ },
+ {
+  "id": "V-02",
+  "title": "The process fixes are now too many for one meeting, and two AI schedules disagree",
+  "severity": "medium",
+  "deliverables": [
+   "TNA",
+   "Team"
+  ],
+  "problem": "This lens alone puts 11 findings on Sun 18 Oct (roles, deputy, calendar, decisions, charter, AI-rule vote, rule files, number basis, AI-input limit, digest, lessons list). It also says no more than five team actions a week. The 15 Oct brief set a different calendar: picks vote Mon 19 Oct, reflections Tue 20, vote set B Tue 27 Oct. This lens says Sun 18 and Sun 25. A school-week meeting cannot do all of it, and the TNA (due in 7 days) could lose out to process work.",
+  "evidence": [
+   "scratchpad oct16/lenses/L10_team_process.findings.json: 11 of 22 findings give Sun 18 Oct as the deadline; TP-11 fix \"five team actions per week\"",
+   "scratchpad oct14/final.md items 15, 16, 19 (picks Mon 19 Oct; reflections Tue 20 Oct; vote set B Tue 27 Oct)",
+   "Knox term dates (https://www.knox.nsw.edu.au/about/public-information/term-dates, accessed 16 Oct 2026): Term 4 started Tue 13 Oct"
+  ],
+  "fix": "Before Sun 18 Oct the leader and one other student pick one calendar. Sun 18 agenda, at most five items: (1) the three TNA picks and a named student author for each reflection; (2) the AI rule for the TNA (vote and log it); (3) the deputy and the submit time; (4) who owns the dated ladder figure; (5) book the next meeting. Everything else waits until after the TNA is submitted.",
+  "deadline": "Sat 17 Oct (agree the agenda); Sun 18 Oct meeting",
+  "new_vs_known": "new",
+  "confidence": "high",
+  "lens": "L10_team_process",
+  "verdict": "verifier-added",
+  "verifier_note": "Added by verifier; evidence checked in repo on 16 Oct 2026."
+ },
+ {
+  "id": "V-03",
+  "title": "TNA critical path has no named students: 0 reflection words in the 14 Oct export, every step needs an unassigned role",
+  "severity": "high",
+  "deliverables": [
+   "TNA",
+   "Team"
+  ],
+  "problem": "In the 14 Oct export, both TNA reflection tabs hold only Wharton's instructions (68 and 30 words), so no reflection was drafted 9 days out. The picks are not decided. Every step of the TNA plan (fill the Trade Log, re-price the ladder figure, vote the picks, write three reflections, outside read, paste-check, submit) needs a role, and no roles are assigned. Only Ray can submit. The live Google Doc may have moved on since 14 Oct (UNVERIFIED), but nothing in the repo shows it.",
+  "evidence": [
+   "team/google_drive/ips_report/04_trading_note_reflection.md (68 words: Wharton's instructions only, exported 2026-10-14)",
+   "team/google_drive/ips_report/06_trading_note_reflection_deliverables.md (30 words)",
+   "team/google_drive/team_list.md Roles column empty for all six Caplet students",
+   "COMPETITION.md:110 \"Our suggested picks (team decides)\"",
+   "team/google_drive/sheets/portfolio_and_trading_notes/trade_log.csv headers and empty rows",
+   "Rules & Roles line 391 (live, 16 Oct 2026): the leader is responsible for \"submitting team deliverables through SurveyMonkey Apply\""
+  ],
+  "fix": "By Sun 18 Oct, name one student for each step: trade-log filler, ladder-figure owner, three reflection authors (no student writes two), editor/word-counter, character-by-character paste checker, and submit with a watcher. Set an internal finish of Thu 22 Oct evening Sydney. If a reflection has no author by Mon 19 Oct, swap that pick for a trade a willing author can explain.",
+  "deadline": "Owners Sun 18 Oct; internal submit Thu 22 Oct evening Sydney; hard deadline Sat 24 Oct 08:00 Sydney",
+  "new_vs_known": "known-deeper",
+  "confidence": "high",
+  "lens": "L10_team_process",
+  "verdict": "verifier-added",
+  "verifier_note": "Added by verifier; evidence checked in repo on 16 Oct 2026."
+ }
+]

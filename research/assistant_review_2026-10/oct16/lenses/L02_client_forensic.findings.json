@@ -1,0 +1,445 @@
+{
+ "file": "oct16/lenses/L02_client_forensic.md",
+ "summary": "I read the case line by line and checked 57 elements against what Caplet has written. Caplet gets the cash flows, the payment-first priority and the credibility logic right. It under-answers the case's \"define / explain / state / justify\" asks, and it nearly ignores flexibility, \"meaningful\" and what the residency actually is. IPS V5 uses the case's key concepts zero times: \"flexibility\" (5 times in the case, 6 in the IPS brief), \"responsibly\" (4 and 3) and \"liquidity\" (1 and 4). V1 to V3 had a certainty definition and \"a responsible facility contribution that leaves Laura flexibility\"; V5 dropped both. \"The half Laura keeps\" does three jobs in V5: first cover for payment shortfalls, a cushion for costs and co-sponsor gaps, and the defence against inflation and the Taiwan dollar. Across the repo it is invested three different ways (equity in V5, T-bills in ips_spec, Treasuries to 2042 in D6). In a 1-in-20 bad market it is only about $15-17k (MODEL), below the team's own cited $25k reserve benchmark. The operating-reserve and certainty ask has six explicit parts, and V5 answers about one and a half. The 2031 range needs a dollar projection and a stated confidence level; Caplet has a formula and the false phrase \"cannot miss\". The case's growth cues (\"entrepreneurial mindset and passion for innovation\", \"Laura ultimately chooses\") are under-read, so the roughly 9% stock share is never explained in client terms. The fundraising draft has no current prep: the only file is stale, contradicts V5's cap, and suggests matching, which the team's own research says not to do. None of the 11 filled WInS notes mentions flexibility, liquidity or the residency, so the TNA reflections must carry the client link. New insights a top team would use: the fixed $50k loses about 20% of its buying power from 2033 to 2042, and the case hands that gap to co-sponsors (\"early operations\"); Laura's total commitment of about $645-675k exceeds her $450k of deposits (MODEL); 2031 is the start of a two-year campaign; co-sponsors may judge a US-dollar promise in NT$. The kit also contains a case violation: D6 says Laura \"adds her own money\" for payments.",
+ "findings": [
+  {
+   "id": "CLIENT-01",
+   "title": "IPS V5 drops the case's key concepts (flexibility, responsible, liquidity) and two earlier answers",
+   "severity": "high",
+   "deliverables": [
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "IPS V5 never uses flexibility, responsibly or liquidity, although the case and the IPS brief stress them, and the brief requires the IPS to set the approach to a responsible contribution and appropriate flexibility. V1-V3 had a certainty definition and 'a responsible facility contribution that leaves Laura flexibility'; V5 dropped both. Judges scoring Client Knowledge look for these concepts, so this is a regression.",
+   "evidence": [
+    "team/google_drive/ips_report/01_version_5.md:20 'The second objective is a facility contribution with a floor Laura can promise co-sponsors and growth above it.'",
+    "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:48-50 'determining a responsible facility contribution, and preserving appropriate financial flexibility'",
+    "2026_WGY_Investment_Policy-FINAL.txt:20 'How does your strategy balance growth, risk, liquidity, funding reliability, and financial flexibility?'",
+    "team/google_drive/ips_report/08_old_versions_v3.md:20 'High certainty means ... The second objective is a responsible facility contribution that leaves Laura flexibility.'",
+    "grep counts 16 Oct: flexib case 5 / IPS brief 6 / V5 0; responsib 4/3/0; liquid 1/4/0"
+   ],
+   "fix": "The students' fresh draft must answer, in their own words: what makes the gift responsible, what flexibility Laura keeps and for what, how liquidity is handled, and the certainty standard. Tick it against the IPS-FINAL.txt:53-65 bullets before submitting.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "IPS outline by Wed 28 Oct; IPS due Sat 7 Nov 09:00 Sydney"
+  },
+  {
+   "id": "CLIENT-02",
+   "title": "'The half Laura keeps' does three jobs and is invested three different ways across files",
+   "severity": "high",
+   "deliverables": [
+    "IPS",
+    "FinalReport",
+    "TNA"
+   ],
+   "problem": "In V5 the kept half is the first cover for payment shortfalls, the cushion for cost rises and co-sponsor gaps, and the 'equity' defence against inflation and the Taiwan dollar. Other files invest it as T-bills (ips_spec), as Treasuries to 2042 (D6), or say Laura keeps 20% (old talking points). In a 1-in-20 bad market it is about $15-17k (D6, MODEL), below the team's own $25k reserve benchmark, and it is the first money used up by a payment shortfall. The RAB red team flagged this as fix-before-6-Nov, but it never reached V5.",
+   "evidence": [
+    "01_version_5.md:26 'Any shortfall expected in 2033 comes first from the 2027 leftover, then the half Laura keeps'",
+    "01_version_5.md:28 'the equity half Laura keeps is her defense'",
+    "01_version_5.md:30 'The other half stays with Laura as a cushion if costs rise or co-sponsors fall short.'",
+    "research/insight_v1/ips_spec.md:119 'moved the same day to U.S. dollar Treasury bills' ... 'kept $16k/$32k/$66k (MODEL)'",
+    "rab/decisions/D6_cap_share.md:22 'about $15k-$17k' (1-in-20 bad case); D6_cap_share.md:54 'From the 2033 gift to the last payment she holds her half in Treasuries'",
+    "team/google_drive/ips_report/09_old_versions_v3_tab_7.md:37 'about $25k minimum and $100k maximum'",
+    "rab/redteam/triage.md:39 'gives it three jobs ... against the IPS cushion sentence and the case's flexibility ask'"
+   ],
+   "fix": "In vote set B, decide one priority order for the kept money's jobs, one asset for it after 2033, and one stated principle for 'appropriate' flexibility (case line 145). If it backs the payments, either count it inside the reserve or size a separate payment top-up in 2033 and free the rest. Then make V5's 'equity half' sentence true or remove it.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Vote set B Tue 27 Oct; IPS Sat 7 Nov 09:00 Sydney"
+  },
+  {
+   "id": "CLIENT-03",
+   "title": "Reserve and certainty asks have six explicit parts; drafts answer about one and a half",
+   "severity": "high",
+   "deliverables": [
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "The case asks for the reserve's size, its initial composition and how it changes 'if at all', plus a certainty definition, how it was evaluated and the assumptions behind it, and five assumption categories. V5 answers only the change (partly) and the definition (partly). The size cannot be stated cleanly while the kept half backs the payments from outside the reserve. The reserve's makeup on 1 Jan 2033 (cash from IBTM, four iBond funds, five bonds, reinvested coupons) is written nowhere. Where early-maturity cash waits appears only in the notes and Tab 15. 'Mainly on the US government' hides the coupon-reinvestment share.",
+   "evidence": [
+    "Laura_Gao_2026_Client_Profile.txt:96-99 'Teams must recommend its size and initial asset composition and explain how its composition should change, if at all ... define ... explain how they evaluated ... identify the assumptions'",
+    "Laura_Gao_2026_Client_Profile.txt:146-148 five assumption categories",
+    "01_version_5.md:26 'In 2033 the payment Treasuries become the operating reserve, shrinking as each payment is made.'",
+    "rab/decisions/D_certainty_definition.md:63 'The operating reserve's size in January 2033 is then the ten holdings' value plus that measured amount' (unratified)",
+    "D_certainty_definition.md:19 'at least about $42,000 of each $50,000' (MODEL, superseded basis)",
+    "team/google_drive/ips_report/15_tab_15.md:35 (short-term Treasury ETF waiting note)"
+   ],
+   "fix": "IPS: one certainty standard plus a principle for the reserve's composition over time (a static run-off reserve is allowed by 'if at all'). Final Report: a 1 Jan 2033 reserve table (holding, maturity, which payment it funds, value), the size rule, the three tests and the assumption list, all re-run on the WInS-listed basis. Name a WInS-listed parking fund for early cash.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Vote set B Tue 27 Oct; IPS Sat 7 Nov; Final Report Sat 5 Dec 09:00 Sydney"
+  },
+  {
+   "id": "CLIENT-04",
+   "title": "2031 range needs a dollar projection and a stated confidence level; Caplet has a formula and 'cannot miss'",
+   "severity": "high",
+   "deliverables": [
+    "FinalReport",
+    "IPS"
+   ],
+   "problem": "The case requires a dollar range and a stated confidence that the 2033 gift falls inside it, plus how good and bad markets affect it. V5 gives a formula and the false absolute 'cannot miss' (the IBTM payout is not fixed). The kit chose 'by construction, if five things hold', which is a condition, not a confidence level. That will not satisfy a statistics-trained client or co-sponsors. Nothing explains that, because of the cap, good markets after 2031 raise Laura's kept money rather than the gift.",
+   "evidence": [
+    "Laura_Gao_2026_Client_Profile.txt:117-119 'recommend the dollar range ... state how confident they are ... explain how favorable and unfavorable market outcomes could affect the amount'",
+    "01_version_5.md:30 'capped at that top, so she cannot miss the range'",
+    "05_trading_note_reflection_wins_trading_notes.md:19 'although the final payout is not fixed'",
+    "rab/decisions/D_range_confidence_2031.md:7 'by construction, if five things hold'; :35 'Typical top about $175,000; 90% of paths about $165,000 to $190,000' (MODEL)",
+    "Laura_Gao_2026_Client_Profile.txt:16 'degree in Statistics & Information Decisions Management'"
+   ],
+   "fix": "Final Report: a 2026 projection of the dollar range on the WInS basis, one stated confidence level with its method, the named ways it can fail, where in the range the gift probably lands, and what good and bad markets each do to the gift and to Laura's kept money. IPS: no figures needed, but remove the absolute words.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Vote set A Sun 18 Oct (wording); Final Report Sat 5 Dec 09:00 Sydney"
+  },
+  {
+   "id": "CLIENT-05",
+   "title": "2031 is the start of a two-year co-sponsor campaign; no valuation date or re-quote rule",
+   "severity": "medium",
+   "deliverables": [
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "The case says Laura will 'begin approaching' co-sponsors in 2031, so talks run into 2032-33. V5 sets the top from the fund's value 'then', with no date and no rule for co-sponsors met later. Quoting different tops to different co-sponsors would hurt the credibility the plan protects.",
+   "evidence": [
+    "Laura_Gao_2026_Client_Profile.txt:109 'Laura plans to begin approaching potential co-sponsors in 2031, two years before the residency is established.'",
+    "01_version_5.md:30 'to the floor plus half the equity fund's value then'"
+   ],
+   "fix": "The policy must fix one valuation date, and say whether and in which direction the range can be re-quoted during 2031-33, consistent with the 2033 cap.",
+   "confidence": "medium",
+   "new_vs_known": "new",
+   "deadline": "Vote set B Tue 27 Oct; IPS Sat 7 Nov"
+  },
+  {
+   "id": "CLIENT-06",
+   "title": "Growth cues and 'Laura ultimately chooses' are under-read; about 9% in stocks is never explained in client terms",
+   "severity": "high",
+   "deliverables": [
+    "IPS",
+    "FinalReport",
+    "TNA"
+   ],
+   "problem": "The case links her objectives to her 'entrepreneurial mindset and passion for innovation', calls her willing to take thoughtful risks, and frames the plan as one 'Laura ultimately chooses', with teams free to differ on flexibility. Caplet holds about 9% in stocks. Simulated Lauras called it timid (AI opinion). V5 claims 'above average' tolerance above the floor but never gives the price-of-certainty reasoning or the 'the residency is the leap' answer, both of which sit unused in the team notes.",
+   "evidence": [
+    "Laura_Gao_2026_Client_Profile.txt:40-41 'objectives that reflect both her entrepreneurial mindset and her passion for innovation'",
+    "Laura_Gao_2026_Client_Profile.txt:9 'the investment strategy that Laura ultimately chooses'",
+    "Laura_Gao_2026_Client_Profile.txt:126-128 'Teams may reach different conclusions about risk ... and the financial flexibility Laura should preserve.'",
+    "COMPETITION.md:156-157 '(~9% of all money) in one world stock fund'",
+    "team/google_drive/notes_and_discussions.md:101 'All three also said it looks too timid'; :124 'The leap is the residency itself.'; :286-302 floor-size table (MODEL)"
+   ],
+   "fix": "IPS: one trade-off principle in client terms (median given up versus bad case protected, and why that suits her). Final Report: show Laura the floor-size options with the team's recommendation, re-run on the WInS basis. TNA: the VT reflection names the balance in the case's words.",
+   "confidence": "medium",
+   "new_vs_known": "known-deeper",
+   "deadline": "TNA by Thu 22 Oct (due Sat 24 Oct 08:00 Sydney); IPS Sat 7 Nov"
+  },
+  {
+   "id": "CLIENT-07",
+   "title": "V5's risk profile infers risk appetite from her degree and narrows who is hurt by a missed payment",
+   "severity": "medium",
+   "deliverables": [
+    "IPS"
+   ],
+   "problem": "V5 says that as a statistics graduate and entrepreneur she accepts measured risk. The case never links her degree to risk appetite, and a judge may read it as stereotyping. V5 also says 'the artists' would bear a missed payment, although the case lists five groups and says only 'operating expenses'.",
+   "evidence": [
+    "01_version_5.md:22 'As a statistics graduate and entrepreneur she accepts measured risk, but her tolerance for a missed payment is low, since the artists would bear the loss.'",
+    "Laura_Gao_2026_Client_Profile.txt:68-74 (understands volatility; thoughtful risks; appropriate balance)",
+    "Laura_Gao_2026_Client_Profile.txt:78-79 'artists, writers, designers, entrepreneurs, and educators'"
+   ],
+   "fix": "Build the risk paragraph from case sentences: capacity (living costs and 'financial resources outside the portfolio', case lines 61-63), willingness (lines 68-74) and the hard constraint (lines 91-92). Label any inference as the team's judgement.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "IPS Sat 7 Nov 09:00 Sydney"
+  },
+  {
+   "id": "CLIENT-08",
+   "title": "The pitch leads with co-sponsor behaviour (unsupported), not with Laura's goals",
+   "severity": "medium",
+   "deliverables": [
+    "IPS"
+   ],
+   "problem": "The pitch's first 11 words make an unsupported claim about co-sponsors. The case allows co-sponsors to fund operating support beyond Laura's commitment. The brief says the pitch must show how the strategy supports the client's goals and to 'remember who your strategy is designed to serve'.",
+   "evidence": [
+    "01_version_5.md:16 'Laura's co-sponsors who fund the building rarely pay to run it'",
+    "Laura_Gao_2026_Client_Profile.txt:85-86 'any operating support beyond Laura's commitment, may come from co-sponsors'",
+    "2026_WGY_Investment_Policy-FINAL.txt:27 'Always remember who your strategy is designed to serve.'; :35-36"
+   ],
+   "fix": "The pitch's central idea should rest on a case fact about Laura's goals (the portfolio-only rule, case lines 91-92). 45 words or fewer, no dollar figure.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "IPS Sat 7 Nov 09:00 Sydney"
+  },
+  {
+   "id": "CLIENT-09",
+   "title": "The fixed $50k loses about 20% of its buying power over 2033-42, and the case shifts that gap to co-sponsors ('early operations')",
+   "severity": "medium",
+   "deliverables": [
+    "FinalReport",
+    "IPS"
+   ],
+   "problem": "The payments are fixed nominal amounts. At 2.5% inflation the 2042 payment is worth about $33.7k in 2026 dollars and about $40.0k in 2033 dollars (my calculation). The case says operating support beyond Laura's commitment may come from co-sponsors and program fees, and calls the ten years 'early operations'. So the honest co-sponsor message is that her support is fixed-dollar and front-loaded, and that the residency's own income must grow. V5 mentions inflation only for facility costs and ignores its effect on projections, which the case asks for.",
+   "evidence": [
+    "Laura_Gao_2026_Client_Profile.txt:90 'each payment is a fixed $50,000 and is not adjusted for inflation'",
+    "Laura_Gao_2026_Client_Profile.txt:83 'reliable support for its early operations'",
+    "Laura_Gao_2026_Client_Profile.txt:147 'the effect of inflation on portfolio projections and facility costs'",
+    "01_version_5.md:28 'Inflation or a stronger Taiwan dollar raises facility costs'",
+    "computed 16 Oct: 50,000/1.025^16 = $33,681; 50,000/1.025^9 = $40,036"
+   ],
+   "fix": "Final Report: payments and gift in nominal and real terms with one stated inflation assumption, plus what the fixed-dollar design means for co-sponsors and for after 2042 (a scope note only, no business plan). IPS: one assumption clause.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Final Report Sat 5 Dec 09:00 Sydney"
+  },
+  {
+   "id": "CLIENT-10",
+   "title": "The promise is in US dollars; co-sponsors in Taiwan may judge it in NT$; V5 states the currency assumption as fact",
+   "severity": "medium",
+   "deliverables": [
+    "FinalReport",
+    "IPS"
+   ],
+   "problem": "The case asks for a 'dollar range' and never says what currency costs or co-sponsors use. V5 states as fact that a stronger Taiwan dollar raises costs. If co-sponsors count in NT$, a range that is certain in US$ moves by about \u00b16.6% over two years (about \u00b1$10.6k on a $160k gift; MODEL). Nobody says who bears that.",
+   "evidence": [
+    "Laura_Gao_2026_Client_Profile.txt:117 'recommend the dollar range'",
+    "01_version_5.md:28",
+    "research/insight_v1/phase_A/fact_register.md:25 'Volatility over the last 10 years is 4.69%'",
+    "research/insight_v1/ips_spec.md:119 'No New Taiwan dollar conversion and no currency hedge before the facility decision'"
+   ],
+   "fix": "Label the currency assumption, state that the range is in US dollars, name who bears FX moves (consistent with CLIENT-02), and show one illustrative NT$ swing in the Final Report. Do not dramatise Taiwan geopolitics.",
+   "confidence": "medium",
+   "new_vs_known": "known-deeper",
+   "deadline": "Final Report Sat 5 Dec 09:00 Sydney"
+  },
+  {
+   "id": "CLIENT-11",
+   "title": "'Meaningful' is half of the case's co-sponsor test; Caplet argues only 'credible'",
+   "severity": "medium",
+   "deliverables": [
+    "FinalReport",
+    "IPS"
+   ],
+   "problem": "The case says a meaningful contribution signals viability and commitment, then warns against over-promising. That tension is the core of the section. V5 argues only credibility, and the team's notes admit a safe floor may make a less impressive pitch. An unused number: Laura's total commitment (operations plus facility) is about $645-675k, or 143-150% of her $450k of deposits (MODEL), and the gift is about 32-39% of deposits.",
+   "evidence": [
+    "Laura_Gao_2026_Client_Profile.txt:110-112 'A meaningful personal contribution may signal that the residency is financially viable, demonstrate Laura's commitment'",
+    "01_version_5.md:30 'We prefer a range built to hold'",
+    "team/google_drive/strategy_notes.md:22 'a small floor is safe, but it may make a less impressive pitch'",
+    "rab/decisions/D_range_confidence_2031.md:8, :35 ($145k bottom; typical top about $175k, MODEL)"
+   ],
+   "fix": "Name the meaningful-versus-credible trade-off once in the IPS. In the Final Report's co-sponsor section, show the commitment signal with dated numbers re-run on the WInS basis. Make no claim about how much more co-sponsors give.",
+   "confidence": "medium",
+   "new_vs_known": "new",
+   "deadline": "IPS Sat 7 Nov; Final Report Sat 5 Dec"
+  },
+  {
+   "id": "CLIENT-12",
+   "title": "No current prep for the fundraising draft; the only file is stale and contradicts the team's research",
+   "severity": "high",
+   "deliverables": [
+    "FinalReport"
+   ],
+   "problem": "The case requires part of Laura's fundraising materials. The Final Report outline points students to cosponsor_talking_points.md, which holds the old plan: a $113k minimum, 'about 80% confidence', the gift going 'above the range' (contradicting V5's cap), 'never below', 'Laura keeps 20%', and a suggestion to offer matching that the team's own research advises against. Voice, audience and content checklist are undecided. Laura is a real person, so no invented quotes from her.",
+   "evidence": [
+    "Laura_Gao_2026_Client_Profile.txt:123-124 'Each team must also draft part of Laura's fundraising materials'",
+    "deliverables/final_report_outline.md:16 'Use cosponsor_talking_points.md'",
+    "deliverables/cosponsor_talking_points.md:5 '\u2248 $113k'; :8 'A strong period can take it above the range'; :9 'Laura keeps 20% in reserve'; :11 'matching or tiered sponsorship levels'",
+    "team/google_drive/notes_and_discussions.md:218 'announce a firm lead gift, and don't offer to match'"
+   ],
+   "fix": "Put 'superseded' banners on deliverables/ (team action). Before 9 Nov, the client/co-sponsor lead builds a facts-only checklist: range in US$, stated confidence, the cap, who bears FX, 'early operations', commitment numbers, no matching offer, no invented quotes. Students write the text after the 9 Nov instructions.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Checklist by Mon 9 Nov; Final Report Sat 5 Dec 09:00 Sydney"
+  },
+  {
+   "id": "CLIENT-13",
+   "title": "The shortfall chain must end inside the portfolio; D6 says 'she adds her own money' and V5 says the half 'stays with Laura'",
+   "severity": "medium",
+   "deliverables": [
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "The case forbids relying on outside funding for the payments. D6 says that beyond her half 'she adds her own money', and D_certainty says the opposite. V5 and COMPETITION.md say the kept half 'stays with Laura', which reads as money leaving the portfolio, yet V5 uses it to cover payment shortfalls. V5's chain also omits the floor as last owner.",
+   "evidence": [
+    "Laura_Gao_2026_Client_Profile.txt:91-92 'Teams may not rely on co-sponsors, grants, program fees, or other outside funding to meet this requirement.'",
+    "rab/decisions/D6_cap_share.md:54 'beyond it, she adds her own money'",
+    "rab/decisions/D_certainty_definition.md:62 'never \"her own money\" (the case forbids relying on outside funding)'",
+    "01_version_5.md:30 'The other half stays with Laura'; COMPETITION.md:161 'the rest stays with Laura'"
+   ],
+   "fix": "The policy must say the kept money stays invested in the portfolio until the last payment (or until a stated release rule), and list the full shortfall chain ending inside the portfolio. Do not reuse D6:54's clause.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Vote set A Sun 18 Oct (wording); IPS Sat 7 Nov"
+  },
+  {
+   "id": "CLIENT-14",
+   "title": "Case says the 2028 deposit 'will' arrive; team notes treat her income as fragile and plan human-capital hedges",
+   "severity": "low",
+   "deliverables": [
+    "FinalReport"
+   ],
+   "problem": "The case states the deposit as fact, calls her business successful, and says her living costs are covered from income and other resources. The notes call her income 'the least stable of any recent client' and plan human-capital hedging and AI-dilemma screens. That answers a question the case does not ask and reads as doubting the client.",
+   "evidence": [
+    "Laura_Gao_2026_Client_Profile.txt:43-44 'She will contribute an additional $150,000'",
+    "Laura_Gao_2026_Client_Profile.txt:6 'Laura has built a successful creative business'",
+    "team/google_drive/notes_and_discussions.md:405 'her own income is the least stable of any recent client'; :495 'human-capital risk is central'; :527-530"
+   ],
+   "fix": "Keep deposit risk to one labelled sensitivity line in the Final Report. Leave human-capital hedging out, since it changes no decision (the payments are in Treasuries).",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Final Report Sat 5 Dec"
+  },
+  {
+   "id": "CLIENT-15",
+   "title": "Team language about Laura: 'her quote', 'not a typical artist', identity labels",
+   "severity": "medium",
+   "deliverables": [
+    "FinalReport",
+    "Team"
+   ],
+   "problem": "The team doc warns the pull quote is the case's words, then twice calls it 'her quote'. 'She's not a typical artist' reads as a stereotype. 'Furthest yet from traditional finance' contradicts the case. The client table labels her by sexual orientation and immigrant status; her public bio does say this, but the case gives no personal hooks and identity is not a portfolio input. Phrases like 'the Dream' could sound patronising if they reach a deliverable.",
+   "evidence": [
+    "team/google_drive/notes_and_discussions.md:242 'Cite it as the case's words, never as Laura's.'",
+    "notes_and_discussions.md:344 'Her quote says ...'; :377 'She's not a typical artist ... Her quote in the case'",
+    "notes_and_discussions.md:487 'Immigrant, queer author-illustrator'; :492 'Laura is the furthest yet from traditional finance'",
+    "https://lauragao.com/hey/ (accessed 16 Oct 2026): 'queer immigrant stories' ... 'use she/her and they/them pronouns'"
+   ],
+   "fix": "In deliverables, describe Laura only through the case plus at most one or two cited public facts that change a decision. No identity themes. Never write 'Laura says' for the pull quote. Before the Final Report, check every line with 'would she be comfortable reading this about herself?'.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Final Report Sat 5 Dec"
+  },
+  {
+   "id": "CLIENT-16",
+   "title": "Misreadings: co-sponsors defined wrongly, 'building' for 'facility', and the residency never described",
+   "severity": "medium",
+   "deliverables": [
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "The strategy notes say the case calls grants and collaborators 'co-sponsors'; it lists them separately. The pitch and kit say 'building', but the case says 'facility' and 'a small, community-oriented space'. V5 never says what the residency is (people temporarily live, work, teach and collaborate), although 'residency goals' is in the Client Knowledge criterion. V5 uses 'community' zero times.",
+   "evidence": [
+    "team/google_drive/strategy_notes.md:16 'The case names grants, collaborators and others, and calls them co-sponsors.'",
+    "Laura_Gao_2026_Client_Profile.txt:86 'co-sponsors, grants, collaborators, program fees, continued business income, or other sources'",
+    "Laura_Gao_2026_Client_Profile.txt:77-80 'small, community-oriented space ... temporarily live, work, teach, and collaborate'",
+    "01_version_5.md:16 'fund the building'",
+    "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:59 'residency goals'"
+   ],
+   "fix": "Use 'facility', not 'building'. Show once that the team understands what the residency does and why reliable early operating money matters to it. Correct the co-sponsor definition in the team's notes.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "IPS Sat 7 Nov"
+  },
+  {
+   "id": "CLIENT-17",
+   "title": "None of the 11 filled WInS notes mentions flexibility, liquidity or the residency; the reflections must carry the client link",
+   "severity": "high",
+   "deliverables": [
+    "TNA"
+   ],
+   "problem": "The TNA brief lists growth, risk, liquidity, funding reliability, financial flexibility and cash-flow needs, and each reflection must link the decision to the client's goals, funding or risk. A grep of the 11 filled notes finds no flexibility, liquidity, residency, community or confidence. The client links that exist: IBTR (trade-off with the facility), IBTM (2031 minimum) and VT (range top). The reflection tabs are empty.",
+   "evidence": [
+    "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:5-6 'growth, risk, liquidity, funding reliability, financial flexibility, and future cash-flow needs'",
+    "2026_WGY_Trading_Notes_Analysis-FINAL.txt:52 'How the decision supported the client's goals, funding needs, or risk considerations.'",
+    "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:14-24 (11 filled notes)",
+    "team/google_drive/ips_report/06_trading_note_reflection_deliverables.md:6 '[image][image]' (no reflections yet)"
+   ],
+   "fix": "Client-link checklist (labels only; students write): IBTR covers the certainty rule and portfolio-only funding (case lines 91-92) and the facility trade-off. IBTM covers co-sponsor credibility and over-promising (lines 114-115). VT covers the growth-versus-protection balance (lines 72-74) and the kept half as flexibility 'as the project develops' (lines 102-103), without repeating 'promised minimum'. Together they should touch growth, risk, reliability and flexibility.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Submit Thu 22 Oct Sydney; hard deadline Sat 24 Oct 08:00 Sydney (Fri 23 Oct 5 pm ET)"
+  },
+  {
+   "id": "CLIENT-18",
+   "title": "COMPETITION.md's client summary is thinner than the case; the Client Portrait is a placeholder",
+   "severity": "low",
+   "deliverables": [
+    "Team",
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "The team's 'single source of truth' summary leaves out the six reserve and certainty asks, the five assumption categories, favourable and unfavourable outcomes, 'meaningful', 'early operations' and the operating-support permission. It still says Laura is fictional. The client portrait says 'Placeholder for now'. The same items are missing from V5.",
+   "evidence": [
+    "COMPETITION.md:46-61 (client section)",
+    "COMPETITION.md:49 'Laura is a fictional client.'",
+    "team/google_drive/client_portrait.md:14 'Placeholder for now'",
+    "config/client_mandate.yaml:231 'human_approved: false'"
+   ],
+   "fix": "The client lead turns the 57-row table (section 2 of the L02 file) into the team's own one-page case checklist, links it from COMPETITION.md, and ticks every draft against it.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Before the IPS outline, Wed 28 Oct"
+  },
+  {
+   "id": "CLIENT-19",
+   "title": "'Root-and-Branch' echoes Laura's own published 'roots' wording, but V5 never explains the name",
+   "severity": "low",
+   "deliverables": [
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "Her official bio says her 'roots spread wide through California, Texas, and China', and her memoir is Messy Roots, so the name has a real link. But in her work 'roots' means heritage, and V5 uses it only for Treasuries without explanation, so it can read as a pun rather than as tailoring.",
+   "evidence": [
+    "https://lauragao.com/hey/ (accessed 16 Oct 2026): 'Laura's roots spread wide through California, Texas, and China.'",
+    "Laura_Gao_2026_Client_Profile.txt:22 'Messy Roots'",
+    "01_version_5.md:16, :24 (name used, never explained)",
+    "COMPETITION.md:204 'Make the Messy Roots -> \"Roots First\" link visible'"
+   ],
+   "fix": "In vote set A, decide whether the name earns its place. If kept, explain the link once and respectfully, cite the bio in the Final Report (the IPS allows no citations), and never imply Laura endorsed the name.",
+   "confidence": "medium",
+   "new_vs_known": "known-deeper",
+   "deadline": "Vote set A Sun 18 Oct"
+  },
+  {
+   "id": "CLIENT-20",
+   "title": "The earliest payments, the ones 'early operations' depend on most, rest on iBond funds whose payout is not fixed",
+   "severity": "low",
+   "deliverables": [
+    "FinalReport"
+   ],
+   "problem": "Because WInS lists no Treasury maturing Feb 2031 to Feb 2036, payments 2033-37 use iBond funds whose payouts are not fixed, while 2038-42 use fixed bonds. The case stresses reliable early operations. The modelled spread is small (about 2.5% worst on the floor holding, MODEL), but it should be acknowledged.",
+   "evidence": [
+    "Laura_Gao_2026_Client_Profile.txt:83 'reliable support for its early operations'",
+    "COMPETITION.md:93-94 'none maturing Feb 2031 to Feb 2036. iBonds Treasury ETFs fill that gap'",
+    "05_trading_note_reflection_wins_trading_notes.md:20 'Its December payout is not fixed'",
+    "rab/decisions/D_range_confidence_2031.md:23-24 'pays about $149,000 typically and at least about $146,000'"
+   ],
+   "fix": "In the Final Report, name it as a WInS-listing constraint, give the worst case measured on the WInS basis, and name the cover (the 2027 leftover first).",
+   "confidence": "medium",
+   "new_vs_known": "new",
+   "deadline": "Final Report Sat 5 Dec"
+  },
+  {
+   "id": "CLIENT-21",
+   "title": "The case's 'portfolio manager makes final decisions' role-play conflicts with the real advisor rules",
+   "severity": "low",
+   "deliverables": [
+    "FinalReport"
+   ],
+   "problem": "The case's framing has the advisor making the final investment decisions. The rules bar advisors from making decisions and from placing trades. The Articulation criterion asks the team to explain its real decision-making process.",
+   "evidence": [
+    "Laura_Gao_2026_Client_Profile.txt:4 'your team's teacher/advisor who makes the final investment decisions'",
+    "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:34 'Students should place trades on WInS, NOT the advisor.'",
+    "research/insight_v1/phase_A/case_register.md R-AN4 (advisor rule quoted)"
+   ],
+   "fix": "In the Final Report, describe the real process (students decided; the advisor did admin). Do not borrow the case's 'PM approved' role-play.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Final Report Sat 5 Dec"
+  },
+  {
+   "id": "CLIENT-22",
+   "title": "'Responsible' has no stated test; the half split rests on a value judgement with no client reason yet",
+   "severity": "medium",
+   "deliverables": [
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "The case asks teams to justify how much Laura can responsibly contribute. V5 gives the rule (floor plus half, capped) but no reason. The kit's reason is a pre-set test (keep 10% of the gift in 95% of paths) that its own memo calls a value judgement. The 15 Oct brief asked for a principle, but none has been chosen.",
+   "evidence": [
+    "Laura_Gao_2026_Client_Profile.txt:104-106 'Teams must recommend and justify the extent to which Laura can responsibly contribute'",
+    "01_version_5.md:30",
+    "rab/decisions/D6_cap_share.md:27-32 (rule: 10% of gift in 95%; result about 0.47); :60 'value judgement'"
+   ],
+   "fix": "In vote set B, write one principle linking the share to a case need (what Laura must still cover 'as the project develops', after the payments are safe). The Final Report then shows the options table, re-run on the WInS basis, as evidence.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Vote set B Tue 27 Oct; IPS Sat 7 Nov"
+  }
+ ]
+}

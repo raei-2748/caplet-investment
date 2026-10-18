@@ -1,0 +1,370 @@
+{
+ "file": "oct16/lenses/L01_judge_panel.md",
+ "summary": "Simulated three-judge panel (AI opinion; Wharton publishes no weights or scores). Scoring what exists today (11 filled WInS notes, no reflections yet; IPS V5, which the team calls AI-generated; a 10-line Final Report journal): Investment Strategy 6, Client Knowledge 5, Portfolio Analysis 4, Articulation 2, Creativity and Presentation 4. Average 4.2, against an estimated Top-50 bar of about 8+ on all five ('score exceptionally well on all five components', faqs.txt:79). On today's path the entry would rank roughly 350-700 of ~2,300 (low confidence). The strategy idea is top-decile; the losses are on the criteria students must earn themselves: an authentic voice, a true experience story, and projections they own. New findings: (1) the 16 Oct model makes the co-sponsor range more certain (99.4%) than the payments (about 6-7% of paths leave a later payment short of what Laura kept), which inverts the case's priority (case:91, 119-120), yet V5 says 'cannot miss'; (2) 'appropriate diversification' is a named criterion, but 'diversif-' appears 0 times in V5, a regression from V3, and [AI] suggestion 8 would delete the last defence; (3) [AI] suggestions 8, 9 and 13 cut scored content (diversification, the review rule, a cushion job) and 5 adds a wrong-basis cost, all to make room for a range and confidence the IPS is 'not expected' to include; (4) the team's most original, sourced insight (funders count only committed money; announced lead gifts raise others' giving) is unused, while the pitch opens with a claim that has no source in the repo; (5) in the median case Laura gives about 86% of the money not reserved, and at p5 she keeps $0, which tests 'responsibly' and flexibility (case:102-103). Ladder conflict re-run and reproduced: $294,461 (ideal ladder priced to 1 Jan payment dates, forward) vs $298,628 (Caplet's holdings' maturities, curve unchanged; $297,847 forward). A third figure, $295,924 (par yields used as zero rates), also sits in results.json. Use the holdings basis (~$298k, room ~$1.4k-$2.2k, 5-7bp, 15 Oct) for any claim about Caplet's plan or WInS book. Best points per hour before the IPS: reject the harmful [AI] suggestions; add a diversification principle; set an honest certainty standard; name liquidity, flexibility and uncertainty and a return assumption; one name per idea; a pitch built on the cap rule. These take about 5.5 hours for about +6 points. A fresh student IPS and student-written reflections are low-ratio gates that cannot be skipped.",
+ "findings": [
+  {
+   "id": "JUDGE-01",
+   "title": "On today's path the entry lands around rank 350-700, not Top 50",
+   "severity": "critical",
+   "deliverables": [
+    "All"
+   ],
+   "problem": "Strategy is strong, but Articulation, Portfolio Analysis and Creativity are scored on work the students have not yet done themselves. AI-opinion scores today: Strategy 6, Client 5, Portfolio Analysis 4, Articulation 2, Creativity 4 (average 4.2). The Top 50 requires near-excellence on all five; the 2025-26 Top 50 was 2.1% of final reports.",
+   "evidence": [
+    "smapply_public_2026-10-14/faqs.txt:79 'score exceptionally well on all five components'",
+    "team/google_drive/ips_report/01_version_5.md:36 'Best version that AI generated; We cannot submit as it is'",
+    "team/google_drive/final_report.md:14-27 (10-entry journal with placeholders)",
+    "deliverables/final_report_outline.md:5,13,15 (only outline, superseded plan)",
+    "oct16/research/KB_what_wins.md:111,117 (49 of ~2,300 = 2.1%)"
+   ],
+   "fix": "Every criterion must reach about 8 (AI opinion). Spend team hours by points per hour (L01 section 7) on student-owned work, not more AI research.",
+   "confidence": "medium",
+   "new_vs_known": "known-deeper",
+   "deadline": "Plan by Sun 18 Oct; gates at TNA Sat 24 Oct 08:00, IPS Sat 7 Nov 09:00, Final Report Sat 5 Dec 09:00 (Sydney)"
+  },
+  {
+   "id": "JUDGE-02",
+   "title": "Creativity scores 'an authentic team voice'; V5 is AI-generated and the 16 Oct [AI] rule invites more",
+   "severity": "critical",
+   "deliverables": [
+    "IPS",
+    "TNA",
+    "FinalReport"
+   ],
+   "problem": "The team itself calls V5 AI-generated. The 16 Oct rule lets AI suggest wording for all three deliverables. The IPS bans citations, so accepted AI wording cannot be credited when the IPS is judged. Judges asked for an authentic voice 'not generated or generic responses'.",
+   "evidence": [
+    "team/google_drive/ips_report/01_version_5.md:36",
+    "caplet-latest/CLAUDE.md:27-30 ([AI] suggestions rule)",
+    "deliverables.txt:59 'in an authentic team voice'",
+    "2026_WGY_Investment_Policy-FINAL.txt:123-125 (no citations in IPS)",
+    "KB_what_wins.md:330 (2025-26 semifinal: 'authentic team voice, not generated or generic responses')"
+   ],
+   "fix": "The submitted IPS, reflections and Final Report are written in students' words from a student outline. Any [AI] items are limited to facts, numbers and flags. The Works Cited statement is literally true.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "TNA submit Thu 22 Oct; IPS student draft Sat 31 Oct, submit Thu 5 Nov (Sydney)"
+  },
+  {
+   "id": "JUDGE-03",
+   "title": "The plan's own model makes the co-sponsor range more certain than the payments, inverting the case's priority",
+   "severity": "high",
+   "deliverables": [
+    "IPS",
+    "FinalReport",
+    "Strategy"
+   ],
+   "problem": "The case puts the ten payments first ('high degree of certainty') and says the range must also protect them. The 16 Oct model shows the gift inside the range in 99.4% of paths, while in about 6-7% of paths a later payment needs more than Laura kept. The floor is paid out in 2033, before most of the reinvestment shortfall appears. V5 claims 'cannot miss the range', and [AI] suggestion 12 would print '99 times in 100' for the range. A bond judge will ask why the promise to co-sponsors is safer than the promise to the artists.",
+   "evidence": [
+    "Laura_Gao_2026_Client_Profile.txt:91 'must be funded by the investment portfolio with a high degree of certainty'",
+    "Laura_Gao_2026_Client_Profile.txt:119-120 'The proposed range must also protect the portfolio's ability to fund the ten-year operating commitment.'",
+    "caplet-latest/research/ips_numbers_2026-10/results.json p_gift_inside_range 0.9941; post2033_shortfall.p_exceeds_what_laura_kept 0.063; p_payment_needs_more_than_kept_half_and_leftover_total 0.0708 (MODEL)",
+    "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:48 '\"cannot miss\" is not literally true'",
+    "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:20 (suggestion 12)",
+    "team/google_drive/ips_report/01_version_5.md:30 'so she cannot miss the range'"
+   ],
+   "fix": "Team picks one of the number sheet's options (state the risk; keep Laura's half to 2042; hold a buffer from the 2028 deposit) so that payment certainty is at least as high as range certainty, and writes it as a principle in the IPS. No range-confidence figure is quoted without the payment figure beside it.",
+   "confidence": "medium",
+   "new_vs_known": "new",
+   "deadline": "Vote by Tue 27 Oct; in IPS by Sat 7 Nov 09:00 Sydney (strategy freezes)"
+  },
+  {
+   "id": "JUDGE-04",
+   "title": "'High degree of certainty' undefined; V5's absolute words are false by the team's own numbers",
+   "severity": "high",
+   "deliverables": [
+    "IPS",
+    "TNA",
+    "FinalReport"
+   ],
+   "problem": "The case asks teams to define certainty, say how they tested it and name the assumptions. V5 uses 'high certainty' once without defining it, and says 'secure', 'never below the floor' and 'cannot miss the range'. The IBTM note admits the payout is not fixed, and the new sheet shows the IBTM floor pays at least 98.7% of face in 99 of 100 paths, not exactly 100%.",
+   "evidence": [
+    "Laura_Gao_2026_Client_Profile.txt:97-99",
+    "team/google_drive/ips_report/01_version_5.md:16,20,24,28,30",
+    "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:19 'although the final payout is not fixed'",
+    "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:14,42-48"
+   ],
+   "fix": "One student-written certainty standard and how it was tested. Every certainty word across the TNA, IPS and Final Report is literally true and matches the IBTM note.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Vote set A Sun 18 Oct; IPS Sat 7 Nov 09:00 Sydney"
+  },
+  {
+   "id": "JUDGE-05",
+   "title": "'Appropriate diversification' is a criterion; V5 never argues it and [AI] suggestion 8 deletes the last defence",
+   "severity": "high",
+   "deliverables": [
+    "IPS",
+    "Strategy",
+    "FinalReport"
+   ],
+   "problem": "About 93% of the plan's money is one issuer (2028 mix: 66.8% payment Treasuries + 24.6% IBTM floor + 0.9% leftover). 'Diversif-' appears 0 times in V5. V3 had 'We diversify where we take risk; the roots rely on one issuer deliberately'. A V2 review comment had already warned the topic was barely covered, so V5 is a regression. Suggestion 8 would cut V5's only remaining sentence. A wealth-manager judge will test the word 'appropriate'.",
+   "evidence": [
+    "deliverables.txt:55 'uses appropriate diversification'",
+    "2026_WGY_Investment_Policy-FINAL.txt:46 'portfolio construction and diversification'",
+    "team/google_drive/ips_report/01_version_5.md:24 'Relying on one issuer for the roots may look like a weakness, but we accept it, since no dollar asset is safer.'",
+    "team/google_drive/ips_report/08_old_versions_v3.md:24",
+    "team/google_drive/ips_report/12_old_versions_v2_comments.md:9 'Diversification is in the rubric and you barely cover it.'",
+    "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:16 (suggestion 8: '(cut)')",
+    "caplet-latest/research/ips_numbers_2026-10/results.json allocation_jan2028_typical"
+   ],
+   "fix": "One student-written principle explaining why the payment money deliberately holds one top-quality issuer and where diversification sits and why. Reject suggestion 8.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "IPS Sat 7 Nov 09:00 Sydney"
+  },
+  {
+   "id": "JUDGE-06",
+   "title": "V5 names only 3 of the Guide's 6 IPS themes and states no return assumption",
+   "severity": "high",
+   "deliverables": [
+    "IPS"
+   ],
+   "problem": "The Guide tells teams to finalize their approach to growth, liquidity, funding reliability, flexibility, risk and uncertainty. V5 never uses 'liquidity', 'flexibility' or 'uncertainty'. The IPS brief asks for the approach to 'risk and return', and the case lists 'return expectations', but V5 uses 'return' only as a verb. The missing uncertainty and return are new; liquidity and flexibility were flagged before.",
+   "evidence": [
+    "2026_WGY_Investment_Competition_Guide.txt:173",
+    "2026_WGY_Investment_Policy-FINAL.txt:46 'approach risk and return, liquidity'",
+    "Laura_Gao_2026_Client_Profile.txt:126-128 'return expectations'",
+    "team/google_drive/ips_report/01_version_5.md:24 'sized to return that remainder' (only use of 'return'); keyword recount 16 Oct: liquid 0, flexib 0, uncertain 0"
+   ],
+   "fix": "Each of the six themes is visibly handled as a principle. One return assumption is stated. Liquidity is covered, including where money waits between a bond's maturity and the 1 January payment. Students' words.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "IPS Sat 7 Nov 09:00 Sydney"
+  },
+  {
+   "id": "JUDGE-07",
+   "title": "Pitch spends its hook on an unsupported claim and a stale number and omits the original cap rule",
+   "severity": "high",
+   "deliverables": [
+    "IPS"
+   ],
+   "problem": "The pitch is the first thing a screening reader sees. It opens with 'co-sponsors who fund the building rarely pay to run it', which has no source anywhere in the repo; the case says outside sources 'may' fund operations. It quotes '$292,000', which is wrong on every basis now. It never mentions the cap rule (gift = floor + half the fund, never above the announced top), which is the plan's most original idea and its answer to the case's credibility concern.",
+   "evidence": [
+    "team/google_drive/ips_report/01_version_5.md:16",
+    "Laura_Gao_2026_Client_Profile.txt:84-86",
+    "Laura_Gao_2026_Client_Profile.txt:114-116",
+    "repo-wide grep 16 Oct for 'rarely pay'/'pay to run': only V4 notes and V5"
+   ],
+   "fix": "The pitch states Laura's goal and the central idea, including the cap mechanism. No figure that can go stale, no unsupported claim, 45 words or fewer. Written by students.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "IPS Sat 7 Nov 09:00 Sydney"
+  },
+  {
+   "id": "JUDGE-08",
+   "title": "Ladder cost: three figures in circulation; only the holdings basis fits Caplet's claims",
+   "severity": "high",
+   "deliverables": [
+    "TNA",
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "Reproduced on the 15 Oct curve: payment dates $294,461 (19.0bp room) forward / $295,246 unchanged; Caplet's holdings' maturities $297,847 (7.4bp) forward / $298,628 (4.7bp) unchanged. About $3.4k of the gap comes from bonds maturing 0.5-10.5 months before each payment; about $0.8k from the curve basis. results.json also stores $295,924 / $4,076 (13.4bp) with 'par yields used as zero rates'. The sheet's 35% over-$300k chance is anchored to $294,453; on the holdings basis it is about 44-45% (sibling MODEL). [AI] suggestion 5 would put $294,000 into the IPS.",
+   "evidence": [
+    "oct16/research/KB_verify/num/reconcile.py re-run 16 Oct on caplet-latest/competition/official_market_data/daily-treasury-rates_2026-10.csv row 10/15/2026",
+    "caplet-latest/research/ips_numbers_2026-10/ips_numbers.py:87 (prices to dt.date(y, 1, 1)), :99-109, :122",
+    "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:12-13",
+    "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:13",
+    "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:15 'about 0.2 percentage points'"
+   ],
+   "fix": "For any claim about Caplet's plan or WInS book, use one dated holdings-basis figure (about $298k, room $1.4k-$2.2k, 5-7bp on 15 Oct), the same way in all three documents. Or put no figure in the IPS and the figure in the Final Report with its date and basis. A student re-runs it and can explain the date gap.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "TNA figure fixed by Mon 19 Oct; IPS Sat 7 Nov"
+  },
+  {
+   "id": "JUDGE-09",
+   "title": "Four [AI] suggestions remove scored content to make room for numbers the IPS is 'not expected' to include",
+   "severity": "high",
+   "deliverables": [
+    "IPS"
+   ],
+   "problem": "Suggestions 11-12 add a dollar range and a 99% confidence, which the IPS brief says it does not expect. To free words, suggestion 8 cuts the diversification defence, 9 cuts the review trigger and substitution rule (one of the IPS's few decision rules), and 13 drops the cost-rise job of the cushion. Suggestion 5 adds a wrong-basis cost. Only 2, 7 and 10 move toward the criteria.",
+   "evidence": [
+    "2026_WGY_Investment_Policy-FINAL.txt:68-70 'not expected to include ... detailed portfolio projections, a final facility-contribution range'",
+    "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:13,16,17,19,20,21",
+    "team/google_drive/ips_report/01_version_5.md:26 'acting only if her goals change or a holding becomes unavailable, when we substitute a Treasury maturing earlier'"
+   ],
+   "fix": "If the [AI] list is used at all, judge each item against the criteria and the IPS brief, not against word count. Keep the decision rules and the diversification principle. Put ranges and confidence figures in the Final Report.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Before any IPS edit; IPS Sat 7 Nov 09:00 Sydney"
+  },
+  {
+   "id": "JUDGE-10",
+   "title": "Articulation: journal is thin, but a true two-year growth story sits unused",
+   "severity": "high",
+   "deliverables": [
+    "FinalReport",
+    "Team"
+   ],
+   "problem": "Articulation is scored almost only from the Final Report. The journal has 10 bullets, placeholders and nothing after 7 Oct. The repo records a real arc: last year the team traded assets outside the rules; this year it wrote a yield-check rule after stale prices, traced the sector-rule myth to a third-party site ('check the primary source'), and caught the IBTN mix-up. That is exactly 'learning' and 'response to challenges'. The key calls were deferred to AI, which the story must handle honestly.",
+   "evidence": [
+    "deliverables.txt:58",
+    "team/google_drive/final_report.md:16 '[who argued what]', :23 'Outcome and reasons: [fill in]', :18-22",
+    "CLAUDE.md:40-41 'the team traded assets outside the trading rules'",
+    "CLAUDE.md:75 'the team deferred to the assistant's evidence-based calls'"
+   ],
+   "fix": "A dated journal filled from real messages and minutes: who argued what, the decision and reason, what went wrong, what changed, where AI was involved. Nothing invented or embellished.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Back-fill by Sun 25 Oct, then weekly to Final Report Sat 5 Dec 09:00 Sydney"
+  },
+  {
+   "id": "JUDGE-11",
+   "title": "Portfolio Analysis: no student-owned projections; the only Final Report outline is for the abandoned plan",
+   "severity": "high",
+   "deliverables": [
+    "FinalReport",
+    "Strategy"
+   ],
+   "problem": "The criterion's new core is assumptions and projections under varying outcomes. The case lists specific musts. The only outline in the repo (29 Sep) uses the superseded plan: 80% rule, two-tier 2031 lock, $298k lock cost, $113k minimum. The instructions arrive 9 Nov, leaving 25 days. All current numbers are AI-built.",
+   "evidence": [
+    "deliverables.txt:57",
+    "Laura_Gao_2026_Client_Profile.txt:94-124,146-149",
+    "deliverables/final_report_outline.md:5,13,15",
+    "KB_what_wins.md:134-136 (25-day window)"
+   ],
+   "fix": "Before 9 Nov, a one-page map: each case must → the analysis → the inputs → the student owner. A student rebuilds at least the ladder cost and the coupon-shortfall table in a spreadsheet and can explain them.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Map before Mon 9 Nov; Final Report Sat 5 Dec 09:00 Sydney"
+  },
+  {
+   "id": "JUDGE-12",
+   "title": "'Responsible' contribution: Laura gives about 86% of unreserved money in the median case and keeps $0 at p5",
+   "severity": "medium",
+   "deliverables": [
+    "IPS",
+    "FinalReport",
+    "Strategy"
+   ],
+   "problem": "The case warns that committing all remaining assets limits flexibility. Under V5's rule the model's median gift is $167,001 against $27,860 kept (about 86% given), and the 5th-percentile amount kept is $0 (MODEL). The same kept half is also the payment backstop and the inflation and Taiwan-dollar defence.",
+   "evidence": [
+    "Laura_Gao_2026_Client_Profile.txt:101-103",
+    "caplet-latest/research/ips_numbers_2026-10/results.json gift_2033.p50 167001; laura_kept_2033.p50 27860; laura_kept_2033.p5 0",
+    "team/google_drive/ips_report/01_version_5.md:26,28"
+   ],
+   "fix": "Students state what 'responsible' means for Laura and why the retained share is enough, or change the split as a principle before 6 Nov. The Final Report shows the retained amount in good and bad cases.",
+   "confidence": "medium",
+   "new_vs_known": "known-deeper",
+   "deadline": "Decide by Tue 27 Oct; IPS Sat 7 Nov 09:00 Sydney"
+  },
+  {
+   "id": "JUDGE-13",
+   "title": "The strongest original, sourced co-sponsor insight is unused while the pitch uses an unsourced one",
+   "severity": "medium",
+   "deliverables": [
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "The research holds an original argument that fits the criterion's co-sponsor clause and the case's 'meaningful personal contribution': funders count only written pledges or cash, so only the bought floor is real money; announced lead gifts raise others' giving while matching does not; a seed-gift experiment found nearly six times more giving. None of it is in V5. The sources were verified by the 27 Sep AI run but not re-opened by this panel, and they are AI-found, so they must be credited.",
+   "evidence": [
+    "research/insight_v1/phase_B/B6b_cosponsors.md:288,542 (Kresge 'Written pledges or cash')",
+    "team/google_drive/notes_and_discussions.md:218 (lead gift, no matching)",
+    "team/google_drive/strategy_notes.md:22 ('nearly six times more giving')",
+    "Laura_Gao_2026_Client_Profile.txt:110-112",
+    "deliverables.txt:59 (co-sponsor communication)"
+   ],
+   "fix": "Students verify the sources themselves. They decide whether the idea becomes an IPS principle (no citations) and a cited Final Report co-sponsor argument. They drop or replace the unsourced 'rarely pay to run it'.",
+   "confidence": "medium",
+   "new_vs_known": "new",
+   "deadline": "IPS Sat 7 Nov; Final Report Sat 5 Dec (Sydney)"
+  },
+  {
+   "id": "JUDGE-14",
+   "title": "Consistency table a judge would build between the uneditable notes and V5",
+   "severity": "medium",
+   "deliverables": [
+    "TNA",
+    "IPS"
+   ],
+   "problem": "Six visible gaps: IBTM 'payout not fixed' vs 'never below the floor'; IBTR '$300,000 is enough' vs '$292,000 late-September' (two dates, both stale); Feb-2037/May-2038 cash 'held in a short-term Treasury ETF' vs 'income reinvested in the holding that paid it'; VT 'only' vs three more jobs for Laura's half; 'promised minimum' overclaim twice; IBTM ordered before IBTR vs 'latest first'.",
+   "evidence": [
+    "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:14-19",
+    "team/google_drive/ips_report/01_version_5.md:20,24,26,28",
+    "deliverables.txt:55 'maintains consistency with the team's IPS'",
+    "Laura_Gao_2026_Client_Profile.txt:161"
+   ],
+   "fix": "Each row is reconciled in the reflections or the IPS, in students' words, without new absolute claims.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "TNA Thu 22 Oct submit; IPS Sat 7 Nov (Sydney)"
+  },
+  {
+   "id": "JUDGE-15",
+   "title": "One idea, many names: term drift inside V5",
+   "severity": "medium",
+   "deliverables": [
+    "IPS",
+    "All"
+   ],
+   "problem": "Within one page the stock fund is 'a global index fund', 'the branch', 'equities', 'the equity half' and 'the equity fund'. The floor is also 'her minimum contribution' and 'a floor Laura can promise'. 'Defined-maturity Treasury ETF' is never explained. A staff reader skimming hundreds of entries loses the thread; Wharton warns about jargon.",
+   "evidence": [
+    "team/google_drive/ips_report/01_version_5.md:16,20,24,28,30",
+    "KB_what_wins.md:201 'Excessive investing jargon doesn't necessarily dazzle the judges.'"
+   ],
+   "fix": "One name per idea, defined once in plain words, used the same way in the TNA, IPS and Final Report.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "IPS Sat 7 Nov 09:00 Sydney"
+  },
+  {
+   "id": "JUDGE-16",
+   "title": "What each TNA reflection must prove so the trio reads as three decisions",
+   "severity": "medium",
+   "deliverables": [
+    "TNA"
+   ],
+   "problem": "All 11 trades were placed within about 25 hours, so the picks can read as one buying burst. AI-opinion raw note scores: IBTR 7, IBTM 7, VT 6. The reflections do not exist yet. IBTR's trigger has nearly fired; IBTM's 'floor' sits next to 'not fixed'; VT says 'promised' and 'only'.",
+   "evidence": [
+    "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:14-24",
+    "2026_WGY_Trading_Notes_Analysis-FINAL.txt:11-13 'aligned with, tested, or refined'",
+    "team/google_drive/final_report.md:23 (5 Oct 'copout' debate, outcome blank)"
+   ],
+   "fix": "IBTR shows the pre-set test and what the team did as it nearly fired, with one dated holdings-basis figure. IBTM shows what the 6 Oct email changed. VT shows the alternatives weighed and the trade-off. No 'promised' or 'only'. At least one mentions liquidity. Student-written.",
+   "confidence": "medium",
+   "new_vs_known": "known-deeper",
+   "deadline": "Draft Tue 20 Oct; submit Thu 22 Oct (Sydney); official Sat 24 Oct 08:00"
+  },
+  {
+   "id": "JUDGE-17",
+   "title": "Finalist-stage defence: likely bond-judge questions have no student-held answers yet",
+   "severity": "medium",
+   "deliverables": [
+    "FinalReport",
+    "Finale",
+    "Team"
+   ],
+   "problem": "An Aberdeen fixed-income/credit judge sat on the 2024-2026 finale panels. Likely questions: why the earliest payments use funds whose payout is not fixed; bonds maturing up to 10.5 months early; coupon reinvestment (up to $21k at -2 points); a late 2028 deposit; 93% one issuer; about 7% stocks for a client 'willing to take thoughtful risks'. The answers live only in AI files. Past semifinals also required a one-stock-or-ETF case study with no new material allowed.",
+   "evidence": [
+    "KB_what_wins.md:181 (bond seat 2024-2026)",
+    "KB_what_wins.md:212 ('a case study of one stock or ETF')",
+    "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:34",
+    "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:16,19-22",
+    "Laura_Gao_2026_Client_Profile.txt:70"
+   ],
+   "fix": "Each student can answer two of these in their own words from material they built. A VT or iBond ETF analysis is already inside the Final Report.",
+   "confidence": "medium",
+   "new_vs_known": "known-deeper",
+   "deadline": "Final Report Sat 5 Dec 09:00 Sydney"
+  },
+  {
+   "id": "JUDGE-18",
+   "title": "IPS format gate margins and exact title-page names",
+   "severity": "low",
+   "deliverables": [
+    "IPS"
+   ],
+   "problem": "V5 recounts at 47 + 497 words: legal, but 3 words from the limit under some counters. Whether 'Caplet' is the exact roster team name is not on file (UNVERIFIED). Failing the format gate removes the entry from semifinal consideration.",
+   "evidence": [
+    "team/google_drive/ips_report/01_version_5.md:8-16",
+    "2026_WGY_Investment_Policy-FINAL.txt:82-100"
+   ],
+   "fix": "Pitch 45 or fewer and IPS 470 or fewer on the higher of two counters. Title page copied from the submitted roster. Two students check the exported PDF.",
+   "confidence": "high",
+   "new_vs_known": "known-repeat",
+   "deadline": "Format check Wed 4 Nov; submit Thu 5 Nov (Sydney)"
+  }
+ ]
+}

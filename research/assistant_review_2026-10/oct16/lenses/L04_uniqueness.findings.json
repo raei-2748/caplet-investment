@@ -1,0 +1,409 @@
+{
+ "file": "oct16/lenses/L04_uniqueness.md",
+ "summary": "The case and Wharton's own example note push most competent teams into the same safe shape: a glide path into Treasuries, a Monte Carlo '95%' and a percentile band for 2031. The strongest rivals will also ladder, so Caplet's structure alone will not make it memorable; its own research admits 'no structural edge' against a same-plan rival with plainer words. Caplet's real differences are mostly buried: IPS V5 clearly shows only two of eight keepers (dated matching and iBonds as dated cash). The 'each deposit has one job' idea, the funder evidence, the why-now fact, the price of certainty and the dated learning stories sit in files judges never read. I recommend picking at most three signature ideas and repeating them in the same words across the TNA, IPS and Final Report: each deposit has one job; Laura only promises what is already bought; and a co-sponsor range built on evidence about how people read promises and uncertainty. That last one is a new rubric clause, and five supporting sources were re-verified today. On Caplet's actual holdings, $300k would have bought all ten payments on 8.4% of trading days since 2000 and on no day from 13 Jul 2007 to 22 Sep 2026 (MODEL). The team's 'cheapest since 2002 / 11% of days' figures and the 'case PDF timed to the curve' story are stale or false. The ladder-cost conflict comes from dates and method: use about $298.6k with $1.4k (4.7bp) of room for any Caplet claim; $294.5k is an ideal ladder Caplet cannot own. So 'the first deposit buys all ten' must be a rule with an overflow step, not a fact. The 16 Oct commit hurts distinctiveness in two ways: [AI] suggestion 8 deletes V5's only defence of one-issuer concentration although 'appropriate diversification' is scored, and accepting AI wording gives away the team's most distinctive asset, its own voice. Ideas to avoid include themed picks (EWT, GLD), quant showcases, marketing the AI council, Laura-biography details, a circular '99%' confidence, comic art or Chinese text in the written round, and Australian branding.",
+ "findings": [
+  {
+   "id": "UNIQ-01",
+   "title": "The case funnels competent teams into one shape; Caplet must win on three repeated ideas, not on structure",
+   "severity": "high",
+   "deliverables": [
+    "All"
+   ],
+   "problem": "Wharton's example trade note, the IPS prompts and the case's 2033 reserve wording all point teams to a glide path into bonds, with a Monte Carlo '95%' and a percentile band for 2031. The strongest rivals will also ladder Treasuries (2021-22 had a similar ten-year payment case). Caplet's own research admits 'no structural edge' against a same-plan rival with plainer words. With about 2.1% of reports reaching the Top 50, 'a good ladder' alone is not memorable.",
+   "evidence": [
+    "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:36-39: 'intermediate-term U.S. Treasury bond ETF ... as the residency funding date approaches'",
+    "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:22-23: 'How will the portfolio's asset allocation and composition change as future funding needs approach'",
+    "competition/official/2026_27/2026_WGY_Investment_Competition_Guide.txt:156: 'planned adjustments as funding dates approach'",
+    "research/insight_v1/why_us.md:90: 'Against a same-plan rival with warmer, plainer words: we have no structural edge'",
+    "oct16/research/KB_what_wins.md 1.1 and 3.3 (49 of 2,339 in 2025-26; 2021-22 'for at least 10 years' case [N22])"
+   ],
+   "fix": "Team votes on at most three signature ideas (suggested: each deposit has one job; promise only what is already bought; an evidence-based co-sponsor range). Each is defined once in plain words and used the same way in the TNA, IPS and Final Report, since consistency with the IPS is scored (deliverables.txt:55).",
+   "confidence": "medium",
+   "new_vs_known": "new",
+   "deadline": "Vote with vote set A, Sun 18 Oct (Sydney), before TNA reflections"
+  },
+  {
+   "id": "UNIQ-02",
+   "title": "Caplet's distinctive material sits in files judges never read",
+   "severity": "high",
+   "deliverables": [
+    "TNA",
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "Judges see 3 notes plus at most 300 words of reflections, a 550-word IPS and the Final Report. The ideas that set Caplet apart (two deposits/two jobs, funder evidence, why-now, price of certainty, real learning stories) are in an 831-page AI record, a 27-page brief and team notes. IPS V5 clearly shows only two of the eight keepers (dated matching; iBonds as dated cash), with the owned floor partly visible.",
+   "evidence": [
+    "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:31-41 (50 + 500 words)",
+    "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:46 ('100 words or fewer')",
+    "CLAUDE.md insight_v1 section: '831-page record'",
+    "team/google_drive/ips_report/01_version_5.md:16-30",
+    "team/google_drive/notes_and_discussions.md:209-228 (co-sponsor research), :276-316 (price of certainty, history)"
+   ],
+   "fix": "Make a team-only 'visibility map': each signature idea, the deliverable and paragraph it lives in, and the student who owns it. Anything not on the map stays out of the deliverables.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Map by Wed 28 Oct (before the IPS outline)"
+  },
+  {
+   "id": "UNIQ-03",
+   "title": "'Each deposit has one job' is the single elegant idea, and V5 does not state it",
+   "severity": "high",
+   "deliverables": [
+    "IPS",
+    "TNA",
+    "FinalReport"
+   ],
+   "problem": "The case gives two deposits and two goals; Caplet matches one to each, which is client-driven and easy to remember. V5 describes the sequence but leads its pitch with an unsupported co-sponsor claim. On the holdings basis the first deposit only just covers the ten payments on 15 Oct ($298,628, room $1,372, 4.7bp, MODEL), so the idea must be stated as a rule with an overflow step, not as a fact.",
+   "evidence": [
+    "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:43-45, 88-92, 101-107",
+    "research/insight_v1/why_us.md:3-4: 'each deposit buys one promise when it arrives'",
+    "team/google_drive/ips_report/01_version_5.md:16 (pitch), :24 (sequence)",
+    "oct16/research/KB_verify/num/reconcile.py re-run on caplet-latest/competition/official_market_data/daily-treasury-rates_2026-10.csv: WInS maturities, unchanged curve $298,628, room $1,372 (4.7bp)"
+   ],
+   "fix": "Students carry the idea in their own words in the pitch and the first IPS rule: one job per deposit, with the overflow step (any shortfall is the first call on the 2028 deposit). No dollar figure in the pitch. The IBTM and IBTR reflections use the same labels.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "TNA reflections Tue 20 Oct; IPS outline Wed 28 Oct; IPS due Sat 7 Nov 09:00 Sydney"
+  },
+  {
+   "id": "UNIQ-04",
+   "title": "The 'why now' fact survives only on the holdings basis; the team's figures and the case-timing story are stale or false",
+   "severity": "high",
+   "deliverables": [
+    "FinalReport",
+    "Finale",
+    "IPS"
+   ],
+   "problem": "Team notes say the 28 Sep cost was the 'cheapest since May 2002', that $300k bought all ten on '11% of days since 2000', and that the case PDF date matches the first day the ladder fell under $300k. All use the old Nov-15/STRIPS-style basis. Re-priced on Caplet's holdings (same time to maturity from 1 Jan 2027, unchanged curve, every par curve 3 Jan 2000-15 Oct 2026): $300k covered all ten on 562 of 6,698 days (8.4%), on no day from 13 Jul 2007 to 22 Sep 2026, and on 14 days in 2026 starting 23 Sep (not 10 Sep). The 2021 median cost was $427,021; the 4 Aug 2020 peak was $472,013, 105% of both deposits (MODEL).",
+   "evidence": [
+    "team/google_drive/notes_and_discussions.md:173 ('first day in 2026 the ten-payment ladder cost dropped under $300k'), :309-316 ('$289,119, the cheapest since May 2002'; 'Only 11% of days')",
+    "oct16/lenses/L04/hist_ladder.py and oct16/lenses/L04/hist_ladder_output.txt (data: rab/data/treasury_par_2000_2026/, competition/official_market_data/daily-treasury-rates_2026-09.csv, caplet-latest/.../daily-treasury-rates_2026-10.csv)"
+   ],
+   "fix": "If used, the fact goes in the Final Report with a chart, a date, the basis, and the plan's rule for when prices change; the IPS gets at most a figure-free clause. A student rebuilds the figure in a spreadsheet, and the AI help is credited in Works Cited. Drop the case-timing story entirely.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Re-run and log by Sun 15 Nov; Final Report due Sat 5 Dec 09:00 Sydney"
+  },
+  {
+   "id": "UNIQ-05",
+   "title": "Co-sponsor communication is the clearest open chance, and Caplet holds verified evidence most teams lack",
+   "severity": "high",
+   "deliverables": [
+    "FinalReport",
+    "IPS",
+    "Finale"
+   ],
+   "problem": "Creativity now scores communicating 'investment uncertainty clearly and credibly to prospective co-sponsors', a clause new this year. The modal answer will be a percentile band. Five sources re-checked today support a better-designed message: numbers next to probability words; keeping a promise beats exceeding it; seed money signals viability; announcing a lead gift raises giving; one large U.S. capital funder counts only written pledges or cash. Limits: mostly U.S. individual donors or one U.S. foundation, not Taiwanese institutional co-sponsors.",
+   "evidence": [
+    "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:59",
+    "Laura_Gao_2026_Client_Profile.txt:110-120 ('meaningful personal contribution may signal'; 'credible range')",
+    "https://www.nature.com/articles/nclimate2194 (accessed 16 Oct 2026): '25 samples in 24 countries and 17 languages' ... 'closer to 50% than intended'",
+    "https://www.chicagobooth.edu/review/dont-bother-doing-more-than-you-promised (accessed 16 Oct 2026): 'exceeded promises made them no happier'",
+    "https://ideas.repec.org/p/van/wpaper/0008.html (accessed 16 Oct 2026): 'seed money from 10% to 67% ... nearly a sixfold increase'",
+    "https://ideas.repec.org/a/eee/pubeco/v95y2011i5-6p351-362.html (accessed 16 Oct 2026): 'simply announcing the presence of a lead gift'",
+    "https://kresge.org/sites/default/files/GuidetoChallengeGrant.pdf (accessed 16 Oct 2026): 'Written pledges or cash'; 'committed, imminent or backstopped'"
+   ],
+   "fix": "The students' fundraising excerpt must give: a dated, bought bottom; a top set by a stated rule; the chance of reaching the top in words and a number; what bad markets do; and a re-quote rule for the two-year campaign. It must never promise to exceed the top, and it states the evidence's limits. Sources go in the Final Report; the IPS carries only the principle (IPS:68-70, 123-125).",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Principle in IPS outline Wed 28 Oct; excerpt drafted by Sun 22 Nov"
+  },
+  {
+   "id": "UNIQ-06",
+   "title": "'About 99%' confidence is circular and looks like everyone's Monte Carlo; the informative number is the chance of reaching the top",
+   "severity": "medium",
+   "deliverables": [
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "The 16 Oct number sheet's 'about 99% (99.4% of 200,000 paths)' holds because the cap stops the gift from going above the top. [AI] suggestion 12 would put '99 times in 100' into the IPS. The same sheet says the gift is at or near the top in about 3 cases in 4 (MODEL), which is the uncertainty co-sponsors actually face.",
+   "evidence": [
+    "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:17-18",
+    "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:20",
+    "oct16/lenses/L03_strategy_redteam.findings.json STRAT-07"
+   ],
+   "fix": "State why the range holds (the rule) and quantify where inside it the gift is likely to land, with words and a number. Re-run on the holdings basis before quoting. No headline '99%'.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Before the IPS draft, Sat 31 Oct"
+  },
+  {
+   "id": "UNIQ-07",
+   "title": "The rubric scores 'appropriate diversification', and [AI] suggestion 8 deletes V5's only defence of one-issuer concentration",
+   "severity": "high",
+   "deliverables": [
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "Caplet is about 90% U.S. Treasuries plus one world fund. A sector-minded reader may mark that down. V5:24 has the only defence ('Relying on one issuer ... we accept it, since no dollar asset is safer'). [AI] suggestion 8 cuts it 'for words', and its replacement (suggestion 10) is about coupons, not diversification.",
+   "evidence": [
+    "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:55: 'uses appropriate diversification'",
+    "team/google_drive/ips_report/01_version_5.md:24",
+    "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:16, :18",
+    "oct16/research/KB_what_wins.md 7.2 #3 ('U.S. government concentration' as a likely bond-judge probe)"
+   ],
+   "fix": "Keep in the IPS one plain, student-written reason why matching beats spreading for the payments (dollar obligations, dated holdings, one maturity a year) and how the growth money is spread (about 10,000 stocks in one fund). Reject suggestion 8 unless the reason survives elsewhere.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "IPS draft Sat 31 Oct"
+  },
+  {
+   "id": "UNIQ-08",
+   "title": "'Certainty by price, not by model' is distinctive only if it is literally true",
+   "severity": "medium",
+   "deliverables": [
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "Defining certainty by a checkable price is Caplet's most distinctive answer to the case's 'define ... explain how ... assumptions' ask. But the holdings pay coupons that must be reinvested: about $21,000 short if yields fall two points for good (MODEL). V5's 'depends mainly on the US government' overstates, so a bond-expert reader can break the claim.",
+   "evidence": [
+    "Laura_Gao_2026_Client_Profile.txt:97-99",
+    "research/insight_v1/why_us.md:78 (R2)",
+    "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:30-48",
+    "team/google_drive/ips_report/01_version_5.md:20",
+    "oct16/lenses/L03_strategy_redteam.findings.json STRAT-02, STRAT-04"
+   ],
+   "fix": "Before 6 Nov, either adopt a design that is safe even at 0% reinvestment (L03: about $5-10k of the 2028 deposit, MODEL), or state the leftover risk and who absorbs it. Then the definition is both distinctive and true.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Vote set B, Tue 27 Oct"
+  },
+  {
+   "id": "UNIQ-09",
+   "title": "'Operations pre-funded' is a real funder-facing edge, but V5's pitch over-claims it",
+   "severity": "medium",
+   "deliverables": [
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "V5's pitch says co-sponsors 'rarely pay to run it'. The case says operating support beyond Laura's commitment 'may come from co-sponsors'. The verified kernel is weaker but useful: a large capital funder asks applicants whether they have 'a plan for sustaining support gained during the campaign after it concludes'. Laura can answer that for ten years.",
+   "evidence": [
+    "team/google_drive/ips_report/01_version_5.md:16",
+    "Laura_Gao_2026_Client_Profile.txt:85-86",
+    "https://kresge.org/sites/default/files/GuidetoChallengeGrant.pdf (accessed 16 Oct 2026): 'Do you have a plan for sustaining support gained during the campaign after it concludes?'"
+   ],
+   "fix": "Students reframe the claim to what the evidence shows (funders ask who keeps the doors open) and put it with its source in the Final Report. The pitch must not rest on 'rarely'.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "IPS draft Sat 31 Oct"
+  },
+  {
+   "id": "UNIQ-10",
+   "title": "Answer 'too timid' with a measured price of certainty, not more stocks; the existing table is on the old model",
+   "severity": "medium",
+   "deliverables": [
+    "FinalReport",
+    "Finale"
+   ],
+   "problem": "All three simulated Lauras called the plan too timid. The team has a smaller-floor table (each $25k less floor adds about $2-3k at the middle and costs about $9-10k in a bad case), but it came from the STRIPS-era model and cannot be quoted. Most teams will simply assert a 'balance'.",
+   "evidence": [
+    "team/google_drive/notes_and_discussions.md:99, :276-301",
+    "research/insight_v1/scripts/F1_floor_variants.py (named at notes_and_discussions.md:282)",
+    "Laura_Gao_2026_Client_Profile.txt:69-74 ('appropriate balance')"
+   ],
+   "fix": "Re-run the floor-variant comparison and an all-Treasury baseline on WInS-listed holdings and a current curve. Show it in the Final Report as a choice the team made.",
+   "confidence": "medium",
+   "new_vs_known": "new",
+   "deadline": "Re-run by Sun 15 Nov"
+  },
+  {
+   "id": "UNIQ-11",
+   "title": "Write the IPS as a short numbered rulebook in time order, which matches Wharton's own definition of a strategy",
+   "severity": "medium",
+   "deliverables": [
+    "IPS"
+   ],
+   "problem": "Wharton's 2023-24 feedback: 'Your strategy is a set of rules and guidelines; a plan of attack'. Its older guide warned that a strategy 'buried somewhere ... rather than clearly stated ... up front' will not be among the strongest. The modal IPS is an essay of considerations. Structure and headings are allowed.",
+   "evidence": [
+    "oct16/research/KB_what_wins.md 4.1 ([D4], [W6], re-opened)",
+    "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:66 ('You do not need to address these points separately'), :101-102 ('Formatting choices not specified below are left to the team's discretion')"
+   ],
+   "fix": "About six numbered rules, each a decision with its trigger, in date order (2027, 2028, review, 2031, 2033, 2033-42). Count heading words (target at most 470 IPS words on the higher of two counters).",
+   "confidence": "medium",
+   "new_vs_known": "new",
+   "deadline": "IPS outline Wed 28 Oct"
+  },
+  {
+   "id": "UNIQ-12",
+   "title": "Make '11 trades and hold' read as discipline by logging the decisions not to trade",
+   "severity": "medium",
+   "deliverables": [
+    "TNA",
+    "FinalReport"
+   ],
+   "problem": "The Guide rewards 'disciplined decisions'. Caplet has pre-set triggers (the IBTR note's test and the October rule), but the last logged check is the 14 Oct close. The IBTR note's 'about 0.2 percentage points' was 22.7bp of room on 6 Oct and 4.7bp on 15 Oct on its own basis, which is a genuine 'tested' story if dated.",
+   "evidence": [
+    "competition/official/2026_27/2026_WGY_Investment_Competition_Guide.txt:181-182",
+    "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:15",
+    "oct14/final.md section 10 (6 Oct 22.7bp; 14 Oct checks)",
+    "reconcile.py re-run: 15 Oct 4.7bp"
+   ],
+   "fix": "Keep a dated log of each trigger check and the rule's answer ('hold') through 6 Nov. The IBTR reflection dates its figure to one close. The Final Report shows the log as evidence of discipline.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Log from Sat 17 Oct; IBTR figure fixed before Tue 20 Oct"
+  },
+  {
+   "id": "UNIQ-13",
+   "title": "Real, dated learning stories set Caplet apart; the 7 Oct mis-click is double-edged",
+   "severity": "medium",
+   "deliverables": [
+    "FinalReport",
+    "Team"
+   ],
+   "problem": "Articulation scores 'response to challenges'. Caplet has true, specific stories that modal teams lack: the sector-minimum myth traced to a mislabelled site; stale WInS bond prices caught, leading to a 25bp yield-check rule; 'IBTN' found to be an unrelated company; STRIPS dropped after the 6 Oct email. The 7 Oct mis-click shows learning but also tells judges that an AI browser operated WInS, while Wharton names students as the traders. AI use must be recorded in Works Cited anyway.",
+   "evidence": [
+    "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:58",
+    "team/google_drive/final_report.md:33-40",
+    "COMPETITION.md:192-193: 'an AI browser click cancelled the wrong order'",
+    "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:34: 'Students should place trades on WInS, NOT the advisor'",
+    "oct16/lenses/L09_integrity_compliance.findings.json INT-08"
+   ],
+   "fix": "Record who, when, what changed and the AI's role for each story. The team decides together, knowingly, whether the mis-click goes in Articulation with its process fix. Never hide it, never feature it, never invent or polish a story.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Journal back-fill Sun 25 Oct"
+  },
+  {
+   "id": "UNIQ-14",
+   "title": "'Root-and-Branch' is an English idiom for a complete overhaul",
+   "severity": "low",
+   "deliverables": [
+    "IPS",
+    "TNA",
+    "FinalReport"
+   ],
+   "problem": "Merriam-Webster defines 'root-and-branch' as 'complete or thorough', with the example 'a root and branch overhaul of local schools'. A native-English judge may read 'radical change' into a hold strategy. The tree image does echo Laura's book Messy Roots, which is a plus. Last year's team used a heavy metaphor set.",
+   "evidence": [
+    "https://www.merriam-webster.com/dictionary/root-and-branch (accessed 16 Oct 2026): ': complete or thorough' / 'a root and branch overhaul of local schools'",
+    "Laura_Gao_2026_Client_Profile.txt:22 (Messy Roots)",
+    "team/google_drive/2025_knox_wharton.md:188, :846 (Foundation/Construction/Transformation; 'Builder Mindset')"
+   ],
+   "fix": "Ask two native-English adults outside the team what the name suggests. If kept, explain the image once and theme nothing else.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "With vote set A, Sun 18 Oct"
+  },
+  {
+   "id": "UNIQ-15",
+   "title": "iBond ETFs as 'dated cash' are a true trade-level edge; prepare IBTM as the semifinal ETF case study",
+   "severity": "medium",
+   "deliverables": [
+    "FinalReport",
+    "Finale",
+    "TNA"
+   ],
+   "problem": "WInS lists no Treasury maturing Feb 2031 to Feb 2036, so Caplet used defined-maturity iBond funds: cash-flow matching under the WInS-only rule, where many teams will use duration-matched IEF/TLT (INFERENCE). Past semifinals required 'a case study of one stock or ETF' and banned new material, and a fixed-income or credit judge sat on the 2024-2026 finale panels.",
+   "evidence": [
+    "team/google_drive/final_report.md:34",
+    "oct16/research/KB_what_wins.md 2.2, 2.4 ([D1], [N10], [N13], [N16])",
+    "iShares page cached 14 Oct (oct14/wins7/ibtp.html): 'the Funds do not seek to return any predetermined amount'"
+   ],
+   "fix": "The Final Report explains IBTM's two jobs, what it holds, why its payout is not fixed and what happens in its final months, in plain words, so it is already on file for a semifinal case study.",
+   "confidence": "medium",
+   "new_vs_known": "known-deeper",
+   "deadline": "Final Report, Sat 5 Dec 09:00 Sydney"
+  },
+  {
+   "id": "UNIQ-16",
+   "title": "Label every number with its basis and date; it is cheap, rare and directly marked",
+   "severity": "medium",
+   "deliverables": [
+    "TNA",
+    "FinalReport"
+   ],
+   "problem": "Portfolio Analysis scores 'reasonable assumptions and projections'. Caplet already has two 'ladder costs' for the same day ($294.5k and $298.6k). A visible convention (market price with date / model estimate / assumption) prevents that error and shows judgement.",
+   "evidence": [
+    "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:57",
+    "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:12-13",
+    "oct16/lenses/L08_coherence_numbers.findings.json COH-08"
+   ],
+   "fix": "Keep one student-owned numbers sheet. Each figure in the TNA reflections and Final Report carries its date and type. The IPS keeps very few figures (IPS:51-52).",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Before TNA reflections, Tue 20 Oct"
+  },
+  {
+   "id": "UNIQ-17",
+   "title": "AI wording is the modal 2026 voice; the [AI] suggestion rule gives away Caplet's most distinctive asset",
+   "severity": "high",
+   "deliverables": [
+    "IPS",
+    "TNA",
+    "FinalReport"
+   ],
+   "problem": "Creativity scores 'an authentic team voice', and Wharton flagged 'generated or generic responses' in 2025-26. The 16 Oct rule lets the AI edit all three deliverables as [AI] suggestions, and 13 IPS rewrites already exist. V5 is described by a team comment as 'Best version that AI generated'. A team whose analysis is largely AI-built can still stand out through its own words and real story; accepting AI wording removes that.",
+   "evidence": [
+    "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:59",
+    "oct16/research/KB_what_wins.md 4.2 ([D1]: 'authentic team voice, not generated or generic responses')",
+    "caplet-latest/CLAUDE.md:26-30",
+    "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:9-21",
+    "team/google_drive/ips_report/01_version_5.md:36"
+   ],
+   "fix": "Limit AI items to facts, numbers and flags. Students write every submitted sentence. Accepted AI ideas are credited in Works Cited.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Team decision Sun 18 Oct"
+  },
+  {
+   "id": "UNIQ-18",
+   "title": "Several tempting 'clever' ideas would cost marks or credibility",
+   "severity": "medium",
+   "deliverables": [
+    "All"
+   ],
+   "problem": "Themed picks (EWT, TSMC, GLD) are not hedges and the strategy freezes on 6 Nov. Quant showcases invite 'hiding behind fancy terms'. Marketing the AI council risks ownership and plagiarism problems. The case-timing story is false on the holdings basis. Laura-biography details and quotes are unverified or inappropriate for a real person. Chinese-language text, comic art in the written round, '99.4%'-style precision and Australian branding all risk backfiring.",
+   "evidence": [
+    "team/google_drive/final_report.md:39 (EWT, GLD)",
+    "oct16/research/KB_what_wins.md 4.2 ([N12], [D4]) and 3.2 (Hotchkiss)",
+    "docs/benchmark_against_previous_teams.md:21-25",
+    "team/google_drive/notes_and_discussions.md:173, :203, :232-246, :268-270",
+    "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:123 (no images in the IPS)"
+   ],
+   "fix": "Agree a 'do not use' list (section 6 of the lens file) with vote set A. The TNA editor and IPS format checker check drafts against it.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Sun 18 Oct"
+  },
+  {
+   "id": "UNIQ-19",
+   "title": "The Australian angle earns a place only as authentic detail in Articulation",
+   "severity": "low",
+   "deliverables": [
+    "FinalReport"
+   ],
+   "problem": "No Australian school has made a Top 50 since 2021-22, which is motivation, not content. The one true, client-neutral detail is trading a U.S. market overnight: orders were placed while the U.S. market was closed and filled at the next open, and the journal records a member asleep at 12:30 AM. Australian framing of the strategy (for example superannuation analogies) does not serve Laura.",
+   "evidence": [
+    "oct16/research/KB_what_wins.md 5.2",
+    "oct14/final.md section 5 (orders placed while the market was closed, filled at next open)",
+    "team/google_drive/final_report.md:43",
+    "team/google_drive/notes_and_discussions.md:205 ('Inspirations from Australian superannuation?')"
+   ],
+   "fix": "At most one line in Articulation about what the team learned (order timing, next-open fills). No 'first Australian' claims.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Final Report, Sat 5 Dec 09:00 Sydney"
+  },
+  {
+   "id": "UNIQ-20",
+   "title": "Ladder-cost basis for every differentiator: use the holdings basis ($298.6k, $1.4k room), not the number sheet's $294k",
+   "severity": "medium",
+   "deliverables": [
+    "IPS",
+    "TNA",
+    "FinalReport"
+   ],
+   "problem": "The 16 Oct number sheet's $294k and $5.5k room price an ideal ladder that matures on each 1 Jan payment date. Caplet's holdings mature 2 weeks to 10.5 months earlier and cost about $298.6k on 15 Oct (room $1,372, 4.7bp, unchanged curve; $297,847 and $2,153 forward). About $3,400 of the gap is the dates and about $800 the curve basis. The sheet's '1 case in 3' is scaled to the lower figure. The 'two jobs' and 'why now' ideas both depend on this number.",
+   "evidence": [
+    "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:12-13",
+    "caplet-latest/research/ips_numbers_2026-10/ips_numbers.py:85-87 (prices to dt.date(y, 1, 1)), :122",
+    "oct16/research/KB_verify/num/reconcile.py re-run 16 Oct: payment dates fwd $294,461 / unch $295,246; WInS maturities fwd $297,847 / unch $298,628",
+    "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:13 (suggestion 5, 'about $294,000')"
+   ],
+   "fix": "Use the holdings basis for every Caplet claim, dated, in all three deliverables. Use the ideal-ladder figure only as a labelled comparison. Do not accept [AI] suggestion 5.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Before the IBTR reflection, Tue 20 Oct"
+  }
+ ]
+}

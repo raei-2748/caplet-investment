@@ -1,0 +1,143 @@
+[
+ {
+  "id": "G2-01",
+  "title": "The 'why not corporates?' question now has a dated dollar answer: about $10.7k gross for the five rungs the rules allow, about $4-9k after credit losses",
+  "severity": "high",
+  "deliverables": [
+   "FinalReport",
+   "Finale"
+  ],
+  "problem": "A U.S. credit investment manager from Aberdeen sat on the 2025 and 2026 finale panels, and the rubric scores 'appropriate diversification'. Caplet's only reasons for holding no credit are words (decisions/03 'Default and downgrade risk conflicts with the certainty mandate') and a superseded STRIPS-basis estimate. On the holdings basis and 14-15 Oct market data, swapping IBTM-IBTR for the same-year corporate iBonds (IBDX, IBDY, IBDZ, IBCA, IBCB; yield gaps 76-99bp, fee 0.03% higher) frees about $10,743 (MODEL), about $9,504 after a ~0.10%/yr default allowance (ASSUMPTION: S&P investment-grade 5-year cumulative default 0.76%, 40% recovery) and about $4,449 after J.P. Morgan's ~0.50%/yr downgrade-and-default drag (Oct 2021, pension context, old). In exchange, the 2033-2037 payments would rest on 346-435 company bonds per fund, 50-60% rated BBB. Without these numbers the team cannot show the judge it priced the trade-off.",
+  "evidence": [
+   "oct16/gaps/G2_credit_alternatives/results.json corp_ibonds_rungs_2033_2037.total: none 10743, default_only_10bp 9504, jpm2021_50bp 4449; treasury.unch 298628, room_unch 1372",
+   "https://www.ishares.com/us/product-screener/product-screener-v3.1.jsn (iShares screener, accessed 16 Oct 2026): YTW 14 Oct 2026 IBTM 5.05/IBDX 5.81, IBTO 5.09/IBDY 5.90, IBTP 5.14/IBDZ 6.01, IBTQ 5.17/IBCA 6.06, IBTR 5.18/IBCB 6.17; fees 0.07 vs 0.10",
+   "https://www.ishares.com/us/products/350212/ishares-ibonds-dec-2036-term-corporate-etf (accessed 16 Oct 2026): 'Number of Holdings 346'; 'BBB Rated49.62%'; IBDX page: 435 holdings, 'BBB Rated55.64%'; IBDZ 381 holdings, BBB 60.13%",
+   "https://thewire.fiig.com.au/article/2026/07/15/attempting-to-quantify-the-risk-of-bonds-with-credit-ratings (accessed 16 Oct 2026): table 'Data from S&P's 2025 annual global corporate default study': Investment grade 5 years 0.76 (secondary reproduction of S&P; S&P page returned 403)",
+   "research/insight_v1/phase_B/B4b_practice_benchmark.md:231: 'Downgrades and defaults ... approximately 50 basis points (bps) of return per year' (J.P. Morgan AM, Oct 2021)",
+   "decisions/03_reserve_composition.md:16 'Default and downgrade risk conflicts with the certainty mandate'; :46 'What it will not hold: equities, corporate credit, TIPS, or bond funds.'",
+   "https://globalyouth.wharton.upenn.edu/articles/2026-investment-competition-global-champions/ (accessed 16 Oct 2026): finale panel includes a 'U.S. Credit Investment Manager, Aberdeen Investments'",
+   "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:55 'uses appropriate diversification'"
+  ],
+  "fix": "The team decides whether to keep Treasuries (no change is recommended: the numbers show a priced trade-off, not an error). Whatever it decides, the Final Report's alternatives table should carry one row on corporates with: the dollar figure, its basis (holdings maturities, curve date) and the credit-loss allowance, and which payments it would put at risk. Re-run g2_credit.py on the 6 Nov close so the figure matches the frozen portfolio. Success test: a student can say in one sentence what about $10k of extra yield would buy and what it would bet.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "Final Report Fri 4 Dec 5pm ET (Sat 5 Dec 09:00 Sydney); re-run numbers on the 6 Nov freeze close",
+  "lens": "G2",
+  "verdict": "self-verified"
+ },
+ {
+  "id": "G2-02",
+  "title": "A rules-based reason the team has not used: corporate bonds are allowed only through funds, and no dated corporate fund reaches the 2038-2042 payments",
+  "severity": "high",
+  "deliverables": [
+   "FinalReport",
+   "Finale",
+   "IPS"
+  ],
+  "problem": "Wharton permits stocks, ETFs and 'Government/Treasury Bonds' and bans 'Anything other than the approved investments', so individual corporate bonds are out. iShares' dated corporate funds stop at Dec 2036 (as do its dated Treasury funds). So the judge's 'buy the payments with corporates' can at most cover 2033-2037; the 2038-2042 payments could use only non-maturing funds (e.g. IGLB, LQD), which have no fixed payout and turn matching into 'on average'. The full ten-rung hypothetical would save $23.3k-$28.0k on 14 Oct spreads but cannot be built under the rules. No lens or decision file states this.",
+  "evidence": [
+   "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:42-45 'Investments permitted (for BOTH contributions): ... Any Exchange-Traded Funds (ETFs) available on WInS. Any Government/Treasury Bonds from any exchange available on WInS.'; :52 'Anything other than the approved investments listed above.'",
+   "iShares screener (accessed 16 Oct 2026): iBonds Term Corporate funds found for Dec 2031-Dec 2036 only (IBDW, IBDX, IBDY, IBDZ, IBCA, IBCB); no 2037+ fund",
+   "results.json flat_spread_all_ten_rungs: all IG 0.84% gross_saving 23273; 7-10y IG 1.02% gross_saving 27991",
+   "iShares screener (accessed 16 Oct 2026): IGLB YTW 6.50%, duration 11.49; LQD YTW 6.11%, duration 7.54 (14 Oct 2026)",
+   "https://www.ishares.com/us/products/350212/ishares-ibonds-dec-2036-term-corporate-etf (accessed 16 Oct 2026): 'the Funds do not seek to return any predetermined amount'"
+  ],
+  "fix": "Students check in WInS whether IBDX, IBDY, IBDZ, IBCA, IBCB are listed (confirm the fund name, not just the ticker: COMPETITION.md:94 records 'IBTN on WInS is INSCORP Inc'). Other providers' dated corporate funds (e.g. Invesco BulletShares) were not checked: UNVERIFIED. The Final Report row should state the rule fact and the 2036 limit with their sources; the IPS needs at most one principle on why the payment money holds one issuer.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "WInS listing check before 6 Nov freeze (read-only); Final Report 4 Dec",
+  "lens": "G2",
+  "verdict": "self-verified"
+ },
+ {
+  "id": "G2-03",
+  "title": "V5's 'no dollar asset is safer' is open to a ratings challenge; market pricing, not ratings, is the evidence that holds",
+  "severity": "medium",
+  "deliverables": [
+   "IPS",
+   "FinalReport",
+   "Finale"
+  ],
+  "problem": "IPS V5 says 'Relying on one issuer for the roots may look like a weakness, but we accept it, since no dollar asset is safer.' A credit specialist knows the US is no longer AAA: BlackRock itself labels IBTM '99.97% AA Rated', while the corporate iBonds hold some AAA bonds (0.26-1.43%). On ratings alone the claim fails. What supports it is the market: on 14 Oct the AAA corporate index still paid 0.40% over Treasuries, and AA 0.60%, so investors price Treasuries as safer than even AAA companies. The [AI] suggestion 8 would delete the sentence (already flagged by UNIQ-07/JUDGE-05); this finding is about the evidence if any version stays.",
+  "evidence": [
+   "team/google_drive/ips_report/01_version_5.md:24 'Relying on one issuer for the roots may look like a weakness, but we accept it, since no dollar asset is safer.'",
+   "https://www.ishares.com/us/products/328944/ishares-ibonds-dec-2032-term-treasury-etf (accessed 16 Oct 2026): 'AA Rated99.97%', 15 holdings",
+   "FRED BAMLC0A1CAAA 0.40 and BAMLC0A2CAA 0.60 on 2026-10-14 (https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A1CAAA,BAMLC0A2CAA, accessed 16 Oct 2026)",
+   "research/insight_v1/phase_B/B4b_practice_benchmark.md:306 'Moody's downgraded the United States to Aa1 from Aaa on 2025-05-16 (SNIP; moodys.com press release not opened)' (primary UNVERIFIED)",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:16 suggestion 8 '(cut)'"
+  ],
+  "fix": "If the team keeps a safety claim, base it on something checkable (market spread on the day; dollar-denominated; held to maturity) and check the current US ratings on the day before quoting any. A credit judge should not be able to answer with 'Microsoft-type AAA companies are rated higher' unrebutted.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "IPS Fri 6 Nov 5pm ET (Sat 7 Nov 09:00 Sydney, after US clock change); Final Report 4 Dec",
+  "lens": "G2",
+  "verdict": "self-verified"
+ },
+ {
+  "id": "G2-04",
+  "title": "Do not reuse the old '$16k-22k' corporate saving: it was on the retired STRIPS basis and the all-maturity spread",
+  "severity": "medium",
+  "deliverables": [
+   "FinalReport",
+   "Finale"
+  ],
+  "problem": "The only priced corporate figure in the repo ('about $16k-22k less than $292,264' at 58-79bp, FRED 24 Sep) prices an ideal Nov-15/payment-date ladder that the 6 Oct email retired, and uses the whole-index spread. A credit manager would use a maturity-matched spread: on 14 Oct the 7-10y and 10-15y IG spreads were 1.02-1.03%, above the all-maturity 0.84%, because short bonds pull the index average down. The J.P. Morgan 0.50%/yr drag is from Oct 2021 and measured against corporate-discounted pension liabilities, so it overstates the drag on a buy-and-hold rung (but includes forced sales of downgraded bonds, which a term index may also make: UNVERIFIED).",
+  "evidence": [
+   "research/insight_v1/phase_B/B4b_practice_benchmark.md:284-298 ('a ladder yielding 58-79bp more would cost about $16k-22k less than $292,264')",
+   "FRED BAMLC0A0CM 0.84, BAMLC4A0C710Y 1.02, BAMLC7A0C1015Y 1.03 on 2026-10-14 (accessed 16 Oct 2026); all-IG OAS range 16 Oct 2023-14 Oct 2026: 0.73-1.33, median 0.84",
+   "research/insight_v1/phase_D/_work/D13b_contexts.json:405 (J.P. Morgan text: 'Investment grade (IG) bond portfolios fully absorb the costs associated with credit risk, while liabilities are immune')",
+   "results.json flat_spread_all_ten_rungs"
+  ],
+  "fix": "Use only holdings-basis figures with date and spread source; quote a range (default-only allowance to the J.P. Morgan drag) rather than one number; mark the J.P. Morgan figure as 2021.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "Final Report 4 Dec",
+  "lens": "G2",
+  "verdict": "self-verified"
+ },
+ {
+  "id": "G2-05",
+  "title": "Other governments' bonds: rule conflict unresolved, currency risk is about $10-12k per payment over 10 years, and hedging removes the gain",
+  "severity": "medium",
+  "deliverables": [
+   "FinalReport",
+   "Finale"
+  ],
+  "problem": "Spreading issuer risk across UK, German, French, Italian or Dutch government bonds is the other obvious 'diversify the issuer' question. (1) Rules: the public Trading page lists those countries' Treasury bonds, but COMPETITION.md records that the logged-in session rules and the 6 Oct email say US Treasuries; unresolved. (2) Currency: Laura owes US dollars and the team cannot hedge (derivatives banned). One standard deviation over 10 years is about +/-25% for EUR/USD and +/-31% for GBP/USD (about $10-12k on a $50k payment); the worst 10-year fall in GBP/USD since 1971 is -56%. (3) Yield: unhedged international Treasuries (IGOV) yield 3.91% vs IBTR 5.18%, so such a ladder would cost roughly $39.5k more (rough MODEL). USD-hedged funds yield about the same as US Treasuries (GGOV 5.25%, IAGG 5.04% vs IBTM 5.05%) and never mature; whether a hedged ETF is allowed is an interpretation (UNVERIFIED).",
+  "evidence": [
+   "competition/official/2026_27/smapply_public_2026-10-14/trading.txt:46 'The list includes Treasury bonds from the United States, United Kingdom, Germany, France, Italy, and the Netherlands.'",
+   "COMPETITION.md:77 'public page lists US, UK, Germany, France, Italy, Netherlands; the session rules and the 6 Oct email say **US Treasuries**'",
+   "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:51 'Derivatives (options, futures, swaps, etc.)' (not permitted); trading.txt:38 'exchange-rate movements may affect the value of your holdings'",
+   "FRED DEXUSEU/DEXUSUK daily to 2026-10-09 (accessed 16 Oct 2026); results.json fx: EURUSD vol_10y 7.10%, one_sigma_10y 25.2%; GBPUSD vol_10y 8.55%, one_sigma_10y 31.0%, rolling10y_worst -55.8%",
+   "iShares screener (accessed 16 Oct 2026): IGOV YTW 3.91 (dur 7.24); GGOV YTW 4.29, fxHedgedYield 5.25, fee 0.39; IAGG fxHedgedYield 5.04; IBTR 5.18; IBTM 5.05 (14 Oct 2026)",
+   "results.json foreign_unhedged_flat_shift extra_vs_treasury 39513"
+  ],
+  "fix": "Record the rule conflict and how it was settled (session-rules screenshot or a Wharton reply), not an assumption. In the alternatives table, a one-line currency reason with a dated volatility figure is enough.",
+  "confidence": "medium",
+  "new_vs_known": "new",
+  "deadline": "Final Report 4 Dec",
+  "lens": "G2",
+  "verdict": "self-verified"
+ },
+ {
+  "id": "G2-06",
+  "title": "The $1.4k room and a single default are small; a downgrade wave is the credit risk that matters, and the room cannot absorb it",
+  "severity": "low",
+  "deliverables": [
+   "FinalReport",
+   "Finale"
+  ],
+  "problem": "$1,372 of room is 2.74% of one $50k rung or 0.27% of the ladder's face. One issuer defaulting inside a 350-435-bond corporate fund costs a rung roughly $300-600 (ASSUMPTION: 1-2% weight, 40% recovery), which the room covers. The risk a credit manager would stress is a recession year where many BBB bonds are cut to junk together (S&P: global investment-grade defaults peaked at 14 in 2008, per FIIG), possibly in 2030-2036 when the corporate rungs mature. A Treasury rung has no such tail. Mixing up the two scales (single default vs wave) would weaken the answer.",
+  "evidence": [
+   "results.json room_as_share {of_one_rung_pct 2.74, of_ladder_face_pct 0.274}; issuer_default_illustration",
+   "https://thewire.fiig.com.au/article/2026/07/15/attempting-to-quantify-the-risk-of-bonds-with-credit-ratings (accessed 16 Oct 2026): 'global investment grade defaults peaked at 14 in 2008 - from a sample of over 3,000'",
+   "COMPETITION.md:155 'Jan 2028, $150k: first fill any gap in the ladder'"
+  ],
+  "fix": "If the team discusses credit, name the downgrade-wave scenario and which payments it hits, and note that any shortfall would be met from the 2028 deposit/floor, lowering Laura's facility money. Top issuer weights for the corporate iBonds were not retrievable (UNVERIFIED).",
+  "confidence": "medium",
+  "new_vs_known": "new",
+  "deadline": "Final Report 4 Dec; finale Q&A",
+  "lens": "G2",
+  "verdict": "self-verified"
+ }
+]

@@ -1,0 +1,371 @@
+{
+  "file": "oct16/lenses/L06_ips_attack.md",
+  "summary": "IPS V5 passes the format gate but only just: recounted at 47/50 pitch words and 497/505 IPS words (spaces / hyphens split), and 41 of 46 double-spaced lines on Letter. A blank line between paragraphs spills onto a 4th page. The title page must still be copied exactly from the roster and the WInS login. V5 cannot be the base text: the team's own comment says it is AI-generated, and the 16 Oct [AI] suggestion rule does not help, because the IPS bans citations, so AI wording would be undisclosed when judged. The worst content flaw is now a rule flaw. On the team's own 16 Oct model, V5's rules pay the facility floor in full in every path and keep the gift in range in 99.4% of paths, yet leave a later operating payment short in about 6-7% of paths, with Laura keeping $0 at the 5th percentile. This reverses the case's rule that the range must protect the payments. 'High degree of certainty' is still undefined and untested, and V5 dropped the definition and since-2000 test the 30 Sep draft had. Nine plain questions about floor size, the 2031 bottom and top, the 2033 gift, 'half', post-2033 shortfalls, the leftover, waiting cash and a late 2028 deposit have no answer in V5. These rules bind after 6 Nov. Against the CFA Institute's IPS elements, V5 lacks a return objective (the payments need about 5.09% a year on $300k), allocation ranges, a stated no-rebalancing policy, liquidity, the eligible-securities constraint (the live FAQ now says the permitted list applies to 'the IPS and Final Report'), measurable review triggers and who-does-what. It names its strategy only after 165 of 497 words. On the ladder-cost conflict: $294,453 and $298,628 use the same 15 Oct curve and payments but price to payment dates versus the maturities Caplet actually holds (plus forward versus unchanged yields). The WInS bonds were sized to deliver each payment by their own maturity, so use the holdings basis for Caplet's claims, and preferably put no figure in the IPS. Several 16 Oct [AI] suggestions would add errors (a false 'only', a wrong-basis cost, 'normally $150,000', a disclosed shortfall with no owner, a range and 99% figure the brief does not ask for).",
+  "findings": [
+    {
+      "id": "IPS-01",
+      "title": "V5 is AI-generated; the 16 Oct [AI] rule cannot make AI wording usable in a no-citation IPS",
+      "severity": "critical",
+      "deliverables": ["IPS"],
+      "problem": "The team's comment calls V5 the 'Best version that AI generated'. The new rule lets the AI put [AI] suggestions into the IPS Doc, but the IPS allows no citations, so accepted AI wording would sit undisclosed in a judged document until the 4 Dec Works Cited. Wharton bans passing off AI work and scores 'an authentic team voice'.",
+      "evidence": [
+        "team/google_drive/ips_report/01_version_5.md:36 'Best version that AI generated; We cannot submit as it is'",
+        "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:123 'footnotes, and formal citations are not permitted'",
+        "caplet-latest/CLAUDE.md:27-30 '[AI]' suggestion rule",
+        "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:59 'an authentic team voice'",
+        "https://globalyouth.wharton.upenn.edu/ai-policy/ (accessed 16 Oct 2026, via KB [W5]) 'use their voice and words'"
+      ],
+      "fix": "Students write a fresh IPS from their own decision outline with V5 and the suggestion list closed. AI is limited to fact, number and format checks. Each paragraph has a named student author who can defend every sentence aloud.",
+      "confidence": "high",
+      "new_vs_known": "known-deeper",
+      "deadline": "Outline Tue 27 Oct; draft Sat 31 Oct; submit Thu 5 Nov Sydney (hard deadline Sat 7 Nov 09:00 Sydney = Fri 6 Nov 5 pm ET)"
+    },
+    {
+      "id": "IPS-02",
+      "title": "V5's rules protect the floor and the range ahead of the operating payments",
+      "severity": "critical",
+      "deliverables": ["IPS", "FinalReport", "TNA"],
+      "problem": "V5's shortfall order (leftover, then Laura's half, then the gift above the floor) never touches the floor and only acts in 2033. The team's own model: floor below quote 0.0%, gift in range 99.41%, a payment needing more than the leftover plus Laura's half 7.08%, post-2033 shortfall beyond what she kept 6.3%, Laura keeps $0 at p5. The case says the range must also protect the payments.",
+      "evidence": [
+        "team/google_drive/ips_report/01_version_5.md:26 'Any shortfall expected in 2033 comes first from the 2027 leftover, then the half Laura keeps, then the contribution above the floor.'",
+        "caplet-latest/research/ips_numbers_2026-10/results.json:130 p_gift_inside_range 0.9941; :133 p_floor_holding_pays_below_bottom 0.0; :138 p_exceeds_what_laura_kept 0.063; :146 0.0708; :147 laura_kept_2033 p5 0",
+        "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:119-120 'The proposed range must also protect the portfolio's ability to fund the ten-year operating commitment.'",
+        "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:46-54 (chain covers about 93 of 100 paths; three options)"
+      ],
+      "fix": "The team picks one rule (state the risk with a level, keep Laura's half to 2042, a 2028 buffer, or a less reinvestment-dependent ladder) so payment certainty is at least as high as range certainty. The IPS states the protection order through 2042 as a principle. No range confidence appears without the payment confidence beside it.",
+      "confidence": "high",
+      "new_vs_known": "known-deeper",
+      "deadline": "Floor description by Sun 18 Oct (feeds TNA); rule at vote set B Tue 27 Oct"
+    },
+    {
+      "id": "IPS-03",
+      "title": "'High degree of certainty' undefined, untested, no assumptions; V5 dropped the 30 Sep definition and test",
+      "severity": "high",
+      "deliverables": ["IPS", "FinalReport"],
+      "problem": "The case requires a definition, how it was evaluated and the assumptions. V5 says only 'with high certainty'. The 30 Sep text had a definition sentence and a since-2000 curve test; V5 lost both. Under the WInS-only rule reinvestment risk is real (a 1-in-20 shortfall of about $25k, MODEL).",
+      "evidence": [
+        "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:97-99 'define what they consider a high degree of funding certainty, explain how they evaluated that level of certainty, and identify the assumptions'",
+        "team/google_drive/ips_report/01_version_5.md:20 'with high certainty from these two deposits alone'",
+        "rab/decisions/D_ips_edit_ledger.md L1 'By high certainty we mean...' and cuts table 'We tested this on every Treasury curve since 2000.'",
+        "caplet-latest/research/ips_numbers_2026-10/results.json ladder_shortfall p95 25476"
+      ],
+      "fix": "The IPS states the standard (payments bought in advance with Treasuries held to maturity), one test on WInS-listed holdings with its key assumption, the named remaining risks (default, iBond payout, reinvestment, waiting cash, pre-2027 yields, 2028 deposit) and which money absorbs each. Results go in the Final Report.",
+      "confidence": "high",
+      "new_vs_known": "known-deeper",
+      "deadline": "Vote set B Tue 27 Oct"
+    },
+    {
+      "id": "IPS-04",
+      "title": "Absolute words false by the team's own numbers; [AI] suggestion 2 adds another",
+      "severity": "high",
+      "deliverables": ["IPS", "TNA"],
+      "problem": "'secure', 'depends mainly on the US government', 'never below the floor' and 'cannot miss the range' conflict with the IBTM note ('final payout is not fixed') and with the model (gift outside range in 0.6% of paths). [AI] #2 changes 'mainly' to 'only' for principal, which is false for the five iBond rungs.",
+      "evidence": [
+        "team/google_drive/ips_report/01_version_5.md:28 'never below the floor'; :30 'so she cannot miss the range'",
+        "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:19 'although the final payout is not fixed'",
+        "COMPETITION.md:168 'never say \"risk-free\" or \"guaranteed\"'",
+        "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:10 'principal depends only on the US government'",
+        "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:72-73 iShares: an iBond ETF 'does not seek to return any predetermined amount'"
+      ],
+      "fix": "Every certainty word is literally true on the WInS-listed holdings and matches the TNA. Very likely outcomes are stated with a level or a condition, never as absolutes.",
+      "confidence": "high",
+      "new_vs_known": "known-deeper",
+      "deadline": "Allowed/banned words by Sun 18 Oct"
+    },
+    {
+      "id": "IPS-05",
+      "title": "Nine questions about the floor, range, gift and shortfall rules have no answer in V5",
+      "severity": "high",
+      "deliverables": ["IPS", "FinalReport"],
+      "problem": "The rules that bind after 6 Nov are ambiguous: floor size (the floor is below $150k in 35.2% of the model's paths); the 2031 bottom ('after any expected shortfall', by what method, and why it cuts the floor when V5:26 says otherwise); 2031 valuation date and re-quote rule; 'the floor' meaning both quote and payout; which 'half'; post-2033 shortfalls; the leftover's size and home; where coupons and early maturities wait; a late or small 2028 deposit. The Final Report must compute from these rules.",
+      "evidence": [
+        "team/google_drive/ips_report/01_version_5.md:24 'sized to return that remainder'; :26; :30 'quoted rounded down after any expected shortfall, to the floor plus half the equity fund's value then'",
+        "caplet-latest/research/ips_numbers_2026-10/results.json:115 p_floor_remainder_below_150k 0.352",
+        "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:73-74 'Your team may not revise its investment strategy after the submission deadline.'",
+        "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:109 'begin approaching potential co-sponsors in 2031'"
+      ],
+      "fix": "Each question has exactly one answer in the IPS, written as a rule a stranger could apply. Test: a non-author student applies the rules to one made-up good and one bad market and gets the author's numbers.",
+      "confidence": "high",
+      "new_vs_known": "new",
+      "deadline": "Rules at vote set B Tue 27 Oct; stranger test Sat 31 Oct"
+    },
+    {
+      "id": "IPS-06",
+      "title": "Most elements of a professional IPS are missing: return objective, ranges, rebalancing policy, constraints, metrics, governance",
+      "severity": "high",
+      "deliverables": ["IPS"],
+      "problem": "Against the CFA Institute's 2010 IPS elements, V5 has objectives and a risk paragraph but no return requirement, no targets with ranges, no stated rebalancing policy, no liquidity or legal constraint, no measurable review metrics and no who-does-what. Each costs few words: the payments need 5.09% a year on $300k; the 15 Oct holdings-basis ladder locks in about 5.13% (my calculation, MODEL).",
+      "evidence": [
+        "https://rpc.cfainstitute.org/-/media/documents/article/position-paper/investment-policy-statement-individual-investors.pdf (accessed 16 Oct 2026): 'target allocations to each asset class, with allowable ranges around the targets'; 'If the policy is not to rebalance, this policy should be documented in the IPS.'",
+        "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:3-4 'outlines an investor's financial goals, risk tolerance, and guidelines for managing a portfolio'",
+        "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:74 'Define your client's investment objectives, risk tolerance, and overall investment strategy.'",
+        "team/google_drive/ips_report/01_version_5.md:26 'Until 2033 the portfolio is held without trading'"
+      ],
+      "fix": "The students' version covers each element as a principle: return the payments need; mix at each stage with a stock range; the no-rebalancing policy and the few trades it allows; liquidity each 1 Jan; eligible securities; two or three yearly checks with triggers; who decides.",
+      "confidence": "high",
+      "new_vs_known": "new",
+      "deadline": "In the outline, Tue 27 Oct"
+    },
+    {
+      "id": "IPS-07",
+      "title": "Three of the brief's four required approaches are thin; flexibility, responsible, liquidity, diversification never appear",
+      "severity": "high",
+      "deliverables": ["IPS"],
+      "problem": "The brief says the IPS should establish the approach to the commitment, the reserve's composition over time, a responsible contribution and appropriate flexibility. V5 covers the first well and the rest in one sentence each. The stems flexib-, responsib-, liquidity and diversif- appear 6, 3, 4 and 1 times in the brief and 0 times in V5. Diversification is a scored criterion word.",
+      "evidence": [
+        "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:48-50 'establish your strategic approach to preparing for the operating commitment, managing the operating reserve's asset composition over time, determining a responsible facility contribution, and preserving appropriate financial flexibility'",
+        "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:45-47 'risk and return, liquidity, portfolio construction and diversification'",
+        "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:55 'uses appropriate diversification'",
+        "oct16/L06/wc.py term counts on team/google_drive/ips_report/01_version_5.md:16-30"
+      ],
+      "fix": "Tick the students' draft against the 4 + 5 official items and the criterion word 'diversification'. Each is handled as a principle in the students' own words.",
+      "confidence": "high",
+      "new_vs_known": "known-deeper",
+      "deadline": "Check Sat 31 Oct; recheck Wed 4 Nov"
+    },
+    {
+      "id": "IPS-08",
+      "title": "Strategy not up front: approach named at word 166 of 497; about a tenth restates the case",
+      "severity": "high",
+      "deliverables": ["IPS"],
+      "problem": "The first 165 words are case restatement plus a risk profile. The opening 27-word sentence and the start of V5:22 repeat case facts. Wharton warns that a buried strategy will not be among the strongest and against 'repeating known facts about your client'. The brief's first question is the central idea.",
+      "evidence": [
+        "team/google_drive/ips_report/01_version_5.md:20 'This policy governs the portfolio Laura Gao funds with $300,000...' and :24 'Our approach, Root-and-Branch' (word 166, oct16/L06/wc.py)",
+        "https://globalyouth.wharton.upenn.edu/developing-strategy/ (accessed 16 Oct 2026) 'rather than clearly stated, defined and articulated up front, you will not be among the strongest teams'",
+        "https://globalyouth.wharton.upenn.edu/wp-json/wp/v2/pages/3778 (accessed 16 Oct 2026) 'Don't use precious space repeating known facts about your client and defining concepts.'",
+        "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:16 'What is the central idea behind your investment strategy?'"
+      ],
+      "fix": "The central idea appears in the first two sentences of the IPS body. Case facts appear only where a rule needs them, with a target of no more than 20 words of pure restatement.",
+      "confidence": "high",
+      "new_vs_known": "new",
+      "deadline": "Draft Sat 31 Oct"
+    },
+    {
+      "id": "IPS-09",
+      "title": "Laura's kept half has three jobs and 'responsible' is never tested",
+      "severity": "high",
+      "deliverables": ["IPS", "FinalReport"],
+      "problem": "The same half is the first payment backstop, the cushion for costs and co-sponsors, and the inflation and Taiwan-dollar defence. Model: median kept $27,860 vs median gift $167,001 (about 86% of the unreserved money given), and $0 kept at p5. The case warns that committing all remaining assets could limit her flexibility.",
+      "evidence": [
+        "team/google_drive/ips_report/01_version_5.md:26, :28 'the equity half Laura keeps is her defense', :30 'The other half stays with Laura as a cushion'",
+        "caplet-latest/research/ips_numbers_2026-10/results.json gift_2033 p50 167001; laura_kept_2033 p5 0, p50 27860",
+        "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:102-103 'committing all remaining assets could limit her financial flexibility'; :145 'Preserves appropriate financial flexibility'"
+      ],
+      "fix": "One job list in priority order, one source per job, and one stated test of 'responsible' and 'appropriate flexibility' that holds in a bad case.",
+      "confidence": "high",
+      "new_vs_known": "known-deeper",
+      "deadline": "Vote set B Tue 27 Oct"
+    },
+    {
+      "id": "IPS-10",
+      "title": "Ladder cost stale and on the wrong basis; the leftover 'first buffer' is about $1.4k on the holdings basis",
+      "severity": "high",
+      "deliverables": ["IPS", "TNA", "FinalReport"],
+      "problem": "'$292,000' is the 25 Sep idealised value. On the 15 Oct curve, the payment-date basis gives $294,461 (forward; the sheet's $294,453) and the holdings basis gives $298,628 (unchanged; room $1,372, 4.7bp). Same curve and payments; the gap comes from dates priced to (bonds mature 0.5-10.5 months early) plus forward vs unchanged. The WInS T-bonds deliver $33,151-$35,306 at their own maturity against the $33,333 scaled payment, so the book was sized on the holdings basis. V5 names the leftover as the first buffer against a 1-in-20 shortfall of about $25k.",
+      "evidence": [
+        "team/google_drive/ips_report/01_version_5.md:16 'about $292,000'; :24 'At late-September 2026 yields they cost about $292,000'",
+        "caplet-latest/research/ips_numbers_2026-10/ips_numbers.py:87 prices to dt.date(y, 1, 1); :122 Monte Carlo anchored to the bootstrapped headline",
+        "oct16/research/KB_verify/num/reconcile.py and oct14/factcheck/ladder.py (holdings maturities, mode 'unch')",
+        "oct16/L06/L06_bonds.py output (T-bond delivery at maturity)",
+        "ops/routines/MONITOR.md:22 'On 6 Oct the executable ladder cost $293,447, and a 22.7bp fall would take it to $300k'"
+      ],
+      "fix": "Preferably no ladder figure in the IPS (brief :51-52), only the rule for what happens if the ladder costs more than $300k (the 2028 deposit completes it and the floor shrinks by the same amount). If one figure stays: dated, holdings basis, identical in TNA, IPS and Final Report. Do not rely on a buffer that may be about zero.",
+      "confidence": "high",
+      "new_vs_known": "known-deeper",
+      "deadline": "Re-price 2-4 Nov if any figure is kept; the TNA IBTR reflection figure by Fri 23 Oct ET"
+    },
+    {
+      "id": "IPS-11",
+      "title": "Accepting the 16 Oct [AI] suggestions would add errors and remove scored content",
+      "severity": "medium",
+      "deliverables": ["IPS"],
+      "problem": "#2 false 'only'; #5 wrong-basis $294,000; #6 'normally $150,000' while the floor is below $150k in 35.2% of the model's own paths; #8 and #9 delete the only diversification and monitoring rules; #10 writes down a $21k payment shortfall while keeping the floor protected, with no owner for the gap; #11-12 add a range and '99 times in 100' that the brief does not expect and that will differ by 4 Dec; #13 drops the cost-overrun job. The header says 'all twelve' but lists 13.",
+      "evidence": [
+        "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:5, :10, :13, :14, :16-21",
+        "caplet-latest/research/ips_numbers_2026-10/results.json:115",
+        "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:68-70 'The IPS is not expected to include final operating-reserve calculations, detailed portfolio projections, a final facility-contribution range'"
+      ],
+      "fix": "If any item is used, judge it against the brief and criteria first, and take facts and flags only. The students write all sentences (see IPS-01).",
+      "confidence": "high",
+      "new_vs_known": "new",
+      "deadline": "Before the drafting session, Wed 28 Oct"
+    },
+    {
+      "id": "IPS-12",
+      "title": "Liquidity: V5's income rule cannot work in $1,000 bond units, and waiting cash has no permitted home",
+      "severity": "medium",
+      "deliverables": ["IPS", "TNA", "FinalReport"],
+      "problem": "V5 says income is 'reinvested in the holding that paid it'. WInS bonds trade in $1,000-face units, and the Feb-2037 position's half-year coupon is $475, so cash must wait somewhere. The notes park proceeds in 'a short-term Treasury ETF'. The live FAQ's permitted list omits cash. 'Liquidity' never appears in V5.",
+      "evidence": [
+        "team/google_drive/ips_report/01_version_5.md:26 'with income reinvested in the holding that paid it'",
+        "COMPETITION.md:181 '20 units ($20k face)'",
+        "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:16-17 'proceeds held in a short-term Treasury ETF' / 'Its proceeds stay in a short-term Treasury ETF for 7.5 months'",
+        "https://wghsinvcomp.smapply.us/res/p/faqs/ (accessed 16 Oct 2026) permitted list: stocks, ETFs, Government/Treasury bonds available on WInS"
+      ],
+      "fix": "One liquidity principle: cash needed each 1 Jan from 2033; coupons and early maturities wait in a named type of permitted asset matching the notes; nothing needs selling before maturity.",
+      "confidence": "high",
+      "new_vs_known": "known-deeper",
+      "deadline": "Vote set B Tue 27 Oct"
+    },
+    {
+      "id": "IPS-13",
+      "title": "Allocation path, WInS scale and the no-de-risking choice are not stated",
+      "severity": "medium",
+      "deliverables": ["IPS", "FinalReport", "TNA"],
+      "problem": "The brief asks how allocation changes as funding needs approach. V5 has no shares. Model: Jan 2027 about 98% payment Treasuries plus 2% leftover; Jan 2028 about 67/25/1/7 (payments/floor/leftover/stocks). WInS mirrors the post-2028 plan at about two-thirds scale with VT about 8.8%. V5 says only 'scaled down' and never says why the stock fund is not cut before 2033.",
+      "evidence": [
+        "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:22-23 'How will the portfolio's asset allocation and composition change as future funding needs approach'",
+        "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:58-62; results.json:155 'VT': 0.069",
+        "team/google_drive/ips_report/01_version_5.md:26 'Our WInS portfolio shows this allocation, scaled down.'",
+        "COMPETITION.md:186-189 VT 167 sh at 158.83; 'mirrors Laura's plan scaled to $300k'"
+      ],
+      "fix": "State the rough mix at each stage (with a range for stocks), which date the WInS book mirrors and at what scale, and one principle on de-risking the stock fund before 2033.",
+      "confidence": "high",
+      "new_vs_known": "known-deeper",
+      "deadline": "Outline Tue 27 Oct"
+    },
+    {
+      "id": "IPS-14",
+      "title": "Live FAQ now applies the permitted-securities list to 'the IPS and Final Report'; state it as the plan's legal constraint",
+      "severity": "medium",
+      "deliverables": ["IPS", "FinalReport"],
+      "problem": "The live FAQ now reads 'Investments permitted (for BOTH contributions, the IPS and Final Report)': stocks, ETFs and Government/Treasury bonds available on WInS. This is the binding constraint behind the iBond-ETF-plus-bonds design, but V5 never states it. The case excludes taxes.",
+      "evidence": [
+        "https://wghsinvcomp.smapply.us/res/p/faqs/ (accessed 16 Oct 2026) 'Investments permitted (for BOTH contributions, the IPS and Final Report):'",
+        "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:42 'Investments permitted (for BOTH contributions):' (older wording)",
+        "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:168-169 'teams do not need to account for personal income taxes, capital gains taxes'"
+      ],
+      "fix": "One constraint line: only WInS-listed stocks, ETFs and Treasury bonds; taxes excluded by the case. Never name cash, STRIPS or a non-listed instrument as part of Laura's plan.",
+      "confidence": "high",
+      "new_vs_known": "new",
+      "deadline": "Outline Tue 27 Oct"
+    },
+    {
+      "id": "IPS-15",
+      "title": "Risk profile rests on her degree and an inference, not on the case's words and the fixed liability",
+      "severity": "medium",
+      "deliverables": ["IPS"],
+      "problem": "'As a statistics graduate and entrepreneur she accepts measured risk', 'the artists would bear the loss' and 'we judge her tolerance above average' are unsupported. The case says 'willing to take thoughtful risks' and 'an appropriate balance'. 'Above average' sits beside a plan with about 7% stocks.",
+      "evidence": [
+        "team/google_drive/ips_report/01_version_5.md:22",
+        "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:69-74 'willing to take thoughtful risks ... an appropriate balance between pursuing growth and protecting the capital'",
+        "CFA Institute 2010 (URL above, accessed 16 Oct 2026) 'the IPS should account for known liabilities to lend some quantitative basis to the risk tolerance assessment'"
+      ],
+      "fix": "Base willingness on the case's words and ability on the case's facts. Name the unacceptable outcomes (a missed payment, a broken quote). Explain why a small stock share still fits a risk-willing client.",
+      "confidence": "high",
+      "new_vs_known": "known-deeper",
+      "deadline": "Draft Sat 31 Oct"
+    },
+    {
+      "id": "IPS-16",
+      "title": "Pitch leads with an unsupported claim and a stale number, uses off-body terms, omits the credibility idea",
+      "severity": "medium",
+      "deliverables": ["IPS"],
+      "problem": "'co-sponsors who fund the building rarely pay to run it' is not in the case. '$292,000' is stale. 'Minimum contribution' and 'gift' are not the body's terms. The brief wants the central idea and how it supports the client's goals and funding needs. The credible-range logic, the case's main co-sponsor worry, is missing.",
+      "evidence": [
+        "team/google_drive/ips_report/01_version_5.md:16",
+        "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:85-86 'may come from co-sponsors'; :114-116 overpromising damages credibility",
+        "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:35-36 'Clearly communicate the central idea behind your approach and how it is designed to support your client's financial goals and future funding needs.'"
+      ],
+      "fix": "The pitch gives the central idea in Laura's terms, links to her payments and her credibility, has no dollar figure, uses the body's terms, and has 45 words or fewer.",
+      "confidence": "high",
+      "new_vs_known": "known-deeper",
+      "deadline": "Each student drafts one alone Sat 31 Oct; team chooses"
+    },
+    {
+      "id": "IPS-17",
+      "title": "Term drift and metaphor load: 'roots' defined two ways, 5 names for the stock fund, 4 for the floor",
+      "severity": "medium",
+      "deliverables": ["IPS", "TNA", "FinalReport"],
+      "problem": "In the pitch the roots are the payment Treasuries and 'further Treasuries' secure the minimum. In V5:24 the roots are 'the payments and a facility floor'. The stock fund has 5 names, the floor 4, the gift 3. V5 says 'high certainty' where the case says 'high degree of funding certainty'. 'Defined-maturity' and 'rate-sensitive' are unexplained.",
+      "evidence": [
+        "team/google_drive/ips_report/01_version_5.md:16 'Its roots, about $292,000 of Treasuries, cover ten $50,000 payments, and further Treasuries secure her minimum contribution.'",
+        "team/google_drive/ips_report/01_version_5.md:24 'secures the roots, the payments and a facility floor'",
+        "https://globalyouth.wharton.upenn.edu/wp-json/wp/v2/pages/3778 (accessed 16 Oct 2026) 'Excessive investing jargon doesn't necessarily dazzle the judges.'"
+      ],
+      "fix": "One name per idea, defined at first use and identical in the TNA, IPS and Final Report. Keep the strategy name only if it explains the structure in one clause.",
+      "confidence": "high",
+      "new_vs_known": "known-deeper",
+      "deadline": "Name and terms by Sun 18 Oct (they appear in the TNA)"
+    },
+    {
+      "id": "IPS-18",
+      "title": "The one trade-off sentence is wrong and the real trade-off is missing",
+      "severity": "medium",
+      "deliverables": ["IPS"],
+      "problem": "V5 says moving floor money into stocks 'would raise the expected contribution'. Under the plan's own cap rule a smaller floor lowers the median gift; only total wealth rises (15 Oct brief, MODEL). The Guide and FAQ ask for trade-offs.",
+      "evidence": [
+        "team/google_drive/ips_report/01_version_5.md:28 'Moving floor money into equities would raise the expected contribution'",
+        "competition/official/2026_27/2026_WGY_Investment_Competition_Guide.txt:183-184 'the reasoning, assumptions, and tradeoffs behind those decisions'",
+        "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:83 'communicate their reasoning, assumptions, tradeoffs'"
+      ],
+      "fix": "One true trade-off stated once: what Laura gives up (expected growth) for what she gets (payments bought in advance, a quote she can keep), with the rejected alternative named.",
+      "confidence": "medium",
+      "new_vs_known": "known-deeper",
+      "deadline": "Draft Sat 31 Oct"
+    },
+    {
+      "id": "IPS-19",
+      "title": "Keep the IPS free of named sources, tickers and coupons (citation ban; 'not individual investments')",
+      "severity": "medium",
+      "deliverables": ["IPS"],
+      "problem": "The IPS bans formal citations and should focus on strategy rather than individual investments. The number sheet's return line names 'J.P. Morgan 2026 long-term estimate'; copying that into the IPS would amount to an in-text citation. V5 complies today.",
+      "evidence": [
+        "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:123-125 'sources do not need to be cited in the IPS. Relevant sources and supporting evidence must be included in the Final Report.'",
+        "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:51-52 'rather than describing individual investments or presenting detailed financial calculations'",
+        "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:64-65"
+      ],
+      "fix": "State assumptions as the team's own, with no named source. Sources go in the Final Report's Works Cited. No tickers or bond coupons in the IPS.",
+      "confidence": "medium",
+      "new_vs_known": "new",
+      "deadline": "Format check Wed 4 Nov"
+    },
+    {
+      "id": "IPS-20",
+      "title": "Monitoring rule has no measures and misses the two likeliest events",
+      "severity": "medium",
+      "deliverables": ["IPS", "FinalReport"],
+      "problem": "'acting only if her goals change or a holding becomes unavailable' gives no number to check. There is no trigger for the ladder costing more than $300k on 1 Jan 2027 (about 44% on the holdings basis, sibling MODEL) or for the 2028 deposit arriving late or small.",
+      "evidence": [
+        "team/google_drive/ips_report/01_version_5.md:26 'Each January we review it with Laura, acting only if her goals change or a holding becomes unavailable'",
+        "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:43-45 'She will contribute an additional $150,000 at the beginning of 2028'",
+        "oct16/lenses/L03_strategy_redteam.md:20 (about 44%, MODEL)"
+      ],
+      "fix": "Two or three yearly checks, each with a stated consequence, including those two events, and compatible with the frozen WInS book (no trades after 6 Nov).",
+      "confidence": "medium",
+      "new_vs_known": "known-deeper",
+      "deadline": "Vote set B Tue 27 Oct"
+    },
+    {
+      "id": "IPS-21",
+      "title": "Format margins and title page (re-verified): thin word margins; blank lines spill to page 4 on Letter",
+      "severity": "low",
+      "deliverables": ["IPS"],
+      "problem": "Recount: pitch 47 (50 with hyphens split), IPS 497 (505). Page fit 41 of 46 lines on Letter, 41 of 50 on A4. A blank line between the 9 blocks gives 48 lines. The team name, names and username must match the roster and the WInS login exactly; the export shows a placeholder.",
+      "evidence": [
+        "oct16/L06/wc.py and oct16/L06/fit.py on team/google_drive/ips_report/01_version_5.md:16-30",
+        "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:82-83 'will not be considered for semifinal selection'; :84-118",
+        "team/google_drive/ips_report/01_version_5.md:12 'WInS Username: [removed]'"
+      ],
+      "fix": "Pitch 45 or fewer and IPS 470 or fewer on the higher count, headings included; no blank lines, or A4. Title page copied from the roster record and the WInS login, and checked by two students on the exported PDF (fonts, margins, size 5 MB or less).",
+      "confidence": "high",
+      "new_vs_known": "known-repeat",
+      "deadline": "Wed 4 Nov; submit Thu 5 Nov Sydney"
+    },
+    {
+      "id": "IPS-22",
+      "title": "The official sample shows the expected headings and title-page content; no file-naming rule exists",
+      "severity": "low",
+      "deliverables": ["IPS"],
+      "problem": "The brief's sample uses exactly 'Investment Strategy Elevator Pitch' and 'Investment Policy Statement'. Its title page shows only the team name, the names and the username. The brief has no file-name rule. Extra headings or a long title eat words.",
+      "evidence": [
+        "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:128-131 (sample title page), :135 'Investment Strategy Elevator Pitch', :139 'Investment Policy Statement'",
+        "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:101-102 'Formatting choices not specified below are left to the team's discretion.'"
+      ],
+      "fix": "Use the two official headings word for word. Add others only if they earn their words, and count them. Give the PDF a file name with no personal data.",
+      "confidence": "high",
+      "new_vs_known": "new",
+      "deadline": "Wed 4 Nov"
+    }
+  ]
+}

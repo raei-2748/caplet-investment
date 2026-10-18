@@ -1,0 +1,362 @@
+{
+ "file": "oct16/lenses/L12_premortem.md",
+ "summary": "Pre-mortem (AI estimate): on today's path Caplet most likely misses the Top 50 not because of its strategy but on the criteria only students can earn. The bar is about 2% (49 of 2,339 reports last season; main-page counter re-verified 16 Oct) and Wharton wants teams that score 'exceptionally well on all five components', so the weakest criterion decides; Caplet has ~700k words of AI research on its strongest criteria and a 421-word journal that stops 7 Oct. Ranked failure stories: (1) Final Report written in the last days, thin Articulation and projections (~25%; last year 30 of 63 dated comments came in the final two days); (2) voice reads as AI (~20%; V5 is 'AI generated' by the team's note and the 16 Oct [AI] rule invites more, while the IPS bans citations); (3) competent but not memorable (~15%); (4) the IPS locks rules that protect the range (99.4%) better than the payments (6.3% of paths short after 2033), with 'cannot miss' and no certainty definition (~15%); (5) numbers and claims disagree across the three documents (~8%); plus noise, gate failures and integrity flags. New: the number sheet's open 'pick one' protection choice changes what the IBTM and VT reflections can say, so it must be decided by Tue 20 Oct, not 6 Nov; and none of the 15 Oct brief's repo-visible actions was done in the 16 Oct commit, which reversed its first item. Ladder conflict re-run: $294,461 (room $5,539) prices an ideal ladder to 1 Jan payment dates on a forward basis; $298,628 (room $1,372, 4.7bp) prices Caplet's actual maturities with yields unchanged; use the holdings basis for every Caplet claim, and since one day (14-15 Oct) moved the cost $2,635, state the top-up rule rather than a forecast. Reverse pre-mortem: a winner would have one student-written rulebook repeated identically in all three documents, the most honest co-sponsor uncertainty message in the field, and six students who can each defend a number live with a true story of change. Stop: new AI research waves, WInS value tracking, activity trading, AI mock-judge scores, humanising AI drafts or detector tests, extra Monte Carlo precision, more PDFs, name debates, last year's four-category rubric, and over-polishing the TNA.",
+ "findings": [
+  {
+   "id": "PM-01",
+   "title": "The weakest criterion decides, and effort is pointed at the strongest ones",
+   "severity": "critical",
+   "deliverables": [
+    "All",
+    "Team"
+   ],
+   "problem": "Wharton wants teams that score exceptionally well on all five criteria, so one weak criterion is enough to miss a 2% cut. Caplet's effort (about 700k words of AI research and tools) is on Strategy and Portfolio Analysis, already its strongest; Articulation and authentic voice, which only students can earn, have a 421-word journal that stops on 7 Oct.",
+   "evidence": [
+    "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:79 'score exceptionally well on all five components of the criteria'",
+    "https://globalyouth.wharton.upenn.edu/competitions/investment-competition/ (accessed 16 Oct 2026): data-counter-value=\"2339\" teams; 49 picked (FROM KB_what_wins.md:27,117) = 2.1%",
+    "word counts (my count of .md/.txt): research/ 537,267; rab/ 161,161; docs/ 26,616",
+    "team/google_drive/final_report.md:14-27 journal, 421 words, last entry 'Oct7'"
+   ],
+   "fix": "Shift most team hours to student-only work until 4 Dec: dated journal, decisions argued and logged, own-voice drafting, students rebuilding key numbers. No new AI research waves until the TNA and IPS are in.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Agree at the Sun 18 Oct meeting"
+  },
+  {
+   "id": "PM-02",
+   "title": "Story 1 (about 25%): the Final Report is written in the last days",
+   "severity": "critical",
+   "deliverables": [
+    "FinalReport",
+    "Team"
+   ],
+   "problem": "The Final Report alone carries Portfolio Analysis projections, most of Articulation and the co-sponsor part of Creativity, in a 25-day window ending as Knox's term ends. Last year's Knox report was mostly written at the end; the evidence base for this year's (journal, trade log, client portrait) is thin or blank.",
+   "evidence": [
+    "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:51 'shared on November 9'",
+    "team/google_drive/2025_knox_wharton.md: my count, 63 dated comments, 30 on 11-12 Dec 2025 (deadline 12 Dec)",
+    "team/google_drive/final_report.md:16,23,25 '[who argued what]', 'Outcome and reasons: [fill in]', '[Keep adding ...]'",
+    "team/google_drive/client_portrait.md:14 'Placeholder for now'",
+    "Knox Term 4 ends Thu 3 Dec (FROM L10_team_process.md:33-35, not re-opened)"
+   ],
+   "fix": "Pre-build before instructions arrive: journal current; one student owner per likely section; a student-built good/middle/bad projection table with stated return and inflation assumptions (case:146-149); WInS order and transaction history saved privately; co-sponsor notes. Full draft by Sun 29 Nov so the last week is for checking.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Pre-build Sun 8 Nov; full draft Sun 29 Nov; submit Fri 4 Dec Sydney"
+  },
+  {
+   "id": "PM-03",
+   "title": "Story 2 (about 20%): the voice reads as AI, and the 16 Oct [AI] rule makes it likelier",
+   "severity": "critical",
+   "deliverables": [
+    "IPS",
+    "TNA",
+    "FinalReport",
+    "Team"
+   ],
+   "problem": "Creativity scores an authentic team voice. The current IPS is AI-generated by the team's own note; the 16 Oct rule lets AI wording into all three deliverables, and 13 AI rewrites are drafted. The IPS bans citations, so accepted AI sentences are judged with no credit shown. An earlier AI run tuned the exemplar IPS against an AI-voice detector. The rule files now contradict each other.",
+   "evidence": [
+    "team/google_drive/ips_report/01_version_5.md:36 'Best version that AI generated; We cannot submit as it is'",
+    "caplet-latest/CLAUDE.md:26-29 'the assistant may edit the IPS, Trading Notes and Final Report ... SUGGESTIONS ... labelled \"[AI]\"'",
+    "caplet-latest/START_HERE.md:26 'The team writes all deliverables'",
+    "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:9-21 (13 rewrites)",
+    "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:123-125 'footnotes, and formal citations are not permitted'",
+    "docs/AI_USE.md:65 'Rewrote the exemplar IPS to remove AI-style patterns ... an AI-voice detector'",
+    "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:59 'in an authentic team voice'"
+   ],
+   "fix": "All six students vote on what [AI] suggestions may contain and make the rule files agree. Most consistent with the judging evidence: [AI] items limited to facts, numbers and flags, never sentences. Students write a fresh IPS from a bullet outline with AI drafts closed; every accepted AI item logged when accepted.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Vote Sun 18 Oct, before any suggestion is accepted"
+  },
+  {
+   "id": "PM-04",
+   "title": "Story 4 (about 15%): the IPS locks rules that protect the range better than the payments",
+   "severity": "high",
+   "deliverables": [
+    "IPS",
+    "Strategy",
+    "FinalReport"
+   ],
+   "problem": "The case says the range must protect the operating payments. The team's own 16 Oct model shows the reverse order: gift inside the range in 99.4% of paths, but a later payment needs more than Laura kept in 6.3%. V5 still says 'never below the floor' and 'cannot miss' and never defines 'high degree of certainty'. After 6 Nov the strategy cannot change, and bond-expert readers will see it.",
+   "evidence": [
+    "caplet-latest/research/ips_numbers_2026-10/results.json:130 'p_gift_inside_range': 0.9941; :138 'p_exceeds_what_laura_kept': 0.063",
+    "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:47-48 '\"cannot miss\" is not literally true'",
+    "team/google_drive/ips_report/01_version_5.md:28 'never below the floor'; :30 'she cannot miss the range'",
+    "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:97-99 'define what they consider a high degree of funding certainty'; :119-120 'must also protect'",
+    "team/google_drive/final_report.md:24 kept 'never below the floor' because the floor was STRIPS (ruled out 6 Oct)",
+    "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:73-74 'may not revise its investment strategy'"
+   ],
+   "fix": "IPS states in students' words: a one-line certainty standard; which money backs the payments after 2033; payments before the gift; no absolute words contradicted by the team's own numbers.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Protection option Tue 20 Oct; rule set at vote set B Tue 27 Oct"
+  },
+  {
+   "id": "PM-05",
+   "title": "Sequencing trap: the number sheet's open choice changes what the IBTM and VT reflections can say",
+   "severity": "high",
+   "deliverables": [
+    "TNA",
+    "IPS",
+    "Strategy"
+   ],
+   "problem": "The 16 Oct sheet asks the team to pick one of three protection options 'before 6 Nov'. Option 2 gives Laura's half a job to 2042; option 3 holds back $10-20k and lowers the floor. Those are exactly what the IBTM (floor) and VT (stocks' job) reflections describe on 23 Oct, and the TNA must be consistent with the strategy later stated in the IPS. The uneditable VT note already says stocks 'only' set the gift above the minimum.",
+   "evidence": [
+    "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:49-53 'Team decision needed before 6 Nov (pick one)'",
+    "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:29-31 'consistent with the strategic approach ... will later articulate in its IPS'",
+    "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:14 VT note 'They only set how far her gift rises above her promised minimum'",
+    "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:19 IBTM note 'provides a floor for her facility contribution'"
+   ],
+   "fix": "Choose the option before writing the IBTM and VT reflections, or write them so no claim depends on it; if option 2 or 3 is chosen, the VT reflection must handle the note's 'only' truthfully (it matched the rule when written).",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Tue 20 Oct (reflection-writing day in the 15 Oct brief)"
+  },
+  {
+   "id": "PM-06",
+   "title": "Ladder conflict resolved; the room is smaller than one day's move, so point claims will go stale",
+   "severity": "high",
+   "deliverables": [
+    "TNA",
+    "IPS",
+    "FinalReport"
+   ],
+   "problem": "Same 15 Oct curve: the number sheet's $294,461 (room $5,539, 19.0bp) prices to 1 Jan payment dates on a forward basis; the lenses' $298,628 (room $1,372, 4.7bp) prices to the maturities Caplet owns with yields unchanged. Dates explain about $3,400 of the gap, basis about $800. Holdings-basis room fell $4,007 to $1,372 from 14 to 15 Oct, so any 'enough / not enough' claim can flip before judging. The sheet's '1 in 3' over-$300k odds are anchored to the ideal ladder and are too low.",
+   "evidence": [
+    "oct16/research/KB_verify/num/reconcile.py re-run 16 Oct on caplet-latest/competition/official_market_data/daily-treasury-rates_2026-10.csv: 15 Oct payment-dates fwd $294,461; holdings unch $298,628; 6 Oct holdings unch $293,453 (23.0bp)",
+    "holdings unch room: 9 Oct $5,679; 13 Oct $4,705; 14 Oct $4,007; 15 Oct $1,372",
+    "caplet-latest/research/ips_numbers_2026-10/ips_numbers.py:86 prices to dt.date(y, 1, 1); :122 odds anchored to bootstrap headline; results.json:35 0.352",
+    "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:5 'Root-and-Branch on WInS-listed holdings'",
+    "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:15 IBTR note 'about 0.2 percentage points'",
+    "team/google_drive/ips_report/01_version_5.md:24 'At late-September 2026 yields they cost about $292,000'"
+   ],
+   "fix": "For any claim about Caplet's plan, WInS book, notes or reflections use the holdings basis (about $298k, room about $1.4k-$2.2k on 15 Oct) with date and basis; use $294.5k only when explicitly describing an ideal payment-date ladder. In every document state the rule (if over $300k in January, the 2028 deposit tops up first and the floor falls by the same amount) rather than a forecast; the IPS may carry no figure (IPS-FINAL:51-52, 68-70).",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "TNA curve date fixed by Tue 20 Oct; IPS check Wed 4 Nov"
+  },
+  {
+   "id": "PM-07",
+   "title": "Story 3 (about 15%): competent but not memorable",
+   "severity": "high",
+   "deliverables": [
+    "IPS",
+    "FinalReport",
+    "Strategy"
+   ],
+   "problem": "Wharton set a fixed-payment client before (2021-22), and many good teams will ladder Treasuries plus stocks with a Monte Carlo. Caplet's edge must be clarity and client insight, yet V5's pitch opens with an unsourced co-sponsor claim and a stale figure, and 'diversif-' appears 0 times in V5 though it is a named criterion.",
+   "evidence": [
+    "oct16/research/KB_what_wins.md:290-294 (2021-22 case 'Should she keep $50,000 in cash?', FROM KB)",
+    "team/google_drive/ips_report/01_version_5.md:16 'co-sponsors who fund the building rarely pay to run it' ... 'about $292,000'",
+    "my grep: 0 matches for 'diversif' in team/google_drive/ips_report/01_version_5.md",
+    "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:55 'uses appropriate diversification'",
+    "oct16/research/KB_what_wins.md:304-305 'less is more'; 'simple, elegant ideas' (FROM KB)"
+   ],
+   "fix": "At most three signature ideas said the same way across TNA, IPS and Final Report; the pitch starts from Laura's goal; one plain sentence argues diversification (one issuer for promised money, thousands of companies for the rest).",
+   "confidence": "medium",
+   "new_vs_known": "known-deeper",
+   "deadline": "IPS outline Wed 28 Oct"
+  },
+  {
+   "id": "PM-08",
+   "title": "Root cause: advice is not turning into action; one team rule reversed within a day",
+   "severity": "high",
+   "deliverables": [
+    "Team",
+    "Repo"
+   ],
+   "problem": "The only change after the 15 Oct brief (commit 412e9e3) did none of the brief's repo-visible items and replaced its first item. Without owners and a weekly check the same list will be open on 6 Nov.",
+   "evidence": [
+    "caplet-latest/COMPETITION.md:194 'AI may fill a ticket up to Preview' (brief item 2)",
+    "caplet-latest/COMPETITION.md:49 'Laura is a fictional client' (items 7, 28)",
+    "caplet-latest/COMPETITION.md:182 '5.000% T-bond Feb-2037' vs note '4.750%' (05_...wins_trading_notes.md:16)",
+    "caplet-latest/config/competition.yaml:44 'min_share_price_usd: 3'; config/team_roster.json:9 'PENDING_WHARTON_ROSTER_CONFIRMATION'",
+    "caplet-latest/CLAUDE.md:26 '[AI] rule ... replaces the old \"do not write the deliverables\" rule' vs brief item 1",
+    "git show --stat 412e9e3: only number sheet, rule text, curve, AI log changed; off-repo progress UNVERIFIED"
+   ],
+   "fix": "One owner and one date for each open item, reviewed 15 minutes every Sunday; team-wide rules change only by a recorded team vote.",
+   "confidence": "medium",
+   "new_vs_known": "new",
+   "deadline": "Sun 18 Oct"
+  },
+  {
+   "id": "PM-09",
+   "title": "Root cause: the key strategy calls are not yet the students' own",
+   "severity": "high",
+   "deliverables": [
+    "FinalReport",
+    "Team",
+    "Finale"
+   ],
+   "problem": "Articulation scores the team's decision-making process, and semifinals required every member to speak. The record shows deferral to AI and debates with no recorded outcome; weak ownership surfaces as generic reasoning on paper and silence under questions.",
+   "evidence": [
+    "CLAUDE.md:75 'the team deferred to the assistant's evidence-based calls'",
+    "team/google_drive/notes_and_discussions.md:303 'AI recommendation: keep the $150k floor ... Team vote needed (D2/D6)'",
+    "team/google_drive/final_report.md:23 'copout' debate 'Outcome and reasons: [fill in]'",
+    "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:58",
+    "oct16/research/KB_what_wins.md:211-213 2025-26 semifinal 'Every team member must have a speaking role' (FROM KB)"
+   ],
+   "fix": "Each student owns one decision and one number, can explain it without AI and rebuild it in a spreadsheet; votes logged with who argued what; the dropped growth-first plan told as the team's learning with AI's role stated.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Owners Sun 18 Oct; votes logged by Tue 27 Oct"
+  },
+  {
+   "id": "PM-10",
+   "title": "Integrity: journal blanks plus last year's habit invite invented stories",
+   "severity": "high",
+   "deliverables": [
+    "FinalReport",
+    "Team"
+   ],
+   "problem": "The journal has three placeholders for who argued what and outcomes. Last year's team doc explicitly asked for made-up stories. Under deadline pressure blanks get filled from memory or invented, which breaches Wharton's ethics guidance.",
+   "evidence": [
+    "team/google_drive/final_report.md:16,23,25 placeholders",
+    "team/google_drive/2025_knox_wharton.md:3827 'Make up stories, and make them sound realistic'",
+    "team/google_drive/2025_knox_wharton.md:3852 'expand the story, make up some facts'"
+   ],
+   "fix": "Fill each blank this month from a dated record (chat, meeting notes, WInS log) or leave it out; nothing goes into Articulation the team cannot point to.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Sun 25 Oct"
+  },
+  {
+   "id": "PM-11",
+   "title": "Integrity: the ready-made AI disclosure is already untrue",
+   "severity": "high",
+   "deliverables": [
+    "FinalReport",
+    "Team"
+   ],
+   "problem": "The disclosure kept for the Final Report says students made all decisions and wrote all submitted text, while the record shows AI decision memos, AI example notes behind the WInS notes, AI-built models and now AI wording suggestions.",
+   "evidence": [
+    "caplet-latest/docs/AI_USE.md:91 'Students checked the sources, made all decisions, and wrote all submitted text'",
+    "caplet-latest/docs/AI_USE.md:71 'Wrote decision memos for the team to ratify'; :73 '23 EXAMPLE notes ... 17 of 23 rewritten'",
+    "CLAUDE.md:75 deferral"
+   ],
+   "fix": "Build the Works Cited AI entry from a real log; name what AI did (research, models, numbers, example notes, any accepted wording); make it literally true.",
+   "confidence": "high",
+   "new_vs_known": "known-deeper",
+   "deadline": "Log back-filled Sun 18 Oct; entry drafted Sun 29 Nov"
+  },
+  {
+   "id": "PM-12",
+   "title": "Story 7 (about 5%): a hard gate fails (format, note, letter, submission)",
+   "severity": "medium",
+   "deliverables": [
+    "IPS",
+    "TNA",
+    "FinalReport",
+    "Team"
+   ],
+   "problem": "Low chance, total loss. IPS non-compliance removes the team from semifinal selection; TNA notes are checked against WInS and four sit on cancelled orders; a Final Report page range is likely; the school letter needs an administrator before term ends; only the leader submits, on Saturday mornings Sydney, across a clock change.",
+   "evidence": [
+    "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:82-83 'will not be considered for semifinal selection'; :84-100 title page 'First Name, Last Initial' + WInS username; :103-122 limits and format",
+    "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:44 'exactly as it appears in WInS'; :53 'Yes, we will verify this'",
+    "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:33-40 notes on cancelled orders (second IBTR note says '0.3')",
+    "competition/official/2026_27/2026_27_School_Documentation_Template.txt:1-28",
+    "oct16/research/KB_what_wins.md:387 page range forecast (FORECAST)"
+   ],
+   "fix": "Two-person checklist for each submission, done a day early; school letter requested now and in hand by Fri 20 Nov.",
+   "confidence": "high",
+   "new_vs_known": "known-repeat",
+   "deadline": "TNA Thu 22 Oct; IPS Thu 5 Nov; letter Fri 20 Nov; Final Report Fri 4 Dec (Sydney)"
+  },
+  {
+   "id": "PM-13",
+   "title": "Laura is real, but the team's 'single source of truth' still says she is fictional",
+   "severity": "medium",
+   "deliverables": [
+    "All",
+    "Team"
+   ],
+   "problem": "Contacting the client means disqualification; a team file calling her fictional lowers the guard, one day after the brief asked for it to be fixed.",
+   "evidence": [
+    "caplet-latest/COMPETITION.md:49 'Laura is a fictional client'",
+    "https://globalyouth.wharton.upenn.edu/competitions/investment-competition/ (accessed 16 Oct 2026) 'While the client is real, the financial scenario is developed specifically for the competition'"
+   ],
+   "fix": "Correct the line; all six students confirm no message, tag, follow or comment to Laura.",
+   "confidence": "high",
+   "new_vs_known": "known-repeat",
+   "deadline": "Sun 18 Oct"
+  },
+  {
+   "id": "PM-14",
+   "title": "Public repo is not search-indexed today; the live risk is similarity with another team",
+   "severity": "medium",
+   "deliverables": [
+    "Repo",
+    "Team"
+   ],
+   "problem": "Three Bing searches on 16 Oct for distinctive terms returned no link to the repo or fork, so a judge finding it by chance is unlikely now. The real risk is another team reading the public strategy and AI drafts and submitting similar work, pulling both into a plagiarism question; public forks stay public if the parent goes private.",
+   "evidence": [
+    "Bing RSS searches 16 Oct 2026: '\"caplet-investment\"', '\"Root-and-Branch\" Laura Gao Wharton', 'Laura Gao Wharton investment competition github' - unrelated results only",
+    "task brief: public fork created 15 Oct 2026 22:10 UTC",
+    "oct14/final.md section 2: plagiarism is 'grounds for dismissal'",
+    "fork stays public: FROM L09_integrity_compliance.md (INT-05), not re-opened"
+   ],
+   "fix": "The team records a decision on whether strategy and drafts stay public until 4 Dec; if not, the fork is deleted or made private before the parent.",
+   "confidence": "medium",
+   "new_vs_known": "new",
+   "deadline": "Sun 18 Oct"
+  },
+  {
+   "id": "PM-15",
+   "title": "'Too timid for an entrepreneur' and 'one issuer' will be asked; V5 barely answers and an [AI] edit cuts it",
+   "severity": "medium",
+   "deliverables": [
+    "IPS",
+    "FinalReport",
+    "Strategy"
+   ],
+   "problem": "About 7-9% of the plan is in stocks and about 91% in one issuer's debt for an entrepreneur client. Defensible, but only with a client reason; V5 has one sentence on issuer risk and [AI] suggestion 8 deletes it.",
+   "evidence": [
+    "team/google_drive/ips_report/01_version_5.md:24 'Relying on one issuer for the roots may look like a weakness, but we accept it'",
+    "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:16 suggestion 8 '(cut)'",
+    "stock share about 7.2% on 15 Oct basis (FROM L08_coherence_numbers.md COH-02)",
+    "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:55"
+   ],
+   "fix": "Keep one plain reason for the stock share (unpromised money carries the stock risk) and one for the issuer choice through every edit.",
+   "confidence": "medium",
+   "new_vs_known": "known-deeper",
+   "deadline": "IPS outline Wed 28 Oct"
+  },
+  {
+   "id": "PM-16",
+   "title": "The TNA is not where the Top 50 is won; time-box it",
+   "severity": "medium",
+   "deliverables": [
+    "TNA",
+    "Team"
+   ],
+   "problem": "The rules page names the IPS and Final Report for the cut; SMApply says the TNA is evaluated too, weight unknown. Heavy note work already exists; over-polishing three reflections costs IPS time.",
+   "evidence": [
+    "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:27",
+    "oct16/research/KB_what_wins.md:68,170-172 (FROM KB, [W2] 'based on the strength of their Investment Policy Statement (IPS) and Final Reports')",
+    "caplet-latest/docs/AI_USE.md:73 three AI judge panels on the notes"
+   ],
+   "fix": "Finish the TNA to a clear standard by Thu 22 Oct, then move all effort to the IPS rule set.",
+   "confidence": "medium",
+   "new_vs_known": "known-deeper",
+   "deadline": "Thu 22 Oct"
+  },
+  {
+   "id": "PM-17",
+   "title": "Commit 412e9e3 changes the ranking of risks, not the story",
+   "severity": "medium",
+   "deliverables": [
+    "All"
+   ],
+   "problem": "The commit adds useful MODEL numbers but raises two failure stories (voice and inconsistency) and opens a strategy choice whose stated deadline (6 Nov) is later than the TNA that depends on it.",
+   "evidence": [
+    "caplet-latest/CLAUDE.md:26-29",
+    "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:5,13,49-53",
+    "section 3 of L12_premortem.md (ladder re-run)"
+   ],
+   "fix": "Treat the sheet's numbers as inputs for students to check, re-based on the holdings; decide the open option before the TNA; settle the [AI] rule scope by team vote.",
+   "confidence": "high",
+   "new_vs_known": "new",
+   "deadline": "Tue 20 Oct"
+  }
+ ]
+}

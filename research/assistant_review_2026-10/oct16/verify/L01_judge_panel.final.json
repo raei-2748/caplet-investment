@@ -1,0 +1,479 @@
+[
+ {
+  "id": "JUDGE-01",
+  "title": "On today's path the entry lands around rank 350-700, not Top 50",
+  "severity": "critical",
+  "deliverables": [
+   "All"
+  ],
+  "problem": "Strategy is strong, but Articulation, Portfolio Analysis and Creativity depend on work the students have not yet done themselves: an authentic voice, a true experience story and projections they own. Wharton looks for teams that 'score exceptionally well on all five components'. AI-opinion scores (uncalibrated; a simulated panel scored the same IPS a point higher per criterion on 15 Oct) put the entry well short of that bar. No rank estimate is reliable: Wharton publishes no scores. The 2025-26 Top 50 was about 2.1% of final reports.",
+  "evidence": [
+   "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:78-79 'We are looking for teams that score exceptionally well on all five components of the criteria'",
+   "team/google_drive/ips_report/01_version_5.md:36 'Best version that AI generated; We cannot submit as it is'",
+   "team/google_drive/final_report.md:14-27 (10-entry journal with placeholders, stops 7 Oct)",
+   "deliverables/final_report_outline.md:5,13,15 (only outline, superseded plan; last commit 29 Sep)",
+   "https://globalyouth.wharton.upenn.edu/competitions/investment-competition/rules-roles/ (accessed 16 Oct 2026): 'The top 50 teams will be selected as semifinalists based on the strength of their Investment Policy Statement (IPS) and Final Reports.'",
+   "oct16/research/KB_what_wins.md:111,117 (49 of ~2,300 = 2.1%)",
+   "oct14/final.md:440-449 (15 Oct simulated scores for V5: 7/6/5/4/5)"
+  ],
+  "fix": "Treat every criterion as needing student-owned work. Spend team hours by points per hour on the IPS and Final Report first (the Top-50 basis), with the TNA kept consistent and time-boxed. Do not use any AI score or rank as a target.",
+  "confidence": "low",
+  "new_vs_known": "known-deeper",
+  "deadline": "Plan by Sun 18 Oct; gates at TNA Sat 24 Oct 08:00, IPS Sat 7 Nov 09:00, Final Report Sat 5 Dec 09:00 (Sydney)",
+  "lens": "L01_judge_panel",
+  "verdict": "adjusted",
+  "verifier_note": "Bar quote verified (faqs.txt:79). The rank band 350-700 and the 4.2 average are uncalibrated AI opinion: Wharton publishes no scores (faqs.txt:78), and the 15 Oct brief's simulated panel scored the same V5 7/6/5/4/5 (oct14/final.md:440-449), so the scale is not stable. Keep the direction, drop the precise rank. Also the Rules page (re-fetched 16 Oct) says the Top 50 is chosen on the IPS and Final Reports, so hours should go there first."
+ },
+ {
+  "id": "JUDGE-02",
+  "title": "Creativity scores 'an authentic team voice'; V5 is AI-generated and the 16 Oct [AI] rule invites more",
+  "severity": "critical",
+  "deliverables": [
+   "IPS",
+   "TNA",
+   "FinalReport"
+  ],
+  "problem": "The team calls V5 'Best version that AI generated'. The 16 Oct rule lets AI suggest wording for all three deliverables. Wharton's rule is that AI-generated work 'may not be submitted as your own'; a later Works Cited entry can disclose AI use but does not turn AI wording into student work. The Creativity criterion scores 'an authentic team voice', and the IPS has no place to disclose AI before it is judged.",
+  "evidence": [
+   "team/google_drive/ips_report/01_version_5.md:36",
+   "caplet-latest/CLAUDE.md:27-30 ([AI] suggestions rule)",
+   "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:59 'in an authentic team voice'",
+   "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:123-125 ('formal citations are not permitted'; sources go in the Final Report)",
+   "https://globalyouth.wharton.upenn.edu/competitions/investment-competition/rules-roles/ (accessed 16 Oct 2026): 'AI-generated work may not be submitted as your own.'",
+   "https://globalyouth.wharton.upenn.edu/wp-content/uploads/2026/01/25%E2%80%9326-Semifinalists-%E2%80%93-Next-Steps-FINAL.pdf (accessed 16 Oct 2026; semifinal written responses): 'We are looking for your authentic team voice, not generated or generic responses.'"
+  ],
+  "fix": "The submitted IPS, reflections and Final Report are written in students' words from a student outline. Any [AI] items are limited to facts, numbers and flags. The Works Cited statement is literally true.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "TNA submit Thu 22 Oct; IPS student draft Sat 31 Oct, submit Thu 5 Nov (Sydney)",
+  "lens": "L01_judge_panel",
+  "verdict": "adjusted",
+  "verifier_note": "Evidence verified (V5:36; caplet-latest/CLAUDE.md:27-30; deliverables.txt:59; IPS:123-125; semifinal PDF re-fetched 16 Oct). Corrected: the IPS bans 'formal citations' but says sources go in the Final Report (IPS:124-125), so AI use in the IPS can be disclosed in the Works Cited. The real problem is that citing does not make AI wording the students' own (Rules page: 'AI-generated work may not be submitted as your own'), and Creativity scores an authentic voice. The 'not generated' quote is from the 2025-26 semifinal written-response stage, not the screening."
+ },
+ {
+  "id": "JUDGE-03",
+  "title": "The plan's own model makes the co-sponsor range more certain than the payments, inverting the case's priority",
+  "severity": "high",
+  "deliverables": [
+   "IPS",
+   "FinalReport",
+   "Strategy"
+  ],
+  "problem": "The case puts the ten payments first ('high degree of certainty') and says the range must also protect them. The 16 Oct model shows the gift inside the range in 99.4% of paths, while in about 6-7% of paths a later payment needs more than Laura kept. The floor is paid out in 2033, before most of the reinvestment shortfall appears. V5 claims 'cannot miss the range', and [AI] suggestion 12 would print '99 times in 100' for the range. A bond judge will ask why the promise to co-sponsors is safer than the promise to the artists.",
+  "evidence": [
+   "Laura_Gao_2026_Client_Profile.txt:91 'must be funded by the investment portfolio with a high degree of certainty'",
+   "Laura_Gao_2026_Client_Profile.txt:119-120 'The proposed range must also protect the portfolio's ability to fund the ten-year operating commitment.'",
+   "caplet-latest/research/ips_numbers_2026-10/results.json p_gift_inside_range 0.9941; post2033_shortfall.p_exceeds_what_laura_kept 0.063; p_payment_needs_more_than_kept_half_and_leftover_total 0.0708 (MODEL)",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:48 '\"cannot miss\" is not literally true'",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:20 (suggestion 12)",
+   "team/google_drive/ips_report/01_version_5.md:30 'so she cannot miss the range'"
+  ],
+  "fix": "Team picks one of the number sheet's options (state the risk; keep Laura's half to 2042; hold a buffer from the 2028 deposit) so that payment certainty is at least as high as range certainty, and writes it as a principle in the IPS. No range-confidence figure is quoted without the payment figure beside it.",
+  "confidence": "medium",
+  "new_vs_known": "new",
+  "deadline": "Vote by Tue 27 Oct; in IPS by Sat 7 Nov 09:00 Sydney (strategy freezes)",
+  "lens": "L01_judge_panel",
+  "verdict": "confirmed",
+  "verifier_note": "results.json values verified: p_gift_inside_range 0.9941; post2033_shortfall.p_exceeds_what_laura_kept 0.063; p_payment_needs_more_than_kept_half_and_leftover_total 0.0708; IPS_number_sheet.md:47-48 and :49-54 (three options); suggestion 12 at IPS_v5_suggestions.md:20; case:91, 119-120. All MODEL (1pp/yr rate vol, rates and stocks independent). Sibling lenses (L02 CLIENT-V1, L06 IPS-02, L08 VER-L08-02) reach the same point; new versus the 15 Oct brief."
+ },
+ {
+  "id": "JUDGE-04",
+  "title": "'High degree of certainty' undefined; V5's absolute words are false by the team's own numbers",
+  "severity": "high",
+  "deliverables": [
+   "IPS",
+   "TNA",
+   "FinalReport"
+  ],
+  "problem": "The case asks teams to define certainty, say how they tested it and name the assumptions. V5 uses 'high certainty' once without defining it, and says 'secure', 'never below the floor' and 'cannot miss the range'. The IBTM note admits the payout is not fixed, and the new sheet shows the IBTM floor pays at least 98.7% of face in 99 of 100 paths, not exactly 100%.",
+  "evidence": [
+   "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:97-99",
+   "team/google_drive/ips_report/01_version_5.md:16,20,24,28,30",
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:19 'although the final payout is not fixed'",
+   "team/google_drive/final_report.md:24 'kept never below the floor on purpose (STRIPS in real life, IBTM as the WInS stand-in)'",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:14,42-48",
+   "caplet-latest/research/ips_numbers_2026-10/results.json floor_paid.p5 130738; p_floor_remainder_below_150k 0.352 (MODEL)"
+  ],
+  "fix": "One student-written certainty standard and how it was tested. Every certainty word across the TNA, IPS and Final Report is literally true and matches the IBTM note.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "Vote set A Sun 18 Oct; IPS Sat 7 Nov 09:00 Sydney",
+  "lens": "L01_judge_panel",
+  "verdict": "confirmed",
+  "verifier_note": "Verified: case:97-99; V5:16,20,24,28,30; IBTM note 05:19; IPS_number_sheet.md:14 (98.7% of face in 99 of 100 paths). Added evidence: the journal says the team 'kept \"never below the floor\" on purpose (STRIPS in real life, IBTM as the WInS stand-in)' (final_report.md:24). The 6 Oct email ended STRIPS, so the stated reason for the absolute wording is gone. Also results.json floor_paid.p5 $130,738 (floor shrinks when the 2028 deposit tops up the ladder)."
+ },
+ {
+  "id": "JUDGE-05",
+  "title": "'Appropriate diversification' is a criterion; V5 covers it in one sentence without the word, and [AI] suggestion 8 deletes that sentence",
+  "severity": "medium",
+  "deliverables": [
+   "IPS",
+   "Strategy",
+   "FinalReport"
+  ],
+  "problem": "About 92% of the plan's money in 2028 is one issuer, the US government (66.8% payment Treasuries + 24.6% IBTM floor + 0.9% leftover; MODEL). 'Diversif-' appears 0 times in V5. The only defence is one sentence on relying on one issuer, plus 'thousands of companies' for the stock fund. V3 had a clearer line ('We diversify where we take risk; the roots rely on one issuer deliberately'), and a V2 review comment had warned the topic was barely covered. Suggestion 8 would cut V5's remaining sentence. A wealth-manager judge will test the word 'appropriate'.",
+  "evidence": [
+   "deliverables.txt:55 'uses appropriate diversification'",
+   "2026_WGY_Investment_Policy-FINAL.txt:46 'portfolio construction and diversification'",
+   "team/google_drive/ips_report/01_version_5.md:24 'Relying on one issuer for the roots may look like a weakness, but we accept it, since no dollar asset is safer.'",
+   "team/google_drive/ips_report/08_old_versions_v3.md:24",
+   "team/google_drive/ips_report/12_old_versions_v2_comments.md:9 'Diversification is in the rubric and you barely cover it.'",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:16 (suggestion 8: '(cut)')",
+   "caplet-latest/research/ips_numbers_2026-10/results.json allocation_jan2028_typical"
+  ],
+  "fix": "One student-written principle explaining why the payment money deliberately holds one top-quality issuer and where diversification sits and why. Reject suggestion 8.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "IPS Sat 7 Nov 09:00 Sydney",
+  "lens": "L01_judge_panel",
+  "verdict": "adjusted",
+  "verifier_note": "Facts verified: 'diversif' 0 times in V5; V3 line at 08_old_versions_v3.md:24; V2 comment at 12_old_versions_v2_comments.md:9; suggestion 8 '(cut)'. Corrected: V5 does argue it briefly (one-issuer sentence plus 'a global index fund of thousands of companies', V5:24), so 'never argues it' overstates; the issue is thin coverage and the missing criterion word. The one-issuer share is 92.3% (66.8+24.6+0.9), not 93%. Severity lowered to medium."
+ },
+ {
+  "id": "JUDGE-06",
+  "title": "V5 names only 3 of the Guide's 6 IPS themes and states no return assumption",
+  "severity": "high",
+  "deliverables": [
+   "IPS"
+  ],
+  "problem": "The Guide says the IPS should finalize the approach to growth, liquidity, funding reliability, flexibility, risk and uncertainty. V5 never uses 'liquidity', 'flexibility' or 'uncertainty'. Some of these are handled only by implication, which a screening reader can miss. The IPS brief asks how the team will 'approach risk and return', but V5 states no return objective (what each part is expected or required to earn).",
+  "evidence": [
+   "competition/official/2026_27/2026_WGY_Investment_Competition_Guide.txt:173-174",
+   "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:46 'approach risk and return, liquidity'; :66 'You do not need to address these points separately'",
+   "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:126-132 ('return expectations'; 'use reasonable return assumptions' for projections)",
+   "team/google_drive/ips_report/01_version_5.md:22,24,28,30; keyword recount 16 Oct: liquid 0, flexib 0, uncertain 0"
+  ],
+  "fix": "Each of the six themes is recognisably handled as a principle, in the case's own words where possible. State a return objective in words (payments: the yield locked at purchase; stocks: long-run growth). Any numeric return assumption is optional in the IPS and required in the Final Report. Liquidity is covered, including where money waits between a bond's maturity and the 1 January payment. Students' words.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "IPS Sat 7 Nov 09:00 Sydney",
+  "lens": "L01_judge_panel",
+  "verdict": "adjusted",
+  "verifier_note": "Counts verified (liquid 0, flexib 0, uncertain 0; 'return' only as a verb). Corrected two points: the IPS brief says 'You do not need to address these points separately' (IPS:66), and V5 touches some themes without naming them (no withdrawals before 2033, V5:22; cushion, V5:30; 'Markets can shrink', V5:28). The brief asks for the approach to 'risk and return' (IPS:46), and the case's numeric return assumptions are for Final Report projections (case:130-132). So a return objective in words meets the IPS ask; a number is optional."
+ },
+ {
+  "id": "JUDGE-07",
+  "title": "Pitch spends its hook on an overstated claim and a stale number, and omits the cap rule",
+  "severity": "medium",
+  "deliverables": [
+   "IPS"
+  ],
+  "problem": "The pitch is the first thing a screening reader sees. It opens with 'co-sponsors who fund the building rarely pay to run it'. The team's research supports only a weaker point: funders least like to fund operations and ask how a project will sustain itself. The case says outside sources 'may' fund operations. The pitch quotes 'about $292,000' with no date; it is out of date on every basis. It never mentions the cap rule (gift = floor + half the fund, never above the announced top), which answers the case's credibility concern.",
+  "evidence": [
+   "team/google_drive/ips_report/01_version_5.md:16",
+   "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:84-86, 114-116",
+   "research/insight_v1/phase_A/stakeholder_map.md:726-727, 828 (BS-17; Gregory & Howard, SSIR 2009)",
+   "team/google_drive/notes_and_discussions.md:217 (item 17: pre-funded operations answer the building funder's biggest fear)",
+   "https://ssir.org/articles/entry/the_nonprofit_starvation_cycle (accessed 16 Oct 2026): 'The first step in the cycle is funders' unrealistic expectations about how much it costs to run a nonprofit.'"
+  ],
+  "fix": "The pitch states Laura's goal and the central idea, including the cap mechanism. No figure that can go stale. Any claim about co-sponsors is no stronger than the sources the team can cite in the Final Report. 45 words or fewer. Written by students.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "IPS Sat 7 Nov 09:00 Sydney",
+  "lens": "L01_judge_panel",
+  "verdict": "adjusted",
+  "verifier_note": "Corrected: 'no source anywhere in the repo' is false. The claim traces to the team's research: research/insight_v1/phase_A/stakeholder_map.md:726-727 (BS-17 'Operating money is the money funders least like to give', citing SSIR 2009 at :828) and team/google_drive/notes_and_discussions.md:217 (item 17, Kresge). The SSIR article (re-fetched 16 Oct) is about funders underfunding overhead in general, so 'rarely pay to run it' overstates it, and the IPS cannot cite it. The stale $292,000 and the missing cap rule are confirmed. Severity lowered to medium, in line with L06 IPS-16 and L02 CLIENT-08."
+ },
+ {
+  "id": "JUDGE-08",
+  "title": "Ladder cost: four bases in circulation; each claim needs its basis named",
+  "severity": "high",
+  "deliverables": [
+   "TNA",
+   "IPS",
+   "FinalReport"
+  ],
+  "problem": "On the 15 Oct curve the same ten $50,000 payments cost: $294,461 if priced to the 1 Jan payment dates (equivalent to waiting cash earning market forward rates); $295,329 if Caplet's holdings' waiting cash earns the 3-month yield; $297,847-$298,628 if it earns nothing (the team's own 'executable' basis, behind the IBTR note's 0.2-point test). results.json also stores $295,924 (par yields as zero rates). The sheet's 35% chance of costing more than $300k is anchored to $294,453. [AI] suggestion 5 would put $294,000 into the IPS with no basis.",
+  "evidence": [
+   "oct16/research/KB_verify/num/reconcile.py re-run 16 Oct on caplet-latest/competition/official_market_data/daily-treasury-rates_2026-10.csv row 10/15/2026",
+   "oct16/verify/L01w/gap.py (16 Oct): gap cash at 3-month yield 4.28% gives $295,329, room $4,671",
+   "caplet-latest/research/ips_numbers_2026-10/ips_numbers.py:70-89 (prices to dt.date(y, 1, 1)), :97-103, :122",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:12-13",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:13",
+   "ops/routines/MONITOR.md:22 ('executable ladder cost $293,447 ... 22.7bp' on 6 Oct); COMPETITION.md:153-154",
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:15-17"
+  ],
+  "fix": "Pick one basis and say it every time. For 'is $300,000 enough?' (IBTR reflection) the cautious holdings figure (about $298.6k, room about $1.4k, 15 Oct) is safest. A cost that assumes waiting cash earns interest (about $295k) must say so and must match a named home for that cash. Or put no figure in the IPS and the dated figure with its basis in the Final Report. A student re-runs it and can explain the gap.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "TNA figure fixed by Mon 19 Oct; IPS Sat 7 Nov",
+  "lens": "L01_judge_panel",
+  "verdict": "adjusted",
+  "verifier_note": "All four figures reproduced on 16 Oct (reconcile.py on daily-treasury-rates_2026-10.csv row 10/15/2026): $294,461 / $295,246 / $297,847 / $298,628. Code lines verified (bootstrap_cost at ips_numbers.py:70-89; par-as-zero at :97-103; anchor at :122). Corrected the conclusion: the holdings basis assumes cash between each maturity and payment earns 0%, a cautious upper bound. The notes say that cash waits in a short-term Treasury ETF (05:16-17). With the 15 Oct 3-month yield (4.28%) on the gaps, the cost is $295,329, room $4,671 (my run). $294,461 equals gap cash earning forward rates. 'Only the holdings basis fits' is too strong; the 44-45% chance was not re-run (UNVERIFIED here)."
+ },
+ {
+  "id": "JUDGE-09",
+  "title": "Several [AI] suggestions remove scored content or add new problems, to make room for numbers the IPS is 'not expected' to include",
+  "severity": "high",
+  "deliverables": [
+   "IPS"
+  ],
+  "problem": "Suggestions 11-12 add a dollar range and a 99% confidence. The IPS brief says it does not expect these, and once submitted they freeze. To free words, suggestion 8 cuts the diversification defence and 9 cuts the review trigger and substitution rule, one of the IPS's few decision rules. Suggestion 5 adds a figure with no basis. Suggestion 2 adds a new absolute that the team's own iBond notes contradict. Only 7 and 10 clearly move toward the criteria.",
+  "evidence": [
+   "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:68-70 'not expected to include ... detailed portfolio projections, a final facility-contribution range'; :73-74",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:10,13,16,17,19,20,21",
+   "team/google_drive/ips_report/01_version_5.md:26,28",
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:19-22 ('payout is not fixed')"
+  ],
+  "fix": "If the [AI] list is used at all, judge each item against the criteria, the IPS brief and the uneditable notes, not against word count. Keep the decision rules and the diversification principle. No new absolute words. Put ranges and confidence figures in the Final Report.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "Before any IPS edit; IPS Sat 7 Nov 09:00 Sydney",
+  "lens": "L01_judge_panel",
+  "verdict": "adjusted",
+  "verifier_note": "Verified suggestions 5, 8, 9, 11, 12 and IPS:68-70. Corrected three points: (a) suggestion 13 is defensible, because V5:28 already covers rising costs ('Inflation or a stronger Taiwan dollar raises facility costs'); (b) suggestion 5 uses the same payment-date basis as V5's existing $292,000, so the problem is an unnamed basis, not a wrong one; (c) suggestion 2, which the lens counted as helpful, adds a new absolute ('principal depends only on the US government'). That is false for the five iBond ETF rungs, whose uneditable notes say the payout 'is not fixed' (05:19-22). Also, a range put in the IPS freezes (IPS:73-74)."
+ },
+ {
+  "id": "JUDGE-10",
+  "title": "Articulation: journal is thin, but a true two-year growth story sits unused",
+  "severity": "high",
+  "deliverables": [
+   "FinalReport",
+   "Team"
+  ],
+  "problem": "Articulation is scored almost only from the Final Report. The journal has 10 bullets, placeholders and nothing after 7 Oct. The repo records a real arc: last year the team traded assets outside the rules; this year it wrote a yield-check rule after stale prices, traced the sector-rule myth to a third-party site ('check the primary source'), and caught the IBTN mix-up. That is exactly 'learning' and 'response to challenges'. The key calls were deferred to AI, which the story must handle honestly.",
+  "evidence": [
+   "deliverables.txt:58",
+   "team/google_drive/final_report.md:16 '[who argued what]', :23 'Outcome and reasons: [fill in]', :18-22",
+   "CLAUDE.md:40-41 'the team traded assets outside the trading rules'",
+   "CLAUDE.md:75 'the team deferred to the assistant's evidence-based calls'"
+  ],
+  "fix": "A dated journal filled from real messages and minutes: who argued what, the decision and reason, what went wrong, what changed, where AI was involved. Nothing invented or embellished.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "Back-fill by Sun 25 Oct, then weekly to Final Report Sat 5 Dec 09:00 Sydney",
+  "lens": "L01_judge_panel",
+  "verdict": "confirmed",
+  "verifier_note": "Verified final_report.md:16-27 and CLAUDE.md:40-41, 75. Note: the 2025-26 lesson is Ray's account ('Ray, no feedback received', CLAUDE.md:40); the year-over-year story fits returning members only. Tell it without criticising named students (L09 INT-20)."
+ },
+ {
+  "id": "JUDGE-11",
+  "title": "Portfolio Analysis: no student-owned projections; the only Final Report outline is for the abandoned plan",
+  "severity": "high",
+  "deliverables": [
+   "FinalReport",
+   "Strategy"
+  ],
+  "problem": "The criterion's new core is assumptions and projections under varying outcomes. The case lists specific musts. The only outline in the repo (29 Sep) uses the superseded plan: 80% rule, two-tier 2031 lock, $298k lock cost, $113k minimum. The instructions arrive 9 Nov, leaving 25 days. All current numbers are AI-built.",
+  "evidence": [
+   "deliverables.txt:57",
+   "Laura_Gao_2026_Client_Profile.txt:94-124,146-149",
+   "deliverables/final_report_outline.md:5,13,15",
+   "KB_what_wins.md:134-136 (25-day window)"
+  ],
+  "fix": "Before 9 Nov, a one-page map: each case must → the analysis → the inputs → the student owner. A student rebuilds at least the ladder cost and the coupon-shortfall table in a spreadsheet and can explain them.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "Map before Mon 9 Nov; Final Report Sat 5 Dec 09:00 Sydney",
+  "lens": "L01_judge_panel",
+  "verdict": "confirmed",
+  "verifier_note": "Verified deliverables.txt:57; case:94-124, 146-149; final_report_outline.md:5,13,15 (last commit 29 Sep 2026); 9 Nov to 4 Dec = 25 days. research/insight_v1/wins_now/S3_final_report_ladder_and_reserve.md is a superseded STRIPS-era section, not an outline, so 'only outline' holds."
+ },
+ {
+  "id": "JUDGE-12",
+  "title": "'Responsible' contribution: Laura gives about 86% of unreserved money in the median case and keeps $0 at p5",
+  "severity": "medium",
+  "deliverables": [
+   "IPS",
+   "FinalReport",
+   "Strategy"
+  ],
+  "problem": "The case warns that committing all remaining assets limits flexibility. Under V5's rule the model's median gift is $167,001 against $27,860 kept (about 86% given), and the 5th-percentile amount kept is $0 (MODEL). The same kept half is also the payment backstop and the inflation and Taiwan-dollar defence.",
+  "evidence": [
+   "Laura_Gao_2026_Client_Profile.txt:101-103",
+   "caplet-latest/research/ips_numbers_2026-10/results.json gift_2033.p50 167001; laura_kept_2033.p50 27860; laura_kept_2033.p5 0",
+   "team/google_drive/ips_report/01_version_5.md:26,28"
+  ],
+  "fix": "Students state what 'responsible' means for Laura and why the retained share is enough, or change the split as a principle before 6 Nov. The Final Report shows the retained amount in good and bad cases.",
+  "confidence": "medium",
+  "new_vs_known": "known-deeper",
+  "deadline": "Decide by Tue 27 Oct; IPS Sat 7 Nov 09:00 Sydney",
+  "lens": "L01_judge_panel",
+  "verdict": "confirmed",
+  "verifier_note": "results.json verified: gift_2033.p50 167001; laura_kept_2033.p50 27860; laura_kept_2033.p5 0. 'About 86%' is a ratio of two medians (167,001 / 194,861), not a per-path figure; MODEL. Case:101-103 quoted correctly."
+ },
+ {
+  "id": "JUDGE-13",
+  "title": "The strongest co-sponsor evidence (committed money counts; lead gifts, not matches) is unused, while the pitch overstates a weaker point",
+  "severity": "medium",
+  "deliverables": [
+   "IPS",
+   "FinalReport"
+  ],
+  "problem": "The research holds an argument that fits the criterion's co-sponsor clause and the case's 'meaningful personal contribution'. Funders count only written pledges or cash, so only the bought floor is real money. Announced lead gifts raise others' giving, while matching does not. A seed-gift experiment found nearly six times more giving. None of this is in V5. The pitch uses a different strand (funders dislike paying running costs) in a stronger form than its sources support. The sources were found by AI and must be checked and credited.",
+  "evidence": [
+   "research/insight_v1/phase_B/B6b_cosponsors.md:288-290,542 (Kresge 'Written pledges or cash')",
+   "team/google_drive/notes_and_discussions.md:216-218 (items 15-17)",
+   "team/google_drive/strategy_notes.md:22 ('nearly six times more giving')",
+   "research/insight_v1/phase_A/stakeholder_map.md:726-727",
+   "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:110-112",
+   "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:59"
+  ],
+  "fix": "Students verify the sources themselves. They decide whether the committed-money idea becomes an IPS principle (no citations) and a cited Final Report co-sponsor argument. Any co-sponsor claim in the pitch is cut back to what the sources show.",
+  "confidence": "medium",
+  "new_vs_known": "new",
+  "deadline": "IPS Sat 7 Nov; Final Report Sat 5 Dec (Sydney)",
+  "lens": "L01_judge_panel",
+  "verdict": "adjusted",
+  "verifier_note": "Kresge lines verified (B6b_cosponsors.md:288-290, 542); notes_and_discussions.md:218 and strategy_notes.md:22 verified. Corrected: the pitch's opening line is itself drawn from the team's co-sponsor research (notes item 17 at :217; stakeholder_map BS-17), so the research is partly used, in an overstated form. What is unused: the lead-gift and no-matching evidence and the 'written pledges or cash' counting point. Source figures (e.g. 'nearly six times') were not re-verified here."
+ },
+ {
+  "id": "JUDGE-14",
+  "title": "Consistency table a judge would build between the uneditable notes and V5",
+  "severity": "medium",
+  "deliverables": [
+   "TNA",
+   "IPS"
+  ],
+  "problem": "Gaps a judge can see between the uneditable notes and V5: IBTM 'payout not fixed' vs 'never below the floor'; IBTR '$300,000 is enough' (6 Oct curve) vs '$292,000' at late-September yields (two dates, both stale); notes put bond proceeds 'in a short-term Treasury ETF' while V5 names no home for waiting cash after 2033; VT 'only' sets the gift vs three more jobs for Laura's half in V5; 'promised minimum' overclaims. Minor: IBTM was ordered before IBTR, while V5 says 'latest first' (a WInS order-time point, not a plan rule).",
+  "evidence": [
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:14-19",
+   "team/google_drive/ips_report/01_version_5.md:20,24,26,28",
+   "deliverables.txt:55 'maintains consistency with the team's IPS'",
+   "Laura_Gao_2026_Client_Profile.txt:161"
+  ],
+  "fix": "Each row is reconciled in the reflections or the IPS, in students' words, without new absolute claims.",
+  "confidence": "high",
+  "new_vs_known": "known-deeper",
+  "deadline": "TNA Thu 22 Oct submit; IPS Sat 7 Nov (Sydney)",
+  "lens": "L01_judge_panel",
+  "verdict": "adjusted",
+  "verifier_note": "Rows verified against 05:14-19 and V5:20-30. Two rows weakened: row 3 is a gap, not a contradiction, because V5:26's income rule covers the period 'until 2033' while the Feb-2037/May-2038 proceeds arrive in 2037-38, which V5 does not address; still, no home for waiting cash is named. Row 6 (IBTM ordered before IBTR) is weak: V5's 'latest first' describes Laura's 2027 purchase, not WInS order times (L08 COH-14 rates it low). Severity medium stands."
+ },
+ {
+  "id": "JUDGE-15",
+  "title": "One idea, many names: term drift inside V5",
+  "severity": "medium",
+  "deliverables": [
+   "IPS",
+   "All"
+  ],
+  "problem": "Within one page the stock fund is 'a global index fund', 'the branch', 'equities', 'the equity half' and 'the equity fund'. The floor is also 'her minimum contribution' and 'a floor Laura can promise'. 'Defined-maturity Treasury ETF' is never explained. A staff reader skimming hundreds of entries loses the thread; Wharton warns about jargon.",
+  "evidence": [
+   "team/google_drive/ips_report/01_version_5.md:16,20,24,28,30",
+   "KB_what_wins.md:201 'Excessive investing jargon doesn't necessarily dazzle the judges.'"
+  ],
+  "fix": "One name per idea, defined once in plain words, used the same way in the TNA, IPS and Final Report.",
+  "confidence": "high",
+  "new_vs_known": "new",
+  "deadline": "IPS Sat 7 Nov 09:00 Sydney",
+  "lens": "L01_judge_panel",
+  "verdict": "confirmed",
+  "verifier_note": "Verified V5:16,20,24,28,30: stock fund = 'a global index fund', 'the branch', 'equities', 'the equity half', 'the equity fund'/'the fund'; floor = 'her minimum contribution', 'a floor Laura can promise', 'facility floor'. 'Defined-maturity Treasury ETF' (V5:20) is never explained. KB_what_wins.md:201 quote is attributed to a Wharton page [D5]."
+ },
+ {
+  "id": "JUDGE-16",
+  "title": "What each TNA reflection must prove so the trio reads as three decisions",
+  "severity": "medium",
+  "deliverables": [
+   "TNA"
+  ],
+  "problem": "All 11 trades were placed within about 25 hours, so the picks can read as one buying burst. AI-opinion raw note scores: IBTR 7, IBTM 7, VT 6. The reflections do not exist yet. IBTR's trigger has nearly fired; IBTM's 'floor' sits next to 'not fixed'; VT says 'promised' and 'only'.",
+  "evidence": [
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:14-24",
+   "2026_WGY_Trading_Notes_Analysis-FINAL.txt:11-13 'aligned with, tested, or refined'",
+   "team/google_drive/final_report.md:23 (5 Oct 'copout' debate, outcome blank)"
+  ],
+  "fix": "IBTR shows the pre-set test and what the team did as it nearly fired, with one dated holdings-basis figure. IBTM shows what the 6 Oct email changed. VT shows the alternatives weighed and the trade-off. No 'promised' or 'only'. At least one mentions liquidity. Student-written.",
+  "confidence": "medium",
+  "new_vs_known": "known-deeper",
+  "deadline": "Draft Tue 20 Oct; submit Thu 22 Oct (Sydney); official Sat 24 Oct 08:00",
+  "lens": "L01_judge_panel",
+  "verdict": "confirmed",
+  "verifier_note": "Verified 05:14-24 and TNA:11-13. The 11 fills span about 24.5 hours (6 Oct 7:55 PM to 7 Oct 8:27 PM ET). Note: TNA:20-23 says reserve calculations are not expected at this stage, so the dated figure in the IBTR reflection is optional; if used it must name its basis (see JUDGE-08). The 'nearly fired' point holds on the note's own cautious basis."
+ },
+ {
+  "id": "JUDGE-17",
+  "title": "Finalist-stage defence: likely bond-judge questions have no student-held answers yet",
+  "severity": "low",
+  "deliverables": [
+   "FinalReport",
+   "Finale",
+   "Team"
+  ],
+  "problem": "An Aberdeen fixed-income/credit judge sat on the 2024-2026 finale panels. Likely questions: why the earliest payments use funds whose payout is not fixed; bonds maturing up to 10.5 months early; coupon reinvestment (up to $21k at -2 points); a late 2028 deposit; 93% one issuer; about 7% stocks for a client 'willing to take thoughtful risks'. The answers live only in AI files. Past semifinals also required a one-stock-or-ETF case study with no new material allowed.",
+  "evidence": [
+   "oct16/research/KB_what_wins.md:181",
+   "https://globalyouth.wharton.upenn.edu/wp-content/uploads/2026/01/25%E2%80%9326-Semifinalists-%E2%80%93-Next-Steps-FINAL.pdf (accessed 16 Oct 2026): 'Include a case study of one stock or ETF in your portfolio'; 'Do NOT introduce completely new material, or your team will be disqualified.' (2025-26 rules; 2026-27 UNVERIFIED)",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:34",
+   "team/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:16,19-22",
+   "competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:70"
+  ],
+  "fix": "Each student can answer two of these in their own words from material they built. A VT or iBond ETF analysis is already inside the Final Report.",
+  "confidence": "medium",
+  "new_vs_known": "known-deeper",
+  "deadline": "Final Report Sat 5 Dec 09:00 Sydney",
+  "lens": "L01_judge_panel",
+  "verdict": "adjusted",
+  "verifier_note": "Verified: KB_what_wins.md:181 (abrdn/Aberdeen seat 2022-2026); the 2025-26 semifinal PDF (re-fetched 16 Oct) requires 'a case study of one stock or ETF' and says 'Do NOT introduce completely new material'. But the 2026-27 semifinal rules are not published (UNVERIFIED), and this is a post-Top-50 item. Severity lowered to low for a semis-first goal."
+ },
+ {
+  "id": "JUDGE-18",
+  "title": "IPS format gate margins and exact title-page names",
+  "severity": "low",
+  "deliverables": [
+   "IPS"
+  ],
+  "problem": "V5 counts 47 + 497 words by whitespace: legal, but 3 words from the limit, and a stricter counter gives over 500. The team record says the team name is 'Caplet' (COMPETITION.md:117); this still has to match the submitted roster exactly. Failing the format gate removes the entry from semifinal consideration.",
+  "evidence": [
+   "team/google_drive/ips_report/01_version_5.md:8-16",
+   "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:82-100",
+   "COMPETITION.md:116-117"
+  ],
+  "fix": "Pitch 45 or fewer and IPS 470 or fewer on the higher of two counters. Title page copied from the submitted roster. Two students check the exported PDF.",
+  "confidence": "high",
+  "new_vs_known": "known-repeat",
+  "deadline": "Format check Wed 4 Nov; submit Thu 5 Nov (Sydney)",
+  "lens": "L01_judge_panel",
+  "verdict": "adjusted",
+  "verifier_note": "Word counts reproduced: pitch 47, IPS 497 by whitespace; a counter that splits '$300,000' and 'Laura's' gives 514, so counters really do differ. Corrected: the team name is on file in the team's own record (COMPETITION.md:117 'Ours: Caplet'), not 'not on file'; what remains is checking it against the submitted roster. IPS:82-100 verified."
+ },
+ {
+  "id": "JUDGE-V01",
+  "title": "Following this lens's own advice on the [AI] list would push the IPS over 500 words",
+  "severity": "high",
+  "deliverables": [
+   "IPS"
+  ],
+  "problem": "The [AI] suggestions add about 59 words (2: +1, 6: +1, 7: +16, 10: +28, 11: +5, 12: +8) and cut about 58 (1: -4, 3: -6, 4: -4, 8: -22, 9: -18, 13: -4), counted by whitespace. They fit only as a package. This lens advises rejecting 8 and 9 (and 13) while favouring 2, 7 and 10. Doing that takes V5 from 497 to about 528-542 words, over the 500 cap, which removes the entry from semifinal selection. The lens's other fixes (a diversification principle, six named themes, a return objective, liquidity) add more words to an IPS with 3 words of slack. The suggestions file also misstates its own total ('494 after all twelve'; 13 rows; whitespace total 498).",
+  "evidence": [
+   "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:5,9-21 (word deltas recounted 16 Oct)",
+   "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:82-83 ('will not be considered for semifinal selection'), :109 ('maximum 500 words')",
+   "team/google_drive/ips_report/01_version_5.md:20-30 (497 words)",
+   "oct16/lenses/L06_ips_attack.md:589-608 (a section-by-section word budget, IPS total 470)"
+  ],
+  "fix": "Before accepting or adding anything, set a word budget per section, with a total of 470 or less on the stricter counter. Every addition names the words it replaces. Recount the exported PDF, not the Doc.",
+  "deadline": "Budget agreed before any IPS edit (by Sun 25 Oct); final count Wed 4 Nov (Sydney)",
+  "new_vs_known": "new",
+  "confidence": "high",
+  "lens": "L01_judge_panel",
+  "verdict": "verifier-added",
+  "verifier_note": "Interaction between the lens's fixes and the format gate; deltas computed from the suggestions table."
+ },
+ {
+  "id": "JUDGE-V02",
+  "title": "Any change to the 2028 split must reach WInS before the 6 Nov freeze, or V5's 'WInS shows this allocation' becomes false",
+  "severity": "medium",
+  "deliverables": [
+   "IPS",
+   "FinalReport",
+   "Strategy"
+  ],
+  "problem": "JUDGE-03 (a buffer from the 2028 deposit) and JUDGE-12 (a different give/keep split) both change the 2028 allocation. V5 says 'Our WInS portfolio shows this allocation, scaled down'. The Investment Strategy criterion scores 'consistency with the team's IPS'. WInS freezes on the IPS due date, and the strategy cannot change after it. The number sheet says none of its three options 'is a WInS trade'. That holds for keeping Laura's half to 2042, but a 2028 buffer changes the mirrored mix, unless the team states that existing cash (about $3.5k) or a stated scaling stands for it. Only Ray places orders, and US market hours fall overnight in Sydney.",
+  "evidence": [
+   "team/google_drive/ips_report/01_version_5.md:26 'Our WInS portfolio shows this allocation, scaled down.'",
+   "competition/official/2026_27/2026_WGY_Investment_Competition_Guide.txt:172-175 ('Trading ends and your WInS portfolio is frozen.')",
+   "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:73-75",
+   "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:55 'maintains consistency with the team's IPS'",
+   "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:49-54 ('none is a WInS trade')",
+   "CLAUDE.md:14 (only Ray places/cancels WInS orders)"
+  ],
+  "fix": "When the team votes on JUDGE-03 or JUDGE-12, it also records whether the WInS book still 'shows this allocation'. If not, either plan any checked WInS trade with Ray well before 6 Nov, or change the IPS's WInS sentence to say exactly what the WInS book represents.",
+  "deadline": "Decide with the JUDGE-03/12 votes (by Tue 27 Oct); any trade before Thu 5 Nov ET",
+  "new_vs_known": "new",
+  "confidence": "medium",
+  "lens": "L01_judge_panel",
+  "verdict": "verifier-added",
+  "verifier_note": "Execution link the lens's fixes skip; V5:26 and the freeze rule verified."
+ }
+]
