@@ -215,6 +215,7 @@ scrolled. Rule since then: **only Ray places or cancels WInS orders.** AI may fi
 | AI IPS exemplars (not for submission) | `team/ai_outputs/` |
 | Judging criteria, winning-team portrait and self-scoresheet | `team/Winning Team Portrait and Scoresheet.md` |
 | Scheduled checks (monitor, rules watcher, mock judges, evidence lab) and their reports | `ops/` |
+| Research office (AI desks for checks and numbers, house rules, memos, `textcheck.py`) | `office/`, `.claude/agents/` |
 | Strategy research (AI) | `research/insight_v1/`, `research/council_2026-09-27/`, `rab/` |
 | Market data (Treasury curve, fact sheets, JPM LTCMA) | `competition/official_market_data/` |
 | Last year (2025-26), benchmarking only | `competition/historical/`, `team/google_drive/2025_knox_wharton.md` |

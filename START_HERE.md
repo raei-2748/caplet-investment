@@ -16,6 +16,7 @@ entry: official rules, the client case, our strategy research, the WInS portfoli
 |---|---|
 | `competition/` | Official Wharton materials (PDF + text), public SMApply page snapshots, market data, last year's materials |
 | `team/` | Our work: Google Docs/Sheets exports, IPS PDF drafts, AI exemplars (not for submission), scoresheet |
+| `office/` | The Caplet Research Office: AI desks that answer a named student's question with a check, a number or a list of problems (`/office` in Claude Code). Start with `office/README.md` |
 | `ops/` | Scheduled checks: portfolio monitor, rules watcher, mock judges, evidence lab, and their reports |
 | `research/` | AI strategy research (insight_v1, council). Files marked with a 2026-10-14 banner predate the "WInS-only" rule |
 | `rab/` | Research-and-build kit: models, verification, numbers |

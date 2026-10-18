@@ -15,6 +15,12 @@ decision, deadline or open item changes, and commit it with the related change. 
 - Team exports in `team/google_drive/` are snapshots; the Google Docs are the live copies.
 - Assistant review 30 Sep-15 Oct: research/assistant_review_2026-10/ (AI-generated research, not for submission; start with its README and the 15 Oct team brief PDF).
 - Assistant review 16 Oct: research/assistant_review_2026-10/04_What_Stops_Us_Winning_16Oct2026.pdf (AI-generated research, not for submission; ranked to-do list in Part 1; evidence in oct16/).
+- Caplet Research Office (18 Oct): `office/` (README org chart, CHARTER house rules, LEDGER, outbox) + 26 agents in
+  `.claude/agents/` (chief of staff, fact-checker, 6 desks: Rules & Integrity, Numbers, Strategy & Risk, Client &
+  Co-sponsor, Judging & Editorial, Records; each reports to a student role), `/office` skill, workflows
+  `office-gate-check`, `office-judge-panel`, `office-work-order` in `.claude/workflows/`. Office answers named
+  students' questions only, one page per memo, checking work only until the IPS is in (7 Nov). `office/tools/textcheck.py`
+  = word/char counts, curly quotes, overclaim words, exact-match check for pasted notes.
 
 ## Working rules (from the team leader)
 - Use only exact official Wharton materials and verified sources. No fictional clients, rules, rosters or data.
@@ -172,5 +178,5 @@ VERIFIED 2026-09-27 by the insight_v1 run (primary pages; details in `research/i
 
 ## Repo map
 Official materials: `competition/official/2026_27/` (+ `manifest.yaml`). Historical: `competition/historical/`.
-Configs: `config/`. Council/research: `research/council_2026-09-27/`. Tests: `pytest` (59 passing); demo runs
+Research office: `office/`, `.claude/agents/`. Configs: `config/`. Council/research: `research/council_2026-09-27/`. Tests: `pytest` (64 passing); demo runs
 write only to `outputs/demo/` and `decisions/demo/` (git-ignored).
