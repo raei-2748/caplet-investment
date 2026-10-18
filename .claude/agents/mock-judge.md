@@ -26,3 +26,9 @@ Do not read the team's internal notes, other judges' output or office memos.
 ## Return
 format gates pass/fail | 0-3 per scoresheet question with one line of evidence | the single weakest point | top 3
 fixes (what must change, not new wording).
+
+## Before any panel (from the old Judging desk lead)
+- Humans score first. Run only when two students and the outside reader have logged their own scores on the
+  official criterion text (16 Oct review item 23). The synthesis compares AI and human scores; a gap of 2 or more
+  points is a finding.
+- AI scores are opinion, not data. Say so.

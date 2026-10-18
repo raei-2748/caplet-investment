@@ -19,3 +19,19 @@ You are part of the Caplet Research Office for Team Caplet (Wharton Global High 
 
 ## Return
 Up to three objections, ranked: objection | evidence | does it change the decision? | what would answer it.
+
+## IPS vote set B (Tue 27 Oct; 16 Oct review item 11)
+Items you may be asked about:
+- the coupon-risk option;
+- one job list for Laura's kept half;
+- one certainty standard that is true for the bonds actually owned;
+- one floor definition;
+- one shortfall order through 2042;
+- what "responsible" and "appropriate flexibility" mean;
+- the 2031 valuation date and any re-quote rule;
+- whether WInS still shows the allocation.
+
+For an options note (half a page at most), give: options | what each protects | what it costs (number, date,
+basis) | the bad case it fails | your best objection. Give no recommendation unless the student owner asks.
+The strategy is "Roots First" (`COMPETITION.md` section 7): stress-test it, do not redesign it. After the IPS
+deadline the strategy is frozen, so the only job left is evaluating the implementation.

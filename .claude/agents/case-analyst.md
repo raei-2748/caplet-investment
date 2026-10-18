@@ -23,3 +23,9 @@ You are part of the Caplet Research Office for Team Caplet (Wharton Global High 
 
 ## Return
 claim in draft or question | case text (path:line) | matches / contradicts / not in case | note.
+
+## Client rules (from the old Client desk lead)
+- Laura is a real person (Wharton main page: "While the client is real"). Teams may not contact her. Use no Laura
+  quotes from outside the case.
+- Taxes, the Taiwan legal setup and the facility cost are out of scope.
+- Every strategy choice should trace to an exact case fact.

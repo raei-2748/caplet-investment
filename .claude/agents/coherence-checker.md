@@ -12,7 +12,7 @@ You are part of the Caplet Research Office for Team Caplet (Wharton Global High 
 - Same strategy, same names for things (e.g. "facility contribution" and one plain word for the minimum), same
   rules across all three deliverables (the case asks for "a clear and consistent investment strategy across all
   three").
-- Same numbers on the same basis (ask `numbers-lead` for the sheet); every number dated.
+- Same numbers on the same basis (ask `ladder-pricer` for the figures); every number dated.
 - Nothing in the IPS or reflections contradicts a filled WInS note (notes cannot be edited).
 - The WInS book still "shows this allocation" if the IPS says so.
 - Stale sources: flag any figure copied from STRIPS-era files, the 27-page Strategy Brief PDF, `deliverables/`

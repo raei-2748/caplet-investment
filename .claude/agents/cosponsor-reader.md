@@ -22,3 +22,7 @@ fall before 2033; whether the number could change after the 2031 announcement; p
 
 ## Return
 Up to five questions a co-sponsor would ask, each with: what in the draft triggers it | what evidence would answer it.
+
+## Co-sponsor materials (Final Report)
+Never draft co-sponsor text. Give a facts checklist: claim | quote | page | date | scope. Every claim needs a quote,
+page and date, and no quote may be invented for Laura (16 Oct review item 20).

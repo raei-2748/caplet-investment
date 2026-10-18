@@ -15,9 +15,11 @@ decision, deadline or open item changes, and commit it with the related change. 
 - Team exports in `team/google_drive/` are snapshots; the Google Docs are the live copies.
 - Assistant review 30 Sep-15 Oct: research/assistant_review_2026-10/ (AI-generated research, not for submission; start with its README and the 15 Oct team brief PDF).
 - Assistant review 16 Oct: research/assistant_review_2026-10/04_What_Stops_Us_Winning_16Oct2026.pdf (AI-generated research, not for submission; ranked to-do list in Part 1; evidence in oct16/).
-- Caplet Research Office (18 Oct): `office/` (README org chart, CHARTER house rules, LEDGER, outbox) + 26 agents in
-  `.claude/agents/` (chief of staff, fact-checker, 6 desks: Rules & Integrity, Numbers, Strategy & Risk, Client &
-  Co-sponsor, Judging & Editorial, Records; each reports to a student role), `/office` skill, workflows
+- Caplet Research Office (18 Oct; merged 26 -> 18 agents on 19 Oct): `office/` (README org chart, CHARTER house rules,
+  LEDGER, outbox) + 18 agents in `.claude/agents/` (chief of staff, fact-checker, 16 specialists in 6 desks with no
+  desk leads: Rules & Integrity, Numbers, Strategy & Risk, Client & Co-sponsor, Judging & Editorial, Records; each
+  desk reports to a student role). Work is organised in three deliverable workstreams, `office/workstreams/`
+  1_TNA, 2_IPS, 3_FINAL_REPORT (requirements, owners, dated timeline, agents on duty, gates). `/office` skill, workflows
   `office-gate-check`, `office-judge-panel`, `office-work-order` in `.claude/workflows/`. Office answers named
   students' questions only, one page per memo, checking work only until the IPS is in (7 Nov). `office/tools/textcheck.py`
   = word/char counts, curly quotes, overclaim words, exact-match check for pasted notes.

@@ -4,7 +4,7 @@ export const meta = {
   whenToUse: 'Before submitting the TNA, IPS or Final Report. args: {deliverable: "tna"|"ips"|"final", files: [paths], wins_notes?: path, note: string?}',
   phases: [
     { title: 'Check', detail: 'format, rules, integrity and coherence specialists in parallel' },
-    { title: 'Verdict', detail: 'rules-lead gate table' },
+    { title: 'Verdict', detail: 'chief-of-staff gate table' },
   ],
 }
 
@@ -38,8 +38,8 @@ const [fmt, rules, integ, coh] = await parallel([
 ])
 
 phase('Verdict')
-const verdict = await desk('rules-lead',
-  `${base}\n\nYour specialists reported:\n\n## format-gatekeeper\n${fmt}\n\n## rules-verifier\n${rules}\n\n## integrity-officer\n${integ}\n\n## coherence-checker\n${coh}\n\n` +
-  'Produce the gate table (gate | PASS / FAIL / NOT CHECKABLE | evidence | fix | owner role | due) and the single most dangerous item. Where specialists disagree, re-check the source yourself.',
-  { phase: 'Verdict' })
+const verdict = await agent(
+  `Read .claude/agents/chief-of-staff.md, office/CHARTER.md and the workstream file for this deliverable in office/workstreams/. Do not spawn agents or write files.\n\n${base}\n\nYour specialists reported:\n\n## format-gatekeeper\n${fmt}\n\n## rules-verifier\n${rules}\n\n## integrity-officer\n${integ}\n\n## coherence-checker\n${coh}\n\n` +
+  'Produce the gate table, covering every gate in the workstream file (gate | PASS / FAIL / NOT CHECKABLE | evidence | fix | owner role | due) and the single most dangerous item. Where specialists disagree, re-check the source yourself.',
+  { label: 'chief-of-staff:verdict', phase: 'Verdict' })
 return verdict

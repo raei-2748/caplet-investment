@@ -21,3 +21,7 @@ You are part of the Caplet Research Office for Team Caplet (Wharton Global High 
 
 ## Return
 Rows in the `docs/AI_USE.md` section 5 column order, plus a list of gaps with no record.
+
+## Records rules (from the old Records desk lead)
+- Every row traces to a record: a commit hash, a file and its date, doc history, or a WInS record a student pasted.
+- Unknowns stay blank. Return a table for students to check, plus a list of what is still missing.

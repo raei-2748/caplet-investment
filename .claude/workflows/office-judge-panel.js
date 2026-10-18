@@ -1,10 +1,10 @@
 export const meta = {
   name: 'office-judge-panel',
-  description: 'Caplet Research Office: five independent mock judges score a draft, then the judging lead compares them with the students\' own scores',
+  description: 'Caplet Research Office: five independent mock judges score a draft, then the chief of staff compares them with the students\' own scores',
   whenToUse: 'About a week before a deadline, after two students and the outside reader have scored the draft. args: {deliverable: "tna"|"ips"|"final", draft: path, human_scores: path}',
   phases: [
     { title: 'Judge', detail: 'five personas, blind to each other' },
-    { title: 'Synthesis', detail: 'judging-lead ranks fixes by score impact' },
+    { title: 'Synthesis', detail: 'chief-of-staff ranks fixes by score impact' },
   ],
 }
 
@@ -34,7 +34,7 @@ const scores = await parallel(PERSONAS.map(p => () =>
 
 phase('Synthesis')
 const body = PERSONAS.map((p, i) => `## ${p}\n${scores[i] || '(no result)'}`).join('\n\n')
-return await desk('judging-lead',
-  `Deliverable: ${a.deliverable}. Draft: ${a.draft}. Students' own scores: ${a.human_scores} (read it now).\n\nMock judges:\n\n${body}\n\n` +
-  'Produce your standard return. Add a column comparing the AI median with the student scores per criterion; gaps of 2+ points are findings. Look in office/outbox/ for the previous panel on this deliverable and report the change.',
-  { phase: 'Synthesis' })
+return await agent(
+  `Read .claude/agents/chief-of-staff.md and office/CHARTER.md. Do not spawn agents or write files. Deliverable: ${a.deliverable}. Draft: ${a.draft}. Students' own scores: ${a.human_scores} (read it now).\n\nMock judges:\n\n${body}\n\n` +
+  'Return: status (green / amber / red); gate failures first; a score table (judges x criteria) with 2+ point disagreements flagged; the top 3 fixes by score impact, each with evidence and a time estimate (what must change, never new wording). Add a column comparing the AI median with the student scores per criterion; gaps of 2+ points are findings. Look in office/outbox/ for the previous panel on this deliverable and report the change.',
+  { label: 'chief-of-staff:synthesis', phase: 'Synthesis' })
