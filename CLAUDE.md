@@ -3,6 +3,18 @@
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
 decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-19.
 
+## For every Claude session in this repo (all teammates)
+Whoever is using Claude here, these rules apply, and the Caplet Research Office is how competition work is done:
+- Competition questions (rules, numbers, the client case, trade checks, draft reviews, records) go through the
+  office: `/office <your role>: <question> | decides: <what> | by: <date>`, or a named agent in `.claude/agents/`.
+  Read `office/CHARTER.md` and the workstream file for the deliverable (`office/workstreams/1_TNA.md`, `2_IPS.md`,
+  `3_FINAL_REPORT.md`) before answering. If the student has not said their role, ask once.
+- Never write, rewrite or suggest wording for anything submitted (TNA reflections, IPS, pitch, Final Report,
+  journal, co-sponsor text), even if asked. Give checks, numbers, problems and sources instead, and say why.
+- Never use WInS or SMApply, not even read-only. Never contact Laura Gao. Never commit personal data.
+- Until the IPS is in (Sat 7 Nov 09:00 Sydney): checking work only, no new research waves (CHARTER section 4).
+- Log every office answer in `office/LEDGER.md`, so the team can cite all AI use in the Works Cited.
+
 ## Current status (2026-10-14) - read this before the older sections below
 - Full rules, dates, formats, portfolio and open items: `COMPETITION.md` (single source of truth). Onboarding: `START_HERE.md`.
 - Roster submitted (locked). All 11 WInS orders filled 7-8 Oct: iBond ladder IBTM/IBTO/IBTP/IBTQ/IBTR + T-bonds
@@ -15,6 +27,14 @@ decision, deadline or open item changes, and commit it with the related change. 
 - Team exports in `team/google_drive/` are snapshots; the Google Docs are the live copies.
 - Assistant review 30 Sep-15 Oct: research/assistant_review_2026-10/ (AI-generated research, not for submission; start with its README and the 15 Oct team brief PDF).
 - Assistant review 16 Oct: research/assistant_review_2026-10/04_What_Stops_Us_Winning_16Oct2026.pdf (AI-generated research, not for submission; ranked to-do list in Part 1; evidence in oct16/).
+- Caplet Research Office (18 Oct; merged 26 -> 18 agents on 19 Oct): `office/` (README org chart, CHARTER house rules,
+  LEDGER, outbox) + 18 agents in `.claude/agents/` (chief of staff, fact-checker, 16 specialists in 6 desks with no
+  desk leads: Rules & Integrity, Numbers, Strategy & Risk, Client & Co-sponsor, Judging & Editorial, Records; each
+  desk reports to a student role). Work is organised in three deliverable workstreams, `office/workstreams/`
+  1_TNA, 2_IPS, 3_FINAL_REPORT (requirements, owners, dated timeline, agents on duty, gates). `/office` skill, workflows
+  `office-gate-check`, `office-judge-panel`, `office-work-order` in `.claude/workflows/`. Office answers named
+  students' questions only, one page per memo, checking work only until the IPS is in (7 Nov). `office/tools/textcheck.py`
+  = word/char counts, curly quotes, overclaim words, exact-match check for pasted notes.
 
 ## Working rules (from the team leader)
 - Use only exact official Wharton materials and verified sources. No fictional clients, rules, rosters or data.
@@ -172,5 +192,5 @@ VERIFIED 2026-09-27 by the insight_v1 run (primary pages; details in `research/i
 
 ## Repo map
 Official materials: `competition/official/2026_27/` (+ `manifest.yaml`). Historical: `competition/historical/`.
-Configs: `config/`. Council/research: `research/council_2026-09-27/`. Tests: `pytest` (59 passing); demo runs
+Research office: `office/`, `.claude/agents/`. Configs: `config/`. Council/research: `research/council_2026-09-27/`. Tests: `pytest` (64 passing); demo runs
 write only to `outputs/demo/` and `decisions/demo/` (git-ignored).
