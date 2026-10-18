@@ -5,3 +5,4 @@ One row per work order, newest last. The Chief of Staff adds the row when a memo
 
 | WO | Date (Sydney) | Asked by (role) | Question (short) | Desks / agents | Output | Student decision |
 |---|---|---|---|---|---|---|
+| WO-0001 | 2026-10-18 | team lead (set-up test) | TNA paste-check readiness for IBTR/IBTM/VT notes | Rules & Integrity: format-gatekeeper, rules-verifier; fact-checker | `office/outbox/2026-10-18_WO-0001_rules_tna-paste-check.md` | |
