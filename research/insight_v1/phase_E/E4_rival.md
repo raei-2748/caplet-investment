@@ -1,3 +1,5 @@
+> **Update 2026-10-20:** written before the 6 Oct Wharton email limiting recommendations to WInS-listed stocks, ETFs and Treasury bonds. STRIPS/zero-coupon references are superseded: the real plan uses the WInS ladder (IBTM-IBTR + listed T-bonds) and IBTM as the 2028 floor. See COMPETITION.md.
+
 # E4 Rival strategist: the strongest competing strategy for this case, and where the E1 plan loses to it
 
 Agent E4 (red team, "the best strategist of a rival team that wants the same Top 50 place"), insight_v1 run, Phase E.

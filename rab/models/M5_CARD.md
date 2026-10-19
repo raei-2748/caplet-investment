@@ -1,3 +1,5 @@
+> **Update 2026-10-20:** written before the 6 Oct Wharton email limiting recommendations to WInS-listed stocks, ETFs and Treasury bonds. STRIPS/zero-coupon references are superseded: the real plan uses the WInS ladder (IBTM-IBTR + listed T-bonds) and IBTM as the 2028 floor. See COMPETITION.md.
+
 # M5 model card: century backtest and the price of certainty
 
 WS3, 2026-09-30. AI-generated research (Claude Code) for Team Caplet. Every number is MODEL (history replayed through

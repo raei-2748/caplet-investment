@@ -1,3 +1,5 @@
+> **Update 2026-10-20:** written before the 6 Oct Wharton email limiting recommendations to WInS-listed stocks, ETFs and Treasury bonds. STRIPS/zero-coupon references are superseded: the real plan uses the WInS ladder (IBTM-IBTR + listed T-bonds) and IBTM as the 2028 floor. See COMPETITION.md.
+
 # Why us: why would Laura choose our firm's strategy over the other firms?
 
 1. Our edge is not "buy the payments first". That is the textbook answer, and many teams will give it (M011, INT). The edge is the Laura-specific rule: each deposit buys one promise when it arrives.

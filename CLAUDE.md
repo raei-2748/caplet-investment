@@ -1,7 +1,7 @@
 # Team Caplet: project memory
 
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
-decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-19.
+decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-20.
 
 ## For every Claude session in this repo (all teammates)
 Whoever is using Claude here, these rules apply, and the Caplet Research Office is how competition work is done:
@@ -18,10 +18,15 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
 ## Current status (2026-10-14) - read this before the older sections below
 - Full rules, dates, formats, portfolio and open items: `COMPETITION.md` (single source of truth). Onboarding: `START_HERE.md`.
 - Roster submitted (locked). All 11 WInS orders filled 7-8 Oct: iBond ladder IBTM/IBTO/IBTP/IBTQ/IBTR + T-bonds
-  Feb-2037, May-2038, Nov-2039, Nov-2040, Nov-2041 + VT 167. 11/200 trades, cash $3,514, ~$301.9k. Plan: hold.
+  Feb-2037, May-2038, Nov-2039, Nov-2040, Nov-2041 + VT 167. 11/200 trades, cash $3,514, about $303.4k
+  at the 19 Oct close (bonds MODEL-priced; see `COMPETITION.md` section 8). Plan: hold.
 - 6 Oct Wharton email: Laura's real plan may use only WInS-listed stocks, ETFs and Treasury bonds. STRIPS-based
   numbers below and in `research/insight_v1/` are superseded (banners added). The floor is IBTM.
-- IPS latest draft = Google Doc "IPS Report" tab "Version 5" (export in `team/google_drive/ips_report/`).
+- Public SMApply FAQ, live 20 Oct: TIPS and STRIPS are now listed as NOT permitted, the permitted list is "for BOTH
+  contributions, the IPS and Final Report", and the public $5 stock floor is gone (the WInS session rules showed $3
+  on 29 Sep) (`COMPETITION.md` section 4; snapshot in `competition/official/2026_27/smapply_public_2026-10-20/`).
+- IPS latest draft = Google Doc "IPS Report" tab "Version 5" (export in `team/google_drive/ips_report/`, 14 Oct).
+  Read 19 Oct: the live Doc holds 10 pending AI suggestions (7 in Version 5) and [AI] text; the export predates them.
 - Next: TNA due 23 Oct ET (Sat 24 Oct 08:00 AEDT); IPS + trading freeze 6 Nov; Final Report 4 Dec.
 - Only Ray places/cancels WInS orders (7 Oct mis-click incident). Scheduled checks: `ops/routines/`.
 - Team exports in `team/google_drive/` are snapshots; the Google Docs are the live copies.

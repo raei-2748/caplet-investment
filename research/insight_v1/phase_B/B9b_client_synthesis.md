@@ -1,3 +1,5 @@
+> **Update 2026-10-20:** written before the 6 Oct Wharton email limiting recommendations to WInS-listed stocks, ETFs and Treasury bonds. STRIPS/zero-coupon references are superseded: the real plan uses the WInS ladder (IBTM-IBTR + listed T-bonds) and IBTM as the 2028 floor. See COMPETITION.md.
+
 # B9b Client Synthesis: Laura as a decision-maker choosing between firms
 
 Agent B9b, insight_v1 run, Phase B (question generation), written 2026-09-27. Lens: "Client Synthesis (deep client

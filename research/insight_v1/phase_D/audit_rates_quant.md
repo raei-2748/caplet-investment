@@ -1,3 +1,5 @@
+> **Update 2026-10-20:** written before the 6 Oct Wharton email limiting recommendations to WInS-listed stocks, ETFs and Treasury bonds. STRIPS/zero-coupon references are superseded: the real plan uses the WInS ladder (IBTM-IBTR + listed T-bonds) and IBTM as the 2028 floor. See COMPETITION.md.
+
 # AX1 audit: rates and quant (D3 model v2 and the nine D3 answers)
 
 Agent AX1 (cluster auditor, rates and quant), insight_v1 run, 2026-09-28. This is an adversarial check of

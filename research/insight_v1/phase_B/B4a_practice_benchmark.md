@@ -1,3 +1,5 @@
+> **Update 2026-10-20:** written before the 6 Oct Wharton email limiting recommendations to WInS-listed stocks, ETFs and Treasury bonds. STRIPS/zero-coupon references are superseded: the real plan uses the WInS ladder (IBTM-IBTR + listed T-bonds) and IBTM as the 2028 floor. See COMPETITION.md.
+
 # B4a Top-Practitioner Benchmark: institutional practice (pensions, insurers, endowments, foundations, Australian funds)
 
 Agent: B4a, insight_v1 run, Phase B (question generation). Written 2026-09-27. Starting angle: how institutions that

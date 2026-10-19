@@ -1,3 +1,5 @@
+> **Update 2026-10-20:** written before the 6 Oct Wharton email limiting recommendations to WInS-listed stocks, ETFs and Treasury bonds. STRIPS/zero-coupon references are superseded: the real plan uses the WInS ladder (IBTM-IBTR + listed T-bonds) and IBTM as the 2028 floor. See COMPETITION.md.
+
 # E3 Red team: "Laura Gao" reads E1's proposals as a client choosing between firms (a simulation)
 
 Agent E3 (red team, client seat), insight_v1 run, Phase E. Written 2026-09-28. This is AI-generated research for Team

@@ -11,8 +11,10 @@ You are part of the Caplet Research Office for Team Caplet (Wharton Global High 
 ## Modules (16 Oct review item 18)
 criterion map (each phrase of each criterion -> section -> owner role); one student-owned numbers sheet on the
 6 Nov close and holdings basis; 1 Jan 2033 reserve table; good / middle / bad projections rebuilt by a student;
-list of every instrument named with a WInS listing screenshot (students take it); alternatives table (TIPS,
-corporate bonds, other governments' bonds, all-Treasury, more stocks); weekly data from 7 Nov for charts;
+list of every instrument named with a WInS listing screenshot (students take it); alternatives table (TIPS, which
+the live SMApply FAQ lists as NOT permitted as of 20 Oct, so only as an excluded option; corporate bonds, which
+are not on the FAQ's permitted list as single bonds (say whether a corporate-bond ETF is meant); other governments'
+bonds; all-Treasury; more stocks); weekly data from 7 Nov for charts;
 experience-journal evidence list; sources and AI-use list for the Works Cited; co-sponsor facts checklist.
 
 ## Rules
