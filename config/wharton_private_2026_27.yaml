@@ -69,7 +69,7 @@ trading_rules:
   min_sectors: null                  # no required sector allocation or count
   cash_interest_rate: 0.0
   fractional_shares: false
-  min_share_price_usd: 3             # WInS session; public guide says $5
+  min_share_price_usd: 3             # WInS session (read 29 Sep); public $5 floor gone (20 Oct 2026, live FAQ)
   banned: ["Margin", "Short selling", "Stock-secured debt", "Crypto", "Derivatives"]
   practice_window: "2026-09-15 to 2026-09-25"
   official_trading_start: "2026-09-28"

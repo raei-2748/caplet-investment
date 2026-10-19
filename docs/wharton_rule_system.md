@@ -91,8 +91,8 @@ All deadlines are 5:00 pm ET. (Corrected 2026-10-14: WInS does not close on 4 De
 - **Virtual cash**: $300,000 (the client's $150,000 2028 deposit is not in WInS).
 - **Commissions**: $25 per stock/ETF trade; $10 per US Treasury bond trade. 0% interest on cash; no fractional shares.
 - **Trade limits**: max 200 trades; each order at most 2x the security's daily volume.
-- **Allowed**: stocks (WInS session minimum price $3; the public guide says $5), any ETF available on WInS, US Treasury bonds available on WInS.
-- **Banned**: margin, short selling, stock-secured debt, crypto, derivatives.
+- **Allowed**: stocks (WInS session minimum price $3, read 29 Sep; the public $5 floor is gone from the FAQ and Trading pages (20 Oct 2026, live FAQ)), any ETF available on WInS, US Treasury bonds available on WInS.
+- **Banned**: margin, short selling, stock-secured debt, crypto, derivatives, TIPS, STRIPS (20 Oct 2026, live FAQ).
 - **Position limits**: 200% per stock/ETF and 100% for bonds, i.e. effectively no cap.
 - **No required sector allocation or sector count**, and no minimum number of holdings.
 - **Client case**: Laura Gao (see `config/client_mandate.yaml`). Rubric criteria are published without weights.
