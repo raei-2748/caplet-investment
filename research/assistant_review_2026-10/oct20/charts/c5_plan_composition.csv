@@ -1,0 +1,29 @@
+variant,point_in_time,ladder_Treasury_ETFs_usd,ladder_Treasury_bonds_usd,floor_IBTM_usd,VT_usd,leftover_Treasury_usd,reserve_10k_Nov2041_usd,paid_out_as_gift_usd,released_to_Laura_usd,left_in_portfolio_usd
+option 1,1 Jan 2027 (after purchase),167806,129357,0,0,2838,0,0,0,300000
+option 1,2 Jan 2028 (after deposit 2),176485,136331,117807,32193,2981,0,0,0,465797
+option 1,1 Jan 2031 (range announced),205226,159525,136358,39372,3456,0,0,0,543937
+option 1,1 Jan 2033 before set-aside,226860,177166,150000,45027,3806,0,0,0,602859
+option 1,1 Jan 2033 after payment 1 + reserve set aside + gift paid,176860,177166,0,0,3806,0,169686,25340,357832
+option 1,1 Jan 2034 after payment 2,135912,186693,0,0,3806,0,0,0,326411
+option 1,1 Jan 2035 after payment 3,92872,196731,0,0,3806,0,0,0,293410
+option 1,1 Jan 2036 after payment 4,47611,207310,0,0,3806,0,0,0,258727
+option 1,1 Jan 2037 after payment 5,0,218488,0,0,3806,0,0,0,222295
+option 1,1 Jan 2038 after payment 6,0,177938,0,0,3806,0,0,0,181744
+option 1,1 Jan 2039 after payment 7,0,135900,0,0,3806,0,0,0,139706
+option 1,1 Jan 2040 after payment 8,0,92961,0,0,3806,0,0,0,96768
+option 1,1 Jan 2041 after payment 9,0,47721,0,0,3806,0,0,0,51527
+option 1,1 Jan 2042 after payment 10,0,0,0,0,3806,0,0,0,3806
+option 3r,1 Jan 2027 (after purchase),167806,129357,0,0,2838,0,0,0,300000
+option 3r,2 Jan 2028 (after deposit 2),176485,136331,109953,30047,2981,10000,0,0,465797
+option 3r,1 Jan 2031 (range announced),205226,159525,127267,36747,3456,11697,0,0,543919
+option 3r,1 Jan 2033 before set-aside,226860,177166,140000,42025,3806,12987,0,0,602844
+option 3r,1 Jan 2033 after payment 1 + reserve set aside + gift paid,176860,177166,0,0,3806,5000,168374,21639,362832
+option 3r,1 Jan 2034 after payment 2,135912,186693,0,0,3806,5268,0,0,331679
+option 3r,1 Jan 2035 after payment 3,92872,196731,0,0,3806,5550,0,0,298960
+option 3r,1 Jan 2036 after payment 4,47611,207310,0,0,3806,5848,0,0,264575
+option 3r,1 Jan 2037 after payment 5,0,218488,0,0,3806,6162,0,0,228457
+option 3r,1 Jan 2038 after payment 6,0,177938,0,0,3806,6493,0,0,188237
+option 3r,1 Jan 2039 after payment 7,0,135900,0,0,3806,6841,0,0,146547
+option 3r,1 Jan 2040 after payment 8,0,92961,0,0,3806,7208,0,0,103976
+option 3r,1 Jan 2041 after payment 9,0,47721,0,0,3806,7596,0,0,59123
+option 3r,1 Jan 2042 after payment 10,0,0,0,0,3806,8003,0,0,11810

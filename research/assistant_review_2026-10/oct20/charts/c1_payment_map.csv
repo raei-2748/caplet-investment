@@ -1,0 +1,12 @@
+payment_no,payment_date,payment_usd,holding_that_pays_it,holding_type,coupon_pct,holding_end_date,days_cash_waits,months_cash_waits,where_cash_waits,years_1Jan2027_to_end,par_yield_pct_19Oct,zero_yield_pct_19Oct_MODEL,plan_cost_simple_par_method_usd,plan_cost_basisD_MODEL_usd,plan_cost_couponstudy_MODEL_usd,WInS_units_held,WInS_value_19Oct_usd,WInS_value_div_plan_cost_D
+1,2033-01-01,50000,IBTM (iShares iBonds Dec 2032 Term Treasury ETF),Treasury ETF,,2032-12-15 (fund ends on or about this date),17,0.6,cash from the fund's final payout,5.955,4.988,5.006,37287,37248,37287,1142,24970,0.67
+2,2034-01-01,50000,IBTO (iShares iBonds Dec 2033 Term Treasury ETF),Treasury ETF,,2033-12-15 (fund ends on or about this date),17,0.6,cash from the fund's final payout,6.954,5.038,5.062,35376,35318,35375,1024,23690,0.671
+3,2035-01-01,50000,IBTP (iShares iBonds Dec 2034 Term Treasury ETF),Treasury ETF,,2034-12-15 (fund ends on or about this date),17,0.6,cash from the fund's final payout,7.953,5.075,5.104,33563,33489,33562,927,22466,0.671
+4,2036-01-01,50000,IBTQ (iShares iBonds Dec 2035 Term Treasury ETF),Treasury ETF,,2035-12-15 (fund ends on or about this date),17,0.6,cash from the fund's final payout,8.953,5.112,5.146,31822,31726,31821,894,21322,0.672
+5,2037-01-01,50000,IBTR (iShares iBonds Dec 2036 Term Treasury ETF),Treasury ETF,,2036-12-15 (fund ends on or about this date),17,0.6,cash from the fund's final payout,9.955,5.148,5.189,30144,30024,30144,853,20175,0.672
+6,2038-01-01,50000,US Treasury 4.750% 15 Feb 2037,Treasury bond,4.750,2037-02-15,320,10.5,short-term Treasury ETF (must be WInS-listed; UNVERIFIED which),10.125,5.155,5.197,29867,29742,29859,20,19585,0.658
+7,2039-01-01,50000,US Treasury 4.500% 15 May 2038,Treasury bond,4.500,2038-05-15,231,7.6,short-term Treasury ETF (must be WInS-listed; UNVERIFIED which),11.368,5.202,5.255,27889,27725,27872,20,19238,0.694
+8,2040-01-01,50000,US Treasury 4.375% 15 Nov 2039,Treasury bond,4.375,2039-11-15,47,1.5,short-term Treasury ETF (must be WInS-listed; UNVERIFIED which),12.871,5.259,5.328,25633,25411,25605,18,16780,0.66
+9,2041-01-01,50000,US Treasury 4.250% 15 Nov 2040,Treasury bond,4.250,2040-11-15,47,1.5,short-term Treasury ETF (must be WInS-listed; UNVERIFIED which),13.873,5.297,5.379,24209,23943,24171,18,16378,0.684
+10,2042-01-01,50000,US Treasury 3.125% 15 Nov 2041,Treasury bond,3.125,2041-11-15,47,1.5,short-term Treasury ETF (must be WInS-listed; UNVERIFIED which),14.872,5.335,5.431,22851,22536,22751,20,15551,0.69
+total,,500000,,,,,,,,,,,298641,297162,298446,,200154,0.674

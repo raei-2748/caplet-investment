@@ -1,0 +1,12 @@
+source_MODEL,measure,value,measure_2,value_2
+"number sheet (ips_numbers_oct19.py), anchored on basis D","range bottom 2031, median",145000,"share of paths where the bottom is exactly $145,000",0.611
+number sheet,"range top 2031, p5 / p50 / p95",141730 / 167229 / 183815,"width, median",24860
+number sheet,"gift 2033, p5 / p50 / p95",139260 / 166411 / 182868,mean,164549
+number sheet,gift inside the range announced in 2031,0.9933,gift within $1k of the top,0.758
+number sheet,"VT bought Jan 2028, p5 / p50 / p95",20286 / 32303 / 42805,chance ladder costs > $300k on 1 Jan 2027 (anchored D),0.424
+"coupon study (coupon_options.py), option 1, 100,000 model paths",bottom median / top median,145000 / 166996,gift median / gift p5,166177 / 138777
+"coupon study, option 1",chance gift below the announced bottom (model / history since 1953),0.0195 / 0.0261,chance a payment is short (model / history),0.1558 / 0.2928
+"coupon study (coupon_options.py), option 3r $10k, 100,000 model paths",bottom median / top median,135000 / 165807,gift median / gift p5,163343 / 136671
+"coupon study, option 3r $10k",chance gift below the announced bottom (model / history since 1953),0.0006 / 0.0043,chance a payment is short (model / history),0.0002 / 0.0000
+"coupon study (coupon_options.py), option 4 (dedicated rebuild), 100,000 model paths",bottom median / top median,145000 / 166276,gift median / gift p5,165467 / 140703
+"coupon study, option 4 (dedicated rebuild)",chance gift below the announced bottom (model / history since 1953),0.0001 / 0.0000,chance a payment is short (model / history),0.0000 / 0.0000
