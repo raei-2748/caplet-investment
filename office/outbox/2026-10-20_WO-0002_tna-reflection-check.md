@@ -53,3 +53,18 @@ The two spaced en dashes in VT count as words on a by-spaces counter; the Survey
 
 Before pasting: delete the [AI] versions; replace curly quotes only if the paste check shows a problem; record the
 AI use (WO-0002 and the [AI] drafts) for the Works Cited.
+
+## Follow-up (20 Oct): fix sheet, content only
+Ray asked for rewritten reflections. Declined: CLAUDE.md and CHARTER say never write or rewrite submitted text,
+even if asked, and the Wharton AI policy page says not to use AI for personal reflection. Given instead: the three
+required points, with the facts each reflection still needs and where each fact comes from.
+
+Instructions: the official PDF (`2026_WGY_Trading_Notes_Analysis-FINAL.txt`:46-52) says "client's goals, funding
+needs, or risk considerations". The Doc's Instructions tab says "goals, objectives, or constraints" and has an extra
+"Important" paragraph, source unknown. Before submitting, check which wording the form shows and cover both.
+
+| Required point | VT: facts still missing or wrong | IBTR: facts still missing or wrong |
+|---|---|---|
+| Why | OK (about 10,000 stocks, 0.06%, no stock picking) | Missing: it funds the 1 Jan 2037 payment (5th); WInS has no single Treasury maturing Feb 2031 to Feb 2036 |
+| Strategy fit | Missing: payments, then floor, then growth (IPS V5); VT about 9% (167 sh x $158.83 = $26.5k of about $301.9k); real plan buys it Jan 2028 with what is left after the ladder gap and floor; untouched to 2033 | Missing: ladder bought from 2042 backwards (longest first, most rate-sensitive, IPS V5); held to maturity |
+| Client | Wrong: top of range = floor + half the fund (not half). Missing: 2028 deposit depends on her publishing/speaking income, so only spare money takes stock risk; other half stays hers ("flexibility", case) | Remove "guarantee" and "safest asset in the world". Name the residual risks (payout not fixed; US default). Optional: the note's 0.2pp test; any "since then" number needs a dated ladder-pricer run |
