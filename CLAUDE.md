@@ -42,9 +42,7 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
 - Research online and verify facts; cite URL + date. Network access was widened on 2026-09-27: primary sites load
   with curl, but the WebFetch tool is still blocked, so read pages with
   `.venv/bin/python research/insight_v1/scripts/fetch_text.py URL [--grep "exact phrase"]`.
-- Do NOT write the Trading Notes, IPS or Final Report. The team wants knowledge: numbers, models, devil's advocate,
-  trade checks, research/fact-checking. Wharton AI policy: AI for brainstorming; AI-generated work may not be
-  submitted as the students' own and must be cited.
+- AI may edit the file but only in suggestion mode whenever it is attempting to make edits on the Google Docs. AI do not have the rights to confirm or execute any trades. AI do not have the rights to submit our work. AI, or Claude, must complete the work to the highest of its capability, particularly the items that are going to be submitted. Caplet team wants knowledge: numbers, models, devil's advocate, trade checks, research/fact-checking. 
 - Goal: top priority is reaching the Top 50 semifinals (chosen on the written Trading Notes, IPS and Final Report);
   the finale comes later. Keep deliverables plain-English (judges reward simple, elegant ideas). Semis-first does not
   change the rule that the team writes the deliverables; the assistant reviews drafts, checks trades and numbers.
