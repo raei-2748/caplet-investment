@@ -183,7 +183,7 @@ All 11 orders filled 7-8 Oct 2026 (placed by Ray). 11 of 200 trades used.
 | IBTP (Dec 2034) | 927 sh | 23.90 | 2035 |
 | IBTQ (Dec 2035) | 894 sh | 23.46 | 2036 |
 | IBTR (Dec 2036) | 853 sh | 23.24 | 2037 |
-| 5.000% T-bond Feb-2037 | 20 units ($20k face) | 96.019 | 2038 |
+| 4.750% T-bond Feb-2037 | 20 units ($20k face) | 96.019 | 2038 |
 | 4.500% T-bond May-2038 | 20 units | 93.076 | 2039 |
 | T-bond Nov-2039 | 18 units | 90.005 | 2040 |
 | T-bond Nov-2040 | 18 units | 87.724 | 2041 |
