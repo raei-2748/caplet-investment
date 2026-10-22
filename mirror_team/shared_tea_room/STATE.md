@@ -28,6 +28,9 @@ See `decision_journal.md` in this folder.
 - The 2031 range needs a model behind it (Jun) before anyone quotes a number; Amara's cut line waits in Tess's
   folder for December.
 
+- Jun's ladder cost is on the payment-date basis; reprice on the holdings basis (bond maturity dates) before
+  anyone quotes headroom again.
+
 ## Relationships right now
 - Amara lost a second line in two days (the 2031 range) but cut it herself; she wants it back in December.
 - Jun is embarrassed that an off-hand chat number nearly reached a deliverable; now posts only dated MODEL numbers.
