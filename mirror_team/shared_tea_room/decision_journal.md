@@ -14,3 +14,6 @@ Who argued what and the options considered are in that day's episode.
 | 23 Oct | No 2031 range or facility number in the TNA; range waits for a real model | Amara, Jun | TNA instruction :20-23 defers these to the Final Report; the $150-200k figure had no basis |
 | 23 Oct | Notes copied straight from WInS as plain text, exact-match checked | Kai, Felix | Google Doc had curled an apostrophe; Wharton "will verify" |
 | 23 Oct | Last WInS orders before the U.S. close, aim Fri 6 Nov evening | Kai | Last fill 4 p.m. ET = 08:00 Sydney on 7 Nov |
+| 23 Oct | IPS v1 built on three principles (promise first; floor + sail; promise only what she owns), sail share left to the 25 Oct vote | Amara, Tess | Felix's checklist: the IPS must state the rules for reserve, certainty, facility and range before the freeze |
+| 23 Oct | Ladder bought latest payments first; any January gap is the first use of the 2028 deposit | Jun | Keeps any gap in the 2033 rung, paid before a single share is bought |
+| 23 Oct | Certainty defined as "paid in full from bonds she owns unless the U.S. government defaults"; coupon reinvestment named as the one remaining risk | Jun, Kai | STRIPS banned, so real bonds pay coupons before 2033 |

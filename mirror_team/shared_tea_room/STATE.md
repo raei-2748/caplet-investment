@@ -1,6 +1,6 @@
 # FICTION. Team Keel: running state
 
-Updated by each daily episode. Last update: Episode 2, Fri 23 Oct 2026 (Sydney).
+Updated by each daily episode. Last update: Episode 2, Fri 23 Oct 2026 (Sydney); IPS work added same day.
 
 ## Keel's plan (their own; not Caplet's)
 One sentence (Nora's current version): **"Buy Laura's promise first, then let what's left grow, and never tell a
@@ -16,11 +16,24 @@ co-sponsor a number she doesn't already own."**
   fill at the next open).
 - TNA: three reflections final (strict word count < 100), Nora to submit Fri 23 Oct 20:00, Felix watching (Ep 2).
 
+## IPS work, Fri 23 Oct (see ROAD_TO_SEMIFINAL.md)
+- IPS v1 drafted: `drafts/IPS_v1.txt` (pitch 49/50 words, IPS 482/500, strict count 50 and 484). Three principles:
+  promise first; floor + sail; promise only what she owns. 2033 contribution = floor + half the sail, capped at the
+  top announced in 2031, so it lands inside the range by construction.
+- Jun's sail table (MODEL, 21 Oct curve, J.P. Morgan 2026 LTCMA): 0% stocks $200k flat; 25% median $205k, floor
+  $150k, p5 $181k; 75% median $214k, floor $50k, p5 $143k. Jun says 25%. Kai still wants more, but now says the
+  leap is the honesty rule, not the equity share.
+- Kai's top attack: coupons. Real Treasuries pay coupons from 2027 (no STRIPS allowed), so the IPS now says where
+  they go and names reinvestment as the one remaining risk.
+- Ladder above $300k: about 30% chance by 1 Jan 2027 (MODEL, 90bp/yr rate vol assumed); gap paid from the 2028
+  deposit first, about $1.33 of 2033 sail per $1 of gap.
+
 ## Decisions
 See `decision_journal.md` in this folder.
 
 ## Open threads
-- How big is the sail? (Kai vs Jun; Nora wants a number by 1 Nov.)
+- How big is the sail? Jun 25% vs Kai more; vote Sun 25 Oct, final 1 Nov.
+- Re-run Jun's numbers on a fresh Treasury curve (the site could not be reached on 23 Oct) and add a worst-historical-window check.
 - Jun's ladder headroom is thin (~$6k, ~21bp, MODEL, 21 Oct curve). What does the plan say if the 2027 price is
   above $300k?
 - What exactly will the IPS form look like? (Felix checks SMApply when it opens.)
