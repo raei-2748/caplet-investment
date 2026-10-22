@@ -41,6 +41,12 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
   (Fri 23 Oct 5 pm ET); IPS + trading freeze Sat 7 Nov 09:00 AEDT (6 Nov ET); Final Report Sat 5 Dec 09:00 AEDT (4 Dec ET).
 - Only Ray places/cancels WInS orders (7 Oct mis-click incident). Scheduled checks: `ops/routines/`.
 - Team exports in `team/google_drive/` are snapshots; the Google Docs are the live copies.
+- 2031 range numbers (17 Oct, WInS-only basis, model): `research/range_2031/README.md`. Today's estimate: bottom
+  $145k (the ~$150k IBTM floor rounded down: its payout is not fixed), top ~$170k (p5-p95 $145k-$195k); ~3 in 4 to reach the top, ~99% at least
+  halfway. Ladder headroom fell to $1,913 (7bp) on the 16 Oct curve (cost $298,087), so the floor is not a fixed $150k.
+- 17-18 Oct: AI exemplar v12 (Ray's request; a model to learn from, not for submission; plain formal prose, no scalpel style in the IPS) of the pitch, IPS and the three TNA
+  reflections: `research/blueprints/04_exemplar_ips_tna_17Oct.md`, also in the IPS Report Doc as SUGGESTIONS only
+  (Version 5 + Trading Note Reflection tabs). Google Doc edits: suggestion mode only, never direct edits; Ray reviews all.
 - Assistant review 30 Sep-15 Oct: research/assistant_review_2026-10/ (AI-generated research, not for submission; start with its README and the 15 Oct team brief PDF).
 - Assistant review 16 Oct: research/assistant_review_2026-10/04_What_Stops_Us_Winning_16Oct2026.pdf (AI-generated research, not for submission; ranked to-do list in Part 1; evidence in oct16/).
 - Caplet Research Office (18 Oct; merged 26 -> 18 agents on 19 Oct): `office/` (README org chart, CHARTER house rules,
