@@ -33,6 +33,10 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
 - 6 Oct Wharton email: Laura's real plan may use only WInS-listed stocks, ETFs and Treasury bonds. STRIPS-based
   numbers below and in `research/insight_v1/` are superseded (banners added). The floor is IBTM.
 - IPS latest draft = Google Doc "IPS Report" tab "Version 5" (export in `team/google_drive/ips_report/`).
+- IPS numbers rebuilt 16 Oct on the 15 Oct curve: `research/ips_numbers_2026-10/IPS_number_sheet.md`. Ladder ~$294k
+  (headroom ~$5.5k, over $300k on 1 Jan 2027 in ~1 in 3); range ~$145k-$168k; gift inside ~99%; coupon-reinvestment
+  shortfall ~$21k if yields fall 2pt for good, not covered by what Laura kept in ~6-7% of paths. TEAM DECISION before
+  6 Nov: state the risk / keep Laura's half to 2042 / hold a buffer from the 2028 deposit.
 - Next (Sydney time first; the team is in Sydney, so count days in Sydney time): TNA due Sat 24 Oct 08:00 AEDT
   (Fri 23 Oct 5 pm ET); IPS + trading freeze Sat 7 Nov 09:00 AEDT (6 Nov ET); Final Report Sat 5 Dec 09:00 AEDT (4 Dec ET).
 - Only Ray places/cancels WInS orders (7 Oct mis-click incident). Scheduled checks: `ops/routines/`.
@@ -64,9 +68,8 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
 ## Mandate (Ray, 2026-09-27)
 The assistant has freedom to make decisions and choose its workflow, sticking tightly to the competition and the
 materials provided, asking when information is needed, with the goal of reaching the semifinals. Everything that is
-sent to the judges must be approved by the team. Assistant outputs are for inspiration and research; the team does
-not submit them as they are. Deliverable help = blueprints (content, arguments, verified numbers, checklists) and
-draft reviews, not submission-ready prose.
+sent to the judges must be approved by the team. Deliverable help = verified numbers, checks, draft reviews and,
+since 2026-10-16, labelled "[AI]" Google Docs suggestions that the team accepts or rejects.
 
 ## Team
 Lessons from 2025-26 (Ray, no feedback received): strategy packaging was over-complex for the insight; the team traded

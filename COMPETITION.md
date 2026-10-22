@@ -201,8 +201,12 @@ scrolled. Rule since then: **only Ray places or cancels WInS orders.** AI may fi
 
 - [ ] **TNA**: write the 3 reflections (<= 100 words each) in the IPS doc "Deliverables" tab; copy the notes exactly.
 - [ ] Fill the team sheet's Trade Log and units-held columns (needed to evaluate the implementation).
-- [ ] **IPS Version 5** (47 + ~498 words): render check of the page/line count; soften absolute claims
+- [ ] **IPS Version 5** (16 Oct check: fits 2 pages with ~3 lines spare; Google Docs counts hyphen parts as words, so
+      keep the IPS body <=500 on BOTH counts: 496 / 487 if the 16 Oct fixes are accepted; pitch 50 / 47, no room). Earlier:
+      render check of the page/line count; soften absolute claims
       ("never below the floor", "cannot miss") or back them; add the trade-off sentence; put back the certainty evidence.
+- [ ] **IPS numbers** (16 Oct): use `research/ips_numbers_2026-10/IPS_number_sheet.md` for the dollar range, the
+      confidence, the allocation and the return assumption; pick one coupon-risk option (section 3) before 6 Nov.
 - [ ] **Request the school documentation letter** now.
 - [ ] Final Report: start the experience log (dates, decisions, turning points) and the sources list now; the time
       between 9 Nov and 4 Dec is short.
