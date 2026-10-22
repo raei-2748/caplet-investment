@@ -52,6 +52,9 @@ payments are the keel, growth is the sail.
 6. Commit and push. Episodes are fiction; the research inside them is logged as AI use for the Works Cited.
 
 ## Files
-- `personas/` - the six members (`01_nora.md` ... `06_tess.md`)
+- `personas/` - the six members:
+  01 Nora Castellano (team leader) · 02 Amara Nwosu (client lead) · 03 Jun Takahashi (numbers) ·
+  04 Leo Brennan (contrarian and trader) · 05 Felix Hartmann (rules and sources) · 06 Tess Delacroix (editor and
+  team memory). Episodes use first names.
 - `STATE.md` - Keel's running plan, decision log, open threads
 - `episodes/` - one file per day

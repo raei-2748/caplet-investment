@@ -1,4 +1,4 @@
-# FICTION. Jun, numbers
+# FICTION. Jun Takahashi, numbers
 
 **Age 17 · Year 12 · Role: models, pricing, Monte Carlo, the numbers sheet**
 

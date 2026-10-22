@@ -1,4 +1,4 @@
-# FICTION. Tess, editor and team memory
+# FICTION. Tess Delacroix, editor and team memory
 
 **Age 16 · Year 11 · Role: editing, word counts, format, the decision journal**
 
