@@ -1,6 +1,6 @@
 # FICTION. Team Keel: running state
 
-Updated by each daily episode. Last update: Episode 1, Thu 22 Oct 2026 (Sydney).
+Updated by each daily episode. Last update: Episode 2, Fri 23 Oct 2026 (Sydney).
 
 ## Keel's plan (their own; not Caplet's)
 One sentence (Nora's current version): **"Buy Laura's promise first, then let what's left grow, and never tell a
@@ -11,7 +11,10 @@ co-sponsor a number she doesn't already own."**
   Leo wants more of it than Jun does; the size is still open.
 - **2031 range:** bottom = what Laura already owns for the building; top = bottom + a stated share of the growth
   sleeve, with a confidence level Jun can defend.
-- WInS: built, trading done except possible small fixes. Only Leo places orders, after Felix's check.
+- WInS: built, trading done except possible small fixes. Only Leo places orders, after Felix's check. Any last fix
+  goes in before the U.S. close on Sat 7 Nov 08:00 Sydney (Wharton's cut-off is 09:00, but closed-market orders
+  fill at the next open).
+- TNA: three reflections final (strict word count < 100), Nora to submit Fri 23 Oct 20:00, Felix watching (Ep 2).
 
 ## Decision log
 | Date (Sydney) | Decision | Owner | Why |
@@ -21,6 +24,10 @@ co-sponsor a number she doesn't already own."**
 | 22 Oct | No WInS performance numbers in any reflection | Tess | "Do not focus on portfolio performance" |
 | 22 Oct | Inflation goes into the Final Report as an assumption about facility costs, not as a product | Amara | Case p.4 asks for "the effect of inflation on portfolio projections and facility costs" |
 | 22 Oct | IPS drafted in plain text from now on | Tess | IPS is now an SMApply form, not a PDF |
+| 23 Oct | Word limits checked on the stricter count (hyphens/slashes split words) | Tess | SMApply's counting method is unknown |
+| 23 Oct | No 2031 range or facility number in the TNA; range waits for a real model | Amara, Jun | TNA instruction :20-23 defers these to the Final Report; the $150-200k figure had no basis |
+| 23 Oct | Notes copied straight from WInS as plain text, exact-match checked | Leo, Felix | Google Doc had curled an apostrophe; Wharton "will verify" |
+| 23 Oct | Last WInS orders before the U.S. close, aim Fri 6 Nov evening | Leo | Last fill 4 p.m. ET = 08:00 Sydney on 7 Nov |
 
 ## Open threads
 - How big is the sail? (Leo vs Jun; Nora wants a number by 1 Nov.)
@@ -28,12 +35,15 @@ co-sponsor a number she doesn't already own."**
   above $300k?
 - What exactly will the IPS form look like? (Felix checks SMApply when it opens.)
 - Amara's inflation research for the Final Report: Taiwan construction costs vs CPI (opens after the IPS).
+- The 2031 range needs a model behind it (Jun) before anyone quotes a number; Amara's cut line waits in Tess's
+  folder for December.
 
 ## Relationships right now
-- Amara is a little bruised (TIPS idea killed) but turned it into the inflation-assumption task.
-- Leo lost the "up 2.1%" sentence and is sulking productively.
-- Tess spoke first in today's meeting, as agreed.
+- Amara lost a second line in two days (the 2031 range) but cut it herself; she wants it back in December.
+- Jun is embarrassed that an off-hand chat number nearly reached a deliverable; now posts only dated MODEL numbers.
+- Leo asked Felix to watch his paste: a first. The "two clocks" point came from Felix, and Leo took it without a fight.
+- Tess spoke first again; the strict word count is now her rule for every deliverable.
 
 ## Calendar (Sydney)
-TNA Sat 24 Oct 08:00 (Keel's internal deadline: Fri 23 Oct 18:00) · IPS + trading freeze Sat 7 Nov 09:00 ·
+TNA Sat 24 Oct 08:00 (Keel submits Fri 23 Oct 20:00) · IPS + trading freeze Sat 7 Nov 09:00 (last U.S. fill 08:00) ·
 Final Report instructions Tue 10 Nov 01:00 · Final Report Sat 5 Dec 09:00
