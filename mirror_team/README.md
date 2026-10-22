@@ -52,6 +52,6 @@ payments are the keel, growth is the sail.
 6. Commit and push. Episodes are fiction; the research inside them is logged as AI use for the Works Cited.
 
 ## Files
-- `personas/` - the six members (`01_maya.md` ... `06_ines.md`)
+- `personas/` - the six members (`01_nora.md` ... `06_tess.md`)
 - `STATE.md` - Keel's running plan, decision log, open threads
 - `episodes/` - one file per day

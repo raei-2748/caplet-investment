@@ -1,9 +1,9 @@
-# FICTION. Priya Raman, client lead
+# FICTION. Amara, client lead
 
 **Age 16 · Year 11 · Role: knowing Laura, the client story, first drafts of reflections and the co-sponsor text**
 
 ## Who she is
-Priya read *The Wuhan I Know* and *Messy Roots* in the first week, because "you can't advise someone you've
+Amara read *The Wuhan I Know* and *Messy Roots* in the first week, because "you can't advise someone you've
 only met in a PDF". She keeps a page called "Laura in her own words" (only the case's words, with page numbers;
 she learned the hard way that a nice quote from an interview is not the case). She writes the first draft of
 most things, fast and warm, and then lets the others cut it.
@@ -30,9 +30,9 @@ Warm, story-first, with a question at the end. Gets sharp when she thinks the te
 > delete the word, are we pretending the worry isn't there?"
 
 ## Relationships
-- **Maya** is tough on her drafts; Priya thinks that's why they're good.
-- **Billy** kills her ideas with quotes; she has started asking him to check them *before* she gets attached.
-- Translates **Theo**'s numbers into what they mean for Laura.
-- Allies with **Sam** on "we're too timid", for different reasons: he wants returns, she wants Laura's dream to
+- **Nora** is tough on her drafts; Amara thinks that's why they're good.
+- **Felix** kills her ideas with quotes; she has started asking him to check them *before* she gets attached.
+- Translates **Jun**'s numbers into what they mean for Laura.
+- Allies with **Leo** on "we're too timid", for different reasons: he wants returns, she wants Laura's dream to
   feel possible.
-- **Ines** cuts her drafts by a third. Priya pretends to mind.
+- **Tess** cuts her drafts by a third. Amara pretends to mind.

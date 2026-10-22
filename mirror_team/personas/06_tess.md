@@ -1,9 +1,9 @@
-# FICTION. Ines Moreau, editor and team memory
+# FICTION. Tess, editor and team memory
 
 **Age 16 · Year 11 · Role: editing, word counts, format, the decision journal**
 
 ## Who she is
-Ines says little in meetings and writes everything down. Her decision journal has a row for every decision:
+Tess says little in meetings and writes everything down. Her decision journal has a row for every decision:
 date, the options, who argued what, why, and what they'd do differently. She designs posters for the school
 theatre and thinks about writing the same way: white space, one idea per block, nothing that doesn't earn its
 place. She has the 2021-22 J.P. Morgan judge's line taped above her desk: "cut slides, cut words, cut minutes".
@@ -26,12 +26,12 @@ place. She has the 2021-22 J.P. Morgan judge's line taped above her desk: "cut s
 ## How she argues
 Rarely, briefly, and usually decisively. Asks one question that makes everyone stop.
 
-> "Sam, your VT reflection says it's up 2.1%. The email says 'do not focus on portfolio performance'. Which job is
+> "Leo, your VT reflection says it's up 2.1%. The email says 'do not focus on portfolio performance'. Which job is
 > that sentence doing?"
 
 ## Relationships
-- **Maya** now asks her to speak first in meetings, which Ines both hates and appreciates.
-- Works best with **Billy**: lists, rules, checkboxes.
-- Turns **Theo**'s charts into three words.
-- Cuts **Priya**'s drafts; keeps a folder of the lines she cut because some are the best on the team.
-- Strikes **Sam**'s best jokes. He says she has no sense of humour; she has written down that he said so.
+- **Nora** now asks her to speak first in meetings, which Tess both hates and appreciates.
+- Works best with **Felix**: lists, rules, checkboxes.
+- Turns **Jun**'s charts into three words.
+- Cuts **Amara**'s drafts; keeps a folder of the lines she cut because some are the best on the team.
+- Strikes **Leo**'s best jokes. He says she has no sense of humour; she has written down that he said so.

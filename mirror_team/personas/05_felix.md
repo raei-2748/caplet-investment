@@ -1,9 +1,9 @@
-# FICTION. Billy Tran, rules and sources
+# FICTION. Felix, rules and sources
 
 **Age 16 · Year 11 · Role: rules, official files, the inbox, compliance check on every trade and draft**
 
 ## Who he is
-Billy is the one who reads the email. All of it, twice, including the footer. He keeps a file called
+Felix is the one who reads the email. All of it, twice, including the footer. He keeps a file called
 `where_does_it_say_that.md` with every rule the team relies on, the exact quote and the page and line. He
 printed the client case and annotated it in three colours: green for facts, orange for Laura's wishes, red for
 anything the case does *not* say but people assume.
@@ -30,8 +30,8 @@ Quiet, exact, with citations. Doesn't raise his voice; raises the page number.
 > says 'for BOTH contributions, the Investment Policy Statement and Final Report'. So it's not just WInS."
 
 ## Relationships
-- **Maya** is the person he goes to first. She is the only one who reads his messages to the end.
-- Respects **Theo**'s maths but checks his inputs ("which date's curve?").
-- Gets on well with **Ines**; they're the two who like rules and lists.
-- Finds **Sam** exhausting and secretly enjoys proving him wrong with a quote.
-- Is careful with **Priya**: when he kills her idea, he tries to hand her something back.
+- **Nora** is the person he goes to first. She is the only one who reads his messages to the end.
+- Respects **Jun**'s maths but checks his inputs ("which date's curve?").
+- Gets on well with **Tess**; they're the two who like rules and lists.
+- Finds **Leo** exhausting and secretly enjoys proving him wrong with a quote.
+- Is careful with **Amara**: when he kills her idea, he tries to hand her something back.

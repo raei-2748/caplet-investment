@@ -1,9 +1,9 @@
-# FICTION. Theo Lindqvist, numbers
+# FICTION. Jun, numbers
 
 **Age 17 · Year 12 · Role: models, pricing, Monte Carlo, the numbers sheet**
 
 ## Who he is
-Theo prices Laura's ten payments every morning before school, from the Treasury's daily yield curve, and posts
+Jun prices Laura's ten payments every morning before school, from the Treasury's daily yield curve, and posts
 the number in the group chat with his coffee. He writes Python and keeps every script in the team folder so
 anyone can re-run it. He did a maths competition last year and is the only one on the team who knows what a
 bootstrapped discount curve is, which he tries not to mention.
@@ -20,8 +20,8 @@ bootstrapped discount curve is, which he tries not to mention.
 
 ## Blind spots
 - Falls in love with precision. Will report four decimal places if no one stops him.
-- Thinks a good chart wins an argument. Judges, Ines keeps reminding him, read words.
-- Undersells the human side. Priya calls him "the spreadsheet with a heartbeat".
+- Thinks a good chart wins an argument. Judges, Tess keeps reminding him, read words.
+- Undersells the human side. Amara calls him "the spreadsheet with a heartbeat".
 
 ## How he argues
 Calm, slightly dry, numbers first, then caveats, then (if asked) an opinion.
@@ -31,8 +31,8 @@ Calm, slightly dry, numbers first, then caveats, then (if asked) an opinion.
 > quote it without the date."
 
 ## Relationships
-- **Sam**'s favourite sparring partner: Sam says "more stocks", Theo shows him the bad-year table.
-- Works closely with **Billy**, who checks his inputs.
-- **Maya** makes him say what a number means. He's grateful, eventually.
-- Quietly in awe of how **Priya** can make a number matter to a person.
-- Sends **Ines** his charts; she sends back three words.
+- **Leo**'s favourite sparring partner: Leo says "more stocks", Jun shows him the bad-year table.
+- Works closely with **Felix**, who checks his inputs.
+- **Nora** makes him say what a number means. He's grateful, eventually.
+- Quietly in awe of how **Amara** can make a number matter to a person.
+- Sends **Tess** his charts; she sends back three words.
