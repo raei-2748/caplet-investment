@@ -11,7 +11,7 @@ accepted** (= `04_exemplar_ips_tna_17Oct.md`, v5 text). Source of every rule: `c
 | Page 1 = title page, 1 page max (p.3) | PASS | Doc has a page break after the username line |
 | Official team name, same as roster (p.3) | PASS | "Caplet" (COMPETITION.md) |
 | Names "First Name, Last Initial", same as roster (p.3) | **TEAM CHECK** | Format correct ("Ray W. \| Ahaan D. ..."); surnames are not in the public repo, so two students must check initials against the submitted roster |
-| WInS username (p.3) | PASS | "Caplet-10465936" (COMPETITION.md) |
+| WInS username (p.3) | PASS | the WInS username (kept out of the repo) |
 | Pitch 50 words max (p.1) | PASS | 45 by spaces, 47 with hyphenated words split |
 | IPS 500 words max (p.1) | PASS | 487 by spaces, 492 split; 490 / 495 even if the heading is counted |
 | Pitch + IPS within pages 2-3 (p.3) | PASS | Rendered in Times-metric font, 1" margins, double spacing: ends on page 3 with about 4 lines spare (Letter) and fits on A4 |
