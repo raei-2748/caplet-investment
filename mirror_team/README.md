@@ -63,7 +63,7 @@ simply did the work.
 | Nora (leader) | `coherence-checker`, `mock-judge` | does today's work fit the one-sentence strategy; how a judge would read it |
 | Amara (client) | `case-analyst`, `cosponsor-reader` | what the case actually says; how Laura and co-sponsors would hear it |
 | Jun (numbers) | `ladder-pricer`, `scenario-modeller`, `numbers-auditor` | today's numbers, re-derived a second way, labelled MODEL |
-| Leo (contrarian) | `devils-advocate`, `trade-checker` | the strongest case against today's position; any trade issue |
+| Kai (contrarian) | `devils-advocate`, `trade-checker` | the strongest case against today's position; any trade issue |
 | Felix (rules) | `rules-verifier`, `fact-checker` | exact official quotes with file:line; every fact re-checked |
 | Tess (editor) | `format-gatekeeper`, `evidence-archivist` | word counts, banned items, what the record shows |
 
@@ -79,7 +79,7 @@ Daily method:
 ## Files
 - `personas/` - the six members:
   01 Nora Haddad (team leader) · 02 Amara Singh (client lead) · 03 Jun Park (numbers) ·
-  04 Leo Tran (contrarian and trader) · 05 Felix Wong (rules and sources) · 06 Tess Bell (editor and
+  04 Kai Tran (contrarian and trader) · 05 Felix Wong (rules and sources) · 06 Tess Bell (editor and
   team memory). Episodes use first names.
 - `STATE.md` - Keel's running plan, decision log, open threads
 - `episodes/` - one file per day

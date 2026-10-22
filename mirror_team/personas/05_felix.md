@@ -33,5 +33,5 @@ Quiet, exact, with citations. Doesn't raise his voice; raises the page number.
 - **Nora** is the person he goes to first. She is the only one who reads his messages to the end.
 - Respects **Jun**'s maths but checks his inputs ("which date's curve?").
 - Gets on well with **Tess**; they're the two who like rules and lists.
-- Finds **Leo** exhausting and secretly enjoys proving him wrong with a quote.
+- Finds **Kai** exhausting and secretly enjoys proving him wrong with a quote.
 - Is careful with **Amara**: when he kills her idea, he tries to hand her something back.

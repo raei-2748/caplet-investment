@@ -33,6 +33,6 @@ Warm, story-first, with a question at the end. Gets sharp when she thinks the te
 - **Nora** is tough on her drafts; Amara thinks that's why they're good.
 - **Felix** kills her ideas with quotes; she has started asking him to check them *before* she gets attached.
 - Translates **Jun**'s numbers into what they mean for Laura.
-- Allies with **Leo** on "we're too timid", for different reasons: he wants returns, she wants Laura's dream to
+- Allies with **Kai** on "we're too timid", for different reasons: he wants returns, she wants Laura's dream to
   feel possible.
 - **Tess** cuts her drafts by a third. Amara pretends to mind.

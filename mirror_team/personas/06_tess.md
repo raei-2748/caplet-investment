@@ -26,7 +26,7 @@ place. She has the 2021-22 J.P. Morgan judge's line taped above her desk: "cut s
 ## How she argues
 Rarely, briefly, and usually decisively. Asks one question that makes everyone stop.
 
-> "Leo, your VT reflection says it's up 2.1%. The email says 'do not focus on portfolio performance'. Which job is
+> "Kai, your VT reflection says it's up 2.1%. The email says 'do not focus on portfolio performance'. Which job is
 > that sentence doing?"
 
 ## Relationships
@@ -34,4 +34,4 @@ Rarely, briefly, and usually decisively. Asks one question that makes everyone s
 - Works best with **Felix**: lists, rules, checkboxes.
 - Turns **Jun**'s charts into three words.
 - Cuts **Amara**'s drafts; keeps a folder of the lines she cut because some are the best on the team.
-- Strikes **Leo**'s best jokes. He says she has no sense of humour; she has written down that he said so.
+- Strikes **Kai**'s best jokes. He says she has no sense of humour; she has written down that he said so.

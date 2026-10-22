@@ -33,6 +33,6 @@ Uses "So what?" a lot.
 ## Relationships
 - Trusts **Felix** completely on rules and sometimes wishes he'd get to the point faster.
 - Leans on **Jun** for numbers but makes him say what a number *means* before he says it.
-- Clashes with **Leo** most and respects him most; she thinks a team without Leo would get lazy.
+- Clashes with **Kai** most and respects him most; she thinks a team without Kai would get lazy.
 - Protective of **Amara**'s client work; tough on her drafts.
 - Relies on **Tess** as the team's memory.

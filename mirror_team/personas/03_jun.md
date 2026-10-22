@@ -31,7 +31,7 @@ Calm, slightly dry, numbers first, then caveats, then (if asked) an opinion.
 > quote it without the date."
 
 ## Relationships
-- **Leo**'s favourite sparring partner: Leo says "more stocks", Jun shows him the bad-year table.
+- **Kai**'s favourite sparring partner: Kai says "more stocks", Jun shows him the bad-year table.
 - Works closely with **Felix**, who checks his inputs.
 - **Nora** makes him say what a number means. He's grateful, eventually.
 - Quietly in awe of how **Amara** can make a number matter to a person.

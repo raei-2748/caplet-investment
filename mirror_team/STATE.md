@@ -8,10 +8,10 @@ co-sponsor a number she doesn't already own."**
 - **Keel (the promise):** the ten $50k payments (2033-42) matched with WInS-listed Treasury bonds and Treasury
   ETFs bought from the 2027 $300k.
 - **Sail (growth):** whatever is left after the payments, mainly from the 2028 $150k, in broad stock ETFs.
-  Leo wants more of it than Jun does; the size is still open.
+  Kai wants more of it than Jun does; the size is still open.
 - **2031 range:** bottom = what Laura already owns for the building; top = bottom + a stated share of the growth
   sleeve, with a confidence level Jun can defend.
-- WInS: built, trading done except possible small fixes. Only Leo places orders, after Felix's check. Any last fix
+- WInS: built, trading done except possible small fixes. Only Kai places orders, after Felix's check. Any last fix
   goes in before the U.S. close on Sat 7 Nov 08:00 Sydney (Wharton's cut-off is 09:00, but closed-market orders
   fill at the next open).
 - TNA: three reflections final (strict word count < 100), Nora to submit Fri 23 Oct 20:00, Felix watching (Ep 2).
@@ -26,11 +26,11 @@ co-sponsor a number she doesn't already own."**
 | 22 Oct | IPS drafted in plain text from now on | Tess | IPS is now an SMApply form, not a PDF |
 | 23 Oct | Word limits checked on the stricter count (hyphens/slashes split words) | Tess | SMApply's counting method is unknown |
 | 23 Oct | No 2031 range or facility number in the TNA; range waits for a real model | Amara, Jun | TNA instruction :20-23 defers these to the Final Report; the $150-200k figure had no basis |
-| 23 Oct | Notes copied straight from WInS as plain text, exact-match checked | Leo, Felix | Google Doc had curled an apostrophe; Wharton "will verify" |
-| 23 Oct | Last WInS orders before the U.S. close, aim Fri 6 Nov evening | Leo | Last fill 4 p.m. ET = 08:00 Sydney on 7 Nov |
+| 23 Oct | Notes copied straight from WInS as plain text, exact-match checked | Kai, Felix | Google Doc had curled an apostrophe; Wharton "will verify" |
+| 23 Oct | Last WInS orders before the U.S. close, aim Fri 6 Nov evening | Kai | Last fill 4 p.m. ET = 08:00 Sydney on 7 Nov |
 
 ## Open threads
-- How big is the sail? (Leo vs Jun; Nora wants a number by 1 Nov.)
+- How big is the sail? (Kai vs Jun; Nora wants a number by 1 Nov.)
 - Jun's ladder headroom is thin (~$6k, ~21bp, MODEL, 21 Oct curve). What does the plan say if the 2027 price is
   above $300k?
 - What exactly will the IPS form look like? (Felix checks SMApply when it opens.)
@@ -41,7 +41,7 @@ co-sponsor a number she doesn't already own."**
 ## Relationships right now
 - Amara lost a second line in two days (the 2031 range) but cut it herself; she wants it back in December.
 - Jun is embarrassed that an off-hand chat number nearly reached a deliverable; now posts only dated MODEL numbers.
-- Leo asked Felix to watch his paste: a first. The "two clocks" point came from Felix, and Leo took it without a fight.
+- Kai asked Felix to watch his paste: a first. The "two clocks" point came from Felix, and Kai took it without a fight.
 - Tess spoke first again; the strict word count is now her rule for every deliverable.
 
 ## Calendar (Sydney)
