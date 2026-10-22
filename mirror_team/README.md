@@ -33,12 +33,12 @@ payments are the keel, growth is the sail.
    Final Report instructions Tue 10 Nov 01:00; Final Report Sat 5 Dec 09:00 (all Sydney).
 5. **Keel obeys the 2026-27 rules.** Only WInS-listed stocks, ETFs and Treasury bonds; no TIPS, STRIPS, margin,
    shorting, crypto or derivatives (Week 4 email). WInS profit is never added to Laura's projections.
-6. **Characters stay in character** (see `members/*/persona.md`), and they disagree for real. They are allowed to be wrong; the
+6. **Characters stay in character** (see `members/<name>.md`), and they disagree for real. They are allowed to be wrong; the
    story shows how they find out.
 
 ## Daily episode recipe (for the scheduled session)
-1. Read this README, every `members/*/persona.md`, the `shared_tea_room/` files, the involved members' working files,
-   the last three episodes, `CLAUDE.md` and `COMPETITION.md`.
+1. Read this README, every `members/<name>.md`, `tea_room.md`, the last three episodes, `CLAUDE.md` and
+   `COMPETITION.md`.
 2. Work out today's date in Sydney and where the competition calendar is. Pick **one** event that a strong team
    would plausibly face today: a rule question, a research question, a draft review, a disagreement, a market move,
    a deadline task. Prefer what Caplet is about to face in the next few days.
@@ -50,15 +50,16 @@ payments are the keel, growth is the sail.
    - **Decisions** (decision, owner, date) and **Open threads**;
    - **What Caplet can take from today** (2-5 specific checks, each pointing at a Caplet file or deadline);
    - **Sources** (file:line, URL + access date, MODEL inputs).
-5. Update the workspace: `shared_tea_room/STATE.md` (plan, open threads, relationships), add the day's decisions to
-   `shared_tea_room/decision_journal.md`, and add each involved member's findings to their files in `members/<name>/`
-   (Felix's quotes, Jun's numbers and scripts, Amara's case lines, Kai's market watch, Tess's cut lines, notebooks).
+5. Update `tea_room.md` (plan, decision journal, open threads, relationships) and the "Working notes" section of
+   each involved member's file (Felix's quotes, Jun's numbers, Amara's case lines, Kai's market watch, Tess's cut
+   lines, Nora's one sentence).
 6. Commit and push. Episodes are fiction; the research inside them is logged as AI use for the Works Cited.
 
 ## Backstage crew (how the work gets done; never shown)
 Each Keel member leads a small crew of subagents that does that member's part of the day's work, so the research
 and arguments are deeper than one writer could make them. The crew is backstage only: **never mention subagents,
-agents, crews or AI helpers in an episode, in any workspace file, or in any report or reflection.** In the story, each member
+agents, crews or AI helpers in an episode, in `tea_room.md`, in any member's working notes, or in any report or
+reflection.** Only this README and the "Agent profile" section of each member file describe the method. In the story, each member
 simply did the work.
 
 | Member | Leads (agent types in `.claude/agents/`) | Brings back |
@@ -72,28 +73,20 @@ simply did the work.
 
 Daily method:
 1. Pick the day's event (recipe step 2). Decide which 3-6 members it involves.
-2. For each involved member, run ONE subagent of the most relevant type above, briefed with the member's persona
-   file, the day's question and the README hard rules. Ask it to answer in that member's voice and position, with
+2. For each involved member, run ONE subagent of the most relevant type above, using the brief in the "Agent
+   profile" section of that member's file, with the day's question and the README hard rules. Ask it to answer in that member's voice and position, with
    sources. Run them in parallel. Keep the total to 6 subagents a day or fewer.
-3. Each crew's findings go into its member's files in `members/<name>/`, written as that member's own notes.
+3. Each crew's findings go into its member's "Working notes", written as that member's own notes.
    Write the episode from what came back: the members disagree where their crews disagreed. Felix's crew
    (`fact-checker`) checks the finished episode's facts and numbers before it is committed.
 4. Anything a crew could not verify stays UNVERIFIED in the story, or is cut.
 
-## Files (the workplace)
+## Files
 ```
-members/              one folder per member: persona.md, notebook.md, plus their own working files
-  nora/               notebook.md (every version of the one sentence)
-  amara/              laura_in_the_case.md (the case's words, line numbers only)
-  jun/                numbers.md (every number Keel may use), scripts/
-  kai/                market_watch.md
-  felix/              where_does_it_say_that.md (every rule, quoted with file:line)
-  tess/               cut_lines.md
-shared_tea_room/      the team's shared room
-  STATE.md            plan, open threads, relationships
-  decision_journal.md every decision: date, owner, why
-  drafts/             Keel's working drafts
-episodes/             one diary file per day
+README.md      rules, daily recipe, backstage method
+tea_room.md    the shared tea room: plan, decision journal, open threads, relationships
+members/       one file per member: profile, agent profile, working notes
+episodes/      one diary file per day
 ```
 Members: Nora Haddad (team leader) · Amara Singh (client lead) · Jun Park (numbers) · Kai Tran (contrarian and
 trader) · Felix Wong (rules and sources) · Tess Bell (editor and team memory). Episodes use first names.
