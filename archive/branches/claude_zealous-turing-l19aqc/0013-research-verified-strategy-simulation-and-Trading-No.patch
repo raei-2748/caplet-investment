@@ -1,0 +1,230 @@
+From bae7303a39e349920fd35c0554462fd687d64a22 Mon Sep 17 00:00:00 2001
+From: Claude <noreply@anthropic.com>
+Date: Sun, 27 Sep 2026 10:44:15 +0000
+Subject: [PATCH 13/22] research: verified strategy simulation and Trading
+ Notes blueprint
+
+- strategy_mc.py compares lock-early vs growth-first using the official
+  Treasury curve and JPM 2026 LTCMA returns, volatilities and correlation;
+  every non-official input is labelled as an assumption.
+- 01_trading_notes_blueprint.md: official requirements, three target
+  trade types, note and reflection checklists, first-trade plan pending
+  this year's approved list.
+- CLAUDE.md updated with results and status.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01UaqBhExXuwM9a3H7k4WwSe
+---
+ CLAUDE.md                                     | 13 ++-
+ .../blueprints/01_trading_notes_blueprint.md  | 68 ++++++++++++++
+ research/verified_2026-09-27/strategy_mc.py   | 92 +++++++++++++++++++
+ 3 files changed, 172 insertions(+), 1 deletion(-)
+ create mode 100644 research/blueprints/01_trading_notes_blueprint.md
+ create mode 100644 research/verified_2026-09-27/strategy_mc.py
+
+diff --git a/CLAUDE.md b/CLAUDE.md
+index 69767f3..019b8fc 100644
+--- a/CLAUDE.md
++++ b/CLAUDE.md
+@@ -18,6 +18,13 @@ decision, deadline or open item changes, and commit it with the related change.
+ - Repo is public; the team leader accepted putting competition materials in it. Do not commit student personal data
+   (surnames, emails, birthdays) or rankings of teammates.
+ 
++## Mandate (Ray, 2026-09-27)
++The assistant has freedom to make decisions and choose its workflow, sticking tightly to the competition and the
++materials provided, asking when information is needed, with the goal of reaching the semifinals. Everything that is
++sent to the judges must be approved by the team. Assistant outputs are for inspiration and research; the team does
++not submit them as they are. Deliverable help = blueprints (content, arguments, verified numbers, checklists) and
++draft reviews, not submission-ready prose.
++
+ ## Team
+ Ray (Team Leader), Ahaan, Darren, Harry, Eric, Young (6 students). Roster in `config/team_roster.json`,
+ pending Wharton roster confirmation (due Oct 9; members locked after submission).
+@@ -79,7 +86,11 @@ first trade by Oct 10 (third-party only).
+ - [x] Interview part 2 answered (team deferred; provisional calls recorded above)
+ - [ ] Team: assign roles; check SMApply for a trading-rules page, search tickers in WInS, ask advisor/Wharton for list
+ - [x] Verified from primary files: Treasury curve, IEF/TLT durations, JPM LTCMA compound basis (2026-09-27)
+-- [ ] Re-run the council Monte Carlo with JPM's official compound/vol figures (was run on assumptions)
++- [x] Re-ran strategy simulation on official inputs: `research/verified_2026-09-27/strategy_mc.py` (2026-09-27).
++      Base: Lock-early never misses a payment; 2033 surplus p5/p50/p95 $159k/$207k/$273k; 2031 floor median $165k.
++      Growth-first: 3.2% miss; surplus p5/p50/p95 $20k/$226k/$540k; 13.7% miss if 2028 deposit is $75k, 40.8% if $0.
++      Equity weight 50/60/70% in the sleeve: median $205k/$207k/$209k (barely matters).
++- [x] Trading Notes blueprint drafted: `research/blueprints/01_trading_notes_blueprint.md` (awaiting team approval)
+ - [ ] Team reads `01_chair_memo.md` + `round2_referee_ruling.md` (section 4: 12 concepts) and picks the strategy
+ - [ ] Final run: decision pack + first-week trade plan + defence Q&A (after the items above)
+ - [ ] Code: `report audit-ai` always passes (audits one hard-coded block); built-in $100k/25% sector defaults and the
+diff --git a/research/blueprints/01_trading_notes_blueprint.md b/research/blueprints/01_trading_notes_blueprint.md
+new file mode 100644
+index 0000000..0cab549
+--- /dev/null
++++ b/research/blueprints/01_trading_notes_blueprint.md
+@@ -0,0 +1,68 @@
++# Blueprint: Trading Notes Analysis (due Oct 23, 5:00 p.m. ET)
++
++For the team's use only: content, structure and checks, not text to submit. The team writes every word.
++Sources: `competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt` (TN), SMApply deliverables page (D),
++client case (C). Status: DRAFT for team approval.
++
++## 1. What is actually required (official)
++- Select **3 Trading Notes from trades executed in WInS**; include each **exactly as it appears in WInS**; "Yes, we will
++  verify this" (TN p.2).
++- For each: a reflection of **100 words or fewer** explaining (TN p.2):
++  1. why the team made the decision;
++  2. how it aligned with the overall investment strategy;
++  3. how it supported Laura's goals, funding needs, or risk considerations.
++- Together the three should show "individual investments as part of a cohesive portfolio strategy"; quality of
++  reasoning matters, **not** whether the trade made money (TN p.1).
++- Not expected: reserve size, long-term projections, facility contribution, co-sponsor text (TN p.1).
++- Trades need not still be held at the end; a later sale can still be a good example (TN p.1).
++- Must be consistent with the strategy the IPS will state on Nov 6; all three deliverables are judged together (C p.4).
++- Evaluation criteria that apply most: Investment Strategy (consistency, diversification), Client Knowledge,
++  Articulation of Competition Experience (decision process, learning) (D).
++
++## 2. The three trades to aim for (each shows a different part of the strategy)
++| # | Trade type | Strategy role it proves | What makes it strong |
++|---|---|---|---|
++| 1 | **Treasury hedge purchase**: IEF + TLT in the duration-matching mix (~65/35 of the Treasury part) | Protect the ten fixed payments first ("the promise") | Shows the case's core insight: a fixed $50k stream is matched by bonds whose value moves like the payments. Wharton's own example note is a Treasury ETF bought to prepare for the operating commitment (TN p.2), so this is squarely on target. |
++| 2 | **Growth purchase**: broad equity (e.g. VTI, plus ex-U.S. such as VXUS/VEA) | Only money the promise doesn't need takes market risk | Shows risk is taken deliberately and diversified, tied to the facility contribution and flexibility. |
++| 3 | **Discipline trade**: a rebalance back to target after a market move, OR a short-Treasury/T-bill position illustrating the 2031 floor idea | Rules over reactions (team pre-mortem) | Shows process and learning (Articulation criterion). A "we did NOT chase X" rebalance is very strong if it really happened. |
++Back-ups: a trade that tested and refined the plan (e.g. adjusting the IEF/TLT mix after checking official durations).
++
++## 3. What to put in the WInS note at the moment of trading (elements, in the team's words)
++The note is quoted verbatim later, so write it well at trade time. Each note should contain:
++- the action and instrument (buy/sell, ticker, rough portfolio share);
++- the role in Laura's plan (which "job": the promise, the growth sleeve, or discipline);
++- the reason now (the signal or rule that triggered it);
++- the main risk accepted (e.g. bond prices fall if rates rise, which does not matter for held-to-maturity matching).
++Keep it short and plain English. Check the WInS character limit first.
++
++## 4. Reflection checklist (per note, <=100 words)
++- [ ] Answers all three required questions (why / strategy fit / Laura's needs), in that order or clearly.
++- [ ] Names Laura's specific need (fixed $50k payments 2033-2042, facility contribution, credibility in 2031), not
++      generic "diversification".
++- [ ] Uses at most one number, and it is verified (e.g. "payments cost about $292k in today's Treasury prices").
++- [ ] Mentions a trade-off or what was learned (this is what separates strong teams).
++- [ ] No jargon without meaning (say "moves like the payments when rates change", not "DV01").
++- [ ] Consistent with the other two notes and the planned IPS (same strategy words, same percentages).
++- [ ] Count: <=100 words.
++
++## 5. Judge red flags to avoid
++- Hot themes that don't fit the mandate (the team's own pre-mortem: ARKK/MSOS-type "storyteller" trades).
++- Justifying by returns ("it went up 3%").
++- Any number that contradicts the IPS or Final Report.
++- Notes written after the fact (they must match WInS exactly).
++
++## 6. First-trade plan (pending this year's approved list, starting cash and sector rules)
++Target WInS mix (mirrors Laura's plan after the 2028 deposit):
++| Sleeve | Share of portfolio | Instruments (if approved) | Why |
++|---|---|---|---|
++| Treasury hedge | ~65% | ~42% IEF + ~23% TLT (duration ~9.9y, verified fact sheets 6.95y/15.31y) | Moves like Laura's ten payments |
++| Growth | ~35% | ~25% VTI + ~10% VXUS or VEA | Broad, cheap, global; JPM expects ~6.7-7.5% compound |
++| Cash | small | BIL/SHV if needed | Trading float only |
++Open: if WInS requires a minimum number of **sectors** and does not count broad ETFs toward it, the growth sleeve may need
++sector funds (e.g. XLK, XLV, XLF, XLE, XLI, XLP) instead of VTI; confirm how WInS counts sectors before trading.
++
++## 7. Timeline
++- Week of Sep 28: place trades 1 and 2 with good WInS notes.
++- Oct 1-16: at least one discipline/rebalance decision, logged in the team's decision log.
++- Oct 12-20: pick the best 3, write reflections; assistant reviews against Sections 1 and 4.
++- Oct 21: team approval; Oct 23: submit via SMApply (5:00 p.m. ET).
+diff --git a/research/verified_2026-09-27/strategy_mc.py b/research/verified_2026-09-27/strategy_mc.py
+new file mode 100644
+index 0000000..4c0f1cf
+--- /dev/null
++++ b/research/verified_2026-09-27/strategy_mc.py
+@@ -0,0 +1,92 @@
++"""Monte Carlo comparison of two strategies for Laura Gao, 2027-2033, using VERIFIED inputs where available.
++
++VERIFIED inputs (files in competition/official_market_data/):
++- Cost at 2027-01-01 of the ten $50k payments on the official 2026-09-25 Treasury curve: $292,264
++  (research/verified_2026-09-27/official_curve_pv.py). Same curve: 2y par yield 4.81%.
++- JPM 2026 LTCMA (USD): U.S. large cap compound 6.70%, arithmetic 7.94%, vol 16.47%;
++  U.S. intermediate Treasuries compound 4.00%, arithmetic 4.06%, vol 3.48%; correlation between them -0.01.
++ASSUMPTIONS (labelled; change them below and re-run):
++- Annual returns are lognormal; log mean/sd are solved so compound and arithmetic returns match JPM exactly.
++- 2033 Treasury yield level for Strategy G: today's implied forward cost plus a parallel shift ~ N(0, RATE_SD).
++- The 2y Treasury yield in 2031 equals today's 4.81% (used only for the 2031 floor).
++- Growth sleeve rebalanced annually; no fees, no taxes (taxes out of scope per case).
++"""
++import numpy as np
++
++PATHS, SEED = 200_000, 20260927
++LADDER_COST_2027 = 292_264          # verified, official curve
++Y2 = 0.0481                          # verified 2y par yield, 2026-09-25
++L2033_FWD = None                     # computed below from the same curve logic (see forward factor)
++
++def lognorm_params(compound, arithmetic):
++    mu = np.log(1 + compound)
++    s2 = 2 * np.log((1 + arithmetic) / (1 + compound))
++    return mu, np.sqrt(s2)
++
++EQ = lognorm_params(0.0670, 0.0794)   # JPM U.S. large cap
++BD = lognorm_params(0.0400, 0.0406)   # JPM U.S. intermediate Treasuries
++RHO = -0.01                            # JPM correlation
++
++# Forward value at 2033-01-01 of the ladder bought in 2027: cost grown at the 2027->2033 forward rate.
++# From official_curve_pv.py: implied forward zero 2027->2033 = 5.08% (semiannual) -> factor over 6 years.
++FWD_FACTOR_27_33 = (1 + 0.0508 / 2) ** 12
++L2033_BASE = None
++# Cost at 2033-01-01 of the ten payments if bought then at the forward curve: payments discounted at the forward
++# zeros from 2033; approximated by a flat annual rate that reproduces the curve's 2027 value (5.26% flat -> $295k is
++# the flat-rate equivalent). We price the 2033 annuity-due at flat 5.26% +/- shock (ASSUMPTION: flat curve in 2033).
++def annuity_due(rate):
++    t = np.arange(10)
++    return (50_000 / (1 + rate[..., None]) ** t).sum(-1)
++
++def simulate(strategy, deposit_2028=150_000, eq_mu_shift=0.0, rate_sd=0.010, eq_w=0.60, floor_share=0.80,
++             glide=(0.75, 0.75, 0.75, 0.75, 0.60, 0.40)):
++    rng = np.random.default_rng(SEED)
++    z1 = rng.standard_normal((PATHS, 6)); z2 = rng.standard_normal((PATHS, 6))
++    ze = z1; zb = RHO * z1 + np.sqrt(1 - RHO**2) * z2
++    req = np.exp(EQ[0] + eq_mu_shift + EQ[1] * ze - 0) - 1
++    rbd = np.exp(BD[0] + BD[1] * zb) - 1
++    rate33 = 0.0526 + rate_sd * rng.standard_normal(PATHS)
++    reserve_2033 = annuity_due(np.maximum(rate33, 0.0))
++
++    if strategy == "G":   # growth first, buy the reserve in 2033
++        v = np.full(PATHS, 300_000.0)
++        for y in range(6):                     # years 2027..2032
++            if y == 1: v += deposit_2028
++            w = glide[y]
++            v *= 1 + w * req[:, y] + (1 - w) * rbd[:, y]
++        surplus = v - reserve_2033
++        return {"shortfall_prob": float((surplus < 0).mean()), "surplus": surplus, "floor": None}
++
++    # Strategy L: lock the ladder in 2027; growth sleeve holds everything else
++    s = np.full(PATHS, 300_000.0 - LADDER_COST_2027)
++    for y in range(4):                         # 2027..2030
++        if y == 1: s += deposit_2028
++        s *= 1 + eq_w * req[:, y] + (1 - eq_w) * rbd[:, y]
++    floor = floor_share * s * (1 + Y2) ** 2    # 2031: lock floor in a 2y Treasury
++    rest = (1 - floor_share) * s
++    for y in (4, 5):
++        rest *= 1 + eq_w * req[:, y] + (1 - eq_w) * rbd[:, y]
++    surplus = floor + rest                     # ladder covers all ten payments by construction
++    return {"shortfall_prob": 0.0, "surplus": surplus, "floor": floor}
++
++def pct(x): return {p: int(round(np.percentile(x, p), -3)) for p in (5, 25, 50, 75, 95)}
++
++if __name__ == "__main__":
++    print(f"Equity log-params {EQ}, bond log-params {BD}")
++    cases = [("Base (JPM official)", {}),
++             ("2028 deposit only $75k", {"deposit_2028": 75_000}),
++             ("2028 deposit missing", {"deposit_2028": 0}),
++             ("Equities 1.7pp/yr weaker (5.0% compound)", {"eq_mu_shift": np.log(1.05) - np.log(1.067)}),
++             ("2033 rate shock sd 1.5pp", {"rate_sd": 0.015})]
++    for name, kw in cases:
++        print(f"\n== {name}")
++        for strat in ("L", "G"):
++            r = simulate(strat, **kw)
++            line = f"  {strat}: P(payments not fully funded)={r['shortfall_prob']*100:.1f}%  surplus 2033 p5/25/50/75/95={pct(r['surplus'])}"
++            if r["floor"] is not None:
++                line += f"\n     2031 floor (80% of sleeve in 2y Treasury) p5/50/95={[pct(r['floor'])[p] for p in (5,50,95)]}"
++            print(line)
++    print("\n== Growth-sleeve equity weight sensitivity (Strategy L, base)")
++    for w in (0.5, 0.6, 0.7):
++        r = simulate("L", eq_w=w)
++        print(f"  equity {int(w*100)}%: surplus p5/50/95 = {[pct(r['surplus'])[p] for p in (5,50,95)]}")
+-- 
+2.43.0
+

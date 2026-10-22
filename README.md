@@ -26,7 +26,7 @@ of truth for every rule, date, format and where we stand. Claude sessions read [
 | `decisions/`, `deliverables/`, `model/laura/` | 25 Sep session: decision log D1-D8, deliverable outlines, Laura cash-flow model | `decisions/LOG.md` |
 | `ops/` | Scheduled checks (portfolio monitor, rules watcher, mock judges, lab) and their reports | `ops/README.md` |
 | `docs/` | AI-use log, governance and method notes, the old toolkit README | `docs/AI_USE.md` |
-| `archive/` | Superseded material kept for the record | |
+| `archive/` | Superseded material kept for the record, incl. the history of every deleted branch | `archive/branches/BRANCH_HISTORY.md` |
 | `src/`, `tests/`, `config/`, `prompts/`, `data/`, `outputs/`, `literature/` | The September `wharton-ic` Python toolkit and its inputs (an early demo; `pytest` runs its tests). `config/client_mandate.yaml` and `config/wharton_*` are still referenced | `docs/wharton_ic_toolkit_README.md` |
 
 ## House rules (short version)
