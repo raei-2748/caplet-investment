@@ -116,7 +116,11 @@ Official instructions: [`2026_WGY_Investment_Policy-FINAL.pdf`](competition/offi
 - Title page: official team name, members as "First Name, Last Initial", WInS username. Must match the roster.
   Ours: **Caplet** · Ray W. | Ahaan D. | Darren W. | Harry Y. | Eric Z. | Young Y. · Caplet-10465936.
 - Then **max 2 pages**: elevator pitch (**max 50 words**) + IPS (**max 500 words**).
-- Times New Roman 12 pt, double-spaced, 1" margins, PDF <= 5 MB, via SMApply.
+- **Changed (Wharton Week 4 email, filed 22 Oct):** the IPS is now submitted as a **form on SMApply, not a PDF**;
+  "all other requirements remain the same". The old Times New Roman 12 pt / double-spaced / PDF <= 5 MB rule may
+  not apply as written; how the title page is entered is UNVERIFIED until the form opens.
+- **TIPS and STRIPS are explicitly banned** for both contributions, in the IPS and the Final Report (same email).
+  Source: `competition/official/2026_27/wharton_email_week4_2026-10.md`.
 - **No** graphics, charts, links, footnotes or citations (sources go in the Final Report).
 - Focus on framework and principles, not individual securities or detailed calculations.
 - **Strategy lock:** after the IPS deadline the strategy is final. The Final Report must follow it and evaluate the

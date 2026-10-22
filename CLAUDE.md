@@ -21,6 +21,12 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
 - Log every office answer in `office/LEDGER.md`, so the team can cite all AI use in the Works Cited.
 
 ## Current status (2026-10-14) - read this before the older sections below
+- Wharton Week 4 email (filed 22 Oct): `competition/official/2026_27/wharton_email_week4_2026-10.md`. IPS is now an
+  SMApply FORM, not a PDF ("all other requirements remain the same"); TIPS and STRIPS explicitly banned for both
+  contributions, in the IPS and the Final Report.
+- Mirror team (22 Oct, Ray): `mirror_team/` = Team Keel, six FICTIONAL personas who do the same competition; a new
+  research-based diary episode every day (scheduled task). Their events are fiction and never go into Caplet's
+  deliverables as Caplet's experience; their research findings may be used after re-checking.
 - Full rules, dates, formats, portfolio and open items: `COMPETITION.md` (single source of truth). Onboarding: `START_HERE.md`.
 - Roster submitted (locked). All 11 WInS orders filled 7-8 Oct: iBond ladder IBTM/IBTO/IBTP/IBTQ/IBTR + T-bonds
   Feb-2037, May-2038, Nov-2039, Nov-2040, Nov-2041 + VT 167. 11/200 trades, cash $3,514, ~$301.9k. Plan: hold.
@@ -82,7 +88,7 @@ Structured in `config/client_mandate.yaml` (human_approved: false) and `config/w
 
 ## Official deadlines (SMApply, 5:00 p.m. ET, no extensions)
 Roster Oct 9 | Trading Notes Analysis Oct 23 (3 notes quoted exactly from executed WInS trades, <=100-word
-reflections) | IPS Nov 6 (title page + 50-word pitch + 500-word IPS, TNR 12 double-spaced, no charts/citations;
+reflections) | IPS Nov 6 (now an SMApply FORM, not a PDF, per Week 4 email; title page + 50-word pitch + 500-word IPS, no charts/citations;
 TRADING ENDS AND PORTFOLIO LOCKS; strategy frozen) | Final Report instructions Nov 9 | Final Report + school
 documentation Dec 4. Evaluation: Investment Strategy; Client Knowledge; Portfolio Analysis; Articulation of
 Competition Experience; Creativity & Presentation. All three evaluated deliverables are judged together.
