@@ -53,8 +53,8 @@ payments are the keel, growth is the sail.
 
 ## Files
 - `personas/` - the six members:
-  01 Nora Castellano (team leader) · 02 Amara Nwosu (client lead) · 03 Jun Takahashi (numbers) ·
-  04 Leo Brennan (contrarian and trader) · 05 Felix Hartmann (rules and sources) · 06 Tess Delacroix (editor and
+  01 Nora Lane (team leader) · 02 Amara Cole (client lead) · 03 Jun Park (numbers) ·
+  04 Leo Hart (contrarian and trader) · 05 Felix Ward (rules and sources) · 06 Tess Bell (editor and
   team memory). Episodes use first names.
 - `STATE.md` - Keel's running plan, decision log, open threads
 - `episodes/` - one file per day

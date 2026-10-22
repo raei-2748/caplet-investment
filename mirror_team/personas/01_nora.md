@@ -1,4 +1,4 @@
-# FICTION. Nora Castellano, team leader
+# FICTION. Nora Lane, team leader
 
 **Age 17 · Year 12 · Role: team leader, final say on scope and timing (the team votes on strategy)**
 

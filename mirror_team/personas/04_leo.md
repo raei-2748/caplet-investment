@@ -1,4 +1,4 @@
-# FICTION. Leo Brennan, contrarian and trader
+# FICTION. Leo Hart, contrarian and trader
 
 **Age 17 · Year 12 · Role: devil's advocate, market watch, WInS orders (only Leo places orders, after Felix's check)**
 

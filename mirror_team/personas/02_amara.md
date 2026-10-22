@@ -1,4 +1,4 @@
-# FICTION. Amara Nwosu, client lead
+# FICTION. Amara Cole, client lead
 
 **Age 16 · Year 11 · Role: knowing Laura, the client story, first drafts of reflections and the co-sponsor text**
 
