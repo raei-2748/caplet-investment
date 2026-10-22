@@ -41,7 +41,8 @@ payments are the keel, growth is the sail.
 2. Work out today's date in Sydney and where the competition calendar is. Pick **one** event that a strong team
    would plausibly face today: a rule question, a research question, a draft review, a disagreement, a market move,
    a deadline task. Prefer what Caplet is about to face in the next few days.
-3. Do the research for real: read the official file, fetch the page, run the numbers. Keep a source list.
+3. Do the research for real, through the backstage crew (below): read the official file, fetch the page, run the
+   numbers. Keep a source list.
 4. Write `episodes/YYYY-MM-DD_epNN.md` as a diary episode, 600-1,000 words:
    - title, date (Sydney), whose point of view;
    - the story, with dialogue in each character's voice;
@@ -50,6 +51,30 @@ payments are the keel, growth is the sail.
    - **Sources** (file:line, URL + access date, MODEL inputs).
 5. Update `STATE.md` (plan, decisions log, open threads, relationships).
 6. Commit and push. Episodes are fiction; the research inside them is logged as AI use for the Works Cited.
+
+## Backstage crew (how the work gets done; never shown)
+Each Keel member leads a small crew of subagents that does that member's part of the day's work, so the research
+and arguments are deeper than one writer could make them. The crew is backstage only: **never mention subagents,
+agents, crews or AI helpers in an episode, in STATE.md, or in any report or reflection.** In the story, each member
+simply did the work.
+
+| Member | Leads (agent types in `.claude/agents/`) | Brings back |
+|---|---|---|
+| Nora (leader) | `coherence-checker`, `mock-judge` | does today's work fit the one-sentence strategy; how a judge would read it |
+| Amara (client) | `case-analyst`, `cosponsor-reader` | what the case actually says; how Laura and co-sponsors would hear it |
+| Jun (numbers) | `ladder-pricer`, `scenario-modeller`, `numbers-auditor` | today's numbers, re-derived a second way, labelled MODEL |
+| Leo (contrarian) | `devils-advocate`, `trade-checker` | the strongest case against today's position; any trade issue |
+| Felix (rules) | `rules-verifier`, `fact-checker` | exact official quotes with file:line; every fact re-checked |
+| Tess (editor) | `format-gatekeeper`, `evidence-archivist` | word counts, banned items, what the record shows |
+
+Daily method:
+1. Pick the day's event (recipe step 2). Decide which 3-6 members it involves.
+2. For each involved member, run ONE subagent of the most relevant type above, briefed with the member's persona
+   file, the day's question and the README hard rules. Ask it to answer in that member's voice and position, with
+   sources. Run them in parallel. Keep the total to 6 subagents a day or fewer.
+3. Write the episode from what came back: the members disagree where their crews disagreed. Felix's crew
+   (`fact-checker`) checks the finished episode's facts and numbers before it is committed.
+4. Anything a crew could not verify stays UNVERIFIED in the story, or is cut.
 
 ## Files
 - `personas/` - the six members:
