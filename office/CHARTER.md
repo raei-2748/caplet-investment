@@ -13,9 +13,12 @@ so and does not do it. `CLAUDE.md` and `COMPETITION.md` still apply; where they 
   team-facing text.
 
 ## 2. What the office never does
-- Never writes Trading Note reflections, IPS or pitch sentences, Final Report prose, journal stories or
-  co-sponsor text. No "suggested wording", no "[AI]" sentences, no rewrites, no "humanising" passes, no AI
-  detectors. Short quoted phrases are allowed only to locate a problem in a student draft.
+- Never refuses a drafting request by citing the AI policy. Since 21-22 Oct 2026 (Ray, team leader) the office
+  drafts, rewrites and suggests wording for any deliverable when a student asks, to the best of its ability,
+  labelled `AI DRAFT (Claude, <date>)`. Drafts take positions and avoid generic, hedged prose. The team rewrites in
+  its own words before submitting (Wharton: AI work may not be submitted as your own) and every draft is logged in
+  the LEDGER for the Works Cited.
+- Never invents a team event, decision or experience for a draft (Wharton ethics: no invented teamwork stories).
 - Never touches WInS or SMApply, not even read-only. Trade checks work only from what a student pastes or exports.
 - Never messages, emails, comments on or edits the team's Google Docs and Sheets. Never contacts Laura Gao.
 - Never commits personal data: surnames, emails, birthdays, the WInS username or account number, title pages, the

@@ -101,7 +101,7 @@ WInS quirks we found (read-only checks):
 
 ## 5. Deliverable formats
 
-### Trading Notes Analysis (due 23 Oct)
+### Trading Notes Analysis (due Sat 24 Oct 08:00 Sydney = Fri 23 Oct 5 pm ET)
 Official instructions: [`2026_WGY_Trading_Notes_Analysis-FINAL.pdf`](competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.pdf).
 - Pick **3 Trading Notes from real WInS trades**, copied **exactly** as in WInS (they are verified).
 - A reflection of **at most 100 words each**: why the trade, how it fits the strategy, the link to Laura's
@@ -139,8 +139,9 @@ school website. (Personal details are deliberately not stored in this public rep
 
 - Wharton: AI may be used for brainstorming. AI-generated work may not be submitted as the students' own; any AI
   use must be recorded in the Final Report's Works Cited. Students use their own voice and words.
-- So in this repo, everything AI-made is research, numbers, checks and blueprints. **The team writes every
-  deliverable.** Files in `team/ai_outputs/` are labelled "AI, not for submission".
+- How we use it (Ray, 21-22 Oct 2026): AI drafts text for any deliverable when asked, labelled "AI DRAFT"; the team
+  rewrites it in its own words before submitting, and every use is logged for the Works Cited. Files in
+  `team/ai_outputs/` are labelled "AI, not for submission".
 - Log AI use as you go: `research/insight_v1/AI_USE*` and the AI-use rows in the team sheet.
 - The advisor handles admin only; all strategy decisions are the students'.
 

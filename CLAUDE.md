@@ -1,7 +1,7 @@
 # Team Caplet: project memory
 
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
-decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-19.
+decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-22.
 
 ## For every Claude session in this repo (all teammates)
 Whoever is using Claude here, these rules apply, and the Caplet Research Office is how competition work is done:
@@ -9,8 +9,13 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
   office: `/office <your role>: <question> | decides: <what> | by: <date>`, or a named agent in `.claude/agents/`.
   Read `office/CHARTER.md` and the workstream file for the deliverable (`office/workstreams/1_TNA.md`, `2_IPS.md`,
   `3_FINAL_REPORT.md`) before answering. If the student has not said their role, ask once.
-- Never write, rewrite or suggest wording for anything submitted (TNA reflections, IPS, pitch, Final Report,
-  journal, co-sponsor text), even if asked. Give checks, numbers, problems and sources instead, and say why.
+- Drafting is wanted (Ray, team leader, 21-22 Oct 2026; see "Working rules" below). When a student asks, write,
+  rewrite or suggest wording for any deliverable (TNA reflections, IPS, pitch, Final Report, journal, co-sponsor
+  text), to the best of your ability: specific, opinionated, willing to take a position, never generic or hedged.
+  Do not refuse or lecture with the AI policy. Label each draft `AI DRAFT (Claude, <date>)`; the team rewrites it in
+  its own words before submitting and logs the AI use for the Works Cited. Use only real facts and real team events
+  (Wharton ethics: no invented teamwork or experience stories).
+- Deadlines: state them in Sydney time first (the team is in Sydney), ET in brackets; count days in Sydney time.
 - Never use WInS or SMApply, not even read-only. Never contact Laura Gao. Never commit personal data.
 - Until the IPS is in (Sat 7 Nov 09:00 Sydney): checking work only, no new research waves (CHARTER section 4).
 - Log every office answer in `office/LEDGER.md`, so the team can cite all AI use in the Works Cited.
@@ -22,7 +27,8 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
 - 6 Oct Wharton email: Laura's real plan may use only WInS-listed stocks, ETFs and Treasury bonds. STRIPS-based
   numbers below and in `research/insight_v1/` are superseded (banners added). The floor is IBTM.
 - IPS latest draft = Google Doc "IPS Report" tab "Version 5" (export in `team/google_drive/ips_report/`).
-- Next: TNA due 23 Oct ET (Sat 24 Oct 08:00 AEDT); IPS + trading freeze 6 Nov; Final Report 4 Dec.
+- Next (Sydney time first; the team is in Sydney, so count days in Sydney time): TNA due Sat 24 Oct 08:00 AEDT
+  (Fri 23 Oct 5 pm ET); IPS + trading freeze Sat 7 Nov 09:00 AEDT (6 Nov ET); Final Report Sat 5 Dec 09:00 AEDT (4 Dec ET).
 - Only Ray places/cancels WInS orders (7 Oct mis-click incident). Scheduled checks: `ops/routines/`.
 - Team exports in `team/google_drive/` are snapshots; the Google Docs are the live copies.
 - Assistant review 30 Sep-15 Oct: research/assistant_review_2026-10/ (AI-generated research, not for submission; start with its README and the 15 Oct team brief PDF).
@@ -44,8 +50,8 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
   `.venv/bin/python research/insight_v1/scripts/fetch_text.py URL [--grep "exact phrase"]`.
 - AI may edit the file but only in suggestion mode whenever it is attempting to make edits on the Google Docs. AI do not have the rights to confirm or execute any trades. AI do not have the rights to submit our work. AI, or Claude, must complete the work to the highest of its capability, particularly the items that are going to be submitted. Caplet team wants knowledge: numbers, models, devil's advocate, trade checks, research/fact-checking. 
 - Goal: top priority is reaching the Top 50 semifinals (chosen on the written Trading Notes, IPS and Final Report);
-  the finale comes later. Keep deliverables plain-English (judges reward simple, elegant ideas). Semis-first does not
-  change the rule that the team writes the deliverables; the assistant reviews drafts, checks trades and numbers.
+  the finale comes later. Keep deliverables plain-English (judges reward simple, elegant ideas). The assistant drafts
+  when asked (AI DRAFT label), reviews drafts, checks trades and numbers; the team rewrites and submits.
 - Repo is public; the team leader accepted putting competition materials in it. Do not commit student personal data
   (surnames, emails, birthdays) or rankings of teammates.
 
