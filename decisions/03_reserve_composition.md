@@ -47,7 +47,7 @@ What should the operating reserve hold, how large will it be in 2033, and how sh
 
 ## What would change our mind
 - WInS or the final report rules require a specific instrument set.
-- The case clarifies that payments are inflation-linked. In that case, switch to TIPS for the same structure.
+- The case clarifies that payments are inflation-linked. TIPS would fit, but the live FAQ now lists TIPS and STRIPS as NOT permitted (20 Oct 2026, live FAQ), so the fix must use permitted WInS securities.
 
 ## Plain English for Laura
 Your reserve is ten US government bonds (or bond funds that act like single bonds), each maturing just before one $50k payment is due. Every January one of them pays out, and nobody has to make any investment decisions for the residency's running costs for ten years. We chose regular Treasuries over inflation-protected ones because your $50k payments are fixed in dollars, so fixed-dollar bonds match them exactly.

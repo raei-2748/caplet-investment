@@ -1,3 +1,5 @@
+> **Update 2026-10-20:** written before the 6 Oct Wharton email limiting recommendations to WInS-listed stocks, ETFs and Treasury bonds. STRIPS/zero-coupon references are superseded: the real plan uses the WInS ladder (IBTM-IBTR + listed T-bonds) and IBTM as the 2028 floor. See COMPETITION.md.
+
 # A4 WInS week-1 guardrails (early run of D10, Compliance Officer)
 
 Agent: A4, insight_v1 run. Written 2026-09-27 (the day before trading opens). Official sources win over everything

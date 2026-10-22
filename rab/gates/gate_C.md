@@ -1,3 +1,5 @@
+> **Update 2026-10-20:** written before the 6 Oct Wharton email limiting recommendations to WInS-listed stocks, ETFs and Treasury bonds. STRIPS/zero-coupon references are superseded: the real plan uses the WInS ladder (IBTM-IBTR + listed T-bonds) and IBTM as the 2028 floor. See COMPETITION.md.
+
 # Gate C (trade kit): PASS for the kit; the live Sheet tabs are out of date (fix before Friday)
 
 WS6-gateC, RAB Kit, 30 Sep 2026 (Sydney). This is an AI-generated check (Claude Code) for Team Caplet. Nothing was run

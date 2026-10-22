@@ -1,3 +1,5 @@
+> **Update 2026-10-20:** written before the 6 Oct Wharton email limiting recommendations to WInS-listed stocks, ETFs and Treasury bonds. STRIPS/zero-coupon references are superseded: the real plan uses the WInS ladder (IBTM-IBTR + listed T-bonds) and IBTM as the 2028 floor. See COMPETITION.md.
+
 # M2 model card: rate paths to January 2027
 
 WS4, 30 Sep 2026 (Sydney). AI-generated research (Claude Code) for Team Caplet; MODEL outputs, not deliverable text.

@@ -1,3 +1,5 @@
+> **Update 2026-10-20:** written before the 6 Oct Wharton email limiting recommendations to WInS-listed stocks, ETFs and Treasury bonds. STRIPS/zero-coupon references are superseded: the real plan uses the WInS ladder (IBTM-IBTR + listed T-bonds) and IBTM as the 2028 floor. See COMPETITION.md.
+
 # B10b Contrarian: attack "lock early" from the case designers' and semifinal readers' side
 
 Agent B10b, insight_v1 run, Phase B (question generation), written 2026-09-27. Lens: Contrarian (attack our own

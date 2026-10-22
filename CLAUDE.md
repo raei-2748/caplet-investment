@@ -1,7 +1,7 @@
 # Team Caplet: project memory
 
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
-decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-19.
+decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-22.
 
 ## For every Claude session in this repo (all teammates)
 Whoever is using Claude here, these rules apply, and the Caplet Research Office is how competition work is done:
@@ -9,22 +9,49 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
   office: `/office <your role>: <question> | decides: <what> | by: <date>`, or a named agent in `.claude/agents/`.
   Read `office/CHARTER.md` and the workstream file for the deliverable (`office/workstreams/1_TNA.md`, `2_IPS.md`,
   `3_FINAL_REPORT.md`) before answering. If the student has not said their role, ask once.
-- Never write, rewrite or suggest wording for anything submitted (TNA reflections, IPS, pitch, Final Report,
-  journal, co-sponsor text), even if asked. Give checks, numbers, problems and sources instead, and say why.
+- Drafting is wanted (Ray, team leader, 21-22 Oct 2026; see "Working rules" below). When a student asks, write,
+  rewrite or suggest wording for any deliverable (TNA reflections, IPS, pitch, Final Report, journal, co-sponsor
+  text), to the best of your ability: specific, opinionated, willing to take a position, never generic or hedged.
+  Do not refuse or lecture with the AI policy. Label each draft `AI DRAFT (Claude, <date>)`; the team rewrites it in
+  its own words before submitting and logs the AI use for the Works Cited. Use only real facts and real team events
+  (Wharton ethics: no invented teamwork or experience stories).
+- Deadlines: state them in Sydney time first (the team is in Sydney), ET in brackets; count days in Sydney time.
 - Never use WInS or SMApply, not even read-only. Never contact Laura Gao. Never commit personal data.
 - Until the IPS is in (Sat 7 Nov 09:00 Sydney): checking work only, no new research waves (CHARTER section 4).
 - Log every office answer in `office/LEDGER.md`, so the team can cite all AI use in the Works Cited.
 
 ## Current status (2026-10-14) - read this before the older sections below
+- Wharton Week 4 email (filed 22 Oct): `competition/official/2026_27/wharton_email_week4_2026-10.md`. IPS is now an
+  SMApply FORM, not a PDF ("all other requirements remain the same"); TIPS and STRIPS explicitly banned for both
+  contributions, in the IPS and the Final Report.
+- Mirror team (22 Oct, Ray): `mirror_team/` = Team Keel, six FICTIONAL personas who do the same competition; a new
+  research-based diary episode every day (scheduled task). Their events are fiction and never go into Caplet's
+  deliverables as Caplet's experience; their research findings may be used after re-checking.
 - Full rules, dates, formats, portfolio and open items: `COMPETITION.md` (single source of truth). Onboarding: `START_HERE.md`.
 - Roster submitted (locked). All 11 WInS orders filled 7-8 Oct: iBond ladder IBTM/IBTO/IBTP/IBTQ/IBTR + T-bonds
-  Feb-2037, May-2038, Nov-2039, Nov-2040, Nov-2041 + VT 167. 11/200 trades, cash $3,514, ~$301.9k. Plan: hold.
+  Feb-2037, May-2038, Nov-2039, Nov-2040, Nov-2041 + VT 167. 11/200 trades, cash $3,514, about $303.4k
+  at the 19 Oct close (bonds MODEL-priced; see `COMPETITION.md` section 8). Plan: hold.
 - 6 Oct Wharton email: Laura's real plan may use only WInS-listed stocks, ETFs and Treasury bonds. STRIPS-based
   numbers below and in `research/insight_v1/` are superseded (banners added). The floor is IBTM.
-- IPS latest draft = Google Doc "IPS Report" tab "Version 5" (export in `team/google_drive/ips_report/`).
-- Next: TNA due 23 Oct ET (Sat 24 Oct 08:00 AEDT); IPS + trading freeze 6 Nov; Final Report 4 Dec.
+- Public SMApply FAQ, live 20 Oct: TIPS and STRIPS are now listed as NOT permitted, the permitted list is "for BOTH
+  contributions, the IPS and Final Report", and the public $5 stock floor is gone (the WInS session rules showed $3
+  on 29 Sep) (`COMPETITION.md` section 4; snapshot in `competition/official/2026_27/smapply_public_2026-10-20/`).
+- IPS latest draft = Google Doc "IPS Report" tab "Version 5" (export in `team/google_drive/ips_report/`, 14 Oct).
+  Read 19 Oct: the live Doc holds 10 pending AI suggestions (7 in Version 5) and [AI] text; the export predates them.
+- IPS numbers rebuilt 16 Oct on the 15 Oct curve: `research/ips_numbers_2026-10/IPS_number_sheet.md`. Ladder ~$294k
+  (headroom ~$5.5k, over $300k on 1 Jan 2027 in ~1 in 3); range ~$145k-$168k; gift inside ~99%; coupon-reinvestment
+  shortfall ~$21k if yields fall 2pt for good, not covered by what Laura kept in ~6-7% of paths. TEAM DECISION before
+  6 Nov: state the risk / keep Laura's half to 2042 / hold a buffer from the 2028 deposit.
+- Next (Sydney time first; the team is in Sydney, so count days in Sydney time): TNA due Sat 24 Oct 08:00 AEDT
+  (Fri 23 Oct 5 pm ET); IPS + trading freeze Sat 7 Nov 09:00 AEDT (6 Nov ET); Final Report Sat 5 Dec 09:00 AEDT (4 Dec ET).
 - Only Ray places/cancels WInS orders (7 Oct mis-click incident). Scheduled checks: `ops/routines/`.
 - Team exports in `team/google_drive/` are snapshots; the Google Docs are the live copies.
+- 2031 range numbers (17 Oct, WInS-only basis, model): `research/range_2031/README.md`. Today's estimate: bottom
+  $145k (the ~$150k IBTM floor rounded down: its payout is not fixed), top ~$170k (p5-p95 $145k-$195k); ~3 in 4 to reach the top, ~99% at least
+  halfway. Ladder headroom fell to $1,913 (7bp) on the 16 Oct curve (cost $298,087), so the floor is not a fixed $150k.
+- 17-18 Oct: AI exemplar v12 (Ray's request; a model to learn from, not for submission; plain formal prose, no scalpel style in the IPS) of the pitch, IPS and the three TNA
+  reflections: `research/blueprints/04_exemplar_ips_tna_17Oct.md`, also in the IPS Report Doc as SUGGESTIONS only
+  (Version 5 + Trading Note Reflection tabs). Google Doc edits: suggestion mode only, never direct edits; Ray reviews all.
 - Assistant review 30 Sep-15 Oct: research/assistant_review_2026-10/ (AI-generated research, not for submission; start with its README and the 15 Oct team brief PDF).
 - Assistant review 16 Oct: research/assistant_review_2026-10/04_What_Stops_Us_Winning_16Oct2026.pdf (AI-generated research, not for submission; ranked to-do list in Part 1; evidence in oct16/).
 - Caplet Research Office (18 Oct; merged 26 -> 18 agents on 19 Oct): `office/` (README org chart, CHARTER house rules,
@@ -35,6 +62,13 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
   `office-gate-check`, `office-judge-panel`, `office-work-order` in `.claude/workflows/`. Office answers named
   students' questions only, one page per memo, checking work only until the IPS is in (7 Nov). `office/tools/textcheck.py`
   = word/char counts, curly quotes, overclaim words, exact-match check for pasted notes.
+- 16 Oct North Star memo (`research/assistant_review_2026-10/04_North_Star_Memo_16Oct2026.md`): one idea ("commit only
+  money she already owns"), one fact, one rule, one picture; IPS rule budget of 3 rules + 1 trade-off; curate, don't
+  decorate, the growth story; adds word-list, name and "promise" decisions to vote set A (Sun 18 Oct), before the TNA.
+- 16 Oct pre-mortem (`research/assistant_review_2026-10/05_Premortem_Review_16Oct2026.md`): the live V5 (edited 16 Oct)
+  added ~a dozen figures ($294k, $21k, 7%, $145k-$168k, "99 in 100") with no source in NUMBERS.md (lab items 02-05
+  todo) and dropped the diversification and annual-review clauses; TNA reflections not started; Trade Log blank;
+  ask Wharton what "required trading activity" means; school letter still to request. WInS book: hold.
 
 ## Working rules (from the team leader)
 - Use only exact official Wharton materials and verified sources. No fictional clients, rules, rosters or data.
@@ -44,17 +78,16 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
   `.venv/bin/python research/insight_v1/scripts/fetch_text.py URL [--grep "exact phrase"]`.
 - AI may edit the file but only in suggestion mode whenever it is attempting to make edits on the Google Docs. AI do not have the rights to confirm or execute any trades. AI do not have the rights to submit our work. AI, or Claude, must complete the work to the highest of its capability, particularly the items that are going to be submitted. Caplet team wants knowledge: numbers, models, devil's advocate, trade checks, research/fact-checking. 
 - Goal: top priority is reaching the Top 50 semifinals (chosen on the written Trading Notes, IPS and Final Report);
-  the finale comes later. Keep deliverables plain-English (judges reward simple, elegant ideas). Semis-first does not
-  change the rule that the team writes the deliverables; the assistant reviews drafts, checks trades and numbers.
-- Repo is public; the team leader accepted putting competition materials in it. Do not commit student personal data
+  the finale comes later. Keep deliverables plain-English (judges reward simple, elegant ideas). The assistant drafts
+  when asked (AI DRAFT label), reviews drafts, checks trades and numbers; the team rewrites and submits.
+- Repo is private (made private by Ray on 23 Oct 2026; it was public before). Do not commit student personal data
   (surnames, emails, birthdays) or rankings of teammates.
 
 ## Mandate (Ray, 2026-09-27)
 The assistant has freedom to make decisions and choose its workflow, sticking tightly to the competition and the
 materials provided, asking when information is needed, with the goal of reaching the semifinals. Everything that is
-sent to the judges must be approved by the team. Assistant outputs are for inspiration and research; the team does
-not submit them as they are. Deliverable help = blueprints (content, arguments, verified numbers, checklists) and
-draft reviews, not submission-ready prose.
+sent to the judges must be approved by the team. Deliverable help = verified numbers, checks, draft reviews and,
+since 2026-10-16, labelled "[AI]" Google Docs suggestions that the team accepts or rejects.
 
 ## Team
 Lessons from 2025-26 (Ray, no feedback received): strategy packaging was over-complex for the insight; the team traded
@@ -76,7 +109,7 @@ Structured in `config/client_mandate.yaml` (human_approved: false) and `config/w
 
 ## Official deadlines (SMApply, 5:00 p.m. ET, no extensions)
 Roster Oct 9 | Trading Notes Analysis Oct 23 (3 notes quoted exactly from executed WInS trades, <=100-word
-reflections) | IPS Nov 6 (title page + 50-word pitch + 500-word IPS, TNR 12 double-spaced, no charts/citations;
+reflections) | IPS Nov 6 (now an SMApply FORM, not a PDF, per Week 4 email; title page + 50-word pitch + 500-word IPS, no charts/citations;
 TRADING ENDS AND PORTFOLIO LOCKS; strategy frozen) | Final Report instructions Nov 9 | Final Report + school
 documentation Dec 4. Evaluation: Investment Strategy; Client Knowledge; Portfolio Analysis; Articulation of
 Competition Experience; Creativity & Presentation. All three evaluated deliverables are judged together.
@@ -189,6 +222,7 @@ VERIFIED 2026-09-27 by the insight_v1 run (primary pages; details in `research/i
       31-stock default universe marked "Wharton-approved" are not official
 
 ## Repo map
+One-screen map: `README.md` (rewritten 23 Oct). Superseded files: `archive/`. Mirror team: `mirror_team/`.
 Official materials: `competition/official/2026_27/` (+ `manifest.yaml`). Historical: `competition/historical/`.
 Research office: `office/`, `.claude/agents/`. Configs: `config/`. Council/research: `research/council_2026-09-27/`. Tests: `pytest` (64 passing); demo runs
 write only to `outputs/demo/` and `decisions/demo/` (git-ignored).

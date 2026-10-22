@@ -1,3 +1,5 @@
+> **Update 2026-10-20:** written before the 6 Oct Wharton email limiting recommendations to WInS-listed stocks, ETFs and Treasury bonds. STRIPS/zero-coupon references are superseded: the real plan uses the WInS ladder (IBTM-IBTR + listed T-bonds) and IBTM as the 2028 floor. See COMPETITION.md.
+
 # D10 Compliance Officer: which book WInS shows (M005) and the IPS governance lines (M013)
 
 Agent D10 (Compliance Officer), insight_v1 run. Written 2026-09-28 (the first official trading day). Scope follows brief

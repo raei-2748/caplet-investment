@@ -34,7 +34,7 @@ Read this file first. Each stage ends with a 5-line summary. The details are in 
 | D8 | **2028 contribution:** keep the case's assumption, but show one chart proving A still works if the money is late or smaller. This is a robustness point, not a contradiction of the case. |
 
 ## Stage 4: Red team (done)
-`redteam/judge_review.md` lists the top 10 weaknesses and their fixes. The three most important:
+`archive/2026-09-25_lock_then_grow_session/judge_review.md` lists the top 10 weaknesses and their fixes. The three most important:
 1. **Answer "isn't this just buying bonds?"** Show the decision process: yields, cost, evidence, and the rule we would follow if yields were low.
 2. **Stock picks must not look disconnected** from a strategy that is mostly bonds. The WInS notes should tie every trade to the growth sleeve's role.
 3. **Explain model limits honestly:** flat yield curve, US-only history, the equity return assumptions. Then show that the decision does not depend on them.

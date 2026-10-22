@@ -1,3 +1,5 @@
+> **Update 2026-10-20:** written before the 6 Oct Wharton email limiting recommendations to WInS-listed stocks, ETFs and Treasury bonds. STRIPS/zero-coupon references are superseded: the real plan uses the WInS ladder (IBTM-IBTR + listed T-bonds) and IBTM as the 2028 floor. See COMPETITION.md.
+
 # Team Caplet working notes (Google Doc snapshot, 2026-09-27)
 Source: "2026 Wharton Global High School Investment Competition" Google Doc (team notes). Student-authored brainstorming; not official material.
 

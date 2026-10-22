@@ -14,6 +14,9 @@ students write a fresh IPS.
 - **Pitch and IPS:** "Investment Strategy Elevator Pitch, maximum 50 words" (:107) and "Investment Policy
   Statement, maximum 500 words" (:109), within two pages. The sample uses these two headings.
 - **Format:** Times New Roman 12 pt, double-spaced, 1" margins, PDF, "Maximum file size: 5 MB" (:122).
+  **Superseded in part (Wharton Week 4 email, filed 22 Oct):** the IPS is now an SMApply form, not a PDF; "all other
+  requirements remain the same". Draft in plain text; check the form fields when it opens.
+  TIPS and STRIPS are now named as banned in the IPS and Final Report (`competition/official/2026_27/wharton_email_week4_2026-10.md`).
 - "Graphics, charts, images, attachments, external links, footnotes, and formal citations are not permitted." (:123)
 - Submissions that miss the requirements are not "considered for semifinal selection" (:83).
 - Focus on the framework and principles. Final reserve numbers, projections, the 2031 range and the co-sponsor
