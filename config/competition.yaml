@@ -41,7 +41,7 @@ trading_rules:                     # official WInS trading rules, verified 2026-
   allow_margin: false
   allow_options_derivatives: false
   allow_crypto: false
-  min_share_price_usd: 3           # WInS session minimum; the public guide says $5
+  min_share_price_usd: 3           # WInS session minimum (read 29 Sep); the public $5 below is gone (20 Oct 2026, live FAQ)
   min_share_price_usd_public_guide: 5
 
 evaluation_rubric_weights:         # five criteria published without weights (see wharton_private_2026_27.yaml)

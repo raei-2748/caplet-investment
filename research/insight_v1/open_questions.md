@@ -1,3 +1,5 @@
+> **Update 2026-10-20:** written before the 6 Oct Wharton email limiting recommendations to WInS-listed stocks, ETFs and Treasury bonds. STRIPS/zero-coupon references are superseded: the real plan uses the WInS ladder (IBTM-IBTR + listed T-bonds) and IBTM as the 2028 floor. See COMPETITION.md.
+
 # Open questions: decisions, WInS data, unverified sources, parked questions, later items
 
 1. There are 12 team decisions still open (E6 s7). The three gate votes come before any order: lock-early, REC or ALT, and book (ii)R. Each has a default and a test for choosing.

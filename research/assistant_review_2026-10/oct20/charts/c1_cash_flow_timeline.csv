@@ -1,0 +1,34 @@
+date,case_year_no,event,money_in_usd,money_out_usd,bucket,source
+2026-10-19,0,Data date for every MODEL number in this pack (treasury.gov close),,,,treasury.gov par curve 10/19/2026
+2027-01-01,1,Deposit 1 arrives,300000,,,"case:43, 59-60"
+2027-01-01,1,"Buy the ten-rung ladder (basis D cost, MODEL)",,297162,ladder,C1 table; basis D
+2027-01-01,1,Leftover kept in a Treasury (MODEL),,2838,leftover,"300,000 minus ladder cost"
+2028-01-02,2,Deposit 2 arrives (case: beginning of 2028; models use 2 Jan),150000,,,case:43-45
+2028-01-02,2,First: fill any ladder gap (zero in the middle case),,0,ladder,IPS rule
+2028-01-02,2,Floor: IBTM bought to repay the remainder R by Dec 2032 (MODEL),,117807,floor,C2 method
+2028-01-02,2,"Rest into VT, untouched to 2033 (MODEL)",,32193,VT,C2 method
+2031-01-01,5,"Range told to co-sponsors (valuation date UNDECIDED, vote D8); nothing traded",,,,case:109-117
+2032-12-15,6,"IBTM ends: about $50,000 for payment 1 plus the floor",,,,holding terms
+2032-12-15,6,IBTM floor shares pay about R (MODEL middle case),150000,,floor,C2
+2033-01-01,7,Operating reserve set aside FIRST (the remaining nine rungs + cash for payment 1),,,reserve,case:94-95
+2033-01-01,7,Operating payment 1 of 10,,50000,payment,case:88-90
+2033-01-01,7,Facility contribution (gift) paid (MODEL middle case),,169686,gift,case:100-106
+2033-01-01,7,Laura keeps the rest of VT + leftover (MODEL middle case),,25340,Laura,case:101-103
+2033-12-15,7,"IBTO ends: about $50,000 for payment 2",,,,holding terms
+2034-01-01,8,Operating payment 2 of 10,,50000,payment,case:88-90
+2034-12-15,8,"IBTP ends: about $50,000 for payment 3",,,,holding terms
+2035-01-01,9,Operating payment 3 of 10,,50000,payment,case:88-90
+2035-12-15,9,"IBTQ ends: about $50,000 for payment 4",,,,holding terms
+2036-01-01,10,Operating payment 4 of 10,,50000,payment,case:88-90
+2036-12-15,10,"IBTR ends: about $50,000 for payment 5",,,,holding terms
+2037-01-01,11,Operating payment 5 of 10,,50000,payment,case:88-90
+2037-02-15,11,"US Treasury 4.750% 15 Feb 2037 ends: about $50,000 for payment 6",,,,holding terms
+2038-01-01,12,Operating payment 6 of 10,,50000,payment,case:88-90
+2038-05-15,12,"US Treasury 4.500% 15 May 2038 ends: about $50,000 for payment 7",,,,holding terms
+2039-01-01,13,Operating payment 7 of 10,,50000,payment,case:88-90
+2039-11-15,13,"US Treasury 4.375% 15 Nov 2039 ends: about $50,000 for payment 8",,,,holding terms
+2040-01-01,14,Operating payment 8 of 10,,50000,payment,case:88-90
+2040-11-15,14,"US Treasury 4.250% 15 Nov 2040 ends: about $50,000 for payment 9",,,,holding terms
+2041-01-01,15,Operating payment 9 of 10,,50000,payment,case:88-90
+2041-11-15,15,"US Treasury 3.125% 15 Nov 2041 ends: about $50,000 for payment 10",,,,holding terms
+2042-01-01,16,Operating payment 10 of 10,,50000,payment,case:88-90

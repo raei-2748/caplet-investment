@@ -1,3 +1,5 @@
+> **Update 2026-10-20:** written before the 6 Oct Wharton email limiting recommendations to WInS-listed stocks, ETFs and Treasury bonds. STRIPS/zero-coupon references are superseded: the real plan uses the WInS ladder (IBTM-IBTR + listed T-bonds) and IBTM as the 2028 floor. See COMPETITION.md.
+
 # Securities and allocation v1: WInS week-1 ticket, and Laura's long-term instrument map
 
 Agent S3 (Allocation Architect), insight_v1 run. First written 2026-09-27; **revised the same day after the S4 red team**

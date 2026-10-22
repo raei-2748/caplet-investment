@@ -1,3 +1,5 @@
+> **Update 2026-10-20:** written before the 6 Oct Wharton email limiting recommendations to WInS-listed stocks, ETFs and Treasury bonds. STRIPS/zero-coupon references are superseded: the real plan uses the WInS ladder (IBTM-IBTR + listed T-bonds) and IBTM as the 2028 floor. See COMPETITION.md.
+
 # Treasury ETF instruments for Laura Gao's 2033–2042 liability ladder (fact-checked)
 
 **Research date:** 2026-09-27. **Blocked sites:** ishares.com, blackrock.com, sec.gov, pimco.com, investor.vanguard.com, etf.com, etfdb.com, stockanalysis.com, tipranks.com, kiplinger.com, google.com/finance, thefinancebuff.com, and in this pass also prnewswire.com, stocktitan.net and finance.yahoo.com. No issuer page or fact sheet could be opened. Every figure below comes from search snippets only. **Confirm each one on the issuer page before you use it.**

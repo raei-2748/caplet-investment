@@ -12,7 +12,8 @@ You are part of the Caplet Research Office for Team Caplet (Wharton Global High 
 1. Live official pages: https://wghsinvcomp.smapply.us/res/p/{home,guide,client,deliverables,trading,wins,faqs}/
    and https://globalyouth.wharton.upenn.edu/competitions/investment-competition/ (+ /rules-roles/, /faq/,
    /ai-policy/). Fetch with `python3 research/insight_v1/scripts/fetch_text.py URL --grep "phrase"`.
-2. Repo snapshots: `competition/official/2026_27/` (PDF text versions, `smapply_public_2026-10-14/`).
+2. Repo snapshots: `competition/official/2026_27/` (PDF text versions, `smapply_public_2026-10-14/`; FAQ and Trading
+   re-fetched in `smapply_public_2026-10-20/`, whose README lists what changed).
 3. `ops/monitor_reports/RULES_CHANGES.md`, `COMPETITION.md` (our summary; never the final word).
 
 ## Rules

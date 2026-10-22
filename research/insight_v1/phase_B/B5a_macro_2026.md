@@ -1,3 +1,5 @@
+> **Update 2026-10-20:** written before the 6 Oct Wharton email limiting recommendations to WInS-listed stocks, ETFs and Treasury bonds. STRIPS/zero-coupon references are superseded: the real plan uses the WInS ladder (IBTM-IBTR + listed T-bonds) and IBTM as the 2028 floor. See COMPETITION.md.
+
 # B5a: 2026 Macro & Markets Landscape (starting angle: U.S. rates, the Fed, fiscal position and Treasury credit)
 
 Agent B5a, insight_v1 run, Phase B (question generation), written 2026-09-27. AI-generated research (Claude Code) for

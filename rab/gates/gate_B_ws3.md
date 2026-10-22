@@ -1,3 +1,5 @@
+> **Update 2026-10-20:** written before the 6 Oct Wharton email limiting recommendations to WInS-listed stocks, ETFs and Treasury bonds. STRIPS/zero-coupon references are superseded: the real plan uses the WInS ladder (IBTM-IBTR + listed T-bonds) and IBTM as the 2028 floor. See COMPETITION.md.
+
 # Gate B, WS3 (M5 history, M6 rivals, M7 stress): reference build vs blind rebuild
 
 WS3 Gate B reconciler, 30 Sep 2026 (Sydney). This is an AI-generated verification record (Claude Code) for Team

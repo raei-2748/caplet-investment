@@ -44,15 +44,20 @@ flowchart LR
 
 ## 4. Disclosure for Final Report Appendix
 
-When submitting the Final Report to Wharton, include the following statement:
-
-> *"Our team designed an institutional-grade investment research platform (`wharton-ic`) to manage point-in-time financial data, compute deterministic DCF valuations, and optimize portfolio risk using hierarchical risk parity and Conditional Value at Risk (skfolio). Multi-model AI agents were utilized in a strictly governed decision-support role—facilitating adversarial Bull vs. Bear debate, checking fact citations against SEC filings, and stress-testing our hypotheses. All investment decisions, trade authorizations, and report narratives were conceived, debated, and authored 100% by student team members."*
+Statement: **PENDING (team to write).** The draft statement that stood here until 2026-10-20 was removed because
+the log below does not support it (it said all report narratives were "authored 100% by student team members").
+The team writes its own Final Report disclosure, in its own words, from the log in section 5 once the Final Report
+instructions are out (9 Nov ET). Until then, nothing in this file is a disclosure to Wharton.
 
 ---
 
 ## 5. AI Contribution Log
 
 Substantive AI contributions, newest last. Each entry: date, tool, what the AI did, what the students decided.
+
+Note (2026-10-20): an AI-prepared draft register of AI use from 25 Aug to 20 Oct 2026 (built from git history, pull
+requests and Drive edit times; kept outside this repo, in the assistant's 20 Oct review files as
+`oct20/ailog/ai_use_register.md`) exists for the team to check. It adds no rows here.
 
 | Date (AEST) | Tool | What the AI did | Output | Student decision |
 |---|---|---|---|---|
@@ -79,6 +84,7 @@ Substantive AI contributions, newest last. Each entry: date, tool, what the AI d
 | 2026-10-16 | Claude Code | IPS compliance check against the official IPS instructions (format, 2-page fit via PDF export, word counts) and 4 untagged suggestions in Version 5: pitch "$292,000" -> "$294,000"; "yields cost" -> "yields they cost"; cut "Each January we review it with Laura."; shorter allocation clause. IPS 506 -> 496 words on the Google Docs count (497 -> 487 counting hyphenated words once); pitch 50 (47). Also accepted by the team: suggestions 5-13. | Google Doc "IPS Report", tab "Version 5" | Cite all accepted AI wording in Works Cited |
 | 2026-10-18 | Claude Code, with 3 Claude sub-agents (set-up test) | At the team leader's request, set up the Caplet Research Office: house rules, an org chart of 26 AI desk agents (chief of staff, fact-checker, six desks each reporting to a student role), a /office entry point, three workflows (gate check, mock-judge panel, work order) and a no-AI text checker (word/character counts, curly quotes, overclaim words, exact-match check). Ran one checking-only work order (WO-0001, TNA paste-check readiness). Writes no submitted text. | `office/`, `.claude/agents/`, `.claude/skills/office/`, `.claude/workflows/`, `office/outbox/` | None yet |
 | 2026-10-19 | Claude Code | At the team leader's request, merged the office from 26 to 18 agents (dropped the six desk leads; folded market data into the ladder pricer and decision-log rows into the evidence archivist) and wrote one workstream file per deliverable (TNA, IPS, Final Report) with the official requirements, student owner roles, dated timeline, agents on duty and gates. No submitted text. | `office/workstreams/`, `office/README.md`, `.claude/agents/`, `.claude/workflows/` | None yet |
+| 2026-10-20 | Claude Code (Claude Opus 5.5) | Prepared a patch of factual fixes for the team to review (not pushed): COMPETITION.md (Feb-2037 coupon, real client, Preview rule removed, dated ladder/VT/book values, username removed, 15-to-16-hour time gap, the live FAQ's TIPS/STRIPS ban and removed $5 floor, iBond distribution dates), a 20 Oct snapshot of the public FAQ and Trading pages, CLAUDE.md values and rules note, TNA workstream status and an authorship gate, this file's pending statement and a pointer to a draft AI-use register, two agent source notes, STRIPS-era banners, and `.claude/settings.json` deny rules for Drive/Docs/Gmail writes and browser/computer-use tools. No submitted text. | `caplet_fixes_v3b.patch` (outside the repo) | Pending team review |
 
 ## 6. Earlier AI Use Log: Laura Gao Strategy Session (25 Sep 2026)
 

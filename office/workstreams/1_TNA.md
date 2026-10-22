@@ -1,7 +1,10 @@
 # Workstream 1: Trading Notes Analysis (TNA)
 
 **Due: Fri 23 Oct 5:00 pm ET = Sat 24 Oct 08:00 Sydney.** Internal submit: **Thu 22 Oct evening.**
-Status (18 Oct): the notes are filed in WInS. In the 14 Oct export, the reflections have no words yet.
+Status (20 Oct): the notes are filed in WInS. No student-written reflection was found in the IPS Report Doc or the
+Portfolio and Trading Notes Sheet (both read 19 Oct). The live Doc holds AI-written reflections labelled "[AI]" for
+all three picks (VT, IBTR, IBTM), plus three pending AI suggestions on them. In the Sheet's TN Analysis tab the
+reflections and the "Owner" column are blank. None of the [AI] text can be submitted.
 
 ## What is submitted (official text: `competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt`)
 - "Select three (3) Trading Notes from trades your team executed in WInS." (:42)
@@ -40,6 +43,10 @@ Status (18 Oct): the notes are filed in WInS. In the 14 Oct export, the reflecti
       cancelled one: that note is 288 characters and says "0.3".
 - [ ] Each note copied from the WInS Trade Notes page as plain text. `textcheck.py paste.txt --compare wins.txt`
       returns "exact match: YES".
+- [ ] No AI-written sentence and no "[AI]" text in any reflection or other student-written part of the doc or form.
+      Each reflection is written fresh by its named student author; the [AI] reflections and every pending AI
+      suggestion are removed first, not edited. The quoted notes stay exactly as filed in WInS (they cannot be
+      edited); any AI help with their wording is recorded in `docs/AI_USE.md` for the Works Cited.
 - [ ] Each reflection is 100 words or fewer on the stricter count (`--limit 100`) and covers why, fit and client.
 - [ ] No "locked", "secured", "guaranteed" or "promised" in a reflection. Any number is dated and names its basis.
 - [ ] Nothing contradicts the IPS draft or a filed note (`coherence-checker`).
