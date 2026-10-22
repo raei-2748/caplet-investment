@@ -1,4 +1,4 @@
-# FICTION. Leo Hart, contrarian and trader
+# FICTION. Leo Tran, contrarian and trader
 
 **Age 17 · Year 12 · Role: devil's advocate, market watch, WInS orders (only Leo places orders, after Felix's check)**
 

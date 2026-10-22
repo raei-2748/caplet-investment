@@ -1,4 +1,4 @@
-# FICTION. Felix Ward, rules and sources
+# FICTION. Felix Wong, rules and sources
 
 **Age 16 · Year 11 · Role: rules, official files, the inbox, compliance check on every trade and draft**
 
