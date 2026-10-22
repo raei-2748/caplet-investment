@@ -75,7 +75,7 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
 - Goal: top priority is reaching the Top 50 semifinals (chosen on the written Trading Notes, IPS and Final Report);
   the finale comes later. Keep deliverables plain-English (judges reward simple, elegant ideas). The assistant drafts
   when asked (AI DRAFT label), reviews drafts, checks trades and numbers; the team rewrites and submits.
-- Repo is public; the team leader accepted putting competition materials in it. Do not commit student personal data
+- Repo is private (made private by Ray on 23 Oct 2026; it was public before). Do not commit student personal data
   (surnames, emails, birthdays) or rankings of teammates.
 
 ## Mandate (Ray, 2026-09-27)
@@ -217,6 +217,7 @@ VERIFIED 2026-09-27 by the insight_v1 run (primary pages; details in `research/i
       31-stock default universe marked "Wharton-approved" are not official
 
 ## Repo map
+One-screen map: `README.md` (rewritten 23 Oct). Superseded files: `archive/`. Mirror team: `mirror_team/`.
 Official materials: `competition/official/2026_27/` (+ `manifest.yaml`). Historical: `competition/historical/`.
 Research office: `office/`, `.claude/agents/`. Configs: `config/`. Council/research: `research/council_2026-09-27/`. Tests: `pytest` (64 passing); demo runs
 write only to `outputs/demo/` and `decisions/demo/` (git-ignored).

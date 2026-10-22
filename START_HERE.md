@@ -21,14 +21,17 @@ entry: official rules, the client case, our strategy research, the WInS portfoli
 | `research/` | AI strategy research (insight_v1, council). Files marked with a 2026-10-14 banner predate the "WInS-only" rule |
 | `rab/` | Research-and-build kit: models, verification, numbers |
 | `model/laura/`, `decisions/` | Laura cash-flow model and decision log |
+| `mirror_team/` | Team Keel, a fictional mirror team: a research-based episode every day, ending with checks for Caplet |
+| `archive/` | Superseded material (25 Sep session brief, old strategy brief) |
 | `src/`, `tests/` | The `wharton-ic` Python toolkit (`pytest` to run the tests) |
 
 ## Ground rules
-- **The team writes all deliverables** (TNA, IPS, Final Report). AI output here is research and checking only;
-  Wharton requires AI use to be cited in the Final Report.
+- **AI drafts when asked, the team writes the final words** (Ray, 22 Oct). Claude drafts labelled "AI DRAFT"; we
+  rewrite in our own words before submitting. Wharton requires every AI use to be cited in the Final Report.
+- **Deadlines are in Sydney time first.** TNA Sat 24 Oct 08:00; IPS Sat 7 Nov 09:00; Final Report Sat 5 Dec 09:00.
 - **Only Ray places or cancels WInS trades.** The portfolio plan is "hold"; talk to the team before any trade.
 - **Edit the live Google Docs**, not the exports in `team/google_drive/` (those are snapshots from 14 Oct).
-- The repo is **public**. Don't commit passwords, emails, birthdays or full surnames.
+- The repo is **private** (since 23 Oct). Still don't commit passwords, emails, birthdays or full surnames.
 
 ## Using Claude with this repo
 The team uses one AI system, the **Caplet Research Office** (`office/README.md`).
