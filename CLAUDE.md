@@ -9,6 +9,7 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
   reaching the Top 50 semifinal. Keel leads: it sets the agenda (`keel/road_to_semifinal.md`), runs the office
   (Nora leads; each Keel member heads a desk) and researches, checks and drafts. Caplet's six students are the real
   entrants: they vote, rewrite in their own words and submit; only Ray trades. Keel proposes, never decides.
+  Students talk to Keel with `/keel status`, `/keel <name>: <question>`, `/keel meeting: <topic>` (`.claude/skills/keel/`).
 - Competition questions (rules, numbers, the client case, trade checks, draft reviews, records) go through the
   office: `/office <your role>: <question> | decides: <what> | by: <date>`, or a named agent in `.claude/agents/`.
   Read `keel/office/CHARTER.md` and the workstream file for the deliverable (`keel/office/workstreams/1_TNA.md`, `2_IPS.md`,

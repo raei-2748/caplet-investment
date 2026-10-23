@@ -9,6 +9,8 @@ plans, researches, checks and drafts; Caplet votes, rewrites in its own words an
 [`keel/README.md`](keel/README.md). Rules, dates and formats: [`competition/COMPETITION.md`](competition/COMPETITION.md). Claude sessions
 read [`CLAUDE.md`](CLAUDE.md) first.
 
+**Talk to Keel:** `/keel status` · `/keel kai: attack our IPS` · `/keel meeting: how big is the sail?`
+
 ## Deadlines (Sydney time)
 | Due | What |
 |---|---|
