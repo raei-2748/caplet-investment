@@ -236,6 +236,38 @@ wait" pile held the FAQ change for two days (Ep 23, 25). The curly apostrophe ne
 - **The ending isn't promised.** The semifinal list is not out when the season ends, and the story never says Keel
   made it.
 
+**The bigger storms (creative beats, each tied to the work).** Busy weeks wear a team down. These are the turns
+that break something open. Use at most one per act. Each one has to change a vote, a page or how the team works.
+- **The floor is taken back.** In the first week of November, the school announces that the library's top floor
+  will be emptied over the summer for a refurbishment, starting the Monday after the Final Report. A facilities
+  manager starts measuring the Long Room while they work. Keel has a deadline the competition didn't set: everything
+  worth keeping has to fit in the Archive's grey cabinet. Tess decides what goes in it, and the team learns what its
+  record actually is.
+- **The laptop on the 389.** Jun leaves his laptop on the bus the night before the IPS freeze. The models are in the
+  repo, but his unsaved notes on why each margin was sized that way aren't. Kai rebuilds the reasoning from the
+  decision journal in front of Jun, and realises for the first time how much of the plan lives only in Jun's head.
+  The house rule after that: if it isn't written down, it doesn't count.
+- **Kai thinks about leaving.** After he loses the sail vote, Spinnaker's Oscar messages him: they want "a real
+  trader". For four days Kai doesn't answer, and he doesn't tell anyone. Jun finds out from Kai's face. The Courtroom
+  session that week is Kai prosecuting Keel's own plan as if he were already on Spinnaker. It's the best case anyone
+  makes against the keel all season, and his answer to Oscar is a single line: "We're not that kind of team."
+- **Felix's dad wants him in Hong Kong for the summer, from 1 December.** His flight is booked for the morning of
+  Fri 4 Dec, the day Keel submits. He offers to cancel it; Nora says no, and the team brings its own deadline forward
+  by a day so Felix's last check happens before he leaves. Felix reads both clocks one last time at the airport, and
+  he is the one who sends the "submitted" message, from the gate.
+- **Amara's line gets stolen.** A sentence of hers from a public forum post Kai once made ("a promise you can price
+  is a promise you can keep") turns up in Spinnaker's pitch, word for word. The team wants to call it out. Amara
+  doesn't. She writes a better line instead, and that's the one in Keel's Final Report.
+- **Nora loses her voice.** Literally: laryngitis in the last week of November. For four days she can't chair, can't
+  argue and can't read "decision, owner, date" aloud. She writes on the whiteboard, and the meetings get shorter
+  and better. She learns the team doesn't need her voice. It needs her calendar.
+- **The mistake that went out.** Keel's own IPS, already submitted, has a sentence whose number Jun later finds was
+  on a stale curve. It can't be fixed. The question for the Final Report is whether to say so. They do, in one plain
+  sentence, and it becomes the most honest line in their articulation section.
+- **Two clocks, one wrong.** On Sun 1 Nov the New York clock on the wall is still on daylight time, because nobody
+  but Felix knows how to change it and Felix is at a concert. For a day, the countdown on the Noticeboard is an hour
+  wrong. Nobody gets hurt, but Kai turns white, because that is the exact mistake that sank Northwind.
+
 **The rule for a setback:** it has a believable cause, it costs something real (time, a line, a vote, a night's
 sleep, a friendship moment), the fix is partial, and it leaves a mark on how the team works. At least one per act;
 most weeks, one.
