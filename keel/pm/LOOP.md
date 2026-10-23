@@ -1,5 +1,7 @@
 # The Keel operating loop (one run = one task done well)
 
+> Runs from the Noticeboard. Rooms, people and agents: `keel/OFFICE.md`.
+
 Every Keel session that is not answering a direct student question runs this loop: the scheduled routines,
 `/keel next`, or any session told "work the board". Nora (chief-of-staff) runs it. Budget: read only the files
 named below plus the chosen task's links; one task per run; one page of output.
@@ -32,7 +34,7 @@ vote, then the smaller one. Caplet-owned cards are never picked; they go on the 
 more, do no task: groom, propose, write the stand-up, stop. Doing nothing is a valid run.
 
 ## 4. Do
-Move the card to Doing with today's date. Work as the owning desk: read that member's "Agent profile" in
+Move the card to Doing with today's date. Work as the owning room's member (`keel/OFFICE.md`): read that member's "Agent profile" in
 `keel/members/<name>.md` and use the named agents in `.claude/agents/` (at most 2 subagents; `fact-checker` checks
 any headline number). Output: one page in `keel/office/outbox/YYYY-MM-DD_SD-<card>_<desk>_<slug>.md`, memo format
 of CHARTER section 5, with "Asked by: self-directed (board card <ID>)". Numbers: date + basis + MODEL label.
@@ -47,6 +49,19 @@ Add up to 3 cards to **Proposed**, each with: why it raises the score, impact, o
 promote its own Proposed card to Ready next run if it is checking work of 1 page or less and fits the quiet period.
 Anything else (new research, a draft for submission, any decision, anything costing a student's time) waits for a
 Caplet tick (a student writes "OK" in the card's Notes column or says so in chat).
+
+## 6b. The Library and the Lab (every run, small; skip either if nothing is worth it)
+- **Library:** add at most one slip to `keel/rooms/library.md`: a real source (often not finance) and "this reminds
+  me of Laura's plan because...", tested part for part by Felix and Kai, verdict KEEP / PARK / DROP. To hunt for an
+  idea use the ideation ladder (`keel/office/IDEATION.md`, PR #25): Haiku 5.5 wide, Sonnet 5.5 only if nothing is
+  kept, Opus 5.5 only if still nothing. "Nothing kept" is a good result.
+- **Lab:** move at most one experiment in `keel/rooms/lab.md` one step (hypothesis, Kai's roast, test, result,
+  verdict ADOPT / PARK / BIN), on existing scripts and data, with `numbers-auditor` re-deriving any headline number.
+  Keep failures in the book.
+- **Quiet period until Sat 7 Nov 09:00 Sydney:** Lab experiments and Library slips must bear on the IPS (pitch,
+  framing, numbers it quotes). Anything else goes in as "waits for OK" until Ray approves it.
+- A KEEP or ADOPT reaches Caplet only as a Proposed card (step 6) that names the judging criterion it serves and
+  passes Felix's rules check; students choose and write it themselves.
 
 ## 7. Stand-up and save
 - Add an entry at the top of `keel/pm/STANDUP.md`. It opens with **Nora's update**: 3 to 6 plain-English

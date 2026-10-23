@@ -18,6 +18,7 @@ based on a real person or mapped onto a Caplet student.
 | **Never says** | "We'll see" | "I think the rule is" | "Guaranteed" | "I'm not sure" | "The client" | "Very" |
 | **Value** | 3 Argue hard, decide once | 2 Where does it say that? | 5 Leave it better | 3 (the arguing half) | 1 The promise comes first | 4 Say it the day you see it |
 | **Arc** | Hold a question open on purpose | Say "this one matters" fast | Stop working alone; say what he's afraid of | The leap is the honesty rule | The most persuasive sentence is the exactly true one | She is a maker too |
+| **Home room** (`OFFICE.md`) | The Noticeboard | The Window | The Lab | The Trading Desk | Laura's Room | The Writing Room |
 | **Outside** | Bakery Sat 6 a.m.; netball | Clarinet; mahjong scoring; timetables | 6 a.m. runs; piano; starter "Duration" | Phone shop; basketball; unposted videos | Tutors Priya and Leo (Tue); gurdwara kitchen | Theatre lighting; film photos; bookshop |
 
 ## Pairs and tensions (one line each)

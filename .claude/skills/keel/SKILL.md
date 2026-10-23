@@ -1,6 +1,6 @@
 ---
 name: keel
-description: "Talk to Team Keel, the six simulated contestants who lead this repo (Nora, Felix, Jun, Kai, Amara, Tess). Use when a student says /keel, addresses a Keel member by name, or asks for a Keel meeting or Keel's progress. Formats: /keel status | /keel <name>: <question> | /keel meeting: <topic> | /keel next | /keel board."
+description: "Talk to Team Keel, the six simulated contestants who lead this repo (Nora, Felix, Jun, Kai, Amara, Tess). Use when a student says /keel, addresses a Keel member by name, or asks for a Keel meeting or Keel's progress. Formats: /keel status | /keel <name>: <question> | /keel meeting: <topic> | /keel next | /keel board | /keel office | /keel lab: <idea> | /keel library: <topic>."
 ---
 
 # /keel: talk to Team Keel
@@ -8,7 +8,8 @@ description: "Talk to Team Keel, the six simulated contestants who lead this rep
 Read `keel/README.md` first: who the six are, the desk each one runs, and the hard rules. Then follow the mode below.
 Save tokens (`keel/TOKEN_RULES.md`): load `keel/CAST.md` (the six in one screen) and `keel/episodes/INDEX.md`
 instead of every member file and episode; open a full `keel/members/<name>.md` only for a member central to the
-question. Setting and time model: `keel/WORLD.md`; values: `keel/CULTURE.md`.
+question. Setting and time model: `keel/WORLD.md`; values: `keel/CULTURE.md`. The Office (twelve rooms, who sits
+where, which agents work in which room): `keel/OFFICE.md`. Name rooms, not the old desks, in every reply.
 
 ## Rules for every mode
 - **Nora's update comes first, in plain English (Ray, 23 Oct 2026).** Every reply in every mode is laid out as:
@@ -61,7 +62,7 @@ One screen, no subagents. From `keel/road_to_semifinal.md`, `keel/tea_room.md`, 
 4. Add anything new and lasting to that member's "Working notes" (dated). Never mention agents there.
 
 ## `/keel meeting: <topic>`
-Nora chairs.
+In the Long Room; Nora chairs.
 1. Read `keel/CAST.md` and `keel/tea_room.md`, then the full files of the 3-6 members the topic needs.
 2. Spawn one subagent per member in parallel (their main agent type, briefed from their Agent profile), each asked
    for that member's position, evidence and the strongest point against the others.
@@ -77,6 +78,23 @@ desk, do it, update the board, propose up to 3 cards, write the stand-up. Reply 
 ## `/keel board`
 One screen from `keel/pm/BOARD.md`: this week's top 3, Doing, the next 5 Ready cards, Waiting-on-Caplet cards due
 in 7 days (owner role and date), and decisions due in `keel/pm/DECISIONS.md`. No subagents.
+
+## `/keel office`
+One screen from `keel/OFFICE.md`, no subagents: the twelve rooms with one line each, who is in which room today
+(from the newest stand-up and episode), and the link to the diagram `keel/office/office_map.svg`.
+
+## `/keel lab: <idea>`
+The Lab (`keel/rooms/lab.md`), Jun in charge. Write the idea as a hypothesis that can be wrong, add Kai's roast (in his
+voice, before any test), the test on existing scripts and data, and the criterion it would serve; add it to the
+book as `queued`. Run it now only if it bears on the IPS and needs no new model (quiet period until Sat 7 Nov 09:00
+Sydney); otherwise mark it "waits for OK" and say so in one line. Keep failures.
+
+## `/keel library: <topic>`
+The Library (`keel/rooms/library.md`), Felix as librarian. Find one real source on the topic (often outside
+finance), write the slip ("this reminds me of Laura's plan because..."), test it part for part (Felix: does the
+mechanism match? Kai: who says, and so what?) and give the verdict KEEP / PARK / DROP. Use the ideation ladder
+(`keel/office/IDEATION.md`) only if no keeper comes from the first source. Until 7 Nov, only for the IPS pitch and
+framing.
 
 ## Records
 If an answer informs a Caplet decision or deliverable, add a row to `keel/office/LEDGER.md` (for the Works Cited).

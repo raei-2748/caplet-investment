@@ -5,7 +5,7 @@ and an arc. They are written as the best high-school team in the Wharton Global 
 Competition 2026-27 and they are set on one goal: **reach the Top 50 semifinal**, which Wharton chooses on the
 three written deliverables (Trading Notes Analysis, IPS, Final Report), judged together.
 
-Keel leads this repository. It sets the agenda, runs the Research Office and does the research, the numbers, the
+Keel leads this repository. It sets the agenda, runs the Keel Office (`OFFICE.md`) and does the research, the numbers, the
 checks and the drafts. **Team Caplet's six students are the real entrants**: they vote, rewrite in their own words,
 submit, and Ray places every trade.
 
@@ -21,15 +21,18 @@ is the sail.
 - **Where the story is going:** `ARCS.md`. **What they've argued about:** `IDEAS.md`.
 - **Working on Keel?** Read `TOKEN_RULES.md` first: load the small files, never regenerate what exists.
 
-## The six, and the desk each one runs
-| Member | Role in the story | Runs in the office | Agents (`.claude/agents/`) |
+## The six, and their home rooms in the Office
+The Office is twelve rooms on the top floor of Fernleigh's library; the map, who sits where and which agents work
+in which room are in **`OFFICE.md`** (diagram `office/office_map.svg`). The old desks became rooms on 23 Oct 2026.
+
+| Member | Role in the story | Home room (also works in) | Agents who work for them (`.claude/agents/`) |
 |---|---|---|---|
-| **Nora Haddad** | Team leader | The office itself: routing, the one-page synthesis, coherence, mock judging | `chief-of-staff`, `coherence-checker`, `mock-judge` |
-| **Felix Wong** | Rules and sources | Rules & Integrity | `rules-verifier`, `integrity-officer`, `fact-checker` |
-| **Jun Park** | Numbers | Numbers | `ladder-pricer`, `numbers-auditor`, `scenario-modeller` |
-| **Kai Tran** | Contrarian and trader | Strategy & Risk | `devils-advocate`, `trade-checker` |
-| **Amara Singh** | Client lead | Client & Co-sponsor | `case-analyst`, `cosponsor-reader`, `taiwan-researcher` |
-| **Tess Bell** | Editor and team memory | Editorial & Records | `format-gatekeeper`, `final-report-planner`, `evidence-archivist`, `ai-use-recorder` |
+| **Nora Haddad** | Team leader | The Noticeboard (Long Room chair, Courtroom bench) | `chief-of-staff`, `coherence-checker`, `mock-judge` |
+| **Felix Wong** | Rules and sources | The Window (Library, Trading Desk) | `rules-verifier`, `integrity-officer`, `fact-checker` |
+| **Jun Park** | Numbers | The Lab (Trading Desk) | `ladder-pricer`, `numbers-auditor`, `scenario-modeller` |
+| **Kai Tran** | Contrarian and trader | The Trading Desk (Courtroom, Lab, Library) | `devils-advocate`, `trade-checker` |
+| **Amara Singh** | Client lead | Laura's Room (Writing Room, Kitchen) | `case-analyst`, `cosponsor-reader`, `taiwan-researcher` |
+| **Tess Bell** | Editor and team memory | The Writing Room (Archive, Rooftop) | `format-gatekeeper`, `final-report-planner`, `evidence-archivist`, `ai-use-recorder` |
 
 Each member's file holds their profile, their agent brief and their working notes. When an agent works for a
 member it reads that member's file first and answers in that member's position.
@@ -40,7 +43,7 @@ Talk to Keel with **`/keel`** in Claude Code: `/keel status` (progress), `/keel 
 
 1. **Agenda.** `road_to_semifinal.md` is the plan to the semifinal, with dates in Sydney time. Nora keeps it current.
 2. **Work orders.** A Caplet student asks: `/office <role>: <question> | decides: <what> | by: <date>`. Nora routes it
-   to the desk heads, they answer, Felix's fact-checker checks it, and one page goes to `office/outbox/`.
+   to the rooms that own the question, they answer, Felix's fact-checker checks it, and one page goes to `office/outbox/`.
 3. **Proposals, not decisions.** Every Keel answer ends with the options and the date by which **Caplet** must vote.
 4. **Drafts.** When a student asks, Keel drafts any deliverable, labelled `AI DRAFT (Claude, <date>)`. The students
    rewrite it in their own words before it goes to Wharton.
@@ -72,13 +75,15 @@ IDEAS.md               the ideas ledger: concepts debated, adopted or rejected f
 TOKEN_RULES.md         what to load, what never to regenerate
 EPISODE_RULES.md       how the daily episode is written (recipe, backstage method)
 road_to_semifinal.md   the plan to the semifinal
-tea_room.md            Keel's plan, decision journal, open threads, relationships
+OFFICE.md              the Office: twelve rooms, who sits where, which agents work where
+rooms/                 working logs of the newer rooms (Library slips, Lab book, Courtroom, Laura's Room, Rooftop, Archive)
+tea_room.md            the Long Room wall: Keel's plan, decision journal, open threads, relationships
 members/               one file per member: profile, agent brief, working notes
 episodes/              one diary file per day; INDEX.md is the timeline
 drafts/                Keel's own drafts (IPS v1 ...)
 scripts/               Jun's models (ladder_pv.py, sail_mc.py)
-office/                the Research Office: CHARTER, LEDGER, work_orders, outbox, workstreams, tools
+office/                the Office's rules and records: CHARTER, LEDGER, work_orders, outbox, workstreams, tools
 routines/              scheduled checks (tasks/) and their reports
 library/               all AI research so far
-pm/                    task board, road map, risks, retros (the project-management thread's folder)
+pm/                    the Noticeboard: task board, road map, risks, retros, stand-ups, routines
 ```

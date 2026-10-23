@@ -11,7 +11,8 @@
 | The setting, time model, what the story may do | `WORLD.md` | re-deriving it |
 | Values, culture, what judges reward | `CULTURE.md` | |
 | What has happened | `episodes/INDEX.md` + the summary block of the last 2 episodes | whole episodes |
-| Open threads, decisions | `tea_room.md` | old episodes |
+| Open threads, decisions | `tea_room.md` (the Long Room wall) | old episodes |
+| Which room does what, who sits where, which agents | `OFFICE.md` | `office/README.md`, the agent files |
 | Concepts already debated | `IDEAS.md` | re-arguing an idea that has a verdict |
 
 Open a full member file only for the 1-3 members central to today, and then only its profile part (above

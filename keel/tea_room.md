@@ -1,6 +1,10 @@
-# FICTION. Team Keel: the shared tea room
+# FICTION. Team Keel: the Long Room wall
 
-The team's shared room: plan, decision journal, open threads and how everyone is getting on. Updated by
+> Renamed 23 Oct 2026 when the Office got its rooms (`OFFICE.md`). The file name `tea_room.md` is kept so links
+> don't break; "the tea room" now means the Kitchen, the off-duty room. Everything on this page hangs on the Long
+> Room wall, except "Relationships right now", which is Kitchen talk.
+
+The team's wall: plan, decision journal, open threads and how everyone is getting on. Updated by
 each daily episode. Last update: Episode 26, Fri 23 Oct 2026 (Sydney); first month backfilled (Ep 0-24) on 23 Oct.
 Setting and time: `WORLD.md`. Values: `CULTURE.md`. Cast: `CAST.md`. Arcs: `ARCS.md`. Ideas: `IDEAS.md`. Timeline: `episodes/INDEX.md`.
 

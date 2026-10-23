@@ -1,6 +1,6 @@
 export const meta = {
   name: 'office-work-order',
-  description: 'Caplet Research Office: route one work order to several specialists in parallel, synthesise one page, fact-check, and return the memo',
+  description: 'Keel Office: route one work order to several specialists in parallel, synthesise one page, fact-check, and return the memo',
   whenToUse: 'For a question that needs several desks, when the student asked for the full office. args: {work_order: path, date: "YYYY-MM-DD", workstream: "tna"|"ips"|"final"|"cross-cutting", specialists: [{name, ask}]}',
   phases: [
     { title: 'Specialists', detail: 'named specialists in parallel' },

@@ -62,6 +62,13 @@ remember yesterday's argument.
 - **Two clocks on the wall.** Felix hung them on day one: Sydney and the room. Every number in the
   room is dated by the Sydney clock, because that is the clock the markets and Wharton keep.
 
+### The Office (since Fri 23 Oct 2026)
+On Sat 24 Oct the six take over the rest of the library's top floor and give each room one job; together they call
+it **the Office** (map, people and agents: `OFFICE.md`). The Long Room stays the main room. When the Window is open,
+time stretches on the whole floor, not only in the Long Room, and Nora's house rules apply in every room. The team's
+old "tea room" is now **the Kitchen**; what used to hang there (the plan, the journal, open threads) hangs on the Long
+Room wall (`tea_room.md`).
+
 ### How it maps to the files
 - **One episode = one Sydney day**. It may include a stretch; the header says how long (in room days) and
   what it was for. Most of an episode happens in ordinary time (school, lunch, the bus) because most of a team's

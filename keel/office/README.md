@@ -1,4 +1,4 @@
-# Caplet Research Office (run by Team Keel)
+# The Keel Office (run by Team Keel)
 
 An office of 18 AI agents (Claude Code subagents) that does research and checking for Team Caplet's 2026-27 Wharton
 entry. The goal is to help the students reach the **Top 50 semifinals**, which are chosen on the three written
@@ -6,10 +6,11 @@ deliverables. The office is built around what the 16 Oct review found is stoppin
 (`keel/library/assistant_review_2026-10/04_What_Stops_Us_Winning_16Oct2026.md`): hard gates, one ladder basis,
 student ownership, honest certainty wording, and a Final Report started too late.
 
-**Team Keel runs the office.** Nora heads it and each Keel member heads a desk (table in `keel/README.md`):
-Felix = Rules & Integrity, Jun = Numbers, Kai = Strategy & Risk, Amara = Client & Co-sponsor, Tess = Editorial &
-Records. Agents working for a desk read their desk head's file in `keel/members/` first. Caplet's students remain
-the clients: they ask, vote and submit.
+**Team Keel runs the office.** Since 23 Oct 2026 it is one office made of twelve rooms, and the six old desks
+became rooms: the map, who sits where and which agents work in which room are in **`keel/OFFICE.md`** (diagram
+`keel/office/office_map.svg`). Nora runs the Noticeboard; Felix the Window; Jun the Lab; Kai the Trading Desk; Amara
+Laura's Room; Tess the Writing Room and the Archive. Agents read the file of the member they work for in
+`keel/members/` first. Caplet's students remain the clients: they ask, vote and submit.
 
 **Read `keel/office/CHARTER.md` first.** The short version: students decide and write. The office checks, measures and
 finds problems. Each answer is one page, and there are no new research waves before the IPS is in.
@@ -27,7 +28,7 @@ the dated timeline, which agents are on duty and the "done when" gates.
 
 Cross-cutting (any week): records (journal facts, AI-use log), trade checks, privacy scans.
 
-## Org chart
+## Org chart (before 23 Oct; desks are now rooms, see `keel/OFFICE.md`)
 
 ```
                   TEAM (votes on strategy, trades, anything submitted)
@@ -52,26 +53,26 @@ There are no desk leads. Each desk is a group of specialists, and each desk repo
 of the 16 Oct review). The chief of staff routes work orders to the specialists directly and writes the single
 synthesis. The team fills in which student holds which role in its private sheet, not here.
 
-| Agent | Desk | Job | Workstreams |
+| Agent | Room | Job | Workstreams |
 |---|---|---|---|
-| `chief-of-staff` | Chief | Triage, routing, the one-page synthesis, the ledger | all |
-| `fact-checker` | Chief | Re-opens every quote; re-derives every number before a memo ships | all |
-| `format-gatekeeper` | Rules & Integrity | Word, character and page counts; curly quotes; exact-copy checks | 1 2 3 |
-| `rules-verifier` | Rules & Integrity | Exact official text; rule changes; the Final Report instructions on 10 Nov | 1 2 3 |
-| `integrity-officer` | Rules & Integrity | AI policy, authorship evidence, public-repo privacy | 1 2 3 |
-| `ladder-pricer` | Numbers | Market data with sources, plus ladder pricing on a named basis | 1 2 3 |
-| `numbers-auditor` | Numbers | Blind second calculation; finds the same figure stated two ways | 1 2 3 |
-| `devils-advocate` | Strategy & Risk | Strongest case against a rule; vote set B options notes | 2 3 |
-| `scenario-modeller` | Strategy & Risk | Bad cases, including stocks and yields falling together (MODEL) | 2 3 |
-| `trade-checker` | Strategy & Risk | Checks a pasted ticket against the WInS rules (plan is hold) | 2 |
-| `case-analyst` | Client & Co-sponsor | What Laura's case says, word for word | 1 2 3 |
-| `cosponsor-reader` | Client & Co-sponsor | Reads a range or claim the way a funder would | 3 |
-| `taiwan-researcher` | Client & Co-sponsor | Verified Taiwan facts; opens 8 Nov | 3 |
-| `mock-judge` | Judging & Editorial | Five personas; runs only after the humans have scored | 1 2 3 |
-| `coherence-checker` | Judging & Editorial | The TNA, IPS, Final Report and filed notes tell one story | 1 2 3 |
-| `final-report-planner` | Judging & Editorial | Criterion map and modules before 9 Nov; re-map after 10 Nov | 3 |
-| `ai-use-recorder` | Records | AI-use log rows for the Works Cited | cross-cutting |
-| `evidence-archivist` | Records | Dated journal facts and decision-log rows (the "hold" checks) | cross-cutting |
+| `chief-of-staff` | Noticeboard | Triage, routing, the one-page synthesis, the ledger | all |
+| `fact-checker` | Window | Re-opens every quote; re-derives every number before a memo ships | all |
+| `format-gatekeeper` | Writing Room | Word, character and page counts; curly quotes; exact-copy checks | 1 2 3 |
+| `rules-verifier` | Window | Exact official text; rule changes; the Final Report instructions on 10 Nov | 1 2 3 |
+| `integrity-officer` | Window | AI policy, authorship evidence, public-repo privacy | 1 2 3 |
+| `ladder-pricer` | Trading Desk | Market data with sources, plus ladder pricing on a named basis | 1 2 3 |
+| `numbers-auditor` | Lab | Blind second calculation; finds the same figure stated two ways | 1 2 3 |
+| `devils-advocate` | Courtroom | Strongest case against a rule; vote set B options notes | 2 3 |
+| `scenario-modeller` | Lab | Bad cases, including stocks and yields falling together (MODEL) | 2 3 |
+| `trade-checker` | Trading Desk | Checks a pasted ticket against the WInS rules (plan is hold) | 2 |
+| `case-analyst` | Laura's Room | What Laura's case says, word for word | 1 2 3 |
+| `cosponsor-reader` | Laura's Room | Reads a range or claim the way a funder would | 3 |
+| `taiwan-researcher` | Laura's Room | Verified Taiwan facts; opens 8 Nov | 3 |
+| `mock-judge` | Courtroom | Five personas; runs only after the humans have scored | 1 2 3 |
+| `coherence-checker` | Archive | The TNA, IPS, Final Report and filed notes tell one story | 1 2 3 |
+| `final-report-planner` | Writing Room | Criterion map and modules before 9 Nov; re-map after 10 Nov | 3 |
+| `ai-use-recorder` | Archive | AI-use log rows for the Works Cited | cross-cutting |
+| `evidence-archivist` | Archive | Dated journal facts and decision-log rows (the "hold" checks) | cross-cutting |
 
 Definitions: `.claude/agents/<name>.md`. On 19 Oct the office was merged from 26 agents to 18. The six desk leads
 were dropped (the chief of staff synthesises instead), market data went into `ladder-pricer`, and decision-log

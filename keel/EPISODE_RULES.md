@@ -94,7 +94,7 @@ Daily method:
 ```
 EPISODE_RULES.md   rules, daily recipe, backstage method (headquarters page: README.md)
 WORLD.md, CULTURE.md, CAST.md, ARCS.md, IDEAS.md, TOKEN_RULES.md   setting, values, cast, arcs, ideas, token rules
-tea_room.md    the shared tea room: plan, decision journal, open threads, relationships
+tea_room.md    the Long Room wall: plan, decision journal, open threads, relationships (OFFICE.md)
 members/       one file per member: profile, agent profile, working notes
 episodes/      one diary file per day; INDEX.md is the timeline
 ```
