@@ -25,7 +25,7 @@ How much of Laura's money should be at risk, and what does "bold" mean in a plan
   VT trade and the 2.1% line Tess cut (Ep 25); Kai's five attacks, ending "more equity is not the leap" (Ep 26).
 - **Coming:** the sail vote (Sun 25 Oct), the final number (Sun 1 Nov). Kai learns that the bold idea is the honesty
   rule, and that his job is to make it true for the bonds Keel owns.
-- **Where it stands (23 Oct):** Jun says 25% of the 2028 money; Kai says more; vote on Sunday.
+- **Where it stands (24 Oct):** the buffer and the sail are the same 2028 money; one vote on Sunday (Ep 27).
 
 ### 2. Two captains (Nora and Kai)
 Nora decides fast; Kai thinks she closes questions before they are ready. Both are partly right.
@@ -34,7 +34,7 @@ Nora decides fast; Kai thinks she closes questions before they are ready. Both a
   the vote (Ep 10) and is proved right; the "argue hard, decide once" truce (Ep 11).
 - **Coming:** the IPS freeze, where a question Nora wants closed (the 2031 range wording) is one Kai is right to
   keep open. Nora learns to hold a question open on purpose; Kai learns to let a logged decision stand.
-- **Where it stands (23 Oct):** truce holding; the sail vote will test it.
+- **Where it stands (24 Oct):** Nora deleted a decision she typed too early and handed Kai "a number to lose it with, or win it" (Ep 27).
 
 ### 3. The folder (Amara and Tess)
 Tess cuts Amara's best lines because they are not yet true. Amara wants them back.
@@ -79,7 +79,7 @@ The Long Room gives them more time than their lives have room for. Families and 
   after a deep stretch (Ep 22).
 - **Coming:** someone has to choose between Keel and something outside it before the IPS; the team learns to protect
   each other's outside lives as a rule, not a favour.
-- **Where it stands (23 Oct):** everyone is tired after TNA week; nobody has said so as a team.
+- **Where it stands (24 Oct):** Tess said it in the Kitchen; Jun said "yeah" first; home at seven (Ep 27).
 
 ### 8. The Window (Keel and Caplet)
 Keel helps six students at another school it has never met, without deciding anything for them.

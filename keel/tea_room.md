@@ -5,7 +5,7 @@
 > Room wall, except "Relationships right now", which is Kitchen talk.
 
 The team's wall: plan, decision journal, open threads and how everyone is getting on. Updated by
-each daily episode. Last update: Episode 26, Fri 23 Oct 2026 (Sydney); first month backfilled (Ep 0-24) on 23 Oct.
+each daily episode. Last update: Episode 27, Sat 24 Oct 2026 (Sydney); first month backfilled (Ep 0-24) on 23 Oct.
 Setting and time: `WORLD.md`. Values: `CULTURE.md`. Cast: `CAST.md`. Arcs: `ARCS.md`. Ideas: `IDEAS.md`. Timeline: `episodes/INDEX.md`.
 
 ## Keel's plan (their own; not Caplet's)
@@ -73,12 +73,14 @@ co-sponsor a number she doesn't already own."**
 | 23 Oct | IPS v1 built on three principles (promise first; floor + sail; promise only what she owns), sail share left to the 25 Oct vote | Amara, Tess | Felix's checklist: the IPS must state the rules for reserve, certainty, facility and range before the freeze |
 | 23 Oct | Ladder bought latest payments first; any January gap is the first use of the 2028 deposit | Jun | Keeps any gap in the 2033 rung, paid before a single share is bought |
 | 23 Oct | Certainty defined as "paid in full from bonds she owns unless the U.S. government defaults"; coupon reinvestment named as the one remaining risk | Jun, Kai | STRIPS banned, so real bonds pay coupons before 2033 |
+| 24 Oct | One-dial rule ($289 per 0.01% in the 10-year) adopted for explaining, kept out of the IPS | Jun, Kai | Lab L-01: worst miss $652 over 20 closes (Ep 27) |
+| 24 Oct | Buffer size decided with the sail in one vote | Nora | Both come out of the 2028 deposit (Ep 27) |
+| 24 Oct | The half Laura keeps gets one ranked sentence: payments first | Tess, Amara | Courtroom: one pot, three jobs (Ep 27) |
 
 ## Open threads
-- How big is the sail? Jun 25% vs Kai more; vote Sun 25 Oct, final 1 Nov.
+- How big is the sail, and how big the buffer? Same 2028 money, one vote Sun 25 Oct (Ep 27); final 1 Nov.
 - Re-run Jun's numbers on a fresh Treasury curve (the site could not be reached on 23 Oct) and add a worst-historical-window check.
-- Jun's ladder headroom is thin (~$6k, ~21bp, MODEL, 21 Oct curve). What does the plan say if the 2027 price is
-  above $300k?
+- Ladder room $1,139 (4bp, MODEL, 22 Oct curve, payment-date basis); over $300k on the holdings basis. The January-gap rule is now the expected case.
 - What exactly will the IPS form look like? (Felix checks SMApply when it opens.)
 - Amara's inflation research for the Final Report: Taiwan construction costs vs CPI (opens after the IPS).
 - The 2031 range needs a model behind it (Jun) before anyone quotes a number; Amara's cut line waits in Tess's
@@ -96,7 +98,8 @@ co-sponsor a number she doesn't already own."**
   without a fight. Bà is watching Kai's eyes.
 - Tess spoke first again; the strict word count is now her rule for every deliverable. Value 4 is hers.
 - Nora and Kai: the 8 Oct truce holds. The sail vote on Sunday is its next test.
-- Everyone is tired after TNA week. Nobody has said so as a team (arc 7).
+- Tess said she was tired, in the Kitchen, and everyone agreed; Jun first (Ep 27).
+- Kai wrote his own losing verdict in the Lab; Jun answered with a can of Coke (Ep 27).
 
 ## Long Room log (Sydney date and minutes; room days; purpose)
 | Sydney | Minutes | Room days | Purpose | Who |
@@ -124,6 +127,7 @@ co-sponsor a number she doesn't already own."**
 | Tue 20 Oct lunch | 3 | 3 | Mock judge; currency | All |
 | Wed 21 Oct lunch | 4 | 4 | Caplet WO-0003; reflections (Jun alone, 1 a.m.) | All |
 | Fri 23 Oct | ~5 | deep | TNA last read; IPS v1 | All |
+| Sat 24 Oct 11:00 | 2 | 2 | Lab (one dial, buffer) and Library (defence in depth) | All |
 
 ## Calendar (Sydney)
 TNA Sat 24 Oct 08:00 (Keel submits Fri 23 Oct 20:00) · IPS + trading freeze Sat 7 Nov 09:00 (last U.S. fill 08:00) ·

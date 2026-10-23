@@ -34,4 +34,4 @@ based on a real person or mapped onto a Caplet student.
 ## Current state (update when it changes; last 23 Oct 2026)
 - One sentence: "Buy Laura's promise first, then let what's left grow, and never tell a co-sponsor a number she doesn't already own."
 - WInS book: 11 trades (IBTM, IBTO, IBTP, IBTQ; Treasuries Feb-2036, Feb-2037, May-2038, Nov-2039, Nov-2040, Nov-2041; VT); hold.
-- Next: TNA submitted Fri 23 Oct 20:00; sail vote Sun 25 Oct; IPS v1 in `drafts/IPS_v1.txt`.
+- Next: TNA submitted Fri 23 Oct 20:00; sail + buffer vote Sun 25 Oct (one vote, same 2028 money); ladder room 4bp on the 22 Oct close; IPS v1 in `drafts/IPS_v1.txt`.

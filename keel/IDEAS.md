@@ -39,3 +39,5 @@
   abstract).
 - 19 Oct: barbell portfolios.
 - 21 Oct: the J.P. Morgan 2026 Long-Term Capital Market Assumptions (the USD matrix).
+| I-20 | One dial: the cost moves about $289 per 0.01% in the 10-year (DV01) | Jun | 27 | Lab L-01: worst miss $652 over 20 closes | Curves twist (Kai's roast) | ADOPTED for explaining | One number a judge can hold; numbers stay out of the IPS |
+| I-21 | Defence in depth: back-ups must be independent | Felix (from Kai's pile) | 27 | Nuclear safety's oldest rule; explains why order alone is not enough | Our layers share one cause (falling yields) | ADOPTED as a test, not a label | Where the analogy breaks names the one layer that doesn't fall with yields: a Treasury buffer |
