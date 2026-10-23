@@ -10,6 +10,11 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
   (Nora leads; each Keel member heads a desk) and researches, checks and drafts. Caplet's six students are the real
   entrants: they vote, rewrite in their own words and submit; only Ray trades. Keel proposes, never decides.
   Students talk to Keel with `/keel status`, `/keel <name>: <question>`, `/keel meeting: <topic>` (`.claude/skills/keel/`).
+- Keel's world, people and story (23 Oct): `keel/WORLD.md` (Sydney students; the Long Room, where one real minute is
+  about one room day: an analogy, not another world), `keel/CULTURE.md` (mission, vision, five values), `keel/CAST.md` (the six in one screen),
+  `keel/ARCS.md`, `keel/IDEAS.md` (concepts adopted or rejected), timeline `keel/episodes/INDEX.md` (Ep 0-26, daily
+  since 27 Sep). **Save tokens:** follow `keel/TOKEN_RULES.md` (load CAST/INDEX/summaries, not every member file or
+  episode; never regenerate what exists; at most 3 crews a day).
 - Competition questions (rules, numbers, the client case, trade checks, draft reviews, records) go through the
   office: `/office <your role>: <question> | decides: <what> | by: <date>`, or a named agent in `.claude/agents/`.
   Read `keel/office/CHARTER.md` and the workstream file for the deliverable (`keel/office/workstreams/1_TNA.md`, `2_IPS.md`,

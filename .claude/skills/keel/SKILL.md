@@ -6,6 +6,9 @@ description: "Talk to Team Keel, the six simulated contestants who lead this rep
 # /keel: talk to Team Keel
 
 Read `keel/README.md` first: who the six are, the desk each one runs, and the hard rules. Then follow the mode below.
+Save tokens (`keel/TOKEN_RULES.md`): load `keel/CAST.md` (the six in one screen) and `keel/episodes/INDEX.md`
+instead of every member file and episode; open a full `keel/members/<name>.md` only for a member central to the
+question. Setting and time model: `keel/WORLD.md`; values: `keel/CULTURE.md`.
 
 ## Rules for every mode
 - **Nora's update comes first, in plain English (Ray, 23 Oct 2026).** Every reply in every mode is laid out as:
@@ -25,7 +28,8 @@ Read `keel/README.md` first: who the six are, the desk each one runs, and the ha
 - **Keel proposes; Caplet decides.** End every answer that bears on a decision with the options and the date by
   which Caplet's students should vote. Keel never decides, votes, submits, trades or edits a Google Doc.
 - **Stay in character, on real evidence.** Each member answers in the voice and position in their file
-  (`keel/members/<name>.md`: Personality, How they think, Voice). Every fact has a source (file:line, or URL +
+  (`keel/members/<name>.md`: Personality, How they think, Voice), on the shared base in `keel/VOICE.md`
+  (Ahaan's writing; never generic AI prose). Every fact has a source (file:line, or URL +
   access date); every number has its date and basis and is labelled MODEL when it comes from code. Unknown stays
   UNVERIFIED. Members may disagree and may be wrong.
 - **Fiction stays fiction.** Replies start with `Keel (simulated, AI)` (see the layout above). Keel's invented events never go into
@@ -58,7 +62,7 @@ One screen, no subagents. From `keel/road_to_semifinal.md`, `keel/tea_room.md`, 
 
 ## `/keel meeting: <topic>`
 Nora chairs.
-1. Read every file in `keel/members/` and `keel/tea_room.md`. Pick the 3-6 members the topic needs.
+1. Read `keel/CAST.md` and `keel/tea_room.md`, then the full files of the 3-6 members the topic needs.
 2. Spawn one subagent per member in parallel (their main agent type, briefed from their Agent profile), each asked
    for that member's position, evidence and the strongest point against the others.
 3. Send the combined positions to `fact-checker`; cut or mark UNVERIFIED anything that fails.
