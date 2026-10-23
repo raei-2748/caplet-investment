@@ -176,3 +176,10 @@ Files: IP = `2026_WGY_Investment_Policy-FINAL.txt`, W4 = `wharton_email_week4_20
 **(e) Evaluation.** Five criteria (D:49-57): Investment Strategy ("maintains consistency with the team's IPS", D:49); Client Knowledge and Objectives; Portfolio Analysis; Articulation of Competition Experience; Creativity and Presentation. "Evaluators will consider the three deliverables together." (CP:161). "score exceptionally well on all five components" (F:81). Which criteria score the IPS alone: UNVERIFIED.
 
 **SMApply check.** Repo snapshots (14 and 20 Oct) say nothing about the IPS form. Live pages not re-read today: UNVERIFIED. The form shows only after login; Nora reads it when it opens.
+
+### 24 Oct: freeze list (Ep 28)
+Line 73-74: no strategy revision after the deadline; line 70: the Final Report works "using the strategy established
+in the IPS". So each Final Report job (CP:96-99 reserve and certainty; :101-104 facility and flexibility; :117-120
+range and confidence; :146-148 assumptions) needs a sentence in our IPS. v1: ten found, buffer waits for the vote,
+review rule missing. No official line requires a review rule: my reading of IP:76 ("how effectively it implemented").
+Top three: shortfall order, buffer sentence, review rule.

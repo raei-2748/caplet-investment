@@ -5,7 +5,7 @@
 > Room wall, except "Relationships right now", which is Kitchen talk.
 
 The team's wall: plan, decision journal, open threads and how everyone is getting on. Updated by
-each daily episode. Last update: Episode 27, Sat 24 Oct 2026 (Sydney); first month backfilled (Ep 0-24) on 23 Oct.
+each daily episode. Last update: Episode 28, Sat 24 Oct 2026 (Sydney); first month backfilled (Ep 0-24) on 23 Oct.
 Setting and time: `WORLD.md`. Values: `CULTURE.md`. Cast: `CAST.md`. Arcs: `ARCS.md`. Ideas: `IDEAS.md`. Timeline: `episodes/INDEX.md`.
 
 ## Keel's plan (their own; not Caplet's)
@@ -76,11 +76,13 @@ co-sponsor a number she doesn't already own."**
 | 24 Oct | One-dial rule ($289 per 0.01% in the 10-year) adopted for explaining, kept out of the IPS | Jun, Kai | Lab L-01: worst miss $652 over 20 closes (Ep 27) |
 | 24 Oct | Buffer size decided with the sail in one vote | Nora | Both come out of the 2028 deposit (Ep 27) |
 | 24 Oct | The half Laura keeps gets one ranked sentence: payments first | Tess, Amara | Courtroom: one pot, three jobs (Ep 27) |
+| 24 Oct | Freeze list adopted: every Final Report job maps to an IPS sentence; review rule added (substitute a Treasury maturing earlier, 20 words or fewer) | Felix; Amara, Tess | Line 73: no strategy change after the deadline; v1 had no rule for a holding that disappears (Ep 28) |
 
 ## Open threads
 - How big is the sail, and how big the buffer? Same 2028 money, one vote Sun 25 Oct (Ep 27); final 1 Nov.
 - Re-run Jun's numbers on a fresh Treasury curve (the site could not be reached on 23 Oct) and add a worst-historical-window check.
 - Ladder room $1,139 (4bp, MODEL, 22 Oct curve, payment-date basis); over $300k on the holdings basis. The January-gap rule is now the expected case.
+- Review rule (Amara, Mon 26 Oct): 20 words needed, 16 of room at 484; Tess finds the rest (Ep 28).
 - What exactly will the IPS form look like? (Felix checks SMApply when it opens.)
 - Amara's inflation research for the Final Report: Taiwan construction costs vs CPI (opens after the IPS).
 - The 2031 range needs a model behind it (Jun) before anyone quotes a number; Amara's cut line waits in Tess's

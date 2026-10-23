@@ -58,10 +58,10 @@ Felix is right and late. The Final Report instructions arrive at 01:00 Sydney on
 - **Beats so far:** the ticker that wasn't (Ep 2); the daylight-saving switch (Ep 7); the example is not a rule
   (Ep 15); the "it matters" experiment, where he ranks his checks for the first time (Ep 21); the public FAQ goes in
   his "can wait" pile two days before Wharton's email names TIPS and STRIPS (Ep 23, Ep 25); the IPS deadline hour
-  (Ep 26).
+  (Ep 26); three of twelve ranked in a minute, and a reading called a reading (Ep 28).
 - **Coming:** the Final Report instructions night: he has to say "these three things matter, the rest can wait"
   within an hour.
-- **Where it stands (23 Oct):** ranking checks, slowly.
+- **Where it stands (24 Oct):** ranked three in about a minute when Nora asked (Ep 28); the instructions night is still ahead.
 
 ### 6. Say it the day you see it (Tess)
 Tess holds objections too long. Value 4 is hers.

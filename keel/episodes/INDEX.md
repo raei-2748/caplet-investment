@@ -41,6 +41,7 @@ Google Doc copy (Drive, 23 Oct): https://docs.google.com/document/d/1wXYUnCznrU2
 | 25 | Thu 22 Oct | [The email](2026-10-22_ep25.md) | Felix | none | Week 4 email: IPS is a form; TIPS and STRIPS banned; performance line and TIPS line cut | Week 4 email | 21bp |
 | 26 | Fri 23 Oct | [The last read](2026-10-23_ep26.md) | Tess | deep | Strict counts; the $150k-$200k line cut; curly apostrophe; the IPS hour | TNA submitted (Keel) | 21bp |
 | 27 | Sat 24 Oct | [Four basis points](2026-10-24_ep27.md) | Nora | light | 22 Oct close: room $1,139; one-dial test beats Kai's roast; defence in depth breaks where it matters; buffer and sail are one vote | Lab L-01, L-02 | 4bp |
+| 28 | Sat 24 Oct | [Rules before the first tile](2026-10-24_ep28.md) | Felix | none | Freeze list: every Final Report job mapped to an IPS sentence; review rule missing; "my reading"; three ranked in a minute | Freeze list (I-22) | 4bp |
 
 ## Milestones at a glance
 - **Values and culture:** 27 Sep (four values), 17 Oct (value 4 added). `../CULTURE.md`

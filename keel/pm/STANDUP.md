@@ -1,5 +1,24 @@
 # Stand-up log (newest first; Nora writes each entry, plain English first, then the detail)
 
+## Sat 24 Oct 2026 (morning run)
+Morning again. One thing this time: after 7 Nov you can't change the strategy, and the Final Report has to follow
+whatever the IPS says, so any rule you'll need in December has to be in the IPS now. Felix listed the 12 rules that
+matter. The old V5 already has 8 of them, and 5 get decided by your votes on Tuesday. So on Tuesday 27 Oct, when you
+vote D1 to D5, write down the one sentence each vote adds to the IPS. Authors, on Wednesday 28 Oct put the review
+and diversification lines back in your outline, and say where cash from early bonds waits.
+
+If you want the detail:
+- Done: T05 IPS rule checklist, 12 rules with official lines, V5 export checked (`keel/office/outbox/2026-10-24_SD-T05_rules_ips-rule-checklist.md`); episode 28. No Lab or Library work today (quiet period, nothing worth adding).
+- Next: Felix re-runs the checklist on your draft on Sat 31 Oct [T22]; Jun reprices when a newer close reaches us.
+- Stuck on: treasury.gov is still blocked from the cloud sessions (P03), so 22 Oct is our newest curve.
+- Students need to: whole team, TNA retro Sun 25 Oct [T02]; whole team, vote set B Tue 27 Oct [T12]; IPS authors,
+  outline Wed 28 Oct [T13]; Ray or the advisor, ask the school for the signed letter (T18, was due Fri 23 Oct).
+- Next deadline: IPS, Sat 7 Nov 09:00 (14 days).
+- Debate: Kai asked Felix for the line that requires a review rule. There isn't one. Felix: "My reading is that you
+  can't implement a rule you never wrote." It stays in the list, marked as a reading.
+
+(Keel is a simulated team, AI-written.)
+
 ## Sat 24 Oct 2026 (overnight run)
 Morning. Big one first: yields dropped on Thursday, and Laura's bonds now cost about $299,000 to $302,000 of her
 $300,000, depending on how you count. So the "if it's over $300k, the 2028 money fills the gap" rule isn't a
