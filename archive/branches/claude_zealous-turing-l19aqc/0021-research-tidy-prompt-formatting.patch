@@ -1,0 +1,32 @@
+From 6d74e504a85a3eb47c583a23bacce1361071b820 Mon Sep 17 00:00:00 2001
+From: Claude <noreply@anthropic.com>
+Date: Sun, 27 Sep 2026 11:16:20 +0000
+Subject: [PATCH 21/22] research: tidy prompt formatting
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01UaqBhExXuwM9a3H7k4WwSe
+---
+ research/ultracode_prompt_v4_deep_strategy.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/research/ultracode_prompt_v4_deep_strategy.md b/research/ultracode_prompt_v4_deep_strategy.md
+index 02342ba..9b0ea9f 100644
+--- a/research/ultracode_prompt_v4_deep_strategy.md
++++ b/research/ultracode_prompt_v4_deep_strategy.md
+@@ -135,12 +135,12 @@ official requirement or verified fact it anchors to. Use the seed bank in Part 6
+   credibility; what a strong pledge range and fundraising paragraph must contain).
+ - B7 Competition Meta & Judges (what past semifinalists and winners did; judge commentary; what a "typical strong
+   team" will submit this year; how deliverable mechanics shape scoring; how to show a 16-year strategy in 6 weeks).
+-
+ - B8 Voice of Laura (2 agents): collect Laura's OWN words from public sources beyond the case (her website, published
+   interviews, podcasts/talk transcripts, Q&As, Wharton Magazine, Poets&Quants, book pages and her books' public
+   excerpts). For each quote: exact wording, source URL, date, context. Then map quotes to values, to how she makes
+   decisions and handles risk, and to implications for the strategy and for how we communicate with her. Questions to
+   generate: what would she find inauthentic, what would earn her trust, which of her own ideas does our strategy echo.
++
+ ## Phase C: Filter (code dedupe + 6 skeptic agents in batches)
+ A question survives only if it passes all four:
+ - So-what: its answer would change a decision, a number, or a sentence in a deliverable (Oct 23, Nov 6, Dec 4).
+-- 
+2.43.0
+

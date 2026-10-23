@@ -1,0 +1,19 @@
+FICTION (Team Keel). IPS v1, Amara's draft, Tess's cut, 23 Oct 2026. Sail share pending the Sun 25 Oct vote. Plain text for the SMApply form.
+
+Investment Strategy Elevator Pitch
+
+We buy Laura's promise first. Her 2027 money buys U.S. Treasury bonds that repay each $50,000 payment as it falls due, 2033 to 2042. Her 2028 money builds the facility fund: a bond floor plus a measured stock sail, so co-sponsors hear only a range she can stand behind.
+
+Investment Policy Statement
+
+Goal. Laura has two commitments with different natures. The ten $50,000 operating payments are a promise she must keep with a high degree of certainty. The facility contribution is a hope she wants to share credibly with co-sponsors. Our strategy keeps them in separate parts of the portfolio, so a bad market year can only ever touch the hope, never the promise.
+
+Principle 1: the promise comes first. In January 2027 the first $300,000 buys U.S. Treasury bonds, available on WInS, maturing just before each payment date from 2033 to 2042. We buy the latest payments first. If rates have fallen and the bonds cost more than $300,000, the gap is the first use of the 2028 deposit, before any stock is bought. Coupons received before 2033 are reinvested in Treasuries maturing before the next payment. We define a high degree of certainty as: every payment is paid in full from bonds Laura already owns unless the U.S. government defaults. The one remaining risk is that coupons are reinvested at lower rates; the Final Report will measure it and show how the facility fund absorbs it.
+
+Principle 2: the facility fund has a floor and a sail. The January 2028 deposit buys a Treasury bond maturing just before 2033 (the floor) and a broad, low-cost world stock fund (the sail). Laura has always taken thoughtful risks, and this money is not needed for any payment, so it can carry stock risk for five years. But the sail is kept to a minority of the fund, because in 2031 Laura will be asking strangers to trust her, and a crash should cost her upside, not her word. The sail is never sold to cover a payment, and the mix is not changed for market moves before 2033.
+
+Principle 3: we only promise what she owns. In 2031 the bottom of the range is the floor, money she already holds in Treasuries maturing before 2033. The top is the floor plus half the sail's value that day. In 2033 her contribution is the floor plus half the sail, capped at the top she announced. By construction it falls inside the range; the confidence we state is about where in the range it lands. The other half of the sail, and anything above the cap, stays with Laura as flexibility for overruns and a project that will change once it is real.
+
+The reserve from 2033. At the start of 2033 the remaining bonds become the operating reserve. Each year one bond matures and pays that year's $50,000. Nothing is sold, so the reserve shortens naturally and holds less risk as the payments are made.
+
+What we watch. Each year we check that the bonds owned still cover every remaining payment, and that every holding is on the permitted list. The plan changes only on dates we have named in advance, never because markets moved.

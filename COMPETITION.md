@@ -26,7 +26,7 @@ US daylight saving ends on 1 Nov, so the gap changes from 15 to 16 hours.
 | Semifinals: short video presentation, all members present | early 2027 | | |
 | Global Finale (costs are ours; virtual attendance allowed) | 2027 | | |
 
-Our own internal check dates (scheduled routines, see `ops/`): mock-judge TNA 19 Oct, TNA gate check 23 Oct,
+Our own internal check dates (scheduled routines, see `keel/routines/`): mock-judge TNA 19 Oct, TNA gate check 23 Oct,
 mock-judge IPS 1 Nov, IPS gate check 6 Nov, mock-judge Final Report 22 Nov and 30 Nov, final gate check 4 Dec.
 
 ## 2. How we are judged
@@ -120,7 +120,7 @@ Official instructions: [`2026_WGY_Trading_Notes_Analysis-FINAL.pdf`](competition
 - Not expected to size the reserve or the facility yet. Submitted through the SMApply form.
 - Our suggested picks (team decides): **IBTM** (6 Oct 10:01 PM), **IBTR** re-placed version (7 Oct 4:42 AM),
   **VT** (7 Oct 8:27 PM); runner-up the Feb-2037 bond. All notes verbatim:
-  `team/google_drive/ips_report/` (tab "WInS Trading Notes").
+  `caplet/google_drive/ips_report/` (tab "WInS Trading Notes").
 
 ### Investment Policy Statement (due 6 Nov)
 Official instructions: [`2026_WGY_Investment_Policy-FINAL.pdf`](competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.pdf).
@@ -157,8 +157,8 @@ school website. (Personal details are deliberately not stored in this public rep
   use must be recorded in the Final Report's Works Cited. Students use their own voice and words.
 - How we use it (Ray, 21-22 Oct 2026): AI drafts text for any deliverable when asked, labelled "AI DRAFT"; the team
   rewrites it in its own words before submitting, and every use is logged for the Works Cited. Files in
-  `team/ai_outputs/` are labelled "AI, not for submission".
-- Log AI use as you go: `research/insight_v1/AI_USE*` and the AI-use rows in the team sheet.
+  `caplet/ai_outputs/` are labelled "AI, not for submission".
+- Log AI use as you go: `keel/library/insight_v1/AI_USE*` and the AI-use rows in the team sheet.
 - The advisor handles admin only; all strategy decisions are the students'.
 
 ## 7. Our strategy ("Roots First")
@@ -183,8 +183,8 @@ Locked in principle in the IPS drafts; the team still words it. Plain version:
    then the part of the contribution above the floor.
 
 Trade-off we accept (and should state): less stock means a lower median contribution, in exchange for a much
-better bad case. Model work: `research/insight_v1/` (with STRIPS banners), F2 grid
-`research/insight_v1/scripts/F2_floor_split_grid.py`, strategy log in `team/google_drive/strategy_notes.md`.
+better bad case. Model work: `keel/library/insight_v1/` (with STRIPS banners), F2 grid
+`keel/library/insight_v1/scripts/F2_floor_split_grid.py`, strategy log in `caplet/google_drive/strategy_notes.md`.
 Wording rules from the judge-lens brief: floor + VT is a static floor-plus-cushion (**not** CPPI); the ladder is
 cash-flow matching (**not** immunisation); never say "risk-free" or "guaranteed".
 
@@ -226,7 +226,7 @@ scrolled. Rule since then: **only Ray places or cancels WInS orders.**
       keep the IPS body <=500 on BOTH counts: 496 / 487 if the 16 Oct fixes are accepted; pitch 50 / 47, no room). Earlier:
       render check of the page/line count; soften absolute claims
       ("never below the floor", "cannot miss") or back them; add the trade-off sentence; put back the certainty evidence.
-- [ ] **IPS numbers** (16 Oct): use `research/ips_numbers_2026-10/IPS_number_sheet.md` for the dollar range, the
+- [ ] **IPS numbers** (16 Oct): use `keel/library/ips_numbers_2026-10/IPS_number_sheet.md` for the dollar range, the
       confidence, the allocation and the return assumption; pick one coupon-risk option (section 3) before 6 Nov.
 - [ ] **Request the school documentation letter** now.
 - [ ] Final Report: start the experience log (dates, decisions, turning points) and the sources list now; the time
@@ -239,17 +239,17 @@ scrolled. Rule since then: **only Ray places or cancels WInS orders.**
 |---|---|
 | Official PDFs (guide, infographic, IPS + TNA instructions, client case, school template) + text versions | `competition/official/2026_27/` |
 | Public SMApply pages snapshot (home, guide, client, deliverables, trading, wins, faqs) | `competition/official/2026_27/smapply_public_2026-10-14/` (live: https://wghsinvcomp.smapply.us/res/p/{slug}/); FAQ and Trading re-fetched 20 Oct with the rule changes: `smapply_public_2026-10-20/` |
-| Team's paste of the official rules pages | `team/google_drive/rules_readme.md` |
-| Team Google Docs/Sheets, exported 14 Oct (IPS all tabs, Final Report, Strategy Notes, Notes & Discussions, sheets) | `team/google_drive/` |
-| Old IPS PDF drafts (30 Sep) and the sheet snapshot | `team/ips_drafts/`, `team/Portfolio_and_Trading_Notes_snapshot.xlsx` |
-| AI IPS exemplars (not for submission) | `team/ai_outputs/` |
-| Judging criteria, winning-team portrait and self-scoresheet | `team/Winning Team Portrait and Scoresheet.md` |
-| Scheduled checks (monitor, rules watcher, mock judges, evidence lab) and their reports | `ops/` |
-| Research office (AI desks for checks and numbers, house rules, memos, `textcheck.py`) | `office/`, `.claude/agents/` |
-| Strategy research (AI) | `research/insight_v1/`, `research/council_2026-09-27/`, `rab/` |
+| Team's paste of the official rules pages | `caplet/google_drive/rules_readme.md` |
+| Team Google Docs/Sheets, exported 14 Oct (IPS all tabs, Final Report, Strategy Notes, Notes & Discussions, sheets) | `caplet/google_drive/` |
+| Old IPS PDF drafts (30 Sep) and the sheet snapshot | `caplet/ips_drafts/`, `caplet/Portfolio_and_Trading_Notes_snapshot.xlsx` |
+| AI IPS exemplars (not for submission) | `caplet/ai_outputs/` |
+| Judging criteria, winning-team portrait and self-scoresheet | `caplet/Winning Team Portrait and Scoresheet.md` |
+| Scheduled checks (monitor, rules watcher, mock judges, evidence lab) and their reports | `keel/routines/` |
+| Research office (AI desks for checks and numbers, house rules, memos, `textcheck.py`) | `keel/office/`, `.claude/agents/` |
+| Strategy research (AI) | `keel/library/insight_v1/`, `keel/library/council_2026-09-27/`, `archive/rab/` |
 | Market data (Treasury curve, fact sheets, JPM LTCMA) | `competition/official_market_data/` |
-| Last year (2025-26), benchmarking only | `competition/historical/`, `team/google_drive/2025_knox_wharton.md` |
+| Last year (2025-26), benchmarking only | `competition/historical/`, `caplet/google_drive/2025_knox_wharton.md` |
 
 Live team files (Google Drive, Knox account): IPS Report, Final Report, Strategy Notes, Notes & Discussions,
 "Portfolio and Trading Notes" sheet (`1kvuN-Uz3_bBYOVJiyBHfkHSsTchKOioKELyxepe8h3M`), PM Dashboard sheet. The
-exports in `team/google_drive/` are snapshots; **edit the Google versions, not the exports.**
+exports in `caplet/google_drive/` are snapshots; **edit the Google versions, not the exports.**

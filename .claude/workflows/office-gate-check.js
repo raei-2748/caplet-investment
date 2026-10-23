@@ -31,7 +31,7 @@ const base = `Deliverable: ${a.deliverable}. Student files: ${files}.` +
 
 phase('Check')
 const [fmt, rules, integ, coh] = await parallel([
-  () => desk('format-gatekeeper', `${base} Run office/tools/textcheck.py on each part (limits for this deliverable); for notes use --compare against the WInS copy.`, { phase: 'Check' }),
+  () => desk('format-gatekeeper', `${base} Run keel/office/tools/textcheck.py on each part (limits for this deliverable); for notes use --compare against the WInS copy.`, { phase: 'Check' }),
   () => desk('rules-verifier', `${base} Quote the exact official 2026-27 requirement for every format and content gate of this deliverable, from the live page where possible, and say if the live page differs from the repo snapshot.`, { phase: 'Check' }),
   () => desk('integrity-officer', `${base} Check AI-policy and authorship risks in these files and that nothing in them or the repo exposes personal data.`, { phase: 'Check' }),
   () => desk('coherence-checker', `${base} Check these files against the other deliverables, the filled WInS notes and the numbers on a named basis.`, { phase: 'Check' }),
@@ -39,7 +39,7 @@ const [fmt, rules, integ, coh] = await parallel([
 
 phase('Verdict')
 const verdict = await agent(
-  `Read .claude/agents/chief-of-staff.md, office/CHARTER.md and the workstream file for this deliverable in office/workstreams/. Do not spawn agents or write files.\n\n${base}\n\nYour specialists reported:\n\n## format-gatekeeper\n${fmt}\n\n## rules-verifier\n${rules}\n\n## integrity-officer\n${integ}\n\n## coherence-checker\n${coh}\n\n` +
+  `Read .claude/agents/chief-of-staff.md, keel/office/CHARTER.md and the workstream file for this deliverable in keel/office/workstreams/. Do not spawn agents or write files.\n\n${base}\n\nYour specialists reported:\n\n## format-gatekeeper\n${fmt}\n\n## rules-verifier\n${rules}\n\n## integrity-officer\n${integ}\n\n## coherence-checker\n${coh}\n\n` +
   'Produce the gate table, covering every gate in the workstream file (gate | PASS / FAIL / NOT CHECKABLE | evidence | fix | owner role | due) and the single most dangerous item. Where specialists disagree, re-check the source yourself.',
   { label: 'chief-of-staff:verdict', phase: 'Verdict' })
 return verdict
