@@ -95,7 +95,7 @@ Read it once as a stranger, then answer six questions. One "no" sends it back.
 ## Do / don't
 | Generic (don't) | Base voice (do) |
 |---|---|
-| "VT provides diversified exposure to global equities, supporting long-term growth." | "VT can't fund a single payment – that's the bonds' job – so it answers a different question: how far above the floor can Laura's gift reach?" |
+| "VT provides diversified exposure to global equities, supporting long-term growth." | "VT can't promise a single payment on its date – that's the bonds' job – so it answers a different question: how far above the floor can Laura's gift reach?" |
 | "There are some risks associated with iBonds, including NAV variability." | "The catch is that an iBond ends at its net asset value, not at par – but in return Laura can sell it any day." |
 | "Additionally, it is important to note that inflation is a key consideration." | "Notably – the payments are fixed in dollars, so inflation doesn't change what she owes." |
 | "The team carefully analysed the options and made a decision." | "We take 'high degree of certainty' to mean every payment has its own bond, and we bought exactly that." |
