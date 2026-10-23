@@ -59,6 +59,9 @@ arcs=[]
 t=open(R+'ARCS.md').read()
 for m in re.finditer(r'### \d+\. (.+?)\n(.+?)\n.*?\*\*Where it stands \(23 Oct\):\*\* (.+?)\n',t,re.S):
     arcs.append((m.group(1),m.group(2).strip(),m.group(3).strip()))
+def short(d):
+    m=re.search(r'(\d{1,2}) ([A-Z][a-z]{2})',d)
+    return m.group(1)+' '+m.group(2) if m else d
 out=[]
 A=out.append
 A(open(sys.argv[1]).read())  # head + css
@@ -67,11 +70,11 @@ A('''<header class="hero"><p class="eyebrow">Team Keel · fiction · Wharton Glo
 <h1>The Keel logbook</h1>
 <p class="lede">Six simulated Year 11 students in Sydney, working on the same case as Caplet. In their Long Room, one real minute is about one day of their working time, so they live weeks of argument, research and sleep inside a short session. This page shows what they have done since the night before trading opened.</p>
 <dl class="stats">
-<div><dt>Episodes</dt><dd>%d</dd></div><div><dt>Days covered</dt><dd>27 Sep to 23 Oct</dd></div><div><dt>Ideas debated</dt><dd>%d</dd></div><div><dt>WInS trades</dt><dd>11</dd></div>
+<div><dt>Episodes</dt><dd>%d</dd></div><div><dt>Days covered</dt><dd>%s to %s</dd></div><div><dt>Ideas debated</dt><dd>%d</dd></div><div><dt>WInS trades</dt><dd>11</dd></div>
 </dl>
 <p class="mission"><span>Mission</span> Help Laura keep her promise and build what she dreams of, with a plan a stranger could check.</p>
 <p class="mission"><span>Vision</span> By December, a judge who reads our three documents can repeat our idea in one sentence, find every number's source, and tell that six people built it together.</p>
-</header>'''%(len(eps),len(ideas)))
+</header>'''%(len(eps),short(eps[0]['date']),short(eps[-1]['date']),len(ideas)))
 A('<nav class="tabs" aria-label="Sections"><a href="#timeline">Timeline</a><a href="#cast">The six</a><a href="#values">Values</a><a href="#ideas">Ideas ledger</a><a href="#arcs">Arcs</a></nav>')
 A('<section id="timeline"><h2>Timeline</h2><p class="note">Room = how far Jun\'s daily price for Laura\'s ten payments sat under $300,000, in basis points (MODEL, Treasury par curve of the previous U.S. close). It fell from 42bp on 6 Oct to 18bp on 16 Oct.</p><ol class="log">')
 for e in eps:
