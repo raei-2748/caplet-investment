@@ -30,6 +30,10 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
 - Until the IPS is in (Sat 7 Nov 09:00 Sydney): checking work only, no new research waves (CHARTER section 4).
 - Log every office answer in `keel/office/LEDGER.md`, so the team can cite all AI use in the Works Cited.
 
+- **Keel works on its own (Ray, 23 Oct 2026).** Project office in `keel/pm/`: task board, road map, pre-mortems,
+  risk register, decision queue, retros, stand-up. Any session not answering a direct question runs `keel/pm/LOOP.md`
+  (or `/keel next`): one board card per run, checking work only until 7 Nov, never decides for Caplet. Routines: `keel/pm/ROUTINES.md`.
+
 ## Current status (2026-10-14) - read this before the older sections below
 - Wharton Week 4 email (filed 22 Oct): `competition/official/2026_27/wharton_email_week4_2026-10.md`. IPS is now an
   SMApply FORM, not a PDF ("all other requirements remain the same"); TIPS and STRIPS explicitly banned for both
