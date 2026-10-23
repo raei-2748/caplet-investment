@@ -35,6 +35,6 @@ const scores = await parallel(PERSONAS.map(p => () =>
 phase('Synthesis')
 const body = PERSONAS.map((p, i) => `## ${p}\n${scores[i] || '(no result)'}`).join('\n\n')
 return await agent(
-  `Read .claude/agents/chief-of-staff.md and office/CHARTER.md. Do not spawn agents or write files. Deliverable: ${a.deliverable}. Draft: ${a.draft}. Students' own scores: ${a.human_scores} (read it now).\n\nMock judges:\n\n${body}\n\n` +
-  'Return: status (green / amber / red); gate failures first; a score table (judges x criteria) with 2+ point disagreements flagged; the top 3 fixes by score impact, each with evidence and a time estimate (what must change, never new wording). Add a column comparing the AI median with the student scores per criterion; gaps of 2+ points are findings. Look in office/outbox/ for the previous panel on this deliverable and report the change.',
+  `Read .claude/agents/chief-of-staff.md and keel/office/CHARTER.md. Do not spawn agents or write files. Deliverable: ${a.deliverable}. Draft: ${a.draft}. Students' own scores: ${a.human_scores} (read it now).\n\nMock judges:\n\n${body}\n\n` +
+  'Return: status (green / amber / red); gate failures first; a score table (judges x criteria) with 2+ point disagreements flagged; the top 3 fixes by score impact, each with evidence and a time estimate (what must change, never new wording). Add a column comparing the AI median with the student scores per criterion; gaps of 2+ points are findings. Look in keel/office/outbox/ for the previous panel on this deliverable and report the change.',
   { label: 'chief-of-staff:synthesis', phase: 'Synthesis' })

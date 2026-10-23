@@ -1,9 +1,13 @@
-# Team Caplet
+# Team Keel
 
-Our working repo for the Wharton Global High School Investment Competition 2026-27. Client: Laura Gao.
+**This repository is Team Keel's.** Keel is a simulation: six AI contestants with their own memories, convictions and
+voices, written to be the best high-school team in the Wharton Global High School Investment Competition 2026-27,
+and set on one goal: **the Top 50 semifinal**. Client: Laura Gao.
 
-**New here?** Read [`START_HERE.md`](START_HERE.md) (10 min), then [`COMPETITION.md`](COMPETITION.md), the single source
-of truth for every rule, date, format and where we stand. Claude sessions read [`CLAUDE.md`](CLAUDE.md) first.
+Keel leads the work. **Team Caplet** (Ray, Ahaan, Darren, Harry, Eric, Young) is the real team that enters: Keel
+plans, researches, checks and drafts; Caplet votes, rewrites in its own words and submits. Start with
+[`keel/README.md`](keel/README.md). Rules, dates and formats: [`COMPETITION.md`](COMPETITION.md). Claude sessions
+read [`CLAUDE.md`](CLAUDE.md) first.
 
 ## Deadlines (Sydney time)
 | Due | What |
@@ -13,24 +17,37 @@ of truth for every rule, date, format and where we stand. Claude sessions read [
 | Tue 10 Nov 01:00 | Final Report instructions released |
 | Sat 5 Dec 09:00 | Final Report + school documentation |
 
-## Where things are
-| Folder | What it holds | Start with |
+## The repo
+```
+keel/          ★ Team Keel: the leaders, and everything they run
+  members/       nora · felix · jun · kai · amara · tess (each heads an office desk)
+  episodes/      the daily diary: what Keel did, and what Caplet should check
+  tea_room.md    plan, decision journal, open threads
+  road_to_semifinal.md · drafts/ · scripts/
+  office/        the Research Office: charter, ledger, work orders, outbox, workstreams, tools
+  routines/      scheduled checks and their reports
+  library/       all AI research so far (assistant reviews, blueprints, models, insight_v1, council)
+caplet/        The real team's work: Drive snapshots, deliverables, decisions, AI-use log
+competition/   Official Wharton files (case, instructions, emails, SMApply snapshots, market data)
+toolkit/       The September wharton-ic Python demo (cd toolkit && pytest)
+archive/       Superseded material, incl. the history of every deleted branch
+.claude/       Agent definitions, the /office skill and workflows
+```
+
+## Who does what
+| | Keel (simulated) | Caplet (the students) |
 |---|---|---|
-| `competition/` | Official Wharton files (PDF + text), Wharton emails, SMApply snapshots, market data, last year's materials | `competition/official/2026_27/` |
-| `team/` | Our own work: Google Docs/Sheets exports (snapshots; the live Docs win), IPS drafts, scoresheet | `team/google_drive/ips_report/` |
-| `office/` | The Caplet Research Office: 18 AI agents that check work, numbers and rules; `/office` in Claude Code | `office/README.md` |
-| `.claude/` | The agent definitions, the `/office` skill and workflows | `.claude/agents/` |
-| `mirror_team/` | Team Keel: a fictional mirror team; one research-based episode a day, each ending with checks for Caplet | `mirror_team/README.md` |
-| `research/` | AI strategy research: assistant reviews, blueprints, 2031 range model, IPS numbers, insight_v1, council | `research/assistant_review_2026-10/README.md` |
-| `rab/` | Root-and-Branch kit: models, numbers, verification, decisions (30 Sep run) | `rab/RUN_PLAN.md` |
-| `decisions/`, `deliverables/`, `model/laura/` | 25 Sep session: decision log D1-D8, deliverable outlines, Laura cash-flow model | `decisions/LOG.md` |
-| `ops/` | Scheduled checks (portfolio monitor, rules watcher, mock judges, lab) and their reports | `ops/README.md` |
-| `docs/` | AI-use log, governance and method notes, the old toolkit README | `docs/AI_USE.md` |
-| `archive/` | Superseded material kept for the record, incl. the history of every deleted branch | `archive/branches/BRANCH_HISTORY.md` |
-| `src/`, `tests/`, `config/`, `prompts/`, `data/`, `outputs/`, `literature/` | The September `wharton-ic` Python toolkit and its inputs (an early demo; `pytest` runs its tests). `config/client_mandate.yaml` and `config/wharton_*` are still referenced | `docs/wharton_ic_toolkit_README.md` |
+| Agenda, deadlines, road to the semifinal | sets them | approves |
+| Research, numbers, checks, drafts | does them | asks, reads, challenges |
+| Strategy and trade decisions | proposes, with options | **votes** |
+| Words sent to Wharton | drafts, labelled AI DRAFT | **rewrites and submits** |
+| WInS orders | checks the ticket | **Ray places them** |
+| Experience stories | never Caplet's | real events only |
 
 ## House rules (short version)
-- AI drafts when asked, labelled **AI DRAFT**; the team rewrites in its own words and submits. Every AI use is logged
-  for the Works Cited (`docs/AI_USE.md`, `office/LEDGER.md`).
+- Wharton's rules make every strategy decision the students' own, and submitted work must be in their own words.
+  Keel never decides or submits for Caplet. Every AI use is logged for the Works Cited (`caplet/docs/AI_USE.md`,
+  `keel/office/LEDGER.md`).
+- Keel's files are labelled FICTION; Keel's invented events never go into Caplet's deliverables.
 - Only Ray places or cancels WInS trades. Only WInS-listed stocks, ETFs and Treasury bonds; no TIPS or STRIPS.
 - Facts come from official Wharton files or dated primary sources; anything else is UNVERIFIED.

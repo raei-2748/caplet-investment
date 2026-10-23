@@ -30,9 +30,9 @@ const VERDICT = {
 const STREAMS = { tna: '1_TNA.md', ips: '2_IPS.md', final: '3_FINAL_REPORT.md' }
 const a = args || {}
 if (!a.work_order || !a.date || !a.specialists || !a.specialists.length) {
-  return 'office-work-order needs args {work_order: path to office/work_orders/WO-NNNN.md, date, workstream, specialists: [{name, ask}]}'
+  return 'office-work-order needs args {work_order: path to keel/office/work_orders/WO-NNNN.md, date, workstream, specialists: [{name, ask}]}'
 }
-const stream = STREAMS[a.workstream] ? ` Workstream file: office/workstreams/${STREAMS[a.workstream]} (read it for dates and gates).` : ''
+const stream = STREAMS[a.workstream] ? ` Workstream file: keel/office/workstreams/${STREAMS[a.workstream]} (read it for dates and gates).` : ''
 const wo = `Work order: ${a.work_order} (read it first).${stream}`
 
 phase('Specialists')
@@ -43,7 +43,7 @@ const outs = await parallel(a.specialists.map(s => () =>
 phase('Synthesis')
 const body = a.specialists.map((s, i) => `## ${s.name}\n${outs[i] || '(no result)'}`).join('\n\n')
 let memo = await agent(
-  `Read .claude/agents/chief-of-staff.md and office/CHARTER.md. ${wo}\n\nSpecialist results:\n\n${body}\n\n` +
+  `Read .claude/agents/chief-of-staff.md and keel/office/CHARTER.md. ${wo}\n\nSpecialist results:\n\n${body}\n\n` +
   'Synthesise ONE memo in the CHARTER section 5 format: one page, answer first, at most three findings ranked by score impact. Where specialists disagree, re-check the source; if still open, show both with their basis. Return only the memo text. Do not spawn agents or write files.',
   { label: 'chief-of-staff:synthesis', phase: 'Synthesis' })
 
@@ -51,7 +51,7 @@ phase('Verify')
 let check = await desk('fact-checker', `Check this office memo before it ships:\n\n${memo}`, { phase: 'Verify', schema: VERDICT })
 if (check && !check.ship) {
   memo = await agent(
-    `Read office/CHARTER.md. Revise this memo so every FAIL below is fixed or the claim is removed; mark anything unresolved UNVERIFIED. Return only the memo.\n\nMemo:\n${memo}\n\nFact-check:\n${check.table}`,
+    `Read keel/office/CHARTER.md. Revise this memo so every FAIL below is fixed or the claim is removed; mark anything unresolved UNVERIFIED. Return only the memo.\n\nMemo:\n${memo}\n\nFact-check:\n${check.table}`,
     { label: 'chief-of-staff:revise', phase: 'Verify' })
   check = await desk('fact-checker', `Re-check this revised office memo:\n\n${memo}`, { phase: 'Verify', schema: VERDICT })
 }
