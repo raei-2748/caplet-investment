@@ -2,7 +2,8 @@
 
 Times are Sydney first. **IPS due Sat 7 Nov 09:00 AEDT (Fri 6 Nov 5 pm ET). Trading ends at the Fri 6 Nov close,
 about Sat 7 Nov 08:00 AEDT.** US clocks go back on Sun 1 Nov: from Mon 2 Nov the US open is **01:30** Sydney, not
-00:30. Task IDs match `keel/pm/BOARD.md` (PR #21). Keel prepares; Caplet votes, writes and submits; Ray trades.
+00:30. Task IDs (T02-T20) refer to `keel/pm/BOARD.md`, which is on PR #21 and not yet in `main`; owners are written out
+in the table, so this plan stands on its own. Keel prepares; Caplet votes, writes and submits; Ray trades.
 
 | When (Sydney) | Caplet (decides, writes) | Keel (prepares, checks) |
 |---|---|---|
