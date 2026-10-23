@@ -4,8 +4,9 @@ AI research (Claude, 23 Oct 2026), for Keel's personas and story world only. Not
 23 Oct 2026 unless marked; quotes are exact. UNVERIFIED = not checked against a primary page.
 
 **Why this exists.** Ray's idea (23 Oct): judges may warm, without knowing why, to students who show "Wharton
-potential". The semifinal readers are Wharton student evaluators plus Aberdeen asset managers (B7a, section 3.2), so
-the people judging have been shaped by this culture. The rule for using it: **show the traits through what Keel does,
+potential". Last season's (2025-26) semifinal readers were Wharton student evaluators plus Aberdeen asset managers
+(B7a, section 3.2); who reads in 2026-27 is UNVERIFIED (`competition/COMPETITION.md`). If the pattern holds, many
+judges have been shaped by this culture. The rule for using it: **show the traits through what Keel does,
 never say them.** No Keel character ever says "Wharton potential", "leader", or quotes a slogan at the reader.
 
 ## 1. The story Wharton tells about itself
