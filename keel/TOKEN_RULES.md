@@ -9,6 +9,7 @@
 | Who the six are | `CAST.md` (one screen) | all six `members/*.md` |
 | The setting, time model, what the story may do | `WORLD.md` | re-deriving it |
 | World, rivals, motifs, the season's plot to 5 Dec | `STORY_BIBLE.md`, only for an episode that opens an act or turns a plot point | loading it every day |
+| Spending words on life outside the competition | Only what changes the plan, a vote or a page that day | scenes that are only colour |
 | Values, culture, what judges reward | `CULTURE.md` | |
 | What has happened | `episodes/INDEX.md` + the summary block of the last 2 episodes | whole episodes |
 | Open threads, decisions | `tea_room.md` | old episodes |

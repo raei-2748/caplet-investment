@@ -17,6 +17,9 @@ payments are the keel, growth is the sail.
   episode is real, dated and sourced, or is marked MODEL or UNVERIFIED.
 
 ## Hard rules for every episode
+0. **The competition is the story.** All six live for one goal this season: the Top 50 semifinal. The world
+   (`STORY_BIBLE.md`) exists to give them depth. A family scene, a rival or a motif earns its place only if it
+   changes how someone argues, decides or writes for Laura that day. If it doesn't, cut it.
 1. **Label.** Every file starts with "FICTION" in its first line. Keel is not a real team; its members are not
    based on Caplet members or anyone real. Never map a Keel member onto a Caplet student, and never rank Caplet
    students.

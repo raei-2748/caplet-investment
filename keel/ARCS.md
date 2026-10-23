@@ -78,8 +78,9 @@ The Long Room gives them more time than their lives have room for. Families and 
 - **Beats so far:** Lina asks Nora why she seems "older after Keel nights" (Ep 13); Felix misses band (Ep 15); Amara
   forgets her tutoring kids (Ep 17) and is early the next week (Ep 23); Kai's Bà asks what is wrong with his eyes
   after a deep stretch (Ep 22).
-- **Coming:** someone has to choose between Keel and something outside it before the IPS; the team learns to protect
-  each other's outside lives as a rule, not a favour.
+- **Coming:** someone has to choose between Keel and something outside it (Amara and Nani, mid-November). The team
+  learns to protect each other's outside lives as a rule, not a favour, and learns what the work loses without its
+  client lead. Outside only ever appears as the cost or the fuel of the competition work.
 - **Where it stands (23 Oct):** everyone is tired after TNA week; nobody has said so as a team.
 
 ### 8. The Window (Keel and Caplet)

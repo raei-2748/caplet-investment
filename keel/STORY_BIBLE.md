@@ -6,6 +6,12 @@
 > `CAST.md` and `episodes/INDEX.md` are enough. Rooms come from `OFFICE.md`; time from `WORLD.md`. Keel's people
 > are Sydney students. Nothing here is from another world, and nothing here goes into Caplet's deliverables.
 
+**The one rule (Ray, 23 Oct): the world exists to give the characters depth, and the competition is the story.**
+Every one of the six wants one thing this season: to reach the Top 50 semifinal. Every place, family member,
+rival, motif and subplot below is here because it changes how someone argues, decides or writes for Laura. If a
+scene doesn't change the work, cut it, however good it is. Test each scene by asking: *what does this change in
+the plan, the vote or the page?*
+
 ---
 
 ## Overture
@@ -38,25 +44,25 @@ kinds of places, but every shop, school and person in them is invented.
 
 - **Harris Park (Nora).** Wigram Street at night, the sweets shops lit up, her father's ute parked with tile
   offcuts in the tray. The bakery where Nora works Saturdays from six is two streets away. On the family fridge is
-  the bill calendar she made at twelve, in three colours. She still updates it.
+  the bill calendar she made at twelve, in three colours. She still updates it. It is why she runs the season as a calendar of promises, and why she will never let a deadline become "good news later".
 - **Pyrmont (Felix).** Felix and his mother live in a flat above the light rail, and the trams sound like pages
   turning. Por Por's mahjong table is on Thursday nights, with Felix keeping score in a ruled book because nobody
-  trusts anyone else. He hears the harbour before he sees it.
+  trusts anyone else. He hears the harbour before he sees it. The scorebook is where he learned that a rule nobody checks isn't a rule, and that is how he reads Wharton's files.
 - **Epping (Jun).** A split-level house with a running track behind it. Jun runs at six, before the day has an
   opinion of him. The kitchen bench holds his sourdough starter, Duration, in a jar with a date on masking tape. He
-  has fed it every day since March and can't leave it alone, which is the problem.
+  has fed it every day since March and can't leave it alone, which is the problem. A thing you feed every day and can't leave is how he treats his model, and why he works alone at night.
 - **Canley Vale (Kai).** The phone shop on the main street, where Kai works afternoons under the fluorescent lights
   next to a wall of cases. His mother's real-estate signs are in the boot of the car. Bà watches Vietnamese dramas
-  at a volume the whole street can follow. His father's trading screens are in the back room with the door shut.
+  at a volume the whole street can follow. His father's trading screens are in the back room with the door shut. Kai sells phones on margin and watched his father trade on it. That is why every order he places is a limit order with Felix watching.
 - **Glenwood (Amara).** A brick house on a curved street, with her father's chemistry marking on the dining table.
   On Sundays there is the gurdwara kitchen, where Nani's old fund raised money for a new stove and the opening came
-  two years late. On Tuesdays she tutors Priya and Leo at the local library at 3:30.
+  two years late. On Tuesdays she tutors Priya and Leo at the local library at 3:30. Two years late and still a gift: Nani's fund is why Amara tests every sentence by asking what Laura's co-sponsors would feel if it came true late.
 - **Marrickville (Tess).** Terraces, planes low overhead, and her father's set-building shed full of half-made
   doors that open onto nothing. The second-hand bookshop on the corner, where she works Sundays, smells of dust and
-  oranges. She keeps her mother's court-reporter habit of writing down what people actually said.
+  oranges. She keeps her mother's court-reporter habit of writing down what people actually said. It is why Keel's decision journal records who said what, word for word, and why the TNA quotes were exact.
 - **Between them.** The train. Most of Keel's best ideas started on a platform, because a platform is the only
   place nobody can take your time. The Parramatta River ferry is where Nora goes when she needs to be unreachable
-  for forty minutes.
+  for forty minutes. Nora decides on the ferry. The big calls of the season (the sail vote, the 2031 wording) are made on the water, then brought back to the Long Room to be argued.
 
 ## 2. Fernleigh Selective High School
 
@@ -144,10 +150,10 @@ Wharton reports that more than 6,300 teams registered in 2025-26 and about 2,300
 
 ## 5. Why these six, and what each stands to lose
 
-Nora built Keel one pitch at a time (`ARCS.md`, the founding). Nobody joined to win a prize. Each joined because
-Nora named something they wanted to prove.
+Nora built Keel one pitch at a time (`ARCS.md`, the founding). All six want the semifinal; each needs it for a
+different reason, and that reason shapes how they work.
 
-| | What they want | What they'd lose if Keel fails | The private stake nobody says aloud |
+| | What the semifinal would prove | What they'd lose if Keel misses it | The private stake nobody says aloud |
 |---|---|---|---|
 | **Nora** | A team that decides well, together, on time | The proof that she can lead without steamrolling | The fundraiser: she announced $10,000 and raised $6,400. She will not announce a number again |
 | **Felix** | Being right in time to matter | The belief that care is worth what it costs | The uniform review he won after the policy was printed. Rightness that arrives late is just a footnote |
@@ -182,8 +188,10 @@ Use these sparingly. One or two in an episode is enough, and they should do work
   - **Amara's thermos.** It is there when she is all right and missing when she isn't.
   - **Duration**, Jun's starter. Feeding it is how he says he is fine. Giving it to someone else to feed is how he
     says he isn't.
-  - **Tess's film camera.** A roll of 36 that she hasn't developed since August. She develops it in the coda.
-  - **Kai's unposted videos.** He posts one in the coda. It is about bonds.
+  - **Tess's film camera.** A roll of 36 that she hasn't developed since August. The prints become the timeline in
+    Keel's own Final Report section on its competition experience.
+  - **Kai's unposted videos.** Practice for the semifinal's short video presentation (`competition/COMPETITION.md`).
+    In the coda he records the first take, and it is about bonds.
   - **Felix's clarinet reed.** It cracks the week he misses band. He replaces it the week he ranks his checks.
   - **Nora's bill calendar.** The first image of the season, and the last.
 - **Light.** The skylight goes amber when a stretch has run too long. Deep stretches end at "skylight amber", and
@@ -240,8 +248,9 @@ The jacarandas drop, and the footpaths go purple and slippery.
 - **Tue 10 Nov, 01:00.** The Final Report instructions arrive. Felix's hour (arc 5): he wakes the floor, reads for
   forty minutes, and says, "Three things matter. The rest can wait." He is right. His reed holds.
 - **Mid-November, outside.** Someone has to choose between Keel and something outside it (arc 7). It is Amara: Nani
-  goes into hospital the week of the co-sponsor draft. Amara chooses Nani, and the team rewrites the rota so she
-  can, as a rule and not a favour. Her thermos is missing for a week. Kai brings soup in it when she comes back.
+  goes into hospital the week of the co-sponsor draft. Amara chooses Nani. The team rewrites the rota so she
+  can, as a rule and not a favour, and drafts the co-sponsor text without her for the first time. The draft comes out
+  flat. When she comes back, the team understands what the client lead actually does. Her thermos is missing for a week. Kai brings soup in it when she comes back.
 - **Late November, Laura's Room.** Amara writes the co-sponsor text. A line from the folder of cut lines comes back,
   now with Jun's model behind it, and Tess hands her the card without a word (arc 3).
 - **Wed 25 Nov, an email from Hamish.** He has heard what Keel is doing. He asks whether they want "the v9 model",
@@ -258,8 +267,9 @@ The jacarandas drop, and the footpaths go purple and slippery.
 **Turning point:** Thu 3 Dec. The team doesn't choose the brilliant last-minute rewrite. It chooses the clock.
 
 ### Act V. Coda: waiting (after 5 Dec)
-Summer. The floor goes quiet and the clocks stop stretching. Tess develops the roll of 36, and the prints go on the
-Long Room wall in date order. They show four months of people mid-sentence. Kai posts one video, about bonds. Jun
+Summer. The clocks stop stretching. They spend the waiting the only way they know: preparing for a semifinal they
+haven't been given, rehearsing the video presentation on the Rooftop in case the list has their name. Tess develops the
+roll of 36, and the prints go on the Long Room wall in date order. They show four months of people mid-sentence. Kai posts one video, about bonds. Jun
 gets Duration back, still alive. Nora goes home, and on the fridge, under the bill calendar, she pins one more card
 in a fourth colour, with no number on it. The semifinal list hasn't come out yet. The last scene is the six on the
 Rooftop, not knowing, and knowing it was built right.
@@ -307,6 +317,8 @@ from Keel's story goes in):
   should come away thinking them without reading them.
 
 ## 9. How to use this bible
+- **The competition is the story.** Every scene must change the plan, a vote or a page. Life outside Keel appears
+  only as the cost or the fuel of the competition work.
 - **One episode, one beat.** An episode moves one plot beat and one arc (`ARCS.md`). It doesn't skip ahead, and it
   doesn't play two turning points in one day.
 - **Earn it on the day.** A beat above is a plan, not a script. If the real competition, the real curve or a
