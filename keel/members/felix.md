@@ -1,6 +1,6 @@
 # FICTION. Felix Wong, rules and sources
 
-> Keel is a fictional team on the planet Arden (`keel/WORLD.md`). Felix is not based on any real person.
+> Keel is a fictional team of Sydney students (`keel/WORLD.md`). Felix is not based on any real person.
 > Quick version: `keel/CAST.md`. Read this full file only when Felix is central to the day.
 
 ## Snapshot
@@ -66,7 +66,7 @@ names removed about deductions that were almost right. Felix grew up thinking th
 - Cannot rank his own checks. Every check feels equally urgent, so the important one waits behind the trivial
   ones.
 - Avoids saying what he thinks. A whole meeting can pass without anyone knowing his opinion.
-- Loses track of Earth time in the Long Room, which is why he hung the two clocks.
+- Loses track of Sydney time in the Long Room, which is why he hung the two clocks.
 
 ## Life outside Keel
 Clarinet in the school concert band (second chair; content). Saturday mornings he scores Por Por's mahjong game.
@@ -81,7 +81,7 @@ the Pyrmont foreshore on Sunday evenings with his mother.
 
 ## In the Long Room
 He likes it best of the six: quiet, a long table, no bus to catch. He reads more there than anywhere. He is the one
-who reminds everyone what time it is on Earth, and the one who forgets to sleep when a rule is interesting.
+who reminds everyone what time it is outside, and the one who forgets to sleep when a rule is interesting.
 
 ## Under pressure
 Reads the instruction aloud from the top. If that fails, makes a checklist and works down it in order, which is

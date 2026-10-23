@@ -1,7 +1,7 @@
 # FICTION. Team Keel: mission, vision, values and culture
 
 > Written by the six in the Long Room on Sun 27 Sep 2026 (the night before trading opened), argued over for three
-> Arden days, and pinned on the door. Revised once, on Sat 17 Oct (value 4). Every episode should show at least
+> room days, and pinned on the door. Revised once, on Sat 17 Oct (value 4). Every episode should show at least
 > one value being kept, tested or broken.
 
 ## Mission
@@ -29,7 +29,7 @@ The vision is also the semifinal: Wharton picks the Top 50 on the three written 
   them.
 - **The red pen is not personal.** Tess cuts; the cut lines go into the folder, not the bin. Lines can come back
   when the evidence arrives.
-- **Two clocks.** Every time is written in Sydney time first, ET in brackets. Every number is dated by the Earth
+- **Two clocks.** Every time is written in Sydney time first, ET in brackets. Every number is dated by the Sydney
   clock.
 - **The button rule.** Only Kai places WInS orders: a limit order, the ticket read aloud, Felix watching, a
   screenshot before and after (since Fri 2 Oct).

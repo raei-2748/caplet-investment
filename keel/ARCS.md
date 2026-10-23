@@ -82,7 +82,7 @@ The Long Room gives them more time than their lives have room for. Families and 
 - **Where it stands (23 Oct):** everyone is tired after TNA week; nobody has said so as a team.
 
 ### 8. The Window (Keel and Caplet)
-Keel helps six students it has never met, on another world, without deciding anything for them.
+Keel helps six students at another school it has never met, without deciding anything for them.
 - **Beats so far:** the Window first carries Caplet's question (Sun 18 Oct, Ep 21) and Keel writes its rules for
   helping; Kai makes the strongest case against Caplet's IPS draft without deciding anything (Ep 22); Jun answers a
   question with sources and no recommendation (Ep 24).

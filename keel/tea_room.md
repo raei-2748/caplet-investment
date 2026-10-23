@@ -94,8 +94,8 @@ co-sponsor a number she doesn't already own."**
 - Nora and Kai: the 8 Oct truce holds. The sail vote on Sunday is its next test.
 - Everyone is tired after TNA week. Nobody has said so as a team (arc 7).
 
-## Long Room log (Earth date and minutes; Arden days; purpose)
-| Earth (Sydney) | Earth min | Arden days | Purpose | Who |
+## Long Room log (Sydney date and minutes; room days; purpose)
+| Sydney | Minutes | Room days | Purpose | Who |
 |---|---|---|---|---|
 | Sun 27 Sep 19:02 | 3 | 3 | Values | All |
 | Mon 28 Sep 23:30 | ~40 | light | Reading Session Rules | Five (Amara asleep) |

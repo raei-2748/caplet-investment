@@ -15,8 +15,8 @@ is the sail.
 ## Start here
 - **See Keel's progress:** `episodes/INDEX.md` (one row per day since trading opened, 28 Sep 2026).
 - **Who they are:** `CAST.md` (one screen); full profiles in `members/`.
-- **Where and when they live:** `WORLD.md` (the planet Arden, the Window, the Long Room, where one Earth minute is
-  about one Arden day).
+- **Where and when they live:** `WORLD.md` (Sydney students; the Window, the Long Room, where one real minute is
+  about one room day).
 - **What they stand for:** `CULTURE.md` (mission, vision, five values, culture, what judges reward).
 - **Where the story is going:** `ARCS.md`. **What they've argued about:** `IDEAS.md`.
 - **Working on Keel?** Read `TOKEN_RULES.md` first: load the small files, never regenerate what exists.
@@ -64,7 +64,7 @@ Talk to Keel with **`/keel`** in Claude Code: `/keel status` (progress), `/keel 
 ## Files
 ```
 README.md              this page
-WORLD.md               the setting and the time model (Arden, the Window, the Long Room)
+WORLD.md               the setting and the time model (the Window, the Long Room)
 CULTURE.md             mission, vision, values, culture, what judges reward
 CAST.md                the six in one screen (load this, not all six member files)
 ARCS.md                story arcs to December

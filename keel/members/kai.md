@@ -1,6 +1,6 @@
 # FICTION. Kai Tran, contrarian and trader
 
-> Keel is a fictional team on the planet Arden (`keel/WORLD.md`). Kai is not based on any real person.
+> Keel is a fictional team of Sydney students (`keel/WORLD.md`). Kai is not based on any real person.
 > Quick version: `keel/CAST.md`. Read this full file only when Kai is central to the day.
 
 ## Snapshot
@@ -10,7 +10,7 @@
 | Home | Canley Vale, with his mother and his grandmother (Bà); his father lives in Liverpool |
 | Role | Devil's advocate and market watch; the only member who places WInS orders, after Felix's check |
 | In one line | Finds the weakest point of any plan in five minutes, then makes the team say what safety cost |
-| Signature habit | Reads market news on his slate at 6 a.m.; screenshots every order ticket twice |
+| Signature habit | Reads market news on his phone at 6 a.m.; screenshots every order ticket twice |
 | Signature line | "Who says?" |
 | Value he carries | 3, "Argue hard, decide once" (the "argue hard" half) |
 
@@ -78,7 +78,7 @@ reports, fund documents, market news. He reads to find a weapon, then tests it o
 
 ## Life outside Keel
 Works Thursday nights and Sundays at a phone and electronics shop in Cabramatta. Plays point guard in a local
-basketball team. Films short market-explainer videos on his slate and never posts them; Amara has seen two and
+basketball team. Films short market-explainer videos on his phone and never posts them; Amara has seen two and
 says they are good.
 
 ## What he wants, and what he is afraid of

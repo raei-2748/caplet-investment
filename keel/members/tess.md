@@ -1,6 +1,6 @@
 # FICTION. Tess Bell, editor and team memory
 
-> Keel is a fictional team on the planet Arden (`keel/WORLD.md`). Tess is not based on any real person.
+> Keel is a fictional team of Sydney students (`keel/WORLD.md`). Tess is not based on any real person.
 > Quick version: `keel/CAST.md`. Read this full file only when Tess is central to the day.
 
 ## Snapshot

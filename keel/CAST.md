@@ -3,7 +3,7 @@
 > Load this instead of the six member files unless a member is central to the day (`TOKEN_RULES.md`). Full
 > profiles: `members/<name>.md`. Setting: `WORLD.md`. Values: `CULTURE.md`. Arcs: `ARCS.md`.
 
-All six are Year 11 at Fernleigh Selective High School on Arden (a near-Earth planet; see `WORLD.md`). None is
+All six are Year 11 at Fernleigh Selective High School in Sydney (see `WORLD.md`). None is
 based on a real person or mapped onto a Caplet student.
 
 | | Nora Haddad (17) | Felix Wong (16) | Jun Park (17) | Kai Tran (17) | Amara Singh (16) | Tess Bell (16) |

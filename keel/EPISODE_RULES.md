@@ -1,7 +1,7 @@
 # FICTION. Team Keel: episode rules (headquarters page: `keel/README.md`)
 
 **FICTION, AI-generated (Claude Code), started 22 Oct 2026 at Ray's request.** Keel is an imaginary team of six
-students in Sydney on the planet Arden (`WORLD.md`). They work on the same competition, the same client (Laura Gao), the same deadlines and the same
+students in Sydney (`WORLD.md`). They work on the same competition, the same client (Laura Gao), the same deadlines and the same
 Wharton files as Caplet. They are written as a team we are confident would reach the semifinals or the finale.
 Every day a new episode shows what they did: research, debates, mistakes, decisions.
 
@@ -47,7 +47,7 @@ payments are the keel, growth is the sail.
 3. Do the research for real, through the backstage crew (below): read the official file, fetch the page, run the
    numbers. Keep a source list.
 4. Write `episodes/YYYY-MM-DD_epNN.md` as a diary episode, 700-1,000 words (NN = the next number in `INDEX.md`):
-   - title; date (Sydney), point of view, Long Room (none / light / N Arden days, and why), countdown;
+   - title; date (Sydney), point of view, Long Room (none / light / N room days, and why), countdown;
    - a `> **Summary.**` block of 3-5 lines, then `**Arcs:** **Values:** **Ideas:**` (later sessions read only this);
    - at least one arc moved by one step, at least one value kept, tested or broken; if a concept is debated, a new
      row in `IDEAS.md` with its verdict and reason;

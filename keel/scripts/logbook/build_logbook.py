@@ -65,7 +65,7 @@ A(open(sys.argv[1]).read())  # head + css
 A('<main class="wrap">')
 A('''<header class="hero"><p class="eyebrow">Team Keel · fiction · Wharton Global High School Investment Competition 2026-27</p>
 <h1>The Keel logbook</h1>
-<p class="lede">Six simulated Year 11 students on Arden, a planet almost like Earth, working on the same case as Caplet. In their Long Room, one Earth minute is about one Arden day, so they live weeks of argument, research and sleep inside a short session. This page shows what they have done since the night before trading opened.</p>
+<p class="lede">Six simulated Year 11 students in Sydney, working on the same case as Caplet. In their Long Room, one real minute is about one day of their working time, so they live weeks of argument, research and sleep inside a short session. This page shows what they have done since the night before trading opened.</p>
 <dl class="stats">
 <div><dt>Episodes</dt><dd>%d</dd></div><div><dt>Days covered</dt><dd>27 Sep to 23 Oct</dd></div><div><dt>Ideas debated</dt><dd>%d</dd></div><div><dt>WInS trades</dt><dd>11</dd></div>
 </dl>

@@ -1,6 +1,6 @@
 # FICTION. Jun Park, numbers
 
-> Keel is a fictional team on the planet Arden (`keel/WORLD.md`). Jun is not based on any real person.
+> Keel is a fictional team of Sydney students (`keel/WORLD.md`). Jun is not based on any real person.
 > Quick version: `keel/CAST.md`. Read this full file only when Jun is central to the day.
 
 ## Snapshot

@@ -1,6 +1,6 @@
 # FICTION. Amara Singh, client lead
 
-> Keel is a fictional team on the planet Arden (`keel/WORLD.md`). Amara is not based on any real person.
+> Keel is a fictional team of Sydney students (`keel/WORLD.md`). Amara is not based on any real person.
 > Quick version: `keel/CAST.md`. Read this full file only when Amara is central to the day.
 
 ## Snapshot
@@ -79,7 +79,7 @@ mornings, where Nani still checks the books. Writes short fiction, which she sho
   not true; and, privately, being "the nice one" rather than the clever one.
 
 ## In the Long Room
-She brings the thermos and the food. She writes best on Arden day 3 of a stretch, at night, when the others are
+She brings the thermos and the food. She writes best on room day 3 of a stretch, at night, when the others are
 asleep, which is why she and Jun are the two most often awake. She is the one who notices if someone has not
 eaten.
 
@@ -103,7 +103,7 @@ Writes, does not talk. Sends a draft at 11 p.m. with "cut anything".
 | **Nora** | Friends since Year 7; both on the magazine | Nora is tough on her drafts; Amara thinks that is why they are good | Sometimes feels the toughness is reserved for her because they are friends |
 | **Tess** | Shares her fiction with Tess, and only Tess | Tess cuts her drafts by a third and keeps the cut lines | "The folder" arc: Amara wants lines back; Tess wants them true first |
 | **Felix** | Year 9 history partners | He kills her ideas with quotes; she asks him to check first. He always hands something back | She does not know how much he minds killing her lines |
-| **Jun** | Nothing before Keel | Translates his numbers into what they mean for Laura | The off-hand number. She used it; he said it. Neither has quite let it go |
+| **Jun** | Nothing before Keel | Tranphones his numbers into what they mean for Laura | The off-hand number. She used it; he said it. Neither has quite let it go |
 | **Kai** | Economics class | Allies on ambition, for different reasons | She has seen his unposted videos and thinks he should post them |
 
 ## Arc to December

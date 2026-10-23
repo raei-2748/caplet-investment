@@ -1,12 +1,12 @@
 # FICTION. Nora Haddad, team leader
 
-> Keel is a fictional team on the planet Arden (`keel/WORLD.md`). Nora is not based on any real person.
+> Keel is a fictional team of Sydney students (`keel/WORLD.md`). Nora is not based on any real person.
 > Quick version: `keel/CAST.md`. Read this full file only when Nora is central to the day.
 
 ## Snapshot
 | | |
 |---|---|
-| Age, year | 17, Year 11, Fernleigh Selective High School (Arden's inner west) |
+| Age, year | 17, Year 11, Fernleigh Selective High School (Sydney's inner west) |
 | Home | Harris Park, with her parents, her brother Sami (14) and her sister Lina (9) |
 | Role | Team leader: scope, calendar, final call on timing; strategy goes to a team vote |
 | In one line | Turns a 40-minute argument into a two-option vote, and then makes the team live with it |
@@ -49,7 +49,7 @@ whiteboard"; he also asked, in October, whether he could try out next year.
   lose to drift, not to bad ideas.
 - **Fair, out loud.** Credit in public, criticism in private. She restates your point before she attacks it and
   asks "is that fair?" first.
-- **Impatient when tired.** After 9 p.m. (or after Arden day 10 of a stretch) her sentences get shorter and her
+- **Impatient when tired.** After 9 p.m. (or after room day 10 of a stretch) her sentences get shorter and her
   decisions faster, and she knows it. She has cut ideas that were right and later said so in front of the team.
 - **Protective.** Of the calendar, the quiet members and the team's reputation, in that order.
 - **Proud.** She hates being seen not to know something, so she prepares too much and asks too late.
