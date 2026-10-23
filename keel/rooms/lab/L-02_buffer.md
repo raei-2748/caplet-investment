@@ -7,7 +7,7 @@ Run Sat 24 Oct 2026 (Sydney) by Jun with Amara; Kai roasted first. MODEL. Criter
 2. **Kai's roast.** "So the safe plan needs a safety net for its safety net?"
 3. **Test.** `keel/library/ips_numbers_2026-10/ips_numbers.py` unchanged except the curve (22 Oct) and five extra
    output lines: for buffers $0-25k, the share of paths where the payments need more than leftover + Laura's half +
-   buffer, and where the buffer alone is short. Buffer held flat (no growth: conservative). Wrong if a buffer that
+   buffer, and where the buffer alone is short. Buffer held flat (no growth: conservative). Re-run: `python3 keel/rooms/lab/L-02_buffer_run.py` -> `L-02_results_22oct.json`. Wrong if a buffer that
    brings the miss under 2% costs more than $20k of floor.
 4. **Result (200,000 paths).**
    | Buffer | Payments need more than every backup | Buffer alone is short | Floor / quoted bottom falls by |

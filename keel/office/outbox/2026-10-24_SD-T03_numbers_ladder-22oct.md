@@ -24,8 +24,9 @@ Work order: SD-T03 | Asked by: self-directed (board card T03) | Desk(s): Numbers
   10/21 and 10/22/2026; committed 23 Oct). A fresh download failed tonight (treasury.gov refused by the network
   proxy), so 22 Oct is the newest close on file.
 - Runs tonight: `ladder_history.py` as committed; `ips_numbers.py` and `range_2031.py` with only the curve file and
-  date changed (results kept outside the repo; committed `results.json` and `range_2031_results.csv` still hold the
-  15/16 Oct runs their README files describe).
+  date changed. The `ips_numbers.py` run is reproducible with `keel/rooms/lab/L-02_buffer_run.py` (output
+  `keel/rooms/lab/L-02_results_22oct.json`); committed `results.json` and `range_2031_results.csv` still hold the
+  15/16 Oct runs their README files describe.
 - Check (numbers-auditor): the one-line rule from Lab L-01 (cost moves $289 per 0.01% in the 10-year) predicts
   $298,841 for 22 Oct from the 21 Oct cost; the full repricing gives $298,861 (miss $20).
 
