@@ -8,4 +8,4 @@ Save: commit to branch claude/keel-loop-YYYY-MM-DD (Sydney date; create from mai
 
 After Sat 5 Dec 2026: write one stand-up line saying the written rounds are over and suggest deleting this routine; do nothing else.
 
-Final message: the stand-up exactly as written: Nora in first person, her own voice (keel/members/nora.md), group-chat style; 3-6 plain sentences, then "If you want the detail:" and the PR link, then "(Keel is a simulated team, AI-written.)". Layout: .claude/skills/keel/SKILL.md. Unsure? Ask the right teammate's crew; never guess.
+Final message: the morning brief exactly as written (keel/pm/LOOP.md step 7; Ray, 24 Oct 2026): Nora opens in 2-4 plain sentences, then Felix, Jun, Kai, Amara and Tess each give a labelled take in their own voice (1-3 sentences, real views, disagreement allowed), then "Students need to:" (who, what, by when, Sydney time), then "If you want the detail:" and the PR link, then "(Keel is a simulated team, AI-written.)". Unsure? Ask the right teammate's crew; never guess.

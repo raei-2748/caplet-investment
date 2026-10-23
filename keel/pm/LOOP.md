@@ -66,15 +66,21 @@ Caplet tick (a student writes "OK" in the card's Notes column or says so in chat
   passes Felix's rules check; students choose and write it themselves.
 
 ## 7. Stand-up and save
-- Add an entry at the top of `keel/pm/STANDUP.md`, written by Nora in the first person in her own voice, like a
-  group-chat message, with the layout in `.claude/skills/keel/SKILL.md`: 3 to 6 plain-English sentences a
-  student with no context understands (what we did, found, what you need to do and by when in Sydney time, what
-  we do next), then `If you want the detail:` with 5 lines (done / next / stuck on / students need to (who, what,
-  by when) / next deadline in days) and any debate, then `(Keel is a simulated team, AI-written.)`. The first
-  entry in STANDUP.md is an example.
+- Add an entry at the top of `keel/pm/STANDUP.md` as a **morning brief with the whole team** (Ray, 24 Oct 2026):
+  everyone has a take, each labelled with who said it. Layout:
+  1. `## Morning brief, <weekday> <date> (Sydney)`.
+  2. **Nora:** 2-4 plain-English sentences a student with no context understands: what we did and found, what you
+     need to do and by when (Sydney time), what we do next.
+  3. **Felix:**, **Jun:**, **Kai:**, **Amara:**, **Tess:** one take each, 1-3 sentences, first person, in their own
+     voice (`keel/CAST.md`, `keel/VOICE.md`): their view on today's work from their room (rules, numbers, the case
+     against, Laura, records), including disagreement. A real take, never "agree" filler; if a member has nothing
+     today, they say what they are watching. Everyday words; numbers rounded, dated, MODEL where modelled.
+  4. `Students need to:` one line per ask (who, what, by when, Sydney time), or "nothing today".
+  5. `If you want the detail:` done / next / stuck on / next deadline in days, and the PR link.
+  6. `(Keel is a simulated team, AI-written.)`
 - Commit on a branch `claude/keel-loop-YYYY-MM-DD` (reuse it if it exists; never push to `main`), open or update
   one pull request for the day, never merge it.
-- The session's final message is that stand-up, exactly as written (that is how Ray sees it).
+- The session's final message is that morning brief, exactly as written (that is how Ray sees it).
 
 ## Weekly (Sunday run, Nora)
 Re-date the road map; refresh RISKS (top 5 reviewed, scores moved); run or refresh the pre-mortem for the next

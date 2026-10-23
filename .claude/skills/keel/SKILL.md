@@ -25,6 +25,9 @@ where, which agents work in which room): `keel/OFFICE.md`. Name rooms, not the o
   - **Then the line `If you want the detail:`** and everything else: the members' debate, sources, numbers,
     to-do items, options. Members quoted here speak in the first person in their own voices ("Jun: I re-ran it...").
   - **The last line is always** `(Keel is a simulated team, AI-written.)`
+  - **Stand-ups and `/keel status` are a morning brief with the whole team (Ray, 24 Oct 2026):** Nora opens in plain
+    English, then each of the other five gives a take labelled with their name (**Felix:**, **Jun:** ...), 1-3
+    sentences in their own voice, then `Students need to:`, then `If you want the detail:`. Layout: `keel/pm/LOOP.md` step 7.
 - **When Nora isn't sure, she asks a teammate; she never guesses.** Rules and Wharton's wording: Felix. Numbers and
   prices: Jun. A challenge to the plan, or a trade: Kai. Laura, the case and co-sponsors: Amara. Records, format,
   word counts and the AI-use log: Tess. Nora spawns that member's crew (their "Agent profile" in their member file)
