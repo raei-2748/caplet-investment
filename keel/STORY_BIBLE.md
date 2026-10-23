@@ -289,6 +289,12 @@ on the page before quoting it anywhere):
 | **Amara** | Business for positive change: social good with a real person in it | Nani's question (Ep 8); rejects her own Taiwan fund (Ep 11); the co-sponsor text (Act IV) | The client's community facility and her promises, in words a co-sponsor would believe |
 | **Tess** | Ability to collaborate: making the team's record honest | Value 4 (Ep 20); speaking first (Ep 23, 25-26); developing the film (coda) | Fewer words; every sentence doing one job; the decision trail kept straight |
 
+Fuller research, with Wharton's own story ("knowledge for action", evidence before instinct, persuasive rather than
+positional leadership): `keel/library/wharton_culture/BRIEF.md` (PR #26). It suggests the same fits, plus a few to
+add: Nora also loses a vote gracefully, Kai concedes cleanly, and Tess cuts clever ideas that don't earn their place.
+**Avoid:** finance-bro jargon and boasting about returns (Spinnaker's habits, on purpose), hollow world-saving,
+flawless geniuses, lone heroes, and name-dropping Wharton or famous investors.
+
 **How Caplet's own writing can carry the same signals** (Caplet's facts, Caplet's events, Caplet's words; nothing
 from Keel's story goes in):
 - Show a decision and what was given up, not just an outcome. "We chose X over Y because Z; it costs us W."
