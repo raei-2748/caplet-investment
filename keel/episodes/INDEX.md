@@ -5,6 +5,9 @@
 > later sessions can read summaries instead of whole episodes (`../TOKEN_RULES.md`). "Room" = headroom of Jun's
 > daily ladder price under $300,000 (MODEL, payment-date basis, previous U.S. close; `../scripts/ladder_history.py`).
 
+Page view: the Keel Logbook (https://claude.ai/artifact/VNXgEcdGmGEPkwcFVTLP26), built from these files by
+`../scripts/logbook/build_logbook.py`; rebuild and republish it after each new episode.
+
 ## Season 1: to the Trading Notes Analysis (TNA due Sat 24 Oct 08:00)
 | Ep | Sydney date | Title | POV | Long Room | What happened | Milestone | Room |
 |---|---|---|---|---|---|---|---|
