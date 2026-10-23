@@ -9,7 +9,7 @@ that watches it; the response is always a proposal to Caplet. Numbers carry date
 | R3 | AI authorship: AI wording submitted, or AI use not recorded in the Works Cited | 2 | 3 | 6 | Tess | [AI] suggestions still open; LEDGER rows without an AI-use line | Students write from voted rules [T13]; AI-use log weekly [T11] | Open |
 | R4 | IPS freezes without a rule the Final Report needs; Final Report would then change strategy | 2 | 3 | 6 | Felix | Rule checklist gap after 27 Oct | [T05], [T12] | Open |
 | R5 | Numbers on mixed bases or with no source contradict each other across the three deliverables | 2 | 2 | 4 | Jun | A figure without a date and basis in any draft | Numbers kept out of the IPS; one-basis sheet P02; fact-checker on every memo | Open |
-| R6 | Signed school letter missing or late (exclusion) | 1 | 3 | 3 | Tess | Not requested by 6 Nov | Request early [T18] | Open |
+| R6 | Signed school letter missing or late (exclusion) | 1 | 3 | 3 | Tess | Not requested by Fri 23 Oct, or not in hand by Fri 20 Nov | Request now [T18]; in hand [T21] | Open |
 | R7 | SMApply form limits or counting differ from our checks (IPS is now a form) | 2 | 2 | 4 | Felix | Form fields unknown by 31 Oct | Ray checks the form [T15]; 470/45-word margin | Open |
 | R8 | WInS book does not match the IPS at the lock, or a needed order fills too late | 1 | 2 | 2 | Kai | A vote changes the book after 2 Nov | Last order by Thu 5 Nov 08:00 [T16] | Open |
 | R9 | The plan is correct but forgettable | 3 | 2 | 6 | Nora | Outside reader cannot repeat the idea in one sentence | Human scores [T14], mock judges [T08], drill P01 | Open |

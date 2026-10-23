@@ -14,7 +14,8 @@ deliverable does not move on until the gate is met. Detail lives in `keel/office
 ## M2 IPS and trading lock: Sat 7 Nov 09:00 (Fri 6 Nov 5 pm ET); strategy frozen after it
 | When | Milestone | Owner | Gate |
 |---|---|---|---|
-| Mon 26 Oct | Ladder repriced on the holdings basis [T03]; vote set B options [T04] | Jun, Kai | Memos in the outbox, fact-checked |
+| Fri 23 Oct | School letter requested [T18] | Ray / advisor | Request sent |
+| Mon 26 Oct | Ladder repriced on the holdings basis [T03]; vote set B options [T04a-c] | Jun, Kai | Memos in the outbox, fact-checked |
 | Tue 27 Oct | **Vote set B** [T12] | Whole team | Votes and dissent logged in `caplet/decisions/LOG.md` |
 | Tue 27 Oct | IPS rule checklist [T05] | Felix | Every rule the Final Report needs is listed |
 | Wed 28 Oct | Outline in the team's own words; AI suggestions closed [T13] | Student authors | Outline maps to the voted rules |
@@ -34,7 +35,7 @@ deliverable does not move on until the gate is met. Detail lives in `keel/office
 | Sun 8 Nov | Quiet period ends; client and co-sponsor research opens | Amara | Work orders only for named needs |
 | Tue 10 Nov 01:00 | Instructions released (9 Nov ET) | Felix reads twice | Mapped to modules |
 | Wed 11 Nov | Final Report pre-mortem and module map [T10] | Tess + Kai | Every module has an owner and a due date |
-| Fri 20 Nov | Signed school letter in hand [T18] | Ray / advisor | Letter received |
+| Fri 20 Nov | Signed school letter in hand [T21] | Ray / advisor | Letter received |
 | Sun 22 Nov | Full draft; human scores, then mock judges (Mac judge-final-1) | Team; Nora | Scores logged |
 | Sun 29 Nov | Second judge pass (Mac judge-final-2); numbers re-checked | Nora; Jun | Every number dated and sourced |
 | Wed 2 Dec | Internal deadline; gate check (Mac final-report-check) | Felix | All gates ticked |
