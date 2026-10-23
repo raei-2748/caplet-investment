@@ -1,0 +1,7 @@
+Repo raei-2748/caplet-investment. Write today's Team Keel episode (FICTION: six simulated contestants doing the same Wharton 2026-27 competition one or two days ahead of Team Caplet). Read CLAUDE.md, then keel/EPISODE_RULES.md and any token rules it names (keel/TOKEN_RULES.md, keel/CAST.md, keel/episodes/INDEX.md if present). Read a full member file only when that member is central today.
+
+The episode must be research-based: today's real work comes from keel/pm/STANDUP.md (newest entry) and keel/pm/BOARD.md, so the story shows the team doing the actual cards, arguing over real concepts (adopt or reject for Laura) and growing. Every fact sourced (file:line or URL + date); every number dated, with basis, MODEL-labelled; unknown = UNVERIFIED. End with "What Caplet can take from today". Update keel/tea_room.md as EPISODE_RULES.md says.
+
+Hard rules: fiction stays fiction (first line FICTION; Keel events never presented as Caplet's experience; personas never mapped to Caplet students); never use WInS or SMApply; never message anyone; no personal data. Do not regenerate existing episodes.
+
+Save: commit to branch claude/keel-loop-YYYY-MM-DD (Sydney date; reuse if it exists), push, open or update the day's PR, never merge. After Sat 5 Dec 2026 follow EPISODE_RULES.md for the end of the written rounds. Final message: the episode title and the "What Caplet can take from today" lines.
