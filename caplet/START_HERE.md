@@ -4,11 +4,11 @@ Welcome. This repo holds everything for Team Caplet's 2026-27 Wharton Global Hig
 entry: official rules, the client case, our strategy research, the WInS portfolio and the checks we run.
 
 ## Read these first (about 20 minutes)
-1. [`COMPETITION.md`](COMPETITION.md): every rule, date, format and where we stand. **Single source of truth.**
-2. [`competition/official/2026_27/Laura_Gao_2026_Client_Profile.pdf`](competition/official/2026_27/Laura_Gao_2026_Client_Profile.pdf): the client case.
-3. [`caplet/google_drive/ips_report/`](caplet/google_drive/ips_report/): our IPS drafts (Version 5 is the latest) and
+1. [`competition/COMPETITION.md`](../competition/COMPETITION.md): every rule, date, format and where we stand. **Single source of truth.**
+2. [`competition/official/2026_27/Laura_Gao_2026_Client_Profile.pdf`](../competition/official/2026_27/Laura_Gao_2026_Client_Profile.pdf): the client case.
+3. [`caplet/google_drive/ips_report/`](google_drive/ips_report): our IPS drafts (Version 5 is the latest) and
    all 15 WInS trade notes, verbatim.
-4. [`caplet/Winning Team Portrait and Scoresheet.md`](caplet/Winning%20Team%20Portrait%20and%20Scoresheet.md): what the
+4. [`caplet/Winning Team Portrait and Scoresheet.md`](Winning%20Team%20Portrait%20and%20Scoresheet.md): what the
    judges reward, and a self-scoresheet.
 
 ## What's where

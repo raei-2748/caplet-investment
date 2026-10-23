@@ -15,7 +15,7 @@ The two spaced en dashes in VT count as words on a by-spaces counter; the Survey
 
 ## Content problems
 **VT**
-1. "set the upper bound for this contribution at half of VT's value" contradicts IPS Version 5 and COMPETITION.md
+1. "set the upper bound for this contribution at half of VT's value" contradicts IPS Version 5 and competition/COMPETITION.md
    section 7: upper bound = floor + half the fund's value (less any expected shortfall). As written, the top of the
    range would be below the floor.
 2. "VT's performance will determine Laura's facility contribution" overstates VT's role. The floor (IBTM) sets the
@@ -28,7 +28,7 @@ The two spaced en dashes in VT count as words on a by-spaces counter; the Survey
    small by design / dollar at risk, no stock picking, half to the range, Laura keeps the rest). Own voice is required.
 
 **IBTR**
-1. "ironclad guarantee": the team's rule (COMPETITION.md s7, TNA gate) is never "guaranteed". IBTR is a fund whose
+1. "ironclad guarantee": the team's rule (competition/COMPETITION.md s7, TNA gate) is never "guaranteed". IBTR is a fund whose
    payout is not fixed (team notes), and the IPS names residual risks. Conflicts with the IPS.
 2. "the safest financial asset in the world": unsourced superlative. The IPS says "least credit risk of any dollar asset".
 3. Never says which payment IBTR funds (1 Jan 2037, per the note) or why this trade; it describes the whole ladder.
@@ -41,7 +41,7 @@ The two spaced en dashes in VT count as words on a by-spaces counter; the Survey
   closes and pays holders cash, so it behaves like one bond with a 2032 maturity. Unlike a single bond, the cash is
   not fixed in advance (many bonds, reinvestment of early maturities in the final year, fees).
 - Why it: the first payment is due 1 Jan 2033. WInS lists no individual Treasury maturing Feb 2031 to Feb 2036, and
-  the 6 Oct Wharton email limits Laura's real plan to WInS securities, so STRIPS are out (COMPETITION.md s6).
+  the 6 Oct Wharton email limits Laura's real plan to WInS securities, so STRIPS are out (competition/COMPETITION.md s6).
 - Two jobs: (a) from the 2027 deposit, it funds the 1 Jan 2033 payment; (b) in the real plan the 2028 deposit buys
   more IBTM as the floor, sized to return about $150k by 2033. That is the minimum Laura quotes co-sponsors in 2031,
   rounded down because the payout is not fixed. WInS holding: 4,503 sh at $21.65 = $97,490 ("2033 payment + 2028

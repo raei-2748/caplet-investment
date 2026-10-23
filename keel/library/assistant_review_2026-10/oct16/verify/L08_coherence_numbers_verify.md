@@ -28,7 +28,7 @@ Both figures use the **same 15 Oct 2026 par curve**. The data is identical in my
 | 1 Jan payment dates, yields unchanged | $290,005 | $295,246 | $4,754 (16bp) |
 | 1 Jan payment dates, forward rates (waiting cash earns market forwards) | $288,938 | **$294,461** | $5,539 (19bp) |
 
-- **L08's $298,624** uses the first method. This is the team's own "executable" basis: MONITOR.md:22 gives "$293,447 ... 22.7bp" on 6 Oct, and COMPETITION.md:153-154 gives "$293k ... about 0.2 percentage points". It is higher for two reasons:
+- **L08's $298,624** uses the first method. This is the team's own "executable" basis: MONITOR.md:22 gives "$293,447 ... 22.7bp" on 6 Oct, and competition/COMPETITION.md:153-154 gives "$293k ... about 0.2 percentage points". It is higher for two reasons:
   - cash waits at 0% between each maturity and its payment;
   - no roll-down is earned.
 - **The 16 Oct number sheet's $294,453** (`results.json`) uses the last method. V5's "$292,000 at late-September yields" is on this basis too: 25 Sep gives $292,272. If waiting cash earns the 3-month yield, the cost is about $295.3k (L03 verifier).
@@ -43,7 +43,7 @@ Both figures use the **same 15 Oct 2026 par curve**. The data is identical in my
 ## Verdicts
 
 **COH-01: ladder headroom. ADJUSTED (stays high).**
-- Confirmed: the stale quotes at 05_...md:15 and :29, V5:16 and :24, COMPETITION.md:153-154 and MONITOR.md:22. The 15 Oct curve values are confirmed.
+- Confirmed: the stale quotes at 05_...md:15 and :29, V5:16 and :24, competition/COMPETITION.md:153-154 and MONITOR.md:22. The 15 Oct curve values are confirmed.
 - Changed: the headline mixed bases (see above). The odds come down from about 45% to about 1 in 3.
 - Changed: the floor effect of a 25bp fall is a top-up of about $1.8k-5.9k depending on basis, which leaves a floor of about $148k-144k.
 - It stays high because the IBTR note is a suggested TNA pick, the TNA is due in 7 days, and notes cannot be edited.
@@ -66,12 +66,12 @@ Both figures use the **same 15 Oct 2026 par curve**. The data is identical in my
 
 **COH-05: "never below the floor". ADJUSTED (high → medium; known-deeper).**
 - Confirmed: the journal quote (final_report.md:24) and the missing 6 Oct entry.
-- Already known: the team lists softening the phrase as an open item (COMPETITION.md:199-200). Tab 15:27 rewrote the logic, and the 15 Oct brief banned the phrase (final.md:137).
+- Already known: the team lists softening the phrase as an open item (competition/COMPETITION.md:199-200). Tab 15:27 rewrote the logic, and the 15 Oct brief banned the phrase (final.md:137).
 - What is new: the STRIPS reason and the missing "challenge" story for Articulation.
 
 **COH-06: WInS mapping and scale. ADJUSTED (high → medium).**
 - Confirmed: the 0.643 scale and the 9-of-11 count.
-- Refuted, part 1: "drop COMPETITION.md:70's gloss". The official page says "The $300,000 is your team's WInS simulator balance. The additional $150,000 contribution ... will not be added to WInS" (trading.txt:26). The gloss is a fair reading.
+- Refuted, part 1: "drop competition/COMPETITION.md:70's gloss". The official page says "The $300,000 is your team's WInS simulator balance. The additional $150,000 contribution ... will not be added to WInS" (trading.txt:26). The gloss is a fair reading.
 - Refuted, part 2: the IBTR note's "$300,000 ... all ten payments" is about Laura's plan, so it does not clash with the 65.9% WInS split.
 - Refuted, part 3: ips_outline.md:3 "WInS is the real ladder" refers to D7's dropped shadow-ladder branch (caplet/decisions/LOG.md:33). It is shorthand, not an error.
 - Correction: TNA-FINAL:53 "we will verify this" refers to trades being executed, not to how notes are sized.
@@ -88,7 +88,7 @@ Both figures use the **same 15 Oct 2026 par curve**. The data is identical in my
 
 **COH-09: six strategy names. ADJUSTED (medium → low).**
 - CLAUDE.md:65 sits in a section marked superseded.
-- V5, Tab 15 and the journal already agree. The only live risk is COMPETITION.md:147 and :204.
+- V5, Tab 15 and the journal already agree. The only live risk is competition/COMPETITION.md:147 and :204.
 
 **COH-10: Feb-2037 coupon. CONFIRMED (medium).**
 - I re-computed the yield at the 96.019 fill: 5.25% with a 4.750% coupon, 5.51% with 5.000%.
@@ -104,7 +104,7 @@ Both figures use the **same 15 Oct 2026 par curve**. The data is identical in my
 - The sheet shows most shortfalls arise after 2033.
 
 **COH-13: "income reinvested ... held without trading". CONFIRMED (medium).**
-- T-bills (trading_notes.csv:129) are out after 6 Oct (COMPETITION.md:89-90).
+- T-bills (trading_notes.csv:129) are out after 6 Oct (competition/COMPETITION.md:89-90).
 
 **COH-14: "latest first" vs order timestamps. CONFIRMED (low).**
 
@@ -130,7 +130,7 @@ Both figures use the **same 15 Oct 2026 par curve**. The data is identical in my
 ## Added findings
 
 **VER-L08-01: the 16 Oct commit adds a second ladder basis and hides the change since 6 Oct (high).**
-- COMPETITION.md says "$293k on the 6 Oct curve" (maturity basis).
+- competition/COMPETITION.md says "$293k on the 6 Oct curve" (maturity basis).
 - The sheet and CLAUDE.md say "about $294,000" on 15 Oct (payment basis), and the sheet adds "It was $290-292k a week ago".
 - Read side by side, these suggest that yields barely moved. Like for like, the cost rose about $5.2k-5.5k.
 - This will surface in the IBTR reflection.

@@ -255,7 +255,7 @@
    "evidence": [
     "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:58",
     "caplet/google_drive/final_report.md:33-40",
-    "COMPETITION.md:192-193: 'an AI browser click cancelled the wrong order'",
+    "competition/COMPETITION.md:192-193: 'an AI browser click cancelled the wrong order'",
     "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:34: 'Students should place trades on WInS, NOT the advisor'",
     "oct16/lenses/L09_integrity_compliance.findings.json INT-08"
    ],

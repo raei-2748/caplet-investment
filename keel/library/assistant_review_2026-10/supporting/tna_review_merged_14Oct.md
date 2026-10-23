@@ -47,7 +47,7 @@ This review was done against commit 2affd4c on 14 Oct 2026. It is not submission
 ## 2. Gates to clear before anyone drafts (target Mon 19 Oct, the internal mock-judge date)
 
 - **G1. Freeze the facts the TNA and IPS share.** The TNA cannot be edited after 23 Oct, so the IPS has to follow it.
-  - **Strategy name: Root-and-Branch.** It was settled on 1 Oct (caplet/google_drive/final_report.md:21). COMPETITION.md:147 and :204 still say "Roots First".
+  - **Strategy name: Root-and-Branch.** It was settled on 1 Oct (caplet/google_drive/final_report.md:21). competition/COMPETITION.md:147 and :204 still say "Roots First".
   - **Floor wording.** The floor is quoted rounded down below IBTM's projected payout; this is one of the two readings listed in 15_tab_15.md:30. Delete "never below the floor" (01_version_5.md:28), "she cannot miss the range" (:30) and "a floor Laura can promise" (:20). Note that "promised" is on the kit's banned list (archive/rab/trades/notes.md:30), and the case warns against promising (Client Profile:114-116).
   - **Order for covering a shortfall:** first the 2027 leftover, then Laura's half, then the part above the floor (01_version_5.md:26).
   - **Where the roughly $8k 2027 leftover is held** (15_tab_15.md:34). If it sits in VT, the first backstop is stocks.
@@ -87,12 +87,12 @@ These are objectives only, not text. Each reflection is 100 words or fewer, so a
 **Must cover:**
 - **Why one fund does two jobs.**
   - The two jobs are the 1 Jan 2033 payment (paid from the 2027 deposit in her plan) and the facility floor (paid from the 2028 deposit).
-  - WInS lists no Treasury maturing between Feb 2031 and Feb 2036 (COMPETITION.md:93).
+  - WInS lists no Treasury maturing between Feb 2031 and Feb 2036 (competition/COMPETITION.md:93).
   - Of the 4,503 shares, 1,142 are for the payment and 3,361 for the floor (portfolio.csv:38-39).
   - Explain "floor" in plain words.
 - **The refinement, from the team's own dated log.** No judge cited this evidence.
   - On 5 Oct the team kept "never below the floor" on purpose: the real floor was to be zero-coupon Treasuries, and IBTM was only the WInS stand-in (final_report.md:24; IPS V2 at 11_old_versions_v2.md:26).
-  - The 6 Oct email then limited Laura's real plan to WInS-listed stocks, ETFs and Treasury bonds (COMPETITION.md:87-90).
+  - The 6 Oct email then limited Laura's real plan to WInS-listed stocks, ETFs and Treasury bonds (competition/COMPETITION.md:87-90).
   - So IBTM became her actual floor holding. Its payout is not fixed, so the floor is now quoted rounded down.
 - **The client link.**
   - In 2031 co-sponsors hear a range whose bottom is money she already holds, not a forecast.
@@ -109,8 +109,8 @@ These are objectives only, not text. Each reflection is 100 words or fewer, so a
 **Must cover:**
 - **Why this fund.** One fund of about 10,000 stocks (10,088 on 31 Aug) at a 0.06% fee, bought in one trade (keel/library/insight_v1/securities_and_allocation.md:89). It diversifies without stock picking.
 - **The sizing decision, which the note leaves out.**
-  - VT gets only about 9% of all her money, because the payments and the floor come first (COMPETITION.md:156-157). In WInS it is 8.8% at cost.
-  - State the trade-off: a lower median gift in exchange for a much better bad case (COMPETITION.md:164).
+  - VT gets only about 9% of all her money, because the payments and the floor come first (competition/COMPETITION.md:156-157). In WInS it is 8.8% at cost.
+  - State the trade-off: a lower median gift in exchange for a much better bad case (competition/COMPETITION.md:164).
 - **Correct the note honestly.** The fund has more than one job:
   - Half lifts the gift above the floor, which sets the top of the 2031 range.
   - The other half is Laura's cushion against cost rises, a stronger Taiwan dollar or co-sponsor gaps. It is also second in line for any payment shortfall (IPS V5:26, :28, :30).
@@ -138,7 +138,7 @@ These are objectives only, not text. Each reflection is 100 words or fewer, so a
 
 **Preconditions:**
 - The IPS must add the short-term ETF point, about 13 words (15_tab_15.md:35). IPS V5:26 currently says income is "reinvested in the holding that paid it".
-- Never copy the "5.000% Feb-2037" label from COMPETITION.md:181. It is wrong: the 96.019 fill implies about 5.25% as the 4.750% bond.
+- Never copy the "5.000% Feb-2037" label from competition/COMPETITION.md:181. It is wrong: the 96.019 fill implies about 5.25% as the 4.750% bond.
 
 ## 4. Traps in the picked notes and how to handle them honestly
 
@@ -157,7 +157,7 @@ The notes cannot be edited and must be quoted exactly. Every fix happens in the 
 - **"Provides a floor" next to "payout not fixed".** Explain that the floor is quoted rounded down. Never use "guaranteed", "secures" or "never below".
 - **"Provides a floor" also reads as present tense.** In her plan the floor is a 2028 purchase.
 - **"So the timing fits" is loose.** The fund ends about 17 days before the payment, but its bonds mature through 2032.
-- **Two floor definitions are in circulation:** "sized to return that remainder" (IPS V5:24) and "about $150k" (COMPETITION.md:155-156). Use the IPS one, and give no dollar figure.
+- **Two floor definitions are in circulation:** "sized to return that remainder" (IPS V5:24) and "about $150k" (competition/COMPETITION.md:155-156). Use the IPS one, and give no dollar figure.
 - **AI overlap.** The note shares wording with its exemplar ("two jobs in Laura's plan", "It holds 2032 Treasuries"; notes.md:153). Disclose this, and do not reuse exemplar or Tab 15 wording in the reflection.
 
 **VT**
@@ -243,7 +243,7 @@ The notes cannot be edited and must be quoted exactly. Every fix happens in the 
 - [ ] List the IPS edits these choices force, due 6 Nov.
 
 **AI-use logging**
-- [ ] Add a dated entry. caplet/docs/AI_USE.md was last updated on 30 Sep, and research/insight_v1/AI_USE* (named in COMPETITION.md:144) does not exist. Record:
+- [ ] Add a dated entry. caplet/docs/AI_USE.md was last updated on 30 Sep, and research/insight_v1/AI_USE* (named in competition/COMPETITION.md:144) does not exist. Record:
   - who wrote and who typed each picked note;
   - which exemplars they read;
   - the 6 Oct "AI draft" column in trading_notes.csv;

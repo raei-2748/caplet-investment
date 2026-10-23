@@ -8,7 +8,7 @@ AI-generated research (Claude Code) for Team Caplet. These are MODEL numbers for
 - **Fragile (the models disagree by a factor of 2 or more, for reasons the plan has not decided):** the room under $300k ($-0.8k to +$7.1k), the chance a top-up is needed (32-47%), the chance a payment is short under each coupon option, and the chance the gift reaches the top once option 3r is added.
 - **New 1: 3r's "0.02%" depends on one unstated sizing choice.** The coupon study's result for option 3r (payments short in 0.02% of paths) assumes cash waiting between a rung's maturity and the 1 January payment earns 0%. If the rungs are sized counting bill interest on that cash, which is how they cost about $1-2k less, 3r leaves a payment short in **about 6%** of paths. The gaps are small: 1-in-100 about $3.2k, worst about $9.7k.
 - **New 2: 3r as written cuts the chance of reaching the top from about 3 in 4 to about 1 in 3.** The reserve is counted in the top, but in 2033 only the part above "need + $5k" is released. The coupon study's own code shows the same effect (68% falls to 41%; this was not reported in its tables).
-- **New 3: "the gift falls inside the range ~99%" depends on the net-minimum rule.** It is about 99.9% with the rule COMPETITION.md s7 already states ("rounded down after any expected shortfall"), and 98.4-99.4% without it.
+- **New 3: "the gift falls inside the range ~99%" depends on the net-minimum rule.** It is about 99.9% with the rule competition/COMPETITION.md s7 already states ("rounded down after any expected shortfall"), and 98.4-99.4% without it.
 
 ## 1. What I built (independent of the earlier code)
 
@@ -117,7 +117,7 @@ Sources:
 | 1 | Ladder cost / room | $294,453 / $5,547 (basis A, payment dates) | $298,087 / $1,913 (basis C) | $300,174 / -$174 (sized to maturity, cash at 0%) | $298,624 (15 Oct) / $298,913 (16 Oct) | Cost: no (within 2%). Room: yes, by a factor of 5. Each model prices a different thing: FE = payment dates (cheapest; not buyable on WInS); TE = holdings' dates, forward; CO = cash waits at 0%; mine = holdings, waiting cash in bills, iBond funds' real maturities (mid-year, so more waiting) | FE $5,547 ✓; TE $1,913 ✓; CO -$782 (vs -$174: the gap is my iBond model) |
 | 2 | Chance cost > $300k | 35.2% | 44% | n/a | 45.9% (15 Oct) / 46.9% (16 Oct) | Yes. Follows from row 1: FE prices basis A, which has $4k more room. Anchored to A, my model gives 32% | FE 32%; TE 43.9% ✓ |
 | 3 | VT bought Jan 2028, median | $32.3k | $35.4k | (not reported) | $31.0k / $30.8k | FE +4%: floor priced on forward yields (+$0.8k; forward 5.05% vs unchanged-curve 4.90%) and par/own-yield sizing (+$0.6k). TE +15%: the 2027 leftover goes into VT (+$3.2k), plus forward floor pricing (+$0.9k) | FE $32.8k ✓; TE $36.0k ✓ |
-| 4 | VT p95 | $42.7k | $60.1k | | $41.6k | TE +44%: the leftover goes into VT, and is large when yields rise before January. The plan says the leftover is the first shortfall buffer (`COMPETITION.md:161`), so TE's $192k top p95 reflects a different plan | TE $60.0k ✓ |
+| 4 | VT p95 | $42.7k | $60.1k | | $41.6k | TE +44%: the leftover goes into VT, and is large when yields rise before January. The plan says the leftover is the first shortfall buffer (`competition/COMPETITION.md:161`), so TE's $192k top p95 reflects a different plan | TE $60.0k ✓ |
 | 5 | Bottom, median | $145k | $145k | $145k | $145k | No | ✓ |
 | 6 | Share of paths at exactly $145k | 68% | — | — | 54% | Yes. Fewer top-ups in FE (row 2), and my bottom also nets off projected shortfalls | — |
 | 7 | Top, median | $167.8k | $169k | $166.1k | $166k / $165k | TE +2.4%: leftover in VT (+$2k) and forward floor (+$1k). FE and CO within 1.3% | ✓ all |
@@ -186,7 +186,7 @@ Option 1's chance of a short payment hardly moves with rate volatility (30-33%).
    - Size the rungs as though waiting cash earns nothing, or say it does and accept about 6% small gaps.
    - Keep the unused 2027 leftover in the reserve to 2042.
    - Decide whether the reserve counts in the top. If it counts, the chance of reaching the top falls to about 1 in 3. If it does not, the top falls about $12k (median $155k) and is reached about 95% of the time.
-2. **Keep the net-minimum rule.** COMPETITION.md s7 already implies it. It is what makes "inside the range about 99%" true.
+2. **Keep the net-minimum rule.** competition/COMPETITION.md s7 already implies it. It is what makes "inside the range about 99%" true.
 3. **Keep the floor as "what is left" (F1), not a fixed $150k.** F2 raises the chance of breaking the bottom tenfold (0.08% to 0.84%) and can leave VT near zero.
 4. **In the IPS, quote only robust items.** The plan's rules, the $150k/$145k typical floor and bottom, about $165-169k typical top and gift, about 3 in 4 to reach the top (plan without 3r), and about $10-12k per point of permanent yield fall. Any probability of a short payment needs its basis named beside it.
 5. **Re-price on the 6 Nov close.** The room moved by $1.7k in one trading day (16 to 19 Oct).

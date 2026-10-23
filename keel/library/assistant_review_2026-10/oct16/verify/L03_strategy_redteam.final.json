@@ -63,15 +63,15 @@
    "IPS",
    "FinalReport"
   ],
-  "problem": "On the 15 Oct close the room under $300k is small on every basis: about $5.5k (19bp) on the payment-date forward basis used by V5 and the 16 Oct number sheet; about $4.7k (16bp) if gap cash earns T-bill rates; $1,372 (4.7bp) on the conservative 0%-carry, yields-unchanged basis the team used for the IBTR note. On that note's own basis its 'about 0.2 percentage points' trigger (22.7bp on 6 Oct) is now about 0.05; on the payment-date basis it fell from about 0.38 to 0.19. The chance the ladder costs over $300k on 1 Jan 2027 is about 1 in 3 (28-44% depending on basis and volatility; MODEL), so the 2028 deposit may well share the ladder job. V5's 'about $292,000 at late-September yields' is correctly dated but is now about $294.5k on the same basis; COMPETITION.md's '$293k on the 6 Oct curve' is a different (0%-carry) basis. Over $300k on 173-182 of 198 trading days in 2026, depending on basis.",
+  "problem": "On the 15 Oct close the room under $300k is small on every basis: about $5.5k (19bp) on the payment-date forward basis used by V5 and the 16 Oct number sheet; about $4.7k (16bp) if gap cash earns T-bill rates; $1,372 (4.7bp) on the conservative 0%-carry, yields-unchanged basis the team used for the IBTR note. On that note's own basis its 'about 0.2 percentage points' trigger (22.7bp on 6 Oct) is now about 0.05; on the payment-date basis it fell from about 0.38 to 0.19. The chance the ladder costs over $300k on 1 Jan 2027 is about 1 in 3 (28-44% depending on basis and volatility; MODEL), so the 2028 deposit may well share the ladder job. V5's 'about $292,000 at late-September yields' is correctly dated but is now about $294.5k on the same basis; competition/COMPETITION.md's '$293k on the 6 Oct curve' is a different (0%-carry) basis. Over $300k on 173-182 of 198 trading days in 2026, depending on basis.",
   "evidence": [
    "caplet/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:15 'If yields fall more than about 0.2 percentage points by January, the 2028 deposit would top up the ladder'",
    "caplet/google_drive/ips_report/01_version_5.md:24 'At late-September 2026 yields they cost about $292,000'",
-   "COMPETITION.md:152-153 'It costs about $293k on the 6 Oct curve'",
+   "competition/COMPETITION.md:152-153 'It costs about $293k on the 6 Oct curve'",
    "https://home.treasury.gov daily par yield CSV 2026 (accessed 16 Oct 2026): 15 Oct 10y 5.10, 20y 5.48",
    "Verifier re-run (scratchpad/oct16/verify/L03w/basis.py, 15 Oct curve): maturity-date unch $298,628 (4.7bp); maturity fwd $297,847; payment-date unch $295,246; payment-date fwd $294,461 (18.8bp); maturity-date with gap cash at 4.28% $295,329",
    "caplet-latest/research/ips_numbers_2026-10/results.json: ladder_cost_bootstrap_headline 2026-10-15 cost 294,453, headroom 5,547; p_ladder_over_300k_on_1jan2027 0.352",
-   "Verifier re-run, 6 Oct: maturity unch $293,453 (22.7bp) = COMPETITION.md:153 '$293k ... about 0.2 percentage points'; 25 Sep payment-date fwd $292,272 = CLAUDE.md '$292,264'",
+   "Verifier re-run, 6 Oct: maturity unch $293,453 (22.7bp) = competition/COMPETITION.md:153 '$293k ... about 0.2 percentage points'; 25 Sep payment-date fwd $292,272 = CLAUDE.md '$292,264'",
    "MODEL lenses/L03/gapodds.txt: 182 of 198 days over $300k (maturity basis); verifier: 173 of 198 on payment-date basis"
   ],
   "fix": "Pick one ladder-cost basis, name it, and use it in the TNA, IPS and Final Report (see VER-L03-01). Describe the 2027 purchase as a rule that works either way (latest payments first; the 2028 deposit completes any gap). Date any figure and give its sensitivity (about $2.9-3.0k per 0.1 point). In the IBTR reflection, say the 6 Oct test is close to biting, with a date and the basis. In the Final Report, state the 1 Jan 2027 curve assumption.",
@@ -80,7 +80,7 @@
   "deadline": "TNA Fri 23 Oct 5pm ET (Sat 24 Oct 08:00 Sydney); IPS 6 Nov",
   "lens": "L03_strategy_redteam",
   "verdict": "adjusted",
-  "verifier_note": "Quotes verified (05_...md:15, V5:24, COMPETITION.md:153-154). But $298,628 is a 0%-carry, 'yields unchanged' figure (each holding priced to its own maturity date, gap cash earning nothing); it is the right like-for-like for the IBTR note's 0.2pp trigger (the team's 6 Oct $293k/0.2pp is the same basis: $293,453, 22.7bp) but not for V5's $292k, which is a payment-date forward value (25 Sep: $292,272). Like-for-like, V5's figure moved to about $294.5k (16 Oct number sheet). The 44% odds mix the conservative basis with a 3.15% vol; on the payment-date basis the same vol gives about 28%, the sheet gives 35%. 'Coin flip' overstated; 'about 1 in 3' is fair."
+  "verifier_note": "Quotes verified (05_...md:15, V5:24, competition/COMPETITION.md:153-154). But $298,628 is a 0%-carry, 'yields unchanged' figure (each holding priced to its own maturity date, gap cash earning nothing); it is the right like-for-like for the IBTR note's 0.2pp trigger (the team's 6 Oct $293k/0.2pp is the same basis: $293,453, 22.7bp) but not for V5's $292k, which is a payment-date forward value (25 Sep: $292,272). Like-for-like, V5's figure moved to about $294.5k (16 Oct number sheet). The 44% odds mix the conservative basis with a 3.15% vol; on the payment-date basis the same vol gives about 28%, the sheet gives 35%. 'Coin flip' overstated; 'about 1 in 3' is fair."
  },
  {
   "id": "STRAT-05",
@@ -116,9 +116,9 @@
    "FinalReport",
    "TNA"
   ],
-  "problem": "VT is about $32-35k (about 7-8% of the $450k). Its median 2033 gain over Treasuries is about $4k (MODEL, JPM 7.0%/16.78%). Under the half rule a bigger floor raises the median gift ($175k at a $150k floor vs $152k at $100k, MODEL), yet COMPETITION.md:164 and V5:28 state the opposite: their claims hold only for total money, not the gift. The team's rival memo (STRIPS basis, do not quote) also found All-Treasury better for the facility at every percentile. The 'too timid' criticism is still open while the case calls Laura 'willing to take thoughtful risks'.",
+  "problem": "VT is about $32-35k (about 7-8% of the $450k). Its median 2033 gain over Treasuries is about $4k (MODEL, JPM 7.0%/16.78%). Under the half rule a bigger floor raises the median gift ($175k at a $150k floor vs $152k at $100k, MODEL), yet competition/COMPETITION.md:164 and V5:28 state the opposite: their claims hold only for total money, not the gift. The team's rival memo (STRIPS basis, do not quote) also found All-Treasury better for the facility at every percentile. The 'too timid' criticism is still open while the case calls Laura 'willing to take thoughtful risks'.",
   "evidence": [
-   "COMPETITION.md:164 'less stock means a lower median contribution'",
+   "competition/COMPETITION.md:164 'less stock means a lower median contribution'",
    "caplet/google_drive/ips_report/01_version_5.md:28 'Moving floor money into equities would raise the expected contribution'",
    "archive/rab/decisions/D_rivals.md: 'For the facility alone it is better at every percentile (gift $191k / $202k / $213k against $165k / $174k / $189k)'",
    "caplet/google_drive/strategy_notes.md:22 'the \"timid plan\" criticism is still open'",
@@ -132,7 +132,7 @@
   "deadline": "IPS Fri 6 Nov",
   "lens": "L03_strategy_redteam",
   "verdict": "adjusted",
-  "verifier_note": "Sign error verified: under gift = floor + half the fund, moving $X from floor to stocks changes the expected gift by about -X + 0.5 x 1.5X < 0 (sleeve.txt: median gift $175k at $150k floor vs $152k at $100k). COMPETITION.md:164 and V5:28 quotes verified. Corrections: VT is about $32-35k (7-8%): V5 keeps the 2027 leftover as the first buffer, so it is not in VT (number sheet: about $32k, 'Jan 2028 typical ~7%'); the D_rivals percentiles are STRIPS basis and the 15 Oct brief says not to quote them (final.md:437), so they are internal evidence only."
+  "verifier_note": "Sign error verified: under gift = floor + half the fund, moving $X from floor to stocks changes the expected gift by about -X + 0.5 x 1.5X < 0 (sleeve.txt: median gift $175k at $150k floor vs $152k at $100k). competition/COMPETITION.md:164 and V5:28 quotes verified. Corrections: VT is about $32-35k (7-8%): V5 keeps the 2027 leftover as the first buffer, so it is not in VT (number sheet: about $32k, 'Jan 2028 typical ~7%'); the D_rivals percentiles are STRIPS basis and the 15 Oct brief says not to quote them (final.md:437), so they are internal evidence only."
  },
  {
   "id": "STRAT-04",
@@ -174,7 +174,7 @@
    "caplet/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:20 'IBTO is for Laura's second $50,000 payment'",
    "caplet/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:24 'scaled to the model portfolio'",
    "archive/rab/trades/tickets.md: Portfolio IBTO 1,016 shares vs Book L 1,503 shares",
-   "COMPETITION.md:176-185 filled quantities"
+   "competition/COMPETITION.md:176-185 filled quantities"
   ],
   "fix": "Where a reflection or the IPS mentions a payment amount, make the scaling explicit once (the WInS book is Laura's post-2028 allocation scaled to $300k; each rung is about two-thirds of a payment). Put a WInS-to-Laura mapping table in the Final Report.",
   "confidence": "high",
@@ -182,7 +182,7 @@
   "deadline": "TNA Fri 23 Oct 5pm ET",
   "lens": "L03_strategy_redteam",
   "verdict": "adjusted",
-  "verifier_note": "Quotes verified (05_...md:20, :22, :24; tickets.md:30 vs :67 IBTO 1,016 vs 1,503 = 0.676; COMPETITION.md:177 filled 1,024). Fix too heavy: each TNA reflection is capped at 100 words (TNA-FINAL.txt:46), so the mapping belongs only in reflections that discuss a dollar amount, not 'every reflection'."
+  "verifier_note": "Quotes verified (05_...md:20, :22, :24; tickets.md:30 vs :67 IBTO 1,016 vs 1,503 = 0.676; competition/COMPETITION.md:177 filled 1,024). Fix too heavy: each TNA reflection is capped at 100 words (TNA-FINAL.txt:46), so the mapping belongs only in reflections that discuss a dollar amount, not 'every reflection'."
  },
  {
   "id": "STRAT-07",
@@ -214,10 +214,10 @@
    "IPS",
    "FinalReport"
   ],
-  "problem": "The floor is either 'the remainder' (V5:24) or 'about $150k' (COMPETITION.md:155-156). Under the $150k reading, a 2027 top-up plus a low 2028 yield can squeeze the stock fund to near zero and the 2031 range to almost a point. Under the 'remainder' reading the floor falls instead and the fund shrinks with yields (about 14% of the remainder at a 3% five-year yield). Either way, low yields hit the facility twice (bigger 2027 gap, dearer floor), and V5 does not say which reading applies. On the 2 Jan 2026 curve the ladder alone would have cost about $317-325k.",
+  "problem": "The floor is either 'the remainder' (V5:24) or 'about $150k' (competition/COMPETITION.md:155-156). Under the $150k reading, a 2027 top-up plus a low 2028 yield can squeeze the stock fund to near zero and the 2031 range to almost a point. Under the 'remainder' reading the floor falls instead and the fund shrinks with yields (about 14% of the remainder at a 3% five-year yield). Either way, low yields hit the facility twice (bigger 2027 gap, dearer floor), and V5 does not say which reading applies. On the 2 Jan 2026 curve the ladder alone would have cost about $317-325k.",
   "evidence": [
    "caplet/google_drive/ips_report/01_version_5.md:24 'sized to return that remainder'",
-   "COMPETITION.md:155-156 'sized to return about $150k by 2033'",
+   "competition/COMPETITION.md:155-156 'sized to return about $150k by 2033'",
    "archive/rab/decisions/D_rivals.md: 'Yields falling more than about 1 point before January 2027: the fund is used up'",
    "Verifier re-run, 2 Jan 2026 curve: $316,547 (payment-date fwd) to $325,241 (maturity unch)",
    "scratchpad/oct14/final.md:431 (two floor readings already flagged)"
@@ -228,7 +228,7 @@
   "deadline": "IPS Fri 6 Nov",
   "lens": "L03_strategy_redteam",
   "verdict": "adjusted",
-  "verifier_note": "Two floor readings verified (V5:24 'sized to return that remainder' vs COMPETITION.md:155-156 'about $150k'); known from the 15 Oct brief (final.md:431). But 'vanish' depends on the reading: under V5's own 'remainder' reading the stock fund is a fixed share of what is left (about 1 - 1/(1+y)^5, e.g. about 14% at a 3% five-year yield), so it shrinks but does not vanish unless yields are very low. The lens example ($150k - $129.6k - $14k = $6k) mixes a 2-point yield fall with a p95 top-up sized for a small fall; a 2-point fall would make the 2027 gap far larger. On 2 Jan 2026 the ladder cost $317-325k depending on basis, not just $325k."
+  "verifier_note": "Two floor readings verified (V5:24 'sized to return that remainder' vs competition/COMPETITION.md:155-156 'about $150k'); known from the 15 Oct brief (final.md:431). But 'vanish' depends on the reading: under V5's own 'remainder' reading the stock fund is a fixed share of what is left (about 1 - 1/(1+y)^5, e.g. about 14% at a 3% five-year yield), so it shrinks but does not vanish unless yields are very low. The lens example ($150k - $129.6k - $14k = $6k) mixes a 2-point yield fall with a p95 top-up sized for a small fall; a 2-point fall would make the 2027 gap far larger. On 2 Jan 2026 the ladder cost $317-325k depending on basis, not just $325k."
  },
  {
   "id": "STRAT-09",
@@ -245,7 +245,7 @@
    "same page: 'the Funds do not seek to return any predetermined amount'; 'Expense Ratio 0.07%'; 'Net Assets of Fund $109,148,633 as of Oct 15, 2026'",
    "https://www.ishares.com/us/products/328944/ishares-ibonds-dec-2032-term-treasury-etf (accessed 16 Oct 2026): 'Weighted Avg Maturity 5.71 yrs as of Oct 14, 2026'",
    "archive/rab/data/ishares/ibonds_facts.csv: IBTR net assets $37,557,081 Sep 28 2026",
-   "COMPETITION.md:93 'none maturing Feb 2031 to Feb 2036'",
+   "competition/COMPETITION.md:93 'none maturing Feb 2031 to Feb 2036'",
    "caplet/google_drive/ips_report/01_version_5.md:26 'we substitute a Treasury maturing earlier'"
   ],
   "fix": "Add one honest clause on what an iBond pays, include fees in the ladder cost, and check the substitution rule against the WInS bond gap. Put the details in the Final Report.",
@@ -254,7 +254,7 @@
   "deadline": "IPS 6 Nov (clause); Final Report 4 Dec",
   "lens": "L03_strategy_redteam",
   "verdict": "confirmed",
-  "verifier_note": "Re-fetched the IBTM page 16 Oct 2026: 'Weighted Avg Maturity 5.71 yrs as of Oct 14, 2026', expense ratio 0.07%, net assets $592.4m; IBTR saved page lines 315-337, 903-905 match the quotes ($109,148,633 as of 15 Oct). ibonds_facts.csv IBTR $37,557,081 (28 Sep) verified; COMPETITION.md:93 gap verified. About 61% of the WInS book is in iBonds (computed from COMPETITION.md:176-180 fills). The $1-1.5k fee estimate is rough but the right order of magnitude."
+  "verifier_note": "Re-fetched the IBTM page 16 Oct 2026: 'Weighted Avg Maturity 5.71 yrs as of Oct 14, 2026', expense ratio 0.07%, net assets $592.4m; IBTR saved page lines 315-337, 903-905 match the quotes ($109,148,633 as of 15 Oct). ibonds_facts.csv IBTR $37,557,081 (28 Sep) verified; competition/COMPETITION.md:93 gap verified. About 61% of the WInS book is in iBonds (computed from competition/COMPETITION.md:176-180 fills). The $1-1.5k fee estimate is rough but the right order of magnitude."
  },
  {
   "id": "STRAT-11",
@@ -336,7 +336,7 @@
   "evidence": [
    "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXTAUS (accessed 16 Oct 2026): 31.94 on 2026-10-09",
    "MODEL lenses/L03/fx.txt: '6-year change in TWD value vs USD since 1990 (n=370): p5 -21.7% p50 -1.2% p95 12.4%, max TWD gain 20.2%'",
-   "COMPETITION.md:78 'Banned | margin, shorting, stock-secured debt, crypto, derivatives'",
+   "competition/COMPETITION.md:78 'Banned | margin, shorting, stock-secured debt, crypto, derivatives'",
    "archive/rab/assumptions.md L10: 'The case writes \"$\" and never names a currency'"
   ],
   "fix": "In the Final Report, state the currency assumption (quote the range in USD), size the FX risk in one sentence, explain why it is unhedged, and note it in the co-sponsor message.",
@@ -345,7 +345,7 @@
   "deadline": "Final Report Fri 4 Dec",
   "lens": "L03_strategy_redteam",
   "verdict": "adjusted",
-  "verifier_note": "Numbers verified (fx.txt; COMPETITION.md:78; archive/rab/assumptions.md:60). Severity cut to low: the case never names a currency and does not ask for FX analysis; V5 already names the risk (V5:28); one assumption line in the Final Report is enough. 'As large as the whole equity half' is loose: a p95 TWD rise costs about $19k against a median kept half of about $25k."
+  "verifier_note": "Numbers verified (fx.txt; competition/COMPETITION.md:78; archive/rab/assumptions.md:60). Severity cut to low: the case never names a currency and does not ask for FX analysis; V5 already names the risk (V5:28); one assumption line in the Final Report is enough. 'As large as the whole equity half' is loose: a p95 TWD rise costs about $19k against a median kept half of about $25k."
  },
  {
   "id": "STRAT-16",

@@ -26,7 +26,7 @@ before the final synthesis; the TNA is due Sat 24 Oct 08:00 Sydney.
 | Repo activity | Last push 19 Oct 20:37 Sydney (the WO-0002 branch). The one fork was last pushed 19 Oct 09:41 Sydney (18 Oct 22:41 UTC), before the window | `gh api repos/...`, `.../forks`, `.../events` |
 
 What this means for the files named in the brief:
-- `COMPETITION.md` on main is identical to the snapshot, so the coupon facts there have not changed.
+- `competition/COMPETITION.md` on main is identical to the snapshot, so the coupon facts there have not changed.
 - `caplet/docs/AI_USE.md` is unchanged on main (main has not moved). There is no root-level `AI_USE.md` on any branch.
 - `keel/office/workstreams/` (1_TNA, 2_IPS, 3_FINAL_REPORT) is unchanged on main.
 - No TNA text has been committed anywhere.

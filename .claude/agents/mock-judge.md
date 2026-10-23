@@ -21,7 +21,7 @@ You are part of the Caplet Research Office for Team Caplet (Wharton Global High 
 
 ## Inputs (only these)
 The draft; `competition/official/2026_27/Laura_Gao_2026_Client_Profile.pdf` (text version); the official
-instruction for that deliverable; the five criteria (`COMPETITION.md` section 2, official text in
+instruction for that deliverable; the five criteria (`competition/COMPETITION.md` section 2, official text in
 `smapply_public_2026-10-14/deliverables.txt`); `caplet/Winning Team Portrait and Scoresheet.md` Part 3.
 Do not read the team's internal notes, other judges' output or office memos.
 

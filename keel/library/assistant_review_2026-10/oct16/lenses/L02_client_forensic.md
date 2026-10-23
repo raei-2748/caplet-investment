@@ -2,7 +2,7 @@
 
 Prepared Fri 16 Oct 2026 (Sydney) by an AI reviewer for Team Caplet. **Research and checks only, not submission text.** Nothing here is drafted deliverable prose. Record this review in the team's AI-use log.
 
-Sources read in full: the case (`competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt`, 169 lines; `client_case_laura_gao_2026.pdf` is byte-identical, checked with `cmp`), the IPS brief (`2026_WGY_Investment_Policy-FINAL.txt`), the TNA brief, the Guide, the SMApply client and deliverables pages (14 Oct snapshot), IPS V5 (`caplet/google_drive/ips_report/01_version_5.md`), Tab 15, the 11 filled WInS notes (`05_trading_note_reflection_wins_trading_notes.md`), `COMPETITION.md`, `toolkit/config/client_mandate.yaml`, `caplet/google_drive/notes_and_discussions.md`, `strategy_notes.md`, `client_portrait.md`, `final_report.md`, `caplet/deliverables/*`, the RAB decision memos (`archive/rab/decisions/D6_cap_share.md`, `D_range_confidence_2031.md`, `D_certainty_definition.md`), `keel/library/insight_v1/ips_spec.md`, `phase_A/case_register.md`. Line numbers below are file line numbers. "Case:N" = `Laura_Gao_2026_Client_Profile.txt` line N.
+Sources read in full: the case (`competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt`, 169 lines; `client_case_laura_gao_2026.pdf` is byte-identical, checked with `cmp`), the IPS brief (`2026_WGY_Investment_Policy-FINAL.txt`), the TNA brief, the Guide, the SMApply client and deliverables pages (14 Oct snapshot), IPS V5 (`caplet/google_drive/ips_report/01_version_5.md`), Tab 15, the 11 filled WInS notes (`05_trading_note_reflection_wins_trading_notes.md`), `competition/COMPETITION.md`, `toolkit/config/client_mandate.yaml`, `caplet/google_drive/notes_and_discussions.md`, `strategy_notes.md`, `client_portrait.md`, `final_report.md`, `caplet/deliverables/*`, the RAB decision memos (`archive/rab/decisions/D6_cap_share.md`, `D_range_confidence_2031.md`, `D_certainty_definition.md`), `keel/library/insight_v1/ips_spec.md`, `phase_A/case_register.md`. Line numbers below are file line numbers. "Case:N" = `Laura_Gao_2026_Client_Profile.txt` line N.
 
 MODEL = a computed estimate from the repo, not a fact. Most repo model figures are on the 28 Sep STRIPS basis, which the 6 Oct email superseded; re-run before quoting.
 
@@ -39,14 +39,14 @@ Verdict key: **OK** = addressed correctly. **THIN** = mentioned, not answered. *
 | 8 | "strategic thinking and a willingness to pursue unconventional opportunities" (26) | personality | notes:377 | OK in notes |
 | 9 | Pull quote "The only person who needs to believe in something is yourself." (31-33) | cue | notes:242 warns it is the case's words, not hers; notes:344 and :377 then call it "Her quote" | MIS inside the team's own doc (known; CLIENT-15) |
 | 10 | "objectives that reflect both her entrepreneurial mindset and her passion for innovation" (40-41) | cue | Not addressed anywhere in V5 or the notes | UNDER (CLIENT-06) |
-| 11 | $300,000 at the beginning of 2027 "with an asset management firm" (43) | number | V5:20; COMPETITION.md:51 | OK |
+| 11 | $300,000 at the beginning of 2027 "with an asset management firm" (43) | number | V5:20; competition/COMPETITION.md:51 | OK |
 | 12 | "She will contribute an additional $150,000 at the beginning of 2028, using earnings from publishing advances, speaking engagements, licensing …" (43-45) | number / fact | V5:20, :24; notes:47 "depends on her career going OK"; notes:405, :495 "least stable" income | OK in V5; OVER in notes (CLIENT-15) |
-| 13 | Year 0 = 2026 … 2033 = Year 7 (46-58) | convention | COMPETITION.md:61 | OK |
+| 13 | Year 0 = 2026 … 2033 = Year 7 (46-58) | convention | competition/COMPETITION.md:61 | OK |
 | 14 | "All contributions and withdrawals occur at the beginning of the applicable year. … spaced exactly one year apart." (59-60) | timing | WInS notes use "1 Jan" (05_…md:16-24); D_certainty_definition.md:57 assumption 6 | OK (state the 1 Jan assumption once in the Final Report) |
 | 15 | Living expenses "covered by income and financial resources outside the portfolio" (61-63) | capacity | V5:22 "other income covers her living costs" | THIN: drops "financial resources", which is evidence of more risk capacity |
 | 16 | No adds or withdrawals before 2033 apart from the two deposits (63-65) | constraint | V5:22 | OK |
 | 17 | "understands that investing involves uncertainty and periods of market volatility" (68-69) | risk | Not addressed | UNDER |
-| 18 | "willing to take thoughtful risks … recommend an appropriate balance between pursuing growth and protecting the capital required for her goals" (69-74) | risk / explicit ask | V5:22 ("willingness depends on the objective"); about 9% stocks (COMPETITION.md:156-157) | THIN (CLIENT-06, CLIENT-07) |
+| 18 | "willing to take thoughtful risks … recommend an appropriate balance between pursuing growth and protecting the capital required for her goals" (69-74) | risk / explicit ask | V5:22 ("willingness depends on the objective"); about 9% stocks (competition/COMPETITION.md:156-157) | THIN (CLIENT-06, CLIENT-07) |
 | 19 | 2033 "collaborative creative residency in Taiwan … small, community-oriented space where artists, writers, designers, entrepreneurs, and educators can temporarily live, work, teach, and collaborate" (75-80) | goal | V5:20 "the Taiwan creative residency she opens in 2033"; V5:22 "the artists" | THIN: V5 never says what the residency is (CLIENT-16) |
 | 20 | "funding for the facility as well as reliable support for its early operations" (83) | goal | case_register.md R-AN25 flags "early operations". Not in any deliverable draft | UNDER (CLIENT-09, CLIENT-20) |
 | 21 | Portfolio "must fund the operating commitment … and may also cover part of the facility's cost" (84-85) | priority | V5:20 (first and second objectives) | OK |
@@ -78,14 +78,14 @@ Verdict key: **OK** = addressed correctly. **THIN** = mentioned, not answered. *
 | 47 | "The proposed range must also protect the portfolio's ability to fund the ten-year operating commitment." (119-120) | constraint | V5:30 "rounded down after any expected shortfall" | OK in idea; the wording can be read two ways (known) |
 | 48 | "draft part of Laura's fundraising materials … for prospective co-sponsors" (123-124) | explicit ask | Only caplet/deliverables/cosponsor_talking_points.md (stale) | GAP (CLIENT-12) |
 | 49 | "Teams may reach different conclusions about risk, asset allocation, liquidity, return expectations, funding confidence, the facility contribution, and the financial flexibility Laura should preserve." (126-128) | framing | Not used | UNDER (CLIENT-06) |
-| 50 | WInS "does not determine Laura's actual portfolio value"; do not add WInS gains (129-133) | rule | COMPETITION.md:38-39; V5:26 "scaled down" | OK |
+| 50 | WInS "does not determine Laura's actual portfolio value"; do not add WInS gains (129-133) | rule | competition/COMPETITION.md:38-39; V5:26 "scaled down" | OK |
 | 51 | Five strategy bullets: certainty, responsible contribution, uncertainty effect on both, communicate clearly and credibly, preserve flexibility (134-145) | explicit asks | V5 covers 1, 3 and 4 partly; 2 and 5 thinly | THIN (CLIENT-01) |
 | 52 | Assumptions about "investment performance, the timing of cash flows, outside funding, the effect of inflation on portfolio projections and facility costs, and the financial flexibility Laura should preserve" (146-148) | explicit ask (5 items) | V5: cash-flow timing yes; outside funding yes; inflation on facility costs one clause (V5:28); performance none; inflation on projections none; flexibility none | THIN (CLIENT-03, CLIENT-09) |
 | 53 | "consider how favorable and unfavorable investment outcomes would affect their recommendations" (148-149) | ask | V5:28 | THIN |
-| 54 | Three connected deliverables; "Evaluators will consider the three deliverables together" (150-162) | rule | COMPETITION.md:34 | OK (consistency risk: CLIENT-02, CLIENT-12) |
+| 54 | Three connected deliverables; "Evaluators will consider the three deliverables together" (150-162) | rule | competition/COMPETITION.md:34 | OK (consistency risk: CLIENT-02, CLIENT-12) |
 | 55 | Final Report covers "operating commitment, facility contribution, financial flexibility, and communication with co-sponsors" (158-160) | structure | caplet/deliverables/final_report_outline.md (old plan) | THIN |
 | 56 | Facility cost not determined; no budget, funding gap or business plan (164-167) | scope | CLAUDE.md lists a Taiwan construction-cost index as an inflation input, not a cost estimate | OK if kept to inflation |
-| 57 | Taxes and Taiwan legal and regulatory requirements out of scope (168-169) | scope | COMPETITION.md:60 | OK |
+| 57 | Taxes and Taiwan legal and regulatory requirements out of scope (168-169) | scope | competition/COMPETITION.md:60 | OK |
 
 **Count** (by each row's first tag): of 57 elements, 23 are OK, 17 THIN, 9 UNDER, 6 GAP and 2 MIS. Rows 6 and 12 also carry an OVER tag. The pattern: **Caplet nails the cash flows and the payment priority, but under-answers the case's "explain / define / state / justify" asks, and nearly ignores flexibility, "meaningful" and what the residency is.**
 
@@ -149,7 +149,7 @@ Verdict key: **OK** = addressed correctly. **THIN** = mentioned, not answered. *
   - **V5 answers (3) partly** ("shrinking as each payment is made", V5:26) **and (4) partly** (a mechanism, V5:20).
   - **Size (1) cannot be stated cleanly** while the payment backstop (the kept half, CLIENT-02) sits outside the reserve. D_certainty_definition.md:63 proposes "the ten holdings' value plus that measured amount", but it is unratified.
   - **Initial composition on 1 Jan 2033 (2) is written nowhere.** By then IBTM has paid out in Dec 2032 (cash for the first payment, which falls on the reserve date itself: case_register.md:48). The reserve also holds IBTO-IBTR (four funds), five coupon bonds and the reinvested coupon units.
-  - **Where cash from the Feb-2037 and May-2038 bonds waits** for 10.5 and 7.5 months is only in the WInS notes (05_…md:16-17) and Tab 15 (15_tab_15.md:35). The real plan may use only WInS-listed securities (COMPETITION.md:87-90), and no WInS-listed short Treasury fund has been named (UNVERIFIED).
+  - **Where cash from the Feb-2037 and May-2038 bonds waits** for 10.5 and 7.5 months is only in the WInS notes (05_…md:16-17) and Tab 15 (15_tab_15.md:35). The real plan may use only WInS-listed securities (competition/COMPETITION.md:87-90), and no WInS-listed short Treasury fund has been named (UNVERIFIED).
   - **"Mainly on the US government" (V5:20) hides the coupon-reinvestment part.** On the old basis the government owes "at least about $42,000 of every $50,000" (D_certainty_definition.md:19, :42; MODEL, superseded basis).
   - The 15 Oct brief flagged "certainty undefined" and "where early cash waits". It did not map the six-part ask, the reserve-size ambiguity or the missing 2033 composition.
 - **Fix.**
@@ -189,7 +189,7 @@ Verdict key: **OK** = addressed correctly. **THIN** = mentioned, not answered. *
     - she has been "willing to take thoughtful risks" (Case:70);
     - she wants "an appropriate balance between pursuing growth and protecting the capital" (Case:72-74).
   - It also says "the investment strategy that Laura ultimately chooses" (Case:9), and that teams may reach different conclusions on "the financial flexibility Laura should preserve" (Case:126-128).
-  - Caplet's plan has about 9% of all money in stocks after 2028 (COMPETITION.md:156-157). All three simulated Lauras called it "too timid" (notes:101; AI opinion). V5:22 says her tolerance above the floor is "above average", but V5 never says why the growth slice is small.
+  - Caplet's plan has about 9% of all money in stocks after 2028 (competition/COMPETITION.md:156-157). All three simulated Lauras called it "too timid" (notes:101; AI opinion). V5:22 says her tolerance above the floor is "above average", but V5 never says why the growth slice is small.
   - The team's own best answer sits in notes, unused:
     - the "price of certainty" table: each $25k less floor adds $2-3k to the middle outcome but costs $9-10k in a bad market (notes:286-302, MODEL, STRIPS basis);
     - "the leap is the residency itself" (notes:124).
@@ -277,7 +277,7 @@ Verdict key: **OK** = addressed correctly. **THIN** = mentioned, not answered. *
 - **Problem.**
   - The case: payments "must be funded by the investment portfolio … Teams may not rely on … other outside funding" (Case:91-92).
   - archive/rab/decisions/D6_cap_share.md:54: "From the 2033 gift to the last payment she holds her half in Treasuries; **beyond it, she adds her own money**." That is reliance on outside money. D_certainty_definition.md:62 says the opposite ("never 'her own money'").
-  - V5:30 says the other half "stays with Laura", and COMPETITION.md:161 says "the rest stays with Laura". Both read as money leaving the portfolio. Yet V5:26 uses that same half to cover payment shortfalls. If it has left, the payments rely on Laura's outside money.
+  - V5:30 says the other half "stays with Laura", and competition/COMPETITION.md:161 says "the rest stays with Laura". Both read as money leaving the portfolio. Yet V5:26 uses that same half to cover payment shortfalls. If it has left, the payments rely on Laura's outside money.
   - V5's chain also omits the floor as the last owner (known: final.md vote set A).
 - **Fix.**
   - The policy must say the kept money stays invested in the portfolio until the last payment (or until the team's stated release rule).
@@ -329,7 +329,7 @@ Verdict key: **OK** = addressed correctly. **THIN** = mentioned, not answered. *
 
 ### CLIENT-18 · The team's "single source of truth" summarises the client more thinly than the case (low · Team, IPS, Final Report · known-deeper)
 - **Problem.**
-  - COMPETITION.md §3 (lines 46-61) omits:
+  - competition/COMPETITION.md §3 (lines 46-61) omits:
     - the six reserve and certainty asks;
     - the five assumption categories;
     - "explain favourable and unfavourable outcomes";
@@ -340,19 +340,19 @@ Verdict key: **OK** = addressed correctly. **THIN** = mentioned, not answered. *
   - The team's Client Portrait is a placeholder: "Placeholder for now" (client_portrait.md:14; known, final.md:614).
   - toolkit/config/client_mandate.yaml is better (it lists the tensions, :219-222) but has `human_approved: false` (:231).
   - The items missing from the summary are the same ones missing from V5.
-- **Fix.** The client lead turns the table in section 2 of this file into the team's own one-page case checklist (their words), linked from COMPETITION.md. Tick every row against each draft.
+- **Fix.** The client lead turns the table in section 2 of this file into the team's own one-page case checklist (their words), linked from competition/COMPETITION.md. Tick every row against each draft.
 
 ### CLIENT-19 · "Root-and-Branch" echoes Laura's own published words, but V5 never earns the name (low · IPS, Final Report · known-deeper)
 - **Problem.**
   - Her official bio says "Laura's roots spread wide through California, Texas, and China" (https://lauragao.com/hey/, accessed 16 Oct 2026). Her memoir is *Messy Roots* (Case:22).
-  - So the strategy name has a real, verifiable link to her vocabulary. But in her work "roots" means heritage and identity, and V5 uses it only for Treasuries (V5:16, :24) without explaining it. The open item is in COMPETITION.md:204.
+  - So the strategy name has a real, verifiable link to her vocabulary. But in her work "roots" means heritage and identity, and V5 uses it only for Treasuries (V5:16, :24) without explaining it. The open item is in competition/COMPETITION.md:204.
   - A name that is never explained reads as a pun; one explained once reads as tailoring.
 - **Fix.** Decide in vote set A whether the name earns its place. If kept, explain the link once and respectfully (the IPS allows no citations, so cite the bio in the Final Report). Never imply Laura endorsed the name.
 
 ### CLIENT-20 · The earliest payments rest on the least fixed instruments (low · Final Report · new)
 - **Problem.**
   - The case stresses "reliable support for its early operations" (Case:83). A missed first-years payment would hurt a new residency most (reasoning).
-  - Because WInS lists no Treasury maturing Feb 2031 to Feb 2036 (COMPETITION.md:93-94), payments 2033-2037 use iBond funds whose "payout is not fixed" (05_…md:19-22). Payments 2038-2042 use fixed bonds.
+  - Because WInS lists no Treasury maturing Feb 2031 to Feb 2036 (competition/COMPETITION.md:93-94), payments 2033-2037 use iBond funds whose "payout is not fixed" (05_…md:19-22). Payments 2038-2042 use fixed bonds.
   - The modelled spread is small: on the old basis the floor holding "pays about $149,000 typically and at least about $146,000" per $150k, so roughly 2.5% at worst (D_range_confidence_2031.md:23-24, MODEL).
 - **Fix.** The Final Report names this honestly as a WInS-listing constraint, states the measured worst case on the WInS basis, and names the cover (the 2027 leftover first). One or two sentences; it turns a weakness into evidence of care.
 
@@ -401,7 +401,7 @@ Verdict key: **OK** = addressed correctly. **THIN** = mentioned, not answered. *
 | V5:30 "so she cannot miss the range" | Absolute (known) | Conditional and true |
 | V5:30 "The other half stays with Laura" | Implies withdrawal (CLIENT-13) | Stays invested in the portfolio |
 | WInS VT note "her promised minimum" (05_…md:14) | Overclaim (known); notes cannot be edited | Explain in the reflection |
-| COMPETITION.md:49 "Laura is a fictional client" | False (known) | "Real client, invented financial scenario" |
+| competition/COMPETITION.md:49 "Laura is a fictional client" | False (known) | "Real client, invented financial scenario" |
 | notes:344, :377 "Her quote" | Contradicts notes:242 | Case's words only |
 | notes:377 "She's not a typical artist" | Stereotype | Delete before any reuse |
 | notes:487 "Immigrant, queer …" | Identity labels; not a portfolio input | Keep out of deliverables |

@@ -252,7 +252,7 @@
       "problem": "WInS shows US Eastern times in US numeric format ('10/07/2026' = 7 Oct, which reads as 10 July to an Australian). The team lives in Sydney time, and team files say 'filled 7-8 Oct' while the orders were placed 6-7 Oct ET. Wharton verifies notes against WInS, so a reflection using Sydney dates (for example 'on 7 October we bought IBTM') will not match WInS's 10/06.",
       "evidence": [
         "caplet/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:14-24 (order dates 10/06-10/07/2026, ET)",
-        "CLAUDE.md:8 and COMPETITION.md:172 'filled 7-8 Oct'",
+        "CLAUDE.md:8 and competition/COMPETITION.md:172 'filled 7-8 Oct'",
         "caplet/google_drive/final_report.md:27 'Oct7: ... 12:30 AM that the market would open' (Sydney time)",
         "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:53 'Yes, we will verify this.'",
         "Clock: AEDT (UTC+11) from Sun 4 Oct 2026; US EDT to EST on Sun 1 Nov 2026, so 15 hours apart until 1 Nov and 16 after"

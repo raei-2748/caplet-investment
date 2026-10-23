@@ -11,7 +11,7 @@ manager and CFA charterholder, ideally a bond person: reads for client fit, risk
 rule compliance.
 
 **What we read.** The official 2026-27 criteria and instructions; the 15 WInS notes as exported 14 Oct; IPS Version 5;
-the Final Report Doc; COMPETITION.md; archive/rab/ and keel/library/insight_v1/ where they bear on the documents; the evidence pack
+the Final Report Doc; competition/COMPETITION.md; archive/rab/ and keel/library/insight_v1/ where they bear on the documents; the evidence pack
 `oct16/research/KB_what_wins.md` (its UNVERIFIED items stay UNVERIFIED); commit 412e9e3 (copied at
 `/home/user/caplet-latest`); the sibling lenses L02, L03, L05, L08, L09, L10, so that this file adds rather than repeats.
 Paths without a prefix are in `/home/user/caplet-investment`. `caplet-latest/` = the 16 Oct branch copy. All web facts come
@@ -534,7 +534,7 @@ Repo (read-only, 16 Oct 2026):
   `08_old_versions_v3.md:24`; `12_old_versions_v2_comments.md:9`
 - `caplet/google_drive/final_report.md:14-27`; `strategy_notes.md:22`; `notes_and_discussions.md:209-226`
 - `caplet/deliverables/final_report_outline.md:1-15`; `keel/library/insight_v1/phase_B/B6b_cosponsors.md:288,542`
-- `CLAUDE.md:40-41,75`; `COMPETITION.md:147-185`
+- `CLAUDE.md:40-41,75`; `competition/COMPETITION.md:147-185`
 - `caplet-latest/CLAUDE.md:27-30`; `caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:12-54`;
   `IPS_v5_suggestions.md:9-21`; `ips_numbers.py:70-125`; `results.json`;
   `caplet-latest/competition/official_market_data/daily-treasury-rates_2026-10.csv`

@@ -1,9 +1,9 @@
 > Moved from the repo root on 23 Oct 2026; this is the September `wharton-ic` toolkit README. Links are relative to the repo root.
 
-> **New to the team? Read [`START_HERE.md`](START_HERE.md), then [`COMPETITION.md`](COMPETITION.md)** (every rule,
+> **New to the team? Read [`caplet/START_HERE.md`](caplet/START_HERE.md), then [`competition/COMPETITION.md`](competition/COMPETITION.md)** (every rule,
 > date, format and our current status, updated 2026-10-14). The architecture below describes the `wharton-ic` toolkit
 > as first built in September; the official 2026-27 materials it was waiting for have since been released and are in
-> `competition/official/2026_27/`. Where this README and `COMPETITION.md` disagree, `COMPETITION.md` wins.
+> `competition/official/2026_27/`. Where this README and `competition/COMPETITION.md` disagree, `competition/COMPETITION.md` wins.
 
 # `wharton-ic`: Reference-Grounded Architecture & AI Council V2.1
 ## Institutional Decision-Support Operating System for Team Caplet

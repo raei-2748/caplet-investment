@@ -35,7 +35,7 @@ Trading: "Official trading begins on September 28, 2026, and ends on November 6,
 
 **Ranking rule.** (1) Hard gates that can void a deliverable: notes copied exactly from filled orders, title-page names "the same as what was submitted with your official roster", the contact ban, permitted securities. (2) Decisions that unblock other work: the [AI]-rule vote, the ladder basis, the coupon-risk option. (3) Work only students can do: reflections, the IPS, the journal. (4) Everything else.
 
-**Format.** Each item gives the instruction, why, the Sydney due date, the owner role, the "done when" test and where it is explained. **V** = needs a whole-team vote. Tags: **[new]** = new since 15 Oct; **[open N]** = still open from item N of the 15 Oct brief (`oct14/final.md`). Ray is named only where a rule fixes the job: only Ray trades (team rule, `START_HERE.md:28`), and the leader submits (Wharton rule: the team leader is responsible for "submitting team deliverables through SurveyMonkey Apply", Rules & Roles, accessed 16 Oct 2026). Roles are listed in Part 13. No role has more than three items this week.
+**Format.** Each item gives the instruction, why, the Sydney due date, the owner role, the "done when" test and where it is explained. **V** = needs a whole-team vote. Tags: **[new]** = new since 15 Oct; **[open N]** = still open from item N of the 15 Oct brief (`oct14/final.md`). Ray is named only where a rule fixes the job: only Ray trades (team rule, `caplet/START_HERE.md:28`), and the leader submits (Wharton rule: the team leader is responsible for "submitting team deliverables through SurveyMonkey Apply", Rules & Roles, accessed 16 Oct 2026). Roles are listed in Part 13. No role has more than three items this week.
 
 ### A. This weekend (Sat 17 - Sun 18 Oct)
 
@@ -45,11 +45,11 @@ Trading: "Official trading begins on September 28, 2026, and ends on November 6,
    - Why: one person set the 16 Oct rule, and no team vote is recorded. It affects all six. The fix is a 10-minute vote. Wharton: "AI-generated work may not be submitted as your own" (Rules & Roles); students "must use their voice and words" (AI policy page); Creativity scores "an authentic team voice" (deliverables.txt:59). The IPS bans "formal citations" (`2026_WGY_Investment_Policy-FINAL.txt:123`), so an AI sentence in the IPS cannot be cited where it is judged.
    - Read aloud before voting: the Wharton AI text, the start of the Creativity criterion, and IPS line 123.
    - Due: Sun 18 Oct. Owner: whole team (lead chairs).
-   - Done when: one rule is written down with the vote, and copied word for word the same day into START_HERE.md, CLAUDE.md and COMPETITION.md (they now disagree: `caplet-latest/START_HERE.md:26` vs `caplet-latest/CLAUDE.md:27-30`). The rule says what goes in the Works Cited: all AI use, not only "accepted AI wording" (Part 11).
+   - Done when: one rule is written down with the vote, and copied word for word the same day into caplet/START_HERE.md, CLAUDE.md and competition/COMPETITION.md (they now disagree: `caplet-latest/START_HERE.md:26` vs `caplet-latest/CLAUDE.md:27-30`). The rule says what goes in the Works Cited: all AI use, not only "accepted AI wording" (Part 11).
    - See Part 11.
 
 2. **V. Pick the three TNA trades and name one student author for each reflection.** [open 15-16]
-   - Why: the 14 Oct export has zero reflection words (`caplet/google_drive/ips_report/04_trading_note_reflection.md`; `06_trading_note_reflection_deliverables.md`). The suggested picks are IBTR, IBTM and VT, "team decides" (`COMPETITION.md:110`).
+   - Why: the 14 Oct export has zero reflection words (`caplet/google_drive/ips_report/04_trading_note_reflection.md`; `06_trading_note_reflection_deliverables.md`). The suggested picks are IBTR, IBTM and VT, "team decides" (`competition/COMPETITION.md:110`).
    - Due: Sun 18 Oct. Owner: whole team.
    - Done when: three picks, three different authors. If a pick has no author by Mon 19 Oct, swap it for a trade a willing author can explain.
    - See Part 8.
@@ -73,13 +73,13 @@ Trading: "Official trading begins on September 28, 2026, and ends on November 6,
 **Saturday jobs (no meeting needed)**
 
 6. **Fix the public-repo and file problems.** [open 2-3, 5, 7, 28; new: fork]
-   - Why: a team member's public fork was created 15 Oct 22:10 UTC. A public fork stays public when the parent goes private (GitHub docs, accessed 16 Oct 2026). The fork's account name shows a surname, next to a repo whose description names the school (GitHub API, accessed 16 Oct 2026). The WInS username is in COMPETITION.md, keel/routines/tasks/MONITOR.md and keel/routines/tasks/WATCHER.md (not reproduced here; INT-19). The fork holds only the 15 Oct snapshot, so the 16 Oct AI rewrites are only in the main repo.
+   - Why: a team member's public fork was created 15 Oct 22:10 UTC. A public fork stays public when the parent goes private (GitHub docs, accessed 16 Oct 2026). The fork's account name shows a surname, next to a repo whose description names the school (GitHub API, accessed 16 Oct 2026). The WInS username is in competition/COMPETITION.md, keel/routines/tasks/MONITOR.md and keel/routines/tasks/WATCHER.md (not reproduced here; INT-19). The fork holds only the 15 Oct snapshot, so the 16 Oct AI rewrites are only in the main repo.
    - Steps:
      1. The fork's owner deletes the fork (only they can).
      2. The repo owner makes the main repo private.
-     3. With team approval, fix `COMPETITION.md:49`. It says "Laura is a fictional client." She is real: "While the client is real" (https://globalyouth.wharton.upenn.edu/competitions/investment-competition/, accessed 16 Oct 2026). Contact is banned (`smapply_public_2026-10-14/client.txt:23`).
+     3. With team approval, fix `competition/COMPETITION.md:49`. It says "Laura is a fictional client." She is real: "While the client is real" (https://globalyouth.wharton.upenn.edu/competitions/investment-competition/, accessed 16 Oct 2026). Contact is banned (`smapply_public_2026-10-14/client.txt:23`).
      4. Delete "AI may fill a ticket up to Preview" (`caplet-latest/COMPETITION.md:193-194`).
-     5. Correct the Feb-2037 coupon from 5.000% to 4.750% (`COMPETITION.md:181` vs WInS ID B-T-4.750-15022037 at `05_trading_note_reflection_wins_trading_notes.md:16`).
+     5. Correct the Feb-2037 coupon from 5.000% to 4.750% (`competition/COMPETITION.md:181` vs WInS ID B-T-4.750-15022037 at `05_trading_note_reflection_wins_trading_notes.md:16`).
      6. Remove the WInS username from text files.
    - Due: Sat 17 Oct. Owner: fork owner; repo owner; rules/privacy lead.
    - Done when: no public copy that the team controls remains. All six have been told in person not to message, tag or follow Laura.
@@ -103,12 +103,12 @@ Trading: "Official trading begins on September 28, 2026, and ends on November 6,
 
 10. **Copy the notes character by character, submit Thu 22 Oct, screenshot the result.** [open 18]
     - Why: "Include each Trading Note exactly as it appears in WInS" and "Yes, we will verify this" (TNA instructions :44, :53). The notes are plain ASCII with straight quotes; Google Docs inserts curly quotes (TNA-13). IBTR is 294 characters, IBTM 292, VT 288.
-    - How: copy from the WInS Trade Notes page and paste as plain text. Take identifiers from WInS Transaction History, not COMPETITION.md. Give WInS times in ET as WInS shows them; never convert them to Sydney time.
+    - How: copy from the WInS Trade Notes page and paste as plain text. Take identifiers from WInS Transaction History, not competition/COMPETITION.md. Give WInS times in ET as WInS shows them; never convert them to Sydney time.
     - Due: Thu 22 Oct evening. Owner: paste checker (a second student); Ray submits; the deputy watches.
     - Done when: lengths match and the final status is screenshotted to the private Drive. Before pressing any application-wide button, check what it locks.
 
 10b. **Ask the advisor to request the school letter now.** [open 10]
-    - Why: it needs letterhead, an administrator's signature, the advisor's first and last name and every student's name (first and last name for the team leader) (`2026_27_School_Documentation_Template.txt:1-28`). Knox Term 4 ends Thu 3 Dec. Fri 4 Dec is a staff day with no students (https://www.knox.nsw.edu.au/about/public-information/term-dates, accessed 16 Oct 2026). It was "not yet requested as of 13 Oct" (`COMPETITION.md:132`).
+    - Why: it needs letterhead, an administrator's signature, the advisor's first and last name and every student's name (first and last name for the team leader) (`2026_27_School_Documentation_Template.txt:1-28`). Knox Term 4 ends Thu 3 Dec. Fri 4 Dec is a staff day with no students (https://www.knox.nsw.edu.au/about/public-information/term-dates, accessed 16 Oct 2026). It was "not yet requested as of 13 Oct" (`competition/COMPETITION.md:132`).
     - Due: request by Fri 23 Oct; letter in hand Fri 20 Nov. Owner: advisor liaison.
     - Done when: the names match the private roster note. The letter is never committed to the repo.
 
@@ -448,8 +448,8 @@ The weakest criterion decides, because Wharton wants teams that score "exception
 1. **"Depends mainly on the US government" ignores coupons.** That is true for the principal, not for the coupons. The WInS holdings rely on reinvested income for about $45k of the $500k (STRAT-02). The sheet shows about $21k short if yields fall 2 points for good, and a 1-in-20 shortfall of about $25k (MODEL, `IPS_number_sheet.md:30-45`). The team's own notes already say "reinvested coupons fund the rest" (05:18), and the IBTM note says "the final payout is not fixed" (05:19).
 2. **Most of that risk arrives after the 2033 gift is paid.** About 72% of the reinvestment dependence is earned after 1 Jan 2033 (MODEL, STRAT-03). V5's shortfall order covers only a shortfall "expected in 2033" (V5:26).
 3. **Wrong-way risk.** The backstop (Laura's half of the stock fund) is smallest exactly when yields and stocks fall together. In the kit's own 2008 replay, Laura keeps $18,446 and the gap beyond her half is $12,047 (`archive/rab/decisions/D_stress_bad_year.md:32`; VER-L03-03). Both models assume rates and stocks move independently.
-4. **The trade-off sentence runs the wrong way.** V5:28 and COMPETITION.md:164 say less stock lowers the expected contribution. Under the plan's own cap rule, a smaller floor lowers the median gift; only total wealth rises (STRAT-06, IPS-18).
-5. **There are two readings of the floor:** "the remainder" (V5:24) or "about $150k" (COMPETITION.md:155-156). Either way, low yields hit the facility twice. On the 2 Jan 2026 curve the ladder alone would have cost about $317-325k (STRAT-08).
+4. **The trade-off sentence runs the wrong way.** V5:28 and competition/COMPETITION.md:164 say less stock lowers the expected contribution. Under the plan's own cap rule, a smaller floor lowers the median gift; only total wealth rises (STRAT-06, IPS-18).
+5. **There are two readings of the floor:** "the remainder" (V5:24) or "about $150k" (competition/COMPETITION.md:155-156). Either way, low yields hit the facility twice. On the 2 Jan 2026 curve the ladder alone would have cost about $317-325k (STRAT-08).
 6. **iBond mechanics are glossed over** (STRAT-09):
    - the funds sit in cash in their final months;
    - the 0.07% fee adds up over the life to roughly today's whole room;
@@ -475,7 +475,7 @@ Whichever is chosen, check it against the notes, which cannot be edited, and pre
 - Why not corporate bonds? There is a dated answer. Swapping IBTM-IBTR for same-year corporate iBonds frees about $10.7k before credit losses, and about $4-9k after allowing for them (MODEL, 14-15 Oct data; G2-01). Individual corporate bonds are not permitted, and no dated corporate fund reaches 2038-2042 (G2-02).
 - "No dollar asset is safer"? The US is no longer rated AAA (iShares shows IBTM as "AA Rated 99.97%"; check each agency's current rating on the day before quoting, as Appendix C says). Use market pricing instead: on 14 Oct, AAA-rated corporate bonds paid 0.40% more than Treasuries (FRED, accessed 16 Oct 2026; G2-03).
 - Why not TIPS (inflation-linked Treasuries)? The payments are fixed in dollars (case:90). The kit's "1.43 times the size" figure is on the STRIPS basis; re-run it before quoting (STRAT-14).
-- Why not other governments' bonds? Whether the rules allow them is unresolved (`COMPETITION.md:77`). Currency risk is about $10-12k per payment over 10 years, and no hedge is allowed (G2-05).
+- Why not other governments' bonds? Whether the rules allow them is unresolved (`competition/COMPETITION.md:77`). Currency risk is about $10-12k per payment over 10 years, and no hedge is allowed (G2-05).
 
 ---
 
@@ -556,7 +556,7 @@ Taken together, the suggestions keep the length the same but double the dollar f
 **Why it is the biggest risk.** The Final Report carries Portfolio Analysis, most of Articulation and the co-sponsor part of Creativity almost on its own (FR-08). It is half of the Top 50 basis, it has the shortest window, and it is due after Knox's term ends (FR-01).
 
 **What must exist before 9 Nov** (item 18, plus):
-- **A decision on what "recommended portfolio" means** (FORECAST: Jan 2028). Build each snapshot as a team table (holding, job, payment year, value, weight) from WInS numbers. WInS labels the iBond funds "Long Equities" (61.6%, `COMPETITION.md:98`), so add a line explaining the label (FR-03).
+- **A decision on what "recommended portfolio" means** (FORECAST: Jan 2028). Build each snapshot as a team table (holding, job, payment year, value, weight) from WInS numbers. WInS labels the iBond funds "Long Equities" (61.6%, `competition/COMPETITION.md:98`), so add a line explaining the label (FR-03).
 - **A plan-vs-actual scorecard for each order:** target vs actual weight, fill, time, commission, what went wrong, and the rule it produced (FR-05).
 - **A weekly record from 7 Nov to 4 Dec:** WInS value, cash, income, the ladder's value against the value of the payments it covers, VT, and the 10-year yield (FR-06).
 - **No new material later.** Anything the semifinal might show must already be in the report (FR-17).
@@ -605,7 +605,7 @@ Taken together, the suggestions keep the length the same but double the dollar f
 | "If you use AI to assist you in any way during the competition, how you use it must be recorded in your Works Cited pages." (AI policy page) | The new rule credits only "accepted AI wording" (INT-V01); the log has a gap for 1-15 Oct (INT-10) | The Works Cited records all AI use: ideas, models, numbers, charts, example notes, suggestions accepted or rejected, reviews, browser use |
 | Plagiarism is "the use of another's words or ideas as if they are one's own" (Rules & Roles) | The core idea came from the AI council (`notes_and_discussions.md:69`); "the team deferred" (CLAUDE.md:75) | Credit AI for the idea; log the students' own votes, reasons and dissent (INT-04, TP-01) |
 | "We trust that you will not ... invent teamwork and experiential stories" (Rules & Roles) | Journal blanks; last year's "make up stories" comment | Item 17 |
-| "Teams are not permitted to contact Laura Gao." (`client.txt:23`) | COMPETITION.md:49 says "fictional" | Item 6 |
+| "Teams are not permitted to contact Laura Gao." (`client.txt:23`) | competition/COMPETITION.md:49 says "fictional" | Item 6 |
 | Students place trades (`faqs.txt:34`); Stock-Trak's terms ban robots and retrieval devices (whether they bind the Wharton edition is UNVERIFIED) | The 7 Oct AI browser click; "AI may fill a ticket up to Preview"; routines that may read logged-in WInS and SMApply (INT-08) | No AI in WInS or SMApply at all, not even read-only |
 | Title-page names "should be the same as what was submitted with your official roster" (IPS :94) | No roster record in the repo (`toolkit/config/team_roster.json` says PENDING) | Item 14 |
 | "Teams suspected ... of using paid advisors, education consultants ... or other agents will be disqualified." (Rules & Roles) | Routines say "You are the consultant for Team Caplet" (`keel/routines/tasks/MONITOR.md:3`) | Rename the routine role (low risk, cheap fix; INT-07) |
@@ -621,24 +621,24 @@ Taken together, the suggestions keep the length the same but double the dollar f
 
 | # | Says | Elsewhere says | Which is right |
 |---|---|---|---|
-| 1 | Feb-2037 bond 5.000% (`COMPETITION.md:181`) | 4.750% (WInS ID at 05:16; `portfolio.csv:25`) | 4.750% |
-| 2 | "Laura is a fictional client" (`COMPETITION.md:49`) | "While the client is real" (main page); contact banned (`client.txt:23`) | Real (the main page adds that "the financial scenario is developed specifically for the competition") |
-| 3 | "Roots First" (`COMPETITION.md:147`, :204) | "Root-and-Branch" (V5:24; `final_report.md:21`) | Team vote; the journal says Root-and-Branch was settled |
+| 1 | Feb-2037 bond 5.000% (`competition/COMPETITION.md:181`) | 4.750% (WInS ID at 05:16; `portfolio.csv:25`) | 4.750% |
+| 2 | "Laura is a fictional client" (`competition/COMPETITION.md:49`) | "While the client is real" (main page); contact banned (`client.txt:23`) | Real (the main page adds that "the financial scenario is developed specifically for the competition") |
+| 3 | "Roots First" (`competition/COMPETITION.md:147`, :204) | "Root-and-Branch" (V5:24; `final_report.md:21`) | Team vote; the journal says Root-and-Branch was settled |
 | 4 | "The team writes all deliverables" (`caplet-latest/START_HERE.md:26`) | AI may suggest wording (`caplet-latest/CLAUDE.md:27-30`; `caplet-latest/COMPETITION.md:142-143`); main CLAUDE.md still has the old rule (`CLAUDE.md:23`) | Item 1 vote |
 | 5 | Students "wrote all submitted text" (`caplet-latest/docs/AI_USE.md:91`) | AI memos, AI example notes, AI-generated V5 | False template; item 16 |
-| 6 | "$293k on the 6 Oct curve" (`COMPETITION.md:153-154`, holdings basis) | "about $294,000" on 15 Oct (`IPS_number_sheet.md:12`, payment-date basis) | Different bases. Like for like, the cost rose by about $5.2k (holdings) or about $5.5k (payment dates) since 6 Oct (VER-L08-01) |
+| 6 | "$293k on the 6 Oct curve" (`competition/COMPETITION.md:153-154`, holdings basis) | "about $294,000" on 15 Oct (`IPS_number_sheet.md:12`, payment-date basis) | Different bases. Like for like, the cost rose by about $5.2k (holdings) or about $5.5k (payment dates) since 6 Oct (VER-L08-01) |
 | 7 | "$7.7k = 27bp" marked VERIFIED (CLAUDE.md:121-122) | "$5,613 (19bp), not $7.7k/27bp" (CLAUDE.md:106-107) | Both superseded; use Box A |
 | 8 | Six floor definitions (COH-04) | - | Item 11 vote. One candidate is the sheet's "$150,000 face, quoted as $145,000", lowered by any ladder top-up (`IPS_number_sheet.md:14`) |
-| 9 | Stocks "~9%" / "~$40k" (`COMPETITION.md:156`; CLAUDE.md:92, :96) | About 7% / $32k (sheet, with the leftover kept in Treasuries); 8.8% VT in WInS at cost | Plan figure: about 7% (16 Oct sheet, MODEL). Give the WInS figure separately |
+| 9 | Stocks "~9%" / "~$40k" (`competition/COMPETITION.md:156`; CLAUDE.md:92, :96) | About 7% / $32k (sheet, with the leftover kept in Treasuries); 8.8% VT in WInS at cost | Plan figure: about 7% (16 Oct sheet, MODEL). Give the WInS figure separately |
 | 10 | VT note: stocks "only" set the gift (05:14) | Laura's half has three more jobs (V5:26, :28, :30) | Item 11 decides; the VT reflection deals with it |
-| 11 | Less stock means a lower median contribution (V5:28; `COMPETITION.md:164`) | A smaller floor lowers the median gift (STRAT-06) | The sentence is wrong for the gift |
+| 11 | Less stock means a lower median contribution (V5:28; `competition/COMPETITION.md:164`) | A smaller floor lowers the median gift (STRAT-06) | The sentence is wrong for the gift |
 | 12 | "depends mainly on the US government" (V5:20) | "reinvested coupons fund the rest" (05:18); "payout is not fixed" (05:19) | The notes |
 | 13 | "income reinvested in the holding that paid it" (V5:26) | "a short-term Treasury ETF" (05:16-17); WInS cash earns 0% | One income rule that matches the notes |
 | 14 | Shortfall order: leftover, then half, then gift (V5:26); the bottom is lowered (V5:30) | "Name her half as the first cover" (D6:79); the top is lowered (D_range:44-47) | Item 11 |
 | 15 | "she adds her own money" (D6:54) | No outside money (case:91-92) | The case |
 | 16 | Top 50 "chosen on the written Trading Notes, IPS and Final Report" (CLAUDE.md:26) | "based on ... IPS and Final Reports" (Rules & Roles) | Quote the Rules page; all three are evaluated |
-| 17 | "short video presentation" (`COMPETITION.md:26`) | "via video conference ... to a live panel" (`faqs.txt:89`) | The FAQ |
-| 18 | "about 91% Treasuries" (`COMPETITION.md:98`) | 89.5-90.2% (`archive/rab/trades/tickets.md:124`) | Cash excluded vs included; state the basis |
+| 17 | "short video presentation" (`competition/COMPETITION.md:26`) | "via video conference ... to a live panel" (`faqs.txt:89`) | The FAQ |
+| 18 | "about 91% Treasuries" (`competition/COMPETITION.md:98`) | 89.5-90.2% (`archive/rab/trades/tickets.md:124`) | Cash excluded vs included; state the basis |
 | 19 | "Show chart 02" (`caplet/deliverables/ips_outline.md:19`) | Charts banned (IPS :123) | The IPS rules |
 | 20 | "$500,000 virtual portfolio" (`caplet/google_drive/team_list.md:69`) | $300,000 (`trading.txt:26`) | $300,000; tell the advisor |
 | 21 | Sheet header: built on "WInS-listed holdings" (`IPS_number_sheet.md:5`) | The cost is priced to payment dates (`ips_numbers.py:87`) | Label it as the payment-date basis |
@@ -759,7 +759,7 @@ These are stories, not forecasts. The AI's earlier odds for them were guesses wi
 - Stop running AI detectors or "humanising" passes on drafts.
 - Stop starting new waves of AI research before the IPS is in.
 - Stop letting rules change without a team vote.
-- Stop copying from COMPETITION.md, the Strategy Brief PDF or rab memos without checking the date and basis.
+- Stop copying from competition/COMPETITION.md, the Strategy Brief PDF or rab memos without checking the date and basis.
 - Stop using AI in WInS or SMApply, even read-only.
 - Stop committing anything with names, the WInS username, title pages or the school letter.
 
@@ -834,13 +834,13 @@ These are stories, not forecasts. The AI's earlier odds for them were guesses wi
 - [CFA2] https://rpc.cfainstitute.org/-/media/documents/code/amc/implementation-and-assessment-guide-june-2020.pdf
 - Outside coverage [O1]-[O6] as listed in KB section 8 (Inklings News; Wharton LinkedIn; River Journal; Correio Braziliense; Westminster School; Brisbane State High).
 
-**Repo and scratchpad (read-only, 16 Oct 2026).** Official files in `competition/official/2026_27/`; team files in `team/`; `COMPETITION.md`, `CLAUDE.md`, `START_HERE.md`, `toolkit/docs/`, `archive/rab/`, `keel/library/insight_v1/`, `caplet/deliverables/`, `keel/routines/tasks/`; commit 412e9e3 files under `caplet-latest/`. Inputs to this report: `oct16/research/KB_what_wins.md`, `oct16/research/R1-R4*.md`, `oct16/lenses/*.md`, `oct16/verify/*_verify.md` and `*.final.json`. Earlier briefs: `scratchpad/oct14/final.md`, `oct14/tna_merge.md`, `oct14/ips_merge.md`, `scratchpad/REPORT.md`.
+**Repo and scratchpad (read-only, 16 Oct 2026).** Official files in `competition/official/2026_27/`; team files in `team/`; `competition/COMPETITION.md`, `CLAUDE.md`, `caplet/START_HERE.md`, `toolkit/docs/`, `archive/rab/`, `keel/library/insight_v1/`, `caplet/deliverables/`, `keel/routines/tasks/`; commit 412e9e3 files under `caplet-latest/`. Inputs to this report: `oct16/research/KB_what_wins.md`, `oct16/research/R1-R4*.md`, `oct16/lenses/*.md`, `oct16/verify/*_verify.md` and `*.final.json`. Earlier briefs: `scratchpad/oct14/final.md`, `oct14/tna_merge.md`, `oct14/ips_merge.md`, `scratchpad/REPORT.md`.
 
 ## Appendix B. Verification log (what was refuted or adjusted, and why)
 
 - **Refuted:** CLIENT-20. The early iBond rungs have the smallest 1-in-20 shortfall, not the largest (`oct16/verify/L02_client_forensic_verify.md:52`).
 - **Partly refuted:**
-  - COH-06: COMPETITION.md:70's note about the $150k is a fair reading of trading.txt:26.
+  - COH-06: competition/COMPETITION.md:70's note about the $150k is a fair reading of trading.txt:26.
   - COH-08: V5's $292,000 is dated, and it reproduces on the payment-date basis ($292,272 on 25 Sep).
   - JUDGE-07: the pitch claim does trace to team research; it overstates that research.
 - **Adjusted, numbers:**

@@ -17,7 +17,7 @@ import sys
 import unicodedata
 from pathlib import Path
 
-# From COMPETITION.md section 7 and the 16 Oct review (items 8, 12): overclaims for a plan that is not riskless.
+# From competition/COMPETITION.md section 7 and the 16 Oct review (items 8, 12): overclaims for a plan that is not riskless.
 BANNED = [
     "guaranteed", "guarantee", "risk-free", "riskless", "locked", "secured", "promised", "cannot miss",
     "never below", "certain to", "immunisation", "immunization", "cppi",

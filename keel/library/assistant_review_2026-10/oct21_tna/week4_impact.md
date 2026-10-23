@@ -206,7 +206,7 @@ file's table. Verdicts:
 ### 3.9 Outside the pack (flag only; the brief bars me from editing the repo)
 
 These read-only repo files still state the PDF format and need updating by whoever commits:
-- `COMPETITION.md:131` ("PDF <= 5 MB") and `:23` ("~Tue 10 Nov" → "Tue 10 Nov 01:00").
+- `competition/COMPETITION.md:131` ("PDF <= 5 MB") and `:23` ("~Tue 10 Nov" → "Tue 10 Nov 01:00").
 - `keel/office/workstreams/2_IPS.md:16, 43, 55`.
 - `CLAUDE.md`, the "Official deadlines" paragraph ("TNR 12 double-spaced"), and its "Next:" line.
 

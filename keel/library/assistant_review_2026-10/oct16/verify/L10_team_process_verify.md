@@ -116,13 +116,13 @@ Both figures use the same official 15 Oct par curve. I re-ran `basis.py`:
   - picks on Mon 19 Oct;
   - set B on Tue 27 Oct.
 - L10 proposes Sun 18 and Sun 25 instead. The team must pick one schedule.
-- IPS V5 already says Root-and-Branch. Only COMPETITION.md lags.
+- IPS V5 already says Root-and-Branch. Only competition/COMPETITION.md lags.
 
 **TP-08: CONFIRMED.**
 - `git show 412e9e3` shows both sentences removed:
   - "Do NOT write the Trading Notes, IPS or Final Report";
   - "the team does not submit them as they are".
-- COMPETITION.md:142 says "Since 16 Oct (Ray's decision)".
+- competition/COMPETITION.md:142 says "Since 16 Oct (Ray's decision)".
 - The suggestions file has 13 rows (its own text says "twelve").
 - No vote is recorded anywhere. The finding is about decision rights only; L09 INT-01 covers integrity.
 

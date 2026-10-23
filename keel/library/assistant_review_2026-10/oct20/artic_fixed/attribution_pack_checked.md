@@ -65,7 +65,7 @@
 | Input | Source (fetch time) | Status |
 |---|---|---|
 | Holdings, fills, commissions | WInS fills 7-8 Oct: `snap/main/COMPETITION.md:174-188`; `snap/main/ops/routines/portfolio_check.py:5-17`; `attrib/scripts/trades.csv` | WInS-reported (team) |
-| Cash after all fills | $3,513.79, `COMPETITION.md:188` | WInS-reported; reconciliation disputed (8b) |
+| Cash after all fills | $3,513.79, `competition/COMPETITION.md:188` | WInS-reported; reconciliation disputed (8b) |
 | ETF closes | Yahoo chart API, saved by `oct20/numbers` on 19 Oct 21:45 UTC (`attrib/data/raw/yahoo/`); Nasdaq API history + "Closed at Oct 19, 2026 4:00 PM ET" quotes, fetched 19 Oct 22:31 UTC (`attrib/data/raw/nasdaq/`) | Public, not official. **Second source:** of 54 Yahoo/Nasdaq pairs since 7 Oct, IBTM-IBTQ agree exactly. IBTR differs by up to half a cent on 8 days, because Yahoo rounds (for example 23.37 vs 23.365 on 7 Oct, about $4). VT differs by one cent on 19 Oct (157.11 vs 157.12) |
 | Fill timing | Yahoo opens: iBond ETFs 7 Oct open = fills (IBTR 23.23 vs fill 23.24); VT 8 Oct open 158.83 = fill. Official rule: "Orders may be entered while the U.S. market is closed and will be filled when the market reopens" (`competition/official/2026_27/smapply_public_2026-10-14/trading.txt:52`; it does not say "opening price"). Team notes (a team Drive doc, not Wharton's text) say "at the security's opening price when the market reopens" (`snap/main/team/google_drive/rules_readme.md:119`) | Consistent with the fills |
 | Treasury curve | treasury.gov daily par yield curve, October 2026 CSV, fetched 19 Oct 22:27 UTC (`attrib/data/raw/tsy/`); byte-identical to `oct20/numbers/data/tsy_202610.csv` | Official |
@@ -80,7 +80,7 @@
    - In yield terms the fills were −5.0 to +6.5bp from the model.
 2. **Start point.** Total P&L is measured from $300,000 cash. The market attribution starts at the **7 Oct close** (iBond ETFs filled at the 7 Oct open; bonds at the 7 Oct end-of-day). VT starts at the **8 Oct close** (filled at the 8 Oct open). The gap between each fill price and that first close is the **fill-day effect**.
 3. **Income** counts once we are entitled to it. For ETFs that is the ex-date; for bonds it is when the settlement date passes the coupon date. Cash shows it on the pay date (`--credit pay`). The FAQ says dividends and coupons appear "at the time they are issued" (`faqs.txt:62-63`). The exact WInS timing is UNVERIFIED.
-4. **Cash earns 0%** in WInS (`COMPETITION.md:80`).
+4. **Cash earns 0%** in WInS (`competition/COMPETITION.md:80`).
 
 ---
 
@@ -233,7 +233,7 @@ Script: `attrib/scripts/attrib.py`. Output: `attrib/out_1019/attrib_out_2026-10-
   - surplus as "the difference between the asset and liability market values" (line 288);
   - one immunisation condition as "the asset basis point value (BPV) equals the liability BPV" (line 285);
   - and it says it is "critical to select a benchmark that is most relevant to a specific investor based on factors such as the targeted duration profile and risk appetite" (line 261). That sentence closes the reading's summary of *index-based* strategies (choosing a bond index), not liability benchmarks. Applying it here is our inference: for a liability-driven investor the relevant benchmark is the liability. Lines 285 and 288 carry the LDI yardstick.
-- **Caveat.** Cash-flow matching does not aim at equal BPV. The plan holds each rung to its date and accepts the reinvestment gap, with a named cover. The 77% hedge ratio describes the risk; it does not grade the plan. Do not call the plan "immunised" (`COMPETITION.md:168`: "cash-flow matching (**not** immunisation)").
+- **Caveat.** Cash-flow matching does not aim at equal BPV. The plan holds each rung to its date and accepts the reinvestment gap, with a named cover. The 77% hedge ratio describes the risk; it does not grade the plan. Do not call the plan "immunised" (`competition/COMPETITION.md:168`: "cash-flow matching (**not** immunisation)").
 
 ---
 
@@ -250,7 +250,7 @@ Source: `attrib/out_1019/benchmarks_2026-10-19.csv`.
 | **B. Duration-matched IEF/TLT:** 61.2% IEF (6.84y) + 38.8% TLT (14.84y), matched to the liability's 9.95 years | +1.831% (IEF +1.089%, TLT +3.001%) | +$5,509 | Ladder −0.62 points | **Good as a "cheap alternative we rejected" check.** It is investable, simple, and gives a money-weighted duration match. But it matches one number (duration), not dates or curve shape. In this bull flattening (30y −19bp) it beat the liability itself (+1.83% vs +1.64%) because TLT holds 20-30-year bonds. It is not a promise to pay $50,000 on a date. Whether WInS lists IEF/TLT was not checked here (UNVERIFIED) |
 | **B+. IEF/TLT mix for the bond money + VT for the VT money** | +1.509% | +$4,538 | −66bp | As B |
 | **C. 60/40 VT/BND** | −0.608% (BND +0.857%) | −$1,829 | +146bp | **Weak.** The risk profile is wrong (60% stocks against about 9%). BND holds corporate bonds and mortgages and has a shorter duration. Use it only as "what a textbook balanced fund did", never as a target |
-| **D. Cash (3-month bill accrual, 4.22-4.27%)** | +0.140% (SGOV +0.119%) | +$421 | +71bp | **Useful as the "do nothing" baseline.** It shows why cash is risky here: the payments' value rose 1.64% while cash rose 0.14%. Holding cash would have lost about 1.5% of funding in 12 days. WInS cash earns 0% (`COMPETITION.md:80`) |
+| **D. Cash (3-month bill accrual, 4.22-4.27%)** | +0.140% (SGOV +0.119%) | +$421 | +71bp | **Useful as the "do nothing" baseline.** It shows why cash is risky here: the payments' value rose 1.64% while cash rose 0.14%. Holding cash would have lost about 1.5% of funding in 12 days. WInS cash earns 0% (`competition/COMPETITION.md:80`) |
 | **E. S&P 500 (SPY)** | −1.366% | −$4,111 | +2.2 points ("ahead") | **Wrong yardstick** (6c) |
 | VT alone, from the 7 Oct close | −1.585% (Yahoo close 157.11; Nasdaq 157.12 gives −1.579%) | | Book's VT −1.08% from its 8 Oct fill | Only for the VT sleeve. Bought at the 8 Oct open, below the 7 Oct close: +$133 |
 
@@ -351,7 +351,7 @@ So run `run_attrib.sh 11/06/2026` on Sat 7 Nov after about 10:00 Sydney, which i
 |---|---|---|
 | WInS bond prices are set **once a day at the US open** ("The bond prices are updated once daily at U.S. market open", `faqs.txt:59`), not at the treasury.gov close | A one-day lag on $87.5k of bonds is about $80 per 0.01 point. On 15 Oct (10y −9bp) the bond sleeve moved $761 | Official FAQ |
 | WInS shows **clean bond prices without accrued interest** in the total | −$1,492 (the ex-accrued total is $301,902) | FAQ says WInS shows "the interest accrued since" the last coupon (`faqs.txt:59`), but not whether the total counts it |
-| WInS accrues **May-2038 from 15 Aug** (a Feb/Aug schedule) | −$225.00 on its value; offsets most of the cash gap (8b) | WInS showed last coupon 15 Aug (`COMPETITION.md:97`) |
+| WInS accrues **May-2038 from 15 Aug** (a Feb/Aug schedule) | −$225.00 on its value; offsets most of the cash gap (8b) | WInS showed last coupon 15 Aug (`competition/COMPETITION.md:97`) |
 | WInS marks bonds **at its own feed**, not curve + fill gap | ±$55 if marks go to the curve; more if the feed's spread moves | Fill gaps −5.0 to +6.5bp (section 1) |
 | WInS ETF prices **intraday or the previous close** when the screen is read | One day is about $1.0-1.6k (daily SD $1.4-1.6k: "$1,365 over the year and $1,616 over the last 21 days", `oct20/numbers/numbers_refresh.md:74`) | Trading notes: "WInS shows the previous close" (`oct19/drive/sheets/trading_notes.md:95`) |
 
@@ -385,7 +385,7 @@ So run `run_attrib.sh 11/06/2026` on Sat 7 Nov after about 10:00 Sydney, which i
 - **The cash arrives 5 Nov** (`distsched.txt:60-61`), if WInS credits it then (UNVERIFIED; FAQ "at the time they are issued", `faqs.txt:63`).
 - **On 2-4 Nov a price-only WInS total looks about $600 lower.** That is not a loss. The script's `total_incl_receivable` keeps it. The freeze snapshot on 6 Nov should already include the cash; if WInS has not credited it, record that.
 - **Do not trade to reinvest it.** It costs $25 and breaks "hold" (`oct20/ldi/ldi_second_opinion.md`, "Next payout and the WInS freeze").
-- `COMPETITION.md:190` says the November distributions "may pay around 6 Nov". The iShares schedule says **5 Nov**. Update it.
+- `competition/COMPETITION.md:190` says the November distributions "may pay around 6 Nov". The iShares schedule says **5 Nov**. Update it.
 
 ### 8d. 16 Nov coupons and the 1 Dec / 4 Dec distribution
 - **Coupons:** $1,538.75 on Mon 16 Nov. Accrued interest resets at the same moment, so a total without income will look about $1,540 lower from the 13 Nov row (settlement 16 Nov) until the cash appears.
@@ -400,7 +400,7 @@ So run `run_attrib.sh 11/06/2026` on Sat 7 Nov after about 10:00 Sydney, which i
 ### 8f. Data traps
 - **Holidays:** treasury.gov has no curve on bond-market holidays (12 Oct; **Wed 11 Nov** Veterans Day; Thu 26 Nov). The script prices bonds on the last curve and flags it "STALE". Stocks trade on 11 Nov. Thanksgiving week times: see `oct20/charts/charts_data_pack.md` §7 (UNVERIFIED).
 - **Yahoo throttling:** Yahoo returned HTTP 429 for every request this morning (19 Oct 22:25-23:00 UTC). `fetch_yahoo.sh` retries the first ticker 3 times, then tries each of the others once, then falls back to Nasdaq. Nasdaq's history lags; its "Closed at ... 4:00 PM ET" quote gives the latest close.
-- **Wrong coupon in COMPETITION.md:** it lists "5.000% T-bond Feb-2037" (`COMPETITION.md:181`), but WInS shows 4.750% (CUSIP 912810PT9; `01_Caplet_Team_Brief_15Oct2026.md` §5). All scripts here use 4.750%. Fix it in the repo.
+- **Wrong coupon in competition/COMPETITION.md:** it lists "5.000% T-bond Feb-2037" (`competition/COMPETITION.md:181`), but WInS shows 4.750% (CUSIP 912810PT9; `01_Caplet_Team_Brief_15Oct2026.md` §5). All scripts here use 4.750%. Fix it in the repo.
 - **IBTR fill:** WInS says 23.24; Yahoo's 7 Oct open is 23.23. That is $8.53 per cent. Use the WInS figure.
 
 ---

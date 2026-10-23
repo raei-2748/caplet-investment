@@ -58,7 +58,7 @@ in the Version 5 tab must be deleted before export. All other format checks: `06
   above the floor"; the single-issuer rationale (softened); the replacement rule for an unavailable holding; "costs in
   Taiwan" (a stronger Taiwan dollar also shrinks what each fixed payment buys).
 - From the case (`Laura_Gao_2026_Client_Profile.txt` lines 14-21): her memoir *Messy Roots* (the strategy name now
-  echoes it, closing the open item in COMPETITION.md s9); her Wharton Statistics degree (the reason the range carries
+  echoes it, closing the open item in competition/COMPETITION.md s9); her Wharton Statistics degree (the reason the range carries
   odds); her income sources (the VT reflection's industry-concentration point).
 - New analysis, model `keel/library/range_2031/`: a typical 2031 top of $169,000 falls to about $162,000 if world stocks
   fall 40% during 2032; the payments are unaffected.

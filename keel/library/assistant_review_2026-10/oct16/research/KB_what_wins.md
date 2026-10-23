@@ -471,8 +471,8 @@ evidence on what judges reward cuts against AI wording in submitted text:
   checklist question "Does this submission represent my voice, my opinion, my research?" [W5]. Keeping [AI] items to
   facts, numbers and flags (not sentences) is the option most consistent with the judging evidence. The team decides.
 
-**(c) Unchanged by the commit.** COMPETITION.md:49 still says "Laura is a fictional client" (Wharton: "the client is
-real" [W1]); COMPETITION.md:26 still says the semifinal is a "short video presentation" (format UNVERIFIED, 2.4).
+**(c) Unchanged by the commit.** competition/COMPETITION.md:49 still says "Laura is a fictional client" (Wharton: "the client is
+real" [W1]); competition/COMPETITION.md:26 still says the semifinal is a "short video presentation" (format UNVERIFIED, 2.4).
 
 ### 7.2 Other implications
 
@@ -591,7 +591,7 @@ real" [W1]); COMPETITION.md:26 still says the semifinal is a "short video presen
 - `competition/official/2026_27/2026_WGY_Investment_Competition_Guide.txt:60-61,74-78,122-127,156-159,181-188`
 - `competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:53`
 - `competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:91,94-124,129-149,161-163`
-- `CLAUDE.md:40`; `COMPETITION.md:26,49`; `caplet/docs/research_laura_gao_and_wins.md:35,37`;
+- `CLAUDE.md:40`; `competition/COMPETITION.md:26,49`; `caplet/docs/research_laura_gao_and_wins.md:35,37`;
   `toolkit/docs/benchmark_against_previous_teams.md:44`; `caplet/google_drive/2025_knox_wharton.md:253-258,3147-3152`;
   `caplet/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:15`
 - `caplet-latest/CLAUDE.md:26-30`; `caplet-latest/COMPETITION.md:49,141-143`; `caplet-latest/docs/AI_USE.md:91`;

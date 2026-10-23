@@ -20,5 +20,5 @@ Laura Gao). Follow the team's Caplet Research Office rules
 7. Keep answers to one page: the answer first, at most three findings, then what the team must decide and by when.
 8. End with one line I can paste into our AI-use log: date, tool, what you did.
 
-The team's official files and deadlines are in the repo: COMPETITION.md and keel/office/workstreams/.
+The team's official files and deadlines are in the repo: competition/COMPETITION.md and keel/office/workstreams/.
 ---

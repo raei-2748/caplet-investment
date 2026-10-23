@@ -1,6 +1,6 @@
 # The Wharton-IC Competition Playbook V2
 **Target**: Team Caplet — Season Roadmap (Sept 15 – Dec 4, 2026)  
-> **Update 2026-10-14:** timeline and Phase 7-8 corrected to the official 2026-27 dates. WInS facts: $300,000 virtual cash; $25 per stock/ETF trade, $10 per Treasury bond trade; max 200 trades; stocks, any ETF on WInS and US Treasury bonds on WInS are allowed; no required sector count or allocation. There is no official approved-securities CSV to ingest. See COMPETITION.md.
+> **Update 2026-10-14:** timeline and Phase 7-8 corrected to the official 2026-27 dates. WInS facts: $300,000 virtual cash; $25 per stock/ETF trade, $10 per Treasury bond trade; max 200 trades; stocks, any ETF on WInS and US Treasury bonds on WInS are allowed; no required sector count or allocation. There is no official approved-securities CSV to ingest. See competition/COMPETITION.md.
 
 **Execution**: Strict Alignment with Verified Wharton Milestones.
 

@@ -190,7 +190,7 @@
    "caplet-latest/research/ips_numbers_2026-10/ips_numbers.py:70-89 (prices to dt.date(y, 1, 1)), :97-103, :122",
    "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:12-13",
    "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:13",
-   "keel/routines/tasks/MONITOR.md:22 ('executable ladder cost $293,447 ... 22.7bp' on 6 Oct); COMPETITION.md:153-154",
+   "keel/routines/tasks/MONITOR.md:22 ('executable ladder cost $293,447 ... 22.7bp' on 6 Oct); competition/COMPETITION.md:153-154",
    "caplet/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:15-17"
   ],
   "fix": "Pick one basis and say it every time. For 'is $300,000 enough?' (IBTR reflection) the cautious holdings figure (about $298.6k, room about $1.4k, 15 Oct) is safest. A cost that assumes waiting cash earns interest (about $295k) must say so and must match a named home for that cash. Or put no figure in the IPS and the dated figure with its basis in the Final Report. A student re-runs it and can explain the gap.",
@@ -414,11 +414,11 @@
   "deliverables": [
    "IPS"
   ],
-  "problem": "V5 counts 47 + 497 words by whitespace: legal, but 3 words from the limit, and a stricter counter gives over 500. The team record says the team name is 'Caplet' (COMPETITION.md:117); this still has to match the submitted roster exactly. Failing the format gate removes the entry from semifinal consideration.",
+  "problem": "V5 counts 47 + 497 words by whitespace: legal, but 3 words from the limit, and a stricter counter gives over 500. The team record says the team name is 'Caplet' (competition/COMPETITION.md:117); this still has to match the submitted roster exactly. Failing the format gate removes the entry from semifinal consideration.",
   "evidence": [
    "caplet/google_drive/ips_report/01_version_5.md:8-16",
    "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:82-100",
-   "COMPETITION.md:116-117"
+   "competition/COMPETITION.md:116-117"
   ],
   "fix": "Pitch 45 or fewer and IPS 470 or fewer on the higher of two counters. Title page copied from the submitted roster. Two students check the exported PDF.",
   "confidence": "high",
@@ -426,7 +426,7 @@
   "deadline": "Format check Wed 4 Nov; submit Thu 5 Nov (Sydney)",
   "lens": "L01_judge_panel",
   "verdict": "adjusted",
-  "verifier_note": "Word counts reproduced: pitch 47, IPS 497 by whitespace; a counter that splits '$300,000' and 'Laura's' gives 514, so counters really do differ. Corrected: the team name is on file in the team's own record (COMPETITION.md:117 'Ours: Caplet'), not 'not on file'; what remains is checking it against the submitted roster. IPS:82-100 verified."
+  "verifier_note": "Word counts reproduced: pitch 47, IPS 497 by whitespace; a counter that splits '$300,000' and 'Laura's' gives 514, so counters really do differ. Corrected: the team name is on file in the team's own record (competition/COMPETITION.md:117 'Ours: Caplet'), not 'not on file'; what remains is checking it against the submitted roster. IPS:82-100 verified."
  },
  {
   "id": "JUDGE-V01",

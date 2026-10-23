@@ -81,7 +81,7 @@ Weakened:
   results.json:133). It is untrue only against the $150k face value. That is the double meaning flagged in IPS-05.
 - "depends mainly on" is already hedged and is not false.
 Severity stays high because the criteria ask for uncertainty to be communicated "clearly and credibly"
-(deliverables.txt:59), and the team's own rule bans "guaranteed" (COMPETITION.md:168).
+(deliverables.txt:59), and the team's own rule bans "guaranteed" (competition/COMPETITION.md:168).
 
 **IPS-05 (high to MEDIUM; ADJUSTED).** The evidence exists: V5:24, :26, :30; results.json:115 = 0.352; brief :73-74.
 The V5:26 vs V5:30 contradiction is real. Severity is lowered because:
@@ -197,7 +197,7 @@ that change what WInS mirrors:
 - the coupon-risk choice (sheet :49-54: option 3 holds back a $10-20k buffer and lowers the floor);
 - a named home for waiting cash (IPS-12);
 - the VT share (8.8% vs 6.9%, IPS-13).
-Only Ray places orders (COMPETITION.md section 8). After 6 Nov the frozen book also cannot follow V5's
+Only Ray places orders (competition/COMPETITION.md section 8). After 6 Nov the frozen book also cannot follow V5's
 "income reinvested" rule: cash from distributions will just build up. What a fix must do:
 - set the vote date early enough for any order to fill by Thu 5 Nov ET, or decide on purpose to leave WInS unchanged
   and explain the gap in the Final Report;

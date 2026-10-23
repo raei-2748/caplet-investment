@@ -321,7 +321,7 @@ without losing the strategy. The team decides.
 - **Problem.** WInS shows US Eastern times in US numeric format ("10/07/2026 04:42:53 AM" is 7 Oct, `05_...md:15`). To
   an Australian, "10/07" reads as 10 July. The team lives in Sydney time (journal: "Oct7: ... 12:30 AM that the market
   would open", `final_report.md:27`; that is 6 Oct in New York). Team files describe the same trades as "filled 7-8
-  Oct" (`CLAUDE.md:8`; `COMPETITION.md:172`), while the orders were placed 6-7 Oct ET (`05_...md:14-24`). Wharton
+  Oct" (`CLAUDE.md:8`; `competition/COMPETITION.md:172`), while the orders were placed 6-7 Oct ET (`05_...md:14-24`). Wharton
   says "we will verify" the notes against WInS (TNA:53). A reflection that says "on 7 October we bought IBTM" (Sydney)
   will not match WInS's 10/06 (ET).
 - **Evidence.** As above. Clock check: Sydney is on AEDT (UTC+11) from Sun 4 Oct 2026; US Eastern moves from EDT

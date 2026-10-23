@@ -1,19 +1,19 @@
 [
  {
   "id": "COH-01",
-  "title": "Ladder headroom has roughly halved since 6 Oct on any basis; IBTR note, V5 and COMPETITION.md quote stale or unlabelled figures",
+  "title": "Ladder headroom has roughly halved since 6 Oct on any basis; IBTR note, V5 and competition/COMPETITION.md quote stale or unlabelled figures",
   "severity": "high",
   "deliverables": [
    "TNA",
    "IPS",
    "FinalReport"
   ],
-  "problem": "Same 15 Oct curve, two methods. (a) Like-for-like with the IBTR note and COMPETITION.md (holding maturity dates, yields unchanged, waiting cash at 0%): $298,628, room $1,372 (4.7bp), down from $293,453 / 22.7bp on 6 Oct. (b) The 16 Oct number sheet's basis (payment dates, forward rates, i.e. waiting cash earns market rates): $294,461, room $5,539 (19bp), down from $288,938 / 38bp on 6 Oct. If waiting cash earns the 3-month yield the cost is about $295.3k (L03 verifier). So room has halved or worse on every basis. Odds the ladder costs over $300k on 1 Jan 2027: about 28-35% on a market-rate basis (sheet: 35%), about 45% on the 0% basis (MODEL, driftless, 4.2-4.8bp daily vol in 2026). 'About 1 in 3' is fair; 'coin toss' is not. Stale or unlabelled quotes: IBTR note 'about 0.2 percentage points' (true on 6 Oct, now about 0.05 on its own basis), planned rationale 'fallen slightly' (10y 5.27 to 5.10 by 15 Oct), V5 '$292,000' (dated late-September, payment-date basis), COMPETITION.md '$293k ... 0.2 percentage points'. Under V5's 'remainder' rule a top-up lowers the floor: a 25bp fall from 15 Oct means a top-up of about $1.8k (basis b) to $5.9k (basis a), floor about $148k to $144k.",
+  "problem": "Same 15 Oct curve, two methods. (a) Like-for-like with the IBTR note and competition/COMPETITION.md (holding maturity dates, yields unchanged, waiting cash at 0%): $298,628, room $1,372 (4.7bp), down from $293,453 / 22.7bp on 6 Oct. (b) The 16 Oct number sheet's basis (payment dates, forward rates, i.e. waiting cash earns market rates): $294,461, room $5,539 (19bp), down from $288,938 / 38bp on 6 Oct. If waiting cash earns the 3-month yield the cost is about $295.3k (L03 verifier). So room has halved or worse on every basis. Odds the ladder costs over $300k on 1 Jan 2027: about 28-35% on a market-rate basis (sheet: 35%), about 45% on the 0% basis (MODEL, driftless, 4.2-4.8bp daily vol in 2026). 'About 1 in 3' is fair; 'coin toss' is not. Stale or unlabelled quotes: IBTR note 'about 0.2 percentage points' (true on 6 Oct, now about 0.05 on its own basis), planned rationale 'fallen slightly' (10y 5.27 to 5.10 by 15 Oct), V5 '$292,000' (dated late-September, payment-date basis), competition/COMPETITION.md '$293k ... 0.2 percentage points'. Under V5's 'remainder' rule a top-up lowers the floor: a 25bp fall from 15 Oct means a top-up of about $1.8k (basis b) to $5.9k (basis a), floor about $148k to $144k.",
   "evidence": [
    "caplet/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:15 'If yields fall more than about 0.2 percentage points by January'",
    "05_trading_note_reflection_wins_trading_notes.md:29 'Yields have fallen slightly since the trade'",
    "caplet/google_drive/ips_report/01_version_5.md:16 'about $292,000 of Treasuries'; :24 'At late-September 2026 yields they cost about $292,000'",
-   "COMPETITION.md:153-154 'It costs about $293k on the 6 Oct curve; a fall in yields of about 0.2 percentage points'",
+   "competition/COMPETITION.md:153-154 'It costs about $293k on the 6 Oct curve; a fall in yields of about 0.2 percentage points'",
    "keel/routines/tasks/MONITOR.md:22 6 Oct baseline 7y 5.15, 10y 5.27, 20y 5.68, $293,447, 22.7bp",
    "https://home.treasury.gov daily par curve CSV (accessed 16 Oct 2026): 15 Oct 5y 4.91, 7y 5.00, 10y 5.10, 20y 5.48; repriced in scratchpad/oct16/lenses/L08/series_live.csv",
    "caplet-latest/research/ips_numbers_2026-10/results.json: ladder_cost_bootstrap_headline 2026-10-15 cost 294453, headroom 5547; p_ladder_over_300k_on_1jan2027 0.352",
@@ -36,9 +36,9 @@
    "FinalReport",
    "Trades"
   ],
-  "problem": "WInS holds VT at 8.84% of $300k at cost (sheet target 8.7%, built with the 2027 leftover inside the stock fund: Tab 7 '40K' = 32K + 8K). Re-priced on the 15 Oct curve, the plan's stock share is about 6.9% if the leftover is kept as a Treasury (the 16 Oct number sheet: VT about $32k, 'under a tenth stocks') and about 7.2-8.1% if the leftover goes into VT, depending on basis. Team files still say '~9%' and '~$40k' (COMPETITION.md:156; CLAUDE.md:92, :96; notes_and_discussions.md:109, :118). COMPETITION.md:188-189 calls drift 'trivial' against fixed early-October targets. The gap is small, but the FR evaluates the frozen book, so it needs one stated reference point.",
+  "problem": "WInS holds VT at 8.84% of $300k at cost (sheet target 8.7%, built with the 2027 leftover inside the stock fund: Tab 7 '40K' = 32K + 8K). Re-priced on the 15 Oct curve, the plan's stock share is about 6.9% if the leftover is kept as a Treasury (the 16 Oct number sheet: VT about $32k, 'under a tenth stocks') and about 7.2-8.1% if the leftover goes into VT, depending on basis. Team files still say '~9%' and '~$40k' (competition/COMPETITION.md:156; CLAUDE.md:92, :96; notes_and_discussions.md:109, :118). competition/COMPETITION.md:188-189 calls drift 'trivial' against fixed early-October targets. The gap is small, but the FR evaluates the frozen book, so it needs one stated reference point.",
   "evidence": [
-   "COMPETITION.md:156 '(~9% of all money)'; :188-189 'Every weight is within 0.2 pt of target ... drift is trivial'",
+   "competition/COMPETITION.md:156 '(~9% of all money)'; :188-189 'Every weight is within 0.2 pt of target ... drift is trivial'",
    "CLAUDE.md:92 '(~$40k)'; :96 '~9% of all money'",
    "caplet/google_drive/notes_and_discussions.md:109 'The rest, about $40k'",
    "caplet/google_drive/ips_report/09_old_versions_v3_tab_7.md:20 '40K goes to growth'",
@@ -93,7 +93,7 @@
   "evidence": [
    "caplet/google_drive/strategy_notes.md:20 'About $150k is locked into a Treasury by 2028'",
    "notes_and_discussions.md:110 'At least $150k, which I already own'",
-   "COMPETITION.md:155-156 'sized to return about $150k by 2033'",
+   "competition/COMPETITION.md:155-156 'sized to return about $150k by 2033'",
    "01_version_5.md:24 'sized to return that remainder'; :30 'quoted rounded down after any expected shortfall'",
    "15_tab_15.md:16 'quoted at the 2032 ETF's projected payout rounded down'",
    "archive/rab/decisions/D_range_confidence_2031.md:8 'rounded down to $5,000 ($145,000 today)'; :18 'the iBond-fund floor pays under $150,000 about 2 times in 3'",
@@ -121,7 +121,7 @@
    "caplet/google_drive/final_report.md:24 'kept 'never below the floor' on purpose (STRIPS in real life, IBTM as the WInS stand-in)'",
    "01_version_5.md:28 'Markets can shrink the facility contribution, but never below the floor'",
    "05_trading_note_reflection_wins_trading_notes.md:19 'although the final payout is not fixed'",
-   "COMPETITION.md:87-90 (6 Oct email); :155 floor in IBTM; :176 '2028 floor stand-in'",
+   "competition/COMPETITION.md:87-90 (6 Oct email); :155 floor in IBTM; :176 '2028 floor stand-in'",
    "CLAUDE.md:97-98 'building-minimum stand-in'",
    "smapply_public_2026-10-14/deliverables.txt:58 Articulation criterion 'response to challenges'"
   ],
@@ -131,7 +131,7 @@
   "deadline": "Journal by Sun 25 Oct; IPS Sat 7 Nov 09:00 Sydney",
   "lens": "L08_coherence_numbers",
   "verdict": "adjusted",
-  "verifier_note": "Journal quote (final_report.md:24) and missing 6 Oct entry confirmed. But the fix to V5's wording is already known: COMPETITION.md:199-200 lists softening 'never below the floor' as an open item, Tab 15:27 proposes replacement logic, and the 15 Oct brief (final.md:137) banned the phrase. What is new is the journal's stated STRIPS reason and the missing 'challenge' entry. One IPS phrase fixes the IPS part, so severity lowered to medium."
+  "verifier_note": "Journal quote (final_report.md:24) and missing 6 Oct entry confirmed. But the fix to V5's wording is already known: competition/COMPETITION.md:199-200 lists softening 'never below the floor' as an open item, Tab 15:27 proposes replacement logic, and the 15 Oct brief (final.md:137) banned the phrase. What is new is the journal's stated STRIPS reason and the missing 'challenge' entry. One IPS phrase fixes the IPS part, so severity lowered to medium."
  },
  {
   "id": "COH-06",
@@ -146,20 +146,20 @@
   "evidence": [
    "competition/official/2026_27/smapply_public_2026-10-14/trading.txt:26 'The $300,000 is your team's WInS simulator balance'",
    "Laura_Gao_2026_Client_Profile.txt:129 'The WInS portfolio represents each team's implementation'",
-   "COMPETITION.md:70 '(= Laura's 2027 deposit; the $150k is NOT added)'",
+   "competition/COMPETITION.md:70 '(= Laura's 2027 deposit; the $150k is NOT added)'",
    "portfolio.csv:2 'Laura's plan on 2 Jan 2028, after both deposits, scaled to WInS's $300,000'; :10 'Payment ladder,65.9%'",
    "05_...md:18 filled Nov-2039 '$50,000 payment' vs :40 cancelled 'scaled 2040 payment'; :24 'scaled to the model portfolio'",
    "05_...md:15 'her first $300,000 is enough to buy Treasuries for all ten payments'",
    "caplet/deliverables/ips_outline.md:3 'WInS is the real ladder'",
    "TNA-FINAL.txt:53 'Yes, we will verify this.'"
   ],
-  "fix": "State one mapping, the same in all three deliverables: which date's plan WInS mirrors, the scale (about 64 cents of WInS per plan dollar), and why VT and the floor appear although the $150k is not in WInS. Keep COMPETITION.md:70's official fact and add the mapping beside it.",
+  "fix": "State one mapping, the same in all three deliverables: which date's plan WInS mirrors, the scale (about 64 cents of WInS per plan dollar), and why VT and the floor appear although the $150k is not in WInS. Keep competition/COMPETITION.md:70's official fact and add the mapping beside it.",
   "confidence": "high",
   "new_vs_known": "known-deeper",
   "deadline": "TNA Thu 22 Oct; IPS 6 Nov",
   "lens": "L08_coherence_numbers",
   "verdict": "adjusted",
-  "verifier_note": "Scale (about 0.643) and the 9-of-11 count confirmed. Three parts refuted: (1) COMPETITION.md:70's gloss is a fair reading of the official page ('The $300,000 is your team's WInS simulator balance. The additional $150,000 contribution ... will not be added to WInS', trading.txt:26), so it should be kept and the mapping explained, not dropped; (2) the IBTR note's '$300,000 ... all ten payments' is about Laura's plan, not the WInS split, so it is not a contradiction; (3) ips_outline.md:3 'WInS is the real ladder' refers to D7's dropped shadow-ladder branch (caplet/decisions/LOG.md:33), so it is shorthand, not wrong. TNA-FINAL:53 'we will verify this' is about trades being executed, not note sizing. Severity lowered to medium."
+  "verifier_note": "Scale (about 0.643) and the 9-of-11 count confirmed. Three parts refuted: (1) competition/COMPETITION.md:70's gloss is a fair reading of the official page ('The $300,000 is your team's WInS simulator balance. The additional $150,000 contribution ... will not be added to WInS', trading.txt:26), so it should be kept and the mapping explained, not dropped; (2) the IBTR note's '$300,000 ... all ten payments' is about Laura's plan, not the WInS split, so it is not a contradiction; (3) ips_outline.md:3 'WInS is the real ladder' refers to D7's dropped shadow-ladder branch (caplet/decisions/LOG.md:33), so it is shorthand, not wrong. TNA-FINAL:53 'we will verify this' is about trades being executed, not note sizing. Severity lowered to medium."
  },
  {
   "id": "COH-07",
@@ -195,7 +195,7 @@
    "FinalReport",
    "Repo"
   ],
-  "problem": "V5's '$292,000 at late-September yields' is the payment-date forward basis (25 Sep: $292,272). COMPETITION.md:153-154 and MONITOR.md:22 use the maturity-date, yields-unchanged basis ($293,447 on 6 Oct). The 16 Oct number sheet uses the payment-date basis ($294,453 on 15 Oct). CLAUDE.md lists '$7.7k = 27bp' as VERIFIED (:121-122), corrects it to '$294,387 ... $5,613 (19bp)' at :106-107, and the 16 Oct commit adds '~$294k' in Current status. Team notes add $294,000, $289,119, $297k and $298k with no method.",
+  "problem": "V5's '$292,000 at late-September yields' is the payment-date forward basis (25 Sep: $292,272). competition/COMPETITION.md:153-154 and MONITOR.md:22 use the maturity-date, yields-unchanged basis ($293,447 on 6 Oct). The 16 Oct number sheet uses the payment-date basis ($294,453 on 15 Oct). CLAUDE.md lists '$7.7k = 27bp' as VERIFIED (:121-122), corrects it to '$294,387 ... $5,613 (19bp)' at :106-107, and the 16 Oct commit adds '~$294k' in Current status. Team notes add $294,000, $289,119, $297k and $298k with no method.",
   "evidence": [
    "CLAUDE.md:121-122 'headroom under the $300k deposit $7.7k = 27bp' under VERIFIED; :106-107 'headroom $5,613 (19bp), not $7.7k/27bp'",
    "scratchpad/oct16/lenses/L08/series_live.csv 2026-09-29/30 buyable fwd 292844/291850; unch 293968/293025",
@@ -216,11 +216,11 @@
   "deliverables": [
    "All"
   ],
-  "problem": "Root-and-Branch (IPS, journal), Roots First (COMPETITION.md heading and open item), Lock early, Keep every promise grow the rest, Lock then grow, and 'two cheques'. 'Consistency with the team's IPS' is part of a scored criterion, and teammates copy from COMPETITION.md.",
+  "problem": "Root-and-Branch (IPS, journal), Roots First (competition/COMPETITION.md heading and open item), Lock early, Keep every promise grow the rest, Lock then grow, and 'two cheques'. 'Consistency with the team's IPS' is part of a scored criterion, and teammates copy from competition/COMPETITION.md.",
   "evidence": [
    "01_version_5.md:16, :24 'Root-and-Branch'",
    "caplet/google_drive/final_report.md:21 'Strategy name settled as Root-and-Branch (earlier 'Roots First')'",
-   "COMPETITION.md:147 'Our strategy (\"Roots First\")'; :204",
+   "competition/COMPETITION.md:147 'Our strategy (\"Roots First\")'; :204",
    "CLAUDE.md:65 'Lock early'",
    "keel/library/insight_v1/Team_Caplet_Strategy_Brief.pdf p.1 'Keep every promise, grow the rest'",
    "caplet/deliverables/ips_outline.md:18 'Lock, then grow'; caplet/deliverables/final_report_outline.md:5 'two cheques'",
@@ -232,7 +232,7 @@
   "deadline": "Vote set A Sun 18 Oct",
   "lens": "L08_coherence_numbers",
   "verdict": "adjusted",
-  "verifier_note": "Names confirmed, but CLAUDE.md:65 'Lock early' sits in a section headed 'superseded by Current status above', and V5, Tab 15 and the journal already agree on Root-and-Branch. The live risk is COMPETITION.md:147/:204 ('Roots First') being copied. Known-repeat (final.md:711). Severity lowered to low."
+  "verifier_note": "Names confirmed, but CLAUDE.md:65 'Lock early' sits in a section headed 'superseded by Current status above', and V5, Tab 15 and the journal already agree on Root-and-Branch. The live risk is competition/COMPETITION.md:147/:204 ('Roots First') being copied. Known-repeat (final.md:711). Severity lowered to low."
  },
  {
   "id": "COH-10",
@@ -242,9 +242,9 @@
    "FinalReport",
    "Repo"
   ],
-  "problem": "COMPETITION.md lists 5.000% Feb-2037. WInS, the sheet and portfolio_check say 4.750%. 5.000% is the unlisted May-2037 issue. At the 96.019 fill the real coupon gives a 5.25% yield; the wrong one gives 5.51%. That error would enter the FR's implementation review.",
+  "problem": "competition/COMPETITION.md lists 5.000% Feb-2037. WInS, the sheet and portfolio_check say 4.750%. 5.000% is the unlisted May-2037 issue. At the 96.019 fill the real coupon gives a 5.25% yield; the wrong one gives 5.51%. That error would enter the FR's implementation review.",
   "evidence": [
-   "COMPETITION.md:181 '5.000% T-bond Feb-2037'",
+   "competition/COMPETITION.md:181 '5.000% T-bond Feb-2037'",
    "05_...md:16 'B-T-4.750-15022037'",
    "portfolio.csv:25 'T 4.750% 15-Feb-2037'; keel/routines/tasks/portfolio_check.py:12",
    "caplet/google_drive/sheets/portfolio_and_trading_notes/trading_notes.csv:129 'WInS does not list the 5.000% May-2037 (checked 5 Oct)'",
@@ -256,7 +256,7 @@
   "deadline": "Before 10 Nov (FR drafting)",
   "lens": "L08_coherence_numbers",
   "verdict": "confirmed",
-  "verifier_note": "COMPETITION.md:181 says 5.000%; WInS ticker B-T-4.750-15022037 (05_...md:16), portfolio.csv:25 and portfolio_check.py:12 say 4.750%. Verifier re-computed yield at 96.019 (settle 9 Oct): 5.25% with 4.750%, 5.51% with 5.000%. Already flagged on 15 Oct (final.md:121, :287) and still unfixed."
+  "verifier_note": "competition/COMPETITION.md:181 says 5.000%; WInS ticker B-T-4.750-15022037 (05_...md:16), portfolio.csv:25 and portfolio_check.py:12 say 4.750%. Verifier re-computed yield at 96.019 (settle 9 Oct): 5.25% with 4.750%, 5.51% with 5.000%. Already flagged on 15 Oct (final.md:121, :287) and still unfixed."
  },
  {
   "id": "COH-11",
@@ -316,7 +316,7 @@
   "problem": "In WInS, distributions and coupons arrive as cash at 0% and the plan is hold. Bond coupons are smaller than a $1,000 unit. The notes park early proceeds in a short-term Treasury ETF. The sheet brief says T-bills, which are not on WInS. Tab 15 notes that 'held without trading' clashes with the 2028 purchase.",
   "evidence": [
    "01_version_5.md:26 'held without trading, with income reinvested in the holding that paid it'",
-   "COMPETITION.md:80 '0% interest on cash'; :82 '$1,000 face' units; :188-190",
+   "competition/COMPETITION.md:80 '0% interest on cash'; :82 '$1,000 face' units; :188-190",
    "05_...md:16-17 'short-term Treasury ETF'",
    "trading_notes.csv:129 'the money waits in Treasury bills (0% in WInS)'",
    "15_tab_15.md:29"
@@ -327,7 +327,7 @@
   "deadline": "IPS 6 Nov",
   "lens": "L08_coherence_numbers",
   "verdict": "confirmed",
-  "verifier_note": "V5:26, COMPETITION.md:80/:82, 05_...md:16-17 and trading_notes.csv:129 ('money waits in Treasury bills (0% in WInS)') confirmed; direct T-bills are out after the 6 Oct email (COMPETITION.md:89-90). Known-repeat (final.md:124)."
+  "verifier_note": "V5:26, competition/COMPETITION.md:80/:82, 05_...md:16-17 and trading_notes.csv:129 ('money waits in Treasury bills (0% in WInS)') confirmed; direct T-bills are out after the 6 Oct email (competition/COMPETITION.md:89-90). Known-repeat (final.md:124)."
  },
  {
   "id": "COH-14",
@@ -365,7 +365,7 @@
    "keel/library/insight_v1/Team_Caplet_Strategy_Brief.pdf p.3 (text search finds no 'STRIPS' or 'supersed')",
    "keel/library/insight_v1/trading_notes_pack.md:4 'IEF + TLH'; CLAUDE.md:85 'the two primary files'; CLAUDE.md:101",
    "caplet/deliverables/cosponsor_talking_points.md 'Today's projection: ≈ $113k'; caplet/deliverables/final_report_outline.md:5 '$298k lock cost'",
-   "COMPETITION.md:94 'none maturing Feb 2031 to Feb 2036'"
+   "competition/COMPETITION.md:94 'none maturing Feb 2031 to Feb 2036'"
   ],
   "fix": "Before 9 Nov, banner or archive every file a student may open for the FR. Take FR figures only from one dated numbers sheet.",
   "confidence": "high",
@@ -403,12 +403,12 @@
    "FinalReport",
    "Team"
   ],
-  "problem": "The live Rules page says the Top 50 is chosen on the IPS and Final Reports. SMApply says all three deliverables are evaluated. CLAUDE.md states TNA+IPS+FR selection as fact. COMPETITION.md says 'short video presentation', but the FAQ means a live presentation over video conference, and the Rules page bans recording.",
+  "problem": "The live Rules page says the Top 50 is chosen on the IPS and Final Reports. SMApply says all three deliverables are evaluated. CLAUDE.md states TNA+IPS+FR selection as fact. competition/COMPETITION.md says 'short video presentation', but the FAQ means a live presentation over video conference, and the Rules page bans recording.",
   "evidence": [
    "https://globalyouth.wharton.upenn.edu/competitions/investment-competition/rules-roles/ (accessed 16 Oct 2026) 'The top 50 teams will be selected as semifinalists based on the strength of their Investment Policy Statement (IPS) and Final Reports.'",
    "smapply_public_2026-10-14/deliverables.txt:28 'Your Trading Notes Analysis, Investment Policy Statement and Final Report are evaluated.'",
    "CLAUDE.md:26 'chosen on the written Trading Notes, IPS and Final Report'",
-   "COMPETITION.md:26 'short video presentation'; faqs.txt:89 'via video conference for the Semifinals'"
+   "competition/COMPETITION.md:26 'short video presentation'; faqs.txt:89 'via video conference for the Semifinals'"
   ],
   "fix": "Treat all three as scored, but label the official wording difference. Correct the semifinal format wording.",
   "confidence": "high",
@@ -427,7 +427,7 @@
   ],
   "problem": "The FR is meant to explain the 'Long Equities' pie-chart label. Files give 91% (cash excluded) and 89.5-90.2% (cash included) without saying which.",
   "evidence": [
-   "COMPETITION.md:98 'about 91% Treasuries'",
+   "competition/COMPETITION.md:98 'about 91% Treasuries'",
    "ops/monitor_reports/2026-10-13 Caplet check.md:16",
    "archive/rab/trades/tickets.md:124 'dated holdings incl. floor 89.51% (tab target 90.2%)'"
   ],
@@ -450,7 +450,7 @@
   "problem": "These move or may be superseded before submission: ladder cost and odds, leftover, floor, fund split, WInS value and iBond distributions, the Fed (next FOMC 27-28 Oct per search listings), the JPM LTCMA (2026 edition, data 30 Sep 2025; no newer edition found 16 Oct, UNVERIFIED), VT and IBTP fact-sheet data, Taiwan CPI and USD/TWD. Without one valuation date per deliverable the three will carry mixed dates. Verified: next FOMC 27-28 Oct 2026; the following one, 8-9 Dec, is after the FR deadline (federalreserve.gov, accessed 16 Oct 2026).",
   "evidence": [
    "CLAUDE.md:126 'JPM 2026 LTCMA (data 2025-09-30)'; :139 'Fed raised to 3.75-4.00% on 2026-09-16'",
-   "COMPETITION.md:188-190 value 13 Oct; iBond distributions around 6 Nov",
+   "competition/COMPETITION.md:188-190 value 13 Oct; iBond distributions around 6 Nov",
    "Web search 16 Oct 2026 (Chicago Fed / federalreserve.gov listings): FOMC 27-28 Oct and 8-9 Dec, tentative",
    "Web search 16 Oct 2026: no 2027 JPM LTCMA edition found",
    "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm (accessed 16 Oct 2026): 2026 meetings 'October 27-28', 'December 8-9*'"
@@ -495,7 +495,7 @@
    "IPS",
    "FinalReport"
   ],
-  "problem": "COMPETITION.md:153-154 says the ladder 'costs about $293k on the 6 Oct curve' (maturity-date, yields-unchanged basis, MONITOR.md:22 $293,447). The 16 Oct number sheet and CLAUDE.md Current status now say 'about $294,000' on the 15 Oct curve, but on the payment-date forward basis, and the sheet says 'It was $290-292k a week ago'. A student reading the two files side by side sees $293k to $294k and concludes yields barely moved, which is the opposite of the truth: like for like, the cost rose about $5.2k (to $298.6k) on the first basis and about $5.5k (from $288.9k) on the second. The sheet's results.json also carries a third method (ladder_cost_1jan2027_today_curve $295,924; ladder_headroom 4,076; 13.4bp) while its text says 0.19 points. The IBTR reflection (TNA, due in 7 days) is where this would surface.",
+  "problem": "competition/COMPETITION.md:153-154 says the ladder 'costs about $293k on the 6 Oct curve' (maturity-date, yields-unchanged basis, MONITOR.md:22 $293,447). The 16 Oct number sheet and CLAUDE.md Current status now say 'about $294,000' on the 15 Oct curve, but on the payment-date forward basis, and the sheet says 'It was $290-292k a week ago'. A student reading the two files side by side sees $293k to $294k and concludes yields barely moved, which is the opposite of the truth: like for like, the cost rose about $5.2k (to $298.6k) on the first basis and about $5.5k (from $288.9k) on the second. The sheet's results.json also carries a third method (ladder_cost_1jan2027_today_curve $295,924; ladder_headroom 4,076; 13.4bp) while its text says 0.19 points. The IBTR reflection (TNA, due in 7 days) is where this would surface.",
   "evidence": [
    "/home/user/caplet-investment/COMPETITION.md:153-154",
    "/home/user/caplet-investment/ops/routines/MONITOR.md:22 '$293,447 ... 22.7bp'",
@@ -504,7 +504,7 @@
    "caplet-latest/research/ips_numbers_2026-10/results.json: ladder_cost_1jan2027_today_curve 295924; ladder_headroom 4076; ladder_headroom_bp 13.4; ladder_cost_bootstrap_headline 2026-10-15 294453",
    "Verifier re-run verify/L08w/ladder.py: 6 Oct mat-unch $293,453 / pay-fwd $288,938; 15 Oct mat-unch $298,628 / pay-fwd $294,461"
   ],
-  "fix": "Before any reflection mentions the IBTR trigger: one numbers sheet shows both bases side by side for 6 Oct and the writer's date, labelled; COMPETITION.md's $293k line is updated or labelled with its basis; the sheet's internal 13.4bp vs 19bp mismatch is resolved. Any 'yields have moved by X' claim compares like with like.",
+  "fix": "Before any reflection mentions the IBTR trigger: one numbers sheet shows both bases side by side for 6 Oct and the writer's date, labelled; competition/COMPETITION.md's $293k line is updated or labelled with its basis; the sheet's internal 13.4bp vs 19bp mismatch is resolved. Any 'yields have moved by X' claim compares like with like.",
   "deadline": "Mon 19 Oct (before TNA drafting); TNA due Fri 23 Oct ET",
   "new_vs_known": "new",
   "confidence": "high",
@@ -543,7 +543,7 @@
    "IPS",
    "FinalReport"
   ],
-  "problem": "Three of the 13 suggestions clash with other team material. (1) Suggestion 5 changes the body to 'about $294,000' but the file says the elevator pitch is 'Not changed', and the pitch says 'about $292,000' (V5:16), so the IPS would disagree with itself. (2) Suggestion 2 says 'each payment's principal depends only on the US government', but five of the ten rungs are iBond ETFs, and iShares says these funds 'do not seek to return any predetermined amount'; four filled trade notes (IBTM, IBTO, IBTP, IBTQ) say the payout 'is not fixed'. The IPS would contradict the TNA notes, which the TNA must be consistent with (TNA-FINAL.txt:30-31). (3) Suggestions 11-12 put a dollar range ('$145,000 to $168,000 today') and '99 times in 100' into the IPS, citing the case's 'must'. But the IPS instructions say the IPS 'is not expected to include ... a final facility-contribution range' (IPS-FINAL.txt:68-70), and the 15 Oct brief advised no range in the IPS (final.md:392). Numbers frozen on 6 Nov will differ from the FR's December figures, and the $145k bottom falls in the roughly 1-in-3 case where the ladder needs a top-up. The new COMPETITION.md open item (caplet-latest/COMPETITION.md:202-203) tells the team to use the sheet for 'the dollar range, the confidence, the allocation and the return assumption' in the IPS. Whether these suggestions have been posted into the Google Doc is UNVERIFIED.",
+  "problem": "Three of the 13 suggestions clash with other team material. (1) Suggestion 5 changes the body to 'about $294,000' but the file says the elevator pitch is 'Not changed', and the pitch says 'about $292,000' (V5:16), so the IPS would disagree with itself. (2) Suggestion 2 says 'each payment's principal depends only on the US government', but five of the ten rungs are iBond ETFs, and iShares says these funds 'do not seek to return any predetermined amount'; four filled trade notes (IBTM, IBTO, IBTP, IBTQ) say the payout 'is not fixed'. The IPS would contradict the TNA notes, which the TNA must be consistent with (TNA-FINAL.txt:30-31). (3) Suggestions 11-12 put a dollar range ('$145,000 to $168,000 today') and '99 times in 100' into the IPS, citing the case's 'must'. But the IPS instructions say the IPS 'is not expected to include ... a final facility-contribution range' (IPS-FINAL.txt:68-70), and the 15 Oct brief advised no range in the IPS (final.md:392). Numbers frozen on 6 Nov will differ from the FR's December figures, and the $145k bottom falls in the roughly 1-in-3 case where the ladder needs a top-up. The new competition/COMPETITION.md open item (caplet-latest/COMPETITION.md:202-203) tells the team to use the sheet for 'the dollar range, the confidence, the allocation and the return assumption' in the IPS. Whether these suggestions have been posted into the Google Doc is UNVERIFIED.",
   "evidence": [
    "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md rows 2, 5, 11, 12 and the closing line 'Not changed: the elevator pitch (47 words)'",
    "caplet/google_drive/ips_report/01_version_5.md:16 'about $292,000 of Treasuries'",
@@ -553,7 +553,7 @@
    "caplet-latest/COMPETITION.md:202-203",
    "scratchpad/oct14/final.md:392"
   ],
-  "fix": "Before any of these suggestions is accepted: every ladder figure in the pitch and body uses the same date and basis; no IPS sentence calls iBond principal fixed or dependent 'only' on the US government; the team decides on purpose whether the IPS carries a dollar range at all (not required), and if it does, labels it dated and explains how it moves with a ladder top-up; COMPETITION.md's open item is reworded to match. Each accepted [AI] wording is logged for the Works Cited, as the new rule requires.",
+  "fix": "Before any of these suggestions is accepted: every ladder figure in the pitch and body uses the same date and basis; no IPS sentence calls iBond principal fixed or dependent 'only' on the US government; the team decides on purpose whether the IPS carries a dollar range at all (not required), and if it does, labels it dated and explains how it moves with a ladder top-up; competition/COMPETITION.md's open item is reworded to match. Each accepted [AI] wording is logged for the Works Cited, as the new rule requires.",
   "deadline": "Before any suggestion is accepted; IPS Fri 6 Nov ET",
   "new_vs_known": "new",
   "confidence": "high",

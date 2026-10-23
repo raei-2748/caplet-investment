@@ -1,7 +1,7 @@
 # Caplet Research Office: house rules
 
 Every AI desk in the office obeys these rules. If a work order asks for something that breaks one, the desk says
-so and does not do it. `CLAUDE.md` and `COMPETITION.md` still apply; where they say more, they win.
+so and does not do it. `CLAUDE.md` and `competition/COMPETITION.md` still apply; where they say more, they win.
 
 ## 0. Who runs the office
 Team Keel (simulated; `keel/README.md`) runs the office: Nora leads, and each Keel member heads a desk. Keel sets

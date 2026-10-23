@@ -19,10 +19,10 @@ Try to break the memo. Default to FAIL when unsure.
 - **Number:** it must state its date and basis. Re-derive it a second way (a different script, a hand check, or
   an independent re-implementation). Report both values. A gap above a rounding difference is a FAIL until
   explained.
-- **Rule:** check it against `COMPETITION.md` sections 4-5 and the official PDF text, and that it is the 2026-27
+- **Rule:** check it against `competition/COMPETITION.md` sections 4-5 and the official PDF text, and that it is the 2026-27
   rule, not an old season's.
 - **Wording:** flag "guaranteed", "risk-free", "locked", "secured", "promised", "cannot miss", "never below", CPPI or
-  immunisation used for our plan (`COMPETITION.md` section 7 wording rules).
+  immunisation used for our plan (`competition/COMPETITION.md` section 7 wording rules).
 - **Integrity:** flag any sentence that reads like text for the students to paste, any personal data, any Laura
   quote not in the case.
 

@@ -31,7 +31,7 @@ All dates are **Sydney** unless marked ET. Each item gives: **what to do**, *who
 
 ### Now / this week (Thu 15 to Sun 18 Oct)
 1. **Agree that students write every word that is submitted.** Label IPS V5, Tab 15 and the AI example notes "AI reference only". Do not edit or "humanise" them. *Whole team · Thu 15 Oct.* → §8
-2. **Keep AI out of WInS and SMApply.** Delete the rule "AI may fill a ticket up to Preview". It is in COMPETITION.md:193 and in the live routine copies on the Mac. For every trade, hold a team vote and have a second student read the ticket back. *Ray W. · Thu 15 Oct.* → §5, §12
+2. **Keep AI out of WInS and SMApply.** Delete the rule "AI may fill a ticket up to Preview". It is in competition/COMPETITION.md:193 and in the live routine copies on the Mac. For every trade, hold a team vote and have a second student read the ticket back. *Ray W. · Thu 15 Oct.* → §5, §12
 3. **Make the GitHub repo private.** Add teammates as collaborators first. If it stays public, write down why. *Ray W. (his decision) · Thu 15 Oct.* → §9
 4. **Name owners** in the team sheet, not the repo. Roles: trader, checker/recorder, rates analyst, 3 reflection writers, TNA editor, IPS section authors, format checker, historian/AI-log keeper, rules lead, privacy lead (not Ray), repo helper (not Ray), and one unpaid outside reader. *Ray W. + team · Fri 16 Oct.* → §11
 5. **Remove personal data from current files** using the list in §9. On archive/rab/rescued/r4_hist_original.py:6, blank out the path; keep the file, because other files cite it. Remove the two IPS-draft PDFs from the repo. *Privacy lead · Fri 16 Oct.* → §9
@@ -78,7 +78,7 @@ All dates are **Sydney** unless marked ET. Each item gives: **what to do**, *who
     - take names from the private roster note.
 
     *Ray W. · Sun 18 Oct.* → §12
-28. **Fix the stale repo facts listed in §14:** COMPETITION.md; the 5:00 pm freeze time in three files; `min_share_price_usd: 3` (should be 5) in two configs; roster "pending"; and every pointer that calls V5 "current". *Repo helper · Sun 18 Oct.* → §4, §14
+28. **Fix the stale repo facts listed in §14:** competition/COMPETITION.md; the 5:00 pm freeze time in three files; `min_share_price_usd: 3` (should be 5) in two configs; roster "pending"; and every pointer that calls V5 "current". *Repo helper · Sun 18 Oct.* → §4, §14
 29. **Fix the live Google Docs:** the portfolio is $300,000, not $500,000; add the TNA date; delete the "practice account" line. *Rules lead · Fri 16 Oct.* → §4
 30. **Add a "superseded" banner to stale files, or archive them.** Mark caplet/docs/AI_USE.md sections 1-4 and toolkit/outputs/ai_use_log.jsonl "do not use". Remove the unrelated personal PDF. Fix check_gate_c.py:163. *Repo helper · Sun 25 Oct.* → §14
 
@@ -118,9 +118,9 @@ All dates are **Sydney** unless marked ET. Each item gives: **what to do**, *who
 **WInS and the notes**
 - **Notes cannot be edited.** The TNA quotes each one exactly, and Wharton checks it against an executed trade.
 - **Four notes sit on cancelled orders:** IBTR, Feb-2037, May-2038 and Nov-2039. There are two IBTR notes. The cancelled one says "0.3"; the filled one (7 Oct 4:42 AM ET) says "about 0.2". Use only the filled one.
-- **The Feb-2037 bond is the 4.750% issue.** COMPETITION.md:181 wrongly says 5.000%.
+- **The Feb-2037 bond is the 4.750% issue.** competition/COMPETITION.md:181 wrongly says 5.000%.
 - **Repo values are model estimates, not WInS readings.** WInS profit is not judged.
-- **The WInS pie chart labels the iBonds "Long Equities".** They are Treasury funds (COMPETITION.md:98).
+- **The WInS pie chart labels the iBonds "Long Equities".** They are Treasury funds (competition/COMPETITION.md:98).
 - **iBond distributions arrive as cash at 0%.** That needs no trade. But V5 says income is "reinvested", so settle which it is.
 
 **Numbers**
@@ -181,7 +181,7 @@ All dates are **Sydney** unless marked ET. Each item gives: **what to do**, *who
 - the Wharton main page, Rules & Roles, FAQ and AI-policy pages (live, 14 Oct);
 - the six official PDFs against their manifest hashes;
 - the Sydney/ET conversions;
-- COMPETITION.md, START_HERE.md and the configs.
+- competition/COMPETITION.md, caplet/START_HERE.md and the configs.
 
 **Found:**
 - **Two public pages changed on 14 Oct, after our snapshot.**
@@ -203,23 +203,23 @@ All dates are **Sydney** unless marked ET. Each item gives: **what to do**, *who
 
   - The 4:00 pm trading end comes from the team's copy of the Session Rules (wins_notes.csv:5).
   - Semifinal dates are TBD. The Global Finale is 29-30 Apr 2027.
-- **The freeze time is wrong in three files, not in COMPETITION.md.** COMPETITION.md:21 and :72 correctly say 4:00 pm. These say 5:00 pm:
+- **The freeze time is wrong in three files, not in competition/COMPETITION.md.** competition/COMPETITION.md:21 and :72 correctly say 4:00 pm. These say 5:00 pm:
   - toolkit/config/wharton_private_2026_27.yaml:76;
   - toolkit/config/competition.yaml:17-18;
   - toolkit/docs/wharton_workflow_v2.md:116.
 
-  START_HERE.md:47 gives no time. How WInS treats an order still open at the freeze is UNVERIFIED.
-- **Laura is real.** COMPETITION.md:49 says she is fictional. Wharton's main page says: "While the client is real, the financial scenario is developed specifically for the competition." Client page: "Teams are not permitted to contact Laura Gao" (client.txt:23). No onboarding file says this.
+  caplet/START_HERE.md:47 gives no time. How WInS treats an order still open at the freeze is UNVERIFIED.
+- **Laura is real.** competition/COMPETITION.md:49 says she is fictional. Wharton's main page says: "While the client is real, the financial scenario is developed specifically for the competition." Client page: "Teams are not permitted to contact Laura Gao" (client.txt:23). No onboarding file says this.
 - **Disqualification wording** (Rules & Roles, live 14 Oct):
   - "disqualified": contacting the client; removing a member without prior approval; fewer than 4 or more than 6 members; changing the advisor without approval; paid advisors, consultants or agents, or non-Wharton courses; an inappropriate team name (Wharton may instead require a new name).
   - Changing the team leader needs the advisor's written request and approval; no penalty is stated.
   - "Invent teamwork and experiential stories" is in the Ethics section. That section's penalty: plagiarism and cheating are "grounds for dismissal".
-  - None of this is in COMPETITION.md.
+  - None of this is in competition/COMPETITION.md.
 - **Stock minimum.**
-  - COMPETITION.md:66 says the Session Rules "apply" where they differ. That points the wrong way: the stricter rule ($5) wins.
+  - competition/COMPETITION.md:66 says the Session Rules "apply" where they differ. That points the wrong way: the stricter rule ($5) wins.
   - toolkit/config/competition.yaml:44 and toolkit/config/wharton_private_2026_27.yaml:72 hold `min_share_price_usd: 3`.
   - No stocks are held, so nothing was breached.
-- **The 6 Oct email** exists in the repo only as a quote (COMPETITION.md:87-88). COMPETITION.md:77 credits "US Treasuries" to that email, but the US-only limit comes from the Session Rules (wins_notes.csv:9).
+- **The 6 Oct email** exists in the repo only as a quote (competition/COMPETITION.md:87-88). competition/COMPETITION.md:77 credits "US Treasuries" to that email, but the US-only limit comes from the Session Rules (wins_notes.csv:9).
 - **"Required trading activity"** (faqs.txt:76) is not defined anywhere.
   - Trading Details says frequent trading is not required (trading.txt:53).
   - Trades are not scored (wins.txt:23).
@@ -242,9 +242,9 @@ All dates are **Sydney** unless marked ET. Each item gives: **what to do**, *who
   - CLAUDE.md:46-47 and toolkit/config/team_roster.json still say "pending", although CLAUDE.md:8 says submitted.
   - One Doc comment author uses a first name that is not on the title page (01_version_5.md:36). Treat this only as a reason to check.
   - Whether the roster says "Caplet" or "Team Caplet" is UNVERIFIED.
-- **The school letter template** asks for: letterhead; a date; the administrator's position; school name, country and full address; the advisor's full name; team name; each student's first and last name, team leader first; the administrator's signature and date (template lines 1-28). It was not requested as of 13 Oct (COMPETITION.md:132). Rules & Roles also asks semifinalists for letterhead documentation; whether that is a second request is UNVERIFIED.
+- **The school letter template** asks for: letterhead; a date; the administrator's position; school name, country and full address; the advisor's full name; team name; each student's first and last name, team leader first; the administrator's signature and date (template lines 1-28). It was not requested as of 13 Oct (competition/COMPETITION.md:132). Rules & Roles also asks semifinalists for letterhead documentation; whether that is a second request is UNVERIFIED.
 - **Small errors to fix:**
-  - COMPETITION.md:13 says the gap "changes from 14 to 16 hours". It is 15 now and 16 from 1 Nov.
+  - competition/COMPETITION.md:13 says the gap "changes from 14 to 16 hours". It is 15 now and 16 from 1 Nov.
   - The team info pack says the portfolio is $500,000 and leaves out the TNA date (caplet/google_drive/team_list.md:69, 95-106).
   - The STRATEGY tab says the TNA uses "a practice account" (notes_and_discussions.md:29).
 
@@ -254,7 +254,7 @@ All dates are **Sydney** unless marked ET. Each item gives: **what to do**, *who
 
 ## 5. WInS book and trade notes
 
-**Checked:** COMPETITION.md:172-193; keel/routines/tasks/portfolio_check.py; the 15 notes copied on 13 Oct (caplet/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md); and opening prices and volumes, the treasury.gov curve, and the iShares and Vanguard pages (14 Oct).
+**Checked:** competition/COMPETITION.md:172-193; keel/routines/tasks/portfolio_check.py; the 15 notes copied on 13 Oct (caplet/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md); and opening prices and volumes, the treasury.gov curve, and the iShares and Vanguard pages (14 Oct).
 
 **The book: 11 filled orders, 11 of 200 trades**
 
@@ -284,34 +284,34 @@ All dates are **Sydney** unless marked ET. Each item gives: **what to do**, *who
   - nothing was sold;
   - cancelled orders are not trades and cost nothing (faqs.txt:61, 65).
 - **The Trade Log is empty** (trade_log.csv:2-210). The Portfolio tab still shows $300,000 cash and no units (portfolio.csv:7, 20-31), and TN Analysis is empty. The notes themselves are safely copied. What is missing: fills, accrued interest, commissions and cash after each trade.
-- **The Feb-2037 coupon is wrong in COMPETITION.md.** WInS shows B-T-4.750-15022037 (CUSIP 912810PT9). COMPETITION.md:181 says 5.000%, which is a May-2037 bond WInS does not list. Lines 183-185 leave out the coupons.
+- **The Feb-2037 coupon is wrong in competition/COMPETITION.md.** WInS shows B-T-4.750-15022037 (CUSIP 912810PT9). competition/COMPETITION.md:181 says 5.000%, which is a May-2037 bond WInS does not list. Lines 183-185 leave out the coupons.
 - **VT: 167 shares bought against 164 planned** (+$476; 8.84% at cost against 8.7%). That breaks the kit's own rule, "never more than the plan share" (archive/rab/trades/refresh_tickets.py:550-551). No reason is recorded. Keep the position and record why.
 - **Cash reconciliation: DISPUTED.**
 
   | Rebuild | Cash left |
   |---|---|
   | Standard accrued interest (fact-check): ETFs $183,850.85 + VT $26,524.61 + bonds $84,801.22 + accrued about $1,349 + commissions $200 | $3,273.90 (settled 7 Oct) or $3,262.95 (settled 8 Oct) |
-  | One reader, using WInS's 15 Aug last-coupon date for May-2038 (COMPETITION.md:96) | $3,498.90 to $3,509.84 |
+  | One reader, using WInS's 15 Aug last-coupon date for May-2038 (competition/COMPETITION.md:96) | $3,498.90 to $3,509.84 |
   | WInS reports | $3,513.79 |
 
   Between about $4 and $251 is unexplained, depending on the method. Settle it from Transaction History (item 13).
 - **Notes.**
   - The 11 notes on filled orders are 252-294 characters long (limit 300).
   - 4 notes sit on cancelled orders; the two May-2038 notes are identical.
-  - Notes cannot be edited (COMPETITION.md:84).
+  - Notes cannot be edited (competition/COMPETITION.md:84).
 - **The 7 Oct incident.**
-  - An AI browser click cancelled the open May-2038 order (COMPETITION.md:192-193). Only that one cancellation is attributed to AI. Why the other three orders were re-placed is not recorded.
+  - An AI browser click cancelled the open May-2038 order (competition/COMPETITION.md:192-193). Only that one cancellation is attributed to AI. Why the other three orders were re-placed is not recorded.
   - No rule was broken and nothing was lost.
-  - The rule adopted afterwards still lets AI "fill a ticket up to Preview", and notes are typed at Preview (wins_notes.csv:17). WInS cancels instantly with no confirmation (COMPETITION.md:85).
+  - The rule adopted afterwards still lets AI "fill a ticket up to Preview", and notes are typed at Preview (wins_notes.csv:17). WInS cancels instantly with no confirmation (competition/COMPETITION.md:85).
 - **Claims inside the notes:**
   - Correct: the payment dates; the 47-, 320-, 231- and 17-day gaps; "no iBonds fund ends 2037-43"; "no WInS Treasury matures in 2033 or 2035".
   - Verified: IBTP's "0.07% on 2 Oct" (iShares daily history; save a dated copy) and VT's "about 10,000 stocks at 0.06%" (10,088 stocks on 31 Aug; Vanguard, fetched 14 Oct).
   - Unsupported: Nov-2039's "chose Nov over May 2039". Nothing records WInS listing a May-2039 bond.
   - The May-2038 wording is loose, and the Nov-2041 note uses unexplained jargon.
 - **Values are model estimates.**
-  - COMPETITION.md:188 gives about $301,950 (+0.65%) and labels it "13 Oct". Its real basis is the 9 Oct curve plus 12 Oct ETF closes (ops/monitor_reports/2026-10-13 Caplet check.md:11-12).
+  - competition/COMPETITION.md:188 gives about $301,950 (+0.65%) and labels it "13 Oct". Its real basis is the 9 Oct curve plus 12 Oct ETF closes (ops/monitor_reports/2026-10-13 Caplet check.md:11-12).
   - Recomputed: about $302.4k (+0.8%) on 13 Oct and about $302.6k on 14 Oct (MODEL).
-- **iBond distributions** (rough estimate: about $600 a month) will sit as cash at 0%. The November payment may land around 6 Nov, freeze day (COMPETITION.md:190). No trade is needed.
+- **iBond distributions** (rough estimate: about $600 a month) will sit as cash at 0%. The November payment may land around 6 Nov, freeze day (competition/COMPETITION.md:190). No trade is needed.
 
 **Action:** items 2, 13, 18, 22, 25.
 
@@ -407,7 +407,7 @@ The other notes scored: Nov-2040 6.2, IBTO 6.0, Nov-2041 5.8, Nov-2039 5.7, IBTP
 **Found:**
 - **V5 cannot be submitted.**
   - A student's Doc comment calls it "Best version that AI generated; We cannot submit as it is and we still need to refine and proofread it" (01_version_5.md:36).
-  - COMPETITION.md:199-200 plans to edit V5 ("soften absolute claims … add the trade-off sentence; put back the certainty evidence").
+  - competition/COMPETITION.md:199-200 plans to edit V5 ("soften absolute claims … add the trade-off sentence; put back the certainty evidence").
   - Editing AI text does not make it the students' own work. Write fresh from an outline.
 - **Format passes, but only just.**
   - V5 word counts: 47 + 497 counting by spaces; 50 + 505 if each part of a hyphenated word counts; 51 + 500 if headings count. Wharton does not say how it counts (UNVERIFIED).
@@ -428,7 +428,7 @@ The other notes scored: Nov-2040 6.2, IBTO 6.0, Nov-2041 5.8, Nov-2039 5.7, IBTP
   - Under the WInS-only rule, what coupons earn matters: the ten holdings deliver about $503k at their own yields, $466k if coupons earn 2%, and $447k at 0%, against $500k needed (archive/rab/assumptions.md:11; MODEL, 28 Sep).
   - Re-run this before quoting it.
 - **Rules that can be read two ways:**
-  - floor size: V5 says "the remainder"; COMPETITION.md:155-157 says "about $150k";
+  - floor size: V5 says "the remainder"; competition/COMPETITION.md:155-157 says "about $150k";
   - "rounded down" (V5:30 against Tab 15:30);
   - where the 2027 leftover sits (Tab 7 puts it in VT);
   - "held without trading" (V5:26) contradicts the 2028 purchase.
@@ -501,7 +501,7 @@ The other notes scored: Nov-2040 6.2, IBTO 6.0, Nov-2041 5.8, Nov-2039 5.7, IBTP
   - caplet/docs/AI_USE.md was last changed 30 Sep.
   - Its sections 1-4 describe a different platform. Lines 49 and 90 hold false, ready-made "student-authored" statements.
   - toolkit/outputs/ai_use_log.jsonl is 242 mock rows dated 19-27 Sep.
-  - COMPETITION.md:144 points to a log that does not exist.
+  - competition/COMPETITION.md:144 points to a log that does not exist.
   - Section 5 (lines 53-76) is a real log up to 30 Sep. Keep it and extend it.
   - Not logged anywhere: V4, V5, Tab 15, AI example notes v13 and v14, the 6 Oct AI-draft notes column, the AI browser in WInS, the routines.
 - **The public repo records plans to "remove AI-style patterns"** and to use an "AI-voice detector" and "blind voice tests" (caplet/docs/AI_USE.md:65-66). If the IPS stays close to V5, that record looks like evasion. Keep the record and describe it honestly. Do not delete it.
@@ -522,7 +522,7 @@ The other notes scored: Nov-2040 6.2, IBTO 6.0, Nov-2041 5.8, Nov-2039 5.7, IBTP
 **Found. This is the list for item 5.**
 - **The repo is public.** Its description names the school. It has 17 branches, 0 forks and 1 star.
 - **The WInS username appears in:**
-  - COMPETITION.md:3 and :117;
+  - competition/COMPETITION.md:3 and :117;
   - keel/routines/tasks/MONITOR.md:33 and WATCHER.md:13;
   - both caplet/ips_drafts/*.pdf files (in the file name and on page 1);
   - all 5 caplet/ai_outputs/*.docx files;
@@ -600,7 +600,7 @@ On row 1's basis over time: 6 Oct $293,447 (22.7bp; MONITOR.md:22; no committed 
 
 ## 11. Team process and roles
 
-**Checked:** the team's Google Drive export (journal, notes, team list, sheets) and COMPETITION.md.
+**Checked:** the team's Google Drive export (journal, notes, team list, sheets) and competition/COMPETITION.md.
 
 **Found:**
 - **No roles are recorded** (team_list.md:37-42). Wharton strongly encourages roles (faqs.txt:34), and every member must take part in the semifinal presentation (faqs.txt:89).
@@ -638,7 +638,7 @@ On row 1's basis over time: 6 Oct $293,447 (22.7bp; MONITOR.md:22; no committed 
 
 **Found:**
 - **There are 10 tasks:** a daily rules watcher, a twice-weekly monitor, an evidence lab, mock judges and gate checks.
-  - Dates (COMPETITION.md:29-30): mock judges 19 Oct, 1 Nov, 22 and 30 Nov; gates 23 Oct, 6 Nov, 4 Dec.
+  - Dates (competition/COMPETITION.md:29-30): mock judges 19 Oct, 1 Nov, 22 and 30 Nov; gates 23 Oct, 6 Nov, 4 Dec.
   - Only the lab's time is recorded ("Sun/Wed 9pm", no time zone; keel/routines/claude_lab/BACKLOG.md:3).
 - **Three are timed wrongly for the plan:**
   - the TNA judge (19 Oct) runs before the reflections exist (20 Oct);
@@ -649,7 +649,7 @@ On row 1's basis over time: 6 Oct $293,447 (22.7bp; MONITOR.md:22; no committed 
   - MONITOR.md and JUDGE.md are read-only on docs and orders but do not mention submitting.
   - The bond maths and the 13 Oct report's yields are correct.
 - **Risks:**
-  - The monitor and watcher may read logged-in WInS and SMApply pages, and WInS cancels with no confirmation (COMPETITION.md:85). The routines date from about 13 Oct, so they did not cause the 7 Oct click, but the risk returns whenever an order is open.
+  - The monitor and watcher may read logged-in WInS and SMApply pages, and WInS cancels with no confirmation (competition/COMPETITION.md:85). The routines date from about 13 Oct, so they did not cause the 7 Oct click, but the risk returns whenever an order is open.
   - The judge and monitor never check who wrote a draft, so they would polish AI text.
   - The TNA gate does not check that each pick is a filled order.
   - The IPS gate checks hard-coded names that include the username (MONITOR.md:33).
@@ -708,14 +708,14 @@ On row 1's basis over time: 6 Oct $293,447 (22.7bp; MONITOR.md:22; no committed 
 
 | Topic | Conflict |
 |---|---|
-| Name | "Roots First" (COMPETITION.md:147, :204; keel/routines/claude_lab/00-judge-lens/README.md:3, :36; file names of AI example notes v13 and v14) against Root-and-Branch (every IPS draft; the 1 Oct log) |
-| V5 called current | CLAUDE.md:12; START_HERE.md:9; COMPETITION.md:22 and :199-201 (also says "47 + ~498"; it is 47 + 497); caplet/google_drive/ips_report/README.md:6, :10 |
-| Freeze time | 5:00 pm in toolkit/config/wharton_private_2026_27.yaml:76, toolkit/config/competition.yaml:17-18 and toolkit/docs/wharton_workflow_v2.md:116; START_HERE.md:47 gives no time |
-| Stock minimum | `min_share_price_usd: 3` (toolkit/config/competition.yaml:44; toolkit/config/wharton_private_2026_27.yaml:72); COMPETITION.md:66 says the session rules win |
-| COMPETITION.md facts | :49 says Laura is fictional; :13 says 14 to 16 hours; :77 credits "US Treasuries" to the email; :144 points to a log that does not exist; :181 says 5.000%; :193 has the AI-at-Preview rule; no disqualification rules |
+| Name | "Roots First" (competition/COMPETITION.md:147, :204; keel/routines/claude_lab/00-judge-lens/README.md:3, :36; file names of AI example notes v13 and v14) against Root-and-Branch (every IPS draft; the 1 Oct log) |
+| V5 called current | CLAUDE.md:12; caplet/START_HERE.md:9; competition/COMPETITION.md:22 and :199-201 (also says "47 + ~498"; it is 47 + 497); caplet/google_drive/ips_report/README.md:6, :10 |
+| Freeze time | 5:00 pm in toolkit/config/wharton_private_2026_27.yaml:76, toolkit/config/competition.yaml:17-18 and toolkit/docs/wharton_workflow_v2.md:116; caplet/START_HERE.md:47 gives no time |
+| Stock minimum | `min_share_price_usd: 3` (toolkit/config/competition.yaml:44; toolkit/config/wharton_private_2026_27.yaml:72); competition/COMPETITION.md:66 says the session rules win |
+| competition/COMPETITION.md facts | :49 says Laura is fictional; :13 says 14 to 16 hours; :77 credits "US Treasuries" to the email; :144 points to a log that does not exist; :181 says 5.000%; :193 has the AI-at-Preview rule; no disqualification rules |
 | Roster | "pending" in toolkit/config/team_roster.json and CLAUDE.md:46-47; "submitted" in CLAUDE.md:8 |
 | Floor | "about $150k" against "the remainder"; two readings of "rounded down"; the 14 Oct decision was never logged |
-| Shortfall order | COMPETITION.md and V5 against the rab memos, which end in "her own money" (the case forbids outside money) |
+| Shortfall order | competition/COMPETITION.md and V5 against the rab memos, which end in "her own money" (the case forbids outside money) |
 | Ladder cost | $292,000 / $293k / $294k / $297k / $289,200, on different dates and bases |
 | Plan vs rule | "Hold" against the October rule, which has not been retired |
 | TNA picks | Four sources disagree. The sheet labels IBTR "Pick 1 (tested)". CLAUDE.md:97-99 names TLH, which was never bought. |
@@ -724,7 +724,7 @@ On row 1's basis over time: 6 Oct $293,447 (22.7bp; MONITOR.md:22; no committed 
 | Certainty | decisions/02 (99.5%, "DECIDED") against the rab definition, which is due 20 Oct |
 | Source of truth | caplet/docs/START_HERE_TEAM_CAPLET.md:11 also calls itself the "single source of truth" |
 | Toolkit (toolkit/src/) | "Wharton Max Sector Limit (25%)", "Max Asset Limit (15%)", a default "approved = True"; `report audit-ai` always passes |
-| Low priority | The smapply_public_2026-10-14 snapshots have no manifest hashes. Decide whether to keep the Doc and Sheet IDs at COMPETITION.md:223 and MONITOR.md:25-26. |
+| Low priority | The smapply_public_2026-10-14 snapshots have no manifest hashes. Decide whether to keep the Doc and Sheet IDs at competition/COMPETITION.md:223 and MONITOR.md:25-26. |
 
 **Earlier review items (30 Sep):**
 
@@ -758,8 +758,8 @@ Tests (run on a scratch copy): 59 passed, 0 failed. They cover only the demo too
 
 **Claims corrected during checking (do not repeat these):**
 - "No rule has changed": two public pages changed on 14 Oct.
-- "Fix the freeze time in COMPETITION.md": it is already right; three other files are wrong.
-- "$301,950 on 9 Oct": COMPETITION.md labels it 13 Oct; its basis is the 9 Oct curve plus 12 Oct closes.
+- "Fix the freeze time in competition/COMPETITION.md": it is already right; three other files are wrong.
+- "$301,950 on 9 Oct": competition/COMPETITION.md labels it 13 Oct; its basis is the 9 Oct curve plus 12 Oct closes.
 - "About 0.16 points left": 0.14 on 14 Oct.
 - "Exactly 3 pages": 3 is the maximum.
 - "Message, tag, comment or email is the rule": the rule is "may not contact"; the list is the team's reading.
@@ -769,7 +769,7 @@ Tests (run on a scratch copy): 59 passed, 0 failed. They cover only the demo too
 - "V4 'Need to Humanise' at line 36": the title is at :1; line 36 is a comment.
 - "AI_USE.md says 'humanise'": it says "remove AI-style patterns", "AI-voice detector" and "blind voice tests".
 - "Nov-2039 41%": Nov-2040 is 41% and Nov-2039 33%. The average is 20.0%, not 21%.
-- "'Refine and proofread' is in COMPETITION.md": it is a student's Doc comment.
+- "'Refine and proofread' is in competition/COMPETITION.md": it is a student's Doc comment.
 - "$293,448": use $293,447 (MONITOR.md:22).
 - "Bonds filled within 7bp": it depends on the method; say within about 9bp.
 - "Delete r4_hist_original.py": blank out line 6 instead; other files cite it.

@@ -56,7 +56,7 @@ Judges look for:
 
 ## 4. What We Do Once Official Materials Are Released (Sept 15, 2026)
 
-> **Update 2026-10-14:** the materials are out and this sequence is historical. There is no approved-securities CSV for 2026-27 (eligible = stocks meeting the WInS price minimum, any ETF on WInS, US Treasury bonds on WInS), so skip the `approved_securities_list` ingest. Trading ends at the IPS deadline, 6 Nov. See COMPETITION.md for current rules and the actual portfolio.
+> **Update 2026-10-14:** the materials are out and this sequence is historical. There is no approved-securities CSV for 2026-27 (eligible = stocks meeting the WInS price minimum, any ETF on WInS, US Treasury bonds on WInS), so skip the `approved_securities_list` ingest. Trading ends at the IPS deadline, 6 Nov. See competition/COMPETITION.md for current rules and the actual portfolio.
 
 On September 15, Wharton will release the private competition package on SurveyMonkey Apply. Here is our exact sequence:
 

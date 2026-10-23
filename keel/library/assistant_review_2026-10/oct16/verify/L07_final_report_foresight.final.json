@@ -57,7 +57,7 @@
   "evidence": [
    "Page 3768, 2023-24: \"Page 4 must include two graphic/visual portfolio snapshots: Your team's WInS Portfolio [and] Your team's Final Re[commended Portfolio]\"; \"Why are your WInS Portfolio and Recommended Portfolio for Hilary the same? ... different?\" (accessed 16 Oct 2026)",
    "caplet/google_drive/sheets/portfolio_and_trading_notes/portfolio.csv:2 \"Laura's plan on 2 Jan 2028, after both deposits, scaled to WInS's $300,000 starting cash\"; :38-39 IBTM split 1,142 / 3,361 shares",
-   "COMPETITION.md:98 \"The WInS pie chart labels the iBond ETFs \\\"Long Equities\\\" (61.6%)\"",
+   "competition/COMPETITION.md:98 \"The WInS pie chart labels the iBond ETFs \\\"Long Equities\\\" (61.6%)\"",
    "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:56-62 (allocation Jan 2027 / Jan 2028 / 2033)",
    "oct16/lenses/L08_coherence_numbers.findings.json COH-06 (three mappings)",
    "caplet/google_drive/2025_knox_wharton.md:108 \"SECTION 4: PORTFOLIO-AT-A-GLANCE\" (2025-26 format)",
@@ -69,7 +69,7 @@
   "new_vs_known": "known-deeper",
   "lens": "L07_final_report_foresight",
   "verdict": "confirmed",
-  "verifier_note": "Evidence checks out: page 3768 (live 16 Oct 2026) requires 'two graphic/visual portfolio snapshots' and a 150-word same/different answer; portfolio.csv:2 and :38-39 say what the lens says; COMPETITION.md:98 has the 61.6% 'Long Equities' label. Stronger than stated: last year's Knox doc also had a 'SECTION 4: PORTFOLIO-AT-A-GLANCE' (2025_knox_wharton.md:108), and the 2023-24 spec asked for sector percentages in each snapshot, which a Treasury book cannot fill naturally."
+  "verifier_note": "Evidence checks out: page 3768 (live 16 Oct 2026) requires 'two graphic/visual portfolio snapshots' and a 150-word same/different answer; portfolio.csv:2 and :38-39 say what the lens says; competition/COMPETITION.md:98 has the 61.6% 'Long Equities' label. Stronger than stated: last year's Knox doc also had a 'SECTION 4: PORTFOLIO-AT-A-GLANCE' (2025_knox_wharton.md:108), and the 2023-24 spec asked for sector percentages in each snapshot, which a Treasury book cannot fill naturally."
  },
  {
   "id": "FR-04",
@@ -108,11 +108,11 @@
    "FinalReport",
    "Trades"
   ],
-  "problem": "The Final Report must evaluate how effectively the IPS strategy was implemented. The team sheet's Trade Log is blank; only fill prices sit in COMPETITION.md, with no accrued interest, commissions or cash after each trade; fills slipped from the target Fri 2 Oct to 6-8 Oct; four notes sit on cancelled orders. Whether WInS history stays accessible after the season is unverified. Without records, the evaluation becomes memory and assertion.",
+  "problem": "The Final Report must evaluate how effectively the IPS strategy was implemented. The team sheet's Trade Log is blank; only fill prices sit in competition/COMPETITION.md, with no accrued interest, commissions or cash after each trade; fills slipped from the target Fri 2 Oct to 6-8 Oct; four notes sit on cancelled orders. Whether WInS history stays accessible after the season is unverified. Without records, the evaluation becomes memory and assertion.",
   "evidence": [
    "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:75-77 \"your team will evaluate how effectively it implemented that strategy\"",
    "caplet/google_drive/sheets/portfolio_and_trading_notes/trade_log.csv:2-60 (all rows blank)",
-   "COMPETITION.md:172-188 (fills table; \"Every weight is within 0.2 pt of target\")",
+   "competition/COMPETITION.md:172-188 (fills table; \"Every weight is within 0.2 pt of target\")",
    "CLAUDE.md open items: \"target fills Fri Oct 2 ET, hard stop Oct 9\"",
    "oct14/final.md section 2: \"Four notes sit on cancelled orders\""
   ],
@@ -122,7 +122,7 @@
   "new_vs_known": "known-deeper",
   "lens": "L07_final_report_foresight",
   "verdict": "adjusted",
-  "verifier_note": "Confirmed: IPS instructions :75-77 quote is exact; trade_log.csv rows 2-210 are blank in the 14 Oct export (the live Sheet may differ); COMPETITION.md:172-188 has fills only; the prior 15 Oct brief already asked for the Trade Log by Sun 18 Oct, so that part is known. Post-freeze access to WInS history is UNVERIFIED (no official text found). Timing adjusted: the IPS is due Sat 7 Nov 09:00 Sydney, so a full capture at 08:00 that morning competes with submission; since the book is frozen, capture right after submission."
+  "verifier_note": "Confirmed: IPS instructions :75-77 quote is exact; trade_log.csv rows 2-210 are blank in the 14 Oct export (the live Sheet may differ); competition/COMPETITION.md:172-188 has fills only; the prior 15 Oct brief already asked for the Trade Log by Sun 18 Oct, so that part is known. Post-freeze access to WInS history is UNVERIFIED (no official text found). Timing adjusted: the IPS is due Sat 7 Nov 09:00 Sydney, so a full capture at 08:00 that morning competes with submission; since the book is frozen, capture right after submission."
  },
  {
   "id": "FR-06",
@@ -136,8 +136,8 @@
   "evidence": [
    "competition/official/2026_27/2026_WGY_Investment_Competition_Guide.txt:70-78 (WInS not the scorecard; not judged on making money)",
    "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:59 bonds \"pay out every six months\"; :63 corporate actions incl. \"bond coupons\"",
-   "COMPETITION.md:172-188 faces (May-2038 20 units, Nov-2039 18, Nov-2040 18, Nov-2041 20); caplet/google_drive/sheets/portfolio_and_trading_notes/portfolio.csv:25-29 coupons 4.500%, 4.375%, 4.250%, 3.125%; my arithmetic $450 + $393.75 + $382.50 + $312.50 = $1,538.75",
-   "COMPETITION.md:97 WInS shows the May-2038 bond's last coupon as 15 Aug (payment date in WInS UNVERIFIED)",
+   "competition/COMPETITION.md:172-188 faces (May-2038 20 units, Nov-2039 18, Nov-2040 18, Nov-2041 20); caplet/google_drive/sheets/portfolio_and_trading_notes/portfolio.csv:25-29 coupons 4.500%, 4.375%, 4.250%, 3.125%; my arithmetic $450 + $393.75 + $382.50 + $312.50 = $1,538.75",
+   "competition/COMPETITION.md:97 WInS shows the May-2038 bond's last coupon as 15 Aug (payment date in WInS UNVERIFIED)",
    "caplet/google_drive/ips_report/01_version_5.md:26 \"with income reinvested in the holding that paid it\""
   ],
   "fix": "Keep a weekly record 7 Nov-4 Dec: WInS value, cash, income received, ladder value vs the value of the payments it covers on that day's Treasury curve, VT value, 10-year yield. In the Final Report explain the cash build-up as a result of the freeze, and make the income wording match what WInS actually does.",
@@ -146,7 +146,7 @@
   "new_vs_known": "new",
   "lens": "L07_final_report_foresight",
   "verdict": "confirmed",
-  "verifier_note": "Coupon arithmetic re-checked against portfolio.csv:25-29 and COMPETITION.md faces: 20k x 4.500%/2 + 18k x 4.375%/2 + 18k x 4.250%/2 + 20k x 3.125%/2 = $1,538.75 on 15 Nov. FAQ :59 and :63 say bonds pay every six months and coupons are credited; trading.txt:24 says holdings cannot change after the freeze. V5:26 'income reinvested in the holding that paid it' confirmed. Overlaps L08 COH-13 but adds the post-freeze tracking idea. Whether WInS pays the May-2038 coupon on 15 Nov (it shows a 15 Aug last coupon) is UNVERIFIED."
+  "verifier_note": "Coupon arithmetic re-checked against portfolio.csv:25-29 and competition/COMPETITION.md faces: 20k x 4.500%/2 + 18k x 4.375%/2 + 18k x 4.250%/2 + 20k x 3.125%/2 = $1,538.75 on 15 Nov. FAQ :59 and :63 say bonds pay every six months and coupons are credited; trading.txt:24 says holdings cannot change after the freeze. V5:26 'income reinvested in the holding that paid it' confirmed. Overlaps L08 COH-13 but adds the post-freeze tracking idea. Whether WInS pays the May-2038 coupon on 15 Nov (it shows a 15 Aug last coupon) is UNVERIFIED."
  },
  {
   "id": "FR-07",
@@ -164,7 +164,7 @@
    "archive/rab/decisions/D_range_confidence_2031.md:3-4 \"MODEL, 28 Sep 2026 curve\"; :75",
    "archive/rab/decisions/D_certainty_definition.md:1 (banner present)",
    "caplet/deliverables/final_report_outline.md:5 \"$298k lock cost ... 2031 committed minimum ≈ $113k\"",
-   "COMPETITION.md:87-90 (6 Oct email)"
+   "competition/COMPETITION.md:87-90 (6 Oct email)"
   ],
   "fix": "Before 9 Nov the team lists which backlog items it actually wants, re-runs every kept number on WInS-listed holdings and the valuation date, and cites the AI origin in Works Cited. Success = no STRIPS-basis or 28 Sep number and no AI table presented as student work in the report.",
   "deadline": "Backlog triaged by Mon 9 Nov",
@@ -233,7 +233,7 @@
   "problem": "Articulation scores the decision-making process and 'response to challenges'. Caplet has real material (stale prices, IBTN mix-up, sector-rule myth, night trading, the 7 Oct cancelled order) but the journal stops 7 Oct with blanks, key calls were deferred to AI, and last year's report used quoted dialogue and vote counts under an instruction to make stories up. The 7 Oct cancellation was an AI browser click, so a truthful account names AI.",
   "evidence": [
    "caplet/google_drive/final_report.md:25 \"[who argued what]\"; :23 \"Outcome and reasons: [fill in]\"; :27 (night trading)",
-   "COMPETITION.md:192-193 \"on 7 Oct an AI browser click cancelled the wrong order (May-2038)\"",
+   "competition/COMPETITION.md:192-193 \"on 7 Oct an AI browser click cancelled the wrong order (May-2038)\"",
    "CLAUDE.md:75 \"the team deferred to the assistant's evidence-based calls\"",
    "caplet/google_drive/2025_knox_wharton.md:190 \"The vote was 4-2\"; :214 FMC loss story; :3827 \"Make up stories\"",
    "Rules page Ethics: do not \"invent teamwork and experiential stories\" (oct16/research/R2_past_rules_rubrics.md, section 1.6)",
@@ -245,7 +245,7 @@
   "new_vs_known": "known-deeper",
   "lens": "L07_final_report_foresight",
   "verdict": "adjusted",
-  "verifier_note": "Evidence confirmed except one line number: '[who argued what]' is final_report.md:25, not :16 (:23 has 'Outcome and reasons: [fill in]'). Ethics rule re-checked live on the Rules & Roles page 16 Oct 2026: 'invent teamwork and experiential stories'. COMPETITION.md:192-193 confirms the 7 Oct AI browser click. Severity high kept."
+  "verifier_note": "Evidence confirmed except one line number: '[who argued what]' is final_report.md:25, not :16 (:23 has 'Outcome and reasons: [fill in]'). Ethics rule re-checked live on the Rules & Roles page 16 Oct 2026: 'invent teamwork and experiential stories'. competition/COMPETITION.md:192-193 confirms the 7 Oct AI browser click. Severity high kept."
  },
  {
   "id": "FR-11",
@@ -306,7 +306,7 @@
    "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:59 \"uses data effectively to support conclusions\"",
    "oct16/research/KB_what_wins.md:195 (old 'visually pleasing ... many creative elements' dropped)",
    "caplet/deliverables/final_report_outline.md:7-15 (charts 01-05 of the old plan)",
-   "COMPETITION.md:98"
+   "competition/COMPETITION.md:98"
   ],
   "fix": "Plan five charts, each answering one client question: cash-flow timeline 2027-2042; the 2031 range; coupon-reinvestment sensitivity; ladder vs payments during WInS; allocation over time. Students build them from data they can explain.",
   "deadline": "Data collection from now; drafts by Sun 15 Nov",
@@ -314,7 +314,7 @@
   "new_vs_known": "known-deeper",
   "lens": "L07_final_report_foresight",
   "verdict": "confirmed",
-  "verifier_note": "deliverables.txt:59 'uses data effectively to support conclusions' confirmed; final_report_outline.md lists charts for the old plan; COMPETITION.md:98 mislabel confirmed. 'Five' is a suggestion, not a rule; medium fair."
+  "verifier_note": "deliverables.txt:59 'uses data effectively to support conclusions' confirmed; final_report_outline.md lists charts for the old plan; competition/COMPETITION.md:98 mislabel confirmed. 'Five' is a suggestion, not a rule; medium fair."
  },
  {
   "id": "FR-14",
@@ -328,7 +328,7 @@
   "evidence": [
    "competition/official/2026_27/2026_27_School_Documentation_Template.txt:1-28 (letterhead, administrator position, full address, advisor first and last name, students' first and last names, team leader first, signature, date)",
    "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:52 \"Do not wait until the last minute to request documentation.\"",
-   "COMPETITION.md:128-132 \"Request it early (not yet requested as of 13 Oct)\"",
+   "competition/COMPETITION.md:128-132 \"Request it early (not yet requested as of 13 Oct)\"",
    "Knox term dates page (accessed 16 Oct 2026)",
    "Rules page via oct16/research/R4_2026_27_specifics.md:342-343 (semifinal letterhead; Consent and Waiver, parent signature under 18)"
   ],
@@ -338,7 +338,7 @@
   "new_vs_known": "known-deeper",
   "lens": "L07_final_report_foresight",
   "verdict": "confirmed",
-  "verifier_note": "Template :1-28 asks for letterhead, administrator position, full address, advisor first and last name, students' first and last names with team leader first, signature and date; deliverables.txt:52 'Do not wait until the last minute'; COMPETITION.md:132 'not yet requested as of 13 Oct'; semifinal letterhead and Consent and Waiver re-checked live on Rules & Roles (16 Oct 2026). Overlaps L09 INT-18 and L10 TP-20."
+  "verifier_note": "Template :1-28 asks for letterhead, administrator position, full address, advisor first and last name, students' first and last names with team leader first, signature and date; deliverables.txt:52 'Do not wait until the last minute'; competition/COMPETITION.md:132 'not yet requested as of 13 Oct'; semifinal letterhead and Consent and Waiver re-checked live on Rules & Roles (16 Oct 2026). Overlaps L09 INT-18 and L10 TP-20."
  },
  {
   "id": "FR-15",
@@ -377,7 +377,7 @@
   "evidence": [
    "competition/official/2026_27/2026_WGY_Investment_Competition_Guide.txt:156-159 \"you may not redesign your strategy after observing the results\"",
    "caplet/google_drive/final_report.md:19-20 (stale prices; after-hours spreads)",
-   "COMPETITION.md:100, 192-193",
+   "competition/COMPETITION.md:100, 192-193",
    "2025-26 semifinal rule allowing reflection on weaknesses \"without changing the original strategy\" (oct16/research/KB_what_wins.md:214-215)"
   ],
   "fix": "Make a two-column list (implementation lesson vs strategy question) agreed by the team before drafting. Strategy weaknesses are stated as limitations with their size, never as changes.",
@@ -418,21 +418,21 @@
    "FinalReport",
    "Finale"
   ],
-  "problem": "Wharton bans recording, screenshots and posting presentations or participants online during the Semifinals or Global Finale. The repo is public and a team member's fork exists, so semifinal slides, recordings or notes committed there would be public. The IPS title page must carry the WInS username (the Final Report's title page probably will too), and the username is already visible in the public COMPETITION.md, so any title page, draft or PDF committed to the repo or fork publishes it again.",
+  "problem": "Wharton bans recording, screenshots and posting presentations or participants online during the Semifinals or Global Finale. The repo is public and a team member's fork exists, so semifinal slides, recordings or notes committed there would be public. The IPS title page must carry the WInS username (the Final Report's title page probably will too), and the username is already visible in the public competition/COMPETITION.md, so any title page, draft or PDF committed to the repo or fork publishes it again.",
   "evidence": [
    "Rules page via oct16/research/R4_2026_27_specifics.md:344 \"Video recording, audio recording, photography, screenshots, or posting presentations or participants online during the Semifinals or Global Finale is strictly prohibited.\"",
    "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:98-100 (WInS username on the IPS title page)",
    "CLAUDE.md working rules: \"Repo is public\"",
    "Task context: public fork created 15 Oct 2026 22:10 UTC",
-   "COMPETITION.md:117 (WInS username in the public repo; not reproduced)"
+   "competition/COMPETITION.md:117 (WInS username in the public repo; not reproduced)"
   ],
-  "fix": "Keep Final Report drafts, the IPS and Final Report title pages, the school letter and any semifinal or finale material on the private Drive only; never commit them. Remove the WInS username from COMPETITION.md and treat the fork's copy as already exposed. Success = nothing judged or presented is published by the team before or during judging.",
+  "fix": "Keep Final Report drafts, the IPS and Final Report title pages, the school letter and any semifinal or finale material on the private Drive only; never commit them. Remove the WInS username from competition/COMPETITION.md and treat the fork's copy as already exposed. Success = nothing judged or presented is published by the team before or during judging.",
   "deadline": "Rule agreed now; applies from the first Final Report draft",
   "confidence": "medium",
   "new_vs_known": "new",
   "lens": "L07_final_report_foresight",
   "verdict": "adjusted",
-  "verifier_note": "The posting ban is confirmed live (Rules & Roles, 16 Oct 2026), but it covers recording and posting 'during the Semifinals or Global Finale', so committing slides earlier is a risk, not a literal breach. The WInS-username evidence is the IPS title page (IPS instructions :98-100), not the Final Report's, which is unknown until 9 Nov. Worse than stated: the WInS username is already public in COMPETITION.md:117 (not repeated here), along with the members' last initials. Medium kept."
+  "verifier_note": "The posting ban is confirmed live (Rules & Roles, 16 Oct 2026), but it covers recording and posting 'during the Semifinals or Global Finale', so committing slides earlier is a risk, not a literal breach. The WInS-username evidence is the IPS title page (IPS instructions :98-100), not the Final Report's, which is unknown until 9 Nov. Worse than stated: the WInS username is already public in competition/COMPETITION.md:117 (not repeated here), along with the members' last initials. Medium kept."
  },
  {
   "id": "FR-19",
@@ -468,9 +468,9 @@
   "problem": "This year's FAQ limits investments 'for BOTH contributions' to WInS-listed stocks (at least $5), ETFs and Treasury bonds, and bans 'Anything other than the approved investments listed above'. In 2023-24 Wharton made teams that 'include prohibited securities in their final report' ineligible for the semifinals. Caplet's backlog and model files still name things that are not WInS-listed or not named at all: STRIPS tables (FR-07), the 15-Nov-2032 note stand-in in insight_v1 (WInS lists no T-bond maturing Feb 2031 to Feb 2036), and a 2027 leftover kept in 'a Treasury fund' with no ticker. V5's rule to 'substitute a Treasury maturing earlier' also has no WInS-listed bond for the 2033-2036 payments, only iBond ETFs.",
   "evidence": [
    "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:42-52 \"Investments permitted (for BOTH contributions)\" ... \"Anything other than the approved investments listed above.\"",
-   "COMPETITION.md:87-90 (6 Oct email: recommendations \"may include only approved investment types: eligible stocks, ETFs and Treasury bonds available on WInS\")",
+   "competition/COMPETITION.md:87-90 (6 Oct email: recommendations \"may include only approved investment types: eligible stocks, ETFs and Treasury bonds available on WInS\")",
    "https://globalyouth.wharton.upenn.edu/wp-json/wp/v2/pages/3778 (Judging and Evaluation, modified 2024-06-03; accessed 16 Oct 2026): \"Teams that include prohibited securities in their final report are not eligible for the Semifinals.\"",
-   "COMPETITION.md:93-94 (no WInS T-bond maturing Feb 2031 to Feb 2036)",
+   "competition/COMPETITION.md:93-94 (no WInS T-bond maturing Feb 2031 to Feb 2036)",
    "CLAUDE.md insight_v1 section: building-minimum stand-in \"via the 15-Nov-2032 note or IBTM\"",
    "caplet-latest/research/ips_numbers_2026-10/ips_numbers.py:9 \"Leftover (if any) is kept in a Treasury fund\"",
    "caplet/google_drive/ips_report/01_version_5.md:26 \"we substitute a Treasury maturing earlier\""

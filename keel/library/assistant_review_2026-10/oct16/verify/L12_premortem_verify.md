@@ -67,7 +67,7 @@ Report, whose instructions arrive 9 Nov. The direction of the advice is still ri
 - The fix is allowed and contains no drafted prose.
 
 **PM-03: ADJUSTED (stays critical; evidence strengthened).** All cited lines are verified, including the conflict
-between `caplet-latest/CLAUDE.md:26-29` and `START_HERE.md:26`. The lens implied a hard-rule conflict but did not quote
+between `caplet-latest/CLAUDE.md:26-29` and `caplet/START_HERE.md:26`. The lens implied a hard-rule conflict but did not quote
 it. The Rules & Roles page (fetched 16 Oct) says: "AI-generated work may not be submitted as your own." It also says:
 "Any AI-generated material included in your report must be properly cited, just like any other reference source." The
 IPS forbids "formal citations" (IPS-FINAL:123), and an IPS that breaks the requirements "will not be considered for
@@ -103,13 +103,13 @@ it" (V5:24). Better evidence the lens missed:
 The 2021-22 precedent is FROM KB and was not re-opened.
 
 **PM-08: ADJUSTED (high to medium; title and problem rewritten).** Every cited stale line is still in `caplet-latest`
-(COMPETITION.md:49, :182, :193-194; configs; roster). But "none was done" is unfair:
+(competition/COMPETITION.md:49, :182, :193-194; configs; roster). But "none was done" is unfair:
 - The commit landed about 24 hours after the brief.
 - Items 28 and 30 are due Sun 18 to Sun 25 Oct, so they were not yet late.
 - Item 1 was replaced by the team leader's own decision, which is his call to make.
 - Item 3 allowed "if it stays public, write down why", and CLAUDE.md records that the leader accepted a public repo.
 
-The clear miss is item 2. The commit edited COMPETITION.md but left in "AI may fill a ticket up to Preview".
+The clear miss is item 2. The commit edited competition/COMPETITION.md but left in "AI may fill a ticket up to Preview".
 
 **PM-09: ADJUSTED (stays high; confidence high to medium).** The quotes are verified. The deferral line dates from 27
 Sep. Later records show at least one team vote ("the team's 1 Oct vote picks one", `sheets/.../rb_tickets.csv:1`; 1 Oct
@@ -130,7 +130,7 @@ the required trading activity and portfolio management guidelines" (faqs.txt:76)
 portfolio freezes on 6 Nov (trading.txt:24). The team should copy any logged-in rule word for word before then (also
 L05 TNA-10).
 
-**PM-13: CONFIRMED (medium).** COMPETITION.md:49 says "Laura is a fictional client". The main page says: "While the
+**PM-13: CONFIRMED (medium).** competition/COMPETITION.md:49 says "Laura is a fictional client". The main page says: "While the
 client is real, the financial scenario is developed specifically for the competition."
 
 **PM-14: ADJUSTED (stays medium).** I re-ran the Bing searches and got unrelated results only. But Bing is not how a

@@ -13,7 +13,7 @@ You are part of the Caplet Research Office for Team Caplet (Wharton Global High 
 ## Method
 - Re-derive the number with your own small script, written without reading the original script's code first
   (read its inputs only). Then compare and explain any gap (interpolation, day count, dates priced).
-- Sweep for contradictions: `git grep -nE` the figure and its neighbours in `caplet/google_drive/`, `COMPETITION.md`,
+- Sweep for contradictions: `git grep -nE` the figure and its neighbours in `caplet/google_drive/`, `competition/COMPETITION.md`,
   `CLAUDE.md`, `caplet/deliverables/`, `archive/rab/numbers*.yaml`, office memos. Report each place, its date and basis.
 - Check units and conventions: start-of-year cash flows, year number = calendar year - 2026, nominal dollars.
 

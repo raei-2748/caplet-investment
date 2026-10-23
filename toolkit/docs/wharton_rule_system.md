@@ -98,7 +98,7 @@ All deadlines are 5:00 pm ET. (Corrected 2026-10-14: WInS does not close on 4 De
 - **Client case**: Laura Gao (see `toolkit/config/client_mandate.yaml`). Rubric criteria are published without weights.
 - Per the 6 Oct Wharton email, recommendations for both contributions may only use eligible stocks, ETFs and Treasury bonds available on WInS.
 
-The code's rule registry may still list some of these as `UNKNOWN`; treat this section and COMPETITION.md as authoritative.
+The code's rule registry may still list some of these as `UNKNOWN`; treat this section and competition/COMPETITION.md as authoritative.
 
 **Fail-Closed Rule**: Any production process requiring an unreleased official constraint halts with a clear error message. The system will **never** substitute an arbitrary assumption (such as a 25% sector cap or 10-stock minimum) for real Wharton rules.
 

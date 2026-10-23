@@ -127,7 +127,7 @@
  },
  {
   "id": "G1-07",
-  "title": "COMPETITION.md calls Laura 'a fictional client'; the official page treats her as a real person who must not be contacted",
+  "title": "competition/COMPETITION.md calls Laura 'a fictional client'; the official page treats her as a real person who must not be contacted",
   "severity": "low",
   "deliverables": [
    "FinalReport",
@@ -135,11 +135,11 @@
   ],
   "problem": "The team's single source of truth says 'Laura is a fictional client'. The official client page says 'Teams are not permitted to contact Laura Gao', and the team's own working rules treat the case quote as not verifiable as Laura's. If students think she is fictional, they may invent quotes or details about her in the fundraising excerpt, which is risky for a real person and for credibility.",
   "evidence": [
-   "COMPETITION.md:49 'Laura is a fictional client'",
+   "competition/COMPETITION.md:49 'Laura is a fictional client'",
    "competition/official/2026_27/smapply_public_2026-10-14/client.txt:23 'Teams are not permitted to contact Laura Gao.'",
    "CLAUDE.md:107 'The case pull quote is the case's words, not verifiable as Laura's; no Laura quotes in the Trading Notes or IPS'"
   ],
-  "fix": "Team corrects COMPETITION.md (the AI does not edit the repo). Checklist item for the excerpt: no invented quotes, no facts about Laura beyond the case.",
+  "fix": "Team corrects competition/COMPETITION.md (the AI does not edit the repo). Checklist item for the excerpt: no invented quotes, no facts about Laura beyond the case.",
   "confidence": "medium",
   "new_vs_known": "new",
   "deadline": "Before Final Report drafting, Sun 15 Nov",

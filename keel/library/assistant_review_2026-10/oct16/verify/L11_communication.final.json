@@ -23,7 +23,7 @@
   "deadline": "Idea agreed at vote set A (Sun 18 Oct Sydney); in the IPS by Sat 7 Nov 09:00 Sydney (Fri 6 Nov 5 pm ET)",
   "lens": "L11_communication",
   "verdict": "confirmed",
-  "verifier_note": "All four quoted lines found at V5:16, :24, :28, :30; case:85-86 says operating support 'may' come from co-sponsors; number sheet :48 admits 'cannot miss' is not literally true; Wharton quote re-opened 16 Oct (FOUND). Extra support: the team kept 'never below the floor' on 5 Oct because the real floor was to be STRIPS (final_report.md:24); the 6 Oct email removed STRIPS, so that reason is gone. Already on the team's own fix list (COMPETITION.md:200), so known-deeper is right."
+  "verifier_note": "All four quoted lines found at V5:16, :24, :28, :30; case:85-86 says operating support 'may' come from co-sponsors; number sheet :48 admits 'cannot miss' is not literally true; Wharton quote re-opened 16 Oct (FOUND). Extra support: the team kept 'never below the floor' on 5 Oct because the real floor was to be STRIPS (final_report.md:24); the 6 Oct email removed STRIPS, so that reason is gone. Already on the team's own fix list (competition/COMPETITION.md:200), so known-deeper is right."
  },
  {
   "id": "COMM-02",
@@ -341,7 +341,7 @@
   "problem": "WInS shows US Eastern times in US numeric format ('10/07/2026' = 7 Oct, which an Australian reads as 10 July). The team lives in Sydney time (15 hours ahead until Sun 1 Nov, 16 after). A reflection or Final Report that gives a Sydney date for a trade will differ by a day from what WInS shows. Team files mix 'placed' (6-7 Oct ET) and 'filled' (7-8 Oct) dates. These are not contradictions, but they invite confusion.",
   "evidence": [
    "caplet/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:14-24 (order dates 10/06-10/07/2026, ET)",
-   "CLAUDE.md:8 and COMPETITION.md:172 'filled 7-8 Oct'",
+   "CLAUDE.md:8 and competition/COMPETITION.md:172 'filled 7-8 Oct'",
    "caplet/google_drive/final_report.md:27 'Oct7: ... 12:30 AM that the market would open' (Sydney time)",
    "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:53 'Yes, we will verify this.'",
    "Clock: AEDT (UTC+11) from Sun 4 Oct 2026; US EDT to EST on Sun 1 Nov 2026, so 15 hours apart until 1 Nov and 16 after"

@@ -63,7 +63,7 @@
       "evidence": [
         "caplet/google_drive/ips_report/01_version_5.md:28 'never below the floor'; :30 'so she cannot miss the range'",
         "caplet/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:19 'although the final payout is not fixed'",
-        "COMPETITION.md:168 'never say \"risk-free\" or \"guaranteed\"'",
+        "competition/COMPETITION.md:168 'never say \"risk-free\" or \"guaranteed\"'",
         "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:10 'principal depends only on the US government'",
         "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:72-73 iShares: an iBond ETF 'does not seek to return any predetermined amount'"
       ],
@@ -198,7 +198,7 @@
       "problem": "V5 says income is 'reinvested in the holding that paid it'. WInS bonds trade in $1,000-face units, and the Feb-2037 position's half-year coupon is $475, so cash must wait somewhere. The notes park proceeds in 'a short-term Treasury ETF'. The live FAQ's permitted list omits cash. 'Liquidity' never appears in V5.",
       "evidence": [
         "caplet/google_drive/ips_report/01_version_5.md:26 'with income reinvested in the holding that paid it'",
-        "COMPETITION.md:181 '20 units ($20k face)'",
+        "competition/COMPETITION.md:181 '20 units ($20k face)'",
         "caplet/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:16-17 'proceeds held in a short-term Treasury ETF' / 'Its proceeds stay in a short-term Treasury ETF for 7.5 months'",
         "https://wghsinvcomp.smapply.us/res/p/faqs/ (accessed 16 Oct 2026) permitted list: stocks, ETFs, Government/Treasury bonds available on WInS"
       ],
@@ -217,7 +217,7 @@
         "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:22-23 'How will the portfolio's asset allocation and composition change as future funding needs approach'",
         "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:58-62; results.json:155 'VT': 0.069",
         "caplet/google_drive/ips_report/01_version_5.md:26 'Our WInS portfolio shows this allocation, scaled down.'",
-        "COMPETITION.md:186-189 VT 167 sh at 158.83; 'mirrors Laura's plan scaled to $300k'"
+        "competition/COMPETITION.md:186-189 VT 167 sh at 158.83; 'mirrors Laura's plan scaled to $300k'"
       ],
       "fix": "State the rough mix at each stage (with a range for stocks), which date the WInS book mirrors and at what scale, and one principle on de-risking the stock fund before 2033.",
       "confidence": "high",

@@ -128,7 +128,7 @@ Source: Treasury's auction dataset, which also feeds TreasuryDirect's auction hi
 
 **Two consequences:**
 - **Buy-only needs nothing new.** It buys the held Nov-41 and Nov-40, which exist and are WInS-listed holdings.
-- **Trim and full depend on future auctions.** They need Nov-37 and Nov-38 notes, which do not exist yet. And under the 6 Oct rule that the real plan may use only WInS-listed securities (`/home/user/snap/main/COMPETITION.md:86-89`), they would have to be WInS-listed as well. WInS lists no Treasury maturing Feb 2031-Feb 2036 (`COMPETITION.md:93`).
+- **Trim and full depend on future auctions.** They need Nov-37 and Nov-38 notes, which do not exist yet. And under the 6 Oct rule that the real plan may use only WInS-listed securities (`/home/user/snap/main/COMPETITION.md:86-89`), they would have to be WInS-listed as well. WInS lists no Treasury maturing Feb 2031-Feb 2036 (`competition/COMPETITION.md:93`).
 - So the 2033-2035 notes, though real, are not WInS-eligible today. That is one more reason to reject trim and full.
 
 ---

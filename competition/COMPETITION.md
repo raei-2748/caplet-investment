@@ -45,7 +45,7 @@ mock-judge IPS 1 Nov, IPS gate check 6 Nov, mock-judge Final Report 22 Nov and 3
 
 ## 3. The client: Laura Gao
 
-Official case: [`competition/official/2026_27/Laura_Gao_2026_Client_Profile.pdf`](competition/official/2026_27/Laura_Gao_2026_Client_Profile.pdf).
+Official case: [`competition/official/2026_27/Laura_Gao_2026_Client_Profile.pdf`](official/2026_27/Laura_Gao_2026_Client_Profile.pdf).
 Laura is a real client (a Wharton School alum); the financial scenario was developed for the competition, so take her
 finances and plans only from the case. Teams may not contact her. In the case, she is funding a community residency
 facility in Taiwan with co-sponsors.
@@ -64,7 +64,7 @@ facility in Taiwan with co-sponsors.
 
 ## 4. WInS trading rules (the simulator)
 
-Public rules: [`smapply_public_2026-10-20/trading.txt`](competition/official/2026_27/smapply_public_2026-10-20/trading.txt)
+Public rules: [`smapply_public_2026-10-20/trading.txt`](official/2026_27/smapply_public_2026-10-20/trading.txt)
 and `faqs.txt` (fetched 20 Oct; changes since 14 Oct listed in that folder's README), and
 `smapply_public_2026-10-14/wins.txt`. Where the **logged-in WInS Session Rules** differ, they are marked "(session)"
 and they apply.
@@ -113,7 +113,7 @@ WInS quirks we found (read-only checks):
 ## 5. Deliverable formats
 
 ### Trading Notes Analysis (due Sat 24 Oct 08:00 Sydney = Fri 23 Oct 5 pm ET)
-Official instructions: [`2026_WGY_Trading_Notes_Analysis-FINAL.pdf`](competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.pdf).
+Official instructions: [`2026_WGY_Trading_Notes_Analysis-FINAL.pdf`](official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.pdf).
 - Pick **3 Trading Notes from real WInS trades**, copied **exactly** as in WInS (they are verified).
 - A reflection of **at most 100 words each**: why the trade, how it fits the strategy, the link to Laura's
   goals/funding/risk. The position does not have to be still held.
@@ -123,7 +123,7 @@ Official instructions: [`2026_WGY_Trading_Notes_Analysis-FINAL.pdf`](competition
   `caplet/google_drive/ips_report/` (tab "WInS Trading Notes").
 
 ### Investment Policy Statement (due 6 Nov)
-Official instructions: [`2026_WGY_Investment_Policy-FINAL.pdf`](competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.pdf).
+Official instructions: [`2026_WGY_Investment_Policy-FINAL.pdf`](official/2026_27/2026_WGY_Investment_Policy-FINAL.pdf).
 - Title page: official team name, members as "First Name, Last Initial", WInS username. Must match the roster.
   Ours: **Caplet** · Ray W. | Ahaan D. | Darren W. | Harry Y. | Eric Z. | Young Y. · WInS username
   (kept out of this public repo; copy it from WInS).
@@ -144,7 +144,7 @@ Official instructions: [`2026_WGY_Investment_Policy-FINAL.pdf`](competition/offi
   recommendations for Laura's goals (reserve calculation, projections, the 2031 range, co-sponsor draft).
 - **School documentation:** a signed letter on official school letterhead from a school administrator, confirming
   the advisor, the team name and the 4-6 students (team leader first) are enrolled at the same school location and
-  approved to take part. Template: [`2026_27_School_Documentation_Template.pdf`](competition/official/2026_27/2026_27_School_Documentation_Template.pdf).
+  approved to take part. Template: [`2026_27_School_Documentation_Template.pdf`](official/2026_27/2026_27_School_Documentation_Template.pdf).
   Separate file. **Request it early (not yet requested as of 13 Oct).**
 
 ### Roster (submitted, locked)

@@ -29,7 +29,7 @@ I checked the draft against the repo at 2affd4c, the official texts, live pages 
   - Trigger B still does not fire on the 14 Oct close, which is the close the October rule uses (`archive/rab/trades/october_trade.md:18`).
   - My pricer reproduces the draft's 13 Oct figure ($295,295, 16.3bp) and the 6 Oct figure ($293,453, 22.7bp).
 
-**A3. Item 31 asks to fix the freeze time in COMPETITION.md, but that file is already right.** COMPETITION.md already says 4:00 pm (lines 21 and 72). The wrong "5:00 pm" is in:
+**A3. Item 31 asks to fix the freeze time in competition/COMPETITION.md, but that file is already right.** competition/COMPETITION.md already says 4:00 pm (lines 21 and 72). The wrong "5:00 pm" is in:
 - `toolkit/config/wharton_private_2026_27.yaml:76`
 - `toolkit/config/competition.yaml:17-18`
 - `toolkit/docs/wharton_workflow_v2.md:116`
@@ -40,11 +40,11 @@ I checked the draft against the repo at 2affd4c, the official texts, live pages 
 - §9 lists these, but item 3 does not.
 
 **A5. §5 gives the wrong date for the $301,950 value.**
-- COMPETITION.md:188 says "Value about $301,950 on 13 Oct", not 9 Oct.
+- competition/COMPETITION.md:188 says "Value about $301,950 on 13 Oct", not 9 Oct.
 - The figure's real basis is the 9 Oct curve plus 12 Oct ETF closes (`ops/monitor_reports/2026-10-13 Caplet check.md:11-12`). On that basis I get $301,940.
 - 13 Oct value: I get $302,389 to $302,497 (+0.80% to +0.83%), not $302,350 (+0.78%). Quote it as "about $302.4k (+0.8%)". On 14 Oct it is about $302.6k.
 
-**A6. §7 attributes a quote to the wrong file.** "refine and proofread" comes from the student comment at `caplet/google_drive/ips_report/01_version_5.md:36`. COMPETITION.md:199-200 says something different: "render check … soften absolute claims … add the trade-off sentence; put back the certainty evidence".
+**A6. §7 attributes a quote to the wrong file.** "refine and proofread" comes from the student comment at `caplet/google_drive/ips_report/01_version_5.md:36`. competition/COMPETITION.md:199-200 says something different: "render check … soften absolute claims … add the trade-off sentence; put back the certainty evidence".
 
 **A7. §3 and §12 say the routine run times are not in the repo, but §12 also gives the lab's time.**
 - `keel/routines/claude_lab/BACKLOG.md:3` says "scheduled evidence lab (Sun/Wed 9pm)". No time zone is given.
@@ -110,7 +110,7 @@ I checked the draft against the repo at 2affd4c, the official texts, live pages 
 7. **Sources list.** The live-page slugs leave out `home`. Seven pages were checked.
 8. **§12 "every instruction file forbids … submitting".** That is true of WATCHER.md:6 and LAB.md:6, but not of MONITOR.md:5-9 or JUDGE.md:6. Those two are read-only on docs and orders but do not mention submitting.
 9. **§12 "if the Mac is asleep, a run is skipped and catches up later".** There is no evidence for this in the repo. Mark it UNVERIFIED.
-10. **COMPETITION.md:199** gives the IPS as "47 + ~498". The exact count is 47 + 497.
+10. **competition/COMPETITION.md:199** gives the IPS as "47 + ~498". The exact count is 47 + 497.
 
 ## C. Confirmed (no change needed)
 
@@ -127,12 +127,12 @@ I checked the draft against the repo at 2affd4c, the official texts, live pages 
 - The school template fields are as the draft lists them (template lines 1–28).
 
 **Repo citations and status**
-- These lines are as cited: COMPETITION.md:3/13/49/66/77/84/87-88/117/132/144/147/155-157/181/183-185/192-193/204; `wins_notes.csv:5/9/10/17/19`; MONITOR.md:22/33; WATCHER.md:13; `refresh_tickets.py:550-551`; `check_gate_c.py:163`; `E5_premortem.md:468`.
+- These lines are as cited: competition/COMPETITION.md:3/13/49/66/77/84/87-88/117/132/144/147/155-157/181/183-185/192-193/204; `wins_notes.csv:5/9/10/17/19`; MONITOR.md:22/33; WATCHER.md:13; `refresh_tickets.py:550-551`; `check_gate_c.py:163`; `E5_premortem.md:468`.
 - No `research/insight_v1/AI_USE*` file exists.
 - The trade log is empty (rows 2–210). Portfolio shows $300,000 and no units (`portfolio.csv:7, 20-31`). TN Analysis is empty. The Team note column is empty in 33 of 33 rows.
 
 **The WInS book and the notes**
-- The book table matches COMPETITION.md and `portfolio_check.py`.
+- The book table matches competition/COMPETITION.md and `portfolio_check.py`.
 - Commissions are $200. VT is +$476 and 8.84% at cost.
 - The largest order was 1.28% of that day's volume (IBTM).
 - The 11 filled notes are 252–294 characters. The two May-2038 notes are identical.
@@ -176,7 +176,7 @@ I checked the draft against the repo at 2affd4c, the official texts, live pages 
 
 **In the repo, to remove:**
 - **WInS username:**
-  - COMPETITION.md:3 and :117;
+  - competition/COMPETITION.md:3 and :117;
   - `keel/routines/tasks/MONITOR.md:33` and `WATCHER.md:13`;
   - both `caplet/ips_drafts/*.pdf` (file names and page 1);
   - all 5 `caplet/ai_outputs/*.docx`;

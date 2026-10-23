@@ -17,7 +17,7 @@ Work order: WO-0001 | Asked by: team lead (office set-up test) | Desk(s): Rules 
 - The instructions PDF behind the live "Click Here" link was not downloaded again. It was checked against the repo copy only.
 - UNVERIFIED: whether the form also wants trade dates or IDs. No official text says.
 - NOT CHECKABLE BY THE OFFICE (logged-in only): the SMApply form's fields and limits; "Mark as Complete" vs "Submit" and whether edits are possible afterwards; WInS order status.
-- Flag, not a fail: the VT note says "her promised minimum". The note is filed and cannot be edited, so it is quoted as it is. "Promised" is on the overclaim list in `COMPETITION.md` section 7, so the VT reflection's author should know what that minimum rests on.
+- Flag, not a fail: the VT note says "her promised minimum". The note is filed and cannot be edited, so it is quoted as it is. "Promised" is on the overclaim list in `competition/COMPETITION.md` section 7, so the VT reflection's author should know what that minimum rests on.
 
 ## For the team
 - The submitter opens the TNA form before Thu 22 Oct, with the deputy watching. Screenshot its fields and buttons privately, without submitting (16 Oct review item 7).

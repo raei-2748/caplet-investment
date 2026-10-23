@@ -79,7 +79,7 @@ Which figure is right for which claim:
 ### TNA-03. Trigger B on the WInS basis: ADJUSTED (medium)
 - Confirmed: october_trade.md:20, :42 and :62-63. My arithmetic reproduces the lens: $2,500 / (2/3) = $3,750,
   which is 17.7bp beyond $1,376. At one-fifth, it is 69bp.
-- No ratification of trigger B is recorded in the team docs. A grep of `caplet/google_drive` and COMPETITION.md
+- No ratification of trigger B is recorded in the team docs. A grep of `caplet/google_drive` and competition/COMPETITION.md
   finds none.
 - Added: the rule's own check date (14 Oct close, :18) has passed with no logged outcome. The trade window has been
   open since Fri 16 Oct 1:30 AEDT and closes Wed 21 Oct 6:30 AEDT (:19-20). On the sheet's basis each bp figure is
@@ -88,7 +88,7 @@ Which figure is right for which claim:
 ### TNA-04. 11 trades and "hold" reads as passive: ADJUSTED (high -> medium)
 - All quotes confirmed (wins.txt:23, :41; faqs.txt:39; trading.txt:53).
 - The 6 Oct 7:55 PM to 7 Oct 8:27 PM ET span (05_...md:14-24) is about 24.5 hours.
-- "WInS shows nothing since" is only inferred from the repo (COMPETITION.md:172 "11 of 200"). It is not seen in
+- "WInS shows nothing since" is only inferred from the repo (competition/COMPETITION.md:172 "11 of 200"). It is not seen in
   WInS.
 - Wharton says plainly that trade count is not scored and discourages frequent trading. So "high" overstates the
   risk to Top 50. The fix is cheap and sound.
@@ -124,8 +124,8 @@ TNA:36-39 and Client Profile:90 verified.
 
 ### TNA-12. Identifier lines: ADJUSTED (medium -> low)
 - This is optional polish. The TNA only requires the note "exactly as it appears in WInS" (:44).
-- Added: COMPETITION.md:181 calls the Feb-2037 bond "5.000%". WInS (`B-T-4.750-15022037`, 05_...md:16) and
-  portfolio.csv:25 say 4.750%. So identifier lines must come from WInS, not COMPETITION.md (see TNA-V03).
+- Added: competition/COMPETITION.md:181 calls the Feb-2037 bond "5.000%". WInS (`B-T-4.750-15022037`, 05_...md:16) and
+  portfolio.csv:25 say 4.750%. So identifier lines must come from WInS, not competition/COMPETITION.md (see TNA-V03).
 
 ### TNA-13. Straight-quote ASCII: CONFIRMED
 - Re-scanned: the 11 filled notes are all ASCII. IBTR is 294 characters, IBTM 292 and VT 288.
@@ -143,7 +143,7 @@ TNA:36-39 and Client Profile:90 verified.
   material included in your report must be properly cited" (rules.txt:471-473). So is :551 ("cited like any other
   reference material").
 - The IPS bans formal citations (IPS-FINAL:123-124). The TNA brief has no ban.
-- The 412e9e3 rule change (caplet-latest/CLAUDE.md:27-30; COMPETITION.md:142-144) now lets [AI] suggestions into
+- The 412e9e3 rule change (caplet-latest/CLAUDE.md:27-30; competition/COMPETITION.md:142-144) now lets [AI] suggestions into
   the TNA and IPS. But it records accepted AI wording only in the 4 Dec Works Cited, after both are judged. That
   raises this from a residue issue to a live process gap.
 
@@ -169,7 +169,7 @@ TNA:36-39 and Client Profile:90 verified.
 Rules page :393 and faqs.txt:34 verified.
 
 ### TNA-20. Scale: about $197k of payment holdings: CONFIRMED
-- Recomputed from COMPETITION.md:176-185: iBonds $183,851, less 3,361 x $21.65 ($72,766), plus bonds $84,801.
+- Recomputed from competition/COMPETITION.md:176-185: iBonds $183,851, less 3,361 x $21.65 ($72,766), plus bonds $84,801.
   That gives $195.9k before accrued interest.
 - The 3,361 floor shares are on portfolio.csv:39.
 
@@ -186,7 +186,7 @@ Rules page :393 and faqs.txt:34 verified.
   it in about 6-7 of 100 paths (IPS_number_sheet.md:28-50). Any TNA wording such as "secured" or "locked" would
   conflict with the IPS the team is about to adopt. The five T-bond notes already admit reinvested coupons fund part
   of each payment (05_...md:16-18, :23-24).
-- **TNA-V03 (low). COMPETITION.md:181 has the Feb-2037 coupon wrong (5.000% vs 4.750%).** COMPETITION.md calls
+- **TNA-V03 (low). competition/COMPETITION.md:181 has the Feb-2037 coupon wrong (5.000% vs 4.750%).** competition/COMPETITION.md calls
   itself the single source of truth, so this error would spread into identifier lines and the Final Report holdings
   table.
 - (The [AI]-suggestion rule vs the TNA timeline is folded into the TNA-15 upgrade rather than listed twice: if [AI] wording is accepted into the reflections, the TNA is submitted on 23 Oct with uncited AI text, against 'AI-generated work may not be submitted as your own'.)

@@ -208,7 +208,7 @@ Re-run on the 15 Oct treasury.gov par curve with the same bootstrap as the evide
   does two jobs (Jan 2033 payment + floor; 1,142 + 3,361 shares, portfolio.csv:38-39); VT 8.7%. L08 found three
   different mappings in team files (COH-06). The "same or different" box must give one.
 - **The WInS screen will mislead.** WInS labels the iBond ETFs "Long Equities" (61.6%) though they hold Treasuries
-  (COMPETITION.md:98). A pasted WInS pie chart would tell a first-time reader the book is about 70% stocks. Build
+  (competition/COMPETITION.md:98). A pasted WInS pie chart would tell a first-time reader the book is about 70% stocks. Build
   the snapshot as a team table (holding, job, payment year, value, weight) from WInS numbers, and say why it differs
   from the WInS label.
 
@@ -225,7 +225,7 @@ why (criterion or forecast element), source, owner role, first date. Owners are 
 | 2 | **Evidence file per decision** (the number or page used, saved as dated PDF/screenshot) | "Supporting evidence must be included" (IPS:124-125) | Treasury curve CSV for the date; WInS screens; iShares pages | Each decision owner | Now |
 | 3 | **Meeting notes** (date, length, who attended by first name, decisions, actions) | Teamwork, communication | Zoom/chat; 5 lines each | Historian | Every meeting |
 | 4 | **Roles and artefacts** (who owned what, with one artefact each) | Articulation; every member must speak at semifinals ("All team members must participate", faqs.txt:89) | Team sheet | Lead | This week |
-| 5 | **Challenges log**: 7 Oct cancelled-order incident (time, order, how found, response, rule changed); stale WInS bond prices (29-30 Sep); IBTN mix-up; sector-rule myth (5 Oct); 6 Oct email; night trading from Sydney; ladder cost swings | "response to challenges" | `final_report.md:17-27`; COMPETITION.md:87-100, 192-193 | Historian | Now |
+| 5 | **Challenges log**: 7 Oct cancelled-order incident (time, order, how found, response, rule changed); stale WInS bond prices (29-30 Sep); IBTN mix-up; sector-rule myth (5 Oct); 6 Oct email; night trading from Sydney; ladder cost swings | "response to challenges" | `final_report.md:17-27`; competition/COMPETITION.md:87-100, 192-193 | Historian | Now |
 | 6 | **Learning log** ("what this taught me", one line per student per week) | "learning", "growth", "meaningful reflection"; team reflection | Each student writes their own | Every student | Weekly |
 | 7 | **AI-use record** (date, tool and model, task, output, what students kept or rejected, exact accepted [AI] wording, who read which AI example) | Works Cited ("in any way"); authenticity | Back-fill 1-15 Oct gap; add the 16 Oct reviews | AI-log keeper | Now |
 | 8 | **Source list, APA, with access dates** (case, Guide, treasury.gov curves by date, iShares iBond pages and fact sheets, Vanguard VT, JPM 2026 LTCMA, Taiwan CPI and construction index, FX source, the seed-gift study behind `strategy_notes.md:22`) | Works Cited; IPS evidence moves here | One sheet | Rules lead | Now |
@@ -271,7 +271,7 @@ new material" (2025-26 Semifinalists Next Steps PDF, evidence pack [D1]).
 | 2031 range | about $145k-$168k (15 Oct) | `IPS_number_sheet.md:16` (MODEL) |
 | Coupon shortfall if yields stay lower | $11k / $21k / $31k at 1 / 2 / 3 points | `IPS_number_sheet.md:30-36` (MODEL) |
 | Global stock assumption | JPM 2026 LTCMA AC World 7.00% compound, 16.78% vol | CLAUDE.md key facts (VERIFIED there) |
-| WInS book | 11 trades of 200; commissions $200; cash $3,513.79; about $301,950 on 13 Oct | COMPETITION.md:174, 188; `rb_tickets.csv` summary |
+| WInS book | 11 trades of 200; commissions $200; cash $3,513.79; about $301,950 on 13 Oct | competition/COMPETITION.md:174, 188; `rb_tickets.csv` summary |
 
 **The 30 questions**
 
@@ -281,7 +281,7 @@ new material" (2025-26 Semifinalists Next Steps PDF, evidence pack [D1]).
 | 2 | Why lock almost all of the first $300k into Treasuries instead of a growth portfolio with a glide path? | The cost of certainty vs the cost of a missed payment; what the growth-first test showed (re-run on WInS-listed instruments, not STRIPS); why waiting is a bet on rates |
 | 3 | What does "high degree of certainty" mean to you, in numbers, and how did you test it? | Definition; test method; assumptions (case:97-99); what is not certain (coupon reinvestment, iBond payouts); US default as the residual risk |
 | 4 | Your bonds pay coupons. What happens if yields fall to 2% and stay there? | Reinvestment risk; size (about $21k at -2 points, MODEL); who covers it in what order; the part that arrives after 2033 |
-| 5 | Why iBond ETFs for 2033-2037 and not individual Treasuries? | WInS lists no Treasury maturing Feb 2031-Feb 2036 (COMPETITION.md:92-93); iShares funds "do not seek to return any predetermined amount"; final months in cash; fee |
+| 5 | Why iBond ETFs for 2033-2037 and not individual Treasuries? | WInS lists no Treasury maturing Feb 2031-Feb 2036 (competition/COMPETITION.md:92-93); iShares funds "do not seek to return any predetermined amount"; final months in cash; fee |
 | 6 | Your Feb-2037 bond matures 10.5 months before the payment it funds. What does that cost and where does the money wait? | Holdings vs ideal dates ($298.6k vs $294.5k); where cash waits (cash allowed or not, UNVERIFIED) |
 | 7 | Your room under $300k is about $1.4k. What if the ladder costs more on 1 January? | "About break-even"; the 2028 deposit completes the ladder first; the floor is lower by the same amount; why the room is within model noise |
 | 8 | What is the interest-rate sensitivity of your ladder, and why does a price fall not hurt Laura? | Matched cash flows held to maturity; about $290 per 0.01 point on the cost; prices and the payments' value move together |
@@ -300,7 +300,7 @@ new material" (2025-26 Semifinalists Next Steps PDF, evidence pack [D1]).
 | 21 | Why not rebalance when markets move? | The hold rule; review triggers; Guide:156-157 (planned adjustments vs rewriting); the "decisions not to trade" log |
 | 22 | Your WInS book is $300k; her plan is $450k. How does one represent the other, and why does WInS call your bond funds "Long Equities"? | One mapping (Jan 2028 plan scaled to $300k); the IBTM split; the platform label vs the holdings |
 | 23 | Walk us through one trade note: what did you know then, and what changed? | The IBTR note's "about 0.2 percentage points" (true on 6 Oct, 22.7bp) vs 4.7bp on 15 Oct; what the rule said; why the team held |
-| 24 | Tell us about a mistake. What happened on 7 Oct? | An AI browser click cancelled the wrong order (COMPETITION.md:192-193); how it was found; what changed (only one student places or cancels; the rule on AI); what it cost; Wharton's "run with it" advice (faqs.txt:66) |
+| 24 | Tell us about a mistake. What happened on 7 Oct? | An AI browser click cancelled the wrong order (competition/COMPETITION.md:192-193); how it was found; what changed (only one student places or cancels; the rule on AI); what it cost; Wharton's "run with it" advice (faqs.txt:66) |
 | 25 | How did you use AI, and how do we know this work is yours? | What AI did (models, memos, reviews, example notes, the WInS click); what students decided and wrote; the Works Cited record; a student re-derives a number live |
 | 26 | Who made the decisions? What did your advisor do? | Students decide; "Advisors may not make decisions on behalf of students" (Rules page); the case's PM role-play (case:4) is fiction |
 | 27 | What did each of you contribute? | One artefact per student; honest, no ranking |
@@ -388,7 +388,7 @@ noticeable weakness; low = polish. "New / known-deeper / known-repeat" is relati
   pasted WInS chart shows the iBond funds as 61.6% "Long Equities".
 - **Evidence.** 2023-24: "two graphic/visual portfolio snapshots: Your team's WInS Portfolio [and] ... Final
   Re[commended Portfolio]"; "Why are your WInS Portfolio and Recommended Portfolio ... the same? ... different?" (page
-  3768); portfolio.csv:2, 38-39; COMPETITION.md:98; L08 COH-06; `IPS_number_sheet.md:56-62`.
+  3768); portfolio.csv:2, 38-39; competition/COMPETITION.md:98; L08 COH-06; `IPS_number_sheet.md:56-62`.
 - **Fix.** One table per snapshot (holding, job, payment year, value, weight), built from WInS numbers; one sentence on
   the scale and the IBTM split; a note on why WInS's label is wrong. Decide which date "recommended" means and use it
   everywhere.
@@ -407,12 +407,12 @@ noticeable weakness; low = polish. "New / known-deeper / known-repeat" is relati
 
 ### FR-05 (high, known-deeper): "Evaluate implementation" needs a plan-vs-actual scorecard, and its raw records are not captured
 - **Problem.** The FR must "evaluate how effectively it implemented that strategy" (IPS:75-77), but the sheet's Trade
-  Log is empty; fill prices are recorded only in COMPETITION.md's table (172-186), and accrued interest, commissions and cash after each trade are not recorded; fills slipped from the target
+  Log is empty; fill prices are recorded only in competition/COMPETITION.md's table (172-186), and accrued interest, commissions and cash after each trade are not recorded; fills slipped from the target
   (Fri 2 Oct ET) to 6-8 Oct; four notes sit on cancelled orders. Whether the team can still open WInS records after the
   season is UNVERIFIED.
 - **Evidence.** `caplet/google_drive/sheets/portfolio_and_trading_notes/trade_log.csv:2-60` (blank rows); CLAUDE.md open
   items ("target fills Fri Oct 2 ET, hard stop Oct 9"); CLAUDE.md:9 (filled 7-8 Oct); 15 Oct brief section 2 (four notes
-  on cancelled orders); COMPETITION.md:172-188 (fills; "Every weight is within 0.2 pt of target").
+  on cancelled orders); competition/COMPETITION.md:172-188 (fills; "Every weight is within 0.2 pt of target").
 - **Fix.** Capture WInS records now and at the freeze (item 9). Build a scorecard: each order's target vs actual (weight,
   fill, time, commission), what went wrong and the rule it produced. What it must achieve: an evaluation built on
   WInS records a judge could check, not memory.
@@ -426,7 +426,7 @@ noticeable weakness; low = polish. "New / known-deeper / known-repeat" is relati
   that paid it", which the frozen book cannot do. WInS also shows the May-2038 bond's last coupon as 15 Aug, so its
   payment date in WInS may differ (UNVERIFIED).
 - **Evidence.** Guide:70-78; faqs.txt:59, 63 (bond coupons paid every six months; corporate actions reflected);
-  COMPETITION.md:97, 172-188 (the coupon-date quirk; holdings and faces); portfolio.csv:25-29 (coupons);
+  competition/COMPETITION.md:97, 172-188 (the coupon-date quirk; holdings and faces); portfolio.csv:25-29 (coupons);
   01_version_5.md:26.
 - **Fix.** Weekly record from now to 4 Dec (item 12): WInS value, cash, income received, ladder value vs the value of
   the payments it covers on the same day's curve, VT. In the FR, explain the cash build-up as a feature of the freeze,
@@ -441,7 +441,7 @@ noticeable weakness; low = polish. "New / known-deeper / known-repeat" is relati
 - **Evidence.** `archive/rab/redteam/triage.md` (10 rows "note-in-Final-Report", e.g. :54-62); `archive/rab/decisions/D_rivals.md:12,
   14, 61`; `archive/rab/decisions/D_stress_bad_year.md:14, 72`; `archive/rab/decisions/D_range_confidence_2031.md:1-8, 75`;
   `archive/rab/decisions/D_certainty_definition.md:1` (banner present); `caplet/deliverables/final_report_outline.md:5, 16`;
-  COMPETITION.md:87-90.
+  competition/COMPETITION.md:87-90.
 - **Fix.** Before 9 Nov, the team lists which backlog items it actually wants, re-runs any number it keeps on
   WInS-listed holdings and the valuation date, and cites the AI origin. What it must achieve: no STRIPS-basis or 28 Sep
   number in the FR, and no AI table presented as student work.
@@ -469,7 +469,7 @@ noticeable weakness; low = polish. "New / known-deeper / known-repeat" is relati
   material is real (stale prices, IBTN, the sector-rule myth, night trading, the 7 Oct cancelled order), but the journal
   stops at 7 Oct with blanks, the key calls were deferred to AI, and last year's FR used quoted dialogue and votes under
   an instruction to make stories up. The 7 Oct click was made by an AI browser tool, so a truthful account names AI.
-- **Evidence.** `final_report.md:16, 23` ("[who argued what]", "[fill in]"), :27; CLAUDE.md:14, 75; COMPETITION.md:192-193;
+- **Evidence.** `final_report.md:16, 23` ("[who argued what]", "[fill in]"), :27; CLAUDE.md:14, 75; competition/COMPETITION.md:192-193;
   `2025_knox_wharton.md:190, 214, 3827` (vote "4-2", the FMC story, "Make up stories"); Rules page Ethics ("invent
   teamwork and experiential stories", evidence pack R2 1.6).
 - **Fix.** Items 1, 3, 5, 6 of section 6, back-filled only from records. For the 7 Oct story keep: time, order, how found,
@@ -501,7 +501,7 @@ noticeable weakness; low = polish. "New / known-deeper / known-repeat" is relati
 ### FR-13 (medium, known-deeper): Five purposeful charts, built by students from data collected now
 - **Problem.** "Uses data effectively" replaced "visually pleasing ... many creative elements". The kit's charts are AI
   work and partly STRIPS-era; the WInS pie chart mislabels the bond funds.
-- **Evidence.** deliverables.txt:59; evidence pack 2.3; COMPETITION.md:98; `caplet/deliverables/final_report_outline.md:7-15`
+- **Evidence.** deliverables.txt:59; evidence pack 2.3; competition/COMPETITION.md:98; `caplet/deliverables/final_report_outline.md:7-15`
   (charts 01-05 of the abandoned plan).
 - **Fix.** The five charts in section 8, each answering one client question, built from items 12-14. What it must
   achieve: a reader understands the plan from the charts alone.
@@ -510,7 +510,7 @@ noticeable weakness; low = polish. "New / known-deeper / known-repeat" is relati
 - **Problem.** The letter is required with the FR, needs a school administrator's signature on letterhead and lists the
   advisor and every student by full name. It was "not yet requested as of 13 Oct". Term ends Thu 3 Dec; Fri 4 Dec is a
   staff day.
-- **Evidence.** `2026_27_School_Documentation_Template.txt:1-28`; deliverables.txt:26, 52; COMPETITION.md:128-132;
+- **Evidence.** `2026_27_School_Documentation_Template.txt:1-28`; deliverables.txt:26, 52; competition/COMPETITION.md:128-132;
   Knox term dates page.
 - **Fix.** Ask through the advisor now; aim to hold it by Fri 20 Nov; check every name against the private roster note;
   store it off the repo. Note the later semifinal letterhead and consent forms (section 9).
@@ -530,7 +530,7 @@ noticeable weakness; low = polish. "New / known-deeper / known-repeat" is relati
   tempting lessons are strategy changes (for example "more stocks" or "a dedicated reserve"), which would read as
   redesign; others are implementation lessons (order timing, after-hours iBond spreads, AI in WInS, roles set late,
   logging decisions).
-- **Evidence.** Guide:156-159; `final_report.md:19-20` (stale prices; after-hours spreads); COMPETITION.md:100, 192-193;
+- **Evidence.** Guide:156-159; `final_report.md:19-20` (stale prices; after-hours spreads); competition/COMPETITION.md:100, 192-193;
   2025-26 semifinal rule allowing reflection on "strategic weaknesses, limitations, or missed opportunities without
   changing the original strategy" (evidence pack [D1]).
 - **Fix.** A two-column list (implementation lesson vs strategy question), agreed by the team before drafting. Strategy
@@ -575,7 +575,7 @@ Repo (read-only, 16 Oct 2026):
 - `competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:51-52, 68-77, 82-125`
 - `competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:26-27, 51-59`; `faqs.txt:59-66, 76-89`
 - `competition/official/2026_27/2026_27_School_Documentation_Template.txt:1-28`
-- `CLAUDE.md:9, 14, 40, 75`; `COMPETITION.md:87-100, 128-132, 172-193`
+- `CLAUDE.md:9, 14, 40, 75`; `competition/COMPETITION.md:87-100, 128-132, 172-193`
 - `caplet/google_drive/final_report.md:14-27`; `strategy_notes.md:16-22`; `client_portrait.md:14-15`;
   `ips_report/01_version_5.md:16-36`; `2025_knox_wharton.md:76, 84-86, 174-235, 247, 3800-3890`;
   `sheets/portfolio_and_trading_notes/portfolio.csv`, `trade_log.csv`, `rb_tickets.csv`

@@ -38,7 +38,7 @@ payments are the keel, growth is the sail.
 
 ## Daily episode recipe (for the scheduled session)
 1. Read this README, every `members/<name>.md`, `tea_room.md`, the last three episodes, `CLAUDE.md` and
-   `COMPETITION.md`.
+   `competition/COMPETITION.md`.
 2. Work out today's date in Sydney and where the competition calendar is. Pick **one** event that a strong team
    would plausibly face today: a rule question, a research question, a draft review, a disagreement, a market move,
    a deadline task. Prefer what Caplet is about to face in the next few days.
