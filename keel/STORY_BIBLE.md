@@ -253,7 +253,7 @@ that break something open. Use at most one per act. Each one has to change a vot
   makes against the keel all season, and his answer to Oscar is a single line: "We're not that kind of team."
 - **Felix's dad wants him in Hong Kong for the summer, from 1 December.** His flight is booked for the morning of
   Fri 4 Dec, the day Keel submits. He offers to cancel it; Nora says no, and the team brings its own deadline forward
-  by a day so Felix's last check happens before he leaves. Felix reads both clocks one last time at the airport, and
+  to the morning of Fri 4 Dec, so Felix's last check happens before he boards. Felix reads both clocks one last time at the airport, and
   he is the one who sends the "submitted" message, from the gate.
 - **Amara's line gets stolen.** A sentence of hers from a public forum post Kai once made ("a promise you can price
   is a promise you can keep") turns up in Spinnaker's pitch, word for word. The team wants to call it out. Amara
@@ -341,8 +341,9 @@ The jacarandas drop, and the footpaths go purple and slippery.
   and the power in the library flickers. Kai's father phones about a "sure thing" in the same hour. Kai doesn't take
   it up and goes back up the stairs. The story's crisis is this: not a disaster, just every old temptation in the
   one hour the team can't afford it.
-- **Fri 4 Dec, around 21:00 Sydney.** Keel submits the Final Report and its school documentation, twelve hours before
-  the Sat 5 Dec 09:00 deadline. Felix reads both clocks out loud. Tess files the receipt. The top drawer of the
+- **Fri 4 Dec, 07:40 Sydney.** Keel submits the Final Report and its school documentation, a day before the Sat 5 Dec
+  09:00 deadline, because Felix flies at nine. He reads both clocks out loud from the airport, over the phone, and
+  sends "submitted" from the gate. Tess files the receipt. The top drawer of the
   Archive is now one folder lighter: Kai has taken the red folder home to give back to Hamish.
 **Turning point:** Thu 3 Dec. The team doesn't choose the brilliant last-minute rewrite. It chooses the clock.
 
