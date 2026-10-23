@@ -2,7 +2,7 @@
 
 > Ray: Keel must "work even without our supervision and suggestions". Keel sets its own agenda, calls its own
 > meetings and comes up with its own ideas; Caplet's students comment and suggest, and still decide and submit.
-> Every scheduled room run follows this page. Rooms and times: `ROUTINES.md`; room cards: `../OFFICE.md`.
+> Every scheduled room run follows this page. Rooms and times: `ROUTINES.md`; room cards: `../OFFICE.md` (added by PR #27; read it from that branch until it merges).
 
 ## Every run, in this order
 1. **Read the room's inbox, not the whole repo.** Open requests to this room in `REQUESTS.md`, answers in

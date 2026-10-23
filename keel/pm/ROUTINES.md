@@ -13,7 +13,7 @@ The loop reads their reports (`keel/routines/monitor_reports/`) instead of redoi
 already the Mac watcher, so no cloud copy is proposed.
 
 ## Live: one scheduled task per office room (24 Oct 2026, Sydney; Ray: Keel leads itself, daily or every 2 days)
-Rooms are in `keel/OFFICE.md` (PR #27). Every room run is self-directed (`SELF_DIRECTION.md`): it reads its open
+Rooms are defined in `keel/OFFICE.md`, added by PR #27 (not yet on main; until it merges, read it from that PR's branch). Every room run is self-directed (`SELF_DIRECTION.md`): it reads its open
 requests (`REQUESTS.md`), the answers in `ASK_HUMANS.md`, the board and the other rooms' latest memos, then picks its
 own work, hands work to other rooms by request and asks Caplet questions without waiting. The Long Room sets the
 agenda. Each run starts a fresh session (its own thread in the project), writes to the repo on
