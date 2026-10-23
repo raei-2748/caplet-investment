@@ -29,6 +29,8 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
 - Wharton Week 4 email (filed 22 Oct): `competition/official/2026_27/wharton_email_week4_2026-10.md`. IPS is now an
   SMApply FORM, not a PDF ("all other requirements remain the same"); TIPS and STRIPS explicitly banned for both
   contributions, in the IPS and the Final Report.
+- Wharton culture brief (23 Oct, Ray's idea that judges warm to "Wharton potential"): `keel/library/wharton_culture/BRIEF.md`
+  = Wharton's history, values, student culture, judge quotes, traits Keel should SHOW (never say), clichés to avoid.
 - Team Keel (22 Oct, Ray; made the repo's leaders on 23 Oct): `keel/` = six FICTIONAL personas who do the same
   competition and run the office; a new research-based diary episode every day (scheduled task). Their events are fiction and never go into Caplet's
   deliverables as Caplet's experience; their research findings may be used after re-checking.
