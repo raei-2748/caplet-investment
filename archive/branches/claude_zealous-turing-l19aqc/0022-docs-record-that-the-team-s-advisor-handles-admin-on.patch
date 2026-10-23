@@ -1,0 +1,45 @@
+From ade6d06e1b48865e1f3a5a963acf4ca52cccc06c Mon Sep 17 00:00:00 2001
+From: Claude <noreply@anthropic.com>
+Date: Sun, 27 Sep 2026 11:16:37 +0000
+Subject: [PATCH 22/22] docs: record that the team's advisor handles admin only
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01UaqBhExXuwM9a3H7k4WwSe
+---
+ CLAUDE.md                                     | 5 +++--
+ research/ultracode_prompt_v4_deep_strategy.md | 3 ++-
+ 2 files changed, 5 insertions(+), 3 deletions(-)
+
+diff --git a/CLAUDE.md b/CLAUDE.md
+index a5c6a31..e6d087e 100644
+--- a/CLAUDE.md
++++ b/CLAUDE.md
+@@ -28,8 +28,9 @@ draft reviews, not submission-ready prose.
+ ## Team
+ Lessons from 2025-26 (Ray, no feedback received): strategy packaging was over-complex for the insight; the team traded
+ assets outside the trading rules. So: complexity must earn its place; check every trade against this year's rules and
+-approved list before placing it; client first. Team is Australian (use only if it earns its place). No active
+-teacher-advisor (a registered school advisor is still required for eligibility; advisors may not make decisions).
++approved list before placing it; client first. Team is Australian (use only if it earns its place). The team has a
++supervisor/advisor who handles administrative work only (consistent with the rules: advisors may not make decisions;
++all strategy decisions are the students'; worth noting in the Final Report's Articulation section).
+ Ray's personal goal: learn markets and client analysis; include plain-English "what this teaches" notes.
+ Ray (Team Leader), Ahaan, Darren, Harry, Eric, Young (6 students). Roster in `config/team_roster.json`,
+ pending Wharton roster confirmation (due Oct 9; members locked after submission).
+diff --git a/research/ultracode_prompt_v4_deep_strategy.md b/research/ultracode_prompt_v4_deep_strategy.md
+index 9b0ea9f..46678f6 100644
+--- a/research/ultracode_prompt_v4_deep_strategy.md
++++ b/research/ultracode_prompt_v4_deep_strategy.md
+@@ -92,7 +92,8 @@ rejects: facility as a dated liability, income-gap cash buffer, values screens a
+    -> Every decision must trace back to Laura or the case.
+ 4. Team is from Australia (rare among entrants). Use an Australian angle only if it earns its place (e.g. how
+    Australia's superannuation system / Future Fund frame long-term promises), never for its own sake.
+-5. No active teacher-advisor; the six students do the work with AI research support. Ray's personal goal: learn as
++5. The team's supervisor/advisor handles administrative work only (as the rules require, advisors make no
++   decisions); the six students do the work with AI research support. Ray's personal goal: learn as
+    much as possible about markets and client analysis. -> Every output includes a short plain-English "what this
+    teaches" note.
+ 
+-- 
+2.43.0
+

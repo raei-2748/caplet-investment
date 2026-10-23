@@ -1,0 +1,29 @@
+From c44a601d04d6d4f79b7834922852cf1dc9617f04 Mon Sep 17 00:00:00 2001
+From: Claude <noreply@anthropic.com>
+Date: Sun, 27 Sep 2026 10:39:41 +0000
+Subject: [PATCH 12/22] docs(memory): record semifinals-first priority
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01UaqBhExXuwM9a3H7k4WwSe
+---
+ CLAUDE.md | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/CLAUDE.md b/CLAUDE.md
+index 9f71f94..69767f3 100644
+--- a/CLAUDE.md
++++ b/CLAUDE.md
+@@ -12,7 +12,9 @@ decision, deadline or open item changes, and commit it with the related change.
+ - Do NOT write the Trading Notes, IPS or Final Report. The team wants knowledge: numbers, models, devil's advocate,
+   trade checks, research/fact-checking. Wharton AI policy: AI for brainstorming; AI-generated work may not be
+   submitted as the students' own and must be cited.
+-- Goal: win the Global Finale, keep deliverables plain-English (judges reward simple, elegant ideas).
++- Goal: top priority is reaching the Top 50 semifinals (chosen on the written Trading Notes, IPS and Final Report);
++  the finale comes later. Keep deliverables plain-English (judges reward simple, elegant ideas). Semis-first does not
++  change the rule that the team writes the deliverables; the assistant reviews drafts, checks trades and numbers.
+ - Repo is public; the team leader accepted putting competition materials in it. Do not commit student personal data
+   (surnames, emails, birthdays) or rankings of teammates.
+ 
+-- 
+2.43.0
+

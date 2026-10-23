@@ -43,3 +43,20 @@ quotes). Laura's real January purchase got about **$5,800 dearer** ($291,933 →
 ## 4. The 6 Oct email's arrival time (for IBTM, gate G3)
 Not found in the Gmail account connected to this session (searched 4-9 Oct). It probably went to a school account or
 was posted on the WInS dashboard. Still UNVERIFIED.
+
+## 5. Update, 22 Oct 2026 (curve through 22 Oct; `tsy_202610_22oct.csv`)
+| Curve | Ladder, zero basis | Room under $300k |
+|---|---|---|
+| 16 Oct | $298,087 | $1,913 |
+| 19 Oct | $296,307 | $3,693 |
+| 20 Oct | $297,411 | $2,589 |
+| 21 Oct | $297,202 | $2,798 |
+| **22 Oct** | **$302,139** | **-$2,139 (line crossed)** |
+- On 22 Oct the ten payments cost more than the first deposit (zero basis), after a fall of about 0.15-0.17 points in
+  the 7-20 year yields in one day. Under the IPS rule, the 2028 deposit would top up the payments first, and the floor
+  would shrink by about $2k. The case is still well short of the ~$4k the October rule needed for a VT→IBTM trade.
+- October trade rule, trigger B: the window closed Tue 20 Oct 3:30 PM ET. On 20 Oct the cost was $297,411 (not fired),
+  so **no trade**. Record "checked 20 Oct: hold" in the decision log.
+- IBTR pair, 7 → 22 Oct: Laura's January purchase rose from $291,933 to $302,139 (**+$10,206**). Over the same days the WInS
+  Treasury holdings rose about **$7,550 (+2.8%)** (curve estimate, not WInS quotes). Our WInS bonds gained while
+  Laura's real plan got dearer.

@@ -1,0 +1,626 @@
+diff --git a/rab/trades/refresh_tickets.py b/rab/trades/refresh_tickets.py
+index 72ca16c..61fd176 100644
+--- a/rab/trades/refresh_tickets.py
++++ b/rab/trades/refresh_tickets.py
+@@ -14,7 +14,9 @@ Two modes
+                   in this mode). Writes rab/trades/out/tickets_<curve date>.csv and .md.
+ 
+ Order sequence (both books): iBonds ETFs (IBTR ... IBTM), then the Treasury bonds (Nov-2041 ... Feb-2037), then VT
+-(Portfolio only) as order 11, in the session after the bonds show Filled. The iBonds go first because they fill at live
++(Portfolio only) as order 12, in the session after the bonds show Filled. Portfolio book: IBTM is two orders on purpose
++(5: the 2033 payment; 6: the facility floor), so the floor shows as its own decision in Order History (WS7 red team,
++30 Sep; +$25 commission; --one-ibtm-order merges them if the 1 Oct vote rejects the split). The iBonds go first because they fill at live
+ prices, so the cash they use is known at once; the bonds next because WInS fills them at end-of-day prices, so their
+ cash is known only after the close (premortem PM-03); VT last so it is sized from the cash actually left and WInS Order
+ History shows the payments and the floor before growth (judge panel, 30 Sep). The order inside each group is for cash
+@@ -29,15 +31,26 @@ Checks (exit status 1 if any fails)
+               PM-05); <= half of the lowest day in 20 sessions (WInS FAQ "half of market volume", worst full day).
+   C4 bonds    each WInS bond price within 25bp of the curve model (M1_METHOD.md section C); else use the alternate.
+   C5 ledger   (locked basis) Portfolio and Book L totals equal numbers.yaml wins.portfolio.cost_close_0928 and
+-              wins.bookL.cost_close_0928 to the cent; numbers.yaml sha256 equals rab/numbers.lock.
++              wins.bookL.cost_close_0928 to the cent (Portfolio: plus $25 for the split IBTM order, which the Sheet's
++              Portfolio tab does not have); numbers.yaml sha256 equals rab/numbers.lock.
+   C6 words    the generated .md has none of the superseded-book or stale-fact strings (premortem Gate C 4-5).
+ 
++The ladder test (the "tested" pick; WS7 red team fix, 30 Sep). Before any order the script prices Laura's ten payments
++on 1 Jan 2027 two ways: the zero-coupon (STRIPS) basis of numbers.yaml, and the instruments she can buy under the
++strict reading R1(a) (the Book L holdings at curve-model prices, coupons at forward rates; the basis of
++rab/redteam/ws7_assumptions_reinvest_check.py [3]). --plan-split auto (only if the 1 Oct vote adopts the rule) applies
++it: if the buyable ladder costs more than $300,000, or its plan stock-fund share has moved more than 1 point since
++Gate A (28 Sep), VT is sized to the typed share minus that move and the difference goes to the IBTM 2033-payment order,
++where the plan says a shortfall lands (october_trade.md trigger B, applied on day one). The split uses the refresh's
++fixed $150,000-face floor (F4, unsettled: the team settles it before 14 Oct).
++
+ Run from the worktree root:
+     /Users/ray/Research/rab-ws/.venv/bin/python rab/trades/refresh_tickets.py
+     /Users/ray/Research/rab-ws/.venv/bin/python rab/trades/refresh_tickets.py --basis friday \
+         --wins-prices rab/trades/wins_prices_friday.csv
+ """
+ import argparse
++import contextlib
+ import csv
+ import hashlib
+ import importlib.util
+@@ -54,6 +67,7 @@ from datetime import date, datetime, timedelta, timezone
+ from zoneinfo import ZoneInfo
+ 
+ import yaml
++from scipy.optimize import brentq
+ 
+ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+ HERE = os.path.join(ROOT, "rab", "trades")
+@@ -103,14 +117,20 @@ SEC = {
+              "alt": "IBTM (ends a year early)"},
+     "IBTM": {"type": "ETF", "name": "iShares iBonds Dec 2032 Term Treasury ETF", "status": "SEEN 2026-09-29",
+              "ends": "about 15 Dec 2032", "pays": 2033,
+-             "serves": {"Portfolio": "Jan 2033 payment + facility floor (both jobs in one holding)",
+-                        "BookL": "Jan 2033 payment"},
+-             "trap": "Largest order. Check the name says Dec 2032.",
++             "serves": {"Portfolio": "Jan 2033 payment (the first of the ten)", "BookL": "Jan 2033 payment"},
++             "trap": "Check the name says Dec 2032. Portfolio book: IBTM is ordered twice on purpose (5: this payment; "
++                     "6: the floor).",
+              "alt": "none dated: no WInS Treasury matures between Feb 2031 and Feb 2036 (SEEN 29 Sep); if it cannot "
+                     "be bought, keep the cash and retry next session"},
++    "IBTM_F": {"type": "ETF", "ticker": "IBTM", "name": "iShares iBonds Dec 2032 Term Treasury ETF", "status": "SEEN 2026-09-29",
++               "ends": "about 15 Dec 2032", "pays": 2033,
++               "serves": {"Portfolio": "facility floor for her Jan 2033 contribution (2028 deposit; second IBTM order)"},
++               "trap": "The second IBTM order, on purpose: type IBTM again. Not a repeat of order 5: Order History must "
++                       "show order 5 first; use this quantity.",
++               "alt": "one IBTM order for both jobs only if the 1 Oct vote rejects the split (--one-ibtm-order)"},
+     "VT": {"type": "ETF", "name": "Vanguard Total World Stock ETF", "status": "SEEN 2026-09-29", "ends": "-",
+            "pays": None, "serves": {"Portfolio": "Branch: the world stock fund (growth money)"},
+-           "trap": "Not VTI (U.S. only). Order 11: place it only in the session after all five bonds show Filled "
++           "trap": "Not VTI (U.S. only). Order 12: place it only in the session after all five bonds show Filled "
+                    "(Mon 5 Oct ET); re-run with --cash-before-vt first.", "alt": "VTI + VXUS in VT's own U.S./non-U.S. mix (two trades)"},
+     "T 3.125% 15-Nov-2041": {"type": "Treasury", "name": "U.S. Treasury bond 3.125% maturing 15 Nov 2041",
+                              "cusip": "912810QT8", "status": "UNVERIFIED (WInS string not recorded)",
+@@ -145,12 +165,26 @@ SEC = {
+                              "trap": "Check the maturity says 2037.",
+                              "alt": "5.000% 15 May 2037 (912810PU6), if listed and within 25bp"},
+ }
+-ORDER = {"Portfolio": ["IBTR", "IBTQ", "IBTP", "IBTO", "IBTM", "T 3.125% 15-Nov-2041", "T 4.250% 15-Nov-2040",
++ORDER = {"Portfolio": ["IBTR", "IBTQ", "IBTP", "IBTO", "IBTM", "IBTM_F", "T 3.125% 15-Nov-2041", "T 4.250% 15-Nov-2040",
+                        "T 4.375% 15-Nov-2039", "T 4.500% 15-May-2038", "T 4.750% 15-Feb-2037", "VT"]}
+-ORDER["BookL"] = [k for k in ORDER["Portfolio"] if k != "VT"]
++ORDER["BookL"] = [k for k in ORDER["Portfolio"] if k not in ("VT", "IBTM_F")]
+ WHY = {"IBTR": "iBonds first (live prices, so cash is known at once); a small first order to learn the screen",
++       "IBTM_F": "the floor as its own order, after the 2033 payment and before any stocks (in Laura's plan it is "
++                 "bought with the 2028 deposit)",
+        "T 3.125% 15-Nov-2041": "bonds after the iBonds: WInS fills them at end-of-day prices",
+        "VT": "last, in the next session: sized from the cash left after the bonds fill (payments and floor first)"}
++SPLIT_ORDERS = {"IBTM_F": "IBTM"}   # extra Portfolio orders that the Sheet's Portfolio tab holds inside one holding
++
++
++def tk(k):
++    """Market ticker of a ticket id (IBTM_F is a second IBTM order)."""
++    return SEC.get(k, {}).get("ticker", k)
++
++
++def one_ibtm_order():
++    """--one-ibtm-order: the 1 Oct vote rejected the split; IBTM holds the 2033 payment and the floor in one order."""
++    ORDER["Portfolio"] = [k for k in ORDER["Portfolio"] if k != "IBTM_F"]
++    SEC["IBTM"]["serves"]["Portfolio"] = "Jan 2033 payment + facility floor (both jobs in one order)"
+ 
+ 
+ ALTERNATES = ["T 2.000% 15-Nov-2041", "T 1.375% 15-Nov-2040", "T 4.500% 15-Aug-2039", "T 5.000% 15-May-2037",
+@@ -270,7 +304,7 @@ def locked_context(trade_date):
+         stats[t] = s
+     px = {}
+     for k in SEC:
+-        w = wins[k]
++        w = wins[tk(k)]
+         px[k] = {"ref": w["price"], "asof": w["price_date"], "source": w["price_source"],
+                  "acc_shown": w["acc_rec"], "status": w["price_status"]}
+     alt_px = {k: {"ref": wins[k]["price"], "asof": wins[k]["price_date"]} for k in ALTERNATES if k in wins}
+@@ -345,6 +379,8 @@ def friday_context(trade_date, wins_prices):
+             w = wins[k]
+             px[k] = {"ref": w["price"], "asof": w["price_date"], "source": "WInS 28 Sep (recorded 29 Sep)",
+                      "acc_shown": None, "status": "STALE REFERENCE: read this bond in WInS and re-run"}
++    for k in SPLIT_ORDERS:   # a second order of the same ETF uses that ETF's price
++        px[k] = px[tk(k)]
+     alt_px = {k: {"ref": float(typed[k]["clean_or_etf_price_shown"]), "asof": typed[k].get("seen_at_et", "") or "Friday"}
+               for k in ALTERNATES if k in typed}
+     for w_ in warn:
+@@ -358,11 +394,17 @@ def friday_context(trade_date, wins_prices):
+ 
+ 
+ # ------------------------------------------------------------------------------------------------ units
+-def units_sheet():
++def units_sheet(ctx):
++    """Units as typed in the Sheet tabs. The Portfolio tab holds IBTM as one holding (2033 payment + floor); when the
++    kit splits it, the floor order gets the typed floor share (24.3% of $300,000) and the 2033 order the rest, so the
++    two orders add up to the tab's units exactly."""
+     port, _ = m1.read_portfolio(os.path.join(ROOT, "rab/data/sheet/Portfolio_values_2026-09-30T0030AEST.csv"))
+     wins = m1.read_wins(os.path.join(ROOT, "rab/data/wins/wins_prices_2026-09-28.csv"))
+-    return {"Portfolio": {h["holding"]: h["units"] for h in port},
+-            "BookL": {k: w["bookL_size"] for k, w in wins.items() if w["bookL_size"]}}
++    pf = {h["holding"]: h["units"] for h in port}
++    if "IBTM_F" in ORDER["Portfolio"]:
++        pf["IBTM_F"] = math.floor(SPLIT["floor"] * START_CASH / dirty_for_sizing("IBTM", ctx))
++        pf["IBTM"] -= pf["IBTM_F"]
++    return {"Portfolio": pf, "BookL": {k: w["bookL_size"] for k, w in wins.items() if w["bookL_size"]}}
+ 
+ 
+ def dirty_for_sizing(k, ctx):
+@@ -387,28 +429,102 @@ def units_rule(ctx):
+         blv[k] = q * px / (100 if SEC[k]["type"] == "Treasury" else 1)
+     tot = sum(blv.values())
+     pf = {}
++    shift = ctx.get("vt_shift", 0.0)   # --plan-split auto: stock-fund share moved to the 2033 payment order
+     for k in ORDER["Portfolio"]:
+         px = dirty_for_sizing(k, ctx)
+         if k == "VT":
+-            tgt = SPLIT["vt"] * START_CASH
++            tgt = (SPLIT["vt"] - shift) * START_CASH
++        elif k == "IBTM_F":
++            tgt = SPLIT["floor"] * START_CASH
+         else:
+-            tgt = SPLIT["ladder"] * START_CASH * blv[k] / tot + (SPLIT["floor"] * START_CASH if k == "IBTM" else 0)
++            tgt = SPLIT["ladder"] * START_CASH * blv[k] / tot
++            if k == "IBTM":
++                tgt += shift * START_CASH + (0 if "IBTM_F" in ORDER["Portfolio"] else SPLIT["floor"] * START_CASH)
+         pf[k] = math.floor(tgt / px) if SEC[k]["type"] == "ETF" else math.floor(tgt / (px / 100) / 1000) * 1000
+     return {"Portfolio": pf, "BookL": bl}
+ 
+ 
++# ------------------------------------------------------------------------------------------------ the ladder test
++_LOOK = {}
++
++
++def lookthrough():
++    """iBonds look-through (M1 section D): published NAV / model NAV on the Gate A curve (28 Sep), held fixed."""
++    if not _LOOK:
++        rows = m1.load_rows([os.path.join(ROOT, "rab/data/treasury_par_2000_2026/2026.csv")])
++        row = next(r for r in rows if r["_date"] == date(2026, 9, 28))
++        with contextlib.redirect_stdout(io.StringIO()):
++            _LOOK.update(m1.section_d(row, row["_date"]))
++    return _LOOK
++
++
++def buyable_fwd_2027(ctx, sizes, bp=0.0):
++    """Laura's ten payments with the instruments she can buy under the strict reading R1(a): the Book L holdings
++    (`sizes`) at curve-model prices (curve shifted by bp), plus Book L's WInS commissions as a trading-cost stand-in,
++    forwarded to 1 Jan 2027. Same basis as rab/redteam/ws7_assumptions_reinvest_check.py [3] (MODEL)."""
++    row, s = ctx["row"], ctx["curve_date"]
++    c = m1.Curve(row, bp)
++    H, F, look = m1.ibond_holdings(), m1.ishares_facts(), lookthrough()
++    tot = 0.0
++    for k, q in sizes.items():
++        if SEC[k]["type"] == "Treasury":
++            w = ctx["wins"][k]
++            tot += q * m1.model_dirty(c, w["coupon"], w["mat"], s) / 100 + COMM["Treasury"]
++        else:
++            tot += q * m1.nav_model(row, H[tk(k)], F[tk(k)]["shares"], s, bp) * look[tk(k)]["ratio"] + COMM["ETF"]
++    return tot / c.df(m1.A27)
++
++
++def plan_split(ctx, cost27):
++    """Laura's plan after both deposits (M1_METHOD.md section F): 2027 remainder at the 1-year yield, the 2028
++    deposit completes the payments, then a $150,000-face floor at the 5-year yield (F4 fixed-face reading), rest VT."""
++    cv = ctx["cv"]
++    y1, y5 = float(ctx["row"]["1 Yr"]) / 100, float(ctx["row"]["5 Yr"]) / 100
++    G = (START_CASH - cost27) * (1 + y1) + 150_000
++    floor = 150_000 / (1 + y5) ** 5
++    tot = cost27 * cv.df(m1.A27) / cv.df(m1.A28) + G
++    return {"ladder": (tot - G) / tot, "floor": floor / tot, "vt": (G - floor) / tot}
++
++
++def ladder_test(ctx, sizes_bookL):
++    """The two costs of the ten payments on 1 Jan 2027, the buyable basis's room and break-even fall, the plan split
++    on each basis, and the Friday rule (--plan-split auto)."""
++    L = m1.liability(ctx["cv"], "nov15")
++    strips = L["fwd_2027"]
++    buy = buyable_fwd_2027(ctx, sizes_bookL)
++    try:
++        be = -brentq(lambda b: buyable_fwd_2027(ctx, sizes_bookL, b) - START_CASH, -300, 100, xtol=1e-3)
++    except ValueError:
++        be = float("nan")
++    sp_s, sp_b = plan_split(ctx, strips), plan_split(ctx, buy)
++    ref = ctx.get("gate_a_vt_buyable", sp_b["vt"])
++    shift = ref - sp_b["vt"]
++    fires = buy > START_CASH or abs(shift) > 0.01
++    return {"strips": strips, "buyable": buy, "room": START_CASH - buy, "breakeven_bp": be, "split_strips": sp_s,
++            "split_buyable": sp_b, "vt_ref": ref, "shift": shift, "fires": fires,
++            "floor_short": sp_b["vt"] < 0}
++
++
++def gate_a_vt_buyable():
++    """The buyable-basis stock share at Gate A (28 Sep curve, Sheet Book L sizes): the rule's reference point."""
++    ctx = locked_context(date(2026, 10, 2))
++    wins = ctx["wins"]
++    sizes = {k: w["bookL_size"] for k, w in wins.items() if w["bookL_size"]}
++    return plan_split(ctx, buyable_fwd_2027(ctx, sizes))["vt"]
++
++
+ # ------------------------------------------------------------------------------------------------ tickets
+ def ticket(book, seq, k, qty, ctx):
+     meta, p = SEC[k], ctx["px"][k]
+     cv, s_chk, s_tr, s_set = ctx["cv"], ctx["curve_date"], ctx["trade_date"], ctx["settle_date"]
+-    r = {"book": book, "seq": seq, "id": k, "ticker": k if meta["type"] == "ETF" else "(bond: pick by coupon + maturity)",
++    r = {"book": book, "seq": seq, "id": k, "ticker": tk(k) if meta["type"] == "ETF" else "(bond: pick by coupon + maturity)",
+          "type": meta["type"], "wins_name_expected": meta["name"], "wins_name_status": meta["status"],
+          "cusip": meta.get("cusip", ""), "ends": meta["ends"], "serves": meta["serves"][book],
+          "qty": qty, "qty_unit": "shares" if meta["type"] == "ETF" else "face value $ (unit UNVERIFIED in WInS)",
+          "ref_price": p["ref"], "ref_asof": p["asof"], "ref_source": p["source"], "price_status": p["status"],
+          "commission": COMM[meta["type"]], "trap": meta["trap"], "alternate": meta["alt"], "why_here": WHY.get(k, "")}
+     if meta["type"] == "ETF":
+-        stt = ctx["stats"][k]
++        stt = ctx["stats"][tk(k)]
+         band = max(ETF_MIN_BAND, 2 * stt["sigma20"])
+         r.update({"accrued_rec": "", "accrued_trade": "", "band_pct": band * 100,
+                   "max_price": math.ceil(p["ref"] * (1 + band) * 100) / 100,
+@@ -481,7 +597,7 @@ def build(book, units, ctx):
+ def size_vt_from_cash(units, ctx):
+     """--cash-before-vt: VT gets the plan share, or less if the cash WInS shows would leave under $1,000 in the worst
+     case (VT at its max price). It never takes more than the plan share; spare cash waits for October trigger C."""
+-    t = ticket("Portfolio", 11, "VT", 1, ctx)
++    t = ticket("Portfolio", len(ORDER["Portfolio"]), "VT", 1, ctx)
+     afford = math.floor((ctx["cash_before_vt"] - FLOAT_MIN - t["commission"]) / t["max_price"])
+     u = dict(units)
+     u["VT"] = max(0, min(u["VT"], afford))
+@@ -530,6 +646,14 @@ def run_checks(books, ctx, numbers, units_mode):
+             else:
+                 out.append(("C4 bonds", f"{book} #{r['seq']} {r['id']}", r["yield_check"] == "PASS",
+                             f"gap {r['yield_gap_bp']:+.1f}bp vs curve {ctx['curve_date']}"))
++        for t_ in sorted({tk(k) for k in SPLIT_ORDERS} & {r["ticker"] for r in rows}):
++            same = [r for r in rows if r["ticker"] == t_]
++            if len(same) > 1:   # two orders of one ETF on one day: the day's total must pass the volume rules too
++                q, s0 = sum(r["qty"] for r in same), ctx["stats"][t_]
++                ok = q <= 2 * s0["adv30"] and q / s0["median20"] <= 0.10 and q / s0["min20"] <= 0.5
++                out.append(("C3 volume", f"{book} {t_} both orders together", ok,
++                            f"{q:,} shares: {q / (2 * s0['adv30']):.1%} of 2x30d avg; {q / s0['median20']:.1%} of 20d "
++                            f"median; {q / s0['min20']:.1%} of lowest day"))
+     if ctx["basis"] == "friday" or any("MODEL price" in r["price_status"] for rows in books.values() for r in rows):
+         for book, rows in books.items():
+             stale = [r["id"] for r in rows if "STALE" in r["price_status"]]
+@@ -541,13 +665,16 @@ def run_checks(books, ctx, numbers, units_mode):
+                 "BookL": numbers["wins.bookL.cost_close_0928"]["value"]}
+         for book, rows in books.items():
+             tot = sum(r["cost_locked"] for r in rows)
+-            ok = abs(tot - want[book]["cost"]) < 0.005 and abs(START_CASH - tot - want[book]["cash_left"]) < 0.005
+-            out.append(("C5 ledger", f"{book} total", ok, f"${tot:,.2f} vs numbers.yaml ${want[book]['cost']:,.2f}"))
++            extra = sum(r["commission"] for r in rows if r["id"] in SPLIT_ORDERS)
++            ok = abs(tot - extra - want[book]["cost"]) < 0.005 and abs(START_CASH - tot + extra - want[book]["cash_left"]) < 0.005
++            out.append(("C5 ledger", f"{book} total", ok, f"${tot:,.2f} vs numbers.yaml ${want[book]['cost']:,.2f}"
++                        + (f" + ${extra:.0f} for the split IBTM order" if extra else "")))
+         if "Portfolio" in books:
+             rows = books["Portfolio"]
++            extra = sum(r["commission"] for r in rows if r["id"] in SPLIT_ORDERS)
+             vt = sum(r["cost_locked"] - r["commission"] for r in rows if r["id"] == "VT")
+             dated = sum(r["cost_locked"] - r["commission"] for r in rows if r["id"] != "VT")
+-            cash = rows[-1]["cash_after_locked"]
++            cash = rows[-1]["cash_after_locked"] + extra
+             sp = numbers["wins.portfolio.split_close_0928"]["value"]
+             ok = (abs(dated / START_CASH - sp["dated_holdings_incl_floor"]) < 5e-5 and abs(vt / START_CASH - sp["vt"]) < 5e-5
+                   and abs(cash / START_CASH - sp["cash"]) < 5e-5)
+@@ -556,12 +683,19 @@ def run_checks(books, ctx, numbers, units_mode):
+                         f"dated holdings incl. floor {dated / START_CASH:.2%} (tab target "
+                         f"{(tt['ladder_65.9pct'] + tt['floor_24.3pct']) / START_CASH:.1%}), VT {vt / START_CASH:.2%} "
+                         f"(target {tt['stock_fund_8.7pct'] / START_CASH:.1%}), cash {cash / START_CASH:.2%} (target "
+-                        f"{tt['cash_1.1pct'] / START_CASH:.1%}); equals numbers.yaml wins.portfolio.split_close_0928"))
++                        f"{tt['cash_1.1pct'] / START_CASH:.1%}); equals numbers.yaml wins.portfolio.split_close_0928"
++                        + (f" (cash before the split order's ${extra:.0f})" if extra else "")))
+         hold = {h["holding"]: h for h in numbers["wins.portfolio.holdings_close_0928"]["value"]}
++        agg = {}
+         for r in books.get("Portfolio", []):
+-            v = r["cost_locked"] - r["commission"]
+-            ok = abs(v - hold[r["id"]]["value"]) < 0.005 and r["qty"] == hold[r["id"]]["qty"]
+-            out.append(("C5 ledger", f"Portfolio {r['id']} value", ok, f"${v:,.2f}"))
++            a = agg.setdefault(tk(r["id"]), [0.0, 0, []])
++            a[0] += r["cost_locked"] - r["commission"]
++            a[1] += r["qty"]
++            a[2].append(str(r["seq"]))
++        for h_, (v, q, seqs) in agg.items():
++            ok = abs(v - hold[h_]["value"]) < 0.005 and q == hold[h_]["qty"]
++            out.append(("C5 ledger", f"Portfolio {h_} value" + (f" (orders {' + '.join(seqs)})" if len(seqs) > 1 else ""),
++                        ok, f"${v:,.2f}"))
+     lock = open(os.path.join(ROOT, "rab/numbers.lock")).read().split()[0]
+     h = hashlib.sha256(open(os.path.join(ROOT, "rab/numbers.yaml"), "rb").read()).hexdigest()
+     out.append(("C5 ledger", "numbers.yaml hash", h == lock, h[:12]))
+@@ -600,7 +734,8 @@ def money(x):
+ 
+ 
+ def md_book(book, rows, ctx):
+-    L = [f"### {'Portfolio tab book (current plan, 11 trades: 1-10 on Friday, VT in the session after the bonds fill)' if book == 'Portfolio' else 'Book L (literal ladder, 10 trades; only if the 1 Oct vote picks it)'}",
++    n_ = len(rows)
++    L = [f"### {f'Portfolio tab book (current plan, {n_} trades: 1-{n_ - 1} on Friday, VT in the session after the bonds fill)' if book == 'Portfolio' else 'Book L (literal ladder, 10 trades; only if the 1 Oct vote picks it)'}",
+          "",
+          "| # | Ticker or bond | Exact WInS name to look for | Serves (Laura's plan) | Quantity | Reference price (as of) | "
+          "Max price | Commission | Expected Preview total | Cash after: expected / worst case | Size vs 2x-volume limit; vs median day | Yield vs curve |",
+@@ -657,6 +792,8 @@ def md_detail(rows):
+ 
+ 
+ def write_md(path, books, ctx, checks, trims, units_mode):
++    split = "IBTM_F" in ORDER["Portfolio"]
++    n_etf = 6 if split else 5
+     L = [f"# Friday WInS tickets", "",
+          f"**Basis:** {ctx['label']}. **Trade date:** Fri {ctx['trade_date']:%-d %b %Y} (U.S. Eastern). "
+          f"**Units:** {'as in the Sheet tabs' if units_mode == 'sheet' else 're-sized with the Sheet rules at these prices'}.",
+@@ -677,19 +814,48 @@ def write_md(path, books, ctx, checks, trims, units_mode):
+          "4. **Cash:** after each ETF fill, WInS cash must be at or above the 'worst case' cash figure; if it is lower, "
+          "stop and find out why. Bonds settle at the end of the day: check cash the next morning. Never below $1,000.",
+          "5. **No repeats, no same-day sells:** a pending order is not a failed order. Check Order History before "
+-         "re-entering anything. Never sell something the day it was bought; log a mistake, fix it another day.", "",
++         "re-entering anything. Never sell something the day it was bought; log a mistake, fix it another day. "
++         "(Portfolio book: orders 5 and 6 are both IBTM on purpose, the 2033 payment and then the floor; they are "
++         "not a repeat. Check each quantity.)", "",
+          "## Order sequence and why", "",
+          "The order is for cash control only. It is not the IPS rule \"latest payments first\": that rule says which "
+          "payments a short 2027 deposit funds, not the order of WInS trades.", "",
+-         "1-5. **iBonds ETFs (IBTR, IBTQ, IBTP, IBTO, IBTM), Friday.** They fill at live prices, so the cash they use "
++         f"1-{n_etf}. **iBonds ETFs (IBTR, IBTQ, IBTP, IBTO, IBTM{', then IBTM again for the floor' if split else ''}), Friday.** "
++         "They fill at live prices, so the cash they use "
+          "is known at once. IBTR is also a small first order, a safe way to learn the order screen. Place them after "
+          "the first hour: thin funds, wide spreads at the open, and the WInS FAQ rule that an order may take at most "
+-         "half of a security's market volume (we read that as the volume traded so far that day: UNVERIFIED).",
+-         "6-10. **Treasury bonds (Nov-2041 ... Feb-2037), Friday.** WInS fills bonds at end-of-day prices, so their "
+-         "cash is known only after the close; sizing them after the iBonds have filled keeps cash safe.",
+-         "11. **VT (Portfolio book only), the next session (Mon 5 Oct ET), once all five bonds show Filled.** It is "
+-         "sized from the cash WInS then shows (`--cash-before-vt`), and WInS Order History shows the payments and the "
+-         "floor bought before any stocks, as the IPS describes.", ""]
++         "half of a security's market volume (we read that as the volume traded so far that day: UNVERIFIED)."
++         + (" In the Portfolio book IBTM is two orders on purpose: order 5 is Laura's 2033 payment and order 6 her "
++            "facility floor, so the floor shows as its own decision in Order History (one extra $25 commission)."
++            if split else ""),
++         f"{n_etf + 1}-{n_etf + 5}. **Treasury bonds (Nov-2041 ... Feb-2037), Friday.** WInS fills bonds at end-of-day "
++         "prices, so their cash is known only after the close; sizing them after the iBonds have filled keeps cash safe."
++         " (Book L: iBonds 1-5 with one IBTM order, bonds 6-10, no VT.)",
++         f"{n_etf + 6}. **VT (Portfolio book only), the next session (Mon 5 Oct ET), once all five bonds show Filled.** "
++         "It is sized from the cash WInS then shows (`--cash-before-vt`), and WInS Order History shows the payments and "
++         "the floor bought before any stocks, as the IPS describes.", ""]
++    if ctx.get("test"):
++        t = ctx["test"]
++        sb, ss = t["split_buyable"], t["split_strips"]
++        L += ["## The ladder test (run before any order; the 'tested' pick)", "",
++              f"- **Zero-coupon (STRIPS) basis** (numbers.yaml headline basis): the ten payments cost "
++              f"**${t['strips']:,.0f}** on 1 Jan 2027 (curve {ctx['curve_date']}, Nov-15 basis, MODEL).",
++              f"- **With the funds and bonds Laura can buy** (strict reading R1(a): the Book L holdings at curve prices, "
++              f"coupons at forward rates, plus $175 of WInS commissions as a trading-cost stand-in; MODEL): "
++              f"**${t['buyable']:,.0f}**, leaving ${t['room']:,.0f} under $300,000; the room is gone after a parallel "
++              f"fall in yields of {t['breakeven_bp']:.1f}bp. Both assume coupons earn today's forward rates.",
++              f"- **Plan split** after both deposits: buyable basis ladder {sb['ladder']:.1%} / floor {sb['floor']:.1%} / "
++              f"stock fund {sb['vt']:.1%} (STRIPS basis {ss['ladder']:.1%} / {ss['floor']:.1%} / {ss['vt']:.1%}; typed "
++              f"65.9 / 24.3 / 8.7). The stock share on the buyable basis was {t['vt_ref']:.1%} at Gate A (28 Sep).",
++              f"- **The Friday rule** (`--plan-split auto`, only if the 1 Oct vote adopts it): "
++              + ("**FIRES**: " if t["fires"] else "does not fire: ")
++              + f"the buyable ladder is {'above' if t['buyable'] > START_CASH else 'under'} $300,000 and the stock share "
++              f"moved {-t['shift'] * 100:+.1f} points since Gate A (limit 1 point). "
++              + (f"Applied here: VT sized to {(SPLIT['vt'] - t['shift']) * 100:.1f}% and the difference added to the "
++                 f"IBTM 2033-payment order." if ctx.get("vt_shift") else
++                 ("Not applied in this run: re-run with `--plan-split auto` if the team adopted the rule."
++                  if t["fires"] else "Tickets keep the typed split."))
++              + (" **The floor itself is short: stop and tell Ray.**" if t["floor_short"] else ""), ""]
+     for book, rows in books.items():
+         L += md_book(book, rows, ctx)
+         L += [f"Details, {book}:", ""] + md_detail(rows)
+@@ -745,14 +911,21 @@ def main():
+     ap.add_argument("--cash-after-etfs", type=float, help="Friday: the cash WInS shows after the five iBonds orders "
+                     "filled; bonds are then re-sized from it (use with --units rule)")
+     ap.add_argument("--cash-before-vt", type=float, help="Portfolio, next session: the cash WInS shows once the bonds "
+-                    "have filled; VT (order 11) is sized from it, never above the plan share")
++                    "have filled; VT (order 12) is sized from it, never above the plan share")
++    ap.add_argument("--plan-split", choices=["typed", "auto"], default="typed",
++                    help="auto: apply the Friday rule of the ladder test (only if the 1 Oct vote adopts it; needs --units rule)")
++    ap.add_argument("--one-ibtm-order", action="store_true",
++                    help="Portfolio: one IBTM order for the 2033 payment and the floor (only if the 1 Oct vote rejects the split)")
+     a = ap.parse_args()
+     td = date.fromisoformat(a.trade_date)
+     if a.cash_after_etfs is not None and a.book == "both":
+         ap.error("--cash-after-etfs needs --book Portfolio or --book BookL (the cash differs by book)")
+     if a.cash_before_vt is not None and a.book != "Portfolio":
+         ap.error("--cash-before-vt needs --book Portfolio (Book L holds no VT)")
++    if a.one_ibtm_order:
++        one_ibtm_order()
+     ctx = locked_context(td) if a.basis == "locked" else friday_context(td, a.wins_prices)
++    ctx["gate_a_vt_buyable"] = gate_a_vt_buyable()   # before any --swap adds securities the Gate A files lack
+     ctx["alternates"] = alternates_check(ctx)
+     ctx["cash_after_etfs"] = a.cash_after_etfs
+     ctx["cash_before_vt"] = a.cash_before_vt
+@@ -762,7 +935,13 @@ def main():
+             ap.error("--swap needs --units rule (the Sheet has no units for an alternate)")
+         old, new = [x.strip() for x in sw.split("=")]
+         add_swap(ctx, old, new)
+-    units = units_sheet() if units_mode == "sheet" else units_rule(ctx)
++    if a.plan_split == "auto" and units_mode != "rule":
++        ap.error("--plan-split auto needs --units rule (it re-sizes VT and the IBTM 2033-payment order)")
++    units = units_sheet(ctx) if units_mode == "sheet" else units_rule(ctx)
++    ctx["test"] = ladder_test(ctx, units["BookL"])
++    if a.plan_split == "auto" and ctx["test"]["fires"]:
++        ctx["vt_shift"] = min(ctx["test"]["shift"], SPLIT["vt"])   # never below zero stock
++        units = units_rule(ctx)
+     trims = []
+     books = {}
+     for book in (("Portfolio", "BookL") if a.book == "both" else (a.book,)):
+@@ -776,11 +955,12 @@ def main():
+     numbers = yaml.safe_load(open(os.path.join(ROOT, "rab/numbers.yaml")))["numbers"]
+     checks = run_checks(books, ctx, numbers, units_mode)
+     if (a.basis == "locked" and units_mode == "sheet" and a.cash_after_etfs is None and a.cash_before_vt is None
+-            and a.book == "both" and not a.swap):
++            and a.book == "both" and not a.swap and a.plan_split == "typed" and not a.one_ibtm_order):
+         csv_p, md_p = os.path.join(HERE, "tickets.csv"), a.md or os.path.join(HERE, "tickets.md")
+     else:
+         tag = f"{ctx['curve_date'].isoformat()}_{a.basis}_{units_mode}" + ("" if a.book == "both" else f"_{a.book}") \
+-            + ("_swap" if a.swap else "") + ("_vt" if a.cash_before_vt is not None else "")
++            + ("_swap" if a.swap else "") + ("_vt" if a.cash_before_vt is not None else "") \
++            + ("_auto" if a.plan_split == "auto" else "") + ("_oneibtm" if a.one_ibtm_order else "")
+         csv_p, md_p = os.path.join(HERE, "out", f"tickets_{tag}.csv"), a.md or os.path.join(HERE, "out", f"tickets_{tag}.md")
+     write_csv(csv_p, books)
+     write_md(md_p, books, ctx, checks, trims, units_mode)
+@@ -788,20 +968,20 @@ def main():
+     words = text_check([md_p, csv_p] + [p for p in others if os.path.exists(p)])
+     checks += words
+     write_md(md_p, books, ctx, checks, trims, units_mode)
+-    # plan-split drift warning (information only; the split is the team's typed input). M1_METHOD.md section F.
+-    L = m1.liability(ctx["cv"], "nov15")
+-    y1, y5 = float(ctx["row"]["1 Yr"]) / 100, float(ctx["row"]["5 Yr"]) / 100
+-    left = START_CASH - L["fwd_2027"]
+-    G = left * (1 + y1) + 150_000
+-    floor = 150_000 / (1 + y5) ** 5
+-    tot = L["fwd_2028"] + G
+-    split = {"ladder": L["fwd_2028"] / tot, "floor": floor / tot, "vt": (G - floor) / tot}
+-    print(f"{ctx['label']}\ncurve {ctx['curve_date']}: ten payments cost ${L['fwd_2027']:,.0f} on 1 Jan 2027 "
++    # the ladder test (the 'tested' pick): two bases, the plan split and the Friday rule. M1_METHOD.md section F.
++    t = ctx["test"]
++    split = t["split_strips"]
++    print(f"{ctx['label']}\ncurve {ctx['curve_date']}: ten payments cost ${t['strips']:,.0f} on 1 Jan 2027 "
+           f"(Nov-15 basis, MODEL); plan split ladder {split['ladder']:.1%} / floor {split['floor']:.1%} / stock fund "
+           f"{split['vt']:.1%} vs typed 65.9 / 25.3 (24.3 + 1 cash) / 8.7")
+-    if abs(split["vt"] - SPLIT["vt"]) > 0.01:
+-        print("  NOTE: the stock-fund share moved more than 1 point from the typed split: a team decision, "
+-              "not applied here (see october_trade.md trigger B)")
++    print(f"  with the funds and bonds Laura can buy (R1(a), Book L at curve prices, MODEL): ${t['buyable']:,.0f} on "
++          f"1 Jan 2027, room ${t['room']:,.0f}, gone after a {t['breakeven_bp']:.1f}bp fall; stock share "
++          f"{t['split_buyable']['vt']:.1%} (Gate A {t['vt_ref']:.1%}, moved {-t['shift'] * 100:+.1f} points)")
++    print("  Friday rule (--plan-split auto): " + ("FIRES" if t["fires"] else "does not fire")
++          + (f"; applied: VT {(SPLIT['vt'] - ctx['vt_shift']) * 100:.1f}% of $300,000, the difference to IBTM order 5"
++             if ctx.get("vt_shift") else ("; NOT applied (a team decision: re-run with --plan-split auto if adopted)"
++                                           if t["fires"] else ""))
++          + ("; THE FLOOR IS SHORT: stop and tell Ray" if t["floor_short"] else ""))
+     for book, rows in books.items():
+         tl = sum(r["cost_locked"] for r in rows)
+         print(f"{book}: {len(rows)} tickets, total ${tl:,.2f}, cash left ${rows[-1]['cash_after_locked']:,.2f}; worst-case cash "
+diff --git a/rab/trades/tickets.csv b/rab/trades/tickets.csv
+index e51095f..a5f2bc5 100644
+--- a/rab/trades/tickets.csv
++++ b/rab/trades/tickets.csv
+@@ -3,18 +3,19 @@ Portfolio,1,IBTR,IBTR,ETF,iShares iBonds Dec 2036 Term Treasury ETF,UNVERIFIED (
+ Portfolio,2,IBTQ,IBTQ,ETF,iShares iBonds Dec 2035 Term Treasury ETF,UNVERIFIED (issuer name),,about 15 Dec 2035,Jan 2036 payment,886,shares,23.7,2026-09-28,iShares closing price 28 Sep (Nasdaq 23.6951),OUTSIDE SOURCE; WInS price not recorded,,,23.9,23.5,0.8076,25,21023.2,20812.968,21233.432,21023.2,259079.26,21200.4,258732.86,86882.4667,91544.0,18278,0.0051,0.0097,0.0485,,n/a (ETF),,,Check the name says Dec 2035.,IBTP (ends a year early),
+ Portfolio,3,IBTP,IBTP,ETF,iShares iBonds Dec 2034 Term Treasury ETF,UNVERIFIED (issuer name),,about 15 Dec 2034,Jan 2035 payment,921,shares,24.1,2026-09-28,iShares closing price 28 Sep (Nasdaq 24.1006),OUTSIDE SOURCE; WInS price not recorded,,,24.28,23.92,0.7302,25,22221.1,21998.889,22443.311,22221.1,236858.16,22386.88,236345.98,94220.5333,84808.5,26563,0.0049,0.0109,0.0347,,n/a (ETF),,,Check the name says Dec 2034.,IBTO (ends a year early),
+ Portfolio,4,IBTO,IBTO,ETF,iShares iBonds Dec 2033 Term Treasury ETF,UNVERIFIED (issuer name),,about 15 Dec 2033,Jan 2034 payment,1016,shares,23.02,2026-09-28,iShares closing price 28 Sep (= Nasdaq consolidated close 23.015 rounded),OUTSIDE SOURCE; WInS price not recorded,,,23.19,22.85,0.7008,25,23413.32,23179.1868,23647.4532,23413.32,213444.84,23586.04,212759.94,211074.0333,158094.0,49271,0.0024,0.0064,0.0206,,n/a (ETF),,,"NOT IBTN: in WInS, IBTN is INSCORP Inc (SEEN 29 Sep). Type IBTO and read the name.",IBTM (ends a year early),
+-Portfolio,5,IBTM,IBTM,ETF,iShares iBonds Dec 2032 Term Treasury ETF,SEEN 2026-09-29,,about 15 Dec 2032,Jan 2033 payment + facility floor (both jobs in one holding),4486,shares,21.76,2026-09-28,WInS close (tab WInS Notes),SEEN 2026-09-29,,,21.9,21.62,0.6028,25,97640.36,96663.9564,98616.7636,97640.36,115804.48,98268.4,114491.54,186480.1,159771.5,85726,0.012,0.0281,0.0523,,n/a (ETF),,,Largest order. Check the name says Dec 2032.,"none dated: no WInS Treasury matures between Feb 2031 and Feb 2036 (SEEN 29 Sep); if it cannot be bought, keep the cash and retry next session",
+-Portfolio,6,T 3.125% 15-Nov-2041,(bond: pick by coupon + maturity),Treasury,U.S. Treasury bond 3.125% maturing 15 Nov 2041,UNVERIFIED (WInS string not recorded),912810QT8,15 Nov 2041,Jan 2042 payment,19000,face value $ (unit UNVERIFIED in WInS),76.367,2026-09-28,Sheet tab Book L (typed-in WInS 28 Sep clean + accrued),SEEN via Sheet 2026-09-30,1.156,1.1889,77.239,75.507,1.1419,10,14745.6132,14582.2051,14916.1454,14739.37,101065.11,14916.1454,99575.3946,,,,,,,-1.8881,PASS,74.081,78.401,Same date as the 2.000% Nov-2041: check the coupon.,"2.000% 15 Nov 2041 (912810TC2), if listed and within 25bp",bonds after the iBonds: WInS fills them at end-of-day prices
+-Portfolio,7,T 4.250% 15-Nov-2040,(bond: pick by coupon + maturity),Treasury,U.S. Treasury bond 4.250% maturing 15 Nov 2040,UNVERIFIED (WInS string not recorded),912810QL5,15 Nov 2040,Jan 2041 payment,17000,face value $ (unit UNVERIFIED in WInS),89.186,2026-09-28,Sheet tab Book L (typed-in WInS 28 Sep clean + accrued),SEEN via Sheet 2026-09-30,1.572,1.6168,90.107,88.277,1.0325,10,15446.4841,15291.9278,15608.9219,15438.86,85626.25,15608.9219,83966.4727,,,,,,,-5.145,PASS,86.48,91.026,Same date as the 1.375% Nov-2040: check the coupon.,"1.375% 15 Nov 2040 (912810ST6), if listed and within 25bp",
+-Portfolio,8,T 4.375% 15-Nov-2039,(bond: pick by coupon + maturity),Treasury,U.S. Treasury bond 4.375% maturing 15 Nov 2039,UNVERIFIED (WInS string not recorded),912810QD3,15 Nov 2039,Jan 2040 payment,18000,face value $ (unit UNVERIFIED in WInS),91.363,2026-09-28,Sheet tab Book L (typed-in WInS 28 Sep clean + accrued),SEEN via Sheet 2026-09-30,1.606,1.6644,92.255,90.482,0.9764,10,16754.9324,16587.3831,16922.4817,16744.42,68881.83,16921.928,67044.5447,,,,,,,-6.6085,PASS,88.613,93.012,Not the 4.375% Feb-2038 (stale price on 29 Sep): check the maturity.,"4.500% 15 Aug 2039 (912810QC5), if listed and within 25bp",
+-Portfolio,9,T 4.500% 15-May-2038,(bond: pick by coupon + maturity),Treasury,U.S. Treasury bond 4.500% maturing 15 May 2038,UNVERIFIED (WInS string not recorded),912810PX0,15 May 2038,Jan 2039 payment,19000,face value $ (unit UNVERIFIED in WInS),94.281,2026-09-28,Sheet tab Book L (typed-in WInS 28 Sep clean + accrued),SEEN via Sheet 2026-09-30,0.53,1.712,95.121,93.45,0.8915,10,18248.6617,18066.1751,18431.1484,18024.09,50857.74,18415.3221,48629.2226,,,,,,,-14.391,PASS,91.057,95.173,"Not the 4.500% Feb-2036 or Aug-2039: check the maturity. Sheet accrued 0.530 is a typo (1.66 on 28 Sep, 1.71 on 2 Oct); use what WInS shows.",4.375% 15 Feb 2038 (912810PW2) only if its WInS price passes the yield check (stale on 29 Sep); else 5.000% 15 May 2037 (912810PU6),
+-Portfolio,10,T 4.750% 15-Feb-2037,(bond: pick by coupon + maturity),Treasury,U.S. Treasury bond 4.750% maturing 15 Feb 2037,UNVERIFIED (WInS string not recorded),912810PT9,15 Feb 2037,Jan 2038 payment,20000,face value $ (unit UNVERIFIED in WInS),97.152,2026-09-28,Sheet tab Book L (typed-in WInS 28 Sep clean + accrued),SEEN via Sheet 2026-09-30,0.56,0.6196,97.94,96.372,0.8113,10,19564.313,19368.6699,19759.9562,19552.4,31305.34,19729.6888,28899.5338,,,,,,,-15.2691,PASS,94.055,97.919,Check the maturity says 2037.,"5.000% 15 May 2037 (912810PU6), if listed and within 25bp",
+-Portfolio,11,VT,VT,ETF,Vanguard Total World Stock ETF,SEEN 2026-09-29,,-,Branch: the world stock fund (growth money),164,shares,158.81,2026-09-28,WInS close (tab WInS Notes),SEEN 2026-09-29,,,161.18,156.44,1.4892,25,26069.84,25681.16,26458.52,26069.84,5235.5,26458.52,2441.0138,2223656.8,2044270.5,1456477,0.0,0.0001,0.0001,,n/a (ETF),,,Not VTI (U.S. only). Order 11: place it only in the session after all five bonds show Filled (Mon 5 Oct ET); re-run with --cash-before-vt first.,VTI + VXUS in VT's own U.S./non-U.S. mix (two trades),"last, in the next session: sized from the cash left after the bonds fill (payments and floor first)"
++Portfolio,5,IBTM,IBTM,ETF,iShares iBonds Dec 2032 Term Treasury ETF,SEEN 2026-09-29,,about 15 Dec 2032,Jan 2033 payment (the first of the ten),1136,shares,21.76,2026-09-28,WInS close (tab WInS Notes),SEEN 2026-09-29,,,21.9,21.62,0.6028,25,24744.36,24496.9164,24991.8036,24744.36,188700.48,24903.4,187856.54,186480.1,159771.5,85726,0.003,0.0071,0.0133,,n/a (ETF),,,Check the name says Dec 2032. Portfolio book: IBTM is ordered twice on purpose (5: this payment; 6: the floor).,"none dated: no WInS Treasury matures between Feb 2031 and Feb 2036 (SEEN 29 Sep); if it cannot be bought, keep the cash and retry next session",
++Portfolio,6,IBTM_F,IBTM,ETF,iShares iBonds Dec 2032 Term Treasury ETF,SEEN 2026-09-29,,about 15 Dec 2032,facility floor for her Jan 2033 contribution (2028 deposit; second IBTM order),3350,shares,21.76,2026-09-28,WInS close (tab WInS Notes),SEEN 2026-09-29,,,21.9,21.62,0.6028,25,72921.0,72191.79,73650.21,72921.0,115779.48,73390.0,114466.54,186480.1,159771.5,85726,0.009,0.021,0.0391,,n/a (ETF),,,"The second IBTM order, on purpose: type IBTM again. Not a repeat of order 5: Order History must show order 5 first; use this quantity.",one IBTM order for both jobs only if the 1 Oct vote rejects the split (--one-ibtm-order),"the floor as its own order, after the 2033 payment and before any stocks (in Laura's plan it is bought with the 2028 deposit)"
++Portfolio,7,T 3.125% 15-Nov-2041,(bond: pick by coupon + maturity),Treasury,U.S. Treasury bond 3.125% maturing 15 Nov 2041,UNVERIFIED (WInS string not recorded),912810QT8,15 Nov 2041,Jan 2042 payment,19000,face value $ (unit UNVERIFIED in WInS),76.367,2026-09-28,Sheet tab Book L (typed-in WInS 28 Sep clean + accrued),SEEN via Sheet 2026-09-30,1.156,1.1889,77.239,75.507,1.1419,10,14745.6132,14582.2051,14916.1454,14739.37,101040.11,14916.1454,99550.3946,,,,,,,-1.8881,PASS,74.081,78.401,Same date as the 2.000% Nov-2041: check the coupon.,"2.000% 15 Nov 2041 (912810TC2), if listed and within 25bp",bonds after the iBonds: WInS fills them at end-of-day prices
++Portfolio,8,T 4.250% 15-Nov-2040,(bond: pick by coupon + maturity),Treasury,U.S. Treasury bond 4.250% maturing 15 Nov 2040,UNVERIFIED (WInS string not recorded),912810QL5,15 Nov 2040,Jan 2041 payment,17000,face value $ (unit UNVERIFIED in WInS),89.186,2026-09-28,Sheet tab Book L (typed-in WInS 28 Sep clean + accrued),SEEN via Sheet 2026-09-30,1.572,1.6168,90.107,88.277,1.0325,10,15446.4841,15291.9278,15608.9219,15438.86,85601.25,15608.9219,83941.4727,,,,,,,-5.145,PASS,86.48,91.026,Same date as the 1.375% Nov-2040: check the coupon.,"1.375% 15 Nov 2040 (912810ST6), if listed and within 25bp",
++Portfolio,9,T 4.375% 15-Nov-2039,(bond: pick by coupon + maturity),Treasury,U.S. Treasury bond 4.375% maturing 15 Nov 2039,UNVERIFIED (WInS string not recorded),912810QD3,15 Nov 2039,Jan 2040 payment,18000,face value $ (unit UNVERIFIED in WInS),91.363,2026-09-28,Sheet tab Book L (typed-in WInS 28 Sep clean + accrued),SEEN via Sheet 2026-09-30,1.606,1.6644,92.255,90.482,0.9764,10,16754.9324,16587.3831,16922.4817,16744.42,68856.83,16921.928,67019.5447,,,,,,,-6.6085,PASS,88.613,93.012,Not the 4.375% Feb-2038 (stale price on 29 Sep): check the maturity.,"4.500% 15 Aug 2039 (912810QC5), if listed and within 25bp",
++Portfolio,10,T 4.500% 15-May-2038,(bond: pick by coupon + maturity),Treasury,U.S. Treasury bond 4.500% maturing 15 May 2038,UNVERIFIED (WInS string not recorded),912810PX0,15 May 2038,Jan 2039 payment,19000,face value $ (unit UNVERIFIED in WInS),94.281,2026-09-28,Sheet tab Book L (typed-in WInS 28 Sep clean + accrued),SEEN via Sheet 2026-09-30,0.53,1.712,95.121,93.45,0.8915,10,18248.6617,18066.1751,18431.1484,18024.09,50832.74,18415.3221,48604.2226,,,,,,,-14.391,PASS,91.057,95.173,"Not the 4.500% Feb-2036 or Aug-2039: check the maturity. Sheet accrued 0.530 is a typo (1.66 on 28 Sep, 1.71 on 2 Oct); use what WInS shows.",4.375% 15 Feb 2038 (912810PW2) only if its WInS price passes the yield check (stale on 29 Sep); else 5.000% 15 May 2037 (912810PU6),
++Portfolio,11,T 4.750% 15-Feb-2037,(bond: pick by coupon + maturity),Treasury,U.S. Treasury bond 4.750% maturing 15 Feb 2037,UNVERIFIED (WInS string not recorded),912810PT9,15 Feb 2037,Jan 2038 payment,20000,face value $ (unit UNVERIFIED in WInS),97.152,2026-09-28,Sheet tab Book L (typed-in WInS 28 Sep clean + accrued),SEEN via Sheet 2026-09-30,0.56,0.6196,97.94,96.372,0.8113,10,19564.313,19368.6699,19759.9562,19552.4,31280.34,19729.6888,28874.5338,,,,,,,-15.2691,PASS,94.055,97.919,Check the maturity says 2037.,"5.000% 15 May 2037 (912810PU6), if listed and within 25bp",
++Portfolio,12,VT,VT,ETF,Vanguard Total World Stock ETF,SEEN 2026-09-29,,-,Branch: the world stock fund (growth money),164,shares,158.81,2026-09-28,WInS close (tab WInS Notes),SEEN 2026-09-29,,,161.18,156.44,1.4892,25,26069.84,25681.16,26458.52,26069.84,5210.5,26458.52,2416.0138,2223656.8,2044270.5,1456477,0.0,0.0001,0.0001,,n/a (ETF),,,Not VTI (U.S. only). Order 12: place it only in the session after all five bonds show Filled (Mon 5 Oct ET); re-run with --cash-before-vt first.,VTI + VXUS in VT's own U.S./non-U.S. mix (two trades),"last, in the next session: sized from the cash left after the bonds fill (payments and floor first)"
+ BookL,1,IBTR,IBTR,ETF,iShares iBonds Dec 2036 Term Treasury ETF,UNVERIFIED (issuer name),,about 15 Dec 2036,Jan 2037 payment,1252,shares,23.49,2026-09-28,iShares closing price 28 Sep (Nasdaq 23.485),OUTSIDE SOURCE; WInS price not recorded,,,23.69,23.29,0.8142,25,29434.48,29140.1352,29728.8248,29434.48,270565.52,29684.88,270315.12,52804.2333,33507.0,7639,0.0119,0.0374,0.1639,,n/a (ETF),,,Thinnest fund (about 1.6m shares outstanding). Check the name says Dec 2036.,"IBTQ (ends a year early, the money waits); the 4.5% Feb-2036 bond only if its WInS price passes the yield check (stale on 29 Sep)","iBonds first (live prices, so cash is known at once); a small first order to learn the screen"
+ BookL,2,IBTQ,IBTQ,ETF,iShares iBonds Dec 2035 Term Treasury ETF,UNVERIFIED (issuer name),,about 15 Dec 2035,Jan 2036 payment,1311,shares,23.7,2026-09-28,iShares closing price 28 Sep (Nasdaq 23.6951),OUTSIDE SOURCE; WInS price not recorded,,,23.9,23.5,0.8076,25,31095.7,30784.743,31406.657,31095.7,239469.82,31357.9,238957.22,86882.4667,91544.0,18278,0.0075,0.0143,0.0717,,n/a (ETF),,,Check the name says Dec 2035.,IBTP (ends a year early),
+ BookL,3,IBTP,IBTP,ETF,iShares iBonds Dec 2034 Term Treasury ETF,UNVERIFIED (issuer name),,about 15 Dec 2034,Jan 2035 payment,1362,shares,24.1,2026-09-28,iShares closing price 28 Sep (Nasdaq 24.1006),OUTSIDE SOURCE; WInS price not recorded,,,24.28,23.92,0.7302,25,32849.2,32520.708,33177.692,32849.2,206620.62,33094.36,205862.86,94220.5333,84808.5,26563,0.0072,0.0161,0.0513,,n/a (ETF),,,Check the name says Dec 2034.,IBTO (ends a year early),
+ BookL,4,IBTO,IBTO,ETF,iShares iBonds Dec 2033 Term Treasury ETF,UNVERIFIED (issuer name),,about 15 Dec 2033,Jan 2034 payment,1503,shares,23.02,2026-09-28,iShares closing price 28 Sep (= Nasdaq consolidated close 23.015 rounded),OUTSIDE SOURCE; WInS price not recorded,,,23.19,22.85,0.7008,25,34624.06,34277.8194,34970.3006,34624.06,171996.56,34879.57,170983.29,211074.0333,158094.0,49271,0.0036,0.0095,0.0305,,n/a (ETF),,,"NOT IBTN: in WInS, IBTN is INSCORP Inc (SEEN 29 Sep). Type IBTO and read the name.",IBTM (ends a year early),
+-BookL,5,IBTM,IBTM,ETF,iShares iBonds Dec 2032 Term Treasury ETF,SEEN 2026-09-29,,about 15 Dec 2032,Jan 2033 payment,1678,shares,21.76,2026-09-28,WInS close (tab WInS Notes),SEEN 2026-09-29,,,21.9,21.62,0.6028,25,36538.28,36172.8972,36903.6628,36538.28,135458.28,36773.2,134210.09,186480.1,159771.5,85726,0.0045,0.0105,0.0196,,n/a (ETF),,,Largest order. Check the name says Dec 2032.,"none dated: no WInS Treasury matures between Feb 2031 and Feb 2036 (SEEN 29 Sep); if it cannot be bought, keep the cash and retry next session",
++BookL,5,IBTM,IBTM,ETF,iShares iBonds Dec 2032 Term Treasury ETF,SEEN 2026-09-29,,about 15 Dec 2032,Jan 2033 payment,1678,shares,21.76,2026-09-28,WInS close (tab WInS Notes),SEEN 2026-09-29,,,21.9,21.62,0.6028,25,36538.28,36172.8972,36903.6628,36538.28,135458.28,36773.2,134210.09,186480.1,159771.5,85726,0.0045,0.0105,0.0196,,n/a (ETF),,,Check the name says Dec 2032. Portfolio book: IBTM is ordered twice on purpose (5: this payment; 6: the floor).,"none dated: no WInS Treasury matures between Feb 2031 and Feb 2036 (SEEN 29 Sep); if it cannot be bought, keep the cash and retry next session",
+ BookL,6,T 3.125% 15-Nov-2041,(bond: pick by coupon + maturity),Treasury,U.S. Treasury bond 3.125% maturing 15 Nov 2041,UNVERIFIED (WInS string not recorded),912810QT8,15 Nov 2041,Jan 2042 payment,29000,face value $ (unit UNVERIFIED in WInS),76.367,2026-09-28,Sheet tab Book L (typed-in WInS 28 Sep clean + accrued),SEEN via Sheet 2026-09-30,1.156,1.1889,77.239,75.507,1.1419,10,22501.199,22251.7867,22761.4851,22491.67,112966.61,22761.4851,111448.6049,,,,,,,-1.8881,PASS,74.081,78.401,Same date as the 2.000% Nov-2041: check the coupon.,"2.000% 15 Nov 2041 (912810TC2), if listed and within 25bp",bonds after the iBonds: WInS fills them at end-of-day prices
+ BookL,7,T 4.250% 15-Nov-2040,(bond: pick by coupon + maturity),Treasury,U.S. Treasury bond 4.250% maturing 15 Nov 2040,UNVERIFIED (WInS string not recorded),912810QL5,15 Nov 2040,Jan 2041 payment,26000,face value $ (unit UNVERIFIED in WInS),89.186,2026-09-28,Sheet tab Book L (typed-in WInS 28 Sep clean + accrued),SEEN via Sheet 2026-09-30,1.572,1.6168,90.107,88.277,1.0325,10,23618.7404,23382.3602,23867.1747,23607.08,89359.53,23867.1747,87581.4302,,,,,,,-5.145,PASS,86.48,91.026,Same date as the 1.375% Nov-2040: check the coupon.,"1.375% 15 Nov 2040 (912810ST6), if listed and within 25bp",
+ BookL,8,T 4.375% 15-Nov-2039,(bond: pick by coupon + maturity),Treasury,U.S. Treasury bond 4.375% maturing 15 Nov 2039,UNVERIFIED (WInS string not recorded),912810QD3,15 Nov 2039,Jan 2040 payment,27000,face value $ (unit UNVERIFIED in WInS),91.363,2026-09-28,Sheet tab Book L (typed-in WInS 28 Sep clean + accrued),SEEN via Sheet 2026-09-30,1.606,1.6644,92.255,90.482,0.9764,10,25127.3986,24876.1246,25378.6726,25111.63,64247.9,25377.892,62203.5382,,,,,,,-6.6085,PASS,88.613,93.012,Not the 4.375% Feb-2038 (stale price on 29 Sep): check the maturity.,"4.500% 15 Aug 2039 (912810QC5), if listed and within 25bp",
+diff --git a/rab/trades/tickets.md b/rab/trades/tickets.md
+index 9fc5730..24d7192 100644
+--- a/rab/trades/tickets.md
++++ b/rab/trades/tickets.md
+@@ -10,17 +10,24 @@ AI-generated trade tickets (Claude Code, RAB Kit WS6) for Team Caplet. Nothing h
+ 2. **Total:** stop, do not submit, if the Preview total is outside the stop band in the detail table (the larger of 1% and the price band). Unit test: quantity x the price WInS shows (bonds: clean + accrued, per $100) + commission must be within 1% of the Preview total. A 10x or 1,000x gap means the bond unit is wrong (PM-02).
+ 3. **Price:** do not pay above the max price. If a limit order exists, set the limit at the ask shown, never above the max. Bonds: the WInS price must sit inside the 25bp curve band, or use the alternate.
+ 4. **Cash:** after each ETF fill, WInS cash must be at or above the 'worst case' cash figure; if it is lower, stop and find out why. Bonds settle at the end of the day: check cash the next morning. Never below $1,000.
+-5. **No repeats, no same-day sells:** a pending order is not a failed order. Check Order History before re-entering anything. Never sell something the day it was bought; log a mistake, fix it another day.
++5. **No repeats, no same-day sells:** a pending order is not a failed order. Check Order History before re-entering anything. Never sell something the day it was bought; log a mistake, fix it another day. (Portfolio book: orders 5 and 6 are both IBTM on purpose, the 2033 payment and then the floor; they are not a repeat. Check each quantity.)
+ 
+ ## Order sequence and why
+ 
+ The order is for cash control only. It is not the IPS rule "latest payments first": that rule says which payments a short 2027 deposit funds, not the order of WInS trades.
+ 
+-1-5. **iBonds ETFs (IBTR, IBTQ, IBTP, IBTO, IBTM), Friday.** They fill at live prices, so the cash they use is known at once. IBTR is also a small first order, a safe way to learn the order screen. Place them after the first hour: thin funds, wide spreads at the open, and the WInS FAQ rule that an order may take at most half of a security's market volume (we read that as the volume traded so far that day: UNVERIFIED).
+-6-10. **Treasury bonds (Nov-2041 ... Feb-2037), Friday.** WInS fills bonds at end-of-day prices, so their cash is known only after the close; sizing them after the iBonds have filled keeps cash safe.
+-11. **VT (Portfolio book only), the next session (Mon 5 Oct ET), once all five bonds show Filled.** It is sized from the cash WInS then shows (`--cash-before-vt`), and WInS Order History shows the payments and the floor bought before any stocks, as the IPS describes.
++1-6. **iBonds ETFs (IBTR, IBTQ, IBTP, IBTO, IBTM, then IBTM again for the floor), Friday.** They fill at live prices, so the cash they use is known at once. IBTR is also a small first order, a safe way to learn the order screen. Place them after the first hour: thin funds, wide spreads at the open, and the WInS FAQ rule that an order may take at most half of a security's market volume (we read that as the volume traded so far that day: UNVERIFIED). In the Portfolio book IBTM is two orders on purpose: order 5 is Laura's 2033 payment and order 6 her facility floor, so the floor shows as its own decision in Order History (one extra $25 commission).
++7-11. **Treasury bonds (Nov-2041 ... Feb-2037), Friday.** WInS fills bonds at end-of-day prices, so their cash is known only after the close; sizing them after the iBonds have filled keeps cash safe. (Book L: iBonds 1-5 with one IBTM order, bonds 6-10, no VT.)
++12. **VT (Portfolio book only), the next session (Mon 5 Oct ET), once all five bonds show Filled.** It is sized from the cash WInS then shows (`--cash-before-vt`), and WInS Order History shows the payments and the floor bought before any stocks, as the IPS describes.
+ 
+-### Portfolio tab book (current plan, 11 trades: 1-10 on Friday, VT in the session after the bonds fill)
++## The ladder test (run before any order; the 'tested' pick)
++
++- **Zero-coupon (STRIPS) basis** (numbers.yaml headline basis): the ten payments cost **$292,418** on 1 Jan 2027 (curve 2026-09-28, Nov-15 basis, MODEL).
++- **With the funds and bonds Laura can buy** (strict reading R1(a): the Book L holdings at curve prices, coupons at forward rates, plus $175 of WInS commissions as a trading-cost stand-in; MODEL): **$295,115**, leaving $4,885 under $300,000; the room is gone after a parallel fall in yields of 22.0bp. Both assume coupons earn today's forward rates.
++- **Plan split** after both deposits: buyable basis ladder 66.6% / floor 25.2% / stock fund 8.2% (STRIPS basis 66.0% / 25.2% / 8.8%; typed 65.9 / 24.3 / 8.7). The stock share on the buyable basis was 8.2% at Gate A (28 Sep).
++- **The Friday rule** (`--plan-split auto`, only if the 1 Oct vote adopts it): does not fire: the buyable ladder is under $300,000 and the stock share moved -0.0 points since Gate A (limit 1 point). Tickets keep the typed split.
++
++### Portfolio tab book (current plan, 12 trades: 1-11 on Friday, VT in the session after the bonds fill)
+ 
+ | # | Ticker or bond | Exact WInS name to look for | Serves (Laura's plan) | Quantity | Reference price (as of) | Max price | Commission | Expected Preview total | Cash after: expected / worst case | Size vs 2x-volume limit; vs median day | Yield vs curve |
+ |---|---|---|---|---|---|---|---|---|---|---|---|
+@@ -28,18 +35,19 @@ The order is for cash control only. It is not the IPS rule "latest payments firs
+ | 2 | **IBTQ** | iShares iBonds Dec 2035 Term Treasury ETF [UNVERIFIED (issuer name)] | Jan 2036 payment | 886 shares | $23.70 (iShares close, 2026-09-28) | $23.90 | $25 | $21,023.20 | $259,079.26 / $258,732.86 | 0.5%; 1.0% PASS | - |
+ | 3 | **IBTP** | iShares iBonds Dec 2034 Term Treasury ETF [UNVERIFIED (issuer name)] | Jan 2035 payment | 921 shares | $24.10 (iShares close, 2026-09-28) | $24.28 | $25 | $22,221.10 | $236,858.16 / $236,345.98 | 0.5%; 1.1% PASS | - |
+ | 4 | **IBTO** | iShares iBonds Dec 2033 Term Treasury ETF [UNVERIFIED (issuer name)] | Jan 2034 payment | 1,016 shares | $23.02 (iShares close, 2026-09-28) | $23.19 | $25 | $23,413.32 | $213,444.84 / $212,759.94 | 0.2%; 0.6% PASS | - |
+-| 5 | **IBTM** | iShares iBonds Dec 2032 Term Treasury ETF [SEEN 2026-09-29] | Jan 2033 payment + facility floor (both jobs in one holding) | 4,486 shares | $21.76 (WInS close, 2026-09-28) | $21.90 | $25 | $97,640.36 | $115,804.48 / $114,491.54 | 1.2%; 2.8% PASS | - |
+-| 6 | bond | U.S. Treasury bond 3.125% maturing 15 Nov 2041, CUSIP 912810QT8 [UNVERIFIED (WInS string not recorded)] | Jan 2042 payment | $19,000 face | 76.367 clean (2026-09-28) + 1.189 accrued on 2 Oct, per $100 | 77.239 clean | $10 | $14,745.61 | $101,058.87 / $99,575.39 | WInS shows no bond volume (UNVERIFIED) | -1.9bp PASS |
+-| 7 | bond | U.S. Treasury bond 4.250% maturing 15 Nov 2040, CUSIP 912810QL5 [UNVERIFIED (WInS string not recorded)] | Jan 2041 payment | $17,000 face | 89.186 clean (2026-09-28) + 1.617 accrued on 2 Oct, per $100 | 90.107 clean | $10 | $15,446.48 | $85,612.38 / $83,966.47 | WInS shows no bond volume (UNVERIFIED) | -5.1bp PASS |
+-| 8 | bond | U.S. Treasury bond 4.375% maturing 15 Nov 2039, CUSIP 912810QD3 [UNVERIFIED (WInS string not recorded)] | Jan 2040 payment | $18,000 face | 91.363 clean (2026-09-28) + 1.664 accrued on 2 Oct, per $100 | 92.255 clean | $10 | $16,754.93 | $68,857.45 / $67,044.54 | WInS shows no bond volume (UNVERIFIED) | -6.6bp PASS |
+-| 9 | bond | U.S. Treasury bond 4.500% maturing 15 May 2038, CUSIP 912810PX0 [UNVERIFIED (WInS string not recorded)] | Jan 2039 payment | $19,000 face | 94.281 clean (2026-09-28) + 1.712 accrued on 2 Oct, per $100 (Sheet records 0.530: wrong) | 95.121 clean | $10 | $18,248.66 | $50,608.79 / $48,629.22 | WInS shows no bond volume (UNVERIFIED) | -14.4bp PASS |
+-| 10 | bond | U.S. Treasury bond 4.750% maturing 15 Feb 2037, CUSIP 912810PT9 [UNVERIFIED (WInS string not recorded)] | Jan 2038 payment | $20,000 face | 97.152 clean (2026-09-28) + 0.620 accrued on 2 Oct, per $100 | 97.940 clean | $10 | $19,564.31 | $31,044.48 / $28,899.53 | WInS shows no bond volume (UNVERIFIED) | -15.3bp PASS |
+-| 11 | **VT** | Vanguard Total World Stock ETF [SEEN 2026-09-29] | Branch: the world stock fund (growth money) | 164 shares | $158.81 (WInS close, 2026-09-28) | $161.18 | $25 | $26,069.84 | $4,974.64 / $2,441.01 | <0.1%; <0.1% PASS | - |
+-
+-- Total at the reference prices with the accrued interest recorded in the Sheet: **$294,764.50**, cash left **$5,235.50** (1.7%).
+-- Expected on the trade date (bond accrued interest recomputed to 2026-10-02): $295,025.36, cash $4,974.64 (the 'expected' cash column).
+-- Worst case (every ETF at its max price, every bond at its max clean price, accrued to 2026-10-05): $297,558.99, cash $2,441.01.
+-- 11 trades; commissions $200.
++| 5 | **IBTM** | iShares iBonds Dec 2032 Term Treasury ETF [SEEN 2026-09-29] | Jan 2033 payment (the first of the ten) | 1,136 shares | $21.76 (WInS close, 2026-09-28) | $21.90 | $25 | $24,744.36 | $188,700.48 / $187,856.54 | 0.3%; 0.7% PASS | - |
++| 6 | **IBTM_F** | iShares iBonds Dec 2032 Term Treasury ETF [SEEN 2026-09-29] | facility floor for her Jan 2033 contribution (2028 deposit; second IBTM order) | 3,350 shares | $21.76 (WInS close, 2026-09-28) | $21.90 | $25 | $72,921.00 | $115,779.48 / $114,466.54 | 0.9%; 2.1% PASS | - |
++| 7 | bond | U.S. Treasury bond 3.125% maturing 15 Nov 2041, CUSIP 912810QT8 [UNVERIFIED (WInS string not recorded)] | Jan 2042 payment | $19,000 face | 76.367 clean (2026-09-28) + 1.189 accrued on 2 Oct, per $100 | 77.239 clean | $10 | $14,745.61 | $101,033.87 / $99,550.39 | WInS shows no bond volume (UNVERIFIED) | -1.9bp PASS |
++| 8 | bond | U.S. Treasury bond 4.250% maturing 15 Nov 2040, CUSIP 912810QL5 [UNVERIFIED (WInS string not recorded)] | Jan 2041 payment | $17,000 face | 89.186 clean (2026-09-28) + 1.617 accrued on 2 Oct, per $100 | 90.107 clean | $10 | $15,446.48 | $85,587.38 / $83,941.47 | WInS shows no bond volume (UNVERIFIED) | -5.1bp PASS |
++| 9 | bond | U.S. Treasury bond 4.375% maturing 15 Nov 2039, CUSIP 912810QD3 [UNVERIFIED (WInS string not recorded)] | Jan 2040 payment | $18,000 face | 91.363 clean (2026-09-28) + 1.664 accrued on 2 Oct, per $100 | 92.255 clean | $10 | $16,754.93 | $68,832.45 / $67,019.54 | WInS shows no bond volume (UNVERIFIED) | -6.6bp PASS |
++| 10 | bond | U.S. Treasury bond 4.500% maturing 15 May 2038, CUSIP 912810PX0 [UNVERIFIED (WInS string not recorded)] | Jan 2039 payment | $19,000 face | 94.281 clean (2026-09-28) + 1.712 accrued on 2 Oct, per $100 (Sheet records 0.530: wrong) | 95.121 clean | $10 | $18,248.66 | $50,583.79 / $48,604.22 | WInS shows no bond volume (UNVERIFIED) | -14.4bp PASS |
++| 11 | bond | U.S. Treasury bond 4.750% maturing 15 Feb 2037, CUSIP 912810PT9 [UNVERIFIED (WInS string not recorded)] | Jan 2038 payment | $20,000 face | 97.152 clean (2026-09-28) + 0.620 accrued on 2 Oct, per $100 | 97.940 clean | $10 | $19,564.31 | $31,019.48 / $28,874.53 | WInS shows no bond volume (UNVERIFIED) | -15.3bp PASS |
++| 12 | **VT** | Vanguard Total World Stock ETF [SEEN 2026-09-29] | Branch: the world stock fund (growth money) | 164 shares | $158.81 (WInS close, 2026-09-28) | $161.18 | $25 | $26,069.84 | $4,949.64 / $2,416.01 | <0.1%; <0.1% PASS | - |
++
++- Total at the reference prices with the accrued interest recorded in the Sheet: **$294,789.50**, cash left **$5,210.50** (1.7%).
++- Expected on the trade date (bond accrued interest recomputed to 2026-10-02): $295,050.36, cash $4,949.64 (the 'expected' cash column).
++- Worst case (every ETF at its max price, every bond at its max clean price, accrued to 2026-10-05): $297,583.99, cash $2,416.01.
++- 12 trades; commissions $225.
+ 
+ Details, Portfolio:
+ 
+@@ -49,13 +57,14 @@ Details, Portfolio:
+ | 2 | IBTQ | $20,812.97 to $21,233.43 | Check the name says Dec 2035. | IBTP (ends a year early) |
+ | 3 | IBTP | $21,998.89 to $22,443.31 | Check the name says Dec 2034. | IBTO (ends a year early) |
+ | 4 | IBTO | $23,179.19 to $23,647.45 | NOT IBTN: in WInS, IBTN is INSCORP Inc (SEEN 29 Sep). Type IBTO and read the name. | IBTM (ends a year early) |
+-| 5 | IBTM | $96,663.96 to $98,616.76 | Largest order. Check the name says Dec 2032. | none dated: no WInS Treasury matures between Feb 2031 and Feb 2036 (SEEN 29 Sep); if it cannot be bought, keep the cash and retry next session |
+-| 6 | T 3.125% 15-Nov-2041 | $14,582.21 to $14,916.15 | Same date as the 2.000% Nov-2041: check the coupon. Curve check band (25bp): clean 74.081 to 78.401. | 2.000% 15 Nov 2041 (912810TC2), if listed and within 25bp |
+-| 7 | T 4.250% 15-Nov-2040 | $15,291.93 to $15,608.92 | Same date as the 1.375% Nov-2040: check the coupon. Curve check band (25bp): clean 86.480 to 91.026. | 1.375% 15 Nov 2040 (912810ST6), if listed and within 25bp |
+-| 8 | T 4.375% 15-Nov-2039 | $16,587.38 to $16,922.48 | Not the 4.375% Feb-2038 (stale price on 29 Sep): check the maturity. Curve check band (25bp): clean 88.613 to 93.012. | 4.500% 15 Aug 2039 (912810QC5), if listed and within 25bp |
+-| 9 | T 4.500% 15-May-2038 | $18,066.18 to $18,431.15 | Not the 4.500% Feb-2036 or Aug-2039: check the maturity. Sheet accrued 0.530 is a typo (1.66 on 28 Sep, 1.71 on 2 Oct); use what WInS shows. Curve check band (25bp): clean 91.057 to 95.173. | 4.375% 15 Feb 2038 (912810PW2) only if its WInS price passes the yield check (stale on 29 Sep); else 5.000% 15 May 2037 (912810PU6) |
+-| 10 | T 4.750% 15-Feb-2037 | $19,368.67 to $19,759.96 | Check the maturity says 2037. Curve check band (25bp): clean 94.055 to 97.919. | 5.000% 15 May 2037 (912810PU6), if listed and within 25bp |
+-| 11 | VT | $25,681.16 to $26,458.52 | Not VTI (U.S. only). Order 11: place it only in the session after all five bonds show Filled (Mon 5 Oct ET); re-run with --cash-before-vt first. | VTI + VXUS in VT's own U.S./non-U.S. mix (two trades) |
++| 5 | IBTM | $24,496.92 to $24,991.80 | Check the name says Dec 2032. Portfolio book: IBTM is ordered twice on purpose (5: this payment; 6: the floor). | none dated: no WInS Treasury matures between Feb 2031 and Feb 2036 (SEEN 29 Sep); if it cannot be bought, keep the cash and retry next session |
++| 6 | IBTM_F | $72,191.79 to $73,650.21 | The second IBTM order, on purpose: type IBTM again. Not a repeat of order 5: Order History must show order 5 first; use this quantity. | one IBTM order for both jobs only if the 1 Oct vote rejects the split (--one-ibtm-order) |
++| 7 | T 3.125% 15-Nov-2041 | $14,582.21 to $14,916.15 | Same date as the 2.000% Nov-2041: check the coupon. Curve check band (25bp): clean 74.081 to 78.401. | 2.000% 15 Nov 2041 (912810TC2), if listed and within 25bp |
++| 8 | T 4.250% 15-Nov-2040 | $15,291.93 to $15,608.92 | Same date as the 1.375% Nov-2040: check the coupon. Curve check band (25bp): clean 86.480 to 91.026. | 1.375% 15 Nov 2040 (912810ST6), if listed and within 25bp |
++| 9 | T 4.375% 15-Nov-2039 | $16,587.38 to $16,922.48 | Not the 4.375% Feb-2038 (stale price on 29 Sep): check the maturity. Curve check band (25bp): clean 88.613 to 93.012. | 4.500% 15 Aug 2039 (912810QC5), if listed and within 25bp |
++| 10 | T 4.500% 15-May-2038 | $18,066.18 to $18,431.15 | Not the 4.500% Feb-2036 or Aug-2039: check the maturity. Sheet accrued 0.530 is a typo (1.66 on 28 Sep, 1.71 on 2 Oct); use what WInS shows. Curve check band (25bp): clean 91.057 to 95.173. | 4.375% 15 Feb 2038 (912810PW2) only if its WInS price passes the yield check (stale on 29 Sep); else 5.000% 15 May 2037 (912810PU6) |
++| 11 | T 4.750% 15-Feb-2037 | $19,368.67 to $19,759.96 | Check the maturity says 2037. Curve check band (25bp): clean 94.055 to 97.919. | 5.000% 15 May 2037 (912810PU6), if listed and within 25bp |
++| 12 | VT | $25,681.16 to $26,458.52 | Not VTI (U.S. only). Order 12: place it only in the session after all five bonds show Filled (Mon 5 Oct ET); re-run with --cash-before-vt first. | VTI + VXUS in VT's own U.S./non-U.S. mix (two trades) |
+ 
+ ### Book L (literal ladder, 10 trades; only if the 1 Oct vote picks it)
+ 
+@@ -85,7 +94,7 @@ Details, BookL:
+ | 2 | IBTQ | $30,784.74 to $31,406.66 | Check the name says Dec 2035. | IBTP (ends a year early) |
+ | 3 | IBTP | $32,520.71 to $33,177.69 | Check the name says Dec 2034. | IBTO (ends a year early) |
+ | 4 | IBTO | $34,277.82 to $34,970.30 | NOT IBTN: in WInS, IBTN is INSCORP Inc (SEEN 29 Sep). Type IBTO and read the name. | IBTM (ends a year early) |
+-| 5 | IBTM | $36,172.90 to $36,903.66 | Largest order. Check the name says Dec 2032. | none dated: no WInS Treasury matures between Feb 2031 and Feb 2036 (SEEN 29 Sep); if it cannot be bought, keep the cash and retry next session |
++| 5 | IBTM | $36,172.90 to $36,903.66 | Check the name says Dec 2032. Portfolio book: IBTM is ordered twice on purpose (5: this payment; 6: the floor). | none dated: no WInS Treasury matures between Feb 2031 and Feb 2036 (SEEN 29 Sep); if it cannot be bought, keep the cash and retry next session |
+ | 6 | T 3.125% 15-Nov-2041 | $22,251.79 to $22,761.49 | Same date as the 2.000% Nov-2041: check the coupon. Curve check band (25bp): clean 74.081 to 78.401. | 2.000% 15 Nov 2041 (912810TC2), if listed and within 25bp |
+ | 7 | T 4.250% 15-Nov-2040 | $23,382.36 to $23,867.17 | Same date as the 1.375% Nov-2040: check the coupon. Curve check band (25bp): clean 86.480 to 91.026. | 1.375% 15 Nov 2040 (912810ST6), if listed and within 25bp |
+ | 8 | T 4.375% 15-Nov-2039 | $24,876.12 to $25,378.67 | Not the 4.375% Feb-2038 (stale price on 29 Sep): check the maturity. Curve check band (25bp): clean 88.613 to 93.012. | 4.500% 15 Aug 2039 (912810QC5), if listed and within 25bp |
+@@ -117,11 +126,11 @@ Curve 2026-09-28. Use an alternate only when the planned bond fails its check or
+ 
+ | Check | Passed | Detail |
+ |---|---|---|
+-| C1 names | 21 of 21 | all tickets |
+-| C2 cash | 21 of 21 | all tickets |
+-| C3 volume | 11 of 11 | all tickets |
++| C1 names | 21 of 22 | FAIL: Portfolio #6 IBTM_F (SEEN 2026-09-29) |
++| C2 cash | 22 of 22 | all tickets |
++| C3 volume | 13 of 13 | all tickets |
+ | C4 bonds | 10 of 10 | all tickets |
+-| C5 ledger | 15 of 15 | Portfolio total: $294,764.50 vs numbers.yaml $294,764.50; BookL total: $292,580.89 vs numbers.yaml $292,580.89; Portfolio split: dated holdings incl. floor 89.51% (tab target 90.2%), VT 8.68% (target 8.7%), cash 1.75% (target 1.1%); equals numbers.yaml wins.portfolio.split_close_0928; Portfolio IBTR value: $19,872.54; Portfolio IBTQ value: $20,998.20; Portfolio IBTP value: $22,196.10; Portfolio IBTO value: $23,388.32; Portfolio IBTM value: $97,615.36; Portfolio T 3.125% 15-Nov-2041 value: $14,729.37; Portfolio T 4.250% 15-Nov-2040 value: $15,428.86; Portfolio T 4.375% 15-Nov-2039 value: $16,734.42; Portfolio T 4.500% 15-May-2038 value: $18,014.09; Portfolio T 4.750% 15-Feb-2037 value: $19,542.40; Portfolio VT value: $26,044.84; numbers.yaml hash: 492ed3203958 |
++| C5 ledger | 15 of 15 | Portfolio total: $294,789.50 vs numbers.yaml $294,764.50 + $25 for the split IBTM order; BookL total: $292,580.89 vs numbers.yaml $292,580.89; Portfolio split: dated holdings incl. floor 89.51% (tab target 90.2%), VT 8.68% (target 8.7%), cash 1.75% (target 1.1%); equals numbers.yaml wins.portfolio.split_close_0928 (cash before the split order's $25); Portfolio IBTR value: $19,872.54; Portfolio IBTQ value: $20,998.20; Portfolio IBTP value: $22,196.10; Portfolio IBTO value: $23,388.32; Portfolio IBTM value (orders 5 + 6): $97,615.36; Portfolio T 3.125% 15-Nov-2041 value: $14,729.37; Portfolio T 4.250% 15-Nov-2040 value: $15,428.86; Portfolio T 4.375% 15-Nov-2039 value: $16,734.42; Portfolio T 4.500% 15-May-2038 value: $18,014.09; Portfolio T 4.750% 15-Feb-2037 value: $19,542.40; Portfolio VT value: $26,044.84; numbers.yaml hash: 492ed3203958 |
+ | C6 words | 5 of 5 | rab/trades/tickets.md: clean; rab/trades/tickets.csv: clean; rab/trades/M9_selection.md: clean; rab/trades/friday_checklist.md: clean; rab/trades/october_trade.md: clean |
+ 
+ ## Times (from `rab/trades/trades_clock.py`, zoneinfo)
