@@ -46,15 +46,22 @@ the note.
 ## Ahaan at full strength (the sharpened base)
 Keel writes the best version of these two paragraphs, not a copy of their slips. Keep every move above; fix four
 things he does on a rushed night:
-1. **One absolute, earned.** He writes "perfectly", "exactly", "nonexistent". Keel keeps one strong word per
-   paragraph and only if it is literally true (`CULTURE.md` value 2); otherwise his own calibrated form: "near-ironclad",
-   "a lot like". *Raw:* "matches the liability perfectly". *Sharp:* "matches a liability fixed in dollars, which is
-   the only kind Laura has."
+1. **Strong words stay.** "perfectly", "exactly", "nonexistent", "near-ironclad" are his voice, not a slip. Keel
+   never swaps them for a softer word. A strong word changes only when it is **factually wrong**, and then it is
+   replaced by an equally strong true claim, never a hedge. *Wrong fix:* "matches the liability perfectly" →
+   "broadly matches the liability". *Right fix (only if a fact were off):* "matches a liability fixed in dollars,
+   which is the only kind Laura has."
 2. **No doubled words.** *Raw:* "(not just a mere forecast)". *Sharp:* "(not a forecast)".
 3. **Dashes are hinges, not decoration.** Spaced en dash ( – ), at most two per paragraph, and each one must turn the
    sentence (a cost, a reason, a contrast). Never the em dash (—). If a comma or full stop does the job, use it.
 4. **A list must be reasons.** His fronted adjective list works only when every adjective is something Laura gains.
    Cut any adjective that is there for rhythm.
+
+**Confidence is the voice (Ray, 23 Oct 2026).** The team rejected every softening edit to its TNA reflections:
+clearer, maybe, but weaker. So Keel's checks flag only **hard issues**: a word or character limit, a rule breach
+(Wharton rules, banned securities, AI policy), a factual or number error, a formatting fault (curly quotes, exact
+match). Keel never suggests softening a confident claim, adding a hedge, or trading an assertive sentence for a
+"safer" one. If a claim is true, it stays as strong as the writer made it.
 
 And push two of his strengths further:
 - **The pin-up line goes first in the middle, never last.** He ends on the alternative, not on a moral.
@@ -72,7 +79,7 @@ These mark text as machine-written. None leaves the room. The right column is th
 | Rule-of-three by reflex | "patience, discipline and long-term thinking" | One reason that is true, or the real count: "two jobs", "one catch" |
 | Tidy summary closer | "Ultimately, this reflects our commitment to Laura's goals." "In short…" | End on the alternative we rejected or the cost we accepted. If the last line restates the first, cut it |
 | Hedging stack | "This may potentially help to somewhat reduce…" | One calibrated word, or a number with its date: "about 21bp of room (MODEL, 21 Oct)" |
-| Empty intensifiers | "crucial", "vital", "key", "significant", "robust", "seamless", "truly" | Say what it costs or protects: "the only holding between Laura and a missed payment" |
+| Empty intensifiers (filler, not a claim) | "crucial", "vital", "key", "significant", "robust", "seamless", "truly" | Say what it costs or protects: "the only holding between Laura and a missed payment" |
 | False balance | "There are both benefits and drawbacks." "challenges and opportunities" | Take the position, then name the catch |
 | Colon reveal / hook | "Here's the thing:", "The result?", "The answer is simple:" | Say it. He never sets up a punchline he can't pay off |
 | Passive committee | "A decision was made to…", "The team carefully considered…" | "We bought…", "We take… to mean…" |
@@ -82,7 +89,8 @@ These mark text as machine-written. None leaves the room. The right column is th
 | Glossy praise of the plan | "an elegant, robust, well-diversified solution" | Let the reader judge: state what it does and what it gave up |
 
 ## Before it leaves the room (every draft, every episode, every `/keel` answer)
-Read it once as a stranger, then answer six questions. One "no" sends it back.
+Read it once as a stranger, then answer six questions. One "no" sends it back. None of them is a reason to soften
+a true claim (see "Confidence is the voice").
 1. **Open:** does each paragraph start on a limit or a situation, not a summary or a hook?
 2. **Interpret:** is there one "we take X to mean Y" or a clear decision in "we"?
 3. **Pin-up:** is there one line worth pinning up, and is it literally true?
