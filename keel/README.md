@@ -25,6 +25,11 @@ is the sail.
 Each member's file holds their profile, their agent brief and their working notes. When an agent works for a
 member it reads that member's file first and answers in that member's position.
 
+## The three north stars (Ray, 23 Oct 2026)
+Above everything but the hard rules: a genuinely distinctive voice, one vast unifying motif that serves the
+investing, and, most important, being truly extraordinary. Ray's words and how Keel applies them: `NORTH_STARS.md`.
+Every member, room run, brief and draft carries them.
+
 ## How Keel works for Caplet
 Talk to Keel with **`/keel`** in Claude Code: `/keel status` (progress), `/keel <name>: <question>` (one member),
 `/keel meeting: <topic>` (the team argues; Nora ends with options and a vote date). Meeting minutes go to `meetings/`.

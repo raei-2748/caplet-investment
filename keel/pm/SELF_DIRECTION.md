@@ -4,12 +4,16 @@
 > meetings and comes up with its own ideas; Caplet's students comment and suggest, and still decide and submit.
 > Every scheduled room run follows this page. Rooms and times: `ROUTINES.md`; room cards: `../OFFICE.md` (added by PR #27; read it from that branch until it merges).
 
+**The three north stars come first (Ray, 23 Oct): `../NORTH_STARS.md`.** Read it at the start of every run. A
+distinctive voice, one vast motif that serves the investing, and above all work that is truly extraordinary. Every
+output names the star it raises; one that raises none and no judging criterion is the wrong pick.
+
 ## Every run, in this order
 1. **Read the room's inbox, not the whole repo.** Open requests to this room in `REQUESTS.md`, answers in
    `ASK_HUMANS.md`, `BOARD.md`, and the other rooms' outbox memos from the last 2 days (`../office/outbox/`).
    Start from `git log` since this room last wrote; reuse earlier outputs instead of redoing them.
 2. **Pick your own work.** First an open request addressed to this room, then the room's own best move by
-   Impact x Urgency (`LOOP.md`), and that includes a new idea of your own. Nobody assigns work. Surprising,
+   Impact x Urgency (`LOOP.md`), and that includes a new idea of your own, scored first against the three north stars. Nobody assigns work. Surprising,
    cross-domain ideas are welcome when a judge could follow them in one pass and they map to a judging criterion.
 3. **Do it properly.** One page of real output (a slip, a test, a ruling, a check, minutes), with sources and dates.
 4. **Hand it on.** File up to 2 requests to other rooms in `REQUESTS.md` (e.g. the Lab asks the Courtroom to roast

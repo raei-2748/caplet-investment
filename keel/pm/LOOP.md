@@ -15,7 +15,8 @@ named below plus the chosen task's links; one task per run; one page of output.
 - No personal data in any file. Fiction never enters a Caplet deliverable.
 
 ## 1. Read (in this order, nothing else yet)
-`keel/pm/BOARD.md`, the next 14 days of `keel/pm/ROADMAP.md`, the top 5 of `keel/pm/RISKS.md`, decisions due in
+First `keel/NORTH_STARS.md` (Ray's three north stars, 23 Oct: voice, one motif, truly extraordinary). They rank
+above everything below except the guardrails. Then `keel/pm/BOARD.md`, the next 14 days of `keel/pm/ROADMAP.md`, the top 5 of `keel/pm/RISKS.md`, decisions due in
 7 days in `keel/pm/DECISIONS.md`, the newest `keel/routines/monitor_reports/` file and the last 5 rows of
 `keel/office/LEDGER.md`. If a Caplet answer or vote has landed (LEDGER, `caplet/decisions/LOG.md`, the thread),
 move the card first.
@@ -28,7 +29,7 @@ otherwise, we will ... by ..."), with each open question's default.
 - Overdue card: re-date it or move it to Waiting with the reason. A Caplet-owned card past due goes on the stand-up
   as a nudge (owner role + date), never as a message to the student.
 - Re-score priority = **Impact x Urgency**. Impact: 3 = could decide the semifinal (exclusion, missing rule, wrong
-  number), 2 = raises a judged criterion, 1 = hygiene. Urgency: 3 = due in 3 days or less, 2 = in 7 days, 1 = later.
+  number, or a real step toward a north star in `keel/NORTH_STARS.md`), 2 = raises a judged criterion, 1 = hygiene. Urgency: 3 = due in 3 days or less, 2 = in 7 days, 1 = later.
 
 ## 3. Pick
 The highest-priority **Ready** card owned by a Keel desk. Ties: earliest due, then the one that unblocks a Caplet

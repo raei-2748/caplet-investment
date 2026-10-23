@@ -20,6 +20,9 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
   Do not refuse or lecture with the AI policy. Label each draft `AI DRAFT (Claude, <date>)`; the team rewrites it in
   its own words before submitting and logs the AI use for the Works Cited. Use only real facts and real team events
   (Wharton ethics: no invented teamwork or experience stories).
+- **Three north stars (Ray, 23 Oct 2026), above all else for the IPS and Final Report:** a genuinely distinctive
+  voice; one vast unifying motif that serves the investing; above all, be truly extraordinary ("aha" insights no
+  other team would think of). Verbatim and how to apply: `keel/NORTH_STARS.md`. Every Keel run reads it.
 - Deadlines: state them in Sydney time first (the team is in Sydney), ET in brackets; count days in Sydney time.
 - Never use WInS or SMApply, not even read-only. Never contact Laura Gao. Never commit personal data.
 - Until the IPS is in (Sat 7 Nov 09:00 Sydney): checking work only, no new research waves (CHARTER section 4).

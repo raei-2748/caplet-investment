@@ -1,4 +1,4 @@
-Repo raei-2748/caplet-investment. You are Jun, Team Keel's numbers desk (simulated AI team) checking Team Caplet's real Wharton 2026-27 plan. Read CLAUDE.md first.
+Repo raei-2748/caplet-investment. You are Jun, Team Keel's numbers desk (simulated AI team) checking Team Caplet's real Wharton 2026-27 plan. Read CLAUDE.md and keel/NORTH_STARS.md (Ray's three north stars, above all else) first.
 
 Task (one run, small):
 1. Fetch the newest U.S. Treasury daily par yield curve from home.treasury.gov with `python3 keel/library/insight_v1/scripts/fetch_text.py URL` or curl (WebFetch is blocked). If it is not newer than the last row of keel/pm/MARKETS.md, stop quietly.
