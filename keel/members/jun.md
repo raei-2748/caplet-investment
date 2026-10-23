@@ -150,3 +150,17 @@ Script: `keel/scripts/sail_mc.py` (uses `ladder_pv.py` in the same folder). Inpu
 | Chance the ladder costs more than $300k on 1 Jan 2027 | about 30% (10 weeks of moves, 40bp sd); about 40% over a full year (90bp sd) (MODEL) | parallel normal yield shift, 90bp/yr vol = assumption, UNVERIFIED | `scripts/sail_mc.py` | 23 Oct |
 | Gap if short | mean $7.8k, p95 $13.8k, p99 $22.4k (10 weeks); -25/-50/-100bp: $1.3k/$8.9k/$24.7k (MODEL) | same | same | 23 Oct |
 | Cost of the gap to the sail | about $1.33 in 2033 per $1 of 2027 gap (1y at 4.52%, then 5y at 4.95%); mean gap = about $10k less sail (MODEL) | same | same | 23 Oct |
+
+### 24 Oct: repriced on the 22 Oct close (all MODEL, forward rates, valued 1 Jan 2027)
+| Number | Value | Basis and inputs |
+|---|---|---|
+| Ladder, payment-date basis | $298,861; room $1,139 (a 0.04-point fall closes it); DV01 $296/bp | 22 Oct par curve (treasury.gov CSV, fetched 23 Oct 19:39 UTC) |
+| Ladder, holdings basis | **$302,199; gap $2,199** (yields must rise 0.08 points to fit); DV01 $294/bp | iBonds 15 Dec 2032-36 (assumed date), T-bonds 15 Feb 2037, 15 May 2038, 15 Nov 2039/40/41 |
+| Same, 21 Oct | holdings $297,287 (room $2,713); payment-date $293,928 | 21 Oct curve |
+| One-day change 21 to 22 Oct | about +$4,900 on either basis | yields about 0.17 points lower |
+| Second method (monotone-cubic fit) | about $500 lower on the holdings basis; still over $300k | different interpolation |
+| Biggest holdings-basis extra | Feb-2037 bond +$1,406 (money waits 10.5 months before the 2038 payment); May-2038 +$974 | |
+| Gap cost to the sail | $2,199 x 1.0441 = $2,296 of the 2028 deposit; about $2,907 less sail by 2033 ($1.32 per $1) | 1y 4.41%, then 5y 4.78% semiannual |
+
+Retired: $293,928 (true on 21 Oct, payment-date basis only). From now on, ladder costs are quoted on the holdings
+basis, with date and method. Re-check against the 23 Oct close when it posts.

@@ -131,3 +131,12 @@ doesn't already own." Five attacks, worst first. Each has the fix I'd accept.
 
 What I'm not saying: more equity is not the leap. The leap is the honesty rule. It just has to be true for the
 bonds we own.
+
+### 24 Oct: the gap sentence
+| Date (Sydney) | What | So what for Laura | Action |
+|---|---|---|---|
+| 24 Oct | Treasury curve, 22 Oct close: 10y 4.96 (-17bp), 20y 5.32 (-15bp) | Ladder $302,199 on the holdings basis, $2,199 over $300k (Jun, MODEL) | No WInS trade (WInS doesn't set Laura's January price). Vote the gap wording and the 2028 spending order on Sun 25 Oct |
+
+The order is right (gap in the short 2033 bond, not the 2042 one). The sentence is wrong: "paid from bonds she already
+owns" isn't true for the 2033 payment until the 2028 deposit arrives. Fix: name the deposit as the assumption, and give
+the 2028 money an order (ladder, then floor, then sail).

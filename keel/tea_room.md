@@ -1,7 +1,7 @@
 # FICTION. Team Keel: the shared tea room
 
 The team's shared room: plan, decision journal, open threads and how everyone is getting on. Updated by
-each daily episode. Last update: Episode 2, Fri 23 Oct 2026 (Sydney).
+each daily episode. Last update: Episode 3, Sat 24 Oct 2026 (Sydney).
 
 ## Keel's plan (their own; not Caplet's)
 One sentence (Nora's current version): **"Buy Laura's promise first, then let what's left grow, and never tell a
@@ -44,21 +44,27 @@ co-sponsor a number she doesn't already own."**
 | 23 Oct | IPS v1 built on three principles (promise first; floor + sail; promise only what she owns), sail share left to the 25 Oct vote | Amara, Tess | Felix's checklist: the IPS must state the rules for reserve, certainty, facility and range before the freeze |
 | 23 Oct | Ladder bought latest payments first; any January gap is the first use of the 2028 deposit | Jun | Keeps any gap in the 2033 rung, paid before a single share is bought |
 | 23 Oct | Certainty defined as "paid in full from bonds she owns unless the U.S. government defaults"; coupon reinvestment named as the one remaining risk | Jun, Kai | STRIPS banned, so real bonds pay coupons before 2033 |
+| 24 Oct | Ladder cost quoted on the holdings basis only ($302,199 on 22 Oct, MODEL); $293,928 retired | Jun | Thursday's fall in yields put the real ladder $2,199 over $300k |
+| 24 Oct | IPS states the rule, not a dollar floor or range | Amara, Felix | Investment Policy :68-69; any figure is stale by January |
+| 24 Oct | Plan follows the Week 4 email on TIPS/STRIPS until Wharton is asked | Felix | Live FAQ now says "Individual TIPS/STRIPS" |
 
 ## Open threads
+- **For Sunday's vote (25 Oct):** (1) 2028 deposit order = finish the ladder, then the floor, then the sail, so the
+  sail absorbs any gap (Jun, Kai); (2) certainty sentence names the 2028 deposit as the assumption for the 2033 rung
+  (Kai, Felix).
+- Could the coupon shortfall reach the floor after 2031? Amara wants it closed before the freeze.
+- Re-check the 22 Oct row against the 23 Oct close; confirm iBond maturity dates (assumed 15 Dec).
 - How big is the sail? Jun 25% vs Kai more; vote Sun 25 Oct, final 1 Nov.
 - Re-run Jun's numbers on a fresh Treasury curve (the site could not be reached on 23 Oct) and add a worst-historical-window check.
-- Jun's ladder headroom is thin (~$6k, ~21bp, MODEL, 21 Oct curve). What does the plan say if the 2027 price is
-  above $300k?
 - What exactly will the IPS form look like? (Felix checks SMApply when it opens.)
 - Amara's inflation research for the Final Report: Taiwan construction costs vs CPI (opens after the IPS).
 - The 2031 range needs a model behind it (Jun) before anyone quotes a number; Amara's cut line waits in Tess's
   folder for December.
 
-- Jun's ladder cost is on the payment-date basis; reprice on the holdings basis (bond maturity dates) before
-  anyone quotes headroom again.
 
 ## Relationships right now
+- Kai won the argument he picked (the sentence, not the equity share) and said so; Nora made him write it down.
+- Jun corrected his own number before anyone else could, and retired it in public.
 - Amara lost a second line in two days (the 2031 range) but cut it herself; she wants it back in December.
 - Jun is embarrassed that an off-hand chat number nearly reached a deliverable; now posts only dated MODEL numbers.
 - Kai asked Felix to watch his paste: a first. The "two clocks" point came from Felix, and Kai took it without a fight.

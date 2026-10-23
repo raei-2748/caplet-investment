@@ -100,6 +100,13 @@ and Principal of Securities)". So neither may be recommended for Laura's plan; m
 rules exclude. Whether the ban also covers WInS-listed ETFs that hold TIPS or STRIPS is UNVERIFIED (ask Wharton
 before naming one). The $5 stock minimum is gone from the FAQ and Trading pages.
 
+**Public FAQ, live 24 Oct 2026** (`smapply_public_2026-10-24/faqs.txt:54-55`, read 06:40 Sydney): the ban now reads
+"Individual TIPS (Treasury Inflation-Protected Securities)" and "Individual STRIPS (Separate Trading of Registered
+Interest and Principal of Securities)", and the permitted lines say "available on WInS". The Week 4 email
+(`wharton_email_week4_2026-10.md:34-35`) still says plain "TIPS"/"STRIPS". The two conflict on whether a WInS-listed
+TIPS or STRIPS ETF is allowed: UNVERIFIED. Keep the plan as the email reads; if it matters, Ray asks the advisor to
+ask Wharton.
+
 WInS quirks we found (read-only checks):
 - WInS lists 43 US T-bonds, none maturing Feb 2031 to Feb 2036. iBonds Treasury ETFs fill that gap: IBTK 2030,
   IBTL 2031, IBTM Dec 2032, IBTO 2033, IBTP 2034, IBTQ 2035, IBTR Dec 2036. (IBTN on WInS is INSCORP Inc, not an iBond.)
