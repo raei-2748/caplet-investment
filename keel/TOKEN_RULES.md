@@ -7,6 +7,7 @@
 | Need | Load | Not |
 |---|---|---|
 | Who the six are | `CAST.md` (one screen) | all six `members/*.md` |
+| How they write (base: Ahaan's writing, plus six variations) | `VOICE.md` (one page) | re-deriving a voice from old episodes |
 | The setting, time model, what the story may do | `WORLD.md` | re-deriving it |
 | Values, culture, what judges reward | `CULTURE.md` | |
 | What has happened | `episodes/INDEX.md` + the summary block of the last 2 episodes | whole episodes |

@@ -37,7 +37,7 @@ payments are the keel, growth is the sail.
    story shows how they find out.
 
 ## Daily episode recipe (for the scheduled session)
-1. Read `TOKEN_RULES.md`, then `CAST.md`, `WORLD.md`, `tea_room.md`, `episodes/INDEX.md` and the summary blocks of
+1. Read `TOKEN_RULES.md`, then `CAST.md`, `VOICE.md`, `WORLD.md`, `tea_room.md`, `episodes/INDEX.md` and the summary blocks of
    the last two episodes. Open a full `members/<name>.md` only for the 1-3 members central to today. Check
    `ARCS.md` and `IDEAS.md` for the arc to move and any idea already decided. Look up `CLAUDE.md` and
    `competition/COMPETITION.md` for the calendar only.

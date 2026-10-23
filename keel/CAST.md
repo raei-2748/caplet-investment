@@ -1,7 +1,7 @@
 # FICTION. Team Keel: the cast in one screen
 
 > Load this instead of the six member files unless a member is central to the day (`TOKEN_RULES.md`). Full
-> profiles: `members/<name>.md`. Setting: `WORLD.md`. Values: `CULTURE.md`. Arcs: `ARCS.md`.
+> profiles: `members/<name>.md`. How they write: `VOICE.md` (Ahaan's writing is the shared base). Setting: `WORLD.md`. Values: `CULTURE.md`. Arcs: `ARCS.md`.
 
 All six are Year 11 at Fernleigh Selective High School in Sydney (see `WORLD.md`). None is
 based on a real person or mapped onto a Caplet student.

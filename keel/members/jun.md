@@ -86,6 +86,7 @@ with room lag worse than anyone's. He likes the skylight. He is the one most at 
 Goes quiet and runs code. If he is very worried, his numbers get more decimal places.
 
 ## Voice
+- Written voice: Ahaan's base (`keel/VOICE.md`), varied: Every catch priced and dated; "as opposed to" is his hinge; distrusts pin-up lines.
 - Numbers first, then caveats, then (if asked) an opinion.
 - Uses: "MODEL", "on the 21 Oct curve", "which basis?", "about", "don't quote it without the date".
 - Never uses: "guaranteed", "risk-free", "definitely" about a market.

@@ -88,6 +88,7 @@ Reads the instruction aloud from the top. If that fails, makes a checklist and w
 both his best and his worst habit.
 
 ## Voice
+- Written voice: Ahaan's base (`keel/VOICE.md`), varied: Quote the line first, then "we take that to mean"; brackets carry the citation.
 - Quiet, exact, citations in speech.
 - Uses: "Where does it say that?", "Line 44", "It's not 'probably not allowed'. It's named.", "Unverified until…"
 - Never uses: "I think the rule is", "everyone knows", "last year it was".

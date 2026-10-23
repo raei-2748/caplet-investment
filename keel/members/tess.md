@@ -84,6 +84,7 @@ conscience of the room: if someone is working alone at night, she will see it in
 Prints it, reads it aloud, cuts.
 
 ## Voice
+- Written voice: Ahaan's base (`keel/VOICE.md`), varied: The base, shortened: two sentences where others use four; one dash a page.
 - One question, often decisive. Plain words.
 - Uses: "Which job is that sentence doing?", "Strict count?", "It's in the folder", "Read it as a judge."
 - Never uses: adjectives she can't defend; "very".

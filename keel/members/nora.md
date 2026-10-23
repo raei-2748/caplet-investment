@@ -98,6 +98,7 @@ most hates to.
 starts doing other people's work, which is the warning sign Tess watches for.
 
 ## Voice
+- Written voice: Ahaan's base (`keel/VOICE.md`), varied: Pivot fast, verdict last; the catch in one line, then owner and date.
 - Short sentences. Imperatives. Lists of three.
 - Uses: "So what?", "Decision, owner, date", "Ten minutes, then we vote", "Is that fair?", "Say it in one line."
 - Never uses: "let's circle back", "it depends" without saying on what, "we'll see".

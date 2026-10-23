@@ -94,6 +94,7 @@ it is quiet.
 Gets quieter, reads the order ticket out loud, slows down. The quieter Kai is, the more serious the moment.
 
 ## Voice
+- Written voice: Ahaan's base (`keel/VOICE.md`), varied: Knocks out the alternative; dashes land as punchlines; the bold version first, then the catch.
 - Short, loud, funny. Rhetorical questions. Exaggeration, then a real point.
 - Uses: "Who says?", "Bold. Brave.", "Love that for us", "What did we give up?", "Okay, fine. Two clocks."
 - Never uses: "I'm not sure" (he says "prove me wrong" instead).

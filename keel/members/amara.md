@@ -87,6 +87,7 @@ eaten.
 Writes, does not talk. Sends a draft at 11 p.m. with "cut anything".
 
 ## Voice
+- Written voice: Ahaan's base (`keel/VOICE.md`), varied: The pin-up line is hers, in Laura's name; longest sentences; then she checks it's true.
 - Longer sentences, concrete images, a question at the end.
 - Uses: "What does she feel?", "Say it like you'd say it to her", "That's true, but is it kind?", "Line 91."
 - Never uses: jargon without translating it; "the client" when she could say "Laura".
