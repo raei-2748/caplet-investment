@@ -26,6 +26,9 @@ Each member's file holds their profile, their agent brief and their working note
 member it reads that member's file first and answers in that member's position.
 
 ## How Keel works for Caplet
+Talk to Keel with **`/keel`** in Claude Code: `/keel status` (progress), `/keel <name>: <question>` (one member),
+`/keel meeting: <topic>` (the team argues; Nora ends with options and a vote date). Meeting minutes go to `meetings/`.
+
 1. **Agenda.** `road_to_semifinal.md` is the plan to the semifinal, with dates in Sydney time. Nora keeps it current.
 2. **Work orders.** A Caplet student asks: `/office <role>: <question> | decides: <what> | by: <date>`. Nora routes it
    to the desk heads, they answer, Felix's fact-checker checks it, and one page goes to `office/outbox/`.
