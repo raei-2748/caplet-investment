@@ -8,4 +8,4 @@ Save: commit to branch claude/keel-loop-YYYY-MM-DD (Sydney date; create from mai
 
 After Sat 5 Dec 2026: write one stand-up line saying the written rounds are over and suggest deleting this routine; do nothing else.
 
-Final message: the stand-up (Done / Next / Blocked / Caplet needs to / Next deadline in days) and the PR link.
+Final message: "Nora's update" first (3-6 plain-English sentences, no jargon: what Keel did, found, what students must do by when in Sydney time, what's next; see .claude/skills/keel/SKILL.md), then "Details": the stand-up and the PR link.

@@ -49,11 +49,14 @@ Anything else (new research, a draft for submission, any decision, anything cost
 Caplet tick (a student writes "OK" in the card's Notes column or says so in chat).
 
 ## 7. Stand-up and save
-- Add 5 lines at the top of `keel/pm/STANDUP.md`: Done / Next / Blocked / Caplet needs to (role, what, by when) /
-  Next deadline (days, Sydney).
+- Add an entry at the top of `keel/pm/STANDUP.md`. It opens with **Nora's update**: 3 to 6 plain-English
+  sentences a student with no context understands (what Keel did, what it found, what the students must do and by
+  when in Sydney time, what Keel does next), with no project-management or finance jargon; the rules are in
+  `.claude/skills/keel/SKILL.md`; the first entry in STANDUP.md is an example. Under **Details** come 5 lines: Done / Next / Blocked / Caplet
+  needs to (role, what, by when) / Next deadline (days, Sydney), plus any debate between members.
 - Commit on a branch `claude/keel-loop-YYYY-MM-DD` (reuse it if it exists; never push to `main`), open or update
   one pull request for the day, never merge it.
-- The session's final message is the stand-up (that is how Ray sees it).
+- The session's final message is the stand-up, Nora's update first (that is how Ray sees it).
 
 ## Weekly (Sunday run, Nora)
 Re-date the road map; refresh RISKS (top 5 reviewed, scores moved); run or refresh the pre-mortem for the next
