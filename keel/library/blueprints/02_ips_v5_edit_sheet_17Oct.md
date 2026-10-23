@@ -15,7 +15,7 @@ New since the 14 Oct review: the 2031 range numbers on the WInS-only basis (`kee
 | "co-sponsors who fund the building rarely pay to run it" | "rarely" is not in the case; the SSIR source backs only "under-fund running costs" | base the reason on the case rule: payments come from the portfolio alone | Client_Profile.txt:91-92 |
 | "about $292,000 of Treasuries" | superseded 25 Sep idealised number; dollar figure in the pitch was voted against | remove the figure | 16 Oct cost is $298,087 and moving daily |
 | "further Treasuries secure her minimum" | "secure" implies a fixed payout; the IBTM trade note says "the final payout is not fixed" | describe the floor the same way the IBTM note does | TNA note 10/06 10:01 PM |
-| "Root-and-Branch" | name differs from COMPETITION.md ("Roots First") | use the one name the team votes (Set A) in TNA, IPS and Final Report alike | |
+| "Root-and-Branch" | name differs from competition/COMPETITION.md ("Roots First") | use the one name the team votes (Set A) in TNA, IPS and Final Report alike | |
 
 ## Paragraph 1 (line 20): objectives
 
@@ -48,7 +48,7 @@ New since the 14 Oct review: the 2031 range numbers on the WInS-only basis (`kee
 | V5 passage | Problem | The fix must... | Use |
 |---|---|---|---|
 | "held without trading" | contradicts the 2028 purchase | say held to maturity after the 2028 purchase | |
-| "income reinvested in the holding that paid it" | WInS will hold iBond distributions as cash around 6 Nov (frozen book) | word the income rule so the frozen WInS book is consistent with it | COMPETITION.md s8 |
+| "income reinvested in the holding that paid it" | WInS will hold iBond distributions as cash around 6 Nov (frozen book) | word the income rule so the frozen WInS book is consistent with it | competition/COMPETITION.md s8 |
 | shortfall order "2027 leftover, then the half Laura keeps, then the contribution above the floor" | never names the floor; the case says the range must protect the payments | complete the order so the payments rank above every facility dollar, floor included | Client_Profile.txt:119-120 |
 | "Our WInS portfolio shows this allocation, scaled down" | drops "after both deposits" | say the WInS book is the plan after both deposits at about two-thirds scale | |
 

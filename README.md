@@ -6,7 +6,7 @@ and set on one goal: **the Top 50 semifinal**. Client: Laura Gao.
 
 Keel leads the work. **Team Caplet** (Ray, Ahaan, Darren, Harry, Eric, Young) is the real team that enters: Keel
 plans, researches, checks and drafts; Caplet votes, rewrites in its own words and submits. Start with
-[`keel/README.md`](keel/README.md). Rules, dates and formats: [`COMPETITION.md`](COMPETITION.md). Claude sessions
+[`keel/README.md`](keel/README.md). Rules, dates and formats: [`competition/COMPETITION.md`](competition/COMPETITION.md). Claude sessions
 read [`CLAUDE.md`](CLAUDE.md) first.
 
 ## Deadlines (Sydney time)

@@ -56,7 +56,7 @@ quote.
 
 | ID | Verdict | Severity (old -> new) | Reason |
 |---|---|---|---|
-| COMM-01 | confirmed | high | All four lines are at V5:16/24/28/30. Case:85-86 says co-sponsors "may" fund operations. Number sheet:48 admits "cannot miss" is untrue. The 5 Oct reason for keeping "never below the floor" was STRIPS (final_report.md:24), and the 6 Oct email removed it. Already on COMPETITION.md:200, so known-deeper. |
+| COMM-01 | confirmed | high | All four lines are at V5:16/24/28/30. Case:85-86 says co-sponsors "may" fund operations. Number sheet:48 admits "cannot miss" is untrue. The 5 Oct reason for keeping "never below the floor" was STRIPS (final_report.md:24), and the 6 Oct email removed it. Already on competition/COMPETITION.md:200, so known-deeper. |
 | COMM-02 | adjusted | high -> medium | Counts reproduced. "18 rules" is the lens's own count. The "12 ideas" cap is an AI spec, not a Wharton rule. The scoresheet (:58) already flagged it, so not new. The IPS brief requires about ten topics (IPS:15-20), so the fix now cuts implementation detail, not required topics. |
 | COMM-03 | adjusted | high -> medium | Quotes correct. Mostly repackages COMM-01, COMM-04, IPS-08 and IPS-18. Corrected "$292,000 on the wrong basis" to "stale, basis unstated" (it is the payment-date basis). |
 | COMM-04 | adjusted | high | Numbers reproduced, but the guidance was one-sided (see above). "44-45%" odds are UNVERIFIED (not re-run). Fix rewritten: one named basis, dated, rule over level. |

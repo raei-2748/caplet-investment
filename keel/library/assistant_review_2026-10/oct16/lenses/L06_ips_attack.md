@@ -55,7 +55,7 @@ LibreOffice would not open files in this sandbox, so page fit is computed from f
   (case), `2026_WGY_Investment_Competition_Guide.txt`, `smapply_public_2026-10-14/deliverables.txt` and `faqs.txt`;
   live SMApply FAQ (re-fetched 16 Oct).
 - Team: `caplet/google_drive/ips_report/01_version_5.md` (V5), `05_trading_note_reflection_wins_trading_notes.md`
-  (the 11 filled notes), `COMPETITION.md`, `archive/rab/decisions/D_ips_edit_ledger.md`.
+  (the 11 filled notes), `competition/COMPETITION.md`, `archive/rab/decisions/D_ips_edit_ledger.md`.
 - New commit: `caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md`, `results.json`, `ips_numbers.py`,
   `IPS_v5_suggestions.md`; `caplet-latest/CLAUDE.md:27-30`; `caplet-latest/COMPETITION.md:141-143`.
 - Professional benchmark: CFA Institute, *Elements of an Investment Policy Statement for Individual Investors* (May
@@ -73,7 +73,7 @@ LibreOffice would not open files in this sandbox, so page fit is computed from f
 | Rule (exact source) | V5 status | Evidence | What the final must do |
 |---|---|---|---|
 | Title page, 1 page max (:84-85) | Pass if alone on page 1 | V5:6-12 | Page break after the username line |
-| "Official team name ... same as what you submitted with your official team roster" (:88-90) | UNVERIFIED | V5:8 "Caplet"; COMPETITION.md:117 says Caplet; the roster record is not in the repo | Copy from the SMApply roster record, not from memory |
+| "Official team name ... same as what you submitted with your official team roster" (:88-90) | UNVERIFIED | V5:8 "Caplet"; competition/COMPETITION.md:117 says Caplet; the roster record is not in the repo | Copy from the SMApply roster record, not from memory |
 | "Finalized team member names ... Format: First Name, Last Initial" (:92-96) | Format matches the sample ("Jordan A." :130) | V5:10 | Same spellings as the roster (legal vs preferred first names UNVERIFIED) |
 | "WInS username" (:98-100) | Placeholder in export | V5:12 "[removed]" | Copy from the WInS login; two students check |
 | Pages 2-3, 2-page max (:103-105) | Pass: 41 of 46 lines (Letter), 41 of 50 (A4) | `oct16/L06/fit.py` | With a blank line between the 9 blocks: 48 lines, so 2 lines onto page 4 on Letter. No blank lines, or use A4 (paper size is not specified) |
@@ -210,7 +210,7 @@ What the students' IPS must contain on certainty (no wording here):
 | $300,000 Jan 2027; $150,000 Jan 2028 | Correct ("beginning of 2027/2028") | case :43-45 |
 | Ten $50,000 payments, each January 2033-2042 | Correct | case :88-90 |
 | "about $292,000" at "late-September 2026 yields" (pitch and V5:24.3) | **Stale and on a superseded basis**: the 25 Sep idealised value ($292,264). On the 15 Oct curve: $294,461 on the payment-date basis; $298,628 on the basis of the holdings Caplet owns | CLAUDE.md Key facts; section 6.2 |
-| "a 2032 Treasury ETF" | Correct (IBTM, iBonds Dec 2032) | COMPETITION.md:176 |
+| "a 2032 Treasury ETF" | Correct (IBTM, iBonds Dec 2032) | competition/COMPETITION.md:176 |
 | "thousands of companies" | Safe (the VT note says "about 10,000 stocks") | `05_...md:14` |
 | "half" | A rule, not a fact; no stated reason | V5:30.1-30.4 |
 
@@ -260,7 +260,7 @@ Which figure for which IPS claim:
 | Where maturing money waits | Feb-2037 / May-2038: "proceeds held in a short-term Treasury ETF" (`:16-17`) | "income reinvested in the holding that paid it" (V5:26.1) | Yes |
 | Coupons | Nov-2039 / Nov-2041: "reinvested coupons fund the rest" (`:18`, `:24`) | "depends mainly on the US government" (V5:20.3) | Partly |
 | Scale | Notes say "$50,000 payment" while WInS holds about $33k per payment | "Our WInS portfolio shows this allocation, scaled down" (V5:26.5), with no date or scale | Unclear: WInS mirrors the post-2028 plan at about two-thirds; the 30 Sep draft said "after both deposits" (`D_ips_edit_ledger.md` L9) |
-| Stock share | WInS VT about 8.8% (167 x $158.83 / about $301.9k; COMPETITION.md:186-188) | Plan about 6.9% in Jan 2028 (`results.json:155`) | A 2-point gap to explain or accept |
+| Stock share | WInS VT about 8.8% (167 x $158.83 / about $301.9k; competition/COMPETITION.md:186-188) | Plan about 6.9% in Jan 2028 (`results.json:155`) | A 2-point gap to explain or accept |
 
 What a fix must achieve: the IPS describes the floor, the role of stocks, the waiting cash and the WInS scale exactly
 as the picked notes do, or the reflections explain the difference. Settle the words before the TNA reflections are
@@ -375,7 +375,7 @@ polish. "Known" refers to the 15 Oct brief (`oct14/final.md`, `oct14/ips_merge.m
 ### IPS-04 (high, known-deeper). Absolute words are false by the team's own numbers, and the [AI] list adds another
 - **Problem.** "secure" (pitch), "depends mainly on the US government" (V5:20.3), "never below the floor" (V5:28.1),
   "cannot miss the range" (V5:30.2). The model puts the gift outside the range in 0.6% of paths; the IBTM note says
-  the payout "is not fixed" (`05_...md:19`). COMPETITION.md:168 bans "risk-free" and "guaranteed", which mean the same.
+  the payout "is not fixed" (`05_...md:19`). competition/COMPETITION.md:168 bans "risk-free" and "guaranteed", which mean the same.
   `[AI]` #2 adds "only" for principal, which is false for the five iBond rungs.
 - **Fix.** Every certainty word is literally true on the WInS-listed holdings and matches the TNA. Where something is
   very likely but not certain, say so with a stated level or a stated condition.
@@ -449,7 +449,7 @@ polish. "Known" refers to the 15 Oct brief (`oct14/final.md`, `oct14/ips_merge.m
 
 ### IPS-12 (medium, known-deeper). Liquidity: V5's income rule cannot work as written, and waiting cash has no permitted home
 - **Problem.** "income reinvested in the holding that paid it" (V5:26.1). WInS bonds trade in $1,000-face units
-  (COMPETITION.md:181, "20 units ($20k face)"). The Feb-2037 bond's half-year coupon on that position is $475 (my
+  (competition/COMPETITION.md:181, "20 units ($20k face)"). The Feb-2037 bond's half-year coupon on that position is $475 (my
   arithmetic, 4.750%), too small to buy one unit, so cash must wait somewhere. The notes park proceeds in "a
   short-term Treasury ETF" (`05_...md:16-17`). The live FAQ's permitted list has stocks, ETFs and Treasury bonds, but
   not cash (FAQ, re-fetched 16 Oct). The word "liquidity" never appears.

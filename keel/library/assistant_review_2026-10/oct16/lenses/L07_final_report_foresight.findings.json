@@ -53,7 +53,7 @@
    "evidence": [
     "Page 3768, 2023-24: \"Page 4 must include two graphic/visual portfolio snapshots: Your team's WInS Portfolio [and] Your team's Final Re[commended Portfolio]\"; \"Why are your WInS Portfolio and Recommended Portfolio for Hilary the same? ... different?\" (accessed 16 Oct 2026)",
     "caplet/google_drive/sheets/portfolio_and_trading_notes/portfolio.csv:2 \"Laura's plan on 2 Jan 2028, after both deposits, scaled to WInS's $300,000 starting cash\"; :38-39 IBTM split 1,142 / 3,361 shares",
-    "COMPETITION.md:98 \"The WInS pie chart labels the iBond ETFs \\\"Long Equities\\\" (61.6%)\"",
+    "competition/COMPETITION.md:98 \"The WInS pie chart labels the iBond ETFs \\\"Long Equities\\\" (61.6%)\"",
     "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:56-62 (allocation Jan 2027 / Jan 2028 / 2033)",
     "oct16/lenses/L08_coherence_numbers.findings.json COH-06 (three mappings)"
    ],
@@ -93,11 +93,11 @@
     "FinalReport",
     "Trades"
    ],
-   "problem": "The Final Report must evaluate how effectively the IPS strategy was implemented. The team sheet's Trade Log is blank; only fill prices sit in COMPETITION.md, with no accrued interest, commissions or cash after each trade; fills slipped from the target Fri 2 Oct to 6-8 Oct; four notes sit on cancelled orders. Whether WInS history stays accessible after the season is unverified. Without records, the evaluation becomes memory and assertion.",
+   "problem": "The Final Report must evaluate how effectively the IPS strategy was implemented. The team sheet's Trade Log is blank; only fill prices sit in competition/COMPETITION.md, with no accrued interest, commissions or cash after each trade; fills slipped from the target Fri 2 Oct to 6-8 Oct; four notes sit on cancelled orders. Whether WInS history stays accessible after the season is unverified. Without records, the evaluation becomes memory and assertion.",
    "evidence": [
     "competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:75-77 \"your team will evaluate how effectively it implemented that strategy\"",
     "caplet/google_drive/sheets/portfolio_and_trading_notes/trade_log.csv:2-60 (all rows blank)",
-    "COMPETITION.md:172-188 (fills table; \"Every weight is within 0.2 pt of target\")",
+    "competition/COMPETITION.md:172-188 (fills table; \"Every weight is within 0.2 pt of target\")",
     "CLAUDE.md open items: \"target fills Fri Oct 2 ET, hard stop Oct 9\"",
     "oct14/final.md section 2: \"Four notes sit on cancelled orders\""
    ],
@@ -118,8 +118,8 @@
    "evidence": [
     "competition/official/2026_27/2026_WGY_Investment_Competition_Guide.txt:70-78 (WInS not the scorecard; not judged on making money)",
     "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:59 bonds \"pay out every six months\"; :63 corporate actions incl. \"bond coupons\"",
-    "COMPETITION.md:172-188 faces (May-2038 20 units, Nov-2039 18, Nov-2040 18, Nov-2041 20); caplet/google_drive/sheets/portfolio_and_trading_notes/portfolio.csv:25-29 coupons 4.500%, 4.375%, 4.250%, 3.125%; my arithmetic $450 + $393.75 + $382.50 + $312.50 = $1,538.75",
-    "COMPETITION.md:97 WInS shows the May-2038 bond's last coupon as 15 Aug (payment date in WInS UNVERIFIED)",
+    "competition/COMPETITION.md:172-188 faces (May-2038 20 units, Nov-2039 18, Nov-2040 18, Nov-2041 20); caplet/google_drive/sheets/portfolio_and_trading_notes/portfolio.csv:25-29 coupons 4.500%, 4.375%, 4.250%, 3.125%; my arithmetic $450 + $393.75 + $382.50 + $312.50 = $1,538.75",
+    "competition/COMPETITION.md:97 WInS shows the May-2038 bond's last coupon as 15 Aug (payment date in WInS UNVERIFIED)",
     "caplet/google_drive/ips_report/01_version_5.md:26 \"with income reinvested in the holding that paid it\""
    ],
    "fix": "Keep a weekly record 7 Nov-4 Dec: WInS value, cash, income received, ladder value vs the value of the payments it covers on that day's Treasury curve, VT value, 10-year yield. In the Final Report explain the cash build-up as a result of the freeze, and make the income wording match what WInS actually does.",
@@ -143,7 +143,7 @@
     "archive/rab/decisions/D_range_confidence_2031.md:3-4 \"MODEL, 28 Sep 2026 curve\"; :75",
     "archive/rab/decisions/D_certainty_definition.md:1 (banner present)",
     "caplet/deliverables/final_report_outline.md:5 \"$298k lock cost ... 2031 committed minimum ≈ $113k\"",
-    "COMPETITION.md:87-90 (6 Oct email)"
+    "competition/COMPETITION.md:87-90 (6 Oct email)"
    ],
    "fix": "Before 9 Nov the team lists which backlog items it actually wants, re-runs every kept number on WInS-listed holdings and the valuation date, and cites the AI origin in Works Cited. Success = no STRIPS-basis or 28 Sep number and no AI table presented as student work in the report.",
    "deadline": "Backlog triaged by Mon 9 Nov",
@@ -203,7 +203,7 @@
    "problem": "Articulation scores the decision-making process and 'response to challenges'. Caplet has real material (stale prices, IBTN mix-up, sector-rule myth, night trading, the 7 Oct cancelled order) but the journal stops 7 Oct with blanks, key calls were deferred to AI, and last year's report used quoted dialogue and vote counts under an instruction to make stories up. The 7 Oct cancellation was an AI browser click, so a truthful account names AI.",
    "evidence": [
     "caplet/google_drive/final_report.md:16 \"[who argued what]\"; :23 \"Outcome and reasons: [fill in]\"; :27 (night trading)",
-    "COMPETITION.md:192-193 \"on 7 Oct an AI browser click cancelled the wrong order (May-2038)\"",
+    "competition/COMPETITION.md:192-193 \"on 7 Oct an AI browser click cancelled the wrong order (May-2038)\"",
     "CLAUDE.md:75 \"the team deferred to the assistant's evidence-based calls\"",
     "caplet/google_drive/2025_knox_wharton.md:190 \"The vote was 4-2\"; :214 FMC loss story; :3827 \"Make up stories\"",
     "Rules page Ethics: do not \"invent teamwork and experiential stories\" (oct16/research/R2_past_rules_rubrics.md, section 1.6)"
@@ -265,7 +265,7 @@
     "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:59 \"uses data effectively to support conclusions\"",
     "oct16/research/KB_what_wins.md:195 (old 'visually pleasing ... many creative elements' dropped)",
     "caplet/deliverables/final_report_outline.md:7-15 (charts 01-05 of the old plan)",
-    "COMPETITION.md:98"
+    "competition/COMPETITION.md:98"
    ],
    "fix": "Plan five charts, each answering one client question: cash-flow timeline 2027-2042; the 2031 range; coupon-reinvestment sensitivity; ladder vs payments during WInS; allocation over time. Students build them from data they can explain.",
    "deadline": "Data collection from now; drafts by Sun 15 Nov",
@@ -284,7 +284,7 @@
    "evidence": [
     "competition/official/2026_27/2026_27_School_Documentation_Template.txt:1-28 (letterhead, administrator position, full address, advisor first and last name, students' first and last names, team leader first, signature, date)",
     "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:52 \"Do not wait until the last minute to request documentation.\"",
-    "COMPETITION.md:128-132 \"Request it early (not yet requested as of 13 Oct)\"",
+    "competition/COMPETITION.md:128-132 \"Request it early (not yet requested as of 13 Oct)\"",
     "Knox term dates page (accessed 16 Oct 2026)",
     "Rules page via oct16/research/R4_2026_27_specifics.md:342-343 (semifinal letterhead; Consent and Waiver, parent signature under 18)"
    ],
@@ -327,7 +327,7 @@
    "evidence": [
     "competition/official/2026_27/2026_WGY_Investment_Competition_Guide.txt:156-159 \"you may not redesign your strategy after observing the results\"",
     "caplet/google_drive/final_report.md:19-20 (stale prices; after-hours spreads)",
-    "COMPETITION.md:100, 192-193",
+    "competition/COMPETITION.md:100, 192-193",
     "2025-26 semifinal rule allowing reflection on weaknesses \"without changing the original strategy\" (oct16/research/KB_what_wins.md:214-215)"
    ],
    "fix": "Make a two-column list (implementation lesson vs strategy question) agreed by the team before drafting. Strategy weaknesses are stated as limitations with their size, never as changes.",

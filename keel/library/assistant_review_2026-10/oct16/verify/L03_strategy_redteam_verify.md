@@ -31,7 +31,7 @@ Both figures use the same 15 Oct 2026 Treasury par curve. They differ only in **
 - **The lenses (L03/L05/L08)** use the maturity-date, unch method. Two things make it higher:
   - Cash waits between each holding's maturity and the payment, earning nothing: +$3.4k. The gaps are 17 days for iBonds, 10.5 months for Feb-2037, 7.5 months for May-2038 and 1.5 months for the Nov bonds.
   - It assumes no roll-down: +$0.8k.
-  - This is the **team's own basis for the IBTR note**: 6 Oct gives $293,453 and 22.7bp, which is COMPETITION.md:153-154's "$293k ... about 0.2 percentage points".
+  - This is the **team's own basis for the IBTR note**: 6 Oct gives $293,453 and 22.7bp, which is competition/COMPETITION.md:153-154's "$293k ... about 0.2 percentage points".
 - **Which is right for which claim:**
   - *"What the payments cost" (IPS, Final Report):* use payment-date forward, about $294.5k. The plan puts waiting money in a short-term Treasury ETF (trade notes, 05_…md:16-17), which gives about $295.3k, so this is the realistic figure.
   - *"Has the IBTR note's 0.2-point trigger moved?" (TNA):* use L03's basis, because it matches the note. On that basis the trigger went from 0.23 to 0.05 points. On the payment-date basis it went from 0.38 to 0.19. Either way it has roughly halved or worse.
@@ -83,7 +83,7 @@ Both figures use the same 15 Oct 2026 Treasury par curve. They differ only in **
 
 **STRAT-06: Growth branch tiny; trade-off stated backwards. ADJUSTED (stays high).**
 - The sign error is real. Under gift = floor + half the fund, moving money from the floor to stocks lowers the expected gift. MODEL: median gift $175k with a $150k floor against $152k with a $100k floor.
-- COMPETITION.md:164 and V5:28 are verified as stating it the other way round.
+- competition/COMPETITION.md:164 and V5:28 are verified as stating it the other way round.
 - Corrections:
   - VT is about $32-35k (7-8%), not $35.2k. V5 keeps the 2027 leftover as the first buffer, outside VT. The number sheet says about $32k, about 7%.
   - The D_rivals percentiles are on the STRIPS basis, and the 15 Oct brief says not to quote them (final.md:437). Use them as internal evidence only.
@@ -96,7 +96,7 @@ Both figures use the same 15 Oct 2026 Treasury par curve. They differ only in **
   2. It ignores the number sheet's buffer option ($10-20k from the 2028 deposit). On L03's figures, dedication is cheaper. Put both on the same decision list.
 
 **STRAT-10: WInS rungs are about two-thirds of a payment. ADJUSTED (medium).**
-- Verified: 05_…md:20, :22 and :24. tickets.md has IBTO 1,016 against 1,503 shares (0.676). COMPETITION.md:177 shows 1,024 filled.
+- Verified: 05_…md:20, :22 and :24. tickets.md has IBTO 1,016 against 1,503 shares (0.676). competition/COMPETITION.md:177 shows 1,024 filled.
 - The fix said to add the mapping to "every reflection". That is too heavy under the 100-word cap (TNA-FINAL.txt:46). Add it only where a reflection discusses a dollar amount.
 
 **STRAT-07: "By construction" can read as a tautology. CONFIRMED (medium).**
@@ -104,7 +104,7 @@ Both figures use the same 15 Oct 2026 Treasury par curve. They differ only in **
 - The number sheet now gives the "where it lands" figures: 99.4% inside the range, typical gift about $167k, at or near the top about 3 times in 4. They must be rebuilt for the Final Report.
 
 **STRAT-08: The floor rule can make the branch vanish. ADJUSTED (medium; confidence high → medium).**
-- The two readings are verified: V5:24 says "remainder", COMPETITION.md:155-156 says "about $150k". This is known from final.md:431.
+- The two readings are verified: V5:24 says "remainder", competition/COMPETITION.md:155-156 says "about $150k". This is known from final.md:431.
 - Corrections:
   - Under V5's "remainder" reading the stock fund is a fixed share of what is left, about 14% at a 3% five-year yield. It shrinks but does not vanish unless yields are very low.
   - L03's $6k example mixes a 2-point yield fall with a top-up sized for a small fall.
@@ -113,7 +113,7 @@ Both figures use the same 15 Oct 2026 Treasury par curve. They differ only in **
 **STRAT-09: iBond mechanics glossed. CONFIRMED (medium).**
 - I re-fetched the IBTM page on 16 Oct 2026: "Weighted Avg Maturity 5.71 yrs as of Oct 14, 2026", fee 0.07%.
 - The IBTR page text is verified: "do not seek to return any predetermined amount", "transition to cash and cash-like instruments", net assets $109,148,633.
-- About 61% of the WInS book is in iBonds (from the COMPETITION.md:176-180 fills).
+- About 61% of the WInS book is in iBonds (from the competition/COMPETITION.md:176-180 fills).
 
 **STRAT-11: Operating reserve size and composition. CONFIRMED (medium).**
 - Verified: case line 96, IPS-FINAL.txt:48-49, V5:26, and SGOV at wins_notes.csv:33.

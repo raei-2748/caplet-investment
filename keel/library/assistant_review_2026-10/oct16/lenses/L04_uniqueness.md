@@ -372,7 +372,7 @@ No prose here. Each item names the deliverable, what a fix must achieve, the evi
   stale WInS bond prices caught and a 25bp yield-check rule adopted (29-30 Sep); "IBTN" found to be an unrelated
   company; STRIPS dropped after the 6 Oct email (`final_report.md:33-40`). Modal teams write generic teamwork lines.
   The 7 Oct mis-click is different: an honest account shows learning, but it also tells judges that an AI browser
-  operated WInS (`COMPETITION.md:192-193`). Wharton says "Students should place trades on WInS, NOT the advisor" (written about advisors, but it names students as the traders)
+  operated WInS (`competition/COMPETITION.md:192-193`). Wharton says "Students should place trades on WInS, NOT the advisor" (written about advisors, but it names students as the traders)
   (`smapply_public_2026-10-14/faqs.txt:34`). AI use must be recorded in Works Cited anyway (KB 4.2, [W5]).
 - **Evidence.** As above; L09 INT-08.
 - **Fix.** Record who, when, what changed and AI's role for each story. The team decides together, knowingly,
@@ -475,7 +475,7 @@ Before the team adopts any distinctive idea, all six answers must be yes:
   `smapply_public_2026-10-14/deliverables.txt`, `faqs.txt`.
 - Team files: `caplet/google_drive/ips_report/01_version_5.md`, `05_trading_note_reflection_wins_trading_notes.md`,
   `final_report.md`, `strategy_notes.md`, `notes_and_discussions.md`, `2025_knox_wharton.md`;
-  `keel/library/insight_v1/why_us.md`; `toolkit/docs/benchmark_against_previous_teams.md`; `COMPETITION.md`.
+  `keel/library/insight_v1/why_us.md`; `toolkit/docs/benchmark_against_previous_teams.md`; `competition/COMPETITION.md`.
 - 16 Oct commit: `caplet-latest/CLAUDE.md:26-30`; `caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md`,
   `IPS_v5_suggestions.md`, `ips_numbers.py`; `caplet-latest/competition/official_market_data/daily-treasury-rates_2026-10.csv`.
 - Evidence pack: `oct16/research/KB_what_wins.md` (tags [D1], [D4], [W5], [W6], [N12], [N22] etc. as cited there).

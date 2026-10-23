@@ -32,7 +32,7 @@ Source: `/home/user/snap/main/COMPETITION.md:147-168` and the case.
 - **Jan 2028 ($150k): top-up, floor, then growth.** First fill any gap in the ladder. Then buy a **floor** in IBTM that repays what is left by Dec 2032 (about $150k). Put the rest (about $33.5k) in **VT**, a world stock fund, untouched until 2033.
 - **2031: trade nothing.** Quote a range from the floor (rounded down) to the floor plus half of VT.
 - **2033:** the ladder pays the ten payments. The gift = floor + half of VT, capped at the announced top. The rest stays with Laura.
-- **WInS** (the competition simulator) holds the same plan scaled down to $300k: 11 filled trades on 7-8 Oct, cash $3,514 (COMPETITION.md:170-188). WInS gains never go into Laura's projections (case:129-133).
+- **WInS** (the competition simulator) holds the same plan scaled down to $300k: 11 filled trades on 7-8 Oct, cash $3,514 (competition/COMPETITION.md:170-188). WInS gains never go into Laura's projections (case:129-133).
 
 ---
 
@@ -135,7 +135,7 @@ The 14.872-year zero (5.431%) matches the chart pack's MODEL column (`oct20/char
 ## Chapter 3. Coupon bonds, iBond ETFs and STRIPS (and why STRIPS were out for us)
 
 ### The idea in 3 sentences
-There are three ways to have Treasury money arrive near a date: a **coupon bond** pays interest every six months plus $100 at the end, so you must reinvest the coupons along the way; a **STRIPS** (a zero-coupon Treasury) pays one sum on one date, with nothing to reinvest; an **iBond ETF** is a fund that holds many Treasuries maturing in one year, pays out monthly, and winds up on or about 15 December of its year. STRIPS would be the neatest match, but the rules exclude them: Wharton's 6 Oct email limits "both contributions" to "eligible stocks, ETFs and Treasury bonds available on WInS" (COMPETITION.md:87-90), and the live FAQ, re-read on 19 Oct, lists "STRIPS (Separate Trading of Registered Interest and Principal of Securities)" under "The following are NOT permitted" for "BOTH contributions, the IPS and Final Report" (`oct19/askwharton/web/faqs.txt:44-55`). WInS lists no Treasury bonds maturing between Feb 2031 and Feb 2036, so the iBond ETFs fill the 2033-2037 payments (COMPETITION.md:93-94).
+There are three ways to have Treasury money arrive near a date: a **coupon bond** pays interest every six months plus $100 at the end, so you must reinvest the coupons along the way; a **STRIPS** (a zero-coupon Treasury) pays one sum on one date, with nothing to reinvest; an **iBond ETF** is a fund that holds many Treasuries maturing in one year, pays out monthly, and winds up on or about 15 December of its year. STRIPS would be the neatest match, but the rules exclude them: Wharton's 6 Oct email limits "both contributions" to "eligible stocks, ETFs and Treasury bonds available on WInS" (competition/COMPETITION.md:87-90), and the live FAQ, re-read on 19 Oct, lists "STRIPS (Separate Trading of Registered Interest and Principal of Securities)" under "The following are NOT permitted" for "BOTH contributions, the IPS and Final Report" (`oct19/askwharton/web/faqs.txt:44-55`). WInS lists no Treasury bonds maturing between Feb 2031 and Feb 2036, so the iBond ETFs fill the 2033-2037 payments (competition/COMPETITION.md:93-94).
 
 ### Worked example: three ways to fund the 2042 payment
 1. **STRIPS (not allowed, but the benchmark).** One $50,000 on 15 Nov 2041, discounted at the 14.872-year zero yield of 5.431%: 50,000 / (1.027155)^(2 × 14.872). Compute it.
@@ -157,7 +157,7 @@ IBTM 1,142 x 21.865 = $24,970
 My independent rebuild of the coupon study's ten-rung sizing gives $298,453 against the study's $298,446 (`numbers_refresh.md:191`): a $7 difference from rounding.
 
 > **Common misconception: "STRIPS were banned because they are risky," or "iBond ETFs are stocks."**
-> STRIPS carry the same US-government credit as any Treasury (their prices swing more than coupon bonds', but held to maturity they are the cleanest match) **[checked: wording]**; they are out simply because the rules allow only WInS-listed stocks, ETFs and Treasury bonds, and the FAQ now names them. The iBond ETFs hold Treasuries; WInS's pie chart labels them "Long Equities", but the real mix of the book is about 90% Treasuries (COMPETITION.md:98; `numbers_refresh.md:301-302`). And an iBond ETF is not a promise of a dollar amount: iShares says the funds "do not seek to return any predetermined amount" (`charts_data_pack.md:98-99`).
+> STRIPS carry the same US-government credit as any Treasury (their prices swing more than coupon bonds', but held to maturity they are the cleanest match) **[checked: wording]**; they are out simply because the rules allow only WInS-listed stocks, ETFs and Treasury bonds, and the FAQ now names them. The iBond ETFs hold Treasuries; WInS's pie chart labels them "Long Equities", but the real mix of the book is about 90% Treasuries (competition/COMPETITION.md:98; `numbers_refresh.md:301-302`). And an iBond ETF is not a promise of a dollar amount: iShares says the funds "do not seek to return any predetermined amount" (`charts_data_pack.md:98-99`).
 
 ### Self-test
 - **Q3.1** How much does each coupon on our 18 units of the 4.375% Nov-2039 bond pay?
@@ -259,7 +259,7 @@ whole ladder shortfall at -2 (independent rebuild): $19,487
 ## Chapter 6. Cash-flow matching versus duration matching (LDI)
 
 ### The idea in 3 sentences
-**Liability-driven investing (LDI)** means building the assets around the payments you owe, as pension funds do. **Cash-flow matching** (also called dedication) buys assets whose cash arrives when each payment is due, so nothing has to be sold; **duration matching** (immunisation) buys assets whose duration equals the payments' duration, so small parallel moves in yields cancel out, but it must be rebalanced and can fail when the curve twists. Caplet's ladder is cash-flow matching for each rung's principal; the coupons are the part that is not matched (Chapter 5), and the team's own wording rule is "the ladder is cash-flow matching (not immunisation)" (COMPETITION.md:168).
+**Liability-driven investing (LDI)** means building the assets around the payments you owe, as pension funds do. **Cash-flow matching** (also called dedication) buys assets whose cash arrives when each payment is due, so nothing has to be sold; **duration matching** (immunisation) buys assets whose duration equals the payments' duration, so small parallel moves in yields cancel out, but it must be rebalanced and can fail when the curve twists. Caplet's ladder is cash-flow matching for each rung's principal; the coupons are the part that is not matched (Chapter 5), and the team's own wording rule is "the ladder is cash-flow matching (not immunisation)" (competition/COMPETITION.md:168).
 
 ### Worked example
 1. **A duration match with two funds.** Before the 6 Oct email limited Laura's plan to WInS-listed securities, the AI insight_v1 research looked at matching with IEF (duration 6.86 years) and TLT (14.88 years) (fund data of 24 Sep, `/home/user/snap/main/CLAUDE.md:163`). The payments' duration on payment dates is 9.90 years (19 Oct, my check; the same 9.90 as on the 25 Sep curve). Find the IEF weight w with w × 6.86 + (1 − w) × 14.88 = 9.90.
@@ -330,7 +330,7 @@ sim: 5-yr growth median 1.4016 (1.07^5=1.4026), mean 1.4884, p5 0.7939, share be
 The last line is a 200,000-path simulation: even at 7% a year, about 1 five-year path in 6 ends below where it started.
 
 > **Common misconception: "7% means stocks will return 7% every year," or "VT is the risky heart of our plan."**
-> 7% is one firm's long-run estimate (2026 edition), not a forecast for any year. JPM's 2027 edition is out, and its public page gives US large cap 7.5%, but its inflation figure is UNVERIFIED, so say "2026 edition" when you quote 7% (`oct20/inflation/inflation.md:48`). And VT is about 7% of Laura's money: the payments' principal never depends on it. **[checked: VT is also cover]** But Laura's half of VT is the second line of cover for coupon gaps, after the 2027 leftover (COMPETITION.md:161-162), so in bad reinvestment paths part of it does pay for payments. Mostly it sets the size of the gift above the floor.
+> 7% is one firm's long-run estimate (2026 edition), not a forecast for any year. JPM's 2027 edition is out, and its public page gives US large cap 7.5%, but its inflation figure is UNVERIFIED, so say "2026 edition" when you quote 7% (`oct20/inflation/inflation.md:48`). And VT is about 7% of Laura's money: the payments' principal never depends on it. **[checked: VT is also cover]** But Laura's half of VT is the second line of cover for coupon gaps, after the 2027 leftover (competition/COMPETITION.md:161-162), so in bad reinvestment paths part of it does pay for payments. Mostly it sets the size of the gift above the floor.
 
 ### Self-test
 - **Q7.1** If VT earned only 4% a year from 2028 to 2031, what would the top of the range be?

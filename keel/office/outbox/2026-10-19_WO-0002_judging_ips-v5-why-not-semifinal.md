@@ -12,11 +12,11 @@ Context (team report, UNVERIFIED by the office): a former Wharton judge told the
 ## Evidence
 - Layout: rendered at Times New Roman 12 pt (metric-compatible Liberation Serif), double-spaced, 1" margins, US Letter, via LibreOffice: 2 pages, 41 of 46 lines (office render, 19 Oct; the fact-checker re-rendered it independently and got the same). Words: 47 / 497 by spaces; `keel/office/tools/textcheck.py` strict count 50 / 505, so the body is over the limit on the house strict count and the pitch has no margin. Gate text: `2026_WGY_Investment_Policy-FINAL.txt:82-83`.
 - Case: `Laura_Gao_2026_Client_Profile.txt:69-73, 85-86, 91-92, 117-118, 126-127`. Criteria: `smapply_public_2026-10-14/deliverables.txt:55, 59`. V5: `caplet/google_drive/ips_report/01_version_5.md:16-30`; the comment is at `:36`.
-- 7-9%: a floor returning $150k bought in Jan 2028 at the 25 Sep 5-year yield (4.98%) costs about $117.9k, leaving about $32k (7.1% of $450k); `COMPETITION.md` s7 says "~9%". WInS: VT at its 7-8 Oct fill cost ($26.5k) is 8.8% of the 13 Oct account value (`COMPETITION.md` s8). $298.6k / $1.4k: `keel/library/assistant_review_2026-10/04_What_Stops_Us_Winning_16Oct2026.md:20, 217-222`.
+- 7-9%: a floor returning $150k bought in Jan 2028 at the 25 Sep 5-year yield (4.98%) costs about $117.9k, leaving about $32k (7.1% of $450k); `competition/COMPETITION.md` s7 says "~9%". WInS: VT at its 7-8 Oct fill cost ($26.5k) is 8.8% of the 13 Oct account value (`competition/COMPETITION.md` s8). $298.6k / $1.4k: `keel/library/assistant_review_2026-10/04_What_Stops_Us_Winning_16Oct2026.md:20, 217-222`.
 
 ## Limits
 - UNVERIFIED: which of these, if any, the judge meant. The live Google Doc may be newer than the 14 Oct export, and Tab 15 (a reordered V5) was not reviewed.
-- Finding 1 is a judgement. Buying the floor up front is defensible (better bad case, lower median: `COMPETITION.md` s7). The office does not recommend a floor size; that is a strategy decision.
+- Finding 1 is a judgement. Buying the floor up front is defensible (better bad case, lower median: `competition/COMPETITION.md` s7). The office does not recommend a floor size; that is a strategy decision.
 - Not checked: whether the title-page names match the submitted roster exactly (a hard gate; the WInS username is removed in the export). How Wharton counts words is UNVERIFIED.
 
 ## For the team

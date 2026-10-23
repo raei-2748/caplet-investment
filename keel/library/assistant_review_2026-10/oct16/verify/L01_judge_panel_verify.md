@@ -29,7 +29,7 @@ assuming that waiting cash earns market forward rates. The "holdings" figure ass
 from the curve basis (forward against unchanged).
 
 **Correction to the lens.** L01 says only the holdings basis fits Caplet's claims. That is too strong. $298.6k is a
-cautious upper bound. It matches the team's own "executable" basis (`keel/routines/tasks/MONITOR.md:22`; `COMPETITION.md:153-154`) and the
+cautious upper bound. It matches the team's own "executable" basis (`keel/routines/tasks/MONITOR.md:22`; `competition/COMPETITION.md:153-154`) and the
 IBTR note's 0.2-point test. But the notes say waiting cash sits "in a short-term Treasury ETF"
 (`caplet/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:16-17`). On that assumption the cost is
 about $295.3k.
@@ -63,7 +63,7 @@ The sheet's 35% chance of costing more than $300k is anchored to $294,453 (`ips_
 | JUDGE-15 | confirmed | medium | **Verified:** five names for the stock fund and three for the floor. "Defined-maturity Treasury ETF" is never explained. |
 | JUDGE-16 | confirmed | medium | **Verified:** the 11 fills span about 24.5 hours. TNA:11-13 is quoted correctly. **Note:** TNA:20-23 says no reserve calculations are expected yet, so a dated figure is optional, and it must name its basis if used. |
 | JUDGE-17 | adjusted | medium → low | **Verified:** the bond seat and the 2025-26 semifinal case-study and "no new material" rules. **Weak:** the 2026-27 semifinal rules are UNVERIFIED, and this matters only after the Top 50. |
-| JUDGE-18 | adjusted | low | **Verified:** 47 / 497 by whitespace. A stricter counter gives 514. **Corrected:** the team name *is* on file in the team's record (COMPETITION.md:117). It still needs checking against the submitted roster. |
+| JUDGE-18 | adjusted | low | **Verified:** 47 / 497 by whitespace. A stricter counter gives 514. **Corrected:** the team name *is* on file in the team's record (competition/COMPETITION.md:117). It still needs checking against the submitted roster. |
 
 ## Findings the lens missed (added)
 

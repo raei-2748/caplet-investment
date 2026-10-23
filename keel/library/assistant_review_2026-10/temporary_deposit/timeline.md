@@ -30,7 +30,7 @@ student's own memory can fill the gap, and if nobody remembers, it stays blank.
   **WN:line**). These are **order** times, not fill times.
 - **Official**: Guide, case and instruction PDFs (`competition/official/2026_27/`), SMApply snapshot of 14 Oct
   (`smapply_public_2026-10-14/`, cited **TRD** = trading.txt, **FAQ** = faqs.txt).
-- **Wharton emails**: only one is quoted anywhere in the repo (the 6 Oct "Week-2 email", `COMPETITION.md:87-90`).
+- **Wharton emails**: only one is quoted anywhere in the repo (the 6 Oct "Week-2 email", `competition/COMPETITION.md:87-90`).
   No Wharton email is stored in the repo or on the Caplet Drive. A read-only Gmail search of the account this AI
   session runs under found no Wharton email (20 Oct).
 
@@ -156,7 +156,7 @@ calendar). **T** = team file activity whose author is unknown.
 | 60 | 13 Oct | - | A scheduled AI routine writes its "baseline" check: "AMBER ... the Deliverables tab is still empty". It runs from the team leader's machine (`/Users/ray/Research/caplet-monitor/`) | `snap/main/ops/monitor_reports/2026-10-13 Caplet check.md:1-4`; `keel/routines/tasks/scheduled_tasks/*.md` | AI | A / medium |
 | 61 | **Tue 13 Oct 19:11 AEDT** | 13 Oct 08:11:17 | Comment on the V4/V3 page: "This page is for us to humanise V3" (still open) | `oct19/drive/ips_report_live.md:298` | Owner account (who typed: UNVERIFIED) | T / strong |
 | 62 | **Tue 13 Oct 19:15 AEDT** | 13 Oct 08:15:50 | Comment "Content is LOCKED but we need to rewrite by ourselves", resolved at the same timestamp | `oct19/drive/ips_report_live.md:299-300` | Owner account | T / strong |
-| 63 | Wed 14 Oct 21:16-21:50 AEDT | 14 Oct 10:16-10:50 | Onboarding commit: `COMPETITION.md`, `START_HERE.md`, read-only exports of all team Docs/Sheets, STRIPS banners, scheduled routines (including mock-judge panels on 19 Oct, 1 Nov, 22 and 30 Nov). PR #5 merged 21:50. Codex bot reviews it | `44f1296`, `2affd4c`; PR #5; COMP:29-30 | Ray identity + AI trailer; merged by repo-owner account | A / strong |
+| 63 | Wed 14 Oct 21:16-21:50 AEDT | 14 Oct 10:16-10:50 | Onboarding commit: `competition/COMPETITION.md`, `caplet/START_HERE.md`, read-only exports of all team Docs/Sheets, STRIPS banners, scheduled routines (including mock-judge panels on 19 Oct, 1 Nov, 22 and 30 Nov). PR #5 merged 21:50. Codex bot reviews it | `44f1296`, `2affd4c`; PR #5; COMP:29-30 | Ray identity + AI trailer; merged by repo-owner account | A / strong |
 | 64 | after 14 Oct | - | Notes & Discussions gets no new content after this (only a tab rename on 17 Oct) | `oct19/verify/verify_numbers_office_notes.md:63` | - | T / strong |
 
 ### Phase 6. AI suggestions and exemplars in the Doc (15 to 18 Oct)
@@ -287,7 +287,7 @@ request" is quoted, not confirmed.
 | L11 | 6-7 Oct ET | AI browser agent (product UNVERIFIED) | Operated WInS screens (ticket filling "up to Preview"); one wrong cancellation (May-2038) | COMP:192-193 | not recorded | **No. Must be logged** (the WInS record shows the cancellation) |
 | L12 | 6-7 Oct ET | (from L8 and L10) | The executed note wording draws on AI EXAMPLE and audit drafts (the VT note's last clause matches the exemplar word for word) | WN:14-24; `oct19/verify/verify_tna_judges_sheets.md:56` | - | **No. Needed for the TNA itself** |
 | L13 | from 13 Oct | Claude scheduled routines (monitor, rules watcher, mock judges, evidence lab) on the team leader's machine | Twice-weekly checks; the 13 Oct baseline; planned mock-judge panels | `keel/routines/` | not recorded | No (whether they still run: UNVERIFIED) |
-| L14 | 14 Oct | Claude Code | `COMPETITION.md`, `START_HERE.md`, Drive exports, STRIPS banners | `44f1296` | not recorded | No |
+| L14 | 14 Oct | Claude Code | `competition/COMPETITION.md`, `caplet/START_HERE.md`, Drive exports, STRIPS banners | `44f1296` | not recorded | No |
 | L15 | before 14 Oct (undated) | unknown AI tool(s) | IPS tabs V1-V4 and Tab 10 hold AI exemplar text (V1 "EXEMPLAR ONLY"); Tab 15 holds Chinese AI edit notes | IPS Doc; `oct19/verify/verify_ips_exemplars.md:62-66` | not recorded | No |
 | L16 | 15-16 Oct and 19 Oct | Claude Code (this review series) | Review 30 Sep-15 Oct, 15 Oct brief, 16 Oct "What stops us winning" | PRs #6, #10 | not recorded | No (main's log jumps from 30 Sep to 18 Oct) |
 | L17 | 16 Oct | Claude Code | IPS number sheet; 13 [AI] suggestions written into V5; [AI] tags removed; compliance suggestions | Branch `claude/fervent-edison-sqk1ry` | "Ray's 16 Oct rule", "At Ray's request" | Only on the unmerged branch (rows 77-79). Merge those rows |

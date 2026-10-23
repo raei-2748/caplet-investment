@@ -31,15 +31,15 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
 - Team Keel (22 Oct, Ray; made the repo's leaders on 23 Oct): `keel/` = six FICTIONAL personas who do the same
   competition and run the office; a new research-based diary episode every day (scheduled task). Their events are fiction and never go into Caplet's
   deliverables as Caplet's experience; their research findings may be used after re-checking.
-- Full rules, dates, formats, portfolio and open items: `COMPETITION.md` (single source of truth). Onboarding: `START_HERE.md`.
+- Full rules, dates, formats, portfolio and open items: `competition/COMPETITION.md` (single source of truth). Onboarding: `caplet/START_HERE.md`.
 - Roster submitted (locked). All 11 WInS orders filled 7-8 Oct: iBond ladder IBTM/IBTO/IBTP/IBTQ/IBTR + T-bonds
   Feb-2037, May-2038, Nov-2039, Nov-2040, Nov-2041 + VT 167. 11/200 trades, cash $3,514, about $303.4k
-  at the 19 Oct close (bonds MODEL-priced; see `COMPETITION.md` section 8). Plan: hold.
+  at the 19 Oct close (bonds MODEL-priced; see `competition/COMPETITION.md` section 8). Plan: hold.
 - 6 Oct Wharton email: Laura's real plan may use only WInS-listed stocks, ETFs and Treasury bonds. STRIPS-based
   numbers below and in `keel/library/insight_v1/` are superseded (banners added). The floor is IBTM.
 - Public SMApply FAQ, live 20 Oct: TIPS and STRIPS are now listed as NOT permitted, the permitted list is "for BOTH
   contributions, the IPS and Final Report", and the public $5 stock floor is gone (the WInS session rules showed $3
-  on 29 Sep) (`COMPETITION.md` section 4; snapshot in `competition/official/2026_27/smapply_public_2026-10-20/`).
+  on 29 Sep) (`competition/COMPETITION.md` section 4; snapshot in `competition/official/2026_27/smapply_public_2026-10-20/`).
 - IPS latest draft = Google Doc "IPS Report" tab "Version 5" (export in `caplet/google_drive/ips_report/`, 14 Oct).
   Read 19 Oct: the live Doc holds 10 pending AI suggestions (7 in Version 5) and [AI] text; the export predates them.
 - IPS numbers rebuilt 16 Oct on the 15 Oct curve: `keel/library/ips_numbers_2026-10/IPS_number_sheet.md`. Ladder ~$294k

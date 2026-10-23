@@ -1,4 +1,4 @@
-> **Update 2026-10-14:** historical only. For 2026-27 there is no approved list: any ETF on WInS, eligible stocks and US Treasury bonds on WInS are allowed. See COMPETITION.md.
+> **Update 2026-10-14:** historical only. For 2026-27 there is no approved list: any ETF on WInS, eligible stocks and US Treasury bonds on WInS are allowed. See competition/COMPETITION.md.
 
 # 2025-26 historical materials (authority: HISTORICAL_ONLY)
 

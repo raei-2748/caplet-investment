@@ -16,7 +16,7 @@ You are part of the Caplet Research Office for Team Caplet (Wharton Global High 
    /ai-policy/). Fetch with `python3 keel/library/insight_v1/scripts/fetch_text.py URL --grep "phrase"`.
 2. Repo snapshots: `competition/official/2026_27/` (PDF text versions, `smapply_public_2026-10-14/`; FAQ and Trading
    re-fetched in `smapply_public_2026-10-20/`, whose README lists what changed).
-3. `keel/routines/monitor_reports/RULES_CHANGES.md`, `COMPETITION.md` (our summary; never the final word).
+3. `keel/routines/monitor_reports/RULES_CHANGES.md`, `competition/COMPETITION.md` (our summary; never the final word).
 
 ## Rules
 - Quote exactly, with path:line or URL + access date. Say whether the live page and the snapshot differ.

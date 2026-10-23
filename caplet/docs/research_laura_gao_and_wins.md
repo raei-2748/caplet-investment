@@ -2,7 +2,7 @@
 
 *Knox team — Wharton Global High School Investment Competition 2026–27. Compiled 24 Sep 2026.*
 
-> **Update 2026-10-14:** the WInS rows below are now verified (official): $300,000 virtual cash; stocks, any ETF on WInS and US Treasury bonds on WInS are tradeable; $25 per stock/ETF trade, $10 per Treasury bond trade; max 200 trades; no sector rule. The 6 Oct Wharton email limits recommendations for both contributions to WInS-listed stocks, ETFs and Treasury bonds, so the reserve is held in WInS (iBonds IBTM-IBTR + listed T-bonds), not on paper. See COMPETITION.md.
+> **Update 2026-10-14:** the WInS rows below are now verified (official): $300,000 virtual cash; stocks, any ETF on WInS and US Treasury bonds on WInS are tradeable; $25 per stock/ETF trade, $10 per Treasury bond trade; max 200 trades; no sector rule. The 6 Oct Wharton email limits recommendations for both contributions to WInS-listed stocks, ETFs and Treasury bonds, so the reserve is held in WInS (iBonds IBTM-IBTR + listed T-bonds), not on paper. See competition/COMPETITION.md.
 
 ---
 

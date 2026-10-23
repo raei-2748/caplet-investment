@@ -206,7 +206,7 @@ Test key: **Explicit** = the case says it. **Derived** = arithmetic on case numb
 12. Not "she can tell a real confidence interval from a made-up one" (notes:339), not "as a statistician she will appreciate", not "she's not a typical artist" (notes:376), not "furthest yet from traditional finance" (notes:492; that contradicts case:16-17).
 13. Do not imply she has other money for the plan ("her other assets"), or that she will top up (case:91-92).
 14. Do not state real-world plans as hers (moving to Taiwan, opening a residency) outside the case's "plans to" framing.
-15. Do not call her "fictional". COMPETITION.md:49 did; the right framing is a real client in a case scenario (KB_what_wins.md:82).
+15. Do not call her "fictional". competition/COMPETITION.md:49 did; the right framing is a real client in a case scenario (KB_what_wins.md:82).
 16. Never contact her, tag her, email her or seek her comment, including for "fact-checking" (client.txt:23).
 
 **Final pass test (students run it):** read each client sentence and ask three questions. Is this in the case, or cited and labelled? Would Laura be comfortable reading this about herself? Does it help "earn her confidence"? A "no" to any of them means cut or rewrite.

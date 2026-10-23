@@ -4,11 +4,11 @@ Scope: the evidence pack I received stops partway through finding rules-11. I co
 
 ## A. Errors and mis-citations in the draft (fix first)
 
-1. **Item 31 sends one fix to the wrong file.** It says "Fix COMPETITION.md: … the freeze is 4:00 pm ET". COMPETITION.md already says 4:00 pm (COMPETITION.md:21, :72). The files that are actually wrong appear in §4 but in no action item:
+1. **Item 31 sends one fix to the wrong file.** It says "Fix competition/COMPETITION.md: … the freeze is 4:00 pm ET". competition/COMPETITION.md already says 4:00 pm (competition/COMPETITION.md:21, :72). The files that are actually wrong appear in §4 but in no action item:
    - toolkit/config/wharton_private_2026_27.yaml:76
    - toolkit/config/competition.yaml:17-18
    - toolkit/docs/wharton_workflow_v2.md:116 ("Any last trades must be placed before 6 Nov, 5:00 pm ET")
-   - START_HERE.md:47, which gives no time at all
+   - caplet/START_HERE.md:47, which gives no time at all
    Point item 31 at these files instead.
 
 2. **Item 25 contradicts itself.** It says "Submit on Thu 5 Nov (Sydney)… If a trade is unavoidable, place it in US market hours by Thu 5 Nov ET".
@@ -16,7 +16,7 @@ Scope: the evidence pack I received stops partway through finding rules-11. I co
    - Fix: last trade by Wed 4 Nov ET close (= Thu 5 Nov 08:00 Sydney), then submit.
    - Add the reason from rules-6: bond orders fill at end-of-day prices (archive/rab/trades/friday_checklist.md:22).
 
-3. **§5 mis-cites a date.** It says "about $301,950 (+0.65%) on 9 Oct (COMPETITION.md:188)". COMPETITION.md:188 actually reads "Value about $301,950 on 13 Oct (+0.65%)". Either cite it correctly or explain why the date was changed.
+3. **§5 mis-cites a date.** It says "about $301,950 (+0.65%) on 9 Oct (competition/COMPETITION.md:188)". competition/COMPETITION.md:188 actually reads "Value about $301,950 on 13 Oct (+0.65%)". Either cite it correctly or explain why the date was changed.
 
 4. **Item 3: delete is the wrong fix for r4_hist_original.py.** The item says "line 6 of archive/rab/rescued/r4_hist_original.py (delete that one file only…)". That file is itself cited as preserved evidence, at archive/rab/inventory.md:210 and archive/rab/rescued/ladder_history_2000_2026.py:6. Redact the path on line 6 rather than deleting the file.
 
@@ -40,7 +40,7 @@ Scope: the evidence pack I received stops partway through finding rules-11. I co
 
 9. **Item 10 asks for a vote that has already happened.** It lists "the strategy name" as a vote item, but §6 G1 says "Root-and-Branch, settled 1 Oct", and rules-10 says no new naming decision is needed.
    - Change the item to "confirm".
-   - Add the places where "Roots First" still appears: COMPETITION.md:147 and :204, keel/routines/claude_lab/00-judge-lens/README.md:3 and :36, and the file names of AI exemplars v13 and v14.
+   - Add the places where "Roots First" still appears: competition/COMPETITION.md:147 and :204, keel/routines/claude_lab/00-judge-lens/README.md:3 and :36, and the file names of AI exemplars v13 and v14.
 
 10. **The word-count targets conflict with each other.**
     - The draft uses "pitch 45 … IPS 485" (item 24), "Word budget about 480" (§7) and "45 words or fewer" (§7 objective 5).
@@ -53,19 +53,19 @@ Scope: the evidence pack I received stops partway through finding rules-11. I co
 ## B. Confirmed findings or decisions missing from the "Do this" list
 
 - **Stock minimum in the configs:** `min_share_price_usd: 3` at toolkit/config/competition.yaml:44 and toolkit/config/wharton_private_2026_27.yaml:72 should become 5.
-- **COMPETITION.md:77 wrong source:** it credits "US Treasuries" to the 6 Oct email. That limit comes from the Session Rules (wins_notes.csv:9). §4 notes the error, but item 31 does not fix it.
+- **competition/COMPETITION.md:77 wrong source:** it credits "US Treasuries" to the 6 Oct email. That limit comes from the Session Rules (wins_notes.csv:9). §4 notes the error, but item 31 does not fix it.
 - **Weekly emails:**
   - Save Week-1, the 6 Oct email and every later email privately, with date, sender and subject.
   - Write down the 6 Oct email's arrival time in ET. Gate G3 depends on it, but item 12 only says to copy activity rules.
-  - Record the outcome ("activity requirement: none found, [date]") in COMPETITION.md (rules-9).
+  - Record the outcome ("activity requirement: none found, [date]") in competition/COMPETITION.md (rules-9).
 - **Roster status:** toolkit/config/team_roster.json and CLAUDE.md:46-47 still say "pending", although CLAUDE.md:8 says the roster was submitted. No item fixes this.
 - **Repo pointers that still call V5 current or say to refine it:**
   - CLAUDE.md:12
-  - START_HERE.md:9
-  - COMPETITION.md:22 ("Version 5 draft") and :199-201
+  - caplet/START_HERE.md:9
+  - competition/COMPETITION.md:22 ("Version 5 draft") and :199-201
   - caplet/google_drive/ips_report/README.md:6 and :10 ("CURRENT")
   Item 1 marks only the Google tabs.
-- **Item 6 gives no location for the rule to delete.** Give COMPETITION.md:193 plus the live routine copies on Ray's Mac.
+- **Item 6 gives no location for the rule to delete.** Give competition/COMPETITION.md:193 plus the live routine copies on Ray's Mac.
 - **Removing the username will break the ips-final gate.** The gate check at keel/routines/tasks/MONITOR.md:33 uses the hard-coded names. Re-point it to the private roster note at the same time.
 - **The October rule needs a decision path.**
   - Under archive/rab/trades/october_trade.md:20-24 and :43, the check uses the 14 Oct close, and the trade window closes Wed 21 Oct 06:30 Sydney.
@@ -73,12 +73,12 @@ Scope: the evidence pack I received stops partway through finding rules-11. I co
   - Item 11 says only "check whether … listed". Add: "if it is listed, the team votes by Sun 18 Oct to run D or retire the rule; record the result in the decision log."
   - "Formally retire the rule" is a whole-team vote, not a job for the trader and checker. Fold it into vote set A.
 - **Item 33 leaves out §12's own gate fixes:**
-  - The TNA gate runs 23 Oct (COMPETITION.md:29-30), after the planned Thu 22 Oct submission.
+  - The TNA gate runs 23 Oct (competition/COMPETITION.md:29-30), after the planned Thu 22 Oct submission.
   - The TNA mock judge runs 19 Oct, before the student reflections exist (item 16, Tue 20 Oct).
   - The IPS gate runs 6 Nov, after the Thu 5 Nov submission.
   - Add: move or pause these routines, check that each pick shows "Filled", and check names against the private roster note.
 - **Earlier review items with no action:** P7 (truncated PDF) and P11 (old results at CLAUDE.md:152-155) appear in §14 but have no item. Item 32 should name CLAUDE.md's STRIPS-era older sections (for example the TLH note pick) explicitly.
-- **Low priority:** the smapply_public_2026-10-14 snapshots have no manifest hashes. The Doc and Sheet IDs at COMPETITION.md:223 and MONITOR.md:25-26 need a keep-or-remove decision.
+- **Low priority:** the smapply_public_2026-10-14 snapshots have no manifest hashes. The Doc and Sheet IDs at competition/COMPETITION.md:223 and MONITOR.md:25-26 need a keep-or-remove decision.
 
 ## C. Sequencing problems
 
@@ -111,7 +111,7 @@ Scope: the evidence pack I received stops partway through finding rules-11. I co
 - **§6 IBTM:** "the refinement: the 5 Oct log kept 'never below the floor' because the real plan used STRIPS; the 6 Oct email moved the real floor into IBTM, whose payout is not fixed, so the floor is quoted rounded down". This is the whole reflection argument in sentence form.
 - **§6 IBTR:** "if yields fall past the line, the 2028 deposit tops up and the facility gets less, while payments are never cut". Also "one clause on scale: WInS shows the plan after both deposits, at about two-thirds size".
 - **§6 VT:**
-  - "a lower median gift for a much better bad case" repeats the AI wording at COMPETITION.md:162, so students who reuse it would be submitting AI wording.
+  - "a lower median gift for a much better bad case" repeats the AI wording at competition/COMPETITION.md:162, so students who reuse it would be submitting AI wording.
   - "half lifts the gift; half is Laura's cushion" is also ready to paste.
 - **§6:** "Together they follow the IPS order: roots, then floor, then branch." This is a ready-made slogan.
 - **§7 objective 2:** "The payments rank above every facility dollar, the floor included." This reads as an IPS sentence.
@@ -134,13 +134,13 @@ Scope: the evidence pack I received stops partway through finding rules-11. I co
   - $191k/$202k/$213k against $165k/$174k/$189k ("STRIPS basis, 28 Sep")
   - $503k/$466k/$447k (28 Sep)
   - $174k/$161k (basis not stated)
-- **The floor definition is incomplete.** The glossary defines the floor as "the 2028 Treasury holding (IBTM)". In WInS, IBTM also covers the 2033 payment (COMPETITION.md:178), so the IBTM reflection's "two jobs" will be confusing unless both are defined.
+- **The floor definition is incomplete.** The glossary defines the floor as "the 2028 Treasury holding (IBTM)". In WInS, IBTM also covers the 2033 payment (competition/COMPETITION.md:178), so the IBTM reflection's "two jobs" will be confusing unless both are defined.
 - **"tested / refined / aligned" look like jargon,** but they are Wharton's own words (Trading_Notes_Analysis-FINAL.txt:12, :29). Say so.
 - **The AI judge scores look precise** (8.2, 7.0). Add: "AI opinion; gaps under 1 point mean nothing."
 
 ## G. The "Do this" list is too long to act on
 
-The list has 34 numbered items. Items 3, 7, 10, 20, 24, 28, 31 and 33 each bundle 3-9 sub-tasks; item 31 alone has 9 COMPETITION.md fixes plus 3 Google Doc fixes. Week 1 has 13 items in 4 days.
+The list has 34 numbered items. Items 3, 7, 10, 20, 24, 28, 31 and 33 each bundle 3-9 sub-tasks; item 31 alone has 9 competition/COMPETITION.md fixes plus 3 Google Doc fixes. Week 1 has 13 items in 4 days.
 
 Suggested restructure:
 - **A "Top 6 before the TNA" box:**
@@ -152,4 +152,4 @@ Suggested restructure:
   6. Item 19: paste, check and submit.
 - **A separate privacy track (items 2-4)** with one owner other than Ray.
 - **Move the Final Report (26-30) and Housekeeping (31-34) items** into a checklist to be reissued on 25 Oct and 9 Nov.
-- **Split item 31** into "COMPETITION.md and config fixes" and "live Google Doc fixes", each with its own owner.
+- **Split item 31** into "competition/COMPETITION.md and config fixes" and "live Google Doc fixes", each with its own owner.

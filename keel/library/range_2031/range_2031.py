@@ -1,7 +1,7 @@
 """Laura's 2031 facility-contribution range: what she would quote, and with what confidence.
 
 AI-generated research (Claude Code) for Team Caplet. NOT submission text; log it in the AI-use record.
-Basis: the "Roots First" plan in COMPETITION.md s7, WInS-listed securities only (6 Oct Wharton email):
+Basis: the "Roots First" plan in competition/COMPETITION.md s7, WInS-listed securities only (6 Oct Wharton email):
   Jan 2027  $300k buys the ladder (IBTM-IBTR + five T-bonds) for the ten $50k payments.
   Jan 2028  $150k: fill any ladder gap, buy IBTM sized to return the remainder (the floor), rest + 2027 leftover in VT.
   Jan 2031  quote: bottom = floor (rounded down to $5k after any expected ladder shortfall);

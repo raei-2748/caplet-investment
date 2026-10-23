@@ -136,7 +136,7 @@
    "Laura_Gao_2026_Client_Profile.txt:40-41 'objectives that reflect both her entrepreneurial mindset and her passion for innovation'",
    "Laura_Gao_2026_Client_Profile.txt:9 'the investment strategy that Laura ultimately chooses'",
    "Laura_Gao_2026_Client_Profile.txt:126-128 'Teams may reach different conclusions about risk ... and the financial flexibility Laura should preserve.'",
-   "COMPETITION.md:156-157 '(~9% of all money) in one world stock fund'",
+   "competition/COMPETITION.md:156-157 '(~9% of all money) in one world stock fund'",
    "caplet/google_drive/notes_and_discussions.md:101 'All three also said it looks too timid'; :124 'The leap is the residency itself.'; :286-302 floor-size table (MODEL)",
    "caplet-latest/research/ips_numbers_2026-10/results.json allocation_jan2028_typical VT 0.069",
    "caplet-latest/research/ips_numbers_2026-10/IPS_v5_suggestions.md:15 (suggestion 7)"
@@ -147,7 +147,7 @@
   "deadline": "TNA by Thu 22 Oct (due Sat 24 Oct 08:00 Sydney); IPS Sat 7 Nov",
   "lens": "L02_client_forensic",
   "verdict": "adjusted",
-  "verifier_note": "Case quotes (lines 9, 40-41, 126-128) and notes :101/:124/:286-302 confirmed. Corrected: on the 16 Oct basis VT is about $32k, about 7% of the Jan 2028 portfolio (results.json allocation VT 0.069), not 9% (COMPETITION.md:156-157 is the 28 Sep figure). The trade-off sentence is already a known item (COMPETITION.md:164, :199-200; 15 Oct brief objective 4), so severity lowered to medium. The 'timid' verdict is AI role-play, not evidence about judges."
+  "verifier_note": "Case quotes (lines 9, 40-41, 126-128) and notes :101/:124/:286-302 confirmed. Corrected: on the 16 Oct basis VT is about $32k, about 7% of the Jan 2028 portfolio (results.json allocation VT 0.069), not 9% (competition/COMPETITION.md:156-157 is the 28 Sep figure). The trade-off sentence is already a known item (competition/COMPETITION.md:164, :199-200; 15 Oct brief objective 4), so severity lowered to medium. The 'timid' verdict is AI role-play, not evidence about judges."
  },
  {
   "id": "CLIENT-07",
@@ -291,12 +291,12 @@
    "IPS",
    "FinalReport"
   ],
-  "problem": "The case forbids relying on outside funding for the payments. D6 says that beyond her half 'she adds her own money', and D_certainty says the opposite. V5 and COMPETITION.md say the kept half 'stays with Laura', which reads as money leaving the portfolio, yet V5 uses it to cover payment shortfalls. V5's chain also omits the floor as last owner.",
+  "problem": "The case forbids relying on outside funding for the payments. D6 says that beyond her half 'she adds her own money', and D_certainty says the opposite. V5 and competition/COMPETITION.md say the kept half 'stays with Laura', which reads as money leaving the portfolio, yet V5 uses it to cover payment shortfalls. V5's chain also omits the floor as last owner.",
   "evidence": [
    "Laura_Gao_2026_Client_Profile.txt:91-92 'Teams may not rely on co-sponsors, grants, program fees, or other outside funding to meet this requirement.'",
    "archive/rab/decisions/D6_cap_share.md:54 'beyond it, she adds her own money'",
    "archive/rab/decisions/D_certainty_definition.md:62 'never \"her own money\" (the case forbids relying on outside funding)'",
-   "01_version_5.md:30 'The other half stays with Laura'; COMPETITION.md:161 'the rest stays with Laura'",
+   "01_version_5.md:30 'The other half stays with Laura'; competition/COMPETITION.md:161 'the rest stays with Laura'",
    "archive/rab/redteam/triage.md:40 (D2)",
    "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:50-52 (option 1 and option 2)"
   ],
@@ -400,7 +400,7 @@
  },
  {
   "id": "CLIENT-18",
-  "title": "COMPETITION.md's client summary is thinner than the case; the Client Portrait is a placeholder",
+  "title": "competition/COMPETITION.md's client summary is thinner than the case; the Client Portrait is a placeholder",
   "severity": "low",
   "deliverables": [
    "Team",
@@ -409,18 +409,18 @@
   ],
   "problem": "The team's 'single source of truth' summary leaves out the six reserve and certainty asks, the five assumption categories, favourable and unfavourable outcomes, 'meaningful', 'early operations' and the operating-support permission. It still says Laura is fictional. The client portrait says 'Placeholder for now'. The same items are missing from V5.",
   "evidence": [
-   "COMPETITION.md:46-61 (client section)",
-   "COMPETITION.md:49 'Laura is a fictional client.'",
+   "competition/COMPETITION.md:46-61 (client section)",
+   "competition/COMPETITION.md:49 'Laura is a fictional client.'",
    "caplet/google_drive/client_portrait.md:14 'Placeholder for now'",
    "toolkit/config/client_mandate.yaml:145 'human_approved: false'"
   ],
-  "fix": "The client lead turns the 57-row table (section 2 of the L02 file) into the team's own one-page case checklist, links it from COMPETITION.md, and ticks every draft against it.",
+  "fix": "The client lead turns the 57-row table (section 2 of the L02 file) into the team's own one-page case checklist, links it from competition/COMPETITION.md, and ticks every draft against it.",
   "confidence": "high",
   "new_vs_known": "known-deeper",
   "deadline": "Before the IPS outline, Wed 28 Oct",
   "lens": "L02_client_forensic",
   "verdict": "adjusted",
-  "verifier_note": "COMPETITION.md:46-61, :49 and client_portrait.md:14 confirmed. Citation corrected: human_approved: false is client_mandate.yaml:145 (file has 148 lines). 'Fictional' and the empty portrait were already in the 15 Oct brief (final.md:212, :614)."
+  "verifier_note": "competition/COMPETITION.md:46-61, :49 and client_portrait.md:14 confirmed. Citation corrected: human_approved: false is client_mandate.yaml:145 (file has 148 lines). 'Fictional' and the empty portrait were already in the 15 Oct brief (final.md:212, :614)."
  },
  {
   "id": "CLIENT-19",
@@ -435,7 +435,7 @@
    "https://lauragao.com/hey/ (accessed 16 Oct 2026): 'Laura's roots spread wide through California, Texas, and China.'",
    "Laura_Gao_2026_Client_Profile.txt:22 'Messy Roots'",
    "01_version_5.md:16, :24 (name used, never explained)",
-   "COMPETITION.md:204 'Make the Messy Roots -> \"Roots First\" link visible'"
+   "competition/COMPETITION.md:204 'Make the Messy Roots -> \"Roots First\" link visible'"
   ],
   "fix": "In vote set A, decide whether the name earns its place. If kept, explain the link once and respectfully, cite the bio in the Final Report (the IPS allows no citations), and never imply Laura endorsed the name.",
   "confidence": "medium",
@@ -443,7 +443,7 @@
   "deadline": "Vote set A Sun 18 Oct",
   "lens": "L02_client_forensic",
   "verdict": "confirmed",
-  "verifier_note": "Bio quote 'Laura's roots spread wide through California, Texas, and China.' verified live at lauragao.com/hey/ on 16 Oct; case line 22 and COMPETITION.md:204 confirmed. Note COMPETITION.md:147 still calls the strategy 'Roots First' (name clash known, final.md:711)."
+  "verifier_note": "Bio quote 'Laura's roots spread wide through California, Texas, and China.' verified live at lauragao.com/hey/ on 16 Oct; case line 22 and competition/COMPETITION.md:204 confirmed. Note competition/COMPETITION.md:147 still calls the strategy 'Roots First' (name clash known, final.md:711)."
  },
  {
   "id": "CLIENT-21",

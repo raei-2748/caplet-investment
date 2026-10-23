@@ -25,7 +25,7 @@ Will the calendar hold? What did last year teach? What does "Articulation of Com
    without Wharton approval.
 4. **The 16 Oct commit makes the human problems worse, not better.** One day after a brief whose first action was
    "Agree that students write every word that is submitted", the leader alone changed the team rule so the AI may edit
-   all three deliverables as "[AI]" suggestions (caplet-latest/CLAUDE.md:27-30). No team vote is recorded. START_HERE.md
+   all three deliverables as "[AI]" suggestions (caplet-latest/CLAUDE.md:27-30). No team vote is recorded. caplet/START_HERE.md
    still says "The team writes all deliverables", so the onboarding page and the AI's rulebook now disagree.
 5. **Nobody owns the numbers.** Two AI pipelines gave the ladder cost on the same 15 Oct curve as $294,453 and $298,624.
    Both are correct for different questions (Section 4, TP-10). The $294k figure is now in the AI's "Current status".
@@ -126,7 +126,7 @@ Sources: Knox 2026/2027 term dates (https://www.knox.nsw.edu.au/about/public-inf
 Friday 9 October", Term 4 "Tuesday 13 October to Thursday 17 December"); NESA: "123 written HSC exams will run over an
 18-day window, starting with English Paper 1 on Tuesday 13 October and finishing with Physics in the morning of
 Thursday 5 November" (https://www.nsw.gov.au/education-and-training/nesa/news/all/2026-hsc-timetables-released,
-accessed 16 Oct 2026; lenses/L10/a0074582.txt:113). Deadlines: COMPETITION.md:15-24. The six students' year levels are
+accessed 16 Oct 2026; lenses/L10/a0074582.txt:113). Deadlines: competition/COMPETITION.md:15-24. The six students' year levels are
 not in the repo (removed for privacy), so whether the HSC applies is UNVERIFIED. Knox's internal Term 4 assessment dates
 are not public (UNVERIFIED); Year 11 end-of-year exams in Term 4 are common in NSW schools (general, not Knox-specific).
 
@@ -243,9 +243,9 @@ And the written answers would be written under time pressure, exactly where AI t
 ### TP-04 - Single point of failure: leader = trader = repo = routines = alerts = submitter (high, known-deeper)
 
 **What is wrong.**
-- "Only Ray places/cancels WInS orders" (CLAUDE.md:14; COMPETITION.md:193; START_HERE.md:28).
+- "Only Ray places/cancels WInS orders" (CLAUDE.md:14; competition/COMPETITION.md:193; caplet/START_HERE.md:28).
 - `git log` on main (16 Oct 2026): 98 commits by Ray, 45 by "Claude", none by any other student. To push, "Ray needs to
-  add your GitHub username as a collaborator" (START_HERE.md:42-43).
+  add your GitHub username as a collaborator" (caplet/START_HERE.md:42-43).
 - The 10 scheduled routines "run on Ray's Mac" (keel/routines/README.md:3); the task files point to `/Users/ray/...`
   (keel/routines/tasks/scheduled_tasks/caplet-judge-tna.md:6); the watcher "send[s] Ray a push notification"
   (keel/routines/tasks/WATCHER.md:21); "Ray places all trades himself" (keel/routines/tasks/MONITOR.md:6).
@@ -255,7 +255,7 @@ And the written answers would be written under time pressure, exactly where AI t
   (Rules & Roles:393), and the FAQ says "It should be a team decision" (faqs.txt:34).
 
 **Why it costs us.** Illness, an exam, a flat laptop or a missed alarm on a Saturday morning can sink a deadline with "no
-extensions" (COMPETITION.md:12). It also weakens the teamwork story and the semifinal "contributed value" answers.
+extensions" (competition/COMPETITION.md:12). It also weakens the teamwork story and the semifinal "contributed value" answers.
 
 **Fix.** Keep one person on the WInS keyboard for safety (the 7 Oct incident was real), but make each trade a logged
 team decision with a second student reading the ticket back. Name a **deputy** who holds copies of all final files and
@@ -295,8 +295,8 @@ Report section, and one "60-second" topic. Keep the role table on the private Dr
 - The best working time (Knox holidays, 26 Sep to 12 Oct) is over. Trading, the notes and most research happened then.
 - The TNA (Sat 24 Oct) ends week 2; the IPS (Sat 7 Nov) ends week 4, in the same week US clocks change.
 - The Final Report is due Sat 5 Dec, two days after Knox's last day of term (Thu 3 Dec) and the morning after a staff
-  day. The school letter needs a signature from "a school administrator" on letterhead (COMPETITION.md:129-131) and was
-  "not yet requested as of 13 Oct" (COMPETITION.md:132).
+  day. The school letter needs a signature from "a school administrator" on letterhead (competition/COMPETITION.md:129-131) and was
+  "not yet requested as of 13 Oct" (competition/COMPETITION.md:132).
 - HSC written exams (13 Oct to 5 Nov) cover both the TNA and IPS weeks. UNVERIFIED whether any member sits them; if one
   does, that student is in exams right now.
 - After 1 Nov, US markets open 01:30 Sydney. The cost of night trading is already in the journal (final_report.md:27).
@@ -312,7 +312,7 @@ unless forced; if forced, set the limit order in Sydney daylight to fill at the 
 ### TP-07 - At least eight open team decisions, no meeting booked, and "settled" decisions do not spread (high, new)
 
 **What is wrong.** Open decisions found in the repo and prior briefs:
-1. Which three notes for the TNA ("Our suggested picks (team decides)", COMPETITION.md:110).
+1. Which three notes for the TNA ("Our suggested picks (team decides)", competition/COMPETITION.md:110).
 2. Vote set A (15 Oct brief item 11: name, floor wording, "rounded down", shortfall order, ladder-cost basis, the
    October rule).
 3. Vote set B (15 Oct brief item 19: floor size, where spare cash waits, certainty standard, review triggers).
@@ -325,8 +325,8 @@ unless forced; if forced, set the limit order in Sydney daylight to fill at the 
 
 Decisions that were "made" do not reach the records. The journal says on 1 Oct: "Strategy name settled as
 Root-and-Branch (earlier 'Roots First')" (final_report.md:21). Two weeks later the "single source of truth" heads its
-strategy section "Our strategy ("Roots First")" (COMPETITION.md:147) and asks to "Make the Messy Roots -> 'Roots First'
-link visible" (COMPETITION.md:204), while the 16 Oct number sheet says "Root-and-Branch"
+strategy section "Our strategy ("Roots First")" (competition/COMPETITION.md:147) and asks to "Make the Messy Roots -> 'Roots First'
+link visible" (competition/COMPETITION.md:204), while the 16 Oct number sheet says "Root-and-Branch"
 (caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:5).
 
 **Why it costs us.** Undecided items get decided by default, by whoever edits last or by the AI. That is the opposite of
@@ -336,7 +336,7 @@ plan the team later changes.
 **Fix.** Items 1, 2, 5, 7 at M1 (Sun 18 Oct); 3, 4, 6, 8 at M2 (Sun 25 Oct). Each gets a half-page options note
 written by its owning student (options, numbers from the rates analyst, recommendation, strongest objection). Five
 decisions at most per meeting. After each vote, the historian updates one "decisions register" on the Drive, and the
-rules lead updates COMPETITION.md and the AI's memory file to match (same day).
+rules lead updates competition/COMPETITION.md and the AI's memory file to match (same day).
 
 ---
 
@@ -347,7 +347,7 @@ rules lead updates COMPETITION.md and the AI's memory file to match (same day).
   the IPS, Trading Notes and Final Report, but only as Google Docs SUGGESTIONS ... each labelled '[AI]'"
   (caplet-latest/CLAUDE.md:27-30). The same commit deleted "Assistant outputs are for inspiration and research; the
   team does not submit them as they are" and "not submission-ready prose" from the mandate (diff of CLAUDE.md:35-37
-  against caplet-latest/CLAUDE.md:39-40), and changed COMPETITION.md to "Since 16 Oct (Ray's decision)"
+  against caplet-latest/CLAUDE.md:39-40), and changed competition/COMPETITION.md to "Since 16 Oct (Ray's decision)"
   (caplet-latest/COMPETITION.md:142).
 - This came about 24 hours after the 15 Oct brief's item 1: "Agree that students write every word that is submitted ...
   Do not edit or 'humanise' them. Whole team" (scratchpad oct14/final.md:33). The same commit added 13 AI rewrites of
@@ -372,9 +372,9 @@ should be taken with all six present and the Wharton AI text (Rules & Roles:551)
 ### TP-09 - The team's own rule documents now contradict each other (high, new)
 
 **What is wrong.** On the 16 Oct branch:
-- START_HERE.md (the onboarding page for teammates) is unchanged: "**The team writes all deliverables** (TNA, IPS,
+- caplet/START_HERE.md (the onboarding page for teammates) is unchanged: "**The team writes all deliverables** (TNA, IPS,
   Final Report). AI output here is research and checking only" (caplet-latest/START_HERE.md:26).
-- CLAUDE.md and COMPETITION.md say the AI may now edit all three deliverables as "[AI]" suggestions
+- CLAUDE.md and competition/COMPETITION.md say the AI may now edit all three deliverables as "[AI]" suggestions
   (caplet-latest/CLAUDE.md:27-30; caplet-latest/COMPETITION.md:142-144).
 - Old AI-use rows still say "Exemplar only; team writes its own IPS" (caplet-latest/docs/AI_USE.md:65).
 
@@ -404,7 +404,7 @@ official curve (competition/official_market_data/daily-treasury-rates_2026-10.cs
   2027)" (caplet-latest/research/ips_numbers_2026-10/ips_numbers.py:70-71) and "zero-coupon view, as in the IPS's
   $292k" (:99). I reproduced **$294,453** exactly.
 - The WInS holdings mature **before** the payment dates: IBTM-IBTR in mid-December, and the T-bonds in Feb 2037,
-  May 2038 and November 2039-41 for the 2038-42 payments (COMPETITION.md:176-185). That is 2 weeks to 10.5 months early.
+  May 2038 and November 2039-41 for the 2038-42 payments (competition/COMPETITION.md:176-185). That is 2 weeks to 10.5 months early.
   Pricing $50k at each holding's maturity date, with the cash then waiting idle, on the same curve and method gives
   **$297,841** (my run). L08's independent pricer gives $297,778 on the forward basis and **$298,624** on the "yields
   unchanged to 1 Jan 2027" basis (the basis of the IBTR trade note's "about 0.2 percentage points").
@@ -413,7 +413,7 @@ official curve (competition/official_market_data/daily-treasury-rates_2026-10.cs
 
 **Which figure is right for which claim.**
 - "What would the ten payments cost if bonds matured exactly on each payment date?" $294k. That is a theoretical ladder.
-  The 6 Oct email allows only WInS-listed securities (COMPETITION.md:87-90), and no listed holding matures on 1 Jan.
+  The 6 Oct email allows only WInS-listed securities (competition/COMPETITION.md:87-90), and no listed holding matures on 1 Jan.
 - "How much room is left under $300k for Laura's real, WInS-only ladder, without counting on reinvesting early cash?"
   About **$298k, room about $1.4-2.2k (5-8bp)** on 15 Oct. This is the one for the IPS and the IBTR reflection.
 - The $294k figure is honest only if paired with the number sheet's own reinvestment section (early cash and coupons
@@ -455,8 +455,8 @@ list of problems. Nobody needs to read the 831-page record; each analyst reads t
 ### TP-12 - Information reaches one person; the other five see snapshots (medium, new)
 
 **What is wrong.** Wharton's emails go to the leader (Rules & Roles:391); the rules watcher alerts one phone
-(WATCHER.md:21); the Drive exports are "snapshots from 14 Oct" (START_HERE.md:29); the routines' live copies sit on one
-Mac (keel/routines/README.md:9). The 6 Oct email that removed STRIPS is quoted in COMPETITION.md:87-89, but its full text and
+(WATCHER.md:21); the Drive exports are "snapshots from 14 Oct" (caplet/START_HERE.md:29); the routines' live copies sit on one
+Mac (keel/routines/README.md:9). The 6 Oct email that removed STRIPS is quoted in competition/COMPETITION.md:87-89, but its full text and
 arrival time are not in the team's records (15 Oct brief item 9). The only sign of another student working in GitHub is
 a public fork made 15 Oct 22:10 UTC with no later pushes (GitHub API: pushed_at 22:10:24, four seconds after creation;
 accessed 16 Oct 2026); its owner is not named here.
@@ -566,13 +566,13 @@ timeline all six agree with.
 Genuine, checkable moments most teams will not have:
 - Night trading from Sydney; a student fell asleep waiting for the 00:30 open (final_report.md:27).
 - The 7 Oct incident: an AI browser click cancelled the wrong order because the page scrolled; the team made a new rule
-  (COMPETITION.md:192-193).
+  (competition/COMPETITION.md:192-193).
 - WInS quirks found by checking: no Treasury maturing Feb 2031 to Feb 2036; "IBTN" is an unrelated company; stale bond
-  prices; the May-2038 coupon date; the pie chart calling iBonds "Long Equities" (COMPETITION.md:92-100;
+  prices; the May-2038 coupon date; the pie chart calling iBonds "Long Equities" (competition/COMPETITION.md:92-100;
   final_report.md:17-20).
 - The sector-rule false alarm traced to a mislabelled third-party site (final_report.md:22).
 - The 5 Oct catch that the floor was counted inside the reserve (final_report.md:24).
-- The 6 Oct email that forced a rebuild without STRIPS (COMPETITION.md:87-90).
+- The 6 Oct email that forced a rebuild without STRIPS (competition/COMPETITION.md:87-90).
 - The ladder cost moving from $289.9k (9 Oct) to $294.5k (15 Oct) on one basis in a week
   (caplet-latest/research/ips_numbers_2026-10/results.json): a real "response to challenges" lesson about locking early.
 
@@ -602,7 +602,7 @@ student learned, and how the process changed after a mistake. Score against the 
 - The team list shows four Knox teams with 21 students (team_list.md:32-52). Whether they share one advisor is
   UNVERIFIED (the limit is five teams, Rules & Roles:425). If so, one teacher faces four letters and possibly four
   reflections in the last busy week of term.
-- The letter was "not yet requested as of 13 Oct" (COMPETITION.md:132). No record shows any update sent to the advisor,
+- The letter was "not yet requested as of 13 Oct" (competition/COMPETITION.md:132). No record shows any update sent to the advisor,
   whose duties include "Monitoring team engagement" (Rules & Roles:421).
 
 **Fix.** The lead sends the advisor a five-line update every second Sunday. Ask for the letter now; aim to hold it by
@@ -630,10 +630,10 @@ sentences or story ideas. Keep a list: who, when, what they saw, confirmation th
 ### TP-22 - The school's information pack has the wrong portfolio size and leaves out the TNA (low, new)
 
 **What is wrong.** The pack in the Team List doc says teams "manage a **$500,000 virtual portfolio**"
-(team_list.md:69); this year's WInS account is $300,000 (CLAUDE.md, Key facts; COMPETITION.md). Its key dates list the
+(team_list.md:69); this year's WInS account is $300,000 (CLAUDE.md, Key facts; competition/COMPETITION.md). Its key dates list the
 roster, IPS and Final Report but not the Trading Notes Analysis on 23 Oct (team_list.md:101-103).
 
-**Why it costs us.** Small for Caplet, which tracks the TNA in COMPETITION.md. But any student, parent or the advisor
+**Why it costs us.** Small for Caplet, which tracks the TNA in competition/COMPETITION.md. But any student, parent or the advisor
 reading the school pack would miss a scored deliverable, and other Knox teams may rely on it.
 
 **Fix.** The rules lead tells the advisor, so the shared pack can be corrected for all Knox teams.
@@ -775,13 +775,13 @@ ledger row. Anything that does not map is cut.
 
 ## 11. Sources
 
-Repo files (read 16 Oct 2026): CLAUDE.md; COMPETITION.md; START_HERE.md; caplet/google_drive/{notes_and_discussions,
+Repo files (read 16 Oct 2026): CLAUDE.md; competition/COMPETITION.md; caplet/START_HERE.md; caplet/google_drive/{notes_and_discussions,
 final_report, strategy_notes, team_list, README, 2025_knox_wharton}.md; caplet/google_drive/ips_report/01_version_5.md;
 caplet/google_drive/sheets/{pm_dashboard/sheet1.csv, portfolio_and_trading_notes/trade_log.csv};
 caplet/Winning Team Portrait and Scoresheet.md; keel/routines/README.md; keel/routines/tasks/{WATCHER,MONITOR,JUDGE}.md and
 scheduled_tasks/; keel/library/insight_v1/phase_E/E5_premortem.md; keel/library/council_2026-09-27/team_notes_2026-09-27.md;
 competition/official/2026_27/smapply_public_2026-10-14/{deliverables,faqs}.txt; `git log` on main.
-New branch (caplet-latest/, commit 412e9e3): CLAUDE.md, COMPETITION.md, START_HERE.md, caplet/docs/AI_USE.md,
+New branch (caplet-latest/, commit 412e9e3): CLAUDE.md, competition/COMPETITION.md, caplet/START_HERE.md, caplet/docs/AI_USE.md,
 research/ips_numbers_2026-10/{IPS_number_sheet.md, IPS_v5_suggestions.md, ips_numbers.py, results.json},
 competition/official_market_data/daily-treasury-rates_2026-10.csv.
 Recomputation: lenses/L10/calc/basis.py (reproduces $294,453; WInS-maturity basis $297,841).

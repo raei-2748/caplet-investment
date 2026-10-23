@@ -2,14 +2,14 @@
 
 AI-generated check (Claude Code) of the IPS as it reads in the IPS Report Doc, Version 5 tab, **with all suggestions
 accepted** (= `04_exemplar_ips_tna_17Oct.md`, v5 text). Source of every rule: `competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt`
-(page numbers below), plus the 6 Oct WInS-only email (COMPETITION.md s4) and the Wharton AI policy.
+(page numbers below), plus the 6 Oct WInS-only email (competition/COMPETITION.md s4) and the Wharton AI policy.
 
 ## Hard requirements (failing any one excludes the IPS from semifinal selection, p.3)
 
 | Rule (page) | Result | How checked |
 |---|---|---|
 | Page 1 = title page, 1 page max (p.3) | PASS | Doc has a page break after the username line |
-| Official team name, same as roster (p.3) | PASS | "Caplet" (COMPETITION.md) |
+| Official team name, same as roster (p.3) | PASS | "Caplet" (competition/COMPETITION.md) |
 | Names "First Name, Last Initial", same as roster (p.3) | **TEAM CHECK** | Format correct ("Ray W. \| Ahaan D. ..."); surnames are not in the public repo, so two students must check initials against the submitted roster |
 | WInS username (p.3) | PASS | the WInS username (kept out of the repo) |
 | Pitch 50 words max (p.1) | PASS | 45 by spaces, 47 with hyphenated words split |

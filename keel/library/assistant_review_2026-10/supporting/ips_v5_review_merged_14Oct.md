@@ -4,7 +4,7 @@ Basis: commit 2affd4c, 14 Oct 2026. The repo was not changed. This review was ge
 
 ## 0. Bottom line
 - All three judges agree the strategy is good enough for the Top 50 and that V5 cannot be submitted. The team's own comment says V5 is AI-generated (caplet/google_drive/ips_report/01_version_5.md:36). Wharton says "AI-generated work may not be submitted as your own" and students "must use their voice and words" (keel/library/insight_v1/phase_A/wins_week1_guardrails.md:396-419). The IPS also cannot carry a citation (competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:123).
-- The team's current plan is to "refine and proofread" V5 (01_version_5.md:36; COMPETITION.md:199). All three judges and both compliance verifiers reject this. The students must write a fresh version from their own outline of decisions. Tab 15 is a list of problems to fix. Do not use it as a base text.
+- The team's current plan is to "refine and proofread" V5 (01_version_5.md:36; competition/COMPETITION.md:199). All three judges and both compliance verifiers reject this. The students must write a fresh version from their own outline of decisions. Tab 15 is a list of problems to fix. Do not use it as a base text.
 - The biggest content gaps are:
   - certainty words that the team's own trade notes contradict;
   - no definition or test of "high degree of certainty";
@@ -16,7 +16,7 @@ Basis: commit 2affd4c, 14 Oct 2026. The repo was not changed. This review was ge
 
 ## 1. What to do, in order
 1. **Thu 15 Oct (team leader plus one other student, 5 minutes).** Open the SMApply roster record. Copy the team name ("Caplet" or "Team Caplet", UNVERIFIED which) and all six names exactly as submitted. Check legal against preferred first names: the Doc comment's author name at 01_version_5.md:36 is not one of the six title-page first names. This is a warning sign only, not proof of a mismatch. Copy the WInS username from the WInS login.
-2. **Thu 15 Oct.** Start a real AI-use log: date, tool, purpose, and what was kept. COMPETITION.md:144 points to `research/insight_v1/AI_USE*`, which does not exist at 2affd4c, and the sheet exports have no AI-use tab. Do not use caplet/docs/AI_USE.md sections 1-4 or toolkit/outputs/ai_use_log.jsonl: earlier review items P2 found these are a false ready-made disclosure and fake entries. Log V1-V5, Tab 10, Tab 15, the caplet/ai_outputs exemplars and these reviews.
+2. **Thu 15 Oct.** Start a real AI-use log: date, tool, purpose, and what was kept. competition/COMPETITION.md:144 points to `research/insight_v1/AI_USE*`, which does not exist at 2affd4c, and the sheet exports have no AI-use tab. Do not use caplet/docs/AI_USE.md sections 1-4 or toolkit/outputs/ai_use_log.jsonl: earlier review items P2 found these are a false ready-made disclosure and fake entries. Log V1-V5, Tab 10, Tab 15, the caplet/ai_outputs exemplars and these reviews.
 3. **By Sun 18 Oct, before the 19 Oct mock-judge TNA:** take Vote set A (section 5). The TNA reflections must use the same words.
 4. **Fri 23 Oct ET:** submit the TNA.
 5. **By Tue 27 Oct:**
@@ -54,7 +54,7 @@ The PM's estimate that fixes 2-5 would lift Analysis and Presentation by about 2
 6. **Order of the body.** Options were strict time order (evaluator), Tab 15's order, or define-before-use (Laura). **Decision:** time order 2027 → 2028 → hold/review → 2031 → 2033 → 2033-42, then risks and the trade-off. Every term is defined at its first appearance.
 7. **How serious the title-page check is.** One verifier said high, one said medium. **Decision:** do it now. It is unlikely to be wrong, but a mismatch means exclusion from the semifinals, and the check takes 5 minutes.
 8. **De-risking the stock fund before 2033.** Only the PM raised it, but the instructions ask how the allocation changes "as future funding needs approach" (IPS instructions :22-23). **Decision:** the team must have a one-clause principle. Put it in the IPS if the word budget allows, otherwise in the Final Report.
-9. **Strategy name.** V5 uses "Root-and-Branch"; COMPETITION.md:147 uses "Roots First". The PM added that in British usage "root and branch" means "thorough"; Laura's research note says book-title metaphors are an obvious choice for rival teams (keel/library/insight_v1/phase_B/B7b_competition_meta.md:117-120). **Decision:** this procedure only (the choice is the team's): vote on one name by 18 Oct and use it identically in the TNA, IPS and Final Report. Keep it in the IPS only if it explains the structure.
+9. **Strategy name.** V5 uses "Root-and-Branch"; competition/COMPETITION.md:147 uses "Roots First". The PM added that in British usage "root and branch" means "thorough"; Laura's research note says book-title metaphors are an obvious choice for rival teams (keel/library/insight_v1/phase_B/B7b_competition_meta.md:117-120). **Decision:** this procedure only (the choice is the team's): vote on one name by 18 Oct and use it identically in the TNA, IPS and Final Report. Keep it in the IPS only if it explains the structure.
 
 ## 4. Ranked fix objectives (outcomes only; the students write the wording)
 1. **Authorship (critical; ranked first by all three).** The submitted pitch and IPS are written fresh by the students from their own outline, with V1-V5, V3 Improved, Tab 10, Tab 15 and the caplet/ai_outputs exemplars closed while drafting. Use facts and decisions from the AI drafts, never sentences. Each paragraph has a named student author who can defend every sentence aloud; the semifinal is a video with all members present. Overlap the reviewers measured, not re-run by me: 33-34% of V5's 5-word sequences appear in Tab 10, 40% in V3 and 60% in Tab 15; 7 of 29 V5 sentences are at least 70% similar to exemplars v12-v14.
@@ -64,7 +64,7 @@ The PM's estimate that fixes 2-5 would lift Analysis and Presentation by about 2
    - "sized to return that remainder" (V5:24);
    - "secure" in the pitch (V5:16);
    - "depends mainly on the US government" (V5:20), which ignores coupon reinvestment.
-   The trade notes the TNA will quote word for word say the IBTM "final payout is not fixed" (05_trading_note_reflection_wins_trading_notes.md:19) and "reinvested coupons fund the rest" (:18, :24). The team's own rule bans "guaranteed" and "risk-free" (COMPETITION.md:168), and "never" and "cannot" mean the same thing. The 5 Oct reason for keeping "never" was STRIPS in the real plan (caplet/google_drive/final_report.md:24), which the 6 Oct WInS-only email removed. Describe the floor in exactly the same way in the IPS and in the IBTM reflection.
+   The trade notes the TNA will quote word for word say the IBTM "final payout is not fixed" (05_trading_note_reflection_wins_trading_notes.md:19) and "reinvested coupons fund the rest" (:18, :24). The team's own rule bans "guaranteed" and "risk-free" (competition/COMPETITION.md:168), and "never" and "cannot" mean the same thing. The 5 Oct reason for keeping "never" was STRIPS in the real plan (caplet/google_drive/final_report.md:24), which the 6 Oct WInS-only email removed. Describe the floor in exactly the same way in the IPS and in the IBTM reflection.
 3. **Define "high degree of funding certainty", with one test and a ranked cover (high).** The case requires a definition, an explanation of how it was evaluated, and the assumptions behind it (Client_Profile.txt:97-99). The IPS must state:
    - the standard (paid for at purchase by dated Treasuries held to maturity, not by expected market returns);
    - the leftover risks:
@@ -106,7 +106,7 @@ The PM's estimate that fixes 2-5 would lift Analysis and Presentation by about 2
    - One account of how the reserve is held from 2033 to 2042 and how each payment is in cash by 1 January, consistent with the trade notes.
    - January review: name the one or two numbers checked and what each result triggers. Add triggers for a co-sponsor withdrawing or the 2028 deposit arriving late or small.
    - Inflation and the Taiwan dollar, kept in proportion: the payments are fixed nominal amounts, so the ladder is unaffected. The floor is nominal: at 2.5% inflation it buys about 12% less after 5 years (1/1.025^5 = 0.88). Costs fall in Taiwan.
-   - The income rule must be worded so the frozen WInS book (iBond distributions held as cash around 6 Nov, COMPETITION.md:189-190) is consistent with it.
+   - The income rule must be worded so the frozen WInS book (iBond distributions held as cash around 6 Nov, competition/COMPETITION.md:189-190) is consistent with it.
 10. **Numbers (medium).** Every dollar figure is on the WInS-listed basis, dated, rounded, and matches the TNA and the Final Report, or is removed. The $292,000 at V5:16/:24 is the superseded 25 Sep idealised value.
 
 ## 5. Votes to log before writing
@@ -142,7 +142,7 @@ The PM's estimate that fixes 2-5 would lift Analysis and Presentation by about 2
 - **No promises:** nothing in the IPS promises a WInS action or a final range or reserve figure (IPS instructions :68-70).
 - **TNA consistency:** check the IPS against the submitted TNA reflections (same name, floor description and certainty words).
 - **Similarity self-check:** compare the final text sentence by sentence against all AI drafts and the exemplars, ignoring fixed phrases such as dates, "$50,000" and the strategy name. Any match means that sentence was not written from the outline. The author rewrites it from their own understanding, not by rewording the match.
-- **Privacy, outside the format rules:** do not commit the final PDF to the public repo. The username already appears in COMPETITION.md:117 and in the caplet/ips_drafts/ PDF filenames.
+- **Privacy, outside the format rules:** do not commit the final PDF to the public repo. The username already appears in competition/COMPETITION.md:117 and in the caplet/ips_drafts/ PDF filenames.
 
 ## 7. How to run the rewrite so the IPS is the students' own work
 - **Decision outline (all six students, one 60-90 minute session after Set B).** One row per decision: the decision, the team's reason in a few words, the evidence location, and an owner. No sentences. AI research may feed facts and numbers into the outline.
@@ -187,7 +187,7 @@ The PM's estimate that fixes 2-5 would lift Analysis and Presentation by about 2
 | IBTM floor ($150k face): median $149.4k, worst $146.3k, below $150k 69% of the time; quote $145k | numbers_ws2.yaml:1530-1546 | MODEL |
 | Gift below $145k in 1-3% of paths if coupons earn 2% or less for years | D_range_confidence_2031.md:29-30, :63 | MODEL; stress case with a fixed $145k bottom |
 | Plan split 65.9 / 25.3 / 8.7 | inventory H10, 25 Sep | MODEL |
-| WInS weights: about 67% payment holdings incl. IBTM 32.6%, VT 8.9%, cash about $3.5k | reader calculation from COMPETITION.md:174-188 | Calculated |
+| WInS weights: about 67% payment holdings incl. IBTM 32.6%, VT 8.9%, cash about $3.5k | reader calculation from competition/COMPETITION.md:174-188 | Calculated |
 | Each $25k less floor: median +$2-3k, 5th percentile −$9-10k | inventory H15 | Before WInS-only rule; re-check |
 | Growth-first misses a payment 3.2% / 13.7% / 40.8% (2028 deposit $150k / $75k / $0) | inventory H16 | Not re-run; STRIPS era |
 | $300k bought all ten payments on 11.1% of days since 2000; 2020 cost up to $470k | inventory H17-H18 | Idealised basis; UNVERIFIED for the WInS-only ladder |

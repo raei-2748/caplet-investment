@@ -7,7 +7,7 @@ reviewed". The window is short (9 Nov - 4 Dec ET), so build the modules now.
 Status (18 Oct): not started. The journal (about 390 words) stops at 7 Oct, and the only outline is for the
 abandoned plan.
 
-## What it must do (known so far: `COMPETITION.md` section 5; IPS instructions :75-77)
+## What it must do (known so far: `competition/COMPETITION.md` section 5; IPS instructions :75-77)
 - Evaluate how effectively the team implemented the IPS strategy, without redesigning it.
 - Give analysis and recommendations: the 1 Jan 2033 operating reserve, projections from $300k (2027) + $150k (2028)
   with WInS profit never added, the 2031 facility-contribution range with its confidence, and the team's part of

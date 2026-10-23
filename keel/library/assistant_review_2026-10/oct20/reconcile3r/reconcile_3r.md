@@ -61,7 +61,7 @@ Folder: `/tmp/claude-0/-home-user-caplet-investment/9a6d3111-0f82-5d56-a545-e376
 | 3 | **Waiting cash in the 2031/2033 projections** | 0%. RT `gap_bills`: counted | Counted | +1.0 | Not counted (it must match the sizing) |
 | 4 | **Carry between payments** | 0% | 1-year yield | 0.01 | Immaterial |
 | 5 | **How the 2033 need is measured and held** | Nominal sum of projected gaps, held as one cash pot at 0% (`:241-244`) | Today's value on the 2033 curve, covered by matched zeros (`laura_sim.py:308-310, 374-395`) | **+2.0** (almost all from the reserve keeping less; section 4c) | Dollars (study's 3r rule) |
-| 6 | **Cover chain order** | leftover → reserve → Laura's half → whole gift (`:241-243`) | leftover → reserve → half plus anything above the cap → gift above the floor → floor (`:375-388`) | 0.00 | Same in substance (`COMPETITION.md:161-162`) |
+| 6 | **Cover chain order** | leftover → reserve → Laura's half → whole gift (`:241-243`) | leftover → reserve → half plus anything above the cap → gift above the floor → floor (`:375-388`) | 0.00 | Same in substance (`competition/COMPETITION.md:161-162`) |
 | 7 | **Unused 2027 leftover** | Kept in cash to 2042 for **every** option (`:244`) | Released to Laura in 2033 | **0.00 for 3r**; +7.9 for option 1 | Silent; "covered first from the 2027 leftover" |
 | 8 | **3r release that would push the gift above the cap** | Stays in the reserve to 2042 (`:236-238`) | Leaves the reserve; the excess goes to Laura (`:378-383`) | 0.00 (0.06 at the RA end) | Stays (study: "releases the rest to the contribution", unused back in 2042) |
 | 9 | **3r top rule** | Top adds the $10k bought (`:231`) | Top adds the reserve's 2031 market value, about $11.5k (`:365-366`) | 0 on payments; top reached 43.6% → 34.5% | $10k (study code) |
@@ -72,7 +72,7 @@ Folder: `/tmp/claude-0/-home-user-caplet-investment/9a6d3111-0f82-5d56-a545-e376
 | 14 | **Coupon reinvestment** | At own purchase yield + shift | At the curve yield for the remaining term (roll-down) | −0.5 | Both defensible |
 | 15 | **Yield floor** | 0.25% | 0% | +0.35 | Choice; 0% is more cautious |
 | 16 | **2028 floor priced on** | Forward yields | Unchanged curve | +0.09 | Either |
-| 17 | **2031 range rules** | Bottom R − $3,700; top R + half VT − uncovered | Bottom 98% of projected floor less net-minimum; $1k rounding | 0.00 | Net-minimum (`COMPETITION.md:158-159`) |
+| 17 | **2031 range rules** | Bottom R − $3,700; top R + half VT − uncovered | Bottom 98% of projected floor less net-minimum; $1k rounding | 0.00 | Net-minimum (`competition/COMPETITION.md:158-159`) |
 | 18 | **Stock model** | Log-volatility 0.1678 | Exact conversion 0.154 | 0.00 (top reach +1.6 for option 1) | — |
 | 19 | **Curve date** | 16 Oct published (19 Oct re-run: 0.016%) | 19 Oct | 16 → 19 Oct: 0.020 → 0.016 (CO) | Use 19 Oct now; re-price 6 Nov |
 | 20 | **Rate volatility** | 1.0 pt a year | 1.0 pt a year | none | Same |
@@ -91,7 +91,7 @@ Folder: `/tmp/claude-0/-home-user-caplet-investment/9a6d3111-0f82-5d56-a545-e376
   - None of the three is this reading.
   - **The catch:** the team's quoted ladder costs ("about $293k on the 6 Oct curve", `/home/user/snap/main/COMPETITION.md:153-154`, and the filed IBTR note "her first $300,000 is enough") are payment-date figures. Those *do* count the interest. If the team keeps maturity sizing, the honest 19 Oct cost is **about $298.5-299.9k**. A Jan-2028 top-up is then needed in about 50% of paths, against 42% on RA's basis.
 - **The 2033 need (row 5).**
-  - The plan says only "any expected shortfall is covered first from the 2027 leftover, then Laura's half, then the part of the contribution above the floor" (`COMPETITION.md:161-162`).
+  - The plan says only "any expected shortfall is covered first from the 2027 leftover, then Laura's half, then the part of the contribution above the floor" (`competition/COMPETITION.md:161-162`).
   - Option 3r is the study's own design, and its rule keeps "projected need + $5k" with need as a dollar sum (`coupon_options.py:236`).
   - **As written = dollars.** Today's value is a legitimate alternative, but it is a different, weaker rule.
 - **Leftover (row 7).** The plan never commits the unused leftover past 2033, and CO's own docstring says "nothing is committed after 2033" (`coupon_options.py:22`). **As written = released.** For 3r it makes no difference.

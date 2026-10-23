@@ -6,7 +6,7 @@ required, and confident without overclaiming?** Fixes are in the revised exempla
 
 Sources: IPS instructions (`2026_WGY_Investment_Policy-FINAL.txt`), TNA instructions
 (`2026_WGY_Trading_Notes_Analysis-FINAL.txt`), client case (`Laura_Gao_2026_Client_Profile.txt`), judging criteria
-(`smapply_public_2026-10-14/deliverables.txt:54-59`), 6 Oct Wharton email (COMPETITION.md s4).
+(`smapply_public_2026-10-14/deliverables.txt:54-59`), 6 Oct Wharton email (competition/COMPETITION.md s4).
 
 ## 1. Rules: pass
 
@@ -57,7 +57,7 @@ title page names exactly as on the roster. Non-compliant submissions are exclude
 - **Cut for words in v3:** "WInS shows this mix, scaled down" (8 words). The TNA already shows the WInS book; put the
   sentence back only if another 8 words go.
 
-- **Strategy name vote**: "Root-and-Branch" (V5) vs "Roots First" (COMPETITION.md). Use one, identically, everywhere.
+- **Strategy name vote**: "Root-and-Branch" (V5) vs "Roots First" (competition/COMPETITION.md). Use one, identically, everywhere.
 - **Floor size**: the IPS says "what remains" (the 2028 remainder), which is the honest rule now that the ladder headroom is $1,913.
 - **Authorship**: the team writes the submitted text from its own understanding; log this exemplar in the AI-use record.
 - **One confidence number?** The IPS need not quote one. If the team wants data in the IPS (Creativity: "uses data effectively"),

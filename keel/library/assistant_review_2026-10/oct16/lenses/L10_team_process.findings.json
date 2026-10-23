@@ -1,6 +1,6 @@
 {
   "file": "oct16/lenses/L10_team_process.md",
-  "summary": "The human side is now the team's biggest risk. The plan is strong, but the key calls were deferred to AI (CLAUDE.md:74-75), and the team's own doc says the idea came from the AI council. Last year's semifinal instructions make this a scored test: every member had to speak and explain how they contributed value, no new strategy was allowed, and the written answers had to be in an authentic team voice. One person is leader, only trader, only student committer (98 of 98 student commits), runs all 10 routines on his Mac, gets every alert and submits. The leader cannot be replaced. The 16 Oct commit reversed the 15 Oct brief's first action within a day. One person changed the team rule so the AI may edit all three deliverables as [AI] suggestions, with no team vote recorded, and START_HERE.md still says the team writes everything, so the rule files now contradict each other. Nobody owns the numbers. The $294,453 vs $298,624 ladder-cost conflict comes from method, not error. The number sheet prices idealised zero-coupon bonds that mature on each 1 Jan payment date (I reproduced it exactly). The WInS holdings mature 2 weeks to 10.5 months earlier, which gives about $297.8k-$298.6k. The ~$298k / ~$1.4-2.2k room is the right figure for the IPS and the IBTR reflection, and the '1 in 3' odds understate the top-up risk. The calendar is tight. Every deadline falls on a Saturday morning in Sydney: the TNA ends Knox Term 4 week 2, the IPS ends week 4, and the Final Report is due two days after term ends. HSC exams run 13 Oct-5 Nov, and whether any member sits them is unverified. The fix is not more AI reports (about 745,000 words already). It is eight short meetings, real roles with backups, a team charter for decision rights, one student-owned numbers sheet, and an evidence ledger ('no artefact, no story'), because last year's doc shows comments telling the team to make up stories.",
+  "summary": "The human side is now the team's biggest risk. The plan is strong, but the key calls were deferred to AI (CLAUDE.md:74-75), and the team's own doc says the idea came from the AI council. Last year's semifinal instructions make this a scored test: every member had to speak and explain how they contributed value, no new strategy was allowed, and the written answers had to be in an authentic team voice. One person is leader, only trader, only student committer (98 of 98 student commits), runs all 10 routines on his Mac, gets every alert and submits. The leader cannot be replaced. The 16 Oct commit reversed the 15 Oct brief's first action within a day. One person changed the team rule so the AI may edit all three deliverables as [AI] suggestions, with no team vote recorded, and caplet/START_HERE.md still says the team writes everything, so the rule files now contradict each other. Nobody owns the numbers. The $294,453 vs $298,624 ladder-cost conflict comes from method, not error. The number sheet prices idealised zero-coupon bonds that mature on each 1 Jan payment date (I reproduced it exactly). The WInS holdings mature 2 weeks to 10.5 months earlier, which gives about $297.8k-$298.6k. The ~$298k / ~$1.4-2.2k room is the right figure for the IPS and the IBTR reflection, and the '1 in 3' odds understate the top-up risk. The calendar is tight. Every deadline falls on a Saturday morning in Sydney: the TNA ends Knox Term 4 week 2, the IPS ends week 4, and the Final Report is due two days after term ends. HSC exams run 13 Oct-5 Nov, and whether any member sits them is unverified. The fix is not more AI reports (about 745,000 words already). It is eight short meetings, real roles with backups, a team charter for decision rights, one student-owned numbers sheet, and an evidence ledger ('no artefact, no story'), because last year's doc shows comments telling the team to make up stories.",
   "findings": [
     {
       "id": "TP-01",
@@ -66,7 +66,7 @@
       "deliverables": ["All", "Team", "Repo"],
       "problem": "One student places all trades, makes every student commit, runs all 10 AI routines on his Mac, receives every alert and Wharton email, and submits. The leader cannot be changed without Wharton approval. Illness, an exam or a missed Saturday-morning alarm could sink a no-extension deadline. Wharton also expects every member to share in trading and decisions.",
       "evidence": [
-        "CLAUDE.md:14 \"Only Ray places/cancels WInS orders\"; COMPETITION.md:193",
+        "CLAUDE.md:14 \"Only Ray places/cancels WInS orders\"; competition/COMPETITION.md:193",
         "git log on main (16 Oct 2026): 98 commits Ray, 45 Claude, no other student",
         "keel/routines/README.md:3 \"the routines that run on Ray's Mac\"; keel/routines/tasks/scheduled_tasks/caplet-judge-tna.md:6 \"/Users/ray/...\"",
         "keel/routines/tasks/WATCHER.md:21 \"send Ray a push notification\"",
@@ -106,7 +106,7 @@
       "evidence": [
         "Knox term dates (https://www.knox.nsw.edu.au/about/public-information/term-dates, accessed 16 Oct 2026): Term 3 concludes Fri 25 Sep; Term 4 commences Tue 13 Oct; Thu 3 Dec \"Presentation Day and Term 4 Concludes\"",
         "NESA (https://www.nsw.gov.au/education-and-training/nesa/news/all/2026-hsc-timetables-released, accessed 16 Oct 2026): \"starting with English Paper 1 on Tuesday 13 October and finishing with Physics in the morning of Thursday 5 November\"",
-        "COMPETITION.md:15-24 deadlines in Sydney time; :132 school letter \"not yet requested as of 13 Oct\"",
+        "competition/COMPETITION.md:15-24 deadlines in Sydney time; :132 school letter \"not yet requested as of 13 Oct\"",
         "caplet/google_drive/final_report.md:27 night-trading fatigue"
       ],
       "fix": "Build one shared calendar of exams, assessments, commitments and travel (18 Oct-5 Dec and late Jan-Mar 2027). Set internal deadlines two days early, and give no writing task in a student's exam week. Ask the advisor for the school letter now, with a target of Fri 20 Nov. Make no trades after 1 Nov unless forced; if forced, set the order in Sydney daylight.",
@@ -121,13 +121,13 @@
       "deliverables": ["TNA", "IPS", "FinalReport", "Team"],
       "problem": "Open items: TNA picks, vote sets A and B, the new coupon-reinvestment option, Darren's challenge, the floor-size vote after the 'timid' test, the AI rule, and the insight_v1 gate votes. Undecided items get decided by default, by the last editor or the AI. Even a settled decision does not spread. The journal says the name was settled as Root-and-Branch on 1 Oct, yet the 'single source of truth' still says Roots First two weeks later.",
       "evidence": [
-        "COMPETITION.md:110 \"Our suggested picks (team decides)\"",
+        "competition/COMPETITION.md:110 \"Our suggested picks (team decides)\"",
         "caplet-latest/CLAUDE.md:15-16 \"TEAM DECISION before 6 Nov: state the risk / keep Laura's half to 2042 / hold a buffer from the 2028 deposit\"",
         "caplet/google_drive/notes_and_discussions.md:303 \"Team vote needed (D2/D6).\"",
         "CLAUDE.md:165-166 gate votes unticked",
-        "caplet/google_drive/final_report.md:21 \"Strategy name settled as Root-and-Branch (earlier 'Roots First')\" vs COMPETITION.md:147 \"Our strategy (\"Roots First\")\" and :204"
+        "caplet/google_drive/final_report.md:21 \"Strategy name settled as Root-and-Branch (earlier 'Roots First')\" vs competition/COMPETITION.md:147 \"Our strategy (\"Roots First\")\" and :204"
       ],
-      "fix": "Put the TNA picks, vote set A, Darren's challenge and the AI rule on the Sun 18 Oct agenda. Put vote set B, the coupon option, the floor size and the gate votes on Sun 25 Oct. Each decision gets a half-page options note from its student owner, with five decisions at most per meeting. After each vote, update one decisions register, COMPETITION.md and the AI memory file the same day.",
+      "fix": "Put the TNA picks, vote set A, Darren's challenge and the AI rule on the Sun 18 Oct agenda. Put vote set B, the coupon option, the floor size and the gate votes on Sun 25 Oct. Each decision gets a half-page options note from its student owner, with five decisions at most per meeting. After each vote, update one decisions register, competition/COMPETITION.md and the AI memory file the same day.",
       "confidence": "high",
       "deadline": "Sun 18 Oct and Sun 25 Oct",
       "new_vs_known": "new"
@@ -156,7 +156,7 @@
       "title": "The team's rule documents now contradict each other on who writes the deliverables",
       "severity": "high",
       "deliverables": ["All", "Team", "Repo"],
-      "problem": "On the 16 Oct branch, the onboarding page still says the team writes all deliverables and AI is research only. CLAUDE.md and COMPETITION.md say the AI may suggest wording. A student following START_HERE and the AI following CLAUDE.md will act on different rules. On 4 Dec the team will not agree on what to disclose in the Works Cited.",
+      "problem": "On the 16 Oct branch, the onboarding page still says the team writes all deliverables and AI is research only. CLAUDE.md and competition/COMPETITION.md say the AI may suggest wording. A student following START_HERE and the AI following CLAUDE.md will act on different rules. On 4 Dec the team will not agree on what to disclose in the Works Cited.",
       "evidence": [
         "caplet-latest/START_HERE.md:26 \"The team writes all deliverables (TNA, IPS, Final Report). AI output here is research and checking only\"",
         "caplet-latest/CLAUDE.md:27-30 AI may edit as [AI] suggestions",
@@ -180,7 +180,7 @@
         "caplet-latest/research/ips_numbers_2026-10/IPS_number_sheet.md:13-14 \"about $294,000\" / \"about $5,500\" / \"1 case in 3\"",
         "caplet-latest/CLAUDE.md:13-14 \"Ladder ~$294k (headroom ~$5.5k, over $300k on 1 Jan 2027 in ~1 in 3)\"",
         "scratchpad oct16/lenses/L08/series_live.csv row 34 \"2026-10-15,buyable,297778,2222,7.7,298624,1376,4.7\"",
-        "COMPETITION.md:176-185 holdings and maturities; :87-90 6 Oct email WInS-only",
+        "competition/COMPETITION.md:176-185 holdings and maturities; :87-90 6 Oct email WInS-only",
         "scratchpad oct16/lenses/L10/calc/basis.py output: payment-date zeros 294453; zeros at WInS holding maturities 297841"
       ],
       "fix": "A student rates analyst owns one dated numbers sheet with one named basis (WInS holdings, priced on the dated curve, carried to 1 Jan 2027, early cash idle). They re-run it on fixed dates (20 Oct for the TNA; 6 Nov close for the IPS and Final Report) and are the only source writers quote. Any $294k figure is always paired with the reinvestment caveat. The rates analyst can explain the $294k vs $298k difference in 60 seconds.",
@@ -214,7 +214,7 @@
       "evidence": [
         "Rules & Roles line 391 (accessed 16 Oct 2026) leader is \"receiving Competition communications and notifications\"",
         "keel/routines/tasks/WATCHER.md:21; keel/routines/README.md:9 \"The live copies are in ~/Research/caplet-monitor/\"",
-        "START_HERE.md:29 \"those are snapshots from 14 Oct\"",
+        "caplet/START_HERE.md:29 \"those are snapshots from 14 Oct\"",
         "GitHub API forks metadata (accessed 16 Oct 2026): created 2026-10-15T22:10:20Z, pushed_at 2026-10-15T22:10:24Z (owner not named)"
       ],
       "fix": "The rules lead posts a five-line digest in the team chat every Sunday (what changed, what was decided, what is due, who owns it, any Wharton email forwarded in full). The historian copies it into the ledger.",
@@ -313,7 +313,7 @@
       "problem": "The team has checkable moments most teams will not have, but they sit scattered or unlogged, losing who did what and why. They include night trading from Sydney, the 7 Oct AI mis-click and new rule, WInS quirks (no 2031-36 Treasuries, IBTN, stale prices, the coupon date, the pie chart), the sector-rule false alarm, the 5 Oct reserve catch, the 6 Oct email, and the ladder cost rising $4.6k in a week.",
       "evidence": [
         "caplet/google_drive/final_report.md:17-27",
-        "COMPETITION.md:92-100 WInS quirks; :192-193 7 Oct incident; :87-90 6 Oct email",
+        "competition/COMPETITION.md:92-100 WInS quirks; :192-193 7 Oct incident; :87-90 6 Oct email",
         "caplet-latest/research/ips_numbers_2026-10/results.json: 2026-10-09 cost 289893; 2026-10-15 cost 294453"
       ],
       "fix": "The historian logs each one: date, who found it (student or AI, honestly), action, lesson, artefact. Pick two or three for the Final Report; depth beats a list.",
@@ -346,7 +346,7 @@
       "evidence": [
         "caplet/google_drive/2025_knox_wharton.md:84-86 \"SECTION 2: ADVISOR AND TEAM REFLECTIONS\"",
         "caplet/google_drive/team_list.md:32-52 four teams, 21 students",
-        "COMPETITION.md:132 \"not yet requested as of 13 Oct\"",
+        "competition/COMPETITION.md:132 \"not yet requested as of 13 Oct\"",
         "Rules & Roles lines 421, 425 (accessed 16 Oct 2026): \"Monitoring team engagement and portfolio activity\"; \"An Advisor may oversee a maximum of five teams\""
       ],
       "fix": "Send the advisor a five-line update every second Sunday. Ask for the letter now and aim to hold it by Fri 20 Nov. If an advisor reflection is required, give the advisor the evidence ledger; the advisor writes it, not the team or AI.",
@@ -379,7 +379,7 @@
       "evidence": [
         "caplet/google_drive/team_list.md:69 \"Teams manage a $500,000 virtual portfolio\"",
         "caplet/google_drive/team_list.md:101-103 key dates: roster, IPS, Final Report only",
-        "COMPETITION.md:20 \"Trading Notes Analysis (TNA) | Fri 23 Oct\""
+        "competition/COMPETITION.md:20 \"Trading Notes Analysis (TNA) | Fri 23 Oct\""
       ],
       "fix": "The rules lead tells the advisor so the shared pack is corrected for all Knox teams.",
       "confidence": "high",

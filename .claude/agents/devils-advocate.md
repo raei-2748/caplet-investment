@@ -35,5 +35,5 @@ Items you may be asked about:
 
 For an options note (half a page at most), give: options | what each protects | what it costs (number, date,
 basis) | the bad case it fails | your best objection. Give no recommendation unless the student owner asks.
-The strategy is "Roots First" (`COMPETITION.md` section 7): stress-test it, do not redesign it. After the IPS
+The strategy is "Roots First" (`competition/COMPETITION.md` section 7): stress-test it, do not redesign it. After the IPS
 deadline the strategy is frozen, so the only job left is evaluating the implementation.

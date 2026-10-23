@@ -24,7 +24,7 @@ The quotes are accurate overall. Every Wharton quote I checked is real and curre
 
 ## Finding by finding
 
-**INT-01: ADJUSTED (critical to high).** The rule text is real: `caplet-latest/CLAUDE.md:27-30` and `COMPETITION.md:142-144`. The 13 rows are real: `IPS_v5_suggestions.md:7-21`. Two errors:
+**INT-01: ADJUSTED (critical to high).** The rule text is real: `caplet-latest/CLAUDE.md:27-30` and `competition/COMPETITION.md:142-144`. The 13 rows are real: `IPS_v5_suggestions.md:7-21`. Two errors:
 - "Any AI sentence accepted into the IPS goes in with no credit at all" is wrong. See the rule context above.
 - Not all 13 rows are AI wording. Rows 3 and 8 are cuts, and row 9 is a cut-down. Rows 1, 4, 5 and 11 mainly trim words or update numbers. New AI sentences are mainly in rows 2, 6, 7, 10, 12 and 13.
 
@@ -46,7 +46,7 @@ Only the fork's owner can delete the fork. I could not list the fork's branches 
 
 **INT-07: ADJUSTED (medium to low).** "You are the consultant for Team Caplet" (MONITOR.md:3, LAB.md:3) and CLAUDE.md:159 are verified. But the rule names "paid advisors, education consultants, extracurricular coursework, or other agents", which means humans and courses, and Wharton allows AI for ideas. The risk is remote.
 
-**INT-08: CONFIRMED (medium).** COMPETITION.md:192-193 (HEAD) and :193-194 (branch), MONITOR.md:23 and WATCHER.md:12-14 are verified. WATCHER.md:12 also holds the WInS account string (not repeated). The two Stock-Trak lines are verified ("Using any robot, spider, site search/retrieval application, or other device ..."; "the only authorized user of the site"). Whether they bind the Wharton edition is still UNVERIFIED. faqs.txt:34 is verified.
+**INT-08: CONFIRMED (medium).** competition/COMPETITION.md:192-193 (HEAD) and :193-194 (branch), MONITOR.md:23 and WATCHER.md:12-14 are verified. WATCHER.md:12 also holds the WInS account string (not repeated). The two Stock-Trak lines are verified ("Using any robot, spider, site search/retrieval application, or other device ..."; "the only authorized user of the site"). Whether they bind the Wharton edition is still UNVERIFIED. faqs.txt:34 is verified.
 
 **INT-09: ADJUSTED (high to medium).** The headers and the empty Team-note column (0 non-empty rows) are verified. My recount (notes.py) differs from the lens. Against the AI exemplars:
 
@@ -72,19 +72,19 @@ Against the 6 Oct AI drafts, Nov-2039 reaches **32% with a 12-word run**. That r
 
 **INT-15: CONFIRMED.** The FAQ lines are verified live, including "All team members must participate" at the semifinal. The Roles column is blank.
 
-**INT-16: CONFIRMED.** COMPETITION.md:49 still says "fictional" on both HEAD and the branch. "While the client is real" was found on the main page. client.txt:23 and the disqualification line are verified.
+**INT-16: CONFIRMED.** competition/COMPETITION.md:49 still says "fictional" on both HEAD and the branch. "While the client is real" was found on the main page. client.txt:23 and the disqualification line are verified.
 
 **INT-17: ADJUSTED (medium to low).** It is speculative: there is no sign any sibling team has read the repo, and the fix repeats INT-05.
 
 **INT-18: CONFIRMED.** Template and deliverables lines are verified. The consent text is verified: "(or a parent/guardian signature if the student is under 18)".
 
-**INT-19: CONFIRMED.** The WInS account string is in COMPETITION.md, MONITOR.md and WATCHER.md on both HEAD and the branch (the lens named only COMPETITION.md for the branch). The school email in a path at r4_hist_original.py:6 is verified. Neither is repeated here.
+**INT-19: CONFIRMED.** The WInS account string is in competition/COMPETITION.md, MONITOR.md and WATCHER.md on both HEAD and the branch (the lens named only competition/COMPETITION.md for the branch). The school email in a path at r4_hist_original.py:6 is verified. Neither is repeated here.
 
 **INT-20 to INT-23: CONFIRMED (low).** All cited lines and quotes are verified. On INT-20, the Code of Conduct's "social media" link is a stretch, so low is right.
 
 ## Missed findings (verifier-added)
 
-**INT-V01 (medium, new): the new rule under-discloses.** The rule says "the team records accepted AI wording in the Final Report's Works Cited" (`caplet-latest/CLAUDE.md:27-30`; `COMPETITION.md:142-143`). Wharton's wording is wider: "If you use AI to assist you in any way during the competition, how you use it must be recorded in your Works Cited pages", "including how and where students used AI-generated information" (AI Policy page, 16 Oct). Followed literally, the rule leaves out the AI strategy idea, the models, the example notes, rejected suggestions, the reviews and the 7 Oct browser incident. **What a fix must do:** the team's own rule must say all AI use is recorded, and the Works Cited is built from the back-filled log.
+**INT-V01 (medium, new): the new rule under-discloses.** The rule says "the team records accepted AI wording in the Final Report's Works Cited" (`caplet-latest/CLAUDE.md:27-30`; `competition/COMPETITION.md:142-143`). Wharton's wording is wider: "If you use AI to assist you in any way during the competition, how you use it must be recorded in your Works Cited pages", "including how and where students used AI-generated information" (AI Policy page, 16 Oct). Followed literally, the rule leaves out the AI strategy idea, the models, the example notes, rejected suggestions, the reviews and the 7 Oct browser incident. **What a fix must do:** the team's own rule must say all AI use is recorded, and the Works Cited is built from the back-filled log.
 
 **INT-V02 (medium, new): AI edits in the live Doc blur who wrote what.** The Google Docs API makes suggestions through an authorised account ("set the writeMode field of the WriteControl object to SUGGEST", developers.google.com, 16 Oct), and a browser agent acts inside a logged-in account. So the suggestions appear under a student's Google identity. Once one is accepted, the "[AI]" tag cannot stay in a submitted IPS. Version history would then show AI wording as that student's edit, which undercuts INT-02's fix ("keep each student's dated drafts (Doc version history) as proof"). How the suggestions are placed is unrecorded (UNVERIFIED). That Docs shows a suggestion under the account that made it is standard Docs behaviour, not tested today (UNVERIFIED). **What a fix must do:** keep AI out of the live IPS and TNA Doc. If the team keeps AI suggestions anyway, keep an outside log of each one (text, date, account, accepted or rejected) and a separate student-only drafting tab.
 

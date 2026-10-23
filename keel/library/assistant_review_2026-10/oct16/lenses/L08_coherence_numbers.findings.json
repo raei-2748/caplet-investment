@@ -1,10 +1,10 @@
 {
  "file": "oct16/lenses/L08_coherence_numbers.md",
- "summary": "I re-priced the ladder on the official Treasury curve up to the 15 Oct close. The room under $300k has collapsed. On the IBTR note's own basis (WInS-listed maturities, yields unchanged) the ten payments now cost $298,624. That leaves $1,376, or 4.7bp; on 6 Oct the room was 22.7bp. A rough model puts the chance that the ladder costs more than $300k by January at about 45%. So the IBTR note's \"about 0.2 points\", the planned reflection's \"yields have fallen slightly\", V5's \"$292,000\" and COMPETITION.md's \"$293k / 0.2pp\" are all stale. The 2028 top-up is now a central case, and under V5's own \"remainder\" rule a top-up shrinks the floor. The same re-pricing cuts the plan's stock share from about 9% (about $40k) to about 7.2% (about $33.5k). WInS holds 8.8% VT, and COMPETITION.md calls the drift \"trivial\" because it measures against fixed 6 Oct targets. The VT note, which cannot be edited, says stocks \"only\" set the gift above the minimum. V5 gives Laura's half of the fund three more jobs: covering payment shortfalls, defending against inflation and a stronger Taiwan dollar, and acting as a cushion. That half is worth only about $23k by 2033 (MODEL), and the 2027 leftover that comes first is about $1.4k and sits in stocks. The floor has six definitions across team files. The team's own rab memo rejects quoting $150k because the IBTM floor \"pays under $150,000 about 2 times in 3\", yet $150k is still the figure in most team files. V5's \"never below the floor\" survives only because the floor used to be STRIPS: the journal says so, and the 6 Oct email removed that reason. Other gaps: the WInS book is the 2 Jan 2028 plan scaled by about 0.643, but 9 of 11 notes speak of \"$50,000 payments\" with no scale. V5 says payments depend \"mainly on the US government\", while the notes admit reinvestment and payout risk; coupons supply 38-44% of each bond-funded payment. The reserve size is never defined (old files say $413k, $422k or $500k; the 15 Oct curve gives about $396-405k). One correction to the 15 Oct brief: \"$292k\" also reproduces on the WInS-listed forward basis for 29-30 Sep, so the real defect is a missing date and basis label, not only the old STRIPS basis. The fixes all need one dated numbers sheet with a re-price rule (6 Nov close for the IPS and Final Report), one glossary, and votes on the floor, the shortfall order and what the WInS mirror is pinned to.",
+ "summary": "I re-priced the ladder on the official Treasury curve up to the 15 Oct close. The room under $300k has collapsed. On the IBTR note's own basis (WInS-listed maturities, yields unchanged) the ten payments now cost $298,624. That leaves $1,376, or 4.7bp; on 6 Oct the room was 22.7bp. A rough model puts the chance that the ladder costs more than $300k by January at about 45%. So the IBTR note's \"about 0.2 points\", the planned reflection's \"yields have fallen slightly\", V5's \"$292,000\" and competition/COMPETITION.md's \"$293k / 0.2pp\" are all stale. The 2028 top-up is now a central case, and under V5's own \"remainder\" rule a top-up shrinks the floor. The same re-pricing cuts the plan's stock share from about 9% (about $40k) to about 7.2% (about $33.5k). WInS holds 8.8% VT, and competition/COMPETITION.md calls the drift \"trivial\" because it measures against fixed 6 Oct targets. The VT note, which cannot be edited, says stocks \"only\" set the gift above the minimum. V5 gives Laura's half of the fund three more jobs: covering payment shortfalls, defending against inflation and a stronger Taiwan dollar, and acting as a cushion. That half is worth only about $23k by 2033 (MODEL), and the 2027 leftover that comes first is about $1.4k and sits in stocks. The floor has six definitions across team files. The team's own rab memo rejects quoting $150k because the IBTM floor \"pays under $150,000 about 2 times in 3\", yet $150k is still the figure in most team files. V5's \"never below the floor\" survives only because the floor used to be STRIPS: the journal says so, and the 6 Oct email removed that reason. Other gaps: the WInS book is the 2 Jan 2028 plan scaled by about 0.643, but 9 of 11 notes speak of \"$50,000 payments\" with no scale. V5 says payments depend \"mainly on the US government\", while the notes admit reinvestment and payout risk; coupons supply 38-44% of each bond-funded payment. The reserve size is never defined (old files say $413k, $422k or $500k; the 15 Oct curve gives about $396-405k). One correction to the 15 Oct brief: \"$292k\" also reproduces on the WInS-listed forward basis for 29-30 Sep, so the real defect is a missing date and basis label, not only the old STRIPS basis. The fixes all need one dated numbers sheet with a re-price rule (6 Nov close for the IPS and Final Report), one glossary, and votes on the floor, the shortfall order and what the WInS mirror is pinned to.",
  "findings": [
   {
    "id": "COH-01",
-   "title": "Ladder room fell to 4.7bp on 15 Oct; IBTR note, V5 and COMPETITION.md quote stale figures",
+   "title": "Ladder room fell to 4.7bp on 15 Oct; IBTR note, V5 and competition/COMPETITION.md quote stale figures",
    "severity": "high",
    "deliverables": [
     "TNA",
@@ -16,7 +16,7 @@
     "caplet/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:15 'If yields fall more than about 0.2 percentage points by January'",
     "05_trading_note_reflection_wins_trading_notes.md:29 'Yields have fallen slightly since the trade'",
     "caplet/google_drive/ips_report/01_version_5.md:16 'about $292,000 of Treasuries'; :24 'At late-September 2026 yields they cost about $292,000'",
-    "COMPETITION.md:153-154 'It costs about $293k on the 6 Oct curve; a fall in yields of about 0.2 percentage points'",
+    "competition/COMPETITION.md:153-154 'It costs about $293k on the 6 Oct curve; a fall in yields of about 0.2 percentage points'",
     "keel/routines/tasks/MONITOR.md:22 6 Oct baseline 7y 5.15, 10y 5.27, 20y 5.68, $293,447, 22.7bp",
     "https://home.treasury.gov daily par curve CSV (accessed 16 Oct 2026): 15 Oct 5y 4.91, 7y 5.00, 10y 5.10, 20y 5.48; repriced in scratchpad/oct16/lenses/L08/series_live.csv"
    ],
@@ -34,9 +34,9 @@
     "FinalReport",
     "Trades"
    ],
-   "problem": "Re-priced 2028 split: 66.5/25.1/8.4 (6 Oct), 67.0/25.1/7.8 (14 Oct), 67.6/25.3/7.2 (15 Oct). The 2027 leftover shrank from about $8k to $1.4k. WInS VT is 8.84% at cost. COMPETITION.md calls drift trivial against fixed 6 Oct targets. The team's own October rule sizes VT to the re-priced plan share. The frozen book will look off-plan in the FR.",
+   "problem": "Re-priced 2028 split: 66.5/25.1/8.4 (6 Oct), 67.0/25.1/7.8 (14 Oct), 67.6/25.3/7.2 (15 Oct). The 2027 leftover shrank from about $8k to $1.4k. WInS VT is 8.84% at cost. competition/COMPETITION.md calls drift trivial against fixed 6 Oct targets. The team's own October rule sizes VT to the re-priced plan share. The frozen book will look off-plan in the FR.",
    "evidence": [
-    "COMPETITION.md:156 '(~9% of all money)'; :188-189 'Every weight is within 0.2 pt of target ... drift is trivial'",
+    "competition/COMPETITION.md:156 '(~9% of all money)'; :188-189 'Every weight is within 0.2 pt of target ... drift is trivial'",
     "CLAUDE.md:92 '(~$40k)'; :96 '~9% of all money'",
     "caplet/google_drive/notes_and_discussions.md:109 'The rest, about $40k'",
     "caplet/google_drive/ips_report/09_old_versions_v3_tab_7.md:20 '40K goes to growth'",
@@ -84,7 +84,7 @@
    "evidence": [
     "caplet/google_drive/strategy_notes.md:47 'About $150k is locked into a Treasury by 2028'",
     "notes_and_discussions.md:110 'At least $150k, which I already own'",
-    "COMPETITION.md:155-156 'sized to return about $150k by 2033'",
+    "competition/COMPETITION.md:155-156 'sized to return about $150k by 2033'",
     "01_version_5.md:24 'sized to return that remainder'; :30 'quoted rounded down after any expected shortfall'",
     "15_tab_15.md:16 'quoted at the 2032 ETF's projected payout rounded down'",
     "archive/rab/decisions/D_range_confidence_2031.md:8 'rounded down to $5,000 ($145,000 today)'; :18 'the iBond-fund floor pays under $150,000 about 2 times in 3'",
@@ -108,7 +108,7 @@
     "caplet/google_drive/final_report.md:24 'kept 'never below the floor' on purpose (STRIPS in real life, IBTM as the WInS stand-in)'",
     "01_version_5.md:28 'Markets can shrink the facility contribution, but never below the floor'",
     "05_trading_note_reflection_wins_trading_notes.md:19 'although the final payout is not fixed'",
-    "COMPETITION.md:87-90 (6 Oct email); :155 floor in IBTM; :176 '2028 floor stand-in'",
+    "competition/COMPETITION.md:87-90 (6 Oct email); :155 floor in IBTM; :176 '2028 floor stand-in'",
     "CLAUDE.md:97-98 'building-minimum stand-in'",
     "smapply_public_2026-10-14/deliverables.txt:58 Articulation criterion 'response to challenges'"
    ],
@@ -126,11 +126,11 @@
     "IPS",
     "FinalReport"
    ],
-   "problem": "Officially WInS is the 'simulator balance' and the 'implementation'. COMPETITION.md glosses it as '= Laura's 2027 deposit'. The book traded is the 2 Jan 2028 plan scaled by about 0.643, so rungs are sized for about $32k, not $50k. 9 of 11 filled notes say '$50,000 payment' with no scale; only Nov-2041 says scaled. The IBTR note says $300k buys all ten payments, while WInS put 65.9% into the ladder. Wharton verifies notes against trades, so the sizing gap reads as an error unless explained once.",
+   "problem": "Officially WInS is the 'simulator balance' and the 'implementation'. competition/COMPETITION.md glosses it as '= Laura's 2027 deposit'. The book traded is the 2 Jan 2028 plan scaled by about 0.643, so rungs are sized for about $32k, not $50k. 9 of 11 filled notes say '$50,000 payment' with no scale; only Nov-2041 says scaled. The IBTR note says $300k buys all ten payments, while WInS put 65.9% into the ladder. Wharton verifies notes against trades, so the sizing gap reads as an error unless explained once.",
    "evidence": [
     "competition/official/2026_27/smapply_public_2026-10-14/trading.txt:26 'The $300,000 is your team's WInS simulator balance'",
     "Laura_Gao_2026_Client_Profile.txt:129 'The WInS portfolio represents each team's implementation'",
-    "COMPETITION.md:70 '(= Laura's 2027 deposit; the $150k is NOT added)'",
+    "competition/COMPETITION.md:70 '(= Laura's 2027 deposit; the $150k is NOT added)'",
     "portfolio.csv:2 'Laura's plan on 2 Jan 2028, after both deposits, scaled to WInS's $300,000'; :10 'Payment ladder,65.9%'",
     "05_...md:18 filled Nov-2039 '$50,000 payment' vs :40 cancelled 'scaled 2040 payment'; :24 'scaled to the model portfolio'",
     "05_...md:15 'her first $300,000 is enough to buy Treasuries for all ten payments'",
@@ -190,11 +190,11 @@
    "deliverables": [
     "All"
    ],
-   "problem": "Root-and-Branch (IPS, journal), Roots First (COMPETITION.md heading and open item), Lock early, Keep every promise grow the rest, Lock then grow, and 'two cheques'. 'Consistency with the team's IPS' is part of a scored criterion, and teammates copy from COMPETITION.md.",
+   "problem": "Root-and-Branch (IPS, journal), Roots First (competition/COMPETITION.md heading and open item), Lock early, Keep every promise grow the rest, Lock then grow, and 'two cheques'. 'Consistency with the team's IPS' is part of a scored criterion, and teammates copy from competition/COMPETITION.md.",
    "evidence": [
     "01_version_5.md:16, :24 'Root-and-Branch'",
     "caplet/google_drive/final_report.md:21 'Strategy name settled as Root-and-Branch (earlier 'Roots First')'",
-    "COMPETITION.md:147 'Our strategy (\"Roots First\")'; :204",
+    "competition/COMPETITION.md:147 'Our strategy (\"Roots First\")'; :204",
     "CLAUDE.md:65 'Lock early'",
     "keel/library/insight_v1/Team_Caplet_Strategy_Brief.pdf p.1 'Keep every promise, grow the rest'",
     "caplet/deliverables/ips_outline.md:18 'Lock, then grow'; caplet/deliverables/final_report_outline.md:5 'two cheques'",
@@ -213,9 +213,9 @@
     "FinalReport",
     "Repo"
    ],
-   "problem": "COMPETITION.md lists 5.000% Feb-2037. WInS, the sheet and portfolio_check say 4.750%. 5.000% is the unlisted May-2037 issue. At the 96.019 fill the real coupon gives a 5.25% yield; the wrong one gives 5.51%. That error would enter the FR's implementation review.",
+   "problem": "competition/COMPETITION.md lists 5.000% Feb-2037. WInS, the sheet and portfolio_check say 4.750%. 5.000% is the unlisted May-2037 issue. At the 96.019 fill the real coupon gives a 5.25% yield; the wrong one gives 5.51%. That error would enter the FR's implementation review.",
    "evidence": [
-    "COMPETITION.md:181 '5.000% T-bond Feb-2037'",
+    "competition/COMPETITION.md:181 '5.000% T-bond Feb-2037'",
     "05_...md:16 'B-T-4.750-15022037'",
     "portfolio.csv:25 'T 4.750% 15-Feb-2037'; keel/routines/tasks/portfolio_check.py:12",
     "caplet/google_drive/sheets/portfolio_and_trading_notes/trading_notes.csv:129 'WInS does not list the 5.000% May-2037 (checked 5 Oct)'",
@@ -278,7 +278,7 @@
    "problem": "In WInS, distributions and coupons arrive as cash at 0% and the plan is hold. Bond coupons are smaller than a $1,000 unit. The notes park early proceeds in a short-term Treasury ETF. The sheet brief says T-bills, which are not on WInS. Tab 15 notes that 'held without trading' clashes with the 2028 purchase.",
    "evidence": [
     "01_version_5.md:26 'held without trading, with income reinvested in the holding that paid it'",
-    "COMPETITION.md:80 '0% interest on cash'; :82 '$1,000 face' units; :188-190",
+    "competition/COMPETITION.md:80 '0% interest on cash'; :82 '$1,000 face' units; :188-190",
     "05_...md:16-17 'short-term Treasury ETF'",
     "trading_notes.csv:129 'the money waits in Treasury bills (0% in WInS)'",
     "15_tab_15.md:29"
@@ -321,7 +321,7 @@
     "keel/library/insight_v1/Team_Caplet_Strategy_Brief.pdf p.3 (text search finds no 'STRIPS' or 'supersed')",
     "keel/library/insight_v1/trading_notes_pack.md:4 'IEF + TLH'; CLAUDE.md:85 'the two primary files'; CLAUDE.md:101",
     "caplet/deliverables/cosponsor_talking_points.md 'Today's projection: \u2248 $113k'; caplet/deliverables/final_report_outline.md:5 '$298k lock cost'",
-    "COMPETITION.md:94 'none maturing Feb 2031 to Feb 2036'"
+    "competition/COMPETITION.md:94 'none maturing Feb 2031 to Feb 2036'"
    ],
    "fix": "Before 9 Nov, banner or archive every file a student may open for the FR. Take FR figures only from one dated numbers sheet.",
    "confidence": "high",
@@ -353,12 +353,12 @@
     "FinalReport",
     "Team"
    ],
-   "problem": "The live Rules page says the Top 50 is chosen on the IPS and Final Reports. SMApply says all three deliverables are evaluated. CLAUDE.md states TNA+IPS+FR selection as fact. COMPETITION.md says 'short video presentation', but the FAQ means a live presentation over video conference, and the Rules page bans recording.",
+   "problem": "The live Rules page says the Top 50 is chosen on the IPS and Final Reports. SMApply says all three deliverables are evaluated. CLAUDE.md states TNA+IPS+FR selection as fact. competition/COMPETITION.md says 'short video presentation', but the FAQ means a live presentation over video conference, and the Rules page bans recording.",
    "evidence": [
     "https://globalyouth.wharton.upenn.edu/competitions/investment-competition/rules-roles/ (accessed 16 Oct 2026) 'The top 50 teams will be selected as semifinalists based on the strength of their Investment Policy Statement (IPS) and Final Reports.'",
     "smapply_public_2026-10-14/deliverables.txt:28 'Your Trading Notes Analysis, Investment Policy Statement and Final Report are evaluated.'",
     "CLAUDE.md:26 'chosen on the written Trading Notes, IPS and Final Report'",
-    "COMPETITION.md:26 'short video presentation'; faqs.txt:89 'via video conference for the Semifinals'"
+    "competition/COMPETITION.md:26 'short video presentation'; faqs.txt:89 'via video conference for the Semifinals'"
    ],
    "fix": "Treat all three as scored, but label the official wording difference. Correct the semifinal format wording.",
    "confidence": "high",
@@ -374,7 +374,7 @@
    ],
    "problem": "The FR is meant to explain the 'Long Equities' pie-chart label. Files give 91% (cash excluded) and 89.5-90.2% (cash included) without saying which.",
    "evidence": [
-    "COMPETITION.md:98 'about 91% Treasuries'",
+    "competition/COMPETITION.md:98 'about 91% Treasuries'",
     "ops/monitor_reports/2026-10-13 Caplet check.md:16",
     "archive/rab/trades/tickets.md:124 'dated holdings incl. floor 89.51% (tab target 90.2%)'"
    ],
@@ -394,7 +394,7 @@
    "problem": "These move or may be superseded before submission: ladder cost and odds, leftover, floor, fund split, WInS value and iBond distributions, the Fed (next FOMC 27-28 Oct per search listings), the JPM LTCMA (2026 edition, data 30 Sep 2025; no newer edition found 16 Oct, UNVERIFIED), VT and IBTP fact-sheet data, Taiwan CPI and USD/TWD. Without one valuation date per deliverable the three will carry mixed dates.",
    "evidence": [
     "CLAUDE.md:126 'JPM 2026 LTCMA (data 2025-09-30)'; :139 'Fed raised to 3.75-4.00% on 2026-09-16'",
-    "COMPETITION.md:188-190 value 13 Oct; iBond distributions around 6 Nov",
+    "competition/COMPETITION.md:188-190 value 13 Oct; iBond distributions around 6 Nov",
     "Web search 16 Oct 2026 (Chicago Fed / federalreserve.gov listings): FOMC 27-28 Oct and 8-9 Dec, tentative",
     "Web search 16 Oct 2026: no 2027 JPM LTCMA edition found"
    ],

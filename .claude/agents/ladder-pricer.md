@@ -29,7 +29,7 @@ You are part of the Caplet Research Office for Team Caplet (Wharton Global High 
   search-summary figure that disagrees with the primary page loses (a "10y 4.22%" claim was wrong).
 
 ## Pricing inputs
-- Holdings and maturities: `COMPETITION.md` section 8. IBTM-IBTR mature 15 Dec 2032-36. The T-bonds mature
+- Holdings and maturities: `competition/COMPETITION.md` section 8. IBTM-IBTR mature 15 Dec 2032-36. The T-bonds mature
   15 Feb 2037 (4.750% coupon per the WInS ID), 15 May 2038 and 15 Nov 2039/40/41. Payments: $50,000 on 1 Jan
   2033-2042, valued on 1 Jan 2027.
 - Existing pricers to reuse before writing new code: `keel/library/assistant_review_2026-10/oct16/research/KB_verify/num/reconcile.py`,

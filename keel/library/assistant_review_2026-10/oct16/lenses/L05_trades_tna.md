@@ -181,7 +181,7 @@ monitoring evidence and the Final Report's implementation story.
 ### F-05. "Add Note" exists, but don't use it on the picks (medium, new)
 **Problem.** WInS lets the team add notes to executed trades from Order History or Transaction History:
 "Notes are added in Preview Order and can also be added or viewed from Order History or Transaction History
-(Add/View Notes)" (`caplet/google_drive/sheets/portfolio_and_trading_notes/wins_notes.csv:17`; COMPETITION.md:84).
+(Add/View Notes)" (`caplet/google_drive/sheets/portfolio_and_trading_notes/wins_notes.csv:17`; competition/COMPETITION.md:84).
 It is tempting to add a "15 Oct review" note to IBTR. But Wharton wants notes recorded "at the time it is made"
 (`wins.txt:43`). A later note on the same trade blurs which note is "the Trading Note" being quoted (R2). It can also
 look retro-fitted when Wharton verifies (R7).
@@ -250,11 +250,11 @@ three read as one strategy (TNA:14-15).
 on the strength of their Investment Policy Statement (IPS) and Final Reports."
 (https://globalyouth.wharton.upenn.edu/competitions/investment-competition/rules-roles/). SMApply says "Your Trading
 Notes Analysis, Investment Policy Statement and Final Report are evaluated" (`deliverables.txt:27`).
-COMPETITION.md:41 says the Top 50 are chosen "on the written deliverables", which is less precise.
+competition/COMPETITION.md:41 says the Top 50 are chosen "on the written deliverables", which is less precise.
 
 **Implication.** The TNA is still scored and judged together with the IPS, and it commits the team to facts the IPS
 must repeat. But the IPS carries named Top 50 weight and has hard compliance gates. **Fix:** finish the TNA by Thu 22
-Oct with a fixed time budget, and start the IPS rewrite (vote set B) on schedule. Correct COMPETITION.md:41 to quote
+Oct with a fixed time budget, and start the IPS rewrite (vote set B) on schedule. Correct competition/COMPETITION.md:41 to quote
 the Rules page.
 
 ### F-10. "Required trading activity" is still undefined, and the Week-One email is still unread (medium, known-deeper)
@@ -302,7 +302,7 @@ Transaction History).
 
 **Fix.** If the form allows, put one identifier line above each reflection, outside the 100 words: security, buy,
 quantity, and the order date and time exactly as WInS shows them. Quantities are IBTR 853 sh, IBTM 4,503 sh, VT 167 sh
-(COMPETITION.md:176-186). Never convert times to Sydney time. Never call the order date the execution date.
+(competition/COMPETITION.md:176-186). Never convert times to Sydney time. Never call the order date the execution date.
 
 ### F-13. Copy fidelity: straight vs curly apostrophes, table rows, retyping (low, known-deeper)
 **Evidence.** All 15 exported notes are plain ASCII with straight apostrophes (character scan of `05_...md`). The
@@ -373,7 +373,7 @@ execution. Hence F-08.
 ### F-19. Wharton's trading role versus "only Ray trades" (low, new)
 Rules & Roles: "All team members are responsible for: ... collaborating with teammates and placing trades through the
 team's shared WInS account" (live 16 Oct 2026). FAQ: "It should be a team decision" (`faqs.txt:34`). The repo rule is
-"only Ray places or cancels WInS orders" (CLAUDE.md, COMPETITION.md:193). That is not a breach; it is a sensible
+"only Ray places or cancels WInS orders" (CLAUDE.md, competition/COMPETITION.md:193). That is not a breach; it is a sensible
 control after the 7 Oct mis-click. **Fix:** in the Articulation section, describe it as team decisions (who voted),
 one trader and one checker, and say why. Keep the vote records.
 

@@ -67,7 +67,7 @@ Three root causes sit under most of them (section 2.2).
 | 5 | **The three documents disagreed.** Numbers, names and claims did not match. | 8% | Two ladder costs on the same curve ($294.5k vs $298.6k, section 3); room fell from $4,007 to $1,372 in one day; the VT note says stocks "only" set the gift (`05_...wins_trading_notes.md:14`) while V5 gives Laura's half more jobs (`01_version_5.md:26,28,30`) | One dated number sheet on the holdings basis; state rules, not point claims | TNA Tue 20 Oct; IPS Wed 4 Nov |
 | 6 | **Good, but not top-50 good.** Noise among strong entries. | 7% | No public winner reports exist (FROM KB:47-49); selection rate falling | Make the report easy for a hurried reader: answer first, plain words | Through 4 Dec |
 | 7 | **A hard gate failed.** Format, note, letter or submission. | 5% | IPS V5 at 47/50 and 497/500 words; four notes sit on cancelled orders (`05_...:33-40`); school letter not yet requested (15 Oct brief); only the leader can submit | Format checklist with two counters; submit a day early; letter by 20 Nov | 22 Oct, 5 Nov, 20 Nov, 4 Dec |
-| 8 | **An integrity flag.** Invented stories, a false AI statement, contact with Laura, or text that matches another team. | 5% | Last year's doc: "Make up stories, and make them sound realistic" (`2025_knox_wharton.md:3827`); disclosure template says students "wrote all submitted text" (`caplet-latest/docs/AI_USE.md:91`); COMPETITION.md says "Laura is a fictional client" (`caplet-latest/COMPETITION.md:49`) | Fill blanks only from records; true AI entry from a real log; fix the "fictional" line | Sun 18-25 Oct |
+| 8 | **An integrity flag.** Invented stories, a false AI statement, contact with Laura, or text that matches another team. | 5% | Last year's doc: "Make up stories, and make them sound realistic" (`2025_knox_wharton.md:3827`); disclosure template says students "wrote all submitted text" (`caplet-latest/docs/AI_USE.md:91`); competition/COMPETITION.md says "Laura is a fictional client" (`caplet-latest/COMPETITION.md:49`) | Fill blanks only from records; true AI entry from a real log; fix the "fictional" line | Sun 18-25 Oct |
 
 ### 2.2 Root causes under the stories
 
@@ -223,9 +223,9 @@ of the gap. The forward-vs-unchanged basis explains the other ~$800. Neither fig
 ### PM-08 - Root cause: advice is not turning into action, and one rule was reversed in a day (high, new)
 - **Problem.** The 15 Oct brief gave dated actions. The 16 Oct commit (the only change since) did none of the
   repo-visible ones and reversed item 1. Without owners and a weekly check, the same list will still be open on 6 Nov.
-- **Evidence.** In `caplet-latest` (16 Oct): "AI may fill a ticket up to Preview" still at `COMPETITION.md:194` (brief
-  item 2); "Laura is a fictional client" still at `COMPETITION.md:49` (items 7, 28); Feb-2037 bond still "5.000%" at
-  `COMPETITION.md:182` (item 28; the note says 4.750%, `05_...:16`); `min_share_price_usd: 3` still in
+- **Evidence.** In `caplet-latest` (16 Oct): "AI may fill a ticket up to Preview" still at `competition/COMPETITION.md:194` (brief
+  item 2); "Laura is a fictional client" still at `competition/COMPETITION.md:49` (items 7, 28); Feb-2037 bond still "5.000%" at
+  `competition/COMPETITION.md:182` (item 28; the note says 4.750%, `05_...:16`); `min_share_price_usd: 3` still in
   `toolkit/config/competition.yaml:44` and `toolkit/config/wharton_private_2026_27.yaml:72` (item 28); roster still
   "PENDING_WHARTON_ROSTER_CONFIRMATION" (`toolkit/config/team_roster.json:9`); repo still public and now forked (item 3).
   Item 1 ("students write every word") was replaced by the [AI] rule (`caplet-latest/CLAUDE.md:26`). Commit stat: only

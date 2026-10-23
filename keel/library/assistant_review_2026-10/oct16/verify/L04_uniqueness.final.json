@@ -299,12 +299,12 @@
    "FinalReport",
    "Team"
   ],
-  "problem": "Articulation scores 'response to challenges' (deliverables.txt:58). Caplet has true, specific stories in its journal: the sector-minimum rule traced to a mislabelled third-party site and checked against the primary page (5 Oct; final_report.md:22); stale WInS bond prices caught and a 25bp yield-check rule adopted (29-30 Sep; :19); 'IBTN' found to be an unrelated company (:18). The STRIPS drop after the 6 Oct email is recorded only in CLAUDE.md, not in the journal. The 7 Oct mis-click is double-edged: an honest account shows learning, but it also tells judges that an AI browser operated WInS (COMPETITION.md:192-193). Wharton's FAQ says 'Students should place trades on WInS, NOT the advisor' (faqs.txt:34; written about advisors).",
+  "problem": "Articulation scores 'response to challenges' (deliverables.txt:58). Caplet has true, specific stories in its journal: the sector-minimum rule traced to a mislabelled third-party site and checked against the primary page (5 Oct; final_report.md:22); stale WInS bond prices caught and a 25bp yield-check rule adopted (29-30 Sep; :19); 'IBTN' found to be an unrelated company (:18). The STRIPS drop after the 6 Oct email is recorded only in CLAUDE.md, not in the journal. The 7 Oct mis-click is double-edged: an honest account shows learning, but it also tells judges that an AI browser operated WInS (competition/COMPETITION.md:192-193). Wharton's FAQ says 'Students should place trades on WInS, NOT the advisor' (faqs.txt:34; written about advisors).",
   "evidence": [
    "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:58",
    "caplet/google_drive/final_report.md:18, :19, :22",
    "CLAUDE.md 'Current status' (6 Oct email; STRIPS superseded)",
-   "COMPETITION.md:192-193: 'an AI browser click cancelled the wrong order'",
+   "competition/COMPETITION.md:192-193: 'an AI browser click cancelled the wrong order'",
    "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:34",
    "oct16/lenses/L09_integrity_compliance.findings.json INT-08"
   ],
@@ -314,7 +314,7 @@
   "deadline": "Journal back-fill Sun 25 Oct",
   "lens": "L04_uniqueness",
   "verdict": "adjusted",
-  "verifier_note": "Stories confirmed, but the citations are wrong. final_report.md has 27 lines. The stories are at :18 (iBonds, IBTN), :19 (stale prices, 25bp rule) and :22 (sector minimum, 5 Oct). The STRIPS drop after the 6 Oct email is not in the journal; it is recorded in CLAUDE.md 'Current status'. COMPETITION.md:192-193 and faqs.txt:34 verified; the lens correctly notes the FAQ is about advisors. Overlaps L09 INT-08."
+  "verifier_note": "Stories confirmed, but the citations are wrong. final_report.md has 27 lines. The stories are at :18 (iBonds, IBTN), :19 (stale prices, 25bp rule) and :22 (sector minimum, 5 Oct). The STRIPS drop after the 6 Oct email is not in the journal; it is recorded in CLAUDE.md 'Current status'. competition/COMPETITION.md:192-193 and faqs.txt:34 verified; the lens correctly notes the FAQ is about advisors. Overlaps L09 INT-08."
  },
  {
   "id": "UNIQ-14",

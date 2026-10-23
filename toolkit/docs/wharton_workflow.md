@@ -20,7 +20,7 @@ flowchart LR
 
 1. **Place Official Competition Files**:
    When Wharton releases the 2026–27 case study and approved stock list, place them into `competition/official/`.
-   *(Update 2026-10-14: there is no approved list for 2026-27; eligible = stocks meeting the WInS price minimum, any ETF on WInS and US Treasury bonds on WInS. See COMPETITION.md.)*
+   *(Update 2026-10-14: there is no approved list for 2026-27; eligible = stocks meeting the WInS price minimum, any ETF on WInS and US Treasury bonds on WInS. See competition/COMPETITION.md.)*
    ```bash
    cp ~/Downloads/client_case.pdf competition/official/
    cp ~/Downloads/approved_securities.csv competition/official/

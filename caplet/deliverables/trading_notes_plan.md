@@ -1,6 +1,6 @@
 # Trading Notes Analysis: plan and template (due 23 Oct 2026, 5pm ET)
 
-> **Update 2026-10-14:** written before the rules were confirmed. Branch 1 applies; the actual book (IBTM-IBTR, listed T-bonds Feb-2037 to Nov-2041, VT; 11 orders filled 7-8 Oct) replaced the generic Treasury ETF and conviction-stock rows. See COMPETITION.md.
+> **Update 2026-10-14:** written before the rules were confirmed. Branch 1 applies; the actual book (IBTM-IBTR, listed T-bonds Feb-2037 to Nov-2041, VT; 11 orders filled 7-8 Oct) replaced the generic Treasury ETF and conviction-stock rows. See competition/COMPETITION.md.
 
 > **Outline only.** Students write the submitted notes. Numbers come from `toolkit/outputs/laura/tables.md`. Confirm the official format (Q4) before writing.
 

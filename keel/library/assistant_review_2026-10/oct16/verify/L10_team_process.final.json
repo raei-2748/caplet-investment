@@ -89,7 +89,7 @@
   ],
   "problem": "One student places all trades, makes every student commit, runs all 10 AI routines on his Mac, receives every alert and Wharton email, and submits. The leader cannot be changed without Wharton approval. Illness, an exam or a missed Saturday-morning alarm could sink a no-extension deadline. Wharton also expects every member to share in trading and decisions.",
   "evidence": [
-   "CLAUDE.md:14 \"Only Ray places/cancels WInS orders\"; COMPETITION.md:193",
+   "CLAUDE.md:14 \"Only Ray places/cancels WInS orders\"; competition/COMPETITION.md:193",
    "git log main (16 Oct 2026): 96 commits Ray, 45 Claude, no other student (all branches: 100 / 68)",
    "keel/routines/README.md:3 \"the routines that run on Ray's Mac\"; 10 files in keel/routines/tasks/scheduled_tasks/",
    "keel/routines/tasks/WATCHER.md:21 \"send Ray a push notification\"",
@@ -144,7 +144,7 @@
   "evidence": [
    "Knox term dates (https://www.knox.nsw.edu.au/about/public-information/term-dates, accessed 16 Oct 2026): Term 3 concludes Fri 25 Sep; Term 4 commences Tue 13 Oct; Thu 3 Dec \"Presentation Day and Term 4 Concludes\"",
    "NESA (https://www.nsw.gov.au/education-and-training/nesa/news/all/2026-hsc-timetables-released, accessed 16 Oct 2026): \"starting with English Paper 1 on Tuesday 13 October and finishing with Physics in the morning of Thursday 5 November\"",
-   "COMPETITION.md:15-24 deadlines in Sydney time; :132 school letter \"not yet requested as of 13 Oct\"",
+   "competition/COMPETITION.md:15-24 deadlines in Sydney time; :132 school letter \"not yet requested as of 13 Oct\"",
    "caplet/google_drive/final_report.md:27 night-trading fatigue"
   ],
   "fix": "Build one shared calendar of exams, assessments, commitments and travel (18 Oct-5 Dec and late Jan-Mar 2027). Set internal deadlines two days early, and give no writing task in a student's exam week. Ask the advisor for the school letter now, with a target of Fri 20 Nov. Make no trades after 1 Nov unless forced; if forced, set the order in Sydney daylight.",
@@ -167,19 +167,19 @@
   ],
   "problem": "About six team decisions are open with no booked, agreed meeting: the three TNA picks, vote set A, vote set B (including floor size), the coupon-reinvestment option, the outcome of Darren's 5 Oct challenge, and the AI rule. Undecided items get decided by default, by the last editor or the AI. A settled decision also fails to spread: the journal says the name was settled as Root-and-Branch on 1 Oct and IPS V5 uses it, but the 'single source of truth' still says Roots First two weeks later.",
   "evidence": [
-   "COMPETITION.md:110 \"Our suggested picks (team decides)\"",
+   "competition/COMPETITION.md:110 \"Our suggested picks (team decides)\"",
    "caplet-latest/CLAUDE.md:15-16 \"TEAM DECISION before 6 Nov: state the risk / keep Laura's half to 2042 / hold a buffer from the 2028 deposit\"",
    "caplet/google_drive/notes_and_discussions.md:303 \"Team vote needed (D2/D6).\"",
    "CLAUDE.md:165-166 gate votes unticked",
-   "caplet/google_drive/final_report.md:21 \"Strategy name settled as Root-and-Branch (earlier 'Roots First')\" vs COMPETITION.md:147 \"Our strategy (\"Roots First\")\" and :204"
+   "caplet/google_drive/final_report.md:21 \"Strategy name settled as Root-and-Branch (earlier 'Roots First')\" vs competition/COMPETITION.md:147 \"Our strategy (\"Roots First\")\" and :204"
   ],
-  "fix": "Put the TNA picks, vote set A, Darren's challenge and the AI rule on the Sun 18 Oct agenda. Put vote set B, the coupon option, the floor size and the gate votes on Sun 25 Oct. Each decision gets a half-page options note from its student owner, with five decisions at most per meeting. After each vote, update one decisions register, COMPETITION.md and the AI memory file the same day.",
+  "fix": "Put the TNA picks, vote set A, Darren's challenge and the AI rule on the Sun 18 Oct agenda. Put vote set B, the coupon option, the floor size and the gate votes on Sun 25 Oct. Each decision gets a half-page options note from its student owner, with five decisions at most per meeting. After each vote, update one decisions register, competition/COMPETITION.md and the AI memory file the same day.",
   "confidence": "high",
   "deadline": "Sun 18 Oct and Sun 25 Oct",
   "new_vs_known": "known-deeper",
   "lens": "L10_team_process",
   "verdict": "adjusted",
-  "verifier_note": "Evidence verified (COMPETITION.md:110; caplet-latest/CLAUDE.md:15-16; notes_and_discussions.md:303; CLAUDE.md:165-166; final_report.md:21 vs COMPETITION.md:147 and :204). Two corrections. (1) The count double-counts: floor size is part of vote set B in the 15 Oct brief, the 'timid' floor question got a 1 Oct outcome (final_report.md:21), and the insight_v1 gate votes are settled in practice by the 6-8 Oct trades even though the box is unticked. About six distinct decisions are open. (2) Vote sets A and B were already scheduled in the 15 Oct brief (final.md items 11, 15, 19: picks Mon 19 Oct, set B Tue 27 Oct). This lens proposes Sun 18 and Sun 25 instead, so the team now has two AI schedules; it must pick one. IPS V5 already uses Root-and-Branch, so only COMPETITION.md lags."
+  "verifier_note": "Evidence verified (competition/COMPETITION.md:110; caplet-latest/CLAUDE.md:15-16; notes_and_discussions.md:303; CLAUDE.md:165-166; final_report.md:21 vs competition/COMPETITION.md:147 and :204). Two corrections. (1) The count double-counts: floor size is part of vote set B in the 15 Oct brief, the 'timid' floor question got a 1 Oct outcome (final_report.md:21), and the insight_v1 gate votes are settled in practice by the 6-8 Oct trades even though the box is unticked. About six distinct decisions are open. (2) Vote sets A and B were already scheduled in the 15 Oct brief (final.md items 11, 15, 19: picks Mon 19 Oct, set B Tue 27 Oct). This lens proposes Sun 18 and Sun 25 instead, so the team now has two AI schedules; it must pick one. IPS V5 already uses Root-and-Branch, so only competition/COMPETITION.md lags."
  },
  {
   "id": "TP-08",
@@ -204,7 +204,7 @@
   "new_vs_known": "new",
   "lens": "L10_team_process",
   "verdict": "confirmed",
-  "verifier_note": "Verified in git show 412e9e3: CLAUDE.md lines replaced ('Do NOT write the Trading Notes, IPS or Final Report' and 'Assistant outputs are for inspiration and research; the team does not submit them as they are' removed); COMPETITION.md:142 'Since 16 Oct (Ray's decision)'; IPS_v5_suggestions.md has 13 rows (its own text says 'twelve'). No team vote is recorded anywhere. The 15 Oct brief's first action was 'Agree that students write every word that is submitted' (final.md:33). Commit time 01:24 UTC 16 Oct is about a day after that brief. Integrity side is L09 INT-01; this finding is decision rights only. Fix (charter, logged vote) is allowed and contains no prose."
+  "verifier_note": "Verified in git show 412e9e3: CLAUDE.md lines replaced ('Do NOT write the Trading Notes, IPS or Final Report' and 'Assistant outputs are for inspiration and research; the team does not submit them as they are' removed); competition/COMPETITION.md:142 'Since 16 Oct (Ray's decision)'; IPS_v5_suggestions.md has 13 rows (its own text says 'twelve'). No team vote is recorded anywhere. The 15 Oct brief's first action was 'Agree that students write every word that is submitted' (final.md:33). Commit time 01:24 UTC 16 Oct is about a day after that brief. Integrity side is L09 INT-01; this finding is decision rights only. Fix (charter, logged vote) is allowed and contains no prose."
  },
  {
   "id": "TP-09",
@@ -215,7 +215,7 @@
    "Team",
    "Repo"
   ],
-  "problem": "The team's rule files disagree on who writes the deliverables. On the 16 Oct branch, START_HERE says the team writes everything and AI is research only, while CLAUDE.md and COMPETITION.md say the AI may suggest wording. Main (where most sessions start) still has the old rule, because the branch is not merged. The routines on Ray's Mac read a third rules file in a private memory folder. A student following START_HERE, an AI session on main, and an AI session on the branch will follow different rules, and on 4 Dec the team may not agree on what to disclose in the Works Cited.",
+  "problem": "The team's rule files disagree on who writes the deliverables. On the 16 Oct branch, START_HERE says the team writes everything and AI is research only, while CLAUDE.md and competition/COMPETITION.md say the AI may suggest wording. Main (where most sessions start) still has the old rule, because the branch is not merged. The routines on Ray's Mac read a third rules file in a private memory folder. A student following START_HERE, an AI session on main, and an AI session on the branch will follow different rules, and on 4 Dec the team may not agree on what to disclose in the Works Cited.",
   "evidence": [
    "caplet-latest/START_HERE.md:26 \"The team writes all deliverables (TNA, IPS, Final Report). AI output here is research and checking only\"",
    "caplet-latest/CLAUDE.md:27-30 AI may edit as [AI] suggestions; main CLAUDE.md still says \"Do NOT write the Trading Notes, IPS or Final Report\"",
@@ -229,7 +229,7 @@
   "new_vs_known": "new",
   "lens": "L10_team_process",
   "verdict": "adjusted",
-  "verifier_note": "Contradiction confirmed: caplet-latest/START_HERE.md:26 'The team writes all deliverables (TNA, IPS, Final Report). AI output here is research and checking only' vs caplet-latest/CLAUDE.md:27-30 and COMPETITION.md:142-144. caplet/docs/AI_USE.md:65 is a dated 29 Sep log entry, not a rule, so it is dropped as evidence. Added: the new rule exists only on the unmerged branch claude/fervent-edison-sqk1ry, so main's CLAUDE.md still says 'Do NOT write'; and the scheduled routines load a separate rules memory on Ray's Mac (JUDGE.md:10, WATCHER.md:19). That makes at least three rule stores. Lowered from high to medium because TP-08 carries the decision-rights risk."
+  "verifier_note": "Contradiction confirmed: caplet-latest/START_HERE.md:26 'The team writes all deliverables (TNA, IPS, Final Report). AI output here is research and checking only' vs caplet-latest/CLAUDE.md:27-30 and competition/COMPETITION.md:142-144. caplet/docs/AI_USE.md:65 is a dated 29 Sep log entry, not a rule, so it is dropped as evidence. Added: the new rule exists only on the unmerged branch claude/fervent-edison-sqk1ry, so main's CLAUDE.md still says 'Do NOT write'; and the scheduled routines load a separate rules memory on Ray's Mac (JUDGE.md:10, WATCHER.md:19). That makes at least three rule stores. Lowered from high to medium because TP-08 carries the decision-rights risk."
  },
  {
   "id": "TP-10",
@@ -294,7 +294,7 @@
   "evidence": [
    "Rules & Roles line 391 (accessed 16 Oct 2026) leader is \"receiving Competition communications and notifications\"",
    "keel/routines/tasks/WATCHER.md:21; keel/routines/README.md:9 \"The live copies are in ~/Research/caplet-monitor/\"",
-   "START_HERE.md:29 \"those are snapshots from 14 Oct\"",
+   "caplet/START_HERE.md:29 \"those are snapshots from 14 Oct\"",
    "GitHub API forks metadata (accessed 16 Oct 2026): created 2026-10-15T22:10:20Z, pushed_at 2026-10-15T22:10:24Z (owner not named)"
   ],
   "fix": "The rules lead posts a five-line digest in the team chat every Sunday (what changed, what was decided, what is due, who owns it, any Wharton email forwarded in full). The historian copies it into the ledger.",
@@ -303,7 +303,7 @@
   "new_vs_known": "new",
   "lens": "L10_team_process",
   "verdict": "confirmed",
-  "verifier_note": "Rules & Roles line 391 verified live; WATCHER.md:21 and keel/routines/README.md:9 '~/Research/caplet-monitor/' verified; START_HERE.md:29 'snapshots from 14 Oct' verified; the 6 Oct email exists only as a one-sentence quote (COMPETITION.md:87-90). GitHub API (16 Oct): fork created 2026-10-15T22:10:20Z, pushed_at 22:10:24Z (owner not named). Medium is fair."
+  "verifier_note": "Rules & Roles line 391 verified live; WATCHER.md:21 and keel/routines/README.md:9 '~/Research/caplet-monitor/' verified; caplet/START_HERE.md:29 'snapshots from 14 Oct' verified; the 6 Oct email exists only as a one-sentence quote (competition/COMPETITION.md:87-90). GitHub API (16 Oct): fork created 2026-10-15T22:10:20Z, pushed_at 22:10:24Z (owner not named). Medium is fair."
  },
  {
   "id": "TP-13",
@@ -431,7 +431,7 @@
   "problem": "The team has checkable moments most teams will not have, but they sit scattered or unlogged, losing who did what and why. They include night trading from Sydney, the 7 Oct AI mis-click and new rule, WInS quirks (no 2031-36 Treasuries, IBTN, stale prices, the coupon date, the pie chart), the sector-rule false alarm, the 5 Oct reserve catch, the 6 Oct email, and the ladder cost rising $4.6k in a week.",
   "evidence": [
    "caplet/google_drive/final_report.md:17-27",
-   "COMPETITION.md:92-100 WInS quirks; :192-193 7 Oct incident; :87-90 6 Oct email",
+   "competition/COMPETITION.md:92-100 WInS quirks; :192-193 7 Oct incident; :87-90 6 Oct email",
    "caplet-latest/research/ips_numbers_2026-10/results.json: 2026-10-09 cost 289893; 2026-10-15 cost 294453"
   ],
   "fix": "The historian logs each one: date, who found it (student or AI, honestly), action, lesson, artefact. Pick two or three for the Final Report; depth beats a list.",
@@ -440,7 +440,7 @@
   "new_vs_known": "new",
   "lens": "L10_team_process",
   "verdict": "confirmed",
-  "verifier_note": "final_report.md:17-27 and COMPETITION.md:87-100, :192-193 verified; results.json shows $289,893 (9 Oct) and $294,453 (15 Oct), a rise of $4,560. The fix asks for honest attribution (student or AI), which matters because the 7 Oct incident was an AI browser click (COMPETITION.md:192)."
+  "verifier_note": "final_report.md:17-27 and competition/COMPETITION.md:87-100, :192-193 verified; results.json shows $289,893 (9 Oct) and $294,453 (15 Oct), a rise of $4,560. The fix asks for honest attribution (student or AI), which matters because the 7 Oct incident was an AI browser click (competition/COMPETITION.md:192)."
  },
  {
   "id": "TP-19",
@@ -476,7 +476,7 @@
   "evidence": [
    "caplet/google_drive/2025_knox_wharton.md:84-86 \"SECTION 2: ADVISOR AND TEAM REFLECTIONS\"",
    "caplet/google_drive/team_list.md:32-52 four teams, 21 students",
-   "COMPETITION.md:132 \"not yet requested as of 13 Oct\"",
+   "competition/COMPETITION.md:132 \"not yet requested as of 13 Oct\"",
    "Rules & Roles lines 421, 425 (accessed 16 Oct 2026): \"Monitoring team engagement and portfolio activity\"; \"An Advisor may oversee a maximum of five teams\""
   ],
   "fix": "Send the advisor a five-line update every second Sunday. Ask for the letter now and aim to hold it by Fri 20 Nov. If an advisor reflection is required, give the advisor the evidence ledger; the advisor writes it, not the team or AI.",
@@ -485,7 +485,7 @@
   "new_vs_known": "known-deeper",
   "lens": "L10_team_process",
   "verdict": "confirmed",
-  "verifier_note": "2025_knox_wharton.md 'SECTION 2: ADVISOR AND TEAM REFLECTIONS' verified (around line 84); four Knox teams with 5+6+4+6 = 21 students (team_list.md); COMPETITION.md:132 'not yet requested as of 13 Oct'; Rules & Roles 'Monitoring team engagement and portfolio activity' and 'An Advisor may oversee a maximum of five teams' verified live. Whether this year's Final Report has an advisor section, and whether one advisor serves all four teams, are correctly marked UNVERIFIED. Known-deeper (final.md item 10)."
+  "verifier_note": "2025_knox_wharton.md 'SECTION 2: ADVISOR AND TEAM REFLECTIONS' verified (around line 84); four Knox teams with 5+6+4+6 = 21 students (team_list.md); competition/COMPETITION.md:132 'not yet requested as of 13 Oct'; Rules & Roles 'Monitoring team engagement and portfolio activity' and 'An Advisor may oversee a maximum of five teams' verified live. Whether this year's Final Report has an advisor section, and whether one advisor serves all four teams, are correctly marked UNVERIFIED. Known-deeper (final.md item 10)."
  },
  {
   "id": "TP-21",
@@ -521,7 +521,7 @@
   "evidence": [
    "caplet/google_drive/team_list.md:69 \"Teams manage a $500,000 virtual portfolio\"",
    "caplet/google_drive/team_list.md:101-103 key dates: roster, IPS, Final Report only",
-   "COMPETITION.md:20 \"Trading Notes Analysis (TNA) | Fri 23 Oct\""
+   "competition/COMPETITION.md:20 \"Trading Notes Analysis (TNA) | Fri 23 Oct\""
   ],
   "fix": "The rules lead tells the advisor so the shared pack is corrected for all Knox teams.",
   "confidence": "high",
@@ -592,7 +592,7 @@
    "caplet/google_drive/ips_report/04_trading_note_reflection.md (68 words: Wharton's instructions only, exported 2026-10-14)",
    "caplet/google_drive/ips_report/06_trading_note_reflection_deliverables.md (30 words)",
    "caplet/google_drive/team_list.md Roles column empty for all six Caplet students",
-   "COMPETITION.md:110 \"Our suggested picks (team decides)\"",
+   "competition/COMPETITION.md:110 \"Our suggested picks (team decides)\"",
    "caplet/google_drive/sheets/portfolio_and_trading_notes/trade_log.csv headers and empty rows",
    "Rules & Roles line 391 (live, 16 Oct 2026): the leader is responsible for \"submitting team deliverables through SurveyMonkey Apply\""
   ],

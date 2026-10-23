@@ -74,7 +74,7 @@ Fetched live with plain `curl` at **19 Oct 22:19 UTC (Tue 20 Oct 09:19 Sydney)**
 | R9 | No margin, no shorting | NOT permitted: "Margin trading", "Short selling" (FAQ:49-50) | Never sell more units than are held. Never place a buy before the cash is there | PASS if sequenced (§6) |
 | R10 | Trade notes | WP:45: "Complete a Trading Note when your team makes an investment decision." SESS: "300-character maximum (maxlength on the note box)". Notes cannot be edited, only added (`snap/main/COMPETITION.md:84`; assumed, not confirmed: treat as final, VTR E12) [consistency fix 20 Oct, row 18]. UG p.10: enter the note at "Review Order" | One new note per order, 300 characters or fewer, written by students. Checklist only (§5 of each card) | Applied |
 | R11 | Fills | Orders placed while the market is closed "are filled at the security's opening price when the market reopens" (TRD:35). "Mutual funds and bonds are executed at end of day prices" (PFAQ:137). "The bond prices are updated once daily at U.S. market open" (FAQ:63) | ETF orders entered in the Sydney evening fill at the next US open. Bond fills appear after the US close. Exact bond fill timing is UNVERIFIED | Applied |
-| R12 | Cash and buying power | "If you do not have adequate cash and/or buying power, then the number of shares will be adjusted to allow the trade to be filled as best it can." "Restricted funds are also created when you place a market order when the market is closed." (PFAQ:47, 107) | A buy placed before the sale's cash arrives may be **silently cut** to a smaller size. A wrong quantity may also fill at a wrong size rather than be rejected. This conflicts with COMPETITION.md:85 ("WInS does not reserve cash for open orders"), so it is UNVERIFIED either way | Drives the two-evening sequence |
+| R12 | Cash and buying power | "If you do not have adequate cash and/or buying power, then the number of shares will be adjusted to allow the trade to be filled as best it can." "Restricted funds are also created when you place a market order when the market is closed." (PFAQ:47, 107) | A buy placed before the sale's cash arrives may be **silently cut** to a smaller size. A wrong quantity may also fill at a wrong size rather than be rejected. This conflicts with competition/COMPETITION.md:85 ("WInS does not reserve cash for open orders"), so it is UNVERIFIED either way | Drives the two-evening sequence |
 | R13 | "Required trading activity" | "teams must meet the required trading activity and portfolio management guidelines throughout the competition" (FAQ:80) | Not defined anywhere public. Not a reason to trade | **UNVERIFIED** (already in the Wharton question batch, `oct19/out/Caplet_Update_19Oct2026.md:372`) |
 | R14 | WInS P&L | "WInS gains and losses should not be added to or subtracted from the client's long-term portfolio projections." (TRD:29) | No card is justified by WInS gains or losses | Applied |
 
@@ -82,7 +82,7 @@ House rules (team, not Wharton):
 - Keep at least $1,000 cash (Portfolio tab R31; R&B Tickets R7).
 - Only Ray trades (`snap/main/COMPETITION.md:193`).
 - A trader plus a second student check every preview (`oct20/ops/operating_plan.md:78, 86` [consistency fix 20 Oct, row 20]).
-- Every bond gets a yield check (COMPETITION.md:95-96).
+- Every bond gets a yield check (competition/COMPETITION.md:95-96).
 
 ---
 
@@ -94,7 +94,7 @@ House rules (team, not Wharton):
   20 × 3.125% Nov-2041.
 - Cash $3,513.79. 11 of 200 trades used.
 - Sources: `snap/main/COMPETITION.md:174-188` and `snap/main/ops/routines/portfolio_check.py:5-18`. The Feb-2037 coupon is
-  4.750% per the WInS ID in `05_..._wins_trading_notes.md:16`, not COMPETITION.md's 5.000%.
+  4.750% per the WInS ID in `05_..._wins_trading_notes.md:16`, not competition/COMPETITION.md's 5.000%.
 
 **ETF prices and volume.** 19 Oct 2026 US close. Two sources:
 - Yahoo chart API, fetched by the numbers desk at 19 Oct 21:45 UTC. Copied to `data/prices_numbers_2145utc/`.
@@ -325,15 +325,15 @@ Buy Nov-2041:
   in a normal market. If it does not fill, it expires and is re-entered the next evening. Whether a Day limit entered before the
   open stays valid for that session is UNVERIFIED; check it shows "Open" in Order History. A market order is acceptable for a
   $6k ETF sale (295 × $0.05 = $15 of price risk), but the house quirk list says iBond quotes outside hours are wide
-  (COMPETITION.md:100), so a limit is the safer habit.
+  (competition/COMPETITION.md:100), so a limit is the safer habit.
 - **Bond:**
   - Bond order types in WInS are UNVERIFIED (probably market at the daily price). The yield check replaces a limit.
   - **Pass** if the WInS clean price is in roughly **76.0-77.5** on a 19-Oct-like curve. That is a 5.49-5.32% yield against about
     5.34% on the par curve and 5.38% on the bootstrap. Re-read both on the night.
   - **Stop** if the implied yield is more than 0.25 points from the curve. Two WInS bonds had stale prices about 1 point off
-    (COMPETITION.md:95-96).
+    (competition/COMPETITION.md:95-96).
   - Check the last coupon date shows **15 May 2026** and the accrued is about $14.3 per $1,000. WInS mis-dated the May-2038 bond's
-    coupon (COMPETITION.md:97).
+    coupon (competition/COMPETITION.md:97).
 - **Timing:** sale Thu 29 Oct 22:00 Sydney → check the fill and cash Fri 30 Oct after 07:00 Sydney → bond Fri 30 Oct 22:00 Sydney
   → check Sat 31 Oct after 07:00 Sydney. Fallback: Tue 3 Nov and Wed 4 Nov, 22:00 Sydney.
 - **Do not sell IBTM if the bond fails the check that evening.** Check the bond screen first: a pre-open check shows the previous
@@ -397,7 +397,7 @@ live at the chosen scale before any vote.**
 - The frozen book would show **no holding for the 2034 payment** and only part of 2033. Judges compare WInS with the notes, so
   each of the 10 new notes must explain a reversal.
 - **Execution risk:** 10 orders across at least two evenings, by one trader, after the 7 Oct mis-click.
-- The May-2038 bond's accrued interest in WInS is mis-dated (COMPETITION.md:97), so its preview total will differ from the model.
+- The May-2038 bond's accrued interest in WInS is mis-dated (competition/COMPETITION.md:97), so its preview total will differ from the model.
   Check it.
 
 **(4) Notes (10).**
@@ -509,7 +509,7 @@ L's own design leaves 2.9%).
    - action **Sell** or **Buy** (never Short or Cover);
    - the ticker or bond ID;
    - the quantity;
-   - for bonds, the unit: COMPETITION.md:82 says units of $1,000 face, but the Sheet's R19 note says face dollars. The **preview
+   - for bonds, the unit: competition/COMPETITION.md:82 says units of $1,000 face, but the Sheet's R19 note says face dollars. The **preview
      total** decides: about $6.2k for 8 bonds, not $62 or $6.2m. The platform may fill a wrong quantity "as best it can" rather
      than reject it (PFAQ:47);
    - the order type and limit;
@@ -552,7 +552,7 @@ America/New_York and Australia/Sydney.
    this pack is MODEL.
 3. **The WInS volume rule for bonds** (no data visible). Earlier fills of 18-20 units suggest 8-13 is fine.
 4. **Buying-power behaviour:** whether WInS reserves cash for open orders, and whether it shrinks or rejects an order that is too
-   large (PFAQ:47, 107 against COMPETITION.md:85).
+   large (PFAQ:47, 107 against competition/COMPETITION.md:85).
 5. **Whether a pre-open Day limit order stays valid** for that session, and which order types WInS offers for bonds.
 6. **"Required trading activity"** (FAQ:80). Ask Wharton; never trade to meet an unknown count.
 7. **When WInS credits the early-November iBond distributions.** This affects cash only slightly.
@@ -564,8 +564,8 @@ America/New_York and Australia/Sydney.
 - **3r WInS sizing.** "Sell about 150 IBTM" (`oct19/coupon/coupon_risk_options.md:156`; `oct19/out/Caplet_Update_19Oct2026.md:319`)
   and "130-150 IBTM" (`oct20/redteam3r/redteam_3r.md` §8) leave $94-$531 cash. To mirror the plan and keep the $1,000 rule, sell
   about 295 (or at least 174).
-- **COMPETITION.md:181.** The Feb-2037 bond is 4.750%, not 5.000% (WInS ID B-T-4.750-15022037).
-- **COMPETITION.md:13.** "The gap changes from 14 to 16 hours" should be **15 to 16** while Sydney is on AEDT (since 4 Oct).
+- **competition/COMPETITION.md:181.** The Feb-2037 bond is 4.750%, not 5.000% (WInS ID B-T-4.750-15022037).
+- **competition/COMPETITION.md:13.** "The gap changes from 14 to 16 hours" should be **15 to 16** while Sydney is on AEDT (since 4 Oct).
 - **`oct16/tools/page.py`.** It caches every URL with no expiry (lines 7-14), so re-runs return old rules pages. Fetch rules with
   plain `curl` (as here and in `oct20/compliance/`).
 - **Repo copies of the SMApply pages** (`smapply_public_2026-10-14/`) are stale on the stock floor, the TIPS/STRIPS ban and the

@@ -17,7 +17,7 @@ the checks are logged (16 Oct review item 9).
 
 ## Job 1: journal facts
 - Sources: `git log`, the `caplet/google_drive/` exports (Notes & Discussions, Strategy Notes, the journal in
-  final_report.md), `caplet/decisions/`, `keel/routines/monitor_reports/`, the incidents in `COMPETITION.md` section 8 (e.g. the 7 Oct
+  final_report.md), `caplet/decisions/`, `keel/routines/monitor_reports/`, the incidents in `competition/COMPETITION.md` section 8 (e.g. the 7 Oct
   mis-click), and anything a student pastes (chat, emails).
 - Mention who argued what only if a record says so. Never say how anyone felt. No rankings of teammates, no
   personal data.

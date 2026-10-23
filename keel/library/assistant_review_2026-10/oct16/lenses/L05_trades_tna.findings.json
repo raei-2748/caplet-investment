@@ -174,13 +174,13 @@
     "Team",
     "Repo"
    ],
-   "problem": "Wharton's live Rules page says the Top 50 are chosen 'based on the strength of their IPS and Final Reports'. The TNA is evaluated and judged with them, and it fixes facts the IPS must repeat, but its weight for the semifinals is unclear. COMPETITION.md says 'written deliverables'. Over-investing in the TNA risks squeezing the IPS rewrite.",
+   "problem": "Wharton's live Rules page says the Top 50 are chosen 'based on the strength of their IPS and Final Reports'. The TNA is evaluated and judged with them, and it fixes facts the IPS must repeat, but its weight for the semifinals is unclear. competition/COMPETITION.md says 'written deliverables'. Over-investing in the TNA risks squeezing the IPS rewrite.",
    "evidence": [
     "https://globalyouth.wharton.upenn.edu/competitions/investment-competition/rules-roles/ (accessed 16 Oct 2026): \"The top 50 teams will be selected as semifinalists based on the strength of their Investment Policy Statement (IPS) and Final Reports.\"",
     "competition/official/2026_27/smapply_public_2026-10-14/deliverables.txt:27 \"Your Trading Notes Analysis, Investment Policy Statement and Final Report are evaluated.\"",
-    "COMPETITION.md:41 \"The Top 50 semifinalists are chosen on the written deliverables\""
+    "competition/COMPETITION.md:41 \"The Top 50 semifinalists are chosen on the written deliverables\""
    ],
-   "fix": "Finish the TNA by Thu 22 Oct within a fixed time budget, correct and consistent. Keep vote set B and the IPS rewrite on schedule. Correct COMPETITION.md:41 to quote the Rules page.",
+   "fix": "Finish the TNA by Thu 22 Oct within a fixed time budget, correct and consistent. Keep vote set B and the IPS rewrite on schedule. Correct competition/COMPETITION.md:41 to quote the Rules page.",
    "confidence": "high",
    "new_vs_known": "new",
    "deadline": "TNA Thu 22 Oct; IPS work from Tue 27 Oct"
@@ -236,7 +236,7 @@
    "evidence": [
     "competition/official/2026_27/2026_WGY_Trading_Notes_Analysis-FINAL.txt:53 \"Yes, we will verify this.\"",
     "caplet/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:8 \"with times in US Eastern as WInS shows them\"",
-    "COMPETITION.md:176-186 (IBTM 4,503 sh; IBTR 853 sh; VT 167 sh)"
+    "competition/COMPETITION.md:176-186 (IBTM 4,503 sh; IBTR 853 sh; VT 167 sh)"
    ],
    "fix": "If the form allows, put one identifier line per pick outside the 100 words: security, buy, quantity, and the order date and time exactly as WInS shows them. Take fill dates from Transaction History. Never convert times to Sydney time.",
    "confidence": "medium",
@@ -366,7 +366,7 @@
    "evidence": [
     "https://globalyouth.wharton.upenn.edu/competitions/investment-competition/rules-roles/ (accessed 16 Oct 2026): \"collaborating with teammates and placing trades through the team's shared WInS account\"",
     "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:34 \"It should be a team decision.\"",
-    "COMPETITION.md:193 \"only Ray places or cancels WInS orders\""
+    "competition/COMPETITION.md:193 \"only Ray places or cancels WInS orders\""
    ],
    "fix": "Keep vote records and checker names. In the Final Report, describe team decisions, one trader and one checker, and why.",
    "confidence": "high",
@@ -383,7 +383,7 @@
    ],
    "problem": "A verifier comparing the IBTR note with WInS positions sees about $197k of payment holdings: iBonds $183,850.85 less IBTM's floor shares (3,361 x $21.65), plus bonds $84,801 and about $1.3k accrued. That is two-thirds of the real-plan ladder, because WInS mirrors the post-2028 plan scaled by 300/450. Unexplained, it looks like the note is wrong.",
    "evidence": [
-    "COMPETITION.md:176-185 (fills and quantities)",
+    "competition/COMPETITION.md:176-185 (fills and quantities)",
     "caplet/google_drive/sheets/portfolio_and_trading_notes/portfolio.csv:38-39 per scratchpad oct14/tna_merge.md:91 (1,142 payment / 3,361 floor shares)",
     "caplet/google_drive/notes_and_discussions.md:308 \"scaled down to $300k\""
    ],

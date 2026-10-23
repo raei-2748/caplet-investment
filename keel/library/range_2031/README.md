@@ -15,7 +15,7 @@ the gift reaches the top. The bottom is the $150,000 floor rounded down, because
 not fixed (median about $148,300, worst about $146,300). The top is not knowable today: it is set by the stock
 fund's value in Jan 2031, so it could be anywhere from about $145,000 to $195,000 (5th to 95th percentile).
 
-## How the range is built (the plan as it stands, COMPETITION.md s7)
+## How the range is built (the plan as it stands, competition/COMPETITION.md s7)
 
 | Step | What happens | Number today |
 |---|---|---|
@@ -73,7 +73,7 @@ The rule "floor rounded down" already handles this; the 2031 quote just uses wha
 - Out of scope / not promised: taxes, facility cost, Taiwan currency.
 
 Judges reward simple: one range, two odds, one sentence on why the bottom is safe. Avoid "guaranteed" and
-"risk-free" (COMPETITION.md s7 wording rules).
+"risk-free" (competition/COMPETITION.md s7 wording rules).
 
 ## Sensitivity
 

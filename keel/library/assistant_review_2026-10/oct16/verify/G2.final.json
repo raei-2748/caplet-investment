@@ -42,7 +42,7 @@
    "iShares screener (accessed 16 Oct 2026): IGLB YTW 6.50%, duration 11.49; LQD YTW 6.11%, duration 7.54 (14 Oct 2026)",
    "https://www.ishares.com/us/products/350212/ishares-ibonds-dec-2036-term-corporate-etf (accessed 16 Oct 2026): 'the Funds do not seek to return any predetermined amount'"
   ],
-  "fix": "Students check in WInS whether IBDX, IBDY, IBDZ, IBCA, IBCB are listed (confirm the fund name, not just the ticker: COMPETITION.md:94 records 'IBTN on WInS is INSCORP Inc'). Other providers' dated corporate funds (e.g. Invesco BulletShares) were not checked: UNVERIFIED. The Final Report row should state the rule fact and the 2036 limit with their sources; the IPS needs at most one principle on why the payment money holds one issuer.",
+  "fix": "Students check in WInS whether IBDX, IBDY, IBDZ, IBCA, IBCB are listed (confirm the fund name, not just the ticker: competition/COMPETITION.md:94 records 'IBTN on WInS is INSCORP Inc'). Other providers' dated corporate funds (e.g. Invesco BulletShares) were not checked: UNVERIFIED. The Final Report row should state the rule fact and the 2036 limit with their sources; the IPS needs at most one principle on why the payment money holds one issuer.",
   "confidence": "high",
   "new_vs_known": "new",
   "deadline": "WInS listing check before 6 Nov freeze (read-only); Final Report 4 Dec",
@@ -103,10 +103,10 @@
    "FinalReport",
    "Finale"
   ],
-  "problem": "Spreading issuer risk across UK, German, French, Italian or Dutch government bonds is the other obvious 'diversify the issuer' question. (1) Rules: the public Trading page lists those countries' Treasury bonds, but COMPETITION.md records that the logged-in session rules and the 6 Oct email say US Treasuries; unresolved. (2) Currency: Laura owes US dollars and the team cannot hedge (derivatives banned). One standard deviation over 10 years is about +/-25% for EUR/USD and +/-31% for GBP/USD (about $10-12k on a $50k payment); the worst 10-year fall in GBP/USD since 1971 is -56%. (3) Yield: unhedged international Treasuries (IGOV) yield 3.91% vs IBTR 5.18%, so such a ladder would cost roughly $39.5k more (rough MODEL). USD-hedged funds yield about the same as US Treasuries (GGOV 5.25%, IAGG 5.04% vs IBTM 5.05%) and never mature; whether a hedged ETF is allowed is an interpretation (UNVERIFIED).",
+  "problem": "Spreading issuer risk across UK, German, French, Italian or Dutch government bonds is the other obvious 'diversify the issuer' question. (1) Rules: the public Trading page lists those countries' Treasury bonds, but competition/COMPETITION.md records that the logged-in session rules and the 6 Oct email say US Treasuries; unresolved. (2) Currency: Laura owes US dollars and the team cannot hedge (derivatives banned). One standard deviation over 10 years is about +/-25% for EUR/USD and +/-31% for GBP/USD (about $10-12k on a $50k payment); the worst 10-year fall in GBP/USD since 1971 is -56%. (3) Yield: unhedged international Treasuries (IGOV) yield 3.91% vs IBTR 5.18%, so such a ladder would cost roughly $39.5k more (rough MODEL). USD-hedged funds yield about the same as US Treasuries (GGOV 5.25%, IAGG 5.04% vs IBTM 5.05%) and never mature; whether a hedged ETF is allowed is an interpretation (UNVERIFIED).",
   "evidence": [
    "competition/official/2026_27/smapply_public_2026-10-14/trading.txt:46 'The list includes Treasury bonds from the United States, United Kingdom, Germany, France, Italy, and the Netherlands.'",
-   "COMPETITION.md:77 'public page lists US, UK, Germany, France, Italy, Netherlands; the session rules and the 6 Oct email say **US Treasuries**'",
+   "competition/COMPETITION.md:77 'public page lists US, UK, Germany, France, Italy, Netherlands; the session rules and the 6 Oct email say **US Treasuries**'",
    "competition/official/2026_27/smapply_public_2026-10-14/faqs.txt:51 'Derivatives (options, futures, swaps, etc.)' (not permitted); trading.txt:38 'exchange-rate movements may affect the value of your holdings'",
    "FRED DEXUSEU/DEXUSUK daily to 2026-10-09 (accessed 16 Oct 2026); results.json fx: EURUSD vol_10y 7.10%, one_sigma_10y 25.2%; GBPUSD vol_10y 8.55%, one_sigma_10y 31.0%, rolling10y_worst -55.8%",
    "iShares screener (accessed 16 Oct 2026): IGOV YTW 3.91 (dur 7.24); GGOV YTW 4.29, fxHedgedYield 5.25, fee 0.39; IAGG fxHedgedYield 5.04; IBTR 5.18; IBTM 5.05 (14 Oct 2026)",
@@ -131,7 +131,7 @@
   "evidence": [
    "results.json room_as_share {of_one_rung_pct 2.74, of_ladder_face_pct 0.274}; issuer_default_illustration",
    "https://thewire.fiig.com.au/article/2026/07/15/attempting-to-quantify-the-risk-of-bonds-with-credit-ratings (accessed 16 Oct 2026): 'global investment grade defaults peaked at 14 in 2008 - from a sample of over 3,000'",
-   "COMPETITION.md:155 'Jan 2028, $150k: first fill any gap in the ladder'"
+   "competition/COMPETITION.md:155 'Jan 2028, $150k: first fill any gap in the ladder'"
   ],
   "fix": "If the team discusses credit, name the downgrade-wave scenario and which payments it hits, and note that any shortfall would be met from the 2028 deposit/floor, lowering Laura's facility money. Top issuer weights for the corporate iBonds were not retrievable (UNVERIFIED).",
   "confidence": "medium",

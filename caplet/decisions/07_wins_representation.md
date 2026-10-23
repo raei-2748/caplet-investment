@@ -1,6 +1,6 @@
 # D7: How the WInS account represents the strategy
 
-> **Update 2026-10-14:** resolved. WInS allows any ETF on WInS and US Treasury bonds on WInS, with $300,000 virtual cash, so Branch 1 (mirror) applies and Branch 2 (stocks only / shadow ladder) is dropped. Official trading runs 28 Sep – 6 Nov (portfolio frozen at the IPS deadline), not to 4 Dec. Actual book, filled 7-8 Oct: IBTM, IBTO, IBTP, IBTQ, IBTR + listed T-bonds Feb-2037 to Nov-2041 + VT. See COMPETITION.md.
+> **Update 2026-10-14:** resolved. WInS allows any ETF on WInS and US Treasury bonds on WInS, with $300,000 virtual cash, so Branch 1 (mirror) applies and Branch 2 (stocks only / shadow ladder) is dropped. Official trading runs 28 Sep – 6 Nov (portfolio frozen at the IPS deadline), not to 4 Dec. Actual book, filled 7-8 Oct: IBTM, IBTO, IBTP, IBTQ, IBTR + listed T-bonds Feb-2037 to Nov-2041 + VT. See competition/COMPETITION.md.
 
 **Status:** DECIDED (Branch 1 applies; Q1–Q3 answered 2026-10-14) · **Evidence:** D1, D3, D4; Wharton FAQ; Trading Notes brief
 

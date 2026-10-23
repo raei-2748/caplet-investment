@@ -39,7 +39,7 @@ Status codes: **MAIN** = in the current `main` (and so in the fork); **BR** = on
 
 | Location | Status |
 |---|---|
-| `COMPETITION.md:3`, `:117` | MAIN, fork, every branch since 14 Oct |
+| `competition/COMPETITION.md:3`, `:117` | MAIN, fork, every branch since 14 Oct |
 | `keel/routines/tasks/MONITOR.md:33`, `keel/routines/tasks/WATCHER.md:13` | MAIN |
 | `keel/library/blueprints/06_ips_wharton_compliance_17Oct.md:14` | BR (`claude/trusting-euler-gms43m`) |
 | `archive/rab/trades/data/ips_doc_text_2026-09-30.txt:14` | BR (`rab/ws6`, `wip/ws7-stash-2026-09-30`) |
@@ -61,7 +61,7 @@ The username is not secret by itself, since it goes on the IPS title page. But i
 | Google account display names (first name + surname initial) of 4 people, including one who is not one of the six students | Comment lists in `caplet/google_drive/ips_report/01_version_5.md:36`, `02_v4_need_to_humanise.md:36`, other `caplet/google_drive/*.md` exports | MAIN |
 | 15 students from the school's three other teams (first name + surname initial) | `caplet/google_drive/team_list.md:32-51` | MAIN |
 | People outside the team named in last year's doc comments | `caplet/google_drive/2025_knox_wharton.md` (e.g. comment list near :3816-3846) | MAIN |
-| The repo description names the school; the school is named in many tracked files | repo metadata; e.g. `COMPETITION.md:3` | MAIN |
+| The repo description names the school; the school is named in many tracked files | repo metadata; e.g. `competition/COMPETITION.md:3` | MAIN |
 
 No literal student email address, phone number, birthday, signature, school letter or roster screenshot was found in any of the 1,793 blobs. The only images are 47 charts. The emails in `.env.example`, `toolkit/config/data.yaml` and `toolkit/pyproject.toml` are placeholders. No API keys or tokens were found; the five regex hits are URL fragments.
 
@@ -135,7 +135,7 @@ Wharton (Rules & Roles, live 19 Oct): "AI-generated work may not be submitted as
 
 | Material | Where (MAIN unless noted) | Size |
 |---|---|---|
-| Full plan, numbers and decisions | `COMPETITION.md`, `START_HERE.md`, `keel/library/insight_v1/phase_E/E6_final_spec.md`, `ips_spec.md`, `trading_notes_pack.md` | 2,600 + 572 + 13,918 + 8,008 + 5,078 words |
+| Full plan, numbers and decisions | `competition/COMPETITION.md`, `caplet/START_HERE.md`, `keel/library/insight_v1/phase_E/E6_final_spec.md`, `ips_spec.md`, `trading_notes_pack.md` | 2,600 + 572 + 13,918 + 8,008 + 5,078 words |
 | 27-page strategy brief and 831-page research record | `keel/library/insight_v1/Team_Caplet_Strategy_Brief.pdf`, `Team_Caplet_insight_v1_research_record.pdf`; root `Laura_Gao_Strategy_Brief.pdf` | PDFs |
 | The team's IPS drafts V1-V5 and reflections | `caplet/google_drive/ips_report/*.md` (14 Oct export), `caplet/ips_drafts/*.pdf`, `caplet/ai_outputs/*.docx` | |
 | Holdings and every order | `caplet/google_drive/sheets/portfolio_and_trading_notes/trade_log.csv`, `.xlsx` | |
@@ -173,7 +173,7 @@ Ground rules:
 | 4 | Tue 20 Oct, right after 3 | **Ray** | Settings > Collaborators: add the five other students (write access). Then Settings > General > Danger Zone > **Change visibility > Private**. Untick "Allow forking" (currently `true`) | Private hides files, branches, history, PRs and comments. Stars and watchers are affected. Teammates lose fork-based PRs, so they push branches directly |
 | 5 | Tue 20 Oct | **Ray** | Settings > Integrations (GitHub Apps): review which apps can read the repo (the OpenAI Codex connector reviewed PRs; Claude's app runs sessions). Remove any not needed | Fewer third-party copies; any kept app's use gets logged (step 8) |
 | 6 | Tue 20 Oct | **Harry** | GitHub > Settings > Emails: tick **"Keep my email addresses private"** and **"Block command line pushes that expose my email"**; set `git config --global user.email` to the GitHub noreply address | Stops the personal email reaching new commits. Old commits stay as they are unless step 10 is done |
-| 7 | By Wed 21 Oct | **Privacy lead (not Ray)** + one checker | Ordinary commits in the now-private repo. Remove `aussef_complete_experiment_record.pdf`; remove `caplet/ips_drafts/*.pdf` and `caplet/Portfolio_and_Trading_Notes_snapshot.xlsx`; replace the username in `COMPETITION.md:3, :117`, `keel/routines/tasks/MONITOR.md:33`, `WATCHER.md:13` with a pointer to the private Drive note (and re-point the MONITOR check); blank the path in `archive/rab/rescued/r4_hist_original.py:6`; leave the AI exemplar .docx in place but note in `caplet/ai_outputs/README` that their title page shows the username | Cleans the current tree. Does not touch history (R2) |
+| 7 | By Wed 21 Oct | **Privacy lead (not Ray)** + one checker | Ordinary commits in the now-private repo. Remove `aussef_complete_experiment_record.pdf`; remove `caplet/ips_drafts/*.pdf` and `caplet/Portfolio_and_Trading_Notes_snapshot.xlsx`; replace the username in `competition/COMPETITION.md:3, :117`, `keel/routines/tasks/MONITOR.md:33`, `WATCHER.md:13` with a pointer to the private Drive note (and re-point the MONITOR check); blank the path in `archive/rab/rescued/r4_hist_original.py:6`; leave the AI exemplar .docx in place but note in `caplet/ai_outputs/README` that their title page shows the username | Cleans the current tree. Does not touch history (R2) |
 | 8 | By Sun 25 Oct | **Historian / AI-log keeper**; each student checks their own rows | Back-fill `caplet/docs/AI_USE.md`: exemplars v1-v12 and the style study (17-18 Oct), the [AI] Doc suggestions, the Tab 15 edit, the Codex PR reviews (28 Sep-18 Oct), and the 16 Oct rows from `claude/fervent-edison-sqk1ry:caplet/docs/AI_USE.md:77-79`. Banner or remove the false line at `:49` | The Works Cited must be true and complete (Rules & Roles: "AI-generated material ... must be properly cited") |
 | 9 | **Before the TNA (Fri 23 Oct 5 pm ET)**, not an exposure step but the reason exposure matters | **The three reflection writers** | Students write each reflection fresh from their own outline, with the exemplar and the `[AI]` cells closed. Reject or delete the `[AI]` suggestions in the Doc yourselves (R3). Two students check that no 12-word run matches `04_exemplar_ips_tna_17Oct.md` (the overlap script at `oct20/exposure/scripts/overlap.py` can be pointed at a student draft) | 47-63% of 12-word runs in today's cells are the public AI text. This step removes the breach risk. Making the repo private does not, because clones and the team's own record keep the exemplar |
 | 10 | Optional; decide by Sun 25 Oct | **Ray** + privacy lead | Only if R2 applies: history rewrite for personal data, done in a fresh mirror clone (see 5.1). Then open a GitHub Support ticket to purge PR refs and cached views. Then every student and every Claude Code environment deletes old clones and re-clones | GitHub: "If you only rewrite your history and force push it, the commits with sensitive data may still be accessible ... in any clones or forks ... in cached views ... through any pull requests". Support "will only assist in the removal of sensitive data". A personal email and a client phone number may qualify; ordinary files will not |

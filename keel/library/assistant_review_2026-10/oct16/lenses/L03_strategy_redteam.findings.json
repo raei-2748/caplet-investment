@@ -1,6 +1,6 @@
 {
  "file": "oct16/lenses/L03_strategy_redteam.md",
- "summary": "The Roots First / Root-and-Branch skeleton holds up: Treasuries back every promise, stocks only back money nobody has been promised, and the 2031 range's bottom is already owned. A fixed-income judge would still find five holes, and all must be fixed before the strategy locks on 6 Nov (IPS-FINAL.txt:73-74).\n(1) \"High degree of certainty\" is never defined in IPS V5. The kit's \"never short\" evidence uses zero-coupon STRIPS, banned since 6 Oct. On the WInS-listed holdings, about $45k of the $500k depends on reinvesting coupons, and the kit's own historical replay finds a payment short in 65% of start months.\n(2) About 72% of that reinvestment risk ($32.6k of $45.2k, MODEL) arrives after the 2033 gift is paid. V5's shortfall order only covers shortfalls \"expected in 2033\". After that, only Laura's kept half (about $13k at p5) remains, and the kit's chain ends in \"her own money\", which the case forbids.\n(3) Each rung is sized to reinvest its own coupons, the reinvestment-hungry design. A standard dedicated (cash-flow-matched) version of the same ten holdings, assuming waiting cash earns 0%, costs about $309.6k on the 15 Oct curve ($304.1k at 2%). So \"certain even if coupons earn nothing\" costs only about $5-10k of the 2028 deposit: a simple, distinctive upgrade.\n(4) The room under $300k has almost gone: $298,628 on the 15 Oct close, leaving $1,372 (4.7bp). The ladder cost over $300k on 182 of 198 trading days in 2026, with about a 44% chance it is over at year-end. The IBTR note's \"about 0.2 points\" is now about 0.05.\n(5) VT is about 7.8% of Laura's money, with a median gain over Treasuries of only about $4.2k by 2033. The team's own rival memo says All-Treasury gives the facility more at every percentile, and COMPETITION.md:164 and V5:28 state the floor-vs-stocks trade-off backwards for the gift. The branch must be reframed as Laura's flexibility money.\nOther gaps: Laura's kept half is promised to three jobs; the 2031 \"confidence by construction\" can read as a tautology; the floor-size rule can make the branch vanish when yields are low; iBond mechanics are glossed (money-market final months, 0.07% fee, about 60% of money in one sponsor's trusts); each WInS rung pays only about $33-34k while the notes say \"$50,000 payment\"; the operating reserve's 2033 size depends on 2033 yields ($376k-$439k); facility inflation would leave the $150k floor buying about $118k in 2026 Taiwan building costs; and Taiwan-dollar risk (about \u00b111-20% over six years) is as big as the whole equity half.",
+ "summary": "The Roots First / Root-and-Branch skeleton holds up: Treasuries back every promise, stocks only back money nobody has been promised, and the 2031 range's bottom is already owned. A fixed-income judge would still find five holes, and all must be fixed before the strategy locks on 6 Nov (IPS-FINAL.txt:73-74).\n(1) \"High degree of certainty\" is never defined in IPS V5. The kit's \"never short\" evidence uses zero-coupon STRIPS, banned since 6 Oct. On the WInS-listed holdings, about $45k of the $500k depends on reinvesting coupons, and the kit's own historical replay finds a payment short in 65% of start months.\n(2) About 72% of that reinvestment risk ($32.6k of $45.2k, MODEL) arrives after the 2033 gift is paid. V5's shortfall order only covers shortfalls \"expected in 2033\". After that, only Laura's kept half (about $13k at p5) remains, and the kit's chain ends in \"her own money\", which the case forbids.\n(3) Each rung is sized to reinvest its own coupons, the reinvestment-hungry design. A standard dedicated (cash-flow-matched) version of the same ten holdings, assuming waiting cash earns 0%, costs about $309.6k on the 15 Oct curve ($304.1k at 2%). So \"certain even if coupons earn nothing\" costs only about $5-10k of the 2028 deposit: a simple, distinctive upgrade.\n(4) The room under $300k has almost gone: $298,628 on the 15 Oct close, leaving $1,372 (4.7bp). The ladder cost over $300k on 182 of 198 trading days in 2026, with about a 44% chance it is over at year-end. The IBTR note's \"about 0.2 points\" is now about 0.05.\n(5) VT is about 7.8% of Laura's money, with a median gain over Treasuries of only about $4.2k by 2033. The team's own rival memo says All-Treasury gives the facility more at every percentile, and competition/COMPETITION.md:164 and V5:28 state the floor-vs-stocks trade-off backwards for the gift. The branch must be reframed as Laura's flexibility money.\nOther gaps: Laura's kept half is promised to three jobs; the 2031 \"confidence by construction\" can read as a tautology; the floor-size rule can make the branch vanish when yields are low; iBond mechanics are glossed (money-market final months, 0.07% fee, about 60% of money in one sponsor's trusts); each WInS rung pays only about $33-34k while the notes say \"$50,000 payment\"; the operating reserve's 2033 size depends on 2033 yields ($376k-$439k); facility inflation would leave the $150k floor buying about $118k in 2026 Taiwan building costs; and Taiwan-dollar risk (about \u00b111-20% over six years) is as big as the whole equity half.",
  "findings": [
   {
    "id": "STRAT-02",
@@ -78,11 +78,11 @@
     "IPS",
     "FinalReport"
    ],
-   "problem": "On the 15 Oct close the WInS-listed ladder costs $298,628 (room $1,372, 4.7bp; forward basis $2,153, 7.4bp). It cost over $300k on 182 of 198 trading days in 2026, and the chance it is over at year-end is about 44% (MODEL). The IBTR note's 'about 0.2 percentage points' is now about 0.05. V5 quotes 'about $292,000' and COMPETITION.md says 'about $293k on the 6 Oct curve'. The '2027 money buys the payments, 2028 money buys the facility' story is now a coin flip.",
+   "problem": "On the 15 Oct close the WInS-listed ladder costs $298,628 (room $1,372, 4.7bp; forward basis $2,153, 7.4bp). It cost over $300k on 182 of 198 trading days in 2026, and the chance it is over at year-end is about 44% (MODEL). The IBTR note's 'about 0.2 percentage points' is now about 0.05. V5 quotes 'about $292,000' and competition/COMPETITION.md says 'about $293k on the 6 Oct curve'. The '2027 money buys the payments, 2028 money buys the facility' story is now a coin flip.",
    "evidence": [
     "caplet/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:15 'If yields fall more than about 0.2 percentage points by January, the 2028 deposit would top up the ladder'",
     "caplet/google_drive/ips_report/01_version_5.md:24 'At late-September 2026 yields they cost about $292,000'",
-    "COMPETITION.md:152-153 'It costs about $293k on the 6 Oct curve'",
+    "competition/COMPETITION.md:152-153 'It costs about $293k on the 6 Oct curve'",
     "https://home.treasury.gov daily par yield CSV 2026 (accessed 16 Oct 2026): 15 Oct 10y 5.10, 20y 5.48",
     "MODEL oct14/factcheck/ladder.py re-run: '10/15/2026 WInS-listed unch cost $298,628 room $1,372 breakeven 4.7bp'",
     "MODEL lenses/L03/gapodds.txt: 'days over $300k in 2026: 182 of 198'; 'P(cost>300k on 31 Dec) ~ 44%'"
@@ -123,9 +123,9 @@
     "FinalReport",
     "TNA"
    ],
-   "problem": "VT is about $35k (7.8% of the $450k). Its median 2033 gain over Treasuries is about $4.2k (mean $7.8k, MODEL, JPM 7.0%/16.78%). The team's rival memo says All-Treasury is better for the facility at every percentile. Under the half rule a bigger floor raises the median gift ($175k at a $150k floor vs $152k at $100k), yet COMPETITION.md:164 and V5:28 say the opposite. The 'too timid' criticism is still open, while the case calls Laura 'willing to take thoughtful risks'.",
+   "problem": "VT is about $35k (7.8% of the $450k). Its median 2033 gain over Treasuries is about $4.2k (mean $7.8k, MODEL, JPM 7.0%/16.78%). The team's rival memo says All-Treasury is better for the facility at every percentile. Under the half rule a bigger floor raises the median gift ($175k at a $150k floor vs $152k at $100k), yet competition/COMPETITION.md:164 and V5:28 say the opposite. The 'too timid' criticism is still open, while the case calls Laura 'willing to take thoughtful risks'.",
    "evidence": [
-    "COMPETITION.md:164 'less stock means a lower median contribution'",
+    "competition/COMPETITION.md:164 'less stock means a lower median contribution'",
     "caplet/google_drive/ips_report/01_version_5.md:28 'Moving floor money into equities would raise the expected contribution'",
     "archive/rab/decisions/D_rivals.md: 'For the facility alone it is better at every percentile (gift $191k / $202k / $213k against $165k / $174k / $189k)'",
     "caplet/google_drive/strategy_notes.md:22 'the \"timid plan\" criticism is still open'",
@@ -149,7 +149,7 @@
     "caplet/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:20 'IBTO is for Laura's second $50,000 payment'",
     "caplet/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md:24 'scaled to the model portfolio'",
     "archive/rab/trades/tickets.md: Portfolio IBTO 1,016 shares vs Book L 1,503 shares",
-    "COMPETITION.md:176-185 filled quantities"
+    "competition/COMPETITION.md:176-185 filled quantities"
    ],
    "fix": "State the mapping once in every reflection and in the IPS: the WInS book is scaled, so each rung is about two-thirds of a payment. Add a WInS-to-Laura mapping table to the Final Report.",
    "confidence": "high",
@@ -186,7 +186,7 @@
    "problem": "The floor is either 'the remainder' or 'about $150k'. A floor for $150k costs $112k-$130k in Jan 2028 depending on yields (MODEL). Add a 2027 top-up of up to about $14k (p95), and a low-yield path leaves VT under about $10k, so the 2031 range collapses. At the 2 Jan 2026 curve the ladder alone cost $325k.",
    "evidence": [
     "caplet/google_drive/ips_report/01_version_5.md:24 'sized to return that remainder'",
-    "COMPETITION.md:155-156 'sized to return about $150k by 2033'",
+    "competition/COMPETITION.md:155-156 'sized to return about $150k by 2033'",
     "archive/rab/decisions/D_rivals.md: 'Yields falling more than about 1 point before January 2027: the fund is used up'",
     "MODEL lenses/L03/gapodds.txt: 'first 01/02/2026 325,241'"
    ],
@@ -210,7 +210,7 @@
     "same page: 'the Funds do not seek to return any predetermined amount'; 'Expense Ratio 0.07%'; 'Net Assets of Fund $109,148,633 as of Oct 15, 2026'",
     "https://www.ishares.com/us/products/328944/ishares-ibonds-dec-2032-term-treasury-etf (accessed 16 Oct 2026): 'Weighted Avg Maturity 5.71 yrs as of Oct 14, 2026'",
     "archive/rab/data/ishares/ibonds_facts.csv: IBTR net assets $37,557,081 Sep 28 2026",
-    "COMPETITION.md:93 'none maturing Feb 2031 to Feb 2036'",
+    "competition/COMPETITION.md:93 'none maturing Feb 2031 to Feb 2036'",
     "caplet/google_drive/ips_report/01_version_5.md:26 'we substitute a Treasury maturing earlier'"
    ],
    "fix": "Add one honest clause on what an iBond pays, include fees in the ladder cost, and check the substitution rule against the WInS bond gap. Put the details in the Final Report.",
@@ -270,7 +270,7 @@
    "evidence": [
     "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXTAUS (accessed 16 Oct 2026): 31.94 on 2026-10-09",
     "MODEL lenses/L03/fx.txt: '6-year change in TWD value vs USD since 1990 (n=370): p5 -21.7% p50 -1.2% p95 12.4%, max TWD gain 20.2%'",
-    "COMPETITION.md:78 'Banned | margin, shorting, stock-secured debt, crypto, derivatives'",
+    "competition/COMPETITION.md:78 'Banned | margin, shorting, stock-secured debt, crypto, derivatives'",
     "archive/rab/assumptions.md L10: 'The case writes \"$\" and never names a currency'"
    ],
    "fix": "In the Final Report, state the currency assumption (quote the range in USD), size the FX risk in one sentence, explain why it is unhedged, and note it in the co-sponsor message.",

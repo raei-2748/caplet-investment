@@ -121,7 +121,7 @@ Expense ratio 0.07% for all five. "Months before 15 Dec" = (years from 16 Oct 20
 
 | Payment | Holding | Why this one | Professional check |
 |---|---|---|---|
-| 2033-2037 | IBTM-IBTR | WInS lists no Treasury maturing Feb 2031 to Feb 2036 (`COMPETITION.md:93`) | Correct and the only choice |
+| 2033-2037 | IBTM-IBTR | WInS lists no Treasury maturing Feb 2031 to Feb 2036 (`competition/COMPETITION.md:93`) | Correct and the only choice |
 | 2038 | 4.750% Feb-2037 | "the latest WInS bond available beforehand" (note, `05_...notes.md:16`) | The real market also has a 5.000% May-2037 (CUSIP 912810PU6; `snap/main/rab/trades/notes.md:263`). Per the note it is not on WInS (UNVERIFIED by me). The gap costs little (Section 5) |
 | 2039 | 4.500% May-2038 | the latest WInS bond before the payment (`:17`) | Fine |
 | 2040-2042 | 4.375% Nov-39, 4.250% Nov-40, 3.125% Nov-41 | 47 days before each payment | Good timing. Coupons are the issue (below) |

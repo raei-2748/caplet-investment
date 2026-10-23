@@ -69,7 +69,7 @@ Each deliverable proves a different part of it:
 **Coherence checks to run on every draft:**
 - **First-line test.** Each deliverable's first sentence says the same idea in different words.
 - **One dated numbers sheet.** No number appears in two places with two values. At the moment the ladder cost appears as
-  $292k (IPS V5, old STRIPS basis), $293k (COMPETITION.md, 6 Oct) and $295.3k (13 Oct curve, MODEL).
+  $292k (IPS V5, old STRIPS basis), $293k (competition/COMPETITION.md, 6 Oct) and $295.3k (13 Oct curve, MODEL).
 - **One word list** (§9) used the same way everywhere.
 - **Traceability.** Every holding maps to one rule, and every rule maps to one client fact from the case.
 - **The WInS notes carry weight.** The 11 notes are fixed, and Wharton checks them against WInS, so every later document
@@ -155,9 +155,9 @@ The name is good packaging. The creativity has to sit in a mechanism. Candidates
    almost sixfold (List & Lucking-Reiley 2002, VERIFIED). No source measures a bought floor specifically; the team's
    strategy notes already say that part is our own reasoning.
 5. **The name ties to her own book.** Her graphic memoir is *Messy Roots* (case p.1); Root-and-Branch gives her residency
-   tidy roots. Explain the link once, literally (an open item in COMPETITION.md §9). Two things to know: "root and
+   tidy roots. Explain the link once, literally (an open item in competition/COMPETITION.md §9). Two things to know: "root and
    branch" is a mainly British idiom meaning "thoroughly, completely" (Merriam-Webster, Oxford Learner's), so Australian
-   and UK readers may hear that first. That is harmless and arguably helpful. Also settle one name: COMPETITION.md
+   and UK readers may hear that first. That is harmless and arguably helpful. Also settle one name: competition/COMPETITION.md
    still says "Roots First".
 
 **Where each one goes:** #1 in the IPS, because it *is* the policy. #2 and #3 as the "why" behind Rule 1. #4 and #5 in the
@@ -240,7 +240,7 @@ Last year's report already *said* "clarity beats complexity", while presenting r
 12 stocks. Stating a lesson is not showing it. This year, show it by being simple.
 
 ### This year's turning points (pick 3-4; each links to the rule it taught)
-All are dated in `caplet/google_drive/final_report.md`, COMPETITION.md or CLAUDE.md.
+All are dated in `caplet/google_drive/final_report.md`, competition/COMPETITION.md or CLAUDE.md.
 
 | Date | What happened | What it taught or changed |
 |---|---|---|
@@ -369,7 +369,7 @@ These are content points for oral practice, not text. Each row should have a stu
   Merriam-Webster and Oxford Learner's entries.
 - Team and repo facts: `caplet/google_drive/final_report.md`, `caplet/google_drive/2025_knox_wharton.md`,
   `caplet/google_drive/notes_and_discussions.md` (floor grid, 29 Sep), `caplet/google_drive/ips_report/01_version_5.md`,
-  `05_trading_note_reflection_wins_trading_notes.md`, `15_tab_15.md`, COMPETITION.md, CLAUDE.md,
+  `05_trading_note_reflection_wins_trading_notes.md`, `15_tab_15.md`, competition/COMPETITION.md, CLAUDE.md,
   `keel/library/assistant_review_2026-10/` (14-15 Oct reviews).
 
 **From knowledge, not re-checked today (check before citing in the Final Report)**

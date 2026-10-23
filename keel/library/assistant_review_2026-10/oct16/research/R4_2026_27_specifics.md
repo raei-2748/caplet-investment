@@ -23,7 +23,7 @@ confirm it. INTERPRETATION = my reading, not a fact. Nothing here is deliverable
 3. **The Wharton AI-policy page did change on 14 Oct, but not for us.** WordPress records an edit at 13:48:39 UTC on
    14 Oct. A copy saved at 13:22 UTC that day shows the only change: Wharton deleted the "Comment & Win" paragraph
    (that is a different competition). The Investment Competition AI text is unchanged. (Section 1.3.)
-4. **Laura is a real person. COMPETITION.md:49 is wrong.** It says "Laura is a fictional client." Wharton's main page
+4. **Laura is a real person. competition/COMPETITION.md:49 is wrong.** It says "Laura is a fictional client." Wharton's main page
    says: "While the client is real, the financial scenario is developed specifically for the competition." So her
    biography is real, but her money, the residency and the dates are made up for the case. (Section 3.)
 5. **The Rules page names only the IPS and Final Report for Top 50 selection.** "The top 50 teams will be selected as
@@ -55,7 +55,7 @@ confirm it. INTERPRETATION = my reading, not a fact. Nothing here is deliverable
 
 ### 1.1 SMApply public pages vs the repo snapshot
 
-Base URL: `https://wghsinvcomp.smapply.us/res/p/{slug}/` (COMPETITION.md:211). Slugs: home (redirects to the site root),
+Base URL: `https://wghsinvcomp.smapply.us/res/p/{slug}/` (competition/COMPETITION.md:211). Slugs: home (redirects to the site root),
 guide, client, deliverables, trading, wins, faqs. Snapshot compared: `competition/official/2026_27/smapply_public_2026-10-14/`
 (committed 14 Oct 2026, 21:16 AEDT).
 
@@ -195,8 +195,8 @@ quoted):**
 
 ### 3.1 Real or fictional? What the repo says and what Wharton says
 
-- Repo: "Laura is a fictional client." (COMPETITION.md:49). This is the team's "single source of truth"
-  (COMPETITION.md:5-6). It is wrong.
+- Repo: "Laura is a fictional client." (competition/COMPETITION.md:49). This is the team's "single source of truth"
+  (competition/COMPETITION.md:5-6). It is wrong.
 - Wharton main page: "Each year, teams are introduced to a new case study featuring a Wharton School alum. While the
   client is real, the financial scenario is developed specifically for the competition."
   (https://globalyouth.wharton.upenn.edu/competitions/investment-competition/, accessed 16 Oct 2026; R4_pages/wg_ic.txt:242)
@@ -207,7 +207,7 @@ quoted):**
   "Teams may not contact the Competition client. Teams that violate this rule will be disqualified."
   (Rules & Roles, R4_pages/wg_rules_roles.txt:235)
 - The repo's research already knew the right version: "the financial scenario is fictional (R-W4)" appears across
-  keel/library/insight_v1/phase_C/. Only COMPETITION.md:49 merges the two ideas.
+  keel/library/insight_v1/phase_C/. Only competition/COMPETITION.md:49 merges the two ideas.
 
 What a fix must achieve: the team's source of truth should say the person is real and the scenario is invented, and
 remind every member never to contact her (or tag her online). The deliverables should not present her real finances or
