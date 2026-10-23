@@ -55,5 +55,5 @@ but never above the hard rules (`pm/SELF_DIRECTION.md`, "Limits that do not move
 
 ## Where the work on them is recorded
 - Motif search: `rooms/long_room/2026-10-24_north_stars.md` (Long Room session, ideation ladder, Courtroom roast),
-  logged in `office/ideation_log.md`.
+  with the full ladder record beside it (`ideation_log.md` arrives with PR #25; add the row when it merges).
 - Voice: `VOICE.md`. Criterion test: `library/ips_road_2026-10/03_CRITERION_MAP.md`.

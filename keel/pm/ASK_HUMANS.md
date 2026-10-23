@@ -6,3 +6,4 @@
 
 | Asked (Sydney) | Room | Question | Keel's default if no answer | By | Answer (student, date) |
 |---|---|---|---|---|---|
+| Sat 24 Oct | Long Room | Ray's north star 2 (one vast motif): should the motif be vast in the Final Report only, with the 500-word IPS carrying just the pitch image and one echo? | Yes: the IPS keeps Root & Branch in the pitch; the motif grows in the Final Report. Keel brings one motif recommendation with vote set B on Tue 27 Oct | Tue 27 Oct | |
