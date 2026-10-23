@@ -1,7 +1,7 @@
 # Team Keel / Team Caplet: project memory
 
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
-decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-23.
+decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-23 (IPS road).
 
 ## For every Claude session in this repo (all teammates)
 Whoever is using Claude here, these rules apply, and the Caplet Research Office is how competition work is done:
@@ -26,6 +26,10 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
 - Log every office answer in `keel/office/LEDGER.md`, so the team can cite all AI use in the Works Cited.
 
 ## Current status (2026-10-14) - read this before the older sections below
+- IPS road (23 Oct, WO-0006): `keel/library/ips_road_2026-10/` = narrative spine tied to the locked TNA and notes,
+  requirements + rubric + gap check of the IPS doc's latest tab (strict count 502/500; liquidity not named; "cannot
+  miss the range" contradicts the locked IBTM reflection), plan to 7 Nov. Australian angle: Keel recommends no
+  "Australia" in the IPS, keep the Taiwan-dollar line, time-zone story only in the Final Report (D8, vote Sun 25 Oct).
 - Wharton Week 4 email (filed 22 Oct): `competition/official/2026_27/wharton_email_week4_2026-10.md`. IPS is now an
   SMApply FORM, not a PDF ("all other requirements remain the same"); TIPS and STRIPS explicitly banned for both
   contributions, in the IPS and the Final Report.
