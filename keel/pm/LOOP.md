@@ -19,6 +19,10 @@ named below plus the chosen task's links; one task per run; one page of output.
 7 days in `keel/pm/DECISIONS.md`, the newest `keel/routines/monitor_reports/` file and the last 5 rows of
 `keel/office/LEDGER.md`. If a Caplet answer or vote has landed (LEDGER, `caplet/decisions/LOG.md`, the thread),
 move the card first.
+Keel leads itself (`SELF_DIRECTION.md`, Ray 24 Oct): also read the rooms' outbox memos and minutes from the last
+24 hours, the open requests in `REQUESTS.md` (the Noticeboard's come first) and the answers in `ASK_HUMANS.md`. The
+brief reports what the team decided and did; asks to students are suggestions they can override ("Unless you say
+otherwise, we will ... by ..."), with each open question's default.
 
 ## 2. Groom (two minutes)
 - Overdue card: re-date it or move it to Waiting with the reason. A Caplet-owned card past due goes on the stand-up
