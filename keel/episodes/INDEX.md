@@ -7,6 +7,8 @@
 
 Page view: the Keel Logbook (https://claude.ai/artifact/VNXgEcdGmGEPkwcFVTLP26), built from these files by
 `../scripts/logbook/build_logbook.py`; rebuild and republish it after each new episode.
+Google Doc copy (Drive, 23 Oct): https://docs.google.com/document/d/1wXYUnCznrU2BHcma-364ofdsoEeHGguxxO_c-28oPqg/edit
+(a static snapshot; update it from the same files when the Logbook changes).
 
 ## Season 1: to the Trading Notes Analysis (TNA due Sat 24 Oct 08:00)
 | Ep | Sydney date | Title | POV | Long Room | What happened | Milestone | Room |
