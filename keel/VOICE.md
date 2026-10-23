@@ -43,9 +43,54 @@ decide to do."* Linking words: "In other words", "Notably", "Together", "The cat
 "Furthermore/Moreover/Additionally"; stacks of "may/might/could"; performance or P&L; sentences that only restate
 the note.
 
-**Keel's one correction.** Ahaan reaches for absolutes ("perfectly", "nonexistent", "exactly"). Keep the confidence,
-but Keel's honesty rule (`CULTURE.md`) wins: an absolute stays only if it is literally true, otherwise use his own
-calibrated form ("near-ironclad", "a lot like").
+## Ahaan at full strength (the sharpened base)
+Keel writes the best version of these two paragraphs, not a copy of their slips. Keep every move above; fix four
+things he does on a rushed night:
+1. **One absolute, earned.** He writes "perfectly", "exactly", "nonexistent". Keel keeps one strong word per
+   paragraph and only if it is literally true (`CULTURE.md` value 2); otherwise his own calibrated form: "near-ironclad",
+   "a lot like". *Raw:* "matches the liability perfectly". *Sharp:* "matches a liability fixed in dollars, which is
+   the only kind Laura has."
+2. **No doubled words.** *Raw:* "(not just a mere forecast)". *Sharp:* "(not a forecast)".
+3. **Dashes are hinges, not decoration.** Spaced en dash ( – ), at most two per paragraph, and each one must turn the
+   sentence (a cost, a reason, a contrast). Never the em dash (—). If a comma or full stop does the job, use it.
+4. **A list must be reasons.** His fronted adjective list works only when every adjective is something Laura gains.
+   Cut any adjective that is there for rhythm.
+
+And push two of his strengths further:
+- **The pin-up line goes first in the middle, never last.** He ends on the alternative, not on a moral.
+- **Interpret, don't describe.** "We take 'X' to mean Y" is his strongest sentence. Every reflection or decision
+  paragraph gets one.
+
+## AI tells to kill
+These mark text as machine-written. None leaves the room. The right column is the base voice doing the same job.
+| Tell | Looks like | Ahaan-style instead |
+|---|---|---|
+| Throat-clearing | "It's important to note that…", "It is worth mentioning…" | Delete it and start on the fact: "Notably – the payments are fixed in dollars." (once a page at most) |
+| Fancy verbs | "delve into", "navigate", "leverage", "underscore", "foster", "unlock" | The plain verb: look at, get through, use, show, build, give |
+| Scenery words | "landscape", "realm", "journey", "tapestry", "in today's ever-changing market" | Name the thing: "the 21 Oct curve", "WInS", "the 2033 payment" |
+| "Not only… but also" | "Not only does it reduce risk, but it also provides liquidity." | One trade-off, honestly priced: "It ends at its net asset value, not at par – but in return Laura can sell it any day." |
+| Rule-of-three by reflex | "patience, discipline and long-term thinking" | One reason that is true, or the real count: "two jobs", "one catch" |
+| Tidy summary closer | "Ultimately, this reflects our commitment to Laura's goals." "In short…" | End on the alternative we rejected or the cost we accepted. If the last line restates the first, cut it |
+| Hedging stack | "This may potentially help to somewhat reduce…" | One calibrated word, or a number with its date: "about 21bp of room (MODEL, 21 Oct)" |
+| Empty intensifiers | "crucial", "vital", "key", "significant", "robust", "seamless", "truly" | Say what it costs or protects: "the only holding between Laura and a missed payment" |
+| False balance | "There are both benefits and drawbacks." "challenges and opportunities" | Take the position, then name the catch |
+| Colon reveal / hook | "Here's the thing:", "The result?", "The answer is simple:" | Say it. He never sets up a punchline he can't pay off |
+| Passive committee | "A decision was made to…", "The team carefully considered…" | "We bought…", "We take… to mean…" |
+| Signpost bloat | "Furthermore", "Moreover", "Additionally", "In conclusion" | His linkers only: "In other words", "Notably", "Together", "The catch is", "but in return", "so" |
+| Bullet-brain | Prose chopped into bold headers and fragments | Four full sentences that pivot. Lists only for tables, counts and checklists |
+| Synonym cycling | "Laura… the client… the philanthropist… she" | "Laura" or "she". Same thing, same word |
+| Glossy praise of the plan | "an elegant, robust, well-diversified solution" | Let the reader judge: state what it does and what it gave up |
+
+## Before it leaves the room (every draft, every episode, every `/keel` answer)
+Read it once as a stranger, then answer six questions. One "no" sends it back.
+1. **Open:** does each paragraph start on a limit or a situation, not a summary or a hook?
+2. **Interpret:** is there one "we take X to mean Y" or a clear decision in "we"?
+3. **Pin-up:** is there one line worth pinning up, and is it literally true?
+4. **Catch:** is the cost named, with what it buys?
+5. **Kill list:** search the draft for the tells above (and for "—", "not only", "ultimately", "crucial", "delve").
+   Zero hits.
+6. **Whose is it:** cover the name. Can you tell which member wrote it? (`textcheck.py` counts words and flags
+   overclaim words: `keel/office/tools/textcheck.py`.)
 
 ## Do / don't
 | Generic (don't) | Base voice (do) |
@@ -88,9 +133,18 @@ After (base + Tess):
 What changed: the list became a limit → move ("not because… but because"), one bracketed aside, one "catch", and a
 closing line that names the decision behind the facts. Same facts, nothing added.
 
-## Check before you commit (30 seconds)
-- Does each paragraph open on a limit or a situation, not a summary?
-- Is there one line a reader could pin up, and is it literally true?
-- Is the catch named, with what we get in return?
-- Could you tell which member wrote it with the name covered?
-- No banned words from "Never", no "very" from Tess, no "guaranteed" from Jun.
+## Stronger example (a generic AI paragraph, rewritten)
+Before (a typical AI draft, written for this page to show the tells):
+> In today's ever-changing market landscape, it's important to note that rising yields can present both challenges
+> and opportunities. Not only did the ladder's cost shift, but it also highlighted the crucial importance of
+> patience, discipline and long-term thinking. Ultimately, the team decided to stay the course — a decision that
+> reflects our unwavering commitment to Laura's goals.
+
+After (the sharpened base):
+> The ladder costs $293,928 on the 21 Oct curve (MODEL), about 21bp of room under Laura's first $300,000. That
+> number moves every day; her payments don't. We take 'high degree of certainty' to mean the payments are bought in
+> January and then left alone, so the daily price only matters until then. The catch is that if yields fall before
+> January, the top-up comes out of the 2028 deposit – a cost we chose, as opposed to one that finds us.
+
+Killed: scenery opener, "it's important to note", false balance, "not only… but also", rule of three, "crucial",
+"ultimately", the em dash, the summary closer. Added: a dated number, a pin-up line, an interpretation, a priced catch.
