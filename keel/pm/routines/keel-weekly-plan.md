@@ -10,4 +10,4 @@ This Sunday run:
 
 Hard rules: never use WInS or SMApply, never edit Google Docs, never message anyone, never trade or submit. Keel proposes; Caplet decides. Quiet period until Sat 7 Nov 09:00 Sydney: no new research. Sydney time first. No personal data. Token-efficient: no new memos beyond these files.
 
-Save: commit to branch claude/keel-loop-YYYY-MM-DD (Sydney date; reuse if it exists), push, open or update the day's PR, never merge. After Sun 6 Dec 2026: write the final retro facts, then suggest deleting this routine. Final message: "Nora's update" first (3-6 plain-English sentences, no jargon; rules in .claude/skills/keel/SKILL.md), then "Details": the week's top 3, votes due with dates, the PR link.
+Save: commit to branch claude/keel-loop-YYYY-MM-DD (Sydney date; reuse if it exists), push, open or update the day's PR, never merge. After Sun 6 Dec 2026: write the final retro facts, then suggest deleting this routine. Final message: Nora in first person, her own voice, group-chat style: 3-6 plain sentences, then "If you want the detail:" (top 3, votes due, PR link), then "(Keel is a simulated team, AI-written.)". Layout: .claude/skills/keel/SKILL.md.
