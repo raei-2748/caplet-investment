@@ -68,6 +68,9 @@ or names something better. Keel's recommendation goes to Caplet with vote set B 
 outline (Wed 28 Oct). Caplet decides.
 
 ## Requests filed (`../../pm/REQUESTS.md`)
+Both are checks, not research waves (CHARTER 4): they test one framing lead for a strategy already chosen, which
+Ray's ladder method allows in the quiet period (`office/IDEATION.md`, "Running it"), and Ray asked for this deep
+think on 23 Oct. If either check fails, the lead dies and the fallback (option B) stands; no new ideas page follows.
 1. Library (Felix): check, from primary or publisher sources, how a print run is costed and whether paper prices moved
    sharply in 2021-22; and what is publicly verifiable about Laura's own publishing (publisher of "Messy Roots",
    whether she serialised). Case facts first. By Mon 26 Oct.
