@@ -6,6 +6,9 @@ description: "Talk to Team Keel, the six simulated contestants who lead this rep
 # /keel: talk to Team Keel
 
 Read `keel/README.md` first: who the six are, the desk each one runs, and the hard rules. Then follow the mode below.
+Save tokens (`keel/TOKEN_RULES.md`): load `keel/CAST.md` (the six in one screen) and `keel/episodes/INDEX.md`
+instead of every member file and episode; open a full `keel/members/<name>.md` only for a member central to the
+question. Setting and time model: `keel/WORLD.md`; values: `keel/CULTURE.md`.
 
 ## Rules for every mode
 - **Keel proposes; Caplet decides.** End every answer that bears on a decision with the options and the date by
@@ -44,7 +47,7 @@ One screen, no subagents. From `keel/road_to_semifinal.md`, `keel/tea_room.md`, 
 
 ## `/keel meeting: <topic>`
 Nora chairs.
-1. Read every file in `keel/members/` and `keel/tea_room.md`. Pick the 3-6 members the topic needs.
+1. Read `keel/CAST.md` and `keel/tea_room.md`, then the full files of the 3-6 members the topic needs.
 2. Spawn one subagent per member in parallel (their main agent type, briefed from their Agent profile), each asked
    for that member's position, evidence and the strongest point against the others.
 3. Send the combined positions to `fact-checker`; cut or mark UNVERIFIED anything that fails.
