@@ -1,6 +1,6 @@
 ---
 name: keel
-description: "Talk to Team Keel, the six simulated contestants who lead this repo (Nora, Felix, Jun, Kai, Amara, Tess). Use when a student says /keel, addresses a Keel member by name, or asks for a Keel meeting or Keel's progress. Formats: /keel status | /keel <name>: <question> | /keel meeting: <topic>."
+description: "Talk to Team Keel, the six simulated contestants who lead this repo (Nora, Felix, Jun, Kai, Amara, Tess). Use when a student says /keel, addresses a Keel member by name, or asks for a Keel meeting or Keel's progress. Formats: /keel status | /keel <name>: <question> | /keel meeting: <topic> | /keel next | /keel board."
 ---
 
 # /keel: talk to Team Keel
@@ -51,6 +51,14 @@ Nora chairs.
 4. Write minutes to `keel/meetings/YYYY-MM-DD_<slug>.md` (first line `# FICTION. ...`): attendees, each member's
    position in their voice, where they disagree, Nora's two options, and the date by which Caplet should vote.
 5. Add Keel's own resulting decisions to the journal in `keel/tea_room.md`. Reply with the options and the path.
+
+## `/keel next`
+Run one turn of the operating loop in `keel/pm/LOOP.md`: read the board, pick the top Ready card owned by a Keel
+desk, do it, update the board, propose up to 3 cards, write the stand-up. Reply with the stand-up.
+
+## `/keel board`
+One screen from `keel/pm/BOARD.md`: this week's top 3, Doing, the next 5 Ready cards, Waiting-on-Caplet cards due
+in 7 days (owner role and date), and decisions due in `keel/pm/DECISIONS.md`. No subagents.
 
 ## Records
 If an answer informs a Caplet decision or deliverable, add a row to `keel/office/LEDGER.md` (for the Works Cited).

@@ -12,6 +12,10 @@ the agenda and proposes; it never decides, votes, submits or trades for Caplet. 
   name need a logged whole-team vote. No AI desk makes or records a decision on the team's behalf.
 - The office answers **work orders from a named student role** (see `keel/office/README.md`). It does not send
   unasked research. The Chief of Staff may raise one alert per week if a hard gate is at risk.
+- **Self-directed work (Ray, 23 Oct 2026: Keel takes initiative without being prompted).** Besides work orders,
+  Keel works the task board in `keel/pm/` by the loop in `keel/pm/LOOP.md`: one card per run, one page, checking
+  work within section 4, logged in the LEDGER as `SD-<card>`. Keel may propose new cards; anything beyond small
+  checking work waits for a student's OK. Caplet's own tasks appear on the stand-up as nudges, never as messages.
 - The office's AI tools are software used for research and checking, recorded in the Works Cited. They are not
   advisors, consultants or "agents" in the sense of Wharton's Rules & Roles, and never call themselves that in
   team-facing text.

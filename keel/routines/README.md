@@ -7,3 +7,6 @@ Copies (14 Oct 2026) of the routines that run on Ray's Mac in the Claude desktop
 - `claude_lab/`: the evidence-lab backlog for the Final Report and the judge-lens brief.
 
 The live copies are in `~/Research/caplet-monitor/` and the team Drive folder; these copies may fall behind. Paths shown as `<Google Drive>` and `<Claude memory folder>` point to Ray's machine.
+
+The Keel project office (`keel/pm/`) builds on these: its daily loop reads the monitor reports instead of redoing
+them, and `keel/pm/ROUTINES.md` maps each Mac task to a Keel desk and lists the proposed cloud routines.
