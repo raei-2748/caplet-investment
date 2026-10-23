@@ -12,6 +12,11 @@ rival, motif and subplot below is here because it changes how someone argues, de
 scene doesn't change the work, cut it, however good it is. Test each scene by asking: *what does this change in
 the plan, the vote or the page?*
 
+**And it is not a smooth ride (Ray, 24 Oct).** The six have lives outside Wharton, and those lives take time when
+the competition needs it: an exam week, a shift, a sick grandmother, a production tech week. Things also go wrong:
+votes are lost, numbers move, mistakes get through. The story shows both, and it shows what they cost. The same is
+true of Caplet's real students, and the office plans for it (section 7a).
+
 ---
 
 ## Overture
@@ -197,6 +202,49 @@ Use these sparingly. One or two in an episode is enough, and they should do work
 - **Light.** The skylight goes amber when a stretch has run too long. Deep stretches end at "skylight amber", and
   the six use the phrase as a warning.
 
+## 7a. Pressure: outside load and setbacks
+
+**Outside load (fictional calendar, Sydney dates).** The world knocks on the door at the worst times. When it
+does, someone is short of time, the work is re-split out loud, and something is dropped or late.
+| Who | What pulls them away | When | What it costs the work |
+|---|---|---|---|
+| All six | Fernleigh's Year 11 yearly exams (fictional school calendar) | Mon 9 to Fri 13 Nov | The Final Report instructions land at 01:00 on the Tuesday of exam week. The first full draft slips four days, and Nora cuts one planned section |
+| Nora | Her mother's night-shift weeks (one in three), so Lina is hers after school; bakery every Saturday | Weeks of 26 Oct and 16 Nov | Meetings move to 4:30 with Lina at the table. Nora hands chairing to Tess twice and hates how well it goes |
+| Felix | The band's end-of-year concert, with rehearsals every evening | Week of 16 Nov; concert Thu 19 Nov | The rules gate list for the Final Report is late. Jun runs it from Felix's checklist, and it misses one item Felix would have caught |
+| Jun | Exam week, plus the 6 a.m. runs he won't drop | 9-13 Nov | For the first time he can't do the numbers alone. Kai learns to rerun the ladder script, slowly |
+| Kai | Extra shifts at the phone shop for the Black Friday sale; his father's "sure thing" | Week of 23 Nov | Misses the first Courtroom session; prosecutes the second one tired, and too hard |
+| Amara | Nani in hospital; tutoring on Tuesdays | Mid-November | The co-sponsor text is drafted without her and comes out flat (Act IV) |
+| Tess | Lighting the school's end-of-year production: tech week, then three shows | Mon 23 to Sat 28 Nov | The busiest editing week of the season. Amara and Felix do the counts; a formatting slip gets through to a late draft and Tess finds it on the Sunday |
+
+**Setbacks so far (Acts I-II), and the marks they left.** The near mis-click (Ep 5) left the button rule. The
+2037 vote was won and then reversed (Ep 8, 10), so the team learned a vote can be wrong. The "guarantees" note can't
+be edited and stays in WInS forever; the correcting note sits beside it (Ep 18, 22). Room fell from 42bp to 18bp in
+ten days (Ep 9-20), and nobody could do anything about it. Amara forgot her tutoring kids (Ep 17). Felix's "can
+wait" pile held the FAQ change for two days (Ep 23, 25). The curly apostrophe nearly broke an exact quote (Ep 26).
+
+**Setbacks to come (Acts III-V).** These beats are planned. The "if" beats happen only if the real data does.
+- **Kai loses the sail vote** (Sun 25 Oct) and goes quiet, which is worse than arguing.
+- **If the ladder's headroom falls under about $2,000** on a real curve, Keel's own plan leans on its January-gap rule
+  for the first time, and the IPS sentence about it has to be rewritten two days before the freeze.
+- **The IPS is 520 words on Wed 4 Nov.** The paragraph Amara loves most is the one that goes.
+- **Exam week collides with the Final Report instructions** (above). The plan slips, and the slip goes on the
+  Noticeboard in Nora's handwriting.
+- **A number in Keel's own Final Report draft is on a stale curve.** Felix finds it after the team has called the
+  section done. It's fixed the same day, and it goes in the decision journal as a mistake, not a typo.
+- **Spinnaker gets praised in public** (a forum post, a teacher's comment), and for a week the team doubts the keel.
+- **The southerly night** (Thu 3 Dec): the power flickers and forty minutes of unsaved work are gone.
+- **The ending isn't promised.** The semifinal list is not out when the season ends, and the story never says Keel
+  made it.
+
+**The rule for a setback:** it has a believable cause, it costs something real (time, a line, a vote, a night's
+sleep, a friendship moment), the fix is partial, and it leaves a mark on how the team works. At least one per act;
+most weeks, one.
+
+**Humans too.** Caplet's six real students have school, exams, jobs and families. The office never assumes they
+have time. It asks who's short of time in the Sunday stand-up, keeps two-day buffers before every Wharton
+deadline, and when someone is busy it proposes a re-split or a smaller scope out loud (`keel/pm/RISKS.md`, R10).
+It never nudges in a way that guilt-trips.
+
 ## 7. The season: Keel to the semifinal
 
 Dates are Sydney days. Wharton's dates come from `WORLD.md` and the Week 3 email; everything else is fiction. Acts I
@@ -318,7 +366,8 @@ from Keel's story goes in):
 
 ## 9. How to use this bible
 - **The competition is the story.** Every scene must change the plan, a vote or a page. Life outside Keel appears
-  only as the cost or the fuel of the competition work.
+  as the cost or the fuel of the competition work, and it can take real time away (section 7a).
+- **No smooth ride.** Check section 7a every week: who is short of time, and which setback is due.
 - **One episode, one beat.** An episode moves one plot beat and one arc (`ARCS.md`). It doesn't skip ahead, and it
   doesn't play two turning points in one day.
 - **Earn it on the day.** A beat above is a plan, not a script. If the real competition, the real curve or a

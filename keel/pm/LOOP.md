@@ -22,7 +22,8 @@ move the card first.
 
 ## 2. Groom (two minutes)
 - Overdue card: re-date it or move it to Waiting with the reason. A Caplet-owned card past due goes on the stand-up
-  as a nudge (owner role + date), never as a message to the student.
+  as a nudge (owner role + date), never as a message to the student. If a student has said they are busy, propose
+  a new date or a re-split instead of a nudge.
 - Re-score priority = **Impact x Urgency**. Impact: 3 = could decide the semifinal (exclusion, missing rule, wrong
   number), 2 = raises a judged criterion, 1 = hygiene. Urgency: 3 = due in 3 days or less, 2 = in 7 days, 1 = later.
 
