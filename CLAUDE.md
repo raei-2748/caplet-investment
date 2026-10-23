@@ -34,8 +34,9 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
   deliverables as Caplet's experience; their research findings may be used after re-checking.
 - Full rules, dates, formats, portfolio and open items: `competition/COMPETITION.md` (single source of truth). Onboarding: `caplet/START_HERE.md`.
 - Roster submitted (locked). All 11 WInS orders filled 7-8 Oct: iBond ladder IBTM/IBTO/IBTP/IBTQ/IBTR + T-bonds
-  Feb-2037, May-2038, Nov-2039, Nov-2040, Nov-2041 + VT 167. 11/200 trades, cash $3,514, about $303.4k
-  at the 19 Oct close (bonds MODEL-priced; see `competition/COMPETITION.md` section 8). Plan: hold.
+  Feb-2037, May-2038, Nov-2039, Nov-2040, Nov-2041 + VT 167. 11/200 trades, cash $3,514. Official WInS value
+  23 Oct: $305,557.66 (+1.85%); 15 trade notes on 11 trades (4 on cancelled orders). Read
+  `competition/wins/2026-10-23_snapshot.md` instead of opening WInS. Plan: hold.
 - 6 Oct Wharton email: Laura's real plan may use only WInS-listed stocks, ETFs and Treasury bonds. STRIPS-based
   numbers below and in `keel/library/insight_v1/` are superseded (banners added). The floor is IBTM.
 - Public SMApply FAQ, live 20 Oct: TIPS and STRIPS are now listed as NOT permitted, the permitted list is "for BOTH
