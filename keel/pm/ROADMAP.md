@@ -8,7 +8,7 @@ deliverable does not move on until the gate is met. Detail lives in `keel/office
 | When | Milestone | Owner | Gate |
 |---|---|---|---|
 | Wed 21 Oct | Final office check of notes and reflections | Felix | Done (WO-0004/5) |
-| Sat 24 Oct 08:00 | Submitted, confirmation saved [T01] | Ray | Screenshot saved privately |
+| Sat 24 Oct 08:00 | Submitted, confirmation saved [T01] | Ray | Done: submitted Fri 23 Oct |
 | Sun 25 Oct | Retro [T02, T06] | Team; Tess prepares facts | Keep / stop / start + one process change on the board |
 
 ## M2 IPS and trading lock: Sat 7 Nov 09:00 (Fri 6 Nov 5 pm ET); strategy frozen after it

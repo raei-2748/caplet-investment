@@ -3,7 +3,7 @@
 Rules: `LOOP.md`. WIP limit 3 in Doing. Priority P = Impact (1-3) x Urgency (1-3); pick 4 or more. Owner = a Keel
 desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Fri 23 Oct 2026, 19:00.
 
-**This week's top 3:** (1) TNA in before Sat 24 Oct 08:00; (2) vote set B options (T04a-c) ready for Tue 27 Oct; school letter requested (T18);
+**This week's top 3:** (1) TNA retro Sun 25 Oct (TNA submitted 23 Oct); (2) vote set B options (T04a-c) ready for Tue 27 Oct; school letter requested (T18);
 (3) ladder repriced on the holdings basis before anyone quotes headroom again.
 
 ## Doing
@@ -28,7 +28,6 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Fri 23 Oct 202
 ## Waiting on Caplet (Keel never picks these; they go on the stand-up)
 | ID | Task | Owner | Due | Done when | Notes |
 |---|---|---|---|---|---|
-| T01 | Submit the TNA on SMApply and save the confirmation privately | Ray | Sat 24 Oct 08:00 | Screenshot saved (not in the repo) | Last office check WO-0004 (21 Oct) |
 | T02 | TNA retrospective (30 min): keep / stop / start | Whole team | Sun 25 Oct | `RETROS.md` TNA section filled | Workstream 2 timeline |
 | T12 | Vote set B (rules the IPS will freeze) | Whole team | Tue 27 Oct | Votes and any dissent in `caplet/decisions/LOG.md` | Options from T04a-c |
 | T13 | Write the IPS in the students' own words: outline Wed 28 Oct, draft Sat 31 Oct | Named student authors + editor | Sat 31 Oct | Draft in the IPS Doc | Close the 10 pending AI suggestions first |
@@ -52,4 +51,5 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Fri 23 Oct 202
 |---|---|---|---|---|
 | T00a | Project office set up: board, road map, pre-mortems, risk register, decision queue, retros, loop | Nora | Fri 23 Oct | `keel/pm/` |
 | T00b | IPS pre-mortem v1 and TNA quick pre-mortem | Nora + Kai | Fri 23 Oct | `PREMORTEMS.md` |
+| T01 | Submit the TNA on SMApply | Ray | Fri 23 Oct | Submitted (confirmation kept privately) |
 | T00c | Final TNA check of notes and reflections | Felix | Wed 21 Oct | WO-0004, WO-0005 (LEDGER) |
