@@ -2,7 +2,8 @@
 
 > The long threads that run through the episodes. Each daily episode should move at least one arc by one step and
 > say which in its summary header. When an arc moves, update its "Where it stands" line here (one line, dated).
-> Background: `WORLD.md` (setting and time), `CULTURE.md` (values), `CAST.md` (the six in one screen).
+> Background: `WORLD.md` (setting and time), `CULTURE.md` (values), `CAST.md` (the six in one screen),
+> `STORY_BIBLE.md` (the world, the Unsent, Spinnaker, motifs and the season in acts to 5 Dec).
 
 ## The founding (August 2026), the story so far
 Nora built Keel in the first two weeks of August, one person at a time, each with a pitch written for them:

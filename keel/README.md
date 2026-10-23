@@ -67,6 +67,7 @@ README.md              this page
 WORLD.md               the setting and the time model (the Window, the Long Room)
 CULTURE.md             mission, vision, values, culture, what judges reward
 CAST.md                the six in one screen (load this, not all six member files)
+STORY_BIBLE.md         the world, rivals, motifs, the Unsent, and the season in acts to 5 Dec
 ARCS.md                story arcs to December
 IDEAS.md               the ideas ledger: concepts debated, adopted or rejected for Laura
 TOKEN_RULES.md         what to load, what never to regenerate

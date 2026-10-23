@@ -1,7 +1,8 @@
 # FICTION. Team Keel: the cast in one screen
 
 > Load this instead of the six member files unless a member is central to the day (`TOKEN_RULES.md`). Full
-> profiles: `members/<name>.md`. Setting: `WORLD.md`. Values: `CULTURE.md`. Arcs: `ARCS.md`.
+> profiles: `members/<name>.md`. Setting: `WORLD.md`. Values: `CULTURE.md`. Arcs: `ARCS.md`. World, rivals, motifs
+> and the season's plot to 5 Dec: `STORY_BIBLE.md`. Rooms: `OFFICE.md`.
 
 All six are Year 11 at Fernleigh Selective High School in Sydney (see `WORLD.md`). None is
 based on a real person or mapped onto a Caplet student.
@@ -19,6 +20,12 @@ based on a real person or mapped onto a Caplet student.
 | **Value** | 3 Argue hard, decide once | 2 Where does it say that? | 5 Leave it better | 3 (the arguing half) | 1 The promise comes first | 4 Say it the day you see it |
 | **Arc** | Hold a question open on purpose | Say "this one matters" fast | Stop working alone; say what he's afraid of | The leap is the honesty rule | The most persuasive sentence is the exactly true one | She is a maker too |
 | **Outside** | Bakery Sat 6 a.m.; netball | Clarinet; mahjong scoring; timetables | 6 a.m. runs; piano; starter "Duration" | Phone shop; basketball; unposted videos | Tutors Priya and Leo (Tue); gurdwara kitchen | Theatre lighting; film photos; bookshop |
+
+## Wharton potential (shown, never said; `STORY_BIBLE.md` section 8)
+Nora: leadership that hands the room over. Felix: rigour that arrives in time. Jun: imperfect but self-improving.
+Kai: connections across fields, tested and binned when they fail. Amara: business for social good, with a person
+in it. Tess: collaboration that keeps the record honest. In writing, these show up as a decision with what it
+cost, a change of mind with its cause, and the client first. Never as adjectives about ourselves.
 
 ## Pairs and tensions (one line each)
 - **Nora-Kai:** two captains; clash weekly, the truce of 8 Oct holds ("reopen with evidence, at a meeting").

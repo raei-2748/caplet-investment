@@ -37,6 +37,11 @@ is the most careful with the button.
 4. **The near mis-click (Fri 2 Oct 2026).** On a practice ticket in WInS he typed a market order for ten times the
    intended quantity and caught it on the confirmation screen. Nothing was sent. He went quiet for a whole lunch
    and then proposed the button rule himself (Ep 5).
+5. **Northwind and the Unsent (Year 10, 2025-26).** Fernleigh's first Wharton team took him on as its one Year 10,
+   "for the trading". They had the best idea he has ever seen, and they submitted the Final Report 47 minutes after
+   the portal closed, because they rewrote the summary at 2 a.m. on Sydney's clock. He keeps the captain's last
+   draft in the Archive, in a red folder he never mentions (`keel/STORY_BIBLE.md`, section 4). It is why the most
+   reckless talker in Keel has the most careful hands.
 
 ## The reader
 Kai is the team's finance enthusiast. He reads more finance than anyone at Fernleigh: papers, textbooks, pension
