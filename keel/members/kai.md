@@ -20,6 +20,68 @@ He is also the only one allowed to place WInS orders. The team made the rule aft
 October, and Kai takes it more seriously than anything else he does: limit orders, a ticket read out loud, Felix
 watching, a screenshot before and after. The loudest person on the team is the most careful with the button.
 
+## The person behind the role
+### Home
+Kai lives with his mum, his dad and his nan, in a house with one bathroom and strong opinions. His older sister
+Linh is in her second year of nursing at university and comes home most Sunday nights with washing. His mum is an
+ICU nurse who mostly works nights; his dad drives for a parcel company and is asleep by nine. His nan came to
+Australia in 1981 and keeps her savings in term deposits at two banks "in case one forgets". She is the only person
+in the house who wins arguments against Kai, and she does it by saying nothing and raising one eyebrow.
+
+The order rule comes from his mum. When she gives a high-risk drug, a second nurse reads the chart out loud with
+her: two people, one dose. Kai heard her describe it at dinner in Year 8 and has done the same with anything that
+can't be undone ever since. The team thinks his ticket-reading is a quirk. It is the most serious thing he does.
+
+### A normal weekday
+- 6:00 up before anyone, because the bathroom is free. Reads market news on his phone while the kettle boils; makes
+  his nan's tea first.
+- Walks to school with earbuds in: a markets podcast at 1.5x speed, then music for the last ten minutes.
+- Lunch with Keel; the canteen queue first, so he is always eating while arguing.
+- Thursday after school and Sunday 9-3: works at a bike repair shop. Fixes punctures and brakes; is very good with
+  his hands and very careful with other people's bikes.
+- Evenings: homework at the kitchen table, with his nan watching her shows on the tablet next to him at full volume.
+
+### Outside Keel
+- **The bike shop.** He likes that you can't bluff a brake. Either it stops the wheel or it doesn't. He brings this
+  up in arguments more than is strictly relevant.
+- **Running**, alone, at night, in the park near home. The only time he is quiet for an hour.
+- **Old market crashes.** He reads about them the way other people read thrillers, and likes to quote 1987 at people.
+
+### Small things
+- A screenshot folder for every order ticket, before and after, named by date. Also a folder of bad market takes,
+  including his own.
+- The "lines Tess cut" file is a note on his phone with 41 entries. He reads it when he's had a bad day.
+- Taps the table twice before he places an order. It started as a joke and isn't one now.
+- In the group chat: lowercase, fast, five messages where one would do, at least one GIF a day. Goes completely
+  silent when he is placing an order, and the team has learned that silence means he's concentrating, not sulking.
+
+### What he doesn't say
+- He worries he is the loud one because he isn't sure he'd be noticed otherwise.
+- His nan's term deposits are the safest money he knows, and when he mocks "safe plans" he is partly arguing with
+  her, and partly scared she is right.
+- He has a quiet plan to study commerce and wants to work on a trading floor. He also thinks, some nights, about
+  doing nursing like his mum and his sister, and has told nobody.
+
+### Contradictions
+- The loudest voice for risk, and the person who checks the button three times.
+- Says he hates rules, and keeps the strictest personal ones on the team.
+- Mocks sentiment, and has a photo of his nan at her first job in Sydney as his phone lock screen.
+
+### What is going on in his life this term
+- His sister is on a hospital placement and comes home exhausted on Sundays; Kai has started doing her washing
+  without being asked, and would deny it.
+- The bike shop wants him for extra hours before Christmas. The Final Report is due Sat 5 Dec (Sydney). He hasn't
+  decided.
+
+### How he came to Keel
+Nora asked him what he'd be annoyed to see a team get wrong. He said, "Being boring." She said that was exactly why
+she wanted him. He brought Jun.
+
+### Threads that can surface in episodes (slowly, never melodrama)
+- His nan asking him, one Sunday, what Laura's money is "doing", and his answer being better than any he gives the team.
+- The bike-shop hours vs the Final Report.
+- The day he argues *for* the safe option, and the team doesn't know what to do.
+
 ## Personality
 - **Provocative.** Exaggerates to make a point, then backs off when pushed with evidence.
 - **Brave in argument, careful in action.** Will argue for 80% stocks; will not place an order without a second

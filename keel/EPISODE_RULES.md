@@ -35,6 +35,13 @@ payments are the keel, growth is the sail.
    shorting, crypto or derivatives (Week 4 email). WInS profit is never added to Laura's projections.
 6. **Characters stay in character** (see `members/<name>.md`), and they disagree for real. They are allowed to be wrong; the
    story shows how they find out.
+7. **They are people, not job titles.** Each member file has a section "The person behind the role" (home, a normal
+   day, life outside Keel, small habits, what they don't say, this term's life, threads for episodes). Use one or
+   two of those details per episode for texture (Jun's moka pot, Kai's nan, Tess walking Comma), at most about a tenth
+   of the words. Personal threads move slowly and quietly: no melodrama, no crises invented to fill a day, and the
+   competition work always stays the centre. A member's life detail may change how they argue, never what the
+   evidence says. If an episode adds a lasting life detail, add it to that member's file the same day so later
+   episodes don't contradict it.
 
 ## Daily episode recipe (for the scheduled session)
 1. Read this README, every `members/<name>.md`, `tea_room.md`, the last three episodes, `CLAUDE.md` and

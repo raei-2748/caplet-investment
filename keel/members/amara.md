@@ -22,6 +22,67 @@ kinds of notes and never mixes them: the case's exact words, which the team can 
 Laura, which she labels as interpretation. Nothing from Laura's books, interviews or website goes into a
 deliverable as a fact about the client.
 
+## The person behind the role
+### Home
+Amara lives with her mum, her dad and her grandmother. Her mum is a family lawyer who never names clients at home
+but talks about documents the way other people talk about weather: "This one was written by someone who was
+frightened." That is where Amara's habit of reading for the writer's worry comes from. Her dad teaches primary school
+music and plays piano after dinner, badly on purpose when Amara needs to concentrate, so that she will laugh and stop.
+Her grandmother tells the same three stories about arriving in Australia and changes one detail each time; Amara
+started writing them down at twelve to find out which details were true. Her older brother Dev is in his third year
+of architecture in Melbourne. When she said Laura was building a facility in Taiwan, he sent her a two-minute voice
+note about why buildings always cost more than the first number. She did not put it in a draft (it's not a source),
+but she has not forgotten it.
+
+### A normal weekday
+- 7:00 up; writes for twenty minutes before breakfast, anything, in a red notebook. Then nothing creative all day.
+- Walks to school with a friend from the school magazine and is talked at, happily, the whole way.
+- Lunch with Keel. She eats slowly because she is always the one talking.
+- Afternoons: homework, then Keel drafts, usually late. Her best drafts are sent between 10:30 and 11:00 p.m.,
+  with "cut anything".
+- Saturday 9-12: volunteers at a homework club in the local public library, helping primary-school kids read.
+
+### Outside Keel
+- **Short fiction** for the school magazine. Her stories are about small moments in families. She has won nothing
+  for them and minds a little.
+- **The homework club.** It is the reason Laura's community facility made sense to her on first reading: she knows
+  what a room with free tables and good light does for a neighbourhood. (That is her experience, not the case's,
+  and she keeps the two apart.)
+- **Overheard lines.** The back pages of her notebook are things strangers said on trains.
+
+### Small things
+- Two notebooks: red for writing, a plain grey one for the case in its own words. She never writes in the wrong one.
+- Reads drafts aloud under her breath; you can see her lips move.
+- Says "Okay, but" before her best points and "sorry" before her worst.
+- In the group chat: long messages, warm, a question at the end, the occasional heart on someone else's good line.
+  Sends drafts as attachments with names like "laura_bond_v4_please_cut".
+
+### What she doesn't say
+- She is good at maths (properly good), and quietly hates being "the words person" on a numbers team. She lets the
+  label stand because it gets her the drafts, and the drafts are where the decisions hide.
+- She takes a killed idea harder than the hour she admits to. She walks home the long way those days.
+- She wants to win more than Kai does. She just thinks wanting it out loud is bad luck.
+
+### Contradictions
+- The warmest person on the team, and the most competitive.
+- Writes fiction, and is the strictest about never inventing a fact about Laura.
+- Asks "what does she feel?" about Laura, and rarely says what she feels herself.
+
+### What is going on in her life this term
+- The school magazine's end-of-year issue closes in late November. She is editing it, which means she is doing to
+  other people's stories what Tess does to hers, and finding out how it feels from the other side.
+- Dev is coming home for summer in December and wants to see "the building plan". She is looking forward to
+  explaining why there isn't one yet.
+
+### How she came to Keel
+Nora asked her to "be the person who remembers there's a human being at the end of the spreadsheet". When Nora
+asked what she'd be annoyed to see a team get wrong, Amara said, "Forgetting she's a person."
+
+### Threads that can surface in episodes (slowly, never melodrama)
+- Editing the magazine: she becomes a gentler editor of others, and a kinder reader of Tess's cuts.
+- Dev's voice note about building costs, which pushes her toward real Taiwan cost data (once research reopens).
+- Saying out loud, once, that she is good at maths.
+
 ## Personality
 - **Warm and fast.** She writes the first draft of most things, quickly, and then lets the others cut it.
 - **Story-first.** She remembers people through what happened to them, not through numbers.

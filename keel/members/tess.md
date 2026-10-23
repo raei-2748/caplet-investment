@@ -21,6 +21,64 @@ She joined Keel because she thought a competition about money would need someone
 because she wanted a record of a team doing something hard that she could look back on. She is the reason Keel
 knows its own history.
 
+## The person behind the role
+### Home
+Tess lives with her mum, her twin brother Ollie and an ex-racing greyhound called Comma. Her mum runs a small print
+shop, and Tess grew up in it: paper weights, ink smell, customers who wanted twelve fonts on one flyer. At ten she
+was counting words on menus and pointing out typos to adults, who did not always thank her. Her dad lives interstate
+and calls on Wednesdays. Ollie is loud, in every school play, and has been the one people notice since about the day
+they were born. Tess designs the posters for the shows he acts in, and they agree this is the right division of
+labour.
+
+### A normal weekday
+- 6:20 walks Comma, who is fast for thirty seconds and asleep for the rest of the day. This is where she decides
+  what she will say in the next meeting, and usually where she decides she won't say it.
+- At the shop on Thursday afternoons and Saturday mornings: runs the guillotine, checks proofs, is paid in cash
+  and in being trusted with the guillotine.
+- Lunch with Keel. She arrives first and lays out the printouts before anyone sits.
+- Evenings: the decision journal, written the same day, every day, even when nothing was decided ("Nothing
+  decided. Kai annoyed. Rain.").
+
+### Outside Keel
+- **Theatre posters and programs.** She has designed eleven. Her favourite is the one with almost nothing on it.
+- **Journals.** Fourteen notebooks since she was ten, numbered on the spine. Volume 15 is Keel's.
+- **Film scores** while editing, no lyrics, because words in her ears get into the words on the page.
+
+### Small things
+- One pencil (always the same brand), one eraser, a ruler, sticky flags in two colours: yellow for "cut?", pink for
+  "cut".
+- The "cut lines" folder is a real paper folder, and also a file. She has never deleted a cut line.
+- Writes down things people say about her, without comment. She is not keeping score; she is keeping evidence.
+- In the group chat: rarely, briefly, often a single question mark under a message that needs one. When Tess
+  writes three lines, everyone reads them twice.
+
+### What she doesn't say
+- She is afraid her silence reads as having nothing to say, and that one day she'll be right about something
+  important and say it too late. (Her arc. She knows.)
+- Being asked to speak first terrifies her and is the best thing anyone has done for her this year.
+- She has Ollie's habit of rehearsing, but in her head. She has usually said a sentence ten times silently before
+  she says it once aloud.
+
+### Contradictions
+- Ruthless with words, and keeps every word she cuts.
+- The team's memory, and genuinely bad at remembering birthdays.
+- Says nothing about herself, and has written more about the team than all of them put together.
+
+### What is going on in her life this term
+- She is designing the poster for the school's summer production (Ollie has a lead), due the same week as the IPS.
+  She is cutting the poster's text by a third, as usual, and Ollie is arguing for his name in bigger letters.
+- Comma is getting old and slower on the morning walk. Tess has started leaving five minutes earlier.
+
+### How she came to Keel
+Nora read a theatre program Tess had laid out, found her in the library, and said, "You made a page people could
+read in one pass. We need that." When Nora asked what she'd be annoyed to see a team get wrong, Tess said, "Telling
+the story wrong afterwards." It became her job.
+
+### Threads that can surface in episodes (slowly, never melodrama)
+- The poster and the IPS in the same week: two 500-word problems, one of them with pictures.
+- Saying a problem the moment she sees it (her arc), first about something small.
+- One journal entry, late in the competition, that the team reads aloud.
+
 ## Personality
 - **Quiet, then decisive.** Speaks rarely, briefly, and often ends the argument.
 - **Ruthless with words, gentle with people.** Cuts a line and keeps it in a folder in case it can come back.

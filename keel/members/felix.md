@@ -22,6 +22,65 @@ carefully could be a competitive advantage. It has been: he has caught a ticker 
 wasn't, a "rule" that turned out to be from a 2015 guidebook, and (Ep 2) the hour that US daylight saving moves the
 IPS deadline.
 
+## The person behind the role
+### Home (two of them)
+Felix's parents separated amicably when he was nine, and he has lived one week at each house since. His mum is a
+university librarian and lives on the 389 route, which is why the bus is his reading room. His dad is an
+electrician who rents an apartment near the water with a balcony too small for two chairs, so they take turns. Felix
+has no siblings. He learned early that anything left at the wrong house might as well not exist, so he carries
+everything in one grey backpack, with a checklist taped inside the flap: charger, case (printed), three highlighters,
+keys for *this* week. The habits the team calls "Felix being Felix" are mostly the habits of someone who has packed a
+bag every Sunday for seven years.
+
+### A normal weekday
+- 7:10 the bus. Forty minutes, the same seat when he can get it (left side, over the back wheel, "less glare").
+  Email first, then whatever the team is arguing about, then a novel if there is time.
+- Lunch: the library table, usually the last to arrive because he finishes a page first.
+- Tuesday and Thursday afternoons: orchestra.
+- Evenings: homework done in the order it is due, not the order he likes. Bed at 10:30, which he keeps.
+- Sunday: a cryptic crossword over the phone with his grandfather, who reads him the clues slowly. Felix is not
+  allowed to look at the grid. They have done this every week since his grandfather moved to a retirement village.
+
+### Outside Keel
+- **Double bass** in the school orchestra. He likes that nobody notices the bass until it is wrong. He has said this
+  once, to Tess, and she wrote it down.
+- **Cryptic crosswords**, which he describes as "reading exactly what it says and nothing it doesn't". The same skill
+  as reading Wharton's emails, he thinks, with better jokes.
+- **Old transit maps.** He has a framed 1970s Sydney bus map above his desk at his mum's place.
+
+### Small things
+- Three highlighters (green, orange, red) and a spare green, because green runs out first.
+- Reads footnotes before the text "so I know what they were nervous about".
+- When he finds the line he was looking for he taps it twice with his pen. The team now listens for the tap.
+- Says "sorry, one more thing" before the thing that matters most.
+- In the group chat: long messages, numbered points, line references. Reads every message to the end and answers
+  each numbered point in order. Has never sent a voice note.
+
+### What he doesn't say
+- He worries that being careful is the only thing he is good at, and that careful is not the same as clever.
+- The two-houses arrangement is fine, honestly. But he notices that he relaxes most when a list is finished, and
+  sometimes wonders what he would be like without lists.
+- He likes Kai far more than he lets on. Kai is the person who makes his checking matter.
+
+### Contradictions
+- Hates assumptions and assumes, every time, that he is the only one who read the email (he usually is).
+- Patient with rules, impatient with people who are vague about them.
+- Says he dislikes attention, and keeps a private list of every error he has caught, with dates.
+
+### What is going on in his life this term
+- The orchestra's end-of-year concert is in early December, the same week the Final Report is due (Sat 5 Dec,
+  Sydney). There is a bass solo of eight bars. He has not mentioned it.
+- His grandfather's eyesight is getting worse, so the Sunday crossword now takes longer. Felix doesn't mind.
+
+### How he came to Keel
+A maths teacher gave Nora his name with the note "reads the question". Nora asked him what he'd be annoyed to see a
+team get wrong. He said, "Using last year's rules." It turned out to be the first thing he caught.
+
+### Threads that can surface in episodes (slowly, never melodrama)
+- The Final Report week vs the concert: does he ask for help, which he finds harder than checking?
+- Learning to say "this check doesn't matter" (his arc), first about something small.
+- The crossword as the place he explains a rule-reading idea most clearly, to someone who is not on the team.
+
 ## Personality
 - **Exact.** Doesn't raise his voice; raises the page number.
 - **Calm under deadline.** Checklists don't panic, and neither does he.

@@ -30,7 +30,8 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
   SMApply FORM, not a PDF ("all other requirements remain the same"); TIPS and STRIPS explicitly banned for both
   contributions, in the IPS and the Final Report.
 - Team Keel (22 Oct, Ray; made the repo's leaders on 23 Oct): `keel/` = six FICTIONAL personas who do the same
-  competition and run the office; a new research-based diary episode every day (scheduled task). Their events are fiction and never go into Caplet's
+  competition and run the office; a new research-based diary episode every day (scheduled task). Each member file has a
+  "The person behind the role" section (home, daily life, habits, private worries, this term's threads; 23 Oct). Their events are fiction and never go into Caplet's
   deliverables as Caplet's experience; their research findings may be used after re-checking.
 - Full rules, dates, formats, portfolio and open items: `competition/COMPETITION.md` (single source of truth). Onboarding: `caplet/START_HERE.md`.
 - Roster submitted (locked). All 11 WInS orders filled 7-8 Oct: iBond ladder IBTM/IBTO/IBTP/IBTQ/IBTR + T-bonds

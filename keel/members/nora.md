@@ -24,6 +24,73 @@ to know whether she could lead people who were better at the subject than she is
 embarrassment, that she is not the best at maths on the team. Her job, as she sees it, is to make sure the team
 decides things, writes them down and moves on.
 
+## The person behind the role
+### Home
+Nora lives with her parents, her brother Sami (13, Year 7, obsessed with football and mildly afraid of her) and her
+sister Leila (9). Her dad runs a two-truck removals business, so he leaves the house at 5:30 most mornings; her mum
+is a hospital pharmacist on a rotating roster. Somebody had to know who was picking up whom, and from about the age
+of twelve it was Nora. The family calendar on the fridge is in her handwriting. She cooks on Tuesdays (the same
+lentil soup most weeks, which nobody complains about because then she would stop). Her parents are proud of the
+competition in the way parents are proud of things they don't fully follow: her dad calls it "your bank homework"
+and asks every Sunday whether Laura "is rich yet".
+
+### A normal weekday
+- 6:45 up, phone face-down until she has showered (a rule she breaks about twice a week).
+- 7:20 drops Leila at the primary school gate on her way; uses the walk to plan the day out loud, quietly.
+- Lunch: the library table by the window with Keel, or debating training on Wednesdays.
+- 4:00-6:00 homework at the kitchen bench, where she can see the door and the stove.
+- 8:00-9:00 Keel work. After 9:00 she is worse at it and knows it (see "Impatient when tired").
+- Sunday night: wipes the whiteboard, rewrites the countdown, takes the photo, sends it to the group chat. If she
+  forgets, Tess sends "board?" at 9:15, which has happened once.
+
+### Outside Keel
+- **Debating.** Second speaker for two years. She lost the Year 10 grand final on a split decision with three good
+  arguments against a team that had one. She replays that night more than she lets on; it is where "if you can't
+  say it in one sentence, it isn't a strategy yet" comes from.
+- **Netball.** Coaches Leila's under-10 team on Saturday mornings. She says it is the best leadership training she
+  has: nine-year-olds do not follow you because you are right.
+- **Reading.** Biographies of people who ran things, mostly politicians and coaches. She reads the chapter about
+  their worst decision first.
+
+### Small things
+- Four whiteboard markers (black for dates, blue for owners, red for "late", green for "done"). Green runs out first,
+  and she counts that as a good sign.
+- Phone: three alarms named "board", "Tess first" and "stop at 9".
+- Hums when a meeting goes well, without noticing. Kai noticed. She has asked him not to mention it, so he does.
+- Writes "D / O / D" (decision, owner, date) at the bottom of every page of notes, even maths notes.
+- In the group chat: full sentences, full stops, never more than three lines. Uses one emoji (a thumbs up) and means
+  "decided" by it, not "nice".
+
+### What she doesn't say
+- A Year 6 report called her "bossy at times". She remembers the exact wording and still checks herself against it.
+  The worry under the worry: that people follow her because it is easier than arguing, not because she is right.
+- She is not sure she likes finance. She likes *deciding*, and this is the best room she has found to practise in.
+- She would like to study law, or politics, philosophy and economics. She has not said this to the team because it
+  sounds like she is already halfway out the door.
+
+### Contradictions
+- Runs everyone's calendar and is late to her own things (the dentist, twice this year).
+- Preaches "two options, not five" and agonises over five options in private before she reduces them.
+- Says criticism goes in private, and is the person on the team who most hates receiving it in private, because then
+  she can't answer it straight away.
+
+### What is going on in her life this term
+- Term 4 has started, and with it the first HSC assessment tasks. Her English essay and the IPS land in the same
+  fortnight. She has put both on the whiteboard and pretends that makes it fine.
+- Her dad's business has a quiet patch after a big October; she can tell from the way he checks his phone at dinner.
+  It makes Laura's "fixed $50,000 a year" feel less abstract to her than she would admit.
+
+### How she came to Keel
+She built the team. In Term 3 she asked a teacher who in Year 11 "argues well with numbers", got four names, and
+added Tess herself after reading a theatre program Tess had laid out. She asked each person the same question:
+"What would you be annoyed to see a team get wrong?" She still has their answers on a sticky note inside her
+debating folder.
+
+### Threads that can surface in episodes (slowly, never melodrama)
+- The English essay vs the IPS fortnight: does she delegate, or try to hold both?
+- Netball Saturdays as a source of plain lessons about leading (one line, never a sermon).
+- Telling the team, at some point before December, that she might not do finance at all.
+
 ## Personality
 - **Decisive.** She would rather make a good decision on time than a perfect one late. She believes most teams
   lose to drift, not to bad ideas.

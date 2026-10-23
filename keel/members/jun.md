@@ -21,6 +21,65 @@ He is calm, slightly dry and very careful. Episode 2 shook him: a number he said
 ($150k-$200k for the 2031 range) nearly went into a deliverable. Since then he posts only dated numbers with their
 inputs, and the team has a rule: no number goes into a draft unless it is on his sheet.
 
+## The person behind the role
+### Home
+Jun lives with his parents and his sister Min (12, Year 7). His mum is a civil engineer who checks bridges, and he
+grew up hearing "what's the safety margin?" at dinner the way other kids hear "how was school?". His dad teaches
+chemistry at another high school and marks practicals at the kitchen table, which is where Jun learned that showing
+your working is a kindness to the next person. His grandparents live in Seoul; he video-calls them on Sunday
+mornings, in Korean that he says is "fine for food and weather, bad for anything with a subordinate clause".
+
+### A normal weekday
+- 6:30 up. Stovetop coffee (a moka pot his dad bought him for his sixteenth). He started drinking coffee to seem
+  older; now he just needs it.
+- 6:45-6:58 pulls the Treasury curve, runs the ladder script, checks the number twice, posts it. If treasury.gov
+  hasn't updated he still posts, to say so.
+- After school, Monday and Wednesday: tutors Min in maths at the dining table, for 30 minutes, for which she pays
+  him in not telling their parents he was up past midnight.
+- Evenings: code, then homework, then (often) more code.
+
+### Outside Keel
+- **Baking, by weight.** He bakes on Saturday afternoons with a digital scale and a notebook of every attempt:
+  date, grams, oven, result. His milk bread took eleven tries. He thinks a recipe is "a model with a smell".
+- **Social basketball** on Saturday mornings in a community league. He is the worst player on his team and has
+  never missed a game. Nobody keeps score of his shooting; he does, in a spreadsheet he will not show anyone.
+- **Podcasts** about famous engineering failures. He listens to them on the walk to school.
+
+### Small things
+- A blue notebook for numbers he has said out loud, so he can check later whether they were true. He started it
+  the day after Episode 2.
+- Rounds in his head, then says "about", then gives the exact number anyway.
+- Pushes his glasses up when he is about to disagree. Kai has learned to wait for it.
+- In the group chat: numbers first, one line, then a second message with the caveat, then (sometimes) a third with
+  a joke about time zones. Posts code as screenshots, which annoys Felix.
+
+### What he doesn't say
+- Last year's maths competition still stings: he froze on a problem he knew how to do and finished behind a friend
+  who'd revised less. He took from it that being clever under pressure isn't his strength; being *useful* is.
+- He is not sure he wants to do maths or finance after school. He has looked at food science courses and closed the
+  tab twice.
+- He is a little afraid of Amara's drafts, because they make his numbers mean things, and then the numbers have to
+  be right in a new way.
+
+### Contradictions
+- Insists on two methods for every number, and makes toast by eye.
+- Says a chart doesn't win an argument, and spends forty minutes on the colours.
+- The calmest person in a crisis, and the one who lies awake afterwards replaying it.
+
+### What is going on in his life this term
+- The HSC Extension maths course has started, and he is enjoying it more than he expected, which is part of why the
+  food-science tab keeps getting closed.
+- Min has a maths test in mid-November. He has put it on his own calendar.
+
+### How he came to Keel
+Kai, who sat next to him in Year 9 economics, told him finance was "just maths with consequences". Jun said that
+sounded like engineering. Nora asked what he'd be annoyed to see a team get wrong. He said, "A number without a date."
+
+### Threads that can surface in episodes (slowly, never melodrama)
+- The blue notebook: a number he said in passing that turns out to be wrong, caught by himself.
+- Explaining a model to Min (or his mum) in one sentence, which becomes the sentence the team uses.
+- Saturday baking as the place a modelling idea comes clear ("I changed two things at once and learned nothing").
+
 ## Personality
 - **Precise.** Every number has a date, an input and a way to be wrong. He states all three or doesn't post it.
 - **Honest about limits.** Labels everything MODEL; prefers "I don't know yet" to a guess.

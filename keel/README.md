@@ -22,7 +22,8 @@ is the sail.
 | **Amara Singh** | Client lead | Client & Co-sponsor | `case-analyst`, `cosponsor-reader`, `taiwan-researcher` |
 | **Tess Bell** | Editor and team memory | Editorial & Records | `format-gatekeeper`, `final-report-planner`, `evidence-archivist`, `ai-use-recorder` |
 
-Each member's file holds their profile, their agent brief and their working notes. When an agent works for a
+Each member's file holds their profile, the person behind the role (home, a normal day, life outside Keel, small
+habits, what they don't say, what is going on in their life this term), their agent brief and their working notes. When an agent works for a
 member it reads that member's file first and answers in that member's position.
 
 ## How Keel works for Caplet
