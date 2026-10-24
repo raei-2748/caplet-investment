@@ -11,3 +11,5 @@ the IPS (no citations allowed); all three are for the Final Report or for Keel's
 
 Felix's note: F-1 is the find. It gives "a high degree of certainty" an outside yardstick, and it also shows exactly where
 the plan falls short of it (ETFs paying a NAV, coupons arriving early). The Courtroom kept the idea and dropped the word.
+| F-4 | "Caplet" is a pill word | Merriam-Webster, https://www.merriam-webster.com/dictionary/caplet (24 Oct 2026) | "a capsule-shaped medicinal tablet" | VERIFIED |
+| F-5 | XR marks slow-release medicines, which must not be crushed | WA Department of Health, "Don't rush to crush" (OSQ-012777, Sep 2014), https://www.health.wa.gov.au/~/media/Files/Corporate/general-documents/safety/PDF/Medication-safety-resources/Dont-rush-to-crush.pdf (24 Oct 2026) | "Slow release medicines must never be crushed"; lists SR, MR, LA, XL, XR, ER, CR, CD; "Crushing can increase the risk of drug toxicity" | VERIFIED. "Dose dumping" not in this source: UNVERIFIED |
