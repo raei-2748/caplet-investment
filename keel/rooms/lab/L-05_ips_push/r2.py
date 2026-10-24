@@ -1,5 +1,5 @@
 import sys, datetime as dt
-sys.path.insert(0,'/home/user/caplet-investment/keel/scripts')
+from pathlib import Path; sys.path.insert(0, str(Path(__file__).resolve().parents[3] / 'scripts'))
 import ladder_pv as L
 import numpy as np
 from datetime import date
