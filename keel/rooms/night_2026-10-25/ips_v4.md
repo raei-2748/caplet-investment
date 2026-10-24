@@ -11,7 +11,7 @@ words and decides. (Keel is a simulated team, AI-written.) Built on v3.1. Counts
 | 3 | "that sum is Laura's facility floor." | "that ETF's payout is Laura's facility floor." | Laura's Room: a careful co-sponsor couldn't tell which sum | +1 |
 | 4 | "from the floor, quoted at the 2032 ETF's projected payout rounded down, to" | "from the projected floor, rounded down, to" | Repeated #3 | -6 |
 | 5 | "This is the obvious trade." | cut | The interest clause now carries it; concede-then-"But" survives | -5 |
-| 6 | "Each payment's cash comes from a maturity, not a sale." | cut | Said three times already (pitch, P1, trading rule). The outsider judge liked it: Caplet's call | -10 |
+| 6 | "Each payment's cash comes from a maturity, not a sale." | cut | Said three times already (pitch, P1, trading rule), and narrowly false for 2038-39, whose proceeds wait in a short-term ETF that is sold to pay (Courtroom; Codex review). The outsider judge liked it: Caplet's call | -10 |
 | 7 | "renamed rather than rebuilt" | cut | Courtroom's AI-suspicion reader: the most machine-made phrase on the page | -4 |
 | 8 | "then the contribution above the floor" | "then from the contribution above the floor" | Grammar | +1 |
 | 9 | "Our WInS portfolio shows this allocation, scaled down." | "...shows the 2028 allocation, scaled down." | Must stay: without it the IPS ("2027 deposit goes entirely to the payments") contradicts the frozen WInS book, which holds the floor ETF and VT | +1 |

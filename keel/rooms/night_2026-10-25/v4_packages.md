@@ -52,7 +52,7 @@ market conditions" is what it schedules), so it stays in all five.
   - Not chosen instead: "A lasting fall in yields hurts twice" (-20). It repeats P3 and P1 in part, but it is the
     only line that says one risk reaches both halves of the plan, and it is A's touch, so cutting it would make the
     packages unequal.
-- **Package-specific:** B puts back edit 5 ("Each payment's cash is released by a maturity, not a sale.", its touch 1).
+- **Package-specific:** B puts back edit 5 ("Each payment's Treasury releases its cash by maturing, not by being sold.", its touch 1).
   Nothing else differs beyond each package's name, two touches and closing line.
 - **Kai's amendments, still applied:** A uses the name as a label ("our Press Day plan", pitch and P3); B's kicker
   reads "No payment Treasury is sold to raise cash." (consistent with v3.1's trading rule: swapping a delisted holding
@@ -72,7 +72,7 @@ market conditions" is what it schedules), so it stays in all five.
 | v3.1 (base) | 37 (36) | 489 (484) | 2 en dashes | 0 |
 | P0 Plain v4 | **37** (36) | **469** (464) | 2 en dashes | 0 |
 | A Press Day | **40** (39) | **464** (461) | 2 en dashes | 0 |
-| B Caplet XR | **49** (47) | **470** (466) | 2 en dashes | 0 |
+| B Caplet XR | **49** (47) | **471** (467; 470 before the 25 Oct Codex fix) | 2 en dashes | 0 |
 | C Pre-Registered | **48** (46) | **465** (458) | 2 en dashes | 0 |
 | D No motif | **38** (37) | **470** (465) | 2 en dashes | 0 |
 All ten pass. B's IPS sits exactly on 470 and its pitch has one word of margin; C's pitch has two.
@@ -123,7 +123,7 @@ Laura's ten $50,000 operating payments cannot lean on co-sponsors, so Caplet XR 
 
 **IPS**
 
-This policy governs Laura Gao's $450,000 for her 2033 Taiwan residency. Its first objective is to fund ten $50,000 operating payments, each January of 2033-42, with high certainty from this money alone. We match each payment with a Treasury bond or defined-maturity Treasury ETF maturing before it. Each payment's cash is released by a maturity, not a sale. By high certainty we mean every payment is owned in Treasuries by 2028. No stock has to rise. Only reinvested coupons and the ETF payouts can leave one short. The second objective is a responsible facility contribution.
+This policy governs Laura Gao's $450,000 for her 2033 Taiwan residency. Its first objective is to fund ten $50,000 operating payments, each January of 2033-42, with high certainty from this money alone. We match each payment with a Treasury bond or defined-maturity Treasury ETF maturing before it. Each payment's Treasury releases its cash by maturing, not by being sold. By high certainty we mean every payment is owned in Treasuries by 2028. No stock has to rise. Only reinvested coupons and the ETF payouts can leave one short. The second objective is a responsible facility contribution.
 
 With her living costs met elsewhere and no withdrawals due before 2033, Laura's ability to bear risk beyond the payments is high. Her tolerance for a missed payment is low – the artists would bear the loss.
 
