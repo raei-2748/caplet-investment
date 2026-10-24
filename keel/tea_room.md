@@ -77,6 +77,7 @@ co-sponsor a number she doesn't already own."**
 | 24 Oct | Buffer size decided with the sail in one vote | Nora | Both come out of the 2028 deposit (Ep 27) |
 | 24 Oct | The half Laura keeps gets one ranked sentence: payments first | Tess, Amara | Courtroom: one pot, three jobs (Ep 27) |
 | 24 Oct | Freeze list adopted: every Final Report job maps to an IPS sentence; review rule added (substitute a Treasury maturing earlier, 20 words or fewer) | Felix; Amara, Tess | Line 73: no strategy change after the deadline; v1 had no rule for a holding that disappears (Ep 28) |
+| 24 Oct | Root & Branch out (Ray's call); no roots, trees, branches or "keel and sail" in any Caplet suggestion; print run is Monday's default motif, used sparingly (3-2-1) | All; Nora | Cold naming test: 3 models, 24 names, roots in 2, ladders in 3, our own "Ballast and Sail" in 1, print in 0 (`meetings/2026-10-24_after-root-and-branch.md`) |
 
 ## Open threads
 - How big is the sail, and how big the buffer? Same 2028 money, one vote Sun 25 Oct (Ep 27); final 1 Nov.
@@ -130,6 +131,7 @@ co-sponsor a number she doesn't already own."**
 | Wed 21 Oct lunch | 4 | 4 | Caplet WO-0003; reflections (Jun alone, 1 a.m.) | All |
 | Fri 23 Oct | ~5 | deep | TNA last read; IPS v1 | All |
 | Sat 24 Oct 11:00 | 2 | 2 | Lab (one dial, buffer) and Library (defence in depth) | All |
+| Sat 24 Oct 18:20 | 2 | 2 | After Root & Branch: cold naming test, Monday's default | All |
 
 ## Calendar (Sydney)
 TNA Sat 24 Oct 08:00 (Keel submits Fri 23 Oct 20:00) · IPS + trading freeze Sat 7 Nov 09:00 (last U.S. fill 08:00) ·

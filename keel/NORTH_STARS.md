@@ -53,6 +53,25 @@ but never above the hard rules (`pm/SELF_DIRECTION.md`, "Limits that do not move
 - **Fiction still stays fiction.** Keel's events never enter a Caplet deliverable; Caplet's students write the final
   words in their own voice and log the AI use.
 
+## Ray's refinements, 24 Oct 2026 (his words, shortened; the full message is in the project chat)
+1. **The name.** "'Root and branch', whilst being our preliminary name for our strategy, needn't be our final one."
+   Other AIs nearly always reached for roots first (from Laura's *Messy Roots*), so a roots name risks reading as AI
+   groupthink. The name "must be deeply unique to our team and our strategy", tied to the motif, "whilst still being
+   directly and clearly applicable to our investment strategy". Everyone optimises for the client: "a good strategy
+   is to optimise for OURSELVES first and foremost." **Keel reads this as: nothing roots-, tree- or branch-themed in
+   any suggestion from now on** (Long Room, 24 Oct evening, `meetings/2026-10-24_after-root-and-branch.md`).
+2. **The motif is subtle.** "A tool that helps powerfully and distinctively convey our ideas, not a crutch that
+   wastes word count." Used "where it's genuinely impactful", building the narrative arc; never in every sentence,
+   never decorative or bolted on. AI uses extended metaphors "far more – and far more eloquently – than humans do",
+   so heavy metaphor raises the AI suspicion it is meant to beat. Find it on "the road less taken": unexpected
+   connections across fields.
+3. **Sound deeply human.** Lean and lucid, but "real, messy human writing". When cutting, don't just rearrange words
+   to be shorter ("exactly what AI has a frustrating tendency to do"); think about how humans cut. A banned-word list
+   was not enough: the humanised TNA still read as AI and detectors scored it "100% AI-generated". Ray shared three
+   of his own essays as voice inspiration (in the chat only; not copied into the repo).
+
+So star 2 now reads: **one motif, used sparingly, that only Caplet could have, and a name that comes from it.**
+
 ## Where the work on them is recorded
 - Motif search: `rooms/long_room/2026-10-24_north_stars.md` (Long Room session, ideation ladder, Courtroom roast),
   with the full ladder record beside it (`ideation_log.md` arrives with PR #25; add the row when it merges).
