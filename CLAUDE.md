@@ -25,6 +25,10 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
 - Until the IPS is in (Sat 7 Nov 09:00 Sydney): checking work only, no new research waves (CHARTER section 4).
 - Log every office answer in `keel/office/LEDGER.md`, so the team can cite all AI use in the Works Cited.
 
+- **Keel works on its own (Ray, 23 Oct 2026).** Project office in `keel/pm/`: task board, road map, pre-mortems,
+  risk register, decision queue, retros, stand-up. Any session not answering a direct question runs `keel/pm/LOOP.md`
+  (or `/keel next`): one board card per run, checking work only until 7 Nov, never decides for Caplet. Routines: `keel/pm/ROUTINES.md`.
+
 ## Current status (2026-10-14) - read this before the older sections below
 - IPS road (23 Oct, WO-0006): `keel/library/ips_road_2026-10/` = narrative spine tied to the locked TNA and notes,
   requirements + rubric + gap check of the IPS doc's latest tab (strict count 502/500; liquidity not named; "cannot
