@@ -1,8 +1,9 @@
 # Vote set B, Tue 27 Oct: the one-page ballot (30 minutes, six questions, then the motif)
 AI-generated meeting aid by the Keel Office (Claude Code; Nora = chief of staff). Not for submission. Cite in Works Cited.
 Work order: SD-T12 | Asked by: self-directed (supports Caplet card T12) | Date: Sat 24 Oct 2026, 12:05 AEDT
-Built only from the options memo `keel/office/outbox/2026-10-24_SD-T04_strategy_vote-set-B-options.md` (PR #28, all
-numbers MODEL on the 22 Oct curve). No new numbers. Keel's leans are suggestions; the only vote that counts is yours.
+Built only from the options memo `keel/office/outbox/2026-10-24_SD-T04_strategy_vote-set-B-options.md` (written in PR #28 and copied
+unchanged into this branch, with the SD-T03 ladder memo it rests on, so the leans can be audited here; all numbers
+MODEL on the 22 Oct curve). `BOARD.md` on this branch predates PR #28 and still shows T04a-c as Ready. No new numbers. Keel's leans are suggestions; the only vote that counts is yours.
 
 **Why this vote matters:** the IPS locks Sat 7 Nov 09:00 Sydney and freezes the strategy; the Final Report may only
 explain it. Each answer below becomes one sentence the IPS must carry. Outline Wed 28 Oct, so vote Tue.
