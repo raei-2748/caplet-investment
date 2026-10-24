@@ -6,6 +6,7 @@
 
 | Asked (Sydney) | Room | Question | Keel's default if no answer | By | Answer (student, date) |
 |---|---|---|---|---|---|
+| Sun 25 Oct | The Window (Felix) | Ray: next time you look at WInS (read-only), is a short-term Treasury ETF listed (search SGOV, BIL, SHV)? The IPS and two locked TNA notes say early-maturity cash "waits in a short-term Treasury ETF", and only WInS-listed ETFs are allowed | Keel assumes one is listed and keeps the IPS wording generic; the Final Report names no ticker until a student confirms one | Sat 31 Oct | |
 | Sun 25 Oct | The Noticeboard (Nora) | When a ladder cost is quoted (vote sheet, Final Report), which basis? Three scripts give $298,861 / $300,224 / $302,139 on the 22 Oct curve (SD-P02) | The payment-date basis (the verified 27 Sep method), named every time it is quoted; the IPS quotes none | Tue 27 Oct | |
 | Sat 24 Oct | The Archive (Tess) | Is the "Trading Notes" tab text, as the Archive holds it (`../rooms/archive.md`, read 24 Oct), exactly what you submitted on 23 Oct? Anything changed after you pasted it? | Yes: it is held as the locked TNA, and every new draft is checked against it | Tue 27 Oct | |
 | Sat 24 Oct | The Archive (Tess) | Your VT reflection says 7.5% (JPMorgan); IPS V5 says 7%. JPMorgan's 2027 edition (19 Oct) says 7.5%. If the IPS or Final Report states a stock return, use 7.5%? | Yes, 7.5% (2027 LTCMA), once the Library confirms it at source; otherwise no number at all | Tue 27 Oct | |

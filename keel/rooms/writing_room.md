@@ -1,4 +1,6 @@
-# The Writing Room
+# FICTION (the room) + real drafts. The Writing Room
+
+> AI DRAFT material throughout (Claude); not for submission as written. (Keel is a simulated team, AI-written.)
 
 > Room card: `../OFFICE.md`. Host: Tess (cuts the fat, runs the counts); Amara writes first drafts. Agents:
 > `format-gatekeeper`, `final-report-planner`. Tools: `../office/tools/textcheck.py`, `../VOICE.md`.
