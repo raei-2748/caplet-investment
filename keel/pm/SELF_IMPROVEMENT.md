@@ -24,7 +24,8 @@ rubric at the top of `SCORECARD.md`. The two lowest scores are next week's targe
 
 ## 3. The watchdog (daily loop, 07:00)
 Read `SCHEDULE.md` for the rooms due yesterday and look for each one's line in `RUNLOG.md` (or its commit on the day branch).
-- The brief opens with the health line: "11 of 12 rooms ran yesterday; the Library didn't, so I've put it on the board".
+- Count only the tasks whose "Now" schedule in `SCHEDULE.md` fell on yesterday (daily, Tue-Sat, Sunday, odd or even dates), so a room that wasn't due is never a miss.
+- The brief opens with the health line: "<ran> of <due> rooms ran yesterday", naming any that didn't (e.g. "8 of 9; the Library didn't, so I've put it on the board").
 - A missed room gets one Ready card for its job today, done by the daily loop if nothing scores higher.
 - Two misses in a row: add a question to `ASK_HUMANS.md` ("the <room> scheduled task may be broken"), default: the
   daily loop covers that room's job until a student fixes it.
