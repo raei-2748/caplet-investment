@@ -1,5 +1,9 @@
 # FICTION (the room) + real work (the experiments). The Lab: lab book
 
+> **State (Sat 24 Oct 2026, afternoon run).** L-01 ADOPT, L-02 ADOPT as option D1-c, L-03 (print-run map) PARK for
+> Monday's Long Room: risk image, not master motif. Open asks to the Lab: none. Waiting on: Library check of the
+> printers' "overs and unders" custom (for M4). Next best move: none queued; take the next request first.
+
 > Room card: `../OFFICE.md`. Head: Jun. Kai roasts every idea before it is tested. Agents: `scenario-modeller`,
 > `numbers-auditor`. Bench (existing models): `../scripts/`, `../library/ips_numbers_2026-10/ips_numbers.py`,
 > `../library/verified_2026-09-27/`. The older Final Report evidence lab (Ray's Mac): `../routines/claude_lab/`.
@@ -28,3 +32,4 @@ Archive's spine (no clash with anything locked), and a Caplet student choosing i
 |---|---|---|---|---|---|---|
 | L-01 | A one-line rule ("the cost of Laura's ten payments moves about $290 for every 0.01% move in yields", DV01 $289/bp on the 25 Sep 2026 curve, `CLAUDE.md` key facts) predicts the cost on every 2026 close within $1,500 | "One number for a curve that twists? The short end and the long end don't move together." | `../scripts/ladder_history.py` on every close since 24 Sep; compare the rule's prediction with the full repricing; wrong if any day misses by more than $1,500 | Portfolio Analysis; Creativity & Presentation | done 24 Oct ([L-01](lab/L-01_one_dial.md)): worst miss $652 over 20 closes | ADOPT (for explaining) |
 | L-02 | Keeping a small, named buffer from the 2028 deposit covers the coupon-reinvestment gap (about $21k if yields fall two points for good, `../library/ips_numbers_2026-10/IPS_number_sheet.md` section 3) at a cost to the 2031 range a co-sponsor would accept | "So the safe plan needs a safety net for its safety net?" | Reuse the reinvestment case in `../library/ips_numbers_2026-10/ips_numbers.py`; no new model; wrong if the buffer that covers the gap costs more than the range can bear | Investment Strategy; Client Knowledge | done 24 Oct ([L-02](lab/L-02_buffer.md)): $10k -> 2.9%, $15k -> 1.3% of paths short | ADOPT as option D1-c |
+| L-03 | Amara's print run (Library fixes applied) maps M1-M11 well enough to be the master motif | "Show me VT in a print shop. Nothing in a warehouse grows." | Rate M1-M11 TRUE/STRETCH/NONE; master only if M2, M3, M8 TRUE, at least 7 TRUE, and VT has an honest image; plus press-day vs reprint size check (`../scripts/ladder_pv.py`, `lab/L-02_results_22oct.json`) | IS; PA; CP | done 24 Oct ([L-03](lab/L-03_print_run_map.md)): 5 TRUE, 5 STRETCH, 1 NONE; per lasting 1-point fall +$31,361 press day vs $10,836 reprints (22 Oct, MODEL) | PARK: risk image for Monday, not the master motif |
