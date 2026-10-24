@@ -30,6 +30,8 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
   (or `/keel next`): one board card per run, checking work only until 7 Nov, never decides for Caplet. Routines: `keel/pm/ROUTINES.md`.
 
 ## Current status (2026-10-14) - read this before the older sections below
+- 24 Oct (afternoon): Keel's second IPS pass, K1-K5 on top of the morning's E1-E12 (`keel/rooms/long_room/2026-10-24_IPS_edits_v2.md`;
+  IPS 494 strict, pitch 47). Key fix: the shortfall line's timing (gap priced and set aside before the 2033 gift). Suggestions only.
 - Wharton Week 4 email (filed 22 Oct): `competition/official/2026_27/wharton_email_week4_2026-10.md`. IPS is now an
   SMApply FORM, not a PDF ("all other requirements remain the same"); TIPS and STRIPS explicitly banned for both
   contributions, in the IPS and the Final Report.
