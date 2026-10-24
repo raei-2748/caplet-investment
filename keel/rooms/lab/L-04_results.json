@@ -1,0 +1,28 @@
+{
+ "1871-2011": {
+  "start_years": 141,
+  "P_shortfall_yields_fall_1pt_for_good": 0.234,
+  "P_costs_rise_over_3.5pct_quote_to_gift": 0.291,
+  "P_both": 0.05,
+  "P_both_if_independent": 0.068,
+  "P_shortfall_and_build_years_over_3.5pct": 0.035,
+  "P_costs_rise_given_shortfall": 0.212,
+  "P_costs_rise_given_no_shortfall": 0.315,
+  "corr_yield_change_vs_quote_to_gift_inflation": 0.215,
+  "mean_quote_to_gift_inflation_worst_fifth_yield_paths": 0.024,
+  "mean_quote_to_gift_inflation_other_paths": 0.0229
+ },
+ "1954-2011": {
+  "start_years": 58,
+  "P_shortfall_yields_fall_1pt_for_good": 0.431,
+  "P_costs_rise_over_3.5pct_quote_to_gift": 0.379,
+  "P_both": 0.086,
+  "P_both_if_independent": 0.163,
+  "P_shortfall_and_build_years_over_3.5pct": 0.069,
+  "P_costs_rise_given_shortfall": 0.2,
+  "P_costs_rise_given_no_shortfall": 0.515,
+  "corr_yield_change_vs_quote_to_gift_inflation": 0.422,
+  "mean_quote_to_gift_inflation_worst_fifth_yield_paths": 0.034,
+  "mean_quote_to_gift_inflation_other_paths": 0.0384
+ }
+}

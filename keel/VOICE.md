@@ -88,6 +88,19 @@ These mark text as machine-written. None leaves the room. The right column is th
 | Synonym cycling | "Laura… the client… the philanthropist… she" | "Laura" or "she". Same thing, same word |
 | Glossy praise of the plan | "an elegant, robust, well-diversified solution" | Let the reader judge: state what it does and what it gave up |
 
+## Ray's own essay voice (24 Oct 2026: analysis only, no essay text in the repo)
+Ray shared three of his essays in the project chat as voice inspiration. What they do that our drafts don't
+(Writing Room, L-05; the essays stay in the chat):
+1. **A long sentence, then a blunt short one** (or two). AI keeps every sentence the same middling length.
+2. **Concede, then turn.** A sentence grants the other side its appeal; the next one opens on "But".
+3. **Beat an objection with a distinction**, not a pile of evidence: separate the two things it runs together.
+4. **Define once, plainly, then use the word** without fuss.
+5. **Hedges are rare and single.** One qualifier, once; the verdict stays flat.
+6. **Wit lives in headings and the odd dry phrase** (puns on familiar sayings), while the body argues straight.
+7. **Spaced en dashes for asides, British spelling**, a slightly formal register that never goes stiff.
+8. **How he would cut** (his 24 Oct note): take out a whole repeated idea; don't squeeze a sentence shorter.
+Use with the base above: Ahaan's plainness wins in the IPS form; Ray's headings and kickers suit the Final Report.
+
 ## Before it leaves the room (every draft, every episode, every `/keel` answer)
 Read it once as a stranger, then answer six questions. One "no" sends it back. None of them is a reason to soften
 a true claim (see "Confidence is the voice").

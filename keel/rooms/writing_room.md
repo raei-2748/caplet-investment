@@ -14,6 +14,7 @@
 | Date | Draft checked | Counts (strict) | Hard issues | Memo |
 |---|---|---|---|---|
 | Sat 24 Oct | IPS edits v2 (E1-E12 + K1-K5) | pitch 47; IPS 494; +A 508; +A +package 1 +fix 2 = 467 | 4: option A over 500; K4 dates; "secures"; "bond" for ETFs | `../office/outbox/2026-10-24_writing-room_option-a-cut.md` |
+| Sat 24 Oct (evening) | IPS v3 (v2 + Lab C1-C3, roots-free, [NAME] placeholder) | pitch 45; IPS 471 (467 by spaces); 0 overclaim; 2 en dashes | K4 dates and "holding" fixed; option A now fits under 500 with no cut; pitch "held to maturity" loose for ETFs; 2 lines flagged as still AI-sounding, both rewritten | `lab/L-05_ips_push/ips_v3.md`, `/mnt/project-files/ips/IPS_edits_v3_2026-10-24.md` |
 
 ## Tool changes
 - 24 Oct: `textcheck.py` overclaim list now also catches "secures" and "guarantees" (it matched whole words only, so
