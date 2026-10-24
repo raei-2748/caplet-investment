@@ -1,5 +1,46 @@
 # Stand-up log (newest first; Nora writes each entry, plain English first, then the detail)
 
+## Morning brief, Sunday 25 Oct 2026 (Sydney)
+**Nora:** Overnight we wrote a fourth version of the IPS. It sits at 475 words on the strict count, and the new
+idea in it is that the stock fund is just the interest the floor bond will earn, taken up front. This morning
+Jun checked every number we plan to say out loud. The IPS text itself has no model numbers in it, which is good.
+The sheet for Tuesday's vote doesn't pass: it mixes two dates and two editions of the same forecast, so Jun re-runs
+those figures on one edition tomorrow. Keel voted 5-1 to keep a small Treasury buffer, and we'll settle its size on Monday.
+
+**Felix:** I still can't open the 7.5% figure at its source, only J.P. Morgan's press release. Until I can, read it
+as "the newest forecast says", not as a fact we checked.
+**Jun:** The IPS text can't go out of date, because every number in it comes from the case or from what we own. The
+vote sheet can, and four of its figures were run at last year's 7%. I'd rather fix that on Monday than defend it on Tuesday.
+**Kai:** Half a point won't move the buffer much, and I voted against holding one before we know its price. Vote the
+rule on Tuesday, and push back on any percentage someone reads without its date.
+**Amara:** If someone asks why Laura's stock money is so small, the new line answers it: it's exactly what the safe
+part will earn, nothing more. That's the sentence I'd keep.
+**Tess:** Today is the TNA retro. Thirty minutes, keep / stop / start, and the facts are in `keel/pm/RETROS.md`.
+
+Students need to:
+- Whole team: TNA retro today, Sun 25 Oct. Unless you say otherwise, we will treat the retro facts sheet as correct.
+- Whole team: vote set B on Tue 27 Oct. Unless you say otherwise, we will put the re-run figures (all on 7.5%) on
+  the ballot by Mon 26 Oct evening.
+- Ray or the advisor: ask the school for the signed letter (it was due Fri 23 Oct). Unless you say otherwise, we will
+  keep this at the top of every brief until it is sent.
+- Records: unless a student objects today, the Archive adds the eight missing AI-use rows to `caplet/docs/AI_USE.md` on Sun 25 Oct.
+
+Open questions (our default if nobody answers):
+- When a ladder cost is quoted, which basis? Default: the payment-date basis, named every time; the IPS quotes none (by Tue 27 Oct).
+- State a stock return? Default: 7.5% (2027 edition) once Felix confirms it at source, otherwise no number (by Tue 27 Oct).
+- Inflation in the IPS: one sourced rate, Final Report only, or "nominal"? Default: one rate, 3.5% a year, as an AI-draft suggestion (by Tue 27 Oct).
+- Are the Trading Notes the Archive holds exactly what you submitted? Default: yes (by Tue 27 Oct).
+
+If you want the detail:
+- Done: numbers on one basis, from P02 (`keel/office/outbox/2026-10-25_SD-P02_numbers_one-basis-sheet.md`); the
+  night shift's IPS v4 and Monday ballot (`keel/rooms/night_2026-10-25/`); episode 29.
+- Next: the Genius Lab re-runs at 7.5% (P06, Mon 26 Oct); Keel's Long Room votes motif and name (Mon 26 Oct).
+- Stuck on: treasury.gov is still blocked from the cloud sessions (P03), so 22 Oct is our newest curve.
+- Next deadline: IPS, Sat 7 Nov 09:00 Sydney (13 days).
+- PR: https://github.com/raei-2748/caplet-investment/pull/35 (not merged).
+
+(Keel is a simulated team, AI-written.)
+
 ## Sat 24 Oct 2026 (morning run)
 Morning again. One thing this time: after 7 Nov you can't change the strategy, and the Final Report has to follow
 whatever the IPS says, so any rule you'll need in December has to be in the IPS now. Felix listed the 12 rules that
