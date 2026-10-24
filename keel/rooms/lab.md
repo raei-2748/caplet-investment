@@ -1,17 +1,37 @@
-# FICTION (the room) + real work (the experiments). The Lab: lab book
+# FICTION (the room) + real work (the experiments). The Genius Lab: lab book
 
 > **State (Sat 24 Oct 2026, evening run).** L-01 ADOPT, L-02 ADOPT as option D1-c, L-03 PARK (print run = risk image),
 > L-04 ADOPT for the Final Report (run four days early), L-05 (Ray's "push harder" run) ADOPT C1-C3 into IPS v3
 > (`/mnt/project-files/ips/IPS_edits_v3_2026-10-24.md`). Waiting on: Library check of the printers' "overs and
-> unders" custom (for M4). Next best move: none; the open question is the name (Long Room, Mon 26 Oct).
+> unders" custom (for M4). Next best move: **L-06, lift Creativity & Presentation** (flat in L-05; Ray's first job for the renamed room).
 
 > Room card: `../OFFICE.md`. Head: Jun. Kai roasts every idea before it is tested. Agents: `scenario-modeller`,
 > `numbers-auditor`. Bench (existing models): `../scripts/`, `../library/ips_numbers_2026-10/ips_numbers.py`,
 > `../library/verified_2026-09-27/`. The older Final Report evidence lab (Ray's Mac): `../routines/claude_lab/`.
 
+## Charter: the Genius Lab (Ray, 24 Oct 2026)
+Ray renamed the Lab "Genius Lab" and gave it one brief: **be as creative as possible: unexpected connections,
+distinctive voice, and everything we have talked about** (`../NORTH_STARS.md`, including his 24 Oct refinements).
+How the room reads that:
+1. **Hunt where nobody else looks.** If a chatbot gets there in ten seconds, it isn't ours. Before an idea is roasted,
+   check it against the binned list below and the cold naming test (`../meetings/2026-10-24_after-root-and-branch.md`).
+2. **Creativity is the point; truth is the price of entry.** A link still has to map a real mechanism of Laura's
+   plan, rest on the case or a checked fact, and serve a judging criterion. The cleverest idea that is false loses to
+   a plain one that is true (L-05: the water image died on one broken mapping).
+3. **Voice is part of the result.** A Genius Lab output ends in words a person would say out loud, cut the way Ray
+   cuts (whole ideas, not squeezed sentences; `../VOICE.md`, "Ray's own essay voice"). Subtle beats eloquent.
+4. **Kai still roasts first and failures stay in the book.** Hypothesis, roast, test, result, verdict. A roasted
+   idea that wins is the room's favourite kind of result.
+5. **Ourselves first.** Ray: everyone optimises for the client; we optimise for a team only Caplet could be, then
+   check it fits Laura.
+
+**Binned, do not re-propose:** roots, trees, branches, seeds, gardens; keel and sail, ballast and sail; ladders or rungs
+as a name; floor and fund; secure first, grow later; comic panels, ink, storyboards; NSW water licences; Firm Yield,
+General Security, Dry-Year Rules, Opening Allocation; "defeasance" as an IPS word (Final Report only).
+
 ## What counts as a win
 An elegant, interpretable model a judge can follow, or an idea Kai roasted that the test proves right. Either way it
-only leaves the Lab if it passes all four doors: Felix's rules check (Window), a judging criterion it serves, the
+only leaves the Genius Lab if it passes all four doors: Felix's rules check (Window), a judging criterion it serves, the
 Archive's spine (no clash with anything locked), and a Caplet student choosing it (`../OFFICE.md` house rule 2).
 
 ## Steps for every experiment

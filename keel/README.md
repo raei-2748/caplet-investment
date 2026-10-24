@@ -29,7 +29,7 @@ in which room are in **`OFFICE.md`** (diagram `office/office_map.svg`). The old 
 |---|---|---|---|
 | **Nora Haddad** | Team leader | The Noticeboard (Long Room chair, Courtroom bench) | `chief-of-staff`, `coherence-checker`, `mock-judge` |
 | **Felix Wong** | Rules and sources | The Window (Library, Trading Desk) | `rules-verifier`, `integrity-officer`, `fact-checker` |
-| **Jun Park** | Numbers | The Lab (Trading Desk) | `ladder-pricer`, `numbers-auditor`, `scenario-modeller` |
+| **Jun Park** | Numbers | The Genius Lab (Trading Desk) | `ladder-pricer`, `numbers-auditor`, `scenario-modeller` |
 | **Kai Tran** | Contrarian and trader | The Trading Desk (Courtroom, Lab, Library) | `devils-advocate`, `trade-checker` |
 | **Amara Singh** | Client lead | Laura's Room (Writing Room, Kitchen) | `case-analyst`, `cosponsor-reader`, `taiwan-researcher` |
 | **Tess Bell** | Editor and team memory | The Writing Room (Archive, Rooftop) | `format-gatekeeper`, `final-report-planner`, `evidence-archivist`, `ai-use-recorder` |

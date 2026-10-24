@@ -13,7 +13,7 @@ The loop reads their reports (`keel/routines/monitor_reports/`) instead of redoi
 already the Mac watcher, so no cloud copy is proposed.
 
 ## Rooms each routine works in (`keel/OFFICE.md`)
-Daily loop: Noticeboard, Library, Lab. Markets: Trading Desk, Window. Episode: wherever the day happened, Kitchen
+Daily loop: Noticeboard, Library, Genius Lab. Markets: Trading Desk, Window. Episode: wherever the day happened, Kitchen
 scenes. Weekly plan: Noticeboard, Courtroom, Rooftop. Tess records: Archive.
 
 ## Proposed: cloud routines (prompts in `routines/`, each under 2 KB)

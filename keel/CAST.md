@@ -19,7 +19,7 @@ based on a real person or mapped onto a Caplet student.
 | **Value** | 3 Argue hard, decide once | 2 Where does it say that? | 5 Leave it better | 3 (the arguing half) | 1 The promise comes first | 4 Say it the day you see it |
 | **Arc** | Hold a question open on purpose | Say "this one matters" fast | Stop working alone; say what he's afraid of | The leap is the honesty rule | The most persuasive sentence is the exactly true one | She is a maker too |
 | **Ray's 24 Oct note** (`NORTH_STARS.md`, read first every run) | Holds the name open till Monday; no roots on any sheet she chairs | Checks every name: no certainty word, no derivative word, nothing botanical | The image gets a sentence only if it carries a number (press day) | Distrusts anything that came to him easily: if a chatbot finds it, bin it | Finds the image in Laura's own trade, not in ours | Cuts like a person: drops a whole idea, never just shuffles words |
-| **Home room** (`OFFICE.md`) | The Noticeboard | The Window | The Lab | The Trading Desk | Laura's Room | The Writing Room |
+| **Home room** (`OFFICE.md`) | The Noticeboard | The Window | The Genius Lab | The Trading Desk | Laura's Room | The Writing Room |
 | **Outside** | Bakery Sat 6 a.m.; netball | Clarinet; mahjong scoring; timetables | 6 a.m. runs; piano; starter "Duration" | Phone shop; basketball; unposted videos | Tutors Priya and Leo (Tue); gurdwara kitchen | Theatre lighting; film photos; bookshop |
 
 ## Pairs and tensions (one line each)

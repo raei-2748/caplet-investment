@@ -52,15 +52,15 @@ promote its own Proposed card to Ready next run if it is checking work of 1 page
 Anything else (new research, a draft for submission, any decision, anything costing a student's time) waits for a
 Caplet tick (a student writes "OK" in the card's Notes column or says so in chat).
 
-## 6b. The Library and the Lab (every run, small; skip either if nothing is worth it)
+## 6b. The Library and the Genius Lab (every run, small; skip either if nothing is worth it)
 - **Library:** add at most one slip to `keel/rooms/library.md`: a real source (often not finance) and "this reminds
   me of Laura's plan because...", tested part for part by Felix and Kai, verdict KEEP / PARK / DROP. To hunt for an
   idea use the ideation ladder (`keel/office/IDEATION.md`, PR #25): Haiku 5.5 wide, Sonnet 5.5 only if nothing is
   kept, Opus 5.5 only if still nothing. "Nothing kept" is a good result.
-- **Lab:** move at most one experiment in `keel/rooms/lab.md` one step (hypothesis, Kai's roast, test, result,
+- **Genius Lab:** move at most one experiment in `keel/rooms/lab.md` one step (hypothesis, Kai's roast, test, result,
   verdict ADOPT / PARK / BIN), on existing scripts and data, with `numbers-auditor` re-deriving any headline number.
   Keep failures in the book.
-- **Quiet period until Sat 7 Nov 09:00 Sydney:** Lab experiments and Library slips must bear on the IPS (pitch,
+- **Quiet period until Sat 7 Nov 09:00 Sydney:** Genius Lab experiments and Library slips must bear on the IPS (pitch,
   framing, numbers it quotes). Anything else goes in as "waits for OK" until Ray approves it.
 - A KEEP or ADOPT reaches Caplet only as a Proposed card (step 6) that names the judging criterion it serves and
   passes Felix's rules check; students choose and write it themselves.

@@ -8,7 +8,7 @@ W, H = 1400, 980
 PEOPLE = {"Nora": "#7C3AED", "Felix": "#2563EB", "Jun": "#059669",
           "Kai": "#DC2626", "Amara": "#B45309", "Tess": "#DB2777"}
 SIM = "#6B7280"
-HOME = {"Nora": "THE NOTICEBOARD", "Felix": "THE WINDOW", "Jun": "THE LAB",
+HOME = {"Nora": "THE NOTICEBOARD", "Felix": "THE WINDOW", "Jun": "THE GENIUS LAB",
         "Kai": "THE TRADING DESK", "Amara": "LAURA'S ROOM", "Tess": "THE WRITING ROOM"}
 
 # (name, x, y, w, h, job lines, people [(name, role)], simulated visitors, agents, files, fill)
@@ -26,7 +26,7 @@ ROOMS = [
     ("THE LIBRARY", 30, 370, 250, 270, ["Wide reading, often not finance.", "\"This reminds me of Laura's", "plan because...\" (must hold up)"],
      [("Felix", "librarian"), ("Kai", "reading pile")], [],
      ["ideation ladder:", "Haiku > Sonnet > Opus"], "rooms/library.md, library/", "#DBEAFE"),
-    ("THE LAB", 300, 370, 250, 270, ["Experiments: hypothesis, roast,", "test, result, verdict.", "Failures are kept."],
+    ("THE GENIUS LAB", 300, 370, 250, 270, ["Unexpected connections, roasted", "then tested. Adopt, park or bin.", "Failures are kept."],
      [("Jun", "head"), ("Kai", "roasts")], [],
      ["scenario-modeller", "numbers-auditor"], "rooms/lab.md, scripts/", "#D1FAE5"),
     ("THE TRADING DESK", 570, 370, 250, 270, ["Market check, rules check,", "every order checked first"],
@@ -110,7 +110,7 @@ def main():
                  + text(lx + 22, ly, "simulated visitor (a test, never a quote)", 12, fill=SIM))
     parts.append(text(30, ly + 26, "Outside the Window: Caplet's six students (real). They ask (/keel, /office), vote, rewrite in their own words "
                       "and submit; only Ray trades. Keel proposes, Caplet decides.", 12, fill="#111827"))
-    parts.append(text(30, ly + 48, "Quiet period until Sat 7 Nov 09:00 Sydney: the Lab and the Library work only on the IPS. Nothing leaves "
+    parts.append(text(30, ly + 48, "Quiet period until Sat 7 Nov 09:00 Sydney: the Genius Lab and the Library work only on the IPS. Nothing leaves "
                       "the Office for a deliverable without Felix's rules check, a judging criterion and a student's own words.", 12, fill="#111827"))
     parts.append("</svg>")
     OUT.write_text("\n".join(parts) + "\n")

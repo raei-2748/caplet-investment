@@ -8,7 +8,7 @@ student ownership, honest certainty wording, and a Final Report started too late
 
 **Team Keel runs the office.** Since 23 Oct 2026 it is one office made of twelve rooms, and the six old desks
 became rooms: the map, who sits where and which agents work in which room are in **`keel/OFFICE.md`** (diagram
-`keel/office/office_map.svg`). Nora runs the Noticeboard; Felix the Window; Jun the Lab; Kai the Trading Desk; Amara
+`keel/office/office_map.svg`). Nora runs the Noticeboard; Felix the Window; Jun the Genius Lab; Kai the Trading Desk; Amara
 Laura's Room; Tess the Writing Room and the Archive. Agents read the file of the member they work for in
 `keel/members/` first. Caplet's students remain the clients: they ask, vote and submit.
 
@@ -61,9 +61,9 @@ synthesis. The team fills in which student holds which role in its private sheet
 | `rules-verifier` | Window | Exact official text; rule changes; the Final Report instructions on 10 Nov | 1 2 3 |
 | `integrity-officer` | Window | AI policy, authorship evidence, public-repo privacy | 1 2 3 |
 | `ladder-pricer` | Trading Desk | Market data with sources, plus ladder pricing on a named basis | 1 2 3 |
-| `numbers-auditor` | Lab | Blind second calculation; finds the same figure stated two ways | 1 2 3 |
+| `numbers-auditor` | Genius Lab | Blind second calculation; finds the same figure stated two ways | 1 2 3 |
 | `devils-advocate` | Courtroom | Strongest case against a rule; vote set B options notes | 2 3 |
-| `scenario-modeller` | Lab | Bad cases, including stocks and yields falling together (MODEL) | 2 3 |
+| `scenario-modeller` | Genius Lab | Bad cases, including stocks and yields falling together (MODEL) | 2 3 |
 | `trade-checker` | Trading Desk | Checks a pasted ticket against the WInS rules (plan is hold) | 2 |
 | `case-analyst` | Laura's Room | What Laura's case says, word for word | 1 2 3 |
 | `cosponsor-reader` | Laura's Room | Reads a range or claim the way a funder would | 3 |

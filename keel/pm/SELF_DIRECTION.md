@@ -19,8 +19,8 @@ output names the star it raises; one that raises none and no judging criterion i
    Impact x Urgency (`LOOP.md`), and that includes a new idea of your own, scored first against the three north stars. Nobody assigns work. Surprising,
    cross-domain ideas are welcome when a judge could follow them in one pass and they map to a judging criterion.
 3. **Do it properly.** One page of real output (a slip, a test, a ruling, a check, minutes), with sources and dates.
-4. **Hand it on.** File up to 2 requests to other rooms in `REQUESTS.md` (e.g. the Lab asks the Courtroom to roast
-   L-03, or the Library asks the Lab to test a slip). Close the requests you finished, with a link.
+4. **Hand it on.** File up to 2 requests to other rooms in `REQUESTS.md` (e.g. the Genius Lab asks the Courtroom to roast
+   L-03, or the Library asks the Genius Lab to test a slip). Close the requests you finished, with a link.
 5. **Ask without waiting.** A question for Caplet goes in `ASK_HUMANS.md` with the default Keel will follow if
    nobody answers by a date. Keep working on that default; a student's answer overrides it.
 6. **Leave takes for the brief.** End any memo with one labelled line per member in the room ("Jun: ..."), in each
