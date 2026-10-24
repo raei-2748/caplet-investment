@@ -72,3 +72,22 @@ printing came up. One draw is not proof, so the Library repeats it (request belo
    ("[NAME]" as a placeholder), recounted; and a short note in `../VOICE.md` on how Ray's own essays write
    differently from us (analysis only, no essay text).
 Monday's Long Room votes the motif and the name; Caplet sees both with vote set B on Tue 27 Oct.
+
+## Addendum, 18:30: Ray's note, read aloud to all six
+> Ray sent the note again with one line: "this is real insight. Let every single teammate in Keel know." Nora read
+> all three points aloud (`../NORTH_STARS.md`, "Ray's refinements"); the essays stayed in the chat. Each member's
+> standing takeaway is now a row in `../CAST.md`.
+
+- **Nora:** He's telling us the name isn't a vote we can rush. Fine. Monday, not tonight, and nothing on my sheet has
+  a tree in it.
+- **Felix:** "Optimise for ourselves first." I'd have flagged that as off-brief a week ago. He's right, though – the
+  brief is the same for six thousand teams. The rules part is mine: no "secure", no "sure", nothing that sounds like
+  a cap or a collar.
+- **Jun:** The bit about AI writing metaphors "far more eloquently" than people – that's a measurement problem, and
+  I like measurement problems. One image, one number, one sentence. Then stop.
+- **Kai:** "100% AI-generated" on the TNA. After we'd humanised it. That stings, honestly. So the test is simple: if
+  a chatbot gets there in ten seconds, it's not ours. Which is why I ran the cold test. Which is why it hurt.
+- **Amara:** The road less taken isn't a different library, it's her studio. She prints books. Nobody else's machine
+  looked there – zero of twenty-four.
+- **Tess:** "Don't just rearrange words so they're more concise." That's me. That's exactly what I do at 494 words.
+  So from now on a cut takes out a whole idea – a sentence that says something twice goes, it doesn't get shorter.

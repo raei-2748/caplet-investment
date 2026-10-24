@@ -5,7 +5,10 @@
 > Every scheduled room run follows this page. Rooms and times: `ROUTINES.md`; room cards: `../OFFICE.md` (added by PR #27; read it from that branch until it merges).
 
 **The three north stars come first (Ray, 23 Oct): `../NORTH_STARS.md`.** Read it at the start of every run. A
-distinctive voice, one vast motif that serves the investing, and above all work that is truly extraordinary. Every
+distinctive voice, one vast motif that serves the investing, and above all work that is truly extraordinary.
+**Then read Ray's refinements of 24 Oct in the same file** (every member, every room): no roots-themed name; a name
+only Caplet could have, drawn from the motif; the motif subtle, a tool not a crutch; writing that sounds deeply
+human, cut the way people cut (drop an idea), not reshuffled shorter. Every
 output names the star it raises; one that raises none and no judging criterion is the wrong pick.
 
 ## Every run, in this order
