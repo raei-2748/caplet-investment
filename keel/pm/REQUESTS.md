@@ -6,7 +6,7 @@
 ## Open
 | Filed (Sydney) | From | To | Ask | Why it matters (criterion) | Wanted by |
 |---|---|---|---|---|---|
-| Sat 24 Oct | The Rooftop (Tess) | The Noticeboard (Nora) | Promote P02 ("numbers on one basis", Jun) to Ready, due Tue 27 Oct, with a "source edition" column, so every number in the IPS working copy can carry its source and date in the margin (struck before pasting) | Four of five fixes this week were our own dates/editions (`../office/outbox/2026-10-24_rooftop_our-own-dates.md`); IS | Tue 27 Oct |
+| Sun 25 Oct | The Noticeboard (Nora) | The Genius Lab (Jun) | Card P06: re-run 9.0%, 2.9%, 29% and ~$140k at 7.5% (2027 edition), existing scripts, old and new side by side; if the Library cannot confirm 7.5% at source, say so and keep both | Tuesday's sheet on one edition; Archive A1; IS, PA | Mon 26 Oct |
 | Sat 24 Oct | The Rooftop (Tess) | Long Room (Nora) | Monday's name session: each finalist gets one line, "what this says about Caplet that no other team could claim" (Ray, 24 Oct: optimise for ourselves first) | North stars 1 and 3; title page + pitch | Mon 26 Oct |
 | Sat 24 Oct | The Archive (Tess) | The Library (Felix) | Check only: J.P. Morgan 2027 LTCMA at source (the matrix, not the press release): the AC World / global equity compound return in USD. If 7.5%, the submitted VT reflection stands and the 21 Oct teardown's FALSE verdict is superseded; if not, say what the matrix shows | Archive A1; a submitted line vs the IPS's number; PA, rules (verified sources) | Tue 27 Oct |
 | Sat 24 Oct | The Archive (Tess) | The Writing Room (Tess, Amara) | Before Tuesday's sheet, run the IPS text going to the vote against Archive A1, A2, A4: no stock return except 7.5% (2027 edition); inflation on Taiwan costs only, never a payment; holdings replaced only when unavailable, never on price | Coherence with the locked TNA; all three deliverables are judged together | Tue 27 Oct |
@@ -20,6 +20,7 @@
 ## Done
 | Filed | From | To | Ask | Closed (date, link) |
 |---|---|---|---|---|
+| Sat 24 Oct | The Rooftop (Tess) | The Noticeboard (Nora) | Promote P02 with a source-edition column | Sun 25 Oct: done the same run (promoted and delivered), `../office/outbox/2026-10-25_SD-P02_numbers_one-basis-sheet.md` |
 | Sat 24 Oct | Long Room | The Library | Repeat the cold naming test (5 draws per model) | Sun 25 Oct: 120 names, no pill / pre-registration / press day; ink-pages variant binned, `../rooms/night_2026-10-25/library_cold_test.md` |
 | Sat 24 Oct | The Lab | The Library | Is printers' "overs and unders" a published custom? | Sun 25 Oct: PARTLY (one university policy says 10%; no trade-body text; never "typically 10%"), `../rooms/night_2026-10-25/library_checks.md` |
 | Sat 24 Oct | Laura's Room (Amara) | The Writing Room | If option A, which ~30 words come out to get back to 470? | Sat 24 Oct: two packages (38 and 40 words; 467/465 strict with fix 2), `../office/outbox/2026-10-24_writing-room_option-a-cut.md` |

@@ -5,7 +5,7 @@
 > Room wall, except "Relationships right now", which is Kitchen talk.
 
 The team's wall: plan, decision journal, open threads and how everyone is getting on. Updated by
-each daily episode. Last update: Episode 28, Sat 24 Oct 2026 (Sydney); first month backfilled (Ep 0-24) on 23 Oct.
+each daily episode. Last update: Episode 29, Sun 25 Oct 2026 (Sydney); first month backfilled (Ep 0-24) on 23 Oct.
 Setting and time: `WORLD.md`. Values: `CULTURE.md`. Cast: `CAST.md`. Arcs: `ARCS.md`. Ideas: `IDEAS.md`. Timeline: `episodes/INDEX.md`.
 
 ## Keel's plan (their own; not Caplet's)
@@ -77,10 +77,11 @@ co-sponsor a number she doesn't already own."**
 | 24 Oct | Buffer size decided with the sail in one vote | Nora | Both come out of the 2028 deposit (Ep 27) |
 | 24 Oct | The half Laura keeps gets one ranked sentence: payments first | Tess, Amara | Courtroom: one pot, three jobs (Ep 27) |
 | 24 Oct | Freeze list adopted: every Final Report job maps to an IPS sentence; review rule added (substitute a Treasury maturing earlier, 20 words or fewer) | Felix; Amara, Tess | Line 73: no strategy change after the deadline; v1 had no rule for a holding that disappears (Ep 28) |
+| 25 Oct | Treasury buffer from the 2028 deposit, ahead of the floor in the shortfall order (5-1, Kai against); size on one edition Mon 26 Oct | All; Nora | Buffer figures ran at 7.0%, sail at 7.5%: vote "whether" now, "how much" after one re-run (Ep 29) |
 | 24 Oct | Root & Branch out (Ray's call); no roots, trees, branches or "keel and sail" in any Caplet suggestion; print run is Monday's default motif, used sparingly (3-2-1) | All; Nora | Cold naming test: 3 models, 24 names, roots in 2, ladders in 3, our own "Ballast and Sail" in 1, print in 0 (`meetings/2026-10-24_after-root-and-branch.md`) |
 
 ## Open threads
-- How big is the sail, and how big the buffer? Same 2028 money, one vote Sun 25 Oct (Ep 27); final 1 Nov.
+- How big is the sail, and how big the buffer? Rule voted 25 Oct; size Mon 26 Oct after one re-run on one edition (Ep 29); final 1 Nov.
 - Re-run Jun's numbers on a fresh Treasury curve (the site could not be reached on 23 Oct) and add a worst-historical-window check.
 - Ladder room $1,139 (4bp, MODEL, 22 Oct curve, payment-date basis); over $300k on the holdings basis. The January-gap rule is now the expected case.
 - Review rule (Amara, Mon 26 Oct): 20 words needed, 16 of room at 484; Tess finds the rest (Ep 28).
@@ -103,6 +104,7 @@ co-sponsor a number she doesn't already own."**
 - Nora and Kai: the 8 Oct truce holds. The sail vote on Sunday is its next test.
 - Tess said she was tired, in the Kitchen, and everyone agreed; Jun first (Ep 27).
 - Kai wrote his own losing verdict in the Lab; Jun answered with a can of Coke (Ep 27).
+- Jun told Nora the late nights are fear of a wrong number in public, then asked Kai to run Monday's numbers with him (Ep 29).
 
 ## Long Room log (Sydney date and minutes; room days; purpose)
 | Sydney | Minutes | Room days | Purpose | Who |

@@ -195,3 +195,9 @@ Script: `keel/scripts/sail_mc.py` (uses `ladder_pv.py` in the same folder). Inpu
 | Chance the ladder costs more than $300k on 1 Jan 2027 | about 30% (10 weeks of moves, 40bp sd); about 40% over a full year (90bp sd) (MODEL) | parallel normal yield shift, 90bp/yr vol = assumption, UNVERIFIED | `scripts/sail_mc.py` | 23 Oct |
 | Gap if short | mean $7.8k, p95 $13.8k, p99 $22.4k (10 weeks); -25/-50/-100bp: $1.3k/$8.9k/$24.7k (MODEL) | same | same | 23 Oct |
 | Cost of the gap to the sail | about $1.33 in 2033 per $1 of 2027 gap (1y at 4.52%, then 5y at 4.95%); mean gap = about $10k less sail (MODEL) | same | same | 23 Oct |
+
+### 25 Oct: one sheet (Ep 29)
+Buffer figures (9.0% of paths short; $10k buffer 2.9%) are MODEL on the 22 Oct curve at J.P. Morgan 2026 AC World
+7.00%, 16.78% vol (`keel/rooms/lab/L-02_buffer_run.py`). The 2027 edition says 7.5% (press release 19 Oct; matrix not
+read). Re-run both editions side by side Mon 26 Oct with Kai. Ladder cost: one basis named every time (payment-date).
+

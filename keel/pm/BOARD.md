@@ -1,7 +1,7 @@
 # Task board (real Caplet work; run by Keel)
 
 Rules: `LOOP.md`. WIP limit 3 in Doing. Priority P = Impact (1-3) x Urgency (1-3); pick 4 or more. Owner = a Keel
-desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sat 24 Oct 2026, 07:10 (morning run).
+desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sun 25 Oct 2026, 07:15 (morning run).
 
 **This week's top 3:** (1) vote set B Tue 27 Oct on the 22 Oct numbers (options ready: T04a-c done); (2) TNA retro Sun 25 Oct;
 (3) school letter requested (T18, was due Fri 23 Oct). New on 24 Oct: ladder room $1,139 (4bp), so D1 and D3 now decide real money.
@@ -13,6 +13,7 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sat 24 Oct 202
 ## Ready (ranked)
 | ID | Task | Owner | Due | P | Done when | Notes |
 |---|---|---|---|---|---|---|
+| P06 | Re-run the four MODEL tail figures (9.0%, 2.9%, 29%, ~$140k) at the 2027 J.P. Morgan 7.5% so the vote copy is on one edition | Jun (Genius Lab; numbers-auditor) | Mon 26 Oct | 6 | Old and new values side by side, one table, existing scripts only | SD-P02 table B; promoted by the Noticeboard (checking work, quiet period) |
 | T22 | Re-run the T05 rule checklist on the students' IPS draft | Felix (rules-verifier) | Sat 31 Oct | 6 | All 12 rows OK or flagged on the new draft | Waits for T13 draft; checklist SD-T05 |
 | T07 | Coherence check: IPS draft vs the TNA reflections and the 11 filed notes | Nora (coherence-checker) | Sun 1 Nov | 2 | One page, contradictions listed with line refs | Waits for T13 draft |
 | T08 | Mock-judge panel on the IPS, after the human scores are logged | Nora (mock-judge; `office-judge-panel`) | Mon 2 Nov | 2 | Scores per criterion + the weakest line | CHARTER 6: humans score first |
@@ -42,11 +43,11 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sat 24 Oct 202
 | P03 | Let the cloud sessions reach home.treasury.gov (network allowlist), or run Jun's markets routine on Ray's Mac | Tonight's reprice stopped at the 22 Oct close: treasury.gov was refused by the network; R1 needs each new close | Ray (environment settings) | Proposed 24 Oct |
 | P04 | Final Report: one paragraph on why the back-ups are ordered and which one does not fall with yields (Library S-01, Lab L-02) | Portfolio Analysis; shows learning (the analogy broke and taught us something) | Kai + Felix | After the quiet period (Final Report) |
 | P05 | Final Report "rule trace" table: each December recommendation points to the IPS sentence it follows | Shows the Final Report implements a frozen strategy (Investment Strategy; IPS :75-76) | Felix + Tess | After the quiet period; built from SD-T05 |
-| P02 | One-page "numbers on one basis" sheet for the IPS and Final Report (each figure, date, script) | Pre-mortem cause 3: undated figures; lab items 01-05 still todo | Jun | Reuses `keel/library/ips_numbers_2026-10/` |
 
 ## Done
 | ID | Task | Owner | Done | Output |
 |---|---|---|---|---|
+| P02 | Numbers on one basis: every number in IPS v4 and the vote copy with source, edition/curve date, basis, label | Jun | Sun 25 Oct | `keel/office/outbox/2026-10-25_SD-P02_numbers_one-basis-sheet.md` |
 | T05 | IPS rule checklist: 12 rules the IPS must fix so the Final Report can follow; V5 checked | Felix | Sat 24 Oct | `keel/office/outbox/2026-10-24_SD-T05_rules_ips-rule-checklist.md` |
 | T06 | TNA retro fact sheet | Tess | Sat 24 Oct | `keel/pm/RETROS.md` (TNA facts) |
 | T03 | Reprice Laura's ladder on the newest curve, both bases | Jun | Sat 24 Oct | `keel/office/outbox/2026-10-24_SD-T03_numbers_ladder-22oct.md`; Lab L-01, L-02 |

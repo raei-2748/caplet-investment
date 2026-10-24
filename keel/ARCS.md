@@ -25,7 +25,7 @@ How much of Laura's money should be at risk, and what does "bold" mean in a plan
   VT trade and the 2.1% line Tess cut (Ep 25); Kai's five attacks, ending "more equity is not the leap" (Ep 26).
 - **Coming:** the sail vote (Sun 25 Oct), the final number (Sun 1 Nov). Kai learns that the bold idea is the honesty
   rule, and that his job is to make it true for the bonds Keel owns.
-- **Where it stands (24 Oct):** the buffer and the sail are the same 2028 money; one vote on Sunday (Ep 27).
+- **Where it stands (25 Oct):** buffer rule passed 5-1 (Kai against); the size of buffer and sail waits for one re-run on one edition, Mon 26 Oct (Ep 29).
 
 ### 2. Two captains (Nora and Kai)
 Nora decides fast; Kai thinks she closes questions before they are ready. Both are partly right.
@@ -34,7 +34,7 @@ Nora decides fast; Kai thinks she closes questions before they are ready. Both a
   the vote (Ep 10) and is proved right; the "argue hard, decide once" truce (Ep 11).
 - **Coming:** the IPS freeze, where a question Nora wants closed (the 2031 range wording) is one Kai is right to
   keep open. Nora learns to hold a question open on purpose; Kai learns to let a logged decision stand.
-- **Where it stands (24 Oct):** Nora deleted a decision she typed too early and handed Kai "a number to lose it with, or win it" (Ep 27).
+- **Where it stands (25 Oct):** Nora split "whether" from "how much"; Kai lost the first and wrote his own reason in the journal (Ep 29).
 
 ### 3. The folder (Amara and Tess)
 Tess cuts Amara's best lines because they are not yet true. Amara wants them back.
@@ -51,7 +51,7 @@ Jun has been working alone in the Long Room after the others sleep, which breaks
   afraid of?" (Ep 24).
 - **Coming:** Jun answers Nora's question in front of the team (it is about Hana, and about choosing his own path);
   the house rule changes so that nobody needs to work alone (a night shift of two).
-- **Where it stands (23 Oct):** Tess, Amara and Nora each know part of it; Jun owes Nora an answer this week.
+- **Where it stands (25 Oct):** Jun answered Nora: "afraid", of a wrong number in public; asked Kai to run Monday's numbers with him (Ep 29).
 
 ### 5. Two clocks (Felix)
 Felix is right and late. The Final Report instructions arrive at 01:00 Sydney on Tue 10 Nov with little time.
