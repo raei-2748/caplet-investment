@@ -26,7 +26,7 @@ How the room reads that:
    check it fits Laura.
 
 **Binned, do not re-propose:** roots, trees, branches, seeds, gardens; keel and sail, ballast and sail; ladders or rungs
-as a name; floor and fund; secure first, grow later; comic panels, ink, storyboards; NSW water licences; Firm Yield,
+as a name; floor and fund; secure first, grow later; comic panels, ink, storyboards, pencil, pages, drafts or manuscripts as the plan's image (cold test round 2, 25 Oct); NSW water licences; Firm Yield,
 General Security, Dry-Year Rules, Opening Allocation; "defeasance" as an IPS word (Final Report only).
 
 ## What counts as a win
