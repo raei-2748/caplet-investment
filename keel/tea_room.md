@@ -1,15 +1,17 @@
 # FICTION. Team Keel: the shared tea room
 
 The team's shared room: plan, decision journal, open threads and how everyone is getting on. Updated by
-each daily episode. Last update: Episode 3, Sat 24 Oct 2026 (Sydney).
+each daily episode. Last update: Episode 4, Sun 25 Oct 2026 (Sydney).
 
 ## Keel's plan (their own; not Caplet's)
-One sentence (Nora's current version): **"Buy Laura's promise first, then let what's left grow, and never tell a
-co-sponsor a number she doesn't already own."**
+One sentence (Nora's current version, 25 Oct): **"Buy Laura's promise first, the floor second and the sail last, and
+never tell a co-sponsor a number she doesn't already own."**
 - **Keel (the promise):** the ten $50k payments (2033-42) matched with WInS-listed Treasury bonds and Treasury
   ETFs bought from the 2027 $300k.
-- **Sail (growth):** whatever is left after the payments, mainly from the 2028 $150k, in broad stock ETFs.
-  Kai wants more of it than Jun does; the size is still open.
+- **Floor and sail (voted 25 Oct, 5-1):** the 2028 deposit first completes the ladder; of what is left, three quarters
+  buys the floor (a Treasury maturing just before 2033) and one quarter the sail (a broad world stock fund). A gap
+  shrinks both in proportion. On the 23 Oct close the floor would be about $141.8k (MODEL), so $150k is never quoted.
+- **IPS v2:** `drafts/IPS_v2.txt` (body 477 strict, pitch 50).
 - **2031 range:** bottom = what Laura already owns for the building; top = bottom + a stated share of the growth
   sleeve, with a confidence level Jun can defend.
 - WInS: built, trading done except possible small fixes. Only Kai places orders, after Felix's check. Any last fix
@@ -47,14 +49,16 @@ co-sponsor a number she doesn't already own."**
 | 24 Oct | Ladder cost quoted on the holdings basis only ($302,199 on 22 Oct, MODEL); $293,928 retired | Jun | Thursday's fall in yields put the real ladder $2,199 over $300k |
 | 24 Oct | IPS states the rule, not a dollar floor or range | Amara, Felix | Investment Policy :68-69; any figure is stale by January |
 | 24 Oct | Plan follows the Week 4 email on TIPS/STRIPS until Wharton is asked | Felix | Live FAQ now says "Individual TIPS/STRIPS" |
+| 25 Oct | Sail = one quarter of the 2028 money left after the ladder; floor = three quarters (5-1, Jun against) | All | Medians barely move with more stocks; a bigger floor makes the contribution co-sponsors hear larger and safer |
+| 25 Oct | IPS v2 adopted: certainty names the 2028 deposit; "a quarter" for "a minority"; overclaims cut | Tess, Amara | Mock judge's weakest sentence; strict count 477 |
+| 25 Oct | Never quote $150k as the floor; the 2031 bottom is what she owns that day | Amara, Jun | On the 23 Oct close the floor is about $141.8k (MODEL) |
 
 ## Open threads
-- **For Sunday's vote (25 Oct):** (1) 2028 deposit order = finish the ladder, then the floor, then the sail, so the
-  sail absorbs any gap (Jun, Kai); (2) certainty sentence names the 2028 deposit as the assumption for the 2033 rung
-  (Kai, Felix).
+- Who absorbs a coupon-reinvestment shortfall (floor, sail or Laura's half)? Jun, Wed 28 Oct (the judge's top fix).
+- Name the review dates in place of "dates we have named in advance". Nora, Sun 1 Nov.
+- Pitch is at 50 strict and doesn't say the 2028 money first finishes the ladder. Tess.
 - Could the coupon shortfall reach the floor after 2031? Amara wants it closed before the freeze.
 - Re-check the 22 Oct row against the 23 Oct close; confirm iBond maturity dates (assumed 15 Dec).
-- How big is the sail? Jun 25% vs Kai more; vote Sun 25 Oct, final 1 Nov.
 - Re-run Jun's numbers on a fresh Treasury curve (the site could not be reached on 23 Oct) and add a worst-historical-window check.
 - What exactly will the IPS form look like? (Felix checks SMApply when it opens.)
 - Amara's inflation research for the Final Report: Taiwan construction costs vs CPI (opens after the IPS).
@@ -63,6 +67,8 @@ co-sponsor a number she doesn't already own."**
 
 
 ## Relationships right now
+- Kai came to argue for 50% and argued himself out of it with Jun's own script; he won the vote anyway, with "a quarter".
+- Jun voted no and asked for his reason to be written down. Nobody minded; Amara answered it.
 - Kai won the argument he picked (the sentence, not the equity share) and said so; Nora made him write it down.
 - Jun corrected his own number before anyone else could, and retired it in public.
 - Amara lost a second line in two days (the 2031 range) but cut it herself; she wants it back in December.

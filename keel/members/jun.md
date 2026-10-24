@@ -164,3 +164,17 @@ Script: `keel/scripts/sail_mc.py` (uses `ladder_pv.py` in the same folder). Inpu
 
 Retired: $293,928 (true on 21 Oct, payment-date basis only). From now on, ladder costs are quoted on the holdings
 basis, with date and method. Re-check against the 23 Oct close when it posts.
+
+### 25 Oct: 23 Oct close and the sail vote (all MODEL)
+| Number | Value | Basis and inputs |
+|---|---|---|
+| Ladder, holdings basis, 23 Oct | $300,992; gap $992 (yields must rise 0.03 points); DV01 $293/bp; second method $300,390 | Forward rates to 1 Jan 2027; treasury.gov par CSV fetched 24 Oct 19:39 UTC, row 23 Oct |
+| Ladder, payment-date basis, 23 Oct | $297,636 (reference only, not for quoting) | Same |
+| 2028 money for floor and sail | $148,964 = $150,000 - $992 x 1.0444 | 1y par 4.44% |
+| Sail, 25% stocks (23 Oct) | p5/p50/p95 $171.4k/$194.0k/$233.7k; floor $141.8k | `scripts/sail_mc.py` method, 5y par 4.82% |
+| Sail, 20% stocks (23 Oct) | floor $151.2k; highest share with floor >= $150k: 20.6% | Same |
+| Chance any stock mix ends below all-bond | 38.7% (every mix) | Same |
+
+Retired: "25% keeps a $150k floor" (true only on the 21 Oct curve, payment-date basis). The vote chose a quarter
+anyway; my no vote is on what we say in 2031: the floor is whatever she owns that day, about $142k on today's prices.
+Open: who absorbs a coupon-reinvestment shortfall (by Wed 28 Oct).

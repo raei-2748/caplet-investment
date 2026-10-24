@@ -89,3 +89,16 @@ knows its own history.
 | 22 Oct | VT "is up 2.1% since we bought it" | Kai's VT reflection | "Do not focus on portfolio performance" (Week 4 email) | No |
 | 22 Oct | "In 2028 we may add TIPS to protect the residency against Taiwan's rising costs." | Amara's bond reflection | TIPS named as not permitted | Only the worry: as a Final Report assumption on facility costs |
 | 23 Oct | "...Laura can tell co-sponsors in 2031 that she will give between $150,000 and $200,000." | Amara's reflection | No model behind the number; the TNA instruction leaves facility amounts to the Final Report | Yes, in December, once Jun's model supports a range |
+
+### 25 Oct: IPS v2 cuts
+| Date | Line | From | Why cut | Can it come back? |
+|---|---|---|---|---|
+| 25 Oct | "If rates have fallen and the bonds cost more than $300,000, the gap is the first use of the 2028 deposit, before any stock is bought." | IPS v1, Principle 1 | Merged into the certainty sentence | No |
+| 25 Oct | "with different natures" | IPS v1, Goal | The next two sentences show the difference | No |
+| 25 Oct | "can only ever touch the hope, never the promise" | IPS v1, Goal | Overclaim; a risk to the promise remains | Softened: "touches the hope, not the promise" |
+| 25 Oct | "By construction" | IPS v1, Principle 3 | Overclaim | No |
+| 25 Oct | "naturally and holds less risk" | IPS v1, Reserve | Words needed for the fixes | Yes, in the Final Report |
+| 25 Oct | "Laura has always taken thoughtful risks" | IPS v1, Principle 2 | Stronger than the case ("been willing to take thoughtful risks") | No |
+| 25 Oct | "a minority of the fund" | IPS v1, Principle 2 | Not a policy a judge can hold us to; vote chose a quarter | No |
+
+Counts, IPS v2 (`drafts/IPS_v2.txt`): body 475 by spaces, 477 strict; pitch 49/50 (no spare word).

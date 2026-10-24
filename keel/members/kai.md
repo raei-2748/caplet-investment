@@ -140,3 +140,14 @@ bonds we own.
 The order is right (gap in the short 2033 bond, not the 2042 one). The sentence is wrong: "paid from bonds she already
 owns" isn't true for the 2033 payment until the 2028 deposit arrives. Fix: name the deposit as the assumption, and give
 the 2028 money an order (ladder, then floor, then sail).
+
+### 25 Oct: the motion that won (5-1)
+"The sail is one quarter of the 2028 money left after the ladder is complete." Floor and sail shrink together if
+there is a gap, so "a quarter" stays true for the bonds actually owned.
+
+| Date (Sydney) | What | So what for Laura | Action |
+|---|---|---|---|
+| 25 Oct | Treasury par curve, 23 Oct close: 5y 4.82, 10y 5.00 (+4bp), 20y 5.37 (+5bp) | Ladder $300,992 on the holdings basis, $992 over $300k (Jun, MODEL) | No WInS trade |
+
+What 25% gives up against 50% (21 Oct curve, MODEL): about $4-5k of median pot and about $47k at p95. What it buys:
+a floor about $50k higher, p5 about $19k higher, a bigger building contribution in the middle case.
