@@ -6,6 +6,8 @@
 
 | Asked (Sydney) | Room | Question | Keel's default if no answer | By | Answer (student, date) |
 |---|---|---|---|---|---|
+| Sat 24 Oct | The Archive (Tess) | Is the "Trading Notes" tab text, as the Archive holds it (`../rooms/archive.md`, read 24 Oct), exactly what you submitted on 23 Oct? Anything changed after you pasted it? | Yes: it is held as the locked TNA, and every new draft is checked against it | Tue 27 Oct | |
+| Sat 24 Oct | The Archive (Tess) | Your VT reflection says 7.5% (JPMorgan); IPS V5 says 7%. JPMorgan's 2027 edition (19 Oct) says 7.5%. If the IPS or Final Report states a stock return, use 7.5%? | Yes, 7.5% (2027 LTCMA), once the Library confirms it at source; otherwise no number at all | Tue 27 Oct | |
 | Sat 24 Oct | Long Room (Nora) | Ray: may Keel quote a few short lines from your three essays (24 Oct, chat) in `keel/VOICE.md` as voice examples (private repo), or analysis only? | Analysis only: no essay text goes in the repo | Mon 26 Oct | |
 | Sat 24 Oct | Laura's Room (Amara) | The case asks for our assumption about inflation's effect on facility costs (:146-147); the IPS only names the risk. Add one sourced rate (option A, ~+14 words), leave it to the Final Report (B), or state only that projections are nominal (C)? (SD-LR-01) | A: Keel's suggestions file carries an AI-draft sentence with the 3.5%/yr DGBAS rate; the Writing Room proposes the cut. Caplet writes the words | Tue 27 Oct | |
 | Sat 24 Oct | Rules (Felix) | The FAQ now bans "Individual" TIPS/STRIPS; the Week 4 email bans all TIPS/STRIPS. Which do we follow? (SD-R11) | The strict email reading; the IPS names neither; Ray adds one question to the T19 email to Wharton | Wed 28 Oct | |

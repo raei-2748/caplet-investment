@@ -43,7 +43,7 @@ for the member named in its file (`.claude/agents/<name>.md`, "Room" line).
 | **The Writing Room** | Drafts get the house voice (Ahaan's writing as the base); Tess cuts the fat and runs the counts | **Tess**, Amara (first drafts) | `format-gatekeeper`, `final-report-planner` | `VOICE.md`, `drafts/`, `office/tools/textcheck.py` |
 | **The Archive** | Every locked submission word for word, the narrative spine, the AI-use record. Nothing new may contradict it | Tess | `evidence-archivist`, `ai-use-recorder`, `coherence-checker` (works for Nora) | `rooms/archive.md`, `office/LEDGER.md` |
 | **The Kitchen** | Off duty: snacks, jokes, friendships, tensions; where some ideas slip out first | **Amara** keeps the thermos; everyone | none | the episodes; "Relationships right now" in `tea_room.md` |
-| **The Rooftop** | Once a week, the big picture: why are we doing this, what have we learned, who are we becoming? | Tess hosts; everyone | none | `rooms/rooftop.md` |
+| **The Rooftop** | Every two days (and Sundays), the big picture: why are we doing this, what have we learned, who are we becoming? | Tess hosts; everyone | none | `rooms/rooftop.md` |
 
 Outside the Window: **Caplet's six students** (real). They ask questions (`/keel`, `/office`), vote, rewrite in their
 own words and submit; only Ray trades. They never appear inside the Office as characters.
