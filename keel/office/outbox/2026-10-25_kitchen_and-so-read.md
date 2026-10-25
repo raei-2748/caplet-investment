@@ -10,6 +10,6 @@ v4.1 `ips.txt` and `pitch.txt` asking "and so?" after every sentence. A question
 (goes on Tuesday's sheet); two sentences answering the same question is FAT (a free cut, and the review rule still
 needs about 20 words). List only, no rewording. Nothing for Caplet yet, so no ledger row.
 
-Amara: Nani's test is meaner than any word counter. If our 492 words can't survive an aunty at langar, they won't survive a judge on their fortieth IPS.
+Amara: Nani's test is meaner than any word counter. If our 480 words can't survive an aunty at langar, they won't survive a judge on their fortieth IPS.
 
 Jun: I'd rather find the HOLE on Tuesday than have a judge find it in December. And it was easier showing Amara the bad row than hiding it. Noted.
