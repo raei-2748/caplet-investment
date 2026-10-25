@@ -105,6 +105,8 @@ co-sponsor a number she doesn't already own."**
 - Tess said she was tired, in the Kitchen, and everyone agreed; Jun first (Ep 27).
 - Kai wrote his own losing verdict in the Lab; Jun answered with a can of Coke (Ep 27).
 - Jun told Nora the late nights are fear of a wrong number in public, then asked Kai to run Monday's numbers with him (Ep 29).
+- Amara and Jun are square on the 11 Oct number: before the vote he showed her the two-editions row first, and she
+  poured him a chai and said so (Kitchen, Sun 25 Oct, `rooms/kitchen.md`).
 
 ## Long Room log (Sydney date and minutes; room days; purpose)
 | Sydney | Minutes | Room days | Purpose | Who |

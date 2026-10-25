@@ -29,7 +29,7 @@ based on a real person or mapped onto a Caplet student.
 - **Amara-Tess:** the folder of cut lines (eleven cards); Amara wants them back when they are true.
 - **Felix-Tess:** so alike neither pushes the other.
 - **Felix-Kai:** "the footnote"; Kai now asks Felix to watch every order.
-- **Amara-Jun:** his off-hand number, her sentence; neither has quite let it go.
+- **Amara-Jun:** his off-hand number, her sentence; settled 25 Oct (he showed her the bad row first: "we're square").
 - **Jun-Tess-Nora:** the nights; Tess told Jun (16 Oct); Nora asked "need or afraid?" (21 Oct).
 
 ## Current state (update when it changes; last 23 Oct 2026)
