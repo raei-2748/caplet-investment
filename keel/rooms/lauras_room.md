@@ -3,9 +3,11 @@
 > Room card: `../OFFICE.md`. Host: Amara ("What does she feel in a bad year?"). Agents: `case-analyst`,
 > `cosponsor-reader`, `taiwan-researcher` (Taiwan research opens Sun 8 Nov).
 
-> **State (Sat 24 Oct, afternoon run):** first visit done (SD-LR-01). Open: option A/B/C for the inflation rate (Caplet,
-> by Tue 27 Oct); Lab tests whether yield-fall shortfalls and inflation years coincide (Wed 28 Oct). Next visit: read the
-> next IPS draft or the vote set B result; test the D1 buffer wording on simulated Laura.
+> **State (Sun 25 Oct, 15:10 run):** visits SD-LR-01 (24 Oct), night visit to v3.1, SD-LR-02 on IPS v4 (floor break:
+> 0.75% of paths, ~$4k median, MODEL; 0.11% with D1's $10k buffer; `lauras_room/LR-02_floor_break.py`). L-04 (two
+> risks) answered by the Lab, closed. Open: option A/B/C for inflation (Caplet, Tue 27 Oct); D1 buffer vs "finish the
+> order in P5" (vote set B, Tue 27 Oct). Next visit: read the vote set B result or v5; test the chosen name and the
+> Final Report's co-sponsor range wording on simulated co-sponsors.
 
 ## Who appears here
 - **Laura (simulated).** Built only from her official case
@@ -26,3 +28,7 @@
 | Sat 24 Oct | same | Co-sponsor | Range holds in dollars, but 2031 to 2033 cost drift ~7.2% and TWD ~6.6% (1 sd) change what it buys; not an overpromise | :113-116 | Final Report co-sponsor text quotes the range "in US dollars" |
 | Sat 24 Oct | same | Laura | At p5 the half she keeps (~$12k) equals one two-year cost drift on the gift; is anything left for her? | :101-103 | Lab tests whether its two claims coincide (INFERRED: they rarely do) |
 | Sat 24 Oct (evening) | Lab L-05 candidates C1-C10 (`lab/L-05_ips_push/CANDIDATES.md`) | Laura, co-sponsor | C3 (reserve renamed, not rebuilt) and C2 (a rate fall lowers the floor, not a payment) are the two she would underline; "defeasance" impresses the statistics graduate but loses a co-sponsor unless glossed; the slowdown-and-her-fees line is presumptuous; the water image is our world, not hers | :94-97; :72-74; :101-103; :44-45 | C1 glossed (no jargon), C2, C3 into v3; C8, C9 binned (`lab/L-05_ips_push/lauras_room.md`) |
+| Sun 25 Oct (night) | v3.1 + names A/B/C (`night_2026-10-25/lauras_room.md`) | Laura, 2 co-sponsors | Floor "which sum?"; names C > A > B for Laura | :16; :114-116 | v4 change 3 (floor = the ETF's payout) |
+| Sun 25 Oct (15:10) | IPS v4 R + L-08 Extended Reserve | Co-sponsor 2 | "And if both run out?" P5 names two steps; the third is the quoted floor. MODEL: 0.75% of paths, median $4k | :91-92; :114-116 | D1 $10k buffer (0.11%) or "and last from the floor itself" (+6); SD-LR-02 |
+| Sun 25 Oct (15:10) | same, P3 | Co-sponsor 2 | Can't buy a fund now with interest earned by 2032 | :16 (Laura reads it fine) | "The rest, equal to the interest that ETF will earn," (+2) |
+| Sun 25 Oct (15:10) | same, L-08 | Co-sponsor 1, Laura | "Reserve" reassures; "six years early" true for 2027 | :94-95 | none |
