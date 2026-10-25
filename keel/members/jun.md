@@ -188,9 +188,10 @@ Open: who absorbs a coupon-reinvestment shortfall (by Wed 28 Oct).
 | Next-payment design (IPS v2 sentence read literally), -2pt | about $4.8k, mostly 2034; ladder cost $300,404; no iBond for 2033 | iBond income not yet modelled |
 | Rate paths | random walk 90bp/yr (assumed): p95 $14.4k; history replay (GS10 1953-2026): p95 $16.0k, worst $26.8k | Treasuries only |
 | Laura's kept half covers the -2pt shortfall | 91.1% of paths ($150k deposit); 24.9% at a $75k deposit; 0% at $0 | 25% sail, `sail_mc.py` method |
-| Whole sail covers it | 100% of paths ($150k deposit) | Same |
+| Whole sail covers it | 99.95% of paths ($150k deposit; lowest sail $11.8k) | Same |
 | Joint bad case (-2pt, stocks -40% then +7%) | kept half $12.0k; $4.4k from the gift; floor untouched | Deterministic |
 | Floor cut needed if the floor paid in advance | $10.5k-$16.4k (floor $141.8k to $131k-$125k) | 5y 4.82% |
-| Caplet's "~$21k" with Caplet's own method | $21,027 on 23 Oct = Treasuries $12.9k + iBonds $6.3k + bills $2.0k (cash when due) | `library/ips_numbers_2026-10/ips_numbers.py` |
+| Caplet's "~$21k" with Caplet's own method | $21,027 on 23 Oct = Treasuries $12.9k + iBonds $6.2k + bills $2.0k (cash when due) | `library/ips_numbers_2026-10/ips_numbers.py` |
 
+Scripts: `keel/scripts/coupon_shortfall.py`, `keel/scripts/coupon_payers.py`, `keel/scripts/caplet_shortfall_replica.py`.
 Open by Wed 28 Oct: price the next-payment design with iBond income, then choose the coupon rule.
