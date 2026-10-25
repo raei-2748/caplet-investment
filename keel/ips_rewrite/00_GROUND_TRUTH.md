@@ -31,7 +31,10 @@ AI-generated (Claude Code). Every new IPS line must survive this page.
   remaining assets could limit her financial flexibility as the project develops".
 - 2031: a credible dollar range + confidence; "A meaningful personal contribution may signal that the residency is
   financially viable, demonstrate Laura's commitment ... and make potential co-sponsors more willing to contribute";
-  "If Laura promises more than she can ultimately contribute, she could damage her credibility".
+  "If Laura promises more than she can ultimately contribute, she could damage her credibility"; "Rather than
+  promising one exact amount ... a credible range" (:115-116); explain "how favorable and unfavorable market outcomes
+  could affect the amount" (:118-119); "The proposed range must also protect the portfolio's ability to fund the
+  ten-year operating commitment" (:119-120).
 - "willing to take thoughtful risks"; wants "an appropriate balance between pursuing growth and protecting the capital
   required for her goals". Living costs outside the portfolio. degree in "Statistics & Information Decisions Management" (Wharton 2018), product manager,
   graphic novelist (The Wuhan I Know, Messy Roots), residency for artists, writers, designers, entrepreneurs, educators.
