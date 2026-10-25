@@ -1,5 +1,9 @@
 # FICTION (the room and the simulated parties) + real arguments. The Courtroom
 
+> **State (Sun 25 Oct 18:40 AEDT).** Last trial: D1 buffer vs "d alone" (C-01, AMENDED: buffer = lower quote with a name;
+> vote order-to-floor + quote margin; buffer moves to D5). Script `courtroom/C-01_buffer_vs_lower_quote.py`. Next: if
+> Monday's Long Room picks a name package, try it against v4.1; mock judges only after two students + outside reader score.
+
 > Room card: `../OFFICE.md`. Kai prosecutes (`devils-advocate`); Nora presides and runs the mock judges
 > (`mock-judge`, workflow `office-judge-panel`). Pre-mortems: `../pm/PREMORTEMS.md`.
 
@@ -29,4 +33,5 @@
 
 | Sat 24 Oct (evening) | Lab L-05 candidates C1-C10 for the IPS (`lab/L-05_ips_push/CANDIDATES.md`) | Kai: wrong word ("defeasance": ETFs pay a NAV), overclaim ("never shrink", "no forecast"), dodging the case ("confidence it falls within"), no citation possible (L-04), wrong against the draft (C8), a mapping that breaks and Caplet's world not Laura's (water) | 3 AMENDED, 7 STRUCK | C1-C3 into IPS v3; C5, C6 to the Final Report (`lab/L-05_ips_push/courtroom.md`) |
 | Sat 24 Oct (evening) | The C1-C3 package (Spinnaker, played by Kai): admits ~90% sits at ~5% for 15 years and names two leaks | Spinnaker's best case | UPHELD (the package is more defensible) | Two blows land: with ~$1.1k headroom "lowers the floor" is the expected case, so Caplet should own it; keep the one-issuer line on purpose |
+| Sun 25 Oct (evening) | D1 lean: $10k buffer from the 2028 deposit + payments before the floor; Laura's Room exhibit 0.75% -> 0.11% | Kai: the buffer is paid from the floor money, so floor, bottom and top all fall $10k; quoting $10k lower with no buffer gives the same 0.11%; payments are 100% covered under d either way (C-01, MODEL) | AMENDED | Vote two dials: d (P5 "+, and last from the floor itself") and a quote margin (P4 "+less a margin for coupon risk"); buffer = D5 question (`../office/outbox/2026-10-25_courtroom_d1-buffer-is-a-lower-quote.md`) |
 Mock judges sat once on 24 Oct, evening, on the Lab's candidates only (Keel's test, not a scoring of Caplet's draft: 25.2 -> 26.4/40). For Caplet's own draft, Caplet's scorers still mark first (`../office/CHARTER.md` section 6; board T14 Sun 1 Nov, T08 Mon 2 Nov).
