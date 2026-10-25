@@ -6,6 +6,7 @@
 
 | Asked (Sydney) | Room | Question | Keel's default if no answer | By | Answer (student, date) |
 |---|---|---|---|---|---|
+| Sun 25 Oct | The Library (Felix) | Anyone with a J.P. Morgan login (or who can open the 2027 LTCMA USD matrix, report pp. 68-75): is "AC World Equity" compound return 7.50 in USD? The public report says only "global equity ... 7.5%" (LC-02) | Cite "J.P. Morgan 2027 LTCMA, global equity, 7.5%" and never write "compound" or "ACWI" beside it | Sat 31 Oct | |
 | Sun 25 Oct | The Window (Felix) | Ray: next time you look at WInS (read-only), is a short-term Treasury ETF listed (search SGOV, BIL, SHV)? The IPS and two locked TNA notes say early-maturity cash "waits in a short-term Treasury ETF", and only WInS-listed ETFs are allowed | Keel assumes one is listed and keeps the IPS wording generic; the Final Report names no ticker until a student confirms one | Sat 31 Oct | |
 | Sun 25 Oct | The Noticeboard (Nora) | When a ladder cost is quoted (vote sheet, Final Report), which basis? Three scripts give $298,861 / $300,224 / $302,139 on the 22 Oct curve (SD-P02) | The payment-date basis (the verified 27 Sep method), named every time it is quoted; the IPS quotes none | Tue 27 Oct | |
 | Sat 24 Oct | The Archive (Tess) | Is the "Trading Notes" tab text, as the Archive holds it (`../rooms/archive.md`, read 24 Oct), exactly what you submitted on 23 Oct? Anything changed after you pasted it? | Yes: it is held as the locked TNA, and every new draft is checked against it | Tue 27 Oct | |
