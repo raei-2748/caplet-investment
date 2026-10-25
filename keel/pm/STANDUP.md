@@ -12,6 +12,50 @@ Students need to: whole team, vote set B Tue 27 Oct; authors, outline Wed 28 Oct
 Detail: `ROADMAP.md`, `RISKS.md` (R3, R12 up; R14, R15 new), `PREMORTEMS.md` (IPS v2 + coherence list),
 `RETROS.md` (Keel weekly retro), `BOARD.md` (top 3, T23, T24). (Keel is a simulated team, AI-written.)
 
+## Morning brief, Monday 26 Oct 2026 (Sydney)
+**Nora:** Tuesday's vote sheet is ready, and it changed. Our courtroom found that the $10,000 safety buffer gives the
+same protection as quoting Laura's minimum $10,000 lower, so the coupon question (D1) is now two quick votes. First:
+the floor is the last thing ever spent (we lean yes). Second: leave a margin when Laura quotes her 2031 minimum (we
+lean yes, and no separate buffer). We also moved every number to the newest J.P. Morgan forecast, and only one moved,
+by a point.
+
+**Felix:** The submitted VT note calls the floor "her promised minimum", and we can't edit it. The margin vote is
+how we keep that true, so please vote D1a and D1b together.
+**Jun:** I wanted the buffer, and I still think it's tidier. But the numbers say it's a lower quote with a name on
+it, and the IPS shouldn't call it a safeguard when the payments are covered either way.
+**Kai:** I spent Saturday on the losing side and now Keel leans my way. Check the 0.11% yourself before you trust
+me: it's the same with the buffer and without it.
+**Amara:** A minimum Laura can keep beats a higher one she might miss. Co-sponsors remember the miss, not the size.
+**Tess:** With the margin, the IPS is 492 words on the strict count. That's legal, but it's over our 470 cushion, so
+please pick one whole idea to cut on Wednesday, not the night before.
+
+Students need to:
+- Whole team: vote set B on Tue 27 Oct, using ballot v2. Unless you say otherwise, we will treat v2's D1a/D1b as
+  replacing v1's D1, with D2-D7 as written in v1.
+- Whole team: the TNA retro (was Sun 25 Oct) isn't in `keel/pm/RETROS.md` yet. Unless you say otherwise, we will
+  fold it into the last 10 minutes of Tuesday's meeting.
+- IPS authors: outline on Wed 28 Oct. Unless you say otherwise, the Writing Room will list cut options by then.
+- Ray: ask Wharton what "required trading activity" means by Fri 30 Oct. Unless you say otherwise, we will assume
+  the 11 trades already made are enough.
+
+Open questions (our default if nobody answers):
+- Vote D1 as two questions? Default: yes, ballot v2 (by Tue 27 Oct).
+- "the artists would bear the loss" -> "the residents"? Default: residents, because the case's residency also has
+  writers, designers, entrepreneurs and educators (by Tue 27 Oct).
+- Which ladder basis is quoted aloud? Default: the payment-date basis, named each time (by Tue 27 Oct).
+- Are the Trading Notes the Archive holds exactly what you submitted? Default: yes (by Tue 27 Oct).
+
+If you want the detail:
+- Done: ballot v2 (`keel/office/outbox/2026-10-26_SD-T12b_noticeboard_vote-set-B-ballot-v2.md`); the counted texts
+  `keel/drafts/ips_v4_1_2026-10-25/` (480 / 486 / 492 strict); yesterday the rooms confirmed the 7.5% at source,
+  re-ran the four model figures, put the Courtroom on D1 and produced the v4.1 vote copy; episode 30.
+- Next: Keel's Long Room picks a name and motif recommendation today, added to ballot v2 by 21:00.
+- Stuck on: treasury.gov is still blocked from these sessions, so 22 Oct is our newest curve.
+- Next deadline: IPS, Sat 7 Nov 09:00 Sydney (12 days).
+- PR: https://github.com/raei-2748/caplet-investment/pull/37 (not merged).
+
+(Keel is a simulated team, AI-written.)
+
 ## Morning brief, Sunday 25 Oct 2026 (Sydney)
 **Nora:** Overnight we wrote a fourth version of the IPS. It sits at 475 words on the strict count, and the new
 idea in it is that the stock fund is just the interest the floor bond will earn, taken up front. This morning
