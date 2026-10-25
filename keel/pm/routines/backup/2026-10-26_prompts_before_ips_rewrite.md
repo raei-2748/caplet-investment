@@ -1,6 +1,8 @@
 # Scheduled task prompts before the IPS-rewrite change (saved Mon 26 Oct 2026, Sydney)
 
-Saved before the rewrite block was added (Ray, 26 Oct: "stop tinkering", rewrite the IPS from scratch). Each room prompt
+**Outcome:** the room tasks start a new thread each run and cannot be edited in place (the tool refused, 26 Oct), so
+their prompts are UNCHANGED. The rewrite rules live in `keel/pm/SELF_DIRECTION.md`, which every room prompt tells the
+room to follow. Saved before the rewrite block was planned (Ray, 26 Oct: "stop tinkering", rewrite the IPS from scratch). Each room prompt
 was its HEAD below followed by the SHARED TAIL, verbatim. The Genius Lab's tail differs in two places, noted below.
 The daily loop's previous prompt is in this thread's history (it was already updated on 26 Oct).
 To roll back: set each prompt to its head + the shared tail.
