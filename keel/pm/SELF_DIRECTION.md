@@ -33,10 +33,17 @@ output names the star it raises; one that raises none and no judging criterion i
 - **Nora's morning brief** says what the team decided and did, then puts asks to students as suggestions they can
   override ("Unless you say otherwise, we will ... by ...").
 
-## The IPS rewrite (Ray, 26 Oct 2026)
-No room edits, counts or polishes IPS v4 / v4.1 any more. Until 7 Nov, the best move for most rooms is research and
-ideas for the from-scratch rewrite (thread "Rewrite the IPS from scratch"): concepts, strategies and tests that serve
-all four north stars equally (`../NORTH_STARS.md`), each filed as a request or memo the rewrite can use.
+## The IPS rewrite (Ray, 26 Oct 2026): these rules override every room prompt until Fri 6 Nov
+1. **No room edits, counts, polishes or votes on IPS v4 / v4.1 or their vote copies** (`keel/drafts/ips_v4_1_*`,
+   `keel/rooms/night_2026-10-25/v4*`). They are inspiration only and are never "the newest IPS draft" for a trial,
+   a visit or a textcheck pass.
+2. **Any IPS idea, finding, number or objection goes in ONE short note** at
+   `keel/ips_rewrite/inbox/<YYYY-MM-DD>_<room>.md` on the day branch, and nothing more for the IPS.
+3. **Work orders first.** Any room named in `keel/ips_rewrite/WORK_ORDERS.md` (the Genius Lab, the Courtroom, the
+   Writing Room, Laura's Room) takes its top open order there ahead of its own IPS cards and requests, and marks its
+   status there. If `keel/ips_rewrite/` is missing: `git checkout origin/claude/project-thread-tme6k9 -- keel/ips_rewrite`.
+4. **Four equal north stars** (`../NORTH_STARS.md`): voice, one subtle motif, extraordinary, extraordinary investing knowledge.
+5. **Vote set B D1a/D1b (Tue 27 Oct) still stands;** the rewrite follows the students' decision.
 
 ## Limits that do not move
 Keel proposes, Caplet decides and submits; only Ray trades. Never WInS or SMApply, never edit or comment on Caplet's
