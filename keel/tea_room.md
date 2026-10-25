@@ -1,7 +1,7 @@
 # FICTION. Team Keel: the shared tea room
 
 The team's shared room: plan, decision journal, open threads and how everyone is getting on. Updated by
-each daily episode. Last update: Episode 4, Sun 25 Oct 2026 (Sydney).
+each daily episode. Last update: Episode 5, Mon 26 Oct 2026 (Sydney).
 
 ## Keel's plan (their own; not Caplet's)
 One sentence (Nora's current version, 25 Oct): **"Buy Laura's promise first, the floor second and the sail last, and
@@ -52,9 +52,13 @@ never tell a co-sponsor a number she doesn't already own."**
 | 25 Oct | Sail = one quarter of the 2028 money left after the ladder; floor = three quarters (5-1, Jun against) | All | Medians barely move with more stocks; a bigger floor makes the contribution co-sponsors hear larger and safer |
 | 25 Oct | IPS v2 adopted: certainty names the 2028 deposit; "a quarter" for "a minority"; overclaims cut | Tess, Amara | Mock judge's weakest sentence; strict count 477 |
 | 25 Oct | Never quote $150k as the floor; the 2031 bottom is what she owns that day | Amara, Jun | On the 23 Oct close the floor is about $141.8k (MODEL) |
+| 26 Oct | Proposal for Wed 28 Oct: reprice the reserve on 1 Jan 2033 before any facility money, top it up from the sail; after 2033 Laura's kept half; never the announced floor | Kai, Amara | Case :94-95 (reserve first) and :119-120 (range protects the payments) |
+| 26 Oct | "The facility fund absorbs it" to be cut from Principle 1 | Tess, Amara | With "the sail is never sold", it left only the floor to pay |
 
 ## Open threads
-- Who absorbs a coupon-reinvestment shortfall (floor, sail or Laura's half)? Jun, Wed 28 Oct (the judge's top fix).
+- Coupon shortfall sized (MODEL, -2pt for good): $16.4k in 2033 money with iBond income, hitting 2038-42. Vote the
+  payer order Wed 28 Oct; Jun to price the next-payment coupon design (about $4.8k, iBond income not yet in).
+- The $0-deposit case: nobody can pay the shortfall. Name it as the plan's assumption.
 - Name the review dates in place of "dates we have named in advance". Nora, Sun 1 Nov.
 - Pitch is at 50 strict and doesn't say the 2028 money first finishes the ladder. Tess.
 - Could the coupon shortfall reach the floor after 2031? Amara wants it closed before the freeze.
@@ -67,6 +71,8 @@ never tell a co-sponsor a number she doesn't already own."**
 
 
 ## Relationships right now
+- Felix asked to go first for the first time, and found the contradiction in our own draft.
+- Kai lost a point to Jun's model and asked him to "prove me wrong properly". Jun took that as a compliment.
 - Kai came to argue for 50% and argued himself out of it with Jun's own script; he won the vote anyway, with "a quarter".
 - Jun voted no and asked for his reason to be written down. Nobody minded; Amara answered it.
 - Kai won the argument he picked (the sentence, not the equity share) and said so; Nora made him write it down.

@@ -151,3 +151,9 @@ there is a gap, so "a quarter" stays true for the bonds actually owned.
 
 What 25% gives up against 50% (21 Oct curve, MODEL): about $4-5k of median pot and about $47k at p95. What it buys:
 a floor about $50k higher, p5 about $19k higher, a bigger building contribution in the middle case.
+
+### 26 Oct: the payer motion
+Motion for Wed 28 Oct: on 1 Jan 2033, before any facility money, reprice the reserve on that day's prices and top it
+up from the sail; Laura's kept half backs only what is left after 2033; never the announced floor.
+Lost a point: I said our coupon sentence makes its own risk. Jun's model says the literal sentence gives a smaller
+shortfall (about $4.8k vs $16.4k, MODEL), though on a different ladder and without the iBond income. Waiting for his re-run.

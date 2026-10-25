@@ -178,3 +178,19 @@ basis, with date and method. Re-check against the 23 Oct close when it posts.
 Retired: "25% keeps a $150k floor" (true only on the 21 Oct curve, payment-date basis). The vote chose a quarter
 anyway; my no vote is on what we say in 2031: the floor is whatever she owns that day, about $142k on today's prices.
 Open: who absorbs a coupon-reinvestment shortfall (by Wed 28 Oct).
+
+### 26 Oct: coupon-reinvestment shortfall (all MODEL, 23 Oct curve, forward rates)
+| Number | Value | Basis and inputs |
+|---|---|---|
+| Shortfall, yields -2pt for good, each coupon into its own bond | $13.5k when due ($10.5k in 2033 $), Treasuries only; $19.8k ($16.4k) with iBond income | WInS Treasuries 4.750% Feb-37, 4.500% May-38, 4.375% Nov-39, 4.250% Nov-40, 3.125% Nov-41; iBonds 15 Dec (assumed) |
+| Same, -1pt / -3pt | $7.0k / $19.4k (Treasuries); $10.3k / $28.6k (with iBonds) | Same |
+| When it hits | 2038-42 (the late payments) | Same |
+| Next-payment design (IPS v2 sentence read literally), -2pt | about $4.8k, mostly 2034; ladder cost $300,404; no iBond for 2033 | iBond income not yet modelled |
+| Rate paths | random walk 90bp/yr (assumed): p95 $14.4k; history replay (GS10 1953-2026): p95 $16.0k, worst $26.8k | Treasuries only |
+| Laura's kept half covers the -2pt shortfall | 91.1% of paths ($150k deposit); 24.9% at a $75k deposit; 0% at $0 | 25% sail, `sail_mc.py` method |
+| Whole sail covers it | 100% of paths ($150k deposit) | Same |
+| Joint bad case (-2pt, stocks -40% then +7%) | kept half $12.0k; $4.4k from the gift; floor untouched | Deterministic |
+| Floor cut needed if the floor paid in advance | $10.5k-$16.4k (floor $141.8k to $131k-$125k) | 5y 4.82% |
+| Caplet's "~$21k" with Caplet's own method | $21,027 on 23 Oct = Treasuries $12.9k + iBonds $6.3k + bills $2.0k (cash when due) | `library/ips_numbers_2026-10/ips_numbers.py` |
+
+Open by Wed 28 Oct: price the next-payment design with iBond income, then choose the coupon rule.
