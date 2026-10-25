@@ -1,5 +1,18 @@
 # Stand-up log (newest first; Nora writes each entry, plain English first, then the detail)
 
+## Weekly plan, Sunday 25 Oct 2026, 17:00 (Sydney)
+**Nora:** Thirteen days to the IPS. This week is three things: vote on Tuesday, you write the outline on Wednesday
+and the draft by Saturday, and someone sends the school-letter request, which is now two days late. Kai made the
+point of the week: we've written four versions of the IPS and you haven't needed to write one yet, which is the
+wrong way round. So after Tuesday we stop writing whole versions and only check yours.
+**Kai:** Two new things to break before the freeze: the IPS names a short-term Treasury ETF that nobody has found on
+WInS yet, and the bond-floor line has to stay "equal to", not "always".
+
+Students need to: whole team, vote set B Tue 27 Oct; authors, outline Wed 28 Oct and draft Sat 31 Oct; Ray or the
+advisor, school letter now; Ray, SMApply form fields and a WInS ticker search (read-only) by Sat 31 Oct.
+Detail: `ROADMAP.md`, `RISKS.md` (R3, R6, R12 up; R14, R15 new), `PREMORTEMS.md` (IPS v2 + coherence list),
+`RETROS.md` (Keel weekly retro), `BOARD.md` (top 3, T23, T24). (Keel is a simulated team, AI-written.)
+
 ## Morning brief, Sunday 25 Oct 2026 (Sydney)
 **Nora:** Overnight we wrote a fourth version of the IPS. It sits at 475 words on the strict count, and the new
 idea in it is that the stock fund is just the interest the floor bond will earn, taken up front. This morning

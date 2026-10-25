@@ -1,10 +1,16 @@
 # Task board (real Caplet work; run by Keel)
 
 Rules: `LOOP.md`. WIP limit 3 in Doing. Priority P = Impact (1-3) x Urgency (1-3); pick 4 or more. Owner = a Keel
-desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sun 25 Oct 2026, 07:15 (morning run).
+desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sun 25 Oct 2026, 17:00 (weekly plan).
 
-**This week's top 3:** (1) vote set B Tue 27 Oct on the 22 Oct numbers (options ready: T04a-c done); (2) TNA retro Sun 25 Oct;
-(3) school letter requested (T18, was due Fri 23 Oct). New on 24 Oct: ladder room $1,139 (4bp), so D1 and D3 now decide real money.
+**This week's top 3 (Mon 26 Oct - Sun 1 Nov; IPS in 13 days):**
+1. **Vote set B, Tue 27 Oct [T12]** (whole team; Nora chairs). D1-D7 on the one-basis sheet, and the one-line IPS
+   rule each vote adds. Ladder room is 4bp (22 Oct close), so D1 and D3 decide real money.
+2. **IPS in the students' own words: outline Wed 28 Oct, draft Sat 31 Oct [T13]** (named student authors). Keel
+   stops writing whole versions after Tuesday [T23]; v4.1 is a vote copy to argue with, not text to paste.
+3. **School letter request [T18], overdue since Fri 23 Oct** (Ray or the advisor). Missing letter = exclusion (R6).
+   Same day if possible: Ray's read-only checks by Sat 31 Oct, SMApply form fields [T15] and the short-term Treasury
+   ETF listing on WInS [T24].
 
 ## Doing
 | ID | Task | Owner | Due | P | Done when | Notes |
@@ -13,6 +19,7 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sun 25 Oct 202
 ## Ready (ranked)
 | ID | Task | Owner | Due | P | Done when | Notes |
 |---|---|---|---|---|---|---|
+| T23 | Keel IPS version freeze: no new whole-IPS versions after v4.1; Keel only flags the students' text (counts, rules, facts) | Nora | Tue 27 Oct | 6 | Freeze noted in the stand-up; no `ips_v5` file on any day branch | Weekly retro 25 Oct; R3, R12 |
 | T22 | Re-run the T05 rule checklist on the students' IPS draft | Felix (rules-verifier) | Sat 31 Oct | 6 | All 12 rows OK or flagged on the new draft | Waits for T13 draft; checklist SD-T05 |
 | T07 | Coherence check: IPS draft vs the TNA reflections and the 11 filed notes | Nora (coherence-checker) | Sun 1 Nov | 2 | One page, contradictions listed with line refs | Waits for T13 draft |
 | T08 | Mock-judge panel on the IPS, after the human scores are logged | Nora (mock-judge; `office-judge-panel`) | Mon 2 Nov | 2 | Scores per criterion + the weakest line | CHARTER 6: humans score first |
@@ -31,6 +38,7 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sun 25 Oct 202
 | T16 | Any WInS order a vote requires: ticket pasted for Kai's check, then placed | Ray | Thu 5 Nov 08:00 | Order filled before the IPS goes in | Last close per `workstreams/2_IPS.md` |
 | T17 | Submit the IPS (internal target Thu 5 Nov) | Ray | Sat 7 Nov 09:00 | Confirmation saved privately | Trading locks |
 | T18 | Ask the school for the signed letter for the Final Report | Ray / advisor | Fri 23 Oct | Request sent (letter never committed) | `workstreams/3_FINAL_REPORT.md:29`; missing letter = exclusion risk (R6) |
+| T24 | Search WInS (read-only) for a short-term Treasury ETF the IPS can name for waiting coupons and the 2027 leftover | Ray | Sat 31 Oct | Ticker listed or not, pasted in the IPS workstream | Window W1; R14. Never trade or submit |
 | T21 | Signed school letter in hand and checked (letterhead, signature) | Ray / advisor | Fri 20 Nov | Letter received | Follows T18 |
 | T19 | Ask Wharton what "required trading activity" means, if still open | Ray | Fri 30 Oct | Answer filed in `competition/official/` | 05 pre-mortem open item |
 | T20 | Save WInS order history, holdings, notes and session rules privately after the lock | Ray | Sun 8 Nov | Files saved, username cropped | Tess checks the list is complete |

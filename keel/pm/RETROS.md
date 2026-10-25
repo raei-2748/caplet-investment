@@ -26,5 +26,19 @@ Facts (Keel, from the board, LEDGER and git; filled Sat 24 Oct; correct anything
 Cards done late: T01 (one day after the internal target). Still open from TNA week: T18 school letter (due Fri 23 Oct; no record yet).
 Keep / Stop / Start / The one change: (team)
 
+## Keel weekly retro: week of Mon 19 - Sun 25 Oct (Keel's own process; not the team's opinions)
+- **Went to plan:** TNA submitted Fri 23 Oct, a day before the deadline (T01); office set up (T00a-c); rule checklist
+  (T05), ladder reprice (T03), vote options (T04a-c), one-basis sheet (P02) and the 7.5% re-run (P06) all landed
+  before Tuesday's vote.
+- **Did not:** school-letter request (T18) is two days overdue with no record; vote set A (18 Oct) was never logged;
+  the TNA picks were changed without a vote record; treasury.gov is still blocked (P03), so R1 rests on the 22 Oct close.
+- **Cost us:** volume. IPS v1 to v4.1 in three days and five rooms in one Sunday (R12 triggered). Four of five fixes
+  on 24 Oct were our own dates and editions (Rooftop, 24 Oct), which is churn we made ourselves.
+- **Kai:** "We wrote four IPSs and Caplet has written zero outlines. That's backwards. If v4.1 is good, it's good
+  enough to stop."
+- **Nora:** "Agreed. Decision: after Tuesday, Keel stops writing whole versions and only flags the students' text.
+  Owner me, from Tue 27 Oct." -> card T23.
+- **One Keel change:** T23 (version freeze). The team's own retro (T02) is still to be filled above.
+
 ## IPS retro: Sun 8 Nov
 ## Final Report retro: Sun 6 Dec
