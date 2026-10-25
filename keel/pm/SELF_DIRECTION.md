@@ -33,6 +33,11 @@ output names the star it raises; one that raises none and no judging criterion i
 - **Nora's morning brief** says what the team decided and did, then puts asks to students as suggestions they can
   override ("Unless you say otherwise, we will ... by ...").
 
+## The IPS rewrite (Ray, 26 Oct 2026)
+No room edits, counts or polishes IPS v4 / v4.1 any more. Until 7 Nov, the best move for most rooms is research and
+ideas for the from-scratch rewrite (thread "Rewrite the IPS from scratch"): concepts, strategies and tests that serve
+all four north stars equally (`../NORTH_STARS.md`), each filed as a request or memo the rewrite can use.
+
 ## Limits that do not move
 Keel proposes, Caplet decides and submits; only Ray trades. Never WInS or SMApply, never edit or comment on Caplet's
 Google Docs, never contact anyone or Laura Gao, no personal data. Fiction never enters a Caplet deliverable. Until

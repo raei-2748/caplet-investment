@@ -1,4 +1,9 @@
 # Vote set B, Tue 27 Oct, ballot v2: D1 splits into two dials, the numbers move to the 2027 edition, three counted texts
+
+> **Superseded for voting (Ray, Mon 26 Oct 2026).** The IPS is being rewritten from scratch, so nobody votes on v4 /
+> v4.1 wording, and the "IPS text it picks" column and the counted texts are void. The strategy findings stay as
+> input for the rewrite: payments come before the floor; a $10k buffer is a $10k lower quote; figures barely move
+> between J.P. Morgan editions.
 AI-generated meeting aid by the Keel Office (Claude Code). Not for submission. Cite in Works Cited. (Keel is a simulated team, AI-written.)
 Work order: SD-T12b | Asked by: self-directed (supports Caplet card T12; five open requests to the Long Room / Noticeboard) | Date: Mon 26 Oct 2026, 07:30 AEDT
 Replaces the D1 row of ballot v1 (`2026-10-24_SD-T12_judging_vote-set-B-ballot.md`); D2-D7 stand as written there. Keel's leans are suggestions; only your vote counts.

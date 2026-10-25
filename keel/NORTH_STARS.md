@@ -37,6 +37,16 @@ but never above the hard rules (`pm/SELF_DIRECTION.md`, "Limits that do not move
 3. **Extraordinary (the most important).** Not another competent team. An unexpected layer of creativity no other
    team, AI-using or not, would think of; insights that make a judge say "aha".
 
+## North star 4 and the rewrite (Ray, Mon 26 Oct 2026)
+4. **Extraordinary investing knowledge.** Apply and explain a wide range of investing concepts and strategies,
+   niche ones included, to build Caplet's own strategy for this case, so the judges can see real research and wide
+   reading. Never name-dropping. In the IPS (no citations) the ideas are used uncited; the Final Report cites every
+   source. It supports the narrative and the case-specific strategy, never replaces them.
+- **All four stars are equal** (Ray, 26 Oct): none ahead of the others, none minimised.
+- **The IPS is rewritten from scratch** in the thread "Rewrite the IPS from scratch". v4 / v4.1 are inspiration
+  only: no room polishes them any more. Rooms feed the rewrite with research and ideas. Deadline Fri 6 Nov ET
+  (Sat 7 Nov 09:00 Sydney); Ray: "Don't rush. Think."
+
 ## How Keel applies them (Keel's working reading, 24 Oct; Caplet can change it)
 - **Ask of every output: which star does this raise?** A memo, slip, test or episode that raises none of the three
   and no judging criterion is not the best use of the run.
