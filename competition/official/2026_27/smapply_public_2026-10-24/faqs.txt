@@ -1,0 +1,103 @@
+Source: https://wghsinvcomp.smapply.us/res/p/faqs/ (public page), read 23 Oct 2026 19:40 UTC = Sat 24 Oct 06:40 Sydney, text extracted with fetch_text.py. Change vs smapply_public_2026-10-20/faqs.txt: 'Individual TIPS' / 'Individual STRIPS' under NOT permitted; permitted lines now say 'available on WInS'.
+
+Skip to Main Content
+Log In
+Contact the site administrator
+(opens your email application)
+Ask questions about a program or application on this site
+(opens your email application)
+Visit the Help Center
+(opens in a new tab)
+Browse and search help content
+(opens in a new tab)
+Contact support
+(opens in a new tab)
+Get help or report issues
+(opens in a new tab)
+Log In
+Skip to left navigation
+Wharton Global High School Investment Competition
+An investment in knowledge pays the best interest.
+FAQs
+Wharton Investment Simulator (WInS)
+WHAT IS WINS?
+Wharton Global Youth Program has contracted with Stock-Trak®, the leading provider of web-based stock market simulations for universities, high schools, and the financial services industry. WInS is the Wharton Investment Simulator, which is used for the Investment Competition to help students place trades and act on their investment strategies. WInS allows students to apply the concepts of investments and portfolio management in a hands-on learning environment while working with real-world data without risking real money.
+WHERE CAN WE GO TO BETTER UNDERSTAND HOW TO USE WINS FOR THIS COMPETITION?
+When your team logs in to the shared WInS account, they’ll find tutorial videos, a user guide, and FAQs under “Getting Started” on the right side of the page.
+HOW DO WE GET ACCESS TO WINS FOR THE INVESTMENT COMPETITION?
+When your advisor created your team account, they received a confirmation email that contained your team login credentials. Your advisor can see the username and password for their team(s) by navigating to the “Admin” tab in upper right-hand corner of their WInS account and clicking "Instructor Administration."
+HOW MUCH VIRTUAL CASH DO WE GET ON WINS?
+Your team will be responsible for managing a portfolio of $300,000 in virtual cash.
+WHY DID WE ONLY RECEIVE ONE WINS USERNAME FOR OUR ENTIRE TEAM?
+All 4-6 members on the same team will share the same WInS account. You should share the username and password with each other. Your advisor can see the username and password for their team(s) by navigating to the “Admin” tab in upper right-hand corner of their WInS account and clicking "Instructor Administration."
+CAN WE CHANGE OUR TEAM USERNAME?
+No. Your team’s username is only used to access WInS. Your team username is NOT the same as your team name. Your team should agree on and will submit your official team name with your Official Team Roster which is due on October 9, 2026. Teams should choose their own names, and have fun with it. Please use good judgment.
+WHO CAN PLACE TRADES ON WINS?
+Students should place trades on WInS, NOT the advisor. A key component of the Investment Competition is teamwork and communication. It should be a team decision. We strongly encourage teams to identify different roles for each team member. Students must work together through all the issues of stock selection and strategy development. The team structure is also important to portfolio diversity.
+DOES WINS HAVE AN ANALYTICS FEATURE?
+WInS includes a set of analytical tools that students can use to analyze the performance of their portfolios. The “My Portfolio” tab has a drop-down menu that lists a wide variety of data sets and analysis reports on portfolio performance.
+Placing Trades
+DOES MY TEAM HAVE TO PLACE TRADES ON WINS?
+WInS should be used as a learning tool to figure out your strategies and to experience what it is like to place trades and be active stock market participants. These are fundamental aspects of this competition. That said, we realize (and you should, too) that a basic tenet of long-term investing is that investors should ignore short-term gains and losses. Therefore, you should not be doing a lot of buying and selling of the stocks designated for the long-term portion of your portfolio. That’s not to say you can’t do any as you work through the aspects of your strategy and analysis and decide which investments are best, but you are not trying to prove the worthiness of your long-term strategy through how your portfolio performs over six weeks of trading.
+DOES THE COMPETITION ALLOW ALL SECURITIES?
+No.
+Investments permitted (for BOTH contributions, the IPS and Final Report):
+Any stock available on WInS.
+Any Exchange-Traded Fund (ETFs) available on WInS.
+Any Government/Treasury Bond available on WInS.
+The following are NOT permitted:
+Margin trading
+Short selling
+Stock-secured debt
+Crypto
+Derivatives (options, futures, swaps, etc.)
+Individual TIPS (Treasury Inflation-Protected Securities)
+Individual STRIPS (Separate Trading of Registered Interest and Principal of Securities)
+Anything other than the approved investments listed above.
+DOES THE COMPETITION ALLOW MARGING TRADING OR SHORT SELLING?
+No.
+WHEN I PLACE A TRADE ON WINS, HOW QUICKLY DOES IT GO THROUGH?
+WInS executes all U.S. stock trades at real time prices. Please note that although trades are executed at real time prices, and that the bid and ask prices are real time; the prices you see in your open positions are delayed by 10–15 minutes.
+International equities not based in the U.S. experience a longer time delay. These equity orders will go through at the end of the trading day. If a trade is placed for an international equity at 4:00 p.m. on Monday, it will clear at the end of Tuesday.
+Also, exchange rate calculations are done automatically when making trades on foreign markets. There is no extra work on your part, though it is good to be aware of potential gains/losses you may experience due to exchange rates.
+The bond prices are updated once daily at U.S. market open, and pay out every six months. When a bond is selected from the drop down users will be able to see the bond's face value, last price, the last coupon date (when it last paid out) and the interest accrued since then. When the competition ends, any bonds held will have their value factored into the teams final portfolio value.
+DOES THE WINS SYSTEM CHARGE COMMISSIONS FOR TRADES?
+Yes. WInS runs just like any real-world trading platform. Each stock transaction is charged a flat $25 commission and treasury bonds are charged $10. Commission is charged only on a trade that clears.
+DO WE RECEIVE DIVIDENDS THAT ARE REFLECTED IN OUR PORTFOLIO FUNDS?
+WInS provides real-world corporate actions such as dividends, stock splits, bond coupons, and so on. As such, students can expect to see dividends reflected in their portfolios at the time they are issued by the company.
+HOW CAN I VOID AN ORDER THAT WE MAKE IN ERROR?
+You can only cancel open orders. To see your open orders and to cancel any of them, go to the “My portfolio” tab and select “Order History” in the sub-menu.
+WInS is a real-world simulation, so make sure you are carefully reviewing everything before you hit submit. If you make an error, we encourage you to run with it and not scramble to “fix” it. Trading errors are part of the learning process.
+Deliverables and Judging
+WHAT ARE THE KEY REQUIREMENTS AND DELIVERABLES FOR THE COMPETITION?
+Your team must submit the following deliverables in order to be considered an active team (and to receive a participation badge).
+Deliverables
+Team Roster: Confirm your team’s student members.
+School Documentation: Submit any required school verification and eligibility documents.
+Trading Notes Analysis: Submit required trading notes and justification.
+Investment Policy Statement (IPS): Define your client’s investment objectives, risk tolerance, and overall investment strategy.
+Comprehensive Final Report: Present and justify your team’s investment strategy, portfolio recommendations, and analysis.
+Additionally, teams must meet the required trading activity and portfolio management guidelines throughout the competition.
+WILL MY TEAM RECEIVE FEEDBACK?
+No. Teams will not receive individual feedback. We will not provide your with information about how the evaluators scored your team.
+Each year, we receive many excellent final reports. If your team is not selected as a Semifinalist, this does not necessarily mean that you did something “wrong.” We are looking for teams that score exceptionally well on all five components of the criteria, and that embrace all aspects of the competition with passion and creativity, which is then reflected in various ways in their final reports.
+ARE WINNING TEAMS SELECTED BASED ON THE GROWTH OF THEIR WINS STOCK PORTFOLIO?
+No. Gains and losses generated in WInS are not used to select winning teams and are not applied to the client’s long-term portfolio projections. WInS allows teams to put their strategies into practice and provides evidence of their investment decisions. Teams are evaluated on how thoughtfully they develop, implement, evaluate, and communicate a cohesive investment strategy designed around the client’s goals.
+HOW CAN MY TEAM WIN THE COMPETITION?
+There is no single winning investment strategy. Strong teams understand the client, work effectively together, conduct thoughtful research and analysis, and develop a clear and creative strategy designed around the client’s goals. Their investment decisions reflect that strategy, and their deliverables connect into a cohesive, well-supported submission. Just as importantly, successful teams communicate their reasoning, assumptions, tradeoffs, and competition experience clearly and authentically.
+You can explore the work of successful teams on our Previous Winners page.
+Semifinals and Global Finale
+IF OUR TEAM MAKES IT TO THE GLOBAL FINALE, WHAT COSTS ARE COVERED?
+The Wharton Global Youth Program does not cover your competition costs. All costs, including travel and lodging, are the responsibility of the participants. However, teams in the Global Finale can choose to attend virtually via videoconference if travel costs are prohibitive.
+WHAT IS EXPECTED OF MY TEAM IF WE MAKE IT TO A SEMIFINALS OR GLOBAL FINALE EVENT?
+Your team will be expected to create and deliver a short presentation (via video conference for the Semifinals and live or via video conference for the Global Finale) about your team’s strategy, analysis and experience over the past 10 weeks to a live panel of judges. All team members must participate.
+Get in Touch
+HOW CAN I SHARE NEWS ABOUT THE PROGRESS OF MY TEAM AND OUR STRATEGY?
+We want to hear from you! Be sure to follow us on Instagram @whartonyouth and on LinkedIn @WhartonYouth. Create a social media profile for your investment competition team and tag us in posts! We love to share the good news and hard work of all our teams throughout the competition. Good luck!
+WHOM DO I CONTACT IF I HAVE A QUESTION ABOUT THE COMPETITION?
+Please use the Contact Us form.
+Copyright © SurveyMonkey
+| Help
+| Privacy
+| Terms
+|

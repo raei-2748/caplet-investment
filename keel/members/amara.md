@@ -99,3 +99,25 @@ File: `competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt`.
 ### Ideas parked for the Final Report
 - Inflation as a stated assumption about facility costs (Ep 1; opens after the IPS).
 - The 2031 line, once Jun has a model behind a range (Ep 2).
+
+### 24 Oct: case lines on the 2031 range
+| What it tells us about Laura | Exact words | Line |
+|---|---|---|
+| When she speaks | "Laura plans to begin approaching potential co-sponsors in 2031, two years before the residency is established." | 109 |
+| Overpromising is the risk she names | "If Laura promises more than she can ultimately contribute, she could damage her credibility and lose the confidence or participation of co-sponsors." | 114-115 |
+| A range, not one number | "Rather than promising one exact amount, she wants to communicate a credible range for her potential contribution." | 115-116 |
+| The range must not touch the payments | "The proposed range must also protect the portfolio's ability to fund the ten-year operating commitment." | 119-120 |
+| No set number to aim for | "There is no predetermined facility contribution." | 104 |
+
+Position: the IPS states the rule, not a dollar floor. By 2031 the floor must be a bond she holds, and nothing may
+take from it after she has said it out loud. Still open: can the coupon shortfall reach the floor after 2031?
+
+### 26 Oct: the sign on the building
+| What it tells us about Laura | Exact words | Line |
+|---|---|---|
+| Flexibility is hers, for the project's changes | "She recognizes that committing all remaining assets could limit her financial flexibility as the project develops." | 102-103 |
+| One risk can touch both goals | "Addresses how investment uncertainty could affect both the operating commitment and the facility contribution." | 140-141 |
+| She can't add money later | "she will neither add to nor withdraw from the portfolio before 2033." | 64-65 |
+
+Position: whatever is known by 2031 comes off before she names the bottom; whatever comes later comes from her kept
+half first, then the sail before it is split; never the bottom she has said out loud.

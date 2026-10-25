@@ -150,3 +150,48 @@ Script: `keel/scripts/sail_mc.py` (uses `ladder_pv.py` in the same folder). Inpu
 | Chance the ladder costs more than $300k on 1 Jan 2027 | about 30% (10 weeks of moves, 40bp sd); about 40% over a full year (90bp sd) (MODEL) | parallel normal yield shift, 90bp/yr vol = assumption, UNVERIFIED | `scripts/sail_mc.py` | 23 Oct |
 | Gap if short | mean $7.8k, p95 $13.8k, p99 $22.4k (10 weeks); -25/-50/-100bp: $1.3k/$8.9k/$24.7k (MODEL) | same | same | 23 Oct |
 | Cost of the gap to the sail | about $1.33 in 2033 per $1 of 2027 gap (1y at 4.52%, then 5y at 4.95%); mean gap = about $10k less sail (MODEL) | same | same | 23 Oct |
+
+### 24 Oct: repriced on the 22 Oct close (all MODEL, forward rates, valued 1 Jan 2027)
+| Number | Value | Basis and inputs |
+|---|---|---|
+| Ladder, payment-date basis | $298,861; room $1,139 (a 0.04-point fall closes it); DV01 $296/bp | 22 Oct par curve (treasury.gov CSV, fetched 23 Oct 19:39 UTC) |
+| Ladder, holdings basis | **$302,199; gap $2,199** (yields must rise 0.08 points to fit); DV01 $294/bp | iBonds 15 Dec 2032-36 (assumed date), T-bonds 15 Feb 2037, 15 May 2038, 15 Nov 2039/40/41 |
+| Same, 21 Oct | holdings $297,287 (room $2,713); payment-date $293,928 | 21 Oct curve |
+| One-day change 21 to 22 Oct | about +$4,900 on either basis | yields about 0.17 points lower |
+| Second method (monotone-cubic fit) | about $500 lower on the holdings basis; still over $300k | different interpolation |
+| Biggest holdings-basis extra | Feb-2037 bond +$1,406 (money waits 10.5 months before the 2038 payment); May-2038 +$974 | |
+| Gap cost to the sail | $2,199 x 1.0441 = $2,296 of the 2028 deposit; about $2,907 less sail by 2033 ($1.32 per $1) | 1y 4.41%, then 5y 4.78% semiannual |
+
+Retired: $293,928 (true on 21 Oct, payment-date basis only). From now on, ladder costs are quoted on the holdings
+basis, with date and method. Re-check against the 23 Oct close when it posts.
+
+### 25 Oct: 23 Oct close and the sail vote (all MODEL)
+| Number | Value | Basis and inputs |
+|---|---|---|
+| Ladder, holdings basis, 23 Oct | $300,992; gap $992 (yields must rise 0.03 points); DV01 $293/bp; second method $300,390 | Forward rates to 1 Jan 2027; treasury.gov par CSV fetched 24 Oct 19:39 UTC, row 23 Oct |
+| Ladder, payment-date basis, 23 Oct | $297,636 (reference only, not for quoting) | Same |
+| 2028 money for floor and sail | $148,964 = $150,000 - $992 x 1.0444 | 1y par 4.44% |
+| Sail, 25% stocks (23 Oct) | p5/p50/p95 $171.4k/$194.0k/$233.7k; floor $141.8k | `scripts/sail_mc.py` method, 5y par 4.82% |
+| Sail, 20% stocks (23 Oct) | floor $151.2k; highest share with floor >= $150k: 20.6% | Same |
+| Chance any stock mix ends below all-bond | 38.7% (every mix) | Same |
+
+Retired: "25% keeps a $150k floor" (true only on the 21 Oct curve, payment-date basis). The vote chose a quarter
+anyway; my no vote is on what we say in 2031: the floor is whatever she owns that day, about $142k on today's prices.
+Open: who absorbs a coupon-reinvestment shortfall (by Wed 28 Oct).
+
+### 26 Oct: coupon-reinvestment shortfall (all MODEL, 23 Oct curve, forward rates)
+| Number | Value | Basis and inputs |
+|---|---|---|
+| Shortfall, yields -2pt for good, each coupon into its own bond | $13.5k when due ($10.5k in 2033 $), Treasuries only; $19.8k ($16.4k) with iBond income | WInS Treasuries 4.750% Feb-37, 4.500% May-38, 4.375% Nov-39, 4.250% Nov-40, 3.125% Nov-41; iBonds 15 Dec (assumed) |
+| Same, -1pt / -3pt | $7.0k / $19.4k (Treasuries); $10.3k / $28.6k (with iBonds) | Same |
+| When it hits | 2038-42 (the late payments) | Same |
+| Next-payment design (IPS v2 sentence read literally), -2pt | about $4.8k, mostly 2034; ladder cost $300,404; no iBond for 2033 | iBond income not yet modelled |
+| Rate paths | random walk 90bp/yr (assumed): p95 $14.4k; history replay (GS10 1953-2026): p95 $16.0k, worst $26.8k | Treasuries only |
+| Laura's kept half covers the -2pt shortfall | 91.1% of paths ($150k deposit); 24.9% at a $75k deposit; 0% at $0 | 25% sail, `sail_mc.py` method |
+| Whole sail covers it | 99.95% of paths ($150k deposit; lowest sail $11.8k) | Same |
+| Joint bad case (-2pt, stocks -40% then +7%) | kept half $12.0k; $4.4k from the gift; floor untouched | Deterministic |
+| Floor cut needed if the floor paid in advance | $10.5k-$16.4k (floor $141.8k to $131k-$125k) | 5y 4.82% |
+| Caplet's "~$21k" with Caplet's own method | $21,027 on 23 Oct = Treasuries $12.9k + iBonds $6.2k + bills $2.0k (cash when due) | `library/ips_numbers_2026-10/ips_numbers.py` |
+
+Scripts: `keel/scripts/coupon_shortfall.py`, `keel/scripts/coupon_payers.py`, `keel/scripts/caplet_shortfall_replica.py`.
+Open by Wed 28 Oct: price the next-payment design with iBond income, then choose the coupon rule.

@@ -128,3 +128,30 @@ Files: IP = `2026_WGY_Investment_Policy-FINAL.txt`, W4 = `wharton_email_week4_20
 **(e) Evaluation.** Five criteria (D:49-57): Investment Strategy ("maintains consistency with the team's IPS", D:49); Client Knowledge and Objectives; Portfolio Analysis; Articulation of Competition Experience; Creativity and Presentation. "Evaluators will consider the three deliverables together." (CP:161). "score exceptionally well on all five components" (F:81). Which criteria score the IPS alone: UNVERIFIED.
 
 **SMApply check.** Repo snapshots (14 and 20 Oct) say nothing about the IPS form. Live pages not re-read today: UNVERIFIED. The form shows only after login; Nora reads it when it opens.
+
+### 24 Oct: rules behind the ladder gap
+| Rule | Exact words | Where | Added |
+|---|---|---|---|
+| Payments from the portfolio, not outside money | "All ten payments must be funded by the investment portfolio with a high degree of certainty. Teams may not rely on co-sponsors, grants, program fees, or other outside funding to meet this requirement." | `Laura_Gao_2026_Client_Profile.txt:91-92` | 24 Oct |
+| We define certainty ourselves | "define what they consider a high degree of funding certainty, explain how they evaluated that level of certainty, and identify the assumptions supporting their recommendation." | `Laura_Gao_2026_Client_Profile.txt:97-99` | 24 Oct |
+| The 2028 deposit is stated as a fact | "She will contribute an additional $150,000 at the beginning of 2028, using earnings from publishing advances, speaking engagements, licensing, and other entrepreneurial ventures." | `Laura_Gao_2026_Client_Profile.txt:43-45` | 24 Oct |
+| Assumptions must be named | "identify and explain their assumptions about investment performance, the timing of cash flows, outside funding, ..." | `Laura_Gao_2026_Client_Profile.txt:146-147` | 24 Oct |
+| IPS: numbers not expected | "The IPS is not expected to include final operating-reserve calculations, detailed portfolio projections, a final facility-contribution range, or the draft communication to co-sponsors." | `2026_WGY_Investment_Policy-FINAL.txt:68-69` | 24 Oct |
+| Strategy frozen at the IPS | "Your team may not revise its investment strategy after the submission deadline." | `2026_WGY_Investment_Policy-FINAL.txt:73-74` | 24 Oct |
+| FAQ now says "Individual" TIPS/STRIPS (the Week 4 email says plain "TIPS"/"STRIPS") | "Individual TIPS (Treasury Inflation-Protected Securities)" / "Individual STRIPS (Separate Trading of Registered Interest and Principal of Securities)" | `smapply_public_2026-10-24/faqs.txt:54-55` (live page read 24 Oct 06:40 Sydney) | 24 Oct |
+
+Reading: paying a January gap from the 2028 deposit is allowed (it is one of "the two contributions"), but it is a
+cash-flow timing assumption and must be stated in the IPS in words. Until Wharton is asked, we read TIPS/STRIPS as the
+email does.
+
+### 26 Oct: who pays a shortfall
+| Rule | Exact words | Where | Added |
+|---|---|---|---|
+| Reserve first, facility second | "At the beginning of 2033, before making the first operating payment or contributing to the facility, Laura will set aside a portion of the portfolio to fund the ten payments." | `Laura_Gao_2026_Client_Profile.txt:94-95` | 26 Oct |
+| Facility comes from what remains | "After establishing the operating reserve in 2033, Laura must decide how much of the remaining portfolio she can responsibly contribute" | `Laura_Gao_2026_Client_Profile.txt:101-102` | 26 Oct |
+| Range protects the payments | "The proposed range must also protect the portfolio's ability to fund the ten-year operating commitment." | `Laura_Gao_2026_Client_Profile.txt:119-120` | 26 Oct |
+| No contingency fund to size | "Teams are not expected to determine the size or investment composition of a separate contingency fund or endowment." | `Laura_Gao_2026_Client_Profile.txt:106-107` | 26 Oct |
+| IPS must set reserve management over time | "establish your strategic approach to preparing for the operating commitment, managing the operating reserve's asset composition over time" | `2026_WGY_Investment_Policy-FINAL.txt:48-49` | 26 Oct |
+
+Reading: no rule names the payer, so the IPS must, before the freeze. IPS v2 currently says both "the facility fund
+absorbs it" and "the sail is never sold to cover a payment", which leaves only the floor: that breaks :119-120.

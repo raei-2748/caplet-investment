@@ -103,3 +103,10 @@ decides things, writes them down and moves on.
 ### Notes to self
 - Ask Tess to speak first.
 - Internal deadline two days before the real one. TNA: submit Fri 23 Oct 20:00, Felix watching.
+
+### 25 Oct
+- One sentence, new version: "Buy Laura's promise first, the floor second and the sail last, and never tell a
+  co-sponsor a number she doesn't already own."
+- Mock judge on IPS v1 (practitioner): strategy 4, client 4, portfolio analysis 3, articulation 2 (earned in the Final
+  Report), presentation 4. Weakest sentence: the certainty line (fixed in v2).
+- Still to do from the judge: name the review dates (by 1 Nov); say who absorbs a coupon shortfall (Jun, 28 Oct).

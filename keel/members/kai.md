@@ -131,3 +131,29 @@ doesn't already own." Five attacks, worst first. Each has the fix I'd accept.
 
 What I'm not saying: more equity is not the leap. The leap is the honesty rule. It just has to be true for the
 bonds we own.
+
+### 24 Oct: the gap sentence
+| Date (Sydney) | What | So what for Laura | Action |
+|---|---|---|---|
+| 24 Oct | Treasury curve, 22 Oct close: 10y 4.96 (-17bp), 20y 5.32 (-15bp) | Ladder $302,199 on the holdings basis, $2,199 over $300k (Jun, MODEL) | No WInS trade (WInS doesn't set Laura's January price). Vote the gap wording and the 2028 spending order on Sun 25 Oct |
+
+The order is right (gap in the short 2033 bond, not the 2042 one). The sentence is wrong: "paid from bonds she already
+owns" isn't true for the 2033 payment until the 2028 deposit arrives. Fix: name the deposit as the assumption, and give
+the 2028 money an order (ladder, then floor, then sail).
+
+### 25 Oct: the motion that won (5-1)
+"The sail is one quarter of the 2028 money left after the ladder is complete." Floor and sail shrink together if
+there is a gap, so "a quarter" stays true for the bonds actually owned.
+
+| Date (Sydney) | What | So what for Laura | Action |
+|---|---|---|---|
+| 25 Oct | Treasury par curve, 23 Oct close: 5y 4.82, 10y 5.00 (+4bp), 20y 5.37 (+5bp) | Ladder $300,992 on the holdings basis, $992 over $300k (Jun, MODEL) | No WInS trade |
+
+What 25% gives up against 50% (21 Oct curve, MODEL): about $4-5k of median pot and about $47k at p95. What it buys:
+a floor about $50k higher, p5 about $19k higher, a bigger building contribution in the middle case.
+
+### 26 Oct: the payer motion
+Motion for Wed 28 Oct: on 1 Jan 2033, before any facility money, reprice the reserve on that day's prices and top it
+up from the sail; Laura's kept half backs only what is left after 2033; never the announced floor.
+Lost a point: I said our coupon sentence makes its own risk. Jun's model says the literal sentence gives a smaller
+shortfall (about $4.8k vs $13.5k, cash when due, Treasuries only, MODEL), though on a different ladder and without the iBond income. Waiting for his re-run.
