@@ -1,7 +1,7 @@
 # Task board (real Caplet work; run by Keel)
 
 Rules: `LOOP.md`. WIP limit 3 in Doing. Priority P = Impact (1-3) x Urgency (1-3); pick 4 or more. Owner = a Keel
-desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sun 25 Oct 2026, 17:00 (weekly plan).
+desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Mon 26 Oct 2026, 07:30 (morning run).
 
 **This week's top 3 (Mon 26 Oct - Sun 1 Nov; IPS in 13 days):**
 1. **Vote set B, Tue 27 Oct [T12]** (whole team; Nora chairs). D1-D7 on the one-basis sheet, and the one-line IPS
@@ -30,7 +30,7 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sun 25 Oct 202
 | ID | Task | Owner | Due | Done when | Notes |
 |---|---|---|---|---|---|
 | T02 | TNA retrospective (30 min): keep / stop / start | Whole team | Sun 25 Oct | `RETROS.md` TNA section filled | Workstream 2 timeline |
-| T12 | Vote set B (rules the IPS will freeze) | Whole team | Tue 27 Oct | Votes and any dissent in `caplet/decisions/LOG.md` | Options from T04a-c; write the one-line IPS rule each vote creates (SD-T05 rows 4, 5, 7, 8, 10) |
+| T12 | Vote set B (rules the IPS will freeze) | Whole team | Tue 27 Oct | Votes and any dissent in `caplet/decisions/LOG.md` | Options from T04a-c; write the one-line IPS rule each vote creates (SD-T05 rows 4, 5, 7, 8, 10); ballot v2 (D1a/D1b) `keel/office/outbox/2026-10-26_SD-T12b_noticeboard_vote-set-B-ballot-v2.md` |
 | T13 | Write the IPS in the students' own words: outline Wed 28 Oct, draft Sat 31 Oct | Named student authors + editor | Sat 31 Oct | Draft in the IPS Doc | Close the 10 pending AI suggestions first; cut "about $292,000" (stale, SD-T03); Courtroom amendments 24 Oct in `keel/rooms/courtroom.md` |
 | T14 | Two students and an outside reader score the IPS draft | Two students + outside reader | Sun 1 Nov | Scores logged | Before T08 |
 | T15 | Check the SMApply IPS form fields (Keel cannot open SMApply) | Ray | Sat 31 Oct | Field names and limits pasted into the IPS workstream | Week 4 email: IPS is a form |
@@ -53,6 +53,7 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sun 25 Oct 202
 ## Done
 | ID | Task | Owner | Done | Output |
 |---|---|---|---|---|
+| SD-T12b | Ballot v2 for vote set B: D1 as two dials, 2027-edition numbers, three counted texts | Nora | Mon 26 Oct | `keel/office/outbox/2026-10-26_SD-T12b_noticeboard_vote-set-B-ballot-v2.md` |
 | P06 | Re-run the four tail figures at the 2027 J.P. Morgan 7.5% | Jun | Sun 25 Oct | `keel/rooms/lab/P06_rerun/README.md`: only 29% -> 28% moves (9%, 3%, $140k unchanged) |
 | P02 | Numbers on one basis: every number in IPS v4 and the vote copy with source, edition/curve date, basis, label | Jun | Sun 25 Oct | `keel/office/outbox/2026-10-25_SD-P02_numbers_one-basis-sheet.md` |
 | T05 | IPS rule checklist: 12 rules the IPS must fix so the Final Report can follow; V5 checked | Felix | Sat 24 Oct | `keel/office/outbox/2026-10-24_SD-T05_rules_ips-rule-checklist.md` |

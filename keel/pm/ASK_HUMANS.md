@@ -6,6 +6,7 @@
 
 | Asked (Sydney) | Room | Question | Keel's default if no answer | By | Answer (student, date) |
 |---|---|---|---|---|---|
+| Mon 26 Oct | The Noticeboard (Nora) | May Tuesday's D1 be voted as two questions (D1a floor last in the order; D1b a quote margin vs a $10k buffer)? (SD-T12b) | Yes: ballot v2 replaces v1's D1 row; v1's D2-D7 stand | Tue 27 Oct | |
 | Sun 25 Oct | The Archive (Tess) | For the Works Cited: (1) which AI tool wrote the outside review of IPS v3 that Ray pasted on 24 Oct? (2) Is the "Codex review" on Keel's pull requests OpenAI Codex, set up by a student? | Logged in `../../caplet/docs/AI_USE.md` s5 as "an outside AI tool (students to name it)" and "OpenAI Codex (students to confirm)"; the Final Report names them only once a student confirms | Sat 31 Oct | |
 | Sun 25 Oct | The Courtroom (Kai) | D1: a $10k buffer gives the quoted 2031 bottom exactly the safety of quoting it $10k lower (C-01, MODEL). Its only extra effect is moving ~$10k from the facility to Laura (top and median gift $10k lower; her worst-5% kept half $0 -> ~$8k). Is that transfer worth one IPS sentence? | No buffer: vote payments-before-the-floor plus a quote margin; the slack question goes to D5 | Tue 27 Oct | |
 | Sun 25 Oct | The Library (Felix) | Anyone with a J.P. Morgan login (or who can open the 2027 LTCMA USD matrix, report pp. 68-75): is "AC World Equity" compound return 7.50 in USD? The public report says only "global equity ... 7.5%" (LC-02) | Cite "J.P. Morgan 2027 LTCMA, global equity, 7.5%" and never write "compound" or "ACWI" beside it | Sat 31 Oct | |

@@ -7,7 +7,7 @@ Keel prepares the options; Caplet votes. When a vote is taken, record it (with a
 ## Waiting for a vote
 | ID | Decision | Options (short) | Options memo | Vote by | Who votes |
 |---|---|---|---|---|---|
-| D1 | Coupon reinvestment risk | State the risk only / keep Laura's half invested to 2042 / hold a buffer from the 2028 deposit | [T04a](../office/outbox/2026-10-24_SD-T04_strategy_vote-set-B-options.md) ready 24 Oct; numbers `keel/library/ips_numbers_2026-10/IPS_number_sheet.md` | Tue 27 Oct | Whole team |
+| D1 | Coupon reinvestment risk, now two votes (26 Oct): D1a floor last in the order (yes/no); D1b quote margin below the floor (none / margin / $10k buffer) | Keel leans D1a yes, D1b margin | [ballot v2](../office/outbox/2026-10-26_SD-T12b_noticeboard_vote-set-B-ballot-v2.md); Courtroom C-01 | Tue 27 Oct | Whole team |
 | D2 | What "high degree of certainty" means (standard and words) | Mechanism only (bonds held to maturity, matched) / mechanism + modelled standard / plus a named residual-risk list | [T04a](../office/outbox/2026-10-24_SD-T04_strategy_vote-set-B-options.md); `caplet/decisions/02_high_certainty_definition.md` | Tue 27 Oct | Whole team |
 | D3 | Shortfall order if the ladder costs more than $300k, and where the 2027 leftover sits | 2028 deposit first, longest rungs first / leftover in cash or a short Treasury ETF vs in VT | [T04b](../office/outbox/2026-10-24_SD-T04_strategy_vote-set-B-options.md); R1 | Tue 27 Oct | Whole team |
 | D4 | Floor definition and the 2031 valuation date | Floor = IBTM value rounded down / a fixed dollar figure; value on 1 Jan 2031 vs the announcement date | [T04b](../office/outbox/2026-10-24_SD-T04_strategy_vote-set-B-options.md); `keel/library/range_2031/README.md` | Tue 27 Oct | Whole team |
