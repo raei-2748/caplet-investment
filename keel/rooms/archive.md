@@ -1,11 +1,10 @@
 # The Archive: what is locked (real records)
 
-> **State (last run Sat 24 Oct, 19:30 AEDT, Tess).** Locked text held below word for word (TNA read from the live Doc
-> 24 Oct; all 11 WInS notes identical to the 14 Oct export). Coherence register A1-A10: 0 contradictions, 3 WATCH
-> (A1 stock return 7.5%, A2 inflation scope, A4 no price-triggered sales). LEDGER on the day branch now carries every
-> AI use found on any branch to 24 Oct 19:00 AEDT. AI_USE.md s5 rows staged below, paste due Sun 25 Oct (default in
-> `../pm/ASK_HUMANS.md`). Next run: start from `git log --since` this time; re-read only changed IPS drafts and
-> LEDGER/outbox; re-run the checks in "How this was checked".
+> **State (last run Sun 25 Oct, 19:40 AEDT, Tess).** Locked text below unchanged (TNA as read 24 Oct; 11 WInS notes).
+> Register A1-A13: 0 contradictions; A1 now HOLDS (Library LC-02); 4 WATCH (A2, A4, A11 "release" on the ETF rungs,
+> A12 D1 dial 1 without dial 2). LEDGER complete to 25 Oct 19:00 AEDT (3 rows added, 1 duplicate removed). AI_USE.md s5
+> rows pasted 25 Oct (records only; ss1-3 still for a student by Sat 31 Oct). Next run: `git log --since='2026-10-25 19:40 +1100'`;
+> re-read only changed IPS drafts (`keel/drafts/`, `/mnt/project-files/ips/`), LEDGER and outbox; re-run "How this was checked".
 >
 > Room card: `../OFFICE.md`. Keeper: Tess (`evidence-archivist`, `ai-use-recorder`); `coherence-checker` works here for
 > Nora. Rule: nothing new may contradict anything on this page. Read it before drafting any deliverable.
@@ -44,11 +43,11 @@ Counts (`../office/tools/textcheck.py`): reflection 1 99 by spaces / 98 strict; 
 
 
 ## Coherence register (what new work must agree with)
-Checked 24 Oct against: IPS edits v3 (`/mnt/project-files/ips/IPS_edits_v3_2026-10-24.md`, pitch 45 / IPS 471), Tab 15
+Checked 25 Oct against: IPS v4.1 vote copy (`../drafts/ips_v4_1_2026-10-25/`, pitch 37 / IPS 480), Package B (`night_2026-10-25/v4/B_*.txt`), Courtroom C-01, Lab L-08 (Extended Reserve: consistent, "begun six years early"), Library S-03. Checked 24 Oct against: IPS edits v3 (`/mnt/project-files/ips/IPS_edits_v3_2026-10-24.md`, pitch 45 / IPS 471), Tab 15
 export, vote set B options and ballot (SD-T04, SD-T12), Laura's Room option A, Lab L-03, Writing Room cut packages.
 | # | Locked words | New work | Status | The rule from now on |
 |---|---|---|---|---|
-| A1 | VT reflection: "a forecast return of about 7.5% a year (as per JPMorgan)" | IPS V5 assumed 7% (2026 LTCMA); the 21 Oct teardown called 7.5% FALSE (EAFE row of the 2026 edition). WO-0003 (21 Oct): J.P. Morgan's 2027 LTCMA, released 19 Oct, puts global equities at 7.5%. IPS v3 states no return figure | **WATCH** | The locked line stands on the 2027 edition. Any stock return the IPS or Final Report states is 7.5% (2027 LTCMA) or says why it differs. The teardown's FALSE verdict is superseded once the Library confirms the 2027 figure at source |
+| A1 | VT reflection: "a forecast return of about 7.5% a year (as per JPMorgan)" | Library LC-02 (25 Oct): J.P. Morgan 2027 LTCMA p. 8 raises global equity "to 7.5%" (matrix behind a login). IPS v4.1 states no return | **HOLDS** (was WATCH) | Any stock return stated is "J.P. Morgan 2027 LTCMA, global equity, 7.5%" or none; no "compound"/"ACWI" until a human opens the matrix. The 21 Oct teardown's FALSE is superseded |
 | A2 | Reflection 1: payments "fixed in nominal dollars", so TIPS "would hedge against a nonexistent inflation risk" | IPS v3: "Inflation or a stronger Taiwan dollar raises costs in Taiwan; the rest of her half covers overruns first"; Laura's Room option A adds a 3.5%/yr rate | **WATCH** (consistent today) | Inflation belongs to facility and overrun costs, never to the payments. No sentence may say inflation threatens a payment |
 | A3 | Reflection 1: "a near-ironclad guarantee, and we provide exactly that"; reflection 2: payout "a net asset value, as opposed to a promise of par" | IPS v3: "every payment is owned in Treasuries by 2028. No stock has to rise. Only reinvested coupons and the ETF payouts can leave one short." | Consistent | The IPS definition is the "near" in "near-ironclad", spelled out. Don't soften it to "aim"/"likely" (reverses "we provide exactly that") or harden it to "guaranteed" (reverses the NAV line) |
 | A4 | Reflection 1: "Every year the bonds sit untouched is a good year"; reflection 2: "we'll simply ignore price noise" | IPS v3 P6: "replacing any holding that becomes unavailable"; the "held without trading" sentence was cut. No D1-D6 option sells a payment holding | **WATCH** (consistent today) | A payment holding is replaced only when it becomes unavailable, never because of its price |
@@ -58,6 +57,9 @@ export, vote set B options and ballot (SD-T04, SD-T12), Laura's Room option A, L
 | A8 | Reflection 1 names TIPS, as rejected | Week 4 email bans TIPS/STRIPS; SD-R11: IPS names neither | Consistent | Rejected-on-merit is already on the record; the IPS needn't repeat it |
 | A9 | No locked text uses roots, branches or "Root & Branch" | Ray, 24 Oct: name and roots motif out | Consistent | Dropping it costs no coherence. A new motif must not contradict "VT is where we allow ourselves to be wrong" |
 | A10 | (spine) North Star memo: "commit only money she already owns" | IPS v3: floor bought only from the 2028 remainder; the 2027 deposit goes to payments | Consistent | `00_SPINE.md` (PR #25) is not on the day branch yet; the memo governs until it is |
+| A11 | Reflection 2: iBonds' "terminal payout is a net asset value, as opposed to a promise of par"; IBTM note: "the final payout is not fixed" | v4.1 pitch: payments bought "in Treasuries held to maturity"; Package B pitch "Like an extended-release pill, they release one payment each January" and IPS "Each payment's Treasury releases its cash by maturing"; Library S-03 rule: "release" only for Treasuries held to maturity | **WATCH** | Five of the ten payments (2033-37) sit in iBonds ETFs. A "release" or "held to maturity" line may cover them only if nothing beside it says or implies a fixed dollar amount ("exactly", "$50,000 released", "fixed"). The rung pays NAV; the TNA already told the judges so |
+| A12 | VT note: "her promised minimum"; IBTM note: "a floor ... giving co-sponsors a minimum figure in 2031" | Courtroom C-01 (25 Oct): dial 1, P5 ends "and last from the floor itself"; dial 2, the 2031 bottom quoted "less a margin for coupon risk". v4.1 P5: moving floor money into stocks "could break a number Laura has quoted, so we refuse" | **WATCH** (consistent if voted together) | Dial 1 alone lets a coupon gap draw the floor, so the quoted minimum breaks in 0.75% of paths (MODEL, 22 Oct curve), and P5's own refusal reason then reads half-true. With dial 2 it is 0.11%. Vote dial 1 and dial 2 as a pair, or keep v4.1's two-step P5 |
+| A13 | Note 1 (Feb-2037 bond): "proceeds held in a short-term Treasury ETF" | v4.1 P6: "Coupons and early maturities wait in a short-term Treasury ETF"; R14: no WInS listing check yet for such an ETF | Consistent | Keep a short-term Treasury holding as the waiting place. If WInS lists none (T24), say "Treasury bills" or name a listed holding, never "cash" alone, which would read as a change from the submitted note |
 
 ## The AI-use record
 `../office/LEDGER.md` (one row per office answer) and `../../caplet/docs/AI_USE.md` (lines for the Works Cited).
@@ -69,7 +71,7 @@ file written on or after 23 Oct that quotes the submitted text (VOICE.md, ladder
 files only, not chats (ChatGPT, Claude.ai) or the Doc's suggestion history. It is evidence for the students, not an answer:
 each writer still says what was theirs.
 
-**Staged for `AI_USE.md` s5 on Sun 25 Oct** (SD-T11's eight rows, with the last row completed to 24 Oct 19:00):
+**Pasted into `AI_USE.md` s5 on Sun 25 Oct** (plus three new rows: Codex reviews, the outside review Ray pasted, Keel 25 Oct) (SD-T11's eight rows, with the last row completed to 24 Oct 19:00):
 | Date (AEST) | Tool | What the AI did | Output | Student decision |
 |---|---|---|---|---|
 | 2026-10-16 | Claude Code | Assistant review 30 Sep-15 Oct, North Star memo, IPS pre-mortem, number checks (AI research, not for submission) | `keel/library/assistant_review_2026-10/` | |
