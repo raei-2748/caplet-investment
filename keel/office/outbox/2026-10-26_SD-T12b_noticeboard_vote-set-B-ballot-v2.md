@@ -17,7 +17,10 @@ Replaces the D1 row of ballot v1 (`2026-10-24_SD-T12_judging_vote-set-B-ballot.m
 | D1a | If coupons fall short, is the floor the last source, after the half Laura keeps and the gift above the floor? | yes / no | **yes** (Courtroom: "makes 'high certainty' literally true") | yes: `ips_no_D1.txt` (486 strict) ends P5 "...and last from the floor itself" |
 | D1b | Is the 2031 bottom quoted below the projected floor, to leave room for coupon risk? | a. no margin / b. a margin (size on the sheet, e.g. $10k) / c. a separate $10k Treasury buffer | **b** (same protection as c, no second holding, no extra sentence) | b: `ips_two_dials.txt` (492 strict) adds "less a margin for coupon risk" in P4. a: `ips_no_D1.txt`. c: `ips.txt` (480) plus a buffer sentence not yet written |
 
-What each D1b option does (22 Oct curve, 2027 edition, 200,000 paths, MODEL; C-01 table, with D1a = yes):
+What each D1b option does (22 Oct curve, 2027 edition, 200,000 paths, MODEL; C-01 table, with D1a = yes).
+**Basis note:** C-01 runs on `ips_numbers.py`, whose median quoted bottom is about $145k; D4's "~$140k" comes from
+`range_2031.py` (the known split, SD-P02). Read these rows as how often each option breaks *its own* quoted bottom,
+not as figures for D4's $140k; they have not been re-run on that basis.
 | | 2033 gift below the quoted bottom | Median quoted top | Laura keeps, worst 1 in 20 |
 |---|---|---|---|
 | a. no margin | 0.75% (about 1 in 130) | $166k | $0 |
