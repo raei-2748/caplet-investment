@@ -1,6 +1,6 @@
 # Risk register (real; reviewed every Sunday and whenever a trigger fires)
 
-Last reviewed: Sun 25 Oct 2026 weekly plan (R3, R6, R12 raised; R14, R15 new; R1 unchanged: no curve newer than 22 Oct, P03).
+Last reviewed: Sun 25 Oct 2026 weekly plan (R3, R12 raised; R14, R15 new; R1 unchanged: no curve newer than 22 Oct, P03).
 Score = Likelihood (1-3) x Impact (1-3). Impact 3 = could cost the semifinal or exclude us. Owner = the Keel desk
 that watches it; the response is always a proposal to Caplet. Numbers carry date and basis; MODEL = estimate.
 | ID | Risk | L | I | S | Owner | Early warning (trigger) | Response | Status |
@@ -10,7 +10,7 @@ that watches it; the response is always a proposal to Caplet. Numbers carry date
 | R3 | AI authorship: AI wording submitted, or AI use not recorded in the Works Cited. **Raised 25 Oct:** Keel has a complete vote copy (IPS v4.1) and the students have no outline yet, so pasting it is the easy path | 3 | 3 | 9 | Tess | [AI] suggestions still open; LEDGER rows without an AI-use line. 24 Oct: `caplet/docs/AI_USE.md` says AI never drafts prose, which no longer matches practice (check 2026-10-24) | Students write from voted rules [T13]; Keel version freeze Tue 27 Oct [T23]; AI-use log weekly [T11] | Open |
 | R4 | IPS freezes without a rule the Final Report needs; Final Report would then change strategy | 2 | 3 | 6 | Felix | Rule checklist gap after 27 Oct. 24 Oct: 12 rules listed; V5 export has 8, 3 partial, 1 missing (coupon risk); 5 wait on votes D1-D5 (SD-T05) | Checklist done [T05]; votes [T12]; re-run on draft [T22] | Open |
 | R5 | Numbers on mixed bases or with no source contradict each other across the three deliverables | 2 | 2 | 4 | Jun | A figure without a date and basis in any draft. 24 Oct: three scripts give $298,861 / $300,224 / $302,139 on one curve (SD-T03). 25 Oct: IPS v4 text has no model number; vote copy mixes 15/22 Oct curves and 7.0%/7.5% editions (SD-P02) | Numbers kept out of the IPS; P06 re-run at 7.5%; one-basis sheet P02; fact-checker on every memo | Open |
-| R6 | Signed school letter missing or late (exclusion). 25 Oct: request (T18) two days overdue, no record | 2 | 3 | 6 | Tess | Not requested by Fri 23 Oct, or not in hand by Fri 20 Nov | Request now [T18]; in hand [T21] | Open |
+| R6 | Signed school letter missing or late (exclusion). Ray, 24 Oct: it comes later; not a blocker, not chased | 1 | 3 | 3 | Tess | Not requested by Fri 23 Oct, or not in hand by Fri 20 Nov | Request now [T18]; in hand [T21] | Open |
 | R7 | SMApply form limits or counting differ from our checks (IPS is now a form) | 2 | 2 | 4 | Felix | Form fields unknown by 31 Oct | Ray checks the form [T15]; 470/45-word margin | Open |
 | R8 | WInS book does not match the IPS at the lock, or a needed order fills too late | 1 | 2 | 2 | Kai | A vote changes the book after 2 Nov | Last order by Thu 5 Nov 08:00 [T16] | Open |
 | R9 | The plan is correct but forgettable | 3 | 2 | 6 | Nora | Outside reader cannot repeat the idea in one sentence | Human scores [T14], mock judges [T08], drill P01 | Open |

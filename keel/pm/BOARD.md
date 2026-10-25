@@ -8,9 +8,8 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sun 25 Oct 202
    rule each vote adds. Ladder room is 4bp (22 Oct close), so D1 and D3 decide real money.
 2. **IPS in the students' own words: outline Wed 28 Oct, draft Sat 31 Oct [T13]** (named student authors). Keel
    stops writing whole versions after Tuesday [T23]; v4.1 is a vote copy to argue with, not text to paste.
-3. **School letter request [T18], overdue since Fri 23 Oct** (Ray or the advisor). Missing letter = exclusion (R6).
-   Same day if possible: Ray's read-only checks by Sat 31 Oct, SMApply form fields [T15] and the short-term Treasury
-   ETF listing on WInS [T24].
+3. **Ray's read-only checks by Sat 31 Oct:** SMApply IPS form fields [T15] and the short-term Treasury ETF listing on
+   WInS [T24]. (School letter: comes later per Ray, 24 Oct; not a blocker, not chased.)
 
 ## Doing
 | ID | Task | Owner | Due | P | Done when | Notes |

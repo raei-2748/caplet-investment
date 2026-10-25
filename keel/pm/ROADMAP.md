@@ -15,7 +15,7 @@ deliverable does not move on until the gate is met. Detail lives in `keel/office
 ## M2 IPS and trading lock: Sat 7 Nov 09:00 (Fri 6 Nov 5 pm ET); strategy frozen after it
 | When | Milestone | Owner | Gate |
 |---|---|---|---|
-| Fri 23 Oct | School letter requested [T18] | Ray / advisor | Request sent. **OVERDUE** (no record, 25 Oct) |
+| Fri 23 Oct | School letter requested [T18] | Ray / advisor | Request sent. Comes later (Ray, 24 Oct): not a blocker, not chased |
 | Sun 25 Oct | Keel vote copy IPS v4.1 (pitch 37, IPS 480 strict; AI DRAFT) | Tess | Done: `keel/drafts/ips_v4_1_2026-10-25/` |
 | Mon 26 Oct | Vote sheet on one basis (7.5% edition, 22 Oct curve) [P02, P06 done]; D1 buffer size priced | Jun | Every ballot figure dated, one edition |
 | Tue 27 Oct | **Vote set B** [T12] (D1-D7) | Whole team | Votes and dissent logged in `caplet/decisions/LOG.md` |

@@ -30,7 +30,7 @@ Keep / Stop / Start / The one change: (team)
 - **Went to plan:** TNA submitted Fri 23 Oct, a day before the deadline (T01); office set up (T00a-c); rule checklist
   (T05), ladder reprice (T03), vote options (T04a-c), one-basis sheet (P02) and the 7.5% re-run (P06) all landed
   before Tuesday's vote.
-- **Did not:** school-letter request (T18) is two days overdue with no record; vote set A (18 Oct) was never logged;
+- **Did not:** vote set A (18 Oct) was never logged;
   the TNA picks were changed without a vote record; treasury.gov is still blocked (P03), so R1 rests on the 22 Oct close.
 - **Cost us:** volume. IPS v1 to v4.1 in three days and five rooms in one Sunday (R12 triggered). Four of five fixes
   on 24 Oct were our own dates and editions (Rooftop, 24 Oct), which is churn we made ourselves.
