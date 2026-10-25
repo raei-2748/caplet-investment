@@ -35,8 +35,8 @@ Students need to:
 - Whole team: the TNA retro (was Sun 25 Oct) isn't in `keel/pm/RETROS.md` yet. Unless you say otherwise, we will
   fold it into the last 10 minutes of Tuesday's meeting.
 - IPS authors: outline on Wed 28 Oct. Unless you say otherwise, the Writing Room will list cut options by then.
-- Ray: ask Wharton what "required trading activity" means by Fri 30 Oct. Unless you say otherwise, we will assume
-  the 11 trades already made are enough.
+- Ray: ask Wharton what "required trading activity" means by Fri 30 Oct, so any order it needs can still fill
+  before the lock. Unless you say otherwise, we will keep it on every brief until the answer is filed.
 
 Open questions (our default if nobody answers):
 - Vote D1 as two questions? Default: yes, ballot v2 (by Tue 27 Oct).
