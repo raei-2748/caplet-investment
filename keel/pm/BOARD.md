@@ -13,7 +13,6 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sun 25 Oct 202
 ## Ready (ranked)
 | ID | Task | Owner | Due | P | Done when | Notes |
 |---|---|---|---|---|---|---|
-| P06 | Re-run the four MODEL tail figures (9.0%, 2.9%, 29%, ~$140k) at the 2027 J.P. Morgan 7.5% so the vote copy is on one edition | Jun (Genius Lab; numbers-auditor) | Mon 26 Oct | 6 | Old and new values side by side, one table, existing scripts only | SD-P02 table B; promoted by the Noticeboard (checking work, quiet period) |
 | T22 | Re-run the T05 rule checklist on the students' IPS draft | Felix (rules-verifier) | Sat 31 Oct | 6 | All 12 rows OK or flagged on the new draft | Waits for T13 draft; checklist SD-T05 |
 | T07 | Coherence check: IPS draft vs the TNA reflections and the 11 filed notes | Nora (coherence-checker) | Sun 1 Nov | 2 | One page, contradictions listed with line refs | Waits for T13 draft |
 | T08 | Mock-judge panel on the IPS, after the human scores are logged | Nora (mock-judge; `office-judge-panel`) | Mon 2 Nov | 2 | Scores per criterion + the weakest line | CHARTER 6: humans score first |
@@ -47,6 +46,7 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sun 25 Oct 202
 ## Done
 | ID | Task | Owner | Done | Output |
 |---|---|---|---|---|
+| P06 | Re-run the four tail figures at the 2027 J.P. Morgan 7.5% | Jun | Sun 25 Oct | `keel/rooms/lab/P06_rerun/README.md`: only 29% -> 28% moves (9%, 3%, $140k unchanged) |
 | P02 | Numbers on one basis: every number in IPS v4 and the vote copy with source, edition/curve date, basis, label | Jun | Sun 25 Oct | `keel/office/outbox/2026-10-25_SD-P02_numbers_one-basis-sheet.md` |
 | T05 | IPS rule checklist: 12 rules the IPS must fix so the Final Report can follow; V5 checked | Felix | Sat 24 Oct | `keel/office/outbox/2026-10-24_SD-T05_rules_ips-rule-checklist.md` |
 | T06 | TNA retro fact sheet | Tess | Sat 24 Oct | `keel/pm/RETROS.md` (TNA facts) |
