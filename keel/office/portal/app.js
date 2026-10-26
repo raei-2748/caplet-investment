@@ -297,9 +297,21 @@
     return `<ul class="feed">${ms.slice(0, n).map(m => `<li><time>${esc(m.date)}</time><div><a href="#/doc/${esc(m.path)}">${esc(m.title)}</a>${m.takes.length ? `<div class="room">takes: ${m.takes.map(t => esc(t.name)).join(", ")}</div>` : ""}</div></li>`).join("")}</ul>`;
   }
 
+  function bibleCard() {
+    const B = K.bible;
+    if (!B || !B.rules) return "";
+    const byName = Object.fromEntries(K.members.map(m => [m.name.split(" ")[0], m]));
+    return `<section class="card bible"><div class="sec-head"><span class="tag px">The bible · read first, every run</span><a href="#/doc/${esc(B.doc)}">Ray's full message →</a></div>
+      <blockquote>${esc(B.quote)}<cite>${esc(B.said)}</cite></blockquote>
+      <ol class="rules">${B.rules.map(r => `<li><b>${esc(r.lead)}</b> ${esc(r.text)}</li>`).join("")}</ol>
+      ${B.takes.length ? `<div class="sec-head" style="margin-top:1rem"><h2>What it changes for each of us</h2><a href="#/doc/${esc(B.takes_doc)}">All six takes →</a></div>
+      <div class="takes">${B.takes.map(t => { const m = byName[t.name]; return `<div class="take-card">${m ? `<a href="#/member/${m.id}">${avatar(m.id, 40, m.name)}</a>` : ""}<div><span class="px">${esc(t.name)}</span> <span class="tiny muted">${esc(t.room)}</span><p>${esc(t.text)}</p></div></div>`; }).join("")}</div>` : ""}
+    </section>`;
+  }
+
   function pageHome() {
     const v = latest(), prev = K.ips[K.ips.length - 2];
-    const openAsks = K.asks.filter(a => !a.status.startsWith("answered")).length;
+    const danger = K.asks.filter(a => a.status.startsWith("Danger")).length, calls = K.asks.filter(a => a.status === "Keel's call").length;
     const day = Date.now() - 864e5, week = Date.now() - 7 * 864e5;
     const c24 = K.commits.filter(c => new Date(c.at) > day).length;
     const onTime = K.rooms.filter(r => r.health === "on time").length;
@@ -308,12 +320,13 @@
     app.innerHTML = `
       <section class="hero"><div>${avatarsRow(44)}</div><div><h1>The office, live</h1>
         <p class="lede">Six simulated students working for Team Caplet in the Wharton Global High School Investment Competition. Every room's run, every IPS draft and every commit, straight from the repo. Updated ${esc(K.meta.built)}.</p></div></section>
+      ${bibleCard()}
       <section class="tiles">${countdowns()}</section>
       <section class="tiles">
         <a class="tile" href="#/ips/${v.n}"><span class="px">Latest IPS</span><b class="num">V${v.n}</b><span>${esc(v.label)} · ${v.ips_words}/500 words</span></a>
         <a class="tile" href="#/rooms"><span class="px">Rooms on time</span><b class="num">${onTime}/${K.rooms.length}</b><span>${esc(K.meta.health)}</span></a>
         <a class="tile" href="#/activity"><span class="px">Commits, 24 h</span><b class="num">${c24}</b><span>${K.commits.length} since 27 Sep</span></a>
-        <a class="tile" href="#/plan"><span class="px">Questions for you</span><b class="num">${openAsks}</b><span>Keel goes ahead on its default meanwhile</span></a>
+        <a class="tile" href="#/plan"><span class="px">Danger zone: yours</span><b class="num">${danger}</b><span>Keel made the other ${calls} calls itself</span></a>
       </section>
       <section class="two">
         <div class="card"><div class="sec-head"><h2>IPS: ${K.ips.length} versions so far</h2><a href="#/ips">All versions and diffs →</a></div>
@@ -417,23 +430,48 @@
     if (!r) return notFound();
     const cs = K.commits.filter(c => c.room === id), ms = K.memos.filter(m => m.room === id), rl = K.runlog.filter(x => x.rid === id);
     const people = K.members.filter(m => /all six|everyone/i.test(r.who) || r.who.includes(m.name));
+    const week = Date.now() - 7 * 864e5, c7 = cs.filter(c => new Date(c.at) > week).length;
+    const last = cs.length ? shortWhen(cs[0].at) : "–";
+    // Decisions: the current one first, then what the room decided before (git history of its Now block)
+    const decs = (r.decisions || []).slice();
+    if (r.decided && !decs.some(d => d.text === r.decided)) decs.unshift({ date: "Now · " + (r.updated || ""), text: r.decided });
+    // Work, grouped by folder; long groups fold away
+    const groups = {};
+    r.work.forEach(w => { const f = w.path.replace(/^keel\//, "").split("/").slice(0, -1).join("/") || "keel"; (groups[f] = groups[f] || []).push(w); });
+    const tidy = t => t.replace(/^FICTION(\s*\([^)]*\))?(\s*\+\s*real [^.]*)?\.\s*/i, "");
+    const workItem = w => `<li><a href="#/doc/${esc(w.path)}"><span>${esc(tidy(w.title))}</span><span class="tiny muted">${esc(w.path.split("/").pop())}</span></a></li>`;
+    const workHtml = Object.entries(groups).map(([f, ws]) => `<div class="wgroup"><h3 class="px">${esc(f)} <span class="muted">${ws.length}</span></h3>
+      <ul class="folder">${ws.slice(0, 6).map(workItem).join("")}</ul>${ws.length > 6 ? `<details><summary>${ws.length - 6} more</summary><ul class="folder">${ws.slice(6).map(workItem).join("")}</ul></details>` : ""}</div>`).join("");
+    // Latest outputs: run-log rows and memos, newest first
+    const outs = [...rl.map(x => ({ when: x.date, kind: "Run", text: x.output, sub: x.aim ? `aimed at ${x.aim}` : "", href: "" })),
+      ...ms.map(m => ({ when: m.date, kind: "Memo", text: m.title, sub: m.takes.length ? `takes: ${m.takes.map(t => t.name).join(", ")}` : "", href: `#/doc/${m.path}` }))].slice(0, 6);
     app.innerHTML = `
       <div><div class="crumbs"><a href="#/">Office</a>›<a href="#/rooms">Rooms</a>›<span>${esc(r.name)}</span></div>
         <div class="hero"><div class="who" style="display:flex;gap:4px">${people.map(m => `<a href="#/member/${m.id}">${avatar(m.id, 48, m.name)}</a>`).join("")}</div>
-        <div><h1>${esc(r.name)}</h1><p class="lede">${esc(r.who)} · ${esc(r.schedule)} · ${pill(r.health)} · updated ${esc(r.updated)}</p></div></div></div>
-      <section class="two">
-        <div class="card"><h2>Now</h2><dl class="now"><dt>Doing</dt><dd>${esc(r.doing)}</dd><dt>Decided</dt><dd>${esc(r.decided)}</dd><dt>Next</dt><dd>${esc(r.next)}</dd><dt>For the judges</dt><dd>${esc(r.for_judges)}</dd></dl></div>
-        <div class="card side"><div class="tiles"><div class="tile"><span class="px">Commits</span><b class="num">${cs.length}</b></div><div class="tile"><span class="px">Memos</span><b class="num">${ms.length}</b></div><div class="tile"><span class="px">Runs logged</span><b class="num">${rl.length}</b></div></div>
-          <p class="small" style="margin:0">${[docLink(r.log, "Room log"), docLink(r.runbook, "Runbook (how this room works)")].filter(Boolean).join(" · ")}</p></div>
+        <div><h1>${esc(r.name)}</h1><p class="lede">${esc(r.who)} · ${esc(r.schedule)} · ${pill(r.health)}</p></div></div></div>
+      <section class="card room-now"><div class="sec-head"><span class="tag px">Right now</span><span class="small muted">updated ${esc(r.updated)}</span></div>
+        <p class="doing">${esc(r.doing || "Nothing logged yet.")}</p>
+        <div class="now-grid"><div><span class="px">Decided</span><p>${esc(r.decided || "–")}</p></div><div><span class="px">Next</span><p>${esc(r.next || "–")}</p></div><div><span class="px">Why it matters to the judges</span><p>${esc(r.for_judges || "–")}</p></div></div>
+        <p class="small" style="margin:.8rem 0 0">${[docLink(r.runbook, "How this room works"), docLink(r.log, "Room log")].filter(Boolean).join(" · ")}</p></section>
+      <section class="tiles">
+        <div class="tile"><span class="px">Runs logged</span><b class="num">${rl.length}</b></div>
+        <div class="tile"><span class="px">Memos</span><b class="num">${ms.length}</b></div>
+        <div class="tile"><span class="px">Commits, 7 days</span><b class="num">${c7}</b><span>${cs.length} in all</span></div>
+        <div class="tile"><span class="px">Last activity</span><b class="num" style="font-size:1.1rem">${esc(last)}</b></div>
       </section>
       <section class="two">
-        <div class="card"><h2>Memos</h2>${memoList(ms, 20)}</div>
-        <div class="card"><h2>Commits</h2>${commitFeed(cs, 20)}</div>
+        <div class="card"><h2>Decisions</h2>${decs.length ? `<ol class="timeline">${decs.map((d, i) => `<li${i ? "" : ' class="current"'}><time>${esc(d.date)}</time><p>${esc(d.text)}</p></li>`).join("")}</ol>` : `<p class="empty">No decisions logged yet.</p>`}</div>
+        <div class="card"><h2>Latest output</h2>${outs.length ? `<ul class="outs">${outs.map(o => `<li><span class="kind">${o.kind}</span><div>${o.href ? `<a href="${esc(o.href)}">${esc(o.text)}</a>` : esc(o.text)}<div class="tiny muted">${esc(o.when)}${o.sub ? " · " + esc(o.sub) : ""}</div></div></li>`).join("")}</ul>` : `<p class="empty">Nothing yet.</p>`}</div>
       </section>
-      ${r.work.length ? `<section class="card"><h2>Work this room made</h2><ul class="folder">${r.work.map(w => `<li><a href="#/doc/${esc(w.path)}"><span>${esc(w.title)}</span><span class="tiny muted">${esc(w.path.replace(/^keel\//, ""))}</span></a></li>`).join("")}</ul></section>` : ""}
-      ${rl.length ? `<section><h2>Run log</h2><div class="tbl"><table><thead><tr><th>When</th><th>Output</th><th>Aimed at</th><th>Used by</th></tr></thead><tbody>${rl.map(x => `<tr><td>${esc(x.date)}</td><td class="w">${esc(x.output)}</td><td>${esc(x.aim)}</td><td>${esc(x.used_by)}</td></tr>`).join("")}</tbody></table></div></section>` : ""}
-      ${r.log ? `<section class="card"><h2>Room log</h2><div class="doc" id="roomlog"><p class="muted">Loading…</p></div></section>` : ""}`;
-    if (r.log) loadDoc(r.log, app.querySelector("#roomlog"));
+      ${r.work.length ? `<section class="card"><div class="sec-head"><h2>Work this room made</h2><span class="small muted">${plural(r.work.length, "file")}</span></div><div class="wgroups">${workHtml}</div></section>` : ""}
+      <section class="history"><h2>History</h2>
+        ${rl.length ? `<details><summary>Run log <span class="muted">${rl.length}</span></summary><div class="tbl"><table><thead><tr><th>When</th><th>Output</th><th>Aimed at</th><th>Used by</th></tr></thead><tbody>${rl.map(x => `<tr><td>${esc(x.date)}</td><td class="w">${esc(x.output)}</td><td>${esc(x.aim)}</td><td>${esc(x.used_by)}</td></tr>`).join("")}</tbody></table></div></details>` : ""}
+        ${ms.length ? `<details><summary>All memos <span class="muted">${ms.length}</span></summary>${memoList(ms, 100)}</details>` : ""}
+        ${cs.length ? `<details><summary>All commits <span class="muted">${cs.length}</span></summary>${commitFeed(cs, 200)}</details>` : ""}
+        ${r.log ? `<details id="logbox"><summary>Full room log</summary><div class="doc" id="roomlog"><p class="muted">Loading…</p></div></details>` : ""}
+      </section>`;
+    const lb = app.querySelector("#logbox");
+    if (lb) lb.addEventListener("toggle", () => { if (lb.open && !lb.dataset.done) { lb.dataset.done = 1; loadDoc(r.log, app.querySelector("#roomlog")); } });
   }
 
   function pageTeam() {
@@ -452,6 +490,7 @@
       <p class="notice fiction" style="margin:.7rem 0 0">Keel is a simulated team, AI-written. None of the six is based on a real person.</p></div></div></div>
       <section class="two"><div class="card"><h2>Latest take</h2><p class="prose" style="margin:.4rem 0 0">${esc(m.take)}</p><p class="small muted">${esc(m.take_date)}</p></div>
         <div class="card"><dl class="now">${prof.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl></div></section>
+      ${(K.bible && K.bible.takes || []).filter(t => t.name === m.name.split(" ")[0]).map(t => `<section class="card bible"><span class="tag px">On the bible</span><p style="margin:.5rem 0 0">${esc(t.text)}</p><p class="small" style="margin:.4rem 0 0"><a href="#/doc/${esc(K.bible.doc)}">Read the bible →</a></p></section>`).join("")}
       <section class="card"><h2>In the memos</h2>${takes.length ? `<ul class="feed">${takes.map(t => `<li><time>${esc(t.memo.date)}</time><div>${esc(t.text)}<div class="room"><a href="#/doc/${esc(t.memo.path)}">${esc(t.memo.title)}</a></div></div></li>`).join("")}</ul>` : `<p class="empty">No labelled takes yet.</p>`}</section>`;
   }
 
@@ -483,14 +522,22 @@
       <section class="grid wide">${eps.slice().reverse().map(e => `<a class="card" href="#/doc/${esc(e.path)}"><div class="sec-head"><span class="tag">Ep ${e.ep} · ${esc(e.date)}</span>${memberById[e.pov.toLowerCase()] ? avatar(e.pov.toLowerCase(), 28, e.pov) : ""}</div><h3 style="margin:.5rem 0 .3rem">${esc(e.title)}</h3><p class="small ink2" style="margin:0">${esc(e.what)}</p>${e.milestone && e.milestone !== "-" ? `<p class="tiny muted" style="margin:.4rem 0 0">Milestone: ${esc(e.milestone)}</p>` : ""}</a>`).join("")}</section>`;
   }
 
+  function askTable(title, lede, rows, col, open) {
+    if (!rows.length && title) return `<section><h2>${esc(title)}</h2><p class="empty">None.</p></section>`;
+    return `<section>${title ? `<h2>${esc(title)} <span class="muted">${rows.length}</span></h2><p class="small muted" style="margin:.2rem 0 .6rem">${esc(lede)}</p>` : ""}<div class="tbl"><table><thead><tr><th>Asked</th><th>Room</th><th>Question</th><th>${esc(col)}</th>${open ? "<th>By</th>" : "<th>Answer</th>"}</tr></thead><tbody>${rows.map(a => `<tr><td>${esc(a.date)}</td><td>${esc(a.owner)}</td><td class="w">${esc(a.name)}</td><td class="w">${esc(a.default)}</td><td${open ? "" : ' class="w"'}>${esc(open ? a.due : a.answer)}</td></tr>`).join("")}</tbody></table></div></section>`;
+  }
+
   function pagePlan() {
     const st = {}; K.instructions.forEach(i => { st[i.status] = (st[i.status] || 0) + 1; });
     const order = Object.keys(st).sort((a, b) => ({ good: 0, warn: 1, crit: 2, "": 3 }[tone(a)] - { good: 0, warn: 1, crit: 2, "": 3 }[tone(b)]));
     const colour = s => ({ good: "var(--good)", warn: "var(--warn)", crit: "var(--crit)" }[tone(s)] || "var(--axis)");
     app.innerHTML = `<div><div class="crumbs"><a href="#/">Office</a>›<span>Plan</span></div><h1>Projects, questions and your instructions</h1>
-      <p class="lede">Keel plans its own projects, asks Caplet only what is Caplet's to decide (and goes ahead on a default meanwhile), and tracks every instruction Caplet has given it.</p></div>
+      <p class="lede">Keel plans its own projects, makes its own calls (only danger-zone decisions wait for you), and tracks every instruction Caplet has given it.</p></div>
       <section><h2>Keel's projects</h2><div class="grid wide">${K.projects.map(p => `<div class="card"><div class="sec-head"><span class="tag">${esc(p.id)}</span>${pill(p.status)}</div><h3 style="margin:.5rem 0 .4rem">${esc(p.name)}</h3><dl class="now"><dt>For the judges</dt><dd class="small">${esc(p.for_judges)}</dd><dt>Next step</dt><dd class="small">${esc(p.next)}</dd></dl><p class="tiny muted" style="margin:.6rem 0 0">${esc(p.owner)} · due ${esc(p.due)}</p></div>`).join("")}</div></section>
-      <section><h2>Questions for Caplet</h2><div class="tbl"><table><thead><tr><th>Asked</th><th>Room</th><th>Question</th><th>Keel's default</th><th>By</th><th>Status</th></tr></thead><tbody>${K.asks.map(a => `<tr><td>${esc(a.date)}</td><td>${esc(a.owner)}</td><td class="w">${esc(a.name)}</td><td class="w">${esc(a.default)}</td><td>${esc(a.due)}</td><td>${pill(a.status.startsWith("answered") ? "answered" : "open")}</td></tr>`).join("")}</tbody></table></div></section>
+      ${askTable("Danger zone: waiting for you", "Irreversible or outward-facing (WInS orders, submitting, your docs, money, accounts). Keel recommends and does nothing until a student answers.", K.asks.filter(a => a.status.startsWith("Danger")), "Keel recommends", true)}
+      ${askTable("Keel's calls", "Ray, 26 Oct: \u201cjust make your own call whichever you think work the best\u201d. Each call with its one-line reason; overrule any of them in chat.", K.asks.filter(a => a.status === "Keel's call"), "Keel's call and why", true)}
+      ${askTable("Facts only you have", "Not decisions: Keel writes \u201cstudents to confirm\u201d and never invents them. Needed by the Final Report.", K.asks.filter(a => a.status.startsWith("Fact")), "Meanwhile", true)}
+      <section class="history"><details><summary>Answered by a student <span class="muted">${K.asks.filter(a => a.status === "Answered").length}</span></summary>${askTable("", "", K.asks.filter(a => a.status === "Answered"), "Keel's default", false)}</details></section>
       <section><div class="sec-head"><h2>Your instructions (${K.instructions.length})</h2>${docLink("keel/INSTRUCTIONS.md", "the register")}</div>
         <div class="stack" role="img" aria-label="Instructions by status">${order.map(s => `<span title="${esc(s)}: ${st[s]}" style="flex:${st[s]};background:${colour(s)}"></span>`).join("")}</div>
         <div class="legend">${order.map(s => `<span><span class="key" style="background:${colour(s)}"></span>${esc(s)} ${st[s]}</span>`).join("")}</div>

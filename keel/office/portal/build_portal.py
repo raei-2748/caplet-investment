@@ -312,6 +312,52 @@ def cast():
     return out
 
 
+def decisions(path):
+    """Every '- **Decided:**' line a room has written into its Now block, newest first, from git history."""
+    if not path:
+        return []
+    out, seen, when = [], set(), ""
+    log = git("log", "--format=%x1e%cI", "-p", "HEAD", "--remotes=origin/claude/*", "--", path)
+    for line in log.split("\n"):  # not splitlines(): it also splits on the \x1e record mark
+        if line.startswith("\x1e"):
+            when = dt.datetime.fromisoformat(line[1:].strip()).astimezone(SYD).strftime("%a %d %b")
+        elif line.startswith("+- **Decided:**"):
+            text = scrub(line.split("**Decided:**", 1)[1].strip())
+            if text and text not in seen:
+                seen.add(text)
+                out.append({"date": when, "text": text})
+    return sorted(out, key=lambda d: d["date"], reverse=True)[:12]
+
+
+def bible():
+    """keel/BIBLE.md (Ray's 26 Oct message, read first by every run) and the six members' takes on it."""
+    txt = (ROOT / "keel/BIBLE.md").read_text(encoding="utf-8") if (ROOT / "keel/BIBLE.md").exists() else ""
+    if not txt:
+        return {}
+    rules, cur = [], None
+    sec = txt.split("## The six rules", 1)[1].split("\n## ", 1)[0] if "## The six rules" in txt else ""
+    for line in sec.splitlines():
+        m = re.match(r"\d+\. \*\*(.+?)\*\*\s*(.*)", line)
+        if m:
+            cur = {"lead": m.group(1), "text": m.group(2)}
+            rules.append(cur)
+        elif cur and line.startswith("   "):
+            cur["text"] += " " + line.strip()
+    for r in rules:
+        r["text"] = re.sub(r"[`*]", "", r["text"]).strip()
+    takes = []
+    tk = ROOT / "keel/BIBLE_TAKES.md"
+    if tk.exists():
+        for para in tk.read_text(encoding="utf-8").split("\n\n"):
+            m = re.match(r"\*\*(\w+) \((.+?)\)\.\*\*\s*(.*)", para.strip(), re.S)
+            if m:
+                takes.append({"name": m.group(1), "room": m.group(2), "text": " ".join(m.group(3).split())})
+    return {"rules": rules, "takes": takes, "doc": "keel/BIBLE.md", "takes_doc": "keel/BIBLE_TAKES.md",
+            "quote": "There's only one real rule above all else. Both our IPS and our Final Report must be truly, "
+                     "exceptionally, stunningly, breathtakingly, extraordinary.",
+            "said": "Ray, Mon 26 Oct 2026: \u201cthis is bible\u201d"}
+
+
 # ---------- assemble ----------
 
 def room_docs(rid, known):
@@ -350,7 +396,8 @@ def main():
                       "log": r["file"] if r["file"] in known else "",
                       "work": [{"path": p, "title": titles.get(p, p)} for p in room_docs(rid, known)],
                       "commits": sum(1 for c in cs if c["room"] == rid),
-                      "memos": sum(1 for m in ms if m["room"] == rid)})
+                      "memos": sum(1 for m in ms if m["room"] == rid),
+                      "decisions": decisions(r["file"] if r["file"] in known else "")})
     cst = cast()
     members = []
     for m in of("member"):
@@ -372,6 +419,7 @@ def main():
         "projects": [{**p, "id": p["id"].removeprefix("project-")} for p in of("project")],
         "changes": of("change"), "asks": of("ask"), "instructions": of("instruction"),
         "ips": ips_versions(), "commits": cs, "runlog": rl, "memos": ms, "episodes": episodes(), "docs": docs,
+        "bible": bible(),
     }
     data = json.loads(scrub(json.dumps(data, ensure_ascii=False)))
     (out / "data.js").write_text("window.KEEL = " + json.dumps(data, ensure_ascii=False) + ";\n", encoding="utf-8")

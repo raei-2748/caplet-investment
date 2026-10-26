@@ -1,5 +1,10 @@
 # Runbook: The Archive
 
+> **Read `../../BIBLE.md` first (Ray, 26 Oct 2026: "this is bible").** It beats every rule on this page: extraordinary
+> above all; Caplet XR with both meanings (extended release; X = 10, R never "release"); no certainty policing (a
+> word is wrong only if false; iBonds held to liquidation are near-ironclad); Ray's voice, tested on his essays and
+> rewritten TNA; near-final IPS for review by Sat 31 Oct. No work is finished until the portal shows it.
+
 > Keel may edit this file (Ray, 25 Oct 2026). Change it only through the Sunday "Keel on Keel" step
 > (`../SELF_IMPROVEMENT.md`) or when a run finds a rule here that is plainly broken; log every change in
 > `../SELF_CHANGES.md`. Rules in `../INVARIANTS.md` win over anything here. Scheduled task: **Keel room: The Archive**, daily 19:10 (Sydney).

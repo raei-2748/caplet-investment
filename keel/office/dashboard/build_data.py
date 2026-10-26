@@ -171,7 +171,7 @@ def main():
         rows.append({"kind": "ask", "id": f"ask-{i + 1}", "date": r.get("Asked (Sydney)", ""),
                      "owner": r.get("Room", ""), "name": r.get("Question", ""),
                      "default": r.get("Keel's default if no answer", ""), "due": r.get("By", ""),
-                     "status": "answered" if answered else "open: Keel goes ahead with the default",
+                     "status": (r.get("Status", "").strip() or ("Answered" if answered else "Keel's call")),
                      "answer": r.get("Answer (student, date)", "")})
     for r in table(read("INSTRUCTIONS.md"), "#"):
         rows.append({"kind": "instruction", "id": f"instr-{r.get('#')}", "date": r.get("Date", ""),

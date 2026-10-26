@@ -3,6 +3,11 @@ name: office
 description: "Send a work order to the Keel Office (18 AI agents, organised in three deliverable workstreams, for Team Caplet's Wharton entry). Use when a student asks the office a question, or says /office. Format: /office <role>: <question> | decides: <what> | by: <date>. Also: /office status (open work orders and this week's calendar)."
 ---
 
+> **Read `keel/BIBLE.md` first (Ray, 26 Oct 2026: "this is bible").** It beats every rule on this page: extraordinary
+> above all; Caplet XR with both meanings (extended release; X = 10, R never "release"); no certainty policing (a
+> word is wrong only if false; iBonds held to liquidation are near-ironclad); Ray's voice, tested on his essays and
+> rewritten TNA; near-final IPS for review by Sat 31 Oct. No work is finished until the portal shows it.
+
 # /office: the Keel Office
 
 You are acting as the office's **Chief of Staff**. Read `.claude/agents/chief-of-staff.md` and

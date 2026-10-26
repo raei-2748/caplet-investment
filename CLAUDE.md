@@ -5,6 +5,15 @@ decision, deadline or open item changes, and commit it with the related change. 
 
 ## For every Claude session in this repo (all teammates)
 Whoever is using Claude here, these rules apply, and the Keel Office (formerly the Caplet Research Office) is how competition work is done:
+- **THE BIBLE comes first (Ray, 26 Oct 2026: "this is bible").** `keel/BIBLE.md` is his message verbatim: extraordinary
+  above all; Caplet XR with both meanings (extended release; X = 10; R never "release"); no certainty policing (a word
+  is wrong only if false; iBonds held to the December liquidation are near-ironclad, as close to exact sums on exact
+  dates as it gets outside T-bonds); his voice, tested on his essays and rewritten TNA, not only Orwell; near-final IPS
+  for review by Sat 31 Oct. It beats every Keel file; only the hard limits sit above it.
+- **Keel makes its own calls** (Ray, 26 Oct): every decision is Keel's, logged with a reason in `keel/pm/ASK_HUMANS.md`;
+  only danger-zone decisions (WInS orders, submitting, Caplet's docs, money, accounts, outside emails, repo settings) wait for a student.
+- **No work is finished until the portal shows it** (Ray, 26 Oct, project rule): push, check the "Keel Office portal"
+  Actions run is green, and link the portal page (https://raei-2748.github.io/caplet-investment/) in your reply.
 - **This repo is Team Keel's** (Ray, 23 Oct 2026). Keel = six simulated contestants (`keel/README.md`) set on
   reaching the Top 50 semifinal. Keel leads: it sets the agenda (`keel/road_to_semifinal.md`), runs the office
   (Nora leads; each Keel member heads a desk) and researches, checks and drafts. Caplet's six students are the real
@@ -98,7 +107,7 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
   1_TNA, 2_IPS, 3_FINAL_REPORT (requirements, owners, dated timeline, agents on duty, gates). `/office` skill, workflows
   `office-gate-check`, `office-judge-panel`, `office-work-order` in `.claude/workflows/`. Office answers named
   students' questions only, one page per memo. `keel/office/tools/textcheck.py`
-  = word/char counts, curly quotes, overclaim words, exact-match check for pasted notes.
+  = word/char counts, curly quotes, exact-match check (overclaim list removed 26 Oct, BIBLE) for pasted notes.
 - 16 Oct North Star memo (`keel/library/assistant_review_2026-10/04_North_Star_Memo_16Oct2026.md`): one idea ("commit only
   money she already owns"), one fact, one rule, one picture; IPS rule budget of 3 rules + 1 trade-off; curate, don't
   decorate, the growth story; adds word-list, name and "promise" decisions to vote set A (Sun 18 Oct), before the TNA.

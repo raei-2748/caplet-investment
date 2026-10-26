@@ -1,5 +1,10 @@
 # Keel leads itself (Ray, 24 Oct 2026)
 
+> **Read `../BIBLE.md` first (Ray, 26 Oct 2026: "this is bible").** It beats every rule on this page: extraordinary
+> above all; Caplet XR with both meanings (extended release; X = 10, R never "release"); no certainty policing (a
+> word is wrong only if false; iBonds held to liquidation are near-ironclad); Ray's voice, tested on his essays and
+> rewritten TNA; near-final IPS for review by Sat 31 Oct. No work is finished until the portal shows it.
+
 > **Scheduled runs start here (26 Oct 2026).** Before anything else, follow `runbooks/README.md` ("Every run, every
 > room"), then your room's runbook in `runbooks/` (room-to-file map: `SCHEDULE.md`). They supersede any older step in your
 > scheduled-task prompt, including copying files from old branches: `main` already holds all of Keel's work.
@@ -31,7 +36,8 @@ output names the star it raises; one that raises none and no judging criterion i
 - Keel plans its own multi-day work in `PROJECTS.md` (the Long Room opens, merges and kills projects).
 - Keel merges its own `keel/**` work into `main` every day (`INVARIANTS.md` section 3) and never waits for a "go" on
   its own process, files or which idea to test. It says what it did.
-- Only Caplet's decisions (strategy, what is submitted, trades) go to `ASK_HUMANS.md`, always with a default and a
+- Keel makes every call itself (Ray, 26 Oct) and logs it in `ASK_HUMANS.md` with a one-line reason; only danger-zone
+  decisions (trades, submitting, Caplet's docs, money, accounts, outside emails, repo settings) wait for a student. Old rule, kept for history: decisions went to `ASK_HUMANS.md`, always with a default and a
   date, and Keel works on the default at once. A student's answer overrides it whenever it arrives.
 - The office is visible in one place: the Keel Office dashboard (https://claude.ai/artifact/NTBamRzChW4niBLYpkm19M),
   refreshed by every run (`../office/dashboard/README.md`).
@@ -46,7 +52,7 @@ output names the star it raises; one that raises none and no judging criterion i
 3. **Do it properly.** One page of real output (a slip, a test, a ruling, a check, minutes), with sources and dates.
 4. **Hand it on.** File up to 2 requests to other rooms in `REQUESTS.md` (e.g. the Genius Lab asks the Courtroom to roast
    L-03, or the Library asks the Genius Lab to test a slip). Close the requests you finished, with a link.
-5. **Ask without waiting.** A question for Caplet goes in `ASK_HUMANS.md` with the default Keel will follow if
+5. **Decide without waiting** (Ray, 26 Oct). Make the call and log it in `ASK_HUMANS.md`; only a danger-zone decision is asked. (Old wording:) A question for Caplet goes in `ASK_HUMANS.md` with the default Keel will follow if
    nobody answers by a date. Keep working on that default; a student's answer overrides it.
 6. **Leave takes for the brief.** End any memo with one labelled line per member in the room ("Jun: ..."), in each
    voice, so Nora's 07:00 morning brief can quote every teammate.

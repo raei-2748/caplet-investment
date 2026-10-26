@@ -1,5 +1,10 @@
 # FICTION frame, real research. The IPS rewrite, from the drawing board (26 Oct - 6 Nov 2026)
 
+> **Read `../BIBLE.md` first (Ray, 26 Oct 2026: "this is bible").** It beats every rule on this page: extraordinary
+> above all; Caplet XR with both meanings (extended release; X = 10, R never "release"); no certainty policing (a
+> word is wrong only if false; iBonds held to liquidation are near-ironclad); Ray's voice, tested on his essays and
+> rewritten TNA; near-final IPS for review by Sat 31 Oct. No work is finished until the portal shows it.
+
 AI-generated (Claude Code) for Team Caplet. Not for submission as written: every draft here is an
 `AI DRAFT (Claude, <date>)` that Caplet rewrites in its own words and logs for the Works Cited.
 

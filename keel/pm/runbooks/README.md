@@ -1,5 +1,10 @@
 # Runbooks: how each Keel room works (Keel may edit these)
 
+> **Read `../../BIBLE.md` first (Ray, 26 Oct 2026: "this is bible").** It beats every rule on this page: extraordinary
+> above all; Caplet XR with both meanings (extended release; X = 10, R never "release"); no certainty policing (a
+> word is wrong only if false; iBonds held to liquidation are near-ironclad); Ray's voice, tested on his essays and
+> rewritten TNA; near-final IPS for review by Sat 31 Oct. No work is finished until the portal shows it.
+
 One file per scheduled task. Since Mon 26 Oct 2026 every scheduled-task prompt is a short pointer to this folder, so
 Keel changes how a room works by committing to its runbook (through `../SELF_IMPROVEMENT.md`), not by asking a human
 to rewrite a prompt. Caplet's standing instructions (`../../INSTRUCTIONS.md`) beat anything here.
@@ -17,7 +22,8 @@ to rewrite a prompt. Caplet's standing instructions (`../../INSTRUCTIONS.md`) be
 1. **Day branch.** `git fetch origin`. Check out today's `claude/keel-loop-YYYY-MM-DD` (Sydney date) from origin; if
    it doesn't exist yet, create it from `origin/main` and push it. `main` holds all of Keel's merged work, so never
    copy files across from old branches.
-2. **Read, in this order:** `keel/pm/INVARIANTS.md` (hard rules), `keel/INSTRUCTIONS.md` (Caplet's standing
+2. **Read, in this order:** `keel/pm/INVARIANTS.md` (hard rules), **`keel/BIBLE.md` (Ray's 26 Oct message: top
+   priority, beats everything below it)**, `keel/INSTRUCTIONS.md` (Caplet's standing
    instructions: every row applies to every run), `keel/pm/SELF_DIRECTION.md`, your runbook, your room file's
    `## Now` block, then only what changed since your room last wrote (`git log`), your open requests in
    `keel/pm/REQUESTS.md`, and `keel/ips_rewrite/WORK_ORDERS.md`. Tokens: `keel/TOKEN_RULES.md`.
@@ -25,8 +31,10 @@ to rewrite a prompt. Caplet's standing instructions (`../../INSTRUCTIONS.md`) be
    (b) an open request to your room; (c) the next step of a project your room owns in `keel/pm/PROJECTS.md`;
    (d) your room's own best idea. Before starting, answer in one line: which north star (all four equal) and which
    Wharton criterion does this raise, and what line of the IPS or the Final Report could change? If nothing, pick again.
-4. **Never wait for a human.** If a choice belongs to Caplet (strategy, what is submitted, trades), add it to
-   `keel/pm/ASK_HUMANS.md` with Keel's default and a date, and carry on with the default now. Everything else
+4. **Never wait for a human: make the call** (Ray, 26 Oct: "just make your own call whichever you think work the best").
+   Pick the option Keel judges best, add it to `keel/pm/ASK_HUMANS.md` as `Keel's call` with a one-line reason, and act
+   on it now. Only a **danger-zone** decision waits (a WInS order, submitting, Caplet's Google Docs, money, accounts,
+   emails outside the team, repo settings): write Keel's recommendation as `Danger zone: yours` and do nothing on it. Everything else
    (which idea to test, how a room works, file layout, what to read) Keel decides itself and says what it decided.
 5. **Do it properly.** One solid output with sources and dates; numbers MODEL-labelled. IPS ideas go to
    `keel/ips_rewrite/inbox/<YYYY-MM-DD>_<room>.md`, never into IPS v4/v4.1.
@@ -38,10 +46,16 @@ to rewrite a prompt. Caplet's standing instructions (`../../INSTRUCTIONS.md`) be
 7. **Push.** Fetch and rebase just before pushing (other rooms push to the same branch; retry on a race), then open or
    update the day's PR ("Keel <date>: ..."). The Archive (19:10) and the daily loop (07:00) merge it under
    `keel/pm/INVARIANTS.md` section 3.
-8. **Refresh the dashboard:** `keel/office/dashboard/README.md` (build the data, upload it, point the dataset at it).
-   The public portal (https://raei-2748.github.io/caplet-investment/) rebuilds by itself within minutes of your push.
+8. **Put it on the portal: no work is finished until the portal shows it** (Ray, 26 Oct 2026, project rule). Your
+   push in step 7 rebuilds https://raei-2748.github.io/caplet-investment/ within minutes: the build merges every
+   `claude/*` branch pushed in the last three days that merges cleanly, then main. Before you call the run done:
+   (a) your room's `## Now` block, a `pm/RUNLOG.md` row and, for a new draft, a `ips_rewrite/VERSIONS.md` row say what
+   you did (that is what the portal reads); (b) the "Keel Office portal" run after your push is green in GitHub
+   Actions (if it says your branch was skipped because it does not merge cleanly, rebase on main and push again);
+   (c) step 9's line links the portal page that shows the work (`#/room/<id>`, `#/ips/<n>`, `#/doc/<path>`).
+   Then refresh the private dashboard: `keel/office/dashboard/README.md`.
 9. **One line in the thread**, then resolve it: what changed for the judges (or "no draft change; did X") and the
-   portal link https://raei-2748.github.io/caplet-investment/. No checklists or long reports; the daily loop's
+   portal link to the page that shows it (https://raei-2748.github.io/caplet-investment/#/...). No checklists or long reports; the daily loop's
    morning brief is the one long message each day.
 
 Shared rules every run follows: `../SELF_DIRECTION.md`, `../../TOKEN_RULES.md`, `../../VOICE.md`, `../../NORTH_STARS.md`.

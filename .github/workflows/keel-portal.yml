@@ -40,8 +40,14 @@ jobs:
           git config user.name "Keel portal"; git config user.email "portal@keel.invalid"
           day=$(git branch -r --list 'origin/claude/keel-loop-*' | sed 's/^ *origin\///' | sort | tail -1)
           extra=$(grep -v '^#' keel/office/portal/branches.txt 2>/dev/null || true)
+          # Every claude/* branch pushed in the last 3 days and not yet in main (newest first, at most 15), so any
+          # room's or thread's push shows on the portal within minutes (Ray, 26 Oct: no work is done until it's here).
+          cutoff=$(( $(date +%s) - 3*86400 ))
+          recent=$(git for-each-ref --sort=-committerdate --format='%(committerdate:unix) %(refname:short)' 'refs/remotes/origin/claude/' \
+            | awk -v c="$cutoff" '$1 >= c {sub(/^origin\//, "", $2); print $2}' | head -15)
           : > .portal_branches
-          for b in $day $extra; do
+          for b in $(printf '%s\n' $day $extra $recent | awk '!seen[$0]++'); do
+            git merge-base --is-ancestor "origin/$b" HEAD 2>/dev/null && continue
             git rev-parse -q --verify "origin/$b" >/dev/null || continue
             if git merge -q --no-edit "origin/$b" >/dev/null 2>&1; then echo "$b" >> .portal_branches; echo "merged $b"
             else git merge --abort; echo "skipped $b (does not merge cleanly)"; fi

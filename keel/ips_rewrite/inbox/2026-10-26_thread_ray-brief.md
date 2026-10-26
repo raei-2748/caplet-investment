@@ -60,7 +60,7 @@ Design rules that follow:
    "no options here" line; never through the body; never "dose", "patient", "toxic".
 5. **Voice placement**: wit in the pitch, the opening line and one kicker; the body plain and tickable, still human
    (R03's moves: concrete first, concede then turn, a short blunt line after a long one).
-6. **Never overclaim.**
+6. **Never overclaim** – superseded the same night by `keel/BIBLE.md` rule 3: say it with flair when it is true (iBonds held to liquidation are near-ironclad); only a false claim is a fault.
 
 ## 5. v4.1 against the checklist (thread verdict)
 Strong: strategy, coherence, honesty on coupon risk, ability vs tolerance, the 2031 rule, the refused trade-off.

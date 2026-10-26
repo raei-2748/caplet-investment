@@ -1,5 +1,10 @@
 # FICTION. Team Keel: mission, vision, values and culture
 
+> **Read `BIBLE.md` first (Ray, 26 Oct 2026: "this is bible").** It beats every rule on this page: extraordinary
+> above all; Caplet XR with both meanings (extended release; X = 10, R never "release"); no certainty policing (a
+> word is wrong only if false; iBonds held to liquidation are near-ironclad); Ray's voice, tested on his essays and
+> rewritten TNA; near-final IPS for review by Sat 31 Oct. No work is finished until the portal shows it.
+
 > Written by the six in the Long Room on Sun 27 Sep 2026 (the night before trading opened), argued over for three
 > room days, and pinned on the door. Revised once, on Sat 17 Oct (value 4). Every episode should show at least
 > one value being kept, tested or broken.
