@@ -1,4 +1,7 @@
-# Keel project office (real work, not fiction)
+# The Noticeboard (real work, not fiction)
+
+> Room card: `keel/OFFICE.md`. This folder was called the "Keel project office" until 23 Oct 2026; the path is
+> unchanged. Nora's home room.
 
 Team Keel runs Caplet's competition work like a professional project team, and works without being asked. The
 people in the story are fiction; **the tasks, dates, risks and decisions in this folder are real** and are about

@@ -1,0 +1,219 @@
+<style>
+  .ko { font-family: var(--font-anthropic-sans); display: grid; gap: var(--cds-gap-xl); }
+  .ko-head h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; text-wrap: balance; }
+  .ko-head p { margin: var(--cds-gap-xs) 0 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-body); }
+  .ko-head .ko-health { color: var(--color-fg); }
+  .ko-nav { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs); }
+  .ko-nav button { font: inherit; font-size: var(--cds-font-size-caption); padding: var(--cds-pad-xs) var(--cds-pad-sm); border: 1px solid var(--color-border-line); border-radius: 999px; background: var(--color-panel); color: var(--color-fg); cursor: pointer; }
+  .ko-nav button[aria-selected="true"] { background: var(--color-fg); color: var(--color-bg); border-color: var(--color-fg); }
+  .ko-nav button:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+  .ko section { display: grid; gap: var(--cds-gap-md); }
+  .ko h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+  .ko .ko-note { margin: 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); max-width: 70ch; }
+  .ko-grid { display: grid; gap: var(--cds-gap-md); grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr)); }
+  .ko-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: grid; gap: var(--cds-gap-sm); align-content: start; min-width: 0; }
+  .ko-card h3 { margin: 0; font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); display: flex; justify-content: space-between; align-items: baseline; gap: var(--cds-gap-sm); flex-wrap: wrap; }
+  .ko-who { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); margin: 0; }
+  .ko-dl { display: grid; gap: var(--cds-gap-xs); margin: 0; }
+  .ko-dl dt { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); text-transform: uppercase; letter-spacing: .06em; margin-top: var(--cds-gap-xs); }
+  .ko-dl dd { margin: 0; font-size: var(--cds-font-size-body); line-height: 1.45; overflow-wrap: anywhere; }
+  .ko-dl dd.ko-judge { font-weight: var(--cds-font-weight-medium); }
+  .ko-pill { font-size: var(--cds-font-size-caption); font-weight: 400; padding: 1px var(--cds-pad-sm); border-radius: 999px; border: 1px solid currentColor; white-space: nowrap; }
+  .ko-ok { color: var(--color-ok); } .ko-warn { color: var(--color-warn); } .ko-bad { color: var(--color-bad); } .ko-muted { color: var(--color-fg-muted); }
+  .ko-take { margin: 0; font-family: var(--font-anthropic-serif); font-size: var(--cds-font-size-body); line-height: 1.5; overflow-wrap: anywhere; }
+  .ko-meta { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; overflow-wrap: anywhere; }
+  .ko-tablebox { overflow: auto; max-height: 34rem; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-panel); }
+  .ko table { border-collapse: collapse; width: 100%; font-size: var(--cds-font-size-caption); line-height: 1.45; }
+  .ko th { position: sticky; top: 0; background: var(--color-panel); text-align: left; font-weight: var(--cds-font-weight-medium); padding: var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); z-index: 1; }
+  .ko td { padding: var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: top; min-width: 7rem; }
+  .ko td.ko-wide { min-width: 16rem; }
+  .ko tr:last-child td { border-bottom: 0; }
+  .ko-search { font: inherit; font-size: var(--cds-font-size-body); padding: var(--cds-pad-xs) var(--cds-pad-sm); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-bg); color: var(--color-fg); width: min(100%, 22rem); }
+  .ko-counts { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); margin: 0; padding: 0; list-style: none; font-size: var(--cds-font-size-caption); }
+  .ko-empty { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+</style>
+
+<div class="ko">
+  <header class="ko-head" id="top">
+    <h1>Keel Office</h1>
+    <p><span class="ko-health" data-source="office" data-field="health" data-where="id=meta">—</span> · updated <span data-source="office" data-field="updated" data-where="id=meta">—</span> by <span data-source="office" data-field="owner" data-where="id=meta">—</span></p>
+    <p>What every Keel room and member is doing, what they decided, what they do next, and what it changes in the IPS and the Final Report. Keel is a simulated team, AI-written; Caplet decides and submits.</p>
+  </header>
+
+  <nav class="ko-nav" aria-label="Sections">
+    <button type="button" data-tab="office" id="tab-office">Office</button>
+    <button type="button" data-tab="team" id="tab-team">Team</button>
+    <button type="button" data-tab="projects" id="tab-projects">Projects</button>
+    <button type="button" data-tab="questions" id="tab-questions">Questions for you</button>
+    <button type="button" data-tab="instructions" id="tab-instructions">Your instructions</button>
+  </nav>
+
+  <section id="office" data-page="office">
+    <h2>What changed in what the judges will see</h2>
+    <p class="ko-note">Each row is a change to a judge-facing draft (AI DRAFTs for Caplet to rewrite). A run that changed no draft adds no row.</p>
+    <div class="ko-tablebox">
+      <table id="changes-table" data-source="office" data-row-key="id">
+        <thead><tr><th data-field="date">Date</th><th data-field="deliverable">Deliverable</th><th data-field="name">What changed</th><th data-field="owner">Room</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <h2>The rooms</h2>
+    <p class="ko-note">Each room updates its card at the end of every run. "Late" means it missed its schedule.</p>
+    <div class="ko-grid" id="rooms" data-source="office"></div>
+  </section>
+
+  <section id="team" data-page="team" hidden>
+    <h2>The six</h2>
+    <p class="ko-note">Each member's newest take, from the latest memo or morning brief.</p>
+    <div class="ko-grid" id="members" data-source="office"></div>
+  </section>
+
+  <section id="projects" data-page="projects" hidden>
+    <h2>Keel's own projects</h2>
+    <p class="ko-note">Multi-day work Keel planned for itself. Each one names the change it buys for the judges. The Long Room opens, merges or kills them.</p>
+    <div class="ko-grid" id="project-cards" data-source="office"></div>
+  </section>
+
+  <section id="questions" data-page="questions" hidden>
+    <h2>Questions for Caplet</h2>
+    <p class="ko-note">Keel never waits on these: it goes ahead with its default by the date, and your answer overrides it whenever it comes.</p>
+    <div class="ko-tablebox">
+      <table id="asks-table" data-source="office" data-row-key="id">
+        <thead><tr><th data-field="date">Asked</th><th data-field="owner">Room</th><th data-field="name">Question</th><th data-field="default">Keel's default</th><th data-field="due">By</th><th data-field="status">Status</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="instructions" data-page="instructions" hidden>
+    <h2>Your instructions, and whether Keel applies them</h2>
+    <p class="ko-note">Every instruction Caplet has given Keel. The Window checks yesterday's work against this list every morning.</p>
+    <ul class="ko-counts" id="instr-counts" data-source="instruction_counts"></ul>
+    <input class="ko-search" id="instr-search" type="search" placeholder="Search instructions" aria-label="Search instructions">
+    <div class="ko-tablebox">
+      <table id="instr-table" data-source="office" data-row-key="id">
+        <thead><tr><th data-field="date">Date</th><th data-field="name">Instruction</th><th data-field="status">Status</th><th data-field="evidence">What we found</th><th data-field="file">Now enforced in</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+</div>
+
+<script>
+  dash.calc('instruction_counts', {
+    inputs: ['office'],
+    title: 'Instructions by status',
+    description: 'How many of Caplet\'s instructions are applied, fixed on 26 Oct, partly applied or ignored.',
+    fn: (office) => {
+      const n = {};
+      office.filter((r) => r.kind === 'instruction').forEach((r) => { n[r.status] = (n[r.status] || 0) + 1; });
+      return Object.entries(n).map(([status, count]) => ({ status, count }));
+    },
+  });
+
+  const tone = (s) => {
+    const t = (s || '').toLowerCase();
+    if (t.startsWith('on time') || t.startsWith('applied') || t.startsWith('done') || t.startsWith('answered')) return 'ko-ok';
+    if (t.startsWith('fixed') || t.startsWith('doing')) return 'ko-ok';
+    if (t.startsWith('late') || t.startsWith('partly') || t.startsWith('open')) return 'ko-warn';
+    if (t.startsWith('ignored') || t.startsWith('no update') || t.startsWith('killed')) return 'ko-bad';
+    return 'ko-muted';
+  };
+  const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+  const mark = (e, id, field) => { e.dataset.source = 'office'; e.dataset.field = field; e.dataset.where = 'id=' + id; return e; };
+
+  const tabs = [...document.querySelectorAll('.ko-nav button')];
+  const show = (name) => {
+    document.querySelectorAll('[data-page]').forEach((p) => { p.hidden = p.dataset.page !== name; });
+    tabs.forEach((b) => b.setAttribute('aria-selected', String(b.dataset.tab === name)));
+    dash.setLink(name);
+  };
+  tabs.forEach((b) => b.addEventListener('click', () => show(b.dataset.tab)));
+  const start = location.hash.slice(1);
+  show(tabs.some((b) => b.dataset.tab === start) ? start : 'office');
+
+  const fillTable = (table, rows, cols) => {
+    const body = table.querySelector('tbody');
+    body.replaceChildren(...rows.map((r) => {
+      const tr = document.createElement('tr');
+      tr.dataset.key = r.id;
+      cols.forEach(([field, wide, pill]) => {
+        const td = el('td', wide ? 'ko-wide' : '');
+        if (pill) td.append(el('span', 'ko-pill ' + tone(r[field]), r[field] || '—'));
+        else td.textContent = r[field] || '—';
+        tr.append(td);
+      });
+      return tr;
+    }));
+  };
+
+  const search = document.getElementById('instr-search');
+  let lastRows = [];
+  const drawInstructions = () => {
+    const q = search.value.trim().toLowerCase();
+    const rows = lastRows.filter((r) => r.kind === 'instruction' && (!q || [r.name, r.status, r.evidence, r.file].join(' ').toLowerCase().includes(q)));
+    fillTable(document.getElementById('instr-table'), rows, [['date'], ['name', true], ['status', false, true], ['evidence', true], ['file', true]]);
+  };
+  search.addEventListener('input', drawInstructions);
+
+  dash.onData(() => {
+    const d = dash.data('office');
+    const ok = d.status === 'ok';
+    const rows = ok ? d.data : [];
+    lastRows = rows;
+    const of = (k) => rows.filter((r) => r.kind === k);
+
+    fillTable(document.getElementById('changes-table'), of('change'), [['date'], ['deliverable'], ['name', true], ['owner']]);
+
+    document.getElementById('rooms').replaceChildren(...of('room').map((r) => {
+      const c = el('article', 'ko-card');
+      const h = el('h3');
+      h.append(mark(el('span', '', r.name), r.id, 'name'), mark(el('span', 'ko-pill ' + tone(r.health), r.health), r.id, 'health'));
+      const dl = el('dl', 'ko-dl');
+      [['Doing', 'doing'], ['Decided', 'decided'], ['Next', 'next'], ['For the judges', 'for_judges']].forEach(([label, f]) => {
+        dl.append(el('dt', '', label), mark(el('dd', f === 'for_judges' ? 'ko-judge' : '', r[f]), r.id, f));
+      });
+      const foot = el('p', 'ko-meta');
+      foot.append(mark(el('span', '', r.who), r.id, 'who'), document.createTextNode(' · '), mark(el('span', '', r.schedule), r.id, 'schedule'), document.createTextNode(' · updated '), mark(el('span', '', r.updated), r.id, 'updated'));
+      c.append(h, dl, foot);
+      return c;
+    }));
+
+    document.getElementById('members').replaceChildren(...of('member').map((r) => {
+      const c = el('article', 'ko-card');
+      const h = el('h3');
+      h.append(mark(el('span', '', r.name), r.id, 'name'), mark(el('span', 'ko-pill ko-muted', r.home), r.id, 'home'));
+      const take = mark(el('p', 'ko-take', r.take), r.id, 'take');
+      const foot = el('p', 'ko-meta');
+      foot.append(mark(el('span', '', r.role), r.id, 'role'), document.createTextNode(' · take from '), mark(el('span', '', r.take_date || '—'), r.id, 'take_date'));
+      c.append(h, take, foot);
+      return c;
+    }));
+
+    document.getElementById('project-cards').replaceChildren(...of('project').map((r) => {
+      const c = el('article', 'ko-card');
+      const h = el('h3');
+      h.append(mark(el('span', '', r.name), r.id, 'name'));
+      const status = mark(el('span', 'ko-pill ' + tone(r.status), r.status), r.id, 'status');
+      const dl = el('dl', 'ko-dl');
+      dl.append(el('dt', '', 'Changes for the judges'), mark(el('dd', 'ko-judge', r.for_judges), r.id, 'for_judges'));
+      dl.append(el('dt', '', 'Next step'), mark(el('dd', '', r.next), r.id, 'next'));
+      const foot = el('p', 'ko-meta');
+      foot.append(status, document.createTextNode(' '), mark(el('span', '', r.owner), r.id, 'owner'), document.createTextNode(' · due '), mark(el('span', '', r.due), r.id, 'due'));
+      c.append(h, foot, dl);
+      return c;
+    }));
+
+    fillTable(document.getElementById('asks-table'), of('ask'), [['date'], ['owner'], ['name', true], ['default', true], ['due'], ['status', false, true]]);
+    drawInstructions();
+
+    const counts = dash.data('instruction_counts');
+    const list = document.getElementById('instr-counts');
+    list.replaceChildren(...(counts.status === 'ok' ? counts.data : []).map((r) => {
+      const li = el('li');
+      li.append(el('span', 'ko-pill ' + tone(r.status), r.status + ': ' + r.count));
+      return li;
+    }));
+  });
+</script>

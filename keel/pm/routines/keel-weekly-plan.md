@@ -6,7 +6,10 @@ This Sunday run:
 3. Pre-mortem: refresh the section in keel/pm/PREMORTEMS.md for the next deliverable (Kai adds the strongest new cause; each prevention becomes a card or a risk).
 4. Retro: if a deadline passed this week, fill the Facts half of keel/pm/RETROS.md (planned vs actual dates). Never write the team's opinions.
 5. Board: set "This week's top 3" in keel/pm/BOARD.md; check every Waiting-on-Caplet card has an owner role and date; queue decisions due in 14 days in keel/pm/DECISIONS.md with options and a vote date.
-6. Stand-up: add the week plan at the top of keel/pm/STANDUP.md.
+6. Courtroom: Kai (and simulated rival Team Spinnaker) put the next deliverable's weakest claim on trial; add one row to the docket in keel/rooms/courtroom.md.
+7. Rooftop: one short entry at the top of keel/rooms/rooftop.md (why are we doing this, what we learned this week, who we are becoming), in the members' voices (keel/VOICE.md). Fiction; never Caplet's experience.
+8. Library and Lab review: re-rank the Lab queue in keel/rooms/lab.md; list the week's KEEP slips; nothing leaves either room without a criterion and Felix's rules check.
+9. Stand-up: add the week plan at the top of keel/pm/STANDUP.md.
 
 Hard rules: never use WInS or SMApply, never edit Google Docs, never message anyone, never trade or submit. Keel proposes; Caplet decides. Quiet period until Sat 7 Nov 09:00 Sydney: no new research. Sydney time first. No personal data. Token-efficient: no new memos beyond these files.
 

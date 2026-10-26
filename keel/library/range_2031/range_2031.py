@@ -53,7 +53,7 @@ def equity_paths(rng, model, years):
         t = rng.standard_t(df, (N, years)) / np.sqrt(df / (df - 2))
         g = np.exp(np.log(1 + EQ_MU) + s * t)
     elif model == "history":
-        path = os.path.join(HERE, "..", "..", "rab", "data", "history", "annual_history.csv")
+        path = os.path.join(HERE, "..", "..", "..", "archive", "rab", "data", "history", "annual_history.csv")
         r = np.array([float(x["world_eq"]) for x in csv.DictReader(open(path)) if x["world_eq"]])
         # whole consecutive windows, so crashes and recoveries keep their order
         start = rng.integers(0, len(r) - years + 1, N)
