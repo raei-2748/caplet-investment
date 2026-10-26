@@ -99,6 +99,12 @@ now includes "TIPS (Treasury Inflation-Protected Securities)" and "STRIPS (Separ
 and Principal of Securities)". So neither may be recommended for Laura's plan; mention them only as options the
 rules exclude. Whether the ban also covers WInS-listed ETFs that hold TIPS or STRIPS is UNVERIFIED (ask Wharton
 before naming one). The $5 stock minimum is gone from the FAQ and Trading pages.
+**Public FAQ, live 24 Oct 2026** (`smapply_public_2026-10-24/faqs.txt:41-51`): the ban now reads "Individual TIPS"
+and "Individual STRIPS", and the permitted list drops "from any exchange" ("Any stock available on WInS", "Any
+Exchange-Traded Fund (ETFs) available on WInS", "Any Government/Treasury Bond available on WInS"). The word
+"Individual" suggests a WInS-listed ETF holding TIPS or STRIPS may be allowed; that reading is UNVERIFIED (the Week 4
+email still says TIPS and STRIPS are banned). Our book holds neither. Same FAQ (:59): "The bond prices are updated
+once daily at U.S. market open", which explains the 0.00 day change on our bonds in WInS.
 
 WInS quirks we found (read-only checks):
 - WInS lists 43 US T-bonds, none maturing Feb 2031 to Feb 2036. iBonds Treasury ETFs fill that gap: IBTK 2030,
@@ -191,6 +197,9 @@ cash-flow matching (**not** immunisation); never say "risk-free" or "guaranteed"
 ## 8. The WInS portfolio now
 
 All 11 orders filled 7-8 Oct 2026 (placed by Ray). 11 of 200 trades used.
+**Official WInS figures, 23 Oct 2026** (exports shared by Ray; full copy and checks in
+`competition/wins/2026-10-23_snapshot.md`): portfolio value $305,557.66, return 1.85%, cash $3,513.79, positions
+$300,757.88, accrued interest $1,285.99, 11 trades made. Holdings and fills below match WInS exactly.
 
 | Holding | Quantity | Fill (per share / per $100 face) | Pays for |
 |---|---|---|---|

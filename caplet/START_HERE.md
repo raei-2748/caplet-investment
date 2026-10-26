@@ -16,7 +16,7 @@ entry: official rules, the client case, our strategy research, the WInS portfoli
 |---|---|
 | `competition/` | Official Wharton materials (PDF + text), public SMApply page snapshots, market data, last year's materials |
 | `caplet/` | Our work (the six students): Google Docs/Sheets exports, IPS PDF drafts, AI exemplars (not for submission), scoresheet |
-| `keel/office/` | The Caplet Research Office: AI desks that answer a named student's question with a check, a number or a list of problems (`/office` in Claude Code). Start with `keel/office/README.md`; one workstream file per deliverable in `keel/office/workstreams/` |
+| `keel/office/` | The Keel Office: AI desks that answer a named student's question with a check, a number or a list of problems (`/office` in Claude Code). Start with `keel/office/README.md`; one workstream file per deliverable in `keel/office/workstreams/` |
 | `keel/routines/` | Scheduled checks: portfolio monitor, rules watcher, mock judges, evidence lab, and their reports |
 | `keel/library/` | AI strategy research (insight_v1, council). Files marked with a 2026-10-14 banner predate the "WInS-only" rule |
 | `archive/rab/` | Research-and-build kit: models, verification, numbers |
@@ -34,7 +34,7 @@ entry: official rules, the client case, our strategy research, the WInS portfoli
 - The repo is **private** (since 23 Oct). Still don't commit passwords, emails, birthdays or full surnames.
 
 ## Using Claude with this repo
-The team uses one AI system, the **Caplet Research Office** (`keel/office/README.md`).
+The team uses one AI system, the **Keel Office** (`keel/office/README.md`).
 - **Claude Code** (terminal, desktop or claude.ai/code), opened in this repo, loads the 18 office agents and the
   house rules automatically. Ask questions like this:
   `/office rates analyst: what is the room under $300k on the 16 Oct close? | decides: IPS certainty sentence | by: Tue 27 Oct`

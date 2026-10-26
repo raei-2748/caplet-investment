@@ -1,6 +1,6 @@
 export const meta = {
   name: 'office-judge-panel',
-  description: 'Caplet Research Office: five independent mock judges score a draft, then the chief of staff compares them with the students\' own scores',
+  description: 'Keel Office: five independent mock judges score a draft, then the chief of staff compares them with the students\' own scores',
   whenToUse: 'About a week before a deadline, after two students and the outside reader have scored the draft. args: {deliverable: "tna"|"ips"|"final", draft: path, human_scores: path}',
   phases: [
     { title: 'Judge', detail: 'five personas, blind to each other' },
