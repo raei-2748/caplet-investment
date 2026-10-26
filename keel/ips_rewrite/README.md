@@ -36,16 +36,17 @@ or punctuation; en dashes stay.
 - Case facts only (`competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt`); numbers labelled MODEL.
 - Never edit the IPS Report Google Doc. Caplet votes on every strategy change; only Ray trades.
 
-## Plan (Sydney dates)
+## Plan (Sydney dates; reset 26 Oct after Ray: "THINK. I don't want you to be hasty")
+Drafts D1-D4 (26 Oct) were written far too fast. They are sketches only and nobody should review them. No drafting
+until Fri 30 Oct. Each day's thinking goes in `THINKING_LOG.md` and on the portal (`../pm/CHANGES.md`).
+
 | When | Step | Output |
 |---|---|---|
-| Mon 26 - Wed 28 Oct | Research: concept long list + Final Report reading list; strategy refinements in the Lab; motif ideation ladder (Haiku wide, Sonnet deeper, Opus cross-domain) | `research/`, `lab/`, `ideation/` |
-| Thu 29 Oct | Strategy synthesis memo: the plan in our own terms, each concept placed; decisions for Caplet | `01_SYNTHESIS.md` |
-| Fri 30 Oct | Draft 1 (pitch + IPS), written from a blank page | `drafts/D1/` |
-| Sat 31 Oct - Sun 1 Nov | Keel debate, Courtroom, mock judges, human-voice read against Ray's essays | `reviews/` |
-| Mon 2 - Tue 3 Nov | Draft 2 | `drafts/D2/` |
-| Wed 4 Nov | Draft 3: TNA coherence, numbers, word count | `drafts/D3/` |
-| Thu 5 Nov | Final AI draft to Caplet for its own rewrite | `drafts/FINAL/` |
-| Fri 6 Nov | Buffer; Caplet submits by 5 pm ET | |
+| Mon 26 - Wed 28 Oct | Deep, wide reading for north star 4 (niche concepts included, each tested against the case); the full ideation ladder (Haiku wide, Sonnet deeper, Opus cross-domain) for ahas and a fuller XR; real Keel debates and votes (Courtroom WO-R2, vote set B) | `research/`, `ideation/`, `lab/`, `THINKING_LOG.md` |
+| Thu 29 Oct | Synthesis: the strategy in our own terms, each concept placed, the aha chosen, the motif's job in each paragraph, decisions for Caplet | `01_SYNTHESIS.md` |
+| Fri 30 Oct | A fresh draft from the synthesis (blank page, not an edit of D1-D4), then Courtroom + mock judges + voice read against Ray's essays and TNA | `drafts/D5/`, `reviews/` |
+| Sat 31 Oct | Near-final draft to Ray for review | `drafts/D5/` |
+| Sun 1 - Thu 5 Nov | Revise with Caplet; TNA coherence, numbers, word count | `drafts/FINAL/` |
+| Fri 6 Nov | Buffer; Caplet submits by Sat 7 Nov 09:00 Sydney (Fri 6 Nov 5 pm ET) | |
 
 Copies of each draft also go to `/mnt/project-files/ips/rewrite/`.
