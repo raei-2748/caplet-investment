@@ -1,0 +1,38 @@
+# IPS versions: every draft, numbered (the portal's IPS page reads this table)
+
+> One row per full draft of the pitch + IPS, oldest first, numbered V1, V2, V3 ... for good. **Whoever writes a new
+> full draft adds a row the same run** (room, rewrite thread or Caplet snapshot); never renumber, never delete a row.
+> Edit lists, packages and candidates are not versions; only a full text is. The portal
+> (https://raei-2748.github.io/caplet-investment/#/ips) counts the words with `keel/office/tools/textcheck.py`'s
+> strict count and draws the diff between any two versions.
+>
+> **Pitch** and **IPS** name the file that holds each text. A `.txt` file holds just that text. A `.md` file can hold both: the
+> portal takes the text under the first "pitch" label, then the text under the next "IPS" or "Investment Policy
+> Statement" label, up to the next heading. `file.md#words` starts the search at the first line containing "words".
+> **Line**: `Caplet doc` (the team's own IPS Report doc), `AI exemplar` (a model to learn from), `Keel` (Keel's
+> suggestions on the team's draft), `Rewrite` (the from-scratch rewrite since 26 Oct). Everything except Caplet doc
+> rows is an AI DRAFT (Claude), for Caplet to rewrite in its own words.
+
+| V | Version | Date (Sydney) | Line | Pitch | IPS | What changed |
+|---|---|---|---|---|---|---|
+| 1 | Doc tab "V1" (marked exemplar only) | by Wed 30 Sep | Caplet doc | `caplet/google_drive/ips_report/13_old_versions_v1.md` | `caplet/google_drive/ips_report/13_old_versions_v1.md` | The first full draft: "Root-and-Branch", ladder first, growth fund after |
+| 2 | Doc tab "V2" | by Wed 14 Oct | Caplet doc | `caplet/google_drive/ips_report/11_old_versions_v2.md` | `caplet/google_drive/ips_report/11_old_versions_v2.md` | Rewritten as a formal policy statement with a title block; reviewed against the judging criteria in the tab "V2 > Comments" |
+| 3 | Doc tab "V3" | by Wed 14 Oct | Caplet doc | `caplet/google_drive/ips_report/08_old_versions_v3.md` | `caplet/google_drive/ips_report/08_old_versions_v3.md` | Pitch now opens on the artists' certainty |
+| 4 | Doc tab "V3 Improved" | by Wed 14 Oct | Caplet doc | `caplet/google_drive/ips_report/10_old_versions_v3_v3_improved.md` | `caplet/google_drive/ips_report/10_old_versions_v3_v3_improved.md` | Small edits to V3 |
+| 5 | Doc tab "Tab 10" (formal register) | by Wed 14 Oct | Caplet doc | | `caplet/google_drive/ips_report/14_old_versions_tab_10.md` | The IPS alone in legal register ("the Policy"); no pitch |
+| 6 | Doc tab "V4 Need to Humanise" | by Wed 14 Oct | Caplet doc | `caplet/google_drive/ips_report/02_v4_need_to_humanise.md` | `caplet/google_drive/ips_report/02_v4_need_to_humanise.md` | Pitch opens on the co-sponsors; marked for the team to rewrite in its own voice |
+| 7 | Doc tab "Version 5" | by Tue 13 Oct | Caplet doc | `caplet/google_drive/ips_report/01_version_5.md` | `caplet/google_drive/ips_report/01_version_5.md` | The team's main draft through mid-October ("best version that AI generated", comment of 13 Oct) |
+| 8 | Doc tab "Tab 15" (V5 reordered) | by Wed 14 Oct | Caplet doc | `caplet/google_drive/ips_report/15_tab_15.md` | `caplet/google_drive/ips_report/15_tab_15.md` | V5 reordered, with change notes and open team decisions; the base Keel edited on 24 Oct |
+| 9 | AI exemplar v12 | Sat 17 Oct | AI exemplar | `keel/library/blueprints/04_exemplar_ips_tna_17Oct.md` | `keel/library/blueprints/04_exemplar_ips_tna_17Oct.md` | A model to learn from at Ray's request, plain formal prose; not for submission |
+| 10 | Keel IPS v1 | Fri 23 Oct | Keel | `keel/drafts/IPS_v1.txt` | `keel/drafts/IPS_v1.txt` | Keel's own draft: "We buy Laura's promise first"; bond floor plus a measured stock sail |
+| 11 | Keel edits E1-E12 on Tab 15 | Sat 24 Oct | Keel | `keel/library/ips_road_2026-10/04_IPS_EDITS_2026-10-24.md#Full text` | `keel/library/ips_road_2026-10/04_IPS_EDITS_2026-10-24.md#Full text` | Twelve minimal edits to Tab 15: IPS 502 -> 486 strict, liquidity named, the locked IBTM line respected |
+| 12 | Keel edits v2 (K1-K5) | Sat 24 Oct | Keel | `keel/rooms/long_room/2026-10-24_IPS_edits_v2.md#Full text` | `keel/rooms/long_room/2026-10-24_IPS_edits_v2.md#Full text` | Five more fixes, chiefly the shortfall line's timing (gap priced and set aside before the 2033 gift) |
+| 13 | Keel v3 | Sat 24 Oct | Keel | `keel/rooms/lab/L-05_ips_push/ips_v3.md#Full text` | `keel/rooms/lab/L-05_ips_push/ips_v3.md#Full text` | Courtroom fixes C1-C3; every roots/branch word and the name taken out ([NAME]) |
+| 14 | Keel v3.1 | Sat 24 Oct | Keel | `keel/rooms/night_2026-10-25/v3_1_pitch.txt` | `keel/rooms/night_2026-10-25/v3_1_ips.txt` | Answer to an outside AI review: 5 points accepted (hold rule back, stock-crash line, coupon mechanics), 5 rejected |
+| 15 | Keel v4 (package R) | Sun 25 Oct | Keel | `keel/rooms/night_2026-10-25/v4/R_pitch.txt` | `keel/rooms/night_2026-10-25/v4/R_ips.txt` | Night shift: the stock fund is the floor ETF's interest taken up front; overclaimed stock-fall line fixed |
+| 16 | Keel v4.1 (vote copy) | Sun 25 Oct | Keel | `keel/drafts/ips_v4_1_2026-10-25/pitch.txt` | `keel/drafts/ips_v4_1_2026-10-25/ips.txt` | Five rooms' fixes in; "high certainty" defined; vote copy for Tue 27 Oct |
+| 17 | Keel v4.1, two dials | Mon 26 Oct | Keel | `keel/drafts/ips_v4_1_2026-10-25/pitch.txt` | `keel/drafts/ips_v4_1_2026-10-25/ips_two_dials.txt` | Ballot v2: decisions D1a (floor last) and D1b (quote margin) written in |
+| 18 | Doc tab "Fat IPS" | by Mon 26 Oct | Caplet doc | `keel/ips_rewrite/caplet_doc/2026-10-26_fat_ips.md` | `keel/ips_rewrite/caplet_doc/2026-10-26_fat_ips.md` | The team's top tab on 26 Oct: Root & Branch with Keel's 24 Oct edits applied, text much as in V12 |
+| 19 | Rewrite Draft 1 | Mon 26 Oct | Rewrite | `keel/ips_rewrite/drafts/D1/pitch.txt` | `keel/ips_rewrite/drafts/D1/ips.txt` | From scratch: the gift is a capital-protected note minus the option; name Caplet XR |
+| 20 | Rewrite Draft 1.2 (voice pass) | Mon 26 Oct | Rewrite | `keel/ips_rewrite/drafts/D1_2_voice/pitch.txt` | `keel/ips_rewrite/drafts/D1_2_voice/ips.txt` | Ray's version of Draft 1, rewritten in the tone of Ray's essays; some investing content cut to fit |
+| 21 | Rewrite Draft 1.3 | Mon 26 Oct | Rewrite | `keel/ips_rewrite/drafts/D1_3/pitch.txt` | `keel/ips_rewrite/drafts/D1_3/ips.txt` | Draft 1.2's voice with the cut investing content put back (yield-linked stock share, one issuer, two-year window) |

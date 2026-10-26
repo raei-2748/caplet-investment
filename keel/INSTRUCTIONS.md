@@ -49,3 +49,4 @@
 | I31 | 24 Oct | Signed school letter comes later; not a blocker; stop chasing it | Applied | Weekly plan dropped it 25 Oct | `pm/BOARD.md` |
 | I32 | 21-22 Oct | Drafting is wanted: specific, opinionated, label `AI DRAFT (Claude, <date>)`; real facts and real team events only | Applied | Draft 1 labelled | `pm/INVARIANTS.md` s2 |
 | I33 | 27 Sep | Verified sources only; UNVERIFIED when not checked; deadlines in Sydney time first | Applied | Window sweeps | `pm/INVARIANTS.md` s2 |
+| I34 | 26 Oct | Portal on GitHub Pages: clickable rooms, pixel-art avatars, real progress, every IPS version (V1, V2 ... V100) with what changed, all Keel's work on it; public, no password | Fixed 26 Oct | The first portal showed counts only | `ips_rewrite/VERSIONS.md` (a row per new draft), `office/portal/`, `pm/runbooks/README.md` step 6 |
