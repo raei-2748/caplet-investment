@@ -12,9 +12,14 @@ Prompts in `keel/routines/tasks/scheduled_tasks/`, instructions in `keel/routine
 The loop reads their reports (`keel/routines/monitor_reports/`) instead of redoing them. Felix's rules watch is
 already the Mac watcher, so no cloud copy is proposed.
 
-## Rooms each routine works in (`keel/OFFICE.md`)
-Daily loop: Noticeboard, Library, Genius Lab. Markets: Trading Desk, Window. Episode: wherever the day happened, Kitchen
-scenes. Weekly plan: Noticeboard, Courtroom, Rooftop. Tess records: Archive.
+## Live: one scheduled task per office room (since 24 Oct 2026; pointer prompts since 26 Oct)
+Every room has its own scheduled task, daily or every two days (Ray, 23-24 Oct: Keel leads itself). Since Mon 26 Oct each
+prompt is a short pointer to `runbooks/README.md` ("Every run, every room") and the room's runbook in `runbooks/`, so
+how a room works is changed in the repo, not in the prompt. The live table of tasks, times and runbooks is
+`SCHEDULE.md`; rooms are described in `../OFFICE.md`. Each run starts a fresh session (its own thread in the project),
+writes to `claude/keel-loop-YYYY-MM-DD` (created from `main` by the 07:00 daily loop), updates its room's `## Now`
+block and refreshes the Keel Office dashboard. Push and email notifications are off. All stop after Sat 5 Dec 2026.
+The Sunday 17:00 weekly plan stays; the daily episode is written by the daily loop; the Kitchen never numbers episodes.
 
 ## Proposed: cloud routines (prompts in `routines/`, each under 2 KB)
 AEDT = UTC+11 for the whole competition. All write only to the repo, on a `claude/keel-loop-YYYY-MM-DD` branch with

@@ -22,11 +22,12 @@ read [`CLAUDE.md`](CLAUDE.md) first.
 ## The repo
 ```
 keel/          ★ Team Keel: the leaders, and everything they run
-  members/       nora · felix · jun · kai · amara · tess (each heads an office desk)
+  members/       nora · felix · jun · kai · amara · tess (each has a home room in the Office)
   episodes/      the daily diary: what Keel did, and what Caplet should check
-  tea_room.md    plan, decision journal, open threads
+  tea_room.md    the Long Room wall: plan, decision journal, open threads
   road_to_semifinal.md · drafts/ · scripts/
-  office/        the Research Office: charter, ledger, work orders, outbox, workstreams, tools
+  OFFICE.md      the Keel Office: twelve rooms, who sits where, which agents work where (map + diagram)
+  office/        charter, ledger, work orders, outbox, workstreams, tools
   routines/      scheduled checks and their reports
   library/       all AI research so far (assistant reviews, blueprints, models, insight_v1, council)
 caplet/        The real team's work: Drive snapshots, deliverables, decisions, AI-use log
