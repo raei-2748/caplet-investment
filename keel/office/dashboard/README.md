@@ -27,8 +27,7 @@ Never upload anything else to the artifact and never touch its page files except
 `index.html`, `{text: <the file>}`, pinned with `if_version`).
 
 ## The GitHub Pages portal (Ray, 26 Oct: "Make a portal of the office ... Host it on github Pages")
-`.github/workflows/keel-portal.yml` rebuilds a static copy of the office from the newest Keel day branch every hour
-(07:00-21:00 Sydney) and on every push to main, with `build_data.py` then `build_site.py`. Rooms don't need to do
-anything for it: updating their `## Now` block and pushing is enough. A Pages site is public to anyone with the link,
-so the default view (`PORTAL_MODE` = `progress`) shows progress only, with no strategy text; `full` shows everything.
-One-time setup by a repo admin: Settings > Pages > Source "GitHub Actions" (a private repo needs GitHub Pro or Team).
+Live at https://raei-2748.github.io/caplet-investment/ and public (Ray chose "public, no password" on 26 Oct; the
+builder scrubs surnames' initials, account numbers and emails). Code and how it works: `../portal/README.md`. Rooms
+don't need to do anything for it beyond their normal record step: update the `## Now` block, log memos and runs, add
+a row to `keel/ips_rewrite/VERSIONS.md` for every new full IPS draft, and push.

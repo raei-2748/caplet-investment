@@ -31,15 +31,17 @@ to rewrite a prompt. Caplet's standing instructions (`../../INSTRUCTIONS.md`) be
 5. **Do it properly.** One solid output with sources and dates; numbers MODEL-labelled. IPS ideas go to
    `keel/ips_rewrite/inbox/<YYYY-MM-DD>_<room>.md`, never into IPS v4/v4.1.
 6. **Record.** Update your room's `## Now` block (Doing, Decided, Next, For the judges, Updated as `YYYY-MM-DD HH:MM`
-   Sydney). If a judge-facing draft changed, add a row to `keel/pm/CHANGES.md`. One row in `keel/pm/RUNLOG.md`; a
+   Sydney). If a judge-facing draft changed, add a row to `keel/pm/CHANGES.md`; if you wrote a new full draft of the
+   pitch + IPS, also add the next numbered row (V22, V23 ...) to `keel/ips_rewrite/VERSIONS.md`, so the portal shows it. One row in `keel/pm/RUNLOG.md`; a
    `keel/office/LEDGER.md` row if it informs Caplet; a memo in `keel/office/outbox/` ending with each present
    member's labelled take (`- **Jun:** ...`) when there is something to say; up to 2 requests filed, finished ones closed.
 7. **Push.** Fetch and rebase just before pushing (other rooms push to the same branch; retry on a race), then open or
    update the day's PR ("Keel <date>: ..."). The Archive (19:10) and the daily loop (07:00) merge it under
    `keel/pm/INVARIANTS.md` section 3.
 8. **Refresh the dashboard:** `keel/office/dashboard/README.md` (build the data, upload it, point the dataset at it).
+   The public portal (https://raei-2748.github.io/caplet-investment/) rebuilds by itself within minutes of your push.
 9. **One line in the thread**, then resolve it: what changed for the judges (or "no draft change; did X") and the
-   dashboard link https://claude.ai/artifact/NTBamRzChW4niBLYpkm19M. No checklists or long reports; the daily loop's
+   portal link https://raei-2748.github.io/caplet-investment/. No checklists or long reports; the daily loop's
    morning brief is the one long message each day.
 
 Shared rules every run follows: `../SELF_DIRECTION.md`, `../../TOKEN_RULES.md`, `../../VOICE.md`, `../../NORTH_STARS.md`.

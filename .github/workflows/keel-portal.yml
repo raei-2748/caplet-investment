@@ -1,8 +1,9 @@
-# Keel Office portal on GitHub Pages: rebuilds the office page from the repo every hour (07:00-21:00 Sydney)
-# and on every push to main. It reads the newest Keel day branch (claude/keel-loop-YYYY-MM-DD), so a room's run shows
-# within the hour, before the evening merge. One-time setup: Settings > Pages > Build and deployment > Source:
-# "GitHub Actions". The repository variable PORTAL_MODE picks the view: "progress" (default, no strategy text;
-# a Pages site is public to anyone with the link) or "full".
+# Keel Office portal on GitHub Pages (https://raei-2748.github.io/caplet-investment/). Public: anyone with the link can
+# read it (Ray's choice, 26 Oct 2026); names and account numbers are scrubbed by the builder.
+# Runs on every push to main, when keel-portal-poke.yml sees a push to a Keel branch, hourly 07:00-21:00 Sydney and
+# every 3 hours overnight. It builds from main with the newest Keel day branch and the branches in
+# keel/office/portal/branches.txt merged in (each skipped if it doesn't merge cleanly), so a room's run shows within
+# minutes, before the evening merge. One-time setup (done 26 Oct): Settings > Pages > Source: "GitHub Actions".
 name: Keel Office portal
 
 on:
@@ -10,8 +11,9 @@ on:
     branches: [main]
     paths: ["keel/**", ".github/workflows/keel-portal.yml"]
   schedule:
-    - cron: "11 20-23 * * *"   # 07:11-10:11 Sydney (AEDT, UTC+11)
-    - cron: "11 0-10 * * *"    # 11:11-21:11 Sydney
+    - cron: "17 20-23 * * *"   # 07:17-10:17 Sydney (AEDT, UTC+11)
+    - cron: "17 0-10 * * *"    # 11:17-21:17 Sydney
+    - cron: "17 13,16,19 * * *" # 00:17, 03:17, 06:17 Sydney
   workflow_dispatch:
 
 permissions:
@@ -30,24 +32,24 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Use the newest Keel day branch's keel/ folder
+      - name: Merge today's Keel work into a scratch copy of main
         run: |
-          day=$(git branch -r --list 'origin/claude/keel-loop-*' | sed 's/^ *//' | sort | tail -1)
-          if [ -n "$day" ] && git merge-base --is-ancestor origin/main "$day"; then
-            echo "Reading keel/ from $day"
-            git checkout "$day" -- keel
-          else
-            echo "Reading keel/ from main"
-          fi
+          git config user.name "Keel portal"; git config user.email "portal@keel.invalid"
+          day=$(git branch -r --list 'origin/claude/keel-loop-*' | sed 's/^ *origin\///' | sort | tail -1)
+          extra=$(grep -v '^#' keel/office/portal/branches.txt 2>/dev/null || true)
+          : > .portal_branches
+          for b in $day $extra; do
+            git rev-parse -q --verify "origin/$b" >/dev/null || continue
+            if git merge -q --no-edit "origin/$b" >/dev/null 2>&1; then echo "$b" >> .portal_branches; echo "merged $b"
+            else git merge --abort; echo "skipped $b (does not merge cleanly)"; fi
+          done
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Build the page
-        env:
-          PORTAL_MODE: ${{ vars.PORTAL_MODE || 'progress' }}
+      - name: Build the portal
         run: |
-          python3 keel/office/dashboard/build_data.py "GitHub Pages"
-          python3 keel/office/dashboard/build_site.py --mode "$PORTAL_MODE" --out _site
+          pip install --quiet markdown
+          python3 keel/office/portal/build_portal.py --out _site
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
