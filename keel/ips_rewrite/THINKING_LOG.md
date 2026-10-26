@@ -230,3 +230,10 @@ market, so world history would sit lower; we have no world series on file. Safe 
 **Still missing (Courtroom):** Ray's voice; "as needs change" (smaller or missing 2028 deposit, rates falling before
 the build, stocks halving before 2031); the inflation and Taiwan-dollar assumption the case requires; liquidity
 named; the reserve's composition over time (the case re-read's "it changes itself" answers this one).
+
+**Rules check (PR #49, via the coordinator):** D4's "ten Treasuries, each redeemed" is wrong: five of the ten rungs
+are iBond funds. That bears on the R. Redemption is still true underneath (every bond inside an iBond fund is
+redeemed by the Treasury, and the fund then pays out its cash), but the IPS can't say "ten Treasuries". Options for
+Thursday: "ten holdings, each redeemed in time for one January" (redemption of bonds and of fund shares), or let
+redemption lean on its second sense, Laura redeeming her pledge, and say plainly "five Treasury bonds and five
+Treasury funds". Ladder figure is still 22 Oct ($1,139 under $300k).
