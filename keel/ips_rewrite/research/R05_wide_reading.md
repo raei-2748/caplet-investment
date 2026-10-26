@@ -88,7 +88,7 @@ already paid, rated as the US itself", not "AAA".
 - (c) **Describes** (strong framing); it also names the one condition under which the plan is not low-dependency (if
   yields fell before the Jan 2027 build, the 2028 deposit tops up the ladder).
 - (d) IPS: "the payments depend on no future contribution, not even Laura's own". Source: The Pensions Regulator,
-  *General Code / DB Funding Code of Practice* (laid before Parliament 29 Aug 2024; Addleshaw Goddard briefing
+  *General Code / DB Funding Code of Practice* (laid before Parliament 29 Aug 2024 **[Window 27 Oct: 29 JULY 2024 (TPR press release "New DB funding code laid in parliament", Mon 29 Jul 2024, read 27 Oct 2026); in force for valuations from 22 Sep 2024; the General Code is a separate code]**; Addleshaw Goddard briefing
   "DB funding code laid in Parliament", 29 Aug 2024, and Hymans Robertson "DB Funding Code Glossary", VERIFIED
   existence). In-force date and the exact "low dependency" definition: UNVERIFIED (check TPR's own page).
 - (e) **3.**
@@ -127,7 +127,7 @@ already paid, rated as the US itself", not "AAA".
 - (a) For a matched portfolio, the loss from a non-parallel rate move is bounded by a constant times M², the spread of
   the assets' cash-flow dates around the payment date; a zero-coupon bond on the date has M² = 0.
 - (b) STRIPS are banned, so each rung has M² > 0, and the highest-coupon, longest bonds carry most (the Feb-2037 4.75%
-  bond's coupons sit far from its payment date; the Nov-2041 3.125% bond less per dollar). This ranks which rungs leak
+  bond's coupons sit far from its payment date; the Nov-2041 3.125% bond less per dollar). **[Window 27 Oct: BACKWARDS. Length drives M², not coupon: per dollar at a flat 5% from Jan 2027, Feb-2037 ~20, May-2038 ~23, Nov-2039 ~28, Nov-2040 ~34, Nov-2041 ~35. The Nov-2041 rung leaks most. `../../office/outbox/2026-10-27_window_7-5-and-three-checks.md`.]** This ranks which rungs leak
   and gives the coupon gap a structural measure instead of only a simulation.
 - (c) **Sharpens** R02 aha 4 (dedication): the coupons that matter are the ones landing far from any payment; using
   them to pay the next payment directly (dedication) is precisely an M²-reducing move.
