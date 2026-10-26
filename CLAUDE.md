@@ -5,11 +5,12 @@ decision, deadline or open item changes, and commit it with the related change. 
 
 ## For every Claude session in this repo (all teammates)
 Whoever is using Claude here, these rules apply, and the Keel Office (formerly the Caplet Research Office) is how competition work is done:
-- **THE BIBLE comes first (Ray, 26 Oct 2026: "this is bible").** `keel/BIBLE.md` is his message verbatim: extraordinary
-  above all; Caplet XR with both meanings (extended release; X = 10; R never "release"); no certainty policing (a word
-  is wrong only if false; iBonds held to the December liquidation are near-ironclad, as close to exact sums on exact
-  dates as it gets outside T-bonds); his voice, tested on his essays and rewritten TNA, not only Orwell; near-final IPS
-  for review by Sat 31 Oct. It beats every Keel file; only the hard limits sit above it.
+- **THE BIBLE comes first: Caplet's five books, all equal (23-26 Oct 2026), verbatim in `keel/BIBLE.md`** (north stars;
+  refinements; Caplet XR and de-obsessions; rewrite from scratch and star 4; Caplet XR locked; plus the 26 Oct cover note).
+  Extraordinary above all; Ray's distinctive, deeply human voice; one subtle motif, Caplet XR (X = 10; R never
+  "release"); breathtaking investing knowledge, applied; no hedging (iBonds held to liquidation are near-ironclad);
+  judges are not mini-Lauras. **The IPS rewrite is slow and deep, never hasty**: near-final for review Sat 31 Oct,
+  final Sat 7 Nov 09:00 Sydney. Keel may weigh the books with its own judgement. Only the hard limits sit above it.
 - **Keel makes its own calls** (Ray, 26 Oct): every decision is Keel's, logged with a reason in `keel/pm/ASK_HUMANS.md`;
   only danger-zone decisions (WInS orders, submitting, Caplet's docs, money, accounts, outside emails, repo settings) wait for a student.
 - **No work is finished until the portal shows it** (Ray, 26 Oct, project rule): push, check the "Keel Office portal"

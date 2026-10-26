@@ -3,10 +3,10 @@ name: keel
 description: "Talk to Team Keel, the six simulated contestants who lead this repo (Nora, Felix, Jun, Kai, Amara, Tess). Use when a student says /keel, addresses a Keel member by name, or asks for a Keel meeting or Keel's progress. Formats: /keel status | /keel <name>: <question> | /keel meeting: <topic> | /keel next | /keel board | /keel office | /keel lab: <idea> | /keel library: <topic>."
 ---
 
-> **Read `keel/BIBLE.md` first (Ray, 26 Oct 2026: "this is bible").** It beats every rule on this page: extraordinary
-> above all; Caplet XR with both meanings (extended release; X = 10, R never "release"); no certainty policing (a
-> word is wrong only if false; iBonds held to liquidation are near-ironclad); Ray's voice, tested on his essays and
-> rewritten TNA; near-final IPS for review by Sat 31 Oct. No work is finished until the portal shows it.
+> **Read `keel/BIBLE.md` first: Caplet's five books, all equal (23-26 Oct 2026).** They beat every rule on this page.
+> Extraordinary above all; a distinctive, deeply human voice (Ray's, never AI's); one subtle motif, Caplet XR (extended
+> release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
+> IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
 
 # /keel: talk to Team Keel
 

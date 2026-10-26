@@ -335,7 +335,7 @@ def bible():
     if not txt:
         return {}
     rules, cur = [], None
-    sec = txt.split("## The six rules", 1)[1].split("\n## ", 1)[0] if "## The six rules" in txt else ""
+    sec = txt.split("## Keel's reading", 1)[1].split("\n## ", 1)[0] if "## Keel's reading" in txt else ""
     for line in sec.splitlines():
         m = re.match(r"\d+\. \*\*(.+?)\*\*\s*(.*)", line)
         if m:
@@ -352,10 +352,11 @@ def bible():
             m = re.match(r"\*\*(\w+) \((.+?)\)\.\*\*\s*(.*)", para.strip(), re.S)
             if m:
                 takes.append({"name": m.group(1), "room": m.group(2), "text": " ".join(m.group(3).split())})
-    return {"rules": rules, "takes": takes, "doc": "keel/BIBLE.md", "takes_doc": "keel/BIBLE_TAKES.md",
-            "quote": "There's only one real rule above all else. Both our IPS and our Final Report must be truly, "
-                     "exceptionally, stunningly, breathtakingly, extraordinary.",
-            "said": "Ray, Mon 26 Oct 2026: \u201cthis is bible\u201d"}
+    books = [{"title": m.group(1), "date": m.group(2)} for m in re.finditer(r"^## (Book \d: .+?) \((.+?)\)$", txt, re.M)]
+    return {"rules": rules, "takes": takes, "books": books, "doc": "keel/BIBLE.md", "takes_doc": "keel/BIBLE_TAKES.md",
+            "quote": "This is supposed to be a long process because it should take an extraordinary amount of thinking and "
+                     "ideation and research and analysis and so on. ... THINK. That's your job.",
+            "said": "Caplet, Mon 26 Oct 2026, cover note to the five books (all equal)"}
 
 
 # ---------- assemble ----------

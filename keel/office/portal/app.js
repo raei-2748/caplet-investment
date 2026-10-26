@@ -301,10 +301,12 @@
     const B = K.bible;
     if (!B || !B.rules) return "";
     const byName = Object.fromEntries(K.members.map(m => [m.name.split(" ")[0], m]));
-    return `<section class="card bible"><div class="sec-head"><span class="tag px">The bible · read first, every run</span><a href="#/doc/${esc(B.doc)}">Ray's full message →</a></div>
+    return `<section class="card bible"><div class="sec-head"><span class="tag px">The bible · five books, all equal · read first, every run</span><a href="#/doc/${esc(B.doc)}">Read all five books →</a></div>
       <blockquote>${esc(B.quote)}<cite>${esc(B.said)}</cite></blockquote>
+      ${B.books && B.books.length ? `<ul class="books">${B.books.map(b => `<li><a href="#/doc/${esc(B.doc)}"><span class="px">${esc(b.title.split(":")[0])}</span>${esc(b.title.split(": ").slice(1).join(": "))}<span class="tiny muted">${esc(b.date)}</span></a></li>`).join("")}</ul>` : ""}
+      <h3 style="margin:1rem 0 0">Keel's reading: the rules every run applies</h3>
       <ol class="rules">${B.rules.map(r => `<li><b>${esc(r.lead)}</b> ${esc(r.text)}</li>`).join("")}</ol>
-      ${B.takes.length ? `<div class="sec-head" style="margin-top:1rem"><h2>What it changes for each of us</h2><a href="#/doc/${esc(B.takes_doc)}">All six takes →</a></div>
+      ${B.takes.length ? `<div class="sec-head" style="margin-top:1rem"><h2>What Book 5 changes for each of us</h2><a href="#/doc/${esc(B.takes_doc)}">All six takes →</a></div>
       <div class="takes">${B.takes.map(t => { const m = byName[t.name]; return `<div class="take-card">${m ? `<a href="#/member/${m.id}">${avatar(m.id, 40, m.name)}</a>` : ""}<div><span class="px">${esc(t.name)}</span> <span class="tiny muted">${esc(t.room)}</span><p>${esc(t.text)}</p></div></div>`; }).join("")}</div>` : ""}
     </section>`;
   }

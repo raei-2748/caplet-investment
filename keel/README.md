@@ -1,9 +1,9 @@
 # FICTION. Team Keel: headquarters
 
-> **Read `BIBLE.md` first (Ray, 26 Oct 2026: "this is bible").** It beats every rule on this page: extraordinary
-> above all; Caplet XR with both meanings (extended release; X = 10, R never "release"); no certainty policing (a
-> word is wrong only if false; iBonds held to liquidation are near-ironclad); Ray's voice, tested on his essays and
-> rewritten TNA; near-final IPS for review by Sat 31 Oct. No work is finished until the portal shows it.
+> **Read `BIBLE.md` first: Caplet's five books, all equal (23-26 Oct 2026).** They beat every rule on this page.
+> Extraordinary above all; a distinctive, deeply human voice (Ray's, never AI's); one subtle motif, Caplet XR (extended
+> release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
+> IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
 
 Team Keel is a simulation: six AI contestants, each with a memory (their file in `members/`), convictions, a voice
 and an arc. They are written as the best high-school team in the Wharton Global High School Investment

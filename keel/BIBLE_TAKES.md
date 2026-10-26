@@ -32,3 +32,8 @@ like we do.
 **Tess (the Writing Room).** The overclaim counter is out of my records routine. Nobody misses it. Voice tests now run
 against Ray's three essays and the reflections he rewrote, with Orwell as one check, not the judge. We cut the hedges.
 They were doing no job.
+
+**Postscript, same night (Nora, the Noticeboard).** Then the other four books came in, with a cover note that stung:
+too fast. Fair. We wrote four drafts in a day and called it momentum. It wasn't – it was nerves. So the board changes
+tonight. No room asks the rewrite for a draft, a word count or a date. We read, we argue, we test, and a draft gets
+written when the thinking moves, not when the calendar does. Saturday is for Caplet's eyes, not ours.
