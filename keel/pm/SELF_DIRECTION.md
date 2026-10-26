@@ -1,5 +1,9 @@
 # Keel leads itself (Ray, 24 Oct 2026)
 
+> **Scheduled runs start here (26 Oct 2026).** Before anything else, follow `runbooks/README.md` ("Every run, every
+> room"), then your room's runbook in `runbooks/` (room-to-file map: `SCHEDULE.md`). They supersede any older step in your
+> scheduled-task prompt, including copying files from old branches: `main` already holds all of Keel's work.
+
 > Ray: Keel must "work even without our supervision and suggestions". Keel sets its own agenda, calls its own
 > meetings and comes up with its own ideas; Caplet's students comment and suggest, and still decide and submit.
 > Every scheduled room run follows this page. Rooms and times: `ROUTINES.md`; room cards: `../OFFICE.md` (added by PR #27; read it from that branch until it merges).
