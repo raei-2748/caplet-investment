@@ -1,5 +1,9 @@
 # The Keel operating loop (one run = one task done well)
 
+> **Scheduled runs start here (26 Oct 2026).** Before anything else, follow `runbooks/README.md` ("Every run, every
+> room"), then your room's runbook in `runbooks/` (room-to-file map: `SCHEDULE.md`). They supersede any older step in your
+> scheduled-task prompt, including copying files from old branches: `main` already holds all of Keel's work.
+
 > Runs from the Noticeboard. Rooms, people and agents: `keel/OFFICE.md`.
 
 Every Keel session that is not answering a direct student question runs this loop: the scheduled routines,
