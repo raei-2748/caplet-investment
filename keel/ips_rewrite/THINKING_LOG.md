@@ -142,3 +142,31 @@ Laura's Room checks whether co-sponsors would read a range the newsvendor way.
   under the bottom, not "inside".
 - A theory named wrongly somewhere in the research (The Window's PR #49 note): check every named concept against its
   source before the synthesis.
+
+## Tue 27 Oct: the Lab tests the two day-1 ideas that are about money (WO-R5, `lab/R05_joint.py`)
+Method: the unchanged 200,000-path model (`../library/ips_numbers_2026-10/ips_numbers.py`) on the 22 Oct curve, with
+one change: each year's stock shock 2028-32 is correlated with that year's yield move (rho = 0, 0.3, 0.5; rho > 0
+means yields and stocks fall together, a recession). Stocks at 7.5% (JPM 2027) and 6.5% (a sceptic's figure). MODEL.
+
+| | p(top reached) | implied over/under-promise cost ratio | p(gift below quoted bottom) | p(coupon gap reaches the floor) | p(floor dented > $5k) |
+|---|---|---|---|---|---|
+| 7.5%, independent | 76.7% | 3.3 | 0.75% | 7.0% | 3.8% |
+| 7.5%, rho 0.5 | 75.2% | 3.0 | 1.28% | 8.7% | 5.1% |
+| 6.5%, rho 0.5 | 72.9% | 2.7 | 1.43% | 9.3% | 5.5% |
+
+What it means:
+1. **Wrong-way risk is real but small.** When the coupon gap is in its worst 5%, Laura's half of the stocks has a
+   median of $13k at rho 0.5 against $17k with no correlation: the first buffer is thinnest exactly when it's needed.
+   The chance of landing under the quoted bottom nearly doubles (0.75% -> 1.3-1.4%). Still small. But it kills one of
+   my day-1 ideas in its strong form:
+2. **A2 ("the bottom needs no model") is false as stated.** The bottom needs no STOCK model. It does carry rate risk,
+   because in 7-9% of paths the coupon gap outruns Laura's half and eats into the floor (mean ~$7k when it does). The
+   $145k quote (vs ~$150k bought) is the margin that absorbs most of it. True version: "the bottom depends on no
+   share price; only on Treasuries paying what they owe and on coupon reinvestment, and we quote it below what we
+   own to cover the second." Less elegant, and honest. R01's coupon matching would nearly restore the strong version
+   (it halves the gap), which reopens the Courtroom's question: is the dedicated ladder an IPS principle (later
+   coupons pay earlier cheques) rather than a re-sizing of the frozen book? The ten instruments don't change.
+3. **The newsvendor reading holds up.** The top is reached about 73-77% of the time across all six runs, so the rule
+   implicitly prices over-promising at roughly 3 times the cost of under-promising (2.7-3.3). Stable to correlation
+   and to a 1pp lower return: a ratio we can state and defend, not a lucky number. And the donor-size evidence (The
+   Window) supplies the other side: under-promising costs real gifts, so 3:1, not 10:1.

@@ -1,0 +1,158 @@
+{
+ "mu=1.075 rho=0.0": {
+  "p_top_reached_within_1k": 0.7672,
+  "implied_over_under_cost_ratio": 3.3,
+  "p_gift_below_bottom": 0.0075,
+  "p_coupon_gap_exceeds_lauras_half": 0.0704,
+  "S33_p50_p95_p99": [
+   0,
+   22055,
+   29236
+  ],
+  "half_p5_p50_all": [
+   10118,
+   21681
+  ],
+  "half_p5_p50_when_S33_in_worst_5pct": [
+   7384,
+   16857
+  ],
+  "uncovered_p99": 13278,
+  "uncovered_mean_when_positive": 6943,
+  "p_floor_dented_by_gap_over_5k": 0.0383,
+  "top_p50": 166292,
+  "bottom_p50": 145000,
+  "ladder_headroom": -224,
+  "stock_fund_2jan2028_p50": 31082
+ },
+ "mu=1.075 rho=0.3": {
+  "p_top_reached_within_1k": 0.7573,
+  "implied_over_under_cost_ratio": 3.12,
+  "p_gift_below_bottom": 0.0105,
+  "p_coupon_gap_exceeds_lauras_half": 0.0805,
+  "S33_p50_p95_p99": [
+   0,
+   22055,
+   29236
+  ],
+  "half_p5_p50_all": [
+   10108,
+   21669
+  ],
+  "half_p5_p50_when_S33_in_worst_5pct": [
+   6572,
+   14383
+  ],
+  "uncovered_p99": 14686,
+  "uncovered_mean_when_positive": 7377,
+  "p_floor_dented_by_gap_over_5k": 0.0462,
+  "top_p50": 166284,
+  "bottom_p50": 145000,
+  "ladder_headroom": -224,
+  "stock_fund_2jan2028_p50": 31082
+ },
+ "mu=1.075 rho=0.5": {
+  "p_top_reached_within_1k": 0.7521,
+  "implied_over_under_cost_ratio": 3.03,
+  "p_gift_below_bottom": 0.0128,
+  "p_coupon_gap_exceeds_lauras_half": 0.0872,
+  "S33_p50_p95_p99": [
+   0,
+   22055,
+   29236
+  ],
+  "half_p5_p50_all": [
+   10116,
+   21680
+  ],
+  "half_p5_p50_when_S33_in_worst_5pct": [
+   6193,
+   12962
+  ],
+  "uncovered_p99": 15620,
+  "uncovered_mean_when_positive": 7643,
+  "p_floor_dented_by_gap_over_5k": 0.0513,
+  "top_p50": 166275,
+  "bottom_p50": 145000,
+  "ladder_headroom": -224,
+  "stock_fund_2jan2028_p50": 31082
+ },
+ "mu=1.065 rho=0.0": {
+  "p_top_reached_within_1k": 0.7449,
+  "implied_over_under_cost_ratio": 2.92,
+  "p_gift_below_bottom": 0.0085,
+  "p_coupon_gap_exceeds_lauras_half": 0.0753,
+  "S33_p50_p95_p99": [
+   0,
+   22055,
+   29236
+  ],
+  "half_p5_p50_all": [
+   9656,
+   20692
+  ],
+  "half_p5_p50_when_S33_in_worst_5pct": [
+   7047,
+   16087
+  ],
+  "uncovered_p99": 13782,
+  "uncovered_mean_when_positive": 7038,
+  "p_floor_dented_by_gap_over_5k": 0.0415,
+  "top_p50": 165802,
+  "bottom_p50": 145000,
+  "ladder_headroom": -224,
+  "stock_fund_2jan2028_p50": 31082
+ },
+ "mu=1.065 rho=0.3": {
+  "p_top_reached_within_1k": 0.7353,
+  "implied_over_under_cost_ratio": 2.78,
+  "p_gift_below_bottom": 0.0119,
+  "p_coupon_gap_exceeds_lauras_half": 0.0855,
+  "S33_p50_p95_p99": [
+   0,
+   22055,
+   29236
+  ],
+  "half_p5_p50_all": [
+   9646,
+   20680
+  ],
+  "half_p5_p50_when_S33_in_worst_5pct": [
+   6272,
+   13726
+  ],
+  "uncovered_p99": 15164,
+  "uncovered_mean_when_positive": 7468,
+  "p_floor_dented_by_gap_over_5k": 0.0494,
+  "top_p50": 165791,
+  "bottom_p50": 145000,
+  "ladder_headroom": -224,
+  "stock_fund_2jan2028_p50": 31082
+ },
+ "mu=1.065 rho=0.5": {
+  "p_top_reached_within_1k": 0.7292,
+  "implied_over_under_cost_ratio": 2.69,
+  "p_gift_below_bottom": 0.0143,
+  "p_coupon_gap_exceeds_lauras_half": 0.0928,
+  "S33_p50_p95_p99": [
+   0,
+   22055,
+   29236
+  ],
+  "half_p5_p50_all": [
+   9654,
+   20690
+  ],
+  "half_p5_p50_when_S33_in_worst_5pct": [
+   5911,
+   12370
+  ],
+  "uncovered_p99": 16025,
+  "uncovered_mean_when_positive": 7692,
+  "p_floor_dented_by_gap_over_5k": 0.0549,
+  "top_p50": 165780,
+  "bottom_p50": 145000,
+  "ladder_headroom": -224,
+  "stock_fund_2jan2028_p50": 31082
+ }
+}
