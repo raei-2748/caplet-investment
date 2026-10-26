@@ -95,3 +95,32 @@ pharmacology, not a pun:
 - The R: redemption stays first ("ten redemptions"; the Treasury redeems the bond so Laura can redeem her pledge).
   Runway is true (10 years of burn) but fails "ten ___s". "Receipts"/Rx (Latin recipe; XR reversed is Rx) are
   Final Report asides at most.
+
+**Opus wide-reading rung back (`research/R05_wide_reading.md`, 20 concepts, 3 syntheses).** Three findings change my
+thinking, not just my vocabulary:
+1. **The "99 in 100" figure is close to a tautology, and our sketches leaned on it.** If the gift is capped at the
+   top and the bottom is bought, "the gift lands inside the range" is nearly true by construction. Goodhart and
+   interval scoring both say: report the number that could fail, which is the chance of reaching the top (~70-75%).
+   Every sketch that said "99 in 100" was showing off a number that measures nothing. Real correction.
+2. **The range is a newsvendor problem (rated 5).** A newsvendor orders stock knowing both costs: unsold papers
+   and missed sales. The case names both costs of the range: too little "may" fail to signal viability; too much
+   "could damage her credibility". So the top is a critical fractile. If the top is reached ~70-73% of the time
+   (MODEL, R05's quick run), the plan implicitly says over-promising is about 2.3-2.7 times worse than
+   under-promising. That turns "floor + half the stocks" from a taste into a stated trade-off, and it comes from the
+   operations canon of Laura's own degree field. Possibly THE aha. Sceptic: the cost of lost credibility is lumpy,
+   not linear. Answer: that's why the bottom is owned outright and only the top uses the ratio. Test in the Lab with
+   our own model before believing the 2.3-2.7.
+3. **Wrong-way risk in the buffers (S2).** The payments' one leak (coupon reinvestment) is worst when yields fall and
+   stay down, which happens in a recession, when Laura's half of the stocks (the first buffer) is smallest. Our
+   "draw from Laura's half first" ordering assumed the two are independent. They aren't. This needs a joint run
+   (rates and stocks falling together) before D1b's margin is trusted. It may also revive R01's coupon matching.
+Also kept: S3, "high certainty" as three tests that accounting, insurance rules and SVB all share (fixed cash flows
+landing before each date; a wall so nothing else draws on them; no forced sale). The sketches never said the wall
+part: recommend a separate account. Also: SVB 2023 as the foil (same bonds, but its depositors could run and Laura's
+dates can't move), and Baumol's cost disease + the Taiwan dollar for the half Laura keeps.
+
+**End of day 1: where my head is.** The strongest pieces so far are investing ideas, not images: zero-order release
+(why fixed dollars need Treasuries), the newsvendor range (why the top sits where it does), the model-free bottom
+and wrong-way buffers. XR earns its place only where it carries one of those. Tomorrow: the Lab runs the joint
+scenario and the newsvendor ratio on our own model; the Courtroom tries the newsvendor and zero-order ideas;
+Laura's Room checks whether co-sponsors would read a range the newsvendor way.
