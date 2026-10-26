@@ -1,0 +1,24 @@
+# When a Keel room or thread pushes to its own branch, rebuild the portal from main (Pages deploys only from main),
+# so the portal shows the run within minutes instead of waiting for the hourly build.
+name: Keel Office portal (rebuild after a Keel push)
+
+on:
+  push:
+    branches: ["claude/**"]
+    paths: ["keel/**"]
+
+permissions:
+  actions: write
+
+concurrency:
+  group: keel-portal-poke
+  cancel-in-progress: true
+
+jobs:
+  poke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start the portal build on main
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run keel-portal.yml --repo "$GITHUB_REPOSITORY" --ref main

@@ -1,0 +1,4 @@
+# Branches the portal merges into its scratch copy of main on every build (one per line), besides the newest
+# claude/keel-loop-* day branch. A branch that doesn't merge cleanly is skipped for that build. Remove a branch once
+# its PR is merged.
+claude/project-thread-tme6k9
