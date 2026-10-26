@@ -1,5 +1,10 @@
 # FICTION (the rooms and people) + real work (what each room produces). Team Keel: the Office
 
+> **Read `BIBLE.md` first (Ray, 26 Oct 2026: "this is bible").** It beats every rule on this page: extraordinary
+> above all; Caplet XR with both meanings (extended release; X = 10, R never "release"); no certainty policing (a
+> word is wrong only if false; iBonds held to liquidation are near-ironclad); Ray's voice, tested on his essays and
+> rewritten TNA; near-final IPS for review by Sat 31 Oct. No work is finished until the portal shows it.
+
 > Ray approved the office on Fri 23 Oct 2026: one office made of rooms, with the Genius Lab and the Library added to the
 > team's routine. This page is the map: which room does which job, who sits where, which AI agents work there and
 > where each room keeps its files. Diagram: `office/office_map.svg`. Load this page instead of the older office

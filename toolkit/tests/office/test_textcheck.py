@@ -18,11 +18,6 @@ def test_curly_quotes_are_flagged():
     assert [ch for _, ch, _ in found] == ["’", "“", "”"]
 
 
-def test_banned_words_whole_word_only():
-    hits = textcheck.banned_hits("Payments are guaranteed; we secured nothing. Unsecured is fine.")
-    assert [p for p, _ in hits] == ["guaranteed", "secured"]
-
-
 def test_first_difference():
     assert textcheck.first_difference("abc", "abc") is None
     assert textcheck.first_difference("Laura's", "Laura’s") == 5

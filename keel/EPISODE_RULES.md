@@ -1,5 +1,10 @@
 # FICTION. Team Keel: episode rules (headquarters page: `keel/README.md`)
 
+> **Read `BIBLE.md` first (Ray, 26 Oct 2026: "this is bible").** It beats every rule on this page: extraordinary
+> above all; Caplet XR with both meanings (extended release; X = 10, R never "release"); no certainty policing (a
+> word is wrong only if false; iBonds held to liquidation are near-ironclad); Ray's voice, tested on his essays and
+> rewritten TNA; near-final IPS for review by Sat 31 Oct. No work is finished until the portal shows it.
+
 **FICTION, AI-generated (Claude Code), started 22 Oct 2026 at Ray's request.** Keel is an imaginary team of six
 students in Sydney (`WORLD.md`). They work on the same competition, the same client (Laura Gao), the same deadlines and the same
 Wharton files as Caplet. They are written as a team we are confident would reach the semifinals or the finale.

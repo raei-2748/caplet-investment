@@ -1,7 +1,12 @@
 # Caplet's standing instructions to Keel (the register)
 
+> **Read `BIBLE.md` first (Ray, 26 Oct 2026: "this is bible").** It beats every rule on this page: extraordinary
+> above all; Caplet XR with both meanings (extended release; X = 10, R never "release"); no certainty policing (a
+> word is wrong only if false; iBonds held to liquidation are near-ironclad); Ray's voice, tested on his essays and
+> rewritten TNA; near-final IPS for review by Sat 31 Oct. No work is finished until the portal shows it.
+
 > Every instruction Caplet has given Keel, in one table, with whether Keel actually carries it out. Read this page at
-> the start of every run, after `pm/INVARIANTS.md`. It sits above runbooks, `pm/SELF_DIRECTION.md` and old prompts:
+> the start of every run, after `pm/INVARIANTS.md` and `BIBLE.md` (Ray's message of 26 Oct, which governs this whole table). It sits above runbooks, `pm/SELF_DIRECTION.md` and old prompts:
 > where any of them disagrees with a row here, the row wins and the run fixes the other file.
 >
 > Audit by Claude (thread "Make Keel act on our instructions", Mon 26 Oct 2026), after Ray wrote: "you are not really
@@ -16,6 +21,7 @@
 
 | # | Date | Instruction (Caplet's words, short) | Status | Evidence (26 Oct) | Now enforced in |
 |---|---|---|---|---|---|
+| **B** | **26 Oct** | **THE BIBLE: Ray's full message of 26 Oct, verbatim in `BIBLE.md` ("Yo lockin bro this is bible you should let every single member know it"). Extraordinary above all; Caplet XR with both meanings (R not "release"); no certainty policing (iBonds held to liquidation are near-ironclad); Ray's voice tested on his essays and rewritten TNA; near-final IPS by Sat 31 Oct; meet every expectation. Governs every row below** | **Fixed 26 Oct** | Ray: "i don't think u get it". The Rooftop's "three kinds of sure" and the Archive's A14 "exact" objection were still live; textcheck and four agents still flagged certainty words | `BIBLE.md` (read first: banner on all runbooks, 18 agents, 6 members, VOICE, NORTH_STARS, CAST, CULTURE, CHARTER, workstreams, both skills); overclaim checks removed from `office/tools/textcheck.py`, fact-checker, mock-judge, case-analyst, devils-advocate, CAST, COMPETITION.md s7; members' takes in `BIBLE_TAKES.md`; portal home page |
 | I01 | 23 Oct | North star 1, voice: cerebral yet witty, passionate yet thoughtful, insightful yet confident; unlike any other team; work judges ENJOY reading | Fixed 26 Oct | Partly: VOICE.md and the R03 essay study exist, but the Writing Room's daily job was word counts and a "textcheck" pass, so no room wrote voice | `pm/runbooks/writing-room.md` (job is now writing competing human versions of the rewrite's key lines) |
 | I02 | 23-24 Oct | North star 2, motif: one unifying motif, subtle, a tool not a crutch, found on the road less taken; investing beats literary skill | Applied | Caplet XR chosen by Keel vote B 3-2-1 (26 Oct), one motif sentence that does an investing job; Contac 600 and Extended Reserve parked for the Final Report | `NORTH_STARS.md`, `ips_rewrite/README.md` |
 | I03 | 23 Oct | North star 3, be truly extraordinary: an "aha" no other team (even AI-using ones) would reach | Fixed 26 Oct | Partly: L-09 (dedicated ladder halves the coupon tail) is a real aha, but the Genius Lab was barred from new models and most rooms ran checks, not ideas | `pm/runbooks/genius-lab.md` (new models allowed when they serve the rewrite), `pm/PROJECTS.md` |
@@ -54,3 +60,5 @@
 | I36 | 26 Oct | Test voice against Ray's own writing (his three essays + his rewritten TNA reflections), not only Orwell. Write in Ray's voice, not generic AI voice | New 26 Oct | The Writing Room tested only against Orwell | `ips_rewrite/research/R03_voice_study.md`, `pm/runbooks/writing-room.md` |
 | I37 | 26 Oct | Near-final IPS ready for Caplet's review by Sat 31 Oct (Sydney); meet every expectation; extraordinary above all | New 26 Oct | Timeline pulled forward from 5 Nov | `ips_rewrite/README.md` |
 | I38 | 26 Oct | Portal on GitHub Pages: clickable rooms, pixel-art avatars, real progress, every IPS version (V1, V2 ... V100) with what changed, all Keel's work on it; public, no password | Fixed 26 Oct | The first portal showed counts only | `ips_rewrite/VERSIONS.md` (a row per new draft), `office/portal/`, `pm/runbooks/README.md` step 6 |
+| I39 | 26 Oct | Project rule: every time a piece of work is done, update the portal (Keel Office) | New 26 Oct | Work on thread branches only showed after it merged | `pm/runbooks/README.md` step 8 (no run is finished until the portal shows it; the portal build now merges every `claude/*` branch pushed in the last 3 days); `CLAUDE.md` |
+| I40 | 26 Oct | "For all the decisions waiting on me just make your own call whichever you think work the best, do not have danger zone decisions made for me" | Fixed 26 Oct | 18 questions and 7 votes sat waiting on Caplet | `pm/ASK_HUMANS.md` (every waiting item decided by Keel with a reason; 2 danger-zone items left, both WInS orders; 2 facts only students have), `pm/DECISIONS.md`, `pm/runbooks/README.md` step 4, `pm/SELF_DIRECTION.md` |

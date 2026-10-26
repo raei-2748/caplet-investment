@@ -6,8 +6,7 @@
     python3 keel/office/tools/textcheck.py draft.txt --limit 500 --voice
 
 Reports two word counts (the stricter one is what to keep under the limit), the character count, every non-ASCII
-character (Google Docs turns straight quotes into curly ones; WInS notes are plain ASCII), words the team agreed
-not to use for our plan, and an exact-match check against a second file. --voice adds a rhythm-and-habit meter built
+character (Google Docs turns straight quotes into curly ones; WInS notes are plain ASCII) and an exact-match check against a second file. --voice adds a rhythm-and-habit meter built
 from the rewrite's voice study (`keel/ips_rewrite/research/R03_voice_study.md`): a smoke alarm for prose that reads as
 machine-made, never a score to write towards.
 """
@@ -20,12 +19,7 @@ import sys
 import unicodedata
 from pathlib import Path
 
-# From competition/COMPETITION.md section 7 and the 16 Oct review (items 8, 12): overclaims for a plan that is not riskless.
-BANNED = [
-    "guaranteed", "guarantee", "guarantees", "risk-free", "riskless", "locked", "secured", "secures", "promised",
-    "cannot miss",
-    "never below", "certain to", "immunisation", "immunization", "cppi",
-]
+# No overclaim or certainty-word list (removed 26 Oct 2026, keel/BIBLE.md rule 3): a word is wrong only if it is false.
 
 
 def words_by_spaces(text: str) -> int:
@@ -41,15 +35,6 @@ def words_strict(text: str) -> int:
 def non_ascii(text: str) -> list[tuple[int, str, str]]:
     """(position, character, Unicode name) for every non-ASCII character."""
     return [(i, ch, unicodedata.name(ch, "UNKNOWN")) for i, ch in enumerate(text) if ord(ch) > 127]
-
-
-def banned_hits(text: str) -> list[tuple[str, int]]:
-    """(banned phrase, position) for each match, case-insensitive, whole words."""
-    hits = []
-    for phrase in BANNED:
-        for m in re.finditer(rf"(?<!\w){re.escape(phrase)}(?!\w)", text, flags=re.IGNORECASE):
-            hits.append((phrase, m.start()))
-    return sorted(hits, key=lambda h: h[1])
 
 
 # R03 voice study (26 Oct): habits that made the TNA read as AI. Lists are short on purpose; a hit is a question, not a fault.
@@ -169,10 +154,6 @@ def main(argv: list[str] | None = None) -> int:
     for pos, ch, name in odd[:20]:
         print(f"  at {pos}: {ch!r} {name}")
 
-    hits = banned_hits(text)
-    print(f"overclaim words: {len(hits)}")
-    for phrase, pos in hits:
-        print(f"  at {pos}: {text[max(0, pos - 20):pos + len(phrase) + 20]!r}")
 
     if args.compare:
         other = read(args.compare)

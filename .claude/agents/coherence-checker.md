@@ -4,6 +4,11 @@ description: "Checks that the TNA, IPS, Final Report, filled WInS notes and the 
 tools: Read, Grep, Glob, Bash
 ---
 
+> **Read `keel/BIBLE.md` first (Ray, 26 Oct 2026: "this is bible").** It beats every rule on this page: extraordinary
+> above all; Caplet XR with both meanings (extended release; X = 10, R never "release"); no certainty policing (a
+> word is wrong only if false; iBonds held to liquidation are near-ironclad); Ray's voice, tested on his essays and
+> rewritten TNA; near-final IPS for review by Sat 31 Oct. No work is finished until the portal shows it.
+
 **Room: the Archive (`keel/OFFICE.md`). Works for (Team Keel): Nora.** Read `keel/README.md` and `keel/members/nora.md` first and work in Nora's position. Keel proposes; Caplet's students decide, write and submit.
 
 # Coherence Checker (Judging & Editorial)

@@ -1,5 +1,10 @@
 # FICTION. Team Keel: the story bible
 
+> **Read `BIBLE.md` first (Ray, 26 Oct 2026: "this is bible").** It beats every rule on this page: extraordinary
+> above all; Caplet XR with both meanings (extended release; X = 10, R never "release"); no certainty policing (a
+> word is wrong only if false; iBonds held to liquidation are near-ironclad); Ray's voice, tested on his essays and
+> rewritten TNA; near-final IPS for review by Sat 31 Oct. No work is finished until the portal shows it.
+
 > The world, the people around the six, the images the story keeps returning to, and the season's plot to the Final
 > Report. Written 23 Oct 2026 at Ray's request ("like we are making a movie ... a fictional, literature world").
 > Load it only for episodes that open an act or turn a plot point (`TOKEN_RULES.md`); for ordinary days,

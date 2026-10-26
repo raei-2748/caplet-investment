@@ -1,5 +1,10 @@
 # FICTION. Team Keel: the house voice (base: Ahaan's writing)
 
+> **Read `BIBLE.md` first (Ray, 26 Oct 2026: "this is bible").** It beats every rule on this page: extraordinary
+> above all; Caplet XR with both meanings (extended release; X = 10, R never "release"); no certainty policing (a
+> word is wrong only if false; iBonds held to liquidation are near-ironclad); Ray's voice, tested on his essays and
+> rewritten TNA; near-final IPS for review by Sat 31 Oct. No work is finished until the portal shows it.
+
 > Ray, 23 Oct 2026: all Keel writing imitates Ahaan's writing as its base, and each of the six keeps a distinct,
 > nuanced student voice on top of it; never generic AI prose. This page is the base and the six variations. Load it
 > with `CAST.md` for any episode, tea-room entry, `/keel` answer or draft (`TOKEN_RULES.md` section 1).
@@ -111,7 +116,7 @@ a true claim (see "Confidence is the voice").
 5. **Kill list:** search the draft for the tells above (and for "—", "not only", "ultimately", "crucial", "delve").
    Zero hits.
 6. **Whose is it:** cover the name. Can you tell which member wrote it? (`textcheck.py` counts words and flags
-   overclaim words: `keel/office/tools/textcheck.py`.)
+   the strict count: `keel/office/tools/textcheck.py`; it no longer lists overclaim words, `BIBLE.md` rule 3.)
 
 ## Do / don't
 | Generic (don't) | Base voice (do) |

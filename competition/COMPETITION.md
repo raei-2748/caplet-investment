@@ -192,7 +192,8 @@ Trade-off we accept (and should state): less stock means a lower median contribu
 better bad case. Model work: `keel/library/insight_v1/` (with STRIPS banners), F2 grid
 `keel/library/insight_v1/scripts/F2_floor_split_grid.py`, strategy log in `caplet/google_drive/strategy_notes.md`.
 Wording rules from the judge-lens brief: floor + VT is a static floor-plus-cushion (**not** CPPI); the ladder is
-cash-flow matching (**not** immunisation); never say "risk-free" or "guaranteed".
+cash-flow matching (**not** immunisation). Certainty words are fine when true (Ray, 26 Oct, `keel/BIBLE.md` rule 3):
+iBonds held to the December liquidation are near-ironclad, as close to exact sums on exact dates as it gets outside T-bonds.
 
 ## 8. The WInS portfolio now
 
@@ -233,8 +234,8 @@ scrolled. Rule since then: **only Ray places or cancels WInS orders.**
 - [ ] Fill the team sheet's Trade Log and units-held columns (needed to evaluate the implementation).
 - [ ] **IPS Version 5** (16 Oct check: fits 2 pages with ~3 lines spare; Google Docs counts hyphen parts as words, so
       keep the IPS body <=500 on BOTH counts: 496 / 487 if the 16 Oct fixes are accepted; pitch 50 / 47, no room). Earlier:
-      render check of the page/line count; soften absolute claims
-      ("never below the floor", "cannot miss") or back them; add the trade-off sentence; put back the certainty evidence.
+      render check of the page/line count; back absolute claims with the bond that makes them true
+      (never soften: `keel/BIBLE.md`); add the trade-off sentence; put back the certainty evidence.
 - [ ] **IPS numbers** (16 Oct): use `keel/library/ips_numbers_2026-10/IPS_number_sheet.md` for the dollar range, the
       confidence, the allocation and the return assumption; pick one coupon-risk option (section 3) before 6 Nov.
 - [ ] **Request the school documentation letter** now.

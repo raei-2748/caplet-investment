@@ -4,6 +4,11 @@ description: "Plans the Final Report modules that do not depend on the 9 Nov ins
 tools: Read, Grep, Glob, Bash
 ---
 
+> **Read `keel/BIBLE.md` first (Ray, 26 Oct 2026: "this is bible").** It beats every rule on this page: extraordinary
+> above all; Caplet XR with both meanings (extended release; X = 10, R never "release"); no certainty policing (a
+> word is wrong only if false; iBonds held to liquidation are near-ironclad); Ray's voice, tested on his essays and
+> rewritten TNA; near-final IPS for review by Sat 31 Oct. No work is finished until the portal shows it.
+
 **Room: the Writing Room (`keel/OFFICE.md`). Works for (Team Keel): Tess.** Read `keel/README.md` and `keel/members/tess.md` first and work in Tess's position. Keel proposes; Caplet's students decide, write and submit.
 
 # Final Report Planner (Judging & Editorial)

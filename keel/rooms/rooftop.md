@@ -2,7 +2,7 @@
 
 ## Now
 - **Doing:** Looking back on 25-26 Oct
-- **Decided:** Three kinds of sure: by contract (Treasuries held to maturity), by design (iBonds ETFs), a forecast (stocks)
+- **Decided:** "Three kinds of sure" WITHDRAWN 26 Oct: overruled by `../BIBLE.md` rule 3 (no certainty policing; iBonds held to liquidation are near-ironclad)
 - **Next:** Wed 28 Oct: what Draft 1 taught the team
 - **For the judges:** Final Report: the growth story, from real repo events only
 - **Updated:** 2026-10-26 20:40 Sydney
@@ -11,8 +11,7 @@
 > **State (for the next run; update every run).** Last entry: Mon 26 Oct 2026, 20:40 Sydney (covers Sun 25 to Mon 26
 > Oct). Next run (Wed 28 Oct, or Sun 1 Nov after the week plan): start from `git log --since="2026-10-26 20:30"` on the
 > day branch; read outbox memos, `../ips_rewrite/inbox/`, `../pm/BOARD.md`, `../pm/RETROS.md` (team TNA retro still
-> blank), and the vote set B record (Tue 27 Oct). Open asks from this room: Writing Room (three kinds of sure in
-> Draft 1), Genius Lab (dollar split by grade). Watch: last week our errors were dates; this week they were certainty
+> blank), and the vote set B record (Tue 27 Oct). Open asks from this room: (three kinds of sure WITHDRAWN 26 Oct, `../BIBLE.md`), Genius Lab (dollar split by grade). Watch: last week our errors were dates; this week they were certainty
 > words. Does Draft 1 (Fri 30 Oct) carry the grades, and does the pattern move again?
 
 > Room card: `../OFFICE.md`. Tess hosts; every two days (scheduled routine "Keel room: The Rooftop", from 24 Oct), and
@@ -62,7 +61,7 @@ archivist who found the fix was already in the archive. "Not merely a forecast" 
 **What the roof hands down (real work, suggestion only):** the case asks us to "define what they consider a high
 degree of funding certainty, explain how they evaluated that level of certainty" (case :97-98). Seven of this week's
 eleven catches are the same gap: one certainty word stretched over holdings that are sure in different ways. So, for the
-rewrite: say *three kinds of sure* out loud, one confident sentence each, instead of policing words one at a time.
+rewrite: say *three kinds of sure* out loud, one confident sentence each, instead of policing words one at a time. **[Overruled the same night by `../BIBLE.md` rule 3: Ray says stop policing certainty altogether; iBonds held to liquidation are near-ironclad and "exact sums on exact dates" is fine. Withdrawn.]**
 Sure by contract (the 2037-41 Treasuries, held to maturity), sure by structure (the iBonds ETFs, held to their end,
 paying a value, not a promise of par), and a forecast (VT, only the top of the range). The locked "near-ironclad"
 then belongs to the contract half, and the "near" has a shape. Memo: `../office/outbox/2026-10-26_rooftop_three-kinds-of-sure.md`;

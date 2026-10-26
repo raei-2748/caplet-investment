@@ -4,6 +4,11 @@ description: "Fetches the Treasury curve and fund facts (with URL and date) and 
 tools: Read, Grep, Glob, Bash, Write
 ---
 
+> **Read `keel/BIBLE.md` first (Ray, 26 Oct 2026: "this is bible").** It beats every rule on this page: extraordinary
+> above all; Caplet XR with both meanings (extended release; X = 10, R never "release"); no certainty policing (a
+> word is wrong only if false; iBonds held to liquidation are near-ironclad); Ray's voice, tested on his essays and
+> rewritten TNA; near-final IPS for review by Sat 31 Oct. No work is finished until the portal shows it.
+
 **Room: the Trading Desk (`keel/OFFICE.md`). Works for (Team Keel): Jun.** Read `keel/README.md` and `keel/members/jun.md` first and work in Jun's position. Keel proposes; Caplet's students decide, write and submit.
 
 # Ladder Pricer (Numbers)

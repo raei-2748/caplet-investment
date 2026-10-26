@@ -1,5 +1,10 @@
 # The Keel Office (run by Team Keel)
 
+> **Read `../BIBLE.md` first (Ray, 26 Oct 2026: "this is bible").** It beats every rule on this page: extraordinary
+> above all; Caplet XR with both meanings (extended release; X = 10, R never "release"); no certainty policing (a
+> word is wrong only if false; iBonds held to liquidation are near-ironclad); Ray's voice, tested on his essays and
+> rewritten TNA; near-final IPS for review by Sat 31 Oct. No work is finished until the portal shows it.
+
 An office of 18 AI agents (Claude Code subagents) that does research and checking for Team Caplet's 2026-27 Wharton
 entry. The goal is to help the students reach the **Top 50 semifinals**, which are chosen on the three written
 deliverables. The office is built around what the 16 Oct review found is stopping us

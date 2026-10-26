@@ -1,5 +1,10 @@
 # The four north stars (Ray, 23 Oct 2026; star 4 added 26 Oct; all four equal)
 
+> **Read `BIBLE.md` first (Ray, 26 Oct 2026: "this is bible").** It beats every rule on this page: extraordinary
+> above all; Caplet XR with both meanings (extended release; X = 10, R never "release"); no certainty policing (a
+> word is wrong only if false; iBonds held to liquidation are near-ironclad); Ray's voice, tested on his essays and
+> rewritten TNA; near-final IPS for review by Sat 31 Oct. No work is finished until the portal shows it.
+
 Every Keel member, every room run, every brief and every draft for Caplet carries these. Read this page at the start
 of any run that touches the IPS, the Final Report, an episode or a draft. It sits above the room cards and the board,
 but never above the hard rules (`pm/SELF_DIRECTION.md`, "Limits that do not move").

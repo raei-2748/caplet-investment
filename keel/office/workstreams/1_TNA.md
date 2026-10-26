@@ -1,5 +1,10 @@
 # Workstream 1: Trading Notes Analysis (TNA)
 
+> **Read `../../BIBLE.md` first (Ray, 26 Oct 2026: "this is bible").** It beats every rule on this page: extraordinary
+> above all; Caplet XR with both meanings (extended release; X = 10, R never "release"); no certainty policing (a
+> word is wrong only if false; iBonds held to liquidation are near-ironclad); Ray's voice, tested on his essays and
+> rewritten TNA; near-final IPS for review by Sat 31 Oct. No work is finished until the portal shows it.
+
 **Due: Fri 23 Oct 5:00 pm ET = Sat 24 Oct 08:00 Sydney.** Internal submit: **Thu 22 Oct evening.**
 Status (20 Oct): the notes are filed in WInS. No student-written reflection was found in the IPS Report Doc or the
 Portfolio and Trading Notes Sheet (both read 19 Oct). The live Doc holds AI-written reflections labelled "[AI]" for
