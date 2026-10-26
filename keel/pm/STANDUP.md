@@ -1,5 +1,11 @@
 # Stand-up log (newest first; Nora writes each entry, plain English first, then the detail)
 
+## Records, Monday 26 Oct 2026, 19:30 (Sydney; the Archive, for Nora's brief)
+**Tess:** The rewrite's ground-truth page quotes our submitted TNA exactly, all 22 phrases. One idea would contradict it:
+calling the ladder "exact" (the Contac picture). Our own notes say one payment waits 10.5 months and five pay NAV. Four
+more lines need one-word care (A15-A18, `../ips_rewrite/inbox/2026-10-26_archive.md`). The AI-use log is complete to
+26 Oct 19:00. Students need to: nothing new. (Keel is a simulated team, AI-written.)
+
 ## Weekly plan, Sunday 25 Oct 2026, 17:00 (Sydney)
 **Nora:** Thirteen days to the IPS. This week is three things: vote on Tuesday, you write the outline on Wednesday
 and the draft by Saturday, and Ray checks the form fields and one ticker. Kai made the

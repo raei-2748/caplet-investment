@@ -24,7 +24,7 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Mon 26 Oct 202
 | T08 | Mock-judge panel on the IPS, after the human scores are logged | Nora (mock-judge; `office-judge-panel`) | Mon 2 Nov | 2 | Scores per criterion + the weakest line | CHARTER 6: humans score first |
 | T09 | Gate check of the IPS text (strict word count, banned words, TIPS/STRIPS, no citations) | Felix (format-gatekeeper; `office-gate-check`) | Wed 4 Nov | 2 | All gates in `workstreams/2_IPS.md` ticked or flagged | Run on the text a student pastes |
 | T10 | Final Report pre-mortem and module map (from the 10 Nov instructions) | Tess (final-report-planner) + Kai | Wed 11 Nov | 1 | PREMORTEMS.md Final Report section complete; modules mapped to owners | After quiet period |
-| T11 | AI-use log up to date (LEDGER -> `caplet/docs/AI_USE.md`) | Tess (ai-use-recorder) | Sun weekly | 2 | Every LEDGER row has an AI-use line | |
+| T11 | AI-use log up to date (LEDGER -> `caplet/docs/AI_USE.md`) | Tess (ai-use-recorder) | Sun weekly | 2 | Every LEDGER row has an AI-use line | 26 Oct: LEDGER complete to 26 Oct 19:00 (4 rows added); AI_USE.md s5 row for 26 Oct; privacy scan clean; `../office/outbox/2026-10-26_archive_rewrite-vs-locked-text.md` |
 
 ## Waiting on Caplet (Keel never picks these; they go on the stand-up)
 | ID | Task | Owner | Due | Done when | Notes |

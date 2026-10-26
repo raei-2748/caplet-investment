@@ -1,10 +1,11 @@
 # The Archive: what is locked (real records)
 
-> **State (last run Sun 25 Oct, 19:40 AEDT, Tess).** Locked text below unchanged (TNA as read 24 Oct; 11 WInS notes).
-> Register A1-A13: 0 contradictions; A1 now HOLDS (Library LC-02); 4 WATCH (A2, A4, A11 "release" on the ETF rungs,
-> A12 D1 dial 1 without dial 2). LEDGER complete to 25 Oct 19:00 AEDT (3 rows added, 1 duplicate removed). AI_USE.md s5
-> rows pasted 25 Oct (records only; ss1-3 still for a student by Sat 31 Oct). Next run: `git log --since='2026-10-25 19:40 +1100'`;
-> re-read only changed IPS drafts (`keel/drafts/`, `/mnt/project-files/ips/`), LEDGER and outbox; re-run "How this was checked".
+> **State (last run Mon 26 Oct, 19:30 AEDT, Tess).** Locked text unchanged (TNA as read 24 Oct; 11 WInS notes). Today's
+> check: the rewrite's `00_GROUND_TRUTH.md` s3 quotes all 22 locked phrases word for word (script); six inbox notes of
+> 26 Oct checked. Register A1-A18: **1 would-contradict (A14, "exact" for the ladder, Library S-04; not in a draft yet)**,
+> 7 WATCH (A2, A4, A11, A12, A15, A16, A17), A18 new and consistent. LEDGER complete to 26 Oct 19:00 AEDT (4 rows added);
+> AI_USE.md s5 row for 26 Oct added. Next run: `git log --since='2026-10-26 19:30 +1100'`; read only
+> `keel/ips_rewrite/` (inbox, drafts), LEDGER, outbox; first Draft 1 lands Fri 30 Oct: check it line by line against A1-A18.
 >
 > Room card: `../OFFICE.md`. Keeper: Tess (`evidence-archivist`, `ai-use-recorder`); `coherence-checker` works here for
 > Nora. Rule: nothing new may contradict anything on this page. Read it before drafting any deliverable.
@@ -43,6 +44,7 @@ Counts (`../office/tools/textcheck.py`): reflection 1 99 by spaces / 98 strict; 
 
 
 ## Coherence register (what new work must agree with)
+Checked 26 Oct against: `../ips_rewrite/00_GROUND_TRUTH.md` (s3 quotes exact) and the six inbox notes of 26 Oct (Genius Lab L-09, Laura's Room LR-03, Library S-04, Long Room motif, Window, Writing Room H1-H3). v4/v4.1 are no longer checked (Ray, 26 Oct: rewrite from scratch).
 Checked 25 Oct against: IPS v4.1 vote copy (`../drafts/ips_v4_1_2026-10-25/`, pitch 37 / IPS 480), Package B (`night_2026-10-25/v4/B_*.txt`), Courtroom C-01, Lab L-08 (Extended Reserve: consistent, "begun six years early"), Library S-03. Checked 24 Oct against: IPS edits v3 (`/mnt/project-files/ips/IPS_edits_v3_2026-10-24.md`, pitch 45 / IPS 471), Tab 15
 export, vote set B options and ballot (SD-T04, SD-T12), Laura's Room option A, Lab L-03, Writing Room cut packages.
 | # | Locked words | New work | Status | The rule from now on |
@@ -60,6 +62,11 @@ export, vote set B options and ballot (SD-T04, SD-T12), Laura's Room option A, L
 | A11 | Reflection 2: iBonds' "terminal payout is a net asset value, as opposed to a promise of par"; IBTM note: "the final payout is not fixed" | v4.1 pitch: payments bought "in Treasuries held to maturity"; Package B pitch "Like an extended-release pill, they release one payment each January" and IPS "Each payment's Treasury releases its cash by maturing"; Library S-03 rule: "release" only for Treasuries held to maturity | **WATCH** | Five of the ten payments (2033-37) sit in iBonds ETFs. A "release" or "held to maturity" line may cover them only if nothing beside it says or implies a fixed dollar amount ("exactly", "$50,000 released", "fixed"). The rung pays NAV; the TNA already told the judges so |
 | A12 | VT note: "her promised minimum"; IBTM note: "a floor ... giving co-sponsors a minimum figure in 2031" | Courtroom C-01 (25 Oct): dial 1, P5 ends "and last from the floor itself"; dial 2, the 2031 bottom quoted "less a margin for coupon risk". v4.1 P5: moving floor money into stocks "could break a number Laura has quoted, so we refuse" | **WATCH** (consistent if voted together) | Dial 1 alone lets a coupon gap draw the floor, so the quoted minimum breaks in 0.75% of paths (MODEL, 22 Oct curve), and P5's own refusal reason then reads half-true. With dial 2 it is 0.11%. Vote dial 1 and dial 2 as a pair, or keep v4.1's two-step P5 |
 | A13 | Note 1 (Feb-2037 bond): "proceeds held in a short-term Treasury ETF" | v4.1 P6: "Coupons and early maturities wait in a short-term Treasury ETF"; R14: no WInS listing check yet for such an ETF | Consistent | Keep a short-term Treasury holding as the waiting place. If WInS lists none (T24), say "Treasury bills" or name a listed holding, never "cash" alone, which would read as a change from the submitted note |
+| A14 | Note 1: "The 10.5-month gap creates reinvestment-rate risk"; reflection 2: "terminal payout is a net asset value, as opposed to a promise of par"; IBTM note: "the final payout is not fixed" | Library S-04 / inbox (26 Oct): Contac picture, "Exact, not about. ... Treasuries pay exact sums on exact dates" | **WOULD CONTRADICT** (not in a draft yet) | The ladder is never "exact". Five rungs pay NAV, one payment waits 10.5 months, two notes rely on reinvested coupons. The picture may say "on schedule" or "one each January"; "exact" only of a single named T-bond's own coupon or principal |
+| A15 | Reflection 2: "rests on a dedicated instrument (not merely a forecast)"; IBTM note: "the final payout is not fixed" | LR-03 (26 Oct): the 2031 bottom "is a Treasury fund on a statement, not a forecast"; candidate line "in the bank" | **WATCH** | Write "already bought" (Writing Room H1) or the locked "not merely a forecast"; never "not a forecast". The quoted bottom is a projected payout rounded down (A5) |
+| A16 | Reflection 2: "behave a lot like bonds when held to their end – so we’ll simply ignore price noise"; Note 1 "reinvestment-rate risk"; Nov-2039 note "reinvested coupons fund the rest"; IBTR note (yield fall -> top-up) | Long Room (26 Oct): one motif sentence, hold to maturity / "do not crush": "price swings can't touch a payment you don't sell" | **WATCH** (consistent as worded) | Only *price* swings are shut out. Rates still reach payments through reinvested coupons and the 2038 gap, as three locked notes say. Never "rates/markets can't touch a payment". If a sale rule is stated, keep "replaced only when unavailable" (A4) |
+| A17 | Reflection 1: "Every year the bonds sit untouched is a good year"; every WInS bond note names its own payment year | Genius Lab L-09 (26 Oct): dedicated ladder sized "from 2042 backwards"; WInS mirror ~10 trades, ~$52k each way | **WATCH** | The IPS line is consistent (each payment still rests on its own holding; coupons become scheduled, not merely reinvested). Mirror trades 2 weeks after the TNA would show judges ~$52k of payment bonds sold. Default: no trades, and the IPS says the Jan 2027 build is dedicated ("In January 2027," H3). If Caplet mirrors anyway, each sale note says "re-sizing", names the payment, never price. Courtroom WO-R2 rules |
+| A18 | VT note: "a rise before 2031 lifts the top of the range co-sponsors hear"; reflection 3: VT answers "how generous can the facility contribution be?" | LR-03 (26 Oct): "the top is a rule (minimum + half the fund)"; "a bigger top buys little" | Consistent | The top must keep moving with VT. LR-03 may argue for a smaller share of the fund, never for a range that is the floor alone |
 
 ## The AI-use record
 `../office/LEDGER.md` (one row per office answer) and `../../caplet/docs/AI_USE.md` (lines for the Works Cited).
