@@ -4,6 +4,8 @@
 # every 3 hours overnight. It builds from main with the newest Keel day branch and the branches in
 # keel/office/portal/branches.txt merged in (each skipped if it doesn't merge cleanly), so a room's run shows within
 # minutes, before the evening merge. One-time setup (done 26 Oct): Settings > Pages > Source: "GitHub Actions".
+# If that setting is ever switched back to "Deploy from a branch", GitHub's own Jekyll build publishes the README over
+# the portal on every push; page_build below fires after each such build and puts the portal back on top.
 name: Keel Office portal
 
 on:
@@ -14,6 +16,7 @@ on:
     - cron: "17 20-23 * * *"   # 07:17-10:17 Sydney (AEDT, UTC+11)
     - cron: "17 0-10 * * *"    # 11:17-21:17 Sydney
     - cron: "17 13,16,19 * * *" # 00:17, 03:17, 06:17 Sydney
+  page_build:
   workflow_dispatch:
 
 permissions:
