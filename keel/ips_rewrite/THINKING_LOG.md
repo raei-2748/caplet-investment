@@ -200,3 +200,33 @@ zero-order release; "composition changes itself"; the newsvendor range (with the
 side, and the ~3:1 ratio); the three tests of certainty; unbundling (annuity + protected note, guaranteed by the
 Treasury); human capital (her 2028 income and yields fall together, from day 1 of the sketches); Laura's half as the
 project's second cheque.
+
+## Tue 27 Oct, afternoon: the Courtroom rules (`inbox/2026-10-27_courtroom.md`), and I was wrong twice
+- **I was wrong to drop "99 in 100".** The case asks, word for word, how confident we are the gift "will fall within
+  that range". So both numbers go in: the inside figure, explained as high by design, and the chance of reaching the
+  top as the number that can actually fail. Never "cannot miss".
+- **I had the newsvendor backwards.** The ratio shouldn't be something the plan "implicitly" prices; it's a choice
+  we state with a reason: lost trust can't be bought back, and the donor study shows a smaller gift has a real cost
+  too. So we pick 3:1 and set the top to be reached three times in four. Our rule hits that because the top is
+  reached whenever world stocks are no lower in 2033 than in 2031.
+- **Dedicated ladder: killed for the IPS.** It contradicts four locked lines (the TNA's "dedicated instrument" line;
+  the WInS notes for Nov-2039, Nov-2041 and IBTR), its $1,486 extra cost exceeds the $1,139 headroom, and all its gain
+  comes from re-sizing the frozen book. Final Report only, as an alternative we priced and turned down. The quoted
+  margin ($145k quoted against ~$150k owned) already covers the risk it treats.
+- **The Courtroom's candidate spine (to weigh on Thursday):** every promise Laura makes is an order placed against
+  an uncertain supply, set where its two costs balance. The ten payments get a fractile near 100% (only a matched
+  ladder delivers zero-order release at her budget), the bottom of the range ~100% (owned), the top 3:1 (reached
+  three times in four), and whatever she keeps is her flexibility. One decision rule, applied four times, from her
+  own degree field's canon. That is a framework, which is exactly what the form asks the IPS to set out.
+- Unbundling and the defeasance yardstick go to the Final Report (the FASB 76/125 story is a real aha there).
+
+**History check on "three in four"** (US stocks only, Shiller total-return data in
+`../../archive/rab/data/ws2_returns/shiller_monthly.csv`; every two-year window): no loss in 80% of windows since
+1871, 83% since 1926, 89% since 1950. So the model's 73-77% is on the cautious side, and the US is history's
+luckiest
+market, so world history would sit lower; we have no world series on file. Safe claim: "about three in four"; never
+"four in five".
+
+**Still missing (Courtroom):** Ray's voice; "as needs change" (smaller or missing 2028 deposit, rates falling before
+the build, stocks halving before 2031); the inflation and Taiwan-dollar assumption the case requires; liquidity
+named; the reserve's composition over time (the case re-read's "it changes itself" answers this one).
