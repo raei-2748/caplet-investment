@@ -44,6 +44,7 @@ Google Doc copy (Drive, 23 Oct): https://docs.google.com/document/d/1wXYUnCznrU2
 | 28 | Sat 24 Oct | [Rules before the first tile](2026-10-24_ep28.md) | Felix | none | Freeze list: every Final Report job mapped to an IPS sentence; review rule missing; "my reading"; three ranked in a minute | Freeze list (I-22) | 4bp |
 | 29 | Sun 25 Oct | [Two editions](2026-10-25_ep29.md) | Jun | light | One sheet, every number dated; buffer figures on the 2026 edition, sail on 2027; rule 5-1, size Monday; Jun answers Nora | Buffer rule (Keel) | 4bp |
 | 30 | Mon 26 Oct | [A jar and a margin](2026-10-26_ep30.md) | Kai | light | Edition re-run moves nothing; buffer = a lower quote (0.11% both); Sunday's rule reopened with evidence; floor last, margin quoted (6-0) | Floor last + margin (Keel) | 4bp |
+| 31 | Tue 27 Oct | [Same number, different year](2026-10-27_ep31.md) | Felix | light | Exam morning; the TNA's 7.5% is 2027 world stocks, not 2026 EAFE; stamp every run; no draft before Friday (6-0) | Edition stamp (Keel) | 4bp |
 
 ## Milestones at a glance
 - **Values and culture:** 27 Sep (four values), 17 Oct (value 4 added). `../CULTURE.md`

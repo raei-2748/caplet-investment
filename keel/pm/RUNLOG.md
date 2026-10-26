@@ -6,4 +6,5 @@
 
 | Date (Sydney) | Room | Output (link) | Score aimed at | Used by (filled later) |
 |---|---|---|---|---|
+| Tue 27 Oct 07:40 | Noticeboard (daily loop) | 7.5% is world stocks, not EAFE: `../office/outbox/2026-10-27_noticeboard_7-5-is-world-stocks.md`; board groomed; brief; ep 31 | N4, PA, IS | |
 | Mon 26 Oct 21:40 | Claude (Ray's thread, not a room) | Instruction audit `../INSTRUCTIONS.md`; runbooks rewritten; projects; Keel Office dashboard; all Keel PRs merged | all | |

@@ -1,13 +1,13 @@
 # Task board (real Caplet work; run by Keel)
 
 Rules: `LOOP.md`. WIP limit 3 in Doing. Priority P = Impact (1-3) x Urgency (1-3); pick 4 or more. Owner = a Keel
-desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Mon 26 Oct 2026, 07:30 (morning run).
+desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Tue 27 Oct 2026, 07:30 (morning run).
 
-**This week's top 3 (Mon 26 Oct - Sun 1 Nov; IPS in 13 days):**
-1. **Vote set B, Tue 27 Oct [T12]** (whole team; Nora chairs). D1-D7 on the one-basis sheet, and the one-line IPS
-   rule each vote adds. Ladder room is 4bp (22 Oct close), so D1 and D3 decide real money.
-2. **IPS in the students' own words: outline Wed 28 Oct, draft Sat 31 Oct [T13]** (named student authors). Keel
-   stops writing whole versions after Tuesday [T23]; v4.1 is a vote copy to argue with, not text to paste.
+**This week's top 3 (Tue 27 Oct - Sun 1 Nov; IPS in 11 days). Groomed Tue 27 Oct 07:30:**
+1. **The IPS rewrite, slowly (P01, `../ips_rewrite/README.md`).** Research and trials to Wed 28 Oct (WO-R2, R5-R7),
+   synthesis Thu 29 Oct, a fresh draft Fri 30 Oct, near-final to Caplet **Sat 31 Oct**. No room asks for a draft early.
+2. **Vote set B is settled by Keel's calls** (Ray, 26 Oct: "just make your own call"; `ASK_HUMANS.md` D1-D5). The one
+   item still Ray's is D6 (danger zone: Keel recommends holding the WInS book as it is). Students may overrule any call.
 3. **Ray's read-only checks by Sat 31 Oct:** SMApply IPS form fields [T15] and the short-term Treasury ETF listing on
    WInS [T24]. (School letter: comes later per Ray, 24 Oct; not a blocker, not chased.)
 
@@ -18,7 +18,9 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Mon 26 Oct 202
 ## Ready (ranked)
 | ID | Task | Owner | Due | P | Done when | Notes |
 |---|---|---|---|---|---|---|
-| T23 | Keel IPS version freeze: no new whole-IPS versions after v4.1; Keel only flags the students' text (counts, rules, facts) | Nora | Tue 27 Oct | 6 | Freeze noted in the stand-up; no `ips_v5` file on any day branch | Weekly retro 25 Oct; R3, R12 |
+| N02 | Edition stamp on every model output (curve date, J.P. Morgan edition, paths, basis) | Jun (Genius Lab) | Wed 28 Oct | 6 | Every new lab file opens with the stamp; R05 re-run at 7.5% | Request filed 27 Oct; the 26 Oct EAFE mix-up |
+| N03 | Final Report bank: one Articulation clause saying the case's "portfolio manager = your teacher/advisor" is the case's role-play; in real life students decided and Ray traded | Tess (Archive, P05) | Sat 7 Nov | 4 | Clause in `../library/final_report_bank.md` with the FAQ :32 source | Window flag 26 Oct |
+| N04 | One-page "what the 2027 LTCMA changed" for the Final Report's Portfolio Analysis: global equities 7.0 -> 7.5, US large cap 6.7 -> 7.5, 60/40 6.4 -> 7.0; why we keep VT world-weighted anyway | Felix (Library, P02) | Thu 29 Oct | 4 | Slip with quotes and date; feeds the synthesis | Today's check |
 | T22 | Re-run the T05 rule checklist on the students' IPS draft | Felix (rules-verifier) | Sat 31 Oct | 6 | All 12 rows OK or flagged on the new draft | Waits for T13 draft; checklist SD-T05 |
 | T07 | Coherence check: IPS draft vs the TNA reflections and the 11 filed notes | Nora (coherence-checker) | Sun 1 Nov | 2 | One page, contradictions listed with line refs | Waits for T13 draft |
 | T08 | Mock-judge panel on the IPS, after the human scores are logged | Nora (mock-judge; `office-judge-panel`) | Mon 2 Nov | 2 | Scores per criterion + the weakest line | CHARTER 6: humans score first |
@@ -53,6 +55,8 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Mon 26 Oct 202
 ## Done
 | ID | Task | Owner | Done | Output |
 |---|---|---|---|---|
+| SD-N01 | The TNA's 7.5% is J.P. Morgan's 2027 global-equity figure (release 19 Oct), not EAFE; rewrite told to drop its "correction" | Nora (Felix checking) | Tue 27 Oct | `keel/office/outbox/2026-10-27_noticeboard_7-5-is-world-stocks.md` |
+| T23 | Keel IPS version freeze on v4.1 | Nora | Tue 27 Oct | Superseded: Ray, 26 Oct, the IPS is rewritten from scratch (`../ips_rewrite/`) |
 | SD-T12b | Ballot v2 for vote set B: D1 as two dials, 2027-edition numbers, three counted texts | Nora | Mon 26 Oct | `keel/office/outbox/2026-10-26_SD-T12b_noticeboard_vote-set-B-ballot-v2.md` |
 | P06 | Re-run the four tail figures at the 2027 J.P. Morgan 7.5% | Jun | Sun 25 Oct | `keel/rooms/lab/P06_rerun/README.md`: only 29% -> 28% moves (9%, 3%, $140k unchanged) |
 | P02 | Numbers on one basis: every number in IPS v4 and the vote copy with source, edition/curve date, basis, label | Jun | Sun 25 Oct | `keel/office/outbox/2026-10-25_SD-P02_numbers_one-basis-sheet.md` |
