@@ -75,3 +75,23 @@ and that fit this case -> `research/R05_wide_reading.md`.
   cash arrives before 1 Jan 2033.
 - Seed money: raising seed from 10% to 67% of the goal gave "nearly a sixfold increase" in giving. That's lab
   evidence for the case's own claim, but no percentage can be claimed for Laura.
+
+**Sonnet rung back (`ideation/rung2_sonnet.md`).** The best find is an investing argument that happens to be
+pharmacology, not a pun:
+- **Zero-order vs first-order release = fixed dollars vs fixed percent.** A first-order drug releases a fixed
+  share of what's left; an endowment spending a fixed % of its balance is first-order and can never run dry, so it
+  can hold stocks. Laura's ten cheques are zero-order: $50,000 whatever the balance. A fixed-dollar draw on a volatile
+  pot is exactly what sequence risk punishes. So "why Treasuries for the payments?" has a one-line answer that also
+  explains XR: the case asked for zero-order release, and only a matched ladder delivers it. This is now the lead
+  candidate for the motif's investing job (with A2, the bottom of the range needs no model).
+- Mean residence time = Macaulay duration (10.5 years undiscounted, ~10.1 at 5%). The second moment (spread 8.25
+  years squared) is why a duration match is not a funding match: the textbook case for cash-flow matching over
+  immunisation, in a pharmacist's units. For the Final Report.
+- 80-125% bioequivalence: 0.8 x 1.25 = 1, the same arithmetic as "a 20% fall needs a 25% rise". Final Report aside.
+- Downgraded: "do not crush" and dose dumping are partial (an early sale changes the amount, not just the timing).
+  Killed: half-life, flip-flop kinetics, and the target-date-fund leg of A4 (those funds rebalance; ours never do). So
+  unbundling counts 2 products (a deferred period-certain annuity, a principal-protected note), and the real edge is
+  a Treasury guarantee instead of an issuer's or insurer's. "Compounding pharmacist" is out.
+- The R: redemption stays first ("ten redemptions"; the Treasury redeems the bond so Laura can redeem her pledge).
+  Runway is true (10 years of burn) but fails "ten ___s". "Receipts"/Rx (Latin recipe; XR reversed is Rx) are
+  Final Report asides at most.
