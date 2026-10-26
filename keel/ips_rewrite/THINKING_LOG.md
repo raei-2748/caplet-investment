@@ -54,3 +54,7 @@ degree; her books; the Taiwan-dollar cost of the residency; the 2031 timing)?
 7.5% basis, iBond liquidation) -> `research/R04_fact_checks.md`; the ladder's Sonnet rung (deeper on the pharmacology
 seam and on A4) -> `ideation/rung2_sonnet.md`; an Opus wide-reading rung for niche investing concepts that R02 misses
 and that fit this case -> `research/R05_wide_reading.md`.
+
+**Decided elsewhere tonight (I40, Ray: "make your own call"):** D1a the floor is the last source for a coupon gap
+(yes); D1b quote the 2031 bottom with a margin, no separate $10k buffer; no re-sizing trades for the dedicated ladder
+(`../pm/DECISIONS.md`). So the dedicated ladder stays a Final Report idea unless the Courtroom finds a reason.
