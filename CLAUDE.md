@@ -35,6 +35,9 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
   (or `/keel next`): one board card per run, checking work only until 7 Nov, never decides for Caplet. Routines: `keel/pm/ROUTINES.md`.
 
 ## Current status (2026-10-14) - read this before the older sections below
+- 26 Oct (Ray): IPS rewritten from scratch through the office (WO-0003): AI Draft 1 in `keel/ips_rewrite/drafts/D1/`
+  (pitch 47 / IPS 484 strict). Thesis = the gift is a capital-protected note minus the option (Treasury floor + index fund
+  worth its expected interest); name Caplet XR. Thread brief: `keel/ips_rewrite/inbox/2026-10-26_thread_ray-brief.md`.
 - Wharton Week 4 email (filed 22 Oct): `competition/official/2026_27/wharton_email_week4_2026-10.md`. IPS is now an
   SMApply FORM, not a PDF ("all other requirements remain the same"); TIPS and STRIPS explicitly banned for both
   contributions, in the IPS and the Final Report.
