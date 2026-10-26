@@ -27,6 +27,24 @@ Source for much of this: `keel/library/assistant_review_2026-10/05_Premortem_Rev
 | 8 | TIPS or STRIPS mentioned anywhere | L | The words appear in the draft | Gate check [T09] |
 | 9 | Students cannot defend a sentence aloud | M | No named author per paragraph | Named authors [T13]; drill P01 |
 
+### IPS v2 update (Sun 25 Oct weekly plan; Kai attacks the v4.1 vote copy, Nora writes it down)
+Status of v1 causes: 3 eased (v4.1 holds no model number; vote sheet goes onto one edition Mon 26 Oct, P02/P06);
+8 still clean (0 hits for TIPS/STRIPS in v4.1); 1 and 7 are now the top two.
+| # | Cause | L | Early warning | Prevention (card / risk) |
+|---|---|---|---|---|
+| 10 | Keel's v4.1 vote copy becomes the IPS: it is complete and counted, the students have no outline, so it gets pasted | H | No student outline by Wed 28 Oct; v4.1 sentences in the Doc word for word | Version freeze Tue 27 Oct [T23]; outline from the voted rules [T13]; R3 |
+| 11 | The IPS says the 2027 deposit goes entirely to the payments while the frozen WInS book holds the floor ETF and VT; a judge sees a contradiction | M | The WInS sentence ("shows the 2028 allocation, scaled down") cut for words | Keep that sentence; coherence check [T07]; R8 |
+| 12 | The bond-floor line or "any rise stays with Laura" promises more than an ETF that pays NAV can give | M | "equal to", "stays with", "always" in the draft | Keep the 25 Oct fix; gate check [T09]; R15 |
+| 13 | The IPS names a holding WInS does not list (the short-term Treasury ETF where coupons wait) | M | No listing answer by Sat 31 Oct | Ray checks read-only [T24]; R14 |
+| 14 | The IPS breaks a locked TNA line (see the coherence list below) | L | A stock-return figure other than 7.5%; inflation said to threaten a payment; a price-triggered sale | Coherence check [T07] against the list below |
+
+**Coherence with what is locked** (submitted TNA, 11 WInS notes; Archive register A1-A10, 24 Oct: 0 contradictions,
+3 WATCH). The IPS must keep: (A1) any stock return stated is 7.5% from the 2027 J.P. Morgan LTCMA, as the VT
+reflection says, or none; (A2) inflation belongs to facility and overrun costs, never to the fixed nominal payments;
+(A4) a payment holding is replaced only if it becomes unavailable, never because of its price ("every year the bonds
+sit untouched is a good year"); (A10) the spine, "commit only money she already owns". Pitch, IPS and Final Report
+tell one story: the promise bought first, growth only from what is left, a 2031 range no higher than what she owns.
+
 ## Final Report (seed, 23 Oct; complete by Wed 11 Nov [T10])
 Likely causes to test once the instructions are out (10 Nov): school letter missing or not on letterhead (R6);
 projections without a stated basis or that contradict the IPS (R5); strategy changed after the freeze (R4); AI use
