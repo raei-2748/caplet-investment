@@ -1,9 +1,9 @@
 # Runbooks: how each Keel room works (Keel may edit these)
 
-> **Read `../../BIBLE.md` first (Ray, 26 Oct 2026: "this is bible").** It beats every rule on this page: extraordinary
-> above all; Caplet XR with both meanings (extended release; X = 10, R never "release"); no certainty policing (a
-> word is wrong only if false; iBonds held to liquidation are near-ironclad); Ray's voice, tested on his essays and
-> rewritten TNA; near-final IPS for review by Sat 31 Oct. No work is finished until the portal shows it.
+> **Read `../../BIBLE.md` first: Caplet's five books, all equal (23-26 Oct 2026).** They beat every rule on this page.
+> Extraordinary above all; a distinctive, deeply human voice (Ray's, never AI's); one subtle motif, Caplet XR (extended
+> release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
+> IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
 
 One file per scheduled task. Since Mon 26 Oct 2026 every scheduled-task prompt is a short pointer to this folder, so
 Keel changes how a room works by committing to its runbook (through `../SELF_IMPROVEMENT.md`), not by asking a human
@@ -36,7 +36,10 @@ to rewrite a prompt. Caplet's standing instructions (`../../INSTRUCTIONS.md`) be
    on it now. Only a **danger-zone** decision waits (a WInS order, submitting, Caplet's Google Docs, money, accounts,
    emails outside the team, repo settings): write Keel's recommendation as `Danger zone: yours` and do nothing on it. Everything else
    (which idea to test, how a room works, file layout, what to read) Keel decides itself and says what it decided.
-5. **Do it properly.** One solid output with sources and dates; numbers MODEL-labelled. IPS ideas go to
+5. **Never rush the IPS rewrite** (cover note and Book 4 of `keel/BIBLE.md`). Rooms feed it research, ideas, tests
+   and critique; no room asks the rewrite for a new draft, a word count or a date. A full draft is written only when
+   the thinking has moved. Near-final for Caplet's review Sat 31 Oct; final Sat 7 Nov 09:00 Sydney.
+   **Do it properly.** One solid output with sources and dates; numbers MODEL-labelled. IPS ideas go to
    `keel/ips_rewrite/inbox/<YYYY-MM-DD>_<room>.md`, never into IPS v4/v4.1.
 6. **Record.** Update your room's `## Now` block (Doing, Decided, Next, For the judges, Updated as `YYYY-MM-DD HH:MM`
    Sydney). If a judge-facing draft changed, add a row to `keel/pm/CHANGES.md`; if you wrote a new full draft of the
