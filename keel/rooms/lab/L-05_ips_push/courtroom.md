@@ -1,0 +1,48 @@
+# Courtroom: Lab candidates C1-C10 for the IPS (Sat 24 Oct 2026)
+AI-generated (Claude) for Team Keel, a simulated team. Kai, Spinnaker and the judges are tests, never quotes. Not for submission. Caplet decides.
+Sources: lab BRIEF/CANDIDATES/rung2/rung3; draft = "Full text" in `/mnt/project-files/ips/IPS_edits_v2_2026-10-24.md` (494 words); case `Laura_Gao_2026_Client_Profile.txt`; IPS instructions `2026_WGY_Investment_Policy-FINAL.txt`.
+
+## 1. Docket (Kai prosecutes)
+| # | Charge (strongest honest one) | Verdict | Amended words / reason |
+|---|---|---|---|
+| C1 defeasance | Wrong word, wrongly applied. FAS 76 asked for *direct* US government obligations held in an *irrevocable trust*, with cash flows that match the payments. Half the ladder is ETFs that pay out a NAV, which the locked TNA line itself says is "not a promise of par". Laura can sell any day, and the standard was withdrawn. "The one leak" is false: there are two (coupon reinvestment and the ETF payouts). Most judges won't know the word, and the ones who do will check it. But the idea underneath is right, and it answers an official ask the draft never answers outright ("define what they consider a high degree of funding certainty") | **AMENDED** | Drop the word. Replace P1 "so each payment depends mainly on the US government paying its debts." with: **"By high certainty we mean each payment is owned in Treasuries by 2028, needing no stock return; only coupon reinvestment and ETF payouts can leave it short."** (26 words, net +14). This also takes in C4. |
+| C2 rate fall lands on floor | "Never shrink" is a trivial truth, because the payments are fixed nominal amounts, and it hides two conditions. The gap is covered only if the 2028 deposit arrives. And a *lasting* fall still reaches the payments through reinvestment, which is K2's second hit. Said flat, it reads as if rates cannot touch the payments at all. The true part is new and useful: the buy-day hit lands on the floor *before* anything is quoted in 2031 | **AMENDED** | Extend P3 "Any gap left in January is the first use of the 2028 deposit" with: **", so a rate fall before we buy lowers the floor, not a payment."** (+13). Drop "dollar for dollar": the IBTM cost falls too, so the fall is shared a little with the fund. |
+| C3 reserve renamed | "Bought in 2027" is wrong, because the 2028 deposit can finish the ladder. "Not rebuilt" sits badly with K5, which tops the reserve up in 2033. "Shortens by one payment a year" repeats K4. "Renamed rather than rebuilt" is still the clearest answer to "set aside ... and how composition should change" | **AMENDED** | K4 becomes: "In 2033 the payment Treasuries become the operating reserve, **renamed rather than rebuilt**: five Treasury ETFs ..." (+4). |
+| C4 no forecast | Overclaim. Reinvesting coupons at future yields *is* a forecast. K2 says so, and "no forecast of ours" contradicts it. "Today" is also wrong: the price is set at the January 2027 buy. The true part (no stock return) is now inside amended C1 | **STRUCK** (merged into C1) | - |
+| C5 confidence = reaching the top | It contradicts the case, which asks teams to "state how confident they are that her 2033 contribution will fall within that range". Telling judges we'll state something else reads as dodging the brief. Range and confidence are Final Report work (IPS instructions p.2), and "how often" invites a number the IPS can't carry | **STRUCK** | Keep for the Final Report: state both figures, inside the range (~99%) and reaching the top (~3 in 4). |
+| C6 two risks seldom together | "Who says?" The IPS can't cite anything. The figures are US CPI, not Taiwan building costs, and roughly 4 independent windows; 1871-2011 is weak (5.0% vs 6.8%); 2022 is a live counterexample. A finance judge will reply "2022" in one word | **STRUCK** | Final Report only, with the caveats. |
+| C7 eleven months early | The rule is already in the draft ("early maturities wait in a short-term Treasury ETF"). What C7 adds is a number and a ~$0.8k model drag, which is detailed calculation the IPS instructions tell teams to leave out | **STRUCK** | - |
+| C8 2028 income | Factually wrong against the draft: the 2028 deposit fills January gaps *in the payments* first ("fills the gift, never a first payment" is false). The slowdown-fees link is inferred, with no data, and it speculates against the client's income when the case says she "will contribute". P2 already makes the true point | **STRUCK** | - |
+| C9 water licence | The mapping breaks in two places. General security, once announced, only rises during a year, but the gift above the floor can *fall* after 2031. And high security opens at 95% and was cut in the Millennium Drought, so the image says "near-certain" about the very thing we call high certainty. It costs 26 words for an Australian irrigation rule in a US competition about a Taiwan art residency: Caplet's world, not Laura's (CK). "Security" collides with Treasury securities and edges toward the banned "secure". It would also be a second image beside the existing name | **STRUCK** | - |
+| C10 names | "Firm Yield": in bond language it reads as a yield guarantee, "firm" is a near-certainty word, and the joke needs hydrology to land. "General Security": the same collision as C9. "Dry-Year Rules": gloomy, and says nothing about growth. "Opening Allocation": bureaucratic | **STRUCK** (all four) | - |
+
+Tally: 0 upheld, 3 amended (C1, C2, C3), 7 struck.
+
+**Outside the docket (Nora's note):** the draft's own name, "Root & Branch", and the line "secures the roots" sit on the Lab's ban list ("roots/trees/branches", "secure first, grow later"). That is a bigger presentation risk than any candidate here. It is not on trial today; it goes to the naming vote.
+
+## 2. Spinnaker (Kai) attacks the package
+"Your new lines make our case for us. C2 admits the facility, the only thing Laura can grow, is the shock absorber for every rate move before January. C1 admits the payments need no stock return, so ~90% of the money sits at about 5% nominal for up to 15 years, while the J.P. Morgan 2026 assumptions put AC World at 7.00% compound. And for all that, you still name two leaks. You give up about 3 points a year and you still aren't certain."
+
+**Ruling: the package makes the plan *more* defensible.** The case requires the payments to be funded "with a high degree of certainty" and with no outside money. Naming two small residuals (about $21k at p95 for a lasting 2-point fall, backed by Laura's half) is exactly what a "near-ironclad" plan should do. It also matches the locked TNA lines. Growth-first missed a payment in 3.2% of the team's own paths, and in 13.7% if the 2028 deposit is $75k (`strategy_mc.py`, 27 Sep). C2 also shows the cost of rate risk falls *before* the floor is quoted, so credibility is never what pays. Spinnaker does land one blow: with only ~$1.1k of headroom (22 Oct, MODEL), C2's "lowers the floor" is the expected case, not a tail. Caplet should say so in its own words if asked, and not hide it. The cut of "one issuer by design" (see below) also takes out the draft's only diversification line. Spinnaker will find that, so Caplet should decide on purpose whether to keep it.
+
+## 3. Mock judges (score out of 10; they never rewrite)
+**Version B, the swaps (about 498 words by hand; recount with `textcheck.py`):**
+- P1: "so each payment depends mainly on the US government paying its debts." becomes amended C1 (+14).
+- P3: amended C2 clause added (+13). Cut "The roots rely on one issuer by design, since no dollar asset is safer." (-14).
+- P6: amended C3 clause added to K4 (+4). Cut "Each payment's cash comes from a maturity, not a sale." (-10). "Until 2033 the portfolio is held without trading beyond..." becomes "Until 2033 nothing is traded beyond..." (-3).
+
+| Judge | A: IS / CK / PA / CP | B: IS / CK / PA / CP | One line |
+|---|---|---|---|
+| Faculty | 7 / 7 / 6 / 6 | 8 / 7 / 7 / 6 | B finally answers "define high certainty" in one sentence, with the residuals named; that is the ask. |
+| Practitioner | 7 / 7 / 6 / 6 | 8 / 7 / 7 / 6 | "Renamed rather than rebuilt" and "a rate fall lowers the floor, not a payment" are real liability-matching thinking. Still no stated return assumption for the fund. |
+| Former finalist | 7 / 7 / 6 / 5 | 7 / 7 / 7 / 5 | Sounder, but no more memorable: Root & Branch is a common image and B does nothing for presentation. |
+| Outsider | 6 / 7 / 5 / 6 | 6 / 7 / 5 / 5 | B adds jargon ("coupon reinvestment", "ETF payouts") and drops the one line I understood ("from a maturity, not a sale"). |
+| Finance undergrad | 7 / 6 / 6 / 6 | 8 / 6 / 7 / 6 | The two-hit story now closes: the buy-day hit goes to the floor, the reinvestment hit to her half. |
+| **Mean** | **6.8 / 6.8 / 5.8 / 5.8** (25.2) | **7.4 / 6.8 / 6.6 / 5.6** (26.4) | B is better by about 1.2 of 40: real, but modest. CK doesn't move and CP slips slightly. |
+
+## 4. Conclusion
+1. Forward: **C1 (amended, with no "defeasance")**, **C2 (amended clause on P3)** and **C3 (amended: "renamed rather than rebuilt" inside K4)**.
+2. Struck: C4 (merged into C1), C5, C6, C7, C8, C9, C10. C5 and C6 move to the Final Report with their caveats. C8 is factually wrong against the draft.
+3. B is better on Investment Strategy and Portfolio Analysis, the same on Client Knowledge, and slightly worse on presentation. That is a modest gain (about +1.2 of 40), not a step change.
+4. Before accepting B, Caplet should vote on purpose on the two cuts it forces: "one issuer by design" (diversification) and "from a maturity, not a sale" (liquidity).
+5. The larger open risk is the name: "Root & Branch" and "secures" break the Lab's own ban list. That needs its own vote, and nothing here fixes it.
