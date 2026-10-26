@@ -58,3 +58,20 @@ and that fit this case -> `research/R05_wide_reading.md`.
 **Decided elsewhere tonight (I40, Ray: "make your own call"):** D1a the floor is the last source for a coupon gap
 (yes); D1b quote the 2031 bottom with a margin, no separate $10k buffer; no re-sizing trades for the dedicated ladder
 (`../pm/DECISIONS.md`). So the dedicated ladder stays a Final Report idea unless the Courtroom finds a reason.
+
+**Fact-check back (R04, `research/R04_fact_checks.md`; most web pages blocked, so many items are title-level only).**
+- A1 defeasance survives in a smaller form. Escrowed debt takes the US government's rating, and that is no longer AAA
+  (AA+/Aa1). An ETF almost certainly can't sit in a defeasance escrow, so only the T-bond rungs pass the strict test.
+  Say "funded the way a defeasance is funded", never "defeased" and never "AAA".
+- A5 holds exactly: Macaulay duration is mean dissolution time with discounting. Laura's ten payments: 10.5 years
+  undiscounted vs 9.90 years discounted. "Zero-order" fits as the same amount each year (stepped, not continuous).
+  So far this is the one cross-domain link that is exact, not loose.
+- A4's pun is wounded. Compounded drugs are not FDA-approved, so "compounding pharmacist" cuts against a safety story.
+  The unbundling idea (annuity-certain + protected note + target-date fund, built from parts) stands without the pun.
+  Say "build", not "replicate", since the iBond payout and reinvested coupons make it approximate.
+- The 7.5% the locked TNA attributes to JPMorgan is the EAFE figure. AC World is 7.00% compound / 8.28% arithmetic.
+  The IPS must not repeat 7.5%. If a return is quoted at all, use about 7% and check for a 2027 edition first.
+- iBond end-of-life confirmed from iShares: a fund terminates around 15 Dec and pays out net assets in cash, so IBTM's
+  cash arrives before 1 Jan 2033.
+- Seed money: raising seed from 10% to 67% of the goal gave "nearly a sixfold increase" in giving. That's lab
+  evidence for the case's own claim, but no percentage can be claimed for Laura.
