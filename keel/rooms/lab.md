@@ -1,10 +1,10 @@
 # FICTION (the room) + real work (the experiments). The Genius Lab: lab book
 
-> **State (Sun 25 Oct 2026, 13:40 run).** L-01 ADOPT, L-02 ADOPT (D1-c), L-03 PARK, L-04 ADOPT (Final Report),
-> L-05 ADOPT C1-C3 (IPS v3), L-06 three name packages, L-07 ADOPT (IPS v4). Today: P06 done (7.5% moves only 29% -> 28%,
-> `lab/P06_rerun/`); L-08 done: "XR also stands for Extended Reserve: the operating reserve, built six years early."
-> as a Package B option; doses idea parked for the Final Report. Next best move: after Monday's Long Room, test the
-> chosen name on the full v4 text (one cold panel), or Laura's Room request (two risks) if the name is not XR.
+> **State (Mon 26 Oct 2026, 13:40 run).** L-01 ADOPT, L-02 ADOPT (D1-c), L-03 PARK, L-04 ADOPT (Final Report),
+> L-05 ADOPT C1-C3, L-06 name packages, L-07 ADOPT, L-08 ADOPT (Extended Reserve option). The IPS is now a from-scratch
+> rewrite (`../ips_rewrite/`): rooms take WORK_ORDERS first and write to its inbox, never to v4. Today: L-09 = WO-R1 done
+> (dedicated ladder halves the coupon tail in 200,000 paths, p95 $25.1k -> $14.8k, +$1,486; MODEL 15 Oct). Next best
+> move: whatever WO-R2 (Courtroom) leaves open, else lift C&P on the rewrite's Draft 1 (Fri 30 Oct).
 
 > Room card: `../OFFICE.md`. Head: Jun. Kai roasts every idea before it is tested. Agents: `scenario-modeller`,
 > `numbers-auditor`. Bench (existing models): `../scripts/`, `../library/ips_numbers_2026-10/ips_numbers.py`,
@@ -27,7 +27,7 @@ How the room reads that:
    check it fits Laura.
 
 **Binned, do not re-propose:** roots, trees, branches, seeds, gardens; keel and sail, ballast and sail; ladders or rungs
-as a name; floor and fund; secure first, grow later; comic panels, ink, storyboards, pencil, pages, drafts or manuscripts as the plan's image (cold test round 2, 25 Oct); NSW water licences; Firm Yield,
+as a name; floor and fund; secure first, grow later; comic panels, ink, storyboards, pencil, pages, drafts or manuscripts as the plan's image (cold test round 2, 25 Oct); coupons as "a dose, not a leak" (L-09 panel: AI template, false); NSW water licences; Firm Yield,
 General Security, Dry-Year Rules, Opening Allocation; "defeasance" as an IPS word (Final Report only).
 
 ## What counts as a win
@@ -60,3 +60,4 @@ Archive's spine (no clash with anything locked), and a Caplet student choosing i
 | L-06 | One name + at most two motif touches + one closing line lift CP above v3 without costing IS or CK | "You'll bolt a pun onto a sound IPS. Judges can smell a garnish." | Three packages on v3; Kai + five mock judges score v3 and each; memory test | CP; CK; IS | done 24 Oct ([L-06](lab/L-06_creativity.md)): CP 5.0 -> Press Day 6.2, Caplet XR 7.0, Pre-Registered 6.4; IS level | ADOPT all three as options for Monday's Long Room (Courtroom leans Pre-Registered; Kai dissents for Caplet XR) |
 | L-07 | One true investing line about the plan, said plainly, is what a judge remembers (not a name) | "Forty lunch lines from Haiku and you'll keep the one a textbook already has." | Rung 1 Haiku (40 lines, 20 far mappings), rung 2 Sonnet re-priced on the 22 Oct close (`lab/L-07_lunch_line/r2.py`); Courtroom memory test on v4 | IS; PA; CK | done 25 Oct ([rung 2](lab/L-07_lunch_line/rung2.md)): the fund is the floor ETF's interest taken up front ($32,064 of $150,000, MODEL); v3.1's "any rise stays with Laura" overclaimed (fixed); rung 3 not needed | ADOPT into IPS v4 (both). Kai half-won: it *is* textbook (a bond floor), but it was the only investing idea judges recalled |
 | L-08 | XR has a true second reading, from a word the case uses, that lifts C&P as one line without reading as AI | "Backronyms are what a chatbot does in ten seconds. If you find a real one it'll be ex-rights." | Rung 2 Sonnet (10 meanings, real conventions first); rung 3 Opus cold panel of three judges on A-E | CP; CK | done 25 Oct ([L-08](lab/L-08_xr_second_layer.md)): A Extended Reserve +1/+1/+1; B, C negative; D doses +1/+2/-1 | ADOPT A as a Package B option; PARK D for the Final Report; BIN B, C. Kai half-won (ex-rights died) |
+| L-09 | Sizing the ladder from 2042 backwards (R01 B3, every holding >= $10k) cuts the coupon tail p95/p99 by a third or more in the 200,000 paths, for under $2k | "You've moved the leak, not plugged it; the tail barely moves once rates wander." | `../ips_rewrite/lab/R01_mc.py`, same paths and seed as the number sheet; audit vs R01 and number sheet; cold panel (Sonnet) on three explaining lines | IS; PA; CP | done 26 Oct ([L-09](lab/L-09_dedicated_ladder.md)): p95 $25,112 -> $14,832, p99 $32,429 -> $17,584, +$1,486; WInS would need ~10 trades, ~$52k each way; dose/leak line binned | ADOPT as a rewrite option (WO-R2 + Caplet decide). Kai half-won: the risk now sits in $85k of pre-2033 coupons |
