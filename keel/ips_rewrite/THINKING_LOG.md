@@ -170,3 +170,33 @@ What it means:
    implicitly prices over-promising at roughly 3 times the cost of under-promising (2.7-3.3). Stable to correlation
    and to a 1pp lower return: a ratio we can state and defend, not a lucky number. And the donor-size evidence (The
    Window) supplies the other side: under-promising costs real gifts, so 3:1, not 10:1.
+
+## Tue 27 Oct: re-reading the case slowly, for what everyone skips
+1. **"explain how its composition should change, if at all"** (the reserve). Almost every team will answer with a
+   glide path. Ours: not at all, because it changes itself. Each holding turns to cash in the December before its
+   January and nobody touches anything. That is the honest XR line: an extended-release tablet needs nothing from
+   the patient after it's swallowed. "If at all" is the case inviting exactly this answer, and it costs one sentence.
+   Strong candidate for the IPS (it answers a required item AND carries the motif).
+2. **Laura's degree is "Statistics & Information Decisions Management"** (Wharton, 2018). Wharton's Operations,
+   Information and Decisions department teaches the newsvendor model as a core idea (to VERIFY: course name and
+   that it is taught there; R05 cites the Cachon-Terwiesch textbook, Cachon at Wharton). So the newsvendor reading
+   of the range isn't just clever; it is the tool her own degree field uses for exactly this choice (order too
+   much and eat the waste, too little and lose the sale). A Wharton judge would recognise it at once. Must be shown,
+   not name-dropped: "each end of the range is an order-size decision" in plain words.
+3. **"The only person who needs to believe in something is yourself."** The case's pull quote, set against a
+   brief whose whole 2031 problem is getting others to believe. The tension is lovely, but the quote is the
+   case's, not verifiably Laura's (standing rule: no Laura quotes). Final Report at most, attributed to the case.
+4. **"Any remaining facility cost ... may come from co-sponsors, grants, collaborators, program fees, continued
+   business income."** Laura's own future income is one of the facility's sources. So the half she keeps after
+   2033 isn't idle: with her income, it's the project's second cheque (R05: staged funding). This is the case's own
+   reason for "flexibility", and it is stronger than "overruns or a change of plan".
+5. **"Year 0 is 2026 ... spaced exactly one year apart."** The case fixes the dates to the day, so the ladder can
+   match them to the day. A team that uses a rolling bond fund ignores the one gift the case gives.
+6. **"Teams may reach different conclusions about ... funding confidence."** Licence to define certainty our way,
+   not the textbook's. The three tests (fixed cash, a wall, no forced sale) are our definition.
+
+Running list of the strongest material (not yet ranked; ranking is Thursday's job):
+zero-order release; "composition changes itself"; the newsvendor range (with the donor-size evidence on the other
+side, and the ~3:1 ratio); the three tests of certainty; unbundling (annuity + protected note, guaranteed by the
+Treasury); human capital (her 2028 income and yields fall together, from day 1 of the sketches); Laura's half as the
+project's second cheque.
