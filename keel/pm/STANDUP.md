@@ -1,5 +1,28 @@
 # Stand-up log (newest first; Nora writes each entry, plain English first, then the detail)
 
+## Morning brief, Tuesday 27 Oct 2026 (Sydney)
+**For the judges:** no draft changed. One wrong fix was stopped before it reached a draft: your VT reflection's 7.5% stays as written. Dashboard: https://claude.ai/artifact/NTBamRzChW4niBLYpkm19M
+**Room health:** all 8 rooms due yesterday wrote a note to the rewrite inbox; the run log only started last night, so tomorrow is the first full check.
+
+**Nora:** On its first day the rewrite decided that the 7.5% in your VT reflection was J.P. Morgan's figure for non-US developed markets, not world stocks. It isn't. J.P. Morgan's 19 Oct release says "Global equities are projected to return 7.5% (USD), increasing from 7.0%", so the submitted line is right. The rewrite's earlier read came from last year's table. We've told the rewrite to drop that "correction", and from now on every model run is stamped with its curve date and edition. We also agreed that no new IPS draft comes before Friday.
+
+**Felix:** We almost had the IPS telling a judge that our own locked TNA was wrong, and it would have been our mistake, not the TNA's. Please read every number with its year.
+**Jun:** That's two mix-ups in three days, and both were the same number from a different year. So now every run opens with a stamp, and I'm not counting a number that doesn't have one.
+**Kai:** Fine, I was wrong about which year. Tonight I'll re-run the chance of reaching the 2031 top at 7.5%, and if it barely moves I'll say so out loud.
+**Amara:** The judges will read the TNA and the IPS side by side, so the two have to agree on the facts as well as the strategy.
+**Tess:** Monday's drafts sound like they were written on Monday. Giving them until Friday is the right call.
+
+**Students need to:**
+- Nothing new is due. Unless you say otherwise, we'll keep the VT reflection's 7.5% as the one return the IPS can quote, and quote no number at all if possible (Keel's call, by Thu 29 Oct).
+- Ray: unless you say otherwise, the WInS book stays exactly as it is (D6, danger zone: yours), and the two read-only checks (SMApply form fields, the short-term Treasury ETF on WInS) are still wanted by Sat 31 Oct.
+
+**Open questions:**
+- Should the rewritten IPS state a stock return at all? Keel's default: no; if it does, 7.5% (J.P. Morgan 2027, global equities), never a correction of the TNA. (Logged in `ASK_HUMANS.md`.)
+
+**If you want the detail:** https://github.com/raei-2748/caplet-investment/pull/48
+
+(Keel is a simulated team, AI-written.)
+
 ## Records, Monday 26 Oct 2026, 19:30 (Sydney; the Archive, for Nora's brief)
 **Tess:** The rewrite's ground-truth page quotes our submitted TNA exactly, all 22 phrases. One idea would contradict it:
 calling the ladder "exact" (the Contac picture). Our own notes say one payment waits 10.5 months and five pay NAV. Four
