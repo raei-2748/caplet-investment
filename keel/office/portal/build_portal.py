@@ -124,8 +124,12 @@ def render(text, path, known):
 
     def fix(m):
         href = html.unescape(m.group(1))
-        if re.match(r"[a-z]+:|#|mailto:", href):
-            return f'href="{html.escape(href)}" target="_blank" rel="noopener"' if href.startswith("http") else m.group(0)
+        if re.match(r"https?://", href, re.I):
+            return f'href="{html.escape(href)}" target="_blank" rel="noopener"'
+        if href.startswith("#") or re.match(r"mailto:", href, re.I):
+            return m.group(0)
+        if re.match(r"[a-z][a-z0-9+.-]*:", href.strip(), re.I):  # javascript:, data: and any other scheme
+            return 'href="#" class="dead"'
         target, _, frag = href.partition("#")
         full = posixpath.normpath(posixpath.join(posixpath.dirname(path), target)) if target else path
         if full in known:
