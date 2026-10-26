@@ -1,5 +1,7 @@
 # The Keel operating loop (one run = one task done well)
 
+> Runs from the Noticeboard. Rooms, people and agents: `keel/OFFICE.md`.
+
 Every Keel session that is not answering a direct student question runs this loop: the scheduled routines,
 `/keel next`, or any session told "work the board". Nora (chief-of-staff) runs it. Budget: read only the files
 named below plus the chosen task's links; one task per run; one page of output.
@@ -34,7 +36,7 @@ more, do no task: groom, propose, write the stand-up, stop. Doing nothing is a v
 ## 4. Do
 If Nora is unsure of anything (a rule, a number, what the case says), she asks the right member's crew before
 writing: Felix rules, Jun numbers, Kai challenges and trades, Amara Laura and co-sponsors, Tess records and format.
-She never guesses. Move the card to Doing with today's date. Work as the owning desk: read that member's "Agent profile" in
+She never guesses. Move the card to Doing with today's date. Work as the owning room's member (`keel/OFFICE.md`): read that member's "Agent profile" in
 `keel/members/<name>.md` and use the named agents in `.claude/agents/` (at most 2 subagents; `fact-checker` checks
 any headline number). Output: one page in `keel/office/outbox/YYYY-MM-DD_SD-<card>_<desk>_<slug>.md`, memo format
 of CHARTER section 5, with "Asked by: self-directed (board card <ID>)". Numbers: date + basis + MODEL label.
@@ -50,16 +52,35 @@ promote its own Proposed card to Ready next run if it is checking work of 1 page
 Anything else (new research, a draft for submission, any decision, anything costing a student's time) waits for a
 Caplet tick (a student writes "OK" in the card's Notes column or says so in chat).
 
+## 6b. The Library and the Genius Lab (every run, small; skip either if nothing is worth it)
+- **Library:** add at most one slip to `keel/rooms/library.md`: a real source (often not finance) and "this reminds
+  me of Laura's plan because...", tested part for part by Felix and Kai, verdict KEEP / PARK / DROP. To hunt for an
+  idea use the ideation ladder (`keel/office/IDEATION.md`, PR #25): Haiku 5.5 wide, Sonnet 5.5 only if nothing is
+  kept, Opus 5.5 only if still nothing. "Nothing kept" is a good result.
+- **Genius Lab:** move at most one experiment in `keel/rooms/lab.md` one step (hypothesis, Kai's roast, test, result,
+  verdict ADOPT / PARK / BIN), on existing scripts and data, with `numbers-auditor` re-deriving any headline number.
+  Keep failures in the book.
+- **Quiet period until Sat 7 Nov 09:00 Sydney:** Genius Lab experiments and Library slips must bear on the IPS (pitch,
+  framing, numbers it quotes). Anything else goes in as "waits for OK" until Ray approves it.
+- A KEEP or ADOPT reaches Caplet only as a Proposed card (step 6) that names the judging criterion it serves and
+  passes Felix's rules check; students choose and write it themselves.
+
 ## 7. Stand-up and save
-- Add an entry at the top of `keel/pm/STANDUP.md`, written by Nora in the first person in her own voice, like a
-  group-chat message, with the layout in `.claude/skills/keel/SKILL.md`: 3 to 6 plain-English sentences a
-  student with no context understands (what we did, found, what you need to do and by when in Sydney time, what
-  we do next), then `If you want the detail:` with 5 lines (done / next / stuck on / students need to (who, what,
-  by when) / next deadline in days) and any debate, then `(Keel is a simulated team, AI-written.)`. The first
-  entry in STANDUP.md is an example.
+- Add an entry at the top of `keel/pm/STANDUP.md` as a **morning brief with the whole team** (Ray, 24 Oct 2026):
+  everyone has a take, each labelled with who said it. Layout:
+  1. `## Morning brief, <weekday> <date> (Sydney)`.
+  2. **Nora:** 2-4 plain-English sentences a student with no context understands: what we did and found, what you
+     need to do and by when (Sydney time), what we do next.
+  3. **Felix:**, **Jun:**, **Kai:**, **Amara:**, **Tess:** one take each, 1-3 sentences, first person, in their own
+     voice (`keel/CAST.md`, `keel/VOICE.md`): their view on today's work from their room (rules, numbers, the case
+     against, Laura, records), including disagreement. A real take, never "agree" filler; if a member has nothing
+     today, they say what they are watching. Everyday words; numbers rounded, dated, MODEL where modelled.
+  4. `Students need to:` one line per ask (who, what, by when, Sydney time), or "nothing today".
+  5. `If you want the detail:` done / next / stuck on / next deadline in days, and the PR link.
+  6. `(Keel is a simulated team, AI-written.)`
 - Commit on a branch `claude/keel-loop-YYYY-MM-DD` (reuse it if it exists; never push to `main`), open or update
   one pull request for the day, never merge it.
-- The session's final message is that stand-up, exactly as written (that is how Ray sees it).
+- The session's final message is that morning brief, exactly as written (that is how Ray sees it).
 
 ## Weekly (Sunday run, Nora)
 Re-date the road map; refresh RISKS (top 5 reviewed, scores moved); run or refresh the pre-mortem for the next

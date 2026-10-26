@@ -1,0 +1,17 @@
+# Work orders for the rooms (IPS rewrite, 26 Oct - 6 Nov 2026)
+
+AI-generated (Claude Code). Rooms: take the top open order for your room before your own IPS cards. Don't edit
+IPS v4/v4.1. Write findings to `inbox/<YYYY-MM-DD>_<room>.md` (one short note), then mark the order here.
+
+| # | Room | Order | Due (Sydney) | Status |
+|---|---|---|---|---|
+| WO-R1 | Genius Lab (Jun) | Stress-test `lab/R01_dedication.py` in the 200,000-path model of `keel/library/ips_numbers_2026-10/ips_numbers.py`: current ladder vs dedicated ladder (later coupons pay earlier payments; all ten holdings kept, face >= $10k). Report cost, coupon shortfall p50/p95/p99, and how far the WInS book would have to move to show it | Wed 28 Oct | open |
+| WO-R2 | Courtroom (Kai) | Put the dedicated ladder on trial: does it contradict any locked TNA line (`00_GROUND_TRUTH.md` s3)? Is a $1-2k higher cost worth halving the coupon risk? | Wed 28 Oct | open |
+| WO-R3 | Writing Room (Tess) | Voice study: list, with examples, 10 concrete moves in Ray's three essays (project chat, 24 Oct) that AI prose never makes, and 10 AI habits still visible in the TNA reflections. No rewriting of v4 | Thu 29 Oct | done in thread (`research/R03_voice_study.md`; the essays are only in the chat) |
+| WO-R4 | Laura's Room (Amara) | The 2031 range as a signal: what makes a personal contribution a *credible* signal to co-sponsors (costly, verifiable, committed)? Case lines only, plus any real fundraising evidence | Thu 29 Oct | open |
+| WO-D1-W | The Window (Felix) | Draft 1 judge checklist (form's five items + rubric + case requirements, each with the tired-judge test) and the locked lines with safe phrasing -> `inbox/2026-10-26_D1_window.md` | Mon 26 Oct | done 26 Oct (WO-0003) |
+| WO-D1-L | Genius Lab (Jun) | Number facts for the capital-protected-note thesis on the newest curve (2028 floor/index-fund split, rate sensitivity, post-2031 window); true-or-fix each sentence of the thread brief s6. Existing scripts only -> `inbox/2026-10-26_D1_lab.md` | Mon 26 Oct | done 26 Oct (WO-0003) |
+| WO-D1-A | Laura's Room (Amara) | Laura as a person for Client Knowledge; Aha 3 and Aha 2 in the case's words; who the residency serves -> `inbox/2026-10-26_D1_lauras_room.md` | Mon 26 Oct | done 26 Oct (WO-0003) |
+| WO-D1-N | Long Room (Nora) | Name and motif decided for Draft 1 (Caplet XR, XR meaning, where the motif sits, derivative-disarm line, openings and kickers) -> `inbox/2026-10-26_D1_long_room.md` | Mon 26 Oct | done 26 Oct (WO-0003) |
+| WO-D1-T | Writing Room (Tess) | Three competing candidates (checklist-first, voice-first, aha-first) -> `drafts/D1/candidates/`; then Draft 1 from the Courtroom's verdicts -> `drafts/D1/` | Mon 26 Oct | done 26 Oct (WO-0003) |
+| WO-D1-K | Courtroom (Kai) | Wharton-student judge (60-second skim + rubric checklist), practitioner judge, devil's advocate on the three candidates; Keel's internal test, not a scoring of Caplet's draft | Mon 26 Oct | done 26 Oct (WO-0003) |

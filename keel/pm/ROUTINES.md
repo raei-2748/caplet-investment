@@ -12,6 +12,10 @@ Prompts in `keel/routines/tasks/scheduled_tasks/`, instructions in `keel/routine
 The loop reads their reports (`keel/routines/monitor_reports/`) instead of redoing them. Felix's rules watch is
 already the Mac watcher, so no cloud copy is proposed.
 
+## Rooms each routine works in (`keel/OFFICE.md`)
+Daily loop: Noticeboard, Library, Genius Lab. Markets: Trading Desk, Window. Episode: wherever the day happened, Kitchen
+scenes. Weekly plan: Noticeboard, Courtroom, Rooftop. Tess records: Archive.
+
 ## Proposed: cloud routines (prompts in `routines/`, each under 2 KB)
 AEDT = UTC+11 for the whole competition. All write only to the repo, on a `claude/keel-loop-YYYY-MM-DD` branch with
 one PR per day, never merged by Keel. All stop after Sat 5 Dec 2026.

@@ -4,12 +4,17 @@ Wharton Global High School Investment Competition 2026-27. Keep this file curren
 decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-23.
 
 ## For every Claude session in this repo (all teammates)
-Whoever is using Claude here, these rules apply, and the Caplet Research Office is how competition work is done:
+Whoever is using Claude here, these rules apply, and the Keel Office (formerly the Caplet Research Office) is how competition work is done:
 - **This repo is Team Keel's** (Ray, 23 Oct 2026). Keel = six simulated contestants (`keel/README.md`) set on
   reaching the Top 50 semifinal. Keel leads: it sets the agenda (`keel/road_to_semifinal.md`), runs the office
   (Nora leads; each Keel member heads a desk) and researches, checks and drafts. Caplet's six students are the real
   entrants: they vote, rewrite in their own words and submit; only Ray trades. Keel proposes, never decides.
   Students talk to Keel with `/keel status`, `/keel <name>: <question>`, `/keel meeting: <topic>` (`.claude/skills/keel/`).
+- Keel's world, people and story (23 Oct): `keel/WORLD.md` (Sydney students; the Long Room, where one real minute is
+  about one room day: an analogy, not another world), `keel/CULTURE.md` (mission, vision, five values), `keel/CAST.md` (the six in one screen),
+  `keel/ARCS.md`, `keel/IDEAS.md` (concepts adopted or rejected), timeline `keel/episodes/INDEX.md` (Ep 0-26, daily
+  since 27 Sep). **Save tokens:** follow `keel/TOKEN_RULES.md` (load CAST/INDEX/summaries, not every member file or
+  episode; never regenerate what exists; at most 3 crews a day).
 - Competition questions (rules, numbers, the client case, trade checks, draft reviews, records) go through the
   office: `/office <your role>: <question> | decides: <what> | by: <date>`, or a named agent in `.claude/agents/`.
   Read `keel/office/CHARTER.md` and the workstream file for the deliverable (`keel/office/workstreams/1_TNA.md`, `2_IPS.md`,
@@ -30,6 +35,9 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
   (or `/keel next`): one board card per run, checking work only until 7 Nov, never decides for Caplet. Routines: `keel/pm/ROUTINES.md`.
 
 ## Current status (2026-10-14) - read this before the older sections below
+- 26 Oct (Ray): IPS rewritten from scratch through the office (WO-0003): AI Draft 1 in `keel/ips_rewrite/drafts/D1/`
+  (pitch 47 / IPS 484 strict). Thesis = the gift is a capital-protected note minus the option (Treasury floor + index fund
+  worth its expected interest); name Caplet XR. Thread brief: `keel/ips_rewrite/inbox/2026-10-26_thread_ray-brief.md`.
 - Wharton Week 4 email (filed 22 Oct): `competition/official/2026_27/wharton_email_week4_2026-10.md`. IPS is now an
   SMApply FORM, not a PDF ("all other requirements remain the same"); TIPS and STRIPS explicitly banned for both
   contributions, in the IPS and the Final Report.
@@ -63,7 +71,11 @@ Whoever is using Claude here, these rules apply, and the Caplet Research Office 
   (Version 5 + Trading Note Reflection tabs). Google Doc edits: suggestion mode only, never direct edits; Ray reviews all.
 - Assistant review 30 Sep-15 Oct: keel/library/assistant_review_2026-10/ (AI-generated research, not for submission; start with its README and the 15 Oct team brief PDF).
 - Assistant review 16 Oct: keel/library/assistant_review_2026-10/04_What_Stops_Us_Winning_16Oct2026.pdf (AI-generated research, not for submission; ranked to-do list in Part 1; evidence in oct16/).
-- Caplet Research Office (18 Oct; merged 26 -> 18 agents on 19 Oct): `keel/office/` (README org chart, CHARTER house rules,
+- The Keel Office (23 Oct, Ray): one office of twelve rooms (Long Room, Noticeboard, Window, Library, Lab, Trading Desk,
+  Courtroom, Laura's Room, Writing Room, Archive, Kitchen, Rooftop); the six desks became rooms, no paths moved. Map,
+  people and agents: `keel/OFFICE.md` + `keel/office/office_map.svg`; room logs in `keel/rooms/`. Lab and Library run
+  in the daily loop (`keel/pm/LOOP.md` step 6b), IPS-relevant only until 7 Nov unless Ray approves more.
+- Caplet Research Office, now the Keel Office (18 Oct; merged 26 -> 18 agents on 19 Oct): `keel/office/` (README org chart, CHARTER house rules,
   LEDGER, outbox) + 18 agents in `.claude/agents/` (chief of staff, fact-checker, 16 specialists in 6 desks with no
   desk leads: Rules & Integrity, Numbers, Strategy & Risk, Client & Co-sponsor, Judging & Editorial, Records; each
   desk reports to a student role). Work is organised in three deliverable workstreams, `keel/office/workstreams/`

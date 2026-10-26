@@ -1,0 +1,83 @@
+{
+ "C01": {
+  "d_alone_quote_lower_0": {
+   "p_gift_below_quoted_bottom": 0.0075,
+   "median_break": 3997,
+   "bottom_p50": 145000,
+   "top_p50": 166292,
+   "gift_p50": 165528,
+   "gift_mean": 163286,
+   "laura_kept_p5": 0,
+   "laura_kept_p50": 27745,
+   "gift_plus_kept_mean": 195004
+  },
+  "d_alone_quote_lower_5000": {
+   "p_gift_below_quoted_bottom": 0.0031,
+   "median_break": 3431,
+   "bottom_p50": 140000,
+   "top_p50": 166292,
+   "gift_p50": 165528,
+   "gift_mean": 163286,
+   "laura_kept_p5": 0,
+   "laura_kept_p50": 27745,
+   "gift_plus_kept_mean": 195004
+  },
+  "d_alone_quote_lower_10000": {
+   "p_gift_below_quoted_bottom": 0.0011,
+   "median_break": 2479,
+   "bottom_p50": 135000,
+   "top_p50": 166292,
+   "gift_p50": 165528,
+   "gift_mean": 163286,
+   "laura_kept_p5": 0,
+   "laura_kept_p50": 27745,
+   "gift_plus_kept_mean": 195004
+  },
+  "c5000_unused_to_gift": {
+   "p_gift_below_quoted_bottom": 0.0031,
+   "median_break": 3441,
+   "bottom_p50": 140000,
+   "top_p50": 161292,
+   "gift_p50": 161069,
+   "gift_mean": 158980,
+   "laura_kept_p5": 3297,
+   "laura_kept_p50": 32173,
+   "gift_plus_kept_mean": 195004
+  },
+  "c5000_unused_to_laura": {
+   "p_gift_below_quoted_bottom": 0.0031,
+   "median_break": 3441,
+   "bottom_p50": 140000,
+   "top_p50": 161292,
+   "gift_p50": 160547,
+   "gift_mean": 158517,
+   "laura_kept_p5": 3297,
+   "laura_kept_p50": 32742,
+   "gift_plus_kept_mean": 195004
+  },
+  "c10000_unused_to_gift": {
+   "p_gift_below_quoted_bottom": 0.0011,
+   "median_break": 2559,
+   "bottom_p50": 135000,
+   "top_p50": 156292,
+   "gift_p50": 156178,
+   "gift_mean": 154221,
+   "laura_kept_p5": 8187,
+   "laura_kept_p50": 37090,
+   "gift_plus_kept_mean": 195004
+  },
+  "c10000_unused_to_laura": {
+   "p_gift_below_quoted_bottom": 0.0011,
+   "median_break": 2559,
+   "bottom_p50": 135000,
+   "top_p50": 156292,
+   "gift_p50": 155555,
+   "gift_mean": 153638,
+   "laura_kept_p5": 8310,
+   "laura_kept_p50": 37739,
+   "gift_plus_kept_mean": 195004
+  },
+  "p_buffer_touched": 0.3354
+ },
+ "LR02": null
+}

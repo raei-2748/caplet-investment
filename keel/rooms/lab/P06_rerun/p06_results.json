@@ -1,0 +1,70 @@
+{
+ "2026_7.0": {
+  "ips_numbers": {
+   "L02_buffer": {
+    "0": 0.0896,
+    "10000": 0.0285,
+    "15000": 0.0129
+   },
+   "stock_fund_2jan2028": {
+    "p5": 18979,
+    "p50": 31082,
+    "p95": 41778
+   },
+   "range_2031": {
+    "bottom_p50": 145000,
+    "bottom_mode_share_145k": 0.565,
+    "top_p5": 139072,
+    "top_p50": 166046,
+    "top_p95": 182664,
+    "width_p50": 24187
+   },
+   "gift_2033": {
+    "p5": 136572,
+    "p50": 165237,
+    "p95": 181729,
+    "mean": 162953
+   },
+   "p_gift_inside_range": 0.992
+  },
+  "range_2031_stdout": "Curve 10/22/2026: 2y 4.65%  5y 4.78%  10y 4.96%\nLadder cost on 1 Jan 2027 (curve unchanged, forward): $302,139; headroom $-2,139 = -7bp\nForward 5y-ish yield for Jan 2028 -> Dec 2032: 4.93%\nP(2028 deposit must top up the ladder): 57%; top-up p95 $22,033\nFloor (IBTM sized for, Dec 2032) p5/p50/p95: $127,967 / $147,728 / $150,000; cost in Jan 2028 $101,937 / $113,931 / $123,798\nIBTM actual payout p5/p50/p95: $127,383 / $146,899 / $150,849; below the sized amount 69%; quoted bottom p5/p50 $120,000 / $140,000\nVT bought Jan 2028: $20,187 / $32,313 / $54,166\n\n2031 quote and 2033 outcome, three equity models (rates 90bp/yr)\nmodel       quote bottom         quote top p5 / p50 / p95  P(top) P(>=mid)              gift p5 / p50 / p95   Laura keeps p5 / p50 P(VT<cost 2031)\nlognormal        140,000   $141,000 / $165,000 / $187,000     76%   100.0%   $140,000 / $164,404 / $186,614      $11,391 / $26,215             23%  P(>=bottom) 100.000%\nfat_tails        140,000   $141,000 / $165,000 / $187,000     79%    99.9%   $140,000 / $164,884 / $186,000      $11,579 / $26,246             20%  P(>=bottom) 100.000%\nhistory          140,000   $141,000 / $167,000 / $190,000     85%   100.0%   $141,000 / $166,000 / $189,000      $13,618 / $30,217             13%  P(>=bottom) 100.000%\nP(gift >= bottom) per model is in the CSV (p_gift_ge_bottom).\n\nOverpromising trade-off: share of VT promised above the floor (lognormal)\n share   top p50  P(reach top)  P(>=mid)  gift p50  Laura keeps p5\n  0.33   159,000           77%    100.0%   158,404          14,975\n  0.50   165,000           76%    100.0%   164,404          11,391\n  0.67   171,000           75%    100.0%   170,847           7,733\n  1.00   184,000           75%    100.0%   183,000               0\n\nSensitivity (lognormal): rate volatility\n  60bp/yr: P(top-up) 61%  floor p5 $134,566  top p50 $165,000  VT0 p5/p50/p95 $23,770 / $31,830 / $45,997\n  90bp/yr: P(top-up) 57%  floor p5 $127,967  top p50 $165,000  VT0 p5/p50/p95 $20,187 / $32,313 / $54,166\n  120bp/yr: P(top-up) 56%  floor p5 $121,368  top p50 $165,000  VT0 p5/p50/p95 $16,693 / $32,787 / $62,298\nSensitivity: parallel yield shift today (deterministic, no rate shocks)\n  -100bp: ladder $333,197  2028 top-up $33,197  floor $115,309\n  -50bp: ladder $317,241  2028 top-up $17,241  floor $131,984\n  +0bp: ladder $302,139  2028 top-up $2,139  floor $147,765\n  +50bp: ladder $287,841  2028 top-up $0  floor $150,000\n\nwrote /home/user/caplet-investment/keel/library/range_2031/_p06_2026_7.0.csv\n",
+  "r2_A5A6": [
+   "   V31 median 39,524; top median 169,762; range width median 19,762",
+   "   P(V33>=V31) 0.712 (gift at top); P(gift below top) 0.288"
+  ]
+ },
+ "2027_7.5": {
+  "ips_numbers": {
+   "L02_buffer": {
+    "0": 0.0867,
+    "10000": 0.0273,
+    "15000": 0.0123
+   },
+   "stock_fund_2jan2028": {
+    "p5": 18979,
+    "p50": 31082,
+    "p95": 41778
+   },
+   "range_2031": {
+    "bottom_p50": 145000,
+    "bottom_mode_share_145k": 0.565,
+    "top_p5": 139235,
+    "top_p50": 166292,
+    "top_p95": 183131,
+    "width_p50": 24449
+   },
+   "gift_2033": {
+    "p5": 136842,
+    "p50": 165528,
+    "p95": 182231,
+    "mean": 163286
+   },
+   "p_gift_inside_range": 0.9925
+  },
+  "range_2031_stdout": "Curve 10/22/2026: 2y 4.65%  5y 4.78%  10y 4.96%\nLadder cost on 1 Jan 2027 (curve unchanged, forward): $302,139; headroom $-2,139 = -7bp\nForward 5y-ish yield for Jan 2028 -> Dec 2032: 4.93%\nP(2028 deposit must top up the ladder): 57%; top-up p95 $22,033\nFloor (IBTM sized for, Dec 2032) p5/p50/p95: $127,967 / $147,728 / $150,000; cost in Jan 2028 $101,937 / $113,931 / $123,798\nIBTM actual payout p5/p50/p95: $127,383 / $146,899 / $150,849; below the sized amount 69%; quoted bottom p5/p50 $120,000 / $140,000\nVT bought Jan 2028: $20,187 / $32,313 / $54,166\n\n2031 quote and 2033 outcome, three equity models (rates 90bp/yr)\nmodel       quote bottom         quote top p5 / p50 / p95  P(top) P(>=mid)              gift p5 / p50 / p95   Laura keeps p5 / p50 P(VT<cost 2031)\nlognormal        140,000   $141,000 / $165,000 / $188,000     77%   100.0%   $140,000 / $165,000 / $187,000      $11,717 / $26,971             21%  P(>=bottom) 100.000%\nfat_tails        140,000   $141,000 / $165,000 / $188,000     80%    99.9%   $140,037 / $165,000 / $187,000      $11,897 / $27,007             18%  P(>=bottom) 100.000%\nhistory          140,000   $141,000 / $167,000 / $190,000     85%   100.0%   $141,000 / $166,000 / $189,000      $13,618 / $30,217             13%  P(>=bottom) 100.000%\nP(gift >= bottom) per model is in the CSV (p_gift_ge_bottom).\n\nOverpromising trade-off: share of VT promised above the floor (lognormal)\n share   top p50  P(reach top)  P(>=mid)  gift p50  Laura keeps p5\n  0.33   159,000           78%    100.0%   159,000          15,381\n  0.50   165,000           77%    100.0%   165,000          11,717\n  0.67   172,000           77%    100.0%   171,000           7,967\n  1.00   185,000           76%    100.0%   184,000               0\n\nSensitivity (lognormal): rate volatility\n  60bp/yr: P(top-up) 61%  floor p5 $134,566  top p50 $166,000  VT0 p5/p50/p95 $23,770 / $31,830 / $45,997\n  90bp/yr: P(top-up) 57%  floor p5 $127,967  top p50 $165,000  VT0 p5/p50/p95 $20,187 / $32,313 / $54,166\n  120bp/yr: P(top-up) 56%  floor p5 $121,368  top p50 $165,000  VT0 p5/p50/p95 $16,693 / $32,787 / $62,298\nSensitivity: parallel yield shift today (deterministic, no rate shocks)\n  -100bp: ladder $333,197  2028 top-up $33,197  floor $115,309\n  -50bp: ladder $317,241  2028 top-up $17,241  floor $131,984\n  +0bp: ladder $302,139  2028 top-up $2,139  floor $147,765\n  +50bp: ladder $287,841  2028 top-up $0  floor $150,000\n\nwrote /home/user/caplet-investment/keel/library/range_2031/_p06_2027_7.5.csv\n",
+  "r2_A5A6": [
+   "   V31 median 40,080; top median 170,040; range width median 20,040",
+   "   P(V33>=V31) 0.725 (gift at top); P(gift below top) 0.275"
+  ]
+ }
+}
