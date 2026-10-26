@@ -7,6 +7,7 @@
 
 | Date | Deliverable | What changed | Room | Where |
 |---|---|---|---|---|
+| Mon 26 Oct | IPS + pitch | Draft 2 (V22), rewritten whole in Ray's essay voice: Caplet XR = extended release + X ten / R redemption; human capital as hidden stock risk explains "payments first"; the home-made capital-protected note; "time shrinks the chance of a stock loss, not its size"; iBonds near-ironclad; "do not crush"; one-word paragraph and callback kicker (pitch 49 / IPS 495 strict) | Rewrite thread | `../ips_rewrite/drafts/D2/` |
 | Mon 26 Oct | IPS + pitch | Draft 1.3: Draft 1.2's voice kept; the resizing rule, the one-issuer risk and the two-year stock-fall window restored (493 words strict) | Rewrite (Writing Room) | `../ips_rewrite/drafts/D1/` (PR #38) |
 | Mon 26 Oct | IPS + pitch | Draft 1.2: a voice pass on Ray's version using the moves from his essays (R03) (490 strict) | Rewrite (Writing Room) | `../ips_rewrite/drafts/D1/` (PR #38) |
 | Mon 26 Oct | IPS + pitch | Draft 1 written from a blank page: thesis = the gift is a capital-protected note minus the option (Treasury floor + an index fund worth its expected interest); name Caplet XR; certainty defined; pitch 47 / IPS 484 strict | Writing Room, Courtroom, Window, Genius Lab, Laura's Room, Long Room (WO-0003) | `../ips_rewrite/drafts/D1/` |
