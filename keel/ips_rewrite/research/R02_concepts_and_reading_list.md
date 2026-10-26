@@ -412,7 +412,7 @@ the average active dollar earns the market; after costs, it must earn less.
 arithmetic. The 2026 edition (30th, 20 Oct 2025) gives global equities 7.0% and US large cap 6.7%.
 - Plan: the VT and range modelling inputs. **C**: the TNA says "about 7.5% a year (as per JPMorgan)", which matches
   EAFE (7.5%) rather than AC World (7.0%) in the team's 27 Sep notes. Answer: re-check before the Final Report and
-  quote the AC World figure for VT.
+  quote the AC World figure for VT. **[Window 27 Oct: WRONG EDITION. J.P. Morgan's 2027 LTCMA (release 19 Oct 2026) gives global equities 7.5% (USD), up from 7.0%; the TNA's 7.5% is the world-stocks figure. See `../../office/outbox/2026-10-27_window_7-5-and-three-checks.md`.]**
 - IPS phrase: none (no numbers needed).
 - Depth: practitioner.
 
@@ -811,4 +811,4 @@ near-certain from owned bonds; top: about 2-3 in 4 from a two-year stock window)
 
 Corrections found while checking: Kydland-Prescott's last page is 492 on the JSTOR print (not 491); the Econometric
 Society lists Prospect Theory as 263-292; the TNA's "about 7.5% a year (as per JPMorgan)" for VT looks like the EAFE
-figure, not AC World's 7.0% (re-check before the Final Report).
+figure, not AC World's 7.0% (re-check before the Final Report). **[Window 27 Oct: WRONG EDITION. J.P. Morgan's 2027 LTCMA (release 19 Oct 2026) gives global equities 7.5% (USD), up from 7.0%; the TNA's 7.5% is the world-stocks figure. See `../../office/outbox/2026-10-27_window_7-5-and-three-checks.md`.]**

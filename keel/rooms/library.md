@@ -2,7 +2,7 @@
 
 ## Now
 - **Doing:** Reading for the IPS's one picture and for the Final Report's reading list
-- **Decided:** Contac 600 (a 1952 cold capsule with four bead coatings) is a ladder in a capsule: kept as the rewrite's candidate picture; 7.5% JPMorgan global equity forecast confirmed in the report text
+- **Decided:** Contac 600 (a 1952 cold capsule with four bead coatings) **[Window 27 Oct: Contac 600 launched in 1960 (the Spansule system was 1952); four bead groups, but one is uncoated, so three coats (3, 6, 9 h). Hillery & Hoffman, "Historical Introduction to the Field of Controlled Drug Delivery", basicmedicalkey.com mirror, read 27 Oct 2026.]** is a ladder in a capsule: kept as the rewrite's candidate picture; 7.5% JPMorgan global equity forecast confirmed in the report text
 - **Next:** Two concepts a run from the 60-concept map (project P02), each with what it changes in our plan; verify 'dose dumping' by Wed 28 Oct
 - **For the judges:** IPS: concepts used uncited and explained; Final Report: the cited reading list
 - **Updated:** 2026-10-26 12:40 Sydney

@@ -11,7 +11,7 @@ simulated foundation programme officer and a simulated Laura (case lines only; n
 - Field evidence says donors respond to a committed lead amount *existing*, not to its size: seed money from 10% to
   67% of the goal gave a nearly sixfold rise in giving (List & Lucking-Reiley 2002), and 2:1 or 3:1 matches did no
   better than 1:1 (Karlan & List 2007). So the bottom of Laura's range signals; a bigger top buys little and is the
-  only part that can break her credibility.
+  only part that can break her credibility. **[Window 27 Oct: the first half is FALSE. List & Lucking-Reiley's own abstract: "Increasing seed money from 10 percent to 67 percent of the campaign goal produced a nearly sixfold increase in contributions" (poverty-action.org, read 27 Oct 2026): the SIZE of the committed lead moved giving. What does not matter is the match RATIO (Karlan & List). So: a bigger committed bottom raises giving; the claim about the top is untested by either study. See `2026-10-27_window_7-5-and-three-checks.md`.]**
 - Verifiable: already true. By 2031 the 2028 deposit has landed and the bottom is a Treasury fund on a statement.
 - Committed: one leak. D1a (the floor as the last source for a coupon gap) makes the floor a forecast again.
 - Costly: only once pledged. Held money can be spent elsewhere; pledge the floor, conditional on the residency.
