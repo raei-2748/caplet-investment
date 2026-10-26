@@ -3,11 +3,12 @@
 > Room card: `../OFFICE.md`. Host: Amara ("What does she feel in a bad year?"). Agents: `case-analyst`,
 > `cosponsor-reader`, `taiwan-researcher` (Taiwan research opens Sun 8 Nov).
 
-> **State (Sun 25 Oct, 15:10 run):** visits SD-LR-01 (24 Oct), night visit to v3.1, SD-LR-02 on IPS v4 (floor break:
-> 0.75% of paths, ~$4k median, MODEL; 0.11% with D1's $10k buffer; `lauras_room/LR-02_floor_break.py`). L-04 (two
-> risks) answered by the Lab, closed. Open: option A/B/C for inflation (Caplet, Tue 27 Oct); D1 buffer vs "finish the
-> order in P5" (vote set B, Tue 27 Oct). Next visit: read the vote set B result or v5; test the chosen name and the
-> Final Report's co-sponsor range wording on simulated co-sponsors.
+> **State (Mon 26 Oct, 15:10 run):** IPS v4 retired (Ray, 26 Oct: rewrite from scratch); visits now test the rewrite
+> spine `../ips_rewrite/` and its drafts. WO-R4 done: LR-03 (`lauras_room/LR-03_credible_signal.md`): the bottom of the
+> range does the signalling, the top barely does; D1a is the one leak; pledge the floor in 2031. Open: Genius Lab
+> re-runs LR-02 with the dedicated ladder (Wed 28 Oct); Courtroom roasts the field-evidence transfer (Wed 28 Oct);
+> ASK "pledged" (Thu 29 Oct). Next visit: Draft 1 (Fri 30 Oct) on a simulated Laura and two co-sponsors.
+> Older: SD-LR-01 (24 Oct), night v3.1, SD-LR-02 floor break (`lauras_room/LR-02_floor_break.py`).
 
 ## Who appears here
 - **Laura (simulated).** Built only from her official case
@@ -32,3 +33,5 @@
 | Sun 25 Oct (15:10) | IPS v4 R + L-08 Extended Reserve | Co-sponsor 2 | "And if both run out?" P5 names two steps; the third is the quoted floor. MODEL: 0.75% of paths, median $4k | :91-92; :114-116 | D1 $10k buffer (0.11%) or "and last from the floor itself" (+6); SD-LR-02 |
 | Sun 25 Oct (15:10) | same, P3 | Co-sponsor 2 | Can't buy a fund now with interest earned by 2032 | :16 (Laura reads it fine) | "The rest, equal to the interest that ETF will earn," (+2) |
 | Sun 25 Oct (15:10) | same, L-08 | Co-sponsor 1, Laura | "Reserve" reassures; "six years early" true for 2027 | :94-95 | none |
+| Mon 26 Oct | Rewrite spine `00_GROUND_TRUTH.md` s2-s5 + LR-02, L-09 (WO-R4) | Co-sponsor (programme officer) | "Is the bottom pledged or just held?"; "99%" sounds like a model, wants bought vs hoped-for | :110-114; :117-118 | Pledge the floor, conditional on the residency; confidence in two parts (LR-03) |
+| Mon 26 Oct | same | Laura | Hesitates at "pledged" until only the floor is; asks if the bottom can fall 2031-33 (only if raided: D1a) | :102-103; :113-114 | Her half stays hers; D1a decides the leak (LR-03) |
