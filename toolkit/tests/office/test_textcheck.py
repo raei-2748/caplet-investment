@@ -38,3 +38,19 @@ def test_cli_exit_codes(tmp_path):
     paste.write_text("Growth: one cheap fund")
     assert textcheck.main([str(note), "--compare", str(paste)]) == 1
     assert textcheck.main([str(note), "--limit", "3"]) == 1
+
+
+def test_sentences_keep_money_and_decimals_whole():
+    parts = textcheck.sentences("It pays $10.5k in 2033. But 4.75% is the coupon! Yes.")
+    assert parts == ["It pays $10.5k in 2033.", "But 4.75% is the coupon!", "Yes."]
+
+
+def test_voice_flags_habits_not_rhythm():
+    ai = ("This policy funds Laura. Notably, it buys bonds, not stocks. In other words, cheap, liquid and transparent "
+          "funds hold the floor, not a forecast. It keeps certainty, flexibility and reliability. It meets the goal. "
+          "It ends there.")
+    flags = textcheck.voice_flags(textcheck.voice(ai), textcheck.words_strict(ai))
+    assert any("thesis" in f for f in flags) and any("connectives" in f for f in flags)
+    assert any("X, not Y" in f for f in flags) and any("no turn" in f for f in flags)
+    human = "Laura gets ten cheques. But only if nobody sells. So nobody sells. The rest can wobble."
+    assert textcheck.voice_flags(textcheck.voice(human), textcheck.words_strict(human)) == []

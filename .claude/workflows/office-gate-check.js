@@ -1,6 +1,6 @@
 export const meta = {
   name: 'office-gate-check',
-  description: 'Caplet Research Office: pass/fail check of a deliverable against the hard gates before submission',
+  description: 'Keel Office: pass/fail check of a deliverable against the hard gates before submission',
   whenToUse: 'Before submitting the TNA, IPS or Final Report. args: {deliverable: "tna"|"ips"|"final", files: [paths], wins_notes?: path, note: string?}',
   phases: [
     { title: 'Check', detail: 'format, rules, integrity and coherence specialists in parallel' },

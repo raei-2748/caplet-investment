@@ -1,0 +1,63 @@
+# Keel Office portal on GitHub Pages: rebuilds the office page from the repo every hour (07:00-21:00 Sydney)
+# and on every push to main. It reads the newest Keel day branch (claude/keel-loop-YYYY-MM-DD), so a room's run shows
+# within the hour, before the evening merge. One-time setup: Settings > Pages > Build and deployment > Source:
+# "GitHub Actions". The repository variable PORTAL_MODE picks the view: "progress" (default, no strategy text;
+# a Pages site is public to anyone with the link) or "full".
+name: Keel Office portal
+
+on:
+  push:
+    branches: [main]
+    paths: ["keel/**", ".github/workflows/keel-portal.yml"]
+  schedule:
+    - cron: "11 20-23 * * *"   # 07:11-10:11 Sydney (AEDT, UTC+11)
+    - cron: "11 0-10 * * *"    # 11:11-21:11 Sydney
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: keel-portal
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Use the newest Keel day branch's keel/ folder
+        run: |
+          day=$(git branch -r --list 'origin/claude/keel-loop-*' | sed 's/^ *//' | sort | tail -1)
+          if [ -n "$day" ] && git merge-base --is-ancestor origin/main "$day"; then
+            echo "Reading keel/ from $day"
+            git checkout "$day" -- keel
+          else
+            echo "Reading keel/ from main"
+          fi
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build the page
+        env:
+          PORTAL_MODE: ${{ vars.PORTAL_MODE || 'progress' }}
+        run: |
+          python3 keel/office/dashboard/build_data.py "GitHub Pages"
+          python3 keel/office/dashboard/build_site.py --mode "$PORTAL_MODE" --out _site
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
