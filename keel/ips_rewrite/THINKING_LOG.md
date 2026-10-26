@@ -124,3 +124,21 @@ dates can't move), and Baumol's cost disease + the Taiwan dollar for the half La
 and wrong-way buffers. XR earns its place only where it carries one of those. Tomorrow: the Lab runs the joint
 scenario and the newsvendor ratio on our own model; the Courtroom tries the newsvendor and zero-order ideas;
 Laura's Room checks whether co-sponsors would read a range the newsvendor way.
+
+## Tue 27 Oct, early: corrections from The Window (PR #49) and the Noticeboard. The fresh draft must not use these
+- **7.5% is right after all.** J.P. Morgan's 2027 edition (released 19 Oct 2026): "Global equities are projected to
+  return 7.5% (USD), increasing from 7.0%." R04 matched 7.5% to EAFE in the 2026 edition, a coincidence of editions.
+  The TNA line stands; the IPS may use about 7.5% (world stocks, 2027 edition) or no figure. My day-1 note above
+  ("must not repeat 7.5%") is withdrawn.
+- **The donor study cuts against rounding the bottom down.** Raising committed seed money from 10% to 67% of the goal
+  gave a nearly sixfold rise in giving: size matters, so a lower quoted bottom has a real price. That is good news
+  for the newsvendor idea (the under-promise cost is real, not imagined), and it means D1b's margin must be argued as
+  a trade, not as free safety.
+- **R05's M² ranking is backwards:** length drives the coupon leak, not coupon. The Nov-2041 rung leaks most.
+- **Contac 600 launched in 1960** (the Spansule was 1952).
+- **"Staying inside the range is guaranteed by design" is false at the bottom** (0.75% / 0.11% of MODEL paths fall
+  below it). So my "99 in 100 is a tautology" is too strong: the top end is near-automatic (capped), the bottom isn't.
+  The point stands in a corrected form: report the chance of reaching the top, plus the small chance of falling
+  under the bottom, not "inside".
+- A theory named wrongly somewhere in the research (The Window's PR #49 note): check every named concept against its
+  source before the synthesis.
