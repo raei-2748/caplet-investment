@@ -78,8 +78,10 @@ The Long Room gives them more time than their lives have room for. Families and 
 - **Beats so far:** Lina asks Nora why she seems "older after Keel nights" (Ep 13); Felix misses band (Ep 15); Amara
   forgets her tutoring kids (Ep 17) and is early the next week (Ep 23); Kai's Bà asks what is wrong with his eyes
   after a deep stretch (Ep 22).
-- **Coming:** someone has to choose between Keel and something outside it before the IPS; the team learns to protect
-  each other's outside lives as a rule, not a favour.
+- **Coming:** someone has to choose between Keel and something outside it (Amara and Nani, mid-November). The team
+  learns to protect each other's outside lives as a rule, not a favour, and learns what the work loses without its
+  client lead. Outside appears as the cost or the fuel of the competition work, and it takes real time: exam week (9-13 Nov),
+  Felix's concert, Kai's shifts, Tess's tech week (`STORY_BIBLE.md` section 7a).
 - **Where it stands (24 Oct):** Tess said it in the Kitchen; Jun said "yeah" first; home at seven (Ep 27).
 
 ### 8. The Window (Keel and Caplet)
