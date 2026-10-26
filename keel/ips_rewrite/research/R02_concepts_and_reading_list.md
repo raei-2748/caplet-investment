@@ -49,10 +49,13 @@ more spread out (higher convexity) than liabilities, so small parallel rate move
 
 **4. Horizon (Fisher-Weil) duration: price risk and reinvestment risk offset.** For a holder with a fixed horizon,
 a rate rise cuts bond prices but raises what coupons earn when reinvested; at the duration point the two cancel.
-- Plan: explains why the plan's residual risk is one-sided: held to maturity, price moves do not matter, so only the
+- Plan: for the five individual T-bond rungs (2038-42), held to maturity, price moves do not matter, so only the
   reinvestment side remains, and it hurts only if yields FALL and stay down (the ~$21k MODEL stress at -2 points).
-  **S** (it locates the risk exactly).
-- IPS phrase: "Held to maturity, price swings cannot hurt the payments; only lower yields on reinvested coupons can."
+  The five iBond ETF rungs (IBTM-IBTR, 2033-37) are different: each ends at its net asset value, not a promise of par
+  (concept 7; locked TNA note 2), so their terminal value carries some NAV uncertainty in either rate direction, on
+  top of reinvestment risk. **S** for the bonds; the ETFs need their own sentence.
+- IPS phrase: "Held to maturity, price swings cannot hurt the bond rungs; only lower yields on reinvested coupons can.
+  The fund rungs end at their net asset value, close to but not exactly par."
 - Depth: practitioner.
 
 **5. Reinvestment risk.** Coupon bonds pay cash before maturity, and the rate earned on that cash is unknown.
