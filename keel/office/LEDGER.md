@@ -1,4 +1,8 @@
-# Office ledger
+# Office ledger (retired Tue 27 Oct 2026)
+
+> **No new rows.** BIBLE Book 9 (Ahaan, 27 Oct): no AI-use logging, recording or questions; "We can assure you that we
+> will do whatever is expected of us in citing it. Trust us." Kept as the record of what was logged before. Good ideas
+> go to `../ips_rewrite/IDEA_BANK.md`.
 
 One row per work order, newest last. The Chief of Staff adds the row when a memo ships; the student who asked fills
 "Student decision". The historian copies rows into `caplet/docs/AI_USE.md` and the Final Report's Works Cited.

@@ -620,6 +620,37 @@ def room_docs(rid, known):
     return paths
 
 
+def idea_bank():
+    """keel/ips_rewrite/IDEA_BANK.md (BIBLE Book 9): every good idea and the deliverable it lands in."""
+    f = ROOT / "keel/ips_rewrite/IDEA_BANK.md"
+    if not f.exists():
+        return {"ideas": [], "dropped": []}
+    ideas, dropped, section = [], [], ""
+    for line in f.read_text(encoding="utf-8").splitlines():
+        if line.startswith("## "):
+            section = re.sub(r"\s*\(.*$", "", line[3:]).strip()
+            continue
+        if not line.startswith("|") or re.match(r"^\|[\s|:-]+\|$", line):
+            continue
+        c = [x.strip() for x in line.strip().strip("|").split("|")]
+        if section.lower().startswith("dropped"):
+            if len(c) >= 2 and c[0] != "Idea":
+                dropped.append({"idea": plain(c[0]), "why": plain(c[1])})
+            continue
+        if len(c) < 3 or not re.match(r"^(\d+|FRB-\d+)$", c[0]):
+            continue
+        if re.match(r"^out\b", plain(c[2]), re.I):
+            dropped.append({"idea": plain(c[1]), "why": plain(" ".join(c[3:]))})
+            continue
+        m = re.match(r"\*\*(.+?)\*\*\s*(.*)$", c[1])
+        title, more = (m.group(1), m.group(2)) if m else (c[1], "")
+        rest = [plain(x) for x in c[3:] if plain(x) not in ("", "–", "-")]
+        ideas.append({"id": c[0], "area": section.replace("From the Final Report bank", "Final Report bank"),
+                      "title": plain(title).rstrip(".:"), "more": plain(more), "lands": plain(c[2]),
+                      "notes": rest})
+    return {"ideas": ideas, "dropped": dropped}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="_site")
@@ -668,7 +699,7 @@ def main():
         "projects": [{**p, "id": p["id"].removeprefix("project-")} for p in of("project")],
         "changes": of("change"), "asks": of("ask"), "instructions": of("instruction"),
         "ips": ips_versions(), "commits": cs, "runlog": rl, "memos": ms, "episodes": episodes(), "docs": docs,
-        "bible": bible(),
+        "bible": bible(), "idea_bank": idea_bank(),
         "days": days(ms, cs, rooms, known, titles),
     }
     data = json.loads(scrub(json.dumps(data, ensure_ascii=False)))
