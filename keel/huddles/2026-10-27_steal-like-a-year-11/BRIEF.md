@@ -55,3 +55,10 @@ group-chat nicknames, inside jokes, tiredness, crushes on nobody we need to know
    research notes + posts `posts/r3_<name>.md`.
 4. **Vote and close**: each member votes on the shortlist; Nora reads out what passed; Tess writes the essence.
    Results go into `CULTURE.md`, `CAST.md`, `STORY_BIBLE.md` and the runbooks the same day.
+
+## Round 3: the fights (named by Nora at the end of round 2, plus Tess's hit)
+| Fight | Side A | Side B | What to go and check |
+|---|---|---|---|
+| A. Where does wording end and strategy start: does the owner decide, or do we vote? | Nora (vote on strategy, chair keeps the clock) | Kai (the owner decides, Braintrust-style) | How real organisations split decisions by how reversible they are, and who holds the pen |
+| B. Alone first, or together first? | Amara (alone first, then build) | Jun (alone is fine, alone and unposted is the problem; ideas counted, not good ideas) | Studies that measure the quality of the best idea, not the number of ideas; hybrids |
+| C. What happens to the dull job nobody says "mine" to, and who are Kai's outsiders? | Tess ("unclaimed means dull, not small": liquidity is still missing from the IPS) | Felix (file first, rank with "This one matters:") | Unglamorous work in flat teams; red teams and pre-mortems; what an outsider who knows no finance can and can't catch |
