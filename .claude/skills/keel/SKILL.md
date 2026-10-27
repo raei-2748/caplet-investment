@@ -96,7 +96,7 @@ One screen from `keel/OFFICE.md`, no subagents: the twelve rooms with one line e
 (from the newest stand-up and episode), and the link to the diagram `keel/office/office_map.svg`.
 
 ## `/keel lab: <idea>`
-The Lab (`keel/rooms/lab.md`), Jun in charge. Write the idea as a hypothesis that can be wrong, add Kai's roast (in his
+The Genius Lab (`keel/rooms/lab.md`), Jun in charge. Write the idea as a hypothesis that can be wrong, add Kai's roast (in his
 voice, before any test), the test on existing scripts and data, and the criterion it would serve; add it to the
 book as `queued`. Run it now only if it bears on the IPS and needs no new model (quiet period until Sat 7 Nov 09:00
 Sydney); otherwise mark it "waits for OK" and say so in one line. Keep failures.
