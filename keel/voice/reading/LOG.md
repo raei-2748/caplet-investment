@@ -17,7 +17,7 @@ about 60-90 pieces an hour at best. Collections (memo anthologies, letter compil
 Each entry: **Open / Best / Close** (quoted lines), **Craft** (rhythm, stance, shape), **Steal** (one move worth
 copying), **Insight** (only if there is one). What the entries add up to goes in `SYNTHESIS.md` after every 100.
 
-Count so far: **392**
+Count so far: **414**
 
 ---
 
@@ -933,6 +933,52 @@ Quotes marked "…" were cut at the reader's 125-character limit.
 Batch 11 note: Graham's best closes are two words because his titles already made the promise ("Be good.", "See
 randomness."). The title and the last line are a pair. Caplet's IPS has no title, but the pitch and the IPS's last
 line can be that pair.
+
+## Round 2, batch 12 (28 Oct, 09:05-10:05 Sydney): 393-414
+Checked against the log's URL and title list first. Not counted: the Stripe 2022 and Fortune pages on letters (press
+summaries only), and an fs.blog index page. Quotes marked "…" were cut at the reader's 125-character limit.
+
+### 393-399 · Speeches: a Nobel lecture and five commencements · reader
+| # | Speech | Open | Best line | Close | Craft |
+|---|---|---|---|---|---|
+| 393 | Ishiguro, Nobel lecture (2017) https://nobelprize.org/prizes/literature/2017/ishiguro/lecture | "If you'd come across me in the autumn of 1979, you might have had some difficulty placing me, socially or even racially." | "In the end, stories are about one person saying to another: This is the way it feels to me." | "I give my thanks." | **F1:** a writer's garret in 1979. Admits he nearly abandoned the Japan novels as self-indulgence. **F6.** |
+| 394 | Saunders, Syracuse commencement (2013), via https://jamesclear.com/?p=38593 | "Down through the ages, a traditional form has evolved for this type of speech, which is:" | "What I regret most in my life are failures of kindness." | "I hope you will say: It has been so wonderful." | **Opens by mocking the genre he is in.** The Ellen story ends "End of story." and lets the regret sit. **F3, F6.** |
+| 395 | Rowling, Harvard commencement (2008) https://news.harvard.edu/gazette/story/2008/06/text-of-j-k-rowling-speech | "The first thing I would like to say is 'thank you.'" | "rock bottom became the solid foundation on which I rebuilt my life." | "Thank-you very much." | **Failure with specifics** (about 28, marriage ended, no job, a child, near destitution). **F3, F4.** "Failure gave me an inner security that I had never attained by passing examinations." |
+| 396 | Gawande, commencement address (2010) https://globalnews.ca/news/128028/transcript-dr-atul-gawandes-commencement-speech/ and https://healthbeatblog.com/2010/06/it-will-take-ambition-and-it-will-take-humility/ | "Many of you have worked for four solid years-or five, or six, or nine-and we are here to declare that, as of today…" | "we are all in the survival business, but we are also in the mortality business." | "This is what you get to do." | A coined word ("velluvial matrix") as a running joke. Failure sits in the handoffs between teams, not in any one person. |
+| 397 | Gawande, "The Mistrust of Science" (Caltech, 2016), via https://fs.blog/atul-gawande-mistrust-science/ | (blog intro) | "Even more than what you think, how you think matters." | "We are battling for what it means to be citizens." | Defends science by admitting its mess: "beautifully self-correcting". |
+| 398 | Michael Lewis, Princeton (2012), "Don't Eat Fortune's Cookie", via https://fs.blog/michael-lewis-fortunes-cookie/ | "Thank you." | "In time you will find it easy to assume that you deserve the extra cookie." | "And good luck." | **The close is a pun on the speech's subject.** Mocks his own art history degree. **F6.** FRB-53. |
+| 399 | Feynman, "Cargo Cult Science" (Caltech, 1974), via https://fs.blog/cargo-cult-science/ | "During the Middle Ages there were all kinds of crazy ideas, such as that a piece of rhinoceros horn would increase potency." | "The first principle is that you must not fool yourself—and you are the easiest person to fool." | "Never say that you'll give a talk unless you know clearly what you're going to talk about…" | "…they're missing something essential, because the planes don't land." FRB-54. |
+
+### 400-404 · CEO letters, a critic, and two counter-examples · reader
+| # | Piece | Open | Best (or most typical) line | Close | Note |
+|---|---|---|---|---|---|
+| 400 | Dimon, JPMorgan Chase letter to shareholders (2024) https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/ceo-letter-to-shareholders-2024.pdf | "Across the globe, 2024 was yet another year of significant challenges, from the terrible ongoing war and violence in Ukraine…" | "…ultimately higher rates than markets currently expect." | (cut off) | First person, opinionated, more policy essay than report. Uses "fortress balance sheet". |
+| 401 | Bezos, Amazon letter (2016) https://www.aboutamazon.com/md/news/company-news/2016-letter-to-shareholders | "Jeff, what does Day 2 look like?" | "Day 2 is stasis. Followed by irrelevance. Followed by excruciating, painful decline. Followed by death." | "It remains Day 1." | **Opens on a question someone asked him.** Short sentences that fall like steps. One-way and two-way doors (FRB-52). |
+| 402 | Bernoff, "Amazon's Jeff Bezos shareholder letter has some gems… and some clunkers" https://bernoff.com/blog/amazons-jeff-bezos-shareholder-letter-gems-clunkers | "Jeff Bezos' latest Amazon shareholder letter is striking in its clarity, directness, honesty, and meatiness." | flags "deeply understand", jargon ("pre-packaged versions of popular deep learning frameworks"), a stock phrase ("heavy lifting") | "…even if some of the stories don't have happy endings." | **A critic's checklist:** vague intensifiers, jargon, stock phrases. Even Bezos has a "clunky, awful paragraph". |
+| 403 | "Jeff Bezos to the World" (The Compounding Dad, Substack) https://thecompoundingdad.substack.com/p/jeff-bezos-amazon-shareholder-letters | "Here are some things I picked out from Amazon's shareholder letters when Jeff Bezos was boss." | "treasure trove", "masterclass", "roadmap" | (a download plug) | **Counter-example:** writing *about* a great voice in stock phrases. |
+| 404 | BlackRock Investment Institute, weekly commentary, "Staying pro-risk into 2025" https://blackrock.com/ca/investors/en/literature/market-commentary/weekly-investment-commentary-en-us-20241209-staying-pro-risk-into-2025.pdf | "Structural shifts, like artificial intelligence, are reshaping economies." | "We stay pro-risk to kick off 2025 but stand ready to dial down risk as catalysts emerge." | "BII offers strategic and tactical market views, publications and digital tools that are underpinned by proprietary research." | **Counter-example:** a view with an escape hatch and no named trigger; ends on a boilerplate disclaimer. |
+
+### 405-409 · Marks, five memo PDFs · reader
+| # | Memo | Open | Best line | Close | Craft · Insight |
+|---|---|---|---|---|---|
+| 405 | "Uncertainty II" https://oaktreecapital.com/docs/default-source/memos/uncertainty-ii.pdf?sfvrsn=8 | "I've written a few times about the frequency with which I come across something additive just before finalizing a memo." | "we are always just tapping our canes on the pavement in the fog." | "…we may not be able to predict the future, but that doesn't mean we're powerless to deal with it." | "Let us retire our prophets and augurs." Quotes Housel's story of two friends killed by a risk they took lightly. **F4.** |
+| 406 | "What Can We Do for You?" (2012) https://www.oaktreecapital.com/docs/default-source/memos/2012-01-10-what-can-we-do-for-you.pdf | "We'd love to be able to "do it all" for our clients and give them everything they hope for." | "In any endeavor involving uncertainty, not knowing what lies ahead isn't nearly as bad as thinking you know if you don't." | "…attempting to execute on my list of the things a manager can do for you…" | **Opens on the wish, then says what can't be promised.** "we may never know where we're going, but we'd better know where we are." FRB-51. |
+| 407 | "On the Couch" (2016) https://www.oaktreecapital.com/docs/default-source/memos/on-the-couch.pdf?sfvrsn=4+ | "I woke up early on Saturday, December 12 – the morning after a day of significant declines in stocks,…" | "in the world of investing, perception often swings from "flawless" to "hopeless."" | (a subscription line) | **F1:** a sleepless Saturday morning. |
+| 408 | "The Most Important Thing" (2003) https://www.oaktreecapital.com/docs/default-source/memos/2003-07-01-the-most-important-thing.pdf | "As I meet with clients and prospects, I repeatedly hear myself say, "the most important thing is x."" | "Invest scared!" | "And maybe that's the nineteenth point: never think it'll be easy." | **Opens by catching himself repeating a phrase.** The close adds one more item to a list of eighteen. **F6.** |
+| 409 | "Getting Lucky" (2014) https://www.oaktreecapital.com/docs/default-source/memos/2014-01-16-getting-lucky.pdf | "Sometimes these memos are inspired by a single event or just one thing I read." | "Risk means more things can happen than will happen." | "Unless that unlikely day comes, skill and luck will both continue to play very important roles." | Grateful, not diminished, about his own luck. FRB-53. |
+
+### 410-414 · Central bankers, two essayists second-hand, Cembalest · reader
+| # | Piece | Open | Best line | Close | Note |
+|---|---|---|---|---|---|
+| 410 | Lowe, "The Year Ahead" (National Press Club, 2019) https://www.bis.org/review/r190206a.htm | "Thank you for the opportunity to address the National Press Club." | "I lost count of how many times I read the words 'crash', 'plunge' and 'dive'." | "I look forward to answering your questions." | One human line in a plain speech. |
+| 411 | Lowe, "The Year Ahead" (2022) https://bis.org/review/r220202a.htm | "This is the fourth time that I have addressed the National Press Club." | "Thank you for having me back." | "…we will need to navigate a return to more normal settings of monetary policy." | Thin: the inflation pick-up "has added a new element of uncertainty", said once. A reminder that guidance can be overtaken. |
+| 412 | Orwell, "Some Thoughts on the Common Toad" (1946), via Isaac Yuen https://www.dailygood.org/story/2305/george-orwell-some-thoughts-on-the-common-toad-isaac-yuen/?lang=chr | - | "Every February since 1940 I have found myself thinking that this time Winter is going to be permanent." | "…but the earth is still going round the sun, and neither the dictators nor the bureaucrats…" | **F5:** dread (bombs, police, lies), then spring anyway. The turn is earned by naming the dread first. |
+| 413 | Bruce Allen on E. B. White (Christian Science Monitor, 1985) https://www.csmonitor.com/layout/set/amphtml/1985/1011/dbwhit.html | "The recent passing of essayist and New Yorker writer E. B. White has produced an outpouring of affectionate tribute…" | White: "…that the world would pay a man for setting down a simple, legible account of his own misfortunes." | "…more than reason enough to remember him fondly…" | White's own job description: plain, legible, his own misfortunes. **F6.** |
+| 414 | Cembalest, "Electravision" https://am.jpmorgan.com/content/dam/jpm-am-aem/global/en/insights/eye-on-the-market/electravision-amv.pdf | "The predominant vision for the future involves the electrification of everything…" | "more people talk about Norway than there are people living in Norway" | (footnote) | **A joke that is also a statistic.** |
+
+Batch 12 note: the commencement speakers who are remembered (Saunders, Rowling, Lewis) each make fun of themselves
+before they give advice, and each gives one specific failure. The counter-examples this batch (403, 404) are the
+opposite: no person, no cost, and a close that sells something.
 
 ### Re-reads in batch 4 (not counted)
 Fourteen pieces in this batch had already been logged (the batch's source list was wrong). They are kept here
