@@ -225,7 +225,7 @@ def ips_versions():
             "line": r.get("Line", ""), "note": r.get("What changed", ""),
             "pitch_src": r.get("Pitch", "").split("#")[0], "ips_src": r.get("IPS", "").split("#")[0],
             "pitch": pitch, "ips": ips, "missing": missing,
-            "pitch_words": tc.words_strict(pitch) if pitch else 0, "ips_words": tc.words_strict(ips) if ips else 0,
+            "pitch_words": tc.words_limit(pitch) if pitch else 0, "ips_words": tc.words_limit(ips) if ips else 0,
             "sentences": v.get("sentences", 0), "mean_sentence": round(v.get("mean", 0), 1),
             "longest_sentence": v.get("longest", 0), "short_lines": v.get("blunt", 0),
             "paragraphs": v.get("paragraphs", 0),

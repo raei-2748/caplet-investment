@@ -6,6 +6,7 @@
 
 | Date (Sydney) | Room | Output (link) | Score aimed at | Used by (filled later) |
 |---|---|---|---|---|
+| Tue 27 Oct 17:10 | Writing Room | P06: six spine lines x 3 in Ray's moves, read blind by 3 cold judges; B ("do not crush") beats A; kickers in 3 places only; textcheck/portal now quote the larger count (D4 = 498): `../office/outbox/2026-10-27_writing-room_cold-read.md` | C&P, IS, N1, N2 | |
 | Tue 27 Oct 15:40 | Laura's Room | WO-R7 + Window request: LR-03 corrected; co-sponsors read the bottom as bookable, the top as an intention; a fixed margin is a bad trade, mark the bottom to market in 2031 (0 of 200,000 breaks; 7 in the joint recession shock; MODEL); Keel's call replaces D1b's margin: `../rooms/lauras_room/LR-04_price_of_a_margin.md` | CK, IS, N3, N4 | |
 | Tue 27 Oct 12:55 | Library | S-05 "sum certain" + the IRS 5% exhaustion test as the certainty yardstick; LC-03 dose dumping, zero order, MDT verified; C-01 Yale 80/20 + Tobin; 7 sources to R02: `../office/outbox/2026-10-27_library_sum-certain.md` | IS, CK, N4 | |
 | Tue 27 Oct 10:45 | Trading Desk (markets and rules check) | No breach; near-breaches: trading-activity rule undefined (ask by Wed 28 Oct), AI_USE.md s1 contradicts practice; D4 "ten Treasuries, each redeemed" untrue for the iBond funds; no curve after 22 Oct (treasury.gov blocked): `../office/checks/2026-10-27.md` | IS, PA | |
