@@ -17,7 +17,7 @@ about 60-90 pieces an hour at best. Collections (memo anthologies, letter compil
 Each entry: **Open / Best / Close** (quoted lines), **Craft** (rhythm, stance, shape), **Steal** (one move worth
 copying), **Insight** (only if there is one). What the entries add up to goes in `SYNTHESIS.md` after every 100.
 
-Count so far: **214**
+Count so far: **244**
 
 ---
 
@@ -569,6 +569,76 @@ are not counted.
 | 212 | "The Best Essay" https://www.paulgraham.com/best.html | "Despite its title this isn't meant to be the best essay." | "Writing converts your ideas from vague to bad." | "That is the most important question of all." | Branches that don't pay off get cut, however long they took. |
 | 213 | "Keep Your Identity Small" https://www.paulgraham.com/identity.html | "I finally realized today why politics and religion yield such uniquely useless discussions." | "But on religion everyone's an expert." | "The more labels you have for yourself, the dumber they make you." | Short essay, one idea, a parallel last line. |
 | 214 | "Earnestness" https://www.paulgraham.com/earnest.html | "Jessica and I have certain words that have special significance when we're talking about startups." | "Caring constrains you." | "...an example of an x nerd in the wild." | Earnest beats cynical; three-word best line. |
+
+## Round 2, batch 6 (28 Oct, 02:25-03:15 Sydney): 215-244
+Checked against the log's URL list first. Not counted (failed or empty): Haldane's "$100 billion question" PDF, the
+1987 and 1989 Berkshire letters (the old .html pages came back as binary), an interview page with no quotes.
+
+### 215-226 · Paul Graham, twelve more · reader
+| # | Essay | Open | Best line | Close | Steal |
+|---|---|---|---|---|---|
+| 215 | "How to Think for Yourself" https://www.paulgraham.com/think.html | "There are some kinds of work that you can't do well without thinking differently from your peers." | "The best place to find undiscovered ideas is where no one else is looking." | "...'do what you're curious about.'" | Replace a slogan the reader accepts with a sharper one. |
+| 216 | "The Right Kind of Stubborn" https://www.paulgraham.com/persistence.html | "Successful people tend to be persistent." | "The persistent are attached to the goal. The obstinate are attached to their ideas about how to reach it." | "...the results are magical." | **A test for Caplet's own rule** (FRB-31): is "never sell a rung" a goal or a route? |
+| 217 | "Is It Worth Being Wise?" https://www.paulgraham.com/wisdom.html | "A few days ago I finally figured out something I've wondered about for 25 years" | "The path to wisdom is through discipline, and the path to intelligence through carefully selected self-indulgence." | "Maybe you're just running fast." | Wisdom is average performance, intelligence the peaks: Caplet's cheques want wisdom, its gift wants a little intelligence. |
+| 218 | "Heresy" https://www.paulgraham.com/heresy.html | "One of the most surprising things I've witnessed in my lifetime is the rebirth of the concept of heresy." | "It's like dropping a chunk of uranium onto the scale." | "...new tactics for resisting the next one." | Judge a worry by its direction of change, not its level. |
+| 219 | "Beyond Smart" https://www.paulgraham.com/smart.html | "If you asked people what was special about Einstein, most would say that he was really smart." | "...a sort of wasteland that we try to hurry through with our eyes averted." | "...discoveries about discovery." | Turn a discouraging gap into a thing to study. |
+| 220 | "What I Worked On" https://www.paulgraham.com/worked.html | "Before college the two main things I worked on, outside of school, were writing and programming." | "If anything is going to lead you astray, it will be the desire to impress people." | "...and this is the last sentence of it." | "I hereby apologize to my boss and coworkers, because I was a bad employee." **F6.** A self-aware last line. |
+| 221 | "How Not to Die" https://www.paulgraham.com/die.html | "A couple days ago I told a reporter that we expected about a third of the companies we funded to succeed." | "Startups rarely die in mid keystroke. So keep typing!" | "Don't give up." | Three-word close after 2,000 words that all point at it. |
+| 222 | "Having Kids" https://www.paulgraham.com/kids.html | "Before I had kids, I was afraid of having kids." | "Work, like love, finds a way." | "...so must the happiness that kids bring." | **Feeling without syrup:** he undercuts his own warmth (maybe it's chemical; he sounds like a cult member). **F5, F6.** |
+| 223 | "Default Alive or Default Dead?" https://www.paulgraham.com/aord.html | "When I talk to a startup that's been operating for more than 8 or 9 months," | "Half the founders I talk to don't know whether they're default alive or default dead." | "...the astonishingly successful organism it is now." | **Turns a vague worry into a test anyone can run** (FRB-30). |
+| 224 | "Six Principles for Making New Things" https://www.paulgraham.com/newthings.html | "The fiery reaction to the release of Arc had an unexpected consequence: it made me realize I had a design philosophy." | "...now it looks like they're merely floating downstream." | "But you ignore them because they look wrong." | A philosophy in six parallel phrases, explained after the list. |
+| 225 | "The Bus Ticket Theory of Genius" https://www.paulgraham.com/genius.html | "Everyone knows that to do great work you need both natural ability and determination." | "...a disinterested obsession with something that matters." | "If that's the sort of thing you're interested in." | The "X theory of Y" title: a humble object against a grand idea. |
+| 226 | "The Need to Read" https://www.paulgraham.com/read.html | "In the science fiction books I read as a kid..." | "You can't think well without writing well, and you can't write well without reading well." | "But people who want to have ideas can't afford to." | Long opening, balanced middle, short close: the three lengths in order. |
+
+### 227-228 · Buffett, two more letters · reader
+| # | Letter | Open | Best line | Close | Craft · Insight |
+|---|---|---|---|---|---|
+| 227 | 1996 http://www.berkshirehathaway.com/letters/1996.html | "Our gain in net worth during 1996 was $6.2 billion, or 36.1%." | "We are here to make money with you, not off you." | "The entire gang at Berkshire looks forward to seeing you." | "if you aren't willing to own a stock for ten years, don't even think about owning it for ten minutes." An index fund at minimal fees for the "know-nothing" investor. |
+| 228 | 2001 http://www.berkshirehathaway.com/letters/2001pdf.pdf | "Berkshire's loss in net worth during 2001 was $3.77 billion..." | "you only find out who is swimming naked when the tide goes out." | "And that we most definitely have." | **Bad news first, owned:** "I allowed General Re to take on business without a safeguard I knew was important." **F3.** |
+
+### 229-230 · Marks, in a crisis and looking back · reader
+| # | Memo | Open | Best line | Close | Craft · Insight |
+|---|---|---|---|---|---|
+| 229 | "Nobody Knows (Yet Again)" (Apr 2025) https://files-scs.pstatic.net/2025/04/13/pGoBaMIAJ1/nobody-knows-yet-again.pdf | "On Monday, September 15, 2008, shortly after the close of the New York Stock Exchange, Lehman Brothers surprised the world..." | "deciding not to act isn't the opposite of acting; it's an act in itself." | "This is a good time for all of us to connect with our fellow citizens of the world." | Opens on a dated scene from an earlier crisis; ends on people, not markets. **Insight:** Caplet's "hold" is an act with reasons, and the IPS should say so. |
+| 230 | "The Best of" (35 years) https://www.oaktreecapital.com/insights/memo/the-best-of | "To celebrate 35 years of my memos, I'm thrilled to release this collection of the ones I think are the best." | "Writing the memos is an absolute joy for me." | "I plan to keep at it." | Four-word close. Each old memo gets a one-line annotation of its context. |
+
+### 231-232 · Two newsletter writers, second-hand · reader
+| # | Piece | What it shows |
+|---|---|---|
+| 231 | Antoine Buteau, "Lessons from Kyla Scanlon" https://www.antoinebuteau.com/lessons-from-kyla-scanlon/ | "the economy is doing fine, but people are absolutely not feeling fine." "People are the economy." "Money is not a moral compass." Sentiment as a cause, not just a reading. |
+| 232 | Antoine Buteau, "Lessons from Packy McCormick" https://www.antoinebuteau.com/lessons-from-packy-mccormick/ | "If the writer is bored, the audience will likely be bored too." "Writing is a way to navigate an idea maze." Optimism as a chosen stance. |
+
+### 233-234 · Haldane on what prices mean · reader
+| # | Speech | Open | Best line | Close | Craft · Insight |
+|---|---|---|---|---|---|
+| 233 | "Fair value in foul weather" (2010) https://www.bis.org/speeches/20100316-fair-value-foul-weather.pdf | "Shakespeare's Macbeth opens amid a thunderstorm, with the three witches cackling:" | "Sunlight is an effective disinfectant." | (garbled in the source) | **The find of the batch (FRB-26):** a maturity-matched holder may look through interim prices, but "the relevant test is the ability to hold, not just the intention". Marking UK banks' loan books to market in early 2009 would have shown losses above £400bn against ~£280bn of capital, losses that were never realised. |
+| 234 | "The contribution of the financial sector: miracle or mirage?" (2010) https://www.bis.org/speeches/20100716-contribution-financial-sector-miracle-or-mirage.pdf | "The financial crisis of the past three years has, on any measure, been extremely costly." | "Risk illusion is no accident; it is there by design." | "...these structural issues will take centre-stage in the period ahead." | Tests a flattering statistic and finds risk counted as output. **Insight (FRB-27):** selling tail insurance looks like excess return until it isn't (AIG: ~$2.3bn operating income 2003-06, ~$40bn operating losses in 2008). |
+
+### 235-237 · Buffett 2007; Scanlon, twice · reader
+| # | Piece | Open | Best line | Close | Note |
+|---|---|---|---|---|---|
+| 235 | Berkshire 2007 http://www.berkshirehathaway.com/letters/2007ltr.pdf | "Our gain in net worth during 2007 was $12.3 billion..." | "You only learn who has been swimming naked when the tide goes out" | "We'll see you there." | Great vs "gruesome" businesses; a "confession time" section. **F3.** |
+| 236 | Flaunt, "Kyla Scanlon: The Feeling Is the Data" https://www.flaunt.com/post/kyla-scanlon-the-feeling-is-the-data | - | "Ultimately, we're all better off if we can all make marginally better decisions." | - | "That was just me being a curmudgeon." **F6.** |
+| 237 | LA Review of Books, "Economics for the Age of TikTok" https://lareviewofbooks.org/article/economics-for-the-age-of-tiktok/ | "In 2022, as the labor market thrived, a noticeable gap emerged between traditional economic indicators..." | "more late-night Twitter thread than Econ 101 homework." | "...somewhere, someone is placing eggs in a shopping basket and contemplating returning them to the shelf." | **Ends on a thing.** The critique matters for Caplet: humanising gestures can cost logical clarity; feeling must be followed to its conclusion. |
+
+### 238-239 · Buffett on time and fees · reader
+| # | Letter | Open | Best line | Close | Insight |
+|---|---|---|---|---|---|
+| 238 | Berkshire 2018 http://www.berkshirehathaway.com/letters/2018ltr.pdf | "Berkshire earned $4.0 billion in 2018 utilizing generally accepted accounting principles..." | "At Berkshire, the whole is greater – considerably greater – than the sum of the parts." | "...your company is in good shape for whatever the future brings." | $114.75 in 1942 in a no-fee index fund: ~$606,811 by 2019; a 1% annual fee would have cut a pension fund's gain in half. **F1, F4.** |
+| 239 | Berkshire 2005 http://www.berkshirehathaway.com/letters/2005ltr.pdf | "Our gain in net worth during 2005 was $5.6 billion..." | "a long string of impressive numbers multiplied by a single zero always equals zero." | "We'll see you there." | **The Gotrocks parable:** a family owning all of America loses ~20% to "Helpers". A parable carries the point a statistic can't. FRB-28. |
+
+### 240-244 · Hopkins "Essays That Worked", classes of 2024 and 2027 · reader
+| # | Essay | Open | Close | Craft |
+|---|---|---|---|---|
+| 240 | "Pack Light, But Be Prepared" https://apply.jhu.edu/hopkins-insider/pack-light-but-be-prepared/ | "Friday night, September the 16th 2022 and I am packing for my pilgrimage to Santiago de Compostela in Galicia, Spain." | "...I left room for so much more." | Dated scene; best line "it is going to be a long night." Ends on a lesson. |
+| 241 | "Ordering the Disorderly" https://apply.jhu.edu/hopkins-insider/ordering-the-disorderly/ | "Entropy is the property that provides the basis for the second law of thermodynamics..." | "To feel out of control is not the end of the world, but the natural state of it." | Physics as a lens; the close is a turn, not a summary. |
+| 242 | "Fried Rice in One (Not So) Easy Step" https://apply.jhu.edu/hopkins-insider/fried-rice-in-one-not-so-easy-step/ | "I bet you didn't read those numbers." | "One day, I'll master my own fried rice." | **Opens by addressing the reader's skim.** "The only true fried rice recipe is no recipe at all." |
+| 243 | "Oreo by Design" https://apply.jhu.edu/hopkins-insider/oreo-by-design/ | "Oreos." | "...I will not hesitate to make my mark." | **One-word opening.** Reclaims an insult. |
+| 244 | "My Rock" https://apply.jhu.edu/hopkins-insider/my-rock/ | "Nothing about true love comes easy." | "And for this, and for Rock, I am forever grateful." | A dog made concrete by its two kinds of bark. |
+
+Batch 6 note: of eight Hopkins winners read since synthesis 2, seven end on a stated lesson. The ones a reader
+remembers open strangely ("Oreos."; "I bet you didn't read those numbers.") and don't end on the lesson's own
+words. Caplet's IPS opening can be that strange; its ending must not be the lesson.
 
 ### Re-reads in batch 4 (not counted)
 Fourteen pieces in this batch had already been logged (the batch's source list was wrong). They are kept here
