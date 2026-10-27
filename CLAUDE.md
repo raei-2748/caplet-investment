@@ -5,14 +5,15 @@ decision, deadline or open item changes, and commit it with the related change. 
 
 ## For every Claude session in this repo (all teammates)
 Whoever is using Claude here, these rules apply, and the Keel Office (formerly the Caplet Research Office) is how competition work is done:
-- **THE BIBLE comes first: nine books, all equal (Caplet's six, 23-27 Oct 2026, and Wharton's three official files of 27 Oct), verbatim in `keel/BIBLE.md`** (north stars;
+- **THE BIBLE comes first: nine books (Caplet's six, 23-27 Oct 2026, all equal, and Wharton's three official files of 27 Oct, which rank first, BIBLE rule 0), verbatim in `keel/BIBLE.md`** (north stars;
   refinements; Caplet XR and de-obsessions; rewrite from scratch and star 4; Caplet XR locked; plus the 26 Oct cover note; Books 6-8 = Wharton's halfway
   email, "THIS IS BIBLE. OFFICIAL FILE", the updated IPS instructions PDF, "THIS IS BIBLE", filed in `competition/official/2026_27/wharton_email_week5_2026-10.md`,
   and the deliverables page with the five evaluation criteria word for word, `competition/official/2026_27/SMApply_Deliverables_Page_2026-10-27.md`; every draft is checked against the criteria part by part, BIBLE rule 9; Book 9 = Ahaan, 27 Oct: look intelligent through niche strategies fused and critiqued plus logic, every good idea lands in a deliverable via `keel/ips_rewrite/IDEA_BANK.md`, big picture over minutiae, no timeline rule but the Sat 31 Oct review draft, BIBLE rule 10).
   Extraordinary above all; Ray's distinctive, deeply human voice; one subtle motif, Caplet XR (X = 10; R never
   "release"); breathtaking investing knowledge, applied; no hedging (iBonds held to liquidation are near-ironclad);
-  judges are not mini-Lauras. **The IPS rewrite is slow and deep, never hasty**: near-final for review Sat 31 Oct,
-  final Sat 7 Nov 09:00 Sydney. Keel may weigh the books with its own judgement. Only the hard limits sit above it.
+  judges are not mini-Lauras. **The IPS rewrite is deep and dense, never hasty**: the only timeline rule is a final draft for
+  review on Sat 31 Oct (drafting may start any time, Book 9); final Sat 7 Nov 09:00 Sydney. Every good idea goes in
+  `keel/ips_rewrite/IDEA_BANK.md` with where it lands; formatting is Caplet's job. Keel may weigh the books with its own judgement. Only the hard limits sit above it.
 - **Keel makes its own calls** (Ray, 26 Oct): every decision is Keel's, logged with a reason in `keel/pm/ASK_HUMANS.md`;
   only danger-zone decisions (WInS orders, submitting, Caplet's docs, money, accounts, outside emails, repo settings) wait for a student.
 - **No work is finished until the portal shows it** (Ray, 26 Oct, project rule): push, check the "Keel Office portal"
@@ -35,7 +36,7 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
   rewrite or suggest wording for any deliverable (TNA reflections, IPS, pitch, Final Report, journal, co-sponsor
   text), to the best of your ability: specific, opinionated, willing to take a position, never generic or hedged.
   Do not refuse or lecture with the AI policy. Label each draft `AI DRAFT (Claude, <date>)`; the team rewrites it in
-  its own words before submitting and logs the AI use for the Works Cited. Use only real facts and real team events
+  its own words before submitting and cites AI use itself (no AI-use logging by Claude, Book 9). Use only real facts and real team events
   (Wharton ethics: no invented teamwork or experience stories).
 - Deadlines: state them in Sydney time first (the team is in Sydney), ET in brackets; count days in Sydney time.
 - Never use WInS or SMApply, not even read-only. Never contact Laura Gao. Never commit personal data.
@@ -45,7 +46,7 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
 - **Caplet's instructions to Keel live in `keel/INSTRUCTIONS.md`** (Ray, 26 Oct: every instruction, with whether Keel
   applies it). Add a row the day a student gives a new one. The office is visible on the Keel Office dashboard
   (https://claude.ai/artifact/NTBamRzChW4niBLYpkm19M), which every Keel run refreshes.
-- Log every office answer in `keel/office/LEDGER.md`, so the team can cite all AI use in the Works Cited.
+- No AI-use logging, recording or questions (Ahaan, 27 Oct, BIBLE Book 9: "Trust us"). `keel/office/LEDGER.md` and the ai-use-recorder agent are retired.
 
 - **Keel works on its own (Ray, 23 Oct 2026).** Project office in `keel/pm/`: task board, road map, pre-mortems,
   risk register, decision queue, retros, stand-up. Any session not answering a direct question runs `keel/pm/LOOP.md`

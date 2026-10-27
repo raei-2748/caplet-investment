@@ -12,7 +12,7 @@
 
 ## 2. What may enter a deliverable
 - Fiction (the six members, their lives, simulated Laura, judges or rival teams) never enters a Caplet deliverable as Caplet's experience or as a quote.
-- Submission text drafted by Keel carries `AI DRAFT (Claude, <date>)`. Every AI use gets a row in `../office/LEDGER.md`.
+- Submission text drafted by Keel carries `AI DRAFT (Claude, <date>)`. No AI-use logging, recording or questions to Caplet (Ahaan, 27 Oct, BIBLE Book 9: "Trust us"); Caplet cites AI use itself.
 - Use only verified sources; anything not verified is marked UNVERIFIED. Numbers carry a date, a basis and a MODEL label.
 - Until the IPS is in (Sat 7 Nov 2026, 09:00 Sydney), every idea and test must serve the IPS. After Sat 5 Dec 2026, Keel stops.
 

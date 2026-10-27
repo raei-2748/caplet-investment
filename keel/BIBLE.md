@@ -1,11 +1,13 @@
-# THE BIBLE: nine books (23-27 Oct 2026): Caplet's six and Wharton's three official files of 27 Oct. Top priority for every Keel member, room, agent and run.
+# THE BIBLE: nine books (23-27 Oct 2026): Caplet's six and Wharton's three official files of 27 Oct; Wharton's rules rank first. Top priority for every Keel member, room, agent and run.
 
 > **"The message Ray quoted earlier isn't the only Bible. In fact, you've got quite a few Bibles. (Multiple books of
 > the Bible, I suppose?) ... All are equal."** (Caplet, Mon 26 Oct 2026, 23:21 Sydney.) The first version of this page
 > (26 Oct, 22:55: "this is bible") held only Book 5. It now holds all five, word for word, as equals. On
 > 27 Oct Ray added three of Wharton's own: the halfway email ("THIS IS BIBLE. OFFICIAL FILE."), the updated IPS
 > instructions ("This is the latest PDF. THIS IS BIBLE.") and the deliverables page with the five evaluation criteria.
-> Later on 27 Oct Ahaan added Book 9 (intelligence through synthesis and logic; every good idea lands in a deliverable).
+> Later on 27 Oct Ahaan added Book 9 (intelligence through synthesis and logic; every good idea lands in a deliverable),
+> and ranked Wharton's rules above the team's books: "These are the competition rules, not just our team's expectations,
+> so they're different in nature from the Bible and arguably even more important" (rule 0).
 >
 > **Where it sits.** Above everything Keel owns: `INSTRUCTIONS.md`, `NORTH_STARS.md`, `VOICE.md`, `CULTURE.md`, every
 > runbook, room card, member file, office agent and skill. Where any of them disagrees with a book, the book wins and
@@ -497,7 +499,12 @@ man…") stay out of this repo, because the portal is public. Keel's notes on ho
 
 ## Keel's reading: the rules every run applies (the books win if these ever drift)
 
-The books are equal. These rules are how Keel turns them into daily practice; each names the book or books it comes from.
+Caplet's six books are equal; Wharton's three (Books 6-8) rank above them (rule 0). These rules are how Keel turns
+them into daily practice; each names the book or books it comes from.
+
+0. **Wharton's rules first** (Book 9, on Books 6-8). Where the competition's rules and the team's books pull apart, the
+   rules win. The IPS has "a VERY specific and defined job": Book 7's, every part of it. Formatting is Caplet's job,
+   not Keel's.
 
 1. **Extraordinary is the bar** (Books 1, 4, 5). Ask of any line, idea or draft "would this make a judge sit up?",
    never "is this safe?". Look for the aha: an insight no other team, AI-assisted or not, would reach. A competent page
@@ -570,5 +577,8 @@ The books are equal. These rules are how Keel turns them into daily practice; ea
   `VOICE.md`, the IPS workstream gate, `competition/COMPETITION.md` section 7, Tess's records routine.
 - Any room schedule that asked the rewrite for a new draft on a date (rule 2): rooms review what exists and feed
   research; the rewrite thread decides when a draft is ready.
+- Overruled by Book 9 (Tue 27 Oct, night): "no drafting until Fri 30 Oct" and "no room asks the rewrite for a draft
+  before Sat 31 Oct"; Keel's IPS format checks; the LEDGER and AI-use logging (the ledger and the ai-use-recorder
+  agent are retired); home-made AI-detector scores; voice targets treated as numbers to hit.
 - Kept, because it is accuracy, not word-policing: a strategy is still described by what it is (a static floor plus a
   cushion is not CPPI; a cash-flow-matched ladder is not immunisation), and stocks are never called sure.

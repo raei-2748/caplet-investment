@@ -1,6 +1,6 @@
 # Workstream 2: Investment Policy Statement (IPS) and the trading freeze
 
-> **Read `../../BIBLE.md` first: eight books, all equal (Caplet's five, 23-26 Oct 2026, and Wharton's three official files of 27 Oct).** They beat every rule on this page.
+> **Read `../../BIBLE.md` first: nine books (Caplet's six, 23-27 Oct 2026, all equal, and Wharton's three official files of 27 Oct, which rank first).** They beat every rule on this page.
 > Extraordinary above all; a distinctive, deeply human voice (Ahaan's, never AI's); one subtle motif, Caplet XR (extended
 > release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
 > IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
@@ -35,7 +35,7 @@ students write a fresh IPS.
 | Options notes for vote set B | growth/risk analyst; rates analyst |
 | Each paragraph | a named student author |
 | Edit and word count | editor |
-| Format check | rules/format lead + one other student |
+| Format check | Caplet, its own way (BIBLE Book 9: "that DOESN'T MATTER ... we can figure it out ourselves"); Keel spends no time on it |
 | Submit | Ray |
 | Any WInS order that a vote requires | Ray |
 
@@ -48,7 +48,7 @@ students write a fresh IPS.
 | Sat 31 Oct | Draft | `coherence-checker`: matches the TNA and the filed notes |
 | Sun 1 Nov | Two students and the outside reader score first | `office-judge-panel` with `deliverable: "ips"` |
 | **Wed 4 Nov 4:00 pm EST = Thu 5 Nov 08:00 Sydney** | **Last close for any order a vote requires**, so it fills before the IPS is submitted | `trade-checker` on the pasted ticket, before Ray places it |
-| Wed 4 Nov | Format check on the exported PDF, on Letter paper | `office-gate-check` with `deliverable: "ips"` |
+| Wed 4 Nov | (Format: Caplet's job; no Keel check, BIBLE Book 9) | - |
 | Thu 5 Nov | Submit | - |
 | Sat 7 - Sun 8 Nov | Save WInS Order History, Transaction History, holdings, notes and Session Rules privately, with the username cropped out | `evidence-archivist`: check the list is complete |
 

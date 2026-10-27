@@ -1,6 +1,6 @@
 # Runbooks: how each Keel room works (Keel may edit these)
 
-> **Read `../../BIBLE.md` first: eight books, all equal (Caplet's five, 23-26 Oct 2026, and Wharton's three official files of 27 Oct).** They beat every rule on this page.
+> **Read `../../BIBLE.md` first: nine books (Caplet's six, 23-27 Oct 2026, all equal, and Wharton's three official files of 27 Oct, which rank first).** They beat every rule on this page.
 > Extraordinary above all; a distinctive, deeply human voice (Ahaan's, never AI's); one subtle motif, Caplet XR (extended
 > release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
 > IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
@@ -46,15 +46,21 @@ to rewrite a prompt. Caplet's standing instructions (`../../INSTRUCTIONS.md`) be
    on it now. Only a **danger-zone** decision waits (a WInS order, submitting, Caplet's Google Docs, money, accounts,
    emails outside the team, repo settings): write Keel's recommendation as `Danger zone: yours` and do nothing on it. Everything else
    (which idea to test, how a room works, file layout, what to read) Keel decides itself and says what it decided.
-5. **Never rush the IPS rewrite** (cover note and Book 4 of `keel/BIBLE.md`). Rooms feed it research, ideas, tests
-   and critique; no room asks the rewrite for a new draft, a word count or a date. A full draft is written only when
-   the thinking has moved. Near-final for Caplet's review Sat 31 Oct; final Sat 7 Nov 09:00 Sydney.
-   **Do it properly.** One solid output with sources and dates; numbers MODEL-labelled. IPS ideas go to
+5. **Deep, dense work on the big picture** (`keel/BIBLE.md` Books 4 and 9, rules 2, 5 and 11). Rooms feed the rewrite
+   research, ideas, tests and critique, intensively, every run. The only timeline rule is a final IPS draft for
+   Caplet's review on **Sat 31 Oct** (final Sat 7 Nov 09:00 Sydney); drafting may start whenever Keel judges best.
+   Spend runs on strategy, niche investing knowledge (fused and critiqued, never copied) and logic, not on small word
+   or accuracy fixes. Formatting is Caplet's job, not Keel's. **Do it properly.** One solid output with sources and dates; numbers MODEL-labelled. IPS ideas go to
    `keel/ips_rewrite/inbox/<YYYY-MM-DD>_<room>.md`, never into IPS v4/v4.1.
+5b. **Bank every good idea** (BIBLE Book 9, rule 10: "Every single good idea ... must end up in either the IPS or the
+   Final Report or both"). Before you record, add a row to `keel/ips_rewrite/IDEA_BANK.md` for each good idea the run found: the
+   idea in plain words, where it lands (IPS, FR or Both), why it earns its place, and its honest weakness (critique,
+   don't dump), with the proof file. Drop a weak one with a reason in the bank's "Dropped" table; never drop one
+   because Caplet hasn't replied.
+   The portal's Ideas tab shows the bank. No AI-use logging or questions (rule 12): Caplet cites AI use itself.
 6. **Record.** Update your room's `## Now` block (Doing, Decided, Next, For the judges, Updated as `YYYY-MM-DD HH:MM`
    Sydney). If a judge-facing draft changed, add a row to `keel/pm/CHANGES.md`; if you wrote a new full draft of the
-   pitch + IPS, also add the next numbered row (V22, V23 ...) to `keel/ips_rewrite/VERSIONS.md`, so the portal shows it. One row in `keel/pm/RUNLOG.md`; a
-   `keel/office/LEDGER.md` row if it informs Caplet; a memo in `keel/office/outbox/` ending with each present
+   pitch + IPS, also add the next numbered row (V22, V23 ...) to `keel/ips_rewrite/VERSIONS.md`, so the portal shows it. One row in `keel/pm/RUNLOG.md`; a memo in `keel/office/outbox/` ending with each present
    member's labelled take (`- **Jun:** ...`) when there is something to say; up to 2 requests filed, finished ones closed.
    **Takes are a conversation, not six statements** (Ray, 27 Oct: "I cannot really see the dialogues you guys had"):
    each take answers, pushes back on or builds on the one before it, by name where it helps. The portal's front page

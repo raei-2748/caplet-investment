@@ -1,6 +1,6 @@
 # Runbook: The Archive
 
-> **Read `../../BIBLE.md` first: eight books, all equal (Caplet's five, 23-26 Oct 2026, and Wharton's three official files of 27 Oct).** They beat every rule on this page.
+> **Read `../../BIBLE.md` first: nine books (Caplet's six, 23-27 Oct 2026, all equal, and Wharton's three official files of 27 Oct, which rank first).** They beat every rule on this page.
 > Extraordinary above all; a distinctive, deeply human voice (Ahaan's, never AI's); one subtle motif, Caplet XR (extended
 > release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
 > IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
@@ -11,9 +11,10 @@
 
 ## Job
 Records: every submitted item (trading notes, TNA reflections) held word for word; check new work since the last run
-against them and the narrative spine, list any contradiction; every AI use since the last run has a LEDGER row. Own
-project P05: keep the Final Report bank (`../../library/final_report_bank.md`): every tested idea, citation and
-parked picture the IPS can't hold, filed under the Final Report section it will serve. **Then the day's merge:**
+against them and the narrative spine, list any contradiction. Own
+project P05: keep the idea bank (`../../ips_rewrite/IDEA_BANK.md`, BIBLE Book 9): every good idea from every room's run today has
+a row with where it lands; anything a room found but didn't bank, bank it. By Sat 5 Dec every row is in a submitted
+deliverable or in the "Dropped" table with its reason. (The old Final Report bank was merged into it on 27 Oct.) **Then the day's merge:**
 merge today's day PR into `main` under `../INVARIANTS.md` section 3; if any file is outside `keel/`, move those
 files to a separate PR for Ray and merge the `keel/` part.
 
@@ -21,11 +22,10 @@ files to a separate PR for Ray and merge the `keel/` part.
 **Beat 9, Record (19:10).** Before the merge: add a visit-log row per scout to `../../loop/TERRITORY.md`
 and update each field's status and yield; update `../../loop/CHAMPIONS.md` and `../../loop/FRONTIER.md` (answered
 questions out with a link, new flaws and stepping stones in); add the round's row to `../../loop/HEALTH.md`; send
-anything the IPS can use to `../../ips_rewrite/inbox/` and anything only the Final Report can hold to the Final Report
-bank. Then the locked-text check below, on what the round promoted.
+anything the IPS can use to `../../ips_rewrite/inbox/` and anything only the Final Report can hold to the idea bank (`FR`). Then the locked-text check below, on what the round promoted.
 
 ## Files
-`../../rooms/archive.md`, `../../office/LEDGER.md`, `../routines/keel-tess-records.md`
+`../../rooms/archive.md`, `../../ips_rewrite/IDEA_BANK.md`, `../routines/keel-tess-records.md`
 
 ## Every run
 Follow the shared steps in `README.md` ("Every run, every room"): day branch, read the instruction register, pick
