@@ -237,3 +237,55 @@ redeemed by the Treasury, and the fund then pays out its cash), but the IPS can'
 Thursday: "ten holdings, each redeemed in time for one January" (redemption of bonds and of fund shares), or let
 redemption lean on its second sense, Laura redeeming her pledge, and say plainly "five Treasury bonds and five
 Treasury funds". Ladder figure is still 22 Oct ($1,139 under $300k).
+
+## Tue 27 Oct, afternoon: the Courtroom's "still missing" list, worked as thinking
+
+**1. "As needs change": what actually happens (22 Oct curve, deterministic, `lab/D1_split.py` functions).**
+| Before the Jan 2027 build, yields... | 2028 deposit | Payments left unfunded | Floor bought | Stock fund |
+|---|---|---|---|---|
+| don't move | $150k / $100k / $0 | 0 / 0 / 0 | $150k / $100k / 0 | $32.1k / $21.4k / 0 |
+| fall 0.5pp | $150k / $75k / $0 | 0 / 0 / $14.1k | $136k / $61k / 0 | $26.5k / $11.9k / 0 |
+| fall 1pp | $150k / $75k / $30k | 0 / 0 / $0.2k | $120k / $45k / 0 | $21.0k / $7.9k / 0 |
+| fall 2pp | $150k / $75k | 0 / 0 | $85k / $10k | $11.4k / $1.3k |
+What I take from it:
+- **One rule covers every case: payments first, then the floor and the stocks shrink in proportion.** The stock
+  fund is always ~21% of whatever is left (the floor's expected interest), so a smaller deposit scales the gift down
+  in a straight line and changes nothing else. That's the "as needs change" answer in one sentence, and it's a rule,
+  not a forecast.
+- **The payments are only ever at risk in one corner: yields fall before the build AND the 2028 deposit is small.**
+  That is Aha 3 (her income and yields fall together in a slump) made concrete: a 1pp fall needs ~$30k of the
+  deposit; a 2pp fall needs ~$65k. A deposit as low as $75k still completes the ladder even after a 2pp fall. So the
+  honest certainty statement: "the ten payments fail only if yields fall by more than about 2pp before January 2027
+  and her 2028 deposit also halves". That is a far stronger, more specific claim than "high certainty", and it's
+  true.
+- **Stocks halve before 2031:** nothing is sold; the top comes down (bottom + half a smaller fund); the bottom
+  doesn't move. Stocks halve after 2031: the gift slides toward the bottom, never under it (except the coupon-gap
+  tail). The plan has no decision to make in either case, which is the point.
+
+**2. Inflation and the Taiwan dollar (case :146-148 asks for both).** The payments are fixed in dollars (the case
+says so), so inflation can't touch them. It touches what the gift BUYS: Taiwan building costs (+6.5% y/y on file;
+~3.5%/yr since 2021), and an arts residency's running costs rise faster than prices generally (Baumol's cost disease:
+a residency can't make a painter paint faster). The Taiwan dollar adds a second leak: dollars are converted into a
+currency that has jumped sharply against the dollar before (R05 cites May 2025; to VERIFY). Where it belongs: one
+clause, and it does a job. It's the case's own reason for the half Laura keeps: whatever inflation and the currency
+take from the facility, her half is what pays it. That ties three required items (assumptions on inflation, on
+flexibility, and the facility contribution) into one sentence.
+
+**3. Liquidity.** The plan needs no liquidity before 2033 by design (nothing is sold), but it has it everywhere:
+the iBond funds trade daily (the locked TNA: "a level of liquidity which no odd-lot bond offers"), and VT is one of
+the most traded funds there is. So liquidity is where her flexibility lives: the half she keeps is in a fund she can
+sell on any trading day. Name it once, in the flexibility sentence.
+
+**4. Does the newsvendor framework fit the XR motif, or fight it?** I think they're the same idea seen from two
+sides. Pharmacologists dose inside a therapeutic window: too little and the drug does nothing, too much and it does
+harm. A newsvendor sets an order between two costs, waste and lost sales. The case gives the range exactly those two
+costs: too little fails to "signal that the residency is financially viable"; too much and she "could damage her
+credibility". So the 2031 range IS a therapeutic window, and the newsvendor tells us where to put its edges (bottom
+owned, top reached three times in four). XR's other job, zero-order release, covers the payments. So one motif,
+two jobs, each carrying a real investing idea:
+  - **extended release** -> the ten payments: fixed dollars on fixed dates, so only matched maturities will do;
+    the reserve changes itself; do not crush (nothing sold early);
+  - **the window** -> the 2031 range: two costs, edges set by rule, 3:1.
+Risk: "therapeutic window" was on rung 1's list, so another AI team could reach it. But they'd reach it as a label;
+the newsvendor maths under it (and the ~3:1 we can defend) is what nobody else will have. Rung 3's rule stands:
+no "dose", "toxic" or "patient" in the IPS. "Window" can carry it.
