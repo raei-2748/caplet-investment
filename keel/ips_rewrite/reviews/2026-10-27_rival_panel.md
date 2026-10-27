@@ -60,8 +60,10 @@ V25's own sheet: W1-W5 = 9 9 8 8 9 (J1, J3) and 9 9 8 7 9 (J2). Criteria: Strate
    reached its call (what it tested, what it threw out)".
 
 ## What each judge says the winning IPS would have to do (section 5 of each sheet), joined
-- **Make the price of certainty explicit** and let it drive every decision (J1). R06 D4 now has it: about $30-40k of
-  median contribution against growth-tilted plans, for removing a 1-in-5 to 1-in-11 chance of a missed payment (MODEL).
+- **Make the price of certainty explicit** and let it drive every decision (J1). Corrected in huddle H-002: matched
+  on misses, certainty costs nothing at the median and wins the bottom tail ($144k against $0 at p5); its price is
+  the best years (about $170k at p95 against a glide plan). MODEL, across two models until V25 is in the annual one.
+  (The first figure here, "$30-40k of median contribution", is withdrawn.)
 - **Decision rules for the cases that actually threaten Laura**: rates falling before the purchases, a short or late
   2028 deposit, a crash in 2031-32, facility costs rising in Taiwan dollars (J1, J2). Plainly laid out for 2027, 2028,
   2031 and 2033 (J3). That is R06 D2 (one test, three Januaries), plus one clause each for the 2031-32 crash (the top

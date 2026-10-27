@@ -31,12 +31,15 @@ EXTRA = '''
     mu_l = EQ_MU - VT_FEE
     # K1: stock share of everything Laura owns, each 1 Jan. Ladder valued at par of what is left to pay
     # (a held-to-maturity view); VT grows on the same draws (logr) to 2033, then Laura's half grows on fresh draws.
-    share = {}
+    share, share_mv = {}, {}
     lad_left = lambda y: PAY * sum(1 for p in RUNGS if p >= y)
     for j, y in enumerate((2028, 2029, 2030, 2031, 2032)):
         Vy = B0 * np.exp(logr[:, :j].sum(axis=1)) if j else B0
-        tot = lad_left(2033) + R + Vy  # ladder and floor at what they will pay
+        tot = lad_left(2033) + R + Vy  # ladder and floor at what they will pay (par)
         share[y] = float(np.median(Vy / tot))
+        # market value (flat 4.6%, the 22 Oct 4-5y area): Jun's audit, 28 Oct
+        mv_lad = sum(PAY / 1.046 ** (p - y) for p in RUNGS if p >= y)
+        share_mv[y] = float(np.median(Vy / (mv_lad + R / 1.046 ** (2033 - y) + Vy)))
     rng2 = np.random.default_rng(7)
     kept = np.maximum(half + L33 - np.minimum(S33, L33 + half), 0)
     g = np.exp(np.cumsum(mu_l + EQ_VOL * rng2.normal(size=(N, 10)), axis=1))
@@ -44,7 +47,12 @@ EXTRA = '''
         Ky = kept * (g[:, j - 1] if j else 1.0)
         lad = lad_left(y) - PAY  # just after that January's payment
         share[y] = float(np.median(Ky / np.maximum(Ky + lad, 1)))
-    K["K1_stock_share_median"] = {str(k): round(v, 3) for k, v in share.items()}
+        mv_lad = sum(PAY / 1.046 ** (p - y) for p in RUNGS if p > y)
+        share_mv[y] = float(np.median(Ky / np.maximum(Ky + mv_lad, 1)))
+    K["K1_stock_share_median"] = {str(k): round(v, 3) for k, v in share.items() if k < 2042}
+    K["K1_stock_share_median_market_value"] = {str(k): round(v, 3) for k, v in share_mv.items() if k < 2042}
+    K["K1_kept_stock_dollars_p50_2033_2041"] = [round(float(np.median(kept))), round(float(np.median(kept * g[:, 7])))]
+    K["K1_p_laura_keeps_nothing_2033"] = round(float((kept < 1).mean()), 3)
     # K2: flight-path checkpoints
     K["K2_checkpoints"] = {
         "jan2027_ladder_costs_more_than_300k": round(float((gap27 > 0).mean()), 3),

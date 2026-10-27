@@ -16,6 +16,19 @@ locked in Treasuries maturing before 2033, plus at most half the stocks, capped 
 kept as Laura's flexibility. The simulated near-twin (H19: iBond ladder + VT + promised minimum) says most of V25's
 substance in a cleaner, more impersonal voice.
 
+**Warning for the rewrite (added after reading the 28 Oct Courtroom ruling): "lock what you announce" is the crowd's
+move.** Nine of the twelve raw-AI rivals move stocks into Treasuries at or just before the 2031 announcement, so that
+what Laura tells co-sponsors is already locked. A02: "In 2031, when Laura gives co-sponsors her range, half the surplus
+moves into Treasury bonds maturing in 2033, so at least half the facility money is locked before anyone hears a
+number." A09: "Before Laura speaks to co-sponsors, we move the bottom of her announced range into Treasuries". A10: "so
+the amount she announces is protected from a late market crash". A06 even has the Courtroom's defence: "The shift is
+scheduled by date, not market opinion." Also H24's "seed tranche". The idea is sound (the Lab measured it: the top
+reached 93% instead of 77%), but as a **central idea** it reads as the field's default. What only Caplet has is the
+**diagnosis** (after 2031 the cap leaves the contribution every fall and hands Laura every rise) and the **order**
+(the floor bought in January 2028 before a single share, so the 2031 switch moves the top, not the bottom; the
+rivals lock their bottom in 2031 because they never bought one). If the lock stays, lead with the diagnosis and the
+order, never with the lock itself.
+
 So **structure is table stakes, not an edge.** Hundreds of real entries will open with some version of "secure the
 promise, then grow the surplus". What only Caplet has, after reading all 36:
 
@@ -108,9 +121,11 @@ Three families, and V25 should beat all three in one clause:
   named after the team. XR is clear.
 
 ## 5. How the rivals set the 2031 range
-- Bottom = an amount moved into short Treasuries in 2031 (A02, A05, A08, A09, A11, A12, H21, H24); top = what the stocks
-  might add, "strong market" or "median". **Selling stocks in 2031 to make the bottom is the crowd's move.** V25 buys
-  its floor in January 2028, before a single share, so its bottom doesn't depend on 2028-2031 markets.
+- Bottom = an amount moved into short Treasuries in 2031 (A02, A05-A12, H21, H24): 9 of 12 raw-AI rivals lock part of
+  the stocks at or just before the announcement. Top = what the stocks might add, "strong market" or "median".
+  **Selling stocks in 2031 to lock what is announced is the crowd's move** (see the warning in the Result). V25 buys
+  its floor in January 2028, before a single share, so its bottom doesn't depend on 2028-2031 markets. The
+  Courtroom's 28 Oct "lock" would add a 2031 switch for the top, which then looks like the rivals' switch for the bottom.
 - A percentile of simulated outcomes (H07, H14, H23: a 90% lower end). The floor is then a probability, not an
   amount owned.
 - **None says why the top sits where it does.** V25's two-cost reasoning (a top reached about three times in four
@@ -132,8 +147,9 @@ Three families, and V25 should beat all three in one clause:
 ## 7. Ranked moves for the rewrite (strategy and emphasis only; prose stays with the rewrite thread)
 1. **Don't let the hook be the crowd's sentence.** "Debts paid with debts / promise vs hope / buy the cheques first"
    is what every one of the 12 AI pitches leads with, in some form ("secure the payments first, then grow"). Keep the idea; lead with something only Caplet can say. Candidates,
-   strongest first: (a) **everyone else de-risks at the end; Caplet XR de-risks at the start, and then risk rises by
-   itself** (R06 D1); (b) certainty defined by where it breaks, against a field that says "only a default"; (c) the
+   strongest first: (a) **everyone else de-risks on the way to 2033; Caplet XR de-risks at the start (cheques in
+   2027, the floor in 2028), and after the first January its stock share rises by itself** (R06 D1; this still holds
+   with the 2031 lock, which only moves the contribution's half); (b) certainty defined by where it breaks, against a field that says "only a default"; (c) the
    range as a choice between two costs.
 2. **Make the framework one rule a judge can point to** (R06 D2): one test, three Januaries. It answers Book 7's W4,
    and only one rival has anything like it.

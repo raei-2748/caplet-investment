@@ -14,15 +14,19 @@ diversification, Kelly, human capital, signalling, the newsvendor and the rest. 
 So tonight's dig asked a different question: **which ideas would change what the IPS says, and does the model agree?**
 Four were tested. Two are kept for the IPS, one is kept for the Final Report, and one is binned.
 
-1. **KEEP (IPS): the stock share rises as the payments are made (a rising equity glide path, no trades).** Every
-   rival that glides goes the other way. See D1.
+1. **DEMOTED after the huddle audit (27 Oct night): the stock share rises as the payments are made.** True, but the
+   stock dollars barely move (1.7x over nine years); the share rises because the bonds are spent. It is not
+   Pfau-Kitces, and four raw-AI rivals also ladder first. At most a clause in answer to Book 7, never the hook. See D1.
 2. **KEEP (IPS, slot C13): one funding test on three dates.** This is the pension de-risking glidepath, and Laura
    reaches its end state on day one. It gives the IPS the "decision-making framework" Book 7 asks for, which no draft
    has had yet. See D2.
 3. **BIN (IPS) / note for the Final Report: a ratchet that locks in stock gains before 2031.** It is worth about
    $2,000 to the bottom of the range. See D3.
-4. **KEEP (Final Report): the price of certainty against the rival plans.** The ladder costs about $35k of median
-   contribution against a 60/40 plan, and it removes a 1-in-5 chance of missing a payment. See D4.
+4. **CORRECTED (Final Report): the price of certainty against the rival plans.** The first version said the ladder
+   costs about $35k of median contribution. That compared V25's gift alone with the rivals' whole surplus, under a
+   10% cushion that lets rivals miss 9-18% of the time. Like for like (rivals given the cushion they need to miss
+   at most 2%), certainty costs Laura about nothing: V25's total surplus is $193k at the median against $119-152k
+   for the rivals, and a 60/40 plan never gets under about 3%. See D4.
 
 Also below: D5 (why the cap costs the contribution nothing: option arithmetic, not modelled) and D6 (the false
 certainty claim most rivals make).
@@ -33,14 +37,21 @@ certainty claim most rivals make).
 - **The idea.** Pfau and Kitces (2014) found that for a retiree drawing fixed amounts, an equity share that starts
   low and *rises* through retirement lowers both the chance and the size of failure. That is the reverse of a
   target-date fund. Their shape is a U: "the stock allocation is the lowest at the point" when the spending goal is
-  most vulnerable. The cause is sequence risk. (Kitces later called the low point a "bond tent".)
+  most vulnerable (the rest of their sentence is our paraphrase; the quote was clipped). The cause is sequence risk. (Kitces later called the low point a "bond tent".)
 - **Laura's plan, tested (K1, median path, the stock share of everything she owns each 1 January):** 4.6% in 2028,
   5.9% in 2032, 5.1% in 2033 after the contribution, 11% in 2037, 19% in 2039, 28% in 2040 and 45% in 2041. The
-  share is lowest exactly when the promise is most exposed (2028-2033, before the first payment) and rises
-  ninefold by the last payment. **No share is bought or sold to make that happen.** Each January a bond matures and
+  share is lowest exactly when the promise is most exposed (2028-2033, before the first payment) and rises to 45%
+  by the last payment. **Correction (Jun, 27 Oct night):** those figures value the ladder and floor at par. At market
+  value (flat 4.6%) the share is 6.5-7.1% in 2028-2032, 6.2% in 2033, 12.6% in 2037, 29% in 2040 and 46% in 2041. The
+  stock dollars Laura keeps grow only from about $24k (2033) to $41k (2041), 1.7x, and in 7% of paths she keeps
+  nothing. So the share rises because the bonds are spent, not because the stocks grow: a "denominator effect" (Kai). **No share is bought or sold to make that happen.** Each January a bond matures and
   pays a cheque, the bonds run off, and what is left is Laura's own stake in VT.
-- **Every rival goes the other way.** Most of the 36 simulated rivals step stocks *down* toward 2031-2033
+- **Most rivals go the other way (overstated: Kai found A01, A05, A07 and A11 also ladder first and differ only in how much stock the facility sleeve holds).** Most of the 36 simulated rivals step stocks *down* toward 2031-2033
   (`../rivals/RIVAL_MAP.md` s2). They de-risk at the end. Caplet XR de-risks on day one, and then risk rises on its own.
+- **With the Courtroom's 28 Oct "lock what you announce"** (the contribution's half of VT moves into Treasuries in
+  January 2031), the 2031-2032 share roughly halves (not re-run; the half sold is about half the VT). From 2033 on the
+  series is almost unchanged (Laura's kept half is about $2.2k smaller, per the Courtroom). The U shape survives, but
+  "we never sell a share" no longer does. Say "her stock share rises as the payments are made", which is true either way.
 - **What it does to the IPS.** It answers Book 7's "How will the portfolio's asset allocation and composition change
   as future funding needs approach and payments are made?" with an aha instead of a schedule: *the allocation
   changes by itself, and in the opposite direction from everyone else, because the safest moment is the start.*
@@ -56,9 +67,11 @@ certainty claim most rivals make).
   magnitude of failure"; "more like the letter U").
 
 ### D2. One funding test, three dates (the pension glidepath, with Laura already at the end)
-- **The idea.** A pension fund's de-risking glidepath "lowers risk in a pension's asset mix as its funded level rises
-  ... by gradually shifting from growth assets to liability-hedging assets" (Bank of America, *Demystifying de-risking
-  glidepaths for pension plans*, March 2026). The end state of that path is a fund that holds bonds matched to its
+- **The idea.** A pension fund's de-risking glidepath cuts risk as the plan's funded level rises, "gradually shifting
+  from growth assets to liability-hedging assets" (Bank of America, *Demystifying de-risking glidepaths for pension
+  plans*, March 2026; the report's own definition: "A glidepath is a dynamic pension investment strategy centered on
+  de-risking a plan's asset allocation". Corrected 28 Oct after Felix's check: an earlier version put a paraphrase in
+  quote marks). The end state of that path is a fund that holds bonds matched to its
   payments and takes risk only with its surplus.
 - **Laura's twist.** She can start at the end state, because her payments are known and small next to her deposits.
   So the whole plan is one test, run on fixed dates: *are the ten payments fully covered by Treasuries we will hold
@@ -90,6 +103,11 @@ certainty claim most rivals make).
 - **Tested (K3, MODEL).** The mean bottom rises by $2,400 (from $138.9k to $141.4k), the median stays at $145k, the
   chance of reaching the top goes from 76.7% to 77.4%, the median range narrows by $1,500, and the bottom rises by
   $5k or more in 42% of paths.
+- **Since then (28 Oct):** the Genius Lab's one-shot version, "lock what you announce" (sell the contribution's half
+  into Treasuries on naming day, January 2031), moves the top's odds from about 77% to 93%, and the Courtroom adopted
+  it. A ratchet *before* 2031 does almost nothing; a single switch *at* 2031 does a lot, because that is when the cap
+  starts. Read `../rivals/RIVAL_MAP.md` (Result, warning) before making it the central idea: 9 of 12 raw-AI rivals
+  lock at the announcement too.
 - **Verdict: bin for the IPS.** The contribution's stocks are only about $15k (half of a VT stake near $31k), so a
   ratchet is a rule for a rounding error. The real lock-in already happened in January 2028, when the floor was bought
   before a single share. **Keep as Final Report material** ("considered and rejected, and why"), which shows a
@@ -112,8 +130,13 @@ certainty claim most rivals make).
 
   If the 2028 deposit is $75k instead of $150k, the 60/40 plan misses 23% of the time and gives nothing 21% of the time.
 - **Reading.** V25 beats the barbell and the bond fund on both counts: more contribution and fewer misses. Against
-  the growth-tilted plans it gives up about $30-40k of median contribution and in return removes a 1-in-5 to 1-in-11
-  chance of breaking a promise made in person. That is the price of certainty, paid once, in public. It is the
+  the growth-tilted plans it seemed to give up about $30-40k of median contribution. **Withdrawn (Jun's audit, 27 Oct
+  night):** the table compares V25's gift ($166k) with the rivals' whole surplus, and lets the rivals miss 9-18% of
+  the time. Like for like, V25's total surplus in 2033 (floor + all stocks + leftover - coupon gap) is $144k/$193k/$253k
+  (p5/p50/p95). Rivals given the smallest cushion that brings their misses to 2% or less: glide $137k, buckets $133k,
+  barbell $152k, bond fund $119k; a 60/40 plan never gets under about 3%. **Certainty costs Laura about nothing; the
+  rivals pay for their missing ladder with a bigger cushion.** Caveat: V25 is not yet in the annual model, so this is
+  across two models. Also, most of these archetypes don't ladder first, unlike the 12 raw-AI rivals (Kai). It is the
   Final Report's answer to the sceptic, with Bodie's (1995) point (R02 #29) that insuring stocks costs more the
   longer you hold them.
 - **The IPS gets at most one clause of this** (the rewrite thread's limit of one or two numbers stands), for example
