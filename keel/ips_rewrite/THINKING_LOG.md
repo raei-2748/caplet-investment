@@ -316,3 +316,15 @@ completing the payments. It's known exactly in January 2028, three years before 
 states the bottom as a rule, not a number: "what the 2028 deposit leaves after the payments, rounded down". The
 2031 range is a number, but Laura names it in 2031, not us in 2026. This also tidies the newsvendor story: the
 bottom's fractile is near 100% because by 2031 it is already bought and known.
+
+**Archive (via the coordinator): a clash with the locked TNA.** Reflection 3 calls VT "the only investment not
+standing between Laura and a payment deadline". But "cover a coupon gap from Laura's half first" means selling
+stocks to meet a payment, which happens in about a third of model paths (some gap, mostly small). Proposed fix,
+with no trades now: in January 2033, when the reserve is set aside, any projected gap plus a cushion for the
+coupons still to be reinvested moves into T-bills alongside the ladder, before the gift is paid. My view: right, and
+it's better than a patch. It makes January 2033 a single, scheduled re-matching (the case's own moment: "at the
+beginning of 2033 ... set aside a portion of the portfolio"), after which no share is ever sold to meet a deadline.
+VT then stands between Laura and the gift's size, never between her and a payment date, so the TNA line holds.
+It also answers the case's "how its composition should change, if at all": once, on a known date, and then not at
+all. For Thursday: check against R05's wrong-way result (the gap is biggest when stocks are low, so the 2033 move
+is a forced-ish sale in bad years; it's small, ~$7k mean when it bites, and quoted under the floor's margin).
