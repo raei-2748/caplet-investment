@@ -12,6 +12,7 @@ How big should A be? Rules tested:
   S1     - A = what the gap would be if yields fell a FURTHER 1 point for good after 2033 (a stress test, the way a
            bank or insurer sizes capital: the cushion shrinks by itself as the rungs mature)
   S2     - the same with a 2-point fall
+  R+5k / R+7.5k - flat cushions sized to the 2033 projection's own error (p95 / p99 of true minus projected gap)
 A is drawn from leftover Treasury cash, then Laura's half of the stocks, then the gift (above the cap first). Bills are
 assumed to earn nothing (conservative). "Payments short" = total nominal shortfall 2033-42 above A (> $1k).
 """
@@ -63,7 +64,8 @@ if __name__ == "__main__":
                          "p_any_stock_sold_for_payments_2033_42": round(float(((p["S33"] > p["L33"] + 1) | (extra > 1000)).mean()), 4),
                          "p_top_reached_within_1k": round(float((p["gift"] >= p["top"] - 1000).mean()), 4),
                          "gift_p50_mean": [round(float(np.median(p["gift"]))), round(float(p["gift"].mean()))]}}
-        for name, A in (("R0 projected gap", p["S33"]), ("R+10k flat", p["S33"] + 10000),
+        for name, A in (("R0 projected gap", p["S33"]), ("R+5k flat", p["S33"] + 5000), ("R+7.5k flat", p["S33"] + 7500),
+                        ("R+10k flat", p["S33"] + 10000),
                         ("S1 one-point stress", p["S33m1"]), ("S2 two-point stress", p["S33m2"]),
                         ("S1 + $5k", p["S33m1"] + 5000)):
             res[name] = stats(p, A, base_gift)
