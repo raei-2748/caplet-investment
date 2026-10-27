@@ -7,7 +7,7 @@ decision, deadline or open item changes, and commit it with the related change. 
 Whoever is using Claude here, these rules apply, and the Keel Office (formerly the Caplet Research Office) is how competition work is done:
 - **THE BIBLE comes first: six books, all equal (Caplet's five, 23-26 Oct 2026, and Wharton's official email of 27 Oct), verbatim in `keel/BIBLE.md`** (north stars;
   refinements; Caplet XR and de-obsessions; rewrite from scratch and star 4; Caplet XR locked; plus the 26 Oct cover note; Book 6 = Wharton's halfway
-  email, "THIS IS BIBLE. OFFICIAL FILE", filed in `competition/official/2026_27/wharton_email_halfway_2026-10-27.md`).
+  email, "THIS IS BIBLE. OFFICIAL FILE", filed in `competition/official/2026_27/wharton_email_week5_2026-10.md`).
   Extraordinary above all; Ray's distinctive, deeply human voice; one subtle motif, Caplet XR (X = 10; R never
   "release"); breathtaking investing knowledge, applied; no hedging (iBonds held to liquidation are near-ironclad);
   judges are not mini-Lauras. **The IPS rewrite is slow and deep, never hasty**: near-final for review Sat 31 Oct,

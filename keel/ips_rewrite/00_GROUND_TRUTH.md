@@ -74,3 +74,9 @@ $300,000 buys all ten payments" is a one-close call, not a fact: echo only the I
 face value: say "IBTM sized to pay about $150k in 2032, quoted at $145k". Older 15 Oct figures: VT ~$32k in
 Jan 2028; range ~$145k-$168k; ~99% inside; coupon shortfall ~$21k if yields fall 2pt for good.
 New: `lab/R01_dedication.py` (this folder).
+
+## 6. Halfway-point newsletter (27 Oct; `competition/official/2026_27/wharton_email_week5_2026-10.md`)
+"Updated IPS instructions" are linked (Box) but could not be opened here: the form's fields and limits are
+UNVERIFIED until a student downloads them. Bans now read "Individual TIPS" / "Individual STRIPS". Official tips:
+"Let your investment strategy lead"; "Explain why each investment belongs in your strategy". All current holdings
+comply. Build the draft to the form once its fields are known.

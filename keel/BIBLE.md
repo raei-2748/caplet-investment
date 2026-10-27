@@ -238,7 +238,7 @@ man…") stay out of this repo, because the portal is public. Keel's notes on ho
 
 > Ray, 27 Oct, pasting it: **"Wharton newsletter - THIS IS BIBLE. OFFICIAL FILE."** The only book written by Wharton,
 > not by Caplet. Verbatim below (two Mimecast links shortened); the filed copy, with Sydney times and what is new
-> against the Week 4 email, is `../competition/official/2026_27/wharton_email_halfway_2026-10-27.md`.
+> against the Week 4 email, is `../competition/official/2026_27/wharton_email_week5_2026-10.md`.
 
 > Congratulations! You have reached the halfway point of the competition. Keep up the good work.
 >

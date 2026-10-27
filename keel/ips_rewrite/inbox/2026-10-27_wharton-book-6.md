@@ -1,6 +1,6 @@
 # For the rewrite: Wharton's halfway email is now Book 6 of the bible (Tue 27 Oct 2026)
 AI-generated (Claude Code, thread "Rebuild the Keel Office portal"). Not for submission. Full text and Sydney times:
-`../../../competition/official/2026_27/wharton_email_halfway_2026-10-27.md`; `../../BIBLE.md` Book 6 and rule 8.
+`../../../competition/official/2026_27/wharton_email_week5_2026-10.md`; `../../BIBLE.md` Book 6 and rule 8.
 
 Three things in it the rewrite should think about (no draft or date asked for):
 1. **Wharton's own test for the IPS:** "explain why each investment belongs in your strategy and how it supports
