@@ -473,3 +473,23 @@ What I take from it, in order of weight:
 6. **Voice:** qualitative, not counted. Ahaan's essays set the tone; the witty Wall Street writers sit beside them.
    `fingerprint.py` is retired as a gate. AI detection only via real web detectors, briefly, if at all.
 7. **AI-use logging stops**: Caplet will handle citations.
+
+## Wed 28 Oct, early: the Library's synergy wave (R11) lands, and the central idea sharpens
+Twenty-two concepts, seven fusions, four logic moves (`research/R11_synergies.md`; most new case figures are LISTED,
+not read, so verify before the Final Report). Into `IDEA_BANK.md` as rows 32-44, each with my critique. What it does to
+the spine:
+- **The central idea becomes "make each promise safe on or before its birthday" (S1), opened by the diagnosis (#3).**
+  It's the first idea that explains all three dates (2027 cheques, 2028 floor, 2031 top) with one principle, and it
+  turns the lock (which 9 of 12 rivals share) into the consequence of a framework (which none have). A price trigger
+  is a guess about markets; a birthday is a fact about the promise. The builder who buys the timber when the contract
+  is signed is the picture.
+- **"High certainty" becomes an inventory (S5):** the four ways fixed promises have failed, three shut by design, the
+  fourth (coupons at falling rates) measured and re-matched in 2033. The IPS names the mechanisms, not the stories.
+- **L1 is the best single sentence on offer:** for the cheques we don't diversify, on purpose, because a chain of ten
+  is only as certain as its links are correlated. It's true and it will make a judge stop.
+- **S3 + the newsvendor is the growth answer:** keep the seed, risk the harvest; and the harvest's top is set where its
+  two costs balance (~3:1, the donor study on the other side).
+My one correction to R11: L3's "one forecast in sixteen years" overclaims (coupon reinvestment is a second, smaller
+forecast). "One market forecast that matters" is true.
+Next: the synthesis (`01_SYNTHESIS.md`): central idea, the order of beats, which bank rows the IPS carries and which
+go to the Final Report, then a draft.
