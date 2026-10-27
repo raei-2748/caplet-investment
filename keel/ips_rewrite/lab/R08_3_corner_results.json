@@ -1,0 +1,189 @@
+{
+ "stamp": "curve 22 Oct 2026 | 200,000 paths, seed 20261016 | 1pp/yr parallel walk | MODEL; history FRED GS10 monthly 1953-2026",
+ "ladder_cost_1jan2027_no_move": 298861,
+ "map_unfunded_payments": {
+  "+1.00pp": {
+   "gap_at_build": 0,
+   "deposit_needed_k": 0.0,
+   "unfunded_by_deposit_k": {
+    "150": 0.0,
+    "125": 0.0,
+    "100": 0.0,
+    "75": 0.0,
+    "50": 0.0,
+    "25": 0.0,
+    "0": 0.0
+   }
+  },
+  "+0.50pp": {
+   "gap_at_build": 0,
+   "deposit_needed_k": 0.0,
+   "unfunded_by_deposit_k": {
+    "150": 0.0,
+    "125": 0.0,
+    "100": 0.0,
+    "75": 0.0,
+    "50": 0.0,
+    "25": 0.0,
+    "0": 0.0
+   }
+  },
+  "+0.00pp": {
+   "gap_at_build": 0,
+   "deposit_needed_k": 0.0,
+   "unfunded_by_deposit_k": {
+    "150": 0.0,
+    "125": 0.0,
+    "100": 0.0,
+    "75": 0.0,
+    "50": 0.0,
+    "25": 0.0,
+    "0": 0.0
+   }
+  },
+  "-0.25pp": {
+   "gap_at_build": 6375,
+   "deposit_needed_k": 6.4,
+   "unfunded_by_deposit_k": {
+    "150": 0.0,
+    "125": 0.0,
+    "100": 0.0,
+    "75": 0.0,
+    "50": 0.0,
+    "25": 0.0,
+    "0": 6.4
+   }
+  },
+  "-0.50pp": {
+   "gap_at_build": 14102,
+   "deposit_needed_k": 14.1,
+   "unfunded_by_deposit_k": {
+    "150": 0.0,
+    "125": 0.0,
+    "100": 0.0,
+    "75": 0.0,
+    "50": 0.0,
+    "25": 0.0,
+    "0": 14.1
+   }
+  },
+  "-1.00pp": {
+   "gap_at_build": 30223,
+   "deposit_needed_k": 30.2,
+   "unfunded_by_deposit_k": {
+    "150": 0.0,
+    "125": 0.0,
+    "100": 0.0,
+    "75": 0.0,
+    "50": 0.0,
+    "25": 5.2,
+    "0": 30.2
+   }
+  },
+  "-1.50pp": {
+   "gap_at_build": 47280,
+   "deposit_needed_k": 47.3,
+   "unfunded_by_deposit_k": {
+    "150": 0.0,
+    "125": 0.0,
+    "100": 0.0,
+    "75": 0.0,
+    "50": 0.0,
+    "25": 22.3,
+    "0": 47.3
+   }
+  },
+  "-2.00pp": {
+   "gap_at_build": 65335,
+   "deposit_needed_k": 65.3,
+   "unfunded_by_deposit_k": {
+    "150": 0.0,
+    "125": 0.0,
+    "100": 0.0,
+    "75": 0.0,
+    "50": 15.3,
+    "25": 40.3,
+    "0": 65.3
+   }
+  },
+  "-2.50pp": {
+   "gap_at_build": 84451,
+   "deposit_needed_k": 84.5,
+   "unfunded_by_deposit_k": {
+    "150": 0.0,
+    "125": 0.0,
+    "100": 0.0,
+    "75": 9.5,
+    "50": 34.5,
+    "25": 59.5,
+    "0": 84.5
+   }
+  },
+  "-3.00pp": {
+   "gap_at_build": 104698,
+   "deposit_needed_k": 104.7,
+   "unfunded_by_deposit_k": {
+    "150": 0.0,
+    "125": 0.0,
+    "100": 4.7,
+    "75": 29.7,
+    "50": 54.7,
+    "25": 79.7,
+    "0": 104.7
+   }
+  }
+ },
+ "fall_needed_to_exhaust_deposit": {
+  "$150k": "> 4pp",
+  "$125k": "3.48pp",
+  "$100k": "2.89pp",
+  "$75k": "2.26pp",
+  "$50k": "1.58pp",
+  "$25k": "0.84pp",
+  "$0k": "0.04pp"
+ },
+ "model_p_fall_before_build": {
+  "0.25pp": 0.29,
+  "0.5pp": 0.13,
+  "1.0pp": 0.012,
+  "1.5pp": 0.00033,
+  "2.0pp": 2.9e-06
+ },
+ "model_sd_pp_to_build": 0.441,
+ "history_gs10": {
+  "2_month": {
+   "windows": 880,
+   "worst_fall_pp": -2.57,
+   "worst_ending": "1980-05-01",
+   "p_fall_over_0.5pp": 0.0852,
+   "p_fall_over_1.0pp": 0.017,
+   "p_fall_over_1.5pp": 0.0068,
+   "p_fall_over_2.0pp": 0.0023
+  },
+  "3_month": {
+   "windows": 879,
+   "worst_fall_pp": -3.04,
+   "worst_ending": "1982-10-01",
+   "p_fall_over_0.5pp": 0.1308,
+   "p_fall_over_1.0pp": 0.0341,
+   "p_fall_over_1.5pp": 0.0114,
+   "p_fall_over_2.0pp": 0.0046
+  }
+ },
+ "mc_p_ladder_over_300k_at_build": 0.4656,
+ "mc_gap28_p50_p95_p99_max": [
+  0,
+  21367,
+  31239,
+  60124
+ ],
+ "mc_p_payments_unfunded_by_deposit": {
+  "$150k": 0.0,
+  "$125k": 0.0,
+  "$100k": 0.0,
+  "$75k": 0.0,
+  "$50k": 0.000185,
+  "$25k": 0.0289,
+  "$0k": 0.466
+ }
+}

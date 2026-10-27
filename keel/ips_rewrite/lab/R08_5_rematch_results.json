@@ -1,0 +1,348 @@
+{
+ "stamp": "STAMP: curve 22 Oct 2026 | JPM 2027 global equities 7.5% / 6.5% | 200,000 paths, seed 20261016 | rho 0 / 0.5 | MODEL",
+ "rho=0.0 mu=1.075": {
+  "today": {
+   "p_stock_sold_after_2033_for_payments": 0.3107,
+   "p_any_stock_sold_for_payments_2033_42": 0.4449,
+   "p_top_reached_within_1k": 0.7672,
+   "gift_p50_mean": [
+    165528,
+    163286
+   ]
+  },
+  "R0 projected gap": {
+   "p_set_aside": 0.4941,
+   "set_aside_p50_p95_when_any": [
+    9626,
+    25642
+   ],
+   "p_stock_sold_in_2033": 0.3354,
+   "stock_sold_p50_when_sold": 8027,
+   "p_top_reached_within_1k": 0.7672,
+   "p_gift_below_bottom": 0.0075,
+   "gift_p50_mean": [
+    165528,
+    163286
+   ],
+   "gift_cost_vs_today_mean": 0,
+   "p_payments_short_without_selling_stock_after_2033": 0.3107,
+   "median_short_when_short": 3567,
+   "p_short_even_selling_lauras_rest_by_2042": 0.0514,
+   "unused_set_aside_returned_mean": 367
+  },
+  "R+10k flat": {
+   "p_set_aside": 1.0,
+   "set_aside_p50_p95_when_any": [
+    10000,
+    32055
+   ],
+   "p_stock_sold_in_2033": 0.7471,
+   "stock_sold_p50_when_sold": 10000,
+   "p_top_reached_within_1k": 0.7067,
+   "p_gift_below_bottom": 0.0291,
+   "gift_p50_mean": [
+    165352,
+    162258
+   ],
+   "gift_cost_vs_today_mean": 1028,
+   "p_payments_short_without_selling_stock_after_2033": 0.0,
+   "median_short_when_short": 1044,
+   "p_short_even_selling_lauras_rest_by_2042": 0.0,
+   "unused_set_aside_returned_mean": 9187
+  },
+  "S1 one-point stress": {
+   "p_set_aside": 0.54,
+   "set_aside_p50_p95_when_any": [
+    10240,
+    26105
+   ],
+   "p_stock_sold_in_2033": 0.3713,
+   "stock_sold_p50_when_sold": 8455,
+   "p_top_reached_within_1k": 0.7618,
+   "p_gift_below_bottom": 0.0086,
+   "gift_p50_mean": [
+    165521,
+    163218
+   ],
+   "gift_cost_vs_today_mean": 68,
+   "p_payments_short_without_selling_stock_after_2033": 0.2354,
+   "median_short_when_short": 3030,
+   "p_short_even_selling_lauras_rest_by_2042": 0.0461,
+   "unused_set_aside_returned_mean": 714
+  },
+  "S2 two-point stress": {
+   "p_set_aside": 0.5844,
+   "set_aside_p50_p95_when_any": [
+    10840,
+    26254
+   ],
+   "p_stock_sold_in_2033": 0.4062,
+   "stock_sold_p50_when_sold": 8788,
+   "p_top_reached_within_1k": 0.7571,
+   "p_gift_below_bottom": 0.0095,
+   "gift_p50_mean": [
+    165517,
+    163163
+   ],
+   "gift_cost_vs_today_mean": 123,
+   "p_payments_short_without_selling_stock_after_2033": 0.1711,
+   "median_short_when_short": 2700,
+   "p_short_even_selling_lauras_rest_by_2042": 0.0416,
+   "unused_set_aside_returned_mean": 1191
+  },
+  "S1 + $5k": {
+   "p_set_aside": 1.0,
+   "set_aside_p50_p95_when_any": [
+    6494,
+    28100
+   ],
+   "p_stock_sold_in_2033": 0.6761,
+   "stock_sold_p50_when_sold": 6335,
+   "p_top_reached_within_1k": 0.7341,
+   "p_gift_below_bottom": 0.0178,
+   "gift_p50_mean": [
+    165453,
+    162765
+   ],
+   "gift_cost_vs_today_mean": 521,
+   "p_payments_short_without_selling_stock_after_2033": 0.0057,
+   "median_short_when_short": 1490,
+   "p_short_even_selling_lauras_rest_by_2042": 0.0003,
+   "unused_set_aside_returned_mean": 4973
+  },
+  "projection_error_2033 (true minus projected gap) p95/p99": [
+   5462,
+   7146
+  ]
+ },
+ "rho=0.5 mu=1.075": {
+  "today": {
+   "p_stock_sold_after_2033_for_payments": 0.3107,
+   "p_any_stock_sold_for_payments_2033_42": 0.4449,
+   "p_top_reached_within_1k": 0.7521,
+   "gift_p50_mean": [
+    165492,
+    163085
+   ]
+  },
+  "R0 projected gap": {
+   "p_set_aside": 0.4941,
+   "set_aside_p50_p95_when_any": [
+    9626,
+    25642
+   ],
+   "p_stock_sold_in_2033": 0.3354,
+   "stock_sold_p50_when_sold": 7843,
+   "p_top_reached_within_1k": 0.7521,
+   "p_gift_below_bottom": 0.0128,
+   "gift_p50_mean": [
+    165492,
+    163085
+   ],
+   "gift_cost_vs_today_mean": 0,
+   "p_payments_short_without_selling_stock_after_2033": 0.3107,
+   "median_short_when_short": 3567,
+   "p_short_even_selling_lauras_rest_by_2042": 0.0671,
+   "unused_set_aside_returned_mean": 367
+  },
+  "R+10k flat": {
+   "p_set_aside": 1.0,
+   "set_aside_p50_p95_when_any": [
+    10000,
+    32055
+   ],
+   "p_stock_sold_in_2033": 0.7471,
+   "stock_sold_p50_when_sold": 10000,
+   "p_top_reached_within_1k": 0.691,
+   "p_gift_below_bottom": 0.0425,
+   "gift_p50_mean": [
+    165354,
+    161851
+   ],
+   "gift_cost_vs_today_mean": 1234,
+   "p_payments_short_without_selling_stock_after_2033": 0.0,
+   "median_short_when_short": 1044,
+   "p_short_even_selling_lauras_rest_by_2042": 0.0,
+   "unused_set_aside_returned_mean": 9187
+  },
+  "S1 one-point stress": {
+   "p_set_aside": 0.54,
+   "set_aside_p50_p95_when_any": [
+    10240,
+    26105
+   ],
+   "p_stock_sold_in_2033": 0.3713,
+   "stock_sold_p50_when_sold": 8247,
+   "p_top_reached_within_1k": 0.7459,
+   "p_gift_below_bottom": 0.0141,
+   "gift_p50_mean": [
+    165485,
+    163004
+   ],
+   "gift_cost_vs_today_mean": 81,
+   "p_payments_short_without_selling_stock_after_2033": 0.2354,
+   "median_short_when_short": 3030,
+   "p_short_even_selling_lauras_rest_by_2042": 0.0608,
+   "unused_set_aside_returned_mean": 714
+  },
+  "S2 two-point stress": {
+   "p_set_aside": 0.5844,
+   "set_aside_p50_p95_when_any": [
+    10840,
+    26254
+   ],
+   "p_stock_sold_in_2033": 0.4062,
+   "stock_sold_p50_when_sold": 8578,
+   "p_top_reached_within_1k": 0.7404,
+   "p_gift_below_bottom": 0.0149,
+   "gift_p50_mean": [
+    165481,
+    162945
+   ],
+   "gift_cost_vs_today_mean": 141,
+   "p_payments_short_without_selling_stock_after_2033": 0.1711,
+   "median_short_when_short": 2700,
+   "p_short_even_selling_lauras_rest_by_2042": 0.0558,
+   "unused_set_aside_returned_mean": 1191
+  },
+  "S1 + $5k": {
+   "p_set_aside": 1.0,
+   "set_aside_p50_p95_when_any": [
+    6494,
+    28100
+   ],
+   "p_stock_sold_in_2033": 0.6761,
+   "stock_sold_p50_when_sold": 6306,
+   "p_top_reached_within_1k": 0.7169,
+   "p_gift_below_bottom": 0.0276,
+   "gift_p50_mean": [
+    165432,
+    162446
+   ],
+   "gift_cost_vs_today_mean": 639,
+   "p_payments_short_without_selling_stock_after_2033": 0.0057,
+   "median_short_when_short": 1490,
+   "p_short_even_selling_lauras_rest_by_2042": 0.0002,
+   "unused_set_aside_returned_mean": 4973
+  },
+  "projection_error_2033 (true minus projected gap) p95/p99": [
+   5462,
+   7146
+  ]
+ },
+ "rho=0.5 mu=1.065": {
+  "today": {
+   "p_stock_sold_after_2033_for_payments": 0.3107,
+   "p_any_stock_sold_for_payments_2033_42": 0.4449,
+   "p_top_reached_within_1k": 0.7292,
+   "gift_p50_mean": [
+    164928,
+    162412
+   ]
+  },
+  "R0 projected gap": {
+   "p_set_aside": 0.4941,
+   "set_aside_p50_p95_when_any": [
+    9626,
+    25642
+   ],
+   "p_stock_sold_in_2033": 0.3354,
+   "stock_sold_p50_when_sold": 7740,
+   "p_top_reached_within_1k": 0.7292,
+   "p_gift_below_bottom": 0.0143,
+   "gift_p50_mean": [
+    164928,
+    162412
+   ],
+   "gift_cost_vs_today_mean": 0,
+   "p_payments_short_without_selling_stock_after_2033": 0.3107,
+   "median_short_when_short": 3567,
+   "p_short_even_selling_lauras_rest_by_2042": 0.072,
+   "unused_set_aside_returned_mean": 367
+  },
+  "R+10k flat": {
+   "p_set_aside": 1.0,
+   "set_aside_p50_p95_when_any": [
+    10000,
+    32055
+   ],
+   "p_stock_sold_in_2033": 0.7471,
+   "stock_sold_p50_when_sold": 10000,
+   "p_top_reached_within_1k": 0.6666,
+   "p_gift_below_bottom": 0.0472,
+   "gift_p50_mean": [
+    164750,
+    161094
+   ],
+   "gift_cost_vs_today_mean": 1318,
+   "p_payments_short_without_selling_stock_after_2033": 0.0,
+   "median_short_when_short": 1044,
+   "p_short_even_selling_lauras_rest_by_2042": 0.0,
+   "unused_set_aside_returned_mean": 9187
+  },
+  "S1 one-point stress": {
+   "p_set_aside": 0.54,
+   "set_aside_p50_p95_when_any": [
+    10240,
+    26105
+   ],
+   "p_stock_sold_in_2033": 0.3713,
+   "stock_sold_p50_when_sold": 8116,
+   "p_top_reached_within_1k": 0.7225,
+   "p_gift_below_bottom": 0.016,
+   "gift_p50_mean": [
+    164923,
+    162322
+   ],
+   "gift_cost_vs_today_mean": 90,
+   "p_payments_short_without_selling_stock_after_2033": 0.2354,
+   "median_short_when_short": 3030,
+   "p_short_even_selling_lauras_rest_by_2042": 0.0651,
+   "unused_set_aside_returned_mean": 714
+  },
+  "S2 two-point stress": {
+   "p_set_aside": 0.5844,
+   "set_aside_p50_p95_when_any": [
+    10840,
+    26254
+   ],
+   "p_stock_sold_in_2033": 0.4062,
+   "stock_sold_p50_when_sold": 8442,
+   "p_top_reached_within_1k": 0.7169,
+   "p_gift_below_bottom": 0.0169,
+   "gift_p50_mean": [
+    164916,
+    162256
+   ],
+   "gift_cost_vs_today_mean": 156,
+   "p_payments_short_without_selling_stock_after_2033": 0.1711,
+   "median_short_when_short": 2700,
+   "p_short_even_selling_lauras_rest_by_2042": 0.0591,
+   "unused_set_aside_returned_mean": 1191
+  },
+  "S1 + $5k": {
+   "p_set_aside": 1.0,
+   "set_aside_p50_p95_when_any": [
+    6494,
+    28100
+   ],
+   "p_stock_sold_in_2033": 0.6761,
+   "stock_sold_p50_when_sold": 6252,
+   "p_top_reached_within_1k": 0.6929,
+   "p_gift_below_bottom": 0.0308,
+   "gift_p50_mean": [
+    164861,
+    161725
+   ],
+   "gift_cost_vs_today_mean": 687,
+   "p_payments_short_without_selling_stock_after_2033": 0.0057,
+   "median_short_when_short": 1490,
+   "p_short_even_selling_lauras_rest_by_2042": 0.0003,
+   "unused_set_aside_returned_mean": 4973
+  },
+  "projection_error_2033 (true minus projected gap) p95/p99": [
+   5462,
+   7146
+  ]
+ }
+}
