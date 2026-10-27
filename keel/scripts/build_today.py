@@ -68,6 +68,39 @@ def todos(folder, fallback_day):
     return out
 
 
+def write_transcript(folder, h):
+    """transcript.md is derived: the question, then every post in round order, then the close. Never edit it by hand;
+    edit the posts (or chair.md, the chair's own notes between rounds, headed '## Round N')."""
+    order = {m.lower(): i for i, m in enumerate(h.get("members", []))}
+    chair = {}
+    if (folder / "chair.md").exists():
+        parts = re.split(r"(?m)^## Round (\d+)[^\n]*\n", (folder / "chair.md").read_text(encoding="utf-8"))
+        chair = {int(parts[i]): parts[i + 1].strip() for i in range(1, len(parts) - 1, 2)}
+    L = [f"# FICTION. {h['id']} {h['title']}: the conversation", "",
+         f"> Built from the posts by `keel/scripts/build_today.py`. Keel is a simulated team, AI-written; each member "
+         f"was played by its own agent, reading the others' posts. Brief: [BRIEF.md](BRIEF.md).", "",
+         f"**The question.** {h['question']}", ""]
+    if h.get("essence"):
+        L += ["**The essence.** " + " ".join(h["essence"]), ""]
+    for r in h.get("rounds", []):
+        n = r["n"]
+        L += [f"## Round {n}: {r.get('name', '')} ({r.get('date', '')})", ""]
+        if chair.get(n):
+            L += [chair[n], ""]
+        posts = sorted(folder.glob(f"posts/r{n}_*.md"), key=lambda p: order.get(p.stem.split("_", 1)[1], 99))
+        for p in posts:
+            L += [p.read_text(encoding="utf-8").strip(), ""]
+            name = p.stem.split("_", 1)[1]
+            notes = sorted(folder.glob(f"research/{name}{'' if n == 1 else f'_r{n}'}.md"))
+            if notes:
+                L += [f"*{name.title()}'s research: [{notes[0].name}](research/{notes[0].name})*", ""]
+    if h.get("decided"):
+        L += ["## What we decided", ""] + [f"- {d}" for d in h["decided"]] + [""]
+    if h.get("seeds"):
+        L += ["## Still open (seeds for the next huddle)", ""] + [f"- {d}" for d in h["seeds"]] + [""]
+    (folder / "transcript.md").write_text("\n".join(L).rstrip() + "\n", encoding="utf-8")
+
+
 def load_huddles(check=False):
     hs, problems = [], []
     for folder in sorted(p for p in HUDDLES.glob("20*_*") if p.is_dir()):
@@ -80,6 +113,8 @@ def load_huddles(check=False):
             if key not in h:
                 problems.append(f"{rel(meta)}: missing '{key}'")
         h["path"] = rel(folder)
+        if not check:
+            write_transcript(folder, h)
         h["transcript"] = rel(folder / "transcript.md") if (folder / "transcript.md").exists() else None
         h["research_notes"] = [{"path": rel(p), "title": title_of(p), "member": p.stem.split("_")[0].title()}
                                for p in sorted((folder / "research").glob("*.md"))]

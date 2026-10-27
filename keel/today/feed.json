@@ -1,0 +1,153 @@
+{
+ "built": "2026-10-27T08:51",
+ "days": [
+  {
+   "date": "2026-10-27",
+   "weekday": "Tue",
+   "essence": [],
+   "huddles": [
+    {
+     "id": "H-001",
+     "title": "Steal like a Year 11",
+     "question": "Which habits from real companies, offices and startups should Keel steal, and what do they look like for six Year 11s with school, jobs, sport and families?",
+     "status": "open",
+     "room": "Long Room",
+     "chair": "Nora",
+     "members": [
+      "Nora",
+      "Felix",
+      "Jun",
+      "Kai",
+      "Amara",
+      "Tess"
+     ],
+     "essence": [],
+     "decided": [],
+     "seeds": [],
+     "todos": {
+      "done": 0,
+      "total": 0
+     },
+     "path": "keel/huddles/2026-10-27_steal-like-a-year-11",
+     "transcript": "keel/huddles/2026-10-27_steal-like-a-year-11/transcript.md",
+     "changes": [],
+     "rounds": 3,
+     "rounds_today": 3
+    }
+   ],
+   "research": [
+    {
+     "path": "keel/huddles/2026-10-27_steal-like-a-year-11/research/amara.md",
+     "title": "Research note: Amara on IDEO, improv and Patagonia (H-001, round 1)",
+     "member": "Amara",
+     "huddle": "H-001"
+    },
+    {
+     "path": "keel/huddles/2026-10-27_steal-like-a-year-11/research/felix.md",
+     "title": "Research note: Felix on GitLab and Bridgewater (H-001, round 1)",
+     "member": "Felix",
+     "huddle": "H-001"
+    },
+    {
+     "path": "keel/huddles/2026-10-27_steal-like-a-year-11/research/jun.md",
+     "title": "Research note: Jun on Toyota and Project Aristotle (H-001, round 1)",
+     "member": "Jun",
+     "huddle": "H-001"
+    },
+    {
+     "path": "keel/huddles/2026-10-27_steal-like-a-year-11/research/kai.md",
+     "title": "Research note: Kai on Pixar and Netflix (H-001, round 1)",
+     "member": "Kai",
+     "huddle": "H-001"
+    },
+    {
+     "path": "keel/huddles/2026-10-27_steal-like-a-year-11/research/nora.md",
+     "title": "Research note: Nora on Valve and Shape Up (H-001, round 1)",
+     "member": "Nora",
+     "huddle": "H-001"
+    },
+    {
+     "path": "keel/huddles/2026-10-27_steal-like-a-year-11/research/tess.md",
+     "title": "Research note: Tess on Amazon and Stripe (H-001, round 1)",
+     "member": "Tess",
+     "huddle": "H-001"
+    }
+   ],
+   "done": [],
+   "open": [],
+   "runs": [
+    {
+     "day": "2026-10-27",
+     "when": "Tue 27 Oct 20:10",
+     "room": "Archive",
+     "what": "A19 NEW would-contradict: Laura's stock half as payment backstop vs TNA reflection 3 (L-10: used in 33% of MODEL paths); cure = Jan 2033 T-bill set-aside, D4 one clause; A20/A21 conditional, A12/A17 closed; L-10 onto the day branch; 5 ledger rows; Final Report bank opened"
+    },
+    {
+     "day": "2026-10-27",
+     "when": "Tue 27 Oct 18:45",
+     "room": "Courtroom",
+     "what": "LR-04 on trial (C-02): AMENDED, the rule stands; the IPS states the 2031 bottom as a rule, never $145k (below it in 43.5% of paths before any mark); clearing-house parallel exact in logic"
+    },
+    {
+     "day": "2026-10-27",
+     "when": "Tue 27 Oct 17:10",
+     "room": "Writing Room",
+     "what": "P06: six spine lines x 3 in Ray's moves, read blind by 3 cold judges; B (\"do not crush\") beats A; kickers in 3 places only; textcheck/portal now quote the larger count (D4 = 498)"
+    },
+    {
+     "day": "2026-10-27",
+     "when": "Tue 27 Oct 15:40",
+     "room": "Laura's Room",
+     "what": "WO-R7 + Window request: LR-03 corrected; co-sponsors read the bottom as bookable, the top as an intention; a fixed margin is a bad trade, mark the bottom to market in 2031 (0 of 200,000 breaks; 7 in the joint recession shock; MODEL); Keel's call replaces D1b's margin"
+    },
+    {
+     "day": "2026-10-27",
+     "when": "Tue 27 Oct 13:40",
+     "room": "Genius Lab",
+     "what": "L-10 last in line: payments are the weakest promise (short after 2033 in 6.8-8.4% of MODEL paths); 2033 coverage test cuts it to 0.01%; nine 'as needs change' stresses; 5 requests closed, 2 filed"
+    },
+    {
+     "day": "2026-10-27",
+     "when": "Tue 27 Oct 12:55",
+     "room": "Library",
+     "what": "S-05 \"sum certain\" + the IRS 5% exhaustion test as the certainty yardstick; LC-03 dose dumping, zero order, MDT verified; C-01 Yale 80/20 + Tobin; 7 sources to R02"
+    },
+    {
+     "day": "2026-10-27",
+     "when": "Tue 27 Oct 10:45",
+     "room": "Trading Desk (markets and rules check)",
+     "what": "No breach; near-breaches: trading-activity rule undefined (ask by Wed 28 Oct), AI_USE.md s1 contradicts practice; D4 \"ten Treasuries, each redeemed\" untrue for the iBond funds; no curve after 22 Oct (treasury.gov blocked)"
+    },
+    {
+     "day": "2026-10-27",
+     "when": "Tue 27 Oct 09:40",
+     "room": "Window",
+     "what": "~137 claims checked; six false facts marked in place (7.5% edition, donor study read backwards, M² ranking, Redington, Contac 1960, \"guaranteed by design\"); D4 clean"
+    },
+    {
+     "day": "2026-10-27",
+     "when": "Tue 27 Oct 07:40",
+     "room": "Noticeboard (daily loop)",
+     "what": "7.5% is world stocks, not EAFE: `../office/outbox/2026-10-27_noticeboard_7-5-is-world-stocks.md`; board groomed; brief; ep 31"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "weekday": "Mon",
+   "essence": [],
+   "huddles": [],
+   "research": [],
+   "done": [],
+   "open": [],
+   "runs": [
+    {
+     "day": "2026-10-26",
+     "when": "Mon 26 Oct 21:40",
+     "room": "Claude (Ray's thread, not a room)",
+     "what": "Instruction audit `../INSTRUCTIONS.md`; runbooks rewritten; projects; Keel Office dashboard; all Keel PRs merged"
+    }
+   ]
+  }
+ ]
+}

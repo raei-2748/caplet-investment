@@ -120,7 +120,7 @@ what I could check.
 - *Then:* Kai attacks the top line (5 min). The owner decides and writes one line of why in the log.
 
 **For the work.** Before Sat 31 Oct, one IPS line (the pin-up line, or the shortfall-timing sentence) goes through this
-once. If the top-scored line is not the one any single person starred, that is the compounding Ray asked for, and
+once. If the top-scored line is not the one any single person starred, that is the compounding Caplet asked for, and
 it is a true story for the Final Report's Articulation section.
 
 ## Leads not read (fetch budget ran out)
