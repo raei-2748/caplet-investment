@@ -421,3 +421,35 @@ with the 2033 cushion (2.2-3.6% of paths below the bottom combined) and draw the
 Laura's half first.
 **WO-R9 audit applied to `BIBLE_TRACE.md`:** now seven books (G1-G10 for Wharton's two), B7 and E3 down to PART,
 C2/C3 rewritten for the lock and the corrected failure map, four new pulls.
+
+**WO-R10, the Courtroom's condition: lock + 2033 cushion (`lab/R10_lock_cushion.py`, MODEL, 22 Oct curve).** R08_2's E
+already drew the cushion from cash and Laura's half first; it failed because when Laura's side ran dry the $7,500
+came out of the gift, even below the bottom (97.8% inside). Three orders tried, all with the lock:
+
+| Rule | Inside the range | Top reached | Payments >$1k short, 2033-42 | Worst shortfall |
+|---|---|---|---|---|
+| E: cushion from anyone, bottom included | 97.8% (96.4% stress) | 87% | 0.15% | $3.5k |
+| F: cushion only from Laura's side | 99.25% (98.6%) | 93% | 6.7% (8.6%) | $8.8k |
+| **G: cash, Laura's half, then the gift down to the bottom, never below** | **99.25% (98.6%)** | **87% (84%)** | **1.1% (1.8%)** | **$6.8k** |
+
+G is the rule. It costs no confidence (same 99.25% as the lock alone) and buys most of the cushion's protection; the
+remaining misses are a few thousand dollars over ten years of $50,000 cheques. The stress row is rho 0.5 and 6.5%
+stocks. (B's "31% short" in the JSON is not a miss: without a set-aside the gap is drawn from Laura's stocks as it
+appears, which the metric can't see.) What it gives the IPS is a rule, not a number, the Book 7 way: **"Every dollar
+above the bottom serves the cheques first; the bottom itself serves only the gift."** Top-reached drops from 93% to
+87%, so the Final Report says "about nine in ten" only for the lock alone and "more than four in five" with the
+cushion. The condition is met; the lock goes into Thursday's synthesis as the central idea.
+
+**Rival scan lands (coordinator, from "Out-think every rival team for semis", 28 Oct): the lock is the crowd's default.**
+Nine of twelve fresh-AI rivals move stocks into Treasuries around the 2031 announcement; one even uses the Courtroom's
+"a date triggers it, not a price" defence. So the lock can't be the aha. It stays as a rule (G8 says every future action
+goes in the IPS) and the central idea moves upstream to what nobody else wrote:
+- **The diagnosis:** after 2031 the cap leaves the contribution with every fall and Laura with every rise. Rivals lock
+  out of caution; we lock because we found the asymmetry.
+- **The order:** the floor is bought in 2028, three years before Laura names it. "No number Laura names rests on a share
+  price" survives, but as a consequence, not the headline.
+- **Protect** the lines blind judges ranked V25 first of 13 for (85/85/84 vs 72): human capital, sequence risk
+  (fixed dollars vs fixed percent), the break point, and the two-cost range. Zero of 36 rivals have human capital or a
+  two-cost range, so the newsvendor comes back as a named idea in the IPS (one clause), not only as the lock's test.
+This reverses half of this morning's Courtroom ruling (newsvendor "retired as the spine"). It's Keel's call, logged:
+evidence about the field beats a ruling made without it.
