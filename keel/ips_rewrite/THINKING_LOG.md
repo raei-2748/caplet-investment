@@ -308,3 +308,31 @@ first; floor and stocks shrink in proportion). Tomorrow (Wed): voice. Study Ray'
 essays again against this content: what would Ray actually say, where would he joke, which sentence would he refuse
 to write? Also the R decision, the second meaning of XR, and a fresh look for anything the spine leaves out
 (north star 4: concepts that are applied but not yet placed).
+
+**Courtroom (PR #49, via the coordinator): don't print "$145k" as the floor.** On the model, the floor ends up
+below $145k in 43.5% of futures, because the 2028 deposit tops up the ladder first (the ladder costs more than
+$300k in ~47% of rate paths). That fits the day-2 table: the floor is whatever the 2028 deposit has left after
+completing the payments. It's known exactly in January 2028, three years before Laura names the range. So the IPS
+states the bottom as a rule, not a number: "what the 2028 deposit leaves after the payments, rounded down". The
+2031 range is a number, but Laura names it in 2031, not us in 2026. This also tidies the newsvendor story: the
+bottom's fractile is near 100% because by 2031 it is already bought and known.
+
+**Archive (via the coordinator): a clash with the locked TNA.** Reflection 3 calls VT "the only investment not
+standing between Laura and a payment deadline". But "cover a coupon gap from Laura's half first" means selling
+stocks to meet a payment, which happens in about a third of model paths (some gap, mostly small). Proposed fix,
+with no trades now: in January 2033, when the reserve is set aside, any projected gap plus a cushion for the
+coupons still to be reinvested moves into T-bills alongside the ladder, before the gift is paid. My view: right, and
+it's better than a patch. It makes January 2033 a single, scheduled re-matching (the case's own moment: "at the
+beginning of 2033 ... set aside a portion of the portfolio"), after which no share is ever sold to meet a deadline.
+VT then stands between Laura and the gift's size, never between her and a payment date, so the TNA line holds.
+It also answers the case's "how its composition should change, if at all": once, on a known date, and then not at
+all. For Thursday: check against R05's wrong-way result (the gap is biggest when stocks are low, so the 2033 move
+is a forced-ish sale in bad years; it's small, ~$7k mean when it bites, and quoted under the floor's margin).
+
+## Tue 27 Oct, evening: Ray's note (the account is shared by Ray and Ahaan)
+Ray says the long "bible" messages are Ahaan's, and they were being stored, not digested. Prose is paused until a
+new voice thread produces a voice guide. Ray also wants more initiative and original ideas from the Lab. Done:
+`BIBLE_TRACE.md` breaks the five books into 41 single expectations, each with a test, where it stands now and what's
+open (8 met, 14 partly, 9 open, 9 ways of working, 1 on track). Work pushed to the office: WO-R8 (the Genius Lab must bring 5
+original, model-tested strategy ideas) and WO-R9 (the Courtroom audits the trace). The Wed plan drops the voice
+study (now the voice thread's job) and keeps strategy: the R, the 2033 re-match, the north-star-4 placement.

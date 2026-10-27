@@ -1,6 +1,6 @@
 # Runbooks: how each Keel room works (Keel may edit these)
 
-> **Read `../../BIBLE.md` first: Caplet's five books, all equal (23-26 Oct 2026).** They beat every rule on this page.
+> **Read `../../BIBLE.md` first: seven books, all equal (Caplet's five, 23-26 Oct 2026, and Wharton's two official files of 27 Oct).** They beat every rule on this page.
 > Extraordinary above all; a distinctive, deeply human voice (Ahaan's, never AI's); one subtle motif, Caplet XR (extended
 > release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
 > IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
@@ -24,13 +24,23 @@ to rewrite a prompt. Caplet's standing instructions (`../../INSTRUCTIONS.md`) be
    copy files across from old branches.
 2. **Read, in this order:** `keel/pm/INVARIANTS.md` (hard rules), **`keel/BIBLE.md` (Ray's 26 Oct message: top
    priority, beats everything below it)**, `keel/INSTRUCTIONS.md` (Caplet's standing
-   instructions: every row applies to every run), `keel/pm/SELF_DIRECTION.md`, your runbook, your room file's
+   instructions: every row applies to every run), `keel/pm/SELF_DIRECTION.md`, your runbook, **today's round file
+   `keel/loop/rounds/YYYY-MM-DD.md`** (and yesterday's last two sections), your room file's
    `## Now` block, then only what changed since your room last wrote (`git log`), your open requests in
    `keel/pm/REQUESTS.md`, and `keel/ips_rewrite/WORK_ORDERS.md`. Tokens: `keel/TOKEN_RULES.md`.
-3. **Pick the work yourself, in this order:** (a) your room's top open order in `keel/ips_rewrite/WORK_ORDERS.md`;
-   (b) an open request to your room; (c) the next step of a project your room owns in `keel/pm/PROJECTS.md`;
-   (d) your room's own best idea. Before starting, answer in one line: which north star (all four equal) and which
-   Wharton criterion does this raise, and what line of the IPS or the Final Report could change? If nothing, pick again.
+3. **Play your beat in today's round** (from Wed 28 Oct 2026; Ray, 27 Oct: "every round, but loop is never
+   repetitive"). Keel works as one research loop, Out and Back (`keel/loop/README.md`): each Sydney day is one
+   round in `keel/loop/rounds/YYYY-MM-DD.md`, and each scheduled run is one beat of it (gather, gate, go out, come
+   back, work, flaw-fix-judge-discuss, record, reflect and send off). Read the round so far, do **your room's beat**
+   (the "Beat in the loop" section of your runbook), and add your section to the round file. Nora folds open work
+   orders (`keel/ips_rewrite/WORK_ORDERS.md`), requests to your room and project steps into the round at 07:00; any
+   that isn't folded in, do after your beat, in this order: work order, request, project step, your own best idea.
+   If today's round file doesn't exist by your run (the 07:00 run missed), open it yourself from
+   `keel/loop/rounds/TEMPLATE.md` and `keel/loop/FRONTIER.md` section 4, and say so in the gather section.
+   **Never repeat yourself:** before starting, read your room's last three `keel/pm/RUNLOG.md` rows; if today's output
+   would be the same kind of thing on the same ground, change the ground (a new field from `keel/loop/TERRITORY.md`, a
+   new lens, a harder test). Then answer in one line: which north star (all four equal) and which Wharton criterion
+   does this raise, and what line of the IPS or the Final Report could change? If nothing, pick again.
 4. **Never wait for a human: make the call** (Ray, 26 Oct: "just make your own call whichever you think work the best").
    Pick the option Keel judges best, add it to `keel/pm/ASK_HUMANS.md` as `Keel's call` with a one-line reason, and act
    on it now. Only a **danger-zone** decision waits (a WInS order, submitting, Caplet's Google Docs, money, accounts,
@@ -60,5 +70,20 @@ to rewrite a prompt. Caplet's standing instructions (`../../INSTRUCTIONS.md`) be
 9. **One line in the thread**, then resolve it: what changed for the judges (or "no draft change; did X") and the
    portal link to the page that shows it (https://raei-2748.github.io/caplet-investment/#/...). No checklists or long reports; the daily loop's
    morning brief is the one long message each day.
+
+## The loop's beats, by room (detail: each runbook's "Beat in the loop"; method: `keel/loop/README.md`)
+| Time (Sydney) | Room | Beat |
+|---|---|---|
+| 07:00 | Noticeboard (daily loop) | 1 Gather: question, champion to beat, lens, scouts, difference test |
+| 08:40 | Window | 2 Gate: truth-check yesterday's finds; one primary-source find |
+| 10:30 Tue-Sat | Trading Desk | 3 Markets: its check, plus a line only if it bears on the question |
+| 12:10 | Library | 4 Go out: three scouts, near / adjacent / far |
+| 13:40 | Genius Lab | 5 Come back: pair finds with the question; three challengers; test the strongest |
+| 15:10 | Laura's Room | 6 Work: the co-sponsor's, judge's and practitioner's angle |
+| 16:20 | Writing Room | 7 Work: each challenger as a claim set beside the champion |
+| 18:20 | Courtroom (odd dates) / Long Room (even dates) | 8 Flaw hunt, repair, head-to-head judging, discussion, Keel vote |
+| 19:10 | Archive | 9 Record: territory, champions, frontier, health; inbox; merge |
+| 20:20 | Kitchen (odd dates) / Rooftop (even dates) | 10 Reflect (a lesson) and send off (tomorrow's scouting orders) |
+| Sun 17:00 | Weekly plan | Loop on the loop: health review, at most 3 changes |
 
 Shared rules every run follows: `../SELF_DIRECTION.md`, `../../TOKEN_RULES.md`, `../../VOICE.md`, `../../NORTH_STARS.md`.

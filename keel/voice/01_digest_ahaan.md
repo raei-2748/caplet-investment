@@ -20,6 +20,9 @@ are untouched). Ray's voice still counts: he wrote TNA reflection 3 ("VT is wher
 this reading is wrong, one line from either student reverses it.
 
 ## 2. Ahaan's asks, split and graded
+The rewrite thread's `../ips_rewrite/BIBLE_TRACE.md` (27 Oct) splits all five books into 41 checkable expectations
+for the IPS. This table is the voice view of the same books: what Keel's *writing* did with each ask.
+
 Grades are about what the drafts show, not what the rules say. Sources: Books 1-5 and the cover note in `../BIBLE.md`.
 
 | # | What he asked (his words, short) | What Keel did | Honest grade | What changes now |

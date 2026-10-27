@@ -1,6 +1,6 @@
 # Runbook: The Window
 
-> **Read `../../BIBLE.md` first: Caplet's five books, all equal (23-26 Oct 2026).** They beat every rule on this page.
+> **Read `../../BIBLE.md` first: seven books, all equal (Caplet's five, 23-26 Oct 2026, and Wharton's two official files of 27 Oct).** They beat every rule on this page.
 > Extraordinary above all; a distinctive, deeply human voice (Ahaan's, never AI's); one subtle motif, Caplet XR (extended
 > release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
 > IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
@@ -17,6 +17,13 @@ file and date, and on the dashboard; a row breached twice gets its runbook rule 
 Caplet must do and by when. (3) Fact-check every headline number and rule claim added since the last run against its
 primary source (URL or file + date). (4) AI DRAFT and simulated labels. (5) Check new `../SELF_CHANGES.md` entries
 against `../INVARIANTS.md`; revert any that breaks it.
+
+## Beat in the loop (from Wed 28 Oct 2026; method: `../../loop/README.md`)
+**Beat 2, Gate (08:40).** Yesterday's finds come first: check each against its source (the URL loads, the
+quote is there, the "so" follows from it) and mark it verified, UNVERIFIED or false in yesterday's round file, section
+2 of today's. Only verified finds can be built on today. Then one primary-source find of Felix's own for today's
+question (official, regulatory or original documents), in the scouts' format. The rest of the sweep below follows,
+shorter, on what changed since yesterday.
 
 ## Files
 `../../rooms/window.md`, `../../office/CHARTER.md`, `competition/`
@@ -40,3 +47,4 @@ log, push, refresh the dashboard, one line in the thread. This page only adds th
 | Sun 25 Oct 2026 | Runbook created from the scheduled-task prompt of 24 Oct | Prompts become 4-line pointers; Keel can now edit how it works |
 | Mon 26 Oct 2026 | Shared steps moved to `README.md`; job and rules brought in line with `../../INSTRUCTIONS.md` (Claude, at Ray's request) | Ray, 26 Oct: Keel was not applying his 24-26 Oct instructions |
 | Tue 27 Oct 2026 | Room rule: read each conclusion beside its source | 3 of 6 false facts on 27 Oct sat in conclusions under exact quotes (`../../office/outbox/2026-10-27_window_7-5-and-three-checks.md`) |
+| Tue 27 Oct 2026 | "Beat in the loop" added: this room's beat in the daily research round (`../../loop/README.md`) (Claude, at Ray's request; not a Keel self-change) | Ray, 27 Oct: scheduled tasks "should not be repetitive"; every round must differ and scout widely |

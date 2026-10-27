@@ -69,7 +69,7 @@ ROOM_WORDS = [
 ]
 DEADLINES = [
     ("IPS due, trading locks", "2026-11-07T09:00:00+11:00", "Fri 6 Nov 5 pm ET"),
-    ("Final Report instructions", "2026-11-10T09:00:00+11:00", "Mon 9 Nov 5 pm ET"),
+    ("Final Report instructions", "2026-11-10T01:00:00+11:00", "Mon 9 Nov 9 am ET"),
     ("Final Report due", "2026-12-05T09:00:00+11:00", "Fri 4 Dec 5 pm ET"),
 ]
 SKIP_DOCS = ("keel/library/assistant_review_2026-10/temporary_deposit/",)
@@ -356,7 +356,7 @@ def bible():
     return {"rules": rules, "takes": takes, "books": books, "doc": "keel/BIBLE.md", "takes_doc": "keel/BIBLE_TAKES.md",
             "quote": "This is supposed to be a long process because it should take an extraordinary amount of thinking and "
                      "ideation and research and analysis and so on. ... THINK. That's your job.",
-            "said": "Caplet, Mon 26 Oct 2026, cover note to the five books (all equal)"}
+            "said": "Caplet, Mon 26 Oct 2026, cover note to the books (all equal)"}
 
 
 # ---------- assemble ----------

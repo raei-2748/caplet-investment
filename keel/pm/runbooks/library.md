@@ -1,6 +1,6 @@
 # Runbook: The Library
 
-> **Read `../../BIBLE.md` first: Caplet's five books, all equal (23-26 Oct 2026).** They beat every rule on this page.
+> **Read `../../BIBLE.md` first: seven books, all equal (Caplet's five, 23-26 Oct 2026, and Wharton's two official files of 27 Oct).** They beat every rule on this page.
 > Extraordinary above all; a distinctive, deeply human voice (Ahaan's, never AI's); one subtle motif, Caplet XR (extended
 > release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
 > IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
@@ -17,6 +17,15 @@ welcome) and writes for each: the idea in two plain sentences; what it changes, 
 author, URL, access date, never invented). Verified sources go on the Final Report reading list. When a picture or
 analogy is wanted, write a reading slip in the room file's format with Felix's test of where it breaks (ideation
 ladder Haiku 5.5 -> Sonnet 5.5 -> Opus 5.5).
+
+## Beat in the loop (from Wed 28 Oct 2026; method: `../../loop/README.md`)
+**Beat 4, Go out (12:10): the expedition.** Run the three scouts Nora named, each to their field and
+through their door (`../../loop/README.md`, "How the members go out"), on the model rung the round assigns. Read widely
+inside the field before narrowing: search, fetch, read the page, follow one reference further than feels necessary.
+Each scout brings back 2-3 finds in the round file's format: source (title, author, URL, accessed date), a quoted line,
+the mechanism in two plain sentences, what it could touch in Laura's plan, and where it breaks. A find with no fetched
+page is marked UNVERIFIED. Scouts don't judge their own finds; the Lab decides what to build. Then the concept work
+below continues only if the round left it room (two concepts at most, and only ones that touch today's question).
 
 ## Files
 `../../rooms/library.md`, method `../../office/IDEATION.md`
@@ -36,3 +45,4 @@ log, push, refresh the dashboard, one line in the thread. This page only adds th
 |---|---|---|
 | Sun 25 Oct 2026 | Runbook created from the scheduled-task prompt of 24 Oct | Prompts become 4-line pointers; Keel can now edit how it works |
 | Mon 26 Oct 2026 | Shared steps moved to `README.md`; job and rules brought in line with `../../INSTRUCTIONS.md` (Claude, at Ray's request) | Ray, 26 Oct: Keel was not applying his 24-26 Oct instructions |
+| Tue 27 Oct 2026 | "Beat in the loop" added: this room's beat in the daily research round (`../../loop/README.md`) (Claude, at Ray's request; not a Keel self-change) | Ray, 27 Oct: scheduled tasks "should not be repetitive"; every round must differ and scout widely |
