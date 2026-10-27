@@ -18,6 +18,12 @@ confidence, contribution, flexibility, assumptions) answered as well as a top te
 what is missing or weaker than it could be, and the exact sentence that would fix it. Co-sponsor economics (why a
 pledge signals, what a range must protect) stays here, built on real evidence.
 
+## Beat in the loop (from Wed 28 Oct 2026; method: `../../loop/README.md`)
+**Beat 6, Work: the second angle (15:10).** Take the Lab's challengers and read each three ways: as a
+co-sponsor deciding whether to give, as a competition judge with the case open, and as the practitioner from the field
+the find came from (in their own published words, as STORM does: what would they ask?). Kill, sharpen or pass each
+one, with the case line it rests on. The case-requirement check below runs on whatever survives.
+
 ## Files
 `../../rooms/lauras_room.md`
 
@@ -36,3 +42,4 @@ log, push, refresh the dashboard, one line in the thread. This page only adds th
 |---|---|---|
 | Sun 25 Oct 2026 | Runbook created from the scheduled-task prompt of 24 Oct | Prompts become 4-line pointers; Keel can now edit how it works |
 | Mon 26 Oct 2026 | Shared steps moved to `README.md`; job and rules brought in line with `../../INSTRUCTIONS.md` (Claude, at Ray's request) | Ray, 26 Oct: Keel was not applying his 24-26 Oct instructions |
+| Tue 27 Oct 2026 | "Beat in the loop" added: this room's beat in the daily research round (`../../loop/README.md`) (Claude, at Ray's request; not a Keel self-change) | Ray, 27 Oct: scheduled tasks "should not be repetitive"; every round must differ and scout widely |

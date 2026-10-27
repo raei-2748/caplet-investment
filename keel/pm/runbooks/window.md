@@ -18,6 +18,13 @@ Caplet must do and by when. (3) Fact-check every headline number and rule claim 
 primary source (URL or file + date). (4) AI DRAFT and simulated labels. (5) Check new `../SELF_CHANGES.md` entries
 against `../INVARIANTS.md`; revert any that breaks it.
 
+## Beat in the loop (from Wed 28 Oct 2026; method: `../../loop/README.md`)
+**Beat 2, Gate (08:40).** Yesterday's finds come first: check each against its source (the URL loads, the
+quote is there, the "so" follows from it) and mark it verified, UNVERIFIED or false in yesterday's round file, section
+2 of today's. Only verified finds can be built on today. Then one primary-source find of Felix's own for today's
+question (official, regulatory or original documents), in the scouts' format. The rest of the sweep below follows,
+shorter, on what changed since yesterday.
+
 ## Files
 `../../rooms/window.md`, `../../office/CHARTER.md`, `competition/`
 
@@ -40,3 +47,4 @@ log, push, refresh the dashboard, one line in the thread. This page only adds th
 | Sun 25 Oct 2026 | Runbook created from the scheduled-task prompt of 24 Oct | Prompts become 4-line pointers; Keel can now edit how it works |
 | Mon 26 Oct 2026 | Shared steps moved to `README.md`; job and rules brought in line with `../../INSTRUCTIONS.md` (Claude, at Ray's request) | Ray, 26 Oct: Keel was not applying his 24-26 Oct instructions |
 | Tue 27 Oct 2026 | Room rule: read each conclusion beside its source | 3 of 6 false facts on 27 Oct sat in conclusions under exact quotes (`../../office/outbox/2026-10-27_window_7-5-and-three-checks.md`) |
+| Tue 27 Oct 2026 | "Beat in the loop" added: this room's beat in the daily research round (`../../loop/README.md`) (Claude, at Ray's request; not a Keel self-change) | Ray, 27 Oct: scheduled tasks "should not be repetitive"; every round must differ and scout widely |
