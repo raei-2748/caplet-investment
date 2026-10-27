@@ -143,5 +143,9 @@ Gehrig, Graham's openings, the Hopkins essays):
 | Ends on a slogan | Ends on a thing or a decision (White's belt; Buffett's "we buy to keep") |
 | Cuts the odd, specific detail as "inessential" | **Keeps one odd detail**: it is the proof a person wrote it ("33 days before his 100th birthday"; "$9.99 for five mangoes") |
 
-Test for the 50-word pitch: say it out loud to someone across a table. If it doesn't sound like something a
+Test for the 50-word pitch (Graham's friend test, `reading/LOG.md` #209): say it out loud to someone across a table. If it doesn't sound like something a
 seventeen-year-old would say, put the verbs back.
+
+Three more from the reading: "be confident enough to cut" and "use simple, germanic words" (Graham, #206); "Make the
+truth good, then just tell it." (#210); "But forecasts are just that – forecasts." (Bullock, #197): uncertainty in
+five words, not five clauses.
