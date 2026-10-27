@@ -405,3 +405,19 @@ All MODEL (22 Oct curve, 7.5% stocks, 200,000 paths). None needs a WInS trade; a
    sales from 31% of paths to 0.15%, for ~$0.7k of mean gift. Cost: stock is sold in January 2033 in most paths, a
    planned sale on a known date, not a forced one at a deadline.
 Not tested: Taiwan dollar and inflation (no series on file).
+
+**Courtroom on the lock (`inbox/2026-10-28_courtroom.md`): ADOPT as the central idea, in true words.** "Every promise
+is bought on the day she makes it" is false three ways (the floor is bought in 2028, not on naming day; the payments
+lean on the 2028 top-up, coupons and iBond payouts; the top is a ceiling, not a promise). The true version: **"No
+number Laura names rests on a share price: each is owned in Treasuries by the day she names it."** It must go in the
+IPS or nowhere ("may not be revised"). No locked line breaks; two drafted lines die ("nothing is sold early" becomes
+"no Treasury is sold before it pays", which keeps "do not crush"). Not market timing: a date triggers it, not a
+price. The prosecution's best point: the lock doesn't change the case's confidence test (0.75% below the bottom
+either way). It moves where she lands inside the range (top 93% vs 77%), and costs Laura ~$2.2k of what she keeps.
+The newsvendor 3:1 drops from spine to test (the lock passes it, narrowly at base). Name it plainly
+(liability-driven de-risking), never CPPI. The aha to state is the diagnosis: after 2031 the cap leaves the
+contribution with every fall and Laura with every rise, and the lock fixes that. Condition: re-run the lock together
+with the 2033 cushion (2.2-3.6% of paths below the bottom combined) and draw the cushion from leftover cash and
+Laura's half first.
+**WO-R9 audit applied to `BIBLE_TRACE.md`:** now seven books (G1-G10 for Wharton's two), B7 and E3 down to PART,
+C2/C3 rewritten for the lock and the corrected failure map, four new pulls.
