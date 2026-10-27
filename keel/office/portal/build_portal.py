@@ -639,6 +639,9 @@ def idea_bank():
             continue
         if len(c) < 3 or not re.match(r"^(\d+|FRB-\d+)$", c[0]):
             continue
+        if re.match(r"^out\b", plain(c[2]), re.I):
+            dropped.append({"idea": plain(c[1]), "why": plain(" ".join(c[3:]))})
+            continue
         m = re.match(r"\*\*(.+?)\*\*\s*(.*)$", c[1])
         title, more = (m.group(1), m.group(2)) if m else (c[1], "")
         rest = [plain(x) for x in c[3:] if plain(x) not in ("", "–", "-")]
