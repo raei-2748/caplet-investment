@@ -30,7 +30,7 @@ Candidate for the rewrite's one picture ("ten coatings, ten Januaries"), at most
 the Final Report's honest section. Long Room debates it first. Rung 1 (Haiku 5.5) only; 14 other mechanisms parked.
 
 ## Takes
-- **Felix:** I went in for a metaphor and came out with a ladder somebody shipped in 1952. Four coats, three, six,
+- **Felix:** I went in for a metaphor and came out with a ladder somebody shipped in 1952. **[Window 27 Oct: Contac 600 launched in 1960 (the Spansule system was 1952); four bead groups, but one is uncoated, so three coats (3, 6, 9 h). Hillery & Hoffman, "Historical Introduction to the Field of Controlled Drug Delivery", basicmedicalkey.com mirror, read 27 Oct 2026.]** Four coats, three, six,
   nine hours. We just need ten, and ours don't melt early.
 - **Kai:** The leak is the bit I like. Every other team will say "safe Treasuries". We get to say exactly where the
   interest goes, and that's R01, not poetry.

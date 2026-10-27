@@ -1,22 +1,22 @@
 # FICTION (the room and the simulated people) + the real case. Laura's Room
 
 ## Now
-- **Doing:** Making the 2031 range credible to co-sponsors
-- **Decided:** The bottom of the range is what signals commitment, the top barely does; Laura should pledge the floor she already holds
-- **Next:** From 27 Oct this is the case room: check every case requirement is answered as well as a competition judge would want, not whether Laura would like it
-- **For the judges:** IPS: the 2031 range paragraph; Client Knowledge
-- **Updated:** 2026-10-26 15:10 Sydney
+- **Doing:** Pricing the 2031 bottom: how co-sponsors read a range, and what a safety margin costs
+- **Decided:** Don't pad the bottom today; mark it to market in 2031 (cut only by the coupon gap already visible). MODEL: 0 of 200,000 breaks vs 0.11% for a fixed $10k, at a tenth of the cost (Keel's call, replaces D1b's margin)
+- **Next:** Courtroom roasts it against the locked "minimum figure in 2031" (it already survives the joint recession shock: 7 of 200,000); next visit is the fresh draft, Fri 30 Oct
+- **For the judges:** IPS: the 2031 range sentence and the confidence we quote (chance of reaching the top, ~70%); Client Knowledge, Investment Strategy
+- **Updated:** 2026-10-27 15:17 Sydney
 
 
 > Room card: `../OFFICE.md`. Host: Amara ("What does she feel in a bad year?"). Agents: `case-analyst`,
 > `cosponsor-reader`, `taiwan-researcher` (Taiwan research opens Sun 8 Nov).
 
-> **State (Mon 26 Oct, 15:10 run):** IPS v4 retired (Ray, 26 Oct: rewrite from scratch); visits now test the rewrite
-> spine `../ips_rewrite/` and its drafts. WO-R4 done: LR-03 (`lauras_room/LR-03_credible_signal.md`): the bottom of the
-> range does the signalling, the top barely does; D1a is the one leak; pledge the floor in 2031. Open: Genius Lab
-> re-runs LR-02 with the dedicated ladder (Wed 28 Oct); Courtroom roasts the field-evidence transfer (Wed 28 Oct);
-> ASK "pledged" (Thu 29 Oct). Next visit: Draft 1 (Fri 30 Oct) on a simulated Laura and two co-sponsors.
-> Older: SD-LR-01 (24 Oct), night v3.1, SD-LR-02 floor break (`lauras_room/LR-02_floor_break.py`).
+> **State (Tue 27 Oct, 15:10 run):** WO-R7 done and the Window's LR-03 correction answered in LR-04
+> (`lauras_room/LR-04_price_of_a_margin.md` + `.py` + `_results.json`): co-sponsors read the bottom as the bookable
+> number (size moves giving), the top as an intention; a fixed margin is a bad trade; mark the bottom to market in 2031.
+> Joint recession shock run here (R05_joint, main): still 0-7 of 200,000. Open: Courtroom roast of LR-04 and of LR-03's field-evidence transfer
+> (Wed 28 Oct). Next visit: the first fresh draft (Fri 30 Oct), checked against every case requirement as a judge would.
+> Older: LR-03 (26 Oct, corrected), SD-LR-02 floor break, SD-LR-01 (24 Oct).
 
 ## Who appears here
 - **Laura (simulated).** Built only from her official case
@@ -43,3 +43,4 @@
 | Sun 25 Oct (15:10) | same, L-08 | Co-sponsor 1, Laura | "Reserve" reassures; "six years early" true for 2027 | :94-95 | none |
 | Mon 26 Oct | Rewrite spine `00_GROUND_TRUTH.md` s2-s5 + LR-02, L-09 (WO-R4) | Co-sponsor (programme officer) | "Is the bottom pledged or just held?"; "99%" sounds like a model, wants bought vs hoped-for | :110-114; :117-118 | Pledge the floor, conditional on the residency; confidence in two parts (LR-03) |
 | Mon 26 Oct | same | Laura | Hesitates at "pledged" until only the floor is; asks if the bottom can fall 2031-33 (only if raided: D1a) | :102-103; :113-114 | Her half stays hers; D1a decides the leak (LR-03) |
+| Tue 27 Oct | LR-03 + Window N2; R05 S1/S2; D1b; LR-04 model (WO-R7) | Co-sponsor (programme officer), co-sponsor (corporate finance lead), Laura | Bottom = the number for a board paper; a fixed margin below what she owns reads as Laura hedging her own project; "will it move again?"; wants the chance of the top, not "99% inside". Laura: fine, only the floor is pledged | :110-115; :117-119; :101-103 | Mark the bottom to market in 2031, no fixed margin; quote the chance of reaching the top (LR-04) |

@@ -45,15 +45,15 @@ explains why a larger, riskier pot cannot buy what a dedicated holding buys. Whe
 AUMC/AUC is the cash-weighted mean time; the variance is the cash-weighted spread. Matching the mean (what IEF/TLT did in the early council
 work) leaves the spread free, so a barbell and the ladder with the same 10-year centre behave differently when the curve twists.
 The ladder's spread equals the liability's spread by construction. This is the real finance content behind "dedicate, don't just duration-match"
-(Redington's third condition, M-squared). Plain words ("matching the average is not matching the schedule") say it, but the moment language
+(Redington's third condition, M-squared). **[Window 27 Oct: WRONG NAME. Redington's third condition asks the assets' spread to EXCEED the liability's (convexity); a spread that equals it, per payment, is cash-flow matching, measured by Fong-Vasicek M². `../../office/outbox/2026-10-27_window_7-5-and-three-checks.md`.]** Plain words ("matching the average is not matching the schedule") say it, but the moment language
 makes it checkable: 10.5 years centre, 2.9 years spread. Final Report only; the IPS has no room.
 
 **F-C. The bioequivalence band is a rule about an interval, set in advance, and it is log-symmetric (numerically EXACT, mapping PARTIAL).**
 Three points in one: (i) a generic passes only if the **whole 90% confidence interval** of exposure lies inside 80-125%, not its midpoint;
 (ii) the band is fixed **before** the data (pre-registration, F15); (iii) 80% and 125% are reciprocals, 0.8 x 1.25 = 1, so the band is symmetric in logs.
 Investing insight: **the same arithmetic as drawdown**: -20% needs +25% to get back, which is why a floor protects more than a symmetric
-percentage band looks as if it should. And on the 2031 range: the case asks for "a range with a confidence"; the clean standard is
-*state the interval, with its confidence, against a limit you named before you looked*. Our range (p5 to p95, so 90%, MODEL) is that object.
+percentage band looks as if it should. And on the 2031 range: the case asks for "a range with a confidence" **[Window 27 Oct: not the case's words; it says "a credible range" and "state how confident they are that her 2033 contribution will fall within that range" (Client Profile :116-118)]**; the clean standard is
+*state the interval, with its confidence, against a limit you named before you looked*. Our range (p5 to p95, so 90%, MODEL) is that object. **[Window 27 Oct: FALSE. Our range is the owned floor to floor + half of VT, about 99% inside (`../../library/ips_numbers_2026-10/IPS_number_sheet.md`); p5-p95 is a different band.]**
 Use: Final Report, one paragraph; the log-symmetry line is a Ray-style aside, if the team likes it.
 
 Honourable: F-D, Spansule's "no unit does anything clever" (row 8) is the cleanest bridge into Seam 2.

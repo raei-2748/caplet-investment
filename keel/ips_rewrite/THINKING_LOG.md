@@ -70,7 +70,7 @@ and that fit this case -> `research/R05_wide_reading.md`.
   The unbundling idea (annuity-certain + protected note + target-date fund, built from parts) stands without the pun.
   Say "build", not "replicate", since the iBond payout and reinvested coupons make it approximate.
 - The 7.5% the locked TNA attributes to JPMorgan is the EAFE figure. AC World is 7.00% compound / 8.28% arithmetic.
-  The IPS must not repeat 7.5%. If a return is quoted at all, use about 7% and check for a 2027 edition first.
+  The IPS must not repeat 7.5%. If a return is quoted at all, use about 7% and check for a 2027 edition first. **[Window 27 Oct: WRONG EDITION. J.P. Morgan's 2027 LTCMA (release 19 Oct 2026) gives global equities 7.5% (USD), up from 7.0%; the TNA's 7.5% is the world-stocks figure. See `../office/outbox/2026-10-27_window_7-5-and-three-checks.md`.]**
 - iBond end-of-life confirmed from iShares: a fund terminates around 15 Dec and pays out net assets in cash, so IBTM's
   cash arrives before 1 Jan 2033.
 - Seed money: raising seed from 10% to 67% of the goal gave "nearly a sixfold increase" in giving. That's lab

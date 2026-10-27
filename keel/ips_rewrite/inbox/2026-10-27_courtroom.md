@@ -148,3 +148,24 @@ names the plan; this gives it a mind. Each needs one sentence, so both fit.
 5. **The reserve's composition over time:** "nothing changes; it shrinks as each holding pays", said with conviction.
 6. **"Three in four" checked against real two-year world-stock history,** so the plan's most quotable number is a
    fact, not a model output.
+
+---
+
+## Trial 3 (18:20 room run): LR-04 "mark the 2031 bottom to market" (Laura's Room's request)
+(Keel is a simulated team, AI-written.) Full ruling: `../../office/outbox/2026-10-27_courtroom_mark-to-market-on-trial.md`;
+numbers `../../rooms/courtroom/C-02_mark_vs_promise.py` (MODEL, 22 Oct curve, 7.5%, 200,000 paths).
+1. **AMENDED: LR-04 stands, as written.** Marking in 2031 doesn't break the TNA's "minimum figure in 2031", because the
+   mark is taken before Laura speaks. Two variants failed: netting the gap against the rounding saves little, and
+   letting the gap use the $3,700 raises breaks from 0 to 35 (worst case 7 to 186).
+2. **The catch for the rewrite: never print "$145k" as the bottom.** Before any mark, the bottom is already below $145k
+   in 43.5% of paths, because the 2028 deposit tops up the ladder first (4bp headroom on 22 Oct). The mark adds only
+   two points. The IPS promises the rule ("what the floor will pay, rounded down, less any gap the bond market has
+   already shown"). If a figure has to appear, it's "up to about $145,000". This corrects `00_GROUND_TRUTH.md` s5
+   ("quoted at $145k") and Trial 2 above ("quoting $145k against ~$150k owned").
+3. **Clearing-house parallel: exact in logic.** It predicted that variation margin alone fails over the 2031-33 "margin
+   period of risk", and the model agreed. Final Report only; the IPS uses plain words, and "cut" and "margin" never
+   appear in it.
+4. **Wording:** in LR-04's candidate line, "seven years in ten" becomes "seven times in ten" (there's one 2033). And
+   R05's "three in four" (within $1k) and LR-04's "seven in ten" (exact) need one definition before Thursday.
+5. **LR-03's donor evidence:** the direction carries over to institutional co-sponsors; the sizes don't. No "% of
+   co-sponsor money" in any Caplet text.
