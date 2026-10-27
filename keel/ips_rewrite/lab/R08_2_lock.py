@@ -8,7 +8,7 @@ put, Laura holds the matching call, and nobody paid a premium. If, on the day La
 promised half of the stocks is sold into IBTM (the floor fund, which matures Dec 2032), the top becomes owned too.
 Variants: A today; B lock the whole promised half; C = B and quote the bottom as floor + locked half (rounded down);
 D lock half of the promised half (a quarter of the fund) and raise the bottom by that quarter.
-Laura's own half stays in stocks in every variant; the coupon gap draws on leftover cash, then Laura's half, as today.
+E = B plus R08_5's 2033 set-aside (projected gap + $7,500). Laura's own half stays in stocks in every variant; the coupon gap draws on leftover cash, then Laura's half, as today.
 """
 import json, pathlib
 import numpy as np
@@ -18,16 +18,17 @@ HERE = pathlib.Path(__file__).parent
 rd = lambda x: np.floor((x - 3700) / 5000) * 5000      # the office's "rounded down" rule for a quoted bottom
 
 
-def variant(p, lock_share, raise_bottom):
+def variant(p, lock_share, raise_bottom, cushion=None):
     halfL = 0.5 * p["V33"]
-    unc = np.maximum(p["S33"] - p["L33"] - halfL, 0)
+    A = p["S33"] if cushion is None else p["S33"] + cushion   # cushion: R08_5 2033 set-aside of gap + cushion
+    unc = np.maximum(A - p["L33"] - halfL, 0)
     top = p["R"] + 0.5 * p["V31"]
     locked = lock_share * p["V31"]
     stock_part = (0.5 - lock_share) * p["V33"]
     raw = p["floor_paid"] + locked * p["g2"] + stock_part - unc
     gift = np.minimum(top, raw)
     bottom = rd(p["R"] + locked) if raise_bottom else p["bottom"]
-    kept = p["L33"] + halfL - np.minimum(p["S33"], p["L33"] + halfL) + np.maximum(raw - top, 0)
+    kept = p["L33"] + halfL - np.minimum(A, p["L33"] + halfL) + np.maximum(raw - top, 0)
     total = gift + kept
     hit = gift >= top - 1000
     r = {"p_top_reached_within_1k": round(float(hit.mean()), 4),
@@ -48,11 +49,13 @@ if __name__ == "__main__":
         A, tA, gA = variant(p, 0.0, False)
         res["A today (cap, no lock)"] = A
         for name, ls, rb in (("B lock promised half", 0.5, False), ("C lock promised half + raise bottom", 0.5, True),
-                             ("D lock a quarter + raise bottom", 0.25, True)):
-            r, t, g = variant(p, ls, rb)
+                             ("D lock a quarter + raise bottom", 0.25, True), ("E = B + 2033 set-aside of gap + $7.5k", 0.5, False)):
+            r, t, g = variant(p, ls, rb, 7500 if name.startswith("E") else None)
             r["expected_total_cost_vs_A"] = round(float(tA.mean() - t.mean()))
             r["median_total_cost_vs_A"] = round(float(np.median(tA - t)))
             r["gift_gain_vs_A_mean"] = round(float(g.mean() - gA.mean()))
+            if name.startswith("E"):   # gift + kept leaves out the set-aside cash, so totals are not comparable
+                r["expected_total_cost_vs_A"] = r["median_total_cost_vs_A"] = "n/a (set-aside excluded from total)"
             res[name] = r
         # the free option under today's rule, in dollars
         halfL = 0.5 * p["V33"]; unc = np.maximum(p["S33"] - p["L33"] - halfL, 0)

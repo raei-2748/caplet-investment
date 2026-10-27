@@ -98,6 +98,31 @@
    "median_total_cost_vs_A": 459,
    "gift_gain_vs_A_mean": 495
   },
+  "E = B + 2033 set-aside of gap + $7.5k": {
+   "p_top_reached_within_1k": 0.8671,
+   "p_gift_below_quoted_bottom": 0.0221,
+   "bottom_p50": 145000,
+   "top_p50": 166292,
+   "gift_p5_p50_mean": [
+    133975,
+    166058,
+    163156
+   ],
+   "gift_shortfall_below_top_mean": 1275,
+   "laura_kept_p5_p50_mean": [
+    0,
+    18790,
+    22735
+   ],
+   "total_gift_plus_kept_p5_p50_mean": [
+    136399,
+    184451,
+    185891
+   ],
+   "expected_total_cost_vs_A": "n/a (set-aside excluded from total)",
+   "median_total_cost_vs_A": "n/a (set-aside excluded from total)",
+   "gift_gain_vs_A_mean": -130
+  },
   "today: value handed to Laura above the cap (mean)": 4406,
   "today: facility's expected miss below the top (mean)": 1144,
   "IBTM growth 2031->Dec 2032 p5/p50/p95": [
@@ -204,6 +229,31 @@
    "median_total_cost_vs_A": 464,
    "gift_gain_vs_A_mean": 499
   },
+  "E = B + 2033 set-aside of gap + $7.5k": {
+   "p_top_reached_within_1k": 0.8467,
+   "p_gift_below_quoted_bottom": 0.0329,
+   "bottom_p50": 145000,
+   "top_p50": 166275,
+   "gift_p5_p50_mean": [
+    132330,
+    166067,
+    162809
+   ],
+   "gift_shortfall_below_top_mean": 1607,
+   "laura_kept_p5_p50_mean": [
+    0,
+    19344,
+    23150
+   ],
+   "total_gift_plus_kept_p5_p50_mean": [
+    134224,
+    184525,
+    185959
+   ],
+   "expected_total_cost_vs_A": "n/a (set-aside excluded from total)",
+   "median_total_cost_vs_A": "n/a (set-aside excluded from total)",
+   "gift_gain_vs_A_mean": -276
+  },
   "today: value handed to Laura above the cap (mean)": 4408,
   "today: facility's expected miss below the top (mean)": 1330,
   "IBTM growth 2031->Dec 2032 p5/p50/p95": [
@@ -309,6 +359,31 @@
    "expected_total_cost_vs_A": 518,
    "median_total_cost_vs_A": 273,
    "gift_gain_vs_A_mean": 550
+  },
+  "E = B + 2033 set-aside of gap + $7.5k": {
+   "p_top_reached_within_1k": 0.839,
+   "p_gift_below_quoted_bottom": 0.036,
+   "bottom_p50": 145000,
+   "top_p50": 165780,
+   "gift_p5_p50_mean": [
+    131687,
+    165546,
+    162160
+   ],
+   "gift_shortfall_below_top_mean": 1705,
+   "laura_kept_p5_p50_mean": [
+    0,
+    18239,
+    22105
+   ],
+   "total_gift_plus_kept_p5_p50_mean": [
+    133360,
+    182897,
+    184265
+   ],
+   "expected_total_cost_vs_A": "n/a (set-aside excluded from total)",
+   "median_total_cost_vs_A": "n/a (set-aside excluded from total)",
+   "gift_gain_vs_A_mean": -252
   },
   "today: value handed to Laura above the cap (mean)": 3954,
   "today: facility's expected miss below the top (mean)": 1453,

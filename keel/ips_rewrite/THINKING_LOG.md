@@ -376,3 +376,32 @@ individual investments or presenting detailed financial calculations." V25's ~15
 style. Rule for the next draft: at most one or two numbers in the IPS (the cheques' $50,000 and one felt figure),
 models prove the decision rules behind the scenes, and the creativity goes into the central idea and the rules.
 Passed to the model-suite and rival-team threads.
+
+## Wed 28 Oct, small hours: the Genius Lab's five ideas (WO-R8, `inbox/2026-10-28_genius-lab.md`, `lab/R08_*.py`)
+All MODEL (22 Oct curve, 7.5% stocks, 200,000 paths). None needs a WInS trade; all fit the locked lines.
+1. **Lock what you announce.** On 1 January 2031, the day Laura names the range, sell the promised half of VT into
+   Treasuries maturing before 2033. The top is then reached ~93% of the time instead of ~77% (91% under stress), for
+   an expected cost of about $1.6k out of ~$193k. This is the night's big one, and I think it is bigger than the Lab
+   says. It turns the plan into one sentence: **every promise Laura makes is bought on the day she makes it.** The
+   cheques in 2027, the floor in 2028, the top of the range in 2031. That is a decision-making framework (Book 7), it
+   is "commit only money she already owns" (the 16 Oct North Star memo) grown up, and it is exactly what extended
+   release means: each dose is coated and fixed the moment it's made. It also answers the case directly: the range
+   "must protect" the payments and her credibility, and here nothing is promised that isn't already owned in
+   Treasuries.
+   Tension for Thursday: it partly replaces the newsvendor spine (3:1 by choice). With the lock, the trade-off moves
+   to the size of the top (how much stock she pledges), not the odds of reaching it. Maybe the two combine: the
+   newsvendor still sets how much she pledges; the lock makes the pledge real.
+   Limit: raising the quoted bottom as well was killed (below it in 3-5% of paths).
+2. **Definitions:** "three in four" must be the event "stocks no lower in 2033 than in 2031" (72.8%); the top is reached
+   to the dollar 69.9% (76.7% is with a $1k tolerance). The share pledged (1/3, 1/2, 2/3) barely moves the odds; a
+   haircut on the 2031 stock value does (10% haircut: ratio 3.3 -> 6.4 for $1.3k of median gift).
+3. **The failure corner is ~10 weeks wide.** A 2pp fall before the build is ~0.23% of two-month windows in history
+   (all 1980-82). The payments need at most ~$50k of the 2028 deposit in nearly all paths (unfunded: 2.9% at $25k,
+   0.02% at $50k, none at $75k+). The IBTR note's "0.2pp" headroom is now ~0.04pp: don't repeat it as current.
+4. **Coupons must buy more of their own bond.** Every number we've published quietly assumes it; parking coupons in
+   a bill fund loses ~$7.6k even with no rate move. Half a sentence in the IPS: "coupons are reinvested in the bond
+   that paid them".
+5. **The 2033 re-match needs a cushion sized by the forecast's own error:** projected gap + $7,500 cuts later stock
+   sales from 31% of paths to 0.15%, for ~$0.7k of mean gift. Cost: stock is sold in January 2033 in most paths, a
+   planned sale on a known date, not a forced one at a deadline.
+Not tested: Taiwan dollar and inflation (no series on file).
