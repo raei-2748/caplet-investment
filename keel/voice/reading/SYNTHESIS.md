@@ -63,36 +63,37 @@ a number that measures a loss; dread, then relief; the reluctant narrator.
 6. **The downgrade that didn't move yields** (095): a cleaner way to say why "US default" is the residual risk and why
    it barely matters to a ladder held to the date.
 
-## Synthesis 2 (after 200 pieces, 27 Oct night)
-New since synthesis 1: two inaugurals (Lincoln, Kennedy), Bagehot, five 2020 and three 2023 John Locke first
-prizes, eleven Damodaran posts from 2025, six 2028 Hopkins essays, Zuckerberg's S-1 letter, Stripe, Cembalest,
-O'Leary and a Shark Tank teardown (`LOG.md` 166-200).
+## Synthesis 2 (after 187 pieces, 27-28 Oct night)
+New since synthesis 1 (`LOG.md` 166-187): two inaugurals (Lincoln, Kennedy), Bagehot ch. III-IV, four 2020 John Locke
+first prizes, five Damodaran posts from 2025, three 2028 Hopkins essays, Zuckerberg's S-1 letter, Stripe, Cembalest,
+O'Leary and a Shark Tank teardown. Thirteen further pieces were re-reads of earlier entries (logged separately, not
+counted); where a re-read sharpened a point, its original number is cited.
 
 1. **Where the bad news sits.** Lincoln puts it in the middle, never first or last (166); Kennedy turns it into a
    privilege ("a long twilight struggle", 169); Zuckerberg warns investors in one plain sentence and then explains
-   (185). Synthesis 1 said "bad news first and smallest"; the better rule is **bad news early, small and in the
+   (176). Synthesis 1 said "bad news first and smallest"; the better rule is **bad news early, small and in the
    middle, with the hope last**. The IPS's limit sentence belongs in its middle third.
 2. **What AI can't copy is the working.** Damodaran was impersonated by an AI scam that copied his face and phrasing
-   but not his reasoning or his long-held views (198). Voice is a consistent philosophy with its working shown, not a
+   but not his reasoning or his long-held views (185). Voice is a consistent philosophy with its working shown, not a
    style. This is Book 9's "logic" route arrived at from the other side: show the causal chain, not the conclusion.
-3. **Endings.** Three of the eight Hopkins winners end on "challenges as opportunities for growth" or close to it
-   (089, 090, 195): plastic survives in winning work, and always at the end. The best endings in this batch are short
-   and concrete: "This is the task of ethics." (174), "If it does not, it can be restrained." (183), "I am sorry!"
-   (180), a granddaughter (178). Caplet's IPS should end on a test someone else could run, or on one thing.
+3. **Endings.** Two of the Hopkins winners end on "challenges as opportunities for growth" or close to it (089,
+   090): plastic survives in winning work, and always at the end. The best endings in this batch are short and
+   concrete: "This is the task of ethics." (173), "I am sorry!" (174), and the self-harm essay's "If it does not, it
+   can be restrained." (084). Caplet's IPS should end on a test someone else could run, or on one thing.
 4. **Openings.** Two new shapes worth a draft each: the **withheld reveal** ("Picture a country...", named a
-   paragraph later, 170) and the **verbless list** ("Unicorns, rainbows, pink, and glitter.", 191). Both make a
+   paragraph later, 170) and the **verbless list** ("Unicorns, rainbows, pink, and glitter.", 182). Both make a
    reader lean in before they know the subject.
 5. **Emotion moves, ranked.** F3 (cost in public) and F6 (self-mockery) are the commonest; F2 and F4 the rarest and
-   the most remembered. Ranking and use are now in guide section 8.
-6. **Pitches.** O'Leary: attention in the first seconds, the core in about 90 seconds (187). A pitch can win the room
-   and still be wrong (188). Caplet's 50 words must be true in 2042, not just in the room.
-7. **Counter-examples kept.** The John Locke winners that open on a dictionary definition (182) or end on a moral
-   (173) won on argument. Fairness and structure: yes. Their openings: no.
+   the most remembered. Ranking and use are in guide section 8.
+6. **Pitches.** O'Leary: attention in the first seconds, the core in about 90 seconds (178). A pitch can win the room
+   and still be wrong (179). Caplet's 50 words must be true in 2042, not just in the room.
+7. **Counter-examples kept.** The John Locke winners that open on a dictionary definition (085) or end on a moral
+   (172) won on argument. Fairness and structure: yes. Their openings: no.
 
-**Investing finds (all in the idea bank as FRB-17 to FRB-21):** risk-free is a horizon, not an asset (177); dated
-cheques can't wait on stocks, since a 1929 buyer was back to even only in 1954 (176); cash for a known need is a
-shock absorber, not a pogo stick (200); the market's price of a US default was about 0.27% after the 2025 downgrade
-(196); and private assets look calm only because appraisals lag (175).
+**Investing finds (in the idea bank as FRB-17 to FRB-21):** risk-free is a horizon, not an asset (130, re-read);
+dated cheques can't wait on stocks, since a 1929 buyer was back to even on the price index only in 1954 (097,
+re-read); cash for a known need is a shock absorber, not a pogo stick (187); the market's price of a US default was
+about 0.27% after the 2025 downgrade (184); private assets look calm only because appraisals lag (096, re-read).
 
 ## Next
 Pieces 101-300 by Thu 29 Oct: more bank and sell-side research (Goldman, Morgan Stanley, BlackRock, Bridgewater),

@@ -117,12 +117,12 @@ believe you, and belief arrives as a feeling first. Six moves the best of them u
 | F5 | **Dread, then relief, in that order.** Jobs (the scan, then "curable"), Chouinard ("not enough", then "resilient"), Housel's three sides of risk. State the fear honestly before the plan answers it; a plan that never names the fear reads as a brochure. | 063, 067, 014 | Do we say what Laura is afraid of before we say how she is protected? |
 | F6 | **The reluctant narrator.** "I never wanted to be a businessman" (Chouinard); Marks's wife and his repetitiveness; Asness's rejected paper; Keynes wishing economists were as useful as dentists. Self-mockery buys the right to be blunt about everyone else. Once per piece. | 046, 061, 067, 077 | Is there one line where we laugh at ourselves, and only one? |
 
-**How often each move turns up (pieces 1-200, tagged where a piece clearly uses one; a rough tally, not a score).**
-F3 cost in public 9 · F6 reluctant narrator 8 · F1 put the reader somewhere 6 (plus six Hopkins essays that open on
-an object) · F5 dread then relief 5 · F4 a number that measures a loss 3 · F2 a promise with a name on it 2. F1 is
+**How often each move turns up (pieces 1-187, tagged where a piece clearly uses one; a rough tally, not a score).**
+F3 cost in public 8 · F6 reluctant narrator 6 · F1 put the reader somewhere 4 (plus the Hopkins essays, which nearly
+all open on an object) · F5 dread then relief 4 · F4 a number that measures a loss 2 · F2 a promise with a name on it 2. F1 is
 the essayists' habit, F6 the investor memo writers' (Marks, Buffett, Damodaran), F3 the founders' and the
 speechmakers': it is the move of people asking for money or trust, which is Caplet's position. **F2 and F4 are the
-rarest and the most remembered** (King's cheque, Munger's 33 days, the 1929 buyer even only in 1954). Common moves
+rarest and the most remembered** (King's cheque, Munger's 33 days, the 1929 buyer back to even on the price index only in 1954). Common moves
 set the tone; the rare ones are what a judge repeats. So the IPS uses F3 and F2, and the Final Report may add F4.
 
 **Spend it like kickers.** One F-move per paragraph at most; in the IPS, F2 and F3 carry the weight and F6 appears
