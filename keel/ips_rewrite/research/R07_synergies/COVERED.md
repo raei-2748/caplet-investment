@@ -1,0 +1,89 @@
+# Already covered: do not resubmit these as new (R02 #1-60, R05 #1-20, R06 D1-D6, Model Suite, Lab L-09/L-10, Laura's Room LR-03/04)
+
+- R02 1. Liability-driven investing (LDI).
+- R02 2. Cash-flow matching (dedicated portfolio).
+- R02 3. Immunisation (Redington, 1952).
+- R02 4. Horizon (Fisher-Weil) duration: price risk and reinvestment risk offset.
+- R02 5. Reinvestment risk.
+- R02 6. Pull-to-par.
+- R02 7. Defined-maturity ETF: NAV, not par.
+- R02 8. Duration.
+- R02 9. Convexity.
+- R02 10. Key-rate duration (Ho, 1992).
+- R02 11. Defeasance.
+- R02 12. Bought latest maturity first.
+- R02 13. Maturity-before-payment buffer and the debt ceiling.
+- R02 14. Expectations hypothesis and forward rates as the break-even.
+- R02 15. Term premium.
+- R02 16. "The risk-free asset depends on the liability" (Campbell-Viceira).
+- R02 17. Nominal vs real liabilities.
+- R02 18. Purchasing power parity and FX.
+- R02 19. Markowitz mean-variance (1952).
+- R02 20. Tobin separation (two-fund theorem).
+- R02 21. Roy's safety-first criterion (1952).
+- R02 22. Shortfall constraints (Leibowitz-Henriksson).
+- R02 23. Surplus optimisation (Sharpe-Tint).
+- R02 24. Goals-based investing / behavioural portfolio theory (Shefrin-Statman).
+- R02 25. Mental accounting (Thaler) and mean-variance with mental accounts (Das-Markowitz-Scheid-Statman).
+- R02 26. Chhabra's wealth allocation framework.
+- R02 27. Human capital (Bodie-Merton-Samuelson, 1992).
+- R02 28. Life-cycle and horizon irrelevance (Merton 1969; Samuelson 1969).
+- R02 29. Time-diversification fallacy and the cost of insuring stocks (Bodie, 1995).
+- R02 30. Samuelson's fallacy of large numbers (1963).
+- R02 31. Within-horizon risk (Kritzman-Rich, 2002).
+- R02 32. Sequence-of-returns risk.
+- R02 33. Glide paths, and why this plan does not glide.
+- R02 34. Kelly criterion / "never risk what you need" (Kelly, 1956).
+- R02 35. Option-based portfolio insurance (Leland-Rubinstein).
+- R02 36. Constant-proportion portfolio insurance (CPPI; Black-Jones, Black-Perold).
+- R02 37. Buy-and-hold vs constant mix vs CPPI (Perold-Sharpe, 1988).
+- R02 38. Principal-protected (bond floor + upside) structured product.
+- R02 39. Participation rate.
+- R02 40. Cap.
+- R02 41. Collar.
+- R02 42. Caplet and floorlet.
+- R02 43. Signalling (Spence, 1973).
+- R02 44. Leland-Pyle (1977): the entrepreneur's own stake.
+- R02 45. Cheap talk (Crawford-Sobel, 1982).
+- R02 46. Seed money and leadership gifts (Andreoni 1998; List-Lucking-Reiley 2002; Vesterlund 2003).
+- R02 47. Rules rather than discretion (Kydland-Prescott, 1977).
+- R02 48. Time inconsistency (Strotz, 1955).
+- R02 49. Commitment devices and Ulysses contracts (Elster; Thaler-Shefrin; Ashraf-Karlan-Yin).
+- R02 50. Pre-registration.
+- R02 51. Real options and the value of flexibility.
+- R02 52. Global diversification and home bias (French-Poterba, 1991).
+- R02 53. How many stocks make a diversified portfolio (Statman, 1987).
+- R02 54. The arithmetic of active management (Sharpe, 1991) and the cost matters hypothesis (Bogle).
+- R02 55. Overtrading (Barber-Odean, 2000).
+- R02 56. Capital market assumptions (J.P. Morgan LTCMA).
+- R02 57. The equity premium (Mehra-Prescott, 1985; Dimson-Marsh-Staunton).
+- R02 58. Endowment model and spending rules (Swensen; Litvack-Malkiel-Quandt).
+- R02 59. Monte Carlo limits: fat tails (Mandelbrot, 1963) and model risk.
+- R02 60. Knightian uncertainty and ambiguity (Knight, 1921; Ellsberg, 1961).
+- R05 1. In-substance defeasance, and why accounting withdrew it
+- R05 2. Escrow sufficiency verification and SLGS (the Treasury's custom bonds for exactly this job)
+- R05 3. The Solvency II "matching adjustment" eligibility test
+- R05 4. "Low dependency" funding (UK defined-benefit pensions, 2024 code)
+- R05 5. Asset adequacy testing on prescribed rate paths (New York Regulation 126, the "New York 7")
+- R05 6. Coherent risk measures: certainty is a probability AND a severity
+- R05 7. Fong-Vasicek M-squared: the residual risk of an immunised portfolio has a size
+- R05 8. The off-the-run discount: Laura is the natural owner of bonds traders don't want
+- R05 9. Silicon Valley Bank, 2023: hold-to-maturity is safe only when the liabilities cannot run
+- R05 10. The March 2020 "dash for cash": Treasuries can be hard to sell, so never plan to sell them
+- R05 11. Tranching and the waterfall: the plan is a three-tranche structure
+- R05 12. Wrong-way risk (and the stock-bond correlation regime)
+- R05 13. The newsvendor critical fractile
+- R05 14. Interval scoring, calibration and Goodhart: the cap makes "inside the range" true by construction
+- R05 15. Expectations as reference points (Kőszegi-Rabin)
+- R05 16. Earnings guidance: Laura's range is corporate guidance, and firms walk it down to beatable
+- R05 17. Conditional vs unconditional promises to give (US nonprofit accounting, ASU 2018-08), and pledge law
+- R05 18. Matching gifts: the 1:1 result (Karlan-List)
+- R05 19. Staged commitment (venture capital) plus reference-class forecasting (megaprojects)
+- R05 20. Baumol's cost disease, and the Taiwan-dollar shock of May 2025
+- R06 D1 rising equity glide path (Pfau-Kitces) / bond tent; D2 pension de-risking glidepath, one funding test on three dates; D3 ratchet / lock-in of gains; D4 price of certainty vs rival plans; D5 the cap as a call spread (option arithmetic); D6 the false "only default risk" certainty claim
+- Courtroom 28 Oct: "lock what you announce" (move the promised half of stocks into Treasuries in Jan 2031; liability-driven de-risking of a firm commitment); covered call nobody is paid for
+- Lab L-09 dedicated ladder (later coupons pay earlier payments); L-10 CLO-style coverage test / waterfall, $10k hold-back
+- Laura's Room LR-03/04: lead gifts and seed money, initial vs variation margin (clearing houses), mark the bottom to market
+- Library: "sum certain" vs fixed percentage (US charitable remainder trusts; IRS 5% exhaustion test, Rev. Proc. 2016-42)
+- Ideation: zero-order vs first-order release (pharmacokinetics), mean dissolution time = Macaulay duration, coated beads, Contac 600
+- Model Suite: five rival archetypes in four worlds incl. fat-tailed regimes 1871-2023 and block bootstrap
