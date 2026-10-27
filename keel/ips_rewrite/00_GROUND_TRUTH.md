@@ -2,7 +2,24 @@
 
 AI-generated (Claude Code). Every new IPS line must survive this page.
 
-## 1. What the IPS form asks (official, `competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt`)
+## 0. SUPERSEDED IN PART (27 Oct): the updated IPS instructions (Ray: "THIS IS BIBLE")
+`competition/official/2026_27/UPDATED_2026_WGY_Investment_Policy_FINAL.txt` (v2.0). Pages 1-2 are word-for-word the
+same as v1 (purpose, the list of what to cover, "focus on the strategy and decision-making framework", what's not
+expected, "may not be revised"). Page 3 is replaced:
+- **Two form fields only.** Pitch: "Maximum 50 words. Quickly summarize your team's investment strategy. Clearly
+  communicate the central idea behind your approach and how it is designed to support your client's financial goals
+  and future funding needs." IPS: "Maximum 500 words. Clearly explain your team's investment strategy and
+  decision-making framework, including how the strategy addresses Laura's financial goals, funding needs, and risk
+  considerations."
+- **Gone:** the title page (team name, "First Name, Last Initial", WInS username), the gate sentence ("Submissions
+  that do not meet the requirements below will not be considered"), Times New Roman / 12pt / double spacing /
+  margins, "Submit as a PDF", the 5 MB limit, the two-page limit and the sample layout.
+- **Kept:** no graphics, charts, images, attachments, external links, footnotes or formal citations; sources go in
+  the Final Report.
+- **So:** plain text in a form box. No bold, italics or tables can be relied on; any heading is plain text and costs
+  words. Whether SMApply counts words the way `textcheck.py` does is UNVERIFIED: aim for 490 by the strict count.
+
+## 1. What the IPS form asks (official v1, `competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt`; page 3 superseded by s0)
 - Pitch, max 50 words: "the central idea behind your approach and how it is designed to support your client's
   financial goals and future funding needs".
 - IPS, max 500 words: goals, why the strategy fits, the balance of growth / liquidity / funding reliability / risk /
@@ -12,9 +29,7 @@ AI-generated (Claude Code). Every new IPS line must survive this page.
   rather than describing individual investments or presenting detailed financial calculations."
 - Not expected in the IPS: final reserve calculations, projections, a final range, the co-sponsor text (Final Report).
 - No graphics, links, footnotes, formal citations. Strategy may not be revised after submission.
-- Gate (form :82-83): "Submissions that do not meet the requirements below will not be considered for semifinal
-  selection." Title page (form :86-100): official team name as on the roster; names as "First Name, Last Initial";
-  WInS username. Where these go on the SMApply form: UNVERIFIED until a student opens it.
+- (v1 only, removed in v2: the gate sentence and the title page; see s0.)
 - Coherence (form :75): "Your portfolio and Final Report should reflect the strategy established in your IPS." The
   WInS book freezes with the IPS, so any change to what the ladder IS (e.g. R01's dedicated sizing) must show in the
   frozen book or be stated plainly as the Jan 2027 build.
