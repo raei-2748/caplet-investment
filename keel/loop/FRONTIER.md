@@ -15,6 +15,7 @@
 | Q5 | Which three investing concepts not yet in any draft would most impress a judge *because* they change our plan, not decorate it? | C11 | North star 4 | Tue 27 Oct | 0 |
 | Q6 | What would the strongest rival team submit, and where does it beat us? | C1, C7 | Nobody has steelmanned the competition since the rewrite began | Tue 27 Oct | 0 |
 | Q7 | What does Laura do on each January from 2033, and what does the plan spare her from doing? (the case's "flexibility as the project develops") | C10, C4 | Client Knowledge; the post-2033 years are the least explored part of the plan | Tue 27 Oct | 0 |
+| Q8 | Wharton's new instructions (Book 7) ask for "the strategy and decision-making framework ... rather than ... individual investments or detailed financial calculations". Which holders are too ticker- or number-heavy, and what is the framework, in rules a judge can point to? Who else writes decision frameworks that survive changing conditions (central banks' reaction functions, clinical protocols, flight checklists)? | C13, C3, C5 | Wharton's official file, 27 Oct; the rubric itself | Tue 27 Oct | 0 |
 
 ## 2. Open flaws (each one is a job for the next builder)
 | # | Flaw | In | Found by (date) | Status |

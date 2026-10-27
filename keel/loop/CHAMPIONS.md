@@ -8,6 +8,13 @@
 > `../BIBLE.md` rule 2) and the rooms' open findings. A holder is the line or idea to beat, not the IPS: the rewrite
 > thread writes the IPS. Prose is paused for the voice study (Ray, 27 Oct), so challengers to the wording slots
 > (C8, C9, C12) are claims, not finished lines, until the voice guide lands.
+>
+> **Wharton's own test (Book 7, 27 Oct).** The IPS must make clear: (W1) what we are trying to accomplish for Laura;
+> (W2) why the strategy suits her; (W3) how it balances growth, liquidity, funding reliability, risk and flexibility;
+> (W4) how it guides construction and decisions as her needs change; (W5) how it protects the operating payments while
+> supporting a responsible facility contribution. It should be "the strategy and decision-making framework", not
+> individual investments or detailed calculations, and it need not give a final reserve, projections or a final range.
+> Every challenger names the W-point it serves; a slot no W-point needs is a candidate to cut.
 
 | Slot | What the IPS needs here | Holder now (where) | Open challengers / flaws (from) | Last changed |
 |---|---|---|---|---|
@@ -22,7 +29,8 @@
 | C9 Kicker | The last line | "Ten cheques, then – each bought before the first is written." (D4) | none open | Mon 26 Oct (D4) |
 | C10 Liquidity, reserve, review | The case's liquidity, composition-change and review asks | Something matures before every January; from 2033 the payment holdings are the operating reserve, one fewer each year; yearly review with Laura (D4 para 11) | The 2033 re-match (C6) would also answer "how its composition should change, if at all": once, on a known date | Mon 26 Oct (D4) |
 | C11 Knowledge on show | North star 4: concepts applied, uncited, explained | In D4: bond floor, human capital, issuer credit risk (Lehman), pull-to-par, time diversification, reinvestment risk, index investing | Candidates waiting for a place: sum certain / exhaustion test (S-05), defeasance (R05 #1), newsvendor (S1), mark-to-market (C-02), wrong-way risk (R05 #12) | Mon 26 Oct (D4) |
-| C12 Pitch | 50 words | D4 pitch ("Stocks move the ceiling. Never the floor.") | none open | Mon 26 Oct (D4) |
+| C12 Pitch | 50 words: the central idea and how it supports her goals (Book 7) | D4 pitch ("Stocks move the ceiling. Never the floor.") | none open | Mon 26 Oct (D4) |
+| C13 The decision framework | Book 7's W4: the rules that decide what happens as needs change (2028 deposit, 2031, 2033, each January), stated as rules, not numbers | Spread across D4 paras 4, 7, 10, 11; never stated as one framework | **Open:** Book 7 asks for "the strategy and decision-making framework" in so many words; no draft has a framework a judge can point to | Tue 27 Oct (new slot) |
 
 ## Results of head-to-head readings (the evening beat adds a row each round)
 | Date | Round | Slot | Champion vs challenger | Judge (cold) | Winner and the reason in one line | Board changed? |
