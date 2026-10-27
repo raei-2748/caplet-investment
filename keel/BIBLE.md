@@ -1,8 +1,9 @@
-# THE BIBLE: Caplet's five books (23-26 Oct 2026). Top priority for every Keel member, room, agent and run.
+# THE BIBLE: six books (23-27 Oct 2026): Caplet's five and Wharton's official email. Top priority for every Keel member, room, agent and run.
 
 > **"The message Ray quoted earlier isn't the only Bible. In fact, you've got quite a few Bibles. (Multiple books of
 > the Bible, I suppose?) ... All are equal."** (Caplet, Mon 26 Oct 2026, 23:21 Sydney.) The first version of this page
-> (26 Oct, 22:55: "this is bible") held only Book 5. It now holds all five, word for word, as equals.
+> (26 Oct, 22:55: "this is bible") held only Book 5. It now holds all five, word for word, as equals. On
+> 27 Oct Ray added a sixth, Wharton's own halfway email: "THIS IS BIBLE. OFFICIAL FILE."
 >
 > **Where it sits.** Above everything Keel owns: `INSTRUCTIONS.md`, `NORTH_STARS.md`, `VOICE.md`, `CULTURE.md`, every
 > runbook, room card, member file, office agent and skill. Where any of them disagrees with a book, the book wins and
@@ -11,7 +12,7 @@
 > above it, and nothing here asks Keel to break them.
 >
 > **How to use it.** Every run reads the cover note and Keel's reading at the bottom; any run touching the IPS, the
-> Final Report, a draft, a name or the motif reads all five books in full. The books are equal, and Keel is told to use
+> Final Report, a draft, a name or the motif reads all six books in full. The books are equal, and Keel is told to use
 > its own judgement: it may weigh one above another, or question one, as long as it says why and the expectations are
 > met. What the six members took from Book 5: `BIBLE_TAKES.md`.
 
@@ -233,6 +234,68 @@ man…") stay out of this repo, because the portal is public. Keel's notes on ho
 > of the IPS! We want you to meet EVERY SINGLE EXPECTATION we've set out throughout the entirety of this
 > conversation. Blow us away.
 
+## Book 6: Wharton's halfway email, official (Tue 27 Oct 2026)
+
+> Ray, 27 Oct, pasting it: **"Wharton newsletter - THIS IS BIBLE. OFFICIAL FILE."** The only book written by Wharton,
+> not by Caplet. Verbatim below (two Mimecast links shortened); the filed copy, with Sydney times and what is new
+> against the Week 4 email, is `../competition/official/2026_27/wharton_email_halfway_2026-10-27.md`.
+
+> Congratulations! You have reached the halfway point of the competition. Keep up the good work.
+>
+> Your team's next deliverable is the Investment Policy Statement (IPS). Remember, the IPS will now be submitted as a form
+> on SurveyMonkey Apply. You will not submit a PDF. Review the updated IPS instructions [link: upenn.box.com, via
+> Mimecast; the file itself is not yet in the repo].
+>
+> Check out our Instagram page, @whartonyouth, to see some of the teams competing!
+>
+> A FEW IMPORTANT REMINDERS
+>
+> * Team rosters are final. Teams may not add members or change team leaders.
+> * Before you send a ticket, please try to work through your issue with your teammates and advisor. Most questions can
+>   be answered by reading the information that we have already provided.
+> * This is a team competition. A successful team works together.
+> * The following investment types are permitted for modeling both of Laura's contributions and for use in your
+>   Investment Policy Statement and Final Report.
+>    * Any stock available on WInS.
+>    * Any Exchange-Traded Fund (ETF) available on WInS.
+>    * Any Government/Treasury Bond available on WInS.
+> * The following are NOT permitted:
+>    * Margin trading
+>    * Short selling
+>    * Stock-secured debt
+>    * Cryptocurrency
+>    * Derivatives, including options, futures, swaps, etc.
+>    * Individual TIPS (Treasury Inflation-Protected Securities)
+>    * Individual STRIPS (Separate Trading of Registered Interest and Principal of Securities)
+>    * Any investment other than the approved investments listed above.
+> * When it comes to submitting your deliverables, we strongly encourage your team not to wait until the last possible
+>   minute.
+> * Start working on your School Documentation [link: upenn.app.box.com, via Mimecast] now.
+>
+> TIPS FOR COMPETITION SUCCESS
+>
+> * Let your investment strategy lead. It connects every part of the competition: from your WInS portfolio and Trading
+>   Notes Analysis to your Investment Policy Statement and Final Report.
+> * Know your client. Review the Client Case Study carefully so you understand Laura's goals. If anything is unclear,
+>   discuss it with your advisor.
+> * Use WInS to demonstrate your strategy. Your WInS portfolio should reflect the strategy your team has developed.
+>   Trading ends on November 6 at 5:00 p.m. ET, and your portfolio will be final.
+> * Do not focus on portfolio performance. You are not evaluated on whether your WInS portfolio gains or loses money.
+>   WInS results should not be added to or subtracted from Laura's long-term portfolio projections.
+> * Explain your decisions. There is no single correct strategy. Use your research and analysis to explain why each
+>   investment belongs in your strategy and how it supports Laura's goals.
+> * Follow the instructions. Review the requirements and guidelines for each deliverable before submitting your work.
+>
+> IMPORTANT DATES
+>
+> * Friday, November 6, 5:00 p.m. ET: Investment Policy Statement due and trading ends
+> * Monday, November 9, 9:00 a.m. ET: Instructions and requirements for the Final Report posted
+> * Friday, December 4, 5:00 p.m. ET: School documentation and Final Report due
+>
+> Stay Connected with Wharton Global Youth
+> Want updates on upcoming programs, competitions, and new student opportunities? Join our mailing list and never miss an
+> update.
+
 ## Keel's reading: the rules every run applies (the books win if these ever drift)
 
 The books are equal. These rules are how Keel turns them into daily practice; each names the book or books it comes from.
@@ -264,6 +327,12 @@ The books are equal. These rules are how Keel turns them into daily practice; ea
    the best investing knowledge and strategy, not Laura. En dashes are correct; spend no time on punctuation.
 7. **Judgement, not obedience** (cover note). Keel may weigh one book above another or question one, out loud and
    with a reason. What it may not do is miss an expectation.
+8. **Wharton's own words are scripture too** (Book 6). Dates in Sydney first: IPS (a SurveyMonkey Apply form, not a
+   PDF) and the end of trading **Sat 7 Nov 09:00** (Fri 6 Nov 5:00 p.m. ET; last market fill 08:00); Final Report
+   instructions **Tue 10 Nov 01:00** (Mon 9 Nov 9:00 a.m. ET); Final Report and school documentation **Sat 5 Dec
+   09:00** (Fri 4 Dec 5:00 p.m. ET). Only stocks, ETFs and Treasury bonds on WInS, for both contributions and both
+   deliverables; no *individual* TIPS or STRIPS. Let the strategy lead and connect WInS, the TNA, the IPS and the Final
+   Report; explain why each investment belongs and how it supports Laura's goals; never count WInS gains or losses.
 
 ## What this page overruled on Mon 26 Oct (removed or rewritten the same day)
 - The Rooftop's "three kinds of sure" proposal (`rooms/rooftop.md`, request of 26 Oct to the Writing Room): withdrawn.

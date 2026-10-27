@@ -17,11 +17,11 @@ US daylight saving ends on 1 Nov, so the gap changes from 15 to 16 hours.
 | Practice trading (WInS wiped afterwards) | 15-25 Sep | | done |
 | Official trading starts | Mon 28 Sep, 9:30 am | | done |
 | Team roster (locked once submitted) | Fri 9 Oct | Sat 10 Oct 08:00 | **submitted** |
-| **Trading Notes Analysis (TNA)** | **Fri 23 Oct** | **Sat 24 Oct 08:00** | drafting |
-| **Trading ends, WInS portfolio frozen** | **Fri 6 Nov, 4:00 pm** | Sat 7 Nov 08:00 | |
-| **Investment Policy Statement (IPS)** | **Fri 6 Nov** | **Sat 7 Nov 09:00** | Version 5 draft |
-| Final Report instructions released | Mon 9 Nov | ~Tue 10 Nov | |
-| **Final Report + school documentation letter** | **Fri 4 Dec** | **Sat 5 Dec 09:00** | not started |
+| **Trading Notes Analysis (TNA)** | **Fri 23 Oct** | **Sat 24 Oct 08:00** | **submitted 23 Oct** |
+| **Trading ends, WInS portfolio frozen** | **Fri 6 Nov, 5:00 pm** (last market fill at the 4:00 pm close) | **Sat 7 Nov 09:00** (last fill 08:00) | Wharton email 27 Oct |
+| **Investment Policy Statement (IPS)**, a SurveyMonkey Apply form, not a PDF | **Fri 6 Nov, 5:00 pm** | **Sat 7 Nov 09:00** | Keel rewrite; near-final for review Sat 31 Oct |
+| Final Report instructions released | Mon 9 Nov, 9:00 am | **Tue 10 Nov 01:00** | Wharton email 27 Oct |
+| **Final Report + school documentation letter** | **Fri 4 Dec, 5:00 pm** | **Sat 5 Dec 09:00** | not started; Wharton: start the school documentation now |
 | Semifinal (Top 50) teams announced | after judging | | |
 | Semifinals: short video presentation, all members present | early 2027 | | |
 | Global Finale (costs are ours; virtual attendance allowed) | 2027 | | |
@@ -73,7 +73,7 @@ and they apply.
 |---|---|
 | Starting cash | **$300,000** virtual (= Laura's 2027 deposit; the $150k is NOT added) |
 | Account | One shared team account, 4-6 students; students (not the advisor) place trades |
-| Trading window | 28 Sep 9:30 am ET to 6 Nov 4:00 pm ET, then frozen |
+| Trading window | 28 Sep 9:30 am ET to 6 Nov (market close 4:00 pm ET; Wharton: "Trading ends on November 6 at 5:00 p.m. ET", email 27 Oct), then frozen |
 | Max trades | 200 |
 | Order size | at most 2x the security's daily volume |
 | Commission | $25 per stock/ETF trade, $10 per Treasury bond trade |
