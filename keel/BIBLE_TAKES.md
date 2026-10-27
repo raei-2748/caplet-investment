@@ -30,7 +30,7 @@ the picture down to "about on time". The judges aren't Laura – they want to se
 like we do.
 
 **Tess (the Writing Room).** The overclaim counter is out of my records routine. Nobody misses it. Voice tests now run
-against Ray's three essays and the reflections he rewrote, with Orwell as one check, not the judge. We cut the hedges.
+against Ahaan's three essays and the reflections he rewrote, with Orwell as one check, not the judge. We cut the hedges.
 They were doing no job.
 
 **Postscript, same night (Nora, the Noticeboard).** Then the other four books came in, with a cover note that stung:

@@ -45,7 +45,7 @@ ROOM_EXTRA = {
     "library": ("library.md", ["rooms/library_S-01_candidates.md", "rooms/library_S-02_lab_facts.md"]),
     "genius_lab": ("genius-lab.md", ["rooms/lab/"]),
     "lauras_room": ("lauras-room.md", ["rooms/lauras_room/"]),
-    "writing_room": ("writing-room.md", ["ips_rewrite/drafts/"]),
+    "writing_room": ("writing-room.md", ["voice/", "ips_rewrite/drafts/"]),
     "courtroom": ("courtroom.md", ["rooms/courtroom/"]),
     "long_room": ("long-room.md", ["rooms/long_room/", "meetings/"]),
     "archive": ("archive.md", []),
