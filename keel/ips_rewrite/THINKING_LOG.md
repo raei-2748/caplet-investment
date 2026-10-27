@@ -453,3 +453,23 @@ goes in the IPS) and the central idea moves upstream to what nobody else wrote:
   two-cost range, so the newsvendor comes back as a named idea in the IPS (one clause), not only as the lock's test.
 This reverses half of this morning's Courtroom ruling (newsvendor "retired as the spine"). It's Keel's call, logged:
 evidence about the field beats a ruling made without it.
+
+## Tue 27 Oct, late: Ahaan's message (now BIBLE Book 9) and what changes
+What I take from it, in order of weight:
+1. **The prize is looking intelligent and knowledgeable**, two ways: niche strategies FUSED and CRITIQUED into ours,
+   and logic (thought experiments, causal chains to the end). Our best material already works this way (zero-order
+   release = sequence risk; newsvendor + donor study = a two-cost range; human capital + the failure corner), but we
+   have been presenting single concepts, not syntheses. The Library is now on a far-field synergy wave (WO-R11).
+2. **Nothing good vanishes.** `IDEA_BANK.md` now holds 31 ideas with a destination (IPS / Final Report / both) and a
+   critique, plus the dropped list with reasons. The synthesis is checked against it.
+3. **Big picture over minutiae.** I have spent too much of the last day on decimals (0.2pp vs 0.04pp, "to the
+   dollar" vs "within $1k"). Those were worth fixing once, but they're not the work. From here, accuracy fixes go in one
+   line in the log and the time goes to strategy and argument.
+4. **No timeline rule but Saturday.** I had read "near-final Sat 31" as "no prose until Fri 30". Ahaan says that was
+   never a rule. So I'll draft when the thinking is ready, and expect to write a first synthesis-led draft once R11
+   lands, rather than waiting for Friday.
+5. **7.5%:** the models keep a world-stocks assumption (it's what they need), but no deliverable calls it VT's return,
+   and the IPS has no return figure at all.
+6. **Voice:** qualitative, not counted. Ahaan's essays set the tone; the witty Wall Street writers sit beside them.
+   `fingerprint.py` is retired as a gate. AI detection only via real web detectors, briefly, if at all.
+7. **AI-use logging stops**: Caplet will handle citations.

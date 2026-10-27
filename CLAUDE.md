@@ -1,14 +1,14 @@
 # Team Keel / Team Caplet: project memory
 
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
-decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-27 (Wharton's halfway email, IPS instructions and deliverables page = Books 6-8 of the bible).
+decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-27 (Books 6-8 = Wharton's halfway email, IPS instructions and deliverables page; Book 9 = Ahaan's 27 Oct message).
 
 ## For every Claude session in this repo (all teammates)
 Whoever is using Claude here, these rules apply, and the Keel Office (formerly the Caplet Research Office) is how competition work is done:
-- **THE BIBLE comes first: eight books, all equal (Caplet's five, 23-26 Oct 2026, and Wharton's three official files of 27 Oct), verbatim in `keel/BIBLE.md`** (north stars;
+- **THE BIBLE comes first: nine books, all equal (Caplet's six, 23-27 Oct 2026, and Wharton's three official files of 27 Oct), verbatim in `keel/BIBLE.md`** (north stars;
   refinements; Caplet XR and de-obsessions; rewrite from scratch and star 4; Caplet XR locked; plus the 26 Oct cover note; Books 6-8 = Wharton's halfway
   email, "THIS IS BIBLE. OFFICIAL FILE", the updated IPS instructions PDF, "THIS IS BIBLE", filed in `competition/official/2026_27/wharton_email_week5_2026-10.md`,
-  and the deliverables page with the five evaluation criteria word for word, `competition/official/2026_27/SMApply_Deliverables_Page_2026-10-27.md`; every draft is checked against the criteria part by part, BIBLE rule 9).
+  and the deliverables page with the five evaluation criteria word for word, `competition/official/2026_27/SMApply_Deliverables_Page_2026-10-27.md`; every draft is checked against the criteria part by part, BIBLE rule 9; Book 9 = Ahaan, 27 Oct: look intelligent through niche strategies fused and critiqued plus logic, every good idea lands in a deliverable via `keel/ips_rewrite/IDEA_BANK.md`, big picture over minutiae, no timeline rule but the Sat 31 Oct review draft, BIBLE rule 10).
   Extraordinary above all; Ray's distinctive, deeply human voice; one subtle motif, Caplet XR (X = 10; R never
   "release"); breathtaking investing knowledge, applied; no hedging (iBonds held to liquidation are near-ironclad);
   judges are not mini-Lauras. **The IPS rewrite is slow and deep, never hasty**: near-final for review Sat 31 Oct,
