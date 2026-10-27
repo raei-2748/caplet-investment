@@ -301,7 +301,7 @@
     const B = K.bible;
     if (!B || !B.rules) return "";
     const byName = Object.fromEntries(K.members.map(m => [m.name.split(" ")[0], m]));
-    return `<section class="card bible"><div class="sec-head"><span class="tag px">The bible · seven books, all equal · read first, every run</span><a href="#/doc/${esc(B.doc)}">Read all seven books →</a></div>
+    return `<section class="card bible"><div class="sec-head"><span class="tag px">The bible · eight books, all equal · read first, every run</span><a href="#/doc/${esc(B.doc)}">Read all eight books →</a></div>
       <blockquote>${esc(B.quote)}<cite>${esc(B.said)}</cite></blockquote>
       ${B.books && B.books.length ? `<ul class="books">${B.books.map(b => `<li><a href="#/doc/${esc(B.doc)}"><span class="px">${esc(b.title.split(":")[0])}</span>${esc(b.title.split(": ").slice(1).join(": "))}<span class="tiny muted">${esc(b.date)}</span></a></li>`).join("")}</ul>` : ""}
       <h3 style="margin:1rem 0 0">Keel's reading: the rules every run applies</h3>
@@ -363,6 +363,7 @@
     app.innerHTML = `
       <div><div class="crumbs"><a href="#/more">More</a>›<span>IPS</span></div><h1>The IPS, version by version</h1>
         <p class="lede">Every full draft of the pitch and the IPS, numbered for good (register: ${docLink("keel/ips_rewrite/VERSIONS.md", "VERSIONS.md")}). Caplet doc versions are the team's own Google Doc tabs; everything else is an AI DRAFT for Caplet to rewrite. Word counts are the strict count (a hyphen splits a word), the one to keep under the limit.</p></div>
+      ${judgedCard()}
       <section class="card"><div class="sec-head"><h2>IPS words</h2>${legendLines(present)}</div>${versionChart(vs, "ips_words", 500, "IPS words")}</section>
       <section class="two">
         <div class="card"><h2>Pitch words</h2>${versionChart(vs, "pitch_words", 50, "pitch words")}</div>
@@ -635,12 +636,24 @@
     app.innerHTML = `<div class="today"><div class="day-title"><span class="eyebrow">The log</span><h1>Every day so far</h1></div>
       <ul class="daylist">${DAYS.map(D => { const f = D.for_caplet[0] || D.plain[0] || {}; const lead = f.text ? (f.who ? f.who.replace(/^The /, "") + (/[.!?]$/.test(f.who) ? " " : ": ") : "") + f.text : ""; return `<li><a href="#/day/${D.day}"><span class="d">${esc(shortDay(D.day))}</span><span class="l">${esc(lead.length > 170 ? lead.slice(0, 170).replace(/\s\S*$/, "") + "…" : lead)}</span><span class="c">${plural(D.talks.length, "conversation")} · ${D.research.length} research · ${D.done.length + D.calls.length} done</span></a></li>`; }).join("")}</ul></div>`;
   }
+  // The five criteria in short (Wharton's full words: the bible, Book 8)
+  const CRITERIA = [
+    ["Investment Strategy", "A clear, creative thesis; disciplined planning across Laura's changing horizons and cash flows; sensible diversification; everything consistent with the IPS."],
+    ["Client Knowledge and Objectives", "Tailored to Laura's circumstances, priorities, risk and residency goals; recommendations that can earn her confidence."],
+    ["Portfolio Analysis", "Investing concepts and tools used well; numbers and judgement together; reasonable projections of funding reliability, the facility gift and her flexibility in good and bad markets."],
+    ["Articulation of Competition Experience", "Teamwork, communication and learning; how we researched and decided; how we grew and handled setbacks."],
+    ["Creativity and Presentation", "A compelling story in our own voice; data that backs the conclusions; original thinking and real reflection; the gift and its uncertainty told credibly to co-sponsors."]];
+  function judgedCard() {
+    return `<section class="card judged"><div class="sec-head"><h2>How the judges score us</h2><a href="#/doc/keel/BIBLE.md">Wharton's words (Book 8) →</a></div>
+      <ol class="crit">${CRITERIA.map(([t, d]) => `<li><b>${esc(t)}</b><span>${esc(d)}</span></li>`).join("")}</ol>
+      <p class="small muted" style="margin:.5rem 0 0">Five criteria across the Trading Notes, the IPS and the Final Report, judged together. WInS gains and losses are not scored. The bible, Book 8; part by part in ${docLink("keel/library/ips_road_2026-10/03_CRITERION_MAP.md", "the criterion map")}.</p></section>`;
+  }
   function pageMore() {
-    const L = [["#/office", "Office dashboard", "Rooms on time, charts, deadlines and the latest commits"], ["#/ips", "The IPS", "Every version and what changed"], ["#/doc/keel/BIBLE.md", "The bible", "Seven books, read first by every run"],
+    const L = [["#/office", "Office dashboard", "Rooms on time, charts, deadlines and the latest commits"], ["#/ips", "The IPS", "Every version and what changed"], ["#/doc/keel/BIBLE.md", "The bible", "Eight books, read first by every run"],
       ["#/plan", "Questions for you", "The danger-zone question, Keel's own calls with reasons, and your instructions"], ["#/rooms", "Rooms", "Twelve rooms, each with its decisions and work"], ["#/team", "The six", "Profiles and every take"],
       ["#/activity", "Activity", "Every commit and the run log"], ["#/episodes", "Episodes", "The story so far (fiction)"], ["#/library", "Library", "Every page Keel has written"]];
     app.innerHTML = `<div class="today"><div class="day-title"><span class="eyebrow">One click deeper</span><h1>Everything else</h1></div>
-      <ul class="morelist">${L.map(([h, t, d]) => `<li><a href="${h}"><b>${esc(t)}</b><span>${esc(d)}</span></a></li>`).join("")}</ul></div>`;
+      <ul class="morelist">${L.map(([h, t, d]) => `<li><a href="${h}"><b>${esc(t)}</b><span>${esc(d)}</span></a></li>`).join("")}</ul>${judgedCard()}</div>`;
   }
 
   // ---------- router ----------

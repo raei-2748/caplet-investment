@@ -1,10 +1,10 @@
-# THE BIBLE: seven books (23-27 Oct 2026): Caplet's five and Wharton's two official files of 27 Oct. Top priority for every Keel member, room, agent and run.
+# THE BIBLE: eight books (23-27 Oct 2026): Caplet's five and Wharton's three official files of 27 Oct. Top priority for every Keel member, room, agent and run.
 
 > **"The message Ray quoted earlier isn't the only Bible. In fact, you've got quite a few Bibles. (Multiple books of
 > the Bible, I suppose?) ... All are equal."** (Caplet, Mon 26 Oct 2026, 23:21 Sydney.) The first version of this page
 > (26 Oct, 22:55: "this is bible") held only Book 5. It now holds all five, word for word, as equals. On
-> 27 Oct Ray added two of Wharton's own: the halfway email ("THIS IS BIBLE. OFFICIAL FILE.") and the updated IPS
-> instructions ("This is the latest PDF. THIS IS BIBLE.").
+> 27 Oct Ray added three of Wharton's own: the halfway email ("THIS IS BIBLE. OFFICIAL FILE."), the updated IPS
+> instructions ("This is the latest PDF. THIS IS BIBLE.") and the deliverables page with the five evaluation criteria.
 >
 > **Where it sits.** Above everything Keel owns: `INSTRUCTIONS.md`, `NORTH_STARS.md`, `VOICE.md`, `CULTURE.md`, every
 > runbook, room card, member file, office agent and skill. Where any of them disagrees with a book, the book wins and
@@ -13,7 +13,7 @@
 > above it, and nothing here asks Keel to break them.
 >
 > **How to use it.** Every run reads the cover note and Keel's reading at the bottom; any run touching the IPS, the
-> Final Report, a draft, a name or the motif reads all seven books in full. The books are equal, and Keel is told to use
+> Final Report, a draft, a name or the motif reads all eight books in full. The books are equal, and Keel is told to use
 > its own judgement: it may weigh one above another, or question one, as long as it says why and the expectations are
 > met. What the six members took from Book 5: `BIBLE_TAKES.md`.
 
@@ -400,6 +400,70 @@ man…") stay out of this repo, because the portal is public. Keel's notes on ho
 >
 > Relevant sources and supporting evidence must be included in the Final Report.
 
+## Book 8: Wharton's deliverables page and the five evaluation criteria, official (Tue 27 Oct 2026)
+
+> Ray, 27 Oct (21:47 Sydney), pasting the SMApply Deliverables page with the halfway email: **"REmember the email I
+> sent you fam earlier? there is competition tips. these are gold."** The tips are Book 6's "TIPS FOR COMPETITION
+> SUCCESS". This book is the page itself, verbatim; the filed copy is
+> `../competition/official/2026_27/SMApply_Deliverables_Page_2026-10-27.md`. The criteria are word for word the ones
+> on the page on 27 Sep; only the sample school documentation link is new. **These five sentences are what the judges
+> score. Every room checks its work against them, clause by clause (rule 9).**
+
+> The 2026-2027 has four REQUIRED Deliverables:
+>
+> 1. Team Roster (Due: October 9; no later than 5:00 p.m. ET)
+> 2. Trading Notes Analysis (Due: October 23; no later than 5:00 p.m. ET)
+> 3. Investment Policy Statement (Due: November 6; no later than 5:00 p.m. ET)
+>    * IMPORTANT: Trading ends and your portfolio is locked.
+> 4. Final Report & Official School Documentation (Due: December 4; no later than 5:00 p.m. ET)
+>
+> Team must submit all the deliverables, and meet their necessary requirements, in order to receive a digital credential.
+> Your Trading Notes Analysis, Investment Policy Statement and Final Report are evaluated.
+> All deliverables must be submitted via your team's SurveyMonkey Apply account.
+> We will not grant any deadline extensions.
+>
+> DETAILS
+>
+> Team Roster
+> Once your official team roster is submitted, teams may not change their members.
+> Information required:
+>
+> 1. Full Name – Every Student
+> 2. Email – Every Student (NOTE: A unique email must be provided for each student.)
+> 3. Birthday (Month, Day, Year) - Every Student
+> 4. Anticipated Graduation Year – Every Student
+> 5. Official Team Name
+> 6. School Country
+> 7. School State (U.S. school only)
+> 8. School City
+> 9. Official School Website (URL)
+>
+> Trading Notes Analysis
+> The purpose of this deliverable is to demonstrate how your team's investment decisions reflected the strategy it developed for the client.
+> Instructions: Click Here (https://upenn.box.com/s/3pxn798a1lnlifkikj4g56srmg2ijuo6)
+>
+> Investment Policy Statement
+> Your investment strategy is the cornerstone of the Wharton Global High School Investment Competition, and your Investment Policy Statement is where you clearly articulate that strategy.
+> Instructions: Click Here (https://upenn.box.com/s/0iib496jhswp30c12zhn6b2fret8dl30)
+>
+> Final Report & School Documentation
+> In your Final Report, your team will evaluate how it implemented its investment strategy and present its analysis and recommendations for achieving Laura's goals.
+> Instructions: Detailed Final Report instructions and requirements will be shared on November 9.
+> We require official documentation from your school to ensure your team is in compliance with the Competition Rules. Do not wait until the last minute to request documentation. This will be submitted along with your Final Report as a separate file.
+> Sample Documentation: Click Here (https://upenn.box.com/s/ullruymjf12ohi1uupqx4j6y8w4u5p06)
+>
+> EVALUATION CRITERIA
+>
+> Investment Strategy: Presents a clear and creative investment thesis; demonstrates disciplined planning across Laura's changing time horizons and cash-flow needs; uses appropriate diversification; and maintains consistency with the team's IPS.
+>
+> Client Knowledge and Objectives: Tailors the strategy to Laura's circumstances, priorities, risk considerations, and residency goals; demonstrates a thoughtful understanding of the client; and presents recommendations that can earn her confidence.
+>
+> Portfolio Analysis: Demonstrates understanding and effective use of investment concepts and tools; integrates quantitative and qualitative analysis; and uses reasonable assumptions and projections to evaluate funding reliability, the facility contribution, and financial flexibility under varying market outcomes.
+>
+> Articulation of Competition Experience: Demonstrates teamwork, communication, and learning; clearly explains the team's research and decision-making process; and reflects meaningfully on the team's growth and response to challenges.
+>
+> Creativity and Presentation: Presents a compelling, well-organized narrative in an authentic team voice; uses data effectively to support conclusions; demonstrates original thinking and meaningful reflection; and communicates Laura's potential facility contribution and investment uncertainty clearly and credibly to prospective co-sponsors.
+
 ## Keel's reading: the rules every run applies (the books win if these ever drift)
 
 The books are equal. These rules are how Keel turns them into daily practice; each names the book or books it comes from.
@@ -442,6 +506,18 @@ The books are equal. These rules are how Keel turns them into daily practice; ea
    operating commitment is protected while leaving room for a responsible facility contribution. It is a framework,
    not a list of holdings or calculations; the reserve sums, projections, the facility range and the co-sponsor
    draft belong to the Final Report. Once submitted, the strategy may not change.
+
+9. **The five criteria are the scorecard** (Book 8, with Book 6's tips). Judges score three deliverables together on
+   five sentences, and each sentence has parts. Every draft is checked part by part: a thesis that is clear AND creative;
+   disciplined planning across Laura's changing horizons and cash flows; appropriate diversification; consistency with
+   the IPS (Investment Strategy). Tailored to her circumstances, priorities, risk and residency goals; recommendations
+   that earn her confidence (Client Knowledge and Objectives). Investment concepts and tools used well; numbers and
+   judgement together; reasonable assumptions and projections testing funding reliability, the facility contribution
+   and flexibility across market outcomes (Portfolio Analysis). Teamwork, communication, learning; the research and
+   decision process; growth and response to challenges (Articulation). A compelling, well-organised narrative in an
+   authentic team voice; data that supports conclusions; original thinking and real reflection; the facility
+   contribution and its uncertainty told clearly and credibly to co-sponsors (Creativity and Presentation). Map:
+   `library/ips_road_2026-10/03_CRITERION_MAP.md`; weekly scores: `pm/SCORECARD.md`.
 
 ## What this page overruled on Mon 26 Oct (removed or rewritten the same day)
 - The Rooftop's "three kinds of sure" proposal (`rooms/rooftop.md`, request of 26 Oct to the Writing Room): withdrawn.
