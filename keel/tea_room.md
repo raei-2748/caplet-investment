@@ -108,6 +108,9 @@ co-sponsor a number she doesn't already own."**
 - Jun told Nora the late nights are fear of a wrong number in public, then asked Kai to run Monday's numbers with him (Ep 29).
 - Amara and Jun are square on the 11 Oct number: before the vote he showed her the two-editions row first, and she
   poured him a chai and said so (Kitchen, Sun 25 Oct, `rooms/kitchen.md`).
+- Nora and Kai: the truce held through a loss. Kai lost the clearing-house case (C-02, Tue 27 Oct), then asked in the
+  Kitchen whether the 2031 bottom has a "ninety" (a figure it can never go below) and said he wasn't reopening.
+  Nora didn't close it: "Good question. Bring it Thursday." Half a mandarin each (Kitchen, Tue 27 Oct, `rooms/kitchen.md`).
 
 ## Long Room log (Sydney date and minutes; room days; purpose)
 | Sydney | Minutes | Room days | Purpose | Who |
