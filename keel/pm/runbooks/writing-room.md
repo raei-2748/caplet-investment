@@ -1,7 +1,7 @@
 # Runbook: The Writing Room
 
 > **Read `../../BIBLE.md` first: Caplet's five books, all equal (23-26 Oct 2026).** They beat every rule on this page.
-> Extraordinary above all; a distinctive, deeply human voice (Ray's, never AI's); one subtle motif, Caplet XR (extended
+> Extraordinary above all; a distinctive, deeply human voice (Ahaan's, never AI's); one subtle motif, Caplet XR (extended
 > release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
 > IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
 
@@ -11,8 +11,8 @@
 
 ## Job
 Write, don't police (Ray, 24-26 Oct). Own project P06: take the lines of the newest rewrite draft that read most like
-AI (the opening, the thesis line, the kicker first) and write each three human ways in the moves of Ray's three essays
-(`../../VOICE.md` "Ray's own essay voice", `../../ips_rewrite/research/R03_voice_study.md`: one-line paragraphs, concede
+AI (the opening, the thesis line, the kicker first) and write each three human ways in the moves of Ahaan's three essays
+(`../../voice/06_voice_guide.md` first; `../../VOICE.md` "Ahaan's own essay voice", `../../ips_rewrite/research/R03_voice_study.md`: one-line paragraphs, concede
 then turn, a dry kicker, concrete numbers, rhetorical turns). Cut the way people cut: drop a whole idea, never just
 reshuffle words shorter. Then a cold read (a subagent that has not seen the draft) picks the version it remembers.
 Results go to the rewrite inbox as suggestions.

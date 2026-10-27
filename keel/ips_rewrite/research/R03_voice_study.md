@@ -1,11 +1,14 @@
-# R03: How Ray writes, and how AI writes (voice study for the rewrite)
+# R03: How Ahaan writes, and how AI writes (voice study for the rewrite)
 
-AI-generated (Claude Code), 26 Oct 2026. Source: Ray's three essays in the project chat (24 Oct, msg
+> Corrected 27 Oct: these are **Ahaan's** essays, not Ray's (`../../voice/01_digest_ahaan.md`). The measured follow-up
+> and the guide Keel now writes with: `../../voice/`.
+
+AI-generated (Claude Code), 26 Oct 2026. Source: Ahaan's three essays in the project chat (24 Oct, msg
 cmsg_01AKe7Gm6dQDTz8WENWdq6LTBuEnTxFniQS2qD5vaBf3sd). Only short phrases are quoted; the essays stay in the chat.
 This replaces nothing in `keel/VOICE.md`; it is the rewrite's working sheet. (WO-R3, done here because the rooms
 can't read the chat.)
 
-## Twenty moves in Ray's essays that AI prose almost never makes
+## Twenty moves in Ahaan's essays that AI prose almost never makes
 1. **Opens on a concrete scene or number, not a thesis.** "66 million years ago ..."; the thesis comes third.
 2. **Voices the other side in its own words, in short blunt sentences.** "You knew what you were doing. You could have
    done otherwise." Then dismantles it.

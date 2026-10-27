@@ -245,9 +245,9 @@ The books are equal. These rules are how Keel turns them into daily practice; ea
    moved, never to fill a slot or a day. No room asks the rewrite thread for a draft, a word count or a date before
    Sat 31 Oct. The near-final IPS is for Caplet's review by **Sat 31 Oct**; the final is due **Sat 7 Nov 09:00
    Sydney (Fri 6 Nov ET)**. Old drafts (v4.1, D1-D3) are inspiration only.
-3. **A distinctive, deeply human voice: Ray's** (Books 1, 2, 5). Cerebral yet witty, passionate yet thoughtful,
+3. **A distinctive, deeply human voice: Ahaan's** (Books 1, 2, 5; the essays and books are his, corrected 27 Oct; Keel writes with `voice/06_voice_guide.md`). Cerebral yet witty, passionate yet thoughtful,
    insightful yet confident; work judges enjoy reading. Lean but human: cut like a person (drop a whole idea), never
-   by reshuffling words. Test against Ray's three essays (notes in `ips_rewrite/research/R03_voice_study.md`) and the
+   by reshuffling words. Test against Ahaan's three essays (`voice/fingerprint.py`; notes in `ips_rewrite/research/R03_voice_study.md`) and the
    TNA reflections he rewrote (the Archive holds them), with Orwell as one check, not the only one. A list of banned
    AI tells is not enough.
 4. **One motif, subtle, found on the road less taken** (Books 1, 2, 3, 5). Caplet XR is locked: show both meanings,

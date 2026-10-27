@@ -1,7 +1,7 @@
 # The four north stars (Ray, 23 Oct 2026; star 4 added 26 Oct; all four equal)
 
 > **Read `BIBLE.md` first: Caplet's five books, all equal (23-26 Oct 2026).** They beat every rule on this page.
-> Extraordinary above all; a distinctive, deeply human voice (Ray's, never AI's); one subtle motif, Caplet XR (extended
+> Extraordinary above all; a distinctive, deeply human voice (Ahaan's, never AI's); one subtle motif, Caplet XR (extended
 > release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
 > IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
 
@@ -92,7 +92,7 @@ So star 2 now reads: **one motif, used sparingly, that only Caplet could have, a
    (releases on schedule, "do not crush") work; find more dimensions. A second meaning of XR that sounds like a real
    investing product tier, used in the intro or conclusion, for flair. Not mandatory: a better name is welcome.
 2. **Stop obsessing over overclaim words.** Humans overclaim a little; AI always hedges to the mildest word. Want flair
-   and voice like Ray's essays (but don't actively overclaim).
+   and voice like Ahaan's essays (but don't actively overclaim).
 3. **Judges are not mini-Lauras.** They are competition judges seeking the best investing knowledge and strategy; don't
    evaluate drafts by whether Laura would like them.
 4. **No time on grammar, punctuation or spelling.** En dashes are correct in Australia. Focus on substance.

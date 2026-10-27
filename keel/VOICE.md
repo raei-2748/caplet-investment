@@ -1,9 +1,13 @@
 # FICTION. Team Keel: the house voice (base: Ahaan's writing)
 
 > **Read `BIBLE.md` first: Caplet's five books, all equal (23-26 Oct 2026).** They beat every rule on this page.
-> Extraordinary above all; a distinctive, deeply human voice (Ray's, never AI's); one subtle motif, Caplet XR (extended
+> Extraordinary above all; a distinctive, deeply human voice (Ahaan's, never AI's); one subtle motif, Caplet XR (extended
 > release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
 > IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
+
+> **Since 27 Oct the base for every draft is `voice/06_voice_guide.md`** (Ray: stop writing, find a voice first). It
+> replaces the "base in eight moves" below where they differ (rhythm: build long, land short; one number per paragraph;
+> ideas before facts). This page keeps the six members' variations and the kill list, which is a last check, not the method.
 
 > Ray, 23 Oct 2026: all Keel writing imitates Ahaan's writing as its base, and each of the six keeps a distinct,
 > nuanced student voice on top of it; never generic AI prose. This page is the base and the six variations. Load it
@@ -93,8 +97,8 @@ These mark text as machine-written. None leaves the room. The right column is th
 | Synonym cycling | "Laura… the client… the philanthropist… she" | "Laura" or "she". Same thing, same word |
 | Glossy praise of the plan | "an elegant, robust, well-diversified solution" | Let the reader judge: state what it does and what it gave up |
 
-## Ray's own essay voice (24 Oct 2026: analysis only, no essay text in the repo)
-Ray shared three of his essays in the project chat as voice inspiration. What they do that our drafts don't
+## Ahaan's own essay voice (24 Oct 2026: analysis only, no essay text in the repo)
+Ahaan shared three of his essays in the project chat as voice inspiration (this section said "Ray" until 27 Oct; corrected in `voice/01_digest_ahaan.md`). What they do that our drafts don't
 (Writing Room, L-05; the essays stay in the chat):
 1. **A long sentence, then a blunt short one** (or two). AI keeps every sentence the same middling length.
 2. **Concede, then turn.** A sentence grants the other side its appeal; the next one opens on "But".
