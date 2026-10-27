@@ -96,9 +96,9 @@ re-read); cash for a known need is a shock absorber, not a pogo stick (186); the
 about 0.27% after the 2025 downgrade (183); private assets look calm only because appraisals lag (096, re-read).
 
 ## Synthesis 3 (after 312 pieces, 28 Oct, before dawn)
-New since synthesis 2 (`LOG.md` 187-312): writing about writing (Orwell, Didion, Graham x40), 34 Buffett letters in
+New since synthesis 2 (`LOG.md` 187-312): writing about writing (Orwell, Didion, Graham: about 60 essays in all), 30 Buffett letters in
 all (1977 to Abel's first in 2026), Marks's memos old and new, Haldane on prices, patience, tails and networks,
-Keynes ch. 12, Housel x24, Bullock, the Hopkins and Tufts winners, White's pig.
+Keynes ch. 12, Housel (about 25 posts in all), Bullock, the Hopkins and Tufts winners, White's pig.
 
 1. **The thesis is the first sentence, and it sounds like trivia.** "Japan has 140 businesses that are at least 500
    years old." (258) "Every forecast takes a number from today and multiplies it by a story about tomorrow." (262)
