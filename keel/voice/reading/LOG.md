@@ -17,7 +17,7 @@ about 60-90 pieces an hour at best. Collections (memo anthologies, letter compil
 Each entry: **Open / Best / Close** (quoted lines), **Craft** (rhythm, stance, shape), **Steal** (one move worth
 copying), **Insight** (only if there is one). What the entries add up to goes in `SYNTHESIS.md` after every 100.
 
-Count so far: **133**
+Count so far: **162**
 
 ---
 
@@ -383,3 +383,68 @@ more money." That is a Graham-shaped first line for the IPS: it puts the judge i
 
 Pattern: Damodaran opens four of seven posts with *where he was* (a beach, Latin America, India as a boy). The
 personal first line is his signature, and it never lasts more than a sentence before the numbers start.
+
+### 134-137 · Speeches: the strand on feeling, continued · reader
+| # | Piece | Open | Turn | Close | How it moves | Steal |
+|---|---|---|---|---|---|---|
+| 134 | Winston Churchill, "Blood, toil, tears and sweat" (1940) https://historyplace.com/speeches/churchill.htm | "I have nothing to offer but blood, toil, tears and sweat." | "...for without victory, there is no survival." | "Come then, let us go forward together with our united strength." | The price comes first, before any ask. Short, plain words; a drumbeat of repetition. | **Name the cost before the promise.** The strongest version of F3. |
+| 135 | Barack Obama, DNC keynote (2004) https://billofrightsinstitute.org/activities/barack-obama-keynote-address-at-the-democratic-national-convention-july-27-2004/ | "let's face it, my presence on this stage is pretty unlikely." | "...the hope of a skinny kid with a funny name who believes that America has a place for him, too." | "...out of this long political darkness a brighter day will come." | Named people (a father herding goats, a grandmother on a bomber line); "hope" redefined as substance, not "blind optimism". | Abstract values carried by named people; a parallel list that ends on the speaker. |
+| 136 | Lou Gehrig, farewell (1939) https://fordham.edu/Halsall/mod/1939gehrig-farewell.asp | "Fans, for the past two weeks you have been reading about a bad break I got." | (the "luckiest man" line) | "I have an awful lot to live for!" | A dying man calls it "a bad break" and spends the speech thanking people. Never names the fear; the gratitude stacks until the illness looks small. | **Understatement of the loss** moves more than description of it. |
+| 137 | Randy Pausch, "The Last Lecture" (2007), via NPR https://www.npr.org/transcripts/92960436 | "I'm dying," he told them. "And yet I'm having fun." | "The brick walls are there to give us a chance to show how badly we want something." | - | The hardest fact in three words, then lightness. Grief and a smile in one breath. | State the worst fact plainly, then pivot at once to what the listener can do. |
+
+The speech strand now says one thing loudly: **the speakers people remember say the bad news first and smallest**
+("a bad break", "I'm dying", "nothing to offer but blood"). Caplet's version for the IPS: say the risk first, in its
+real size ("the one thing that can break this plan is the United States not paying its debts"), then the plan.
+
+### 138-141 · Howard Marks, more memos · reader
+| # | Memo | Open | Best line | Steal |
+|---|---|---|---|---|
+| 138 | Dare to Be Great (Sep 2006) | "In one of the most colorful vignettes of the early 1970s, Glenn Turner..." | "Everyone craves market inefficiency, but most people are vague on what it means or where it comes from." | A cinematic scene before the thesis. |
+| 139 | The Realist's Creed (May 2002) | "Early this year, I was asked to write an article for 'Trusts & Estates' magazine." | "Worriers gain less when everything goes right, but they also lose less." | Split the world into two named camps and argue for one on its own terms. |
+| 140 | Nobody Knows (Sep 2008) | "The title of this memo isn't a joke; I mean it." | "But heroes aren't people who're unafraid, but rather those who act bravely despite their fears." | A flat declaration about the title itself, then the limits. |
+| 141 | Safety First . . . But Where? (Apr 2001) | "Are you from the old school? Do the following terms sound familiar?" | "The bottom line is that risk of fluctuation is always present." | A self-test as the opening. **Insight:** safety depends on price and time horizon, not labels; this is Caplet belief 2 ("'Safe' belongs to a date, not to an asset") in Marks's words. |
+
+### 142-145 · Speeches and a founder's last letter · reader
+| # | Piece | Open | Turn | Close | How it moves | Steal |
+|---|---|---|---|---|---|---|
+| 142 | Franklin D. Roosevelt, first inaugural (1933) https://www.ibiblio.org/ebooks/FDR/FDR_Inaugural1.htm | "This is a day of national consecration" | "the only thing we have to fear is fear itself" | "We do not distrust the future of essential democracy." | **A bank panic as the subject.** Names the fear as the enemy so people can refuse it; gives anger a target ("the unscrupulous money changers"); recasts citizens as a disciplined army. | Blunt admission, then urgent repetition ("We must act; we must act quickly"). |
+| 143 | Abraham Lincoln, Gettysburg Address (1863) https://historynet.com/gettysburg-address-text | "Four score and seven years ago our fathers brought forth on this continent..." | "we can not dedicate — we can not consecrate — we can not hallow — this ground." | "...shall not perish from the earth." | 270 words. Time counted in an old way; three denials humble the speaker; the pivot from the dead to the living turns grief into duty. | Parallel clauses, each heavier than the last. **Proof that a short form (like a 500-word IPS) can carry everything.** |
+| 144 | Malala Yousafzai, UN Youth Assembly (2013) https://www.rev.com/blog/transcripts/malala-yousafzai-speech-at-united-nations-youth-assembly-2013-transcript | "Today it is an honor for me to be speaking again after a long time." | "Malala Day is not my day." | "One child, one teacher, one book, and one pen can change the world." | Her wound becomes everyone's cause; "We call upon" repeated. | End on a counting ladder of small concrete things. |
+| 145 | Jeff Bezos, 2020 letter (his last as CEO) https://www.newsweek.com/read-jeff-bezos-final-letter-shareholders-before-stepping-down-amazon-ceo-1583854 | "I wrote that it was Day 1." | Dawkins: living things that don't actively resist "would eventually merge into their surroundings." | "never, never, never let the universe smooth you into your surroundings." | Fear of dissolving into the crowd; a borrowed scientist's line as the warning. | **For Caplet's whole project (north star 1):** distinctiveness is effort against a pull toward the average. Keel's plastic prose is exactly being "smoothed into the surroundings". |
+
+**Count check on the strand (25 pieces):** the most-used emotional move is **the honest cost first** (Churchill, Gehrig,
+Pausch, FDR, Kennedy, Chouinard, Google, Bezos 1997), then **named people** (Obama, King, Malala, Buffett on Munger).
+Guide section 7 has both (F3, F2); synthesis 2 will rank them.
+
+### 146-153 · Levine, Housel and Graham, more · reader
+| # | Piece | Open | Best line | Steal |
+|---|---|---|---|---|
+| 146 | Matt Levine, "The US Might Be Only AA" (May 2023) https://www.bloomberg.com/opinion/articles/2023-05-25/the-us-might-be-only-aa | "As you know, Money Stuff's time off is correlated with lower market volatility." | "I take this to be bullish for debt-ceiling negotiations, though of course this is not investing advice." | A joke premise reasoned through with a straight face; the deadpan disclaimer. |
+| 147 | Matt Levine, "People Are Worried About the Basis Trade" (Sep 2023) https://www.bloomberg.com/opinion/articles/2023-09-14/people-are-worried-about-the-basis-trade | "A simple model of US Treasury bonds could go something like:" | "don't talk about market share in email." | **Announce the toy model as a toy**, so the reader accepts it before the real mechanism. The colon as a door. |
+| 148 | Collaborative Fund, interview with Tyler Bainbridge https://collabfund.substack.com/p/who-do-you-trust-to-tell-you-whats | "Algorithms have an answer for everything except what's good." | "Everyone deserves to have friends (online or IRL) that they can nerd out with." | A big claim through one specific anecdote. |
+| 149 | Morgan Housel, "If an idea is good, the work flows easily" https://collabfund.substack.com/p/if-an-idea-is-good-the-work-flows | Woodrow Wilson: government "is accountable to Darwin, not to Newton." | "If an idea is good, the work flows easily." | A claim paired with a self-test. (And a diagnostic for Keel: when the IPS paragraph won't flow, the idea is the problem.) |
+| 150 | Paul Graham, "Hackers and Painters" http://www.paulgraham.com/hp.html | "When I finished grad school in computer science I went to art school to study painting." | "Relentlessness wins because, in the aggregate, unseen details become visible." | A dry point made vivid by one comparison (a compiler as a strict old aunt). |
+| 151 | Paul Graham, "Why Nerds are Unpopular" http://www.paulgraham.com/nerds.html | "When we were in junior high school, my friend Rich and I made a map of the school lunch tables..." | "Nerds aren't losers. They're just playing a different game." | Recast the insult as a different game; an artefact (a map of lunch tables) first. |
+| 152 | Paul Graham, "Lies We Tell Kids" http://www.paulgraham.com/lies.html | "Adults lie constantly to kids." | "We arrive at adulthood with a kind of truth debt." | A financial metaphor for a non-financial idea ("truth debt"). The reverse of Caplet's problem, and a reminder that money words carry feeling. |
+| 153 | Paul Graham, "Cities and Ambition" http://www.paulgraham.com/cities.html | "Great cities attract ambitious people. You can sense it when you walk around one." | "Cambridge with good weather, it turns out, is not Cambridge." | State the tempting assumption, overturn it with one example. |
+
+### 154-156 · A writer on writing, and two counter-examples · reader
+| # | Piece | What it shows | Steal / avoid |
+|---|---|---|---|
+| 154 | Jason Zweig (WSJ; editor of *The Intelligent Investor*), interview on his work https://fs.blog/wp-content/uploads/2016/12/Jason.pdf | His job is "saying the exact same thing between 50 and 100 times a year" without readers noticing. "I try to tell people not only what I know and what I have learned, but I try to tell them how I have learned it." On Mencken: "He never wrote a boring paragraph." He wrote two or three hours a day from 13 to 25. | **Show how you learned it**, not only what. For Caplet: the IPS can say *how* the team found its idea in one clause ("we priced the ten cheques before we bought anything"). And Marks's point again: voice is the same few truths, retold freshly. |
+| 155 | iShares, IBTM fact sheet https://ishares.com/us/literature/fact-sheet/ibtm-ishares-ibonds-dec-2032-term-treasury-etf-fund-fact-sheet-en-us.pdf | **Counter-example.** "The iShares iBonds Dec 2032 Term Treasury ETF seeks to track an index of U.S. Treasury bonds maturing in 2032." Label-value tables; disclaimers crowd out who the fund is for. One useful plain phrase: "build a bond ladder, and manage interest rate risk with a defined maturity". Fact: the funds "will terminate on or about October or December 15 of the year in each Fund's name." | This is the register Keel's drafts drift into. If a sentence could sit on a fact sheet, it is inventory, not argument. |
+| 156 | Robert Shiller, "Do Stock Prices Move Too Much to be Justified by Subsequent Changes in Dividends?" (1981), abstract https://ideas.repec.org/a/aea/aecrev/v71y1981i3p421-36.html | **Counter-example.** A Nobel-winning finding whose abstract withholds the verdict: section roadmaps only. The title asks the question better than the abstract answers it. | A great question as a title can carry a dull abstract; Caplet has no such luxury in 500 words. The verdict goes first. |
+
+### 157-162 · Howard Marks, on bonds, risk and luck · reader
+| # | Memo | Open | Best line | Steal / insight |
+|---|---|---|---|---|
+| 157 | High Yield Bonds Today (Feb 2013) | "Clients often ask for our views on the high yield bond market" | "Rather than behaving aggressively, the search for return should involve risk control, caution, discipline and selectivity." | Pose the reader's doubts as questions and answer each. Insight: bigger coupons shorten duration. |
+| 158 | It Is What It Is (Mar 2006) | "My first exposure to the phrase that serves as the title for this memo came in 1995." | "We may never know where we're going, but we'd better have a good idea where we are." | A mundane memory as the anchor; the close turns the title's shrug into a directive. |
+| 159 | Risk Revisited (Sep 2014) | "Volatility is the academic's choice for defining and measuring risk." | "The riskiest thing in the world is the widespread belief that there's no risk." | Take apart the common assumption before offering yours. |
+| 160 | Ruminating on Asset Allocation (2024) https://www.oaktreecapital.com/insights/memo/ruminating-on-asset-allocation | "When I travel to see clients..." | "This isn't a difference in degree; it's a difference in kind." | **The find of this batch.** He recasts "fixed income" as **"fixed outcome"**: ownership collects what is left over; debt collects a promise. That is Caplet's whole split in two words: the ten cheques are a fixed outcome; the gift is ownership. Anchored in a dated object (a 1978 yield machine). Ends: "Thank you for indulging me". |
+| 161 | Getting Lucky (Jan 2014) | "Sometimes these memos are inspired by a single event or just one thing I read." | "Pull out a few of the steps on this progression, and where would I be today?" | The counterfactual: list the turning points of your own story, remove each one. |
+| 162 | Easy Money (2023) https://www.oaktreecapital.com/insights/memo/easy-money | "In Sea Change, I likened the effect of low interest rates to the moving walkway at the airport." | "...we should never confuse brains with a bull market." | Close on a question that hands the reader a decision: "do you agree with it or don't you?" |
+
+**Caplet note on #160:** "fixed outcome" is Marks's phrase, so it belongs in the Final Report with credit (north star
+4: concepts cited there, used uncited in the IPS). The IPS can carry the *idea* in Caplet's own words: the ladder
+doesn't earn income, it delivers outcomes on dates.
