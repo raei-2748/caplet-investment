@@ -597,10 +597,11 @@
     return `${esc(d.name)} in ${plural(days, "day")} (${esc(syd(d.at, { weekday: "short", day: "numeric", month: "short" }))}, ${esc(syd(d.at, { hour: "2-digit", minute: "2-digit", hour12: false }))} Sydney)`;
   }
   function talkCard(t, open) {
-    const head = `${t.kind === "Memo" ? esc(roomName(t.room) || "Memo") : esc(t.kind)}`;
+    const head = t.kind === "Memo" ? esc(roomName(t.room) || "Memo") : t.kind === "Huddle" ? `Huddle · ${plural(new Set(t.lines.map(l => l.name)).size, "voice")} · ${plural(t.lines.length, "post")}` : esc(t.kind);
     const shown = t.lines.slice(0, 4), rest = t.lines.slice(4);
     const msg = l => { const id = nameId(l.name); return `<div class="msg">${id ? `<a href="#/member/${id}" class="msg-ava">${avatar(id, 30, l.name)}</a>` : ""}<div><b>${esc(l.name)}</b><p>${esc(l.text)}</p></div></div>`; };
-    return `<details class="talk"${open ? " open" : ""}><summary><span class="kicker">${head}</span><span class="t">${esc(cleanTitle(t.title))}</span><span class="who-row">${[...new Set(t.lines.map(l => l.name))].map(n => nameId(n) ? avatar(nameId(n), 18, n) : "").join("")}</span></summary>
+    return `<details class="talk"${open ? " open" : ""}><summary><span class="kicker">${head}</span><span class="t">${esc(cleanTitle(t.title))}</span>${t.kind === "Huddle" && t.essence ? `<span class="ess">${esc(t.essence)}</span>` : ""}<span class="who-row">${[...new Set(t.lines.map(l => l.name))].map(n => nameId(n) ? avatar(nameId(n), 18, n) : "").join("")}</span></summary>
+      ${t.decided && t.decided.length ? `<div class="decided"><b>Decided</b><ul>${t.decided.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>` : ""}
       <div class="chat">${shown.map(msg).join("")}${rest.length ? `<details class="more-lines"><summary>${plural(rest.length, "more line")}</summary>${rest.map(msg).join("")}</details>` : ""}</div>
       ${t.path ? `<p class="go">${docLink(t.path, "Read it all →")}</p>` : ""}</details>`;
   }
@@ -622,7 +623,7 @@
       <section class="block"><h2>In plain words</h2><ul class="plainlist">${plainItems || `<li class="muted">Nothing written yet today.</li>`}</ul>
         ${D.plain_auto && D.plain.length ? `<p class="note">No one wrote a plain summary this day, so these are the rooms' own result lines.</p>` : ""}${D.today_doc ? `<p class="note">${docLink(D.today_doc, "The day's page")}</p>` : ""}</section>
       ${D.round && D.round.path ? `<section class="block"><h2>The research round</h2>${D.round.question ? `<p class="q">${esc(D.round.question)}</p>` : ""}<p class="note">${D.round.lens ? `Lens: ${esc(D.round.lens)} · ` : ""}${D.round.beats.length} of 9 beats in · ${docLink(D.round.path, "Read the round →")} · ${docLink("keel/loop/CHAMPIONS.md", "champion board")}</p></section>` : ""}
-      ${D.talks.length ? `<section class="block"><h2>Conversations <span class="count">${D.talks.length}</span></h2><div class="talks">${D.talks.map((t, k) => talkCard(t, k < 2)).join("")}</div></section>` : ""}
+      ${D.talks.length ? `<section class="block"><h2>Conversations <span class="count">${D.talks.length}</span></h2><div class="talks">${D.talks.map((t, k) => talkCard(t, k < 2 && t.kind !== "Huddle")).join("")}</div></section>` : ""}
       ${D.research.length || D.files.length ? `<section class="block"><h2>Research <span class="count">${D.research.length}</span></h2><ul class="rlist">${D.research.map(r => `<li><div class="r-head"><span class="kicker">${esc(roomName(r.room).replace(/^The /, "") || "Huddle")}</span><a href="#/doc/${esc(r.path)}">${esc(cleanTitle(r.title))}</a></div>${r.text ? `<p>${esc(r.text)}</p>` : ""}${r.sources && r.sources.length ? `<details><summary>${plural(r.sources.length, "source")} read</summary><ul>${r.sources.map(x => `<li>${esc(x)}</li>`).join("")}</ul></details>` : ""}</li>`).join("")}</ul>
         ${D.files.length ? `<details class="files"><summary>${plural(D.files.length, "new research page")}</summary><ul>${D.files.map(f => `<li>${docLink(f.path, f.title)}</li>`).join("")}</ul></details>` : ""}</section>` : ""}
       ${done.length || D.open.length ? `<section class="block"><h2>Done <span class="count">${done.length}</span></h2><ul class="done">${done.map(d => `<li><span class="tick" aria-hidden="true">✓</span><span>${esc(d.text)}${d.who ? ` <span class="muted small">${esc(d.who)}</span>` : ""}</span></li>`).join("")}${D.open.map(d => `<li class="todo"><span class="tick" aria-hidden="true">○</span><span>${esc(d.text)} <span class="muted small">${esc(d.who)}</span></span></li>`).join("")}</ul></section>` : ""}
