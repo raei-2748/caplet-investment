@@ -289,3 +289,22 @@ two jobs, each carrying a real investing idea:
 Risk: "therapeutic window" was on rung 1's list, so another AI team could reach it. But they'd reach it as a label;
 the newsvendor maths under it (and the ~3:1 we can defend) is what nobody else will have. Rung 3's rule stands:
 no "dose", "toxic" or "patient" in the IPS. "Window" can carry it.
+
+**Laura's Room (WO-R7, `inbox/2026-10-27_lauras-room.md`; the web was mostly blocked, so much of it is unverified).**
+Nothing found breaks the reading "bottom = an unconditional commitment, top = a variable amount by rule". One useful
+caution for the fundraising text (Final Report): don't write "only if stocks hold". Under US nonprofit accounting,
+a stated condition can make a pledge "conditional"; a variable amount set by a rule is a different thing. Lead with
+the bottom and give the top's rule in one clause. On the Wharton link: OID is a real Wharton department, but nothing
+shows that the case's degree name ("Statistics & Information Decisions Management") sits in it, or that OIDD courses
+teach the newsvendor. So no "her degree field's canon" claim anywhere until a student checks a syllabus. The
+newsvendor idea stands on its own merits; it doesn't need the Wharton hook. (The sixfold seed-money figure was read
+from the List and Lucking-Reiley abstract on 27 Sep, per R04.)
+
+**End of day 2: where my head is.** A spine is emerging that I didn't have on Monday: one decision rule (set each
+promise where its two costs balance) applied to the payments, the bottom and the top, with XR doing two real jobs
+(release for the payments, window for the range). Plus a concrete certainty claim ("the payments fail only if
+yields fall more than ~2pp before the build AND the 2028 deposit halves") and one "as needs change" rule (payments
+first; floor and stocks shrink in proportion). Tomorrow (Wed): voice. Study Ray's rewritten TNA reflections and
+essays again against this content: what would Ray actually say, where would he joke, which sentence would he refuse
+to write? Also the R decision, the second meaning of XR, and a fresh look for anything the spine leaves out
+(north star 4: concepts that are applied but not yet placed).
