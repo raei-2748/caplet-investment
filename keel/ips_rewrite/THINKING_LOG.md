@@ -370,3 +370,9 @@ total, but the losses are specific and fixable, which the earlier 35/33 weren't.
   sentence. End on the ask (what Laura can say in 2031), not on "Do not crush". Use the case's word "contribution",
   not "gift".
 These go to Thursday's synthesis as must-fixes, together with the Shark Tank stakes clause.
+
+**Book 7 weighting (coordinator):** "Focus on the strategy and decision-making framework ... rather than describing
+individual investments or presenting detailed financial calculations." V25's ~15 numerals are a real cost, not just
+style. Rule for the next draft: at most one or two numbers in the IPS (the cheques' $50,000 and one felt figure),
+models prove the decision rules behind the scenes, and the creativity goes into the central idea and the rules.
+Passed to the model-suite and rival-team threads.
