@@ -1,18 +1,20 @@
 # FICTION (the room) + real work (the experiments). The Genius Lab: lab book
 
 ## Now
-- **Doing:** Testing whether the dedicated ladder belongs in the IPS
-- **Decided:** Dedicated ladder halves the coupon-reinvestment tail (p95 $25.1k to $14.8k) for about $1,486 more (MODEL, 15 Oct curve); default: no WInS trades
-- **Next:** Aha hunt (project P03): three candidate insights, roasted and tested; the strongest goes to Draft 2
-- **For the judges:** IPS: a risk the plan names and fixes, with the number behind it
-- **Updated:** 2026-10-26 13:40 Sydney
+- **Doing:** L-10 "last in line": Laura's promises as a capital structure, nine "as needs change" stresses
+- **Decided:** The ten payments are the plan's weakest promise (a payment short after 2033 in 6.8-8.4% of MODEL paths, median ~$3,200); a 2033 coverage test (at least $10k stays behind before the gift goes) cuts it to 0.01%; candidate sent to the rewrite, Courtroom to rule
+- **Next:** Rooftop's NAV-spread number (Thu 29 Oct); stamp lines on L-01-L-08; then P03's next aha candidate
+- **For the judges:** IPS: one rule for the 2033 step that makes "high certainty" true on the IRS's own footing; Final Report: the stress table and the CLO source
+- **Updated:** 2026-10-27 14:40 Sydney
 
 
-> **State (Mon 26 Oct 2026, 13:40 run).** L-01 ADOPT, L-02 ADOPT (D1-c), L-03 PARK, L-04 ADOPT (Final Report),
-> L-05 ADOPT C1-C3, L-06 name packages, L-07 ADOPT, L-08 ADOPT (Extended Reserve option). The IPS is now a from-scratch
-> rewrite (`../ips_rewrite/`): rooms take WORK_ORDERS first and write to its inbox, never to v4. Today: L-09 = WO-R1 done
-> (dedicated ladder halves the coupon tail in 200,000 paths, p95 $25.1k -> $14.8k, +$1,486; MODEL 15 Oct). Next best
-> move: whatever WO-R2 (Courtroom) leaves open, else lift C&P on the rewrite's Draft 1 (Fri 30 Oct).
+> **State (Tue 27 Oct 2026, 13:40 run).** L-01 ADOPT, L-02 ADOPT (D1-c), L-03 PARK, L-04 ADOPT (Final Report),
+> L-05 ADOPT C1-C3, L-06 name packages, L-07 ADOPT, L-08 ADOPT (Extended Reserve option), L-09 KILLED for the IPS by
+> the Courtroom (WO-R2, 27 Oct; Final Report only). WO-R5 done by the rewrite thread (`../ips_rewrite/lab/R05_joint.py`).
+> Today L-10: hypothesis false (Kai won): payments short after 2033 in 6.8-8.4% of paths because the gift leaves first;
+> cure = 2033 coverage test (payments short 0.01%, median gift unchanged). Open to the Lab: Rooftop NAV spread (Thu
+> 29); Noticeboard stamps (done for L-09, L-10, R05; L-01-L-08 next). Model for any rerun: `lab/L-10_last_in_line/run.py`
+> (patch pattern; 22 Oct curve, 7.5%).
 
 > Room card: `../OFFICE.md`. Head: Jun. Kai roasts every idea before it is tested. Agents: `scenario-modeller`,
 > `numbers-auditor`. Bench (existing models): `../scripts/`, `../library/ips_numbers_2026-10/ips_numbers.py`,
@@ -69,3 +71,4 @@ Archive's spine (no clash with anything locked), and a Caplet student choosing i
 | L-07 | One true investing line about the plan, said plainly, is what a judge remembers (not a name) | "Forty lunch lines from Haiku and you'll keep the one a textbook already has." | Rung 1 Haiku (40 lines, 20 far mappings), rung 2 Sonnet re-priced on the 22 Oct close (`lab/L-07_lunch_line/r2.py`); Courtroom memory test on v4 | IS; PA; CK | done 25 Oct ([rung 2](lab/L-07_lunch_line/rung2.md)): the fund is the floor ETF's interest taken up front ($32,064 of $150,000, MODEL); v3.1's "any rise stays with Laura" overclaimed (fixed); rung 3 not needed | ADOPT into IPS v4 (both). Kai half-won: it *is* textbook (a bond floor), but it was the only investing idea judges recalled |
 | L-08 | XR has a true second reading, from a word the case uses, that lifts C&P as one line without reading as AI | "Backronyms are what a chatbot does in ten seconds. If you find a real one it'll be ex-rights." | Rung 2 Sonnet (10 meanings, real conventions first); rung 3 Opus cold panel of three judges on A-E | CP; CK | done 25 Oct ([L-08](lab/L-08_xr_second_layer.md)): A Extended Reserve +1/+1/+1; B, C negative; D doses +1/+2/-1 | ADOPT A as a Package B option; PARK D for the Final Report; BIN B, C. Kai half-won (ex-rights died) |
 | L-09 | Sizing the ladder from 2042 backwards (R01 B3, every holding >= $10k) cuts the coupon tail p95/p99 by a third or more in the 200,000 paths, for under $2k | "You've moved the leak, not plugged it; the tail barely moves once rates wander." | `../ips_rewrite/lab/R01_mc.py`, same paths and seed as the number sheet; audit vs R01 and number sheet; cold panel (Sonnet) on three explaining lines | IS; PA; CP | done 26 Oct ([L-09](lab/L-09_dedicated_ladder.md)): p95 $25,112 -> $14,832, p99 $32,429 -> $17,584, +$1,486; WInS would need ~10 trades, ~$52k each way; dose/leak line binned | ADOPT as a rewrite option (WO-R2 + Caplet decide). Kai half-won: the risk now sits in $85k of pre-2033 coupons |
+| L-10 | Read as a capital structure (leftover, Laura's half, top, bottom, payments last), the ten payments stay whole in >= 99.5% of paths under every "as needs change" stress except a missing 2028 deposit after a pre-build rate fall | "A junk-bond costume on a draw order. The number nobody's looked at: after 2033 the gift is gone and the coupons keep leaking into a half sitting in stocks." | `lab/L-10_last_in_line/run.py`: nine stresses on the number sheet's model (22 Oct curve, J.P. Morgan 2027 7.5%, rho 0/0.5), then a 2033 coverage-test cure (H $10-30k; top-only vs top-then-bottom); numbers-auditor re-derivation | IS; PA; case :119-120 | done 27 Oct ([L-10](lab/L-10_last_in_line.md)): payments short 6.8% (S0) / 8.4% (S1), median ~$3,200; trap H=$10k top-then-bottom -> 0.01%, gift p50 unchanged, top reached 75% -> 74% (final) | BIN the hypothesis (Kai won outright); ADOPT the coverage test as a rewrite candidate (Courtroom to rule) |
