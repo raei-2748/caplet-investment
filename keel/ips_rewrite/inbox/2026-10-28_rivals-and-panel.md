@@ -71,6 +71,9 @@ Keel recommends, Caplet decides. Ideas, not wording.
 6. **Who absorbs a bad year, in order** (3-0-3, held open): Laura's half, then the top, never the bottom, never a
    cheque. It collides with L-10's $10k hold-back, which comes from the gift, with about $5k of room above the
    bottom. Jun runs it Thu 29 Oct (V25 in the annual model, fat-tailed shocks).
+   Since the huddle closed, the rewrite's own 28 Oct cushion test (`../../pm/CHANGES.md`, Wed 28 Oct) uses this very
+   order (leftover cash, then Laura's half, then the contribution only above the bottom): 99.25% inside the range,
+   payments more than $1k short in 1.1% of paths. So item 6 is largely answered; the fat-tailed rerun is the check left.
 
 ## Binned, with the reason (Final Report material)
 - A ratchet that locks in gains before 2031: worth about $2k to the bottom (K3). The stock slice is too small before
