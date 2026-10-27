@@ -95,8 +95,56 @@ dated cheques can't wait on stocks, since a 1929 buyer was back to even on the p
 re-read); cash for a known need is a shock absorber, not a pogo stick (186); the market's price of a US default was
 about 0.27% after the 2025 downgrade (183); private assets look calm only because appraisals lag (096, re-read).
 
+## Synthesis 3 (after 312 pieces, 28 Oct, before dawn)
+New since synthesis 2 (`LOG.md` 187-312): writing about writing (Orwell, Didion, Graham x40), 34 Buffett letters in
+all (1977 to Abel's first in 2026), Marks's memos old and new, Haldane on prices, patience, tails and networks,
+Keynes ch. 12, Housel x24, Bullock, the Hopkins and Tufts winners, White's pig.
+
+1. **The thesis is the first sentence, and it sounds like trivia.** "Japan has 140 businesses that are at least 500
+   years old." (258) "Every forecast takes a number from today and multiplies it by a story about tomorrow." (262)
+   "There are 13 divorces among the 10 richest men in the world." (297) A strange, exact fact makes the reader ask
+   why it is there, and the rest of the piece answers. Synthesis 2's withheld reveal and verbless list are two
+   versions of this; the plainest version is a number. Caplet's IPS could open on one exact, odd number Laura owns.
+2. **Mistakes are believed when they are measured.** Buffett gives every error a price: USAir at "25 cents on the
+   dollar" (283), a "D" for 1999 (285), mills shrinking from $53 million to $22 million (278), "I allowed General Re
+   to take on business without a safeguard I knew was important" (228). Orwell confesses vanity before purpose
+   (247); Didion admits stealing her title in sentence one (248). F3 and F6 are the same move at different sizes:
+   own something, in numbers. In the Final Report, Caplet's real mistakes (the cancelled orders and the notes on
+   them, the mis-click that led to one trader) are worth more than any success, if they carry a number.
+3. **Argue with yourself on the page.** The best writers in this stretch give the strongest case against themselves:
+   Buffett against bonds while holding a "boatload" of Treasury bills (253, 255, 256), Haldane's "ability to hold,
+   not just the intention" (233), Graham's "But I could be wrong." (303). This is Book 9's "critique and fuse" as a
+   voice, not a section: one sentence that concedes the strongest objection, then the answer.
+4. **Short closes are earned, not written.** "Come by rail." (252) "See randomness." (272) "Everything is sales."
+   (264) "I plan to keep at it." (230) "Don't give up." (221) Each works because everything before it points there.
+   Of eight Hopkins winners, seven end on the lesson in its own words; the Tufts essay that ends "I stole his hiding
+   place." (275) ends on a thing. So: end on a thing, a decision, or three words the whole piece has earned. A short
+   close with nothing behind it is a slogan.
+5. **Comedy first, grief after.** White makes his own self-importance the joke for pages, so "the loss of pig" lands
+   (312). Graham's "Having Kids" undercuts its own warmth (222). Feeling gets past a reader's guard only after a
+   laugh or a doubt. There is no room for this in 500 words; there is in the Final Report's experience section.
+6. **Judges skim.** "how little most people judging you care about judging you accurately" (270); "I bet you
+   didn't read those numbers." (242). The strength has to be visible in the first two lines of each part, and each
+   paragraph should hold one number a judge could repeat out loud.
+7. **Plain is a choice, not a lack.** "Good prose is like a window pane." (247) "The picture dictates the
+   arrangement." (248) "If you're thinking without writing, you only think you're thinking." (267) The investor
+   writers who last (Buffett, Marks, Housel) sound the same for decades because the voice is their opinions, said
+   plainly. Synthesis 2's point stands: what AI can't copy is the working.
+
+**Investing finds (idea bank FRB-22 to FRB-40).** The strongest, fused:
+- *A fact, and a fact times a story* (FRB-32, Housel): the cheques rest on a fact, the gift on a fact times a story.
+  The cleanest framing of Caplet XR's split so far, and an IPS candidate.
+- *Hold-ability, not intention* (FRB-26 Haldane, FRB-34 Keynes's "fetish of liquidity", FRB-14 Marks): three
+  writers 74 years apart say the same thing; one IPS clause.
+- *Multiplied by a single zero* (FRB-28) and *default paid* (FRB-30, FRB-40): ten cheques are a product, and the
+  plan is tested by assuming nothing goes right after January 2027.
+- *No bell curve under the cheques* (FRB-37, Haldane on fat tails and monocultures).
+- *Buffett's 10/90, set by dates instead of taste* (FRB-38) and *Buffett against bonds* (FRB-33): a famous plan and a
+  famous objection, both critiqued and fused, for the Final Report.
+
 ## Next
-Pieces 101-300 by Thu 29 Oct: more bank and sell-side research (Goldman, Morgan Stanley, BlackRock, Bridgewater),
+Done to 312 by Wed 28 Oct (ahead of the Thu 29 Oct target of 300). Next: 500 by Sun 1 Nov; synthesis 4 at 500.
+Gaps that are still thin (the old list below): more bank and sell-side research (Goldman, Morgan Stanley, BlackRock, Bridgewater),
 Substack writers (Net Interest, Noahpinion, The Diff, Doomberg), great essayists (Didion, Baldwin, White, Hitchens,
 Montaigne), more pitches and founder letters, research papers (finance journals' best-written abstracts), and the
 weak end of the market (generic fund commentary) as counter-examples.

@@ -87,6 +87,7 @@ AI": if AI-likeness is ever checked, a student pastes the text into a reputable 
 | "Numbers: few" | The number that matters, felt; the rest to the Final Report | Drafts ran at 3 numbers per 100 words. |
 | Ban-list first (AI tells table) | No ban-list gate; the read-aloud questions only | Ahaan, 24 Oct: AI-ness "transcends ... a neat list". |
 | The essays called "Ray's" (R03, VOICE, BIBLE notes) | **Ahaan's** | Corrected 27 Oct (`01_digest_ahaan.md`, section 1). |
+| s8-s9 built on 186 pieces | s8 and s9 notes from 312 pieces | Synthesis 3, 28 Oct (`reading/SYNTHESIS.md`): F4 openings, own a mistake with its number, earned short closes. |
 
 ## 7. The room we're pitching to (Ray, 27 Oct: "Judges are not examiners ... judges are shark tanks")
 Added by the rewrite thread. An examiner checks boxes; a Shark Tank investor decides in a minute whether to believe
@@ -124,6 +125,9 @@ the essayists' habit, F6 the investor memo writers' (Marks, Buffett, Damodaran),
 speechmakers': it is the move of people asking for money or trust, which is Caplet's position. **F2 and F4 are the
 rarest and the most remembered** (King's cheque, Munger's 33 days, the 1929 buyer back to even on the price index only in 1954). Common moves
 set the tone; the rare ones are what a judge repeats. So the IPS uses F3 and F2, and the Final Report may add F4.
+Pieces 187-312 (synthesis 3) move F4 up: the investor writers open on a number that measures a loss or sounds like
+trivia (LTCM bankrupt "20 years ago this week", 13 divorces among the 10 richest men, USAir at 25 cents on the dollar),
+and F3 and F6 merge into one move: **own a mistake, with its number**.
 
 **Spend it like kickers.** One F-move per paragraph at most; in the IPS, F2 and F3 carry the weight and F6 appears
 once, if at all. Feeling is the reason a judge keeps reading; the investing knowledge (north star 4) is the reason
@@ -149,3 +153,6 @@ seventeen-year-old would say, put the verbs back.
 Three more from the reading: "be confident enough to cut" and "use simple, germanic words" (Graham, #206); "Make the
 truth good, then just tell it." (#210); "But forecasts are just that – forecasts." (Bullock, #197): uncertainty in
 five words, not five clauses.
+
+From synthesis 3: a short close has to be earned ("Come by rail.", "See randomness.", "But I could be wrong."): cut
+toward it, never bolt it on. A close the piece hasn't earned is a slogan, which is the AI habit in the left column.
