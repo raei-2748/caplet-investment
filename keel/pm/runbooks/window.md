@@ -31,6 +31,7 @@ log, push, refresh the dashboard, one line in the thread. This page only adds th
 - **Only a false fact or a broken rule is a breach.** A strong, confident word is not (Ray, 25 Oct: humans overclaim a
   little; AI hedges to the mildest word). Never flag a word for being bold; flag it only if what it says is untrue.
 - Don't repeat the Trading Desk's Tue-Sat check; read its latest report instead.
+- **Read the "so" beside its source** (Tue 27 Oct). Check every new conclusion ("so ...", "which means ...") against the source it rests on, not just the quote: on 27 Oct three of six false facts (a donor study read backwards, a range called p5-p95, "guaranteed by design") had perfect quotes and wrong conclusions.
 - Whenever a new IPS draft appears (never ask for one: `../../BIBLE.md` rule 2), check it in `../../ips_rewrite/drafts/` line by line against `00_GROUND_TRUTH.md`.
 
 ## Change log
@@ -38,3 +39,4 @@ log, push, refresh the dashboard, one line in the thread. This page only adds th
 |---|---|---|
 | Sun 25 Oct 2026 | Runbook created from the scheduled-task prompt of 24 Oct | Prompts become 4-line pointers; Keel can now edit how it works |
 | Mon 26 Oct 2026 | Shared steps moved to `README.md`; job and rules brought in line with `../../INSTRUCTIONS.md` (Claude, at Ray's request) | Ray, 26 Oct: Keel was not applying his 24-26 Oct instructions |
+| Tue 27 Oct 2026 | Room rule: read each conclusion beside its source | 3 of 6 false facts on 27 Oct sat in conclusions under exact quotes (`../../office/outbox/2026-10-27_window_7-5-and-three-checks.md`) |
