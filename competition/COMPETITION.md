@@ -129,16 +129,17 @@ Official instructions: [`2026_WGY_Trading_Notes_Analysis-FINAL.pdf`](official/20
   `caplet/google_drive/ips_report/` (tab "WInS Trading Notes").
 
 ### Investment Policy Statement (due 6 Nov)
-Official instructions: [`2026_WGY_Investment_Policy-FINAL.pdf`](official/2026_27/2026_WGY_Investment_Policy-FINAL.pdf).
-- Title page: official team name, members as "First Name, Last Initial", WInS username. Must match the roster.
-  Ours: **Caplet** · Ray W. | Ahaan D. | Darren W. | Harry Y. | Eric Z. | Young Y. · WInS username
-  (kept out of this public repo; copy it from WInS).
-- Then **max 2 pages**: elevator pitch (**max 50 words**) + IPS (**max 500 words**).
-- **Changed (Wharton Week 4 email, filed 22 Oct):** the IPS is now submitted as a **form on SMApply, not a PDF**;
-  "all other requirements remain the same". The old Times New Roman 12 pt / double-spaced / PDF <= 5 MB rule may
-  not apply as written; how the title page is entered is UNVERIFIED until the form opens.
-- **TIPS and STRIPS are explicitly banned** for both contributions, in the IPS and the Final Report (same email).
-  Source: `competition/official/2026_27/wharton_email_week4_2026-10.md`.
+Official instructions: [`UPDATED_2026_WGY_Investment_Policy_FINAL.pdf`](official/2026_27/UPDATED_2026_WGY_Investment_Policy_FINAL.pdf)
+(filed 27 Oct; supersedes the v1 PDF; Ray: "THIS IS BIBLE", `keel/BIBLE.md` Book 7).
+- A **SurveyMonkey Apply form with two fields**: elevator pitch (**max 50 words**) and IPS (**max 500 words**,
+  "Clearly explain your team's investment strategy and decision-making framework, including how the strategy
+  addresses Laura's financial goals, funding needs, and risk considerations").
+- **Removed on 27 Oct:** the title page, Times New Roman 12 pt / double spacing / margins, the PDF, the 5 MB and
+  two-page limits.
+- Not expected in the IPS: final reserve calculations, detailed projections, a final facility range, the co-sponsor
+  draft (all Final Report). The strategy may not be revised after submission.
+- **Only individual TIPS and STRIPS are banned** for both contributions, in the IPS and the Final Report (Wharton
+  email of 27 Oct, `official/2026_27/wharton_email_week5_2026-10.md`; Week 4 had said "TIPS" and "STRIPS").
 - **No** graphics, charts, links, footnotes or citations (sources go in the Final Report).
 - Focus on framework and principles, not individual securities or detailed calculations.
 - **Strategy lock:** after the IPS deadline the strategy is final. The Final Report must follow it and evaluate the

@@ -1,6 +1,6 @@
 # Workstream 2: Investment Policy Statement (IPS) and the trading freeze
 
-> **Read `../../BIBLE.md` first: six books, all equal (Caplet's five, 23-26 Oct 2026, and Wharton's official email of 27 Oct).** They beat every rule on this page.
+> **Read `../../BIBLE.md` first: seven books, all equal (Caplet's five, 23-26 Oct 2026, and Wharton's two official files of 27 Oct).** They beat every rule on this page.
 > Extraordinary above all; a distinctive, deeply human voice (Ray's, never AI's); one subtle motif, Caplet XR (extended
 > release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
 > IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
@@ -11,17 +11,18 @@ deadline, "Your team may not revise its investment strategy" (`2026_WGY_Investme
 Status (18 Oct): V5 is an AI-generated draft. The team's own comment says it cannot be submitted as it is. The
 students write a fresh IPS.
 
-## What is submitted (official text: `competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt`)
-- **Title page:**
-  - the official team name;
-  - members as "First Name, Last Initial", "the same as what was submitted with your official roster" (:94);
-  - the WInS username (:98).
-- **Pitch and IPS:** "Investment Strategy Elevator Pitch, maximum 50 words" (:107) and "Investment Policy
-  Statement, maximum 500 words" (:109), within two pages. The sample uses these two headings.
-- **Format:** Times New Roman 12 pt, double-spaced, 1" margins, PDF, "Maximum file size: 5 MB" (:122).
-  **Superseded in part (Wharton Week 4 email, filed 22 Oct):** the IPS is now an SMApply form, not a PDF; "all other
-  requirements remain the same". Draft in plain text; check the form fields when it opens.
-  TIPS and STRIPS are now named as banned in the IPS and Final Report (`competition/official/2026_27/wharton_email_week4_2026-10.md`).
+## What is submitted (official text: `competition/official/2026_27/UPDATED_2026_WGY_Investment_Policy_FINAL.txt`, Wharton's updated instructions, filed 27 Oct; BIBLE Book 7)
+- **Two fields of a SurveyMonkey Apply form.** "Investment Strategy Elevator Pitch", maximum 50 words: "Quickly
+  summarize your team's investment strategy. Clearly communicate the central idea behind your approach and how it is
+  designed to support your client's financial goals and future funding needs." "Investment Policy Statement",
+  maximum 500 words: "Clearly explain your team's investment strategy and decision-making framework, including how
+  the strategy addresses Laura's financial goals, funding needs, and risk considerations."
+- **Gone (27 Oct):** the title page, Times New Roman / 12 pt / double spacing / margins, the PDF, the 5 MB and
+  two-page limits, the sample layout. **Kept:** "Graphics, charts, images, attachments, external links, footnotes, and
+  formal citations are not permitted"; sources go in the Final Report.
+- **Not expected in the IPS:** "final operating-reserve calculations, detailed portfolio projections, a final
+  facility-contribution range, or the draft communication to co-sponsors" (Final Report). Once submitted, the strategy
+  may not be revised. Only individual TIPS and STRIPS are banned (Wharton email of 27 Oct, BIBLE Book 6).
 - "Graphics, charts, images, attachments, external links, footnotes, and formal citations are not permitted." (:123)
 - Submissions that miss the requirements are not "considered for semifinal selection" (:83).
 - Focus on the framework and principles. Final reserve numbers, projections, the 2031 range and the co-sponsor
@@ -35,7 +36,6 @@ students write a fresh IPS.
 | Each paragraph | a named student author |
 | Edit and word count | editor |
 | Format check | rules/format lead + one other student |
-| Title page (copied from the private roster note, never committed) | rules/format lead |
 | Submit | Ray |
 | Any WInS order that a vote requires | Ray |
 
@@ -60,8 +60,7 @@ students write a fresh IPS.
 ## Gates (done when)
 - [ ] Pitch 45 words or fewer and IPS 470 or fewer, on the stricter counter, headings included (margin under the
       50/500 limits).
-- [ ] The PDF fits on the title page plus two pages, on Letter paper. No graphics, links, footnotes or citations. 5 MB or less.
-- [ ] The title page matches the official roster exactly. Never committed to the repo.
+- [ ] Both fields pasted as plain text into the form: no graphics, images, attachments, links, footnotes or citations.
 - [ ] Every vote-set-B rule appears in the students' words, with the vote and any dissent logged.
 - [ ] Certainty wording is true for the bonds actually owned, and said with flair (`keel/BIBLE.md` rule 3: iBonds held to liquidation are near-ironclad; no hedging).
 - [ ] The IPS and the TNA tell the same story, with numbers on the same basis.

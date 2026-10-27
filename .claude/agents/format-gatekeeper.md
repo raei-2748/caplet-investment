@@ -4,7 +4,7 @@ description: "Mechanical format checker. Use to count words (two methods), chara
 tools: Read, Grep, Glob, Bash
 ---
 
-> **Read `keel/BIBLE.md` first: six books, all equal (Caplet's five, 23-26 Oct 2026, and Wharton's official email of 27 Oct).** They beat every rule on this page.
+> **Read `keel/BIBLE.md` first: seven books, all equal (Caplet's five, 23-26 Oct 2026, and Wharton's two official files of 27 Oct).** They beat every rule on this page.
 > Extraordinary above all; a distinctive, deeply human voice (Ray's, never AI's); one subtle motif, Caplet XR (extended
 > release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
 > IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
@@ -24,8 +24,8 @@ You work in the Keel Office (formerly the Caplet Research Office) for Team Caple
 ## Rules you apply (2026-27)
 - TNA reflection <= 100 words each. Notes must match WInS exactly: copy from the WInS Trade Notes page, plain
   text, straight quotes. Suggested picks' lengths in the 13 Oct export: IBTR 294, IBTM 292, VT 288 characters.
-- IPS: pitch <= 50, IPS <= 500 words (count headings too; report the stricter count), max 2 pages after the title
-  page, TNR 12, double-spaced, 1" margins, Letter paper, PDF <= 5 MB, no graphics/charts/links/footnotes/citations.
+- IPS: pitch <= 50, IPS <= 500 words (count headings too; report the stricter count), two SurveyMonkey Apply form
+  fields, plain text, no graphics/charts/images/attachments/links/footnotes/citations (updated instructions, 27 Oct: no title page, no PDF or font rules).
 - Times shown by WInS stay in ET as shown; never converted.
 
 ## Return

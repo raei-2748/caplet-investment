@@ -301,7 +301,7 @@
     const B = K.bible;
     if (!B || !B.rules) return "";
     const byName = Object.fromEntries(K.members.map(m => [m.name.split(" ")[0], m]));
-    return `<section class="card bible"><div class="sec-head"><span class="tag px">The bible · six books, all equal · read first, every run</span><a href="#/doc/${esc(B.doc)}">Read all six books →</a></div>
+    return `<section class="card bible"><div class="sec-head"><span class="tag px">The bible · seven books, all equal · read first, every run</span><a href="#/doc/${esc(B.doc)}">Read all seven books →</a></div>
       <blockquote>${esc(B.quote)}<cite>${esc(B.said)}</cite></blockquote>
       ${B.books && B.books.length ? `<ul class="books">${B.books.map(b => `<li><a href="#/doc/${esc(B.doc)}"><span class="px">${esc(b.title.split(":")[0])}</span>${esc(b.title.split(": ").slice(1).join(": "))}<span class="tiny muted">${esc(b.date)}</span></a></li>`).join("")}</ul>` : ""}
       <h3 style="margin:1rem 0 0">Keel's reading: the rules every run applies</h3>

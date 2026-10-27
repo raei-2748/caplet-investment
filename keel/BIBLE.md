@@ -1,9 +1,10 @@
-# THE BIBLE: six books (23-27 Oct 2026): Caplet's five and Wharton's official email. Top priority for every Keel member, room, agent and run.
+# THE BIBLE: seven books (23-27 Oct 2026): Caplet's five and Wharton's two official files of 27 Oct. Top priority for every Keel member, room, agent and run.
 
 > **"The message Ray quoted earlier isn't the only Bible. In fact, you've got quite a few Bibles. (Multiple books of
 > the Bible, I suppose?) ... All are equal."** (Caplet, Mon 26 Oct 2026, 23:21 Sydney.) The first version of this page
 > (26 Oct, 22:55: "this is bible") held only Book 5. It now holds all five, word for word, as equals. On
-> 27 Oct Ray added a sixth, Wharton's own halfway email: "THIS IS BIBLE. OFFICIAL FILE."
+> 27 Oct Ray added two of Wharton's own: the halfway email ("THIS IS BIBLE. OFFICIAL FILE.") and the updated IPS
+> instructions ("This is the latest PDF. THIS IS BIBLE.").
 >
 > **Where it sits.** Above everything Keel owns: `INSTRUCTIONS.md`, `NORTH_STARS.md`, `VOICE.md`, `CULTURE.md`, every
 > runbook, room card, member file, office agent and skill. Where any of them disagrees with a book, the book wins and
@@ -12,7 +13,7 @@
 > above it, and nothing here asks Keel to break them.
 >
 > **How to use it.** Every run reads the cover note and Keel's reading at the bottom; any run touching the IPS, the
-> Final Report, a draft, a name or the motif reads all six books in full. The books are equal, and Keel is told to use
+> Final Report, a draft, a name or the motif reads all seven books in full. The books are equal, and Keel is told to use
 > its own judgement: it may weigh one above another, or question one, as long as it says why and the expectations are
 > met. What the six members took from Book 5: `BIBLE_TAKES.md`.
 
@@ -296,6 +297,109 @@ man…") stay out of this repo, because the portal is public. Keel's notes on ho
 > Want updates on upcoming programs, competitions, and new student opportunities? Join our mailing list and never miss an
 > update.
 
+## Book 7: The updated IPS instructions, official (Tue 27 Oct 2026)
+
+> Ray, 27 Oct, uploading Wharton's new PDF: **"This is the latest PDF. THIS IS BIBLE."** Filed as
+> `../competition/official/2026_27/UPDATED_2026_WGY_Investment_Policy_FINAL.pdf` (+ `.txt`); it supersedes the v1 PDF.
+> The IPS is now two fields of a SurveyMonkey Apply form: a 50-word pitch and a 500-word IPS. Gone: the title page,
+> fonts, spacing, margins, the PDF, the 5 MB and two-page limits. Kept: no graphics, charts, links, footnotes or
+> citations. Verbatim text (page footers dropped):
+
+> INVESTMENT POLICY STATEMENT (IPS)
+>
+> An Investment Policy Statement (IPS) outlines an investor’s financial goals, risk tolerance, and guidelines for
+> managing a portfolio. It helps investors stay focused on long-term objectives and make disciplined decisions
+> during changing market conditions.
+>
+> Your investment strategy is the cornerstone of the Wharton Global High School Investment Competition,
+> and your IPS is where you clearly articulate that strategy.
+>
+> Your strategy should explain how you will invest your client’s money to support their financial goals and future
+> cash flow needs while managing risk and uncertainty. It should reflect your client’s goals, time horizons,
+> liquidity needs, desired degree of funding certainty, and need for financial flexibility.
+>
+> Developing Your Investment Strategy
+> There is no single “correct” investment strategy for your client. Your team should use research and analysis
+> to develop an approach that reflects your client’s financial goals, funding needs, and changing time horizons.
+> As you develop your strategy, consider:
+>     • What is the central idea behind your investment strategy?
+>     • What principles will guide your investment decisions?
+>     • How does your strategy balance growth, risk, liquidity, funding reliability, and financial flexibility?
+>     • How will the portfolio’s asset allocation and composition change as future funding needs approach and
+>        payments are made?
+>     • How will your strategy protect the operating commitment while preserving flexibility for a responsible
+>        facility contribution?
+>
+> Always remember who your strategy is designed to serve. Your client’s profile and financial goals should
+> remain at the center of your investment decisions.
+>
+> WHAT YOU WILL SUBMIT
+> Your IPS submission has two parts.
+>
+> 1. Investment Strategy Elevator Pitch
+>   Maximum 50 words
+>  Quickly summarize your team’s investment strategy. Clearly communicate the central idea behind your
+>   approach and how it is designed to support your client’s financial goals and future funding needs.
+>
+> 2. Investment Policy Statement
+>     Maximum 500 words
+>     Clearly explain your team’s investment strategy and the reasoning behind it.
+> Your IPS should demonstrate how your strategy is tailored to your client’s financial goals, time horizons, and
+> needs. Explain how your team will approach risk and return, liquidity, portfolio construction and diversification,
+> and planned changes in the portfolio as future funding needs approach.
+>
+> Your IPS should also establish your strategic approach to preparing for the operating commitment, managing the
+> operating reserve’s asset composition over time, determining a responsible facility contribution, and preserving
+> appropriate financial flexibility.
+>
+> Focus on the strategy and decision-making framework that guide your portfolio rather than describing individual
+> investments or presenting detailed financial calculations.
+>
+> Your IPS should make it clear:
+>    • What your team is trying to accomplish for the client
+>    • Why your strategy is appropriate for the client and their financial goals
+>    • How your strategy balances growth, liquidity, funding reliability, risk, and financial flexibility
+>    • How your strategy will guide portfolio construction and investment decisions as the client’s
+>       needs change
+>    • How your approach will protect the required operating payments while supporting a responsible facility
+>       contribution
+>
+> You do not need to address these points separately. Your goal is to present a clear, cohesive, and well-supported
+> investment strategy.
+>
+> The IPS is not expected to include final operating-reserve calculations, detailed portfolio projections, a final
+> facility-contribution range, or the draft communication to co-sponsors. These elements will be developed and
+> supported in the Final Report using the strategy established in the IPS.
+>
+> Your IPS and the Final Report
+> Your IPS is the foundation of your Final Report and will be evaluated.
+>
+> Once submitted, the IPS becomes the official record of your team’s investment strategy. Your team may not
+> revise its investment strategy after the submission deadline.
+>
+> Your portfolio and Final Report should reflect the strategy established in your IPS. In the Final Report, your team
+> will evaluate how effectively it implemented that strategy and present its analysis and recommendations for the
+> operating commitment, facility contribution, financial flexibility, and communication with co-sponsors under
+> varying investment outcomes.
+> INSTRUCTIONS
+> Provide an Investment Strategy Elevator Pitch
+>     • Maximum 50 words
+>     • Quickly summarize your team’s investment strategy. Clearly communicate the central idea behind your
+>        approach and how it is designed to support your client’s financial goals and future funding needs.
+>
+> Provide an Investment Policy Statement
+>     • Maximum 500 words
+>     • Clearly explain your team’s investment strategy and decision-making framework, including how
+>        the strategy addresses Laura’s financial goals, funding needs, and risk considerations.
+>
+> Your team will submit its Investment Policy Statement through the SurveyMonkey Apply form.
+>
+> Graphics, charts, images, attachments, external links, footnotes, and formal citations are not permitted.
+>
+> Teams should use research and analysis to develop their strategy, but sources do not need to be cited in the IPS.
+>
+> Relevant sources and supporting evidence must be included in the Final Report.
+
 ## Keel's reading: the rules every run applies (the books win if these ever drift)
 
 The books are equal. These rules are how Keel turns them into daily practice; each names the book or books it comes from.
@@ -327,12 +431,17 @@ The books are equal. These rules are how Keel turns them into daily practice; ea
    the best investing knowledge and strategy, not Laura. En dashes are correct; spend no time on punctuation.
 7. **Judgement, not obedience** (cover note). Keel may weigh one book above another or question one, out loud and
    with a reason. What it may not do is miss an expectation.
-8. **Wharton's own words are scripture too** (Book 6). Dates in Sydney first: IPS (a SurveyMonkey Apply form, not a
+8. **Wharton's own words are scripture too** (Books 6 and 7). Dates in Sydney first: IPS (a SurveyMonkey Apply form, not a
    PDF) and the end of trading **Sat 7 Nov 09:00** (Fri 6 Nov 5:00 p.m. ET; last market fill 08:00); Final Report
    instructions **Tue 10 Nov 01:00** (Mon 9 Nov 9:00 a.m. ET); Final Report and school documentation **Sat 5 Dec
    09:00** (Fri 4 Dec 5:00 p.m. ET). Only stocks, ETFs and Treasury bonds on WInS, for both contributions and both
    deliverables; no *individual* TIPS or STRIPS. Let the strategy lead and connect WInS, the TNA, the IPS and the Final
    Report; explain why each investment belongs and how it supports Laura's goals; never count WInS gains or losses.
+   The IPS answers Book 7's own questions: the central idea; the guiding principles; how growth, risk, liquidity,
+   funding reliability and flexibility are balanced; how the reserve's make-up changes as payments approach; how the
+   operating commitment is protected while leaving room for a responsible facility contribution. It is a framework,
+   not a list of holdings or calculations; the reserve sums, projections, the facility range and the co-sponsor
+   draft belong to the Final Report. Once submitted, the strategy may not change.
 
 ## What this page overruled on Mon 26 Oct (removed or rewritten the same day)
 - The Rooftop's "three kinds of sure" proposal (`rooms/rooftop.md`, request of 26 Oct to the Writing Room): withdrawn.

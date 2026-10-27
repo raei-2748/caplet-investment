@@ -5,9 +5,9 @@ decision, deadline or open item changes, and commit it with the related change. 
 
 ## For every Claude session in this repo (all teammates)
 Whoever is using Claude here, these rules apply, and the Keel Office (formerly the Caplet Research Office) is how competition work is done:
-- **THE BIBLE comes first: six books, all equal (Caplet's five, 23-26 Oct 2026, and Wharton's official email of 27 Oct), verbatim in `keel/BIBLE.md`** (north stars;
-  refinements; Caplet XR and de-obsessions; rewrite from scratch and star 4; Caplet XR locked; plus the 26 Oct cover note; Book 6 = Wharton's halfway
-  email, "THIS IS BIBLE. OFFICIAL FILE", filed in `competition/official/2026_27/wharton_email_week5_2026-10.md`).
+- **THE BIBLE comes first: seven books, all equal (Caplet's five, 23-26 Oct 2026, and Wharton's two official files of 27 Oct), verbatim in `keel/BIBLE.md`** (north stars;
+  refinements; Caplet XR and de-obsessions; rewrite from scratch and star 4; Caplet XR locked; plus the 26 Oct cover note; Books 6-7 = Wharton's halfway
+  email, "THIS IS BIBLE. OFFICIAL FILE", and the updated IPS instructions PDF, "THIS IS BIBLE", filed in `competition/official/2026_27/wharton_email_week5_2026-10.md`).
   Extraordinary above all; Ray's distinctive, deeply human voice; one subtle motif, Caplet XR (X = 10; R never
   "release"); breathtaking investing knowledge, applied; no hedging (iBonds held to liquidation are near-ironclad);
   judges are not mini-Lauras. **The IPS rewrite is slow and deep, never hasty**: near-final for review Sat 31 Oct,
@@ -157,7 +157,8 @@ Structured in `toolkit/config/client_mandate.yaml` (human_approved: false) and `
 
 ## Official deadlines (SMApply, 5:00 p.m. ET, no extensions)
 Roster Oct 9 | Trading Notes Analysis Oct 23 (3 notes quoted exactly from executed WInS trades, <=100-word
-reflections) | IPS Nov 6, 5:00 p.m. ET = Sat 7 Nov 09:00 Sydney (now an SMApply FORM, not a PDF, per the Week 4 and 27 Oct emails; title page + 50-word pitch + 500-word IPS, no charts/citations;
+reflections) | IPS Nov 6, 5:00 p.m. ET = Sat 7 Nov 09:00 Sydney (an SMApply FORM with two fields, 50-word pitch + 500-word IPS, no title page, no PDF format rules, no charts/links/citations;
+updated instructions filed 27 Oct, BIBLE Book 7;
 TRADING ENDS AND PORTFOLIO LOCKS; strategy frozen) | Final Report instructions Nov 9, 9:00 a.m. ET (Tue 10 Nov 01:00 Sydney) | Final Report + school
 documentation Dec 4. Evaluation: Investment Strategy; Client Knowledge; Portfolio Analysis; Articulation of
 Competition Experience; Creativity & Presentation. All three evaluated deliverables are judged together.
