@@ -1,0 +1,23 @@
+{
+ "judge1": {
+  "Entry A": "H19",
+  "Entry B": "V25",
+  "Entry C": "V27",
+  "Entry D": "A06",
+  "Entry E": "A02"
+ },
+ "judge2": {
+  "Entry A": "H19",
+  "Entry B": "A02",
+  "Entry C": "V25",
+  "Entry D": "A06",
+  "Entry E": "V27"
+ },
+ "judge3": {
+  "Entry A": "A02",
+  "Entry B": "V25",
+  "Entry C": "H19",
+  "Entry D": "V27",
+  "Entry E": "A06"
+ }
+}
