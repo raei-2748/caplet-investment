@@ -9,7 +9,8 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
   refinements; Caplet XR and de-obsessions; rewrite from scratch and star 4; Caplet XR locked; plus the 26 Oct cover note; Books 6-8 = Wharton's halfway
   email, "THIS IS BIBLE. OFFICIAL FILE", the updated IPS instructions PDF, "THIS IS BIBLE", filed in `competition/official/2026_27/wharton_email_week5_2026-10.md`,
   and the deliverables page with the five evaluation criteria word for word, `competition/official/2026_27/SMApply_Deliverables_Page_2026-10-27.md`; every draft is checked against the criteria part by part, BIBLE rule 9; Book 9 = Ahaan, 27 Oct: look intelligent through niche strategies fused and critiqued plus logic, every good idea lands in a deliverable via `keel/ips_rewrite/IDEA_BANK.md`, big picture over minutiae, no timeline rule but the Sat 31 Oct review draft, BIBLE rule 10).
-  Extraordinary above all; Ray's distinctive, deeply human voice; one subtle motif, Caplet XR (X = 10; R never
+  Extraordinary above all; a distinctive, deeply human voice (Ahaan's essays set the tone, never a template; guide
+  `keel/voice/06_voice_guide.md`, judged by ear, never by a script or count); one subtle motif, Caplet XR (X = 10; R never
   "release"); breathtaking investing knowledge, applied; no hedging (iBonds held to liquidation are near-ironclad);
   judges are not mini-Lauras. **The IPS rewrite is deep and dense, never hasty**: the only timeline rule is a final draft for
   review on Sat 31 Oct (drafting may start any time, Book 9); final Sat 7 Nov 09:00 Sydney. Every good idea goes in
@@ -55,6 +56,9 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
   `keel/pm/ASK_HUMANS.md` with a default Keel acts on), merges its `keel/**` work into main daily, and never decides for Caplet.
 
 ## Current status (2026-10-14) - read this before the older sections below
+- 27 Oct (Ray + Ahaan): voice study in `keel/voice/` (reading log `keel/voice/reading/LOG.md`, 500-1,000 pieces asked;
+  judges are Shark Tank investors, guide s7-s9 incl. "How humans cut"). Voice is qualitative (Book 9, INSTRUCTIONS I53, I56):
+  `fingerprint.py` and counts are never a gate; Keel never judges its own AI-likeness.
 - 26 Oct (Ray): IPS rewritten from scratch through the office (WO-0003): AI Draft 1 in `keel/ips_rewrite/drafts/D1/`
   (pitch 47 / IPS 484 strict). Thesis = the gift is a capital-protected note minus the option (Treasury floor + index fund
   worth its expected interest); name Caplet XR. Thread brief: `keel/ips_rewrite/inbox/2026-10-26_thread_ray-brief.md`.
