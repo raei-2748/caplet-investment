@@ -77,17 +77,28 @@ or participation of co-sponsors", :114-115). Why it works: the gap visible in 20
 together (correlation 0.95 in the model), so two years out the bond market has already told Laura most of what
 can hurt the bottom.
 
-**Caveat that decides it.** Stocks and rates are independent in this model. The bad case (R05 S2) is yields falling
-for good in a recession, when Laura's half is smallest. The Genius Lab's WO-R5 joint run must re-run this table before
-"0 of 200,000" goes anywhere near a draft (request filed).
+**The recession test (R05 S2's worry), run here with the Genius Lab's joint shock** (`../../ips_rewrite/lab/R05_joint.py`:
+each year's stock shock correlated with that year's yield change, so yields fall when stocks fall):
+
+| Joint case (MODEL) | Bottom breaks: no margin | fixed $5k | fixed $10k | marked to market | its average cut | paths cut |
+|---|---|---|---|---|---|---|
+| independent, 7.5% stocks | 0.75% | 0.31% | 0.11% | 0 of 200,000 | $809 | 8.2% |
+| rho 0.3, 7.5% | 1.05% | 0.44% | 0.17% | 1 of 200,000 | $922 | 9.1% |
+| rho 0.5, 7.5% | 1.28% | 0.56% | 0.21% | 3 of 200,000 | $1,000 | 9.6% |
+| rho 0.5, 6.5% | 1.43% | 0.64% | 0.23% | 7 of 200,000 | $1,038 | 10.0% |
+
+Wrong-way risk hurts every fixed margin (breaks nearly double) but barely touches the marked-to-market bottom, because
+the mark already sees both the rate fall and the stock fall by 2031. Worst case: 7 paths in 200,000, still about 30
+times safer than a fixed $10k, for a tenth of its cost.
 
 **Newsvendor check (WO-R7, for R05 S1).** Under the rule, the gift reaches the exact top in 69.9% of paths (76.7%
-within $1k). The implied over/under-promise cost ratio is 0.699 / 0.301 = **2.3**, inside R05's 1.9-2.7.
+within $1k; 65.9% / 72.9% in the worst joint case). The implied over/under-promise cost ratio is 0.699 / 0.301 = **2.3**, inside R05's 1.9-2.7.
 
 ## 4. The finding (for Thursday's synthesis)
 **Don't pad the bottom today; mark it to market in 2031.** A fixed margin taxes the signal in every path to guard
 against a gap that, by 2031, is mostly visible. Marking to market cuts the bottom only in the ~8% of paths where the
-bond market has already shown a gap, by about $800 on average, and in this model never breaks. It answers the case's
+bond market has already shown a gap, by about $800-$1,000 on average, and breaks in 0-7 of 200,000 paths even when
+rates and stocks fall together. It answers the case's
 two costs (:110-115) the way the newsvendor would: the bottom as big as the evidence allows, never broken; the top a
 rule reached about seven years in ten. Knowledge underneath (uncited in the IPS, cited in the Final Report):
 initial vs variation margin (central clearing), seed money and lead gifts, conditional pledges in nonprofit

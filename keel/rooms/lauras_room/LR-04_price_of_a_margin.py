@@ -5,13 +5,13 @@
     yields, shifts frozen from 1 Jan 2031), net of the 2027 leftover and half of the stock fund's 2031 value.
 Same unchanged model as LR-02 (keel/library/ips_numbers_2026-10/ips_numbers.py, 22 Oct curve, 7.5% world stocks,
 J.P. Morgan 2027), patched in memory; stocks and rates independent in this model (the Genius Lab's WO-R5 joint run
-may move the tail). MODEL. Run from repo root (~1-2 min). Output: LR-04_results.json here."""
-import json, pathlib
+may move the tail). MODEL. Run from repo root (~1-2 min). Output: LR-04_results.json here.
+Also run with the Genius Lab's joint shock (R05_joint.py: each year's stock shock correlated rho with that year's yield
+change; rho > 0 = yields fall when stocks fall), rho 0 / 0.3 / 0.5, and at 6.5% stocks with rho 0.5."""
+import json, pathlib, io, contextlib
 ROOT = pathlib.Path(__file__).resolve().parents[3]
 HERE = pathlib.Path(__file__).resolve().parent
 m = ROOT / "keel/library/ips_numbers_2026-10/ips_numbers.py"
-tmp = HERE / "_lr04_full.json"
-src = m.read_text()
 ADD = '''    inside = (gift >= bottom - 1e-6)
     t31 = yrs(TODAY, dt.date(2031, 1, 1)); i31 = np.searchsorted(step_t, t31)
     sh31 = shifts.copy(); sh31[:, i31:] = shifts[:, [i31]]
@@ -49,19 +49,33 @@ ADD = '''    inside = (gift >= bottom - 1e-6)
                    "p_reach_top": round(float((gift >= top - 1).mean()), 4),
                    "p_reach_top_within_1k": round(float((gift >= top - 1000).mean()), 4),
                    "elasticity_E": round(float(E), 3)}'''
-for old, new in [
-    ('CURVE_CSV = ROOT / "competition/official_market_data/daily-treasury-rates_2026-10.csv"',
-     f'CURVE_CSV = pathlib.Path(r"{ROOT / "keel/library/assistant_review_2026-10/checks/tsy_202610_22oct.csv"}")'),
-    ('CURVE_DATE = "10/15/2026"', 'CURVE_DATE = "10/22/2026"'),
-    ('TODAY = dt.date(2026, 10, 15)', 'TODAY = dt.date(2026, 10, 22)'),
-    ('(HERE / "results.json")', f'(pathlib.Path(r"{tmp}"))'),
-    ('EQ_MU, EQ_VOL, VT_FEE = np.log(1.07), 0.1678, 0.0006', 'EQ_MU, EQ_VOL, VT_FEE = np.log(1.075), 0.1678, 0.0006'),
-    ('    inside = (gift >= bottom - 1e-6)', ADD),
-]:
-    assert src.count(old) == 1, old
-    src = src.replace(old, new)
-exec(compile(src, str(m), "exec"), {"__name__": "__main__", "__file__": str(m)})
-res = json.loads(tmp.read_text()); tmp.unlink()
-keep = {k: res[k] for k in ("LR04", "range_2031", "p_gift_inside_range") if k in res}
+def run(rho, mu):
+    tmp = HERE / f"_lr04_{rho}_{mu}.json"
+    src = m.read_text()
+    for old, new in [
+        ('CURVE_CSV = ROOT / "competition/official_market_data/daily-treasury-rates_2026-10.csv"',
+         f'CURVE_CSV = pathlib.Path(r"{ROOT / "keel/library/assistant_review_2026-10/checks/tsy_202610_22oct.csv"}")'),
+        ('CURVE_DATE = "10/15/2026"', 'CURVE_DATE = "10/22/2026"'),
+        ('TODAY = dt.date(2026, 10, 15)', 'TODAY = dt.date(2026, 10, 22)'),
+        ('(HERE / "results.json")', f'(pathlib.Path(r"{tmp}"))'),
+        ('EQ_MU, EQ_VOL, VT_FEE = np.log(1.07), 0.1678, 0.0006', f'EQ_MU, EQ_VOL, VT_FEE = np.log({mu}), 0.1678, 0.0006'),
+        ('    z = rng.normal(size=(N, 5))', f'''    _t0 = yrs(TODAY, T28)
+    _dy = np.stack([sh(_t0 + j + 1) - sh(_t0 + j) for j in range(5)], axis=1) / RATE_VOL
+    z = {rho} * _dy + np.sqrt(1 - {rho}**2) * rng.normal(size=(N, 5))'''),
+        ('    inside = (gift >= bottom - 1e-6)', ADD),
+    ]:
+        assert src.count(old) == 1, old
+        src = src.replace(old, new)
+    with contextlib.redirect_stdout(io.StringIO()):
+        exec(compile(src, str(m), "exec"), {"__name__": "__main__", "__file__": str(m)})
+    res = json.loads(tmp.read_text()); tmp.unlink()
+    return {k: res[k] for k in ("LR04", "range_2031", "p_gift_inside_range") if k in res}
+
+keep = {k: json.loads(json.dumps(v)) for k, v in {f"mu={mu} rho={rho}": run(rho, mu) for mu, rho in (("1.075", 0.0), ("1.075", 0.3), ("1.075", 0.5), ("1.065", 0.5))}.items()}
 (HERE / "LR-04_results.json").write_text(json.dumps(keep, indent=1))
-print(json.dumps(keep, indent=1))
+for k, v in keep.items():
+    L = v["LR04"]
+    print(k, "| none", L["initial"]["0"]["p_break"], "| $5k", L["initial"]["5000"]["p_break"], "| $10k", L["initial"]["10000"]["p_break"],
+          "| MtM", L["variation"]["0"]["n_break_of_N"], L["variation"]["0"]["mean_cut"], L["variation"]["0"]["p_cut_nonzero"],
+          L["variation"]["0"]["cosponsor_cost_pct_E094"], "| exact", L["variation_exact_no_roundup"]["n_break_of_N"],
+          "| top", L["p_reach_top"], L["p_reach_top_within_1k"])

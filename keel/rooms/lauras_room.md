@@ -3,7 +3,7 @@
 ## Now
 - **Doing:** Pricing the 2031 bottom: how co-sponsors read a range, and what a safety margin costs
 - **Decided:** Don't pad the bottom today; mark it to market in 2031 (cut only by the coupon gap already visible). MODEL: 0 of 200,000 breaks vs 0.11% for a fixed $10k, at a tenth of the cost (Keel's call, replaces D1b's margin)
-- **Next:** Genius Lab re-runs it in the joint recession scenario (WO-R5); Courtroom roasts it against the locked "minimum figure in 2031"
+- **Next:** Courtroom roasts it against the locked "minimum figure in 2031" (it already survives the joint recession shock: 7 of 200,000); next visit is the fresh draft, Fri 30 Oct
 - **For the judges:** IPS: the 2031 range sentence and the confidence we quote (chance of reaching the top, ~70%); Client Knowledge, Investment Strategy
 - **Updated:** 2026-10-27 15:17 Sydney
 
@@ -14,7 +14,7 @@
 > **State (Tue 27 Oct, 15:10 run):** WO-R7 done and the Window's LR-03 correction answered in LR-04
 > (`lauras_room/LR-04_price_of_a_margin.md` + `.py` + `_results.json`): co-sponsors read the bottom as the bookable
 > number (size moves giving), the top as an intention; a fixed margin is a bad trade; mark the bottom to market in 2031.
-> Open: Genius Lab joint run of LR-04 (Wed 28 Oct); Courtroom roast of LR-04 and of LR-03's field-evidence transfer
+> Joint recession shock run here (R05_joint, main): still 0-7 of 200,000. Open: Courtroom roast of LR-04 and of LR-03's field-evidence transfer
 > (Wed 28 Oct). Next visit: the first fresh draft (Fri 30 Oct), checked against every case requirement as a judge would.
 > Older: LR-03 (26 Oct, corrected), SD-LR-02 floor break, SD-LR-01 (24 Oct).
 
