@@ -336,3 +336,120 @@ new voice thread produces a voice guide. Ray also wants more initiative and orig
 open (8 met, 14 partly, 9 open, 9 ways of working, 1 on track). Work pushed to the office: WO-R8 (the Genius Lab must bring 5
 original, model-tested strategy ideas) and WO-R9 (the Courtroom audits the trace). The Wed plan drops the voice
 study (now the voice thread's job) and keeps strategy: the R, the 2033 re-match, the north-star-4 placement.
+
+## Tue 27 Oct, night: V25 sent to Ray; then "judges are shark tanks"
+V25 (`drafts/D5a/`, an assessment draft) is the first draft written to the voice guide and the two-box form. Ray's
+next note: it needs emotional appeal, because judges are sharks being pitched, not examiners. Reading V25 again with
+that eye, it argues but never makes anyone care. Laura appears as a set of cheques, and the residency (the whole point)
+gets one word. The Shark Tank beats (hook, stakes, why us, the number, the ask) are now section 7 of the voice guide.
+For the synthesis: put the residency's people in the stakes (the case names "artists, writers, designers,
+entrepreneurs, and educators" who "live, work, teach, and collaborate"); give Laura's word to co-sponsors a face
+(a missed January breaks a promise she made in person in 2031); add one real "why us" (the STRIPS plan we built and
+then killed when the rules changed on 6 Oct, to be confirmed by a student as told); end on the ask (what Laura can
+say in 2031), not on "do not crush". Ahaan's Book 3 still holds: the emotion is for the judges, not a pitch to Laura.
+
+## Tue 27 Oct, late: the Shark Tank panel on V25 (`reviews/V25_shark_tank.md`): 34/50, and the reasons are useful
+Scores: Strategy 8, Client Knowledge 6, Portfolio Analysis 7, Articulation 5, Creativity 8. No better than D2-D4 in
+total, but the losses are specific and fixable, which the earlier 35/33 weren't.
+- **Kept:** the opener (the strongest the panel has seen), "debts paid with debts owed to her", the human-capital
+  line ("income that shrinks in the same slump that makes bonds dearer"), and the inflation line as the one a judge
+  repeats.
+- **A real hole (accuracy, not style): the cap.** V25 never says the contribution stops at the top and the rest stays
+  Laura's. Without it, a boom lands the contribution ABOVE the range, which fails the case's own "within that range".
+  It has to be in the next draft.
+- **"Before the purchase" is unclear** (rungs are bought in Jan 2027 and Jan 2028), and "exactly where it breaks"
+  sits badly next to "the one soft spot". The certainty claim needs one honest frame: the payments break in one
+  place, and the contribution has one soft spot.
+- **The aha is hidden.** "Three times worse" and "three times in four" are the same idea (the newsvendor) but read as
+  two facts. One clause has to join them: the top sits where the odds of reaching it match the cost ratio.
+- **Weakest beat: why this team (Articulation 5).** Best real material: the team's own first plan was about 75%
+  stocks and failed the funding test, so we started where the sceptic stands (evidence:
+  `../library/council_2026-09-27/02_judge_panel.md`, `01_chair_memo.md`). Alternative: the STRIPS plan killed by the 6
+  Oct email. One only, told as it happened (students confirm).
+- **Voice housekeeping:** five kicker endings (the guide allows 3), about 15 numerals (ceiling 6), the XR decoder-ring
+  sentence. End on the ask (what Laura can say in 2031), not on "Do not crush". Use the case's word "contribution",
+  not "gift".
+These go to Thursday's synthesis as must-fixes, together with the Shark Tank stakes clause.
+
+**Book 7 weighting (coordinator):** "Focus on the strategy and decision-making framework ... rather than describing
+individual investments or presenting detailed financial calculations." V25's ~15 numerals are a real cost, not just
+style. Rule for the next draft: at most one or two numbers in the IPS (the cheques' $50,000 and one felt figure),
+models prove the decision rules behind the scenes, and the creativity goes into the central idea and the rules.
+Passed to the model-suite and rival-team threads.
+
+## Wed 28 Oct, small hours: the Genius Lab's five ideas (WO-R8, `inbox/2026-10-28_genius-lab.md`, `lab/R08_*.py`)
+All MODEL (22 Oct curve, 7.5% stocks, 200,000 paths). None needs a WInS trade; all fit the locked lines.
+1. **Lock what you announce.** On 1 January 2031, the day Laura names the range, sell the promised half of VT into
+   Treasuries maturing before 2033. The top is then reached ~93% of the time instead of ~77% (91% under stress), for
+   an expected cost of about $1.6k out of ~$193k. This is the night's big one, and I think it is bigger than the Lab
+   says. It turns the plan into one sentence: **every promise Laura makes is bought on the day she makes it.** The
+   cheques in 2027, the floor in 2028, the top of the range in 2031. That is a decision-making framework (Book 7), it
+   is "commit only money she already owns" (the 16 Oct North Star memo) grown up, and it is exactly what extended
+   release means: each dose is coated and fixed the moment it's made. It also answers the case directly: the range
+   "must protect" the payments and her credibility, and here nothing is promised that isn't already owned in
+   Treasuries.
+   Tension for Thursday: it partly replaces the newsvendor spine (3:1 by choice). With the lock, the trade-off moves
+   to the size of the top (how much stock she pledges), not the odds of reaching it. Maybe the two combine: the
+   newsvendor still sets how much she pledges; the lock makes the pledge real.
+   Limit: raising the quoted bottom as well was killed (below it in 3-5% of paths).
+2. **Definitions:** "three in four" must be the event "stocks no lower in 2033 than in 2031" (72.8%); the top is reached
+   to the dollar 69.9% (76.7% is with a $1k tolerance). The share pledged (1/3, 1/2, 2/3) barely moves the odds; a
+   haircut on the 2031 stock value does (10% haircut: ratio 3.3 -> 6.4 for $1.3k of median gift).
+3. **The failure corner is ~10 weeks wide.** A 2pp fall before the build is ~0.23% of two-month windows in history
+   (all 1980-82). The payments need at most ~$50k of the 2028 deposit in nearly all paths (unfunded: 2.9% at $25k,
+   0.02% at $50k, none at $75k+). The IBTR note's "0.2pp" headroom is now ~0.04pp: don't repeat it as current.
+4. **Coupons must buy more of their own bond.** Every number we've published quietly assumes it; parking coupons in
+   a bill fund loses ~$7.6k even with no rate move. Half a sentence in the IPS: "coupons are reinvested in the bond
+   that paid them".
+5. **The 2033 re-match needs a cushion sized by the forecast's own error:** projected gap + $7,500 cuts later stock
+   sales from 31% of paths to 0.15%, for ~$0.7k of mean gift. Cost: stock is sold in January 2033 in most paths, a
+   planned sale on a known date, not a forced one at a deadline.
+Not tested: Taiwan dollar and inflation (no series on file).
+
+**Courtroom on the lock (`inbox/2026-10-28_courtroom.md`): ADOPT as the central idea, in true words.** "Every promise
+is bought on the day she makes it" is false three ways (the floor is bought in 2028, not on naming day; the payments
+lean on the 2028 top-up, coupons and iBond payouts; the top is a ceiling, not a promise). The true version: **"No
+number Laura names rests on a share price: each is owned in Treasuries by the day she names it."** It must go in the
+IPS or nowhere ("may not be revised"). No locked line breaks; two drafted lines die ("nothing is sold early" becomes
+"no Treasury is sold before it pays", which keeps "do not crush"). Not market timing: a date triggers it, not a
+price. The prosecution's best point: the lock doesn't change the case's confidence test (0.75% below the bottom
+either way). It moves where she lands inside the range (top 93% vs 77%), and costs Laura ~$2.2k of what she keeps.
+The newsvendor 3:1 drops from spine to test (the lock passes it, narrowly at base). Name it plainly
+(liability-driven de-risking), never CPPI. The aha to state is the diagnosis: after 2031 the cap leaves the
+contribution with every fall and Laura with every rise, and the lock fixes that. Condition: re-run the lock together
+with the 2033 cushion (2.2-3.6% of paths below the bottom combined) and draw the cushion from leftover cash and
+Laura's half first.
+**WO-R9 audit applied to `BIBLE_TRACE.md`:** now seven books (G1-G10 for Wharton's two), B7 and E3 down to PART,
+C2/C3 rewritten for the lock and the corrected failure map, four new pulls.
+
+**WO-R10, the Courtroom's condition: lock + 2033 cushion (`lab/R10_lock_cushion.py`, MODEL, 22 Oct curve).** R08_2's E
+already drew the cushion from cash and Laura's half first; it failed because when Laura's side ran dry the $7,500
+came out of the gift, even below the bottom (97.8% inside). Three orders tried, all with the lock:
+
+| Rule | Inside the range | Top reached | Payments >$1k short, 2033-42 | Worst shortfall |
+|---|---|---|---|---|
+| E: cushion from anyone, bottom included | 97.8% (96.4% stress) | 87% | 0.15% | $3.5k |
+| F: cushion only from Laura's side | 99.25% (98.6%) | 93% | 6.7% (8.6%) | $8.8k |
+| **G: cash, Laura's half, then the gift down to the bottom, never below** | **99.25% (98.6%)** | **87% (84%)** | **1.1% (1.8%)** | **$6.8k** |
+
+G is the rule. It costs no confidence (same 99.25% as the lock alone) and buys most of the cushion's protection; the
+remaining misses are a few thousand dollars over ten years of $50,000 cheques. The stress row is rho 0.5 and 6.5%
+stocks. (B's "31% short" in the JSON is not a miss: without a set-aside the gap is drawn from Laura's stocks as it
+appears, which the metric can't see.) What it gives the IPS is a rule, not a number, the Book 7 way: **"Every dollar
+above the bottom serves the cheques first; the bottom itself serves only the gift."** Top-reached drops from 93% to
+87%, so the Final Report says "about nine in ten" only for the lock alone and "more than four in five" with the
+cushion. The condition is met; the lock goes into Thursday's synthesis as the central idea.
+
+**Rival scan lands (coordinator, from "Out-think every rival team for semis", 28 Oct): the lock is the crowd's default.**
+Nine of twelve fresh-AI rivals move stocks into Treasuries around the 2031 announcement; one even uses the Courtroom's
+"a date triggers it, not a price" defence. So the lock can't be the aha. It stays as a rule (G8 says every future action
+goes in the IPS) and the central idea moves upstream to what nobody else wrote:
+- **The diagnosis:** after 2031 the cap leaves the contribution with every fall and Laura with every rise. Rivals lock
+  out of caution; we lock because we found the asymmetry.
+- **The order:** the floor is bought in 2028, three years before Laura names it. "No number Laura names rests on a share
+  price" survives, but as a consequence, not the headline.
+- **Protect** the lines blind judges ranked V25 first of 13 for (85/85/84 vs 72): human capital, sequence risk
+  (fixed dollars vs fixed percent), the break point, and the two-cost range. Zero of 36 rivals have human capital or a
+  two-cost range, so the newsvendor comes back as a named idea in the IPS (one clause), not only as the lock's test.
+This reverses half of this morning's Courtroom ruling (newsvendor "retired as the spine"). It's Keel's call, logged:
+evidence about the field beats a ruling made without it.

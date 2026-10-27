@@ -1,0 +1,663 @@
+{
+ "stamp": "STAMP: curve 22 Oct 2026 | JPM 2027 global equities 7.5% / 6.5% | 200,000 paths, seed 20261016 | rho 0 / 0.5 | MODEL",
+ "rho=0.0 mu=1.075": {
+  "share=0.33 haircut=0%": {
+   "p_top_reached_within_1k": 0.8063,
+   "implied_over_under_cost_ratio": 4.16,
+   "p_top_reached_exact": 0.7094,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.7281,
+   "p_gift_below_bottom": 0.0075,
+   "top_p50": 160456,
+   "width_p50": 18174,
+   "gift_p5_p50_mean": [
+    133491,
+    159930,
+    157025
+   ],
+   "laura_kept_p50_mean": [
+    34074,
+    37980
+   ]
+  },
+  "share=0.33 haircut=10%": {
+   "p_top_reached_within_1k": 0.8929,
+   "implied_over_under_cost_ratio": 8.34,
+   "p_top_reached_exact": 0.826,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.8539,
+   "p_gift_below_bottom": 0.0075,
+   "top_p50": 159306,
+   "width_p50": 16923,
+   "gift_p5_p50_mean": [
+    132902,
+    159076,
+    155987
+   ],
+   "laura_kept_p50_mean": [
+    35094,
+    39018
+   ]
+  },
+  "share=0.33 haircut=20%": {
+   "p_top_reached_within_1k": 0.9431,
+   "implied_over_under_cost_ratio": 16.58,
+   "p_top_reached_exact": 0.9057,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.9397,
+   "p_gift_below_bottom": 0.0075,
+   "top_p50": 158170,
+   "width_p50": 15671,
+   "gift_p5_p50_mean": [
+    132181,
+    158086,
+    154813
+   ],
+   "laura_kept_p50_mean": [
+    36267,
+    40191
+   ]
+  },
+  "share=0.33 haircut=30%": {
+   "p_top_reached_within_1k": 0.965,
+   "implied_over_under_cost_ratio": 27.58,
+   "p_top_reached_exact": 0.9487,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.983,
+   "p_gift_below_bottom": 0.0075,
+   "top_p50": 157051,
+   "width_p50": 14419,
+   "gift_p5_p50_mean": [
+    131451,
+    157021,
+    153557
+   ],
+   "laura_kept_p50_mean": [
+    37534,
+    41448
+   ]
+  },
+  "share=0.50 haircut=0%": {
+   "p_top_reached_within_1k": 0.7672,
+   "implied_over_under_cost_ratio": 3.3,
+   "p_top_reached_exact": 0.6992,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.7281,
+   "p_gift_below_bottom": 0.0075,
+   "top_p50": 166292,
+   "width_p50": 24449,
+   "gift_p5_p50_mean": [
+    136842,
+    165528,
+    163286
+   ],
+   "laura_kept_p50_mean": [
+    27745,
+    31718
+   ]
+  },
+  "share=0.50 haircut=10%": {
+   "p_top_reached_within_1k": 0.8649,
+   "implied_over_under_cost_ratio": 6.4,
+   "p_top_reached_exact": 0.8163,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.8539,
+   "p_gift_below_bottom": 0.0075,
+   "top_p50": 164527,
+   "width_p50": 22562,
+   "gift_p5_p50_mean": [
+    136048,
+    164186,
+    161739
+   ],
+   "laura_kept_p50_mean": [
+    29304,
+    33265
+   ]
+  },
+  "share=0.50 haircut=20%": {
+   "p_top_reached_within_1k": 0.9242,
+   "implied_over_under_cost_ratio": 12.19,
+   "p_top_reached_exact": 0.8963,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.9397,
+   "p_gift_below_bottom": 0.0075,
+   "top_p50": 162768,
+   "width_p50": 20679,
+   "gift_p5_p50_mean": [
+    135108,
+    162638,
+    159989
+   ],
+   "laura_kept_p50_mean": [
+    31087,
+    35016
+   ]
+  },
+  "share=0.50 haircut=30%": {
+   "p_top_reached_within_1k": 0.9524,
+   "implied_over_under_cost_ratio": 20.03,
+   "p_top_reached_exact": 0.9394,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.983,
+   "p_gift_below_bottom": 0.0075,
+   "top_p50": 161032,
+   "width_p50": 18798,
+   "gift_p5_p50_mean": [
+    134081,
+    160987,
+    158113
+   ],
+   "laura_kept_p50_mean": [
+    32983,
+    36891
+   ]
+  },
+  "share=0.67 haircut=0%": {
+   "p_top_reached_within_1k": 0.7318,
+   "implied_over_under_cost_ratio": 2.73,
+   "p_top_reached_exact": 0.6807,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.7281,
+   "p_gift_below_bottom": 0.0075,
+   "top_p50": 172274,
+   "width_p50": 30729,
+   "gift_p5_p50_mean": [
+    139589,
+    171189,
+    169421
+   ],
+   "laura_kept_p50_mean": [
+    21374,
+    25583
+   ]
+  },
+  "share=0.67 haircut=10%": {
+   "p_top_reached_within_1k": 0.8351,
+   "implied_over_under_cost_ratio": 5.06,
+   "p_top_reached_exact": 0.7968,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.8539,
+   "p_gift_below_bottom": 0.0075,
+   "top_p50": 169869,
+   "width_p50": 28213,
+   "gift_p5_p50_mean": [
+    138707,
+    169383,
+    167393
+   ],
+   "laura_kept_p50_mean": [
+    23496,
+    27611
+   ]
+  },
+  "share=0.67 haircut=20%": {
+   "p_top_reached_within_1k": 0.9014,
+   "implied_over_under_cost_ratio": 9.14,
+   "p_top_reached_exact": 0.8782,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.9397,
+   "p_gift_below_bottom": 0.0075,
+   "top_p50": 167481,
+   "width_p50": 25703,
+   "gift_p5_p50_mean": [
+    137692,
+    167279,
+    165094
+   ],
+   "laura_kept_p50_mean": [
+    25882,
+    29911
+   ]
+  },
+  "share=0.67 haircut=30%": {
+   "p_top_reached_within_1k": 0.9365,
+   "implied_over_under_cost_ratio": 14.76,
+   "p_top_reached_exact": 0.9243,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.983,
+   "p_gift_below_bottom": 0.0075,
+   "top_p50": 165115,
+   "width_p50": 23188,
+   "gift_p5_p50_mean": [
+    136495,
+    165031,
+    162623
+   ],
+   "laura_kept_p50_mean": [
+    28410,
+    32381
+   ]
+  }
+ },
+ "rho=0.5 mu=1.075": {
+  "share=0.33 haircut=0%": {
+   "p_top_reached_within_1k": 0.7907,
+   "implied_over_under_cost_ratio": 3.78,
+   "p_top_reached_exact": 0.6942,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.7283,
+   "p_gift_below_bottom": 0.0128,
+   "top_p50": 160437,
+   "width_p50": 18160,
+   "gift_p5_p50_mean": [
+    132881,
+    159878,
+    156874
+   ],
+   "laura_kept_p50_mean": [
+    34467,
+    38089
+   ]
+  },
+  "share=0.33 haircut=10%": {
+   "p_top_reached_within_1k": 0.8789,
+   "implied_over_under_cost_ratio": 7.26,
+   "p_top_reached_exact": 0.8096,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.8535,
+   "p_gift_below_bottom": 0.0128,
+   "top_p50": 159298,
+   "width_p50": 16910,
+   "gift_p5_p50_mean": [
+    132290,
+    159047,
+    155841
+   ],
+   "laura_kept_p50_mean": [
+    35491,
+    39121
+   ]
+  },
+  "share=0.33 haircut=20%": {
+   "p_top_reached_within_1k": 0.9297,
+   "implied_over_under_cost_ratio": 13.23,
+   "p_top_reached_exact": 0.8907,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.9396,
+   "p_gift_below_bottom": 0.0128,
+   "top_p50": 158165,
+   "width_p50": 15659,
+   "gift_p5_p50_mean": [
+    131645,
+    158071,
+    154674
+   ],
+   "laura_kept_p50_mean": [
+    36656,
+    40288
+   ]
+  },
+  "share=0.33 haircut=30%": {
+   "p_top_reached_within_1k": 0.9519,
+   "implied_over_under_cost_ratio": 19.81,
+   "p_top_reached_exact": 0.9343,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.9832,
+   "p_gift_below_bottom": 0.0128,
+   "top_p50": 157050,
+   "width_p50": 14408,
+   "gift_p5_p50_mean": [
+    130942,
+    157020,
+    153426
+   ],
+   "laura_kept_p50_mean": [
+    37924,
+    41537
+   ]
+  },
+  "share=0.50 haircut=0%": {
+   "p_top_reached_within_1k": 0.7521,
+   "implied_over_under_cost_ratio": 3.03,
+   "p_top_reached_exact": 0.6866,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.7283,
+   "p_gift_below_bottom": 0.0128,
+   "top_p50": 166275,
+   "width_p50": 24433,
+   "gift_p5_p50_mean": [
+    135882,
+    165492,
+    163085
+   ],
+   "laura_kept_p50_mean": [
+    28081,
+    31877
+   ]
+  },
+  "share=0.50 haircut=10%": {
+   "p_top_reached_within_1k": 0.8492,
+   "implied_over_under_cost_ratio": 5.63,
+   "p_top_reached_exact": 0.8005,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.8535,
+   "p_gift_below_bottom": 0.0128,
+   "top_p50": 164498,
+   "width_p50": 22553,
+   "gift_p5_p50_mean": [
+    135221,
+    164152,
+    161548
+   ],
+   "laura_kept_p50_mean": [
+    29657,
+    33415
+   ]
+  },
+  "share=0.50 haircut=20%": {
+   "p_top_reached_within_1k": 0.909,
+   "implied_over_under_cost_ratio": 9.99,
+   "p_top_reached_exact": 0.8809,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.9396,
+   "p_gift_below_bottom": 0.0128,
+   "top_p50": 162742,
+   "width_p50": 20670,
+   "gift_p5_p50_mean": [
+    134381,
+    162614,
+    159809
+   ],
+   "laura_kept_p50_mean": [
+    31445,
+    35153
+   ]
+  },
+  "share=0.50 haircut=30%": {
+   "p_top_reached_within_1k": 0.9375,
+   "implied_over_under_cost_ratio": 15.01,
+   "p_top_reached_exact": 0.9236,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.9832,
+   "p_gift_below_bottom": 0.0128,
+   "top_p50": 161013,
+   "width_p50": 18789,
+   "gift_p5_p50_mean": [
+    133411,
+    160968,
+    157947
+   ],
+   "laura_kept_p50_mean": [
+    33352,
+    37015
+   ]
+  },
+  "share=0.67 haircut=0%": {
+   "p_top_reached_within_1k": 0.7176,
+   "implied_over_under_cost_ratio": 2.54,
+   "p_top_reached_exact": 0.6694,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.7283,
+   "p_gift_below_bottom": 0.0128,
+   "top_p50": 172248,
+   "width_p50": 30704,
+   "gift_p5_p50_mean": [
+    138274,
+    171168,
+    169168
+   ],
+   "laura_kept_p50_mean": [
+    21662,
+    25794
+   ]
+  },
+  "share=0.67 haircut=10%": {
+   "p_top_reached_within_1k": 0.8185,
+   "implied_over_under_cost_ratio": 4.51,
+   "p_top_reached_exact": 0.7815,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.8535,
+   "p_gift_below_bottom": 0.0128,
+   "top_p50": 169850,
+   "width_p50": 28195,
+   "gift_p5_p50_mean": [
+    137522,
+    169347,
+    167151
+   ],
+   "laura_kept_p50_mean": [
+    23804,
+    27812
+   ]
+  },
+  "share=0.67 haircut=20%": {
+   "p_top_reached_within_1k": 0.8846,
+   "implied_over_under_cost_ratio": 7.66,
+   "p_top_reached_exact": 0.8616,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.9396,
+   "p_gift_below_bottom": 0.0128,
+   "top_p50": 167459,
+   "width_p50": 25689,
+   "gift_p5_p50_mean": [
+    136643,
+    167265,
+    164867
+   ],
+   "laura_kept_p50_mean": [
+    26211,
+    30095
+   ]
+  },
+  "share=0.67 haircut=30%": {
+   "p_top_reached_within_1k": 0.9188,
+   "implied_over_under_cost_ratio": 11.32,
+   "p_top_reached_exact": 0.9062,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.9832,
+   "p_gift_below_bottom": 0.0128,
+   "top_p50": 165083,
+   "width_p50": 23178,
+   "gift_p5_p50_mean": [
+    135633,
+    165007,
+    162417
+   ],
+   "laura_kept_p50_mean": [
+    28784,
+    32545
+   ]
+  }
+ },
+ "rho=0.5 mu=1.065": {
+  "share=0.33 haircut=0%": {
+   "p_top_reached_within_1k": 0.7711,
+   "implied_over_under_cost_ratio": 3.37,
+   "p_top_reached_exact": 0.6673,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.7016,
+   "p_gift_below_bottom": 0.0143,
+   "top_p50": 160119,
+   "width_p50": 17815,
+   "gift_p5_p50_mean": [
+    132446,
+    159505,
+    156419
+   ],
+   "laura_kept_p50_mean": [
+    32848,
+    36382
+   ]
+  },
+  "share=0.33 haircut=10%": {
+   "p_top_reached_within_1k": 0.8656,
+   "implied_over_under_cost_ratio": 6.44,
+   "p_top_reached_exact": 0.7889,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.8348,
+   "p_gift_below_bottom": 0.0143,
+   "top_p50": 159013,
+   "width_p50": 16597,
+   "gift_p5_p50_mean": [
+    131924,
+    158729,
+    155444
+   ],
+   "laura_kept_p50_mean": [
+    33817,
+    37357
+   ]
+  },
+  "share=0.33 haircut=20%": {
+   "p_top_reached_within_1k": 0.9213,
+   "implied_over_under_cost_ratio": 11.71,
+   "p_top_reached_exact": 0.8766,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.9296,
+   "p_gift_below_bottom": 0.0143,
+   "top_p50": 157918,
+   "width_p50": 15383,
+   "gift_p5_p50_mean": [
+    131316,
+    157807,
+    154331
+   ],
+   "laura_kept_p50_mean": [
+    34938,
+    38470
+   ]
+  },
+  "share=0.33 haircut=30%": {
+   "p_top_reached_within_1k": 0.9464,
+   "implied_over_under_cost_ratio": 17.65,
+   "p_top_reached_exact": 0.9261,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.9793,
+   "p_gift_below_bottom": 0.0143,
+   "top_p50": 156837,
+   "width_p50": 14165,
+   "gift_p5_p50_mean": [
+    130630,
+    156797,
+    153128
+   ],
+   "laura_kept_p50_mean": [
+    36167,
+    39673
+   ]
+  },
+  "share=0.50 haircut=0%": {
+   "p_top_reached_within_1k": 0.7292,
+   "implied_over_under_cost_ratio": 2.69,
+   "p_top_reached_exact": 0.6589,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.7016,
+   "p_gift_below_bottom": 0.0143,
+   "top_p50": 165780,
+   "width_p50": 23915,
+   "gift_p5_p50_mean": [
+    135278,
+    164928,
+    162412
+   ],
+   "laura_kept_p50_mean": [
+    26647,
+    30389
+   ]
+  },
+  "share=0.50 haircut=10%": {
+   "p_top_reached_within_1k": 0.8329,
+   "implied_over_under_cost_ratio": 4.99,
+   "p_top_reached_exact": 0.7798,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.8348,
+   "p_gift_below_bottom": 0.0143,
+   "top_p50": 164063,
+   "width_p50": 22083,
+   "gift_p5_p50_mean": [
+    134700,
+    163664,
+    160962
+   ],
+   "laura_kept_p50_mean": [
+    28142,
+    31839
+   ]
+  },
+  "share=0.50 haircut=20%": {
+   "p_top_reached_within_1k": 0.8992,
+   "implied_over_under_cost_ratio": 8.92,
+   "p_top_reached_exact": 0.8666,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.9296,
+   "p_gift_below_bottom": 0.0143,
+   "top_p50": 162357,
+   "width_p50": 20253,
+   "gift_p5_p50_mean": [
+    133920,
+    162207,
+    159303
+   ],
+   "laura_kept_p50_mean": [
+    29856,
+    33498
+   ]
+  },
+  "share=0.50 haircut=30%": {
+   "p_top_reached_within_1k": 0.9309,
+   "implied_over_under_cost_ratio": 13.48,
+   "p_top_reached_exact": 0.9153,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.9793,
+   "p_gift_below_bottom": 0.0143,
+   "top_p50": 160675,
+   "width_p50": 18425,
+   "gift_p5_p50_mean": [
+    133013,
+    160620,
+    157511
+   ],
+   "laura_kept_p50_mean": [
+    31708,
+    35290
+   ]
+  },
+  "share=0.67 haircut=0%": {
+   "p_top_reached_within_1k": 0.6942,
+   "implied_over_under_cost_ratio": 2.27,
+   "p_top_reached_exact": 0.6421,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.7016,
+   "p_gift_below_bottom": 0.0143,
+   "top_p50": 171581,
+   "width_p50": 30013,
+   "gift_p5_p50_mean": [
+    137518,
+    170403,
+    168274
+   ],
+   "laura_kept_p50_mean": [
+    20434,
+    24527
+   ]
+  },
+  "share=0.67 haircut=10%": {
+   "p_top_reached_within_1k": 0.8013,
+   "implied_over_under_cost_ratio": 4.03,
+   "p_top_reached_exact": 0.7607,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.8348,
+   "p_gift_below_bottom": 0.0143,
+   "top_p50": 169254,
+   "width_p50": 27573,
+   "gift_p5_p50_mean": [
+    136853,
+    168690,
+    166373
+   ],
+   "laura_kept_p50_mean": [
+    22450,
+    26428
+   ]
+  },
+  "share=0.67 haircut=20%": {
+   "p_top_reached_within_1k": 0.873,
+   "implied_over_under_cost_ratio": 6.87,
+   "p_top_reached_exact": 0.847,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.9296,
+   "p_gift_below_bottom": 0.0143,
+   "top_p50": 166934,
+   "width_p50": 25134,
+   "gift_p5_p50_mean": [
+    136023,
+    166707,
+    164195
+   ],
+   "laura_kept_p50_mean": [
+    24757,
+    28606
+   ]
+  },
+  "share=0.67 haircut=30%": {
+   "p_top_reached_within_1k": 0.9112,
+   "implied_over_under_cost_ratio": 10.26,
+   "p_top_reached_exact": 0.8972,
+   "p_stocks_no_lower_in_2033_than_2031_by_haircut": 0.9793,
+   "p_gift_below_bottom": 0.0143,
+   "top_p50": 164631,
+   "width_p50": 22693,
+   "gift_p5_p50_mean": [
+    135084,
+    164533,
+    161838
+   ],
+   "laura_kept_p50_mean": [
+    27243,
+    30963
+   ]
+  }
+ },
+ "closed_form_p_top_7.5pct": {
+  "haircut=0%": 0.7272,
+  "haircut=10%": 0.8528,
+  "haircut=20%": 0.9388,
+  "haircut=30%": 0.9825
+ }
+}

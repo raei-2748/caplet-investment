@@ -1,0 +1,81 @@
+{
+ "stamp": "STAMP: curve 22 Oct 2026 | JPM 2027 global equities 7.5% | 200,000 paths, seed 20261016 | rho 0 / 0.5 | MODEL",
+ "rho=0.0": {
+  "coupons buy their own rung (model default)": {
+   "shortfall_p50_p95_p99": [
+    0,
+    25111,
+    32604
+   ],
+   "mean": 6234,
+   "p_short_over_1k": 0.4709,
+   "p_short_exceeds_leftover_plus_lauras_half": 0.0867
+  },
+  "coupons swept into a rolling 3-month bill fund": {
+   "shortfall_p50_p95_p99": [
+    7793,
+    39455,
+    46125
+   ],
+   "mean": 12873,
+   "p_short_over_1k": 0.6001,
+   "p_short_exceeds_leftover_plus_lauras_half": 0.2098
+  },
+  "coupons held as cash (bound)": {
+   "shortfall_p50_p95_p99": [
+    42906,
+    53189,
+    57511
+   ],
+   "mean": 42944,
+   "p_short_over_1k": 1.0,
+   "p_short_exceeds_leftover_plus_lauras_half": 0.7984
+  }
+ },
+ "rho=0.5": {
+  "coupons buy their own rung (model default)": {
+   "shortfall_p50_p95_p99": [
+    0,
+    25111,
+    32604
+   ],
+   "mean": 6234,
+   "p_short_over_1k": 0.4709,
+   "p_short_exceeds_leftover_plus_lauras_half": 0.1056
+  },
+  "coupons swept into a rolling 3-month bill fund": {
+   "shortfall_p50_p95_p99": [
+    7793,
+    39455,
+    46125
+   ],
+   "mean": 12873,
+   "p_short_over_1k": 0.6001,
+   "p_short_exceeds_leftover_plus_lauras_half": 0.2349
+  },
+  "coupons held as cash (bound)": {
+   "shortfall_p50_p95_p99": [
+    42906,
+    53189,
+    57511
+   ],
+   "mean": 42944,
+   "p_short_over_1k": 1.0,
+   "p_short_exceeds_leftover_plus_lauras_half": 0.792
+  }
+ },
+ "deterministic_ten_payment_total": {
+  "+0pp": {
+   "own rung": 500000,
+   "bill sweep": 492429
+  },
+  "-1pp": {
+   "own rung": 489164,
+   "bill sweep": 482004
+  },
+  "-2pp": {
+   "own rung": 479040,
+   "bill sweep": 472302
+  }
+ }
+}

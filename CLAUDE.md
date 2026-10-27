@@ -1,14 +1,16 @@
 # Team Keel / Team Caplet: project memory
 
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
-decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-27 (Wharton's halfway email = Book 6 of the bible).
+decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-27 (Wharton's halfway email, IPS instructions and deliverables page = Books 6-8 of the bible).
 
 ## For every Claude session in this repo (all teammates)
 Whoever is using Claude here, these rules apply, and the Keel Office (formerly the Caplet Research Office) is how competition work is done:
-- **THE BIBLE comes first: seven books, all equal (Caplet's five, 23-26 Oct 2026, and Wharton's two official files of 27 Oct), verbatim in `keel/BIBLE.md`** (north stars;
-  refinements; Caplet XR and de-obsessions; rewrite from scratch and star 4; Caplet XR locked; plus the 26 Oct cover note; Books 6-7 = Wharton's halfway
-  email, "THIS IS BIBLE. OFFICIAL FILE", and the updated IPS instructions PDF, "THIS IS BIBLE", filed in `competition/official/2026_27/wharton_email_week5_2026-10.md`).
-  Extraordinary above all; a distinctive, deeply human voice (Ahaan's essays are the model; guide `keel/voice/06_voice_guide.md`); one subtle motif, Caplet XR (X = 10; R never
+- **THE BIBLE comes first: eight books, all equal (Caplet's five, 23-26 Oct 2026, and Wharton's three official files of 27 Oct), verbatim in `keel/BIBLE.md`** (north stars;
+  refinements; Caplet XR and de-obsessions; rewrite from scratch and star 4; Caplet XR locked; plus the 26 Oct cover note; Books 6-8 = Wharton's halfway
+  email, "THIS IS BIBLE. OFFICIAL FILE", the updated IPS instructions PDF, "THIS IS BIBLE", filed in `competition/official/2026_27/wharton_email_week5_2026-10.md`,
+  and the deliverables page with the five evaluation criteria word for word, `competition/official/2026_27/SMApply_Deliverables_Page_2026-10-27.md`; every draft is checked against the criteria part by part, BIBLE rule 9).
+  Extraordinary above all; a distinctive, deeply human voice (Ahaan's essays set the tone, never a template; guide
+  `keel/voice/06_voice_guide.md`, judged by ear, not by script); one subtle motif, Caplet XR (X = 10; R never
   "release"); breathtaking investing knowledge, applied; no hedging (iBonds held to liquidation are near-ironclad);
   judges are not mini-Lauras. **The IPS rewrite is slow and deep, never hasty**: near-final for review Sat 31 Oct,
   final Sat 7 Nov 09:00 Sydney. Keel may weigh the books with its own judgement. Only the hard limits sit above it.
@@ -53,10 +55,10 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
   `keel/pm/ASK_HUMANS.md` with a default Keel acts on), merges its `keel/**` work into main daily, and never decides for Caplet.
 
 ## Current status (2026-10-14) - read this before the older sections below
-- 27 Oct (Ray): **voice before prose.** IPS prose paused 27-29 Oct; Keel studied great writers and measured its own
-  prose against Ahaan's essays: `keel/voice/` (guide `06_voice_guide.md` = the base for every draft; `fingerprint.py`).
-  Two real people share this account: Ray and Ahaan. The five Bible books and the three essays are **Ahaan's** (Keel's
-  files said Ray's until 27 Oct). D5 (Fri 30 Oct) is the first prose, written to the guide.
+- 27 Oct (Ray + Ahaan): voice study in `keel/voice/` (reading log `keel/voice/reading/LOG.md`, 500-1,000 pieces asked;
+  judges are Shark Tank investors, guide s7-s9). Ahaan's 27 Oct message (INSTRUCTIONS I54): voice is qualitative,
+  `fingerprint.py` is not a judge; cut the human way; every good idea lands in the IPS or Final Report; no artificial
+  timeline, only a final IPS draft for review by Sat 31 Oct.
 - 26 Oct (Ray): IPS rewritten from scratch through the office (WO-0003): AI Draft 1 in `keel/ips_rewrite/drafts/D1/`
   (pitch 47 / IPS 484 strict). Thesis = the gift is a capital-protected note minus the option (Treasury floor + index fund
   worth its expected interest); name Caplet XR. Thread brief: `keel/ips_rewrite/inbox/2026-10-26_thread_ray-brief.md`.

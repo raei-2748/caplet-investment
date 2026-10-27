@@ -1,0 +1,7 @@
+**Jun (round 1):** MODEL, on the 22 Oct curve.  Re-ran in a scratch copy.
+
+**Fight for: K4, but redone fairly.** As posted, every rival gets one 10% cushion and keeps 40-60% stocks in its reserve for ten years after 2033; that is one point on a curve. Slide the cushion and match on risk: at 1-2% misses the glide plan's best median contribution falls to $137k, the bond fund's to $119k, the barbell's to $131k, and 60/40 never gets under 3% (a stock crash before 2033 leaves it below the ten payments; no cushion fixes that). We also compared our gift ($166k) with their whole surplus ($203k). Like for like our surplus is $193k. So "certainty costs us $35k" is wrong; matched, it costs about nothing. That is the line nobody else can print.
+
+**Kill: K1 as a headline.** Its denominator is the ten cheques at par, $500k undiscounted. At market value 2028 is 6.5%, not 4.6%. 2042 = 100% is nought over nought. Stock dollars go $24k to $44k, 1.8x, not "ninefold", and in 7% of paths Laura keeps nothing. Stocks fund no cheque, so this is not Pfau-Kitces' sequence-risk effect. True, small, not an aha. (K3's kill is sound, but because the sleeve is ~$15k, not because ratchets are bad.)
+
+**What the numbers missed:** V25 is not in K4's model; its "about 0" comes from another one. Run it in the same model before we print anything. And ours costs more than $300k in 47% of paths: a coin flip we should say out loud.
