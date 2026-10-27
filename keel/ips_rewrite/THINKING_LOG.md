@@ -308,3 +308,11 @@ first; floor and stocks shrink in proportion). Tomorrow (Wed): voice. Study Ray'
 essays again against this content: what would Ray actually say, where would he joke, which sentence would he refuse
 to write? Also the R decision, the second meaning of XR, and a fresh look for anything the spine leaves out
 (north star 4: concepts that are applied but not yet placed).
+
+**Courtroom (PR #49, via the coordinator): don't print "$145k" as the floor.** On the model, the floor ends up
+below $145k in 43.5% of futures, because the 2028 deposit tops up the ladder first (the ladder costs more than
+$300k in ~47% of rate paths). That fits the day-2 table: the floor is whatever the 2028 deposit has left after
+completing the payments. It's known exactly in January 2028, three years before Laura names the range. So the IPS
+states the bottom as a rule, not a number: "what the 2028 deposit leaves after the payments, rounded down". The
+2031 range is a number, but Laura names it in 2031, not us in 2026. This also tidies the newsvendor story: the
+bottom's fractile is near 100% because by 2031 it is already bought and known.
