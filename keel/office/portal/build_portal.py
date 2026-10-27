@@ -480,6 +480,7 @@ def huddles(day):
                     "research": [{"path": r.relative_to(ROOT).as_posix(), "title": scrub(title_of(r.read_text(encoding="utf-8"), r.name)),
                                   "text": essence(r.read_text(encoding="utf-8")) or first_sentences(r.read_text(encoding="utf-8").split("\n", 1)[-1], 1)}
                                  for r in sorted((d / "research").glob("*.md"))] if (d / "research").exists() else [],
+                    "decided": [scrub(x) for x in (meta.get("decided") or [])][:4] if isinstance(meta.get("decided"), list) else [],
                     "done": [plain(t) for t in re.findall(r"^\s*- \[[xX]\] (.+)$", todo, re.M)],
                     "open": [plain(t) for t in re.findall(r"^\s*- \[ \] (.+)$", todo, re.M)]})
     return out
@@ -554,7 +555,8 @@ def days(ms, cs, rooms, known, titles):
         dm = [m for m in ms if m["date"] == day]
         words, today_doc = plain_words(day)
         hs = huddles(day)
-        talks = [{"kind": "Huddle", "title": h["title"], "path": h["path"], "room": "", "lines": h["lines"], "essence": h["essence"]}
+        talks = [{"kind": "Huddle", "title": h["title"], "path": h["path"], "room": "", "lines": h["lines"], "essence": h["essence"],
+                  "decided": h["decided"]}
                  for h in hs if h["lines"]]
         for p, t in sorted(meet.items()):
             if p.startswith(f"keel/meetings/{day}") and len(dialogue(t)) >= 2:

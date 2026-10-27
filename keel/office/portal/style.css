@@ -310,3 +310,6 @@ footer.foot { max-width: 78rem; margin: 0 auto; padding: 0 16px 2rem; color: var
 .daylist .d { font-weight: 600; } .daylist .l { color: var(--ink-2); font-size: .9rem; } .daylist .c { color: var(--muted); font-size: .78rem; }
 .morelist span { color: var(--muted); font-size: .88rem; }
 @media (max-width: 480px) { .brand .px { display: none; } nav.tabs a { padding: .45rem .55rem; } }
+.talk > summary .ess { grid-column: 1; font-size: .88rem; color: var(--ink-2); line-height: 1.5; margin-top: .2rem; }
+.decided { margin: .8rem .9rem 0; padding: .6rem .8rem; background: var(--accent-2); border-radius: 8px; font-size: .86rem; }
+.decided ul { margin: .3rem 0 0; padding-left: 1.1rem; display: grid; gap: .25rem; }
