@@ -68,8 +68,27 @@ Not every paragraph uses every step, but a paragraph that uses none is a fact sh
 4. Which single number would a judge remember, and why that one?
 5. Is there a sentence only Caplet could have written? (Cover the team name: could any other team have said it?)
 6. Where did we spend a kicker, and was it worth it?
+7. Where does a judge *feel* something, and what put them there (a place, a person, a date, a cost we accept)? (Section 7)
 Then run `fingerprint.py` against Ahaan's essays. One "no", or two metrics outside the band, sends it back. **None of
 these is a reason to soften a true claim.**
+
+## 7. The feeling: judges hold the money (Ray, 27 Oct: "judges are shark tanks", not examiners)
+From the first 100 pieces of the reading log (`reading/LOG.md`, strand "pitches, founder letters, speeches", and
+`reading/SYNTHESIS.md`). An examiner checks that the parts are there. An investor across the table decides whether to
+believe you, and belief arrives as a feeling first. Six moves the best of them use, each with its test:
+
+| # | Move | Who does it | Test |
+|---|---|---|---|
+| F1 | **Put the reader somewhere; never name the feeling.** A doctor's office at 7:30 a.m. (Jobs), a crowd holding a cheque (King), a supermarket queue (Wallace). Nobody in the reading writes "this is exciting" or "we are passionate". | 063, 070, 078 | Is there a place, a person or a thing in the paragraph? Does the word "passion", "excited" or "exciting" appear? Delete it. |
+| F2 | **A promise has a name on it.** King turns a moral claim into a financial one: the crowd holds a promissory note marked "insufficient funds". Caplet's mirror image: Laura's ten payments are not "liabilities", they are ten cheques dated 2033-2042 to artists she hasn't met, and Caplet's whole job is that none bounces. | 070 | Is each payment a promise to someone, or an entry in a table? |
+| F3 | **Accept a cost in public.** Conviction is believed when it costs something: Google won't give earnings guidance (066), Chouinard gives the company away (067), Kennedy picks the hard thing (069), Bezos lists what his commitments will cost shareholders (100), Damodaran shows his own open orders (097). Caplet's: we give up the upside a bank's buffer fund would sell back to Laura at a fee; we refuse to sell a rung early, even in a boom. | 066, 067, 069, 097, 100 | Is there one thing we refuse, and its price, stated plainly? |
+| F4 | **A number that measures a loss, or a near miss.** Buffett's most moving sentence is a date: Munger "died on November 28, just 33 days before his 100th birthday" (075). Kennedy compresses 50,000 years into 50 (069). A number moves people when it counts what someone could lose or nearly had. | 069, 075 | Which number in the piece would someone feel in the stomach, not just remember? |
+| F5 | **Dread, then relief, in that order.** Jobs (the scan, then "curable"), Chouinard ("not enough", then "resilient"), Housel's three sides of risk. State the fear honestly before the plan answers it; a plan that never names the fear reads as a brochure. | 063, 067, 014 | Do we say what Laura is afraid of before we say how she is protected? |
+| F6 | **The reluctant narrator.** "I never wanted to be a businessman" (Chouinard); Marks's wife and his repetitiveness; Asness's rejected paper; Keynes wishing economists were as useful as dentists. Self-mockery buys the right to be blunt about everyone else. Once per piece. | 046, 061, 067, 077 | Is there one line where we laugh at ourselves, and only one? |
+
+**Spend it like kickers.** One F-move per paragraph at most; in the IPS, F2 and F3 carry the weight and F6 appears
+once, if at all. Feeling is the reason a judge keeps reading; the investing knowledge (north star 4) is the reason
+they believe. Neither replaces the other.
 
 ## 6. What changed from `VOICE.md` and R03 (and why)
 | Old rule | Now | Why |

@@ -14,7 +14,7 @@ reader that returns short quotes and an analysis, not the full text. Each entry 
 Each entry: **Open / Best / Close** (quoted lines), **Craft** (rhythm, stance, shape), **Steal** (one move worth
 copying), **Insight** (only if there is one). What the entries add up to goes in `SYNTHESIS.md` after every 100.
 
-Count so far: **90**
+Count so far: **100**
 
 ---
 
@@ -269,3 +269,38 @@ the "what I am not claiming" sentence. The best opener here (#086) starts in a s
 
 Lesson: even the essays that worked lose their voice in the last line, where the writer starts *summarising what they
 learned*. The openings win; the closes go generic. Caplet's kicker rule (end on a thing, not a lesson) comes from this.
+
+### 091-094 · Michael Cembalest, J.P. Morgan "Eye on the Market" · bank research · reader
+| # | Piece | Open | Best line | Steal |
+|---|---|---|---|---|
+| 091 | "Outlook 2024: Pillow Talk" https://am.jpmorgan.com/content/dam/jpm-am-aem/global/en/insights/eye-on-the-market/outlook-2024-amv.pdf | "Falling US inflation and prospects for easier Fed policy are increasing talk of a soft landing..." | "The Fed has enough egg on its face already." | A pun title ("soft landing", pillow) and section heads with a metaphor plus a dry subtitle ("The Boiling Frog"). Charts arrive behind a plain claim and "As shown below". |
+| 092 | "Market Outlook 2023: The End of the Affair" https://am.jpmorgan.com/content/dam/jpm-am-aem/global/en/insights/market-insights/eotm/2023-outlook-amv.pdf | "The affair with the market catalysts of the last decade is over now, and a new era of investing begins." | "I also believe the moon landing was real since I watched it live on TV when I was 7." | A whole market regime told as a break-up. Each chart opens with its verdict as the headline. |
+| 093 | "Heliocentrism: Objects may be further away than they appear" https://am.jpmorgan.com/content/dam/jpm-am-aem/global/en/insights/eye-on-the-market/heliocentrism-amv.pdf | "The renewable transition exists in the eye of the beholder." | "Jacobson's methodology is the equivalent of a vegan who swears off meat but only in between meals." | Puncture an expert's claim with an everyday analogy; the fine print goes to a footnote. The jokes do the rebutting. |
+| 094 | "Outlook 2022: Reflation: Endgame" https://am.jpmorgan.com/content/dam/jpm-am-aem/global/en/insights/market-insights/eotm/reflation-endgame-amv.pdf | "Greetings and Happy New Year." | "While I have never seen a superhero movie, their marketing posters gave us the idea for the cover." | A blockbuster title on dry economics; a footnote confession (he failed the firm's phishing test) as a second, candid voice. |
+
+Craft: Cembalest's research is the most "voiced" bank writing in the reading. The trick is **two registers on one
+page**: the body is sober and chart-led; the titles, brackets and footnotes are where the person lives. Caplet's
+IPS can't have footnotes, but the Final Report can.
+
+### 095-097 · Aswath Damodaran, "Musings on Markets" (Substack) · blog · reader
+| # | Piece | Open | Best line | Steal | Insight |
+|---|---|---|---|---|---|
+| 095 | "A Moody's Ratings Downgrade for the US: What now?" https://aswathdamodaran.substack.com/p/a-moodys-ratings-downgrade-for-the | "I was on a family vacation in August 2011 when I received an email from a journalist asking me what I thought about the S&P..." | "Since I stay blissfully unaware of most news stories and things related to markets when I am on the beach..." | Open on a dated personal scene, then the market question. Numbers chained so each feeds the next. | Treasury yields barely moved: a downgrade mostly writes down a default spread markets already priced. Useful for Caplet's "residual risk = US default" line. |
+| 096 | "Alternative Investments: Big Promises, Questionable Payoffs!" https://aswathdamodaran.substack.com/p/alternative-investments-big-promises | "It is true that most investing lessons are directed at those who invest only in stocks and bonds..." | "At the risk of raising the ire of crypto-enthusiasts..." | Concede each sales pitch in its own words, then audit it. | Appraisal lag makes private assets look less correlated than they are. |
+| 097 | "Buy the Dip! The Appeal and Dangers in Contrarian Investing!" https://aswathdamodaran.substack.com/p/buy-the-dip-the-appeal-and-dangers | "When markets are in free fall, there is a great deal of advice..." | "Put simply, most great companies are neutral or even bad investments, because the market prices them to be great." | Jargon translated inline: "marginal incremental returns (an academic code word for really small)". Ends by disclosing his own live orders: "the order is good until canceled!" | Skin in the game makes an argument testable. |
+
+Craft: the professor's voice: patient, long sentences, exclamation marks in titles, and a bracket that translates the
+jargon. **Steal for Caplet:** the inline translation in brackets is the best tool yet for the IPS's two or three
+technical words (pull to par, duration): say it, then say what it means in five words, in brackets.
+
+### 098-099 · Matt Levine; Evan Armstrong on Kyla Scanlon · columns · reader
+| # | Piece | Open | Best line | Steal |
+|---|---|---|---|---|
+| 098 | Matt Levine, "We Has Some Bonds to Sell" (Money Stuff, Oct 2019) https://www.bloomberg.com/opinion/newsletters/2019-10-16/money-stuff-we-has-some-bonds-to-sell | "There isn't really any new news in the WeWork saga, but there are a lot of people who have waited patiently..." | "Good good. Vicki Bryan do you have anything to add?" | Admit there's no news, then make the thin update a favour to the people queueing to mock; end on a stage cue. |
+| 099 | Evan Armstrong, "Vibes Are a Legitimate Economic Indicator" (Every) https://every.to/napkin-math/vibes-are-a-legitimate-economic-indicator | "Kyla Scanlon is good at the internet." | "things have been, like, kinda weird over the last decade." | A wink in brackets "(ha!)" straight after a key claim: personality without derailing. |
+
+### 100 · Jeff Bezos, Amazon's 1997 letter to shareholders · company letter · reader
+https://www.aboutamazon.com/md/news/company-news/amazons-original-1997-letter-to-shareholders
+- Open: "Amazon.com passed many milestones in 1997..." · Best: "We believe that a fundamental measure of our success will be the shareholder value we create over the long term."
+- Craft: plain sentences; numbers do the persuading (1.5 million customers, revenue up 838%); short headings ("It's All About the Long Term"); the commitments list repeats one stem ("We will ...") so conviction builds, and it admits what the commitments will cost. Disarms with "We aren't so bold as to claim...".
+- Steal: a list of promises with one repeated stem, each paired with the price the reader will pay for it.
