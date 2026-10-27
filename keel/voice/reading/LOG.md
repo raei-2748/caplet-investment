@@ -11,10 +11,13 @@ reader that returns short quotes and an analysis, not the full text. Each entry 
 - `full`: the whole text was read (Ahaan's essays only, so far).
 - `partial` / `second-hand`: only part of the piece, or another site quoting it.
 
+**Pace.** The web reader allows about 100 fetches an hour across this whole account, so the log grows in batches,
+about 60-90 pieces an hour at best. Collections (memo anthologies, letter compilations) give several pieces per fetch.
+
 Each entry: **Open / Best / Close** (quoted lines), **Craft** (rhythm, stance, shape), **Steal** (one move worth
 copying), **Insight** (only if there is one). What the entries add up to goes in `SYNTHESIS.md` after every 100.
 
-Count so far: **100**
+Count so far: **133**
 
 ---
 
@@ -304,3 +307,79 @@ https://www.aboutamazon.com/md/news/company-news/amazons-original-1997-letter-to
 - Open: "Amazon.com passed many milestones in 1997..." · Best: "We believe that a fundamental measure of our success will be the shareholder value we create over the long term."
 - Craft: plain sentences; numbers do the persuading (1.5 million customers, revenue up 838%); short headings ("It's All About the Long Term"); the commitments list repeats one stem ("We will ...") so conviction builds, and it admits what the commitments will cost. Disarms with "We aren't so bold as to claim...".
 - Steal: a list of promises with one repeated stem, each paired with the price the reader will pay for it.
+
+---
+
+## Pieces 101-200 (night of 27 Oct)
+
+### 101-105 · Classic investing texts and speeches · reader
+| # | Piece | Open | Best line | Close | Steal |
+|---|---|---|---|---|---|
+| 101 | Warren Buffett, "The Superinvestors of Graham-and-Doddsville" (1984) https://www.lapasserelle.com/courses/advanced_finance/documents/TheSuperinvestorsofGraham-and-Doddsville-WarrenE.Buffett.pdf | Opens on the question: is the margin-of-safety approach outdated? | "215 egotistical orangutans with 20 straight winning flips." | "...those who read their Graham & Dodd will continue to prosper." | A national coin-flipping contest makes luck look like genius; swapping in orangutans exposes the flaw. Then: what if the winners all came from one village? An absurd parallel does the rebuttal. |
+| 102 | William Sharpe, "The Arithmetic of Active Management" (1991) https://marottaonmoney.com/wp-content/uploads/2021/07/The-Arithmetic-of-Active-Management.pdf | "Today's fad is index funds that track the Standard and Poor's 500." | "Security analysis (e.g. the graduates of prestigious business schools) must eat, and so must brokers, traders, specialists and other market-makers." | (benchmark chosen in advance) | A proof in three steps, then restated; dry sarcasm ("the laws of arithmetic have been suspended"). Shows that a short, rude, correct paper outlives long polite ones. |
+| 103 | Bridgewater, "50 Years of the Daily Observations" https://www.bridgewater.com/50-years-of-the-bridgewater-daily-observations (partial) | On the firm's 50th anniversary release. | "There are times when big shifts happen and the right framework is crucial..." | - | Each reprinted piece is graded against what later happened. Accountability as a structure. |
+| 104 | Ray Dalio, "How the Economic Machine Works" (page) https://economicprinciples.org/how-the-economic-machine-works (partial) | "This simple but not simplistic video..." | "Identify the paradigm you're in, examine if and how it is unsustainable" | - | One metaphor (a machine) with a few visible parts (credit, rates, leverage) the reader already understands. |
+| 105 | Charlie Munger, "The Psychology of Human Misjudgment" (1995) https://singjupost.com/full-transcript-the-psychology-of-human-misjudgement-charlie-munger/ | "Although, I am very interested in the subject of human misjudgment, and Lord knows I've created my..." | "Smart people make these terrible blunders." | "In fact, I think it's terrible." | A numbered catalogue: anecdote, then a short verdict. Mock-serious images ("man-with-a-hammer syndrome"). Opens by admitting his own misjudgments. |
+
+### 106-112 · The great essayists · reader / second-hand
+| # | Piece | Open | Best line | Close | Steal |
+|---|---|---|---|---|---|
+| 106 | Joan Didion, "On Self-Respect" (1961) https://www.westridge.org/uploaded/LMS_documents/Didion,_On_Self-Respect.pdf (summary + quotes) | Opens on her own youthful failure to make Phi Beta Kappa. | People with self-respect "have the courage of their mistakes" | One who lacks it runs away "to find oneself, and finds no one at home." | A private embarrassment as the doorway to a moral argument. |
+| 107 | Didion, "Fixed Opinions, or the Hinge of History" (2003) http://www.nybooks.com/articles/archives/2003/jan/16/fixed-opinions-or-the-hinge-of-history/ | "Seven days after September 11, 2001, I left New York to do two weeks of book promotion..." | "I hit the word 'perishable' and I could not say it." | - | Mundane logistics, then one word that breaks the calm. |
+| 108 | Didion, "California Notes" (2016) http://www.nybooks.com/articles/2016/05/26/california-notes/ | "The first time I was ever on an airplane was in 1955 and flights had names." | "I believed that I would always go to teas." | - | A sweeping claim, then a small faintly deflating detail, left uninterpreted. |
+| 109 | Didion, "Goodbye to All That" (1967), second-hand https://blogs.shu.edu/litandthecity/?p=857 | Remembers exactly when New York began for her, not when it ended. | - | - | A beginning you can date, an ending you can't: the gap drives the piece. |
+| 110 | James Baldwin, "Notes of a Native Son" (1955) https://www.whatsoproudlywehail.org/wp-content/uploads/2013/08/Baldwin_Notes-of-a-Native-Son.pdf | "On the 29th of July, in 1943, my father died." | "We had got on badly, partly because we shared, in our different fashions, the vice of stubborn pride." | Wishing his father beside him to search "his face for the answers" | A date and a death in nine words. Private grief braided with public violence (the funeral passes "a wilderness of smashed plate glass"). Long periodic sentences that snap short. |
+| 111 | E. B. White, "Once More to the Lake" (1941) https://hhh.gavilan.edu/ecrook/1A.fall.2005/1A.white.html | "One summer, along about 1904, my father rented a camp on a lake in Maine and took us all there for the month of August." | "There had been no years." | "As he buckled the swollen belt suddenly my groin felt the chill of death." | Warm detail for pages, then a small bodily detail that turns it. The best ending in the log so far. |
+| 112 | E. B. White, "Here Is New York" (1949), partial via https://mehfil.substack.com/p/here-is-new-york-by-eb-white | - | "Prosperity creates its bread lines, the same as depression." | - | A street scene and a general truth in one breath, no lecture. |
+
+Craft: the essayists open on **a date** (Baldwin, White, Didion x3) far more often than the investors do, and end on a
+**body or an object** (White's belt, Didion's word she couldn't say). Their emotion is never named; it is placed.
+This confirms guide section 7, F1 and F4. **Caplet's use:** "On the 1st of January, 2033, ..." is a Baldwin-shaped
+opening for the Final Report; the IPS can't spare the words.
+
+### 113-116 · Howard Marks, more memos · reader
+| # | Memo | Open | Best line | Close | Steal |
+|---|---|---|---|---|---|
+| 113 | Genius Isn't Enough (Oct 1998) | "The saga of Long-Term Capital is well known by now." | "Brilliance, like pride, often goes before the fall." | "You won't see them forgotten here." | A flat fact, then one contrast: "The answer was leverage." |
+| 114 | bubble.com (Jan 2000) | Opens on Edward Chancellor's history of speculation. | "Not even one of the world's smartest men was immune to this tangible lesson in gravity!" (Newton) | Ends by quoting someone else's rosier column. | A dense quote, then a bracketed one-liner that translates it. |
+| 115 | The Most Important Thing (Jul 2003) | "As I meet with clients and prospects, I repeatedly hear myself say, 'the most important thing is x.'" | "Invest scared!" | "And maybe that's the nineteenth point: never think it'll be easy." | Turn your own verbal tic into the structure (eighteen "most important things"). |
+| 116 | The Long View (Jan 2009) | Looks back over his memos on 2003-07. | "But it doesn't add value or make things better; it just makes gains bigger and losses more painful." (leverage) | "This one's providing enough excitement for a lifetime." | A familiar parable organising the whole argument. |
+(Also re-read 003 "Sea Change": the moving walkway is introduced as a casual aside from client visits and paid off in
+the last line: "That's the sea change I'm talking about.")
+
+### 117-122 · Paul Graham, more essays · reader
+| # | Essay | Open | Best line | Close / note | Steal |
+|---|---|---|---|---|---|
+| 117 | "After the Ladder" http://www.paulgraham.com/ladder.html | "Thirty years ago, one was supposed to work one's way up the corporate ladder." | "Why waste your time climbing a ladder that might disappear before you reach the top?" | "Our fathers weren't *that* stupid." | A short deflating line reframes the argument with understatement. |
+| 118 | "Inequality and Risk" http://www.paulgraham.com/inequality.html | "Suppose you wanted to get rid of economic inequality." | "Like many startup founders, I did it to get rich." | Narrows to one reframed goal. | Restate a warm-sounding goal in its blunt equivalent so the hidden cost shows. |
+| 119 | "Why Smart People Have Bad Ideas" http://www.paulgraham.com/bronze.html | "This summer, as an experiment, some friends and I are giving seed funding to a bunch of new startups." | "In retrospect, I wonder how we could have wasted our time on anything so stupid." | A self-mocking story becomes the thesis. | Confess your own mistake first, then generalise to the reader. |
+| 120 | "Startups in 13 Sentences" http://www.paulgraham.com/13sentences.html | "One of the things I always tell startups is a principle I learned from Paul Buchheit." | "Cofounders are for a startup what location is for real estate." | "...having just ten users who love you will keep you going." | Advice anchored in a homely physical image; end on people, not a rule. |
+| 121 | "How to Do What You Love" http://www.paulgraham.com/love.html | "To do something well you have to like it." | "It was like being told to use dry water." | Reassurance, not a flourish. | A plain claim and a slightly absurd comparison, so the reader feels the contradiction first. |
+| 122 | "The Submarine" http://www.paulgraham.com/submarine.html | "'Suits make a corporate comeback,' says the New York Times. Why does this sound familiar?" | "If anyone is dishonest, it's the reporters." | Predicts PR will chase bloggers next. | Tie the theory to one checkable case so the reader can verify the mechanism. |
+
+Craft across Graham's twelve: almost every essay opens in under 15 words with either a supposition ("Suppose you
+wanted...") or a flat claim, and the "best line" is usually a confession or an absurd comparison ("dry water").
+**Caplet's use:** "Suppose you had to promise ten people $50,000 each, starting in 2033, and could not ask anyone for
+more money." That is a Graham-shaped first line for the IPS: it puts the judge in Laura's chair (F1) in 25 words.
+
+### 123-126 · Bond kings, bank house views and forecasters · reader / second-hand
+| # | Piece | Open | Best line | Steal / verdict |
+|---|---|---|---|---|
+| 123 | Bill Gross, PIMCO Investment Outlook on being a better investor (Apr 2013), excerpt https://www.marketfolly.com/2013/04/bill-gross-on-how-to-be-better-investor.html | "But let me admit something." | Lists the investing legends, then "Fuss, yeah – me too, have cut our teeth" on an unusually kind credit era. | Slip yourself into a list of peers as one of the lucky ones, then make it the reader's warning. |
+| 124 | Bill Gross, "Cult Figures" (Aug 2012), excerpt https://www.marketfolly.com/2012/08/bill-gross-on-death-of-equities-pimco.html | "The cult of equity is dying." | "Unfair though it may be, an investor should continue to expect an attempted inflationary solution" | **A great five-word opening attached to a wrong call** (the S&P 500 has risen several-fold since). Voice without humility ages badly; Caplet's claims must be ones it can stand behind in 2033. |
+| 125 | BlackRock Investment Institute, 2026 outlook, as reported https://www.investmentofficer.be/fr/analyse/document/22405 | - | "Mega forces, led by AI, are now the primary drivers of growth and returns" | **Counter-example:** stacked abstract nouns, coined labels. One label ("mega forces") is memorable; the rest is plastic at institutional scale. |
+| 126 | Mike Wilson (Morgan Stanley) on missed forecasts, as reported https://www.benzinga.com/general/24/05/38679398/morgan-stanley-cio-cites-humbling-business-behind-wrong-forecasts-gives-up-predicting-s-p-500-as-one | - | Forecasting is "a humbling business." | Admit the field is hard, then move to where your edge is. Caplet's version: we don't forecast rates; we buy the dates. |
+
+### 127-133 · Asness and Damodaran, more · reader
+| # | Piece | Open | Best line | Steal |
+|---|---|---|---|---|
+| 127 | Asness, "I Did Not Predict What Is Going on in Privates" https://www.aqr.com/Insights/Perspectives/I-Did-Not-Predict-What-is-Going-on-in-Privates | "Privates are having a tough time lately." | "The lion doesn't care if the ostrich is first loss or higher up in the capital structure." | Refuse the credit you're offered ("I did not predict this"), then restate your narrower, true claim. |
+| 128 | Asness, "Rebuffed: A Closer Look at Options-Based Strategies" https://www.aqr.com/Insights/Perspectives/Rebuffed-A-Closer-Look-at-Options-Based-Strategies | "The holy grail for many investors is a strategy that generates market-like returns, but with less risk." | "I'm not the only one at AQR who gets worked up about silliness in the industry." | "Nope." as a one-word paragraph after a hopeful question. **Insight:** buffered products sold on protection mostly lose to a cheap stocks-plus-cash mix. Confirms Caplet's "built at home" line (SYNTHESIS 7.3). |
+| 129 | Asness, "In Praise of High-Volatility Alternatives" https://www.aqr.com/Insights/Perspectives/In-Praise-of-High-Volatility-Alternatives | "Everyone knows that it's compound returns over time that matter." | "I will never agree that I was wrong on the math." | A tiny numerical example before the complicated version. |
+| 130 | Damodaran, "Data Update 4 for 2025: Interest Rates, Inflation and Central Banks!" https://aswathdamodaran.substack.com/p/data-update-4-for-2025-interest-rates | "It was an interesting year for interest rates in the United States" | "I must confess that I find the bond market far less interesting" | Admit your bias against your subject, then be fair to it. Insight: long yields rose in 2024 despite three Fed cuts. |
+| 131 | Damodaran, "The Greed and Fear Tango: Markets in April 2025" https://aswathdamodaran.substack.com/p/the-greed-and-fear-tango-markets | "I started the month on a trip to Latin America, just as the tariff story hit my newsfeed" | "As someone who stinks at market timing, I made no attempt to buy and sell the market through the month" | Ends on a granddaughter's arrival, above the portfolio. Warmth by putting money second, once. |
+| 132 | Damodaran, "A Golden Year (2025)" https://aswathdamodaran.substack.com/p/a-golden-year-2025-golds-price-surge | "I grew up in India in a time where if you had wealth, your investment options were limited." | "I must confess that I have never felt the draw of gold, and have never held it in my portfolio." | Sort the subject into categories first; the verdict then follows almost by deduction. |
+| 133 | Damodaran, "Trillion Dollar Market Caps" https://aswathdamodaran.substack.com/p/trillion-dollar-market-caps-fairy | "Stock markets have always rewarded winners with large capitalizations" | "I will try to thread the needle (unsuccessfully, I am sure) in this post." | Turn a shouting match into a threshold: what must be true for this price? Then test each condition. |
+
+Pattern: Damodaran opens four of seven posts with *where he was* (a beach, Latin America, India as a boy). The
+personal first line is his signature, and it never lasts more than a sentence before the numbers start.
