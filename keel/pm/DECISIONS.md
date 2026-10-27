@@ -5,19 +5,19 @@ Keel prepares the options; Caplet votes. When a vote is taken, record it (with a
 `keel/tea_room.md`. Vote dates Sydney.
 
 ## Waiting for a vote
-| ID | Decision | Options (short) | Options memo | Vote by | Who votes |
-|---|---|---|---|---|---|
-| D1 | Coupon reinvestment risk | State the risk only / keep Laura's half invested to 2042 / hold a buffer from the 2028 deposit | [T04a] due Mon 26 Oct; numbers `keel/library/ips_numbers_2026-10/IPS_number_sheet.md` | Tue 27 Oct | Whole team |
-| D2 | What "high degree of certainty" means (standard and words) | Mechanism only (bonds held to maturity, matched) / mechanism + modelled standard / plus a named residual-risk list | [T04a]; `caplet/decisions/02_high_certainty_definition.md` | Tue 27 Oct | Whole team |
-| D3 | Shortfall order if the ladder costs more than $300k, and where the 2027 leftover sits | 2028 deposit first, longest rungs first / leftover in cash or a short Treasury ETF vs in VT | [T04b]; R1 | Tue 27 Oct | Whole team |
-| D4 | Floor definition and the 2031 valuation date | Floor = IBTM value rounded down / a fixed dollar figure; value on 1 Jan 2031 vs the announcement date | [T04b]; `keel/library/range_2031/README.md` | Tue 27 Oct | Whole team |
-| D5 | Jobs for the half Laura keeps; meaning of "responsible" and "flexibility" | Overrun buffer first / ventures first / split | [T04c]; `caplet/decisions/05_facility_contribution.md` | Tue 27 Oct | Whole team |
-| D6 | Does WInS still show Laura's allocation at the lock (any order needed?) | Hold as is / small fix by Thu 5 Nov 08:00 | [T04c]; WO-0005 (hold) | Tue 27 Oct | Whole team; Ray places |
-| D7 | Adopt this project office and the autonomous loop (scheduled routines) | Adopt / adopt with changes / not now | This pull request | Sun 25 Oct (retro) | Ray, then the team |
+None. Since Mon 26 Oct (Ray: "just make your own call ... do not have danger zone decisions made for me") Keel makes
+every call itself; only danger-zone decisions (trades, submitting, Caplet's docs, money, accounts, outside emails,
+repo settings) wait for a student. All of it now lives in `ASK_HUMANS.md`, with each call's one-line reason.
 
-Vote set A (word list, name, "promise", 16 Oct North Star memo) was set for Sun 18 Oct; Keel has no record of the
-result. A student should log it in `caplet/decisions/LOG.md` or re-queue it here.
+Vote set A (word list, name, "promise", 16 Oct North Star memo): superseded by Caplet XR and `../BIBLE.md` (26 Oct).
 
 ## Decided
 | ID | Decision | Result | Date | Record |
 |---|---|---|---|---|
+| D1 | Coupon reinvestment risk | Keel's call: D1a floor last, yes; D1b a quote margin, no $10k buffer | Mon 26 Oct | `ASK_HUMANS.md` |
+| D2 | "High degree of certainty" | Keel's call: mechanism plus one modelled number, said with flair (BIBLE rule 3) | Mon 26 Oct | `ASK_HUMANS.md` |
+| D3 | Shortfall order; 2027 leftover | Keel's call: 2028 deposit first, longest rungs first; leftover in a short Treasury ETF | Mon 26 Oct | `ASK_HUMANS.md` |
+| D4 | Floor and 2031 valuation date | Keel's call: IBTM's value on the announcement day, rounded down | Mon 26 Oct | `ASK_HUMANS.md` |
+| D5 | Laura's kept half | Keel's call: overrun buffer first, ventures second | Mon 26 Oct | `ASK_HUMANS.md` |
+| D6 | WInS at the lock | DANGER ZONE: Ray decides; Keel recommends hold | open | `ASK_HUMANS.md` |
+| D7 | Project office and loop | Keel's call: adopt | Mon 26 Oct | `ASK_HUMANS.md` |

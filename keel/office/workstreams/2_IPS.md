@@ -1,5 +1,10 @@
 # Workstream 2: Investment Policy Statement (IPS) and the trading freeze
 
+> **Read `../../BIBLE.md` first: Caplet's five books, all equal (23-26 Oct 2026).** They beat every rule on this page.
+> Extraordinary above all; a distinctive, deeply human voice (Ray's, never AI's); one subtle motif, Caplet XR (extended
+> release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
+> IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
+
 **Due: Fri 6 Nov 5:00 pm ET = Sat 7 Nov 09:00 Sydney.** Internal submit: **Thu 5 Nov.**
 Trading ends on Fri 6 Nov at the 4:00 pm ET close, probably about Sat 7 Nov 08:00 Sydney (an inference). After the
 deadline, "Your team may not revise its investment strategy" (`2026_WGY_Investment_Policy-FINAL.txt:74`).
@@ -58,7 +63,7 @@ students write a fresh IPS.
 - [ ] The PDF fits on the title page plus two pages, on Letter paper. No graphics, links, footnotes or citations. 5 MB or less.
 - [ ] The title page matches the official roster exactly. Never committed to the repo.
 - [ ] Every vote-set-B rule appears in the students' words, with the vote and any dissent logged.
-- [ ] Certainty wording is true for the bonds actually owned: no "guaranteed", "risk-free" or "cannot miss".
+- [ ] Certainty wording is true for the bonds actually owned, and said with flair (`keel/BIBLE.md` rule 3: iBonds held to liquidation are near-ironclad; no hedging).
 - [ ] The IPS and the TNA tell the same story, with numbers on the same basis.
 - [ ] Every author can defend every sentence aloud.
 

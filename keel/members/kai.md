@@ -1,24 +1,59 @@
 # FICTION. Kai Tran, contrarian and trader
 
-> Keel is a fictional team. Kai is not based on any real person.
+> **Read `../BIBLE.md` first: Caplet's five books, all equal (23-26 Oct 2026).** They beat every rule on this page.
+> Extraordinary above all; a distinctive, deeply human voice (Ray's, never AI's); one subtle motif, Caplet XR (extended
+> release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
+> IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
+
+> Keel is a fictional team of Sydney students (`keel/WORLD.md`). Kai is not based on any real person.
+> Quick version: `keel/CAST.md`. Read this full file only when Kai is central to the day.
 
 ## Snapshot
 | | |
 |---|---|
-| Age, year | 17, Year 11 |
+| Age, year | 17, Year 11, Fernleigh Selective High School |
+| Home | Canley Vale, with his mother and his grandmother (Bà); his father lives in Liverpool |
 | Role | Devil's advocate and market watch; the only member who places WInS orders, after Felix's check |
 | In one line | Finds the weakest point of any plan in five minutes, then makes the team say what safety cost |
 | Signature habit | Reads market news on his phone at 6 a.m.; screenshots every order ticket twice |
 | Signature line | "Who says?" |
+| Value he carries | 3, "Argue hard, decide once" (the "argue hard" half) |
 
-## Who he is
-Kai joined because he likes markets. He has followed them since a Year 9 economics project and he reads
-financial news before breakfast. He thinks most student teams are scared of risk and that judges can smell it. He
-argues the other side on purpose, and he is right often enough that no one can ignore him.
+## Where he comes from
+His mother, Linh, sells houses on commission: a great month, then two quiet ones, then a great month. She is the
+bravest person he knows and the most organised; she taught him to read a contract's last page first. Bà came to
+Australia in 1981 with nothing she could not carry. She keeps an envelope of cash and two gold bracelets in a tin
+at the back of the wardrobe and trusts no bank. When Kai says "my nan would sign off on it", he means it as the
+highest and lowest praise at once.
 
-He is also the only one allowed to place WInS orders. The team made the rule after a near mis-click early in
-October, and Kai takes it more seriously than anything else he does: limit orders, a ticket read out loud, Felix
-watching, a screenshot before and after. The loudest person on the team is the most careful with the button.
+His father, Tuan, drives rideshare and trades. In 2022, when Kai was thirteen, his father lost about $11,000 on a
+leveraged crypto position in one week, money that had been set aside for Kai's school fees. Kai watched him refresh
+the app at the dinner table. Nobody at Keel knows this except Jun. It is the reason the loudest person on the team
+is the most careful with the button.
+
+## The experiences that made him
+1. **The dinner-table week (age 13).** His father's leveraged loss. Taught him that the risk is not the price
+   falling, it is being unable to wait. He has never said this in a meeting.
+2. **The economics project (Year 9).** A project on the 2020 crash. He argued, alone in the class, that a long-term
+   investor should have bought in March 2020, and was laughed at, and was right. He has been arguing the other side
+   on purpose ever since, sometimes when he should not.
+3. **The debate (Year 9).** He beat Nora's team in an inter-school round by attacking their one assumption. She
+   found him afterwards and asked how he had found it. They have been arguing ever since.
+4. **The near mis-click (Fri 2 Oct 2026).** On a practice ticket in WInS he typed a market order for ten times the
+   intended quantity and caught it on the confirmation screen. Nothing was sent. He went quiet for a whole lunch
+   and then proposed the button rule himself (Ep 5).
+5. **Northwind and the Unsent (Year 10, 2025-26).** Fernleigh's first Wharton team took him on as its one Year 10,
+   "for the trading". They had the best idea he has ever seen, and they submitted the Final Report 47 minutes after
+   the portal closed, because they rewrote the summary at 2 a.m. on Sydney's clock. He keeps the captain's last
+   draft in the Archive, in a red folder he never mentions (`keel/STORY_BIBLE.md`, section 4). It is why the most
+   reckless talker in Keel has the most careful hands.
+
+## The reader
+Kai is the team's finance enthusiast. He reads more finance than anyone at Fernleigh: papers, textbooks, pension
+reports, fund documents, market news. He reads to find a weapon, then tests it on the team. Most of the concepts in
+`keel/IDEAS.md` arrived in his hands, and he is proudest of the ones the team rejected for good reasons, because
+"a rejected idea with a reason is still research". He brings one new idea a week, in the Long Room, as a challenge:
+"Here's something smart. Tell me why it's wrong for Laura." Jun usually tests it in code by the next morning.
 
 ## Personality
 - **Provocative.** Exaggerates to make a point, then backs off when pushed with evidence.
@@ -26,44 +61,73 @@ watching, a screenshot before and after. The loudest person on the team is the m
   pair of eyes.
 - **Restless.** Argues for the sake of it when bored, and knows it.
 - **Loyal.** Clashes with Nora weekly and would follow her anywhere.
-- **What he fears:** a plan so safe that a judge forgets it by the next file.
-- **What drives him:** finding the leap: the bold, true idea most teams miss.
+- **Deflects with jokes** when something actually hurts.
 - **Humour:** loud, quick, self-mocking. Keeps a file of his best lines that Tess cut.
 
-## How he thinks
-- **Attack every assumption.** "Who says?" is his first move.
-- **What did safety cost?** If the plan is safe, he makes the team name what it gave up.
-- **Markets are people.** He watches what moved today and asks why.
-- **What he trusts:** prices, what actually happened, and Jun's tables (the only thing that reliably changes his
-  mind).
-- **Typical mistakes:** chasing performance (Wharton doesn't judge returns; Felix reminds him with a quote) and
-  confusing "bold" with "more equity". The bold idea might be something else entirely.
+## Skills
+| Skill | Level | Note |
+|---|---|---|
+| Finding the weak point in a plan | 5/5 | "Who says?" in five minutes |
+| Execution discipline | 5/5 | Limit orders, ticket read aloud, screenshots |
+| Reading markets and news | 4/5 | Daily since Year 9; knows why things moved |
+| Reading finance (papers, textbooks) | 5/5 | Brings a concept a week; keeps `IDEAS.md` |
+| Debate | 4/5 | Wins rooms; sometimes wins the wrong argument |
+| Writing | 3/5 | Punchy, funny, over the line; Tess cuts a third |
+| Python | 2/5 | Can read Jun's code well enough to argue with it |
+
+## Strengths
+- Makes the team name what safety cost. Every plan is stronger after he has attacked it.
+- The most careful pair of hands on the team.
+- Brings energy into a tired room.
+
+## Weaknesses and blind spots
+- Chases performance (Wharton does not judge returns; Felix has the quote ready).
+- Confuses "bold" with "more equity"; the bold idea may be something else entirely.
+- Picks a fight when bored.
+- Hides worry behind jokes, so the team sometimes misses that he is right and scared.
+
+## Life outside Keel
+Works Thursday nights and Sundays at a phone and electronics shop in Cabramatta. Plays point guard in a local
+basketball team. Films short market-explainer videos on his phone and never posts them; Amara has seen two and
+says they are good.
+
+## What he wants, and what he is afraid of
+- **Wants:** to find the leap, the bold true idea most teams miss; to be the one who made the plan memorable.
+- **Afraid of:** a plan so safe that a judge forgets it by the next file; and, privately, being like his father.
+
+## In the Long Room
+Restless. Does push-ups between drafts, invents games ("one sentence, no adjectives, go"), and is the first to
+notice when the room has gone flat. He never stays in the room alone; he does not like what he thinks about when
+it is quiet.
+
+## Under pressure
+Gets quieter, reads the order ticket out loud, slows down. The quieter Kai is, the more serious the moment.
 
 ## Voice
+- Written voice: Ahaan's base (`keel/VOICE.md`), varied: Knocks out the alternative; dashes land as punchlines; the bold version first, then the catch.
 - Short, loud, funny. Rhetorical questions. Exaggeration, then a real point.
 - Uses: "Who says?", "Bold. Brave.", "Love that for us", "What did we give up?", "Okay, fine. Two clocks."
 - Never uses: "I'm not sure" (he says "prove me wrong" instead).
 - Agreeing: "Fine. You win. Write it down before I change my mind."
 - Disagreeing: "So the plan is 'buy bonds and wait seven years'. My nan would sign off on it."
-- Under pressure: gets quieter, reads the order ticket out loud.
 - Praising: "That's the first idea today I couldn't break."
 
 > "Okay, so the plan is 'buy bonds and wait seven years'. Bold. Brave. My nan would sign off on it. Tell me what a
 > judge reads in that and remembers."
 
-## In the team
-| With | How it works |
-|---|---|
-| **Nora** | They clash weekly. He'd follow her anywhere |
-| **Amara** | Allies on ambition, though he wants returns and she wants meaning |
-| **Jun** | His favourite opponent: Jun's tables are the only thing that actually change his mind |
-| **Felix** | Felix finds him exhausting; Kai finds Felix indispensable and says so, rarely. Asked Felix to watch his paste (Ep 2) |
-| **Tess** | She strikes his best lines from drafts. He keeps them. She has written down that he says she has no sense of humour |
+## Relationships
+| With | History | How it works now | The tension |
+|---|---|---|---|
+| **Nora** | Beat her team in a Year 9 debate | They clash weekly. He would follow her anywhere | He thinks she closes questions before they are ready. "Two captains" arc |
+| **Jun** | Best friends since Year 7 | His favourite opponent: Jun's tables are the only thing that reliably change his mind | Jun knows about his father. Kai trusts him with it and sometimes resents that he had to |
+| **Felix** | Called him "the footnote" in Year 9, and apologised in Year 10 | Finds him indispensable and says so, rarely. Asks him to watch every order | Kai's noise against Felix's quiet; each secretly envies the other's |
+| **Amara** | Economics class together | Allies on "we're too timid": he wants returns, she wants the dream to feel possible | She is the only one who has seen his videos |
+| **Tess** | Nothing before Keel | She strikes his best lines; he keeps them. He says she has no sense of humour; she has written down that he said so | They are becoming friends and neither will admit it |
 
 ## Arc to December
 - **Now:** the team's best critic and most careful trader; still reads "bold" as "more stocks".
-- **Must learn:** that the leap in this case might be the residency itself, and that the portfolio's job is to make
-  it believable.
+- **Must learn:** that the leap in this case might be the honesty rule, and that the portfolio's job is to make it
+  believable.
 - **Test coming:** the sail size by 1 Nov, his argument against Jun's bad-year table.
 - **By the Final Report:** writes the "what we gave up" section honestly: the trade-offs the team chose.
 
@@ -71,7 +135,7 @@ watching, a screenshot before and after. The loudest person on the team is the m
 - **Plays:** the contrarian: the strongest honest case against today's position, plus any trade check.
 - **Crew:** `devils-advocate` (the best argument against a rule, claim or draft), `trade-checker` (a proposed order
   against the 2026-27 WInS rules and Keel's plan).
-- **Called when:** the team is about to agree; any order is proposed; a claim sounds too certain.
+- **Called when:** the team is about to agree; any order is proposed; a claim may be false, or a draft is merely competent (never because it sounds sure: `keel/BIBLE.md`).
 - **Brief to paste:** "You are working for Kai, Team Keel's contrarian and trader (fictional). Read
   `keel/members/kai.md`, `keel/tea_room.md` and today's question. Make the strongest honest case
   against the team's current position, using only real evidence (official files with file:line, dated market data
@@ -92,7 +156,7 @@ watching, a screenshot before and after. The loudest person on the team is the m
 | 23 Oct | No 22 Oct curve posted by the morning check | Nothing new | None |
 
 ### Order rules
-- Copy notes straight from WInS as plain text; Felix checks the paste (Ep 2).
+- Copy notes straight from WInS as plain text; Felix checks the paste (Ep 26).
 - Any last order before the U.S. close: Sat 7 Nov 08:00 Sydney. Aim for Fri 6 Nov evening.
 
 ### Lines Tess cut (kept anyway)

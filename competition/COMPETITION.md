@@ -99,6 +99,12 @@ now includes "TIPS (Treasury Inflation-Protected Securities)" and "STRIPS (Separ
 and Principal of Securities)". So neither may be recommended for Laura's plan; mention them only as options the
 rules exclude. Whether the ban also covers WInS-listed ETFs that hold TIPS or STRIPS is UNVERIFIED (ask Wharton
 before naming one). The $5 stock minimum is gone from the FAQ and Trading pages.
+**Public FAQ, live 24 Oct 2026** (`smapply_public_2026-10-24/faqs.txt:41-51`): the ban now reads "Individual TIPS"
+and "Individual STRIPS", and the permitted list drops "from any exchange" ("Any stock available on WInS", "Any
+Exchange-Traded Fund (ETFs) available on WInS", "Any Government/Treasury Bond available on WInS"). The word
+"Individual" suggests a WInS-listed ETF holding TIPS or STRIPS may be allowed; that reading is UNVERIFIED (the Week 4
+email still says TIPS and STRIPS are banned). Our book holds neither. Same FAQ (:59): "The bond prices are updated
+once daily at U.S. market open", which explains the 0.00 day change on our bonds in WInS.
 
 WInS quirks we found (read-only checks):
 - WInS lists 43 US T-bonds, none maturing Feb 2031 to Feb 2036. iBonds Treasury ETFs fill that gap: IBTK 2030,
@@ -186,11 +192,15 @@ Trade-off we accept (and should state): less stock means a lower median contribu
 better bad case. Model work: `keel/library/insight_v1/` (with STRIPS banners), F2 grid
 `keel/library/insight_v1/scripts/F2_floor_split_grid.py`, strategy log in `caplet/google_drive/strategy_notes.md`.
 Wording rules from the judge-lens brief: floor + VT is a static floor-plus-cushion (**not** CPPI); the ladder is
-cash-flow matching (**not** immunisation); never say "risk-free" or "guaranteed".
+cash-flow matching (**not** immunisation). Certainty words are fine when true (Ray, 26 Oct, `keel/BIBLE.md` rule 3):
+iBonds held to the December liquidation are near-ironclad, as close to exact sums on exact dates as it gets outside T-bonds.
 
 ## 8. The WInS portfolio now
 
 All 11 orders filled 7-8 Oct 2026 (placed by Ray). 11 of 200 trades used.
+**Official WInS figures, 23 Oct 2026** (exports shared by Ray; full copy and checks in
+`competition/wins/2026-10-23_snapshot.md`): portfolio value $305,557.66, return 1.85%, cash $3,513.79, positions
+$300,757.88, accrued interest $1,285.99, 11 trades made. Holdings and fills below match WInS exactly.
 
 | Holding | Quantity | Fill (per share / per $100 face) | Pays for |
 |---|---|---|---|
@@ -224,8 +234,8 @@ scrolled. Rule since then: **only Ray places or cancels WInS orders.**
 - [ ] Fill the team sheet's Trade Log and units-held columns (needed to evaluate the implementation).
 - [ ] **IPS Version 5** (16 Oct check: fits 2 pages with ~3 lines spare; Google Docs counts hyphen parts as words, so
       keep the IPS body <=500 on BOTH counts: 496 / 487 if the 16 Oct fixes are accepted; pitch 50 / 47, no room). Earlier:
-      render check of the page/line count; soften absolute claims
-      ("never below the floor", "cannot miss") or back them; add the trade-off sentence; put back the certainty evidence.
+      render check of the page/line count; back absolute claims with the bond that makes them true
+      (never soften: `keel/BIBLE.md`); add the trade-off sentence; put back the certainty evidence.
 - [ ] **IPS numbers** (16 Oct): use `keel/library/ips_numbers_2026-10/IPS_number_sheet.md` for the dollar range, the
       confidence, the allocation and the return assumption; pick one coupon-risk option (section 3) before 6 Nov.
 - [ ] **Request the school documentation letter** now.

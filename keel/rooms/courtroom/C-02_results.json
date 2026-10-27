@@ -1,0 +1,96 @@
+{
+ "mu=1.075 rho=0.0": {
+  "none": {
+   "p_break": 0.00749,
+   "n_break": 1498,
+   "p_quote_below_standard_bottom": 0.0,
+   "p_quote_below_145k": 0.4349,
+   "p_quote_below_140k": 0.3091,
+   "mean_cut_vs_standard": 0,
+   "p99_cut_vs_standard": 0
+  },
+  "A_LR04": {
+   "p_break": 0.0,
+   "n_break": 0,
+   "p_quote_below_standard_bottom": 0.0821,
+   "p_quote_below_145k": 0.4546,
+   "p_quote_below_140k": 0.3349,
+   "mean_cut_vs_standard": 809,
+   "p99_cut_vs_standard": 15000
+  },
+  "B_net_rounding_first": {
+   "p_break": 1e-05,
+   "n_break": 1,
+   "p_quote_below_standard_bottom": 0.0644,
+   "p_quote_below_145k": 0.4519,
+   "p_quote_below_140k": 0.3294,
+   "mean_cut_vs_standard": 605,
+   "p99_cut_vs_standard": 15000
+  },
+  "C_net_rounding_and_3700": {
+   "p_break": 0.00017,
+   "n_break": 35,
+   "p_quote_below_standard_bottom": 0.0404,
+   "p_quote_below_145k": 0.36,
+   "p_quote_below_140k": 0.2506,
+   "mean_cut_vs_standard": -3703,
+   "p99_cut_vs_standard": 10000
+  },
+  "p_standard_bottom_below_145k": 0.4349,
+  "p_unc31_positive": 0.0821,
+  "p_unc31_exceeds_rounding_slack": 0.0644,
+  "unc31_when_positive_p50_p95": [
+   5764,
+   18351
+  ],
+  "p_S31_positive": 0.497,
+  "p_floor_holding_below_quote_A": 0.0
+ },
+ "mu=1.065 rho=0.5": {
+  "none": {
+   "p_break": 0.01427,
+   "n_break": 2855,
+   "p_quote_below_standard_bottom": 0.0,
+   "p_quote_below_145k": 0.4349,
+   "p_quote_below_140k": 0.3091,
+   "mean_cut_vs_standard": 0,
+   "p99_cut_vs_standard": 0
+  },
+  "A_LR04": {
+   "p_break": 3e-05,
+   "n_break": 7,
+   "p_quote_below_standard_bottom": 0.0999,
+   "p_quote_below_145k": 0.4609,
+   "p_quote_below_140k": 0.3425,
+   "mean_cut_vs_standard": 1038,
+   "p99_cut_vs_standard": 20000
+  },
+  "B_net_rounding_first": {
+   "p_break": 7e-05,
+   "n_break": 14,
+   "p_quote_below_standard_bottom": 0.0799,
+   "p_quote_below_145k": 0.4575,
+   "p_quote_below_140k": 0.3361,
+   "mean_cut_vs_standard": 794,
+   "p99_cut_vs_standard": 15000
+  },
+  "C_net_rounding_and_3700": {
+   "p_break": 0.00093,
+   "n_break": 186,
+   "p_quote_below_standard_bottom": 0.0525,
+   "p_quote_below_145k": 0.3665,
+   "p_quote_below_140k": 0.257,
+   "mean_cut_vs_standard": -3507,
+   "p99_cut_vs_standard": 15000
+  },
+  "p_standard_bottom_below_145k": 0.4349,
+  "p_unc31_positive": 0.0999,
+  "p_unc31_exceeds_rounding_slack": 0.0799,
+  "unc31_when_positive_p50_p95": [
+   6270,
+   19552
+  ],
+  "p_S31_positive": 0.497,
+  "p_floor_holding_below_quote_A": 0.0
+ }
+}

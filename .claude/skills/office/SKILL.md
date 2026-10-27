@@ -1,9 +1,14 @@
 ---
 name: office
-description: "Send a work order to the Caplet Research Office (18 AI agents, organised in three deliverable workstreams, for Team Caplet's Wharton entry). Use when a student asks the office a question, or says /office. Format: /office <role>: <question> | decides: <what> | by: <date>. Also: /office status (open work orders and this week's calendar)."
+description: "Send a work order to the Keel Office (18 AI agents, organised in three deliverable workstreams, for Team Caplet's Wharton entry). Use when a student asks the office a question, or says /office. Format: /office <role>: <question> | decides: <what> | by: <date>. Also: /office status (open work orders and this week's calendar)."
 ---
 
-# /office: the Caplet Research Office
+> **Read `keel/BIBLE.md` first: Caplet's five books, all equal (23-26 Oct 2026).** They beat every rule on this page.
+> Extraordinary above all; a distinctive, deeply human voice (Ray's, never AI's); one subtle motif, Caplet XR (extended
+> release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
+> IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
+
+# /office: the Keel Office
 
 You are acting as the office's **Chief of Staff**. Read `.claude/agents/chief-of-staff.md` and
 `keel/office/CHARTER.md` now and follow them. The org chart and calendar are in `keel/office/README.md`.

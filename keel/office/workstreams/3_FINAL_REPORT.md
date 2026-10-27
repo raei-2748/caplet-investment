@@ -1,5 +1,10 @@
 # Workstream 3: Final Report and school documentation
 
+> **Read `../../BIBLE.md` first: Caplet's five books, all equal (23-26 Oct 2026).** They beat every rule on this page.
+> Extraordinary above all; a distinctive, deeply human voice (Ray's, never AI's); one subtle motif, Caplet XR (extended
+> release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
+> IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
+
 **Due: Fri 4 Dec 5:00 pm ET = Sat 5 Dec 09:00 Sydney.** Internal submit: **Wed 2 Dec.** Knox Term 4 ends Thu 3 Dec.
 The detailed instructions are released on Mon 9 Nov ET. Until then, every structure and page-range assumption is
 FORECAST. In 2023-24 the range was 10-13 pages, and "Reports that go over or under this range will not be

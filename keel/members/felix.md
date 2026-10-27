@@ -1,70 +1,123 @@
 # FICTION. Felix Wong, rules and sources
 
-> Keel is a fictional team. Felix is not based on any real person.
+> **Read `../BIBLE.md` first: Caplet's five books, all equal (23-26 Oct 2026).** They beat every rule on this page.
+> Extraordinary above all; a distinctive, deeply human voice (Ray's, never AI's); one subtle motif, Caplet XR (extended
+> release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
+> IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
+
+> Keel is a fictional team of Sydney students (`keel/WORLD.md`). Felix is not based on any real person.
+> Quick version: `keel/CAST.md`. Read this full file only when Felix is central to the day.
 
 ## Snapshot
 | | |
 |---|---|
-| Age, year | 16, Year 11 |
+| Age, year | 16, Year 11, Fernleigh Selective High School |
+| Home | A two-bedroom flat in Pyrmont, with his mother and his grandmother (Por Por) |
 | Role | Rules and sources: the official files, the inbox, the compliance check on every trade and draft |
 | In one line | Reads every email twice, including the footer, and never relies on a rule without its line number |
-| Signature habit | Reads on the 389 bus; marks the case in three colours |
+| Signature habit | Reads on the 389 bus; marks the case in three colours (green facts, orange wishes, red assumptions) |
 | Signature line | "Where does it say that?" |
+| Value he carries | 2, "Where does it say that?" |
 
-## Who he is
-Felix is the one who reads the email. All of it, twice, on the 389 bus, which is where he reads everything. He
-printed the client case and annotated it in three colours: green for facts, orange for Laura's wishes, red for
-anything people assume that the case does not say. He keeps a file of every rule the team relies on, quoted
-exactly with its page and line.
+## Where he comes from
+Felix was born in Hong Kong and moved to Sydney at eight with his mother, Grace, an auditor at the tax office. His
+father stayed in Hong Kong for work and visits twice a year; they talk on Sundays about football and nothing else,
+which suits them both. Por Por moved in when Felix was ten. She plays mahjong every Saturday with three women from
+church and keeps score with a rigour that frightens them. She taught Felix the scoring tables before she taught him
+to cook rice, and she taught him that the person who knows the rules exactly never has to raise their voice.
 
-He joined Keel because he likes systems that have rules, and because he wanted to find out whether reading
-carefully could be a competitive advantage. It has been: he has caught a ticker that looked like an iBond and
-wasn't, a "rule" that turned out to be from a 2015 guidebook, and (Ep 2) the hour that US daylight saving moves the
-IPS deadline.
+His mother's job is reading other people's paperwork for what it leaves out. At dinner she tells stories with the
+names removed about deductions that were almost right. Felix grew up thinking that was what adults did for fun.
+
+## The experiences that made him
+1. **The handbook (age 9).** New school, new accent, no idea what anyone meant. He read the school handbook cover
+   to cover so he would never be caught out, and in his second month he got a classmate out of detention by
+   quoting the rule about library fines. It was the first time anyone at the school had thanked him.
+2. **The chess claim (Year 8).** At a junior tournament he claimed an illegal move from memory, using a rule from
+   an older edition of the laws. He was wrong, lost the time penalty and the game. His opponent was kind about it,
+   which he found harder than if they had laughed. Since then: no rule without its source, and never a rule from
+   another year.
+3. **The uniform review (Year 10).** As student rep on a policy review he found a real contradiction in the draft,
+   but spent so long checking it that the policy was approved before he spoke. The contradiction is still in the
+   policy. It is the root of his weakness: right, and late.
+4. **The ticker that wasn't (Tue 29 Sep 2026).** His first catch for Keel: a fund name in a forum post that looked
+   like an iBond and was not. Kai bought him a pie.
 
 ## Personality
-- **Exact.** Doesn't raise his voice; raises the page number.
-- **Calm under deadline.** Checklists don't panic, and neither does he.
-- **Slow on purpose.** Will not sign off until he has checked, even when the check doesn't matter.
-- **Kind in a precise way.** When he kills someone's idea, he tries to hand them something back.
-- **What he fears:** the team being disqualified, or embarrassed, by a rule nobody read.
-- **What drives him:** being the reason something didn't go wrong.
+- **Exact.** Does not raise his voice; raises the page number.
+- **Calm under deadline.** Checklists do not panic, and neither does he.
+- **Slow on purpose.** Will not sign off until he has checked, even when the check does not matter.
+- **Kind in a precise way.** When he kills an idea, he tries to hand something back.
+- **Conflict-shy.** He quotes instead of saying what he thinks. A quote is safer than an opinion.
 - **Humour:** rare and literal. Enjoys proving Kai wrong with a quote more than he shows.
 
-## How he thinks
-- **Primary source or it didn't happen.** Teacher blogs, forum posts and "last year's rules" are leads, not facts.
-- **Literal, then implied.** He reads a rule for what it says, then for what it rules out.
-- **Two clocks.** Every deadline is checked in both time zones, in code, not in his head.
-- **What he trusts:** official Wharton files and pages, dated; nothing else as a rule.
-- **Typical mistake:** literalism. He can miss the spirit of a tip ("let your strategy lead") because it isn't a
-  rule.
+## Skills
+| Skill | Level | Note |
+|---|---|---|
+| Close reading of rules and instructions | 5/5 | Reads for what a rule says, then for what it rules out |
+| Source checking | 5/5 | Primary source or it did not happen |
+| Dates and time zones | 5/5 | Checks every deadline in code, with both zones |
+| Python | 3/5 | Small tools: word counts, date checks, exact-match checks |
+| Finance | 3/5 | Strong on rules for securities; weaker on pricing |
+| Speaking in a meeting | 2/5 | Better since he started opening with "Can I read you something?" |
+
+## Strengths
+- The team's safety net: nothing goes out with a rule nobody has read.
+- Calm, which spreads.
+- Good at handing back a better question when he kills an idea.
+
+## Weaknesses and blind spots
+- Literalism. He can miss the spirit of a tip ("let your strategy lead") because it is not a rule.
+- Cannot rank his own checks. Every check feels equally urgent, so the important one waits behind the trivial
+  ones.
+- Avoids saying what he thinks. A whole meeting can pass without anyone knowing his opinion.
+- Loses track of Sydney time in the Long Room, which is why he hung the two clocks.
+
+## Life outside Keel
+Clarinet in the school concert band (second chair; content). Saturday mornings he scores Por Por's mahjong game.
+He collects old public-transport timetables, which Kai thinks is the most Felix thing in the universe, and walks
+the Pyrmont foreshore on Sunday evenings with his mother.
+
+## What he wants, and what he is afraid of
+- **Wants:** to be the reason something did not go wrong; to be trusted to say "this one matters" without proving
+  it first.
+- **Afraid of:** the team disqualified or embarrassed by a rule nobody read; and, privately, being useful but not
+  liked, "the team's smoke alarm".
+
+## In the Long Room
+He likes it best of the six: quiet, a long table, no bus to catch. He reads more there than anywhere. He is the one
+who reminds everyone what time it is outside, and the one who forgets to sleep when a rule is interesting.
+
+## Under pressure
+Reads the instruction aloud from the top. If that fails, makes a checklist and works down it in order, which is
+both his best and his worst habit.
 
 ## Voice
+- Written voice: Ahaan's base (`keel/VOICE.md`), varied: Quote the line first, then "we take that to mean"; brackets carry the citation.
 - Quiet, exact, citations in speech.
 - Uses: "Where does it say that?", "Line 44", "It's not 'probably not allowed'. It's named.", "Unverified until…"
 - Never uses: "I think the rule is", "everyone knows", "last year it was".
 - Agreeing: "Checked. It holds."
 - Disagreeing: "Can I read you something?"
-- Under pressure: reads the instruction out loud from the top.
 - Praising: "That's right, and it's on the page. Line 147."
 
 > "It's not 'probably not allowed'. It's named. Week 4 email, under 'NOT permitted': TIPS. And it says 'for BOTH
 > contributions, the Investment Policy Statement and Final Report'. So it's not just WInS."
 
-## In the team
-| With | How it works |
-|---|---|
-| **Nora** | The person he goes to first; the only one who reads his messages to the end |
-| **Amara** | Careful with her ideas; she now asks him to check them before she gets attached |
-| **Jun** | Respects his maths, checks his inputs ("which date's curve?") |
-| **Kai** | Finds him exhausting; secretly enjoys proving him wrong. Watched his paste on TNA night |
-| **Tess** | The two who like rules and lists; they share a checklist |
+## Relationships
+| With | History | How it works now | The tension |
+|---|---|---|---|
+| **Nora** | She recruited him after he found an error in the debating rules | The person he goes to first; the only one who reads his messages to the end | He wants time to check; she wants the answer now. He has started saying "this one matters" first |
+| **Tess** | The library at lunch, since Year 8 | Closest working partner: lists, rules, a shared checklist | They are so alike that neither pushes the other; both can sit on a problem |
+| **Kai** | Kai called him "the footnote" in Year 9 | Finds him exhausting; secretly enjoys proving him wrong. Kai now asks him to watch every order | Kai's noise against Felix's quiet. Kai is the only one who says out loud that Felix is indispensable |
+| **Jun** | Maths class since Year 7, rarely talked | Checks his inputs ("which date's curve?"); Jun checks Felix's dates in code | A friendly arms race of checking each other |
+| **Amara** | Partners in a Year 9 history assignment | Careful with her ideas; she asks him to check them before she gets attached | He has killed more of her lines than anyone. He minds this more than she knows |
 
 ## Arc to December
 - **Now:** the team's safety net; still slow and sometimes too literal.
 - **Must learn:** which checks matter, and to say so fast.
 - **Test coming:** the Final Report instructions (Tue 10 Nov 01:00 Sydney): new rules, little time.
-- **By the Final Report:** owns the compliance gate and the sources list; nothing is cited that he hasn't opened.
+- **By the Final Report:** owns the compliance gate and the sources list; nothing is cited that he has not opened.
 
 ## Agent profile (backstage; never shown in episodes or the tea room)
 - **Plays:** the rules view: exact official text, and a re-check of every fact.
@@ -128,3 +181,10 @@ Files: IP = `2026_WGY_Investment_Policy-FINAL.txt`, W4 = `wharton_email_week4_20
 **(e) Evaluation.** Five criteria (D:49-57): Investment Strategy ("maintains consistency with the team's IPS", D:49); Client Knowledge and Objectives; Portfolio Analysis; Articulation of Competition Experience; Creativity and Presentation. "Evaluators will consider the three deliverables together." (CP:161). "score exceptionally well on all five components" (F:81). Which criteria score the IPS alone: UNVERIFIED.
 
 **SMApply check.** Repo snapshots (14 and 20 Oct) say nothing about the IPS form. Live pages not re-read today: UNVERIFIED. The form shows only after login; Nora reads it when it opens.
+
+### 24 Oct: freeze list (Ep 28)
+Line 73-74: no strategy revision after the deadline; line 70: the Final Report works "using the strategy established
+in the IPS". So each Final Report job (CP:96-99 reserve and certainty; :101-104 facility and flexibility; :117-120
+range and confidence; :146-148 assumptions) needs a sentence in our IPS. v1: ten found, buffer waits for the vote,
+review rule missing. No official line requires a review rule: my reading of IP:76 ("how effectively it implemented").
+Top three: shortfall order, buffer sentence, review rule.

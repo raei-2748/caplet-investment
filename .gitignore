@@ -32,3 +32,4 @@ caplet/decisions/demo/20*/
 # Office lock files
 ~$*
 toolkit/decisions/demo/
+.portal_branches

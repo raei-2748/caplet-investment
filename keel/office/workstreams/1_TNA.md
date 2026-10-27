@@ -1,5 +1,10 @@
 # Workstream 1: Trading Notes Analysis (TNA)
 
+> **Read `../../BIBLE.md` first: Caplet's five books, all equal (23-26 Oct 2026).** They beat every rule on this page.
+> Extraordinary above all; a distinctive, deeply human voice (Ray's, never AI's); one subtle motif, Caplet XR (extended
+> release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
+> IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
+
 **Due: Fri 23 Oct 5:00 pm ET = Sat 24 Oct 08:00 Sydney.** Internal submit: **Thu 22 Oct evening.**
 Status (20 Oct): the notes are filed in WInS. No student-written reflection was found in the IPS Report Doc or the
 Portfolio and Trading Notes Sheet (both read 19 Oct). The live Doc holds AI-written reflections labelled "[AI]" for

@@ -3,10 +3,12 @@
     python3 keel/office/tools/textcheck.py draft.txt --limit 100
     python3 keel/office/tools/textcheck.py my_paste.txt --compare wins_note.txt
     python3 keel/office/tools/textcheck.py - < draft.txt
+    python3 keel/office/tools/textcheck.py draft.txt --limit 500 --voice
 
 Reports two word counts (the stricter one is what to keep under the limit), the character count, every non-ASCII
-character (Google Docs turns straight quotes into curly ones; WInS notes are plain ASCII), words the team agreed
-not to use for our plan, and an exact-match check against a second file.
+character (Google Docs turns straight quotes into curly ones; WInS notes are plain ASCII) and an exact-match check against a second file. --voice adds a rhythm-and-habit meter built
+from the rewrite's voice study (`keel/ips_rewrite/research/R03_voice_study.md`): a smoke alarm for prose that reads as
+machine-made, never a score to write towards.
 """
 
 from __future__ import annotations
@@ -17,11 +19,7 @@ import sys
 import unicodedata
 from pathlib import Path
 
-# From competition/COMPETITION.md section 7 and the 16 Oct review (items 8, 12): overclaims for a plan that is not riskless.
-BANNED = [
-    "guaranteed", "guarantee", "risk-free", "riskless", "locked", "secured", "promised", "cannot miss",
-    "never below", "certain to", "immunisation", "immunization", "cppi",
-]
+# No overclaim or certainty-word list (removed 26 Oct 2026, keel/BIBLE.md rule 3): a word is wrong only if it is false.
 
 
 def words_by_spaces(text: str) -> int:
@@ -34,18 +32,88 @@ def words_strict(text: str) -> int:
     return len([t for t in re.split(r"[\s\-/–—]+", text) if re.search(r"\w", t)])
 
 
+def words_limit(text: str) -> int:
+    """The count to keep under a limit: the larger of the two. A spaced en dash counts as a word by spaces, so with
+    Ray's dashes the "split" count can be the SMALLER one (Writing Room, 27 Oct: D4 is 494 split, 498 by spaces)."""
+    return max(words_by_spaces(text), words_strict(text))
+
+
 def non_ascii(text: str) -> list[tuple[int, str, str]]:
     """(position, character, Unicode name) for every non-ASCII character."""
     return [(i, ch, unicodedata.name(ch, "UNKNOWN")) for i, ch in enumerate(text) if ord(ch) > 127]
 
 
-def banned_hits(text: str) -> list[tuple[str, int]]:
-    """(banned phrase, position) for each match, case-insensitive, whole words."""
-    hits = []
-    for phrase in BANNED:
-        for m in re.finditer(rf"(?<!\w){re.escape(phrase)}(?!\w)", text, flags=re.IGNORECASE):
-            hits.append((phrase, m.start()))
-    return sorted(hits, key=lambda h: h[1])
+# R03 voice study (26 Oct): habits that made the TNA read as AI. Lists are short on purpose; a hit is a question, not a fault.
+CONNECTIVES = [
+    "furthermore", "moreover", "additionally", "notably", "ultimately", "crucially", "importantly", "in other words",
+    "in essence", "in summary", "in conclusion", "that said", "it is worth", "which means", "meaning",
+]
+ABSTRACT = [
+    "certainty", "uncertainty", "flexibility", "reliability", "stability", "resilience", "transparency", "liquidity",
+    "alignment", "framework", "robust", "robustness", "discipline", "exposure", "objective", "objectives",
+]
+CONTRAST = r",\s+not\s+\w+|\brather than\b|\bas opposed to\b|\bnot merely\b|\bnot just\b"
+TRICOLON = r"\b[\w$%.-]+,\s+[\w$%.-]+(?:\s+[\w$%.-]+)?,?\s+and\s+[\w$%.-]+"
+
+
+def sentences(text: str) -> list[str]:
+    """Split on . ! ? followed by a space and a capital, a digit, a quote or a bracket ("$10.5k" stays whole)."""
+    flat = re.sub(r"\s+", " ", text).strip()
+    parts = re.split(r"(?<=[.!?])[\"')\u2019\u201d]?\s+(?=[A-Z0-9$\"'(\u2018\u201c\[])", flat)
+    return [p for p in parts if re.search(r"\w", p)]
+
+
+def voice(text: str) -> dict:
+    """Rhythm and habit counts; see R03. Lengths use words_strict so numbers match the limit check."""
+    sents = sentences(text)
+    lens = [words_strict(s) for s in sents] or [0]
+    n = len(lens)
+    mean = sum(lens) / n
+    sd = (sum((x - mean) ** 2 for x in lens) / n) ** 0.5
+    paras = [p for p in re.split(r"\n\s*\n|\n", text) if p.strip()]
+    one_line = sum(1 for p in paras if len(sentences(p)) == 1)
+    low = text.lower()
+
+    def hits(words):
+        return [w for w in words for _ in re.finditer(rf"(?<!\w){re.escape(w)}(?!\w)", low)]
+
+    return {
+        "sentences": n, "mean": mean, "sd": sd, "cv": sd / mean if mean else 0.0,
+        "middle_band": sum(1 for x in lens if 15 <= x <= 28) / n, "blunt": sum(1 for x in lens if x <= 6),
+        "longest": max(lens), "paragraphs": len(paras), "one_line_paragraphs": one_line,
+        "contrasts": re.findall(CONTRAST, text, flags=re.IGNORECASE), "tricolons": re.findall(TRICOLON, text),
+        "connectives": hits(CONNECTIVES), "abstract": hits(ABSTRACT),
+        "thesis_first": bool(re.match(r"(this|our|the) (policy|ips|strategy|plan|goal|objective)\b", sents[0].lower()))
+        if sents else False,
+        "turns": [s for s in sents if re.match(r"(but|yet|and yet|still|alas)\b", s.lower())],
+        "openers": sorted({w: sum(1 for s in sents if s.split()[0].strip("\"'(").lower() == w)
+                           for w in {s.split()[0].strip("\"'(").lower() for s in sents}}.items(), key=lambda kv: -kv[1])[:3],
+    }
+
+
+def voice_flags(v: dict, words: int) -> list[str]:
+    """Only habits that separated the locked TNA reflections (detectors: 100% AI) from a human control (Orwell, 1946).
+    Rhythm (spread, blunt lines, the 15-28 band) did NOT separate them, so it is printed as information, never flagged.
+    Calibration: keel/office/outbox/2026-10-26_writing-room_voice-meter.md."""
+    per100 = 100 / max(words, 1)
+    flags = []
+    if len(v["contrasts"]) * per100 > 0.5:
+        flags.append(f"'X, not Y' / 'rather than' {len(v['contrasts'])} times: use it once, then concede and turn")
+    if len(v["tricolons"]) * per100 > 0.6:
+        flags.append(f"lists of three {len(v['tricolons'])} times")
+    if len(v["connectives"]) * per100 > 0.6:
+        flags.append(f"stock connectives: {', '.join(v['connectives'])}")
+    if len(v["abstract"]) * per100 > 1.5:
+        flags.append(f"abstract nouns {len(v['abstract'])} ({len(v['abstract']) * per100:.1f} per 100 words): "
+                     f"{', '.join(sorted(set(v['abstract'])))}; name the bond, the cheque or the meeting instead")
+    if v["thesis_first"]:
+        flags.append("opens on a thesis ('This policy...'): open on a fact, a number or the other side")
+    if v["sentences"] >= 6 and not v["turns"]:
+        flags.append("no turn: no sentence opens with But, Yet or Still (no sceptic is voiced and answered)")
+    top = v["openers"][0] if v["openers"] else ("", 0)
+    if v["sentences"] >= 6 and top[1] / v["sentences"] > 0.3:
+        flags.append(f"{top[1]} of {v['sentences']} sentences open with '{top[0]}'")
+    return flags
 
 
 def first_difference(a: str, b: str) -> int | None:
@@ -69,12 +137,13 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--limit", type=int, help="word limit (e.g. 100 for a TNA reflection, 500 for the IPS)")
     ap.add_argument("--chars", type=int, help="character limit (e.g. 300 for a WInS trade note)")
     ap.add_argument("--compare", help="file that must match exactly (e.g. the note copied from WInS)")
+    ap.add_argument("--voice", action="store_true", help="add the rhythm-and-habit meter (R03 voice study)")
     args = ap.parse_args(argv)
 
     text = read(args.file)
     ok = True
     by_spaces, strict = words_by_spaces(text), words_strict(text)
-    print(f"words: {by_spaces} by spaces, {strict} strict")
+    print(f"words: {by_spaces} by spaces (a spaced dash counts), {strict} split on hyphens; quote the larger")
     print(f"characters: {len(text)}")
     if args.limit is not None:
         worst = max(by_spaces, strict)
@@ -91,10 +160,6 @@ def main(argv: list[str] | None = None) -> int:
     for pos, ch, name in odd[:20]:
         print(f"  at {pos}: {ch!r} {name}")
 
-    hits = banned_hits(text)
-    print(f"overclaim words: {len(hits)}")
-    for phrase, pos in hits:
-        print(f"  at {pos}: {text[max(0, pos - 20):pos + len(phrase) + 20]!r}")
 
     if args.compare:
         other = read(args.compare)
@@ -106,6 +171,15 @@ def main(argv: list[str] | None = None) -> int:
             print(f"exact match: NO, first difference at character {diff}")
             print(f"  this file : {text[max(0, diff - 15):diff + 15]!r}")
             print(f"  compare to: {other[max(0, diff - 15):diff + 15]!r}")
+    if args.voice:
+        v = voice(text)
+        print(f"voice: {v['sentences']} sentences, mean {v['mean']:.1f} words, spread {v['cv']:.0%}, "
+              f"{v['blunt']} blunt (<=6), longest {v['longest']}; {v['paragraphs']} paragraphs, "
+              f"{v['one_line_paragraphs']} of one sentence")
+        flags = voice_flags(v, strict)
+        print(f"voice flags: {len(flags)} (a smoke alarm, not a score; never a reason to soften)")
+        for f in flags:
+            print(f"  - {f}")
     return 0 if ok else 1
 
 

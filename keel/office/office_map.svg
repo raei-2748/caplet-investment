@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980">
+<rect width="1400" height="980" fill="#FFFFFF"/>
+<text x="30" y="42" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#111827" text-anchor="start">The Keel Office: top floor, Fernleigh library (FICTION)</text>
+<text x="30" y="70" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#374151" text-anchor="start">Twelve rooms, six people, 18 AI agents (names in grey monospace). ★ marks each person's home room. Map and rules: keel/OFFICE.md</text>
+<rect x="30" y="100" width="330" height="250" rx="8" fill="#FEF3C7" stroke="#374151" stroke-width="1.5"/>
+<text x="42" y="124" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#111827" text-anchor="start">LAURA'S ROOM</text>
+<text x="42" y="142" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">A simulated Laura and co-sponsors</text>
+<text x="42" y="157" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">react to the plan (case only)</text>
+<circle cx="51" cy="180" r="9" fill="#B45309"/><text x="51" y="184" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">A</text><text x="65" y="184" font-family="Helvetica, Arial, sans-serif" font-size="12"><tspan font-weight="bold" fill="#B45309">Amara</tspan><tspan fill="#374151" font-size="11">  host</tspan><tspan fill="#111827" font-size="11" font-weight="bold">  ★ home room</tspan></text>
+<circle cx="51" cy="201" r="8" fill="none" stroke="#6B7280" stroke-dasharray="3 2"/><text x="65" y="205" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#6B7280" text-anchor="start">Laura (sim)</text>
+<circle cx="51" cy="220" r="8" fill="none" stroke="#6B7280" stroke-dasharray="3 2"/><text x="65" y="224" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#6B7280" text-anchor="start">co-sponsors (sim)</text>
+<text x="42" y="247" font-family="Menlo, Consolas, monospace" font-size="10.5" font-weight="normal" fill="#4B5563" text-anchor="start">case-analyst</text>
+<text x="42" y="261" font-family="Menlo, Consolas, monospace" font-size="10.5" font-weight="normal" fill="#4B5563" text-anchor="start">cosponsor-reader</text>
+<text x="42" y="275" font-family="Menlo, Consolas, monospace" font-size="10.5" font-weight="normal" fill="#4B5563" text-anchor="start">taiwan-researcher</text>
+<text x="42" y="340" font-family="Menlo, Consolas, monospace" font-size="10" font-weight="normal" fill="#6B7280" text-anchor="start">rooms/lauras_room.md</text>
+<rect x="380" y="100" width="640" height="250" rx="8" fill="#EDE9FE" stroke="#374151" stroke-width="1.5"/>
+<text x="392" y="124" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#111827" text-anchor="start">THE LONG ROOM</text>
+<text x="392" y="142" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">Debates, votes, decisions. The clocks stretch here.</text>
+<text x="392" y="157" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">Six bunks behind a bookcase; a skylight; two clocks</text>
+<rect x="530" y="180" width="340" height="44" rx="22" fill="#fff" stroke="#9CA3AF"/>
+<circle cx="555" cy="202" r="13" fill="#7C3AED"/><text x="555" y="207" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">N</text>
+<text x="555" y="240" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#7C3AED" text-anchor="middle">Nora</text>
+<circle cx="613" cy="202" r="13" fill="#2563EB"/><text x="613" y="207" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">F</text>
+<text x="613" y="240" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#2563EB" text-anchor="middle">Felix</text>
+<circle cx="671" cy="202" r="13" fill="#059669"/><text x="671" y="207" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">J</text>
+<text x="671" y="240" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#059669" text-anchor="middle">Jun</text>
+<circle cx="729" cy="202" r="13" fill="#DC2626"/><text x="729" y="207" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">K</text>
+<text x="729" y="240" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#DC2626" text-anchor="middle">Kai</text>
+<circle cx="787" cy="202" r="13" fill="#B45309"/><text x="787" y="207" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">A</text>
+<text x="787" y="240" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#B45309" text-anchor="middle">Amara</text>
+<circle cx="845" cy="202" r="13" fill="#DB2777"/><text x="845" y="207" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">T</text>
+<text x="845" y="240" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#DB2777" text-anchor="middle">Tess</text>
+<text x="700" y="260" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="middle">Nora chairs; all six vote</text>
+<text x="392" y="340" font-family="Menlo, Consolas, monospace" font-size="10" font-weight="normal" fill="#6B7280" text-anchor="start">tea_room.md (the wall), meetings/</text>
+<rect x="1040" y="100" width="330" height="250" rx="8" fill="#FEE2E2" stroke="#374151" stroke-width="1.5"/>
+<text x="1052" y="124" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#111827" text-anchor="start">THE COURTROOM</text>
+<text x="1052" y="142" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">Drafts on trial: rival team,</text>
+<text x="1052" y="157" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">devil's advocate, mock judges</text>
+<circle cx="1061" cy="180" r="9" fill="#DC2626"/><text x="1061" y="184" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">K</text><text x="1075" y="184" font-family="Helvetica, Arial, sans-serif" font-size="12"><tspan font-weight="bold" fill="#DC2626">Kai</tspan><tspan fill="#374151" font-size="11">  prosecutor</tspan></text>
+<circle cx="1061" cy="201" r="9" fill="#7C3AED"/><text x="1061" y="205" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">N</text><text x="1075" y="205" font-family="Helvetica, Arial, sans-serif" font-size="12"><tspan font-weight="bold" fill="#7C3AED">Nora</tspan><tspan fill="#374151" font-size="11">  bench</tspan></text>
+<circle cx="1061" cy="222" r="8" fill="none" stroke="#6B7280" stroke-dasharray="3 2"/><text x="1075" y="226" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#6B7280" text-anchor="start">Team Spinnaker (Kai plays them)</text>
+<circle cx="1061" cy="241" r="8" fill="none" stroke="#6B7280" stroke-dasharray="3 2"/><text x="1075" y="245" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#6B7280" text-anchor="start">5 mock judges (sim)</text>
+<text x="1052" y="268" font-family="Menlo, Consolas, monospace" font-size="10.5" font-weight="normal" fill="#4B5563" text-anchor="start">devils-advocate</text>
+<text x="1052" y="282" font-family="Menlo, Consolas, monospace" font-size="10.5" font-weight="normal" fill="#4B5563" text-anchor="start">mock-judge</text>
+<text x="1052" y="340" font-family="Menlo, Consolas, monospace" font-size="10" font-weight="normal" fill="#6B7280" text-anchor="start">rooms/courtroom.md</text>
+<rect x="30" y="370" width="250" height="270" rx="8" fill="#DBEAFE" stroke="#374151" stroke-width="1.5"/>
+<text x="42" y="394" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#111827" text-anchor="start">THE LIBRARY</text>
+<text x="42" y="412" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">Wide reading, often not finance.</text>
+<text x="42" y="427" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">"This reminds me of Laura's</text>
+<text x="42" y="442" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">plan because..." (must hold up)</text>
+<circle cx="51" cy="465" r="9" fill="#2563EB"/><text x="51" y="469" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">F</text><text x="65" y="469" font-family="Helvetica, Arial, sans-serif" font-size="12"><tspan font-weight="bold" fill="#2563EB">Felix</tspan><tspan fill="#374151" font-size="11">  librarian</tspan></text>
+<circle cx="51" cy="486" r="9" fill="#DC2626"/><text x="51" y="490" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">K</text><text x="65" y="490" font-family="Helvetica, Arial, sans-serif" font-size="12"><tspan font-weight="bold" fill="#DC2626">Kai</tspan><tspan fill="#374151" font-size="11">  reading pile</tspan></text>
+<text x="42" y="515" font-family="Menlo, Consolas, monospace" font-size="10.5" font-weight="normal" fill="#4B5563" text-anchor="start">ideation ladder:</text>
+<text x="42" y="529" font-family="Menlo, Consolas, monospace" font-size="10.5" font-weight="normal" fill="#4B5563" text-anchor="start">Haiku &gt; Sonnet &gt; Opus</text>
+<text x="42" y="630" font-family="Menlo, Consolas, monospace" font-size="10" font-weight="normal" fill="#6B7280" text-anchor="start">rooms/library.md, library/</text>
+<rect x="300" y="370" width="250" height="270" rx="8" fill="#D1FAE5" stroke="#374151" stroke-width="1.5"/>
+<text x="312" y="394" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#111827" text-anchor="start">THE GENIUS LAB</text>
+<text x="312" y="412" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">Unexpected connections, roasted</text>
+<text x="312" y="427" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">then tested. Adopt, park or bin.</text>
+<text x="312" y="442" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">Failures are kept.</text>
+<circle cx="321" cy="465" r="9" fill="#059669"/><text x="321" y="469" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">J</text><text x="335" y="469" font-family="Helvetica, Arial, sans-serif" font-size="12"><tspan font-weight="bold" fill="#059669">Jun</tspan><tspan fill="#374151" font-size="11">  head</tspan><tspan fill="#111827" font-size="11" font-weight="bold">  ★ home room</tspan></text>
+<circle cx="321" cy="486" r="9" fill="#DC2626"/><text x="321" y="490" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">K</text><text x="335" y="490" font-family="Helvetica, Arial, sans-serif" font-size="12"><tspan font-weight="bold" fill="#DC2626">Kai</tspan><tspan fill="#374151" font-size="11">  roasts</tspan></text>
+<text x="312" y="515" font-family="Menlo, Consolas, monospace" font-size="10.5" font-weight="normal" fill="#4B5563" text-anchor="start">scenario-modeller</text>
+<text x="312" y="529" font-family="Menlo, Consolas, monospace" font-size="10.5" font-weight="normal" fill="#4B5563" text-anchor="start">numbers-auditor</text>
+<text x="312" y="630" font-family="Menlo, Consolas, monospace" font-size="10" font-weight="normal" fill="#6B7280" text-anchor="start">rooms/lab.md, scripts/</text>
+<rect x="570" y="370" width="250" height="270" rx="8" fill="#FFE4E6" stroke="#374151" stroke-width="1.5"/>
+<text x="582" y="394" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#111827" text-anchor="start">THE TRADING DESK</text>
+<text x="582" y="412" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">Market check, rules check,</text>
+<text x="582" y="427" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">every order checked first</text>
+<circle cx="591" cy="450" r="9" fill="#DC2626"/><text x="591" y="454" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">K</text><text x="605" y="454" font-family="Helvetica, Arial, sans-serif" font-size="12"><tspan font-weight="bold" fill="#DC2626">Kai</tspan><tspan fill="#374151" font-size="11">  trades (story)</tspan><tspan fill="#111827" font-size="11" font-weight="bold">  ★ home room</tspan></text>
+<circle cx="591" cy="471" r="9" fill="#059669"/><text x="591" y="475" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">J</text><text x="605" y="475" font-family="Helvetica, Arial, sans-serif" font-size="12"><tspan font-weight="bold" fill="#059669">Jun</tspan><tspan fill="#374151" font-size="11">  markets</tspan></text>
+<circle cx="591" cy="492" r="9" fill="#2563EB"/><text x="591" y="496" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">F</text><text x="605" y="496" font-family="Helvetica, Arial, sans-serif" font-size="12"><tspan font-weight="bold" fill="#2563EB">Felix</tspan><tspan fill="#374151" font-size="11">  rules</tspan></text>
+<text x="582" y="521" font-family="Menlo, Consolas, monospace" font-size="10.5" font-weight="normal" fill="#4B5563" text-anchor="start">trade-checker</text>
+<text x="582" y="535" font-family="Menlo, Consolas, monospace" font-size="10.5" font-weight="normal" fill="#4B5563" text-anchor="start">ladder-pricer</text>
+<text x="582" y="630" font-family="Menlo, Consolas, monospace" font-size="10" font-weight="normal" fill="#6B7280" text-anchor="start">pm/MARKETS.md, office/checks/</text>
+<rect x="840" y="370" width="260" height="270" rx="8" fill="#FCE7F3" stroke="#374151" stroke-width="1.5"/>
+<text x="852" y="394" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#111827" text-anchor="start">THE WRITING ROOM</text>
+<text x="852" y="412" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">Drafts get the house voice;</text>
+<text x="852" y="427" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">fat cut, words counted</text>
+<circle cx="861" cy="450" r="9" fill="#DB2777"/><text x="861" y="454" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">T</text><text x="875" y="454" font-family="Helvetica, Arial, sans-serif" font-size="12"><tspan font-weight="bold" fill="#DB2777">Tess</tspan><tspan fill="#374151" font-size="11">  editor</tspan><tspan fill="#111827" font-size="11" font-weight="bold">  ★ home room</tspan></text>
+<circle cx="861" cy="471" r="9" fill="#B45309"/><text x="861" y="475" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">A</text><text x="875" y="475" font-family="Helvetica, Arial, sans-serif" font-size="12"><tspan font-weight="bold" fill="#B45309">Amara</tspan><tspan fill="#374151" font-size="11">  first drafts</tspan></text>
+<text x="852" y="500" font-family="Menlo, Consolas, monospace" font-size="10.5" font-weight="normal" fill="#4B5563" text-anchor="start">format-gatekeeper</text>
+<text x="852" y="514" font-family="Menlo, Consolas, monospace" font-size="10.5" font-weight="normal" fill="#4B5563" text-anchor="start">final-report-planner</text>
+<text x="852" y="630" font-family="Menlo, Consolas, monospace" font-size="10" font-weight="normal" fill="#6B7280" text-anchor="start">VOICE.md, drafts/</text>
+<rect x="1120" y="370" width="250" height="270" rx="8" fill="#F3F4F6" stroke="#374151" stroke-width="1.5"/>
+<text x="1132" y="394" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#111827" text-anchor="start">THE ARCHIVE</text>
+<text x="1132" y="412" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">Locked submissions, the spine,</text>
+<text x="1132" y="427" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">the AI-use record.</text>
+<text x="1132" y="442" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">Nothing may contradict it.</text>
+<circle cx="1141" cy="465" r="9" fill="#DB2777"/><text x="1141" y="469" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">T</text><text x="1155" y="469" font-family="Helvetica, Arial, sans-serif" font-size="12"><tspan font-weight="bold" fill="#DB2777">Tess</tspan><tspan fill="#374151" font-size="11">  keeper</tspan></text>
+<text x="1132" y="494" font-family="Menlo, Consolas, monospace" font-size="10.5" font-weight="normal" fill="#4B5563" text-anchor="start">evidence-archivist</text>
+<text x="1132" y="508" font-family="Menlo, Consolas, monospace" font-size="10.5" font-weight="normal" fill="#4B5563" text-anchor="start">ai-use-recorder</text>
+<text x="1132" y="522" font-family="Menlo, Consolas, monospace" font-size="10.5" font-weight="normal" fill="#4B5563" text-anchor="start">coherence-checker (Nora)</text>
+<text x="1132" y="630" font-family="Menlo, Consolas, monospace" font-size="10" font-weight="normal" fill="#6B7280" text-anchor="start">rooms/archive.md</text>
+<rect x="30" y="660" width="250" height="200" rx="8" fill="#E0F2FE" stroke="#374151" stroke-width="1.5"/>
+<text x="42" y="684" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#111827" text-anchor="start">THE WINDOW</text>
+<text x="42" y="702" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">The only way in or out.</text>
+<text x="42" y="717" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">Facts come in dated;</text>
+<text x="42" y="732" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">nothing goes out unread</text>
+<circle cx="51" cy="755" r="9" fill="#2563EB"/><text x="51" y="759" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">F</text><text x="65" y="759" font-family="Helvetica, Arial, sans-serif" font-size="12"><tspan font-weight="bold" fill="#2563EB">Felix</tspan><tspan fill="#374151" font-size="11">  watch</tspan><tspan fill="#111827" font-size="11" font-weight="bold">  ★ home room</tspan></text>
+<text x="42" y="784" font-family="Menlo, Consolas, monospace" font-size="10.5" font-weight="normal" fill="#4B5563" text-anchor="start">rules-verifier</text>
+<text x="42" y="798" font-family="Menlo, Consolas, monospace" font-size="10.5" font-weight="normal" fill="#4B5563" text-anchor="start">integrity-officer</text>
+<text x="42" y="812" font-family="Menlo, Consolas, monospace" font-size="10.5" font-weight="normal" fill="#4B5563" text-anchor="start">fact-checker</text>
+<text x="42" y="850" font-family="Menlo, Consolas, monospace" font-size="10" font-weight="normal" fill="#6B7280" text-anchor="start">competition/</text>
+<rect x="300" y="660" width="520" height="200" rx="8" fill="#EDE9FE" stroke="#374151" stroke-width="1.5"/>
+<text x="312" y="684" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#111827" text-anchor="start">THE NOTICEBOARD</text>
+<text x="312" y="702" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">Nora's plain update, loose ends, proposed work,</text>
+<text x="312" y="717" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">road map and countdown to each lock</text>
+<circle cx="321" cy="740" r="9" fill="#7C3AED"/><text x="321" y="744" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">N</text><text x="335" y="744" font-family="Helvetica, Arial, sans-serif" font-size="12"><tspan font-weight="bold" fill="#7C3AED">Nora</tspan><tspan fill="#374151" font-size="11">  update and board</tspan><tspan fill="#111827" font-size="11" font-weight="bold">  ★ home room</tspan></text>
+<text x="312" y="769" font-family="Menlo, Consolas, monospace" font-size="10.5" font-weight="normal" fill="#4B5563" text-anchor="start">chief-of-staff</text>
+<text x="312" y="850" font-family="Menlo, Consolas, monospace" font-size="10" font-weight="normal" fill="#6B7280" text-anchor="start">pm/, office/outbox/, office/LEDGER.md</text>
+<rect x="840" y="660" width="260" height="200" rx="8" fill="#FEF9C3" stroke="#374151" stroke-width="1.5"/>
+<text x="852" y="684" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#111827" text-anchor="start">THE KITCHEN</text>
+<text x="852" y="702" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">Off duty: snacks, jokes,</text>
+<text x="852" y="717" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">friendships, tensions</text>
+<circle cx="861" cy="740" r="9" fill="#B45309"/><text x="861" y="744" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">A</text><text x="875" y="744" font-family="Helvetica, Arial, sans-serif" font-size="12"><tspan font-weight="bold" fill="#B45309">Amara</tspan><tspan fill="#374151" font-size="11">  the thermos</tspan></text>
+<circle cx="861" cy="761" r="9" fill="#059669"/><text x="861" y="765" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">J</text><text x="875" y="765" font-family="Helvetica, Arial, sans-serif" font-size="12"><tspan font-weight="bold" fill="#059669">Jun</tspan><tspan fill="#374151" font-size="11">  coffee</tspan></text>
+<text x="852" y="850" font-family="Menlo, Consolas, monospace" font-size="10" font-weight="normal" fill="#6B7280" text-anchor="start">the episodes</text>
+<rect x="1120" y="660" width="250" height="200" rx="8" fill="#ECFCCB" stroke="#374151" stroke-width="1.5"/>
+<text x="1132" y="684" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#111827" text-anchor="start">THE ROOFTOP</text>
+<text x="1132" y="702" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">Sundays: why are we doing this,</text>
+<text x="1132" y="717" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">what did we learn, who are</text>
+<text x="1132" y="732" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#374151" text-anchor="start">we becoming?</text>
+<circle cx="1141" cy="755" r="9" fill="#DB2777"/><text x="1141" y="759" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">T</text><text x="1155" y="759" font-family="Helvetica, Arial, sans-serif" font-size="12"><tspan font-weight="bold" fill="#DB2777">Tess</tspan><tspan fill="#374151" font-size="11">  host</tspan></text>
+<text x="1132" y="850" font-family="Menlo, Consolas, monospace" font-size="10" font-weight="normal" fill="#6B7280" text-anchor="start">rooms/rooftop.md</text>
+<text x="30" y="892" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#111827" text-anchor="start">People</text>
+<circle cx="90" cy="888" r="7" fill="#7C3AED"/><text x="102" y="892" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7C3AED" text-anchor="start">Nora</text>
+<circle cx="180" cy="888" r="7" fill="#2563EB"/><text x="192" y="892" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#2563EB" text-anchor="start">Felix</text>
+<circle cx="270" cy="888" r="7" fill="#059669"/><text x="282" y="892" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669" text-anchor="start">Jun</text>
+<circle cx="360" cy="888" r="7" fill="#DC2626"/><text x="372" y="892" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#DC2626" text-anchor="start">Kai</text>
+<circle cx="450" cy="888" r="7" fill="#B45309"/><text x="462" y="892" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#B45309" text-anchor="start">Amara</text>
+<circle cx="540" cy="888" r="7" fill="#DB2777"/><text x="552" y="892" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#DB2777" text-anchor="start">Tess</text>
+<circle cx="640" cy="888" r="7" fill="none" stroke="#6B7280" stroke-dasharray="3 2"/><text x="652" y="892" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#6B7280" text-anchor="start">simulated visitor (a test, never a quote)</text>
+<text x="30" y="918" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#111827" text-anchor="start">Outside the Window: Caplet's six students (real). They ask (/keel, /office), vote, rewrite in their own words and submit; only Ray trades. Keel proposes, Caplet decides.</text>
+<text x="30" y="940" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#111827" text-anchor="start">Quiet period until Sat 7 Nov 09:00 Sydney: the Genius Lab and the Library work only on the IPS. Nothing leaves the Office for a deliverable without Felix's rules check, a judging criterion and a student's own words.</text>
+</svg>

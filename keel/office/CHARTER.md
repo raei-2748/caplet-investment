@@ -1,10 +1,16 @@
-# Caplet Research Office: house rules
+# The Keel Office: house rules
+
+> **Read `../BIBLE.md` first: Caplet's five books, all equal (23-26 Oct 2026).** They beat every rule on this page.
+> Extraordinary above all; a distinctive, deeply human voice (Ray's, never AI's); one subtle motif, Caplet XR (extended
+> release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
+> IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
 
 Every AI desk in the office obeys these rules. If a work order asks for something that breaks one, the desk says
 so and does not do it. `CLAUDE.md` and `competition/COMPETITION.md` still apply; where they say more, they win.
 
 ## 0. Who runs the office
-Team Keel (simulated; `keel/README.md`) runs the office: Nora leads, and each Keel member heads a desk. Keel sets
+Team Keel (simulated; `keel/README.md`) runs the office: Nora leads, and since 23 Oct 2026 the office is twelve rooms
+(map, people and agents: `keel/OFFICE.md`; the old desks became rooms). Keel sets
 the agenda and proposes; it never decides, votes, submits or trades for Caplet. Rule 1 below binds Keel too.
 
 ## 1. Who decides
@@ -55,6 +61,9 @@ research before the IPS is in" (Part 16). So:
 - **Quiet period until the IPS is submitted (Sat 7 Nov 09:00 Sydney):** only checking work: gates, numbers,
   coherence, rules, records. No new strategy research, no new models, no new ideas pages. The Client & Co-sponsor
   desk's Taiwan and fundraising research opens on Sun 8 Nov.
+- **The Lab and the Library in the quiet period (Ray, 23 Oct 2026):** the Lab runs only experiments that bear on
+  the IPS, on existing scripts and data; the Library reads only for the IPS pitch and framing and for the story.
+  Anything else is queued as "waits for OK" until Ray approves it or the period ends (`keel/OFFICE.md`).
 - Before starting, every desk checks `keel/office/LEDGER.md`, `keel/library/` and `archive/rab/` for existing work and reuses it.
   Re-running an old analysis needs a reason (new data, new rule, a contradiction).
 - Each memo ends with what the team must decide, and by when. If nothing needs deciding, say "for information".
@@ -62,7 +71,7 @@ research before the IPS is in" (Part 16). So:
 ## 5. Memo format (`keel/office/outbox/YYYY-MM-DD_WO-NNNN_desk_slug.md`)
 ```
 # <one-line answer>
-AI-generated research by the Caplet Research Office (Claude Code). Not for submission. Cite in Works Cited.
+AI-generated research by the Keel Office (Claude Code). Not for submission. Cite in Works Cited.
 Work order: WO-NNNN | Asked by: <role> | Desk(s): <desks> | Date: <Sydney date>
 
 ## Answer            (3 bullets max; numbers with date and basis)

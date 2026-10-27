@@ -1,0 +1,74 @@
+# Keel Office portal on GitHub Pages (https://raei-2748.github.io/caplet-investment/). Public: anyone with the link can
+# read it (Ray's choice, 26 Oct 2026); names and account numbers are scrubbed by the builder.
+# Runs on every push to main, when keel-portal-poke.yml sees a push to a Keel branch, hourly 07:00-21:00 Sydney and
+# every 3 hours overnight. It builds from main with the newest Keel day branch and the branches in
+# keel/office/portal/branches.txt merged in (each skipped if it doesn't merge cleanly), so a room's run shows within
+# minutes, before the evening merge. One-time setup (done 26 Oct): Settings > Pages > Source: "GitHub Actions".
+# If that setting is ever switched back to "Deploy from a branch", GitHub's own Jekyll build publishes the README over
+# the portal on every push; page_build below fires after each such build and puts the portal back on top.
+name: Keel Office portal
+
+on:
+  push:
+    branches: [main]
+    paths: ["keel/**", ".github/workflows/keel-portal.yml"]
+  schedule:
+    - cron: "17 20-23 * * *"   # 07:17-10:17 Sydney (AEDT, UTC+11)
+    - cron: "17 0-10 * * *"    # 11:17-21:17 Sydney
+    - cron: "17 13,16,19 * * *" # 00:17, 03:17, 06:17 Sydney
+  page_build:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: keel-portal
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Merge today's Keel work into a scratch copy of main
+        run: |
+          git config user.name "Keel portal"; git config user.email "portal@keel.invalid"
+          day=$(git branch -r --list 'origin/claude/keel-loop-*' | sed 's/^ *origin\///' | sort | tail -1)
+          extra=$(grep -v '^#' keel/office/portal/branches.txt 2>/dev/null || true)
+          # Every claude/* branch pushed in the last 3 days and not yet in main (newest first, at most 15), so any
+          # room's or thread's push shows on the portal within minutes (Ray, 26 Oct: no work is done until it's here).
+          cutoff=$(( $(date +%s) - 3*86400 ))
+          recent=$(git for-each-ref --sort=-committerdate --format='%(committerdate:unix) %(refname:short)' 'refs/remotes/origin/claude/' \
+            | awk -v c="$cutoff" '$1 >= c {sub(/^origin\//, "", $2); print $2}' | head -15)
+          : > .portal_branches
+          for b in $(printf '%s\n' $day $extra $recent | awk '!seen[$0]++'); do
+            git merge-base --is-ancestor "origin/$b" HEAD 2>/dev/null && continue
+            git rev-parse -q --verify "origin/$b" >/dev/null || continue
+            if git merge -q --no-edit "origin/$b" >/dev/null 2>&1; then echo "$b" >> .portal_branches; echo "merged $b"
+            else git merge --abort; echo "skipped $b (does not merge cleanly)"; fi
+          done
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build the portal
+        run: |
+          pip install --quiet markdown
+          python3 keel/office/portal/build_portal.py --out _site
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

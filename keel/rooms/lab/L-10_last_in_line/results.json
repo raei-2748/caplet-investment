@@ -1,0 +1,795 @@
+{
+ "stamp": "curve 22 Oct 2026 | J.P. Morgan 2027 global equities 7.5% | 200,000 paths, seed 20261016 | MODEL",
+ "S0 base, rates and stocks independent": {
+  "p_keep_touched": 0.3283,
+  "p_top_missed": 0.2328,
+  "p_bottom_missed": 0.0075,
+  "p_payment_unmet": 0.0677,
+  "p_payment_unmet_parts": {
+   "jan2027_gap_not_filled": 0.0,
+   "gap_beyond_floor_in_2033": 0.0,
+   "post2033_gap_beyond_kept_half": 0.0677
+  },
+  "payment_unmet_median_when_it_happens": 3154,
+  "p_exhaustion_payment_or_bottom": 0.0686,
+  "bottom_p50": 145000,
+  "top_p50": 166292,
+  "gift_p5_p50": [
+   136842,
+   165528
+  ],
+  "kept_half_2033_p50": 21681,
+  "cushion_under_payments_2033_p50": 197835,
+  "p_ladder_over_300k": 0.4693,
+  "jan2027_gap_p50_when_positive": 9758,
+  "cure": {
+   "H=10000 top_only": {
+    "p_payment_unmet": 0.0107,
+    "p_bottom_missed_2033": 0.0075,
+    "p_top_missed_2033": 0.3153,
+    "p_trap_used": 0.1745,
+    "trap_p50_when_used": 5985,
+    "gift_2033_p50": 165292,
+    "gift_incl_later_release_p50": 165492,
+    "p_gift_incl_later_below_bottom": 0.0075,
+    "p_top_missed_incl_later": 0.2483
+   },
+   "H=10000 top_then_bottom": {
+    "p_payment_unmet": 0.0001,
+    "p_bottom_missed_2033": 0.0291,
+    "p_top_missed_2033": 0.3153,
+    "p_trap_used": 0.182,
+    "trap_p50_when_used": 7493,
+    "gift_2033_p50": 165292,
+    "gift_incl_later_release_p50": 165492,
+    "p_gift_incl_later_below_bottom": 0.0115,
+    "p_top_missed_incl_later": 0.2483
+   },
+   "H=20000 top_only": {
+    "p_payment_unmet": 0.0106,
+    "p_bottom_missed_2033": 0.0075,
+    "p_top_missed_2033": 0.4769,
+    "p_trap_used": 0.3986,
+    "trap_p50_when_used": 7847,
+    "gift_2033_p50": 164254,
+    "gift_incl_later_release_p50": 165492,
+    "p_gift_incl_later_below_bottom": 0.0075,
+    "p_top_missed_incl_later": 0.2483
+   },
+   "H=20000 top_then_bottom": {
+    "p_payment_unmet": 0.0,
+    "p_bottom_missed_2033": 0.0866,
+    "p_top_missed_2033": 0.4769,
+    "p_trap_used": 0.4061,
+    "trap_p50_when_used": 8830,
+    "gift_2033_p50": 164254,
+    "gift_incl_later_release_p50": 165492,
+    "p_gift_incl_later_below_bottom": 0.0115,
+    "p_top_missed_incl_later": 0.2483
+   },
+   "H=30000 top_only": {
+    "p_payment_unmet": 0.0106,
+    "p_bottom_missed_2033": 0.0075,
+    "p_top_missed_2033": 0.6545,
+    "p_trap_used": 0.6104,
+    "trap_p50_when_used": 12386,
+    "gift_2033_p50": 158837,
+    "gift_incl_later_release_p50": 165492,
+    "p_gift_incl_later_below_bottom": 0.0075,
+    "p_top_missed_incl_later": 0.2483
+   },
+   "H=30000 top_then_bottom": {
+    "p_payment_unmet": 0.0,
+    "p_bottom_missed_2033": 0.1946,
+    "p_top_missed_2033": 0.6545,
+    "p_trap_used": 0.6179,
+    "trap_p50_when_used": 13946,
+    "gift_2033_p50": 158837,
+    "gift_incl_later_release_p50": 165492,
+    "p_gift_incl_later_below_bottom": 0.0115,
+    "p_top_missed_incl_later": 0.2483
+   }
+  },
+  "ladder_headroom": -224
+ },
+ "S1 base, recession-linked (rho 0.5)": {
+  "p_keep_touched": 0.3283,
+  "p_top_missed": 0.2479,
+  "p_bottom_missed": 0.0128,
+  "p_payment_unmet": 0.0838,
+  "p_payment_unmet_parts": {
+   "jan2027_gap_not_filled": 0.0,
+   "gap_beyond_floor_in_2033": 0.0,
+   "post2033_gap_beyond_kept_half": 0.0838
+  },
+  "payment_unmet_median_when_it_happens": 3210,
+  "p_exhaustion_payment_or_bottom": 0.0851,
+  "bottom_p50": 145000,
+  "top_p50": 166275,
+  "gift_p5_p50": [
+   135882,
+   165492
+  ],
+  "kept_half_2033_p50": 21680,
+  "cushion_under_payments_2033_p50": 197733,
+  "p_ladder_over_300k": 0.4693,
+  "jan2027_gap_p50_when_positive": 9758,
+  "cure": {
+   "H=10000 top_only": {
+    "p_payment_unmet": 0.0175,
+    "p_bottom_missed_2033": 0.0128,
+    "p_top_missed_2033": 0.3288,
+    "p_trap_used": 0.1854,
+    "trap_p50_when_used": 6301,
+    "gift_2033_p50": 165311,
+    "gift_incl_later_release_p50": 165469,
+    "p_gift_incl_later_below_bottom": 0.0128,
+    "p_top_missed_incl_later": 0.2629
+   },
+   "H=10000 top_then_bottom": {
+    "p_payment_unmet": 0.0001,
+    "p_bottom_missed_2033": 0.0425,
+    "p_top_missed_2033": 0.3288,
+    "p_trap_used": 0.1982,
+    "trap_p50_when_used": 8651,
+    "gift_2033_p50": 165311,
+    "gift_incl_later_release_p50": 165469,
+    "p_gift_incl_later_below_bottom": 0.0187,
+    "p_top_missed_incl_later": 0.2629
+   },
+   "H=20000 top_only": {
+    "p_payment_unmet": 0.0174,
+    "p_bottom_missed_2033": 0.0128,
+    "p_top_missed_2033": 0.4693,
+    "p_trap_used": 0.3855,
+    "trap_p50_when_used": 8126,
+    "gift_2033_p50": 164342,
+    "gift_incl_later_release_p50": 165468,
+    "p_gift_incl_later_below_bottom": 0.0128,
+    "p_top_missed_incl_later": 0.2629
+   },
+   "H=20000 top_then_bottom": {
+    "p_payment_unmet": 0.0,
+    "p_bottom_missed_2033": 0.1071,
+    "p_top_missed_2033": 0.4693,
+    "p_trap_used": 0.3983,
+    "trap_p50_when_used": 9936,
+    "gift_2033_p50": 164342,
+    "gift_incl_later_release_p50": 165468,
+    "p_gift_incl_later_below_bottom": 0.0187,
+    "p_top_missed_incl_later": 0.2629
+   },
+   "H=30000 top_only": {
+    "p_payment_unmet": 0.0174,
+    "p_bottom_missed_2033": 0.0128,
+    "p_top_missed_2033": 0.644,
+    "p_trap_used": 0.5958,
+    "trap_p50_when_used": 12042,
+    "gift_2033_p50": 158878,
+    "gift_incl_later_release_p50": 165468,
+    "p_gift_incl_later_below_bottom": 0.0128,
+    "p_top_missed_incl_later": 0.2629
+   },
+   "H=30000 top_then_bottom": {
+    "p_payment_unmet": 0.0,
+    "p_bottom_missed_2033": 0.2085,
+    "p_top_missed_2033": 0.644,
+    "p_trap_used": 0.6086,
+    "trap_p50_when_used": 14163,
+    "gift_2033_p50": 158878,
+    "gift_incl_later_release_p50": 165468,
+    "p_gift_incl_later_below_bottom": 0.0187,
+    "p_top_missed_incl_later": 0.2629
+   }
+  },
+  "ladder_headroom": -224
+ },
+ "S2 2028 deposit halved ($75k)": {
+  "p_keep_touched": 0.3283,
+  "p_top_missed": 0.2592,
+  "p_bottom_missed": 0.0532,
+  "p_payment_unmet": 0.1536,
+  "p_payment_unmet_parts": {
+   "jan2027_gap_not_filled": 0.0,
+   "gap_beyond_floor_in_2033": 0.0,
+   "post2033_gap_beyond_kept_half": 0.1536
+  },
+  "payment_unmet_median_when_it_happens": 3234,
+  "p_exhaustion_payment_or_bottom": 0.1617,
+  "bottom_p50": 70000,
+  "top_p50": 82545,
+  "gift_p5_p50": [
+   51147,
+   81977
+  ],
+  "kept_half_2033_p50": 10460,
+  "cushion_under_payments_2033_p50": 100024,
+  "p_ladder_over_300k": 0.4693,
+  "jan2027_gap_p50_when_positive": 9758,
+  "cure": {
+   "H=10000 top_only": {
+    "p_payment_unmet": 0.0634,
+    "p_bottom_missed_2033": 0.0532,
+    "p_top_missed_2033": 0.4648,
+    "p_trap_used": 0.3743,
+    "trap_p50_when_used": 4629,
+    "gift_2033_p50": 80805,
+    "gift_incl_later_release_p50": 81851,
+    "p_gift_incl_later_below_bottom": 0.0532
+   },
+   "H=10000 top_then_bottom": {
+    "p_payment_unmet": 0.0001,
+    "p_bottom_missed_2033": 0.1414,
+    "p_top_missed_2033": 0.4648,
+    "p_trap_used": 0.4275,
+    "trap_p50_when_used": 7582,
+    "gift_2033_p50": 80805,
+    "gift_incl_later_release_p50": 81851,
+    "p_gift_incl_later_below_bottom": 0.0714
+   },
+   "H=20000 top_only": {
+    "p_payment_unmet": 0.0633,
+    "p_bottom_missed_2033": 0.0532,
+    "p_top_missed_2033": 0.7036,
+    "p_trap_used": 0.6292,
+    "trap_p50_when_used": 9202,
+    "gift_2033_p50": 72925,
+    "gift_incl_later_release_p50": 81851,
+    "p_gift_incl_later_below_bottom": 0.0532
+   },
+   "H=20000 top_then_bottom": {
+    "p_payment_unmet": 0.0,
+    "p_bottom_missed_2033": 0.3219,
+    "p_top_missed_2033": 0.7036,
+    "p_trap_used": 0.6825,
+    "trap_p50_when_used": 12452,
+    "gift_2033_p50": 72925,
+    "gift_incl_later_release_p50": 81851,
+    "p_gift_incl_later_below_bottom": 0.0714
+   },
+   "H=30000 top_only": {
+    "p_payment_unmet": 0.0633,
+    "p_bottom_missed_2033": 0.0532,
+    "p_top_missed_2033": 0.8325,
+    "p_trap_used": 0.7702,
+    "trap_p50_when_used": 11961,
+    "gift_2033_p50": 70000,
+    "gift_incl_later_release_p50": 81851,
+    "p_gift_incl_later_below_bottom": 0.0532
+   },
+   "H=30000 top_then_bottom": {
+    "p_payment_unmet": 0.0,
+    "p_bottom_missed_2033": 0.5607,
+    "p_top_missed_2033": 0.8325,
+    "p_trap_used": 0.8234,
+    "trap_p50_when_used": 20440,
+    "gift_2033_p50": 62944,
+    "gift_incl_later_release_p50": 81851,
+    "p_gift_incl_later_below_bottom": 0.0714
+   }
+  },
+  "ladder_headroom": -224
+ },
+ "S3 2028 deposit missing": {
+  "p_keep_touched": 0.5666,
+  "p_top_missed": 0.0,
+  "p_bottom_missed": 0.0,
+  "p_payment_unmet": 0.5841,
+  "p_payment_unmet_parts": {
+   "jan2027_gap_not_filled": 0.4692,
+   "gap_beyond_floor_in_2033": 0.3354,
+   "post2033_gap_beyond_kept_half": 0.2596
+  },
+  "payment_unmet_median_when_it_happens": 16593,
+  "p_exhaustion_payment_or_bottom": 0.5841,
+  "bottom_p50": 0,
+  "top_p50": 0,
+  "gift_p5_p50": [
+   0,
+   0
+  ],
+  "kept_half_2033_p50": 0,
+  "cushion_under_payments_2033_p50": 1511,
+  "p_ladder_over_300k": 0.4693,
+  "jan2027_gap_p50_when_positive": 9758,
+  "cure": {
+   "H=10000 top_only": {
+    "p_payment_unmet": 0.5841,
+    "p_bottom_missed_2033": 0.0,
+    "p_top_missed_2033": 0.0,
+    "p_trap_used": 0.0,
+    "trap_p50_when_used": 0,
+    "gift_2033_p50": 0,
+    "gift_incl_later_release_p50": 0,
+    "p_gift_incl_later_below_bottom": 0.0
+   },
+   "H=10000 top_then_bottom": {
+    "p_payment_unmet": 0.5841,
+    "p_bottom_missed_2033": 0.0,
+    "p_top_missed_2033": 0.0,
+    "p_trap_used": 0.0,
+    "trap_p50_when_used": 0,
+    "gift_2033_p50": 0,
+    "gift_incl_later_release_p50": 0,
+    "p_gift_incl_later_below_bottom": 0.0
+   },
+   "H=20000 top_only": {
+    "p_payment_unmet": 0.5841,
+    "p_bottom_missed_2033": 0.0,
+    "p_top_missed_2033": 0.0,
+    "p_trap_used": 0.0,
+    "trap_p50_when_used": 0,
+    "gift_2033_p50": 0,
+    "gift_incl_later_release_p50": 0,
+    "p_gift_incl_later_below_bottom": 0.0
+   },
+   "H=20000 top_then_bottom": {
+    "p_payment_unmet": 0.5841,
+    "p_bottom_missed_2033": 0.0,
+    "p_top_missed_2033": 0.0,
+    "p_trap_used": 0.0,
+    "trap_p50_when_used": 0,
+    "gift_2033_p50": 0,
+    "gift_incl_later_release_p50": 0,
+    "p_gift_incl_later_below_bottom": 0.0
+   },
+   "H=30000 top_only": {
+    "p_payment_unmet": 0.5841,
+    "p_bottom_missed_2033": 0.0,
+    "p_top_missed_2033": 0.0,
+    "p_trap_used": 0.0,
+    "trap_p50_when_used": 0,
+    "gift_2033_p50": 0,
+    "gift_incl_later_release_p50": 0,
+    "p_gift_incl_later_below_bottom": 0.0
+   },
+   "H=30000 top_then_bottom": {
+    "p_payment_unmet": 0.5841,
+    "p_bottom_missed_2033": 0.0,
+    "p_top_missed_2033": 0.0,
+    "p_trap_used": 0.0,
+    "trap_p50_when_used": 0,
+    "gift_2033_p50": 0,
+    "gift_incl_later_release_p50": 0,
+    "p_gift_incl_later_below_bottom": 0.0
+   }
+  },
+  "ladder_headroom": -224
+ },
+ "S4 yields 1pt lower before the Jan 2027 build": {
+  "p_keep_touched": 0.4636,
+  "p_top_missed": 0.2843,
+  "p_bottom_missed": 0.0379,
+  "p_payment_unmet": 0.1698,
+  "p_payment_unmet_parts": {
+   "jan2027_gap_not_filled": 0.0,
+   "gap_beyond_floor_in_2033": 0.0,
+   "post2033_gap_beyond_kept_half": 0.1698
+  },
+  "payment_unmet_median_when_it_happens": 2568,
+  "p_exhaustion_payment_or_bottom": 0.1746,
+  "bottom_p50": 115000,
+  "top_p50": 133246,
+  "gift_p5_p50": [
+   95897,
+   131677
+  ],
+  "kept_half_2033_p50": 14481,
+  "cushion_under_payments_2033_p50": 150067,
+  "p_ladder_over_300k": 0.973,
+  "jan2027_gap_p50_when_positive": 30486,
+  "cure": {
+   "H=10000 top_only": {
+    "p_payment_unmet": 0.0469,
+    "p_bottom_missed_2033": 0.0379,
+    "p_top_missed_2033": 0.4685,
+    "p_trap_used": 0.3865,
+    "trap_p50_when_used": 5635,
+    "gift_2033_p50": 129533,
+    "gift_incl_later_release_p50": 131295,
+    "p_gift_incl_later_below_bottom": 0.0379
+   },
+   "H=10000 top_then_bottom": {
+    "p_payment_unmet": 0.0001,
+    "p_bottom_missed_2033": 0.1201,
+    "p_top_missed_2033": 0.4685,
+    "p_trap_used": 0.4244,
+    "trap_p50_when_used": 8777,
+    "gift_2033_p50": 129170,
+    "gift_incl_later_release_p50": 131269,
+    "p_gift_incl_later_below_bottom": 0.0516
+   },
+   "H=20000 top_only": {
+    "p_payment_unmet": 0.0469,
+    "p_bottom_missed_2033": 0.0379,
+    "p_top_missed_2033": 0.7597,
+    "p_trap_used": 0.7322,
+    "trap_p50_when_used": 8651,
+    "gift_2033_p50": 124811,
+    "gift_incl_later_release_p50": 131295,
+    "p_gift_incl_later_below_bottom": 0.0379
+   },
+   "H=20000 top_then_bottom": {
+    "p_payment_unmet": 0.0,
+    "p_bottom_missed_2033": 0.2764,
+    "p_top_missed_2033": 0.7597,
+    "p_trap_used": 0.7701,
+    "trap_p50_when_used": 11168,
+    "gift_2033_p50": 122716,
+    "gift_incl_later_release_p50": 131269,
+    "p_gift_incl_later_below_bottom": 0.0516
+   },
+   "H=30000 top_only": {
+    "p_payment_unmet": 0.0469,
+    "p_bottom_missed_2033": 0.0379,
+    "p_top_missed_2033": 0.9245,
+    "p_trap_used": 0.8931,
+    "trap_p50_when_used": 13423,
+    "gift_2033_p50": 119724,
+    "gift_incl_later_release_p50": 131295,
+    "p_gift_incl_later_below_bottom": 0.0379
+   },
+   "H=30000 top_then_bottom": {
+    "p_payment_unmet": 0.0,
+    "p_bottom_missed_2033": 0.4993,
+    "p_top_missed_2033": 0.9245,
+    "p_trap_used": 0.931,
+    "trap_p50_when_used": 18856,
+    "gift_2033_p50": 112988,
+    "gift_incl_later_release_p50": 131269,
+    "p_gift_incl_later_below_bottom": 0.0516
+   }
+  },
+  "ladder_headroom": -224
+ },
+ "S5 S4 + 2028 deposit missing": {
+  "p_keep_touched": 0.9802,
+  "p_top_missed": 0.0,
+  "p_bottom_missed": 0.0,
+  "p_payment_unmet": 0.9827,
+  "p_payment_unmet_parts": {
+   "jan2027_gap_not_filled": 0.973,
+   "gap_beyond_floor_in_2033": 0.4895,
+   "post2033_gap_beyond_kept_half": 0.3656
+  },
+  "payment_unmet_median_when_it_happens": 43646,
+  "p_exhaustion_payment_or_bottom": 0.9827,
+  "bottom_p50": 0,
+  "top_p50": 0,
+  "gift_p5_p50": [
+   0,
+   0
+  ],
+  "kept_half_2033_p50": 0,
+  "cushion_under_payments_2033_p50": 0,
+  "p_ladder_over_300k": 0.973,
+  "jan2027_gap_p50_when_positive": 30486,
+  "cure": {
+   "H=10000 top_only": {
+    "p_payment_unmet": 0.9827,
+    "p_bottom_missed_2033": 0.0,
+    "p_top_missed_2033": 0.0,
+    "p_trap_used": 0.0,
+    "trap_p50_when_used": 0,
+    "gift_2033_p50": 0,
+    "gift_incl_later_release_p50": 0,
+    "p_gift_incl_later_below_bottom": 0.0
+   },
+   "H=10000 top_then_bottom": {
+    "p_payment_unmet": 0.9827,
+    "p_bottom_missed_2033": 0.0,
+    "p_top_missed_2033": 0.0,
+    "p_trap_used": 0.0,
+    "trap_p50_when_used": 0,
+    "gift_2033_p50": 0,
+    "gift_incl_later_release_p50": 0,
+    "p_gift_incl_later_below_bottom": 0.0
+   },
+   "H=20000 top_only": {
+    "p_payment_unmet": 0.9827,
+    "p_bottom_missed_2033": 0.0,
+    "p_top_missed_2033": 0.0,
+    "p_trap_used": 0.0,
+    "trap_p50_when_used": 0,
+    "gift_2033_p50": 0,
+    "gift_incl_later_release_p50": 0,
+    "p_gift_incl_later_below_bottom": 0.0
+   },
+   "H=20000 top_then_bottom": {
+    "p_payment_unmet": 0.9827,
+    "p_bottom_missed_2033": 0.0,
+    "p_top_missed_2033": 0.0,
+    "p_trap_used": 0.0,
+    "trap_p50_when_used": 0,
+    "gift_2033_p50": 0,
+    "gift_incl_later_release_p50": 0,
+    "p_gift_incl_later_below_bottom": 0.0
+   },
+   "H=30000 top_only": {
+    "p_payment_unmet": 0.9827,
+    "p_bottom_missed_2033": 0.0,
+    "p_top_missed_2033": 0.0,
+    "p_trap_used": 0.0,
+    "trap_p50_when_used": 0,
+    "gift_2033_p50": 0,
+    "gift_incl_later_release_p50": 0,
+    "p_gift_incl_later_below_bottom": 0.0
+   },
+   "H=30000 top_then_bottom": {
+    "p_payment_unmet": 0.9827,
+    "p_bottom_missed_2033": 0.0,
+    "p_top_missed_2033": 0.0,
+    "p_trap_used": 0.0,
+    "trap_p50_when_used": 0,
+    "gift_2033_p50": 0,
+    "gift_incl_later_release_p50": 0,
+    "p_gift_incl_later_below_bottom": 0.0
+   }
+  },
+  "ladder_headroom": -224
+ },
+ "S6 yields fall 2pt just after the build, for good": {
+  "p_keep_touched": 0.7257,
+  "p_top_missed": 0.4814,
+  "p_bottom_missed": 0.1981,
+  "p_payment_unmet": 0.3873,
+  "p_payment_unmet_parts": {
+   "jan2027_gap_not_filled": 0.0,
+   "gap_beyond_floor_in_2033": 0.0,
+   "post2033_gap_beyond_kept_half": 0.3873
+  },
+  "payment_unmet_median_when_it_happens": 3350,
+  "p_exhaustion_payment_or_bottom": 0.4136,
+  "bottom_p50": 145000,
+  "top_p50": 159393,
+  "gift_p5_p50": [
+   115236,
+   156663
+  ],
+  "kept_half_2033_p50": 13320,
+  "cushion_under_payments_2033_p50": 180625,
+  "p_ladder_over_300k": 0.4693,
+  "jan2027_gap_p50_when_positive": 9758,
+  "cure": {
+   "H=10000 top_only": {
+    "p_payment_unmet": 0.2063,
+    "p_bottom_missed_2033": 0.1981,
+    "p_top_missed_2033": 0.6579,
+    "p_trap_used": 0.4264,
+    "trap_p50_when_used": 7114,
+    "gift_2033_p50": 149377,
+    "gift_incl_later_release_p50": 155181,
+    "p_gift_incl_later_below_bottom": 0.1981,
+    "p_top_missed_incl_later": 0.524
+   },
+   "H=10000 top_then_bottom": {
+    "p_payment_unmet": 0.0002,
+    "p_bottom_missed_2033": 0.3337,
+    "p_top_missed_2033": 0.6579,
+    "p_trap_used": 0.6246,
+    "trap_p50_when_used": 10000,
+    "gift_2033_p50": 149377,
+    "gift_incl_later_release_p50": 155181,
+    "p_gift_incl_later_below_bottom": 0.2325,
+    "p_top_missed_incl_later": 0.524
+   },
+   "H=20000 top_only": {
+    "p_payment_unmet": 0.2062,
+    "p_bottom_missed_2033": 0.1981,
+    "p_top_missed_2033": 0.7856,
+    "p_trap_used": 0.5729,
+    "trap_p50_when_used": 10118,
+    "gift_2033_p50": 145000,
+    "gift_incl_later_release_p50": 155181,
+    "p_gift_incl_later_below_bottom": 0.1981,
+    "p_top_missed_incl_later": 0.5241
+   },
+   "H=20000 top_then_bottom": {
+    "p_payment_unmet": 0.0,
+    "p_bottom_missed_2033": 0.5031,
+    "p_top_missed_2033": 0.7856,
+    "p_trap_used": 0.771,
+    "trap_p50_when_used": 20000,
+    "gift_2033_p50": 139919,
+    "gift_incl_later_release_p50": 155181,
+    "p_gift_incl_later_below_bottom": 0.2325,
+    "p_top_missed_incl_later": 0.5241
+   },
+   "H=30000 top_only": {
+    "p_payment_unmet": 0.2061,
+    "p_bottom_missed_2033": 0.1981,
+    "p_top_missed_2033": 0.876,
+    "p_trap_used": 0.6722,
+    "trap_p50_when_used": 13019,
+    "gift_2033_p50": 145000,
+    "gift_incl_later_release_p50": 155181,
+    "p_gift_incl_later_below_bottom": 0.1981,
+    "p_top_missed_incl_later": 0.5241
+   },
+   "H=30000 top_then_bottom": {
+    "p_payment_unmet": 0.0,
+    "p_bottom_missed_2033": 0.644,
+    "p_top_missed_2033": 0.876,
+    "p_trap_used": 0.8704,
+    "trap_p50_when_used": 30000,
+    "gift_2033_p50": 129939,
+    "gift_incl_later_release_p50": 155181,
+    "p_gift_incl_later_below_bottom": 0.2325,
+    "p_top_missed_incl_later": 0.5241
+   }
+  },
+  "ladder_headroom": -224
+ },
+ "S7 stocks halve before the 2031 range is set": {
+  "p_keep_touched": 0.3283,
+  "p_top_missed": 0.2609,
+  "p_bottom_missed": 0.05,
+  "p_payment_unmet": 0.149,
+  "p_payment_unmet_parts": {
+   "jan2027_gap_not_filled": 0.0,
+   "gap_beyond_floor_in_2033": 0.0,
+   "post2033_gap_beyond_kept_half": 0.149
+  },
+  "payment_unmet_median_when_it_happens": 3238,
+  "p_exhaustion_payment_or_bottom": 0.1563,
+  "bottom_p50": 145000,
+  "top_p50": 157606,
+  "gift_p5_p50": [
+   127524,
+   156991
+  ],
+  "kept_half_2033_p50": 10840,
+  "cushion_under_payments_2033_p50": 175427,
+  "p_ladder_over_300k": 0.4693,
+  "jan2027_gap_p50_when_positive": 9758,
+  "cure": {
+   "H=10000 top_only": {
+    "p_payment_unmet": 0.0602,
+    "p_bottom_missed_2033": 0.05,
+    "p_top_missed_2033": 0.4414,
+    "p_trap_used": 0.3522,
+    "trap_p50_when_used": 4621,
+    "gift_2033_p50": 155911,
+    "gift_incl_later_release_p50": 156881,
+    "p_gift_incl_later_below_bottom": 0.05
+   },
+   "H=10000 top_then_bottom": {
+    "p_payment_unmet": 0.0001,
+    "p_bottom_missed_2033": 0.1326,
+    "p_top_missed_2033": 0.4414,
+    "p_trap_used": 0.4022,
+    "trap_p50_when_used": 7905,
+    "gift_2033_p50": 155911,
+    "gift_incl_later_release_p50": 156881,
+    "p_gift_incl_later_below_bottom": 0.0675
+   },
+   "H=20000 top_only": {
+    "p_payment_unmet": 0.0601,
+    "p_bottom_missed_2033": 0.05,
+    "p_top_missed_2033": 0.6979,
+    "p_trap_used": 0.6278,
+    "trap_p50_when_used": 8983,
+    "gift_2033_p50": 148402,
+    "gift_incl_later_release_p50": 156881,
+    "p_gift_incl_later_below_bottom": 0.05
+   },
+   "H=20000 top_then_bottom": {
+    "p_payment_unmet": 0.0,
+    "p_bottom_missed_2033": 0.2949,
+    "p_top_missed_2033": 0.6979,
+    "p_trap_used": 0.6778,
+    "trap_p50_when_used": 11798,
+    "gift_2033_p50": 148402,
+    "gift_incl_later_release_p50": 156881,
+    "p_gift_incl_later_below_bottom": 0.0675
+   },
+   "H=30000 top_only": {
+    "p_payment_unmet": 0.0601,
+    "p_bottom_missed_2033": 0.05,
+    "p_top_missed_2033": 0.8317,
+    "p_trap_used": 0.7729,
+    "trap_p50_when_used": 12181,
+    "gift_2033_p50": 145000,
+    "gift_incl_later_release_p50": 156881,
+    "p_gift_incl_later_below_bottom": 0.05
+   },
+   "H=30000 top_then_bottom": {
+    "p_payment_unmet": 0.0,
+    "p_bottom_missed_2033": 0.5407,
+    "p_top_missed_2033": 0.8317,
+    "p_trap_used": 0.8229,
+    "trap_p50_when_used": 19742,
+    "gift_2033_p50": 138446,
+    "gift_incl_later_release_p50": 156881,
+    "p_gift_incl_later_below_bottom": 0.0675
+   }
+  },
+  "ladder_headroom": -224
+ },
+ "S8 stocks halve after the 2031 range is set": {
+  "p_keep_touched": 0.3283,
+  "p_top_missed": 0.9797,
+  "p_bottom_missed": 0.05,
+  "p_payment_unmet": 0.149,
+  "p_payment_unmet_parts": {
+   "jan2027_gap_not_filled": 0.0,
+   "gap_beyond_floor_in_2033": 0.0,
+   "post2033_gap_beyond_kept_half": 0.149
+  },
+  "payment_unmet_median_when_it_happens": 3238,
+  "p_exhaustion_payment_or_bottom": 0.1563,
+  "bottom_p50": 145000,
+  "top_p50": 166275,
+  "gift_p5_p50": [
+   128192,
+   158288
+  ],
+  "kept_half_2033_p50": 10840,
+  "cushion_under_payments_2033_p50": 175427,
+  "p_ladder_over_300k": 0.4693,
+  "jan2027_gap_p50_when_positive": 9758,
+  "cure": {
+   "H=10000 top_only": {
+    "p_payment_unmet": 0.0602,
+    "p_bottom_missed_2033": 0.05,
+    "p_top_missed_2033": 0.9822,
+    "p_trap_used": 0.3522,
+    "trap_p50_when_used": 4621,
+    "gift_2033_p50": 157394,
+    "gift_incl_later_release_p50": 158201,
+    "p_gift_incl_later_below_bottom": 0.05
+   },
+   "H=10000 top_then_bottom": {
+    "p_payment_unmet": 0.0001,
+    "p_bottom_missed_2033": 0.1315,
+    "p_top_missed_2033": 0.9822,
+    "p_trap_used": 0.4022,
+    "trap_p50_when_used": 7905,
+    "gift_2033_p50": 157394,
+    "gift_incl_later_release_p50": 158201,
+    "p_gift_incl_later_below_bottom": 0.0675
+   },
+   "H=20000 top_only": {
+    "p_payment_unmet": 0.0601,
+    "p_bottom_missed_2033": 0.05,
+    "p_top_missed_2033": 0.9882,
+    "p_trap_used": 0.6278,
+    "trap_p50_when_used": 9013,
+    "gift_2033_p50": 150393,
+    "gift_incl_later_release_p50": 158201,
+    "p_gift_incl_later_below_bottom": 0.05
+   },
+   "H=20000 top_then_bottom": {
+    "p_payment_unmet": 0.0,
+    "p_bottom_missed_2033": 0.2725,
+    "p_top_missed_2033": 0.9882,
+    "p_trap_used": 0.6778,
+    "trap_p50_when_used": 11798,
+    "gift_2033_p50": 150393,
+    "gift_incl_later_release_p50": 158201,
+    "p_gift_incl_later_below_bottom": 0.0675
+   },
+   "H=30000 top_only": {
+    "p_payment_unmet": 0.0601,
+    "p_bottom_missed_2033": 0.05,
+    "p_top_missed_2033": 0.9929,
+    "p_trap_used": 0.7729,
+    "trap_p50_when_used": 12834,
+    "gift_2033_p50": 145000,
+    "gift_incl_later_release_p50": 158201,
+    "p_gift_incl_later_below_bottom": 0.05
+   },
+   "H=30000 top_then_bottom": {
+    "p_payment_unmet": 0.0,
+    "p_bottom_missed_2033": 0.4925,
+    "p_top_missed_2033": 0.9929,
+    "p_trap_used": 0.8229,
+    "trap_p50_when_used": 19742,
+    "gift_2033_p50": 140405,
+    "gift_incl_later_release_p50": 158201,
+    "p_gift_incl_later_below_bottom": 0.0675
+   }
+  },
+  "ladder_headroom": -224
+ }
+}

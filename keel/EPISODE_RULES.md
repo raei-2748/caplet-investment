@@ -1,7 +1,12 @@
 # FICTION. Team Keel: episode rules (headquarters page: `keel/README.md`)
 
+> **Read `BIBLE.md` first: Caplet's five books, all equal (23-26 Oct 2026).** They beat every rule on this page.
+> Extraordinary above all; a distinctive, deeply human voice (Ray's, never AI's); one subtle motif, Caplet XR (extended
+> release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
+> IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
+
 **FICTION, AI-generated (Claude Code), started 22 Oct 2026 at Ray's request.** Keel is an imaginary team of six
-students in Sydney. They work on the same competition, the same client (Laura Gao), the same deadlines and the same
+students in Sydney (`WORLD.md`). They work on the same competition, the same client (Laura Gao), the same deadlines and the same
 Wharton files as Caplet. They are written as a team we are confident would reach the semifinals or the finale.
 Every day a new episode shows what they did: research, debates, mistakes, decisions.
 
@@ -17,6 +22,12 @@ payments are the keel, growth is the sail.
   episode is real, dated and sourced, or is marked MODEL or UNVERIFIED.
 
 ## Hard rules for every episode
+0. **The competition is the story.** All six live for one goal this season: the Top 50 semifinal. The world
+   (`STORY_BIBLE.md`) exists to give them depth. A family scene, a rival or a motif earns its place only if it
+   changes how someone argues, decides or writes for Laura that day. If it doesn't, cut it.
+   **Not a smooth ride:** outside life takes real time (exams, shifts, family, a busy week), and things go wrong.
+   Most episodes show who is short of time and how the work is re-split; each week has at least one setback with a
+   real cost and a partial fix (`STORY_BIBLE.md` section 7a).
 1. **Label.** Every file starts with "FICTION" in its first line. Keel is not a real team; its members are not
    based on Caplet members or anyone real. Never map a Keel member onto a Caplet student, and never rank Caplet
    students.
@@ -37,20 +48,29 @@ payments are the keel, growth is the sail.
    story shows how they find out.
 
 ## Daily episode recipe (for the scheduled session)
-1. Read this README, every `members/<name>.md`, `tea_room.md`, the last three episodes, `CLAUDE.md` and
-   `competition/COMPETITION.md`.
+1. Read `TOKEN_RULES.md`, then `CAST.md`, `VOICE.md`, `WORLD.md`, `tea_room.md`, `episodes/INDEX.md` and the summary blocks of
+   the last two episodes. Open a full `members/<name>.md` only for the 1-3 members central to today. Check
+   `ARCS.md` and `IDEAS.md` for the arc to move and any idea already decided. Look up `CLAUDE.md` and
+   `competition/COMPETITION.md` for the calendar only.
 2. Work out today's date in Sydney and where the competition calendar is. Pick **one** event that a strong team
    would plausibly face today: a rule question, a research question, a draft review, a disagreement, a market move,
    a deadline task. Prefer what Caplet is about to face in the next few days.
 3. Do the research for real, through the backstage crew (below): read the official file, fetch the page, run the
    numbers. Keep a source list.
-4. Write `episodes/YYYY-MM-DD_epNN.md` as a diary episode, 600-1,000 words:
-   - title, date (Sydney), whose point of view;
+4. Write `episodes/YYYY-MM-DD_epNN.md` as a diary episode, 700-1,000 words (NN = the next number in `INDEX.md`):
+   - title; date (Sydney), point of view, Long Room (none / light / N room days, and why), countdown;
+   - a `> **Summary.**` block of 3-5 lines, then `**Arcs:** **Values:** **Ideas:**` (later sessions read only this);
+   - at least one arc moved by one step, at least one value kept, tested or broken; if a concept is debated, a new
+     row in `IDEAS.md` with its verdict and reason;
+   - most of the day in ordinary time (school, the bus, home), as real teenagers live it; time in the Long Room
+     follows `WORLD.md`;
    - the story, with dialogue in each character's voice;
    - **Decisions** (decision, owner, date) and **Open threads**;
    - **What Caplet can take from today** (2-5 specific checks, each pointing at a Caplet file or deadline);
    - **Sources** (file:line, URL + access date, MODEL inputs).
-5. Update `tea_room.md` (plan, decision journal, open threads, relationships) and the "Working notes" section of
+5. Add the episode's row to `episodes/INDEX.md`, update the arc's "Where it stands" line in `ARCS.md`, the Long Room
+   log and current state in `tea_room.md`, and `CAST.md`'s "Current state" if it changed.
+   Update `tea_room.md` (plan, decision journal, open threads, relationships) and the "Working notes" section of
    each involved member's file (Felix's quotes, Jun's numbers, Amara's case lines, Kai's market watch, Tess's cut
    lines, Nora's one sentence).
 6. Commit and push. Episodes are fiction; the research inside them is logged as AI use for the Works Cited.
@@ -72,10 +92,10 @@ simply did the work.
 | Tess (editor) | `format-gatekeeper`, `evidence-archivist` | word counts, banned items, what the record shows |
 
 Daily method:
-1. Pick the day's event (recipe step 2). Decide which 3-6 members it involves.
+1. Pick the day's event (recipe step 2). Decide which members it involves; crews only for the 1-3 whose part needs new research.
 2. For each involved member, run ONE subagent of the most relevant type above, using the brief in the "Agent
    profile" section of that member's file, with the day's question and the README hard rules. Ask it to answer in that member's voice and position, with
-   sources. Run them in parallel. Keep the total to 6 subagents a day or fewer.
+   sources. Run them in parallel. Keep the total to 3 subagents a day or fewer, and none on a day that needs no new research (`TOKEN_RULES.md`).
 3. Each crew's findings go into its member's "Working notes", written as that member's own notes.
    Write the episode from what came back: the members disagree where their crews disagreed. Felix's crew
    (`fact-checker`) checks the finished episode's facts and numbers before it is committed.
@@ -84,9 +104,10 @@ Daily method:
 ## Files
 ```
 EPISODE_RULES.md   rules, daily recipe, backstage method (headquarters page: README.md)
-tea_room.md    the shared tea room: plan, decision journal, open threads, relationships
+WORLD.md, CULTURE.md, CAST.md, ARCS.md, IDEAS.md, TOKEN_RULES.md   setting, values, cast, arcs, ideas, token rules
+tea_room.md    the Long Room wall: plan, decision journal, open threads, relationships (OFFICE.md)
 members/       one file per member: profile, agent profile, working notes
-episodes/      one diary file per day
+episodes/      one diary file per day; INDEX.md is the timeline
 ```
 Members: Nora Haddad (team leader) · Amara Singh (client lead) · Jun Park (numbers) · Kai Tran (contrarian and
 trader) · Felix Wong (rules and sources) · Tess Bell (editor and team memory). Episodes use first names.
