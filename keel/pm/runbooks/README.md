@@ -56,6 +56,18 @@ to rewrite a prompt. Caplet's standing instructions (`../../INSTRUCTIONS.md`) be
    pitch + IPS, also add the next numbered row (V22, V23 ...) to `keel/ips_rewrite/VERSIONS.md`, so the portal shows it. One row in `keel/pm/RUNLOG.md`; a
    `keel/office/LEDGER.md` row if it informs Caplet; a memo in `keel/office/outbox/` ending with each present
    member's labelled take (`- **Jun:** ...`) when there is something to say; up to 2 requests filed, finished ones closed.
+   **Takes are a conversation, not six statements** (Ray, 27 Oct: "I cannot really see the dialogues you guys had"):
+   each take answers, pushes back on or builds on the one before it, by name where it helps. The portal's front page
+   shows them as a chat. Start the memo with a `**Result.**` paragraph in one or two plain sentences; the portal quotes it.
+   **Say it plainly, for Caplet (Ray, 27 Oct: "make it clear essence ... very clear, simple").** Append one bullet to
+   `keel/today/YYYY-MM-DD.md` (Sydney date) under `## In plain words`:
+   `- **<Room, no "The">:** <what you did and found, in one or two sentences a Year 11 student gets on first read; no
+   jargon, IDs or file names; then what it changes>. ([memo](../office/outbox/<your memo>.md))`
+   Create the file from yesterday's if it is missing (title `# <Ddd d Mon> 2026: what Keel did today`, the AI note, an
+   empty `## For Caplet`, then `## In plain words`). Never edit another room's bullet. The Noticeboard (07:00, last
+   night's file) and the Archive (19:10, today's) write `## For Caplet`: at most four bullets, the most important first,
+   each opening with a bold one-line headline. Ticked to-dos: mark finished tasks in `pm/BOARD.md` `## Done` with the
+   day (`Tue 27 Oct`) and finished work orders `done <d Mon>`, which is what the portal's "Done" list reads.
 7. **Push.** Fetch and rebase just before pushing (other rooms push to the same branch; retry on a race), then open or
    update the day's PR ("Keel <date>: ..."). The Archive (19:10) and the daily loop (07:00) merge it under
    `keel/pm/INVARIANTS.md` section 3.
@@ -65,7 +77,9 @@ to rewrite a prompt. Caplet's standing instructions (`../../INSTRUCTIONS.md`) be
    (a) your room's `## Now` block, a `pm/RUNLOG.md` row and, for a new draft, a `ips_rewrite/VERSIONS.md` row say what
    you did (that is what the portal reads); (b) the "Keel Office portal" run after your push is green in GitHub
    Actions (if it says your branch was skipped because it does not merge cleanly, rebase on main and push again);
-   (c) step 9's line links the portal page that shows the work (`#/room/<id>`, `#/ips/<n>`, `#/doc/<path>`).
+   (c) step 9's line links the portal page that shows the work (the day, `#/day/YYYY-MM-DD`, or `#/room/<id>`,
+   `#/ips/<n>`, `#/doc/<path>`). The front page (Today) shows `keel/today/<date>.md`, the memos' conversations and
+   research, the day's Done list and the research round; if your line isn't there, step 6 isn't finished.
    Then refresh the private dashboard: `keel/office/dashboard/README.md`.
 9. **One line in the thread**, then resolve it: what changed for the judges (or "no draft change; did X") and the
    portal link to the page that shows it (https://raei-2748.github.io/caplet-investment/#/...). No checklists or long reports; the daily loop's

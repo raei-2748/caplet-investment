@@ -316,17 +316,18 @@ def decisions(path):
     """Every '- **Decided:**' line a room has written into its Now block, newest first, from git history."""
     if not path:
         return []
-    out, seen, when = [], set(), ""
+    out, seen, when, iso = [], set(), "", ""
     log = git("log", "--format=%x1e%cI", "-p", "HEAD", "--remotes=origin/claude/*", "--", path)
     for line in log.split("\n"):  # not splitlines(): it also splits on the \x1e record mark
         if line.startswith("\x1e"):
-            when = dt.datetime.fromisoformat(line[1:].strip()).astimezone(SYD).strftime("%a %d %b")
+            at = dt.datetime.fromisoformat(line[1:].strip()).astimezone(SYD)
+            when, iso = at.strftime("%a %d %b"), at.date().isoformat()
         elif line.startswith("+- **Decided:**"):
             text = scrub(line.split("**Decided:**", 1)[1].strip())
             if text and text not in seen:
                 seen.add(text)
-                out.append({"date": when, "text": text})
-    return sorted(out, key=lambda d: d["date"], reverse=True)[:12]
+                out.append({"date": when, "iso": iso, "text": text})
+    return sorted(out, key=lambda d: d["iso"], reverse=True)[:12]
 
 
 def bible():
@@ -357,6 +358,238 @@ def bible():
             "quote": "This is supposed to be a long process because it should take an extraordinary amount of thinking and "
                      "ideation and research and analysis and so on. ... THINK. That's your job.",
             "said": "Caplet, Mon 26 Oct 2026, cover note to the books (all equal)"}
+
+
+# ---------- the day view (the front page) ----------
+
+MONTHS = {m: i for i, m in enumerate("Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split(), 1)}
+NAMES = "|".join(x[1] for x in bd.MEMBERS)
+SPEAKER = re.compile(rf"^\s*(?:[-*]\s+)?\*\*({NAMES})(?: \([^)*]*\))?[:.]\*\*\s*(.*)$")
+ESSENCE = re.compile(r"^(?:\*\*(?:Result|Results|The finding|Finding|What we found|Answer|Done|Verdict|Bottom line|In one line)[^*]{0,40}\*\*"
+                     r"|#+ (?:Answer|What we found|Results?|The finding|Nora's ruling|Ruling|Bottom line|Breaches and near-breaches)"
+                     r"[^\n]*)(.*)$", re.I)
+ESSENCE2 = re.compile(r"^(?:#+ (?:What it changes|What changed|What this changes|Why it matters|Decided)[^\n]*()"
+                      r"|\*\*(?:What it changes|What changed|What this changes|Why it matters|Decided)[^*]*\*\*(.*))$", re.I)
+RESEARCH_ROOMS = {"library", "genius_lab", "lauras_room", "window", "trading_desk", "noticeboard", "archive"}
+
+
+def iso_day(text, year=2026):
+    m = re.search(r"\b(\d{1,2}) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\b", text)
+    return f"{year}-{MONTHS[m.group(2)]:02d}-{int(m.group(1)):02d}" if m else ""
+
+
+def plain(s):
+    s = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", s)
+    s = re.sub(r"[`*]", "", s)
+    return scrub(" ".join(s.split()))
+
+
+def first_sentences(text, n=2, cap=320):
+    parts = re.split(r"(?<!\b[A-Z]\.)(?<![Vv]s\.)(?<=[.!?])\s+(?=[A-Z\"“(0-9])", plain(text))
+    out = " ".join(parts[:n]).strip()
+    return out if len(out) <= cap else out[:cap].rsplit(" ", 1)[0] + "…"
+
+
+def dialogue(text):
+    """Members' labelled lines ('- **Jun:** ...', '**Kai.** ...'), in order, with their continuation lines."""
+    lines, cur = [], None
+    for raw in text.split("\n"):
+        m = SPEAKER.match(raw)
+        st = raw.lstrip()
+        if m:
+            cur = {"name": m.group(1), "text": m.group(2)}
+            lines.append(cur)
+        elif cur and st and not st.startswith(("- ", "* ", "#", "|", ">", "**")) and not re.match(r"\d+\. ", st):
+            cur["text"] += " " + st
+        else:
+            cur = None
+    return [{"name": l["name"], "text": plain(l["text"])[:900]} for l in lines if l["text"].strip()]
+
+
+def essence(text):
+    """The memo's own result line: the paragraph after 'Result.', 'The finding.', '## Answer', and so on."""
+    return _essence(text, ESSENCE) or _essence(text, ESSENCE2)
+
+
+def _essence(text, rx):
+    lines = text.split("\n")
+    for i, l in enumerate(lines):
+        m = rx.match(l.strip())
+        if not m:
+            continue
+        rest = next((g for g in m.groups() if g), "").strip()
+        para, j = [rest] if rest else [], i + 1
+        while j < len(lines) and not para and not lines[j].strip():
+            j += 1
+        while j < len(lines) and lines[j].strip() and not lines[j].startswith(("#", "|")):
+            para.append(re.sub(r"^\s*(?:[-*]|\d+\.)\s+", "", lines[j]).strip())
+            if lines[j + 1:j + 2] and re.match(r"\s*(?:[-*]|\d+\.)\s", lines[j + 1]):
+                break  # a list: its first item is the point
+            j += 1
+        if para:
+            body = " ".join(para)
+            flag = " (Corrected later; see the memo.)" if re.search(r"\[(?:Window|Corrected|Archive) \d[^\]]*(?:FALSE|false|wrong|[Cc]orrect)", body) else ""
+            return first_sentences(re.sub(r"\*\*\[[^\]]*\]\*\*|\[(?:Window|Corrected|Archive) \d[^\]]*\]", "", body)) + flag
+    return ""
+
+
+def sources(text):
+    """Bullets under a 'What we read' / 'Sources' / 'Read' heading."""
+    m = re.search(r"^#+ (?:What we read|Sources?|Read|Reading)[^\n]*\n(.*?)(?=\n#|\Z)", text, re.M | re.S)
+    if not m:
+        return []
+    items = re.findall(r"^- (.+(?:\n  .+)*)", m.group(1), re.M)
+    return [first_sentences(i, 1, 220) for i in items][:8]
+
+
+def plain_words(day):
+    """keel/today/<day>.md: '## For Caplet' and '## In plain words' bullets ('- **Room:** text ([memo](path))')."""
+    f = KEEL / "today" / f"{day}.md"
+    if not f.exists():
+        return {}, []
+    text = f.read_text(encoding="utf-8")
+    out = {}
+    for sec in ("For Caplet", "In plain words"):
+        m = re.search(rf"^## {sec}[^\n]*\n(.*?)(?=\n## |\Z)", text, re.M | re.S)
+        items = []
+        for b in re.findall(r"^- (.+(?:\n  .+)*)", m.group(1), re.M) if m else []:
+            who = re.match(r"\*\*(.+?):?\*\*:?\s*", b)
+            link = re.search(r"\]\(([^)]+)\)", b)
+            href = posixpath.normpath(posixpath.join("keel/today", link.group(1))) if link else ""
+            body = re.sub(r"\s*\(\[[^\]]+\]\([^)]*\)\)\s*$", "", b[who.end():] if who else b)
+            items.append({"who": who.group(1).rstrip(":") if who else "", "text": plain(body), "href": href})
+        out[sec] = items
+    return out, [f.relative_to(ROOT).as_posix()]
+
+
+def huddles(day):
+    """keel/huddles/<day>_<slug>/ (huddle.json, transcript.md, research/*.md, todo.md), written by the culture thread."""
+    out = []
+    for d in sorted((KEEL / "huddles").glob(f"{day}_*")) if (KEEL / "huddles").exists() else []:
+        meta = {}
+        try:
+            meta = json.loads((d / "huddle.json").read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            pass
+        tr = d / "transcript.md"
+        todo = (d / "todo.md").read_text(encoding="utf-8") if (d / "todo.md").exists() else ""
+        out.append({"path": tr.relative_to(ROOT).as_posix() if tr.exists() else "",
+                    "title": scrub(meta.get("title") or d.name.split("_", 1)[-1].replace("-", " ")),
+                    "essence": scrub(meta.get("essence", "") if isinstance(meta.get("essence"), str) else " ".join(meta.get("essence") or [])),
+                    "lines": dialogue(tr.read_text(encoding="utf-8")) if tr.exists() else [],
+                    "research": [{"path": r.relative_to(ROOT).as_posix(), "title": scrub(title_of(r.read_text(encoding="utf-8"), r.name)),
+                                  "text": essence(r.read_text(encoding="utf-8")) or first_sentences(r.read_text(encoding="utf-8").split("\n", 1)[-1], 1)}
+                                 for r in sorted((d / "research").glob("*.md"))] if (d / "research").exists() else [],
+                    "done": [plain(t) for t in re.findall(r"^\s*- \[[xX]\] (.+)$", todo, re.M)],
+                    "open": [plain(t) for t in re.findall(r"^\s*- \[ \] (.+)$", todo, re.M)]})
+    return out
+
+
+def loop_round(day):
+    """keel/loop/rounds/<day>.md: the day's research round (question, champion, lens, scouts)."""
+    f = KEEL / "loop/rounds" / f"{day}.md"
+    if not f.exists():
+        return {}
+    t = f.read_text(encoding="utf-8")
+    get = lambda k: plain(m.group(1)) if (m := re.search(rf"^\s*- \*\*{k}:\*\*\s*(.+)$", t, re.M)) and "<" not in m.group(1)[:2] else ""
+    beats = [plain(h) for h in re.findall(r"^## \d+\. (.+)$", t, re.M)]
+    return {"path": f.relative_to(ROOT).as_posix(), "question": get("Question"), "champion": get("Champion to beat"),
+            "lens": get("Lens"), "scouts": get("Scouts"), "beats": beats}
+
+
+def board_done():
+    rows = bd.table(bd.read("pm/BOARD.md").split("## Done", 1)[-1], "ID")
+    return [{"day": iso_day(r.get("Done", "")), "text": plain(r.get("Task", "")), "who": plain(r.get("Owner", "")),
+             "id": r.get("ID", "")} for r in rows if iso_day(r.get("Done", ""))]
+
+
+def orders_done():
+    out = []
+    for f in ("ips_rewrite/WORK_ORDERS.md", "office/WORK_ORDERS.md", "pm/WORK_ORDERS.md"):
+        for line in bd.read(f).splitlines():
+            c = [x.strip() for x in line.strip().strip("|").split("|")]
+            if len(c) >= 5 and re.match(r"(WO|SD)-", c[0]) and c[-1].lower().startswith("done"):
+                out.append({"day": iso_day(c[-1]), "text": f"{c[0]}: {first_sentences(c[2], 1, 200)}", "who": plain(c[1]), "id": c[0]})
+    return [o for o in out if o["day"]]
+
+
+def thinking():
+    f = KEEL / "ips_rewrite/THINKING_LOG.md"
+    if not f.exists():
+        return []
+    out = []
+    for m in re.finditer(r"^## ((?:Mon|Tue|Wed|Thu|Fri|Sat|Sun) \d{1,2} \w{3})[^:\n]*: ([^\n]+)\n(.*?)(?=\n## |\Z)", f.read_text(encoding="utf-8"), re.M | re.S):
+        body = "\n".join(l for l in m.group(3).split("\n") if not l.lstrip().startswith(("|", "```")))
+        out.append({"day": iso_day(m.group(1)), "title": plain(m.group(2)), "text": first_sentences(body, 2, 300)})
+    return out
+
+
+def new_research_files():
+    log = git("log", "--diff-filter=A", "--format=%x1e%cI", "--name-only", "HEAD", "--remotes=origin/claude/*", "--",
+              "keel/library", "keel/rooms/lab", "keel/rooms/lauras_room", "keel/ips_rewrite/research")
+    out, when, seen = [], "", set()
+    for line in log.split("\n"):
+        if line.startswith("\x1e"):
+            when = dt.datetime.fromisoformat(line[1:].strip()).astimezone(SYD).date().isoformat()
+        elif line.endswith(".md") and line not in seen and "/inbox/" not in line:
+            seen.add(line)
+            out.append({"day": when, "path": line})
+    return out
+
+
+def days(ms, cs, rooms, known, titles):
+    """One entry per Sydney day: plain words, conversations, research, done, IPS thinking."""
+    texts = {m["path"]: (ROOT / m["path"]).read_text(encoding="utf-8") for m in ms}
+    meet = {p: (ROOT / p).read_text(encoding="utf-8") for p in known if p.startswith("keel/meetings/")}
+    done, think, files = board_done() + orders_done(), thinking(), new_research_files()
+    calls = [{"day": d.get("iso", ""), "room": r["id"], "text": first_sentences(re.sub(r"^\w{3} \d{1,2} \w{3}:\s*", "", d["text"]), 1, 200)}
+             for r in rooms for d in r["decisions"]]
+    keys = {m["date"] for m in ms} | {re.match(r"keel/meetings/(\d{4}-\d{2}-\d{2})", p).group(1) for p in meet}
+    keys |= {f.stem for f in (KEEL / "today").glob("2026-*.md")} if (KEEL / "today").exists() else set()
+    keys |= {d.name[:10] for d in (KEEL / "huddles").glob("2026-*")} if (KEEL / "huddles").exists() else set()
+    keys |= {t["day"] for t in think} | {d["day"] for d in done}
+    keys |= {f.stem for f in (KEEL / "loop/rounds").glob("2026-*.md")} if (KEEL / "loop/rounds").exists() else set()
+    out = []
+    for day in sorted((k for k in keys if k and k >= "2026-10-18"), reverse=True):
+        dm = [m for m in ms if m["date"] == day]
+        words, today_doc = plain_words(day)
+        hs = huddles(day)
+        talks = [{"kind": "Huddle", "title": h["title"], "path": h["path"], "room": "", "lines": h["lines"], "essence": h["essence"]}
+                 for h in hs if h["lines"]]
+        for p, t in sorted(meet.items()):
+            if p.startswith(f"keel/meetings/{day}") and len(dialogue(t)) >= 2:
+                talks.append({"kind": "Meeting", "title": scrub(title_of(t, p)), "path": p, "room": "long_room", "lines": dialogue(t), "essence": essence(t)})
+        for m in dm:
+            ls = dialogue(texts[m["path"]])
+            if len({l["name"] for l in ls}) >= 2:
+                talks.append({"kind": "Memo", "title": m["title"], "path": m["path"], "room": m["room"], "lines": ls, "essence": essence(texts[m["path"]])})
+        research = [{"title": m["title"], "path": m["path"], "room": m["room"], "text": essence(texts[m["path"]]),
+                     "sources": sources(texts[m["path"]])} for m in dm if m["room"] in RESEARCH_ROOMS]
+        research += [{**r, "room": "", "sources": []} for h in hs for r in h["research"]]
+        auto = [{"who": roomById_name(rooms, m["room"]), "href": m["path"],
+                 "text": essence(texts[m["path"]]) or re.sub(r"^[^:]{0,70}\b20\d\d\b[^:]{0,40}: ", "", m["title"])} for m in dm]
+        out.append({
+            "day": day,
+            "for_caplet": words.get("For Caplet", []),
+            "plain": words.get("In plain words") or auto,
+            "plain_auto": not words.get("In plain words"),
+            "today_doc": today_doc[0] if today_doc else "",
+            "talks": talks,
+            "research": research,
+            "files": [{"path": f["path"], "title": titles.get(f["path"], f["path"].split("/")[-1])} for f in files if f["day"] == day][:12],
+            "done": [d for d in done if d["day"] == day] + [{"text": t, "who": h["title"], "id": ""} for h in hs for t in h["done"]],
+            "open": [{"text": t, "who": h["title"]} for h in hs for t in h["open"]],
+            "calls": [c for c in calls if c["day"] == day],
+            "ips": [t for t in think if t["day"] == day],
+            "round": loop_round(day),
+            "memos": len(dm),
+            "commits": sum(1 for c in cs if dt.datetime.fromisoformat(c["at"]).astimezone(SYD).date().isoformat() == day),
+        })
+    return out
+
+
+def roomById_name(rooms, rid):
+    return next((r["name"] for r in rooms if r["id"] == rid), rid.replace("_", " ").title() if rid else "Keel")
 
 
 # ---------- assemble ----------
@@ -421,6 +654,7 @@ def main():
         "changes": of("change"), "asks": of("ask"), "instructions": of("instruction"),
         "ips": ips_versions(), "commits": cs, "runlog": rl, "memos": ms, "episodes": episodes(), "docs": docs,
         "bible": bible(),
+        "days": days(ms, cs, rooms, known, titles),
     }
     data = json.loads(scrub(json.dumps(data, ensure_ascii=False)))
     (out / "data.js").write_text("window.KEEL = " + json.dumps(data, ensure_ascii=False) + ";\n", encoding="utf-8")
