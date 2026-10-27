@@ -64,3 +64,16 @@ IMPORTANT DATES
   Treasury ETF named for the Jan 2033 re-match must also be WInS-listed (UNVERIFIED which ones).
 - "Explain why each investment belongs in your strategy" is an official tip; the form text says to focus on the
   framework rather than individual investments. Both can hold: each holding gets its job in a clause.
+
+## In Sydney time (AEDT, UTC+11; US clocks go back Sun 1 Nov, so ET is UTC-5 for all three)
+| What | ET (official) | Sydney |
+|---|---|---|
+| IPS due (SurveyMonkey Apply form, not a PDF); trading ends, portfolio final | Fri 6 Nov, 5:00 p.m. | **Sat 7 Nov, 09:00** |
+| Final Report instructions posted | Mon 9 Nov, 9:00 a.m. | **Tue 10 Nov, 01:00** |
+| Final Report + school documentation due | Fri 4 Dec, 5:00 p.m. | **Sat 5 Dec, 09:00** |
+
+The U.S. market itself closes at 4:00 p.m. ET, so the last possible fill is Sat 7 Nov 08:00 Sydney, an hour before the
+portfolio is final (WInS session window, `keel/WORLD.md`).
+
+Corrections made the same day: the portal had the Final Report instructions at 5 p.m. ET, and `../../COMPETITION.md`
+had trading ending at 4 p.m. ET (the market close). Both fixed; `keel/BIBLE.md` holds this email as Book 6.
