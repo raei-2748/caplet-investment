@@ -493,3 +493,17 @@ My one correction to R11: L3's "one forecast in sixteen years" overclaims (coupo
 forecast). "One market forecast that matters" is true.
 Next: the synthesis (`01_SYNTHESIS.md`): central idea, the order of beats, which bank rows the IPS carries and which
 go to the Final Report, then a draft.
+
+## Wed 28 Oct, Day 3: V26 checked against the rivals-and-panel brief; V27
+The Day 3 routine's list was mostly done overnight (WO-R8, R9, the 2033 re-match sizing in R10, the R decision, every
+concept placed in the idea bank). Its "no prose" line is superseded by Book 9. What the day added:
+- **A rule risk in V26:** the 2033 set-aside went "into Treasury bills", and the Week-2 email says direct T-bills are
+  out. Now "the shortest Treasuries" (a short Treasury bond or Treasury ETF on WInS).
+- **"VT" named** where Book 7 wants a framework: now "a world index fund".
+- **Articulation:** V25 scored 5-7 for having no team story. The real one, on file since 27 Sep: our first plan was
+  about three-quarters stocks and the model had it missing cheques. One sentence, flagged for a student to confirm.
+- **The ending:** the panel said "Do not crush" answers none of Wharton's points. V27 keeps it, but ends on the stakes:
+  ten Januaries for certain, a building built on money Laura already owns. That is the birthday rule said as an outcome.
+- **The risk I'm watching:** V26/V27 dropped two of V25's winning lines (the break point in numbers; the protected note)
+  to make room for the birthday rule and the four-failure inventory. A blind panel (V25, V27 and three rivals; three
+  judges) is running to see whether that trade was right.
