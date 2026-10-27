@@ -19,6 +19,7 @@ fix is to find the idea first; the sentences follow.
 | [`07_ideas_from_reading.md`](07_ideas_from_reading.md) | Eleven ideas the reading turned up, with Keel's call on each |
 | [`01_digest_ahaan.md`](01_digest_ahaan.md) | Ahaan's asks split one by one, graded honestly; a correction (the essays are his); where Keel disagrees |
 | [`04_patterns.md`](04_patterns.md) | The pattern library: openings, arguments, numbers, wit, turns, endings, spending rules |
+| [`reading/LOG.md`](reading/LOG.md) | **The reading log (Ray, 27 Oct: 500 to 1,000 pieces, read for voice, not content)**: every piece with its opening, best and closing lines, craft and one move to steal, plus a strand on pitches and speeches (emotional appeal). Live count at the top |
 | [`02_reading_notes.md`](02_reading_notes.md) | What each writer does, with short verified quotes and sources |
 | [`fingerprint.py`](fingerprint.py) | Measures how prose moves (rhythm, numbers, asides, symmetry). Ahaan's essays are a private project file, never in the repo |
 
