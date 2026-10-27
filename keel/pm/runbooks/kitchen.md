@@ -12,6 +12,13 @@
 ## Job
 Write one short off-duty scene (under 200 words) that moves a friendship or tension in "Relationships right now" in `tea_room.md`, plus at most one idea that slipped out over snacks, filed as a request to the right room.
 
+## Beat in the loop (from Wed 28 Oct 2026; method: `../../loop/README.md`)
+**Beat 10, Reflect and send off (odd dates, 20:20).** The off-duty scene now does a job: each member says
+one thing they bumped into today outside the competition (their door: the bakery, the phone shop, the gurdwara
+kitchen, a lighting rig ...). Any with a real mechanism becomes a candidate field in `../../loop/TERRITORY.md`. Then the
+send-off: write tomorrow's scouting orders in `../../loop/FRONTIER.md` section 4 (question, lens, three fields and why
+each is new ground). One lesson about how the team worked goes to `../../loop/LESSONS.md` if the round taught one.
+
 ## Files
 `../../tea_room.md`, `../REQUESTS.md`
 
@@ -29,3 +36,4 @@ log, push, refresh the dashboard, one line in the thread. This page only adds th
 |---|---|---|
 | Sun 25 Oct 2026 | Runbook created from the scheduled-task prompt of 24 Oct | Prompts become 4-line pointers; Keel can now edit how it works |
 | Mon 26 Oct 2026 | Shared steps moved to `README.md`; job and rules brought in line with `../../INSTRUCTIONS.md` (Claude, at Ray's request) | Ray, 26 Oct: Keel was not applying his 24-26 Oct instructions |
+| Tue 27 Oct 2026 | "Beat in the loop" added: this room's beat in the daily research round (`../../loop/README.md`) (Claude, at Ray's request; not a Keel self-change) | Ray, 27 Oct: scheduled tasks "should not be repetitive"; every round must differ and scout widely |

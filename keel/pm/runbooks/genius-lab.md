@@ -17,6 +17,15 @@ the binned list. Every idea is a scalpel: it maps a real mechanism of Laura's pl
 serves a judging criterion, and survives Kai's roast and a test (hypothesis -> roast -> test -> result -> verdict
 adopt/park/bin; failures kept).
 
+## Beat in the loop (from Wed 28 Oct 2026; method: `../../loop/README.md`)
+**Beat 5, Come back (13:40): connect and build.** Lay every verified find against today's question and
+the champion. Force pairings: find x question, find x find, find x a stepping stone in `../../loop/FRONTIER.md` section 3,
+find x a binned idea. Write at least three challengers; run the novelty check on each (`../../IDEAS.md`, the lab book,
+the Library's slips, R02, R05, the frontier, the binned list) and drop or declare as a "return" any near-duplicate.
+Test the strongest in the model or against the case (hypothesis, Kai's roast, test, number with basis and date, MODEL
+label, verdict). The builder never judges their own challenger. Open work orders to the Lab (e.g. WO-R8) are done here,
+inside the round, when Nora folds them in.
+
 ## Files
 lab book `../../rooms/lab.md` (charter at the top), write-ups `../../rooms/lab/`, bench `../../scripts/`
 
@@ -36,3 +45,4 @@ log, push, refresh the dashboard, one line in the thread. This page only adds th
 |---|---|---|
 | Sun 25 Oct 2026 | Runbook created from the scheduled-task prompt of 24 Oct | Prompts become 4-line pointers; Keel can now edit how it works |
 | Mon 26 Oct 2026 | Shared steps moved to `README.md`; job and rules brought in line with `../../INSTRUCTIONS.md` (Claude, at Ray's request) | Ray, 26 Oct: Keel was not applying his 24-26 Oct instructions |
+| Tue 27 Oct 2026 | "Beat in the loop" added: this room's beat in the daily research round (`../../loop/README.md`) (Claude, at Ray's request; not a Keel self-change) | Ray, 27 Oct: scheduled tasks "should not be repetitive"; every round must differ and scout widely |

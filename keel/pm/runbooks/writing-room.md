@@ -17,6 +17,12 @@ then turn, a dry kicker, concrete numbers, rhetorical turns). Cut the way people
 reshuffle words shorter. Then a cold read (a subagent that has not seen the draft) picks the version it remembers.
 Results go to the rewrite inbox as suggestions.
 
+## Beat in the loop (from Wed 28 Oct 2026; method: `../../loop/README.md`)
+**Beat 7, Work: make it comparable (16:20).** Put each surviving challenger beside the champion it
+wants to beat: the claim in at most 15 plain words, then what changes for the judge if it wins. While prose is paused
+for the voice study (Ray, 27 Oct, `../../ips_rewrite/THINKING_LOG.md`), write claims, not finished lines; once the voice
+thread's guide lands, add the line in Ray's voice. Project P06 continues on whatever is promoted.
+
 ## Files
 `../../VOICE.md`, `../../drafts/`, `../../office/tools/textcheck.py`
 
@@ -36,3 +42,4 @@ log, push, refresh the dashboard, one line in the thread. This page only adds th
 |---|---|---|
 | Sun 25 Oct 2026 | Runbook created from the scheduled-task prompt of 24 Oct | Prompts become 4-line pointers; Keel can now edit how it works |
 | Mon 26 Oct 2026 | Shared steps moved to `README.md`; job and rules brought in line with `../../INSTRUCTIONS.md` (Claude, at Ray's request) | Ray, 26 Oct: Keel was not applying his 24-26 Oct instructions |
+| Tue 27 Oct 2026 | "Beat in the loop" added: this room's beat in the daily research round (`../../loop/README.md`) (Claude, at Ray's request; not a Keel self-change) | Ray, 27 Oct: scheduled tasks "should not be repetitive"; every round must differ and scout widely |

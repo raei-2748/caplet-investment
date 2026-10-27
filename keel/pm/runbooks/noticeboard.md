@@ -12,6 +12,17 @@
 ## Job
 Nora runs `../LOOP.md`: groom the board, pick the single highest-value piece of work Keel owns (an open request to the Noticeboard first, then the best card by Impact x Urgency, which may be Keel's own new idea), do it in one page, file or close requests, propose up to 3 cards. Then the morning brief and the day's short episode.
 
+## Beat in the loop (from Wed 28 Oct 2026; method: `../../loop/README.md`)
+**Beat 1, Gather (07:00).** Before the board and the brief: copy `../../loop/rounds/TEMPLATE.md` to
+`../../loop/rounds/YYYY-MM-DD.md` and fill section 1. Start from last night's send-off (`../../loop/FRONTIER.md` section
+4) and change it if a better question has appeared overnight. Pick the question (most IPS lift for the least-explored
+ground), the champion to beat (`../../loop/CHAMPIONS.md`), a lens not drawn in five rounds (`../../loop/LENSES.md`), three
+scouts and their fields (`../../loop/TERRITORY.md`: near, adjacent, far; the rotation table), the flaw-hunter, the cold
+judge and the builder; name the lesson the plan obeys (`../../loop/LESSONS.md`, last ten). Fold today's open work orders
+and requests into the round where they fit (as the question, a scout's brief or the builder's test). Tick the
+difference test; if a box can't be ticked, change the plan, never "same as yesterday". The brief's second line is
+today's round in one sentence (question, three fields) with its portal link.
+
 ## Files
 `../BOARD.md`, `../STANDUP.md`, `../REQUESTS.md`, `../ASK_HUMANS.md`, `../../office/outbox/`, `../../episodes/`
 
@@ -31,3 +42,4 @@ log, push, refresh the dashboard, one line in the thread. This page only adds th
 |---|---|---|
 | Sun 25 Oct 2026 | Runbook created from the scheduled-task prompt of 24 Oct | Prompts become 4-line pointers; Keel can now edit how it works |
 | Mon 26 Oct 2026 | Shared steps moved to `README.md`; job and rules brought in line with `../../INSTRUCTIONS.md` (Claude, at Ray's request) | Ray, 26 Oct: Keel was not applying his 24-26 Oct instructions |
+| Tue 27 Oct 2026 | "Beat in the loop" added: this room's beat in the daily research round (`../../loop/README.md`) (Claude, at Ray's request; not a Keel self-change) | Ray, 27 Oct: scheduled tasks "should not be repetitive"; every round must differ and scout widely |
