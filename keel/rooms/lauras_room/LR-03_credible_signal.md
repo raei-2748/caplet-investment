@@ -18,7 +18,7 @@ the way economists test a signal: is it **costly**, **verifiable** and **committ
   a university capital campaign field experiment: "Increasing seed money from 10 percent to 67 percent of the campaign
   goal produced a nearly sixfold increase in contributions"; a refund promise raised giving "a more modest 20 percent".
   (Abstract, poverty-action.org publication page, read 26 Oct.)
-- **That a lead commitment exists matters more than its size.** Karlan & List (2007, *American Economic Review*):
+- **[Laura's Room 27 Oct: the heading below is WRONG on the evidence (Window N2). The SIZE of a committed lead matters (seed study above); only the match RATIO doesn't. Corrected and priced in `LR-04_price_of_a_margin.md`.]** **That a lead commitment exists matters more than its size.** Karlan & List (2007, *American Economic Review*):
   announcing a match "increases the revenue per solicitation by nineteen percent" and the chance to give "by 22
   percent", but "larger match ratios (2:1 and 3:1) relative to smaller match ratios (1:1) have no additional impact".
   (J-PAL evaluation page, read 26 Oct.)
@@ -35,7 +35,7 @@ the way economists test a signal: is it **costly**, **verifiable** and **committ
 | **Costly** | Locking ~$145k into a single-purpose holding gives up flexibility she values (:102-103). | Honest catch: if the residency fails she keeps the bond, so the floor is only costly once it is *pledged*. |
 
 ## 4. The finding (for the synthesis memo)
-**The bottom of the range does the signalling; the top does almost none.** Field evidence says donors respond to the
+**[27 Oct: corrected in LR-04: the bottom signals and its size counts; the top is untested, so it is a credibility risk, not a signal.]** **The bottom of the range does the signalling; the top does almost none.** Field evidence says donors respond to the
 existence of a committed lead amount, not its size, so stretching the top buys little and is the only part that can
 break Laura's credibility. The plan should treat the floor as spoken for from 2031 (never a reserve of last resort),
 pay coupon gaps from dedication and the 2028 deposit instead, and present the top as a rule, not a promise.
