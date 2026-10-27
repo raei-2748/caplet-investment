@@ -1,0 +1,206 @@
+{
+ "stamp": "22 Oct 2026 curve; 7.5% world stocks (J.P. Morgan 2027); 200,000 paths; MODEL",
+ "V25_headline": {
+  "ladder_headroom": -224,
+  "p_ladder_over_300k_on_1jan2027": 0.469,
+  "gift_2033": {
+   "p5": 136842,
+   "p50": 165528,
+   "p95": 182231,
+   "mean": 163286
+  },
+  "range_2031": {
+   "bottom_p50": 145000,
+   "bottom_mode_share_145k": 0.565,
+   "top_p5": 139235,
+   "top_p50": 166292,
+   "top_p95": 183131,
+   "width_p50": 24449
+  },
+  "p_gift_inside_range": 0.9925,
+  "p_gift_at_top_within_1k": 0.767,
+  "post2033_shortfall": {
+   "p95": 5462,
+   "p99": 7146,
+   "p_exceeds_what_laura_kept": 0.0767,
+   "p_exceeds_kept_if_kept_in_VT_to_2042": 0.0677,
+   "median_uncovered_when_it_happens": 3154
+  },
+  "laura_kept_2033": {
+   "p5": 0,
+   "p50": 24073
+  }
+ },
+ "K1_stock_share_median": {
+  "2028": 0.046,
+  "2029": 0.049,
+  "2030": 0.052,
+  "2031": 0.055,
+  "2032": 0.059,
+  "2033": 0.051,
+  "2034": 0.061,
+  "2035": 0.073,
+  "2036": 0.089,
+  "2037": 0.112,
+  "2038": 0.144,
+  "2039": 0.194,
+  "2040": 0.278,
+  "2041": 0.452,
+  "2042": 1.0
+ },
+ "K2_checkpoints": {
+  "jan2027_ladder_costs_more_than_300k": 0.469,
+  "jan2027_gap_p50_when_short": 9758,
+  "jan2028_gap_left_after_150k_deposit": 0.0,
+  "jan2033_coupon_gap_over_1k": 0.468,
+  "jan2033_gap_p95": 22055,
+  "jan2033_gap_covered_by_leftover_plus_lauras_half": 0.9296
+ },
+ "K3_ratchet": {
+  "V25": {
+   "bottom": {
+    "p5": 120000,
+    "p50": 145000,
+    "mean": 138922
+   },
+   "top": {
+    "p5": 139235,
+    "p50": 166292,
+    "mean": 164430
+   },
+   "gift": {
+    "p5": 136842,
+    "p50": 165528,
+    "mean": 163286
+   },
+   "p_top_within_1k": 0.767,
+   "p_below_bottom": 0.0075,
+   "width_p50": 24449
+  },
+  "ratchet": {
+   "bottom": {
+    "p5": 120000,
+    "p50": 145000,
+    "mean": 141366
+   },
+   "top": {
+    "p5": 139391,
+    "p50": 166508,
+    "mean": 164563
+   },
+   "gift": {
+    "p5": 137006,
+    "p50": 165821,
+    "mean": 163515
+   },
+   "p_top_within_1k": 0.774,
+   "p_below_bottom": 0.0081,
+   "width_p50": 22958,
+   "p_bottom_raised_5k_plus": 0.421
+  }
+ },
+ "K4_rivals_dep28_150k": {
+  "60/40 total return": {
+   "p_miss_any_payment": 0.1828,
+   "contribution_2033": {
+    "p5": 0,
+    "p50": 203177,
+    "p95": 521618
+   },
+   "p_contribution_zero": 0.061,
+   "left_after_2042_p50": 118665
+  },
+  "glide 70 -> 30": {
+   "p_miss_any_payment": 0.0863,
+   "contribution_2033": {
+    "p5": 295,
+    "p50": 197907,
+    "p95": 483869
+   },
+   "p_contribution_zero": 0.05,
+   "left_after_2042_p50": 91329
+  },
+  "three buckets (3 yrs in bills)": {
+   "p_miss_any_payment": 0.1144,
+   "contribution_2033": {
+    "p5": 13245,
+    "p50": 194147,
+    "p95": 450882
+   },
+   "p_contribution_zero": 0.037,
+   "left_after_2042_p50": 100420
+  },
+  "barbell 90/10": {
+   "p_miss_any_payment": 0.0169,
+   "contribution_2033": {
+    "p5": 90924,
+    "p50": 151740,
+    "p95": 215830
+   },
+   "p_contribution_zero": 0.0,
+   "left_after_2042_p50": 62184
+  },
+  "all bond fund (immunise-ish)": {
+   "p_miss_any_payment": 0.041,
+   "contribution_2033": {
+    "p5": 86792,
+    "p50": 138826,
+    "p95": 189906
+   },
+   "p_contribution_zero": 0.0,
+   "left_after_2042_p50": 56189
+  }
+ },
+ "K4_rivals_dep28_75k": {
+  "60/40 total return": {
+   "p_miss_any_payment": 0.2263,
+   "contribution_2033": {
+    "p5": 0,
+    "p50": 99117,
+    "p95": 373193
+   },
+   "p_contribution_zero": 0.21,
+   "left_after_2042_p50": 102070
+  },
+  "glide 70 -> 30": {
+   "p_miss_any_payment": 0.1479,
+   "contribution_2033": {
+    "p5": 0,
+    "p50": 95043,
+    "p95": 344292
+   },
+   "p_contribution_zero": 0.202,
+   "left_after_2042_p50": 80366
+  },
+  "three buckets (3 yrs in bills)": {
+   "p_miss_any_payment": 0.1594,
+   "contribution_2033": {
+    "p5": 0,
+    "p50": 91577,
+    "p95": 311462
+   },
+   "p_contribution_zero": 0.186,
+   "left_after_2042_p50": 89240
+  },
+  "barbell 90/10": {
+   "p_miss_any_payment": 0.0189,
+   "contribution_2033": {
+    "p5": 3721,
+    "p50": 55355,
+    "p95": 106717
+   },
+   "p_contribution_zero": 0.039,
+   "left_after_2042_p50": 61513
+  },
+  "all bond fund (immunise-ish)": {
+   "p_miss_any_payment": 0.0449,
+   "contribution_2033": {
+    "p5": 2219,
+    "p50": 44482,
+    "p95": 81895
+   },
+   "p_contribution_zero": 0.043,
+   "left_after_2042_p50": 55709
+  }
+ }
+}
