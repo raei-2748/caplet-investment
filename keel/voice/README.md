@@ -13,7 +13,7 @@ fix is to find the idea first; the sentences follow.
 
 | Read in this order | What it is |
 |---|---|
-| [`06_voice_guide.md`](06_voice_guide.md) | **The guide Keel now writes with**: who is speaking, seven beliefs, the paragraph engine, ten laws with tests, register by deliverable, the plastic test |
+| [`06_voice_guide.md`](06_voice_guide.md) | **The guide Keel now writes with**: who is speaking, seven beliefs, the paragraph engine, ten laws with tests, register by deliverable, the read-aloud questions, the Shark Tank room, how humans cut |
 | [`03_why_plastic.md`](03_why_plastic.md) | The diagnosis, measured: Ahaan vs Keel's drafts vs the Genius Lab |
 | [`05_exercises.md`](05_exercises.md) | Ten practice pieces on Caplet's case (not IPS text) and what they taught, scored |
 | [`07_ideas_from_reading.md`](07_ideas_from_reading.md) | Eleven ideas the reading turned up, with Keel's call on each |
@@ -21,7 +21,8 @@ fix is to find the idea first; the sentences follow.
 | [`04_patterns.md`](04_patterns.md) | The pattern library: openings, arguments, numbers, wit, turns, endings, spending rules |
 | [`reading/LOG.md`](reading/LOG.md) | **The reading log (Ray, 27 Oct: 500 to 1,000 pieces, read for voice, not content)**: every piece with its opening, best and closing lines, craft and one move to steal, plus a strand on pitches and speeches (emotional appeal). Live count at the top |
 | [`02_reading_notes.md`](02_reading_notes.md) | What each writer does, with short verified quotes and sources |
-| [`fingerprint.py`](fingerprint.py) | Measures how prose moves (rhythm, numbers, asides, symmetry). Ahaan's essays are a private project file, never in the repo |
+| [`fingerprint.py`](fingerprint.py) | Retired as a judge (Ahaan, 27 Oct: voice is qualitative). Kept as an optional curiosity; its numbers decide nothing. Ahaan's essays are a private project file, never in the repo |
 
-**What happens next.** The IPS rewrite stays paused until its next draft is written to `06_voice_guide.md` and scored
-by `fingerprint.py`. The Writing Room's job becomes voice (law tests and the fingerprint), not word counts.
+**What happens next.** Drafting is open any time (Ahaan, 27 Oct); the near-final is ready for review by Sat 31 Oct.
+Drafts are written to `06_voice_guide.md` and judged by ear: read aloud, the guide's questions, a cold reader. No
+script or count is a gate.

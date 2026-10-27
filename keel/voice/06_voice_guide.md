@@ -63,17 +63,18 @@ Not every paragraph uses every step, but a paragraph that uses none is a fact sh
 | **Co-sponsor text (Final Report)** | Buffett plainness | Short sentences, no jokes about money that isn't ours, every number with its date. |
 | **Keel memos and lab notes** | Hands | The first paragraph is written for a judge (E08); stamps and seeds go below it. |
 
-## 5. The plastic test (read it aloud, then answer)
+## 5. The read-aloud questions (a quality check, never an AI detector)
 1. What is this piece's idea, in one sentence that is not a fact?
 2. Who disagrees, and did we let them speak?
-3. Is there one sentence over 30 words that builds, and a short one it earns?
+3. Does a sentence carry the reader along somewhere, and does a short one land the point?
 4. Which single number would a judge remember, and why that one?
 5. Is there a sentence only Caplet could have written? (Cover the team name: could any other team have said it?)
 6. Where did we spend a kicker, and was it worth it?
 7. Where does a judge *feel* something, and what put them there (a place, a person, a date, a cost we accept)? (sections 7-8)
-One "no" sends it back. **None of these is a reason to soften a true claim.** (Ahaan, 27 Oct night: voice is
-"fundamentally qualitative". `fingerprint.py` is no longer a judge; it may be run once, as a smoke alarm for prose
-that has gone flat, and its numbers never decide anything.)
+A "no" is a reason to rewrite, judged by a reader, not a rule. **None of these is a reason to soften a true claim.**
+(Ahaan, 27 Oct night, BIBLE Book 9 and rules 3 and 10: voice is "fundamentally qualitative". No gate counts words,
+sentences, ideas or numbers, and `fingerprint.py` decides nothing. Keel never judges whether its own prose "sounds
+AI": if AI-likeness is ever checked, a student pastes the text into a reputable web detector, once, briefly.)
 
 ## 6. What changed from `VOICE.md` and R03 (and why)
 | Old rule | Now | Why |
@@ -84,7 +85,7 @@ that has gone flat, and its numbers never decide anything.)
 | "Never: rhetorical questions" | Allowed once a piece, answered at once | Ahaan, Marks ("What's the downside?") and Graham all use them. |
 | "Abstract nouns doing the work" is an AI habit (R03 table) | Name the idea, then show the concrete thing | Keel took it too far: its drafts have a quarter of Ahaan's idea-words. Vague abstraction is the problem, not ideas. |
 | "Numbers: few" | The number that matters, felt; the rest to the Final Report | Drafts ran at 3 numbers per 100 words. |
-| Ban-list first (AI tells table) | Ban-list last, after the six questions | Ahaan, 24 Oct: AI-ness "transcends ... a neat list". |
+| Ban-list first (AI tells table) | No ban-list gate; the read-aloud questions only | Ahaan, 24 Oct: AI-ness "transcends ... a neat list". |
 | The essays called "Ray's" (R03, VOICE, BIBLE notes) | **Ahaan's** | Corrected 27 Oct (`01_digest_ahaan.md`, section 1). |
 
 ## 7. The room we're pitching to (Ray, 27 Oct: "Judges are not examiners ... judges are shark tanks")
