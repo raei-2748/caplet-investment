@@ -80,3 +80,18 @@ these is a reason to soften a true claim.**
 | "Numbers: few" | One per paragraph, felt, under 1.5 per 100 words | "Few" was never measured; drafts ran at 3 per 100. |
 | Ban-list first (AI tells table) | Ban-list last, after the six questions | Ahaan, 24 Oct: AI-ness "transcends ... a neat list". |
 | The essays called "Ray's" (R03, VOICE, BIBLE notes) | **Ahaan's** | Corrected 27 Oct (`01_digest_ahaan.md`, section 1). |
+
+## 7. The room we're pitching to (Ray, 27 Oct: "Judges are not examiners ... judges are shark tanks")
+Added by the rewrite thread. An examiner checks boxes; a Shark Tank investor decides in a minute whether to believe
+the founders. So every draft is also a pitch, with Shark Tank's five beats, all real and from the case:
+1. **The hook in the first line.** A claim they want to argue with ("We would rather buy them").
+2. **Stakes they can feel.** Not "funding reliability": a residency in Taiwan where artists, writers and educators
+   live and teach, and what a missed January would do to it, and to Laura's word to the people she asked to join
+   her. The case gives the emotion (her books began as an answer to misinformation and are read in classrooms);
+   use it in a clause, never invented, never sentimental.
+3. **Why this team.** One proof we did the work: a number we found ourselves or a mistake we fixed (the STRIPS plan,
+   killed on 6 Oct, real and dated).
+4. **The numbers, felt.** One per paragraph (law 4). Sharks remember the one number that settled it.
+5. **The ask, said with confidence.** End on what Laura can say in 2031, not on a summary.
+Test: would a shark lean forward at line one, and could they retell why they'd back us? Emotion serves the
+argument. It never replaces it, and it is aimed at the judges, not at Laura (Book 3: judges aren't mini-Lauras).

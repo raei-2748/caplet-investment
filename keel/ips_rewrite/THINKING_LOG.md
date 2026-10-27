@@ -336,3 +336,14 @@ new voice thread produces a voice guide. Ray also wants more initiative and orig
 open (8 met, 14 partly, 9 open, 9 ways of working, 1 on track). Work pushed to the office: WO-R8 (the Genius Lab must bring 5
 original, model-tested strategy ideas) and WO-R9 (the Courtroom audits the trace). The Wed plan drops the voice
 study (now the voice thread's job) and keeps strategy: the R, the 2033 re-match, the north-star-4 placement.
+
+## Tue 27 Oct, night: V25 sent to Ray; then "judges are shark tanks"
+V25 (`drafts/D5a/`, an assessment draft) is the first draft written to the voice guide and the two-box form. Ray's
+next note: it needs emotional appeal, because judges are sharks being pitched, not examiners. Reading V25 again with
+that eye, it argues but never makes anyone care. Laura appears as a set of cheques, and the residency (the whole point)
+gets one word. The Shark Tank beats (hook, stakes, why us, the number, the ask) are now section 7 of the voice guide.
+For the synthesis: put the residency's people in the stakes (the case names "artists, writers, designers,
+entrepreneurs, and educators" who "live, work, teach, and collaborate"); give Laura's word to co-sponsors a face
+(a missed January breaks a promise she made in person in 2031); add one real "why us" (the STRIPS plan we built and
+then killed when the rules changed on 6 Oct, to be confirmed by a student as told); end on the ask (what Laura can
+say in 2031), not on "do not crush". Ahaan's Book 3 still holds: the emotion is for the judges, not a pitch to Laura.
