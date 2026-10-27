@@ -1,0 +1,1633 @@
+{
+ "stamp": "curve 22 Oct 2026 | J.P. Morgan 2027 LTCMA global equities 7.5% compound, 16.78% vol | 50,000 paths per world | history: Shiller monthly 1871-2023 (US stocks stand in for world stocks) | seeds in gens.py",
+ "M1_price_of_certainty": {
+  "months": 1869,
+  "from": "1871-01",
+  "to": "2026-09",
+  "share_months_300k_buys_all_ten": 0.252,
+  "share_months_450k_buys_all_ten": 0.995,
+  "share_months_cheaper_than_today": 0.249,
+  "yield_needed_for_300k_pct": 5.02,
+  "dearest": {
+   "month": "2020-07",
+   "yield": 0.62,
+   "cost": 468607
+  },
+  "cheapest": {
+   "month": "1981-09",
+   "yield": 15.32,
+   "cost": 115915
+  },
+  "cost_at_2020_low": 468607,
+  "today_cost_bootstrap_22oct": 298861,
+  "share_by_decade": {
+   "1870": 0.46,
+   "1880": 0.0,
+   "1890": 0.0,
+   "1900": 0.0,
+   "1910": 0.0,
+   "1920": 0.06,
+   "1930": 0.0,
+   "1940": 0.0,
+   "1950": 0.0,
+   "1960": 0.28,
+   "1970": 1.0,
+   "1980": 1.0,
+   "1990": 0.95,
+   "2000": 0.23,
+   "2010": 0.0,
+   "2020": 0.0
+  }
+ },
+ "M1_named_histories": {
+  "named": {
+   "1873-01": {
+    "xr_gift": 164613,
+    "xr_bottom": 145000,
+    "xr_top": 164613,
+    "xr_payments_short": 0,
+    "6040_gift": 37924,
+    "6040_bottom": 31951,
+    "6040_payments_short": 0,
+    "lock_late_gift": 2851,
+    "lock_late_payments_short": 0
+   },
+   "1907-01": {
+    "xr_gift": 175896,
+    "xr_bottom": 145000,
+    "xr_top": 175896,
+    "xr_payments_short": 0,
+    "6040_gift": 130837,
+    "6040_bottom": 122630,
+    "6040_payments_short": 0,
+    "lock_late_gift": 243605,
+    "lock_late_payments_short": 0
+   },
+   "1929-01": {
+    "xr_gift": 155870,
+    "xr_bottom": 145000,
+    "xr_top": 155870,
+    "xr_payments_short": 0,
+    "6040_gift": 0,
+    "6040_bottom": 0,
+    "6040_payments_short": 0,
+    "lock_late_gift": 0,
+    "lock_late_payments_short": 167263
+   },
+   "1937-01": {
+    "xr_gift": 166546,
+    "xr_bottom": 145000,
+    "xr_top": 166546,
+    "xr_payments_short": 0,
+    "6040_gift": 0,
+    "6040_bottom": 19889,
+    "6040_payments_short": 0,
+    "lock_late_gift": 0,
+    "lock_late_payments_short": 53563
+   },
+   "1966-01": {
+    "xr_gift": 168829,
+    "xr_bottom": 145000,
+    "xr_top": 168829,
+    "xr_payments_short": 0,
+    "6040_gift": 114591,
+    "6040_bottom": 37392,
+    "6040_payments_short": 0,
+    "lock_late_gift": 202711,
+    "lock_late_payments_short": 0
+   },
+   "1973-01": {
+    "xr_gift": 171022,
+    "xr_bottom": 145000,
+    "xr_top": 171022,
+    "xr_payments_short": 0,
+    "6040_gift": 46670,
+    "6040_bottom": 72927,
+    "6040_payments_short": 0,
+    "lock_late_gift": 86470,
+    "lock_late_payments_short": 0
+   },
+   "1987-01": {
+    "xr_gift": 173671,
+    "xr_bottom": 140000,
+    "xr_top": 173671,
+    "xr_payments_short": 0,
+    "6040_gift": 299457,
+    "6040_bottom": 145514,
+    "6040_payments_short": 0,
+    "lock_late_gift": 466159,
+    "lock_late_payments_short": 0
+   },
+   "2000-01": {
+    "xr_gift": 162017,
+    "xr_bottom": 145000,
+    "xr_top": 162017,
+    "xr_payments_short": 0,
+    "6040_gift": 25756,
+    "6040_bottom": 24268,
+    "6040_payments_short": 0,
+    "lock_late_gift": 0,
+    "lock_late_payments_short": 12032
+   },
+   "2007-06": {
+    "xr_gift": 164191,
+    "xr_bottom": 145000,
+    "xr_top": 164191,
+    "xr_payments_short": 0,
+    "6040_gift": 119728,
+    "6040_bottom": 56070,
+    "6040_payments_short": 0,
+    "lock_late_gift": 0,
+    "lock_late_payments_short": 5764
+   }
+  },
+  "range_window_history": {
+   "starts": 1756,
+   "from": "1871-03",
+   "to": "2017-06",
+   "p_top_reached": 0.839,
+   "p_below_bottom": 0.0,
+   "worst_gift": 104632,
+   "worst_start": "2008-12",
+   "gift_p50": 168407
+  }
+ },
+ "M2_tails": {
+  "fit": {
+   "calm_monthly_mean": 0.0114,
+   "calm_monthly_sd": 0.0284,
+   "storm_monthly_mean": -0.0175,
+   "storm_monthly_sd": 0.0771,
+   "p_calm_to_storm": 0.0284,
+   "p_storm_to_calm": 0.1726,
+   "storm_share_of_months": 0.141,
+   "storm_avg_length_months": 5.8,
+   "yield_drift_bp_per_month_calm_storm": [
+    0.7,
+    -4.4
+   ],
+   "student_t_df_calm_storm": [
+    30.0,
+    5.4
+   ]
+  },
+  "lognormal": {
+   "stocks_5y_worst_1in100_pa": -0.095,
+   "xr_gift_p1": 125246,
+   "xr_gift_p5": 138799,
+   "xr_gift_p50": 165254,
+   "xr_gift_p1_over_bottom": -1686,
+   "6040_gift_p1": 0,
+   "6040_gift_p5": 0,
+   "6040_gift_p50": 159126,
+   "xr_p_short": 0.0205,
+   "6040_p_short": 0.0608
+  },
+  "regime": {
+   "stocks_5y_worst_1in100_pa": -0.141,
+   "xr_gift_p1": 123896,
+   "xr_gift_p5": 138044,
+   "xr_gift_p50": 165528,
+   "xr_gift_p1_over_bottom": -3980,
+   "6040_gift_p1": 0,
+   "6040_gift_p5": 0,
+   "6040_gift_p50": 164386,
+   "xr_p_short": 0.0214,
+   "6040_p_short": 0.0765
+  },
+  "bootstrap": {
+   "stocks_5y_worst_1in100_pa": -0.137,
+   "xr_gift_p1": 135591,
+   "xr_gift_p5": 153012,
+   "xr_gift_p50": 167846,
+   "xr_gift_p1_over_bottom": 9169,
+   "6040_gift_p1": 0,
+   "6040_gift_p5": 0,
+   "6040_gift_p50": 161160,
+   "xr_p_short": 0.0041,
+   "6040_p_short": 0.06
+  }
+ },
+ "M3_build_stress": {
+  "cost_22oct": 298861,
+  "headroom": 1139,
+  "dv01_per_bp": 296,
+  "headroom_bp": 3.8,
+  "gap_or_room_after_parallel_move": {
+   "-200bp": 65335,
+   "-100bp": 30223,
+   "-50bp": 14102,
+   "-25bp": 6375,
+   "-10bp": 1842,
+   "+10bp": -4086,
+   "+25bp": -8445,
+   "+50bp": -15552,
+   "+100bp": -29186
+  },
+  "twists_cost_change": {
+   "bull steepener (2y -50, 10y -25, 30y 0)": 6536,
+   "bull flattener (2y 0, 10y -25, 30y -50)": 8491,
+   "bear steepener (2y 0, 10y +25, 30y +50)": -8302,
+   "belly rally (5-10y -40, ends 0)": 9744
+  },
+  "key_rate_dollars_per_bp_fall": {
+   "5y": -5.9,
+   "7y": 48.3,
+   "10y": 199.5,
+   "20y": 72.9,
+   "30y": 0.0
+  },
+  "history_2month_moves_1953_2026": {
+   "n": 880,
+   "p_gap_opens": 0.418,
+   "one_in_20_fall_pp": -0.57,
+   "gap_at_one_in_20": 16410,
+   "worst_fall_pp": -2.78,
+   "worst_month": "2020-04",
+   "gap_at_worst": 95548,
+   "basis": "two-month GS10 moves scaled to today's 10-year level",
+   "absolute_moves_one_in_20_pp": -0.63,
+   "absolute_moves_gap_at_one_in_20": 18206
+  },
+  "v25_break_claim": {
+   "yields -0.5pp before the build": {
+    "gap_the_2028_deposit_must_fill": 14102,
+    "deposit_cut_that_breaks_a_cheque": "9% of $150k left"
+   },
+   "yields -1.0pp before the build": {
+    "gap_the_2028_deposit_must_fill": 30223,
+    "deposit_cut_that_breaks_a_cheque": "20% of $150k left"
+   },
+   "yields -1.5pp before the build": {
+    "gap_the_2028_deposit_must_fill": 47280,
+    "deposit_cut_that_breaks_a_cheque": "32% of $150k left"
+   },
+   "yields -2.0pp before the build": {
+    "gap_the_2028_deposit_must_fill": 65335,
+    "deposit_cut_that_breaks_a_cheque": "44% of $150k left"
+   },
+   "yields -2.5pp before the build": {
+    "gap_the_2028_deposit_must_fill": 84451,
+    "deposit_cut_that_breaks_a_cheque": "56% of $150k left"
+   },
+   "yields -3.0pp before the build": {
+    "gap_the_2028_deposit_must_fill": 104698,
+    "deposit_cut_that_breaks_a_cheque": "70% of $150k left"
+   }
+  }
+ },
+ "M4_inflation_fx": {
+  "us_real_lognormal": {
+   "cheque1_p50": 0.862,
+   "cheque10_p50": 0.691,
+   "cheque10_p5": 0.598,
+   "cheque10_p95": 0.798,
+   "ten_cheques_real_total_p50": 386815
+  },
+  "us_real_bootstrap": {
+   "cheque1_p50": 0.877,
+   "cheque10_p50": 0.727,
+   "cheque10_p5": 0.462,
+   "cheque10_p95": 1.163,
+   "ten_cheques_real_total_p50": 400959
+  },
+  "replay_1941-01": {
+   "cheque1": 0.656,
+   "cheque10": 0.526,
+   "ten_cheques_real_total": 281695
+  },
+  "replay_1966-01": {
+   "cheque1": 0.774,
+   "cheque10": 0.366,
+   "ten_cheques_real_total": 283858
+  },
+  "replay_1973-01": {
+   "cheque1": 0.624,
+   "cheque10": 0.368,
+   "ten_cheques_real_total": 225504
+  },
+  "replay_2007-06": {
+   "cheque1": 0.892,
+   "cheque10": 0.703,
+   "ten_cheques_real_total": 413647
+  },
+  "twd_nodrift_tw20": {
+   "cheque10_p5": 0.487,
+   "cheque10_p50": 0.749,
+   "cheque10_p95": 1.101,
+   "topup_needed_2033_p50": 93303,
+   "topup_needed_2033_p95": 298740,
+   "p_laura_kept_covers_topup": 0.209,
+   "p_kept_plus_above_bottom_covers_topup": 0.318
+  },
+  "twd_nodrift_tw35": {
+   "cheque10_p5": 0.391,
+   "cheque10_p50": 0.601,
+   "cheque10_p95": 0.885,
+   "topup_needed_2033_p50": 177296,
+   "topup_needed_2033_p95": 418323,
+   "p_laura_kept_covers_topup": 0.054,
+   "p_kept_plus_above_bottom_covers_topup": 0.103
+  },
+  "twd_drift_tw20": {
+   "cheque10_p5": 0.451,
+   "cheque10_p50": 0.694,
+   "cheque10_p95": 1.021,
+   "topup_needed_2033_p50": 120723,
+   "topup_needed_2033_p95": 337948,
+   "p_laura_kept_covers_topup": 0.139,
+   "p_kept_plus_above_bottom_covers_topup": 0.227
+  },
+  "twd_drift_tw35": {
+   "cheque10_p5": 0.362,
+   "cheque10_p50": 0.558,
+   "cheque10_p95": 0.82,
+   "topup_needed_2033_p50": 209836,
+   "topup_needed_2033_p95": 464692,
+   "p_laura_kept_covers_topup": 0.03,
+   "p_kept_plus_above_bottom_covers_topup": 0.062
+  },
+  "twd_history": {
+   "oct1983": 39.42,
+   "sep2026": 31.7381,
+   "annual_vol": 0.044,
+   "worst_10y_twd_rise_pct": -36.0,
+   "worst_10y_twd_fall_pct": 40.0
+  }
+ },
+ "M5_deposit": {
+  "lognormal": {
+   "0": {
+    "p_payment_short": 0.4928,
+    "gift_p5": 0,
+    "gift_p50": 0,
+    "gift_p95": 0,
+    "bottom_p50": 0,
+    "top_p50": 0,
+    "p_top_reached": 1.0,
+    "p_below_bottom": 0.0,
+    "p_ladder_unfilled": 0.4677,
+    "p_payment_short_with_trap": 0.4928
+   },
+   "12500": {
+    "p_payment_short": 0.2363,
+    "gift_p5": 0,
+    "gift_p50": 10551,
+    "gift_p95": 15041,
+    "bottom_p50": 5000,
+    "top_p50": 13557,
+    "p_top_reached": 0.7599,
+    "p_below_bottom": 0.0873,
+    "p_ladder_unfilled": 0.1535,
+    "p_payment_short_with_trap": 0.1833
+   },
+   "25000": {
+    "p_payment_short": 0.1239,
+    "gift_p5": 0,
+    "gift_p50": 25491,
+    "gift_p95": 30123,
+    "bottom_p50": 20000,
+    "top_p50": 27228,
+    "p_top_reached": 0.7163,
+    "p_below_bottom": 0.1418,
+    "p_ladder_unfilled": 0.0266,
+    "p_payment_short_with_trap": 0.0375
+   },
+   "37500": {
+    "p_payment_short": 0.0906,
+    "gift_p5": 9748,
+    "gift_p50": 39948,
+    "gift_p95": 45214,
+    "bottom_p50": 30000,
+    "top_p50": 40965,
+    "p_top_reached": 0.7151,
+    "p_below_bottom": 0.1179,
+    "p_ladder_unfilled": 0.0024,
+    "p_payment_short_with_trap": 0.0042
+   },
+   "50000": {
+    "p_payment_short": 0.0749,
+    "gift_p5": 24547,
+    "gift_p50": 53896,
+    "gift_p95": 60322,
+    "bottom_p50": 45000,
+    "top_p50": 54757,
+    "p_top_reached": 0.719,
+    "p_below_bottom": 0.0993,
+    "p_ladder_unfilled": 0.0002,
+    "p_payment_short_with_trap": 0.0004
+   },
+   "62500": {
+    "p_payment_short": 0.0638,
+    "gift_p5": 39287,
+    "gift_p50": 67793,
+    "gift_p95": 75434,
+    "bottom_p50": 55000,
+    "top_p50": 68584,
+    "p_top_reached": 0.7246,
+    "p_below_bottom": 0.0705,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0
+   },
+   "75000": {
+    "p_payment_short": 0.0546,
+    "gift_p5": 53852,
+    "gift_p50": 81715,
+    "gift_p95": 90556,
+    "bottom_p50": 70000,
+    "top_p50": 82450,
+    "p_top_reached": 0.7294,
+    "p_below_bottom": 0.0583,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0
+   },
+   "87500": {
+    "p_payment_short": 0.0461,
+    "gift_p5": 68205,
+    "gift_p50": 95625,
+    "gift_p95": 105683,
+    "bottom_p50": 80000,
+    "top_p50": 96352,
+    "p_top_reached": 0.7361,
+    "p_below_bottom": 0.0416,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0
+   },
+   "100000": {
+    "p_payment_short": 0.039,
+    "gift_p5": 82388,
+    "gift_p50": 109545,
+    "gift_p95": 120802,
+    "bottom_p50": 95000,
+    "top_p50": 110263,
+    "p_top_reached": 0.7406,
+    "p_below_bottom": 0.0338,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0
+   },
+   "112500": {
+    "p_payment_short": 0.0332,
+    "gift_p5": 96574,
+    "gift_p50": 123473,
+    "gift_p95": 135954,
+    "bottom_p50": 105000,
+    "top_p50": 124183,
+    "p_top_reached": 0.7439,
+    "p_below_bottom": 0.0241,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0
+   },
+   "125000": {
+    "p_payment_short": 0.0283,
+    "gift_p5": 110655,
+    "gift_p50": 137401,
+    "gift_p95": 151087,
+    "bottom_p50": 120000,
+    "top_p50": 138121,
+    "p_top_reached": 0.7473,
+    "p_below_bottom": 0.0206,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0
+   },
+   "137500": {
+    "p_payment_short": 0.0242,
+    "gift_p5": 124786,
+    "gift_p50": 151324,
+    "gift_p95": 166244,
+    "bottom_p50": 130000,
+    "top_p50": 152072,
+    "p_top_reached": 0.7504,
+    "p_below_bottom": 0.0151,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0
+   },
+   "150000": {
+    "p_payment_short": 0.0205,
+    "gift_p5": 138799,
+    "gift_p50": 165254,
+    "gift_p95": 181387,
+    "bottom_p50": 145000,
+    "top_p50": 166039,
+    "p_top_reached": 0.7525,
+    "p_below_bottom": 0.0127,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0
+   },
+   "162500": {
+    "p_payment_short": 0.0173,
+    "gift_p5": 152743,
+    "gift_p50": 179222,
+    "gift_p95": 196537,
+    "bottom_p50": 155000,
+    "top_p50": 180028,
+    "p_top_reached": 0.7534,
+    "p_below_bottom": 0.0094,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0
+   },
+   "175000": {
+    "p_payment_short": 0.0145,
+    "gift_p5": 166664,
+    "gift_p50": 193174,
+    "gift_p95": 211698,
+    "bottom_p50": 170000,
+    "top_p50": 194037,
+    "p_top_reached": 0.7546,
+    "p_below_bottom": 0.0082,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0
+   },
+   "187500": {
+    "p_payment_short": 0.0127,
+    "gift_p5": 180519,
+    "gift_p50": 207124,
+    "gift_p95": 226860,
+    "bottom_p50": 180000,
+    "top_p50": 208068,
+    "p_top_reached": 0.7553,
+    "p_below_bottom": 0.0057,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0
+   },
+   "200000": {
+    "p_payment_short": 0.0109,
+    "gift_p5": 194383,
+    "gift_p50": 221081,
+    "gift_p95": 242028,
+    "bottom_p50": 195000,
+    "top_p50": 222080,
+    "p_top_reached": 0.7557,
+    "p_below_bottom": 0.0055,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0
+   }
+  },
+  "regime": {
+   "0": {
+    "p_payment_short": 0.4867,
+    "gift_p5": 0,
+    "gift_p50": 0,
+    "gift_p95": 0,
+    "bottom_p50": 0,
+    "top_p50": 0,
+    "p_top_reached": 1.0,
+    "p_below_bottom": 0.0,
+    "p_ladder_unfilled": 0.4642,
+    "p_payment_short_with_trap": 0.4867
+   },
+   "12500": {
+    "p_payment_short": 0.2308,
+    "gift_p5": 0,
+    "gift_p50": 10978,
+    "gift_p95": 14937,
+    "bottom_p50": 5000,
+    "top_p50": 13558,
+    "p_top_reached": 0.7686,
+    "p_below_bottom": 0.0816,
+    "p_ladder_unfilled": 0.1533,
+    "p_payment_short_with_trap": 0.1801
+   },
+   "25000": {
+    "p_payment_short": 0.1204,
+    "gift_p5": 0,
+    "gift_p50": 25831,
+    "gift_p95": 29890,
+    "bottom_p50": 20000,
+    "top_p50": 27247,
+    "p_top_reached": 0.7215,
+    "p_below_bottom": 0.1341,
+    "p_ladder_unfilled": 0.0272,
+    "p_payment_short_with_trap": 0.0392
+   },
+   "37500": {
+    "p_payment_short": 0.0883,
+    "gift_p5": 9672,
+    "gift_p50": 39949,
+    "gift_p95": 44848,
+    "bottom_p50": 30000,
+    "top_p50": 41006,
+    "p_top_reached": 0.7187,
+    "p_below_bottom": 0.1149,
+    "p_ladder_unfilled": 0.0027,
+    "p_payment_short_with_trap": 0.0055
+   },
+   "50000": {
+    "p_payment_short": 0.0733,
+    "gift_p5": 24356,
+    "gift_p50": 53883,
+    "gift_p95": 59821,
+    "bottom_p50": 45000,
+    "top_p50": 54811,
+    "p_top_reached": 0.7289,
+    "p_below_bottom": 0.0983,
+    "p_ladder_unfilled": 0.0002,
+    "p_payment_short_with_trap": 0.0006
+   },
+   "62500": {
+    "p_payment_short": 0.062,
+    "gift_p5": 38864,
+    "gift_p50": 67843,
+    "gift_p95": 74800,
+    "bottom_p50": 55000,
+    "top_p50": 68676,
+    "p_top_reached": 0.7401,
+    "p_below_bottom": 0.0703,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0003
+   },
+   "75000": {
+    "p_payment_short": 0.053,
+    "gift_p5": 53259,
+    "gift_p50": 81789,
+    "gift_p95": 89783,
+    "bottom_p50": 70000,
+    "top_p50": 82570,
+    "p_top_reached": 0.7491,
+    "p_below_bottom": 0.0585,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0002
+   },
+   "87500": {
+    "p_payment_short": 0.0449,
+    "gift_p5": 67690,
+    "gift_p50": 95724,
+    "gift_p95": 104777,
+    "bottom_p50": 80000,
+    "top_p50": 96510,
+    "p_top_reached": 0.7581,
+    "p_below_bottom": 0.0428,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0002
+   },
+   "100000": {
+    "p_payment_short": 0.0381,
+    "gift_p5": 81832,
+    "gift_p50": 109691,
+    "gift_p95": 119767,
+    "bottom_p50": 95000,
+    "top_p50": 110453,
+    "p_top_reached": 0.7656,
+    "p_below_bottom": 0.0364,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0003
+   },
+   "112500": {
+    "p_payment_short": 0.0326,
+    "gift_p5": 96000,
+    "gift_p50": 123636,
+    "gift_p95": 134758,
+    "bottom_p50": 105000,
+    "top_p50": 124424,
+    "p_top_reached": 0.7716,
+    "p_below_bottom": 0.0271,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0003
+   },
+   "125000": {
+    "p_payment_short": 0.0279,
+    "gift_p5": 110075,
+    "gift_p50": 137605,
+    "gift_p95": 149748,
+    "bottom_p50": 120000,
+    "top_p50": 138393,
+    "p_top_reached": 0.7767,
+    "p_below_bottom": 0.0239,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0002
+   },
+   "137500": {
+    "p_payment_short": 0.0245,
+    "gift_p5": 124089,
+    "gift_p50": 151572,
+    "gift_p95": 164758,
+    "bottom_p50": 130000,
+    "top_p50": 152402,
+    "p_top_reached": 0.7811,
+    "p_below_bottom": 0.0183,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0002
+   },
+   "150000": {
+    "p_payment_short": 0.0214,
+    "gift_p5": 138044,
+    "gift_p50": 165528,
+    "gift_p95": 179769,
+    "bottom_p50": 145000,
+    "top_p50": 166407,
+    "p_top_reached": 0.7847,
+    "p_below_bottom": 0.0161,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0002
+   },
+   "162500": {
+    "p_payment_short": 0.0185,
+    "gift_p5": 151964,
+    "gift_p50": 179473,
+    "gift_p95": 194788,
+    "bottom_p50": 155000,
+    "top_p50": 180419,
+    "p_top_reached": 0.7872,
+    "p_below_bottom": 0.0128,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0001
+   },
+   "175000": {
+    "p_payment_short": 0.0159,
+    "gift_p5": 165821,
+    "gift_p50": 193459,
+    "gift_p95": 209788,
+    "bottom_p50": 170000,
+    "top_p50": 194430,
+    "p_top_reached": 0.7896,
+    "p_below_bottom": 0.0113,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0001
+   },
+   "187500": {
+    "p_payment_short": 0.0137,
+    "gift_p5": 179681,
+    "gift_p50": 207444,
+    "gift_p95": 224800,
+    "bottom_p50": 180000,
+    "top_p50": 208456,
+    "p_top_reached": 0.7917,
+    "p_below_bottom": 0.0094,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0001
+   },
+   "200000": {
+    "p_payment_short": 0.0119,
+    "gift_p5": 193480,
+    "gift_p50": 221428,
+    "gift_p95": 239816,
+    "bottom_p50": 195000,
+    "top_p50": 222493,
+    "p_top_reached": 0.7923,
+    "p_below_bottom": 0.0088,
+    "p_ladder_unfilled": 0.0,
+    "p_payment_short_with_trap": 0.0001
+   }
+  }
+ },
+ "M6_range": {
+  "lognormal": {
+   "0.00": {
+    "p_top_reached": 0.976,
+    "top_p50": 150000,
+    "gift_p50": 150000,
+    "avg_miss_when_missed": 7834,
+    "odds_over_under": 41.34
+   },
+   "0.25": {
+    "p_top_reached": 0.955,
+    "top_p50": 157521,
+    "gift_p50": 157496,
+    "avg_miss_when_missed": 8243,
+    "odds_over_under": 21.39
+   },
+   "0.33": {
+    "p_top_reached": 0.941,
+    "top_p50": 160317,
+    "gift_p50": 160259,
+    "avg_miss_when_missed": 8083,
+    "odds_over_under": 16.0
+   },
+   "0.50": {
+    "p_top_reached": 0.753,
+    "top_p50": 166039,
+    "gift_p50": 165254,
+    "avg_miss_when_missed": 5409,
+    "odds_over_under": 3.04
+   },
+   "0.67": {
+    "p_top_reached": 0.327,
+    "top_p50": 171986,
+    "gift_p50": 167791,
+    "avg_miss_when_missed": 7045,
+    "odds_over_under": 0.49
+   },
+   "0.75": {
+    "p_top_reached": 0.172,
+    "top_p50": 174958,
+    "gift_p50": 168190,
+    "avg_miss_when_missed": 8898,
+    "odds_over_under": 0.21
+   },
+   "1.00": {
+    "p_top_reached": 0.015,
+    "top_p50": 183963,
+    "gift_p50": 168410,
+    "avg_miss_when_missed": 16923,
+    "odds_over_under": 0.02
+   }
+  },
+  "regime": {
+   "0.00": {
+    "p_top_reached": 0.973,
+    "top_p50": 150000,
+    "gift_p50": 150000,
+    "avg_miss_when_missed": 8811,
+    "odds_over_under": 35.47
+   },
+   "0.25": {
+    "p_top_reached": 0.951,
+    "top_p50": 157645,
+    "gift_p50": 157593,
+    "avg_miss_when_missed": 8929,
+    "odds_over_under": 19.3
+   },
+   "0.33": {
+    "p_top_reached": 0.929,
+    "top_p50": 160516,
+    "gift_p50": 160395,
+    "avg_miss_when_missed": 8136,
+    "odds_over_under": 13.07
+   },
+   "0.50": {
+    "p_top_reached": 0.785,
+    "top_p50": 166407,
+    "gift_p50": 165528,
+    "avg_miss_when_missed": 6451,
+    "odds_over_under": 3.64
+   },
+   "0.67": {
+    "p_top_reached": 0.331,
+    "top_p50": 172397,
+    "gift_p50": 168279,
+    "avg_miss_when_missed": 6708,
+    "odds_over_under": 0.5
+   },
+   "0.75": {
+    "p_top_reached": 0.13,
+    "top_p50": 175431,
+    "gift_p50": 168610,
+    "avg_miss_when_missed": 8285,
+    "odds_over_under": 0.15
+   },
+   "1.00": {
+    "p_top_reached": 0.003,
+    "top_p50": 184664,
+    "gift_p50": 168707,
+    "avg_miss_when_missed": 16722,
+    "odds_over_under": 0.0
+   }
+  },
+  "history": {
+   "0.00": {
+    "p_top_reached": 1.0,
+    "top_p50": 150000,
+    "gift_p50": 150000,
+    "avg_miss_when_missed": 0,
+    "odds_over_under": 1000000000.0
+   },
+   "0.25": {
+    "p_top_reached": 0.993,
+    "top_p50": 159357,
+    "gift_p50": 159319,
+    "avg_miss_when_missed": 3244,
+    "odds_over_under": 134.08
+   },
+   "0.33": {
+    "p_top_reached": 0.981,
+    "top_p50": 162572,
+    "gift_p50": 162532,
+    "avg_miss_when_missed": 4341,
+    "odds_over_under": 50.65
+   },
+   "0.50": {
+    "p_top_reached": 0.839,
+    "top_p50": 169086,
+    "gift_p50": 168407,
+    "avg_miss_when_missed": 4584,
+    "odds_over_under": 5.2
+   },
+   "0.67": {
+    "p_top_reached": 0.407,
+    "top_p50": 175634,
+    "gift_p50": 171616,
+    "avg_miss_when_missed": 6320,
+    "odds_over_under": 0.69
+   },
+   "0.75": {
+    "p_top_reached": 0.224,
+    "top_p50": 178951,
+    "gift_p50": 172271,
+    "avg_miss_when_missed": 8248,
+    "odds_over_under": 0.29
+   },
+   "1.00": {
+    "p_top_reached": 0.012,
+    "top_p50": 188793,
+    "gift_p50": 172532,
+    "avg_miss_when_missed": 16490,
+    "odds_over_under": 0.01
+   }
+  }
+ },
+ "M7_rivals": {
+  "lognormal": {
+   "xr": {
+    "label": "Caplet XR (V25)",
+    "p_payment_short": 0.0205,
+    "p_payment_short_any": 0.0346,
+    "short_amt_p50_when_short": 2146,
+    "gift_p5": 138799,
+    "gift_p50": 165254,
+    "gift_p95": 181387,
+    "p_below_bottom": 0.0127,
+    "p_top_reached": 0.7525,
+    "bottom_p50": 145000,
+    "top_p50": 166039,
+    "laura_2042_p50": 46698,
+    "p_any_promise_broken": 0.032
+   },
+   "xr_trap": {
+    "label": "Caplet XR + $10k coverage test",
+    "p_payment_short": 0.0,
+    "p_payment_short_any": 0.0001,
+    "short_amt_p50_when_short": 1790,
+    "gift_p5": 133568,
+    "gift_p50": 165001,
+    "gift_p95": 181385,
+    "p_below_bottom": 0.041,
+    "p_top_reached": 0.6875,
+    "bottom_p50": 145000,
+    "top_p50": 166039,
+    "laura_2042_p50": 46698,
+    "p_any_promise_broken": 0.0411
+   },
+   "xr_lock": {
+    "label": "Caplet XR, lock + cushion",
+    "p_payment_short": 0.0019,
+    "p_payment_short_any": 0.0045,
+    "short_amt_p50_when_short": 1803,
+    "gift_p5": 136008,
+    "gift_p50": 165658,
+    "gift_p95": 182245,
+    "p_below_bottom": 0.0133,
+    "p_top_reached": 0.8409,
+    "bottom_p50": 145000,
+    "top_p50": 166039,
+    "laura_2042_p50": 30374,
+    "p_any_promise_broken": 0.0139
+   },
+   "balanced": {
+    "label": "60/40 balanced",
+    "p_payment_short": 0.0608,
+    "p_payment_short_any": 0.0619,
+    "short_amt_p50_when_short": 35157,
+    "gift_p5": 0,
+    "gift_p50": 159126,
+    "gift_p95": 490258,
+    "p_below_bottom": 0.3217,
+    "p_top_reached": 0.4419,
+    "bottom_p50": 122429,
+    "top_p50": 183644,
+    "laura_2042_p50": 226292,
+    "p_any_promise_broken": 0.3628
+   },
+   "glide": {
+    "label": "Target-date glide",
+    "p_payment_short": 0.0261,
+    "p_payment_short_any": 0.0269,
+    "short_amt_p50_when_short": 29448,
+    "gift_p5": 0,
+    "gift_p50": 157328,
+    "gift_p95": 481401,
+    "p_below_bottom": 0.2675,
+    "p_top_reached": 0.4408,
+    "bottom_p50": 119530,
+    "top_p50": 179295,
+    "laura_2042_p50": 198595,
+    "p_any_promise_broken": 0.2891
+   },
+   "bucket": {
+    "label": "Three-year bucket",
+    "p_payment_short": 0.0449,
+    "p_payment_short_any": 0.0458,
+    "short_amt_p50_when_short": 35322,
+    "gift_p5": 0,
+    "gift_p50": 165201,
+    "gift_p95": 562387,
+    "p_below_bottom": 0.326,
+    "p_top_reached": 0.4585,
+    "bottom_p50": 128354,
+    "top_p50": 192531,
+    "laura_2042_p50": 170841,
+    "p_any_promise_broken": 0.3571
+   },
+   "immunise": {
+    "label": "Bond-fund immunisation",
+    "p_payment_short": 0.1427,
+    "p_payment_short_any": 0.149,
+    "short_amt_p50_when_short": 16876,
+    "gift_p5": 93138,
+    "gift_p50": 200128,
+    "gift_p95": 387948,
+    "p_below_bottom": 0.2054,
+    "p_top_reached": 0.2558,
+    "bottom_p50": 159587,
+    "top_p50": 239380,
+    "laura_2042_p50": 43183,
+    "p_any_promise_broken": 0.3196
+   },
+   "lock_late": {
+    "label": "All stocks, lock in 2032",
+    "p_payment_short": 0.093,
+    "p_payment_short_any": 0.0938,
+    "short_amt_p50_when_short": 63383,
+    "gift_p5": 0,
+    "gift_p50": 254205,
+    "gift_p95": 786204,
+    "p_below_bottom": 0.2368,
+    "p_top_reached": 0.4715,
+    "bottom_p50": 183685,
+    "top_p50": 275527,
+    "laura_2042_p50": 0,
+    "p_any_promise_broken": 0.2931
+   }
+  },
+  "regime": {
+   "xr": {
+    "label": "Caplet XR (V25)",
+    "p_payment_short": 0.0214,
+    "p_payment_short_any": 0.0358,
+    "short_amt_p50_when_short": 2031,
+    "gift_p5": 138044,
+    "gift_p50": 165528,
+    "gift_p95": 179769,
+    "p_below_bottom": 0.0161,
+    "p_top_reached": 0.7847,
+    "bottom_p50": 145000,
+    "top_p50": 166407,
+    "laura_2042_p50": 47035,
+    "p_any_promise_broken": 0.0356
+   },
+   "xr_trap": {
+    "label": "Caplet XR + $10k coverage test",
+    "p_payment_short": 0.0002,
+    "p_payment_short_any": 0.0003,
+    "short_amt_p50_when_short": 2431,
+    "gift_p5": 132601,
+    "gift_p50": 165299,
+    "gift_p95": 179769,
+    "p_below_bottom": 0.0447,
+    "p_top_reached": 0.7202,
+    "bottom_p50": 145000,
+    "top_p50": 166407,
+    "laura_2042_p50": 47035,
+    "p_any_promise_broken": 0.0449
+   },
+   "xr_lock": {
+    "label": "Caplet XR, lock + cushion",
+    "p_payment_short": 0.0024,
+    "p_payment_short_any": 0.0054,
+    "short_amt_p50_when_short": 1799,
+    "gift_p5": 135608,
+    "gift_p50": 166061,
+    "gift_p95": 180329,
+    "p_below_bottom": 0.0156,
+    "p_top_reached": 0.8445,
+    "bottom_p50": 145000,
+    "top_p50": 166407,
+    "laura_2042_p50": 30660,
+    "p_any_promise_broken": 0.0163
+   },
+   "balanced": {
+    "label": "60/40 balanced",
+    "p_payment_short": 0.0765,
+    "p_payment_short_any": 0.0777,
+    "short_amt_p50_when_short": 51102,
+    "gift_p5": 0,
+    "gift_p50": 164386,
+    "gift_p95": 418501,
+    "p_below_bottom": 0.2698,
+    "p_top_reached": 0.4568,
+    "bottom_p50": 127516,
+    "top_p50": 191273,
+    "laura_2042_p50": 228752,
+    "p_any_promise_broken": 0.3225
+   },
+   "glide": {
+    "label": "Target-date glide",
+    "p_payment_short": 0.0387,
+    "p_payment_short_any": 0.0393,
+    "short_amt_p50_when_short": 45919,
+    "gift_p5": 0,
+    "gift_p50": 163423,
+    "gift_p95": 413314,
+    "p_below_bottom": 0.2291,
+    "p_top_reached": 0.4387,
+    "bottom_p50": 125969,
+    "top_p50": 188953,
+    "laura_2042_p50": 195729,
+    "p_any_promise_broken": 0.2624
+   },
+   "bucket": {
+    "label": "Three-year bucket",
+    "p_payment_short": 0.0662,
+    "p_payment_short_any": 0.0673,
+    "short_amt_p50_when_short": 54357,
+    "gift_p5": 0,
+    "gift_p50": 172546,
+    "gift_p95": 476784,
+    "p_below_bottom": 0.2728,
+    "p_top_reached": 0.4748,
+    "bottom_p50": 135881,
+    "top_p50": 203821,
+    "laura_2042_p50": 170680,
+    "p_any_promise_broken": 0.3174
+   },
+   "immunise": {
+    "label": "Bond-fund immunisation",
+    "p_payment_short": 0.1287,
+    "p_payment_short_any": 0.1346,
+    "short_amt_p50_when_short": 14542,
+    "gift_p5": 85680,
+    "gift_p50": 204455,
+    "gift_p95": 350153,
+    "p_below_bottom": 0.1676,
+    "p_top_reached": 0.225,
+    "bottom_p50": 163548,
+    "top_p50": 245322,
+    "laura_2042_p50": 42453,
+    "p_any_promise_broken": 0.275
+   },
+   "lock_late": {
+    "label": "All stocks, lock in 2032",
+    "p_payment_short": 0.1101,
+    "p_payment_short_any": 0.1107,
+    "short_amt_p50_when_short": 90360,
+    "gift_p5": 0,
+    "gift_p50": 271739,
+    "gift_p95": 680731,
+    "p_below_bottom": 0.1752,
+    "p_top_reached": 0.5017,
+    "bottom_p50": 198540,
+    "top_p50": 297810,
+    "laura_2042_p50": 0,
+    "p_any_promise_broken": 0.2505
+   }
+  },
+  "bootstrap": {
+   "xr": {
+    "label": "Caplet XR (V25)",
+    "p_payment_short": 0.0041,
+    "p_payment_short_any": 0.0128,
+    "short_amt_p50_when_short": 1626,
+    "gift_p5": 153012,
+    "gift_p50": 167846,
+    "gift_p95": 180852,
+    "p_below_bottom": 0.0022,
+    "p_top_reached": 0.808,
+    "bottom_p50": 145000,
+    "top_p50": 168583,
+    "laura_2042_p50": 48391,
+    "p_any_promise_broken": 0.0062
+   },
+   "xr_trap": {
+    "label": "Caplet XR + $10k coverage test",
+    "p_payment_short": 0.0,
+    "p_payment_short_any": 0.0,
+    "short_amt_p50_when_short": 0,
+    "gift_p5": 149386,
+    "gift_p50": 167782,
+    "gift_p95": 180852,
+    "p_below_bottom": 0.0097,
+    "p_top_reached": 0.7669,
+    "bottom_p50": 145000,
+    "top_p50": 168583,
+    "laura_2042_p50": 48391,
+    "p_any_promise_broken": 0.0097
+   },
+   "xr_lock": {
+    "label": "Caplet XR, lock + cushion",
+    "p_payment_short": 0.0002,
+    "p_payment_short_any": 0.0011,
+    "short_amt_p50_when_short": 1354,
+    "gift_p5": 151363,
+    "gift_p50": 168507,
+    "gift_p95": 181717,
+    "p_below_bottom": 0.0022,
+    "p_top_reached": 0.9318,
+    "bottom_p50": 145000,
+    "top_p50": 168583,
+    "laura_2042_p50": 31060,
+    "p_any_promise_broken": 0.0022
+   },
+   "balanced": {
+    "label": "60/40 balanced",
+    "p_payment_short": 0.06,
+    "p_payment_short_any": 0.0608,
+    "short_amt_p50_when_short": 46574,
+    "gift_p5": 0,
+    "gift_p50": 161160,
+    "gift_p95": 463836,
+    "p_below_bottom": 0.3033,
+    "p_top_reached": 0.4558,
+    "bottom_p50": 121976,
+    "top_p50": 182963,
+    "laura_2042_p50": 231463,
+    "p_any_promise_broken": 0.3455
+   },
+   "glide": {
+    "label": "Target-date glide",
+    "p_payment_short": 0.0286,
+    "p_payment_short_any": 0.0292,
+    "short_amt_p50_when_short": 46546,
+    "gift_p5": 0,
+    "gift_p50": 160099,
+    "gift_p95": 453436,
+    "p_below_bottom": 0.2549,
+    "p_top_reached": 0.4412,
+    "bottom_p50": 120413,
+    "top_p50": 180619,
+    "laura_2042_p50": 196686,
+    "p_any_promise_broken": 0.2793
+   },
+   "bucket": {
+    "label": "Three-year bucket",
+    "p_payment_short": 0.0455,
+    "p_payment_short_any": 0.0464,
+    "short_amt_p50_when_short": 55991,
+    "gift_p5": 0,
+    "gift_p50": 170085,
+    "gift_p95": 530769,
+    "p_below_bottom": 0.3071,
+    "p_top_reached": 0.4715,
+    "bottom_p50": 129364,
+    "top_p50": 194046,
+    "laura_2042_p50": 176689,
+    "p_any_promise_broken": 0.3371
+   },
+   "immunise": {
+    "label": "Bond-fund immunisation",
+    "p_payment_short": 0.0975,
+    "p_payment_short_any": 0.1002,
+    "short_amt_p50_when_short": 28870,
+    "gift_p5": 92966,
+    "gift_p50": 200948,
+    "gift_p95": 371589,
+    "p_below_bottom": 0.1951,
+    "p_top_reached": 0.2537,
+    "bottom_p50": 161484,
+    "top_p50": 242226,
+    "laura_2042_p50": 43324,
+    "p_any_promise_broken": 0.2744
+   },
+   "lock_late": {
+    "label": "All stocks, lock in 2032",
+    "p_payment_short": 0.0877,
+    "p_payment_short_any": 0.0883,
+    "short_amt_p50_when_short": 76317,
+    "gift_p5": 0,
+    "gift_p50": 274225,
+    "gift_p95": 752662,
+    "p_below_bottom": 0.205,
+    "p_top_reached": 0.4967,
+    "bottom_p50": 196051,
+    "top_p50": 294077,
+    "laura_2042_p50": 0,
+    "p_any_promise_broken": 0.2592
+   }
+  },
+  "bootstrap_raw": {
+   "xr": {
+    "label": "Caplet XR (V25)",
+    "p_payment_short": 0.0033,
+    "p_payment_short_any": 0.0102,
+    "short_amt_p50_when_short": 1631,
+    "gift_p5": 153843,
+    "gift_p50": 168851,
+    "gift_p95": 182477,
+    "p_below_bottom": 0.0018,
+    "p_top_reached": 0.8342,
+    "bottom_p50": 145000,
+    "top_p50": 169484,
+    "laura_2042_p50": 61215,
+    "p_any_promise_broken": 0.0049
+   },
+   "xr_trap": {
+    "label": "Caplet XR + $10k coverage test",
+    "p_payment_short": 0.0,
+    "p_payment_short_any": 0.0,
+    "short_amt_p50_when_short": 0,
+    "gift_p5": 150697,
+    "gift_p50": 168819,
+    "gift_p95": 182477,
+    "p_below_bottom": 0.0076,
+    "p_top_reached": 0.7998,
+    "bottom_p50": 145000,
+    "top_p50": 169484,
+    "laura_2042_p50": 61215,
+    "p_any_promise_broken": 0.0076
+   },
+   "xr_lock": {
+    "label": "Caplet XR, lock + cushion",
+    "p_payment_short": 0.0001,
+    "p_payment_short_any": 0.001,
+    "short_amt_p50_when_short": 1305,
+    "gift_p5": 152416,
+    "gift_p50": 169432,
+    "gift_p95": 183233,
+    "p_below_bottom": 0.0019,
+    "p_top_reached": 0.9421,
+    "bottom_p50": 145000,
+    "top_p50": 169484,
+    "laura_2042_p50": 39709,
+    "p_any_promise_broken": 0.0019
+   },
+   "balanced": {
+    "label": "60/40 balanced",
+    "p_payment_short": 0.0383,
+    "p_payment_short_any": 0.039,
+    "short_amt_p50_when_short": 48999,
+    "gift_p5": 0,
+    "gift_p50": 197274,
+    "gift_p95": 518562,
+    "p_below_bottom": 0.2589,
+    "p_top_reached": 0.4866,
+    "bottom_p50": 140292,
+    "top_p50": 210438,
+    "laura_2042_p50": 288228,
+    "p_any_promise_broken": 0.2869
+   },
+   "glide": {
+    "label": "Target-date glide",
+    "p_payment_short": 0.0188,
+    "p_payment_short_any": 0.0192,
+    "short_amt_p50_when_short": 46976,
+    "gift_p5": 0,
+    "gift_p50": 194846,
+    "gift_p95": 505844,
+    "p_below_bottom": 0.2143,
+    "p_top_reached": 0.4578,
+    "bottom_p50": 140644,
+    "top_p50": 210966,
+    "laura_2042_p50": 222513,
+    "p_any_promise_broken": 0.2307
+   },
+   "bucket": {
+    "label": "Three-year bucket",
+    "p_payment_short": 0.0308,
+    "p_payment_short_any": 0.0313,
+    "short_amt_p50_when_short": 57365,
+    "gift_p5": 0,
+    "gift_p50": 212852,
+    "gift_p95": 598709,
+    "p_below_bottom": 0.2655,
+    "p_top_reached": 0.5,
+    "bottom_p50": 151086,
+    "top_p50": 226629,
+    "laura_2042_p50": 202573,
+    "p_any_promise_broken": 0.2862
+   },
+   "immunise": {
+    "label": "Bond-fund immunisation",
+    "p_payment_short": 0.0975,
+    "p_payment_short_any": 0.1002,
+    "short_amt_p50_when_short": 28870,
+    "gift_p5": 102383,
+    "gift_p50": 218540,
+    "gift_p95": 401939,
+    "p_below_bottom": 0.1658,
+    "p_top_reached": 0.2966,
+    "bottom_p50": 169795,
+    "top_p50": 254692,
+    "laura_2042_p50": 43324,
+    "p_any_promise_broken": 0.2483
+   },
+   "lock_late": {
+    "label": "All stocks, lock in 2032",
+    "p_payment_short": 0.0642,
+    "p_payment_short_any": 0.0648,
+    "short_amt_p50_when_short": 79477,
+    "gift_p5": 0,
+    "gift_p50": 324637,
+    "gift_p95": 838749,
+    "p_below_bottom": 0.1765,
+    "p_top_reached": 0.5121,
+    "bottom_p50": 226064,
+    "top_p50": 339096,
+    "laura_2042_p50": 0,
+    "p_any_promise_broken": 0.2163
+   }
+  },
+  "history": {
+   "xr": {
+    "label": "Caplet XR (V25)",
+    "p_payment_short": 0.0,
+    "p_payment_short_any": 0.0,
+    "short_amt_p50_when_short": 0,
+    "gift_p5": 156661,
+    "gift_p50": 168431,
+    "gift_p95": 180891,
+    "p_below_bottom": 0.0,
+    "p_top_reached": 0.827,
+    "bottom_p50": 145000,
+    "top_p50": 169101,
+    "laura_2042_p50": 55975,
+    "p_any_promise_broken": 0.0
+   },
+   "xr_trap": {
+    "label": "Caplet XR + $10k coverage test",
+    "p_payment_short": 0.0,
+    "p_payment_short_any": 0.0,
+    "short_amt_p50_when_short": 0,
+    "gift_p5": 154691,
+    "gift_p50": 168431,
+    "gift_p95": 180891,
+    "p_below_bottom": 0.0,
+    "p_top_reached": 0.7989,
+    "bottom_p50": 145000,
+    "top_p50": 169101,
+    "laura_2042_p50": 55975,
+    "p_any_promise_broken": 0.0
+   },
+   "xr_lock": {
+    "label": "Caplet XR, lock + cushion",
+    "p_payment_short": 0.0,
+    "p_payment_short_any": 0.0,
+    "short_amt_p50_when_short": 0,
+    "gift_p5": 156370,
+    "gift_p50": 169099,
+    "gift_p95": 182094,
+    "p_below_bottom": 0.0,
+    "p_top_reached": 0.9731,
+    "bottom_p50": 145000,
+    "top_p50": 169101,
+    "laura_2042_p50": 34116,
+    "p_any_promise_broken": 0.0
+   },
+   "balanced": {
+    "label": "60/40 balanced",
+    "p_payment_short": 0.0134,
+    "p_payment_short_any": 0.0134,
+    "short_amt_p50_when_short": 63307,
+    "gift_p5": 10581,
+    "gift_p50": 180646,
+    "gift_p95": 519428,
+    "p_below_bottom": 0.2824,
+    "p_top_reached": 0.4774,
+    "bottom_p50": 128933,
+    "top_p50": 193399,
+    "laura_2042_p50": 285166,
+    "p_any_promise_broken": 0.2958
+   },
+   "glide": {
+    "label": "Target-date glide",
+    "p_payment_short": 0.0055,
+    "p_payment_short_any": 0.0061,
+    "short_amt_p50_when_short": 25344,
+    "gift_p5": 11096,
+    "gift_p50": 183925,
+    "gift_p95": 485426,
+    "p_below_bottom": 0.2372,
+    "p_top_reached": 0.4401,
+    "bottom_p50": 127737,
+    "top_p50": 191606,
+    "laura_2042_p50": 221145,
+    "p_any_promise_broken": 0.2427
+   },
+   "bucket": {
+    "label": "Three-year bucket",
+    "p_payment_short": 0.0183,
+    "p_payment_short_any": 0.0183,
+    "short_amt_p50_when_short": 26012,
+    "gift_p5": 0,
+    "gift_p50": 193383,
+    "gift_p95": 599420,
+    "p_below_bottom": 0.2946,
+    "p_top_reached": 0.4872,
+    "bottom_p50": 139550,
+    "top_p50": 209325,
+    "laura_2042_p50": 204415,
+    "p_any_promise_broken": 0.313
+   },
+   "immunise": {
+    "label": "Bond-fund immunisation",
+    "p_payment_short": 0.1112,
+    "p_payment_short_any": 0.1167,
+    "short_amt_p50_when_short": 10198,
+    "gift_p5": 112719,
+    "gift_p50": 210899,
+    "gift_p95": 401158,
+    "p_below_bottom": 0.1748,
+    "p_top_reached": 0.2916,
+    "bottom_p50": 163950,
+    "top_p50": 245926,
+    "laura_2042_p50": 42535,
+    "p_any_promise_broken": 0.2702
+   },
+   "lock_late": {
+    "label": "All stocks, lock in 2032",
+    "p_payment_short": 0.0678,
+    "p_payment_short_any": 0.0685,
+    "short_amt_p50_when_short": 63265,
+    "gift_p5": 0,
+    "gift_p50": 304792,
+    "gift_p95": 827354,
+    "p_below_bottom": 0.1999,
+    "p_top_reached": 0.5086,
+    "bottom_p50": 207337,
+    "top_p50": 311005,
+    "laura_2042_p50": 0,
+    "p_any_promise_broken": 0.2402
+   }
+  },
+  "regime_band40": {
+   "balanced": {
+    "label": "60/40 balanced",
+    "p_payment_short": 0.0765,
+    "p_payment_short_any": 0.0777,
+    "short_amt_p50_when_short": 51102,
+    "gift_p5": 0,
+    "gift_p50": 164386,
+    "gift_p95": 418501,
+    "p_below_bottom": 0.1785,
+    "p_top_reached": 0.3298,
+    "bottom_p50": 95637,
+    "top_p50": 223152,
+    "laura_2042_p50": 228752,
+    "p_any_promise_broken": 0.2364
+   },
+   "glide": {
+    "label": "Target-date glide",
+    "p_payment_short": 0.0387,
+    "p_payment_short_any": 0.0393,
+    "short_amt_p50_when_short": 45919,
+    "gift_p5": 0,
+    "gift_p50": 163423,
+    "gift_p95": 413314,
+    "p_below_bottom": 0.1332,
+    "p_top_reached": 0.3034,
+    "bottom_p50": 94477,
+    "top_p50": 220445,
+    "laura_2042_p50": 195729,
+    "p_any_promise_broken": 0.1676
+   },
+   "bucket": {
+    "label": "Three-year bucket",
+    "p_payment_short": 0.0662,
+    "p_payment_short_any": 0.0673,
+    "short_amt_p50_when_short": 54357,
+    "gift_p5": 0,
+    "gift_p50": 172546,
+    "gift_p95": 476784,
+    "p_below_bottom": 0.1879,
+    "p_top_reached": 0.3569,
+    "bottom_p50": 101911,
+    "top_p50": 237792,
+    "laura_2042_p50": 170680,
+    "p_any_promise_broken": 0.2341
+   },
+   "immunise": {
+    "label": "Bond-fund immunisation",
+    "p_payment_short": 0.1287,
+    "p_payment_short_any": 0.1346,
+    "short_amt_p50_when_short": 14542,
+    "gift_p5": 85680,
+    "gift_p50": 204455,
+    "gift_p95": 350153,
+    "p_below_bottom": 0.0488,
+    "p_top_reached": 0.0607,
+    "bottom_p50": 122661,
+    "top_p50": 286209,
+    "laura_2042_p50": 42453,
+    "p_any_promise_broken": 0.1714
+   },
+   "lock_late": {
+    "label": "All stocks, lock in 2032",
+    "p_payment_short": 0.1101,
+    "p_payment_short_any": 0.1107,
+    "short_amt_p50_when_short": 90360,
+    "gift_p5": 0,
+    "gift_p50": 271739,
+    "gift_p95": 680731,
+    "p_below_bottom": 0.1078,
+    "p_top_reached": 0.3283,
+    "bottom_p50": 148905,
+    "top_p50": 347445,
+    "laura_2042_p50": 0,
+    "p_any_promise_broken": 0.183
+   }
+  },
+  "sequence_risk_6040": {
+   "history_failing_start_years": [
+    "1922",
+    "1923",
+    "1924"
+   ],
+   "history": {
+    "p_short": 0.0134,
+    "share_of_shortfalls_where_stocks_beat_bonds": 1.0,
+    "share_of_all_paths_stocks_beat_bonds": 0.855
+   },
+   "bootstrap_raw": {
+    "p_short": 0.0383,
+    "share_of_shortfalls_where_stocks_beat_bonds": 0.152,
+    "share_of_all_paths_stocks_beat_bonds": 0.794
+   }
+  }
+ }
+}

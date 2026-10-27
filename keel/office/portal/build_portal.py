@@ -108,6 +108,7 @@ def room_of(text):
 # ---------- markdown pages ----------
 
 MD = markdown.Markdown(extensions=["tables", "fenced_code", "sane_lists"])
+IMAGES = (".png", ".jpg", ".jpeg", ".gif", ".svg")
 
 
 def title_of(text, path):
@@ -139,7 +140,15 @@ def render(text, path, known):
         return f'href="{REPO}/blob/main/{html.escape(full)}" target="_blank" rel="noopener"'
 
     body = re.sub(r'href="([^"]*)"', fix, body)
-    return body
+
+    def fix_src(m):  # images next to a page (charts) are copied to d/<path> by collect_docs
+        src = html.unescape(m.group(1))
+        if re.match(r"[a-z][a-z0-9+.-]*:", src, re.I):
+            return 'src=""'
+        full = posixpath.normpath(posixpath.join(posixpath.dirname(path), src))
+        return f'src="d/{html.escape(full)}" loading="lazy"' if full.lower().endswith(IMAGES) else 'src=""'
+
+    return re.sub(r'src="([^"]*)"', fix_src, body)
 
 
 def collect_docs(out):
@@ -148,6 +157,10 @@ def collect_docs(out):
         files = [p.relative_to(ROOT).as_posix() for p in KEEL.rglob("*.md")]
     files = [f for f in files if (ROOT / f).exists() and not f.startswith(SKIP_DOCS)]
     known = set(files)
+    for f in [f for f in git("ls-files", "keel").splitlines() if f.lower().endswith(IMAGES)]:
+        if (ROOT / f).exists() and not f.startswith(SKIP_DOCS):
+            (out / "d" / f).parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy(ROOT / f, out / "d" / f)
     docs = []
     for f in sorted(files):
         text = (ROOT / f).read_text(encoding="utf-8", errors="replace")

@@ -188,6 +188,7 @@ input[type="search"] { background: var(--surface); border: 1px solid var(--line)
 .doc h1 { font-size: 1.5rem; margin: 0 0 .8rem; } .doc h2 { margin: 1.6rem 0 .5rem; font-size: 1.15rem; }
 .doc h3 { margin: 1.2rem 0 .4rem; }
 .doc table { font-size: .82rem; } .doc .tblwrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; margin: .6rem 0; }
+.doc img { max-width: 100%; height: auto; display: block; border: 1px solid var(--line); border-radius: 8px; background: #fcfcfb; }
 .doc blockquote { margin: .8rem 0; padding: .1rem 1rem; border-left: 3px solid var(--line); color: var(--ink-2); }
 .doc code { font-family: var(--mono); font-size: .86em; background: var(--surface-2); padding: .05rem .3rem; border-radius: 4px; }
 .doc pre { background: var(--surface-2); padding: .8rem; border-radius: 8px; overflow-x: auto; }
