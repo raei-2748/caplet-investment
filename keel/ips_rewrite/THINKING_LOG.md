@@ -439,3 +439,17 @@ appears, which the metric can't see.) What it gives the IPS is a rule, not a num
 above the bottom serves the cheques first; the bottom itself serves only the gift."** Top-reached drops from 93% to
 87%, so the Final Report says "about nine in ten" only for the lock alone and "more than four in five" with the
 cushion. The condition is met; the lock goes into Thursday's synthesis as the central idea.
+
+**Rival scan lands (coordinator, from "Out-think every rival team for semis", 28 Oct): the lock is the crowd's default.**
+Nine of twelve fresh-AI rivals move stocks into Treasuries around the 2031 announcement; one even uses the Courtroom's
+"a date triggers it, not a price" defence. So the lock can't be the aha. It stays as a rule (G8 says every future action
+goes in the IPS) and the central idea moves upstream to what nobody else wrote:
+- **The diagnosis:** after 2031 the cap leaves the contribution with every fall and Laura with every rise. Rivals lock
+  out of caution; we lock because we found the asymmetry.
+- **The order:** the floor is bought in 2028, three years before Laura names it. "No number Laura names rests on a share
+  price" survives, but as a consequence, not the headline.
+- **Protect** the lines blind judges ranked V25 first of 13 for (85/85/84 vs 72): human capital, sequence risk
+  (fixed dollars vs fixed percent), the break point, and the two-cost range. Zero of 36 rivals have human capital or a
+  two-cost range, so the newsvendor comes back as a named idea in the IPS (one clause), not only as the lock's test.
+This reverses half of this morning's Courtroom ruling (newsvendor "retired as the spine"). It's Keel's call, logged:
+evidence about the field beats a ruling made without it.
