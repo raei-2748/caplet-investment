@@ -1,29 +1,7 @@
-# Final Report bank (project P05): what the IPS can't hold
+# Final Report bank (P05): merged into the one idea bank
 
-(Keel is a simulated team, AI-written.) AI-generated research index (Claude Code), not for submission. Kept by the
-Archive (Tess) with the Library. Opened Tue 27 Oct 2026. The Final Report instructions arrive Tue 10 Nov 01:00 Sydney
-(Mon 9 Nov 9 am ET); this bank lets it start from material, not a blank page. Each item: what it is, where the
-evidence lives, which judging criterion it serves, and its status. Re-check every fact before use; the Final Report
-cites everything (Works Cited) and must agree with the locked TNA and the IPS (Archive register A1-A21).
-
-| # | Item | Evidence | Criterion | Status |
-|---|---|---|---|---|
-| 1 | **The plug we priced and declined:** a dedicated ladder (later coupons pay earlier payments) halves the coupon tail (p95 $25.1k -> $14.8k) for +$1,486, but breaks four locked lines and needs ~10 trades | `../rooms/lab/L-09_dedicated_ladder.md`; Courtroom WO-R2 (`../ips_rewrite/inbox/2026-10-27_courtroom.md`) | Portfolio Analysis; Articulation (a decision with its cost) | MODEL, 15 Oct curve; KILL for the IPS |
-| 2 | **Who gets paid first is two questions: order and timing.** Laura's promises read as a capital structure; a CLO-style coverage test in 2033 cuts payment misses from 6.8% to 0.01% | `../rooms/lab/L-10_last_in_line.md` | Investment Strategy; Portfolio Analysis | MODEL, 22 Oct curve; CLO mechanism to be sourced (Library request 27 Oct) |
-| 3 | **Initial vs variation margin:** don't pad the 2031 bottom today; mark it in 2031 by the gap the bond market has already shown (0 of 200,000 breaks vs 0.11% for a fixed $10k) | `../rooms/lauras_room/LR-04_price_of_a_margin.md`; Courtroom C-02 | Investment Strategy; Client Knowledge | MODEL; clearing-house parallel "exact in logic" (C-02) |
-| 4 | **"Sum certain" vs "fixed percentage":** US charitable-trust law separates Laura's two kinds of money (26 CFR 1.664-2, 1.664-3); the IRS 5% probability-of-exhaustion test (Rev. Proc. 2016-42) assumes the rate, a ladder buys it | `../rooms/library.md` S-05; `../office/outbox/2026-10-27_library_sum-certain.md` | Investment Strategy (defining certainty, case :97-98) | VERIFIED 27 Oct; quote the payment number, not the bottom (Archive A21) |
-| 5 | **Zero-order vs first-order release:** fixed dollars vs a fixed share; why the cheques need Treasuries and the facility money can hold stocks | `../ips_rewrite/ideation/rung2_sonnet.md`; Courtroom WO-R6 (a) | Creativity; Investment Strategy | IPS keeps one plain sentence at most; chemistry explained here |
-| 6 | **Coated beads:** the extended-release capsule as a ladder in a capsule (motif version A) | `../rooms/library.md` S-04; Writing Room cold read (A lost to B in the IPS) | Creativity & Presentation | Check the Window's 27 Oct correction on the Contac 600 date before use |
-| 7 | **Funded the way a defeasance is funded:** certainty as three tests (cash arrives before the date, nothing else draws on it, no one has to sell) | Courtroom WO-R6 (e) | Investment Strategy | Final Report only (C-02/WO-R6) |
-| 8 | **Unbundling a capital-protected note:** a period-certain annuity plus a CPN with the Treasury as guarantor | Courtroom WO-R6 (f); `../ips_rewrite/drafts/D1/` thesis | Investment Strategy; Creativity | Final Report only |
-| 9 | **How co-sponsors read a range:** the size of a committed lead moves giving (List & Lucking-Reiley 2002), the match ratio doesn't (Karlan & List 2007); announced lead gifts beat matching (Huck & Rasul 2011) | `../rooms/lauras_room/LR-03_credible_signal.md` (corrected), LR-04 | Client Knowledge | Abstracts read; direction carries to institutions, sizes don't (C-02) |
-| 10 | **The Extended Reserve:** the 2033 operating reserve begun six years early | `../rooms/lab.md` L-08 | Creativity | Parked 25 Oct |
-| 11 | **"Fixed outcome", not "fixed income":** Marks recasts debt as a promise you collect and ownership as what is left over. That is Caplet's split in two words: the ten cheques are a fixed outcome; the gift is ownership | Oaktree memo "Ruminating on Asset Allocation", 22 Oct 2024 (`../voice/reading/LOG.md` #160) | Investment Strategy; Creativity | READ 27 Oct; quote exactly ("it might help to think of it as 'fixed outcome' investing"), cite in Works Cited. IPS may use the idea uncited |
-| 12 | **"We buy to keep":** Buffett's 2002 line on having no exit strategy. A ladder has no exit either: the exit is the date | Berkshire 2002 letter (LOG #073) | Investment Strategy; Articulation | READ 27 Oct |
-| 13 | **The bank would sell her the same promise, with a fee:** buffer funds pay for protection with capped upside, option costs and fees (Asness). Caplet builds the protection at home and keeps the upside; pairs with item 8 | AQR, "There Ain't No Such Thing as a Free Lunch" (LOG #048) | Investment Strategy; Portfolio Analysis | READ 27 Oct; Lab could price a buffer ETF against the ladder + VT (one number) |
-| 14 | **Liquid to whom?** Marks: an asset is not liquid or illiquid in itself. Laura's rungs are illiquid only to someone who wants the money before its date, and she doesn't | Oaktree memo "Liquidity", Mar 2015 (LOG #061) | Client Knowledge; Investment Strategy | READ 27 Oct; answers the "why not a bond fund" objection |
-| 15 | **The downgrade that didn't move yields:** after the 2011 and 2025 US downgrades Treasury yields barely moved, so "US default" is the residual risk and it barely touches a ladder held to the date | Damodaran, "A Moody's Ratings Downgrade for the US" (LOG #095) | Portfolio Analysis (risk) | READ 27 Oct; re-check the yield moves against Treasury data before quoting a number |
-| 16 | **Bad news first, and smallest:** every great speech in the log names the cost before the promise (Churchill, Gehrig, Pausch, FDR). The Final Report's risk section opens with what Caplet gave up | `../voice/06_voice_guide.md` s8 (F3, F5) | Articulation; Creativity & Presentation | Voice move, not a fact; for the Writing Room |
-
-**Rule for this bank:** an item enters only if it was tested (or verified) and the IPS can't hold it. Fiction never
-enters: the rooms and people are Keel's; only the research and numbers can be used, after re-checking.
+(AI-generated index, Claude Code.) On 27 Oct 2026 this bank (rows 1-16, including the voice thread's reading ideas
+11-16) was merged into **`../ips_rewrite/IDEA_BANK.md`**, so Caplet has one place where every good idea and its
+destination (IPS, Final Report or both) lives (BIBLE Book 9: "Every single good idea ... must end up in either the IPS
+or the Final Report or both"). The Archive's numbers are kept there as FRB-1 to FRB-16. **Add new ideas there, not
+here.** The old rule still holds: re-check every fact before use; fiction never enters.

@@ -6,6 +6,8 @@
 > **Out** = dropped, with the reason. Each idea keeps its honest weakness, because Book 9 asks us to critique, not dump.
 > Numbers are MODEL (22 Oct curve) unless marked. Sources: `THINKING_LOG.md`, `lab/`, `research/R02`, `R05`, `R11`.
 > Keel adds a row the day an idea appears; the synthesis and every draft are checked against this page.
+> **The one bank (27 Oct):** this page absorbed the Archive's `../library/final_report_bank.md` (P05, rows 1-16, incl. the
+> voice thread's reading ideas 11-16); that file now points here. Every room adds new ideas HERE.
 
 ## The spine (what the IPS is built on)
 
@@ -42,6 +44,24 @@
 | 24 | **History check:** US stocks had no two-year loss in 80% of windows since 1871, 83% since 1926, 89% since 1950 (Shiller). The model's ~73-77% is on the cautious side | FR | Evidence behind "three in four" | US is history's luckiest market |
 | 25 | **The first plan we threw out.** Caplet's own first idea was ~75% stocks; the model showed a 3-8% payment shortfall (~50% if the 2028 deposit failed). That's why the cheques come first | FR (Articulation); IPS only if a student confirms the story as it happened | The team's real growth story | Must be told by students, as it happened |
 
+## From the Final Report bank (P05, merged 27 Oct; the Archive's numbering kept as FRB-n)
+
+| # | Idea | Where | Evidence | Critique / status |
+|---|---|---|---|---|
+| FRB-2 | **Who gets paid first is two questions: order and timing.** Laura's promises read as a capital structure; a CLO-style coverage test in 2033 cuts payment misses from 6.8% to 0.01% | FR (IPS: the waterfall order is already in #11) | `../rooms/lab/L-10_last_in_line.md` | MODEL, 22 Oct curve; CLO mechanism still to be sourced |
+| FRB-3 | **Initial vs variation margin:** don't pad the 2031 bottom today; mark it in 2031 by the gap the bond market has already shown (0 of 200,000 breaks vs 0.11% for a fixed $10k) | Both (IPS: "the bottom is set in 2031 from what the bonds have already shown", if it fits) | `../rooms/lauras_room/LR-04_price_of_a_margin.md` | MODEL; a clearing-house parallel, exact in logic |
+| FRB-4 | **"Sum certain" vs "fixed percentage":** US charitable-trust law already separates Laura's two kinds of money (annuity trust vs unitrust, 26 CFR 1.664-2/-3); the IRS 5% probability-of-exhaustion test (Rev. Proc. 2016-42) ASSUMES a rate, our ladder BUYS it | Both: a strong candidate for the IPS's certainty sentence (a government's own standard, beaten) | `../office/outbox/2026-10-27_library_sum-certain.md` | VERIFIED 27 Oct; fuses with #2 (zero-order = annuity trust, first-order = unitrust). Library R11 extends it |
+| FRB-6 | **Coated beads:** an extended-release capsule is a ladder of beads that dissolve on schedule (motif version A) | FR | `../rooms/library.md` S-04 | Lost to version B in the IPS cold read; check the Contac 600 date (1960) |
+| FRB-10 | **The Extended Reserve:** the 2033 operating reserve, begun six years early | FR aside | `../rooms/lab.md` L-08 | Parked 25 Oct; a possible second reading of XR |
+| FRB-11 | **"Fixed outcome", not "fixed income"** (Howard Marks): debt is a promise you collect, ownership is what's left over. That's Caplet's split in two words: the cheques are a fixed outcome; the gift is ownership | Both (IPS uncited; FR quotes exactly: "it might help to think of it as 'fixed outcome' investing") | Oaktree memo "Ruminating on Asset Allocation", 22 Oct 2024 (`../voice/reading/LOG.md` #160) | READ 27 Oct |
+| FRB-12 | **"We buy to keep"** (Buffett, 2002 letter, on having no exit strategy). A ladder has no exit either: the exit is the date | FR (IPS: the idea in our words) | Berkshire 2002 letter (LOG #073) | READ 27 Oct |
+| FRB-13 | **The bank would sell her the same promise, with a fee:** buffer funds buy protection with capped upside, option costs and fees (Asness). We build the protection at home and keep the upside. Pairs with #14 | FR (Lab could price a buffer ETF vs ladder + VT) | AQR, "There Ain't No Such Thing as a Free Lunch" (LOG #048) | READ 27 Oct |
+| FRB-14 | **Liquid to whom?** (Marks): no asset is liquid or illiquid in itself. Laura's rungs are illiquid only to someone who wants the money before its date, and she doesn't | Both (IPS: fuses with #20) | Oaktree memo "Liquidity", Mar 2015 (LOG #061) | READ 27 Oct; answers "why not a bond fund?" |
+| FRB-15 | **The downgrade that didn't move yields:** after the 2011 and 2025 US downgrades Treasury yields barely moved; US default is the residual risk and barely touches a ladder held to the date | FR | Damodaran, "A Moody's Ratings Downgrade for the US" (LOG #095) | READ 27 Oct; re-check yield moves before quoting a number |
+| FRB-16 | **Bad news first, and smallest:** great speeches name the cost before the promise (Churchill, Gehrig, Pausch, FDR). The FR's risk section opens with what Caplet gave up | FR (a voice move) | `../voice/06_voice_guide.md` s8 | Voice move, not a fact |
+
+FRB-1 = dropped list (dedicated ladder); FRB-5 = #2; FRB-7 = #16; FRB-8 = #14; FRB-9 = #6.
+
 ## Motif material (XR)
 
 | # | Idea | Where | Critique |
@@ -52,16 +72,6 @@
 | 29 | Contac 600 (1960), the first mass-market timed-release capsule; the Spansule (1952) | FR | – |
 | 30 | 80-125% bioequivalence: 0.8 x 1.25 = 1, the same arithmetic as "a 20% fall needs a 25% rise" | FR aside | – |
 | 31 | Rx is XR reversed (Latin *recipe*); "receipts" | FR aside at most | Cute; risk of overload |
-
-## From the reading log (voice study, 27 Oct; `../voice/reading/LOG.md`, mirrored in `../library/final_report_bank.md` 11-16)
-
-| # | Idea | Where | Why it earns its place | Honest weakness / critique |
-|---|---|---|---|---|
-| 32 | **"Fixed outcome", not "fixed income"** (Marks, Oaktree memo, 22 Oct 2024): debt is a promise you collect, ownership is what's left over. The cheques are a fixed outcome; the gift is ownership | Both (IPS uncited, as an idea; FR quotes and cites) | Two words that carry idea 1 and the whole split; a famous investor reached the same frame | A judge who knows the memo may see it as borrowed; we must show we use it, not quote it |
-| 33 | **"We buy to keep"** (Buffett 2002): no exit strategy, because the exit is the date | FR (IPS at most as a plain clause) | Sharpens "do not crush" (28) with investing logic | Buffett lines are over-quoted; use the idea, not the words, in the IPS |
-| 34 | **The bank would sell her the same promise, with a fee** (Asness on buffer funds: protection paid for with capped upside, option costs and fees) | FR, with idea 14 | A concrete rival product that makes the unbundling (14) tangible; the Lab could price one | Buffer ETFs reset yearly, so the comparison is loose; state that |
-| 35 | **Liquid to whom?** (Marks, 2015): an asset isn't liquid or illiquid in itself; the rungs are illiquid only to someone who wants the money before its date | FR, with idea 20 | Answers "why not a bond fund?" in one line | Overlaps 20; merge if the FR runs long |
-| 36 | **The downgrade that didn't move yields** (Damodaran on the 2025 Moody's downgrade): the residual risk, US default, barely touches a ladder held to the date | FR (risk section) | Evidence for idea 8's "where it breaks" | Re-check the yield moves against Treasury data before quoting a number |
 
 ## Dropped (with the reason)
 
