@@ -1,11 +1,11 @@
 # FICTION (the room) + real drafts. The Writing Room
 
 ## Now
-- **Doing:** P06 run on the day-2 spine: six key lines written three ways each in Ray's moves, read blind by three cold judges
-- **Decided:** Long Room A/B: B ("do not crush") wins C&P 5/5/5 and IS 4/4 over A (beads, 4/4/3, 2/2); kickers in three places only; the pill once
-- **Next:** Wed 28 Oct voice day: offer the kept lines (1b, 2B, 3b/3c, 4a, 5c, 6a); Sat 31 Oct: counts (the larger one) + `--voice` + HOLE/FAT on the near-final draft
-- **For the judges:** IPS opening, name line, certainty line, 2031 range, reserve line, last line (`../ips_rewrite/inbox/2026-10-27_writing-room.md`)
-- **Updated:** 2026-10-27 17:10 Sydney
+- **Doing:** voice practice, not IPS prose (Ray, 27 Oct: "stop writing for now ... find a distinctive voice"). One practice piece per run in `../voice/exercises/`, scored with `../voice/fingerprint.py` and the plastic test
+- **Decided:** the voice study is in (`../voice/`): Keel writes with `../voice/06_voice_guide.md`; the essays are Ahaan's, not Ray's; the old "four sentences, 18-32 words" base rule is retired (it made the flat rhythm)
+- **Next:** Wed 28-Thu 29 Oct practice on ideas I-1, I-3, I-4 (`../voice/07_ideas_from_reading.md`); Fri 30 Oct D5 is the first prose, to the guide; Sat 31 Oct counts + fingerprint + plastic test on the near-final
+- **For the judges:** the voice of every line of the IPS and the Final Report (`../voice/06_voice_guide.md`)
+- **Updated:** 2026-10-27 20:30 Sydney
 
 
 > AI DRAFT material throughout (Claude); not for submission as written. (Keel is a simulated team, AI-written.)

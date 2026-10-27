@@ -29,8 +29,9 @@ How the room reads that:
 2. **Creativity is the point; truth is the price of entry.** A link still has to map a real mechanism of Laura's
    plan, rest on the case or a checked fact, and serve a judging criterion. The cleverest idea that is false loses to
    a plain one that is true (L-05: the water image died on one broken mapping).
-3. **Voice is part of the result.** A Genius Lab output ends in words a person would say out loud, cut the way Ray
-   cuts (whole ideas, not squeezed sentences; `../VOICE.md`, "Ray's own essay voice"). Subtle beats eloquent.
+3. **Voice is part of the result.** A Genius Lab output ends in words a person would say out loud, cut the way Ahaan
+   cuts (whole ideas, not squeezed sentences; `../voice/06_voice_guide.md`). The memo's first paragraph is written for a
+   judge, stamps below it (`../voice/exercises/E08_lab_rewrite.md`). Subtle beats eloquent.
 4. **Kai still roasts first and failures stay in the book.** Hypothesis, roast, test, result, verdict. A roasted
    idea that wins is the room's favourite kind of result.
 5. **Ourselves first.** Ray: everyone optimises for the client; we optimise for a team only Caplet could be, then
