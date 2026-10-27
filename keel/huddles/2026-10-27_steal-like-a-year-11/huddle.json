@@ -1,0 +1,22 @@
+{
+  "id": "H-001",
+  "slug": "steal-like-a-year-11",
+  "title": "Steal like a Year 11",
+  "question": "Which habits from real companies, offices and startups should Keel steal, and what do they look like for six Year 11s with school, jobs, sport and families?",
+  "room": "Long Room",
+  "chair": "Nora",
+  "opened": "2026-10-27",
+  "status": "open",
+  "members": ["Nora", "Felix", "Jun", "Kai", "Amara", "Tess"],
+  "serves": "North star 1 (a distinctive, human team voice) and the Final Report's Articulation of the competition experience; every habit must also make Keel's IPS help to Caplet better before Sat 7 Nov",
+  "rounds": [
+    {"n": 1, "name": "Go away and read", "date": "2026-10-27"},
+    {"n": 2, "name": "Reply by name", "date": "2026-10-27"},
+    {"n": 3, "name": "Settle the fights", "date": "2026-10-27"}
+  ],
+  "essence": [],
+  "decided": [],
+  "seeds": [],
+  "changes": [],
+  "todos": {"done": 0, "total": 0}
+}
