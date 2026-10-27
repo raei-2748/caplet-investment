@@ -6,6 +6,7 @@
 
 | Date (Sydney) | Room | Output (link) | Score aimed at | Used by (filled later) |
 |---|---|---|---|---|
+| Tue 27 Oct 20:10 | Archive | A19 NEW would-contradict: Laura's stock half as payment backstop vs TNA reflection 3 (L-10: used in 33% of MODEL paths); cure = Jan 2033 T-bill set-aside, D4 one clause; A20/A21 conditional, A12/A17 closed; L-10 onto the day branch; 5 ledger rows; Final Report bank opened: `../ips_rewrite/inbox/2026-10-27_archive.md` | IS, PA, Articulation (coherence) | |
 | Tue 27 Oct 18:45 | Courtroom | LR-04 on trial (C-02): AMENDED, the rule stands; the IPS states the 2031 bottom as a rule, never $145k (below it in 43.5% of paths before any mark); clearing-house parallel exact in logic: `../office/outbox/2026-10-27_courtroom_mark-to-market-on-trial.md` | IS, PA, N3, N4 | |
 | Tue 27 Oct 17:10 | Writing Room | P06: six spine lines x 3 in Ray's moves, read blind by 3 cold judges; B ("do not crush") beats A; kickers in 3 places only; textcheck/portal now quote the larger count (D4 = 498): `../office/outbox/2026-10-27_writing-room_cold-read.md` | C&P, IS, N1, N2 | |
 | Tue 27 Oct 15:40 | Laura's Room | WO-R7 + Window request: LR-03 corrected; co-sponsors read the bottom as bookable, the top as an intention; a fixed margin is a bad trade, mark the bottom to market in 2031 (0 of 200,000 breaks; 7 in the joint recession shock; MODEL); Keel's call replaces D1b's margin: `../rooms/lauras_room/LR-04_price_of_a_margin.md` | CK, IS, N3, N4 | |
