@@ -32,6 +32,12 @@ def words_strict(text: str) -> int:
     return len([t for t in re.split(r"[\s\-/–—]+", text) if re.search(r"\w", t)])
 
 
+def words_limit(text: str) -> int:
+    """The count to keep under a limit: the larger of the two. A spaced en dash counts as a word by spaces, so with
+    Ray's dashes the "split" count can be the SMALLER one (Writing Room, 27 Oct: D4 is 494 split, 498 by spaces)."""
+    return max(words_by_spaces(text), words_strict(text))
+
+
 def non_ascii(text: str) -> list[tuple[int, str, str]]:
     """(position, character, Unicode name) for every non-ASCII character."""
     return [(i, ch, unicodedata.name(ch, "UNKNOWN")) for i, ch in enumerate(text) if ord(ch) > 127]
@@ -137,7 +143,7 @@ def main(argv: list[str] | None = None) -> int:
     text = read(args.file)
     ok = True
     by_spaces, strict = words_by_spaces(text), words_strict(text)
-    print(f"words: {by_spaces} by spaces, {strict} strict")
+    print(f"words: {by_spaces} by spaces (a spaced dash counts), {strict} split on hyphens; quote the larger")
     print(f"characters: {len(text)}")
     if args.limit is not None:
         worst = max(by_spaces, strict)

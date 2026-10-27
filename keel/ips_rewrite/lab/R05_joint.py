@@ -1,4 +1,5 @@
 """AI-generated (Claude Code), 27 Oct 2026. MODEL. WO-R5: wrong-way risk + newsvendor check.
+STAMP: curve 22 Oct 2026 | J.P. Morgan 2027 global equities 7.5% (plus a 6.5% sceptic run) | 200,000 paths, seed 20261016 | MODEL
 Run from repo root: python3 keel/ips_rewrite/lab/R05_joint.py
 Runs the unchanged ips_numbers.py on the 22 Oct curve (patched as D1_run_22oct.py), but makes each year's stock
 shock (2028-2032) correlated with that year's parallel yield change: rho > 0 means yields fall when stocks fall

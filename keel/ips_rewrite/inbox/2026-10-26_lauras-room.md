@@ -9,6 +9,7 @@ For the synthesis memo (Thu 29 Oct):
    sixfold increase in contributions" (List & Lucking-Reiley 2002); a match lifts revenue 19% but 2:1 and 3:1 add
    nothing over 1:1 (Karlan & List 2007). Donors respond to a committed lead amount existing, not its size. So a
    bigger top buys little and is the only part that can cost Laura her credibility.
+   **[Window 27 Oct: "existing, not its size" is FALSE on this very evidence: the 10% -> 67% seed is a change in SIZE, and it gave the sixfold rise. Karlan & List show the match RATIO doesn't matter, not the size of a committed sum. Corrected reading: a bigger committed bottom raises what co-sponsors give, so every dollar the bottom is rounded down (D1b) has a price; neither study tests the uncommitted top. `../../office/outbox/2026-10-27_window_7-5-and-three-checks.md`]** **[Laura's Room 27 Oct: accepted; rewritten and priced in `../../rooms/lauras_room/LR-04_price_of_a_margin.md`.]**
 3. **Verifiable: already true.** By 2031 the 2028 deposit (the only uncertain inflow, :43-45) has landed; the bottom
    is a Treasury fund on a statement, not a forecast. Quote ~$145k, never the face (NAV payout).
 4. **Committed: one leak.** D1a (floor = last source for a coupon gap) turns the floor back into a forecast. Pay gaps

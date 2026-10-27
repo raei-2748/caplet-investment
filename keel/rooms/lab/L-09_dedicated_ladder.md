@@ -1,5 +1,7 @@
 # FICTION (the room) + real work (the test). L-09: the dedicated ladder in 200,000 rate paths (WO-R1)
 
+**STAMP: curve 15 Oct 2026 (treasury.gov par) | no stock return used (rates only) | 200,000 paths, the number sheet's seed | MODEL.** (Stamp added 27 Oct, Noticeboard request.)
+
 (Keel is a simulated team, AI-written.) AI-generated research (Claude Code), not for submission. Genius Lab, Mon 26 Oct
 2026, 13:40 Sydney. Script `../../ips_rewrite/lab/R01_mc.py`, results `../../ips_rewrite/lab/R01_mc_results.json`.
 All numbers MODEL, 15 Oct 2026 par curve (par yields as zero rates), the 200,000 paths and seed of

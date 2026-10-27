@@ -412,7 +412,7 @@ the average active dollar earns the market; after costs, it must earn less.
 arithmetic. The 2026 edition (30th, 20 Oct 2025) gives global equities 7.0% and US large cap 6.7%.
 - Plan: the VT and range modelling inputs. **C**: the TNA says "about 7.5% a year (as per JPMorgan)", which matches
   EAFE (7.5%) rather than AC World (7.0%) in the team's 27 Sep notes. Answer: re-check before the Final Report and
-  quote the AC World figure for VT.
+  quote the AC World figure for VT. **[Window 27 Oct: WRONG EDITION. J.P. Morgan's 2027 LTCMA (release 19 Oct 2026) gives global equities 7.5% (USD), up from 7.0%; the TNA's 7.5% is the world-stocks figure. See `../../office/outbox/2026-10-27_window_7-5-and-three-checks.md`.]**
 - IPS phrase: none (no numbers needed).
 - Depth: practitioner.
 
@@ -710,8 +710,40 @@ Supplementary (not counted above):
 - CFA Institute. *Elements of an Investment Policy Statement for Individual Investors*. Takes: the standard headings of
   an IPS (objectives, constraints, review). Concept: structure of the IPS. VERIFIED (title and publisher; year
   UNVERIFIED): https://rpc.cfainstitute.org/policy/positions/elements-of-an-investment-policy-statement-for-individual-investors
-- Tobin, J. (1974). What is permanent endowment income? *American Economic Review*, 64(2). Takes: intergenerational
-  equity. UNVERIFIED (search found neighbouring items, not this one).
+- Tobin, J. (1974). What is permanent endowment income? *American Economic Review*, 64(2), 427-432. Takes:
+  intergenerational equity ("The trustees of an endowed institution are the guardians of the future against the
+  claims of the present", quoted in a Yale course chapter citing this article). **[Library 27 Oct: VERIFIED,
+  https://ideas.repec.org/a/aea/aecrev/v64y1974i2p427-32.html]**
+
+Added by the Library, Tue 27 Oct 2026 (accessed 27 Oct 2026; slip S-05 and LC-03 in `../../rooms/library.md`):
+- Yale University, Policy 2202 "Endowment Spending and Distributions" (effective 1 Mar 2023, revised 1 Jul 2026).
+  Takes: "80% of the prior year's spending plus 20% of the long-term spending rate" (5.25%) applied to market value,
+  inflation-adjusted, bounded 4.0%-6.5%: a fixed-dollar draw and a fixed-share draw blended by a dial. VERIFIED:
+  https://your.yale.edu/policies-procedures/2202-endowment-spending-and-distributions
+- 26 CFR 1.664-2 (charitable remainder annuity trust) and 1.664-3 (unitrust), Cornell LII. Takes: US law's own split
+  of a "sum certain" (annuity trust; "no additional contributions may be made ... after the initial contribution")
+  from "a fixed percentage of the net fair market value of the trust assets determined annually" (unitrust).
+  VERIFIED: https://www.law.cornell.edu/cfr/text/26/1.664-2 ; https://www.law.cornell.edu/cfr/text/26/1.664-3
+- Internal Revenue Service, Rev. Proc. 2016-42 (effective 8 Aug 2016), describing Rev. Rul. 77-374. Takes: a sum-
+  certain trust fails if the chance it is exhausted "is greater than 5 percent", worked out at one assumed rate (the
+  section 7520 rate) with a mortality table. VERIFIED: https://www.irs.gov/pub/irs-drop/rp-16-42.pdf
+- Parks, C. T., Finestone, W., & Leahy, S. (2015). Charitable remainder trusts and the probability of exhaustion test.
+  *Tax Notes*, 148(10), 1141 (7 Sep 2015). Takes: the test "assumes that the section 7520 rate in existence at
+  creation will be the rate of growth of CRAT assets throughout its life"; low rates made CRATs fail it. VERIFIED (PDF
+  on the firm's site): https://www.cov.com/-/media/files/corporate/publications/2015/09/charitable_remainder_trusts_and_the_probability_of_exhaustion_test.pdf
+- Costa, F. O., Sousa, J. J. S., Pais, A. A. C. C., & Formosinho, S. J. (2003). Comparison of dissolution profiles of
+  Ibuprofen pellets. *Journal of Controlled Release*, 89, 199-212. Takes: zero order = "Constant release rate"; mean
+  dissolution time MDT = integral of t dM(t) over integral of dM(t), the same first moment as Macaulay duration
+  without discounting. VERIFIED (author repository PDF): https://baes.uc.pt/bitstream/10316/5781/1/filebf23384fd26443af89fb7d1128288cea.pdf
+- Health Canada (3 Aug 2005). Potentially fatal interaction between slow-release opioid painkillers and alcohol.
+  Takes: FDA instructed Purdue to withdraw Palladone on 13 July 2005; "This effect is known as dose dumping."
+  VERIFIED: https://www.canada.ca/en/news/archive/2005/08/potentially-fatal-interaction-between-slow-release-opioid-painkillers-alcohol.html
+- Hughes, K., Gray, A., Asgarzadeh, F., et al. (2015). Regulatory considerations for alcohol-induced dose dumping of
+  oral modified-release formulations. *Pharmaceutical Technology*, 39(10), 40-46. Takes: dose dumping = "the rapid
+  release of the entire dose or a significant fraction thereof in a short period of time"; Palladone with 240 mL of
+  40% alcohol gave a peak plasma level "approximately six times higher" than with water. VERIFIED (note: the article
+  calls Palladone "hydrocodone"; it was hydromorphone, per Health Canada and D'Souza et al. 2017):
+  https://pharmtech.com/view/regulatory-considerations-alcohol-induced-dose-dumping-oral-modified-release-formulations
 
 Count: 72 numbered items, 3 supplementary. Numbered items: VERIFIED 54; VERIFIED (partial) 12 (items 5, 6, 9, 20,
 24, 25, 26, 35, 37, 42, 62, 65); UNVERIFIED 6 (items 7, 8, 31, 34, 46, 47). Supplementary: 2 VERIFIED, 1 UNVERIFIED
@@ -811,4 +843,4 @@ near-certain from owned bonds; top: about 2-3 in 4 from a two-year stock window)
 
 Corrections found while checking: Kydland-Prescott's last page is 492 on the JSTOR print (not 491); the Econometric
 Society lists Prospect Theory as 263-292; the TNA's "about 7.5% a year (as per JPMorgan)" for VT looks like the EAFE
-figure, not AC World's 7.0% (re-check before the Final Report).
+figure, not AC World's 7.0% (re-check before the Final Report). **[Window 27 Oct: WRONG EDITION. J.P. Morgan's 2027 LTCMA (release 19 Oct 2026) gives global equities 7.5% (USD), up from 7.0%; the TNA's 7.5% is the world-stocks figure. See `../../office/outbox/2026-10-27_window_7-5-and-three-checks.md`.]**
