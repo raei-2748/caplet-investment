@@ -32,6 +32,8 @@ mock-judge IPS 1 Nov, IPS gate check 6 Nov, mock-judge Final Report 22 Nov and 3
 ## 2. How we are judged
 
 - Three deliverables are scored, and judged together: **Trading Notes Analysis, IPS, Final Report**.
+- Official wording, re-pasted by Ray 27 Oct and unchanged since 27 Sep: `official/2026_27/SMApply_Deliverables_Page_2026-10-27.md`
+  (BIBLE Book 8); the five sentences split into scoring parts in `../keel/library/ips_road_2026-10/03_CRITERION_MAP.md`.
 - Five criteria: **Investment Strategy · Client Knowledge & Objectives · Portfolio Analysis · Articulation of
   Competition Experience · Creativity & Presentation**. Creativity & Presentation includes communicating Laura's
   facility-contribution range and its uncertainty credibly to co-sponsors.

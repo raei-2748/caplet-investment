@@ -6,6 +6,32 @@ is the opposite**: nuance, growth, teamwork and voice; that is what the Keel epi
 Requirement codes R1-R10 are in `01_REQUIREMENTS_GAP.md`. Criteria: IS Investment Strategy, CK Client Knowledge,
 PA Portfolio Analysis, AR Articulation, CP Creativity & Presentation.
 
+## The five criteria, word for word (BIBLE Book 8; SMApply Deliverables page, re-pasted by Ray 27 Oct 2026)
+The judges score the TNA, the IPS and the Final Report together on these five sentences. Each part has a code; every
+idea, test and score names the part it serves. What the IPS can carry is marked; the rest is the Final Report's.
+
+| Code | Criterion | Part, in Wharton's words | IPS? |
+|---|---|---|---|
+| IS-a | Investment Strategy | "Presents a clear and creative investment thesis" | yes: the central idea |
+| IS-b | | "demonstrates disciplined planning across Laura's changing time horizons and cash-flow needs" | yes |
+| IS-c | | "uses appropriate diversification" | yes |
+| IS-d | | "and maintains consistency with the team's IPS" | yes: WInS, TNA and Final Report all match it |
+| CK-a | Client Knowledge and Objectives | "Tailors the strategy to Laura's circumstances, priorities, risk considerations, and residency goals" | yes |
+| CK-b | | "demonstrates a thoughtful understanding of the client" | yes |
+| CK-c | | "and presents recommendations that can earn her confidence" | yes |
+| PA-a | Portfolio Analysis | "Demonstrates understanding and effective use of investment concepts and tools" | yes |
+| PA-b | | "integrates quantitative and qualitative analysis" | partly (no charts or projections in the IPS) |
+| PA-c | | "and uses reasonable assumptions and projections to evaluate funding reliability, the facility contribution, and financial flexibility under varying market outcomes" | Final Report (Book 7: projections not expected in the IPS) |
+| AR-a | Articulation of Competition Experience | "Demonstrates teamwork, communication, and learning" | Final Report |
+| AR-b | | "clearly explains the team's research and decision-making process" | the IPS's decision framework; the story in the Final Report |
+| AR-c | | "and reflects meaningfully on the team's growth and response to challenges" | Final Report |
+| CP-a | Creativity and Presentation | "Presents a compelling, well-organized narrative in an authentic team voice" | yes |
+| CP-b | | "uses data effectively to support conclusions" | yes, sparingly |
+| CP-c | | "demonstrates original thinking and meaningful reflection" | yes |
+| CP-d | | "and communicates Laura's potential facility contribution and investment uncertainty clearly and credibly to prospective co-sponsors" | Final Report (Book 7: the range and co-sponsor draft) |
+
+The table below (23 Oct) tested an older draft with the short codes IS, CK, PA, AR, CP; new work uses the part codes.
+
 ## Every idea in the latest draft (Tab 15) plus the gaps, tested
 | # | Idea | Ticks | Verdict |
 |---|---|---|---|
