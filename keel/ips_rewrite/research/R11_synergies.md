@@ -44,7 +44,7 @@ Finestone and Leahy (*Tax Notes*, 2015) on trusts that failed when rates fell. N
 UNVERIFIED: the exact 10% early-termination clause wording and Rev. Rul. 77-374's own text (LISTED only).
 *Built on here (new):* the *Tax Notes* point (fixed-dollar trusts failed when rates fell because the test assumed one
 rate) is the same mechanism as Japan's life insurers (17) and our coupon gap. So the 5% test belongs in S5 as a
-fifth, homely example of failure mode 4, as well as in S4 as a yardstick.
+fifth, homely example of failure mode 4, as well as in S4 as a yardstick. **[Window 28 Oct: FALSE. Parks, Finestone & Leahy (Tax Notes, 7 Sep 2015; Faegre/Covington copies read 28 Oct) say low rates made new CRATs hard to *set up* (fail the 5% qualification test), not that trusts ran out of money when rates fell. Not failure mode 4; drop it from S5.]**
 
 **2. The return-period fallacy ("design to the 100-year flood").**
 *What:* A "100-year flood" has a 1% chance in any one year, not one per century. Over n years the chance of at least

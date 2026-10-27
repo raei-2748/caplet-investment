@@ -7,7 +7,7 @@ LC-03 and concept C-01 in `../../rooms/library.md`; note for the rewrite `../../
 - 26 CFR 1.664-2 and 1.664-3 (Cornell LII): the annuity trust pays "a sum certain"; the unitrust "a fixed
   percentage ... determined annually"; the annuity trust takes no contribution after the first.
 - IRS Rev. Proc. 2016-42: a sum-certain trust fails if the chance it runs dry "is greater than 5 percent", computed at
-  one assumed rate; Parks, Finestone & Leahy (*Tax Notes*, 2015) on why that assumption made trusts fail when rates fell.
+  one assumed rate; Parks, Finestone & Leahy (*Tax Notes*, 2015) on why that assumption made trusts fail when rates fell. **[Window 28 Oct: the paper says low rates stopped new trusts *qualifying*, not that trusts failed. And Rev. Proc. 2016-42's 5% is the chance a life annuitant outlives a trust at one fixed rate, a tax-deduction test: a different event from our 0.75%, so "sits well inside" compares unlike with unlike. Yardstick at most, never "three to five times inside".]**
 - Yale Policy 2202 and Tobin (1974): the 80/20 spending dial, and why endowments smooth at all.
 - Health Canada (2005), *Pharmaceutical Technology* (2015), *AAPS Open* (2017), *J. Controlled Release* (2003):
   dose dumping, Palladone, zero order and mean dissolution time, now read at source.

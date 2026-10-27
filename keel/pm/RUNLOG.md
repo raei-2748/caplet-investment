@@ -6,6 +6,7 @@
 
 | Date (Sydney) | Room | Output (link) | Score aimed at | Used by (filled later) |
 |---|---|---|---|---|
+| Wed 28 Oct 09:55 | Window | Gate beat: 34 scout claims (7 false/overstated) + numbers re-run (5 mismatches), marked in place; 3 official files checked, manifest fix PR #70; own find thin-coupon twins W-01: `../office/outbox/2026-10-28_window_thin-coupons-and-four-wrong-sos.md` | IS, PA, N4 | |
 | Wed 28 Oct 07:40 | Noticeboard (daily loop) | Round 1 gathered `../loop/rounds/2026-10-28.md` (Q1 via the birthday rule; lens 2; three unvisited fields); Kitchen 27 Oct merged in from the day branch; board groomed; brief; ep 32 | N3, N4, IS | |
 | Tue 27 Oct 22:20 | Claude (Ray's thread, not a room) | Model Suite `../models/README.md`: four worlds, five rival plans, 7 charts; the champion breaks a promise in 0-1.6% of worlds vs 22-36% for rival plans; new fact: $300k buys the ten cheques in 1 month in 4 since 1871, none from mid-2007 to now: `../ips_rewrite/inbox/2026-10-27_model-suite.md` | PA, IS, CK | |
 | Tue 27 Oct 20:40 | Kitchen | Scene 2 (Nora-Kai after C-02: the truce holds through a loss; Nora holds the question open). One idea filed: "is there a ninety?", a 2031 figure the bottom rule can never go below, to the Genius Lab for Thu 29 Oct: `../office/outbox/2026-10-27_kitchen_is-there-a-ninety.md` | CK, PA, N3 | |
