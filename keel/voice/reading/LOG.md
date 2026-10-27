@@ -17,7 +17,7 @@ about 60-90 pieces an hour at best. Collections (memo anthologies, letter compil
 Each entry: **Open / Best / Close** (quoted lines), **Craft** (rhythm, stance, shape), **Steal** (one move worth
 copying), **Insight** (only if there is one). What the entries add up to goes in `SYNTHESIS.md` after every 100.
 
-Count so far: **359**
+Count so far: **392**
 
 ---
 
@@ -871,6 +871,68 @@ Batch 10 note: the six Hopkins essays split three and three. The three that end 
 359) are the ones whose last line you can still picture an hour later; the three that end on a lesson (356-358) end
 on the weakest sentence they contain. Synthesis 3's rule holds. Grantham's best piece (340) was written in the week
 of the 2009 low and is a plan, not a forecast.
+
+## Round 2, batch 11 (28 Oct, 08:00-09:00 Sydney): 360-392
+Checked against the log's URL and title list first. Not counted: two Marks memo pages on marketfolly.com that held
+only summaries ("It's Not Easy", "The Race Is On"), and a Bank of England press page on King's 2012 lecture.
+Quotes marked "…" were cut at the reader's 125-character limit.
+
+### 360-370 · Housel, eleven more (collabfund.com/blog) · reader
+| # | Post | Open | Best line | Close | Craft · Insight |
+|---|---|---|---|---|---|
+| 360 | "Makes You Think" https://collabfund.com/blog/makes-you-think/ | "A few lines I came across recently that got me thinking:" | "It is far easier to figure out if something is fragile than to predict the occurrence of an event that may harm it." (Taleb) | "There is no sadder sight than a young pessimist." (Twain) | A post made of other people's sentences. FRB-47. |
+| 361 | "Useful and Overlooked Skills" https://collabfund.com/blog/useful-and-overlooked-skills/ | "On his way to be sworn in as the most powerful man in the world, Franklin Delano Roosevelt had to be lifted…" | "you learn to say 'that's all right,' and drink it." | "The ability to recognize that your wins might not signal that you did anything right…" | **F1:** a body being lifted before the most powerful job on earth. |
+| 362 | "A Few Thoughts on Spending Money" https://collabfund.com/blog/a-few-thoughts-on-spending-money/ | "There are two ways to use money." | "Money is a tool you can use. But if you're not careful, it will use you." | "And knowing what to want is much harder than knowing what to need." | Opens on a count of two. |
+| 363 | "Frugal vs. Independent" https://collabfund.com/blog/frugal-vs-independent/ | "Here's an important distinction about people who spend less than they earn." | "I'm happy when what I'm doing is helping people and unhappy when what I'm doing isn't helping people," (Chuck Feeney) | "He may have looked frugal, but he was actually the freest, most independent person you'll ever hear of." | Admits he judged people too quickly. **F6.** |
+| 364 | "The Full Reset" https://collabfund.com/blog/the-full-reset/ | "To understand the power of starting clean, you have to know the nuance of why the German military became as strong…" | "Our favorite holding period is until the facts change." | "Same thing applies to business strategies, investing ideas, and careers." | Bends Buffett's "forever" line. FRB-50. |
+| 365 | "Wild Minds" https://collabfund.com/blog/wild-minds/ | "Eliud Kipchoge, the world's best marathon runner, was being held in a staging room during the 2021 Olympic Games in Tokyo." | "Either you want someone else's life or you don't." | "That's the kind of philosophy you'll always be remembered for – for better or worse." | **F1:** the world's best runner sitting still. |
+| 366 | "Respect Each Others' Delusions" https://collabfund.com/blog/respect-each-others-delusions/ | "I love the saying that people don't remember books; they remember sentences." | "Learn enough from history to bear reality patiently, and respect one another's delusions." | "Let's bear reality patiently, and respect one another's delusions." | **Ends by repeating its best line as an invitation.** |
+| 367 | "Lazy Work, Good Work" https://collabfund.com/blog/lazy-work-good-work/ | "John D. Rockefeller was the most successful businessman of all time." | "Good ideas rarely come in meetings, or even at your desk." | "Judge people by their outcomes, not by the visibility of their process, which is often hidden inside their head." | Note the tension with #261 (judge by process): Housel argues both ways in different posts. |
+| 368 | "Active vs. Passive Learning" https://collabfund.com/blog/active-vs-passive-learning/ | "If I asked, which do you think will lead to a healthier, happier relationship:" | "If you're paying attention, the whole world is a classroom." | "The differences in outcomes among people with the same formal education are enormous…" | Opens on a dating question. |
+| 369 | "A Message From the Past (Thoughts on Nostalgia)" https://collabfund.com/blog/a-message-from-the-past-thoughts-on-nostalgia/ | "After college, my wife (who was then my girlfriend) and I got an apartment in the Seattle suburbs." | "It's hard to remember how you felt when you know how the story ends." | "The future will be better than you anticipate." | **F1, F6:** his own anxious twenties. Hindsight hides the fear investors felt; judge 2027's decision by what was knowable in 2027. |
+| 370 | "A Few Questions" https://collabfund.com/blog/a-few-questions-1/ | "Which of my strongest beliefs are formed on second-hand information vs. first-hand experience?" | "What question am I afraid to ask because I suspect I know the answer?" | "If I were on my deathbed tomorrow, what would I regret most?" | **An essay made only of questions.** "Whose approval am I auditioning for?" is a good test for an IPS draft. |
+
+### 371-372 · Marks, two early memos · reader
+| # | Memo | Open | Best line | Close | Craft · Insight |
+|---|---|---|---|---|---|
+| 371 | "The Realist's Creed" (2002) https://www.oaktreecapital.com/docs/default-source/memos/2002-05-31-the-realists-creed.pdf | "Early this year, I was asked to write an article for "Trusts & Estates" magazine." | "The thing I'm surest of is that the solution doesn't lie in making guesses about the big-picture future." | "…but it's the one I'd much rather count on for success in the long run." | Written for people who manage other people's inheritances: Laura's situation. "If we avoid the losers, the winners will take care of themselves." FRB-48. |
+| 372 | "Us and Them" (2004) https://www.oaktreecapital.com/docs/default-source/memos/2004-05-07-us-and-them.pdf | "As a kid, I – and probably you – viewed the world in simple terms." | "If everyone invested our way, the opportunities we prize would be few and far between." | "It's Oaktree's job to take advantage of them." | The "I know" school against the "I don't know" school. FRB-48. |
+
+### 373-375 · Hopkins, class of 2027 (three not yet logged) · reader
+| # | Essay | Open | Best line | Close | Ends on |
+|---|---|---|---|---|---|
+| 373 | "My Spotify Playlist" https://apply.jhu.edu/hopkins-insider/my-spotify-playlist/ | "Special memories from the past seventeen years of my life can be captured by my 38 thoughtfully curated Spotify playlists." | "Realizing I was able to unpause the silence and reunite my class, I dug deeper for ideas" | "I'm looking forward to new adventures and starting my 39th Spotify playlist with "Don't Stop Me Now" by Queen." | **A number that counts forward** (38, then 39). |
+| 374 | "Classical Reflections in Herstory" https://apply.jhu.edu/hopkins-insider/classical-reflections-in-herstory/ | "My eyes scan the Latin, searching for a word in the nominative to ground the beginning of my translation." | "Each line of Latin is like a pile of jumbled puzzle pieces." | "As shown, the Classics community at Johns Hopkins provides many amazing opportunities which I intend to utilize fully." | A declaration. The opening is strong; the close is brochure language ("As shown", "utilize fully"). |
+| 375 | "Tikkun Olam" https://apply.jhu.edu/hopkins-insider/tikkun-olam/ | "Tikkun Olam, a desire to help repair the world, is the most important value that my family transmitted." | "It was empowering to take an idea from my head and with hard work turn it into something physical and useful." | "…the opportunities in Chemical and Biomolecular Engineering at JHU are absolutely perfect…" | A declaration. Opens on a definition (the John Locke counter-example again). |
+
+### 376-390 · Paul Graham, fifteen more · reader
+| # | Essay | Open | Best line | Close | Steal |
+|---|---|---|---|---|---|
+| 376 | "How to Get New Ideas" https://www.paulgraham.com/getideas.html | "The way to get new ideas is to notice anomalies: what seems strange, or missing, or broken?" | "Knowledge grows fractally." | "In the best case, exploring such gaps yields whole new fractal buds." | A 100-word essay: one idea, one image. |
+| 377 | "Alien Truth" https://www.paulgraham.com/alien.html | "If there were intelligent beings elsewhere in the universe, they'd share certain truths in common with us." | "And curiously enough, that is itself probably an alien truth." | (acknowledgements) | The idea turns back on itself. |
+| 378 | "Is There Such a Thing as Good Taste?" https://www.paulgraham.com/goodtaste.html | "When I was a kid, I'd have said there wasn't." | "That gap between us was not imaginary." | "So while it's not possible to have perfect taste, it is possible to have good taste." | **Answers his own title with his younger self's wrong answer.** **F6.** |
+| 379 | "Fierce Nerds" https://www.paulgraham.com/fn.html | "Most people think of nerds as quiet, diffident people." | "If you're given a sharp knife, it seems to me better to use it than to blunt its edge to avoid cutting yourself." | "At least not till the nerds end it themselves by bringing about the singularity." | Opens on what "most people think", then breaks it. |
+| 380 | "Crazy New Ideas" https://www.paulgraham.com/newideas.html | "There's one kind of opinion I'd be very afraid to express publicly." | "It doesn't just affect the way we think; it is the Lego blocks we build thoughts out of." | "And if you help them, you'll probably learn something in the process." | "Few understand how feeble new ideas look when they first appear." |
+| 381 | "The Two Kinds of Moderate" https://www.paulgraham.com/mod.html | "There are two distinct ways to be politically moderate: on purpose and by accident." | "Nearly all the most impressive people I know are accidental moderates." | "…you have two choices…" | Defines by a pair. |
+| 382 | "How You Know" https://www.paulgraham.com/know.html | "I've read Villehardouin's chronicle of the Fourth Crusade at least two times, maybe three." | "Your mind is like a compiled program you've lost the source of." | "So although not knowing how you know things may seem part of being human, it may not be." | **The opening admits he can't remember**, which is the essay's subject. |
+| 383 | "Mean People Fail" https://www.paulgraham.com/mean.html | "It struck me recently how few of the most successful people I know are mean." | "Startups don't win by attacking. They win by transcending." | "…because living at all is a scarce resource." | Two short sentences, then the turn. |
+| 384 | "Maker's Schedule, Manager's Schedule" https://www.paulgraham.com/makersschedule.html | "One reason programmers dislike meetings so much is that they're on a different type of schedule from other people." | "For someone on the maker's schedule, having a meeting is like throwing an exception." | "All we ask from those on the manager's schedule is that they understand the cost." | **The close asks for one thing, and names a cost.** **F3.** |
+| 385 | "Good and Bad Procrastination" https://www.paulgraham.com/procrastination.html | "The most impressive people I know are all terrible procrastinators." | "It's like having a vacuum cleaner hooked up to your imagination." | "…you'll leave the right things undone." | Opens on a paradox. |
+| 386 | "Some Heroes" https://www.paulgraham.com/heroes.html | "There are some topics I save up because they'll be so much fun to write about." | "They just sit there quietly radiating optimism, like a battery that never runs out." | "If we work like Newton." | Praise made specific (Clark's prose like a sports car). |
+| 387 | "Mind the Gap" https://www.paulgraham.com/gap.html | "When people care enough about something to do it well, those who do it best tend to be far better than everyone else." | "I'm saying that he'll make you a tractor to replace your horse." | "Perhaps the designers of admissions processes should take a lesson from the example of computer security…" | "Where does wealth come from? People make it." Wealth made, not split: why the gift half owns companies. |
+| 388 | "Be Good" https://www.paulgraham.com/good.html | "About a month after we started Y Combinator we came up with the phrase that became our motto: Make something people want." | "You grow big by being nice, but you can stay big by being mean." | "Be good." | **Two-word close** that the title already promised. |
+| 389 | "You Weren't Meant to Have a Boss" https://www.paulgraham.com/boss.html | "Technology tends to separate normal from natural." | "In an artificial world, only extremists live naturally." | "…finally they're working the way…" | One food metaphor carried through. |
+| 390 | "Do Things that Don't Scale" https://www.paulgraham.com/ds.html | "One of the most common types of advice we give at Y Combinator is to do things that don't scale." | "I have never once seen a startup lured down a blind alley by trying too hard to make their initial users happy." | "…if you have to work hard to delight users when you only have a handful of them, …" | "I have never once seen": certainty from experience, no hedge. |
+
+### 391-392 · Mervyn King's Maradona theory, twice · central bank · reader
+| # | Piece | What it shows |
+|---|---|---|
+| 391 | Marcellus, "Maradona's contribution to monetary theory" (King, 2005, second-hand) https://marcellus.in/story/maradonas-contribution-to-monetary-theory/ | "Maradona ran virtually in a straight line. How can you beat five players by running in a straight line?" "The answer is that the English defenders reacted to what they expected Maradona to do." **A governor explains expectations with a goal everyone has seen.** FRB-49. |
+| 392 | Rathbones, "Maradona monetary policy over" https://www.rathbones.com/en-gb/maradona-monetary-policy-over | Opens "We are all missing sport on the box." Closes "If that's not enough, then it's a whole new ball game!" An asset manager's blog with a voice: the analogy carries the argument. The close leans on a cliché (a mild counter-example). |
+
+Batch 11 note: Graham's best closes are two words because his titles already made the promise ("Be good.", "See
+randomness."). The title and the last line are a pair. Caplet's IPS has no title, but the pitch and the IPS's last
+line can be that pair.
 
 ### Re-reads in batch 4 (not counted)
 Fourteen pieces in this batch had already been logged (the batch's source list was wrong). They are kept here
