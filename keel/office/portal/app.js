@@ -301,7 +301,7 @@
     const B = K.bible;
     if (!B || !B.rules) return "";
     const byName = Object.fromEntries(K.members.map(m => [m.name.split(" ")[0], m]));
-    return `<section class="card bible"><div class="sec-head"><span class="tag px">The bible · eight books, all equal · read first, every run</span><a href="#/doc/${esc(B.doc)}">Read all eight books →</a></div>
+    return `<section class="card bible"><div class="sec-head"><span class="tag px">The bible · nine books (Wharton's three rank first) · read first, every run</span><a href="#/doc/${esc(B.doc)}">Read all nine books →</a></div>
       <blockquote>${esc(B.quote)}<cite>${esc(B.said)}</cite></blockquote>
       ${B.books && B.books.length ? `<ul class="books">${B.books.map(b => `<li><a href="#/doc/${esc(B.doc)}"><span class="px">${esc(b.title.split(":")[0])}</span>${esc(b.title.split(": ").slice(1).join(": "))}<span class="tiny muted">${esc(b.date)}</span></a></li>`).join("")}</ul>` : ""}
       <h3 style="margin:1rem 0 0">Keel's reading: the rules every run applies</h3>
@@ -649,22 +649,38 @@
       <p class="small muted" style="margin:.5rem 0 0">Five criteria across the Trading Notes, the IPS and the Final Report, judged together. WInS gains and losses are not scored. The bible, Book 8; part by part in ${docLink("keel/library/ips_road_2026-10/03_CRITERION_MAP.md", "the criterion map")}.</p></section>`;
   }
   function pageMore() {
-    const L = [["#/office", "Office dashboard", "Rooms on time, charts, deadlines and the latest commits"], ["#/ips", "The IPS", "Every version and what changed"], ["#/doc/keel/BIBLE.md", "The bible", "Eight books, read first by every run"],
+    const L = [["#/office", "Office dashboard", "Rooms on time, charts, deadlines and the latest commits"], ["#/ideas", "The idea bank", "Every good idea and the deliverable it lands in"], ["#/ips", "The IPS", "Every version and what changed"], ["#/doc/keel/BIBLE.md", "The bible", "Nine books, read first by every run"],
       ["#/plan", "Questions for you", "The danger-zone question, Keel's own calls with reasons, and your instructions"], ["#/rooms", "Rooms", "Twelve rooms, each with its decisions and work"], ["#/team", "The six", "Profiles and every take"],
       ["#/activity", "Activity", "Every commit and the run log"], ["#/episodes", "Episodes", "The story so far (fiction)"], ["#/library", "Library", "Every page Keel has written"]];
     app.innerHTML = `<div class="today"><div class="day-title"><span class="eyebrow">One click deeper</span><h1>Everything else</h1></div>
       <ul class="morelist">${L.map(([h, t, d]) => `<li><a href="${h}"><b>${esc(t)}</b><span>${esc(d)}</span></a></li>`).join("")}</ul>${judgedCard()}</div>`;
   }
 
+  // ---------- the idea bank (BIBLE Book 9: every good idea lands in a deliverable) ----------
+  function landsKey(l) { return /^both/i.test(l) ? "both" : /^ips/i.test(l) ? "ips" : "fr"; }
+  function pageIdeas(filter) {
+    const B = K.idea_bank || { ideas: [], dropped: [] }, f = ["ips", "fr", "both"].includes(filter) ? filter : "all";
+    const n = k => B.ideas.filter(i => landsKey(i.lands) === k).length;
+    const shown = B.ideas.filter(i => f === "all" || landsKey(i.lands) === f);
+    const chip = (k, label, c) => `<a class="chip" href="#/ideas${k === "all" ? "" : "/" + k}" aria-pressed="${f === k}">${esc(label)} · ${c}</a>`;
+    const groups = [...new Set(shown.map(i => i.area))];
+    app.innerHTML = `<div class="today"><div class="day-title"><span class="eyebrow">The idea bank</span><h1>Every good idea, and where it lands</h1></div>
+      <p class="lede">Ahaan, 27 Oct: "Every single good idea you have ... must end up in either the IPS or the Final Report or both." Each one is banked the day it's found, with its honest weakness. ${docLink("keel/ips_rewrite/IDEA_BANK.md", "The bank →")}</p>
+      <div class="filters" style="margin:.8rem 0 1rem">${chip("all", "All", B.ideas.length)}${chip("ips", "IPS", n("ips"))}${chip("both", "Both", n("both"))}${chip("fr", "Final Report", n("fr"))}</div>
+      ${groups.map(g => `<section class="block"><h2>${esc(g)}</h2><ul class="ideas">${shown.filter(i => i.area === g).map(i => `<li><details><summary><span class="i-head"><b>${esc(i.title)}</b></span><span class="i-meta"><span class="pill">${{ ips: "IPS", fr: "Final Report", both: "Both" }[landsKey(i.lands)]}</span></span></summary>
+        ${i.more ? `<p>${esc(i.more)}</p>` : ""}${/[(:]/.test(i.lands) ? `<p class="small"><b>Where:</b> ${esc(i.lands)}</p>` : ""}${i.notes.map((t, k) => `<p class="small${k ? " muted" : ""}">${esc(t)}</p>`).join("")}</details></li>`).join("")}</ul></section>`).join("")}
+      ${B.dropped.length ? `<details class="dropped"><summary>Dropped, with the reason · ${B.dropped.length}</summary><ul class="rlist">${B.dropped.map(d => `<li><b>${esc(d.idea)}</b><p class="small muted">${esc(d.why)}</p></li>`).join("")}</ul></details>` : ""}</div>`;
+  }
+
   // ---------- router ----------
-  const TABS = [["#/", "Today"], ["#/days", "Days"], ["#/ips", "IPS"], ["#/more", "More"]];
+  const TABS = [["#/", "Today"], ["#/days", "Days"], ["#/ideas", "Ideas"], ["#/ips", "IPS"], ["#/more", "More"]];
   function route() {
     hideTip();
     const h = location.hash || "#/", seg = h.replace(/^#\/?/, "").split("/");
-    const tab = seg[0] === "" ? "#/" : seg[0] === "day" ? "#/days" : ["ips", "compare"].includes(seg[0]) ? "#/ips" : seg[0] === "days" ? "#/days" : "#/more";
+    const tab = seg[0] === "" ? "#/" : seg[0] === "day" ? "#/days" : ["ips", "compare"].includes(seg[0]) ? "#/ips" : seg[0] === "days" ? "#/days" : seg[0] === "ideas" ? "#/ideas" : "#/more";
     document.getElementById("tabs").innerHTML = TABS.map(([href, label]) => `<a href="${href}" ${href === tab || (href === "#/" && tab === "#/") ? 'aria-current="page"' : ""}>${label}</a>`).join("");
     const pages = {
-      "": () => pageToday(), day: () => pageToday(seg[1]), days: pageDays, more: pageMore, office: pageHome, ips: () => seg[1] ? pageVersion(seg[1]) : pageIps(), compare: () => pageCompare(seg[1], seg[2]),
+      "": () => pageToday(), day: () => pageToday(seg[1]), days: pageDays, ideas: () => pageIdeas(seg[1]), more: pageMore, office: pageHome, ips: () => seg[1] ? pageVersion(seg[1]) : pageIps(), compare: () => pageCompare(seg[1], seg[2]),
       rooms: pageRooms, room: () => pageRoom(seg[1]), team: pageTeam, member: () => pageMember(seg[1]),
       activity: () => pageActivity(seg[1]), episodes: pageEpisodes, plan: pagePlan, library: pageLibrary,
       doc: () => pageDoc(decodeURIComponent(seg.slice(1).join("/"))),

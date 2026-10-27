@@ -58,7 +58,7 @@ below the bottom from 4.9% to 0.03%, for about $160 of mean gift. Our own first 
 of mean gift (MODEL, K07 T1-T3).
 
 ## Where every verified idea went (Ahaan, I54: nothing good is thrown away)
-IPS = an idea a clause can carry (the rewrite thread decides). FR = the Final Report bank. Bin = with its reason.
+IPS = an idea a clause can carry (the rewrite thread decides). FR = Final Report (the keepers are rows 45-54 of `../../IDEA_BANK.md`). Bin = with its reason.
 
 | Idea (scout) | Verdict | Goes to |
 |---|---|---|

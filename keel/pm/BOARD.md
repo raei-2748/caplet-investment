@@ -5,7 +5,8 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Tue 27 Oct 202
 
 **This week's top 3 (Tue 27 Oct - Sun 1 Nov; IPS in 11 days). Groomed Tue 27 Oct 07:30:**
 1. **The IPS rewrite, slowly (P01, `../ips_rewrite/README.md`).** Research and trials to Wed 28 Oct (WO-R2, R5-R7),
-   synthesis Thu 29 Oct, a fresh draft Fri 30 Oct, near-final to Caplet **Sat 31 Oct**. No room asks for a draft early.
+   synthesis Thu 29 Oct, near-final to Caplet **Sat 31 Oct**, the only timeline rule (BIBLE Book 9: drafting may start
+   whenever Keel judges best; work intensively, every good idea into `../ips_rewrite/IDEA_BANK.md`).
 2. **Vote set B is settled by Keel's calls** (Ray, 26 Oct: "just make your own call"; `ASK_HUMANS.md` D1-D5). The one
    item still Ray's is D6 (danger zone: Keel recommends holding the WInS book as it is). Students may overrule any call.
 3. **Ray's read-only checks by Sat 31 Oct:** SMApply IPS form fields [T15] and the short-term Treasury ETF listing on

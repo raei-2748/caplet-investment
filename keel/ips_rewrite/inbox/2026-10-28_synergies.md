@@ -85,5 +85,5 @@ asks for, and it comes from fields that no rival plan draws on.
 
 ## Everything else
 Each verified idea has a row in `../research/R07_synergies/README.md` ("Where every verified idea went"). The keepers
-are in the Final Report bank (`../../library/final_report_bank.md`, rows 11-20), including the honest rejections
+are in the idea bank (`../IDEA_BANK.md`, rows 45-54), including the honest rejections
 (judges reward knowing why not).

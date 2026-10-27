@@ -1,6 +1,6 @@
 # FICTION frame, real research. The IPS rewrite, from the drawing board (26 Oct - 6 Nov 2026)
 
-> **Read `../BIBLE.md` first: eight books, all equal (Caplet's five, 23-26 Oct 2026, and Wharton's three official files of 27 Oct).** They beat every rule on this page.
+> **Read `../BIBLE.md` first: nine books (Caplet's six, 23-27 Oct 2026, all equal, and Wharton's three official files of 27 Oct, which rank first).** They beat every rule on this page.
 > Extraordinary above all; a distinctive, deeply human voice (Ahaan's, never AI's); one subtle motif, Caplet XR (extended
 > release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
 > IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
@@ -37,14 +37,15 @@ or punctuation; en dashes stay.
 - Never edit the IPS Report Google Doc. Caplet votes on every strategy change; only Ray trades.
 
 ## Plan (Sydney dates; reset 26 Oct after Ray: "THINK. I don't want you to be hasty")
-Drafts D1-D4 (26 Oct) were written far too fast. They are sketches only and nobody should review them. No drafting
-until Fri 30 Oct. Each day's thinking goes in `THINKING_LOG.md` and on the portal (`../pm/CHANGES.md`).
+Drafts D1-D4 (26 Oct) were written far too fast. They are sketches only and nobody should review them. ~~No drafting
+until Fri 30 Oct.~~ Overruled by BIBLE Book 9 (Ahaan, 27 Oct): the only timeline rule is a final IPS draft for Caplet's
+review on Sat 31 Oct; drafting may start whenever Keel judges best. Every good idea goes in `IDEA_BANK.md`. Each day's thinking goes in `THINKING_LOG.md` and on the portal (`../pm/CHANGES.md`).
 
 | When | Step | Output |
 |---|---|---|
 | Mon 26 - Wed 28 Oct | Deep, wide reading for north star 4 (niche concepts included, each tested against the case); the full ideation ladder (Haiku wide, Sonnet deeper, Opus cross-domain) for ahas and a fuller XR; real Keel debates and votes (Courtroom WO-R2, vote set B) | `research/`, `ideation/`, `lab/`, `THINKING_LOG.md` |
 | Thu 29 Oct | Synthesis: the strategy in our own terms, each concept placed, the aha chosen, the motif's job in each paragraph, decisions for Caplet | `01_SYNTHESIS.md` |
-| Fri 30 Oct | A fresh draft from the synthesis (blank page, not an edit of D1-D4), then Courtroom + mock judges + voice read against Ahaan's essays and TNA (`../voice/fingerprint.py` + the plastic test) | `drafts/D5/`, `reviews/` |
+| Fri 30 Oct | A fresh draft from the synthesis (blank page, not an edit of D1-D4), then Courtroom + mock judges + voice read aloud against the guide's questions, with Ahaan's essays and the TNA for tone (no script or count is a gate) | `drafts/D5/`, `reviews/` |
 | Sat 31 Oct | Near-final draft to Ray for review | `drafts/D5/` |
 | Sun 1 - Thu 5 Nov | Revise with Caplet; TNA coherence, numbers, word count | `drafts/FINAL/` |
 | Fri 6 Nov | Buffer; Caplet submits by Sat 7 Nov 09:00 Sydney (Fri 6 Nov 5 pm ET) | |

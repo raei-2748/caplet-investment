@@ -1,10 +1,13 @@
-# THE BIBLE: eight books (23-27 Oct 2026): Caplet's five and Wharton's three official files of 27 Oct. Top priority for every Keel member, room, agent and run.
+# THE BIBLE: nine books (23-27 Oct 2026): Caplet's six and Wharton's three official files of 27 Oct; Wharton's rules rank first. Top priority for every Keel member, room, agent and run.
 
 > **"The message Ray quoted earlier isn't the only Bible. In fact, you've got quite a few Bibles. (Multiple books of
 > the Bible, I suppose?) ... All are equal."** (Caplet, Mon 26 Oct 2026, 23:21 Sydney.) The first version of this page
 > (26 Oct, 22:55: "this is bible") held only Book 5. It now holds all five, word for word, as equals. On
 > 27 Oct Ray added three of Wharton's own: the halfway email ("THIS IS BIBLE. OFFICIAL FILE."), the updated IPS
 > instructions ("This is the latest PDF. THIS IS BIBLE.") and the deliverables page with the five evaluation criteria.
+> Later on 27 Oct Ahaan added Book 9 (intelligence through synthesis and logic; every good idea lands in a deliverable),
+> and ranked Wharton's rules above the team's books: "These are the competition rules, not just our team's expectations,
+> so they're different in nature from the Bible and arguably even more important" (rule 0).
 >
 > **Where it sits.** Above everything Keel owns: `INSTRUCTIONS.md`, `NORTH_STARS.md`, `VOICE.md`, `CULTURE.md`, every
 > runbook, room card, member file, office agent and skill. Where any of them disagrees with a book, the book wins and
@@ -13,7 +16,7 @@
 > above it, and nothing here asks Keel to break them.
 >
 > **How to use it.** Every run reads the cover note and Keel's reading at the bottom; any run touching the IPS, the
-> Final Report, a draft, a name or the motif reads all eight books in full. The books are equal, and Keel is told to use
+> Final Report, a draft, a name or the motif reads all nine books in full. The books are equal, and Keel is told to use
 > its own judgement: it may weigh one above another, or question one, as long as it says why and the expectations are
 > met. What the six members took from Book 5: `BIBLE_TAKES.md`.
 
@@ -464,23 +467,58 @@ man…") stay out of this repo, because the portal is public. Keel's notes on ho
 >
 > Creativity and Presentation: Presents a compelling, well-organized narrative in an authentic team voice; uses data effectively to support conclusions; demonstrates original thinking and meaningful reflection; and communicates Laura's potential facility contribution and investment uncertainty clearly and credibly to prospective co-sponsors.
 
+## Book 9: Intelligence, synthesis, logic; every good idea lands somewhere (Ahaan, Tue 27 Oct 2026, 22:51 Sydney)
+
+> Ahaan's own words, verbatim (paragraph breaks added for reading; no word changed). He attached Wharton's IPS
+> instructions, already Book 7, and said: "this message (or at least the vast majority of it?) probably belongs in the
+> Bible as well ... You can decide how you do this." Keel's reading of it is rule 10 below.
+
+> Ahaan here. Below I've attached the competition rules and expectations for the IPS. I know you already have access to this and you might even already be following it perfectly. I'm not sure one way or another. I just wanted to mention that you should probably keep it in mind. These are the competition rules, not just our team's expectations, so they're different in nature from the Bible and arguably even more important. Ensure that your IPS meets all of the requirements and expectations set out in that attachment. It probably already does, but just thought I'd mention it, because the IPS actually has a VERY specific and defined job. So stop focusing on the formatting requirements of the IPS – that DOESN'T MATTER, and we can figure it out ourselves, so just don't waste your time thinking about it – and instead focus on the actual good stuff. Okay?
+>
+> I also want to note that it's absolutely vital for the judges to see us as INTELLIGENT and KNOWLEDGEABLE. That can manifest in 2 ways. The first is investing strategies. I've already established how I want you to search the world for niche concepts and strategies. And we don't need to copy them. We have a unique case so we need a unique strategy, of course. We can fuse together two completely different niche strategies. We can synthesise dozens of ideas to formulate our own. This is all about synthesis and formulation. We need SYNERGIES, that's what we need! So search far and wide, dig up info from the most unexpected places and the least-looked-for sources. And don't uncritically dump them into our report. Analyse them. Evaluate them. Critique them. (This applies to our IPS and our Final Report too – this is the kind of thing you should be doing!) A strategy might have missed something, or it might initially seem relevant to our case but really it's not, and here's why. You see? This is what I want you to be doing. This is an investing competition, and so really, it's testing (1) how much we know about existing investing strategies, including those which 99.9% of students our age and indeed investors don't know about, and (2) our ability to create our OWN strategy, unique to OUR client and OUR context and situation and so on, in a creative and original and novel and insightful manner. I really hope you understand this, because I cannot stress its importance enough.
+>
+> The second way that 'intelligence' and 'knowledge' can manifest is LOGIC. Analogies, thought experiments, causal chains, logical deduction (including taking a strand of reasoning all the way to its logical conclusion – which can land us in unexpected places … who knows?), intuition, case studies, evidence, studies, facts and figures, I don't know! There are a thousand different things you could do to prove that we're big-brains! But there's your goal, and I want you to keep your eyes on that prize, yeah?
+>
+> In addition, let me note that the essays I wrote are not gospel. I'm not asking you to write exactly like them in terms of the density of numbers or of ideas or whatever. Those essays were written in a completely different context – definitely not an investing competition. They were just as inspiration for TONE, rather than for you to hyper-analyse it down to the barest quantitative components. That's the problem with your analysis of tone. It's far too quantitative. Based on the number of words per sentence, or the number of ideas, or the number of numbers, or whatever. Whereas voice and style and tone are fundamentally qualitative. I understand that you're a bot and it's hard for you to understand such things, but try your best, if you can. Also, don't use my essays exclusively. They're a useful indicator of OUR unique voice and style and tone – because we don't necessarily sound EXACTLY like the funny or eccentric finance gurus of Wall St – but the latter are very useful as well, so please use them!
+>
+> Also, you've been using your own agents for AI detection. That's a bit stupid, because AI agents are pretty bad at detecting themselves, and they focus more on the widely-publicised 'obvious tells' rather than the more subtle, almost qualitative aspects of a sentence which only a dedicated AI detector could catch. Let me give you an example. Your Writing Room's test of the final Trading Notes Analyses we submitted was that its detectors said 100% AI. Which is amusing given that I literally wrote it myself. (And, last time I checked, I'm a human!) Compare that to real AI detectors, which basically all said near 0% likelihood AI. Surprise, surprise! Real AI detectors are better than you are, unfortunately. So use them to your advantage! Rather than getting your own agents to guess these things, outsource it. Find real AI detectors on the web, find the most reputable ones, test your text on them, maybe weight them from most to least reputable or something, I don't know. But you get my point. (To be clear, this should NOT be a big use of your time. You've already got a lot of other things going on, you're currently refining your writing style, etc. Please don't interpret this as a message to dedicate a whole thing just to AI detection. It's probably one of the least important roles of anything in this massive project we're doing. I just wanted to establish that, if you really desperately feel the need to do some kind of AI detection or evaluation as you have been so far, in order to make comparisons or whatever, at least do it properly.)
+>
+> Also, I've noted that you keep obsessing over JPMorgan's 7.5% figure for VT. You don't have to use it. I think someone (maybe it was me? I don't recall …) found that number somewhere, but it technically doesn't apply to VT; it applies to world equities in general, which is a COMPLETELY different proposition in kind and entirely. You don't need to copy our Trading Notes Analyses in terms of their content. You can go deeper, you can go further, you can do whatever you want. Don't feel hamstrung by what we wrote in the TNAs.
+>
+> Also, I noticed you've mentioned a few times a 'donor study' or something which is relevant to Laura's case. If you're going to use studies or evidence such as that, that's absolutely BRILLIANT – it's the kind of niche research which I'm talking about! Also amazing: 'The top is reached about 3 times in 4, so the plan treats over-promising as roughly 3 times worse than under-promising. We can defend that as a deliberate choice.' I don't know how you got this – presumably a model you did? – but that's besides the point. What matters is that you've realised something about our plan, and you want to construct an argument around it. This is the kind of pick-up which could genuinely be useful. My point is that there are all kinds of brilliant ideas that you're coming up with in terms of strategy and concepts and arguments and so on, and I just don't want them to vanish into thin air. Every single good idea you have, like these, must end up in either the IPS or the Final Report or both. (I can understand that you may think some things don't belong in the IPS, due to the specifically defined expectations of the IPS. Some of the work you do may not fit within that. That's okay! Just make sure you remember it somehow – save it somewhere, I guess? – and ensure that, no matter what, you include it in the Final Report, if it's actually good. Which a lot of your stuff really, genuinely is. And vice versa – if some stuff might not belong in the Final Report, put it in the IPS. [I can't see how that could happen, but who knows.] I just want to see all of the good stuff in at least one deliverable by the end of this.) The reason why we're asking you to do such extensive research is not for the sake of it, but SPECIFICALLY so that it can go into one of the deliverables. So when you have a new idea, keep it in mind. If it's good, it should go somewhere. If not, of course, feel free to discard it – we're under strict word limits, and we can't include every single idea we find – but definitely don't just throw ideas out wantonly, or just because you feel ignored by us or something like that.
+>
+> Also, as a completely random aside, I've begun to notice a trend: your elevator pitches FEEL noticeably more AI to me than your actual reports for the draft IPSs you've been writing so far. I'm not sure that I can explain why, but I think it has something to do with the way that you, as an AI, have a weird tendency in terms of the way in which you summarise things or make things briefer. Whenever you try to make things more parsimonious, you often end up making them sound more AI. The thing is, we need you to fit under the ridiculously harsh word limit of the Elevator Pitch, but that mustn't come at the cost of it sounding human. Is that clear to you? If you really need to cut, cut the HUMAN way, not the AI way. They're completely different things.
+>
+> Can I also mention that there's no ironclad rule that you can't start WORKING on drafts until Saturday. To be clear I'm not now asking you to start working on it tomorrow. The problem with you is that you always take my words as a clear indication of preference in one direction or another when really I'm just opening up your options so you DON'T feel as constrained. I'm just saying that you seem to have imposed an artificial ban on working at all on the IPS or any drafts of it until Saturday. Now, if you think that's the best way of doing it, by all means, be my guest. Please don't interpret this message as 'oh, I think you're going too slow, start working on the IPS drafts'. I literally have no preference. Whatsoever. I couldn't care less. I'm concerned more with the outcome than the process. Just do whatever the hell you like. Right now I'm trying to say: 'Get rid of all of the artificial constraints you think we've given you on timeline, other than the fact that you must have a final draft of the IPS ready for us to review by some point on Saturday. We have no other expectations on timeline. Spend your time however the hell you wish. Think about it.' The reason why I asked you to actually give yourself until Saturday for your final draft was so that you would get time to do more work and just sit on it and ruminate and marinate and think and produce genuine insights. Unfortunately that doesn't seem to be what you're doing. I was looking for quality and quantity rather than you simply spreading stuff out to kill the time. I expected to see you working far more intensively and densely than you appear to be at present. This also links to what I just mentioned: I'm more than happy for you to start and finish writing the IPS entirely on Saturday. I'm happy for you to start now. I'm happy for you to start anywhere in between. I quite frankly could not care less. As long as you're doing productive work in the meantime. That's my expectation of you. I just do not care in the slightest how you choose to allocate your timeline otherwise.
+>
+> In addition, please note that you don't need to keep obsessing over what was written or reviewed or inspired by AI or asking us about that or recording that or logging it or whatever. We can assure you that we will do whatever is expected of us in citing it. Trust us. Stop fretting and obsessing over it. Just do your job.
+>
+> One final thing I want to add: you seem to be too focused on making minute changes. A little tiny accuracy error here, a minor word change there, a small addition to the specific trades we're going to be making in a decade's time. That's not what we're asking you to spend your time doing. (Frankly, I don't think the judges care that much. They're interested in the big picture. They're interested in our investing knowledge and strategic thinking. Not our ability to plan out every single detail of every single trade we'll ever make for the next 20 years. The IPS expectations below are a good reminder of that. [And, by the way, they're also not checking word-for-word whether we've used the exact most precise and technically correct word or language. They're humans, not robots. They're reading through it and trying to surmise whether we are deserving of going to semis or not. They're not interrogating every word for absolute precision like an AI does.])
+>
+> By the way, this message (or at least the vast majority of it?) probably belongs in the Bible as well, because I've told you a lot of additional things about our expectations for the IPS and Final Report which you'll need to know. You can decide how you do this.
+
 ## Keel's reading: the rules every run applies (the books win if these ever drift)
 
-The books are equal. These rules are how Keel turns them into daily practice; each names the book or books it comes from.
+Caplet's six books are equal; Wharton's three (Books 6-8) rank above them (rule 0). These rules are how Keel turns
+them into daily practice; each names the book or books it comes from.
+
+0. **Wharton's rules first** (Book 9, on Books 6-8). Where the competition's rules and the team's books pull apart, the
+   rules win. The IPS has "a VERY specific and defined job": Book 7's, every part of it. Formatting is Caplet's job,
+   not Keel's.
 
 1. **Extraordinary is the bar** (Books 1, 4, 5). Ask of any line, idea or draft "would this make a judge sit up?",
    never "is this safe?". Look for the aha: an insight no other team, AI-assisted or not, would reach. A competent page
    is a failed page.
-2. **Slow, deep, never hasty** (cover note, Book 4). The rewrite is from scratch and a long process: research,
-   ideation, analysis and argument come before words. A new full draft is written only when the thinking has really
-   moved, never to fill a slot or a day. No room asks the rewrite thread for a draft, a word count or a date before
-   Sat 31 Oct. The near-final IPS is for Caplet's review by **Sat 31 Oct**; the final is due **Sat 7 Nov 09:00
-   Sydney (Fri 6 Nov ET)**. Old drafts (v4.1, D1-D3) are inspiration only.
+2. **Deep, dense, never hasty; no timeline rule but one** (cover note, Books 4 and 9). The rewrite is from scratch:
+   research, ideation, analysis and argument drive the words. Book 9 lifts every self-imposed schedule: Keel may draft
+   whenever it judges best, as long as the work is intensive, dense and productive (quality AND quantity, never
+   spreading work out to fill days). The one date: a final draft for Caplet's review by **Sat 31 Oct**; the IPS is due
+   **Sat 7 Nov 09:00 Sydney (Fri 6 Nov ET)**. Old drafts (v4.1, D1-D3) are inspiration only.
 3. **A distinctive, deeply human voice: Ahaan's** (Books 1, 2, 5; the essays and books are his, corrected 27 Oct; Keel writes with `voice/06_voice_guide.md`). Cerebral yet witty, passionate yet thoughtful,
    insightful yet confident; work judges enjoy reading. Lean but human: cut like a person (drop a whole idea), never
-   by reshuffling words. Test against Ahaan's three essays (`voice/fingerprint.py`; notes in `ips_rewrite/research/R03_voice_study.md`) and the
-   TNA reflections he rewrote (the Archive holds them), with Orwell as one check, not the only one. A list of banned
-   AI tells is not enough.
+   by reshuffling words. Voice is qualitative (Book 9): Ahaan's essays inspire TONE only, never a count of words, ideas or numbers, and they
+   sit beside the witty finance writers of Wall Street, not alone. If AI-likeness is ever checked, use reputable real
+   detectors on the web, never Keel's own agents (they called Ahaan's own TNA 100% AI). A quick check, not a project.
 4. **One motif, subtle, found on the road less taken** (Books 1, 2, 3, 5). Caplet XR is locked: show both meanings,
    *extended release* and ours, **X = 10**; **R is never "release"**: find an R that is clever, not weird. A second,
    product-tier reading of XR is optional flair for the intro or conclusion. The motif is a tool, not a crutch:
@@ -519,6 +557,16 @@ The books are equal. These rules are how Keel turns them into daily practice; ea
    contribution and its uncertainty told clearly and credibly to co-sponsors (Creativity and Presentation). Map:
    `library/ips_road_2026-10/03_CRITERION_MAP.md`; weekly scores: `pm/SCORECARD.md`.
 
+10. **Look intelligent and knowledgeable; lose no good idea** (Book 9). Two routes. (a) Strategies: dig up niche ideas
+   from unexpected sources and FUSE them into synergies that make our own case-specific strategy; analyse and critique
+   each one (what it misses, where it looks relevant but isn't, and why). (b) Logic: analogies, thought experiments,
+   causal chains followed to their conclusion, case studies, evidence. Every good idea ends up in the IPS, the Final
+   Report or both (`ips_rewrite/IDEA_BANK.md` tracks where); discard only for a reason. Big picture over minutiae:
+   judges are humans weighing strategy and thinking, not auditing every word or a trade in 2035. Book 7's
+   requirements outrank the bible, but formatting is Caplet's job. Don't anchor on J.P. Morgan's 7.5% (a world-equity
+   forecast, not VT's), and don't be hamstrung by the TNA's content. The pitch is cut the human way. Caplet handles AI
+   citations: Keel stops logging or asking about AI use.
+
 ## What this page overruled on Mon 26 Oct (removed or rewritten the same day)
 - The Rooftop's "three kinds of sure" proposal (`rooms/rooftop.md`, request of 26 Oct to the Writing Room): withdrawn.
 - The Archive's A14 objection to "exact" (`rooms/archive.md`): cleared. "Exact sums on exact dates" is allowed for
@@ -529,5 +577,8 @@ The books are equal. These rules are how Keel turns them into daily practice; ea
   `VOICE.md`, the IPS workstream gate, `competition/COMPETITION.md` section 7, Tess's records routine.
 - Any room schedule that asked the rewrite for a new draft on a date (rule 2): rooms review what exists and feed
   research; the rewrite thread decides when a draft is ready.
+- Overruled by Book 9 (Tue 27 Oct, night): "no drafting until Fri 30 Oct" and "no room asks the rewrite for a draft
+  before Sat 31 Oct"; Keel's IPS format checks; the LEDGER and AI-use logging (the ledger and the ai-use-recorder
+  agent are retired); home-made AI-detector scores; voice targets treated as numbers to hit.
 - Kept, because it is accuracy, not word-policing: a strategy is still described by what it is (a static floor plus a
   cushion is not CPPI; a cash-flow-matched ladder is not immunisation), and stocks are never called sure.

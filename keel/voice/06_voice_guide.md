@@ -8,8 +8,10 @@ exercises (`05`). Read `../BIBLE.md` first; it outranks this page. This page is 
 A sharp seventeen-year-old who argues like a debater and has read too much Howard Marks. Sure of a few things and
 says so; honest about one weakness and says that too; funny about once a page, and never at Laura's expense.
 
-Three borrowed parts, one person:
-- **Ahaan's mouth.** The long sentence that builds clause on clause, then the blunt one. Concede for real, then
+Three borrowed parts, one person, with the Wall Street writers (Marks, Buffett, Asness, Levine, Cembalest,
+Damodaran; `reading/LOG.md`) as much a source as Ahaan's essays:
+- **Ahaan's mouth** (his essays are inspiration for *tone*, not a template; he wrote them for a different contest, 27 Oct).
+  The long sentence that builds clause on clause, then the blunt one. Concede for real, then
   "But". Homely similes inside formal sentences ("revenge with a wig on"). Numerals, spaced en dashes, British
   spelling, pun headings.
 - **Marks's spine.** Every piece is an argument about one idea, with an opponent, ending on what we will do.
@@ -43,14 +45,14 @@ Not every paragraph uses every step, but a paragraph that uses none is a fact sh
 |---|---|---|
 | 1 | **Find the idea before the sentence.** Long sentences and idea-words arrive together (E10). Facts with no idea above them are what Ray called plastic. | Can I say this paragraph's idea without a number or a ticker? |
 | 2 | **Give every paragraph an opponent**, voiced fairly, ideally in their own short sentences. | Who disagrees with this paragraph, and did they get to speak? |
-| 3 | **Build long, land short.** About one sentence in five at 30+ words, one in six under 7. Never every sentence at 12-25 (that is D4's 0.49 swing). | `fingerprint.py`: swing 0.6-0.75, long 15-25%, short 15-20% |
-| 4 | **One number per paragraph, and make it felt.** Shrink it to a human scale ("a little under half of one cheque"), react to it ("Snug."), or make it a choice (Buffett's two piles). Round it. Numerals. | Under 1.5 numerals per 100 words; which number would a judge repeat? |
+| 3 | **Build long, land short.** Let a sentence run when it is carrying a mechanism, and land the point in a short one. Prose where every sentence is the same middling length reads like a form. | Read it aloud: does any sentence carry you along, and does any land like a door closing? |
+| 4 | **The number that matters, felt.** Shrink it to a human scale ("a little under half of one cheque"), react to it ("Snug."), or make it a choice (Buffett's two piles). Round it. Most numbers belong in the Final Report. | Which number would a judge repeat over dinner? Is every other number earning its place? |
 | 5 | **Mechanism before label.** The toy explanation first. A jargon word only after it, or never ("CLO coverage test" becomes "the people who package loans into bonds pay the senior investors first"). | Would a smart 14-year-old follow it? |
 | 6 | **One image per piece, which argues.** Delete it and part of the argument goes. Introduce once, call back once. In the IPS the image is Caplet XR; nothing competes with it. | If I delete the image, does the logic break? If not, delete it. |
 | 7 | **One real confession or limit per piece.** A real mistake (the STRIPS plan, the 75%-stocks plan), a real risk with its size, or "we can't tell you X; we can tell you Y". Never invented, never two. | Is there a moment where we admit something? Is it true and dated? |
 | 8 | **Strong words stay strong** (BIBLE rule 6). A word is wrong only if it is false; then replace it with an equally strong true claim. | Did anyone soften a true sentence? Undo it. |
 | 9 | **Spend kickers like money.** At most 3 in the IPS, 1 per Final Report section. Every other paragraph ends on a number, a decision or the alternative refused. | Count the quotable endings. More than 3 in 500 words is a stand-up set. |
-| 10 | **Ration symmetry.** One "X, not Y" or "A is B. C is D." per 400 words, and make it a real chiasmus. Parallel pairs are where AI hides when it has no argument (E07: 8 of 12 died). | `fingerprint.py`: "X-not-Y" under 3 per 1,000 |
+| 10 | **Ration symmetry.** "X, not Y" and neat mirrored pairs are where AI hides when it has no argument (E07: 8 of 12 died). Keep one only when it is a real turn of thought. | Read the pairs alone: is each one an idea, or a rhythm? |
 
 ## 4. Register by deliverable
 | Deliverable | Mix | Notes |
@@ -61,24 +63,29 @@ Not every paragraph uses every step, but a paragraph that uses none is a fact sh
 | **Co-sponsor text (Final Report)** | Buffett plainness | Short sentences, no jokes about money that isn't ours, every number with its date. |
 | **Keel memos and lab notes** | Hands | The first paragraph is written for a judge (E08); stamps and seeds go below it. |
 
-## 5. The plastic test (read it aloud, then answer)
+## 5. The read-aloud questions (a quality check, never an AI detector)
 1. What is this piece's idea, in one sentence that is not a fact?
 2. Who disagrees, and did we let them speak?
-3. Is there one sentence over 30 words that builds, and a short one it earns?
+3. Does a sentence carry the reader along somewhere, and does a short one land the point?
 4. Which single number would a judge remember, and why that one?
 5. Is there a sentence only Caplet could have written? (Cover the team name: could any other team have said it?)
 6. Where did we spend a kicker, and was it worth it?
-Then run `fingerprint.py` against Ahaan's essays. One "no", or two metrics outside the band, sends it back. **None of
-these is a reason to soften a true claim.**
+7. Where does a judge *feel* something, and what put them there (a place, a person, a date, a cost we accept)? (sections 7-8)
+A "no" is a reason to rewrite, judged by a reader, not a rule. **None of these is a reason to soften a true claim.**
+(Ahaan, 27 Oct night, BIBLE Book 9 and rules 3 and 10: voice is "fundamentally qualitative". No gate counts words,
+sentences, ideas or numbers, and `fingerprint.py` decides nothing. Keel never judges whether its own prose "sounds
+AI": if AI-likeness is ever checked, a student pastes the text into a reputable web detector, once, briefly.)
 
 ## 6. What changed from `VOICE.md` and R03 (and why)
 | Old rule | Now | Why |
 |---|---|---|
-| "Four sentences a paragraph, about 18-32 words each" (VOICE base, move 6) | Build long, land short; the band in law 3 | That rule produced D4's flat 0.49 swing. Ahaan's paragraphs range from one line to twelve sentences. |
+| "Four sentences a paragraph, about 18-32 words each" (VOICE base, move 6) | Build long, land short (law 3), judged by ear | That rule produced D4's flat prose. Ahaan's paragraphs range from one line to twelve sentences. |
+| `fingerprint.py` bands as a pass/fail test (this guide, 27 Oct morning) | **Read aloud and answer the questions; no script decides** | Ahaan, 27 Oct night: the analysis was "far too quantitative"; voice is "fundamentally qualitative". |
+| Ahaan's essays as the model | His essays for **tone**, the Wall Street writers (reading log) equally | Ahaan, 27 Oct: the essays are "not gospel"; they were written for another contest. |
 | "Never: rhetorical questions" | Allowed once a piece, answered at once | Ahaan, Marks ("What's the downside?") and Graham all use them. |
 | "Abstract nouns doing the work" is an AI habit (R03 table) | Name the idea, then show the concrete thing | Keel took it too far: its drafts have a quarter of Ahaan's idea-words. Vague abstraction is the problem, not ideas. |
-| "Numbers: few" | One per paragraph, felt, under 1.5 per 100 words | "Few" was never measured; drafts ran at 3 per 100. |
-| Ban-list first (AI tells table) | Ban-list last, after the six questions | Ahaan, 24 Oct: AI-ness "transcends ... a neat list". |
+| "Numbers: few" | The number that matters, felt; the rest to the Final Report | Drafts ran at 3 numbers per 100 words. |
+| Ban-list first (AI tells table) | No ban-list gate; the read-aloud questions only | Ahaan, 24 Oct: AI-ness "transcends ... a neat list". |
 | The essays called "Ray's" (R03, VOICE, BIBLE notes) | **Ahaan's** | Corrected 27 Oct (`01_digest_ahaan.md`, section 1). |
 
 ## 7. The room we're pitching to (Ray, 27 Oct: "Judges are not examiners ... judges are shark tanks")
@@ -95,3 +102,38 @@ the founders. So every draft is also a pitch, with Shark Tank's five beats, all 
 5. **The ask, said with confidence.** End on what Laura can say in 2031, not on a summary.
 Test: would a shark lean forward at line one, and could they retell why they'd back us? Emotion serves the
 argument. It never replaces it, and it is aimed at the judges, not at Laura (Book 3: judges aren't mini-Lauras).
+
+## 8. Six moves that make the feeling land (from the reading log)
+Section 7 says what a shark needs; this section is *how* the best writers deliver it, from the reading log (`reading/LOG.md`, strand "pitches, founder letters, speeches", and
+`reading/SYNTHESIS.md`). An examiner checks that the parts are there. An investor across the table decides whether to
+believe you, and belief arrives as a feeling first. Six moves the best of them use, each with its test:
+
+| # | Move | Who does it | Test |
+|---|---|---|---|
+| F1 | **Put the reader somewhere; never name the feeling.** A doctor's office at 7:30 a.m. (Jobs), a crowd holding a cheque (King), a supermarket queue (Wallace). Nobody in the reading writes "this is exciting" or "we are passionate". | 063, 070, 078 | Is there a place, a person or a thing in the paragraph? Does the word "passion", "excited" or "exciting" appear? Delete it. |
+| F2 | **A promise has a name on it.** King turns a moral claim into a financial one: the crowd holds a promissory note marked "insufficient funds". Caplet's mirror image: Laura's ten payments are not "liabilities", they are ten cheques dated 2033-2042 to artists she hasn't met, and Caplet's whole job is that none bounces. | 070 | Is each payment a promise to someone, or an entry in a table? |
+| F3 | **Accept a cost in public.** Conviction is believed when it costs something: Google won't give earnings guidance (066), Chouinard gives the company away (067), Kennedy picks the hard thing (069), Bezos lists what his commitments will cost shareholders (100), Damodaran shows his own open orders (097). Caplet's: we give up the upside a bank's buffer fund would sell back to Laura at a fee; we refuse to sell a rung early, even in a boom. | 066, 067, 069, 097, 100 | Is there one thing we refuse, and its price, stated plainly? |
+| F4 | **A number that measures a loss, or a near miss.** Buffett's most moving sentence is a date: Munger "died on November 28, just 33 days before his 100th birthday" (075). Kennedy compresses 50,000 years into 50 (069). A number moves people when it counts what someone could lose or nearly had. | 069, 075 | Which number in the piece would someone feel in the stomach, not just remember? |
+| F5 | **Dread, then relief, in that order.** Jobs (the scan, then "curable"), Chouinard ("not enough", then "resilient"), Housel's three sides of risk. State the fear honestly before the plan answers it; a plan that never names the fear reads as a brochure. | 063, 067, 014 | Do we say what Laura is afraid of before we say how she is protected? |
+| F6 | **The reluctant narrator.** "I never wanted to be a businessman" (Chouinard); Marks's wife and his repetitiveness; Asness's rejected paper; Keynes wishing economists were as useful as dentists. Self-mockery buys the right to be blunt about everyone else. Once per piece. | 046, 061, 067, 077 | Is there one line where we laugh at ourselves, and only one? |
+
+**Spend it like kickers.** One F-move per paragraph at most; in the IPS, F2 and F3 carry the weight and F6 appears
+once, if at all. Feeling is the reason a judge keeps reading; the investing knowledge (north star 4) is the reason
+they believe. Neither replaces the other.
+
+## 9. How humans cut (Ahaan, 27 Oct: the pitches "FEEL noticeably more AI" than the bodies)
+When Keel squeezes, it squeezes the way a model does: it drops verbs and articles, stacks nouns, reaches for a colon
+or a triad, and ends up with a slogan. Humans cut differently. From the reading (Lincoln's 270 words, Churchill,
+Gehrig, Graham's openings, the Hopkins essays):
+
+| AI compression (what to stop) | Human cutting (what to do) |
+|---|---|
+| Keeps every idea and shortens each one | **Drops whole ideas** and keeps the rest at full size. Lincoln keeps "we can not dedicate" three times and leaves out the battle. |
+| Deletes the small words ("the", "is", "we") | Keeps the small words; cuts the long ones. "I have nothing to offer but blood, toil, tears and sweat" is all one-syllable words. |
+| Noun stacks ("growth-protected certainty framework") | Verbs and people. "We buy the ten payments first." |
+| Triads and colons as connectors ("Three goals: X, Y, Z.") | One clause leads to the next with "so", "but", "because" |
+| Ends on a slogan | Ends on a thing or a decision (White's belt; Buffett's "we buy to keep") |
+| Cuts the odd, specific detail as "inessential" | **Keeps one odd detail**: it is the proof a person wrote it ("33 days before his 100th birthday"; "$9.99 for five mangoes") |
+
+Test for the 50-word pitch: say it out loud to someone across a table. If it doesn't sound like something a
+seventeen-year-old would say, put the verbs back.
