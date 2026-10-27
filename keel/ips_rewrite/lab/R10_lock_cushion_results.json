@@ -1,0 +1,237 @@
+{
+ "stamp": "STAMP: curve 22 Oct 2026 | JPM 2027 global equities 7.5% / 6.5% | 200,000 paths, seed 20261016 | rho 0 / 0.5 | MODEL",
+ "rho=0.0 mu=1.075": {
+  "B": {
+   "p_gift_below_quoted_bottom": 0.0075,
+   "p_inside_range": 0.9925,
+   "p_top_reached_within_1k": 0.9287,
+   "p_payments_short_over_1k_after_2033": 0.3107,
+   "short_by_p95_max_when_short": [
+    6782,
+    11044
+   ],
+   "set_aside_p50_p95": [
+    0,
+    22055
+   ],
+   "laura_kept_p5_p50_mean": [
+    0,
+    26290,
+    29490
+   ]
+  },
+  "E": {
+   "p_gift_below_quoted_bottom": 0.0221,
+   "p_inside_range": 0.9779,
+   "p_top_reached_within_1k": 0.8671,
+   "p_payments_short_over_1k_after_2033": 0.0015,
+   "short_by_p95_max_when_short": [
+    2621,
+    3544
+   ],
+   "set_aside_p50_p95": [
+    7500,
+    29555
+   ],
+   "laura_kept_p5_p50_mean": [
+    0,
+    18790,
+    22735
+   ]
+  },
+  "F": {
+   "p_gift_below_quoted_bottom": 0.0075,
+   "p_inside_range": 0.9925,
+   "p_top_reached_within_1k": 0.9287,
+   "p_payments_short_over_1k_after_2033": 0.0668,
+   "short_by_p95_max_when_short": [
+    5473,
+    8821
+   ],
+   "set_aside_p50_p95": [
+    7500,
+    26300
+   ],
+   "laura_kept_p5_p50_mean": [
+    0,
+    18790,
+    22771
+   ]
+  },
+  "G": {
+   "p_gift_below_quoted_bottom": 0.0075,
+   "p_inside_range": 0.9925,
+   "p_top_reached_within_1k": 0.8671,
+   "p_payments_short_over_1k_after_2033": 0.0105,
+   "short_by_p95_max_when_short": [
+    4509,
+    6778
+   ],
+   "set_aside_p50_p95": [
+    7500,
+    28730
+   ],
+   "laura_kept_p5_p50_mean": [
+    0,
+    18790,
+    22735
+   ]
+  }
+ },
+ "rho=0.5 mu=1.075": {
+  "B": {
+   "p_gift_below_quoted_bottom": 0.0126,
+   "p_inside_range": 0.9874,
+   "p_top_reached_within_1k": 0.9117,
+   "p_payments_short_over_1k_after_2033": 0.3107,
+   "short_by_p95_max_when_short": [
+    6782,
+    11044
+   ],
+   "set_aside_p50_p95": [
+    0,
+    22055
+   ],
+   "laura_kept_p5_p50_mean": [
+    0,
+    26844,
+    29761
+   ]
+  },
+  "E": {
+   "p_gift_below_quoted_bottom": 0.0329,
+   "p_inside_range": 0.9671,
+   "p_top_reached_within_1k": 0.8467,
+   "p_payments_short_over_1k_after_2033": 0.0015,
+   "short_by_p95_max_when_short": [
+    2621,
+    3544
+   ],
+   "set_aside_p50_p95": [
+    7500,
+    29555
+   ],
+   "laura_kept_p5_p50_mean": [
+    0,
+    19344,
+    23150
+   ]
+  },
+  "F": {
+   "p_gift_below_quoted_bottom": 0.0126,
+   "p_inside_range": 0.9874,
+   "p_top_reached_within_1k": 0.9117,
+   "p_payments_short_over_1k_after_2033": 0.082,
+   "short_by_p95_max_when_short": [
+    5417,
+    8667
+   ],
+   "set_aside_p50_p95": [
+    7500,
+    25643
+   ],
+   "laura_kept_p5_p50_mean": [
+    0,
+    19344,
+    23186
+   ]
+  },
+  "G": {
+   "p_gift_below_quoted_bottom": 0.0126,
+   "p_inside_range": 0.9874,
+   "p_top_reached_within_1k": 0.8467,
+   "p_payments_short_over_1k_after_2033": 0.0161,
+   "short_by_p95_max_when_short": [
+    4437,
+    6624
+   ],
+   "set_aside_p50_p95": [
+    7500,
+    28221
+   ],
+   "laura_kept_p5_p50_mean": [
+    0,
+    19344,
+    23150
+   ]
+  }
+ },
+ "rho=0.5 mu=1.065": {
+  "B": {
+   "p_gift_below_quoted_bottom": 0.0141,
+   "p_inside_range": 0.9859,
+   "p_top_reached_within_1k": 0.9068,
+   "p_payments_short_over_1k_after_2033": 0.3107,
+   "short_by_p95_max_when_short": [
+    6782,
+    11044
+   ],
+   "set_aside_p50_p95": [
+    0,
+    22055
+   ],
+   "laura_kept_p5_p50_mean": [
+    0,
+    25739,
+    28666
+   ]
+  },
+  "E": {
+   "p_gift_below_quoted_bottom": 0.036,
+   "p_inside_range": 0.964,
+   "p_top_reached_within_1k": 0.839,
+   "p_payments_short_over_1k_after_2033": 0.0015,
+   "short_by_p95_max_when_short": [
+    2621,
+    3544
+   ],
+   "set_aside_p50_p95": [
+    7500,
+    29555
+   ],
+   "laura_kept_p5_p50_mean": [
+    0,
+    18239,
+    22105
+   ]
+  },
+  "F": {
+   "p_gift_below_quoted_bottom": 0.0141,
+   "p_inside_range": 0.9859,
+   "p_top_reached_within_1k": 0.9068,
+   "p_payments_short_over_1k_after_2033": 0.086,
+   "short_by_p95_max_when_short": [
+    5463,
+    8667
+   ],
+   "set_aside_p50_p95": [
+    7500,
+    25539
+   ],
+   "laura_kept_p5_p50_mean": [
+    0,
+    18239,
+    22144
+   ]
+  },
+  "G": {
+   "p_gift_below_quoted_bottom": 0.0141,
+   "p_inside_range": 0.9859,
+   "p_top_reached_within_1k": 0.839,
+   "p_payments_short_over_1k_after_2033": 0.0175,
+   "short_by_p95_max_when_short": [
+    4482,
+    6778
+   ],
+   "set_aside_p50_p95": [
+    7500,
+    28091
+   ],
+   "laura_kept_p5_p50_mean": [
+    0,
+    18239,
+    22105
+   ]
+  }
+ }
+}
