@@ -8,7 +8,7 @@
 ## 1. Open questions, ranked (Nora re-ranks each morning: most IPS lift for the least-explored ground first)
 | # | Question | Slot it could move (`CHAMPIONS.md`) | Why it matters | Added | Rounds spent |
 |---|---|---|---|---|---|
-| Q1 | What is the plan's soft spot really, and what is its cleanest cure: hold back from Laura's half, a Jan 2033 re-match into T-bills, or the coverage test? Who outside finance re-matches a promise once, on a known date, and never again? | C6, C10 | Locked TNA reflection 3 clashes with the current holder (Archive A19) | Tue 27 Oct | 0 |
+| Q1 | What is the plan's soft spot really, and what is its cleanest cure: hold back from Laura's half, a Jan 2033 re-match into T-bills, or the coverage test? Who outside finance re-matches a promise once, on a known date, and never again? | C6, C10 | Locked TNA reflection 3 clashes with the current holder (Archive A19) | Tue 27 Oct | 1 (Round 1, Wed 28 Oct: sharpened to "a cure bought on its birthday") |
 | Q2 | Which R makes "X = ten" land: redemption, runway, or something nobody has tried? What do people who name products for a living test before they pick? | C2 | `../BIBLE.md` Book 5: R must be clever, not weird; still open in the THINKING_LOG | Tue 27 Oct | 0 |
 | Q3 | How should the IPS define certainty so a judge says "aha", not "fine"? Who else writes down a standard for "certain enough" (law, engineering, medicine), and does any of them beat the IRS 1-in-20? | C3, C11 | S-05 is a strong challenger; the D4 holder has a factual flaw | Tue 27 Oct | 0 |
 | Q4 | Five original strategy ideas the rewrite hasn't thought of, each with a number that would change a decision (WO-R8) | any | Ray, 27 Oct: the Lab's output has been too thin | Tue 27 Oct | 0 |

@@ -1,16 +1,15 @@
 # Task board (real Caplet work; run by Keel)
 
 Rules: `LOOP.md`. WIP limit 3 in Doing. Priority P = Impact (1-3) x Urgency (1-3); pick 4 or more. Owner = a Keel
-desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Tue 27 Oct 2026, 07:30 (morning run).
+desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Wed 28 Oct 2026, 07:30 (morning run).
 
-**This week's top 3 (Tue 27 Oct - Sun 1 Nov; IPS in 11 days). Groomed Tue 27 Oct 07:30:**
-1. **The IPS rewrite, slowly (P01, `../ips_rewrite/README.md`).** Research and trials to Wed 28 Oct (WO-R2, R5-R7),
-   synthesis Thu 29 Oct, near-final to Caplet **Sat 31 Oct**, the only timeline rule (BIBLE Book 9: drafting may start
-   whenever Keel judges best; work intensively, every good idea into `../ips_rewrite/IDEA_BANK.md`).
-2. **Vote set B is settled by Keel's calls** (Ray, 26 Oct: "just make your own call"; `ASK_HUMANS.md` D1-D5). The one
-   item still Ray's is D6 (danger zone: Keel recommends holding the WInS book as it is). Students may overrule any call.
-3. **Ray's read-only checks by Sat 31 Oct:** SMApply IPS form fields [T15] and the short-term Treasury ETF listing on
-   WInS [T24]. (School letter: comes later per Ray, 24 Oct; not a blocker, not chased.)
+**This week's top 3 (Wed 28 Oct - Sun 1 Nov; IPS in 10 days). Groomed Wed 28 Oct 07:30:**
+1. **A final IPS draft for Caplet's review by Sat 31 Oct** (P01; `../ips_rewrite/01_SYNTHESIS.md` and the V26
+   synthesis draft). Book 9 lifted every other timeline rule: draft when the thinking is ready, densely, never padded.
+2. **The research loop, round 1 today** (`../loop/rounds/2026-10-28.md`): can the one promise not yet bought on its
+   birthday, the coupon gap, get a cure that is? Three unvisited fields; every good find lands in `../ips_rewrite/IDEA_BANK.md`.
+3. **Ray's danger-zone items:** D6 (hold the WInS book, Keel's recommendation) and F4 (Wharton's undefined
+   trading-activity rule). Read-only checks by Sat 31 Oct as before.
 
 ## Doing
 | ID | Task | Owner | Due | P | Done when | Notes |
@@ -19,9 +18,9 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Tue 27 Oct 202
 ## Ready (ranked)
 | ID | Task | Owner | Due | P | Done when | Notes |
 |---|---|---|---|---|---|---|
+| N05 | Rule on flaw F2 now that Book 9 says "don't feel hamstrung by what we wrote in the TNAs": may the Jan 2033 re-match draw on Laura's half, and if so, what one IPS clause squares it with reflection 3? | Kai (Courtroom) | Thu 29 Oct | 6 | Verdict line + the clause, into the synthesis | Round 1 may find a cure bought earlier; rule after it lands |
 | N02 | Edition stamp on every model output (curve date, J.P. Morgan edition, paths, basis) | Jun (Genius Lab) | Wed 28 Oct | 6 | Every new lab file opens with the stamp; R05 re-run at 7.5% | Request filed 27 Oct; the 26 Oct EAFE mix-up |
 | N03 | Final Report bank: one Articulation clause saying the case's "portfolio manager = your teacher/advisor" is the case's role-play; in real life students decided and Ray traded | Tess (Archive, P05) | Sat 7 Nov | 4 | Clause in `../library/final_report_bank.md` with the FAQ :32 source | Window flag 26 Oct |
-| N04 | One-page "what the 2027 LTCMA changed" for the Final Report's Portfolio Analysis: global equities 7.0 -> 7.5, US large cap 6.7 -> 7.5, 60/40 6.4 -> 7.0; why we keep VT world-weighted anyway | Felix (Library, P02) | Thu 29 Oct | 4 | Slip with quotes and date; feeds the synthesis | Today's check |
 | T22 | Re-run the T05 rule checklist on the students' IPS draft | Felix (rules-verifier) | Sat 31 Oct | 6 | All 12 rows OK or flagged on the new draft | Waits for T13 draft; checklist SD-T05 |
 | T07 | Coherence check: IPS draft vs the TNA reflections and the 11 filed notes | Nora (coherence-checker) | Sun 1 Nov | 2 | One page, contradictions listed with line refs | Waits for T13 draft |
 | T08 | Mock-judge panel on the IPS, after the human scores are logged | Nora (mock-judge; `office-judge-panel`) | Mon 2 Nov | 2 | Scores per criterion + the weakest line | CHARTER 6: humans score first |
@@ -56,6 +55,8 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Tue 27 Oct 202
 ## Done
 | ID | Task | Owner | Done | Output |
 |---|---|---|---|---|
+| SD-N02 | Research loop round 1 gathered: Q1 sharpened by the birthday rule; lens 2; settlements, construction retainage, theatre cues | Nora | Wed 28 Oct | `keel/loop/rounds/2026-10-28.md` |
+| N04 | "What the 2027 LTCMA changed" slip | Felix | Wed 28 Oct | Killed: Book 9 says not to anchor on J.P. Morgan's 7.5%, and the IPS carries no return figure |
 | SD-N01 | The TNA's 7.5% is J.P. Morgan's 2027 global-equity figure (release 19 Oct), not EAFE; rewrite told to drop its "correction" | Nora (Felix checking) | Tue 27 Oct | `keel/office/outbox/2026-10-27_noticeboard_7-5-is-world-stocks.md` |
 | T23 | Keel IPS version freeze on v4.1 | Nora | Tue 27 Oct | Superseded: Ray, 26 Oct, the IPS is rewritten from scratch (`../ips_rewrite/`) |
 | SD-T12b | Ballot v2 for vote set B: D1 as two dials, 2027-edition numbers, three counted texts | Nora | Mon 26 Oct | `keel/office/outbox/2026-10-26_SD-T12b_noticeboard_vote-set-B-ballot-v2.md` |
