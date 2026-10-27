@@ -74,7 +74,7 @@ rewrite workspace (`../ips_rewrite/`) and are passed to it; the rest are this fo
 | 7 | Keel's own agents are bad AI detectors (they called his hand-written TNA 100% AI; real detectors said near 0%). Low priority | Keel never scores "AI-ness" itself again | Writing Room rule; see note below | voice |
 | 8 | The 7.5% figure is for world equities, not VT; don't lean on it | Any return figure in a draft names what it measures | rewrite (numbers) | rewrite |
 | 9 | The TNAs are not a cage: "go deeper, go further" | - | rewrite | rewrite |
-| 10 | Good ideas must not vanish: every good one ends up in the IPS or the Final Report | Every idea Keel calls good has a row in the Final Report bank or a line in a draft | `../library/final_report_bank.md` (rows from the reading added tonight) | voice + Archive |
+| 10 | Good ideas must not vanish: every good one ends up in the IPS or the Final Report | Every idea Keel calls good has a row in the idea bank or a line in a draft | `../ips_rewrite/IDEA_BANK.md` (FRB-11 to FRB-16 come from the reading) | voice + Archive |
 | 11 | The elevator pitches "FEEL noticeably more AI" than the bodies: "cut the HUMAN way, not the AI way" | The pitch is read against the "how humans cut" list (guide section 8) | Guide section 8 (new) | voice |
 | 12 | No artificial timeline: draft any time; only a final draft for review "by some point on Saturday" | Keel's own 27-29 Oct pause is lifted | `../pm/ASK_HUMANS.md` (Keel's call, 27 Oct night) | voice |
 | 13 | Work "far more intensively and densely"; quality *and* quantity | Visible output every few hours | This folder's log; the rooms' loop | all |
