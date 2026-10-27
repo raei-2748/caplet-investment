@@ -17,7 +17,7 @@ about 60-90 pieces an hour at best. Collections (memo anthologies, letter compil
 Each entry: **Open / Best / Close** (quoted lines), **Craft** (rhythm, stance, shape), **Steal** (one move worth
 copying), **Insight** (only if there is one). What the entries add up to goes in `SYNTHESIS.md` after every 100.
 
-Count so far: **339**
+Count so far: **359**
 
 ---
 
@@ -818,6 +818,59 @@ Net Interest (Rubinstein) note, for its opening only: "My portfolio manager alwa
 Batch 9 note: the generic outlooks (314-316) fail in the same three ways: every verb is a maybe, no number could prove
 them wrong, and the close is a slogan. Hitchens (318) and Buffett (324) do the opposite: each tells the reader what
 it cost him. That is the gap between commentary and a plan.
+
+## Round 2, batch 10 (28 Oct, 06:55-07:55 Sydney): 340-359
+Checked against the log's URL and title list first. Not counted: three Baldwin pages on genius.com and the NYT
+archive (blocked), an AQR interview page and three GMO pages that held only summaries ("When Diversification
+Failed", "Back to Basics", Montier's "I Want to Break Free"), two Hopkins index pages with blurbs only, and two
+Doomberg/Substack search results not opened. Quotes marked "…" were cut at the reader's 125-character limit.
+
+### 340-344 · GMO: Grantham and Montier · investor letters · reader
+| # | Piece | Open | Best line | Close | Craft · Insight |
+|---|---|---|---|---|---|
+| 340 | Grantham, "Reinvesting When Terrified" (10 Mar 2009, the week of the low) https://www.Gmo.Com/globalassets/articles/viewpoints/2009/reinvesting-when-terrified_3-09.pdf | "It was psychologically painful in 1999 to give up making money on the way up…" | "There is only one cure for terminal paralysis: you absolutely must have a battle plan for reinvestment and stick to it." | "It turns when all looks black, but just a subtle shade less black than the day before." | **F5:** names the fear, then gives a plan. "Remember that you will never catch the low." FRB-44. |
+| 341 | Grantham, "My Sister's Pension Assets and Agency Problems" https://www.gmo.com/europe/research-library/my-sisters-pension-assets-and-agency-problems_whitepaper/ | "The central truth of the investment business is that investment behavior is driven by career risk." | "The prime directive, as Keynes knew so well, is first and last to keep your job." | "The purest version of this philosophy is GMO's Benchmark-Free Allocation Strategy." | **F2: a title with one named person in it.** The close is a product plug, a counter-example inside a good piece. FRB-45. |
+| 342 | Grantham, "Waiting for the Last Dance" (2021) https://www.gmo.com/europe/research-library/waiting-for-the-last-dance_viewpoints/ | "The long, long bull market since 2009 has finally matured into a fully-fledged epic bubble." | "As I like to say, there is nothing more supremely irritating than watching your neighbors get rich." | "Good luck!" | **Two-word close.** Owns his early calls that went wrong. **F6.** |
+| 343 | GMO, "Let the Wild Rumpus Begin" (2022, summary page with Grantham's lines) https://www.gmo.com/europe/research-library/let-the-wild-rumpus-begin_viewpoints/ | "All 2-sigma equity bubbles in developed countries have broken back to trend." | "We humans do crazy very well indeed!" | "That investment discipline is particularly critical given the risks Jeremy has articulated." | Title from *Where the Wild Things Are*: a children's book for a crash warning. |
+| 344 | Montier, "The Seven Immutable Laws of Investing" (summary page with the laws) https://www.gmo.com/europe/research-library/the-seven-immutable-laws-of-investing_whitepaper/ | "James Montier shares what he believes to be the key principles to sound investment." | "Risk is the permanent loss of capital, never a number" | - | Seven laws as commands, no hedges. "Be leery of leverage". Supports FRB-43. |
+
+### 345-347 · Cembalest, J.P. Morgan "Eye on the Market" · bank research · reader
+| # | Piece | Open | Best line | Close | Craft · Insight |
+|---|---|---|---|---|---|
+| 345 | "Outlook 2024: Pillow Talk" https://am.jpmorgan.com/content/dam/jpm-am-aem/global/en/insights/eye-on-the-market/outlook-2024-amv.pdf | "Falling US inflation and prospects for easier Fed policy are increasing talk of a soft landing rather than a recession…" | "The Fed has enough egg on its face already." | (text cut off) | Section titles as jokes ("The Fats Dominoes", "The Boiling Frog"); "I'm on strike regarding a long section on European equities." **F6.** On 10-year Treasuries: "North of 4.5%, they offer decent value to long term investors." FRB-46. |
+| 346 | "Market Outlook 2023: The End of the Affair" https://am.jpmorgan.com/content/dam/jpm-am-aem/global/en/insights/market-insights/eotm/2023-outlook-amv.pdf | "How do you summarize a year that was in many respects indefinable?" | "the pseudo-libertarian gibberish of unregulated crypto" | "I hope to see many of you in person this year." | Opens on a question he can't answer. A bank strategist allowed an opinion. |
+| 347 | "Heliocentrism: Objects may be further away than they appear" https://am.jpmorgan.com/content/dam/jpm-am-aem/global/en/insights/eye-on-the-market/heliocentrism-amv.pdf | "The renewable transition exists in the eye of the beholder." | "Jacobson's methodology is the equivalent of a vegan who swears off meat but only in between meals." | (text cut off) | **The analogy as a weapon:** one sentence makes a method look absurd. Finding: renewables' share of final energy rising only ~0.3-0.6% a year. |
+
+### 348-350 · Buffett, the last three unread letters · reader
+| # | Letter | Open | Best line | Close | Craft · Insight |
+|---|---|---|---|---|---|
+| 348 | 1978 https://www.midgardfinance.com/buffett/letters/1978/ | "First, a few words about accounting." | "It was a marvelous period for the value-oriented equity buyer." | "We are associated with some of the very best." | Five-word opening. Equity holdings $129.1 million at cost, $216.5 million at market, while the Dow slipped from 852 to 805. |
+| 349 | 1981 https://www.midgardfinance.com/buffett/letters/1981/ | "Operating earnings of $39.7 million in 1981 amounted to 15.2% of beginning equity capital…" | "Like virginity, a stable price level seems capable of maintenance, but not of restoration." | "And we enjoy having you as our financial partners." | **A joke that carries the whole inflation argument.** Supports FRB-41. |
+| 350 | 1983 https://www.midgardfinance.com/buffett/letters/1983/ | "This past year our registered shareholders increased from about 1900 to about 2900." | "Book value tells you what has been put in; intrinsic business value estimates what can be taken out." | "We believe net economic Goodwill far exceeds the $62 million accounting number." | The owner's manual. Mrs. B started with $500 in 1937. **F1** (a person and a sum). |
+
+With 348-350, every Buffett letter from 1977 to 2024 and Abel's first (2025) is in the log.
+
+### 351-352 · Baldwin, two more · essayist · reader
+| # | Essay | Open | Best line | Close | Craft |
+|---|---|---|---|---|---|
+| 351 | "The Creative Process" (1962) https://openspaceofdemocracy.wordpress.com/wp-content/uploads/2017/01/baldwin-creative-process.pdf | "Perhaps the primary distinction of the artist is that he must actively cultivate that state … the state of being alone." | "the war of an artist with his society is a lover's war" | "…to make freedom real." | Long incantatory sentences that turn on one intimate phrase. |
+| 352 | "Many Thousands Gone" (1951), extract https://www.penguin.co.uk/articles/2020/06/james-baldwin-notes-of-a-native-son-extract | "It is only in his music, which Americans are able to admire because protective sentimentality limits…" | "The story of the Negro in America is the story of America — or, more precisely, it is the story of Americans." | "…since the first slave fell beneath the lash." | **The self-correction inside the sentence** ("or, more precisely"): the writer thinking on the page. |
+
+### 353-359 · College essays: one Yale, six Hopkins (classes of 2029-2030) · reader
+| # | Essay | Open | Best line | Close | Ends on |
+|---|---|---|---|---|---|
+| 353 | A Yale essay, via Ivy Coach's analysis https://www.ivycoach.com/the-ivy-coach-blog/ivy-league/an-analysis-of-a-yale-admissions-essay | "My Chinese New Year does not glow with the red of envelopes full of Franklins." | - | "I found myself asking Mom if "Cai Shen," the deity who brought prosperity to homes, would ever stop by our…" | **Opens on what is missing.** A question to Mom. |
+| 354 | "In the Belly of the Ship" https://apply.jhu.edu/hopkins-insider/in-the-belly-of-the-ship/ | "I lay on the bamboo mat in a pool of my own sweat, swaying with the ship." | "I'm proud to have been eaten alive by a metal beast, and then entered its jaws once more." | (same as best line) | An image; the lesson sits one paragraph before. **F1.** |
+| 355 | "Clean Closet" https://apply.jhu.edu/hopkins-insider/clean-closet/ | "My to-do list always had one unfinished task." | "The closet holds who I was and who I've tried to be." | "The next time I'm tasked to "clean closet," it won't take eighteen years." | **A callback with a number** ("eighteen years"). |
+| 356 | "The Two Sides of America" https://apply.jhu.edu/hopkins-insider/the-two-sides-of-america/ | "Lucedale's population is about 3,000." | "The red clay from the dirt roads has seeped into my blood." | "…we wouldn't survive without both of them, no matter how different they might seem." | A lesson. **Opens on a plain number.** |
+| 357 | "Conquering" https://apply.jhu.edu/hopkins-insider/conquering/ | "I remember being surprised at how weak my arm felt, as if I was holding a dumbbell instead of a microphone." | "She can. Because I did." | "…like so many others did for me." | A lesson. The best line is four words. |
+| 358 | "Be the Salt of the Earth" https://apply.jhu.edu/hopkins-insider/be-the-salt-of-the-earth/ | "No le pongas demasiada sal!" | "Globally, a little of it goes the long way." | "Salt is truly a symbol of our globe's shared essence." | A lesson, and an abstract one: the weakest close of the six. |
+| 359 | "Where Math Collides With Art" https://apply.jhu.edu/hopkins-insider/where-math-collides-with-art/ | "Pop quiz: A bird shoots through the crisp morning air of New York City, dodging skyscrapers…" | "The way the shards of glass multiply a single reflection into thousands of new perspectives." | "And the infinite possibilities of what happens next." | An image, then vague. |
+
+Batch 10 note: the six Hopkins essays split three and three. The three that end on an image or a callback (354, 355,
+359) are the ones whose last line you can still picture an hour later; the three that end on a lesson (356-358) end
+on the weakest sentence they contain. Synthesis 3's rule holds. Grantham's best piece (340) was written in the week
+of the 2009 low and is a plan, not a forecast.
 
 ### Re-reads in batch 4 (not counted)
 Fourteen pieces in this batch had already been logged (the batch's source list was wrong). They are kept here
