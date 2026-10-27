@@ -6,6 +6,7 @@
 
 | Date (Sydney) | Room | Output (link) | Score aimed at | Used by (filled later) |
 |---|---|---|---|---|
+| Tue 27 Oct 12:55 | Library | S-05 "sum certain" + the IRS 5% exhaustion test as the certainty yardstick; LC-03 dose dumping, zero order, MDT verified; C-01 Yale 80/20 + Tobin; 7 sources to R02: `../office/outbox/2026-10-27_library_sum-certain.md` | IS, CK, N4 | |
 | Tue 27 Oct 10:45 | Trading Desk (markets and rules check) | No breach; near-breaches: trading-activity rule undefined (ask by Wed 28 Oct), AI_USE.md s1 contradicts practice; D4 "ten Treasuries, each redeemed" untrue for the iBond funds; no curve after 22 Oct (treasury.gov blocked): `../office/checks/2026-10-27.md` | IS, PA | |
 | Tue 27 Oct 09:40 | Window | ~137 claims checked; six false facts marked in place (7.5% edition, donor study read backwards, M² ranking, Redington, Contac 1960, "guaranteed by design"); D4 clean: `../office/outbox/2026-10-27_window_7-5-and-three-checks.md` | IS, CK, N4 | |
 | Tue 27 Oct 07:40 | Noticeboard (daily loop) | 7.5% is world stocks, not EAFE: `../office/outbox/2026-10-27_noticeboard_7-5-is-world-stocks.md`; board groomed; brief; ep 31 | N4, PA, IS | |
