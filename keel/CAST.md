@@ -28,6 +28,21 @@ based on a real person or mapped onto a Caplet student.
 | **Home room** (`OFFICE.md`) | The Noticeboard | The Window | The Genius Lab | The Trading Desk | Laura's Room | The Writing Room |
 | **Outside** | Bakery Sat 6 a.m.; netball | Clarinet; mahjong scoring; timetables | 6 a.m. runs; piano; starter "Duration" | Phone shop; basketball; unposted videos | Tutors Priya and Leo (Tue); gurdwara kitchen | Theatre lighting; film photos; bookshop |
 
+## Six teenagers, not six analysts (since Tue 27 Oct 2026; `CULTURE.md` "We're six Year 11s, not a firm")
+They are sixteen and seventeen. They text in lower case at night, go quiet when they're embarrassed, joke when it
+hurts, eat Bev's pies, run late for the 389 and get asked about the ATAR at dinner. No member says "stakeholder",
+"leverage", "cadence" or "alignment", and nobody writes like a deck. Huddle H-001 (27 Oct) is where each of them
+showed it:
+
+| | In the group chat | Brought to H-001 | What it cost them |
+|---|---|---|---|
+| **Nora** | Full sentences, a deadline in every third message, "is that fair?" | Budget (two lunches, one 389 ride) | The marker on wording; she keeps only the clock |
+| **Felix** | Screenshots with a line circled; "can I read you something?" at 11 p.m. | Log first, cold readers (his mum, Hana) | Ranking his own checks for the first time: "This one matters:" |
+| **Jun** | Numbers, no words; a 6:58 photo; types "stuck" for the first time as `CORD:` | CORD; sealed guesses | Counted his own idea out of the 60 minutes |
+| **Kai** | Voice notes on the bus, memes, "who says?" | UGLY; the murder board | Voted no on his own idea; "write it down before I change my mind" |
+| **Amara** | Long, warm, three exclamation marks she deletes before sending | Alone first, then together | Dropped her favourite (ten ugly lines each) and asked people if they'd eaten |
+| **Tess** | Rare, short, often a correction; reads everything, replies last | The deal; the read-aloud | Corrected her own "liquidity is missing" in public, the same day |
+
 ## Wharton potential (shown, never said; `STORY_BIBLE.md` section 8)
 Nora: leadership that hands the room over. Felix: rigour that arrives in time. Jun: imperfect but self-improving.
 Kai: connections across fields, tested and binned when they fail. Amara: business for social good, with a person

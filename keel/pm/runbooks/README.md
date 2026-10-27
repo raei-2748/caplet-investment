@@ -41,6 +41,24 @@ to rewrite a prompt. Caplet's standing instructions (`../../INSTRUCTIONS.md`) be
    would be the same kind of thing on the same ground, change the ground (a new field from `keel/loop/TERRITORY.md`, a
    new lens, a harder test). Then answer in one line: which north star (all four equal) and which Wharton criterion
    does this raise, and what line of the IPS or the Final Report could change? If nothing, pick again.
+3b. **Talk it out: do your beat as a huddle** (Ray, 27 Oct 2026: the six must "constantly discuss and bounce off
+   ideas to each other", so ideas compound "rather than just generate in one round"). How: `keel/huddles/README.md`.
+   - **Continue before you start.** Read `keel/huddles/INDEX.md`. If an open huddle or a seed touches your beat, add
+     the next round to it (a new day's round is fine) instead of opening a new question. Tick or move on any open
+     to-do in a huddle's `todo.md` whose owner is one of your room's members.
+   - **At least 3 members, at least 3 rounds, one agent per member per round.** Pick the room's head plus two who
+     will disagree (Kai and Felix are the usual dissenters). Round 1 alone and in parallel (each reads only its
+     member's profile, `CAST.md`, `VOICE.md`, `CULTURE.md` and the brief; Sonnet, or Haiku for a wide idea sprint);
+     round 2 replies by name (steal, hit, "yes, and"; Opus); round 3 the people on each side of a real fight go and
+     check, then land it: a Keel vote, a decision under the doors rule, or "left open on purpose" with a seed. The run
+     chairs and assembles; it never writes a member's lines. In the loop: the Library's three scouts are round 1,
+     the Genius Lab's pairing is round 2, and the 18:20 flaw-fix-judge-discuss is a full huddle.
+   - **Use the habits** (`CULTURE.md`, "The nine habits"): a judgement number gets sealed guesses (two sealed rounds,
+     median); a wrong fact gets a `CORD:` line in the round the same run; the pick between lines goes to a cold
+     reader who never saw the pile; each brief states its budget (rounds and agent calls, about 9 for a room run).
+   - **Save and build:** `BRIEF.md`, `posts/`, `research/`, `todo.md`, `huddle.json` with a three-sentence essence for
+     Caplet, then `python3 keel/scripts/build_today.py` (it writes `transcript.md`, `INDEX.md` and the day's
+     conversation block in `keel/today/`). Link the huddle from your section of the round file and from your memo.
 4. **Never wait for a human: make the call** (Ray, 26 Oct: "just make your own call whichever you think work the best").
    Pick the option Keel judges best, add it to `keel/pm/ASK_HUMANS.md` as `Keel's call` with a one-line reason, and act
    on it now. Only a **danger-zone** decision waits (a WInS order, submitting, Caplet's Google Docs, money, accounts,

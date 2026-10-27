@@ -1,16 +1,20 @@
 {
- "built": "2026-10-27T08:51",
+ "built": "2026-10-27T09:09",
  "days": [
   {
    "date": "2026-10-27",
    "weekday": "Tue",
-   "essence": [],
+   "essence": [
+    "We read how twelve real companies work (Pixar, Toyota, Amazon, Netflix and eight more) and argued for four rounds about which habits six busy Year 11s should steal.",
+    "Nine passed. The big three: whoever owns a line decides it unless it can't be undone, and then all six vote once; anyone can type \"CORD:\" to flag a problem at any hour, and the first reply is \"thanks\"; boring jobs get dealt out on Sundays instead of waiting for a volunteer.",
+    "For Caplet: our help on the IPS now gets argued and checked before it reaches you, and the research we found on how teams decide well (some of it from Wharton itself) is yours to use in the Final Report."
+   ],
    "huddles": [
     {
      "id": "H-001",
      "title": "Steal like a Year 11",
      "question": "Which habits from real companies, offices and startups should Keel steal, and what do they look like for six Year 11s with school, jobs, sport and families?",
-     "status": "open",
+     "status": "closed",
      "room": "Long Room",
      "chair": "Nora",
      "members": [
@@ -21,18 +25,42 @@
       "Amara",
       "Tess"
      ],
-     "essence": [],
-     "decided": [],
-     "seeds": [],
+     "essence": [
+      "We read how twelve real companies work (Pixar, Toyota, Amazon, Netflix and eight more) and argued for four rounds about which habits six busy Year 11s should steal.",
+      "Nine passed. The big three: whoever owns a line decides it unless it can't be undone, and then all six vote once; anyone can type \"CORD:\" to flag a problem at any hour, and the first reply is \"thanks\"; boring jobs get dealt out on Sundays instead of waiting for a volunteer.",
+      "For Caplet: our help on the IPS now gets argued and checked before it reaches you, and the research we found on how teams decide well (some of it from Wharton itself) is yours to use in the Final Report."
+     ],
+     "decided": [
+      "Doors: the owner decides anything she can fix in one lunch before 09:00 Sat 7 Nov; anything one-way (submitted, promised to Laura, the floor, the range, the shortfall plan) gets one vote of all six (6-0)",
+      "CORD: flag a problem any hour with CORD:, first reply \"thanks\", a wrong fact is a cord the same day (6-0)",
+      "UGLY: once a week, one-way IPS lines only, alone first then together (Girotra, Terwiesch and Ulrich, 2010); who picks is still open (5-1, Kai against)",
+      "Sealed: sums are re-run, never voted; judgement numbers get a sealed guess, reasons, a second sealed guess, and the median (6-0)",
+      "Budget: every question gets a price before it opens; all habits together cost at most 60 minutes a person a week (6-0)",
+      "The deal and the read-aloud: unclaimed jobs dealt round on Sundays; someone who isn't Tess reads the requirement list aloud against each draft (6-0)",
+      "Cold read: two readers who know no finance, three questions with right answers, never asked about numbers; Kai plays Spinnaker (6-0)",
+      "Log first: decision in the log before the chat, with the owner's why, the dissenter's name and what would change their mind (6-0)",
+      "Cool-down: nothing new assigned Mon 9 to Fri 13 Nov, except one owner reading the Final Report instructions (6-0)",
+      "Refused: Netflix's keeper test, Bridgewater's dot collector and taped meetings, six-page memos, a stop-everything switch"
+     ],
+     "seeds": [
+      "UGLY's pick: should a cold reader who never saw the pile choose among the top three lines, since makers and groups both pick badly? (chat vote by Wed 28 Oct, 9 p.m.)",
+      "Sealed guesses on a real number: run them on the IPS's confidence in the 2031 range before Sat 31 Oct and see if the six land somewhere different from Jun's model",
+      "If no CORD is pulled by Fri 6 Nov, the habits were decoration (Nora)"
+     ],
      "todos": {
-      "done": 0,
-      "total": 0
+      "done": 2,
+      "total": 10
      },
      "path": "keel/huddles/2026-10-27_steal-like-a-year-11",
      "transcript": "keel/huddles/2026-10-27_steal-like-a-year-11/transcript.md",
-     "changes": [],
-     "rounds": 3,
-     "rounds_today": 3
+     "changes": [
+      "keel/CULTURE.md: new section \"We're six Year 11s, not a firm\" with the nine habits, what was refused and why",
+      "keel/CAST.md: \"Six teenagers, not six analysts\"",
+      "keel/STORY_BIBLE.md: section 7b",
+      "keel/huddles/README.md and keel/pm/runbooks/README.md step 3b: every room run talks through a huddle"
+     ],
+     "rounds": 4,
+     "rounds_today": 4
     }
    ],
    "research": [
@@ -43,8 +71,20 @@
      "huddle": "H-001"
     },
     {
+     "path": "keel/huddles/2026-10-27_steal-like-a-year-11/research/amara_r3.md",
+     "title": "Research note: Amara on the best idea, not the most ideas (H-001, round 3)",
+     "member": "Amara",
+     "huddle": "H-001"
+    },
+    {
      "path": "keel/huddles/2026-10-27_steal-like-a-year-11/research/felix.md",
      "title": "Research note: Felix on GitLab and Bridgewater (H-001, round 1)",
+     "member": "Felix",
+     "huddle": "H-001"
+    },
+    {
+     "path": "keel/huddles/2026-10-27_steal-like-a-year-11/research/felix_r3.md",
+     "title": "Research note: Felix on outsiders and the curse of knowledge (H-001, round 3)",
      "member": "Felix",
      "huddle": "H-001"
     },
@@ -55,8 +95,20 @@
      "huddle": "H-001"
     },
     {
+     "path": "keel/huddles/2026-10-27_steal-like-a-year-11/research/jun_r3.md",
+     "title": "Research note: Jun on independent-then-together (H-001, round 3)",
+     "member": "Jun",
+     "huddle": "H-001"
+    },
+    {
      "path": "keel/huddles/2026-10-27_steal-like-a-year-11/research/kai.md",
      "title": "Research note: Kai on Pixar and Netflix (H-001, round 1)",
+     "member": "Kai",
+     "huddle": "H-001"
+    },
+    {
+     "path": "keel/huddles/2026-10-27_steal-like-a-year-11/research/kai_r3.md",
+     "title": "Research note: Kai on when the owner is wrong (H-001, round 3)",
      "member": "Kai",
      "huddle": "H-001"
     },
@@ -67,15 +119,117 @@
      "huddle": "H-001"
     },
     {
+     "path": "keel/huddles/2026-10-27_steal-like-a-year-11/research/nora_r3.md",
+     "title": "Research note: Nora on who decides (H-001, round 3)",
+     "member": "Nora",
+     "huddle": "H-001"
+    },
+    {
      "path": "keel/huddles/2026-10-27_steal-like-a-year-11/research/tess.md",
      "title": "Research note: Tess on Amazon and Stripe (H-001, round 1)",
      "member": "Tess",
      "huddle": "H-001"
+    },
+    {
+     "path": "keel/huddles/2026-10-27_steal-like-a-year-11/research/tess_r3.md",
+     "title": "Research note: Tess on the job nobody claims (H-001, round 3)",
+     "member": "Tess",
+     "huddle": "H-001"
     }
    ],
-   "done": [],
-   "open": [],
+   "done": [
+    {
+     "text": "Research for the huddle, all six of us (Nora, Felix, Jun, Kai, Amara, Tess; done 27 Oct)",
+     "done": true,
+     "owner": "Nora",
+     "day": "2026-10-27",
+     "huddle": "H-001"
+    },
+    {
+     "text": "Vote on the nine habits, P1 to P9 (Nora; done 27 Oct)",
+     "done": true,
+     "owner": "Nora",
+     "day": "2026-10-27",
+     "huddle": "H-001"
+    }
+   ],
+   "open": [
+    {
+     "text": "Vote yes or no on Kai's P3 amendment, no scores and a cold reader picks (Nora; by Wed 28 Oct)",
+     "done": false,
+     "owner": "Nora",
+     "day": null,
+     "huddle": "H-001"
+    },
+    {
+     "text": "Post the first UGLY page for one IPS line (Amara; by Fri 30 Oct)",
+     "done": false,
+     "owner": "Amara",
+     "day": null,
+     "huddle": "H-001"
+    },
+    {
+     "text": "Read the requirement list aloud against the draft at lunch, 6b (Kai; by Fri 30 Oct)",
+     "done": false,
+     "owner": "Kai",
+     "day": null,
+     "huddle": "H-001"
+    },
+    {
+     "text": "Ask Hana and Felix's mum to be cold readers (Felix; by Fri 30 Oct)",
+     "done": false,
+     "owner": "Felix",
+     "day": null,
+     "huddle": "H-001"
+    },
+    {
+     "text": "Hold the first Sunday deal of unclaimed jobs (Tess; by Sun 1 Nov)",
+     "done": false,
+     "owner": "Tess",
+     "day": null,
+     "huddle": "H-001"
+    },
+    {
+     "text": "Check the round-1 quotes that came through a summary tool before CULTURE.md quotes them (Felix; by Fri 30 Oct)",
+     "done": false,
+     "owner": "Felix",
+     "day": null,
+     "huddle": "H-001"
+    },
+    {
+     "text": "Re-check the 60-minute MODEL count after week one (Jun; by Fri 6 Nov)",
+     "done": false,
+     "owner": "Jun",
+     "day": null,
+     "huddle": "H-001"
+    },
+    {
+     "text": "Count the first CORD (Nora; by Fri 6 Nov)",
+     "done": false,
+     "owner": "Nora",
+     "day": null,
+     "huddle": "H-001"
+    }
+   ],
    "runs": [
+    {
+     "day": "2026-10-27",
+     "when": "Tue 27 Oct 20:05",
+     "room": "Claude (Ray's thread, not a room)",
+     "what": "Huddle H-001 \"Steal like a Year 11\": 12 real cultures, 4 rounds, one agent per member, 9 habits voted (8 at 6-0, UGLY 5-1); CULTURE/CAST/STORY_BIBLE 7b; huddles wired into every run (runbook step 3b); `build_today.py`"
+    },
+    {
+     "day": "2026-10-27",
+     "when": "Tue 27 Oct 20:30",
+     "room": "Writing Room (voice study thread)",
+     "what": "Ray's order: stop IPS prose, find a voice. Read 13 writers/sources; measured Keel vs Ahaan (`fingerprint.py`: drafts 3-4% long sentences vs his 18%, 5x his numbers); 10 practice pieces; guide v2; 11 ideas; essays re-credited to Ahaan: `../voice/README.md`, `../office/outbox/2026-10-27_writing-room_voice-study.md`"
+    },
+    {
+     "day": "2026-10-27",
+     "when": "Tue 27 Oct 19:55",
+     "room": "Claude (Ray's thread \"Build Keel's self-improving research loop\", not a room)",
+     "what": "Out and Back, Keel's daily research loop: `../loop/README.md`; every runbook's \"Beat in the loop\"; first round Wed 28 Oct (question Q1, scouts seeded in `../loop/FRONTIER.md` s4)"
+    },
     {
      "day": "2026-10-27",
      "when": "Tue 27 Oct 20:10",

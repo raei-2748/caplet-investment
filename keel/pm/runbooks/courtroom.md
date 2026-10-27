@@ -21,7 +21,8 @@ score. Always also try two charges: "this reads as AI" and "competent but forget
 flaw-hunter Nora named (not the builder) attacks the strongest version of each surviving challenger; the builder gets
 one repair; then the cold judge reads champion and challenger side by side and says which a Wharton judge would rather
 read, and why (a row in `../../loop/CHAMPIONS.md`). Then a short discussion, each member present in their own voice, and
-a Keel vote: promote, park or bin, with the count. A promoted challenger goes to the rewrite inbox. Work orders to the
+a Keel vote: promote, park or bin, with the count. Run the trial as a huddle (`../../huddles/README.md`; README step
+3b): prosecutor, defence and the cold judge are separate agents, and the discussion has at least two rounds by name. A promoted challenger goes to the rewrite inbox. Work orders to the
 Courtroom are tried here when they fit the round; otherwise after it.
 
 ## Files
