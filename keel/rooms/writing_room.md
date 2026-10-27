@@ -1,9 +1,9 @@
 # FICTION (the room) + real drafts. The Writing Room
 
 ## Now
-- **Doing:** voice practice, not IPS prose (Ray, 27 Oct: "stop writing for now ... find a distinctive voice"). One practice piece per run in `../voice/exercises/`, scored with `../voice/fingerprint.py` and the plastic test
+- **Doing:** voice work and drafting (the 27 Oct pause is lifted, Ahaan, BIBLE Book 9). Pieces in `../voice/exercises/` and the drafts, judged by ear: read aloud, the guide's questions, a cold reader. No script or count decides
 - **Decided:** the voice study is in (`../voice/`): Keel writes with `../voice/06_voice_guide.md`; the essays are Ahaan's, not Ray's; the old "four sentences, 18-32 words" base rule is retired (it made the flat rhythm)
-- **Next:** Wed 28-Thu 29 Oct practice on ideas I-1, I-3, I-4 (`../voice/07_ideas_from_reading.md`); Fri 30 Oct D5 is the first prose, to the guide; Sat 31 Oct counts + fingerprint + plastic test on the near-final
+- **Next:** Wed 28-Thu 29 Oct practice on ideas I-1, I-3, I-4 (`../voice/07_ideas_from_reading.md`); Fri 30 Oct D5 is the first prose, to the guide; Sat 31 Oct the near-final for review, read aloud against the guide (the 500/50 form limits are the only counts)
 - **For the judges:** the voice of every line of the IPS and the Final Report (`../voice/06_voice_guide.md`)
 - **Updated:** 2026-10-27 20:30 Sydney
 

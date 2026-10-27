@@ -45,7 +45,7 @@ review on Sat 31 Oct; drafting may start whenever Keel judges best. Every good i
 |---|---|---|
 | Mon 26 - Wed 28 Oct | Deep, wide reading for north star 4 (niche concepts included, each tested against the case); the full ideation ladder (Haiku wide, Sonnet deeper, Opus cross-domain) for ahas and a fuller XR; real Keel debates and votes (Courtroom WO-R2, vote set B) | `research/`, `ideation/`, `lab/`, `THINKING_LOG.md` |
 | Thu 29 Oct | Synthesis: the strategy in our own terms, each concept placed, the aha chosen, the motif's job in each paragraph, decisions for Caplet | `01_SYNTHESIS.md` |
-| Fri 30 Oct | A fresh draft from the synthesis (blank page, not an edit of D1-D4), then Courtroom + mock judges + voice read against Ahaan's essays and TNA (`../voice/fingerprint.py` + the plastic test) | `drafts/D5/`, `reviews/` |
+| Fri 30 Oct | A fresh draft from the synthesis (blank page, not an edit of D1-D4), then Courtroom + mock judges + voice read aloud against the guide's questions, with Ahaan's essays and the TNA for tone (no script or count is a gate) | `drafts/D5/`, `reviews/` |
 | Sat 31 Oct | Near-final draft to Ray for review | `drafts/D5/` |
 | Sun 1 - Thu 5 Nov | Revise with Caplet; TNA coherence, numbers, word count | `drafts/FINAL/` |
 | Fri 6 Nov | Buffer; Caplet submits by Sat 7 Nov 09:00 Sydney (Fri 6 Nov 5 pm ET) | |

@@ -57,3 +57,33 @@ Grades are about what the drafts show, not what the rules say. Sources: Books 1-
 The same day a long message arrives: (1) split it into asks, in a table like section 2; (2) turn each ask into a
 test that can fail; (3) show one piece of work that passes, or say plainly why not yet. The verbatim copy in
 `BIBLE.md` is the archive, not the digest.
+
+## 5. Ahaan's message of 27 Oct, 22:51 Sydney, digested the same night
+He opened with "Ahaan here" and attached Wharton's IPS instructions (Book 7). He thinks most of it belongs in the Bible.
+Split into asks, each with the test Keel now applies and where it lives. Items marked **rewrite** belong to the IPS
+rewrite workspace (`../ips_rewrite/`) and are passed to it; the rest are this folder's.
+
+| # | His ask (his words, short) | Test that can fail | Where it lives | Owner |
+|---|---|---|---|---|
+| 1 | Meet Wharton's IPS brief; it has "a VERY specific and defined job". Formatting "DOESN'T MATTER" | Every draft answers the brief's five "should make it clear" points; no time spent on format | `../ips_rewrite/` (requirements already traced from Book 7) | rewrite |
+| 2 | Judges must see us as INTELLIGENT and KNOWLEDGEABLE: niche strategies, **fused**, "SYNERGIES", each one critiqued ("seems relevant ... but really it's not, and here's why") | Each concept in a draft carries a verdict and a reason, including the ones rejected | `../IDEAS.md` (verdict column); Final Report bank | rewrite + Library |
+| 3 | The second kind of intelligence is LOGIC: analogies, thought experiments, causal chains taken "to its logical conclusion", case studies, evidence | At least one chain of reasoning in the IPS is followed all the way to a surprising end | Guide section 7 and the reading log's "Steal" column (Buffett's orangutans 101, Graham's counterfactual 161, Sharpe's three-step proof 102) | voice |
+| 4 | "The essays I wrote are not gospel": tone inspiration only, from "a completely different context" | No draft is scored against his essays' numbers | Guide section 0 and law 3 rewritten (below) | voice |
+| 5 | Tone analysis is "far too quantitative"; voice is "fundamentally qualitative" | Voice is judged by reading aloud and the qualitative questions, not by a script | `fingerprint.py` **retired as a judge**; kept only as an optional diagnostic | voice |
+| 6 | Use the Wall St writers too, not only his essays | The guide draws on both, by name | Guide section 0; the reading log (165 pieces, mostly professionals) | voice |
+| 7 | Keel's own agents are bad AI detectors (they called his hand-written TNA 100% AI; real detectors said near 0%). Low priority | Keel never scores "AI-ness" itself again | Writing Room rule; see note below | voice |
+| 8 | The 7.5% figure is for world equities, not VT; don't lean on it | Any return figure in a draft names what it measures | rewrite (numbers) | rewrite |
+| 9 | The TNAs are not a cage: "go deeper, go further" | - | rewrite | rewrite |
+| 10 | Good ideas must not vanish: every good one ends up in the IPS or the Final Report | Every idea Keel calls good has a row in the idea bank or a line in a draft | `../ips_rewrite/IDEA_BANK.md` (FRB-11 to FRB-16 come from the reading) | voice + Archive |
+| 11 | The elevator pitches "FEEL noticeably more AI" than the bodies: "cut the HUMAN way, not the AI way" | The pitch is read against the "how humans cut" list (guide section 8) | Guide section 8 (new) | voice |
+| 12 | No artificial timeline: draft any time; only a final draft for review "by some point on Saturday" | Keel's own 27-29 Oct pause is lifted | `../pm/ASK_HUMANS.md` (Keel's call, 27 Oct night) | voice |
+| 13 | Work "far more intensively and densely"; quality *and* quantity | Visible output every few hours | This folder's log; the rooms' loop | all |
+| 14 | Stop fretting about AI-use logging: "Trust us" | Keel stops asking about it | LEDGER keeps its existing rows; no new questions to the team | all |
+| 15 | Stop "minute changes"; judges want "the big picture ... investing knowledge and strategic thinking" | A review that only fixes words is not a review | Writing Room and Courtroom rules | rewrite |
+| 16 | Most of this message "probably belongs in the Bible" | It is in `../BIBLE.md` as Book 9, verbatim, with rule 10 | done 27 Oct by the rewrite thread | Done |
+
+**Where Keel disagrees, briefly.** On #5: Keel will not throw the script away entirely. It found one thing the reading
+voice-check missed (the drafts had cut almost every long sentence). It now only answers "did we accidentally flatten
+the prose?" It no longer has any say over what counts as good. On #7: the web detectors he means take pasted text.
+This environment can read web pages but cannot submit text to them, so Keel can't run them itself. If a check is
+wanted, a student pastes the text into two or three detectors. Keel's own agents will not guess.
