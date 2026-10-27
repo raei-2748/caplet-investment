@@ -347,3 +347,26 @@ entrepreneurs, and educators" who "live, work, teach, and collaborate"); give La
 (a missed January breaks a promise she made in person in 2031); add one real "why us" (the STRIPS plan we built and
 then killed when the rules changed on 6 Oct, to be confirmed by a student as told); end on the ask (what Laura can
 say in 2031), not on "do not crush". Ahaan's Book 3 still holds: the emotion is for the judges, not a pitch to Laura.
+
+## Tue 27 Oct, late: the Shark Tank panel on V25 (`reviews/V25_shark_tank.md`): 34/50, and the reasons are useful
+Scores: Strategy 8, Client Knowledge 6, Portfolio Analysis 7, Articulation 5, Creativity 8. No better than D2-D4 in
+total, but the losses are specific and fixable, which the earlier 35/33 weren't.
+- **Kept:** the opener (the strongest the panel has seen), "debts paid with debts owed to her", the human-capital
+  line ("income that shrinks in the same slump that makes bonds dearer"), and the inflation line as the one a judge
+  repeats.
+- **A real hole (accuracy, not style): the cap.** V25 never says the contribution stops at the top and the rest stays
+  Laura's. Without it, a boom lands the contribution ABOVE the range, which fails the case's own "within that range".
+  It has to be in the next draft.
+- **"Before the purchase" is unclear** (rungs are bought in Jan 2027 and Jan 2028), and "exactly where it breaks"
+  sits badly next to "the one soft spot". The certainty claim needs one honest frame: the payments break in one
+  place, and the contribution has one soft spot.
+- **The aha is hidden.** "Three times worse" and "three times in four" are the same idea (the newsvendor) but read as
+  two facts. One clause has to join them: the top sits where the odds of reaching it match the cost ratio.
+- **Weakest beat: why this team (Articulation 5).** Best real material: the team's own first plan was about 75%
+  stocks and failed the funding test, so we started where the sceptic stands (evidence:
+  `../library/council_2026-09-27/02_judge_panel.md`, `01_chair_memo.md`). Alternative: the STRIPS plan killed by the 6
+  Oct email. One only, told as it happened (students confirm).
+- **Voice housekeeping:** five kicker endings (the guide allows 3), about 15 numerals (ceiling 6), the XR decoder-ring
+  sentence. End on the ask (what Laura can say in 2031), not on "Do not crush". Use the case's word "contribution",
+  not "gift".
+These go to Thursday's synthesis as must-fixes, together with the Shark Tank stakes clause.
