@@ -332,7 +332,7 @@ is a forced-ish sale in bad years; it's small, ~$7k mean when it bites, and quot
 ## Tue 27 Oct, evening: Ray's note (the account is shared by Ray and Ahaan)
 Ray says the long "bible" messages are Ahaan's, and they were being stored, not digested. Prose is paused until a
 new voice thread produces a voice guide. Ray also wants more initiative and original ideas from the Lab. Done:
-`BIBLE_TRACE.md` breaks the five books into 46 single expectations, each with a test, where it stands now and what's
-open (9 MET, 17 PART, 11 OPEN, 9 rules of working). Work pushed to the office: WO-R8 (the Genius Lab must bring 5
+`BIBLE_TRACE.md` breaks the five books into 41 single expectations, each with a test, where it stands now and what's
+open (8 met, 14 partly, 9 open, 9 ways of working, 1 on track). Work pushed to the office: WO-R8 (the Genius Lab must bring 5
 original, model-tested strategy ideas) and WO-R9 (the Courtroom audits the trace). The Wed plan drops the voice
 study (now the voice thread's job) and keeps strategy: the R, the 2033 re-match, the north-star-4 placement.
