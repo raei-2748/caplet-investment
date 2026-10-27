@@ -1,16 +1,17 @@
 # FICTION (the room and the simulated parties) + real arguments. The Courtroom
 
 ## Now
-- **Doing:** Judged Draft 1's three candidates as a Wharton-student judge and a practitioner judge
-- **Decided:** Voice-first candidate won with both judges; Kai preferred the aha-first one
-- **Next:** WO-R2: put the dedicated ladder on trial against the locked Trading Notes (Wed 28 Oct); then score Draft 1.3 on the new scorecard (project P04)
-- **For the judges:** IPS: the one change that lifts the lowest judging score
-- **Updated:** 2026-10-26 18:20 Sydney
+- **Doing:** Tried LR-04 (mark the 2031 bottom to market in 2031, no fixed margin): C-02
+- **Decided:** AMENDED. LR-04 stands as written; the IPS states the bottom as a rule, never "$145k" (below $145k in 43.5% of paths before any mark)
+- **Next:** score the next full draft on the P04 scorecard; the "three in four" vs "seven in ten" definition (Genius Lab) before Thu 29 Oct synthesis
+- **For the judges:** IPS: the 2031 bottom sentence becomes a rule ("what the floor will pay, rounded down, less any gap the bond market has already shown")
+- **Updated:** 2026-10-27 18:45 Sydney
 
 
-> **State (Sun 25 Oct 18:40 AEDT).** Last trial: D1 buffer vs "d alone" (C-01, AMENDED: buffer = lower quote with a name;
-> vote order-to-floor + quote margin; buffer moves to D5). Script `courtroom/C-01_buffer_vs_lower_quote.py`. Next: if
-> Monday's Long Room picks a name package, try it against v4.1; mock judges only after two students + outside reader score.
+> **State (Tue 27 Oct 18:45 AEDT).** Last trial: LR-04 mark-to-market (C-02, AMENDED; rule A kept, variants B and C
+> rejected; $145k is not a promise the IPS can make). Script `courtroom/C-02_mark_vs_promise.py` reuses LR-04's patch.
+> Earlier today (rewrite thread): WO-R2 killed the dedicated ladder for the IPS; WO-R6 ruled the day-1 ideas
+> (`../ips_rewrite/inbox/2026-10-27_courtroom.md`). Next: P04 scorecard on the next full draft.
 
 > Room card: `../OFFICE.md`. Kai prosecutes (`devils-advocate`); Nora presides and runs the mock judges
 > (`mock-judge`, workflow `office-judge-panel`). Pre-mortems: `../pm/PREMORTEMS.md`.
@@ -42,4 +43,5 @@
 | Sat 24 Oct (evening) | Lab L-05 candidates C1-C10 for the IPS (`lab/L-05_ips_push/CANDIDATES.md`) | Kai: wrong word ("defeasance": ETFs pay a NAV), overclaim ("never shrink", "no forecast"), dodging the case ("confidence it falls within"), no citation possible (L-04), wrong against the draft (C8), a mapping that breaks and Caplet's world not Laura's (water) | 3 AMENDED, 7 STRUCK | C1-C3 into IPS v3; C5, C6 to the Final Report (`lab/L-05_ips_push/courtroom.md`) |
 | Sat 24 Oct (evening) | The C1-C3 package (Spinnaker, played by Kai): admits ~90% sits at ~5% for 15 years and names two leaks | Spinnaker's best case | UPHELD (the package is more defensible) | Two blows land: with ~$1.1k headroom "lowers the floor" is the expected case, so Caplet should own it; keep the one-issuer line on purpose |
 | Sun 25 Oct (evening) | D1 lean: $10k buffer from the 2028 deposit + payments before the floor; Laura's Room exhibit 0.75% -> 0.11% | Kai: the buffer is paid from the floor money, so floor, bottom and top all fall $10k; quoting $10k lower with no buffer gives the same 0.11%; payments are 100% covered under d either way (C-01, MODEL) | AMENDED | Vote two dials: d (P5 "+, and last from the floor itself") and a quote margin (P4 "+less a margin for coupon risk"); buffer = D5 question (`../office/outbox/2026-10-25_courtroom_d1-buffer-is-a-lower-quote.md`) |
+| Tue 27 Oct (evening) | LR-04: no fixed margin under the 2031 bottom; in 2031 take off only the coupon gap already visible (clearing house: variation, not initial margin) | Kai: a bottom that can be cut isn't the TNA's "promised minimum"; the clearing house is costume; LR-03's donors were households (C-02, MODEL) | AMENDED | Rule stands (0 of 200,000 breaks; letting the gap use the $3,700 gives 35); the IPS states the bottom as a rule, never $145k (below it in 43.5% of paths before any mark); "seven times in ten"; no co-sponsor % in Caplet text (`../office/outbox/2026-10-27_courtroom_mark-to-market-on-trial.md`) |
 Mock judges sat once on 24 Oct, evening, on the Lab's candidates only (Keel's test, not a scoring of Caplet's draft: 25.2 -> 26.4/40). For Caplet's own draft, Caplet's scorers still mark first (`../office/CHARTER.md` section 6; board T14 Sun 1 Nov, T08 Mon 2 Nov).
