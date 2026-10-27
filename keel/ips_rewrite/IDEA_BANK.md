@@ -84,6 +84,29 @@ Most new case-study figures are LISTED (title seen, page not read: proxy 403); v
 | 43 | **Floor-leverage rule, simplified by the rules.** The bans on TIPS and leverage force the retirement "floor-leverage" design down to ours | FR | Shows we knew the fancier version and why it doesn't apply | – |
 | 44 | Barbell (Taleb), central-bank tranching, sukuk, Black-Litterman, bucket strategies | Out | Barbell: stocks are linear and our cap makes the contribution concave, the opposite of a barbell's convexity; tranching already in R05; sukuk and B-L irrelevant; buckets already in R02 | Barbell's rejection is itself a nice FR "looks relevant, isn't" paragraph |
 
+## From R07 (night of 27 Oct: `research/R07_synergies/`, Lab `lab/K07_memo.md`, huddle H-003)
+Six scouts verified about 40 ideas and critiqued how each fits Laura; six fusions; seven claims tested. Each row says
+which scout file holds the sources. Overlaps with R11: Equitable and Japan also appear in row 32, and the "one storm"
+row extends L4 (row 42).
+
+| # | Idea | Where | Why | Critique / status |
+|---|---|---|---|---|
+| 45 | **Replicate or reserve, on a date.** What Treasuries can copy is bought; what they can't (coupon reinvestment) is reserved by rule as soon as it can be measured. Plan change: **re-measure the coupon gap in Jan 2031 and deduct it before the range is named**, and keep the 2033 cushion. In the joint storm, the gift falls below the bottom 4.9% of the time; this takes it to 0.03%, for about $160 of mean gift (K07 T1-T3). Lineage: Solvency II Art. 77(4), Germany's interest reserve, Equitable Life | Both | A rule-based framework from insurance law; the one plan change H-003 voted for (6-0) | Needs the 2033 cushion, or 2.0% of cheques stay short (T3); MODEL |
+| 46 | **One storm, named by cause.** The four defences (2027 headroom, 2028 deposit, 2033 re-match, Laura's half) share one cause: a slump that shrinks her income while yields fall. The nuclear single-failure rule: "multiple failures resulting from a single occurrence are considered to be a single failure" (10 CFR 50 App. A). At rho 0.8 every V25 risk grows 1.7-3.8x (T1) | Both | Certainty is a claim about independence; naming the shared cause shows we tested it (6-0) | The income link is our inference ("can shrink"); the 2008 replay leaves 14-18% short and no rule fixes it: say so in the FR |
+| 47 | **Two standards of proof.** The bottom rests on a contract (the one rewrite of a Treasury term: the 1933 gold clause; bills paid late in 1979). The top is the only number that rests on history, so US-only odds are never quoted (survivorship, Goetzmann-Jorion). "3 in 4" survives a 0.6pt haircut everywhere, and a 2pt haircut in the house and storm worlds (71-75%) (T4) | Both (IPS: "the floor needs no history; only the top does") | Turns a weakness (forecasts) into a stated rule of evidence (6-0) | Quote "Perry, quoting the Sinking-Fund Cases (1879)"; appreciation, not returns (Felix) |
+| 48 | **The survivorship haircut.** Cut stock returns 2pt: our median gift loses about $1k, a 60/40's about $41k; rivals' broken promises rise to 35-44% (T4) | Both | The sceptic answered with a number nobody else has | MODEL; rivals are our sketches: never write "other teams fail" |
+| 49 | **Laura's half: a standby, called last.** Order of call written before the money exists: cheques, then the bottom, then the top, then her half (the overrun facility's waterfall; Studebaker 1963-64) | Both | Gives flexibility a role (panel gap) | **Corrects row 18:** "the project's second cheque" overclaims, since the half covers a full inflation top-up in only ~5% of worlds (M4). Studebaker: re-read the Sass PDF before citing |
+| 50 | **The deposit's first dollar buys cheques (the 2033 rung waits); the next ones back the coupons** | IPS | Exact | **Corrects row 8 / V25 line 7:** counting the coupon backstop, the cheques break at yields -2pt when the deposit is below about $85k, a fall of about 43% (T7). When the 2027 ladder runs short (46%), it is always the 2033 rung (T8) |
+| 51 | **A vault, not a promise to save.** Pitt's 1786 sinking fund and Ricardo's test ("derived from the excess"); Brady bonds (1989), the national-scale capital-protected note | FR | Historical proof of the structure | Brady used zeros, which are banned for Laura: a likeness of structure only |
+| 52 | **Co-sponsor text: "who stands behind the last payment?"** The gift pyramid, the Taiwan hui organiser's liability (Civil Code 709-7/709-9), Varian's crowding-out, refundable pledges | FR | Client Knowledge for a Taiwanese reader | Out of the IPS (3-0-3): the case never makes Laura the lead gift; hui law via a secondary source; T6 not run |
+| 53 | **Lineage boxes:** contingent immunisation run backwards (Leibowitz-Weinberger); Cohen's bet-hedging (only the floor answers everyone's bad year); Goldratt's pooled buffer; Orange County 1994; Rosenwald; the waqf's rigid rates; Allais' certainty effect at almost no price; refutational two-sided arguments (meta-analyses) | FR | Breadth, each tied to a plan feature | Secondary sources for the meta-analyses; Peters' coin out (contested) |
+| 54 | **"Who is allowed to be wrong?"** The bank, never; the sponsor, in the good case | IPS candidate (one line) | H-003's pick for the IPS: one pass, no set-up | A device, not an idea: use only if the words allow |
+
+**If the 2031 lock is adopted** (Courtroom, Wed 28 Oct): "about three times in four" becomes 84-91%, and "about three
+times worse" becomes 5-10 times. Fix both or neither, and don't re-size the top (T5). **Rejected in R07** (one line each in
+`research/R07_synergies/FUSIONS.md` s3): deferred annuities, Lundberg ruin, Tobin's perpetual rule, DSRA and debt
+sculpting, k-out-of-n, rolldown, Bayesian persuasion as a tool, Kreps-Wilson, cy-près, Dutch book.
+
 ## Motif material (XR)
 
 | # | Idea | Where | Critique |
