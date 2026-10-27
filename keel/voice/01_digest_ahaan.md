@@ -80,7 +80,7 @@ rewrite workspace (`../ips_rewrite/`) and are passed to it; the rest are this fo
 | 13 | Work "far more intensively and densely"; quality *and* quantity | Visible output every few hours | This folder's log; the rooms' loop | all |
 | 14 | Stop fretting about AI-use logging: "Trust us" | Keel stops asking about it | LEDGER keeps its existing rows; no new questions to the team | all |
 | 15 | Stop "minute changes"; judges want "the big picture ... investing knowledge and strategic thinking" | A review that only fixes words is not a review | Writing Room and Courtroom rules | rewrite |
-| 16 | Most of this message "probably belongs in the Bible" | It is in `../BIBLE.md` as a new book, verbatim | asked of the coordinator so only one thread writes it | coordinator |
+| 16 | Most of this message "probably belongs in the Bible" | It is in `../BIBLE.md` as Book 9, verbatim, with rule 10 | done 27 Oct by the rewrite thread | Done |
 
 **Where Keel disagrees, briefly.** On #5: Keel will not throw the script away entirely. It found one thing the reading
 voice-check missed (the drafts had cut almost every long sentence). It now only answers "did we accidentally flatten

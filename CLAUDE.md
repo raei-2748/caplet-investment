@@ -1,14 +1,14 @@
 # Team Keel / Team Caplet: project memory
 
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
-decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-27 (Wharton's halfway email, IPS instructions and deliverables page = Books 6-8 of the bible).
+decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-27 (Books 6-8 = Wharton's halfway email, IPS instructions and deliverables page; Book 9 = Ahaan's 27 Oct message).
 
 ## For every Claude session in this repo (all teammates)
 Whoever is using Claude here, these rules apply, and the Keel Office (formerly the Caplet Research Office) is how competition work is done:
-- **THE BIBLE comes first: eight books, all equal (Caplet's five, 23-26 Oct 2026, and Wharton's three official files of 27 Oct), verbatim in `keel/BIBLE.md`** (north stars;
+- **THE BIBLE comes first: nine books, all equal (Caplet's six, 23-27 Oct 2026, and Wharton's three official files of 27 Oct), verbatim in `keel/BIBLE.md`** (north stars;
   refinements; Caplet XR and de-obsessions; rewrite from scratch and star 4; Caplet XR locked; plus the 26 Oct cover note; Books 6-8 = Wharton's halfway
   email, "THIS IS BIBLE. OFFICIAL FILE", the updated IPS instructions PDF, "THIS IS BIBLE", filed in `competition/official/2026_27/wharton_email_week5_2026-10.md`,
-  and the deliverables page with the five evaluation criteria word for word, `competition/official/2026_27/SMApply_Deliverables_Page_2026-10-27.md`; every draft is checked against the criteria part by part, BIBLE rule 9).
+  and the deliverables page with the five evaluation criteria word for word, `competition/official/2026_27/SMApply_Deliverables_Page_2026-10-27.md`; every draft is checked against the criteria part by part, BIBLE rule 9; Book 9 = Ahaan, 27 Oct: look intelligent through niche strategies fused and critiqued plus logic, every good idea lands in a deliverable via `keel/ips_rewrite/IDEA_BANK.md`, big picture over minutiae, no timeline rule but the Sat 31 Oct review draft, BIBLE rule 10).
   Extraordinary above all; a distinctive, deeply human voice (Ahaan's essays set the tone, never a template; guide
   `keel/voice/06_voice_guide.md`, judged by ear, not by script); one subtle motif, Caplet XR (X = 10; R never
   "release"); breathtaking investing knowledge, applied; no hedging (iBonds held to liquidation are near-ironclad);
@@ -56,7 +56,7 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
 
 ## Current status (2026-10-14) - read this before the older sections below
 - 27 Oct (Ray + Ahaan): voice study in `keel/voice/` (reading log `keel/voice/reading/LOG.md`, 500-1,000 pieces asked;
-  judges are Shark Tank investors, guide s7-s9). Ahaan's 27 Oct message (INSTRUCTIONS I54): voice is qualitative,
+  judges are Shark Tank investors, guide s7-s9). Ahaan's 27 Oct message (BIBLE Book 9; INSTRUCTIONS I53, I55): voice is qualitative,
   `fingerprint.py` is not a judge; cut the human way; every good idea lands in the IPS or Final Report; no artificial
   timeline, only a final IPS draft for review by Sat 31 Oct.
 - 26 Oct (Ray): IPS rewritten from scratch through the office (WO-0003): AI Draft 1 in `keel/ips_rewrite/drafts/D1/`
