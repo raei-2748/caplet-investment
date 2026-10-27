@@ -361,7 +361,7 @@
     const vs = K.ips;
     const present = LINES.filter(l => vs.some(x => x.line === l));
     app.innerHTML = `
-      <div><div class="crumbs"><a href="#/">Office</a>›<span>IPS</span></div><h1>The IPS, version by version</h1>
+      <div><div class="crumbs"><a href="#/more">More</a>›<span>IPS</span></div><h1>The IPS, version by version</h1>
         <p class="lede">Every full draft of the pitch and the IPS, numbered for good (register: ${docLink("keel/ips_rewrite/VERSIONS.md", "VERSIONS.md")}). Caplet doc versions are the team's own Google Doc tabs; everything else is an AI DRAFT for Caplet to rewrite. Word counts are the strict count (a hyphen splits a word), the one to keep under the limit.</p></div>
       <section class="card"><div class="sec-head"><h2>IPS words</h2>${legendLines(present)}</div>${versionChart(vs, "ips_words", 500, "IPS words")}</section>
       <section class="two">
@@ -396,7 +396,7 @@
     if (i < 0) return notFound();
     const v = vs[i], prev = vs[i - 1], next = vs[i + 1];
     app.innerHTML = `
-      <div><div class="crumbs"><a href="#/">Office</a>›<a href="#/ips">IPS</a>›<span>V${v.n}</span></div>
+      <div><div class="crumbs"><a href="#/more">More</a>›<a href="#/ips">IPS</a>›<span>V${v.n}</span></div>
         <h1>V${v.n} · ${esc(v.label)}</h1><p class="lede">${esc(v.date)} · ${esc(v.line)}${v.line === "Caplet doc" ? " (the team's own draft)" : " (AI DRAFT for Caplet to rewrite)"}</p></div>
       <div class="diff-bar">${prev ? `<a class="chip" href="#/ips/${prev.n}">← V${prev.n}</a>` : ""}${next ? `<a class="chip" href="#/ips/${next.n}">V${next.n} →</a>` : ""}
         ${prev ? `<span class="seg" role="group"><button type="button" data-m="text" aria-pressed="true">Text</button><button type="button" data-m="diff" aria-pressed="false">Changes from V${prev.n}</button></span>` : ""}</div>
@@ -416,14 +416,14 @@
     if (!va || !vb) return notFound();
     const pct = pctText(changedShare(va, vb));
     app.innerHTML = `
-      <div><div class="crumbs"><a href="#/">Office</a>›<a href="#/ips">IPS</a>›<span>Compare</span></div>
+      <div><div class="crumbs"><a href="#/more">More</a>›<a href="#/ips">IPS</a>›<span>Compare</span></div>
         <h1>V${va.n} → V${vb.n}</h1><p class="lede"><del>Removed</del> and <ins>added</ins> words, from ${esc(va.label)} to ${esc(vb.label)}. ${pct} of words changed; IPS ${va.ips_words} → ${vb.ips_words}, pitch ${va.pitch_words} → ${vb.pitch_words}.</p></div>
       <div class="diff-bar"><a class="chip" href="#/ips/${va.n}">Read V${va.n}</a><a class="chip" href="#/ips/${vb.n}">Read V${vb.n}</a></div>
       <section class="card"><div class="prose ips-text"><h3>Pitch</h3>${diffHtml(va.pitch, vb.pitch)}<h3>IPS</h3>${diffHtml(va.ips, vb.ips)}</div></section>`;
   }
 
   function pageRooms() {
-    app.innerHTML = `<div><div class="crumbs"><a href="#/">Office</a>›<span>Rooms</span></div><h1>Twelve rooms</h1>
+    app.innerHTML = `<div><div class="crumbs"><a href="#/more">More</a>›<span>Rooms</span></div><h1>Twelve rooms</h1>
       <p class="lede">Each room is a scheduled run. At the end of every run it updates its "Now" block, logs what it made and pushes; this page reads those files. "Late" means it missed its schedule.</p></div>
       <div class="grid">${K.rooms.map(roomCard).join("")}</div>`;
   }
@@ -448,7 +448,7 @@
     const outs = [...rl.map(x => ({ when: x.date, kind: "Run", text: x.output, sub: x.aim ? `aimed at ${x.aim}` : "", href: "" })),
       ...ms.map(m => ({ when: m.date, kind: "Memo", text: m.title, sub: m.takes.length ? `takes: ${m.takes.map(t => t.name).join(", ")}` : "", href: `#/doc/${m.path}` }))].slice(0, 6);
     app.innerHTML = `
-      <div><div class="crumbs"><a href="#/">Office</a>›<a href="#/rooms">Rooms</a>›<span>${esc(r.name)}</span></div>
+      <div><div class="crumbs"><a href="#/more">More</a>›<a href="#/rooms">Rooms</a>›<span>${esc(r.name)}</span></div>
         <div class="hero"><div class="who" style="display:flex;gap:4px">${people.map(m => `<a href="#/member/${m.id}">${avatar(m.id, 48, m.name)}</a>`).join("")}</div>
         <div><h1>${esc(r.name)}</h1><p class="lede">${esc(r.who)} · ${esc(r.schedule)} · ${pill(r.health)}</p></div></div></div>
       <section class="card room-now"><div class="sec-head"><span class="tag px">Right now</span><span class="small muted">updated ${esc(r.updated)}</span></div>
@@ -477,7 +477,7 @@
   }
 
   function pageTeam() {
-    app.innerHTML = `<div><div class="crumbs"><a href="#/">Office</a>›<span>Team</span></div><h1>The six</h1>
+    app.innerHTML = `<div><div class="crumbs"><a href="#/more">More</a>›<span>Team</span></div><h1>The six</h1>
       <p class="lede">Year 11 at a Sydney selective school, all fictional. Each heads a room and speaks in the memos; the latest take is from the newest memo or stand-up.</p></div>
       <div class="grid wide">${K.members.map(m => `<a class="card member-card" href="#/member/${m.id}">${avatar(m.id, 88, m.name)}<div><h2 class="px">${esc(m.name)}</h2><div class="small muted">${esc(m.role)}</div><p class="take">${esc(m.take)}</p><span class="tag">${esc(m.home)}</span></div></a>`).join("")}</div>`;
   }
@@ -487,7 +487,7 @@
     const takes = K.memos.flatMap(x => x.takes.filter(t => t.name === m.name).map(t => ({ ...t, memo: x }))).slice(0, 12);
     const prof = Object.entries(m.profile).filter(([, v]) => v);
     app.innerHTML = `
-      <div><div class="crumbs"><a href="#/">Office</a>›<a href="#/team">Team</a>›<span>${esc(m.name)}</span></div>
+      <div><div class="crumbs"><a href="#/more">More</a>›<a href="#/team">Team</a>›<span>${esc(m.name)}</span></div>
       <div class="hero">${avatar(m.id, 128, m.name)}<div><h1 class="px">${esc(m.full)}</h1><p class="lede">${esc(m.role)} · home room <a href="#/room/${m.home_id}">${esc(m.home)}</a>${m.doc ? ` · ${docLink(m.doc, "full profile")}` : ""}</p>
       <p class="notice fiction" style="margin:.7rem 0 0">Keel is a simulated team, AI-written. None of the six is based on a real person.</p></div></div></div>
       <section class="two"><div class="card"><h2>Latest take</h2><p class="prose" style="margin:.4rem 0 0">${esc(m.take)}</p><p class="small muted">${esc(m.take_date)}</p></div>
@@ -506,7 +506,7 @@
     };
     const total = {}; K.commits.forEach(c => { total[c.room || ""] = (total[c.room || ""] || 0) + 1; });
     app.innerHTML = `
-      <div><div class="crumbs"><a href="#/">Office</a>›<span>Activity</span></div><h1>Activity${day ? ` on ${esc(day)}` : ""}</h1>
+      <div><div class="crumbs"><a href="#/more">More</a>›<span>Activity</span></div><h1>Activity${day ? ` on ${esc(day)}` : ""}</h1>
         <p class="lede">Every commit to Keel's files${day ? ` that day (<a href="#/activity">all days</a>)` : ""}, newest first, including today's day branch before it is merged.</p></div>
       <section class="card">${heatmap(K.commits)}</section>
       <section class="card"><h2>All-time commits by room</h2><div style="margin-top:.6rem">${hbars(K.rooms.map(r => ({ label: r.name.replace(/^The /, ""), href: `#/room/${r.id}`, n: total[r.id] || 0 })).sort((a, b) => b.n - a.n))}</div></section>
@@ -518,7 +518,7 @@
 
   function pageEpisodes() {
     const eps = K.episodes;
-    app.innerHTML = `<div><div class="crumbs"><a href="#/">Office</a>›<span>Episodes</span></div><h1>The season so far</h1>
+    app.innerHTML = `<div><div class="crumbs"><a href="#/more">More</a>›<span>Episodes</span></div><h1>The season so far</h1>
       <p class="lede">A daily episode since the night before trading opened. Fiction: the events are made up, the research inside them is real and dated.</p></div>
       ${eps.some(e => e.headroom_bp != null) ? `<section class="card"><h2>Ladder headroom under $300,000, by episode (bp)</h2><p class="small muted" style="margin:.2rem 0 .3rem">Jun's daily price of the payment ladder (MODEL, previous U.S. close). Lower means less room before the ladder costs more than the 2027 deposit.</p>${headroomChart(eps)}</section>` : ""}
       <section class="grid wide">${eps.slice().reverse().map(e => `<a class="card" href="#/doc/${esc(e.path)}"><div class="sec-head"><span class="tag">Ep ${e.ep} · ${esc(e.date)}</span>${memberById[e.pov.toLowerCase()] ? avatar(e.pov.toLowerCase(), 28, e.pov) : ""}</div><h3 style="margin:.5rem 0 .3rem">${esc(e.title)}</h3><p class="small ink2" style="margin:0">${esc(e.what)}</p>${e.milestone && e.milestone !== "-" ? `<p class="tiny muted" style="margin:.4rem 0 0">Milestone: ${esc(e.milestone)}</p>` : ""}</a>`).join("")}</section>`;
@@ -533,7 +533,7 @@
     const st = {}; K.instructions.forEach(i => { st[i.status] = (st[i.status] || 0) + 1; });
     const order = Object.keys(st).sort((a, b) => ({ good: 0, warn: 1, crit: 2, "": 3 }[tone(a)] - { good: 0, warn: 1, crit: 2, "": 3 }[tone(b)]));
     const colour = s => ({ good: "var(--good)", warn: "var(--warn)", crit: "var(--crit)" }[tone(s)] || "var(--axis)");
-    app.innerHTML = `<div><div class="crumbs"><a href="#/">Office</a>›<span>Plan</span></div><h1>Projects, questions and your instructions</h1>
+    app.innerHTML = `<div><div class="crumbs"><a href="#/more">More</a>›<span>Plan</span></div><h1>Projects, questions and your instructions</h1>
       <p class="lede">Keel plans its own projects, makes its own calls (only danger-zone decisions wait for you), and tracks every instruction Caplet has given it.</p></div>
       <section><h2>Keel's projects</h2><div class="grid wide">${K.projects.map(p => `<div class="card"><div class="sec-head"><span class="tag">${esc(p.id)}</span>${pill(p.status)}</div><h3 style="margin:.5rem 0 .4rem">${esc(p.name)}</h3><dl class="now"><dt>For the judges</dt><dd class="small">${esc(p.for_judges)}</dd><dt>Next step</dt><dd class="small">${esc(p.next)}</dd></dl><p class="tiny muted" style="margin:.6rem 0 0">${esc(p.owner)} · due ${esc(p.due)}</p></div>`).join("")}</div></section>
       ${askTable("Danger zone: waiting for you", "Irreversible or outward-facing (WInS orders, submitting, your docs, money, accounts). Keel recommends and does nothing until a student answers.", K.asks.filter(a => a.status.startsWith("Danger")), "Keel recommends", true)}
@@ -553,7 +553,7 @@
   function pageLibrary() {
     const groups = {};
     K.docs.forEach(d => { const g = d.path.split("/").slice(1, -1).join("/") || "keel"; (groups[g] = groups[g] || []).push(d); });
-    app.innerHTML = `<div><div class="crumbs"><a href="#/">Office</a>›<span>Library</span></div><h1>Every page Keel has written</h1>
+    app.innerHTML = `<div><div class="crumbs"><a href="#/more">More</a>›<span>Library</span></div><h1>Every page Keel has written</h1>
       <p class="lede">${K.docs.length} pages, rendered from the repo. Links inside a page open here.</p></div>
       <input type="search" id="q" placeholder="Search titles and paths" aria-label="Search pages"><section id="lib"></section>`;
     const lib = app.querySelector("#lib"), q = app.querySelector("#q");
@@ -575,7 +575,7 @@
   function pageDoc(path) {
     const d = K.docs.find(x => x.path === path);
     const parts = path.split("/");
-    app.innerHTML = `<div><div class="crumbs"><a href="#/">Office</a>›<a href="#/library">Library</a>›${parts.slice(1, -1).map(p => `<span>${esc(p)}</span>›`).join("")}<span>${esc(parts[parts.length - 1])}</span></div>
+    app.innerHTML = `<div><div class="crumbs"><a href="#/more">More</a>›<a href="#/library">Library</a>›${parts.slice(1, -1).map(p => `<span>${esc(p)}</span>›`).join("")}<span>${esc(parts[parts.length - 1])}</span></div>
       <p class="small" style="margin:.4rem 0 0"><a href="${gh(path)}" target="_blank" rel="noopener">Open on GitHub</a>${d ? ` · ${d.kb} KB` : ""}</p></div>
       ${/episodes\/|members\/|CAST|STORY|ARCS|WORLD|tea_room/.test(path) ? `<p class="notice fiction">Fiction: Keel is a simulated team, AI-written. Events and people are made up; research findings are real and dated.</p>` : ""}
       <article class="card"><div class="doc" id="doc"><p class="muted">Loading…</p></div></article>`;
@@ -583,15 +583,74 @@
   }
   function notFound() { app.innerHTML = `<h1>Not found</h1><p><a href="#/">Back to the office</a></p>`; }
 
+  // ---------- Today: the front page ----------
+  const DAYS = K.days || [];
+  const longDay = d => new Intl.DateTimeFormat("en-AU", { weekday: "long", day: "numeric", month: "long", timeZone: "UTC" }).format(new Date(d + "T00:00:00Z"));
+  const shortDay = d => new Intl.DateTimeFormat("en-AU", { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }).format(new Date(d + "T00:00:00Z"));
+  const cleanTitle = t => { const x = String(t || "").replace(/^FICTION[^.]*\.\s*/, "").replace(/^[^:]{0,70}\b20\d\d\b[^:]{0,40}: /, ""); return x.charAt(0).toUpperCase() + x.slice(1); };
+  const roomName = id => id && roomById[id] ? roomById[id].name : "";
+  const nameId = n => (K.members.find(m => m.name === n) || {}).id;
+  function nextDeadline() {
+    const d = K.meta.deadlines.find(x => new Date(x.at) > Date.now());
+    if (!d) return "";
+    const days = Math.ceil((new Date(d.at) - Date.now()) / 864e5);
+    return `${esc(d.name)} in ${plural(days, "day")} (${esc(syd(d.at, { weekday: "short", day: "numeric", month: "short" }))}, ${esc(syd(d.at, { hour: "2-digit", minute: "2-digit", hour12: false }))} Sydney)`;
+  }
+  function talkCard(t, open) {
+    const head = `${t.kind === "Memo" ? esc(roomName(t.room) || "Memo") : esc(t.kind)}`;
+    const shown = t.lines.slice(0, 4), rest = t.lines.slice(4);
+    const msg = l => { const id = nameId(l.name); return `<div class="msg">${id ? `<a href="#/member/${id}" class="msg-ava">${avatar(id, 30, l.name)}</a>` : ""}<div><b>${esc(l.name)}</b><p>${esc(l.text)}</p></div></div>`; };
+    return `<details class="talk"${open ? " open" : ""}><summary><span class="kicker">${head}</span><span class="t">${esc(cleanTitle(t.title))}</span><span class="who-row">${[...new Set(t.lines.map(l => l.name))].map(n => nameId(n) ? avatar(nameId(n), 18, n) : "").join("")}</span></summary>
+      <div class="chat">${shown.map(msg).join("")}${rest.length ? `<details class="more-lines"><summary>${plural(rest.length, "more line")}</summary>${rest.map(msg).join("")}</details>` : ""}</div>
+      ${t.path ? `<p class="go">${docLink(t.path, "Read it all →")}</p>` : ""}</details>`;
+  }
+  function pageToday(day) {
+    if (!DAYS.length) { app.innerHTML = `<div class="today"><h1>Nothing yet</h1></div>`; return; }
+    const i = Math.max(0, day ? DAYS.findIndex(d => d.day === day) : 0), D = DAYS[i];
+    if (!D) return notFound();
+    const prev = DAYS[i + 1], next = DAYS[i - 1];
+    const plainItems = D.plain.map(p => `<li><span class="who">${esc(p.who.replace(/^The /, ""))}</span><p>${esc(p.text)}${p.href ? ` <a href="#/doc/${esc(p.href)}" class="nowrap">read →</a>` : ""}</p></li>`).join("");
+    const done = [...D.done.map(d => ({ text: d.text, who: d.who })), ...D.calls.map(c => ({ text: "Decided: " + c.text.replace(/^\w{3} \d+ \w{3}: /, ""), who: roomName(c.room) }))];
+    app.innerHTML = `<div class="today">
+      <div class="day-nav">
+        ${prev ? `<a class="arrow" href="#/day/${prev.day}" aria-label="Earlier day: ${esc(shortDay(prev.day))}">‹</a>` : `<span class="arrow off">‹</span>`}
+        <div class="day-title"><span class="eyebrow">${i === 0 ? "Today at Keel" : "What Keel did"}</span><h1>${esc(longDay(D.day))}</h1>
+          <p class="meta">${plural(D.memos, "memo")} · ${plural(D.talks.length, "conversation")} · ${plural(D.commits, "commit")}${i === 0 && nextDeadline() ? ` · ${nextDeadline()}` : ""}</p></div>
+        ${next ? `<a class="arrow" href="#/day/${next.day}" aria-label="Later day: ${esc(shortDay(next.day))}">›</a>` : `<span class="arrow off">›</span>`}
+      </div>
+      ${D.for_caplet.length ? `<section class="essence"><h2>For Caplet</h2><ol>${D.for_caplet.map(p => `<li>${p.who ? `<b>${esc(p.who)}</b> ` : ""}${esc(p.text)}</li>`).join("")}</ol></section>` : ""}
+      <section class="block"><h2>In plain words</h2><ul class="plainlist">${plainItems || `<li class="muted">Nothing written yet today.</li>`}</ul>
+        ${D.plain_auto && D.plain.length ? `<p class="note">No one wrote a plain summary this day, so these are the rooms' own result lines.</p>` : ""}${D.today_doc ? `<p class="note">${docLink(D.today_doc, "The day's page")}</p>` : ""}</section>
+      ${D.round && D.round.path ? `<section class="block"><h2>The research round</h2>${D.round.question ? `<p class="q">${esc(D.round.question)}</p>` : ""}<p class="note">${D.round.lens ? `Lens: ${esc(D.round.lens)} · ` : ""}${D.round.beats.length} of 9 beats in · ${docLink(D.round.path, "Read the round →")} · ${docLink("keel/loop/CHAMPIONS.md", "champion board")}</p></section>` : ""}
+      ${D.talks.length ? `<section class="block"><h2>Conversations <span class="count">${D.talks.length}</span></h2><div class="talks">${D.talks.map((t, k) => talkCard(t, k < 2)).join("")}</div></section>` : ""}
+      ${D.research.length || D.files.length ? `<section class="block"><h2>Research <span class="count">${D.research.length}</span></h2><ul class="rlist">${D.research.map(r => `<li><div class="r-head"><span class="kicker">${esc(roomName(r.room).replace(/^The /, "") || "Huddle")}</span><a href="#/doc/${esc(r.path)}">${esc(cleanTitle(r.title))}</a></div>${r.text ? `<p>${esc(r.text)}</p>` : ""}${r.sources && r.sources.length ? `<details><summary>${plural(r.sources.length, "source")} read</summary><ul>${r.sources.map(x => `<li>${esc(x)}</li>`).join("")}</ul></details>` : ""}</li>`).join("")}</ul>
+        ${D.files.length ? `<details class="files"><summary>${plural(D.files.length, "new research page")}</summary><ul>${D.files.map(f => `<li>${docLink(f.path, f.title)}</li>`).join("")}</ul></details>` : ""}</section>` : ""}
+      ${done.length || D.open.length ? `<section class="block"><h2>Done <span class="count">${done.length}</span></h2><ul class="done">${done.map(d => `<li><span class="tick" aria-hidden="true">✓</span><span>${esc(d.text)}${d.who ? ` <span class="muted small">${esc(d.who)}</span>` : ""}</span></li>`).join("")}${D.open.map(d => `<li class="todo"><span class="tick" aria-hidden="true">○</span><span>${esc(d.text)} <span class="muted small">${esc(d.who)}</span></span></li>`).join("")}</ul></section>` : ""}
+      ${D.ips.length ? `<section class="block"><h2>The IPS rewrite's thinking</h2><ul class="rlist">${D.ips.map(t => `<li><div class="r-head"><a href="#/doc/keel/ips_rewrite/THINKING_LOG.md">${esc(cleanTitle(t.title))}</a></div><p>${esc(t.text)}</p></li>`).join("")}</ul><p class="note">The rewrite is slow on purpose (the bible, rule 2). ${docLink("keel/ips_rewrite/THINKING_LOG.md", "Whole thinking log →")} · <a href="#/ips">Every IPS version →</a></p></section>` : ""}
+      <p class="note center"><a href="#/days">All days</a> · <a href="#/more">Everything else</a></p>
+    </div>`;
+  }
+  function pageDays() {
+    app.innerHTML = `<div class="today"><div class="day-title"><span class="eyebrow">The log</span><h1>Every day so far</h1></div>
+      <ul class="daylist">${DAYS.map(D => { const f = D.for_caplet[0] || D.plain[0] || {}; const lead = f.text ? (f.who ? f.who.replace(/^The /, "") + (/[.!?]$/.test(f.who) ? " " : ": ") : "") + f.text : ""; return `<li><a href="#/day/${D.day}"><span class="d">${esc(shortDay(D.day))}</span><span class="l">${esc(lead.length > 170 ? lead.slice(0, 170).replace(/\s\S*$/, "") + "…" : lead)}</span><span class="c">${plural(D.talks.length, "conversation")} · ${D.research.length} research · ${D.done.length + D.calls.length} done</span></a></li>`; }).join("")}</ul></div>`;
+  }
+  function pageMore() {
+    const L = [["#/office", "Office dashboard", "Rooms on time, charts, deadlines and the latest commits"], ["#/ips", "The IPS", "Every version and what changed"], ["#/doc/keel/BIBLE.md", "The bible", "Seven books, read first by every run"],
+      ["#/plan", "Questions for you", "The danger-zone question, Keel's own calls with reasons, and your instructions"], ["#/rooms", "Rooms", "Twelve rooms, each with its decisions and work"], ["#/team", "The six", "Profiles and every take"],
+      ["#/activity", "Activity", "Every commit and the run log"], ["#/episodes", "Episodes", "The story so far (fiction)"], ["#/library", "Library", "Every page Keel has written"]];
+    app.innerHTML = `<div class="today"><div class="day-title"><span class="eyebrow">One click deeper</span><h1>Everything else</h1></div>
+      <ul class="morelist">${L.map(([h, t, d]) => `<li><a href="${h}"><b>${esc(t)}</b><span>${esc(d)}</span></a></li>`).join("")}</ul></div>`;
+  }
+
   // ---------- router ----------
-  const TABS = [["#/", "Office"], ["#/ips", "IPS"], ["#/rooms", "Rooms"], ["#/team", "Team"], ["#/activity", "Activity"], ["#/episodes", "Episodes"], ["#/plan", "Plan"], ["#/library", "Library"]];
+  const TABS = [["#/", "Today"], ["#/days", "Days"], ["#/ips", "IPS"], ["#/more", "More"]];
   function route() {
     hideTip();
     const h = location.hash || "#/", seg = h.replace(/^#\/?/, "").split("/");
-    const tab = "#/" + (seg[0] === "compare" ? "ips" : seg[0] === "room" ? "rooms" : seg[0] === "member" ? "team" : seg[0] === "doc" ? "library" : seg[0]);
+    const tab = seg[0] === "" ? "#/" : seg[0] === "day" ? "#/days" : ["ips", "compare"].includes(seg[0]) ? "#/ips" : seg[0] === "days" ? "#/days" : "#/more";
     document.getElementById("tabs").innerHTML = TABS.map(([href, label]) => `<a href="${href}" ${href === tab || (href === "#/" && tab === "#/") ? 'aria-current="page"' : ""}>${label}</a>`).join("");
     const pages = {
-      "": pageHome, ips: () => seg[1] ? pageVersion(seg[1]) : pageIps(), compare: () => pageCompare(seg[1], seg[2]),
+      "": () => pageToday(), day: () => pageToday(seg[1]), days: pageDays, more: pageMore, office: pageHome, ips: () => seg[1] ? pageVersion(seg[1]) : pageIps(), compare: () => pageCompare(seg[1], seg[2]),
       rooms: pageRooms, room: () => pageRoom(seg[1]), team: pageTeam, member: () => pageMember(seg[1]),
       activity: () => pageActivity(seg[1]), episodes: pageEpisodes, plan: pagePlan, library: pageLibrary,
       doc: () => pageDoc(decodeURIComponent(seg.slice(1).join("/"))),
