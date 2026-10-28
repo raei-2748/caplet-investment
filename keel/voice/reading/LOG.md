@@ -17,7 +17,7 @@ about 60-90 pieces an hour at best. Collections (memo anthologies, letter compil
 Each entry: **Open / Best / Close** (quoted lines), **Craft** (rhythm, stance, shape), **Steal** (one move worth
 copying), **Insight** (only if there is one). What the entries add up to goes in `SYNTHESIS.md` after every 100.
 
-Count so far: **910**
+Count so far: **949**
 
 ---
 
@@ -1884,6 +1884,69 @@ words: one answers an objection before it is spoken, the other puts the reader o
 (898) both close by returning to where they began, the title or the playhouse. Montaigne's "Of the vanity of words"
 (875) is the anti-jargon rule in one image: grand terms that turn out to be "the paltry pieces of my own kitchen door."
 Jacks (885) is the warning: an essay against abstraction written in abstractions.
+
+## Round 2, batch 29 (29 Oct, 04:30-04:35 Sydney): 911-949
+Checked against the log's URL and title list first; no RBA 2016 speech was in the log, and none of the essays were.
+Nearly half modern this time, to break the Montaigne run: eighteen RBA speeches from 2016 (the Stevens-to-Lowe handover
+year), then twenty-one essays from Quotidiana (https://essays.quotidiana.org/), read whole. Not counted: the RBA 2016
+list page and six Quotidiana author index pages (Cowper, Fuller, Bly, Wollstonecraft, Tomlinson, De Quincey), used only
+to find URLs; Debelle's Harcourt remarks (23 June 2016), which would not load. De Quincey's "Charles Lamb" (935) was
+read to about nine-tenths, and the Quotidiana copy of "The Glory of Motion" (934) breaks off mid-word. Quotes marked "…"
+were cut at the reader's 125-character limit.
+
+### 911-928 · Reserve Bank of Australia, 2016 · speeches
+| # | Piece | What it shows |
+|---|---|---|
+| 911 | Stevens, "An Accounting" (Aug 2016, his last speech as Governor) https://www.rba.gov.au/speeches/2016/sp-gov-2016-08-10.html | Opens on a charity fund struggling to earn 4 per cent on safe assets, then a decade told in averages. "Slower growth is here now and has been for a while." "And normal is a different place now." **"Our job is not to avoid all risk; it is to balance the various risks."** Close: "I have appreciated that support more than you can know." |
+| 912 | Lowe, "Buffers and Options" (Nov 2016) https://www.rba.gov.au/speeches/2016/sp-gov-2016-11-15.html | **"Stronger buffers give us more options."** "We have a smaller buffer than we once did and a smaller buffer means fewer options." Ends on insurance: "You pay a premium for protection against future uncertainties and to provide resilience." The title is the argument. |
+| 913 | Ellis, "Booms, Busts, Cycles and Risk Appetite" (Mar 2016) https://www.rba.gov.au/speeches/2016/sp-so-2016-03-18.html | Opens on everyday Australian safety habits. "So, yes, we see boom–bust dynamics in the financial system, but a repeating cycle, not so much." "There is no virtue in collateral damage, and no room for spite in public policy." **Closes on three plain rules: go in with your eyes open, don't get ahead of yourself, have something to catch you if you fall.** |
+| 914 | Kent, "Economic Forecasting at the Reserve Bank of Australia" (Apr 2016) https://www.rba.gov.au/speeches/2016/sp-ag-2016-04-06.html | "point forecasts should be treated with a healthy degree of scepticism." "Indeed, it is naïve to think that the truth can reside in a single source of data or a particular model." A joke against himself: "if we judge any forecast revision to be of substance worth noting, we'll note it!" |
+| 915 | Stevens, "Observations on the Current Situation" (Apr 2016, New York) https://www.rba.gov.au/speeches/2016/sp-gov-2016-04-19.html | "It is good to be in New York once again." "When everyone wants to save, the return to doing so will fall – that's economics." "Monetary solutions are for monetary problems." "Desperate times call for desperate measures, perhaps." Close: "This needs to be our focus." |
+| 916 | Lowe, Board dinner remarks, Sydney (Sep 2016) https://www.rba.gov.au/speeches/2016/sp-dg-2016-09-06.html | A tribute to Stevens at his last Board meeting. "He is a man of courage, prepared to say things that are true, even when they are not popular." "He is going to be a darn hard act to follow!" **Last words: "Glenn Stevens."** A toast as an ending. |
+| 917 | Lowe, "Inflation and Monetary Policy" (Oct 2016, his first speech as Governor) https://www.rba.gov.au/speeches/2016/sp-gov-2016-10-18.html | "This is quite a different world to the one that has existed over the past half-century." "We have never thought of our job as keeping the year-ended rate of inflation between 2 and 3 per cent at all times." "Inevitably, judgement has to be exercised." |
+| 918 | Lowe, "Resilience and Ongoing Challenges" (Mar 2016, Adelaide) https://www.rba.gov.au/speeches/2016/sp-dg-2016-03-08.html | He re-checks the themes of a speech he gave six years earlier, then hopes to check these in six more. "the 'unconventional' has almost become conventional." **A speech that marks its own homework.** |
+| 919 | Kent, "After the Boom" (Sep 2016) https://www.rba.gov.au/speeches/2016/sp-ag-2016-09-13.html | Sets out what the Bank expected, then checks it against what happened, misses included: nominal GDP "increased by around 8 per cent, which was half the initial forecast of 17 per cent." |
+| 920 | Debelle, "Liquidity in Australian Fixed Income Markets" (Jun 2016) https://www.rba.gov.au/speeches/2016/sp-ag-2016-06-21.html | **"the market is awash with liquidity at the same time as the tide is going out."** "liquidity was oversupplied and underpriced in the years prior to the global financial crisis". A Pixies aside. |
+| 921 | Edey, "The Evolving Risk Environment" (Feb 2016) https://www.rba.gov.au/speeches/2016/sp-ag-2016-02-18.html | "I am not going to be offering those sorts of predictions today." "market and media commentary often errs on the side of being unjustifiably gloomy." |
+| 922 | Ellis, "Financial Stability and the Banking Sector" (Jul 2016) https://www.rba.gov.au/speeches/2016/sp-so-2016-07-12.html | Opens on a 1996 conference that predicted banks would decline. **"Fake liquidity is fake."** "Nobody expects a bail-out, because nobody expects to fail." |
+| 923 | Stevens, remarks to the ASIC Annual Forum (Mar 2016) https://www.rba.gov.au/speeches/2016/sp-gov-2016-03-22.html | Turns the panel's question from whether the system can take a shock to how. "There is a cycle of fear and greed in financial markets; it was ever thus." "Unfortunately, we will not be very good at forecasting these events." Markets should stop "habitually 'pricing for perfection'". |
+| 924 | Stevens, opening statement to the House Economics Committee (Feb 2016) https://www.rba.gov.au/speeches/2016/sp-gov-2016-02-12.html | "The good thing is that there are strong areas to counteract the weak ones." Calm committee prose; a counter-example to every dinner speech. |
+| 925 | Heath, "The Changing Nature of the Australian Workforce" (Sep 2016) https://www.rba.gov.au/speeches/2016/sp-so-2016-09-21.html | "How do we overcome the natural biases we have that make it easier to work with people who operate just like us?" Heavily cited and careful. |
+| 926 | Lowe, remarks to the Asian Development Bank conference (Sep 2016) https://www.rba.gov.au/speeches/2016/sp-dg-2016-09-08.html | **"Regulation can be printed, measured and enforced." "Systemic risk cannot be seen, nor can it be easily measured."** Two short sentences, one turn. |
+| 927 | Kent, "Australia's Economic Transition – State By State" (Nov 2016, his last as chief economist) https://www.rba.gov.au/speeches/2016/sp-ag-2016-11-22.html | "Labour was going to where it was in greatest demand and being paid relatively handsomely". Technical; the states are the story. |
+| 928 | Kent, "The Economic Transition in China" (Jun 2016, Brisbane) https://www.rba.gov.au/speeches/2016/sp-ag-2016-06-16.html | "The reform process will take time – as it does in most countries." A central case with named tails. |
+
+### 929-949 · Bly, Fuller, Cowper, De Quincey, Tomlinson, Wollstonecraft, Montaigne, Vernon Lee · essays
+| # | Piece | What it shows |
+|---|---|---|
+| 929 | Nellie Bly, "A Proposal to Girdle the Earth" (1890) https://essays.quotidiana.org/bly/a_proposal_to_girdle_the_earth/ | **First sentence: "What gave me the idea?"** A deadline story: "in eighty days or less". "Nonsense! If you want to do it, you can do it. The question is, do you want to do it?" She praises laundries that, when they promise work by a time, "are prompt to the minute." |
+| 930 | Bly, "Trying to be a Servant" https://essays.quotidiana.org/bly/trying_to_be_a_servant/ | Undercover at two hiring agencies. She lets the agents' sales talk speak for itself. Close: she "gave up trying to be a servant." |
+| 931 | Margaret Fuller, "Farewell" (to New York, 1846) https://essays.quotidiana.org/fuller/farewell/ | "Life rushes wide and free, but too fast." Close: "I say to my friends once more a kind farewell!" |
+| 932 | Cowper, "On Keeping Secrets" https://essays.quotidiana.org/cowper/keeping_secrets/ | "Confidants, in general, are like crazy fire-locks". The gossip who is "heartily sorry for it, but never knew that it was to be a secret." Close, a maxim: "That no man may betray the counsel of his friend, let every man keep his own." |
+| 933 | Cowper, "On Conversation" https://essays.quotidiana.org/cowper/conversation/ | "We should try to keep up conversation like a ball bandied to and fro from one to the other," The Silent Men "afraid of opening their mouths, lest they should catch cold". |
+| 934 | De Quincey, "The Glory of Motion" (The English Mail-Coach) https://essays.quotidiana.org/dequincey/glory_of_motion/ | Mock-heroic open: the man who invented mail-coaches ranked above Galileo. Coaches "Tied to post-office time" and a dial with "the dreadful legend of TOO LATE". "we heard our speed, we saw it, we felt it as a thrilling". |
+| 935 | De Quincey, "Charles Lamb" https://essays.quotidiana.org/dequincey/charles_lamb/ | "Hazlitt had read nothing." Four words of verdict on a friend. Long and warm; Lamb's devotion to his sister at the centre. |
+| 936 | Tomlinson, "The Ruins" (a French town after the war) https://essays.quotidiana.org/tomlinson/ruins/ | "For more than two years this town could not have been more remote from us if it had been in another planet." "All the homes are blind. Their eyes have been put out." **F4 by object: a corn-chandler's ledger found in the rubble makes the dead town human again.** |
+| 937 | Tomlinson, "A First Impression" (New York) https://essays.quotidiana.org/tomlinson/first_impression/ | "Certainly it was an inconsiderate way of approaching the greatest city of the Americas, but that was not my fault." "There was rain, and cabs that waited without hope." "I had found New York." |
+| 938 | Tomlinson, "Lent" (1918) https://essays.quotidiana.org/tomlinson/lent/ | F1: "It was Meredith's country, and Atlantic weather in Lent." "The war—was there a war?" "The fire is dying. It is grey, fallen, and cold." |
+| 939 | Tomlinson, "Binding a Spell" (giving a public talk) https://essays.quotidiana.org/tomlinson/binding_a_spell/ | F5, comic: "The sound of my voice uplifted in that silence was the most startling sound I have ever heard." "I just talked to that boy." Close, deflating: "The chairman kindly let me out through a side entrance." |
+| 940 | Wollstonecraft, Letter II https://essays.quotidiana.org/wollstonecraft/letter_ii/ | Opens on Gothenburg's canals; ends in a night walk: "Eternity is in these moments." "Who fears the fallen dew?" Close: "Adieu!" |
+| 941 | Wollstonecraft, Letter III https://essays.quotidiana.org/wollstonecraft/letter_iii/ | Opens on a population estimate. "Still the men stand up for the dignity of man by oppressing the women." |
+| 942 | Wollstonecraft, Letter IV https://essays.quotidiana.org/wollstonecraft/letter_iv/ | "There is such a charm in tenderness!" Ends on a journey still to come. |
+| 943 | Montaigne, "Of one defect in our government" https://essays.quotidiana.org/montaigne/one_defect_in_our_government/ | His father's idea: a public register where needs are posted, so buyers find sellers. **"I want a chapman to buy my pearls; I want one that has pearls to sell;"** Ends on regret for not keeping his father's household journal. |
+| 944 | Montaigne, "That the hour of parley is dangerous" https://essays.quotidiana.org/montaigne/hour_of_parley_is_dangerous/ | Opens on a broken truce near his house. "there is now no confidence in an enemy excusable till the treaty is finally sealed". "I had rather complain of ill-fortune than be ashamed of victory." |
+| 945 | Montaigne, "Of sumptuary laws" https://essays.quotidiana.org/montaigne/sumptuary_laws/ | Banning luxuries makes them wanted. "Let kings but lead the dance and begin to leave off this expense," |
+| 946 | Montaigne, "Against idleness" https://essays.quotidiana.org/montaigne/against_idleness/ | Vespasian working from his deathbed: "An emperor," said he, "must die standing." "No pilot performs his office by standing still." |
+| 947 | Montaigne, "Of prayers" https://essays.quotidiana.org/montaigne/prayers/ | "One hour to God, the rest to the devil, as if by composition and compensation." "We pray only by custom and for fashion's sake". |
+| 948 | Vernon Lee, "On Modern Travelling" https://essays.quotidiana.org/lee/modern_travelling/ | F1: the twilight hour in a train. "Honour the tourist; he walks in a halo of romance." "Fate is friendly to those who travel rarely". |
+| 949 | Vernon Lee, "Tuscan Midsummer Magic" https://essays.quotidiana.org/lee/tuscan_midsummer_magic/ | Opens mid-conversation with a nymph. Close: "and I know with a little stab of joy that this is Italy." |
+
+Batch 29 note: the RBA's 2016 speeches are the best run of titles in the log: "Buffers and Options" (912) and "An
+Accounting" (911) state the whole argument in two or three words. Two of them mark their own homework: Lowe re-checks a
+speech from six years before (918), and Kent sets the Bank's forecast beside the outcome, half of it missed (919). Ellis
+(913) ends on three rules a teenager could repeat. In the essays, Tomlinson (936) does F4 with an object instead of a
+number: a shop ledger in the rubble. Bly (929) and Gilman (895) open on a five- and a two-word question and answer it
+at once. Lowe's tribute to Stevens (916) ends on a name.
 
 ### Re-reads in batch 4 (not counted)
 Fourteen pieces in this batch had already been logged (the batch's source list was wrong). They are kept here
