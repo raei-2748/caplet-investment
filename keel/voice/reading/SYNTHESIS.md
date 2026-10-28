@@ -203,8 +203,69 @@ Haldane speeches (thirteen in all), Montaigne, Hazlitt, Lamb, Woolf, Orwell, Whi
 sentences). Synthesis 3 found that mistakes are believed when they carry a number. Synthesis 4 adds where the doubt
 goes: in one sentence, about the future, never spread over the plan.
 
+## Synthesis 5 (after 765 pieces, 28 Oct, late evening)
+New since synthesis 4 (`LOG.md` 502-765): Watsa and the Amazon letters (Bezos 2003-19, Jassy 2022-25), Weschler and
+Combs, about eighty more Reserve Bank of Australia speeches from 2018 to 2023 (Lowe, Debelle, Ellis, Bullock, Kent,
+Jones), read in order so the forecast misses show; Emerson, Thoreau, Twain; thirty-odd great speeches from one
+collection (Bogle, Adichie, Bezos, Cleese, Deresiewicz, Feynman, Gaiman, Hamming, Lewis, Munger three times, Valvano,
+Minkkinen, Brown); and, read whole from an essay archive, Lamb, Hazlitt, Addison, Johnson, Seneca, Kenko, Swift,
+Huxley, Repplier, Meynell, Alexander Smith, and the comic essayists Milne, Jerome, Belloc and Morley.
+
+1. **Short first lines, shorter last lines.** The first lines that land are four to eight words, plain, and true:
+   "I forget the rest." (729), "I have no ear." (708), "Bruce is a cricket." (756), "I'm a storyteller." (645),
+   "I was shipwrecked before I got aboard." (693). Lowe opened the worst week of 2020 with "Good afternoon." (582).
+   The best closes are shorter still and do exactly what they say: "She is dead." (765), "You lay it down." (735),
+   "Pshaw!" (748), "Make good art." (651). Synthesis 4 found weak last lines; the fix here is to cut the close until
+   it is an act, not a lesson. For Caplet: the pitch's first sentence under ten words, the IPS's last sentence a
+   thing the plan does.
+2. **Start with something small in the room, or with the reader's objection.** The old essayists begin with one
+   object (Huxley's chalk, 738; Hazlitt's spider, 687; Milne's celery, 757; Seneca at Scipio's villa, 697) and earn
+   the big claim later. The speakers begin by saying what the audience is thinking: "My title must seem like a
+   contradiction." (649); "no doubt many of you are wondering why the speaker is so old." (657). A judge reading a
+   growth-competition entry that is mostly bonds has an objection ready. Say it first, in their words, then answer.
+3. **Admit it plainly, in the past tense, with no "if".** Read in order, the RBA's speeches are one story: patient in
+   2018-22 ("the next move in interest rates to be up, not down", 628; "prepared to be patient", 573), the forecast
+   breaks, "soul-searching" (572), and then Lowe's farewell: "With the benefit of hindsight, my view is that we did do
+   too much." (595). The bond-buying review said the same lesson in conditionals ("if more weight had been given…
+   might have been different", 574) and nobody remembers it. Synthesis 3 said a mistake is believed when it has a
+   number; this adds the grammar: first person, past tense, no conditional.
+4. **One word or object comes back at the end.** Bogle's "Enough" is the punchline of his first story and the last
+   word of the speech (644); Gaiman's title closes his speech (651); Milne's celery opens and closes the essay (757);
+   Brown's marble jar (667). The return is the motif done right: set up once, used once, and paid off in the last
+   line, which is synthesis 4's "one frame" with an ending. Caplet XR's ten cheques give a natural return: the plan
+   can end on the tenth.
+5. **Joke against your own side; invert to be serious.** The funniest lines in eighty central-bank speeches are
+   against the speaker's own institution: "There are so many black swans identified each day that we may as well all
+   be living in Perth." (623); the missing $100 notes, "I don't have my share" (601). Munger's misery speech (656) and
+   Roberts's "I Wish You Bad Luck" (661) are built inside out: list how to fail, and the advice is obvious. Humour
+   aimed at yourself buys trust; humour aimed at the reader costs it. Inversion is also a risk method (FRB-80).
+6. **Say the numbers flat.** Swift's "A Modest Proposal" (739) is the strongest proof that calm arithmetic is the most
+   forceful voice there is. Debelle opens on "The inflation rate is currently just over 2 per cent (Graph 1)." (630);
+   Twain ends a funeral joke on the bill (723). A number needs no adjective; decoration makes it look unsure.
+7. **The rules for a short form were written three hundred years ago.** Addison: "give the Virtue of a full Draught in
+   a few Drops" (698) and "There is always an Obscurity in Confusion" (713). Belloc: "To begin at the beginning is,
+   next to ending at the end, the whole art of writing" (733). Seneca: "Our words should aim not to please, but to
+   help." (716). Two warnings sit beside them: Hazlitt's man with one idea who "brings in his mistress at every turn"
+   (682), which is the motif overused; and Belloc's ailing Muse, where "single lines, tags, fine phrases … are no sign
+   whatever of returning health" (765), which is the best one-line description of AI prose in the log.
+
+**Investing finds (idea bank FRB-66 to FRB-85).** The strongest, fused:
+- *Never forced to sell* (FRB-70, FRB-75, FRB-62): in March 2020 Treasuries fell alongside shares because holders had
+  to raise cash (Kent, 594; Debelle, 614). Each cheque is a bond that matures in its year, so Caplet XR never sells.
+- *Invert: how would we miss a cheque?* (FRB-80, Munger): a short checklist of the ways to fail, each one closed, and
+  the reinvestment gap named as the one still open.
+- *Enough, then play* (FRB-81, FRB-83, FRB-85, Bogle, Hazlitt, Milne): buy enough for the ten cheques and stop; it is
+  a spending plan, not a heap; and the shares are the game Laura can afford to be bad at (the Archive's deletion
+  test found no cheque worse off with the shares wiped).
+- *Name the miss and the price* (FRB-73, FRB-78, Lowe, Debelle): say once, plainly, what the ladder costs and where
+  our own forecast was wrong.
+
+**What 765 pieces taught that 501 did not.** Synthesis 4 said where the doubt goes. Synthesis 5 is about the edges of
+a piece: the first line, the last line, and the one thing that connects them. The middle of a good piece can be
+plain; the edges can't.
+
 ## Next
-500 reached on Wed 28 Oct (target was Sun 1 Nov). Reading continues toward 1,000 at about 30 pieces an hour; synthesis
-5 at about 750. Thin areas still worth reading: sell-side and bank research written well (Goldman, Morgan Stanley,
-Bridgewater originals), Substack writers (Net Interest, Doomberg), Woolf, Baldwin and Zadie Smith in full, founder
-letters, and the best-written finance journal abstracts; and more counter-examples, since they show the gap fastest.
+765 reached on Wed 28 Oct, 22:30 Sydney. Reading continues toward 1,000 at about 30-35 pieces an hour; synthesis 6
+at about 1,000. Thin areas still worth reading: sell-side and bank research written well, Substack writers, Woolf,
+Baldwin and Zadie Smith in full, more founder and fund letters, and more counter-examples, since they show the gap
+fastest. Quotidiana (https://essays.quotidiana.org/) still has authors not yet read.

@@ -17,7 +17,7 @@ about 60-90 pieces an hour at best. Collections (memo anthologies, letter compil
 Each entry: **Open / Best / Close** (quoted lines), **Craft** (rhythm, stance, shape), **Steal** (one move worth
 copying), **Insight** (only if there is one). What the entries add up to goes in `SYNTHESIS.md` after every 100.
 
-Count so far: **737**
+Count so far: **765**
 
 ---
 
@@ -1593,6 +1593,54 @@ rest.", "I have no ear.", "I do not like Them.") and on a close that does exactl
 "Which is all I want to say about goldfish."). Twain ends a joke about funerals on a bill (723). Belloc's rule (733),
 beginning and end are the whole art, and Addison's (713), few words beat many, are the two rules for a 500-word form.
 Seneca's "Our words should aim not to please, but to help" (716) is the test for every line of the IPS.
+
+## Round 2, batch 24 (28 Oct, 22:29-22:33 Sydney): 738-765
+Checked against the log's URL and title list first. All from Quotidiana (https://essays.quotidiana.org/), read whole.
+Not counted: six author index pages (Repplier, Meynell, Morley, Alexander Smith, Huxley, Swift; used only to find
+URLs). Quotes marked "…" were cut at the reader's 125-character limit.
+
+### 738-749 · Huxley, Swift, Repplier, Meynell · essays
+| # | Piece | Open | Best line | Close | Craft |
+|---|---|---|---|---|---|
+| 738 | Huxley, "On a Piece of Chalk" (1868) https://essays.quotidiana.org/huxley/piece_of_chalk/ | "If a well were sunk at our feet in the midst of the city of Norwich, the diggers would very soon find themselves at work…" | "A great chapter of the history of the world is written in the chalk." | "And in the shifting "without haste, but without rest" of the land and sea, as in the endless variation of the forms…" | **Deep time taught from a carpenter's chalk and the fur inside a kettle.** "A small beginning has led us to a great ending." A lecture that starts under the audience's feet. |
+| 739 | Swift, "A Modest Proposal" (1729) https://essays.quotidiana.org/swift/modest_proposal/ | "It is a melancholy object to those, who walk through this great town, or travel in the country…" | "I have reckoned upon a medium, that a child just born will weigh 12 pounds, and in a solar year…" | "I have no children, by which I can propose to get a single penny; the youngest being nine years old…" | **The model essay for numbers used as satire**: the calm arithmetic is the horror. The last line's disclaimer of self-interest is the final twist. |
+| 740 | Swift, "A Meditation upon a Broomstick" (1710) https://essays.quotidiana.org/swift/meditation_upon_a_broomstick/ | "This single stick, which you now behold ingloriously lying in that neglected corner, I once knew in a flourishing state…" | "Surely mortal man is a broomstick!" | "His last days are spent in slavery to women, and generally the least deserving; till, worn to the stumps…" | A parody of pious meditations, built on one object in the corner. |
+| 741 | Swift, "Thoughts on Various Subjects" (1711) https://essays.quotidiana.org/swift/thoughts_on_various_subjects/ | "We have just enough religion to make us hate, but not enough to make us love one another." | "Censure is the tax a man pays to the public for being eminent." | "A man would have but few spectators, if he offered to show for threepence how he could thrust a red-hot iron into a barrel…" | Maxims with no transitions. "Men are content to be laughed at for their wit, but not for their folly." |
+| 742 | Repplier, "Leisure" https://essays.quotidiana.org/repplier/leisure/ | "A visitor strolling through the noble woods of Ferney complimented Voltaire on the splendid growth of his trees." | "It is in his pleasures that a man really lives, it is from his leisure that he constructs the true fabric of self." | "This is the Lamb who said, "Riches are chiefly good because they give us time," and who sighed for a little son…" | Opens on an anecdote (Voltaire's trees). **"Riches are chiefly good because they give us time"**: money as time. |
+| 743 | Repplier, "Words" https://essays.quotidiana.org/repplier/words/ | ""Do you read the dictionary?" asked M. Theophile Gautier of a young and ardent disciple who had come to him for counsel." | "For every sentence that may be penned or spoken the right words exist." | "Now, when a careful student and an appreciative reader can bring himself to speak of a poem as a "mouse of fancy," …" | Opens on a question someone else asked. |
+| 744 | Repplier, "The Grocer's Cat" https://essays.quotidiana.org/repplier/grocers_cat/ | "The grocer's window is not one of those gay and glittering enclosures which display only the luxuries of the table, …" | "As well try to patronize the Sphinx as to patronize a grocer's cat." | "The dogs and the monkeys obeyed their master; but the cat, like Montaigne's happier pussy long ago, had "her time to begin …" | F1: a shop window, then a cat. |
+| 745 | Meynell, "The Rhythm of Life" (1893) https://essays.quotidiana.org/meynell/rhythm_of_life/ | "If life is not always poetical, it is at least metrical." | "Happiness is not a matter of events; it depends upon the tides of the mind." | "Their joy is flying away from them on its way home; their life will wax and wane; and if they would be wise…" | **A concession, then a correction, in nine words.** Tides and orbits for moods: a scientific frame used once. |
+| 746 | Meynell, "Unstable Equilibrium" https://essays.quotidiana.org/meynell/unstable_equilibrium/ | "It is principally for the sake of the leg that a change in the dress of man is so much to be desired." | "A lifeless structure is in stable equilibrium; the body, springing, poised, upon its fine ankles and narrow feet…" | "And as to the poorer part of the mass, so wretched are their national customs—and the wretchedest…" | A physics term turned into an argument about life: what is stable is dead. |
+| 747 | Meynell, "The Unready" https://essays.quotidiana.org/meynell/unready/ | "It is rashly said that the senses of children are quick." | "the world should adjust itself to children in all its dealings with them." | "The child cannot turn in mid-career; he goes fast, but the impetus took place moments ago." | **Opens by contradicting a common belief.** The close is an image of lag (read with Ellis, 618, and Kent, 598). |
+| 748 | Meynell, "The Illusion of Historic Time" https://essays.quotidiana.org/meynell/illusion_of_historic_time/ | "He who has survived his childhood intelligently must become conscious of something more than a change in his sense of the present …" | "Childhood is itself Antiquity—to every man his only Antiquity." | "Pshaw!" | **A one-word close** that deflates the whole lyrical essay. |
+| 749 | Meynell, "The Horizon" https://essays.quotidiana.org/meynell/horizon/ | "To mount a hill is to lift with you something lighter and brighter than yourself or than any meaner burden." | "Things rise together like a flock of many-feathered birds." | "Farewell to the most delicate horizon." | Lyrical throughout; the kind of prose not to copy for an IPS, and the kind that shows what a single image can carry. |
+
+### 750-765 · Morley, Alexander Smith, Milne, Jerome, Belloc, Repplier, Meynell, Swift · essays
+| # | Piece | What it shows |
+|---|---|---|
+| 750 | Morley, "On Laziness" https://essays.quotidiana.org/morley/laziness/ | **"To-day we rather intended to write an essay on Laziness, but were too indolent to do so."** The first line performs the subject. Close: "Writing on this congenial topic has roused us up to quite a pitch of enthusiasm and energy." |
+| 751 | Morley, "Safety Pins" https://essays.quotidiana.org/morley/safety_pins/ | Mock-heroic praise of a humble object. "Was it not the safety pin that made the world safe for infancy?" Close on a pun: "the safety is the King Pin." |
+| 752 | Morley, "On Visiting Bookshops" https://essays.quotidiana.org/morley/visiting_bookshops/ | "We choose our dinner not by the wrappers, but by the veining and gristle of the meat within." |
+| 753 | Alexander Smith, "On the Writing of Essays" (Dreamthorp, 1863) https://essays.quotidiana.org/smith_a/writing_of_essays/ | "The world is everywhere whispering essays, and one need only be the world's amanuensis." Close: "My sentences are not much more brilliant than the speeches of the clowns…" F6 at the end, not the start. |
+| 754 | Alexander Smith, "On the Importance of a Man to Himself" (1863) https://essays.quotidiana.org/smith_a/importance_of_a_man/ | **"A man receives the shocks of life on the buffer of his vanity."** A railway word (buffer) for a moral idea. |
+| 755 | Alexander Smith, "Of Death and the Fear of Dying" (1863) https://essays.quotidiana.org/smith_a/death_and_the_fear_of_dying/ | "Death is terrible only in presence." "If you wish to make a man look noble, your best course is to kill him." Close: "The dead keep their secrets, and in a little while we shall be as wise as they—and as taciturn." **A wry dash in the last line.** |
+| 756 | Milne, "Bruce: A Short Study of a Great Life" https://essays.quotidiana.org/milne/bruce_a_short_study_of_a_great/ | **"Bruce is a cricket."** Four words; the mock-biography title is the joke. Close: "More power to your knees!" |
+| 757 | Milne, "A Word for Autumn" https://essays.quotidiana.org/milne/word_for_autumn/ | **"Last night the waiter put the celery on with the cheese, and I knew that summer was indeed dead."** A season announced by a vegetable. "Season of mists and mellow celery". Close: "Here's to October—and, waiter, some more celery." The first image returns at the end. |
+| 758 | Milne, "My Library" https://essays.quotidiana.org/milne/my_library/ | "There is a careless rapture about them which I should lose if I started to arrange them methodically." Close: "I shall put them the right way round." |
+| 759 | Milne, "The University Boat Race" https://essays.quotidiana.org/milne/university_boat_race/ | Opens like an encyclopedia ("Mortlake is a small town…"), a parody of padding. Close: "Well, anyhow, may the best boat win!" |
+| 760 | Jerome, "On Dress and Deportment" (1886) https://essays.quotidiana.org/jerome/dress_and_deportment/ | "They say—people who ought to be ashamed of themselves do—that…" An interruption inside the first sentence. "Clothes alter our very nature." |
+| 761 | Belloc, "On Railways and Things" https://essays.quotidiana.org/belloc/railways_and_things/ | "What is more English than the country railway station?" |
+| 762 | Repplier, "Ennui" https://essays.quotidiana.org/repplier/ennui/ | "Amuse! amuse! amuse! is the plea of a weariness as wide as the world, and as old as humanity." |
+| 763 | Meynell, "Composure" https://essays.quotidiana.org/meynell/composure/ | "A place of peace, not of indifference." Six words that separate calm from not caring. |
+| 764 | Swift, "Hints towards an Essay on Conversation" (1710s) https://essays.quotidiana.org/swift/hints_towards_an_essay/ | "Nothing hath spoiled men more for conversation than the character of being wits;" Close: "It is not a fault in company to talk much; but to continue it long is certainly one…" |
+| 765 | Belloc, "On the Illness of My Muse" https://essays.quotidiana.org/belloc/illness_of_my_muse/ | Mock bedside report on his Muse, with a doctor. "As for single lines, tags, fine phrases, and the rest, they are no sign whatever of returning health…" **Last sentence: "She is dead."** Three words. |
+
+Batch 24 note: the strongest pieces put a plain object at the centre and make it carry the essay (Huxley's chalk, 738;
+Milne's celery, 757; Swift's broomstick, 740; Morley's safety pin, 751). Swift's "Modest Proposal" (739) is the warning
+and the model for numbers: arithmetic said calmly is the most forceful voice there is, which is why Caplet's numbers
+should be stated flat and never decorated. Closes keep getting shorter and better ("She is dead.", 765; "Pshaw!",
+748). Belloc's Muse (765) also diagnoses AI prose exactly: "single lines, tags, fine phrases … are no sign whatever of
+returning health".
 
 ### Re-reads in batch 4 (not counted)
 Fourteen pieces in this batch had already been logged (the batch's source list was wrong). They are kept here

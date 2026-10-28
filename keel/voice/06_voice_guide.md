@@ -89,6 +89,7 @@ AI": if AI-likeness is ever checked, a student pastes the text into a reputable 
 | The essays called "Ray's" (R03, VOICE, BIBLE notes) | **Ahaan's** | Corrected 27 Oct (`01_digest_ahaan.md`, section 1). |
 | s8-s9 built on 186 pieces | s8 and s9 notes from 312 pieces | Synthesis 3, 28 Oct (`reading/SYNTHESIS.md`): F4 openings, own a mistake with its number, earned short closes. |
 | s8-s9 notes from 312 pieces | s8 and s9 notes from 501 pieces | Synthesis 4, 28 Oct (`reading/SYNTHESIS.md`): doubt the forecast once and say the plan flat; translate yourself; one frame, used once; a close that hands the reader the next move. |
+| s8-s9 notes from 501 pieces | s8 and s9 notes from 765 pieces | Synthesis 5, 28 Oct (`reading/SYNTHESIS.md`): short first and last lines; open on a small thing or the reader's objection; one object returns at the end; admit in plain past tense; jokes against your own side; numbers said flat. |
 
 ## 7. The room we're pitching to (Ray, 27 Oct: "Judges are not examiners ... judges are shark tanks")
 Added by the rewrite thread. An examiner checks boxes; a Shark Tank investor decides in a minute whether to believe
@@ -135,6 +136,10 @@ some way"; Marks's "my views on the market's direction aren't worth betting on")
 without a single maybe ("I'd rather bet on risk control than risk bearing"). AI hedging does the opposite: a little
 doubt on every line. So in Caplet's pieces the doubt sits in one sentence about the range's top, and the floor and
 the cheques are said flat.
+Pieces 502-765 (synthesis 5) add two things. F3 lands only in plain grammar: first person, past tense, no "if"
+("we did do too much", Lowe's farewell) beats the same lesson in conditionals. And the jokes that build trust are
+aimed at your own side (Debelle's black swans "living in Perth"), never at the reader; listing how to fail (Munger's
+misery speech) is the way to be funny and serious at once.
 
 **Spend it like kickers.** One F-move per paragraph at most; in the IPS, F2 and F3 carry the weight and F6 appears
 once, if at all. Feeling is the reason a judge keeps reading; the investing knowledge (north star 4) is the reason
@@ -169,3 +174,10 @@ tight"), and the plain version is the one that stays. A frame (Scrooge, the Melb
 once, paid off once and dropped; it never rides along in every paragraph. A close can also hand the reader the next
 move ("Your move."; "Enjoy!") instead of stating a lesson. Off-script beats on-script by one true, small detail, not
 by a warmer tone.
+
+From synthesis 5: the edges matter most. First lines of four to eight plain words ("I forget the rest."; "Bruce is a
+cricket."), opening on one small thing in the room or on the reader's objection, said in their words. Last lines
+shorter still, an act rather than a lesson ("She is dead."; "You lay it down."). One word or object set up at the
+start can come back in the last line (Bogle's "Enough"); that is the motif's only encore. Numbers are said flat:
+Swift's "Modest Proposal" shows calm arithmetic is the strongest voice there is. And Belloc's warning is the one to
+pin up: "single lines, tags, fine phrases … are no sign whatever of returning health".
