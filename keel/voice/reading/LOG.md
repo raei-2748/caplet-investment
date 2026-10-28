@@ -17,7 +17,7 @@ about 60-90 pieces an hour at best. Collections (memo anthologies, letter compil
 Each entry: **Open / Best / Close** (quoted lines), **Craft** (rhythm, stance, shape), **Steal** (one move worth
 copying), **Insight** (only if there is one). What the entries add up to goes in `SYNTHESIS.md` after every 100.
 
-Count so far: **801**
+Count so far: **830**
 
 ---
 
@@ -1702,6 +1702,56 @@ fifteen words, then nothing wasted. Stevenson's open letter (783) is the best an
 politeness, then the charges one by one. Leigh Hunt shows that the driest form, an index, turns funny read aloud (797),
 which is a hint for the Final Report's appendices. Repplier names a trap for every Trading Note: recording "the
 impression of a careless hour as though it were the experience of a lifetime" (793).
+
+## Round 2, batch 26 (29 Oct, 01:03-01:06 Sydney): 802-830
+Checked against the log's URL and title list first. Essays from Quotidiana (https://essays.quotidiana.org/), read whole;
+RBA 2017 speeches for the modern side. Not counted: seven Quotidiana author index pages and the RBA's 2017 speech list
+(used only to find URLs); Quotidiana's /woolf/ page (it does not exist). Quotes marked "…" were cut at the reader's
+125-character limit.
+
+### 802-805, 812-825 · De Quincey, Gerould, Marquis, Browne, Tomlinson, Wollstonecraft, Hunt, Meynell, Barbellion · essays
+| # | Piece | What it shows |
+|---|---|---|
+| 802 | De Quincey, "Measure of Value" (on Malthus) https://essays.quotidiana.org/dequincey/measure_of_value/ | An economics argument written as a boxing match. Malthus is praised for drawing out the consequences of a truism and faulted on "the foundation of all Political Economy, viz. the doctrine of value." |
+| 803 | De Quincey, "How to Write English" https://essays.quotidiana.org/dequincey/how_to_write_english/ | A counter-example: an essay on writing English that opens with a forty-word sentence ("Among world-wide objects of speculation, objects rising to the dignity of a mundane or cosmopolitish value…"). |
+| 804 | De Quincey, "The Literature of Knowledge and the Literature of Power" (1848) https://essays.quotidiana.org/dequincey/the_literature_of_knowledge/ | **"the first is a rudder; the second, an oar or a sail."** Knowledge steers; power moves. An IPS must be the first and borrow from the second. |
+| 805 | De Quincey, "On the Knocking at the Gate in Macbeth" (1823) https://essays.quotidiana.org/dequincey/knocking_at_the_gate/ | "From my boyish days I had always felt a great perplexity on one point in Macbeth." **Opens on a small puzzle he has carried for years**, then solves it: "All action in any direction is best expounded, measured, and made apprehensible, by reaction." |
+| 812 | Gerould, "An Essay on Essays" https://essays.quotidiana.org/gerould/an_essay_on_essays/ | "A good essay is neither intoxicant nor purge nor anodyne; it is a mental stimulant." **"Meditating on facts may bring one to truth; facts alone will not."** |
+| 813 | Marquis, "The Almost Perfect State" https://essays.quotidiana.org/marquis/almost_perfect_state/ | "Humanity triumphs over its details." Four words. |
+| 814 | Thomas Browne, "Of Death" (Religio Medici, 1643) https://essays.quotidiana.org/browne/death/ | "I honour any man that contemns it; nor can I highly love any that is afraid of it." |
+| 815 | Tomlinson, "The Derelict" https://essays.quotidiana.org/tomlinson/derelict/ | F1: "In a tramp steamer, which was overloaded, and in midwinter, I had crossed to America for the first time." "The stump of her bowsprit, the accusatory finger of the dead, pointed at the sky." **Close returns to a passenger met at the start**: "the lady who had wanted to find the sea." |
+| 816 | Wollstonecraft, Letter I (Letters Written in Sweden, Norway, and Denmark, 1796) https://essays.quotidiana.org/wollstonecraft/letter_i/ | "Eleven days of weariness on board a vessel not intended for the accommodation of passengers…" Close: "As nothing passed at this supper to characterize the country, I shall here close my letter." **An ending that admits nothing happened.** |
+| 817 | Leigh Hunt, "Windows" https://essays.quotidiana.org/hunt/windows/ | F1: "The other day a butterfly came into our room and began beating himself against the upper panes…" "Thus, the commonest rain-drop on a pane of glass becomes a visitor from the solitudes of time." |
+| 818 | Leigh Hunt, "Deaths of Little Children" https://essays.quotidiana.org/hunt/deaths_of_little_children/ | Opens on a philosopher asked why he wept for his son "since the sorrow was in vain". Grief handled softly; the hardest subject in the log so far, written without one false note. |
+| 819 | Leigh Hunt, "My Books" https://essays.quotidiana.org/hunt/my_books/ | "I entrench myself in my books equally against sorrow and the weather." |
+| 820 | Meynell, "The Sun" https://essays.quotidiana.org/meynell/sun/ | "There's husbandry in Heaven." (Shakespeare, borrowed straight.) |
+| 821 | Meynell, "The Hours of Sleep" https://essays.quotidiana.org/meynell/hours_of_sleep/ | "There are hours claimed by Sleep, but refused to him." Nine-word opener; the hours are personified at once. |
+| 822 | Barbellion, "The Fire Bogey" (1919) https://essays.quotidiana.org/barbellion/fire_bogey/ | A diarist afraid his journals will burn: "But I dare say I am a pathetic fool—an incredible self-deceiver!" Close: "Then all in God's good time I intend getting a volume ready for publication." (He did; this is it.) |
+| 823 | Thomas Browne, "Of Life" (Religio Medici) https://essays.quotidiana.org/browne/life/ | "Now for my life, it is a miracle of thirty years, which to relate, were not a history, but a piece of poetry…" "We term sleep a death; and yet it is waking that kills us…" |
+| 824 | Tomlinson, "Bed-books and Night-lights" https://essays.quotidiana.org/tomlinson/bed_books/ | "The rain flashed across the midnight window with a myriad feet." "The candle for me, tiny, mortal, warm, and brave, a golden lily on a silver stem." |
+| 825 | Gerould, "On Being a Sport" https://essays.quotidiana.org/gerould/on_being_a_sport/ | Opens on a quoted saying from childhood friends. "We like death to be insulted, though we have been taught to be very polite to him." Close: "The pages written bear witness." |
+
+### 806-811, 826-830 · Reserve Bank of Australia, 2017 · speeches
+| # | Piece | What it shows |
+|---|---|---|
+| 806 | Debelle, "Uncertainty" (Oct 2017) https://www.rba.gov.au/speeches/2017/sp-dg-2017-10-26.html | **"Uncertainty is one of the few certainties in monetary policy decision-making."** First line as paradox. "Monetary policy responds to the modal forecast, the most likely outcome." Close: the RBA aspires to "perpetual beta". |
+| 807 | Debelle, "How I Learned to Stop Worrying and Love the Basis" (May 2017) https://www.rba.gov.au/speeches/2017/sp-dg-2017-05-22.html | A film title for a speech on a technical spread. "In my experience, one of the fundamental laws of finance is to never underestimate mandate constraints." |
+| 808 | Debelle, "Central Bank Independence in Retrospect" (Sep 2017) https://www.rba.gov.au/speeches/2017/sp-dg-2017-09-28.html | **"No longer is it the case that a Governor would say: if you understood what I said, I must have misspoken."** A joke against his own profession's old opacity. |
+| 809 | Lowe, "An eAUD?" (Dec 2017) https://www.rba.gov.au/speeches/2017/sp-gov-2017-12-13.html | Question-mark title (Jones did the same in 608). "So the current fascination with these currencies feels more like a speculative mania" "The history of private issuance is one of periodic panic and instability." |
+| 810 | Lowe, "The Next Chapter" (Sep 2017) https://www.rba.gov.au/speeches/2017/sp-gov-2017-09-21.html | The economy as a book with chapters. "A retreat would make our lives more complicated." |
+| 811 | Lowe, remarks at the Board dinner, Brisbane (Sep 2017) https://www.rba.gov.au/speeches/2017/sp-gov-2017-09-05.html | Queensland detail (Creek St; Banjo Paterson's Dagworth station). "More borrowing might have helped today, but it could come at a future cost." "The laws of supply and demand still work." (He said it again at the A50 dinner, 625.) |
+| 826 | Lowe, "Household Debt, Housing Prices and Resilience" (May 2017) https://www.rba.gov.au/speeches/2017/sp-gov-2017-05-04.html | "As household balance sheets have changed, so too has the way that the economy works." |
+| 827 | Kent, "Fixed Income Markets and the Economy" (Aug 2017) https://www.rba.gov.au/speeches/2017/sp-ag-2017-08-09.html | "Perhaps less appreciated is the fiscal position of the state governments." Careful and forgettable. |
+| 828 | Ellis, "Where is the Growth Going to Come From?" (Nov 2017) https://www.rba.gov.au/speeches/2017/sp-ag-2017-11-15.html | **"a floating exchange rate is the best absorber of external economic shocks ever invented."** And a history: "In the end, the Kellys were right. 'Protection all round' hurt more than it helped." |
+| 829 | Bullock, "Has the Way We Look at Financial Stability Changed Since the Global Financial Crisis?" (Mar 2017) https://www.rba.gov.au/speeches/2017/sp-ag-2017-03-14.html | The title asks; the answer is "At the big picture level, the way we look at it hasn't changed that much." Close: "We are still learning how best to do this." |
+| 830 | Ellis, "Women in the Economy and in Economics" (Mar 2017) https://www.rba.gov.au/speeches/2017/sp-ag-2017-03-20.html | "Another way to describe it might be that 'extinction is forever'." "When someone faces bias or artificial obstacles, it holds all of us back." |
+
+Batch 26 note: the essays that open on one small thing the writer actually saw (Hunt's butterfly, 817; Tomlinson's
+rain, 824; De Quincey's boyhood puzzle about Macbeth, 805) beat the ones that open on a big idea. De Quincey's "How to
+Write English" (803) shows the gap: a forty-word first sentence about writing well. Two endings are new: admitting
+nothing happened (Wollstonecraft, 816), and returning to a person met in the first paragraph (Tomlinson, 815).
+Debelle's "if you understood what I said, I must have misspoken" (808) is the same move as his black swans (623): the
+joke is on his own trade.
 
 ### Re-reads in batch 4 (not counted)
 Fourteen pieces in this batch had already been logged (the batch's source list was wrong). They are kept here
