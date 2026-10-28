@@ -88,6 +88,7 @@ AI": if AI-likeness is ever checked, a student pastes the text into a reputable 
 | Ban-list first (AI tells table) | No ban-list gate; the read-aloud questions only | Ahaan, 24 Oct: AI-ness "transcends ... a neat list". |
 | The essays called "Ray's" (R03, VOICE, BIBLE notes) | **Ahaan's** | Corrected 27 Oct (`01_digest_ahaan.md`, section 1). |
 | s8-s9 built on 186 pieces | s8 and s9 notes from 312 pieces | Synthesis 3, 28 Oct (`reading/SYNTHESIS.md`): F4 openings, own a mistake with its number, earned short closes. |
+| s8-s9 notes from 312 pieces | s8 and s9 notes from 501 pieces | Synthesis 4, 28 Oct (`reading/SYNTHESIS.md`): doubt the forecast once and say the plan flat; translate yourself; one frame, used once; a close that hands the reader the next move. |
 
 ## 7. The room we're pitching to (Ray, 27 Oct: "Judges are not examiners ... judges are shark tanks")
 Added by the rewrite thread. An examiner checks boxes; a Shark Tank investor decides in a minute whether to believe
@@ -128,6 +129,12 @@ set the tone; the rare ones are what a judge repeats. So the IPS uses F3 and F2,
 Pieces 187-312 (synthesis 3) move F4 up: the investor writers open on a number that measures a loss or sounds like
 trivia (LTCM bankrupt "20 years ago this week", 13 divorces among the 10 richest men, USAir at 25 cents on the dollar),
 and F3 and F6 merge into one move: **own a mistake, with its number**.
+Pieces 313-501 (synthesis 4) show where F6 belongs: on the forecast, once, never on the plan. The best of them doubt
+the future in one sentence ("If we can be confident about anything, it's that our forecasts will be wrong at least in
+some way"; Marks's "my views on the market's direction aren't worth betting on") and then state what they own and do
+without a single maybe ("I'd rather bet on risk control than risk bearing"). AI hedging does the opposite: a little
+doubt on every line. So in Caplet's pieces the doubt sits in one sentence about the range's top, and the floor and
+the cheques are said flat.
 
 **Spend it like kickers.** One F-move per paragraph at most; in the IPS, F2 and F3 carry the weight and F6 appears
 once, if at all. Feeling is the reason a judge keeps reading; the investing knowledge (north star 4) is the reason
@@ -156,3 +163,9 @@ five words, not five clauses.
 
 From synthesis 3: a short close has to be earned ("Come by rail.", "See randomness.", "But I could be wrong."): cut
 toward it, never bolt it on. A close the piece hasn't earned is a slogan, which is the AI habit in the left column.
+
+From synthesis 4: the writers translate themselves in public ("Put in rather plainer English, I am gloomier."; "a bit
+tight"), and the plain version is the one that stays. A frame (Scrooge, the Melbourne Cup, elephant seals) is set up
+once, paid off once and dropped; it never rides along in every paragraph. A close can also hand the reader the next
+move ("Your move."; "Enjoy!") instead of stating a lesson. Off-script beats on-script by one true, small detail, not
+by a warmer tone.

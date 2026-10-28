@@ -142,9 +142,69 @@ Keynes ch. 12, Housel (about 25 posts in all), Bullock, the Hopkins and Tufts wi
 - *Buffett's 10/90, set by dates instead of taste* (FRB-38) and *Buffett against bonds* (FRB-33): a famous plan and a
   famous objection, both critiqued and fused, for the Final Report.
 
+## Synthesis 4 (after 501 pieces, 28 Oct, midday)
+New since synthesis 3 (`LOG.md` 313-501): counter-examples on purpose (generic outlooks, a BlackRock note, a dad
+blog), Grantham and Montier, Cembalest, the rest of Buffett's letters, more Housel and Graham, Marks's memos as PDFs, commencement speeches (Saunders, Rowling, Lewis, McRaven, Taubes, Taleb), Ishiguro's Nobel lecture,
+Feynman, Bezos and Dimon, Damodaran on what "risk-free" means, Klarman, Sleep and Terry Smith second-hand, about
+thirty speeches and transcripts from the Reserve Bank of Australia (Hauser, Hunter, Bullock, Kent, Dwyer), six more
+Haldane speeches (thirteen in all), Montaigne, Hazlitt, Lamb, Woolf, Orwell, White, Hitchens, and the Hopkins essays for 2022-25.
+
+1. **Commentary says "may"; a plan says what it costs.** The generic outlooks (314-316, 403-404) fail the same three
+   ways: every verb is a maybe, no number could prove them wrong, and the close sells something. Grantham's best
+   piece (340) was written in the week of the 2009 low and is a plan, not a forecast. Hitchens and Buffett say what
+   a choice cost them. The test for any sentence in the IPS: could a judge check it in 2033? If not, it's commentary.
+2. **Doubt the forecast in one sentence, then say the plan flat.** This is the clearest new pattern, and it answers
+   Book 5's "no hedging" better than any banned-word list. The RBA's people say outright that their forecasts will be
+   wrong ("If we can be confident about anything, it's that our forecasts will be wrong at least in some way", 447;
+   "But let me be clear, we could be wrong.", 456; "The one thing I can guarantee is that they won't exactly come
+   through", 454). Marks: "I know my views on the market's direction aren't worth betting on," then, flat: "I'd
+   rather bet on risk control than risk bearing" (458). Bullock goes one step further: "if we are wrong, what
+   direction might it be" (453). Humility goes in one place, about what nobody can know; everything about what we
+   own and do is said without a single maybe. That is the opposite of AI hedging, which spreads a little doubt over
+   every sentence. Caplet XR fits it exactly: the range's top is a forecast and says so once; the floor and the
+   cheques are owned and are said plainly.
+3. **One frame per piece, used fully, then dropped.** Hauser builds whole speeches on Scrooge (429), the Melbourne Cup
+   (437) and the War College's discarded playbook (436); Haldane on elephant seals (481) and a footrace (480);
+   Cembalest makes the energy transition a teenager (421). None of them uses the frame in every paragraph; they set
+   it up, pay it off, and get on with the numbers. The jokes live in titles and first lines ("Chill, dude!", 416);
+   the sums are left alone. That is Book 2's subtle motif in practice: Caplet XR can open and close a piece and
+   appear once in between.
+4. **Off-script is more human, by one small detail.** The same central bankers are grey in prepared speeches (439,
+   448, 489) and vivid in transcripts: a guitar learned in lockdown, a cold caught from a granddaughter, milk, raves
+   (451-457, 484-490). The register barely changes; what changes is one specific personal thing. For the Final
+   Report's experience section, that is the whole trick: one true, small detail per scene (from Caplet's real
+   events only), not a warmer tone.
+5. **Translate yourself.** "Put in rather plainer English, I am gloomier." (Haldane, 459) "So communications is
+   everything – or almost everything." (Hauser, 432) "A bit tight" for the labour market (488). The writer corrects
+   or shrinks his own sentence in public, and the reader trusts the plain version more for having seen the fancy one.
+   In 500 words there is room for this once at most; the Final Report can use it more.
+6. **Comedy first, then the turn, in one line.** Synthesis 3's point 5 holds and gets sharper. Lamb spends the essay
+   on warm memories and turns in one sentence ("We are nothing; less than nothing, and dreams.", 475); Woolf's moth
+   is comic until it isn't (476); "Lessons Learned" goes from a "dramatic 11-year-old" to a family's sacrifice (472);
+   the commencement speakers mock themselves before they advise (394, 395, 398). The turn is short. A long turn
+   becomes a sermon.
+7. **Strong first lines, weak last lines; the fix is to speak to someone.** Across 23 Hopkins winners from 2022-25,
+   nearly every first line works ("I cannot dance.", "My eyes widen.", "I looked up and flinched slightly.") and
+   most last lines go generic ("…a more harmonious world"). The closes that sound like a person address someone:
+   "Your move." (466), "Enjoy!" (497), "Pat" (501), "Therefore farewell." (Montaigne, 463). Synthesis 3 said end on a
+   thing, a decision, or three earned words; add: or hand the reader the next move.
+
+**Investing finds (idea bank FRB-41 to FRB-65).** The strongest, fused:
+- *Risk-free is a match, and a price fall isn't a loss if you hold* (FRB-55, FRB-62, Damodaran): a Treasury is safe
+  for the date it pays on, so the ladder buys each cheque's own bond and never needs to sell. One IPS clause.
+- *A range with a hit rate, and the direction we could be wrong* (FRB-56, FRB-60, Hunter, Hauser, Bullock): the
+  bottom of the 2031 range is owned, only the top is modelled, and we name the error that would hurt. The strongest
+  candidate yet for the range sentence.
+- *Robust, not optimal; risk control over risk bearing; do nothing on purpose* (FRB-59, FRB-63, FRB-58, FRB-44):
+  Hauser, Marks, Klarman and Terry Smith arrive at the same discipline from four directions. Final Report.
+- *Say what we promise and what we don't* (FRB-51, Marks) and *more things can happen than will happen* (FRB-53).
+
+**What 501 pieces taught that 186 did not.** Synthesis 2 found where the voice lives (in the working, not the
+sentences). Synthesis 3 found that mistakes are believed when they carry a number. Synthesis 4 adds where the doubt
+goes: in one sentence, about the future, never spread over the plan.
+
 ## Next
-Done to 312 by Wed 28 Oct (ahead of the Thu 29 Oct target of 300). Next: 500 by Sun 1 Nov; synthesis 4 at 500.
-Gaps that are still thin (the old list below): more bank and sell-side research (Goldman, Morgan Stanley, BlackRock, Bridgewater),
-Substack writers (Net Interest, Noahpinion, The Diff, Doomberg), great essayists (Didion, Baldwin, White, Hitchens,
-Montaigne), more pitches and founder letters, research papers (finance journals' best-written abstracts), and the
-weak end of the market (generic fund commentary) as counter-examples.
+500 reached on Wed 28 Oct (target was Sun 1 Nov). Reading continues toward 1,000 at about 30 pieces an hour; synthesis
+5 at about 750. Thin areas still worth reading: sell-side and bank research written well (Goldman, Morgan Stanley,
+Bridgewater originals), Substack writers (Net Interest, Doomberg), Woolf, Baldwin and Zadie Smith in full, founder
+letters, and the best-written finance journal abstracts; and more counter-examples, since they show the gap fastest.

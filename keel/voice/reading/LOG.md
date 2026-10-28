@@ -17,7 +17,7 @@ about 60-90 pieces an hour at best. Collections (memo anthologies, letter compil
 Each entry: **Open / Best / Close** (quoted lines), **Craft** (rhythm, stance, shape), **Steal** (one move worth
 copying), **Insight** (only if there is one). What the entries add up to goes in `SYNTHESIS.md` after every 100.
 
-Count so far: **473**
+Count so far: **501**
 
 ---
 
@@ -1097,6 +1097,61 @@ Batch 14 note: the RBA's people are most human off-script (451, 453, 454, 456, 4
 granddaughter, a joke about raves. Their prepared speeches (448, 450) are correct and grey. The Hopkins essays show the
 same split inside one page: strong first lines ("I cannot dance.", "My eyes widen.") and weak, generic last lines. The
 closes that work (466 "Your move.", 463 "Therefore farewell.") are short and give the reader something to do or feel.
+
+## Round 2, batch 15 (28 Oct, 12:20-12:45 Sydney): 474-501
+Checked against the log's URL and title list first. Not counted: Woolf's moth essay on textopian.com (summary only;
+the full text is 476) and a blog blurb on Zadie Smith's "Joy" (no essay text); Hauser's CBA fireside chat (audio, no
+transcript); four BIS landing pages for Haldane speeches (no text; the PDFs are 479-482); Hopkins tag pages (lists).
+Quotes marked "…" were cut at the reader's 125-character limit.
+
+### 474-476 · Three old essayists · essays
+| # | Essay | Open | Best line | Close | Craft |
+|---|---|---|---|---|---|
+| 474 | Hazlitt, "On Going a Journey" (1822) https://sites.ualberta.ca/~dmiall/Travel/hazlitt.htm | "One of the pleasantest things in the world is going a journey; but I like to go by myself." | "I am then never less alone than when alone." | "…if I could anywhere borrow another life to spend afterwards at home!" | **Grants the common view and turns on "but" in the first sentence.** The paradox line is the one people quote. |
+| 475 | Lamb, "Dream-Children: A Reverie" (1822) https://essays.quotidiana.org/lamb/dream_children_a_reverie/ | "Children love to listen to stories about their elders, when they were children; …" | "We are nothing; less than nothing, and dreams." | "…but John L. (or James Elia) was gone forever." | **F5 reversed: warmth, then the floor drops.** The children he describes were never born; the turn comes in one line. "I missed his kindness, and I missed his crossness". |
+| 476 | Woolf, "The Death of the Moth" (1942) https://gutenberg.net.au/ebooks12/1203811h.html | "Moths that fly by day are not properly to be called moths;" | "He was little or nothing but life." | "O yes, he seemed to say, death is stronger than I am." | One insect on a windowsill carries the whole essay. The smallest possible subject, watched closely. **F1.** |
+
+### 477-483 · Marks; Haldane, five speeches; Orwell's toads · reader
+| # | Piece | Open | Best line | Close | Craft · Insight |
+|---|---|---|---|---|---|
+| 477 | Marks, "Whad'ya Know?" (2003) https://www.oaktreecapital.com/docs/default-source/memos/2003-03-11-whad-ya-know.pdf | "I always ask Nancy to read my memos before I send them out." | "The concept of accurate ratings is dead; long live the rating agencies!" | "Or perhaps Blondie's take was the most profound:" | **F6 in line one** (his wife as editor). The future can't be known, so avoid the bets where a wrong call is ruinous. |
+| 478 | Haldane, "Thirty years of hurt, never stopped me dreaming" (2021) https://bis.org/review/r210702d.htm | "At the end of September I leave the Bank of England, 32 years almost to the day since I joined." | "In public policy, crises are the ultimate learning experience." | "I am very fortunate to have experienced plenty of both." | A football chant as the title of a farewell. The first sentence is a date and a count. |
+| 479 | Haldane, "The Great Divide" (2016) https://www.bis.org/speeches/20160520-great-divide.pdf | "I would like to thank James Antwis, Andrew Bailey, Jeremy Franklin, Jonathan Fullwood…" | "Trust did not butter our parsnips and nor did it enter our production functions." | "But having seen it eroded, it now falls to us all to rebuild it, brick by brick, bank by bank…" | A kitchen idiom next to "production functions": the joke is the clash of registers. The gap between finance and the public may be finance not understanding the public. |
+| 480 | Haldane, "The big fish small pond problem" (2011) https://www.bis.org/speeches/20110413-big-fish-small-pond-problem.pdf | "Global capital markets are engaged in a footrace." | "Where once it was raspberries, today's policymakers are blowing kisses." | "What is at stake may be more than just the future stability of the international financial system." | **A five-word thesis as the first sentence.** One playful image per paragraph, then the serious close. |
+| 481 | Haldane, "Financial arms races" (2012) https://www.bis.org/speeches/20120426-financial-arms-races.pdf | "Elephant seals have got too big for their beaches." | "No longer: the sleek have inherited the earth." | "Fortunately, there is." | An absurd first line that the speech then justifies; a three-word close. Liquidity that looks deep can vanish under stress (about 60 cancelled orders per trade; the 2010 flash crash). |
+| 482 | Haldane, "Whose Recovery?" (2016) https://www.bis.org/speeches/20160719-whose-recovery.pdf | "It is a great pleasure to be here in Port Talbot." | "When the banks sneezed in 2008, the whole economy caught a cold – and atishoo, atishoo, we all fell down." | "Thank you." | "Yes, I know we should get out more." Quotes a real person's question ("What exactly do you mean by recovery?") and lets it drive the speech. **F1.** |
+| 483 | D.J. Taylor, "Orwell and the Toads" (Orwell Foundation) https://orwellfoundation.substack.com/p/orwell-and-the-toads | "One fail-safe route into Orwell's relish of the natural world is his essay 'Some Thoughts on the Common Toad', first published in Tribune in April 1946." | Orwell's list: "Roach, rudd, dace, bleak, barbel, bream, gudgeon, pike, chub, carp, tench." | "As for the specimen currently being bred up at Barnhill, 'we cannot wait for him to go to the butcher'" | A list of names as a sentence: the nouns do the feeling. Ends on Orwell's own deflating line about a pig. |
+
+### 484-490 · The RBA, off-script: transcripts · transcripts
+| # | Piece | What it shows |
+|---|---|---|
+| 484 | Hauser, interview with The Conversation podcast (Aug 2024) https://www.rba.gov.au/speeches/2024/sp-dg-2024-08-30.html | "poor arguments that can thrive in private, die in public". "Australians would have every right to be bloody annoyed at a foreigner lecturing them to shut up". "setting monetary policy is something we do under conditions of massive uncertainty". |
+| 485 | Hunter, fireside chat, AFIA conference (Sep 2025) https://www.rba.gov.au/speeches/2025/sp-ag-2025-09-16.html | "Milk is an awful lot more expensive today than it was pre-COVID". "And our job is to worry. You pay us to worry." (Bullock said nearly the same at 457: a house line.) |
+| 486 | Hunter, fireside chat, AIRA conference (May 2024) https://www.rba.gov.au/speeches/2024/sp-ag-2024-05-30.html | "They're doing it tough and we're very mindful of that group." "I'll probably go to my deathbed still talking about inflation." "Economics is grey, not black and white, and you're never 100 per cent sure how things are going to play out." |
+| 487 | Hunter, interview with Ladies Finance Club (Dec 2025) https://www.rba.gov.au/speeches/2025/sp-ag-2025-12-16-2.html | "No such thing as a blonde question by the way." "My own personal version of this is milk." Advice as a person, not an institution. |
+| 488 | Hunter, remarks at the Ai Group luncheon (Nov 2025) https://www.rba.gov.au/speeches/2025/sp-ag-2025-11-20.html | "One of the things I enjoy most in my job is interacting directly with all parts of the community in Australia…" "We think the labour market is currently a bit tight". "A bit tight": understatement as precision. |
+| 489 | Bullock, opening statement to the House Economics Committee (Sep 2025) https://www.rba.gov.au/speeches/2025/sp-gov-2025-09-22.html | "Good morning, Chair and members of the Committee." "We've made real progress in bringing inflation down." The formal register, for contrast with 453 and 457 the month after. |
+| 490 | Hunter, interview with Money News, Nine Radio (Oct 2025) https://www.rba.gov.au/speeches/2025/sp-ag-2025-10-14.html | "It's a bit of a puzzle, to be honest with you." "my personal forecasts have been wrong many times". |
+
+### 491-501 · Hopkins, "Essays That Worked" 2023 and 2022 · essays
+| # | Essay | Open | Best line | Close | Craft |
+|---|---|---|---|---|---|
+| 491 | "On Potatoes" (2023) https://apply.jhu.edu/hopkins-insider/on-potatoes/ | "If you had to choose one food to eat for the rest of your life, what would it be?" | "Creamy mashed-potatoes come first to mind, with their fluffy hills of whipped-bliss gracing one's tongue so delicately." | "…and I will never stop learning." | Praised for a "lively" style: the essay is about potatoes and is plainly enjoying itself. |
+| 492 | "Facing the Hot Griddle" (2023) https://apply.jhu.edu/hopkins-insider/facing-the-hot-griddle/ | "Standing in front of the kitchen counter, my small hands are placed on the cool granite top and…" | "Or will I be a tortilla, uniquely made in the most perfect imperfect shape?" | "If trying to make tortillas has taught me anything, it is that: it's not about the shape of the…" | **F1**, hands on the counter. One object carries the identity question. |
+| 493 | "The Mechanisms of Collaboration" (2023) https://apply.jhu.edu/hopkins-insider/the-mechanisms-of-collaboration/ | "Ever since the first grade, Dmitri Mendeleev has been my hero." | "I was in awe; the colors, the patterns, the symmetric shape—everything mesmerized me." | "…cellular biology embodies my passions just as well as the periodic table." | An unexpected hero in sentence one. |
+| 494 | "Bridging Polarity" (2023) https://apply.jhu.edu/hopkins-insider/bridging-polarity/ | ""These people are just confused," Emily whispered to me as she stared out the car window…" | "Nothing could get in between the love we had for each other, even our vehemently opposing opinions." | "Only then can I create a bridge that connects two different ideas, allowing for a more harmonious world." | Opens on dialogue and a disagreement; the close goes abstract. |
+| 495 | "Rock Climbing as a Second Language" (2023) https://apply.jhu.edu/hopkins-insider/rock-climbing-as-a-second-language/ | "There I was, hanging from the precipice, muscles trembling, fingers aching, sweat dripping onto my spotter twenty feet below" | "I become one with the wall, solely captivated by the placements of its holds and the complexity of its challenge." | "Through this life-changing sport I have strengthened not only my body but also my mind…" | **F1** with the body. The officer praised the "relatable struggle" first. |
+| 496 | "Finding My Voice" (2023) https://apply.jhu.edu/hopkins-insider/finding-my-voice/ | "I looked up and flinched slightly." | "Day by day, I began to stand a little taller and talk a little louder both inside and outside of debate." | "I can't wait to see how far they can go from here." | Six-word open, one physical reaction. |
+| 497 | "And the Secret Ingredient is…" (2022) https://apply.jhu.edu/hopkins-insider/and-the-secret-ingredient-is/ | "On the granite countertop in front of me sat a pile of flour, two sticks of butter, …" | "Collaborative endeavors are the proving grounds for Murphy's Law: everything that can go wrong, will go wrong." | "Enjoy!" | **The close is one word, addressed to the reader**, in the voice of a recipe. Teamwork told as a kitchen comedy. |
+| 498 | "Superheroes" (2022) https://apply.jhu.edu/hopkins-insider/superheroes/ | "Legends, lore, and comic books all feature mystical, beautiful beings and superheroes" | "Sometimes the moments that speak the loudest aren't the noisiest or the most energetic." | "See, that's the kind of world-saving I do." | The close shrinks the title to the writer's size, with a wink. |
+| 499 | "Learning How to Play" (2022) https://apply.jhu.edu/hopkins-insider/learning-how-to-play/ | "The first board game I ever played was Disney Princess Monopoly against my mother." | "Through them, I discovered what it really means to fight to win." | "…I've noticed my mother paying much more attention to my moves and habits and even learning a few things from me." | A comic first line; the close reverses the opening (the mother now learns). |
+| 500 | "And on That Note" (2022) https://apply.jhu.edu/hopkins-insider/and-on-that-note/ | "The sound was loud and discordant, like a hurricane, high notes and low notes mixing together in an audible mess." | "But what I play, no matter how discordant, can be beautiful." | "It's my own unique polyphonic note." | The close returns to the opening sound (a callback). |
+| 501 | "Time to Spin the Wheel" (2022) https://apply.jhu.edu/hopkins-insider/time-to-spin-the-wheel/ | "For as long as I can remember, one of my favorite pastimes has been manipulating those tricky permutations of 26 letters…" | ""I love you," whose incredible emotion is quantized to a mere set of eight letters, never cease to amaze me." | "Who knows, but I'm definitely game to give the wheel a spin, Pat, and see where it takes me…" | The close speaks to the host of the show by name. |
+
+Batch 15 note: three of the eleven Hopkins essays end by speaking to someone ("Enjoy!", "Pat", "See, that's the
+kind of world-saving I do."), and those are the closes that sound like a person. Haldane's best speeches open on an
+absurd sentence ("Elephant seals have got too big for their beaches.") and spend the speech earning it. Lamb and
+Woolf turn from light to grave in one line.
 
 ### Re-reads in batch 4 (not counted)
 Fourteen pieces in this batch had already been logged (the batch's source list was wrong). They are kept here
