@@ -17,7 +17,7 @@ about 60-90 pieces an hour at best. Collections (memo anthologies, letter compil
 Each entry: **Open / Best / Close** (quoted lines), **Craft** (rhythm, stance, shape), **Steal** (one move worth
 copying), **Insight** (only if there is one). What the entries add up to goes in `SYNTHESIS.md` after every 100.
 
-Count so far: **699**
+Count so far: **737**
 
 ---
 
@@ -1532,6 +1532,67 @@ Addison's walk in the Abbey, 689) or a list of plain nouns ("Food, warmth, sleep
 hearth", 678), and the big claim comes after. Addison's "a full Draught in a few Drops" (698) is the IPS's job in one
 line, and Hazlitt's man who "brings in his mistress at every turn" (682) is the warning against overusing the motif. Two
 pieces give money a voice or a race (688, 676); both are funny because they treat it with mock dignity.
+
+## Round 2, batch 23 (28 Oct, 21:09-21:12 Sydney): 700-737
+Checked against the log's URL and title list first. All from Quotidiana (https://essays.quotidiana.org/), read whole.
+Not counted: four author index pages (Twain, Milne, Jerome, Belloc; used only to find URLs). Quotes marked "…" were cut
+at the reader's 125-character limit.
+
+### 700-711 · Hazlitt and Lamb, the rest · essays
+| # | Piece | Open | Best line | Close | Craft |
+|---|---|---|---|---|---|
+| 700 | Hazlitt, "On Gusto" (1816) https://essays.quotidiana.org/hazlitt/gusto/ | "Gusto in art is power or passion defining any object." | "Not only do his heads seem to think—his bodies seem to feel." | "If it is not, we are altogether mistaken in our notions on this delicate subject." | **A definition as the first line**, then examples. The close bets the whole essay on itself. |
+| 701 | Hazlitt, "The Indian Jugglers" (1821) https://essays.quotidiana.org/hazlitt/indian_jugglers/ | "Coming forward and seating himself on the ground in his white dress and tightened turban…" | "It is skill surmounting difficulty, and beauty triumphing over skill." | "We have paid this willing tribute to his memory." | F1: opens mid-act on a juggler. The essay ends on an obituary for a fives player, a turn nobody sees coming. |
+| 702 | Hazlitt, "On the Fear of Death" (1822) https://essays.quotidiana.org/hazlitt/fear_of_death/ | "Perhaps the best cure for the fear of death is to reflect that life has a beginning as well as an end." | "We think, how we should feel, not how the dead feel." | "If we merely wish to continue on the scene to indulge our headstrong humours and tormenting passions…" | One symmetry carries the essay: we don't mourn the years before we were born. |
+| 703 | Hazlitt, "Why Distant Objects Please" (1821) https://essays.quotidiana.org/hazlitt/why_distant_objects_please/ | "Distant objects please, because, in the first place, they imply an idea of space and magnitude, and because, not being…" | "We drink the air before us, and borrow a more refined existence from objects that hover on the brink of nothing." | "This was truly and finely said long ago, by one who knew the strong and weak points of human nature; but it is what…" | The title asks the question; the first word answers it. |
+| 704 | Hazlitt, "My First Acquaintance with Poets" (1823) https://essays.quotidiana.org/hazlitt/my_first_acquaintance/ | "My father was a Dissenting Minister, at Wem, in Shropshire; and in the year 1798 (the figures that compose the date …" | "He strides on so far before you, that he dwindles in the distance!" | "Enough of this for the present." | **A memoir that opens on a father, a town and a year.** The five-word close walks out of the room. |
+| 705 | Hazlitt, "On the Difference between Writing and Speaking" (1826) https://essays.quotidiana.org/hazlitt/writing_and_speaking/ | "It is a common observation, that few persons can be found who speak and write equally well." | "the habit of writing is the habit of thinking aloud, but without the help of an echo." | "I fancy Mr. C. Wynne is the only person in the kingdom who has fully made up his mind that a total defect of voice …" | "The most dashing orator I ever heard is the flattest writer I ever read." **Writing has no audience to react; the writer must imagine one** (synthesis 4, point 7). |
+| 706 | Hazlitt, "On Genius and Common Sense" (1821) https://essays.quotidiana.org/hazlitt/genius_and_common_sense/ | "We hear it maintained by people of more gravity than understanding, that genius and taste are strictly reducible to rules…" | "Reason is the interpreter and critic of nature and genius, not their law-giver and judge." | "Good nature and common sense are required from all people; but one proud distinction is enough…" | Insult in the first line ("more gravity than understanding"). |
+| 707 | Hazlitt, "On Living to One's Self" (1821) https://essays.quotidiana.org/hazlitt/living_to_ones_self/ | "I was never in a better place or humour than I am at present for writing on this subject." | "He is free as air, and independent as the wind." | "…whilst my soul is thus raised up to heaven, it imports me little what ground I tread upon." | Opens on where he is sitting as he writes (a country inn). |
+| 708 | Lamb, "A Chapter on Ears" (1821) https://essays.quotidiana.org/lamb/chapter_on_ears/ | "I have no ear.—" | "the purgatory of the Enraged Musician becomes my paradise." | "…and restores to me the genuine unterrifying aspects of my pleasant-countenanced host and hostess." | **Four words, a confession, then a dash.** The essay is a joke against himself (he means no ear for music). |
+| 709 | Lamb, "Oxford in the Vacation" (1820) https://essays.quotidiana.org/lamb/oxford_in_the_vacation/ | "Casting a preparatory glance at the bottom of this article—as the wary connoisseur in prints, with cursory eye…" | "I can rise at the chapel-bell, and dream that it rings for me." | "When he goes about with you to show you the halls and colleges, you think you have with you…" | A clerk pretending to be a scholar for a week; the pretence is the pathos. |
+| 710 | Lamb, "Popular Fallacies: That a Bully Is Always a Coward" (1826) https://essays.quotidiana.org/lamb/popular_fallacies_1/ | "This axiom contains a principle of compensation, which disposes us to admit the truth of it." | "Pretensions do not uniformly bespeak non-performance." | "This was true distributive justice." | **A proverb taken apart**: we believe it because we want it to be true. |
+| 711 | Lamb, "The Old and the New Schoolmaster" (1821) https://essays.quotidiana.org/lamb/old_and_new_schoolmaster/ | "My reading has been lamentably desultory and immethodical." | "The trumpet does not more stun you by its loudness, than a whisper teases you by its provoking inaudibility." | "For the communication of this letter, I am indebted to my cousin Bridget." | Opens on his own ignorance, F6, before he mocks anyone else's. |
+
+### 712-721 · Addison, Johnson, Seneca, more Lamb and Hazlitt · essays and letters
+| # | Piece | What it shows |
+|---|---|---|
+| 712 | Addison, "Laughter" (Spectator No. 249, 1711) https://essays.quotidiana.org/addison/laughter_1/ | "Laughter is indeed a very good Counterpoise to the Spleen;" Close on a line of Milton: "In unreproved Pleasures free." |
+| 713 | Addison, Spectator No. 476 (1712) https://essays.quotidiana.org/addison/spectator_no_476/ | **On method in writing**: "There is always an Obscurity in Confusion"; an unplanned essay is a wood where "the Fruit is lost amidst the Exuberance of Leaves." Two debaters, Dry and Puzzle: the one with "few Words" wins. |
+| 714 | Addison, The Free-holder No. 45 (1716) https://essays.quotidiana.org/addison/free-holder/ | "Laughter is bought too dear, if it be at the expense of honesty." "A mere Politician is but a dull companion, and, if he is always wise, is in great danger of being tiresome or ridiculous." |
+| 715 | Johnson, "Solitude Not Eligible" (Adventurer No. 126, 1754) https://essays.quotidiana.org/johnson/solitude_not_eligible/ | "Solitude was to such men a release from fatigue, and an opportunity of usefulness." Antithesis again; the balance never tips. |
+| 716 | Seneca, "On the Diseases of the Soul" (Letter 75) https://essays.quotidiana.org/seneca/diseases_of_the_soul/ | Opens on a complaint about his own letters: "You have been complaining that my letters to you are rather carelessly written." **"Let us say what we feel, and feel what we say; let speech harmonize with life."** "Our words should aim not to please, but to help." |
+| 717 | Seneca, "On the Healing Power of the Mind" (Letter 78) https://essays.quotidiana.org/seneca/healing_power_of_the_mind/ | A sick man writing to a sick friend. "For sometimes it is an act of bravery even to live." "Be your own spectator; seek your own applause." Close: "Farewell." |
+| 718 | Lamb, "Grace Before Meat" (1821) https://essays.quotidiana.org/lamb/grace_before_meat/ | "The proper object of the grace is sustenance, not relishes; daily bread, not delicacies;" "Gluttony and surfeiting are no proper occasions for thanksgiving." |
+| 719 | Lamb, "A Complaint of the Decay of Beggars in the Metropolis" (1822) https://essays.quotidiana.org/lamb/decay_of_beggars/ | Mock complaint against reformers. "He is the only free man in the universe." "There was a dignity springing from the very depth of their desolation;" |
+| 720 | Hazlitt, "On the Love of Life" (Round Table, 1815) https://essays.quotidiana.org/hazlitt/love_of_life/ | "To be something is better than to be nothing, because we can feel no interest in nothing." "The strength of the passion seldom corresponds to the pleasure we find in its indulgence." |
+| 721 | Hazlitt, "On Depth and Superficiality" (1826) https://essays.quotidiana.org/hazlitt/depth_and_superficiality/ | "There is a depth even in superficiality, that is, the affections cling round obvious and familiar objects …" |
+
+### 722-737 · Twain, Milne, Jerome, Belloc · comic essays
+| # | Piece | What it shows |
+|---|---|---|
+| 722 | Twain, "The Art of Inhumation" (Life on the Mississippi, 1883) https://essays.quotidiana.org/twain/art_of_inhumation/ | **Satire by letting a salesman talk**: an undertaker praises his trade. "Undertaking?—why it's the dead-surest business in Christendom, and the noblest." "People don't wait for examples to die." |
+| 723 | Twain, "Hygiene and Sentiment" (Life on the Mississippi) https://essays.quotidiana.org/twain/hygiene_and_sentiment/ | "They bury their dead in vaults, above the ground." Six flat words, then the absurdity. Close on the cost: "He and his family will feel that outlay a good many months." **The joke ends on a bill.** |
+| 724 | Milne, "Thoughts on Thermometers" https://essays.quotidiana.org/milne/thoughts_on_thermometers/ | "Our thermometer went down to 11 degrees the other night." F1, a number, first. "As if anybody wanted a thermometer to know if a room were cold or not." |
+| 725 | Milne, "The Charm of Golf" https://essays.quotidiana.org/milne/charm_of_golf/ | **"Golf is so popular simply because it is the best game in the world at which to be bad."** "Every stroke we bad players make we make in hope." Close: "But no lower; certainly no lower." |
+| 726 | Milne, "The Pleasure of Writing" https://essays.quotidiana.org/milne/pleasure_of_writing/ | An essay about a new pen nib. **The last sentence repeats a line from the middle**, "That is the real pleasure of writing.", and lands harder the second time. |
+| 727 | Milne, "Goldfish" https://essays.quotidiana.org/milne/goldfish/ | "Let us talk about—well, anything you will." The dash is the shrug. Close: "Which is all I want to say about goldfish." |
+| 728 | Jerome, "On Being Idle" (Idle Thoughts of an Idle Fellow, 1886) https://essays.quotidiana.org/jerome/being_idle/ | "Idleness, like kisses, to be sweet must be stolen." "I like idling when I ought not to be idling; not when it is the only thing I have to do." |
+| 729 | Jerome, "On Memory" (1886) https://essays.quotidiana.org/jerome/memory/ | **"I forget the rest."** The best first line in the log: four words, after a quoted song, and the essay is about memory. "We must press on whether we will or no, and we shall walk better with our eyes before us…" |
+| 730 | Jerome, "On the Weather" (1886) https://essays.quotidiana.org/jerome/weather/ | "Things do go so contrary-like with me." "The weather is like the government—always in the wrong." Ends lyrical, against expectation. |
+| 731 | Belloc, "The Mowing of a Field" (1906) https://essays.quotidiana.org/belloc/mowing_of_a_field/ | F1: "There is a valley in South England remote from ambition and from fear…" Craft taught exactly: "You must regard the scythe as a pendulum that swings, not as a knife that cuts." |
+| 732 | Belloc, "On Advertisement" https://essays.quotidiana.org/belloc/advertisement/ | Opens by citing a scholar he invented ("Harmonides of Ephesus … I forget which, but I think the fifth"). "This habit of parenthesis is the ruin of good prose." Said inside a parenthesis-heavy essay. |
+| 733 | Belloc, "On Getting Respected in Inns and Hotels" https://essays.quotidiana.org/belloc/getting_respected_in_inns_and_hotels/ | **"To begin at the beginning is, next to ending at the end, the whole art of writing; as for the middle you may fill it in with any rubble that you choose."** Close: "But I do not know how this is done." |
+| 734 | Belloc, "On Them" https://essays.quotidiana.org/belloc/them/ | "I do not like Them." The reader works out slowly that They are cats. **Withholding one word makes the essay.** |
+| 735 | Belloc, "On the Pleasure of Taking Up One's Pen" https://essays.quotidiana.org/belloc/pleasure_of_taking_up_ones_pen/ | "When people say "create" they flatter themselves." Close: "You lay it down." Four words: the pen, and the essay, put down. |
+| 736 | Milne, "The Old Order Changes" https://essays.quotidiana.org/milne/old_order_changes/ | "A thousand years ago I won a cup for jumping." Comic, then a quiet wartime turn. "Anything regular soon gets taken for granted." |
+| 737 | Belloc, "On a House" https://essays.quotidiana.org/belloc/a_house/ | Mock invocation of a Muse "(whose name I forget and you never knew)". "Upon my soul, I would give you a better reason if I had one, but I have none." |
+
+Batch 23 note: the comic essayists (Milne, Jerome, Belloc) win on first lines of four to eight words ("I forget the
+rest.", "I have no ear.", "I do not like Them.") and on a close that does exactly what it says ("You lay it down.",
+"Which is all I want to say about goldfish."). Twain ends a joke about funerals on a bill (723). Belloc's rule (733),
+beginning and end are the whole art, and Addison's (713), few words beat many, are the two rules for a 500-word form.
+Seneca's "Our words should aim not to please, but to help" (716) is the test for every line of the IPS.
 
 ### Re-reads in batch 4 (not counted)
 Fourteen pieces in this batch had already been logged (the batch's source list was wrong). They are kept here
