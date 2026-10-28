@@ -17,7 +17,7 @@ about 60-90 pieces an hour at best. Collections (memo anthologies, letter compil
 Each entry: **Open / Best / Close** (quoted lines), **Craft** (rhythm, stance, shape), **Steal** (one move worth
 copying), **Insight** (only if there is one). What the entries add up to goes in `SYNTHESIS.md` after every 100.
 
-Count so far: **501**
+Count so far: **515**
 
 ---
 
@@ -1152,6 +1152,53 @@ Batch 15 note: three of the eleven Hopkins essays end by speaking to someone ("E
 kind of world-saving I do."), and those are the closes that sound like a person. Haldane's best speeches open on an
 absurd sentence ("Elephant seals have got too big for their beaches.") and spend the speech earning it. Lamb and
 Woolf turn from light to grave in one line.
+
+## Round 2, batch 16 (28 Oct, 13:27-13:50 Sydney): 502-515
+Checked against the log's URL and title list first. A thin batch: most of the thin areas are behind PDFs the reader
+can't open or pages that only describe the letter. Not counted: Markel's 2024 annual report PDF (binary to the reader)
+and its 2016 letter (redirects to the home page); Fairfax's 2011 proxy circular (no letter); a Hedge Fund Alpha list
+page and its Baupost page (paywalled); Dan Loeb's Q2 2018 letter on ValueWalk (site error); Stripe's newsroom note on
+its 2023 letter (summary); the second half of the Woolf collection (no complete essay); a Bridgewater page on Dalio
+(third-person summary); Goldman pages for an Exchanges episode (transcript behind a PDF link) and a Top of Mind video
+(only disclaimers: "Neither Goldman Sachs nor any of its affiliates makes any representation or warranty…", a perfect
+counter-example of voice, but not a piece); two Doomberg pages (no Doomberg text; the Active Voice interview is
+already logged); a pw.org page (no Smith text); a Baldwin index page and a PDF blocked to readers; an Amazon 8-K
+without its exhibit; an SEC staff letter to Amazon. Quotes marked "…" were cut at the reader's 125-character limit.
+
+### 502-503 · Prem Watsa, twice · investor letters
+| # | Piece | What it shows |
+|---|---|---|
+| 502 | Watsa, Fairfax news release answering a short-seller's report (20 Jan 2003) https://www.fairfax.ca/wp-content/uploads/fpr2003-01-20.pdf | "If Fairfax's operations encountered difficulties, we faced them head-on, reported them candidly and absorbed their impact." Close: "We are certain that the loss reserve deficiencies suggested by that report are totally wrong and have no validity whatsoever" Under attack, the voice goes stiff and absolute. Useful as a contrast with 503. |
+| 503 | Watsa, Fairfax 1990 annual report, quoted via https://hedgefundalpha.com/investor-letters/prem-watsa-even-great-investors-have-to-understand-their-limitations/ | "The investment banking losses were mainly due to your Chairman's bright ideas!" "We have written off our investment in Carbovan (cost $5 million) – I was too optimistic last year" **F3 + F4: the mistake, its owner and its price in one line.** |
+
+### 504-509 · Hopkins 2022 (the last two); Woolf; Zadie Smith · essays
+| # | Piece | Open | Best line | Close | Craft |
+|---|---|---|---|---|---|
+| 504 | "Looking Through a Wider Lens" (Hopkins 2022) https://apply.jhu.edu/hopkins-insider/looking-through-a-wider-lens/ | "What does it mean to be an advocate?" | "I refuse to take the knowledge I learn and simply place it on a flashcard to memorize." | "I will use it to help those whom I must be an advocate for: my patients." | Opens on a question; the best line is a refusal. |
+| 505 | "The Voice of Many" (Hopkins 2022) https://apply.jhu.edu/hopkins-insider/the-voice-of-many/ | "It's a hot and humid day in Swat Valley, Pakistan" | "We will FIGHT until girls don't live with fear of attending school" | "…the details will come as long as there is a shared passion." | **F1 then F5**: heat, gunshots, then resolve. |
+| 506 | Woolf, "Three Pictures" (1942 collection) https://gutenberg.net.au/ebooks12/1203811h.html | "It is impossible that one should not see pictures; because if my father was a blacksmith and yours was a peer of the realm…" | "We cannot possibly break out of the frame of the picture by speaking natural words." | "What a picture it made!" | A comfortable scene, then a death revealed in the last lines; the close repeats the frame with the meaning reversed. |
+| 507 | Woolf, "Evening over Sussex: Reflections in a Motor Car" (same collection) | "Evening is kind to Sussex, for Sussex is no longer young, and she is grateful for the veil of evening…" | "one could only offer a thimble to a torrent that could fill baths, lakes." | "And the rest of the journey was performed in the delicious society of my own body." | Several "selves" argue about beauty and time; the close dismisses the argument for comfort. **Comedy after the weight**, the reverse of 475. |
+| 508 | Zadie Smith, "Fail Better" (2007) https://rafalreyzer.com/wp-content/uploads/2021/09/Zadie-Smith-Fail-Better.pdf | "I want you to think of a young man called Clive." | "Style is a writer's way of telling the truth." | "To become better readers and writers we have to ask of each other a little bit more." | "For writers have only one duty, as I see it: the duty to express accurately their way of being in the world." **The whole voice study in one sentence:** style isn't decoration, it is how you see. |
+| 509 | Zadie Smith, lines from "Changing My Mind", quoted in https://openthemagazine.com/lounge/books/zadie-and-the-art-of-the-essay | "It's such a confidence trick, writing a novel. The main person you have to trick into confidence is yourself." ("That Crafty Feeling") "I wanted to like Hurston because she represented 'good writing', not because she represented me." Admits a mixed motive, then corrects it. **F6.** |
+
+### 510-512 · Bezos, three more letters · company letters
+| # | Letter | Open | Best line | Close | Craft · Insight |
+|---|---|---|---|---|---|
+| 510 | Bezos, Amazon 2003 letter https://www.sec.gov/Archives/edgar/data/1018724/000119312504060718/dex991.htm | "Long-term thinking is both a requirement and an outcome of true ownership." | "Owners are different from tenants." | "Here's to not being a tenant!" | **A thesis as the first line, a five-word contrast, and a toast to close.** The close is a pun on the best line. |
+| 511 | Bezos, Amazon 2006 letter https://www.sec.gov/Archives/edgar/data/1018724/000119312507093886/0001193125-07-093886.txt | "At Amazon's current scale, planting seeds that will grow into meaningful new businesses takes some discipline,…" | "In our experience, if a new business enjoys runaway success, it can only begin to be meaningful…" | "Many thanks for your support and encouragement." | One garden metaphor for the whole letter. "We won't always choose right." |
+| 512 | Bezos, Amazon 2008 letter https://www.sec.gov/Archives/edgar/data/1018724/000119312509081096/dex991.htm | "In this turbulent global economy, our fundamental approach remains the same." | "Long-term thinking levers our existing abilities and lets us do new things we couldn't otherwise contemplate." | "Even as the rate of change accelerates, we hope and believe our focus on what stays the same should serve us well." | Written in the crisis; says what won't change, like Terry Smith (461). A Karate Kid footnote. |
+
+### 513-515 · Baldwin; two central bankers · essay and speeches
+| # | Piece | Open | Best line | Close | Craft |
+|---|---|---|---|---|---|
+| 513 | Baldwin, "Stranger in the Village" (1953) https://liternet.bg/publish24/james-baldwin/stranger.htm | "From all available evidence no black man had ever set foot in this tiny Swiss village before I came." | "People are trapped in history and history is trapped in them." | "This world is white no longer, and it will never be white again." | **The thesis-as-a-strange-fact opening** (synthesis 3, point 1) at its most serious. A chiasmus, then a close that turns the essay into a verdict. |
+| 514 | Haldane, "Labour's Share" (2015) https://www.bis.org/speeches/20151203-labours-share.pdf | "It is a great privilege for me to be invited to speak to you." | "Labour is not dead wood to be carved up between tasks." | "Thank you." | "Technology has enriched labour, not immiserated it." Short verdicts between long history. |
+| 515 | Cunliffe, "The UK economy post crisis – a series of unfortunate events?" (Bank of England, 2016) https://www.bis.org/review/r160226c.pdf | "There is a well-known myth - much loved in management schools - that if you put a frog in boiling water it will jump out;…" | "Sometimes when you focus on incremental changes you can forget the big picture" | "We have a range of tools at our disposal and should be ready to use them whichever risk materialises." | A parable opening that the speaker admits is a myth, used anyway. The close plans for both directions of error (compare 453). |
+
+Batch 16 note: the two Watsa pieces are the same man thirteen years apart. When he owns a loss ("your Chairman's
+bright ideas!", $5 million written off) he sounds human; when he defends against a critic he sounds like a lawyer.
+Bezos's best letters open on the thesis and close on a turn of the same words ("Owners are different from tenants."
+… "Here's to not being a tenant!").
 
 ### Re-reads in batch 4 (not counted)
 Fourteen pieces in this batch had already been logged (the batch's source list was wrong). They are kept here
