@@ -1153,7 +1153,7 @@ kind of world-saving I do."), and those are the closes that sound like a person.
 absurd sentence ("Elephant seals have got too big for their beaches.") and spend the speech earning it. Lamb and
 Woolf turn from light to grave in one line.
 
-## Round 2, batch 16 (28 Oct, 13:27-13:50 Sydney): 502-515
+## Round 2, batch 16 (28 Oct, 13:27-13:35 Sydney): 502-515
 Checked against the log's URL and title list first. A thin batch: most of the thin areas are behind PDFs the reader
 can't open or pages that only describe the letter. Not counted: Markel's 2024 annual report PDF (binary to the reader)
 and its 2016 letter (redirects to the home page); Fairfax's 2011 proxy circular (no letter); a Hedge Fund Alpha list
