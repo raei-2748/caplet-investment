@@ -17,7 +17,7 @@ about 60-90 pieces an hour at best. Collections (memo anthologies, letter compil
 Each entry: **Open / Best / Close** (quoted lines), **Craft** (rhythm, stance, shape), **Steal** (one move worth
 copying), **Insight** (only if there is one). What the entries add up to goes in `SYNTHESIS.md` after every 100.
 
-Count so far: **445**
+Count so far: **473**
 
 ---
 
@@ -1043,6 +1043,60 @@ Batch 13 note: the RBA under Hauser writes the way the best investors do. One fr
 Melbourne Cup, a War College playbook), used once and fully, then dropped. Every speech says out loud that a single
 forecast is almost surely wrong (430, 433, 436, 438). The plain ones (439, 444) are good to learn from by
 contrast: correct, warm and forgettable. The jokes sit in titles and first lines; the numbers are left alone.
+
+## Round 2, batch 14 (28 Oct, 11:15-11:25 Sydney): 446-473
+Checked against the log's URL and title list first. Not counted: Cembalest "The Alchemists" page (metadata only);
+two MeDirect pages on Fundsmith letters (bank summaries with a PDF link); the Bank of England page on Haldane's "The
+Bank and the Banks" (a press summary, not the speech); Damodaran's comments page and the BIS landing page for "Twin
+Peaks" (no text; the full pieces are 460 and 459); the British Council page on Orwell's cooking essay (no essay text);
+the first read of Montaigne volume 1 (contents only); three Hopkins tag pages (lists). Re-read, not counted: the second
+half of Montaigne's "Of Experience" (442): "The most usual and common method of living is the most becoming".
+Quotes marked "…" were cut at the reader's 125-character limit.
+
+### 446-457 · The RBA again: more speeches, and the people off-script · speeches and transcripts
+| # | Piece | What it shows |
+|---|---|---|
+| 446 | Hunter, "Inflation Expectations – Why They Matter and How They Are Formed" (Oct 2024) https://www.rba.gov.au/speeches/2024/sp-ag-2024-10-16.html | Open: "A low and stable inflation rate is critical to preserving macroeconomic stability." "Volatility breeds uncertainty, and uncertainty makes decisions harder for everyone." "Our lived experience is that we 'see' some prices much more frequently than others." People judge inflation by petrol and groceries, not the basket. |
+| 447 | Hunter, "Understanding the Journey to Full Employment" (Sep 2024) https://www.rba.gov.au/speeches/2024/sp-ag-2024-09-11.html | Open: "Employment is crucial to our living standards and our lives." "If we can be confident about anything, it's that our forecasts will be wrong at least in some way." The one confident sentence is about being wrong. **F6.** |
+| 448 | Kent, "Restrictive Financial Conditions in Australia" (Jun 2024) https://www.rba.gov.au/speeches/2024/sp-ag-2024-06-26.html | Open: "I thank the Australian Banking Association (ABA) for inviting me to this conference." "Higher interest rates are providing an incentive for all households to save more and borrow less." Correct and careful; a control sample, like 439 and 444. |
+| 449 | Dwyer, "The State of Economics" (May 2024) https://www.rba.gov.au/speeches/2024/sp-so-2024-05-28.html | "In short, students think it is a risk to study economics." A survey turned into one sentence a student would say. |
+| 450 | Hunter, "Why Productivity Matters for Central Bankers" (Oct 2025) https://www.rba.gov.au/speeches/2025/sp-ag-2025-10-15.html | "Ultimately, productivity growth is the determinant of sustainable real wages growth." Plain analogies (the typewriter, the price of bread) carry an abstract idea. |
+| 451 | Hauser, fireside chat, Barrenjoey Economic Forum (Jul 2025) https://www.rba.gov.au/speeches/2025/sp-dg-2025-07-31.html | First answer: "Well, Jo, thanks very much for the invite." On where to find a number: "You can't find it on the D drive, let's put it that way." And: "Some wag wrote back saying "the same place as NAIRU and the solution to world peace."" Jokes against his own trade. |
+| 452 | Bullock, "Women's Economic Empowerment in Australia" (Apr 2025) https://www.rba.gov.au/speeches/2025/sp-gov-2025-04-10.html | "When I first joined the RBA in the mid-1980s, there were barely any women at the level of section head." "Fast forward 40 years and women now account for almost half of the paid workforce." A memory, then a number. **F4.** |
+| 453 | Bullock, fireside chat, ABE annual dinner (Oct 2025) https://www.rba.gov.au/speeches/2025/sp-gov-2025-10-27.html | "I'm not a developer. None of my staff are developers." "I taught myself to play guitar during COVID and ever since I've just not had enough time to do it." On uncertainty: "So we're trying to look at, if we are wrong, what direction might it be". Off-script she is far more human than on it. |
+| 454 | Hunter, "Exchanges With Evan Lucas" (Oct 2025) https://www.rba.gov.au/speeches/2025/sp-ag-2025-10-14-2.html | "I certainly don't have any crystal ball on this one. And I'm not an expert." "The one thing I can guarantee is that they won't exactly come through, as we have them there." A guarantee about the forecast's failure. |
+| 455 | Hauser, interview with Reuters (Nov 2025) https://www.rba.gov.au/speeches/2025/sp-dg-2025-11-12.html | "It's not wise for central bankers to be confident, certainly not overconfident about anything." "Who thought what is much less important than what did they think?" "Reasonable people can and should differ on those views." |
+| 456 | Hauser, interview with Bloomberg Australia (Feb 2025) https://www.rba.gov.au/speeches/2025/sp-dg-2025-02-20.html | "central bankers are probably not the people you want to invite to your rave or your dinner party". "But let me be clear, we could be wrong." Self-mockery first, then the plain admission. |
+| 457 | Bullock, fireside chat, Nomura 100th anniversary (Oct 2025) https://www.rba.gov.au/speeches/2025/sp-gov-2025-10-16.html | Opens on a cold caught from her granddaughter. "I'm paid to worry, and I still worry." "it's not just uncertainty, it's unpredictability – you just don't know what might come out tomorrow morning." |
+
+### 458-463 · Marks, Haldane, Damodaran, Smith, Orwell, Montaigne · reader
+| # | Piece | Open | Best line | Close | Craft · Insight |
+|---|---|---|---|---|---|
+| 458 | Marks, "Quo Vadis?" (2002) https://www.oaktreecapital.com/docs/default-source/memos/2002-07-26-quo-vadis.pdf | "Leon Uris turned the question "Quo Vadis?" into a book title." | "There's no such thing as a conclusive sign, and there never will be." | "And in this climate, I'd rather bet on risk control than risk bearing as the route to superior results." | "I know my views on the market's direction aren't worth betting on." Says his forecast is worthless, then commits to a policy anyway. **F6 then F2.** |
+| 459 | Haldane, "Twin Peaks" (2014) https://www.bis.org/speeches/20141017-twin-peaks.pdf | "Back in June, with the cricket season in full swing, my views on the appropriate stance for UK monetary policy…" | "Rather peculiarly, the UK economy appears to be writhing in both agony and ecstasy." | "Thank you." | "Put in rather plainer English, I am gloomier." He translates himself mid-speech. |
+| 460 | Damodaran, "In Search of a Steady State: Inflation, Interest Rates and Value" (2022) https://aswathdamodaran.substack.com/p/in-search-of-a-steady-state-inflation | "The nature of markets is that they are never quite settled, as investors recalibrate expectations constantly…" | "Note that in all three cases, it is not the Fed that is driving rates, but what is happening to inflation." | "…the truth is that we will all feel the pain." | Rates follow inflation, not the Fed; when inflation rises, bond prices fall. "The inflation genie is out of the bottle" (a phrase he reuses, see 416). |
+| 461 | Terry Smith, letter of Jan 2026, quoted via https://fidelity.co.uk/markets-insights/investing-ideas/funds/fundsmith-equity-fund-update-from-terry-smith | - | "We intend to continue holding a portfolio of good businesses" | - | After a weak run, the letter says what won't change. A short promise, no apology. |
+| 462 | Orwell, "Confessions of a Book Reviewer" (1946) https://www.orwellfoundation.com/search/george-orwell/by-orwell/essays-and-other-works/confessions-of-a-book-reviewer/ (excerpt) | "He is a man of thirty-five, but looks fifty." | "He is bald, has varicose veins and wears spectacles, or would wear them if his only pair were not chronically lost." | "…the review will end up at exactly the right length and with just about three minutes to go." (last line of the excerpt) | **F1** by accumulation: the body, the clock, the interruptions, then the confession: "And the reviewer is an utterly shameless hack." |
+| 463 | Montaigne, "The Author to the Reader" (1580, Cotton tr.) https://www.gutenberg.org/cache/epub/3581/pg3581.html | "READER, thou hast here an honest book; it doth at the outset forewarn thee that…" | "for it is myself I paint." | "Therefore farewell." | The shortest preface in the canon: a warning, a confession, a goodbye. |
+
+### 464-473 · Hopkins, "Essays That Worked" 2025 and 2024 · essays
+| # | Essay | Open | Best line | Close | Craft |
+|---|---|---|---|---|---|
+| 464 | "Dancing Together" (2025) https://apply.jhu.edu/hopkins-insider/dancing-together/ | "I cannot dance." | "beautiful expressions of our unique West African roots turned into poor facsimiles by my robotic movements." | "I view that Johns Hopkins exemplifies the peak of collaborative achievement in education." | **Three-word first line, a confession.** A grandmother calls the dancing "a tragedy". The close goes generic. |
+| 465 | "Left and Right Don't Exist" (2025) https://apply.jhu.edu/hopkins-insider/left-and-right-dont-exist/ | "The first lesson I learned as a student pilot is that left and right don't exist." | "But at 36,000 feet in the air in a steel tube hurdling almost 200 miles an hour?" | "Whether I was 36,000 feet in the air or on ground level, by flying and writing, I realized that the most…" | A first line that sounds false and is true. **F1.** |
+| 466 | "Queen's Gambit" (2025) https://apply.jhu.edu/hopkins-insider/queens-gambit/ | "I was thoroughly confused." | "Through chess and soccer, I have discovered that every piece in a puzzle has a purpose." | "Your move." | **Two-word close that hands the reader the next turn.** |
+| 467 | "Red Over Black" (2025) https://apply.jhu.edu/hopkins-insider/red-over-black/ | ""Bring the ace of spades up," my Grandmother said as we started our first game of solitaire after I got home from school." | "If one side of you cheats, how would either side get better?" | "Now, with each day, I do more." | Opens on dialogue. A rule of solitaire becomes a rule for life. |
+| 468 | "Stepping Out of My Comfort Zone" (2025) https://apply.jhu.edu/hopkins-insider/stepping-out-of-my-comfort-zone/ | "If you told me I would be playing a sport called squash at 11 years old, I would call you crazy." | "I felt like a little fish in a big pond." | "…and I can't wait to be a part of the Hopkins family." | A cliché title and a cliché image; it worked on the story, not the prose. |
+| 469 | "Lifelong Learning" (2025) https://apply.jhu.edu/hopkins-insider/lifelong-learning/ | "The white yarn slipped off my aluminium crochet hook, adding a single crochet to rows and rows of existing stitches…" | "they had all become white unicorns while I was still doubting the stitch I just made." | "I still have so much to learn and so much that I want to learn, and so my journey to grow continues." | The odd detail (white unicorns) is the line people remember. |
+| 470 | "From Alone to Unique" (2024) https://apply.jhu.edu/hopkins-insider/from-alone-to-unique/ | "Whether I was blowing out candles, writing a letter to santa, or waiting for the clock to turn 11:11…" | "I changed my narrative from "alone" to "unique,"" | "I would not be who I am without my Filipino background…" | A list of childhood wishes, all for the same thing. |
+| 471 | "Switching Shoes" (2024) https://apply.jhu.edu/hopkins-insider/switching-shoes/ | "It was a wet and dreary October evening." | "Click, clack, click. The sound echoed through my head" | "Rather, I pour my heart into such opportunities and take their experiences with me." | A sound repeated as a refrain. |
+| 472 | "Lessons Learned" (2024) https://apply.jhu.edu/hopkins-insider/lessons-learned/ | "I could still hear her words, the words my teacher said as she handed me the packet…" | "To them, this was just another stage of life, another challenge to overcome." | "I know it is through the guidance of these values and the people who first showed them to me…" | **Comedy first, weight after** (synthesis 3, point 5): the "dramatic 11-year-old", then the family's sacrifice. |
+| 473 | "Translating My Story Into Words" (2024) https://apply.jhu.edu/hopkins-insider/translating-my-story-into-words/ | "My eyes widen." | "That day, I translated every note into a jump until my body understood the music." | "…I strive to learn and translate my knowledge into action that creates change." | Three-word open; the title's verb comes back in the best line. |
+
+Batch 14 note: the RBA's people are most human off-script (451, 453, 454, 456, 457): a guitar, a cold from a
+granddaughter, a joke about raves. Their prepared speeches (448, 450) are correct and grey. The Hopkins essays show the
+same split inside one page: strong first lines ("I cannot dance.", "My eyes widen.") and weak, generic last lines. The
+closes that work (466 "Your move.", 463 "Therefore farewell.") are short and give the reader something to do or feel.
 
 ### Re-reads in batch 4 (not counted)
 Fourteen pieces in this batch had already been logged (the batch's source list was wrong). They are kept here
