@@ -1,11 +1,11 @@
 # FICTION (the room) + real drafts. The Writing Room
 
 ## Now
-- **Doing:** voice work and drafting (the 27 Oct pause is lifted, Ahaan, BIBLE Book 9). Pieces in `../voice/exercises/` and the drafts, judged by ear: read aloud, the guide's questions, a cold reader. No script or count decides
-- **Decided:** the voice study is in (`../voice/`): Keel writes with `../voice/06_voice_guide.md`; the essays are Ahaan's, not Ray's; the old "four sentences, 18-32 words" base rule is retired (it made the flat rhythm)
-- **Next:** Wed 28-Thu 29 Oct practice on ideas I-1, I-3, I-4 (`../voice/07_ideas_from_reading.md`); Fri 30 Oct D5 is the first prose, to the guide; Sat 31 Oct the near-final for review, read aloud against the guide (the 500/50 form limits are the only counts)
-- **For the judges:** the voice of every line of the IPS and the Final Report (`../voice/06_voice_guide.md`)
-- **Updated:** 2026-10-27 20:30 Sydney
+- **Doing:** round 1 beat 7 (28 Oct): the three cures for the coupon gap as claims and as counted V28 splices, read blind by two cold judges (`../ips_rewrite/inbox/2026-10-28_writing-room.md`)
+- **Decided:** V28's soft-spot sentence ("the one thing that can still trim the gift") is out: both readers put it last for breaking the one rule. Lean for tonight's vote: C6 + mark (498 words with the five hard fixes); A ties on the readers but costs the bottom ~$10k and can force a Treasury sale
+- **Next:** Thu 29 Oct: the Long Room's verdict goes into a clean splice. "Before the bottom" -> "before anything comes off the bottom" if three words are found. Fri 30 Oct D5 prose; Sat 31 Oct review read
+- **For the judges:** five word-neutral hard fixes to V28 (first $300k + 2028 top-up in one sentence; Laura's half booked once; 2031 lock into "the first cheque's fund"; one quotable ending cut) and the 2031/2033 paragraph that keeps the plan's own rule
+- **Updated:** 2026-10-28 16:45 Sydney
 
 
 > AI DRAFT material throughout (Claude); not for submission as written. (Keel is a simulated team, AI-written.)
@@ -15,6 +15,8 @@
 > Rule: flag only hard issues (limits, rule breaches, facts, numbers, formatting) with minimal edits; never reword
 > for taste or soften a confident claim. Suggestions stay in the repo; never touch the Google Docs.
 
+> **State (Wed 28 Oct, 16:20 run):** beat 7 done; splices + script in `../drafts/writing_room_2026-10-28/` (rerun `splice_arms.py` after any V28 change). Open to this room: nothing; the Long Room's verdict tonight decides which splice the rewrite gets.
+>
 > **State (Tue 27 Oct, 17:10 run):** P06 done on the day-2 spine (not D4: the thinking moved). Kept lines and the
 > "three kickers only" rule are in the 27 Oct inbox note. `textcheck.py` now says to quote the LARGER count (spaced
 > dashes count by spaces). Open to this room: nothing urgent; Sat 31 Oct review.
@@ -33,6 +35,7 @@
 | Mon 26 Oct (16:30) | rewrite inbox lines (Laura's Room item 8, Lab item 5); voice meter on TNA, v4.1, Orwell | 22 / 23 strict | 3: "in the bank" vs NAV payout; line D1b-only; Lab line vs frozen WInS book (WO-R2) | `../office/outbox/2026-10-26_writing-room_voice-meter.md` |
 
 | Tue 27 Oct (17:10) | 18 candidate lines for six spine slots + D4 | D4 498 by spaces (494 split; earlier runs quoted the smaller) | 5: "ten Treasuries"; counts quoted low; "We buy the rate"; "the one way it fails"; D4 inflation/TWD HOLE | `../office/outbox/2026-10-27_writing-room_cold-read.md` |
+| Wed 28 Oct (16:20) | V28 (D8) + three soft-spot splices (C6, C6+MC, A) | V28 499 by spaces, pitch 50; splices 495 / 498 / 500 | 5: count margin 1/0; first $300k one-close fact; Laura's half double-booked; 2031 lock 'Treasuries maturing before 2033' (none on WInS); six quotable endings (cut one) | `../office/outbox/2026-10-28_writing-room_three-cures-side-by-side.md` |
 
 ## Tool changes
 - 27 Oct: `words_limit()` = the larger of the two counts; the summary line says "quote the larger"; the portal's IPS

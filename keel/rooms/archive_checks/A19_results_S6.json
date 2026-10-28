@@ -1,0 +1,61 @@
+{
+ "stamp": "curve 22 Oct 2026 | J.P. Morgan 2027 global equities 7.5% | 200,000 paths, seed 20261016 | MODEL",
+ "check_MB+T_lock_p_short_over_1k": 0.0005,
+ "A19": {
+  "top-up": {
+   "p_short_over_1k": 0.0005,
+   "stocks_zero": {
+    "paths_where_a_cheque_changes_over_1": 412,
+    "paths_where_a_cheque_changes_over_1k": 82,
+    "max_change_in_shortfall": 2953,
+    "paths_where_stocks_make_a_cheque_worse": 0,
+    "p_short_over_1k": 0.0009,
+    "gift_p50_change": -20176,
+    "gift_p5_change": -34462
+   },
+   "stocks_minus_60pct": {
+    "paths_where_a_cheque_changes_over_1": 258,
+    "paths_where_a_cheque_changes_over_1k": 54,
+    "max_change_in_shortfall": 2297,
+    "paths_where_stocks_make_a_cheque_worse": 0,
+    "p_short_over_1k": 0.0007,
+    "gift_p50_change": -11358,
+    "gift_p5_change": -19663
+   },
+   "jan2033_sales": {
+    "p_sold": 0.1007,
+    "median_sold": 1916,
+    "of_those_paths_gift_would_have_paid_all": 1.0,
+    "median_gift_saved_by_the_sale": 993
+   }
+  },
+  "strict": {
+   "p_short_over_1k": 0.0005,
+   "stocks_zero": {
+    "paths_where_a_cheque_changes_over_1": 412,
+    "paths_where_a_cheque_changes_over_1k": 82,
+    "max_change_in_shortfall": 2953,
+    "paths_where_stocks_make_a_cheque_worse": 0,
+    "p_short_over_1k": 0.0009,
+    "gift_p50_change": -20048,
+    "gift_p5_change": -34104
+   },
+   "stocks_minus_60pct": {
+    "paths_where_a_cheque_changes_over_1": 258,
+    "paths_where_a_cheque_changes_over_1k": 54,
+    "max_change_in_shortfall": 2297,
+    "paths_where_stocks_make_a_cheque_worse": 0,
+    "p_short_over_1k": 0.0007,
+    "gift_p50_change": -11284,
+    "gift_p5_change": -19420
+   },
+   "jan2033_sales": {
+    "p_sold": 0.0,
+    "median_sold": 0,
+    "of_those_paths_gift_would_have_paid_all": 0.0,
+    "median_gift_saved_by_the_sale": 0
+   }
+  },
+  "top-up_vs_strict_paths_where_a_cheque_differs_over_1": 0
+ }
+}

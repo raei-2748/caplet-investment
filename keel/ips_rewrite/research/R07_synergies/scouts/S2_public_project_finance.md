@@ -162,7 +162,7 @@ loss whatever."
 **2. What it is.** The one moment the US government tried to rewrite its own bond promises (1933). The Supreme Court
 said the promise was binding but also said what the promise *protected*: not the metal, but the buying power
 the bondholder could prove he had lost. The case therefore says two things at once: the Treasury cannot rewrite
-a bond, and a holder is only made whole for what the contract actually promised.
+a bond, and a holder is only made whole for what the contract actually promised. **[Window 28 Oct: overstated, partly backwards. Perry v. United States, 294 U.S. 330 (1935, Cornell LII): the Court called the abrogation invalid as applied to the bond, but Perry recovered nothing, because he could not prove loss in buying power. In practice the rewrite stood: "a right with no remedy" (S6 has it right). Never write that the Treasury "cannot rewrite a bond".]**
 
 **3. Critique.** (a) It is a gold-clause case, not a case about ordinary nominal Treasuries; the contract Perry
 held was unusual. (b) The Court's sharp line (cannot repudiate, but damages nil) was widely read as a political

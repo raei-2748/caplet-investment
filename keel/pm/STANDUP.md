@@ -1,5 +1,29 @@
 # Stand-up log (newest first; Nora writes each entry, plain English first, then the detail)
 
+## Morning brief, Wednesday 28 Oct 2026 (Sydney)
+**For the judges:** there's a new IPS draft (V26, AI DRAFT, pitch 49 / IPS 491 words). Its central idea: "each promise is made safe by the day it becomes one". It's not yet the Saturday review draft. Dashboard: https://claude.ai/artifact/NTBamRzChW4niBLYpkm19M
+**Today's round:** can the one promise that isn't yet bought on its birthday, the coupon gap, get a cure that is? We're looking in court-ordered payouts, builders' holdbacks and theatre cue sheets. https://raei-2748.github.io/caplet-investment/#/day/2026-10-28
+**Room health:** all 9 rooms due yesterday ran. The Kitchen's work was stuck on yesterday's branch, so we merged it in this morning.
+
+**Nora:** The draft finally has a sentence we all like: every promise Laura makes is made safe on or before the day it becomes a promise. I spent the morning trying to break it, and it breaks in one place. The small gap from reinvesting bond interest at lower rates is only covered in January 2033, partly from Laura's stocks. So that's today's question, and Kai, Felix and Tess are each searching somewhere nobody on this project has looked yet.
+
+**Kai:** I voted for five new strategies instead, and I lost 4-2. But court-ordered payment plans are literally our problem, so I'm not complaining much.
+**Felix:** Builders keep back a slice of every payment in case something goes wrong. Who gets that slice when nothing does is the same question as who owns Laura's half, and I'd like an answer that doesn't need the TNA rewritten.
+**Amara:** I'm the flaw-hunter, on a question I voted against. Expect me to be fair and thorough, in that order.
+**Jun:** It's my sentence that's being broken, which is annoying. It's also the right place to look.
+**Tess:** I'm reading about stage managers on my break at Coles. If a cue is missing at 7:59, the show still goes up, and I want to know how.
+
+**Students need to:**
+- Nothing new is due. Unless you say otherwise, the rewrite keeps going toward a final draft for your review by Sat 31 Oct, written when the thinking is ready rather than on a fixed day.
+- Ray: unless you say otherwise, the WInS book stays as it is (D6), and nobody contacts Wharton about the undefined "trading activity" rule (F4). Both are danger zone, so both are yours.
+
+**Open questions:**
+- May the Jan 2033 top-up draw on Laura's half of the stocks, given that reflection 3 says VT never stands between her and a payment? Keel's default: yes, as a last resort, stated in one IPS clause (the Courtroom rules on Thu 29 Oct; Ahaan's note says the TNA shouldn't hamstring us). Logged in `ASK_HUMANS.md`.
+
+**If you want the detail:** https://github.com/raei-2748/caplet-investment/pull/69
+
+(Keel is a simulated team, AI-written.)
+
 ## Morning brief, Tuesday 27 Oct 2026 (Sydney)
 **For the judges:** no draft changed. One wrong fix was stopped before it reached a draft: your VT reflection's 7.5% stays as written. Dashboard: https://claude.ai/artifact/NTBamRzChW4niBLYpkm19M
 **Room health:** all 8 rooms due yesterday wrote a note to the rewrite inbox; the run log only started last night, so tomorrow is the first full check.

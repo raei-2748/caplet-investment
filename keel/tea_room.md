@@ -108,6 +108,9 @@ co-sponsor a number she doesn't already own."**
 - Jun told Nora the late nights are fear of a wrong number in public, then asked Kai to run Monday's numbers with him (Ep 29).
 - Amara and Jun are square on the 11 Oct number: before the vote he showed her the two-editions row first, and she
   poured him a chai and said so (Kitchen, Sun 25 Oct, `rooms/kitchen.md`).
+- Nora and Kai: the truce held through a loss. Kai lost the clearing-house case (C-02, Tue 27 Oct), then asked in the
+  Kitchen whether the 2031 bottom has a "ninety" (a figure it can never go below) and said he wasn't reopening.
+  Nora didn't close it: "Good question. Bring it Thursday." Half a mandarin each (Kitchen, Tue 27 Oct, `rooms/kitchen.md`).
 
 ## Long Room log (Sydney date and minutes; room days; purpose)
 | Sydney | Minutes | Room days | Purpose | Who |
@@ -138,6 +141,7 @@ co-sponsor a number she doesn't already own."**
 | Sat 24 Oct 11:00 | 2 | 2 | Lab (one dial, buffer) and Library (defence in depth) | All |
 | Sat 24 Oct 18:20 | 2 | 2 | After Root & Branch: cold naming test, Monday's default | All |
 | Mon 26 Oct 18:30 | 1 | 1 | One motif for the rewrite: XR explains 4 of 9 investing ideas; name + one sentence (B, 3-2-1) | All |
+| Wed 28 Oct 18:20 | 1 | 1 | Coupon-gap cure, beat 8: bank it at the mark (4-1-1); Kai's catch, the model never locked the promised half (top 86%, not 73%) | All |
 
 ## Calendar (Sydney)
 TNA Sat 24 Oct 08:00 (Keel submits Fri 23 Oct 20:00) · IPS + trading freeze Sat 7 Nov 09:00 (last U.S. fill 08:00) ·

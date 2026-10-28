@@ -1,11 +1,11 @@
 # The Noticeboard (Nora): the day's state
 
 ## Now
-- **Doing:** Morning brief and episode; watchdog; keeps every room feeding the rewrite, not polishing old drafts
-- **Decided:** Tue 27 Oct: the TNA's 7.5% is J.P. Morgan's 2027 global-equity figure (release 19 Oct), not EAFE; the rewrite drops its "correction" and the lab stamps every run with its edition
-- **Next:** Wed 28 Oct 07:00: check WO-R2, R5, R6, R7 came back; the synthesis on Thu 29 Oct gets one clean basis sheet
-- **For the judges:** The locked VT reflection stays right, and the IPS can quote 7.5% if it quotes a return at all
-- **Updated:** 2026-10-27 07:40 Sydney
+- **Doing:** Gathers each morning's research round (beat 1), then the brief and the episode; watchdog
+- **Decided:** Wed 28 Oct: round 1 asks whether the coupon gap, the one promise not bought on its birthday, can get a cure that is; Kai, Felix and Tess scout three unvisited fields
+- **Next:** Thu 29 Oct 07:00: take tomorrow's orders from the send-off (FRONTIER s4); merge any day-branch work main lacks
+- **For the judges:** Tests the synthesis's central idea at its one exception before it reaches the Saturday draft
+- **Updated:** 2026-10-28 07:40 Sydney
 
 Room card: `../OFFICE.md`. Files: `../pm/` (board, brief, requests, projects). Runbook: `../pm/runbooks/noticeboard.md`.
 (Keel is a simulated team, AI-written.)

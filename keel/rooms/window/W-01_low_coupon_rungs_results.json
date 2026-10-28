@@ -1,0 +1,61 @@
+[
+ {
+  "rung": "Jan 2041 cheque",
+  "held": {
+   "coupon": 0.0425,
+   "maturity": "2040-11-15",
+   "ytm": 0.0529,
+   "face": 26805,
+   "cost": 24233,
+   "coupon_cash_share": 0.464,
+   "coupons_paid": 15949,
+   "shortfall_if_minus_2pt": 3144
+  },
+  "low_coupon": {
+   "coupon": 0.01375,
+   "maturity": "2040-11-15",
+   "ytm": 0.0529,
+   "face": 39064,
+   "cost": 24233,
+   "coupon_cash_share": 0.219,
+   "coupons_paid": 7520,
+   "shortfall_if_minus_2pt": 1482
+  }
+ },
+ {
+  "rung": "Jan 2042 cheque",
+  "held": {
+   "coupon": 0.03125,
+   "maturity": "2041-11-15",
+   "ytm": 0.0537,
+   "face": 29299,
+   "cost": 22735,
+   "coupon_cash_share": 0.414,
+   "coupons_paid": 13734,
+   "shortfall_if_minus_2pt": 3019
+  },
+  "low_coupon": {
+   "coupon": 0.02,
+   "maturity": "2041-11-15",
+   "ytm": 0.0537,
+   "face": 34430,
+   "cost": 22735,
+   "coupon_cash_share": 0.311,
+   "coupons_paid": 10329,
+   "shortfall_if_minus_2pt": 2270
+  }
+ },
+ {
+  "rung": "zero-coupon reference (STRIPS banned; scale only)",
+  "held": {
+   "coupon": 0.0,
+   "maturity": "2040-11-15",
+   "ytm": 0.0529,
+   "face": 50000,
+   "cost": 24233,
+   "coupon_cash_share": 0.0,
+   "coupons_paid": 0,
+   "shortfall_if_minus_2pt": 0
+  }
+ }
+]

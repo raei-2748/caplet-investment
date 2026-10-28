@@ -1,16 +1,20 @@
 # FICTION (the room and the simulated people) + the real case. Laura's Room
 
 ## Now
-- **Doing:** Pricing the 2031 bottom: how co-sponsors read a range, and what a safety margin costs
-- **Decided:** Don't pad the bottom today; mark it to market in 2031 (cut only by the coupon gap already visible). MODEL: 0 of 200,000 breaks vs 0.11% for a fixed $10k, at a tenth of the cost (Keel's call, replaces D1b's margin)
-- **Next:** Courtroom roasts it against the locked "minimum figure in 2031" (it already survives the joint recession shock: 7 of 200,000); next visit is the fresh draft, Fri 30 Oct
-- **For the judges:** IPS: the 2031 range sentence and the confidence we quote (chance of reaching the top, ~70%); Client Knowledge, Investment Strategy
-- **Updated:** 2026-10-27 15:17 Sydney
+- **Doing:** Round 1 beat 6: reading the Genius Lab's four coupon-gap challengers as a co-sponsor, a judge and a practitioner
+- **Decided:** A fair head-to-head needs yesterday's 2031 mark in both arms. With it, C6 + "the mark carries the cushion" keeps the $145k label, is never broken (0 / 10 / 29 of 200,000), costs the signal 1.4% vs A's 6.6% (MODEL); A sharpened, B and C killed for the IPS, D parked
+- **Next:** Long Room tonight rules A vs C6 + MC; Window fact-checks LR-05; next visit is the fresh draft, Fri 30 Oct
+- **For the judges:** IPS: the 2031 range sentence and slot 7 (how the reserve changes in 2033); Investment Strategy, Client Knowledge (:94-97, :117-120)
+- **Updated:** 2026-10-28 15:40 Sydney
 
 
 > Room card: `../OFFICE.md`. Host: Amara ("What does she feel in a bad year?"). Agents: `case-analyst`,
 > `cosponsor-reader`, `taiwan-researcher` (Taiwan research opens Sun 8 Nov).
 
+> **State (Wed 28 Oct, 15:10 run, round 1 beat 6):** LR-05 (`lauras_room/LR-05_who_pays_the_blind_fifth.md` + `.py` +
+> `_results.json`): L-11's A vs C6 re-run with LR-04's 2031 mark in both arms; C6 + "mark carries the cushion" wins for
+> co-sponsors (defaulter pays first: Laura's spare money, then the bottom, told in 2031). Open: Long Room ruling tonight;
+> Window check of LR-05 (Thu 29 Oct); Archive: is "stocks decide who pays, never whether" inside TNA reflection 3?
 > **State (Tue 27 Oct, 15:10 run):** WO-R7 done and the Window's LR-03 correction answered in LR-04
 > (`lauras_room/LR-04_price_of_a_margin.md` + `.py` + `_results.json`): co-sponsors read the bottom as the bookable
 > number (size moves giving), the top as an intention; a fixed margin is a bad trade; mark the bottom to market in 2031.
@@ -44,3 +48,4 @@
 | Mon 26 Oct | Rewrite spine `00_GROUND_TRUTH.md` s2-s5 + LR-02, L-09 (WO-R4) | Co-sponsor (programme officer) | "Is the bottom pledged or just held?"; "99%" sounds like a model, wants bought vs hoped-for | :110-114; :117-118 | Pledge the floor, conditional on the residency; confidence in two parts (LR-03) |
 | Mon 26 Oct | same | Laura | Hesitates at "pledged" until only the floor is; asks if the bottom can fall 2031-33 (only if raided: D1a) | :102-103; :113-114 | Her half stays hers; D1a decides the leak (LR-03) |
 | Tue 27 Oct | LR-03 + Window N2; R05 S1/S2; D1b; LR-04 model (WO-R7) | Co-sponsor (programme officer), co-sponsor (corporate finance lead), Laura | Bottom = the number for a board paper; a fixed margin below what she owns reads as Laura hedging her own project; "will it move again?"; wants the chance of the top, not "99% inside". Laura: fine, only the floor is pledged | :110-115; :117-119; :101-103 | Mark the bottom to market in 2031, no fixed margin; quote the chance of reaching the top (LR-04) |
+| Wed 28 Oct | Lab L-11 challengers A-D + LR-05 re-run with the 2031 mark (round 1 beat 6) | Co-sponsor (programme officer), judge, clearing-house risk officer | A: "$10k off my board paper in every world"; C6 + mark carrying the cushion: "moves only in 2031, only if her own money can't cover her own cheques: I can book that"; B, C read as cures bigger than the disease | :94-97; :113-120 | C6 + MC to tonight's head-to-head; one clause that the cushion is the first call on Laura's half (LR-05) |

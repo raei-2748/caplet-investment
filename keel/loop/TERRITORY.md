@@ -32,12 +32,12 @@
 | Behavioural finance (mental accounts, reference points) | I-11; R05 #15 | promising | 1 |
 | Market microstructure (off-the-run bonds) | R05 #8 | promising | 1 |
 | Annuities, mortality credits and tontines | | unvisited | |
-| Structured settlements (court-ordered payments on fixed dates) | | unvisited | |
+| Structured settlements (court-ordered payments on fixed dates) | 28 Oct, Kai (round 1): IRC §130(d), the 60-day window ("any obligation of the United States", bought within 60 days of the promise) | promising (deeper question: how a guaranteed minimum is funded when the bonds buy less) | 2 |
 | Municipal bonds: escrowed-to-maturity and pre-refunded bonds | | unvisited | |
 | Project finance: sinking funds and debt-service reserve accounts | | unvisited | |
 | Sovereign wealth funds: stabilisation vs savings funds | | unvisited | |
 | Central-bank reserve management (tranches by purpose) | | unvisited | |
-| Lottery jackpots: annuity vs lump sum | | unvisited | |
+| Lottery jackpots: annuity vs lump sum | 28 Oct, Kai (round 1): OAR 177-098-0060, the prize is "the actual amount purchased", not the advertised one | promising | 1 |
 | The oldest bonds still paying (Dutch water-board perpetuals, consols) | | unvisited | |
 | Family offices and multi-generation goals-based investing | | unvisited | |
 | Real options and staged commitment | R05 #19 (VC staging, reference-class forecasting) | promising | 1 |
@@ -56,7 +56,7 @@
 | Cost disease and the Taiwan dollar | R05 #20 | promising | 1 |
 | Precommitment: Ulysses contracts, commitment devices | | unvisited | |
 | Taiwan: arts residencies, foundations, how cultural venues are funded | | unvisited | |
-| Construction finance: retainage, progress payments, contingencies | | unvisited | |
+| Construction finance: retainage, progress payments, contingencies | 28 Oct, Felix (round 1): securities in lieu of retainage (Cal. PCC §22300); who keeps unused contingency (ConsensusDocs 2023); FAR 52.216-4 escalation | promising (retainage is released on completion, not a date: a deeper question) | 2 |
 | Public budgeting: earmarked funds, rainy-day funds | | unvisited | |
 | Contract law: liquidated damages, "time is of the essence" | | unvisited | |
 
@@ -72,7 +72,7 @@
 | Space missions: launch windows, delta-v budgets, gravity assists | | unvisited | |
 | Clinical trials: pre-registration, stopping rules | L-06 ("Pre-Registered" package) | promising | 1 |
 | ICU and triage: reserves, handovers, early-warning scores | | unvisited | |
-| Theatre: cue sheets, the "go" that cannot be taken back | | unvisited | |
+| Theatre: cue sheets, the "go" that cannot be taken back | 28 Oct, Tess (round 1): tracking and the block (ETC Eos); fix in the programming before the next show (CCSU 2025); the pre-show lamp check (USU) | mined | 2 |
 | Film photography: exposure latitude, the latent image | | unvisited | |
 | Baking and fermentation: proving, starters fed on schedule | | unvisited | |
 | Seed banks and agriculture: storing for a known sowing date | | unvisited | |
@@ -104,5 +104,8 @@ make them do it, the next member in the list takes the job.
 ## Visit log (the Archive adds a row a scout, nightly)
 | Date | Round | Scout | Field | Door they walked through | Finds (verified / total) | Best find, one line | Status after |
 |---|---|---|---|---|---|---|---|
+| Wed 28 Oct | 1 | Kai | Structured settlements + lottery annuities (near) | the phone shop's payment plans | 3 / 3 | §130(d): US law wants a fixed schedule funded with Treasuries bought within 60 days of the promise; became "bought with the first money that can buy it" (2 Jan 2028) in the Long Room's ruling. Zero-coupon funding (K3) is the exact cure, and banned | promising |
+| Wed 28 Oct | 1 | Felix | Construction retainage, contingency, escalation (adjacent) | his mum's audit files | 3 / 3 | Securities in lieu of retainage: the money held back is bought as a security on signing day, still owned by the party it protects; became challenger A (lost 4-1-1, now stepping stone S8) | promising |
+| Wed 28 Oct | 1 | Tess | Theatre cue sheets and the stage manager's "go" (far) | lighting the school play | 3 / 3 | Tracking and the block: one check stops only drift before it; measured by the Lab, 19% of the coupon gap arrives after Jan 2033, which shaped the top-up form | mined |
 
 (Keel is a simulated team, AI-written.)
