@@ -507,3 +507,13 @@ concept placed in the idea bank). Its "no prose" line is superseded by Book 9. W
 - **The risk I'm watching:** V26/V27 dropped two of V25's winning lines (the break point in numbers; the protected note)
   to make room for the birthday rule and the four-failure inventory. A blind panel (V25, V27 and three rivals; three
   judges) is running to see whether that trade was right.
+
+## Thu 29 Oct: fresh eyes on V28, the rooms' first round, V29
+The rooms ran their first research round on V28 overnight (Library, Genius Lab, Laura's Room, Writing Room, Long Room,
+Archive). The one finding that mattered: V28 broke its own headline. "Each promise is made safe no later than the day
+it becomes one" sat beside a coupon gap that could "still trim the gift" after it was named, with the fix waiting until
+2033. Cold readers put that line last. V29 settles the gap in 2031, before the range is spoken, and lets anything spare
+money can't cover come off the quoted bottom, so the rule has no exception. The Archive then earned the best new line by
+test, not argument: wipe out every share and no cheque is worse off, only the gift (600,000 MODEL paths). Both blind
+head-to-head judges advanced V29. The four-failure inventory left the IPS for words; the Final Report gets it whole,
+now with all four doors shut. Web AI detectors are blocked here; a student can run one in a minute.
