@@ -17,6 +17,8 @@ carry the cushion too, and C6 wins on every measure a co-sponsor cares about: th
 underneath is a clearing house's: **the defaulter pays first.** Laura's own spare money stands behind her own
 promise; the co-sponsors' number is touched only where hers runs out, and they are told in 2031, not surprised in 2033.
 
+**Against the newest draft, V28 (main, 28 Oct; `../../ips_rewrite/drafts/D8/ips.txt`).** Two lines meet this run. (1) "So the bottom is the floor she owns, rounded down" has no 2031 mark, and "the one thing that can still trim the gift" is C6 unmarked: the coupon gap can still take the gift below the bottom after it is named (2.2% / 3.3% / 30% of paths, S0 / S1 / S6). With the mark carrying the cushion, the gap trims the bottom once, in 2031, and never the gift after it. (2) "that is what Laura's half, sellable any day, is for" (the building) beside "from leftover cash and Laura's half first" (the cushion) is the double booking; one clause fixes it. Caveat: the 2031 lock (the promised half into Treasuries) is not in L-11's model; the Genius Lab's R10 ran the lock with the cushion (99.25% inside the range).
+
 ## 1. The test (MODEL; $7,500 in every arm; mark = 2031 view of the gap, rounded up to $5k)
 "Mark carries the cushion" (MC) cuts the 2031 bottom by max(gap seen in 2031 + $7,500 - 2027 leftover - Laura's half
 in 2031, 0). Co-sponsor money lost uses LR-04's elasticity (List & Lucking-Reiley seed study, E = 0.94; 0.5 in

@@ -8,7 +8,7 @@ tests built only from the case, never quotes. Full work: `../../rooms/lauras_roo
 breaks it, and costs the co-sponsors' signal about a quarter of what the 2028 holding does (MODEL). So: a bigger
 promise, kept, with Laura's own spare money paying first.
 
-**What changed for the judges.** No draft change today. For Friday's draft: the 2031 range sentence becomes "the bottom
+**What changed for the judges.** No draft change today. The newest draft (V28) still says the coupon gap is "the one thing that can still trim the gift" and quotes the bottom unmarked. For Friday's draft: the 2031 range sentence becomes "the bottom
 is what Laura owns, less anything her cheques might still need that her own spare money can't cover; after that it
 doesn't move", and slot 7 adds one clause, that the $7,500 cushion is the first call on her half and comes back to her.
 
