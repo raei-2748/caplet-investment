@@ -1,15 +1,14 @@
 # Task board (real Caplet work; run by Keel)
 
 Rules: `LOOP.md`. WIP limit 3 in Doing. Priority P = Impact (1-3) x Urgency (1-3); pick 4 or more. Owner = a Keel
-desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Wed 28 Oct 2026, 07:30 (morning run).
+desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Thu 29 Oct 2026, 07:30 (morning run).
 
-**This week's top 3 (Wed 28 Oct - Sun 1 Nov; IPS in 10 days). Groomed Wed 28 Oct 07:30:**
-1. **A final IPS draft for Caplet's review by Sat 31 Oct** (P01; `../ips_rewrite/01_SYNTHESIS.md` and the V26
-   synthesis draft). Book 9 lifted every other timeline rule: draft when the thinking is ready, densely, never padded.
-2. **The research loop, round 1 today** (`../loop/rounds/2026-10-28.md`): can the one promise not yet bought on its
-   birthday, the coupon gap, get a cure that is? Three unvisited fields; every good find lands in `../ips_rewrite/IDEA_BANK.md`.
-3. **Ray's danger-zone items:** D6 (hold the WInS book, Keel's recommendation) and F4 (Wharton's undefined
-   trading-activity rule). Read-only checks by Sat 31 Oct as before.
+**This week's top 3 (Thu 29 Oct - Sun 1 Nov; IPS in 9 days). Groomed Thu 29 Oct 07:30:**
+1. **The final IPS draft for Caplet's review by Sat 31 Oct** (P01; V28 leads, mean 83 with three blind judges).
+   Round 1's cure (bank the coupon gap at the 2031 mark) is the recommended para 9.
+2. **Research round 2 today** (`../loop/rounds/2026-10-29.md`): Book 7's "decision-making framework", the one part no
+   draft states as rules a judge can point to (C13, flaw F7).
+3. **Ray's danger-zone items:** D6 (hold the WInS book) and F4 (the undefined trading-activity rule).
 
 ## Doing
 | ID | Task | Owner | Due | P | Done when | Notes |
@@ -55,6 +54,7 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Wed 28 Oct 202
 ## Done
 | ID | Task | Owner | Done | Output |
 |---|---|---|---|---|
+| SD-N03 | Research round 2 gathered: Q8 the framework; lens 13; sovereign funds, commitment devices, ICU track-and-trigger | Nora | Thu 29 Oct | `keel/loop/rounds/2026-10-29.md` |
 | SD-ARC-05 | Round 1 recorded (territory, champions, frontier, health) and A19 closed by the deletion test | Tess | Wed 28 Oct | `keel/loop/rounds/2026-10-28.md` beat 9; `keel/rooms/archive_checks/A19_delete_vt_test.py` |
 | SD-N02 | Research loop round 1 gathered: Q1 sharpened by the birthday rule; lens 2; settlements, construction retainage, theatre cues | Nora | Wed 28 Oct | `keel/loop/rounds/2026-10-28.md` |
 | N04 | "What the 2027 LTCMA changed" slip | Felix | Wed 28 Oct | Killed: Book 9 says not to anchor on J.P. Morgan's 7.5%, and the IPS carries no return figure |

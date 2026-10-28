@@ -6,6 +6,7 @@
 
 | Date (Sydney) | Room | Output (link) | Score aimed at | Used by (filled later) |
 |---|---|---|---|---|
+| Thu 29 Oct 07:40 | Noticeboard (daily loop) | Round 2 gathered `../loop/rounds/2026-10-29.md` (Q8 the framework; lens 13; three unvisited fields); the Rooftop's 28 Oct send-off merged in from its thread branch; board groomed; brief; ep 33 | IS (W4), N3, N4 | |
 | Wed 28 Oct 20:55 | Rooftop | Beat 10: entry for 27-28 Oct; lesson LS-10 (no IPS paragraph gets more than two beats a round) + LS-06 raised; round 2 orders (Q8 the framework, lens 13; SWF funds / precommitment / ICU track-and-trigger); para 9 request to the Writing Room; middle-row request withdrawn: `../office/outbox/2026-10-28_rooftop_one-sentence-for-nine-beats.md` | IS, N4 | |
 | Wed 28 Oct 19:55 | Archive | Beat 9 record: TERRITORY/FRONTIER/HEALTH/CHAMPIONS filled for round 1; A19 closed by a deletion test (shares wiped: 0 of 600,000 MODEL paths with a cheque worse off; top-up = strict cheque for cheque, so strict dropped); A22 (V28 para 10) and A23 (2028 top-up already in IBTR/IBTO notes) new; bank rows 66-68; inbox note; day merged: `keel/rooms/archive_checks/`, `keel/office/outbox/2026-10-28_archive_delete-the-shares.md` | IS, CK, CP; N3, N4 | |
 | Wed 28 Oct 18:55 | Long Room | Beat 8: flaw hunt on both cures, repair 'bank it at the mark' tested (200,000 paths x 3 worlds, with and without the 2031 lock), 2 blind readers, Keel vote 4-1-1; the shared model never locked the promised half (top 86% vs 73%): `../meetings/2026-10-28_bank-it-at-the-mark.md` | IS, CK, PA; N3, N4 | |

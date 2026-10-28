@@ -46,6 +46,7 @@ Google Doc copy (Drive, 23 Oct): https://docs.google.com/document/d/1wXYUnCznrU2
 | 30 | Mon 26 Oct | [A jar and a margin](2026-10-26_ep30.md) | Kai | light | Edition re-run moves nothing; buffer = a lower quote (0.11% both); Sunday's rule reopened with evidence; floor last, margin quoted (6-0) | Floor last + margin (Keel) | 4bp |
 | 31 | Tue 27 Oct | [Same number, different year](2026-10-27_ep31.md) | Felix | light | Exam morning; the TNA's 7.5% is 2027 world stocks, not 2026 EAFE; stamp every run; no draft before Friday (6-0) | Edition stamp (Keel) | 4bp |
 | 32 | Wed 28 Oct | [The one that isn't bought](2026-10-28_ep32.md) | Nora | light | First research round: the birthday sentence's one exception (the coupon gap) becomes the question; 4-2 over "five new ideas"; three new fields | Round 1 question (Keel) | 4bp |
+| 33 | Thu 29 Oct | [Two tins](2026-10-29_ep33.md) | Amara | light | Round 2: Wharton's "framework"; the gurdwara's two tins; who may take, for what, and when the rule bends | Round 2 question (Keel) | -$224 |
 
 ## Milestones at a glance
 - **Values and culture:** 27 Sep (four values), 17 Oct (value 4 added). `../CULTURE.md`
