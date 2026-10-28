@@ -17,7 +17,7 @@ about 60-90 pieces an hour at best. Collections (memo anthologies, letter compil
 Each entry: **Open / Best / Close** (quoted lines), **Craft** (rhythm, stance, shape), **Steal** (one move worth
 copying), **Insight** (only if there is one). What the entries add up to goes in `SYNTHESIS.md` after every 100.
 
-Count so far: **600**
+Count so far: **639**
 
 ---
 
@@ -1360,6 +1360,70 @@ Batch 19 note: the RBA 2019-2023 run reads as one story in four acts. Patient (5
 soul-searching (572), and the farewell: "we did do too much" (595). The plainer the admission, the more it lands: Lowe's
 plain sentence in 595 beats Bullock's careful conditionals in 574. The essays add two tricks. Twain makes the thesis include
 himself (581). Emerson opens on something he read the other day (580), a small real moment before the big claim.
+
+## Round 2, batch 20 (28 Oct, 17:51-17:54 Sydney): 601-639
+Checked against the log's URL and title list first. Not counted: the RBA's 2018 speech list (used only to find URLs);
+Bullock's "Household Indebtedness and Mortgage Stress" on the RBA site (the same speech as 199, read on bis.org). Quotes
+marked "…" were cut at the reader's 125-character limit. This batch is all RBA, so batch 21 goes back to essays and
+letters.
+
+### 601-610 · RBA 2023, the year after the reckoning · speeches
+| # | Piece | What it shows |
+|---|---|---|
+| 601 | Lowe, remarks at the Board dinner, Perth (May 2023) https://www.rba.gov.au/speeches/2023/sp-gov-2023-05-02.html | "Good evening." Then, on the $100 notes on issue: "I don't have my share and I don't know many people who do." **A self-deprecating joke about a statistic** turns a number into a laugh. Then the serious line: "History teaches us that it is difficult to bring inflation down while keeping the economy on an even keel." |
+| 602 | Lowe, "Reserve Bank Review" (Apr 2023) https://www.rba.gov.au/speeches/2023/sp-gov-2023-04-20.html | Accepting a review of his own bank: "From a number of perspectives, current oversight arrangements fall short of contemporary standards." Then: "But as times change, we need to change too." |
+| 603 | Lowe, "The Reserve Bank Review and Monetary Policy" (Jul 2023) https://www.rba.gov.au/speeches/2023/sp-gov-2023-07-12.html | "High inflation hurts all Australians and damages the functioning of the economy." "Our priority remains to ensure this period of high inflation is only temporary." Plain and safe; nothing to remember. |
+| 604 | Bullock, "A Monetary Policy Fit for the Future" (Nov 2023) https://www.rba.gov.au/speeches/2023/sp-gov-2023-11-22.html | "But as times change, we must change." **Almost word for word Lowe's line in 602**, seven months later. An institution's voice outlives the speaker. |
+| 605 | Bullock, "Monetary Policy in Australia: Complementarities and Trade-offs" (Oct 2023, first speech as Governor) https://www.rba.gov.au/speeches/2023/sp-gov-2023-10-24.html | "Good evening." "Over time, low inflation and full employment go hand in hand." A trade-off that isn't one over the long run: the short-term cost is named, then the long-term match. |
+| 606 | Bullock, "Climate Change and Central Banks" (Aug 2023) https://www.rba.gov.au/speeches/2023/sp-dg-2023-08-29.html | "Climate change, however, is a trend change." Six words; the same trend-versus-cycle line as Debelle in 578, four years on. |
+| 607 | Bullock, "Achieving Full Employment" (Newcastle, Jun 2023) https://www.rba.gov.au/speeches/2023/sp-dg-2023-06-20.html | "Full employment is, and has always been, one of our two main objectives." Grounded in the room: Newcastle's unemployment rate of about 3 per cent. |
+| 608 | Jones, "A Tokenised Future for the Australian Financial System?" (Oct 2023) https://www.rba.gov.au/speeches/2023/sp-ag-2023-10-16.html | **The question mark in the title is the verdict.** "The punchline here is that tokenisation offers some intriguing possibilities, but is not without its challenges" Says "punchline" and then gives one. |
+| 609 | Jones, "Emerging Threats to Financial Stability – New Challenges for the Next Decade" (Oct 2023) https://www.rba.gov.au/speeches/2023/sp-ag-2023-10-31.html | Opens on a curse: "'May you live in interesting times' is a sardonic curse with uncertain origin." Closes on the reply: "But we can be better prepared for whatever might come our way." **F5 in the first and last lines.** |
+| 610 | Kent, "Channels of Transmission" (Oct 2023) https://www.rba.gov.au/speeches/2023/sp-ag-2023-10-11.html | "The cash-flow channel is felt acutely by those with variable-rate debt." Who feels the policy, said in one line. |
+
+### 611-617 · RBA 2020, the rest of the pandemic year · speeches
+| # | Piece | What it shows |
+|---|---|---|
+| 611 | Lowe, remarks to the FINSIA Forum (May 2020) https://www.rba.gov.au/speeches/2020/sp-gov-2020-05-21.html | "We should not expect to see capital buffers be maintained during a once-in-a-century shock." The same lesson as Debelle in 591: a buffer is for spending. |
+| 612 | Lowe, "COVID, Our Changing Economy and Monetary Policy" (Nov 2020) https://www.rba.gov.au/speeches/2020/sp-gov-2020-11-16.html | "2020 has been a year like no other and one we will never forget." A cliché, allowed once, at the top. Then: "with the tools that it has". |
+| 613 | Lowe, "Innovation and Regulation in the Australian Payments System" (Dec 2020) https://www.rba.gov.au/speeches/2020/sp-gov-2020-12-07.html | "There are still gaps that need addressing, but by global standards we have done pretty well." **"Pretty well" from a governor**: Australian understatement as a verdict. |
+| 614 | Debelle, "The Reserve Bank's Policy Actions and Balance Sheet" (Jun 2020) https://www.rba.gov.au/speeches/2020/sp-dg-2020-06-30.html | First line: "Australia is experiencing an historic event." Four words of subject. March 2020: "the dysfunction was such that government bond prices fell (yields rose) at the same time as equity prices were also falling". |
+| 615 | Debelle, "The Australian Economy and Monetary Policy" (Sep 2020) https://www.rba.gov.au/speeches/2020/sp-dg-2020-09-22.html | "My talk today will cover three topics." Then: "Overall, the recovery has not been a rapid bounce but more of a slow grind." **"Slow grind" is the phrase anyone remembers** from a long, careful speech. |
+| 616 | Bullock, "Financial Stability in Uncertain Times" (Oct 2020) https://www.rba.gov.au/speeches/2020/sp-ag-2020-10-27.html | "So financial stability is really when the financial system is doing its job." A term defined in plain words. |
+| 617 | Kent, "Benchmark Reforms" (Nov 2020) https://www.rba.gov.au/speeches/2020/sp-ag-2020-11-17.html | "The end of LIBOR is a certainty." "Fallbacks provide important insurance." Two short lines carry an urgent technical speech. |
+
+### 618-639 · RBA 2018, before the storm · speeches
+| # | Piece | What it shows |
+|---|---|---|
+| 618 | Ellis, "On Lags" (Aug 2018) https://www.rba.gov.au/speeches/2018/sp-ag-2018-08-17.html | Close: "So I'll take no more of yours tonight, and thank you for listening." **A last line about her audience's time, from a speech about time.** "The passage of time needs to be taken seriously in economic inquiry." |
+| 619 | Ellis, "How Infrastructure Fits In" (Jun 2018) https://www.rba.gov.au/speeches/2018/sp-ag-2018-06-15.html | Opens humble: "conscious of the infrastructure expertise in the room." Best: "It is not so much an engine of growth as an enabler of growth." A correction made by swapping one noun. |
+| 620 | Kent, "Money – Born of Credit?" (Sep 2018) https://www.rba.gov.au/speeches/2018/sp-ag-2018-09-19.html | "Most of us would put cold hard cash at the top of our list when we think of money." **Opens with what the reader already believes**, then turns it: "Money can be created, however, when financial intermediaries make loans." |
+| 621 | Debelle, "Lessons and Questions from the GFC" (Dec 2018) https://www.rba.gov.au/speeches/2018/sp-dg-2018-12-06.html | **Lessons as one-liners**: "Leverage might not start the fire, but it will pour petrol on a burning platform." "In a crisis, go fast and go hard." Close: "History does not repeat itself but it often rhymes." |
+| 622 | Debelle, "Risk and Return in a Low Rate Environment" (Mar 2018) https://www.rba.gov.au/speeches/2018/sp-dg-2018-03-16.html | "Investors are not receiving any additional compensation for holding an asset with duration." "Protection against uncertainty is not costless, and so detracts from already low returns." A punk-band aside. Close: "But I think there is a higher probability of being proven correct this time." |
+| 623 | Debelle, remarks at the Walkley Business Journalism Award (Oct 2018) https://www.rba.gov.au/speeches/2018/sp-dg-2018-10-22.html | **The funniest speech in the RBA run**: "There are so many black swans identified each day that we may as well all be living in Perth." (Black swans are native to Western Australia.) Advice to journalists: "Pin people down; get them to commit!" |
+| 624 | Lowe, "Trust and Prosperity" (Nov 2018) https://www.rba.gov.au/speeches/2018/sp-gov-2018-11-20.html | "Finance is all about trust." Four words, then the speech. |
+| 625 | Lowe, remarks to the A50 Dinner (Feb 2018) https://www.rba.gov.au/speeches/2018/sp-gov-2018-02-08.html | "After all, the laws of supply and demand still work." A dry "after all" does the joke. |
+| 626 | Ellis, "Three Questions About the Outlook" (Feb 2018) https://www.rba.gov.au/speeches/2018/sp-ag-2018-02-13.html | The structure is the title: three questions, each a short sentence. Best: "The past and present are never completely clear; the future is even less so." **F6 in one line, then she gets on with it.** |
+| 627 | Debelle, "Twenty-five Years of Inflation Targeting in Australia" (Apr 2018) https://www.rba.gov.au/speeches/2018/sp-dg-2018-04-12.html | "Practice was very much ahead of theory." "The proof of the pudding has been in the eating." A proverb used straight, as Ellis did in 562. |
+| 628 | Lowe, remarks at the Board dinner, Perth (Sep 2018) https://www.rba.gov.au/speeches/2018/sp-gov-2018-09-04.html | Local detail again (St Georges Terrace; the new $50 note honouring Edith Cowan). "you could expect the next move in interest rates to be up, not down." The next move was down, in June 2019; read with 573 and 572. |
+| 629 | Lowe, remarks at the Board dinner, Adelaide (May 2018) https://www.rba.gov.au/speeches/2018/sp-gov-2018-05-01.html | "Perhaps more importantly, sustained low wages growth diminishes the sense of shared prosperity that we have in Australia." A feeling named in a dinner speech. |
+| 630 | Debelle, "Low Inflation" (Aug 2018) https://www.rba.gov.au/speeches/2018/sp-dg-2018-08-22.html | First line: "The inflation rate is currently just over 2 per cent (Graph 1)." Starts on the number. "Rising tobacco prices have been the single largest contributor to headline inflation for some time now" A surprising fact does the work. |
+| 631 | Kent, "The Limits of Interest-only Lending" (Apr 2018) https://www.rba.gov.au/speeches/2018/sp-ag-2018-04-24.html | "Other things equal, interest-only loans can carry greater risks compared with principal-and-interest (P&I) loans." Careful, and forgettable. |
+| 632 | Bullock, "The Evolution of Household Sector Risks" (Albury, Sep 2018) https://www.rba.gov.au/speeches/2018/sp-ag-2018-09-10.html | "Australians borrow not only to finance their own homes but also to invest in housing as an asset." Ends on regional Australia, for the room. |
+| 633 | Kent, "US Monetary Policy and Australian Financial Conditions" (Dec 2018) https://www.rba.gov.au/speeches/2018/sp-ag-2018-12-10.html | "As a result, Australians are net owners of foreign currency assets, not borrowers." Explains hedging through one worker renting out her New York apartment. **One person makes the mechanism visible.** |
+| 634 | Lowe, "The Changing Nature of Investment" (Mar 2018) https://www.rba.gov.au/speeches/2018/sp-gov-2018-03-07.html | "comparative advantage is just as likely to be built, as it is to come from endowments." |
+| 635 | Debelle, "The State of the Labour Market" (Oct 2018) https://www.rba.gov.au/speeches/2018/sp-dg-2018-10-17.html | "The important issue is whether there are enough jobs generating enough hours that people want to work." Questions the idea that a full-time job is always better. |
+| 636 | Lowe, "A Journey Towards a Near Cashless Payments System" (Nov 2018) https://www.rba.gov.au/speeches/2018/sp-gov-2018-11-26.html | "But it looks like a turning point has been reached." "Banknotes are therefore an important emergency or back-up payment instrument." |
+| 637 | Ellis, "Supporting Growth in the Short Run and the Long Run" (Oct 2018) https://www.rba.gov.au/speeches/2018/sp-ag-2018-10-11.html | "Growth is not something that is bestowed upon a nation by external forces." "Scarcity mentality is all about hunkering down and defending what you have." |
+| 638 | Lowe, "Australia's Deepening Economic Relationship with China: Opportunities and Risks" (May 2018) https://www.rba.gov.au/speeches/2018/sp-gov-2018-05-23.html | "Among the largest economic risks that Australia faces is something going wrong in China." The biggest risk named in a plain line. |
+| 639 | Kent, "Some Features of the Australian Fixed Income Market" (Tokyo, Jun 2018) https://www.rba.gov.au/speeches/2018/sp-ag-2018-06-06.html | "Spreads reflect an assessment of risk." Five words. |
+
+Batch 20 note: the best lines in forty RBA speeches are jokes or confessions told against the speaker's own
+institution: black swans in Perth (623), the missing $100 notes (601), "we have done pretty well" (613). The
+institution's own voice repeats itself ("as times change", 602 and 604), so a phrase that belongs to one person stands
+out. Ellis ends a speech about lags by giving the audience its time back (618): the last line is about the room, which
+is synthesis 4's fix for weak closes. Lowe's "up, not down" (628) is the 2018 entry in the record of forecast misses
+(573, 572, 595).
 
 ### Re-reads in batch 4 (not counted)
 Fourteen pieces in this batch had already been logged (the batch's source list was wrong). They are kept here
