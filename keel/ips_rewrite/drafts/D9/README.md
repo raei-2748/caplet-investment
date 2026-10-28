@@ -26,3 +26,4 @@ Fresh-eyes pass on V28 plus the rooms' first research round (`../../inbox/2026-1
   to show the portfolio's shape ("about one dollar in fifteen" in stocks after 2028; R06: 6.5-7.1% at market value,
   MODEL); the first-plan line shortened to pay for it. Not applied: the professor's wish to bring back the four-failure
   inventory ("shuts all four"), for lack of words; it stays a Final Report section (IDEA_BANK #32).
+- **29 Oct rules check:** pitch cut to 48 (SMApply's word counting is unknown): "maturing" -> "due", "the day she names it" -> "once she names it", "buy them first" -> "buy them".
