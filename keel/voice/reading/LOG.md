@@ -17,7 +17,7 @@ about 60-90 pieces an hour at best. Collections (memo anthologies, letter compil
 Each entry: **Open / Best / Close** (quoted lines), **Craft** (rhythm, stance, shape), **Steal** (one move worth
 copying), **Insight** (only if there is one). What the entries add up to goes in `SYNTHESIS.md` after every 100.
 
-Count so far: **765**
+Count so far: **801**
 
 ---
 
@@ -1641,6 +1641,67 @@ and the model for numbers: arithmetic said calmly is the most forceful voice the
 should be stated flat and never decorated. Closes keep getting shorter and better ("She is dead.", 765; "Pshaw!",
 748). Belloc's Muse (765) also diagnoses AI prose exactly: "single lines, tags, fine phrases … are no sign whatever of
 returning health".
+
+## Round 2, batch 25 (28 Oct, 23:42-23:47 Sydney): 766-801
+Checked against the log's URL and title list first. All from Quotidiana (https://essays.quotidiana.org/), read whole;
+Bacon is read here at last (Gutenberg gave only an introduction in batch 18). Not counted: seven author index pages
+(Bacon, Goldsmith, Steele, Chesterton, Stevenson, Leigh Hunt, Barbellion; used only to find URLs); Chesterton's "A Piece
+of Chalk" and Stevenson's "An Apology for Idlers" and "Crabbed Age and Youth" (already 534, 528, 554). Quotes marked "…"
+were cut at the reader's 125-character limit.
+
+### 766-777 · Bacon, Goldsmith, Steele · essays
+| # | Piece | Open | Best line | Close | Craft |
+|---|---|---|---|---|---|
+| 766 | Bacon, "Of Truth" (1625) https://essays.quotidiana.org/bacon/truth/ | "What is truth? said jesting Pilate, and would not stay for an answer." | "There is no vice, that doth so cover a man with shame, as to be found false and perfidious." | "Surely the wickedness of falsehood, and breach of faith, cannot possibly be so highly expressed…" | **Thirteen words, a scene and a joke**: Pilate asks and walks off. The most quoted first line in English essays. |
+| 767 | Bacon, "Of Studies" (1625) https://essays.quotidiana.org/bacon/studies/ | "Studies serve for delight, for ornament, and for ability." | "Reading maketh a full man; conference a ready man; and writing an exact man." | "So every defect of the mind, may have a special receipt." | The triad done right: each part earns its place, and the essay is mostly triads. "Crafty men condemn studies, simple men admire them, and wise men use them;" |
+| 768 | Bacon, "Of Vicissitude of Things" (1625) https://essays.quotidiana.org/bacon/vicissitude_of_things/ | "Solomon saith, There is no new thing upon the earth." | "Certain it is, that the matter is in a perpetual flux, and never at a stay." | "As for the philology of them, that is but a circle of tales, and therefore not fit for this writing." | **The close dismisses the rest of the subject as gossip**: an ending that refuses to go on. |
+| 769 | Bacon, "Of Praise" (1625) https://essays.quotidiana.org/bacon/praise/ | "Praise is the reflection of virtue; but it is as the glass or body which giveth the reflection." | "Certainly fame is like a river, that beareth up things light and swoln, and drowns things weighty and solid." | "St. Paul, when he boasts of himself, he doth oft interlace, I speak like a fool; but speaking of his calling…" | "Too much magnifying of man or matter doth irritate contradiction" (a note for every IPS adjective). |
+| 770 | Bacon, "Of Simulation and Dissimulation" (1625) https://essays.quotidiana.org/bacon/simulation_and_dissimulatio/ | "Dissimulation is but a faint kind of policy, or wisdom; for it asketh a strong wit, and a strong heart, to know when to tell…" | "For he that talketh what he knoweth, will also talk what he knoweth not." | "The best composition and temperature, is to have openness in fame and opinion; secrecy in habit…" | "Therefore it is the weaker sort of politics, that are the great dissemblers." |
+| 771 | Bacon, "Of Atheism" (1625) https://essays.quotidiana.org/bacon/atheism/ | "I had rather believe all the fables in the Legend, and the Talmud, and the Alcoran…" | "none deny there is a God, but those for whom it maketh that there were no God." | "But in our piety, and in our religion, and in our recognition of the one great truth…" | The argument by motive: people believe what suits them. |
+| 772 | Goldsmith, "A City Night-Piece" (Citizen of the World) https://essays.quotidiana.org/goldsmith/city_night_piece/ | "The clock has just struck two, the expiring taper rises and sinks in the socket, the watchman forgets the hour in slumber…" | "Tenderness, without a capacity of relieving, only makes the man who feels it more wretched…" | "Adieu." | **F1 in the first clause: the time, a candle, a sleeping watchman.** One-word close. |
+| 773 | Goldsmith, "The Sagacity of Certain Insects" https://essays.quotidiana.org/goldsmith/sagacity_of_certain/ | "Animals in general are sagacious in proportion as they cultivate society." | "Of all the solitary insects I have ever remarked, the spider is the most sagacious," | "As they grow old, however, they do not still continue to increase, but their legs only continue to grow longer…" | A naturalist's report on one spider he watched for days. |
+| 774 | Goldsmith, "Sights and Monsters" (Citizen of the World) https://essays.quotidiana.org/goldsmith/sights_and_monsters/ | "Though the frequent invitations I receive from men of distinction here might excite the vanity of some,…" | "From the highest to the lowest, this people seem fond of sights and monsters." | "nay, I am even apt to fancy, that ladies would find more real pleasure in this utensil in private…" | An outsider's report on the English, so their habits look strange. |
+| 775 | Steele, "On the Death of Friends" (Tatler No. 181, 1710) https://essays.quotidiana.org/steele/death_of_friends/ | "There are those among mankind who can enjoy no relish of their being, except the world is made acquainted…" | "Nor age, nor business, nor distress, can erase the dear image from my imagination." | "…we had much more reason to recollect than forget what had passed the night before." | **His father's death, remembered from age five**, then friends come to dinner. Grief undercut by company. |
+| 776 | Steele, "Twenty-four Hours in London" (Spectator No. 454, 1712) https://essays.quotidiana.org/steele/twentyfour_hours_in_london/ | "It is an inexpressible pleasure to know a little of the world, and be of no character or significancy in it." | "I, indeed, looked upon myself as the richest man that walked the Exchange that day;" | "This one circumstance will make every face you see give you the satisfaction you now take in beholding that of a friend;…" | One day, hour by hour. The richest man on the Exchange owns nothing; he only watches. |
+| 777 | Steele, "Love Letters" https://essays.quotidiana.org/steele/love_letters/ | "The Suspension of the Playhouse has made me have nothing to send you from hence; but calling here this Evening, I found …" | "Writing has lost more Mistresses than any one Mistake in the whole Legend of Love." | "She said, She Knew she ought to have taken Constant; but believed, she should have chosen Careless." | The close is a pun on two suitors' names. |
+
+### 778-794 · Chesterton, Stevenson, Meynell, Alexander Smith, Huxley, Repplier · essays
+| # | Piece | What it shows |
+|---|---|---|
+| 778 | Chesterton, "On Lying in Bed" (Tremendous Trifles, 1909) https://essays.quotidiana.org/chesterton/lying_in_bed/ | "Lying in bed would be an altogether perfect and supreme experience if only one had a coloured pencil long enough…" A ridiculous wish as the first line, then a real argument about moralism. |
+| 779 | Chesterton, "On Running After One's Hat" (All Things Considered, 1908) https://essays.quotidiana.org/chesterton/running_after_ones_hat/ | **"An adventure is only an inconvenience rightly considered. An inconvenience is only an adventure wrongly considered."** A chiasmus that reframes every setback. Opens: "I feel an almost savage envy on hearing that London has been flooded in my absence…" |
+| 780 | Stevenson, "A Chapter on Dreams" (1888) https://essays.quotidiana.org/stevenson/chapter_on_dreams/ | "Not an hour, not a mood, not a glance of the eye, can we revoke; it is all gone, past conjuring." His "Brownies" write his stories in his sleep: the self-mocking reveal of where his plots come from. |
+| 781 | Stevenson, "On the Enjoyment of Unpleasant Places" (1874) https://essays.quotidiana.org/stevenson/enjoyment_of_unpleasant/ | "We see places through our humours as through differently coloured glasses." |
+| 782 | Stevenson, "The Philosophy of Umbrellas" https://essays.quotidiana.org/stevenson/philosophy_of_umbrellas/ | "The umbrella has become the acknowledged index of social position." Mock-philosophy of a household object (with Morley's safety pin, 751). |
+| 783 | Stevenson, "Father Damien: An Open Letter to the Reverend Dr Hyde" (1890) https://essays.quotidiana.org/stevenson/father_damien/ | **Anger, controlled.** Opens icily: "Sir,—It may probably occur to you that we have met, and visited, and conversed; on my side, with interest." Takes the critic's charges one at a time. "It is not the hangman, but the criminal, that brings dishonour on the house." |
+| 784 | Meynell, "Rain" https://essays.quotidiana.org/meynell/rain/ | "Not excepting the falling stars—for they are far less sudden—there is nothing in nature that so outstrips our unready eyes…" |
+| 785 | Meynell, "The Spirit of Place" https://essays.quotidiana.org/meynell/spirit_of_place/ | "The bell, like the bird, is a musician pestered with literature." A joke at poets' expense, by a poet. |
+| 786 | Meynell, "Symmetry and Incident" https://essays.quotidiana.org/meynell/symmetry_and_incident/ | "Man is Greek without and Japanese within." Six words. |
+| 787 | Meynell, "The Colour of Life" https://essays.quotidiana.org/meynell/colour_of_life/ | "Red has been praised for its nobility as the colour of life." Then the correction: "Red is the secret of life, and not the manifestation thereof." |
+| 788 | Alexander Smith, "Dreamthorp" (1863) https://essays.quotidiana.org/smith_a/dreamthorp_essay/ | "Time has fallen asleep in the afternoon sunshine." "Human hearts get ruinous in so much less time than stone walls and towers." Close: "Here I play with my own thoughts; here I ripen for the grave." |
+| 789 | Alexander Smith, "On Vagabonds" (1863) https://essays.quotidiana.org/smith_a/vagabonds/ | **"Nature makes us vagabonds, the world makes us respectable."** Close: "Suppose we try "standing at ease" for a little!" |
+| 790 | Huxley, "The Keepers of the Swine" (1890) https://essays.quotidiana.org/huxley/keepers_of_the_swine/ | A controversy with Gladstone. "I can discern no escape from this dilemma; either Jesus said what he is reported to have said, or he did not." The dilemma stated flat, the opponent left to choose. |
+| 791 | Repplier, "Trials of a Publisher" https://essays.quotidiana.org/repplier/trials_of_a_publisher/ | "Genius flourishes like the mountain oak when it can strike root in the money-boxes of less gifted friends." Close: "'Let me at least be insulted by a genius!'" |
+| 792 | Alexander Smith, "Books and Gardens" (1863) https://essays.quotidiana.org/smith_a/books_and_gardens/ | "I am a sovereign in my library, but it is the dead, not the living, that attend my levees." |
+| 793 | Repplier, "Travellers' Tales" https://essays.quotidiana.org/repplier/travellers_tales/ | **"They record the impression of a careless hour as though it were the experience of a lifetime."** "Nine quiet men were, for Amboise, something in the nature of a mob." |
+| 794 | Meynell, "Wells" https://essays.quotidiana.org/meynell/wells/ | "Without anxiety, without haste, and without misgiving are all great things to be done…" |
+
+### 795-801 · Barbellion and Leigh Hunt · diary and essays
+| # | Piece | What it shows |
+|---|---|---|
+| 795 | Barbellion, "An Average Day" (The Journal of a Disappointed Man, 1919) https://essays.quotidiana.org/barbellion/an_average_day/ | A diary entry where war and earthquakes are small talk at lunch. Close: "'An earthquake must be a dreadful thing,' she gently piped, as she abstractedly dealt out the cards …" The big event shrunk by the setting. |
+| 796 | Barbellion, "Living Now in Rooms Alone" (1919) https://essays.quotidiana.org/barbellion/living_now_in_rooms_alone/ | A dying young naturalist. "Internal chaos I have, but no dancing star." Close: "I will keep my claws sharp and fight to the end." |
+| 797 | Leigh Hunt, "Upon Indexes" https://essays.quotidiana.org/hunt/indexes/ | "Indexing has been held to be the driest as well as lowest species of writing." Then quotes index entries as comedy: "Love-letters between Mr. Bickerstaff and Maria, 184–186. Found in a grave, 289." **The driest form, read aloud, is funny.** |
+| 798 | Leigh Hunt, "On the Graces and Anxieties of Pig-Driving" https://essays.quotidiana.org/hunt/graces_and_anxieties/ | Mock-heroic. "The pigs did not exult, but they knew their king." |
+| 799 | Leigh Hunt, "Walks Home by Night" https://essays.quotidiana.org/hunt/walks_home_by_night/ | "The readers of these our fourpenny lucubrations need not be informed that we keep no carriage." Opens on what he can't afford. |
+| 800 | Leigh Hunt, "Thoughts and Guesses on Human Nature" https://essays.quotidiana.org/hunt/thoughts_and_guesses/ | "Of all impositions on the public, the greatest seems to be death." |
+| 801 | Leigh Hunt, "The Maid-Servant" https://essays.quotidiana.org/hunt/maid-servant/ | "Must be considered as young, or else she has married the butcher, the butler, or her cousin…" **Opens without a subject**: the title is the subject of the first sentence. |
+
+Batch 25 note: 800 passed. Bacon's first lines (766, 767, 768) are the model for a pitch: a scene or a claim in under
+fifteen words, then nothing wasted. Stevenson's open letter (783) is the best answer to a critic in the log: icy
+politeness, then the charges one by one. Leigh Hunt shows that the driest form, an index, turns funny read aloud (797),
+which is a hint for the Final Report's appendices. Repplier names a trap for every Trading Note: recording "the
+impression of a careless hour as though it were the experience of a lifetime" (793).
 
 ### Re-reads in batch 4 (not counted)
 Fourteen pieces in this batch had already been logged (the batch's source list was wrong). They are kept here
