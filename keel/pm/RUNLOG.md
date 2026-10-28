@@ -6,6 +6,7 @@
 
 | Date (Sydney) | Room | Output (link) | Score aimed at | Used by (filled later) |
 |---|---|---|---|---|
+| Thu 29 Oct 10:45 | Trading Desk (markets and rules check) | No breach; near-breaches: D8 pitch at exactly 50 words, school-letter request unconfirmed, trading-activity question open; T-bills closed; no curve after 22 Oct: `../office/checks/2026-10-29.md` | IS, CP | |
 | Thu 29 Oct 09:40 | Window | Beat 2 gate: 12/12 round-1 quotes verified, K1 and F3 "so"s overstated, 2 number labels fixed, A19/LR8/L-11/LR-05 re-run identical; own find W-02 Basel buffer table for Q8 (bank #69); N1 "$300,000 buys them" still in D8: `../office/outbox/2026-10-29_window_the-buffer-table.md` | IS, PA, N4 | |
 | Thu 29 Oct 07:40 | Noticeboard (daily loop) | Round 2 gathered `../loop/rounds/2026-10-29.md` (Q8 the framework; lens 13; three unvisited fields); the Rooftop's 28 Oct send-off merged in from its thread branch; board groomed; brief; ep 33 | IS (W4), N3, N4 | |
 | Wed 28 Oct 20:55 | Rooftop | Beat 10: entry for 27-28 Oct; lesson LS-10 (no IPS paragraph gets more than two beats a round) + LS-06 raised; round 2 orders (Q8 the framework, lens 13; SWF funds / precommitment / ICU track-and-trigger); para 9 request to the Writing Room; middle-row request withdrawn: `../office/outbox/2026-10-28_rooftop_one-sentence-for-nine-beats.md` | IS, N4 | |
