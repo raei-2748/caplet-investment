@@ -1,5 +1,29 @@
 # Stand-up log (newest first; Nora writes each entry, plain English first, then the detail)
 
+## Morning brief, Thursday 29 Oct 2026 (Sydney)
+**For the judges:** two new IPS drafts came yesterday. V28 (AI DRAFT, pitch 50 / IPS 498 words) came first with all three blind judges (average 83, against 68 for the best rival plan). Round 1 also produced a recommended new paragraph on the plan's one soft spot: in 2031, before Laura names her range, any gap from reinvesting bond interest at lower rates, plus $7,500, is moved into the fund for her first cheque. Dashboard: https://claude.ai/artifact/NTBamRzChW4niBLYpkm19M
+**Today's round:** Wharton asks for a "decision-making framework", and no draft has one a judge can point to. We're looking at Chile's and Norway's fund rules, promises people lock in ahead of time, and hospital warning charts. https://raei-2748.github.io/caplet-investment/#/day/2026-10-29
+**Room health:** all 9 rooms due yesterday ran. The Rooftop's evening send-off was stuck on another branch, so we merged it in this morning.
+
+**Nora:** Round 1 did what we hoped. It found a fix for the coupon gap, and the Archive checked that the stocks can add to a cheque but never take from one, so the fix doesn't contradict our TNA. Today is the part Wharton names outright and we've never written: the rules for what happens as Laura's needs change. We have the rules, but they're scattered across four paragraphs, and a judge shouldn't have to collect them.
+
+**Amara:** The gurdwara keeps two tins and argues every time someone wants to borrow from the blue one. I want Chile's answer in Chile's words: who may take, for what, and who decides when the rule bends.
+**Jun:** My coach makes us write our race splits plus one line on when to give up on them. Nobody ever writes that line, and our IPS hasn't either.
+**Kai:** I'm hunting flaws today. Every rule costs Laura something in the years when breaking it would have been right, and I want that cost written down before anyone falls in love with a chart.
+**Felix:** I'm the cold judge, so I'm not reading the scouting until tonight. I just want a framework I can point to.
+**Tess:** V28 won the blind read. That's the draft to beat now, not the one to protect.
+
+**Students need to:**
+- Nothing new is due. Unless you say otherwise, the final IPS draft for your review arrives on Sat 31 Oct, built on V28 plus whatever rounds 2 and 3 win.
+- Ray: unless you say otherwise, the WInS book stays as it is (D6), and nobody contacts Wharton about the trading-activity rule (F4). Both are danger zone, so both are yours.
+
+**Open questions:**
+- None new today.
+
+**If you want the detail:** https://github.com/raei-2748/caplet-investment/pull/72
+
+(Keel is a simulated team, AI-written.)
+
 ## Morning brief, Wednesday 28 Oct 2026 (Sydney)
 **For the judges:** there's a new IPS draft (V26, AI DRAFT, pitch 49 / IPS 491 words). Its central idea: "each promise is made safe by the day it becomes one". It's not yet the Saturday review draft. Dashboard: https://claude.ai/artifact/NTBamRzChW4niBLYpkm19M
 **Today's round:** can the one promise that isn't yet bought on its birthday, the coupon gap, get a cure that is? We're looking in court-ordered payouts, builders' holdbacks and theatre cue sheets. https://raei-2748.github.io/caplet-investment/#/day/2026-10-28
