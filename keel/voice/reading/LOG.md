@@ -17,7 +17,7 @@ about 60-90 pieces an hour at best. Collections (memo anthologies, letter compil
 Each entry: **Open / Best / Close** (quoted lines), **Craft** (rhythm, stance, shape), **Steal** (one move worth
 copying), **Insight** (only if there is one). What the entries add up to goes in `SYNTHESIS.md` after every 100.
 
-Count so far: **830**
+Count so far: **870**
 
 ---
 
@@ -1752,6 +1752,73 @@ Write English" (803) shows the gap: a forty-word first sentence about writing we
 nothing happened (Wollstonecraft, 816), and returning to a person met in the first paragraph (Tomlinson, 815).
 Debelle's "if you understood what I said, I must have misspoken" (808) is the same move as his black swans (623): the
 joke is on his own trade.
+
+## Round 2, batch 27 (29 Oct, 02:14-02:19 Sydney): 831-870
+Checked against the log's URL and title list first; none of these were there. Essays from Quotidiana
+(https://essays.quotidiana.org/), read whole; RBA 2017 speeches for the modern side. Not counted: eight Quotidiana
+author index pages (Howells, Benson, Montaigne, Colton, Zitkala-Sa, Temple, Eliot, Lee) and the RBA's 2017 list page,
+used only to find URLs. Montaigne's "Of experience" (838) is long and was read in two passes. Quotes marked "…" were cut
+at the reader's 125-character limit.
+
+### 831-847 · Montaigne, Essays (Cotton's translation) · seventeen essays
+| # | Piece | What it shows |
+|---|---|---|
+| 831 | "That men should not judge of our happiness till after our death" https://essays.quotidiana.org/montaigne/that_men_should_not_judge/ | Opens on Croesus and Solon's maxim, then piles up great men undone at the end. "I have seen many by their death give a good or an ill repute to their whole life." **The last act judges the whole run.** |
+| 832 | "That the profit of one man is the damage of another" https://essays.quotidiana.org/montaigne/that_the_profit_of_one_man/ | "A physician takes no pleasure in the health even of his friends". A one-page essay: an anecdote, a list of trades, a turn on the reader's own secret wishes. |
+| 833 | "To the reader" https://essays.quotidiana.org/montaigne/to_the_reader/ | "Reader, thou hast here an honest book…" "for it is myself I paint." Close: **"Therefore farewell."** Two words. |
+| 834 | "Of thumbs" https://essays.quotidiana.org/montaigne/thumbs/ | A string of thumb facts that stops on a Spartan teacher biting a pupil's thumb. No moral drawn; the stop is the joke. |
+| 835 | "That men by various ways arrive at the same end" https://essays.quotidiana.org/montaigne/that_men_by_various_ways/ | Sets up a claim (courage wins mercy as well as submission does), proves it twice, then breaks it with Alexander at Thebes. "Man (in good earnest) is a marvellous vain, fickle, and unstable subject". **He lets his own evidence beat him.** |
+| 836 | "Of idleness" https://essays.quotidiana.org/montaigne/idleness/ | Fallow land grows weeds; so does a mind with nothing to do. "He who lives everywhere, lives nowhere." He writes his fancies down "hoping in time to make it ashamed of itself." |
+| 837 | "That to study philosophy is to learn to die" https://essays.quotidiana.org/montaigne/that_to_study_philosophy/ | "The premeditation of death is the premeditation of liberty". A list of absurd deaths (a tile, a grape stone) to show that danger hastens death very little. Advice: keep your affairs in order and be ready to leave. |
+| 838 | "Of experience" https://essays.quotidiana.org/montaigne/experience/ | "There is no desire more natural than that of knowledge." "Never did two men make the same judgment of the same thing". Late: "Have you known how to meditate and manage your life? you have performed the greatest work of all." "We are all wind throughout." |
+| 839 | "Of repentance" https://essays.quotidiana.org/montaigne/repentance/ | "Others form man; I only report him…" **"I do not paint its being, I paint its passage;"** He judges a past decision by what he knew when he made it, not by how it turned out. Close: "I am content the world may know, when I am fallen, from what I fell." |
+| 840 | "Of the parsimony of the ancients" https://essays.quotidiana.org/montaigne/parsimony_of_the_ancients/ | F4 in miniature: Regulus's farmhand runs off with his tools, so the Senate makes his losses good; Cato never wore a gown "that cost above ten crowns". Small sums carry the whole argument. |
+| 841 | "Tomorrow's a new day" https://essays.quotidiana.org/montaigne/tomorrows_a_new_day/ | A man sets aside an urgent letter: "Business tomorrow." Then leaders who lost a city or a life by putting the news off. The essay ends conceding that no rule can be exact. |
+| 842 | "That we taste nothing pure" https://essays.quotidiana.org/montaigne/we_taste_nothing_pure/ | "Man is wholly and throughout but patch and motley." Argues that overthinking stalls a decision: better to handle affairs "more superficially and roughly" and "leave a great part to fortune." |
+| 843 | "Of liars" https://essays.quotidiana.org/montaigne/liars/ | F6: opens confessing he has scarcely any memory. **"There are a thousand ways to miss the white, there is only one to hit it."** "We are not men, nor have other tie upon one another, but by our word." |
+| 844 | "That our mind hinders itself" https://essays.quotidiana.org/montaigne/that_our_mind_hinders_itself/ | A thought experiment (a mind balanced exactly between two desires) in a page. Close: "It is only certain that there is nothing certain, and that nothing is more miserable or more proud than man." |
+| 845 | "All things have their season" https://essays.quotidiana.org/montaigne/all_things_have_their_season/ | "we are always re-beginning to live." "A man may always study, but he must not always go to school". The young prepare; the old enjoy what they prepared. |
+| 846 | "Use makes perfect" https://essays.quotidiana.org/montaigne/use_makes_perfect/ | His fall from a horse as a rehearsal for death: "we can experiment it but once, and are all apprentices when we come to it." F5: the dread was worse than the thing. |
+| 847 | "That the intention is judge of our actions" https://essays.quotidiana.org/montaigne/that_the_intention_is_judge/ | Opens by quoting a saying and then testing it: "'Tis a saying, "That death discharges us of all our obligations."" **"We cannot be bound beyond what we are able to perform"**. Close: his death will "discover nothing that my life has not first and openly declared." |
+
+### 848-861 · Benson, Howells, Colton, Temple, Zitkala-Sa, Eliot, Vernon Lee · essays
+| # | Piece | What it shows |
+|---|---|---|
+| 848 | Benson, "The Art of the Essayist" https://essays.quotidiana.org/benson/art_of_the_essayist/ | Opens on a sign-painter who judges a sign by whether it looks home-made. "a certain discreet shamelessness must always be the characteristic of the essayist," |
+| 849 | Benson, "Experience" https://essays.quotidiana.org/benson/experience/ | Good advice falls on the young "like a cataract of ice-cold water". Against putting life off until money and position are secured. Close: "It must have a heart of flame." |
+| 850 | Benson, "Ideas" https://essays.quotidiana.org/benson/ideas/ | Great ideas arrive like "a waft of fragrance". Long, gentle, and it sorts more than it says. |
+| 851 | Howells, "I Talk of Dreams" https://essays.quotidiana.org/howells/i_talk_of_dreams/ | "But it is mostly my own dreams I talk of, and that will somewhat excuse me for talking of dreams at all." **The first word is "But"**: he answers an objection before anyone makes it. Close: "my battlehorse among dreams, and I think I will ride away on it." |
+| 852 | Colton, "On Writing" https://essays.quotidiana.org/colton/writing/ | "It is extremely easy to be as egotistical as Montaigne, and as conceited as Rousseau;" (read after 17 Montaignes, fair). A spoken error cannot be taken back; a written one can be fixed "without humiliation." Close: "Affectation is the cause of this error, disgust its consequence, and disgrace its punishment." |
+| 853 | Colton, "War and Warriors" https://essays.quotidiana.org/colton/war_and_warriors/ | Sardonic triplets to the last line: "a drum, or a despot: a trumpet, or a tyrant: a fife, or a fool." A warning: the pattern shows. |
+| 854 | Temple, "On Fortune" https://essays.quotidiana.org/temple/fortune/ | **"It is unreasonable that I should give fortune so a great a space in my thoughts, while she gives me so small an one in hers."** "We say she is blind, when the truth of it is 't is we that are so." |
+| 855 | Temple, "On Thoughts" https://essays.quotidiana.org/temple/thoughts/ | "weeds wither as soon as they are gathered, though corn lasts the longer by it." Ends on a joke about his own ears. |
+| 856 | Zitkala-Sa, "The Great Spirit" https://essays.quotidiana.org/zitkala-sa/great_spirit/ | A walk by the Missouri. "My heart and I lie small upon the earth like a grain of throbbing sand." A preacher's visit is set against it without one raised voice. |
+| 857 | T. S. Eliot, "Tradition and the Individual Talent" https://essays.quotidiana.org/eliot/tradition_and_the_individual/ | "In English writing we seldom speak of tradition, though we occasionally apply its name in deploring its absence." "Poetry is not a turning loose of emotion, but an escape from emotion;" Being new is worth nothing unless the writer knows what came before. |
+| 858 | Vernon Lee, "About Leisure" https://essays.quotidiana.org/lee/about_leisure/ | F1: a photograph of Bellini's St Jerome hung to catch her eye on waking. "Leisure implies a superabundance not only of time but of the energy needed to spend time pleasantly." |
+| 859 | Vernon Lee, "My Bicycle and I" https://essays.quotidiana.org/lee/my_bicycle_and_i/ | "A wrong turn is no hardship;" The bicycle is praised for slowness and freedom, not speed. |
+| 860 | Vernon Lee, "In Praise of Old Houses" https://essays.quotidiana.org/lee/praise_of_old_houses/ | Opens on a friend's remark: "My Yorkshire friend was saying that she hated being in an old house." **"Her [nature's] one notion is More, always more; whereas that of man, less likely to exceed, is a timid Enough."** Close: "And thus, somewhat irrelevantly, concludes my chapters in praise of old houses." |
+| 861 | Vernon Lee, "The Lie of the Land" https://essays.quotidiana.org/lee/lie_of_the_land/ | "An immense charm consists in the fact that the mind can walk about in a landscape." Ends by declining the next subject. |
+
+### 862-870 · Reserve Bank of Australia, 2017 · speeches
+| # | Piece | What it shows |
+|---|---|---|
+| 862 | Lowe, A50 Forum dinner (Feb 2017) https://www.rba.gov.au/speeches/2017/sp-gov-2017-02-09.html | A run of "You find a country…" lines, then four hard problems. "The challenge is that most of these ideas require difficult political trade-offs." |
+| 863 | Lowe, Board dinner, Melbourne (Apr 2017) https://www.rba.gov.au/speeches/2017/sp-gov-2017-04-04.html | "Good evening." **"Stretched balance sheets make for more volatility when things turn down."** |
+| 864 | Debelle, "Business Investment in Australia" (Nov 2017) https://www.rba.gov.au/speeches/2017/sp-dg-2017-11-13.html | Measures of uncertainty are "something of a cottage industry". The reason that matters most "boils down to firms' expectations of future demand, otherwise known as animal spirits." |
+| 865 | Ellis, "The Current Global Expansion" (Sep 2017) https://www.rba.gov.au/speeches/2017/sp-ag-2017-09-20.html | **"The facts had changed, and we had changed our minds."** The Bank uses its own earlier wrong call as evidence. On tail risks: "Until something actually happens, they do not and should not affect the central scenario." "Nothing is ever clear-cut." |
+| 866 | Bullock, "Big Banks and Financial Stability" (Jul 2017) https://www.rba.gov.au/speeches/2017/sp-ag-2017-07-21.html | "concentration of itself does not necessarily imply a lack of competition." Careful and balanced; nothing to steal for voice. |
+| 867 | Dwyer, "Studying Economics: The Decline in Enrolments and Why it Matters" (Jul 2017) https://www.rba.gov.au/speeches/2017/sp-so-2017-07-29.html | Opens and closes on HC Coombs, the Bank's first Governor and once a teacher. "In essence, economics has an image problem." |
+| 868 | Lowe, "Some Evolving Questions" (Nov 2017) https://www.rba.gov.au/speeches/2017/sp-gov-2017-11-21.html | **A causal chain in one sentence: "Low growth in wages means low inflation, which means low interest rates, which means high asset valuations."** "It's too early to say that animal spirits have returned with gusto." |
+| 869 | Lowe, "The Labour Market and Monetary Policy" (Jul 2017) https://www.rba.gov.au/speeches/2017/sp-gov-2017-07-26.html | "Inflation is too low, so you do what you can to get inflation up." Plain as a kitchen rule. |
+| 870 | Kent, "The Availability of Business Finance" (Dec 2017) https://www.rba.gov.au/speeches/2017/sp-ag-2017-12-13.html | "Entrepreneurs starting businesses often resort to personal credit cards for day-to-day funding". One concrete detail in a speech of averages. |
+
+Batch 27 note: Montaigne opens more ways than anyone so far. He confesses a weakness (843: no memory), quotes a saying
+and then tests it (847), or sets a puzzle (844). He also lets his own evidence beat his thesis (835), which no other
+writer in the log has done on purpose. His endings often stop without a moral (834) or in two words (833: "Therefore
+farewell."). Howells (851) starts with "But", answering an objection before it is made. Colton's triplets (853) and
+Benson's "Ideas" (850) are the warnings: a pattern the reader can hear, and a piece that sorts without saying. On the
+RBA side, Ellis's "The facts had changed, and we had changed our minds" (865) is the plain past-tense admission from
+synthesis 5 again, this time said as a team.
 
 ### Re-reads in batch 4 (not counted)
 Fourteen pieces in this batch had already been logged (the batch's source list was wrong). They are kept here
