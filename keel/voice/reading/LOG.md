@@ -17,7 +17,7 @@ about 60-90 pieces an hour at best. Collections (memo anthologies, letter compil
 Each entry: **Open / Best / Close** (quoted lines), **Craft** (rhythm, stance, shape), **Steal** (one move worth
 copying), **Insight** (only if there is one). What the entries add up to goes in `SYNTHESIS.md` after every 100.
 
-Count so far: **949**
+Count so far: **1000**
 
 ---
 
@@ -1947,6 +1947,80 @@ speech from six years before (918), and Kent sets the Bank's forecast beside the
 (913) ends on three rules a teenager could repeat. In the essays, Tomlinson (936) does F4 with an object instead of a
 number: a shop ledger in the rubble. Bly (929) and Gilman (895) open on a five- and a two-word question and answer it
 at once. Lowe's tribute to Stevens (916) ends on a name.
+
+## Round 2, batch 30 (29 Oct, 05:38-05:43 Sydney): 950-1000
+Checked against the log's URL and title list first; no RBA 2015 speech was in the log, and none of the essays were.
+This batch reaches **1,000**. Half modern: twenty-six RBA speeches from 2015, the year Stevens and Lowe spent explaining
+a world of very low yields. Then twenty-five essays from Quotidiana (https://essays.quotidiana.org/), read whole, which
+finishes the archive's De Quincey, Wollstonecraft, Cowper and Montaigne pages. Not counted: the RBA 2015 list page.
+Quotes marked "…" were cut at the reader's 125-character limit.
+
+### 950-975 · Reserve Bank of Australia, 2015 · speeches
+| # | Piece | What it shows |
+|---|---|---|
+| 950 | Stevens, "The Long Run" (Nov 2015) https://www.rba.gov.au/speeches/2015/sp-gov-2015-11-24.html | Turns from short-run forecasts to the long run, after a review of past misses. "But this fervent desire for precision is not supported by any demonstrated accuracy of economic forecasts." "I recall few, if any, who a decade ago saw that outcome as having a significant probability." A Yogi Berra quip. |
+| 951 | Simon, "Low Interest Rate Environments and Risk" (Oct 2015) https://www.rba.gov.au/speeches/2015/sp-so-2015-10-08.html | Argues against the room: "I don't think low interest rates, on their own, are inherently risky or destabilising." "Search for yield shouldn't be a bad thing." **Close: "So, after I have spent the last half hour suggesting where not to look, maybe you can suggest where we should look instead."** |
+| 952 | Lowe, "Fundamentals and Flexibility" (Oct 2015, CFA conference) https://www.rba.gov.au/speeches/2015/sp-dg-2015-10-13.html | "I have not mentioned interest rates once today." "Hence the title of my remarks this morning: Fundamentals and Flexibility." Flexibility over prediction: "the future does have a way of surprising us". |
+| 953 | Stevens, "The Path to Prosperity" (Nov 2015) https://www.rba.gov.au/speeches/2015/sp-gov-2015-11-05.html | Re-checks his own 2009 speech to the same conference. "It is not a constant of the universe." "productivity is the main game." "the key issue is not funding." Short lines doing big work. |
+| 954 | Stevens, "After the Boom" (Dec 2015, Perth) https://www.rba.gov.au/speeches/2015/sp-gov-2015-12-02.html | "It is very good to be back in Perth." "So WA has 'come back to the pack', though the pack has actually picked up some speed in the meantime." "Not permanent, but quite persistent." |
+| 955 | Debelle, "Bond Market Liquidity, Long-term Rates and China" (Sep 2015) https://www.rba.gov.au/speeches/2015/sp-ag-2015-09-16.html | "Liquidity and volatility are related but are not the same thing." "A bank has no more desire than any other investor to catch a falling knife." **"Ultimately the risk-free yield should be something that approximates the growth rate of the economy."** Close: "So it is important we adjust to the current environment rather than wish it was something else." |
+| 956 | Lowe, "National Wealth, Land Values and Monetary Policy" (Aug 2015, Shann Lecture) https://www.rba.gov.au/speeches/2015/sp-dg-2015-08-12.html | "Rising housing prices are best matched by rising incomes." "An extended period of low interest rates implies ongoing low returns to savers and low underlying returns on assets." |
+| 957 | Ellis, "Property Markets and Financial Stability: What We Know So Far" (Sep 2015) https://www.rba.gov.au/speeches/2015/sp-so-2015-09-08.html | Built as known, unsettled, and at risk of being forgotten. "The physical reality is that the supply of good locations is more or less fixed in the short term." "It is all too tempting to ease standards over time." Ends on a Feynman wish. |
+| 958 | Stevens, "'Reform' and Economic Growth" (Aug 2015) https://www.rba.gov.au/speeches/2015/sp-gov-2015-08-26.html | "Growth is important." "In short, you have the ingredients." **Last words: "Over to you."** |
+| 959 | Stevens, "The Changing Landscape of Central Banking" (Jun 2015, London) https://www.rba.gov.au/speeches/2015/sp-gov-2015-06-30.html | "The central bank, by setting the rate of interest, is effectively setting the price of leverage." "Words matter as much as actions." "Few things matter more, actually." |
+| 960 | Lowe, "The Transformation in Maturity Transformation" (May 2015) https://www.rba.gov.au/speeches/2015/sp-dg-2015-05-27.html | "These risks are more than just theoretical possibilities." "And we saw markets freeze." Funds that promise easy exit from illiquid assets: investors must understand the liquidity promise. |
+| 961 | Stevens, "Economic Conditions and Prospects: Creating the Upside" (Jun 2015, Brisbane) https://www.rba.gov.au/speeches/2015/sp-gov-2015-06-10.html | Compares the economy with his 2013 speech to the same group. **"This is far from the biggest forecast error I've seen over my three decades in this game."** "Of course, the list of countries that would prefer a lower exchange rate is a long one and we can't all have it." Close: "That is the upside we need to create." |
+| 962 | Lowe, "Managing Two Transitions" (May 2015) https://www.rba.gov.au/speeches/2015/sp-dg-2015-05-18.html | On negative yields: "They also mean that the time value of money is negative." "And they mean that there is no compensation for postponing consumption to tomorrow." "Unfortunately, there is no magic lever here, but the good news is that the task is not an impossible one!" |
+| 963 | Stevens, "Observations on the Financial System" (Apr 2015) https://www.rba.gov.au/speeches/2015/sp-gov-2015-04-28.html | "Crises are infrequent, but very expensive." **"Finance depends on trust. In fact, in the end, it can depend on little else."** On retirees: low safe returns mean "They have to accept a lot more risk to generate the expected flow of future income they want." |
+| 964 | Debelle, "Global and Domestic Influences on the Australian Bond Market" (Mar 2015) https://www.rba.gov.au/speeches/2015/sp-ag-2015-03-16.html | "Indeed, one could argue that the term premium was even negative." "There was no meaningful compensation for uncertainty about the path of US monetary policy or inflation." "Two-thirds of the German and Swiss government bonds on issue are currently trading at negative yields". |
+| 965 | Lowe, "Low Inflation in a World of Monetary Stimulus" (Mar 2015) https://www.rba.gov.au/speeches/2015/sp-dg-2015-03-05.html | Three short sentences in a row: "Policy interest rates are negative across much of Europe." "And some banks in Europe are now charging customers to accept deposits." "Lending rates for many private sector borrowers are the lowest ever." F4: if targets were hit, ten-year Japanese bond holders would lose about 15 per cent in real terms. |
+| 966 | Edey, "The Risk Environment and the Property Sector" (Nov 2015) https://www.rba.gov.au/speeches/2015/sp-ag-2015-11-06.html | "Leverage is always harder to manage in a slower growth environment." "Housing prices in Sydney have increased by 31 per cent over the past two years." |
+| 967 | Debelle, "Some Effects of the New Liquidity Regime" (Dec 2015) https://www.rba.gov.au/speeches/2015/sp-ag-2015-12-16.html | "$100 of an Australian government bond can be sold for $100 of cash." "we do not want to find out the hard way that we have set the required holdings too high". |
+| 968 | Kent, "Monetary Policy Transmission – What's Known and What's Changed" (Jun 2015) https://www.rba.gov.au/speeches/2015/sp-ag-2015-06-15.html | F6: "It was my dislike of compulsory chemistry classes led me down that side path." **Opens on his student botany days and closes on a botanical analogy**: the object returns. "In short, monetary policy is working." |
+| 969 | Lowe, "International and Domestic Adjustment" (Sep 2015) https://www.rba.gov.au/speeches/2015/sp-dg-2015-09-09.html | **"A bubble developed. And then it burst."** "Whatever the reason, as so often happens, things went too far." The falling dollar "is helping in the downswing". |
+| 970 | Heath, "The Terms of Trade: Outlook and Implications" (Nov 2015) https://www.rba.gov.au/speeches/2015/sp-so-2015-11-20.html | Asks how well the Bank forecasts the terms of trade. **"The simple answer is 'not very'."** |
+| 971 | Stevens, "The World Economy and Australia" (Apr 2015, New York) https://www.rba.gov.au/speeches/2015/sp-gov-2015-04-21.html | "As it turns out, the 'zero lower bound' wasn't actually at zero." "Liquidity was under-priced prior to the crisis." "Monetary policy alone won't deliver that." |
+| 972 | Stevens, remarks to AMCHAM (Mar 2015, Melbourne) https://www.rba.gov.au/speeches/2015/sp-gov-2015-03-20.html | "No one grows at 10 per cent forever." "The punch bowl isn't being taken away, its contents are just being made a little less potent." "Eventually reality intrudes and we have to re-evaluate." |
+| 973 | Heath, "The Role of the RBA's Business Liaison Program" (Sep 2015, Perth) https://www.rba.gov.au/speeches/2015/sp-so-2015-09-24.html | Four case studies from talking to firms. "This is the transmission mechanism of monetary policy in action." |
+| 974 | Kent, "Australian Economic Growth – The How, What and Where" (Mar 2015) https://www.rba.gov.au/speeches/2015/sp-ag-2015-03-11.html | Built on three questions the audience asks. "It is hard to predict how this will affect specific industries, especially for those not yet in existence!" |
+| 975 | Kent, remarks at the UBS conference (Nov 2015) https://www.rba.gov.au/speeches/2015/sp-ag-2015-11-17.html | "Let me be clear though, many of these have positive implications for our economy." Cautious and plain. |
+
+### 976-1000 · De Quincey, Wollstonecraft, Cowper, Bly, Wharton, Montaigne · essays
+| # | Piece | What it shows |
+|---|---|---|
+| 976 | De Quincey, "The Vision of Sudden Death" https://essays.quotidiana.org/dequincey/vision_of_sudden_death/ | **"What is to be thought of sudden death?"** Then a near-collision on the night mail: "The moments were numbered." "Between them and eternity, to all human calculation, there is but a minute and a half." F5. |
+| 977 | De Quincey, "The Palimpsest of the Human Brain" https://essays.quotidiana.org/dequincey/palimpsest_of_the_human_brain/ | "You know perhaps, masculine reader, better than I can tell you, what is a Palimpsest." "Such a palimpsest is my brain; such a palimpsest, oh reader! is yours." One metaphor, defined and then turned on the reader. |
+| 978 | De Quincey, "Savannah-la-Mar" https://essays.quotidiana.org/dequincey/savannahlamar/ | A drowned city. "It has perished, or it is not born." Oracular; admired, not copied. |
+| 979 | De Quincey, "Murder as a Fine Art" (postscript) https://essays.quotidiana.org/dequincey/murder_as_a_fine_art/ | Mock-serious from the first line. "Wealth is power; but it is a jest in comparison of poverty." |
+| 980 | De Quincey, "Dream-Fugue" https://essays.quotidiana.org/dequincey/dream_fugue/ | "Lo, it is summer, almighty summer!" Prose as music; the warning case for any IPS. |
+| 981 | De Quincey, "Dreaming" https://essays.quotidiana.org/dequincey/dreaming/ | "How much solitude, so much power." Ends comparing his book to a plain pole wreathed in flowers. |
+| 982 | De Quincey, "Levana and Our Ladies of Sorrow" https://essays.quotidiana.org/dequincey/levana_and_our_ladies_of_sorrow/ | "Oftentimes at Oxford I saw Levana in my dreams." "Theirs were the symbols; mine are the words." |
+| 983 | Wollstonecraft, Letter V https://essays.quotidiana.org/wollstonecraft/letter_v/ | "I saw the sun—and sighed." Ends again on "Adieu!" (the fourth letter in a row to do so). |
+| 984 | Cowper, "Complaints of an Old Bachelor" https://essays.quotidiana.org/cowper/complaints/ | A mock letter. "I am naturally a quiet inoffensive animal, and not easily ruffled;" Ends offering himself to be "humanized into a husband". |
+| 985 | Cowper, "A Letter from Mr. Village" https://essays.quotidiana.org/cowper/letter_from_mr_village/ | Satire of a country church: "making posies in summertime, and cracking nuts in autumn, is no part of the religious ceremony." |
+| 986 | Nellie Bly, "As a White Slave" (1888) https://essays.quotidiana.org/bly/white_slave/ | **F4 at full strength**: undercover in a paper-box factory. Beginners unpaid for two weeks, then $1.50 a week; 50 cents per hundred one-pound boxes; a veteran of eleven years averages $5 a week and pays $3.50 for board. "Cheap labor, isn't it?" Close: "I have seen many worse girls in much higher positions than the white slaves of New York." |
+| 987 | Edith Wharton, "Harems and Ceremonies" (In Morocco) https://essays.quotidiana.org/wharton/harems_and_ceremonies/ | "Respectability wears the same face in an Oriental harem as in England or America." Ends on a sick child weighed down with amulets. |
+| 988 | Montaigne, "Of anger" https://essays.quotidiana.org/montaigne/anger/ | "There is no passion that so much transports men from their right judgment as anger." Close: anger "holds us, we hold not it." |
+| 989 | Montaigne, "Of the Roman grandeur" https://essays.quotidiana.org/montaigne/roman_grandeur/ | "I will only say a word or two of this infinite argument". Popilius's circle in the sand. |
+| 990 | Montaigne, "That men are justly punished for being obstinate in the defence of a fort that is not in reason to be defended" https://essays.quotidiana.org/montaigne/that_men_are_justly_punished/ | "Valour has its bounds as well as other virtues". "not a henroost but would resist and seek to stop an army." **Holding a position past reason is folly, not courage.** |
+| 991 | Montaigne, "That we are to avoid pleasures, even at the expense of life" https://essays.quotidiana.org/montaigne/that_we_are_to_avoid_pleasures/ | "There is no man so great a coward, that had not rather once fall than to be always falling." |
+| 992 | Montaigne, "Cowardice, the mother of cruelty" https://essays.quotidiana.org/montaigne/cowardice_the_mother_of_cruelty/ | "Killing is good to frustrate an offence to come, not to revenge one that is already past". |
+| 993 | Montaigne, "Of the custom of wearing clothes" https://essays.quotidiana.org/montaigne/custom_of_wearing_clothes/ | The beggar in winter: "you go with your face bare: I am all face." |
+| 994 | Montaigne, "Of the battle of Dreux" https://essays.quotidiana.org/montaigne/battle_of_dreux/ | Every soldier should keep the whole victory in view, not his own corner of the field. |
+| 995 | Montaigne, "The ceremony of the interview of princes" https://essays.quotidiana.org/montaigne/ceremony_of_the_interviews/ | **"There is no subject so frivolous that does not merit a place in this rhapsody."** "I have seen some people rude, by being overcivil and troublesome in their courtesy." |
+| 996 | Montaigne, "Of a monstrous child" https://essays.quotidiana.org/montaigne/monstrous_child/ | "This story shall go by itself; for I will leave it to physicians to discourse of." "Those that we call monsters are not so to God". Very short. |
+| 997 | Montaigne, "Of not communicating one's honour" https://essays.quotidiana.org/montaigne/not_communicating_honour/ | Glory is the most widely held folly. Ends on a comic twist, not a moral. |
+| 998 | Montaigne, "Not to counterfeit being sick" https://essays.quotidiana.org/montaigne/not_to_counterfeit_being_sick/ | A man fakes gout and gets it. "the blind call for a guide, while we stray of our own accord." Close: "there is advantage in the change." |
+| 999 | Montaigne, "Of the punishment of cowardice" https://essays.quotidiana.org/montaigne/punishment_of_cowardice/ | "Rather bring the blood into a man's cheek than let it out of his body." |
+| 1000 | Montaigne, "That a man is soberly to judge of the divine ordinances" https://essays.quotidiana.org/montaigne/that_a_man_is_soberly_to_judge/ | **"nothing is so firmly believed, as what we least know"**. Reading approval into victory means reading punishment into defeat: blowing hot and cold from one mouth. **Judge by foundations, not by outcomes.** |
+
+Batch 30 note (the 1,000th piece): the 2015 RBA speeches are the plainest prose in the log, and the best of them
+are short lines that each carry a whole argument: "The simple answer is 'not very'." (970); "A bubble developed. And
+then it burst." (969); "Over to you." (958). Three speeches re-check their own past forecasts in public (953, 961,
+968), and Stevens jokes about his own error (961), which is synthesis 5's "joke against your own side" again. Bly's
+"As a White Slave" (986) is F4 at its strongest in the whole log: wages per hundred boxes, said flat, then one line,
+"Cheap labor, isn't it?". De Quincey's late essays (978, 980) are the opposite pole: grand, musical, and unusable for
+an IPS. Montaigne's run ends (1,000) on judging by foundations rather than results.
 
 ### Re-reads in batch 4 (not counted)
 Fourteen pieces in this batch had already been logged (the batch's source list was wrong). They are kept here
