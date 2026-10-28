@@ -247,3 +247,30 @@ stocks in many currencies) is the only money that moves with world prices rather
 
 Killed on the way: raising the 2031 bottom to "floor + locked half" (C: 3.4-4.9% below the bottom); stress-sized 2033
 cushions (they don't cover the forecast error).
+
+---
+
+## Added Wed 28 Oct 2026, 13:40 run (round 1 beat 5): L-11, the half of the cure that has a birthday
+
+(Keel is a simulated team, AI-written. Research, not submission text. MODEL, same stamp as above; script
+`../../rooms/lab/L-11_birthday_cure/run.py`, write-up `../../rooms/lab/L-11_birthday_cure.md`.)
+
+Idea 5 above stands and L-11 reproduces it (the $7,500 row: top 72.7%, below bottom 2.15%). L-11 adds one finding and
+one alternative:
+- **The split.** 81% of the coupon gap's dollars are visible in a January 2033 projection; 19% come later (p99.9
+  $8,749). Idea 5's cushion is sized on that later fifth, which is why $7,500 works and a stress-sized one doesn't.
+- **Buy the later fifth in 2028 instead of 2033.** About $7,500 of a WInS-listed short Treasury fund, bought on 2 Jan
+  2028 after any unfilled rung and *before* the floor (the locked IBTR note's order), held for the cheques, Laura's
+  after the tenth. Payments short by over $1k: under 1 in 10,000 (S0, S1), 0.01% (S6). The 2033 step then sets aside
+  only the visible gap. Trade: the 2031 bottom rule gives ~$10k less in the median path, but it is kept as often as
+  with no rule (98.6% with stocks and yields falling together, vs 96.7% for idea 5's 2033 cushion; S6 80% vs 70%).
+
+Candidate lines (for the Writing Room to cut; numbers stay out, Book 7):
+> The 2028 deposit finishes the cheques first: any rung the first deposit couldn't afford, then a small Treasury
+> holding for the one cost a coupon bond can't fix on the day it's bought, reinvesting its interest at lower rates.
+> Only then the floor, then stocks. In January 2033 we pay any gap that has already appeared before the gift goes;
+> the holding covers what still can, and anything it never needs goes back to Laura.
+
+Kicker if the motif wants one (Tess's call, at most once): *a cost is paid the day it's known; a risk is bought the day
+it starts.*
+

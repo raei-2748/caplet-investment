@@ -89,10 +89,10 @@ each year's stock shock correlated with that year's yield change, so yields fall
 
 Wrong-way risk hurts every fixed margin (breaks nearly double) but barely touches the marked-to-market bottom, because
 the mark already sees both the rate fall and the stock fall by 2031. Worst case: 7 paths in 200,000, still about 30
-times safer than a fixed $10k, for a tenth of its cost.
+times safer than a fixed $10k **[Window 28 Oct: 468 paths vs 7 in LR-04_results (rho 0.5, 6.5%) is about 67x, not 30x]**, for a tenth of its cost.
 
 **Newsvendor check (WO-R7, for R05 S1).** Under the rule, the gift reaches the exact top in 69.9% of paths (76.7%
-within $1k; 65.9% / 72.9% in the worst joint case). The implied over/under-promise cost ratio is 0.699 / 0.301 = **2.3**, inside R05's 1.9-2.7.
+within $1k; 65.9% / 72.9% in the worst joint case). The implied over/under-promise cost ratio is 0.699 / 0.301 = **2.3**, inside R05's 1.9-2.7. **[Window 28 Oct: 1.9-2.7 is R05's pre-run estimate (R05_wide_reading.md:384); the R05 lab run gives 2.69-3.30 on the within-$1k definition, so 2.3 sits below it. The two top definitions (exact 69.9% vs within $1k 76.7%) still need one answer.]**
 
 ## 4. The finding (for Thursday's synthesis)
 **Don't pad the bottom today; mark it to market in 2031.** A fixed margin taxes the signal in every path to guard

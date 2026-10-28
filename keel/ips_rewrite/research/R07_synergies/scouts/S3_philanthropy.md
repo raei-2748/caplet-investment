@@ -66,7 +66,7 @@ for the 3x: the pyramid does, because everyone beneath the lead gift is priced f
 
 **Logic device.** A causal chain followed to its end: a smaller lead gift means a smaller second tier, which means a smaller
 third tier, which means a campaign that misses its goal by a multiple of Laura's miss. Over-promising costs about 3x not
-because donors are cross but because the table is proportional.
+because donors are cross but because the table is proportional. **[Window 28 Oct: unsupported. The gift-range chart (Funraise; Maine State Library) is a planning table; neither source says later donors cut their gifts when the lead gift shrinks, and the chain's own arithmetic gives 5-10x, not 3x. Keep "about three times worse" as our stated judgement, not as a derived number.]**
 
 **Lands in:** Final Report (co-sponsor range text and the reason for the asymmetry). IPS: at most one clause of idea, "the
 bottom of the range is what we own, because everything built on it is sized from it". Not more; the IPS must not carry the

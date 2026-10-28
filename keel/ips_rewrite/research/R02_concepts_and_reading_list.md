@@ -751,6 +751,26 @@ Count: 72 numbered items, 3 supplementary. Numbered items: VERIFIED 54; VERIFIED
 
 ---
 
+Added by the Library, Wed 28 Oct 2026 (accessed 28 Oct 2026; quoted lines found word for word in the fetched page;
+round 1 beat 4 in `../../loop/rounds/2026-10-28.md`, LC-04 and S-06 in `../../rooms/library.md`):
+- 26 U.S.C. § 130(d), qualified funding asset, Cornell LII: https://www.law.cornell.edu/uscode/text/26/130. Takes: a
+  court's fixed schedule funded with "any obligation of the United States" bought within 60 days of the promise. Bank #59.
+- Oregon Administrative Rules 177-098-0060, Prize Payment (Mega Millions), via https://oregon.public.law/rules/oar_177-098-0060
+  (aggregator; official OAR text not opened). Takes: the prize is "the actual amount purchased", not the advertised one. Bank #57.
+- California Public Contract Code § 22300, via https://california.public.law/codes/public_contract_code_section_22300.
+  Takes: securities in lieu of retainage, owned by the contractor. Bank #56.
+- Santomartino, S. (3 Nov 2023). The contractor's contingency: what contractors and construction managers need to know
+  and be wary of. ConsensusDocs (Peckar & Abramson): https://www.consensusdocs.org/the-contractors-contingency-what-contractors-and-construction-managers-need-to-know-and-be-wary-of/
+- FAR 52.216-4, Economic Price Adjustment - Labor and Material: https://www.acquisition.gov/far/52.216-4
+- ETC. *Eos Family Online Help*, "About Cues and Cue Lists" and "Block":
+  https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en/Content/12_Cues_and_Cue_Lists/About_Cues_and_Cue_Lists.htm. Bank #58.
+- Central Connecticut State University Theatre (2025). *Stage Management and Assistant Stage Management Handbook*, pp. 19-20:
+  https://www.ccsu.edu/sites/default/files/2025-08/Updated%20SM%20and%20ASM%20Handbook%202025%20mf.pdf
+- SVB Financial Group (8 Mar 2023). Strategic Actions / Q1'23 Mid-Quarter Update, Form 8-K ex. 99.2:
+  https://www.sec.gov/Archives/edgar/data/719739/000119312523064680/d430920dex992.htm
+- Barings (Jun 2025). What is a CLO?:
+  https://www.barings.com/globalassets/2-assets/perspectives/viewpoints/insights/2025/06-june/what-is-a-clo.pdf
+
 ## Part 3. Five "aha" syntheses
 
 ### Aha 1. Laura's gift is a capped, principal-protected note, built without a single derivative

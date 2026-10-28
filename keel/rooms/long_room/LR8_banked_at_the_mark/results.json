@@ -1,0 +1,693 @@
+{
+ "stamp": "curve 22 Oct 2026 | J.P. Morgan 2027 global equities 7.5% | 200,000 paths, seed 20261016 | MODEL",
+ "S0 base, rates and stocks independent": {
+  "C6+MC": {
+   "p_payment_short_over_1k": 0.0007,
+   "quoted_bottom_p5_p50": [
+    115000,
+    145000
+   ],
+   "mean_cut_vs_floor_rule": 1952,
+   "p_cut_vs_floor_rule": 0.1689,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 0,
+   "median_miss": 0,
+   "p_top_within_1k": 0.7266,
+   "gift_p5_p50": [
+    133979,
+    165426
+   ],
+   "p_laura_half_sold": 0.7078,
+   "cosponsor_cost_pct_E094": 1.39,
+   "cosponsor_cost_pct_E05": 0.76
+  },
+  "C6+MC (check)": {
+   "p_payment_short_over_1k": 0.0007,
+   "quoted_bottom_p5_p50": [
+    115000,
+    145000
+   ],
+   "mean_cut_vs_floor_rule": 1952,
+   "p_cut_vs_floor_rule": 0.1689,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 0,
+   "median_miss": 0,
+   "p_top_within_1k": 0.7266,
+   "gift_p5_p50": [
+    133979,
+    165426
+   ],
+   "p_laura_half_sold": 0.7078,
+   "cosponsor_cost_pct_E094": 1.39,
+   "cosponsor_cost_pct_E05": 0.76,
+   "laura_2042_half_plus_release_p5_p50": [
+    3991,
+    36255
+   ],
+   "p_stocks_sold_2031": 0.7058,
+   "median_sold_2031_when_sold": 7500,
+   "p_stocks_sold_2033": 0.7078,
+   "median_2033_value_given_up_by_selling_in_2031": 0
+  },
+  "MB strict": {
+   "p_payment_short_over_1k": 0.0003,
+   "quoted_bottom_p5_p50": [
+    115000,
+    145000
+   ],
+   "mean_cut_vs_floor_rule": 1952,
+   "p_cut_vs_floor_rule": 0.1689,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 0,
+   "median_miss": 0,
+   "p_top_within_1k": 0.6878,
+   "gift_p5_p50": [
+    133596,
+    165199
+   ],
+   "p_laura_half_sold": 0.0,
+   "cosponsor_cost_pct_E094": 1.39,
+   "cosponsor_cost_pct_E05": 0.76,
+   "laura_2042_half_plus_release_p5_p50": [
+    3943,
+    34589
+   ],
+   "p_stocks_sold_2031": 0.7058,
+   "median_sold_2031_when_sold": 7500,
+   "p_stocks_sold_2033": 0.0,
+   "median_2033_value_given_up_by_selling_in_2031": 523
+  },
+  "MB+T top-up": {
+   "p_payment_short_over_1k": 0.0003,
+   "quoted_bottom_p5_p50": [
+    115000,
+    145000
+   ],
+   "mean_cut_vs_floor_rule": 1952,
+   "p_cut_vs_floor_rule": 0.1689,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 0,
+   "median_miss": 0,
+   "p_top_within_1k": 0.7118,
+   "gift_p5_p50": [
+    133709,
+    165397
+   ],
+   "p_laura_half_sold": 0.1326,
+   "cosponsor_cost_pct_E094": 1.39,
+   "cosponsor_cost_pct_E05": 0.76,
+   "laura_2042_half_plus_release_p5_p50": [
+    3804,
+    33750
+   ],
+   "p_stocks_sold_2031": 0.7058,
+   "median_sold_2031_when_sold": 7500,
+   "p_stocks_sold_2033": 0.1326,
+   "median_2033_value_given_up_by_selling_in_2031": 523
+  },
+  "A+M": {
+   "p_payment_short_over_1k": 0.0,
+   "quoted_bottom_p5_p50": [
+    110000,
+    135000
+   ],
+   "mean_cut_vs_floor_rule": 9708,
+   "p_cut_vs_floor_rule": 1.0,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 0,
+   "median_miss": 0,
+   "p_top_within_1k": 0.767,
+   "gift_p5_p50": [
+    128469,
+    157155
+   ],
+   "p_laura_half_sold": 0.3354,
+   "cosponsor_cost_pct_E094": 6.61,
+   "cosponsor_cost_pct_E05": 3.57
+  },
+  "C6+MC +lock": {
+   "p_payment_short_over_1k": 0.0007,
+   "quoted_bottom_p5_p50": [
+    115000,
+    145000
+   ],
+   "mean_cut_vs_floor_rule": 1952,
+   "p_cut_vs_floor_rule": 0.1689,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 0,
+   "median_miss": 0,
+   "p_top_within_1k": 0.8601,
+   "gift_p5_p50": [
+    133873,
+    166028
+   ],
+   "p_laura_half_sold": 0.7078,
+   "cosponsor_cost_pct_E094": 1.39,
+   "cosponsor_cost_pct_E05": 0.76,
+   "laura_2042_half_plus_release_p5_p50": [
+    3991,
+    36255
+   ],
+   "p_stocks_sold_2031": 0.7058,
+   "median_sold_2031_when_sold": 7500,
+   "p_stocks_sold_2033": 0.7078,
+   "median_2033_value_given_up_by_selling_in_2031": 0
+  },
+  "MB strict +lock": {
+   "p_payment_short_over_1k": 0.0003,
+   "quoted_bottom_p5_p50": [
+    115000,
+    145000
+   ],
+   "mean_cut_vs_floor_rule": 1952,
+   "p_cut_vs_floor_rule": 0.1689,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 0,
+   "median_miss": 0,
+   "p_top_within_1k": 0.78,
+   "gift_p5_p50": [
+    132985,
+    165654
+   ],
+   "p_laura_half_sold": 0.0,
+   "cosponsor_cost_pct_E094": 1.39,
+   "cosponsor_cost_pct_E05": 0.76,
+   "laura_2042_half_plus_release_p5_p50": [
+    3943,
+    34589
+   ],
+   "p_stocks_sold_2031": 0.7058,
+   "median_sold_2031_when_sold": 7500,
+   "p_stocks_sold_2033": 0.0,
+   "median_2033_value_given_up_by_selling_in_2031": 523
+  },
+  "MB+T +lock": {
+   "p_payment_short_over_1k": 0.0003,
+   "quoted_bottom_p5_p50": [
+    115000,
+    145000
+   ],
+   "mean_cut_vs_floor_rule": 1952,
+   "p_cut_vs_floor_rule": 0.1689,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 0,
+   "median_miss": 0,
+   "p_top_within_1k": 0.8462,
+   "gift_p5_p50": [
+    133111,
+    165982
+   ],
+   "p_laura_half_sold": 0.1326,
+   "cosponsor_cost_pct_E094": 1.39,
+   "cosponsor_cost_pct_E05": 0.76,
+   "laura_2042_half_plus_release_p5_p50": [
+    3804,
+    33750
+   ],
+   "p_stocks_sold_2031": 0.7058,
+   "median_sold_2031_when_sold": 7500,
+   "p_stocks_sold_2033": 0.1326,
+   "median_2033_value_given_up_by_selling_in_2031": 523
+  },
+  "A+M +lock": {
+   "p_payment_short_over_1k": 0.0,
+   "quoted_bottom_p5_p50": [
+    110000,
+    135000
+   ],
+   "mean_cut_vs_floor_rule": 9708,
+   "p_cut_vs_floor_rule": 1.0,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 0,
+   "median_miss": 0,
+   "p_top_within_1k": 0.9174,
+   "gift_p5_p50": [
+    128597,
+    157763
+   ],
+   "p_laura_half_sold": 0.3354,
+   "cosponsor_cost_pct_E094": 6.61,
+   "cosponsor_cost_pct_E05": 3.57
+  }
+ },
+ "S1 base, recession-linked (rho 0.5)": {
+  "C6+MC": {
+   "p_payment_short_over_1k": 0.0007,
+   "quoted_bottom_p5_p50": [
+    110000,
+    145000
+   ],
+   "mean_cut_vs_floor_rule": 2264,
+   "p_cut_vs_floor_rule": 0.1842,
+   "p_below_quoted_bottom": 0.0001,
+   "n_below": 10,
+   "median_miss": 562,
+   "p_top_within_1k": 0.7097,
+   "gift_p5_p50": [
+    132275,
+    165413
+   ],
+   "p_laura_half_sold": 0.7078,
+   "cosponsor_cost_pct_E094": 1.61,
+   "cosponsor_cost_pct_E05": 0.88
+  },
+  "C6+MC (check)": {
+   "p_payment_short_over_1k": 0.0007,
+   "quoted_bottom_p5_p50": [
+    110000,
+    145000
+   ],
+   "mean_cut_vs_floor_rule": 2264,
+   "p_cut_vs_floor_rule": 0.1842,
+   "p_below_quoted_bottom": 0.0001,
+   "n_below": 10,
+   "median_miss": 562,
+   "p_top_within_1k": 0.7097,
+   "gift_p5_p50": [
+    132275,
+    165413
+   ],
+   "p_laura_half_sold": 0.7078,
+   "cosponsor_cost_pct_E094": 1.61,
+   "cosponsor_cost_pct_E05": 0.88,
+   "laura_2042_half_plus_release_p5_p50": [
+    3732,
+    36873
+   ],
+   "p_stocks_sold_2031": 0.7058,
+   "median_sold_2031_when_sold": 7500,
+   "p_stocks_sold_2033": 0.7078,
+   "median_2033_value_given_up_by_selling_in_2031": 0
+  },
+  "MB strict": {
+   "p_payment_short_over_1k": 0.0003,
+   "quoted_bottom_p5_p50": [
+    110000,
+    145000
+   ],
+   "mean_cut_vs_floor_rule": 2264,
+   "p_cut_vs_floor_rule": 0.1842,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 0,
+   "median_miss": 0,
+   "p_top_within_1k": 0.6716,
+   "gift_p5_p50": [
+    131972,
+    165105
+   ],
+   "p_laura_half_sold": 0.0,
+   "cosponsor_cost_pct_E094": 1.61,
+   "cosponsor_cost_pct_E05": 0.88,
+   "laura_2042_half_plus_release_p5_p50": [
+    3776,
+    35173
+   ],
+   "p_stocks_sold_2031": 0.7058,
+   "median_sold_2031_when_sold": 7500,
+   "p_stocks_sold_2033": 0.0,
+   "median_2033_value_given_up_by_selling_in_2031": 526
+  },
+  "MB+T top-up": {
+   "p_payment_short_over_1k": 0.0003,
+   "quoted_bottom_p5_p50": [
+    110000,
+    145000
+   ],
+   "mean_cut_vs_floor_rule": 2264,
+   "p_cut_vs_floor_rule": 0.1842,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 0,
+   "median_miss": 0,
+   "p_top_within_1k": 0.6961,
+   "gift_p5_p50": [
+    132094,
+    165403
+   ],
+   "p_laura_half_sold": 0.1258,
+   "cosponsor_cost_pct_E094": 1.61,
+   "cosponsor_cost_pct_E05": 0.88,
+   "laura_2042_half_plus_release_p5_p50": [
+    3616,
+    34425
+   ],
+   "p_stocks_sold_2031": 0.7058,
+   "median_sold_2031_when_sold": 7500,
+   "p_stocks_sold_2033": 0.1258,
+   "median_2033_value_given_up_by_selling_in_2031": 526
+  },
+  "A+M": {
+   "p_payment_short_over_1k": 0.0,
+   "quoted_bottom_p5_p50": [
+    110000,
+    135000
+   ],
+   "mean_cut_vs_floor_rule": 9902,
+   "p_cut_vs_floor_rule": 1.0,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 5,
+   "median_miss": 920,
+   "p_top_within_1k": 0.7515,
+   "gift_p5_p50": [
+    127488,
+    157126
+   ],
+   "p_laura_half_sold": 0.3354,
+   "cosponsor_cost_pct_E094": 6.74,
+   "cosponsor_cost_pct_E05": 3.65
+  },
+  "C6+MC +lock": {
+   "p_payment_short_over_1k": 0.0007,
+   "quoted_bottom_p5_p50": [
+    110000,
+    145000
+   ],
+   "mean_cut_vs_floor_rule": 2264,
+   "p_cut_vs_floor_rule": 0.1842,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 0,
+   "median_miss": 0,
+   "p_top_within_1k": 0.8406,
+   "gift_p5_p50": [
+    132238,
+    166032
+   ],
+   "p_laura_half_sold": 0.7078,
+   "cosponsor_cost_pct_E094": 1.61,
+   "cosponsor_cost_pct_E05": 0.88,
+   "laura_2042_half_plus_release_p5_p50": [
+    3732,
+    36873
+   ],
+   "p_stocks_sold_2031": 0.7058,
+   "median_sold_2031_when_sold": 7500,
+   "p_stocks_sold_2033": 0.7078,
+   "median_2033_value_given_up_by_selling_in_2031": 0
+  },
+  "MB strict +lock": {
+   "p_payment_short_over_1k": 0.0003,
+   "quoted_bottom_p5_p50": [
+    110000,
+    145000
+   ],
+   "mean_cut_vs_floor_rule": 2264,
+   "p_cut_vs_floor_rule": 0.1842,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 0,
+   "median_miss": 0,
+   "p_top_within_1k": 0.7682,
+   "gift_p5_p50": [
+    131523,
+    165671
+   ],
+   "p_laura_half_sold": 0.0,
+   "cosponsor_cost_pct_E094": 1.61,
+   "cosponsor_cost_pct_E05": 0.88,
+   "laura_2042_half_plus_release_p5_p50": [
+    3776,
+    35173
+   ],
+   "p_stocks_sold_2031": 0.7058,
+   "median_sold_2031_when_sold": 7500,
+   "p_stocks_sold_2033": 0.0,
+   "median_2033_value_given_up_by_selling_in_2031": 526
+  },
+  "MB+T +lock": {
+   "p_payment_short_over_1k": 0.0003,
+   "quoted_bottom_p5_p50": [
+    110000,
+    145000
+   ],
+   "mean_cut_vs_floor_rule": 2264,
+   "p_cut_vs_floor_rule": 0.1842,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 0,
+   "median_miss": 0,
+   "p_top_within_1k": 0.8287,
+   "gift_p5_p50": [
+    131612,
+    166026
+   ],
+   "p_laura_half_sold": 0.1258,
+   "cosponsor_cost_pct_E094": 1.61,
+   "cosponsor_cost_pct_E05": 0.88,
+   "laura_2042_half_plus_release_p5_p50": [
+    3616,
+    34425
+   ],
+   "p_stocks_sold_2031": 0.7058,
+   "median_sold_2031_when_sold": 7500,
+   "p_stocks_sold_2033": 0.1258,
+   "median_2033_value_given_up_by_selling_in_2031": 526
+  },
+  "A+M +lock": {
+   "p_payment_short_over_1k": 0.0,
+   "quoted_bottom_p5_p50": [
+    110000,
+    135000
+   ],
+   "mean_cut_vs_floor_rule": 9902,
+   "p_cut_vs_floor_rule": 1.0,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 0,
+   "median_miss": 0,
+   "p_top_within_1k": 0.9011,
+   "gift_p5_p50": [
+    127668,
+    157739
+   ],
+   "p_laura_half_sold": 0.3354,
+   "cosponsor_cost_pct_E094": 6.74,
+   "cosponsor_cost_pct_E05": 3.65
+  }
+ },
+ "S6 yields fall 2pt just after the build, for good": {
+  "C6+MC": {
+   "p_payment_short_over_1k": 0.0009,
+   "quoted_bottom_p5_p50": [
+    95000,
+    130000
+   ],
+   "mean_cut_vs_floor_rule": 12602,
+   "p_cut_vs_floor_rule": 0.6285,
+   "p_below_quoted_bottom": 0.0001,
+   "n_below": 29,
+   "median_miss": 1032,
+   "p_top_within_1k": 0.4156,
+   "gift_p5_p50": [
+    107801,
+    152231
+   ],
+   "p_laura_half_sold": 0.8668,
+   "cosponsor_cost_pct_E094": 8.83,
+   "cosponsor_cost_pct_E05": 4.92
+  },
+  "C6+MC (check)": {
+   "p_payment_short_over_1k": 0.0009,
+   "quoted_bottom_p5_p50": [
+    95000,
+    130000
+   ],
+   "mean_cut_vs_floor_rule": 12602,
+   "p_cut_vs_floor_rule": 0.6285,
+   "p_below_quoted_bottom": 0.0001,
+   "n_below": 29,
+   "median_miss": 1032,
+   "p_top_within_1k": 0.4156,
+   "gift_p5_p50": [
+    107801,
+    152231
+   ],
+   "p_laura_half_sold": 0.8668,
+   "cosponsor_cost_pct_E094": 8.83,
+   "cosponsor_cost_pct_E05": 4.92,
+   "laura_2042_half_plus_release_p5_p50": [
+    2355,
+    7500
+   ],
+   "p_stocks_sold_2031": 0.8694,
+   "median_sold_2031_when_sold": 8834,
+   "p_stocks_sold_2033": 0.8668,
+   "median_2033_value_given_up_by_selling_in_2031": 0
+  },
+  "MB strict": {
+   "p_payment_short_over_1k": 0.0005,
+   "quoted_bottom_p5_p50": [
+    95000,
+    130000
+   ],
+   "mean_cut_vs_floor_rule": 12602,
+   "p_cut_vs_floor_rule": 0.6285,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 3,
+   "median_miss": 2689,
+   "p_top_within_1k": 0.3638,
+   "gift_p5_p50": [
+    107387,
+    151398
+   ],
+   "p_laura_half_sold": 0.0,
+   "cosponsor_cost_pct_E094": 8.83,
+   "cosponsor_cost_pct_E05": 4.92,
+   "laura_2042_half_plus_release_p5_p50": [
+    2328,
+    7500
+   ],
+   "p_stocks_sold_2031": 0.8694,
+   "median_sold_2031_when_sold": 8834,
+   "p_stocks_sold_2033": 0.0,
+   "median_2033_value_given_up_by_selling_in_2031": 780
+  },
+  "MB+T top-up": {
+   "p_payment_short_over_1k": 0.0005,
+   "quoted_bottom_p5_p50": [
+    95000,
+    130000
+   ],
+   "mean_cut_vs_floor_rule": 12602,
+   "p_cut_vs_floor_rule": 0.6285,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 2,
+   "median_miss": 1734,
+   "p_top_within_1k": 0.3858,
+   "gift_p5_p50": [
+    107388,
+    151508
+   ],
+   "p_laura_half_sold": 0.1007,
+   "cosponsor_cost_pct_E094": 8.83,
+   "cosponsor_cost_pct_E05": 4.92,
+   "laura_2042_half_plus_release_p5_p50": [
+    2286,
+    7500
+   ],
+   "p_stocks_sold_2031": 0.8694,
+   "median_sold_2031_when_sold": 8834,
+   "p_stocks_sold_2033": 0.1007,
+   "median_2033_value_given_up_by_selling_in_2031": 780
+  },
+  "A+M": {
+   "p_payment_short_over_1k": 0.0001,
+   "quoted_bottom_p5_p50": [
+    95000,
+    125000
+   ],
+   "mean_cut_vs_floor_rule": 17133,
+   "p_cut_vs_floor_rule": 1.0,
+   "p_below_quoted_bottom": 0.0001,
+   "n_below": 13,
+   "median_miss": 373,
+   "p_top_within_1k": 0.5097,
+   "gift_p5_p50": [
+    107161,
+    148292
+   ],
+   "p_laura_half_sold": 0.7379,
+   "cosponsor_cost_pct_E094": 11.83,
+   "cosponsor_cost_pct_E05": 6.55
+  },
+  "C6+MC +lock": {
+   "p_payment_short_over_1k": 0.0009,
+   "quoted_bottom_p5_p50": [
+    95000,
+    130000
+   ],
+   "mean_cut_vs_floor_rule": 12602,
+   "p_cut_vs_floor_rule": 0.6285,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 1,
+   "median_miss": 2818,
+   "p_top_within_1k": 0.4404,
+   "gift_p5_p50": [
+    107388,
+    151576
+   ],
+   "p_laura_half_sold": 0.8668,
+   "cosponsor_cost_pct_E094": 8.83,
+   "cosponsor_cost_pct_E05": 4.92,
+   "laura_2042_half_plus_release_p5_p50": [
+    2355,
+    7500
+   ],
+   "p_stocks_sold_2031": 0.8694,
+   "median_sold_2031_when_sold": 8834,
+   "p_stocks_sold_2033": 0.8668,
+   "median_2033_value_given_up_by_selling_in_2031": 0
+  },
+  "MB strict +lock": {
+   "p_payment_short_over_1k": 0.0005,
+   "quoted_bottom_p5_p50": [
+    95000,
+    130000
+   ],
+   "mean_cut_vs_floor_rule": 12602,
+   "p_cut_vs_floor_rule": 0.6285,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 1,
+   "median_miss": 2226,
+   "p_top_within_1k": 0.3696,
+   "gift_p5_p50": [
+    106839,
+    150441
+   ],
+   "p_laura_half_sold": 0.0,
+   "cosponsor_cost_pct_E094": 8.83,
+   "cosponsor_cost_pct_E05": 4.92,
+   "laura_2042_half_plus_release_p5_p50": [
+    2328,
+    7500
+   ],
+   "p_stocks_sold_2031": 0.8694,
+   "median_sold_2031_when_sold": 8834,
+   "p_stocks_sold_2033": 0.0,
+   "median_2033_value_given_up_by_selling_in_2031": 780
+  },
+  "MB+T +lock": {
+   "p_payment_short_over_1k": 0.0005,
+   "quoted_bottom_p5_p50": [
+    95000,
+    130000
+   ],
+   "mean_cut_vs_floor_rule": 12602,
+   "p_cut_vs_floor_rule": 0.6285,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 1,
+   "median_miss": 2226,
+   "p_top_within_1k": 0.4148,
+   "gift_p5_p50": [
+    106839,
+    150498
+   ],
+   "p_laura_half_sold": 0.1007,
+   "cosponsor_cost_pct_E094": 8.83,
+   "cosponsor_cost_pct_E05": 4.92,
+   "laura_2042_half_plus_release_p5_p50": [
+    2286,
+    7500
+   ],
+   "p_stocks_sold_2031": 0.8694,
+   "median_sold_2031_when_sold": 8834,
+   "p_stocks_sold_2033": 0.1007,
+   "median_2033_value_given_up_by_selling_in_2031": 780
+  },
+  "A+M +lock": {
+   "p_payment_short_over_1k": 0.0001,
+   "quoted_bottom_p5_p50": [
+    95000,
+    125000
+   ],
+   "mean_cut_vs_floor_rule": 17133,
+   "p_cut_vs_floor_rule": 1.0,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 1,
+   "median_miss": 1774,
+   "p_top_within_1k": 0.5549,
+   "gift_p5_p50": [
+    106740,
+    148023
+   ],
+   "p_laura_half_sold": 0.7379,
+   "cosponsor_cost_pct_E094": 11.83,
+   "cosponsor_cost_pct_E05": 6.55
+  }
+ }
+}

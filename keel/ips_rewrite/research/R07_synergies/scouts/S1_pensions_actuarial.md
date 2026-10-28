@@ -61,7 +61,7 @@ insurer that waited paid more."
 **Logic device.** A before-and-after table of one fictional 1989 insurer against Laura, same promise length, same
 2-point fall in yields: the insurer's gap is on 100% of the book, Laura's is on the coupons only. Case study a judge
 would remember: Nissan Mutual was the first postwar failure, and the survivors then bought 42% of their assets in
-government bonds.
+government bonds. **[Window 28 Oct: Nogami (SOA, 2016) says JGBs rose from 11% to 42% of life insurers' asset mix 1995-2015; not "the survivors then bought".]**
 
 **Lands in:** Final Report (the risk section, as the real-world version of the coupon soft spot, with Laura's number
 beside it). IPS: at most a clause that names the one unlocked piece (coupons) and who covers it. Reason: the IPS
@@ -236,7 +236,7 @@ way day to day; they use stress tests.
 - Seems relevant, isn't: Lundberg's inequality needs random claims. Her payments are known to the dollar.
 - What fits: the shape of the safety curve. Extra cushion held in bonds buys safety quickly; held in stocks it buys
   it slowly, with a point where more capital cannot save it. This is a reason, in a theorem, for putting the 2028
-  deposit's first dollars in the bought floor and only the leftover interest in stocks.
+  deposit's first dollars in the bought floor and only the leftover interest in stocks. **[Window 28 Oct: analogy, not a theorem-backed reason: the Frolova-Kabanov-Pergamenshchikov result (2002) needs random claims, premium income and an infinite horizon, none of which Laura has (the scout's own caveat above).]**
 
 **Fusion hook.** With idea 3: the zones say where surplus goes, this says which asset holds the cushion. One line:
 "cushion in bonds, shared upside in stocks."
@@ -286,7 +286,7 @@ risk margin's "cost of capital" calibration, which is a policy number (not opene
   $10,000-$20,000 hold-back option in the number sheet (decision 3) gets a principled name and a way to size it.
 - The 2028 deposit is Laura's "future premium". She cannot be compelled to pay it, and the funding test should count it
   as zero. The plan does this: the ladder is bought from the 2027 money alone, and the 2028 money only buys the floor
-  and stocks. A free stress test follows: "Would the payments still be covered if the 2028 deposit never arrived?" Yes.
+  and stocks. A free stress test follows: "Would the payments still be covered if the 2028 deposit never arrived?" Yes. **[Window 28 Oct: FALSE on our own numbers. R06/L-10 (22 Oct curve, MODEL): the ladder costs more than $300k in 46-47% of paths (median gap ~$9.8k), filled from the 2028 deposit; and the coupon backstop also comes from 2028 money. Answer: "usually, not always".]**
   The range, set in 2031 after the deposit is in, never depends on it before it is paid.
 
 **Fusion hook.** With idea 2: Equitable's guarantee was in the non-replicable box and unreserved; Caplet's is in the
