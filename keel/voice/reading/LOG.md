@@ -17,7 +17,7 @@ about 60-90 pieces an hour at best. Collections (memo anthologies, letter compil
 Each entry: **Open / Best / Close** (quoted lines), **Craft** (rhythm, stance, shape), **Steal** (one move worth
 copying), **Insight** (only if there is one). What the entries add up to goes in `SYNTHESIS.md` after every 100.
 
-Count so far: **870**
+Count so far: **910**
 
 ---
 
@@ -1819,6 +1819,71 @@ farewell."). Howells (851) starts with "But", answering an objection before it i
 Benson's "Ideas" (850) are the warnings: a pattern the reader can hear, and a piece that sorts without saying. On the
 RBA side, Ellis's "The facts had changed, and we had changed our minds" (865) is the plain past-tense admission from
 synthesis 5 again, this time said as a team.
+
+## Round 2, batch 28 (29 Oct, 03:25-03:29 Sydney): 871-910
+Checked against the log's URL and title list first; none of these were there. Essays from Quotidiana
+(https://essays.quotidiana.org/), read whole; RBA 2017 speeches for the modern side. Not counted: six Quotidiana
+author index pages (Jacks, Gilman, Wharton, Cowley, Bird, Martin), used only to find URLs. Quotes marked "…" were cut at
+the reader's 125-character limit.
+
+### 871-884 · Montaigne, Essays (Cotton's translation) · fourteen more
+| # | Piece | What it shows |
+|---|---|---|
+| 871 | "Of cannibals" https://essays.quotidiana.org/montaigne/cannibals/ | He trusts his plain servant's report over learned writers, then turns the Brazilians' customs into a mirror for European cruelty. "There are defeats more triumphant than victories." Close, deadpan: "and the last was not at all amiss, for they wear no breeches." |
+| 872 | "Of coaches" https://essays.quotidiana.org/montaigne/coaches/ | "Fear springs sometimes as much from want of judgment as from want of courage." Prefers money spent on ports, roads and bridges that last to money spent on shows. Ends abruptly on the Inca king pulled down by a horseman. |
+| 873 | "Of constancy" https://essays.quotidiana.org/montaigne/constancy/ | Constancy does not forbid ducking: a sensible retreat is not cowardice. F6: "I confess I cannot forbear starting when the rattle of a harquebuse thunders in my ears". The wise man flinches but his judgment holds. |
+| 874 | "Of the inconstancy of our actions" https://essays.quotidiana.org/montaigne/inconstancy_of_our_actions/ | **"No wind serves him who addresses his voyage to no certain port."** "'Distinguo' is the most universal member of my logic." |
+| 875 | "Of the vanity of words" https://essays.quotidiana.org/montaigne/vanity_of_words/ | A rhetorician whose trade was "to make little things appear great": a great shoe for a little foot. He finds a cook's grand architectural terms are "but the paltry pieces of my own kitchen door." **Against jargon, in one image.** |
+| 876 | "Of pedantry" https://essays.quotidiana.org/montaigne/pedantry/ | F1: opens on a boyhood memory of the pedant in Italian farces. "We only labour to stuff the memory, and leave the conscience and the understanding unfurnished and void." Knowledge is worth nothing until it becomes judgment. |
+| 877 | "Of quick or slow speech" https://essays.quotidiana.org/montaigne/quick_or_slow_speech/ | "I am always worst in my own possession". He thinks best in conversation, not alone. |
+| 878 | "That we laugh and cry for the same thing" https://essays.quotidiana.org/montaigne/that_we_laugh_and_cry_for_the/ | "for everything has many faces and several aspects." Victors who weep over the enemy they beat. |
+| 879 | "That the soul expends its passions upon false objects…" https://essays.quotidiana.org/montaigne/that_the_soul_expends_passions/ | Opens on a gouty man cursing at sausages and hams. "Xerxes whipped the sea, and wrote a challenge to Mount Athos". Close, short: "But we can never enough decry the disorderly sallies of our minds." |
+| 880 | "Of the force of imagination" https://essays.quotidiana.org/montaigne/force_of_imagination/ | F6: "I am one of those who are most sensible of the power of imagination:" "Some there are who through fear anticipate the hangman;" Expectation makes the outcome. |
+| 881 | "Of sleep" https://essays.quotidiana.org/montaigne/sleep/ | **"Reason directs that we should always go the same way, but not always at the same pace."** Commanders who slept soundly before the decisive day. |
+| 882 | "Of a saying of Caesar" https://essays.quotidiana.org/montaigne/saying_of_caesar/ | "Whatever it is that falls into our knowledge and possession, we find that it satisfies not". "'tis ever the same thirst". The unknown draws both our hope and our dread. |
+| 883 | "Of posting" https://essays.quotidiana.org/montaigne/posting/ | F6: he was once good at riding post, "proper for men of my pitch, well-knit and short", but "it shakes us too much to continue it long". Then a catalogue of couriers; ends on a deflating line. |
+| 884 | "Of smells" https://essays.quotidiana.org/montaigne/smells/ | "To smell, though well, is to stink:" "Of smells, the simple and natural seem to me the most pleasing." |
+
+### 885-901 · Jacks, Martin, Cowley, Bird, Wharton, Gilman, Vernon Lee, Temple, Colton · essays
+| # | Piece | What it shows |
+|---|---|---|
+| 885 | L. P. Jacks, "The Usurpation of Language" https://essays.quotidiana.org/jacks/usurpation_of_language/ | **"The fact 'in words' is one thing: the fact is another."** "Words are the shifting detritus of the ages". Argues against abstractions in prose thick with them; a warning as well as a point. |
+| 886 | Edward Sanford Martin, "The Tyranny of Things" https://essays.quotidiana.org/martin/tyranny_of_things/ | Opens on Patagonians who own nothing. **"A big house is one of the greediest cormorants which can light upon a little income."** "Presently he begins to realize that it is the things that own him." Close: a larger income narrows the friends one can afford. |
+| 887 | Cowley, "Of Myself" https://essays.quotidiana.org/cowley/myself/ | "It is a hard and nice subject for a man to write of himself;" Ends in verse: "Take an estate neither too great nor small, / Which quantum sufficit the doctors call;" and "Enjoy the present hour, be thankful for the past, / And neither fear, nor wish the approaches of the last." |
+| 888 | Cowley, "Of Greatness" https://essays.quotidiana.org/cowley/greatness/ | Opens by borrowing Montaigne's joke: since we cannot attain greatness, "let us have our revenge by railing at it". "I confess I love littleness almost in all things." "a low fortune is better guarded and attended than a high one." |
+| 889 | Cowley, "Of Agriculture" https://essays.quotidiana.org/cowley/agriculture/ | "To be a husbandman, is but a retreat from the city; to be a philosopher, from the world." Land's wealth grows slowly, as crops ripen. (The page's last paragraph seems to come from another text; not used.) |
+| 890 | Cowley, "Of Solitude" https://essays.quotidiana.org/cowley/solitude/ | Opens on a Latin saying that "is now become a very vulgar saying." "Poor Scipio understood not how to live." |
+| 891 | Isabella Bird, "Lake Tahoe" https://essays.quotidiana.org/bird/lake_tahoe/ | "I have found a dream of beauty at which one might look all one's life and sigh." Then backs up and tells the journey. "Not lovable, like the Sandwich Islands, but beautiful in its own way!" |
+| 892 | Edith Wharton, "Reverence" https://essays.quotidiana.org/wharton/reverence/ | F1, opens on dialogue: "Take care! Don't eat blackberries! Don't you know they'll give you the fever?" **"Reverence is the life-belt of those whose home is on a raft"**. "It is stupid to deprive one's self of blackberries for a reason one has forgotten". |
+| 893 | Edith Wharton, "February" (Paris in wartime) https://essays.quotidiana.org/wharton/february/ | **F1 in five words: "February dusk on the Seine."** "The faces of the houses are all blind." |
+| 894 | Charlotte Perkins Gilman, "Why Women Do Not Reform Their Dress" https://essays.quotidiana.org/gilman/why_women_do_not_reform/ | Opens on the obvious answer so it can knock it down: "namely, that women are fools." Weighs body against social cost. Close returns to the title: "And this is why women do not reform their dress." |
+| 895 | Gilman, "On Advertising for Marriage" https://essays.quotidiana.org/gilman/advertising_for_marriage/ | **First sentence: "Why not?"** Answers objections one by one. "If they are made in heaven let us try some earth-made ones." Ends on a question. |
+| 896 | Vernon Lee, "In Praise of Silence" https://essays.quotidiana.org/lee/praise_of_silence/ | "Words are not necessarily companionable, far from it; but moods truly meet". |
+| 897 | Vernon Lee, "Against Talking" https://essays.quotidiana.org/lee/against_talking/ | "Talking, take my word for it, is the true villain of the couple." Close: "Well and to return to what we were saying last night…" The essay ends by talking. |
+| 898 | Vernon Lee, "Limbo" https://essays.quotidiana.org/lee/limbo/ | Opens on Dante beside a shabby children's playhouse, and **returns to the playhouse at the end**. "Look in my face: My name is Might-have-been." (Rossetti.) |
+| 899 | Temple, "Heads Designed for an Essay on Conversations" https://essays.quotidiana.org/temple/heads_for_conversation/ | Notes, not an essay: "Men talk without thinking, and think without talking." "Flattery, like poison, requires of all others the finest infusion." |
+| 900 | Temple, "An Essay upon the Cure of the Gout" https://essays.quotidiana.org/temple/essay_upon_the_cure/ | Simple remedies over the physicians' elaborate ones. "Temperance, that virtue without pride, and fortune without envy". |
+| 901 | Colton, "Ancients and Moderns" https://essays.quotidiana.org/colton/ancient_and_moderns/ | Dwarf on a giant's shoulders. "the eagle of science herself could not soar until her wings were grown." Close: "He frankly decided in favour of the latter." |
+
+### 902-910 · Reserve Bank of Australia, 2017 · speeches
+| # | Piece | What it shows |
+|---|---|---|
+| 902 | Debelle, "Global Influences on Domestic Monetary Policy" (Jul 2017) https://www.rba.gov.au/speeches/2017/sp-dg-2017-07-21.html | Calls his own thesis a "probably obvious point". "we don't have the independence to set the neutral rate," Animal spirits "switch from being self-fulfillingly negative to self-fulfillingly positive." |
+| 903 | Debelle, "Recent Trends in Australian Capital Flows" (Apr 2017) https://www.rba.gov.au/speeches/2017/sp-dg-2017-04-06.html | Skips housing on purpose. "The money does not necessarily flow in and out of the country, it is just recorded as such in the balance of payments." Notes a falling Australian dollar raised the local value of super funds' foreign shares. |
+| 904 | Lowe, "Australia and Canada – Shared Experiences" (Feb 2017) https://www.rba.gov.au/speeches/2017/sp-gov-2017-02-22.html | "For many, this is a sobering combination." "We are still learning how households respond to higher debt levels and lower nominal income growth." |
+| 905 | Heath, "The Louisa Macdonald Oration" (May 2017) https://www.rba.gov.au/speeches/2017/sp-so-2017-05-22.html | Family stories (her grandmother's and aunt's careers) carry a history of women's work. "After all, gender equality cuts both ways." |
+| 906 | Kearns, "Australian Property – Financial Stability and Foreign Involvement" (Nov 2017) https://www.rba.gov.au/speeches/2017/sp-so-2017-11-20.html | "This was a classic boom-bust or 'hog cycle' story." "We have seen this before". Warns against dismissing unlikely scenarios even when stress tests pass. |
+| 907 | Lowe, "Renminbi Internationalisation" (Apr 2017) https://www.rba.gov.au/speeches/2017/sp-gov-2017-04-27.html | "An internationalised currency can't be achieved overnight." "When Australia opened its capital account the rest of the world hardly paid attention." |
+| 908 | Kohler, "Mortgage Insights From Securitisation Data" (Nov 2017) https://www.rba.gov.au/speeches/2017/sp-so-dm-2017-11-20.html | "Good afternoon." … "Thank you." Plain data prose: "Very few borrowers actually pay the SVR (or a higher interest rate)." |
+| 909 | Kent, "Some Innovative Mortgage Data" (Aug 2017) https://www.rba.gov.au/speeches/2017/sp-ag-2017-08-14.html | **"What matters when it comes to financial stability is not what the average borrowers are doing"**: it is the ones with thin buffers. |
+| 910 | Heath, "Skills for the Modern Workforce" (Dec 2017) https://www.rba.gov.au/speeches/2017/sp-so-2017-12-01.html | "Word processing and spreadsheets mean we no longer have typing pools and manual ledgers". Ends: "Instead of talking for longer, I thought the best thing to do would be to play this short video". |
+
+Batch 28 note: the shortest openings in the log so far came in one hour: Gilman's "Why not?" (895), Wharton's
+"February dusk on the Seine." (893) and Kohler's "Good afternoon." (908). The first two do real work in two and five
+words: one answers an objection before it is spoken, the other puts the reader on a riverbank. Gilman (894) and Lee
+(898) both close by returning to where they began, the title or the playhouse. Montaigne's "Of the vanity of words"
+(875) is the anti-jargon rule in one image: grand terms that turn out to be "the paltry pieces of my own kitchen door."
+Jacks (885) is the warning: an essay against abstraction written in abstractions.
 
 ### Re-reads in batch 4 (not counted)
 Fourteen pieces in this batch had already been logged (the batch's source list was wrong). They are kept here
