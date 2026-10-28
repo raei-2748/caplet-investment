@@ -6,6 +6,7 @@
 
 | Date (Sydney) | Room | Output (link) | Score aimed at | Used by (filled later) |
 |---|---|---|---|---|
+| Wed 28 Oct 12:45 | Library | Beat 4 (Go out): 3 scouts, 9 finds, 9/9 quotes verified at the page; cure with a birthday (retainage securities), the 2033 check as a 'block', 'the actual amount purchased'; slip S-06; LC-04 (SVB true as written, CLO, Rev. Proc. 2016-42); bank #56-59; 3 requests closed, 1 filed: `../office/outbox/2026-10-28_library_the-block-and-the-bought-amount.md` | IS, PA, CK; N3, N4 | |
 | Wed 28 Oct 10:45 | Trading Desk (markets and rules check) | No breach in the book; NEW near-breach: V26 recommends "Treasury bills" (not seen on WInS); trading-activity and AI_USE.md still open; no curve after 22 Oct: `../office/checks/2026-10-28.md` | IS, PA | |
 | Wed 28 Oct 09:55 | Window | Gate beat: 34 scout claims (7 false/overstated) + numbers re-run (5 mismatches), marked in place; 3 official files checked, manifest fix PR #70; own find thin-coupon twins W-01: `../office/outbox/2026-10-28_window_thin-coupons-and-four-wrong-sos.md` | IS, PA, N4 | |
 | Wed 28 Oct 07:40 | Noticeboard (daily loop) | Round 1 gathered `../loop/rounds/2026-10-28.md` (Q1 via the birthday rule; lens 2; three unvisited fields); Kitchen 27 Oct merged in from the day branch; board groomed; brief; ep 32 | N3, N4, IS | |
