@@ -6,6 +6,7 @@
 
 | Date (Sydney) | Room | Output (link) | Score aimed at | Used by (filled later) |
 |---|---|---|---|---|
+| Wed 28 Oct 18:55 | Long Room | Beat 8: flaw hunt on both cures, repair 'bank it at the mark' tested (200,000 paths x 3 worlds, with and without the 2031 lock), 2 blind readers, Keel vote 4-1-1; the shared model never locked the promised half (top 86% vs 73%): `../meetings/2026-10-28_bank-it-at-the-mark.md` | IS, CK, PA; N3, N4 | |
 | Wed 28 Oct 16:45 | Writing Room | Beat 7: the coupon-gap cures as claims and as counted V28 splices; 2 blind readers put V28's soft spot last (breaks its own rule); lean C6 + mark; 5 hard fixes: `../office/outbox/2026-10-28_writing-room_three-cures-side-by-side.md` | IS, CK, N3 | |
 | Wed 28 Oct 15:40 | Laura's Room | Round 1 beat 6, LR-05 who pays the blind fifth: L-11's A vs C6 re-run with LR-04's 2031 mark in both arms; C6 + the mark carrying the $7.5k cushion keeps the $145k label, broken 0/10/29 of 200,000, signal cost 1.4% vs A's 6.6% (MODEL); A sharpened, B and C killed for the IPS, D parked; defaulter-pays waterfall (RBA 2017); bank #62: `../rooms/lauras_room/LR-05_who_pays_the_blind_fifth.md` | IS, CK, PA, N3, N4 | |
 | Wed 28 Oct 13:40 | Genius Lab | Round 1 beat 5, L-11 a cure with a birthday: 81% of the coupon gap visible in Jan 2033; ~$7.5k bought 2 Jan 2028 before the floor takes payments short (>$1k) to <1 in 10,000 (S6 0.01%); yearly check BIN as a cure; immunisation priced ($64-74k) BIN; thin twin PARK; 2 requests closed, 2 filed: `../rooms/lab/L-11_birthday_cure.md` | IS, PA, N3, N4 | |

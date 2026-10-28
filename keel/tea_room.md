@@ -141,6 +141,7 @@ co-sponsor a number she doesn't already own."**
 | Sat 24 Oct 11:00 | 2 | 2 | Lab (one dial, buffer) and Library (defence in depth) | All |
 | Sat 24 Oct 18:20 | 2 | 2 | After Root & Branch: cold naming test, Monday's default | All |
 | Mon 26 Oct 18:30 | 1 | 1 | One motif for the rewrite: XR explains 4 of 9 investing ideas; name + one sentence (B, 3-2-1) | All |
+| Wed 28 Oct 18:20 | 1 | 1 | Coupon-gap cure, beat 8: bank it at the mark (4-1-1); Kai's catch, the model never locked the promised half (top 86%, not 73%) | All |
 
 ## Calendar (Sydney)
 TNA Sat 24 Oct 08:00 (Keel submits Fri 23 Oct 20:00) · IPS + trading freeze Sat 7 Nov 09:00 (last U.S. fill 08:00) ·
