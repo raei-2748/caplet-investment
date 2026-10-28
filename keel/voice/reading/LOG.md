@@ -1757,7 +1757,7 @@ joke is on his own trade.
 Checked against the log's URL and title list first; none of these were there. Essays from Quotidiana
 (https://essays.quotidiana.org/), read whole; RBA 2017 speeches for the modern side. Not counted: eight Quotidiana
 author index pages (Howells, Benson, Montaigne, Colton, Zitkala-Sa, Temple, Eliot, Lee) and the RBA's 2017 list page,
-used only to find URLs. Montaigne's "Of experience" (838) is long and was read in two passes. Quotes marked "…" were cut
+used only to find URLs. Montaigne's "Of experience" (838) is long and was read in two passes. Correction (29 Oct, synthesis 6 check): 833, 837 and 838 turned out to be essays first read from other editions (463, 317, 442), so they are marked as re-reads and three new pieces (1001-1003) replace them in the count. Quotes marked "…" were cut
 at the reader's 125-character limit.
 
 ### 831-847 · Montaigne, Essays (Cotton's translation) · seventeen essays
@@ -1765,12 +1765,12 @@ at the reader's 125-character limit.
 |---|---|---|
 | 831 | "That men should not judge of our happiness till after our death" https://essays.quotidiana.org/montaigne/that_men_should_not_judge/ | Opens on Croesus and Solon's maxim, then piles up great men undone at the end. "I have seen many by their death give a good or an ill repute to their whole life." **The last act judges the whole run.** |
 | 832 | "That the profit of one man is the damage of another" https://essays.quotidiana.org/montaigne/that_the_profit_of_one_man/ | "A physician takes no pleasure in the health even of his friends". A one-page essay: an anecdote, a list of trades, a turn on the reader's own secret wishes. |
-| 833 | "To the reader" https://essays.quotidiana.org/montaigne/to_the_reader/ | "Reader, thou hast here an honest book…" "for it is myself I paint." Close: **"Therefore farewell."** Two words. |
+| 833 | "To the reader" https://essays.quotidiana.org/montaigne/to_the_reader/ | **Re-read, not counted: the same text as 463.** "Reader, thou hast here an honest book…" "for it is myself I paint." Close: **"Therefore farewell."** Two words. |
 | 834 | "Of thumbs" https://essays.quotidiana.org/montaigne/thumbs/ | A string of thumb facts that stops on a Spartan teacher biting a pupil's thumb. No moral drawn; the stop is the joke. |
 | 835 | "That men by various ways arrive at the same end" https://essays.quotidiana.org/montaigne/that_men_by_various_ways/ | Sets up a claim (courage wins mercy as well as submission does), proves it twice, then breaks it with Alexander at Thebes. "Man (in good earnest) is a marvellous vain, fickle, and unstable subject". **He lets his own evidence beat him.** |
 | 836 | "Of idleness" https://essays.quotidiana.org/montaigne/idleness/ | Fallow land grows weeds; so does a mind with nothing to do. "He who lives everywhere, lives nowhere." He writes his fancies down "hoping in time to make it ashamed of itself." |
-| 837 | "That to study philosophy is to learn to die" https://essays.quotidiana.org/montaigne/that_to_study_philosophy/ | "The premeditation of death is the premeditation of liberty". A list of absurd deaths (a tile, a grape stone) to show that danger hastens death very little. Advice: keep your affairs in order and be ready to leave. |
-| 838 | "Of experience" https://essays.quotidiana.org/montaigne/experience/ | "There is no desire more natural than that of knowledge." "Never did two men make the same judgment of the same thing". Late: "Have you known how to meditate and manage your life? you have performed the greatest work of all." "We are all wind throughout." |
+| 837 | "That to study philosophy is to learn to die" https://essays.quotidiana.org/montaigne/that_to_study_philosophy/ | **Re-read, not counted: another translation of 317.** "The premeditation of death is the premeditation of liberty". A list of absurd deaths (a tile, a grape stone) to show that danger hastens death very little. Advice: keep your affairs in order and be ready to leave. |
+| 838 | "Of experience" https://essays.quotidiana.org/montaigne/experience/ | **Re-read, not counted: first read as 442.** "There is no desire more natural than that of knowledge." "Never did two men make the same judgment of the same thing". Late: "Have you known how to meditate and manage your life? you have performed the greatest work of all." "We are all wind throughout." |
 | 839 | "Of repentance" https://essays.quotidiana.org/montaigne/repentance/ | "Others form man; I only report him…" **"I do not paint its being, I paint its passage;"** He judges a past decision by what he knew when he made it, not by how it turned out. Close: "I am content the world may know, when I am fallen, from what I fell." |
 | 840 | "Of the parsimony of the ancients" https://essays.quotidiana.org/montaigne/parsimony_of_the_ancients/ | F4 in miniature: Regulus's farmhand runs off with his tools, so the Senate makes his losses good; Cato never wore a gown "that cost above ten crowns". Small sums carry the whole argument. |
 | 841 | "Tomorrow's a new day" https://essays.quotidiana.org/montaigne/tomorrows_a_new_day/ | A man sets aside an urgent letter: "Business tomorrow." Then leaders who lost a city or a life by putting the news off. The essay ends conceding that no rule can be exact. |
@@ -1950,7 +1950,7 @@ at once. Lowe's tribute to Stevens (916) ends on a name.
 
 ## Round 2, batch 30 (29 Oct, 05:38-05:43 Sydney): 950-1000
 Checked against the log's URL and title list first; no RBA 2015 speech was in the log, and none of the essays were.
-This batch reaches **1,000**. Half modern: twenty-six RBA speeches from 2015, the year Stevens and Lowe spent explaining
+This batch was meant to reach 1,000; with three re-reads found in batch 27 (833, 837, 838), the count reached 997, and 1001-1003 below bring it to **1,000**. Half modern: twenty-six RBA speeches from 2015, the year Stevens and Lowe spent explaining
 a world of very low yields. Then twenty-five essays from Quotidiana (https://essays.quotidiana.org/), read whole, which
 finishes the archive's De Quincey, Wollstonecraft, Cowper and Montaigne pages. Not counted: the RBA 2015 list page.
 Quotes marked "…" were cut at the reader's 125-character limit.
@@ -2021,6 +2021,13 @@ then it burst." (969); "Over to you." (958). Three speeches re-check their own p
 "As a White Slave" (986) is F4 at its strongest in the whole log: wages per hundred boxes, said flat, then one line,
 "Cheap labor, isn't it?". De Quincey's late essays (978, 980) are the opposite pole: grand, musical, and unusable for
 an IPS. Montaigne's run ends (1,000) on judging by foundations rather than results.
+
+### 1001-1003 · replacements for the three re-reads in batch 27 (29 Oct, 06:48 Sydney)
+| # | Piece | What it shows |
+|---|---|---|
+| 1001 | Montaigne, "Of the education of children" https://essays.quotidiana.org/montaigne/education_of_children/ | Opens on a father who loves even a "decrepit or deformed" son, as Montaigne loves his own essays. **"To know by rote, is no knowledge"**. "Away with this violence! away with this compulsion!" Judgment over memory; learning shown in conduct. (The last 6,500 characters were not read.) |
+| 1002 | Ellis, opening statement to the House Economics Committee inquiry into home ownership (Aug 2015) https://www.rba.gov.au/speeches/2015/sp-so-2015-08-06.html | "But there is no disputing that housing is expensive." "These were one-off changes, so this transition will not be repeated." Plain committee prose. |
+| 1003 | Stevens, "Issues in Economic Policy" (Jul 2015, Anika Foundation) https://www.rba.gov.au/speeches/2015/sp-gov-2015-07-22.html | "Monetary policy works partly by prompting risk-taking behaviour." "This is not a credit crunch – lenders are willing to lend and competition to do so is strong." Close: "I hope to see you again in another year for a new round of challenges." |
 
 ### Re-reads in batch 4 (not counted)
 Fourteen pieces in this batch had already been logged (the batch's source list was wrong). They are kept here

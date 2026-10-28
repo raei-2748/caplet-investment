@@ -90,6 +90,7 @@ AI": if AI-likeness is ever checked, a student pastes the text into a reputable 
 | s8-s9 built on 186 pieces | s8 and s9 notes from 312 pieces | Synthesis 3, 28 Oct (`reading/SYNTHESIS.md`): F4 openings, own a mistake with its number, earned short closes. |
 | s8-s9 notes from 312 pieces | s8 and s9 notes from 501 pieces | Synthesis 4, 28 Oct (`reading/SYNTHESIS.md`): doubt the forecast once and say the plan flat; translate yourself; one frame, used once; a close that hands the reader the next move. |
 | s8-s9 notes from 501 pieces | s8 and s9 notes from 765 pieces | Synthesis 5, 28 Oct (`reading/SYNTHESIS.md`): short first and last lines; open on a small thing or the reader's objection; one object returns at the end; admit in plain past tense; jokes against your own side; numbers said flat. |
+| s8-s9 notes from 765 pieces | s8 and s9 notes from 1,000 pieces | Synthesis 6, 29 Oct (`reading/SYNTHESIS.md`): the first words carry the argument or answer the objection; stop without summing up; a loss shown through one object or one flat sum; quote and check your own past forecast; three rules or one chain as the short form of a plan. |
 
 ## 7. The room we're pitching to (Ray, 27 Oct: "Judges are not examiners ... judges are shark tanks")
 Added by the rewrite thread. An examiner checks boxes; a Shark Tank investor decides in a minute whether to believe
@@ -141,6 +142,12 @@ Pieces 502-765 (synthesis 5) add two things. F3 lands only in plain grammar: fir
 aimed at your own side (Debelle's black swans "living in Perth"), never at the reader; listing how to fail (Munger's
 misery speech) is the way to be funny and serious at once.
 
+Pieces 766-1003 (synthesis 6) add two more. F4 lands through one object or one flat sum and then a very short line:
+Tomlinson's dead town comes alive through a shop ledger in the rubble; Bly gives the factory wages per hundred boxes and
+says only "Cheap labor, isn't it?". And F3 is strongest when the writer quotes their own earlier forecast and checks
+it in public: "This is far from the biggest forecast error I've seen over my three decades in this game." (Stevens);
+"The facts had changed, and we had changed our minds." (Ellis).
+
 **Spend it like kickers.** One F-move per paragraph at most; in the IPS, F2 and F3 carry the weight and F6 appears
 once, if at all. Feeling is the reason a judge keeps reading; the investing knowledge (north star 4) is the reason
 they believe. Neither replaces the other.
@@ -181,3 +188,11 @@ shorter still, an act rather than a lesson ("She is dead."; "You lay it down.").
 start can come back in the last line (Bogle's "Enough"); that is the motif's only encore. Numbers are said flat:
 Swift's "Modest Proposal" shows calm arithmetic is the strongest voice there is. And Belloc's warning is the one to
 pin up: "single lines, tags, fine phrases … are no sign whatever of returning health".
+
+From synthesis 6: the first words do the arguing. A title or opening of two to five words can carry the whole case
+("Buffers and Options"; "Why not?"; "February dusk on the Seine."), and a question works when the answer comes in the
+next sentence. Answering the reader's objection can start with the very first word ("But"). Stop without summing up:
+a name, "Over to you.", or "Therefore farewell." The short form of a plan is three rules a listener could repeat, or
+one chain of "which means". Three new warnings: a rhythm the reader can hear coming (Colton's "a drum, or a despot: a
+trumpet, or a tyrant"), arguing against abstraction in abstractions, and grand music (late De Quincey). None of this is
+a count or a test to pass; it is what to listen for when a draft is read aloud.

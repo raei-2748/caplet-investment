@@ -264,8 +264,97 @@ Huxley, Repplier, Meynell, Alexander Smith, and the comic essayists Milne, Jerom
 a piece: the first line, the last line, and the one thing that connects them. The middle of a good piece can be
 plain; the edges can't.
 
+## Synthesis 6 (after 1,000 pieces, 29 Oct)
+New since synthesis 5 (`LOG.md` 766-1003; 833, 837 and 838 were re-reads, so three pieces were added to reach 1,000): Bacon, Goldsmith, Steele, Chesterton, Stevenson and Leigh Hunt; the rest
+of the essay archive's De Quincey, Tomlinson, Wollstonecraft, Cowper and Vernon Lee; Montaigne read whole (all 50
+of the archive's essays, three of them first read earlier in other editions); Benson, Howells, Temple, Colton, Cowley, Martin, Jacks, Eliot,
+Gilman, Wharton, Bly, Bird, Fuller and Zitkala-Sa; and about seventy more Reserve Bank of Australia speeches from 2015,
+2016 and 2017, the years Stevens handed over to Lowe and both explained a world of very low yields.
+
+1. **The title or the first words carry the argument.** "Buffers and Options" (912) and "An Accounting" (911) are
+   whole speeches in two or three words. The shortest first lines in the log came in this stretch and each does a
+   job: "Why not?" (895) answers an objection before it is spoken; "What gave me the idea?" (929) and "What is to be
+   thought of sudden death?" (976) ask and then answer at once; "February dusk on the Seine." (893) puts the reader
+   on a riverbank in five words. Synthesis 1 marked the question opener "good once"; these show why it works: the
+   answer comes in the next sentence, not the next page. The IPS form has no title, so the pitch's first words are
+   the title.
+2. **Say the objection first, in the reader's words.** Howells starts with "But" (851). Gilman gives the obvious
+   answer, "namely, that women are fools" (894), only to knock it down. Montaigne quotes a saying and then tests it
+   (847: "'Tis a saying, "That death discharges us of all our obligations.""). This sharpens synthesis 5's point 2:
+   a judge reading a growth competition entry built mostly on bonds has an objection ready, and the IPS can say it
+   in the first sentence.
+3. **A loss is felt through one object or one flat sum, then one short line.** Tomlinson's dead town comes alive
+   through a corn-chandler's ledger in the rubble (936). Bly gives the factory wages flat (50 cents per hundred
+   boxes; $1.50 a week after two unpaid weeks) and then says only "Cheap labor, isn't it?" (986). Montaigne's
+   frugal Romans are a stolen set of farm tools and a gown that never "cost above ten crowns" (840). This is F4 at
+   its strongest in the whole log, and it is synthesis 5's "numbers flat" with a kicker: the sum, then four words.
+4. **Mark your own homework in public.** Lowe re-checks a speech he gave six years earlier (918); Stevens re-checks
+   his 2009 speech (953) and calls a miss "far from the biggest forecast error I've seen over my three decades in
+   this game" (961); Kent sets the Bank's forecast beside the outcome, half of it missed (919); Ellis: "The facts had
+   changed, and we had changed our minds." (865). Synthesis 3 said a mistake is believed when it has a number, and
+   synthesis 5 added plain past tense; this adds the setting: the writer's own earlier words, quoted back. The Final
+   Report can do exactly this with the IPS (FRB-110).
+5. **The short form of a plan: three rules or one chain.** Ellis ends on three rules a teenager could repeat: go in
+   with your eyes open, don't get ahead of yourself, have something to catch you if you fall (913). Lowe puts a
+   whole causal chain in one sentence of "which means" links (868). Both fit the IPS's budget of three rules and one
+   trade-off, and Book 9's call for visible logic.
+6. **Stop; don't sum up.** Montaigne ends on a Spartan teacher biting a thumb, with no moral (834), on a comic twist
+   (997), on "Therefore farewell." (463); he even lets his own evidence beat his thesis and stops there (835). The
+   RBA's speakers end on a name (916: "Glenn Stevens.") and on "Over to you." (958). Synthesis 5's "an act, not a
+   lesson" holds across a thousand pieces.
+7. **Warnings from this stretch.** De Quincey's late prose (978, 980) is grand, musical and no use for an IPS;
+   Colton's triplets, "a drum, or a despot: a trumpet, or a tyrant: a fife, or a fool" (853), are a pattern the reader
+   can hear coming; Jacks argues against abstraction in abstractions (885); Benson's "Ideas" sorts without ever
+   saying (850). These are the AI-prose faults (rhythm on display, abstraction, sorting) in human hands.
+
+### Looking back over 1,000 pieces
+Six moves held from synthesis 1 to synthesis 6, each confirmed by writers centuries and fields apart:
+- **The voice is the working and the opinions, not the sentences** (syntheses 1-2): Marks and Buffett for decades
+  (028-039, 072-076), Damodaran's impostor who copied everything but the reasoning (184), Montaigne's "I do not paint
+  its being, I paint its passage" (839).
+- **A mistake is believed when it is measured and admitted in the past tense** (syntheses 3, 5, 6): Buffett's USAir
+  at "25 cents on the dollar" (283), Lowe's "we did do too much" (595), Stevens's forecast error (961), Ellis (865).
+- **Doubt once, about the future; say the plan flat** (synthesis 4): "Uncertainty is one of the few certainties in
+  monetary policy decision-making." then the modal forecast (806); "The simple answer is 'not very'." (970).
+- **The edges carry the piece** (syntheses 1, 3, 5, 6): short first lines, shorter last lines, and a close that acts
+  ("This is water.", 078; "Make good art.", 651; "Over to you.", 958).
+- **One frame or object, set up once and paid off once** (syntheses 4-5): Bogle's "Enough" (644), Lee's playhouse at
+  both ends of "Limbo" (898), Kent's botany at both ends of a speech on monetary policy (968).
+- **Numbers said flat** (syntheses 3, 5, 6): Swift (739), Buffett's mills shrinking from $53 million to $22 million
+  (278), Bly (986).
+
+The warnings held too: endings that state the lesson (089, 090 and most of the Hopkins winners), formality that
+signposts ("Firstly ... Secondly", 080-087), advice about stories that tells none (065), the motif dragged into every
+paragraph (Hazlitt's man with one idea, 682), "single lines, tags, fine phrases" (Belloc, 765), and grand music (De
+Quincey, 978). One early call changed: synthesis 1's "bad news first" became "early, small and in the middle"
+(synthesis 2, Lincoln 166).
+
+**Investing finds from this stretch (idea bank FRB-87 to FRB-116).** Thirty rows, among them: plan on the likely path
+and own the floor (FRB-87, Debelle); mandate constraints (FRB-88); a thousand ways to miss, one way to hit (FRB-91,
+Montaigne); judge the plan at the tenth cheque (FRB-92, Solon); the facts changed, so we changed our minds (FRB-94,
+Ellis); plan for the thin buffer, not the average (FRB-99, Kent); three rules a judge can repeat (FRB-107, Ellis);
+never sell when the tide goes out (FRB-109, Debelle); mark our own homework (FRB-110); finance depends on trust
+(FRB-114, Stevens). The three that matter most for the IPS:
+- **FRB-112, 2015 was the expensive year and 2026 is the cheap one.** In 2015 savers "have to accept a lot more risk
+  to generate the expected flow of future income they want" (Stevens, 963). Laura meets the reverse: at today's
+  yields her ten cheques cost less than her first deposit, so she buys them outright and takes no risk for them.
+  This is the "why now" behind Caplet XR, and it is the plan's best candidate for a judge's "aha". It needs the
+  current ladder cost from the number sheet before it is used.
+- **FRB-106, stronger buffers give more options** (Lowe, 912). The headroom above the ladder is not slack; it is
+  the 2031 range's upside and the room for an overrun after 2033, and its price is the return the protected money
+  gives up. It ties the range, the leftover money and the cost of protection into one idea.
+- **FRB-93, promise only what you can perform** (Montaigne, 847). The bottom of the 2031 range is what Laura already
+  owns; only the top is a forecast. With FRB-114 (trust) it is the rule for the co-sponsor sentence.
+
+**What 1,000 pieces taught that 765 did not.** Synthesis 5 was about the edges of a piece. Synthesis 6 is about what
+the edges are for: the first words say the argument or answer the objection, and the last words stop. In between, a
+loss is shown through one object or one flat sum, and a past forecast is quoted back and checked.
+
 ## Next
-765 reached on Wed 28 Oct, 22:30 Sydney. Reading continues toward 1,000 at about 30-35 pieces an hour; synthesis 6
-at about 1,000. Thin areas still worth reading: sell-side and bank research written well, Substack writers, Woolf,
-Baldwin and Zadie Smith in full, more founder and fund letters, and more counter-examples, since they show the gap
-fastest. Quotidiana (https://essays.quotidiana.org/) still has authors not yet read.
+The target of 1,000 pieces was reached on Thu 29 Oct, 06:48 Sydney (`LOG.md` 001-1003, with re-reads marked and not
+counted). Reading now serves one thing: the IPS draft for review on Sat 31 Oct (Book 9). The Writing Room can
+test that draft against syntheses 5 and 6: do the pitch's first words carry the argument or answer the objection; does
+the IPS stop on an act; is there one loss shown through one object or one flat sum; is the one doubt about the future
+said once; does one object (the tenth cheque) come back at the end. Further reading only where a draft shows a gap,
+not as a running target. Thin areas still unread, if needed: sell-side research written well, Substack writers,
+Baldwin and Zadie Smith in full, more founder and fund letters.
