@@ -1,0 +1,1332 @@
+{
+ "stamp": "curve 22 Oct 2026 | J.P. Morgan 2027 global equities 7.5% | 200,000 paths, seed 20261016 | MODEL",
+ "S0 base, rates and stocks independent": {
+  "blind_spot": {
+   "p_shortfall_over_1k": 0.4709,
+   "share_of_shortfall_dollars_after_2033": 0.1894,
+   "median_share_after_2033_when_over_1k": 0.1578,
+   "p_visible_in_2033_over_1k": 0.4678,
+   "p_appears_only_after_2033_over_1k": 0.0369,
+   "median_S33_and_extra_when_over_1k": [
+    10138,
+    2326
+   ],
+   "shortfall_p50_p95_p99": [
+    0,
+    25111,
+    32604
+   ],
+   "extra_p95_p99_p999": [
+    5462,
+    7146,
+    8749
+   ],
+   "stock_fund_B0_p50": 31082,
+   "bill_growth_2028_33_p50": 1.2292
+  },
+  "D0 no rule (L-10 base)": {
+   "p_payment_short_over_1": 0.0677,
+   "p_payment_short_over_1k": 0.059,
+   "median_short_when_short": 3154,
+   "p_laura_half_sold_for_payments": 0.3724,
+   "median_sold_when_sold": 8907,
+   "gift_2033_p5_p50": [
+    136842,
+    165528
+   ],
+   "p_top_reached_within_1k": 0.7672,
+   "p_below_bottom_2033": 0.0075,
+   "top_p50": 166292,
+   "bottom_p50": 145000
+  },
+  "D1 2033 set-aside, cushion 0k": {
+   "p_payment_short_over_1": 0.2676,
+   "p_payment_short_over_1k": 0.2278,
+   "median_short_when_short": 3163,
+   "p_laura_half_sold_for_payments": 0.3354,
+   "median_sold_when_sold": 7974,
+   "gift_2033_p5_p50": [
+    136842,
+    165528
+   ],
+   "p_top_reached_within_1k": 0.7672,
+   "p_below_bottom_2033": 0.0075,
+   "top_p50": 166292,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 0,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    0,
+    42266
+   ]
+  },
+  "D1 2033 set-aside, cushion 5k": {
+   "p_payment_short_over_1": 0.0501,
+   "p_payment_short_over_1k": 0.0208,
+   "median_short_when_short": 804,
+   "p_laura_half_sold_for_payments": 0.6633,
+   "median_sold_when_sold": 5095,
+   "gift_2033_p5_p50": [
+    135155,
+    165472
+   ],
+   "p_top_reached_within_1k": 0.7425,
+   "p_below_bottom_2033": 0.0157,
+   "top_p50": 166292,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 5000,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    1812,
+    38292
+   ]
+  },
+  "D1 2033 set-aside, cushion 7.5k": {
+   "p_payment_short_over_1": 0.0034,
+   "p_payment_short_over_1k": 0.0007,
+   "median_short_when_short": 429,
+   "p_laura_half_sold_for_payments": 0.7078,
+   "median_sold_when_sold": 7500,
+   "gift_2033_p5_p50": [
+    133979,
+    165426
+   ],
+   "p_top_reached_within_1k": 0.7266,
+   "p_below_bottom_2033": 0.0215,
+   "top_p50": 166292,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 7500,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    3991,
+    36255
+   ]
+  },
+  "D1 2033 set-aside, cushion 10k": {
+   "p_payment_short_over_1": 0.0,
+   "p_payment_short_over_1k": 0.0,
+   "median_short_when_short": 237,
+   "p_laura_half_sold_for_payments": 0.7471,
+   "median_sold_when_sold": 10000,
+   "gift_2033_p5_p50": [
+    132495,
+    165352
+   ],
+   "p_top_reached_within_1k": 0.7067,
+   "p_below_bottom_2033": 0.0291,
+   "top_p50": 166292,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 10000,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    6244,
+    34145
+   ]
+  },
+  "D1 2033 set-aside, cushion 20k": {
+   "p_payment_short_over_1": 0.0,
+   "p_payment_short_over_1k": 0.0,
+   "median_short_when_short": 0,
+   "p_laura_half_sold_for_payments": 0.8757,
+   "median_sold_when_sold": 16087,
+   "gift_2033_p5_p50": [
+    124076,
+    164599
+   ],
+   "p_top_reached_within_1k": 0.5795,
+   "p_below_bottom_2033": 0.078,
+   "top_p50": 166292,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 20000,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    15482,
+    26003
+   ]
+  },
+  "D2 birthday reserve 2.5k from fund": {
+   "p_payment_short_over_1": 0.1499,
+   "p_payment_short_over_1k": 0.0962,
+   "median_short_when_short": 1378,
+   "p_laura_half_sold_for_payments": 0.3353,
+   "median_sold_when_sold": 7671,
+   "gift_2033_p5_p50": [
+    134963,
+    164132
+   ],
+   "p_top_reached_within_1k": 0.764,
+   "p_below_bottom_2033": 0.0114,
+   "top_p50": 164858,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 3197,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    473,
+    41672
+   ]
+  },
+  "D2 birthday reserve 5k from fund": {
+   "p_payment_short_over_1": 0.0226,
+   "p_payment_short_over_1k": 0.0068,
+   "median_short_when_short": 616,
+   "p_laura_half_sold_for_payments": 0.3352,
+   "median_sold_when_sold": 7253,
+   "gift_2033_p5_p50": [
+    133000,
+    162745
+   ],
+   "p_top_reached_within_1k": 0.76,
+   "p_below_bottom_2033": 0.0168,
+   "top_p50": 163425,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 6389,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    2517,
+    41303
+   ]
+  },
+  "D2 birthday reserve 7.5k from fund": {
+   "p_payment_short_over_1": 0.0003,
+   "p_payment_short_over_1k": 0.0,
+   "median_short_when_short": 440,
+   "p_laura_half_sold_for_payments": 0.3349,
+   "median_sold_when_sold": 6754,
+   "gift_2033_p5_p50": [
+    130890,
+    161347
+   ],
+   "p_top_reached_within_1k": 0.7549,
+   "p_below_bottom_2033": 0.0248,
+   "top_p50": 161996,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 9573,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    4938,
+    41054
+   ]
+  },
+  "D2 birthday reserve 10k from fund": {
+   "p_payment_short_over_1": 0.0,
+   "p_payment_short_over_1k": 0.0,
+   "median_short_when_short": 868,
+   "p_laura_half_sold_for_payments": 0.3337,
+   "median_sold_when_sold": 6145,
+   "gift_2033_p5_p50": [
+    128601,
+    159959
+   ],
+   "p_top_reached_within_1k": 0.748,
+   "p_below_bottom_2033": 0.0356,
+   "top_p50": 160574,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 12753,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    7452,
+    40786
+   ]
+  },
+  "D2 birthday reserve 2.5k from floor": {
+   "p_payment_short_over_1": 0.1499,
+   "p_payment_short_over_1k": 0.0962,
+   "median_short_when_short": 1378,
+   "p_laura_half_sold_for_payments": 0.3354,
+   "median_sold_when_sold": 7936,
+   "gift_2033_p5_p50": [
+    134045,
+    162731
+   ],
+   "p_top_reached_within_1k": 0.7672,
+   "p_below_bottom_2033": 0.0073,
+   "top_p50": 163492,
+   "bottom_p50": 140000,
+   "release_to_laura_after_2042_p50": 3197,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    1035,
+    44303
+   ]
+  },
+  "D2 birthday reserve 5k from floor": {
+   "p_payment_short_over_1": 0.0225,
+   "p_payment_short_over_1k": 0.0068,
+   "median_short_when_short": 615,
+   "p_laura_half_sold_for_payments": 0.3354,
+   "median_sold_when_sold": 7902,
+   "gift_2033_p5_p50": [
+    131266,
+    159942
+   ],
+   "p_top_reached_within_1k": 0.7672,
+   "p_below_bottom_2033": 0.0082,
+   "top_p50": 160695,
+   "bottom_p50": 140000,
+   "release_to_laura_after_2042_p50": 6389,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    3355,
+    46607
+   ]
+  },
+  "D2 birthday reserve 7.5k from floor": {
+   "p_payment_short_over_1": 0.0003,
+   "p_payment_short_over_1k": 0.0,
+   "median_short_when_short": 369,
+   "p_laura_half_sold_for_payments": 0.3354,
+   "median_sold_when_sold": 7864,
+   "gift_2033_p5_p50": [
+    128469,
+    157155
+   ],
+   "p_top_reached_within_1k": 0.767,
+   "p_below_bottom_2033": 0.0081,
+   "top_p50": 157898,
+   "bottom_p50": 135000,
+   "release_to_laura_after_2042_p50": 9573,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    5953,
+    49025
+   ]
+  },
+  "D2 birthday reserve 10k from floor": {
+   "p_payment_short_over_1": 0.0,
+   "p_payment_short_over_1k": 0.0,
+   "median_short_when_short": 0,
+   "p_laura_half_sold_for_payments": 0.3354,
+   "median_sold_when_sold": 7829,
+   "gift_2033_p5_p50": [
+    125686,
+    154367
+   ],
+   "p_top_reached_within_1k": 0.7667,
+   "p_below_bottom_2033": 0.0091,
+   "top_p50": 155101,
+   "bottom_p50": 135000,
+   "release_to_laura_after_2042_p50": 12753,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    8599,
+    51459
+   ]
+  },
+  "D3 yearly check, no reserve": {
+   "p_payment_short_over_1": 0.0732,
+   "p_payment_short_over_1k": 0.0622,
+   "median_short_when_short": 3065,
+   "p_laura_half_sold_for_payments": 0.3767,
+   "median_sold_when_sold": 8862,
+   "gift_2033_p5_p50": [
+    136842,
+    165528
+   ],
+   "p_top_reached_within_1k": 0.7672,
+   "p_below_bottom_2033": 0.0075,
+   "top_p50": 166292,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 0,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    0,
+    41588
+   ],
+   "p_stocks_sold_at_a_payment_deadline_2034_42": 0.2401
+  },
+  "ladder_headroom": -224,
+  "stress_delivery": {
+   "+0pp": 500000,
+   "-1pp": 489164,
+   "-2pp": 479040,
+   "-3pp": 469573,
+   "-4.5pp": 456994
+  }
+ },
+ "immunisation_check": {
+  "yield_30y_22oct": 5.29,
+  "-1pp": {
+   "ladder_gap_added": 10836,
+   "bond_gain_per_dollar_by_2033": 0.146,
+   "bond_needed_to_offset": 74385
+  },
+  "-2pp": {
+   "ladder_gap_added": 20960,
+   "bond_gain_per_dollar_by_2033": 0.326,
+   "bond_needed_to_offset": 64355
+  }
+ },
+ "S1 base, recession-linked (rho 0.5)": {
+  "blind_spot": {
+   "p_shortfall_over_1k": 0.4709,
+   "share_of_shortfall_dollars_after_2033": 0.1894,
+   "median_share_after_2033_when_over_1k": 0.1578,
+   "p_visible_in_2033_over_1k": 0.4678,
+   "p_appears_only_after_2033_over_1k": 0.0369,
+   "median_S33_and_extra_when_over_1k": [
+    10138,
+    2326
+   ],
+   "shortfall_p50_p95_p99": [
+    0,
+    25111,
+    32604
+   ],
+   "extra_p95_p99_p999": [
+    5462,
+    7146,
+    8749
+   ],
+   "stock_fund_B0_p50": 31082,
+   "bill_growth_2028_33_p50": 1.2292
+  },
+  "D0 no rule (L-10 base)": {
+   "p_payment_short_over_1": 0.0838,
+   "p_payment_short_over_1k": 0.0737,
+   "median_short_when_short": 3210,
+   "p_laura_half_sold_for_payments": 0.3724,
+   "median_sold_when_sold": 8616,
+   "gift_2033_p5_p50": [
+    135882,
+    165492
+   ],
+   "p_top_reached_within_1k": 0.7521,
+   "p_below_bottom_2033": 0.0128,
+   "top_p50": 166275,
+   "bottom_p50": 145000
+  },
+  "D1 2033 set-aside, cushion 0k": {
+   "p_payment_short_over_1": 0.2676,
+   "p_payment_short_over_1k": 0.2278,
+   "median_short_when_short": 3163,
+   "p_laura_half_sold_for_payments": 0.3354,
+   "median_sold_when_sold": 7790,
+   "gift_2033_p5_p50": [
+    135882,
+    165492
+   ],
+   "p_top_reached_within_1k": 0.7521,
+   "p_below_bottom_2033": 0.0128,
+   "top_p50": 166275,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 0,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    0,
+    42652
+   ]
+  },
+  "D1 2033 set-aside, cushion 5k": {
+   "p_payment_short_over_1": 0.0501,
+   "p_payment_short_over_1k": 0.0208,
+   "median_short_when_short": 804,
+   "p_laura_half_sold_for_payments": 0.6633,
+   "median_sold_when_sold": 5088,
+   "gift_2033_p5_p50": [
+    133695,
+    165451
+   ],
+   "p_top_reached_within_1k": 0.7262,
+   "p_below_bottom_2033": 0.0246,
+   "top_p50": 166275,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 5000,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    1497,
+    38829
+   ]
+  },
+  "D1 2033 set-aside, cushion 7.5k": {
+   "p_payment_short_over_1": 0.0034,
+   "p_payment_short_over_1k": 0.0007,
+   "median_short_when_short": 429,
+   "p_laura_half_sold_for_payments": 0.7078,
+   "median_sold_when_sold": 7500,
+   "gift_2033_p5_p50": [
+    132275,
+    165413
+   ],
+   "p_top_reached_within_1k": 0.7097,
+   "p_below_bottom_2033": 0.0327,
+   "top_p50": 166275,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 7500,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    3732,
+    36873
+   ]
+  },
+  "D1 2033 set-aside, cushion 10k": {
+   "p_payment_short_over_1": 0.0,
+   "p_payment_short_over_1k": 0.0,
+   "median_short_when_short": 237,
+   "p_laura_half_sold_for_payments": 0.7471,
+   "median_sold_when_sold": 10000,
+   "gift_2033_p5_p50": [
+    130604,
+    165354
+   ],
+   "p_top_reached_within_1k": 0.691,
+   "p_below_bottom_2033": 0.0425,
+   "top_p50": 166275,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 10000,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    6016,
+    34849
+   ]
+  },
+  "D1 2033 set-aside, cushion 20k": {
+   "p_payment_short_over_1": 0.0,
+   "p_payment_short_over_1k": 0.0,
+   "median_short_when_short": 0,
+   "p_laura_half_sold_for_payments": 0.8757,
+   "median_sold_when_sold": 15841,
+   "gift_2033_p5_p50": [
+    121833,
+    164607
+   ],
+   "p_top_reached_within_1k": 0.5786,
+   "p_below_bottom_2033": 0.0984,
+   "top_p50": 166275,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 20000,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    15321,
+    26875
+   ]
+  },
+  "D2 birthday reserve 2.5k from fund": {
+   "p_payment_short_over_1": 0.1499,
+   "p_payment_short_over_1k": 0.0962,
+   "median_short_when_short": 1378,
+   "p_laura_half_sold_for_payments": 0.3353,
+   "median_sold_when_sold": 7438,
+   "gift_2033_p5_p50": [
+    133990,
+    164101
+   ],
+   "p_top_reached_within_1k": 0.7485,
+   "p_below_bottom_2033": 0.0178,
+   "top_p50": 164832,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 3197,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    0,
+    42081
+   ]
+  },
+  "D2 birthday reserve 5k from fund": {
+   "p_payment_short_over_1": 0.0226,
+   "p_payment_short_over_1k": 0.0068,
+   "median_short_when_short": 616,
+   "p_laura_half_sold_for_payments": 0.3352,
+   "median_sold_when_sold": 7002,
+   "gift_2033_p5_p50": [
+    132002,
+    162711
+   ],
+   "p_top_reached_within_1k": 0.7441,
+   "p_below_bottom_2033": 0.0248,
+   "top_p50": 163402,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 6389,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    2154,
+    41707
+   ]
+  },
+  "D2 birthday reserve 7.5k from fund": {
+   "p_payment_short_over_1": 0.0003,
+   "p_payment_short_over_1k": 0.0,
+   "median_short_when_short": 440,
+   "p_laura_half_sold_for_payments": 0.3349,
+   "median_sold_when_sold": 6460,
+   "gift_2033_p5_p50": [
+    129876,
+    161328
+   ],
+   "p_top_reached_within_1k": 0.7389,
+   "p_below_bottom_2033": 0.0342,
+   "top_p50": 161982,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 9573,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    4697,
+    41485
+   ]
+  },
+  "D2 birthday reserve 10k from fund": {
+   "p_payment_short_over_1": 0.0,
+   "p_payment_short_over_1k": 0.0,
+   "median_short_when_short": 868,
+   "p_laura_half_sold_for_payments": 0.3337,
+   "median_sold_when_sold": 5831,
+   "gift_2033_p5_p50": [
+    127657,
+    159938
+   ],
+   "p_top_reached_within_1k": 0.7324,
+   "p_below_bottom_2033": 0.0456,
+   "top_p50": 160560,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 12753,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    7285,
+    41207
+   ]
+  },
+  "D2 birthday reserve 2.5k from floor": {
+   "p_payment_short_over_1": 0.1499,
+   "p_payment_short_over_1k": 0.0962,
+   "median_short_when_short": 1378,
+   "p_laura_half_sold_for_payments": 0.3354,
+   "median_sold_when_sold": 7751,
+   "gift_2033_p5_p50": [
+    133083,
+    162702
+   ],
+   "p_top_reached_within_1k": 0.7517,
+   "p_below_bottom_2033": 0.0127,
+   "top_p50": 163472,
+   "bottom_p50": 140000,
+   "release_to_laura_after_2042_p50": 3197,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    64,
+    44775
+   ]
+  },
+  "D2 birthday reserve 5k from floor": {
+   "p_payment_short_over_1": 0.0225,
+   "p_payment_short_over_1k": 0.0068,
+   "median_short_when_short": 615,
+   "p_laura_half_sold_for_payments": 0.3354,
+   "median_sold_when_sold": 7705,
+   "gift_2033_p5_p50": [
+    130286,
+    159914
+   ],
+   "p_top_reached_within_1k": 0.7515,
+   "p_below_bottom_2033": 0.014,
+   "top_p50": 160666,
+   "bottom_p50": 140000,
+   "release_to_laura_after_2042_p50": 6389,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    2517,
+    47079
+   ]
+  },
+  "D2 birthday reserve 7.5k from floor": {
+   "p_payment_short_over_1": 0.0003,
+   "p_payment_short_over_1k": 0.0,
+   "median_short_when_short": 369,
+   "p_laura_half_sold_for_payments": 0.3354,
+   "median_sold_when_sold": 7658,
+   "gift_2033_p5_p50": [
+    127488,
+    157126
+   ],
+   "p_top_reached_within_1k": 0.7515,
+   "p_below_bottom_2033": 0.0139,
+   "top_p50": 157867,
+   "bottom_p50": 135000,
+   "release_to_laura_after_2042_p50": 9573,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    5187,
+    49486
+   ]
+  },
+  "D2 birthday reserve 10k from floor": {
+   "p_payment_short_over_1": 0.0,
+   "p_payment_short_over_1k": 0.0,
+   "median_short_when_short": 0,
+   "p_laura_half_sold_for_payments": 0.3354,
+   "median_sold_when_sold": 7607,
+   "gift_2033_p5_p50": [
+    124686,
+    154344
+   ],
+   "p_top_reached_within_1k": 0.7513,
+   "p_below_bottom_2033": 0.0152,
+   "top_p50": 155068,
+   "bottom_p50": 135000,
+   "release_to_laura_after_2042_p50": 12753,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    7884,
+    51902
+   ]
+  },
+  "D3 yearly check, no reserve": {
+   "p_payment_short_over_1": 0.09,
+   "p_payment_short_over_1k": 0.0771,
+   "median_short_when_short": 3141,
+   "p_laura_half_sold_for_payments": 0.3767,
+   "median_sold_when_sold": 8590,
+   "gift_2033_p5_p50": [
+    135882,
+    165492
+   ],
+   "p_top_reached_within_1k": 0.7521,
+   "p_below_bottom_2033": 0.0128,
+   "top_p50": 166275,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 0,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    0,
+    41999
+   ],
+   "p_stocks_sold_at_a_payment_deadline_2034_42": 0.2254
+  },
+  "ladder_headroom": -224,
+  "stress_delivery": {
+   "+0pp": 500000,
+   "-1pp": 489164,
+   "-2pp": 479040,
+   "-3pp": 469573,
+   "-4.5pp": 456994
+  }
+ },
+ "S6 yields fall 2pt just after the build, for good": {
+  "blind_spot": {
+   "p_shortfall_over_1k": 0.8812,
+   "share_of_shortfall_dollars_after_2033": 0.1084,
+   "median_share_after_2033_when_over_1k": 0.0936,
+   "p_visible_in_2033_over_1k": 0.8985,
+   "p_appears_only_after_2033_over_1k": 0.0095,
+   "median_S33_and_extra_when_over_1k": [
+    20683,
+    2500
+   ],
+   "shortfall_p50_p95_p99": [
+    20416,
+    39216,
+    44437
+   ],
+   "extra_p95_p99_p999": [
+    5862,
+    7280,
+    8857
+   ],
+   "stock_fund_B0_p50": 19366,
+   "bill_growth_2028_33_p50": 1.1159
+  },
+  "D0 no rule (L-10 base)": {
+   "p_payment_short_over_1": 0.3872,
+   "p_payment_short_over_1k": 0.3477,
+   "median_short_when_short": 3350,
+   "p_laura_half_sold_for_payments": 0.7655,
+   "median_sold_when_sold": 8843,
+   "gift_2033_p5_p50": [
+    115236,
+    156663
+   ],
+   "p_top_reached_within_1k": 0.5186,
+   "p_below_bottom_2033": 0.1981,
+   "top_p50": 159393,
+   "bottom_p50": 145000
+  },
+  "D1 2033 set-aside, cushion 0k": {
+   "p_payment_short_over_1": 0.5682,
+   "p_payment_short_over_1k": 0.5017,
+   "median_short_when_short": 3337,
+   "p_laura_half_sold_for_payments": 0.7379,
+   "median_sold_when_sold": 8434,
+   "gift_2033_p5_p50": [
+    115236,
+    156663
+   ],
+   "p_top_reached_within_1k": 0.5186,
+   "p_below_bottom_2033": 0.1981,
+   "top_p50": 159393,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 0,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    0,
+    4326
+   ]
+  },
+  "D1 2033 set-aside, cushion 5k": {
+   "p_payment_short_over_1": 0.087,
+   "p_payment_short_over_1k": 0.0338,
+   "median_short_when_short": 759,
+   "p_laura_half_sold_for_payments": 0.8405,
+   "median_sold_when_sold": 9114,
+   "gift_2033_p5_p50": [
+    110293,
+    153937
+   ],
+   "p_top_reached_within_1k": 0.4494,
+   "p_below_bottom_2033": 0.2633,
+   "top_p50": 159393,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 3655,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    0,
+    5000
+   ]
+  },
+  "D1 2033 set-aside, cushion 7.5k": {
+   "p_payment_short_over_1": 0.005,
+   "p_payment_short_over_1k": 0.0009,
+   "median_short_when_short": 417,
+   "p_laura_half_sold_for_payments": 0.8668,
+   "median_sold_when_sold": 9549,
+   "gift_2033_p5_p50": [
+    107801,
+    152231
+   ],
+   "p_top_reached_within_1k": 0.4156,
+   "p_below_bottom_2033": 0.2977,
+   "top_p50": 159393,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 6041,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    2355,
+    7500
+   ]
+  },
+  "D1 2033 set-aside, cushion 10k": {
+   "p_payment_short_over_1": 0.0,
+   "p_payment_short_over_1k": 0.0,
+   "median_short_when_short": 276,
+   "p_laura_half_sold_for_payments": 0.8898,
+   "median_sold_when_sold": 10000,
+   "gift_2033_p5_p50": [
+    105307,
+    150369
+   ],
+   "p_top_reached_within_1k": 0.3829,
+   "p_below_bottom_2033": 0.3334,
+   "top_p50": 159393,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 8446,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    4755,
+    10000
+   ]
+  },
+  "D1 2033 set-aside, cushion 20k": {
+   "p_payment_short_over_1": 0.0,
+   "p_payment_short_over_1k": 0.0,
+   "median_short_when_short": 0,
+   "p_laura_half_sold_for_payments": 0.9532,
+   "median_sold_when_sold": 11662,
+   "gift_2033_p5_p50": [
+    95314,
+    141484
+   ],
+   "p_top_reached_within_1k": 0.2598,
+   "p_below_bottom_2033": 0.4745,
+   "top_p50": 159393,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 18236,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    14462,
+    18991
+   ]
+  },
+  "D2 birthday reserve 2.5k from fund": {
+   "p_payment_short_over_1": 0.3666,
+   "p_payment_short_over_1k": 0.2333,
+   "median_short_when_short": 1286,
+   "p_laura_half_sold_for_payments": 0.726,
+   "median_sold_when_sold": 7442,
+   "gift_2033_p5_p50": [
+    112161,
+    154257
+   ],
+   "p_top_reached_within_1k": 0.4914,
+   "p_below_bottom_2033": 0.2398,
+   "top_p50": 157960,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 1723,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    0,
+    2865
+   ]
+  },
+  "D2 birthday reserve 5k from fund": {
+   "p_payment_short_over_1": 0.0607,
+   "p_payment_short_over_1k": 0.0221,
+   "median_short_when_short": 707,
+   "p_laura_half_sold_for_payments": 0.7112,
+   "median_sold_when_sold": 6403,
+   "gift_2033_p5_p50": [
+    109376,
+    151563
+   ],
+   "p_top_reached_within_1k": 0.4633,
+   "p_below_bottom_2033": 0.2871,
+   "top_p50": 156530,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 4442,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    203,
+    5505
+   ]
+  },
+  "D2 birthday reserve 7.5k from fund": {
+   "p_payment_short_over_1": 0.0124,
+   "p_payment_short_over_1k": 0.0076,
+   "median_short_when_short": 1279,
+   "p_laura_half_sold_for_payments": 0.6818,
+   "median_sold_when_sold": 5383,
+   "gift_2033_p5_p50": [
+    107130,
+    148704
+   ],
+   "p_top_reached_within_1k": 0.4353,
+   "p_below_bottom_2033": 0.3376,
+   "top_p50": 155088,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 7120,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    2416,
+    8121
+   ]
+  },
+  "D2 birthday reserve 10k from fund": {
+   "p_payment_short_over_1": 0.0118,
+   "p_payment_short_over_1k": 0.0075,
+   "median_short_when_short": 1314,
+   "p_laura_half_sold_for_payments": 0.6336,
+   "median_sold_when_sold": 4438,
+   "gift_2033_p5_p50": [
+    105592,
+    145708
+   ],
+   "p_top_reached_within_1k": 0.4075,
+   "p_below_bottom_2033": 0.3903,
+   "top_p50": 153641,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 9722,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    4164,
+    10662
+   ]
+  },
+  "D2 birthday reserve 2.5k from floor": {
+   "p_payment_short_over_1": 0.3652,
+   "p_payment_short_over_1k": 0.2289,
+   "median_short_when_short": 1263,
+   "p_laura_half_sold_for_payments": 0.7379,
+   "median_sold_when_sold": 8333,
+   "gift_2033_p5_p50": [
+    112544,
+    153882
+   ],
+   "p_top_reached_within_1k": 0.5156,
+   "p_below_bottom_2033": 0.1915,
+   "top_p50": 156713,
+   "bottom_p50": 140000,
+   "release_to_laura_after_2042_p50": 1741,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    0,
+    5218
+   ]
+  },
+  "D2 birthday reserve 5k from floor": {
+   "p_payment_short_over_1": 0.05,
+   "p_payment_short_over_1k": 0.0149,
+   "median_short_when_short": 601,
+   "p_laura_half_sold_for_payments": 0.7379,
+   "median_sold_when_sold": 8231,
+   "gift_2033_p5_p50": [
+    109850,
+    151089
+   ],
+   "p_top_reached_within_1k": 0.5126,
+   "p_below_bottom_2033": 0.2059,
+   "top_p50": 154036,
+   "bottom_p50": 140000,
+   "release_to_laura_after_2042_p50": 4507,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    599,
+    6981
+   ]
+  },
+  "D2 birthday reserve 7.5k from floor": {
+   "p_payment_short_over_1": 0.0006,
+   "p_payment_short_over_1k": 0.0001,
+   "median_short_when_short": 338,
+   "p_laura_half_sold_for_payments": 0.7379,
+   "median_sold_when_sold": 8126,
+   "gift_2033_p5_p50": [
+    107161,
+    148292
+   ],
+   "p_top_reached_within_1k": 0.5097,
+   "p_below_bottom_2033": 0.1988,
+   "top_p50": 151358,
+   "bottom_p50": 135000,
+   "release_to_laura_after_2042_p50": 7282,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    3246,
+    9296
+   ]
+  },
+  "D2 birthday reserve 10k from floor": {
+   "p_payment_short_over_1": 0.0,
+   "p_payment_short_over_1k": 0.0,
+   "median_short_when_short": 0,
+   "p_laura_half_sold_for_payments": 0.7379,
+   "median_sold_when_sold": 8019,
+   "gift_2033_p5_p50": [
+    104454,
+    145498
+   ],
+   "p_top_reached_within_1k": 0.5064,
+   "p_below_bottom_2033": 0.2139,
+   "top_p50": 148684,
+   "bottom_p50": 135000,
+   "release_to_laura_after_2042_p50": 10048,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    5907,
+    11720
+   ]
+  },
+  "D3 yearly check, no reserve": {
+   "p_payment_short_over_1": 0.4113,
+   "p_payment_short_over_1k": 0.3603,
+   "median_short_when_short": 3282,
+   "p_laura_half_sold_for_payments": 0.7689,
+   "median_sold_when_sold": 8849,
+   "gift_2033_p5_p50": [
+    115236,
+    156663
+   ],
+   "p_top_reached_within_1k": 0.5186,
+   "p_below_bottom_2033": 0.1981,
+   "top_p50": 159393,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 0,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    0,
+    1513
+   ],
+   "p_stocks_sold_at_a_payment_deadline_2034_42": 0.2398
+  },
+  "ladder_headroom": -224,
+  "stress_delivery": {
+   "+0pp": 500000,
+   "-1pp": 489164,
+   "-2pp": 479040,
+   "-3pp": 469573,
+   "-4.5pp": 456994
+  }
+ },
+ "S0 + thin-coupon 2041-42 rungs (W-01)": {
+  "blind_spot": {
+   "p_shortfall_over_1k": 0.4681,
+   "share_of_shortfall_dollars_after_2033": 0.2038,
+   "median_share_after_2033_when_over_1k": 0.1763,
+   "p_visible_in_2033_over_1k": 0.4638,
+   "p_appears_only_after_2033_over_1k": 0.0379,
+   "median_S33_and_extra_when_over_1k": [
+    8808,
+    2277
+   ],
+   "shortfall_p50_p95_p99": [
+    0,
+    22135,
+    28809
+   ],
+   "extra_p95_p99_p999": [
+    5054,
+    6471,
+    7790
+   ],
+   "stock_fund_B0_p50": 31082,
+   "bill_growth_2028_33_p50": 1.2292
+  },
+  "D0 no rule (L-10 base)": {
+   "p_payment_short_over_1": 0.0553,
+   "p_payment_short_over_1k": 0.0478,
+   "median_short_when_short": 3054,
+   "p_laura_half_sold_for_payments": 0.3613,
+   "median_sold_when_sold": 8032,
+   "gift_2033_p5_p50": [
+    137477,
+    165544
+   ],
+   "p_top_reached_within_1k": 0.7762,
+   "p_below_bottom_2033": 0.0042,
+   "top_p50": 166292,
+   "bottom_p50": 145000
+  },
+  "D1 2033 set-aside, cushion 0k": {
+   "p_payment_short_over_1": 0.2644,
+   "p_payment_short_over_1k": 0.2221,
+   "median_short_when_short": 3002,
+   "p_laura_half_sold_for_payments": 0.3243,
+   "median_sold_when_sold": 7054,
+   "gift_2033_p5_p50": [
+    137477,
+    165544
+   ],
+   "p_top_reached_within_1k": 0.7762,
+   "p_below_bottom_2033": 0.0042,
+   "top_p50": 166292,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 0,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    0,
+    43141
+   ]
+  },
+  "D1 2033 set-aside, cushion 5k": {
+   "p_payment_short_over_1": 0.0348,
+   "p_payment_short_over_1k": 0.0101,
+   "median_short_when_short": 598,
+   "p_laura_half_sold_for_payments": 0.6535,
+   "median_sold_when_sold": 5000,
+   "gift_2033_p5_p50": [
+    136071,
+    165513
+   ],
+   "p_top_reached_within_1k": 0.7537,
+   "p_below_bottom_2033": 0.0103,
+   "top_p50": 166292,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 5000,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    2170,
+    39203
+   ]
+  },
+  "D1 2033 set-aside, cushion 7.5k": {
+   "p_payment_short_over_1": 0.0007,
+   "p_payment_short_over_1k": 0.0001,
+   "median_short_when_short": 316,
+   "p_laura_half_sold_for_payments": 0.6993,
+   "median_sold_when_sold": 7500,
+   "gift_2033_p5_p50": [
+    135091,
+    165477
+   ],
+   "p_top_reached_within_1k": 0.7381,
+   "p_below_bottom_2033": 0.0149,
+   "top_p50": 166292,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 7500,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    4246,
+    37190
+   ]
+  },
+  "D1 2033 set-aside, cushion 10k": {
+   "p_payment_short_over_1": 0.0,
+   "p_payment_short_over_1k": 0.0,
+   "median_short_when_short": 0,
+   "p_laura_half_sold_for_payments": 0.7402,
+   "median_sold_when_sold": 10000,
+   "gift_2033_p5_p50": [
+    133777,
+    165427
+   ],
+   "p_top_reached_within_1k": 0.7185,
+   "p_below_bottom_2033": 0.021,
+   "top_p50": 166292,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 10000,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    6479,
+    35091
+   ]
+  },
+  "D1 2033 set-aside, cushion 20k": {
+   "p_payment_short_over_1": 0.0,
+   "p_payment_short_over_1k": 0.0,
+   "median_short_when_short": 0,
+   "p_laura_half_sold_for_payments": 0.872,
+   "median_sold_when_sold": 15963,
+   "gift_2033_p5_p50": [
+    125578,
+    164770
+   ],
+   "p_top_reached_within_1k": 0.5899,
+   "p_below_bottom_2033": 0.0662,
+   "top_p50": 166292,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 20000,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    15806,
+    26843
+   ]
+  },
+  "D2 birthday reserve 2.5k from fund": {
+   "p_payment_short_over_1": 0.1402,
+   "p_payment_short_over_1k": 0.084,
+   "median_short_when_short": 1223,
+   "p_laura_half_sold_for_payments": 0.3243,
+   "median_sold_when_sold": 6846,
+   "gift_2033_p5_p50": [
+    135705,
+    164154
+   ],
+   "p_top_reached_within_1k": 0.7744,
+   "p_below_bottom_2033": 0.0069,
+   "top_p50": 164858,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 3218,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    1365,
+    42524
+   ]
+  },
+  "D2 birthday reserve 5k from fund": {
+   "p_payment_short_over_1": 0.0114,
+   "p_payment_short_over_1k": 0.0017,
+   "median_short_when_short": 421,
+   "p_laura_half_sold_for_payments": 0.3242,
+   "median_sold_when_sold": 6530,
+   "gift_2033_p5_p50": [
+    133826,
+    162766
+   ],
+   "p_top_reached_within_1k": 0.7716,
+   "p_below_bottom_2033": 0.0111,
+   "top_p50": 163425,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 6427,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    3079,
+    42146
+   ]
+  },
+  "D2 birthday reserve 7.5k from fund": {
+   "p_payment_short_over_1": 0.0,
+   "p_payment_short_over_1k": 0.0,
+   "median_short_when_short": 646,
+   "p_laura_half_sold_for_payments": 0.3238,
+   "median_sold_when_sold": 6119,
+   "gift_2033_p5_p50": [
+    131831,
+    161384
+   ],
+   "p_top_reached_within_1k": 0.7675,
+   "p_below_bottom_2033": 0.017,
+   "top_p50": 161996,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 9628,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    5327,
+    41854
+   ]
+  },
+  "D2 birthday reserve 10k from fund": {
+   "p_payment_short_over_1": 0.0,
+   "p_payment_short_over_1k": 0.0,
+   "median_short_when_short": 717,
+   "p_laura_half_sold_for_payments": 0.3226,
+   "median_sold_when_sold": 5604,
+   "gift_2033_p5_p50": [
+    129674,
+    159996
+   ],
+   "p_top_reached_within_1k": 0.7616,
+   "p_below_bottom_2033": 0.026,
+   "top_p50": 160574,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 12822,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    7750,
+    41538
+   ]
+  },
+  "D2 birthday reserve 2.5k from floor": {
+   "p_payment_short_over_1": 0.1402,
+   "p_payment_short_over_1k": 0.084,
+   "median_short_when_short": 1223,
+   "p_laura_half_sold_for_payments": 0.3243,
+   "median_sold_when_sold": 7028,
+   "gift_2033_p5_p50": [
+    134701,
+    162751
+   ],
+   "p_top_reached_within_1k": 0.7765,
+   "p_below_bottom_2033": 0.0041,
+   "top_p50": 163492,
+   "bottom_p50": 140000,
+   "release_to_laura_after_2042_p50": 3218,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    2245,
+    45184
+   ]
+  },
+  "D2 birthday reserve 5k from floor": {
+   "p_payment_short_over_1": 0.0113,
+   "p_payment_short_over_1k": 0.0017,
+   "median_short_when_short": 420,
+   "p_laura_half_sold_for_payments": 0.3243,
+   "median_sold_when_sold": 7007,
+   "gift_2033_p5_p50": [
+    131923,
+    159961
+   ],
+   "p_top_reached_within_1k": 0.7768,
+   "p_below_bottom_2033": 0.0047,
+   "top_p50": 160695,
+   "bottom_p50": 140000,
+   "release_to_laura_after_2042_p50": 6427,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    4414,
+    47494
+   ]
+  },
+  "D2 birthday reserve 7.5k from floor": {
+   "p_payment_short_over_1": 0.0,
+   "p_payment_short_over_1k": 0.0,
+   "median_short_when_short": 331,
+   "p_laura_half_sold_for_payments": 0.3243,
+   "median_sold_when_sold": 6981,
+   "gift_2033_p5_p50": [
+    129128,
+    157175
+   ],
+   "p_top_reached_within_1k": 0.7768,
+   "p_below_bottom_2033": 0.0046,
+   "top_p50": 157898,
+   "bottom_p50": 135000,
+   "release_to_laura_after_2042_p50": 9628,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    6988,
+    49917
+   ]
+  },
+  "D2 birthday reserve 10k from floor": {
+   "p_payment_short_over_1": 0.0,
+   "p_payment_short_over_1k": 0.0,
+   "median_short_when_short": 0,
+   "p_laura_half_sold_for_payments": 0.3243,
+   "median_sold_when_sold": 6958,
+   "gift_2033_p5_p50": [
+    126356,
+    154389
+   ],
+   "p_top_reached_within_1k": 0.7767,
+   "p_below_bottom_2033": 0.0052,
+   "top_p50": 155101,
+   "bottom_p50": 135000,
+   "release_to_laura_after_2042_p50": 12822,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    9565,
+    52331
+   ]
+  },
+  "D3 yearly check, no reserve": {
+   "p_payment_short_over_1": 0.059,
+   "p_payment_short_over_1k": 0.0497,
+   "median_short_when_short": 2971,
+   "p_laura_half_sold_for_payments": 0.3648,
+   "median_sold_when_sold": 8005,
+   "gift_2033_p5_p50": [
+    137477,
+    165544
+   ],
+   "p_top_reached_within_1k": 0.7762,
+   "p_below_bottom_2033": 0.0042,
+   "top_p50": 166292,
+   "bottom_p50": 145000,
+   "release_to_laura_after_2042_p50": 0,
+   "laura_2042_stocks_plus_release_p5_p50": [
+    0,
+    42560
+   ],
+   "p_stocks_sold_at_a_payment_deadline_2034_42": 0.2472
+  },
+  "ladder_headroom": -224,
+  "stress_delivery": {
+   "+0pp": 500000,
+   "-1pp": 490411,
+   "-2pp": 481424,
+   "-3pp": 472993,
+   "-4.5pp": 461804
+  }
+ }
+}
