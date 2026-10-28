@@ -55,6 +55,7 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Wed 28 Oct 202
 ## Done
 | ID | Task | Owner | Done | Output |
 |---|---|---|---|---|
+| SD-ARC-05 | Round 1 recorded (territory, champions, frontier, health) and A19 closed by the deletion test | Tess | Wed 28 Oct | `keel/loop/rounds/2026-10-28.md` beat 9; `keel/rooms/archive_checks/A19_delete_vt_test.py` |
 | SD-N02 | Research loop round 1 gathered: Q1 sharpened by the birthday rule; lens 2; settlements, construction retainage, theatre cues | Nora | Wed 28 Oct | `keel/loop/rounds/2026-10-28.md` |
 | N04 | "What the 2027 LTCMA changed" slip | Felix | Wed 28 Oct | Killed: Book 9 says not to anchor on J.P. Morgan's 7.5%, and the IPS carries no return figure |
 | SD-N01 | The TNA's 7.5% is J.P. Morgan's 2027 global-equity figure (release 19 Oct), not EAFE; rewrite told to drop its "correction" | Nora (Felix checking) | Tue 27 Oct | `keel/office/outbox/2026-10-27_noticeboard_7-5-is-world-stocks.md` |
