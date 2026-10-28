@@ -17,7 +17,7 @@ about 60-90 pieces an hour at best. Collections (memo anthologies, letter compil
 Each entry: **Open / Best / Close** (quoted lines), **Craft** (rhythm, stance, shape), **Steal** (one move worth
 copying), **Insight** (only if there is one). What the entries add up to goes in `SYNTHESIS.md` after every 100.
 
-Count so far: **571**
+Count so far: **600**
 
 ---
 
@@ -1304,6 +1304,62 @@ Batch 18 note: the central bankers' best lines are about how to hold an uncertai
 Lowe's 2½ per cent tested at 5½, 564), and the human ones are a single memory (pumping petrol in Wagga, 560). Jassy's
 2025 letter shows a voice can change inside one writer: the year he opened on his own failed plan, the letter came
 alive.
+
+## Round 2, batch 19 (28 Oct, 16:40-16:52 Sydney): 572-600
+Checked against the log's URL and title list first. Not counted: The Spectator, Volume 1 on Gutenberg (both halves held
+only the editor's introduction, not No. 1 or No. 2); the second half of Emerson's "Essays, First Series" (read only to
+finish "Self-Reliance", counted once as 580); Gutenberg book pages and the RBA's 2020 and 2023 speech lists (used only
+to find URLs). Quotes marked "…" were cut at the reader's 125-character limit.
+
+### 572-579 · RBA 2019 and 2022, the ones not yet logged · speeches
+| # | Piece | Open | Best line | Close | Craft |
+|---|---|---|---|---|---|
+| 572 | Lowe, "Inflation and the Monetary Policy Framework" (Sep 2022) https://www.rba.gov.au/speeches/2022/sp-gov-2022-09-08.html | "I would like to begin by thanking everybody who is attending today in support of the Anika Foundation." | "Forecast misses of this scale should lead to soul-searching by forecasters and they certainly have at the RBA." | "I look forward to answering your questions." | **A miss named as a miss, with the word "soul-searching".** Then: "Flexible inflation targeting is not a perfect monetary policy regime, but it is hard to do better." Concede, then hold. |
+| 573 | Lowe, "The Year Ahead" (Feb 2022) https://www.rba.gov.au/speeches/2022/sp-gov-2022-02-02.html | "This is the fourth time that I have addressed the National Press Club." | "The Board is prepared to be patient as it monitors the evolution of the various factors affecting inflation in Australia." | "I wish you all the best for the year ahead." | Read next to 572: patient in February, soul-searching in September. "it is too early to conclude that inflation is sustainably in the target range." |
+| 574 | Bullock, "Review of the Bond Purchase Program" (Sep 2022) https://www.rba.gov.au/speeches/2022/sp-dg-2022-09-21.html | "Thank you for the opportunity to talk with you today." | "it would only be appropriate to consider the use of a BPP in the future in extreme circumstances" | "Thank you for your attention." | A review that admits through conditionals: "if more weight had been given to possible upside scenarios … might have been different". The counter-example to 572: the same lesson, said so softly it barely lands. |
+| 575 | Ellis, "Housing in the Endemic Phase" (May 2022) https://www.rba.gov.au/speeches/2022/sp-ag-2022-05-25.html | "I would like to thank UDIA for the opportunity to speak to you today." | "Everything has a limit, at least in the short term." | "Thank you for your time." | "the housing system does not stand still in the face of a shock." Seven-word sentences carry the argument. |
+| 576 | Lowe, "Inflation Targeting and Economic Welfare" (Jul 2019) https://www.rba.gov.au/speeches/2019/sp-gov-2019-07-25.html | "It is a great pleasure to address the Anika Foundation lunch for the third time." | "We are not inflation nutters." | "I look forward to answering your questions." | **Five words of slang from a governor**, then the reason: "inflation control is not the ultimate objective." A school-days memory does the warming. |
+| 577 | Ellis, "What's Up (and Down) With Households?" (Mar 2019) https://www.rba.gov.au/speeches/2019/sp-ag-2019-03-26.html | "Thank you to the organisers of this breakfast event for the opportunity to speak with you…" | "It isn't so much that people wake up one morning, realise their home is worth more, and decide to go out shopping." | "Thank you for your time." | The title's parenthesis is the joke. The best line mocks a model by acting it out as one person's morning. |
+| 578 | Debelle, "Climate Change and the Economy" (Mar 2019) https://www.rba.gov.au/speeches/2019/sp-dg-2019-03-12.html | "As Dorothea Mackellar eloquently put it in 1908, the weather has always had a significant impact on the Australian economy." | "The impact of a trend is ongoing, whereas a cycle is temporary." | "Through all of these channels, we are trying to learn and benefit as much as possible from the expertise of others…" | **Opens on a school poem every Australian knows**, then makes one distinction carry the speech: "We need to think in terms of trend rather than cycles in the weather." |
+| 579 | Bullock, "The Economic Outlook" (Nov 2022) https://www.rba.gov.au/speeches/2022/sp-dg-2022-11-09.html | "Thank you for the opportunity to speak with you this evening." | "The Australian economy has come out of the pandemic in a strong position but inflation is too high." | "Thank you for your interest and I look forward to answering your questions." | Good news and bad news in one sentence, joined by "but". |
+
+### 580-581, 587 · Emerson and Twain · essays
+| # | Piece | Open | Best line | Close | Craft |
+|---|---|---|---|---|---|
+| 580 | Emerson, "Self-Reliance" (1841) https://www.gutenberg.org/cache/epub/2944/pg2944-images.html | "I read the other day some verses written by an eminent painter which were original and not conventional." | "A foolish consistency is the hobgoblin of little minds, adored by little statesmen and philosophers and divines." | "Nothing can bring you peace but the triumph of principles." | **The sermon that made a career out of "trust thyself"**, opening on something he happened to read. "Trust thyself: every heart vibrates to that iron string." Lines short enough to carve. |
+| 581 | Twain, "Corn-pone Opinions" (1901) https://paulgraham.com/cornpone.html | "FIFTY YEARS AGO, when I was a boy of fifteen and helping to inhabit a Missourian village on the banks of the Mississippi,…" | "We all do no end of feeling, and we mistake it for thinking." | "Some think it the Voice of God." | "helping to inhabit" is the joke in the first line. "Broadly speaking, there are none but corn-pone opinions." A thesis that admits it includes the writer. Five-word kicker. |
+| 587 | Twain, "On the Decay of the Art of Lying" (1880) https://www.gutenberg.org/cache/epub/2572/pg2572-images.html | "Observe, I do not mean to suggest that the custom of lying has suffered any decay or interruption…" | "I think that all this courteous lying is a sweet and loving art, and should be cultivated." | "…a ripe body, who may be termed, in this regard, and without undue flattery, Old Masters." | Mock-solemn: an outrageous claim delivered as a club paper. "Everybody lies—every day; every hour; awake; asleep; in his dreams…" The list is the joke. |
+
+### 582-586, 588-594 · RBA 2020, the pandemic year · speeches
+| # | Piece | What it shows |
+|---|---|---|
+| 582 | Lowe, "Responding to the Economic and Financial Impact of COVID-19" (19 Mar 2020) https://www.rba.gov.au/speeches/2020/sp-gov-2020-03-19.html | Opens "Good afternoon." Two words, in the worst week. "Undeniably, what we are facing today is a very serious situation, but it is something that is temporary." **F5, dread then relief, in one sentence.** "At some point, the virus will be contained and our economy and our financial markets will recover." |
+| 583 | Bullock, "Panic, Pandemic and Payment Preferences" (Jun 2020) https://www.rba.gov.au/speeches/2020/sp-ag-2020-06-03.html | Alliterative title on a dry subject. "Some of the sharp and sudden shift to contactless and mobile payments, and away from cash is likely to be permanent." |
+| 584 | Debelle, "The Virus and the Australian Economy" (11 Mar 2020) https://www.rba.gov.au/speeches/2020/sp-dg-2020-03-11.html | "The virus is a shock to both demand and supply." Nine words that frame the whole crisis. "It is just too uncertain to assess the impact of the virus beyond the March quarter." Says where the forecast stops. |
+| 585 | Lowe, "The Recovery from a Very Uneven Recession" (Oct 2020) https://www.rba.gov.au/speeches/2020/sp-gov-2020-10-15.html | "All recessions are uneven, but this one has been especially so." A general truth, then the exception. |
+| 586 | Kent, "The Stance of Monetary Policy in a World of Numerous Tools" (Oct 2020) https://www.rba.gov.au/speeches/2020/sp-ag-2020-10-20.html | "In a world of unconventional policies, assessing the stance of monetary policy is not as straight forward as it once was." "Because banks are generally flush with cash, they don't need to compete very hard to raise short-term funds." |
+| 588 | Lowe, "An Economic and Financial Update" (Apr 2020) https://www.rba.gov.au/speeches/2020/sp-gov-2020-04-21.html | A recurring "bridge" metaphor across the pandemic. "We can be confident that our economy will bounce back and that we will see it recover." |
+| 589 | Lowe, "The Year Ahead" (5 Feb 2020) https://www.rba.gov.au/speeches/2020/sp-gov-2020-02-05.html | Six weeks before 582. The virus is one uncertainty among several, with SARS as the guide. "Strong fundamentals, though, can take us only so far." **Read 589 then 582: the forecast is the thing that breaks.** |
+| 590 | Ellis, "The Economic Outlook" (Aug 2020) https://www.rba.gov.au/speeches/2020/sp-ag-2020-08-07.html | "The COVID-19 pandemic has been the most profound shock to the economy and society in many decades." Then, of the data: "This has been a surprising outcome of the current episode." |
+| 591 | Debelle, "Monetary Policy in 2020" (Nov 2020) https://www.rba.gov.au/speeches/2020/sp-dg-2020-11-24.html | "The strong capital buffers of the banks are there to be used, not preserved." **A buffer is for spending in the bad year**, said in eleven words. |
+| 592 | Lowe, "COVID-19, the Labour Market and Public Sector Balance Sheets" (Jul 2020) https://www.rba.gov.au/speeches/2020/sp-gov-2020-07-21.html | "The reality, though, is there is no free lunch." Then: "The message here is that somebody always pays." Two cliché-plain lines that land because the rest is careful. |
+| 593 | Lowe, "Today's Monetary Policy Decision" (Nov 2020) https://www.rba.gov.au/speeches/2020/sp-gov-2020-11-03.html | Opens "Good afternoon." and closes "Thank you." "It is not enough for inflation to be forecast to be in the target range." A rule that refuses to trust its own forecast. |
+| 594 | Kent, "The Reserve Bank's Operations – Liquidity, Market Function and Funding" (Jul 2020) https://www.rba.gov.au/speeches/2020/sp-ag-2020-07-27.html | March 2020: "we faced the extremely unusual situation whereby prices of risky and risk-free assets were both falling." Holders had to sell bonds for cash. **The safest asset fell when people were forced to sell it.** |
+
+### 595-600 · RBA 2023, the reckoning · speeches
+| # | Piece | What it shows |
+|---|---|---|
+| 595 | Lowe, "Some Closing Remarks" (his farewell, Sep 2023) https://www.rba.gov.au/speeches/2023/sp-gov-2023-09-07.html | **The admission, finally said plainly**: "With the benefit of hindsight, my view is that we did do too much." "We got some things right, but we got other things wrong." "I know that some of my explanations have missed the mark." Close: "I look forward to answering your questions for one final time." The familiar closing line, with three words added, becomes the goodbye. |
+| 596 | Lowe, "A Narrow Path" (Jun 2023) https://www.rba.gov.au/speeches/2023/sp-gov-2023-06-07.html | A two-word title that becomes a phrase. "But it is a narrow path and likely to be a bumpy one, with risks on both sides." |
+| 597 | Jones, "Bagehot and the Lender of Last Resort – 150 Years On" (Dec 2023) https://www.rba.gov.au/speeches/2023/sp-ag-2023-12-14.html | Opens "Good morning." "Put simply, the next major shock is a matter of when, not if." A 150-year-old book used as the frame. |
+| 598 | Kent, "Long and Variable Monetary Policy Lags" (Mar 2023) https://www.rba.gov.au/speeches/2023/sp-ag-2023-03-20.html | Friedman's phrase as the title, uncited. "It's great to be back at the KangaNews Summit." "The lags in the transmission of policy are not only long, but they are variable" |
+| 599 | Lowe, "Inflation and Recent Economic Data" (Mar 2023) https://www.rba.gov.au/speeches/2023/sp-gov-2023-03-08.html | "High inflation is corrosive and damaging." Five words, then the cost: "If we don't get inflation down fairly soon, the end result will be even higher interest rates and more unemployment." |
+| 600 | Lowe, "Monetary Policy, Demand and Supply" (Apr 2023) https://www.rba.gov.au/speeches/2023/sp-gov-2023-04-05.html | The pause: "The decision to hold rates steady this month does not imply that interest rate increases are over." The phrase is already here, two months before 596: "It is a narrow path, though, and there are other plausible scenarios." |
+
+Batch 19 note: the RBA 2019-2023 run reads as one story in four acts. Patient (573, 589), the forecast breaks (582, 584),
+soul-searching (572), and the farewell: "we did do too much" (595). The plainer the admission, the more it lands: Lowe's
+plain sentence in 595 beats Bullock's careful conditionals in 574. The essays add two tricks. Twain makes the thesis include
+himself (581). Emerson opens on something he read the other day (580), a small real moment before the big claim.
 
 ### Re-reads in batch 4 (not counted)
 Fourteen pieces in this batch had already been logged (the batch's source list was wrong). They are kept here
