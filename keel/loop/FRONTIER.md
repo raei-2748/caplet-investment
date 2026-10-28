@@ -49,13 +49,34 @@
 | S11 | The show report (a check before every cheque, 2034-42) | Theatre fixes faults in the programming before the next show | Worse than no rule with nothing behind it; a habit for the Final Report, not a cure | Library T2, Lab L-11 |
 
 ## 4. Tomorrow's scouting orders (written by the send-off at 20:20; Nora may change them at 07:00)
-**Round 1, Wed 28 Oct (seeded by Claude, 27 Oct, because the first send-off hasn't run).** Question: Q1 (the soft
-spot and its cure). Lens: 2 (the 2042 post-mortem).
-- **Near, Kai:** structured settlements and lottery annuities: how do courts and lotteries fund a fixed sum on fixed
-  dates, and what happens when rates move between the award and the purchase? (door: the phone shop's payment plans)
-- **Adjacent, Felix:** construction finance (retainage, progress payments, contingency): how does a builder hold back
-  money for a cost that might not come, and when is it released? (door: his mum's audit files)
-- **Far, Tess:** theatre cue sheets and the stage manager's "go": a sequence of irreversible releases, each on cue,
-  rehearsed so that nothing is decided on the night (door: lighting the school play)
+**Round 2, Thu 29 Oct (written by the Rooftop, Wed 28 Oct, 20:20).** Question: **Q8, the framework.** Wharton's Book 7
+asks for "the strategy and decision-making framework ... rather than describing individual investments or presenting
+detailed financial calculations", and leans on "how your strategy will guide portfolio construction and investment
+decisions as the client's needs change". V28 answers that in one line ("cheques first; floor and stocks shrink
+together"), which is also open flaw F7. **Who writes rules in advance that tell you what to do when conditions change,
+without forecasting them, and what do their rules say that ours don't?** Lens: **13, the ninety-second judge** (never
+drawn): each scout brings back the one rule from their field a judge would still remember after 90 seconds, and where
+it breaks for Laura (LS-04). Rotation row 2: scouts Amara, Jun, Nora; flaw-hunter Kai; cold judge Felix. LS-10 applies:
+each beat names the IPS paragraph it can move before it starts.
+- **Near, Amara (Sonnet 5.5, depth on one rule set): sovereign wealth funds, stabilisation vs savings funds**
+  (`unvisited`). Chile keeps two funds with written rules for when money goes in and when it may come out; Norway
+  spends by a fiscal rule, not a forecast. How does a state write down which pot pays when, so a crash doesn't
+  reopen the argument? New ground: the first near field about a *rule for which money moves when*, not about
+  pricing a liability. (door: the gurdwara kitchen's two tins, below)
+- **Adjacent, Jun (Haiku 5.5, breadth): precommitment, Ulysses contracts and commitment devices** (`unvisited`).
+  Savings plans that raise contributions automatically, fiscal rules with escape clauses, advance directives. When
+  is a rule written in advance allowed to bend, and who decides? New ground: the first field about *escape clauses*,
+  the part of a framework our drafts have never written. (door: running splits, below)
+- **Far, Nora (Opus 5.5, the cross-domain link): ICU early-warning scores, "track and trigger"** (`unvisited`).
+  A ward doesn't forecast which patient will crash; it scores a few observations and each score has a response
+  agreed in advance. Is "observe, score, act as agreed" the shape Book 7's "as needs change" wants? New ground:
+  the first field where the whole framework is a trigger-and-response table. (door: her mum's pharmacy, below)
+- **Off duty, the doors** (fiction; what comes back through them must be real, fetched sources): Amara's gurdwara
+  committee keeps two tins, the everyday one and the one for weddings and funerals, and argued on Sunday about
+  whether one may borrow from the other. Jun's running coach makes them write their splits before the race, plus one
+  line on when to abandon them. Nora's mum has the hospital's deterioration chart pinned up behind the counter: it
+  doesn't say what's wrong, only what to do at each score.
+- **Not tomorrow:** Q9 (the 2027 year) is one clause, not a round; the Genius Lab may take it as a side check if
+  its beat has room. The Kitchen's "is there a ninety?" stays with the Lab's open request.
 
 (Keel is a simulated team, AI-written.)
