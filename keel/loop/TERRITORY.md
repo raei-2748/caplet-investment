@@ -35,7 +35,7 @@
 | Structured settlements (court-ordered payments on fixed dates) | 28 Oct, Kai (round 1): IRC §130(d), the 60-day window ("any obligation of the United States", bought within 60 days of the promise) | promising (deeper question: how a guaranteed minimum is funded when the bonds buy less) | 2 |
 | Municipal bonds: escrowed-to-maturity and pre-refunded bonds | | unvisited | |
 | Project finance: sinking funds and debt-service reserve accounts | | unvisited | |
-| Sovereign wealth funds: stabilisation vs savings funds | | unvisited | |
+| Sovereign wealth funds: stabilisation vs savings funds | 29 Oct, Amara (round 2): Chile's legal order of priority (pension pot first, the other gets "recursos residuales"); Norway's "modified over several years"; Alaska's 5% draw "limited to the ERA balance" | mined (the order of payment folded into the framework; smoothing dropped for promises; the cap is FR proof) | 1 |
 | Central-bank reserve management (tranches by purpose) | | unvisited | |
 | Lottery jackpots: annuity vs lump sum | 28 Oct, Kai (round 1): OAR 177-098-0060, the prize is "the actual amount purchased", not the advertised one | promising | 1 |
 | The oldest bonds still paying (Dutch water-board perpetuals, consols) | | unvisited | |
@@ -54,7 +54,7 @@
 | Accounting: defeasance (FASB 76 and 125) | R05 #1 | promising | 2 |
 | Escrow sufficiency and SLGS | R05 #2 | promising | 1 |
 | Cost disease and the Taiwan dollar | R05 #20 | promising | 1 |
-| Precommitment: Ulysses contracts, commitment devices | | unvisited | |
+| Precommitment: Ulysses contracts, commitment devices | 29 Oct, Jun (round 2): Grundgesetz 115(2) (a bend needs a vote and a repayment plan); EU escape clause COM(2020) 123 (procedures not suspended); self-binding directives "cannot be revoked" in the crisis they name | mined (every override form fell for the IPS in C-03: a free option the co-sponsors pay for; FR material) | 1 |
 | Taiwan: arts residencies, foundations, how cultural venues are funded | | unvisited | |
 | Construction finance: retainage, progress payments, contingencies | 28 Oct, Felix (round 1): securities in lieu of retainage (Cal. PCC §22300); who keeps unused contingency (ConsensusDocs 2023); FAR 52.216-4 escalation | promising (retainage is released on completion, not a date: a deeper question) | 2 |
 | Public budgeting: earmarked funds, rainy-day funds | | unvisited | |
@@ -71,7 +71,7 @@
 | Mountaineering: turnaround times, fixed ropes, caches | | unvisited | |
 | Space missions: launch windows, delta-v budgets, gravity assists | | unvisited | |
 | Clinical trials: pre-registration, stopping rules | L-06 ("Pre-Registered" package) | promising | 1 |
-| ICU and triage: reserves, handovers, early-warning scores | | unvisited | |
+| ICU and triage: reserves, handovers, early-warning scores | 29 Oct, Nora (round 2): NEWS2 (one red score triggers alone; concern overrides), NSW PD2025_014 (signed, expiring alterations; escalate on silence), ward studies (alarms that stay on stop being answered) | mined (its contrast made the champion: a ward needs alarms because a crash has no date, and every flow in Laura's case has one; handovers and triage reserves still unvisited, a new field if ever needed) | 3 |
 | Theatre: cue sheets, the "go" that cannot be taken back | 28 Oct, Tess (round 1): tracking and the block (ETC Eos); fix in the programming before the next show (CCSU 2025); the pre-show lamp check (USU) | mined | 2 |
 | Film photography: exposure latitude, the latent image | | unvisited | |
 | Baking and fermentation: proving, starters fed on schedule | | unvisited | |
@@ -107,5 +107,8 @@ make them do it, the next member in the list takes the job.
 | Wed 28 Oct | 1 | Kai | Structured settlements + lottery annuities (near) | the phone shop's payment plans | 3 / 3 | §130(d): US law wants a fixed schedule funded with Treasuries bought within 60 days of the promise; became "bought with the first money that can buy it" (2 Jan 2028) in the Long Room's ruling. Zero-coupon funding (K3) is the exact cure, and banned | promising |
 | Wed 28 Oct | 1 | Felix | Construction retainage, contingency, escalation (adjacent) | his mum's audit files | 3 / 3 | Securities in lieu of retainage: the money held back is bought as a security on signing day, still owned by the party it protects; became challenger A (lost 4-1-1, now stepping stone S8) | promising |
 | Wed 28 Oct | 1 | Tess | Theatre cue sheets and the stage manager's "go" (far) | lighting the school play | 3 / 3 | Tracking and the block: one check stops only drift before it; measured by the Lab, 19% of the coupon gap arrives after Jan 2033, which shaped the top-up form | mined |
+| Thu 29 Oct | 2 | Amara | Sovereign wealth funds, stabilisation vs savings (near) | the gurdwara committee's two tins | 3 / 3 (one follow-up page not re-checked) | Chile ranks its pots in law, so a crash can't reopen which pays; already V28's "cheques first" (a return of bank #49), folded into the Lab's four doors. Norway and Alaska smooth because they never end: a named gift must be marked, never averaged; their cap ("never more than the pot holds") is the FR's outside proof | mined |
+| Thu 29 Oct | 2 | Jun | Precommitment, escape clauses, Ulysses contracts (adjacent) | his coach's race splits | 3 / 3 (two secondary papers UNVERIFIED, kept out) | Germany's debt brake bends only by a recorded vote that carries its own repayment plan; became the Lab's signed exception (B), binned for anything named, and the Courtroom's one-way valve, which fell (FR) | mined |
+| Thu 29 Oct | 2 | Nora | Hospital early-warning scores, "track and trigger" (far) | the chart behind her mum's pharmacy counter | 3 / 3 (one NICE line the scout's reading) | The pairing that won: wards need alarms because a crash has no date, and every flow in Laura's case has one, so her rules fire on dates. Became the four doors (L-12), then B2's line, the C13 holder (2-0 cold, 5-1 Keel) | mined |
 
 (Keel is a simulated team, AI-written.)

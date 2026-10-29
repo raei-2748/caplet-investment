@@ -1,0 +1,101 @@
+{
+ "stamp": "curve 22 Oct 2026 | J.P. Morgan 2027 global equities 7.5% | 200,000 paths, seed 20261016 | rho 0.5 unless S0 | MODEL",
+ "dy_build +0pt, 2028 deposit $0": {
+  "p_payment_short_over_1k": 0.5735,
+  "quoted_bottom_p5_p50": [
+   -30000,
+   -10000
+  ]
+ },
+ "dy_build +0pt, 2028 deposit $5,000": {
+  "p_payment_short_over_1k": 0.4557,
+  "quoted_bottom_p5_p50": [
+   -30000,
+   -10000
+  ]
+ },
+ "dy_build +0pt, 2028 deposit $10,000": {
+  "p_payment_short_over_1k": 0.3421,
+  "quoted_bottom_p5_p50": [
+   -25000,
+   -10000
+  ]
+ },
+ "dy_build +0pt, 2028 deposit $20,000": {
+  "p_payment_short_over_1k": 0.1634,
+  "quoted_bottom_p5_p50": [
+   -20000,
+   5000
+  ]
+ },
+ "dy_build +0pt, 2028 deposit $30,000": {
+  "p_payment_short_over_1k": 0.0619,
+  "quoted_bottom_p5_p50": [
+   -15000,
+   15000
+  ]
+ },
+ "dy_build +0pt, 2028 deposit $50,000": {
+  "p_payment_short_over_1k": 0.0045,
+  "quoted_bottom_p5_p50": [
+   5000,
+   40000
+  ]
+ },
+ "dy_build +0pt, 2028 deposit $75,000": {
+  "p_payment_short_over_1k": 0.0005,
+  "quoted_bottom_p5_p50": [
+   30000,
+   65000
+  ]
+ },
+ "dy_build -1pt, 2028 deposit $0": {
+  "p_payment_short_over_1k": 0.9809,
+  "quoted_bottom_p5_p50": [
+   -30000,
+   -10000
+  ]
+ },
+ "dy_build -1pt, 2028 deposit $5,000": {
+  "p_payment_short_over_1k": 0.9596,
+  "quoted_bottom_p5_p50": [
+   -30000,
+   -10000
+  ]
+ },
+ "dy_build -1pt, 2028 deposit $10,000": {
+  "p_payment_short_over_1k": 0.9243,
+  "quoted_bottom_p5_p50": [
+   -30000,
+   -10000
+  ]
+ },
+ "dy_build -1pt, 2028 deposit $20,000": {
+  "p_payment_short_over_1k": 0.7945,
+  "quoted_bottom_p5_p50": [
+   -30000,
+   -10000
+  ]
+ },
+ "dy_build -1pt, 2028 deposit $30,000": {
+  "p_payment_short_over_1k": 0.5937,
+  "quoted_bottom_p5_p50": [
+   -25000,
+   -10000
+  ]
+ },
+ "dy_build -1pt, 2028 deposit $50,000": {
+  "p_payment_short_over_1k": 0.1898,
+  "quoted_bottom_p5_p50": [
+   -20000,
+   0
+  ]
+ },
+ "dy_build -1pt, 2028 deposit $75,000": {
+  "p_payment_short_over_1k": 0.0127,
+  "quoted_bottom_p5_p50": [
+   -5000,
+   30000
+  ]
+ }
+}

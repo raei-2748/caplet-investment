@@ -19,7 +19,7 @@
 | 10 | Ten times | Multiply one number by ten (the gift, the time, the rate move). Which part of the plan is the first to look silly? | | 0 | 0 |
 | 11 | The practitioner | Interview, in your head and then in their published words, the person from the scouted field who does this for a living. | | 0 | 0 |
 | 12 | Second order | What does this cause in 2033, and in 2042, that nobody asked about? | | 0 | 0 |
-| 13 | The ninety-second judge | A Wharton judge has 90 seconds. What do they keep, and what do they never reach? | | 0 | 0 |
+| 13 | The ninety-second judge | A Wharton judge has 90 seconds. What do they keep, and what do they never reach? | Thu 29 Oct (R2) | 1 | 0 |
 | 14 | Two losers make a winner | Pair two binned ideas from `FRONTIER.md` or `../IDEAS.md`. Does their combination live? | | 0 | 0 |
 | 15 | Concede, then turn | Write the sceptic's best line, grant it, then turn it (one of Ray's moves). Is the turn true? | | 0 | 0 |
 | 16 | Make it measurable | Which claim in the champion has no number? Find the number, or cut the claim. | | 0 | 0 |

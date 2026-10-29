@@ -771,6 +771,34 @@ round 1 beat 4 in `../../loop/rounds/2026-10-28.md`, LC-04 and S-06 in `../../ro
 - Barings (Jun 2025). What is a CLO?:
   https://www.barings.com/globalassets/2-assets/perspectives/viewpoints/insights/2025/06-june/what-is-a-clo.pdf
 
+Added by the Library, Thu 29 Oct 2026 (accessed 29 Oct 2026; quoted lines found in the fetched page text; round 2 beat 4
+in `../../loop/rounds/2026-10-29.md`, slip S-07 in `../../rooms/library.md`):
+- Presidente de la República de Chile (17 Sep 2025). Mensaje Nº 199-373, bill Boletín 17.856-05 (reform of Ley 20.128),
+  via Diario Constitucional: https://www.diarioconstitucional.cl/2025/10/18/gobierno-propone-nuevas-reglas-para-fortalecer-fondos-soberanos/mensaje-boletin-no-17-856-05/
+  (mirror; the law text on bcn.cl did not load). Takes: the "orden de prelación" ranking the pension fund over the
+  stabilisation fund.
+- Norwegian Ministry of Finance. Meld. St. 1 (2023-2024), National Budget 2024, ch. 3:
+  https://www.regjeringen.no/en/documents/meld.-st.-1-20232024/id2998356/?ch=2. Takes: "major changes in Fund value
+  should not immediately entail major changes in Fund spending".
+- Alaska Permanent Fund Corporation. FAQs & Helpful Information, https://apfc.org/?p=4896, and Generating Revenue for
+  Today & Tomorrow, https://apfc.org/era-durability/. Takes: 5% of a lagged average, "limited to the ERA balance".
+- Grundgesetz für die Bundesrepublik Deutschland, Art. 115: https://www.gesetze-im-internet.de/gg/art_115.html. Takes:
+  the emergency exception "ist mit einem Tilgungsplan zu verbinden". Bank #70.
+- European Commission (20 Mar 2020). COM(2020) 123 final, activation of the general escape clause of the Stability and
+  Growth Pact (German text): https://economy-finance.ec.europa.eu/document/download/4039fca6-615f-4115-a9ad-cdce4be17279_de
+- Potthoff, S., Finke, M., Scholten, M., Gieselmann, A., Vollmann, J. and Gather, J. (21 Oct 2022). Opportunities and
+  risks of self-binding directives. *Frontiers in Psychiatry* 13:
+  https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2022.974132/full
+- Royal College of Physicians (Dec 2017). *National Early Warning Score (NEWS) 2*, executive summary:
+  https://www.rcp.ac.uk/media/ctulqqbn/news2-executive-summary_0.pdf. Takes: the "single red score". Bank #71.
+- NSW Health (7 Apr 2025). Policy Directive PD2025_014, *Recognition and management of patients who are deteriorating*:
+  https://www1.health.nsw.gov.au/pds/ActivePDSDocuments/PD2025_014.pdf. Takes: signed, expiring alterations; escalation
+  on silence. Bank #70.
+- Ede, J., Jeffs, E., Vollam, S. and Watkinson, P. (2020). A qualitative exploration of escalation of care in the acute
+  ward setting. *Nursing in Critical Care* 25(3): https://pmc.ncbi.nlm.nih.gov/articles/PMC7217245. Bank #71.
+- Badawy, J., Nguyen, O. K., Clark, C., Halm, E. A. and Makam, A. N. Is everyone really breathing 20 times a minute?
+  *BMJ Quality & Safety* 26(10): https://qualitysafety.bmj.com/content/26/10/832 (year not shown in the fetched text).
+
 ## Part 3. Five "aha" syntheses
 
 ### Aha 1. Laura's gift is a capped, principal-protected note, built without a single derivative

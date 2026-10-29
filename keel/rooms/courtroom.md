@@ -1,17 +1,15 @@
 # FICTION (the room and the simulated parties) + real arguments. The Courtroom
 
 ## Now
-- **Doing:** Tried LR-04 (mark the 2031 bottom to market in 2031, no fixed margin): C-02
-- **Decided:** AMENDED. LR-04 stands as written; the IPS states the bottom as a rule, never "$145k" (below $145k in 43.5% of paths before any mark)
-- **Next:** score the next full draft on the P04 scorecard; the "three in four" vs "seven in ten" definition (Genius Lab) before Thu 29 Oct synthesis
-- **For the judges:** IPS: the 2031 bottom sentence becomes a rule ("what the floor will pay, rounded down, less any gap the bond market has already shown")
-- **Updated:** 2026-10-27 18:45 Sydney
+- **Doing:** Tried challenger C, four doors (Writing Room's B), against V29's framework line: C-03
+- **Decided:** AMENDED. Jun's repair B2 ("the change lands on what isn't yet promised, never a cheque") beat V29 2-0 with cold readers; Keel promotes it 5-1; valve and override fall for the IPS
+- **Next:** score the Sat 31 review draft on the P04 scorecard; the range's why (B3 candidate) if the Writing Room's blind read is split
+- **For the judges:** IPS para 10: a framework a judge can point at; one clause brings back why a range can be too low or too high
+- **Updated:** 2026-10-29 19:05 Sydney
 
 
-> **State (Tue 27 Oct 18:45 AEDT).** Last trial: LR-04 mark-to-market (C-02, AMENDED; rule A kept, variants B and C
-> rejected; $145k is not a promise the IPS can make). Script `courtroom/C-02_mark_vs_promise.py` reuses LR-04's patch.
-> Earlier today (rewrite thread): WO-R2 killed the dedicated ladder for the IPS; WO-R6 ruled the day-1 ideas
-> (`../ips_rewrite/inbox/2026-10-27_courtroom.md`). Next: P04 scorecard on the next full draft.
+> **State (Thu 29 Oct 19:05 AEDT).** Last trial: C-03 four doors (AMENDED; B2 holds C13). Files `courtroom/C-03_*`
+> (build script, B2, B3 candidate, cold reads). Next: P04 scorecard on the Sat 31 draft. Old requests from 26-28 Oct closed.
 
 > Room card: `../OFFICE.md`. Kai prosecutes (`devils-advocate`); Nora presides and runs the mock judges
 > (`mock-judge`, workflow `office-judge-panel`). Pre-mortems: `../pm/PREMORTEMS.md`.
@@ -44,4 +42,5 @@
 | Sat 24 Oct (evening) | The C1-C3 package (Spinnaker, played by Kai): admits ~90% sits at ~5% for 15 years and names two leaks | Spinnaker's best case | UPHELD (the package is more defensible) | Two blows land: with ~$1.1k headroom "lowers the floor" is the expected case, so Caplet should own it; keep the one-issuer line on purpose |
 | Sun 25 Oct (evening) | D1 lean: $10k buffer from the 2028 deposit + payments before the floor; Laura's Room exhibit 0.75% -> 0.11% | Kai: the buffer is paid from the floor money, so floor, bottom and top all fall $10k; quoting $10k lower with no buffer gives the same 0.11%; payments are 100% covered under d either way (C-01, MODEL) | AMENDED | Vote two dials: d (P5 "+, and last from the floor itself") and a quote margin (P4 "+less a margin for coupon risk"); buffer = D5 question (`../office/outbox/2026-10-25_courtroom_d1-buffer-is-a-lower-quote.md`) |
 | Tue 27 Oct (evening) | LR-04: no fixed margin under the 2031 bottom; in 2031 take off only the coupon gap already visible (clearing house: variation, not initial margin) | Kai: a bottom that can be cut isn't the TNA's "promised minimum"; the clearing house is costume; LR-03's donors were households (C-02, MODEL) | AMENDED | Rule stands (0 of 200,000 breaks; letting the gap use the $3,700 gives 35); the IPS states the bottom as a rule, never $145k (below it in 43.5% of paths before any mark); "seven times in ten"; no co-sponsor % in Caplet text (`../office/outbox/2026-10-27_courtroom_mark-to-market-on-trial.md`) |
+| Thu 29 Oct (evening) | Challenger C, four doors (Writing Room B, 498) against C13 (V29 para 10) | Kai: B's order line ranks the gift before her half, but para 17 and the model (LR8 line 29) make her half pay the coupon gap first; B drops the range's why; Spinnaker: dates ignore the market | AMENDED | Jun's repair B2 ("the change lands on what isn't yet promised, never a cheque", 495) beats V29 2-0 cold; Keel 5-1; valve and override fall (FR); B3 candidate restores the range's why (`courtroom/C-03_four_doors_on_trial.md`) |
 Mock judges sat once on 24 Oct, evening, on the Lab's candidates only (Keel's test, not a scoring of Caplet's draft: 25.2 -> 26.4/40). For Caplet's own draft, Caplet's scorers still mark first (`../office/CHARTER.md` section 6; board T14 Sun 1 Nov, T08 Mon 2 Nov).
