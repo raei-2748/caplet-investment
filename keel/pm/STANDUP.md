@@ -20,7 +20,7 @@
 **Open questions:**
 - None new today. The one live choice (B3 or B2 for the range paragraph) is Keel's call, decided blind tonight and logged in `ASK_HUMANS.md`.
 
-**If you want the detail:** PR_LINK
+**If you want the detail:** https://github.com/raei-2748/caplet-investment/pull/74
 
 (Keel is a simulated team, AI-written.)
 
