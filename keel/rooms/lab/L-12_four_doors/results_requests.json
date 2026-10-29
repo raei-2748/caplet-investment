@@ -1,0 +1,132 @@
+{
+ "stamp": "curve 22 Oct 2026 | J.P. Morgan 2027 global equities 7.5% | 200,000 paths, seed 20261016 | rho 0.5 unless S0 | MODEL",
+ "S0 base, rates and stocks independent": {
+  "p_payment_short_over_1k": 0.0003,
+  "ninety": {
+   "quoted_bottom_p0.1_p1_p5_p50": [
+    85000,
+    100000,
+    115000,
+    145000
+   ],
+   "quoted_bottom_min": 65000,
+   "p_quoted_bottom_at_least_125k": 0.8776,
+   "p_at_least_120k": 0.9223,
+   "p_below_quoted_bottom": 0.0
+  },
+  "top": {
+   "top_p50": 166292,
+   "p_exact": 0.7924,
+   "p_within_1k": 0.8462,
+   "p_quoted_top_rounded_down_1k": 0.8246,
+   "p_quoted_top_rounded_down_5k": 0.866,
+   "median_short_of_top_when_missed_1k": 8074
+  },
+  "rung": {
+   "p_total_short_over_1k": 0.4657,
+   "p_funded_in_total_but_one_rung_short_over_1k": 0.0,
+   "n": 7,
+   "largest_single_rung_gap_when_so": 1073,
+   "median_single_rung_gap_when_so": 1051,
+   "of_those_pooled_cash_short_in_time_over_1k": 0,
+   "which_rung_is_worst_when_so_by_cheque_year": {
+    "2033": 0,
+    "2034": 0,
+    "2035": 0,
+    "2036": 0,
+    "2037": 0,
+    "2038": 0,
+    "2039": 0,
+    "2040": 0,
+    "2041": 0,
+    "2042": 7
+   }
+  }
+ },
+ "S1 base, recession-linked (rho 0.5)": {
+  "p_payment_short_over_1k": 0.0003,
+  "ninety": {
+   "quoted_bottom_p0.1_p1_p5_p50": [
+    80000,
+    100000,
+    110000,
+    145000
+   ],
+   "quoted_bottom_min": 60000,
+   "p_quoted_bottom_at_least_125k": 0.8699,
+   "p_at_least_120k": 0.9161,
+   "p_below_quoted_bottom": 0.0
+  },
+  "top": {
+   "top_p50": 166275,
+   "p_exact": 0.775,
+   "p_within_1k": 0.8287,
+   "p_quoted_top_rounded_down_1k": 0.8069,
+   "p_quoted_top_rounded_down_5k": 0.8483,
+   "median_short_of_top_when_missed_1k": 8682
+  },
+  "rung": {
+   "p_total_short_over_1k": 0.4657,
+   "p_funded_in_total_but_one_rung_short_over_1k": 0.0,
+   "n": 7,
+   "largest_single_rung_gap_when_so": 1073,
+   "median_single_rung_gap_when_so": 1051,
+   "of_those_pooled_cash_short_in_time_over_1k": 0,
+   "which_rung_is_worst_when_so_by_cheque_year": {
+    "2033": 0,
+    "2034": 0,
+    "2035": 0,
+    "2036": 0,
+    "2037": 0,
+    "2038": 0,
+    "2039": 0,
+    "2040": 0,
+    "2041": 0,
+    "2042": 7
+   }
+  }
+ },
+ "S6 yields fall 2pt just after the build, for good": {
+  "p_payment_short_over_1k": 0.0005,
+  "ninety": {
+   "quoted_bottom_p0.1_p1_p5_p50": [
+    70000,
+    80000,
+    95000,
+    130000
+   ],
+   "quoted_bottom_min": 50000,
+   "p_quoted_bottom_at_least_125k": 0.6174,
+   "p_at_least_120k": 0.6938,
+   "p_below_quoted_bottom": 0.0
+  },
+  "top": {
+   "top_p50": 159393,
+   "p_exact": 0.3781,
+   "p_within_1k": 0.4148,
+   "p_quoted_top_rounded_down_1k": 0.3996,
+   "p_quoted_top_rounded_down_5k": 0.4403,
+   "median_short_of_top_when_missed_1k": 17365
+  },
+  "rung": {
+   "p_total_short_over_1k": 0.8946,
+   "p_funded_in_total_but_one_rung_short_over_1k": 0.0,
+   "n": 0,
+   "largest_single_rung_gap_when_so": 0,
+   "median_single_rung_gap_when_so": 0,
+   "of_those_pooled_cash_short_in_time_over_1k": 0,
+   "which_rung_is_worst_when_so_by_cheque_year": {
+    "2033": 0,
+    "2034": 0,
+    "2035": 0,
+    "2036": 0,
+    "2037": 0,
+    "2038": 0,
+    "2039": 0,
+    "2040": 0,
+    "2041": 0,
+    "2042": 0
+   }
+  }
+ }
+}

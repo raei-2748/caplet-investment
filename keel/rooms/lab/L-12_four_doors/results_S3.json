@@ -1,0 +1,79 @@
+{
+ "stamp": "curve 22 Oct 2026 | J.P. Morgan 2027 global equities 7.5% | 200,000 paths, seed 20261016 | MODEL",
+ "scenario": "S3 2028 deposit missing",
+ "MB+T +lock": {
+  "p_payment_short_over_1k": 0.5735,
+  "quoted_bottom_p5_p50": [
+   -30000,
+   -10000
+  ],
+  "mean_cut_vs_floor_rule": 9830,
+  "p_cut_vs_floor_rule": 0.7058,
+  "p_below_quoted_bottom": 0.0,
+  "n_below": 0,
+  "median_miss": 0,
+  "p_top_within_1k": 1.0,
+  "gift_p5_p50": [
+   0,
+   0
+  ],
+  "p_laura_half_sold": 0.0,
+  "cosponsor_cost_pct_E094": 100.0,
+  "cosponsor_cost_pct_E05": 100.0,
+  "laura_2042_half_plus_release_p5_p50": [
+   0,
+   0
+  ],
+  "p_stocks_sold_2031": 0.0,
+  "median_sold_2031_when_sold": 0,
+  "p_stocks_sold_2033": 0.0,
+  "median_2033_value_given_up_by_selling_in_2031": 0
+ },
+ "MB+T +lock delayed 1y": {
+  "p_payment_short_over_1k": 0.5735,
+  "quoted_bottom_p5_p50": [
+   -30000,
+   -10000
+  ],
+  "mean_cut_vs_floor_rule": 9830,
+  "p_cut_vs_floor_rule": 0.7058,
+  "p_below_quoted_bottom": 0.0,
+  "n_below": 0,
+  "median_miss": 0,
+  "p_top_within_1k": 1.0,
+  "gift_p5_p50": [
+   0,
+   0
+  ],
+  "p_laura_half_sold": 0.0,
+  "cosponsor_cost_pct_E094": 100.0,
+  "cosponsor_cost_pct_E05": 100.0,
+  "laura_2042_half_plus_release_p5_p50": [
+   0,
+   0
+  ],
+  "p_stocks_sold_2031": 0.0,
+  "median_sold_2031_when_sold": 0,
+  "p_stocks_sold_2033": 0.0,
+  "median_2033_value_given_up_by_selling_in_2031": 0
+ },
+ "L12_delay": {
+  "p_stocks_below_2028_cost_on_naming_day": 0.0,
+  "all_paths": {
+   "p_delay_raises_gift_over_1k": 0.0,
+   "p_delay_cuts_gift_over_1k": 0.0,
+   "gift_change_p5_p50_p95": [
+    0,
+    0,
+    0
+   ],
+   "mean_gift_change": 0,
+   "mean_extra_kept_by_laura_above_top": 0
+  },
+  "paths_down_on_naming_day": {
+   "p_delay_raises_gift_over_1k": 0.0,
+   "p_delay_cuts_gift_over_1k": 0.0,
+   "mean_gift_change": 0
+  }
+ }
+}
