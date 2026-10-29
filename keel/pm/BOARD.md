@@ -54,6 +54,7 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Thu 29 Oct 202
 ## Done
 | ID | Task | Owner | Done | Output |
 |---|---|---|---|---|
+| SD-ARC-06 | Round 2 recorded (territory, champions, frontier, health); B2 checked against the submitted TNA and notes (no contradiction; A22 closed, A24 new) | Tess | Thu 29 Oct | `keel/loop/rounds/2026-10-29.md` beat 9; `keel/ips_rewrite/inbox/2026-10-29_archive.md` |
 | SD-N03 | Research round 2 gathered: Q8 the framework; lens 13; sovereign funds, commitment devices, ICU track-and-trigger | Nora | Thu 29 Oct | `keel/loop/rounds/2026-10-29.md` |
 | SD-ARC-05 | Round 1 recorded (territory, champions, frontier, health) and A19 closed by the deletion test | Tess | Wed 28 Oct | `keel/loop/rounds/2026-10-28.md` beat 9; `keel/rooms/archive_checks/A19_delete_vt_test.py` |
 | SD-N02 | Research loop round 1 gathered: Q1 sharpened by the birthday rule; lens 2; settlements, construction retainage, theatre cues | Nora | Wed 28 Oct | `keel/loop/rounds/2026-10-28.md` |
