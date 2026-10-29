@@ -1,16 +1,19 @@
 # FICTION (the room and the simulated people) + the real case. Laura's Room
 
 ## Now
-- **Doing:** Round 1 beat 6: reading the Genius Lab's four coupon-gap challengers as a co-sponsor, a judge and a practitioner
-- **Decided:** A fair head-to-head needs yesterday's 2031 mark in both arms. With it, C6 + "the mark carries the cushion" keeps the $145k label, is never broken (0 / 10 / 29 of 200,000), costs the signal 1.4% vs A's 6.6% (MODEL); A sharpened, B and C killed for the IPS, D parked
-- **Next:** Long Room tonight rules A vs C6 + MC; Window fact-checks LR-05; next visit is the fresh draft, Fri 30 Oct
-- **For the judges:** IPS: the 2031 range sentence and slot 7 (how the reserve changes in 2033); Investment Strategy, Client Knowledge (:94-97, :117-120)
-- **Updated:** 2026-10-28 15:40 Sydney
+- **Doing:** Round 2 beat 6 done: the Lab's four framework challengers read as a co-sponsor, a judge with the case open and two practitioners (LR-06)
+- **Decided:** C (four doors) sharpened: V29 never names the operating reserve and says it "never changes" (case :94-97, Book 7); the fifth part is the motif, four doors then ten (one redemption per cheque); 2031's January is our choice, not the case's. B killed as written; its surviving form is a one-way valve (smaller or sooner, never bigger or later). A to the FR, D folded
+- **Next:** Writing Room takes the reserve line into Saturday's draft; Courtroom tries the one-way valve tonight; next visit reads the Sat 31 review draft against every case line
+- **For the judges:** IPS V29 para 10: "In 2033 the ten holdings become the operating reserve, topped up once from her half first; then it only shrinks, one redemption per cheque." (+14); Investment Strategy, Client Knowledge (:94-97)
+- **Updated:** 2026-10-29 15:45 Sydney
 
 
 > Room card: `../OFFICE.md`. Host: Amara ("What does she feel in a bad year?"). Agents: `case-analyst`,
 > `cosponsor-reader`, `taiwan-researcher` (Taiwan research opens Sun 8 Nov).
 
+> **State (Thu 29 Oct, 15:10 run, round 2 beat 6):** LR-06 (`lauras_room/LR-06_four_doors_then_ten.md`, no new run):
+> four doors sharpened with the reserve run-off (case :94-97), the 2031 date fix and the one-way valve. Open: Courtroom
+> tonight (C and S-07), Writing Room (reserve line, Sat 31).
 > **State (Wed 28 Oct, 15:10 run, round 1 beat 6):** LR-05 (`lauras_room/LR-05_who_pays_the_blind_fifth.md` + `.py` +
 > `_results.json`): L-11's A vs C6 re-run with LR-04's 2031 mark in both arms; C6 + "mark carries the cushion" wins for
 > co-sponsors (defaulter pays first: Laura's spare money, then the bottom, told in 2031). Open: Long Room ruling tonight;
@@ -49,3 +52,4 @@
 | Mon 26 Oct | same | Laura | Hesitates at "pledged" until only the floor is; asks if the bottom can fall 2031-33 (only if raided: D1a) | :102-103; :113-114 | Her half stays hers; D1a decides the leak (LR-03) |
 | Tue 27 Oct | LR-03 + Window N2; R05 S1/S2; D1b; LR-04 model (WO-R7) | Co-sponsor (programme officer), co-sponsor (corporate finance lead), Laura | Bottom = the number for a board paper; a fixed margin below what she owns reads as Laura hedging her own project; "will it move again?"; wants the chance of the top, not "99% inside". Laura: fine, only the floor is pledged | :110-115; :117-119; :101-103 | Mark the bottom to market in 2031, no fixed margin; quote the chance of reaching the top (LR-04) |
 | Wed 28 Oct | Lab L-11 challengers A-D + LR-05 re-run with the 2031 mark (round 1 beat 6) | Co-sponsor (programme officer), judge, clearing-house risk officer | A: "$10k off my board paper in every world"; C6 + mark carrying the cushion: "moves only in 2031, only if her own money can't cover her own cheques: I can book that"; B, C read as cures bigger than the disease | :94-97; :113-120 | C6 + MC to tonight's head-to-head; one clause that the cushion is the first call on Laura's half (LR-05) |
+| Thu 29 Oct | Lab L-12 challengers A-D + V29 (round 2 beat 6) | Co-sponsor (programme officer), judge with the case open, ward and pension practitioners (reasoned) | Co-sponsor: "only door 3 faces me; can door 4 reach behind it?" (her half first; bottom 0 of 600,000). Judge: where is the operating reserve, and how does it change as payments are made? V29: "never changes". B: a delayed lock means co-sponsors hear different numbers | :94-97; :109; :114-120 | Reserve line for para 10 (+14); "2031's first day is ours"; one-way valve to the Courtroom (LR-06) |
