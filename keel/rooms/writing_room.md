@@ -1,11 +1,11 @@
 # FICTION (the room) + real drafts. The Writing Room
 
 ## Now
-- **Doing:** round 1 beat 7 (28 Oct): the three cures for the coupon gap as claims and as counted V28 splices, read blind by two cold judges (`../ips_rewrite/inbox/2026-10-28_writing-room.md`)
-- **Decided:** V28's soft-spot sentence ("the one thing that can still trim the gift") is out: both readers put it last for breaking the one rule. Lean for tonight's vote: C6 + mark (498 words with the five hard fixes); A ties on the readers but costs the bottom ~$10k and can force a Treasury sale
-- **Next:** Thu 29 Oct: the Long Room's verdict goes into a clean splice. "Before the bottom" -> "before anything comes off the bottom" if three words are found. Fri 30 Oct D5 prose; Sat 31 Oct review read
-- **For the judges:** five word-neutral hard fixes to V28 (first $300k + 2028 top-up in one sentence; Laura's half booked once; 2031 lock into "the first cheque's fund"; one quotable ending cut) and the 2031/2033 paragraph that keeps the plan's own rule
-- **Updated:** 2026-10-28 16:45 Sydney
+- **Doing:** round 2 beat 7 (29 Oct): the four doors as claims and as three counted V29 texts, read blind by three cold readers (`../ips_rewrite/inbox/2026-10-29_writing-room.md`)
+- **Decided:** lean B for Saturday: V29's needs line becomes an order and a clock ("Every rule here fires in a year the case already set, never on a hunch; if needs change, the gift takes it before it is named, her half after, a cheque last"); 3 of 3 readers advanced it. Price: the range's two embarrassments go FR-first
+- **Next:** Fri 30 Oct: the Courtroom's verdict and the Lab's door-4 count into B; Sat 31 Oct review read of the near-final
+- **For the judges:** four hard fixes in V29 ("never changes", "carries risk", "$300,000 buys them", "three times worse") and a framework a judge can point to
+- **Updated:** 2026-10-29 17:20 Sydney
 
 
 > AI DRAFT material throughout (Claude); not for submission as written. (Keel is a simulated team, AI-written.)
@@ -15,6 +15,8 @@
 > Rule: flag only hard issues (limits, rule breaches, facts, numbers, formatting) with minimal edits; never reword
 > for taste or soften a confident claim. Suggestions stay in the repo; never touch the Google Docs.
 
+> **State (Thu 29 Oct, 16:20 run):** beat 7 done; texts + `build.py` + `cold_reads.md` in `../drafts/writing_room_2026-10-29/` (rerun `build.py` after any V29 change). Open to this room: nothing.
+>
 > **State (Wed 28 Oct, 16:20 run):** beat 7 done; splices + script in `../drafts/writing_room_2026-10-28/` (rerun `splice_arms.py` after any V28 change). Open to this room: nothing; the Long Room's verdict tonight decides which splice the rewrite gets.
 >
 > **State (Tue 27 Oct, 17:10 run):** P06 done on the day-2 spine (not D4: the thinking moved). Kept lines and the
@@ -36,6 +38,7 @@
 
 | Tue 27 Oct (17:10) | 18 candidate lines for six spine slots + D4 | D4 498 by spaces (494 split; earlier runs quoted the smaller) | 5: "ten Treasuries"; counts quoted low; "We buy the rate"; "the one way it fails"; D4 inflation/TWD HOLE | `../office/outbox/2026-10-27_writing-room_cold-read.md` |
 | Wed 28 Oct (16:20) | V28 (D8) + three soft-spot splices (C6, C6+MC, A) | V28 499 by spaces, pitch 50; splices 495 / 498 / 500 | 5: count margin 1/0; first $300k one-close fact; Laura's half double-booked; 2031 lock 'Treasuries maturing before 2033' (none on WInS); six quotable endings (cut one) | `../office/outbox/2026-10-28_writing-room_three-cures-side-by-side.md` |
+| Thu 29 Oct (16:20) | V29 (D9) + three texts (A hard fixes; B four doors; C B with the range kept) | V29 495, pitch 48; A 499, B 498, C 497 | 4 + reader notes: "never changes"; "carries risk" (57%); "$300,000 buys them" (3 readers); "three times" stale (six); "what's left", "one dollar in fifteen" | `../office/outbox/2026-10-29_writing-room_the-order-and-the-clock.md` |
 
 ## Tool changes
 - 27 Oct: `words_limit()` = the larger of the two counts; the summary line says "quote the larger"; the portal's IPS
