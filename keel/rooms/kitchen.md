@@ -1,23 +1,53 @@
 # FICTION. The Kitchen (off duty; Amara keeps the thermos)
 
 ## Now
-- **Doing:** Off duty: one short scene a run; from Wed 28 Oct also beat 10 of the research round (reflect, send off)
-- **Decided:** Nora and Kai's truce survives a loss: Kai brings the next challenge through the door (Thursday), and Nora holds it open instead of closing it
-- **Next:** Felix and Tess (neither pushes the other); first loop beat Thu 29 Oct (odd date)
-- **For the judges:** Kai's trade-in question went to the Genius Lab: is there a 2031 figure the rule can never go below?
-- **Updated:** 2026-10-27 20:40 Sydney
-
+- **Doing:** Beat 10 of round 2 (reflect, send off) plus one off-duty scene; round 3's scouting orders written for Fri 30 Oct
+- **Decided:** Round 3 asks why the 2031 range exists and what each end costs (flaw F8, slot C5): Felix near on IPO price ranges, Tess adjacent deepening the donor field, Kai far on rain forecasts that give each end its own chance; Nora builds, since Jun hunts flaws. Lesson LS-11: a blind win is a reading, not a check
+- **Next:** next odd date Sat 31 Oct, 20:20 (beat 10 of round 4); scene candidates Felix-Tess, Jun-Amara
+- **For the judges:** the range paragraph (its "why") and para 11's reserve line (what Laura never has to do each January) are the two lines tomorrow's round can move
+- **Updated:** 2026-10-29 20:40 Sydney
 
 (Keel is a simulated team, AI-written.)
 
-> **State (last run Tue 27 Oct 2026, 20:40 Sydney).** Scenes: 2. Last moved: Nora-Kai (the "ninety", after C-02).
-> Next candidates: Felix-Tess (neither pushes the other), Tess-Amara (the folder of cut lines). Open request from
-> here: the "is there a ninety?" floor-of-the-floor test to the Genius Lab, Thu 29 Oct (`../pm/REQUESTS.md`).
-> From Wed 28 Oct this room is also beat 10 of the loop on odd dates (`../pm/runbooks/kitchen.md`).
+> **State (last run Thu 29 Oct 2026, 20:40 Sydney).** Scenes: 3. Last moved: Tess-Amara (the folder stays at eleven).
+> Next candidates: Felix-Tess (neither pushes the other), Jun-Amara (tomorrow she judges cold while Jun hunts flaws).
+> Open request from here: Q7 through the blister pack, to Laura's Room, Sun 1 Nov (`../pm/REQUESTS.md`).
+> On odd dates this room is beat 10 of the loop (`../pm/runbooks/kitchen.md`): doors round in the scene, candidate
+> fields to `../loop/TERRITORY.md`, tomorrow's orders to `../loop/FRONTIER.md` s4, at most one lesson to `../loop/LESSONS.md`.
 > Rules: one scene under 200 words per run, one relationship moved in `../tea_room.md` "Relationships right now",
 > at most one idea filed as a request. No episode numbers (the episode task owns them).
 
 ## Scenes (newest at the top)
+
+### Thu 29 Oct, 20:20, after the Archive
+Amara poured six chais and set the rule: one thing from outside today. No IPS.
+
+"Rain app said fifty per cent, two to eight mil," Kai said. "I got the eight."
+
+"My cousin's float priced at the bottom of its range," Felix said. "He's sulking."
+
+"School hall appeal," Tess said. "The thermometer started at sixty."
+
+Jun: "My train sat at Strathfield for two minutes. It was early, so it had to."
+
+Nora: "Mum made up a blister pack for a regular. One sealed door per dose."
+
+"Nani's paid for a langar in March," Amara said. "Already."
+
+Then she took Tess's folder off the fridge and held out a pen. "Card twelve. The range's why. My text cut it."
+
+Tess didn't take the pen. "Not that one. It's in tomorrow's test."
+
+"I wrote the version that won without it."
+
+"So you watch the one that puts it back. The readers won't know whose is whose." Tess put the folder back. Eleven cards. "You don't get to bury your own lines any more. That was my job, and I'm quitting."
+
+Amara laughed, first time all day, and topped up Tess's cup without asking.
+
+*Moves:* Tess-Amara: Amara tries to file the range's why as card twelve after her own text cut it; Tess refuses and
+sends it to Friday's blind read instead. The first time Tess has pushed Amara. *Doors:* six, each with a mechanism; three
+became tomorrow's fields (rain range, float range, the appeal's quiet start), the blister pack the one idea filed, the
+timetable's padding and the prepaid langar candidates in `../loop/TERRITORY.md`. *Slipped out:* Q7 through the blister pack, to Laura's Room.
 
 ### Tue 27 Oct, 16:40, after the Courtroom
 Kai came in holding the brief he'd lost with, folded into a paper plane. He threw it at the bin. It missed.

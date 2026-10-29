@@ -95,8 +95,8 @@ co-sponsor a number she doesn't already own."**
   anyone quotes headroom again.
 
 ## Relationships right now
-- Amara lost a second line in two days (the 2031 range) but cut it herself; she wants it back in December. Eleven
-  cards in Tess's folder.
+- Amara lost a second line in two days (the 2031 range) but cut it herself; she wanted it back in December. Eleven
+  cards in Tess's folder (see Tess and Amara, 29 Oct, below).
 - Jun is embarrassed that his off-hand 11 Oct number nearly reached a deliverable; now posts only dated MODEL numbers.
   He still owes Nora an answer ("something you need, or something you're afraid of?", 21 Oct).
 - Kai asked Felix to watch his paste, not just his orders. The "two clocks" point came from Felix, and Kai took it
@@ -111,6 +111,10 @@ co-sponsor a number she doesn't already own."**
 - Nora and Kai: the truce held through a loss. Kai lost the clearing-house case (C-02, Tue 27 Oct), then asked in the
   Kitchen whether the 2031 bottom has a "ninety" (a figure it can never go below) and said he wasn't reopening.
   Nora didn't close it: "Good question. Bring it Thursday." Half a mandarin each (Kitchen, Tue 27 Oct, `rooms/kitchen.md`).
+- Tess and Amara: the folder stops being where Amara's lines go to wait. Her own text cut the range's why on Thu 29 Oct
+  and she tried to file it as card twelve; Tess refused ("You don't get to bury your own lines any more") and sent it to
+  Friday's blind read, where nobody knows whose line is whose. First time Tess has pushed Amara; Amara laughed and
+  topped up her cup. Still eleven cards (Kitchen, Thu 29 Oct, `rooms/kitchen.md`).
 
 ## Long Room log (Sydney date and minutes; room days; purpose)
 | Sydney | Minutes | Room days | Purpose | Who |

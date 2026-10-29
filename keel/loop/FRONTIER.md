@@ -8,6 +8,7 @@
 ## 1. Open questions, ranked (Nora re-ranks each morning: most IPS lift for the least-explored ground first)
 | # | Question | Slot it could move (`CHAMPIONS.md`) | Why it matters | Added | Rounds spent |
 |---|---|---|---|---|---|
+| Q10 | Why does the 2031 range exist, and what does each end cost the person who quotes it? Who else quotes a range to people who will build on it (bookrunners, campaign chairs, forecasters), how do they set each end, and what does a miss on either side cost them? (F8 turned into a question by the Kitchen's send-off) | C5, C13 | B2 lost the range's why and both cold readers docked Client Knowledge; B3 restores it in eight words, but nobody has checked the words against how practitioners actually set and defend a range | Thu 29 Oct | 0 |
 | Q2 | Which R makes "X = ten" land: redemption, runway, or something nobody has tried? What do people who name products for a living test before they pick? | C2 | `../BIBLE.md` Book 5: R must be clever, not weird; still open in the THINKING_LOG | Tue 27 Oct | 0 |
 | Q3 | How should the IPS define certainty so a judge says "aha", not "fine"? Who else writes down a standard for "certain enough" (law, engineering, medicine), and does any of them beat the IRS 1-in-20? | C3, C11 | S-05 is a strong challenger; the D4 holder has a factual flaw | Tue 27 Oct | 0 |
 | Q4 | Five original strategy ideas the rewrite hasn't thought of, each with a number that would change a decision (WO-R8) | any | Ray, 27 Oct: the Lab's output has been too thin | Tue 27 Oct | 0 |
@@ -55,34 +56,47 @@
 | S15 | Smoothing breaks for promises (Norway, Alaska) | Funds that never end may smooth; a named gift must be marked. What transfers is the cap: never more than the pot holds | FR: the outside proof that the top is capped by what she owns (bank #80) | Library A2-A3 |
 
 ## 4. Tomorrow's scouting orders (written by the send-off at 20:20; Nora may change them at 07:00)
-**Round 2, Thu 29 Oct (written by the Rooftop, Wed 28 Oct, 20:20).** Question: **Q8, the framework.** Wharton's Book 7
-asks for "the strategy and decision-making framework ... rather than describing individual investments or presenting
-detailed financial calculations", and leans on "how your strategy will guide portfolio construction and investment
-decisions as the client's needs change". V28 answers that in one line ("cheques first; floor and stocks shrink
-together"), which is also open flaw F7. **Who writes rules in advance that tell you what to do when conditions change,
-without forecasting them, and what do their rules say that ours don't?** Lens: **13, the ninety-second judge** (never
-drawn): each scout brings back the one rule from their field a judge would still remember after 90 seconds, and where
-it breaks for Laura (LS-04). Rotation row 2: scouts Amara, Jun, Nora; flaw-hunter Kai; cold judge Felix. LS-10 applies:
-each beat names the IPS paragraph it can move before it starts.
-- **Near, Amara (Sonnet 5.5, depth on one rule set): sovereign wealth funds, stabilisation vs savings funds**
-  (`unvisited`). Chile keeps two funds with written rules for when money goes in and when it may come out; Norway
-  spends by a fiscal rule, not a forecast. How does a state write down which pot pays when, so a crash doesn't
-  reopen the argument? New ground: the first near field about a *rule for which money moves when*, not about
-  pricing a liability. (door: the gurdwara kitchen's two tins, below)
-- **Adjacent, Jun (Haiku 5.5, breadth): precommitment, Ulysses contracts and commitment devices** (`unvisited`).
-  Savings plans that raise contributions automatically, fiscal rules with escape clauses, advance directives. When
-  is a rule written in advance allowed to bend, and who decides? New ground: the first field about *escape clauses*,
-  the part of a framework our drafts have never written. (door: running splits, below)
-- **Far, Nora (Opus 5.5, the cross-domain link): ICU early-warning scores, "track and trigger"** (`unvisited`).
-  A ward doesn't forecast which patient will crash; it scores a few observations and each score has a response
-  agreed in advance. Is "observe, score, act as agreed" the shape Book 7's "as needs change" wants? New ground:
-  the first field where the whole framework is a trigger-and-response table. (door: her mum's pharmacy, below)
-- **Off duty, the doors** (fiction; what comes back through them must be real, fetched sources): Amara's gurdwara
-  committee keeps two tins, the everyday one and the one for weddings and funerals, and argued on Sunday about
-  whether one may borrow from the other. Jun's running coach makes them write their splits before the race, plus one
-  line on when to abandon them. Nora's mum has the hospital's deterioration chart pinned up behind the counter: it
-  doesn't say what's wrong, only what to do at each score.
-- **Not tomorrow:** Q9 (the 2027 year) is one clause, not a round; the Genius Lab may take it as a side check if
-  its beat has room. The Kitchen's "is there a ninety?" stays with the Lab's open request.
+**Round 3, Fri 30 Oct (written by the Kitchen, Thu 29 Oct, 20:20).** Question: **Q10, why a range, and what each end
+costs** (flaw F8 turned into a question). Round 2 gave the IPS a framework (B2, 2-0 cold) and paid for it with the
+range's why: both readers docked Client Knowledge, and the case itself names both costs (a meaningful contribution "may signal that
+the residency is financially viable"; promising more than she can give "could damage her credibility", case :110-114). B3 puts eight words back; the Writing Room reads it blind on Fri 30
+anyway. The scouts' job is to make those words *true to how practitioners do it*, or replace them with a better why.
+**Who quotes a range to people who will build on it, how do they set each end, and what does a miss on either side
+cost them?** Lens: **22, what did we give up?** (never drawn): each scout names, in their field, what a range-setter
+loses for a miss on the low side and on the high side, in money or in trust, and where that breaks for Laura (LS-04:
+the break first). Rotation row 3: scouts **Felix, Tess, Kai**; flaw-hunter **Jun**; cold judge **Amara**; builder
+**Nora** (Jun hunts flaws today, and the builder never hunts their own challenger, so Nora, free in row 3, builds at
+13:40; Kai's call on the roast stays). LS-10: one paragraph, the range paragraph (B2/B3 para 8); its two beats are the
+Lab's build and the Writing Room's read; the Long Room (beat 8, even date) votes, it doesn't redraft. TERRITORY rule 2
+starts today: Tess deepens a champion's field. Book 9 check: the question is the 2031 promise, the case's own centre,
+not a word fix.
+- **Near, Felix (Haiku 5.5, breadth): IPO bookbuilding and the indicative price range** (`unvisited`, new row
+  tonight). A float is marketed on a price range; the book decides the price; pricing below the range, or cutting the
+  range, is read as weakness, and above it as demand left on the table. US rules are said to let the final price move
+  a set tolerance outside the range without a new prospectus (Rule 430A; the 20% figure is UNVERIFIED, the Kitchen's
+  fetch was blocked). Bring back: how bookrunners pick the two ends, how often deals price outside (any primary data),
+  and what each miss costs the issuer. New ground: the first near field where a range is *sold to buyers who commit
+  on it*, exactly the co-sponsors' position. (door: Felix's cousin's float, priced at the bottom of its range)
+- **Adjacent, Tess (Sonnet 5.5, depth; deepens a champion's field): fundraising, the capital campaign's quiet phase
+  and seed money** (`promising`, R05 #18, C5's donor evidence). Campaigns are said to announce a public goal only once
+  a large share is already pledged (the "quiet phase"; share UNVERIFIED). Re-read bank #6's study at the source (List
+  and Lucking-Reiley 2002, *Journal of Political Economy*): the Window flagged a donor study "read backwards" on 27 Oct,
+  so check the direction before any line leans on it. Bring back: how a campaign sets its public number, what a missed
+  goal costs, and whether "announce only what you already own" is their rule too. New ground: from *what moves
+  donors* (visited) to *how the asker sets the number* (never asked). (door: the school hall appeal whose thermometer
+  started at sixty)
+- **Far, Kai (Opus 5.5, the cross-domain link): weather forecasts that give each end of a range its own chance**
+  (`unvisited`, new row tonight). The Bureau of Meteorology's "possible rainfall" range is said to pair a lower amount
+  with a 50% chance of being exceeded and an upper amount with 25% (UNVERIFIED: fetch the BoM's own explanation page).
+  Our range is the same shape: a bottom that is as sure as the bonds, a top reached about six times in seven (L-12,
+  MODEL). Bring back: why a forecaster gives two ends two different odds, how the public misreads them, and whether
+  "each end, its own chance" says the range's why in fewer words than "too low costs gifts; too high, her word". New
+  ground: the first far field about *communicating* a range, not setting one. (door: Kai's rain app, "fifty per cent,
+  two to eight mil", and he got the eight)
+- **Off duty, the doors** (fiction; what comes back through them must be real, fetched sources): Felix's cousin's float
+  priced at the bottom of its range; Tess's school appeal started its thermometer at sixty; Kai walked home from the
+  phone shop through the top of the rain forecast.
+- **Not tomorrow:** Q7 (Laura's Januaries from 2033) goes to Laura's Room by request (Sun 1 Nov) through Nora's
+  blister pack, not a round. Jun's timetable padding and Amara's prepaid langar are TERRITORY candidates only.
 
 (Keel is a simulated team, AI-written.)
