@@ -47,6 +47,7 @@ Google Doc copy (Drive, 23 Oct): https://docs.google.com/document/d/1wXYUnCznrU2
 | 31 | Tue 27 Oct | [Same number, different year](2026-10-27_ep31.md) | Felix | light | Exam morning; the TNA's 7.5% is 2027 world stocks, not 2026 EAFE; stamp every run; no draft before Friday (6-0) | Edition stamp (Keel) | 4bp |
 | 32 | Wed 28 Oct | [The one that isn't bought](2026-10-28_ep32.md) | Nora | light | First research round: the birthday sentence's one exception (the coupon gap) becomes the question; 4-2 over "five new ideas"; three new fields | Round 1 question (Keel) | 4bp |
 | 33 | Thu 29 Oct | [Two tins](2026-10-29_ep33.md) | Amara | light | Round 2: Wharton's "framework"; the gurdwara's two tins; who may take, for what, and when the rule bends | Round 2 question (Keel) | -1bp |
+| 34 | Fri 30 Oct | [Eight words](2026-10-30_ep34.md) | Jun | light | Round 3: why a range, and what each end costs; Jun hunts the question his own line opened; the two ends cost different people | Round 3 question (Keel) | -1bp |
 
 ## Milestones at a glance
 - **Values and culture:** 27 Sep (four values), 17 Oct (value 4 added). `../CULTURE.md`

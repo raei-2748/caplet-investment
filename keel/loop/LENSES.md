@@ -28,7 +28,7 @@
 | 19 | The child's question | Explain it to a twelve-year-old in two lines. Which word did you have to cheat on? | | 0 | 0 |
 | 20 | The far draw | Roll for a field from the far list that is `unvisited`, and send the third scout there blind. | | 0 | 0 |
 | 21 | Laura's diary | What does Laura do on the morning each cheque goes out? What does she not have to do? | | 0 | 0 |
-| 22 | What did we give up? | Name the cost of the champion, in dollars or in paths. Is it the right cost? | | 0 | 0 |
+| 22 | What did we give up? | Name the cost of the champion, in dollars or in paths. Is it the right cost? | Fri 30 Oct (R3) | 1 | 0 |
 | 23 | The word a judge repeats | Which single word or number would a judge say to another judge? Is it ours? | | 0 | 0 |
 | 24 | Scale down | What would this plan look like for $3,000 instead of $300,000? What survives? | | 0 | 0 |
 
