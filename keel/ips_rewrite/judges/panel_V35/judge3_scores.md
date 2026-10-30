@@ -1,0 +1,52 @@
+# Judge J3 scores
+
+Judge: Priya (pension actuary, asset-liability matching). Method: traced the $300,000 (2027), the $150,000 (2028), the ten $50,000 payments (2033-2042), the 2031 range and the 2033 contribution through each plan, looking for the point where it fails or the reasoning stops.
+
+## Ranking (1 = best)
+1. Entry 5: the only entry that names every leak in the ladder, prices it, says where the money comes from, and defines certainty by its failure conditions.
+2. Entry 2: the same sound liability logic, with the reinvestment gap priced and a waterfall behind it, but almost no numbers and hard to follow on one reading.
+3. Entry 3: the same structure as 5 with numbers and tested alternatives, but it says only two things can break a cheque and leaves the coupon-reinvestment hole unnamed.
+4. Entry 1: a textbook IPS with a sensible purchase order and a shortfall waterfall, but certainty is never defined or tested, and flexibility is thin.
+5. Entry 4: clear and conventional, but it claims rates can never touch the payments while reinvesting coupons, and the 2031 floor has no sizing rule.
+6. Entry 6: a creative staging idea, but it moves part of the contribution past 2033, puts an unpriced tech tilt next to Laura's own career risk, and does no analysis of the ladder.
+
+## Per entry
+
+### Entry 1
+- Investment Strategy 7/10, Client Knowledge 7/10, Portfolio Analysis 6/10, Articulation 4/10, Creativity & Presentation 6/10, Overall 6.5/10
+- Top-50-of-2,300? maybe
+- The cash flows close. The 2027 deposit buys the ladder starting with the longest rungs, which is the right order: any gap left for 2028 then sits in the short, less rate-sensitive rungs. The 2028 deposit fills the gap, then splits into a 2032 Treasury floor and a world equity fund. Their handling of any shortfall is sound actuarial practice: the floor is quoted after rounding down for the expected gap, and the money behind it is ranked (leftover, then Laura's half, then the upside). But they never name what causes that gap: coupons and ETF income reinvested at unknown future yields. "High certainty" is described only as resting mainly on the US government. It is never defined, measured or tested against an alternative plan. The ability-versus-willingness analysis is the most traditional IPS framing of the six and fits Laura well. Flexibility is only half of a small equity fund set against a gift of roughly $150,000 or more, so the case's warning about committing all remaining assets is answered only on paper.
+- Anything you did not understand on first reading: what "the 2027 leftover" amounts to, and whether the 2032 ETF's payout counts as fixed when the floor is quoted.
+
+### Entry 2
+- Investment Strategy 8/10, Client Knowledge 8/10, Portfolio Analysis 7/10, Articulation 5/10, Creativity & Presentation 6/10, Overall 7.5/10
+- Top-50-of-2,300? yes
+- On liability logic this is the most rigorous entry. Each liability is matched at the moment it becomes a liability. They see that fixed-dollar withdrawals force sales of risky assets at the bottom. They argue correctly that one sovereign issuer beats ten independent issuers when the test is whether every payment is made. They spot the wrong-way risk that the 2028 deposit comes from income that shrinks in the same downturn that makes bonds dearer. The reinvestment gap is priced in 2031 with a cushion and a stated order of funding, and the capped-range problem (falls hit the gift, rises go to Laura) is fixed by locking the promised amount when it is named. What holds it back is that the reasoning is stated rather than shown. There is almost no quantification of the ladder cost, the floor, the equity sleeve or the chance of hitting the range. A judge reading once has to work hard to rebuild how the money flows. As with Entries 1, 3 and 5, Laura keeps very little flexibility once the gift is paid.
+- Anything you did not understand on first reading: how big the floor is relative to the 2028 deposit (what "the floor's expected interest" means in dollars), and the rule for how sure each end of the range should be.
+
+### Entry 3
+- Investment Strategy 8/10, Client Knowledge 8/10, Portfolio Analysis 7/10, Articulation 6/10, Creativity & Presentation 7/10, Overall 7/10
+- Top-50-of-2,300? maybe
+- The structure is the same as Entry 5's, and the numbers hold up when I check them. A one-fifteenth equity sleeve is about the discount on a Treasury floor bought in 2028. The failure condition (yields down two points before buying and a 2028 deposit under about $85,000) is consistent with the ladder's rate sensitivity. It shows its own learning: the equity-heavy first plan and a 60/40 comparison were modelled and rejected, and the reasons are given. The wrong-way risk on the 2028 deposit and the lock-on-naming fix make the strategy genuinely tailored to Laura. The flaw I am paid to find is that it says only two things can break a cheque. A ladder of coupon bonds and income-paying funds also depends on reinvestment yields. The entry hints at this ("anything the cheques might still need") but never names or prices it, so the certainty claim goes further than the analysis supports. Flexibility after the gift is thin.
+- Anything you did not understand on first reading: what "anything the cheques might still need" refers to, since the entry has just said only default or a rate collapse can break a cheque.
+
+### Entry 4
+- Investment Strategy 6/10, Client Knowledge 5/10, Portfolio Analysis 5/10, Articulation 3/10, Creativity & Presentation 6/10, Overall 5.5/10
+- Top-50-of-2,300? maybe
+- It answers every IPS question in order, with a clear definition of high certainty, stated return and inflation assumptions, a once-a-year rebalancing band, and a 2031-2033 sequence that is easy to follow. It keeps more flexibility than the Treasury-floor entries: half the growth portfolio stays with Laura. But the ladder is sized so that principal plus coupons covers each payment, with coupons held in short Treasuries until needed. That makes the payments depend on future short-term rates, and the entry still says rate swings never touch them. That is exactly the unpriced hole. The 2031 floor is moved into Treasuries at whatever the bottom of the range is, but nothing says how big the bottom should be, so the most important number for co-sponsors has no rule behind it. The 80/20 sleeve has stress tests promised but no results given. The client reading is generic and misses the link between her 2028 income and the markets.
+- Anything you did not understand on first reading: how the bottom of the 2031 range is sized, and how "rebalance once a year" and "only when weights drift five points" work together.
+
+### Entry 5
+- Investment Strategy 9/10, Client Knowledge 8/10, Portfolio Analysis 9/10, Articulation 6/10, Creativity & Presentation 8/10, Overall 8.5/10
+- Top-50-of-2,300? yes
+- This is the entry where I could follow every dollar and found the holes already priced. The ladder's failure conditions are explicit. The reinvestment leak is named and paid for in 2031, before Laura quotes anything. The 2028 deposit is treated as insurance for the ladder because of its wrong-way link to bond prices. The floor-plus-equity design is correctly identified as a capital-protected note without the bank's fee. The capped-range problem is fixed by locking the promised half when it is named, and the result is quantified (top reached about 97 times in 100, the miss about $1,000). Alternatives were modelled and rejected with reasons, which is what Wharton asks for when it wants the tradeoffs behind decisions. What holds it back: it says the 2028 deposit never carries a cheque and then has it plug any gap in the ladder, a contradiction a careful judge will catch. The flexibility Laura keeps is only half of a modest equity sleeve, earmarked for a dearer building, so the case's flexibility test is met narrowly. The 2027 leftover is never placed.
+- Anything you did not understand on first reading: how "the 2028 deposit never carries a cheque" fits with that deposit plugging the ladder gap and appearing in the failure condition.
+
+### Entry 6
+- Investment Strategy 5/10, Client Knowledge 6/10, Portfolio Analysis 3/10, Articulation 3/10, Creativity & Presentation 6/10, Overall 4.5/10
+- Top-50-of-2,300? no
+- The staged-release idea is original and takes flexibility seriously: Laura has the right, not the obligation, to give more. That is the best answer to "committing all remaining assets" in the set. But the case asks for a range for her 2033 contribution and a confidence level. This plan pushes a tranche into 2034-2035, makes another depend on co-sponsors committing first, and never states a confidence. The ladder is asserted, not analysed: no cost, no response if it costs more than the first deposit and the 2028 deposit falls short, and no awareness that reinvested coupons make the payout less than fully fixed. The 75/25 VT/QQQ sleeve is justified by past returns and by Laura's career being in technology and creative industries. From a liability view that is backwards: her income is already exposed to that sector, so tilting toward it doubles the risk. It is also the only entry that cites past winners as a reason to hold something.
+- Anything you did not understand on first reading: what co-sponsors are told the range covers if part of the top is paid after 2033, and how big each tranche is.
+
+## My overall view
+Every one of these teams found the obvious answer: buy Treasuries that mature in time for each payment. What separated them was whether they understood that a ladder is not riskless just because it is all Treasuries. It still depends on reinvestment yields, on what the ladder costs on the day it is bought, and on a 2028 deposit that comes from income likely to shrink in the very downturn that makes the ladder dearer. Entries 5 and 2 found all three, priced them and said who pays. Entries 3 and 1 covered the gap without fully naming it. Entries 4 and 6 claimed a certainty they had not earned. The second dividing line was the range: the strongest entries saw that a capped range hands every fall to the gift and every rise to Laura, and fixed it. To win, Entry 5 needs to remove its own contradiction about the 2028 deposit, place the 2027 leftover, and make a real case that the flexibility Laura keeps after the gift is enough. At the moment that is the weakest link in every Treasury-floor design here.

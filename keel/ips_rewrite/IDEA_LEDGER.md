@@ -8,7 +8,11 @@ The research bank (`IDEA_BANK.md`, #1-82 and FRB rows) keeps the evidence and nu
 Fate: **IN** (in V31's text) · **FR** (Final Report, with the reason it isn't in 500 words) · **OUT** (dropped, why).
 
 
-## Live draft: V35 (D15), Fri 30 Oct
+## Live draft: V36 (D16) = V33's ideas, Fri 30 Oct evening
+Panel 4 preferred V33 to V35 with four of six judges, so V36 restores everything V35 cut except the lock's cost and
+"our rules fire on dates" (still out for room). The V35 list below is kept as the record of that test.
+
+### V35 (D15), tested and set aside
 **In V35:** the promise and the hope kept apart; our three-quarters-stocks first plan, sunk by our model; sequence risk
 (a crash in the wrong year forces a sale); Caplet XR (extended release; X = ten, R = redemption; do not crush); the
 ladder bought in January 2027, liquid any day; every cheque on one borrower on purpose; certainty defined by its two
