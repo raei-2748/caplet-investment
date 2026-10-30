@@ -38,6 +38,7 @@
 | Sovereign wealth funds: stabilisation vs savings funds | 29 Oct, Amara (round 2): Chile's legal order of priority (pension pot first, the other gets "recursos residuales"); Norway's "modified over several years"; Alaska's 5% draw "limited to the ERA balance" | mined (the order of payment folded into the framework; smoothing dropped for promises; the cap is FR proof) | 1 |
 | Central-bank reserve management (tranches by purpose) | | unvisited | |
 | Lottery jackpots: annuity vs lump sum | 28 Oct, Kai (round 1): OAR 177-098-0060, the prize is "the actual amount purchased", not the advertised one | promising | 1 |
+| IPO bookbuilding: the indicative price range | Candidate from the Kitchen's doors, Thu 29 Oct (Felix: a float priced at the bottom of its range); a range sold to buyers who commit on it; Rule 430A tolerance UNVERIFIED | unvisited (round 3 near, Fri 30 Oct) | |
 | The oldest bonds still paying (Dutch water-board perpetuals, consols) | | unvisited | |
 | Family offices and multi-generation goals-based investing | | unvisited | |
 | Real options and staged commitment | R05 #19 (VC staging, reference-class forecasting) | promising | 1 |
@@ -47,7 +48,7 @@
 |---|---|---|---|
 | Game theory: credible promises and costly signals | Aha 2; LR-03 | mined | 2 |
 | Nonprofit accounting and pledge law (ASU 2018-08) | R05 #17; LR-04 | mined | 2 |
-| Fundraising experiments (matching gifts, Karlan-List) | R05 #18 | promising | 1 |
+| Fundraising experiments (matching gifts, Karlan-List) | R05 #18; Kitchen 29 Oct names the deeper question: how a campaign sets its public number (the quiet phase: announce once much is pledged; share UNVERIFIED) and what a missed goal costs; re-read List and Lucking-Reiley 2002 for direction (Window, 27 Oct) | promising (round 3 adjacent, Fri 30 Oct: deepens C5's field) | 1 |
 | Operations research: the newsvendor problem | R05 #13, S1; LR-04 (ratio 2.3) | mined | 2 |
 | Forecast calibration, interval scoring, Goodhart | R05 #14 | promising | 1 |
 | Corporate earnings guidance | R05 #16 | promising | 1 |
@@ -78,14 +79,16 @@
 | Seed banks and agriculture: storing for a known sowing date | | unvisited | |
 | Ecology: bet-hedging, seed dormancy, masting | | unvisited | |
 | Military and expedition logistics: depots laid in advance | | unvisited | |
-| Timetabling and railways: slack, recovery time | | unvisited | |
+| Timetabling and railways: slack, recovery time | Candidate from the Kitchen's doors, Thu 29 Oct (Jun: an early train holds at a big station until its time): slack is placed before a fixed time, not spread along the line; maps onto the ~$7,500 banked before naming day | unvisited | |
 | Sport: game clocks, timeouts, rotation and load management | | unvisited | |
 | Clockmaking and horology: escapements | | unvisited | |
-| Community kitchens (langar): a fund that must feed every day | | unvisited | |
+| Community kitchens (langar): a fund that must feed every day | Candidate from the Kitchen's doors, Thu 29 Oct (Amara: a family pays now for a langar on a date in March): a dated meal sponsored and paid in advance | unvisited | |
 | Architecture: load paths, the keystone, temporary works | | unvisited | |
 | Maritime: ballast, sea anchors, dead reckoning | Early "keel and sail" picture (I-06) | promising | 1 |
 | Archives and time capsules | | unvisited | |
 | Mahjong and card-game scoring: committing before the reveal | | unvisited | |
+| Weather forecasting: ranges with a chance on each end (BoM "possible rainfall") | Candidate from the Kitchen's doors, Thu 29 Oct (Kai: "fifty per cent, two to eight mil", he got the eight); 50% / 25% exceedance pairing UNVERIFIED | unvisited (round 3 far, Fri 30 Oct) | |
+| Pharmacy practice: dose administration aids (blister packs made up by day) | Candidate from the Kitchen's doors, Thu 29 Oct (Nora: one sealed dose per day, packed in advance by the pharmacist); next to the mined pharmacology field but a new mechanism: the patient decides nothing on the day | unvisited (Q7 request to Laura's Room) | |
 
 ## Who does what, by round (rotate so no one holds the same job two rounds running)
 | Round day | Scouts (near, adjacent, far) | Flaw-hunter | Judge (cold) |
