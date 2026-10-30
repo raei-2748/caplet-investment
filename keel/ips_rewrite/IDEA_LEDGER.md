@@ -8,6 +8,16 @@ The research bank (`IDEA_BANK.md`, #1-82 and FRB rows) keeps the evidence and nu
 Fate: **IN** (in V31's text) · **FR** (Final Report, with the reason it isn't in 500 words) · **OUT** (dropped, why).
 
 
+## Live draft: V39 (D19), Fri 30 Oct night
+V39 = V36's ideas, with: the break point on this plan's own design ($125,000; Archive A25); the return assumption
+(world stocks at 7.5%); the 60/40 trade-off corrected (one time in three) and said as concession then "But"; the leak in
+plain words (early cash, covers the early-maturing bonds too); liquidity ("to sell any day"). **Out since V36, and
+why:** nothing whole; "the US government" kept, one "So" dropped. **Tested and banked, not in:** V37b's "owned since
+2028" counterfactual (Q12: why not the ladder and the rest in stocks), which lost 2-4 to the 60/40 line; it waits for
+the Lab's A09 run to carry a number. **Still not in (argue each round):** one borrower on purpose; Taiwan dollars; the
+lock's cost; "our rules fire on dates"; the price of safety in dollars (M7: the 60/40 leaves her ~$226k by 2042 vs our
+~$30k, similar median gift).
+
 ## Live draft: V36 (D16) = V33's ideas, Fri 30 Oct evening
 Panel 4 preferred V33 to V35 with four of six judges, so V36 restores everything V35 cut except the lock's cost and
 "our rules fire on dates" (still out for room). The V35 list below is kept as the record of that test.

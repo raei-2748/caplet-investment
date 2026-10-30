@@ -540,3 +540,19 @@ borrower on purpose, stocks spread worldwide). "Why so many numbers?" (each now 
 extraordinary yet?" Not yet: it's clear and honest, but the aha is still the protected-note floor, and V35 had to cut
 its label for room. **The fix:** tomorrow's round tests whether one sharper idea (the capacity-vs-willingness turn, or
 the one-borrower paradox) can carry the "aha" that the label used to.
+
+## Fri 30 Oct, night: the Archive was right, and a rival from outside nearly won
+Two things moved the draft tonight, and neither came from us. The Archive reran the break point on V33's own design and
+found our "$85,000" belonged to an older plan; on this one it's about $125,000. And a brand-new rival, written by a
+different model from nothing but the case and Wharton's word (a Singapore team running CPPI over a ladder), took first
+place from three of six judges. What they liked about it is what we'd dropped: the assumptions on the page, a stated
+confidence for the range, a rule for the growth money. So V38 put the 7.5% back, and checking that number against the
+Model Suite showed our 60/40 line was wrong too: at 7.5% a balanced plan breaks a promise about one time in three, not
+four. V39 then took the cold reader's and the voice editor's fixes. It ties V37a head to head and leads on mean rank;
+we keep it because it's also the one that's true.
+
+**What Caplet would say (Commandment X):** "Did the number you were proudest of turn out wrong?" (Twice, tonight; both
+fixed, both sourced in D19's README.) "Why does a CPPI team beat you?" (It shows its working; V39 now shows ours.)
+"You're timid with her money." (Two judges again. The answer is para 6, capacity not willingness, but J2 and J5 want the
+price in dollars, and the honest price is large: M7 has a 60/40 leaving her ~$226k by 2042 against our ~$30k.) **The
+fix:** Saturday's round puts that price beside the Lab's A09 run and decides, by test, whether the IPS should say it.
