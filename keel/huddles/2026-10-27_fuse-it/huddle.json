@@ -33,5 +33,8 @@
     "Pyramid test T6 (lead gift) not run"
   ],
   "changes": "Thinking only, no draft change. Brief: keel/ips_rewrite/inbox/2026-10-28_synergies.md",
-  "todos": "todo.md"
+  "todos": {
+    "done": 6,
+    "total": 9
+  }
 }
