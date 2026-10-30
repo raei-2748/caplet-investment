@@ -1,0 +1,30 @@
+{
+ "stamp": "curve 22 Oct 2026 | J.P. Morgan 2027 global equities 7.5% | 200,000 paths, seed 20261016 | rho 0.5 | V29/V33 design (LR8 MB+T +lock) | MODEL",
+ "dy_build +0pt, 2028 deposit $40,000": {
+  "p_payment_short_over_1k": 0.0183
+ },
+ "dy_build -1pt, 2028 deposit $65,000": {
+  "p_payment_short_over_1k": 0.0452
+ },
+ "dy_build -1pt, 2028 deposit $100,000": {
+  "p_payment_short_over_1k": 0.0003
+ },
+ "dy_build -2pt, 2028 deposit $50,000": {
+  "p_payment_short_over_1k": 0.8379
+ },
+ "dy_build -2pt, 2028 deposit $75,000": {
+  "p_payment_short_over_1k": 0.3646
+ },
+ "dy_build -2pt, 2028 deposit $85,000": {
+  "p_payment_short_over_1k": 0.1922
+ },
+ "dy_build -2pt, 2028 deposit $100,000": {
+  "p_payment_short_over_1k": 0.0504
+ },
+ "dy_build -2pt, 2028 deposit $125,000": {
+  "p_payment_short_over_1k": 0.0019
+ },
+ "dy_build -2pt, 2028 deposit $150,000": {
+  "p_payment_short_over_1k": 0.0
+ }
+}
