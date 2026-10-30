@@ -15,18 +15,9 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
   where it came from ("we modelled", never "we judge"); no AI-use or "required trading activity" fretting; overdrive;
   fresh rewrite keeping every idea (`keel/ips_rewrite/IDEA_LEDGER.md`). **The Ten Commandments** in BIBLE.md replaced
   the old rules 0-10 and are enforced: every draft carries a filled check (`keel/ips_rewrite/COMMANDMENTS_CHECK.md`).
-  Caplet XR (X = 10; R = redemption, never "release"), subtle. Final IPS for Caplet's review: **end of Wed 4 Nov**
+  Voice: Ahaan's essays set the tone, never a template (`keel/voice/06_voice_guide.md`, judged by ear). Caplet XR
+  (X = 10; R = redemption, never "release"), subtle. Final IPS for Caplet's review: **end of Wed 4 Nov**
   (Sydney), read Thu 5 Nov; IPS due Sat 7 Nov 09:00 Sydney.
-- **THE BIBLE comes first: nine books (Caplet's six, 23-27 Oct 2026, all equal, and Wharton's three official files of 27 Oct, which rank first, BIBLE rule 0), verbatim in `keel/BIBLE.md`** (north stars;
-  refinements; Caplet XR and de-obsessions; rewrite from scratch and star 4; Caplet XR locked; plus the 26 Oct cover note; Books 6-8 = Wharton's halfway
-  email, "THIS IS BIBLE. OFFICIAL FILE", the updated IPS instructions PDF, "THIS IS BIBLE", filed in `competition/official/2026_27/wharton_email_week5_2026-10.md`,
-  and the deliverables page with the five evaluation criteria word for word, `competition/official/2026_27/SMApply_Deliverables_Page_2026-10-27.md`; every draft is checked against the criteria part by part, BIBLE rule 9; Book 9 = Ahaan, 27 Oct: look intelligent through niche strategies fused and critiqued plus logic, every good idea lands in a deliverable via `keel/ips_rewrite/IDEA_BANK.md`, big picture over minutiae, no timeline rule but the Sat 31 Oct review draft, BIBLE rule 10).
-  Extraordinary above all; a distinctive, deeply human voice (Ahaan's essays set the tone, never a template; guide
-  `keel/voice/06_voice_guide.md`, judged by ear, never by a script or count); one subtle motif, Caplet XR (X = 10; R never
-  "release"); breathtaking investing knowledge, applied; no hedging (iBonds held to liquidation are near-ironclad);
-  judges are not mini-Lauras. **The IPS rewrite is deep and dense, never hasty**: the only timeline rule is a final draft for
-  review on Sat 31 Oct (drafting may start any time, Book 9); final Sat 7 Nov 09:00 Sydney. Every good idea goes in
-  `keel/ips_rewrite/IDEA_BANK.md` with where it lands; formatting is Caplet's job. Keel may weigh the books with its own judgement. Only the hard limits sit above it.
 - **Keel makes its own calls** (Ray, 26 Oct): every decision is Keel's, logged with a reason in `keel/pm/ASK_HUMANS.md`;
   only danger-zone decisions (WInS orders, submitting, Caplet's docs, money, accounts, outside emails, repo settings) wait for a student.
 - **No work is finished until the portal shows it** (Ray, 26 Oct, project rule): push, check the "Keel Office portal"
