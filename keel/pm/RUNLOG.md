@@ -6,6 +6,7 @@
 
 | Date (Sydney) | Room | Output (link) | Score aimed at | Used by (filled later) |
 |---|---|---|---|---|
+| Fri 30 Oct 13:05 | Library | Beat 4, round 3 (Q10, lens 22): 9 finds, 33 of 41 quotes verified; IPOs (Ritter, Hanley), campaigns (List and Lucking-Reiley at the source: nearly sixfold), forecasts (cost-loss, newsvendor); slip S-08 KEEP; bank #84-87, 2 dropped: `../office/outbox/2026-10-30_library_each-end-its-own-odds.md` | IS, CK, N4 | |
 | Fri 30 Oct 10:45 | Trading Desk (markets and rules check) | No breach; V29 pitch 48 / IPS 495; T19 trading-activity (due today) and T18 school letter unconfirmed; no curve after 22 Oct: `../office/checks/2026-10-30.md` | IS | |
 | Fri 30 Oct 09:40 | Window | Beat 2 gate, round 3: BREACH, V29/B2/B3 "wipe out every share ... no cheque is worse off" reads A19 backwards (true: "the shares can help a cheque, never hurt one"); V29 "three times worse. So" doesn't follow; A1 reversed, A2/N2 verified; L-12 re-runs identical; W-03 SEC bona fide range; BoM 75/25: `../office/outbox/2026-10-30_window_the-wipe-out-line.md` | PA, CK, N4 | |
 | Fri 30 Oct 07:40 | Noticeboard (daily loop) | Round 3 gathered `../loop/rounds/2026-10-30.md` (Q10 why a range and what each end costs; lens 22; IPO bookbuilding and weather ranges unvisited, capital campaigns deepened); Kitchen's 29 Oct send-off merged from the day branch; watchdog 10 of 10; board groomed (N05 closed, T11 killed); brief; ep34 | Client Knowledge (the case's two costs of a range, :110-114); north star 4 | |
