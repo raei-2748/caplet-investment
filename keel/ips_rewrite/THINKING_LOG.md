@@ -517,3 +517,26 @@ money can't cover come off the quoted bottom, so the rule has no exception. The 
 test, not argument: wipe out every share and no cheque is worse off, only the gift (600,000 MODEL paths). Both blind
 head-to-head judges advanced V29. The four-failure inventory left the IPS for words; the Final Report gets it whole,
 now with all four doors shut. Web AI detectors are blocked here; a student can run one in a minute.
+
+## Fri 30 Oct: Book 10, five drafts, three panels, and a lesson about adding things
+Caplet's Book 10 landed at 18:15. The honest summary of the day is in `BIBLE_AUDIT.md`: we had written the rules down
+and mostly not applied them. So the rules became ten Commandments with a check a cold reader fills for every draft,
+the judges were rebuilt so they could actually disagree, and every idea from every version went into `IDEA_LEDGER.md`.
+
+What the panels taught, in order. V31 (fresh) lost to V25 with the analytic judges. V32 took V25's best ideas
+(certainty defined by where it breaks, the cost of safety with a number) and came first with four of six. V33 fixed
+what judges couldn't follow and told our first plan's failure as our own story. V34 then took the Bible audit's fifteen
+fixes, and it got *worse*: denser, harder to read once, and without the range's confidence figure. V35 goes back to
+V33's shape and adds only what earned its place. The lesson for the next four days is Book 10's own: cut whole ideas,
+never add to a full page without taking one out.
+
+The detector: GPTZero can't be reached (paid API; the free scan needs reCAPTCHA, which our network blocks). We built
+open-source detectors and tested them properly, and they were worse than a coin, so they decide nothing
+(`DETECTOR_LOG.md`).
+
+**What Caplet would say (Commandment X):** "Did you run it through GPTZero?" (No, and here's exactly why, plus the
+one-minute check.) "The pitch is still a slogan" (V34's plain pitch replaced it). "Where's diversification?" (one
+borrower on purpose, stocks spread worldwide). "Why so many numbers?" (each now says it's our model's). "Is this
+extraordinary yet?" Not yet: it's clear and honest, but the aha is still the protected-note floor, and V35 had to cut
+its label for room. **The fix:** tomorrow's round tests whether one sharper idea (the capacity-vs-willingness turn, or
+the one-borrower paradox) can carry the "aha" that the label used to.

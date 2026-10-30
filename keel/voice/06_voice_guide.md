@@ -74,7 +74,8 @@ Not every paragraph uses every step, but a paragraph that uses none is a fact sh
 A "no" is a reason to rewrite, judged by a reader, not a rule. **None of these is a reason to soften a true claim.**
 (Ahaan, 27 Oct night, BIBLE Book 9 and rules 3 and 10: voice is "fundamentally qualitative". No gate counts words,
 sentences, ideas or numbers, and `fingerprint.py` decides nothing. Keel never judges whether its own prose "sounds
-AI": if AI-likeness is ever checked, a student pastes the text into a reputable web detector, once, briefly.)
+AI" with its own agents. Since Book 10 (30 Oct) the detector check is Keel's job: GPTZero before Caplet sees a draft,
+Commandment VI. GPTZero can't be reached from Keel's sessions, so drafts say "not yet checked": `../ips_rewrite/DETECTOR_LOG.md`.)
 
 ## 6. What changed from `VOICE.md` and R03 (and why)
 | Old rule | Now | Why |
