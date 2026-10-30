@@ -1,0 +1,75 @@
+{
+  "id": "H-004",
+  "slug": "the-roof-after-book-10",
+  "title": "The roof after Book 10",
+  "question": "Book 10 landed at 18:15. What did the last two days teach us about how we work, and what should Saturday's round chase instead of Q11?",
+  "room": "Rooftop",
+  "chair": "Tess",
+  "opened": "2026-10-30",
+  "status": "closed",
+  "closed": "2026-10-30",
+  "members": [
+    "Tess",
+    "Kai",
+    "Felix"
+  ],
+  "serves": "North star 3 (extraordinary) and Commandments I, II, IX; Investment Strategy (the IPS's 'balance growth, risk, liquidity, funding reliability, and financial flexibility')",
+  "rounds": [
+    {
+      "n": 1,
+      "name": "Go away and read",
+      "date": "2026-10-30",
+      "posts": [
+        "posts/r1_tess.md",
+        "posts/r1_kai.md",
+        "posts/r1_felix.md"
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Reply by name",
+      "date": "2026-10-30",
+      "posts": [
+        "posts/r2_tess.md",
+        "posts/r2_kai.md",
+        "posts/r2_felix.md"
+      ]
+    },
+    {
+      "n": 3,
+      "name": "Settle it and land it",
+      "date": "2026-10-30",
+      "posts": [
+        "posts/r3_tess.md",
+        "posts/r3_kai.md",
+        "posts/r3_felix.md"
+      ]
+    }
+  ],
+  "essence": [
+    "We argued over whether to keep fixing sentences or answer the questions Wharton actually asks.",
+    "We decided Saturday goes to one big question, why not a safe ladder and the rest in stocks, because two of six mock judges put that plan first and our draft never answers it; and every vote now waits until we've read Caplet's latest message.",
+    "So the next draft can gain a whole idea instead of another trim."
+  ],
+  "decided": [
+    "3-0: round 4 (Sat 31 Oct) asks why the gift's money sits in a Treasury floor from 2028 instead of stocks locked down in 2031 (the A09 rival); Q11 rides second",
+    "3-0: the $85,000 line is stale (V25's design), not wrong; already routed to the Window's Sat 31 audit, so no scout spends time on it",
+    "3-0: LS-06 broken a second time (the Long Room voted at 18:20 without reading Book 10, 18:15); goes to Sunday's review as a vote-gate rule",
+    "3-0: LS-12, a split panel earns a round only when the low judge's reason is one of Wharton's questions; the question sets the work, not the judge"
+  ],
+  "seeds": [
+    "Does V36's floor-from-2028 actually beat A09's lock-in-2031 on our own model paths, and what does it give up?",
+    "If it does, is that the paragraph-sized idea the next draft is missing for a growth-minded judge?"
+  ],
+  "changes": [
+    "keel/loop/LESSONS.md",
+    "keel/loop/FRONTIER.md",
+    "keel/rooms/rooftop.md",
+    "keel/pm/REQUESTS.md",
+    "keel/ips_rewrite/IDEA_BANK.md"
+  ],
+  "todos": {
+    "done": 3,
+    "total": 6
+  }
+}

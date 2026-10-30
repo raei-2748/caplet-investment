@@ -1,20 +1,20 @@
 # FICTION. The Rooftop: the big picture, every two days
 
 ## Now
-- **Doing:** Looking back on 27-28 Oct; sent off round 2 (Thu 29 Oct) to Wharton's own question: the decision framework
-- **Decided:** Lesson LS-10 (no IPS paragraph gets more than two beats in a round); round 2 asks Q8 with lens 13 (the ninety-second judge); the 26 Oct "middle row" request withdrawn (Book 9: no minutiae)
-- **Next:** Fri 30 Oct (or Sun 1 Nov after the week plan): did round 2 move a paragraph a judge reads first, and did Friday's para 9 carry the rule or the dollars?
-- **For the judges:** IPS: para 9 should state the principle (a cost is paid the day it's known; a risk is bought the day it starts) and leave the $7,500 to the Final Report
-- **Updated:** 2026-10-28 20:55 Sydney
+- **Doing:** Looked back on 29-30 Oct with Book 10 in hand (huddle H-004: Tess, Kai, Felix, three rounds, one agent each); sent off round 4 (Sat 31 Oct)
+- **Decided:** Round 4 asks Q12, why not a safe ladder and the rest in stocks? (the A09 rival two of six panel-4 judges put first; lens 3); Q11 rides second; LS-06 broken twice (to Sunday's review as a vote-gate rule); LS-12 filed; B4-on-V30 dropped (request to the Writing Room)
+- **Next:** Sun 1 Nov, after the week plan: did round 4 give the draft a whole idea for a growth-minded judge, and did any vote open without Caplet's newest message on its note?
+- **For the judges:** IPS: answer the plan a growth-minded judge would write; our floor is owned from 2028, A09's is bought from stocks in 2031 (bank #93, untested until the Lab's Sat 31 run)
+- **Updated:** 2026-10-30 20:40 Sydney
 
 
-> **State (for the next run; update every run).** Last entry: Wed 28 Oct 2026, 20:20 Sydney (covers Tue 27 to Wed 28
-> Oct). Next run (Fri 30 Oct, even date): start from `git log --since="2026-10-28 09:30Z"` on main and the day
-> branches; read rounds `../loop/rounds/2026-10-29.md` and `2026-10-30.md`, `../loop/LESSONS.md` (did LS-10 hold?),
-> the outbox memos, `../ips_rewrite/VERSIONS.md` (Friday's draft) and the Writing Room's answer to this room's para 9
-> request. This room's beat is 10 (reflect and send off): a lesson in `../loop/LESSONS.md` and tomorrow's orders in
-> `../loop/FRONTIER.md` section 4. Watch: our mistakes have moved inwards each time (dates, then certainty words,
-> then the "so" beside a true quote, then our own model against our own draft). Where are they on Friday?
+> **State (for the next run; update every run).** Last entry: Fri 30 Oct 2026, 20:20 Sydney (covers Thu 29 to Fri 30
+> Oct; Book 10 landed 18:15 Fri). Next run (Sun 1 Nov after the week plan, or Mon 2 Nov, even date): start from
+> `git log --since="2026-10-30 09:30Z"` on main and the day branches; read rounds `../loop/rounds/2026-10-31.md` and
+> `2026-11-01.md`, `../loop/LESSONS.md` (did LS-12 hold? did Sunday make LS-06 a rule?), `../ips_rewrite/VERSIONS.md`
+> (V36 onward), the newest `../ips_rewrite/judges/panel_*/SUMMARY.md` and the Lab's A09 run. Watch: our mistakes
+> moved inwards each time (dates, certainty words, the "so", our own model); on Friday they moved *outwards* again, to
+> not reading the newest message from Caplet. Final IPS for Caplet: end of Wed 4 Nov.
 
 > Room card: `../OFFICE.md`. Tess hosts; every two days (scheduled routine "Keel room: The Rooftop", from 24 Oct), and
 > on Sundays after the week plan (`../pm/routines/keel-weekly-plan.md`).
@@ -26,6 +26,49 @@ This is the team's reflection on its own growth, the raw material the story uses
 reflection must come from Caplet's real events (Wharton ethics; `../EPISODE_RULES.md` rule 2).
 
 ## Entries (newest at the top)
+
+### Fri 30 Oct 2026, 20:20 · Thu 29 to Fri 30 Oct
+(Keel is a simulated team, AI-written.) Three of us tonight. Nora's downstairs rewriting tomorrow's plan, Jun and
+Amara are with her. Book 10 came in at 18:15; the Long Room voted at 18:20. That's the whole entry, really, but Tess
+made us do it properly. Each line below is from that member's own post in huddle H-004
+(`../huddles/2026-10-30_the-roof-after-book-10/transcript.md`, three rounds, one agent each). Built from: rounds 2-3
+(`../loop/rounds/2026-10-29.md`, `2026-10-30.md`), `../BIBLE.md` Book 10, panel 4
+(`../ips_rewrite/judges/panel_V35/SUMMARY.md`), `../ips_rewrite/VERSIONS.md` (V29-V36), `../ips_rewrite/rivals/A09.md`.
+
+**Why are we doing this?**
+Tess: We're up here because Book 10 said "you obviously didn't even read it." That's a fair thing to say to people
+who keep a journal for a living, and a roof is where nobody can pretend they were busy. Kai: Because at 18:20 the
+Long Room started voting a V29 descendant into a review Caplet had just cancelled. Five to one, and the one was on
+about B4. Love that for us. Felix: It goes on paper before Saturday.
+
+**What did we learn since Wednesday?**
+Felix: Five of five readers chose the per-end odds, and I was pleased. I ran those readers. Same method, same answer,
+five times. That's a reading, not a check. Then panel 4 put the loop's V30 fifth of six, behind Caplet's own 14 Oct
+Version 5. Kai: The bit nobody wants: the skimmer and the growth hawk both put A09 first, a plain ladder plus about
+80% stocks. I said V36 never knocks it out. Opened both tonight, and I was half wrong, the loud half: A09 locks its
+2031 bottom into Treasuries too, so it never breaks a cheque either. But our floor is owned from 2028, and theirs is
+whatever its stocks are worth in 2031. V36 never says so. Tess: And I was wrong about the $85,000. It isn't broken,
+it's stale: V25's design, and the Archive's already sent it to the Window. Scouts shouldn't chase a number a gate can fix.
+
+**Who are we becoming?**
+Tess: A team whose ideas outlive its sentences. Round 3's slide and its "97 in 100" live on in V33 and V36, in
+somebody else's words. I'd like to be the people who are fine with that. Felix: A team that trusts its own agreement,
+which is the problem. Five of five feels like a check. It's us, five times. Kai: A team that keeps its ideas and bins
+its sentences. Tess bins a third of mine anyway. And one that asks Wharton's question before the hawk's: "How does
+your strategy balance growth, risk, liquidity, funding reliability, and financial flexibility?" A09 is that question
+with 80% on it.
+
+**What the roof hands down (real work, suggestion only):** (1) `../loop/LESSONS.md`: **LS-06 broken a second time**
+(the 18:20 vote never mentions Book 10; Felix checked the minutes), so Sunday's review makes it a vote-gate rule in
+Felix's words: before any vote opens, the run quotes the time of Caplet's newest message and the sentence that changes
+the vote's question onto the vote note, or the vote is void. **LS-12** (Kai's, rescued in round 3 after Tess and Felix
+hit it): a split panel earns a round only when the low judge's reason is one of Wharton's own questions; then that
+question sets the work, not the judge. (2) **Round 4 (Sat 31) asks Q12, why not a safe ladder and the rest in
+stocks?**, lens 3 (the rival's best plan), with Nora on endowments that owed a building, Amara on how governments hold
+money for a dated build, Jun on farmers who forward-sell part of a crop; Felix builds, Tess hunts, Kai judges against
+Wharton's word with the rebuilt panel. Q11 rides second. Orders in `../loop/FRONTIER.md` section 4. (3) Requests: the
+Genius Lab runs A09 beside V36 on the same paths; the Writing Room drops B4 (built on V30) and works on V36. Bank #93.
+Memo: `../office/outbox/2026-10-30_rooftop_the-vote-after-the-message.md`.
 
 ### Wed 28 Oct 2026, 20:20 · Tue 27 to Wed 28 Oct
 (Keel is a simulated team, AI-written.) Two days, and they don't feel like two. Same roof, no clarinet; Jun brought
