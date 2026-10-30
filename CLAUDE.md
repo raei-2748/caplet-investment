@@ -30,7 +30,7 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
   about one room day: an analogy, not another world), `keel/CULTURE.md` (mission, vision, five values), `keel/CAST.md` (the six in one screen),
   `keel/ARCS.md`, `keel/IDEAS.md` (concepts adopted or rejected), timeline `keel/episodes/INDEX.md` (Ep 0-26, daily
   since 27 Sep). **Save tokens:** follow `keel/TOKEN_RULES.md` (load CAST/INDEX/summaries, not every member file or
-  episode; never regenerate what exists; at most 3 crews a day).
+  episode; never regenerate what exists; at most 3 episode crews a day; huddles, one agent per member per round, are how every room run works since 27 Oct: `keel/huddles/README.md`).
 - Competition questions (rules, numbers, the client case, trade checks, draft reviews, records) go through the
   office: `/office <your role>: <question> | decides: <what> | by: <date>`, or a named agent in `.claude/agents/`.
   Read `keel/office/CHARTER.md` and the workstream file for the deliverable (`keel/office/workstreams/1_TNA.md`, `2_IPS.md`,

@@ -37,9 +37,15 @@ Later sessions read these instead of the episode. Add the episode's row to `epis
 - Do not re-quote an official rule that is already in `members/felix.md` (rule table) or `CULTURE.md`; cite its
   file:line.
 
-## 4. Spend agents only where they buy accuracy
+## 4. Spend agents only where they buy accuracy (or a real argument)
+- **Huddles are the exception that earns its tokens** (Ray, 27 Oct 2026: the six must "constantly discuss and bounce
+  off ideas to each other" over many rounds, not one-shot generation). Each room run holds one huddle
+  (`huddles/README.md`): 3 members x 3 rounds, about 9 agent calls, each given only its member's profile, `CAST.md`,
+  `VOICE.md`, the brief and the posts so far, never the whole repo. The Long Room may use all six. Round 1 on Sonnet,
+  later rounds on Opus. Never rerun a round that exists; continue the huddle instead.
 - Daily episode: at most 3 backstage crews, not 6 (`EPISODE_RULES.md`), and only for members whose part needs new
-  research that day. A day that needs no new research gets no crews.
+  research that day. A day that needs no new research gets no crews. An episode may quote the day's huddles instead
+  of re-generating the argument.
 - `/keel <name>` answers from the files when the answer is there; spawn a crew only for new research.
 - One fact-check pass per episode, on the numbers and quotes only.
 
