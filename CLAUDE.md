@@ -11,7 +11,7 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
   Caplet's job and left out). `keel/BIBLE.md` holds Caplet's books 1-5, 9 and 10 verbatim (Books 6-8 now point to
   WHARTON_WORD). **Book 10 (30 Oct)**: judges who genuinely disagree, scored only on Wharton's guide; the voice studies
   APPLIED (V29 read as robotic and over-compressed: cut whole ideas, never squeeze sentences); every draft through
-  **GPTZero with "human-written only" above 50% before Caplet sees it**; no "every team will ..."; every number says
+  **GPTZero with "human-written only" above 50% before Caplet sees it** (30 Oct: GPTZero can't be reached from Keel's sessions, and local detectors proved invalid, so drafts say "not yet checked": `keel/ips_rewrite/DETECTOR_LOG.md`); no "every team will ..."; every number says
   where it came from ("we modelled", never "we judge"); no AI-use or "required trading activity" fretting; overdrive;
   fresh rewrite keeping every idea (`keel/ips_rewrite/IDEA_LEDGER.md`). **The Ten Commandments** in BIBLE.md replaced
   the old rules 0-10 and are enforced: every draft carries a filled check (`keel/ips_rewrite/COMMANDMENTS_CHECK.md`).

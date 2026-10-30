@@ -477,7 +477,10 @@ def plain_words(day):
 
 def huddle_days(meta):
     """A huddle shows on the day it opened and on every day it added a round (huddles continue across days)."""
-    return {r.get("date") for r in meta.get("rounds", []) if isinstance(r, dict) and r.get("date")}
+    rounds = meta.get("rounds", [])
+    if not isinstance(rounds, list):  # older huddles store only a round count
+        return set()
+    return {r.get("date") for r in rounds if isinstance(r, dict) and r.get("date")}
 
 
 def huddles(day):

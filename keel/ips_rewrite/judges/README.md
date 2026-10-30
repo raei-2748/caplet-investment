@@ -35,5 +35,5 @@ above 0.6, or every judge puts the same entry first for the same reason, the pan
 anyone believes it.
 
 ## Files
-`panel_V31/` = the first panel (entries per judge, KEY.json, each judge's scores, SUMMARY.md with the agreement
-statistics and what Keel did about it).
+`panel_V31/` = the first panel, `panel_V32/` = the second (entries per judge, KEY.json, each judge's scores,
+SUMMARY.md with the agreement statistics and what Keel did about it).

@@ -8,6 +8,10 @@
 AI-generated (Claude Code) for Team Caplet. Not for submission as written: every draft here is an
 `AI DRAFT (Claude, <date>)` that Caplet rewrites in its own words and logs for the Works Cited.
 
+**Current draft (Fri 30 Oct): V33 = `drafts/D13/`** (pitch 50 / IPS 500; GPTZero not yet checked, see `DETECTOR_LOG.md`).
+Book 10 mode until the final, end of Wed 4 Nov (Sydney): every idea in `IDEA_LEDGER.md`, every draft checked against the
+Ten Commandments (`COMMANDMENTS_CHECK.md`) and judged by the panel in `judges/`.
+
 ## Why this folder exists
 Ray, 26 Oct 2026 (project thread "Rewrite the IPS from scratch"): stop tinkering on IPS v4/v4.1. It meets none of the
 macro expectations. Everything so far is preparation; v4.1 is inspiration only. Rewrite from scratch, slowly, with
