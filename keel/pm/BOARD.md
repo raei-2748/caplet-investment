@@ -39,7 +39,6 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Fri 30 Oct 202
 | T18 | Ask the school for the signed letter for the Final Report | Ray / advisor | Fri 23 Oct | Request sent (letter never committed) | `workstreams/3_FINAL_REPORT.md:29`; missing letter = exclusion risk (R6) |
 | T24 | Search WInS (read-only) for a short-term Treasury ETF the IPS can name for waiting coupons and the 2027 leftover | Ray | Sat 31 Oct | Ticker listed or not, pasted in the IPS workstream | Window W1; R14. Never trade or submit |
 | T21 | Signed school letter in hand and checked (letterhead, signature) | Ray / advisor | Fri 20 Nov | Letter received | Follows T18 |
-| T19 | Ask Wharton what "required trading activity" means, if still open | Ray | Fri 30 Oct | Answer filed in `competition/official/` | 05 pre-mortem open item |
 | T20 | Save WInS order history, holdings, notes and session rules privately after the lock | Ray | Sun 8 Nov | Files saved, username cropped | Tess checks the list is complete |
 
 ## Proposed (Keel ideas; a student ticks "OK" in Notes, or a desk promotes small checking cards)
