@@ -1,0 +1,335 @@
+{
+ "stamp": "curve 22 Oct 2026 | J.P. Morgan 2027 global equities 7.5% | 200,000 paths, seed 20261016 | rho 0.5 unless S0 | MODEL",
+ "S0 base, rates and stocks independent": {
+  "check_vs_L13_slide": {
+   "top_quoted_p5_p50_p95": [
+    130000,
+    165000,
+    180000
+   ],
+   "bottom_quoted_p50": 145000,
+   "p_top_reached": 0.979,
+   "implied_over_vs_under_cost_ratio": 46.6,
+   "p_below_quoted_bottom": 0.0,
+   "gift_p5_p50_mean": [
+    130000,
+    165000,
+    159957
+   ],
+   "median_short_of_top_when_missed": 865,
+   "width_p50": 20000,
+   "width_pct_of_top_p50": 14.3,
+   "p_width_over_20pct_of_top": 0.0557,
+   "p_payment_short_over_1k": 0.0003
+  },
+  "LR07": {
+   "slide_top_p50": 165000,
+   "v29_bottom_p50": 145000,
+   "slide_shortfall_vs_top_p99_p999_p9999_max": [
+    932,
+    3946,
+    5833,
+    8312
+   ],
+   "p_shortfall_over_1k_5k_10k": [
+    0.0095,
+    0.0003,
+    0.0
+   ],
+   "p_v29_bottom_broken": 0.0,
+   "narrow w=5000": {
+    "bottom_p5_p50_p95": [
+     125000,
+     160000,
+     175000
+    ],
+    "bottom_raise_p50": 15000,
+    "p_bottom_raised": 0.9987,
+    "p_below_bottom": 0.0003,
+    "n_below_bottom": 68,
+    "median_below_when_below": 479,
+    "max_below": 3312
+   },
+   "narrow w=10000": {
+    "bottom_p5_p50_p95": [
+     120000,
+     155000,
+     170000
+    ],
+    "bottom_raise_p50": 10000,
+    "p_bottom_raised": 0.958,
+    "p_below_bottom": 0.0,
+    "n_below_bottom": 0,
+    "median_below_when_below": 0,
+    "max_below": 0
+   },
+   "narrow w=15000": {
+    "bottom_p5_p50_p95": [
+     115000,
+     150000,
+     165000
+    ],
+    "bottom_raise_p50": 5000,
+    "p_bottom_raised": 0.762,
+    "p_below_bottom": 0.0,
+    "n_below_bottom": 0,
+    "median_below_when_below": 0,
+    "max_below": 0
+   }
+  }
+ },
+ "S6 yields fall 2pt just after the build, for good": {
+  "check_vs_L13_slide": {
+   "top_quoted_p5_p50_p95": [
+    100000,
+    145000,
+    170000
+   ],
+   "bottom_quoted_p50": 130000,
+   "p_top_reached": 0.9602,
+   "implied_over_vs_under_cost_ratio": 24.12,
+   "p_below_quoted_bottom": 0.0,
+   "gift_p5_p50_mean": [
+    100000,
+    145000,
+    141771
+   ],
+   "median_short_of_top_when_missed": 1062,
+   "width_p50": 15000,
+   "width_pct_of_top_p50": 10.3,
+   "p_width_over_20pct_of_top": 0.0046,
+   "p_payment_short_over_1k": 0.0005
+  },
+  "LR07": {
+   "slide_top_p50": 145000,
+   "v29_bottom_p50": 130000,
+   "slide_shortfall_vs_top_p99_p999_p9999_max": [
+    2026,
+    4713,
+    6900,
+    9768
+   ],
+   "p_shortfall_over_1k_5k_10k": [
+    0.0207,
+    0.0007,
+    0.0
+   ],
+   "p_v29_bottom_broken": 0.0,
+   "n_v29_bottom_broken_slide_vs_base": [
+    1,
+    1
+   ],
+   "n_slid_top_quoted_below_bottom": 0,
+   "guard top>=bottom": {
+    "n_v29_bottom_broken": 1,
+    "n_below_top_less_10k": 1,
+    "p_top_reached": 0.9602
+   },
+   "narrow w=5000": {
+    "bottom_p5_p50_p95": [
+     95000,
+     140000,
+     165000
+    ],
+    "bottom_raise_p50": 10000,
+    "p_bottom_raised": 0.9388,
+    "p_below_bottom": 0.0007,
+    "n_below_bottom": 144,
+    "median_below_when_below": 670,
+    "max_below": 4768
+   },
+   "narrow w=10000": {
+    "bottom_p5_p50_p95": [
+     95000,
+     135000,
+     160000
+    ],
+    "bottom_raise_p50": 5000,
+    "p_bottom_raised": 0.6652,
+    "p_below_bottom": 0.0,
+    "n_below_bottom": 1,
+    "median_below_when_below": 2226,
+    "max_below": 2226
+   },
+   "narrow w=15000": {
+    "bottom_p5_p50_p95": [
+     95000,
+     130000,
+     155000
+    ],
+    "bottom_raise_p50": 0,
+    "p_bottom_raised": 0.3211,
+    "p_below_bottom": 0.0,
+    "n_below_bottom": 1,
+    "median_below_when_below": 2226,
+    "max_below": 2226
+   }
+  }
+ },
+ "S1 base, recession-linked (rho 0.5)": {
+  "check_vs_L13_slide": {
+   "top_quoted_p5_p50_p95": [
+    125000,
+    165000,
+    180000
+   ],
+   "bottom_quoted_p50": 145000,
+   "p_top_reached": 0.976,
+   "implied_over_vs_under_cost_ratio": 40.69,
+   "p_below_quoted_bottom": 0.0,
+   "gift_p5_p50_mean": [
+    125000,
+    165000,
+    159624
+   ],
+   "median_short_of_top_when_missed": 948,
+   "width_p50": 20000,
+   "width_pct_of_top_p50": 13.8,
+   "p_width_over_20pct_of_top": 0.0552,
+   "p_payment_short_over_1k": 0.0003
+  },
+  "LR07": {
+   "slide_top_p50": 165000,
+   "v29_bottom_p50": 145000,
+   "slide_shortfall_vs_top_p99_p999_p9999_max": [
+    1216,
+    4048,
+    6191,
+    8331
+   ],
+   "p_shortfall_over_1k_5k_10k": [
+    0.0116,
+    0.0003,
+    0.0
+   ],
+   "p_v29_bottom_broken": 0.0,
+   "narrow w=5000": {
+    "bottom_p5_p50_p95": [
+     120000,
+     160000,
+     175000
+    ],
+    "bottom_raise_p50": 15000,
+    "p_bottom_raised": 0.9986,
+    "p_below_bottom": 0.0003,
+    "n_below_bottom": 63,
+    "median_below_when_below": 693,
+    "max_below": 3331
+   },
+   "narrow w=10000": {
+    "bottom_p5_p50_p95": [
+     115000,
+     155000,
+     170000
+    ],
+    "bottom_raise_p50": 10000,
+    "p_bottom_raised": 0.9582,
+    "p_below_bottom": 0.0,
+    "n_below_bottom": 0,
+    "median_below_when_below": 0,
+    "max_below": 0
+   },
+   "narrow w=15000": {
+    "bottom_p5_p50_p95": [
+     115000,
+     150000,
+     165000
+    ],
+    "bottom_raise_p50": 5000,
+    "p_bottom_raised": 0.7611,
+    "p_below_bottom": 0.0,
+    "n_below_bottom": 0,
+    "median_below_when_below": 0,
+    "max_below": 0
+   }
+  }
+ },
+ "S2 2028 deposit halved ($75k)": {
+  "check_vs_L13_slide": {
+   "top_quoted_p5_p50_p95": [
+    40000,
+    80000,
+    90000
+   ],
+   "bottom_quoted_p50": 65000,
+   "p_top_reached": 0.9667,
+   "implied_over_vs_under_cost_ratio": 29.04,
+   "p_below_quoted_bottom": 0.0,
+   "gift_p5_p50_mean": [
+    40000,
+    80000,
+    71946
+   ],
+   "median_short_of_top_when_missed": 1194,
+   "width_p50": 10000,
+   "width_pct_of_top_p50": 17.6,
+   "p_width_over_20pct_of_top": 0.2347,
+   "p_payment_short_over_1k": 0.0005
+  },
+  "LR07": {
+   "slide_top_p50": 80000,
+   "v29_bottom_p50": 65000,
+   "slide_shortfall_vs_top_p99_p999_p9999_max": [
+    2044,
+    4914,
+    7223,
+    8865
+   ],
+   "p_shortfall_over_1k_5k_10k": [
+    0.0187,
+    0.0009,
+    0.0
+   ],
+   "p_v29_bottom_broken": 0.0,
+   "n_v29_bottom_broken_slide_vs_base": [
+    2,
+    2
+   ],
+   "n_slid_top_quoted_below_bottom": 0,
+   "guard top>=bottom": {
+    "n_v29_bottom_broken": 2,
+    "n_below_top_less_10k": 2,
+    "p_top_reached": 0.9667
+   },
+   "narrow w=5000": {
+    "bottom_p5_p50_p95": [
+     35000,
+     75000,
+     85000
+    ],
+    "bottom_raise_p50": 5000,
+    "p_bottom_raised": 0.9424,
+    "p_below_bottom": 0.0009,
+    "n_below_bottom": 177,
+    "median_below_when_below": 707,
+    "max_below": 3865
+   },
+   "narrow w=10000": {
+    "bottom_p5_p50_p95": [
+     30000,
+     70000,
+     80000
+    ],
+    "bottom_raise_p50": 0,
+    "p_bottom_raised": 0.4685,
+    "p_below_bottom": 0.0,
+    "n_below_bottom": 2,
+    "median_below_when_below": 415,
+    "max_below": 806
+   },
+   "narrow w=15000": {
+    "bottom_p5_p50_p95": [
+     30000,
+     65000,
+     75000
+    ],
+    "bottom_raise_p50": 0,
+    "p_bottom_raised": 0.1071,
+    "p_below_bottom": 0.0,
+    "n_below_bottom": 2,
+    "median_below_when_below": 415,
+    "max_below": 806
+   }
+  }
+ }
+}
