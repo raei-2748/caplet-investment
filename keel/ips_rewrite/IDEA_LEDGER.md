@@ -9,6 +9,8 @@ Fate: **IN** (in V31's text) · **FR** (Final Report, with the reason it isn't i
 
 
 ## Live draft: V39 (D19), Fri 30 Oct night
+*Sat 31 Oct, V40 (D20): V39's ideas unchanged, two clarity fixes. Mid-day candidate V41 adds one new idea, the price of safety in dollars (M7: a 60/40 "usually leaves her almost $200,000 richer by 2042"), and pays with "The rare miss is about $1,000" (to the Final Report).*
+
 V39 = V36's ideas, with: the break point on this plan's own design ($125,000; Archive A25); the return assumption
 (world stocks at 7.5%); the 60/40 trade-off corrected (one time in three) and said as concession then "But"; the leak in
 plain words (early cash, covers the early-maturing bonds too); liquidity ("to sell any day"). **Out since V36, and
