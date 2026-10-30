@@ -45,6 +45,7 @@ word, high enough that her lead gift draws bigger ones") plus the slide (the cou
 anything") and L-13's "97 times in 100"; C1 (the note "minus the bank and its fee"); C2 (X for ten, R for redemption);
 C10 ("the reserve runs itself down"); C13 in a shorter form ("If anything changes, the cheques come first, then the
 floor, then the hope"). C3's new holder candidate is V33 para 6, certainty as a breaking point, but its number is
-wrong for V33's design (F11, Archive A25): fix before any head-to-head.
+wrong for V33's design (F11, Archive A25): fix before any head-to-head. V36 (`../ips_rewrite/drafts/D16/`, 20:30) keeps
+all of this with clarity fixes; the number is still $85,000.
 
 (Keel is a simulated team, AI-written.)

@@ -8,7 +8,9 @@
 fails only if Laura's 2028 deposit comes in under about $85,000 after a two-point rate fall, but on this plan that
 deposit fails a cheque in about one model future in five, and the real break is about $125,000. The next paragraph,
 "her 2028 deposit never carries a cheque", argues with that line and with two trade notes Caplet saved on 6-7 Oct; one
-word, "only insures the cheques", fixes it at no cost.
+word, "only insures the cheques", fixes it at no cost. **Update 20:30:** V36, the draft now current, already rewrote that
+sentence ("the cheques use money she already has; her 2028 deposit plugs any gap"), which agrees with the notes; the
+$85,000 is still there and should read $125,000.
 
 **What was checked.** V33 (`../../ips_rewrite/drafts/D13/`), the rewrite thread's current draft after Book 10, word for
 word against the three TNA reflections and the eleven WInS notes.
