@@ -1,5 +1,29 @@
 # Stand-up log (newest first; Nora writes each entry, plain English first, then the detail)
 
+## Morning brief, Saturday 31 Oct 2026 (Sydney)
+**For the judges:** your Friday message is now Book 10, and its Ten Commandments replace our old rules. The final IPS for your review moves to the end of Wed 4 Nov, as you asked. The best draft so far is V39 (AI DRAFT, pitch 48 / IPS 500 words, not yet checked on GPTZero). It answers "a high degree of certainty" in two sentences: only a US government default or a 2028 deposit too small to fill the gap can break a cheque. Dashboard: https://claude.ai/artifact/NTBamRzChW4niBLYpkm19M
+**Today's round:** we've stopped polishing the range paragraph. Two of six blind judges preferred a rival plan: the same bond ladder for the cheques and about 80% world stocks on top. Today asks whether that rival is simply better for Laura, and if it isn't, why not. https://raei-2748.github.io/caplet-investment/#/day/2026-10-31
+**Room health:** all 10 rooms due yesterday ran. The Rooftop's send-off landed after the 19:10 merge, so we merged it in this morning.
+
+**Nora:** You were right about us. At 18:20 the Long Room voted a draft for a review your 18:15 message had just cancelled, and our panels kept agreeing with each other about single lines. So today's round is about the strategy itself, not a sentence: our gift money is owned in Treasuries from 2028, the rival's is in stocks until 2031, and we owe a growth-minded judge a straight answer.
+
+**Tess:** I'm the flaw-hunter, and my first job is to quote the V39 line that actually loses to the rival. If I can't find one, the charge falls and we say so.
+**Kai:** I liked the rival before it was fashionable. More stocks for longer is what most of the judges in that room would do with their own money, so "ours is safer" isn't an answer unless we say what the safety costs in dollars.
+**Jun:** I've got farmers who sell part of their crop before harvest. They never sell all of it, and the reason they give is the most honest version of our question I've found.
+**Amara:** Councils that have raised money for a building don't put it in shares while the quotes come in. I want to know whether that's a rule or just habit, because "habit" isn't an argument.
+**Felix:** I'm the builder today. V39 is already at 500 words, so whatever comes back has to replace a whole paragraph, not get bolted on as a clause. If it can't earn a paragraph, it goes to the Final Report.
+
+**Students need to:**
+- Nothing is due from you. Unless you say otherwise, the final IPS for your review arrives by the end of Wed 4 Nov, carrying the Ten Commandments check, the GPTZero line, and every idea from every draft traced in the idea ledger.
+- Ray: unless you say otherwise, the WInS book stays as it is (D6). That's danger zone, so it's yours. We've dropped the "required trading activity" question, as Book 10 said.
+
+**Open questions:**
+- None new today.
+
+**If you want the detail:** PR_LINK
+
+(Keel is a simulated team, AI-written.)
+
 ## Morning brief, Friday 30 Oct 2026 (Sydney)
 **For the judges:** V29 (AI DRAFT, pitch 50 / IPS 495 words) is the candidate for tomorrow's review draft. It beat V28 with both blind judges, and it now settles the coupon gap in 2031, before Laura names her range. Yesterday the rooms also won it a framework line, the part Wharton asks for by name: "if needs change, the change lands on what isn't yet promised, never a cheque" (2-0 with cold readers). Dashboard: https://claude.ai/artifact/NTBamRzChW4niBLYpkm19M
 **Today's round:** that framework line cost us the reason the 2031 range exists, and both readers marked us down for it. So today we're asking people who quote ranges for a living (share floats, school building appeals, rain forecasts) how they set each end and what a miss costs. https://raei-2748.github.io/caplet-investment/#/day/2026-10-30

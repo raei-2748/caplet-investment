@@ -9,7 +9,7 @@
 |---|---|---|---|---|---|
 | 1 | Invert | How would this plan fail Laura, step by step? Now remove each step. | | 0 | 0 |
 | 2 | The 2042 post-mortem | It is 2042 and the plan disappointed. Write the one paragraph explaining why. | Wed 28 Oct (R1) | 1 | 0 |
-| 3 | The rival's best plan | Build the strongest plan another team could submit. What does it do better than ours? | | 0 | 0 |
+| 3 | The rival's best plan | Build the strongest plan another team could submit. What does it do better than ours? | Sat 31 Oct (R4) | 1 | 0 |
 | 4 | The oldest instance | Who first solved a problem of this exact shape, and how long ago? | | 0 | 0 |
 | 5 | Price it | What would a bank charge Laura for this piece? What does that price tell us? | | 0 | 0 |
 | 6 | The other side | Who is on the other side of each holding, and why do they want to be? | | 0 | 0 |

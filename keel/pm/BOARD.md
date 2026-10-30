@@ -1,15 +1,16 @@
 # Task board (real Caplet work; run by Keel)
 
 Rules: `LOOP.md`. WIP limit 3 in Doing. Priority P = Impact (1-3) x Urgency (1-3); pick 4 or more. Owner = a Keel
-desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Fri 30 Oct 2026, 07:30 (morning run).
+desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sat 31 Oct 2026, 07:30 (morning run).
 
-**This week's top 3 (Fri 30 Oct - Sun 1 Nov; IPS in 8 days). Groomed Fri 30 Oct 07:30:**
-1. **The final IPS draft for Caplet's review by Sat 31 Oct** (P01; V29 is the candidate, `../ips_rewrite/drafts/D9/`).
-   The rooms' round 2 offers B2's framework line (2-0 cold, Courtroom C-03) and B3's eight words for the range's why;
-   both sit in `../ips_rewrite/inbox/2026-10-29_*.md` for the rewrite thread.
-2. **Research round 3 today** (`../loop/rounds/2026-10-30.md`): why a range, and what each end costs (Q10, flaw F8),
-   the case's own centre; the Writing Room reads B3 against B2 blind.
-3. **Ray's danger-zone items:** D6 (hold the WInS book) and F4 (the undefined trading-activity rule).
+**This week's top 3 (Sat 31 Oct - Wed 4 Nov; final IPS for Caplet's review by end of Wed 4 Nov, Book 10). Groomed Sat 31 Oct 07:30:**
+1. **The final IPS for Caplet's review by the end of Wed 4 Nov** (P01; read Thu 5 Nov). V39 is the current best
+   (`../ips_rewrite/drafts/D19/`, AI DRAFT, GPTZero not yet checked). Every draft carries the filled Ten Commandments
+   check (`../ips_rewrite/COMMANDMENTS_CHECK.md`) before it goes to Caplet. Overdrive: more and denser each day.
+2. **Research round 4 today** (`../loop/rounds/2026-10-31.md`): why not a safe ladder and the rest in stocks (Q12,
+   rival A09)? The strategy itself, one paragraph-sized idea taken or dropped whole.
+3. **Ray's danger-zone item:** D6 (hold the WInS book). F4 is dropped: Book 10 says "required trading activity"
+   doesn't contradict the plan.
 
 ## Doing
 | ID | Task | Owner | Due | P | Done when | Notes |
@@ -52,6 +53,7 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Fri 30 Oct 202
 ## Done
 | ID | Task | Owner | Done | Output |
 |---|---|---|---|---|
+| SD-N05 | Research round 4 gathered: Q12 why not a safe ladder and the rest in stocks (rival A09); lens 3; endowments (deepened), public capital funds, forward-selling crops. Groomed for Book 10: deadline end of Wed 4 Nov; F4 dropped | Nora | Sat 31 Oct | `keel/loop/rounds/2026-10-31.md` |
 | SD-N04 | Research round 3 gathered: Q10 why a range and what each end costs; lens 22; IPO bookbuilding, capital campaigns (deepened), weather ranges. Groomed: N05 closed (F2 closed 28 Oct by bank-it-at-the-mark and the deletion test); T11 killed (Book 9 retired the AI-use ledger) | Nora | Fri 30 Oct | `keel/loop/rounds/2026-10-30.md` |
 | SD-ARC-06 | Round 2 recorded (territory, champions, frontier, health); B2 checked against the submitted TNA and notes (no contradiction; A22 closed, A24 new) | Tess | Thu 29 Oct | `keel/loop/rounds/2026-10-29.md` beat 9; `keel/ips_rewrite/inbox/2026-10-29_archive.md` |
 | SD-N03 | Research round 2 gathered: Q8 the framework; lens 13; sovereign funds, commitment devices, ICU track-and-trigger | Nora | Thu 29 Oct | `keel/loop/rounds/2026-10-29.md` |
