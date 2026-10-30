@@ -7,6 +7,28 @@ records each idea once, with the drafts that carried it and its fate in **V31** 
 The research bank (`IDEA_BANK.md`, #1-82 and FRB rows) keeps the evidence and numbers; this page is about drafts.
 Fate: **IN** (in V31's text) · **FR** (Final Report, with the reason it isn't in 500 words) · **OUT** (dropped, why).
 
+
+## Live draft: V35 (D15), Fri 30 Oct
+**In V35:** the promise and the hope kept apart; our three-quarters-stocks first plan, sunk by our model; sequence risk
+(a crash in the wrong year forces a sale); Caplet XR (extended release; X = ten, R = redemption; do not crush); the
+ladder bought in January 2027, liquid any day; every cheque on one borrower on purpose; certainty defined by its two
+breaking points; Laura's risk already taken (the residency, her recession-linked income), so the cheques use money she
+already has; the 2028 deposit plugs the gap, then the floor; the floor's interest in a world index fund (about a
+fifteenth); the 60/40 trade-off (richer usually, a broken promise one time in four); the range's two ends (her word,
+the lead-gift effect); anything the cheques need comes off first; the kept half as flexibility in Taiwan dollars; the
+capped range's catch and the lock; 97 in 100, rare miss about $1,000; the reserve runs itself down.
+
+**Best ideas NOT in V35, and why (argue against these before each new draft):**
+- The bank's capital-protected note, minus the bank and its fee (label cut for room in V35; J5 called it one of the
+  sharpest ideas; first candidate to come back).
+- The coupon leak, named (V32-V34): folded into "anything the cheques might still need comes off first", because three
+  cold readers couldn't follow "coupons reinvested at lower yields".
+- The lock's cost ("the price of saying a number out loud"): cut for room in V35.
+- Our rules fire on dates, never on market moves (Wharton's own language): cut for room in V35.
+- Cheques first, then the floor, then the hope (E4): cut in V35 as a slogan ending.
+- $500,000 of cheques for about $300,000 (B7): cut since V32 (no source in the sentence).
+- Inflation can shrink what $50,000 buys, can't bounce a cheque (M4): Final Report.
+
 ## A. The thesis and the motif
 | # | Idea | Drafts | V31 | Note |
 |---|---|---|---|---|
