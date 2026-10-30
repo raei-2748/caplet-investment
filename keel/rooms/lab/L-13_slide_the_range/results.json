@@ -1,0 +1,631 @@
+{
+ "stamp": "curve 22 Oct 2026 | J.P. Morgan 2027 global equities 7.5% | 200,000 paths, seed 20261016 | rho 0.5 unless S0 | MODEL",
+ "S0 base, rates and stocks independent": {
+  "check_vs_L12": {
+   "p_payment_short_over_1k": 0.0003,
+   "quoted_bottom_p5_p50": [
+    115000,
+    145000
+   ],
+   "mean_cut_vs_floor_rule": 1952,
+   "p_cut_vs_floor_rule": 0.1689,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 0,
+   "median_miss": 0,
+   "p_top_within_1k": 0.8462,
+   "gift_p5_p50": [
+    133111,
+    165982
+   ],
+   "p_laura_half_sold": 0.1326,
+   "cosponsor_cost_pct_E094": 1.39,
+   "cosponsor_cost_pct_E05": 0.76,
+   "laura_2042_half_plus_release_p5_p50": [
+    3804,
+    33750
+   ],
+   "p_stocks_sold_2031": 0.7058,
+   "median_sold_2031_when_sold": 7500,
+   "p_stocks_sold_2033": 0.1326,
+   "median_2033_value_given_up_by_selling_in_2031": 523
+  },
+  "L13": {
+   "base V29": {
+    "top_quoted_p5_p50_p95": [
+     135000,
+     165000,
+     180000
+    ],
+    "bottom_quoted_p50": 145000,
+    "p_top_reached": 0.866,
+    "implied_over_vs_under_cost_ratio": 6.46,
+    "p_below_quoted_bottom": 0.0,
+    "gift_p5_p50_mean": [
+     131559,
+     165000,
+     160800
+    ],
+    "median_short_of_top_when_missed": 6977,
+    "width_p50": 25000,
+    "width_pct_of_top_p50": 14.7,
+    "p_width_over_20pct_of_top": 0.1102,
+    "p_payment_short_over_1k": 0.0003
+   },
+   "why_top_missed": {
+    "p_missed": 0.134,
+    "anchor_bought_treasuries_below_quoted_top": 0.0153,
+    "cheques_first_2033_topup_took_it_below": 0.1187,
+    "p_2031_mark_cut_the_bottom_not_the_top": 0.1689,
+    "median_cut_when_cut": 10000
+   },
+   "A slide (top cut like the bottom)": {
+    "top_quoted_p5_p50_p95": [
+     130000,
+     165000,
+     180000
+    ],
+    "bottom_quoted_p50": 145000,
+    "p_top_reached": 0.979,
+    "implied_over_vs_under_cost_ratio": 46.6,
+    "p_below_quoted_bottom": 0.0,
+    "gift_p5_p50_mean": [
+     130000,
+     165000,
+     159957
+    ],
+    "median_short_of_top_when_missed": 865,
+    "width_p50": 20000,
+    "width_pct_of_top_p50": 14.3,
+    "p_width_over_20pct_of_top": 0.0557,
+    "p_payment_short_over_1k": 0.0003
+   },
+   "B projected top, cushion 0": {
+    "top_quoted_p5_p50_p95": [
+     130000,
+     165000,
+     185000
+    ],
+    "bottom_quoted_p50": 145000,
+    "p_top_reached": 0.9645,
+    "implied_over_vs_under_cost_ratio": 27.13,
+    "p_below_quoted_bottom": 0.0,
+    "gift_p5_p50_mean": [
+     130000,
+     165000,
+     161796
+    ],
+    "median_short_of_top_when_missed": 319,
+    "width_p50": 25000,
+    "width_pct_of_top_p50": 14.7,
+    "p_width_over_20pct_of_top": 0.0984,
+    "p_payment_short_over_1k": 0.0003
+   },
+   "B projected top, cushion 2500": {
+    "top_quoted_p5_p50_p95": [
+     125000,
+     165000,
+     180000
+    ],
+    "bottom_quoted_p50": 145000,
+    "p_top_reached": 0.9964,
+    "implied_over_vs_under_cost_ratio": 274.86,
+    "p_below_quoted_bottom": 0.0,
+    "gift_p5_p50_mean": [
+     125000,
+     165000,
+     159316
+    ],
+    "median_short_of_top_when_missed": 894,
+    "width_p50": 20000,
+    "width_pct_of_top_p50": 12.9,
+    "p_width_over_20pct_of_top": 0.0667,
+    "p_payment_short_over_1k": 0.0003
+   },
+   "B projected top, cushion 5000": {
+    "top_quoted_p5_p50_p95": [
+     125000,
+     160000,
+     180000
+    ],
+    "bottom_quoted_p50": 145000,
+    "p_top_reached": 0.9995,
+    "implied_over_vs_under_cost_ratio": 2039.82,
+    "p_below_quoted_bottom": 0.0,
+    "gift_p5_p50_mean": [
+     125000,
+     160000,
+     156826
+    ],
+    "median_short_of_top_when_missed": 550,
+    "width_p50": 20000,
+    "width_pct_of_top_p50": 12.1,
+    "p_width_over_20pct_of_top": 0.045,
+    "p_payment_short_over_1k": 0.0003
+   },
+   "door4_gift_pays_cheques": {
+    "p_gift_pays_over_1": 0.1605,
+    "p_over_1k": 0.1476,
+    "median_taken_when_taken": 7588,
+    "p_that_pushes_gift_below_quoted_top": 0.1281
+   },
+   "door_table": {
+    "a_hope_before_2031_stocks_below_2028_cost": 0.2285,
+    "b_her_half_sold_2031_or_2033": 0.7171,
+    "c_bottom_cut_before_quoted": 0.1689,
+    "d_gift_after_naming_pays_cheques": 0.1605,
+    "e_cheque_short_over_1k": 0.0003
+   }
+  }
+ },
+ "S1 base, recession-linked (rho 0.5)": {
+  "check_vs_L12": {
+   "p_payment_short_over_1k": 0.0003,
+   "quoted_bottom_p5_p50": [
+    110000,
+    145000
+   ],
+   "mean_cut_vs_floor_rule": 2264,
+   "p_cut_vs_floor_rule": 0.1842,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 0,
+   "median_miss": 0,
+   "p_top_within_1k": 0.8287,
+   "gift_p5_p50": [
+    131612,
+    166026
+   ],
+   "p_laura_half_sold": 0.1258,
+   "cosponsor_cost_pct_E094": 1.61,
+   "cosponsor_cost_pct_E05": 0.88,
+   "laura_2042_half_plus_release_p5_p50": [
+    3616,
+    34425
+   ],
+   "p_stocks_sold_2031": 0.7058,
+   "median_sold_2031_when_sold": 7500,
+   "p_stocks_sold_2033": 0.1258,
+   "median_2033_value_given_up_by_selling_in_2031": 526
+  },
+  "L13": {
+   "base V29": {
+    "top_quoted_p5_p50_p95": [
+     135000,
+     165000,
+     180000
+    ],
+    "bottom_quoted_p50": 145000,
+    "p_top_reached": 0.8483,
+    "implied_over_vs_under_cost_ratio": 5.59,
+    "p_below_quoted_bottom": 0.0,
+    "gift_p5_p50_mean": [
+     130000,
+     165000,
+     160542
+    ],
+    "median_short_of_top_when_missed": 7529,
+    "width_p50": 25000,
+    "width_pct_of_top_p50": 14.7,
+    "p_width_over_20pct_of_top": 0.1124,
+    "p_payment_short_over_1k": 0.0003
+   },
+   "why_top_missed": {
+    "p_missed": 0.1517,
+    "anchor_bought_treasuries_below_quoted_top": 0.0185,
+    "cheques_first_2033_topup_took_it_below": 0.1332,
+    "p_2031_mark_cut_the_bottom_not_the_top": 0.1842,
+    "median_cut_when_cut": 10000
+   },
+   "A slide (top cut like the bottom)": {
+    "top_quoted_p5_p50_p95": [
+     125000,
+     165000,
+     180000
+    ],
+    "bottom_quoted_p50": 145000,
+    "p_top_reached": 0.976,
+    "implied_over_vs_under_cost_ratio": 40.69,
+    "p_below_quoted_bottom": 0.0,
+    "gift_p5_p50_mean": [
+     125000,
+     165000,
+     159624
+    ],
+    "median_short_of_top_when_missed": 948,
+    "width_p50": 20000,
+    "width_pct_of_top_p50": 13.8,
+    "p_width_over_20pct_of_top": 0.0552,
+    "p_payment_short_over_1k": 0.0003
+   },
+   "B projected top, cushion 0": {
+    "top_quoted_p5_p50_p95": [
+     125000,
+     165000,
+     185000
+    ],
+    "bottom_quoted_p50": 145000,
+    "p_top_reached": 0.9629,
+    "implied_over_vs_under_cost_ratio": 25.92,
+    "p_below_quoted_bottom": 0.0,
+    "gift_p5_p50_mean": [
+     125000,
+     165000,
+     161558
+    ],
+    "median_short_of_top_when_missed": 364,
+    "width_p50": 25000,
+    "width_pct_of_top_p50": 14.7,
+    "p_width_over_20pct_of_top": 0.1112,
+    "p_payment_short_over_1k": 0.0003
+   },
+   "B projected top, cushion 2500": {
+    "top_quoted_p5_p50_p95": [
+     125000,
+     160000,
+     185000
+    ],
+    "bottom_quoted_p50": 145000,
+    "p_top_reached": 0.9956,
+    "implied_over_vs_under_cost_ratio": 226.53,
+    "p_below_quoted_bottom": 0.0,
+    "gift_p5_p50_mean": [
+     125000,
+     160000,
+     159093
+    ],
+    "median_short_of_top_when_missed": 949,
+    "width_p50": 20000,
+    "width_pct_of_top_p50": 12.9,
+    "p_width_over_20pct_of_top": 0.0784,
+    "p_payment_short_over_1k": 0.0003
+   },
+   "B projected top, cushion 5000": {
+    "top_quoted_p5_p50_p95": [
+     120000,
+     160000,
+     180000
+    ],
+    "bottom_quoted_p50": 145000,
+    "p_top_reached": 0.9995,
+    "implied_over_vs_under_cost_ratio": 1833.86,
+    "p_below_quoted_bottom": 0.0,
+    "gift_p5_p50_mean": [
+     120000,
+     160000,
+     156592
+    ],
+    "median_short_of_top_when_missed": 693,
+    "width_p50": 20000,
+    "width_pct_of_top_p50": 12.1,
+    "p_width_over_20pct_of_top": 0.0543,
+    "p_payment_short_over_1k": 0.0003
+   },
+   "door4_gift_pays_cheques": {
+    "p_gift_pays_over_1": 0.1787,
+    "p_over_1k": 0.1662,
+    "median_taken_when_taken": 8069,
+    "p_that_pushes_gift_below_quoted_top": 0.1458
+   },
+   "door_table": {
+    "a_hope_before_2031_stocks_below_2028_cost": 0.2305,
+    "b_her_half_sold_2031_or_2033": 0.7171,
+    "c_bottom_cut_before_quoted": 0.1842,
+    "d_gift_after_naming_pays_cheques": 0.1787,
+    "e_cheque_short_over_1k": 0.0003
+   }
+  }
+ },
+ "S6 yields fall 2pt just after the build, for good": {
+  "check_vs_L12": {
+   "p_payment_short_over_1k": 0.0005,
+   "quoted_bottom_p5_p50": [
+    95000,
+    130000
+   ],
+   "mean_cut_vs_floor_rule": 12602,
+   "p_cut_vs_floor_rule": 0.6285,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 1,
+   "median_miss": 2226,
+   "p_top_within_1k": 0.4148,
+   "gift_p5_p50": [
+    106839,
+    150498
+   ],
+   "p_laura_half_sold": 0.1007,
+   "cosponsor_cost_pct_E094": 8.83,
+   "cosponsor_cost_pct_E05": 4.92,
+   "laura_2042_half_plus_release_p5_p50": [
+    2286,
+    7500
+   ],
+   "p_stocks_sold_2031": 0.8694,
+   "median_sold_2031_when_sold": 8834,
+   "p_stocks_sold_2033": 0.1007,
+   "median_2033_value_given_up_by_selling_in_2031": 780
+  },
+  "L13": {
+   "base V29": {
+    "top_quoted_p5_p50_p95": [
+     130000,
+     155000,
+     170000
+    ],
+    "bottom_quoted_p50": 130000,
+    "p_top_reached": 0.4403,
+    "implied_over_vs_under_cost_ratio": 0.79,
+    "p_below_quoted_bottom": 0.0,
+    "gift_p5_p50_mean": [
+     106830,
+     150000,
+     145253
+    ],
+    "median_short_of_top_when_missed": 15599,
+    "width_p50": 25000,
+    "width_pct_of_top_p50": 16.7,
+    "p_width_over_20pct_of_top": 0.3499,
+    "p_payment_short_over_1k": 0.0005
+   },
+   "why_top_missed": {
+    "p_missed": 0.5597,
+    "anchor_bought_treasuries_below_quoted_top": 0.0183,
+    "cheques_first_2033_topup_took_it_below": 0.5414,
+    "p_2031_mark_cut_the_bottom_not_the_top": 0.6285,
+    "median_cut_when_cut": 20000
+   },
+   "A slide (top cut like the bottom)": {
+    "top_quoted_p5_p50_p95": [
+     100000,
+     145000,
+     170000
+    ],
+    "bottom_quoted_p50": 130000,
+    "p_top_reached": 0.9602,
+    "implied_over_vs_under_cost_ratio": 24.12,
+    "p_below_quoted_bottom": 0.0,
+    "gift_p5_p50_mean": [
+     100000,
+     145000,
+     141771
+    ],
+    "median_short_of_top_when_missed": 1062,
+    "width_p50": 15000,
+    "width_pct_of_top_p50": 10.3,
+    "p_width_over_20pct_of_top": 0.0046,
+    "p_payment_short_over_1k": 0.0005
+   },
+   "B projected top, cushion 0": {
+    "top_quoted_p5_p50_p95": [
+     100000,
+     145000,
+     175000
+    ],
+    "bottom_quoted_p50": 130000,
+    "p_top_reached": 0.9483,
+    "implied_over_vs_under_cost_ratio": 18.34,
+    "p_below_quoted_bottom": 0.0,
+    "gift_p5_p50_mean": [
+     100000,
+     145000,
+     142524
+    ],
+    "median_short_of_top_when_missed": 1012,
+    "width_p50": 15000,
+    "width_pct_of_top_p50": 10.7,
+    "p_width_over_20pct_of_top": 0.0116,
+    "p_payment_short_over_1k": 0.0005
+   },
+   "B projected top, cushion 2500": {
+    "top_quoted_p5_p50_p95": [
+     100000,
+     145000,
+     170000
+    ],
+    "bottom_quoted_p50": 130000,
+    "p_top_reached": 0.9899,
+    "implied_over_vs_under_cost_ratio": 98.11,
+    "p_below_quoted_bottom": 0.0,
+    "gift_p5_p50_mean": [
+     100000,
+     145000,
+     140079
+    ],
+    "median_short_of_top_when_missed": 923,
+    "width_p50": 15000,
+    "width_pct_of_top_p50": 9.4,
+    "p_width_over_20pct_of_top": 0.0071,
+    "p_payment_short_over_1k": 0.0005
+   },
+   "B projected top, cushion 5000": {
+    "top_quoted_p5_p50_p95": [
+     95000,
+     140000,
+     170000
+    ],
+    "bottom_quoted_p50": 130000,
+    "p_top_reached": 0.9987,
+    "implied_over_vs_under_cost_ratio": 739.74,
+    "p_below_quoted_bottom": 0.0,
+    "gift_p5_p50_mean": [
+     95000,
+     140000,
+     137600
+    ],
+    "median_short_of_top_when_missed": 840,
+    "width_p50": 10000,
+    "width_pct_of_top_p50": 7.4,
+    "p_width_over_20pct_of_top": 0.0044,
+    "p_payment_short_over_1k": 0.0005
+   },
+   "door4_gift_pays_cheques": {
+    "p_gift_pays_over_1": 0.6118,
+    "p_over_1k": 0.5949,
+    "median_taken_when_taken": 16710,
+    "p_that_pushes_gift_below_quoted_top": 0.5578
+   },
+   "door_table": {
+    "a_hope_before_2031_stocks_below_2028_cost": 0.2305,
+    "b_her_half_sold_2031_or_2033": 0.8802,
+    "c_bottom_cut_before_quoted": 0.6285,
+    "d_gift_after_naming_pays_cheques": 0.6118,
+    "e_cheque_short_over_1k": 0.0005
+   }
+  }
+ },
+ "S2 2028 deposit halved ($75k)": {
+  "check_vs_L12": {
+   "p_payment_short_over_1k": 0.0005,
+   "quoted_bottom_p5_p50": [
+    30000,
+    65000
+   ],
+   "mean_cut_vs_floor_rule": 4618,
+   "p_cut_vs_floor_rule": 0.3789,
+   "p_below_quoted_bottom": 0.0,
+   "n_below": 2,
+   "median_miss": 415,
+   "p_top_within_1k": 0.6947,
+   "gift_p5_p50": [
+    44930,
+    81626
+   ],
+   "p_laura_half_sold": 0.0645,
+   "cosponsor_cost_pct_E094": 7.78,
+   "cosponsor_cost_pct_E05": 4.55,
+   "laura_2042_half_plus_release_p5_p50": [
+    2861,
+    12846
+   ],
+   "p_stocks_sold_2031": 0.7058,
+   "median_sold_2031_when_sold": 6893,
+   "p_stocks_sold_2033": 0.0645,
+   "median_2033_value_given_up_by_selling_in_2031": 399
+  },
+  "L13": {
+   "base V29": {
+    "top_quoted_p5_p50_p95": [
+     55000,
+     80000,
+     90000
+    ],
+    "bottom_quoted_p50": 65000,
+    "p_top_reached": 0.7276,
+    "implied_over_vs_under_cost_ratio": 2.67,
+    "p_below_quoted_bottom": 0.0,
+    "gift_p5_p50_mean": [
+     44924,
+     80000,
+     73851
+    ],
+    "median_short_of_top_when_missed": 8584,
+    "width_p50": 15000,
+    "width_pct_of_top_p50": 20.0,
+    "p_width_over_20pct_of_top": 0.467,
+    "p_payment_short_over_1k": 0.0005
+   },
+   "why_top_missed": {
+    "p_missed": 0.2724,
+    "anchor_bought_treasuries_below_quoted_top": 0.009,
+    "cheques_first_2033_topup_took_it_below": 0.2634,
+    "p_2031_mark_cut_the_bottom_not_the_top": 0.3789,
+    "median_cut_when_cut": 10000
+   },
+   "A slide (top cut like the bottom)": {
+    "top_quoted_p5_p50_p95": [
+     40000,
+     80000,
+     90000
+    ],
+    "bottom_quoted_p50": 65000,
+    "p_top_reached": 0.9667,
+    "implied_over_vs_under_cost_ratio": 29.04,
+    "p_below_quoted_bottom": 0.0,
+    "gift_p5_p50_mean": [
+     40000,
+     80000,
+     71946
+    ],
+    "median_short_of_top_when_missed": 1194,
+    "width_p50": 10000,
+    "width_pct_of_top_p50": 17.6,
+    "p_width_over_20pct_of_top": 0.2347,
+    "p_payment_short_over_1k": 0.0005
+   },
+   "B projected top, cushion 0": {
+    "top_quoted_p5_p50_p95": [
+     40000,
+     80000,
+     90000
+    ],
+    "bottom_quoted_p50": 65000,
+    "p_top_reached": 0.958,
+    "implied_over_vs_under_cost_ratio": 22.78,
+    "p_below_quoted_bottom": 0.0,
+    "gift_p5_p50_mean": [
+     40000,
+     80000,
+     72882
+    ],
+    "median_short_of_top_when_missed": 964,
+    "width_p50": 15000,
+    "width_pct_of_top_p50": 17.6,
+    "p_width_over_20pct_of_top": 0.3166,
+    "p_payment_short_over_1k": 0.0005
+   },
+   "B projected top, cushion 2500": {
+    "top_quoted_p5_p50_p95": [
+     35000,
+     75000,
+     90000
+    ],
+    "bottom_quoted_p50": 65000,
+    "p_top_reached": 0.9916,
+    "implied_over_vs_under_cost_ratio": 118.19,
+    "p_below_quoted_bottom": 0.0,
+    "gift_p5_p50_mean": [
+     35000,
+     75000,
+     70423
+    ],
+    "median_short_of_top_when_missed": 1020,
+    "width_p50": 10000,
+    "width_pct_of_top_p50": 15.4,
+    "p_width_over_20pct_of_top": 0.1508,
+    "p_payment_short_over_1k": 0.0005
+   },
+   "B projected top, cushion 5000": {
+    "top_quoted_p5_p50_p95": [
+     35000,
+     75000,
+     85000
+    ],
+    "bottom_quoted_p50": 65000,
+    "p_top_reached": 0.9987,
+    "implied_over_vs_under_cost_ratio": 795.81,
+    "p_below_quoted_bottom": 0.0,
+    "gift_p5_p50_mean": [
+     35000,
+     75000,
+     67942
+    ],
+    "median_short_of_top_when_missed": 760,
+    "width_p50": 10000,
+    "width_pct_of_top_p50": 12.5,
+    "p_width_over_20pct_of_top": 0.0636,
+    "p_payment_short_over_1k": 0.0005
+   },
+   "door4_gift_pays_cheques": {
+    "p_gift_pays_over_1": 0.3571,
+    "p_over_1k": 0.3206,
+    "median_taken_when_taken": 7980,
+    "p_that_pushes_gift_below_quoted_top": 0.2711
+   },
+   "door_table": {
+    "a_hope_before_2031_stocks_below_2028_cost": 0.2305,
+    "b_her_half_sold_2031_or_2033": 0.7171,
+    "c_bottom_cut_before_quoted": 0.3789,
+    "d_gift_after_naming_pays_cheques": 0.3571,
+    "e_cheque_short_over_1k": 0.0005
+   }
+  }
+ }
+}
