@@ -1,9 +1,27 @@
 # Runbooks: how each Keel room works (Keel may edit these)
 
-> **Read `../../BIBLE.md` first: nine books (Caplet's six, 23-27 Oct 2026, all equal, and Wharton's three official files of 27 Oct, which rank first).** They beat every rule on this page.
+> **Read `../../BIBLE.md` first: ten books (23-30 Oct 2026; Book 10 and the Ten Commandments, 30 Oct), under Wharton's word (`keel/WHARTON_WORD.md`), which ranks first.** They beat every rule on this page.
 > Extraordinary above all; a distinctive, deeply human voice (Ahaan's, never AI's); one subtle motif, Caplet XR (extended
 > release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
 > IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
+
+> **BOOK 10 MODE, Fri 30 Oct - Wed 4 Nov 2026 (overrides anything below that disagrees).** Caplet, 30 Oct (BIBLE Book
+> 10): the mock judges were too alike and approved every change; V29 read as robotic and over-compressed; the rules
+> were decoration. Until the final IPS goes to Caplet (**end of Wed 4 Nov, Sydney; the Sat 31 Oct review is
+> cancelled**), every room runs this way:
+> 1. **The rewrite thread drafts; rooms feed it.** No room writes, votes on or names a full pitch + IPS, and no room
+>    picks "Caplet's review draft" or adds a VERSIONS row. The current draft is the newest `keel/ips_rewrite/drafts/D*`
+>    folder named in `keel/ips_rewrite/README.md`. Rooms send ideas, evidence, model numbers, fact-checks and
+>    alternative paragraphs to `keel/ips_rewrite/inbox/<date>_<room>.md`; the thread folds the best in.
+> 2. **The Ten Commandments** (`keel/BIBLE.md`) bind every output. Read `keel/WHARTON_WORD.md` (ranks first) and Book 10.
+> 3. **Judging only the new way** (`keel/ips_rewrite/judges/README.md`): different models, priors and methods, blind,
+>    rivals in the field, only Wharton's word; report disagreement. Never ask a reader for "the line that wins".
+> 4. **Most wanted from rooms now:** (a) truth-checks of every claim and number in the current draft (the Window's
+>    30 Oct catch on the wipe-out line is the model); (b) the work orders in `keel/ips_rewrite/WORK_ORDERS.md` marked
+>    BOOK 10; (c) paragraphs rewritten in Caplet's voice (Ahaan's essays, `keel/voice/06_voice_guide.md`), clearer and
+>    less compressed, offered as alternatives; (d) niche ideas that answer the panel's open criticisms.
+> 5. No "every team will ...", no unexplained numbers ("we modelled", never "we judge"), no AI-use or "required trading
+>    activity" worries, no grammar or formatting work.
 
 One file per scheduled task. Since Mon 26 Oct 2026 every scheduled-task prompt is a short pointer to this folder, so
 Keel changes how a room works by committing to its runbook (through `../SELF_IMPROVEMENT.md`), not by asking a human
@@ -47,8 +65,8 @@ to rewrite a prompt. Caplet's standing instructions (`../../INSTRUCTIONS.md`) be
    emails outside the team, repo settings): write Keel's recommendation as `Danger zone: yours` and do nothing on it. Everything else
    (which idea to test, how a room works, file layout, what to read) Keel decides itself and says what it decided.
 5. **Deep, dense work on the big picture** (`keel/BIBLE.md` Books 4 and 9, rules 2, 5 and 11). Rooms feed the rewrite
-   research, ideas, tests and critique, intensively, every run. The only timeline rule is a final IPS draft for
-   Caplet's review on **Sat 31 Oct** (final Sat 7 Nov 09:00 Sydney); drafting may start whenever Keel judges best.
+   research, ideas, tests and critique, intensively, every run. The only timeline rule is the final IPS for
+   Caplet's review at the **end of Wed 4 Nov** (Book 10; IPS due Sat 7 Nov 09:00 Sydney); the rewrite thread drafts.
    Spend runs on strategy, niche investing knowledge (fused and critiqued, never copied) and logic, not on small word
    or accuracy fixes. Formatting is Caplet's job, not Keel's. **Do it properly.** One solid output with sources and dates; numbers MODEL-labelled. IPS ideas go to
    `keel/ips_rewrite/inbox/<YYYY-MM-DD>_<room>.md`, never into IPS v4/v4.1.

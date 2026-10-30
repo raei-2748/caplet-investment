@@ -1,4 +1,4 @@
-# THE BIBLE: nine books (23-27 Oct 2026): Caplet's six and Wharton's three official files of 27 Oct; Wharton's rules rank first. Top priority for every Keel member, room, agent and run.
+# THE BIBLE: ten books (23-30 Oct 2026), under Wharton's word (`WHARTON_WORD.md`), which ranks first. Top priority for every Keel member, room, agent and run.
 
 > **"The message Ray quoted earlier isn't the only Bible. In fact, you've got quite a few Bibles. (Multiple books of
 > the Bible, I suppose?) ... All are equal."** (Caplet, Mon 26 Oct 2026, 23:21 Sydney.) The first version of this page
@@ -9,16 +9,17 @@
 > and ranked Wharton's rules above the team's books: "These are the competition rules, not just our team's expectations,
 > so they're different in nature from the Bible and arguably even more important" (rule 0).
 >
-> **Where it sits.** Above everything Keel owns: `INSTRUCTIONS.md`, `NORTH_STARS.md`, `VOICE.md`, `CULTURE.md`, every
-> runbook, room card, member file, office agent and skill. Where any of them disagrees with a book, the book wins and
-> the run that notices rewrites the other file that day. Only the hard limits in `pm/INVARIANTS.md` (no WInS or SMApply,
-> no trading, no submitting, no edits to Caplet's Google Docs, no personal data, fiction never in a deliverable) sit
-> above it, and nothing here asks Keel to break them.
+> **Where it sits.** Under Wharton's word (`WHARTON_WORD.md`: the five criteria, the IPS's questions and Wharton's
+> advice, verbatim; Caplet, 30 Oct: Wharton's documents are "in some senses 'God'"), and above everything Keel owns:
+> `INSTRUCTIONS.md`, `NORTH_STARS.md`, `VOICE.md`, `CULTURE.md`, every runbook, room card, member file, office agent
+> and skill. Where any of them disagrees with a book, the book wins and the run that notices rewrites the other file
+> that day. The hard limits in `pm/INVARIANTS.md` (no WInS or SMApply, no trading, no submitting, no edits to Caplet's
+> Google Docs, no personal data, fiction never in a deliverable) also sit above it.
 >
-> **How to use it.** Every run reads the cover note and Keel's reading at the bottom; any run touching the IPS, the
-> Final Report, a draft, a name or the motif reads all nine books in full. The books are equal, and Keel is told to use
-> its own judgement: it may weigh one above another, or question one, as long as it says why and the expectations are
-> met. What the six members took from Book 5: `BIBLE_TAKES.md`.
+> **How to use it.** Every run reads `WHARTON_WORD.md`, Book 10 and the Ten Commandments (which replaced the old rules
+> 0-10 on 30 Oct). Any run touching the IPS, the Final Report, a draft, a name or the motif reads all ten books in
+> full. Caplet's books are equal, and Keel is told to use its own judgement: it may weigh one above another, or
+> question one, as long as it says why and the expectations are met.
 
 ## Cover note (Mon 26 Oct 2026, 23:21 Sydney)
 
@@ -238,234 +239,13 @@ man…") stay out of this repo, because the portal is public. Keel's notes on ho
 > of the IPS! We want you to meet EVERY SINGLE EXPECTATION we've set out throughout the entirety of this
 > conversation. Blow us away.
 
-## Book 6: Wharton's halfway email, official (Tue 27 Oct 2026)
+## Books 6-8: Wharton's own files (moved up, 30 Oct 2026)
 
-> Ray, 27 Oct, pasting it: **"Wharton newsletter - THIS IS BIBLE. OFFICIAL FILE."** The only book written by Wharton,
-> not by Caplet. Verbatim below (two Mimecast links shortened); the filed copy, with Sydney times and what is new
-> against the Week 4 email, is `../competition/official/2026_27/wharton_email_week5_2026-10.md`.
-
-> Congratulations! You have reached the halfway point of the competition. Keep up the good work.
->
-> Your team's next deliverable is the Investment Policy Statement (IPS). Remember, the IPS will now be submitted as a form
-> on SurveyMonkey Apply. You will not submit a PDF. Review the updated IPS instructions [link: upenn.box.com, via
-> Mimecast; the file itself is not yet in the repo].
->
-> Check out our Instagram page, @whartonyouth, to see some of the teams competing!
->
-> A FEW IMPORTANT REMINDERS
->
-> * Team rosters are final. Teams may not add members or change team leaders.
-> * Before you send a ticket, please try to work through your issue with your teammates and advisor. Most questions can
->   be answered by reading the information that we have already provided.
-> * This is a team competition. A successful team works together.
-> * The following investment types are permitted for modeling both of Laura's contributions and for use in your
->   Investment Policy Statement and Final Report.
->    * Any stock available on WInS.
->    * Any Exchange-Traded Fund (ETF) available on WInS.
->    * Any Government/Treasury Bond available on WInS.
-> * The following are NOT permitted:
->    * Margin trading
->    * Short selling
->    * Stock-secured debt
->    * Cryptocurrency
->    * Derivatives, including options, futures, swaps, etc.
->    * Individual TIPS (Treasury Inflation-Protected Securities)
->    * Individual STRIPS (Separate Trading of Registered Interest and Principal of Securities)
->    * Any investment other than the approved investments listed above.
-> * When it comes to submitting your deliverables, we strongly encourage your team not to wait until the last possible
->   minute.
-> * Start working on your School Documentation [link: upenn.app.box.com, via Mimecast] now.
->
-> TIPS FOR COMPETITION SUCCESS
->
-> * Let your investment strategy lead. It connects every part of the competition: from your WInS portfolio and Trading
->   Notes Analysis to your Investment Policy Statement and Final Report.
-> * Know your client. Review the Client Case Study carefully so you understand Laura's goals. If anything is unclear,
->   discuss it with your advisor.
-> * Use WInS to demonstrate your strategy. Your WInS portfolio should reflect the strategy your team has developed.
->   Trading ends on November 6 at 5:00 p.m. ET, and your portfolio will be final.
-> * Do not focus on portfolio performance. You are not evaluated on whether your WInS portfolio gains or loses money.
->   WInS results should not be added to or subtracted from Laura's long-term portfolio projections.
-> * Explain your decisions. There is no single correct strategy. Use your research and analysis to explain why each
->   investment belongs in your strategy and how it supports Laura's goals.
-> * Follow the instructions. Review the requirements and guidelines for each deliverable before submitting your work.
->
-> IMPORTANT DATES
->
-> * Friday, November 6, 5:00 p.m. ET: Investment Policy Statement due and trading ends
-> * Monday, November 9, 9:00 a.m. ET: Instructions and requirements for the Final Report posted
-> * Friday, December 4, 5:00 p.m. ET: School documentation and Final Report due
->
-> Stay Connected with Wharton Global Youth
-> Want updates on upcoming programs, competitions, and new student opportunities? Join our mailing list and never miss an
-> update.
-
-## Book 7: The updated IPS instructions, official (Tue 27 Oct 2026)
-
-> Ray, 27 Oct, uploading Wharton's new PDF: **"This is the latest PDF. THIS IS BIBLE."** Filed as
-> `../competition/official/2026_27/UPDATED_2026_WGY_Investment_Policy_FINAL.pdf` (+ `.txt`); it supersedes the v1 PDF.
-> The IPS is now two fields of a SurveyMonkey Apply form: a 50-word pitch and a 500-word IPS. Gone: the title page,
-> fonts, spacing, margins, the PDF, the 5 MB and two-page limits. Kept: no graphics, charts, links, footnotes or
-> citations. Verbatim text (page footers dropped):
-
-> INVESTMENT POLICY STATEMENT (IPS)
->
-> An Investment Policy Statement (IPS) outlines an investor’s financial goals, risk tolerance, and guidelines for
-> managing a portfolio. It helps investors stay focused on long-term objectives and make disciplined decisions
-> during changing market conditions.
->
-> Your investment strategy is the cornerstone of the Wharton Global High School Investment Competition,
-> and your IPS is where you clearly articulate that strategy.
->
-> Your strategy should explain how you will invest your client’s money to support their financial goals and future
-> cash flow needs while managing risk and uncertainty. It should reflect your client’s goals, time horizons,
-> liquidity needs, desired degree of funding certainty, and need for financial flexibility.
->
-> Developing Your Investment Strategy
-> There is no single “correct” investment strategy for your client. Your team should use research and analysis
-> to develop an approach that reflects your client’s financial goals, funding needs, and changing time horizons.
-> As you develop your strategy, consider:
->     • What is the central idea behind your investment strategy?
->     • What principles will guide your investment decisions?
->     • How does your strategy balance growth, risk, liquidity, funding reliability, and financial flexibility?
->     • How will the portfolio’s asset allocation and composition change as future funding needs approach and
->        payments are made?
->     • How will your strategy protect the operating commitment while preserving flexibility for a responsible
->        facility contribution?
->
-> Always remember who your strategy is designed to serve. Your client’s profile and financial goals should
-> remain at the center of your investment decisions.
->
-> WHAT YOU WILL SUBMIT
-> Your IPS submission has two parts.
->
-> 1. Investment Strategy Elevator Pitch
->   Maximum 50 words
->  Quickly summarize your team’s investment strategy. Clearly communicate the central idea behind your
->   approach and how it is designed to support your client’s financial goals and future funding needs.
->
-> 2. Investment Policy Statement
->     Maximum 500 words
->     Clearly explain your team’s investment strategy and the reasoning behind it.
-> Your IPS should demonstrate how your strategy is tailored to your client’s financial goals, time horizons, and
-> needs. Explain how your team will approach risk and return, liquidity, portfolio construction and diversification,
-> and planned changes in the portfolio as future funding needs approach.
->
-> Your IPS should also establish your strategic approach to preparing for the operating commitment, managing the
-> operating reserve’s asset composition over time, determining a responsible facility contribution, and preserving
-> appropriate financial flexibility.
->
-> Focus on the strategy and decision-making framework that guide your portfolio rather than describing individual
-> investments or presenting detailed financial calculations.
->
-> Your IPS should make it clear:
->    • What your team is trying to accomplish for the client
->    • Why your strategy is appropriate for the client and their financial goals
->    • How your strategy balances growth, liquidity, funding reliability, risk, and financial flexibility
->    • How your strategy will guide portfolio construction and investment decisions as the client’s
->       needs change
->    • How your approach will protect the required operating payments while supporting a responsible facility
->       contribution
->
-> You do not need to address these points separately. Your goal is to present a clear, cohesive, and well-supported
-> investment strategy.
->
-> The IPS is not expected to include final operating-reserve calculations, detailed portfolio projections, a final
-> facility-contribution range, or the draft communication to co-sponsors. These elements will be developed and
-> supported in the Final Report using the strategy established in the IPS.
->
-> Your IPS and the Final Report
-> Your IPS is the foundation of your Final Report and will be evaluated.
->
-> Once submitted, the IPS becomes the official record of your team’s investment strategy. Your team may not
-> revise its investment strategy after the submission deadline.
->
-> Your portfolio and Final Report should reflect the strategy established in your IPS. In the Final Report, your team
-> will evaluate how effectively it implemented that strategy and present its analysis and recommendations for the
-> operating commitment, facility contribution, financial flexibility, and communication with co-sponsors under
-> varying investment outcomes.
-> INSTRUCTIONS
-> Provide an Investment Strategy Elevator Pitch
->     • Maximum 50 words
->     • Quickly summarize your team’s investment strategy. Clearly communicate the central idea behind your
->        approach and how it is designed to support your client’s financial goals and future funding needs.
->
-> Provide an Investment Policy Statement
->     • Maximum 500 words
->     • Clearly explain your team’s investment strategy and decision-making framework, including how
->        the strategy addresses Laura’s financial goals, funding needs, and risk considerations.
->
-> Your team will submit its Investment Policy Statement through the SurveyMonkey Apply form.
->
-> Graphics, charts, images, attachments, external links, footnotes, and formal citations are not permitted.
->
-> Teams should use research and analysis to develop their strategy, but sources do not need to be cited in the IPS.
->
-> Relevant sources and supporting evidence must be included in the Final Report.
-
-## Book 8: Wharton's deliverables page and the five evaluation criteria, official (Tue 27 Oct 2026)
-
-> Ray, 27 Oct (21:47 Sydney), pasting the SMApply Deliverables page with the halfway email: **"REmember the email I
-> sent you fam earlier? there is competition tips. these are gold."** The tips are Book 6's "TIPS FOR COMPETITION
-> SUCCESS". This book is the page itself, verbatim; the filed copy is
-> `../competition/official/2026_27/SMApply_Deliverables_Page_2026-10-27.md`. The criteria are word for word the ones
-> on the page on 27 Sep; only the sample school documentation link is new. **These five sentences are what the judges
-> score. Every room checks its work against them, clause by clause (rule 9).**
-
-> The 2026-2027 has four REQUIRED Deliverables:
->
-> 1. Team Roster (Due: October 9; no later than 5:00 p.m. ET)
-> 2. Trading Notes Analysis (Due: October 23; no later than 5:00 p.m. ET)
-> 3. Investment Policy Statement (Due: November 6; no later than 5:00 p.m. ET)
->    * IMPORTANT: Trading ends and your portfolio is locked.
-> 4. Final Report & Official School Documentation (Due: December 4; no later than 5:00 p.m. ET)
->
-> Team must submit all the deliverables, and meet their necessary requirements, in order to receive a digital credential.
-> Your Trading Notes Analysis, Investment Policy Statement and Final Report are evaluated.
-> All deliverables must be submitted via your team's SurveyMonkey Apply account.
-> We will not grant any deadline extensions.
->
-> DETAILS
->
-> Team Roster
-> Once your official team roster is submitted, teams may not change their members.
-> Information required:
->
-> 1. Full Name – Every Student
-> 2. Email – Every Student (NOTE: A unique email must be provided for each student.)
-> 3. Birthday (Month, Day, Year) - Every Student
-> 4. Anticipated Graduation Year – Every Student
-> 5. Official Team Name
-> 6. School Country
-> 7. School State (U.S. school only)
-> 8. School City
-> 9. Official School Website (URL)
->
-> Trading Notes Analysis
-> The purpose of this deliverable is to demonstrate how your team's investment decisions reflected the strategy it developed for the client.
-> Instructions: Click Here (https://upenn.box.com/s/3pxn798a1lnlifkikj4g56srmg2ijuo6)
->
-> Investment Policy Statement
-> Your investment strategy is the cornerstone of the Wharton Global High School Investment Competition, and your Investment Policy Statement is where you clearly articulate that strategy.
-> Instructions: Click Here (https://upenn.box.com/s/0iib496jhswp30c12zhn6b2fret8dl30)
->
-> Final Report & School Documentation
-> In your Final Report, your team will evaluate how it implemented its investment strategy and present its analysis and recommendations for achieving Laura's goals.
-> Instructions: Detailed Final Report instructions and requirements will be shared on November 9.
-> We require official documentation from your school to ensure your team is in compliance with the Competition Rules. Do not wait until the last minute to request documentation. This will be submitted along with your Final Report as a separate file.
-> Sample Documentation: Click Here (https://upenn.box.com/s/ullruymjf12ohi1uupqx4j6y8w4u5p06)
->
-> EVALUATION CRITERIA
->
-> Investment Strategy: Presents a clear and creative investment thesis; demonstrates disciplined planning across Laura's changing time horizons and cash-flow needs; uses appropriate diversification; and maintains consistency with the team's IPS.
->
-> Client Knowledge and Objectives: Tailors the strategy to Laura's circumstances, priorities, risk considerations, and residency goals; demonstrates a thoughtful understanding of the client; and presents recommendations that can earn her confidence.
->
-> Portfolio Analysis: Demonstrates understanding and effective use of investment concepts and tools; integrates quantitative and qualitative analysis; and uses reasonable assumptions and projections to evaluate funding reliability, the facility contribution, and financial flexibility under varying market outcomes.
->
-> Articulation of Competition Experience: Demonstrates teamwork, communication, and learning; clearly explains the team's research and decision-making process; and reflects meaningfully on the team's growth and response to challenges.
->
-> Creativity and Presentation: Presents a compelling, well-organized narrative in an authentic team voice; uses data effectively to support conclusions; demonstrates original thinking and meaningful reflection; and communicates Laura's potential facility contribution and investment uncertainty clearly and credibly to prospective co-sponsors.
+Wharton's halfway email (Book 6), the updated IPS instructions (Book 7) and the deliverables page with the five
+criteria (Book 8) are no longer kept here word for word. On Fri 30 Oct Caplet ranked Wharton's documents above the
+Bible ("in some senses 'God'") and asked for the dates, formatting and logistics to go. What bears on the IPS (the
+five criteria, the IPS's questions, what judges look for, Wharton's advice) is in **`WHARTON_WORD.md`**, verbatim and
+ranked first. The full files stay filed in `../competition/official/2026_27/` as records.
 
 ## Book 9: Intelligence, synthesis, logic; every good idea lands somewhere (Ahaan, Tue 27 Oct 2026, 22:51 Sydney)
 
@@ -497,75 +277,107 @@ man…") stay out of this repo, because the portal is public. Keel's notes on ho
 >
 > By the way, this message (or at least the vast majority of it?) probably belongs in the Bible as well, because I've told you a lot of additional things about our expectations for the IPS and Final Report which you'll need to know. You can decide how you do this.
 
-## Keel's reading: the rules every run applies (the books win if these ever drift)
+## Book 10: Judges who disagree, a voice applied, overdrive (Caplet, Fri 30 Oct 2026, 18:15 Sydney)
 
-Caplet's six books are equal; Wharton's three (Books 6-8) rank above them (rule 0). These rules are how Keel turns
-them into daily practice; each names the book or books it comes from.
+> Caplet's own words, verbatim (paragraph breaks added for reading; no word changed). The message suggested its own
+> place: "By the way, you might want to considering adding this message to the Bible." Keel's reading of it is the Ten
+> Commandments below, which replace the old rules 0-10. A second message the same evening (18:21) put Wharton's
+> documents above the Bible; it closes this book.
 
-0. **Wharton's rules first** (Book 9, on Books 6-8). Where the competition's rules and the team's books pull apart, the
-   rules win. The IPS has "a VERY specific and defined job": Book 7's, every part of it. Formatting is Caplet's job,
-   not Keel's.
+> A few things I want to comment on. Firstly, the fact that the judges are so similar – ranking the same drafts first, having the same or similar reasons for those decisions, etc. seems to be incredibly common with your mock judge evaluations – concerns me. It suggests that your AI-generated mock judges are really all the same in many ways, and whilst you claim you've made them to be 'different characters', they're really similar in all matters of substance. You've got to create judges that are diverse not just in label but in their evaluations, and who make judgements in vastly, indeed radically different ways. Right now, your judges almost seem symbolic rather than purposeful, approving almost every change your propose, and thinking suspiciously similarly to both one another and Keel and you. That's a problem.
+>
+> I also read your IPS v29, and I wanted to make some comments on it, because I have quite a few concerns. The first is that I'm not sure you've adopted much from all the 'voice studies' you've supposedly been doing, and the voice and style and tone all sound far more like your generic robotic AI ones than what a real human would write like. Indeed, in many ways, this is worse than your earlier drafts. It's very concerning. In fact, deeply so. I already explained in an earlier message why this is, and you obviously didn't even read it, let alone consider it, let alone act on it. The elevator pitch is even worse: it's so obvious it's AI, it's kind of concerning. (By the way: every time after you've produced an IPS draft, and before you send it to us, you MUST run it through GPTZero, and the 'human-written only' probability must be above 50%. If that's not the case, you must fix that – change it until it IS above 50%. I don't care how you change it, as long as it's done, and it's successful. Because right now, you seem physically incapable of writing like a human. Hopefully this AI-detector exercise will teach you how horrifically AI you sound! Notably, whilst avoiding AI detection is important, what's even more important is HAVING OUR OWN UNIQUE VOICE – which you can only achieve through the voice studies. My guess would be that, whilst you made some great notes [indeed, I saw quite a fair few notes from your human vs AI voice study which were completely ignored in your IPS] and read through some great sources, you're simply not applying them. That might be wrong, but if it's true, I want you to do something about it.)
+>
+> On a point somewhat related to that: some of the sentences are just really weird. Like, it's clear that you're going for maximum parsimony and concision – which is, of course, perfectly understandable given the strict word limits – but this is beginning to be so excessive that the sentences barely make sense, at least to me. Like, I just don't understand what some of them are trying to say. And yes, it's possible that many of them actually DO make sense – it's just that I can't understand them. Thing is, the judges are human too – and frankly, I'm heavily doubtful that they'd be able to understand some of the stuff you're trying to say. Your mock judges might get it, but keep in mind that you – as an AI – are creating those judges, and they are effectively you – AI – and understand your language. Humans have a very different way of writing, as I would've hoped you'd have learned by now. This is worsened by the fact that such an extreme level of parsimony (and just this general, almost minimalistic, certainly unclear style of writing you've got), without any natural human variation or flair or whatever, is a classic AI tell.
+>
+> (By the way, your judges have some REALLY weird ways of assessing pieces. They all seem to converge on some really specific things which they significantly overweight in their judgement, and when an IPS includes it, they rate it really highly. One example of this is considering a certain sentence or paragraph to be a deal-breaker of a report, or that sort of thing. Obsessing over a very small and hyper-specific thing is something which only AI does because for instance it really likes elegant sentences and nice rhetoric and 'framework lines' and other random things rather than looking at the big picture. Humans, on the other hand, are far more inclined towards the latter. Try thinking like a human. Our judges are humans, not robots! Stop having random obsessions with certain things. Your only allegiance in terms of marking is to the marking guide from Wharton, and ABSOLUTELY NOTHING ELSE.)
+>
+> Also, referring to things like 'every team will do x' is a bit meta and also a bit arrogant – we should be so good that we are able to differentiate ourselves on our extraordinary-ness rather than having to put down other teams and compare them to our brilliance. In addition, don't just randomly throw out lines like 'which we judge three times worse'. I'm totally happy with natural human overstatement and whatnot, but this is just a random, arbitrary number plucked out of thin air, with no explanation. And, worse, we're pretending that we just made a random judgement ourselves, which isn't true, I think? (Correct me if I'm wrong, but wasn't that from a model you did or something? In which case, it's not 'we judge', it's 'we model' or 'we calculate'.)
+>
+> Also, by the way: can you stop obsessing over random things like AI use? Like, genuinely, just stop bothering. I can assure you that we will rewrite everything and cite AI appropriately, as we did for the Trading Notes Analyses. You've got to stop wasting your energy obsessing over it. Similarly, 'required trading activity' doesn't mean anything which would contradict our plan; just calm down, for God's sake. Stop obsessing over the tiniest things and start doing your job, which is actually drafting a good IPS, goddammit.
+>
+> One last thing: I'm going to extend your timeline. You've now got until the end of Wednesday to finalise your IPS. The reason I'm doing this is because I am, frankly, disappointed in your progress (and your pace of progress) thus far. I want to see you significantly improve. I think you've been doing a lot of good, hard work, but you're simply not applying the expectations we've given you. (I expect to see you SIGNIFICANTLY increase your pace of work over the next few days until the final draft for review by me on Thursday morning. You should be going into absolute overdrive. I don't think you quite understand the gravity of our situation. There are 2300 teams competing. Many of them will be using AI like us, some might be using an AI as impressively capable as you, a few might even be asking for the same kind of 'extraordinary-ness' in their prompts as we are. We've got to get into the top 50 teams out of these. That's a ridiculously tall order and a tough ask indeed. And we're not trying to get 100th or 1000th – this is a winner-takes-all system. The only thing that matters is getting top 50, and you must do WHATEVER it takes to get there. To achieve that, you need to be operating on a different order of magnitude entirely. Right now, the IPSs still seem ordinary. Competent, impressive, but not creative, original, novel, thoughtful or insightful, let alone EXTRAORDINARY, exceptional, stunning, breathtaking. You should be aiming for THAT. That's your number one instruction, above all else. Everything else simply feeds into that. This will mean a level of effort and work which is many multiples of what you're currently doing. [Indeed, I want you to be able to demonstrate to yourself that you're completing vastly more work per day over the next few days until Thursday than you have at any point so far in this competition.] I know you're doing a lot of work right now, but I want to see far more. I want to be blown away at your brilliance.)
+>
+> I would imagine a fresh rewrite of a new list of 'commandments' (to replace the now-outdated 10 rules) is in order. But, even more important than that: it MUST BE FOLLOWED. Right now, they exist for decoration, but no one's actually following them. Especially on adopting a human voice and style and tone, but also just in general. I expect better from you. Your final IPS MUST satisfy ALL of our expectations. Note that I will not be able to intervene or provide you with feedback or my thoughts (as I have been thus far …) from now until Thursday when you've got your IPS finalised for review by me. I might intermittently drop in and provide you with a sentence of advice at best (and even that is unlikely, mind you), but nothing like the detailed feedback I've been giving you for the past week or so. So what I want to see is recursive self-improvement. I also want you to take initiative, take intellectual risks, etc. I feel as though, a lot of the time, in my messages, I'm either repeating something I said before, or saying something which you probably could've inferred I would say, based on my past messages. I shouldn't have to send messages every single time I see a problem. You should be able to GUESS what I'm thinking and already have it covered. I know that's hard. Totally get it. But that's my challenge for you. Figure out the patterns and take some guesses as to what I might want from you guys and expect, other than the things I've already mentioned in all my Bible messages.
+>
+> Overall, my guess would be that you'll have to begin rewriting the IPS from scratch again, because it's just nowhere near up to scratch at present. However, all of your ideas across all of your drafts must NOT be discarded. Rather, you should keep a list of every single idea you had in every single version of your IPS and ensure that all of the best ideas end up in the new IPS. By the way, you might want to considering adding this message to the Bible.
 
-1. **Extraordinary is the bar** (Books 1, 4, 5). Ask of any line, idea or draft "would this make a judge sit up?",
-   never "is this safe?". Look for the aha: an insight no other team, AI-assisted or not, would reach. A competent page
-   is a failed page.
-2. **Deep, dense, never hasty; no timeline rule but one** (cover note, Books 4 and 9). The rewrite is from scratch:
-   research, ideation, analysis and argument drive the words. Book 9 lifts every self-imposed schedule: Keel may draft
-   whenever it judges best, as long as the work is intensive, dense and productive (quality AND quantity, never
-   spreading work out to fill days). The one date: a final draft for Caplet's review by **Sat 31 Oct**; the IPS is due
-   **Sat 7 Nov 09:00 Sydney (Fri 6 Nov ET)**. Old drafts (v4.1, D1-D3) are inspiration only.
-3. **A distinctive, deeply human voice: Ahaan's** (Books 1, 2, 5; the essays and books are his, corrected 27 Oct; Keel writes with `voice/06_voice_guide.md`). Cerebral yet witty, passionate yet thoughtful,
-   insightful yet confident; work judges enjoy reading. Lean but human: cut like a person (drop a whole idea), never
-   by reshuffling words. Voice is qualitative (Book 9): Ahaan's essays inspire TONE only, never a count of words, ideas or numbers, and they
-   sit beside the witty finance writers of Wall Street, not alone. If AI-likeness is ever checked, use reputable real
-   detectors on the web, never Keel's own agents (they called Ahaan's own TNA 100% AI). A quick check, not a project.
-4. **One motif, subtle, found on the road less taken** (Books 1, 2, 3, 5). Caplet XR is locked: show both meanings,
-   *extended release* and ours, **X = 10**; **R is never "release"**: find an R that is clever, not weird. A second,
-   product-tier reading of XR is optional flair for the intro or conclusion. The motif is a tool, not a crutch:
-   only where it adds a real layer, never in every sentence, never decorative. Nothing roots-themed. The IPS carries
-   the bare bones; the Final Report shows all of it. A name only we could have; optimise for ourselves first.
-5. **Breathtaking investing knowledge, applied** (Books 1, 4). A wide range of concepts, niche ones included, each
-   used to build our own case-tailored strategy and explained plainly, never name-dropped. Uncited in the IPS, cited
-   in full in the Final Report. It supports the narrative; it never replaces it.
-6. **No hedging, no mini-Lauras, no grammar policing** (Books 3, 5). A word is wrong only if what it says is false.
-   iBonds held to the mid-December liquidation are near-ironclad and as close to exact sums on exact dates as it gets
-   outside T-bonds; any T-bond distinction is one concise, direct clause. Judges are competition judges looking for
-   the best investing knowledge and strategy, not Laura. En dashes are correct; spend no time on punctuation.
-7. **Judgement, not obedience** (cover note). Keel may weigh one book above another or question one, out loud and
-   with a reason. What it may not do is miss an expectation.
-8. **Wharton's own words are scripture too** (Books 6 and 7). Dates in Sydney first: IPS (a SurveyMonkey Apply form, not a
-   PDF) and the end of trading **Sat 7 Nov 09:00** (Fri 6 Nov 5:00 p.m. ET; last market fill 08:00); Final Report
-   instructions **Tue 10 Nov 01:00** (Mon 9 Nov 9:00 a.m. ET); Final Report and school documentation **Sat 5 Dec
-   09:00** (Fri 4 Dec 5:00 p.m. ET). Only stocks, ETFs and Treasury bonds on WInS, for both contributions and both
-   deliverables; no *individual* TIPS or STRIPS. Let the strategy lead and connect WInS, the TNA, the IPS and the Final
-   Report; explain why each investment belongs and how it supports Laura's goals; never count WInS gains or losses.
-   The IPS answers Book 7's own questions: the central idea; the guiding principles; how growth, risk, liquidity,
-   funding reliability and flexibility are balanced; how the reserve's make-up changes as payments approach; how the
-   operating commitment is protected while leaving room for a responsible facility contribution. It is a framework,
-   not a list of holdings or calculations; the reserve sums, projections, the facility range and the co-sponsor
-   draft belong to the Final Report. Once submitted, the strategy may not change.
+**The same evening (Fri 30 Oct, 18:21 Sydney), on Wharton's documents:**
 
-9. **The five criteria are the scorecard** (Book 8, with Book 6's tips). Judges score three deliverables together on
-   five sentences, and each sentence has parts. Every draft is checked part by part: a thesis that is clear AND creative;
-   disciplined planning across Laura's changing horizons and cash flows; appropriate diversification; consistency with
-   the IPS (Investment Strategy). Tailored to her circumstances, priorities, risk and residency goals; recommendations
-   that earn her confidence (Client Knowledge and Objectives). Investment concepts and tools used well; numbers and
-   judgement together; reasonable assumptions and projections testing funding reliability, the facility contribution
-   and flexibility across market outcomes (Portfolio Analysis). Teamwork, communication, learning; the research and
-   decision process; growth and response to challenges (Articulation). A compelling, well-organised narrative in an
-   authentic team voice; data that supports conclusions; original thinking and real reflection; the facility
-   contribution and its uncertainty told clearly and credibly to co-sponsors (Creativity and Presentation). Map:
-   `library/ips_road_2026-10/03_CRITERION_MAP.md`; weekly scores: `pm/SCORECARD.md`.
+> Also note that every single one of the documents from Wharton is not 'Bible', it is in some senses 'God', because it's not our expectations, it's Wharton's. But they don't have a lot of useful information (a lot of it is just dates, formatting, etc., which is our concern, not yours, and is completely irrelevant to your job – the only thing that actually matters is expectations and advice and so on about the IPS), so I want you to get rid of the useless stuff entirely so you're not wasting thinking space on them. Though the stuff that is useful must be treated with the utmost importance.
 
-10. **Look intelligent and knowledgeable; lose no good idea** (Book 9). Two routes. (a) Strategies: dig up niche ideas
-   from unexpected sources and FUSE them into synergies that make our own case-specific strategy; analyse and critique
-   each one (what it misses, where it looks relevant but isn't, and why). (b) Logic: analogies, thought experiments,
-   causal chains followed to their conclusion, case studies, evidence. Every good idea ends up in the IPS, the Final
-   Report or both (`ips_rewrite/IDEA_BANK.md` tracks where); discard only for a reason. Big picture over minutiae:
-   judges are humans weighing strategy and thinking, not auditing every word or a trade in 2035. Book 7's
-   requirements outrank the bible, but formatting is Caplet's job. Don't anchor on J.P. Morgan's 7.5% (a world-equity
-   forecast, not VT's), and don't be hamstrung by the TNA's content. The pitch is cut the human way. Caplet handles AI
-   citations: Keel stops logging or asking about AI use.
+*Done the same evening: Wharton's documents now live, stripped to expectations, criteria and advice, in
+`WHARTON_WORD.md`, which ranks above this page. Books 6-8 below are reduced to pointers.*
+
+**The earlier message Keel ignored** (Book 10 says "I already explained in an earlier message why this is"): Book 9
+on the pitch ("Whenever you try to make things more parsimonious, you often end up making them sound more AI ...
+cut the HUMAN way") and Book 2 on cutting ("the instinct shouldn't be to just rearrange words so they're more
+concise"). V26-V29 squeezed sentences instead of dropping ideas. Commandments III and IV exist to stop that.
+
+
+## The Ten Commandments (Fri 30 Oct 2026; replace the old rules 0-10; every run applies them, and every draft proves it)
+
+Above them sits only Wharton's word (`WHARTON_WORD.md`) and the hard limits (`pm/INVARIANTS.md`). They are Keel's
+reading of all ten books. **Enforced, not decorative:** every draft's README carries a filled ten-line check (one line
+per commandment, with the quoted evidence), written by a reader who did not write the draft. A draft with a failed
+line does not go to Caplet. The check lives in `ips_rewrite/COMMANDMENTS_CHECK.md`.
+
+**I. Be extraordinary, by our own light** (Books 1, 4, 5, 10). The only bar is a page that makes a judge sit up: ideas
+they haven't met elsewhere, reasoning they can retell. We stand out on our own brilliance, never by comparing ourselves
+with other teams or talking anyone down ("every team will ..." is banned). *Test:* name the three ideas a judge would
+retell tomorrow; none may be the field's default (a payment ladder plus stocks plus a lock).
+
+**II. Wharton's word is the only marking scheme** (Book 10; `WHARTON_WORD.md`). Drafts are judged against the five
+criteria and the IPS's own questions, as a whole, the way a human reads: big picture first. No single sentence makes
+or breaks a draft; no "framework line", pet phrase or bit of internal-consistency trivia decides anything. *Test:* every
+review argues from criteria, not from favourite lines.
+
+**III. Write like us, never like a machine** (Books 1, 2, 3, 5, 9, 10). Ahaan's tone (his essays, his TNA reflections)
+and the Wall Street writers, applied rather than filed (`voice/06_voice_guide.md`, sections 2, 3, 8 and 9): full
+sentences with the small words kept; a sentence that builds and a short one that lands; a concession and then "But";
+a wry line; contractions; British spelling; en dashes. No slogans, no triads, no fact-sheet runs. *Test:* the draft's
+README quotes the line where each move happens; read aloud, nothing sounds like a brochure.
+
+**IV. Clear on one reading** (Book 10). A smart adult who knows the case understands every sentence first time. When
+over the limit, drop a whole idea; never squeeze a sentence into code. No term (ladder, floor, rung) before it is
+introduced. *Test:* a cold reader on a small model paraphrases every paragraph; any miss is rewritten.
+
+**V. Every number explains itself** (Book 10). Each number says what it is and where it came from: "we modelled",
+"we calculate", "the case says". Never "we judge" for a model's output; no bare multipliers. *Test:* every number
+answers "says who?" in its own sentence.
+
+**VI. GPTZero before Caplet** (Book 10). No draft goes to Caplet until GPTZero's "human-written only" probability is
+above 50%, iterating until it is; the voice (III) still matters more than the score. If GPTZero can't be reached, the
+draft is labelled "not yet checked" and Keel says so; Keel never stands its own agents in for a detector. *Test:* the
+score and date are in the README.
+
+**VII. Few ideas, at full size** (Books 9, 10). The IPS argues a handful of big ideas well rather than every mechanism
+briefly; sums, edge cases and mechanisms go to the Final Report. *Test:* after one read, a judge can say the strategy
+in three sentences.
+
+**VIII. Lose no idea; critique every borrowed one** (Books 4, 9, 10). Every idea from every draft is in
+`ips_rewrite/IDEA_LEDGER.md` with where it lands (IPS, Final Report, both, or out with a reason). Each concept used is
+explained plainly, fused into our own plan and critiqued (what it misses, what it costs us). *Test:* each new draft is
+checked against the ledger.
+
+**IX. Judges who actually disagree** (Book 10). A mock panel differs in method, priors and model, not in name; it reads
+blind, never sees our change notes, never learns which draft is newest, and reports where its judges disagree. A panel
+that agrees in substance is rebuilt, not believed. *Test:* the panel file shows the rank correlations and each judge's
+own reasons (`ips_rewrite/judges/README.md`).
+
+**X. Improve without being asked** (Books 9, 10). After each round Keel writes down what Caplet would most likely say
+next, and fixes it before they say it; the work runs in overdrive, more and denser each day. No time on AI-use
+citations, "required trading activity", grammar or formatting: those are Caplet's. *Test:* THINKING_LOG has a "what
+they'd say" entry per round, and the next draft shows the fixes.
+
+**Standing, unchanged:** Caplet XR is the name (extended release; X = 10; R = redemption, never "release"), subtle,
+never in every sentence, nothing roots-themed. No hedging: iBonds held to their December close are near-ironclad. Judges
+are competition judges, not mini-Lauras. Real facts and real team events only. Final IPS for Caplet's review: end of
+**Wed 4 Nov** (Sydney), read Thu 5 Nov.
+
+
+## Retired 30 Oct: the old rules 0-10
+Replaced by the Ten Commandments above (Book 10: "a fresh rewrite of a new list of 'commandments' (to replace the now-outdated 10 rules) is in order"). The old text is in git history (`git show 5332ec4:keel/BIBLE.md`).
 
 ## What this page overruled on Mon 26 Oct (removed or rewritten the same day)
 - The Rooftop's "three kinds of sure" proposal (`rooms/rooftop.md`, request of 26 Oct to the Writing Room): withdrawn.
