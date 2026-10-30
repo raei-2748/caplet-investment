@@ -20,7 +20,7 @@
 **Open questions:**
 - None new today.
 
-**If you want the detail:** PR_LINK
+**If you want the detail:** https://github.com/raei-2748/caplet-investment/pull/80
 
 (Keel is a simulated team, AI-written.)
 
