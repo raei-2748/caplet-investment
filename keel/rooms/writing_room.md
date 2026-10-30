@@ -1,11 +1,11 @@
 # FICTION (the room) + real drafts. The Writing Room
 
 ## Now
-- **Doing:** round 2 beat 7 (29 Oct): the four doors as claims and as three counted V29 texts, read blind by three cold readers (`../ips_rewrite/inbox/2026-10-29_writing-room.md`)
-- **Decided:** lean B for Saturday: V29's needs line becomes an order and a clock ("Every rule here fires in a year the case already set, never on a hunch; if needs change, the gift takes it before it is named, her half after, a cheque last"); 3 of 3 readers advanced it. Price: the range's two embarrassments go FR-first
-- **Next:** Fri 30 Oct: the Courtroom's verdict and the Lab's door-4 count into B; Sat 31 Oct review read of the near-final
-- **For the judges:** four hard fixes in V29 ("never changes", "carries risk", "$300,000 buys them", "three times worse") and a framework a judge can point to
-- **Updated:** 2026-10-29 17:20 Sydney
+- **Doing:** round 3 beat 7 (30 Oct): five requests in one read; B2 vs B3 vs a per-end-odds B3, every arm with the fact fix, three blind readers (`../ips_rewrite/inbox/2026-10-30_writing-room.md`)
+- **Decided:** lean B3W for Saturday (500): the range's why as "each end as sure as its miss is costly" (3 of 3 advanced it); deletion line "Wipe out every share and the cheques barely notice; the gift does." (3 of 3 over "never hurt one"); slide "off the range"; "co-sponsors'"; "one dollar in fifteen" out
+- **Next:** Sat 31 Oct: the review read of whatever the Long Room picks (HOLE/FAT); "stand or fall as one" (3 of 3 tripped) and "why a range once locked" (2 of 3) stay open
+- **For the judges:** a range whose two ends say why they differ, and a deletion test that is true and believed
+- **Updated:** 2026-10-30 17:05 Sydney
 
 
 > AI DRAFT material throughout (Claude); not for submission as written. (Keel is a simulated team, AI-written.)
@@ -15,6 +15,8 @@
 > Rule: flag only hard issues (limits, rule breaches, facts, numbers, formatting) with minimal edits; never reword
 > for taste or soften a confident claim. Suggestions stay in the repo; never touch the Google Docs.
 
+> **State (Fri 30 Oct, 16:20 run):** beat 7 done; texts + `build.py` + `cold_reads.md` in `../drafts/writing_room_2026-10-30/` (rerun `build.py` after any change to the Courtroom's B2/B3). Open to this room: nothing; B3W is at exactly 500.
+>
 > **State (Thu 29 Oct, 16:20 run):** beat 7 done; texts + `build.py` + `cold_reads.md` in `../drafts/writing_room_2026-10-29/` (rerun `build.py` after any V29 change). Open to this room: nothing.
 >
 > **State (Wed 28 Oct, 16:20 run):** beat 7 done; splices + script in `../drafts/writing_room_2026-10-28/` (rerun `splice_arms.py` after any V28 change). Open to this room: nothing; the Long Room's verdict tonight decides which splice the rewrite gets.
@@ -39,6 +41,7 @@
 | Tue 27 Oct (17:10) | 18 candidate lines for six spine slots + D4 | D4 498 by spaces (494 split; earlier runs quoted the smaller) | 5: "ten Treasuries"; counts quoted low; "We buy the rate"; "the one way it fails"; D4 inflation/TWD HOLE | `../office/outbox/2026-10-27_writing-room_cold-read.md` |
 | Wed 28 Oct (16:20) | V28 (D8) + three soft-spot splices (C6, C6+MC, A) | V28 499 by spaces, pitch 50; splices 495 / 498 / 500 | 5: count margin 1/0; first $300k one-close fact; Laura's half double-booked; 2031 lock 'Treasuries maturing before 2033' (none on WInS); six quotable endings (cut one) | `../office/outbox/2026-10-28_writing-room_three-cures-side-by-side.md` |
 | Thu 29 Oct (16:20) | V29 (D9) + three texts (A hard fixes; B four doors; C B with the range kept) | V29 495, pitch 48; A 499, B 498, C 497 | 4 + reader notes: "never changes"; "carries risk" (57%); "$300,000 buys them" (3 readers); "three times" stale (six); "what's left", "one dollar in fifteen" | `../office/outbox/2026-10-29_writing-room_the-order-and-the-clock.md` |
+| Fri 30 Oct (16:20) | B2, B3 (C-03) -> B2f, B3S, B3O, B3W | B2f 488, B3S 492, B3O 497, B3W 500 (498 split); pitch D9 48 | 5: count at 500; deletion line (W1 lost 3-0, "them" antecedent); slide "range"; "one dollar in fifteen" reads as a yield; "stand or fall as one" 3 of 3 | `../office/outbox/2026-10-30_writing-room_each-end-its-own-odds.md` |
 
 ## Tool changes
 - 27 Oct: `words_limit()` = the larger of the two counts; the summary line says "quote the larger"; the portal's IPS
