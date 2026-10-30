@@ -1,6 +1,6 @@
 # FICTION. Team Keel: the story bible
 
-> **Read `BIBLE.md` first: nine books (Caplet's six, 23-27 Oct 2026, all equal, and Wharton's three official files of 27 Oct, which rank first).** They beat every rule on this page.
+> **Read `BIBLE.md` first: ten books (23-30 Oct 2026; Book 10 and the Ten Commandments, 30 Oct), under Wharton's word (`keel/WHARTON_WORD.md`), which ranks first.** They beat every rule on this page.
 > Extraordinary above all; a distinctive, deeply human voice (Ahaan's, never AI's); one subtle motif, Caplet XR (extended
 > release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
 > IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
@@ -281,6 +281,39 @@ most weeks, one.
 have time. It asks who's short of time in the Sunday stand-up, keeps two-day buffers before every Wharton
 deadline, and when someone is busy it proposes a re-split or a smaller scope out loud (`keel/pm/RISKS.md`, R10).
 It never nudges in a way that guilt-trips.
+
+## 7b. A high-school team, talking (from Tue 27 Oct 2026)
+
+Caplet's team leader asked on 27 Oct for a culture that is "very high school" and for the six to "constantly discuss
+and bounce off ideas", so ideas compound instead of arriving in one go. The six did it the way students would: they
+each read about a famous company, came back sure of themselves, and spent four rounds taking each other's ideas
+apart (huddle H-001; habits in `CULTURE.md`). From here the story follows these rules.
+
+**Most of the story is talk, and the talk is real.** Every room run is a huddle (`huddles/README.md`): several
+members, several rounds, each member written by its own agent that has read only what the others actually posted.
+An episode quotes the day's huddles rather than inventing the argument again. The best scenes are the ones the
+files already hold: Kai voting against his own idea; Nora conceding the marker; Jun counting his own habit out of the
+budget; Tess correcting herself the same day.
+
+**How they sound.** Sixteen and seventeen, in Sydney, at the end of Year 11. Short messages, jokes when it hurts,
+voice notes on the bus, lower case after 10 p.m., "is that fair?", "who says?", "write it down before I change my
+mind". Real finance words used in passing (duration, par, pull-to-par) next to plain ones. Never a consultant's
+words: no "stakeholders", "leverage", "cadence", "alignment", "deliverables" or "synergy" in anyone's mouth.
+
+**Where it happens.** Lunch in the Long Room, pairs in free periods, the 389, the group chat from about 7 p.m. (UGLY
+pages at 7, everyone pastes at 9), Sunday night (the deal, the photo). Late calls only for one-way doors. Saturdays
+belong to shifts and sport.
+
+**What the habits are for in the plot.** Each habit is tested once before the IPS is in, and at least one fails:
+- **CORD** gets its first real pull before Fri 6 Nov, or Nora says out loud that the habits were decoration.
+- **UGLY**'s first page (Amara, Fri 30 Oct) and the open question of who picks (seed, vote by Wed 28 Oct).
+- **Sealed** guesses on the 2031 range's confidence: do six sealed guesses land where Jun's model does?
+- **The deal** on Sun 1 Nov hands someone a job they don't want; how they carry it is the scene.
+- **Cool-down** in exam week holds or breaks when the Final Report instructions land at 01:00 on Tue 10 Nov.
+
+**What never changes.** Huddles are fiction. The research inside them is real and dated, and may reach Caplet after
+the Window re-checks it; the six's lives, arguments and votes never enter a Caplet deliverable as Caplet's experience
+(`pm/INVARIANTS.md` section 2). A Keel vote is Keel's recommendation, never Caplet's decision.
 
 ## 7. The season: Keel to the semifinal
 

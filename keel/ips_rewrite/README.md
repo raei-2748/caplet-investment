@@ -1,12 +1,16 @@
 # FICTION frame, real research. The IPS rewrite, from the drawing board (26 Oct - 6 Nov 2026)
 
-> **Read `../BIBLE.md` first: nine books (Caplet's six, 23-27 Oct 2026, all equal, and Wharton's three official files of 27 Oct, which rank first).** They beat every rule on this page.
+> **Read `../BIBLE.md` first: ten books (23-30 Oct 2026; Book 10 and the Ten Commandments, 30 Oct), under Wharton's word (`keel/WHARTON_WORD.md`), which ranks first.** They beat every rule on this page.
 > Extraordinary above all; a distinctive, deeply human voice (Ahaan's, never AI's); one subtle motif, Caplet XR (extended
 > release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
 > IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
 
 AI-generated (Claude Code) for Team Caplet. Not for submission as written: every draft here is an
 `AI DRAFT (Claude, <date>)` that Caplet rewrites in its own words and logs for the Works Cited.
+
+**Current draft (Fri 30 Oct): V33 = `drafts/D13/`** (pitch 50 / IPS 500; GPTZero not yet checked, see `DETECTOR_LOG.md`).
+Book 10 mode until the final, end of Wed 4 Nov (Sydney): every idea in `IDEA_LEDGER.md`, every draft checked against the
+Ten Commandments (`COMMANDMENTS_CHECK.md`) and judged by the panel in `judges/`.
 
 ## Why this folder exists
 Ray, 26 Oct 2026 (project thread "Rewrite the IPS from scratch"): stop tinkering on IPS v4/v4.1. It meets none of the

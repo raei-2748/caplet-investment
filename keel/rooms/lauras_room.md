@@ -1,16 +1,19 @@
 # FICTION (the room and the simulated people) + the real case. Laura's Room
 
 ## Now
-- **Doing:** Round 2 beat 6 done: the Lab's four framework challengers read as a co-sponsor, a judge with the case open and two practitioners (LR-06)
-- **Decided:** C (four doors) sharpened: V29 never names the operating reserve and says it "never changes" (case :94-97, Book 7); the fifth part is the motif, four doors then ten (one redemption per cheque); 2031's January is our choice, not the case's. B killed as written; its surviving form is a one-way valve (smaller or sooner, never bigger or later). A to the FR, D folded
-- **Next:** Writing Room takes the reserve line into Saturday's draft; Courtroom tries the one-way valve tonight; next visit reads the Sat 31 review draft against every case line
-- **For the judges:** IPS V29 para 10: "In 2033 the ten holdings become the operating reserve, topped up once from her half first; then it only shrinks, one redemption per cheque." (+14); Investment Strategy, Client Knowledge (:94-97)
-- **Updated:** 2026-10-29 15:45 Sydney
-
+- **Doing:** Round 3 beat 6 done: the Lab's four range challengers read as a co-sponsor, a judge with the case open and the field's practitioner, plus one model run and one cold read (LR-07)
+- **Decided:** A (slide) passes: the old top was a double count, not caution. D passes with one word more ("co-sponsors' gifts": B3 never names them). B, C to the FR. E (narrow the bottom to $10k under the top) works in the model (adds no break) but loses the cold read 4/5 to 7/7, so it goes to the FR as what the bottom gives up. "Bottom never broken" is really 3 of 800,000 paths (rounding)
+- **Next:** Writing Room takes the slide's word and "co-sponsors' gifts" into Saturday's draft; Window corrects the zero; next visit reads the Sat 31 review draft against every case line
+- **For the judges:** B3 para 13 "too low costs gifts" -> "too low costs co-sponsors' gifts" (+1); para 17 "off the bottom" -> "off the range" (0); Client Knowledge (:109-120)
+- **Updated:** 2026-10-30 16:05 Sydney
 
 > Room card: `../OFFICE.md`. Host: Amara ("What does she feel in a bad year?"). Agents: `case-analyst`,
 > `cosponsor-reader`, `taiwan-researcher` (Taiwan research opens Sun 8 Nov).
 
+> **State (Fri 30 Oct, 15:10 run, round 3 beat 6):** LR-07 (`lauras_room/LR-07_what_the_bottom_gives_up.md` + `.py` +
+> `_results.json`): after the slide the cheques reach into the gift by under $10k (max $9,768 of 800,000); a narrower
+> bottom is free in the model but loses the cold read; bottom breaks are 3 of 800,000, not 0. Open: Writing Room (two
+> words), Window (the zero). Q7 blister pack answered (FR, bank #90).
 > **State (Thu 29 Oct, 15:10 run, round 2 beat 6):** LR-06 (`lauras_room/LR-06_four_doors_then_ten.md`, no new run):
 > four doors sharpened with the reserve run-off (case :94-97), the 2031 date fix and the one-way valve. Open: Courtroom
 > tonight (C and S-07), Writing Room (reserve line, Sat 31).
@@ -53,3 +56,4 @@
 | Tue 27 Oct | LR-03 + Window N2; R05 S1/S2; D1b; LR-04 model (WO-R7) | Co-sponsor (programme officer), co-sponsor (corporate finance lead), Laura | Bottom = the number for a board paper; a fixed margin below what she owns reads as Laura hedging her own project; "will it move again?"; wants the chance of the top, not "99% inside". Laura: fine, only the floor is pledged | :110-115; :117-119; :101-103 | Mark the bottom to market in 2031, no fixed margin; quote the chance of reaching the top (LR-04) |
 | Wed 28 Oct | Lab L-11 challengers A-D + LR-05 re-run with the 2031 mark (round 1 beat 6) | Co-sponsor (programme officer), judge, clearing-house risk officer | A: "$10k off my board paper in every world"; C6 + mark carrying the cushion: "moves only in 2031, only if her own money can't cover her own cheques: I can book that"; B, C read as cures bigger than the disease | :94-97; :113-120 | C6 + MC to tonight's head-to-head; one clause that the cushion is the first call on Laura's half (LR-05) |
 | Thu 29 Oct | Lab L-12 challengers A-D + V29 (round 2 beat 6) | Co-sponsor (programme officer), judge with the case open, ward and pension practitioners (reasoned) | Co-sponsor: "only door 3 faces me; can door 4 reach behind it?" (her half first; bottom 0 of 600,000). Judge: where is the operating reserve, and how does it change as payments are made? V29: "never changes". B: a delayed lock means co-sponsors hear different numbers | :94-97; :109; :114-120 | Reserve line for para 10 (+14); "2031's first day is ours"; one-way valve to the Courtroom (LR-06) |
+| Fri 30 Oct | Lab L-13 challengers A-D + B3; LR-07 run (round 3 beat 6) | Co-sponsor (programme officer), judge with the case open, cold reader (agent), ECM/SEC/forecaster/campaign practitioners (reasoned) | Co-sponsor: the old top counted dollars the bottom had already given the cheques. Judge: B3 never names co-sponsors, "their gifts" points to no one. Cold reader: "Treasuries she already owns, rounded down" survives an audit committee; the bottom "the top less the most the cheques could still need" reads as a point estimate (7/7 vs 4/5) | :109-120 | "co-sponsors' gifts" (+1); slide's word; E and B, C to the FR (LR-07) |

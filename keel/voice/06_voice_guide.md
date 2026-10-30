@@ -87,6 +87,10 @@ AI": if AI-likeness is ever checked, a student pastes the text into a reputable 
 | "Numbers: few" | The number that matters, felt; the rest to the Final Report | Drafts ran at 3 numbers per 100 words. |
 | Ban-list first (AI tells table) | No ban-list gate; the read-aloud questions only | Ahaan, 24 Oct: AI-ness "transcends ... a neat list". |
 | The essays called "Ray's" (R03, VOICE, BIBLE notes) | **Ahaan's** | Corrected 27 Oct (`01_digest_ahaan.md`, section 1). |
+| s8-s9 built on 186 pieces | s8 and s9 notes from 312 pieces | Synthesis 3, 28 Oct (`reading/SYNTHESIS.md`): F4 openings, own a mistake with its number, earned short closes. |
+| s8-s9 notes from 312 pieces | s8 and s9 notes from 501 pieces | Synthesis 4, 28 Oct (`reading/SYNTHESIS.md`): doubt the forecast once and say the plan flat; translate yourself; one frame, used once; a close that hands the reader the next move. |
+| s8-s9 notes from 501 pieces | s8 and s9 notes from 765 pieces | Synthesis 5, 28 Oct (`reading/SYNTHESIS.md`): short first and last lines; open on a small thing or the reader's objection; one object returns at the end; admit in plain past tense; jokes against your own side; numbers said flat. |
+| s8-s9 notes from 765 pieces | s8 and s9 notes from 1,000 pieces | Synthesis 6, 29 Oct (`reading/SYNTHESIS.md`): the first words carry the argument or answer the objection; stop without summing up; a loss shown through one object or one flat sum; quote and check your own past forecast; three rules or one chain as the short form of a plan. |
 
 ## 7. The room we're pitching to (Ray, 27 Oct: "Judges are not examiners ... judges are shark tanks")
 Added by the rewrite thread. An examiner checks boxes; a Shark Tank investor decides in a minute whether to believe
@@ -117,6 +121,33 @@ believe you, and belief arrives as a feeling first. Six moves the best of them u
 | F5 | **Dread, then relief, in that order.** Jobs (the scan, then "curable"), Chouinard ("not enough", then "resilient"), Housel's three sides of risk. State the fear honestly before the plan answers it; a plan that never names the fear reads as a brochure. | 063, 067, 014 | Do we say what Laura is afraid of before we say how she is protected? |
 | F6 | **The reluctant narrator.** "I never wanted to be a businessman" (Chouinard); Marks's wife and his repetitiveness; Asness's rejected paper; Keynes wishing economists were as useful as dentists. Self-mockery buys the right to be blunt about everyone else. Once per piece. | 046, 061, 067, 077 | Is there one line where we laugh at ourselves, and only one? |
 
+**How often each move turns up (pieces 1-186, tagged where a piece clearly uses one; a rough tally, not a score).**
+F3 cost in public 8 · F6 reluctant narrator 6 · F1 put the reader somewhere 4 (plus the Hopkins essays, which nearly
+all open on an object) · F5 dread then relief 4 · F4 a number that measures a loss 2 · F2 a promise with a name on it 2. F1 is
+the essayists' habit, F6 the investor memo writers' (Marks, Buffett, Damodaran), F3 the founders' and the
+speechmakers': it is the move of people asking for money or trust, which is Caplet's position. **F2 and F4 are the
+rarest and the most remembered** (King's cheque, Munger's 33 days, the 1929 buyer back to even on the price index only in 1954). Common moves
+set the tone; the rare ones are what a judge repeats. So the IPS uses F3 and F2, and the Final Report may add F4.
+Pieces 187-312 (synthesis 3) move F4 up: the investor writers open on a number that measures a loss or sounds like
+trivia (LTCM bankrupt "20 years ago this week", 13 divorces among the 10 richest men, USAir at 25 cents on the dollar),
+and F3 and F6 merge into one move: **own a mistake, with its number**.
+Pieces 313-501 (synthesis 4) show where F6 belongs: on the forecast, once, never on the plan. The best of them doubt
+the future in one sentence ("If we can be confident about anything, it's that our forecasts will be wrong at least in
+some way"; Marks's "my views on the market's direction aren't worth betting on") and then state what they own and do
+without a single maybe ("I'd rather bet on risk control than risk bearing"). AI hedging does the opposite: a little
+doubt on every line. So in Caplet's pieces the doubt sits in one sentence about the range's top, and the floor and
+the cheques are said flat.
+Pieces 502-765 (synthesis 5) add two things. F3 lands only in plain grammar: first person, past tense, no "if"
+("we did do too much", Lowe's farewell) beats the same lesson in conditionals. And the jokes that build trust are
+aimed at your own side (Debelle's black swans "living in Perth"), never at the reader; listing how to fail (Munger's
+misery speech) is the way to be funny and serious at once.
+
+Pieces 766-1003 (synthesis 6) add two more. F4 lands through one object or one flat sum and then a very short line:
+Tomlinson's dead town comes alive through a shop ledger in the rubble; Bly gives the factory wages per hundred boxes and
+says only "Cheap labor, isn't it?". And F3 is strongest when the writer quotes their own earlier forecast and checks
+it in public: "This is far from the biggest forecast error I've seen over my three decades in this game." (Stevens);
+"The facts had changed, and we had changed our minds." (Ellis).
+
 **Spend it like kickers.** One F-move per paragraph at most; in the IPS, F2 and F3 carry the weight and F6 appears
 once, if at all. Feeling is the reason a judge keeps reading; the investing knowledge (north star 4) is the reason
 they believe. Neither replaces the other.
@@ -135,5 +166,33 @@ Gehrig, Graham's openings, the Hopkins essays):
 | Ends on a slogan | Ends on a thing or a decision (White's belt; Buffett's "we buy to keep") |
 | Cuts the odd, specific detail as "inessential" | **Keeps one odd detail**: it is the proof a person wrote it ("33 days before his 100th birthday"; "$9.99 for five mangoes") |
 
-Test for the 50-word pitch: say it out loud to someone across a table. If it doesn't sound like something a
+Test for the 50-word pitch (Graham's friend test, `reading/LOG.md` #209): say it out loud to someone across a table. If it doesn't sound like something a
 seventeen-year-old would say, put the verbs back.
+
+Three more from the reading: "be confident enough to cut" and "use simple, germanic words" (Graham, #206); "Make the
+truth good, then just tell it." (#210); "But forecasts are just that – forecasts." (Bullock, #197): uncertainty in
+five words, not five clauses.
+
+From synthesis 3: a short close has to be earned ("Come by rail.", "See randomness.", "But I could be wrong."): cut
+toward it, never bolt it on. A close the piece hasn't earned is a slogan, which is the AI habit in the left column.
+
+From synthesis 4: the writers translate themselves in public ("Put in rather plainer English, I am gloomier."; "a bit
+tight"), and the plain version is the one that stays. A frame (Scrooge, the Melbourne Cup, elephant seals) is set up
+once, paid off once and dropped; it never rides along in every paragraph. A close can also hand the reader the next
+move ("Your move."; "Enjoy!") instead of stating a lesson. Off-script beats on-script by one true, small detail, not
+by a warmer tone.
+
+From synthesis 5: the edges matter most. First lines of four to eight plain words ("I forget the rest."; "Bruce is a
+cricket."), opening on one small thing in the room or on the reader's objection, said in their words. Last lines
+shorter still, an act rather than a lesson ("She is dead."; "You lay it down."). One word or object set up at the
+start can come back in the last line (Bogle's "Enough"); that is the motif's only encore. Numbers are said flat:
+Swift's "Modest Proposal" shows calm arithmetic is the strongest voice there is. And Belloc's warning is the one to
+pin up: "single lines, tags, fine phrases … are no sign whatever of returning health".
+
+From synthesis 6: the first words do the arguing. A title or opening of two to five words can carry the whole case
+("Buffers and Options"; "Why not?"; "February dusk on the Seine."), and a question works when the answer comes in the
+next sentence. Answering the reader's objection can start with the very first word ("But"). Stop without summing up:
+a name, "Over to you.", or "Therefore farewell." The short form of a plan is three rules a listener could repeat, or
+one chain of "which means". Three new warnings: a rhythm the reader can hear coming (Colton's "a drum, or a despot: a
+trumpet, or a tyrant"), arguing against abstraction in abstractions, and grand music (late De Quincey). None of this is
+a count or a test to pass; it is what to listen for when a draft is read aloud.

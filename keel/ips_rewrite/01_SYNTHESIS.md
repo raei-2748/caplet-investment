@@ -2,7 +2,7 @@
 
 AI-generated (Claude Code) thinking for the IPS rewrite. Not for submission. Built from `IDEA_BANK.md` (44 rows),
 `THINKING_LOG.md` 26-28 Oct, the Lab (R05, R08, R10), the Courtroom (27-28 Oct), the rival scan and the blind panel,
-and all nine books (`../BIBLE.md`; Book 7's questions and Book 8's criteria are the test).
+and all ten books (`../BIBLE.md`; Wharton's word, `../WHARTON_WORD.md`, is the test).
 
 ## 1. The central idea (one sentence a judge could repeat)
 

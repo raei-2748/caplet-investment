@@ -1,19 +1,23 @@
 # Team Keel / Team Caplet: project memory
 
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
-decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-27 (Books 6-8 = Wharton's halfway email, IPS instructions and deliverables page; Book 9 = Ahaan's 27 Oct message).
+decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-30 (Book 10 + Ten Commandments; Wharton's word moved above the Bible; final IPS due for review end of Wed 4 Nov).
 
 ## For every Claude session in this repo (all teammates)
 Whoever is using Claude here, these rules apply, and the Keel Office (formerly the Caplet Research Office) is how competition work is done:
-- **THE BIBLE comes first: nine books (Caplet's six, 23-27 Oct 2026, all equal, and Wharton's three official files of 27 Oct, which rank first, BIBLE rule 0), verbatim in `keel/BIBLE.md`** (north stars;
-  refinements; Caplet XR and de-obsessions; rewrite from scratch and star 4; Caplet XR locked; plus the 26 Oct cover note; Books 6-8 = Wharton's halfway
-  email, "THIS IS BIBLE. OFFICIAL FILE", the updated IPS instructions PDF, "THIS IS BIBLE", filed in `competition/official/2026_27/wharton_email_week5_2026-10.md`,
-  and the deliverables page with the five evaluation criteria word for word, `competition/official/2026_27/SMApply_Deliverables_Page_2026-10-27.md`; every draft is checked against the criteria part by part, BIBLE rule 9; Book 9 = Ahaan, 27 Oct: look intelligent through niche strategies fused and critiqued plus logic, every good idea lands in a deliverable via `keel/ips_rewrite/IDEA_BANK.md`, big picture over minutiae, no timeline rule but the Sat 31 Oct review draft, BIBLE rule 10).
-  Extraordinary above all; Ray's distinctive, deeply human voice; one subtle motif, Caplet XR (X = 10; R never
-  "release"); breathtaking investing knowledge, applied; no hedging (iBonds held to liquidation are near-ironclad);
-  judges are not mini-Lauras. **The IPS rewrite is deep and dense, never hasty**: the only timeline rule is a final draft for
-  review on Sat 31 Oct (drafting may start any time, Book 9); final Sat 7 Nov 09:00 Sydney. Every good idea goes in
-  `keel/ips_rewrite/IDEA_BANK.md` with where it lands; formatting is Caplet's job. Keel may weigh the books with its own judgement. Only the hard limits sit above it.
+- **Wharton's word first, then THE BIBLE (ten books).** `keel/WHARTON_WORD.md` holds everything in Wharton's documents
+  that bears on the IPS (the five criteria, the IPS's questions, what judges look for, Wharton's advice), verbatim; it
+  ranks above everything (Caplet, 30 Oct: Wharton's files are "in some senses 'God'"; dates, formatting and logistics are
+  Caplet's job and left out). `keel/BIBLE.md` holds Caplet's books 1-5, 9 and 10 verbatim (Books 6-8 now point to
+  WHARTON_WORD). **Book 10 (30 Oct)**: judges who genuinely disagree, scored only on Wharton's guide; the voice studies
+  APPLIED (V29 read as robotic and over-compressed: cut whole ideas, never squeeze sentences); every draft through
+  **GPTZero with "human-written only" above 50% before Caplet sees it** (30 Oct: GPTZero can't be reached from Keel's sessions, and local detectors proved invalid, so drafts say "not yet checked": `keel/ips_rewrite/DETECTOR_LOG.md`); no "every team will ..."; every number says
+  where it came from ("we modelled", never "we judge"); no AI-use or "required trading activity" fretting; overdrive;
+  fresh rewrite keeping every idea (`keel/ips_rewrite/IDEA_LEDGER.md`). **The Ten Commandments** in BIBLE.md replaced
+  the old rules 0-10 and are enforced: every draft carries a filled check (`keel/ips_rewrite/COMMANDMENTS_CHECK.md`).
+  Voice: Ahaan's essays set the tone, never a template (`keel/voice/06_voice_guide.md`, judged by ear). Caplet XR
+  (X = 10; R = redemption, never "release"), subtle. Final IPS for Caplet's review: **end of Wed 4 Nov**
+  (Sydney), read Thu 5 Nov; IPS due Sat 7 Nov 09:00 Sydney.
 - **Keel makes its own calls** (Ray, 26 Oct): every decision is Keel's, logged with a reason in `keel/pm/ASK_HUMANS.md`;
   only danger-zone decisions (WInS orders, submitting, Caplet's docs, money, accounts, outside emails, repo settings) wait for a student.
 - **No work is finished until the portal shows it** (Ray, 26 Oct, project rule): push, check the "Keel Office portal"
@@ -27,7 +31,7 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
   about one room day: an analogy, not another world), `keel/CULTURE.md` (mission, vision, five values), `keel/CAST.md` (the six in one screen),
   `keel/ARCS.md`, `keel/IDEAS.md` (concepts adopted or rejected), timeline `keel/episodes/INDEX.md` (Ep 0-26, daily
   since 27 Sep). **Save tokens:** follow `keel/TOKEN_RULES.md` (load CAST/INDEX/summaries, not every member file or
-  episode; never regenerate what exists; at most 3 crews a day).
+  episode; never regenerate what exists; at most 3 episode crews a day; huddles, one agent per member per round, are how every room run works since 27 Oct: `keel/huddles/README.md`).
 - Competition questions (rules, numbers, the client case, trade checks, draft reviews, records) go through the
   office: `/office <your role>: <question> | decides: <what> | by: <date>`, or a named agent in `.claude/agents/`.
   Read `keel/office/CHARTER.md` and the workstream file for the deliverable (`keel/office/workstreams/1_TNA.md`, `2_IPS.md`,
@@ -55,6 +59,9 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
   `keel/pm/ASK_HUMANS.md` with a default Keel acts on), merges its `keel/**` work into main daily, and never decides for Caplet.
 
 ## Current status (2026-10-14) - read this before the older sections below
+- 27 Oct (Ray + Ahaan): voice study in `keel/voice/` (reading log `keel/voice/reading/LOG.md`, 500-1,000 pieces asked;
+  judges are Shark Tank investors, guide s7-s9 incl. "How humans cut"). Voice is qualitative (Book 9, INSTRUCTIONS I53, I56):
+  `fingerprint.py` and counts are never a gate; Keel never judges its own AI-likeness.
 - 26 Oct (Ray): IPS rewritten from scratch through the office (WO-0003): AI Draft 1 in `keel/ips_rewrite/drafts/D1/`
   (pitch 47 / IPS 484 strict). Thesis = the gift is a capital-protected note minus the option (Treasury floor + index fund
   worth its expected interest); name Caplet XR. Thread brief: `keel/ips_rewrite/inbox/2026-10-26_thread_ray-brief.md`.

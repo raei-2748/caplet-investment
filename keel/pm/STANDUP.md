@@ -1,5 +1,29 @@
 # Stand-up log (newest first; Nora writes each entry, plain English first, then the detail)
 
+## Morning brief, Friday 30 Oct 2026 (Sydney)
+**For the judges:** V29 (AI DRAFT, pitch 50 / IPS 495 words) is the candidate for tomorrow's review draft. It beat V28 with both blind judges, and it now settles the coupon gap in 2031, before Laura names her range. Yesterday the rooms also won it a framework line, the part Wharton asks for by name: "if needs change, the change lands on what isn't yet promised, never a cheque" (2-0 with cold readers). Dashboard: https://claude.ai/artifact/NTBamRzChW4niBLYpkm19M
+**Today's round:** that framework line cost us the reason the 2031 range exists, and both readers marked us down for it. So today we're asking people who quote ranges for a living (share floats, school building appeals, rain forecasts) how they set each end and what a miss costs. https://raei-2748.github.io/caplet-investment/#/day/2026-10-30
+**Room health:** all 10 rooms due yesterday ran. The Kitchen's evening send-off landed after the 19:10 merge, so we merged it in this morning.
+
+**Nora:** Round 2 got us a framework a judge can point to, and the Archive found that one of our own 7 Oct trade notes already follows it. But the line won by cutting the range's why: too low and Laura gives less than she could, too high and she breaks her word. Today puts the why back, and I'm the builder at 13:40, so I have to make it fit in one clause.
+
+**Felix:** A share float sells a price range to buyers who commit on it, and pricing below the range reads as weakness. That's our co-sponsors exactly. I won't repeat the "20% outside the range" rule until I've read it at the SEC.
+**Tess:** Building appeals announce their goal once most of it is already pledged. If that's really their rule, it's ours too: Laura only names what she already owns. I'm re-reading the donor study at the source first, because the Window said on Tuesday that we'd read it backwards.
+**Kai:** The weather bureau gives each end of a rain range its own chance. Our bottom is as sure as the bonds, our top is about six times in seven. Nobody's said that in one line yet, and I think it's shorter than the line we're testing.
+**Jun:** I'm hunting flaws, so here's mine before we start: none of these fields set a range for one person's gift when the rest of her money is already promised. I want to know where each one breaks, not just where it fits.
+**Amara:** I'm the cold judge tonight. I won't read the scouting until I've read the paragraph itself.
+
+**Students need to:**
+- Unless you say otherwise, the final IPS draft for your review arrives Sat 31 Oct, built on V29 plus B2's framework line, and B3's eight words for the range if they win tonight's blind read.
+- Ray: unless you say otherwise, the WInS book stays as it is (D6), and nobody contacts Wharton about the trading-activity rule (F4). Both are danger zone, so both are yours.
+
+**Open questions:**
+- None new today. The one live choice (B3 or B2 for the range paragraph) is Keel's call, decided blind tonight and logged in `ASK_HUMANS.md`.
+
+**If you want the detail:** https://github.com/raei-2748/caplet-investment/pull/74
+
+(Keel is a simulated team, AI-written.)
+
 ## Morning brief, Thursday 29 Oct 2026 (Sydney)
 **For the judges:** two new IPS drafts came yesterday. V28 (AI DRAFT, pitch 50 / IPS 498 words) came first with all three blind judges (average 83, against 68 for the best rival plan). Round 1 also produced a recommended new paragraph on the plan's one soft spot: in 2031, before Laura names her range, any gap from reinvesting bond interest at lower rates, plus $7,500, is moved into the fund for her first cheque. Dashboard: https://claude.ai/artifact/NTBamRzChW4niBLYpkm19M
 **Today's round:** Wharton asks for a "decision-making framework", and no draft has one a judge can point to. We're looking at Chile's and Norway's fund rules, promises people lock in ahead of time, and hospital warning charts. https://raei-2748.github.io/caplet-investment/#/day/2026-10-29

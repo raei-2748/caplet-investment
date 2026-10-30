@@ -1,0 +1,106 @@
+# Idea ledger: every idea from every IPS draft, and where it lands (Commandment VIII)
+
+AI-generated (Claude Code), Fri 30 Oct 2026. Caplet, 30 Oct (Book 10): "keep a list of every single idea you had in
+every single version of your IPS and ensure that all of the best ideas end up in the new IPS." This page walks every
+version (VERSIONS.md rows 1-29: Caplet's doc tabs V1-V5, Tab 15, Fat IPS; Keel v1-v4.1; rewrite D1-D9 = V19-V29) and
+records each idea once, with the drafts that carried it and its fate in **V31** (the fresh rewrite, `drafts/D11/`; the Long Room had already used the number V30 for its own 30 Oct draft, which this ledger also reads).
+The research bank (`IDEA_BANK.md`, #1-82 and FRB rows) keeps the evidence and numbers; this page is about drafts.
+Fate: **IN** (in V31's text) · **FR** (Final Report, with the reason it isn't in 500 words) · **OUT** (dropped, why).
+
+## A. The thesis and the motif
+| # | Idea | Drafts | V31 | Note |
+|---|---|---|---|---|
+| A1 | Two kinds of money: a promise (ten fixed cheques) and a hope (the gift), kept apart | Keel v1 ("a promise ... a hope"), D6-D9, A09-style rivals | **IN** (opening) | Said as plainly as possible; the opener now carries the stakes ("convince co-sponsors it is real") |
+| A2 | Each promise made safe no later than the day it becomes one (cheques 2027, floor 2028, top on naming day) | D6-D9 (the headline rule) | **IN, unnamed** | V29 stated it as a rule and then had to defend it line by line; V31 shows it as the order of the plan and ends the lock paragraph on "Every number she says aloud is already owned" |
+| A3 | XR = extended release (a pill that lets out the same dose on schedule) | D2-D9 | **IN** | Now does investing work: the pill that releases the same dose "however much is left" is the fixed-dollar cheque |
+| A4 | X = ten, R = redemption | D2-D9 | **IN** | One clause. The second sense of "redemption" (Laura keeps her word) is left for the Final Report |
+| A5 | "Do not crush" = no Treasury sold before it pays | D2-D9 | **IN** (heading + "Nothing is sold before it pays") | Dose-dumping (crushing releases it all at once) cut for words; FR |
+| A6 | A product-tier second reading of XR | Book 3 idea, never drafted | **FR** | Optional flair (Book 5); no words to spare |
+| A7 | "Root-and-Branch" / roots and branch | Caplet V1-V5, Fat IPS | **OUT** | Book 2: roots-themed names are AI groupthink |
+| A8 | "Bond floor plus a measured stock sail" | Keel v1 | **OUT** | Sailing metaphor competes with XR; rivals use "anchor and sail" (H18) |
+| A9 | "Caplet" as a rates option (a caplet holds none) | D1, D1.3 | **FR** | Clever for rates people, confusing for others; one line in the FR's name section |
+| A10 | "Every team will promise Laura her ten cheques. We would rather buy them." | D5a-D9 | **OUT** | Book 10: comparing ourselves with other teams is "meta and a bit arrogant". The idea (buy the promise rather than forecast it) survives as the pitch's "buys the promise first" |
+| A11 | Contract vs forecast ("questions for a contract, not a forecast") | D5a, Caplet V5 | **IN, as an idea** | The cheques are bought, not forecast; no slogan |
+| A12 | "Fixed outcome", not "fixed income" (Marks) | IDEA_BANK FRB-11 | **FR** | Cited properly there |
+
+## B. Why the cheques come first, and in Treasuries
+| # | Idea | Drafts | V31 | Note |
+|---|---|---|---|---|
+| B1 | Fixed dollars vs fixed percent: an endowment can ride a crash; a fixed-dollar payer sells at the bottom (sequence risk) | D5a-D9 | **IN** | Now fused with A3 (zero-order release), so the motif and the concept are one idea |
+| B2 | The sceptic's case ("stocks beat bonds over most decades") answered with "ten one-year bills, not one ten-year bill" | D4, D5a | **IN, compressed** | The opponent is implicit in "Stocks are terrible at this"; the full version goes to the FR |
+| B3 | Our first plan was three-quarters stocks and missed cheques in our model (a real team event) | D7-D9 | **IN** | "We learned this the hard way" |
+| B4 | Laura's career is already a stock: the 2028 deposit (advances, speaking, licensing) shrinks in the slump that makes bonds dearer, so it never carries a cheque | Caplet V5, D1-D9 | **IN** | Client knowledge; opens its own section |
+| B5 | Money she has buys certainty; money she expects carries risk | D6-D9 | **IN, as the order** | The 2027 money buys the cheques, the 2028 money builds the hope |
+| B6 | We don't diversify the cheques: ten separate 99% bets miss one about one decade in ten; one government's debts stand or fall together | D6-D9 | **FR** (cut from V31 for words, 30 Oct) | Strong, but a judge needs the arithmetic explained to feel it; the stocks' diversification ("world index fund") answers the criterion in the IPS. Candidate to return if a later round frees 40 words |
+| B7 | The cheques add up to $500,000 but cost about $300,000; the government's interest pays the rest (if nobody sells early) | IDEA_BANK #35 (never drafted) | **IN (new)** | The one number a judge can feel; it also sets up "do not crush" |
+| B8 | iBond funds held to their December close are near-ironclad (they turn into cash) | D2-D9 | **FR** (cut 30 Oct) | Book 5 made the distinction optional; "each maturing before its January" carries it |
+| B9 | Inflation can make $50,000 buy less; it cannot make $50,000 cost more (so nominal Treasuries match exactly; no TIPS needed) | D5a-D9 | **IN** | Kept: it answers inflation for the cheques in two short sentences |
+| B10 | Latest-dated payments bought first (most rate-sensitive) | Caplet V5, D2-D4 | **FR** | Mechanism; the WInS notes show it |
+| B11 | Coupons buy more of the bond that paid them | D6, Keel v4.1 | **FR** | Mechanism |
+| B12 | "Certainty defined by where it breaks" (yields fall >2pt before the build AND the 2028 deposit halves) | D5a | **FR** | A strong Portfolio Analysis section; too many numbers for the IPS |
+| B13 | Our high-certainty definition: every payment owned in Treasuries by Jan 2028 | Caplet V5, Keel v4.1, D1-D4 | **IN, implied** | V31 says the cheques are bought in 2027 and the 2028 deposit plugs any gap |
+| B14 | The co-sponsors fund the building but rarely pay to run it, so the running costs come first | Caplet V5 pitch | **FR** | Good insight about why the cheques matter to the residency; needs a source |
+
+## C. The gift: floor plus stocks
+| # | Idea | Drafts | V31 | Note |
+|---|---|---|---|---|
+| C1 | The 2028 remainder buys a floor (more of the first cheque's fund, sized to grow back to the whole by 2033) | D1-D9 | **IN** | Explained as "her floor" before the word is used again |
+| C2 | Only the floor's expected interest goes into stocks (keep the seed, risk the harvest) | D1-D9 | **IN** | "Keep the seed ..." slogan dropped (it read as AI to Caplet and to judges) |
+| C3 | A capital-protected note with the bank taken out (bond + option + fee; we keep the bond, swap the option for the shares, skip the fee) | D1-D4, D5a | **IN** | One sentence plus the critique "The price is a smaller boom" |
+| C4 | "Ask Lehman's customers why" (a bank's IOU is not a Treasury) | D4 | **FR** | A cited case study in the FR |
+| C5 | Deletion test: wipe out every share and no cheque loses a cent | D9 | **IN** | The proof of Wharton's "protect the operating payments" in one line |
+| C6 | About one dollar in fifteen is in stocks | D9 | **IN** ("about a fifteenth") | Model figure (R06: 6.5-7.1% at market value) |
+| C7 | One world index fund of ~10,000 companies; picking winners is not on the menu | D1-D4 | **IN (fund) / FR (the joke)** | |
+| C8 | Moving floor money into stocks raises the expected gift; we refuse, because time makes a loss rarer, not smaller | D1-D4 | **FR** | A trade-off worth a FR paragraph with the numbers |
+| C9 | Stock share resizes with yields | D1, D1.3 | **FR** | Mechanism |
+| C10 | Floor backs the cheques until a range is named | D9 | **FR** | Mechanism |
+
+## D. The 2031 range and the 2033 gift
+| # | Idea | Drafts | V31 | Note |
+|---|---|---|---|---|
+| D1 | Bottom = the floor she owns; top = floor + half the stocks; the other half stays hers | Caplet V5, D1-D9 | **IN** | |
+| D2 | A range can embarrass her twice (too low: co-sponsors give less; too high: broken word) | D5a-D9 | **IN** | Reworded as one sentence on what each edge must do |
+| D3 | Bigger lead gifts draw bigger gifts (the donor study: seed money 10% -> 67% of the goal, nearly sixfold giving) | D6-D9 | **IN uncited** | Study cited in the FR |
+| D4 | "We judge [over-promising] three times worse" | D5a-D9 | **OUT of the IPS; FR as a calculation** | Book 10: an unexplained number, and it came from a model, not a judgement. In the FR: "setting the top where our model reaches it N times in N+1 is the same as saying a broken promise costs her N times what a cautious one does" (newsvendor logic), with N re-run under the lock (Long Room: 86% -> about 6) |
+| D5 | A capped range hides a flaw: after naming, falls hit the gift and rises go to Laura, so the promised half is locked into Treasuries on naming day | D6-D9 | **IN** | Spelled out in plain words this time ("any fall in stocks comes off the gift, and any rise past the top goes to Laura") |
+| D6 | The coupon-reinvestment gap measured and set aside in 2031, before the range is named | D9 | **IN, one clause** | "with a cushion for the one thing they can't promise: what reinvested coupons will earn"; the mechanism and sizing go to the FR |
+| D7 | Four ways fixed promises have failed (outgrown assets, a free option, an assumed return, reinvestment), three shut | D6-D8 | **FR** | Judges called it cryptic in 500 words; a strong FR section with its four stories |
+| D8 | The range is reached ~3 times in 4 / ~86% with the lock; ~99% inside | D5a | **FR** | Book 7: the final range and its confidence belong to the FR |
+| D9 | The bottom quoted with a margin ("rounded down") | D1-D9 | **FR** | Detail |
+
+## E. The reserve, flexibility and change
+| # | Idea | Drafts | V31 | Note |
+|---|---|---|---|---|
+| E1 | From 2033 the ten holdings are the operating reserve; it changes only by paying out | D1-D9 | **IN** | "so the reserve runs itself down" answers Wharton's "composition over time" |
+| E2 | One scheduled top-up in Jan 2033, then the reserve never changes | D5a-D9 | **FR** | Detail behind D6 |
+| E3 | Laura's kept half is the project's second cheque: for overruns, Taiwan costs and the currency | D5a-D9 | **IN** | "that is what the other half of her stocks is for" |
+| E4 | If anything changes: cheques first, then the floor, then the hope | D6-D9 ("floor and stocks shrink together") | **IN** | Simpler ordering a human can hold |
+| E5 | Liquidity: something matures before every January; the funds trade daily ("liquid to whom?") | D1-D4 | **FR** | V31's liquidity answer is the ladder itself; one clause could return |
+| E6 | Yearly review with Laura | Caplet V5, D1-D4 | **OUT** | Reads as filler; the plan's changes are dated, not discretionary |
+| E7 | Our WInS portfolio is this plan in miniature | D2, D3, Keel v4.1 | **FR** | Wharton's tip ("use WInS to demonstrate your strategy") is answered in the FR |
+| E8 | The freeze as a commitment device (rules beat discretion) | IDEA_BANK #21 | **FR** | Articulation |
+| E9 | Dated doors, not alarms (our rules fire on dates, not market triggers) | Rooms, 29 Oct (#72) | **FR** | Strong framework section for the FR |
+
+## What V31 did with the lot
+V31 keeps 26 ideas, at full size, in 497 words; 30 go to the Final Report with a reason; 4 are out. The rule for
+cutting was Book 2's and Book 9's: drop a whole idea, never squeeze a sentence. Every idea marked FR here is also
+in `IDEA_BANK.md` or will be added there by the next Archive run.
+
+## Also read: the Long Room's V30 (Fri 30 Oct, `claude/keel-loop-2026-10-30`, its `drafts/D10`)
+Ideas it carries that the ledger above did not already hold: "each end as sure as its miss is costly" (bottom: her
+word; top: co-sponsors' plans) -> **FR** (the range section; V32 says the same in "low enough to keep her word, high
+enough that her lead gift draws bigger ones"); "the change lands on what isn't yet promised, never a cheque" ->
+**IN as** "the cheques come first, then the floor, then the hope"; "every rule fires in a year the case already set,
+never on a hunch" (dated doors) -> **FR** (E9); "money she expects insures it, then carries risk" -> **IN as** "it plugs
+any gap in the ladder, then builds her gift". It also kept "Every team will promise ..." and the compressed V29 voice,
+which Book 10 rules out.
+
+## V32 (`drafts/D12/`, 30 Oct evening): what the first new panel changed
+The six-judge panel (`judges/panel_V31/`) put V31 first on readability but marked it down where V25 was strong.
+Returned to the IPS: **B12** (certainty defined by where it breaks: three judges' top reason), **B2** in full (the
+sceptic's "ten one-year bills"), a confidence for the top (**D8**, now ~97 in 100 with the lock and the coupon
+set-aside), the coupon leak named in one plain sentence (**D6**), and the honest cost against a balanced portfolio
+(new, from the Model Suite M7: richer on average, a broken promise about one time in four). Cut to pay for them: the
+four headings, the inflation pair (**B9** -> FR; the "dearer building" clause stays), the "wipe out every share" line
+(**C5** -> FR: the Window found it false in a few hundred of 600,000 paths; the true line is "the shares can help a
+cheque, never hurt one").

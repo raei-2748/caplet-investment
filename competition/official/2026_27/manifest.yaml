@@ -86,7 +86,6 @@ documents:
   human_verified: false
   verified_by: null
   verification_notes: null
-last_updated: '2026-09-27 05:09:12'
 - filename: UPDATED_2026_WGY_Investment_Policy_FINAL.pdf
   sha256_hash: 00b4e5c743f9761ffb9c2295f5e5f28112fd08563f97e414becf86a9556dce77
   document_type: ips_instructions
@@ -100,3 +99,4 @@ last_updated: '2026-09-27 05:09:12'
   human_verified: false
   verified_by: null
   verification_notes: Pages 1-2 unchanged; page 3 instructions replaced (two form fields; title page and PDF formatting removed)
+last_updated: '2026-10-27 00:00:00'

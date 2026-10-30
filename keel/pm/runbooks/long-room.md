@@ -1,6 +1,6 @@
 # Runbook: The Long Room
 
-> **Read `../../BIBLE.md` first: nine books (Caplet's six, 23-27 Oct 2026, all equal, and Wharton's three official files of 27 Oct, which rank first).** They beat every rule on this page.
+> **Read `../../BIBLE.md` first: ten books (23-30 Oct 2026; Book 10 and the Ten Commandments, 30 Oct), under Wharton's word (`keel/WHARTON_WORD.md`), which ranks first.** They beat every rule on this page.
 > Extraordinary above all; a distinctive, deeply human voice (Ahaan's, never AI's); one subtle motif, Caplet XR (extended
 > release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
 > IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
@@ -21,8 +21,13 @@ each naming the change it buys for the judges), and file requests to the rooms. 
 same four steps as the Courtroom's beat (flaw hunt by someone who didn't build it, one repair, head-to-head judging by
 the cold judge with a row in `../../loop/CHAMPIONS.md`, Keel vote with the count), but most of the time goes to the
 discussion, where members argue across more than one turn and at least one changes or holds a position for a stated
-reason. Use the multi-round discussion format from the team-culture work once it lands in `../../CULTURE.md` or
-`../../VOICE.md`. Projects and agenda (below) follow from what the round found.
+reason. Run it as a full huddle (`../../huddles/README.md`; README step 3b): all six present, each its own agent;
+round 1 sealed positions on the challenger vs the champion, round 2 replies by name, round 3 the two sides of the
+biggest split go and check, then the vote. A first-draft line goes through UGLY; a judgement number through sealed
+guesses (`../../CULTURE.md`, "The nine habits"). Projects and agenda (below) follow from what the round found.
+**Wed 28 Oct, first item:** the open seed from H-001, Kai's amendment on who picks in UGLY (a cold reader among the
+top three, since makers and groups both pick badly): add it as round 5 of `../../huddles/2026-10-27_steal-like-a-year-11/`
+and tick the to-do.
 
 ## Files
 minutes `../../meetings/YYYY-MM-DD_<slug>.md`, one line on the wall `../../tea_room.md`

@@ -475,15 +475,25 @@ def plain_words(day):
     return out, [f.relative_to(ROOT).as_posix()]
 
 
+def huddle_days(meta):
+    """A huddle shows on the day it opened and on every day it added a round (huddles continue across days)."""
+    rounds = meta.get("rounds", [])
+    if not isinstance(rounds, list):  # older huddles store only a round count
+        return set()
+    return {r.get("date") for r in rounds if isinstance(r, dict) and r.get("date")}
+
+
 def huddles(day):
     """keel/huddles/<day>_<slug>/ (huddle.json, transcript.md, research/*.md, todo.md), written by the culture thread."""
     out = []
-    for d in sorted((KEEL / "huddles").glob(f"{day}_*")) if (KEEL / "huddles").exists() else []:
+    for d in sorted((KEEL / "huddles").glob("20*_*")) if (KEEL / "huddles").exists() else []:
         meta = {}
         try:
             meta = json.loads((d / "huddle.json").read_text(encoding="utf-8"))
         except (OSError, ValueError):
             pass
+        if not d.name.startswith(day) and day not in huddle_days(meta):
+            continue
         tr = d / "transcript.md"
         todo = (d / "todo.md").read_text(encoding="utf-8") if (d / "todo.md").exists() else ""
         out.append({"path": tr.relative_to(ROOT).as_posix() if tr.exists() else "",
@@ -560,7 +570,12 @@ def days(ms, cs, rooms, known, titles):
              for r in rooms for d in r["decisions"]]
     keys = {m["date"] for m in ms} | {re.match(r"keel/meetings/(\d{4}-\d{2}-\d{2})", p).group(1) for p in meet}
     keys |= {f.stem for f in (KEEL / "today").glob("2026-*.md")} if (KEEL / "today").exists() else set()
-    keys |= {d.name[:10] for d in (KEEL / "huddles").glob("2026-*")} if (KEEL / "huddles").exists() else set()
+    for d in (KEEL / "huddles").glob("2026-*") if (KEEL / "huddles").exists() else []:
+        keys.add(d.name[:10])
+        try:
+            keys |= huddle_days(json.loads((d / "huddle.json").read_text(encoding="utf-8")))
+        except (OSError, ValueError):
+            pass
     keys |= {t["day"] for t in think} | {d["day"] for d in done}
     keys |= {f.stem for f in (KEEL / "loop/rounds").glob("2026-*.md")} if (KEEL / "loop/rounds").exists() else set()
     out = []
