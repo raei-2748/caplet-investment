@@ -556,3 +556,16 @@ fixed, both sourced in D19's README.) "Why does a CPPI team beat you?" (It shows
 "You're timid with her money." (Two judges again. The answer is para 6, capacity not willingness, but J2 and J5 want the
 price in dollars, and the honest price is large: M7 has a 60/40 leaving her ~$226k by 2042 against our ~$30k.) **The
 fix:** Saturday's round puts that price beside the Lab's A09 run and decides, by test, whether the IPS should say it.
+
+## Sat 31 Oct, morning: V40, and the price we haven't said
+V40 changes two sentences, both because a judge said so: the $125,000 now says what it does ("still does", i.e. fills
+the gap), and the 60/40's miss is clearly that portfolio's, not ours. The cold read checked every number on the
+Archive's grid (all true) and caught three over-claims we'd stopped seeing: "buys all ten" (it's "or nearly"),
+"everything she owns" (she has money outside the portfolio), and "In our model" sitting over a US default the model
+doesn't model. Those go in the mid-day draft.
+
+**What Caplet would say (Commandment X):** "You keep saying 'usually leaves her richer'. How much richer?" Almost
+$200,000 by 2042, in our own model, and we haven't said it because it's uncomfortable. That's the wrong reason. The
+mid-day round tests V41, which says it, against V41b, which doesn't, and lets six judges decide whether naming the
+price makes the case stronger or weaker. "Is the 7.5% back in?" Yes, as the model's assumption for world stocks only,
+logged in ASK_HUMANS with a one-line undo.
