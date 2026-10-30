@@ -1,13 +1,14 @@
 # Task board (real Caplet work; run by Keel)
 
 Rules: `LOOP.md`. WIP limit 3 in Doing. Priority P = Impact (1-3) x Urgency (1-3); pick 4 or more. Owner = a Keel
-desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Thu 29 Oct 2026, 07:30 (morning run).
+desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Fri 30 Oct 2026, 07:30 (morning run).
 
-**This week's top 3 (Thu 29 Oct - Sun 1 Nov; IPS in 9 days). Groomed Thu 29 Oct 07:30:**
-1. **The final IPS draft for Caplet's review by Sat 31 Oct** (P01; V28 leads, mean 83 with three blind judges).
-   Round 1's cure (bank the coupon gap at the 2031 mark) is the recommended para 9.
-2. **Research round 2 today** (`../loop/rounds/2026-10-29.md`): Book 7's "decision-making framework", the one part no
-   draft states as rules a judge can point to (C13, flaw F7).
+**This week's top 3 (Fri 30 Oct - Sun 1 Nov; IPS in 8 days). Groomed Fri 30 Oct 07:30:**
+1. **The final IPS draft for Caplet's review by Sat 31 Oct** (P01; V29 is the candidate, `../ips_rewrite/drafts/D9/`).
+   The rooms' round 2 offers B2's framework line (2-0 cold, Courtroom C-03) and B3's eight words for the range's why;
+   both sit in `../ips_rewrite/inbox/2026-10-29_*.md` for the rewrite thread.
+2. **Research round 3 today** (`../loop/rounds/2026-10-30.md`): why a range, and what each end costs (Q10, flaw F8),
+   the case's own centre; the Writing Room reads B3 against B2 blind.
 3. **Ray's danger-zone items:** D6 (hold the WInS book) and F4 (the undefined trading-activity rule).
 
 ## Doing
@@ -17,7 +18,6 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Thu 29 Oct 202
 ## Ready (ranked)
 | ID | Task | Owner | Due | P | Done when | Notes |
 |---|---|---|---|---|---|---|
-| N05 | Rule on flaw F2 now that Book 9 says "don't feel hamstrung by what we wrote in the TNAs": may the Jan 2033 re-match draw on Laura's half, and if so, what one IPS clause squares it with reflection 3? | Kai (Courtroom) | Thu 29 Oct | 6 | Verdict line + the clause, into the synthesis | Round 1 may find a cure bought earlier; rule after it lands |
 | N02 | Edition stamp on every model output (curve date, J.P. Morgan edition, paths, basis) | Jun (Genius Lab) | Wed 28 Oct | 6 | Every new lab file opens with the stamp; R05 re-run at 7.5% | Request filed 27 Oct; the 26 Oct EAFE mix-up |
 | N03 | Final Report bank: one Articulation clause saying the case's "portfolio manager = your teacher/advisor" is the case's role-play; in real life students decided and Ray traded | Tess (Archive, P05) | Sat 7 Nov | 4 | Clause in `../library/final_report_bank.md` with the FAQ :32 source | Window flag 26 Oct |
 | T22 | Re-run the T05 rule checklist on the students' IPS draft | Felix (rules-verifier) | Sat 31 Oct | 6 | All 12 rows OK or flagged on the new draft | Waits for T13 draft; checklist SD-T05 |
@@ -25,7 +25,6 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Thu 29 Oct 202
 | T08 | Mock-judge panel on the IPS, after the human scores are logged | Nora (mock-judge; `office-judge-panel`) | Mon 2 Nov | 2 | Scores per criterion + the weakest line | CHARTER 6: humans score first |
 | T09 | Gate check of the IPS text (strict word count, banned words, TIPS/STRIPS, no citations) | Felix (format-gatekeeper; `office-gate-check`) | Wed 4 Nov | 2 | All gates in `workstreams/2_IPS.md` ticked or flagged | Run on the text a student pastes |
 | T10 | Final Report pre-mortem and module map (from the 10 Nov instructions) | Tess (final-report-planner) + Kai | Wed 11 Nov | 1 | PREMORTEMS.md Final Report section complete; modules mapped to owners | After quiet period |
-| T11 | AI-use log up to date (LEDGER -> `caplet/docs/AI_USE.md`) | Tess (ai-use-recorder) | Sun weekly | 2 | Every LEDGER row has an AI-use line | 26 Oct: LEDGER complete to 26 Oct 19:00 (4 rows added); AI_USE.md s5 row for 26 Oct; privacy scan clean; `../office/outbox/2026-10-26_archive_rewrite-vs-locked-text.md` |
 
 ## Waiting on Caplet (Keel never picks these; they go on the stand-up)
 | ID | Task | Owner | Due | Done when | Notes |
@@ -40,7 +39,6 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Thu 29 Oct 202
 | T18 | Ask the school for the signed letter for the Final Report | Ray / advisor | Fri 23 Oct | Request sent (letter never committed) | `workstreams/3_FINAL_REPORT.md:29`; missing letter = exclusion risk (R6) |
 | T24 | Search WInS (read-only) for a short-term Treasury ETF the IPS can name for waiting coupons and the 2027 leftover | Ray | Sat 31 Oct | Ticker listed or not, pasted in the IPS workstream | Window W1; R14. Never trade or submit |
 | T21 | Signed school letter in hand and checked (letterhead, signature) | Ray / advisor | Fri 20 Nov | Letter received | Follows T18 |
-| T19 | Ask Wharton what "required trading activity" means, if still open | Ray | Fri 30 Oct | Answer filed in `competition/official/` | 05 pre-mortem open item |
 | T20 | Save WInS order history, holdings, notes and session rules privately after the lock | Ray | Sun 8 Nov | Files saved, username cropped | Tess checks the list is complete |
 
 ## Proposed (Keel ideas; a student ticks "OK" in Notes, or a desk promotes small checking cards)
@@ -54,6 +52,7 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Thu 29 Oct 202
 ## Done
 | ID | Task | Owner | Done | Output |
 |---|---|---|---|---|
+| SD-N04 | Research round 3 gathered: Q10 why a range and what each end costs; lens 22; IPO bookbuilding, capital campaigns (deepened), weather ranges. Groomed: N05 closed (F2 closed 28 Oct by bank-it-at-the-mark and the deletion test); T11 killed (Book 9 retired the AI-use ledger) | Nora | Fri 30 Oct | `keel/loop/rounds/2026-10-30.md` |
 | SD-ARC-06 | Round 2 recorded (territory, champions, frontier, health); B2 checked against the submitted TNA and notes (no contradiction; A22 closed, A24 new) | Tess | Thu 29 Oct | `keel/loop/rounds/2026-10-29.md` beat 9; `keel/ips_rewrite/inbox/2026-10-29_archive.md` |
 | SD-N03 | Research round 2 gathered: Q8 the framework; lens 13; sovereign funds, commitment devices, ICU track-and-trigger | Nora | Thu 29 Oct | `keel/loop/rounds/2026-10-29.md` |
 | SD-ARC-05 | Round 1 recorded (territory, champions, frontier, health) and A19 closed by the deletion test | Tess | Wed 28 Oct | `keel/loop/rounds/2026-10-28.md` beat 9; `keel/rooms/archive_checks/A19_delete_vt_test.py` |

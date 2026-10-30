@@ -799,6 +799,41 @@ in `../../loop/rounds/2026-10-29.md`, slip S-07 in `../../rooms/library.md`):
 - Badawy, J., Nguyen, O. K., Clark, C., Halm, E. A. and Makam, A. N. Is everyone really breathing 20 times a minute?
   *BMJ Quality & Safety* 26(10): https://qualitysafety.bmj.com/content/26/10/832 (year not shown in the fetched text).
 
+Added by the Library, Fri 30 Oct 2026 (accessed 30 Oct 2026; quoted lines found in the fetched page text; round 3 beat 4
+in `../../loop/rounds/2026-10-30.md`, slip S-08 in `../../rooms/library.md`). Q10, why a range and what each end costs:
+- Ritter, J. R. (2026). Initial Public Offerings: Price Revision Statistics Through 2025. University of Florida:
+  https://site.warrington.ufl.edu/ritter/files/IPOs-price-revision.pdf. Takes: Table 7, below / within / above the file
+  range, 33/45/22% (2001-2019) and 16/55/29% (2020-2025); first-day returns 3/12/38% and 6/21/51%. Bank #87.
+- Hanley, K. W. (1993). The underpricing of initial public offerings and the partial adjustment phenomenon. *Journal of
+  Financial Economics* 34(2), 231-250: https://business.lehigh.edu/sites/default/files/2019-08/7%20hanley_1993_jfe_0.pdf.
+  Takes: 20.7% above the range, 10.0% within, 0.6% below. Bank #87.
+- Busaba, W. Y., Liu, Z. and Restrepo, F. (2020). Do Underwriters Price Up IPOs to Prevent Withdrawal? *Journal of
+  Financial and Quantitative Analysis* 55(6), 2005-2036 (abstract): https://www.cambridge.org/core/journals/journal-of-financial-and-quantitative-analysis/article/abs/do-underwriters-price-up-ipos-to-prevent-withdrawal/2100A5B72028FDF5851084656AA3CA92
+- List, J. A. and Lucking-Reiley, D. (2002). The Effects of Seed Money and Refunds on Charitable Giving: Experimental
+  Evidence from a University Capital Campaign. *Journal of Political Economy* 110(1) (reprint on J. Andreoni's UCSD
+  site): https://econweb.ucsd.edu/~jandreoni/PhilanthropyAndFundraising/Volume%202/8%20List%20Lucking-Riley%202002.pdf.
+  Direction checked at the source: seed 10% -> 67% of the goal, "a nearly sixfold increase in contributions", donors
+  3.7% -> 8.2%, mean gift $15.42 -> $39.87; refunds +20%, "no effect on the participation rate". Bank #85.
+- Verhaert, G. A. and Van den Poel, D. (2012). The Role of Seed Money and Threshold Size in Optimizing Fundraising
+  Campaigns: Past Behavior Matters! Ghent University WP 12/815: http://wps-feb.ugent.be/Papers/wp_12_815.pdf (working
+  paper). Takes: seed money "with a low threshold it could have a baleful influence".
+- Stratton, N. (23 Jan 2020). Maximizing the Value of a Campaign's Quiet Phase. CCS Fundraising:
+  https://www.ccsfundraising.com/insights/maximizing-the-value-of-a-campaigns-quiet-phase/ (practitioner). Bank #86.
+- Jowdy, J. (13 May 2026). Don't Go Public Too Soon. NonProfit PRO:
+  https://www.nonprofitpro.com/post/dont-go-public-too-soon-what-the-capital-campaign-quiet-phase-is-really-for/
+  (practitioner). Bank #86.
+- Eisenstein, A. (3 Sep 2021, updated 4 Jul 2026). Set the Right Fundraising Goal for Your Capital Campaign. Elevation:
+  https://www.elevationweb.org/blog/set-the-right-fundraising-goal-for-your-capital-campaign/ (practitioner).
+- LeClerc, J. E. and Joslyn, S. (2011). The Effects of the Use of Uncertainty Estimates on Weather-Related
+  Decision-Making. AMS 91st Annual Meeting, J13.7 (abstract): https://ams.confex.com/ams/91Annual/webprogram/Paper182589.html.
+  Journal version: Joslyn, S. and LeClerc, J. (2012), *J. Exp. Psych.: Applied* 18(1), 126-140 (citation only). Bank #84.
+- Richardson, D. S. (2003). Predictability and economic value. ECMWF seminar paper:
+  https://www.ecmwf.int/sites/default/files/elibrary/2003/11922-predictability-and-economic-value.pdf. Takes: the
+  cost-loss rule. Bank #84.
+- MIT OpenCourseWare (Fall 2014). 15.772J / EC.733J D-Lab: Supply Chains, Newsvendor Inventory Problem:
+  https://ocw.mit.edu/courses/15-772j-d-lab-supply-chains-fall-2014/6952be57b43aa185119c6f114908bcc5_MIT15_772JF14_Newsboy.pdf.
+  Takes: the critical fractile, underage / (underage + overage). Bank #84.
+
 ## Part 3. Five "aha" syntheses
 
 ### Aha 1. Laura's gift is a capped, principal-protected note, built without a single derivative
