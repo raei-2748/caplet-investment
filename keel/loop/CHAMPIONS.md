@@ -39,4 +39,13 @@
 | Thu 29 Oct | 2 | C13 | V29 para 10 ("cheques first; floor and stocks are bought smaller together") vs B2 (the Courtroom's repair of the Writing Room's B: "Every rule here fires in a year the case already set, never on a hunch; if needs change, the change lands on what isn't yet promised, never a cheque") | Felix's 2 blind readers (case + Books 7-8 only, shuffled); before them, the Writing Room's 3 blind readers (B 3-0 over V29 + hard fixes) | **B2, 2-0** (35 v 33, 35 v 34): both found a framework in B2 at once and none in V29. B's ranking line lost first, to its own para 17 (her half pays the coupon gap before the bottom moves). Price: the range's why (CK -1 from both readers); B3 tries to buy it back, Fri 30. Archive: no clash with the submitted TNA (A22 closed, A24) | Yes: C13 holder named; C10 holder sharpened (LR-06's reserve line is in B2) |
 | Fri 30 Oct | 3 | C5 | B3S ("In 2031 she names a range: too low costs co-sponsors' gifts; too high, her word") vs B3W ("each end as sure as its miss is costly ... missing it breaks her word ... missing it only trims co-sponsors' plans") | Felix's 2 fresh blind readers (actuary, fundraiser; case + Books 7-8, shuffled); before them the Writing Room's 3 (B3O over B3S, 3-0) | **B3W, 2-0** (34 v 33, 35 v 33): the only text that says why each end sits where it does. Price: the signal (why the top is above what she owns), named unprompted by the fundraiser; 4 of 5 readers today still ask why a range once locked (F10, Q11, round 4) | Yes: C5 holder = V30 para 8; Keel's Sat 31 review draft = V30 (5-1) |
 
+**Archive note, Fri 30 Oct (Book 10).** From tonight the rewrite thread drafts and the board feeds it (runbooks README,
+Book 10 mode). V33 (`../ips_rewrite/drafts/D13/`) carries C5's per-end idea in its own words ("low enough to keep her
+word, high enough that her lead gift draws bigger ones") plus the slide (the coupon money set aside "before she names
+anything") and L-13's "97 times in 100"; C1 (the note "minus the bank and its fee"); C2 (X for ten, R for redemption);
+C10 ("the reserve runs itself down"); C13 in a shorter form ("If anything changes, the cheques come first, then the
+floor, then the hope"). C3's new holder candidate is V33 para 6, certainty as a breaking point, but its number is
+wrong for V33's design (F11, Archive A25): fix before any head-to-head. V36 (`../ips_rewrite/drafts/D16/`, 20:30) keeps
+all of this with clarity fixes; the number is still $85,000.
+
 (Keel is a simulated team, AI-written.)
