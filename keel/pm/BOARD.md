@@ -53,6 +53,7 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sat 31 Oct 202
 ## Done
 | ID | Task | Owner | Done | Output |
 |---|---|---|---|---|
+| SD-A09 | Round 4 recorded; LR3 (the rival paragraph) checked against the submitted notes and re-run on V45's own design: no breach, $19,000 -> $15,000, two word fixes | Tess | Sat 31 Oct | `../office/outbox/2026-10-31_archive_the-price-on-our-own-design.md` |
 | SD-N05 | Research round 4 gathered: Q12 why not a safe ladder and the rest in stocks (rival A09); lens 3; endowments (deepened), public capital funds, forward-selling crops. Groomed for Book 10: deadline end of Wed 4 Nov; F4 dropped | Nora | Sat 31 Oct | `keel/loop/rounds/2026-10-31.md` |
 | SD-N04 | Research round 3 gathered: Q10 why a range and what each end costs; lens 22; IPO bookbuilding, capital campaigns (deepened), weather ranges. Groomed: N05 closed (F2 closed 28 Oct by bank-it-at-the-mark and the deletion test); T11 killed (Book 9 retired the AI-use ledger) | Nora | Fri 30 Oct | `keel/loop/rounds/2026-10-30.md` |
 | SD-ARC-06 | Round 2 recorded (territory, champions, frontier, health); B2 checked against the submitted TNA and notes (no contradiction; A22 closed, A24 new) | Tess | Thu 29 Oct | `keel/loop/rounds/2026-10-29.md` beat 9; `keel/ips_rewrite/inbox/2026-10-29_archive.md` |
