@@ -42,6 +42,7 @@
 | The oldest bonds still paying (Dutch water-board perpetuals, consols) | | unvisited | |
 | Family offices and multi-generation goals-based investing | | unvisited | |
 | Real options and staged commitment | R05 #19 (VC staging, reference-class forecasting) | promising | 1 |
+| Insurance: agreed value v market value cover | Candidate from the Kitchen's doors, Sat 31 Oct (Amara: her brother's car cover; agreed value fixes the payout when you sign and costs more, market value pays what the car is worth on the day). Maps onto XR's floor owned from 2028 v A09's bottom bought at its January-2031 value; the premium is the forgone growth. UNVERIFIED (MoneySmart refused by the proxy) | unvisited (request to the Writing Room, Mon 2 Nov) | |
 
 ## Adjacent: economics, law, accounting, giving, forecasting
 | Field | Visits | Status | Yield |
@@ -60,6 +61,7 @@
 | Construction finance: retainage, progress payments, contingencies | 28 Oct, Felix (round 1): securities in lieu of retainage (Cal. PCC §22300); who keeps unused contingency (ConsensusDocs 2023); FAR 52.216-4 escalation | promising (retainage is released on completion, not a date: a deeper question) | 2 |
 | Public budgeting: earmarked funds, rainy-day funds | 31 Oct, Amara (round 4): GFOA (bond proceeds invested no longer than the drawdown schedule), California Gov. Code list (no shares, five-year cap), Orange County 1994, Washington SSJR 8208 (stocks only for money without a deadline) | promising | 2 |
 | Contract law: liquidated damages, "time is of the essence" | | unvisited | |
+| Auction houses: lot essays, estimates and condition reports | Kitchen H-008, Sat 31 Oct: "auction" appears nowhere in the 1,000-piece voice reading; a catalogue essay justifies a price estimate to a doubter while the condition report owns the flaws | unvisited (round 5, Kai, Sun 1 Nov) | |
 
 ## Far: everything else (the road less taken)
 | Field | Visits | Status | Yield |
@@ -76,20 +78,21 @@
 | ICU and triage: reserves, handovers, early-warning scores | 29 Oct, Nora (round 2): NEWS2 (one red score triggers alone; concern overrides), NSW PD2025_014 (signed, expiring alterations; escalate on silence), ward studies (alarms that stay on stop being answered) | mined (its contrast made the champion: a ward needs alarms because a crash has no date, and every flow in Laura's case has one; handovers and triage reserves still unvisited, a new field if ever needed) | 3 |
 | Theatre: cue sheets, the "go" that cannot be taken back | 28 Oct, Tess (round 1): tracking and the block (ETC Eos); fix in the programming before the next show (CCSU 2025); the pre-show lamp check (USU) | mined | 2 |
 | Film photography: exposure latitude, the latent image | | unvisited | |
-| Baking and fermentation: proving, starters fed on schedule | | unvisited | |
+| Baking and fermentation: proving, starters fed on schedule | Candidate from the Kitchen's doors, Sat 31 Oct (Jun: his starter fed at six or the week is lost; Nora: a bakery deposit fixes the price the day you pay) | unvisited | |
 | Seed banks and agriculture: storing for a known sowing date | | unvisited | |
 | Ecology: bet-hedging, seed dormancy, masting | | unvisited | |
 | Military and expedition logistics: depots laid in advance | | unvisited | |
 | Timetabling and railways: slack, recovery time | Candidate from the Kitchen's doors, Thu 29 Oct (Jun: an early train holds at a big station until its time): slack is placed before a fixed time, not spread along the line; maps onto the ~$7,500 banked before naming day | unvisited | |
-| Sport: game clocks, timeouts, rotation and load management | | unvisited | |
+| Sport: game clocks, timeouts, rotation and load management | Candidate from the Kitchen's doors, Sat 31 Oct (Kai: basketball's shot clock resets to 14, not 24, after an offensive rebound; FIBA rule UNVERIFIED): a smaller promise on a fixed clock | unvisited | |
 | Clockmaking and horology: escapements | | unvisited | |
 | Community kitchens (langar): a fund that must feed every day | Candidate from the Kitchen's doors, Thu 29 Oct (Amara: a family pays now for a langar on a date in March): a dated meal sponsored and paid in advance | unvisited | |
 | Architecture: load paths, the keystone, temporary works | | unvisited | |
 | Maritime: ballast, sea anchors, dead reckoning | Early "keel and sail" picture (I-06) | promising | 1 |
 | Archives and time capsules | | unvisited | |
-| Mahjong and card-game scoring: committing before the reveal | | unvisited | |
+| Mahjong and card-game scoring: committing before the reveal | Candidate from the Kitchen's doors, Sat 31 Oct (Felix: the table's limit on a hand said aloud before the first tile, so one lucky hand can't ruin the dealer; varies by table, UNVERIFIED): a cap agreed before play, like the 2031 top | unvisited | |
 | Weather forecasting: ranges with a chance on each end (BoM "possible rainfall") | 30 Oct, Kai (round 3): the BoM's own page (75% / 25% chance on the two ends; the round's 50/25 was false, the Window's catch); "acknowledging the uncertainty in the forecast increased trust"; the cost-loss rule (Richardson, ECMWF) and the newsvendor's overage/underage | mined (each end its own chance, set by what missing it costs: B3O/B3W's "each end as sure as its miss is costly", 3-0 and 2-0 blind, the C5 holder; bank #84) | 3 |
 | Pharmacy practice: dose administration aids (blister packs made up by day) | Candidate from the Kitchen's doors, Thu 29 Oct (Nora: one sealed dose per day, packed in advance by the pharmacist); next to the mined pharmacology field but a new mechanism: the patient decides nothing on the day | unvisited (Q7 request to Laura's Room) | |
+| Bookselling: dealers' condition descriptions ("spine sunned, light foxing") | Candidate from the Kitchen's doors, Sat 31 Oct (Tess: pricing secondhand paperbacks): twenty words that tell a stranger what's wrong and still sell it. Close kin of the auction condition report (round 5, Kai). UNVERIFIED (ILAB's glossary refused by the proxy) | unvisited | |
 
 ## Who does what, by round (rotate so no one holds the same job two rounds running)
 | Round day | Scouts (near, adjacent, far) | Flaw-hunter | Judge (cold) |

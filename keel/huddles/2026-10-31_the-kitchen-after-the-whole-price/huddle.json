@@ -1,0 +1,46 @@
+{
+  "id": "H-008",
+  "slug": "the-kitchen-after-the-whole-price",
+  "title": "The Kitchen after the whole price",
+  "question": "Round 4 is answered. What should round 5 (Sun 1 Nov) chase, now that Caplet has put voice above everything?",
+  "room": "Kitchen",
+  "chair": "Amara",
+  "opened": "2026-10-31",
+  "status": "closed",
+  "closed": "2026-10-31",
+  "members": ["Amara", "Felix", "Tess"],
+  "serves": "North star 1 (a distinctive, human voice) and Commandment III; Caplet's I69 (voice above every other priority); Creativity & Presentation, with Investment Strategy kept by the numbers rule",
+  "rounds": [
+    {"n": 1, "name": "Go away and read", "date": "2026-10-31", "posts": ["posts/r1_amara.md", "posts/r1_felix.md", "posts/r1_tess.md"]},
+    {"n": 2, "name": "Reply by name", "date": "2026-10-31", "posts": ["posts/r2_amara.md", "posts/r2_felix.md", "posts/r2_tess.md"]},
+    {"n": 3, "name": "Settle it and land it", "date": "2026-10-31", "posts": ["posts/r3_amara.md", "posts/r3_felix.md", "posts/r3_tess.md"]}
+  ],
+  "essence": [
+    "We argued over what tomorrow's research should chase now that Caplet wants the writing to sound human above everything else.",
+    "We've already read a thousand pieces, so tomorrow only goes where we haven't been: people who ask a doubter to pay for a promise in under a hundred words (annuity sellers, auction catalogue writers, mountain guides who set a turn-back time).",
+    "Each brings back the writer's real lines with the link and one of our paragraphs rewritten that way, with its numbers and where they came from kept, so the next draft gets better paragraphs, not more notes."
+  ],
+  "decided": [
+    "3-0: round 5 is a voice round; question Q13, 'who asks a sceptic to pay for a promise, in under a hundred words, and gets believed?'; lens 11, the practitioner",
+    "3-0: near (Jun) annuity sellers, for the 2031 range paragraph; adjacent (Kai) auction-house lot essays, for the price paragraph ('Sell low, by appointment' or LR3, whichever the rewrite keeps); 'auction' appears nowhere in the 1,000 pieces",
+    "2-1 (Tess, Felix; Amara for the LRB personals): far (Amara) mountaineering turnaround rules, for 'A capped range has a catch'; Amara's own check found the move half-covered by the voice guide's F3, so she goes with a narrower question: the guide's words to a paying client who will be turned back short of the top",
+    "2-1 (Tess, Felix; Amara for one line): each scout returns 50-100 of the practitioner's own words, exact, URL and date read, then one V45 paragraph rewritten whole, numbers and their sources kept, to the rewrite inbox; no scout writes a pitch (Book 10 mode item 1)",
+    "3-0: LS-13, a number goes to a vote with its design written beside it (which plan, which engine)",
+    "CORD x2 (Felix): the reading holds 1,000 pieces, not 765; V45's pitch opens on fourteen words, not seventeen"
+  ],
+  "seeds": [
+    "Does the pitch need a cost clause at all? V45's pitch says what each deposit buys, never what it gives up; the rewrite thread owns the pitch, so this goes to it, not a room",
+    "Agreed value v market value cover (Amara's door): is it the one image that makes the rival paragraph land, or a second motif competing with XR?"
+  ],
+  "changes": [
+    "keel/loop/FRONTIER.md",
+    "keel/loop/LESSONS.md",
+    "keel/loop/TERRITORY.md",
+    "keel/loop/rounds/2026-10-31.md",
+    "keel/rooms/kitchen.md",
+    "keel/tea_room.md",
+    "keel/pm/REQUESTS.md",
+    "keel/ips_rewrite/IDEA_BANK.md"
+  ],
+  "todos": {"done": 4, "total": 8}
+}

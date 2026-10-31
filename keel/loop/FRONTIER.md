@@ -8,6 +8,7 @@
 ## 1. Open questions, ranked (Nora re-ranks each morning: most IPS lift for the least-explored ground first)
 | # | Question | Slot it could move (`CHAMPIONS.md`) | Why it matters | Added | Rounds spent |
 |---|---|---|---|---|---|
+| Q13 | Who asks a sceptic to pay for a promise, in under a hundred words, and gets believed? (the voice round; Kitchen H-008, Sat 31 Oct) | C5, C7, C12 | Caplet, Sat 31 Oct 13:39 (I69): voice above every other priority, drafts "chronically incapable of writing like a human". The IPS's whole job is this question: Laura pays (forgone growth, about $15,000 by 2042, MODEL, A26) for a floor, and co-sponsors must believe a range. The reading (1,000 pieces) is finance letters and essays; nobody has read people who sell a promise to a doubter at this length | Sat 31 Oct | 0 (round 5, Sun 1 Nov) |
 | Q11 | Once Laura names the range, what can still move the gift, and why is the top above what she owns? (F10; Long Room, 30 Oct) | C5 | 4 of 5 blind readers on 30 Oct asked "why a range once the half is locked?"; the fundraiser named the deleted signal. True answers known (LR-07: only the cheques' 2033 top-up, at most $9,768; case :110-112, List and Lucking-Reiley) but no tested words; candidate "it draws co-sponsors' gifts, and only the cheques can trim it" (+5) | Fri 30 Oct | 0. **Archive, 30 Oct:** V33 (`../ips_rewrite/drafts/D13/`, Book 10) already carries half an answer: "high enough that her lead gift draws bigger ones" (the signal) and "the rare miss is about $1,000" (what can still move it). Round 4 tests V33's words, not new ones |
 | Q2 | Which R makes "X = ten" land: redemption, runway, or something nobody has tried? What do people who name products for a living test before they pick? | C2 | `../BIBLE.md` Book 5: R must be clever, not weird; still open in the THINKING_LOG | Tue 27 Oct | 0 |
 | Q3 | How should the IPS define certainty so a judge says "aha", not "fine"? Who else writes down a standard for "certain enough" (law, engineering, medicine), and does any of them beat the IRS 1-in-20? | C3, C11 | S-05 is a strong challenger; the D4 holder has a factual flaw | Tue 27 Oct | 0 |
@@ -67,47 +68,43 @@
 
 ## 4. Tomorrow's scouting orders (written by the send-off at 20:20; Nora may change them at 07:00)
 
-**Round 4, Sat 31 Oct (written by the Rooftop, Fri 30 Oct, 20:20; huddle H-004, Tess, Kai, Felix, 3 rounds).**
-Question: **Q12, why not a safe ladder and the rest in stocks?** Not Q11 (the Long Room's order): V36 already says
-both halves ("high enough that her lead gift draws bigger ones"; "the rare miss is about $1,000"), and a fourth day on
-one paragraph is the "very small and hyper-specific thing" Book 10 named. Q11 rides second, only if Tess finds a V36
-line it breaks. Two of six blind judges in panel 4 put **A09** first: the same Treasury ladder for the cheques, about
-80% world stocks on top, the 2031 bottom moved into Treasuries when it's named (`../ips_rewrite/rivals/A09.md`). V36
-beats a 60/40 and a three-quarters-stocks plan in words; it never argues with A09. The difference that matters: our
-gift's floor is **owned from 2028**; A09's floor is **whatever its stocks are worth in 2031**. **Is that the better
-plan for Laura, and is it the whole idea a growth-minded judge is missing?** The round's output is one
-paragraph-sized idea for the rewrite (taken or dropped whole, Commandment VII), never a clause patch.
-Lens: **3, the rival's best plan** (never drawn): build A09 at its strongest, then say where ours beats it and what
-ours gives up, in dollars or paths (LS-04: the break first). LS-12: the work answers Wharton's question, not the hawk.
-Rotation row 4: scouts **Nora, Amara, Jun**; flaw-hunter **Tess** (first job: quote the V36 line that misses A09,
-or Kai's hit falls); cold judge **Kai**, who judges against `../WHARTON_WORD.md` with the rebuilt six-judge panel
-(`../ips_rewrite/judges/README.md`), never two or three same-model readers (Commandment IX; Felix's five of five);
-builder **Felix** (free in row 4). Before beat 8's vote (the Courtroom, Sat 31 is an odd date),
-the vote note carries the time of Caplet's newest message and the sentence that changes the question
-(LS-06, broken twice). Side jobs not for scouts: the $85,000 in V36 para 6 is V25's design (about $125,000 on V36's,
-Archive A25, MODEL), already in the Window's Sat 31 design-stamp audit.
-- **Near, Nora (Haiku 5.5, breadth; deepens a `promising` field): endowments and spending rules.** The growth hawk's
-  model is the endowment: perpetual, mostly risk assets. The deeper question nobody asked: what do endowments do when
-  part of the money is a **dated promise for a building**? Find, at the source, at least one university that slowed
-  or paused a building project after the 2008-09 fall because its capital money sat in the growth pool (Harvard's
-  Allston science complex is the one to check first; facts UNVERIFIED until fetched), and whether any keeps
-  construction money apart from the endowment. New ground: from spending *rules* (visited) to *dated capital
-  promises inside a growth fund*. (door: her dad buys the tiles the day the quote's signed, not the week of the job)
-- **Adjacent, Amara (Sonnet 5.5, depth): public budgeting, earmarked capital funds and rainy-day funds**
-  (`unvisited`). When a government has raised money for a building it will start in a few years, how is the money held
-  until then, and what do the rules or the auditors say about putting it in shares? Bring back one real rule or
-  practice and what it protects against. New ground: the first adjacent field where the money is *someone else's
-  promise held for a dated build*, which is Laura's 2031 position. (door: the gurdwara kitchen's renovation fund,
-  kept in a term deposit while the quotes come in)
-- **Far, Jun (Opus 5.5, the cross-domain link): farmers who forward-sell part of a crop before harvest**
-  (`unvisited`; listed beside "seed banks and agriculture"). A farmer whose staple is already safe still chooses how
-  much of the cash crop to price early and how much to leave to the harvest price. Bring back how much farmers actually
-  forward-sell, why not all of it, and what pricing early cost them in a year prices rose (primary sources: a
-  government or university extension service). Kai's question, made real: when someone with a safe base locks the top
-  early, what does it buy and what does it cost? New ground: the first far field about *when* to lock, not whether.
-  (door: Jun's running splits, even pace against a negative split)
-- **Off duty, the doors** (fiction; what comes back through them must be real, fetched sources): Nora's dad's
-  tiles, Amara's kitchen fund, Jun's splits.
-- **Not tomorrow:** Q11 (second, only on Tess's finding); the $85,000 (the Window); Q7 stays with Laura's Room.
+**Round 5, Sun 1 Nov (written by the Kitchen, Sat 31 Oct, 20:20; huddle H-008, Amara, Felix, Tess, 3 rounds).**
+Question: **Q13, who asks a sceptic to pay for a promise, in under a hundred words, and gets believed?** A voice
+round, because Caplet put voice above everything at 13:39 today (I69-I70) and round 4 already answered Q12 (LR3 is
+with the rewrite thread). The reading holds 1,000 pieces (`../voice/reading/LOG.md` line 20; SYNTHESIS 6), mostly
+finance letters and essays, so the scouts go only where it hasn't been: people who ask a doubter to *pay for* a
+promise, at the IPS's length. Lens **11, the practitioner** (never drawn): read them in their own published words.
+**What each scout brings back** (2-1, Amara for one line; Book 10 mode item 1): (1) 50-100 of the practitioner's own
+words, quoted exactly, URL and date read; (2) the move in one line, and the SYNTHESIS section it is *not* in (if it
+is, say so: the find is dry); (3) the named V45 paragraph (`../ips_rewrite/drafts/D25/ips_V45.txt`) rewritten whole
+with that move, every number kept with its source ("in our model, with world stocks at 7.5% a year"), and the rival
+it beats named. To `../ips_rewrite/inbox/2026-11-01_library.md`. **No scout writes a pitch** (the rewrite thread
+owns it; the seed "does the pitch need a cost clause?" goes to the thread). No AI-detector, grammar or formatting work.
+Rotation row 5: scouts **Jun near, Kai adjacent, Amara far**; flaw-hunter **Felix** (first job: hunt the number in
+every return; a lovely paragraph that drops where its figure came from is the $19,000 again, LS-13); cold judge
+**Tess** (three questions: is the quote real? is the move missing from the reading? read aloud, does it sound like a
+person?) plus a blind voice reader on a different model (Commandment IX); builder **Nora** (13:40; the only one free).
+Sunday 17:00 is also the weekly loop-on-the-loop review: LS-06 (vote gate) and LS-13 go to it together.
+- **Near, Jun (Haiku 5.5, breadth): annuity and pension-income sellers** (`unvisited`). People whose whole job is
+  talking a sceptic out of a lump sum and into a smaller sum that is certain: a regulator's or a large insurer's
+  plain-language explainer of what the buyer gives up, and one seller in their own words. Paragraph: **"In 2031 she
+  gives co-sponsors a range"** (a promise sold to people who have to plan around it). New ground: the first near field
+  read for *how it is said*, not how it is priced. (door: Duration, a starter fed at six or the week is lost)
+- **Adjacent, Kai (Sonnet 5.5, depth): auction-house lot essays** (`unvisited`; "auction" appears nowhere in the 1,000
+  pieces). A catalogue essay has to justify a price estimate to a doubter in a few hundred words, and the condition
+  report beside it owns the flaws. Bring back one essay and one condition report from a major house, in their words.
+  Paragraph: **the price paragraph** ("Sell low, by appointment", or LR3 if the thread takes it): the cost said out
+  loud, then why it's worth it. (door: the shot clock reset to fourteen, a smaller promise on a fixed clock)
+- **Far, Amara (Opus 5.5, the cross-domain link): mountain guides' turnaround times** (`unvisited`; no mountaineering in
+  the 1,000 pieces). The narrower question (Amara's check: the bare "cost chosen in advance" move is half in the voice
+  guide's F3): how does a guide *tell a paying client*, before the climb, that they will be turned back short of the
+  top at a set hour, and get them to agree? A guiding company's or a guiding association's own words. Paragraph:
+  **"A capped range has a catch"** (on naming day the promised half moves into Treasuries, whatever the market: a
+  turnaround agreed years in advance; A27's jab is answered here). (door: Arjun's agreed-value car cover)
+- **Off duty, the doors** (fiction; UNVERIFIED until a scout reads the page; this run's session had no web): agreed
+  value v market value cover (Amara), FIBA's 14-second reset (Kai), a bakery deposit that fixes the price (Nora), a
+  starter fed on schedule (Jun), the mahjong limit said aloud before play (Felix), booksellers' condition notes (Tess).
+- **Not tomorrow:** Q11 and Q5 (Q5 is the strongest knowledge question left; Monday, if the Sunday review agrees);
+  A26-A28 (the Window gates A26 at 08:40); Q7 stays with Laura's Room.
 
 (Keel is a simulated team, AI-written.)
