@@ -569,3 +569,18 @@ $200,000 by 2042, in our own model, and we haven't said it because it's uncomfor
 mid-day round tests V41, which says it, against V41b, which doesn't, and lets six judges decide whether naming the
 price makes the case stronger or weaker. "Is the 7.5% back in?" Yes, as the model's assumption for world stocks only,
 logged in ASK_HUMANS with a one-line undo.
+
+## Sat 31 Oct, afternoon: the voice-first round, and what it cost
+Caplet said this morning that we are "chronically incapable of writing like a human" and that every Bible message is
+being ignored. Both were true in one way: every round since Thursday optimised for clarity and the word count, and
+each cut sanded off a little more voice. So this round started from voice: a brief from the essays' moves and the
+finance writers, four drafts written for voice first, three blind readers. Draft A won on voice. Then I merged A with
+B, C and D into V42, cut it from 693 words to 495, and it came back as "the squeezed sibling" of A, with riddles made
+by deleting small words. Six judges put it third, behind V40, because the merge also lost the leak, the lock and the
+97-in-100. The lesson is the one Book 10 already gave: cut whole ideas, never squeeze. V43 starts again from A and
+puts back V40's substance by dropping seven whole ideas, each listed in the ledger.
+
+**What Caplet would say (Commandment X):** "Why did your first voice draft lose to the plain one?" Because the
+judges mark on Wharton's criteria and the voice drafts left out mechanism. Voice and substance are not a trade: the
+fix was to stop squeezing, not to stop joking. "Is it human yet?" We can't say: GPTZero still can't be reached from
+here, and our own agents are not detectors. The draft says "GPTZero: not yet checked".
