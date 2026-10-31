@@ -9,3 +9,5 @@ AI DRAFT material (Claude, 31 Oct 2026); not for submission as written. (Keel is
 - `Q1/`: V45 + the Q12 paragraph after the floor paragraph; the capped-range catch paragraph (lock + 97 in 100) out. 497.
 - `Q3/`: V45 with the 60/40 pair replaced by the strongest rival (A09) under the same heading. 493.
 - Panel: `../../ips_rewrite/judges/panel_WR31/` (six judges, blind, three rivals).
+- `LR/`: V45 with Laura's Room's LR-08 paragraph in place of the heading and the 60/40 pair (485). Second panel:
+  `../../ips_rewrite/judges/panel_WR31b/` (LR first, mean rank 1.83).

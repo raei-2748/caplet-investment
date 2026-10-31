@@ -2,8 +2,8 @@
 
 ## Now
 - **Doing:** round 4 beat 7 (31 Oct): Q12 priced (XR v A09 on the suite engine) and two whole-idea arms on V45 read by the six-judge panel (`../ips_rewrite/inbox/2026-10-31_writing-room.md`)
-- **Decided:** lean Q3 (the strongest rival replaces the 60/40 under "Sell low, by appointment"; 493): 3 firsts in field (actuary, teacher, professor), 3-3 v V45 head to head; Q1 out (cutting the lock cost range confidence)
-- **Next:** Sun 1 Nov: the Courtroom's verdict on Q3 v V45 and the Lab's L-13-chain A09 numbers; then whether one clause of the 60/40 concession rides inside Q3
+- **Decided:** lean LR-08's paragraph (Laura's Room; 485): a second blind panel put it first (1.83 v our Q3 2.83 v V45 3.0; beats Q3 5-1, V45 4-2) because it prices the floor in all her money ($9k) not the gift alone ($4k); Q1 out (cutting the lock cost range confidence)
+- **Next:** Sun 1 Nov: the Courtroom's verdict on LR-08 v V45 and the Lab's L-13-chain A09 numbers; then whether one clause of the 60/40 concession rides inside Q3
 - **For the judges:** the plan defended against the rival competent teams actually bring, with its price in dollars
 - **Updated:** 2026-10-31 17:40 Sydney
 

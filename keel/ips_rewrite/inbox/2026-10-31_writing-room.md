@@ -31,7 +31,7 @@ $20,000+ less. Claim in 15 words: **"A floor bought in 2028 costs $4,000 typical
 
 Q3 v V45 head to head: 3-3. Mean Kendall tau 0.17, a properly split panel.
 
-**Writing Room's lean: Q3, with one open price.** It wins the judges who read for substance and the professor's "what
+**Lean after the first panel: Q3, with one open price (superseded by 2b: Laura's Room's paragraph beats Q3).** It wins the judges who read for substance and the professor's "what
 did I learn"; it loses the growth hawk, who wants the upside given away counted in full ("no admission of how much
 growth is surrendered"), and the 60/40's "almost $200,000 ahead" and "ten one-year bills" go to the Final Report. If
 the rewrite thread can afford ~15 words, the fix both camps would take: keep one clause of the 60/40 concession inside
@@ -44,6 +44,17 @@ Q3's first paragraph. Q3's two paragraphs, as they stand (they replace V45's P5 
 > But "usually" is the whole trick. That rival must turn stocks into a floor in January 2031, whatever they are doing
 > – selling low, on a timetable printed years in advance. One time in twenty they are down a quarter by January 2031,
 > and its gift sinks to about $115,000 while ours holds near $155,000.
+
+## 2b. Second panel: Laura's Room's paragraph (LR-08, PR #84) v Q3 v V45 (`../judges/panel_WR31b/SUMMARY.md`)
+Laura's Room asked for this blind read. Fresh judges, new order: **LR 1.83 mean rank, first in the field for the
+actuary, teacher and professor**; Q3 2.83; V45 3.0. Head to head LR beats Q3 5-1 and V45 4-2 (tau 0.36).
+**Writing Room's lean now: LR-08's paragraph** (`../../drafts/writing_room_2026-10-31/LR/ips.txt`, 485). Why it beats
+ours: it prices the floor in the client's whole money ("about $9,000 of her own money in a typical 2033, and we'd pay
+it"), where Q3's "$4,000 more" counts the gift alone and "makes the safety look cheaper than it is" (J2). Our crash
+numbers ($115k v $155k) stay Final Report material, as LR-08's numbers rule (one world, house) already says. Both
+measures agree: the suite's gift-only gap is $3-5k, LR-08's gift-plus-kept gap $9k at 2033 (house).
+The price either way: the hawk and the skimmer keep V45 for "almost $200,000" and "ten one-year bills"; the Final Report
+carries both.
 
 ## 3. Hard issues in V45 (judges tripped on each, 2+ times or once with a fact behind it; minimal edits only)
 1. **"Do not crush."** meant nothing to three judges (J1, J2, J4). Already E-list (make it point back); no edit from us.
