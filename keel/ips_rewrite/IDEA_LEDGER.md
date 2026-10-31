@@ -169,3 +169,12 @@ check on V42 caught this). V43 (`drafts/D23/`) accounts for all of them:
   in advance"; "ten redemptions, one a year". NEW: the borrowed note critiqued ("shares, which can't expire
   worthless"). FR: the cake heading ("Have your cake and invest the icing"); "nothing sold early"; "with nothing to
   rebalance"; "(and its fee)"; "(X for ten, R for redemption)" spelled out (the Final Report can unpack the name).
+
+## V46 and V47 (Sun 1 Nov, morning): the strongest rival
+- **V46 (`drafts/D26/`):** IN: the strongest rival (A09) priced in full ($15,000 / $90,000 vs $140,000, A26); "But
+  "usually" is the whole trick"; "selling low, on a timetable printed years in advance" kept. OUT (to the Final
+  Report, and the panel says wrongly): 97 in 100; "the cheques come first, then the floor, then the hope"; the ten
+  one-year bills; the 60/40's one in three (FR: the rival field, M7).
+- **V47 (`drafts/D27/`, current best):** IN: the rival as the rooms wrote it, 97 in 100 and the priority line kept.
+  OUT for now (next voice pass): "Sell low, by appointment" (heading); "But "usually" is the whole trick"; "selling low,
+  on a timetable printed years in advance"; the ten one-year bills (FR); the 60/40 numbers (FR).

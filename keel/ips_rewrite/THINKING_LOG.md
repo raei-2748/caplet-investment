@@ -597,3 +597,13 @@ ahead of it on voice, so it is the one Caplet sees tonight, with its check, open
 draft and its checklist tonight, and an honest list of what's still wrong is more use to you than another unseen
 round. One of the six (GPTZero) can't pass from here; the other five have exact fixes in section E of the check, and
 they're Sunday's first job. "Is this the final?" No: the final is due to you at the end of Wed 4 Nov.
+
+## Sun 1 Nov, morning: the rooms' paragraph wins
+Last night the Courtroom and the Archive said the 60/40 is the wrong rival: nobody serious would run Laura's promise
+on a 60/40. The serious rival keeps our ladder and gambles only the 2028 deposit. I wrote V46 with that rival in V45's
+voice and paid for it with 97 in 100 and the priority line. The panel took V46 apart on exactly those two cuts, and
+put the rooms' own version (LR3, which keeps both) first with five of six judges. The voice reader went the other
+way: LR3 last, "a results table". So V47 is LR3, and the voice now has to be won back without losing an idea.
+
+**What Caplet would say (Commandment X):** "You dropped the line that tells co-sponsors what gives way first, to fit
+a joke?" Yes, and the judges caught it. The rule I take from it: a voice line can only replace words, never an idea.
