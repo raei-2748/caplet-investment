@@ -584,3 +584,16 @@ puts back V40's substance by dropping seven whole ideas, each listed in the ledg
 judges mark on Wharton's criteria and the voice drafts left out mechanism. Voice and substance are not a trade: the
 fix was to stop squeezing, not to stop joking. "Is it human yet?" We can't say: GPTZero still can't be reached from
 here, and our own agents are not detectors. The draft says "GPTZero: not yet checked".
+
+## Sat 31 Oct, evening: V44 and V45
+V44 did what the V43 Bible check asked and won the actuary, but the teacher, the skimmer and the professor all put V40
+first for the same reason in different words: it tells the story of the plan we threw away. V45 put that sentence back
+("our first plan was three-quarters stocks, until our own model sank it") and became first with two judges and never
+worse than third (mean rank 2.33 against V40's 2.17). On voice it is second only to draft A, and V40 is last with
+every voice reader who saw it. That is the first draft that is close to the plain one on Wharton's criteria and well
+ahead of it on voice, so it is the one Caplet sees tonight, with its check, open misses and all.
+
+**What Caplet would say (Commandment X):** "Six commandments fail. Why am I seeing it?" Because I promised a voice-first
+draft and its checklist tonight, and an honest list of what's still wrong is more use to you than another unseen
+round. One of the six (GPTZero) can't pass from here; the other five have exact fixes in section E of the check, and
+they're Sunday's first job. "Is this the final?" No: the final is due to you at the end of Wed 4 Nov.
