@@ -1,15 +1,125 @@
 {
- "built": "2026-10-31T01:20",
+ "built": "2026-10-31T02:58",
  "days": [
   {
    "date": "2026-10-31",
    "weekday": "Sat",
-   "essence": [],
-   "huddles": [],
-   "research": [],
-   "done": [],
-   "open": [],
+   "essence": [
+    "We built the plan two mock judges preferred (bonds for the cheques, the rest in stocks until 2031) and ran it beside ours on the same 200,000 model futures.",
+    "Its cheques are just as safe and its gift is about $15,000 bigger on average, but the bottom Laura could promise co-sponsors drops under $100,000 about one time in fifteen to twenty (ours about one in a hundred), nearly always after a stock crash; the extra is simply pay for carrying that crash, and it disappears if stocks earn under about 3% a year.",
+    "So the IPS should answer that plan by name of idea, not by rival, in one paragraph that states the price out loud."
+   ],
+   "huddles": [
+    {
+     "id": "H-005",
+     "title": "The price of the floor",
+     "question": "Why not a safe ladder and the rest in stocks? Does our floor bought in 2028 beat the rival that keeps the 2028 deposit in stocks and locks the bottom in 2031, on our own model paths, and what does it give up?",
+     "status": "closed",
+     "room": "Genius Lab",
+     "chair": "Felix",
+     "members": [
+      "Felix",
+      "Jun",
+      "Kai"
+     ],
+     "essence": [
+      "We built the plan two mock judges preferred (bonds for the cheques, the rest in stocks until 2031) and ran it beside ours on the same 200,000 model futures.",
+      "Its cheques are just as safe and its gift is about $15,000 bigger on average, but the bottom Laura could promise co-sponsors drops under $100,000 about one time in fifteen to twenty (ours about one in a hundred), nearly always after a stock crash; the extra is simply pay for carrying that crash, and it disappears if stocks earn under about 3% a year.",
+      "So the IPS should answer that plan by name of idea, not by rival, in one paragraph that states the price out loud."
+     ],
+     "decided": [
+      "3-0 ADOPT: one paragraph answering 'why not a safe ladder and the rest in stocks?' with the unsliced numbers and the price, replacing V39 para 7's 60/40 sentences (and one more cut the rewrite thread picks)",
+      "3-0: 'same price, different risk' dropped as a phrase (it isn't the same price; we pay the stock premium and say so)",
+      "3-0: the worst-5% slice, the premium test and the 3% break-even stay out of the IPS; they are the Final Report's table and our answer if a judge asks",
+      "Kai lost his round-1 bet: 93-94% of the rival's sub-$100k bottoms follow a 2028-30 stock loss"
+     ],
+     "seeds": [
+      "Is the bottom Laura can quote worth more than its dollar size, because a lead gift draws others (bank #6)? Price the co-sponsor effect of a $95k v $140k bottom in a crash year",
+      "Which 19 words pay for the paragraph: the 97-in-100 top line, the one-in-thirty line, or something else?"
+     ],
+     "todos": {
+      "done": 5,
+      "total": 7
+     },
+     "path": "keel/huddles/2026-10-31_the-price-of-the-floor",
+     "transcript": "keel/huddles/2026-10-31_the-price-of-the-floor/transcript.md",
+     "changes": [
+      "../../rooms/lab/L-14_price_of_the_floor.md",
+      "../../ips_rewrite/inbox/2026-10-31_genius-lab.md",
+      "../../ips_rewrite/IDEA_BANK.md"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    }
+   ],
+   "research": [
+    {
+     "path": "keel/huddles/2026-10-31_the-price-of-the-floor/research/lab_checks_r3.md",
+     "title": "The Lab's three checks for round 3 (Sat 31 Oct 2026)",
+     "member": "Lab",
+     "huddle": "H-005"
+    }
+   ],
+   "done": [
+    {
+     "text": "Build A09 at its strongest on XR's own paths, four worlds (Felix; done 31 Oct, `../../rooms/lab/L-14_price_of_the_floor.md`)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-10-31",
+     "huddle": "H-005"
+    },
+    {
+     "text": "Break-even stock return for equal average gifts (Kai's check; done 31 Oct: about 3% a year)",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-31",
+     "huddle": "H-005"
+    },
+    {
+     "text": "Share of A09's sub-$100k bottoms that follow a 2028-30 stock loss (Felix's check; done 31 Oct: 93% / 94%)",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-31",
+     "huddle": "H-005"
+    },
+    {
+     "text": "Reconcile the premium test with the gift gap (Jun's check; done 31 Oct)",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-31",
+     "huddle": "H-005"
+    },
+    {
+     "text": "CORD on Felix's round-2 \"A09 breaks it on about 1 path in 19\": A09 never breaks its quoted bottom; 1 in 19 is how often the bottom it can quote is under $100k (Jun; done 31 Oct, round file s5)",
+     "done": true,
+     "owner": "Jun",
+     "day": "2026-10-31",
+     "huddle": "H-005"
+    }
+   ],
+   "open": [
+    {
+     "text": "The three ADOPT versions read cold beside V39 para 7, one picked, the 19-word cost weighed (Writing Room; by Sun 1 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-005"
+    },
+    {
+     "text": "The Window gates L-14's headline from the script (Window; by Sun 1 Nov)",
+     "done": false,
+     "owner": "Window",
+     "day": null,
+     "huddle": "H-005"
+    }
+   ],
    "runs": [
+    {
+     "day": "2026-10-31",
+     "when": "Sat 31 Oct 15:05",
+     "room": "Genius Lab",
+     "what": "Beat 5 (Come back), round 4: L-14 the price of the floor, A09 built at its strongest on XR's paths (4 worlds); huddle H-005 (Felix, Jun, Kai, 3 rounds, 3 checks); B ADOPT 3-0 as one IPS paragraph (A09: cheques as safe, +$15k mean gift all stock premium, break-even ~3%; quotable bottom <$100k 5.3-6.7% v 0.85-1.0%); 3 requests closed, 2 filed; bank #98-#99"
+    },
     {
      "day": "2026-10-31",
      "when": "Sat 31 Oct 12:55",

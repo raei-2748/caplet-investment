@@ -1,0 +1,1039 @@
+{
+ "stamp": "curve 22 Oct 2026 | J.P. Morgan 2027 global equities 7.5% | 200,000 paths, seed 20261016 | rho 0.5 unless S0 | MODEL",
+ "S0 base, rates and stocks independent": {
+  "check_vs_L13_slide": {
+   "top_quoted_p5_p50_p95": [
+    130000,
+    165000,
+    180000
+   ],
+   "bottom_quoted_p50": 145000,
+   "p_top_reached": 0.979,
+   "implied_over_vs_under_cost_ratio": 46.6,
+   "p_below_quoted_bottom": 0.0,
+   "gift_p5_p50_mean": [
+    130000,
+    165000,
+    159957
+   ],
+   "median_short_of_top_when_missed": 865,
+   "width_p50": 20000,
+   "width_pct_of_top_p50": 14.3,
+   "p_width_over_20pct_of_top": 0.0557,
+   "p_payment_short_over_1k": 0.0003
+  },
+  "L14": {
+   "XR (V39)": {
+    "p_cheque_short_over_1k": 0.0003,
+    "bottom_quoted_p5_p50": [
+     115000,
+     145000
+    ],
+    "top_quoted_p5_p50": [
+     130000,
+     165000
+    ],
+    "gift_p5_p50_p95": [
+     130000,
+     165000,
+     180000
+    ],
+    "gift_mean": 159957,
+    "p_top_reached": 0.979,
+    "p_below_quoted_bottom": 0.0,
+    "laura_2042_p50_mean": [
+     38341,
+     49270
+    ],
+    "gift_plus_laura2042_mean": 209227,
+    "p_bottom_below_125k": 0.1224,
+    "p_bottom_below_100k": 0.0085,
+    "worst5_2028_30": {
+     "bottom_p50": 140000,
+     "top_p50": 155000,
+     "gift_p5_p50": [
+      120000,
+      155000
+     ],
+     "laura_2042_p50": 19699
+    },
+    "best5_2028_30": {
+     "bottom_p50": 145000,
+     "top_p50": 180000,
+     "gift_p5_p50": [
+      145000,
+      180000
+     ],
+     "laura_2042_p50": 72359
+    }
+   },
+   "A09_pot_2031_p5_p50_p95": [
+    119071,
+    177280,
+    264953
+   ],
+   "XR_gift_money_2031_p5_p50_p95 (floor at 2031 yields + stocks)": [
+    141882,
+    171462,
+    201884
+   ],
+   "XR_stock_share_after_naming_p50": 0.222,
+   "A09 k=0.8": {
+    "p_cheque_short_over_1k": 0.0002,
+    "bottom_quoted_p5_p50": [
+     95000,
+     150000
+    ],
+    "top_quoted_p5_p50": [
+     110000,
+     170000
+    ],
+    "gift_p5_p50_p95": [
+     110000,
+     170000,
+     256954
+    ],
+    "gift_mean": 174655,
+    "p_top_reached": 0.9204,
+    "p_below_quoted_bottom": 0.0,
+    "laura_2042_p50_mean": [
+     36386,
+     44625
+    ],
+    "gift_plus_laura2042_mean": 219280,
+    "p_bottom_below_125k": 0.2069,
+    "p_bottom_below_100k": 0.053,
+    "worst5_2028_30": {
+     "bottom_p50": 95000,
+     "top_p50": 105000,
+     "gift_p5_p50": [
+      75000,
+      105000
+     ],
+     "laura_2042_p50": 21232
+    },
+    "best5_2028_30": {
+     "bottom_p50": 250000,
+     "top_p50": 280000,
+     "gift_p5_p50": [
+      230000,
+      280000
+     ],
+     "laura_2042_p50": 61916
+    }
+   },
+   "A09 k=0.65": {
+    "p_cheque_short_over_1k": 0.0002,
+    "bottom_quoted_p5_p50": [
+     80000,
+     125000
+    ],
+    "top_quoted_p5_p50": [
+     100000,
+     155000
+    ],
+    "gift_p5_p50_p95": [
+     100000,
+     155000,
+     235000
+    ],
+    "gift_mean": 159225,
+    "p_top_reached": 0.8739,
+    "p_below_quoted_bottom": 0.0,
+    "laura_2042_p50_mean": [
+     67381,
+     79199
+    ],
+    "gift_plus_laura2042_mean": 238424,
+    "p_bottom_below_125k": 0.4833,
+    "p_bottom_below_100k": 0.1748,
+    "worst5_2028_30": {
+     "bottom_p50": 80000,
+     "top_p50": 95000,
+     "gift_p5_p50": [
+      70000,
+      95000
+     ],
+     "laura_2042_p50": 39787
+    },
+    "best5_2028_30": {
+     "bottom_p50": 200000,
+     "top_p50": 250000,
+     "gift_p5_p50": [
+      210000,
+      250000
+     ],
+     "laura_2042_p50": 114086
+    }
+   },
+   "kai_bet_A09_bottom_under_100k": {
+    "p": 0.053,
+    "share_with_2028_30_stocks_down": 0.9329,
+    "share_in_worst_10pct_of_2028_30": 0.7463,
+    "median_2028_30_stock_return_pct": -25.2,
+    "p_stocks_down_2028_30_all_paths": 0.2285
+   },
+   "price": {
+    "median_gift_XR_minus_A09": -5000,
+    "mean_gift_XR_minus_A09": -14699,
+    "mean_gift_plus_laura2042_XR_minus_A09": -10053,
+    "p_XR_gift_higher": 0.3552,
+    "p_XR_bottom_higher": 0.3077,
+    "worst5_bottom_XR_minus_A09_p50": 40000,
+    "worst5_gift_XR_minus_A09_p50": 45000,
+    "best5_gift_XR_minus_A09_p50": -100000
+   },
+   "premium_test_gift_money_2033": {
+    "stocks 7.5%": {
+     "XR_p5_p50_mean": [
+      153658,
+      189713,
+      191872
+     ],
+     "A09_p5_p50_mean": [
+      130614,
+      196801,
+      203136
+     ],
+     "mean_gap_A09_minus_XR": 11263,
+     "p5_gap_XR_minus_A09": 23044
+    },
+    "stocks earn the Treasury yield": {
+     "XR_p5_p50_mean": [
+      148379,
+      182403,
+      184085
+     ],
+     "A09_p5_p50_mean": [
+      116617,
+      177226,
+      183115
+     ],
+     "mean_gap_A09_minus_XR": -970,
+     "p5_gap_XR_minus_A09": 31762
+    }
+   },
+   "kai_breakeven_stock_return": {
+    "0.030": {
+     "mean_gift_XR": 157177,
+     "mean_gift_A09": 156784,
+     "median_gift_XR": 160000,
+     "median_gift_A09": 152844,
+     "p_A09_bottom_under_100k": 0.1081
+    },
+    "0.040": {
+     "mean_gift_XR": 157783,
+     "mean_gift_A09": 160652,
+     "median_gift_XR": 160000,
+     "median_gift_A09": 155000,
+     "p_A09_bottom_under_100k": 0.0932
+    },
+    "0.050": {
+     "mean_gift_XR": 158394,
+     "mean_gift_A09": 164584,
+     "median_gift_XR": 160000,
+     "median_gift_A09": 160000,
+     "p_A09_bottom_under_100k": 0.0796
+    },
+    "0.060": {
+     "mean_gift_XR": 159009,
+     "mean_gift_A09": 168563,
+     "median_gift_XR": 165000,
+     "median_gift_A09": 165000,
+     "p_A09_bottom_under_100k": 0.0677
+    },
+    "0.075": {
+     "mean_gift_XR": 159957,
+     "mean_gift_A09": 174655,
+     "median_gift_XR": 165000,
+     "median_gift_A09": 170000,
+     "p_A09_bottom_under_100k": 0.053
+    }
+   },
+   "R06_stock_fund_2028": {
+    "B0_p50": 31082,
+    "share_of_portfolio_p50": 0.0664,
+    "one_in_x_of_portfolio": 15.1,
+    "share_of_both_deposits_p50": 0.0691,
+    "share_of_2028_deposit_p50": 0.2072
+   }
+  }
+ },
+ "S1 base, recession-linked (rho 0.5)": {
+  "check_vs_L13_slide": {
+   "top_quoted_p5_p50_p95": [
+    125000,
+    165000,
+    180000
+   ],
+   "bottom_quoted_p50": 145000,
+   "p_top_reached": 0.976,
+   "implied_over_vs_under_cost_ratio": 40.69,
+   "p_below_quoted_bottom": 0.0,
+   "gift_p5_p50_mean": [
+    125000,
+    165000,
+    159624
+   ],
+   "median_short_of_top_when_missed": 948,
+   "width_p50": 20000,
+   "width_pct_of_top_p50": 13.8,
+   "p_width_over_20pct_of_top": 0.0552,
+   "p_payment_short_over_1k": 0.0003
+  },
+  "L14": {
+   "XR (V39)": {
+    "p_cheque_short_over_1k": 0.0003,
+    "bottom_quoted_p5_p50": [
+     110000,
+     145000
+    ],
+    "top_quoted_p5_p50": [
+     125000,
+     165000
+    ],
+    "gift_p5_p50_p95": [
+     125000,
+     165000,
+     180000
+    ],
+    "gift_mean": 159624,
+    "p_top_reached": 0.976,
+    "p_below_quoted_bottom": 0.0,
+    "laura_2042_p50_mean": [
+     39102,
+     50097
+    ],
+    "gift_plus_laura2042_mean": 209721,
+    "p_bottom_below_125k": 0.1301,
+    "p_bottom_below_100k": 0.0098,
+    "worst5_2028_30": {
+     "bottom_p50": 135000,
+     "top_p50": 150000,
+     "gift_p5_p50": [
+      110000,
+      150000
+     ],
+     "laura_2042_p50": 14623
+    },
+    "best5_2028_30": {
+     "bottom_p50": 145000,
+     "top_p50": 180000,
+     "gift_p5_p50": [
+      145000,
+      180000
+     ],
+     "laura_2042_p50": 82426
+    }
+   },
+   "A09_pot_2031_p5_p50_p95": [
+    120339,
+    177433,
+    263225
+   ],
+   "XR_gift_money_2031_p5_p50_p95 (floor at 2031 yields + stocks)": [
+    142997,
+    171886,
+    199154
+   ],
+   "XR_stock_share_after_naming_p50": 0.222,
+   "A09 k=0.8": {
+    "p_cheque_short_over_1k": 0.0002,
+    "bottom_quoted_p5_p50": [
+     90000,
+     155000
+    ],
+    "top_quoted_p5_p50": [
+     105000,
+     170000
+    ],
+    "gift_p5_p50_p95": [
+     105000,
+     170000,
+     260000
+    ],
+    "gift_mean": 174940,
+    "p_top_reached": 0.9201,
+    "p_below_quoted_bottom": 0.0,
+    "laura_2042_p50_mean": [
+     37204,
+     45373
+    ],
+    "gift_plus_laura2042_mean": 220313,
+    "p_bottom_below_125k": 0.2177,
+    "p_bottom_below_100k": 0.0674,
+    "worst5_2028_30": {
+     "bottom_p50": 90000,
+     "top_p50": 100000,
+     "gift_p5_p50": [
+      65000,
+      100000
+     ],
+     "laura_2042_p50": 17261
+    },
+    "best5_2028_30": {
+     "bottom_p50": 255000,
+     "top_p50": 285000,
+     "gift_p5_p50": [
+      235000,
+      285000
+     ],
+     "laura_2042_p50": 70336
+    }
+   },
+   "A09 k=0.65": {
+    "p_cheque_short_over_1k": 0.0002,
+    "bottom_quoted_p5_p50": [
+     80000,
+     125000
+    ],
+    "top_quoted_p5_p50": [
+     100000,
+     155000
+    ],
+    "gift_p5_p50_p95": [
+     100000,
+     155000,
+     235000
+    ],
+    "gift_mean": 159567,
+    "p_top_reached": 0.8816,
+    "p_below_quoted_bottom": 0.0,
+    "laura_2042_p50_mean": [
+     67925,
+     79601
+    ],
+    "gift_plus_laura2042_mean": 239168,
+    "p_bottom_below_125k": 0.4823,
+    "p_bottom_below_100k": 0.1847,
+    "worst5_2028_30": {
+     "bottom_p50": 75000,
+     "top_p50": 95000,
+     "gift_p5_p50": [
+      65000,
+      95000
+     ],
+     "laura_2042_p50": 28864
+    },
+    "best5_2028_30": {
+     "bottom_p50": 205000,
+     "top_p50": 255000,
+     "gift_p5_p50": [
+      215000,
+      255000
+     ],
+     "laura_2042_p50": 122457
+    }
+   },
+   "kai_bet_A09_bottom_under_100k": {
+    "p": 0.0674,
+    "share_with_2028_30_stocks_down": 0.9399,
+    "share_in_worst_10pct_of_2028_30": 0.7264,
+    "median_2028_30_stock_return_pct": -23.5,
+    "p_stocks_down_2028_30_all_paths": 0.2305
+   },
+   "price": {
+    "median_gift_XR_minus_A09": -5000,
+    "mean_gift_XR_minus_A09": -15316,
+    "mean_gift_plus_laura2042_XR_minus_A09": -10591,
+    "p_XR_gift_higher": 0.3581,
+    "p_XR_bottom_higher": 0.3136,
+    "worst5_bottom_XR_minus_A09_p50": 45000,
+    "worst5_gift_XR_minus_A09_p50": 45000,
+    "best5_gift_XR_minus_A09_p50": -105000
+   },
+   "premium_test_gift_money_2033": {
+    "stocks 7.5%": {
+     "XR_p5_p50_mean": [
+      153484,
+      189591,
+      191830
+     ],
+     "A09_p5_p50_mean": [
+      129501,
+      196984,
+      203754
+     ],
+     "mean_gap_A09_minus_XR": 11924,
+     "p5_gap_XR_minus_A09": 23984
+    },
+    "stocks earn the Treasury yield": {
+     "XR_p5_p50_mean": [
+      148250,
+      182272,
+      184051
+     ],
+     "A09_p5_p50_mean": [
+      115603,
+      177445,
+      183678
+     ],
+     "mean_gap_A09_minus_XR": -372,
+     "p5_gap_XR_minus_A09": 32647
+    }
+   },
+   "kai_breakeven_stock_return": {
+    "0.030": {
+     "mean_gift_XR": 156855,
+     "mean_gift_A09": 157002,
+     "median_gift_XR": 160000,
+     "median_gift_A09": 154902,
+     "p_A09_bottom_under_100k": 0.1244
+    },
+    "0.040": {
+     "mean_gift_XR": 157455,
+     "mean_gift_A09": 160889,
+     "median_gift_XR": 160000,
+     "median_gift_A09": 155000,
+     "p_A09_bottom_under_100k": 0.1094
+    },
+    "0.050": {
+     "mean_gift_XR": 158059,
+     "mean_gift_A09": 164836,
+     "median_gift_XR": 160000,
+     "median_gift_A09": 160000,
+     "p_A09_bottom_under_100k": 0.0956
+    },
+    "0.060": {
+     "mean_gift_XR": 158674,
+     "mean_gift_A09": 168831,
+     "median_gift_XR": 165000,
+     "median_gift_A09": 165000,
+     "p_A09_bottom_under_100k": 0.0831
+    },
+    "0.075": {
+     "mean_gift_XR": 159624,
+     "mean_gift_A09": 174940,
+     "median_gift_XR": 165000,
+     "median_gift_A09": 170000,
+     "p_A09_bottom_under_100k": 0.0674
+    }
+   },
+   "R06_stock_fund_2028": {
+    "B0_p50": 31082,
+    "share_of_portfolio_p50": 0.0664,
+    "one_in_x_of_portfolio": 15.1,
+    "share_of_both_deposits_p50": 0.0691,
+    "share_of_2028_deposit_p50": 0.2072
+   }
+  }
+ },
+ "S6 yields fall 2pt just after the build, for good": {
+  "check_vs_L13_slide": {
+   "top_quoted_p5_p50_p95": [
+    100000,
+    145000,
+    170000
+   ],
+   "bottom_quoted_p50": 130000,
+   "p_top_reached": 0.9602,
+   "implied_over_vs_under_cost_ratio": 24.12,
+   "p_below_quoted_bottom": 0.0,
+   "gift_p5_p50_mean": [
+    100000,
+    145000,
+    141771
+   ],
+   "median_short_of_top_when_missed": 1062,
+   "width_p50": 15000,
+   "width_pct_of_top_p50": 10.3,
+   "p_width_over_20pct_of_top": 0.0046,
+   "p_payment_short_over_1k": 0.0005
+  },
+  "L14": {
+   "XR (V39)": {
+    "p_cheque_short_over_1k": 0.0005,
+    "bottom_quoted_p5_p50": [
+     95000,
+     130000
+    ],
+    "top_quoted_p5_p50": [
+     100000,
+     145000
+    ],
+    "gift_p5_p50_p95": [
+     100000,
+     145000,
+     170000
+    ],
+    "gift_mean": 141771,
+    "p_top_reached": 0.9602,
+    "p_below_quoted_bottom": 0.0,
+    "laura_2042_p50_mean": [
+     13552,
+     23725
+    ],
+    "gift_plus_laura2042_mean": 165496,
+    "p_bottom_below_125k": 0.3826,
+    "p_bottom_below_100k": 0.0793,
+    "worst5_2028_30": {
+     "bottom_p50": 115000,
+     "top_p50": 125000,
+     "gift_p5_p50": [
+      95000,
+      125000
+     ],
+     "laura_2042_p50": 10209
+    },
+    "best5_2028_30": {
+     "bottom_p50": 140000,
+     "top_p50": 165000,
+     "gift_p5_p50": [
+      120000,
+      165000
+     ],
+     "laura_2042_p50": 32661
+    }
+   },
+   "A09_pot_2031_p5_p50_p95": [
+    118478,
+    175371,
+    260609
+   ],
+   "XR_gift_money_2031_p5_p50_p95 (floor at 2031 yields + stocks)": [
+    134695,
+    163101,
+    183912
+   ],
+   "XR_stock_share_after_naming_p50": 0.145,
+   "A09 k=0.8": {
+    "p_cheque_short_over_1k": 0.0003,
+    "bottom_quoted_p5_p50": [
+     75000,
+     140000
+    ],
+    "top_quoted_p5_p50": [
+     85000,
+     155000
+    ],
+    "gift_p5_p50_p95": [
+     85000,
+     155000,
+     250000
+    ],
+    "gift_mean": 160678,
+    "p_top_reached": 0.9209,
+    "p_below_quoted_bottom": 0.0,
+    "laura_2042_p50_mean": [
+     18308,
+     28715
+    ],
+    "gift_plus_laura2042_mean": 189393,
+    "p_bottom_below_125k": 0.3509,
+    "p_bottom_below_100k": 0.1625,
+    "worst5_2028_30": {
+     "bottom_p50": 70000,
+     "top_p50": 80000,
+     "gift_p5_p50": [
+      50000,
+      80000
+     ],
+     "laura_2042_p50": 12440
+    },
+    "best5_2028_30": {
+     "bottom_p50": 245000,
+     "top_p50": 270000,
+     "gift_p5_p50": [
+      220000,
+      270000
+     ],
+     "laura_2042_p50": 48930
+    }
+   },
+   "A09 k=0.65": {
+    "p_cheque_short_over_1k": 0.0002,
+    "bottom_quoted_p5_p50": [
+     65000,
+     115000
+    ],
+    "top_quoted_p5_p50": [
+     85000,
+     145000
+    ],
+    "gift_p5_p50_p95": [
+     85000,
+     145000,
+     225000
+    ],
+    "gift_mean": 150440,
+    "p_top_reached": 0.8828,
+    "p_below_quoted_bottom": 0.0,
+    "laura_2042_p50_mean": [
+     36817,
+     53050
+    ],
+    "gift_plus_laura2042_mean": 203490,
+    "p_bottom_below_125k": 0.5656,
+    "p_bottom_below_100k": 0.2755,
+    "worst5_2028_30": {
+     "bottom_p50": 60000,
+     "top_p50": 80000,
+     "gift_p5_p50": [
+      50000,
+      80000
+     ],
+     "laura_2042_p50": 15240
+    },
+    "best5_2028_30": {
+     "bottom_p50": 195000,
+     "top_p50": 245000,
+     "gift_p5_p50": [
+      205000,
+      245000
+     ],
+     "laura_2042_p50": 99985
+    }
+   },
+   "kai_bet_A09_bottom_under_100k": {
+    "p": 0.1625,
+    "share_with_2028_30_stocks_down": 0.8199,
+    "share_in_worst_10pct_of_2028_30": 0.4874,
+    "median_2028_30_stock_return_pct": -14.2,
+    "p_stocks_down_2028_30_all_paths": 0.2305
+   },
+   "price": {
+    "median_gift_XR_minus_A09": -10000,
+    "mean_gift_XR_minus_A09": -18907,
+    "mean_gift_plus_laura2042_XR_minus_A09": -23897,
+    "p_XR_gift_higher": 0.3198,
+    "p_XR_bottom_higher": 0.3406,
+    "worst5_bottom_XR_minus_A09_p50": 45000,
+    "worst5_gift_XR_minus_A09_p50": 45000,
+    "best5_gift_XR_minus_A09_p50": -110000
+   },
+   "premium_test_gift_money_2033": {
+    "stocks 7.5%": {
+     "XR_p5_p50_mean": [
+      140330,
+      173318,
+      174055
+     ],
+     "A09_p5_p50_mean": [
+      124125,
+      188606,
+      195213
+     ],
+     "mean_gap_A09_minus_XR": 21158,
+     "p5_gap_XR_minus_A09": 16205
+    },
+    "stocks earn the Treasury yield": {
+     "XR_p5_p50_mean": [
+      136802,
+      166977,
+      167118
+     ],
+     "A09_p5_p50_mean": [
+      105346,
+      161137,
+      166865
+     ],
+     "mean_gap_A09_minus_XR": -253,
+     "p5_gap_XR_minus_A09": 31456
+    }
+   },
+   "kai_breakeven_stock_return": {
+    "0.030": {
+     "mean_gift_XR": 139463,
+     "mean_gift_A09": 142810,
+     "median_gift_XR": 140000,
+     "median_gift_A09": 140000,
+     "p_A09_bottom_under_100k": 0.2562
+    },
+    "0.040": {
+     "mean_gift_XR": 139964,
+     "mean_gift_A09": 146676,
+     "median_gift_XR": 144589,
+     "median_gift_A09": 145000,
+     "p_A09_bottom_under_100k": 0.2329
+    },
+    "0.050": {
+     "mean_gift_XR": 140470,
+     "mean_gift_A09": 150605,
+     "median_gift_XR": 145000,
+     "median_gift_A09": 145000,
+     "p_A09_bottom_under_100k": 0.2107
+    },
+    "0.060": {
+     "mean_gift_XR": 140986,
+     "mean_gift_A09": 154600,
+     "median_gift_XR": 145000,
+     "median_gift_A09": 150000,
+     "p_A09_bottom_under_100k": 0.1906
+    },
+    "0.075": {
+     "mean_gift_XR": 141771,
+     "mean_gift_A09": 160678,
+     "median_gift_XR": 145000,
+     "median_gift_A09": 155000,
+     "p_A09_bottom_under_100k": 0.1625
+    }
+   },
+   "R06_stock_fund_2028": {
+    "B0_p50": 19366,
+    "share_of_portfolio_p50": 0.0413,
+    "one_in_x_of_portfolio": 24.2,
+    "share_of_both_deposits_p50": 0.043,
+    "share_of_2028_deposit_p50": 0.1291
+   }
+  }
+ },
+ "S2 2028 deposit halved ($75k)": {
+  "check_vs_L13_slide": {
+   "top_quoted_p5_p50_p95": [
+    40000,
+    80000,
+    90000
+   ],
+   "bottom_quoted_p50": 65000,
+   "p_top_reached": 0.9667,
+   "implied_over_vs_under_cost_ratio": 29.04,
+   "p_below_quoted_bottom": 0.0,
+   "gift_p5_p50_mean": [
+    40000,
+    80000,
+    71946
+   ],
+   "median_short_of_top_when_missed": 1194,
+   "width_p50": 10000,
+   "width_pct_of_top_p50": 17.6,
+   "p_width_over_20pct_of_top": 0.2347,
+   "p_payment_short_over_1k": 0.0005
+  },
+  "L14": {
+   "XR (V39)": {
+    "p_cheque_short_over_1k": 0.0005,
+    "bottom_quoted_p5_p50": [
+     30000,
+     65000
+    ],
+    "top_quoted_p5_p50": [
+     40000,
+     80000
+    ],
+    "gift_p5_p50_p95": [
+     40000,
+     80000,
+     90000
+    ],
+    "gift_mean": 71946,
+    "p_top_reached": 0.9667,
+    "p_below_quoted_bottom": 0.0,
+    "laura_2042_p50_mean": [
+     18092,
+     27995
+    ],
+    "gift_plus_laura2042_mean": 99941,
+    "p_bottom_below_125k": 1.0,
+    "p_bottom_below_100k": 1.0,
+    "worst5_2028_30": {
+     "bottom_p50": 55000,
+     "top_p50": 65000,
+     "gift_p5_p50": [
+      30000,
+      65000
+     ],
+     "laura_2042_p50": 12595
+    },
+    "best5_2028_30": {
+     "bottom_p50": 70000,
+     "top_p50": 90000,
+     "gift_p5_p50": [
+      55000,
+      90000
+     ],
+     "laura_2042_p50": 39714
+    }
+   },
+   "A09_pot_2031_p5_p50_p95": [
+    53604,
+    85723,
+    129636
+   ],
+   "XR_gift_money_2031_p5_p50_p95 (floor at 2031 yields + stocks)": [
+    58375,
+    84951,
+    99275
+   ],
+   "XR_stock_share_after_naming_p50": 0.222,
+   "A09 k=0.8": {
+    "p_cheque_short_over_1k": 0.0005,
+    "bottom_quoted_p5_p50": [
+     30000,
+     70000
+    ],
+    "top_quoted_p5_p50": [
+     35000,
+     80000
+    ],
+    "gift_p5_p50_p95": [
+     35000,
+     80000,
+     130000
+    ],
+    "gift_mean": 79271,
+    "p_top_reached": 0.9456,
+    "p_below_quoted_bottom": 0.0003,
+    "laura_2042_p50_mean": [
+     17979,
+     25653
+    ],
+    "gift_plus_laura2042_mean": 104924,
+    "p_bottom_below_125k": 0.9699,
+    "p_bottom_below_100k": 0.8563,
+    "worst5_2028_30": {
+     "bottom_p50": 35000,
+     "top_p50": 40000,
+     "gift_p5_p50": [
+      10000,
+      40000
+     ],
+     "laura_2042_p50": 13596
+    },
+    "best5_2028_30": {
+     "bottom_p50": 125000,
+     "top_p50": 140000,
+     "gift_p5_p50": [
+      95000,
+      140000
+     ],
+     "laura_2042_p50": 32989
+    }
+   },
+   "A09 k=0.65": {
+    "p_cheque_short_over_1k": 0.0003,
+    "bottom_quoted_p5_p50": [
+     25000,
+     60000
+    ],
+    "top_quoted_p5_p50": [
+     35000,
+     75000
+    ],
+    "gift_p5_p50_p95": [
+     35000,
+     74053,
+     115000
+    ],
+    "gift_mean": 73373,
+    "p_top_reached": 0.9274,
+    "p_below_quoted_bottom": 0.0,
+    "laura_2042_p50_mean": [
+     30156,
+     39021
+    ],
+    "gift_plus_laura2042_mean": 112394,
+    "p_bottom_below_125k": 0.9961,
+    "p_bottom_below_100k": 0.9655,
+    "worst5_2028_30": {
+     "bottom_p50": 30000,
+     "top_p50": 40000,
+     "gift_p5_p50": [
+      10000,
+      40000
+     ],
+     "laura_2042_p50": 15644
+    },
+    "best5_2028_30": {
+     "bottom_p50": 100000,
+     "top_p50": 125000,
+     "gift_p5_p50": [
+      85000,
+      125000
+     ],
+     "laura_2042_p50": 59100
+    }
+   },
+   "kai_bet_A09_bottom_under_100k": {
+    "p": 0.8563,
+    "share_with_2028_30_stocks_down": 0.2692,
+    "share_in_worst_10pct_of_2028_30": 0.1168,
+    "median_2028_30_stock_return_pct": 17.7,
+    "p_stocks_down_2028_30_all_paths": 0.2305
+   },
+   "price": {
+    "median_gift_XR_minus_A09": 0,
+    "mean_gift_XR_minus_A09": -7325,
+    "mean_gift_plus_laura2042_XR_minus_A09": -4983,
+    "p_XR_gift_higher": 0.3322,
+    "p_XR_bottom_higher": 0.2545,
+    "worst5_bottom_XR_minus_A09_p50": 20000,
+    "worst5_gift_XR_minus_A09_p50": 25000,
+    "best5_gift_XR_minus_A09_p50": -50000
+   },
+   "premium_test_gift_money_2033": {
+    "stocks 7.5%": {
+     "XR_p5_p50_mean": [
+      63237,
+      93226,
+      92359
+     ],
+     "A09_p5_p50_mean": [
+      57697,
+      95123,
+      98040
+     ],
+     "mean_gap_A09_minus_XR": 5681,
+     "p5_gap_XR_minus_A09": 5540
+    },
+    "stocks earn the Treasury yield": {
+     "XR_p5_p50_mean": [
+      60854,
+      89795,
+      88621
+     ],
+     "A09_p5_p50_mean": [
+      51171,
+      85788,
+      88442
+     ],
+     "mean_gap_A09_minus_XR": -179,
+     "p5_gap_XR_minus_A09": 9683
+    }
+   },
+   "kai_breakeven_stock_return": {
+    "0.030": {
+     "mean_gift_XR": 70346,
+     "mean_gift_A09": 70364,
+     "median_gift_XR": 75000,
+     "median_gift_A09": 70000,
+     "p_A09_bottom_under_100k": 0.9257
+    },
+    "0.040": {
+     "mean_gift_XR": 70693,
+     "mean_gift_A09": 72294,
+     "median_gift_XR": 75000,
+     "median_gift_A09": 70000,
+     "p_A09_bottom_under_100k": 0.9129
+    },
+    "0.050": {
+     "mean_gift_XR": 71040,
+     "mean_gift_A09": 74263,
+     "median_gift_XR": 79845,
+     "median_gift_A09": 75000,
+     "p_A09_bottom_under_100k": 0.8984
+    },
+    "0.060": {
+     "mean_gift_XR": 71396,
+     "mean_gift_A09": 76239,
+     "median_gift_XR": 80000,
+     "median_gift_A09": 75000,
+     "p_A09_bottom_under_100k": 0.8825
+    },
+    "0.075": {
+     "mean_gift_XR": 71946,
+     "mean_gift_A09": 79271,
+     "median_gift_XR": 80000,
+     "median_gift_A09": 80000,
+     "p_A09_bottom_under_100k": 0.8563
+    }
+   },
+   "R06_stock_fund_2028": {
+    "B0_p50": 15166,
+    "share_of_portfolio_p50": 0.0387,
+    "one_in_x_of_portfolio": 25.9,
+    "share_of_both_deposits_p50": 0.0404,
+    "share_of_2028_deposit_p50": 0.2022
+   }
+  }
+ }
+}
