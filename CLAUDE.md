@@ -280,7 +280,7 @@ VERIFIED 2026-09-27 by the insight_v1 run (primary pages; details in `keel/libra
       31-stock default universe marked "Wharton-approved" are not official
 
 ## Repo map
-One-screen map: `README.md` (rewritten 23 Oct around Team Keel). Top level: `keel/` (Keel: members, episodes,
+One-screen map: `README.md` (rewritten 23 Oct around Team Keel). Paste-ready briefing on the whole competition for another AI (ChatGPT), 1 Nov: `keel/CHATGPT_BRIEF.md`. Top level: `keel/` (Keel: members, episodes,
 tea_room, road_to_semifinal, office/, routines/, library/ = all AI research), `caplet/` (the students' work: Drive
 snapshots, deliverables, decisions, docs/AI_USE.md), `competition/` (official files; historical in
 `competition/historical/`), `toolkit/` (September Python demo: `cd toolkit && pytest`, 64 passing; configs in
