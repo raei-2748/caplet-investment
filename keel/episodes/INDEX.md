@@ -48,6 +48,7 @@ Google Doc copy (Drive, 23 Oct): https://docs.google.com/document/d/1wXYUnCznrU2
 | 32 | Wed 28 Oct | [The one that isn't bought](2026-10-28_ep32.md) | Nora | light | First research round: the birthday sentence's one exception (the coupon gap) becomes the question; 4-2 over "five new ideas"; three new fields | Round 1 question (Keel) | 4bp |
 | 33 | Thu 29 Oct | [Two tins](2026-10-29_ep33.md) | Amara | light | Round 2: Wharton's "framework"; the gurdwara's two tins; who may take, for what, and when the rule bends | Round 2 question (Keel) | -1bp |
 | 34 | Fri 30 Oct | [Eight words](2026-10-30_ep34.md) | Jun | light | Round 3: why a range, and what each end costs; Jun hunts the question his own line opened; the two ends cost different people | Round 3 question (Keel) | -1bp |
+| 35 | Sat 31 Oct | [The rival's best plan](2026-10-31_ep35.md) | Tess | light | Book 10 lands; Tess names the 18:20 vote; round 4: why not a safe ladder and the rest in stocks? V39 never meets the rival: a missing paragraph, not a weak line | Round 4 question (Keel) | -1bp |
 
 ## Milestones at a glance
 - **Values and culture:** 27 Sep (four values), 17 Oct (value 4 added). `../CULTURE.md`

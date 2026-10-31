@@ -1,12 +1,11 @@
 # FICTION (the room) + real drafts. The Writing Room
 
 ## Now
-- **Doing:** round 3 beat 7 (30 Oct): five requests in one read; B2 vs B3 vs a per-end-odds B3, every arm with the fact fix, three blind readers (`../ips_rewrite/inbox/2026-10-30_writing-room.md`)
-- **Decided:** lean B3W for Saturday (500): the range's why as "each end as sure as its miss is costly" (3 of 3 advanced it); deletion line "Wipe out every share and the cheques barely notice; the gift does." (3 of 3 over "never hurt one"); slide "off the range"; "co-sponsors'"; "one dollar in fifteen" out
-- **Next:** Sat 31 Oct: the review read of whatever the Long Room picks (HOLE/FAT); "stand or fall as one" (3 of 3 tripped) and "why a range once locked" (2 of 3) stay open
-- **For the judges:** a range whose two ends say why they differ, and a deletion test that is true and believed
-- **Updated:** 2026-10-30 17:05 Sydney
-
+- **Doing:** round 4 beat 7 (31 Oct): Q12 priced (XR v A09 on the suite engine) and two whole-idea arms on V45 read by the six-judge panel (`../ips_rewrite/inbox/2026-10-31_writing-room.md`)
+- **Decided:** lean LR-08's paragraph (Laura's Room; 485): a second blind panel put it first (1.83 v our Q3 2.83 v V45 3.0; beats Q3 5-1, V45 4-2) because it prices the floor in all her money ($9k) not the gift alone ($4k); Q1 out (cutting the lock cost range confidence)
+- **Next:** Sun 1 Nov: the Courtroom's verdict on LR-08 v V45 and the Lab's L-13-chain A09 numbers; then whether one clause of the 60/40 concession rides inside Q3
+- **For the judges:** the plan defended against the rival competent teams actually bring, with its price in dollars
+- **Updated:** 2026-10-31 17:40 Sydney
 
 > AI DRAFT material throughout (Claude); not for submission as written. (Keel is a simulated team, AI-written.)
 
@@ -15,6 +14,8 @@
 > Rule: flag only hard issues (limits, rule breaches, facts, numbers, formatting) with minimal edits; never reword
 > for taste or soften a confident claim. Suggestions stay in the repo; never touch the Google Docs.
 
+> **State (Sat 31 Oct, 16:20 run):** beat 7 done; arms Q1/Q3, `a09_price.py` and results in `../drafts/writing_room_2026-10-31/`; panel `../ips_rewrite/judges/panel_WR31/`. Open to this room: nothing.
+>
 > **State (Fri 30 Oct, 16:20 run):** beat 7 done; texts + `build.py` + `cold_reads.md` in `../drafts/writing_room_2026-10-30/` (rerun `build.py` after any change to the Courtroom's B2/B3). Open to this room: nothing; B3W is at exactly 500.
 >
 > **State (Thu 29 Oct, 16:20 run):** beat 7 done; texts + `build.py` + `cold_reads.md` in `../drafts/writing_room_2026-10-29/` (rerun `build.py` after any V29 change). Open to this room: nothing.
@@ -49,3 +50,4 @@
 - 26 Oct: `--voice` meter (R03 habits). Rhythm metrics were dropped as flags after they fired 5 times on Orwell.
 - 24 Oct: `textcheck.py` overclaim list now also catches "secures" and "guarantees" (it matched whole words only, so
   "secured" missed "secures").
+| Sat 31 Oct (16:20) | V45 (D25) + arms Q1, Q3 | V45 pitch 50 / IPS 496; Q1 497; Q3 493 | 5: "Do not crush." (3 judges); "97 in 100" unexplained (3); floor "grows back into all of it" beside the leak; "one in sixty" basis; Q3 date fixed | `../office/outbox/2026-10-31_writing-room_the-price-of-the-floor.md` |

@@ -834,6 +834,45 @@ in `../../loop/rounds/2026-10-30.md`, slip S-08 in `../../rooms/library.md`). Q1
   https://ocw.mit.edu/courses/15-772j-d-lab-supply-chains-fall-2014/6952be57b43aa185119c6f114908bcc5_MIT15_772JF14_Newsboy.pdf.
   Takes: the critical fractile, underage / (underage + overage). Bank #84.
 
+Added by the Library, Sat 31 Oct 2026 (accessed 31 Oct 2026; quoted lines found in the fetched page text; round 4 beat 4
+in `../../loop/rounds/2026-10-31.md`, slip S-09 in `../../rooms/library.md`). Q12, why not a safe ladder and the rest in stocks:
+- Harvard Magazine (18 Feb 2009). Faust: University Will Slow Pace of Construction in Allston:
+  https://www.harvardmagazine.com/index%2ephp/2009/02/harvard-to-slow-pace-of-construction-in-allston; Faust, D. G.
+  (18 Feb 2009), letter to the community: https://www.harvard.edu/president/news-faust/2009/letter-to-the-community-2009/;
+  Harvard Magazine (Dec 2009), Harvard delays Allston construction, campus development:
+  https://harvardmagazine.com/2009/12/harvard-delays-allston-campus-planning-development. Takes: endowment down 30%
+  from $36.9bn; construction slowed, then "pauses indefinitely". Bank #95.
+- Hughes, C. J. (22 Jan 2009). Recession Halts Yale Construction Projects. *Architectural Record*:
+  https://www.architecturalrecord.com/news/daily/archives/090122yaleconstruction.asp; *Daily Princetonian* (Apr 2009),
+  U. postpones $695 million in construction projects:
+  https://www.dailyprincetonian.com/article/2009/04/u-postpones-695-million-in-construction-projects. Bank #95.
+- UNC Chapel Hill. Capital Gift Funding Policy (2021, modified 2026):
+  https://policies.unc.edu/TDClient/2833/Portal/KB/Article/132150/Capital-Gift-Funding-Policy. Takes: 100% in cash
+  before the award (85% exception). Bank #95.
+- Government Finance Officers Association (2022). Investment and Management of Bond Proceeds (best practice):
+  https://www.gfoa.org/materials/investment-and-management-of-bond-proceeds. Bank #96.
+- California Government Code s 53601 (local agency investments), at California Public Law:
+  https://california.public.law/codes/government_code_section_53601. Bank #96.
+- Washington State Legislature (1999-2000). Senate Final Bill Report, SSJR 8208:
+  https://lawfilesext.leg.wa.gov/Biennium/1999-00/Htm/Bill%20Reports/Senate/8208-S.FBR.htm. Bank #96.
+- California Legislative Analyst's Office (1 Sep 1995). A Review of the Orange County Recovery Plan as Proposed August
+  22, 1995: https://lao.ca.gov/1995/090195_orange_county/orange.html; Wood, D. B. (16 Dec 1994). Orange County Debt
+  Squeeze Felt From Precinct to Classroom. *Christian Science Monitor*:
+  https://www.csmonitor.com/layout/set/amphtml/1994/1216/16014.html. FR cautionary tale only (leveraged bonds). Bank #96.
+- Zulauf, C. (15 Nov 2012). 2012 Drought, the Harvest Price Option, and Forward Contracting. *farmdoc daily*:
+  https://farmdocdaily.illinois.edu/2012/11/2012-drought-the-harvest-price.html. Takes: best ratio 20-31% of expected
+  production. Bank #97.
+- Schnitkey, G. (24 Jul 2012). Consider Hedging RP Guarantee before Harvest. *farmdoc daily*:
+  https://farmdocdaily.illinois.edu/2012/07/consider-hedging-rp-guarantee.html; Schnitkey, G. and Coppess, J. (15 May
+  2018). Pre-Harvest Hedging and Revenue Protection. *farmdoc daily* (8):88:
+  https://farmdocdaily.illinois.edu/2018/05/pre-harvest-hedging-revenue-protection.html. Bank #97.
+- Leer, S. (27 Jun 2012). Drought could cost farmers with future delivery contracts. Purdue University News:
+  https://www.purdue.edu/newsroom/archive/releases/2012/Q2/drought-could-cost-farmers-with-future-delivery-contracts.html;
+  Walters, C. and Preston, R. (2022). Historical Corn Price Evolution Implications for Pre-harvest Hedging. UNL CAP:
+  https://cap.unl.edu/news/historical-corn-price-evolution-implications-pre-harvest-hedging. Bank #97.
+- Zulauf, C. R. and Irwin, S. H. (1998). Market Efficiency and Marketing to Enhance Income of Crop Producers. *Review of
+  Agricultural Economics* 20(2), 308-331 (working paper 1997): https://ideas.repec.org/p/wpa/wuwpfi/9711004.html. Bank #97 (the break).
+
 ## Part 3. Five "aha" syntheses
 
 ### Aha 1. Laura's gift is a capped, principal-protected note, built without a single derivative

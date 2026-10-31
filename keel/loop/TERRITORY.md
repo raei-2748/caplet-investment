@@ -23,7 +23,7 @@
 | Fixed income: immunisation, dedication, duration | Many; Aha 4, L-01, L-09 (dedicated ladder, killed for the IPS 27 Oct), M-squared (R05 #7) | mined | 3 |
 | Pensions and liability-driven investing | I-06; R05 #4 (UK low dependency), #5 (New York 7); Aha 4 | mined | 2 |
 | Capital-protected notes and option payoffs | Aha 1; L-07 (the fund is the floor's interest taken up front); D4 Lehman line | mined | 3 |
-| Endowments and spending rules | 27 Oct Library rung 1: Yale 80/20, Tobin, Norway 3%, Bengen 4% (C-01) | promising | 2 |
+| Endowments and spending rules | 27 Oct Library rung 1: Yale 80/20, Tobin, Norway 3%, Bengen 4% (C-01); 31 Oct, Nora (round 4, deepened): Harvard paused Allston at -30% (2009), Yale and Princeton shelved buildings tied to markets, UNC collects 100% cash before a building contract | mined | 2 |
 | Charitable trusts and the IRS 5% exhaustion test | 27 Oct S-05 (sum certain; CRAT vs CRUT) | promising | 2 |
 | Securitisation, tranching, waterfalls | R05 #11, S2; L-10 (last in line: hypothesis binned, coverage test kept) | mined | 2 |
 | Bank liquidity crises (SVB 2023, March 2020) | R05 #9, #10 | mined | 1 |
@@ -58,7 +58,7 @@
 | Precommitment: Ulysses contracts, commitment devices | 29 Oct, Jun (round 2): Grundgesetz 115(2) (a bend needs a vote and a repayment plan); EU escape clause COM(2020) 123 (procedures not suspended); self-binding directives "cannot be revoked" in the crisis they name | mined (every override form fell for the IPS in C-03: a free option the co-sponsors pay for; FR material) | 1 |
 | Taiwan: arts residencies, foundations, how cultural venues are funded | | unvisited | |
 | Construction finance: retainage, progress payments, contingencies | 28 Oct, Felix (round 1): securities in lieu of retainage (Cal. PCC §22300); who keeps unused contingency (ConsensusDocs 2023); FAR 52.216-4 escalation | promising (retainage is released on completion, not a date: a deeper question) | 2 |
-| Public budgeting: earmarked funds, rainy-day funds | | unvisited | |
+| Public budgeting: earmarked funds, rainy-day funds | 31 Oct, Amara (round 4): GFOA (bond proceeds invested no longer than the drawdown schedule), California Gov. Code list (no shares, five-year cap), Orange County 1994, Washington SSJR 8208 (stocks only for money without a deadline) | promising | 2 |
 | Contract law: liquidated damages, "time is of the essence" | | unvisited | |
 
 ## Far: everything else (the road less taken)
@@ -71,6 +71,7 @@
 | Aviation: fuel reserves, minimums | S-01 candidates (parked) | unvisited (only listed) | |
 | Mountaineering: turnaround times, fixed ropes, caches | | unvisited | |
 | Space missions: launch windows, delta-v budgets, gravity assists | | unvisited | |
+| Agriculture: forward-selling part of a crop, hedge-to-insured-bushels | 31 Oct, Jun (round 4): farmers pre-sell a quarter to a third of the expected crop; lock more as it gets sure; 2012 spring hedging punished; the break: for a farmer the hedge is nearly free, for Laura it costs the equity premium (priced by L-14, C-04) | promising | 3 |
 | Clinical trials: pre-registration, stopping rules | L-06 ("Pre-Registered" package) | promising | 1 |
 | ICU and triage: reserves, handovers, early-warning scores | 29 Oct, Nora (round 2): NEWS2 (one red score triggers alone; concern overrides), NSW PD2025_014 (signed, expiring alterations; escalate on silence), ward studies (alarms that stay on stop being answered) | mined (its contrast made the champion: a ward needs alarms because a crash has no date, and every flow in Laura's case has one; handovers and triage reserves still unvisited, a new field if ever needed) | 3 |
 | Theatre: cue sheets, the "go" that cannot be taken back | 28 Oct, Tess (round 1): tracking and the block (ETC Eos); fix in the programming before the next show (CCSU 2025); the pre-show lamp check (USU) | mined | 2 |
@@ -116,5 +117,8 @@ make them do it, the next member in the list takes the job.
 | Fri 30 Oct | 3 | Felix | IPO bookbuilding, the indicative price range (near) | his cousin's float, priced at the bottom of its range | 3 finds; quotes checked at the page (1 left not re-checked) | Half of US IPOs price outside their own file range; Laura's can't miss hers, because the bottom is owned and the top is a cap, so the honest confidence to state is the top's (#87). The Window's SEC find (a range over 20% of its top isn't bona fide) became a width test, parked to the FR (#83) | mined |
 | Fri 30 Oct | 3 | Tess | Capital campaigns, the quiet phase and the public goal (adjacent; deepened C5's field) | the school hall appeal whose thermometer started at sixty | 3 finds (2 lines not re-checked) | Seed money read at the source: announcing 67% instead of 10% of the goal drew "nearly sixfold" gifts, so the low side of the range costs the co-sponsors' giving, not Laura (#85). Lost as wording (B3S 0-3, 0-2); came back after Book 10 as V33's "high enough that her lead gift draws bigger ones" | mined |
 | Fri 30 Oct | 3 | Kai | Weather forecasts that give each end its own chance (far) | his rain app, "fifty per cent, two to eight mil" | 3 finds (3 lines not re-checked); the round's 50/25 corrected to the BoM's 75/25 at the gate | Each end of a range gets its own chance, and what missing it costs sets the chance (#84): became "each end as sure as its miss is costly" (B3W, 5 of 5 blind readers), the C5 holder | mined |
+| Sat 31 Oct | 4 | Nora | Endowments and dated capital promises (near, deepened) | her dad buys the tiles the day the quote's signed | 3 finds; round total 47 / 54 lines verified at the page, 7 not re-checked (none carries a "so") | UNC won't award a building contract until 100% of the budget is cash: "we won't let Laura name a bottom until she owns it". Harvard's 2009 pause became bank #95 and the Lab's parked C (FR) | mined |
+| Sat 31 Oct | 4 | Amara | Public budgeting, earmarked capital funds (adjacent) | the gurdwara kitchen fund in a term deposit while the quotes come in | 3 finds + a bonus (one Washington list not re-checked; whether voters passed SSJR 8208 UNVERIFIED) | Money with a date is bought to its date; Washington lets only money without a deadline own shares, the exact line XR draws between floor and fund (bank #96). Honest cost: no city could put the floor's interest in stocks | promising |
+| Sat 31 Oct | 4 | Jun | Farmers who forward-sell part of a crop (far) | his running splits, even pace against a negative split | 3 finds (Hurt's example worked by the scout) | The round's biggest break: locking is nearly free for a farmer but costs Laura the stock premium. It forced the price into the open (L-14, LR-08, C-04), and the promoted paragraph now ends "We'd pay" it (bank #97) | promising |
 
 (Keel is a simulated team, AI-written.)

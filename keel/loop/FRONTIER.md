@@ -23,6 +23,7 @@
 | Q8 | The decision framework (Book 7's "as the client's needs change") | Round 2, Thu 29 Oct (`rounds/2026-10-29.md` beats 4-9) | B2's line: "Every rule here fires in a year the case already set, never on a hunch; if needs change, the change lands on what isn't yet promised, never a cheque." Wards need alarms because a crash has no date; every flow in Laura's case has one. Beat V29 2-0 cold; open price: the range's why (F8) |
 | Q9 | The 2027 year | Round 2 side check (Lab L-12; Writing Room H2-H3; Archive A24) | Bigger than -$224: without the 2028 deposit a cheque is short >$1k in 57% of MODEL paths, so the first ~$50k of it is cheque money. The IPS says so in two clauses ("buys them, or nearly"; "money she expects insures it, then carries risk"), which the IBTR and IBTO notes already promised; the deposit sweep goes to the FR |
 | Q10 | Why the 2031 range exists, and what each end costs | Round 3, Fri 30 Oct (`rounds/2026-10-30.md` beats 4-9) | Each end as sure as its miss is costly: the bottom is money she owns, because missing it breaks her word; the top is a hope, because missing it trims co-sponsors' plans (B3W, 5 of 5 blind readers; Kai's weather field). The top's reason for being went on as Q11. Book 10's V33 then put the signal back ("high enough that her lead gift draws bigger ones") |
+| Q12 | Why not a safe ladder and the rest in stocks? | Round 4, Sat 31 Oct (`rounds/2026-10-31.md` beats 4-9) | Answer A09 by name and say the price out loud: matched to name the same $145,000 median bottom, it leaves Laura more on average (about $15,000 by 2042 on V45's own design, Archive A26; $19,000 on LR-08's engine) but names about $90,000 against our $140,000 in the worst twentieth of 2028-30 markets, the years giving falls too (W-04). LR3 (Courtroom, AMENDED 5-0; panel C04 1.83) offered to the rewrite thread |
 
 ## 2. Open flaws (each one is a job for the next builder)
 | # | Flaw | In | Found by (date) | Status |
@@ -37,7 +38,10 @@
 | F8 | B2 lost the range's why: the two embarrassments (too low costs gifts, too high her word) and the donor evidence behind them; both cold readers docked Client Knowledge one point | C5, C13 | Courtroom C-03 (29 Oct) | closed Fri 30 Oct: B3W's per-end odds won 3-0 and 2-0 (V30); what it cost is F10 |
 | F9 | Two phrases both cold readers couldn't decode: "about one dollar in fifteen" and the floor "sized to regrow what's left by 2033" | C1, C6 | Courtroom C-03 (29 Oct) | open: B3 cuts the second; the first needs one plain clause or goes to the FR |
 | F10 | V30's top has a cost of missing but no reason for being: B3W deleted the signal ("bigger lead gifts draw bigger gifts"), and no text says what can still move a locked gift (only the cheques' 2033 top-up) | C5 | Long Room, Jun's LS-11 read + fundraiser reader (30 Oct) | open: Q11, round 4 (Sat 31) |
-| F11 | V33's certainty paragraph quotes a break point from another plan: "her 2028 deposit comes in under about $85,000" is K07 T7 on V25's design; on V33's design an $85k deposit after a 2pt fall leaves a cheque short in 19.2% of MODEL paths (break about $125k). And para 7 "her 2028 deposit never carries a cheque" contradicts para 6, the IBTO and IBTR notes, and A24 | C3, C4 | Archive A25 (30 Oct; `../rooms/archive_checks/A25_deposit_corner.py`) | half closed: V36 rewrote para 7 (consistent); open: para 6 "$85,000" -> "$125,000" (0 words) + "In our model" (+2), `../ips_rewrite/inbox/2026-10-30_archive.md` |
+| F11 | V33's certainty paragraph quotes a break point from another plan: "her 2028 deposit comes in under about $85,000" is K07 T7 on V25's design; on V33's design an $85k deposit after a 2pt fall leaves a cheque short in 19.2% of MODEL paths (break about $125k). And para 7 "her 2028 deposit never carries a cheque" contradicts para 6, the IBTO and IBTR notes, and A24 | C3, C4 | Archive A25 (30 Oct; `../rooms/archive_checks/A25_deposit_corner.py`) | closed 31 Oct: V39-V45 carry "$125,000", this design's own break (Window 31 Oct: holds) |
+| F12 | LR3's "$19,000" (twice) is LR-08's engine, not V45's design: on the L-13 chain with A09 matched to the same $145,000 median bottom, the mean lead is $13.7k-$16.6k (S0/S1, k = 0.75-0.77; `../rooms/archive_checks/A26_results.json`). The $145,000 and the $90,000 v $140,000 hold on V45's design | C7 (LR3) | Archive A26 (31 Oct) | open: "$19,000" -> "$15,000", both places (0 words) |
+| F13 | LR3 says the rival "sells stocks in January 2031, whatever they fetch that morning"; V45 sells the promised half on naming day too, whatever it fetches. A judge can turn the jab on us. The true difference is which end rides that morning: A09's bottom, our top | C7 (LR3) + V45 para "A capped range" | Archive A27 (31 Oct) | open: "and buys its bottom in January 2031 with whatever its stocks fetch that morning" (-1 word) |
+| F14 | "Laura is willing to take thoughtful risks" turns the case's past career line ("has been willing ... throughout her entrepreneurial career, she wants ... an appropriate balance") into a present portfolio preference | C7 (LR3), Client Knowledge | Archive A28 (31 Oct) | open: "Laura has taken thoughtful risks all her career" (+1, paid by F13's -1) |
 
 ## 3. Stepping stones (ideas that lost, or haven't found their place, but left something to build from)
 | # | Stone | What it left | Where it might lead | From |
@@ -57,49 +61,53 @@
 | S13 | The signed, expiring exception (NSW PD2025_014, Grundgesetz 115) | A bend needs a signature, an expiry and its way back; silence means the default | Fell for the IPS (a delay is a free option the co-sponsors pay for: top 84.6% -> 73.6%, MODEL); "silence means the default" survives inside the four doors; FR | Library N2/J1, Lab L-12 B, Courtroom C-03 |
 | S14 | The one-way valve: "smaller before it is named, or safe sooner; never bigger, never later" (the clearing house) | The one rule's own "no later than", read as a margin call | Fell for the IPS (no new power beyond the lock); the FR's reading of "no later than" | Laura's Room LR-06, Courtroom C-03 |
 | S15 | Smoothing breaks for promises (Norway, Alaska) | Funds that never end may smooth; a named gift must be marked. What transfers is the cap: never more than the pot holds | FR: the outside proof that the top is capped by what she owns (bank #80) | Library A2-A3 |
+| S16 | Cash before the contract (UNC capital gift policy) | A university won't award a building contract until 100% of the budget is cash; Laura doesn't name a bottom until she owns it | FR, the outside proof of C5's bottom; at most one IPS clause if LR3 loses | Library N3, Sat 31 Oct |
+| S17 | Money with a deadline may not own shares (Washington SSJR 8208, California's list) | Convicts XR's stock fund too: no city could buy shares with the floor's interest | The FR's honest weakness, beside A2: our shares are the money without a deadline | Library A2 + bonus, Sat 31 Oct |
+| S18 | A09 at k = 0.65 (locks less, names $125k) | Matched by stock share, A09's lead grows to ~$29k but its bottom falls; the match rule decides the price | FR: show the price at two match rules, never one | Lab L-14; Archive A26 |
 
 ## 4. Tomorrow's scouting orders (written by the send-off at 20:20; Nora may change them at 07:00)
-**Round 3, Fri 30 Oct (written by the Kitchen, Thu 29 Oct, 20:20).** Question: **Q10, why a range, and what each end
-costs** (flaw F8 turned into a question). Round 2 gave the IPS a framework (B2, 2-0 cold) and paid for it with the
-range's why: both readers docked Client Knowledge, and the case itself names both costs (a meaningful contribution "may signal that
-the residency is financially viable"; promising more than she can give "could damage her credibility", case :110-114). B3 puts eight words back; the Writing Room reads it blind on Fri 30
-anyway. The scouts' job is to make those words *true to how practitioners do it*, or replace them with a better why.
-**Who quotes a range to people who will build on it, how do they set each end, and what does a miss on either side
-cost them?** Lens: **22, what did we give up?** (never drawn): each scout names, in their field, what a range-setter
-loses for a miss on the low side and on the high side, in money or in trust, and where that breaks for Laura (LS-04:
-the break first). Rotation row 3: scouts **Felix, Tess, Kai**; flaw-hunter **Jun**; cold judge **Amara**; builder
-**Nora** (Jun hunts flaws today, and the builder never hunts their own challenger, so Nora, free in row 3, builds at
-13:40; Kai's call on the roast stays). LS-10: one paragraph, the range paragraph (B2/B3 para 8); its two beats are the
-Lab's build and the Writing Room's read; the Long Room (beat 8, even date) votes, it doesn't redraft. TERRITORY rule 2
-starts today: Tess deepens a champion's field. Book 9 check: the question is the 2031 promise, the case's own centre,
-not a word fix.
-- **Near, Felix (Haiku 5.5, breadth): IPO bookbuilding and the indicative price range** (`unvisited`, new row
-  tonight). A float is marketed on a price range; the book decides the price; pricing below the range, or cutting the
-  range, is read as weakness, and above it as demand left on the table. US rules are said to let the final price move
-  a set tolerance outside the range without a new prospectus (Rule 430A; the 20% figure is UNVERIFIED, the Kitchen's
-  fetch was blocked). Bring back: how bookrunners pick the two ends, how often deals price outside (any primary data),
-  and what each miss costs the issuer. New ground: the first near field where a range is *sold to buyers who commit
-  on it*, exactly the co-sponsors' position. (door: Felix's cousin's float, priced at the bottom of its range)
-- **Adjacent, Tess (Sonnet 5.5, depth; deepens a champion's field): fundraising, the capital campaign's quiet phase
-  and seed money** (`promising`, R05 #18, C5's donor evidence). Campaigns are said to announce a public goal only once
-  a large share is already pledged (the "quiet phase"; share UNVERIFIED). Re-read bank #6's study at the source (List
-  and Lucking-Reiley 2002, *Journal of Political Economy*): the Window flagged a donor study "read backwards" on 27 Oct,
-  so check the direction before any line leans on it. Bring back: how a campaign sets its public number, what a missed
-  goal costs, and whether "announce only what you already own" is their rule too. New ground: from *what moves
-  donors* (visited) to *how the asker sets the number* (never asked). (door: the school hall appeal whose thermometer
-  started at sixty)
-- **Far, Kai (Opus 5.5, the cross-domain link): weather forecasts that give each end of a range its own chance**
-  (`unvisited`, new row tonight). The Bureau of Meteorology's "possible rainfall" range is said to pair a lower amount
-  with a 50% chance of being exceeded and an upper amount with 25% (UNVERIFIED: fetch the BoM's own explanation page).
-  Our range is the same shape: a bottom that is as sure as the bonds, a top reached about six times in seven (L-12,
-  MODEL). Bring back: why a forecaster gives two ends two different odds, how the public misreads them, and whether
-  "each end, its own chance" says the range's why in fewer words than "too low costs gifts; too high, her word". New
-  ground: the first far field about *communicating* a range, not setting one. (door: Kai's rain app, "fifty per cent,
-  two to eight mil", and he got the eight)
-- **Off duty, the doors** (fiction; what comes back through them must be real, fetched sources): Felix's cousin's float
-  priced at the bottom of its range; Tess's school appeal started its thermometer at sixty; Kai walked home from the
-  phone shop through the top of the rain forecast.
-- **Not tomorrow:** Q7 (Laura's Januaries from 2033) goes to Laura's Room by request (Sun 1 Nov) through Nora's
-  blister pack, not a round. Jun's timetable padding and Amara's prepaid langar are TERRITORY candidates only.
+
+**Round 4, Sat 31 Oct (written by the Rooftop, Fri 30 Oct, 20:20; huddle H-004, Tess, Kai, Felix, 3 rounds).**
+Question: **Q12, why not a safe ladder and the rest in stocks?** Not Q11 (the Long Room's order): V36 already says
+both halves ("high enough that her lead gift draws bigger ones"; "the rare miss is about $1,000"), and a fourth day on
+one paragraph is the "very small and hyper-specific thing" Book 10 named. Q11 rides second, only if Tess finds a V36
+line it breaks. Two of six blind judges in panel 4 put **A09** first: the same Treasury ladder for the cheques, about
+80% world stocks on top, the 2031 bottom moved into Treasuries when it's named (`../ips_rewrite/rivals/A09.md`). V36
+beats a 60/40 and a three-quarters-stocks plan in words; it never argues with A09. The difference that matters: our
+gift's floor is **owned from 2028**; A09's floor is **whatever its stocks are worth in 2031**. **Is that the better
+plan for Laura, and is it the whole idea a growth-minded judge is missing?** The round's output is one
+paragraph-sized idea for the rewrite (taken or dropped whole, Commandment VII), never a clause patch.
+Lens: **3, the rival's best plan** (never drawn): build A09 at its strongest, then say where ours beats it and what
+ours gives up, in dollars or paths (LS-04: the break first). LS-12: the work answers Wharton's question, not the hawk.
+Rotation row 4: scouts **Nora, Amara, Jun**; flaw-hunter **Tess** (first job: quote the V36 line that misses A09,
+or Kai's hit falls); cold judge **Kai**, who judges against `../WHARTON_WORD.md` with the rebuilt six-judge panel
+(`../ips_rewrite/judges/README.md`), never two or three same-model readers (Commandment IX; Felix's five of five);
+builder **Felix** (free in row 4). Before beat 8's vote (the Courtroom, Sat 31 is an odd date),
+the vote note carries the time of Caplet's newest message and the sentence that changes the question
+(LS-06, broken twice). Side jobs not for scouts: the $85,000 in V36 para 6 is V25's design (about $125,000 on V36's,
+Archive A25, MODEL), already in the Window's Sat 31 design-stamp audit.
+- **Near, Nora (Haiku 5.5, breadth; deepens a `promising` field): endowments and spending rules.** The growth hawk's
+  model is the endowment: perpetual, mostly risk assets. The deeper question nobody asked: what do endowments do when
+  part of the money is a **dated promise for a building**? Find, at the source, at least one university that slowed
+  or paused a building project after the 2008-09 fall because its capital money sat in the growth pool (Harvard's
+  Allston science complex is the one to check first; facts UNVERIFIED until fetched), and whether any keeps
+  construction money apart from the endowment. New ground: from spending *rules* (visited) to *dated capital
+  promises inside a growth fund*. (door: her dad buys the tiles the day the quote's signed, not the week of the job)
+- **Adjacent, Amara (Sonnet 5.5, depth): public budgeting, earmarked capital funds and rainy-day funds**
+  (`unvisited`). When a government has raised money for a building it will start in a few years, how is the money held
+  until then, and what do the rules or the auditors say about putting it in shares? Bring back one real rule or
+  practice and what it protects against. New ground: the first adjacent field where the money is *someone else's
+  promise held for a dated build*, which is Laura's 2031 position. (door: the gurdwara kitchen's renovation fund,
+  kept in a term deposit while the quotes come in)
+- **Far, Jun (Opus 5.5, the cross-domain link): farmers who forward-sell part of a crop before harvest**
+  (`unvisited`; listed beside "seed banks and agriculture"). A farmer whose staple is already safe still chooses how
+  much of the cash crop to price early and how much to leave to the harvest price. Bring back how much farmers actually
+  forward-sell, why not all of it, and what pricing early cost them in a year prices rose (primary sources: a
+  government or university extension service). Kai's question, made real: when someone with a safe base locks the top
+  early, what does it buy and what does it cost? New ground: the first far field about *when* to lock, not whether.
+  (door: Jun's running splits, even pace against a negative split)
+- **Off duty, the doors** (fiction; what comes back through them must be real, fetched sources): Nora's dad's
+  tiles, Amara's kitchen fund, Jun's splits.
+- **Not tomorrow:** Q11 (second, only on Tess's finding); the $85,000 (the Window); Q7 stays with Laura's Room.
 
 (Keel is a simulated team, AI-written.)

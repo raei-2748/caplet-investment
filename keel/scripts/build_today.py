@@ -129,7 +129,9 @@ def load_huddles(check=False):
             if key not in h:
                 problems.append(f"{rel(meta)}: missing '{key}'")
         h["path"] = rel(folder)
-        if not check:
+        if isinstance(h["rounds"], int):  # legacy card (H-002, H-003): a count, hand-written transcript kept
+            h["rounds"] = [{"n": n, "date": h.get("opened")} for n in range(1, h["rounds"] + 1)]
+        elif not check:
             write_transcript(folder, h)
         h["transcript"] = rel(folder / "transcript.md") if (folder / "transcript.md").exists() else None
         h["research_notes"] = [{"path": rel(p), "title": title_of(p), "member": p.stem.split("_")[0].title()}

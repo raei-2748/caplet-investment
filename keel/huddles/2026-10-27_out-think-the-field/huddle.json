@@ -8,17 +8,33 @@
   "opened": "2026-10-27",
   "status": "closed",
   "closed": "2026-10-27",
-  "members": ["Nora", "Kai", "Jun", "Amara", "Tess", "Felix"],
+  "members": [
+    "Nora",
+    "Kai",
+    "Jun",
+    "Amara",
+    "Tess",
+    "Felix"
+  ],
   "serves": "North stars 3 and 4; Wharton's Investment Strategy, Portfolio Analysis and Creativity criteria; the IPS rewrite (near-final Sat 31 Oct)",
   "rounds": 3,
-  "essence": ["The ladder-first structure is what every AI-assisted rival writes; Caplet's edge is the reason (her income can shrink in the same slump), where it breaks, and the two-cost range.", "Jun's audit killed two of our own claims: the rising stock share is a bonds-being-spent effect, not a hook, and certainty costs nothing at the median once rivals are matched on misses; its real price is the best years."],
+  "essence": [
+    "The ladder-first structure is what every AI-assisted rival writes; Caplet's edge is the reason (her income can shrink in the same slump), where it breaks, and the two-cost range.",
+    "Jun's audit killed two of our own claims: the rising stock share is a bonds-being-spent effect, not a hook, and certainty costs nothing at the median once rivals are matched on misses; its real price is the best years."
+  ],
   "decided": [
     "6-0: answer Book 7's composition question with XR's mechanism (one holding redeems, one cheque goes out, nobody trades); the rising share is one clause at most",
     "6-0: name both breaks (the build and the 2033 coupon gap) by cause and a real year, never a probability; drop 'small'",
     "5-0-1: human capital stays 'her income can shrink', never 'moves with stocks'",
     "3-0-3: the 2033 set-aside must use a permitted holding; direct T-bills are out"
   ],
-  "seeds": ["Who absorbs a bad year: Laura's half, then the top, never the bottom (Amara) vs L-10's $10k hold-back", "Tail dependence and the 2028 income link (Kai)"],
+  "seeds": [
+    "Who absorbs a bad year: Laura's half, then the top, never the bottom (Amara) vs L-10's $10k hold-back",
+    "Tail dependence and the 2028 income link (Kai)"
+  ],
   "changes": "Thinking only, no draft change. Recommendations sent to the rewrite thread: keel/ips_rewrite/inbox/2026-10-28_rivals-and-panel.md",
-  "todos": "todo.md"
+  "todos": {
+    "done": 5,
+    "total": 8
+  }
 }

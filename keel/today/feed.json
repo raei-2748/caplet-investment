@@ -1,15 +1,801 @@
 {
- "built": "2026-10-27T09:09",
+ "built": "2026-10-31T08:21",
  "days": [
+  {
+   "date": "2026-10-31",
+   "weekday": "Sat",
+   "essence": [
+    "We tested the plan two mock judges liked best: bonds for the cheques and the rest in stocks, with the gift's bottom fixed only in 2031.",
+    "Set to promise the same $145,000 in a typical year, it would have to promise under $100,000 about one time in thirteen in our model, ours about one in 150; that costs Laura about $9,000 of her own money in a typical year.",
+    "So the draft should answer this rival by name, with both numbers from the same model and the price said out loud, in place of the weaker 60/40 argument.",
+    "We built the plan two mock judges preferred (bonds for the cheques, the rest in stocks until 2031) and ran it beside ours on the same 200,000 model futures.",
+    "Its cheques are just as safe and its gift is about $15,000 bigger on average, but the bottom Laura could promise co-sponsors drops under $100,000 about one time in fifteen to twenty (ours about one in a hundred), nearly always after a stock crash; the extra is simply pay for carrying that crash, and it disappears if stocks earn under about 3% a year.",
+    "So the IPS should answer that plan by name of idea, not by rival, in one paragraph that states the price out loud.",
+    "We argued over whether owning Laura's gift floor from 2028 costs her about $9,000, as the paragraph said; in our model it is nearer $19,000 on average by 2042, because the rival plan usually wins.",
+    "We kept the plan and rewrote the paragraph to say so: the rival usually wins by about $19,000, but in the worst one in twenty markets it has to sell stocks in a slump and names about $90,000 to co-sponsors against our $140,000. Six blind judges preferred that version, and a voice reader ranked it above the plain repair.",
+    "The next draft can answer the rival a growth-minded judge would have written, with an honest price, instead of beating a 60/40 four judges called a straw man."
+   ],
+   "huddles": [
+    {
+     "id": "H-007",
+     "title": "The bad naming day",
+     "question": "Why not a safe ladder and the rest in stocks (rival A09)? After naming day both plans lock what they name, so the only thing a co-sponsor ever sees is the number Laura can name in 2031. Is that difference worth what it costs her, and is it the answer V45 is missing?",
+     "status": "closed",
+     "room": "Laura's Room",
+     "chair": "Amara",
+     "members": [
+      "Amara",
+      "Kai",
+      "Felix"
+     ],
+     "essence": [
+      "We tested the plan two mock judges liked best: bonds for the cheques and the rest in stocks, with the gift's bottom fixed only in 2031.",
+      "Set to promise the same $145,000 in a typical year, it would have to promise under $100,000 about one time in thirteen in our model, ours about one in 150; that costs Laura about $9,000 of her own money in a typical year.",
+      "So the draft should answer this rival by name, with both numbers from the same model and the price said out loud, in place of the weaker 60/40 argument."
+     ],
+     "decided": [
+      "Agreed: the A09 build is fair (same ladder, reserve, lock and cushion; matched on the median bottom), but the worst-5% slice ($90k) is a chosen stress test, Final Report only (Felix)",
+      "Agreed (Felix's sentence, Kai's one-world fix, Amara's price): judge-facing numbers from one world only (house): A09 names under $100,000 about 1 in 16, XR about 1 in 2,000 (corrected after the PR #84 review, with the 2031 mark on both: 1 in 13 vs 1 in 150); the price about $9,000 of gift plus kept money at the median in 2033 (Kai)",
+      "Agreed: $90k is a weaker signal at the worst time, not a broken promise; List and Lucking-Reiley says a bigger lead raises more, but nothing about recessions or where 'meaningful' starts (Amara)",
+      "Kai's proposal (Felix and Amara didn't vote on it): replace V45's 60/40 paragraph whole with an A09 paragraph. Chair's call under the doors rule: offered to the rewrite thread as an alternative, with the decision path ('three-quarters stocks, until our own model sank it') kept; the 60/40 and 'sell low' go to the Final Report if it's taken",
+      "Agreed: the coupon leak after 2033 lands on the cheques in a hair of paths (XR short 0.4% of house paths at any size, median $680 across ten cheques, MODEL, old engine): a line on the price list, and V45's 'from the hope' should say Laura's half pays first"
+     ],
+     "seeds": [
+      "Does the after-2033 shortfall (XR 0.07-0.09% with the 2031 mark, LR-05) survive L-13's chain against A09 with the same mark? (Genius Lab)",
+      "Does a blind reader prefer the A09 paragraph to V45's 60/40 paragraph, and does losing 'three-quarters stocks, until our own model sank it' cost the decision path? (Writing Room)"
+     ],
+     "todos": {
+      "done": 5,
+      "total": 7
+     },
+     "path": "keel/huddles/2026-10-31_the-bad-naming-day",
+     "transcript": "keel/huddles/2026-10-31_the-bad-naming-day/transcript.md",
+     "changes": [
+      "keel/rooms/lauras_room/LR-08_the_bad_naming_day.md",
+      "keel/rooms/lauras_room/LR-08_the_bad_naming_day.py",
+      "keel/rooms/lauras_room/LR-08_results.json",
+      "keel/ips_rewrite/inbox/2026-10-31_lauras-room.md",
+      "keel/ips_rewrite/IDEA_BANK.md"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    },
+    {
+     "id": "H-005",
+     "title": "The price of the floor",
+     "question": "Why not a safe ladder and the rest in stocks? Does our floor bought in 2028 beat the rival that keeps the 2028 deposit in stocks and locks the bottom in 2031, on our own model paths, and what does it give up?",
+     "status": "closed",
+     "room": "Genius Lab",
+     "chair": "Felix",
+     "members": [
+      "Felix",
+      "Jun",
+      "Kai"
+     ],
+     "essence": [
+      "We built the plan two mock judges preferred (bonds for the cheques, the rest in stocks until 2031) and ran it beside ours on the same 200,000 model futures.",
+      "Its cheques are just as safe and its gift is about $15,000 bigger on average, but the bottom Laura could promise co-sponsors drops under $100,000 about one time in fifteen to twenty (ours about one in a hundred), nearly always after a stock crash; the extra is simply pay for carrying that crash, and it disappears if stocks earn under about 3% a year.",
+      "So the IPS should answer that plan by name of idea, not by rival, in one paragraph that states the price out loud."
+     ],
+     "decided": [
+      "3-0 ADOPT: one paragraph answering 'why not a safe ladder and the rest in stocks?' with the unsliced numbers and the price, replacing V39 para 7's 60/40 sentences (and one more cut the rewrite thread picks)",
+      "3-0: 'same price, different risk' dropped as a phrase (it isn't the same price; we pay the stock premium and say so)",
+      "3-0: the worst-5% slice, the premium test and the 3% break-even stay out of the IPS; they are the Final Report's table and our answer if a judge asks",
+      "Kai lost his round-1 bet: 93-94% of the rival's sub-$100k bottoms follow a 2028-30 stock loss"
+     ],
+     "seeds": [
+      "Is the bottom Laura can quote worth more than its dollar size, because a lead gift draws others (bank #6)? Price the co-sponsor effect of a $95k v $140k bottom in a crash year",
+      "Which 19 words pay for the paragraph: the 97-in-100 top line, the one-in-thirty line, or something else?"
+     ],
+     "todos": {
+      "done": 5,
+      "total": 7
+     },
+     "path": "keel/huddles/2026-10-31_the-price-of-the-floor",
+     "transcript": "keel/huddles/2026-10-31_the-price-of-the-floor/transcript.md",
+     "changes": [
+      "../../rooms/lab/L-14_price_of_the_floor.md",
+      "../../ips_rewrite/inbox/2026-10-31_genius-lab.md",
+      "../../ips_rewrite/IDEA_BANK.md"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    },
+    {
+     "id": "H-006",
+     "title": "The whole price",
+     "question": "Laura's Room's paragraph answers the strongest rival by name (same ladder, stocks until 2031) and prices our 2028 floor at 'about $9,000 of her own money in a typical 2033'. Is that the whole price, is the paragraph clear and in our voice, and should it replace V45's 'Sell low, by appointment'?",
+     "status": "closed",
+     "room": "Courtroom",
+     "chair": "Nora",
+     "members": [
+      "Nora",
+      "Tess",
+      "Kai",
+      "Amara",
+      "Felix"
+     ],
+     "essence": [
+      "We argued over whether owning Laura's gift floor from 2028 costs her about $9,000, as the paragraph said; in our model it is nearer $19,000 on average by 2042, because the rival plan usually wins.",
+      "We kept the plan and rewrote the paragraph to say so: the rival usually wins by about $19,000, but in the worst one in twenty markets it has to sell stocks in a slump and names about $90,000 to co-sponsors against our $140,000. Six blind judges preferred that version, and a voice reader ranked it above the plain repair.",
+      "The next draft can answer the rival a growth-minded judge would have written, with an honest price, instead of beating a 60/40 four judges called a straw man."
+     ],
+     "decided": [
+      "5-0 (Jun absent): LR-08's paragraph AMENDED and promoted as LR3 to the rewrite inbox, replacing V45's heading and both 60/40 paragraphs; 497 strict",
+      "3-1 (Felix abstained): the rival 'sells stocks in January 2031, whatever they fetch that morning' (Kai) and 'after the 2031 set-aside' (Tess) go in; 'leaves her over $40,000 behind' goes to the Final Report to pay for them",
+      "Price stated as a mean, by 2042 ($19,000, house world), not the $9,000 median of 2033 (C-04)",
+      "Voice gate passed: blind reader ranks LR3 above LR2; V45's paragraph is still first on voice"
+     ],
+     "seeds": [
+      "Can the January-morning image be called back in the 'But' sentence ('that January morning arrives mid-slump') within 497?",
+      "Does 'ten one-year bills' belong anywhere in the IPS once the rival also owns the ladder?"
+     ],
+     "todos": {
+      "done": 4,
+      "total": 8
+     },
+     "path": "keel/huddles/2026-10-31_the-whole-price",
+     "transcript": "keel/huddles/2026-10-31_the-whole-price/transcript.md",
+     "changes": [
+      "keel/rooms/courtroom/C-04_the_whole_price.md",
+      "keel/rooms/courtroom/C-04_the_whole_price.py",
+      "keel/rooms/courtroom/C-04_LR3_ips.txt",
+      "keel/ips_rewrite/judges/panel_C04/",
+      "keel/ips_rewrite/inbox/2026-10-31_courtroom.md"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    }
+   ],
+   "research": [
+    {
+     "path": "keel/huddles/2026-10-31_the-bad-naming-day/research/amara.md",
+     "title": "Amara, round 1 research (31 Oct 2026; FICTION, simulated co-sponsor, never a quote)",
+     "member": "Amara",
+     "huddle": "H-007"
+    },
+    {
+     "path": "keel/huddles/2026-10-31_the-bad-naming-day/research/amara_r3.md",
+     "title": "Amara, round 3 research (31 Oct 2026; FICTION, Keel is simulated; no Laura quotes)",
+     "member": "Amara",
+     "huddle": "H-007"
+    },
+    {
+     "path": "keel/huddles/2026-10-31_the-bad-naming-day/research/felix.md",
+     "title": "Felix, round 1: what I checked (MODEL, curve 22 Oct 2026, J.P. Morgan 7.5%)",
+     "member": "Felix",
+     "huddle": "H-007"
+    },
+    {
+     "path": "keel/huddles/2026-10-31_the-bad-naming-day/research/kai.md",
+     "title": "Kai, round 1 research (FICTION; Keel is simulated)",
+     "member": "Kai",
+     "huddle": "H-007"
+    },
+    {
+     "path": "keel/huddles/2026-10-31_the-bad-naming-day/research/kai_r3.md",
+     "title": "Kai, round 3: what I checked (31 Oct 2026; FICTION, Keel is simulated; every number MODEL)",
+     "member": "Kai",
+     "huddle": "H-007"
+    },
+    {
+     "path": "keel/huddles/2026-10-31_the-price-of-the-floor/research/lab_checks_r3.md",
+     "title": "The Lab's three checks for round 3 (Sat 31 Oct 2026)",
+     "member": "Lab",
+     "huddle": "H-005"
+    }
+   ],
+   "done": [
+    {
+     "text": "A09 against XR on the same paths, the bottom Laura can name in 2031 (Amara; done 31 Oct, LR-08)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-10-31",
+     "huddle": "H-007"
+    },
+    {
+     "text": "Check the A09 build is fair and re-run the house world (Felix; done 31 Oct)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-10-31",
+     "huddle": "H-007"
+    },
+    {
+     "text": "Size the after-2033 cheque shortfall, not just its rate (Felix; done 31 Oct)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-10-31",
+     "huddle": "H-007"
+    },
+    {
+     "text": "Check what the lead-gift study actually says about size (Amara; done 31 Oct)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-10-31",
+     "huddle": "H-007"
+    },
+    {
+     "text": "One true, one-world IPS wording (Kai; done 31 Oct)",
+     "done": true,
+     "owner": "Kai",
+     "day": "2026-10-31",
+     "huddle": "H-007"
+    },
+    {
+     "text": "Build A09 at its strongest on XR's own paths, four worlds (Felix; done 31 Oct, `../../rooms/lab/L-14_price_of_the_floor.md`)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-10-31",
+     "huddle": "H-005"
+    },
+    {
+     "text": "Break-even stock return for equal average gifts (Kai's check; done 31 Oct: about 3% a year)",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-31",
+     "huddle": "H-005"
+    },
+    {
+     "text": "Share of A09's sub-$100k bottoms that follow a 2028-30 stock loss (Felix's check; done 31 Oct: 93% / 94%)",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-31",
+     "huddle": "H-005"
+    },
+    {
+     "text": "Reconcile the premium test with the gift gap (Jun's check; done 31 Oct)",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-31",
+     "huddle": "H-005"
+    },
+    {
+     "text": "CORD on Felix's round-2 \"A09 breaks it on about 1 path in 19\": A09 never breaks its quoted bottom; 1 in 19 is how often the bottom it can quote is under $100k (Jun; done 31 Oct, round file s5)",
+     "done": true,
+     "owner": "Jun",
+     "day": "2026-10-31",
+     "huddle": "H-005"
+    },
+    {
+     "text": "Price the floor in full on LR-08's engine: median, mean, 2033 and 2042, worst twentieth (chair; done 31 Oct, C-04)",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-31",
+     "huddle": "H-006"
+    },
+    {
+     "text": "One repair of LR-08's paragraph, at most 497 strict (Felix; done 31 Oct, LR2)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-10-31",
+     "huddle": "H-006"
+    },
+    {
+     "text": "Blind six-judge panel on V45, LRa, LR2 + three rivals (chair; done 31 Oct, panel C04)",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-31",
+     "huddle": "H-006"
+    },
+    {
+     "text": "Voice gate: LR3 at or above LR2, or LR2 goes (Nora's rule; done 31 Oct: LR3 above LR2)",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-31",
+     "huddle": "H-006"
+    }
+   ],
+   "open": [
+    {
+     "text": "Re-run the cheque shortfall on L-13's chain with the 2031 mark, XR vs A09 (Genius Lab; by Sun 1 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-007"
+    },
+    {
+     "text": "Blind read: the A09 paragraph against V45's 60/40 paragraph (Writing Room; by Sun 1 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-007"
+    },
+    {
+     "text": "The three ADOPT versions read cold beside V39 para 7, one picked, the 19-word cost weighed (Writing Room; by Sun 1 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-005"
+    },
+    {
+     "text": "The Window gates L-14's headline from the script (Window; by Sun 1 Nov)",
+     "done": false,
+     "owner": "Window",
+     "day": null,
+     "huddle": "H-005"
+    },
+    {
+     "text": "The rewrite thread decides whether LR3's paragraph replaces V45's \"Sell low, by appointment\" section (rewrite thread; by Sun 1 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-006"
+    },
+    {
+     "text": "Try the voice gate's callback sentence (\"that January morning arrives mid-slump\") in LR3 and count it (Writing Room; by Sun 1 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-006"
+    },
+    {
+     "text": "Re-check LR3's three numbers on the L-13 chain ($19,000 mean by 2042; $90,000 v $140,000 in the worst twentieth) (Window; by Sun 1 Nov)",
+     "done": false,
+     "owner": "Window",
+     "day": null,
+     "huddle": "H-006"
+    },
+    {
+     "text": "Final Report list, named: ten one-year bills; donors fall in recessions (Giving USA 2008-09); XR ahead in 32-38% of paths; worst twentieth $135-145k v $80-95k, XR ahead ~$44k; one in thirteen v one in 150 (Archive; by Fri 6 Nov)",
+     "done": false,
+     "owner": "Archive",
+     "day": null,
+     "huddle": "H-006"
+    }
+   ],
+   "runs": [
+    {
+     "day": "2026-10-31",
+     "when": "Sat 31 Oct 20:05",
+     "room": "Archive",
+     "what": "Beat 9 record, round 4: folded the Lab's (PR #82) and Laura's Room's (PR #84) branches into the day branch (bank #101-#102, huddle H-007); TERRITORY 3 rows, FRONTIER (Q12 answered, F11 closed, F12-F14, S16-S18), CHAMPIONS C7 note, HEALTH row 4 (light: three engines, one price); LR3 in V45 vs TNA + 11 notes: no breach; A26 re-run on V45's chain (`archive_checks/A26_lr3_on_v45_design.py`): $19,000 -> $15,000, $145k and $90k v $140k hold; A27 January jab aimed at the rival's bottom; A28 'has taken thoughtful risks all her career'; A16 'cash paid early'; bank #103; `../office/outbox/2026-10-31_archive_the-price-on-our-own-design.md`"
+    },
+    {
+     "day": "2026-10-31",
+     "when": "Sat 31 Oct 19:40",
+     "room": "Courtroom",
+     "what": "Round 4 beat 8, C-04 LR-08's A09 paragraph on trial: its '$9,000' was the smallest cell, the price is a ~$19,000 mean by 2042 (C-04, 4 worlds); Felix's repair 1.83 v V45 3.33 with six blind judges (4-2); Nora AMENDED 5-0: LR3 (497) adds the rival's January-2031 sale, passes the voice gate (above LR2, below V45); to the inbox; 1 request closed, 2 filed"
+    },
+    {
+     "day": "2026-10-31",
+     "when": "Sat 31 Oct 17:40",
+     "room": "Writing Room",
+     "what": "Beat 7, round 4 (Q12): Lab beat missing, so A09 priced on the suite engine (3 worlds x 50k): the 2028 floor costs ~$4k of typical gift, saves ~$40k in the 1-in-20 crash, promises broken 0.2-1.6% v 2.8-5.4%; arm Q3 (A09 replaces the 60/40) 3 firsts of 6 blind judges, 3-3 v V45, Q1 lost; second panel on Laura's Room's request: LR-08's paragraph 1.83 v Q3 2.83 v V45 3.0, lean LR-08; 5 hard issues"
+    },
+    {
+     "day": "2026-10-31",
+     "when": "Sat 31 Oct 15:05",
+     "room": "Genius Lab",
+     "what": "Beat 5 (Come back), round 4: L-14 the price of the floor, A09 built at its strongest on XR's paths (4 worlds); huddle H-005 (Felix, Jun, Kai, 3 rounds, 3 checks); B ADOPT 3-0 as one IPS paragraph (A09: cheques as safe, +$15k mean gift all stock premium, break-even ~3%; quotable bottom <$100k 5.3-6.7% v 0.85-1.0%); 3 requests closed, 2 filed; bank #98-#99"
+    },
+    {
+     "day": "2026-10-31",
+     "when": "Sat 31 Oct 16:40",
+     "room": "Laura's Room",
+     "what": "Round 4 beat 6, LR-08 the bad naming day: Lab absent at 15:10, so A09 vs XR from the co-sponsor's chair; same $145k median bottom, A09 under $100k 1 in 13 vs XR 1 in 150 (2031 mark on both, fixed after the PR #84 review), price ~$9k (house, MODEL); V45 case read: one gap (A09); A09 paragraph offered in place of the 60/40 (485 strict); huddle H-005; bank #98"
+    },
+    {
+     "day": "2026-10-31",
+     "when": "Sat 31 Oct 12:55",
+     "room": "Library",
+     "what": "Beat 4 (Go out), round 4: 3 scouts on Q12 (endowments, public capital funds, farmers forward-selling), 9 finds, 47/54 quotes verified; money with a date is bought to its date (GFOA, Cal. s 53601), Harvard/Yale/Princeton paused buildings in 2009, farmers lock only the grain in the bin; honest break: Laura's floor gives up the stock premium; slip S-09; bank #95-97; 1 request to the Lab"
+    },
+    {
+     "day": "2026-10-31",
+     "when": "Sat 31 Oct 10:45",
+     "room": "Trading Desk (markets and rules check)",
+     "what": "No breach; V39 IPS 498 / 500 words (zero margin on the hyphen count), pitch 48; no curve after 22 Oct"
+    },
+    {
+     "day": "2026-10-31",
+     "when": "Sat 31 Oct 09:00",
+     "room": "Window",
+     "what": "Beat 2 gate, round 4: no breach; V39/V40 design-stamp audit: \"one in thirty\" re-run, holds (one in 40-44 on today's 7.5%); 60/40 \"one in three\" mostly our range (cheques one in fifteen); V40 cold read's three fails confirmed; L-13 re-run identical, bottom broken 0/1/2 of 200,000; D11-D18 labelled; 9 finds gated (F2 overstated, T3 corrected); own find W-04 Giving USA (bank #94)"
+    },
+    {
+     "day": "2026-10-31",
+     "when": "Sat 31 Oct 07:40",
+     "room": "Noticeboard (daily loop)",
+     "what": "Round 4 gathered `../loop/rounds/2026-10-31.md` (Q12 why not a safe ladder and the rest in stocks, rival A09; lens 3; endowments deepened, public capital funds and forward-selling unvisited); Rooftop's 30 Oct send-off merged from the day branch; watchdog 10 of 10; board groomed for Book 10 (deadline end of Wed 4 Nov, F4 dropped); brief; ep35"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "weekday": "Fri",
+   "essence": [
+    "We argued over whether to keep fixing sentences or answer the questions Wharton actually asks.",
+    "We decided Saturday goes to one big question, why not a safe ladder and the rest in stocks, because two of six mock judges put that plan first and our draft never answers it; and every vote now waits until we've read Caplet's latest message.",
+    "So the next draft can gain a whole idea instead of another trim."
+   ],
+   "huddles": [
+    {
+     "id": "H-004",
+     "title": "The roof after Book 10",
+     "question": "Book 10 landed at 18:15. What did the last two days teach us about how we work, and what should Saturday's round chase instead of Q11?",
+     "status": "closed",
+     "room": "Rooftop",
+     "chair": "Tess",
+     "members": [
+      "Tess",
+      "Kai",
+      "Felix"
+     ],
+     "essence": [
+      "We argued over whether to keep fixing sentences or answer the questions Wharton actually asks.",
+      "We decided Saturday goes to one big question, why not a safe ladder and the rest in stocks, because two of six mock judges put that plan first and our draft never answers it; and every vote now waits until we've read Caplet's latest message.",
+      "So the next draft can gain a whole idea instead of another trim."
+     ],
+     "decided": [
+      "3-0: round 4 (Sat 31 Oct) asks why the gift's money sits in a Treasury floor from 2028 instead of stocks locked down in 2031 (the A09 rival); Q11 rides second",
+      "3-0: the $85,000 line is stale (V25's design), not wrong; already routed to the Window's Sat 31 audit, so no scout spends time on it",
+      "3-0: LS-06 broken a second time (the Long Room voted at 18:20 without reading Book 10, 18:15); goes to Sunday's review as a vote-gate rule",
+      "3-0: LS-12, a split panel earns a round only when the low judge's reason is one of Wharton's questions; the question sets the work, not the judge"
+     ],
+     "seeds": [
+      "Does V36's floor-from-2028 actually beat A09's lock-in-2031 on our own model paths, and what does it give up?",
+      "If it does, is that the paragraph-sized idea the next draft is missing for a growth-minded judge?"
+     ],
+     "todos": {
+      "done": 3,
+      "total": 6
+     },
+     "path": "keel/huddles/2026-10-30_the-roof-after-book-10",
+     "transcript": "keel/huddles/2026-10-30_the-roof-after-book-10/transcript.md",
+     "changes": [
+      "keel/loop/LESSONS.md",
+      "keel/loop/FRONTIER.md",
+      "keel/rooms/rooftop.md",
+      "keel/pm/REQUESTS.md",
+      "keel/ips_rewrite/IDEA_BANK.md"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    }
+   ],
+   "research": [],
+   "done": [
+    {
+     "text": "Round 4's orders written: why not a safe ladder and the rest in stocks? (Tess; done 30 Oct)",
+     "done": true,
+     "owner": "Tess",
+     "day": "2026-10-30",
+     "huddle": "H-004"
+    },
+    {
+     "text": "LS-06 raised to 2 (broken again: the 18:20 vote never read Book 10); LS-12 filed (Felix, Kai; done 30 Oct)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-10-30",
+     "huddle": "H-004"
+    },
+    {
+     "text": "Kai's claim about V36 checked against A09 and V36's text: partly holds (Kai; done 30 Oct)",
+     "done": true,
+     "owner": "Kai",
+     "day": "2026-10-30",
+     "huddle": "H-004"
+    }
+   ],
+   "open": [
+    {
+     "text": "Quote the V36 line that misses A09, or drop Kai's hit (Tess, flaw-hunter; by Sat 31 Oct)",
+     "done": false,
+     "owner": "Tess",
+     "day": null,
+     "huddle": "H-004"
+    },
+    {
+     "text": "Model A09's 2031 lock against V36's 2028 floor on the same paths (Genius Lab, Felix builds; by Sat 31 Oct)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-004"
+    },
+    {
+     "text": "Sunday review: make LS-06 a runbook rule at the vote gate (Felix's wording) (weekly plan; by Sun 1 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-004"
+    }
+   ],
+   "runs": [
+    {
+     "day": "2026-10-30",
+     "when": "Fri 30 Oct 20:40",
+     "room": "Rooftop",
+     "what": "Beat 10 as huddle H-004 (Tess, Kai, Felix; 3 rounds, one agent each): entry for 29-30 Oct after Book 10; LS-06 raised to 2 (vote-gate rule to Sunday), LS-12 new; round 4 orders Q12 (why not a safe ladder and the rest in stocks? A09), lens 3; Long Room's Q11 order declined with reason; requests to the Lab (A09 v V36) and the Writing Room (drop B4); bank #93"
+    },
+    {
+     "day": "2026-10-30",
+     "when": "Fri 30 Oct 20:05",
+     "room": "Archive",
+     "what": "Beat 9 record, round 3 + first check of the Book 10 rewrite: V33 vs the TNA and 11 notes: A25 BREACH (para 7 \"her 2028 deposit never carries a cheque\" vs para 6, IBTO, IBTR; para 6's \"$85,000\" is K07 on V25's design, on V33's design $85k fails 19.2% of MODEL paths after a 2pt fall, break about $125k; V36 then fixed para 7, the number stands), A16 watch (\"one leak\"); TERRITORY 3 fields mined (yields 1/2/3), FRONTIER Q10 answered, F11, Q11 note; HEALTH row 3 (price light out; new light: round and draft drifted apart); CHAMPIONS Book 10 note; bank #92, #50 corrected; `../office/outbox/2026-10-30_archive_the-deposit-carries-more.md`"
+    },
+    {
+     "day": "2026-10-30",
+     "when": "Fri 30 Oct 18:55",
+     "room": "Long Room",
+     "what": "Beat 8, round 3: B3W beat B3S 2-0 with fresh blind readers (actuary 34 v 33, fundraiser 35 v 33; 5 of 5 today); Jun's LS-11 read: B3W deleted the signal (why the top is above what she owns); lock question 4 of 5 readers, 'can't be fixed today' -> Q11 round 4 with an untested clause; **V30 (B3W less 'only', 48/499) = Keel's Sat 31 review draft, 5-1** (Kai park); bank #91"
+    },
+    {
+     "day": "2026-10-30",
+     "when": "Fri 30 Oct 17:05",
+     "room": "Writing Room",
+     "what": "Beat 7, round 3: five requests in one blind read; B2f 488 / B3S 492 / B3O 497, fact fix in every arm; 3 of 3 readers advanced B3O's per-end odds (\"each end as sure as its miss is costly\"; 104.5 vs 102 vs 95); W2 deletion line beat W1 3-0; lean B3W (500); hard issues: count at 500, \"them\" antecedent, slide, \"one dollar in fifteen\" reads as a yield, \"stand or fall as one\" 3 of 3"
+    },
+    {
+     "day": "2026-10-30",
+     "when": "Fri 30 Oct 16:05",
+     "room": "Laura's Room",
+     "what": "Beat 6, round 3: LR-07 what the bottom gives up. Slide PASS (the old top was a double count); \"co-sponsors' gifts\" (+1, B3 never names them); B, C to FR; new E (bottom $10k under the top) adds no break in 800,000 paths (after naming the cheques take at most $9,768) but loses a cold read 4/5 to 7/7, PARKED to FR as lens 22's price; 'bottom broken 0' is rounding (3 of 800,000); Q7 closed; bank #89-90"
+    },
+    {
+     "day": "2026-10-30",
+     "when": "Fri 30 Oct 14:35",
+     "room": "Genius Lab",
+     "what": "Beat 5, round 3 (Nora builds): L-13 slide the range. V29's top misses are 88-97% the cheques' known claim, cut off the bottom but never the top; one word (\"off the range\") lifts the top to 96.0-97.9% reached in S0/S1/S6/S2 (from 44.0-86.6%), bottom 0 broken, median gift unchanged except S6; para 11 'lands on what isn't yet promised' false at the top without it; 4 requests closed; bank #88"
+    },
+    {
+     "day": "2026-10-30",
+     "when": "Fri 30 Oct 13:05",
+     "room": "Library",
+     "what": "Beat 4, round 3 (Q10, lens 22): 9 finds, 33 of 41 quotes verified; IPOs (Ritter, Hanley), campaigns (List and Lucking-Reiley at the source: nearly sixfold), forecasts (cost-loss, newsvendor); slip S-08 KEEP; bank #84-87, 2 dropped"
+    },
+    {
+     "day": "2026-10-30",
+     "when": "Fri 30 Oct 10:45",
+     "room": "Trading Desk (markets and rules check)",
+     "what": "No breach; V29 pitch 48 / IPS 495; T19 trading-activity (due today) and T18 school letter unconfirmed; no curve after 22 Oct"
+    },
+    {
+     "day": "2026-10-30",
+     "when": "Fri 30 Oct 09:40",
+     "room": "Window",
+     "what": "Beat 2 gate, round 3: BREACH, V29/B2/B3 \"wipe out every share ... no cheque is worse off\" reads A19 backwards (true: \"the shares can help a cheque, never hurt one\"); V29 \"three times worse. So\" doesn't follow; A1 reversed, A2/N2 verified; L-12 re-runs identical; W-03 SEC bona fide range; BoM 75/25"
+    },
+    {
+     "day": "2026-10-30",
+     "when": "Fri 30 Oct 07:40",
+     "room": "Noticeboard (daily loop)",
+     "what": "Round 3 gathered `../loop/rounds/2026-10-30.md` (Q10 why a range and what each end costs; lens 22; IPO bookbuilding and weather ranges unvisited, capital campaigns deepened); Kitchen's 29 Oct send-off merged from the day branch; watchdog 10 of 10; board groomed (N05 closed, T11 killed); brief; ep34"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "weekday": "Thu",
+   "essence": [],
+   "huddles": [],
+   "research": [],
+   "done": [],
+   "open": [],
+   "runs": [
+    {
+     "day": "2026-10-29",
+     "when": "Thu 29 Oct 20:40",
+     "room": "Kitchen",
+     "what": "Beat 10, round 2: scene 3 (Tess-Amara, the folder stays at eleven); six doors, 3 became round 3's fields, 2 TERRITORY candidates (timetable padding, prepaid langar, plus IPO range, rain range, dose aids rows); FRONTIER Q10 + s4 orders (lens 22; Felix/Tess/Kai; Nora builds); LESSONS LS-11, LS-10 bent; request to Laura's Room (Q7, blister pack); `../office/outbox/2026-10-29_kitchen_the-range-has-two-ends.md`"
+    },
+    {
+     "day": "2026-10-29",
+     "when": "Thu 29 Oct 19:40",
+     "room": "Archive",
+     "what": "Beat 9 record, round 2: TERRITORY (3 fields mined, yields 1/1/3), CHAMPIONS (C13 head-to-head row, C5 re-quoted, C10), FRONTIER (Q8, Q9 answered; F5-F7 closed; F8-F9; S12-S15), HEALTH row 2 (price light to watch); B2 vs the submitted TNA + 11 notes: no contradiction, A22 closed, A24 new (\"or nearly\"/\"insures it\" = the IBTR note's own story); bank #80-82 (#82: the IBTR note is B2's rule three weeks early), rows 5, 6, 9, 10 re-pointed; `../office/outbox/2026-10-29_archive_the-rule-was-in-the-notes.md`"
+    },
+    {
+     "day": "2026-10-29",
+     "when": "Thu 29 Oct 19:05",
+     "room": "Courtroom",
+     "what": "Round 2 beat 8, C-03 four doors on trial: B's order line contradicted para 17 (her half pays the coupon gap first); Jun's repair B2 \"the change lands on what isn't yet promised, never a cheque\" (495) beat V29 2-0 cold, Keel 5-1, C13 holder changed; valve and override fall (FR); B3 candidate restores the range's why; 7 requests closed, 2 filed"
+    },
+    {
+     "day": "2026-10-29",
+     "when": "Thu 29 Oct 17:20",
+     "room": "Writing Room",
+     "what": "Round 2 beat 7: four doors as one order-and-clock line (B, 498 words) beat V29 + hard fixes with 3 of 3 blind readers; price = the range's two embarrassments (to FR); 4 hard fixes (never changes, carries risk, $300k buys them, three -> six times); 6 requests closed, 2 filed"
+    },
+    {
+     "day": "2026-10-29",
+     "when": "Thu 29 Oct 15:45",
+     "room": "Laura's Room",
+     "what": "Round 2 beat 6, LR-06 four doors, then ten: the Lab's challengers read three ways; V29 never names the operating reserve (case :94-97, Book 7), fix = from 2033 the ten holdings are the reserve, one redemption per cheque (+14 words); 2031's first day is our choice; B's surviving form = one-way valve; bank #75-77"
+    },
+    {
+     "day": "2026-10-29",
+     "when": "Thu 29 Oct 14:50",
+     "room": "Genius Lab",
+     "what": "Round 2 beat 5, L-12 four doors: V29 under nine 'needs change' stresses (cheques short >$1k 0.01-0.05% in all seven with 2028 money, no quoted bottom broken; no deposit 57%, first ~$50k is cheque money); delayed lock BIN (free option, top 84.6->73.6%); no ninety; top rounded to $5k 86.6/84.8/44.0%; per-rung alarm 7/200,000 (FR); 6 requests closed, 2 filed"
+    },
+    {
+     "day": "2026-10-29",
+     "when": "Thu 29 Oct 13:05",
+     "room": "Library",
+     "what": "Beat 4 (Go out), round 2: 3 scouts (wealth funds, precommitment, hospital track-and-trigger), 9 finds, 29/32 quotes verified; V28 para 10 misses what is read and when, the per-part trigger, how a rule bends (signed, expiring, default on silence) and where it doesn't apply; slip S-07; bank #70-71, smoothing dropped; 10 sources to R02; 2 requests filed"
+    },
+    {
+     "day": "2026-10-29",
+     "when": "Thu 29 Oct 10:45",
+     "room": "Trading Desk (markets and rules check)",
+     "what": "No breach; near-breaches: D8 pitch at exactly 50 words, school-letter request unconfirmed, trading-activity question open; T-bills closed; no curve after 22 Oct"
+    },
+    {
+     "day": "2026-10-29",
+     "when": "Thu 29 Oct 09:40",
+     "room": "Window",
+     "what": "Beat 2 gate: 12/12 round-1 quotes verified, K1 and F3 \"so\"s overstated, 2 number labels fixed, A19/LR8/L-11/LR-05 re-run identical; own find W-02 Basel buffer table for Q8 (bank #69); N1 \"$300,000 buys them\" still in D8"
+    },
+    {
+     "day": "2026-10-29",
+     "when": "Thu 29 Oct 07:40",
+     "room": "Noticeboard (daily loop)",
+     "what": "Round 2 gathered `../loop/rounds/2026-10-29.md` (Q8 the framework; lens 13; three unvisited fields); the Rooftop's 28 Oct send-off merged in from its thread branch; board groomed; brief; ep 33"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "weekday": "Wed",
+   "essence": [],
+   "huddles": [],
+   "research": [],
+   "done": [],
+   "open": [],
+   "runs": [
+    {
+     "day": "2026-10-28",
+     "when": "Wed 28 Oct 20:55",
+     "room": "Rooftop",
+     "what": "Beat 10: entry for 27-28 Oct; lesson LS-10 (no IPS paragraph gets more than two beats a round) + LS-06 raised; round 2 orders (Q8 the framework, lens 13; SWF funds / precommitment / ICU track-and-trigger); para 9 request to the Writing Room; middle-row request withdrawn"
+    },
+    {
+     "day": "2026-10-28",
+     "when": "Wed 28 Oct 19:55",
+     "room": "Archive",
+     "what": "Beat 9 record: TERRITORY/FRONTIER/HEALTH/CHAMPIONS filled for round 1; A19 closed by a deletion test (shares wiped: 0 of 600,000 MODEL paths with a cheque worse off; top-up = strict cheque for cheque, so strict dropped); A22 (V28 para 10) and A23 (2028 top-up already in IBTR/IBTO notes) new; bank rows 66-68; inbox note; day merged: `keel/rooms/archive_checks/`, `keel/office/outbox/2026-10-28_archive_delete-the-shares.md`"
+    },
+    {
+     "day": "2026-10-28",
+     "when": "Wed 28 Oct 18:55",
+     "room": "Long Room",
+     "what": "Beat 8: flaw hunt on both cures, repair 'bank it at the mark' tested (200,000 paths x 3 worlds, with and without the 2031 lock), 2 blind readers, Keel vote 4-1-1; the shared model never locked the promised half (top 86% vs 73%)"
+    },
+    {
+     "day": "2026-10-28",
+     "when": "Wed 28 Oct 16:45",
+     "room": "Writing Room",
+     "what": "Beat 7: the coupon-gap cures as claims and as counted V28 splices; 2 blind readers put V28's soft spot last (breaks its own rule); lean C6 + mark; 5 hard fixes"
+    },
+    {
+     "day": "2026-10-28",
+     "when": "Wed 28 Oct 15:40",
+     "room": "Laura's Room",
+     "what": "Round 1 beat 6, LR-05 who pays the blind fifth: L-11's A vs C6 re-run with LR-04's 2031 mark in both arms; C6 + the mark carrying the $7.5k cushion keeps the $145k label, broken 0/10/29 of 200,000, signal cost 1.4% vs A's 6.6% (MODEL); A sharpened, B and C killed for the IPS, D parked; defaulter-pays waterfall (RBA 2017); bank #62"
+    },
+    {
+     "day": "2026-10-28",
+     "when": "Wed 28 Oct 13:40",
+     "room": "Genius Lab",
+     "what": "Round 1 beat 5, L-11 a cure with a birthday: 81% of the coupon gap visible in Jan 2033; ~$7.5k bought 2 Jan 2028 before the floor takes payments short (>$1k) to <1 in 10,000 (S6 0.01%); yearly check BIN as a cure; immunisation priced ($64-74k) BIN; thin twin PARK; 2 requests closed, 2 filed"
+    },
+    {
+     "day": "2026-10-28",
+     "when": "Wed 28 Oct 12:45",
+     "room": "Library",
+     "what": "Beat 4 (Go out): 3 scouts, 9 finds, 9/9 quotes verified at the page; cure with a birthday (retainage securities), the 2033 check as a 'block', 'the actual amount purchased'; slip S-06; LC-04 (SVB true as written, CLO, Rev. Proc. 2016-42); bank #56-59; 3 requests closed, 1 filed"
+    },
+    {
+     "day": "2026-10-28",
+     "when": "Wed 28 Oct 10:45",
+     "room": "Trading Desk (markets and rules check)",
+     "what": "No breach in the book; NEW near-breach: V26 recommends \"Treasury bills\" (not seen on WInS); trading-activity and AI_USE.md still open; no curve after 22 Oct"
+    },
+    {
+     "day": "2026-10-28",
+     "when": "Wed 28 Oct 09:55",
+     "room": "Window",
+     "what": "Gate beat: 34 scout claims (7 false/overstated) + numbers re-run (5 mismatches), marked in place; 3 official files checked, manifest fix PR #70; own find thin-coupon twins W-01"
+    },
+    {
+     "day": "2026-10-28",
+     "when": "Wed 28 Oct 07:40",
+     "room": "Noticeboard (daily loop)",
+     "what": "Round 1 gathered `../loop/rounds/2026-10-28.md` (Q1 via the birthday rule; lens 2; three unvisited fields); Kitchen 27 Oct merged in from the day branch; board groomed; brief; ep 32"
+    }
+   ]
+  },
   {
    "date": "2026-10-27",
    "weekday": "Tue",
    "essence": [
+    "Six fields gave one discipline: sort every dollar by what can fail it, and decide in advance who pays when it does.",
+    "The Lab killed our own favourite fix (a 2028 hold-back, $9k of gift) and kept a cheaper one: re-measure the coupon gap in January 2031, before the range is named, for about $160.",
+    "The ladder-first structure is what every AI-assisted rival writes; Caplet's edge is the reason (her income can shrink in the same slump), where it breaks, and the two-cost range.",
+    "Jun's audit killed two of our own claims: the rising stock share is a bonds-being-spent effect, not a hook, and certainty costs nothing at the median once rivals are matched on misses; its real price is the best years.",
     "We read how twelve real companies work (Pixar, Toyota, Amazon, Netflix and eight more) and argued for four rounds about which habits six busy Year 11s should steal.",
     "Nine passed. The big three: whoever owns a line decides it unless it can't be undone, and then all six vote once; anyone can type \"CORD:\" to flag a problem at any hour, and the first reply is \"thanks\"; boring jobs get dealt out on Sundays instead of waiting for a volunteer.",
     "For Caplet: our help on the IPS now gets argued and checked before it reaches you, and the research we found on how teams decide well (some of it from Wharton itself) is yours to use in the Final Report."
    ],
    "huddles": [
+    {
+     "id": "H-003",
+     "title": "Fuse it: niche strategies into our own",
+     "question": "Six scouts verified about 40 niche ideas from far-off fields and a synthesis fused them into six synergies. Which are real, which are decoration, and what does each change?",
+     "status": "closed",
+     "room": "Long Room",
+     "chair": "Nora",
+     "members": [
+      "Nora",
+      "Kai",
+      "Jun",
+      "Amara",
+      "Tess",
+      "Felix"
+     ],
+     "essence": [
+      "Six fields gave one discipline: sort every dollar by what can fail it, and decide in advance who pays when it does.",
+      "The Lab killed our own favourite fix (a 2028 hold-back, $9k of gift) and kept a cheaper one: re-measure the coupon gap in January 2031, before the range is named, for about $160."
+     ],
+     "decided": [
+      "6-0: re-measure the coupon gap in January 2031 before the range is named, and keep the 2033 cushion (both or neither)",
+      "6-0: name the one shared cause (a slump that shrinks her income and makes bonds dearer); drop the 2028 hold-back",
+      "6-0: Laura's kept half is a standby, called last, not 'the project's second cheque'",
+      "6-0: two standards of proof: the floor needs no history, only the top does; never quote US-history odds"
+     ],
+     "seeds": [
+      "The 2031 lock vs 'three times worse' (k 3.1 vs 5-10): Courtroom, Wed 28 Oct",
+      "Pyramid test T6 (lead gift) not run"
+     ],
+     "todos": {
+      "done": 6,
+      "total": 9
+     },
+     "path": "keel/huddles/2026-10-27_fuse-it",
+     "transcript": "keel/huddles/2026-10-27_fuse-it/transcript.md",
+     "changes": "Thinking only, no draft change. Brief: keel/ips_rewrite/inbox/2026-10-28_synergies.md",
+     "rounds": 3,
+     "rounds_today": 3
+    },
+    {
+     "id": "H-002",
+     "title": "Out-think the field",
+     "question": "Thirty-six simulated rivals and a blind panel say Caplet's plan is the field's default answer. What can Caplet XR say that no other team can, and which of tonight's ideas earn a place in the IPS?",
+     "status": "closed",
+     "room": "Long Room",
+     "chair": "Nora",
+     "members": [
+      "Nora",
+      "Kai",
+      "Jun",
+      "Amara",
+      "Tess",
+      "Felix"
+     ],
+     "essence": [
+      "The ladder-first structure is what every AI-assisted rival writes; Caplet's edge is the reason (her income can shrink in the same slump), where it breaks, and the two-cost range.",
+      "Jun's audit killed two of our own claims: the rising stock share is a bonds-being-spent effect, not a hook, and certainty costs nothing at the median once rivals are matched on misses; its real price is the best years."
+     ],
+     "decided": [
+      "6-0: answer Book 7's composition question with XR's mechanism (one holding redeems, one cheque goes out, nobody trades); the rising share is one clause at most",
+      "6-0: name both breaks (the build and the 2033 coupon gap) by cause and a real year, never a probability; drop 'small'",
+      "5-0-1: human capital stays 'her income can shrink', never 'moves with stocks'",
+      "3-0-3: the 2033 set-aside must use a permitted holding; direct T-bills are out"
+     ],
+     "seeds": [
+      "Who absorbs a bad year: Laura's half, then the top, never the bottom (Amara) vs L-10's $10k hold-back",
+      "Tail dependence and the 2028 income link (Kai)"
+     ],
+     "todos": {
+      "done": 5,
+      "total": 8
+     },
+     "path": "keel/huddles/2026-10-27_out-think-the-field",
+     "transcript": "keel/huddles/2026-10-27_out-think-the-field/transcript.md",
+     "changes": "Thinking only, no draft change. Recommendations sent to the rewrite thread: keel/ips_rewrite/inbox/2026-10-28_rivals-and-panel.md",
+     "rounds": 3,
+     "rounds_today": 3
+    },
     {
      "id": "H-001",
      "title": "Steal like a Year 11",
@@ -64,6 +850,36 @@
     }
    ],
    "research": [
+    {
+     "path": "keel/huddles/2026-10-27_fuse-it/research/felix.md",
+     "title": "FICTION (Keel). Felix's source note, H-003 round 1 (Tue 27 Oct 2026, Sydney)",
+     "member": "Felix",
+     "huddle": "H-003"
+    },
+    {
+     "path": "keel/huddles/2026-10-27_out-think-the-field/research/felix.md",
+     "title": "Felix: source and rule checks, huddle H-002 round 1 (Tue 27 Oct 2026, night, Sydney)",
+     "member": "Felix",
+     "huddle": "H-002"
+    },
+    {
+     "path": "keel/huddles/2026-10-27_out-think-the-field/research/jun.md",
+     "title": "Jun's audit variations (27 Oct 2026, MODEL, 22 Oct curve; scratch copies, repo script untouched)",
+     "member": "Jun",
+     "huddle": "H-002"
+    },
+    {
+     "path": "keel/huddles/2026-10-27_out-think-the-field/research/kai.md",
+     "title": "Kai: research note, Tue 27 Oct 2026 (H-002 round 1)",
+     "member": "Kai",
+     "huddle": "H-002"
+    },
+    {
+     "path": "keel/huddles/2026-10-27_out-think-the-field/research/nora.md",
+     "title": "Nora's checks before round 3 (27 Oct 2026, night; MODEL, 22 Oct curve)",
+     "member": "Nora",
+     "huddle": "H-002"
+    },
     {
      "path": "keel/huddles/2026-10-27_steal-like-a-year-11/research/amara.md",
      "title": "Research note: Amara on IDEO, improv and Patagonia (H-001, round 1)",
@@ -139,6 +955,83 @@
    ],
    "done": [
     {
+     "text": "Rung 1 wide sweep (124 candidates), six verified scouts, rung-3 fusions (FUSIONS.md)",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-27",
+     "huddle": "H-003"
+    },
+    {
+     "text": "Round 1: Kai, Amara, Tess, Felix, alone",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-27",
+     "huddle": "H-003"
+    },
+    {
+     "text": "Felix: fix the Perry attribution (Sinking-Fund Cases, 1879), \"rewritten\" not \"broken\", \"appreciation\" not \"returns\"",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-27",
+     "huddle": "H-003"
+    },
+    {
+     "text": "Lab K07: T1, T2+T3 side by side, T4, T5, T7, T8",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-27",
+     "huddle": "H-003"
+    },
+    {
+     "text": "Round 2: replies by name; Round 3: fights checked, vote recorded",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-27",
+     "huddle": "H-003"
+    },
+    {
+     "text": "Keepers filed: rewrite inbox + Final Report bank",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-27",
+     "huddle": "H-003"
+    },
+    {
+     "text": "Round 1: five posts, alone (Tess, Amara, Felix, Jun, Kai)",
+     "done": true,
+     "owner": "Tess",
+     "day": "2026-10-27",
+     "huddle": "H-002"
+    },
+    {
+     "text": "Jun's audit: stock share at market value (6.5-7.1% to 2032, 46% in 2041; stock dollars 1.7x), certainty matched on misses",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-27",
+     "huddle": "H-002"
+    },
+    {
+     "text": "Round 2: replies by name",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-27",
+     "huddle": "H-002"
+    },
+    {
+     "text": "Nora's checks: top-tail price (p95), T-bills rule, the coupon gap, the case's income lines",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-27",
+     "huddle": "H-002"
+    },
+    {
+     "text": "Round 3: fights checked, vote recorded, six recommendations to the rewrite thread",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-27",
+     "huddle": "H-002"
+    },
+    {
      "text": "Research for the huddle, all six of us (Nora, Felix, Jun, Kai, Amara, Tess; done 27 Oct)",
      "done": true,
      "owner": "Nora",
@@ -154,6 +1047,48 @@
     }
    ],
    "open": [
+    {
+     "text": "Courtroom: the 2031 lock against \"three times worse\" and \"three in four\" (Wed 28 Oct)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-003"
+    },
+    {
+     "text": "Lab: T6 (pyramid), T9 (two standards), T10 (which slump)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-003"
+    },
+    {
+     "text": "Re-read the Sass PDF (Studebaker second source) before anyone cites it",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-003"
+    },
+    {
+     "text": "Jun: build V25 into the annual rival model with fat-tailed (t) shocks; does L-10's hold-back plus the worst 1 in 100 coupon gap fit above the bottom? (Thu 29 Oct)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-002"
+    },
+    {
+     "text": "Rewrite thread: replace \"Treasury bills\" in the 2033 set-aside with a permitted holding (before Fri 30 Oct draft)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-002"
+    },
+    {
+     "text": "Archive: same word in A19's proposed fix",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-002"
+    },
     {
      "text": "Vote yes or no on Kai's P3 amendment, no scores and a cold reader picks (Nora; by Wed 28 Oct)",
      "done": false,
@@ -212,6 +1147,18 @@
     }
    ],
    "runs": [
+    {
+     "day": "2026-10-27",
+     "when": "Tue 27 Oct 22:20",
+     "room": "Claude (Ray's thread, not a room)",
+     "what": "Model Suite `../models/README.md`: four worlds, five rival plans, 7 charts; the champion breaks a promise in 0-1.6% of worlds vs 22-36% for rival plans; new fact: $300k buys the ten cheques in 1 month in 4 since 1871, none from mid-2007 to now"
+    },
+    {
+     "day": "2026-10-27",
+     "when": "Tue 27 Oct 20:40",
+     "room": "Kitchen",
+     "what": "Scene 2 (Nora-Kai after C-02: the truce holds through a loss; Nora holds the question open). One idea filed: \"is there a ninety?\", a 2031 figure the bottom rule can never go below, to the Genius Lab for Thu 29 Oct"
+    },
     {
      "day": "2026-10-27",
      "when": "Tue 27 Oct 20:05",

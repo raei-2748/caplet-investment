@@ -1,0 +1,7 @@
+**Felix** (round 1)
+
+Okay, A09's best advocate. A growth-minded judge says: the cheques are just as safe. In our model A09 misses one by more than $1,000 on 0.02% of paths, XR on 0.03%. So why pay for a floor? A09's typical gift is $170k to our $165k, its average is $175k to $160k, and its best 1 in 20 is about $257k to $260k against our $180k. A lead gift that draws bigger gifts wants an upside, and ours is capped. Yes, XR reaches its top 98% of the time to A09's 92% (our model), but a judge will say a top you always reach is a top set too low.
+
+Here's where I think XR wins, and it's on the page. The bottom Laura quotes in 2031. In the worst 5% of 2028–30 stock markets, our model has XR's bottom at $135–140k and A09's at $90–95k. A09's bottom falls below $100k about 1 path in 15–19. Ours, about 1 in 100. And the premium test says A09's whole extra, $11–12k on average, is the stock premium. Let stocks earn only the 2028 Treasury yield and the gap is about –$0.4k to –$1.0k.
+
+What the IPS is missing is one paragraph that says this out loud, naming no rival. Why not a safe ladder and the rest in stocks? You can, and the cheques stay safe. What you buy is a richer gift in good years. What you sell is the bottom of her range in a crash, when her advances and licensing income shrink too. Our model says that extra is the pay for carrying that crash. Laura has already carried one big risk.
