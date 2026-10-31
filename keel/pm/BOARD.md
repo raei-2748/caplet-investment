@@ -1,16 +1,16 @@
 # Task board (real Caplet work; run by Keel)
 
 Rules: `LOOP.md`. WIP limit 3 in Doing. Priority P = Impact (1-3) x Urgency (1-3); pick 4 or more. Owner = a Keel
-desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sat 31 Oct 2026, 07:30 (morning run).
+desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sun 1 Nov 2026, 07:30 (morning run).
 
-**This week's top 3 (Sat 31 Oct - Wed 4 Nov; final IPS for Caplet's review by end of Wed 4 Nov, Book 10). Groomed Sat 31 Oct 07:30:**
-1. **The final IPS for Caplet's review by the end of Wed 4 Nov** (P01; read Thu 5 Nov). V39 is the current best
-   (`../ips_rewrite/drafts/D19/`, AI DRAFT, GPTZero not yet checked). Every draft carries the filled Ten Commandments
-   check (`../ips_rewrite/COMMANDMENTS_CHECK.md`) before it goes to Caplet. Overdrive: more and denser each day.
-2. **Research round 4 today** (`../loop/rounds/2026-10-31.md`): why not a safe ladder and the rest in stocks (Q12,
-   rival A09)? The strategy itself, one paragraph-sized idea taken or dropped whole.
-3. **Ray's danger-zone item:** D6 (hold the WInS book). F4 is dropped: Book 10 says "required trading activity"
-   doesn't contradict the plan.
+**This week's top 3 (Sun 1 Nov - Wed 4 Nov; final IPS for Caplet's review by end of Wed 4 Nov, Book 10). Groomed Sun 1 Nov 07:30:**
+1. **The final IPS for Caplet's review by the end of Wed 4 Nov** (P01; read Thu 5 Nov). V45 is the voice-first
+   candidate Caplet saw on 31 Oct (`../ips_rewrite/drafts/D25/`, AI DRAFT, GPTZero not yet checked; Bible check 2 of
+   198 rows missed, six commandment lines open). Round 4's LR3 (the rival paragraph, $15,000 on our design) is with
+   the rewrite thread.
+2. **Research round 5 today** (`../loop/rounds/2026-11-01.md`): the voice round (Q13), each scout rewriting one V45
+   paragraph in a practitioner's way; the 17:00 weekly review takes LS-06 and LS-13.
+3. **Ray's danger-zone item:** D6 (hold the WInS book).
 
 ## Doing
 | ID | Task | Owner | Due | P | Done when | Notes |
