@@ -1,6 +1,29 @@
 {
- "built": "2026-10-31T09:37",
+ "built": "2026-10-31T21:49",
  "days": [
+  {
+   "date": "2026-11-01",
+   "weekday": "Sun",
+   "essence": [],
+   "huddles": [],
+   "research": [],
+   "done": [],
+   "open": [],
+   "runs": [
+    {
+     "day": "2026-11-01",
+     "when": "Sun 1 Nov 09:30",
+     "room": "Window",
+     "what": "Beat 2, round 5: V47 line by line, no false line; near-breaches $150k floor v $145k bottom (no bridge) and S0 worst-twentieth pair v P4's linked world; A26 re-run identical; round 4 gate 3 verified / 7 \"so\" overstated / 0 false; D19-D27 labelled; W-06 the SEC's flat yes"
+    },
+    {
+     "day": "2026-11-01",
+     "when": "Sun 1 Nov 07:40",
+     "room": "Noticeboard (daily loop)",
+     "what": "Round 5 gathered `../loop/rounds/2026-11-01.md` (Q13 the voice round: who gets a sceptic to pay for a promise in under 100 words; lens 11; annuities, auction houses, mountain guides, all unvisited; new-hands box left open, two scouts repeat, flagged for the 17:00 review); Kitchen's 31 Oct send-off merged from the day branch; watchdog 10 of 10; board groomed; brief; ep36; dashboard not refreshed (office.json uploaded, but the artifact now reads as public and data writes to a public artifact are refused)"
+    }
+   ]
+  },
   {
    "date": "2026-10-31",
    "weekday": "Sat",
@@ -505,7 +528,7 @@
      "day": "2026-10-31",
      "when": "Sat 31 Oct 20:40",
      "room": "Kitchen",
-     "what": "Beat 10, round 4, as huddle H-008 (Amara, Felix, Tess, 3 rounds, 9 agent calls; the Kitchen's first huddle): scene 4 (Felix-Tess, *which plan?*); six doors, 5 TERRITORY candidates + auction lot essays added; FRONTIER Q13 + s4 orders for round 5 (voice round, lens 11; Jun annuity sellers, Kai auction lot essays, Amara mountain guides' turnarounds; each returns exact words + one V45 paragraph rewritten whole); LESSONS LS-13; 2 CORDs; bank #104; request to the Writing Room (agreed value v market value); web blocked (proxy 403)"
+     "what": "Beat 10, round 4, as huddle H-008 (Amara, Felix, Tess, 3 rounds, 9 agent calls; the Kitchen's first huddle): scene 4 (Felix-Tess, *which plan?*); six doors, 5 TERRITORY candidates + auction lot essays added; FRONTIER Q13 + s4 orders for round 5 (voice round, lens 11; Jun annuity sellers, Kai auction lot essays, Amara mountain guides' turnarounds; each returns exact words + one V45 paragraph rewritten whole); LESSONS LS-13; 2 CORDs; bank #104; request to the Writing Room (agreed value v market value); web blocked (proxy 403); dashboard not refreshed (no Artifact tool here); PR #85"
     },
     {
      "day": "2026-10-31",
