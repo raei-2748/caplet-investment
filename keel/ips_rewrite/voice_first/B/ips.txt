@@ -1,0 +1,15 @@
+Laura owes ten cheques of $50,000, one every January from 2033 to 2042, and the first is six years away. She has taken thoughtful risks all her working life. Stocks beat bonds over six years more often than not. So our first plan put three-quarters of her money in the stock market, and on paper it looked like the obvious answer.
+
+Then we ran it through our model, and about one future in thirty missed a cheque. The flaw was never the return. It was the calendar. Laura does not owe one ten-year bill; she owes ten one-year bills, and a crash in the wrong year forces a sale at the bottom. A patient investor can wait out a bad decade. A January cannot.
+
+So in January 2027 her first $300,000 buys the ten cheques, or very nearly: a ladder of Treasury bonds, and Treasury funds that mature like bonds, one falling due just before each January it is for. Every holding can be sold any afternoon – but nothing is sold before it pays. It sits, it matures, it becomes the cheque. We call it Caplet XR, as in extended release.
+
+Only two things break a cheque. The US government defaults. Or, in our model, yields fall before we finish buying, the ladder costs more than she has, and her 2028 deposit cannot fill the gap – though even after a two-point fall, about $125,000 of that $150,000 still fills it. Every cheque therefore rests on one borrower, on purpose.
+
+Whatever the ladder does not need of the 2028 deposit is for the gift. Most of it buys Treasuries maturing in late 2032 – just enough of them to grow back into the whole sum by then. The rest, which is the interest they would otherwise have earned (about a fifteenth of the portfolio, by our sums), buys one world index fund: thousands of companies, dozens of countries. If the fund goes to nothing, she still has the whole sum in 2033. If it does well, she has more. A bank sells exactly this and calls it a capital-protected note; it arrives with a brochure and a fee. Ours arrives with neither.
+
+In 2031 she names co-sponsors a range for that gift. The bottom is the floor she already owns. The top is the floor plus half of whatever the fund is worth that day. The other half stays hers, to sell if the building turns out dearer than planned (it will be priced in Taiwan dollars, which nobody can translate for her yet). Low enough to keep her word; high enough that a lead gift pulls in bigger ones.
+
+From 2033 the ten holdings are the operating reserve, and it runs itself down: each turns to cash before its cheque, nothing is rebalanced, nothing is decided. If her life changes, the order is fixed – the cheques, then the floor, then the gift.
+
+Ten doses, one a year. Nobody crushes the pill.

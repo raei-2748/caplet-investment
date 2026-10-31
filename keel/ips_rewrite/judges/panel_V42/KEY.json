@@ -1,0 +1,50 @@
+{
+ "judge1": {
+  "Entry 1": "VA",
+  "Entry 2": "V40",
+  "Entry 3": "H24",
+  "Entry 4": "V42",
+  "Entry 5": "S01",
+  "Entry 6": "A09"
+ },
+ "judge2": {
+  "Entry 1": "A09",
+  "Entry 2": "H24",
+  "Entry 3": "V42",
+  "Entry 4": "VA",
+  "Entry 5": "S01",
+  "Entry 6": "V40"
+ },
+ "judge3": {
+  "Entry 1": "V40",
+  "Entry 2": "VA",
+  "Entry 3": "A09",
+  "Entry 4": "V42",
+  "Entry 5": "H24",
+  "Entry 6": "S01"
+ },
+ "judge4": {
+  "Entry 1": "V42",
+  "Entry 2": "A09",
+  "Entry 3": "H24",
+  "Entry 4": "S01",
+  "Entry 5": "V40",
+  "Entry 6": "VA"
+ },
+ "judge5": {
+  "Entry 1": "A09",
+  "Entry 2": "S01",
+  "Entry 3": "V40",
+  "Entry 4": "V42",
+  "Entry 5": "H24",
+  "Entry 6": "VA"
+ },
+ "judge6": {
+  "Entry 1": "V40",
+  "Entry 2": "V42",
+  "Entry 3": "A09",
+  "Entry 4": "H24",
+  "Entry 5": "VA",
+  "Entry 6": "S01"
+ }
+}

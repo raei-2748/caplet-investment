@@ -1,0 +1,59 @@
+{
+ "reader1": {
+  "Entry 1": "C",
+  "Entry 2": "V41",
+  "Entry 3": "D",
+  "Entry 4": "B",
+  "Entry 5": "A"
+ },
+ "reader2": {
+  "Entry 1": "A",
+  "Entry 2": "D",
+  "Entry 3": "C",
+  "Entry 4": "B",
+  "Entry 5": "V41"
+ },
+ "reader3": {
+  "Entry 1": "V41",
+  "Entry 2": "C",
+  "Entry 3": "D",
+  "Entry 4": "B",
+  "Entry 5": "A"
+ },
+ "reader4": {
+  "Entry 1": "V41",
+  "Entry 2": "A",
+  "Entry 3": "V42",
+  "Entry 4": "B"
+ },
+ "reader5": {
+  "Entry 1": "V42",
+  "Entry 2": "A",
+  "Entry 3": "B",
+  "Entry 4": "V41"
+ },
+ "reader6": {
+  "Entry 1": "V42",
+  "Entry 2": "V43",
+  "Entry 3": "A",
+  "Entry 4": "V40"
+ },
+ "reader7": {
+  "Entry 1": "V43",
+  "Entry 2": "V40",
+  "Entry 3": "A",
+  "Entry 4": "V42"
+ },
+ "reader8": {
+  "Entry 1": "A",
+  "Entry 2": "V40",
+  "Entry 3": "V43",
+  "Entry 4": "V44"
+ },
+ "reader9": {
+  "Entry 1": "A",
+  "Entry 2": "V40",
+  "Entry 3": "V45",
+  "Entry 4": "V44"
+ }
+}

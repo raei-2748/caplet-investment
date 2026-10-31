@@ -1,0 +1,168 @@
+===== Entry 1 =====
+ELEVATOR PITCH (max 50 words):
+Laura's 2031 promise to co-sponsors should be the floor her portfolio defends. Treasuries bought in 2027 pay all ten $50,000 payments with near-certainty. The 2028 deposit runs a stock-or-Treasury rule that protects her announced minimum. Anything earned above it stays hers, preserving flexibility.
+
+INVESTMENT POLICY STATEMENT (max 500 words):
+**The idea.** The minimum Laura tells co-sponsors in 2031 should be the number her portfolio is mechanically built to protect. We call this Floor = Promise. Three buckets follow.
+
+**Reserve.** The first $300,000 buys US Treasuries maturing each January from 2033 to 2042, each sized to deliver $50,000, held to maturity and never sold. A high degree of certainty, to us, means payments that depend on no stock return and no market price; the remaining risk is the US government failing to pay. If the ladder costs slightly more than $300,000, the 2028 deposit completes it before anything else is invested.
+
+**Growth sleeve.** Everything else, mainly the 2028 deposit, runs a pre-committed rule (CPPI). The floor starts near 60% of the sleeve, accrues at the short Treasury yield, and from 2031 equals the present value of Laura's announced minimum. Each month, stocks held equal three times the cushion (sleeve minus floor), capped at 100% because margin is banned; the rest sits in short Treasuries. Falls cut stock exposure before anyone is tempted to decide. We will not rewrite the rule because markets moved. Stocks are one world ETF, so diversification means thousands of companies across many countries.
+
+**Flexibility.** Committing everything could limit Laura. In 2033 she gives the announced minimum plus at most half the gain above it, and keeps the rest in short Treasuries and cash, available when the project needs it.
+
+**Reserve over time.** Each January a rung matures and pays. The reserve never holds stocks and carries less risk every year.
+
+**The 2031 range.** The low end is the protected minimum. The high end is the contribution that about half of 10,000 simulated paths would beat. We target at least 95% confidence in the minimum and describe the top as roughly even odds.
+
+**Assumptions we chose.** Global stocks return about 7% a year with about 16% volatility; Treasuries about 4.5%. Flows occur at the start of each year, and payments are fixed in nominal dollars. Facility costs may rise with inflation, which the flexibility share absorbs.
+
+**Liquidity.** Payments come from maturing bonds, not forced sales. The sleeve holds one daily-traded ETF and short Treasuries.
+
+**Risks we accept.**
+- *Gap risk.* Rebalancing cannot react inside a month. A breach needs a one-month stock fall of roughly a third while fully invested, which is why we chose a multiplier of three, not five.
+- *Cash-lock.* If the sleeve falls to the floor, the rule moves entirely into Treasuries until 2033, missing any recovery. We accept this: Laura still delivers what she promised.
+- *The 2028 deposit.* It comes from publishing, speaking and licensing income, which may vary. The ladder claims it first.
+- *Currency.* The facility is in Taiwan, our money in dollars. With derivatives banned, a stronger Taiwan dollar is paid from the flexibility share.
+
+**Why Laura.** She takes thoughtful risks but needs ten payments she can count on. The ladder gives certainty; the rule gives upside without risking her payments or her word.
+
+===== Entry 2 =====
+ELEVATOR PITCH (max 50 words):
+Laura promised her residency $50,000 a year for ten years, and hopes to add a gift. Caplet XR doesn't invest the promise: her first $300,000 buys it, in Treasuries maturing before each January. Her 2028 deposit buys Treasuries worth all of it by 2032, and the change buys world stocks.
+
+INVESTMENT POLICY STATEMENT (max 500 words):
+Laura Gao has one promise and one hope. The promise is $50,000 every January from 2033 to 2042, paid from this portfolio alone with a high degree of certainty. The hope is a gift towards the residency's building in Taiwan.
+
+So we don't invest the promise. We buy it.
+
+In January 2027 her first $300,000 buys all ten cheques – or nearly – as a ladder of Treasury bonds, and Treasury funds that mature like bonds, one rung falling due before each January.
+
+A high degree of certainty is a list, not an adjective. The US government defaults. Or a recession arrives before we buy: it pushes yields down, so the ladder costs more, and it shrinks the advances, speaking and licensing behind the 2028 deposit that must cover the gap. One leak remains: coupons paid early earn less if yields fall. In 2031 we price that shortfall and set it aside from the hope, before any range is named.
+
+Sell low, by appointment
+
+There is a serious case against all this, and we made it first. Laura is willing to take thoughtful risks, and in our model, with world stocks at 7.5% a year, a 60/40 portfolio usually ends 2042 almost $200,000 ahead of ours.
+
+But "usually" is the whole trick: about one time in three the 60/40 misses a cheque or breaks its word to co-sponsors; ours, under one in sixty. Laura doesn't owe one ten-year bill. She owes ten one-year bills, and a crash in the wrong year forces a sale at the bottom.
+
+Have your cake and invest the icing
+
+Most of the 2028 deposit buys Treasuries maturing late in 2032, just enough to grow back into all of it: her floor. What's left – the interest those bonds should earn – buys one world index fund. Banks sell this as a capital-protected note. Ours swaps the bank's option for shares and leaves out the bank (and its fee).
+
+In 2031 she gives co-sponsors a range. The bottom is the floor she has owned since 2028. The top is the floor plus half her stocks. The other half stays hers, to sell any day if a building priced in Taiwan dollars comes in dearer.
+
+A capped range has a catch: once it is named, every fall in stocks comes off the gift while every rise past the top goes to Laura. So on the day she names it, the half she promised moves into Treasuries, and in our model the gift reaches its top about 97 times in 100.
+
+From 2033 the ten holdings are the operating reserve, and it runs itself down: each turns to cash before its cheque, with nothing sold early and nothing to rebalance. If anything changes, the cheques come first, then the floor, then the hope. We call the plan Caplet XR, after the extended-release capsule (X for ten, R for redemption): one cheque a year, and it only works whole.
+
+Do not crush.
+
+===== Entry 3 =====
+ELEVATOR PITCH (max 50 words):
+Investors never fund a startup's full plan on day one; they fund milestones. We apply that to Laura's residency. Ten $50,000 payments are locked in US Treasuries from day one. The facility contribution is released in stages, each unlocked by market and project milestones, so Laura keeps her options open.
+
+INVESTMENT POLICY STATEMENT (max 500 words):
+The problem, as founders see it
+Laura is an entrepreneur launching a new venture in 2033. Like any founder, she faces two kinds of money: committed burn she must never miss, the ten $50,000 operating payments from 2033 to 2042, and growth capital, her contribution to the facility. Startups that commit everything before they know the real costs run out of runway. Our strategy keeps Laura's options alive until information arrives.
+
+Runway first: the operating commitment
+The payments are Laura's runway, and runway is not speculated with. In 2027 we use the first contribution to buy US Treasuries maturing just before each payment date, held to maturity: ten payments, ten maturities. Held to maturity, their payout is fixed whatever markets do, so the commitment depends only on the US government. That is our standard of high certainty: no payment relies on a return assumption. If the 2027 money is not enough, the 2028 contribution completes the runway first.
+
+Growth capital: the surplus
+Everything after the runway is invested for growth: 75% VT and 25% QQQ, because innovation-driven companies have led global returns and Laura's own career sits in technology and creative industries. We rebalance once a year and assume about 7% a year with deep drawdowns possible.
+
+Stage gates: how the facility contribution is committed
+We treat the facility contribution as three tranches, each with a gate:
+- Gate 1 (2031, co-sponsor pitch): Laura announces a range. The bottom is a "seed tranche" we move into short Treasuries in 2031, so it is locked. The top is the seed tranche plus later tranches that depend on markets.
+- Gate 2 (start of 2033, launch): the seed tranche is paid. A second tranche is paid if the growth portfolio is above its target and co-sponsors have committed their share.
+- Gate 3 (2034-2035, after launch): a final tranche is released only if the residency is operating on plan and the portfolio has recovered from any downturn.
+Each gate is a real option: Laura has the right, not the obligation, to invest more. In bad markets she simply does not exercise it, and nothing she has promised is broken.
+
+How the portfolio evolves
+2027-2030: runway locked, growth capital fully invested.
+2031-2032: seed tranche de-risked into Treasuries; the rest stays invested.
+2033 onward: the runway becomes the operating reserve and shortens by one maturity every year. Remaining growth capital stays invested as Laura's flexibility fund and the source of later tranches.
+
+Why this beats a single number
+A single 2033 commitment forces Laura to bet on one moment in the market. Staging spreads that risk across time and links money to evidence about the project, which is how co-sponsors already think. It protects her credibility because every promise is sized to a tranche already secured.
+
+Why it fits Laura
+Laura has always pursued unconventional opportunities with a strategic mindset. This is her own playbook: secure the base, test the idea, scale what works.
+
+===== Entry 4 =====
+ELEVATOR PITCH (max 50 words):
+Laura owes her residency $50,000 every January for ten years, and hopes to add a gift for the building. Caplet XR buys all ten cheques first, with Treasuries that mature in time. Her second deposit backs the gift with bonds, and only the interest rides on world stocks.
+
+INVESTMENT POLICY STATEMENT (max 500 words):
+Laura has one promise and one hope. The promise is $50,000 every January from 2033 to 2042, paid from this portfolio alone. The hope is a gift for the building. They need different kinds of money, so we keep them apart.
+
+We started with three-quarters in stocks. Our model sank it: about one future in thirty missed a cheque. Laura doesn't owe one ten-year bill. She owes ten one-year bills, and a crash in the wrong year forces a sale at the bottom.
+
+So we built Caplet XR. On a pill, XR means extended release: the same dose on schedule. Ours also means X for ten, R for redemption.
+
+Her first $300,000 buys all ten cheques in January 2027: a ladder of Treasury bonds and Treasury funds that mature like bonds, each before its January.
+
+What does a high degree of certainty mean? In our model, only two things break a cheque. The US government defaults. Or her 2028 deposit can't fill the gap. Even if yields fall two points first, about $125,000 still does. The ladder has one leak – early cash earns less if yields fall – and we price it and set the money aside in 2031, before she names her range.
+
+Laura is willing to take thoughtful risks, but she has already taken the big one: the residency. Her income from advances, speaking and licensing shrinks in exactly the recessions that make bonds dear. So the cheques use money she already has. Her 2028 deposit plugs any gap in the ladder, then builds her gift.
+
+Most of it buys a floor: Treasuries that grow back into all of it by late 2032. The interest they should earn (about a fifteenth of everything she owns, by our sums) goes into a world index fund. It's a bank's capital-protected note, minus the bank and its fee. In our model, with world stocks at 7.5% a year, a 60/40 portfolio usually leaves her richer. But about one time in three, that portfolio misses a cheque or lands below its own range.
+
+In 2031 Laura gives co-sponsors a range: low enough to keep her word, high enough that her lead gift draws bigger ones. The bottom is the floor she owns. The top adds half her stocks; the other half stays hers, to sell any day for a dearer building.
+
+A capped range has a catch. Once it's named, a fall in stocks comes off the gift while a rise past the top goes to Laura. On the day she names it, the half she promised moves into Treasuries. In our model the gift reaches its top about 97 times in 100. The rare miss is about $1,000.
+
+From 2033 the ten holdings are the operating reserve. Nothing is sold before it pays – you don't crush an XR pill – and each turns to cash before its cheque, so the reserve runs itself down. If anything changes, the cheques come first, then the floor, then the hope.
+
+===== Entry 5 =====
+ELEVATOR PITCH (max 50 words):
+Laura promised her residency $50,000 a year for ten years, and hopes to add a gift. Caplet XR doesn't invest the promise: her first $300,000 buys it, in Treasuries maturing before each January. Her 2028 deposit buys Treasuries worth all of it by 2032; only their interest buys world stocks.
+
+INVESTMENT POLICY STATEMENT (max 500 words):
+Laura Gao has one promise and one hope. The promise is $50,000 every January from 2033 to 2042, paid from this portfolio alone with a high degree of certainty. The hope is a gift towards the residency's building in Taiwan.
+
+So we don't invest the promise. We buy it.
+
+In January 2027 her first $300,000 buys all ten cheques – or nearly – as Treasury bonds, and Treasury funds that mature like bonds, one falling due before each January.
+
+A high degree of certainty is a list, not an adjective. The US government defaults. Or a recession arrives before we buy: it pushes yields down, so the ladder costs more, and it shrinks the advances, speaking and licensing behind the 2028 deposit that must cover the gap. The ladder's one leak – coupons that arrive early, reinvested at lower rates if yields fall – we price and set aside in 2031.
+
+Sell low, by appointment
+
+There is a serious case against all this, and we made it first. Laura is willing to take thoughtful risks, and in our model, with world stocks at 7.5% a year, a 60/40 portfolio usually ends 2042 almost $200,000 ahead of ours.
+
+But "usually" is the whole trick: about one time in three the 60/40 misses a cheque or falls short of the range it named. Laura doesn't owe one ten-year bill. She owes ten one-year bills, and a crash in the wrong year forces a sale at the bottom – selling low, on a timetable printed years in advance.
+
+Have your cake and invest the icing
+
+Most of the 2028 deposit buys Treasuries maturing late in 2032, just enough to grow back into all of it: her floor. What's left – the interest those bonds should earn, about a fifteenth of the portfolio by our sums – buys one world index fund. A crash can cost her the icing, never the cake. Banks sell this as a capital-protected note. Ours is the same note, minus the bank (and its fee).
+
+In 2031 she gives co-sponsors a range. The bottom is the floor she has owned since 2028. The top is the floor plus half her stocks. The other half stays hers, to sell any day if a building priced in Taiwan dollars comes in dearer.
+
+A capped range has a catch: once it is named, every fall in stocks comes off the gift while every rise past the top goes to Laura. So on the day she names it, the half she promised moves into Treasuries, and in our model the gift reaches its top about 97 times in 100.
+
+From 2033 the ten holdings are the operating reserve, and it runs itself down: each turns to cash before its cheque, with nothing to rebalance. If anything changes, the cheques come first, then the floor, then the hope. We call the plan Caplet XR, after the extended-release capsule: ten redemptions, one a year, and it only works whole.
+
+Do not crush.
+
+===== Entry 6 =====
+ELEVATOR PITCH (max 50 words):
+Promise First, Then Grow: we lock in Laura's commitment before chasing her vision. U.S. Treasury bonds maturing as each $50,000 payment falls due secure all ten residency payments; everything else grows in diversified global stocks, so her facility contribution rises with markets while her promise never depends on them.
+
+INVESTMENT POLICY STATEMENT (max 500 words):
+**Objective.** Laura's portfolio has two jobs of very different kinds. The first is a promise: ten fixed $50,000 payments, 2033 to 2042, funded with a high degree of certainty. The second is a vision: the largest facility contribution she can make responsibly while keeping flexibility. Our strategy never lets the second job put the first at risk. We fund the promise first, then let everything else grow.
+
+**Why this fits Laura.** Laura is an entrepreneur who takes thoughtful risks, but her residency's credibility depends on keeping her word to collaborators and co-sponsors. Because the payments are fixed in dollars and dated exactly, they can be matched almost perfectly with U.S. Treasury bonds. Gambling money already spoken for would be risk without reward.
+
+**The Commitment Ladder.** In 2027 we buy individual Treasury bonds maturing just before each payment date from 2033 to 2042, sized so principal plus coupons covers every $50,000 payment. At current yields this costs roughly two-thirds of Laura's total contributions; if the first deposit falls short, the 2028 deposit completes the ladder before anything else. Coupons received before they are needed are held in short-term Treasuries. We define "high certainty" as every payment backed by a Treasury maturity on or before its due date, so the only remaining risk is a U.S. government default. Because we hold every bond to maturity, rate swings never touch the payments.
+
+**The Growth Engine.** Everything above the ladder is invested for growth through low-cost, broadly diversified ETFs: roughly 80% global stocks (U.S. and international) and 20% intermediate Treasuries as a shock absorber. With a five-year horizon to 2033 and the payments already secured, Laura can afford equity volatility here, and stocks are her best defence against rising construction costs in Taiwan. We rebalance once a year, only when weights drift more than five percentage points.
+
+**Planned changes as needs approach.**
+- *2031:* Before Laura speaks to co-sponsors, we move the bottom of her announced range into Treasuries maturing just before 2033. That floor is then locked; she can never be forced to break it. The top of the range reflects the remaining stocks with a stated, modelled confidence level, so she promises only what she can defend.
+- *2033:* The ladder becomes the operating reserve with no rebalancing required. Each year one rung matures and pays one $50,000 payment, so the reserve shortens and self-liquidates as payments are made.
+- *Facility contribution:* Laura contributes the locked floor plus at most half of the remaining growth portfolio, capped at the top of her announced range. The rest stays invested as her flexibility fund for overruns, delays or new opportunities.
+
+**Risk and assumptions.** We assume long-run returns near 6–7% a year for global stocks and 4–5% for Treasuries, 2.5% inflation, and no outside money for the payments. We test outcomes in good, average and severe markets; a crash shrinks only the facility contribution, never the payments. Each January we review the plan against Laura's needs.
+

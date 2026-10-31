@@ -556,3 +556,44 @@ fixed, both sourced in D19's README.) "Why does a CPPI team beat you?" (It shows
 "You're timid with her money." (Two judges again. The answer is para 6, capacity not willingness, but J2 and J5 want the
 price in dollars, and the honest price is large: M7 has a 60/40 leaving her ~$226k by 2042 against our ~$30k.) **The
 fix:** Saturday's round puts that price beside the Lab's A09 run and decides, by test, whether the IPS should say it.
+
+## Sat 31 Oct, morning: V40, and the price we haven't said
+V40 changes two sentences, both because a judge said so: the $125,000 now says what it does ("still does", i.e. fills
+the gap), and the 60/40's miss is clearly that portfolio's, not ours. The cold read checked every number on the
+Archive's grid (all true) and caught three over-claims we'd stopped seeing: "buys all ten" (it's "or nearly"),
+"everything she owns" (she has money outside the portfolio), and "In our model" sitting over a US default the model
+doesn't model. Those go in the mid-day draft.
+
+**What Caplet would say (Commandment X):** "You keep saying 'usually leaves her richer'. How much richer?" Almost
+$200,000 by 2042, in our own model, and we haven't said it because it's uncomfortable. That's the wrong reason. The
+mid-day round tests V41, which says it, against V41b, which doesn't, and lets six judges decide whether naming the
+price makes the case stronger or weaker. "Is the 7.5% back in?" Yes, as the model's assumption for world stocks only,
+logged in ASK_HUMANS with a one-line undo.
+
+## Sat 31 Oct, afternoon: the voice-first round, and what it cost
+Caplet said this morning that we are "chronically incapable of writing like a human" and that every Bible message is
+being ignored. Both were true in one way: every round since Thursday optimised for clarity and the word count, and
+each cut sanded off a little more voice. So this round started from voice: a brief from the essays' moves and the
+finance writers, four drafts written for voice first, three blind readers. Draft A won on voice. Then I merged A with
+B, C and D into V42, cut it from 693 words to 495, and it came back as "the squeezed sibling" of A, with riddles made
+by deleting small words. Six judges put it third, behind V40, because the merge also lost the leak, the lock and the
+97-in-100. The lesson is the one Book 10 already gave: cut whole ideas, never squeeze. V43 starts again from A and
+puts back V40's substance by dropping seven whole ideas, each listed in the ledger.
+
+**What Caplet would say (Commandment X):** "Why did your first voice draft lose to the plain one?" Because the
+judges mark on Wharton's criteria and the voice drafts left out mechanism. Voice and substance are not a trade: the
+fix was to stop squeezing, not to stop joking. "Is it human yet?" We can't say: GPTZero still can't be reached from
+here, and our own agents are not detectors. The draft says "GPTZero: not yet checked".
+
+## Sat 31 Oct, evening: V44 and V45
+V44 did what the V43 Bible check asked and won the actuary, but the teacher, the skimmer and the professor all put V40
+first for the same reason in different words: it tells the story of the plan we threw away. V45 put that sentence back
+("our first plan was three-quarters stocks, until our own model sank it") and became first with two judges and never
+worse than third (mean rank 2.33 against V40's 2.17). On voice it is second only to draft A, and V40 is last with
+every voice reader who saw it. That is the first draft that is close to the plain one on Wharton's criteria and well
+ahead of it on voice, so it is the one Caplet sees tonight, with its check, open misses and all.
+
+**What Caplet would say (Commandment X):** "Six commandments fail. Why am I seeing it?" Because I promised a voice-first
+draft and its checklist tonight, and an honest list of what's still wrong is more use to you than another unseen
+round. One of the six (GPTZero) can't pass from here; the other five have exact fixes in section E of the check, and
+they're Sunday's first job. "Is this the final?" No: the final is due to you at the end of Wed 4 Nov.

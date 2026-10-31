@@ -9,6 +9,8 @@ Fate: **IN** (in V31's text) · **FR** (Final Report, with the reason it isn't i
 
 
 ## Live draft: V39 (D19), Fri 30 Oct night
+*Sat 31 Oct, V40 (D20): V39's ideas unchanged, two clarity fixes. Mid-day candidate V41 adds one new idea, the price of safety in dollars (M7: a 60/40 "usually leaves her almost $200,000 richer by 2042"), and pays with "The rare miss is about $1,000" (to the Final Report).*
+
 V39 = V36's ideas, with: the break point on this plan's own design ($125,000; Archive A25); the return assumption
 (world stocks at 7.5%); the 60/40 trade-off corrected (one time in three) and said as concession then "But"; the leak in
 plain words (early cash, covers the early-maturing bonds too); liquidity ("to sell any day"). **Out since V36, and
@@ -140,3 +142,30 @@ set-aside), the coupon leak named in one plain sentence (**D6**), and the honest
 four headings, the inflation pair (**B9** -> FR; the "dearer building" clause stays), the "wipe out every share" line
 (**C5** -> FR: the Window found it false in a few hundred of 600,000 paths; the true line is "the shares can help a
 cheque, never hurt one").
+
+## V42 and V43 (Sat 31 Oct, the voice-first round): where every idea went
+V42 (`drafts/D22/`) merged four voice-first drafts and dropped, without a record, V41's coupon leak and set-aside,
+the capped-range catch, 97 in 100, the 7.5% assumption, "low enough to keep her word, high enough that her lead gift
+draws bigger ones", the income-from-advances line as its own paragraph, and "The rare miss is about $1,000" (the Bible
+check on V42 caught this). V43 (`drafts/D23/`) accounts for all of them:
+- **IN (V43):** coupon leak + 2031 set-aside; the capped-range catch + the move into Treasuries on naming day; 97 in
+  100; world stocks at 7.5%; income from advances, speaking and licensing (inside the certainty list); the 60/40 price
+  ("almost $200,000 ahead"); ten one-year bills; the bank-free capital-protected note; icing and cake; cheques, floor,
+  hope; Caplet XR as ten redemptions, one a year; "Do not crush."
+- **FR (cut from the IPS to pay for the above, kept for the Final Report):** the $125,000 break point after a
+  two-point fall (A25); "her taste for risk is already spent on the residency"; "Any rung can be sold any day. None
+  will be."; "A bird in the hand, half the bush" (heading); "a fact, not a forecast"; "of thousands of companies";
+  "most ways her money could go wrong begin with confusing the two"; "low enough to keep her word, high enough that her
+  lead gift draws bigger ones" (the donor-study line, Bible check row 104); "The rare miss is about $1,000"; V42's
+  "A high degree of certainty should be a short list of the ways it fails" survives as "is a list, not an adjective".
+- **OUT:** V42's "For money that keeps a residency's doors open, one in three is not a risk. It is a forecast."
+  (over-claim: it pins the 60/40's range-or-cheque figure on the cheques, which fall short only 6-8% of the time in
+  M7); V42's closing chiasmus ("The hope gets everything the promise doesn't need ...": a tagline, reader 5).
+- **V44 (`drafts/D24/`):** IN: our own reliability beside the 60/40's ("ours, under one in sixty", M7); the leak's
+  set-aside "from the hope, before any range is named"; "nothing sold early"; "(X for ten, R for redemption)". FR:
+  "selling low, on a timetable printed years in advance"; "A crash can cost her the icing, never the cake."; "about a
+  fifteenth of the portfolio" (needs a run file before it is used anywhere).
+- **V45 (`drafts/D25/`):** IN again: the first plan, sunk by our own model; "selling low, on a timetable printed years
+  in advance"; "ten redemptions, one a year". NEW: the borrowed note critiqued ("shares, which can't expire
+  worthless"). FR: the cake heading ("Have your cake and invest the icing"); "nothing sold early"; "with nothing to
+  rebalance"; "(and its fee)"; "(X for ten, R for redemption)" spelled out (the Final Report can unpack the name).

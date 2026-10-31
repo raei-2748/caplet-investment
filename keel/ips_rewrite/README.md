@@ -8,7 +8,9 @@
 AI-generated (Claude Code) for Team Caplet. Not for submission as written: every draft here is an
 `AI DRAFT (Claude, <date>)` that Caplet rewrites in its own words and logs for the Works Cited.
 
-**Current draft (Fri 30 Oct, night): V39 = `drafts/D19/`** (V36 with the break point corrected to this plan's own $125,000, the return assumption stated, the 60/40 number corrected to one time in three, the certainty answer made true; pitch 48 / IPS 500; GPTZero not yet checked, see `DETECTOR_LOG.md`).
+**Current draft (Sat 31 Oct, morning): V40 = `drafts/D20/`** (V39 + two clarity fixes; README of V39 has the number sources). Before that: V39 = `drafts/D19/` (V36 with the break point corrected to this plan's own $125,000, the return assumption stated, the 60/40 number corrected to one time in three, the certainty answer made true; pitch 48 / IPS 500; GPTZero not yet checked, see `DETECTOR_LOG.md`).
+
+**Word rule:** the final IPS stays at most 497 words on the stricter count (hyphenated words as two; `../office/tools/textcheck.py`), a few under Wharton's 500. Panels are built with `judges/build_panel.py`.
 Book 10 mode until the final, end of Wed 4 Nov (Sydney): every idea in `IDEA_LEDGER.md`, every draft checked against the
 Ten Commandments (`COMMANDMENTS_CHECK.md`) and judged by the panel in `judges/`.
 
