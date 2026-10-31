@@ -4,6 +4,7 @@
 
 | ID | Opened | Title | Status | Rounds | Members | To-dos | Essence |
 |---|---|---|---|---|---|---|---|
+| H-007 | 2026-10-31 | [The bad naming day](2026-10-31_the-bad-naming-day/transcript.md) | closed | 3 | Amara, Kai, Felix | 5/7 | We tested the plan two mock judges liked best: bonds for the cheques and the rest in stocks, with the gift's bottom fixed only in 2031. Set to promise the same $145,000 in a typical year, it would have to promise under $ |
 | H-006 | 2026-10-31 | [The whole price](2026-10-31_the-whole-price/transcript.md) | closed | 3 | Nora, Tess, Kai, Amara, Felix | 4/8 | We argued over whether owning Laura's gift floor from 2028 costs her about $9,000, as the paragraph said; in our model it is nearer $19,000 on average by 2042, because the rival plan usually wins. We kept the plan and re |
 | H-005 | 2026-10-31 | [The price of the floor](2026-10-31_the-price-of-the-floor/transcript.md) | closed | 3 | Felix, Jun, Kai | 5/7 | We built the plan two mock judges preferred (bonds for the cheques, the rest in stocks until 2031) and ran it beside ours on the same 200,000 model futures. Its cheques are just as safe and its gift is about $15,000 bigg |
 | H-004 | 2026-10-30 | [The roof after Book 10](2026-10-30_the-roof-after-book-10/transcript.md) | closed | 3 | Tess, Kai, Felix | 3/6 | We argued over whether to keep fixing sentences or answer the questions Wharton actually asks. We decided Saturday goes to one big question, why not a safe ladder and the rest in stocks, because two of six mock judges pu |
@@ -22,7 +23,9 @@
 - H-001: If no CORD is pulled by Fri 6 Nov, the habits were decoration (Nora)
 - H-004: Does V36's floor-from-2028 actually beat A09's lock-in-2031 on our own model paths, and what does it give up?
 - H-004: If it does, is that the paragraph-sized idea the next draft is missing for a growth-minded judge?
-- H-006: Can the January-morning image be called back in the 'But' sentence ('that January morning arrives mid-slump') within 497?
-- H-006: Does 'ten one-year bills' belong anywhere in the IPS once the rival also owns the ladder?
+- H-007: Does the after-2033 shortfall (XR 0.07-0.09% with the 2031 mark, LR-05) survive L-13's chain against A09 with the same mark? (Genius Lab)
+- H-007: Does a blind reader prefer the A09 paragraph to V45's 60/40 paragraph, and does losing 'three-quarters stocks, until our own model sank it' cost the decision path? (Writing Room)
 - H-005: Is the bottom Laura can quote worth more than its dollar size, because a lead gift draws others (bank #6)? Price the co-sponsor effect of a $95k v $140k bottom in a crash year
 - H-005: Which 19 words pay for the paragraph: the 97-in-100 top line, the one-in-thirty line, or something else?
+- H-006: Can the January-morning image be called back in the 'But' sentence ('that January morning arrives mid-slump') within 497?
+- H-006: Does 'ten one-year bills' belong anywhere in the IPS once the rival also owns the ladder?

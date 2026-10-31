@@ -1,0 +1,75 @@
+{
+  "id": "H-007",
+  "slug": "the-bad-naming-day",
+  "title": "The bad naming day",
+  "question": "Why not a safe ladder and the rest in stocks (rival A09)? After naming day both plans lock what they name, so the only thing a co-sponsor ever sees is the number Laura can name in 2031. Is that difference worth what it costs her, and is it the answer V45 is missing?",
+  "room": "Laura's Room",
+  "chair": "Amara",
+  "opened": "2026-10-31",
+  "status": "closed",
+  "closed": "2026-10-31",
+  "members": [
+    "Amara",
+    "Kai",
+    "Felix"
+  ],
+  "serves": "North stars 3 and 4; Investment Strategy and Client Knowledge (Wharton's 'balance growth, risk, liquidity, funding reliability, and financial flexibility'; case :68-74, :109-120)",
+  "rounds": [
+    {
+      "n": 1,
+      "name": "Go away and read",
+      "date": "2026-10-31",
+      "posts": [
+        "posts/r1_amara.md",
+        "posts/r1_kai.md",
+        "posts/r1_felix.md"
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Reply by name",
+      "date": "2026-10-31",
+      "posts": [
+        "posts/r2_amara.md",
+        "posts/r2_kai.md",
+        "posts/r2_felix.md"
+      ]
+    },
+    {
+      "n": 3,
+      "name": "Settle it and land it",
+      "date": "2026-10-31",
+      "posts": [
+        "posts/r3_amara.md",
+        "posts/r3_kai.md"
+      ]
+    }
+  ],
+  "essence": [
+    "We tested the plan two mock judges liked best: bonds for the cheques and the rest in stocks, with the gift's bottom fixed only in 2031.",
+    "Set to promise the same $145,000 in a typical year, it would have to promise under $100,000 about one time in thirteen in our model, ours about one in 150; that costs Laura about $9,000 of her own money in a typical year.",
+    "So the draft should answer this rival by name, with both numbers from the same model and the price said out loud, in place of the weaker 60/40 argument."
+  ],
+  "decided": [
+    "Agreed: the A09 build is fair (same ladder, reserve, lock and cushion; matched on the median bottom), but the worst-5% slice ($90k) is a chosen stress test, Final Report only (Felix)",
+    "Agreed (Felix's sentence, Kai's one-world fix, Amara's price): judge-facing numbers from one world only (house): A09 names under $100,000 about 1 in 16, XR about 1 in 2,000 (corrected after the PR #84 review, with the 2031 mark on both: 1 in 13 vs 1 in 150); the price about $9,000 of gift plus kept money at the median in 2033 (Kai)",
+    "Agreed: $90k is a weaker signal at the worst time, not a broken promise; List and Lucking-Reiley says a bigger lead raises more, but nothing about recessions or where 'meaningful' starts (Amara)",
+    "Kai's proposal (Felix and Amara didn't vote on it): replace V45's 60/40 paragraph whole with an A09 paragraph. Chair's call under the doors rule: offered to the rewrite thread as an alternative, with the decision path ('three-quarters stocks, until our own model sank it') kept; the 60/40 and 'sell low' go to the Final Report if it's taken",
+    "Agreed: the coupon leak after 2033 lands on the cheques in a hair of paths (XR short 0.4% of house paths at any size, median $680 across ten cheques, MODEL, old engine): a line on the price list, and V45's 'from the hope' should say Laura's half pays first"
+  ],
+  "seeds": [
+    "Does the after-2033 shortfall (XR 0.07-0.09% with the 2031 mark, LR-05) survive L-13's chain against A09 with the same mark? (Genius Lab)",
+    "Does a blind reader prefer the A09 paragraph to V45's 60/40 paragraph, and does losing 'three-quarters stocks, until our own model sank it' cost the decision path? (Writing Room)"
+  ],
+  "changes": [
+    "keel/rooms/lauras_room/LR-08_the_bad_naming_day.md",
+    "keel/rooms/lauras_room/LR-08_the_bad_naming_day.py",
+    "keel/rooms/lauras_room/LR-08_results.json",
+    "keel/ips_rewrite/inbox/2026-10-31_lauras-room.md",
+    "keel/ips_rewrite/IDEA_BANK.md"
+  ],
+  "todos": {
+    "done": 5,
+    "total": 7
+  }
+}

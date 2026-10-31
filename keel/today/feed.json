@@ -1,15 +1,106 @@
 {
- "built": "2026-10-31T07:43",
+ "built": "2026-10-31T08:15",
  "days": [
   {
    "date": "2026-10-31",
    "weekday": "Sat",
    "essence": [
+    "We tested the plan two mock judges liked best: bonds for the cheques and the rest in stocks, with the gift's bottom fixed only in 2031.",
+    "Set to promise the same $145,000 in a typical year, it would have to promise under $100,000 about one time in thirteen in our model, ours about one in 150; that costs Laura about $9,000 of her own money in a typical year.",
+    "So the draft should answer this rival by name, with both numbers from the same model and the price said out loud, in place of the weaker 60/40 argument.",
+    "We built the plan two mock judges preferred (bonds for the cheques, the rest in stocks until 2031) and ran it beside ours on the same 200,000 model futures.",
+    "Its cheques are just as safe and its gift is about $15,000 bigger on average, but the bottom Laura could promise co-sponsors drops under $100,000 about one time in fifteen to twenty (ours about one in a hundred), nearly always after a stock crash; the extra is simply pay for carrying that crash, and it disappears if stocks earn under about 3% a year.",
+    "So the IPS should answer that plan by name of idea, not by rival, in one paragraph that states the price out loud.",
     "We argued over whether owning Laura's gift floor from 2028 costs her about $9,000, as the paragraph said; in our model it is nearer $19,000 on average by 2042, because the rival plan usually wins.",
     "We kept the plan and rewrote the paragraph to say so: the rival usually wins by about $19,000, but in the worst one in twenty markets it has to sell stocks in a slump and names about $90,000 to co-sponsors against our $140,000. Six blind judges preferred that version, and a voice reader ranked it above the plain repair.",
     "The next draft can answer the rival a growth-minded judge would have written, with an honest price, instead of beating a 60/40 four judges called a straw man."
    ],
    "huddles": [
+    {
+     "id": "H-007",
+     "title": "The bad naming day",
+     "question": "Why not a safe ladder and the rest in stocks (rival A09)? After naming day both plans lock what they name, so the only thing a co-sponsor ever sees is the number Laura can name in 2031. Is that difference worth what it costs her, and is it the answer V45 is missing?",
+     "status": "closed",
+     "room": "Laura's Room",
+     "chair": "Amara",
+     "members": [
+      "Amara",
+      "Kai",
+      "Felix"
+     ],
+     "essence": [
+      "We tested the plan two mock judges liked best: bonds for the cheques and the rest in stocks, with the gift's bottom fixed only in 2031.",
+      "Set to promise the same $145,000 in a typical year, it would have to promise under $100,000 about one time in thirteen in our model, ours about one in 150; that costs Laura about $9,000 of her own money in a typical year.",
+      "So the draft should answer this rival by name, with both numbers from the same model and the price said out loud, in place of the weaker 60/40 argument."
+     ],
+     "decided": [
+      "Agreed: the A09 build is fair (same ladder, reserve, lock and cushion; matched on the median bottom), but the worst-5% slice ($90k) is a chosen stress test, Final Report only (Felix)",
+      "Agreed (Felix's sentence, Kai's one-world fix, Amara's price): judge-facing numbers from one world only (house): A09 names under $100,000 about 1 in 16, XR about 1 in 2,000 (corrected after the PR #84 review, with the 2031 mark on both: 1 in 13 vs 1 in 150); the price about $9,000 of gift plus kept money at the median in 2033 (Kai)",
+      "Agreed: $90k is a weaker signal at the worst time, not a broken promise; List and Lucking-Reiley says a bigger lead raises more, but nothing about recessions or where 'meaningful' starts (Amara)",
+      "Kai's proposal (Felix and Amara didn't vote on it): replace V45's 60/40 paragraph whole with an A09 paragraph. Chair's call under the doors rule: offered to the rewrite thread as an alternative, with the decision path ('three-quarters stocks, until our own model sank it') kept; the 60/40 and 'sell low' go to the Final Report if it's taken",
+      "Agreed: the coupon leak after 2033 lands on the cheques in a hair of paths (XR short 0.4% of house paths at any size, median $680 across ten cheques, MODEL, old engine): a line on the price list, and V45's 'from the hope' should say Laura's half pays first"
+     ],
+     "seeds": [
+      "Does the after-2033 shortfall (XR 0.07-0.09% with the 2031 mark, LR-05) survive L-13's chain against A09 with the same mark? (Genius Lab)",
+      "Does a blind reader prefer the A09 paragraph to V45's 60/40 paragraph, and does losing 'three-quarters stocks, until our own model sank it' cost the decision path? (Writing Room)"
+     ],
+     "todos": {
+      "done": 5,
+      "total": 7
+     },
+     "path": "keel/huddles/2026-10-31_the-bad-naming-day",
+     "transcript": "keel/huddles/2026-10-31_the-bad-naming-day/transcript.md",
+     "changes": [
+      "keel/rooms/lauras_room/LR-08_the_bad_naming_day.md",
+      "keel/rooms/lauras_room/LR-08_the_bad_naming_day.py",
+      "keel/rooms/lauras_room/LR-08_results.json",
+      "keel/ips_rewrite/inbox/2026-10-31_lauras-room.md",
+      "keel/ips_rewrite/IDEA_BANK.md"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    },
+    {
+     "id": "H-005",
+     "title": "The price of the floor",
+     "question": "Why not a safe ladder and the rest in stocks? Does our floor bought in 2028 beat the rival that keeps the 2028 deposit in stocks and locks the bottom in 2031, on our own model paths, and what does it give up?",
+     "status": "closed",
+     "room": "Genius Lab",
+     "chair": "Felix",
+     "members": [
+      "Felix",
+      "Jun",
+      "Kai"
+     ],
+     "essence": [
+      "We built the plan two mock judges preferred (bonds for the cheques, the rest in stocks until 2031) and ran it beside ours on the same 200,000 model futures.",
+      "Its cheques are just as safe and its gift is about $15,000 bigger on average, but the bottom Laura could promise co-sponsors drops under $100,000 about one time in fifteen to twenty (ours about one in a hundred), nearly always after a stock crash; the extra is simply pay for carrying that crash, and it disappears if stocks earn under about 3% a year.",
+      "So the IPS should answer that plan by name of idea, not by rival, in one paragraph that states the price out loud."
+     ],
+     "decided": [
+      "3-0 ADOPT: one paragraph answering 'why not a safe ladder and the rest in stocks?' with the unsliced numbers and the price, replacing V39 para 7's 60/40 sentences (and one more cut the rewrite thread picks)",
+      "3-0: 'same price, different risk' dropped as a phrase (it isn't the same price; we pay the stock premium and say so)",
+      "3-0: the worst-5% slice, the premium test and the 3% break-even stay out of the IPS; they are the Final Report's table and our answer if a judge asks",
+      "Kai lost his round-1 bet: 93-94% of the rival's sub-$100k bottoms follow a 2028-30 stock loss"
+     ],
+     "seeds": [
+      "Is the bottom Laura can quote worth more than its dollar size, because a lead gift draws others (bank #6)? Price the co-sponsor effect of a $95k v $140k bottom in a crash year",
+      "Which 19 words pay for the paragraph: the 97-in-100 top line, the one-in-thirty line, or something else?"
+     ],
+     "todos": {
+      "done": 5,
+      "total": 7
+     },
+     "path": "keel/huddles/2026-10-31_the-price-of-the-floor",
+     "transcript": "keel/huddles/2026-10-31_the-price-of-the-floor/transcript.md",
+     "changes": [
+      "../../rooms/lab/L-14_price_of_the_floor.md",
+      "../../ips_rewrite/inbox/2026-10-31_genius-lab.md",
+      "../../ips_rewrite/IDEA_BANK.md"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    },
     {
      "id": "H-006",
      "title": "The whole price",
@@ -56,8 +147,115 @@
      "rounds_today": 3
     }
    ],
-   "research": [],
+   "research": [
+    {
+     "path": "keel/huddles/2026-10-31_the-bad-naming-day/research/amara.md",
+     "title": "Amara, round 1 research (31 Oct 2026; FICTION, simulated co-sponsor, never a quote)",
+     "member": "Amara",
+     "huddle": "H-007"
+    },
+    {
+     "path": "keel/huddles/2026-10-31_the-bad-naming-day/research/amara_r3.md",
+     "title": "Amara, round 3 research (31 Oct 2026; FICTION, Keel is simulated; no Laura quotes)",
+     "member": "Amara",
+     "huddle": "H-007"
+    },
+    {
+     "path": "keel/huddles/2026-10-31_the-bad-naming-day/research/felix.md",
+     "title": "Felix, round 1: what I checked (MODEL, curve 22 Oct 2026, J.P. Morgan 7.5%)",
+     "member": "Felix",
+     "huddle": "H-007"
+    },
+    {
+     "path": "keel/huddles/2026-10-31_the-bad-naming-day/research/kai.md",
+     "title": "Kai, round 1 research (FICTION; Keel is simulated)",
+     "member": "Kai",
+     "huddle": "H-007"
+    },
+    {
+     "path": "keel/huddles/2026-10-31_the-bad-naming-day/research/kai_r3.md",
+     "title": "Kai, round 3: what I checked (31 Oct 2026; FICTION, Keel is simulated; every number MODEL)",
+     "member": "Kai",
+     "huddle": "H-007"
+    },
+    {
+     "path": "keel/huddles/2026-10-31_the-price-of-the-floor/research/lab_checks_r3.md",
+     "title": "The Lab's three checks for round 3 (Sat 31 Oct 2026)",
+     "member": "Lab",
+     "huddle": "H-005"
+    }
+   ],
    "done": [
+    {
+     "text": "A09 against XR on the same paths, the bottom Laura can name in 2031 (Amara; done 31 Oct, LR-08)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-10-31",
+     "huddle": "H-007"
+    },
+    {
+     "text": "Check the A09 build is fair and re-run the house world (Felix; done 31 Oct)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-10-31",
+     "huddle": "H-007"
+    },
+    {
+     "text": "Size the after-2033 cheque shortfall, not just its rate (Felix; done 31 Oct)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-10-31",
+     "huddle": "H-007"
+    },
+    {
+     "text": "Check what the lead-gift study actually says about size (Amara; done 31 Oct)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-10-31",
+     "huddle": "H-007"
+    },
+    {
+     "text": "One true, one-world IPS wording (Kai; done 31 Oct)",
+     "done": true,
+     "owner": "Kai",
+     "day": "2026-10-31",
+     "huddle": "H-007"
+    },
+    {
+     "text": "Build A09 at its strongest on XR's own paths, four worlds (Felix; done 31 Oct, `../../rooms/lab/L-14_price_of_the_floor.md`)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-10-31",
+     "huddle": "H-005"
+    },
+    {
+     "text": "Break-even stock return for equal average gifts (Kai's check; done 31 Oct: about 3% a year)",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-31",
+     "huddle": "H-005"
+    },
+    {
+     "text": "Share of A09's sub-$100k bottoms that follow a 2028-30 stock loss (Felix's check; done 31 Oct: 93% / 94%)",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-31",
+     "huddle": "H-005"
+    },
+    {
+     "text": "Reconcile the premium test with the gift gap (Jun's check; done 31 Oct)",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-31",
+     "huddle": "H-005"
+    },
+    {
+     "text": "CORD on Felix's round-2 \"A09 breaks it on about 1 path in 19\": A09 never breaks its quoted bottom; 1 in 19 is how often the bottom it can quote is under $100k (Jun; done 31 Oct, round file s5)",
+     "done": true,
+     "owner": "Jun",
+     "day": "2026-10-31",
+     "huddle": "H-005"
+    },
     {
      "text": "Price the floor in full on LR-08's engine: median, mean, 2033 and 2042, worst twentieth (chair; done 31 Oct, C-04)",
      "done": true,
@@ -88,6 +286,34 @@
     }
    ],
    "open": [
+    {
+     "text": "Re-run the cheque shortfall on L-13's chain with the 2031 mark, XR vs A09 (Genius Lab; by Sun 1 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-007"
+    },
+    {
+     "text": "Blind read: the A09 paragraph against V45's 60/40 paragraph (Writing Room; by Sun 1 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-007"
+    },
+    {
+     "text": "The three ADOPT versions read cold beside V39 para 7, one picked, the 19-word cost weighed (Writing Room; by Sun 1 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-005"
+    },
+    {
+     "text": "The Window gates L-14's headline from the script (Window; by Sun 1 Nov)",
+     "done": false,
+     "owner": "Window",
+     "day": null,
+     "huddle": "H-005"
+    },
     {
      "text": "The rewrite thread decides whether LR3's paragraph replaces V45's \"Sell low, by appointment\" section (rewrite thread; by Sun 1 Nov)",
      "done": false,
@@ -129,6 +355,18 @@
      "when": "Sat 31 Oct 17:40",
      "room": "Writing Room",
      "what": "Beat 7, round 4 (Q12): Lab beat missing, so A09 priced on the suite engine (3 worlds x 50k): the 2028 floor costs ~$4k of typical gift, saves ~$40k in the 1-in-20 crash, promises broken 0.2-1.6% v 2.8-5.4%; arm Q3 (A09 replaces the 60/40) 3 firsts of 6 blind judges, 3-3 v V45, Q1 lost; second panel on Laura's Room's request: LR-08's paragraph 1.83 v Q3 2.83 v V45 3.0, lean LR-08; 5 hard issues"
+    },
+    {
+     "day": "2026-10-31",
+     "when": "Sat 31 Oct 15:05",
+     "room": "Genius Lab",
+     "what": "Beat 5 (Come back), round 4: L-14 the price of the floor, A09 built at its strongest on XR's paths (4 worlds); huddle H-005 (Felix, Jun, Kai, 3 rounds, 3 checks); B ADOPT 3-0 as one IPS paragraph (A09: cheques as safe, +$15k mean gift all stock premium, break-even ~3%; quotable bottom <$100k 5.3-6.7% v 0.85-1.0%); 3 requests closed, 2 filed; bank #98-#99"
+    },
+    {
+     "day": "2026-10-31",
+     "when": "Sat 31 Oct 16:40",
+     "room": "Laura's Room",
+     "what": "Round 4 beat 6, LR-08 the bad naming day: Lab absent at 15:10, so A09 vs XR from the co-sponsor's chair; same $145k median bottom, A09 under $100k 1 in 13 vs XR 1 in 150 (2031 mark on both, fixed after the PR #84 review), price ~$9k (house, MODEL); V45 case read: one gap (A09); A09 paragraph offered in place of the 60/40 (485 strict); huddle H-005; bank #98"
     },
     {
      "day": "2026-10-31",
