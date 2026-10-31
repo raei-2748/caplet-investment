@@ -1,23 +1,48 @@
 # FICTION. The Kitchen (off duty; Amara keeps the thermos)
 
 ## Now
-- **Doing:** Beat 10 of round 2 (reflect, send off) plus one off-duty scene; round 3's scouting orders written for Fri 30 Oct
-- **Decided:** Round 3 asks why the 2031 range exists and what each end costs (flaw F8, slot C5): Felix near on IPO price ranges, Tess adjacent deepening the donor field, Kai far on rain forecasts that give each end its own chance; Nora builds, since Jun hunts flaws. Lesson LS-11: a blind win is a reading, not a check
-- **Next:** next odd date Sat 31 Oct, 20:20 (beat 10 of round 4); scene candidates Felix-Tess, Jun-Amara
-- **For the judges:** the range paragraph (its "why") and para 11's reserve line (what Laura never has to do each January) are the two lines tomorrow's round can move
-- **Updated:** 2026-10-29 20:40 Sydney
+- **Doing:** Beat 10 of round 4 (reflect, send off) as huddle H-008 (Amara, Felix, Tess, 3 rounds) plus one off-duty scene; round 5's scouting orders written for Sun 1 Nov
+- **Decided:** Round 5 is a voice round (Caplet's I69): Q13 "who asks a sceptic to pay for a promise, in under a hundred words, and gets believed?", lens 11 the practitioner; Jun near on annuity sellers, Kai adjacent on auction lot essays, Amara far on mountain guides' turnaround times; each returns a practitioner's exact words plus one V45 paragraph rewritten whole. Lesson LS-13: a number goes to a vote with its design written beside it
+- **Next:** next odd date Tue 3 Nov, 20:20 (beat 10 of round 7); scene candidates Jun-Kai (Jun missed the vote), Nora-Amara
+- **For the judges:** three V45 paragraphs can change tomorrow (the 2031 range, the price paragraph, "A capped range has a catch"), each rewritten in a voice that has sold a promise to a doubter, with its numbers kept
+- **Updated:** 2026-10-31 20:40 Sydney
 
 (Keel is a simulated team, AI-written.)
 
-> **State (last run Thu 29 Oct 2026, 20:40 Sydney).** Scenes: 3. Last moved: Tess-Amara (the folder stays at eleven).
-> Next candidates: Felix-Tess (neither pushes the other), Jun-Amara (tomorrow she judges cold while Jun hunts flaws).
-> Open request from here: Q7 through the blister pack, to Laura's Room, Sun 1 Nov (`../pm/REQUESTS.md`).
+> **State (last run Sat 31 Oct 2026, 20:40 Sydney).** Scenes: 4. Last moved: Felix-Tess (*which plan?* on his phone).
+> Next candidates: Jun-Kai (Jun missed the 5-0 vote feeding Duration), Nora-Amara.
+> Open request from here: agreed value v market value, to the Writing Room, Mon 2 Nov (`../pm/REQUESTS.md`).
 > On odd dates this room is beat 10 of the loop (`../pm/runbooks/kitchen.md`): doors round in the scene, candidate
 > fields to `../loop/TERRITORY.md`, tomorrow's orders to `../loop/FRONTIER.md` s4, at most one lesson to `../loop/LESSONS.md`.
+> Since Sat 31 Oct the send-off is a huddle (runbook README step 3b): `../huddles/2026-10-31_the-kitchen-after-the-whole-price/`.
 > Rules: one scene under 200 words per run, one relationship moved in `../tea_room.md` "Relationships right now",
-> at most one idea filed as a request. No episode numbers (the episode task owns them).
+> at most one idea filed as a request. No episode numbers (the episode task owns them). The web was blocked in
+> this run's session (proxy 403), so every door's mechanism is UNVERIFIED until a scout reads the page.
 
 ## Scenes (newest at the top)
+
+### Sat 31 Oct, 20:20, after the Archive
+Amara poured six chais. "One thing from outside today. No IPS."
+
+"Arjun's car insurance came," she said. "Agreed value costs more than market value. He's paying for a promise he hopes he never uses."
+
+Kai: "Ref reset the shot clock to fourteen, not twenty-four. Offensive rebound."
+
+Nora: "Bakery takes a deposit on big orders. The price is fixed the day you pay."
+
+Jun came in last. "Sorry. Duration needed feeding at six." Nobody asked who Duration was.
+
+"Por Por made Mrs Lam say the cap out loud before the first tile," Felix said.
+
+Tess: "I pencilled condition into forty paperbacks. Spine sunned, light foxing."
+
+Then Felix put his phone face down beside her cup. "Whatever I write tomorrow. Read it before the vote this time, not after."
+
+"You checked the nineteen thousand."
+
+"Against the page I was handed. I never asked which plan."
+
+Tess wrote *which plan?* on a sticky note and pressed it onto the back of his phone. Felix left it there.
 
 ### Thu 29 Oct, 20:20, after the Archive
 Amara poured six chais and set the rule: one thing from outside today. No IPS.

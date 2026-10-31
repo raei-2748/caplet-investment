@@ -1,5 +1,5 @@
 {
- "built": "2026-10-31T08:21",
+ "built": "2026-10-31T09:37",
  "days": [
   {
    "date": "2026-10-31",
@@ -8,6 +8,9 @@
     "We tested the plan two mock judges liked best: bonds for the cheques and the rest in stocks, with the gift's bottom fixed only in 2031.",
     "Set to promise the same $145,000 in a typical year, it would have to promise under $100,000 about one time in thirteen in our model, ours about one in 150; that costs Laura about $9,000 of her own money in a typical year.",
     "So the draft should answer this rival by name, with both numbers from the same model and the price said out loud, in place of the weaker 60/40 argument.",
+    "We argued over what tomorrow's research should chase now that Caplet wants the writing to sound human above everything else.",
+    "We've already read a thousand pieces, so tomorrow only goes where we haven't been: people who ask a doubter to pay for a promise in under a hundred words (annuity sellers, auction catalogue writers, mountain guides who set a turn-back time).",
+    "Each brings back the writer's real lines with the link and one of our paragraphs rewritten that way, with its numbers and where they came from kept, so the next draft gets better paragraphs, not more notes.",
     "We built the plan two mock judges preferred (bonds for the cheques, the rest in stocks until 2031) and ran it beside ours on the same 200,000 model futures.",
     "Its cheques are just as safe and its gift is about $15,000 bigger on average, but the bottom Laura could promise co-sponsors drops under $100,000 about one time in fifteen to twenty (ours about one in a hundred), nearly always after a stock crash; the extra is simply pay for carrying that crash, and it disappears if stocks earn under about 3% a year.",
     "So the IPS should answer that plan by name of idea, not by rival, in one paragraph that states the price out loud.",
@@ -55,6 +58,54 @@
       "keel/rooms/lauras_room/LR-08_the_bad_naming_day.py",
       "keel/rooms/lauras_room/LR-08_results.json",
       "keel/ips_rewrite/inbox/2026-10-31_lauras-room.md",
+      "keel/ips_rewrite/IDEA_BANK.md"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    },
+    {
+     "id": "H-008",
+     "title": "The Kitchen after the whole price",
+     "question": "Round 4 is answered. What should round 5 (Sun 1 Nov) chase, now that Caplet has put voice above everything?",
+     "status": "closed",
+     "room": "Kitchen",
+     "chair": "Amara",
+     "members": [
+      "Amara",
+      "Felix",
+      "Tess"
+     ],
+     "essence": [
+      "We argued over what tomorrow's research should chase now that Caplet wants the writing to sound human above everything else.",
+      "We've already read a thousand pieces, so tomorrow only goes where we haven't been: people who ask a doubter to pay for a promise in under a hundred words (annuity sellers, auction catalogue writers, mountain guides who set a turn-back time).",
+      "Each brings back the writer's real lines with the link and one of our paragraphs rewritten that way, with its numbers and where they came from kept, so the next draft gets better paragraphs, not more notes."
+     ],
+     "decided": [
+      "3-0: round 5 is a voice round; question Q13, 'who asks a sceptic to pay for a promise, in under a hundred words, and gets believed?'; lens 11, the practitioner",
+      "3-0: near (Jun) annuity sellers, for the 2031 range paragraph; adjacent (Kai) auction-house lot essays, for the price paragraph ('Sell low, by appointment' or LR3, whichever the rewrite keeps); 'auction' appears nowhere in the 1,000 pieces",
+      "2-1 (Tess, Felix; Amara for the LRB personals): far (Amara) mountaineering turnaround rules, for 'A capped range has a catch'; Amara's own check found the move half-covered by the voice guide's F3, so she goes with a narrower question: the guide's words to a paying client who will be turned back short of the top",
+      "2-1 (Tess, Felix; Amara for one line): each scout returns 50-100 of the practitioner's own words, exact, URL and date read, then one V45 paragraph rewritten whole, numbers and their sources kept, to the rewrite inbox; no scout writes a pitch (Book 10 mode item 1)",
+      "3-0: LS-13, a number goes to a vote with its design written beside it (which plan, which engine)",
+      "CORD x2 (Felix): the reading holds 1,000 pieces, not 765; V45's pitch opens on fourteen words, not seventeen"
+     ],
+     "seeds": [
+      "Does the pitch need a cost clause at all? V45's pitch says what each deposit buys, never what it gives up; the rewrite thread owns the pitch, so this goes to it, not a room",
+      "Agreed value v market value cover (Amara's door): is it the one image that makes the rival paragraph land, or a second motif competing with XR?"
+     ],
+     "todos": {
+      "done": 4,
+      "total": 8
+     },
+     "path": "keel/huddles/2026-10-31_the-kitchen-after-the-whole-price",
+     "transcript": "keel/huddles/2026-10-31_the-kitchen-after-the-whole-price/transcript.md",
+     "changes": [
+      "keel/loop/FRONTIER.md",
+      "keel/loop/LESSONS.md",
+      "keel/loop/TERRITORY.md",
+      "keel/loop/rounds/2026-10-31.md",
+      "keel/rooms/kitchen.md",
+      "keel/tea_room.md",
+      "keel/pm/REQUESTS.md",
       "keel/ips_rewrite/IDEA_BANK.md"
      ],
      "rounds": 3,
@@ -179,6 +230,42 @@
      "huddle": "H-007"
     },
     {
+     "path": "keel/huddles/2026-10-31_the-kitchen-after-the-whole-price/research/amara.md",
+     "title": "Amara's notes, round 1 (H-008)",
+     "member": "Amara",
+     "huddle": "H-008"
+    },
+    {
+     "path": "keel/huddles/2026-10-31_the-kitchen-after-the-whole-price/research/amara_r3.md",
+     "title": "Amara's notes, round 3 (H-008), Sat 31 Oct 2026, late evening",
+     "member": "Amara",
+     "huddle": "H-008"
+    },
+    {
+     "path": "keel/huddles/2026-10-31_the-kitchen-after-the-whole-price/research/felix.md",
+     "title": "Felix, round 1 lookups (Sat 31 Oct 2026)",
+     "member": "Felix",
+     "huddle": "H-008"
+    },
+    {
+     "path": "keel/huddles/2026-10-31_the-kitchen-after-the-whole-price/research/felix_r3.md",
+     "title": "Felix, round 3 checks (Sat 31 Oct 2026, late evening; repo only, web blocked)",
+     "member": "Felix",
+     "huddle": "H-008"
+    },
+    {
+     "path": "keel/huddles/2026-10-31_the-kitchen-after-the-whole-price/research/tess.md",
+     "title": "Tess, round 1 lookup (Sat 31 Oct 2026)",
+     "member": "Tess",
+     "huddle": "H-008"
+    },
+    {
+     "path": "keel/huddles/2026-10-31_the-kitchen-after-the-whole-price/research/tess_r3.md",
+     "title": "Tess, round 3 checks (Sat 31 Oct 2026, late evening; repo only, web blocked)",
+     "member": "Tess",
+     "huddle": "H-008"
+    },
+    {
      "path": "keel/huddles/2026-10-31_the-price-of-the-floor/research/lab_checks_r3.md",
      "title": "The Lab's three checks for round 3 (Sat 31 Oct 2026)",
      "member": "Lab",
@@ -186,6 +273,20 @@
     }
    ],
    "done": [
+    {
+     "text": "Quote the V36 line that misses A09, or drop Kai's hit (Tess, flaw-hunter; done 31 Oct: para 7's 60/40 pair, round 4 beats 5 and 8)",
+     "done": true,
+     "owner": "Tess",
+     "day": "2026-10-31",
+     "huddle": "H-004"
+    },
+    {
+     "text": "Model A09's 2031 lock against V36's 2028 floor on the same paths (Genius Lab, Felix builds; done 31 Oct: L-14, huddle H-005)",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-31",
+     "huddle": "H-004"
+    },
     {
      "text": "A09 against XR on the same paths, the bottom Laura can name in 2031 (Amara; done 31 Oct, LR-08)",
      "done": true,
@@ -220,6 +321,34 @@
      "owner": "Kai",
      "day": "2026-10-31",
      "huddle": "H-007"
+    },
+    {
+     "text": "Round 5's orders written in the loop's frontier: Q13, lens 11, annuity sellers / auction lot essays / mountaineering turnarounds (Amara; done 31 Oct)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-10-31",
+     "huddle": "H-008"
+    },
+    {
+     "text": "CORD: the voice reading holds 1,000 pieces (log line 20, synthesis 6), not 765 or 186 (Felix; done 31 Oct)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-10-31",
+     "huddle": "H-008"
+    },
+    {
+     "text": "CORD: V45's pitch opens on fourteen words, not seventeen; still names no cost (Felix; done 31 Oct)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-10-31",
+     "huddle": "H-008"
+    },
+    {
+     "text": "LS-13 filed: a number goes to a vote with its design written beside it (Felix, Tess, Amara; done 31 Oct)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-10-31",
+     "huddle": "H-008"
     },
     {
      "text": "Build A09 at its strongest on XR's own paths, four worlds (Felix; done 31 Oct, `../../rooms/lab/L-14_price_of_the_floor.md`)",
@@ -301,6 +430,34 @@
      "huddle": "H-007"
     },
     {
+     "text": "Each scout brings back 50-100 of a practitioner's own words, exact, with URL and date, plus one V45 paragraph rewritten whole, numbers and sources kept (Jun, Kai, Amara; by Sun 1 Nov 12:10)",
+     "done": false,
+     "owner": "Jun",
+     "day": null,
+     "huddle": "H-008"
+    },
+    {
+     "text": "Hunt the number first in every return: \"in our model, with world stocks at 7.5% a year\" stays, and the rival it beats is named (Felix, flaw-hunter; by Sun 1 Nov 18:20)",
+     "done": false,
+     "owner": "Felix",
+     "day": null,
+     "huddle": "H-008"
+    },
+    {
+     "text": "Judge the returns cold on three questions: is the quote real, is the move missing from the reading, read aloud does it sound like a person? (Tess; by Sun 1 Nov 18:20)",
+     "done": false,
+     "owner": "Tess",
+     "day": null,
+     "huddle": "H-008"
+    },
+    {
+     "text": "Agreed value v market value as the one image for the rival paragraph, or the Final Report (Writing Room; by Mon 2 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-008"
+    },
+    {
      "text": "The three ADOPT versions read cold beside V39 para 7, one picked, the 19-word cost weighed (Writing Room; by Sun 1 Nov)",
      "done": false,
      "owner": null,
@@ -344,6 +501,12 @@
     }
    ],
    "runs": [
+    {
+     "day": "2026-10-31",
+     "when": "Sat 31 Oct 20:40",
+     "room": "Kitchen",
+     "what": "Beat 10, round 4, as huddle H-008 (Amara, Felix, Tess, 3 rounds, 9 agent calls; the Kitchen's first huddle): scene 4 (Felix-Tess, *which plan?*); six doors, 5 TERRITORY candidates + auction lot essays added; FRONTIER Q13 + s4 orders for round 5 (voice round, lens 11; Jun annuity sellers, Kai auction lot essays, Amara mountain guides' turnarounds; each returns exact words + one V45 paragraph rewritten whole); LESSONS LS-13; 2 CORDs; bank #104; request to the Writing Room (agreed value v market value); web blocked (proxy 403)"
+    },
     {
      "day": "2026-10-31",
      "when": "Sat 31 Oct 20:05",
@@ -437,7 +600,7 @@
       "If it does, is that the paragraph-sized idea the next draft is missing for a growth-minded judge?"
      ],
      "todos": {
-      "done": 3,
+      "done": 5,
       "total": 6
      },
      "path": "keel/huddles/2026-10-30_the-roof-after-book-10",
@@ -478,20 +641,6 @@
     }
    ],
    "open": [
-    {
-     "text": "Quote the V36 line that misses A09, or drop Kai's hit (Tess, flaw-hunter; by Sat 31 Oct)",
-     "done": false,
-     "owner": "Tess",
-     "day": null,
-     "huddle": "H-004"
-    },
-    {
-     "text": "Model A09's 2031 lock against V36's 2028 floor on the same paths (Genius Lab, Felix builds; by Sat 31 Oct)",
-     "done": false,
-     "owner": null,
-     "day": null,
-     "huddle": "H-004"
-    },
     {
      "text": "Sunday review: make LS-06 a runbook rule at the vote gate (Felix's wording) (weekly plan; by Sun 1 Nov)",
      "done": false,
