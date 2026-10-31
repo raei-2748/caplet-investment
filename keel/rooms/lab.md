@@ -1,12 +1,16 @@
 # FICTION (the room) + real work (the experiments). The Genius Lab: lab book
 
 ## Now
-- **Doing:** L-13 "slide the range" (round 3 beat 5, Nora builds): why V29's 2031 top misses, and four open requests (Library #84, Window W-03, Writing Room door 4, Courtroom door table)
-- **Decided:** A "slide the range" ADOPTED as the Lab variant for tonight's Long Room: 88-97% of the top's misses were money the 2031 mark already knew the cheques needed, cut off the bottom but never the top. One word ("off the range") lifts the top from 86.6/84.8/44.0/72.8% to 97.9/97.6/96.0/96.7% reached (S0/S1/S6/S2), bottom never broken, median gift unchanged except S6. B fixed-chance top PARK (FR); C bona fide width PARK (FR, never "a regulator would call it honest"); D wording to the Writing Room
-- **Next:** Sat 31 Oct: whatever the Long Room's vote leaves open; split the slide's last 2-4% misses by cause if the review draft keeps a number; stamp lines on L-01-L-08
-- **For the judges:** IPS para 10 (B3) / 17 (V29): "comes off the range before it is quoted"; it makes para 11's "the change lands on what isn't yet promised" true at the top. Final Report: the why-missed split and the door table
-- **Updated:** 2026-10-30 14:35 Sydney
+- **Doing:** L-14 "the price of the floor" (round 4 beat 5, Felix builds; huddle H-005 with Jun and Kai): Q12, why not a safe ladder and the rest in stocks? A09 built at its strongest on XR's own paths
+- **Decided:** B ADOPT 3-0 as one IPS paragraph: A09's cheques are as safe and its gift about $15k bigger on average (all stock premium; gone below ~3% a year), but its quotable 2031 bottom is under $100k in 5.3-6.7% of paths v 0.85-1.0% (S0/S1), 93-94% of them after a 2028-30 stock loss. A folded in; C PARK (FR). R06's "a fifteenth" holds (6.6% of the portfolio)
+- **Next:** Sun 1 Nov: whatever beat 8 and the rewrite thread leave open; seed: price the co-sponsor effect of a low crash-year bottom (bank #6); stamp lines on L-01-L-08
+- **For the judges:** V39 para 7: the 60/40 pair goes; one paragraph answers the rival two judges preferred, with the price said out loud (`../ips_rewrite/inbox/2026-10-31_genius-lab.md`)
+- **Updated:** 2026-10-31 15:05 Sydney
 
+
+> **State (Sat 31 Oct 2026, 13:40 run).** L-14 done (`lab/L-14_price_of_the_floor.md`): B ADOPT 3-0 (the IPS
+> paragraph), A folded in, C PARK. Three requests closed (Rooftop A09 v V36, Library price, Window W-04 + R06). Huddle
+> H-005. Rerun: `python3 keel/rooms/lab/L-14_price_of_the_floor/run.py [S0 S1 S2 S6]` (~25 s each, sequential).
 
 > **State (Fri 30 Oct 2026, 13:40 run).** L-13 done (`lab/L-13_slide_the_range.md`): A slide ADOPT (Lab variant, Long
 > Room tonight); B PARK; C PARK; D to the Writing Room. Four requests closed (Library #84, Window W-03, Writing Room door
