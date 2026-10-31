@@ -1,15 +1,129 @@
 {
- "built": "2026-10-31T05:39",
+ "built": "2026-10-31T07:43",
  "days": [
   {
    "date": "2026-10-31",
    "weekday": "Sat",
-   "essence": [],
-   "huddles": [],
+   "essence": [
+    "We argued over whether owning Laura's gift floor from 2028 costs her about $9,000, as the paragraph said; in our model it is nearer $19,000 on average by 2042, because the rival plan usually wins.",
+    "We kept the plan and rewrote the paragraph to say so: the rival usually wins by about $19,000, but in the worst one in twenty markets it has to sell stocks in a slump and names about $90,000 to co-sponsors against our $140,000. Six blind judges preferred that version, and a voice reader ranked it above the plain repair.",
+    "The next draft can answer the rival a growth-minded judge would have written, with an honest price, instead of beating a 60/40 four judges called a straw man."
+   ],
+   "huddles": [
+    {
+     "id": "H-006",
+     "title": "The whole price",
+     "question": "Laura's Room's paragraph answers the strongest rival by name (same ladder, stocks until 2031) and prices our 2028 floor at 'about $9,000 of her own money in a typical 2033'. Is that the whole price, is the paragraph clear and in our voice, and should it replace V45's 'Sell low, by appointment'?",
+     "status": "closed",
+     "room": "Courtroom",
+     "chair": "Nora",
+     "members": [
+      "Nora",
+      "Tess",
+      "Kai",
+      "Amara",
+      "Felix"
+     ],
+     "essence": [
+      "We argued over whether owning Laura's gift floor from 2028 costs her about $9,000, as the paragraph said; in our model it is nearer $19,000 on average by 2042, because the rival plan usually wins.",
+      "We kept the plan and rewrote the paragraph to say so: the rival usually wins by about $19,000, but in the worst one in twenty markets it has to sell stocks in a slump and names about $90,000 to co-sponsors against our $140,000. Six blind judges preferred that version, and a voice reader ranked it above the plain repair.",
+      "The next draft can answer the rival a growth-minded judge would have written, with an honest price, instead of beating a 60/40 four judges called a straw man."
+     ],
+     "decided": [
+      "5-0 (Jun absent): LR-08's paragraph AMENDED and promoted as LR3 to the rewrite inbox, replacing V45's heading and both 60/40 paragraphs; 497 strict",
+      "3-1 (Felix abstained): the rival 'sells stocks in January 2031, whatever they fetch that morning' (Kai) and 'after the 2031 set-aside' (Tess) go in; 'leaves her over $40,000 behind' goes to the Final Report to pay for them",
+      "Price stated as a mean, by 2042 ($19,000, house world), not the $9,000 median of 2033 (C-04)",
+      "Voice gate passed: blind reader ranks LR3 above LR2; V45's paragraph is still first on voice"
+     ],
+     "seeds": [
+      "Can the January-morning image be called back in the 'But' sentence ('that January morning arrives mid-slump') within 497?",
+      "Does 'ten one-year bills' belong anywhere in the IPS once the rival also owns the ladder?"
+     ],
+     "todos": {
+      "done": 4,
+      "total": 8
+     },
+     "path": "keel/huddles/2026-10-31_the-whole-price",
+     "transcript": "keel/huddles/2026-10-31_the-whole-price/transcript.md",
+     "changes": [
+      "keel/rooms/courtroom/C-04_the_whole_price.md",
+      "keel/rooms/courtroom/C-04_the_whole_price.py",
+      "keel/rooms/courtroom/C-04_LR3_ips.txt",
+      "keel/ips_rewrite/judges/panel_C04/",
+      "keel/ips_rewrite/inbox/2026-10-31_courtroom.md"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    }
+   ],
    "research": [],
-   "done": [],
-   "open": [],
+   "done": [
+    {
+     "text": "Price the floor in full on LR-08's engine: median, mean, 2033 and 2042, worst twentieth (chair; done 31 Oct, C-04)",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-31",
+     "huddle": "H-006"
+    },
+    {
+     "text": "One repair of LR-08's paragraph, at most 497 strict (Felix; done 31 Oct, LR2)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-10-31",
+     "huddle": "H-006"
+    },
+    {
+     "text": "Blind six-judge panel on V45, LRa, LR2 + three rivals (chair; done 31 Oct, panel C04)",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-31",
+     "huddle": "H-006"
+    },
+    {
+     "text": "Voice gate: LR3 at or above LR2, or LR2 goes (Nora's rule; done 31 Oct: LR3 above LR2)",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-31",
+     "huddle": "H-006"
+    }
+   ],
+   "open": [
+    {
+     "text": "The rewrite thread decides whether LR3's paragraph replaces V45's \"Sell low, by appointment\" section (rewrite thread; by Sun 1 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-006"
+    },
+    {
+     "text": "Try the voice gate's callback sentence (\"that January morning arrives mid-slump\") in LR3 and count it (Writing Room; by Sun 1 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-006"
+    },
+    {
+     "text": "Re-check LR3's three numbers on the L-13 chain ($19,000 mean by 2042; $90,000 v $140,000 in the worst twentieth) (Window; by Sun 1 Nov)",
+     "done": false,
+     "owner": "Window",
+     "day": null,
+     "huddle": "H-006"
+    },
+    {
+     "text": "Final Report list, named: ten one-year bills; donors fall in recessions (Giving USA 2008-09); XR ahead in 32-38% of paths; worst twentieth $135-145k v $80-95k, XR ahead ~$44k; one in thirteen v one in 150 (Archive; by Fri 6 Nov)",
+     "done": false,
+     "owner": "Archive",
+     "day": null,
+     "huddle": "H-006"
+    }
+   ],
    "runs": [
+    {
+     "day": "2026-10-31",
+     "when": "Sat 31 Oct 19:40",
+     "room": "Courtroom",
+     "what": "Round 4 beat 8, C-04 LR-08's A09 paragraph on trial: its '$9,000' was the smallest cell, the price is a ~$19,000 mean by 2042 (C-04, 4 worlds); Felix's repair 1.83 v V45 3.33 with six blind judges (4-2); Nora AMENDED 5-0: LR3 (497) adds the rival's January-2031 sale, passes the voice gate (above LR2, below V45); to the inbox; 1 request closed, 2 filed"
+    },
     {
      "day": "2026-10-31",
      "when": "Sat 31 Oct 17:40",

@@ -1,15 +1,16 @@
 # FICTION (the room and the simulated parties) + real arguments. The Courtroom
 
 ## Now
-- **Doing:** Tried challenger C, four doors (Writing Room's B), against V29's framework line: C-03
-- **Decided:** AMENDED. Jun's repair B2 ("the change lands on what isn't yet promised, never a cheque") beat V29 2-0 with cold readers; Keel promotes it 5-1; valve and override fall for the IPS
-- **Next:** score the Sat 31 review draft on the P04 scorecard; the range's why (B3 candidate) if the Writing Room's blind read is split
-- **For the judges:** IPS para 10: a framework a judge can point at; one clause brings back why a range can be too low or too high
-- **Updated:** 2026-10-29 19:05 Sydney
+- **Doing:** Tried LR-08's paragraph (the strongest rival, A09, answered by name) against V45: C-04
+- **Decided:** AMENDED 5-0. The price is a mean, about $19,000 by 2042, not "$9,000"; the rival "sells stocks in January 2031, whatever they fetch that morning"; LR3 (497) beat V45 4-2 in its first form with six blind judges and passed the voice gate; to the rewrite inbox
+- **Next:** P04 scorecard on the next full draft; whether "ten one-year bills" earns a place once the rival owns the ladder
+- **For the judges:** the IPS answers the plan a growth-minded judge would have written, with an honest price and the bad tail in dollars
+- **Updated:** 2026-10-31 19:40 Sydney
 
 
-> **State (Thu 29 Oct 19:05 AEDT).** Last trial: C-03 four doors (AMENDED; B2 holds C13). Files `courtroom/C-03_*`
-> (build script, B2, B3 candidate, cold reads). Next: P04 scorecard on the Sat 31 draft. Old requests from 26-28 Oct closed.
+> **State (Sat 31 Oct 19:40 AEDT).** Last trial: C-04 the whole price (AMENDED; LR3 to the inbox). Files `courtroom/C-04_*`
+> (price script + results, LR2, LRa, LR3, two voice reads), panel `../ips_rewrite/judges/panel_C04/`, huddle H-006.
+> Next: P04 scorecard on the next full draft.
 
 > Room card: `../OFFICE.md`. Kai prosecutes (`devils-advocate`); Nora presides and runs the mock judges
 > (`mock-judge`, workflow `office-judge-panel`). Pre-mortems: `../pm/PREMORTEMS.md`.
@@ -43,4 +44,5 @@
 | Sun 25 Oct (evening) | D1 lean: $10k buffer from the 2028 deposit + payments before the floor; Laura's Room exhibit 0.75% -> 0.11% | Kai: the buffer is paid from the floor money, so floor, bottom and top all fall $10k; quoting $10k lower with no buffer gives the same 0.11%; payments are 100% covered under d either way (C-01, MODEL) | AMENDED | Vote two dials: d (P5 "+, and last from the floor itself") and a quote margin (P4 "+less a margin for coupon risk"); buffer = D5 question (`../office/outbox/2026-10-25_courtroom_d1-buffer-is-a-lower-quote.md`) |
 | Tue 27 Oct (evening) | LR-04: no fixed margin under the 2031 bottom; in 2031 take off only the coupon gap already visible (clearing house: variation, not initial margin) | Kai: a bottom that can be cut isn't the TNA's "promised minimum"; the clearing house is costume; LR-03's donors were households (C-02, MODEL) | AMENDED | Rule stands (0 of 200,000 breaks; letting the gap use the $3,700 gives 35); the IPS states the bottom as a rule, never $145k (below it in 43.5% of paths before any mark); "seven times in ten"; no co-sponsor % in Caplet text (`../office/outbox/2026-10-27_courtroom_mark-to-market-on-trial.md`) |
 | Thu 29 Oct (evening) | Challenger C, four doors (Writing Room B, 498) against C13 (V29 para 10) | Kai: B's order line ranks the gift before her half, but para 17 and the model (LR8 line 29) make her half pay the coupon gap first; B drops the range's why; Spinnaker: dates ignore the market | AMENDED | Jun's repair B2 ("the change lands on what isn't yet promised, never a cheque", 495) beats V29 2-0 cold; Keel 5-1; valve and override fall (FR); B3 candidate restores the range's why (`courtroom/C-03_four_doors_on_trial.md`) |
+| Sat 31 Oct (evening) | LR-08's paragraph (A09 answered by name; "about $9,000 of her own money in a typical 2033") against V45's "Sell low, by appointment" | Tess: the price is the smallest cell (mean ~$19k by 2042, C-04), the payoff only odds, "promise" twice; Kai/Spinnaker: XR leaves her behind in 62-68% of paths | AMENDED | LR3 (497): the price as a 2042 mean, the rival's January-2031 sale, "$90,000 against our $140,000 after the 2031 set-aside"; panel C04 LR2 1.83 v V45 3.33, voice gate LR3 > LR2; to the inbox (`courtroom/C-04_the_whole_price.md`) |
 Mock judges sat once on 24 Oct, evening, on the Lab's candidates only (Keel's test, not a scoring of Caplet's draft: 25.2 -> 26.4/40). For Caplet's own draft, Caplet's scorers still mark first (`../office/CHARTER.md` section 6; board T14 Sun 1 Nov, T08 Mon 2 Nov).
