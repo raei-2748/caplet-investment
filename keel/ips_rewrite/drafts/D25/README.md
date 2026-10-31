@@ -21,5 +21,11 @@ V44 (`../D24/`) plus what panel V44 and blind voice reader 8 asked for (`../../j
 **Cut to pay (to the Final Report, `../../IDEA_LEDGER.md`):** the cake heading; "nothing sold early" and "with nothing to
 rebalance" (the capsule line carries the no-sale rule); "(and its fee)" and "leaves out the bank".
 
-Numbers and sources: as `../D24/README.md` (no new figure).
+Numbers and sources: as `../D24/README.md`, plus "three-quarters stocks" (the first plan, 27 Sep model: about one cheque missed in thirty).
 Checks: `BIBLE_CHECK.md` (the cold reader's row-by-row update of V44's check).
+
+**Shown to Caplet on Sat 31 Oct with six commandment lines open** (`BIBLE_CHECK.md` section C, which is this draft's
+ten-line check). VI (GPTZero above 50% human) cannot be met from these sessions. The other five are the next round's
+first job, in the order of section E: say who stands behind "under one in sixty" and keep the cheques and the
+co-sponsor promise apart (E1); tie 97 in 100 to the range with the typical miss (E2); size the stock sleeve once a run
+file exists; unpack the note line; make "Do not crush." point back to something.
