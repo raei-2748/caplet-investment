@@ -23,3 +23,13 @@ in stocks, bottom bought in January 2031); "cash paid early earns less"; "once n
 
 Checks: the V46 Bible + numbers check (`../D26/BIBLE_CHECK.md`) covers every figure here; V47 adds back two lines from
 V45, which `../D25/BIBLE_CHECK.md` already checked.
+
+**From the V46 Bible + numbers check (`../D26/BIBLE_CHECK.md`, 1 Nov), applied to V47 the same morning.** Every figure
+traces to a model run or the case; a rerun of A26 reproduced its averages to the dollar. Fixed here: "set it aside from
+what she keeps" (the model takes the leak from Laura's half first, L-13 line 29; LR-08), "modelled paths" (not "our"),
+"enough to grow back" (paid the word). Already right in V47: "$15,000 more on average" (the median lead is about
+$10,000), 97 in 100, the priority line. Still open for the voice pass: the floor ($150,000) to $145,000 bridge; the
+pitch's "buys it" without "or nearly" (the ladder costs $298,861 on the 22 Oct curve, 3.8bp of headroom); no stated
+return assumption (7.5% went with the 60/40); the worst-twentieth slice is the S0 world ($85,000 v $135,000 when rates
+and stocks fall together), and the Lab and Laura's Room had ruled the slice Final-Report-only. Commandments on V46:
+3 pass, 7 fail; V47 inherits all but the priority-line and 97-in-100 misses. GPTZero: not yet checked.
