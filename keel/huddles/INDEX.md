@@ -4,6 +4,7 @@
 
 | ID | Opened | Title | Status | Rounds | Members | To-dos | Essence |
 |---|---|---|---|---|---|---|---|
+| H-005 | 2026-10-31 | [The bad naming day](2026-10-31_the-bad-naming-day/transcript.md) | closed | 3 | Amara, Kai, Felix | 5/7 | We tested the plan two mock judges liked best: bonds for the cheques and the rest in stocks, with the gift's bottom fixed only in 2031. Set to promise the same $145,000 in a typical year, it would have to promise under $ |
 | H-004 | 2026-10-30 | [The roof after Book 10](2026-10-30_the-roof-after-book-10/transcript.md) | closed | 3 | Tess, Kai, Felix | 3/6 | We argued over whether to keep fixing sentences or answer the questions Wharton actually asks. We decided Saturday goes to one big question, why not a safe ladder and the rest in stocks, because two of six mock judges pu |
 | H-003 | 2026-10-27 | [Fuse it: niche strategies into our own](2026-10-27_fuse-it/transcript.md) | closed | 3 | Nora, Kai, Jun, Amara, Tess, Felix | 6/9 | Six fields gave one discipline: sort every dollar by what can fail it, and decide in advance who pays when it does. The Lab killed our own favourite fix (a 2028 hold-back, $9k of gift) and kept a cheaper one: re-measure  |
 | H-002 | 2026-10-27 | [Out-think the field](2026-10-27_out-think-the-field/transcript.md) | closed | 3 | Nora, Kai, Jun, Amara, Tess, Felix | 5/8 | The ladder-first structure is what every AI-assisted rival writes; Caplet's edge is the reason (her income can shrink in the same slump), where it breaks, and the two-cost range. Jun's audit killed two of our own claims: |
@@ -20,3 +21,5 @@
 - H-001: If no CORD is pulled by Fri 6 Nov, the habits were decoration (Nora)
 - H-004: Does V36's floor-from-2028 actually beat A09's lock-in-2031 on our own model paths, and what does it give up?
 - H-004: If it does, is that the paragraph-sized idea the next draft is missing for a growth-minded judge?
+- H-005: Does the after-2033 shortfall (XR 0.07-0.09% with the 2031 mark, LR-05) survive L-13's chain against A09 with the same mark? (Genius Lab)
+- H-005: Does a blind reader prefer the A09 paragraph to V45's 60/40 paragraph, and does losing 'three-quarters stocks, until our own model sank it' cost the decision path? (Writing Room)

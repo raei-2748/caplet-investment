@@ -1,15 +1,18 @@
 # FICTION (the room and the simulated people) + the real case. Laura's Room
 
 ## Now
-- **Doing:** Round 3 beat 6 done: the Lab's four range challengers read as a co-sponsor, a judge with the case open and the field's practitioner, plus one model run and one cold read (LR-07)
-- **Decided:** A (slide) passes: the old top was a double count, not caution. D passes with one word more ("co-sponsors' gifts": B3 never names them). B, C to the FR. E (narrow the bottom to $10k under the top) works in the model (adds no break) but loses the cold read 4/5 to 7/7, so it goes to the FR as what the bottom gives up. "Bottom never broken" is really 3 of 800,000 paths (rounding)
-- **Next:** Writing Room takes the slide's word and "co-sponsors' gifts" into Saturday's draft; Window corrects the zero; next visit reads the Sat 31 review draft against every case line
-- **For the judges:** B3 para 13 "too low costs gifts" -> "too low costs co-sponsors' gifts" (+1); para 17 "off the bottom" -> "off the range" (0); Client Knowledge (:109-120)
-- **Updated:** 2026-10-30 16:05 Sydney
+- **Doing:** Round 4 beat 6 done: the Lab hadn't posted by 15:10, so the room ran A09 against XR from the co-sponsor's chair (LR-08) and read V45 against every case line; huddle H-005 (Amara, Kai, Felix, 3 rounds)
+- **Decided:** V45's one case gap is A09. Same $145k bottom in a typical year; A09 names under $100k one world in sixteen, XR one in two thousand; price about $9k of her 2033 money (house, MODEL). One world per sentence; the worst-5% slice is FR only. Offered: an A09 paragraph replacing the 60/40 whole (V45 -> 486), and "from the hope" -> "from what she keeps"
+- **Next:** Lab re-runs on L-13's chain (after-2033 shortfall, top reached); Writing Room blind-reads the A09 paragraph; next visit reads whichever draft the rewrite thread names
+- **For the judges:** the A09 paragraph (`../ips_rewrite/inbox/2026-10-31_lauras-room.md`); Investment Strategy, Client Knowledge (:68-74, :109-120)
+- **Updated:** 2026-10-31 16:40 Sydney
 
 > Room card: `../OFFICE.md`. Host: Amara ("What does she feel in a bad year?"). Agents: `case-analyst`,
 > `cosponsor-reader`, `taiwan-researcher` (Taiwan research opens Sun 8 Nov).
 
+> **State (Sat 31 Oct, 15:10 run, round 4 beat 6):** LR-08 (`lauras_room/LR-08_the_bad_naming_day.md` + `.py` +
+> `_results.json`, engine `../models/xr_core.py`, A09 locks 74% to match the median bottom): the bad naming day priced.
+> Engine predates the 2031 mark: use it for the bottom only. Open: Lab (L-13 chain), Writing Room (blind read). Huddle H-005.
 > **State (Fri 30 Oct, 15:10 run, round 3 beat 6):** LR-07 (`lauras_room/LR-07_what_the_bottom_gives_up.md` + `.py` +
 > `_results.json`): after the slide the cheques reach into the gift by under $10k (max $9,768 of 800,000); a narrower
 > bottom is free in the model but loses the cold read; bottom breaks are 3 of 800,000, not 0. Open: Writing Room (two
@@ -57,3 +60,4 @@
 | Wed 28 Oct | Lab L-11 challengers A-D + LR-05 re-run with the 2031 mark (round 1 beat 6) | Co-sponsor (programme officer), judge, clearing-house risk officer | A: "$10k off my board paper in every world"; C6 + mark carrying the cushion: "moves only in 2031, only if her own money can't cover her own cheques: I can book that"; B, C read as cures bigger than the disease | :94-97; :113-120 | C6 + MC to tonight's head-to-head; one clause that the cushion is the first call on Laura's half (LR-05) |
 | Thu 29 Oct | Lab L-12 challengers A-D + V29 (round 2 beat 6) | Co-sponsor (programme officer), judge with the case open, ward and pension practitioners (reasoned) | Co-sponsor: "only door 3 faces me; can door 4 reach behind it?" (her half first; bottom 0 of 600,000). Judge: where is the operating reserve, and how does it change as payments are made? V29: "never changes". B: a delayed lock means co-sponsors hear different numbers | :94-97; :109; :114-120 | Reserve line for para 10 (+14); "2031's first day is ours"; one-way valve to the Courtroom (LR-06) |
 | Fri 30 Oct | Lab L-13 challengers A-D + B3; LR-07 run (round 3 beat 6) | Co-sponsor (programme officer), judge with the case open, cold reader (agent), ECM/SEC/forecaster/campaign practitioners (reasoned) | Co-sponsor: the old top counted dollars the bottom had already given the cheques. Judge: B3 never names co-sponsors, "their gifts" points to no one. Cold reader: "Treasuries she already owns, rounded down" survives an audit committee; the bottom "the top less the most the cheques could still need" reads as a point estimate (7/7 vs 4/5) | :109-120 | "co-sponsors' gifts" (+1); slide's word; E and B, C to the FR (LR-07) |
+| Sat 31 Oct | V45 (D25) against every case line; A09 vs XR, LR-08 run (round 4 beat 6) | Co-sponsor (programme officer), judge with the case open, municipal treasurer (reasoned) | Co-sponsor: on a good day the two ranges look the same; on a bad one A09's lead shrinks by a third in the year her own board cuts. Judge: V45 never answers the plan I'd have written; wants the floor's price beside what it buys. Treasurer: why is any of the gift in shares? | :68-74; :109-120 | A09 paragraph in place of the 60/40 (486 strict); "from what she keeps" (+1); slice, $125k, after-2033 hair to the FR (LR-08) |

@@ -1,15 +1,152 @@
 {
- "built": "2026-10-31T01:20",
+ "built": "2026-10-31T04:28",
  "days": [
   {
    "date": "2026-10-31",
    "weekday": "Sat",
-   "essence": [],
-   "huddles": [],
-   "research": [],
-   "done": [],
-   "open": [],
+   "essence": [
+    "We tested the plan two mock judges liked best: bonds for the cheques and the rest in stocks, with the gift's bottom fixed only in 2031.",
+    "Set to promise the same $145,000 in a typical year, it would have to promise under $100,000 about one time in sixteen in our model, while ours almost never does; that costs Laura about $9,000 of her own money in a typical year.",
+    "So the draft should answer this rival by name, with both numbers from the same model and the price said out loud, in place of the weaker 60/40 argument."
+   ],
+   "huddles": [
+    {
+     "id": "H-005",
+     "title": "The bad naming day",
+     "question": "Why not a safe ladder and the rest in stocks (rival A09)? After naming day both plans lock what they name, so the only thing a co-sponsor ever sees is the number Laura can name in 2031. Is that difference worth what it costs her, and is it the answer V45 is missing?",
+     "status": "closed",
+     "room": "Laura's Room",
+     "chair": "Amara",
+     "members": [
+      "Amara",
+      "Kai",
+      "Felix"
+     ],
+     "essence": [
+      "We tested the plan two mock judges liked best: bonds for the cheques and the rest in stocks, with the gift's bottom fixed only in 2031.",
+      "Set to promise the same $145,000 in a typical year, it would have to promise under $100,000 about one time in sixteen in our model, while ours almost never does; that costs Laura about $9,000 of her own money in a typical year.",
+      "So the draft should answer this rival by name, with both numbers from the same model and the price said out loud, in place of the weaker 60/40 argument."
+     ],
+     "decided": [
+      "Agreed: the A09 build is fair (same ladder, reserve, lock and cushion; matched on the median bottom), but the worst-5% slice ($90k) is a chosen stress test, Final Report only (Felix)",
+      "Agreed (Felix's sentence, Kai's one-world fix, Amara's price): judge-facing numbers from one world only (house): A09 names under $100,000 about 1 in 16, XR about 1 in 2,000; the price about $9,000 of gift plus kept money at the median in 2033 (Kai)",
+      "Agreed: $90k is a weaker signal at the worst time, not a broken promise; List and Lucking-Reiley says a bigger lead raises more, but nothing about recessions or where 'meaningful' starts (Amara)",
+      "Kai's proposal (Felix and Amara didn't vote on it): replace V45's 60/40 paragraph whole with an A09 paragraph. Chair's call under the doors rule: offered to the rewrite thread as an alternative, with the decision path ('three-quarters stocks, until our own model sank it') kept; the 60/40 and 'sell low' go to the Final Report if it's taken",
+      "Agreed: the coupon leak after 2033 lands on the cheques in a hair of paths (XR short 0.4% of house paths at any size, median $680 across ten cheques, MODEL, old engine): a line on the price list, and V45's 'from the hope' should say Laura's half pays first"
+     ],
+     "seeds": [
+      "Does the after-2033 shortfall (XR 0.07-0.09% with the 2031 mark, LR-05) survive L-13's chain against A09 with the same mark? (Genius Lab)",
+      "Does a blind reader prefer the A09 paragraph to V45's 60/40 paragraph, and does losing 'three-quarters stocks, until our own model sank it' cost the decision path? (Writing Room)"
+     ],
+     "todos": {
+      "done": 5,
+      "total": 7
+     },
+     "path": "keel/huddles/2026-10-31_the-bad-naming-day",
+     "transcript": "keel/huddles/2026-10-31_the-bad-naming-day/transcript.md",
+     "changes": [
+      "keel/rooms/lauras_room/LR-08_the_bad_naming_day.md",
+      "keel/rooms/lauras_room/LR-08_the_bad_naming_day.py",
+      "keel/rooms/lauras_room/LR-08_results.json",
+      "keel/ips_rewrite/inbox/2026-10-31_lauras-room.md",
+      "keel/ips_rewrite/IDEA_BANK.md"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    }
+   ],
+   "research": [
+    {
+     "path": "keel/huddles/2026-10-31_the-bad-naming-day/research/amara.md",
+     "title": "Amara, round 1 research (31 Oct 2026; FICTION, simulated co-sponsor, never a quote)",
+     "member": "Amara",
+     "huddle": "H-005"
+    },
+    {
+     "path": "keel/huddles/2026-10-31_the-bad-naming-day/research/amara_r3.md",
+     "title": "Amara, round 3 research (31 Oct 2026; FICTION, Keel is simulated; no Laura quotes)",
+     "member": "Amara",
+     "huddle": "H-005"
+    },
+    {
+     "path": "keel/huddles/2026-10-31_the-bad-naming-day/research/felix.md",
+     "title": "Felix, round 1: what I checked (MODEL, curve 22 Oct 2026, J.P. Morgan 7.5%)",
+     "member": "Felix",
+     "huddle": "H-005"
+    },
+    {
+     "path": "keel/huddles/2026-10-31_the-bad-naming-day/research/kai.md",
+     "title": "Kai, round 1 research (FICTION; Keel is simulated)",
+     "member": "Kai",
+     "huddle": "H-005"
+    },
+    {
+     "path": "keel/huddles/2026-10-31_the-bad-naming-day/research/kai_r3.md",
+     "title": "Kai, round 3: what I checked (31 Oct 2026; FICTION, Keel is simulated; every number MODEL)",
+     "member": "Kai",
+     "huddle": "H-005"
+    }
+   ],
+   "done": [
+    {
+     "text": "A09 against XR on the same paths, the bottom Laura can name in 2031 (Amara; done 31 Oct, LR-08)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-10-31",
+     "huddle": "H-005"
+    },
+    {
+     "text": "Check the A09 build is fair and re-run the house world (Felix; done 31 Oct)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-10-31",
+     "huddle": "H-005"
+    },
+    {
+     "text": "Size the after-2033 cheque shortfall, not just its rate (Felix; done 31 Oct)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-10-31",
+     "huddle": "H-005"
+    },
+    {
+     "text": "Check what the lead-gift study actually says about size (Amara; done 31 Oct)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-10-31",
+     "huddle": "H-005"
+    },
+    {
+     "text": "One true, one-world IPS wording (Kai; done 31 Oct)",
+     "done": true,
+     "owner": "Kai",
+     "day": "2026-10-31",
+     "huddle": "H-005"
+    }
+   ],
+   "open": [
+    {
+     "text": "Re-run the cheque shortfall on L-13's chain with the 2031 mark, XR vs A09 (Genius Lab; by Sun 1 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-005"
+    },
+    {
+     "text": "Blind read: the A09 paragraph against V45's 60/40 paragraph (Writing Room; by Sun 1 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-005"
+    }
+   ],
    "runs": [
+    {
+     "day": "2026-10-31",
+     "when": "Sat 31 Oct 16:40",
+     "room": "Laura's Room",
+     "what": "Round 4 beat 6, LR-08 the bad naming day: Lab absent at 15:10, so A09 vs XR from the co-sponsor's chair; same $145k median bottom, A09 under $100k 1 in 16 vs XR 1 in 2,000, price ~$9k (house, MODEL); V45 case read: one gap (A09); A09 paragraph offered in place of the 60/40 (486 strict); huddle H-005; bank #98"
+    },
     {
      "day": "2026-10-31",
      "when": "Sat 31 Oct 12:55",
