@@ -9,7 +9,8 @@ and how that number moves with the market she is fundraising in.
         January; in Jan 2031 a share f of the pot is locked in a Treasury to Dec 2032 (the bottom, rounded down to
         $5k), the rest goes to VT; top = locked face + half the rest; the promised half is locked on naming day as in
         XR; same cushion and coupon-gap rule. f is set so A09's MEDIAN bottom equals XR's: the same typical promise.
-  Then: the named bottom's tail (p1, p5, p10), how often it is under $125k / $100k, the bottom in the worlds where
+  Both bottoms carry L-13's 2031 mark (the projected coupon gap and cushion that Laura's own money can't cover come
+  off the bottom before it is named; PR #84 review, 31 Oct). Then: the named bottom's tail (p1, p5, p10), how often it is under $125k / $100k, the bottom in the worlds where
   stocks fell most in 2028-31 (W-04: the same years co-sponsors give less), the gift and Laura's kept money (the
   price of XR's floor), and broken promises.
 STAMP: curve 22 Oct 2026 (treasury.gov par) | J.P. Morgan 2027 LTCMA world stocks 7.5% compound, 16.78% vol |
@@ -73,9 +74,30 @@ def a09(p, f, cush=CUSH, d28=x.DEP28):
     kept42 = kept * grow(72, 180)
     miss_after = extra > kept42 + 1.0
     short = (unfilled > 1) | (uncovered > base + 1) | miss_after
-    return {"bottom": bottom, "top": top, "gift": gift, "kept33": kept, "laura_2042": np.maximum(kept42 - extra, 0),
+    S31 = np.maximum(10 * x.PAY - x.ladder_delivery(S, freeze=48).sum(axis=1), 0)
+    u31 = ceil5(np.maximum(S31 + cush - L33 - 0.5 * rest31, 0))
+    return {"bottom_premark": bottom, "bottom": np.maximum(bottom - u31, 0), "u31": u31, "top": top, "gift": gift, "kept33": kept, "laura_2042": np.maximum(kept42 - extra, 0),
             "payments_short": short, "payments_short_amt": np.where(short, unfilled + np.maximum(extra - kept42, 0), 0),
             "R": R}
+
+
+def ceil5(a):
+    return np.ceil(a / 5000) * 5000
+
+
+def xr_marked(p, cush=CUSH):
+    """XR with L-13's 2031 mark (keel/rooms/lab/L-13_slide_the_range/run.py: u31 = ceil5(max(S31 + C - L33 - 0.5 V31, 0)))
+    applied to the named bottom: the projected 2033 coupon gap (yields frozen on naming day) plus the cushion, less
+    what Laura's leftover cash and her half can cover, comes off the bottom before she names it. PR #84 review fix."""
+    o = x.caplet_xr(p, lock=True, cush=cush)
+    S = x.shift_path(p)
+    cost27 = x.ladder_cost(p["s0"]); L0 = np.maximum(x.DEP27 - cost27, 0)
+    billg = np.cumprod(1 + np.maximum(x.curve(.25) + S[:, :-1], x.YMIN) / 1200, axis=1)
+    L33 = L0 * billg[:, 71]
+    S31 = np.maximum(10 * x.PAY - x.ladder_delivery(S, freeze=48).sum(axis=1), 0)
+    u31 = ceil5(np.maximum(S31 + cush - L33 - 0.5 * o["V31"], 0))
+    o["bottom_premark"] = o["bottom"]; o["u31"] = u31; o["bottom"] = np.maximum(o["bottom"] - u31, 0)
+    return o
 
 
 def calibrate(p, target):
@@ -110,7 +132,10 @@ def report(o, r3, crash, crash5):
             "laura_2042_mean": round(float(o["laura_2042"].mean())),
             "p_cheque_short_over_1k": round(float((o["payments_short_amt"] > 1000).mean()), 5),
             "n_gift_below_named_bottom": int((g < b - 1).sum()),
-            "p_top_reached": round(float((g >= o["top"] - 1000).mean()), 4)}
+            "p_top_reached": round(float((g >= o["top"] - 1000).mean()), 4),
+            "p_mark_cuts_bottom": round(float((o["u31"] > 0).mean()), 4),
+            "bottom_premark_p1_p5_p50": [q(o["bottom_premark"], v) for v in (1, 5, 50)],
+            "n_gift_below_premark_bottom": int((g < o["bottom_premark"] - 1).sum())}
 
 
 def run():
@@ -118,7 +143,7 @@ def run():
     res = {"stamp": __doc__.split("STAMP: ")[1].split("\nRun")[0].replace("\n", " "), "worlds": {}}
     f_house = None
     for name, p in W.items():
-        xr = x.caplet_xr(p, lock=True, cush=CUSH)
+        xr = xr_marked(p)
         r3 = stock_3y(p)
         crash = r3 <= np.percentile(r3, 10); crash5 = r3 <= np.percentile(r3, 5)
         if f_house is None:                                     # calibrate once, in the house world, then hold f fixed

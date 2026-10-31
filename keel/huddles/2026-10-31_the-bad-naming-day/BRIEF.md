@@ -56,3 +56,9 @@ Each member: their profile (`keel/members/<name>.md`, above "## Agent profile"),
 - **Amara** (host): sits in the co-sponsor's chair. "What does Laura feel in a bad year?"
 - **Kai** (dissent): argues A09's side at its strongest; the price is real money.
 - **Felix** (the gate): attacks the numbers and the engine; what would a judge with the case open believe?
+
+## Correction after the huddle (31 Oct, PR #84 review)
+The LR-08 run in this brief left L-13's 2031 mark off both bottoms. Re-run with it on both (A09 re-matched, f = 0.743):
+A09 names under $100k in 7.5% of house worlds (one in thirteen), XR in 0.69% (one in 150), not one in two thousand;
+XR's bottom moves slightly with stocks (correlation 0.08); worst 5%: $140k vs $90k; the price is unchanged (~$9.4k);
+neither gift ever lands below its named bottom. The posts above argued over the first numbers and are kept as written.

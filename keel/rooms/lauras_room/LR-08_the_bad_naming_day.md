@@ -15,43 +15,55 @@ lock what they name, so a co-sponsor holding the range in 2032 can't tell them a
 the number Laura can name in 2031.** So the test is that number, not the gift.
 
 ## 2. The run
+> **Corrected 31 Oct, after the PR #84 review.** The first run left out L-13's 2031 mark on the bottom (the projected
+> coupon gap plus the cushion that Laura's own money can't cover comes off the bottom before she names it,
+> `../lab/L-13_slide_the_range/run.py`). The reviewer was right: the mark cuts XR's bottom in 6-20% of paths, and
+> more often when stocks are low, so XR's bottom does move a little with the market. Both plans now carry the mark
+> and A09 is re-matched (f = 0.743). The first run said "XR one in two thousand"; the true figure is about one in
+> 150. The direction and the price hold.
+
 - **XR** as V45 describes it: the ladder; the 2028 floor (Treasuries to Dec 2032); the floor's expected interest in
-  world stocks; the range named Jan 2031 with the lock and the $7,500 cushion (`caplet_xr(lock=True, cush=7500)`).
+  world stocks; the range named Jan 2031 with the lock and the $7,500 cushion (`caplet_xr(lock=True, cush=7500)`),
+  then the 2031 mark on the bottom.
 - **A09** at its strongest: the same ladder; the 2028 money 80% world stocks / 20% intermediate Treasuries,
   rebalanced each January; in Jan 2031 a share f of the pot is locked to Dec 2032 as the bottom (rounded down to $5k),
   the rest goes to stocks; top = locked face + half the rest; the promised half locked on naming day as in XR; the
-  same cushion and coupon rule. **f = 0.74**, chosen in the house world so both plans name the **same median bottom,
-  $145,000**, then held fixed. Same paths, same seeds.
+  same cushion, coupon rule and 2031 mark. **f = 0.743**, chosen in the house world so both plans name the **same
+  median bottom, $145,000**, then held fixed. Same paths, same seeds.
 
-| MODEL | House | Storms | Bootstrap | History |
+| MODEL (both bottoms after the 2031 mark) | House | Storms | Bootstrap | History |
 |---|---|---|---|---|
 | Named bottom, median (XR / A09) | $145k / $145k | $145k / $145k | $145k / $150k | $145k / $150k |
-| **Named bottom in the worst 5% of 2028-30 stock markets** | **$145k / $90k** | **$145k / $80k** | **$145k / $90k** | **$145k / $95k** |
-| Bottom under $100k | 0.05% / 6.2% | 0.04% / 7.4% | 0.27% / 5.1% | 0 / 3.3% |
-| Correlation of the bottom with 2028-30 stocks | 0.00 / 0.96 | 0.00 / 0.95 | 0.00 / 0.97 | -0.03 / 0.99 |
+| **Bottom under $100k** | **0.69% / 7.5%** | **0.68% / 8.6%** | **0.30% / 5.4%** | **0 / 3.4%** |
+| Bottom under $125k | 11% / 28% | 11% / 25% | 2.4% / 21% | 0.7% / 17% |
+| Named bottom in the worst 5% of 2028-30 stock markets (median) | $140k / $90k | $135k / $80k | $145k / $85k | $145k / $95k |
+| Correlation of the bottom with 2028-30 stocks | 0.08 / 0.95 | 0.13 / 0.94 | 0.08 / 0.97 | 0.07 / 0.99 |
+| The mark cuts the bottom | 20% / 10% | 19% / 10% | 10% / 3% | 6% / 1% |
+| Gift below the named bottom | 0 / 0 | 0 / 0 | 0 / 0 | 0 / 0 |
 | Gift p5 / p50 / p95, XR | $136k / $166k / $182k | $136k / $166k / $180k | $151k / $169k / $182k | $156k / $169k / $182k |
-| Gift p5 / p50 / p95, A09 | $111k / $168k / $251k | $106k / $171k / $234k | $115k / $175k / $249k | $124k / $178k / $260k |
-| **Gift + Laura's kept money in 2033, median** | **$182.4k / $191.9k** | **$182.8k / $195.6k** | **$185.6k / $198.5k** | **$186.5k / $202.5k** |
-| Laura's money in 2042, mean | $44.8k / $54.2k | $43.0k / $52.0k | $41.8k / $52.2k | $48.3k / $61.6k |
+| Gift p5 / p50 / p95, A09 | $112k / $168k / $251k | $106k / $172k / $234k | $115k / $175k / $250k | $124k / $178k / $261k |
+| **Gift + Laura's kept money in 2033, median** | **$182.4k / $191.9k** | **$182.8k / $195.5k** | **$185.6k / $198.5k** | **$186.5k / $202.5k** |
+| Laura's money in 2042, mean | $44.8k / $53.5k | $43.0k / $51.3k | $41.8k / $51.4k | $48.3k / $60.6k |
 | A cheque short by over $1k | 0.19% / 0.004% | 0.24% / 0.008% | 0.02% / 0 | 0 / 0 |
-| Top reached | 84% / 93% | 84% / 93% | 93% / 98% | 97% / 99.7% |
+| Top reached | 84% / 93% | 84% / 93% | 93% / 98% | 97% / 99.6% |
 
-**Read it like this.** On a typical naming day the two plans promise the same bottom. On a bad one (the worst
-twentieth of 2028-30 markets), XR still names $145k and A09 names $80-95k: about **$50-65k less**, a third of the
-promise gone. Even locking its whole pot A09 would name only about $125k (house, f = 1.0; Felix re-ran it in the huddle). A09's bottom tracks the
-market almost one for one (0.95-0.99); XR's doesn't move with it at all. XR's bottom still varies (p1 $115k, house),
-but that comes from rates before the January 2027 build and is known by January 2028, three years before anyone is told.
+**Read it like this.** On a typical naming day the two plans promise the same bottom. A09 has to name under $100,000
+about **one time in thirteen** (house; 3-9% across the four worlds); XR about **one time in 150** (0-0.7%), roughly ten
+times rarer. In the worst twentieth of 2028-30 markets XR names $135-145k and A09 $80-95k. A09's bottom tracks the
+market almost one for one (0.94-0.99); XR's barely (0.07-0.13), and only through the mark: in a bad market Laura's own
+half is smaller, so less of the coupon gap is covered before the bottom is touched. Before the mark, locking its whole
+pot would still have left A09 about $125k in that slice (Felix's re-run, house). With the mark in, neither plan's gift
+ever lands below its named bottom.
 
 **The price, out loud.** A09 leaves Laura **about $9,000-$16,000 more** at the median in 2033 (gift plus what she
-keeps), about $9,000-$13,000 more on average by 2042, and a far fatter top: its p95 gift is about $250k against XR's
-$182k, because XR's gift can only ever own half of a small stock fund.
+keeps; $9.4k in the house world), about $9,000-$12,000 more on average by 2042, and a far fatter top: its p95 gift is
+about $250k against XR's $182k, because XR's gift can only ever own half of a small stock fund.
 
-**Against us, honestly.** In this engine A09 misses a cheque less often (0.004% against 0.19%, house), because it
-leaves Laura more of her own stock money to cover the coupon leak after 2033. This engine also predates the 2031
-mark, so its count of gifts below XR's named bottom (666 of 50,000, house) is not the design's; on L-13's chain the
-bottom breaks 0-2 of 200,000 (Window, 31 Oct). The engine's top-reached for XR (84%) is likewise V25-era; L-13's slide
-puts it at about 97 in 100. **So the run supports one claim only: the bottom Laura can name on a bad day.** The gift,
-cheque and top-reached comparisons belong to the Lab's L-13 chain.
+**Against us, honestly.** After 2033 XR comes up short somewhere across the ten cheques more often than A09 (0.19%
+against 0.004% of house paths by over $1k; Felix: 0.4% at any size, median $680), because A09 leaves Laura more of her
+own stock money for the coupon leak. The gift, cheque and top-reached rows use the Model Suite engine's gift rules,
+which the mark doesn't change; L-13's chain puts XR's top-reached at about 97 in 100. **So the run supports one claim:
+the bottom Laura can name on a bad day, and its price.**
 
 ## 3. V45 against every case line
 The case is `competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt` (line numbers); the IPS questions are
@@ -96,12 +108,12 @@ and goes to the Final Report (M4: the kept half is a cushion, not insurance).
 
 ## 5. What the team could change
 1. **The IPS (offered, the thread decides):** answer A09 by name. Paragraph in `../../ips_rewrite/inbox/2026-10-31_lauras-room.md`:
-   it replaces V45's heading "Sell low, by appointment" and the two paragraphs under it, whole; V45 goes 496 -> 486
-   strict. House-world numbers only: under $100,000 one time in sixteen against one in two thousand; about $9,000 of
+   it replaces V45's heading "Sell low, by appointment" and the two paragraphs under it, whole; V45 goes 496 -> 485
+   strict. House-world numbers only: under $100,000 about one time in thirteen against one in 150; about $9,000 of
    her 2033 money at the median.
 2. **The IPS (one word):** "set it aside from the hope" -> "from what she keeps" (+1): the model takes the coupon gap
    from Laura's half first.
-3. **The Final Report:** the worst-5% slice ($145k vs $80-95k across four worlds), the correlations, A09 locking its
-   whole pot ($125k), the after-2033 hair (0.4% of house paths, median $680), the 60/40 and sequence-risk paragraphs
+3. **The Final Report:** the worst-5% slice ($135-145k vs $80-95k across four worlds), the correlations, A09 locking its
+   whole pot (~$125k before the mark), the after-2033 hair (0.4% of house paths, median $680), the 60/40 and sequence-risk paragraphs
    if (1) is taken, the treasurer's question, and "why half" (M4).
 4. **Left for the Lab:** the after-2033 shortfall and top-reached on L-13's chain with the 2031 mark, XR vs A09.
