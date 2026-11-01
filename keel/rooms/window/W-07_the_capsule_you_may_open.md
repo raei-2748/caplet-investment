@@ -28,20 +28,29 @@ release: a capsule that delivers its dose on schedule, labelled do not crush. Br
 3. The team's name fixes the object. An extended-release caplet is a real thing on a real shelf with "do not crush" on
    its label. Caplet XR stops being a pun on a pill and becomes the pill.
 
-## The offer (zero words; strict count 497 -> 497, `../../office/tools/textcheck.py`)
+## The offer (strict count 497 -> 495, `../../office/tools/textcheck.py`)
 "To a pharmacist, XR means extended release: a caplet that delivers its dose on schedule, labelled do not crush.
-**Crush it and the whole dose arrives at once.**"
+**Crush it and the schedule is gone.**"
 
 - "capsule" -> "caplet" (Kitchen F18, bank #122; now forced, not optional: the capsule line is false at its label).
-- "Break it open and you ruin how it works." -> "Crush it and the whole dose arrives at once." (9 words for 9; the
-  source's own harm, ISMP's "all at once").
-- The last line, "Do not crush.", needs nothing: the setup now names crushing and says what it does.
+- "Break it open and you ruin how it works." -> "Crush it and the schedule is gone." (Kai's repair, 7 words for 9).
+  True of the caplet (crushing kills the timed release) and true of the ladder (sold early, there is no rung per
+  January), and it echoes "on schedule" in the same sentence.
+- The Window's first version, "Crush it and the whole dose arrives at once.", lost to Kai's attack: ISMP says "a
+  large amount ... may be released all at once", so "the whole dose" outruns its source; and a ladder sold early pays
+  the market's price, not ten cheques, so "the whole dose arrives" is false of the plan. It rhymed on timing and failed
+  on amount.
+- The last line, "Do not crush.", needs nothing: the setup now names crushing and says what it costs.
 - What it doesn't fix: "labelled" is true of the Tylenol caplet and Effexor XR, not of every XR product (Library row 2,
   25 Oct); "To a pharmacist" carries it. Felix's Library scout (12:10) checks the Australian wording (TGA, NPS, SHPA).
+- A finance judge's second reading (Kai, from what he knows; not fetched today): in fixed income a caplet is one
+  period of an interest-rate cap, an option. Not untrue anywhere in V52, but P5 talks about options, so the Final
+  Report should know the pun is there before a judge points it out.
 
 ## Verdicts for the round (Q14, format of the scouts)
 - "a capsule ... labelled do not crush": TRUE IF the capsule is Effexor XR-like; not on Adderall XR's label as fetched.
 - "Break it open and you ruin how it works": **FALSE** for the two best-known XR capsules (labels above).
-- "a caplet ... labelled do not crush. Crush it and the whole dose arrives at once.": TRUE (Tylenol 8 HR label; ISMP).
+- "a caplet ... labelled do not crush. Crush it and the schedule is gone.": TRUE (Tylenol 8 HR label; ISMP). The
+  first offer, "the whole dose arrives at once": OVERSTATED (Kai, above).
 - Wharton line: "Presents a clear and creative investment thesis" (`../../WHARTON_WORD.md` s1). Creativity that a
   judge can falsify from their own medicine cabinet is a liability; this makes it true.
