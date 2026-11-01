@@ -28,6 +28,17 @@ Files: `pitch.txt` (40 words), `ips_V50.txt` (**497 strict**, `keel/office/tools
 - No extreme parsimony. Sentences are full, natural, with contractions where natural and en dashes for asides.
   The longest sentence is ~35 words; most are 15–25.
 
+**Writing Room fixes (1 Nov, PR #92).** Two hard issues corrected:
+1. The top of Laura's range was never moved into Treasuries before naming day — a logic hole (para 7 says the
+   plan won't let a named number be halved, but nothing protected it). Fix: "Before she names it, that half
+   moves into Treasuries." (IDEA_LEDGER A2 restored.)
+2. The 2028 deposit no longer finished the ladder first, so "sized to grow back to the deposit" overclaimed.
+   Fix: "Her 2028 deposit first finishes any rung the first $300,000 couldn't buy. Most of what is left buys
+   Treasuries maturing in late 2032."
+3. Para 8's balanced pair ("swap a small, known weakness for a large, unknowable one") — the voice reader's
+   most AI-adjacent moment — replaced with "putting the floor into stocks would be the larger gamble." Shorter,
+   more natural, and frees the words the two fixes needed. Still 497 strict.
+
 **Book 11 compliance.**
 | Point | V50 |
 |---|---|
