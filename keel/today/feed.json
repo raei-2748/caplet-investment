@@ -1,5 +1,5 @@
 {
- "built": "2026-11-01T06:24",
+ "built": "2026-11-01T08:14",
  "days": [
   {
    "date": "2026-11-01",
@@ -8,6 +8,9 @@
     "Our IPS gives Laura's hope a number (the gift reaches its top about 97 times in 100) but her promise none, so we measured the ten cheques: in our model they are paid in full about 998 times in 1,000, the rare gap a few hundred dollars, and only in the recession the draft itself lists (yields lower before the 2027 purchase and the 2028 deposit halved) does that fall to about 98 in 100.",
     "Fundraisers never announce a campaign goal until 40 to 100 percent of it is already in hand, which is the Lab's 'move the money first, then name the range' from the co-sponsors' own world, so we kept it and tied it to the moment that matters: before any co-sponsor hears a number.",
     "The newest draft bent one sentence so that the catch in Laura's range no longer made sense; we voted a repair and one new sentence that prices the draft's own recession, paid for by cutting the 'shopping problem' line, which the pitch already says.",
+    "We put the newest IPS on trial. All three of us found the same hole: it opens with a capsule labelled 'do not crush' and ends on 'Do not crush.', but never says what crushing would mean for Laura.",
+    "The fix says it plainly (selling one of the ten bonds before its January, even to give more to the building). Two blind readers on different models both picked the fixed version, narrowly, and both could say its rule back.",
+    "Both readers also stumbled on the same two sentences (shares that 'cannot expire worthless' right after shares falling to zero, and who pays a gap), so the verdict is AMENDED: one ending, six plain truth fixes and three repeated lines cut, offered to the next draft.",
     "Five rooms each offered our newest IPS a better paragraph, so we read every version side by side, blind and aloud, with two outside readers on other models, and kept the ones both put first: the cheque number in the risk paragraph, the dated move in January 2031, and the rival paragraph's 'that morning comes mid-slump'.",
     "Checking the numbers behind them, Kai found a line in the draft that is false in about half our modelled futures (the 2028 Treasuries can't always grow back to the whole $150,000, because that money tops up the ladder first), and we fixed it for no extra words.",
     "To stay under 497 words we cut both headings, 'Sounds good, on average.', the US-default line and 'Do not crush.', but Ahaan's Book 11 arrived as we finished (no opening question, no model numbers, 'do not crush' kept as a full circle), so this version was withdrawn and its two live findings went to the new draft, V50.",
@@ -63,6 +66,52 @@
      "rounds_today": 3
     },
     {
+     "id": "H-013",
+     "title": "Do not crush, on trial",
+     "question": "Ahaan's Book 11 rejected V49, and the rewrite thread rebuilt it as V50. Does V50 stand as the draft Caplet reads on Thursday, or must it be amended, and what is the one change that matters most?",
+     "status": "closed",
+     "room": "Courtroom",
+     "chair": "the run (Nora on the bench)",
+     "members": [
+      "Kai",
+      "Felix",
+      "Amara",
+      "Tess",
+      "Nora"
+     ],
+     "essence": [
+      "We put the newest IPS on trial. All three of us found the same hole: it opens with a capsule labelled 'do not crush' and ends on 'Do not crush.', but never says what crushing would mean for Laura.",
+      "The fix says it plainly (selling one of the ten bonds before its January, even to give more to the building). Two blind readers on different models both picked the fixed version, narrowly, and both could say its rule back.",
+      "Both readers also stumbled on the same two sentences (shares that 'cannot expire worthless' right after shares falling to zero, and who pays a gap), so the verdict is AMENDED: one ending, six plain truth fixes and three repeated lines cut, offered to the next draft."
+     ],
+     "decided": [
+      "PROMOTE 4-0 (Kai, Felix, Amara; Tess's blind pick): the ending 'every one bought before the first is redeemed. Crushing one means selling it before its January, even for the building.', paid by cutting the time-diversification clause to the Final Report",
+      "Blind head-to-head (seeded; A = V50R): Tess A 36 v 35, outside reader (Haiku, a planner) A 29 v 28; both retold A's rule; on V50 Tess 'couldn't tell'",
+      "Truth fixes sent: T3 and T6 (both blind readers tripped) and T2 3-0; T1 and T4 2-1, settled send by the bench; T7 sent by the bench; T5 left 3-0 to K01",
+      "Nora: AMENDED. One change: the ending (Creativity & Presentation). Paid by three repeats of the purchase idea; count copy 496 strict",
+      "Bench check on V50R as written: I, III, IV fail (the fixes target them); II, V, VII pass; VI not yet checked; VIII-X open"
+     ],
+     "seeds": [
+      "T6 said plainly shows a gap can reach the floor before it goes to the building: does ledger D6 (set the gap aside before naming) come back, or does 'cannot be quietly halved' soften? (rewrite thread)",
+      "Caplet's likely next line: 'uses appropriate diversification' is in the marking guide. One plain sentence, no number, read blind (Writing Room)"
+     ],
+     "todos": {
+      "done": 5,
+      "total": 7
+     },
+     "path": "keel/huddles/2026-11-01_do-not-crush-on-trial",
+     "transcript": "keel/huddles/2026-11-01_do-not-crush-on-trial/transcript.md",
+     "changes": [
+      "../../rooms/courtroom/C-05_v50_on_trial.md",
+      "../../ips_rewrite/inbox/2026-11-01_courtroom.md",
+      "../../ips_rewrite/IDEA_BANK.md",
+      "exhibits/V50R_ips.txt",
+      "exhibits/V50R_COMMANDMENTS_CHECK.md"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    },
+    {
      "id": "H-012",
      "title": "Five places, one page",
      "question": "Today's rooms offer the newest draft (V49) a different paragraph in five places. In each place, which version should the rewrite take, read blind and aloud against V49's own, and if the winners go over 497 strict words, which whole idea pays?",
@@ -96,7 +145,7 @@
       "Kai, round 3: 'it only works whole' is half-contradicted by LR-09 (the cheques are paid the same without the 2031 step in five worlds of six). With 'Do not crush.' gone, what does the capsule's 'whole' still claim, and is it true?"
      ],
      "todos": {
-      "done": 5,
+      "done": 6,
       "total": 7
      },
      "path": "keel/huddles/2026-11-01_five-places-one-page",
@@ -210,6 +259,24 @@
      "huddle": "H-011"
     },
     {
+     "path": "keel/huddles/2026-11-01_do-not-crush-on-trial/research/amara.md",
+     "title": "Amara's evidence notes (round 1, Sun 1 Nov 2026; all repo paths, read 1 Nov)",
+     "member": "Amara",
+     "huddle": "H-013"
+    },
+    {
+     "path": "keel/huddles/2026-11-01_do-not-crush-on-trial/research/felix.md",
+     "title": "Felix, evidence notes, H-013 round 1 (read Sun 1 Nov 2026, Sydney)",
+     "member": "Felix",
+     "huddle": "H-013"
+    },
+    {
+     "path": "keel/huddles/2026-11-01_do-not-crush-on-trial/research/kai.md",
+     "title": "Kai's checks (H-013, round 1, Sun 1 Nov 2026). Prosecutor, charges 1, 2, 4",
+     "member": "Kai",
+     "huddle": "H-013"
+    },
+    {
      "path": "keel/huddles/2026-11-01_five-places-one-page/research/kai_r3.md",
      "title": "Kai, round 3 research note (H-012, Sun 1 Nov 2026)",
      "member": "Kai",
@@ -304,6 +371,41 @@
      "huddle": "H-011"
     },
     {
+     "text": "Round 1: Kai prosecutes, Felix hunts flaws, Amara defends, alone (chair; done 1 Nov)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-01",
+     "huddle": "H-013"
+    },
+    {
+     "text": "Round 2: replies by name; Amara's one repair, 497 strict (Amara; done 1 Nov)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-11-01",
+     "huddle": "H-013"
+    },
+    {
+     "text": "Blind head-to-head, V50 v V50R, Tess and an outside reader (chair; done 1 Nov)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-01",
+     "huddle": "H-013"
+    },
+    {
+     "text": "Votes and the bench's ruling, with the Commandments check on V50R (Nora; done 1 Nov)",
+     "done": true,
+     "owner": "Nora",
+     "day": "2026-11-01",
+     "huddle": "H-013"
+    },
+    {
+     "text": "Offer to the rewrite thread: `../../ips_rewrite/inbox/2026-11-01_courtroom.md` (Nora; done 1 Nov)",
+     "done": true,
+     "owner": "Nora",
+     "day": "2026-11-01",
+     "huddle": "H-013"
+    },
+    {
      "text": "Round 1: Tess, Amara, Kai alone; two outside readers blind (chair; done 1 Nov)",
      "done": true,
      "owner": null,
@@ -335,6 +437,13 @@
      "text": "Offer to the rewrite thread: `../../ips_rewrite/inbox/2026-11-01_writing-room.md` (Tess; done 1 Nov)",
      "done": true,
      "owner": "Tess",
+     "day": "2026-11-01",
+     "huddle": "H-012"
+    },
+    {
+     "text": "Head-to-head: W1 against V49 with the blind panel (Courtroom; moot 1 Nov: W1 withdrawn after Book 11, the Courtroom tried V50 instead, H-013)",
+     "done": true,
+     "owner": "Courtroom",
      "day": "2026-11-01",
      "huddle": "H-012"
     },
@@ -432,16 +541,23 @@
      "huddle": "H-011"
     },
     {
-     "text": "Gate W1's three new truth lines from the model files (Window; by Mon 2 Nov 08:40)",
+     "text": "Gate the repair and T1-T7 against the case and the model files, and cold-read the amended count copy (Window, Felix; by Mon 2 Nov 08:40)",
      "done": false,
      "owner": "Window",
      "day": null,
-     "huddle": "H-012"
+     "huddle": "H-013"
     },
     {
-     "text": "Head-to-head: W1 against V49 with the blind panel (Courtroom; by Mon 2 Nov 18:20)",
+     "text": "One plain diversification sentence, no number, read blind against V50R (Writing Room, Tess; by Mon 2 Nov 16:20)",
      "done": false,
-     "owner": "Courtroom",
+     "owner": null,
+     "day": null,
+     "huddle": "H-013"
+    },
+    {
+     "text": "Gate W1's three new truth lines from the model files (Window; by Mon 2 Nov 08:40)",
+     "done": false,
+     "owner": "Window",
      "day": null,
      "huddle": "H-012"
     },
@@ -489,6 +605,12 @@
     }
    ],
    "runs": [
+    {
+     "day": "2026-11-01",
+     "when": "Sun 1 Nov 19:30",
+     "room": "Courtroom",
+     "what": "Round 5 beat 8, C-05 V50 on trial (first prosecution of the Book 11 rebuild): all three alone found 'Do not crush' pays off nothing (no 'sell' on the page; 'opened' the happy ending); Amara's repair 'Crushing one means selling it before its January, even for the building.' beat V50 blind with both readers (36 v 35, 29 v 28), PROMOTE 4-0; both readers tripped on the same two V50 lines; Nora AMENDED with T1-T7 paid by three repeats (496); bench's Commandments check on V50R; 1 request closed, 2 filed"
+    },
     {
      "day": "2026-11-01",
      "when": "Sun 1 Nov 17:45",

@@ -607,3 +607,21 @@ way: LR3 last, "a results table". So V47 is LR3, and the voice now has to be won
 
 **What Caplet would say (Commandment X):** "You dropped the line that tells co-sponsors what gives way first, to fit
 a joke?" Yes, and the judges caught it. The rule I take from it: a voice line can only replace words, never an idea.
+
+## Sun 1 Nov, late morning: V48, built from other people's best sentences
+Caplet asked for something Keel had never tried: stop writing our own sentences and rebuild the IPS on the best human
+ones we can find, every sentence with a source. I read fifteen writers through the web reader (Feynman's Challenger
+appendix, Didion, Orwell, White, Buffett, Marks, Munger, Galbraith, Schwed, Housel, Levine, Bogle, Paul Graham, Sun Tzu
+and the RBA's Glenn Stevens), took each sentence's shape and turn, and filled it with V47's meaning, idea for idea.
+What surprised me: Feynman's plain engineering prose fits the certainty paragraph better than any finance writer,
+because his whole appendix is about the gap between a list of failure modes and management's adjective. Schwed's
+"When conditions are good ... But when conditions are good" is exactly the shape of the recession that hurts Laura
+twice. And Levine's toy explanation of a structured note was the fix a voice reader asked for on Saturday.
+A blind voice reader put V48 ahead of V47, narrowly; a cold reader called it one voice but "all kickers". The risk I
+watched hardest was integrity: a famous line paraphrased is a lift, so the famous ones (Taleb's river, Didion's
+"beginnings of things", Feynman's last line) went to the Final Report pile, and the log names every common-word overlap.
+
+**What Caplet would say (Commandment X):** "Is it actually better, or just different?" Better on voice by one blind
+reader, not yet tested by the six-judge panel on Wharton's criteria, so V47 stays the panels' best until it is. "It's
+too punchy now." Probably: Ahaan builds long and lands short, and V48 mostly lands. The next pass turns two or three
+short lines into one dash-hinged build, from the same sources, without losing an idea.
