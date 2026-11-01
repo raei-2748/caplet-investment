@@ -1,7 +1,7 @@
 # Team Keel / Team Caplet: project memory
 
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
-decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-01 (V48: the IPS rebuilt from great human sentences, source log in `keel/ips_rewrite/drafts/D28/`; Book 10 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
+decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-01 (V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
 
 ## For every Claude session in this repo (all teammates)
 Whoever is using Claude here, these rules apply, and the Keel Office (formerly the Caplet Research Office) is how competition work is done:
