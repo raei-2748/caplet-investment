@@ -1,10 +1,13 @@
 {
- "built": "2026-11-01T03:13",
+ "built": "2026-11-01T04:55",
  "days": [
   {
    "date": "2026-11-01",
    "weekday": "Sun",
    "essence": [
+    "Our IPS gives Laura's hope a number (the gift reaches its top about 97 times in 100) but her promise none, so we measured the ten cheques: in our model they are paid in full about 998 times in 1,000, the rare gap a few hundred dollars, and only in the recession the draft itself lists (yields lower before the 2027 purchase and the 2028 deposit halved) does that fall to about 98 in 100.",
+    "Fundraisers never announce a campaign goal until 40 to 100 percent of it is already in hand, which is the Lab's 'move the money first, then name the range' from the co-sponsors' own world, so we kept it and tied it to the moment that matters: before any co-sponsor hears a number.",
+    "The newest draft bent one sentence so that the catch in Laura's range no longer made sense; we voted a repair and one new sentence that prices the draft's own recession, paid for by cutting the 'shopping problem' line, which the pitch already says.",
     "Our draft says the half of Laura's stocks she promises co-sponsors moves into Treasuries on the day she names her range, so we tested what happens if that move comes late: a week or a month barely matters, but skipping it after a boom year drops the top's 98-in-100 to about 86 in those futures.",
     "So we swap the order: she moves the money first and names the range after, which changes no number in our model, makes the sentence two words shorter, and means a skipped move just shrinks the range before she says it.",
     "Where the rival plan's extra $15,000 is earned, and how confident we are the gift lands inside the range, are true and go to the Final Report; the 'even in a week when stocks are rising' clause comes out of the IPS.",
@@ -13,6 +16,49 @@
     "Felix found the bigger point: the mountain story argues for buying the floor early, and shows the 2031 lock is still a step someone has to take on the day, so the Lab now tests what a late or skipped lock costs."
    ],
    "huddles": [
+    {
+     "id": "H-011",
+     "title": "Already in the bank",
+     "question": "Does a co-sponsor value a range that is already in Treasuries more than the same range promised (H-010's seed)? Read the Genius Lab's four challengers as a co-sponsor, a judge with the case open and the practitioner; then check the newest draft, V49, against every case line.",
+     "status": "closed",
+     "room": "Laura's Room",
+     "chair": "the run (Amara's room)",
+     "members": [
+      "Amara",
+      "Kai",
+      "Felix"
+     ],
+     "essence": [
+      "Our IPS gives Laura's hope a number (the gift reaches its top about 97 times in 100) but her promise none, so we measured the ten cheques: in our model they are paid in full about 998 times in 1,000, the rare gap a few hundred dollars, and only in the recession the draft itself lists (yields lower before the 2027 purchase and the 2028 deposit halved) does that fall to about 98 in 100.",
+      "Fundraisers never announce a campaign goal until 40 to 100 percent of it is already in hand, which is the Lab's 'move the money first, then name the range' from the co-sponsors' own world, so we kept it and tied it to the moment that matters: before any co-sponsor hears a number.",
+      "The newest draft bent one sentence so that the catch in Laura's range no longer made sense; we voted a repair and one new sentence that prices the draft's own recession, paid for by cutting the 'shopping problem' line, which the pitch already says."
+     ],
+     "decided": [
+      "3-0: the Lab's A (move first, then name) SHARPENED with Kai's trigger, 'before any co-sponsor hears a number'; fundraisers' quiet phase is the exact parallel (Felix)",
+      "3-0: V49 P7 repaired with Felix's version: 'A range named on stocks has a catch: every fall comes off the gift, every rise past the top goes to Laura. So in January 2031, before any co-sponsor hears a number, Laura moves the promised half into Treasuries.' (+1 strict; the panicked manager goes: L-15's risk is greed in a boom, not panic)",
+      "2-1 (Amara, Felix; Kai for his own two-number clause): in P4 after the recession sentence, 'If it halves that deposit, our model bounces a cheque once in 66.' (+13; MODEL S9)",
+      "2-1 (Amara, Felix; Kai would cut P4's opener): paid by P1's 'The cheques are a shopping problem, not an investing one.' (-10); P9's 'we built it first' stays 3-0 after all three first picked it in round 2. V49 497 strict",
+      "B KILL for the IPS (FR park stands); C to the FR with the largest miss beside the median; D KILL 3-0"
+     ],
+     "seeds": [
+      "Where does V49 define 'a high degree of funding certainty' as a level, not a method (:97-98)? It lists failures and now prices one, but never says what level we call high (Felix)",
+      "Is S9's $5,032 median gap a ladder left unfinished in 2028 or thin reinvestment after 2033, and does keeping Laura's half to 2042 close it? (Kai)",
+      "In S9 the gift falls under the bottom co-sponsors heard in 20 paths of 200,000: what does Laura tell them, and when? (Amara)"
+     ],
+     "todos": {
+      "done": 7,
+      "total": 9
+     },
+     "path": "keel/huddles/2026-11-01_already-in-the-bank",
+     "transcript": "keel/huddles/2026-11-01_already-in-the-bank/transcript.md",
+     "changes": [
+      "../../rooms/lauras_room/LR-09_the_promise_has_no_number.md",
+      "../../ips_rewrite/inbox/2026-11-01_lauras-room.md",
+      "../../ips_rewrite/IDEA_BANK.md"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    },
     {
      "id": "H-010",
      "title": "Hold it, then say it",
@@ -107,6 +153,12 @@
    ],
    "research": [
     {
+     "path": "keel/huddles/2026-11-01_already-in-the-bank/research/lr09_results.md",
+     "title": "LR-09 results for the huddle (MODEL)",
+     "member": "Lr09",
+     "huddle": "H-011"
+    },
+    {
      "path": "keel/huddles/2026-11-01_hold-it-then-say-it/research/jun_r3.md",
      "title": "Jun, round 3 check notes (H-010, Sun 1 Nov 2026; FICTION, Keel is a simulated team, AI-written; numbers are MODEL output)",
      "member": "Jun",
@@ -144,6 +196,55 @@
      "owner": "Jun",
      "day": "2026-11-01",
      "huddle": "H-008"
+    },
+    {
+     "text": "Read the Lab's A-D as a co-sponsor, a judge with the case open and a practitioner (Amara, Kai, Felix; done 1 Nov, round 1)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-11-01",
+     "huddle": "H-011"
+    },
+    {
+     "text": "Fetch the fundraisers' own words on the quiet phase (DP 2007, CCS 2020; the chair; done 1 Nov)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-01",
+     "huddle": "H-011"
+    },
+    {
+     "text": "Re-run L-15 with the cheques counted at any size, S0 and S6 (the chair; done 1 Nov, `../../rooms/lauras_room/LR-09_the_promise_has_no_number.py`)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-01",
+     "huddle": "H-011"
+    },
+    {
+     "text": "Stress the cheques in P4's own failures: deposit halved, yields lower before the build, both together (S2, S4, S9; the chair; done 1 Nov)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-01",
+     "huddle": "H-011"
+    },
+    {
+     "text": "CORD: S6 is the rates stress, not \"fat-tailed\" (the chair, before round 2; fixed in BRIEF.md)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-01",
+     "huddle": "H-011"
+    },
+    {
+     "text": "CORD: the cheques are identical with or without the lock in five worlds of six, not \"every\"; S9 1.511% v 1.503% (Kai and Amara, round 3; fixed in BRIEF.md and LR-09)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-01",
+     "huddle": "H-011"
+    },
+    {
+     "text": "V49 checked against every case line (Kai's table, the chair's check; done 1 Nov, LR-09 s4)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-01",
+     "huddle": "H-011"
     },
     {
      "text": "Kai's roast and three sealed guesses each, before the test (Kai, Nora, Jun; done 1 Nov, round 1)",
@@ -225,6 +326,20 @@
    ],
    "open": [
     {
+     "text": "The Window gates S9 and the new P4 sentence from a clean checkout (Window, Felix; by Mon 2 Nov 08:40)",
+     "done": false,
+     "owner": "Window",
+     "day": null,
+     "huddle": "H-011"
+    },
+    {
+     "text": "The rewrite thread takes or leaves the P7 repair and the P4 sentence (rewrite thread; by Wed 4 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-011"
+    },
+    {
      "text": "The Window gates L-15's headline numbers from a clean checkout (Window, Felix; by Mon 2 Nov 08:40)",
      "done": false,
      "owner": "Window",
@@ -270,9 +385,15 @@
    "runs": [
     {
      "day": "2026-11-01",
-     "when": "Sun 1 Nov 15:00",
+     "when": "Sun 1 Nov 16:05",
+     "room": "Laura's Room",
+     "what": "Beat 6, round 5, as huddle H-011 (Amara, Kai, Felix; 3 rounds, 9 agent turns): the Lab's L-15 A-D read as co-sponsor, judge, practitioner (A sharpened with the fundraisers' quiet phase, DP 2007 / CCS 2020; B killed for the IPS; C FR; D killed); V49 against every case line; LR-09 run: cheques paid in full at any size 99.68-99.95% in five worlds, 98.49% in P4's own recession (MODEL); V49 P7 mis-timed, repaired 3-0; P4 sentence 2-1; V49 497; 2 CORDs (the chair's, fixed)"
+    },
+    {
+     "day": "2026-11-01",
+     "when": "Sun 1 Nov 14:15",
      "room": "Genius Lab",
-     "what": "Beat 5, round 5 (Q13), L-15 \"hold it, then say it\" as huddle H-010 (Nora builds, Jun, Kai; 3 rounds, 9 agent calls; sealed guesses before the test): the Library's lock-timing and order tests on V47's design, S0/S1/S6. A month late costs the top 0.8 / 0.75 / 0.4 points (Kai won his bet); skipped after a top-fifth 2030, 85.8 v 98.5 inside those paths; move first = identical path for path. ADOPT 2-0 the P7 swap \"Before she names it\" (-2 strict, IPS 495); B (the rival's lead sits in the best fifth of 2028-30 markets; under $2,000 outside it, S0/S1) and C (inside the range 599,999 of 600,000; median miss $865-1,062) PARK for the FR; #106's \"even in a week\" BIN for the IPS; 2 CORDs fixed; bank #109-#111, 2 dropped; Library's request closed; 2 filed (Window, Writing Room)"
+     "what": "Beat 5, round 5 (Q13), L-15 \"hold it, then say it\" as huddle H-010 (Nora builds, Jun, Kai; 3 rounds, 9 agent calls; sealed guesses before the test): the Library's lock-timing and order tests on V47's design, S0/S1/S6. A month late costs the top 0.8 / 0.75 / 0.4 points (Kai won his bet); skipped after a top-fifth 2030, 85.8 v 98.5 inside those paths; move first = identical path for path. ADOPT 2-0 the P7 swap \"Before she names it\" (-2 strict, IPS 495); B (the rival's lead sits in the best fifth of 2028-30 markets; under $2,000 outside it, S0/S1) and C (inside the range 599,999 of 600,000; median miss $865-1,062) PARK for the FR; #106's \"even in a week\" BIN for the IPS; 2 CORDs fixed; bank #109-#111, 2 dropped; Library's request closed; 2 filed (Window, Writing Room): `../office/outbox/2026-11-01_genius-lab_hold-it-then-say-it.md`; PR #90 into the day branch; dashboard not refreshed (no data tool for the public artifact, as this morning)"
     },
     {
      "day": "2026-11-01",

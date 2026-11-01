@@ -4,6 +4,7 @@
 
 | ID | Opened | Title | Status | Rounds | Members | To-dos | Essence |
 |---|---|---|---|---|---|---|---|
+| H-011 | 2026-11-01 | [Already in the bank](2026-11-01_already-in-the-bank/transcript.md) | closed | 3 | Amara, Kai, Felix | 7/9 | Our IPS gives Laura's hope a number (the gift reaches its top about 97 times in 100) but her promise none, so we measured the ten cheques: in our model they are paid in full about 998 times in 1,000, the rare gap a few h |
 | H-010 | 2026-11-01 | [Hold it, then say it](2026-11-01_hold-it-then-say-it/transcript.md) | closed | 3 | Nora, Jun, Kai | 8/10 | Our draft says the half of Laura's stocks she promises co-sponsors moves into Treasuries on the day she names her range, so we tested what happens if that move comes late: a week or a month barely matters, but skipping i |
 | H-009 | 2026-11-01 | [The hard case, named first](2026-11-01_the-hard-case-named-first/transcript.md) | closed | 3 | Jun, Kai, Amara, Felix | 3/7 | We read people who sell promises to doubters, in their own words: annuity sellers, auction houses and mountain guides, and every one of the 37 lines we re-checked was real. What they share is naming the bad case before t |
 | H-008 | 2026-10-31 | [The Kitchen after the whole price](2026-10-31_the-kitchen-after-the-whole-price/transcript.md) | closed | 3 | Amara, Felix, Tess | 5/8 | We argued over what tomorrow's research should chase now that Caplet wants the writing to sound human above everything else. We've already read a thousand pieces, so tomorrow only goes where we haven't been: people who a |
@@ -34,6 +35,9 @@
 - H-005: Which 19 words pay for the paragraph: the 97-in-100 top line, the one-in-thirty line, or something else?
 - H-006: Can the January-morning image be called back in the 'But' sentence ('that January morning arrives mid-slump') within 497?
 - H-006: Does 'ten one-year bills' belong anywhere in the IPS once the rival also owns the ladder?
+- H-011: Where does V49 define 'a high degree of funding certainty' as a level, not a method (:97-98)? It lists failures and now prices one, but never says what level we call high (Felix)
+- H-011: Is S9's $5,032 median gap a ladder left unfinished in 2028 or thin reinvestment after 2033, and does keeping Laura's half to 2042 close it? (Kai)
+- H-011: In S9 the gift falls under the bottom co-sponsors heard in 20 paths of 200,000: what does Laura tell them, and when? (Amara)
 - H-010: Does a co-sponsor value a range that is already in Treasuries more than the same range promised? (Laura's Room: the co-sponsor's angle on 'before she names it')
 - H-010: If the IPS says the money moves before she speaks, should the Final Report's co-sponsor text say so in Laura's own words ('it is already in Treasuries')?
 - H-009: Lock-timing test: the lock a month or a quarter late, and skipped where stocks rose most before naming; top reached in S0, S1, S6 (Genius Lab)

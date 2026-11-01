@@ -1,0 +1,11 @@
+# H-011 to-dos (FICTION: the people; real: the work)
+
+- [x] Read the Lab's A-D as a co-sponsor, a judge with the case open and a practitioner (Amara, Kai, Felix; done 1 Nov, round 1)
+- [x] Fetch the fundraisers' own words on the quiet phase (DP 2007, CCS 2020; the chair; done 1 Nov)
+- [x] Re-run L-15 with the cheques counted at any size, S0 and S6 (the chair; done 1 Nov, `../../rooms/lauras_room/LR-09_the_promise_has_no_number.py`)
+- [x] Stress the cheques in P4's own failures: deposit halved, yields lower before the build, both together (S2, S4, S9; the chair; done 1 Nov)
+- [x] CORD: S6 is the rates stress, not "fat-tailed" (the chair, before round 2; fixed in BRIEF.md)
+- [x] CORD: the cheques are identical with or without the lock in five worlds of six, not "every"; S9 1.511% v 1.503% (Kai and Amara, round 3; fixed in BRIEF.md and LR-09)
+- [x] V49 checked against every case line (Kai's table, the chair's check; done 1 Nov, LR-09 s4)
+- [ ] The Window gates S9 and the new P4 sentence from a clean checkout (Window, Felix; by Mon 2 Nov 08:40)
+- [ ] The rewrite thread takes or leaves the P7 repair and the P4 sentence (rewrite thread; by Wed 4 Nov)

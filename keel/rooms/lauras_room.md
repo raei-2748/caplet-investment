@@ -1,15 +1,19 @@
 # FICTION (the room and the simulated people) + the real case. Laura's Room
 
 ## Now
-- **Doing:** Round 4 beat 6 done: the Lab hadn't posted by 15:10, so the room ran A09 against XR from the co-sponsor's chair (LR-08) and read V45 against every case line; huddle H-005 (Amara, Kai, Felix, 3 rounds)
-- **Decided:** V45's one case gap is A09. Same $145k bottom in a typical year; A09 names under $100k one world in thirteen, XR one in 150 (2031 mark on both, after the PR #84 review); price about $9k of her 2033 money (house, MODEL). One world per sentence; the worst-5% slice is FR only. Offered: an A09 paragraph replacing the 60/40 whole (V45 -> 485), and "from the hope" -> "from what she keeps"
-- **Next:** Lab re-runs on L-13's chain (after-2033 shortfall, top reached); Writing Room blind-reads the A09 paragraph; next visit reads whichever draft the rewrite thread names
-- **For the judges:** the A09 paragraph (`../ips_rewrite/inbox/2026-10-31_lauras-room.md`); Investment Strategy, Client Knowledge (:68-74, :109-120)
-- **Updated:** 2026-10-31 16:40 Sydney
+- **Doing:** Round 5 beat 6 done: the Lab's L-15 challengers read three ways and V49 (the newest draft) checked against every case line; huddle H-011 (Amara, Kai, Felix, 3 rounds); LR-09 run (the cheques at any size, six worlds)
+- **Decided:** the promise gets its own number: all ten cheques paid in full 99.7-99.95% in five worlds, 98.49% (once in 66) in P4's own recession (MODEL). Offered: "If it halves that deposit, our model bounces a cheque once in 66." (2-1), paid by P1's shopping line; V49 P7 repaired, "A range named on stocks has a catch ... So in January 2031, before any co-sponsor hears a number, Laura moves the promised half into Treasuries." (3-0); V49 497 strict. A sharpened (fundraisers' quiet phase), B killed for the IPS, C to the FR, D killed
+- **Next:** the Window gates S9 and the P4 sentence (Mon 2 Nov 08:40); the Lab traces S9's $5,032 gap (Kai's seed); next visit takes Felix's seed (what level of certainty V49 calls "high") or whatever draft the thread names
+- **For the judges:** `../ips_rewrite/inbox/2026-11-01_lauras-room.md`; Client Knowledge (:91, :97-99, :109-120), Portfolio Analysis
+- **Updated:** 2026-11-01 16:05 Sydney
 
 > Room card: `../OFFICE.md`. Host: Amara ("What does she feel in a bad year?"). Agents: `case-analyst`,
 > `cosponsor-reader`, `taiwan-researcher` (Taiwan research opens Sun 8 Nov).
 
+> **State (Sun 1 Nov, 15:10 run, round 5 beat 6):** LR-09 (`lauras_room/LR-09_the_promise_has_no_number.md` + `.py` +
+> `_results.json`; the Lab's L-15 chain unchanged, three outputs added): cheques paid in full at any size, six worlds;
+> S9 (yields a point lower before the build + deposit halved, linked) is the only thin one, 98.49%. V49 P7 mis-timed,
+> repaired. Fundraisers' quiet phase verified (DP 2007, CCS 2020). Open: Window (gate S9), Lab (S9's gap). Huddle H-011.
 > **State (Sat 31 Oct, 15:10 run, round 4 beat 6):** LR-08 (`lauras_room/LR-08_the_bad_naming_day.md` + `.py` +
 > `_results.json`, engine `../models/xr_core.py`, A09 locks 74% to match the median bottom): the bad naming day priced.
 > The 2031 mark was added to both bottoms after the PR #84 review (one in 150, not one in 2,000). Open: Lab (L-13 chain), Writing Room (blind read). Huddle H-005.
@@ -61,3 +65,4 @@
 | Thu 29 Oct | Lab L-12 challengers A-D + V29 (round 2 beat 6) | Co-sponsor (programme officer), judge with the case open, ward and pension practitioners (reasoned) | Co-sponsor: "only door 3 faces me; can door 4 reach behind it?" (her half first; bottom 0 of 600,000). Judge: where is the operating reserve, and how does it change as payments are made? V29: "never changes". B: a delayed lock means co-sponsors hear different numbers | :94-97; :109; :114-120 | Reserve line for para 10 (+14); "2031's first day is ours"; one-way valve to the Courtroom (LR-06) |
 | Fri 30 Oct | Lab L-13 challengers A-D + B3; LR-07 run (round 3 beat 6) | Co-sponsor (programme officer), judge with the case open, cold reader (agent), ECM/SEC/forecaster/campaign practitioners (reasoned) | Co-sponsor: the old top counted dollars the bottom had already given the cheques. Judge: B3 never names co-sponsors, "their gifts" points to no one. Cold reader: "Treasuries she already owns, rounded down" survives an audit committee; the bottom "the top less the most the cheques could still need" reads as a point estimate (7/7 vs 4/5) | :109-120 | "co-sponsors' gifts" (+1); slide's word; E and B, C to the FR (LR-07) |
 | Sat 31 Oct | V45 (D25) against every case line; A09 vs XR, LR-08 run (round 4 beat 6) | Co-sponsor (programme officer), judge with the case open, municipal treasurer (reasoned) | Co-sponsor: on a good day the two ranges look the same; on a bad one A09's lead shrinks by a third in the year her own board cuts. Judge: V45 never answers the plan I'd have written; wants the floor's price beside what it buys. Treasurer: why is any of the gift in shares? | :68-74; :109-120 | A09 paragraph in place of the 60/40 (485 strict); "from what she keeps" (+1); slice, $125k, after-2033 hair to the FR (LR-08) |
+| Sun 1 Nov | Lab L-15 challengers A-D + V49 (D29) against every case line; LR-09 run (round 5 beat 6) | Co-sponsor (programme officer), Laura, judge with the case open, fundraisers (their own published words) | Co-sponsor: an owned top books as a gift, not a forecast; she approaches across 2031, so "naming day" is a season. Laura: the only number in V49 is the gift's, easily taken for her cheques'. Judge: the list of ways to fail defines certainty but never tests it; P7's catch exists in neither period. Fundraisers: no goal is announced until 40-100% is in hand | :90-91; :97-99; :109-120 | P4 "If it halves that deposit, our model bounces a cheque once in 66." (+13, 2-1), paid by P1's shopping line; P7 repaired (+1, 3-0); V49 497 (LR-09) |
