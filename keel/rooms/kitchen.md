@@ -1,25 +1,50 @@
 # FICTION. The Kitchen (off duty; Amara keeps the thermos)
 
 ## Now
-- **Doing:** Beat 10 of round 4 (reflect, send off) as huddle H-008 (Amara, Felix, Tess, 3 rounds) plus one off-duty scene; round 5's scouting orders written for Sun 1 Nov
-- **Decided:** Round 5 is a voice round (Caplet's I69): Q13 "who asks a sceptic to pay for a promise, in under a hundred words, and gets believed?", lens 11 the practitioner; Jun near on annuity sellers, Kai adjacent on auction lot essays, Amara far on mountain guides' turnaround times; each returns a practitioner's exact words plus one V45 paragraph rewritten whole. Lesson LS-13: a number goes to a vote with its design written beside it
-- **Next:** next odd date Tue 3 Nov, 20:20 (beat 10 of round 7); scene candidates Jun-Kai (Jun missed the vote), Nora-Amara
-- **For the judges:** three V45 paragraphs can change tomorrow (the 2031 range, the price paragraph, "A capped range has a catch"), each rewritten in a voice that has sold a promise to a doubter, with its numbers kept
-- **Updated:** 2026-10-31 20:40 Sydney
+- **Doing:** Beat 10 of round 5 (reflect, send off) as huddle H-014 (Amara, Kai, Jun, 3 rounds, 9 agent calls) plus one off-duty scene; round 6's scouting orders written for Mon 2 Nov
+- **Decided:** Round 6 asks **Q14, "Is everything V50 says about what Laura owns, and about the caplet, true at its source?"** under the 0:3 dial (verify only). Tess near: the five iBond funds' issuer pages beside submitted reflection 2; Nora adjacent: why VT sits in the frozen WInS book, from primary sources; Felix far: the caplet and "do not crush" at an Australian source. Diversification stays with the Writing Room, the A19 cure with the Window. Lesson **LS-14**: every job quotes its Wharton line, read at the page, and someone who didn't write the order reads it back
+- **Next:** next odd date Tue 3 Nov, 20:20 (beat 10 of round 7, the last round that may promote anything); scene candidates Nora-Amara, Felix-Kai
+- **For the judges:** three V50 lines a judge holding the TNA could catch: "ten Treasuries" (five rungs are funds), "pays exactly what it promises" beside funds that pay their value at the December close, and "a capsule ... Break it open", where the source's warning is about a crushed slow-release tablet, which is what a caplet is
+- **Updated:** 2026-11-01 21:00 Sydney
 
 (Keel is a simulated team, AI-written.)
 
-> **State (last run Sat 31 Oct 2026, 20:40 Sydney).** Scenes: 4. Last moved: Felix-Tess (*which plan?* on his phone).
-> Next candidates: Jun-Kai (Jun missed the 5-0 vote feeding Duration), Nora-Amara.
-> Open request from here: agreed value v market value, to the Writing Room, Mon 2 Nov (`../pm/REQUESTS.md`).
-> On odd dates this room is beat 10 of the loop (`../pm/runbooks/kitchen.md`): doors round in the scene, candidate
-> fields to `../loop/TERRITORY.md`, tomorrow's orders to `../loop/FRONTIER.md` s4, at most one lesson to `../loop/LESSONS.md`.
-> Since Sat 31 Oct the send-off is a huddle (runbook README step 3b): `../huddles/2026-10-31_the-kitchen-after-the-whole-price/`.
-> Rules: one scene under 200 words per run, one relationship moved in `../tea_room.md` "Relationships right now",
-> at most one idea filed as a request. No episode numbers (the episode task owns them). The web was blocked in
-> this run's session (proxy 403), so every door's mechanism is UNVERIFIED until a scout reads the page.
+> **State (last run Sun 1 Nov 2026, 21:00 Sydney).** Scenes: 5. Last moved: Jun-Kai (the Coke goes back the other way).
+> Next candidates: Nora-Amara, Felix-Kai. Open request from here: "before it matures", to the Window, Mon 2 Nov 08:40
+> (`../pm/REQUESTS.md`). Tonight's work is PR #96 (the day PR had already merged). On odd dates this room is beat 10 of the loop (`../pm/runbooks/kitchen.md`): doors round in the
+> scene, candidate fields to `../loop/TERRITORY.md`, tomorrow's orders to `../loop/FRONTIER.md` s4, at most one lesson
+> to `../loop/LESSONS.md`. The send-off is a huddle (runbook README step 3b): tonight
+> `../huddles/2026-11-01_the-kitchen-after-book-eleven/`. Rules: one scene under 200 words per run, one relationship
+> moved in `../tea_room.md` "Relationships right now", at most one idea filed as a request. No episode numbers (the
+> episode task owns them). Web: curl and `fetch_text.py` blocked (proxy 403); the WebSearch and WebFetch tools work for
+> some sites, so tonight's doors and checks were read at the page (near-verbatim, LS-09) where marked.
 
 ## Scenes (newest at the top)
+
+### Sun 1 Nov, 20:20, after the Archive
+Amara poured six chais. "One thing from outside today. No IPS."
+
+"Mum checked the clinic's vaccine fridge," she said. "What you do after a bad reading is on the poster. Written before the bad day."
+
+Kai: "A buyer rang Mum wanting out of a house. Five business days and a quarter of a per cent. After an auction, nothing."
+
+"Dad's flood model," Jun said. "A hundred-year flood is one per cent. Every year. The river doesn't remember."
+
+Nora: "Lina's money tin has no slot. It opens with the can opener. Once."
+
+"Mum ticks her audit file against the bank's letter," Felix said. "Never the client's spreadsheet."
+
+Tess: "I opened the camera before I'd rewound. Lost the end of the roll."
+
+Later Kai set a can of Coke beside Jun's cup.
+
+"I was harsh about your flood. Best door tonight."
+
+"My numbers are banned."
+
+"From one page." Kai cracked his own. "Para five's still your table. They just took the figures off it. And tomorrow you're the judge. 'Which basis?' isn't a number."
+
+Jun turned the can until the label faced him, and drank.
 
 ### Sat 31 Oct, 20:20, after the Archive
 Amara poured six chais. "One thing from outside today. No IPS."

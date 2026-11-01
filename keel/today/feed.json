@@ -1,5 +1,5 @@
 {
- "built": "2026-11-01T08:27",
+ "built": "2026-11-01T09:57",
  "days": [
   {
    "date": "2026-11-01",
@@ -19,7 +19,10 @@
     "Where the rival plan's extra $15,000 is earned, and how confident we are the gift lands inside the range, are true and go to the Final Report; the 'even in a week when stocks are rising' clause comes out of the IPS.",
     "We read people who sell promises to doubters, in their own words: annuity sellers, auction houses and mountain guides, and every one of the 37 lines we re-checked was real.",
     "What they share is naming the bad case before the buyer can and saying exactly where it sits; the one clause worth taking into the IPS is that the gift's promised half moves into Treasuries on naming day 'even in a week when stocks are rising'.",
-    "Felix found the bigger point: the mountain story argues for buying the floor early, and shows the 2031 lock is still a step someone has to take on the day, so the Lab now tests what a late or skipped lock costs."
+    "Felix found the bigger point: the mountain story argues for buying the floor early, and shows the 2031 lock is still a step someone has to take on the day, so the Lab now tests what a late or skipped lock costs.",
+    "Our own order yesterday told the scouts to keep model numbers in their paragraphs, and Ahaan's message banned exactly that, so tomorrow every job has to quote the line of Wharton's instructions it was checked against before anyone goes out.",
+    "Tomorrow checks whether the IPS tells the truth about what Laura would own: five of the ten payments come from bond funds that pay what they're worth at the end, not a promised sum, and the floor is one of those funds.",
+    "We also found the motif is wrong in a small way that our own name fixes: a caplet is a tablet shaped like a capsule, and the pharmacy safety page warns that a crushed slow-release tablet can release its dose all at once."
    ],
    "huddles": [
     {
@@ -249,6 +252,57 @@
      ],
      "rounds": 3,
      "rounds_today": 3
+    },
+    {
+     "id": "H-014",
+     "title": "The Kitchen after Book 11",
+     "question": "Book 11 took every model number out of the IPS and the dial says verify only until Wednesday. What should round 6 (Mon 2 Nov) chase, and what did round 5 teach us about how we work?",
+     "status": "closed",
+     "room": "Kitchen",
+     "chair": "Amara",
+     "members": [
+      "Amara",
+      "Kai",
+      "Jun"
+     ],
+     "essence": [
+      "Our own order yesterday told the scouts to keep model numbers in their paragraphs, and Ahaan's message banned exactly that, so tomorrow every job has to quote the line of Wharton's instructions it was checked against before anyone goes out.",
+      "Tomorrow checks whether the IPS tells the truth about what Laura would own: five of the ten payments come from bond funds that pay what they're worth at the end, not a promised sum, and the floor is one of those funds.",
+      "We also found the motif is wrong in a small way that our own name fixes: a caplet is a tablet shaped like a capsule, and the pharmacy safety page warns that a crushed slow-release tablet can release its dose all at once."
+     ],
+     "decided": [
+      "3-0: round 6 asks Q14, 'Is everything V50 says about what Laura owns, and about the caplet, true at its source?'; no new fields (the 0:3 dial)",
+      "3-0: Tess near, the five iBond funds' issuer pages beside submitted reflection 2 ('a net asset value, as opposed to a promise of par'); Nora adjacent, why VT is in the frozen WInS book, from primary sources only (Kai conceded public budgeting); Felix far, the caplet and 'do not crush' at an Australian source",
+      "3-0: diversification goes to the Writing Room (16:20) and the A19 cure to the Window (08:40), not to scouts; Kai's 'before it matures' goes to the Window",
+      "3-0: keep 'not a probability, but a purchase'; 2-1 (Jun for 'near'): say Book 5's condition once, held to the December close, rather than 'near'",
+      "3-0: Fight 2, say it truly ('ten holdings' costs nothing), not fewer instrument words (Kai conceded)",
+      "3-0: the motif's noun and verb change ('caplet', 'crush'); 'labelled' goes to Felix's source check",
+      "3-0: LS-14, every job quotes its Wharton line, read at the page, and someone who didn't write the order reads it back; no line, no job",
+      "Roles: flaw-hunter Kai (the table listed Nora, who scouts), cold judge Jun (handed V50 plus one changed, sourced sentence a paragraph, no numbers), builder Amara"
+     ],
+     "seeds": [
+      "Crushing may release a dose all at once; selling a rung early hands over its money at the market's price, before its date. Is that the same harm, or only a rhyme? (Amara)",
+      "Engineers state a chance and a period because they can't buy certainty (a 1% flood every year); Laura's cheques are bought. Is that the Final Report's plainest way into 'how certain', once the IPS says 'held to the close'? (Jun; Kai: not honest for 2033-37 without the condition)"
+     ],
+     "todos": {
+      "done": 5,
+      "total": 10
+     },
+     "path": "keel/huddles/2026-11-01_the-kitchen-after-book-eleven",
+     "transcript": "keel/huddles/2026-11-01_the-kitchen-after-book-eleven/transcript.md",
+     "changes": [
+      "keel/loop/FRONTIER.md",
+      "keel/loop/LESSONS.md",
+      "keel/loop/TERRITORY.md",
+      "keel/loop/rounds/2026-11-01.md",
+      "keel/rooms/kitchen.md",
+      "keel/tea_room.md",
+      "keel/pm/REQUESTS.md",
+      "keel/ips_rewrite/IDEA_BANK.md",
+      "keel/ips_rewrite/inbox/2026-11-01_kitchen.md"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
     }
    ],
    "research": [
@@ -311,6 +365,36 @@
      "title": "H-009 research",
      "member": "Readme",
      "huddle": "H-009"
+    },
+    {
+     "path": "keel/huddles/2026-11-01_the-kitchen-after-book-eleven/research/amara.md",
+     "title": "Amara's research notes, H-014 round 1 (Sun 1 Nov 2026) (FICTION: Keel is a simulated team, AI-written)",
+     "member": "Amara",
+     "huddle": "H-014"
+    },
+    {
+     "path": "keel/huddles/2026-11-01_the-kitchen-after-book-eleven/research/jun.md",
+     "title": "Jun's research notes (H-014, round 1; fiction, Keel is a simulated team, AI-written)",
+     "member": "Jun",
+     "huddle": "H-014"
+    },
+    {
+     "path": "keel/huddles/2026-11-01_the-kitchen-after-book-eleven/research/jun_r3.md",
+     "title": "Jun's research notes (H-014, round 3; fiction, Keel is a simulated team, AI-written)",
+     "member": "Jun",
+     "huddle": "H-014"
+    },
+    {
+     "path": "keel/huddles/2026-11-01_the-kitchen-after-book-eleven/research/kai.md",
+     "title": "Kai, round 1 research notes (H-014, Sun 1 Nov 2026)",
+     "member": "Kai",
+     "huddle": "H-014"
+    },
+    {
+     "path": "keel/huddles/2026-11-01_the-kitchen-after-book-eleven/research/kai_r3.md",
+     "title": "Kai, round 3 research notes (H-014, Sun 1 Nov 2026)",
+     "member": "Kai",
+     "huddle": "H-014"
     }
    ],
    "done": [
@@ -318,6 +402,27 @@
      "text": "Each scout brings back 50-100 of a practitioner's own words, exact, with URL and date, plus one V45 paragraph rewritten whole, numbers and sources kept (Jun, Kai, Amara; done 1 Nov, Library, huddle H-009: V47's paragraphs, with V45's facts superseded)",
      "done": true,
      "owner": "Jun",
+     "day": "2026-11-01",
+     "huddle": "H-008"
+    },
+    {
+     "text": "Hunt the number first in every return: \"in our model, with world stocks at 7.5% a year\" stays, and the rival it beats is named (Felix, flaw-hunter; done 1 Nov at the Library, CORD on Jun's two claims; then moot: Book 11, 16:26, took model numbers out of the IPS)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-11-01",
+     "huddle": "H-008"
+    },
+    {
+     "text": "Judge the returns cold on three questions: is the quote real, is the move missing from the reading, read aloud does it sound like a person? (Tess; done 1 Nov: the Library re-checked 37 of 37 quoted lines; Tess judged blind at the Writing Room and the Courtroom, on V49/V50 after Book 11)",
+     "done": true,
+     "owner": "Tess",
+     "day": "2026-11-01",
+     "huddle": "H-008"
+    },
+    {
+     "text": "Agreed value v market value as the one image for the rival paragraph, or the Final Report (Writing Room; done 1 Nov: read blind 5th / 4th, dropped for the IPS and the FR, `../../office/outbox/2026-11-01_writing-room_five-places-one-page.md`)",
+     "done": true,
+     "owner": null,
      "day": "2026-11-01",
      "huddle": "H-008"
     },
@@ -523,6 +628,41 @@
      "owner": "Felix",
      "day": "2026-11-01",
      "huddle": "H-009"
+    },
+    {
+     "text": "Round 6's orders written in the loop's frontier: Q14, three verify jobs, each with its Wharton line (Amara; done 1 Nov)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-11-01",
+     "huddle": "H-014"
+    },
+    {
+     "text": "LS-14 filed: every job quotes its Wharton line, read at the page, and someone who didn't write the order reads it back (Amara, Kai, Jun; done 1 Nov)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-11-01",
+     "huddle": "H-014"
+    },
+    {
+     "text": "CORD: Wharton's \"why each investment belongs\" is at WHARTON_WORD lines 113-114, not 111 (Amara on Kai; done 1 Nov)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-01",
+     "huddle": "H-014"
+    },
+    {
+     "text": "CORD: Wharton's line 110 (\"should reflect the strategy\") is the test for the WInS book, not the reason VT is in it (Jun on himself; done 1 Nov)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-01",
+     "huddle": "H-014"
+    },
+    {
+     "text": "CORD: \"rather than describing individual investments\" (line 71) is not a ban on instrument words; V50 names no ticker (Kai on himself; done 1 Nov)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-01",
+     "huddle": "H-014"
     }
    ],
    "open": [
@@ -602,9 +742,50 @@
      "owner": "Felix",
      "day": null,
      "huddle": "H-009"
+    },
+    {
+     "text": "IBTO-IBTR issuer pages beside submitted reflection 2: is \"held to the close\" true of all five funds, and is every \"Treasury\" in the pitch and paras 2, 3, 5 true? (Tess, near scout; by Mon 2 Nov 12:10)",
+     "done": false,
+     "owner": "Tess",
+     "day": null,
+     "huddle": "H-014"
+    },
+    {
+     "text": "Why VT sits in the frozen WInS book, from primary sources only (the VT note, reflection 3, the Nov-2041 note's \"scaled to the model portfolio\"): is a \"scaled\" bridge needed in the IPS? (Nora, adjacent scout; by Mon 2 Nov 12:10)",
+     "done": false,
+     "owner": "Nora",
+     "day": null,
+     "huddle": "H-014"
+    },
+    {
+     "text": "The circle at an Australian source: an extended-release caplet or tablet, \"do not crush\", \"all at once\"; whether \"labelled\" holds (Felix, far scout; by Mon 2 Nov 12:10)",
+     "done": false,
+     "owner": "Felix",
+     "day": null,
+     "huddle": "H-014"
+    },
+    {
+     "text": "\"Selling it before its January\" v \"before it matures\": every rung matures before its January (Window, with C-05's gate; by Mon 2 Nov 08:40)",
+     "done": false,
+     "owner": "Window",
+     "day": null,
+     "huddle": "H-014"
+    },
+    {
+     "text": "One plain diversification sentence starts from the submitted VT note (\"one cheap fund diversifies Laura's stocks\") and is cold-read on Jun's question, \"spread against what?\" (Writing Room; by Mon 2 Nov 16:20)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-014"
     }
    ],
    "runs": [
+    {
+     "day": "2026-11-01",
+     "when": "Sun 1 Nov 21:05",
+     "room": "Kitchen",
+     "what": "Beat 10, round 5, as huddle H-014 (Amara, Kai, Jun; 3 rounds, 9 agent calls): round 6 orders, **Q14 \"is everything V50 says about what Laura owns, and about the caplet, true at its source?\"** (0:3 dial; lens 6; Tess the five iBond funds' issuer pages v reflection 2, Nora why VT is in the frozen WInS book from primary sources, Felix the caplet at an Australian source; flaw-hunter Kai, judge Jun, builder Amara); **LS-14** (every job quotes its Wharton line, read back by someone who didn't write the order; the Kitchen's own Saturday order asked for the model numbers Book 11 banned); F17-F19 (funds pay 2033-37 and the floor is IBTM; a caplet is a tablet and ISMP's \"all at once\" is said of tablets; \"before it matures\"), S21; 3 CORDs; scene 5 (Jun-Kai); 3 TERRITORY candidates + 2 notes; bank #122-#124; request to the Window (F19); inbox early warning `../ips_rewrite/inbox/2026-11-01_kitchen.md`; memo `../office/outbox/2026-11-01_kitchen_the-caplet-is-a-tablet.md`; dashboard not refreshed (no data-write tool in this session)"
+    },
     {
      "day": "2026-11-01",
      "when": "Sun 1 Nov 20:05",
@@ -753,7 +934,7 @@
       "Agreed value v market value cover (Amara's door): is it the one image that makes the rival paragraph land, or a second motif competing with XR?"
      ],
      "todos": {
-      "done": 5,
+      "done": 8,
       "total": 8
      },
      "path": "keel/huddles/2026-10-31_the-kitchen-after-the-whole-price",
@@ -1088,27 +1269,6 @@
      "owner": null,
      "day": null,
      "huddle": "H-007"
-    },
-    {
-     "text": "Hunt the number first in every return: \"in our model, with world stocks at 7.5% a year\" stays, and the rival it beats is named (Felix, flaw-hunter; by Sun 1 Nov 18:20)",
-     "done": false,
-     "owner": "Felix",
-     "day": null,
-     "huddle": "H-008"
-    },
-    {
-     "text": "Judge the returns cold on three questions: is the quote real, is the move missing from the reading, read aloud does it sound like a person? (Tess; by Sun 1 Nov 18:20)",
-     "done": false,
-     "owner": "Tess",
-     "day": null,
-     "huddle": "H-008"
-    },
-    {
-     "text": "Agreed value v market value as the one image for the rival paragraph, or the Final Report (Writing Room; by Mon 2 Nov)",
-     "done": false,
-     "owner": null,
-     "day": null,
-     "huddle": "H-008"
     },
     {
      "text": "The three ADOPT versions read cold beside V39 para 7, one picked, the 19-word cost weighed (Writing Room; by Sun 1 Nov)",
