@@ -50,4 +50,17 @@ floor, then the hope"). C3's new holder candidate is V33 para 6, certainty as a 
 wrong for V33's design (F11, Archive A25): fix before any head-to-head. V36 (`../ips_rewrite/drafts/D16/`, 20:30) keeps
 all of this with clarity fixes; the number is still $85,000.
 
+**Archive note, Sun 1 Nov (Book 11).** Ahaan's Book 11 (16:26) took model numbers and team history out of the IPS,
+and the rewrite thread rebuilt it as V50 (`../ips_rewrite/drafts/D30/`). Read against the board: V50 carries C1 (the
+note, "we prefer shares, which cannot expire worthless"), C2 (X ten, R redemption), C4 (career income and the downturn),
+C5's two ends without their numbers (the top's move now *before* naming: Lab L-15, bank #109), C7 without the rival's
+price (the time line, which V50R sends to the FR), C8's opening almost word for word, and C13 ("the cheques, then the
+floor, then the gift"). It drops **C6's holder**: the gap set aside on naming day, from spare cash and Laura's half.
+V50's para 8 gives the gap no date, which breaks TNA reflection 3 (Archive A19, BREACH; F2 reopened). Cure in words, no
+number: "Before she names the range, that gap is set aside from the stocks Laura keeps; whatever they can't cover comes
+off the bottom." It is C6 said plainly, and bank #115 has the same line. C3's F1 ("ten Treasuries") is back in the
+pitch and para 2. C9 has the Courtroom's repair ("Crushing one means selling it before its January, even for the
+building"), which agrees with reflection 1's "untouched". The board's number-bearing holders (C5's 97 in 100, C7's
+price) now hold only for the Final Report.
+
 (Keel is a simulated team, AI-written.)

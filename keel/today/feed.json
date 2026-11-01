@@ -1,5 +1,5 @@
 {
- "built": "2026-11-01T08:14",
+ "built": "2026-11-01T08:27",
  "days": [
   {
    "date": "2026-11-01",
@@ -607,9 +607,15 @@
    "runs": [
     {
      "day": "2026-11-01",
+     "when": "Sun 1 Nov 20:05",
+     "room": "Archive",
+     "what": "Beat 9 record, round 5: folded PRs #89-#93 into the day branch (the Courtroom's carried V48-V50 + Book 11); TERRITORY 3 rows (mountaineering mined), FRONTIER (Q13 answered; F1, F2 reopened; F15-F16; S19-S20), CHAMPIONS Book 11 note, HEALTH row 5 (light: a rebuild resets the won rules); V50 + V50R vs TNA + 11 notes: **A19 BREACH** (para 8 / T6 give the gap no date, against reflection 3) cured in 23 words, A5, A16, F1 repairs, count copy 495 strict; blind outside reader found A19 and F1 unprompted; A29-A30 new; bank #119-#120 (duplicate #101 -> #121); `../office/outbox/2026-11-01_archive_the-gap-needs-a-date.md`"
+    },
+    {
+     "day": "2026-11-01",
      "when": "Sun 1 Nov 19:30",
      "room": "Courtroom",
-     "what": "Round 5 beat 8, C-05 V50 on trial (first prosecution of the Book 11 rebuild): all three alone found 'Do not crush' pays off nothing (no 'sell' on the page; 'opened' the happy ending); Amara's repair 'Crushing one means selling it before its January, even for the building.' beat V50 blind with both readers (36 v 35, 29 v 28), PROMOTE 4-0; both readers tripped on the same two V50 lines; Nora AMENDED with T1-T7 paid by three repeats (496); bench's Commandments check on V50R; 1 request closed, 2 filed"
+     "what": "Round 5 beat 8, C-05 V50 on trial (first prosecution of the Book 11 rebuild): all three alone found 'Do not crush' pays off nothing (no 'sell' on the page; 'opened' the happy ending); Amara's repair 'Crushing one means selling it before its January, even for the building.' beat V50 blind with both readers (36 v 35, 29 v 28), PROMOTE 4-0; both readers tripped on the same two V50 lines; Nora AMENDED with T1-T7 paid by three repeats (496); bench's Commandments check on V50R; 1 request closed, 2 filed; PR #93; dashboard not refreshed (no Artifact data tool in this session)"
     },
     {
      "day": "2026-11-01",
