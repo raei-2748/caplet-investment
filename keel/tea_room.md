@@ -115,6 +115,11 @@ co-sponsor a number she doesn't already own."**
   and she tried to file it as card twelve; Tess refused ("You don't get to bury your own lines any more") and sent it to
   Friday's blind read, where nobody knows whose line is whose. First time Tess has pushed Amara; Amara laughed and
   topped up her cup. Still eleven cards (Kitchen, Thu 29 Oct, `rooms/kitchen.md`).
+- Felix and Tess: until now neither pushed the other. On Sat 31 Oct Tess caught the "$19,000" that came through Felix's
+  Courtroom repair, after the 5-0 vote (it was another plan's number; $15,000 on ours). In the Kitchen Felix, the one who
+  checks everyone's paste, asked her to read whatever he writes on Sunday before the vote, not after: "Against the page
+  I was handed. I never asked which plan." She stuck *which plan?* to the back of his phone; he left it there
+  (Kitchen, Sat 31 Oct, `rooms/kitchen.md`).
 
 ## Long Room log (Sydney date and minutes; room days; purpose)
 | Sydney | Minutes | Room days | Purpose | Who |

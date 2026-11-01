@@ -31,7 +31,7 @@
 | Insurance regulation (Solvency II matching adjustment) | R05 #3 | promising | 1 |
 | Behavioural finance (mental accounts, reference points) | I-11; R05 #15 | promising | 1 |
 | Market microstructure (off-the-run bonds) | R05 #8 | promising | 1 |
-| Annuities, mortality credits and tontines | | unvisited | |
+| Annuities, mortality credits and tontines | 1 Nov, Jun (round 5): the sellers in their own words (Challenger, ASIC Moneysmart); "which money pays" (J1) was already V50's shape; tontines not read | promising | 1 |
 | Structured settlements (court-ordered payments on fixed dates) | 28 Oct, Kai (round 1): IRC §130(d), the 60-day window ("any obligation of the United States", bought within 60 days of the promise) | promising (deeper question: how a guaranteed minimum is funded when the bonds buy less) | 2 |
 | Municipal bonds: escrowed-to-maturity and pre-refunded bonds | | unvisited | |
 | Project finance: sinking funds and debt-service reserve accounts | | unvisited | |
@@ -42,6 +42,7 @@
 | The oldest bonds still paying (Dutch water-board perpetuals, consols) | | unvisited | |
 | Family offices and multi-generation goals-based investing | | unvisited | |
 | Real options and staged commitment | R05 #19 (VC staging, reference-class forecasting) | promising | 1 |
+| Insurance: agreed value v market value cover | Candidate from the Kitchen's doors, Sat 31 Oct (Amara: her brother's car cover; agreed value fixes the payout when you sign and costs more, market value pays what the car is worth on the day). Maps onto XR's floor owned from 2028 v A09's bottom bought at its January-2031 value; the premium is the forgone growth. UNVERIFIED (MoneySmart refused by the proxy) | unvisited (request to the Writing Room, Mon 2 Nov) | |
 
 ## Adjacent: economics, law, accounting, giving, forecasting
 | Field | Visits | Status | Yield |
@@ -60,6 +61,7 @@
 | Construction finance: retainage, progress payments, contingencies | 28 Oct, Felix (round 1): securities in lieu of retainage (Cal. PCC §22300); who keeps unused contingency (ConsensusDocs 2023); FAR 52.216-4 escalation | promising (retainage is released on completion, not a date: a deeper question) | 2 |
 | Public budgeting: earmarked funds, rainy-day funds | 31 Oct, Amara (round 4): GFOA (bond proceeds invested no longer than the drawdown schedule), California Gov. Code list (no shares, five-year cap), Orange County 1994, Washington SSJR 8208 (stocks only for money without a deadline) | promising | 2 |
 | Contract law: liquidated damages, "time is of the essence" | | unvisited | |
+| Auction houses: lot essays, estimates and condition reports | Kitchen H-008, Sat 31 Oct: "auction" appears nowhere in the 1,000-piece voice reading; a catalogue essay justifies a price estimate to a doubter while the condition report owns the flaws. 1 Nov, Kai (round 5): the flaw with an address (K1/K3, bank #107) became the Courtroom's "who pays a gap" in plain words (T6), which the Archive dated (A19) | promising | 2 |
 
 ## Far: everything else (the road less taken)
 | Field | Visits | Status | Yield |
@@ -69,27 +71,28 @@
 | Printing: the print run | L-03 (parked) | dry | 1 |
 | Music: drone and chanter | Rung 1 only | dry | 0 |
 | Aviation: fuel reserves, minimums | S-01 candidates (parked) | unvisited (only listed) | |
-| Mountaineering: turnaround times, fixed ropes, caches | | unvisited | |
+| Mountaineering: turnaround times, fixed ropes, caches | 1 Nov, Amara (round 5): Hall's turn-back hour set before the climb (A1) led the Lab to test the 2031 lock's timing (L-15) and swap the order (move first, then name), now inside V50; Hall goes to the FR only as the failure case | mined | 3 |
 | Space missions: launch windows, delta-v budgets, gravity assists | | unvisited | |
 | Agriculture: forward-selling part of a crop, hedge-to-insured-bushels | 31 Oct, Jun (round 4): farmers pre-sell a quarter to a third of the expected crop; lock more as it gets sure; 2012 spring hedging punished; the break: for a farmer the hedge is nearly free, for Laura it costs the equity premium (priced by L-14, C-04) | promising | 3 |
 | Clinical trials: pre-registration, stopping rules | L-06 ("Pre-Registered" package) | promising | 1 |
 | ICU and triage: reserves, handovers, early-warning scores | 29 Oct, Nora (round 2): NEWS2 (one red score triggers alone; concern overrides), NSW PD2025_014 (signed, expiring alterations; escalate on silence), ward studies (alarms that stay on stop being answered) | mined (its contrast made the champion: a ward needs alarms because a crash has no date, and every flow in Laura's case has one; handovers and triage reserves still unvisited, a new field if ever needed) | 3 |
 | Theatre: cue sheets, the "go" that cannot be taken back | 28 Oct, Tess (round 1): tracking and the block (ETC Eos); fix in the programming before the next show (CCSU 2025); the pre-show lamp check (USU) | mined | 2 |
 | Film photography: exposure latitude, the latent image | | unvisited | |
-| Baking and fermentation: proving, starters fed on schedule | | unvisited | |
+| Baking and fermentation: proving, starters fed on schedule | Candidate from the Kitchen's doors, Sat 31 Oct (Jun: his starter fed at six or the week is lost; Nora: a bakery deposit fixes the price the day you pay) | unvisited | |
 | Seed banks and agriculture: storing for a known sowing date | | unvisited | |
 | Ecology: bet-hedging, seed dormancy, masting | | unvisited | |
 | Military and expedition logistics: depots laid in advance | | unvisited | |
 | Timetabling and railways: slack, recovery time | Candidate from the Kitchen's doors, Thu 29 Oct (Jun: an early train holds at a big station until its time): slack is placed before a fixed time, not spread along the line; maps onto the ~$7,500 banked before naming day | unvisited | |
-| Sport: game clocks, timeouts, rotation and load management | | unvisited | |
+| Sport: game clocks, timeouts, rotation and load management | Candidate from the Kitchen's doors, Sat 31 Oct (Kai: basketball's shot clock resets to 14, not 24, after an offensive rebound; FIBA rule UNVERIFIED): a smaller promise on a fixed clock | unvisited | |
 | Clockmaking and horology: escapements | | unvisited | |
 | Community kitchens (langar): a fund that must feed every day | Candidate from the Kitchen's doors, Thu 29 Oct (Amara: a family pays now for a langar on a date in March): a dated meal sponsored and paid in advance | unvisited | |
 | Architecture: load paths, the keystone, temporary works | | unvisited | |
 | Maritime: ballast, sea anchors, dead reckoning | Early "keel and sail" picture (I-06) | promising | 1 |
 | Archives and time capsules | | unvisited | |
-| Mahjong and card-game scoring: committing before the reveal | | unvisited | |
+| Mahjong and card-game scoring: committing before the reveal | Candidate from the Kitchen's doors, Sat 31 Oct (Felix: the table's limit on a hand said aloud before the first tile, so one lucky hand can't ruin the dealer; varies by table, UNVERIFIED): a cap agreed before play, like the 2031 top | unvisited | |
 | Weather forecasting: ranges with a chance on each end (BoM "possible rainfall") | 30 Oct, Kai (round 3): the BoM's own page (75% / 25% chance on the two ends; the round's 50/25 was false, the Window's catch); "acknowledging the uncertainty in the forecast increased trust"; the cost-loss rule (Richardson, ECMWF) and the newsvendor's overage/underage | mined (each end its own chance, set by what missing it costs: B3O/B3W's "each end as sure as its miss is costly", 3-0 and 2-0 blind, the C5 holder; bank #84) | 3 |
 | Pharmacy practice: dose administration aids (blister packs made up by day) | Candidate from the Kitchen's doors, Thu 29 Oct (Nora: one sealed dose per day, packed in advance by the pharmacist); next to the mined pharmacology field but a new mechanism: the patient decides nothing on the day | unvisited (Q7 request to Laura's Room) | |
+| Bookselling: dealers' condition descriptions ("spine sunned, light foxing") | Candidate from the Kitchen's doors, Sat 31 Oct (Tess: pricing secondhand paperbacks): twenty words that tell a stranger what's wrong and still sell it. Close kin of the auction condition report (round 5, Kai). UNVERIFIED (ILAB's glossary refused by the proxy) | unvisited | |
 
 ## Who does what, by round (rotate so no one holds the same job two rounds running)
 | Round day | Scouts (near, adjacent, far) | Flaw-hunter | Judge (cold) |
@@ -120,5 +123,8 @@ make them do it, the next member in the list takes the job.
 | Sat 31 Oct | 4 | Nora | Endowments and dated capital promises (near, deepened) | her dad buys the tiles the day the quote's signed | 3 finds; round total 47 / 54 lines verified at the page, 7 not re-checked (none carries a "so") | UNC won't award a building contract until 100% of the budget is cash: "we won't let Laura name a bottom until she owns it". Harvard's 2009 pause became bank #95 and the Lab's parked C (FR) | mined |
 | Sat 31 Oct | 4 | Amara | Public budgeting, earmarked capital funds (adjacent) | the gurdwara kitchen fund in a term deposit while the quotes come in | 3 finds + a bonus (one Washington list not re-checked; whether voters passed SSJR 8208 UNVERIFIED) | Money with a date is bought to its date; Washington lets only money without a deadline own shares, the exact line XR draws between floor and fund (bank #96). Honest cost: no city could put the floor's interest in stocks | promising |
 | Sat 31 Oct | 4 | Jun | Farmers who forward-sell part of a crop (far) | his running splits, even pace against a negative split | 3 finds (Hurt's example worked by the scout) | The round's biggest break: locking is nearly free for a farmer but costs Laura the stock premium. It forced the price into the open (L-14, LR-08, C-04), and the promoted paragraph now ends "We'd pay" it (bank #97) | promising |
+| Sun 1 Nov | 5 | Jun | Annuity and pension-income sellers (near) | a sourdough starter fed at six or the week is lost | 3 finds (the Library re-checked 37 of the round's quoted lines at the page, all found; Jun's other 41 not re-checked) | Challenger names the buyer's fear as a "Myth", then says which fund pays (J1, bank #108); V50 already says which money funds each end, so it confirmed a shape rather than made one. Jun's P6 rewrite carried model numbers and fell to Book 11 | promising |
+| Sun 1 Nov | 5 | Kai | Auction-house catalogue essays and condition reports (adjacent) | the shot clock reset to fourteen | 3 finds (verified in the 37) | A condition report puts each flaw where it sits; a flaw named "but not where" stops being believed (K1/K3, bank #107). It became the Courtroom's plain "who pays a gap" (T6), and the Archive's date on it (A19). Kai's P8 rewrite (the price) fell to Book 11 | promising |
+| Sun 1 Nov | 5 | Amara | Mountain guides' turnaround times (far) | agreed-value car cover | 3 finds (verified in the 37) | Hall named the turn-back hour before the climb, "however close the top" (A1): the Lab tested a late or skipped 2031 lock (L-15) and swapped the order, so the promised half moves before she names the range. That swap is inside V50 (bank #109) | mined |
 
 (Keel is a simulated team, AI-written.)

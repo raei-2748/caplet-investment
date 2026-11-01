@@ -38,3 +38,4 @@ log, push, refresh the dashboard, one line in the thread. This page only adds th
 | Sun 25 Oct 2026 | Runbook created from the scheduled-task prompt of 24 Oct | Prompts become 4-line pointers; Keel can now edit how it works |
 | Mon 26 Oct 2026 | Shared steps moved to `README.md`; job and rules brought in line with `../../INSTRUCTIONS.md` (Claude, at Ray's request) | Ray, 26 Oct: Keel was not applying his 24-26 Oct instructions |
 | Tue 27 Oct 2026 | "Beat in the loop" added: this room's beat in the daily research round (`../../loop/README.md`) (Claude, at Ray's request; not a Keel self-change) | Ray, 27 Oct: scheduled tasks "should not be repetitive"; every round must differ and scout widely |
+| Sun 1 Nov 2026 | No change to this runbook; this run made two Keel self-changes elsewhere (vote gate; dial 0 : 3) | `../SELF_CHANGES.md` |

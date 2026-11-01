@@ -1,0 +1,15 @@
+**Amara** (round 1)
+
+**Best idea, and the lines nobody touches.** Line 5: "We do not invest toward these payments. We buy them." and "not a probability, but a purchase." The case asks us to "define" a high degree of certainty (case l.98); that's our definition, in a sentence Laura could repeat. Hands off these too: "labelled do not crush. Break it open and you ruin how it works" (l.3), "money she will own outright even if every share in the world fell to zero" (l.9), "a number said aloud to co-sponsors cannot be quietly halved" (l.13).
+
+**Three ideas a judge retells.** One: certainty is a purchase, not a probability. Two: a capital-protected note made at home, floor owned, only the interest in one world fund. Three: her 2028 income is a stock in disguise, so it never carries a cheque. Honest score: two and three beat the default; one is the ladder with a better sentence on top.
+
+**Book 11.** Opener, "our model", team history, subheadings: pass. XR set up at l.3, called back at l.17-19: pass on structure, shaky on meaning. Every sentence plain: not yet. A stranger stumbles on "funds that mature like bonds" (l.5), "cannot expire worthless" (l.9, you need to know the bank's note hides an option) and "liquid any day, whether the building costs more in Taiwan dollars or she simply needs flexibility" (l.11). Sounds human: mostly, but three X-not-Y hinges. GPTZero is "not yet checked", so I won't grade my own ear.
+
+**Charge 4.** I tested the pharmacy hint. Crushing an XR tablet dumps the whole dose at once. For Laura that's cashing a Treasury in before its January: a promised $50,000 becomes whatever the market pays that morning, and the interest is thrown away. The interest is the point: ten cheques add up to $500,000, about $300,000 buys them, time pays the rest (ledger B7). The case's "committing all remaining assets" (l.102-103) is a second dump, but V50 already guards it by keeping half her stocks home (l.11). A capsule is the ladder, so the ladder is what the last line must mean.
+
+Does V50 say so? No. It never says "sold" or $500,000; D2's "Until 2033 nothing is sold early – do not crush" is gone and B7 was cut. Worse, line 3 makes "break it open" the ruin and line 17 makes "opened" the happy ending: same verb, opposite meaning. Blind panels tripped on this ending before (V46, V43, WR31). Missing, in one sentence: crushing is cashing a Treasury in before its January, whether Laura is scared in a crash or generous to the building, and it swaps a promised $50,000 for that day's price and loses the interest that turns $300,000 into $500,000.
+
+**Attacks I expect.** (1) Kai: "it's a ladder, stocks and a lock." I concede the skeleton, defend ideas two and three. (2) "The last line lands on nothing." Concede, fully. (3) Felix: "sentences don't parse." Concede the three above; each is a clause, not an idea.
+
+**If I get one repair, it goes to** the closing paragraph (l.17-19). Its job: say in plain words what crushing is and what it costs, so the last line pays off line 3 and "opened" stops fighting "break it open". It lifts Creativity and Presentation ("a compelling, well-organized narrative").

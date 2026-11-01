@@ -1,0 +1,123 @@
+{
+ "stamp": "curve 22 Oct 2026 | J.P. Morgan 2027 global equities 7.5% | 200,000 paths, seed 20261016 | V47's design via the Lab's L-15 chain, unchanged | three outputs added | MODEL",
+ "S0 base, rates and stocks independent": {
+  "same day (V47)": {
+   "p_top_reached": 0.979,
+   "p_below_quoted_bottom": 0.0,
+   "p_cheque_short_any": 0.001815,
+   "p_cheque_short_over_100": 0.001515,
+   "p_cheque_short_over_1k": 0.0003,
+   "short_p50_when_short": 358.71644560294226,
+   "gift_mean": 159957
+  },
+  "skipped everywhere (no lock)": {
+   "p_top_reached": 0.8786,
+   "p_below_quoted_bottom": 0.0,
+   "p_cheque_short_any": 0.001815,
+   "p_cheque_short_over_100": 0.001515,
+   "p_cheque_short_over_1k": 0.0003,
+   "short_p50_when_short": 358.71644560294226,
+   "gift_mean": 159681
+  }
+ },
+ "S1 base, recession-linked (rho 0.5)": {
+  "same day (V47)": {
+   "p_top_reached": 0.976,
+   "p_below_quoted_bottom": 0.0,
+   "p_cheque_short_any": 0.00186,
+   "p_cheque_short_over_100": 0.00155,
+   "p_cheque_short_over_1k": 0.0003,
+   "short_p50_when_short": 362.3353099334636,
+   "gift_mean": 159624
+  },
+  "skipped everywhere (no lock)": {
+   "p_top_reached": 0.8687,
+   "p_below_quoted_bottom": 0.0,
+   "p_cheque_short_any": 0.00186,
+   "p_cheque_short_over_100": 0.00155,
+   "p_cheque_short_over_1k": 0.0003,
+   "short_p50_when_short": 362.3353099334636,
+   "gift_mean": 159322
+  }
+ },
+ "S2 2028 deposit halved ($75k)": {
+  "same day (V47)": {
+   "p_top_reached": 0.9667,
+   "p_below_quoted_bottom": 0.0,
+   "p_cheque_short_any": 0.002625,
+   "p_cheque_short_over_100": 0.0022,
+   "p_cheque_short_over_1k": 0.0005,
+   "short_p50_when_short": 408.4921954862657,
+   "gift_mean": 71946
+  },
+  "skipped everywhere (no lock)": {
+   "p_top_reached": 0.9168,
+   "p_below_quoted_bottom": 0.0,
+   "p_cheque_short_any": 0.002625,
+   "p_cheque_short_over_100": 0.0022,
+   "p_cheque_short_over_1k": 0.0005,
+   "short_p50_when_short": 408.4921954862657,
+   "gift_mean": 71856
+  }
+ },
+ "S4 yields 1pt lower before the Jan 2027 build": {
+  "same day (V47)": {
+   "p_top_reached": 0.9673,
+   "p_below_quoted_bottom": 0.0,
+   "p_cheque_short_any": 0.000525,
+   "p_cheque_short_over_100": 0.000405,
+   "p_cheque_short_over_1k": 0.0001,
+   "short_p50_when_short": 313.09210242454355,
+   "gift_mean": 125711
+  },
+  "skipped everywhere (no lock)": {
+   "p_top_reached": 0.8995,
+   "p_below_quoted_bottom": 0.0,
+   "p_cheque_short_any": 0.000525,
+   "p_cheque_short_over_100": 0.000405,
+   "p_cheque_short_over_1k": 0.0001,
+   "short_p50_when_short": 313.09210242454355,
+   "gift_mean": 125549
+  }
+ },
+ "S6 yields fall 2pt just after the build, for good": {
+  "same day (V47)": {
+   "p_top_reached": 0.9602,
+   "p_below_quoted_bottom": 0.0,
+   "p_cheque_short_any": 0.00322,
+   "p_cheque_short_over_100": 0.00271,
+   "p_cheque_short_over_1k": 0.0005,
+   "short_p50_when_short": 364.36702633366804,
+   "gift_mean": 141771
+  },
+  "skipped everywhere (no lock)": {
+   "p_top_reached": 0.9097,
+   "p_below_quoted_bottom": 0.0,
+   "p_cheque_short_any": 0.00322,
+   "p_cheque_short_over_100": 0.00271,
+   "p_cheque_short_over_1k": 0.0005,
+   "short_p50_when_short": 364.36702633366804,
+   "gift_mean": 141631
+  }
+ },
+ "S9 yields 1pt lower before the build + 2028 deposit halved": {
+  "same day (V47)": {
+   "p_top_reached": 0.9589,
+   "p_below_quoted_bottom": 0.0001,
+   "p_cheque_short_any": 0.01511,
+   "p_cheque_short_over_100": 0.014785,
+   "p_cheque_short_over_1k": 0.0127,
+   "short_p50_when_short": 5032.314334586403,
+   "gift_mean": 37464
+  },
+  "skipped everywhere (no lock)": {
+   "p_top_reached": 0.9446,
+   "p_below_quoted_bottom": 0.0001,
+   "p_cheque_short_any": 0.01503,
+   "p_cheque_short_over_100": 0.01464,
+   "p_cheque_short_over_1k": 0.0126,
+   "short_p50_when_short": 5003.114381744644,
+   "gift_mean": 37432
+  }
+ }
+}

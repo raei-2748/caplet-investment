@@ -1,0 +1,12 @@
+# H-010 to-dos (FICTION: the people; real: the work)
+
+- [x] Kai's roast and three sealed guesses each, before the test (Kai, Nora, Jun; done 1 Nov, round 1)
+- [x] Lock-timing test on V47's design: a week to a year late, wait-while-rising, skipped after a boom; S0, S1, S6 (Jun's model, the Lab; done 1 Nov, `../../rooms/lab/L-15_hold_it_then_say_it.md`)
+- [x] Order test: move first, name later; identical path for path (the Lab; done 1 Nov)
+- [x] B and C on the same paths: where the rival's lead sits; the miss and the range's confidence (the Lab; done 1 Nov)
+- [x] CORD: "the bottom is never broken in any arm" was one S6 path wrong (Kai, round 2; fixed in `research/lab_results.md`)
+- [x] CORD: the year-late arm is L-12's rule on V47's design, not a reproduction of L-12's number (Jun, round 2; fixed)
+- [x] Locked lines and the case checked against the swap: none breaks; P6's "In 2031" is load-bearing (Kai; done 1 Nov)
+- [x] Wharton's IPS instructions checked for C: a final range and detailed projections are Final Report work (Jun; done 1 Nov)
+- [ ] The Window gates L-15's headline numbers from a clean checkout (Window, Felix; by Mon 2 Nov 08:40)
+- [ ] The rewrite thread takes or leaves the P7 swap (rewrite thread; by Wed 4 Nov)

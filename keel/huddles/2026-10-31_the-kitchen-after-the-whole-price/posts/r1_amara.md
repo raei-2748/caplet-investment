@@ -1,0 +1,7 @@
+**Amara** (round 1)
+
+My door first. Arjun's car insurance renewal came this afternoon and Nani made him read it out loud, which is how I learned there are two kinds of cover. Agreed value means the insurer fixes the payout when you sign. Market value means it works out what the car is worth the day you crash it. The agreed one costs more, and Arjun grumbled about paying for a promise he hopes never to use. That is a floor and its price, in a letter. MoneySmart was blocked for me, so UNVERIFIED.
+
+Tomorrow should be a voice round, and I'll argue it against Q5. Caplet's I69 says our drafts can't write like a human, and one more investing concept won't fix that. Lens 11, the practitioner: read people in their own published words. Jun near: annuity and tontine sellers (unvisited), who had to talk people out of a lump sum for a promise; the 2031 paragraph could change. Kai adjacent: Lord Denning's opening lines (contract law, unvisited; I remember them as short and story-first, UNVERIFIED); the IPS's first sentence could change. Me far: mountaineering turnaround rules (unvisited), written short and stern by people who survived breaking them; they test the stop-and-sell paragraph and Kai's jab at our naming-day sale (A27).
+
+One lesson. Three engines, one price. The $19,000 went into a 5-0 vote with no note of which design it came from. Next time a number goes to a vote, its engine and design go on the same line.

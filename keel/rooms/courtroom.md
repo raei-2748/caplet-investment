@@ -1,16 +1,16 @@
 # FICTION (the room and the simulated parties) + real arguments. The Courtroom
 
 ## Now
-- **Doing:** Tried LR-08's paragraph (the strongest rival, A09, answered by name) against V45: C-04
-- **Decided:** AMENDED 5-0. The price is a mean, about $19,000 by 2042, not "$9,000"; the rival "sells stocks in January 2031, whatever they fetch that morning"; LR3 (497) beat V45 4-2 in its first form with six blind judges and passed the voice gate; to the rewrite inbox
-- **Next:** P04 scorecard on the next full draft; whether "ten one-year bills" earns a place once the rival owns the ladder
-- **For the judges:** the IPS answers the plan a growth-minded judge would have written, with an honest price and the bad tail in dollars
-- **Updated:** 2026-10-31 19:40 Sydney
+- **Doing:** Put V50 (the rebuild after Ahaan's Book 11) on trial: C-05, huddle H-013
+- **Decided:** AMENDED. Repair PROMOTED 4-0: the ending finally says what crushing is ("Crushing one means selling it before its January, even for the building."), and "opened" became "redeemed". Both blind readers picked it, narrowly. Six truth fixes went to the rewrite inbox, paid by three repeated lines
+- **Next:** the Window gates the fixes (Mon 08:40); the Writing Room drafts one plain diversification sentence; P04 on the next full draft
+- **For the judges:** the capsule's warning at the start and its payoff at the end now mean one thing a reader can say back; two lines both blind readers couldn't follow are rewritten in plain words
+- **Updated:** 2026-11-01 19:30 Sydney
 
 
-> **State (Sat 31 Oct 19:40 AEDT).** Last trial: C-04 the whole price (AMENDED; LR3 to the inbox). Files `courtroom/C-04_*`
-> (price script + results, LR2, LRa, LR3, two voice reads), panel `../ips_rewrite/judges/panel_C04/`, huddle H-006.
-> Next: P04 scorecard on the next full draft.
+> **State (Sun 1 Nov 19:30 AEDT).** Last trial: C-05 V50 on trial (AMENDED; repair + T1-T7 to the inbox). Files
+> `courtroom/C-05_*` (case, blind-sheet builder), huddle H-013 (blind sheet, vote note, the bench's Commandments check on
+> V50R). Next: P04 on the next full draft; whether D6 (gap set aside before naming) returns once T6 is said plainly.
 
 > Room card: `../OFFICE.md`. Kai prosecutes (`devils-advocate`); Nora presides and runs the mock judges
 > (`mock-judge`, workflow `office-judge-panel`). Pre-mortems: `../pm/PREMORTEMS.md`.
@@ -45,4 +45,5 @@
 | Tue 27 Oct (evening) | LR-04: no fixed margin under the 2031 bottom; in 2031 take off only the coupon gap already visible (clearing house: variation, not initial margin) | Kai: a bottom that can be cut isn't the TNA's "promised minimum"; the clearing house is costume; LR-03's donors were households (C-02, MODEL) | AMENDED | Rule stands (0 of 200,000 breaks; letting the gap use the $3,700 gives 35); the IPS states the bottom as a rule, never $145k (below it in 43.5% of paths before any mark); "seven times in ten"; no co-sponsor % in Caplet text (`../office/outbox/2026-10-27_courtroom_mark-to-market-on-trial.md`) |
 | Thu 29 Oct (evening) | Challenger C, four doors (Writing Room B, 498) against C13 (V29 para 10) | Kai: B's order line ranks the gift before her half, but para 17 and the model (LR8 line 29) make her half pay the coupon gap first; B drops the range's why; Spinnaker: dates ignore the market | AMENDED | Jun's repair B2 ("the change lands on what isn't yet promised, never a cheque", 495) beats V29 2-0 cold; Keel 5-1; valve and override fall (FR); B3 candidate restores the range's why (`courtroom/C-03_four_doors_on_trial.md`) |
 | Sat 31 Oct (evening) | LR-08's paragraph (A09 answered by name; "about $9,000 of her own money in a typical 2033") against V45's "Sell low, by appointment" | Tess: the price is the smallest cell (mean ~$19k by 2042, C-04), the payoff only odds, "promise" twice; Kai/Spinnaker: XR leaves her behind in 62-68% of paths | AMENDED | LR3 (497): the price as a 2042 mean, the rival's January-2031 sale, "$90,000 against our $140,000 after the 2031 set-aside"; panel C04 LR2 1.83 v V45 3.33, voice gate LR3 > LR2; to the inbox (`courtroom/C-04_the_whole_price.md`) |
+| Sun 1 Nov (evening) | V50 (D30), the rebuild after Book 11, as the draft Caplet reads Thursday | Kai: "Do not crush" pays off nothing (no "sell" on the page; "opened" is the happy ending, "Break it open" the ruin); Felix: shares "cannot expire worthless" after "every share ... fell to zero", the gap's order, "Never the floor", the leak misnamed, "Nobody else can help" | AMENDED | Amara's repair "Crushing one means selling it before its January, even for the building." ("redeemed" for "opened") beat V50 blind with both readers (36 v 35; 29 v 28), PROMOTE 4-0; T1-T7 truth fixes paid by three repeats (496 count copy); to the inbox (`courtroom/C-05_v50_on_trial.md`) |
 Mock judges sat once on 24 Oct, evening, on the Lab's candidates only (Keel's test, not a scoring of Caplet's draft: 25.2 -> 26.4/40). For Caplet's own draft, Caplet's scorers still mark first (`../office/CHARTER.md` section 6; board T14 Sun 1 Nov, T08 Mon 2 Nov).

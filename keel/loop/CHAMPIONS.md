@@ -39,6 +39,7 @@
 | Thu 29 Oct | 2 | C13 | V29 para 10 ("cheques first; floor and stocks are bought smaller together") vs B2 (the Courtroom's repair of the Writing Room's B: "Every rule here fires in a year the case already set, never on a hunch; if needs change, the change lands on what isn't yet promised, never a cheque") | Felix's 2 blind readers (case + Books 7-8 only, shuffled); before them, the Writing Room's 3 blind readers (B 3-0 over V29 + hard fixes) | **B2, 2-0** (35 v 33, 35 v 34): both found a framework in B2 at once and none in V29. B's ranking line lost first, to its own para 17 (her half pays the coupon gap before the bottom moves). Price: the range's why (CK -1 from both readers); B3 tries to buy it back, Fri 30. Archive: no clash with the submitted TNA (A22 closed, A24) | Yes: C13 holder named; C10 holder sharpened (LR-06's reserve line is in B2) |
 | Fri 30 Oct | 3 | C5 | B3S ("In 2031 she names a range: too low costs co-sponsors' gifts; too high, her word") vs B3W ("each end as sure as its miss is costly ... missing it breaks her word ... missing it only trims co-sponsors' plans") | Felix's 2 fresh blind readers (actuary, fundraiser; case + Books 7-8, shuffled); before them the Writing Room's 3 (B3O over B3S, 3-0) | **B3W, 2-0** (34 v 33, 35 v 33): the only text that says why each end sits where it does. Price: the signal (why the top is above what she owns), named unprompted by the fundraiser; 4 of 5 readers today still ask why a range once locked (F10, Q11, round 4) | Yes: C5 holder = V30 para 8; Keel's Sat 31 review draft = V30 (5-1) |
 | Sat 31 Oct | 4 | C7 | V45 paras 5-6 (the 60/40, "ten one-year bills") vs LR3 (LR-08's A09 paragraph after the Courtroom's trial: the price as a $19,000 mean by 2042, the rival's January-2031 sale, $90,000 v $140,000) | Panel C04 (six blind judges, tau 0.50) on LR2, the repair before round 3; then a blind voice reader on LR3 v LR2 v V45 | **LR2/LR3, 4-2 over V45** (mean rank 1.83 v 3.33): it concedes the rival usually wins, prices that, shows the tail; four judges called the 60/40 a straw man. Voice: V45 still first, LR3 above LR2. Offered to the rewrite, not yet in a draft | Holder unchanged until the rewrite thread takes it (inbox) |
+| Sun 1 Nov | 5 | C9 (kicker) + C2 | V50 (D30) closing paragraph ("every one bought before the first is opened." / "Do not crush.") vs V50R (Courtroom repair: "every one bought before the first is redeemed. Crushing one means selling it before its January, even for the building." / "Do not crush."; time-diversification clause cut to pay) | Tess (Sonnet 5.5) + an outside reader (Haiku 5.5, a planner), blind, seeded order | **V50R**, narrowly with both (36 v 35; 29 v 28): both said its rule back, while on V50 Tess "couldn't tell" what "Do not crush" forbids. A nudge, not proof. Both also stumbled on two lines in both versions (T3, T6) | C9 holder candidate: V50R's ending, offered to the thread (it decides); `../rooms/courtroom/C-05_v50_on_trial.md` |
 
 **Archive note, Fri 30 Oct (Book 10).** From tonight the rewrite thread drafts and the board feeds it (runbooks README,
 Book 10 mode). V33 (`../ips_rewrite/drafts/D13/`) carries C5's per-end idea in its own words ("low enough to keep her
@@ -48,5 +49,18 @@ C10 ("the reserve runs itself down"); C13 in a shorter form ("If anything change
 floor, then the hope"). C3's new holder candidate is V33 para 6, certainty as a breaking point, but its number is
 wrong for V33's design (F11, Archive A25): fix before any head-to-head. V36 (`../ips_rewrite/drafts/D16/`, 20:30) keeps
 all of this with clarity fixes; the number is still $85,000.
+
+**Archive note, Sun 1 Nov (Book 11).** Ahaan's Book 11 (16:26) took model numbers and team history out of the IPS,
+and the rewrite thread rebuilt it as V50 (`../ips_rewrite/drafts/D30/`). Read against the board: V50 carries C1 (the
+note, "we prefer shares, which cannot expire worthless"), C2 (X ten, R redemption), C4 (career income and the downturn),
+C5's two ends without their numbers (the top's move now *before* naming: Lab L-15, bank #109), C7 without the rival's
+price (the time line, which V50R sends to the FR), C8's opening almost word for word, and C13 ("the cheques, then the
+floor, then the gift"). It drops **C6's holder**: the gap set aside on naming day, from spare cash and Laura's half.
+V50's para 8 gives the gap no date, which breaks TNA reflection 3 (Archive A19, BREACH; F2 reopened). Cure in words, no
+number: "Before she names the range, that gap is set aside from the stocks Laura keeps; whatever they can't cover comes
+off the bottom." It is C6 said plainly, and bank #115 has the same line. C3's F1 ("ten Treasuries") is back in the
+pitch and para 2. C9 has the Courtroom's repair ("Crushing one means selling it before its January, even for the
+building"), which agrees with reflection 1's "untouched". The board's number-bearing holders (C5's 97 in 100, C7's
+price) now hold only for the Final Report.
 
 (Keel is a simulated team, AI-written.)

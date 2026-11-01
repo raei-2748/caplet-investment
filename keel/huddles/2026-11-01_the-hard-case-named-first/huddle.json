@@ -1,0 +1,79 @@
+{
+  "id": "H-009",
+  "slug": "the-hard-case-named-first",
+  "title": "The hard case, named first",
+  "question": "Who asks a sceptic to pay for a promise, in under a hundred words, and gets believed? (Q13, the voice round)",
+  "room": "Library",
+  "chair": "Felix",
+  "opened": "2026-11-01",
+  "status": "closed",
+  "closed": "2026-11-01",
+  "members": [
+    "Jun",
+    "Kai",
+    "Amara",
+    "Felix"
+  ],
+  "serves": "North star 1 (a distinctive, human voice) and 4 (investing knowledge, applied); Commandments III-V; Investment Strategy and Portfolio Analysis (a rule that holds across market outcomes), Creativity & Presentation",
+  "rounds": [
+    {
+      "n": 1,
+      "name": "Go out",
+      "date": "2026-11-01",
+      "posts": [
+        "posts/r1_jun.md",
+        "posts/r1_kai.md",
+        "posts/r1_amara.md"
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Reply by name",
+      "date": "2026-11-01",
+      "posts": [
+        "posts/r2_jun.md",
+        "posts/r2_kai.md",
+        "posts/r2_amara.md"
+      ]
+    },
+    {
+      "n": 3,
+      "name": "Check and land it",
+      "date": "2026-11-01",
+      "posts": [
+        "posts/r3_felix.md"
+      ]
+    }
+  ],
+  "essence": [
+    "We read people who sell promises to doubters, in their own words: annuity sellers, auction houses and mountain guides, and every one of the 37 lines we re-checked was real.",
+    "What they share is naming the bad case before the buyer can and saying exactly where it sits; the one clause worth taking into the IPS is that the gift's promised half moves into Treasuries on naming day 'even in a week when stocks are rising'.",
+    "Felix found the bigger point: the mountain story argues for buying the floor early, and shows the 2031 lock is still a step someone has to take on the day, so the Lab now tests what a late or skipped lock costs."
+  ],
+  "decided": [
+    "KEEP narrowly (Felix, after checking): slip S-10's IPS move is one clause, 'even in a week when stocks are rising'; no mountain, Hall or Loewenstein in the IPS or pitch",
+    "The turnaround argues for the 2028 floor more than the 2031 lock (Amara conceded, Felix agreed): the lock is an instruction doing an asset's work, the plan's softest place",
+    "CORD (Felix): V47 holds all three paragraphs (P6 Jun's, P7 Amara's, P8 Kai's), so there is no live-version question; Kai's four numbers are V47's own, sourced to Archive A26, which Felix re-opened and which matches",
+    "None of the three rewrites fixes the Window's two near-breaches (Kai's prints NB2 instead); the fixes stay the Window's: S1's $85,000 v $135,000 costs no words, and the NB1 bridge is +14 strict, not +11",
+    "Hall goes to the Final Report only as the failure case, in a sentence that ends with his rule failing; Mountain Trip's published pace test parked for the Final Report",
+    "Dropped: mortality credits (no pool, no life condition in Laura's cheques); Phillips' disclaiming voice; the 'deposit = acceptance' row (it maps backwards); the hot-cold empathy gap as used (named, not applied; the Ulysses contract, bank #81, already holds the idea)"
+  ],
+  "seeds": [
+    "Lock-timing test: the lock a month or a quarter late, and skipped where stocks rose most before naming; top reached in S0, S1, S6 (Genius Lab)",
+    "Order test: if the promised half moves before she names the range, does any V47 number change? If not, the lock is a precondition and Kai's 'who holds the watch?' is answered by design (Genius Lab)",
+    "A condition report on our own plan for the Final Report's risk section: each flaw with its address (which year, which paths), then one 'However' (Writing Room, after 7 Nov)"
+  ],
+  "changes": [
+    "keel/loop/rounds/2026-11-01.md",
+    "keel/rooms/library.md",
+    "keel/rooms/library/2026-11-01_scouts/",
+    "keel/ips_rewrite/inbox/2026-11-01_library.md",
+    "keel/ips_rewrite/IDEA_BANK.md",
+    "keel/pm/REQUESTS.md",
+    "keel/office/outbox/2026-11-01_library_the-hard-case-named-first.md"
+  ],
+  "todos": {
+    "done": 3,
+    "total": 7
+  }
+}

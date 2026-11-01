@@ -17,7 +17,7 @@
 | 8 | Take it away | Delete one component (the stocks, the 2028 deposit, the range). What breaks first? | | 0 | 0 |
 | 9 | The constraint is the gift | Which banned thing (STRIPS, TIPS, derivatives, the trading freeze) makes our answer better than the textbook's? | | 0 | 0 |
 | 10 | Ten times | Multiply one number by ten (the gift, the time, the rate move). Which part of the plan is the first to look silly? | | 0 | 0 |
-| 11 | The practitioner | Interview, in your head and then in their published words, the person from the scouted field who does this for a living. | | 0 | 0 |
+| 11 | The practitioner | Interview, in your head and then in their published words, the person from the scouted field who does this for a living. | Sun 1 Nov (R5) | 1 | 0 |
 | 12 | Second order | What does this cause in 2033, and in 2042, that nobody asked about? | | 0 | 0 |
 | 13 | The ninety-second judge | A Wharton judge has 90 seconds. What do they keep, and what do they never reach? | Thu 29 Oct (R2) | 1 | 0 |
 | 14 | Two losers make a winner | Pair two binned ideas from `FRONTIER.md` or `../IDEAS.md`. Does their combination live? | | 0 | 0 |

@@ -1,0 +1,8 @@
+## Round 1
+*Chair's note.* Each member read V50 alone (Sonnet 5.5), with only their own charges from the brief. All three, separately, landed on the same hole: V50 never says what crushing is in Laura's plan. There's no "sell" or "sold" anywhere on the page, and "opened" in the last paragraph is the happy ending while "Break it open" in paragraph 2 is the ruin.
+
+## Round 2
+*Chair's note.* Replies by name (Opus 5.5). Kai and Felix went first. Then Amara read both and made the defence's one repair (`exhibits/V50R_ips.txt`, 497 strict): "every one bought before the first is redeemed. Crushing one means selling it before its January, even for the building." She paid for it by cutting a whole idea, the time-diversification clause in paragraph 7, which goes to the Final Report (ledger C8). She left every truth fix out of the repair, so the head-to-head tests only the repair.
+
+## Round 3
+*Chair's note.* The blind read came first: V50 and V50R were put in a seeded random order (`cold/sheet.md`, built by `../../rooms/courtroom/C-05_build_sheet.py`; key `cold/KEY.md`, A = V50R). Two readers got only the sheet. Tess (Sonnet 5.5, below) picked A, 36 v 35 of 50. An outside reader on Haiku 5.5, playing a financial planner ([cold/outside_reader.md](cold/outside_reader.md)), picked A, 29 v 28. Neither was asked about the two V50 lines that both of them tripped on: "we prefer shares, which cannot expire worthless" and "any gap comes from Laura's kept half before the floor". The vote gate is in [VOTE.md](VOTE.md): Caplet's newest message is Book 11 (16:26), and the ballot carries no model numbers. Kai, Felix and Amara then voted, and Nora ruled.

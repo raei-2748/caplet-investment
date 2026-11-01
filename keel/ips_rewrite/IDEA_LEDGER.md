@@ -8,6 +8,14 @@ The research bank (`IDEA_BANK.md`, #1-82 and FRB rows) keeps the evidence and nu
 Fate: **IN** (in V31's text) · **FR** (Final Report, with the reason it isn't in 500 words) · **OUT** (dropped, why).
 
 
+## Sun 1 Nov: V48 (D28) = V47's ideas, every one, in new sentences
+V48 rebuilds V47 sentence by sentence on the shapes of great human sentences (Caplet's 1 Nov ask, INSTRUCTIONS I71;
+`drafts/D28/SOURCE_LOG.md`). The idea-by-idea map is in `drafts/D28/README.md`: nothing whole cut, no number changed.
+Banked for the Final Report from the reading (each critiqued there): Taleb's river four feet deep on average (the
+rival's average hides its worst years), Feynman's "reality must take precedence over public relations" (co-sponsor
+credibility), Galbraith on finance reinventing the wheel (the capital-protected note's history), Housel's "scared
+enough to save for the short run and brave enough to invest for the long run" (the floor and the stocks).
+
 ## Live draft: V39 (D19), Fri 30 Oct night
 *Sat 31 Oct, V40 (D20): V39's ideas unchanged, two clarity fixes. Mid-day candidate V41 adds one new idea, the price of safety in dollars (M7: a 60/40 "usually leaves her almost $200,000 richer by 2042"), and pays with "The rare miss is about $1,000" (to the Final Report).*
 
