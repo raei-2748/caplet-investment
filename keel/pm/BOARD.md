@@ -5,9 +5,12 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sun 1 Nov 2026
 
 **This week's top 3 (Mon 2 - Sat 7 Nov; set by the weekly plan, Sun 1 Nov 17:00):**
 1. **Final AI draft to Caplet by the end of Wed 4 Nov [K01]** (rewrite thread; the Writing Room and the Window feed
-   it). Start from V47 (`../ips_rewrite/drafts/D27/`) and do a voice pass that drops no idea, with three fixes: one
-   clause bridging the $150,000 floor to the $145,000 bottom, the return assumption stated (7.5%, as the locked VT
-   reflection says), and one clause on why the WInS book holds VT. Nothing new is promoted after Tue 3 Nov.
+   it). Rebased 17:30 on **V50** (`../ips_rewrite/drafts/D30/`, branch `claude/project-thread-3ahu9r`) and **Book 11**
+   (Ahaan, 1 Nov 16:26: strategy only, no "our model" or model numbers, no past plans, no subheadings, XR full circle
+   with "do not crush" set up and paid off, every sentence plain on one reading). Two fixes, from strategy logic only:
+   the five fund rungs (IBTM-IBTR) pay their value at maturity, not a promised sum (our locked IBTM reflection says
+   so), so "pays exactly what it promises" and "grow back to the deposit" belong to the Treasuries; and one clause on
+   why the WInS book holds VT. Nothing new is promoted after Tue 3 Nov.
 2. **GPTZero on the final candidate, Wed 4 Nov by 20:00 [K02]** (a student, one minute on the free page; Keel can't
    reach it). Under 50% "human-written only" means Keel rewrites that night, not on Thursday.
 3. **Ray's danger-zone items:** D6, hold the WInS book (any order by Thu 5 Nov 08:00) [T16]; submit by Sat 7 Nov
@@ -20,7 +23,7 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sun 1 Nov 2026
 ## Ready (ranked)
 | ID | Task | Owner | Due | P | Done when | Notes |
 |---|---|---|---|---|---|---|
-| K01 | Final AI draft for Caplet: voice pass on V47 keeping every idea + floor bridge + return assumption + WInS clause | Rewrite thread (Tess, Amara feed; Felix checks) | Wed 4 Nov | 9 | Final folder with a filled Ten Commandments check by a reader who didn't write it, and a blind panel's disagreement report | Weekly plan 1 Nov; R3, R8, R15; premortem v3 causes 15-18 |
+| K01 | Final AI draft for Caplet: V50 under Book 11; fund-rung wording; WInS clause | Rewrite thread (Tess, Amara feed; Felix checks) | Wed 4 Nov | 9 | Final folder with a filled Ten Commandments + Book 11 check by a reader who didn't write it, and a blind panel's disagreement report | Weekly plan 1 Nov, rebased 17:30 on V50; R3, R8, R15; premortem v3 causes 15-17 |
 | N02 | Edition stamp on every model output (curve date, J.P. Morgan edition, paths, basis) | Jun (Genius Lab) | Wed 28 Oct | 6 | Every new lab file opens with the stamp; R05 re-run at 7.5% | Request filed 27 Oct; the 26 Oct EAFE mix-up |
 | N03 | Final Report bank: one Articulation clause saying the case's "portfolio manager = your teacher/advisor" is the case's role-play; in real life students decided and Ray traded | Tess (Archive, P05) | Sat 7 Nov | 4 | Clause in `../library/final_report_bank.md` with the FAQ :32 source | Window flag 26 Oct |
 | T22 | Re-run the T05 rule checklist on the students' IPS draft | Felix (rules-verifier) | Sat 31 Oct | 6 | All 12 rows OK or flagged on the new draft | Waits for T13 draft; checklist SD-T05 |

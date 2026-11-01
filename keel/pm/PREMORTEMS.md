@@ -45,26 +45,27 @@ reflection says, or none; (A2) inflation belongs to facility and overrun costs, 
 sit untouched is a good year"); (A10) the spine, "commit only money she already owns". Pitch, IPS and Final Report
 tell one story: the promise bought first, growth only from what is left, a 2031 range no higher than what she owns.
 
-### IPS v3 update (Sun 1 Nov weekly plan, on V47; Kai attacks, Nora writes it down)
+### IPS v3 update (Sun 1 Nov weekly plan, rebased 17:30 on V50 after Book 11; Kai attacks, Nora writes it down)
 "It is 8 Nov. Caplet submitted, and we already know it won't make the 50. Why?" Causes 1-14 above were written for a
-student-drafted IPS; Book 9-10 changed the process (Keel drafts, Caplet rewrites), so this list replaces them.
+student-drafted IPS; Books 9-11 changed the process (Keel drafts, Caplet rewrites), so this list replaces them.
 | # | Cause | L | Early warning | Prevention (card / risk) |
 |---|---|---|---|---|
-| 15 | It sounds like a machine: a results table in prose, colons doing the joints, Caplet rejects it Thursday or rewrites it in a panic | H | Voice reader 10 ranked V47 last of four ("model-speak") | Voice pass that drops no idea [K01]; GPTZero Wed [K02]; R3 |
-| 16 | A judge holds the IPS beside the frozen WInS book and sees VT bought with money the IPS says buys only Treasuries | M | No WInS clause in the final | One clause [K01]; R8 |
-| 17 | Two floors on one page ($150,000 then $145,000) and no stated return: the judge stops trusting the numbers (PA: "reasonable assumptions") | M | Window 1 Nov near-breach; V46 Bible check W11 | Bridge clause and 7.5% stated [K01]; R15 |
-| 18 | The rival paragraph wins the argument it was meant to lose: "it usually wins ... about $15,000 more" is a mean, the typical lead is about $10,000, and the worst-twentieth slice is the S0 world | M | "on average" dropped in a voice edit | Keep "on average" and the slice named; Window re-reads the paragraph after the voice pass |
-| 19 | The draft that wins Wednesday is a coin-flip between panel and ear, chosen in the last hour | M | A new champion on Wed 4 Nov | Dial 0 : 3; nothing new after Tue 3 Nov; R17 |
+| 15 | It still sounds like a machine, so Caplet rejects it on Thursday as it rejected V29 (Book 10) and V49 (Book 11) | H | Any Book 11 fingerprint: an opening question, "our model", a past plan, a subheading, a sentence that needs a second read | Book 11 check by a reader who didn't write it; GPTZero Wed [K02]; R3 |
+| 16 | A judge holds the IPS beside the frozen WInS book and sees VT bought with money the IPS says buys only Treasuries | M | No WInS clause in the final | One clause, strategy words only [K01]; R8 |
+| 17 | The certainty paragraph promises what the fund rungs can't: "a Treasury held to maturity pays exactly what it promises" sits beside "funds that mature like bonds", and the floor is "sized to grow back to the deposit", while IBTM-IBTR pay their value at maturity | M | Those lines survive unchanged | Say it of the Treasuries; call the funds near-certain (BIBLE: "near-ironclad"), as our IBTM reflection does [K01]; R15 |
+| 18 | Book 11 pushed out every number, so a judge looking for "funding reliability under varying outcomes" (PA) finds only words | M | No sentence names what can go wrong and what pays for it | V50 already names the weak point (reinvestment) and the payment order; keep both. The figures go to the Final Report |
+| 19 | The draft that wins Wednesday is chosen in the last hour, after another rejection | M | A new champion on Wed 4 Nov | Dial 0 : 3; nothing new after Tue 3 Nov; R17 |
 | 20 | It breaks a locked TNA line (list below) | L | See the coherence list | Window reads the final against it Wed 4 Nov |
 
-**Coherence of V47 with what is locked** (`ips_rewrite/00_GROUND_TRUTH.md` section 3; checked 1 Nov 17:00):
-consistent on the ladder matched to each payment (note 1, reflection 1), IBTM's two jobs, payment and floor (note 2),
-VT as the only growth and the top moving with stocks (note 3), the reinvestment leak (note 1: "cash paid early earns
-less"), "near-ironclad" read as a list of ways to fail, and the 2028 deposit topping up the ladder first ("or nearly";
-IBTR note). Inflation appears only as a dearer building in Taiwan dollars, never as a threat to a cheque (A2). Two
-watch items: (W1) the WInS book holds VT with the first $300,000 (cause 16); (W2) the VT reflection says "about 7.5% a
-year (as per JPMorgan)" and V47 states no return; stating 7.5% fixes cause 17 and matches the locked line (A1). The
-spine holds: buy the promise first, grow only what is left, name a range no higher than what she owns.
+**Coherence of V50 with what is locked** (`ips_rewrite/00_GROUND_TRUTH.md` section 3; checked 1 Nov 17:30):
+consistent on the ladder matched to each cheque (note 1, reflection 1), IBTM's two jobs (note 2: the 2033 rung and
+the floor), VT as the only growth with the top moving with stocks (note 3), the reinvestment weak point (note 1),
+"high degree of certainty" read as a purchase (reflection 1: "near-ironclad"), and inflation only as a dearer building
+in Taiwan dollars, never as a threat to a cheque (A2). V50 states no stock return, which A1 allows. Watch items: (W1)
+the WInS book holds VT with the first $300,000 (cause 16); (W2) reflection 2 says the iBond payout "is not fixed",
+so V50's "pays exactly" must stay with the Treasuries (cause 17); (W3) the pitch's "releases Laura's money" uses the
+word the BIBLE keeps off the motif ("R never 'release'"; "extended release" itself is fine). The spine holds: buy the
+promise first, grow only what is left, name a range no higher than what she owns.
 
 ## Final Report (seed, 23 Oct; complete by Wed 11 Nov [T10])
 Likely causes to test once the instructions are out (10 Nov): school letter missing or not on letterhead (R6);

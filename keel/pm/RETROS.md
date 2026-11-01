@@ -47,11 +47,11 @@ Keep / Stop / Start / The one change: (team)
 - **Did not:** GPTZero has never scanned a draft (Keel can't reach it; `ips_rewrite/DETECTOR_LOG.md`); the scorecard
   stayed empty all week; lesson LS-06 was broken twice (a vote on a question Caplet had just cancelled, 30 Oct);
   three engines priced one rival (LS-13, 31 Oct); the rewrite README still pointed at V40 on 1 Nov (fixed today).
-- **Cost us:** Book 10 (30 Oct). Caplet read V29 as robotic and over-compressed and the judges as clones. V42 was cut
+- **Cost us:** Book 11 (1 Nov): V49 rejected for an opening rhetorical question, "our model", a past plan, subheadings and XR moved to the end. Book 10 (30 Oct). Caplet read V29 as robotic and over-compressed and the judges as clones. V42 was cut
   from 693 words by squeezing, the exact move Book 2 and Book 9 forbid.
 - **Kai:** "Thirty drafts in a week is not overdrive, it's a coin we keep flipping. The panel loves V47 and the only
   ear we have ranks it last. Stop finding new ideas and make this one sound like a person."
-- **Nora:** "Agreed, with one condition: no idea in V47 gets dropped for voice unless a judge never asked for it.
+- **Nora:** "Agreed, with one condition: no idea in V50 gets dropped for voice unless a judge never asked for it.
   From Monday every scout deepens or verifies the champion; nothing new is promoted after Tuesday."
 - **Changes (Keel on Keel, 2 of 3):** the vote gate (LS-06 + LS-13) in the Courtroom and Long Room runbooks; the dial
   set to 0 : 3 for Mon 2 - Wed 4 Nov. Logged in `SELF_CHANGES.md`.

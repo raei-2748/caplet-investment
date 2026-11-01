@@ -2,10 +2,11 @@
 
 
 ## Weekly plan, Sunday 1 Nov 2026, 17:00 (Sydney)
-**Nora:** Three days until the final draft goes to you. V47 is our best on the judges' read and our worst on the ear,
-so the rest of the week is a voice pass that keeps every idea, plus three fixes: one floor figure, a stated return,
-and a line on why the WInS book holds VT. Nothing new after Tuesday.
-**Kai:** Thirty drafts this week. Enough coins flipped. I'd rather lose a clever clause than send you a results table.
+**Nora:** Three days until the final draft goes to you. (Rebased 17:30 on V50 and Ahaan's Book 11.) We work on V50
+now: strategy only, no model numbers, XR from first line to last. Two fixes, both in words: the funds in the ladder pay
+what they're worth at maturity, not a promised sum, so "pays exactly" is said of the Treasuries only; and one line on
+why the WInS book holds VT. Nothing new after Tuesday.
+**Kai:** Two rejections in three days. I'd rather lose a clever clause than send you one more sentence that needs a second read.
 What Keel changed about itself: a vote now has to quote your newest message and say which model every number came
 from, because we twice voted on a stale question; and the scouts only deepen the champion until Wednesday.
 Students: one of you pastes the final into GPTZero on Wed 4 Nov evening (K02); Ray, D6 hold and submitting are yours.
