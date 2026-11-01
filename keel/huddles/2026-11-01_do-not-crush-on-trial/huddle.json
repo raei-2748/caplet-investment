@@ -1,0 +1,80 @@
+{
+  "id": "H-013",
+  "slug": "do-not-crush-on-trial",
+  "title": "Do not crush, on trial",
+  "question": "Ahaan's Book 11 rejected V49, and the rewrite thread rebuilt it as V50. Does V50 stand as the draft Caplet reads on Thursday, or must it be amended, and what is the one change that matters most?",
+  "room": "Courtroom",
+  "chair": "the run (Nora on the bench)",
+  "opened": "2026-11-01",
+  "status": "closed",
+  "closed": "2026-11-01",
+  "members": [
+    "Kai",
+    "Felix",
+    "Amara",
+    "Tess",
+    "Nora"
+  ],
+  "serves": "North stars 1 and 2 (voice; the one motif, full circle); Creativity & Presentation, Investment Strategy (Commandments I, IV and VIII; Book 11 points 4 and 6)",
+  "rounds": [
+    {
+      "n": 1,
+      "name": "Go away and read (prosecution, flaw hunt, defence)",
+      "date": "2026-11-01",
+      "posts": [
+        "posts/r1_kai.md",
+        "posts/r1_felix.md",
+        "posts/r1_amara.md"
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Reply by name, and the one repair",
+      "date": "2026-11-01",
+      "posts": [
+        "posts/r2_kai.md",
+        "posts/r2_felix.md",
+        "posts/r2_amara.md"
+      ]
+    },
+    {
+      "n": 3,
+      "name": "Blind read, vote and ruling",
+      "date": "2026-11-01",
+      "posts": [
+        "posts/r3_kai.md",
+        "posts/r3_felix.md",
+        "posts/r3_amara.md",
+        "posts/r3_tess.md",
+        "posts/r3_nora.md"
+      ]
+    }
+  ],
+  "essence": [
+    "We put the newest IPS on trial. All three of us found the same hole: it opens with a capsule labelled 'do not crush' and ends on 'Do not crush.', but never says what crushing would mean for Laura.",
+    "The fix says it plainly (selling one of the ten bonds before its January, even to give more to the building). Two blind readers on different models both picked the fixed version, narrowly, and both could say its rule back.",
+    "Both readers also stumbled on the same two sentences (shares that 'cannot expire worthless' right after shares falling to zero, and who pays a gap), so the verdict is AMENDED: one ending, six plain truth fixes and three repeated lines cut, offered to the next draft."
+  ],
+  "decided": [
+    "PROMOTE 4-0 (Kai, Felix, Amara; Tess's blind pick): the ending 'every one bought before the first is redeemed. Crushing one means selling it before its January, even for the building.', paid by cutting the time-diversification clause to the Final Report",
+    "Blind head-to-head (seeded; A = V50R): Tess A 36 v 35, outside reader (Haiku, a planner) A 29 v 28; both retold A's rule; on V50 Tess 'couldn't tell'",
+    "Truth fixes sent: T3 and T6 (both blind readers tripped) and T2 3-0; T1 and T4 2-1, settled send by the bench; T7 sent by the bench; T5 left 3-0 to K01",
+    "Nora: AMENDED. One change: the ending (Creativity & Presentation). Paid by three repeats of the purchase idea; count copy 496 strict",
+    "Bench check on V50R as written: I, III, IV fail (the fixes target them); II, V, VII pass; VI not yet checked; VIII-X open"
+  ],
+  "seeds": [
+    "T6 said plainly shows a gap can reach the floor before it goes to the building: does ledger D6 (set the gap aside before naming) come back, or does 'cannot be quietly halved' soften? (rewrite thread)",
+    "Caplet's likely next line: 'uses appropriate diversification' is in the marking guide. One plain sentence, no number, read blind (Writing Room)"
+  ],
+  "changes": [
+    "../../rooms/courtroom/C-05_v50_on_trial.md",
+    "../../ips_rewrite/inbox/2026-11-01_courtroom.md",
+    "../../ips_rewrite/IDEA_BANK.md",
+    "exhibits/V50R_ips.txt",
+    "exhibits/V50R_COMMANDMENTS_CHECK.md"
+  ],
+  "todos": {
+    "done": 5,
+    "total": 7
+  }
+}
