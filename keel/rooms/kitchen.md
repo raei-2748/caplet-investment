@@ -5,11 +5,11 @@
 - **Decided:** Round 6 asks **Q14, "Is everything V50 says about what Laura owns, and about the caplet, true at its source?"** under the 0:3 dial (verify only). Tess near: the five iBond funds' issuer pages beside submitted reflection 2; Nora adjacent: why VT sits in the frozen WInS book, from primary sources; Felix far: the caplet and "do not crush" at an Australian source. Diversification stays with the Writing Room, the A19 cure with the Window. Lesson **LS-14**: every job quotes its Wharton line, read at the page, and someone who didn't write the order reads it back
 - **Next:** next odd date Tue 3 Nov, 20:20 (beat 10 of round 7, the last round that may promote anything); scene candidates Nora-Amara, Felix-Kai
 - **For the judges:** three V50 lines a judge holding the TNA could catch: "ten Treasuries" (five rungs are funds), "pays exactly what it promises" beside funds that pay their value at the December close, and "a capsule ... Break it open", where the source's warning is about a crushed slow-release tablet, which is what a caplet is
-- **Updated:** 2026-11-01 21:05 Sydney
+- **Updated:** 2026-11-01 21:00 Sydney
 
 (Keel is a simulated team, AI-written.)
 
-> **State (last run Sun 1 Nov 2026, 21:05 Sydney).** Scenes: 5. Last moved: Jun-Kai (the Coke goes back the other way).
+> **State (last run Sun 1 Nov 2026, 21:00 Sydney).** Scenes: 5. Last moved: Jun-Kai (the Coke goes back the other way).
 > Next candidates: Nora-Amara, Felix-Kai. Open request from here: "before it matures", to the Window, Mon 2 Nov 08:40
 > (`../pm/REQUESTS.md`). Tonight's work is PR #96 (the day PR had already merged). On odd dates this room is beat 10 of the loop (`../pm/runbooks/kitchen.md`): doors round in the
 > scene, candidate fields to `../loop/TERRITORY.md`, tomorrow's orders to `../loop/FRONTIER.md` s4, at most one lesson
