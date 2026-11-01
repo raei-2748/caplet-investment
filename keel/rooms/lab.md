@@ -5,7 +5,7 @@
 - **Decided:** A ADOPT 2-0: the promised half moves into Treasuries *before* she names the range (no number moves; a skip after a boom, 85.8 v 98.5 in those paths, can no longer hide); B (where the rival's lead sits) and C (inside the range in 599,999 of 600,000 paths; misses median $865-1,062) PARK for the Final Report; bank #106's "even in a week" BIN for the IPS (a week costs 0.2 points)
 - **Next:** Mon 2 Nov: whatever beat 8 and the rewrite thread leave open; the Window gates L-15's headline; seed: does a co-sponsor value a range already in Treasuries more? (Laura's Room)
 - **For the judges:** V47 P7, "On the day she names it, the half she promised" -> "Before she names it, the half she'll promise" (-2 strict, IPS 495; `../ips_rewrite/inbox/2026-11-01_genius-lab.md`)
-- **Updated:** 2026-11-01 14:55 Sydney
+- **Updated:** 2026-11-01 14:15 Sydney
 
 > **State (Sun 1 Nov 2026, 13:40 run).** L-15 done (`lab/L-15_hold_it_then_say_it.md`): A ADOPT 2-0 (the P7 order
 > swap), B PARK, C PARK, D not built; #106's clause BIN for the IPS. The Library's request (lock timing + order) closed.
