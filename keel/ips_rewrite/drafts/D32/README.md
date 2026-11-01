@@ -41,3 +41,8 @@ the gift it is part of ("the cheques, then the floor, then everything above it")
 "buys a ladder" against P5's "first finishes any rung the first $300,000 couldn't buy" (V47 said "– or nearly"; no
 room today without squeezing); the kept stocks are both "her flexibility" and the first payer of the reinvestment gap
 (true to the design, worth one plain clause); the "We buy them." mirror and the closing triad read as set pieces.
+
+**Fact-check fix (Mon 2 Nov, from the Window, PR #99):** "Break it open and you ruin how it works" was false (Adderall XR
+may be opened and sprinkled; Effexor XR forbids crushing, not opening). Now: "a caplet that delivers its dose on
+schedule, labelled do not crush. Crush it and the schedule is gone." (the pill shape is our team's name, left
+unremarked). P4: "income that can dry up", not "dries up" (our inference, not the case). IPS 496 strict.
