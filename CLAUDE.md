@@ -1,7 +1,7 @@
 # Team Keel / Team Caplet: project memory
 
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
-decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-10-30 (Book 10 + Ten Commandments; Wharton's word moved above the Bible; final IPS due for review end of Wed 4 Nov).
+decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-01 (V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
 
 ## For every Claude session in this repo (all teammates)
 Whoever is using Claude here, these rules apply, and the Keel Office (formerly the Caplet Research Office) is how competition work is done:
@@ -59,6 +59,9 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
   `keel/pm/ASK_HUMANS.md` with a default Keel acts on), merges its `keel/**` work into main daily, and never decides for Caplet.
 
 ## Current status (2026-10-14) - read this before the older sections below
+- 1 Nov (Caplet, INSTRUCTIONS I71): "steal" the best human sentences: V48 (`keel/ips_rewrite/drafts/D28/`) rebuilds V47
+  sentence by sentence on the shapes of 15 great writers (shape and turn borrowed, never their words; every sentence
+  sourced in `SOURCE_LOG.md`). Blind voice read: V48 over V47, narrowly; V47 stays the panels' best until a panel reads V48.
 - 27 Oct (Ray + Ahaan): voice study in `keel/voice/` (reading log `keel/voice/reading/LOG.md`, 500-1,000 pieces asked;
   judges are Shark Tank investors, guide s7-s9 incl. "How humans cut"). Voice is qualitative (Book 9, INSTRUCTIONS I53, I56):
   `fingerprint.py` and counts are never a gate; Keel never judges its own AI-likeness.
