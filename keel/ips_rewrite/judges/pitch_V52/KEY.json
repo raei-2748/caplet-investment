@@ -1,0 +1,29 @@
+{
+ "judge1": {
+  "Pitch 1": "P50",
+  "Pitch 2": "P51d",
+  "Pitch 3": "P51c",
+  "Pitch 4": "H19",
+  "Pitch 5": "P51a",
+  "Pitch 6": "S01",
+  "Pitch 7": "P47"
+ },
+ "judge2": {
+  "Pitch 1": "P51a",
+  "Pitch 2": "P51c",
+  "Pitch 3": "P51d",
+  "Pitch 4": "S01",
+  "Pitch 5": "P47",
+  "Pitch 6": "H19",
+  "Pitch 7": "P50"
+ },
+ "judge3": {
+  "Pitch 1": "P50",
+  "Pitch 2": "P51c",
+  "Pitch 3": "S01",
+  "Pitch 4": "P51a",
+  "Pitch 5": "H19",
+  "Pitch 6": "P47",
+  "Pitch 7": "P51d"
+ }
+}
