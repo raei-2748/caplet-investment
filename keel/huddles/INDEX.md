@@ -4,6 +4,7 @@
 
 | ID | Opened | Title | Status | Rounds | Members | To-dos | Essence |
 |---|---|---|---|---|---|---|---|
+| H-010 | 2026-11-01 | [Hold it, then say it](2026-11-01_hold-it-then-say-it/transcript.md) | closed | 3 | Nora, Jun, Kai | 8/10 | Our draft says the half of Laura's stocks she promises co-sponsors moves into Treasuries on the day she names her range, so we tested what happens if that move comes late: a week or a month barely matters, but skipping i |
 | H-009 | 2026-11-01 | [The hard case, named first](2026-11-01_the-hard-case-named-first/transcript.md) | closed | 3 | Jun, Kai, Amara, Felix | 3/7 | We read people who sell promises to doubters, in their own words: annuity sellers, auction houses and mountain guides, and every one of the 37 lines we re-checked was real. What they share is naming the bad case before t |
 | H-008 | 2026-10-31 | [The Kitchen after the whole price](2026-10-31_the-kitchen-after-the-whole-price/transcript.md) | closed | 3 | Amara, Felix, Tess | 5/8 | We argued over what tomorrow's research should chase now that Caplet wants the writing to sound human above everything else. We've already read a thousand pieces, so tomorrow only goes where we haven't been: people who a |
 | H-007 | 2026-10-31 | [The bad naming day](2026-10-31_the-bad-naming-day/transcript.md) | closed | 3 | Amara, Kai, Felix | 5/7 | We tested the plan two mock judges liked best: bonds for the cheques and the rest in stocks, with the gift's bottom fixed only in 2031. Set to promise the same $145,000 in a typical year, it would have to promise under $ |
@@ -33,6 +34,8 @@
 - H-005: Which 19 words pay for the paragraph: the 97-in-100 top line, the one-in-thirty line, or something else?
 - H-006: Can the January-morning image be called back in the 'But' sentence ('that January morning arrives mid-slump') within 497?
 - H-006: Does 'ten one-year bills' belong anywhere in the IPS once the rival also owns the ladder?
+- H-010: Does a co-sponsor value a range that is already in Treasuries more than the same range promised? (Laura's Room: the co-sponsor's angle on 'before she names it')
+- H-010: If the IPS says the money moves before she speaks, should the Final Report's co-sponsor text say so in Laura's own words ('it is already in Treasuries')?
 - H-009: Lock-timing test: the lock a month or a quarter late, and skipped where stocks rose most before naming; top reached in S0, S1, S6 (Genius Lab)
 - H-009: Order test: if the promised half moves before she names the range, does any V47 number change? If not, the lock is a precondition and Kai's 'who holds the watch?' is answered by design (Genius Lab)
 - H-009: A condition report on our own plan for the Final Report's risk section: each flaw with its address (which year, which paths), then one 'However' (Writing Room, after 7 Nov)

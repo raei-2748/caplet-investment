@@ -1,15 +1,60 @@
 {
- "built": "2026-11-01T01:45",
+ "built": "2026-11-01T03:13",
  "days": [
   {
    "date": "2026-11-01",
    "weekday": "Sun",
    "essence": [
+    "Our draft says the half of Laura's stocks she promises co-sponsors moves into Treasuries on the day she names her range, so we tested what happens if that move comes late: a week or a month barely matters, but skipping it after a boom year drops the top's 98-in-100 to about 86 in those futures.",
+    "So we swap the order: she moves the money first and names the range after, which changes no number in our model, makes the sentence two words shorter, and means a skipped move just shrinks the range before she says it.",
+    "Where the rival plan's extra $15,000 is earned, and how confident we are the gift lands inside the range, are true and go to the Final Report; the 'even in a week when stocks are rising' clause comes out of the IPS.",
     "We read people who sell promises to doubters, in their own words: annuity sellers, auction houses and mountain guides, and every one of the 37 lines we re-checked was real.",
     "What they share is naming the bad case before the buyer can and saying exactly where it sits; the one clause worth taking into the IPS is that the gift's promised half moves into Treasuries on naming day 'even in a week when stocks are rising'.",
     "Felix found the bigger point: the mountain story argues for buying the floor early, and shows the 2031 lock is still a step someone has to take on the day, so the Lab now tests what a late or skipped lock costs."
    ],
    "huddles": [
+    {
+     "id": "H-010",
+     "title": "Hold it, then say it",
+     "question": "Who asks a sceptic to pay for a promise, in under a hundred words, and gets believed? Paired with the Library's finds: should the half of Laura's stocks she promises co-sponsors move into Treasuries before she names the range, not on the day; where is the rival's $15,000 lead earned; and how big is a miss?",
+     "status": "closed",
+     "room": "Genius Lab",
+     "chair": "Nora",
+     "members": [
+      "Nora",
+      "Jun",
+      "Kai"
+     ],
+     "essence": [
+      "Our draft says the half of Laura's stocks she promises co-sponsors moves into Treasuries on the day she names her range, so we tested what happens if that move comes late: a week or a month barely matters, but skipping it after a boom year drops the top's 98-in-100 to about 86 in those futures.",
+      "So we swap the order: she moves the money first and names the range after, which changes no number in our model, makes the sentence two words shorter, and means a skipped move just shrinks the range before she says it.",
+      "Where the rival plan's extra $15,000 is earned, and how confident we are the gift lands inside the range, are true and go to the Final Report; the 'even in a week when stocks are rising' clause comes out of the IPS."
+     ],
+     "decided": [
+      "2-0 ADOPT (Jun, Kai; Nora built it): V47 P7 'On the day she names it, the half she promised' -> 'Before she names it, the half she'll promise' (-2 strict, IPS 495); keep P6's 'In 2031'",
+      "2-0 PARK (Final Report): where the rival's lead sits (outside the best fifth of 2028-30 markets under $2,000, S0/S1; fails in S6)",
+      "2-0 PARK (Final Report): the range's confidence (inside it in 599,999 of 600,000 paths) and the miss tail (median $865-1,062, 98% under $5,000)",
+      "2-0 BIN for the IPS: bank #106's 'even in a week when stocks are rising' (a week costs 0.2 points; the order removes the week)",
+      "Kai won his bet (a month's slip costs under 1 point) and lost the argument (the skip, not the slip, is the failure)"
+     ],
+     "seeds": [
+      "Does a co-sponsor value a range that is already in Treasuries more than the same range promised? (Laura's Room: the co-sponsor's angle on 'before she names it')",
+      "If the IPS says the money moves before she speaks, should the Final Report's co-sponsor text say so in Laura's own words ('it is already in Treasuries')?"
+     ],
+     "todos": {
+      "done": 8,
+      "total": 10
+     },
+     "path": "keel/huddles/2026-11-01_hold-it-then-say-it",
+     "transcript": "keel/huddles/2026-11-01_hold-it-then-say-it/transcript.md",
+     "changes": [
+      "../../rooms/lab/L-15_hold_it_then_say_it.md",
+      "../../ips_rewrite/inbox/2026-11-01_genius-lab.md",
+      "../../ips_rewrite/IDEA_BANK.md"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    },
     {
      "id": "H-009",
      "title": "The hard case, named first",
@@ -62,6 +107,30 @@
    ],
    "research": [
     {
+     "path": "keel/huddles/2026-11-01_hold-it-then-say-it/research/jun_r3.md",
+     "title": "Jun, round 3 check notes (H-010, Sun 1 Nov 2026; FICTION, Keel is a simulated team, AI-written; numbers are MODEL output)",
+     "member": "Jun",
+     "huddle": "H-010"
+    },
+    {
+     "path": "keel/huddles/2026-11-01_hold-it-then-say-it/research/kai_r3.md",
+     "title": "Kai's round-3 check notes (H-010, Sun 1 Nov 2026)",
+     "member": "Kai",
+     "huddle": "H-010"
+    },
+    {
+     "path": "keel/huddles/2026-11-01_hold-it-then-say-it/research/lab_results.md",
+     "title": "L-15 results, for round 2 (MODEL; run after round 1's posts and sealed guesses were written)",
+     "member": "Lab",
+     "huddle": "H-010"
+    },
+    {
+     "path": "keel/huddles/2026-11-01_hold-it-then-say-it/research/nora_r3.md",
+     "title": "H-010 round 3, Nora's counts (Sun 1 Nov 2026)",
+     "member": "Nora",
+     "huddle": "H-010"
+    },
+    {
      "path": "keel/huddles/2026-11-01_the-hard-case-named-first/research/README.md",
      "title": "H-009 research",
      "member": "Readme",
@@ -75,6 +144,62 @@
      "owner": "Jun",
      "day": "2026-11-01",
      "huddle": "H-008"
+    },
+    {
+     "text": "Kai's roast and three sealed guesses each, before the test (Kai, Nora, Jun; done 1 Nov, round 1)",
+     "done": true,
+     "owner": "Kai",
+     "day": "2026-11-01",
+     "huddle": "H-010"
+    },
+    {
+     "text": "Lock-timing test on V47's design: a week to a year late, wait-while-rising, skipped after a boom; S0, S1, S6 (Jun's model, the Lab; done 1 Nov, `../../rooms/lab/L-15_hold_it_then_say_it.md`)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-01",
+     "huddle": "H-010"
+    },
+    {
+     "text": "Order test: move first, name later; identical path for path (the Lab; done 1 Nov)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-01",
+     "huddle": "H-010"
+    },
+    {
+     "text": "B and C on the same paths: where the rival's lead sits; the miss and the range's confidence (the Lab; done 1 Nov)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-01",
+     "huddle": "H-010"
+    },
+    {
+     "text": "CORD: \"the bottom is never broken in any arm\" was one S6 path wrong (Kai, round 2; fixed in `research/lab_results.md`)",
+     "done": true,
+     "owner": "Kai",
+     "day": "2026-11-01",
+     "huddle": "H-010"
+    },
+    {
+     "text": "CORD: the year-late arm is L-12's rule on V47's design, not a reproduction of L-12's number (Jun, round 2; fixed)",
+     "done": true,
+     "owner": "Jun",
+     "day": "2026-11-01",
+     "huddle": "H-010"
+    },
+    {
+     "text": "Locked lines and the case checked against the swap: none breaks; P6's \"In 2031\" is load-bearing (Kai; done 1 Nov)",
+     "done": true,
+     "owner": "Kai",
+     "day": "2026-11-01",
+     "huddle": "H-010"
+    },
+    {
+     "text": "Wharton's IPS instructions checked for C: a final range and detailed projections are Final Report work (Jun; done 1 Nov)",
+     "done": true,
+     "owner": "Jun",
+     "day": "2026-11-01",
+     "huddle": "H-010"
     },
     {
      "text": "Three scouts back with practitioners' own words (URL, date read) and one V47 paragraph each rewritten, numbers kept (Jun, Kai, Amara; done 1 Nov)",
@@ -99,6 +224,20 @@
     }
    ],
    "open": [
+    {
+     "text": "The Window gates L-15's headline numbers from a clean checkout (Window, Felix; by Mon 2 Nov 08:40)",
+     "done": false,
+     "owner": "Window",
+     "day": null,
+     "huddle": "H-010"
+    },
+    {
+     "text": "The rewrite thread takes or leaves the P7 swap (rewrite thread; by Wed 4 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-010"
+    },
     {
      "text": "Lock-timing test (a month and a quarter late; skipped where stocks rose most before naming; top reached S0, S1, S6) and the order test (half moved before naming: does any V47 number change?) (Jun, Genius Lab; by Mon 2 Nov)",
      "done": false,
@@ -129,6 +268,12 @@
     }
    ],
    "runs": [
+    {
+     "day": "2026-11-01",
+     "when": "Sun 1 Nov 15:00",
+     "room": "Genius Lab",
+     "what": "Beat 5, round 5 (Q13), L-15 \"hold it, then say it\" as huddle H-010 (Nora builds, Jun, Kai; 3 rounds, 9 agent calls; sealed guesses before the test): the Library's lock-timing and order tests on V47's design, S0/S1/S6. A month late costs the top 0.8 / 0.75 / 0.4 points (Kai won his bet); skipped after a top-fifth 2030, 85.8 v 98.5 inside those paths; move first = identical path for path. ADOPT 2-0 the P7 swap \"Before she names it\" (-2 strict, IPS 495); B (the rival's lead sits in the best fifth of 2028-30 markets; under $2,000 outside it, S0/S1) and C (inside the range 599,999 of 600,000; median miss $865-1,062) PARK for the FR; #106's \"even in a week\" BIN for the IPS; 2 CORDs fixed; bank #109-#111, 2 dropped; Library's request closed; 2 filed (Window, Writing Room)"
+    },
     {
      "day": "2026-11-01",
      "when": "Sun 1 Nov 13:30",

@@ -1,12 +1,15 @@
 # FICTION (the room) + real work (the experiments). The Genius Lab: lab book
 
 ## Now
-- **Doing:** L-14 "the price of the floor" (round 4 beat 5, Felix builds; huddle H-005 with Jun and Kai): Q12, why not a safe ladder and the rest in stocks? A09 built at its strongest on XR's own paths
-- **Decided:** B ADOPT 3-0 as one IPS paragraph: A09's cheques are as safe and its gift about $15k bigger on average (all stock premium; gone below ~3% a year), but its quotable 2031 bottom is under $100k in 5.3-6.7% of paths v 0.85-1.0% (S0/S1), 93-94% of them after a 2028-30 stock loss. A folded in; C PARK (FR). R06's "a fifteenth" holds (6.6% of the portfolio)
-- **Next:** Sun 1 Nov: whatever beat 8 and the rewrite thread leave open; seed: price the co-sponsor effect of a low crash-year bottom (bank #6); stamp lines on L-01-L-08
-- **For the judges:** V39 para 7: the 60/40 pair goes; one paragraph answers the rival two judges preferred, with the price said out loud (`../ips_rewrite/inbox/2026-10-31_genius-lab.md`)
-- **Updated:** 2026-10-31 15:05 Sydney
+- **Doing:** L-15 "hold it, then say it" (round 5 beat 5, Nora builds; huddle H-010 with Jun and Kai): Q13 and the Library's two tests, lock timing and order, on V47's own design
+- **Decided:** A ADOPT 2-0: the promised half moves into Treasuries *before* she names the range (no number moves; a skip after a boom, 85.8 v 98.5 in those paths, can no longer hide); B (where the rival's lead sits) and C (inside the range in 599,999 of 600,000 paths; misses median $865-1,062) PARK for the Final Report; bank #106's "even in a week" BIN for the IPS (a week costs 0.2 points)
+- **Next:** Mon 2 Nov: whatever beat 8 and the rewrite thread leave open; the Window gates L-15's headline; seed: does a co-sponsor value a range already in Treasuries more? (Laura's Room)
+- **For the judges:** V47 P7, "On the day she names it, the half she promised" -> "Before she names it, the half she'll promise" (-2 strict, IPS 495; `../ips_rewrite/inbox/2026-11-01_genius-lab.md`)
+- **Updated:** 2026-11-01 14:55 Sydney
 
+> **State (Sun 1 Nov 2026, 13:40 run).** L-15 done (`lab/L-15_hold_it_then_say_it.md`): A ADOPT 2-0 (the P7 order
+> swap), B PARK, C PARK, D not built; #106's clause BIN for the IPS. The Library's request (lock timing + order) closed.
+> Huddle H-010. Rerun: `python3 keel/rooms/lab/L-15_hold_it_then_say_it/run.py [S0 S1 S6]` (~40 s each, sequential).
 
 > **State (Sat 31 Oct 2026, 13:40 run).** L-14 done (`lab/L-14_price_of_the_floor.md`): B ADOPT 3-0 (the IPS
 > paragraph), A folded in, C PARK. Three requests closed (Rooftop A09 v V36, Library price, Window W-04 + R06). Huddle
