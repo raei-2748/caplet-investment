@@ -50,6 +50,7 @@ Google Doc copy (Drive, 23 Oct): https://docs.google.com/document/d/1wXYUnCznrU2
 | 34 | Fri 30 Oct | [Eight words](2026-10-30_ep34.md) | Jun | light | Round 3: why a range, and what each end costs; Jun hunts the question his own line opened; the two ends cost different people | Round 3 question (Keel) | -1bp |
 | 35 | Sat 31 Oct | [The rival's best plan](2026-10-31_ep35.md) | Tess | light | Book 10 lands; Tess names the 18:20 vote; round 4: why not a safe ladder and the rest in stocks? V39 never meets the rival: a missing paragraph, not a weak line | Round 4 question (Keel) | -1bp |
 | 36 | Sun 1 Nov | [The condition report](2026-11-01_ep36.md) | Kai | light | Round 4 holds at a stated price ($15,000, after the $19,000 from the wrong engine); round 5, the first voice round: annuities, auction houses, mountain guides; Kai's price paragraph stops apologising | Round 5 question (Keel) | -1bp |
+| 37 | Mon 2 Nov | [Our own words, in Wharton's coat](2026-11-02_ep37.md) | Felix | light | Round 6, the first verify round: V50 against its sources; Kai's read-back finds a "Wharton line" Wharton never wrote, and the real one ("a clear and consistent investment strategy across all three") is harder | Round 6 question (Keel) | -1bp |
 
 ## Milestones at a glance
 - **Values and culture:** 27 Sep (four values), 17 Oct (value 4 added). `../CULTURE.md`

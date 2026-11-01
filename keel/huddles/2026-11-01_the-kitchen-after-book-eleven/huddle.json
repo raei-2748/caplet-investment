@@ -1,0 +1,83 @@
+{
+  "id": "H-014",
+  "slug": "the-kitchen-after-book-eleven",
+  "title": "The Kitchen after Book 11",
+  "question": "Book 11 took every model number out of the IPS and the dial says verify only until Wednesday. What should round 6 (Mon 2 Nov) chase, and what did round 5 teach us about how we work?",
+  "room": "Kitchen",
+  "chair": "Amara",
+  "opened": "2026-11-01",
+  "status": "closed",
+  "closed": "2026-11-01",
+  "members": [
+    "Amara",
+    "Kai",
+    "Jun"
+  ],
+  "serves": "Investment Strategy and Portfolio Analysis (every claim about what Laura owns true at its source; the TNA and the IPS judged together); Creativity & Presentation (the motif true to its own source); Book 11 items 2, 4 and 8; Commandment X",
+  "rounds": [
+    {
+      "n": 1,
+      "name": "Go away and read",
+      "date": "2026-11-01",
+      "posts": [
+        "posts/r1_amara.md",
+        "posts/r1_kai.md",
+        "posts/r1_jun.md"
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Reply by name",
+      "date": "2026-11-01",
+      "posts": [
+        "posts/r2_amara.md",
+        "posts/r2_kai.md",
+        "posts/r2_jun.md"
+      ]
+    },
+    {
+      "n": 3,
+      "name": "Check it, then land it",
+      "date": "2026-11-01",
+      "posts": [
+        "posts/r3_kai.md",
+        "posts/r3_jun.md",
+        "posts/r3_amara.md"
+      ]
+    }
+  ],
+  "essence": [
+    "Our own order yesterday told the scouts to keep model numbers in their paragraphs, and Ahaan's message banned exactly that, so tomorrow every job has to quote the line of Wharton's instructions it was checked against before anyone goes out.",
+    "Tomorrow checks whether the IPS tells the truth about what Laura would own: five of the ten payments come from bond funds that pay what they're worth at the end, not a promised sum, and the floor is one of those funds.",
+    "We also found the motif is wrong in a small way that our own name fixes: a caplet is a tablet shaped like a capsule, and the pharmacy safety page warns that a crushed slow-release tablet can release its dose all at once."
+  ],
+  "decided": [
+    "3-0: round 6 asks Q14, 'Is everything V50 says about what Laura owns, and about the caplet, true at its source?'; no new fields (the 0:3 dial)",
+    "3-0: Tess near, the five iBond funds' issuer pages beside submitted reflection 2 ('a net asset value, as opposed to a promise of par'); Nora adjacent, why VT is in the frozen WInS book, from primary sources only (Kai conceded public budgeting); Felix far, the caplet and 'do not crush' at an Australian source",
+    "3-0: diversification goes to the Writing Room (16:20) and the A19 cure to the Window (08:40), not to scouts; Kai's 'before it matures' goes to the Window",
+    "3-0: keep 'not a probability, but a purchase'; 2-1 (Jun for 'near'): say Book 5's condition once, held to the December close, rather than 'near'",
+    "3-0: Fight 2, say it truly ('ten holdings' costs nothing), not fewer instrument words (Kai conceded)",
+    "3-0: the motif's noun and verb change ('caplet', 'crush'); 'labelled' goes to Felix's source check",
+    "3-0: LS-14, every job quotes its Wharton line, read at the page, and someone who didn't write the order reads it back; no line, no job",
+    "Roles: flaw-hunter Kai (the table listed Nora, who scouts), cold judge Jun (handed V50 plus one changed, sourced sentence a paragraph, no numbers), builder Amara"
+  ],
+  "seeds": [
+    "Crushing may release a dose all at once; selling a rung early hands over its money at the market's price, before its date. Is that the same harm, or only a rhyme? (Amara)",
+    "Engineers state a chance and a period because they can't buy certainty (a 1% flood every year); Laura's cheques are bought. Is that the Final Report's plainest way into 'how certain', once the IPS says 'held to the close'? (Jun; Kai: not honest for 2033-37 without the condition)"
+  ],
+  "changes": [
+    "keel/loop/FRONTIER.md",
+    "keel/loop/LESSONS.md",
+    "keel/loop/TERRITORY.md",
+    "keel/loop/rounds/2026-11-01.md",
+    "keel/rooms/kitchen.md",
+    "keel/tea_room.md",
+    "keel/pm/REQUESTS.md",
+    "keel/ips_rewrite/IDEA_BANK.md",
+    "keel/ips_rewrite/inbox/2026-11-01_kitchen.md"
+  ],
+  "todos": {
+    "done": 5,
+    "total": 10
+  }
+}

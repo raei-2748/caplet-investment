@@ -24,7 +24,8 @@ Files: `pitch.txt` (40 words), `ips_V50.txt` (**497 strict**, `keel/office/tools
 - The two subheadings ("How to bounce a cheque", "Know thy rival") are gone. Continuous prose.
 - Caplet XR is in paragraph 2 (was only in the conclusion in V49): "a capsule that delivers its dose on
   schedule, labelled do not crush. Break it open and you ruin how it works." The conclusion: "Ten capsules, ten
-  Januaries – every one bought before the first is opened. / Do not crush."
+  Januaries – every one bought before the first is redeemed. Crushing one means selling it before its
+  January, even for the building. / Do not crush."
 - No extreme parsimony. Sentences are full, natural, with contractions where natural and en dashes for asides.
   The longest sentence is ~35 words; most are 15–25.
 
@@ -39,16 +40,35 @@ Files: `pitch.txt` (40 words), `ips_V50.txt` (**497 strict**, `keel/office/tools
    most AI-adjacent moment — replaced with "putting the floor into stocks would be the larger gamble." Shorter,
    more natural, and frees the words the two fixes needed. Still 497 strict.
 
+**Courtroom fixes (1 Nov, PR #93).** Five changes from the Courtroom's AMENDED verdict:
+1. **Closing payoff** (the main fix): "opened" → "redeemed. Crushing one means selling it before its January,
+   even for the building." Both blind readers couldn't say what "Do not crush" meant. Now they can. "Redeemed"
+   also lets R=redemption pay off a second time. Won blind reads 36v35 and 29v28.
+2. **T1**: "Nobody else can help." → "Nobody else can pay them." (+1 word). The case lets others help with the
+   residency generally; only the ten payments are barred.
+3. **T3 (simplified)**: "we prefer shares, which cannot expire worthless" → "ours holds the stocks outright."
+   The original contradicted "every share fell to zero" two sentences earlier. The Courtroom's +13 replacement
+   was too complex; this simpler version saves 2 words and removes the contradiction.
+4. **T6 (simplified)**: "any gap comes from Laura's kept half before the floor" → split into "Any gap comes
+   first from the stocks Laura keeps, not from the floor." Both blind readers couldn't follow the original.
+   The Courtroom's +12 version was too expensive; this costs +1 and is clear.
+5. **"Unwinding"** → "maturing" (para 9). Now that "selling" = crushing, "unwind" (which finance hears as sell)
+   had to go.
+**Payment:** Para 7's time-diversification clause ("time makes a stock-market loss less likely without making it
+smaller") cut — the outside reader thought it weak for a floor due in 2032. Goes to Final Report (ledger C8).
+**Declined:** T4 (coupon detail = Final Report), T7 (current version works with the next sentence), T2 (pitch
+kicker is punchier than the caveat). Still **497 strict**.
+
 **Book 11 compliance.**
 | Point | V50 |
 |---|---|
 | No opening rhetorical question | Opens with "In January 2033, Laura's portfolio writes..." |
 | No "our model" | Zero model references |
 | No team history / past plans | None |
-| Full-circle XR (intro + conclusion) | Para 2: "labelled do not crush" → close: "Do not crush." |
+| Full-circle XR (intro + conclusion) | Para 2: "labelled do not crush" → close: "Crushing one means selling it before its January" + "Do not crush." |
 | No subheadings | Continuous prose |
-| Every sentence makes sense | Cold reader to verify |
-| Sounds human | Voice reader to verify |
+| Every sentence makes sense | T3 and T6 (both blind-reader stumbles) fixed; cold reader to re-verify |
+| Sounds human | Voice reader to re-verify; time-diversification clause cut (most AI-adjacent kicker removed) |
 | Wharton's guidelines followed | Strategy only; no model outputs, no projections, no detailed portfolio analysis |
 
 **Wharton alignment (the five questions from WHARTON_WORD.md).**
@@ -65,12 +85,12 @@ Files: `pitch.txt` (40 words), `ips_V50.txt` (**497 strict**, `keel/office/tools
 |---|---|---|---|
 | I | Extraordinary, by our own light | Three retellable ideas: "We buy them" (the field reframed as shopping, not investing), the home-made capital-protected note (the bank's product reversed), "a floor that was bought, not hoped for" (conviction). Cold reader confirmed all three. | Pass |
 | II | Wharton's word is the only marking scheme | Written from WHARTON_WORD's five questions; no model outputs, no projections, no citation — all moved to Final Report | Pass |
-| III | Write like us | Full-circle XR motif; "But" pivots; one long build (income risk paragraph); natural register. Voice reader: V50 wins IPS structure (one image argued, no subheadings, fewer numbers); V48 wins voice narrowly (more wry deflations, earned kickers). V50's biggest voice gap: 4-5 kickers vs guide's 3 limit. Strongest moment: "But time makes a stock-market loss..." paragraph. | Pass (with note: trim 1-2 kickers) |
-| IV | Clear on one reading | Written for plain sense; no extreme compression. Cold reader: two minor pauses ("funds that mature like bonds", "sized to grow back to the deposit") but both resolved quickly; no sentence genuinely unclear. | Pass |
+| III | Write like us | Full-circle XR motif with payoff ("Crushing one means selling it before its January"); "But" pivots; income risk paragraph; natural register. Time-diversification kicker cut (voice reader's pick). Voice reader: V50 wins IPS structure; V48 wins voice narrowly. | Pass |
+| IV | Clear on one reading | T3 ("expire worthless" after "fell to zero") and T6 ("Laura's kept half before the floor") fixed — both blind-reader stumbles resolved. "Sized to grow back to the deposit" already fixed by Writing Room. | Pass |
 | V | Every number explains itself | $50,000 (case), $300,000 (case), 2027-2033 (dates): all case facts; no model numbers | Pass |
 | VI | GPTZero before Caplet | Not reachable from this environment | Not yet checked |
 | VII | Few ideas, full size | One strategy in full: buy the cheques, protect the floor, grow with the rest | Pass |
-| VIII | Lose no idea; critique borrowed ones | Capital-protected note critiqued ("we prefer shares: they cannot expire worthless") | Pass |
+| VIII | Lose no idea; critique borrowed ones | Capital-protected note critiqued ("ours holds the stocks outright"); crushing defined | Pass |
 | IX | Judges who disagree | No panel run on V50; voice and cold readers only | Open |
 | X | Improve without being asked | Book 11 applied in full: no models, no team history, full-circle XR, plain sentences | Pass |
 

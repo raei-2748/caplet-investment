@@ -1,7 +1,7 @@
 # Task board (real Caplet work; run by Keel)
 
 Rules: `LOOP.md`. WIP limit 3 in Doing. Priority P = Impact (1-3) x Urgency (1-3); pick 4 or more. Owner = a Keel
-desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sun 1 Nov 2026, 17:00 (weekly plan).
+desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Mon 2 Nov 2026, 07:20 (daily loop; top 3 kept from the weekly plan; T07, T08, T22 left in Ready as K01 inputs, not separate work, since V50 is the draft they waited for).
 
 **This week's top 3 (Mon 2 - Sat 7 Nov; set by the weekly plan, Sun 1 Nov 17:00):**
 1. **Final AI draft to Caplet by the end of Wed 4 Nov [K01]** (rewrite thread; the Writing Room and the Window feed
@@ -59,6 +59,8 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sun 1 Nov 2026
 ## Done
 | ID | Task | Owner | Done | Output |
 |---|---|---|---|---|
+| SD-N07 | Research round 6 gathered: Q14, is everything V50 says about what Laura owns and about the caplet true at its source (verify round, 0:3 dial); lens 6; scouts Tess (fund prospectuses), Nora (why the WInS book holds VT), Felix (the caplet at an Australian source). LS-14 read-back caught a non-Wharton "Wharton line"; request filed | Nora (Kai reading back) | Mon 2 Nov | `keel/loop/rounds/2026-11-02.md` |
+| SD-N06 | Research round 5 gathered: Q13 the voice round (who gets a sceptic to pay for a promise); lens 11; annuity sellers, auction condition reports, mountain guides' turnaround times (row restored 2 Nov; dropped in the 1 Nov weekly rewrite) | Nora | Sun 1 Nov | `keel/loop/rounds/2026-11-01.md` |
 | SD-A09 | Round 4 recorded; LR3 (the rival paragraph) checked against the submitted notes and re-run on V45's own design: no breach, $19,000 -> $15,000, two word fixes | Tess | Sat 31 Oct | `../office/outbox/2026-10-31_archive_the-price-on-our-own-design.md` |
 | SD-N05 | Research round 4 gathered: Q12 why not a safe ladder and the rest in stocks (rival A09); lens 3; endowments (deepened), public capital funds, forward-selling crops. Groomed for Book 10: deadline end of Wed 4 Nov; F4 dropped | Nora | Sat 31 Oct | `keel/loop/rounds/2026-10-31.md` |
 | SD-N04 | Research round 3 gathered: Q10 why a range and what each end costs; lens 22; IPO bookbuilding, capital campaigns (deepened), weather ranges. Groomed: N05 closed (F2 closed 28 Oct by bank-it-at-the-mark and the deletion test); T11 killed (Book 9 retired the AI-use ledger) | Nora | Fri 30 Oct | `keel/loop/rounds/2026-10-30.md` |
