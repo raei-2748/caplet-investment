@@ -1,20 +1,145 @@
 {
- "built": "2026-10-31T21:49",
+ "built": "2026-11-01T01:45",
  "days": [
   {
    "date": "2026-11-01",
    "weekday": "Sun",
-   "essence": [],
-   "huddles": [],
-   "research": [],
-   "done": [],
-   "open": [],
+   "essence": [
+    "We read people who sell promises to doubters, in their own words: annuity sellers, auction houses and mountain guides, and every one of the 37 lines we re-checked was real.",
+    "What they share is naming the bad case before the buyer can and saying exactly where it sits; the one clause worth taking into the IPS is that the gift's promised half moves into Treasuries on naming day 'even in a week when stocks are rising'.",
+    "Felix found the bigger point: the mountain story argues for buying the floor early, and shows the 2031 lock is still a step someone has to take on the day, so the Lab now tests what a late or skipped lock costs."
+   ],
+   "huddles": [
+    {
+     "id": "H-009",
+     "title": "The hard case, named first",
+     "question": "Who asks a sceptic to pay for a promise, in under a hundred words, and gets believed? (Q13, the voice round)",
+     "status": "closed",
+     "room": "Library",
+     "chair": "Felix",
+     "members": [
+      "Jun",
+      "Kai",
+      "Amara",
+      "Felix"
+     ],
+     "essence": [
+      "We read people who sell promises to doubters, in their own words: annuity sellers, auction houses and mountain guides, and every one of the 37 lines we re-checked was real.",
+      "What they share is naming the bad case before the buyer can and saying exactly where it sits; the one clause worth taking into the IPS is that the gift's promised half moves into Treasuries on naming day 'even in a week when stocks are rising'.",
+      "Felix found the bigger point: the mountain story argues for buying the floor early, and shows the 2031 lock is still a step someone has to take on the day, so the Lab now tests what a late or skipped lock costs."
+     ],
+     "decided": [
+      "KEEP narrowly (Felix, after checking): slip S-10's IPS move is one clause, 'even in a week when stocks are rising'; no mountain, Hall or Loewenstein in the IPS or pitch",
+      "The turnaround argues for the 2028 floor more than the 2031 lock (Amara conceded, Felix agreed): the lock is an instruction doing an asset's work, the plan's softest place",
+      "CORD (Felix): V47 holds all three paragraphs (P6 Jun's, P7 Amara's, P8 Kai's), so there is no live-version question; Kai's four numbers are V47's own, sourced to Archive A26, which Felix re-opened and which matches",
+      "None of the three rewrites fixes the Window's two near-breaches (Kai's prints NB2 instead); the fixes stay the Window's: S1's $85,000 v $135,000 costs no words, and the NB1 bridge is +14 strict, not +11",
+      "Hall goes to the Final Report only as the failure case, in a sentence that ends with his rule failing; Mountain Trip's published pace test parked for the Final Report",
+      "Dropped: mortality credits (no pool, no life condition in Laura's cheques); Phillips' disclaiming voice; the 'deposit = acceptance' row (it maps backwards); the hot-cold empathy gap as used (named, not applied; the Ulysses contract, bank #81, already holds the idea)"
+     ],
+     "seeds": [
+      "Lock-timing test: the lock a month or a quarter late, and skipped where stocks rose most before naming; top reached in S0, S1, S6 (Genius Lab)",
+      "Order test: if the promised half moves before she names the range, does any V47 number change? If not, the lock is a precondition and Kai's 'who holds the watch?' is answered by design (Genius Lab)",
+      "A condition report on our own plan for the Final Report's risk section: each flaw with its address (which year, which paths), then one 'However' (Writing Room, after 7 Nov)"
+     ],
+     "todos": {
+      "done": 3,
+      "total": 7
+     },
+     "path": "keel/huddles/2026-11-01_the-hard-case-named-first",
+     "transcript": "keel/huddles/2026-11-01_the-hard-case-named-first/transcript.md",
+     "changes": [
+      "keel/loop/rounds/2026-11-01.md",
+      "keel/rooms/library.md",
+      "keel/rooms/library/2026-11-01_scouts/",
+      "keel/ips_rewrite/inbox/2026-11-01_library.md",
+      "keel/ips_rewrite/IDEA_BANK.md",
+      "keel/pm/REQUESTS.md",
+      "keel/office/outbox/2026-11-01_library_the-hard-case-named-first.md"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    }
+   ],
+   "research": [
+    {
+     "path": "keel/huddles/2026-11-01_the-hard-case-named-first/research/README.md",
+     "title": "H-009 research",
+     "member": "Readme",
+     "huddle": "H-009"
+    }
+   ],
+   "done": [
+    {
+     "text": "Each scout brings back 50-100 of a practitioner's own words, exact, with URL and date, plus one V45 paragraph rewritten whole, numbers and sources kept (Jun, Kai, Amara; done 1 Nov, Library, huddle H-009: V47's paragraphs, with V45's facts superseded)",
+     "done": true,
+     "owner": "Jun",
+     "day": "2026-11-01",
+     "huddle": "H-008"
+    },
+    {
+     "text": "Three scouts back with practitioners' own words (URL, date read) and one V47 paragraph each rewritten, numbers kept (Jun, Kai, Amara; done 1 Nov)",
+     "done": true,
+     "owner": "Jun",
+     "day": "2026-11-01",
+     "huddle": "H-009"
+    },
+    {
+     "text": "Library re-fetches the quoted lines at their pages: 37 of 37 found, incl. both Loewenstein lines (Felix; done 1 Nov)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-11-01",
+     "huddle": "H-009"
+    },
+    {
+     "text": "CORD on Jun's two claims: V47 holds all three paragraphs; Kai's numbers are V47's, sourced to A26, which matches (Felix; done 1 Nov)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-11-01",
+     "huddle": "H-009"
+    }
+   ],
+   "open": [
+    {
+     "text": "Lock-timing test (a month and a quarter late; skipped where stocks rose most before naming; top reached S0, S1, S6) and the order test (half moved before naming: does any V47 number change?) (Jun, Genius Lab; by Mon 2 Nov)",
+     "done": false,
+     "owner": "Jun",
+     "day": null,
+     "huddle": "H-009"
+    },
+    {
+     "text": "Like-for-like paragraphs for a blind voice reader, with Felix's fixes, against V47's own (Tess and Amara, Writing Room; by Sun 1 Nov 16:20)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-009"
+    },
+    {
+     "text": "Re-check Jun's other 41 quoted lines before any Challenger line reaches the Final Report (Felix; by Sun 8 Nov)",
+     "done": false,
+     "owner": "Felix",
+     "day": null,
+     "huddle": "H-009"
+    },
+    {
+     "text": "Open Krakauer's pages before the Final Report says Hall \"spent a month\" or \"let one of them go on\" (Felix; by Sun 8 Nov)",
+     "done": false,
+     "owner": "Felix",
+     "day": null,
+     "huddle": "H-009"
+    }
+   ],
    "runs": [
+    {
+     "day": "2026-11-01",
+     "when": "Sun 1 Nov 13:30",
+     "room": "Library",
+     "what": "Beat 4, round 5 (Q13 voice round, lens 11) as huddle H-009 (Jun, Kai, Amara, Felix; 3 rounds, 7 agent calls): annuity sellers, auction condition reports, mountain turnarounds; 9 finds, 37/37 re-fetched lines found (Jun's other 41 not re-checked); three V47 paragraphs rewritten; slip S-10 KEEP narrowly (one P7 clause, \"even in a week when stocks are rising\"; no mountain); Felix: the turnaround argues for the 2028 floor, the 2031 lock is an instruction doing an asset's work; CORD on Jun's two claims; no rewrite fixes a near-breach (NB1 bridge +14 strict); bank #106-#108, 4 dropped; 2 requests (Lab, Writing Room)"
+    },
     {
      "day": "2026-11-01",
      "when": "Sun 1 Nov 09:30",
      "room": "Window",
-     "what": "Beat 2, round 5: V47 line by line, no false line; near-breaches $150k floor v $145k bottom (no bridge) and S0 worst-twentieth pair v P4's linked world; A26 re-run identical; round 4 gate 3 verified / 7 \"so\" overstated / 0 false; D19-D27 labelled; W-06 the SEC's flat yes"
+     "what": "Beat 2, round 5: V47 line by line, no false line; near-breaches $150k floor v $145k bottom (no bridge) and S0 worst-twentieth pair v P4's linked world; A26 re-run identical; round 4 gate 3 verified / 7 \"so\" overstated / 0 false; D19-D27 labelled; W-06 the SEC's flat yes: `../office/outbox/2026-11-01_window_the-flat-yes.md`; dashboard not refreshed (no Artifact data tool in this session)"
     },
     {
      "day": "2026-11-01",
@@ -116,7 +241,7 @@
       "Agreed value v market value cover (Amara's door): is it the one image that makes the rival paragraph land, or a second motif competing with XR?"
      ],
      "todos": {
-      "done": 4,
+      "done": 5,
       "total": 8
      },
      "path": "keel/huddles/2026-10-31_the-kitchen-after-the-whole-price",
@@ -451,13 +576,6 @@
      "owner": null,
      "day": null,
      "huddle": "H-007"
-    },
-    {
-     "text": "Each scout brings back 50-100 of a practitioner's own words, exact, with URL and date, plus one V45 paragraph rewritten whole, numbers and sources kept (Jun, Kai, Amara; by Sun 1 Nov 12:10)",
-     "done": false,
-     "owner": "Jun",
-     "day": null,
-     "huddle": "H-008"
     },
     {
      "text": "Hunt the number first in every return: \"in our model, with world stocks at 7.5% a year\" stays, and the rival it beats is named (Felix, flaw-hunter; by Sun 1 Nov 18:20)",
