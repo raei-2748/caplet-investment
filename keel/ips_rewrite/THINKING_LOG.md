@@ -625,3 +625,16 @@ watched hardest was integrity: a famous line paraphrased is a lift, so the famou
 reader, not yet tested by the six-judge panel on Wharton's criteria, so V47 stays the panels' best until it is. "It's
 too punchy now." Probably: Ahaan builds long and lands short, and V48 mostly lands. The next pass turns two or three
 short lines into one dash-hinged build, from the same sources, without losing an idea.
+
+## Mon 2 Nov, morning: after Book 11, the judges want something to check
+Book 11 took every model number out, and Wharton agrees: projections and the final range belong to the Final Report.
+But the panel split cleanly. The two judges who trace cash flows put our plan first and second; the other four put
+two rivals above us for one reason, said four ways: there is nothing to check, not even an assumption. An assumption
+isn't a model output, and Wharton asks for "reasoning, assumptions, and tradeoffs", so V52 states one and says the
+promise doesn't rest on it. The same four judges then put V52 above V51 three times out of four. The capsule pitch
+came last of eight; a pitch in a student's own voice came first of seven.
+
+**What Caplet would say (Commandment X):** "Rivals still beat you. Why?" They print a confidence level and a range, and
+we've been told not to. I think that's the right call for the IPS (Wharton says so), but it costs us with judges who
+mark Portfolio Analysis on numbers, and Caplet should see that trade plainly. Next: say the stock slice's size as an
+allocation (three judges asked) and why it is small on purpose, in words.
