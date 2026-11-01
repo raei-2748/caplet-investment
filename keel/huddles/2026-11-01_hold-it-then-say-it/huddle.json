@@ -1,0 +1,36 @@
+{
+  "id": "H-010",
+  "slug": "hold-it-then-say-it",
+  "title": "Hold it, then say it",
+  "question": "Who asks a sceptic to pay for a promise, in under a hundred words, and gets believed? Paired with the Library's finds: should the half of Laura's stocks she promises co-sponsors move into Treasuries before she names the range, not on the day; where is the rival's $15,000 lead earned; and how big is a miss?",
+  "room": "Genius Lab",
+  "chair": "Nora",
+  "opened": "2026-11-01",
+  "status": "closed",
+  "closed": "2026-11-01",
+  "members": ["Nora", "Jun", "Kai"],
+  "serves": "North stars 3 and 4; Investment Strategy (a rule that holds as needs change), Client Knowledge (credibility with co-sponsors), Portfolio Analysis",
+  "rounds": [
+    {"n": 1, "name": "Go away and read", "date": "2026-11-01", "posts": ["posts/r1_kai.md", "posts/r1_nora.md", "posts/r1_jun.md"]},
+    {"n": 2, "name": "Reply by name", "date": "2026-11-01", "posts": ["posts/r2_kai.md", "posts/r2_nora.md", "posts/r2_jun.md"]},
+    {"n": 3, "name": "Settle it and land it", "date": "2026-11-01", "posts": ["posts/r3_kai.md", "posts/r3_jun.md", "posts/r3_nora.md"]}
+  ],
+  "essence": [
+    "Our draft says the half of Laura's stocks she promises co-sponsors moves into Treasuries on the day she names her range, so we tested what happens if that move comes late: a week or a month barely matters, but skipping it after a boom year drops the top's 98-in-100 to about 86 in those futures.",
+    "So we swap the order: she moves the money first and names the range after, which changes no number in our model, makes the sentence two words shorter, and means a skipped move just shrinks the range before she says it.",
+    "Where the rival plan's extra $15,000 is earned, and how confident we are the gift lands inside the range, are true and go to the Final Report; the 'even in a week when stocks are rising' clause comes out of the IPS."
+  ],
+  "decided": [
+    "2-0 ADOPT (Jun, Kai; Nora built it): V47 P7 'On the day she names it, the half she promised' -> 'Before she names it, the half she'll promise' (-2 strict, IPS 495); keep P6's 'In 2031'",
+    "2-0 PARK (Final Report): where the rival's lead sits (outside the best fifth of 2028-30 markets under $2,000, S0/S1; fails in S6)",
+    "2-0 PARK (Final Report): the range's confidence (inside it in 599,999 of 600,000 paths) and the miss tail (median $865-1,062, 98% under $5,000)",
+    "2-0 BIN for the IPS: bank #106's 'even in a week when stocks are rising' (a week costs 0.2 points; the order removes the week)",
+    "Kai won his bet (a month's slip costs under 1 point) and lost the argument (the skip, not the slip, is the failure)"
+  ],
+  "seeds": [
+    "Does a co-sponsor value a range that is already in Treasuries more than the same range promised? (Laura's Room: the co-sponsor's angle on 'before she names it')",
+    "If the IPS says the money moves before she speaks, should the Final Report's co-sponsor text say so in Laura's own words ('it is already in Treasuries')?"
+  ],
+  "changes": ["../../rooms/lab/L-15_hold_it_then_say_it.md", "../../ips_rewrite/inbox/2026-11-01_genius-lab.md", "../../ips_rewrite/IDEA_BANK.md"],
+  "todos": {"done": 8, "total": 10}
+}

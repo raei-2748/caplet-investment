@@ -1,0 +1,40 @@
+{
+ "reader_1": {
+  "1p": "opener A",
+  "1q": "opener B",
+  "2p": "bounce A",
+  "2q": "bounce B",
+  "2r": "bounce C",
+  "3p": "range C",
+  "3q": "range A",
+  "3r": "range B",
+  "4p": "catch A",
+  "4q": "catch D",
+  "4r": "catch C",
+  "4s": "catch B",
+  "5p": "rival C",
+  "5q": "rival D",
+  "5r": "rival A",
+  "5s": "rival B",
+  "5t": "rival E"
+ },
+ "reader_2": {
+  "1p": "opener B",
+  "1q": "opener A",
+  "2p": "bounce B",
+  "2q": "bounce C",
+  "2r": "bounce A",
+  "3p": "range A",
+  "3q": "range B",
+  "3r": "range C",
+  "4p": "catch D",
+  "4q": "catch A",
+  "4r": "catch C",
+  "4s": "catch B",
+  "5p": "rival E",
+  "5q": "rival B",
+  "5r": "rival D",
+  "5s": "rival A",
+  "5t": "rival C"
+ }
+}

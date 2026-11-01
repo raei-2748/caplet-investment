@@ -1,0 +1,18 @@
+If you had to pay a residency $50,000 every January from 2033 to 2042 out of one portfolio, how would you invest? Laura Gao has to. She also hopes to give towards the building in Taiwan. The cheques are a shopping problem, not an investing one.
+
+In January 2027 her first $300,000 buys a ladder of Treasury bonds and Treasury funds that mature like bonds, one falling due before each January – all ten, or nearly.
+
+"A high degree of certainty" earns its keep only beside a list of ways it might fail. The US government defaults. A recession arrives before January 2027 and pushes yields down – making the ladder cost more at precisely the moment that Laura's advances, speaking and licensing shrink, and with them the 2028 deposit that was meant to top it up. If it halves that deposit, our model bounces a cheque once in 66. Or yields fall so gradually that nobody notices, and cash from bonds that mature early earns less while it waits. In 2031 we price the shortfall and take it from what she keeps, then the gift, before she names one, not after.
+
+Most of the 2028 deposit buys Treasuries maturing late in 2032, enough to grow back into all of it: her floor. The rest, the interest they should earn, buys one world index fund. Banks sell this as a capital-protected note and spend the interest on an option; ours buys shares, which cannot expire worthless.
+
+In 2031 she gives co-sponsors a range. The bottom is her floor, owned since 2028. The top adds half her stocks. The other half stays hers – liquid any day if a building priced in Taiwan dollars comes in dearer.
+
+A capped range has a catch: once named, every fall in stocks comes off the gift while every rise past the top goes to Laura. Before she names it, the half she'll promise moves into Treasuries, and in our model the gift reaches its top about 97 times in 100.
+
+Know thy rival
+
+We know this rival because we built it first: three-quarters stocks, until our own model sank it. Laura takes thoughtful risks; the strongest alternative takes one for her – keeping our ladder, putting the 2028 deposit mostly in stocks, buying its bottom in January 2031 with whatever they fetch that morning. Matched in our model to our typical bottom, it leaves Laura about $15,000 more on average by 2042, gift and leftovers counted. But in our model's worst twentieth for stocks over 2028–30, that morning comes mid-slump, and it names about $85,000 against our $135,000 after the shortfall. We'd pay the $15,000.
+
+From 2033 the ladder is the operating reserve, running itself down as each Treasury turns to cash before its cheque. Whatever breaks, the order will not change: the cheques, then the floor, then the hope. We call it Caplet XR, after the extended-release capsule: ten redemptions, one a year, and it only works whole.
+
