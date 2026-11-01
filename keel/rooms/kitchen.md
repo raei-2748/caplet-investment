@@ -11,7 +11,7 @@
 
 > **State (last run Sun 1 Nov 2026, 21:05 Sydney).** Scenes: 5. Last moved: Jun-Kai (the Coke goes back the other way).
 > Next candidates: Nora-Amara, Felix-Kai. Open request from here: "before it matures", to the Window, Mon 2 Nov 08:40
-> (`../pm/REQUESTS.md`). On odd dates this room is beat 10 of the loop (`../pm/runbooks/kitchen.md`): doors round in the
+> (`../pm/REQUESTS.md`). Tonight's work is PR #96 (the day PR had already merged). On odd dates this room is beat 10 of the loop (`../pm/runbooks/kitchen.md`): doors round in the
 > scene, candidate fields to `../loop/TERRITORY.md`, tomorrow's orders to `../loop/FRONTIER.md` s4, at most one lesson
 > to `../loop/LESSONS.md`. The send-off is a huddle (runbook README step 3b): tonight
 > `../huddles/2026-11-01_the-kitchen-after-book-eleven/`. Rules: one scene under 200 words per run, one relationship
