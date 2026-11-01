@@ -1,5 +1,5 @@
 {
- "built": "2026-11-01T06:20",
+ "built": "2026-11-01T06:24",
  "days": [
   {
    "date": "2026-11-01",
@@ -10,7 +10,7 @@
     "The newest draft bent one sentence so that the catch in Laura's range no longer made sense; we voted a repair and one new sentence that prices the draft's own recession, paid for by cutting the 'shopping problem' line, which the pitch already says.",
     "Five rooms each offered our newest IPS a better paragraph, so we read every version side by side, blind and aloud, with two outside readers on other models, and kept the ones both put first: the cheque number in the risk paragraph, the dated move in January 2031, and the rival paragraph's 'that morning comes mid-slump'.",
     "Checking the numbers behind them, Kai found a line in the draft that is false in about half our modelled futures (the 2028 Treasuries can't always grow back to the whole $150,000, because that money tops up the ladder first), and we fixed it for no extra words.",
-    "To stay under 497 words we cut both headings, 'Sounds good, on average.', the US-default line and 'Do not crush.' (both outside readers cut it too, though Caplet liked it), and kept 'The cheques are a shopping problem, not an investing one.', which another room had wanted to cut.",
+    "To stay under 497 words we cut both headings, 'Sounds good, on average.', the US-default line and 'Do not crush.', but Ahaan's Book 11 arrived as we finished (no opening question, no model numbers, 'do not crush' kept as a full circle), so this version was withdrawn and its two live findings went to the new draft, V50.",
     "Our draft says the half of Laura's stocks she promises co-sponsors moves into Treasuries on the day she names her range, so we tested what happens if that move comes late: a week or a month barely matters, but skipping it after a boom year drops the top's 98-in-100 to about 86 in those futures.",
     "So we swap the order: she moves the money first and names the range after, which changes no number in our model, makes the sentence two words shorter, and means a skipped move just shrinks the range before she says it.",
     "Where the rival plan's extra $15,000 is earned, and how confident we are the gift lands inside the range, are true and go to the Final Report; the 'even in a week when stocks are rising' clause comes out of the IPS.",
@@ -77,7 +77,7 @@
      "essence": [
       "Five rooms each offered our newest IPS a better paragraph, so we read every version side by side, blind and aloud, with two outside readers on other models, and kept the ones both put first: the cheque number in the risk paragraph, the dated move in January 2031, and the rival paragraph's 'that morning comes mid-slump'.",
       "Checking the numbers behind them, Kai found a line in the draft that is false in about half our modelled futures (the 2028 Treasuries can't always grow back to the whole $150,000, because that money tops up the ladder first), and we fixed it for no extra words.",
-      "To stay under 497 words we cut both headings, 'Sounds good, on average.', the US-default line and 'Do not crush.' (both outside readers cut it too, though Caplet liked it), and kept 'The cheques are a shopping problem, not an investing one.', which another room had wanted to cut."
+      "To stay under 497 words we cut both headings, 'Sounds good, on average.', the US-default line and 'Do not crush.', but Ahaan's Book 11 arrived as we finished (no opening question, no model numbers, 'do not crush' kept as a full circle), so this version was withdrawn and its two live findings went to the new draft, V50."
      ],
      "decided": [
       "3-0: keep V49's opener with 'The cheques are a shopping problem, not an investing one.' (Laura's Room's cut overturned; both outside readers first)",
@@ -88,7 +88,8 @@
       "Truth fix (Kai, model checked; Tess's words): P5 'enough to grow back into whatever the ladder didn't take: her floor.' (V49's 'all of it' is false in 46.9% of modelled futures)",
       "Truth fix (Kai; Tess's words): P4 'take it from what she keeps, then the gift's floor, before she names a range.' + 'after the shortfall'",
       "Pays: both headings, 'Sounds good, on average.', 'Do not crush.' (3-0), 'The US government defaults.' and ', not after' (Tess, host); Kai's cut of 'it only works whole' fails 1-2",
-      "Not taken: Kai's repaired P8 (reader 1 first, reader 2 last; +26), the Window's flat yes ('a device', 'staged'), the Kitchen's agreed value (Amara dropped it), Jun's bridged P6 (+23; 'a fund' read as the stock fund)"
+      "Not taken: Kai's repaired P8 (reader 1 first, reader 2 last; +26), the Window's flat yes ('a device', 'staged'), the Kitchen's agreed value (Amara dropped it), Jun's bridged P6 (+23; 'a fund' read as the stock fund)",
+      "Late (17:40): W1 withdrawn after Book 11 and V50; two V50 hard issues to the thread (the top never moved into Treasuries before naming, +12; the 2028 deposit's ladder-finishing job gone, +11): ../../drafts/writing_room_2026-11-01/V50_check.md"
      ],
      "seeds": [
       "Three readers ask why the top is 97 and not 100 once the promised half is in Treasuries; L-13 has the answer (the 2033 top-up after naming, a median miss of about $1,000). Does it come back to the IPS, and what pays? (Tess)",
@@ -102,6 +103,7 @@
      "transcript": "keel/huddles/2026-11-01_five-places-one-page/transcript.md",
      "changes": [
       "../../drafts/writing_room_2026-11-01/",
+      "../../drafts/writing_room_2026-11-01/V50_check.md",
       "../../ips_rewrite/inbox/2026-11-01_writing-room.md",
       "../../ips_rewrite/IDEA_BANK.md"
      ],
@@ -489,9 +491,9 @@
    "runs": [
     {
      "day": "2026-11-01",
-     "when": "Sun 1 Nov 17:25",
+     "when": "Sun 1 Nov 17:45",
      "room": "Writing Room",
-     "what": "Beat 7, round 5, as huddle H-012 (Tess, Amara, Kai; 3 rounds, 8 posts + 2 blind outside readers on Haiku/Sonnet + 2 cold paraphrase readers: 12 agent calls, 3 over budget): 17 arms in five places on V49 counted whole; readers agreed in 4 of 5 (both cut \"Do not crush.\"); landed W1, 497 strict: shopping line kept (Laura's Room's cut overturned 3-0), the cheque number with \"the recession\", Laura's Room's dated P7, the Courtroom's \"mid-slump\", $145,000 out; 5 hard issues in V49 incl. P5 \"all of it\" false in 46.9% of modelled futures (Kai, L-10); 3 CORDs; 5 requests closed, 2 filed (Window gate, Courtroom panel); bank #114-#116, 2 dropped; Keel's call on \"Do not crush.\" in ASK_HUMANS: `../office/outbox/2026-11-01_writing-room_five-places-one-page.md`; dashboard not refreshed (the public artifact refused data writes this morning, as the other rooms note)"
+     "what": "Beat 7, round 5 (W1 withdrawn at 17:40: Book 11 and V50 landed mid-run; two V50 hard issues, the top never moved into Treasuries before naming and the 2028 deposit's ladder-finishing job gone, `../drafts/writing_room_2026-11-01/V50_check.md`; requests re-aimed at V50), as huddle H-012 (Tess, Amara, Kai; 3 rounds, 8 posts + 2 blind outside readers on Haiku/Sonnet + 2 cold paraphrase readers: 12 agent calls, 3 over budget): 17 arms in five places on V49 counted whole; readers agreed in 4 of 5 (both cut \"Do not crush.\"); landed W1, 497 strict: shopping line kept (Laura's Room's cut overturned 3-0), the cheque number with \"the recession\", Laura's Room's dated P7, the Courtroom's \"mid-slump\", $145,000 out; 5 hard issues in V49 incl. P5 \"all of it\" false in 46.9% of modelled futures (Kai, L-10); 3 CORDs; 5 requests closed, 2 filed (Window gate, Courtroom panel); bank #114-#116, 2 dropped; Keel's call on \"Do not crush.\" answered by Book 11 (keep it): `../office/outbox/2026-11-01_writing-room_five-places-one-page.md`; dashboard not refreshed (the public artifact refused data writes this morning, as the other rooms note)"
     },
     {
      "day": "2026-11-01",

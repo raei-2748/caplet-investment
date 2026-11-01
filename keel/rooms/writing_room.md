@@ -1,11 +1,11 @@
 # FICTION (the room) + real drafts. The Writing Room
 
 ## Now
-- **Doing:** round 5 beat 7 (1 Nov): every return of the day read like for like against V49, blind, then landed as W1 (497 strict) in huddle H-012 (`../drafts/writing_room_2026-11-01/`)
-- **Decided:** W1 for the rewrite thread: shopping line kept, the cheque number in P4, Laura's Room's dated P7, the Courtroom's "mid-slump", the $145,000 out; five V49 hard issues fixed (P5 "all of it" false in 46.9% of modelled futures); paid by both headings, "Sounds good", the default line, ", not after" and "Do not crush."
-- **Next:** Mon 2 Nov: the Window's gate on W1's three truth lines and the Courtroom's W1 v V49 panel; then the seed (why 97 and not 100, three readers asked)
-- **For the judges:** a page a cold reader follows first time, with every number true in the model it names
-- **Updated:** 2026-11-01 18:05 Sydney
+- **Doing:** round 5 beat 7 (1 Nov): every return of the day read like for like against V49 (huddle H-012, W1 at 497); Book 11 and V50 arrived mid-run, so W1 is withdrawn and V50 checked (`../drafts/writing_room_2026-11-01/V50_check.md`)
+- **Decided:** two V50 hard issues to the thread, no figures needed: the top end never moves into Treasuries before it is named (+12), and the 2028 deposit's first job (finishing the ladder) is gone, so paras 3 and 5 overclaim (+11); V50 is at 497, so 23 words of whole ideas must go
+- **Next:** Mon 2 Nov: the Window's gate and the Courtroom's flaw hunt on both; then whatever V51 changes
+- **For the judges:** a range whose top is as safe as its bottom, and a floor sized truthfully
+- **Updated:** 2026-11-01 17:45 Sydney
 
 > AI DRAFT material throughout (Claude); not for submission as written. (Keel is a simulated team, AI-written.)
 
@@ -14,7 +14,7 @@
 > Rule: flag only hard issues (limits, rule breaches, facts, numbers, formatting) with minimal edits; never reword
 > for taste or soften a confident claim. Suggestions stay in the repo; never touch the Google Docs.
 
-> **State (Sun 1 Nov, 16:20 run):** beat 7 done as huddle H-012; arms, blind sheets, reader replies, cold reads and `packages.py` (rebuilds W1) in `../drafts/writing_room_2026-11-01/`. Open to this room: nothing; two requests out (Window gate, Courtroom panel).
+> **State (Sun 1 Nov, 16:20 run):** beat 7 done as huddle H-012 on V49, then V50 checked after Book 11 (W1 withdrawn; `V50_check.md`); arms, blind sheets, reader replies, cold reads and `packages.py` (rebuilds W1) in `../drafts/writing_room_2026-11-01/`. Open to this room: nothing; two requests out (Window gate, Courtroom panel).
 >
 > **State (Sat 31 Oct, 16:20 run):** beat 7 done; arms Q1/Q3, `a09_price.py` and results in `../drafts/writing_room_2026-10-31/`; panel `../ips_rewrite/judges/panel_WR31/`. Open to this room: nothing.
 >
@@ -54,3 +54,4 @@
   "secured" missed "secures").
 | Sat 31 Oct (16:20) | V45 (D25) + arms Q1, Q3 | V45 pitch 50 / IPS 496; Q1 497; Q3 493 | 5: "Do not crush." (3 judges); "97 in 100" unexplained (3); floor "grows back into all of it" beside the leak; "one in sixty" basis; Q3 date fixed | `../office/outbox/2026-10-31_writing-room_the-price-of-the-floor.md` |
 | Sun 1 Nov (16:20) | V49 (D29) + 17 arms in five places; W1 | V49 493, pitch 49; arms 483-519; W1 497 (494 by spaces) | 5: P5 "all of it" false in 46.9% of modelled futures; P7 mis-timed; worst-twentieth pair from the independent world; "set-aside" never introduced; $145,000 beside the $150,000 floor | `../office/outbox/2026-11-01_writing-room_five-places-one-page.md` |
+| Sun 1 Nov (17:40) | V50 (D30), after Book 11 | V50 497 (margin 0), pitch 40 | 2 live + 1 already filed: top end never moved into Treasuries before naming; 2028 deposit's ladder-finishing job gone (paras 3, 5 overclaim); fund rungs v "pays exactly" (weekly plan K01) | `../drafts/writing_room_2026-11-01/V50_check.md` |

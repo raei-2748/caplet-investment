@@ -4,7 +4,7 @@
 
 **The question.** Today's rooms offer the newest draft (V49) a different paragraph in five places. In each place, which version should the rewrite take, read blind and aloud against V49's own, and if the winners go over 497 strict words, which whole idea pays?
 
-**The essence.** Five rooms each offered our newest IPS a better paragraph, so we read every version side by side, blind and aloud, with two outside readers on other models, and kept the ones both put first: the cheque number in the risk paragraph, the dated move in January 2031, and the rival paragraph's 'that morning comes mid-slump'. Checking the numbers behind them, Kai found a line in the draft that is false in about half our modelled futures (the 2028 Treasuries can't always grow back to the whole $150,000, because that money tops up the ladder first), and we fixed it for no extra words. To stay under 497 words we cut both headings, 'Sounds good, on average.', the US-default line and 'Do not crush.' (both outside readers cut it too, though Caplet liked it), and kept 'The cheques are a shopping problem, not an investing one.', which another room had wanted to cut.
+**The essence.** Five rooms each offered our newest IPS a better paragraph, so we read every version side by side, blind and aloud, with two outside readers on other models, and kept the ones both put first: the cheque number in the risk paragraph, the dated move in January 2031, and the rival paragraph's 'that morning comes mid-slump'. Checking the numbers behind them, Kai found a line in the draft that is false in about half our modelled futures (the 2028 Treasuries can't always grow back to the whole $150,000, because that money tops up the ladder first), and we fixed it for no extra words. To stay under 497 words we cut both headings, 'Sounds good, on average.', the US-default line and 'Do not crush.', but Ahaan's Book 11 arrived as we finished (no opening question, no model numbers, 'do not crush' kept as a full circle), so this version was withdrawn and its two live findings went to the new draft, V50.
 
 ## Round 1: Go away and read (2026-11-01)
 
@@ -180,6 +180,7 @@ Instead:
 - Truth fix (Kai; Tess's words): P4 'take it from what she keeps, then the gift's floor, before she names a range.' + 'after the shortfall'
 - Pays: both headings, 'Sounds good, on average.', 'Do not crush.' (3-0), 'The US government defaults.' and ', not after' (Tess, host); Kai's cut of 'it only works whole' fails 1-2
 - Not taken: Kai's repaired P8 (reader 1 first, reader 2 last; +26), the Window's flat yes ('a device', 'staged'), the Kitchen's agreed value (Amara dropped it), Jun's bridged P6 (+23; 'a fund' read as the stock fund)
+- Late (17:40): W1 withdrawn after Book 11 and V50; two V50 hard issues to the thread (the top never moved into Treasuries before naming, +12; the 2028 deposit's ladder-finishing job gone, +11): ../../drafts/writing_room_2026-11-01/V50_check.md
 
 ## Still open (seeds for the next huddle)
 

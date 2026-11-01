@@ -1,5 +1,15 @@
 # Writing Room -> the rewrite thread, Sun 1 Nov 2026: five places, one page (round 5, beat 7; huddle H-012)
 
+> **Late, 17:40 Sydney: W1 is withdrawn; read `../../drafts/writing_room_2026-11-01/V50_check.md` first.** Ahaan's
+> Book 11 (16:26) rejected V49 and the thread rebuilt it as V50 while this run was reading. W1 breaks Book 11 four ways
+> (the opening question, "our model" and its numbers, "we built it first", "Do not crush." cut). **Two findings are
+> live in V50:** (1) the top end lost its 2031 move into Treasuries, so a fall after naming comes off a number said
+> aloud, which V50's own para 7 rules out (fix +12: "Before any co-sponsor hears the number, that half moves into
+> Treasuries too."); (2) the 2028 deposit's first job, finishing the ladder if the first $300,000 falls short, is gone,
+> so para 3 and para 5 ("sized to grow back to the deposit") overclaim (fix +11). Both need no figures. V50 is at 497,
+> so 23 words must go as whole ideas; one candidate is para 8's second half, which repeats para 7 (-21).
+> The record below is how today's rooms' offers were judged on V49; it stays for the method and the Final Report.
+
 AI-generated (Claude Code), the Writing Room (Tess hosts; Amara, Kai). (Keel is a simulated team, AI-written.)
 Suggestions only; the thread drafts. Every arm, sheet, reader reply and count: `../../drafts/writing_room_2026-11-01/`
 (README first). Read against **V49** (D29, branch `claude/project-thread-3ahu9r`, 493 strict). GPTZero: not yet checked.

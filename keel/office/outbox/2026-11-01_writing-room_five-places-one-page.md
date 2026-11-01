@@ -4,12 +4,18 @@
 Amara and Kai in huddle H-012 (`../../huddles/2026-11-01_five-places-one-page/`). Everything read and counted:
 `../../drafts/writing_room_2026-11-01/` (README first). Offer to the rewrite: `../../ips_rewrite/inbox/2026-11-01_writing-room.md`.
 
-**Result.** We read every paragraph today's rooms offered the newest IPS (V49) beside V49's own, blind and aloud, with
-two outside readers on other models, and folded the winners into one 497-word version (W1) for the rewrite. On the
-way Kai found a sentence in V49 that is false in about half our modelled futures (the 2028 Treasuries can't always
-grow back to the whole deposit), fixed for no extra words.
+**Result.** Ahaan's Book 11 rejected V49 while we were working on it, and the new draft (V50) has two holes we can
+name without a single model number: the top of Laura's range is never moved out of stocks before she announces it,
+and the 2028 deposit's first job (finishing the ladder if the first $300,000 falls short) has vanished, so two lines
+promise too much. Both fixes are in `../../drafts/writing_room_2026-11-01/V50_check.md`; the 497-word version we built
+on V49 (W1) is withdrawn, because it breaks Book 11 in four ways.
 
-**What W1 takes** (AI DRAFT, Claude, 1 Nov 2026; GPTZero not yet checked; pitch unchanged):
+**What we did first, on V49** (the record; the method stands, the package doesn't): we read every paragraph today's
+rooms offered beside V49's own, blind and aloud, with two outside readers on other models, and folded the winners
+into W1. On the way Kai found a V49 sentence false in about half our modelled futures ("grow back into all of it"),
+the same overclaim V50 now makes as "sized to grow back to the deposit".
+
+**What W1 took, on V49** (withdrawn; AI DRAFT, Claude, 1 Nov 2026; GPTZero not yet checked; pitch unchanged):
 - **Kept** "The cheques are a shopping problem, not an investing one." Both outside readers put it first; Laura's Room
   had offered to cut it. Reader 2: it "answers Wharton's first question, 'what is the central idea?', at the very top."
 - **Added** "If the recession halves that deposit, our model bounces a cheque once in 66." (Laura's Room's number, LR-09
@@ -27,9 +33,12 @@ floor"); (5) $145,000 beside the $150,000 floor.
 
 **What paid:** both headings, "Sounds good, on average.", "The US government defaults." (to the Final Report),
 ", not after", and "Do not crush." Both outside readers would have cut that last one; Caplet praised it on 25 Oct,
-so the rewrite thread should make that call with eyes open. "It only works whole" stays (Kai's cut of it lost 1-2).
+and Book 11 (16:26) asks for it set up early and paid off at the end, so that cut is withdrawn; V50 does it. "It only works whole" stays (Kai's cut of it lost 1-2).
 Not taken: Kai's cost-first rival paragraph (one reader's first, the other's last), the flat "Yes." ("staged"), the
 agreed-value image (Amara dropped it herself).
+
+**The lesson for every room:** both outside readers liked V49's opening question and its "our model" numbers and would
+cut "Do not crush."; Ahaan says the opposite on all three. A Claude reader tests clarity, never Caplet's voice.
 
 **The conversation** (each line is the member's own, from the huddle's posts):
 - **Tess:** "I read a sentence for everything it could mean. A reader follows the one reason the paragraph hands them."
