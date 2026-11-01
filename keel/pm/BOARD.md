@@ -1,16 +1,17 @@
 # Task board (real Caplet work; run by Keel)
 
 Rules: `LOOP.md`. WIP limit 3 in Doing. Priority P = Impact (1-3) x Urgency (1-3); pick 4 or more. Owner = a Keel
-desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sun 1 Nov 2026, 07:30 (morning run).
+desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sun 1 Nov 2026, 17:00 (weekly plan).
 
-**This week's top 3 (Sun 1 Nov - Wed 4 Nov; final IPS for Caplet's review by end of Wed 4 Nov, Book 10). Groomed Sun 1 Nov 07:30:**
-1. **The final IPS for Caplet's review by the end of Wed 4 Nov** (P01; read Thu 5 Nov). V45 is the voice-first
-   candidate Caplet saw on 31 Oct (`../ips_rewrite/drafts/D25/`, AI DRAFT, GPTZero not yet checked; Bible check 2 of
-   198 rows missed, six commandment lines open). Round 4's LR3 (the rival paragraph, $15,000 on our design) is with
-   the rewrite thread.
-2. **Research round 5 today** (`../loop/rounds/2026-11-01.md`): the voice round (Q13), each scout rewriting one V45
-   paragraph in a practitioner's way; the 17:00 weekly review takes LS-06 and LS-13.
-3. **Ray's danger-zone item:** D6 (hold the WInS book).
+**This week's top 3 (Mon 2 - Sat 7 Nov; set by the weekly plan, Sun 1 Nov 17:00):**
+1. **Final AI draft to Caplet by the end of Wed 4 Nov [K01]** (rewrite thread; the Writing Room and the Window feed
+   it). Start from V47 (`../ips_rewrite/drafts/D27/`) and do a voice pass that drops no idea, with three fixes: one
+   clause bridging the $150,000 floor to the $145,000 bottom, the return assumption stated (7.5%, as the locked VT
+   reflection says), and one clause on why the WInS book holds VT. Nothing new is promoted after Tue 3 Nov.
+2. **GPTZero on the final candidate, Wed 4 Nov by 20:00 [K02]** (a student, one minute on the free page; Keel can't
+   reach it). Under 50% "human-written only" means Keel rewrites that night, not on Thursday.
+3. **Ray's danger-zone items:** D6, hold the WInS book (any order by Thu 5 Nov 08:00) [T16]; submit by Sat 7 Nov
+   09:00 [T17]. Keel recommends hold.
 
 ## Doing
 | ID | Task | Owner | Due | P | Done when | Notes |
@@ -19,6 +20,7 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sun 1 Nov 2026
 ## Ready (ranked)
 | ID | Task | Owner | Due | P | Done when | Notes |
 |---|---|---|---|---|---|---|
+| K01 | Final AI draft for Caplet: voice pass on V47 keeping every idea + floor bridge + return assumption + WInS clause | Rewrite thread (Tess, Amara feed; Felix checks) | Wed 4 Nov | 9 | Final folder with a filled Ten Commandments check by a reader who didn't write it, and a blind panel's disagreement report | Weekly plan 1 Nov; R3, R8, R15; premortem v3 causes 15-18 |
 | N02 | Edition stamp on every model output (curve date, J.P. Morgan edition, paths, basis) | Jun (Genius Lab) | Wed 28 Oct | 6 | Every new lab file opens with the stamp; R05 re-run at 7.5% | Request filed 27 Oct; the 26 Oct EAFE mix-up |
 | N03 | Final Report bank: one Articulation clause saying the case's "portfolio manager = your teacher/advisor" is the case's role-play; in real life students decided and Ray traded | Tess (Archive, P05) | Sat 7 Nov | 4 | Clause in `../library/final_report_bank.md` with the FAQ :32 source | Window flag 26 Oct |
 | T22 | Re-run the T05 rule checklist on the students' IPS draft | Felix (rules-verifier) | Sat 31 Oct | 6 | All 12 rows OK or flagged on the new draft | Waits for T13 draft; checklist SD-T05 |
@@ -30,6 +32,7 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Sun 1 Nov 2026
 ## Waiting on Caplet (Keel never picks these; they go on the stand-up)
 | ID | Task | Owner | Due | Done when | Notes |
 |---|---|---|---|---|---|
+| K02 | GPTZero scan of the final candidate on https://gptzero.me (free, no account) | Any student | Wed 4 Nov 20:00 | Score and date pasted in the final's README | Keel's call 1 Nov (ASK_HUMANS); R16. Keel cannot reach GPTZero (`../ips_rewrite/DETECTOR_LOG.md`) |
 | T02 | TNA retrospective (30 min): keep / stop / start | Whole team | Sun 25 Oct | `RETROS.md` TNA section filled | Workstream 2 timeline |
 | T12 | Vote set B (rules the IPS will freeze) | Whole team | Tue 27 Oct | Votes and any dissent in `caplet/decisions/LOG.md` | Options from T04a-c; write the one-line IPS rule each vote creates (SD-T05 rows 4, 5, 7, 8, 10); ballot v2 (D1a/D1b) `keel/office/outbox/2026-10-26_SD-T12b_noticeboard_vote-set-B-ballot-v2.md`; **26 Oct: D1a/D1b still voted Tue 27 Oct (the rewrite follows it); no vote on v4 wording** |
 | T13 | Write the IPS in the students' own words: outline Wed 28 Oct, draft Sat 31 Oct | Named student authors + editor | Sat 31 Oct | Draft in the IPS Doc | Close the 10 pending AI suggestions first; cut "about $292,000" (stale, SD-T03); Courtroom amendments 24 Oct in `keel/rooms/courtroom.md`; **26 Oct (Ray): rewrite from scratch in the thread "Rewrite the IPS from scratch"; v4/v4.1 are inspiration only** |
