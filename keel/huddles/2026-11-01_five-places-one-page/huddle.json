@@ -1,0 +1,77 @@
+{
+  "id": "H-012",
+  "slug": "five-places-one-page",
+  "title": "Five places, one page",
+  "question": "Today's rooms offer the newest draft (V49) a different paragraph in five places. In each place, which version should the rewrite take, read blind and aloud against V49's own, and if the winners go over 497 strict words, which whole idea pays?",
+  "room": "Writing Room",
+  "chair": "the run (Tess's room)",
+  "opened": "2026-11-01",
+  "status": "closed",
+  "closed": "2026-11-01",
+  "members": [
+    "Tess",
+    "Amara",
+    "Kai"
+  ],
+  "serves": "North stars 1 and 3; Creativity & Presentation, Articulation, Client Knowledge (Commandments IV and V: clear on one reading, every number says where it came from)",
+  "rounds": [
+    {
+      "n": 1,
+      "name": "Go away and read",
+      "date": "2026-11-01",
+      "posts": [
+        "posts/r1_tess.md",
+        "posts/r1_amara.md",
+        "posts/r1_kai.md"
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Reply by name",
+      "date": "2026-11-01",
+      "posts": [
+        "posts/r2_tess.md",
+        "posts/r2_amara.md",
+        "posts/r2_kai.md"
+      ]
+    },
+    {
+      "n": 3,
+      "name": "Settle it and land it",
+      "date": "2026-11-01",
+      "posts": [
+        "posts/r3_kai.md",
+        "posts/r3_tess.md"
+      ]
+    }
+  ],
+  "essence": [
+    "Five rooms each offered our newest IPS a better paragraph, so we read every version side by side, blind and aloud, with two outside readers on other models, and kept the ones both put first: the cheque number in the risk paragraph, the dated move in January 2031, and the rival paragraph's 'that morning comes mid-slump'.",
+    "Checking the numbers behind them, Kai found a line in the draft that is false in about half our modelled futures (the 2028 Treasuries can't always grow back to the whole $150,000, because that money tops up the ladder first), and we fixed it for no extra words.",
+    "To stay under 497 words we cut both headings, 'Sounds good, on average.', the US-default line and 'Do not crush.' (both outside readers cut it too, though Caplet liked it), and kept 'The cheques are a shopping problem, not an investing one.', which another room had wanted to cut."
+  ],
+  "decided": [
+    "3-0: keep V49's opener with 'The cheques are a shopping problem, not an investing one.' (Laura's Room's cut overturned; both outside readers first)",
+    "3-0: add 'If the recession halves that deposit, our model bounces a cheque once in 66.' (LR-09 S9; 'the recession' is Kai's round-3 fix; the unit as written 2-1)",
+    "3-0: drop the $145,000 from the rival paragraph ('Matched in our model to our typical bottom') instead of a bridge in P6",
+    "3-0 (round 3): P7 is Laura's Room's repair, 'So in January 2031, before any co-sponsor hears a number, Laura moves the promised half into Treasuries.'",
+    "3-0: the rival paragraph takes the Courtroom's 'that morning comes mid-slump' and the linked world's $85,000 v $135,000",
+    "Truth fix (Kai, model checked; Tess's words): P5 'enough to grow back into whatever the ladder didn't take: her floor.' (V49's 'all of it' is false in 46.9% of modelled futures)",
+    "Truth fix (Kai; Tess's words): P4 'take it from what she keeps, then the gift's floor, before she names a range.' + 'after the shortfall'",
+    "Pays: both headings, 'Sounds good, on average.', 'Do not crush.' (3-0), 'The US government defaults.' and ', not after' (Tess, host); Kai's cut of 'it only works whole' fails 1-2",
+    "Not taken: Kai's repaired P8 (reader 1 first, reader 2 last; +26), the Window's flat yes ('a device', 'staged'), the Kitchen's agreed value (Amara dropped it), Jun's bridged P6 (+23; 'a fund' read as the stock fund)"
+  ],
+  "seeds": [
+    "Three readers ask why the top is 97 and not 100 once the promised half is in Treasuries; L-13 has the answer (the 2033 top-up after naming, a median miss of about $1,000). Does it come back to the IPS, and what pays? (Tess)",
+    "Kai, round 3: 'it only works whole' is half-contradicted by LR-09 (the cheques are paid the same without the 2031 step in five worlds of six). With 'Do not crush.' gone, what does the capsule's 'whole' still claim, and is it true?"
+  ],
+  "changes": [
+    "../../drafts/writing_room_2026-11-01/",
+    "../../ips_rewrite/inbox/2026-11-01_writing-room.md",
+    "../../ips_rewrite/IDEA_BANK.md"
+  ],
+  "todos": {
+    "done": 5,
+    "total": 7
+  }
+}

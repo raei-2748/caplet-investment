@@ -1,0 +1,83 @@
+PITCH (50 words, fixed):
+Laura promised her residency ten cheques of $50,000 and hopes to give more. Caplet XR does not invest that promise. It buys it – a ladder of Treasuries, one maturing before each January. Her 2028 deposit builds a floor of bonds and a world stock fund for the gift.
+
+IPS (500-word limit), with five places where versions differ:
+
+[PLACE 1: one of the versions below]
+
+In January 2027 her first $300,000 buys a ladder of Treasury bonds and Treasury funds that mature like bonds, one falling due before each January – all ten, or nearly.
+
+How to bounce a cheque
+
+[PLACE 2: one of the versions below]
+
+Most of the 2028 deposit buys Treasuries maturing late in 2032, enough to grow back into all of it: her floor. The rest, the interest they should earn, buys one world index fund. Banks sell this as a capital-protected note and spend the interest on an option; ours buys shares, which cannot expire worthless.
+
+[PLACE 3: one of the versions below]
+
+[PLACE 4: one of the versions below]
+
+Know thy rival
+
+[PLACE 5: one of the versions below]
+
+From 2033 the ladder is the operating reserve, running itself down as each Treasury turns to cash before its cheque. Whatever breaks, the order will not change: the cheques, then the floor, then the hope. We call it Caplet XR, after the extended-release capsule: ten redemptions, one a year, and it only works whole.
+
+Do not crush.
+
+
+=== PLACE 1 (the first paragraph) ===
+--- Version 1p ---
+If you had to pay a residency $50,000 every January from 2033 to 2042 out of one portfolio, how would you invest? Laura Gao has to. She also hopes to give towards the building in Taiwan. The cheques are a shopping problem, not an investing one.
+
+--- Version 1q ---
+If you had to pay a residency $50,000 every January from 2033 to 2042 out of one portfolio, how would you invest? Laura Gao has to. She also hopes to give towards the building in Taiwan.
+
+=== PLACE 2 (the paragraph under 'How to bounce a cheque') ===
+--- Version 2p ---
+"A high degree of certainty" earns its keep only beside a list of ways it might fail. The US government defaults. A recession arrives before January 2027 and pushes yields down – making the ladder cost more at precisely the moment that Laura's advances, speaking and licensing shrink, and with them the 2028 deposit that was meant to top it up. Or yields fall so gradually that nobody notices, and cash from bonds that mature early earns less while it waits. In 2031 we price the shortfall and take it from what she keeps, before she names a gift, not after.
+
+--- Version 2q ---
+"A high degree of certainty" earns its keep only beside a list of ways it might fail. The US government defaults. A recession arrives before January 2027 and pushes yields down – making the ladder cost more at precisely the moment that Laura's advances, speaking and licensing shrink, and with them the 2028 deposit that was meant to top it up. If it halves that deposit, our model bounces a cheque once in 66. Or yields fall so gradually that nobody notices, and cash from bonds that mature early earns less while it waits. In 2031 we price the shortfall and take it from what she keeps, before she names a gift, not after.
+
+--- Version 2r ---
+"A high degree of certainty" earns its keep only beside a list of ways it might fail. The US government defaults. A recession arrives before January 2027 and pushes yields down – making the ladder cost more at precisely the moment that Laura's advances, speaking and licensing shrink, and with them the 2028 deposit that was meant to top it up. Barring default, our model pays every cheque in full over 99 times in 100; in that recession, 98. Or yields fall so gradually that nobody notices, and cash from bonds that mature early earns less while it waits. In 2031 we price the shortfall and take it from what she keeps, before she names a gift, not after.
+
+=== PLACE 3 (the paragraph that begins 'In 2031') ===
+--- Version 3p ---
+In 2031 she gives co-sponsors a range – and says which money pays each end. The bottom is the floor she's owned since 2028, named a little under it, since a fund's payout isn't fixed to the dollar. The top adds half her stocks. The other half stays hers, to sell any day if a building priced in Taiwan dollars comes in dearer.
+
+--- Version 3q ---
+In 2031 she gives co-sponsors a range. The bottom is her floor, owned since 2028. The top adds half her stocks. The other half stays hers – liquid any day if a building priced in Taiwan dollars comes in dearer.
+
+--- Version 3r ---
+In 2031 she gives co-sponsors a range. The bottom is her floor, owned since 2028, named a little under it, since a fund's payout isn't fixed to the dollar. The top adds half her stocks. The other half stays hers – liquid any day if a building priced in Taiwan dollars comes in dearer.
+
+=== PLACE 4 (the paragraph after it) ===
+--- Version 4p ---
+Every fall in stocks before naming day comes off the gift; every rise past the top goes to Laura. But what a panicked manager sells in 2032, Laura sells calmly on naming day, moving the promised half into Treasuries. Our model puts the gift at its top about 97 times in 100.
+
+--- Version 4q ---
+A capped range has a catch: once named, every fall in stocks comes off the gift while every rise past the top goes to Laura. On the day she names it, the half she promised moves into Treasuries, and in our model the gift reaches its top about 97 times in 100.
+
+--- Version 4r ---
+A capped range has a catch: once named, every fall in stocks comes off the gift while every rise past the top goes to Laura. Before she names it, the half she'll promise moves into Treasuries, and in our model the gift reaches its top about 97 times in 100.
+
+--- Version 4s ---
+A range named on stocks has a catch: every fall comes off the gift, every rise past the top goes to Laura. So in January 2031, before any co-sponsor hears a number, Laura moves the promised half into Treasuries. Our model puts the gift at its top about 97 times in 100.
+
+=== PLACE 5 (the paragraph under 'Know thy rival') ===
+--- Version 5p ---
+We know this rival because we built it first: three-quarters stocks, until our own model sank it. Laura takes thoughtful risks; the strongest alternative takes one for her – keeping our ladder, putting the 2028 deposit mostly in stocks, buying its bottom in January 2031 with whatever they fetch that morning. Asked in our model to name our typical bottom, $145,000, it leaves Laura about $15,000 more on average by 2042, gift and leftovers counted. Sounds good, on average. But in our model's worst twentieth for stocks over 2028–30, that morning comes mid-slump, and it names about $85,000 against our $135,000 after the set-aside. We'd pay the $15,000.
+
+--- Version 5q ---
+We know this rival because we built it first: three-quarters stocks, until our own model sank it. Laura takes thoughtful risks; the strongest alternative takes one for her – keeping our ladder, putting the 2028 deposit mostly in stocks, buying its bottom in January 2031 with whatever they fetch that morning. Does our floor cost her anything, then? Yes. Asked in our model to name our typical bottom, $145,000, the rival leaves Laura about $15,000 more on average by 2042, gift and leftovers counted. But in our model's worst twentieth for stocks over 2028–30, it names about $85,000, against our $135,000 after the set-aside. We'd pay the $15,000.
+
+--- Version 5r ---
+We know this rival because we built it first: three-quarters stocks, until our own model sank it. Laura takes thoughtful risks; the strongest alternative takes one for her – keeping our ladder, putting the 2028 deposit mostly in stocks, buying its bottom in January 2031 with whatever they fetch that morning. Asked in our model to name our typical bottom, $145,000, it leaves Laura about $15,000 more on average by 2042, gift and leftovers counted. Sounds good, on average. But in our model's worst twentieth for stocks over 2028–30, it names about $85,000, against our $135,000 after the set-aside. We'd pay the $15,000.
+
+--- Version 5s ---
+In our model, our plan costs Laura about $15,000 on average by 2042 against the strongest rival, counting the gift and what she keeps. That rival, matched in our model to name our $145,000 median bottom, usually wins. It keeps our ladder but puts the 2028 deposit mostly in stocks, and in January 2031 buys its bottom with whatever they fetch that morning. Laura has been willing to take thoughtful risks, the case says, and our first plan was three-quarters stocks until our own model sank it. But the rival has a flaw – and we can say where. In the twentieth of modelled paths where 2028-30 is worst for stocks, it names about $85,000 to co-sponsors against our $135,000 after the 2031 set-aside. We'd pay the $15,000.
+
+--- Version 5t ---
+We know this rival because we built it first: three-quarters stocks, until our own model sank it. Laura takes thoughtful risks; the strongest alternative takes one for her – keeping our ladder, putting the 2028 deposit mostly in stocks, buying its bottom in January 2031 with whatever they fetch that morning. Asked in our model to name our typical bottom, $145,000, it leaves Laura about $15,000 more on average by 2042, gift and leftovers counted. Sounds good, on average: market-value cover is always cheaper than agreed value. But in our model's worst twentieth for stocks over 2028–30, it names about $85,000, against our $135,000 after the set-aside. We'd pay the $15,000.

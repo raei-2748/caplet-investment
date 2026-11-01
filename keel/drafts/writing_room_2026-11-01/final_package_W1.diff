@@ -1,0 +1,38 @@
+7,8d6
+< How to bounce a cheque
+< 
+10d7
+< The US government defaults.
+11a9
+> If the recession halves that deposit, our model bounces a cheque once in 66.
+13c11
+< In 2031 we price the shortfall and take it from what she keeps, before she names a gift, not after.
+---
+> In 2031 we price the shortfall and take it from what she keeps, then the gift's floor, before she names a range.
+15,16c13,14
+< Most of the 2028 deposit buys Treasuries maturing late in 2032, enough to grow back into all of it: her floor.
+< The rest, the interest they should earn, buys one world index fund.
+---
+> Most of the 2028 deposit buys Treasuries maturing late in 2032, enough to grow back into whatever the ladder didn't take: her floor.
+> The rest, worth the interest they should earn, buys one world index fund.
+24,25c22,23
+< Every fall in stocks before naming day comes off the gift; every rise past the top goes to Laura.
+< But what a panicked manager sells in 2032, Laura sells calmly on naming day, moving the promised half into Treasuries.
+---
+> A range named on stocks has a catch: every fall comes off the gift, every rise past the top goes to Laura.
+> So in January 2031, before any co-sponsor hears a number, Laura moves the promised half into Treasuries.
+28,30c26
+< Know thy rival
+< 
+< We know this rival because we built it first: three-quarters stocks, until our own model sank it.
+---
+> We know our rival because we built it first: three-quarters stocks, until our own model sank it.
+32,34c28,29
+< Asked in our model to name our typical bottom, $145,000, it leaves Laura about $15,000 more on average by 2042, gift and leftovers counted.
+< Sounds good, on average.
+< But in our model's worst twentieth for stocks over 2028–30, it names about $90,000, against our $140,000 after the set-aside.
+---
+> Matched in our model to our typical bottom, it leaves Laura about $15,000 more on average by 2042, gift and leftovers counted.
+> But in our model's worst twentieth for stocks over 2028–30, that morning comes mid-slump, and it names about $85,000 against our $135,000 after the shortfall.
+41d35
+< Do not crush.
