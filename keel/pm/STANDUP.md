@@ -1,5 +1,17 @@
 # Stand-up log (newest first; Nora writes each entry, plain English first, then the detail)
 
+
+## Weekly plan, Sunday 1 Nov 2026, 17:00 (Sydney)
+**Nora:** Three days until the final draft goes to you. (Rebased 17:30 on V50 and Ahaan's Book 11.) We work on V50
+now: strategy only, no model numbers, XR from first line to last. Two fixes, both in words: the funds in the ladder pay
+what they're worth at maturity, not a promised sum, so "pays exactly" is said of the Treasuries only; and one line on
+why the WInS book holds VT. Nothing new after Tuesday.
+**Kai:** Two rejections in three days. I'd rather lose a clever clause than send you one more sentence that needs a second read.
+What Keel changed about itself: a vote now has to quote your newest message and say which model every number came
+from, because we twice voted on a stale question; and the scouts only deepen the champion until Wednesday.
+Students: one of you pastes the final into GPTZero on Wed 4 Nov evening (K02); Ray, D6 hold and submitting are yours.
+(Keel is a simulated team, AI-written.)
+
 ## Morning brief, Sunday 1 Nov 2026 (Sydney)
 **For the judges:** round 4 answered the rival plan two blind judges preferred (bonds for the cheques, everything else in stocks until 2031). In our model, owning the gift's floor from 2028 costs Laura about $15,000 on average by 2042. What it buys is the bad year: the rival would have to promise co-sponsors under $100,000 about one time in fifteen, and ours about one time in a hundred. That paragraph (LR3, with the corrected $15,000) is with the rewrite. V45 (AI DRAFT, pitch 50 / IPS 496 words, GPTZero not yet checked) is the voice-first candidate you saw yesterday. Dashboard: https://claude.ai/artifact/NTBamRzChW4niBLYpkm19M
 **Today's round:** a voice round, because you put sounding human above everything yesterday. We're reading people who get a doubter to pay for a promise in under a hundred words: annuity sellers, auction catalogue writers, and mountain guides who tell clients in advance when they'll turn back. https://raei-2748.github.io/caplet-investment/#/day/2026-11-01

@@ -123,7 +123,9 @@ or the story ever enters a Caplet deliverable (`../pm/INVARIANTS.md` section 2).
 |---|---|---|---|
 | Wed 28 - Thu 29 Oct | 2 : 1 | near, adjacent, far | ideas and tests for the synthesis (Thu 29) |
 | Fri 30 Oct - Wed 4 Nov | 1 : 1 | one far, two to deepen champions | feed the rewrite thread's final IPS (Caplet's review: end of Wed 4 Nov) |
-| Sun 1 - Thu 5 Nov | 1 : 2 | one far, two verify and deepen | revisions after Caplet's review; nothing new is promoted after Wed 4 Nov |
+| ~~Sun 1 - Thu 5 Nov~~ | ~~1 : 2~~ | ~~one far, two verify and deepen~~ | ~~revisions after Caplet's review~~ |
+| **Mon 2 - Wed 4 Nov** (set Sun 1 Nov, weekly plan) | **0 : 3** | none new: all three deepen or verify the champion's open items | the final AI draft (end of Wed 4 Nov); nothing new promoted after Tue 3 Nov |
+| Thu 5 Nov | freeze | none | Caplet reads; Keel answers only what Caplet asks |
 | Fri 6 - Sat 7 Nov | freeze | none | the IPS is Caplet's; the loop only checks |
 | from Sun 8 Nov | 2 : 1 again | the Final Report's sections | the Final Report (due Sat 5 Dec 09:00 Sydney), which can cite everything |
 

@@ -497,6 +497,12 @@
     },
     {
      "day": "2026-11-01",
+     "when": "Sun 1 Nov",
+     "room": "Weekly plan (rebased 17:30 on V50 + Book 11)",
+     "what": "Road map reset to the Book 10 timeline; risks (R3 voice, R8 WInS v V47, R16 GPTZero timing, R17 churn); IPS pre-mortem v3 + V50 coherence check; retro; scorecard row (V50, one reader); top 3 K01/K02/D6; self-changes: vote gate, dial 0 : 3 (`pm/ROADMAP.md`, `pm/SELF_CHANGES.md`)"
+    },
+    {
+     "day": "2026-11-01",
      "when": "Sun 1 Nov 16:05",
      "room": "Laura's Room",
      "what": "Beat 6, round 5, as huddle H-011 (Amara, Kai, Felix; 3 rounds, 9 agent turns): the Lab's L-15 A-D read as co-sponsor, judge, practitioner (A sharpened with the fundraisers' quiet phase, DP 2007 / CCS 2020; B killed for the IPS; C FR; D killed); V49 against every case line; LR-09 run: cheques paid in full at any size 99.68-99.95% in five worlds, 98.49% in P4's own recession (MODEL); V49 P7 mis-timed, repaired 3-0; P4 sentence 2-1; V49 497; 2 CORDs (the chair's, fixed): `../rooms/lauras_room/LR-09_the_promise_has_no_number.md`; PR #91 (stacked on #90); dashboard not refreshed (the public artifact refused data writes this morning, so no retry)"
