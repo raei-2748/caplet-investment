@@ -186,3 +186,37 @@ check on V42 caught this). V43 (`drafts/D23/`) accounts for all of them:
 - **V47 (`drafts/D27/`, current best):** IN: the rival as the rooms wrote it, 97 in 100 and the priority line kept.
   OUT for now (next voice pass): "Sell low, by appointment" (heading); "But "usually" is the whole trick"; "selling low,
   on a timetable printed years in advance"; the ten one-year bills (FR); the 60/40 numbers (FR).
+
+## What Book 11 took out of the IPS (V49 to V50, 1 Nov): every idea still placed
+All to the **Final Report**, where models, evidence and the team's story belong (Book 11; WHARTON_WORD s2):
+- 97 in 100 (the top reached, L-13) and "under one in sixty" (cheques, M7): FR, as the test of the IPS's definition
+  of certainty, never as the definition (Archive bank #119-#120).
+- The strongest rival (A09) and its price: about $15,000 more on average by 2042, and about $90,000 against our
+  $140,000 named in the worst twentieth of 2028-30 stock paths (A26; S1 $85,000 v $135,000): FR, with the table.
+- The first plan, three-quarters stocks, sunk by our own model (27 Sep): FR, Articulation of Competition Experience.
+- The ten one-year bills; the 60/40's one in three; "the larger gamble" (V50 para 8): FR, the rival field.
+- 7.5% (J.P. Morgan, world equities in general, not VT: Book 9): back in the IPS from V52 as one stated assumption
+  for world shares, with what it changes ("if they earn less, only the gift shrinks"). Caplet may cut it; the panels
+  say four judges want at least one assumption.
+
+## V51 and V52 (Mon 2 Nov, morning): after Book 11
+- **V51 (`drafts/D31/`):** IN (from the rooms): Courtroom T1, T3 (the option named), T4, T7 ("Laura's career already
+  behaves a lot like a stock"); Archive's set-aside before naming, "rounded down", "ten holdings". NEW: "every dollar
+  she promises is already in bonds"; "spread across thousands of companies". OUT to the Final Report: "Ten capsules,
+  ten Januaries – every one bought before the first is redeemed."; V50's time-diversification clause (Courtroom, C8);
+  "a commitment rather than a forecast"; "The building deserves a floor that was bought, not hoped for." TRIED, not
+  kept (no room without squeezing): "Every rung is a US Treasury on purpose: for a bill that can't move, the safest
+  borrower beats a spread of riskier ones." (FR, and a candidate if words free up).
+- **V52 (`drafts/D32/`):** NEW: one return assumption ("about 7.5% a year ... nothing Laura promises depends on it");
+  the leak names the interest ("the interest the bonds pay earns less when reinvested"); the pitch's "we don't invest
+  for them. We buy them." OUT: "Nobody else can pay them." (the case says it; FR); "Crushing a capsule here means
+  selling a bond before its January, even for the building." (FR: the motif's mechanics). After panel V52 and the
+  Bible re-read and two cold reads: IN "That is about a fifteenth of her money." (three judges asked how big the stock
+  slice is; L-14's 6.6%); "lowers the whole range" (the top falls with the floor); the assumption reworded to world
+  shares, not VT (Book 9): "but the cheques never depend on it"; why the ladder costs less than the cheques (its
+  interest is reinvested) and the gap priced "at the day's yields"; "a downturn that makes a ladder dearer to buy";
+  "as her flexibility" (Wharton's word back). OUT: "small on purpose: no cheque and no floor depends on it"
+  (contradicted the set-aside; cold read); "But the cheques come first." (the closing order line says it);
+  "or she needs flexibility" (folded into "as her flexibility"). OUT to the FR: "not a
+  probability, but a purchase" (two cold readers: a slogan; the definition stays) and "money she will own outright even
+  if every share in the world fell to zero" (para 6 says "money she already owns").
