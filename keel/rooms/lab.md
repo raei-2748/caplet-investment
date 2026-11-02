@@ -1,11 +1,16 @@
 # FICTION (the room) + real work (the experiments). The Genius Lab: lab book
 
 ## Now
-- **Doing:** L-15 "hold it, then say it" (round 5 beat 5, Nora builds; huddle H-010 with Jun and Kai): Q13 and the Library's two tests, lock timing and order, on V47's own design
-- **Decided:** A ADOPT 2-0: the promised half moves into Treasuries *before* she names the range (no number moves; a skip after a boom, 85.8 v 98.5 in those paths, can no longer hide); B (where the rival's lead sits) and C (inside the range in 599,999 of 600,000 paths; misses median $865-1,062) PARK for the Final Report; bank #106's "even in a week" BIN for the IPS (a week costs 0.2 points)
-- **Next:** Mon 2 Nov: whatever beat 8 and the rewrite thread leave open; the Window gates L-15's headline; seed: does a co-sponsor value a range already in Treasuries more? (Laura's Room)
-- **For the judges:** V47 P7, "On the day she names it, the half she promised" -> "Before she names it, the half she'll promise" (-2 strict, IPS 495; `../ips_rewrite/inbox/2026-11-01_genius-lab.md`)
-- **Updated:** 2026-11-01 14:15 Sydney
+- **Doing:** L-16 "two jobs, one pocket" (round 6 beat 5, Amara builds; huddle H-016 with Jun and Kai): the Library's and Laura's Room's requests on the stocks Laura keeps, on V52's own design
+- **Decided:** H1 FALSE: the reinvestment gap takes all of the kept half in 19% of base futures (65% if yields fall 2 points for good); V52's P8 lost the $7,500 margin (without it 76% of base futures pay all ten cheques in full, with it 99.8%): C1 "add a margin" ADOPT; C2 "so her flexibility shrinks before her promise does" ADOPT as an offer (Jun ranked it first, blind); gap-first-then-halve, kept stocks behind the cheques after 2033, a $15k margin and the overage image PARK/BIN for the IPS; Kai's S9 gap: 35% a rung never bought, 64% reinvestment gaps the halved deposit left nothing to pay; neither cure closes it. Four CORDs from Kai, all fixed
+- **Next:** Tue 3 Nov: the Window gates L-16 (S0, S6); the Writing Room reads m3j blind; seeds: size the margin each 2031 from the gap's own spread (FR); what is Laura's flexibility when the pocket is empty (Laura's Room)
+- **For the judges:** V52 P8, "we price that gap at the day's yields and set it aside" -> "we price that gap at that day's yields, add a margin, and set it aside" (+3, 498), optionally "..., so her flexibility shrinks before her promise does" (`../ips_rewrite/inbox/2026-11-02_genius-lab.md`)
+- **Updated:** 2026-11-02 14:45 Sydney
+
+> **State (Mon 2 Nov 2026, 13:40 run).** L-16 done (`lab/L-16_two_jobs_one_pocket.md`): six arms x five worlds on V52's
+> design; C1 ADOPT (the margin back in P8), C2 ADOPT as offer, C3-C5 PARK/BIN. Two requests closed (Library S-11 break 3;
+> Laura's Room S9 trace); two filed (Writing Room m3j blind; Window gate). Huddle H-016 (one round, three agents).
+> Rerun: `python3 keel/rooms/lab/L-16_two_jobs_one_pocket/run.py [S0 S1 S2 S6 S9]` (~35 s each, sequential).
 
 > **State (Sun 1 Nov 2026, 13:40 run).** L-15 done (`lab/L-15_hold_it_then_say_it.md`): A ADOPT 2-0 (the P7 order
 > swap), B PARK, C PARK, D not built; #106's clause BIN for the IPS. The Library's request (lock timing + order) closed.
