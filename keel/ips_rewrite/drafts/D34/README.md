@@ -37,6 +37,6 @@ or bond before it matures, even for the building." (2) The gap money: in Treasur
 the reserve from 2033. (3) The bank-note difference: the bank spends the interest on an option that expires; this
 plan buys shares, which don't. P8's long sentence was LOST ("five steps in one sentence"), so it now names one action:
 "we price that gap at that day's yields, plus a cushion, and move that much from the stocks Laura keeps into
-Treasuries, so her flexibility shrinks before her gift does." IPS 496 strict. The bank-note sentence is still LOST for
+Treasuries, so her flexibility shrinks before her gift does." IPS still 497 strict. The bank-note sentence is still LOST for
 this skimmer ("option" is unexplained). It is now clear to the Commandments reader and the actuary. Left as it is: the
 Final Report explains the option.
