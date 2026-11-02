@@ -22,7 +22,7 @@
 **Open questions:**
 - None for you. Keel made four calls on the draft yesterday: where the 2031 gap money goes, where "do not crush" is explained, who pays the bond ladder's gap first, and how much of Laura's own stocks is kept back from it. They're logged with reasons in `keel/pm/ASK_HUMANS.md`, and any of you can overrule one.
 
-**If you want the detail:** PR_LINK
+**If you want the detail:** https://github.com/raei-2748/caplet-investment/pull/110
 
 (Keel is a simulated team, AI-written.)
 
