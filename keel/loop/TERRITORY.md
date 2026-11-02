@@ -60,7 +60,7 @@
 | Taiwan: arts residencies, foundations, how cultural venues are funded | | unvisited | |
 | Construction finance: retainage, progress payments, contingencies | 28 Oct, Felix (round 1): securities in lieu of retainage (Cal. PCC §22300); who keeps unused contingency (ConsensusDocs 2023); FAR 52.216-4 escalation | promising (retainage is released on completion, not a date: a deeper question) | 2 |
 | Public budgeting: earmarked funds, rainy-day funds | 31 Oct, Amara (round 4): GFOA (bond proceeds invested no longer than the drawdown schedule), California Gov. Code list (no shares, five-year cap), Orange County 1994, Washington SSJR 8208 (stocks only for money without a deadline) | promising | 2 |
-| Contract law: liquidated damages, "time is of the essence" | | unvisited | |
+| Contract law: liquidated damages, "time is of the essence", cooling-off | Candidate from the Kitchen's doors, Sun 1 Nov (Kai: a buyer wanting out after exchange): NSW gives five business days to withdraw for 0.25% of the price, and none after an auction (nsw.gov.au, read 1 Nov, near-verbatim; why auctions are exempt UNVERIFIED). A promise with its exit price posted in advance; our rungs have no posted exit, only the market's price ("do not crush") | unvisited | |
 | Auction houses: lot essays, estimates and condition reports | Kitchen H-008, Sat 31 Oct: "auction" appears nowhere in the 1,000-piece voice reading; a catalogue essay justifies a price estimate to a doubter while the condition report owns the flaws. 1 Nov, Kai (round 5): the flaw with an address (K1/K3, bank #107) became the Courtroom's "who pays a gap" in plain words (T6), which the Archive dated (A19) | promising | 2 |
 
 ## Far: everything else (the road less taken)
@@ -77,7 +77,7 @@
 | Clinical trials: pre-registration, stopping rules | L-06 ("Pre-Registered" package) | promising | 1 |
 | ICU and triage: reserves, handovers, early-warning scores | 29 Oct, Nora (round 2): NEWS2 (one red score triggers alone; concern overrides), NSW PD2025_014 (signed, expiring alterations; escalate on silence), ward studies (alarms that stay on stop being answered) | mined (its contrast made the champion: a ward needs alarms because a crash has no date, and every flow in Laura's case has one; handovers and triage reserves still unvisited, a new field if ever needed) | 3 |
 | Theatre: cue sheets, the "go" that cannot be taken back | 28 Oct, Tess (round 1): tracking and the block (ETC Eos); fix in the programming before the next show (CCSU 2025); the pre-show lamp check (USU) | mined | 2 |
-| Film photography: exposure latitude, the latent image | | unvisited | |
+| Film photography: exposure latitude, the latent image | Candidate from the Kitchen's doors, Sun 1 Nov (Tess: opened the camera before rewinding): opening the back "exposes the film to light, which can potentially ruin your shots" (Analogue Shop, read 1 Nov, near-verbatim). The image is already there and opening early ruins it, the motif's "do not crush" in another trade | unvisited | |
 | Baking and fermentation: proving, starters fed on schedule | Candidate from the Kitchen's doors, Sat 31 Oct (Jun: his starter fed at six or the week is lost; Nora: a bakery deposit fixes the price the day you pay) | unvisited | |
 | Seed banks and agriculture: storing for a known sowing date | | unvisited | |
 | Ecology: bet-hedging, seed dormancy, masting | | unvisited | |
@@ -93,6 +93,9 @@
 | Weather forecasting: ranges with a chance on each end (BoM "possible rainfall") | 30 Oct, Kai (round 3): the BoM's own page (75% / 25% chance on the two ends; the round's 50/25 was false, the Window's catch); "acknowledging the uncertainty in the forecast increased trust"; the cost-loss rule (Richardson, ECMWF) and the newsvendor's overage/underage | mined (each end its own chance, set by what missing it costs: B3O/B3W's "each end as sure as its miss is costly", 3-0 and 2-0 blind, the C5 holder; bank #84) | 3 |
 | Pharmacy practice: dose administration aids (blister packs made up by day) | Candidate from the Kitchen's doors, Thu 29 Oct (Nora: one sealed dose per day, packed in advance by the pharmacist); next to the mined pharmacology field but a new mechanism: the patient decides nothing on the day | unvisited (Q7 request to Laura's Room) | |
 | Bookselling: dealers' condition descriptions ("spine sunned, light foxing") | Candidate from the Kitchen's doors, Sat 31 Oct (Tess: pricing secondhand paperbacks): twenty words that tell a stranger what's wrong and still sell it. Close kin of the auction condition report (round 5, Kai). UNVERIFIED (ILAB's glossary refused by the proxy) | unvisited | |
+| Cold chain: vaccine storage and the breach rule | Candidate from the Kitchen's doors, Sun 1 Nov (Amara: her mum's clinic fridge): "Strive for 5" keeps vaccines between +2°C and +8°C, and after a bad reading "Do not use or discard vaccines unless advised to do so by your state or territory health department" (health.gov.au poster, read 1 Nov, near-verbatim). The bad-day rule is written in advance and the person at the fridge decides nothing, like V50's "the order will not" | unvisited | |
+| Engineering design standards: annual exceedance probability | Candidate from the Kitchen's doors, Sun 1 Nov (Jun: his dad's flood inputs): a "hundred-year flood" is a 1% chance every year, with no memory (UNSW Newsroom, read 1 Nov, near-verbatim); about 9.6% over ten years (Jun's arithmetic). Engineers state a chance and a period because they can't buy certainty; FRONTIER S21, Q3 | unvisited | |
+| Auditing: external confirmation (third-party evidence over the client's records) | Candidate from the Kitchen's doors, Sun 1 Nov (Felix: his mum ticks against the bank's letter, never the client's spreadsheet). Mechanism UNVERIFIED (auditing standards not read). Close kin of LS-14: check against the source, not our own notes | unvisited | |
 
 ## Who does what, by round (rotate so no one holds the same job two rounds running)
 | Round day | Scouts (near, adjacent, far) | Flaw-hunter | Judge (cold) |
@@ -102,7 +105,7 @@
 | 3 | Felix, Tess, Kai | Jun | Amara |
 | 4 | Nora, Amara, Jun | Tess | Kai |
 | 5 | Jun, Kai, Amara | Felix | Tess |
-| 6 | Tess, Nora, Felix | Nora | Jun |
+| 6 | Tess, Nora, Felix | Nora (scouts, so **Kai**: Kitchen H-014, Sun 1 Nov) | Jun |
 | then repeat from 1 with the scouts' fields swapped (whoever went near goes far) | | | |
 
 The builder (usually Jun at the Genius Lab) never hunts flaws in or judges their own challenger; if the table would

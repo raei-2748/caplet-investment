@@ -12,7 +12,7 @@
 | 3 | The rival's best plan | Build the strongest plan another team could submit. What does it do better than ours? | Sat 31 Oct (R4) | 1 | 0 |
 | 4 | The oldest instance | Who first solved a problem of this exact shape, and how long ago? | | 0 | 0 |
 | 5 | Price it | What would a bank charge Laura for this piece? What does that price tell us? | | 0 | 0 |
-| 6 | The other side | Who is on the other side of each holding, and why do they want to be? | | 0 | 0 |
+| 6 | The other side | Who is on the other side of each holding, and why do they want to be? | Mon 2 Nov (R6) | 1 | 0 |
 | 7 | Tail first | Start from the worst 1% of paths, not the median. | | 0 | 0 |
 | 8 | Take it away | Delete one component (the stocks, the 2028 deposit, the range). What breaks first? | | 0 | 0 |
 | 9 | The constraint is the gift | Which banned thing (STRIPS, TIPS, derivatives, the trading freeze) makes our answer better than the textbook's? | | 0 | 0 |

@@ -8,6 +8,7 @@
 ## 1. Open questions, ranked (Nora re-ranks each morning: most IPS lift for the least-explored ground first)
 | # | Question | Slot it could move (`CHAMPIONS.md`) | Why it matters | Added | Rounds spent |
 |---|---|---|---|---|---|
+| Q14 | Is everything V50 says about what Laura owns, and about the caplet, true at its source? (Kitchen H-014, Sun 1 Nov; round 6 under the 0:3 dial) | C2, C3, C5, the motif | Five of the ten cheques (2033-37) come from iBond funds that "do not seek to return any predetermined amount at maturity" (IBTM prospectus, 27 Feb 2026), the floor is IBTM too (`../../competition/COMPETITION.md` s7; WInS snapshot 23 Oct), yet V50 says "ten Treasuries" and "pays exactly what it promises"; and V50 calls the caplet "a capsule ... Break it open" while the safety page's "all at once" is said of a crushed slow-release *tablet*, which a caplet is. The TNA and the IPS are "judged together on these five" | Sun 1 Nov | 1 (Round 6, Mon 2 Nov) |
 | Q11 | Once Laura names the range, what can still move the gift, and why is the top above what she owns? (F10; Long Room, 30 Oct) | C5 | 4 of 5 blind readers on 30 Oct asked "why a range once the half is locked?"; the fundraiser named the deleted signal. True answers known (LR-07: only the cheques' 2033 top-up, at most $9,768; case :110-112, List and Lucking-Reiley) but no tested words; candidate "it draws co-sponsors' gifts, and only the cheques can trim it" (+5) | Fri 30 Oct | 0. **Archive, 30 Oct:** V33 (`../ips_rewrite/drafts/D13/`, Book 10) already carries half an answer: "high enough that her lead gift draws bigger ones" (the signal) and "the rare miss is about $1,000" (what can still move it). Round 4 tests V33's words, not new ones |
 | Q2 | Which R makes "X = ten" land: redemption, runway, or something nobody has tried? What do people who name products for a living test before they pick? | C2 | `../BIBLE.md` Book 5: R must be clever, not weird; still open in the THINKING_LOG | Tue 27 Oct | 0 |
 | Q3 | How should the IPS define certainty so a judge says "aha", not "fine"? Who else writes down a standard for "certain enough" (law, engineering, medicine), and does any of them beat the IRS 1-in-20? | C3, C11 | S-05 is a strong challenger; the D4 holder has a factual flaw | Tue 27 Oct | 0 |
@@ -45,6 +46,9 @@
 | F14 | "Laura is willing to take thoughtful risks" turns the case's past career line ("has been willing ... throughout her entrepreneurial career, she wants ... an appropriate balance") into a present portfolio preference | C7 (LR3), Client Knowledge | Archive A28 (31 Oct) | open: "Laura has taken thoughtful risks all her career" (+1, paid by F13's -1) |
 | F15 | V50's bottom is "her floor" with no "rounded down": the IBTM note says the floor's "final payout is not fixed", so the IPS commits to an unfixed sum | C5 | Archive A5 (1 Nov) | open: "The bottom is her floor, rounded down: money she already owns." (+2); check every new draft |
 | F16 | V50R's T4 names the leak as coupons only; Trading Note 1 (a TNA note) names the principal that waits 10.5 months, and V50 named only that | C6 | Archive A16 (1 Nov), blind reader LOW | open: "cash paid early earns less while it waits" (-3 v T4) |
+| F17 | V50 says the late half's truth of the whole ladder: para 3 "A Treasury held to maturity pays exactly what it promises" sits beside "funds that mature like bonds", para 5's floor is "Treasuries maturing in late 2032" but Laura's plan and the WInS book hold IBTM, a fund, there; the five funds pay the 2033-37 cheques (snapshot "Pays for"; `../../competition/COMPETITION.md` s7). Submitted reflection 2: "terminal payout is a net asset value, as opposed to a promise of par" | C3, C5 (pre-mortem 17; with F1, F15) | Kitchen H-014, Kai's catch (1 Nov; IBTM summary prospectus read at the page, near-verbatim) | open: keep "not a probability, but a purchase" (3-0) and say Book 5's condition once, held to the December close (2-1, Jun for "near"); Tess checks IBTO-IBTR's own pages Mon 2 Nov; check every new draft |
+| F18 | The motif's object is wrong in a way the team's name fixes: V50 para 2 "a capsule ... labelled do not crush. Break it open and you ruin how it works". ISMP Canada says the "all at once" danger of a crushed slow-release *tablet*; of capsules it says only "check with your pharmacist". A caplet is "a capsule-shaped medicinal tablet" (Merriam-Webster, `../rooms/night_2026-10-25/library_checks.md` row 1) | C2, the full circle (Book 11 item 4) | Kitchen H-014 (Kai, Jun; the chair's repo find, 1 Nov) | open: "caplet" for "capsule" and "crush" for "break it open" (3-0); "labelled" and the Australian wording to Felix, Mon 2 Nov; check every new draft |
+| F19 | The Courtroom's payoff "Crushing one means selling it before its January" is loose: every rung matures before its January (IBTM Dec 2032 for 2033; the Feb-2037 T-bond for 2038), so after maturity there is nothing left to sell. "Before it matures" is true of all ten | last paragraph (C-05 repair) | Kitchen H-014, Kai (round 3 notes, 1 Nov) | open: to the Window with C-05's gate, Mon 2 Nov 08:40 (`../pm/REQUESTS.md`) |
 
 ## 3. Stepping stones (ideas that lost, or haven't found their place, but left something to build from)
 | # | Stone | What it left | Where it might lead | From |
@@ -69,46 +73,66 @@
 | S18 | A09 at k = 0.65 (locks less, names $125k) | Matched by stock share, A09's lead grows to ~$29k but its bottom falls; the match rule decides the price | FR: show the price at two match rules, never one | Lab L-14; Archive A26 |
 | S19 | The promise's own number (LR-09): all ten cheques paid in full about 998 times in 1,000 in our model, about 98 in 100 in the recession P4 names | The case asks how the cheques' certainty was evaluated (:97-98); Book 11 keeps it out of the IPS | The FR's certainty section, framed as a test of the IPS's "not a probability, but a purchase" (A29) | Laura's Room LR-09, Sun 1 Nov |
 | S20 | The range's own confidence (L-15 C): inside the quoted range in 200,000 of 200,000 paths (S0, S1), 199,999 (S6), on V47's design | True only with the 2031 set-aside (C6, A19), which V50 dropped | The FR's answer to the case's "how confident" (:117-118), once the IPS states the set-aside | Lab L-15, Sun 1 Nov; Archive A19 |
+| S21 | The engineer's standard (Jun's door, H-014): a "hundred-year flood" is a 1% chance every year and the river has no memory (UNSW Newsroom, read 1 Nov, near-verbatim); about 9.6% over ten years (Jun's arithmetic, 1 - 0.99^10). Engineers state a chance and a period because they cannot buy certainty | Laura's cheques are bought, not forecast; but Kai: only honest for 2033-37 once the IPS says "held to the December close" | The FR's way into "how certain" (:97-98), beside S19; Q3 (who writes down "certain enough") | Kitchen H-014, Sun 1 Nov |
 
 ## 4. Tomorrow's scouting orders (written by the send-off at 20:20; Nora may change them at 07:00)
 
-**Round 5, Sun 1 Nov (written by the Kitchen, Sat 31 Oct, 20:20; huddle H-008, Amara, Felix, Tess, 3 rounds).**
-Question: **Q13, who asks a sceptic to pay for a promise, in under a hundred words, and gets believed?** A voice
-round, because Caplet put voice above everything at 13:39 today (I69-I70) and round 4 already answered Q12 (LR3 is
-with the rewrite thread). The reading holds 1,000 pieces (`../voice/reading/LOG.md` line 20; SYNTHESIS 6), mostly
-finance letters and essays, so the scouts go only where it hasn't been: people who ask a doubter to *pay for* a
-promise, at the IPS's length. Lens **11, the practitioner** (never drawn): read them in their own published words.
-**What each scout brings back** (2-1, Amara for one line; Book 10 mode item 1): (1) 50-100 of the practitioner's own
-words, quoted exactly, URL and date read; (2) the move in one line, and the SYNTHESIS section it is *not* in (if it
-is, say so: the find is dry); (3) the named V45 paragraph (`../ips_rewrite/drafts/D25/ips_V45.txt`) rewritten whole
-with that move, every number kept with its source ("in our model, with world stocks at 7.5% a year"), and the rival
-it beats named. To `../ips_rewrite/inbox/2026-11-01_library.md`. **No scout writes a pitch** (the rewrite thread
-owns it; the seed "does the pitch need a cost clause?" goes to the thread). No AI-detector, grammar or formatting work.
-Rotation row 5: scouts **Jun near, Kai adjacent, Amara far**; flaw-hunter **Felix** (first job: hunt the number in
-every return; a lovely paragraph that drops where its figure came from is the $19,000 again, LS-13); cold judge
-**Tess** (three questions: is the quote real? is the move missing from the reading? read aloud, does it sound like a
-person?) plus a blind voice reader on a different model (Commandment IX); builder **Nora** (13:40; the only one free).
-Sunday 17:00 is also the weekly loop-on-the-loop review: LS-06 (vote gate) and LS-13 go to it together.
-- **Near, Jun (Haiku 5.5, breadth): annuity and pension-income sellers** (`unvisited`). People whose whole job is
-  talking a sceptic out of a lump sum and into a smaller sum that is certain: a regulator's or a large insurer's
-  plain-language explainer of what the buyer gives up, and one seller in their own words. Paragraph: **"In 2031 she
-  gives co-sponsors a range"** (a promise sold to people who have to plan around it). New ground: the first near field
-  read for *how it is said*, not how it is priced. (door: Duration, a starter fed at six or the week is lost)
-- **Adjacent, Kai (Sonnet 5.5, depth): auction-house lot essays** (`unvisited`; "auction" appears nowhere in the 1,000
-  pieces). A catalogue essay has to justify a price estimate to a doubter in a few hundred words, and the condition
-  report beside it owns the flaws. Bring back one essay and one condition report from a major house, in their words.
-  Paragraph: **the price paragraph** ("Sell low, by appointment", or LR3 if the thread takes it): the cost said out
-  loud, then why it's worth it. (door: the shot clock reset to fourteen, a smaller promise on a fixed clock)
-- **Far, Amara (Opus 5.5, the cross-domain link): mountain guides' turnaround times** (`unvisited`; no mountaineering in
-  the 1,000 pieces). The narrower question (Amara's check: the bare "cost chosen in advance" move is half in the voice
-  guide's F3): how does a guide *tell a paying client*, before the climb, that they will be turned back short of the
-  top at a set hour, and get them to agree? A guiding company's or a guiding association's own words. Paragraph:
-  **"A capped range has a catch"** (on naming day the promised half moves into Treasuries, whatever the market: a
-  turnaround agreed years in advance; A27's jab is answered here). (door: Arjun's agreed-value car cover)
-- **Off duty, the doors** (fiction; UNVERIFIED until a scout reads the page; this run's session had no web): agreed
-  value v market value cover (Amara), FIBA's 14-second reset (Kai), a bakery deposit that fixes the price (Nora), a
-  starter fed on schedule (Jun), the mahjong limit said aloud before play (Felix), booksellers' condition notes (Tess).
-- **Not tomorrow:** Q11 and Q5 (Q5 is the strongest knowledge question left; Monday, if the Sunday review agrees);
-  A26-A28 (the Window gates A26 at 08:40); Q7 stays with Laura's Room.
+**Round 6, Mon 2 Nov (written by the Kitchen, Sun 1 Nov, 20:20; huddle H-014, Amara, Kai, Jun, 3 rounds).**
+Question: **Q14, is everything V50 says about what Laura owns, and about the caplet, true at its source?** A verify
+round, under the weekly plan's **0 : 3** dial (no new fields; all three deepen or verify the champion's open items;
+nothing new promoted after Tue 3 Nov; the final AI draft goes to Caplet at the end of Wed 4 Nov). Book 11 (16:26) took
+every model number out of the IPS, so nothing here produces one. **The draft to check** is V50 with the rewrite thread's
+19:24 edit (the Courtroom's ending, T3, T6), on `claude/project-thread-3ahu9r` (`../ips_rewrite/drafts/D30/ips_V50.txt`
+there; main still holds the earlier V50); if a newer V lands overnight, check that one. **HEALTH's rule first:** before
+any scout tries it, the Window reads it against s2's open and "check every new draft" lines and the Archive's A1-A30.
+Lens **6, the other side** (never drawn): who stands on the other side of each holding and each claim (the US Treasury,
+iShares, the pharmacist, Wharton), in their own words.
+**LS-14 applied (new tonight):** each job below quotes the Wharton line it was checked against, read at
+`../WHARTON_WORD.md`, and Kai, who didn't write the order, reads it back at 07:00 before Nora sends anyone out.
+**What each scout brings back** (no model numbers; no paragraph rewritten whole; no pitch): the source's own words, quoted
+exactly with URL and date read; the V50 sentence it tests; a verdict, TRUE, FALSE or TRUE IF ...; and for anything not
+true, the plainest true sentence in the same place, with its cost on the strict count. To
+`../ips_rewrite/inbox/2026-11-02_library.md`.
+Rotation row 6: scouts **Tess near, Nora adjacent, Felix far**. The table also lists Nora as flaw-hunter, which she can't be
+while she scouts, so **Kai** hunts flaws (he scouted in round 5, so no job twice running). Cold judge **Jun**: he is handed
+V50 against V50 plus one changed, sourced sentence a paragraph, blind, with no number on the page, and he refuses anything
+not read against A1-A30. Builder at 13:40: **Amara**.
+- **Near, Tess (Haiku 5.5): the funds' own words** (fixed income, mined; deepened on our own holdings). Read the summary
+  prospectuses of IBTO, IBTP, IBTQ and IBTR beside IBTM's (Kai read it tonight, 27 Feb 2026 edition: "The Fund does not
+  seek to return any predetermined amount at maturity or in periodic distributions"), submitted reflection 2 ("terminal
+  payout is a net asset value, as opposed to a promise of par") and the IBTM note ("the final payout is not fixed"). Is
+  "held to the December close" true of all five, in their words? Is each "Treasury" in the pitch and paras 2, 3 and 5
+  true, when the five funds pay the 2033-37 cheques and the floor is IBTM (WInS snapshot 23 Oct, "Pays for";
+  `../../competition/COMPETITION.md` s7)? The huddle's line: keep "not a probability, but a purchase" (3-0) and say Book
+  5's condition once (2-1, Jun for "near"). **Wharton line:** "judged together on these five". **Could change:** pitch,
+  paras 2, 3, 5 (F1, F15, F17; pre-mortem 17). (door: the camera opened before the roll was rewound)
+- **Adjacent, Nora (Sonnet 5.5): why the WInS book holds stocks** (primary sources only; Kai conceded public budgeting
+  3-0). The IPS says the first $300,000 buys the ladder, yet the frozen book, bought with $300,000, holds VT. Read the
+  submitted VT note ("so one cheap fund diversifies Laura's stocks"), reflection 3 ("the only investment not standing
+  between Laura and a payment deadline"), the Nov-2041 note (the only one that says "scaled to the model portfolio") and
+  COMPETITION.md s8 (the book "mirrors Laura's plan scaled to $300k"). Is a "scaled" bridge needed in the IPS, and if so,
+  in the fewest plain words, with no number? **Wharton lines:** the test, "Your WInS portfolio should reflect the
+  strategy your team has developed"; the reason, "explain why each investment belongs in your strategy" (Jun's CORD:
+  the first is the test, not the reason). **Could change:** paras 3, 5 (pre-mortem 16). (door: Lina's money tin with no slot)
+- **Far, Felix (Opus 5.5): the caplet at an Australian source** (pharmacology, mined; the motif's home, deepened). Find an
+  Australian page (TGA, NPS MedicineWise, SHPA's *Don't Rush to Crush*, a state health service) on extended-release
+  tablets or caplets: what they carry and why, in their words. Tonight's reads, all near-verbatim: ISMP Canada, "If a
+  slow-release tablet is crushed, split, or chewed, a large amount of the medicine may be released all at once" (of
+  capsules, only "check with your pharmacist"); Merriam-Webster, a caplet is "a capsule-shaped medicinal tablet"; WA
+  Health (Sep 2014), "Slow release medicines must never be crushed"; a US label (Kai), "Swallow whole; do not crush,
+  chew, split, or dissolve". Three questions: do "caplet" and "crush" (for "capsule" and "break it open") make para 2
+  true at the source (3-0 that they should); does "labelled" hold (the Library, 25 Oct: not every XR tablet carries the
+  words); and does the payoff name the same harm (the seed: a dose all at once, against money handed over early at the
+  market's price)? **Wharton line:** "Presents a clear and creative investment thesis". **Could change:** paras 2 and 9,
+  the full circle (Book 11 item 4; F18). (door: his mum's audit file ticked against the bank's letter)
+- **To rooms, not scouts (3-0):** diversification stays with the Writing Room at 16:20 (start from the submitted VT note's
+  own words; Jun's "spread against what?" is the cold read's test); the A19 cure stays with the Window at 08:40, with
+  Kai's "before it matures" added (F19, request filed).
+- **Off duty, the doors** (fiction; mechanisms read at the page where marked, near-verbatim): the vaccine fridge's
+  bad-reading rule written in advance (Amara, health.gov.au), NSW's five-day cooling-off at 0.25% and none at auction
+  (Kai, nsw.gov.au), the 1% flood every year (Jun, UNSW), Lina's tin with no slot (Nora), the bank's letter over the
+  client's spreadsheet (Felix, UNVERIFIED), the camera opened before rewinding (Tess, Analogue Shop). TERRITORY
+  candidates for after 7 Nov; none is visited under the 0:3 dial.
+- **Not tomorrow:** new fields; Q11 and Q5; anything with a model number; the pitch (the rewrite thread owns it).
 
 (Keel is a simulated team, AI-written.)
