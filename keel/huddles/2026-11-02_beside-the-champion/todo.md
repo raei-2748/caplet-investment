@@ -2,6 +2,6 @@
 - [x] Three diversification candidates at 497, each with the whole idea that pays (Amara; done 2 Nov)
 - [x] Two blind reads of V53, Laura's Room's package and Amara's D1 on Wharton's words only (cold readers, Sonnet and Haiku; done 2 Nov)
 - [x] Answer the five requests and list V53's hard issues with the smallest edits (Tess; done 2 Nov)
-- [ ] Read V53 against W2 blind, with the "what does the last line ask?" say-back (Long Room, Jun; by Mon 2 Nov 18:20)
+- [x] Read V53 against W2 blind, with the "what does the last line ask?" say-back (Long Room, Jun; done 2 Nov: V53 stood, then the room's D beat it 3 of 3, H-019)
 - [ ] Gate "one rung per cheque" and "none sold" against the funds' documents and the WInS book (Window, Felix; by Tue 3 Nov 08:40)
 - [ ] D1 and ledger B6's arithmetic as the Final Report's diversification paragraph (Final Report planner, Tess; after the instructions land, Tue 10 Nov)

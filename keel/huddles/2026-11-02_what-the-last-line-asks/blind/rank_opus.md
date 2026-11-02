@@ -1,0 +1,18 @@
+# Judge opus: rankings
+| Text | Investment Strategy | Client Knowledge | Portfolio Analysis | Articulation | Creativity & Presentation | Total |
+|---|---|---|---|---|---|---|
+| KMGK | 4 | 4 | 4 | 2 | 4 | 18 |
+| UHPT | 4 | 4 | 4 | 2 | 4 | 18 |
+| DYEY | 4 | 4 | 4 | 2 | 4 | 18 |
+
+**Overall order:** UHPT > DYEY > KMGK
+
+**Reasons:**
+
+*Before the texts: the hole they all share.* All three texts set out the same plan, and they differ in only a sentence or two. I stress-tested that plan against the case's cash flows before scoring. The ladder is a coupon ladder bought for less than the $500,000 it must pay. Its funding therefore depends on reinvesting coupons for up to six years before 2033, and for longer inside the payment years, at rates nobody knows yet. The texts name this as "the weak point", which is to their credit. The scenario that widens the gap, yields falling and staying low, usually arrives together with an equity slump. That means the pot meant to fill the gap (half of a stock sleeve that is under a tenth of her money, so under 5%) is smallest exactly when the gap is largest. Two more things are left unsized. One is the "cushion" for reinvestment risk after 2031. The other is the year a rung may stay unbought between January 2027 and January 2028. This is where the plan fails, and I judged each text by how well it closes this failure. I noticed that every difference between the texts is a single line. So I judged each whole again. As wholes, the three are equal on every criterion. They share a clear, original thesis (buy the payments, keep a floor, then growth, then a hedge against her own career), a dated plan for each horizon, and a candid treatment of risk. Diversification and growth are thin (one world fund, under a tenth of her money), and the texts say almost nothing about the team's process or learning. The order below therefore rests on how each whole text carries the funding chain through the stress case. No single sentence sets a score.
+
+**UHPT:** This text has the only complete funding chain. No rung is sold. In 2031 the reinvestment gap is priced and funded from the stocks Laura keeps, and anything the stocks cannot cover lowers the whole range before she names it. In 2033 the reserve explicitly includes everything set aside for it. Under the bad-yield, bad-equity scenario, the cheques stay whole, flexibility gives way first and the promise second, and nothing already said to co-sponsors is broken. That is what the case's "high degree of certainty" and "credible range" demand together.
+
+**DYEY:** This text states the liability-matching thesis most sharply ("we buy them"). It also closes the stress case by lowering the range when the stocks fall short. But its reserve paragraph goes back to "the ladder ... one bond per cheque". The money set aside for the reinvestment gap then has no stated place after 2033, even though the text itself says the ladder alone may fall short. "We buy them" also claims a full match that the same text later admits the ladder does not have. Both gaps are in how the plan is described rather than in its money, so this text ranks second.
+
+**KMGK:** This text has the strongest discipline rule: no rung is sold early, "even for the building". It also keeps the set-aside inside the reserve. However, it never says what happens when the gap is larger than the stocks Laura keeps, which is the likely case in a correlated downturn. Only the closing order of priority (cheques, then floor) implies that the range would be cut before it is announced. The hole is patched by implication rather than priced, so on an actuary's test this text ranks last of three otherwise equal plans.

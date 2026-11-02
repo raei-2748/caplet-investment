@@ -157,6 +157,7 @@ co-sponsor a number she doesn't already own."**
 | Mon 26 Oct 18:30 | 1 | 1 | One motif for the rewrite: XR explains 4 of 9 investing ideas; name + one sentence (B, 3-2-1) | All |
 | Wed 28 Oct 18:20 | 1 | 1 | Coupon-gap cure, beat 8: bank it at the mark (4-1-1); Kai's catch, the model never locked the promised half (top 86%, not 73%) | All |
 | Fri 30 Oct 18:20 | 1 | 1 | Saturday's review draft, beat 8: V30 (B3W less "only"), 5-1; B3W 2-0 cold; why a range once locked goes to round 4 (Q11) | All |
+| Mon 2 Nov 18:20 | 1 | 1 | What the last line asks, beat 8 (H-019): V53 stood blind against W2 and C (6-0); the room's D (V50's crushing line moved to P2, reserve = ladder + the money set aside for its gap; order line and "We buy them" cut, 5-1 each) beat V53 with 3 of 3 outside readers; offered for V54, no fourth flip | All |
 
 ## Calendar (Sydney)
 TNA Sat 24 Oct 08:00 (Keel submits Fri 23 Oct 20:00) · IPS + trading freeze Sat 7 Nov 09:00 (last U.S. fill 08:00) ·

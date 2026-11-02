@@ -1,0 +1,38 @@
+{
+ "written": "Mon 2 Nov 2026, chair, before any reader ran",
+ "texts": {
+  "DYEY": {
+   "arm": "A",
+   "file": "arms/A_V53.txt",
+   "sha256_16": "695ef666e9c02812"
+  },
+  "UHPT": {
+   "arm": "B",
+   "file": "arms/B_W2.txt",
+   "sha256_16": "b64388b3587a408d"
+  },
+  "KMGK": {
+   "arm": "C",
+   "file": "arms/C_crush-defined.txt",
+   "sha256_16": "050b42ff438f8a48"
+  }
+ },
+ "ranking_order": {
+  "haiku": [
+   "UHPT",
+   "KMGK",
+   "DYEY"
+  ],
+  "opus": [
+   "KMGK",
+   "UHPT",
+   "DYEY"
+  ],
+  "fable": [
+   "UHPT",
+   "KMGK",
+   "DYEY"
+  ]
+ },
+ "deviation": "Rankings: one call per model reads all three coded texts together (coin order above) instead of two pairwise calls (A v B, then W v C); pairwise orders and per-criterion scores are read off the one call. Chair's budget call, saves three calls; logged for the room to accept or reject in round 2."
+}
