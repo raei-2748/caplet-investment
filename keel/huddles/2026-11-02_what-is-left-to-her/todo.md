@@ -5,5 +5,5 @@
 - [x] Tick V53 against every case line, ranked (Felix; done 2 Nov)
 - [x] Reply by name and vote one P8 package (Amara, Kai, Felix; done 2 Nov)
 - [ ] Read the package blind beside V53 (Writing Room, Tess; by Tue 3 Nov 16:20)
-- [ ] Gate LR-10 from a clean checkout and byte-check the CME quotes if the host opens (Window, Felix; by Tue 3 Nov 08:40)
+- [x] Gate LR-10 from a clean checkout and byte-check the CME quotes if the host opens (Window, Felix; done 3 Nov: S0 and S6 identical, H branch right; both CME quotes found near-verbatim via the fetch tool, both conditional; `../../ips_rewrite/inbox/2026-11-03_window.md` s3)
 - [ ] Why a quarter? Amount, reason, proof for the Final Report (Genius Lab, Jun; after 7 Nov)

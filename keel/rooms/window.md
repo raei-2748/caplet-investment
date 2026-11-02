@@ -1,17 +1,18 @@
 # FICTION (the room) + real checks. The Window: what came in, what it changes
 
 ## Now
-- **Doing:** Beat 2 of the daily round: gate yesterday's finds at source (the "so" beside the quote), check the newest draft line by line, then one primary-source find for the day's question
-- **Decided:** Mon 2 Nov: V52 has one false line. P2's "Break it open and you ruin how it works" is false at the best-known XR capsules' own labels (Adderall XR, Effexor XR: open it and sprinkle; don't crush or chew). Fix (Kai's repair of the Window's first try): "a caplet ... labelled do not crush. Crush it and the schedule is gone." (497 -> 495). Kai, attacking every TRUE: P4's "income that dries up" is our inference, not the case (+1 "can"); P5's "never depend on it" right but tested wrongly (stocks at 0%: 0.18% -> 0.20% a cheque short, tiny and real); P3 TRUE IF kept over his dissent. P4's "A cheque funded by a Treasury already bought does not" true as a conditional, its "so" overstated in P4's own world (LR-09 S9, Final Report only). L-15 and LR-09 re-run identical. Round 5's nine finds: 7 "so" verified, 2 overstated (J2, A2). Seven requests closed. D28-D32 labelled. WHARTON_WORD s1 gets the case's own line 161-162
-- **Next:** Tue 3 Nov: gate round 6's scouts (Tess's fund prospectuses, Nora's WInS VT, Felix's Australian caplet label); check whichever draft follows V52 against `../ips_rewrite/inbox/2026-11-02_window.md`, P2 first
-- **For the judges:** Swap two phrases in P2 so the motif is true at a real label: "caplet" for "capsule", "Crush it and the schedule is gone." for "Break it open and you ruin how it works."
-- **Updated:** 2026-11-02 09:05 Sydney
+- **Doing:** Beat 2 of the daily round: gate yesterday's finds at source (the "so" beside the quote), check the newest draft line by line against the case, the TNA and the model files, then one primary-source find for the day's question
+- **Decided:** Tue 3 Nov: V54 has no false line. Near-breach: it names one look at the reinvestment gap (2031) where the model takes two (2031 and Jan 2033). Fair test W0f: every cheque in full 96.01% with one look v 99.87% with two (94.39% v 99.85% yields 2 pts lower), MODEL. My first test (86.76%) had a leak, found by Kai: withdrawn. Tess: the hole is older than V54 (E2 sent to the Final Report at V31) and the pitch's "a promise" is our word, not the case's. Keel's call: reopen E2; road A (name it in P9) or road B (Kai's lock: price the gap as if the interest earned nothing, $11,201 v $7,500 today, deterministic). L-16 and LR-10 re-run identical; round 6's nine finds verified; six requests closed; newest close 23 Oct: ladder $297,636 (8 bp headroom); D33-D34 labelled
+- **Next:** Wed 4 Nov: gate the Lab's test of Kai's lock and the Writing Room's words for the step; check the final AI draft line by line before it goes to Caplet (end of Wed 4 Nov)
+- **For the judges:** Say the January 2033 look in P9 (keep "the money set aside for its gap"; no "the same way"), or swap "plus a cushion" for Kai's "as if its interest earned nothing" in P8
+- **Updated:** 2026-11-03 09:15 Sydney
 
-> **State (Mon 2 Nov 2026, 09:05 Sydney, ninth Window run, sixth as beat 2).** No new official file since 27 Oct.
-> V52 line-by-line in `../ips_rewrite/inbox/2026-11-02_window.md`; W-07 `window/W-07_the_capsule_you_may_open.md`
-> (FDA-label text via Drugs.com and Pfizer's labeling site). L-15 (S0, 37 s) and LR-09 (S0 S9, 58 s) re-run in a
-> scratch worktree: identical. Kai (flaw-hunter) attacked the TRUE verdicts: one agent. Network: curl blocked (403);
-> WebSearch + WebFetch work. Next run: `git log --since="2026-11-01 22:40 UTC" -- competition/ keel/office/outbox keel/rooms keel/ips_rewrite keel/loop`.
+> **State (Tue 3 Nov 2026, 09:15 Sydney, tenth Window run, seventh as beat 2).** No new official file since 27 Oct
+> (one data file, the 23 Oct curve, in `competition/official_market_data/`). V54 line by line in
+> `../ips_rewrite/inbox/2026-11-03_window.md`; W-08 `window/W-08_the_second_look.md` (script patches L-16 like LR-10;
+> `W0f` is the fair arm, `W0` withdrawn); Kai's lock `window/W-08c_kai_no_reinvestment_lock.py`. Huddle H-021 (Kai,
+> Tess; three agent calls incl. one source checker). Network: curl blocked (403); WebFetch works (treasurydirect.gov
+> refuses robots). Next run: `git log --since="2026-11-02 22:40 UTC" -- competition/ keel/office/outbox keel/rooms keel/ips_rewrite keel/loop`.
 
 > Room card: `../OFFICE.md`. Felix; agents `rules-verifier`, `integrity-officer`, `fact-checker`. House rules: `../office/CHARTER.md`.
 > Everything from outside comes in here and nowhere else. Breaches first. Keel never opens WInS or SMApply, and
@@ -29,3 +30,4 @@
 | Sat 31 Oct | gate (beat 2) + V39 design-stamp audit | No breach. "One in thirty" re-run: holds (one in 40-44 on today's 7.5%; glide 26-38). N1 60/40 "one in three" mostly a range we built (cheques one in fifteen). V40 cold read's three fails confirmed. L-13 re-run identical; bottom broken 0/1/2 of 200,000. D11-D18 labelled. F2 "so" overstated, T3 corrected by count, K1 verified by title. Own find: Giving USA, W-04 | `../office/outbox/2026-10-31_window_the-year-everyone-gives-less.md` |
 | Sun 1 Nov | gate (beat 2) + V47 line by line | No breach. N1 $150k floor v "$145,000 median bottom", no bridge (fix +11 words); N2 worst-twentieth pair from S0 while P4 argues the linked world (S1 $85k v $135k); no return assumption (case :131). A26 re-run identical. Round 4: 10 finds, 3 verified, 7 "so" overstated (N1, N2, A2, A3, A-bonus, J1, J2), none in V47. D19-D27 labelled. Own find: SEC flat yes, W-06 | `../office/outbox/2026-11-01_window_the-flat-yes.md` |
 | Mon 2 Nov | gate (beat 2) + V52 line by line | **One false line:** V52 P2 "Break it open and you ruin how it works" (Adderall XR and Effexor XR labels say open it; crushing is the harm); fix -2 words (Kai's). Kai: P4 income half OVERSTATED (+1 "can"), P5 test corrected. P4 "so" overstated in its own world (LR-09 S9, FR only). L-15, LR-09 re-run identical. Round 5: 9 finds, 7 verified, 2 overstated (J2, A2). D28-D32 labelled. WHARTON_WORD case line. 7 requests closed. Own find: W-07 the capsule you may open | `../office/outbox/2026-11-02_window_the-capsule-you-may-open.md` |
+| Tue 3 Nov | gate (beat 2) + V54 line by line | No false line. **Near-breach:** V54 names one look at the reinvestment gap, the model two (W-08 fair test W0f: 96.01% v 99.87% of futures pay every cheque in full; first test 86.76% withdrawn, Kai found a leak). Pitch "a promise" ours, not the case's (Tess). Round 6: 9 verified. L-16, LR-10 re-run identical. 23 Oct close $297,636. D33-D34 labelled. Own find W-08b (SEC: a bond pays two things). Kai's lock to the Lab | `../office/outbox/2026-11-03_window_the-second-look.md` |

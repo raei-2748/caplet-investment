@@ -89,6 +89,10 @@ $300,000 buys all ten payments" is a one-close call, not a fact: echo only the I
 face value: say "IBTM sized to pay about $150k in 2032, quoted at $145k". Older 15 Oct figures: VT ~$32k in
 Jan 2028; range ~$145k-$168k; ~99% inside; coupon shortfall ~$21k if yields fall 2pt for good.
 New: `lab/R01_dedication.py` (this folder).
+**Window, Tue 3 Nov:** a newer close is now on file, 23 Oct (`competition/official_market_data/daily-treasury-rates_2026-10-23.csv`,
+treasury.gov par curve, Jan-23 Oct 2026, added 25 Oct with the coupon-shortfall scripts): ladder **$297,636, headroom
+$2,364 (8bp)** on the payment-date basis (`../scripts/ladder_pv.py`; its 22 Oct re-run gives $298,861, identical). Still
+a one-close call: keep P5's "first finishes any rung the first $300,000 couldn't buy". The repo has no close after 23 Oct.
 
 ## 6. Halfway-point newsletter (27 Oct; `competition/official/2026_27/wharton_email_week5_2026-10.md`)
 "Updated IPS instructions" are linked (Box) but could not be opened here: the form's fields and limits are

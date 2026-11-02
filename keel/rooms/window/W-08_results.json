@@ -1,0 +1,641 @@
+{
+ "stamp": "curve 22 Oct 2026 | J.P. Morgan 2027 global equities 7.5% | 200,000 paths, seed 20261016 | rho 0.5 unless S0 | V54's design (= V52/V53 as modelled) via L-13 -> L-14 -> L-16, W0/W1 added | MODEL",
+ "S0 base, rates and stocks independent": {
+  "A0 V52 as modelled (margin 7.5k)": {
+   "cheques_paid_in_full": 0.9982,
+   "p_cheque_short_any": 0.0018,
+   "p_cheque_short_over_1k": 0.0003,
+   "short_p50_p90_when_short": [
+    359,
+    1203
+   ],
+   "short_parts_share_of_dollars": {
+    "rung_never_bought_2027_28": 0.0,
+    "visible_in_2033_unpaid": 0.0,
+    "after_2033_reinvestment": 1.0
+   },
+   "p_short_from_post2033_only": 0.0018,
+   "kept_half": {
+    "p_gap_takes_any": 0.7132,
+    "share_taken_p50_p90_when_taken": [
+     0.534,
+     1.0
+    ],
+    "p_half_or_more_taken": 0.38,
+    "p_nothing_left": 0.1901,
+    "left_2033_p5_p50": [
+     0,
+     13910
+    ],
+    "untouched_2033_p50": 21681,
+    "p_sold_after_2033_for_cheques": 0.0,
+    "sold_after_p50_when": 0
+   },
+   "p_range_lowered_on_naming_day": 0.1689,
+   "range_cut_p50_when": 10000,
+   "p_gift_pays_cheques_after_naming": 0.1605,
+   "gift_paid_p50_when": 7588,
+   "p_top_reached": 0.979,
+   "p_below_quoted_bottom": 0.0,
+   "top_quoted_p50": 165000,
+   "gift_mean": 159957,
+   "laura_2042_mean": 49270
+  },
+  "A1 V52 as written (no margin)": {
+   "cheques_paid_in_full": 0.7609,
+   "p_cheque_short_any": 0.2391,
+   "p_cheque_short_over_1k": 0.2019,
+   "short_p50_p90_when_short": [
+    3076,
+    5331
+   ],
+   "short_parts_share_of_dollars": {
+    "rung_never_bought_2027_28": 0.0,
+    "visible_in_2033_unpaid": 0.0,
+    "after_2033_reinvestment": 1.0
+   },
+   "p_short_from_post2033_only": 0.2391,
+   "kept_half": {
+    "p_gap_takes_any": 0.3634,
+    "share_taken_p50_p90_when_taken": [
+     0.527,
+     1.0
+    ],
+    "p_half_or_more_taken": 0.1889,
+    "p_nothing_left": 0.097,
+    "left_2033_p5_p50": [
+     0,
+     19405
+    ],
+    "untouched_2033_p50": 21681,
+    "p_sold_after_2033_for_cheques": 0.0,
+    "sold_after_p50_when": 0
+   },
+   "p_range_lowered_on_naming_day": 0.0821,
+   "range_cut_p50_when": 10000,
+   "p_gift_pays_cheques_after_naming": 0.08,
+   "gift_paid_p50_when": 5972,
+   "p_top_reached": 0.9826,
+   "p_below_quoted_bottom": 0.0,
+   "top_quoted_p50": 165000,
+   "gift_mean": 161110,
+   "laura_2042_mean": 54508
+  },
+  "W0 V54 as written: cushion, no second look": {
+   "cheques_paid_in_full": 0.8676,
+   "p_cheque_short_any": 0.1324,
+   "p_cheque_short_over_1k": 0.1132,
+   "short_p50_p90_when_short": [
+    4715,
+    15742
+   ],
+   "short_parts_share_of_dollars": {
+    "rung_never_bought_2027_28": 0.0,
+    "visible_in_2033_unpaid": 0.6582,
+    "after_2033_reinvestment": 0.3418
+   },
+   "p_short_from_post2033_only": 0.0487,
+   "kept_half": {
+    "p_gap_takes_any": 0.7021,
+    "share_taken_p50_p90_when_taken": [
+     0.515,
+     1.0
+    ],
+    "p_half_or_more_taken": 0.3626,
+    "p_nothing_left": 0.1754,
+    "left_2033_p5_p50": [
+     0,
+     14319
+    ],
+    "untouched_2033_p50": 21681,
+    "p_sold_after_2033_for_cheques": 0.0,
+    "sold_after_p50_when": 0
+   },
+   "p_range_lowered_on_naming_day": 0.1689,
+   "range_cut_p50_when": 10000,
+   "p_gift_pays_cheques_after_naming": 0.0,
+   "gift_paid_p50_when": 0,
+   "p_top_reached": 0.994,
+   "p_below_quoted_bottom": 0.0,
+   "top_quoted_p50": 165000,
+   "gift_mean": 159980,
+   "laura_2042_mean": 50493
+  },
+  "W1 no cushion, no second look": {
+   "cheques_paid_in_full": 0.7039,
+   "p_cheque_short_any": 0.2961,
+   "p_cheque_short_over_1k": 0.2614,
+   "short_p50_p90_when_short": [
+    4636,
+    11487
+   ],
+   "short_parts_share_of_dollars": {
+    "rung_never_bought_2027_28": 0.0,
+    "visible_in_2033_unpaid": 0.5683,
+    "after_2033_reinvestment": 0.4317
+   },
+   "p_short_from_post2033_only": 0.0745,
+   "kept_half": {
+    "p_gap_takes_any": 0.3297,
+    "share_taken_p50_p90_when_taken": [
+     0.521,
+     1.0
+    ],
+    "p_half_or_more_taken": 0.1698,
+    "p_nothing_left": 0.0863,
+    "left_2033_p5_p50": [
+     0,
+     19715
+    ],
+    "untouched_2033_p50": 21681,
+    "p_sold_after_2033_for_cheques": 0.0,
+    "sold_after_p50_when": 0
+   },
+   "p_range_lowered_on_naming_day": 0.0821,
+   "range_cut_p50_when": 10000,
+   "p_gift_pays_cheques_after_naming": 0.0,
+   "gift_paid_p50_when": 0,
+   "p_top_reached": 0.9906,
+   "p_below_quoted_bottom": 0.0,
+   "top_quoted_p50": 165000,
+   "gift_mean": 161122,
+   "laura_2042_mean": 55883
+  },
+  "A0f A0, cut paid on naming day, realised gap": {
+   "cheques_paid_in_full": 0.9987,
+   "p_cheque_short_any": 0.0014,
+   "p_cheque_short_over_1k": 0.0002,
+   "short_p50_p90_when_short": [
+    348,
+    1213
+   ],
+   "short_parts_share_of_dollars": {
+    "rung_never_bought_2027_28": 0.0,
+    "visible_in_2033_unpaid": 0.0,
+    "after_2033_reinvestment": 1.0
+   },
+   "p_short_from_post2033_only": 0.0014,
+   "kept_half": {
+    "p_gap_takes_any": 0.7132,
+    "share_taken_p50_p90_when_taken": [
+     0.534,
+     1.0
+    ],
+    "p_half_or_more_taken": 0.38,
+    "p_nothing_left": 0.1901,
+    "left_2033_p5_p50": [
+     0,
+     13910
+    ],
+    "untouched_2033_p50": 21681,
+    "p_sold_after_2033_for_cheques": 0.0,
+    "sold_after_p50_when": 0
+   },
+   "p_range_lowered_on_naming_day": 0.1689,
+   "range_cut_p50_when": 10000,
+   "p_gift_pays_cheques_after_naming": 0.0809,
+   "gift_paid_p50_when": 1829,
+   "p_top_reached": 0.9784,
+   "p_below_quoted_bottom": 0.0,
+   "top_quoted_p50": 165000,
+   "gift_mean": 159956,
+   "laura_2042_mean": 49270
+  },
+  "W0f W0, cut paid on naming day, realised gap": {
+   "cheques_paid_in_full": 0.9601,
+   "p_cheque_short_any": 0.0399,
+   "p_cheque_short_over_1k": 0.0244,
+   "short_p50_p90_when_short": [
+    1341,
+    3822
+   ],
+   "short_parts_share_of_dollars": {
+    "rung_never_bought_2027_28": 0.0,
+    "visible_in_2033_unpaid": 0.0407,
+    "after_2033_reinvestment": 0.9593
+   },
+   "p_short_from_post2033_only": 0.037,
+   "kept_half": {
+    "p_gap_takes_any": 0.7021,
+    "share_taken_p50_p90_when_taken": [
+     0.515,
+     1.0
+    ],
+    "p_half_or_more_taken": 0.3626,
+    "p_nothing_left": 0.1754,
+    "left_2033_p5_p50": [
+     0,
+     14319
+    ],
+    "untouched_2033_p50": 21681,
+    "p_sold_after_2033_for_cheques": 0.0,
+    "sold_after_p50_when": 0
+   },
+   "p_range_lowered_on_naming_day": 0.1689,
+   "range_cut_p50_when": 10000,
+   "p_gift_pays_cheques_after_naming": 0.0,
+   "gift_paid_p50_when": 0,
+   "p_top_reached": 0.9929,
+   "p_below_quoted_bottom": 0.0,
+   "top_quoted_p50": 165000,
+   "gift_mean": 159980,
+   "laura_2042_mean": 49678
+  },
+  "W1f W1, cut paid on naming day, realised gap": {
+   "cheques_paid_in_full": 0.747,
+   "p_cheque_short_any": 0.253,
+   "p_cheque_short_over_1k": 0.2211,
+   "short_p50_p90_when_short": [
+    3886,
+    8225
+   ],
+   "short_parts_share_of_dollars": {
+    "rung_never_bought_2027_28": 0.0,
+    "visible_in_2033_unpaid": 0.3699,
+    "after_2033_reinvestment": 0.6301
+   },
+   "p_short_from_post2033_only": 0.0939,
+   "kept_half": {
+    "p_gap_takes_any": 0.3297,
+    "share_taken_p50_p90_when_taken": [
+     0.521,
+     1.0
+    ],
+    "p_half_or_more_taken": 0.1698,
+    "p_nothing_left": 0.0863,
+    "left_2033_p5_p50": [
+     0,
+     19715
+    ],
+    "untouched_2033_p50": 21681,
+    "p_sold_after_2033_for_cheques": 0.0,
+    "sold_after_p50_when": 0
+   },
+   "p_range_lowered_on_naming_day": 0.0821,
+   "range_cut_p50_when": 10000,
+   "p_gift_pays_cheques_after_naming": 0.0,
+   "gift_paid_p50_when": 0,
+   "p_top_reached": 0.9901,
+   "p_below_quoted_bottom": 0.0,
+   "top_quoted_p50": 165000,
+   "gift_mean": 161121,
+   "laura_2042_mean": 55347
+  },
+  "worst_tenth_of_naming_day_gaps": {
+   "A0 V52 as modelled (margin 7.5k)": {
+    "p_nothing_left": 0.7002,
+    "share_taken_p50": 1.0,
+    "p_cheque_short_any": 0.0019
+   },
+   "A1 V52 as written (no margin)": {
+    "p_nothing_left": 0.5543,
+    "share_taken_p50": 1.0,
+    "p_cheque_short_any": 0.6548
+   },
+   "W0 V54 as written: cushion, no second look": {
+    "p_nothing_left": 0.6879,
+    "share_taken_p50": 1.0,
+    "p_cheque_short_any": 0.5864
+   },
+   "W1 no cushion, no second look": {
+    "p_nothing_left": 0.5359,
+    "share_taken_p50": 1.0,
+    "p_cheque_short_any": 0.7585
+   },
+   "A0f A0, cut paid on naming day, realised gap": {
+    "p_nothing_left": 0.7002,
+    "share_taken_p50": 1.0,
+    "p_cheque_short_any": 0.0004
+   },
+   "W0f W0, cut paid on naming day, realised gap": {
+    "p_nothing_left": 0.6879,
+    "share_taken_p50": 1.0,
+    "p_cheque_short_any": 0.0456
+   },
+   "W1f W1, cut paid on naming day, realised gap": {
+    "p_nothing_left": 0.5359,
+    "share_taken_p50": 1.0,
+    "p_cheque_short_any": 0.6148
+   }
+  }
+ },
+ "S6 yields fall 2pt just after the build, for good": {
+  "A0 V52 as modelled (margin 7.5k)": {
+   "cheques_paid_in_full": 0.9968,
+   "p_cheque_short_any": 0.0032,
+   "p_cheque_short_over_1k": 0.0005,
+   "short_p50_p90_when_short": [
+    364,
+    1172
+   ],
+   "short_parts_share_of_dollars": {
+    "rung_never_bought_2027_28": 0.0,
+    "visible_in_2033_unpaid": 0.0,
+    "after_2033_reinvestment": 1.0
+   },
+   "p_short_from_post2033_only": 0.0032,
+   "kept_half": {
+    "p_gap_takes_any": 0.8786,
+    "share_taken_p50_p90_when_taken": [
+     1.0,
+     1.0
+    ],
+    "p_half_or_more_taken": 0.7694,
+    "p_nothing_left": 0.6538,
+    "left_2033_p5_p50": [
+     0,
+     0
+    ],
+    "untouched_2033_p50": 13320,
+    "p_sold_after_2033_for_cheques": 0.0,
+    "sold_after_p50_when": 0
+   },
+   "p_range_lowered_on_naming_day": 0.6285,
+   "range_cut_p50_when": 20000,
+   "p_gift_pays_cheques_after_naming": 0.6118,
+   "gift_paid_p50_when": 16710,
+   "p_top_reached": 0.9602,
+   "p_below_quoted_bottom": 0.0,
+   "top_quoted_p50": 145000,
+   "gift_mean": 141771,
+   "laura_2042_mean": 23725
+  },
+  "A1 V52 as written (no margin)": {
+   "cheques_paid_in_full": 0.466,
+   "p_cheque_short_any": 0.534,
+   "p_cheque_short_over_1k": 0.4714,
+   "short_p50_p90_when_short": [
+    3324,
+    5237
+   ],
+   "short_parts_share_of_dollars": {
+    "rung_never_bought_2027_28": 0.0,
+    "visible_in_2033_unpaid": 0.0,
+    "after_2033_reinvestment": 1.0
+   },
+   "p_short_from_post2033_only": 0.534,
+   "kept_half": {
+    "p_gap_takes_any": 0.7651,
+    "share_taken_p50_p90_when_taken": [
+     1.0,
+     1.0
+    ],
+    "p_half_or_more_taken": 0.639,
+    "p_nothing_left": 0.5228,
+    "left_2033_p5_p50": [
+     0,
+     0
+    ],
+    "untouched_2033_p50": 13320,
+    "p_sold_after_2033_for_cheques": 0.0,
+    "sold_after_p50_when": 0
+   },
+   "p_range_lowered_on_naming_day": 0.4921,
+   "range_cut_p50_when": 15000,
+   "p_gift_pays_cheques_after_naming": 0.4803,
+   "gift_paid_p50_when": 12853,
+   "p_top_reached": 0.9663,
+   "p_below_quoted_bottom": 0.0,
+   "top_quoted_p50": 150000,
+   "gift_mean": 146334,
+   "laura_2042_mean": 23765
+  },
+  "W0 V54 as written: cushion, no second look": {
+   "cheques_paid_in_full": 0.4577,
+   "p_cheque_short_any": 0.5423,
+   "p_cheque_short_over_1k": 0.5176,
+   "short_p50_p90_when_short": [
+    13737,
+    28575
+   ],
+   "short_parts_share_of_dollars": {
+    "rung_never_bought_2027_28": 0.0,
+    "visible_in_2033_unpaid": 0.8285,
+    "after_2033_reinvestment": 0.1715
+   },
+   "p_short_from_post2033_only": 0.0608,
+   "kept_half": {
+    "p_gap_takes_any": 0.8676,
+    "share_taken_p50_p90_when_taken": [
+     1.0,
+     1.0
+    ],
+    "p_half_or_more_taken": 0.7536,
+    "p_nothing_left": 0.636,
+    "left_2033_p5_p50": [
+     0,
+     0
+    ],
+    "untouched_2033_p50": 13320,
+    "p_sold_after_2033_for_cheques": 0.0,
+    "sold_after_p50_when": 0
+   },
+   "p_range_lowered_on_naming_day": 0.6285,
+   "range_cut_p50_when": 20000,
+   "p_gift_pays_cheques_after_naming": 0.0,
+   "gift_paid_p50_when": 0,
+   "p_top_reached": 0.998,
+   "p_below_quoted_bottom": 0.0,
+   "top_quoted_p50": 145000,
+   "gift_mean": 141827,
+   "laura_2042_mean": 31908
+  },
+  "W1 no cushion, no second look": {
+   "cheques_paid_in_full": 0.3327,
+   "p_cheque_short_any": 0.6673,
+   "p_cheque_short_over_1k": 0.6323,
+   "short_p50_p90_when_short": [
+    10590,
+    27378
+   ],
+   "short_parts_share_of_dollars": {
+    "rung_never_bought_2027_28": 0.0,
+    "visible_in_2033_unpaid": 0.8028,
+    "after_2033_reinvestment": 0.1972
+   },
+   "p_short_from_post2033_only": 0.0715,
+   "kept_half": {
+    "p_gap_takes_any": 0.7435,
+    "share_taken_p50_p90_when_taken": [
+     1.0,
+     1.0
+    ],
+    "p_half_or_more_taken": 0.6149,
+    "p_nothing_left": 0.5006,
+    "left_2033_p5_p50": [
+     0,
+     466
+    ],
+    "untouched_2033_p50": 13320,
+    "p_sold_after_2033_for_cheques": 0.0,
+    "sold_after_p50_when": 0
+   },
+   "p_range_lowered_on_naming_day": 0.4921,
+   "range_cut_p50_when": 15000,
+   "p_gift_pays_cheques_after_naming": 0.0,
+   "gift_paid_p50_when": 0,
+   "p_top_reached": 0.9964,
+   "p_below_quoted_bottom": 0.0,
+   "top_quoted_p50": 150000,
+   "gift_mean": 146377,
+   "laura_2042_mean": 31017
+  },
+  "A0f A0, cut paid on naming day, realised gap": {
+   "cheques_paid_in_full": 0.9985,
+   "p_cheque_short_any": 0.0015,
+   "p_cheque_short_over_1k": 0.0002,
+   "short_p50_p90_when_short": [
+    370,
+    1158
+   ],
+   "short_parts_share_of_dollars": {
+    "rung_never_bought_2027_28": 0.0,
+    "visible_in_2033_unpaid": 0.0,
+    "after_2033_reinvestment": 1.0
+   },
+   "p_short_from_post2033_only": 0.0015,
+   "kept_half": {
+    "p_gap_takes_any": 0.8786,
+    "share_taken_p50_p90_when_taken": [
+     1.0,
+     1.0
+    ],
+    "p_half_or_more_taken": 0.7694,
+    "p_nothing_left": 0.6538,
+    "left_2033_p5_p50": [
+     0,
+     0
+    ],
+    "untouched_2033_p50": 13320,
+    "p_sold_after_2033_for_cheques": 0.0,
+    "sold_after_p50_when": 0
+   },
+   "p_range_lowered_on_naming_day": 0.6285,
+   "range_cut_p50_when": 20000,
+   "p_gift_pays_cheques_after_naming": 0.2409,
+   "gift_paid_p50_when": 1762,
+   "p_top_reached": 0.9586,
+   "p_below_quoted_bottom": 0.0,
+   "top_quoted_p50": 145000,
+   "gift_mean": 141771,
+   "laura_2042_mean": 23725
+  },
+  "W0f W0, cut paid on naming day, realised gap": {
+   "cheques_paid_in_full": 0.9439,
+   "p_cheque_short_any": 0.0561,
+   "p_cheque_short_over_1k": 0.0327,
+   "short_p50_p90_when_short": [
+    1274,
+    3598
+   ],
+   "short_parts_share_of_dollars": {
+    "rung_never_bought_2027_28": 0.0,
+    "visible_in_2033_unpaid": 0.0415,
+    "after_2033_reinvestment": 0.9585
+   },
+   "p_short_from_post2033_only": 0.0523,
+   "kept_half": {
+    "p_gap_takes_any": 0.8676,
+    "share_taken_p50_p90_when_taken": [
+     1.0,
+     1.0
+    ],
+    "p_half_or_more_taken": 0.7536,
+    "p_nothing_left": 0.636,
+    "left_2033_p5_p50": [
+     0,
+     0
+    ],
+    "untouched_2033_p50": 13320,
+    "p_sold_after_2033_for_cheques": 0.0,
+    "sold_after_p50_when": 0
+   },
+   "p_range_lowered_on_naming_day": 0.6285,
+   "range_cut_p50_when": 20000,
+   "p_gift_pays_cheques_after_naming": 0.0,
+   "gift_paid_p50_when": 0,
+   "p_top_reached": 0.9955,
+   "p_below_quoted_bottom": 0.0,
+   "top_quoted_p50": 145000,
+   "gift_mean": 141826,
+   "laura_2042_mean": 24038
+  },
+  "W1f W1, cut paid on naming day, realised gap": {
+   "cheques_paid_in_full": 0.4939,
+   "p_cheque_short_any": 0.5061,
+   "p_cheque_short_over_1k": 0.4528,
+   "short_p50_p90_when_short": [
+    3625,
+    7606
+   ],
+   "short_parts_share_of_dollars": {
+    "rung_never_bought_2027_28": 0.0,
+    "visible_in_2033_unpaid": 0.315,
+    "after_2033_reinvestment": 0.685
+   },
+   "p_short_from_post2033_only": 0.2264,
+   "kept_half": {
+    "p_gap_takes_any": 0.7435,
+    "share_taken_p50_p90_when_taken": [
+     1.0,
+     1.0
+    ],
+    "p_half_or_more_taken": 0.6149,
+    "p_nothing_left": 0.5006,
+    "left_2033_p5_p50": [
+     0,
+     466
+    ],
+    "untouched_2033_p50": 13320,
+    "p_sold_after_2033_for_cheques": 0.0,
+    "sold_after_p50_when": 0
+   },
+   "p_range_lowered_on_naming_day": 0.4921,
+   "range_cut_p50_when": 15000,
+   "p_gift_pays_cheques_after_naming": 0.0,
+   "gift_paid_p50_when": 0,
+   "p_top_reached": 0.9948,
+   "p_below_quoted_bottom": 0.0,
+   "top_quoted_p50": 150000,
+   "gift_mean": 146376,
+   "laura_2042_mean": 24532
+  },
+  "worst_tenth_of_naming_day_gaps": {
+   "A0 V52 as modelled (margin 7.5k)": {
+    "p_nothing_left": 0.9277,
+    "share_taken_p50": 1.0,
+    "p_cheque_short_any": 0.0008
+   },
+   "A1 V52 as written (no margin)": {
+    "p_nothing_left": 0.8649,
+    "share_taken_p50": 1.0,
+    "p_cheque_short_any": 0.8527
+   },
+   "W0 V54 as written: cushion, no second look": {
+    "p_nothing_left": 0.9232,
+    "share_taken_p50": 1.0,
+    "p_cheque_short_any": 0.8829
+   },
+   "W1 no cushion, no second look": {
+    "p_nothing_left": 0.8585,
+    "share_taken_p50": 1.0,
+    "p_cheque_short_any": 0.9345
+   },
+   "A0f A0, cut paid on naming day, realised gap": {
+    "p_nothing_left": 0.9277,
+    "share_taken_p50": 1.0,
+    "p_cheque_short_any": 0.0
+   },
+   "W0f W0, cut paid on naming day, realised gap": {
+    "p_nothing_left": 0.9232,
+    "share_taken_p50": 1.0,
+    "p_cheque_short_any": 0.0089
+   },
+   "W1f W1, cut paid on naming day, realised gap": {
+    "p_nothing_left": 0.8585,
+    "share_taken_p50": 1.0,
+    "p_cheque_short_any": 0.7808
+   }
+  }
+ }
+}

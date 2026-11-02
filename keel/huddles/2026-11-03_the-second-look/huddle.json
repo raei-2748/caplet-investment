@@ -1,0 +1,60 @@
+{
+  "id": "H-021",
+  "slug": "the-second-look",
+  "title": "The second look",
+  "question": "V54 names one look at the bond ladder's reinvestment gap, on naming day in 2031; the model behind every cheque figure looks again in January 2033 and tops the reserve up. Does the text's one look carry the cheques, and what is the truest few-word fix? (round 7 beat 2; W-08)",
+  "room": "Window",
+  "chair": "Felix",
+  "opened": "2026-11-03",
+  "status": "closed",
+  "closed": "2026-11-03",
+  "members": [
+    "Felix",
+    "Kai",
+    "Tess"
+  ],
+  "serves": "North star 4 (investing knowledge, applied and true); Wharton: Investment Strategy (define a high degree of funding certainty; the reserve's size and initial asset composition)",
+  "rounds": [
+    {
+      "n": 1,
+      "name": "Felix posts the finding",
+      "date": "2026-11-03",
+      "posts": ["posts/r1_felix.md"]
+    },
+    {
+      "n": 2,
+      "name": "Kai breaks the test, Tess reads the register",
+      "date": "2026-11-03",
+      "posts": ["posts/r2_kai.md", "posts/r2_tess.md"]
+    },
+    {
+      "n": 3,
+      "name": "Felix re-runs and lands it",
+      "date": "2026-11-03",
+      "posts": ["posts/r3_felix.md"]
+    }
+  ],
+  "seeds": [
+    "Does Kai's lock (price the gap as if its interest earned nothing) hold in the 200,000 futures, and what does it cost her flexibility? (Genius Lab, 13:40)",
+    "Road A or road B, in words a stranger can say back, inside 497 strict (Writing Room, 16:20)"
+  ],
+  "essence": [
+    "Our newest IPS says we check the bond ladder's one weak point once, in 2031, but the plan behind it checks twice, again in January 2033.",
+    "Kai caught a leak in my first test, which made the gap look four times bigger than it is; fairly measured, with one check a cheque comes up a little short (usually about $1,300) in about 1 future in 25, and with two about 1 in 770.",
+    "So the IPS should either name the second check or use Kai's simpler rule, setting the money aside as if the interest earned nothing, which needs no second check at all."
+  ],
+  "decided": [
+    "W0 (86.76% / 45.77%) WITHDRAWN: a leak (the range cut's money went back to Laura) and a ratchet in the score (Kai)",
+    "W0f: one look 96.01% / 94.39% of futures pay every cheque in full; two looks 99.87% / 99.85% (base / yields 2 pts lower; MODEL)",
+    "Near-breach, not breach. Keel's call: reopen IDEA_LEDGER E2 and put the step in the IPS, by road A (P9) or road B (Kai's lock, P8)",
+    "The STRIPS reason: WRONG (a zero locks only money already held; locking future coupon rates needs a forward)",
+    "Pitch 'a promise': NOT FALSE, TRUE IF read as 'commitment'; the word is ours, not the case's (Tess)"
+  ],
+  "changes": [
+    "No draft changed. Offers in ../../ips_rewrite/inbox/2026-11-03_window.md s1"
+  ],
+  "todos": {
+    "done": 5,
+    "total": 8
+  }
+}
