@@ -83,8 +83,8 @@ D1a (floor is the last source for a coupon gap), D1b (quote the 2031 bottom with
 and the D2-D7 rows of ballot v1. The rewrite follows the votes once logged; until then it uses Keel's leans, marked.
 
 ## 5. Numbers (MODEL; re-run before any figure goes in)
-STALE: `keel/library/ips_numbers_2026-10/` is on the 15 Oct curve. Newest close on file (22 Oct, The Window 26 Oct):
-ladder $298,861 on the payment-date basis, headroom $1,139 (4bp); other bases $300,224 / $302,139. So "the first
+STALE: `keel/library/ips_numbers_2026-10/` is on the 15 Oct curve. Newest close on file (23 Oct, Trading Desk 3 Nov):
+ladder $297,636 on the payment-date basis, headroom $2,364 (8bp) (22 Oct: $298,861 / $1,139; other bases that day $300,224 / $302,139). So "the first
 $300,000 buys all ten payments" is a one-close call, not a fact: echo only the IBTR note's conditional. IBTM has no
 face value: say "IBTM sized to pay about $150k in 2032, quoted at $145k". Older 15 Oct figures: VT ~$32k in
 Jan 2028; range ~$145k-$168k; ~99% inside; coupon shortfall ~$21k if yields fall 2pt for good.
