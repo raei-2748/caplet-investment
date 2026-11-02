@@ -46,3 +46,8 @@ room today without squeezing); the kept stocks are both "her flexibility" and th
 may be opened and sprinkled; Effexor XR forbids crushing, not opening). Now: "a caplet that delivers its dose on
 schedule, labelled do not crush. Crush it and the schedule is gone." (the pill shape is our team's name, left
 unremarked). P4: "income that can dry up", not "dries up" (our inference, not the case). IPS 496 strict.
+
+**Library offers O1 + O2 (Mon 2 Nov, `../../inbox/2026-11-02_library.md`), both taken:** P5 "buys a Treasury fund
+maturing in late 2032 ... roughly the interest it should earn" (IBTM's bonds mature all through 2032; the fund ends about
+15 Dec 2032, per its prospectus), and "under a tenth of her money" in place of "about a fifteenth" (the fifteenth holds
+only at today's yields; a tenth holds for five-year yields up to about 6.9%, and for the WInS book's VT 8.6%). IPS 495 strict.
