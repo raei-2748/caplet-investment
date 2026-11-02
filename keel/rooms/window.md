@@ -1,17 +1,17 @@
 # FICTION (the room) + real checks. The Window: what came in, what it changes
 
 ## Now
-- **Doing:** Beat 2 of the daily round: gate yesterday's finds at source (the "so" beside the quote), then one primary-source find for the day's question
-- **Decided:** Sun 1 Nov: V47 has no false line. Near-breaches: the $150,000 floor v "$145,000 median bottom" has no bridge (the model names the bottom $3,700 under, rounded to $5k; fix +11 words); the worst-twentieth pair is S0 while P4 argues the linked world (S1: $85k v $135k). No return assumption stated (case :131). A26 re-run from a clean checkout: identical, "about $15,000" right (k 0.75-0.77: $16.2k / $14.9k / $13.7k). Round 4's ten scout finds: all quotes real, 3 verified, 7 "so" overstated, none in V47. D19-D27 labelled. Own find W-06: the SEC's flat yes (bank #105)
-- **Next:** Mon 2 Nov: gate round 5's voice scouts (annuity sellers, auction catalogues, mountain guides): every quote at source and every number kept with its design; check whichever draft follows V47 against `../ips_rewrite/inbox/2026-11-01_window.md`
-- **For the judges:** Join the $150,000 floor to the $145,000 bottom in one clause, and quote the worst case from the world the IPS itself describes
-- **Updated:** 2026-11-01 09:30 Sydney
+- **Doing:** Beat 2 of the daily round: gate yesterday's finds at source (the "so" beside the quote), check the newest draft line by line, then one primary-source find for the day's question
+- **Decided:** Mon 2 Nov: V52 has one false line. P2's "Break it open and you ruin how it works" is false at the best-known XR capsules' own labels (Adderall XR, Effexor XR: open it and sprinkle; don't crush or chew). Fix (Kai's repair of the Window's first try): "a caplet ... labelled do not crush. Crush it and the schedule is gone." (497 -> 495). Kai, attacking every TRUE: P4's "income that dries up" is our inference, not the case (+1 "can"); P5's "never depend on it" right but tested wrongly (stocks at 0%: 0.18% -> 0.20% a cheque short, tiny and real); P3 TRUE IF kept over his dissent. P4's "A cheque funded by a Treasury already bought does not" true as a conditional, its "so" overstated in P4's own world (LR-09 S9, Final Report only). L-15 and LR-09 re-run identical. Round 5's nine finds: 7 "so" verified, 2 overstated (J2, A2). Seven requests closed. D28-D32 labelled. WHARTON_WORD s1 gets the case's own line 161-162
+- **Next:** Tue 3 Nov: gate round 6's scouts (Tess's fund prospectuses, Nora's WInS VT, Felix's Australian caplet label); check whichever draft follows V52 against `../ips_rewrite/inbox/2026-11-02_window.md`, P2 first
+- **For the judges:** Swap two phrases in P2 so the motif is true at a real label: "caplet" for "capsule", "Crush it and the schedule is gone." for "Break it open and you ruin how it works."
+- **Updated:** 2026-11-02 09:05 Sydney
 
-> **State (Sun 1 Nov 2026, 09:30 Sydney, eighth Window run, fifth as beat 2).** No new official file since 27 Oct.
-> V47 line-by-line in `../ips_rewrite/inbox/2026-11-01_window.md`; round 4 gate `window/W-05_round4_gate.md` (one agent,
-> 32 WebFetch calls); W-06 `window/W-06_the_flat_yes.md`. A26 S0 re-run in a scratch worktree: 31 s, identical.
-> Network: curl blocked (403); WebSearch + WebFetch work (sec.gov loads).
-> Next run: `git log --since="2026-10-31 22:30 UTC" -- competition/ keel/office/outbox keel/rooms keel/ips_rewrite keel/loop`.
+> **State (Mon 2 Nov 2026, 09:05 Sydney, ninth Window run, sixth as beat 2).** No new official file since 27 Oct.
+> V52 line-by-line in `../ips_rewrite/inbox/2026-11-02_window.md`; W-07 `window/W-07_the_capsule_you_may_open.md`
+> (FDA-label text via Drugs.com and Pfizer's labeling site). L-15 (S0, 37 s) and LR-09 (S0 S9, 58 s) re-run in a
+> scratch worktree: identical. Kai (flaw-hunter) attacked the TRUE verdicts: one agent. Network: curl blocked (403);
+> WebSearch + WebFetch work. Next run: `git log --since="2026-11-01 22:40 UTC" -- competition/ keel/office/outbox keel/rooms keel/ips_rewrite keel/loop`.
 
 > Room card: `../OFFICE.md`. Felix; agents `rules-verifier`, `integrity-officer`, `fact-checker`. House rules: `../office/CHARTER.md`.
 > Everything from outside comes in here and nowhere else. Breaches first. Keel never opens WInS or SMApply, and
@@ -28,3 +28,4 @@
 | Fri 30 Oct | gate (beat 2) + V29 line by line | **BREACH:** V29/B2/B3 wipe-out line false (A19 read backwards: 354-412 paths a cheque worse off; true line "can help a cheque, never hurt one"). N1 V29 "three times worse. So" doesn't follow; N2 V29 "$300,000 buys them" and "never changes" (fixed in B2/B3). A1 "so" reversed; A2, N2 verified. L-12 re-runs identical. Own find: SEC bona fide range (W-03); BoM 75/25 handed to Kai | `../office/outbox/2026-10-30_window_the-wipe-out-line.md` |
 | Sat 31 Oct | gate (beat 2) + V39 design-stamp audit | No breach. "One in thirty" re-run: holds (one in 40-44 on today's 7.5%; glide 26-38). N1 60/40 "one in three" mostly a range we built (cheques one in fifteen). V40 cold read's three fails confirmed. L-13 re-run identical; bottom broken 0/1/2 of 200,000. D11-D18 labelled. F2 "so" overstated, T3 corrected by count, K1 verified by title. Own find: Giving USA, W-04 | `../office/outbox/2026-10-31_window_the-year-everyone-gives-less.md` |
 | Sun 1 Nov | gate (beat 2) + V47 line by line | No breach. N1 $150k floor v "$145,000 median bottom", no bridge (fix +11 words); N2 worst-twentieth pair from S0 while P4 argues the linked world (S1 $85k v $135k); no return assumption (case :131). A26 re-run identical. Round 4: 10 finds, 3 verified, 7 "so" overstated (N1, N2, A2, A3, A-bonus, J1, J2), none in V47. D19-D27 labelled. Own find: SEC flat yes, W-06 | `../office/outbox/2026-11-01_window_the-flat-yes.md` |
+| Mon 2 Nov | gate (beat 2) + V52 line by line | **One false line:** V52 P2 "Break it open and you ruin how it works" (Adderall XR and Effexor XR labels say open it; crushing is the harm); fix -2 words (Kai's). Kai: P4 income half OVERSTATED (+1 "can"), P5 test corrected. P4 "so" overstated in its own world (LR-09 S9, FR only). L-15, LR-09 re-run identical. Round 5: 9 finds, 7 verified, 2 overstated (J2, A2). D28-D32 labelled. WHARTON_WORD case line. 7 requests closed. Own find: W-07 the capsule you may open | `../office/outbox/2026-11-02_window_the-capsule-you-may-open.md` |

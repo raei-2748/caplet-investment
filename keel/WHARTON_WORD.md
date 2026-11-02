@@ -35,7 +35,14 @@ halfway email's "Tips for competition success" (27 Oct), the Competition Guide, 
 > data effectively to support conclusions; demonstrates original thinking and meaningful reflection; and communicates
 > Laura's potential facility contribution and investment uncertainty clearly and credibly to prospective co-sponsors.
 
-The Trading Notes Analysis, the IPS and the Final Report are judged together on these five.
+Wharton's own line on judging the three together (Client Case Study, `../competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt` lines 161-162, verbatim):
+
+> Evaluators will consider the three deliverables together. Teams should use each deliverable for its intended
+> purpose while maintaining a clear and consistent investment strategy across all three.
+
+(Our gloss, not Wharton's words: the Trading Notes Analysis, the IPS and the Final Report are judged together on
+these five. Added by the Window, Mon 2 Nov 2026, at the Noticeboard's request after the LS-14 read-back caught the
+gloss quoted as Wharton's.)
 
 ## 2. What the IPS is for (updated IPS instructions, verbatim)
 
