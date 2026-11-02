@@ -1,7 +1,7 @@
 # Team Keel / Team Caplet: project memory
 
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
-decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-01 (V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
+decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-02 (all branches merged into main; V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
 
 ## For every Claude session in this repo (all teammates)
 Whoever is using Claude here, these rules apply, and the Keel Office (formerly the Caplet Research Office) is how competition work is done:
@@ -287,4 +287,4 @@ One-screen map: `README.md` (rewritten 23 Oct around Team Keel). Paste-ready bri
 tea_room, road_to_semifinal, office/, routines/, library/ = all AI research), `caplet/` (the students' work: Drive
 snapshots, deliverables, decisions, docs/AI_USE.md), `competition/` (official files; historical in
 `competition/historical/`), `toolkit/` (September Python demo: `cd toolkit && pytest`, 64 passing; configs in
-`toolkit/config/`), `archive/` (superseded, incl. `rab/`, `model/`, branch history). Agents: `.claude/agents/`.
+`toolkit/config/`), `archive/` (superseded, incl. `rab/`, `model/`, branch history; 2 Nov: every leftover branch merged into main, see `archive/branches/BRANCH_HISTORY.md`; project-folder copies not otherwise in the repo in `archive/project_files_2026-11-02/`). Agents: `.claude/agents/`.

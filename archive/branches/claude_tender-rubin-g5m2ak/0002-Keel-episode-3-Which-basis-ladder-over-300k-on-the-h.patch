@@ -1,0 +1,432 @@
+From fcec8f3c95326a6556d58831ac6774065c7bd357 Mon Sep 17 00:00:00 2001
+From: Claude <noreply@anthropic.com>
+Date: Fri, 23 Oct 2026 19:45:28 +0000
+Subject: [PATCH 2/6] Keel episode 3: Which basis? (ladder over $300k on the
+ holdings basis); file the 24 Oct FAQ
+
+- keel/episodes/2026-10-24_ep03.md: on the 22 Oct close the ladder costs $302,199 on the
+  holdings basis (MODEL, three methods agree on the sign), $2,199 over $300k; the IPS must
+  name the 2028 deposit as the assumption and give the 2028 money a spending order.
+- Working notes for Jun, Felix, Kai and Amara; tea room decisions and Sunday vote items.
+- Live SMApply FAQ now bans 'Individual TIPS' / 'Individual STRIPS' (conflicts with the Week 4
+  email); snapshot filed and COMPETITION.md updated.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01EXBkXPwAChDhLub9Cc8j2D
+---
+ competition/COMPETITION.md                    |   7 +
+ .../smapply_public_2026-10-24/faqs.txt        | 103 +++++++++++++
+ keel/episodes/2026-10-24_ep03.md              | 141 ++++++++++++++++++
+ keel/members/amara.md                         |  12 ++
+ keel/members/felix.md                         |  15 ++
+ keel/members/jun.md                           |  14 ++
+ keel/members/kai.md                           |   9 ++
+ keel/tea_room.md                              |  16 +-
+ 8 files changed, 312 insertions(+), 5 deletions(-)
+ create mode 100644 competition/official/2026_27/smapply_public_2026-10-24/faqs.txt
+ create mode 100644 keel/episodes/2026-10-24_ep03.md
+
+diff --git a/competition/COMPETITION.md b/competition/COMPETITION.md
+index 9206cf3..206efd4 100644
+--- a/competition/COMPETITION.md
++++ b/competition/COMPETITION.md
+@@ -100,6 +100,13 @@ and Principal of Securities)". So neither may be recommended for Laura's plan; m
+ rules exclude. Whether the ban also covers WInS-listed ETFs that hold TIPS or STRIPS is UNVERIFIED (ask Wharton
+ before naming one). The $5 stock minimum is gone from the FAQ and Trading pages.
+ 
++**Public FAQ, live 24 Oct 2026** (`smapply_public_2026-10-24/faqs.txt:54-55`, read 06:40 Sydney): the ban now reads
++"Individual TIPS (Treasury Inflation-Protected Securities)" and "Individual STRIPS (Separate Trading of Registered
++Interest and Principal of Securities)", and the permitted lines say "available on WInS". The Week 4 email
++(`wharton_email_week4_2026-10.md:34-35`) still says plain "TIPS"/"STRIPS". The two conflict on whether a WInS-listed
++TIPS or STRIPS ETF is allowed: UNVERIFIED. Keep the plan as the email reads; if it matters, Ray asks the advisor to
++ask Wharton.
++
+ WInS quirks we found (read-only checks):
+ - WInS lists 43 US T-bonds, none maturing Feb 2031 to Feb 2036. iBonds Treasury ETFs fill that gap: IBTK 2030,
+   IBTL 2031, IBTM Dec 2032, IBTO 2033, IBTP 2034, IBTQ 2035, IBTR Dec 2036. (IBTN on WInS is INSCORP Inc, not an iBond.)
+diff --git a/competition/official/2026_27/smapply_public_2026-10-24/faqs.txt b/competition/official/2026_27/smapply_public_2026-10-24/faqs.txt
+new file mode 100644
+index 0000000..a03bd1b
+--- /dev/null
++++ b/competition/official/2026_27/smapply_public_2026-10-24/faqs.txt
+@@ -0,0 +1,103 @@
++Source: https://wghsinvcomp.smapply.us/res/p/faqs/ (public page), read 23 Oct 2026 19:40 UTC = Sat 24 Oct 06:40 Sydney, text extracted with fetch_text.py. Change vs smapply_public_2026-10-20/faqs.txt: 'Individual TIPS' / 'Individual STRIPS' under NOT permitted; permitted lines now say 'available on WInS'.
++
++Skip to Main Content
++Log In
++Contact the site administrator
++(opens your email application)
++Ask questions about a program or application on this site
++(opens your email application)
++Visit the Help Center
++(opens in a new tab)
++Browse and search help content
++(opens in a new tab)
++Contact support
++(opens in a new tab)
++Get help or report issues
++(opens in a new tab)
++Log In
++Skip to left navigation
++Wharton Global High School Investment Competition
++An investment in knowledge pays the best interest.
++FAQs
++Wharton Investment Simulator (WInS)
++WHAT IS WINS?
++Wharton Global Youth Program has contracted with Stock-Trak®, the leading provider of web-based stock market simulations for universities, high schools, and the financial services industry. WInS is the Wharton Investment Simulator, which is used for the Investment Competition to help students place trades and act on their investment strategies. WInS allows students to apply the concepts of investments and portfolio management in a hands-on learning environment while working with real-world data without risking real money.
++WHERE CAN WE GO TO BETTER UNDERSTAND HOW TO USE WINS FOR THIS COMPETITION?
++When your team logs in to the shared WInS account, they’ll find tutorial videos, a user guide, and FAQs under “Getting Started” on the right side of the page.
++HOW DO WE GET ACCESS TO WINS FOR THE INVESTMENT COMPETITION?
++When your advisor created your team account, they received a confirmation email that contained your team login credentials. Your advisor can see the username and password for their team(s) by navigating to the “Admin” tab in upper right-hand corner of their WInS account and clicking "Instructor Administration."
++HOW MUCH VIRTUAL CASH DO WE GET ON WINS?
++Your team will be responsible for managing a portfolio of $300,000 in virtual cash.
++WHY DID WE ONLY RECEIVE ONE WINS USERNAME FOR OUR ENTIRE TEAM?
++All 4-6 members on the same team will share the same WInS account. You should share the username and password with each other. Your advisor can see the username and password for their team(s) by navigating to the “Admin” tab in upper right-hand corner of their WInS account and clicking "Instructor Administration."
++CAN WE CHANGE OUR TEAM USERNAME?
++No. Your team’s username is only used to access WInS. Your team username is NOT the same as your team name. Your team should agree on and will submit your official team name with your Official Team Roster which is due on October 9, 2026. Teams should choose their own names, and have fun with it. Please use good judgment.
++WHO CAN PLACE TRADES ON WINS?
++Students should place trades on WInS, NOT the advisor. A key component of the Investment Competition is teamwork and communication. It should be a team decision. We strongly encourage teams to identify different roles for each team member. Students must work together through all the issues of stock selection and strategy development. The team structure is also important to portfolio diversity.
++DOES WINS HAVE AN ANALYTICS FEATURE?
++WInS includes a set of analytical tools that students can use to analyze the performance of their portfolios. The “My Portfolio” tab has a drop-down menu that lists a wide variety of data sets and analysis reports on portfolio performance.
++Placing Trades
++DOES MY TEAM HAVE TO PLACE TRADES ON WINS?
++WInS should be used as a learning tool to figure out your strategies and to experience what it is like to place trades and be active stock market participants. These are fundamental aspects of this competition. That said, we realize (and you should, too) that a basic tenet of long-term investing is that investors should ignore short-term gains and losses. Therefore, you should not be doing a lot of buying and selling of the stocks designated for the long-term portion of your portfolio. That’s not to say you can’t do any as you work through the aspects of your strategy and analysis and decide which investments are best, but you are not trying to prove the worthiness of your long-term strategy through how your portfolio performs over six weeks of trading.
++DOES THE COMPETITION ALLOW ALL SECURITIES?
++No.
++Investments permitted (for BOTH contributions, the IPS and Final Report):
++Any stock available on WInS.
++Any Exchange-Traded Fund (ETFs) available on WInS.
++Any Government/Treasury Bond available on WInS.
++The following are NOT permitted:
++Margin trading
++Short selling
++Stock-secured debt
++Crypto
++Derivatives (options, futures, swaps, etc.)
++Individual TIPS (Treasury Inflation-Protected Securities)
++Individual STRIPS (Separate Trading of Registered Interest and Principal of Securities)
++Anything other than the approved investments listed above.
++DOES THE COMPETITION ALLOW MARGING TRADING OR SHORT SELLING?
++No.
++WHEN I PLACE A TRADE ON WINS, HOW QUICKLY DOES IT GO THROUGH?
++WInS executes all U.S. stock trades at real time prices. Please note that although trades are executed at real time prices, and that the bid and ask prices are real time; the prices you see in your open positions are delayed by 10–15 minutes.
++International equities not based in the U.S. experience a longer time delay. These equity orders will go through at the end of the trading day. If a trade is placed for an international equity at 4:00 p.m. on Monday, it will clear at the end of Tuesday.
++Also, exchange rate calculations are done automatically when making trades on foreign markets. There is no extra work on your part, though it is good to be aware of potential gains/losses you may experience due to exchange rates.
++The bond prices are updated once daily at U.S. market open, and pay out every six months. When a bond is selected from the drop down users will be able to see the bond's face value, last price, the last coupon date (when it last paid out) and the interest accrued since then. When the competition ends, any bonds held will have their value factored into the teams final portfolio value.
++DOES THE WINS SYSTEM CHARGE COMMISSIONS FOR TRADES?
++Yes. WInS runs just like any real-world trading platform. Each stock transaction is charged a flat $25 commission and treasury bonds are charged $10. Commission is charged only on a trade that clears.
++DO WE RECEIVE DIVIDENDS THAT ARE REFLECTED IN OUR PORTFOLIO FUNDS?
++WInS provides real-world corporate actions such as dividends, stock splits, bond coupons, and so on. As such, students can expect to see dividends reflected in their portfolios at the time they are issued by the company.
++HOW CAN I VOID AN ORDER THAT WE MAKE IN ERROR?
++You can only cancel open orders. To see your open orders and to cancel any of them, go to the “My portfolio” tab and select “Order History” in the sub-menu.
++WInS is a real-world simulation, so make sure you are carefully reviewing everything before you hit submit. If you make an error, we encourage you to run with it and not scramble to “fix” it. Trading errors are part of the learning process.
++Deliverables and Judging
++WHAT ARE THE KEY REQUIREMENTS AND DELIVERABLES FOR THE COMPETITION?
++Your team must submit the following deliverables in order to be considered an active team (and to receive a participation badge).
++Deliverables
++Team Roster: Confirm your team’s student members.
++School Documentation: Submit any required school verification and eligibility documents.
++Trading Notes Analysis: Submit required trading notes and justification.
++Investment Policy Statement (IPS): Define your client’s investment objectives, risk tolerance, and overall investment strategy.
++Comprehensive Final Report: Present and justify your team’s investment strategy, portfolio recommendations, and analysis.
++Additionally, teams must meet the required trading activity and portfolio management guidelines throughout the competition.
++WILL MY TEAM RECEIVE FEEDBACK?
++No. Teams will not receive individual feedback. We will not provide your with information about how the evaluators scored your team.
++Each year, we receive many excellent final reports. If your team is not selected as a Semifinalist, this does not necessarily mean that you did something “wrong.” We are looking for teams that score exceptionally well on all five components of the criteria, and that embrace all aspects of the competition with passion and creativity, which is then reflected in various ways in their final reports.
++ARE WINNING TEAMS SELECTED BASED ON THE GROWTH OF THEIR WINS STOCK PORTFOLIO?
++No. Gains and losses generated in WInS are not used to select winning teams and are not applied to the client’s long-term portfolio projections. WInS allows teams to put their strategies into practice and provides evidence of their investment decisions. Teams are evaluated on how thoughtfully they develop, implement, evaluate, and communicate a cohesive investment strategy designed around the client’s goals.
++HOW CAN MY TEAM WIN THE COMPETITION?
++There is no single winning investment strategy. Strong teams understand the client, work effectively together, conduct thoughtful research and analysis, and develop a clear and creative strategy designed around the client’s goals. Their investment decisions reflect that strategy, and their deliverables connect into a cohesive, well-supported submission. Just as importantly, successful teams communicate their reasoning, assumptions, tradeoffs, and competition experience clearly and authentically.
++You can explore the work of successful teams on our Previous Winners page.
++Semifinals and Global Finale
++IF OUR TEAM MAKES IT TO THE GLOBAL FINALE, WHAT COSTS ARE COVERED?
++The Wharton Global Youth Program does not cover your competition costs. All costs, including travel and lodging, are the responsibility of the participants. However, teams in the Global Finale can choose to attend virtually via videoconference if travel costs are prohibitive.
++WHAT IS EXPECTED OF MY TEAM IF WE MAKE IT TO A SEMIFINALS OR GLOBAL FINALE EVENT?
++Your team will be expected to create and deliver a short presentation (via video conference for the Semifinals and live or via video conference for the Global Finale) about your team’s strategy, analysis and experience over the past 10 weeks to a live panel of judges. All team members must participate.
++Get in Touch
++HOW CAN I SHARE NEWS ABOUT THE PROGRESS OF MY TEAM AND OUR STRATEGY?
++We want to hear from you! Be sure to follow us on Instagram @whartonyouth and on LinkedIn @WhartonYouth. Create a social media profile for your investment competition team and tag us in posts! We love to share the good news and hard work of all our teams throughout the competition. Good luck!
++WHOM DO I CONTACT IF I HAVE A QUESTION ABOUT THE COMPETITION?
++Please use the Contact Us form.
++Copyright © SurveyMonkey
++| Help
++| Privacy
++| Terms
++|
+diff --git a/keel/episodes/2026-10-24_ep03.md b/keel/episodes/2026-10-24_ep03.md
+new file mode 100644
+index 0000000..69d2888
+--- /dev/null
++++ b/keel/episodes/2026-10-24_ep03.md
+@@ -0,0 +1,141 @@
++# FICTION. Episode 3: Which basis?
++
++**Saturday 24 October 2026, Sydney · Point of view: Jun · TNA closes at 08:00 today; Keel submitted last night. Vote tomorrow.**
++
++---
++
++Jun posted at 6:58, as always, with his coffee. Then he deleted it and posted again at 7:04.
++
++**Jun:** Correction. Don't quote $293,928 again. It was true on Wednesday.
++
++The Treasury had put up Thursday's close overnight. Yields had fallen about 0.17 points in a day: the 10-year from 5.13
++to 4.96, the 20-year from 5.47 to 5.32. He had run the ladder twice, the way he'd promised the team he would since
++Tess wrote *never quote a ladder cost without its basis* across the top of his sheet.
++
++**Jun:** Payment-date basis: $298,861. Room under $300k: $1,139. Holdings basis, each $50k counted from the day the
++bond we'd actually hold matures: $302,199. That's $2,199 *over*. MODEL, 22 Oct close.
++
++**Kai:** Four basis points of room on the nice basis and minus seven and a half on the real one. My phone battery has more
++margin than Laura's first payment.
++
++**Jun:** One day cost about $4,900. And it's the Feb-2037 bond doing most of the damage. Its money sits ten and a half
++months before the 2038 payment. That gap alone is $1,406.
++
++**Nora:** So what?
++
++**Jun:** So the thing we said might happen in January has already happened on paper. If January looks like Thursday,
++the 2028 deposit tops up the ladder before anything else.
++
++He'd checked it three ways before breakfast. Two methods agreed to within eight dollars. A smoother curve fit came
++out about $500 lower and still over the line. *Same sign*, he wrote in his notebook, and underlined it.
++
++---
++
++### Library, 11 a.m.
++
++Nora had the whiteboard photo on the table: *Sun 25 Oct, vote: sail, reserve rule, certainty.* Tess spoke first, as
++agreed. She had the IPS draft printed, two lines circled in red.
++
++**Tess:** Principle one says the gap is "the first use of the 2028 deposit". Same paragraph: every payment is "paid in
++full from bonds Laura already owns". Read them together.
++
++**Kai:** That's my whole speech. I'm not fighting the order. Latest payments first is right; the gap sits in the short
++2033 bond, not the fourteen-year one. I'm fighting the sentence. For one year, she doesn't own all of them. The 2033
++payment is an IOU against her 2028 earnings, and we don't say so.
++
++**Felix:** Can I read you something? Client case, line 43: she "will contribute" the $150,000. Lines 63 and 64 call it one of
++"the two contributions". Line 92 bans co-sponsors and grants, not her own deposit. So leaning on it is allowed.
++
++**Kai:** Allowed isn't the same as honest.
++
++**Felix:** No. Line 146: teams should "identify and explain their assumptions about ... the timing of cash flows". A
++rung that waits a year *is* a cash-flow timing assumption. It has to be in the IPS in words, because Investment Policy
++line 74 says we can't revise the strategy after the deadline.
++
++**Amara:** Then tell me which part shrinks. The draft never says. Jun's table says the sail pays. Is that true?
++
++**Jun:** If we write it that way. Order of the 2028 money: finish the ladder, buy the floor, then the sail. Then the
++floor is a fixed size and the sail takes the hit. A $2,199 gap costs about $2,900 of sail by 2033.
++
++**Amara:** Good. Because what scares me is a co-sponsor hearing a minimum in 2031 that something can still take from.
++Line 114: if she promises more than she can give, she "could damage her credibility". By 2031 the floor should be a
++bond she holds, not a forecast.
++
++**Nora:** And the IPS gets the dollar figure?
++
++**Felix:** Investment Policy, lines 68 to 69. Not expected: "final operating-reserve calculations ... a final
++facility-contribution range". The rule goes in now. The dollars go in December.
++
++**Jun:** Good, because any number we write today is stale by January. It moved $4,900 overnight.
++
++Kai leaned back.
++
++**Kai:** Fine. Keep the order, change the words. Say the gap out loud, give the 2028 money a spending order, and our
++honesty rule is true again. *That's* the bold bit. Not more stocks.
++
++**Nora:** Write it down before he changes his mind.
++
++---
++
++Felix waited until the end. He always did.
++
++**Felix:** One more. The FAQ changed. I read it this morning. Under "NOT permitted" it now says "*Individual* TIPS" and
++"*Individual* STRIPS". The Week 4 email says plain "TIPS".
++
++**Amara:** So a TIPS fund might be allowed?
++
++**Felix:** Might. The two sources disagree, and we can't ask Wharton ourselves. Until someone asks, we treat it the
++way the email reads. Nothing in our plan changes.
++
++Amara wrote *inflation: still a Final Report assumption* next to her parked line, and didn't argue.
++
++Nora read the board out at 12:14.
++
++---
++
++## Decisions
++| Decision | Owner | By |
++|---|---|---|
++| Ladder cost quoted on the holdings basis only, with date and method; $293,928 retired | Jun | Today |
++| Proposal for Sunday's vote: 2028 deposit order = finish the ladder, then the floor, then the sail (the sail absorbs any gap) | Jun, Kai | Sun 25 Oct |
++| Proposal for Sunday's vote: certainty sentence names the 2028 deposit as the assumption for the 2033 rung | Kai, Felix | Sun 25 Oct |
++| IPS states the rule, not a dollar floor or range | Amara, Felix | IPS v2 |
++| FAQ wording change recorded; plan follows the Week 4 email until Wharton is asked | Felix | Today |
++
++## Open threads
++- Re-check the 22 Oct row against the 23 Oct close when it posts (Jun).
++- Could anything reach the floor after 2031 (coupon reinvestment)? Amara wants it closed before the freeze.
++- iBond maturity dates are assumed at 15 December; confirm (Jun).
++- "Individual TIPS": does it let a TIPS ETF in? UNVERIFIED.
++
++---
++
++## What Caplet can take from today
++1. **The ladder is over $300k on the holdings basis.** Keel's model gives $302,199 on the 22 Oct close; Caplet's
++   assistant check (`keel/library/assistant_review_2026-10/checks/RESULTS_16Oct2026.md` §5) gives $302,139. The "TEAM
++   DECISION before 6 Nov" in `CLAUDE.md` is about a related risk (the ~$21k coupon-reinvestment shortfall); its third
++   option, a buffer from the 2028 deposit, would cover both.
++2. **Check the live IPS certainty sentence.** The 14 Oct export of Version 5 already says "with high certainty from
++   these two deposits alone", which names the 2028 deposit: good. Make sure the live Doc still does, and that nothing
++   says "already owns" for the 2033 payment.
++3. **Keep the shrink order, cut the overclaim.** The Version 5 export already states the §7 order (2027 leftover,
++   then Laura's half, then the part above the floor). But it also says "so she cannot miss the range", an absolute
++   claim; the range is a model estimate, so say how confident you are instead.
++4. **No dollar floor or range in the IPS** (`2026_WGY_Investment_Policy-FINAL.txt:68-69`). Rules only.
++5. **The live FAQ now says "Individual TIPS" and "Individual STRIPS"** (read 24 Oct), unlike the Week 4 email. Don't
++   change the plan; if it matters, Ray can ask the advisor to ask Wharton.
++
++## Sources
++- Treasury par yield CSV, https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv,
++  fetched 23 Oct 2026 19:39 UTC; rows 21 and 22 Oct.
++- MODEL (Jun's method, `keel/scripts/ladder_pv.py`; second method monotone-cubic; check
++  `keel/library/assistant_review_2026-10/oct16/research/KB_verify/num/reconcile.py`): ten $50k payments 2033-42, valued
++  1 Jan 2027, forward rates. Payment-date basis $298,861 (21 Oct $293,928). Holdings basis (iBonds 15 Dec 2032-36,
++  assumed; T-bonds 15 Feb 2037, 15 May 2038, 15 Nov 2039/40/41) $302,199 (21 Oct $297,287); smoother monotone-cubic fit about $500 lower ($301,640-$301,725 depending on set-up), still over $300k.
++  DV01 about $294/bp. Gap cost: $2,199 × (1 + 4.41%) = $2,296 of the 2028 deposit; × 1.2664 (5y 4.78%, semiannual) ≈
++  $2,907 less sail by 2033.
++- Client case `competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:43-44, 63-65, 91-92, 114, 146-147`.
++- IPS instruction `competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:68-69, 73-74`.
++- Week 4 email `competition/official/2026_27/wharton_email_week4_2026-10.md:34-35`; live FAQ
++  https://wghsinvcomp.smapply.us/res/p/faqs/, read 24 Oct 2026 06:40 Sydney (snapshot
++  `competition/official/2026_27/smapply_public_2026-10-24/faqs.txt`).
+diff --git a/keel/members/amara.md b/keel/members/amara.md
+index 5346815..1d6ea18 100644
+--- a/keel/members/amara.md
++++ b/keel/members/amara.md
+@@ -99,3 +99,15 @@ File: `competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt`.
+ ### Ideas parked for the Final Report
+ - Inflation as a stated assumption about facility costs (Ep 1; opens after the IPS).
+ - The 2031 line, once Jun has a model behind a range (Ep 2).
++
++### 24 Oct: case lines on the 2031 range
++| What it tells us about Laura | Exact words | Line |
++|---|---|---|
++| When she speaks | "Laura plans to begin approaching potential co-sponsors in 2031, two years before the residency is established." | 109 |
++| Overpromising is the risk she names | "If Laura promises more than she can ultimately contribute, she could damage her credibility and lose the confidence or participation of co-sponsors." | 114-115 |
++| A range, not one number | "Rather than promising one exact amount, she wants to communicate a credible range for her potential contribution." | 115-116 |
++| The range must not touch the payments | "The proposed range must also protect the portfolio's ability to fund the ten-year operating commitment." | 119-120 |
++| No set number to aim for | "There is no predetermined facility contribution." | 104 |
++
++Position: the IPS states the rule, not a dollar floor. By 2031 the floor must be a bond she holds, and nothing may
++take from it after she has said it out loud. Still open: can the coupon shortfall reach the floor after 2031?
+diff --git a/keel/members/felix.md b/keel/members/felix.md
+index 07e75a3..4f35bf5 100644
+--- a/keel/members/felix.md
++++ b/keel/members/felix.md
+@@ -128,3 +128,18 @@ Files: IP = `2026_WGY_Investment_Policy-FINAL.txt`, W4 = `wharton_email_week4_20
+ **(e) Evaluation.** Five criteria (D:49-57): Investment Strategy ("maintains consistency with the team's IPS", D:49); Client Knowledge and Objectives; Portfolio Analysis; Articulation of Competition Experience; Creativity and Presentation. "Evaluators will consider the three deliverables together." (CP:161). "score exceptionally well on all five components" (F:81). Which criteria score the IPS alone: UNVERIFIED.
+ 
+ **SMApply check.** Repo snapshots (14 and 20 Oct) say nothing about the IPS form. Live pages not re-read today: UNVERIFIED. The form shows only after login; Nora reads it when it opens.
++
++### 24 Oct: rules behind the ladder gap
++| Rule | Exact words | Where | Added |
++|---|---|---|---|
++| Payments from the portfolio, not outside money | "All ten payments must be funded by the investment portfolio with a high degree of certainty. Teams may not rely on co-sponsors, grants, program fees, or other outside funding to meet this requirement." | `Laura_Gao_2026_Client_Profile.txt:91-92` | 24 Oct |
++| We define certainty ourselves | "define what they consider a high degree of funding certainty, explain how they evaluated that level of certainty, and identify the assumptions supporting their recommendation." | `Laura_Gao_2026_Client_Profile.txt:97-99` | 24 Oct |
++| The 2028 deposit is stated as a fact | "She will contribute an additional $150,000 at the beginning of 2028, using earnings from publishing advances, speaking engagements, licensing, and other entrepreneurial ventures." | `Laura_Gao_2026_Client_Profile.txt:43-45` | 24 Oct |
++| Assumptions must be named | "identify and explain their assumptions about investment performance, the timing of cash flows, outside funding, ..." | `Laura_Gao_2026_Client_Profile.txt:146-147` | 24 Oct |
++| IPS: numbers not expected | "The IPS is not expected to include final operating-reserve calculations, detailed portfolio projections, a final facility-contribution range, or the draft communication to co-sponsors." | `2026_WGY_Investment_Policy-FINAL.txt:68-69` | 24 Oct |
++| Strategy frozen at the IPS | "Your team may not revise its investment strategy after the submission deadline." | `2026_WGY_Investment_Policy-FINAL.txt:73-74` | 24 Oct |
++| FAQ now says "Individual" TIPS/STRIPS (the Week 4 email says plain "TIPS"/"STRIPS") | "Individual TIPS (Treasury Inflation-Protected Securities)" / "Individual STRIPS (Separate Trading of Registered Interest and Principal of Securities)" | `smapply_public_2026-10-24/faqs.txt:54-55` (live page read 24 Oct 06:40 Sydney) | 24 Oct |
++
++Reading: paying a January gap from the 2028 deposit is allowed (it is one of "the two contributions"), but it is a
++cash-flow timing assumption and must be stated in the IPS in words. Until Wharton is asked, we read TIPS/STRIPS as the
++email does.
+diff --git a/keel/members/jun.md b/keel/members/jun.md
+index da2b0c3..f99c8d6 100644
+--- a/keel/members/jun.md
++++ b/keel/members/jun.md
+@@ -150,3 +150,17 @@ Script: `keel/scripts/sail_mc.py` (uses `ladder_pv.py` in the same folder). Inpu
+ | Chance the ladder costs more than $300k on 1 Jan 2027 | about 30% (10 weeks of moves, 40bp sd); about 40% over a full year (90bp sd) (MODEL) | parallel normal yield shift, 90bp/yr vol = assumption, UNVERIFIED | `scripts/sail_mc.py` | 23 Oct |
+ | Gap if short | mean $7.8k, p95 $13.8k, p99 $22.4k (10 weeks); -25/-50/-100bp: $1.3k/$8.9k/$24.7k (MODEL) | same | same | 23 Oct |
+ | Cost of the gap to the sail | about $1.33 in 2033 per $1 of 2027 gap (1y at 4.52%, then 5y at 4.95%); mean gap = about $10k less sail (MODEL) | same | same | 23 Oct |
++
++### 24 Oct: repriced on the 22 Oct close (all MODEL, forward rates, valued 1 Jan 2027)
++| Number | Value | Basis and inputs |
++|---|---|---|
++| Ladder, payment-date basis | $298,861; room $1,139 (a 0.04-point fall closes it); DV01 $296/bp | 22 Oct par curve (treasury.gov CSV, fetched 23 Oct 19:39 UTC) |
++| Ladder, holdings basis | **$302,199; gap $2,199** (yields must rise 0.08 points to fit); DV01 $294/bp | iBonds 15 Dec 2032-36 (assumed date), T-bonds 15 Feb 2037, 15 May 2038, 15 Nov 2039/40/41 |
++| Same, 21 Oct | holdings $297,287 (room $2,713); payment-date $293,928 | 21 Oct curve |
++| One-day change 21 to 22 Oct | about +$4,900 on either basis | yields about 0.17 points lower |
++| Second method (monotone-cubic fit) | about $500 lower on the holdings basis; still over $300k | different interpolation |
++| Biggest holdings-basis extra | Feb-2037 bond +$1,406 (money waits 10.5 months before the 2038 payment); May-2038 +$974 | |
++| Gap cost to the sail | $2,199 x 1.0441 = $2,296 of the 2028 deposit; about $2,907 less sail by 2033 ($1.32 per $1) | 1y 4.41%, then 5y 4.78% semiannual |
++
++Retired: $293,928 (true on 21 Oct, payment-date basis only). From now on, ladder costs are quoted on the holdings
++basis, with date and method. Re-check against the 23 Oct close when it posts.
+diff --git a/keel/members/kai.md b/keel/members/kai.md
+index 38e41b7..539855f 100644
+--- a/keel/members/kai.md
++++ b/keel/members/kai.md
+@@ -131,3 +131,12 @@ doesn't already own." Five attacks, worst first. Each has the fix I'd accept.
+ 
+ What I'm not saying: more equity is not the leap. The leap is the honesty rule. It just has to be true for the
+ bonds we own.
++
++### 24 Oct: the gap sentence
++| Date (Sydney) | What | So what for Laura | Action |
++|---|---|---|---|
++| 24 Oct | Treasury curve, 22 Oct close: 10y 4.96 (-17bp), 20y 5.32 (-15bp) | Ladder $302,199 on the holdings basis, $2,199 over $300k (Jun, MODEL) | No WInS trade (WInS doesn't set Laura's January price). Vote the gap wording and the 2028 spending order on Sun 25 Oct |
++
++The order is right (gap in the short 2033 bond, not the 2042 one). The sentence is wrong: "paid from bonds she already
++owns" isn't true for the 2033 payment until the 2028 deposit arrives. Fix: name the deposit as the assumption, and give
++the 2028 money an order (ladder, then floor, then sail).
+diff --git a/keel/tea_room.md b/keel/tea_room.md
+index 874f20d..c065a0a 100644
+--- a/keel/tea_room.md
++++ b/keel/tea_room.md
+@@ -1,7 +1,7 @@
+ # FICTION. Team Keel: the shared tea room
+ 
+ The team's shared room: plan, decision journal, open threads and how everyone is getting on. Updated by
+-each daily episode. Last update: Episode 2, Fri 23 Oct 2026 (Sydney).
++each daily episode. Last update: Episode 3, Sat 24 Oct 2026 (Sydney).
+ 
+ ## Keel's plan (their own; not Caplet's)
+ One sentence (Nora's current version): **"Buy Laura's promise first, then let what's left grow, and never tell a
+@@ -44,21 +44,27 @@ co-sponsor a number she doesn't already own."**
+ | 23 Oct | IPS v1 built on three principles (promise first; floor + sail; promise only what she owns), sail share left to the 25 Oct vote | Amara, Tess | Felix's checklist: the IPS must state the rules for reserve, certainty, facility and range before the freeze |
+ | 23 Oct | Ladder bought latest payments first; any January gap is the first use of the 2028 deposit | Jun | Keeps any gap in the 2033 rung, paid before a single share is bought |
+ | 23 Oct | Certainty defined as "paid in full from bonds she owns unless the U.S. government defaults"; coupon reinvestment named as the one remaining risk | Jun, Kai | STRIPS banned, so real bonds pay coupons before 2033 |
++| 24 Oct | Ladder cost quoted on the holdings basis only ($302,199 on 22 Oct, MODEL); $293,928 retired | Jun | Thursday's fall in yields put the real ladder $2,199 over $300k |
++| 24 Oct | IPS states the rule, not a dollar floor or range | Amara, Felix | Investment Policy :68-69; any figure is stale by January |
++| 24 Oct | Plan follows the Week 4 email on TIPS/STRIPS until Wharton is asked | Felix | Live FAQ now says "Individual TIPS/STRIPS" |
+ 
+ ## Open threads
++- **For Sunday's vote (25 Oct):** (1) 2028 deposit order = finish the ladder, then the floor, then the sail, so the
++  sail absorbs any gap (Jun, Kai); (2) certainty sentence names the 2028 deposit as the assumption for the 2033 rung
++  (Kai, Felix).
++- Could the coupon shortfall reach the floor after 2031? Amara wants it closed before the freeze.
++- Re-check the 22 Oct row against the 23 Oct close; confirm iBond maturity dates (assumed 15 Dec).
+ - How big is the sail? Jun 25% vs Kai more; vote Sun 25 Oct, final 1 Nov.
+ - Re-run Jun's numbers on a fresh Treasury curve (the site could not be reached on 23 Oct) and add a worst-historical-window check.
+-- Jun's ladder headroom is thin (~$6k, ~21bp, MODEL, 21 Oct curve). What does the plan say if the 2027 price is
+-  above $300k?
+ - What exactly will the IPS form look like? (Felix checks SMApply when it opens.)
+ - Amara's inflation research for the Final Report: Taiwan construction costs vs CPI (opens after the IPS).
+ - The 2031 range needs a model behind it (Jun) before anyone quotes a number; Amara's cut line waits in Tess's
+   folder for December.
+ 
+-- Jun's ladder cost is on the payment-date basis; reprice on the holdings basis (bond maturity dates) before
+-  anyone quotes headroom again.
+ 
+ ## Relationships right now
++- Kai won the argument he picked (the sentence, not the equity share) and said so; Nora made him write it down.
++- Jun corrected his own number before anyone else could, and retired it in public.
+ - Amara lost a second line in two days (the 2031 range) but cut it herself; she wants it back in December.
+ - Jun is embarrassed that an off-hand chat number nearly reached a deliverable; now posts only dated MODEL numbers.
+ - Kai asked Felix to watch his paste: a first. The "two clocks" point came from Felix, and Kai took it without a fight.
+-- 
+2.43.0
+
