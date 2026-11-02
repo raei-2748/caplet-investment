@@ -31,3 +31,12 @@ net words. "Banks sell this as" became "Banks sell the same idea as", and "Share
 "to fund her Taiwan residency" became "toward running her Taiwan residency": the case's payments go "toward the
 residency's operating expenses" (:88). The check's VIII (ledger) and X (thinking log) failures are fixed with no IPS
 words. Still OPEN: GPTZero (VI), and a re-read of the two changed sentences by a cold reader.
+
+**Final cold read (Haiku, on the fixed text):** all three say-backs right. (1) The last line: "not to sell any Treasury
+or bond before it matures, even for the building." (2) The gap money: in Treasuries, from her kept stocks, and part of
+the reserve from 2033. (3) The bank-note difference: the bank spends the interest on an option that expires; this
+plan buys shares, which don't. P8's long sentence was LOST ("five steps in one sentence"), so it now names one action:
+"we price that gap at that day's yields, plus a cushion, and move that much from the stocks Laura keeps into
+Treasuries, so her flexibility shrinks before her gift does." IPS 496 strict. The bank-note sentence is still LOST for
+this skimmer ("option" is unexplained). It is now clear to the Commandments reader and the actuary. Left as it is: the
+Final Report explains the option.
