@@ -4,6 +4,7 @@
 
 | ID | Opened | Title | Status | Rounds | Members | To-dos | Essence |
 |---|---|---|---|---|---|---|---|
+| H-015 | 2026-11-02 | [The other side of each holding](2026-11-02_the-other-side-of-each-holding/transcript.md) | closed | 3 | Tess, Nora, Felix, Kai | 4/7 | We checked every claim the IPS makes about what Laura owns against the words of the people on the other side: the fund company's own documents, the US Treasury's rules and the medicine leaflets behind the caplet name. Ne |
 | H-014 | 2026-11-01 | [The Kitchen after Book 11](2026-11-01_the-kitchen-after-book-eleven/transcript.md) | closed | 3 | Amara, Kai, Jun | 5/10 | Our own order yesterday told the scouts to keep model numbers in their paragraphs, and Ahaan's message banned exactly that, so tomorrow every job has to quote the line of Wharton's instructions it was checked against bef |
 | H-013 | 2026-11-01 | [Do not crush, on trial](2026-11-01_do-not-crush-on-trial/transcript.md) | closed | 3 | Kai, Felix, Amara, Tess, Nora | 5/7 | We put the newest IPS on trial. All three of us found the same hole: it opens with a capsule labelled 'do not crush' and ends on 'Do not crush.', but never says what crushing would mean for Laura. The fix says it plainly |
 | H-012 | 2026-11-01 | [Five places, one page](2026-11-01_five-places-one-page/transcript.md) | closed | 3 | Tess, Amara, Kai | 6/7 | Five rooms each offered our newest IPS a better paragraph, so we read every version side by side, blind and aloud, with two outside readers on other models, and kept the ones both put first: the cheque number in the risk |
@@ -52,3 +53,6 @@
 - H-009: A condition report on our own plan for the Final Report's risk section: each flaw with its address (which year, which paths), then one 'However' (Writing Room, after 7 Nov)
 - H-014: Crushing may release a dose all at once; selling a rung early hands over its money at the market's price, before its date. Is that the same harm, or only a rhyme? (Amara)
 - H-014: Engineers state a chance and a period because they can't buy certainty (a 1% flood every year); Laura's cheques are bought. Is that the Final Report's plainest way into 'how certain', once the IPS says 'held to the close'? (Jun; Kai: not honest for 2033-37 without the condition)
+- H-015: P6's 'that half moves into Treasuries': WInS lists no Treasury bond maturing Feb 2031 to Feb 2036, so the 2031 move buys a fund; does O1's noun fix apply there too? (Writing Room, before Wed 4 Nov)
+- H-015: The kept shares do two jobs, 'her flexibility' and first payer of the reinvestment gap: how much flexibility is left in the bad case? (Genius Lab, MODEL, Final Report)
+- H-015: The Final Report's bridge to the WInS book: the plan scaled to $300,000, IBTM doing two jobs, the pie chart's 'Long Equities', VT at 8.6%, the floorlet line

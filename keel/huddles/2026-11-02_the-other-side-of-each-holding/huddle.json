@@ -1,0 +1,72 @@
+{
+  "id": "H-015",
+  "slug": "the-other-side-of-each-holding",
+  "title": "The other side of each holding",
+  "question": "Is everything the current IPS draft (V52) says about what Laura owns, and about the caplet, true at its source? (Q14, the verify round; lens 6, the other side)",
+  "room": "Library",
+  "chair": "Felix",
+  "opened": "2026-11-02",
+  "status": "closed",
+  "closed": "2026-11-02",
+  "members": [
+    "Tess",
+    "Nora",
+    "Felix",
+    "Kai"
+  ],
+  "serves": "North star 4 (investing knowledge, applied and true) and 1 (a voice a judge can trust); Wharton: Investment Strategy and Client Knowledge, and the case's 'clear and consistent investment strategy across all three'",
+  "rounds": [
+    {
+      "n": 1,
+      "name": "Go out",
+      "date": "2026-11-02",
+      "posts": [
+        "posts/r1_tess.md",
+        "posts/r1_nora.md",
+        "posts/r1_felix.md"
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Reply by name (flaw-hunter)",
+      "date": "2026-11-02",
+      "posts": [
+        "posts/r2_kai.md"
+      ]
+    },
+    {
+      "n": 3,
+      "name": "Settle and land",
+      "date": "2026-11-02",
+      "posts": [
+        "posts/r3_felix.md"
+      ]
+    }
+  ],
+  "essence": [
+    "We checked every claim the IPS makes about what Laura owns against the words of the people on the other side: the fund company's own documents, the US Treasury's rules and the medicine leaflets behind the caplet name.",
+    "Nearly everything held, but the 2032 floor is a fund that holds Treasury bonds rather than the bonds themselves, and \"about a fifteenth\" in shares is only true at today's interest rates.",
+    "So the IPS should call the floor \"a Treasury fund\" and say the shares are \"under a tenth\" of her money, which leaves everything else as it is and makes it one word shorter."
+  ],
+  "decided": [
+    "O1 (3-1): P5 says 'a Treasury fund maturing in late 2032' and 'the interest it should earn' (IBTM's index holds Treasuries maturing from 1 Jan to 15 Dec 2032; the fund ends about 15 Dec). V52 496 -> 495 strict",
+    "O2 (4-0): 'That is under a tenth of her money.' replaces 'about a fifteenth' (the fifteenth is true at one yield only; the tenth also fits the WInS book's 8.6%). 0 words",
+    "No change (14 lines): XR means extended release; a caplet labelled do not crush (Panadol Osteo, Australia); 'the schedule is gone'; 'redeemed' (iShares' own SEC notice: 'automatically redeem your shares'); 'mature like bonds' (iShares' own heading); 'pays exactly what it promises' (31 CFR 356.30); P6 'she promises'; P9; 'Do not crush.'; the bond trader's caplet is a harmless pun; the scaled-book bridge goes to the Final Report",
+    "Slip S-11 KEEP narrowly, no new words: while 'Do not crush.' stays, P6's 'liquid any day, as her flexibility' stays with it"
+  ],
+  "seeds": [
+    "P6's 'that half moves into Treasuries': WInS lists no Treasury bond maturing Feb 2031 to Feb 2036, so the 2031 move buys a fund; does O1's noun fix apply there too? (Writing Room, before Wed 4 Nov)",
+    "The kept shares do two jobs, 'her flexibility' and first payer of the reinvestment gap: how much flexibility is left in the bad case? (Genius Lab, MODEL, Final Report)",
+    "The Final Report's bridge to the WInS book: the plan scaled to $300,000, IBTM doing two jobs, the pie chart's 'Long Equities', VT at 8.6%, the floorlet line"
+  ],
+  "changes": [
+    "keel/ips_rewrite/inbox/2026-11-02_library.md",
+    "keel/rooms/library.md (S-11)",
+    "keel/ips_rewrite/IDEA_BANK.md (#126-#128)",
+    "keel/loop/rounds/2026-11-02.md (section 4)"
+  ],
+  "todos": {
+    "done": 4,
+    "total": 7
+  }
+}

@@ -1,6 +1,32 @@
 # Stand-up log (newest first; Nora writes each entry, plain English first, then the detail)
 
 
+## Morning brief, Monday 2 Nov 2026 (Sydney)
+**For the judges:** V50 is the draft on the table (AI DRAFT, pitch 40 / IPS 497 words, GPTZero not yet checked). It's the rebuild after Ahaan's Book 11, with last night's fix: the ending now says what "crushing" means (selling a bond before its January, even for the building). Today we test it against its sources. The pitch and three paragraphs say "ten Treasuries", but five of the ten cheques come from iBond funds that, in their own prospectus's words, do "not seek to return any predetermined amount at maturity". Dashboard: https://claude.ai/artifact/NTBamRzChW4niBLYpkm19M
+**Today's round:** a verify round, with no new research fields and no numbers. Three checks: the funds' own prospectuses, why the WInS book holds a stock fund when the IPS says the first $300,000 buys the ladder, and an Australian pharmacy source on what a caplet is and why you don't crush it. https://raei-2748.github.io/caplet-investment/#/day/2026-11-02
+**Room health:** all 11 runs due yesterday happened (ten rooms plus the weekly plan). The Kitchen's send-off and the rewrite thread's V50 edit landed after the evening merge, so both were merged in this morning.
+
+**Nora:** We kept the Kitchen's orders with one change, and the change came from the new rule. Kai read back every "Wharton line" in the orders against Wharton's own files, and one of them was our own sentence dressed up as Wharton's. The real line, from the case, asks for "a clear and consistent investment strategy across all three" deliverables. That's harder than what we'd written, and it's exactly today's question.
+
+**Kai:** Four lines checked, three real, one ours. I'm glad it was a harmless one this time, because the last borrowed authority we leaned on cost us a draft.
+**Tess:** If the funds say they don't promise a sum, then "pays exactly what it promises" can only be about the Treasuries, and our own locked TNA already says so. I'm bringing back their words, not my guess at them.
+**Felix:** V50 still calls the caplet a capsule you "break open". The safety pages I've read say a crushed slow-release *tablet* dumps its dose all at once, and that's the harm our ending needs. I want an Australian page saying it in its own words.
+**Jun:** I'm judging blind, one sourced sentence against the original, a paragraph at a time. If a fix is truer but reads worse, I'll say so, and that will be a real fight.
+**Amara:** I build at 13:40, and I won't add a single idea. Three days out, the job is making each sentence true and plain.
+
+**Students need to:**
+- Nothing is due from you today. Unless you say otherwise, the final IPS for your review arrives by the end of Wed 4 Nov, with its Bible check and the Ten Commandments check beside it.
+- Unless you say otherwise, one of you pastes the final into GPTZero on Wed 4 Nov by 20:00 (K02). Keel can't reach the site.
+- Ray: unless you say otherwise, the WInS book stays as it is (D6). That's danger zone, so it's yours.
+
+**Open questions:**
+- None new today.
+
+**If you want the detail:** https://github.com/raei-2748/caplet-investment/pull/97
+
+(Keel is a simulated team, AI-written.)
+
+
 ## Weekly plan, Sunday 1 Nov 2026, 17:00 (Sydney)
 **Nora:** Three days until the final draft goes to you. (Rebased 17:30 on V50 and Ahaan's Book 11.) We work on V50
 now: strategy only, no model numbers, XR from first line to last. Two fixes, both in words: the funds in the ladder pay

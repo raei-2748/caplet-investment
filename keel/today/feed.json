@@ -1,6 +1,148 @@
 {
- "built": "2026-11-01T09:57",
+ "built": "2026-11-02T02:11",
  "days": [
+  {
+   "date": "2026-11-02",
+   "weekday": "Mon",
+   "essence": [
+    "We checked every claim the IPS makes about what Laura owns against the words of the people on the other side: the fund company's own documents, the US Treasury's rules and the medicine leaflets behind the caplet name.",
+    "Nearly everything held, but the 2032 floor is a fund that holds Treasury bonds rather than the bonds themselves, and \"about a fifteenth\" in shares is only true at today's interest rates.",
+    "So the IPS should call the floor \"a Treasury fund\" and say the shares are \"under a tenth\" of her money, which leaves everything else as it is and makes it one word shorter."
+   ],
+   "huddles": [
+    {
+     "id": "H-015",
+     "title": "The other side of each holding",
+     "question": "Is everything the current IPS draft (V52) says about what Laura owns, and about the caplet, true at its source? (Q14, the verify round; lens 6, the other side)",
+     "status": "closed",
+     "room": "Library",
+     "chair": "Felix",
+     "members": [
+      "Tess",
+      "Nora",
+      "Felix",
+      "Kai"
+     ],
+     "essence": [
+      "We checked every claim the IPS makes about what Laura owns against the words of the people on the other side: the fund company's own documents, the US Treasury's rules and the medicine leaflets behind the caplet name.",
+      "Nearly everything held, but the 2032 floor is a fund that holds Treasury bonds rather than the bonds themselves, and \"about a fifteenth\" in shares is only true at today's interest rates.",
+      "So the IPS should call the floor \"a Treasury fund\" and say the shares are \"under a tenth\" of her money, which leaves everything else as it is and makes it one word shorter."
+     ],
+     "decided": [
+      "O1 (3-1): P5 says 'a Treasury fund maturing in late 2032' and 'the interest it should earn' (IBTM's index holds Treasuries maturing from 1 Jan to 15 Dec 2032; the fund ends about 15 Dec). V52 496 -> 495 strict",
+      "O2 (4-0): 'That is under a tenth of her money.' replaces 'about a fifteenth' (the fifteenth is true at one yield only; the tenth also fits the WInS book's 8.6%). 0 words",
+      "No change (14 lines): XR means extended release; a caplet labelled do not crush (Panadol Osteo, Australia); 'the schedule is gone'; 'redeemed' (iShares' own SEC notice: 'automatically redeem your shares'); 'mature like bonds' (iShares' own heading); 'pays exactly what it promises' (31 CFR 356.30); P6 'she promises'; P9; 'Do not crush.'; the bond trader's caplet is a harmless pun; the scaled-book bridge goes to the Final Report",
+      "Slip S-11 KEEP narrowly, no new words: while 'Do not crush.' stays, P6's 'liquid any day, as her flexibility' stays with it"
+     ],
+     "seeds": [
+      "P6's 'that half moves into Treasuries': WInS lists no Treasury bond maturing Feb 2031 to Feb 2036, so the 2031 move buys a fund; does O1's noun fix apply there too? (Writing Room, before Wed 4 Nov)",
+      "The kept shares do two jobs, 'her flexibility' and first payer of the reinvestment gap: how much flexibility is left in the bad case? (Genius Lab, MODEL, Final Report)",
+      "The Final Report's bridge to the WInS book: the plan scaled to $300,000, IBTM doing two jobs, the pie chart's 'Long Equities', VT at 8.6%, the floorlet line"
+     ],
+     "todos": {
+      "done": 4,
+      "total": 7
+     },
+     "path": "keel/huddles/2026-11-02_the-other-side-of-each-holding",
+     "transcript": "keel/huddles/2026-11-02_the-other-side-of-each-holding/transcript.md",
+     "changes": [
+      "keel/ips_rewrite/inbox/2026-11-02_library.md",
+      "keel/rooms/library.md (S-11)",
+      "keel/ips_rewrite/IDEA_BANK.md (#126-#128)",
+      "keel/loop/rounds/2026-11-02.md (section 4)"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    }
+   ],
+   "research": [
+    {
+     "path": "keel/huddles/2026-11-02_the-other-side-of-each-holding/research/README.md",
+     "title": "H-015 research: the Library's re-check of every quoted line (Mon 2 Nov 2026)",
+     "member": "Readme",
+     "huddle": "H-015"
+    },
+    {
+     "path": "keel/huddles/2026-11-02_the-other-side-of-each-holding/research/felix_r3.md",
+     "title": "Felix settles H-015 (round 3, Mon 2 Nov 2026; Opus 5.5) (Keel is a simulated team, AI-written.)",
+     "member": "Felix",
+     "huddle": "H-015"
+    },
+    {
+     "path": "keel/huddles/2026-11-02_the-other-side-of-each-holding/research/kai.md",
+     "title": "Kai's flaw hunt (H-015 round 2, Mon 2 Nov 2026; Opus 5.5) (Keel is a simulated team, AI-written.)",
+     "member": "Kai",
+     "huddle": "H-015"
+    }
+   ],
+   "done": [
+    {
+     "text": "Three scouts back with the other side's own words: iShares on the five funds, Wharton and the submitted notes on the WInS book, Australian leaflets and bond-maths slides on the caplet (Tess, Nora, Felix; done 2 Nov)",
+     "done": true,
+     "owner": "Tess",
+     "day": "2026-11-02",
+     "huddle": "H-015"
+    },
+    {
+     "text": "Library re-fetches every quoted line a verdict leans on: 48 of 48 found (Felix; done 2 Nov)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-11-02",
+     "huddle": "H-015"
+    },
+    {
+     "text": "Kai attacks every TRUE: three overturned, one dissent dropped (Kai; done 2 Nov)",
+     "done": true,
+     "owner": "Kai",
+     "day": "2026-11-02",
+     "huddle": "H-015"
+    },
+    {
+     "text": "Settle P5, the fifteenth and the payoff; write slip S-11 (Felix; done 2 Nov)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-11-02",
+     "huddle": "H-015"
+    }
+   ],
+   "open": [
+    {
+     "text": "Fold O1 and O2 into the claim set beside V52, and check P6's \"moves into Treasuries\" the same way (Writing Room, Tess and Amara; by Mon 2 Nov 16:20)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-015"
+    },
+    {
+     "text": "Size how much of the kept half the reinvestment gap can take in the bad case, MODEL, for the Final Report (Genius Lab, Jun; by Wed 4 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-015"
+    },
+    {
+     "text": "Final Report bridge to the WInS book: scaled plan, IBTM's two jobs, \"Long Equities\" pie chart, the floorlet line (Felix and Nora; when the Final Report instructions land, Tue 10 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-015"
+    }
+   ],
+   "runs": [
+    {
+     "day": "2026-11-02",
+     "when": "Mon 2 Nov 13:11",
+     "room": "Library",
+     "what": "Beat 4, round 6 (Q14 verify round, lens 6) as huddle H-015 (Tess, Nora, Felix scouts; Kai flaw-hunter; Felix lands; 3 rounds, 5 agent calls) on **V52** (landed overnight; the order named V50): 48/48 quoted lines re-checked at pages or files; O1 P5 \"a Treasury fund maturing in late 2032 ... the interest it should earn\" (IBTM's bonds mature all through 2032; 3-1), O2 \"under a tenth\" for \"about a fifteenth\" (true at one yield only; 4-0), V52 496 -> 495; 14 lines TRUE at source (redeemed, mature like bonds, caplet at an Australian label, pays exactly); slip S-11 KEEP narrowly; bank #126-#128, 2 dropped; 2 requests (Writing Room, Genius Lab)"
+    },
+    {
+     "day": "2026-11-02",
+     "when": "Mon 2 Nov 07:40",
+     "room": "Noticeboard (daily loop)",
+     "what": "Round 6 gathered `../loop/rounds/2026-11-02.md` (Q14 the verify round, lens 6, 0:3 dial; Tess fund prospectuses, Nora WInS VT, Felix caplet at an Australian source; flaw Kai, judge Jun, builder Amara). LS-14 read-back: 3 of 4 Wharton lines verbatim, 1 our own gloss (WHARTON_WORD s1 line 38) swapped for the case's line 161; request to the Window; inbox note `../ips_rewrite/inbox/2026-11-02_noticeboard.md`. Merged the Kitchen's 1 Nov send-off (project-thread-2vfwox) and V50's 19:24 edit (project-thread-3ahu9r). Watchdog: 11/11 due runs on Sun 1 Nov. Board groomed (SD-N07; SD-N06 restored). Brief, ep37"
+    }
+   ]
+  },
   {
    "date": "2026-11-01",
    "weekday": "Sun",
@@ -782,9 +924,9 @@
    "runs": [
     {
      "day": "2026-11-01",
-     "when": "Sun 1 Nov 21:05",
+     "when": "Sun 1 Nov 21:00",
      "room": "Kitchen",
-     "what": "Beat 10, round 5, as huddle H-014 (Amara, Kai, Jun; 3 rounds, 9 agent calls): round 6 orders, **Q14 \"is everything V50 says about what Laura owns, and about the caplet, true at its source?\"** (0:3 dial; lens 6; Tess the five iBond funds' issuer pages v reflection 2, Nora why VT is in the frozen WInS book from primary sources, Felix the caplet at an Australian source; flaw-hunter Kai, judge Jun, builder Amara); **LS-14** (every job quotes its Wharton line, read back by someone who didn't write the order; the Kitchen's own Saturday order asked for the model numbers Book 11 banned); F17-F19 (funds pay 2033-37 and the floor is IBTM; a caplet is a tablet and ISMP's \"all at once\" is said of tablets; \"before it matures\"), S21; 3 CORDs; scene 5 (Jun-Kai); 3 TERRITORY candidates + 2 notes; bank #122-#124; request to the Window (F19); inbox early warning `../ips_rewrite/inbox/2026-11-01_kitchen.md`; memo `../office/outbox/2026-11-01_kitchen_the-caplet-is-a-tablet.md`; dashboard not refreshed (no data-write tool in this session)"
+     "what": "Beat 10, round 5, as huddle H-014 (Amara, Kai, Jun; 3 rounds, 9 agent calls): round 6 orders, **Q14 \"is everything V50 says about what Laura owns, and about the caplet, true at its source?\"** (0:3 dial; lens 6; Tess the five iBond funds' issuer pages v reflection 2, Nora why VT is in the frozen WInS book from primary sources, Felix the caplet at an Australian source; flaw-hunter Kai, judge Jun, builder Amara); **LS-14** (every job quotes its Wharton line, read back by someone who didn't write the order; the Kitchen's own Saturday order asked for the model numbers Book 11 banned); F17-F19 (funds pay 2033-37 and the floor is IBTM; a caplet is a tablet and ISMP's \"all at once\" is said of tablets; \"before it matures\"), S21; 3 CORDs; scene 5 (Jun-Kai); 3 TERRITORY candidates + 2 notes; bank #122-#124; request to the Window (F19); inbox early warning `../ips_rewrite/inbox/2026-11-01_kitchen.md`; memo `../office/outbox/2026-11-01_kitchen_the-caplet-is-a-tablet.md`; PR #96 (the day PR #86 had merged; the first portal build skipped this branch for clashing with the day branch's RUNLOG, so the day branch was merged in); dashboard not refreshed (no data-write tool in this session)"
     },
     {
      "day": "2026-11-01",
