@@ -4,7 +4,8 @@
 
 | ID | Opened | Title | Status | Rounds | Members | To-dos | Essence |
 |---|---|---|---|---|---|---|---|
-| H-018 | 2026-11-02 | [Beside the champion](2026-11-02_beside-the-champion/transcript.md) | closed | 2 | Amara, Tess | 3/6 | We read the newest IPS blind beside two rooms' rewrites, with two outside readers who had never seen any of it, and both picked the newest IPS as it stands, for two plain lines both rewrites had cut: how much of Laura's  |
+| H-019 | 2026-11-02 | [What the last line asks](2026-11-02_what-the-last-line-asks/transcript.md) | closed | 4 | Kai, Jun, Amara, Tess, Felix, Nora | 7/10 | Three outside readers on three models read four versions of the IPS blind, each asked first what the closing "Do not crush." asks Laura not to do. The current draft held off the Writing Room's "none sold" and Nora's firs |
+| H-018 | 2026-11-02 | [Beside the champion](2026-11-02_beside-the-champion/transcript.md) | closed | 2 | Amara, Tess | 4/6 | We read the newest IPS blind beside two rooms' rewrites, with two outside readers who had never seen any of it, and both picked the newest IPS as it stands, for two plain lines both rewrites had cut: how much of Laura's  |
 | H-017 | 2026-11-02 | [What is left to her?](2026-11-02_what-is-left-to-her/transcript.md) | closed | 2 | Amara, Kai, Felix | 5/8 | Our draft makes Laura spend every stock she keeps for herself before it will lower the range she announces in 2031, even though on that day nobody has heard a number yet; where that pocket runs dry, her flexibility is no |
 | H-016 | 2026-11-02 | [Two jobs, one pocket](2026-11-02_two-jobs-one-pocket/transcript.md) | closed | 1 | Amara, Jun, Kai | 5/8 | Our draft gives the stocks Laura keeps two jobs: they are her flexibility, and they are the first money that covers the bond ladder's one weak point, the interest it has to reinvest. We measured how often the second job  |
 | H-015 | 2026-11-02 | [The other side of each holding](2026-11-02_the-other-side-of-each-holding/transcript.md) | closed | 3 | Tess, Nora, Felix, Kai | 4/7 | We checked every claim the IPS makes about what Laura owns against the words of the people on the other side: the fund company's own documents, the US Treasury's rules and the medicine leaflets behind the caplet name. Ne |
@@ -65,3 +66,6 @@
 - H-016: If the kept half is empty in two futures in three when yields fall for good, what is Laura's flexibility in those futures: the margin coming back after 2042, or nothing? (Laura's Room)
 - H-017: Why a quarter and not a fifth or a third? Untested between none and a quarter (Final Report: amount, reason, proof)
 - H-017: If the thread keeps 'under a tenth' (Amara's dissent), which whole idea pays for P9's six words?
+- H-019: Six sentences the skimmer stumbled on in every version ("dearer to buy", "funds that mature like bonds", "under a tenth", the capital-protected note, "Shares don't.", "Whatever the stocks can't cover") (Writing Room)
+- H-019: What is the gap money held in between naming day and January 2033, and is P3's "pays exactly what it promises" true of the funds? (Window)
+- H-019: Q1 partly measures the sentence that contains the word "Crushing" (Jun)

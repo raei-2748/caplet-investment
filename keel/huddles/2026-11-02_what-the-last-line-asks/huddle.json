@@ -1,0 +1,90 @@
+{
+  "id": "H-019",
+  "slug": "what-the-last-line-asks",
+  "title": "What the last line asks",
+  "question": "The IPS ends on \"Do not crush.\", and two cold readers this afternoon couldn't say what it asks Laura not to do. Where should the IPS say it: nowhere (V53), \"none sold\" in the opening (the Writing Room's W2), or V50's \"Crushing one means selling it before its January, even for the building.\" moved beside the label? Settle it tonight so it stops flipping (round 6 beat 8).",
+  "room": "Long Room",
+  "chair": "the run (Nora's room)",
+  "opened": "2026-11-02",
+  "status": "closed",
+  "closed": "2026-11-02",
+  "members": [
+    "Kai",
+    "Jun",
+    "Amara",
+    "Tess",
+    "Felix",
+    "Nora"
+  ],
+  "serves": "North stars 1 and 2 (plain voice; the motif paid off, Book 11's full circle); Wharton: Creativity & Presentation (a clear investment thesis; plain sense to an ordinary reader), Client Knowledge (the operating reserve's size and initial asset composition, case :95-96)",
+  "rounds": [
+    {
+      "n": 1,
+      "name": "Sealed positions, Kai's flaw hunt, Jun's pre-registered test, Nora's repair",
+      "date": "2026-11-02",
+      "posts": [
+        "posts/r1_kai.md",
+        "posts/r1_jun.md",
+        "posts/r1_amara.md",
+        "posts/r1_tess.md",
+        "posts/r1_felix.md",
+        "posts/r1_nora.md"
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Three outside readers, blind; then replies by name and two votes",
+      "date": "2026-11-02",
+      "posts": [
+        "posts/r2_jun_scoring.md",
+        "posts/r2_kai.md",
+        "posts/r2_jun.md",
+        "posts/r2_amara.md",
+        "posts/r2_tess.md",
+        "posts/r2_felix.md",
+        "posts/r2_nora.md"
+      ]
+    },
+    {
+      "n": 3,
+      "name": "The two sides of the order line go and check",
+      "date": "2026-11-02",
+      "posts": [
+        "posts/r3_tess.md",
+        "posts/r3_felix.md"
+      ]
+    },
+    {
+      "n": 4,
+      "name": "The registered blind read of the room's D",
+      "date": "2026-11-02",
+      "posts": []
+    }
+  ],
+  "essence": [
+    "Three outside readers on three models read four versions of the IPS blind, each asked first what the closing \"Do not crush.\" asks Laura not to do.",
+    "The current draft held off the Writing Room's \"none sold\" and Nora's first repair, because both named the operating reserve in words a skimmer could only quote back.",
+    "Then the room's own version, which says once in paragraph two \"Crushing one means selling it before its January, even for the building.\" and names the reserve as the ladder plus the money set aside for its gap, beat the current draft with all three readers, so Keel offers its three edits for V54 and the question stops flipping."
+  ],
+  "decided": [
+    "V53 stands against W2 and C under the pre-registered rules (6-0): both lost on Q3, the reserve said back",
+    "Read a D arm blind before promoting anything (6-0); run tonight, registered 19:16",
+    "Order line cut, 5-1 (Kai keeps; Tess switched in round 3: it isn't true on naming day); its mechanism to the Final Report",
+    "P3's \"We don't invest toward these payments. We buy them.\" cut from the IPS, 5-1 (Jun keeps); the pitch says it",
+    "D (495 strict) beat V53 3 of 3 with the pitch shown; Q1 3.0 v 2.5, Q3 3.0 v 3.0; tripwire not triggered; offered for V54"
+  ],
+  "seeds": [
+    "Six sentences the skimmer stumbled on in every version (\"dearer to buy\", \"funds that mature like bonds\", \"under a tenth\", the capital-protected note, \"Shares don't.\", \"Whatever the stocks can't cover\") (Writing Room)",
+    "What is the gap money held in between naming day and January 2033, and is P3's \"pays exactly what it promises\" true of the funds? (Window)",
+    "Q1 partly measures the sentence that contains the word \"Crushing\" (Jun)"
+  ],
+  "changes": [
+    "../../ips_rewrite/inbox/2026-11-02_long-room.md",
+    "../../meetings/2026-11-02_what-the-last-line-asks.md",
+    "../../office/outbox/2026-11-02_long-room_what-the-last-line-asks.md"
+  ],
+  "todos": {
+    "done": 7,
+    "total": 10
+  }
+}

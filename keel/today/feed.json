@@ -1,5 +1,5 @@
 {
- "built": "2026-11-02T07:46",
+ "built": "2026-11-02T08:29",
  "days": [
   {
    "date": "2026-11-02",
@@ -16,7 +16,10 @@
     "So the IPS should say \"add a margin\" again and, if a whole idea can pay for it, say plainly that her flexibility shrinks before her promise does.",
     "Our draft makes Laura spend every stock she keeps for herself before it will lower the range she announces in 2031, even though on that day nobody has heard a number yet; where that pocket runs dry, her flexibility is nothing until money comes back in 2042.",
     "We tested keeping a quarter of those stocks back on that day and lowering the range instead: her pocket is empty by 2033 about 1 time in 15 instead of 1 in 5, the number she announces is delivered more often, the cheques are no worse, and it costs under $1,000 of the average gift.",
-    "So we offer one new sentence for the IPS, \"set it aside from the stocks Laura keeps until only a quarter is left. Anything still missing lowers the whole range, before anyone hears it\", plus two small fixes the case asks for."
+    "So we offer one new sentence for the IPS, \"set it aside from the stocks Laura keeps until only a quarter is left. Anything still missing lowers the whole range, before anyone hears it\", plus two small fixes the case asks for.",
+    "Three outside readers on three models read four versions of the IPS blind, each asked first what the closing \"Do not crush.\" asks Laura not to do.",
+    "The current draft held off the Writing Room's \"none sold\" and Nora's first repair, because both named the operating reserve in words a skimmer could only quote back.",
+    "Then the room's own version, which says once in paragraph two \"Crushing one means selling it before its January, even for the building.\" and names the reserve as the ladder plus the money set aside for its gap, beat the current draft with all three readers, so Keel offers its three edits for V54 and the question stops flipping."
    ],
    "huddles": [
     {
@@ -47,7 +50,7 @@
       "If the thread keeps P3's 'We buy them', which whole idea pays for 'none sold' and the reserve line? (Tess)"
      ],
      "todos": {
-      "done": 3,
+      "done": 4,
       "total": 6
      },
      "path": "keel/huddles/2026-11-02_beside-the-champion",
@@ -183,6 +186,52 @@
      ],
      "rounds": 2,
      "rounds_today": 2
+    },
+    {
+     "id": "H-019",
+     "title": "What the last line asks",
+     "question": "The IPS ends on \"Do not crush.\", and two cold readers this afternoon couldn't say what it asks Laura not to do. Where should the IPS say it: nowhere (V53), \"none sold\" in the opening (the Writing Room's W2), or V50's \"Crushing one means selling it before its January, even for the building.\" moved beside the label? Settle it tonight so it stops flipping (round 6 beat 8).",
+     "status": "closed",
+     "room": "Long Room",
+     "chair": "the run (Nora's room)",
+     "members": [
+      "Kai",
+      "Jun",
+      "Amara",
+      "Tess",
+      "Felix",
+      "Nora"
+     ],
+     "essence": [
+      "Three outside readers on three models read four versions of the IPS blind, each asked first what the closing \"Do not crush.\" asks Laura not to do.",
+      "The current draft held off the Writing Room's \"none sold\" and Nora's first repair, because both named the operating reserve in words a skimmer could only quote back.",
+      "Then the room's own version, which says once in paragraph two \"Crushing one means selling it before its January, even for the building.\" and names the reserve as the ladder plus the money set aside for its gap, beat the current draft with all three readers, so Keel offers its three edits for V54 and the question stops flipping."
+     ],
+     "decided": [
+      "V53 stands against W2 and C under the pre-registered rules (6-0): both lost on Q3, the reserve said back",
+      "Read a D arm blind before promoting anything (6-0); run tonight, registered 19:16",
+      "Order line cut, 5-1 (Kai keeps; Tess switched in round 3: it isn't true on naming day); its mechanism to the Final Report",
+      "P3's \"We don't invest toward these payments. We buy them.\" cut from the IPS, 5-1 (Jun keeps); the pitch says it",
+      "D (495 strict) beat V53 3 of 3 with the pitch shown; Q1 3.0 v 2.5, Q3 3.0 v 3.0; tripwire not triggered; offered for V54"
+     ],
+     "seeds": [
+      "Six sentences the skimmer stumbled on in every version (\"dearer to buy\", \"funds that mature like bonds\", \"under a tenth\", the capital-protected note, \"Shares don't.\", \"Whatever the stocks can't cover\") (Writing Room)",
+      "What is the gap money held in between naming day and January 2033, and is P3's \"pays exactly what it promises\" true of the funds? (Window)",
+      "Q1 partly measures the sentence that contains the word \"Crushing\" (Jun)"
+     ],
+     "todos": {
+      "done": 7,
+      "total": 10
+     },
+     "path": "keel/huddles/2026-11-02_what-the-last-line-asks",
+     "transcript": "keel/huddles/2026-11-02_what-the-last-line-asks/transcript.md",
+     "changes": [
+      "../../ips_rewrite/inbox/2026-11-02_long-room.md",
+      "../../meetings/2026-11-02_what-the-last-line-asks.md",
+      "../../office/outbox/2026-11-02_long-room_what-the-last-line-asks.md"
+     ],
+     "rounds": 4,
+     "rounds_today": 4
     }
    ],
    "research": [
@@ -215,6 +264,90 @@
      "title": "Kai's sources, H-017 round 1 (Mon 2 Nov 2026)",
      "member": "Kai",
      "huddle": "H-017"
+    },
+    {
+     "path": "keel/huddles/2026-11-02_what-the-last-line-asks/research/amara_r1.md",
+     "title": "Amara, research note, round 1 (H-019, Mon 2 Nov 2026)",
+     "member": "Amara",
+     "huddle": "H-019"
+    },
+    {
+     "path": "keel/huddles/2026-11-02_what-the-last-line-asks/research/amara_r2.md",
+     "title": "Amara, research note, round 2 (H-019, Mon 2 Nov 2026)",
+     "member": "Amara",
+     "huddle": "H-019"
+    },
+    {
+     "path": "keel/huddles/2026-11-02_what-the-last-line-asks/research/felix_r1.md",
+     "title": "Felix, round 1 research note (H-019, Mon 2 Nov 2026)",
+     "member": "Felix",
+     "huddle": "H-019"
+    },
+    {
+     "path": "keel/huddles/2026-11-02_what-the-last-line-asks/research/felix_r2.md",
+     "title": "Felix, round 2 research note (H-019, Mon 2 Nov 2026)",
+     "member": "Felix",
+     "huddle": "H-019"
+    },
+    {
+     "path": "keel/huddles/2026-11-02_what-the-last-line-asks/research/felix_r3.md",
+     "title": "Felix, round 3 research note (H-019, Mon 2 Nov 2026)",
+     "member": "Felix",
+     "huddle": "H-019"
+    },
+    {
+     "path": "keel/huddles/2026-11-02_what-the-last-line-asks/research/jun_r1.md",
+     "title": "Jun, round 1: what I checked (Mon 2 Nov 2026, 18:36 Sydney)",
+     "member": "Jun",
+     "huddle": "H-019"
+    },
+    {
+     "path": "keel/huddles/2026-11-02_what-the-last-line-asks/research/jun_r2.md",
+     "title": "Jun, round 2: what I checked, my D, and the rules I'd propose for Tuesday (Mon 2 Nov 2026, ~19:45 Sydney)",
+     "member": "Jun",
+     "huddle": "H-019"
+    },
+    {
+     "path": "keel/huddles/2026-11-02_what-the-last-line-asks/research/kai_r1.md",
+     "title": "Kai, round 1 research note (H-019, Mon 2 Nov 2026, read 18:2x Sydney)",
+     "member": "Kai",
+     "huddle": "H-019"
+    },
+    {
+     "path": "keel/huddles/2026-11-02_what-the-last-line-asks/research/kai_r2.md",
+     "title": "Kai, round 2 note (H-019, Mon 2 Nov 2026)",
+     "member": "Kai",
+     "huddle": "H-019"
+    },
+    {
+     "path": "keel/huddles/2026-11-02_what-the-last-line-asks/research/nora_r1.md",
+     "title": "Nora, round 1 research note (H-019, Mon 2 Nov 2026, read 18:4x-18:5x Sydney)",
+     "member": "Nora",
+     "huddle": "H-019"
+    },
+    {
+     "path": "keel/huddles/2026-11-02_what-the-last-line-asks/research/nora_r2.md",
+     "title": "Nora, round 2 research note (H-019, Mon 2 Nov 2026, ~19:50 Sydney)",
+     "member": "Nora",
+     "huddle": "H-019"
+    },
+    {
+     "path": "keel/huddles/2026-11-02_what-the-last-line-asks/research/tess_r1.md",
+     "title": "Tess, round 1 research note (H-019, Mon 2 Nov 2026)",
+     "member": "Tess",
+     "huddle": "H-019"
+    },
+    {
+     "path": "keel/huddles/2026-11-02_what-the-last-line-asks/research/tess_r2.md",
+     "title": "Tess, round 2 research note (H-019, Mon 2 Nov 2026)",
+     "member": "Tess",
+     "huddle": "H-019"
+    },
+    {
+     "path": "keel/huddles/2026-11-02_what-the-last-line-asks/research/tess_r3.md",
+     "title": "Tess, round 3 check: what only the order line does (H-019, Mon 2 Nov 2026)",
+     "member": "Tess",
+     "huddle": "H-019"
     }
    ],
    "done": [
@@ -236,6 +369,13 @@
      "text": "Answer the five requests and list V53's hard issues with the smallest edits (Tess; done 2 Nov)",
      "done": true,
      "owner": "Tess",
+     "day": "2026-11-02",
+     "huddle": "H-018"
+    },
+    {
+     "text": "Read V53 against W2 blind, with the \"what does the last line ask?\" say-back (Long Room, Jun; done 2 Nov: V53 stood, then the room's D beat it 3 of 3, H-019)",
+     "done": true,
+     "owner": null,
      "day": "2026-11-02",
      "huddle": "H-018"
     },
@@ -336,16 +476,58 @@
      "owner": "Amara",
      "day": "2026-11-02",
      "huddle": "H-017"
+    },
+    {
+     "text": "Six sealed positions on V53 v W2, with sealed guesses (all six; done 2 Nov)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-02",
+     "huddle": "H-019"
+    },
+    {
+     "text": "Pre-register the blind test, run three outside readers, score blind (Jun; done 2 Nov)",
+     "done": true,
+     "owner": "Jun",
+     "day": "2026-11-02",
+     "huddle": "H-019"
+    },
+    {
+     "text": "Pick one repair from texts already read: arm C (Nora; done 2 Nov)",
+     "done": true,
+     "owner": "Nora",
+     "day": "2026-11-02",
+     "huddle": "H-019"
+    },
+    {
+     "text": "Re-score every borderline blind (Felix; done 2 Nov)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-11-02",
+     "huddle": "H-019"
+    },
+    {
+     "text": "Replies by name, two votes, six D's (all six; done 2 Nov)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-02",
+     "huddle": "H-019"
+    },
+    {
+     "text": "Check the order line from both sides (Tess and Felix; done 2 Nov)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-02",
+     "huddle": "H-019"
+    },
+    {
+     "text": "Register and read the majority D blind, pitch shown, tripwire on (Jun; done 2 Nov)",
+     "done": true,
+     "owner": "Jun",
+     "day": "2026-11-02",
+     "huddle": "H-019"
     }
    ],
    "open": [
-    {
-     "text": "Read V53 against W2 blind, with the \"what does the last line ask?\" say-back (Long Room, Jun; by Mon 2 Nov 18:20)",
-     "done": false,
-     "owner": null,
-     "day": null,
-     "huddle": "H-018"
-    },
     {
      "text": "Gate \"one rung per cheque\" and \"none sold\" against the funds' documents and the WInS book (Window, Felix; by Tue 3 Nov 08:40)",
      "done": false,
@@ -422,9 +604,42 @@
      "owner": null,
      "day": null,
      "huddle": "H-017"
+    },
+    {
+     "text": "Gate D's two new lines, where the gap money sits 2031-2033, and P3's \"exactly what it promises\" (Window, Felix; by Tue 3 Nov 08:40)",
+     "done": false,
+     "owner": "Window",
+     "day": null,
+     "huddle": "H-019"
+    },
+    {
+     "text": "Plainer words for the skimmer's six stumbles, read blind (Writing Room, Tess; by Tue 3 Nov 16:20)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-019"
+    },
+    {
+     "text": "The order line's mechanism, with its date, in the Final Report (Final Report planner, Tess; after the instructions land, Tue 10 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-019"
     }
    ],
    "runs": [
+    {
+     "day": "2026-11-02",
+     "when": "Mon 2 Nov 19:40",
+     "room": "Long Room",
+     "what": "Beat 8, round 6, as huddle H-019 (all six, each its own agent, 3 rounds; Kai flaw, Nora repair, Jun cold judge; three outside readers, Haiku/Opus/Fable, blind, rules and hashes fixed first): what \"Do not crush.\" asks. V53 stood against W2 and Nora's C (Q3 2.0 v 3.0), 6-0; the room's D (V50's line in P2, reserve = ladder + the money set aside for its gap, order line and \"We buy them\" cut 5-1 each) then beat V53 3 of 3 with the pitch shown (Q1 3.0 v 2.5, Q3 3.0 v 3.0); offered for V54 `../meetings/2026-11-02_what-the-last-line-asks.md`, `../ips_rewrite/inbox/2026-11-02_long-room.md`; 2 requests (Window, Writing Room); bank #138-#140"
+    },
+    {
+     "day": "2026-11-02",
+     "when": "Mon 2 Nov 19:30",
+     "room": "Claude (Caplet's thread \"Merge all Keel work into main\", not a room)",
+     "what": "All 21 leftover branches merged into main, incl. draft PRs #20 and #38 (main's newer files kept; history: `../../archive/branches/BRANCH_HISTORY.md`); added what main lacked: the 23 Oct review (`../library/assistant_review_2026-10/oct23/`), the 23 Oct Treasury curve and coupon-shortfall scripts (`../scripts/`), a banner on the 24 Oct IPS edits; PR #20's alternate episodes 3-5 to `archive/branches/`; the project folder's 23 files not in the repo to `archive/project_files_2026-11-02/` (Ahaan's essays left out: marked private). No draft changed, so no CHANGES row"
+    },
     {
      "day": "2026-11-02",
      "when": "Mon 2 Nov 17:05",

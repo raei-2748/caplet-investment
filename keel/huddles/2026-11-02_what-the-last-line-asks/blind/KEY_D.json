@@ -1,0 +1,29 @@
+{
+ "written": "Mon 2 Nov 2026, chair, before any reader ran on D",
+ "texts": {
+  "DYEY": {
+   "arm": "A",
+   "file": "arms/A_V53.txt",
+   "sha256_16": "695ef666e9c02812"
+  },
+  "UCPK": {
+   "arm": "D",
+   "file": "arms/D_round2_majority.txt",
+   "sha256_16": "fb9c9a8463ce9ddd"
+  }
+ },
+ "pairwise_order": {
+  "haiku": [
+   "DYEY",
+   "UCPK"
+  ],
+  "opus": [
+   "UCPK",
+   "DYEY"
+  ],
+  "fable": [
+   "UCPK",
+   "DYEY"
+  ]
+ }
+}
