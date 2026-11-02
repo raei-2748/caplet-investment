@@ -25,7 +25,7 @@
 | 16 | Make it measurable | Which claim in the champion has no number? Find the number, or cut the claim. | | 0 | 0 |
 | 17 | So what, three times | Ask "so what?" of the champion three times. Where does the answer run out? | | 0 | 0 |
 | 18 | Say it with no motif | Write the idea with no Caplet XR at all. If it gets better, the motif was decoration there. | | 0 | 0 |
-| 19 | The child's question | Explain it to a twelve-year-old in two lines. Which word did you have to cheat on? | | 0 | 0 |
+| 19 | The child's question | Explain it to a twelve-year-old in two lines. Which word did you have to cheat on? | Tue 3 Nov (R7) | 1 | 0 |
 | 20 | The far draw | Roll for a field from the far list that is `unvisited`, and send the third scout there blind. | | 0 | 0 |
 | 21 | Laura's diary | What does Laura do on the morning each cheque goes out? What does she not have to do? | | 0 | 0 |
 | 22 | What did we give up? | Name the cost of the champion, in dollars or in paths. Is it the right cost? | Fri 30 Oct (R3) | 1 | 0 |

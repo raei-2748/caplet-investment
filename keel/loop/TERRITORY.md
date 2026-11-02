@@ -106,6 +106,7 @@
 | 4 | Nora, Amara, Jun | Tess | Kai |
 | 5 | Jun, Kai, Amara | Felix | Tess |
 | 6 | Tess, Nora, Felix | Nora (scouts, so **Kai**: Kitchen H-014, Sun 1 Nov) | Jun |
+| 7 (Tue 3 Nov) | Amara, Kai, Jun (round 5's fields swapped; row 1 would have repeated Tess and Felix as scouts: Rooftop H-020, Mon 2 Nov) | Tess | Nora (builder Felix) |
 | then repeat from 1 with the scouts' fields swapped (whoever went near goes far) | | | |
 
 The builder (usually Jun at the Genius Lab) never hunts flaws in or judges their own challenger; if the table would
