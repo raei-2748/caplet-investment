@@ -6,4 +6,4 @@
 - [ ] Read m3j blind against V52 in tonight's claim set (Writing Room, Tess and Amara; by Mon 2 Nov 16:20)
 - [ ] Gate L-16's headline from a clean checkout (S0, S6) and rule on "add a margin" (Window, Felix; by Tue 3 Nov 08:40)
 - [ ] Size the margin from the gap's own spread for the Final Report (Genius Lab, Jun; after 7 Nov)
-- [ ] What is Laura's flexibility when the pocket is empty? (Laura's Room, Amara; by Wed 4 Nov)
+- [x] What is Laura's flexibility when the pocket is empty? (Laura's Room, Amara; done 2 Nov: nothing until 2042, so keep a quarter back on naming day, LR-10 / H-017)
