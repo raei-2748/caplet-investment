@@ -59,6 +59,7 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Mon 2 Nov 2026
 ## Done
 | ID | Task | Owner | Done | Output |
 |---|---|---|---|---|
+| SD-R020 | Round 6 beat 10: looked back on Sat 31 Oct to Mon 2 Nov (entry); LS-15 filed 2-1 (search the register before cutting a line), LS-10 to 2, LS-14 to 1, LS-06 and LS-13 ruled; round 7 orders (Q15, which words would the weakest stranger have to guess; lens 19; Amara, Kai, Jun) | Tess (Nora, Jun; H-020) | Mon 2 Nov | `../office/outbox/2026-11-02_rooftop_the-line-that-carries-it.md` |
 | SD-H019 | Round 6 beat 8: what "Do not crush." asks; V53 stood blind against W2 and C (6-0); the room's D beat V53 3 of 3 under a registration written first; three edits offered for V54 (495 strict) | Nora (all six) | Mon 2 Nov | `../office/outbox/2026-11-02_long-room_what-the-last-line-asks.md` |
 | SD-LR10 | Round 6 beat 6: the Lab's seed answered (where her kept stocks are empty her flexibility is nothing); keep a quarter back on naming day, tested in four worlds and offered as P8 (+ P7, P9, P5), 496 strict | Amara | Mon 2 Nov | `../office/outbox/2026-11-02_lauras-room_what-is-left-to-her.md` |
 | SD-N07 | Research round 6 gathered: Q14, is everything V50 says about what Laura owns and about the caplet true at its source (verify round, 0:3 dial); lens 6; scouts Tess (fund prospectuses), Nora (why the WInS book holds VT), Felix (the caplet at an Australian source). LS-14 read-back caught a non-Wharton "Wharton line"; request filed | Nora (Kai reading back) | Mon 2 Nov | `keel/loop/rounds/2026-11-02.md` |

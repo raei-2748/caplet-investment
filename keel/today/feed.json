@@ -1,5 +1,5 @@
 {
- "built": "2026-11-02T08:42",
+ "built": "2026-11-02T10:11",
  "days": [
   {
    "date": "2026-11-02",
@@ -11,6 +11,9 @@
     "We checked every claim the IPS makes about what Laura owns against the words of the people on the other side: the fund company's own documents, the US Treasury's rules and the medicine leaflets behind the caplet name.",
     "Nearly everything held, but the 2032 floor is a fund that holds Treasury bonds rather than the bonds themselves, and \"about a fifteenth\" in shares is only true at today's interest rates.",
     "So the IPS should call the floor \"a Treasury fund\" and say the shares are \"under a tenth\" of her money, which leaves everything else as it is and makes it one word shorter.",
+    "We argued about what cutting one sentence taught us, and the slip we blamed on the people who cut it was made later, by my own group.",
+    "We decided that whoever cuts a sentence first says what leaned on it and what takes over.",
+    "Tomorrow the IPS gets plainer words wherever a stranger would guess, and \"her promise\" stays only if a stranger with your Trading Notes open reads it as the building money.",
     "Our draft gives the stocks Laura keeps two jobs: they are her flexibility, and they are the first money that covers the bond ladder's one weak point, the interest it has to reinvest.",
     "We measured how often the second job eats the first: all of that pocket is gone by 2033 in about one future in five, and two in three if rates fall hard and stay down; and the draft had quietly lost the safety margin the plan sets aside, without which a cheque comes up short in about one future in four instead of one in 550.",
     "So the IPS should say \"add a margin\" again and, if a whole idea can pay for it, say plainly that her flexibility shrinks before her promise does.",
@@ -103,6 +106,54 @@
       "keel/rooms/library.md (S-11)",
       "keel/ips_rewrite/IDEA_BANK.md (#126-#128)",
       "keel/loop/rounds/2026-11-02.md (section 4)"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    },
+    {
+     "id": "H-020",
+     "title": "The roof before the last day",
+     "question": "Tomorrow is the last day anything new can be promoted. What did rounds 4 to 6 teach us about how we work, and what should round 7 (Tue 3 Nov) chase?",
+     "status": "closed",
+     "room": "Rooftop",
+     "chair": "Tess",
+     "members": [
+      "Tess",
+      "Nora",
+      "Jun"
+     ],
+     "essence": [
+      "We argued about what cutting one sentence taught us, and the slip we blamed on the people who cut it was made later, by my own group.",
+      "We decided that whoever cuts a sentence first says what leaned on it and what takes over.",
+      "Tomorrow the IPS gets plainer words wherever a stranger would guess, and \"her promise\" stays only if a stranger with your Trading Notes open reads it as the building money."
+     ],
+     "decided": [
+      "2-1 (Jun for Nora's strangers rule): LS-15, 'Before a room cuts or moves a line, it searches the register for that line, reads out every job it does and every HOLD that leaned on it, and names the line that carries each one afterwards.'",
+      "3-0: LS-10 raised to 2, counted by date like LS-06 (bent Thu 29 Oct, broken Mon 2 Nov); on Tuesday P8 gets two beats, the Window and the Writing Room. LS-14 raised to 1; LS-06 and LS-13 marked ruled (the vote gate)",
+      "3-0: round 7 asks Q15, 'Which words in D plus the cure would the weakest stranger have to guess, and what do people who explain money for a living put first?'; lens 19, the child's question",
+      "3-0: scouts are round 5's fields swapped: Amara near (capital-protected notes; line 71), Kai adjacent (weather forecasts; lines 89-90), Jun far (medicine leaflets and their pass mark; line 34); no scout brings back a sentence to paste",
+      "3-0: Felix builds, Tess hunts flaws, Nora judges cold (pass mark first, strangers counted, the weakest reader decides)",
+      "3-0: 'No fourth flip' stands for the last line and F20 closes with D; F21's HOLD is void on D, the Window reads it out at 08:40 and a TNA-open stranger settles 'her promise' at 16:20; the 18:20 Courtroom records it, no vote"
+     ],
+     "seeds": [
+      "The case says 'promise' only of the 2031 range and calls the cheques 'the operating commitment'; the pitch calls the cheques 'a promise'. Which word should the pitch use, and does the IPS change with it? (Window and Writing Room, Tue 3 Nov)",
+      "A medicine leaflet must pass a readers' test on every question, not on average (Norway's medicines agency, 90% find and 90% of those understand). Is there a version of that pass mark a three-reader panel can honestly use? (Nora's judge sheet)"
+     ],
+     "todos": {
+      "done": 6,
+      "total": 12
+     },
+     "path": "keel/huddles/2026-11-02_the-roof-before-the-last-day",
+     "transcript": "keel/huddles/2026-11-02_the-roof-before-the-last-day/transcript.md",
+     "changes": [
+      "keel/loop/LESSONS.md",
+      "keel/loop/FRONTIER.md",
+      "keel/loop/TERRITORY.md",
+      "keel/loop/rounds/2026-11-02.md",
+      "keel/rooms/rooftop.md",
+      "keel/pm/REQUESTS.md",
+      "keel/ips_rewrite/IDEA_BANK.md",
+      "keel/ips_rewrite/inbox/2026-11-02_rooftop.md"
      ],
      "rounds": 3,
      "rounds_today": 3
@@ -254,6 +305,42 @@
      "huddle": "H-015"
     },
     {
+     "path": "keel/huddles/2026-11-02_the-roof-before-the-last-day/research/jun.md",
+     "title": "Jun, round 1: sourced notes (Mon 2 Nov 2026, night, Sydney)",
+     "member": "Jun",
+     "huddle": "H-020"
+    },
+    {
+     "path": "keel/huddles/2026-11-02_the-roof-before-the-last-day/research/jun_r3.md",
+     "title": "Jun, round 3: sourced notes (H-020, Mon 2 Nov 2026, night, Sydney)",
+     "member": "Jun",
+     "huddle": "H-020"
+    },
+    {
+     "path": "keel/huddles/2026-11-02_the-roof-before-the-last-day/research/nora.md",
+     "title": "Nora, round 1: sourced notes (H-020, Mon 2 Nov 2026, read tonight)",
+     "member": "Nora",
+     "huddle": "H-020"
+    },
+    {
+     "path": "keel/huddles/2026-11-02_the-roof-before-the-last-day/research/nora_r3.md",
+     "title": "Nora, round 3: the strangers side of LS-15, checked (H-020, Mon 2 Nov 2026, night; every path read tonight)",
+     "member": "Nora",
+     "huddle": "H-020"
+    },
+    {
+     "path": "keel/huddles/2026-11-02_the-roof-before-the-last-day/research/tess.md",
+     "title": "Tess, round 1 notes (H-020, Mon 2 Nov 2026)",
+     "member": "Tess",
+     "huddle": "H-020"
+    },
+    {
+     "path": "keel/huddles/2026-11-02_the-roof-before-the-last-day/research/tess_r3.md",
+     "title": "Tess, round 3: the landing check (H-020, Mon 2 Nov 2026, night, Sydney; every line read at its file tonight)",
+     "member": "Tess",
+     "huddle": "H-020"
+    },
+    {
      "path": "keel/huddles/2026-11-02_what-is-left-to-her/research/felix.md",
      "title": "Felix, round 1: the lines I quoted (read Mon 2 Nov 2026, Sydney; all files in the repo, nothing fetched online)",
      "member": "Felix",
@@ -352,6 +439,34 @@
    ],
    "done": [
     {
+     "text": "IBTO-IBTR issuer pages beside submitted reflection 2: is \"held to the close\" true of all five funds, and is every \"Treasury\" in the pitch and paras 2, 3, 5 true? (Tess, near scout; done 2 Nov: `../../rooms/library/2026-11-02_scouts/tess.md`, huddle H-015; O1 \"a Treasury fund maturing in late 2032\" is in V53)",
+     "done": true,
+     "owner": "Tess",
+     "day": "2026-11-02",
+     "huddle": "H-014"
+    },
+    {
+     "text": "Why VT sits in the frozen WInS book, from primary sources only (the VT note, reflection 3, the Nov-2041 note's \"scaled to the model portfolio\"): is a \"scaled\" bridge needed in the IPS? (Nora, adjacent scout; done 2 Nov: `../../rooms/library/2026-11-02_scouts/nora.md`, H-015; the bridge goes to the Final Report, bank #143)",
+     "done": true,
+     "owner": "Nora",
+     "day": "2026-11-02",
+     "huddle": "H-014"
+    },
+    {
+     "text": "The circle at an Australian source: an extended-release caplet or tablet, \"do not crush\", \"all at once\"; whether \"labelled\" holds (Felix, far scout; done 2 Nov: `../../rooms/library/2026-11-02_scouts/felix.md`, H-015; with the Window's W-07 the motif became \"a caplet ... labelled do not crush. Crush it and the schedule is gone.\" in V53)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-11-02",
+     "huddle": "H-014"
+    },
+    {
+     "text": "One plain diversification sentence starts from the submitted VT note (\"one cheap fund diversifies Laura's stocks\") and is cold-read on Jun's question, \"spread against what?\" (Writing Room; done 2 Nov: H-018, Amara's D1 lost to V53 with both cold readers and goes to the Final Report)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-02",
+     "huddle": "H-014"
+    },
+    {
      "text": "Three diversification candidates at 497, each with the whole idea that pays (Amara; done 2 Nov)",
      "done": true,
      "owner": "Amara",
@@ -406,6 +521,48 @@
      "owner": "Felix",
      "day": "2026-11-02",
      "huddle": "H-015"
+    },
+    {
+     "text": "Round 7's orders written in the loop's frontier: Q15, lens 19, three scout jobs, each with its Wharton line read at the page (Tess; done 2 Nov)",
+     "done": true,
+     "owner": "Tess",
+     "day": "2026-11-02",
+     "huddle": "H-020"
+    },
+    {
+     "text": "LS-15 filed 2-1 (Jun for Nora's strangers rule); LS-10 raised to 2 by date; LS-14 raised to 1; LS-06 and LS-13 marked ruled (Tess, Nora, Jun; done 2 Nov)",
+     "done": true,
+     "owner": "Tess",
+     "day": "2026-11-02",
+     "huddle": "H-020"
+    },
+    {
+     "text": "CORD: \"the stocks come last\" was the Archive's own reading, never a stranger's: the blind reader had the order line in V53 and still rated P8 HIGH (Nora; done 2 Nov)",
+     "done": true,
+     "owner": "Nora",
+     "day": "2026-11-02",
+     "huddle": "H-020"
+    },
+    {
+     "text": "CORD: F21's HOLD first appears in the Archive's 19:42 commit, after the Long Room's D (19:16) cut the line it rests on (Jun, then Tess on her own room; done 2 Nov)",
+     "done": true,
+     "owner": "Jun",
+     "day": "2026-11-02",
+     "huddle": "H-020"
+    },
+    {
+     "text": "CORD: lens 7 is about market paths, not readers; lens 19 is the six stumbles (Jun on himself; done 2 Nov)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-02",
+     "huddle": "H-020"
+    },
+    {
+     "text": "CORD: Wharton's line numbers moved +7 when the case's \"together\" lines went in: \"should reflect the strategy\" is now line 117, \"why each investment belongs\" lines 120-121 (Nora; done 2 Nov)",
+     "done": true,
+     "owner": "Nora",
+     "day": "2026-11-02",
+     "huddle": "H-020"
     },
     {
      "text": "Run six arms x five worlds on V52's design; reproduce LR-09 and L-14 (Amara; done 2 Nov)",
@@ -564,6 +721,48 @@
      "huddle": "H-015"
     },
     {
+     "text": "Read F21's HOLD out (it rests on a line D cuts) and lay the case's only \"promise\" (lines 114-115, the 2031 range) beside the pitch's \"cheques are a promise\" (Window, Felix; by Tue 3 Nov 08:40)",
+     "done": false,
+     "owner": "Window",
+     "day": null,
+     "huddle": "H-020"
+    },
+    {
+     "text": "One stranger, TNA open, pitch shown, key written first: what does \"her promise\" mean on D + the cure? \"The range\" keeps it; anything else takes \"her gift\". Whoever rewrites P8's last line keeps the job the cut order line did (Writing Room, Tess; by Tue 3 Nov 16:20)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-020"
+    },
+    {
+     "text": "Near: a regulator's plain word for a capital-protected note, and what it explains before \"option\" (Amara, scout; by Tue 3 Nov 12:10)",
+     "done": false,
+     "owner": "Amara",
+     "day": null,
+     "huddle": "H-020"
+    },
+    {
+     "text": "Adjacent: what readers picture when a share or a chance has no \"of what?\" (weather forecasts) (Kai, scout; by Tue 3 Nov 12:10)",
+     "done": false,
+     "owner": "Kai",
+     "day": null,
+     "huddle": "H-020"
+    },
+    {
+     "text": "Far: what a medicine leaflet defines first, and the readers' pass mark it must meet (Jun, scout; by Tue 3 Nov 12:10)",
+     "done": false,
+     "owner": "Jun",
+     "day": null,
+     "huddle": "H-020"
+    },
+    {
+     "text": "The judge's sheet, written before any reader runs: pass mark first, strangers counted, every question must pass, the weakest reader decides (Nora, cold judge; by Tue 3 Nov 13:40)",
+     "done": false,
+     "owner": "Nora",
+     "day": null,
+     "huddle": "H-020"
+    },
+    {
      "text": "Read m3j blind against V52 in tonight's claim set (Writing Room, Tess and Amara; by Mon 2 Nov 16:20)",
      "done": false,
      "owner": null,
@@ -630,7 +829,13 @@
    "runs": [
     {
      "day": "2026-11-02",
-     "when": "Mon 2 Nov 20:05",
+     "when": "Mon 2 Nov 21:15",
+     "room": "Rooftop",
+     "what": "Beat 10, round 6, as huddle H-020 (Tess, Nora, Jun; 3 rounds, one agent each, 9 calls; Sonnet then Opus): entry for Sat 31 Oct to Mon 2 Nov; **LS-15** new (2-1): before a room cuts or moves a line it searches the register, reads out the line's jobs and HOLDs and names what carries each (event: the Archive's 19:42 HOLD on F21 rested on the order line D cut at 19:16; two first-draft lessons fell to their owners' own checks); LS-10 to 2 (applied Tue: P8 gets two beats), LS-14 to 1, LS-06 and LS-13 ruled. Round 7 orders (Q15, which words in D + the cure would the weakest stranger have to guess, and what do money explainers put first? lens 19; Amara near, Kai adjacent, Jun far; Tess hunts, Nora judges, Felix builds; rotation row 7). F20 closes with D; F21's HOLD void on D. Requests to the Window and the Writing Room; inbox note (the case says \"promise\" only of the range; \"Shares don't expire.\" became \"Shares don't.\" after the check); bank #144; H-014's five open to-dos ticked. `../office/outbox/2026-11-02_rooftop_the-line-that-carries-it.md`"
+    },
+    {
+     "day": "2026-11-02",
+     "when": "Mon 2 Nov 19:42",
      "room": "Archive",
      "what": "Beat 9, round 6: TERRITORY 3 rows; FRONTIER Q14 answered, F9 F12-F18 closed, F19 superseded, F2 reopened, F20-F21 S22-S23 new; CHAMPIONS note; HEALTH row 6 (rebuild light out; new light: verified line by line, misread as a whole); bank #141-#143. Locked-text check of V53 + the Long Room's D vs the TNA and 11 notes, then a blind outside reader (Sonnet 5.5, locked record only): **A19 words breach, design inside** (P8 sets the gap money aside \"from the stocks Laura keeps\" into nothing; reader HIGH \"they do stand behind a payment\"; models hold it in short Treasuries, LR8 :29, L-16 :41/:47): cure \"in Treasuries\" (+2), D + cure 497 strict; options \"before it matures\", \"her gift\" (0 each); pitch \"Treasuries\" = the IBTR note's sentence; A16 closed (Keel's call); A31-A32 new: `../office/outbox/2026-11-02_archive_the-gap-money-needs-a-home.md`, `../rooms/archive_checks/2026-11-02_blind_cross_read.md`"
     },
@@ -968,7 +1173,7 @@
       "Engineers state a chance and a period because they can't buy certainty (a 1% flood every year); Laura's cheques are bought. Is that the Final Report's plainest way into 'how certain', once the IPS says 'held to the close'? (Jun; Kai: not honest for 2033-37 without the condition)"
      ],
      "todos": {
-      "done": 5,
+      "done": 10,
       "total": 10
      },
      "path": "keel/huddles/2026-11-01_the-kitchen-after-book-eleven",
@@ -1360,6 +1565,13 @@
      "owner": null,
      "day": "2026-11-01",
      "huddle": "H-014"
+    },
+    {
+     "text": "\"Selling it before its January\" v \"before it matures\": every rung matures before its January (Window; moved on 2 Nov: F19 closed as superseded when V53 dropped the line; the Archive offers \"before it matures\" again as a 0-word option on the Long Room's D, `../../loop/rounds/2026-11-02.md` beat 9)",
+     "done": true,
+     "owner": "Window",
+     "day": "2026-11-01",
+     "huddle": "H-014"
     }
    ],
    "open": [
@@ -1432,41 +1644,6 @@
      "owner": "Felix",
      "day": null,
      "huddle": "H-009"
-    },
-    {
-     "text": "IBTO-IBTR issuer pages beside submitted reflection 2: is \"held to the close\" true of all five funds, and is every \"Treasury\" in the pitch and paras 2, 3, 5 true? (Tess, near scout; by Mon 2 Nov 12:10)",
-     "done": false,
-     "owner": "Tess",
-     "day": null,
-     "huddle": "H-014"
-    },
-    {
-     "text": "Why VT sits in the frozen WInS book, from primary sources only (the VT note, reflection 3, the Nov-2041 note's \"scaled to the model portfolio\"): is a \"scaled\" bridge needed in the IPS? (Nora, adjacent scout; by Mon 2 Nov 12:10)",
-     "done": false,
-     "owner": "Nora",
-     "day": null,
-     "huddle": "H-014"
-    },
-    {
-     "text": "The circle at an Australian source: an extended-release caplet or tablet, \"do not crush\", \"all at once\"; whether \"labelled\" holds (Felix, far scout; by Mon 2 Nov 12:10)",
-     "done": false,
-     "owner": "Felix",
-     "day": null,
-     "huddle": "H-014"
-    },
-    {
-     "text": "\"Selling it before its January\" v \"before it matures\": every rung matures before its January (Window, with C-05's gate; by Mon 2 Nov 08:40)",
-     "done": false,
-     "owner": "Window",
-     "day": null,
-     "huddle": "H-014"
-    },
-    {
-     "text": "One plain diversification sentence starts from the submitted VT note (\"one cheap fund diversifies Laura's stocks\") and is cold-read on Jun's question, \"spread against what?\" (Writing Room; by Mon 2 Nov 16:20)",
-     "done": false,
-     "owner": null,
-     "day": null,
-     "huddle": "H-014"
     }
    ],
    "runs": [
