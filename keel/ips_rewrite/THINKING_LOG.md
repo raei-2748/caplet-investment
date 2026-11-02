@@ -638,3 +638,18 @@ came last of eight; a pitch in a student's own voice came first of seven.
 we've been told not to. I think that's the right call for the IPS (Wharton says so), but it costs us with judges who
 mark Portfolio Analysis on numbers, and Caplet should see that trade plainly. Next: say the stock slice's size as an
 allocation (three judges asked) and why it is small on purpose, in words.
+
+## Tue 3 Nov, morning: converging (V53 to V54)
+The rule for today: change only what a panel or an audit shows is a real problem. Four of Monday night's offers met it,
+because more than one room found the same hole: nobody could say back what "Do not crush." forbids; the gap money had
+no address, so a reader with the locked TNA could think VT stands behind a cheque; the operating reserve left out the
+money set aside for it; and five rungs are funds, not bonds. V54 fixes those four and nothing else from the rooms.
+Six blind judges then put V54 above V53, all six of them, and first with three. The Commandments check found one more
+real problem: the bank-note sentence, LOST for the third reader running. It now names what the bank sells, and why
+shares differ.
+
+**What Caplet would say (Commandment X):** "You cut 'We buy them' from the IPS? That was the best line." It's still the
+pitch's line, and the pitch sits on the same form, a few centimetres above. In the IPS it was saying the same thing a
+second time, and the actuary read it as an overclaim next to P8's admitted gap. The other thing they'd ask: "Why is
+S01 still first with three judges?" Because it prints a confidence level. That's Book 11's trade, and theirs to make.
+

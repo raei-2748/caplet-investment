@@ -220,3 +220,22 @@ All to the **Final Report**, where models, evidence and the team's story belong 
   "or she needs flexibility" (folded into "as her flexibility"). OUT to the FR: "not a
   probability, but a purchase" (two cold readers: a slogan; the definition stays) and "money she will own outright even
   if every share in the world fell to zero" (para 6 says "money she already owns").
+
+## V53 and V54 (Mon 2 Nov afternoon to Tue 3 Nov morning): converging
+- **V53 (`drafts/D33/`):** IN: "add a cushion ... so her flexibility shrinks before her promise does" (Genius Lab
+  L-16: the design's cushion restored, and the order of loss said); "a Treasury fund maturing in late 2032" (Library
+  O1); "a caplet ... Crush it and the schedule is gone." (Window W-07). CHANGED: "about a fifteenth" became "under a
+  tenth of her money" (Library O2: a fifteenth holds only at today's yields; the Final Report keeps the sum, about
+  6.6% at the 30 Oct curve).
+- **V54 (`drafts/D34/`):** IN: "Crushing one means selling it before it matures, even for the building." (Long Room
+  H-019: six of six readers named the act); "in Treasuries" for the set-aside (Archive A19); "the ladder and the money
+  set aside for its gap become the operating reserve ... one rung per cheque" (case :95-96). OUT: "We don't invest
+  toward these payments. We buy them." (PITCH ONLY: the pitch on the same form says it); "The order never changes: the
+  cheques, then the floor, then everything above it." (FINAL REPORT: untrue on naming day, when an uncovered gap
+  lowers both ends; the FR explains the order after naming); "valued that day" (P6's next sentence fixes the day).
+  CHANGED: "before her promise does" became "before her gift does" (the case says "promise" only of the range, and
+  the pitch calls the cheques a promise); "Banks sell this" became "Banks sell the same idea", and "Shares don't."
+  became "Shares don't expire." (the one sentence that three cold readers marked LOST).
+- **Not said anywhere yet, for the Final Report:** what our version costs next to the bank's note (a smaller share of
+  a boom: the option's upside is capped but levered; our stocks are uncapped but small). Laura's Room's "keep a
+  quarter back on naming day" (H25) is a priced alternative for the FR, not the IPS (Tue rule: converge).
