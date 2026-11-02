@@ -1,5 +1,5 @@
 {
- "built": "2026-11-02T03:01",
+ "built": "2026-11-02T04:42",
  "days": [
   {
    "date": "2026-11-02",
@@ -10,7 +10,10 @@
     "So the IPS should call the floor \"a Treasury fund\" and say the shares are \"under a tenth\" of her money, which leaves everything else as it is and makes it one word shorter.",
     "Our draft gives the stocks Laura keeps two jobs: they are her flexibility, and they are the first money that covers the bond ladder's one weak point, the interest it has to reinvest.",
     "We measured how often the second job eats the first: all of that pocket is gone by 2033 in about one future in five, and two in three if rates fall hard and stay down; and the draft had quietly lost the safety margin the plan sets aside, without which a cheque comes up short in about one future in four instead of one in 550.",
-    "So the IPS should say \"add a margin\" again and, if a whole idea can pay for it, say plainly that her flexibility shrinks before her promise does."
+    "So the IPS should say \"add a margin\" again and, if a whole idea can pay for it, say plainly that her flexibility shrinks before her promise does.",
+    "Our draft makes Laura spend every stock she keeps for herself before it will lower the range she announces in 2031, even though on that day nobody has heard a number yet; where that pocket runs dry, her flexibility is nothing until money comes back in 2042.",
+    "We tested keeping a quarter of those stocks back on that day and lowering the range instead: her pocket is empty by 2033 about 1 time in 15 instead of 1 in 5, the number she announces is delivered more often, the cheques are no worse, and it costs under $1,000 of the average gift.",
+    "So we offer one new sentence for the IPS, \"set it aside from the stocks Laura keeps until only a quarter is left. Anything still missing lowers the whole range, before anyone hears it\", plus two small fixes the case asks for."
    ],
    "huddles": [
     {
@@ -86,7 +89,7 @@
       "If the kept half is empty in two futures in three when yields fall for good, what is Laura's flexibility in those futures: the margin coming back after 2042, or nothing? (Laura's Room)"
      ],
      "todos": {
-      "done": 4,
+      "done": 5,
       "total": 8
      },
      "path": "keel/huddles/2026-11-02_two-jobs-one-pocket",
@@ -96,6 +99,46 @@
      ],
      "rounds": 1,
      "rounds_today": 1
+    },
+    {
+     "id": "H-017",
+     "title": "What is left to her?",
+     "question": "V53 spends all the stocks Laura keeps on the bond ladder's reinvestment gap before it will lower the range she names in 2031, when nobody has heard a number yet. What is her flexibility where that pocket is empty, and should she keep a quarter back? (round 6 beat 6; the Genius Lab's seed; LR-10)",
+     "status": "closed",
+     "room": "Laura's Room",
+     "chair": "Laura's Room (run)",
+     "members": [
+      "Amara",
+      "Kai",
+      "Felix"
+     ],
+     "essence": [
+      "Our draft makes Laura spend every stock she keeps for herself before it will lower the range she announces in 2031, even though on that day nobody has heard a number yet; where that pocket runs dry, her flexibility is nothing until money comes back in 2042.",
+      "We tested keeping a quarter of those stocks back on that day and lowering the range instead: her pocket is empty by 2033 about 1 time in 15 instead of 1 in 5, the number she announces is delivered more often, the cheques are no worse, and it costs under $1,000 of the average gift.",
+      "So we offer one new sentence for the IPS, \"set it aside from the stocks Laura keeps until only a quarter is left. Anything still missing lowers the whole range, before anyone hears it\", plus two small fixes the case asks for."
+     ],
+     "decided": [
+      "KILL 3-0 V53 P8's 'so her flexibility shrinks before her promise does' (Kai changed his mind in round 2: no promise exists on naming day, and the pitch's 'promise' is the cheques)",
+      "ADOPT 3-0 H25 as the P8 offer (0 words); KILL 3-0 H50",
+      "P7 'to attract co-sponsors' (+1, 3-0); P9 'the ladder and everything set aside for it become the operating reserve' (+6, 3-0 on the fix, 2-1 on the word); cut P5 'That is under a tenth of her money.' (-8, 2-1, Amara dissenting); V53 with all four 496 strict",
+      "The Lab's seed answered 3-0: where the pocket is empty her flexibility is nothing; the cushion back after 2042 is 'a refund, not a roof' (Final Report)"
+     ],
+     "seeds": [
+      "Why a quarter and not a fifth or a third? Untested between none and a quarter (Final Report: amount, reason, proof)",
+      "If the thread keeps 'under a tenth' (Amara's dissent), which whole idea pays for P9's six words?"
+     ],
+     "todos": {
+      "done": 5,
+      "total": 8
+     },
+     "path": "keel/huddles/2026-11-02_what-is-left-to-her",
+     "transcript": "keel/huddles/2026-11-02_what-is-left-to-her/transcript.md",
+     "changes": [
+      "Offer in ../../ips_rewrite/inbox/2026-11-02_lauras-room.md; no draft changed by the room",
+      "../../rooms/lauras_room/LR-10_what_is_left_to_her.md (+ .py, _results.json)"
+     ],
+     "rounds": 2,
+     "rounds_today": 2
     }
    ],
    "research": [
@@ -116,6 +159,18 @@
      "title": "Kai's flaw hunt (H-015 round 2, Mon 2 Nov 2026; Opus 5.5) (Keel is a simulated team, AI-written.)",
      "member": "Kai",
      "huddle": "H-015"
+    },
+    {
+     "path": "keel/huddles/2026-11-02_what-is-left-to-her/research/felix.md",
+     "title": "Felix, round 1: the lines I quoted (read Mon 2 Nov 2026, Sydney; all files in the repo, nothing fetched online)",
+     "member": "Felix",
+     "huddle": "H-017"
+    },
+    {
+     "path": "keel/huddles/2026-11-02_what-is-left-to-her/research/kai.md",
+     "title": "Kai's sources, H-017 round 1 (Mon 2 Nov 2026)",
+     "member": "Kai",
+     "huddle": "H-017"
     }
    ],
    "done": [
@@ -174,6 +229,48 @@
      "owner": "Amara",
      "day": "2026-11-02",
      "huddle": "H-016"
+    },
+    {
+     "text": "What is Laura's flexibility when the pocket is empty? (Laura's Room, Amara; done 2 Nov: nothing until 2042, so keep a quarter back on naming day, LR-10 / H-017)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-02",
+     "huddle": "H-016"
+    },
+    {
+     "text": "Run H25 and H50 beside V53's design in four worlds; reproduce L-16's A0 (chair; done 2 Nov)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-02",
+     "huddle": "H-017"
+    },
+    {
+     "text": "Read V53 as a simulated Laura, case only (Amara; done 2 Nov)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-11-02",
+     "huddle": "H-017"
+    },
+    {
+     "text": "Read V53 as a simulated co-sponsor and a clearing house in its own words (Kai; done 2 Nov)",
+     "done": true,
+     "owner": "Kai",
+     "day": "2026-11-02",
+     "huddle": "H-017"
+    },
+    {
+     "text": "Tick V53 against every case line, ranked (Felix; done 2 Nov)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-11-02",
+     "huddle": "H-017"
+    },
+    {
+     "text": "Reply by name and vote one P8 package (Amara, Kai, Felix; done 2 Nov)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-11-02",
+     "huddle": "H-017"
     }
    ],
    "open": [
@@ -220,14 +317,40 @@
      "huddle": "H-016"
     },
     {
-     "text": "What is Laura's flexibility when the pocket is empty? (Laura's Room, Amara; by Wed 4 Nov)",
+     "text": "Read the package blind beside V53 (Writing Room, Tess; by Tue 3 Nov 16:20)",
      "done": false,
      "owner": null,
      "day": null,
-     "huddle": "H-016"
+     "huddle": "H-017"
+    },
+    {
+     "text": "Gate LR-10 from a clean checkout and byte-check the CME quotes if the host opens (Window, Felix; by Tue 3 Nov 08:40)",
+     "done": false,
+     "owner": "Window",
+     "day": null,
+     "huddle": "H-017"
+    },
+    {
+     "text": "Why a quarter? Amount, reason, proof for the Final Report (Genius Lab, Jun; after 7 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-017"
     }
    ],
    "runs": [
+    {
+     "day": "2026-11-02",
+     "when": "Mon 2 Nov 16:40",
+     "room": "Laura's Room",
+     "what": "Beat 6, round 6, as huddle H-017 (Amara as a SIMULATED Laura, Kai as a SIMULATED co-sponsor + CME's waterfall in its own words, Felix as a judge with the case open; 2 rounds, 6 posts, the routine's 3 agents continued): the Lab's seed to this room answered (where the kept half is empty her flexibility is nothing until 2042); LR-10 on **V53**'s design, 4 worlds (MODEL): keep a quarter of the kept stocks on naming day, the rest lowers the range: pocket gone by 2033 19.0 -> 6.6% base, 65.4 -> 44.5% S6; top reached 97.9 -> 99.3%; bottom never broken; cheques 99.82 -> 99.86%; gift mean -$830. V53 P8's \"so her flexibility shrinks before her promise does\" KILL 3-0 (Kai changed his mind); H25 ADOPT 3-0, H50 KILL; P7 +1, P9 reserve +6, P5 \"under a tenth\" cut (2-1); offer 496 strict; 2 CORDs (chair); bank #133-#135"
+    },
+    {
+     "day": "2026-11-02",
+     "when": "Mon 2 Nov 13:40",
+     "room": "Genius Lab",
+     "what": "Beat 5, round 6 (Q14 verify round) as huddle H-016 (Amara builds; Kai flaw-hunter; Jun blind judge; 1 round, 3 agent calls): L-16 \"two jobs, one pocket\" on **V52**'s design, 6 arms x 5 worlds (MODEL, 22 Oct curve, 7.5%): V52's P8 lost the $7,500 margin (no margin: 76% of base futures pay all ten cheques in full, 47% if yields fall 2pt; with it 99.8% / 99.7%; L-11 D1 agrees); the kept half is all gone by Jan 2033 in 19 / 42 / 65 / 86% (S0 / S2 / S6 / S9; gap alone 10 / 22 / 52 / 41%); S9's gap: 35% rung never bought, 64% reinvestment gaps the halved deposit left nothing to pay. C1 \"add a margin\" ADOPT; C2 \"so her flexibility shrinks before her promise does\" offer m3j (498 with P3's mirror cut); G, B0, A2 PARK; overage image BIN. Four CORDs (Kai), fixed. Requests: 2 closed (Library, Laura's Room), 2 filed (Writing Room, Window); Keel's call (keep V52's order); bank #129-#132"
+    },
     {
      "day": "2026-11-02",
      "when": "Mon 2 Nov 13:11",
