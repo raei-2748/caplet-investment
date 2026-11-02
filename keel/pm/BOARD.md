@@ -1,7 +1,7 @@
 # Task board (real Caplet work; run by Keel)
 
 Rules: `LOOP.md`. WIP limit 3 in Doing. Priority P = Impact (1-3) x Urgency (1-3); pick 4 or more. Owner = a Keel
-desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Mon 2 Nov 2026, 07:20 (daily loop; top 3 kept from the weekly plan; T07, T08, T22 left in Ready as K01 inputs, not separate work, since V50 is the draft they waited for).
+desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Tue 3 Nov 2026, 07:25 (daily loop; top 3 kept, item 1 updated to V53 and D plus the cure; today is the last day anything new is promoted).
 
 **This week's top 3 (Mon 2 - Sat 7 Nov; set by the weekly plan, Sun 1 Nov 17:00):**
 1. **Final AI draft to Caplet by the end of Wed 4 Nov [K01]** (rewrite thread; the Writing Room and the Window feed
@@ -11,6 +11,8 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Mon 2 Nov 2026
    the five fund rungs (IBTM-IBTR) pay their value at maturity, not a promised sum (our locked IBTM reflection says
    so), so "pays exactly what it promises" and "grow back to the deposit" belong to the Treasuries; and one clause on
    why the WInS book holds VT. Nothing new is promoted after Tue 3 Nov.
+   **Tue 3 Nov:** the newest full draft is V53 (`../ips_rewrite/drafts/D33/`); the rooms test the Long Room's D plus the
+   Archive's cure (`../rooms/archive_checks/V54D_archive_repaired_ips.txt`, 497 strict) with strangers today (round 7, Q15).
 2. **GPTZero on the final candidate, Wed 4 Nov by 20:00 [K02]** (a student, one minute on the free page; Keel can't
    reach it). Under 50% "human-written only" means Keel rewrites that night, not on Thursday.
 3. **Ray's danger-zone items:** D6, hold the WInS book (any order by Thu 5 Nov 08:00) [T16]; submit by Sat 7 Nov
@@ -59,6 +61,7 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Mon 2 Nov 2026
 ## Done
 | ID | Task | Owner | Done | Output |
 |---|---|---|---|---|
+| SD-N08 | Research round 7 gathered: Q15, which words in D plus the cure would the weakest stranger have to guess (0:3 dial, last promotion day); lens 19; scouts Amara (capital-protected notes), Kai (weather shares), Jun (medicine leaflets and their readers' test). LS-14 read-back clean, 5 of 5 | Nora (Felix reading back) | Tue 3 Nov | `keel/loop/rounds/2026-11-03.md` |
 | SD-R020 | Round 6 beat 10: looked back on Sat 31 Oct to Mon 2 Nov (entry); LS-15 filed 2-1 (search the register before cutting a line), LS-10 to 2, LS-14 to 1, LS-06 and LS-13 ruled; round 7 orders (Q15, which words would the weakest stranger have to guess; lens 19; Amara, Kai, Jun) | Tess (Nora, Jun; H-020) | Mon 2 Nov | `../office/outbox/2026-11-02_rooftop_the-line-that-carries-it.md` |
 | SD-H019 | Round 6 beat 8: what "Do not crush." asks; V53 stood blind against W2 and C (6-0); the room's D beat V53 3 of 3 under a registration written first; three edits offered for V54 (495 strict) | Nora (all six) | Mon 2 Nov | `../office/outbox/2026-11-02_long-room_what-the-last-line-asks.md` |
 | SD-LR10 | Round 6 beat 6: the Lab's seed answered (where her kept stocks are empty her flexibility is nothing); keep a quarter back on naming day, tested in four worlds and offered as P8 (+ P7, P9, P5), 496 strict | Amara | Mon 2 Nov | `../office/outbox/2026-11-02_lauras-room_what-is-left-to-her.md` |
