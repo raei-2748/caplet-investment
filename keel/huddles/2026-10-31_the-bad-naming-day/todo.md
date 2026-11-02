@@ -8,4 +8,4 @@
 - [x] Check what the lead-gift study actually says about size (Amara; done 31 Oct)
 - [x] One true, one-world IPS wording (Kai; done 31 Oct)
 - [ ] Re-run the cheque shortfall on L-13's chain with the 2031 mark, XR vs A09 (Genius Lab; by Sun 1 Nov)
-- [ ] Blind read: the A09 paragraph against V45's 60/40 paragraph (Writing Room; by Sun 1 Nov)
+- [x] Blind read: the A09 paragraph against V45's 60/40 paragraph (Writing Room; done Sat 31 Oct: arm Q3 read by six blind judges, `../../office/outbox/2026-10-31_writing-room_the-price-of-the-floor.md`)
