@@ -20,7 +20,7 @@
 ## Near: investing and finance
 | Field | Visits (date, who, what came back) | Status | Yield |
 |---|---|---|---|
-| Fixed income: immunisation, dedication, duration | Many; Aha 4, L-01, L-09 (dedicated ladder, killed for the IPS 27 Oct), M-squared (R05 #7) | mined | 3 |
+| Fixed income: immunisation, dedication, duration | Many; Aha 4, L-01, L-09 (dedicated ladder, killed for the IPS 27 Oct), M-squared (R05 #7); 2 Nov, Tess (round 6, the funds' own words: IBTM-IBTR prospectuses, iShares' "Mature like a bond" page) | mined | 3 |
 | Pensions and liability-driven investing | I-06; R05 #4 (UK low dependency), #5 (New York 7); Aha 4 | mined | 2 |
 | Capital-protected notes and option payoffs | Aha 1; L-07 (the fund is the floor's interest taken up front); D4 Lehman line | mined | 3 |
 | Endowments and spending rules | 27 Oct Library rung 1: Yale 80/20, Tobin, Norway 3%, Bengen 4% (C-01); 31 Oct, Nora (round 4, deepened): Harvard paused Allston at -30% (2009), Yale and Princeton shelved buildings tied to markets, UNC collects 100% cash before a building contract | mined | 2 |
@@ -66,7 +66,7 @@
 ## Far: everything else (the road less taken)
 | Field | Visits | Status | Yield |
 |---|---|---|---|
-| Pharmacology: extended release, dose dumping, Spansule, Contac 600 | Rungs 1-3 (26 Oct); S-03, S-04; LC-03 | mined | 3 (Caplet XR) |
+| Pharmacology: extended release, dose dumping, Spansule, Contac 600 | Rungs 1-3 (26 Oct); S-03, S-04; LC-03; 2 Nov, the Window (W-07, drug-makers' labels) and Felix (round 6: Panadol Osteo CMI, WA Health, *Aust Prescr* 2018) | mined | 3 (Caplet XR; 2 Nov: "caplet ... Crush it and the schedule is gone") |
 | Nuclear safety: defence in depth | S-01 (breaks: our layers are not independent) | promising | 2 |
 | Printing: the print run | L-03 (parked) | dry | 1 |
 | Music: drone and chanter | Rung 1 only | dry | 0 |
@@ -129,5 +129,8 @@ make them do it, the next member in the list takes the job.
 | Sun 1 Nov | 5 | Jun | Annuity and pension-income sellers (near) | a sourdough starter fed at six or the week is lost | 3 finds (the Library re-checked 37 of the round's quoted lines at the page, all found; Jun's other 41 not re-checked) | Challenger names the buyer's fear as a "Myth", then says which fund pays (J1, bank #108); V50 already says which money funds each end, so it confirmed a shape rather than made one. Jun's P6 rewrite carried model numbers and fell to Book 11 | promising |
 | Sun 1 Nov | 5 | Kai | Auction-house catalogue essays and condition reports (adjacent) | the shot clock reset to fourteen | 3 finds (verified in the 37) | A condition report puts each flaw where it sits; a flaw named "but not where" stops being believed (K1/K3, bank #107). It became the Courtroom's plain "who pays a gap" (T6), and the Archive's date on it (A19). Kai's P8 rewrite (the price) fell to Book 11 | promising |
 | Sun 1 Nov | 5 | Amara | Mountain guides' turnaround times (far) | agreed-value car cover | 3 finds (verified in the 37) | Hall named the turn-back hour before the climb, "however close the top" (A1): the Lab tested a late or skipped 2031 lock (L-15) and swapped the order, so the promised half moves before she names the range. That swap is inside V50 (bank #109) | mined |
+| Mon 2 Nov | 6 | Tess | Fixed income, the funds' own words (near; a mined field deepened for a verify round under the 0 : 3 dial) | the camera opened before the roll was rewound | 3 finds (the Library re-fetched 48 quoted lines at the page, all found) | IBTM's index holds Treasuries "scheduled to mature between January 1, 2032 and December 15, 2032", and the fund "does not seek to return any predetermined amount": V53's floor became "a Treasury fund maturing in late 2032" (O1, bank #126). "Mature like a bond" is iShares' own heading, with the NAV line under it, so P3's phrase is the issuer's | mined |
+| Mon 2 Nov | 6 | Nora | Our own primary files: why the WInS book holds stocks (adjacent; repo files only) | Lina's money tin with no slot | 3 finds (repo lines, quoted with line numbers) | Wharton keeps the simulator apart from Laura's money (case :129-130) and puts the implementation check in the Final Report, so the IPS needs no "scaled" bridge (N1, upheld); the book is the finished plan at about two-thirds size (N2, FR, bank #138); "a fifteenth" didn't match the book's 8.6%, "under a tenth" did (O2, bank #127) | mined (the files are read; the bridge waits for the FR) |
+| Mon 2 Nov | 6 | Felix | Pharmacology at an Australian source, and the bond trader's caplet (far; a mined field deepened) | his mum's audit file ticked against the bank's letter | 3 finds (verified in the 48) | Panadol Osteo's leaflet: "Do not suck, crush or chew the caplets"; a caplet is "a capsule-shaped tablet", so the team's name is the true object and crushing the true harm (with the Window's W-07, in V53 P2). The finance caplet (one period of a rate cap, an option) stays out of the IPS (bank Dropped) | mined |
 
 (Keel is a simulated team, AI-written.)

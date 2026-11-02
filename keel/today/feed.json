@@ -1,5 +1,5 @@
 {
- "built": "2026-11-02T08:29",
+ "built": "2026-11-02T08:42",
  "days": [
   {
    "date": "2026-11-02",
@@ -628,6 +628,12 @@
     }
    ],
    "runs": [
+    {
+     "day": "2026-11-02",
+     "when": "Mon 2 Nov 20:05",
+     "room": "Archive",
+     "what": "Beat 9, round 6: TERRITORY 3 rows; FRONTIER Q14 answered, F9 F12-F18 closed, F19 superseded, F2 reopened, F20-F21 S22-S23 new; CHAMPIONS note; HEALTH row 6 (rebuild light out; new light: verified line by line, misread as a whole); bank #141-#143. Locked-text check of V53 + the Long Room's D vs the TNA and 11 notes, then a blind outside reader (Sonnet 5.5, locked record only): **A19 words breach, design inside** (P8 sets the gap money aside \"from the stocks Laura keeps\" into nothing; reader HIGH \"they do stand behind a payment\"; models hold it in short Treasuries, LR8 :29, L-16 :41/:47): cure \"in Treasuries\" (+2), D + cure 497 strict; options \"before it matures\", \"her gift\" (0 each); pitch \"Treasuries\" = the IBTR note's sentence; A16 closed (Keel's call); A31-A32 new: `../office/outbox/2026-11-02_archive_the-gap-money-needs-a-home.md`, `../rooms/archive_checks/2026-11-02_blind_cross_read.md`"
+    },
     {
      "day": "2026-11-02",
      "when": "Mon 2 Nov 19:40",
