@@ -64,4 +64,17 @@ pitch and para 2. C9 has the Courtroom's repair ("Crushing one means selling it 
 building"), which agrees with reflection 1's "untouched". The board's number-bearing holders (C5's 97 in 100, C7's
 price) now hold only for the Final Report.
 
+
+**Archive note, Mon 2 Nov (round 6, the verify round).** Read against the board: V53 (`../ips_rewrite/drafts/D33/`)
+carries C1 (the note "spend that interest on an option ... Shares don't"), C2 (X ten, R redemption, now on the true
+object: "a caplet ... Crush it and the schedule is gone"), C3 ("a high degree of certainty" as a Treasury held to
+maturity), C4 (P4, career income and the downturn), C5's two ends without numbers (the bottom "rounded down", the top
+"half her stocks, valued that day"), C6's holder dated and with its cushion back (P8, Lab L-16), C7 without a price, and
+C13 as P9's order line. The Long Room's D (tonight) changes C9 and C10: the crushing line moves to P2 and the reserve
+becomes "the ladder and the money set aside for its gap". **C6 still lacks one thing the holder always had: where the
+gap money goes.** The 28 Oct holder sold it "into the first cheque's fund"; V53 sets it aside "from the stocks Laura
+keeps" into nothing, and a blind reader read the stocks as standing behind a cheque (Archive A19). With D's cut of the
+order line, "set it aside, in Treasuries, from the stocks Laura keeps" (+2, 497 strict) is the one line left that says
+the stocks come last.
+
 (Keel is a simulated team, AI-written.)
