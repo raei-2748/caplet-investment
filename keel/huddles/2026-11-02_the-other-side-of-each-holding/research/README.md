@@ -1,0 +1,49 @@
+# H-015 research: the Library's re-check of every quoted line (Mon 2 Nov 2026)
+
+(Keel is a simulated team, AI-written.) The chair re-fetched the scouts' quoted lines at their pages with WebFetch on
+2 Nov 2026, or read them in the repo file at the line given. The fetch tool reads pages through a small model and returns
+at most about 125 characters per quote, so "found" means the words came back in the fetched text in order, not a
+byte-level check. Long sentences came back in two pieces, asked for in order.
+
+**42 lines re-checked, 42 found** (Tess 15, Felix 19, Nora 8). Not re-checked (the scouts' own fetches, none carries a verdict alone): Felix's
+Seroquel XR leaflet, Baruch lecture, Wikipedia, AAII, Healthdirect and TGA Diabex lines; Tess's semi-annual report, fact
+sheets and TreasuryDirect FAQ.
+
+| Scout | Source (URL, read 2 Nov 2026) | Lines re-checked | Found |
+|---|---|---|---|
+| Tess | iShares iBonds Dec 2032 Term Treasury ETF (IBTM) summary prospectus, cover "FEBRUARY 27, 2026", https://www.ishares.com/us/literature/summary-prospectus/sp-ibonds-dec-2032-term-treasury-etf-10-31.pdf | "The Fund is a term fund that will terminate on or about December 15, 2032, at which time it will distribute its remaining net assets to shareholders pursuant to a plan of liquidation."; "By December 15, 2032, the Fund is expected to consist almost entirely of cash."; "The Fund does not seek to return any predetermined amount at maturity or in periodic distributions."; "U.S. Treasury bonds maturing in 2032"; "Direct obligations of the U.S. Treasury have historically involved little risk of loss of principal if held to maturity, but the market value of such securities is not guaranteed and may fluctuate." | 5/5 |
+| Tess | iShares, "iBonds" strategy page, https://www.ishares.com/us/strategies/ibonds | Heading "Mature like a bond", with the line under it: "iBonds ETFs payout their NAV in their maturity year."; "Unlike a direct investment in a bond that has a level coupon payment and a fixed payment at maturity" (sentence continues); "Government backing applies only to government issued securities, and does not apply to the funds." | 3/3 |
+| Tess | iShares, "Build better bond ladders", https://ishares.com/us/strategies/bond-etfs/build-better-bond-ladders | "iBonds ETFs are designed to mature like a bond, trade like a stock, and diversify like a fund." (meta description); "iBonds ETFs payout their NAV in their maturity year."; "Access a bond ladder with one ticker" (sentence continues) | 3/3 |
+| Tess | BlackRock, IBTO product page, https://www.blackrock.com/us/partner/products/332291/ishares-ibonds-dec-2033-term-treasury-etf | "Shares of ETFs are bought and sold at market price (not NAV) and are not individually redeemed from the fund."; "An investment in the Fund(s) is not guaranteed, and an investor may experience losses, including near or at the termination date." | 2/2 |
+| Tess | 31 CFR 356.30, "When does the Treasury pay principal and interest on securities?", https://www.law.cornell.edu/cfr/text/31/356.30 | "We will pay principal on bills, notes, and bonds on the maturity date as specified in the auction announcement." | 1/1 |
+| Tess | iShares press release, "October 15, 2025", https://www.ishares.com/us/literature/press-release/ibonds-terminations-release.pdf | "iBonds ETFs are designed to cease trading and mature during a specific maturity window like an individual bond." | 1/1 |
+| Felix | Panadol Osteo consumer and professional information, "prepared in December 2024", https://www.nps.org.au/medicine-finder/panadol-osteo-modified-release-caplets | "Swallow the caplets whole with water or other fluid."; "Do not crush or chew the caplets."; "The caplets must not be crushed."; "Panadol Osteo is a unique bi-layer tablet incorporating an immediate release and a sustained release dose of paracetamol." | 4/4 |
+| Felix | Panadol Osteo CMI, "prepared in January 2026", ACSQHC Medicine Finder, https://www.safetyandquality.gov.au/medicine-finder/panadol-osteo-modified-release-caplets | "Do not suck, crush or chew the caplets because that may affect its sustained release properties."; "PANADOL OSTEO caplets are a white, to off-white, film-coated capsule-shaped tablet with flat edges."; the date line | 3/3 |
+| Felix | Selina Taylor, Beverley Glass, "Altering dosage forms for older adults", *Aust Prescr* 2018;41:191-3, https://australianprescriber.tg.org.au/articles/altering-dosage-forms-for-older-adults.html | "Controlled-release, slow-release and extended-release products are specifically designed to deliver the drug over a prolonged period of time."; "If a controlled-release formulation is crushed, the duration of the drug's activity is reduced and the entire quantity of the drug may be immediately released resulting in toxicity."; table row "Paracetamol 665 mg controlled-release film-coated tablets" / suitable alternative "Paracetamol 500 mg tablets (plain or dispersible form)" | 3/3 |
+| Felix | WA Health, "Don't rush to crush!", https://www.health.wa.gov.au/~/media/Files/Corporate/general-documents/safety/PDF/Medication-safety-resources/Dont-rush-to-crush.pdf | "Slow release medicines must never be crushed."; row "XR Extended release Diabex XR (metformin)"; "Crushing can increase the risk of drug toxicity." | 3/3 |
+| Felix | TGA, modified-release paracetamol Q&A, https://www.tga.gov.au/changes-way-modified-release-paracetamol-products-are-supplied-questions-and-answers | "Modified release paracetamol (sometimes labelled as sustained release, slow release or extend release) is formulated with a higher dose of paracetamol per tablet (665 mg) compared to immediate release paracetamol at 500 mg per tablet." ("extend" is the page's own word); "In modified release formulations, paracetamol is released into the body more slowly" (sentence continues) | 2/2 |
+| Felix | "Professor Carpenter" (NYU Stern; the running header names no first name), "Debt Instruments and Markets", slides "Caps, Floors, and Collars", https://pages.stern.nyu.edu/~jcarpen0/courses/b403333/18capfloor.pdf | "Each caplet is a kind of call on the 0.5-year rate set 0.5-years before the payment date"; "Each floorlet is a kind of put on the 0.5-year rate set 0.5-years before the payment date" | 2/2 |
+| Felix | HMRC, Corporate Finance Manual CFM13340, https://www.gov.uk/hmrc-internal-manuals/corporate-finance-manual/cfm13340 | "A cap consists of a series, or strip, of cash-settled options which can be exercised sequentially on set dates."; "An interest rate floor is a similar option product which allows an investor to hedge a deposit by being guaranteed a minimum rate of interest." | 2/2 |
+| Nora | Repo files (read at the line) | case :129-130 (WInS "does not determine Laura's actual portfolio value at the beginning of 2027"); `UPDATED_2026_WGY_Investment_Policy_FINAL.txt` :79-80 ("In the Final Report, your team will evaluate how effectively it implemented that strategy"); `COMPETITION.md` :225-226 ("mirrors Laura's plan scaled to $300k") and :117-118 (pie chart "Long Equities"); snapshot :36 (VT 8.6%); TNA notes VT, IBTR, Nov-2041 (`caplet/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md` :14, :15, :24) | 8/8 |
+
+Also measured: `ips_V52.txt` is **496** on both counts of `keel/office/tools/textcheck.py` today (Nora and Felix
+found it too); `D32/README.md` says 497. Every cost in this huddle is against 496.
+
+## After round 2: Kai's three lines a judge could lean on (re-checked by the chair, 2 Nov 2026)
+| Source (URL, read 2 Nov 2026) | Line | Found |
+|---|---|---|
+| iShares Trust, Form 497 supplement for the iShares iBonds Dec 2024 Term Treasury ETF (IBTE), dated October 17, 2024, https://sec.gov/Archives/edgar/data/1100663/000119312524238913/d894453d497.htm | "If you still hold shares of the Fund on December 19, 2024, the Fund will automatically redeem your shares for cash based on the net asset value as of the close of business on December 16, 2024, which will include any dividends or distributions calculated as of that date." | yes |
+| TreasuryDirect, "Redeeming – Getting Your Money When a Treasury Marketable Security Matures", https://treasurydirect.gov/marketable-securities/redeeming-marketable-securities | "When a security that you own matures, you can either:" / "get the money (redeem it), or" | yes |
+| Patricia Cornish, "'Avoid the crush': hazards of medication administration in patients with dysphagia or a feeding tube", *CMAJ* 29 Mar 2005;172(7):871, https://cmaj.ca/content/cmaj/172/7/871.full-text.pdf | "Crushing the tablet destroyed the drug's sustained-release properties" (sentence continues); "Oxycodone is a potent opioid, and the sustained-release formulation is designed to deliver the drug gradually over 12 hours." | yes |
+
+Running total: **45 lines re-checked, 45 found.** Kai's other lines (Business Wire, the 2023 muni supplement, bondpro.gov,
+the NYU collar line, Wikipedia) are his own fetches, not re-checked.
+
+## After round 3: Felix's lines that decided P5 and the slip (re-checked by the chair, 2 Nov 2026)
+| Source (URL, read 2 Nov 2026) | Line | Found |
+|---|---|---|
+| IBTM summary prospectus (27 Feb 2026), URL above | "The Underlying Index consists of publicly-issued U.S. Treasury securities that are scheduled to mature between January 1, 2032 and December 15, 2032, inclusive." | yes |
+| Taylor and Glass, *Aust Prescr* 2018;41:191-3, URL above | "The limited availability of oral liquids, patches and suppositories means that crushing tablets and emptying powder from capsules is very common, particularly in aged-care facilities and nursing homes."; "If the medicines are essential, find out if there are alternative formulations." | yes (2) |
+
+**Final total: 48 lines re-checked, 48 found.** Felix's Treasury 5-year close (4.71%, 30 Oct) is his own fetch, used
+only to test whether "a fifteenth" is a forecast; no number goes to the IPS.
