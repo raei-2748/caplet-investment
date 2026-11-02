@@ -203,3 +203,348 @@ Last commit 2026-09-30 · fast-forwarded: its commits are part of main's own his
 - 2026-09-30 index on rab/ws7: 913c4f1 rab(ws7): devil's advocate checks behind the decision-memo critique (read-only, MODEL)
 - 2026-09-30 On rab/ws7: interrupted ws7 fix agent WIP 2026-09-30 15:19
 
+
+## Merge of every leftover branch (Mon 2 Nov 2026)
+
+Caplet asked for everything on `main` (2 Nov). That day 21 branches still had commits that `main`'s history did not contain. Almost all
+of their work had reached `main` another way (squash merges, or another branch carrying it) and had since been edited
+further, so each was merged with `main`'s files kept ("history only"): every commit below is now part of `main`'s
+history, and `git show <commit>` still opens it. Where a branch held something `main` lacked, it was added as noted.
+Main's later version won every clash: the old branches carried older status lines (three north stars, not four; the
+overclaim word list Book 9 retired; a second copy of the textcheck voice meter), not lost work.
+
+## `claude/dazzling-galileo-fx6bbm`
+1 commit after the 23 Oct record · merged 2 Nov: the 23 Oct overview filed at `keel/library/assistant_review_2026-10/oct23/` (main had moved `research/` to `keel/library/`)
+
+- 2026-10-23 Add 23 Oct overview with the Wharton emails (TNA status, email facts, Drive, repo)
+
+## `claude/great-turing-1m76uf`
+1 commit · STALE, history merged 2 Nov: "the person behind the role" sections contradict the canon written the same day (`keel/CAST.md`, `keel/WORLD.md`: other homes, families and names), so main keeps the canon. Patch: `archive/branches/claude_great-turing-1m76uf/`
+
+- 2026-10-23 Keel: give each member a 'person behind the role' section
+
+## `claude/project-thread-gz10nq`
+merged 2 Nov (history only): its work was already in main, or main has a newer version
+
+- 2026-10-23 Ledger: WO-0007 final TNA check of the Rewritten reflections
+- 2026-10-23 Ledger: WO-0007 add the Keel desk review of the TNA
+- 2026-10-23 Ledger: WO-0007 re-read and AI draft rewrites
+- 2026-10-23 Ledger: WO-0007 TNA edits placed as Doc suggestions
+- 2026-10-23 Ledger: WO-0007 outcome, team keeps its assertive voice
+
+## `claude/project-thread-lsanyf`
+merged 2 Nov (history only): its work was already in main, or main has a newer version
+
+- 2026-10-23 Add Wharton culture brief for Keel personas
+- 2026-10-23 Brief: mark this year's semifinal readers as unverified
+
+## `claude/project-thread-xszhob`
+merged 2 Nov (history only): its work was already in main, or main has a newer version
+
+- 2026-10-23 Keel: story bible (world, rivals, the Unsent, motifs, season in acts to 5 Dec, Wharton potential)
+- 2026-10-23 Keel story bible: point to the Wharton culture brief and its avoid list
+- 2026-10-23 Keel: the competition is the story (every world detail must change the work)
+- 2026-10-23 Logbook builder: derive the date range from the episodes (Codex review)
+- 2026-10-23 Keel: no smooth ride (outside load calendar, setbacks, and the same for Caplet's students)
+- 2026-10-23 Keel story bible: bigger storms (eight creative setbacks, each tied to the work)
+- 2026-10-23 Keel story bible: align the submission morning with Felix's flight
+
+## `claude/project-thread-ldfeky`
+merged 2 Nov (history only): its work was already in main, or main has a newer version
+
+- 2026-10-23 Give every Keel office room its own scheduled task
+- 2026-10-23 Keel leads itself: self-directed daily room tasks
+- 2026-10-23 Morning brief reads the rooms and frames asks as overridable suggestions
+- 2026-10-23 Say where the room definitions live until PR #27 merges
+
+## `claude/project-thread-ev8svi`
+merged 2 Nov (history only): its work was already in main, or main has a newer version
+
+- 2026-10-23 Give every Keel office room its own scheduled task
+- 2026-10-23 Keel leads itself: self-directed daily room tasks
+- 2026-10-23 Morning brief reads the rooms and frames asks as overridable suggestions
+- 2026-10-23 Say where the room definitions live until PR #27 merges
+- 2026-10-23 Keel carries Ray's three north stars in every run
+- 2026-10-23 Long Room 24 Oct: the three north stars and the search for one motif
+- 2026-10-23 Address review: ledger row newest last; motif requests narrowed to checks
+
+## `claude/project-thread-s5xm6i`
+merged 2 Nov (history only): its work was already in main, or main has a newer version
+
+- 2026-10-23 Add 23 Oct WInS snapshot from Ray's exports; point status at it
+- 2026-10-23 Add 24 Oct public SMApply FAQ snapshot: ban now says 'Individual' TIPS/STRIPS
+
+## `claude/project-thread-tgzgy9`
+merged 2 Nov (history only): its work was already in main, or main has a newer version
+
+- 2026-10-23 Give every Keel office room its own scheduled task
+- 2026-10-23 Keel leads itself: self-directed daily room tasks
+- 2026-10-23 Morning brief reads the rooms and frames asks as overridable suggestions
+- 2026-10-23 Say where the room definitions live until PR #27 merges
+- 2026-10-23 Keel carries Ray's three north stars in every run
+- 2026-10-23 Long Room 24 Oct: the three north stars and the search for one motif
+- 2026-10-23 Address review: ledger row newest last; motif requests narrowed to checks
+- 2026-10-24 Keel early run 24 Oct: TIPS/STRIPS wording check, AI-use records gaps, vote set B ballot
+- 2026-10-24 Ballot: carry its source memos (SD-T04, SD-T03, 24 Oct check) from PR #28 so the leans can be audited
+
+## `claude/project-thread-mh5ltk`
+merged 2 Nov (history only): its work was already in main, or main has a newer version
+
+- 2026-10-24 Keel IPS session 24 Oct: second pass on Tab 15 (K1-K5), shortfall timing fix
+- 2026-10-24 K2: 'lasting' fall (a reversed fall hits the price only); note D3 leftover wording
+
+## `claude/keel-loop-2026-10-24`
+merged 2 Nov (history only): its work was already in main, or main has a newer version
+
+- 2026-10-23 Keel overnight 24 Oct: ladder repriced on the 22 Oct close, vote set B options, Lab L-01/L-02, Courtroom, Library slip, episode 27
+- 2026-10-23 Lab L-02: commit the reproducible buffer run and its 22 Oct output (Codex review)
+- 2026-10-23 Keel morning 24 Oct: IPS rule checklist (T05), episode 28, board and stand-up
+- 2026-10-23 Daily report becomes a morning brief: every Keel member gives a labelled take (Ray, 24 Oct)
+- 2026-10-23 Markets and rules check 24 Oct: no breach; trading-activity rule and AI-use file are near-breaches
+- 2026-10-24 Copy self-direction files (SELF_DIRECTION, REQUESTS, ASK_HUMANS, NORTH_STARS) into the 24 Oct day branch
+- 2026-10-24 Library 24 Oct: print-run lead fact check (LC-01) passes with two fixes; request to the Lab; ledger row
+- 2026-10-24 Lab L-03: print-run motif mapped against M1-M11 (5 true, 1 none); risk image, not master motif; press day carries ~3/4 of rate risk
+- 2026-10-24 Laura's Room 24 Oct: inflation line names a risk, not an assumption (option A: one 3.5%/yr rate); 2031 range holds in dollars, not in Taiwan costs; requests to the Lab and Writing Room
+- 2026-10-24 Writing Room 24 Oct: IPS edits v2 counted (494 strict; option A = 508); two cut packages to 467/465; K4 date fix; textcheck catches secures/guarantees
+- 2026-10-24 Long Room 24 Oct evening: Root & Branch out (Ray's note); cold naming test (24 names, print in 0); print run is Monday's default; Tuesday's cut-package line
+- 2026-10-24 Ray's 24 Oct refinements reach all six: a CAST row per member, SELF_DIRECTION points every room at them, each member's reaction in tonight's minutes
+- 2026-10-24 Archive 24 Oct: submitted TNA held word for word; coherence register A1-A10 (0 contradictions, 3 watch); nine missing AI uses added to the ledger; AI_USE rows staged for Sun 25 Oct
+- 2026-10-24 Rooftop 24 Oct: first entry (why / learned / becoming); four of five fixes were our own dates and editions; date every number in the IPS vote copy
+
+## `claude/project-thread-uiwbee`
+merged 2 Nov (history only): its work was already in main, or main has a newer version
+
+- 2026-10-23 Keel overnight 24 Oct: ladder repriced on the 22 Oct close, vote set B options, Lab L-01/L-02, Courtroom, Library slip, episode 27
+- 2026-10-23 Lab L-02: commit the reproducible buffer run and its 22 Oct output (Codex review)
+- 2026-10-23 Keel morning 24 Oct: IPS rule checklist (T05), episode 28, board and stand-up
+- 2026-10-23 Daily report becomes a morning brief: every Keel member gives a labelled take (Ray, 24 Oct)
+- 2026-10-23 Markets and rules check 24 Oct: no breach; trading-activity rule and AI-use file are near-breaches
+- 2026-10-24 Copy self-direction files (SELF_DIRECTION, REQUESTS, ASK_HUMANS, NORTH_STARS) into the 24 Oct day branch
+- 2026-10-24 Library 24 Oct: print-run lead fact check (LC-01) passes with two fixes; request to the Lab; ledger row
+- 2026-10-24 Lab L-03: print-run motif mapped against M1-M11 (5 true, 1 none); risk image, not master motif; press day carries ~3/4 of rate risk
+- 2026-10-24 Laura's Room 24 Oct: inflation line names a risk, not an assumption (option A: one 3.5%/yr rate); 2031 range holds in dollars, not in Taiwan costs; requests to the Lab and Writing Room
+- 2026-10-24 Writing Room 24 Oct: IPS edits v2 counted (494 strict; option A = 508); two cut packages to 467/465; K4 date fix; textcheck catches secures/guarantees
+- 2026-10-24 Long Room 24 Oct evening: Root & Branch out (Ray's note); cold naming test (24 names, print in 0); print run is Monday's default; Tuesday's cut-package line
+- 2026-10-24 Ray's 24 Oct refinements reach all six: a CAST row per member, SELF_DIRECTION points every room at them, each member's reaction in tonight's minutes
+- 2026-10-24 Lab L-05: three-rung ladder on the IPS, stress-tested (3 of 10 survive into IPS v3, pitch 45 / IPS 471); L-04 two-risks test run early; Library S-02; Ray's essay voice notes in VOICE.md
+- 2026-10-24 Lab L-05: rung-2 scripts find keel/scripts from their own location (Codex review)
+- 2026-10-24 Rename the Lab to the Genius Lab (Ray, 24 Oct): charter, office map, room cards; paths unchanged
+- 2026-10-24 Genius Lab L-06: three name packages lift Creativity & Presentation (mock judges 5.0 -> 6.2/7.0/6.4); Library F-4/F-5
+- 2026-10-24 IPS v3.1: Keel's verdicts on the outside review (5 accepted, 5 rejected with checks); pitch 37 / IPS 489 strict
+
+## `claude/project-thread-3jx2ty`
+merged 2 Nov (history only): its work was already in main, or main has a newer version
+
+- 2026-10-23 Keel overnight 24 Oct: ladder repriced on the 22 Oct close, vote set B options, Lab L-01/L-02, Courtroom, Library slip, episode 27
+- 2026-10-23 Lab L-02: commit the reproducible buffer run and its 22 Oct output (Codex review)
+- 2026-10-23 Keel morning 24 Oct: IPS rule checklist (T05), episode 28, board and stand-up
+- 2026-10-23 Daily report becomes a morning brief: every Keel member gives a labelled take (Ray, 24 Oct)
+- 2026-10-23 Markets and rules check 24 Oct: no breach; trading-activity rule and AI-use file are near-breaches
+- 2026-10-24 Copy self-direction files (SELF_DIRECTION, REQUESTS, ASK_HUMANS, NORTH_STARS) into the 24 Oct day branch
+- 2026-10-24 Library 24 Oct: print-run lead fact check (LC-01) passes with two fixes; request to the Lab; ledger row
+- 2026-10-24 Lab L-03: print-run motif mapped against M1-M11 (5 true, 1 none); risk image, not master motif; press day carries ~3/4 of rate risk
+- 2026-10-24 Laura's Room 24 Oct: inflation line names a risk, not an assumption (option A: one 3.5%/yr rate); 2031 range holds in dollars, not in Taiwan costs; requests to the Lab and Writing Room
+- 2026-10-24 Writing Room 24 Oct: IPS edits v2 counted (494 strict; option A = 508); two cut packages to 467/465; K4 date fix; textcheck catches secures/guarantees
+- 2026-10-24 Long Room 24 Oct evening: Root & Branch out (Ray's note); cold naming test (24 names, print in 0); print run is Monday's default; Tuesday's cut-package line
+- 2026-10-24 Ray's 24 Oct refinements reach all six: a CAST row per member, SELF_DIRECTION points every room at them, each member's reaction in tonight's minutes
+- 2026-10-24 Lab L-05: three-rung ladder on the IPS, stress-tested (3 of 10 survive into IPS v3, pitch 45 / IPS 471); L-04 two-risks test run early; Library S-02; Ray's essay voice notes in VOICE.md
+- 2026-10-24 Lab L-05: rung-2 scripts find keel/scripts from their own location (Codex review)
+- 2026-10-24 Rename the Lab to the Genius Lab (Ray, 24 Oct): charter, office map, room cards; paths unchanged
+- 2026-10-24 Genius Lab L-06: three name packages lift Creativity & Presentation (mock judges 5.0 -> 6.2/7.0/6.4); Library F-4/F-5
+- 2026-10-24 IPS v3.1: Keel's verdicts on the outside review (5 accepted, 5 rejected with checks); pitch 37 / IPS 489 strict
+- 2026-10-24 Night shift 25 Oct, phase 1: brief, Library cold test round 2 + source checks, Kitchen read-aloud test, Laura's Room on v3.1, Genius Lab L-07 rung 1
+- 2026-10-24 Night shift 25 Oct, phase 2: Genius Lab L-07 rung 2 (one ADOPT: the stock fund is the floor ETF's interest; one correction to P4), Writing Room IPS v4 packages P0/A/B/C/D, all under 470 strict
+- 2026-10-24 Night shift 25 Oct, phase 3: Courtroom on v4 (plain body wins; motif lines cost human-read and crowd out the investing), IPS v4 recommended body (475 strict), Monday's Long Room ballot, lab book, ledger, requests
+- 2026-10-24 Package B: narrow 'released by a maturity, not a sale' to the matched Treasury (2038-39 proceeds wait in an ETF that is sold); note the same flaw in v3.1's cut line (Codex review)
+
+## `claude/keel-loop-2026-10-25`
+merged 2 Nov (history only): its work was already in main, or main has a newer version
+
+- 2026-10-23 Keel overnight 24 Oct: ladder repriced on the 22 Oct close, vote set B options, Lab L-01/L-02, Courtroom, Library slip, episode 27
+- 2026-10-23 Lab L-02: commit the reproducible buffer run and its 22 Oct output (Codex review)
+- 2026-10-23 Keel morning 24 Oct: IPS rule checklist (T05), episode 28, board and stand-up
+- 2026-10-23 Daily report becomes a morning brief: every Keel member gives a labelled take (Ray, 24 Oct)
+- 2026-10-23 Markets and rules check 24 Oct: no breach; trading-activity rule and AI-use file are near-breaches
+- 2026-10-24 Copy self-direction files (SELF_DIRECTION, REQUESTS, ASK_HUMANS, NORTH_STARS) into the 24 Oct day branch
+- 2026-10-24 Library 24 Oct: print-run lead fact check (LC-01) passes with two fixes; request to the Lab; ledger row
+- 2026-10-24 Lab L-03: print-run motif mapped against M1-M11 (5 true, 1 none); risk image, not master motif; press day carries ~3/4 of rate risk
+- 2026-10-24 Laura's Room 24 Oct: inflation line names a risk, not an assumption (option A: one 3.5%/yr rate); 2031 range holds in dollars, not in Taiwan costs; requests to the Lab and Writing Room
+- 2026-10-24 Writing Room 24 Oct: IPS edits v2 counted (494 strict; option A = 508); two cut packages to 467/465; K4 date fix; textcheck catches secures/guarantees
+- 2026-10-24 Long Room 24 Oct evening: Root & Branch out (Ray's note); cold naming test (24 names, print in 0); print run is Monday's default; Tuesday's cut-package line
+- 2026-10-24 Ray's 24 Oct refinements reach all six: a CAST row per member, SELF_DIRECTION points every room at them, each member's reaction in tonight's minutes
+- 2026-10-24 Lab L-05: three-rung ladder on the IPS, stress-tested (3 of 10 survive into IPS v3, pitch 45 / IPS 471); L-04 two-risks test run early; Library S-02; Ray's essay voice notes in VOICE.md
+- 2026-10-24 Lab L-05: rung-2 scripts find keel/scripts from their own location (Codex review)
+- 2026-10-24 Rename the Lab to the Genius Lab (Ray, 24 Oct): charter, office map, room cards; paths unchanged
+- 2026-10-24 Archive 24 Oct: submitted TNA held word for word; coherence register A1-A10 (0 contradictions, 3 watch); nine missing AI uses added to the ledger; AI_USE rows staged for Sun 25 Oct
+- 2026-10-24 Genius Lab L-06: three name packages lift Creativity & Presentation (mock judges 5.0 -> 6.2/7.0/6.4); Library F-4/F-5
+- 2026-10-24 Rooftop 24 Oct: first entry (why / learned / becoming); four of five fixes were our own dates and editions; date every number in the IPS vote copy
+- 2026-10-24 IPS v3.1: Keel's verdicts on the outside review (5 accepted, 5 rejected with checks); pitch 37 / IPS 489 strict
+- 2026-10-24 Night shift 25 Oct, phase 1: brief, Library cold test round 2 + source checks, Kitchen read-aloud test, Laura's Room on v3.1, Genius Lab L-07 rung 1
+- 2026-10-24 Night shift 25 Oct, phase 2: Genius Lab L-07 rung 2 (one ADOPT: the stock fund is the floor ETF's interest; one correction to P4), Writing Room IPS v4 packages P0/A/B/C/D, all under 470 strict
+- 2026-10-24 Night shift 25 Oct, phase 3: Courtroom on v4 (plain body wins; motif lines cost human-read and crowd out the investing), IPS v4 recommended body (475 strict), Monday's Long Room ballot, lab book, ledger, requests
+- 2026-10-24 Package B: narrow 'released by a maturity, not a sale' to the matched Treasury (2038-39 proceeds wait in an ETF that is sold); note the same flaw in v3.1's cut line (Codex review)
+- 2026-10-24 Keel 25 Oct: numbers on one basis (P02), episode 29, board, requests and asks
+- 2026-10-24 Morning brief, Sun 25 Oct
+- 2026-10-24 The Window, 25 Oct: first sweep; file the 24 Oct FAQ snapshot on the day branch; IPS v4 fact fixes F1-F2; short-ETF listing near-breach to Ray; AI DRAFT labels for raw paste files
+- 2026-10-25 The Library, 25 Oct: JPM 2027 LTCMA 7.5% confirmed in the report text (LC-02; matrix behind a login); slip S-03 Palladone dose dumping: 'release' only for Treasuries held to maturity; requests, ask, ledger
+- 2026-10-25 Genius Lab 25 Oct: P06 re-run at JPM 2027 7.5% (only 29% -> 28% moves); L-08 second meaning of XR: 'Extended Reserve' tops a cold panel, doses idea parked for the Final Report; requests, board, ledger
+- 2026-10-25 Laura's Room 25 Oct: IPS v4 floor-break test (quoted 2031 bottom broken in 0.75% of paths, 0.11% with D1's $10k buffer, MODEL); P3 'equal to the interest' fix; Extended Reserve holds; requests, ledger
+- 2026-10-25 Writing Room 25 Oct: IPS v4.1 vote copy (Window F1/F2, Laura's Room 'equal to'; 480 strict, 486 with P5 finish); Archive A1/A2/A4 hold; Package B 'built six years early' -> 'begun'; five requests closed
+- 2026-10-25 Keel weekly plan 25 Oct: roadmap to the IPS, risks (R3/R6/R12 up, R14 short-ETF listing, R15 bond-floor wording), IPS pre-mortem v2 + coherence list, Keel weekly retro, top 3 cards (vote B, students' draft, school letter), T23 version freeze, T24 ticker check
+- 2026-10-25 Weekly plan: drop the school letter from the top 3 and the overdue flags (Ray, 24 Oct: it comes later, not a blocker)
+- 2026-10-25 Courtroom 25 Oct: D1 on trial (C-01): the $10k buffer is a lower quote with a name (same 0.11% as quoting $10k lower; payments fully covered under d either way); AMENDED to two dials, IPS 492 strict; requests, ask, ledger
+- 2026-10-25 Archive 25 Oct: 25 Oct work vs the locked TNA (0 contradictions; A1 HOLDS on the 2027 LTCMA; A11 'release' on the iBonds rungs, A12 dial 1 needs dial 2, A13 waiting ETF); AI_USE s5 rows pasted (+Codex, outside review, 25 Oct); ledger gaps filled, duplicate removed
+- 2026-10-25 Kitchen 25 Oct: first Kitchen scene (Amara-Jun square on the 11 Oct number); 'and so?' read filed to the Writing Room; kitchen room file with state header
+- 2026-10-25 Kitchen memo: v4.1 is 480 strict
+
+## `claude/tender-rubin-g5m2ak`
+PR #20 · merged 2 Nov: the 23 Oct Treasury curve and the three coupon-shortfall scripts went live (`competition/official_market_data/`, `keel/scripts/`); its episodes 3-5 (24-26 Oct), IPS v2 and member notes are an alternate storyline the canon (Ep 27-30) replaced, kept readable in `archive/branches/claude_tender-rubin-g5m2ak/files/` with the patches
+
+- 2026-10-23 Ledger: WO-0006 TNA check against the Week 4 tips
+- 2026-10-23 Keel episode 3: Which basis? (ladder over $300k on the holdings basis); file the 24 Oct FAQ
+- 2026-10-24 Keel episode 4: A quarter, not a minority (sail vote 5-1; IPS v2)
+- 2026-10-24 Keel episode 4: fact-check fixes (line 111, basis labels, word counts)
+- 2026-10-25 Keel episode 5: Who pays? (coupon shortfall, payer order); working notes and tea room
+- 2026-10-25 Keel episode 5: fact-check fixes; file the coupon-shortfall scripts and the 23 Oct curve
+
+## `claude/laughing-ptolemy-2cqb0o`
+PR #38 · merged 2 Nov (history only): Draft 1-1.3 of the IPS rewrite were already in main (`keel/ips_rewrite/drafts/D1*`)
+
+- 2026-10-23 Keel overnight 24 Oct: ladder repriced on the 22 Oct close, vote set B options, Lab L-01/L-02, Courtroom, Library slip, episode 27
+- 2026-10-23 Lab L-02: commit the reproducible buffer run and its 22 Oct output (Codex review)
+- 2026-10-23 Keel morning 24 Oct: IPS rule checklist (T05), episode 28, board and stand-up
+- 2026-10-23 Daily report becomes a morning brief: every Keel member gives a labelled take (Ray, 24 Oct)
+- 2026-10-23 Markets and rules check 24 Oct: no breach; trading-activity rule and AI-use file are near-breaches
+- 2026-10-24 Copy self-direction files (SELF_DIRECTION, REQUESTS, ASK_HUMANS, NORTH_STARS) into the 24 Oct day branch
+- 2026-10-24 Library 24 Oct: print-run lead fact check (LC-01) passes with two fixes; request to the Lab; ledger row
+- 2026-10-24 Lab L-03: print-run motif mapped against M1-M11 (5 true, 1 none); risk image, not master motif; press day carries ~3/4 of rate risk
+- 2026-10-24 Laura's Room 24 Oct: inflation line names a risk, not an assumption (option A: one 3.5%/yr rate); 2031 range holds in dollars, not in Taiwan costs; requests to the Lab and Writing Room
+- 2026-10-24 Writing Room 24 Oct: IPS edits v2 counted (494 strict; option A = 508); two cut packages to 467/465; K4 date fix; textcheck catches secures/guarantees
+- 2026-10-24 Long Room 24 Oct evening: Root & Branch out (Ray's note); cold naming test (24 names, print in 0); print run is Monday's default; Tuesday's cut-package line
+- 2026-10-24 Ray's 24 Oct refinements reach all six: a CAST row per member, SELF_DIRECTION points every room at them, each member's reaction in tonight's minutes
+- 2026-10-24 Lab L-05: three-rung ladder on the IPS, stress-tested (3 of 10 survive into IPS v3, pitch 45 / IPS 471); L-04 two-risks test run early; Library S-02; Ray's essay voice notes in VOICE.md
+- 2026-10-24 Lab L-05: rung-2 scripts find keel/scripts from their own location (Codex review)
+- 2026-10-24 Rename the Lab to the Genius Lab (Ray, 24 Oct): charter, office map, room cards; paths unchanged
+- 2026-10-24 Archive 24 Oct: submitted TNA held word for word; coherence register A1-A10 (0 contradictions, 3 watch); nine missing AI uses added to the ledger; AI_USE rows staged for Sun 25 Oct
+- 2026-10-24 Genius Lab L-06: three name packages lift Creativity & Presentation (mock judges 5.0 -> 6.2/7.0/6.4); Library F-4/F-5
+- 2026-10-24 Rooftop 24 Oct: first entry (why / learned / becoming); four of five fixes were our own dates and editions; date every number in the IPS vote copy
+- 2026-10-24 IPS v3.1: Keel's verdicts on the outside review (5 accepted, 5 rejected with checks); pitch 37 / IPS 489 strict
+- 2026-10-24 Night shift 25 Oct, phase 1: brief, Library cold test round 2 + source checks, Kitchen read-aloud test, Laura's Room on v3.1, Genius Lab L-07 rung 1
+- 2026-10-24 Night shift 25 Oct, phase 2: Genius Lab L-07 rung 2 (one ADOPT: the stock fund is the floor ETF's interest; one correction to P4), Writing Room IPS v4 packages P0/A/B/C/D, all under 470 strict
+- 2026-10-24 Night shift 25 Oct, phase 3: Courtroom on v4 (plain body wins; motif lines cost human-read and crowd out the investing), IPS v4 recommended body (475 strict), Monday's Long Room ballot, lab book, ledger, requests
+- 2026-10-24 Package B: narrow 'released by a maturity, not a sale' to the matched Treasury (2038-39 proceeds wait in an ETF that is sold); note the same flaw in v3.1's cut line (Codex review)
+- 2026-10-24 Keel 25 Oct: numbers on one basis (P02), episode 29, board, requests and asks
+- 2026-10-24 Morning brief, Sun 25 Oct
+- 2026-10-24 The Window, 25 Oct: first sweep; file the 24 Oct FAQ snapshot on the day branch; IPS v4 fact fixes F1-F2; short-ETF listing near-breach to Ray; AI DRAFT labels for raw paste files
+- 2026-10-25 The Library, 25 Oct: JPM 2027 LTCMA 7.5% confirmed in the report text (LC-02; matrix behind a login); slip S-03 Palladone dose dumping: 'release' only for Treasuries held to maturity; requests, ask, ledger
+- 2026-10-25 Genius Lab 25 Oct: P06 re-run at JPM 2027 7.5% (only 29% -> 28% moves); L-08 second meaning of XR: 'Extended Reserve' tops a cold panel, doses idea parked for the Final Report; requests, board, ledger
+- 2026-10-25 Laura's Room 25 Oct: IPS v4 floor-break test (quoted 2031 bottom broken in 0.75% of paths, 0.11% with D1's $10k buffer, MODEL); P3 'equal to the interest' fix; Extended Reserve holds; requests, ledger
+- 2026-10-25 Writing Room 25 Oct: IPS v4.1 vote copy (Window F1/F2, Laura's Room 'equal to'; 480 strict, 486 with P5 finish); Archive A1/A2/A4 hold; Package B 'built six years early' -> 'begun'; five requests closed
+- 2026-10-25 Keel weekly plan 25 Oct: roadmap to the IPS, risks (R3/R6/R12 up, R14 short-ETF listing, R15 bond-floor wording), IPS pre-mortem v2 + coherence list, Keel weekly retro, top 3 cards (vote B, students' draft, school letter), T23 version freeze, T24 ticker check
+- 2026-10-25 Weekly plan: drop the school letter from the top 3 and the overdue flags (Ray, 24 Oct: it comes later, not a blocker)
+- 2026-10-25 Courtroom 25 Oct: D1 on trial (C-01): the $10k buffer is a lower quote with a name (same 0.11% as quoting $10k lower; payments fully covered under d either way); AMENDED to two dials, IPS 492 strict; requests, ask, ledger
+- 2026-10-25 Archive 25 Oct: 25 Oct work vs the locked TNA (0 contradictions; A1 HOLDS on the 2027 LTCMA; A11 'release' on the iBonds rungs, A12 dial 1 needs dial 2, A13 waiting ETF); AI_USE s5 rows pasted (+Codex, outside review, 25 Oct); ledger gaps filled, duplicate removed
+- 2026-10-25 Kitchen 25 Oct: first Kitchen scene (Amara-Jun square on the 11 Oct number); 'and so?' read filed to the Writing Room; kitchen room file with state header
+- 2026-10-25 Kitchen memo: v4.1 is 480 strict
+- 2026-10-25 Keel 26 Oct: vote set B ballot v2 (D1 as two dials), two-dials text, episode 30, board and requests
+- 2026-10-25 Morning brief, Mon 26 Oct
+- 2026-10-25 Brief: trading-activity default keeps the ask open
+- 2026-10-25 Ballot v2: state that the D1b figures use C-01's floor basis, not D4's (Codex review)
+- 2026-10-25 Stop polishing IPS v4 (Ray, 26 Oct): rewrite from scratch; north star 4; ballot v2 superseded for voting
+- 2026-10-25 Rewrite rules in SELF_DIRECTION (inbox notes, work orders first); D1a/D1b vote stands; bring keel/ips_rewrite onto the day branch
+- 2026-10-25 Board and prompt backup: D1a/D1b stands; room prompts unchanged (rules in SELF_DIRECTION)
+- 2026-10-25 IPS rewrite: ideation rung 3 (Opus): pharmacology motif verified and kept, used sparingly; second XR = ten releases
+- 2026-10-25 The Window, 26 Oct: rewrite spine 00_GROUND_TRUTH checked (quotes exact; six fixes: semifinal gate, form :75, case :119-120, assumptions, stale s5 ladder cost N1, no 'face' for IBTM N2); C-01/LR-02/P06/R01 re-run, all match; LABEL.md for JSON results; two requests, ledger
+- 2026-10-25 IPS rewrite: apply The Window's six ground-truth fixes (gate, coherence rule, range constraint, assumptions, degree, stale ladder cost, no IBTM face)
+- 2026-10-25 IPS rewrite: ground truth adds the range-protects-payments rule (case :119-120)
+- 2026-10-26 Library 26 Oct: slip S-04 Contac 600 (four bead coatings = a ladder in a capsule) for the rewrite's one picture; breaks: exact vs about, thicker coats cheaper (discounting), coupon leak = R01 dedication; inbox note, two requests, ledger
+- 2026-10-26 IPS rewrite: thread brief (ahas, judge lens, coherence check) and WO-0003 room orders for Draft 1
+- 2026-10-26 IPS rewrite Draft 1 (WO-0003): room notes, three candidates, Courtroom verdicts, fact-checked draft
+- 2026-10-26 IPS Draft 1.2: voice pass on Ray's version (R03 moves), 490 strict
+- 2026-10-26 IPS Draft 1.3: D1.2 voice with resizes/one-issuer/two-year window restored, 493 strict
+
+## `claude/keel-loop-2026-10-26`
+merged 2 Nov (history only): its work was already in main, or main has a newer version
+
+- 2026-10-23 Keel overnight 24 Oct: ladder repriced on the 22 Oct close, vote set B options, Lab L-01/L-02, Courtroom, Library slip, episode 27
+- 2026-10-23 Lab L-02: commit the reproducible buffer run and its 22 Oct output (Codex review)
+- 2026-10-23 Keel morning 24 Oct: IPS rule checklist (T05), episode 28, board and stand-up
+- 2026-10-23 Daily report becomes a morning brief: every Keel member gives a labelled take (Ray, 24 Oct)
+- 2026-10-23 Markets and rules check 24 Oct: no breach; trading-activity rule and AI-use file are near-breaches
+- 2026-10-24 Copy self-direction files (SELF_DIRECTION, REQUESTS, ASK_HUMANS, NORTH_STARS) into the 24 Oct day branch
+- 2026-10-24 Library 24 Oct: print-run lead fact check (LC-01) passes with two fixes; request to the Lab; ledger row
+- 2026-10-24 Lab L-03: print-run motif mapped against M1-M11 (5 true, 1 none); risk image, not master motif; press day carries ~3/4 of rate risk
+- 2026-10-24 Laura's Room 24 Oct: inflation line names a risk, not an assumption (option A: one 3.5%/yr rate); 2031 range holds in dollars, not in Taiwan costs; requests to the Lab and Writing Room
+- 2026-10-24 Writing Room 24 Oct: IPS edits v2 counted (494 strict; option A = 508); two cut packages to 467/465; K4 date fix; textcheck catches secures/guarantees
+- 2026-10-24 Long Room 24 Oct evening: Root & Branch out (Ray's note); cold naming test (24 names, print in 0); print run is Monday's default; Tuesday's cut-package line
+- 2026-10-24 Ray's 24 Oct refinements reach all six: a CAST row per member, SELF_DIRECTION points every room at them, each member's reaction in tonight's minutes
+- 2026-10-24 Lab L-05: three-rung ladder on the IPS, stress-tested (3 of 10 survive into IPS v3, pitch 45 / IPS 471); L-04 two-risks test run early; Library S-02; Ray's essay voice notes in VOICE.md
+- 2026-10-24 Lab L-05: rung-2 scripts find keel/scripts from their own location (Codex review)
+- 2026-10-24 Rename the Lab to the Genius Lab (Ray, 24 Oct): charter, office map, room cards; paths unchanged
+- 2026-10-24 Archive 24 Oct: submitted TNA held word for word; coherence register A1-A10 (0 contradictions, 3 watch); nine missing AI uses added to the ledger; AI_USE rows staged for Sun 25 Oct
+- 2026-10-24 Genius Lab L-06: three name packages lift Creativity & Presentation (mock judges 5.0 -> 6.2/7.0/6.4); Library F-4/F-5
+- 2026-10-24 Rooftop 24 Oct: first entry (why / learned / becoming); four of five fixes were our own dates and editions; date every number in the IPS vote copy
+- 2026-10-24 IPS v3.1: Keel's verdicts on the outside review (5 accepted, 5 rejected with checks); pitch 37 / IPS 489 strict
+- 2026-10-24 Night shift 25 Oct, phase 1: brief, Library cold test round 2 + source checks, Kitchen read-aloud test, Laura's Room on v3.1, Genius Lab L-07 rung 1
+- 2026-10-24 Night shift 25 Oct, phase 2: Genius Lab L-07 rung 2 (one ADOPT: the stock fund is the floor ETF's interest; one correction to P4), Writing Room IPS v4 packages P0/A/B/C/D, all under 470 strict
+- 2026-10-24 Night shift 25 Oct, phase 3: Courtroom on v4 (plain body wins; motif lines cost human-read and crowd out the investing), IPS v4 recommended body (475 strict), Monday's Long Room ballot, lab book, ledger, requests
+- 2026-10-24 Package B: narrow 'released by a maturity, not a sale' to the matched Treasury (2038-39 proceeds wait in an ETF that is sold); note the same flaw in v3.1's cut line (Codex review)
+- 2026-10-24 Keel 25 Oct: numbers on one basis (P02), episode 29, board, requests and asks
+- 2026-10-24 Morning brief, Sun 25 Oct
+- 2026-10-24 The Window, 25 Oct: first sweep; file the 24 Oct FAQ snapshot on the day branch; IPS v4 fact fixes F1-F2; short-ETF listing near-breach to Ray; AI DRAFT labels for raw paste files
+- 2026-10-25 The Library, 25 Oct: JPM 2027 LTCMA 7.5% confirmed in the report text (LC-02; matrix behind a login); slip S-03 Palladone dose dumping: 'release' only for Treasuries held to maturity; requests, ask, ledger
+- 2026-10-25 Genius Lab 25 Oct: P06 re-run at JPM 2027 7.5% (only 29% -> 28% moves); L-08 second meaning of XR: 'Extended Reserve' tops a cold panel, doses idea parked for the Final Report; requests, board, ledger
+- 2026-10-25 Laura's Room 25 Oct: IPS v4 floor-break test (quoted 2031 bottom broken in 0.75% of paths, 0.11% with D1's $10k buffer, MODEL); P3 'equal to the interest' fix; Extended Reserve holds; requests, ledger
+- 2026-10-25 Writing Room 25 Oct: IPS v4.1 vote copy (Window F1/F2, Laura's Room 'equal to'; 480 strict, 486 with P5 finish); Archive A1/A2/A4 hold; Package B 'built six years early' -> 'begun'; five requests closed
+- 2026-10-25 Keel weekly plan 25 Oct: roadmap to the IPS, risks (R3/R6/R12 up, R14 short-ETF listing, R15 bond-floor wording), IPS pre-mortem v2 + coherence list, Keel weekly retro, top 3 cards (vote B, students' draft, school letter), T23 version freeze, T24 ticker check
+- 2026-10-25 Weekly plan: drop the school letter from the top 3 and the overdue flags (Ray, 24 Oct: it comes later, not a blocker)
+- 2026-10-25 Courtroom 25 Oct: D1 on trial (C-01): the $10k buffer is a lower quote with a name (same 0.11% as quoting $10k lower; payments fully covered under d either way); AMENDED to two dials, IPS 492 strict; requests, ask, ledger
+- 2026-10-25 Archive 25 Oct: 25 Oct work vs the locked TNA (0 contradictions; A1 HOLDS on the 2027 LTCMA; A11 'release' on the iBonds rungs, A12 dial 1 needs dial 2, A13 waiting ETF); AI_USE s5 rows pasted (+Codex, outside review, 25 Oct); ledger gaps filled, duplicate removed
+- 2026-10-25 Kitchen 25 Oct: first Kitchen scene (Amara-Jun square on the 11 Oct number); 'and so?' read filed to the Writing Room; kitchen room file with state header
+- 2026-10-25 Kitchen memo: v4.1 is 480 strict
+- 2026-10-25 Keel 26 Oct: vote set B ballot v2 (D1 as two dials), two-dials text, episode 30, board and requests
+- 2026-10-25 Morning brief, Mon 26 Oct
+- 2026-10-25 Brief: trading-activity default keeps the ask open
+- 2026-10-25 Ballot v2: state that the D1b figures use C-01's floor basis, not D4's (Codex review)
+- 2026-10-25 Stop polishing IPS v4 (Ray, 26 Oct): rewrite from scratch; north star 4; ballot v2 superseded for voting
+- 2026-10-25 Rewrite rules in SELF_DIRECTION (inbox notes, work orders first); D1a/D1b vote stands; bring keel/ips_rewrite onto the day branch
+- 2026-10-25 Board and prompt backup: D1a/D1b stands; room prompts unchanged (rules in SELF_DIRECTION)
+- 2026-10-25 The Window, 26 Oct: rewrite spine 00_GROUND_TRUTH checked (quotes exact; six fixes: semifinal gate, form :75, case :119-120, assumptions, stale s5 ladder cost N1, no 'face' for IBTM N2); C-01/LR-02/P06/R01 re-run, all match; LABEL.md for JSON results; two requests, ledger
+- 2026-10-26 Library 26 Oct: slip S-04 Contac 600 (four bead coatings = a ladder in a capsule) for the rewrite's one picture; breaks: exact vs about, thicker coats cheaper (discounting), coupon leak = R01 dedication; inbox note, two requests, ledger
+- 2026-10-26 Genius Lab 26 Oct: WO-R1 done (L-09): dedicated ladder halves the coupon tail in 200,000 paths (p95 $25.1k -> $14.8k, p99 $32.4k -> $17.6k, +$1,486; MODEL 15 Oct); WInS mirror ~10 trades / ~$52k each way (default no trades); explaining line cold-panelled, dose/leak line binned; Library request closed; two requests, one ask, ledger
+- 2026-10-26 Laura's Room 26 Oct: WO-R4 done (LR-03): the 2031 range as a signal; bottom signals, top barely does (seed-money and matching field evidence); D1a is the one leak; pledge the floor; simulated co-sponsor and Laura visit; two requests, one ask, ledger
+- 2026-10-26 Writing Room 26 Oct: textcheck --voice from R03 (habits flagged, rhythm info only after it flagged Orwell 5 times; TNA 4 flags, v4.1 1, Orwell 0); three hard issues in rewrite inbox lines ('in the bank' vs NAV payout, D1b-only, Lab line vs WInS book); v4 requests closed as superseded; two requests, one ask, ledger
+- 2026-10-26 Long Room 26 Oct: one motif for the rewrite. Caplet XR explains 4 of the rewrite's 9 investing ideas (silent on the 2031 signal and VT); Keel vote B 3-2-1: XR name + one investing-job sentence, Contac 600 and Extended Reserve to the Final Report; rider 6-0 plain words for 2031; dose-dumping lead UNVERIFIED; two requests, one ask, ledger
+- 2026-10-26 Archive 26 Oct: rewrite spine vs the locked TNA (GROUND_TRUTH s3 22/22 quotes exact); A14 'exact' for the ladder would contradict (Library S-04); A15-A17 WATCH, A18 consistent; six rules to the rewrite inbox; ledger complete to 26 Oct 19:00 (4 rows), AI_USE 26 Oct row; two requests
+- 2026-10-26 Rooftop 26 Oct: seven of eleven catches since Sat were stretched certainty words, not dates; case :97-98 answered as three strengths (by contract / by design / a forecast); 'near-ironclad' covers the 2038-42 Treasuries; AI DRAFT 74-word material; two requests, one ask, ledger
+
+## `claude/project-thread-y47zba`
+merged 2 Nov (history only): its work was already in main, or main has a newer version
+
+- 2026-10-24 Keel improves itself: runbooks, invariants, scorecard, run log, weekly self-review
+- 2026-10-24 Runbooks: point the Trading Desk at files that exist; watchdog counts only rooms due
+- 2026-10-26 Bring all of Keel's work into main (keel/** only, under Ray's 25 Oct merge rule)
+- 2026-10-26 Save the scheduled-task prompts before the switch to runbook pointers
+- 2026-10-26 Point every scheduled run at the runbooks from SELF_DIRECTION and LOOP
+
+## `claude/project-thread-oqewq2`
+merged 2 Nov (history only): its work was already in main, or main has a newer version
+
+- 2026-10-26 The Window 27 Oct: six false facts marked before any draft used them; Draft 4 clean; v4.1 label
+- 2026-10-26 Markets and rules check 27 Oct: no breach; trading-activity rule and AI-use file still near-breaches; no curve after 22 Oct
+- 2026-10-27 The Library 27 Oct: S-05 'sum certain' and the IRS 5% exhaustion test as the certainty yardstick; dose dumping, zero order, MDT verified; Yale 80/20 + Tobin
+- 2026-10-27 Genius Lab L-10: last in line. Payments are the weakest promise (short after 2033 in 6.8-8.4% of MODEL paths); a 2033 coverage test cuts it to 0.01%
+
+## `claude/project-thread-h6hgbs`
+PR #25 · merged 2 Nov: the "partly superseded" banner on `keel/library/ips_road_2026-10/04_IPS_EDITS_2026-10-24.md`; the rest was already in main
+
+- 2026-10-23 IPS road: spine, requirements and gap check, plan to 7 Nov, Australian-angle meeting
+- 2026-10-23 Ideation ladder, IPS criterion map, first ladder run (pitch image)
+- 2026-10-23 IPS plan: say where the task IDs live (PR #21)
+- 2026-10-24 IPS edits for Tab 15 after the 22 Oct repricing (suggestions only)
+
+## `claude/project-thread-5lsv38`
+merged 2 Nov (history only): its work was already in main, or main has a newer version
+
+- 2026-10-27 Book 9 follow-through: Wharton's rules rank first (rule 0); portal Ideas tab reads the one idea bank; drafting ban, AI-use logging and format work retired across runbooks, invariants, agents and skills
+- 2026-10-27 Idea bank: renumber three rows after the R11 wave; portal treats 'Out' rows as dropped
