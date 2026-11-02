@@ -1,10 +1,13 @@
 {
- "built": "2026-11-02T04:42",
+ "built": "2026-11-02T05:45",
  "days": [
   {
    "date": "2026-11-02",
    "weekday": "Mon",
    "essence": [
+    "We read the newest IPS blind beside two rooms' rewrites, with two outside readers who had never seen any of it, and both picked the newest IPS as it stands, for two plain lines both rewrites had cut: how much of Laura's money is in shares, and the order in which money is used.",
+    "Neither reader could say what the closing line 'Do not crush.' asks Laura not to do, so we offer two words in the opening ('none sold') that make the obvious guess, don't sell the bonds early, the reading.",
+    "We also found the draft calls every rung 'one bond' when half of them are bond funds, and names the operating reserve without the money set aside for its gap; all four fixes fit in 496 words if the IPS stops repeating the pitch's 'We buy them'.",
     "We checked every claim the IPS makes about what Laura owns against the words of the people on the other side: the fund company's own documents, the US Treasury's rules and the medicine leaflets behind the caplet name.",
     "Nearly everything held, but the 2032 floor is a fund that holds Treasury bonds rather than the bonds themselves, and \"about a fifteenth\" in shares is only true at today's interest rates.",
     "So the IPS should call the floor \"a Treasury fund\" and say the shares are \"under a tenth\" of her money, which leaves everything else as it is and makes it one word shorter.",
@@ -16,6 +19,47 @@
     "So we offer one new sentence for the IPS, \"set it aside from the stocks Laura keeps until only a quarter is left. Anything still missing lowers the whole range, before anyone hears it\", plus two small fixes the case asks for."
    ],
    "huddles": [
+    {
+     "id": "H-018",
+     "title": "Beside the champion",
+     "question": "V53 is the champion. Read it blind beside today's two challengers (Laura's Room's quarter-back package; Amara's one-borrower diversification sentence), answer the five requests to the Writing Room, and list V53's hard issues with the smallest edits (round 6 beat 7).",
+     "status": "closed",
+     "room": "Writing Room",
+     "chair": "the run (Tess's room)",
+     "members": [
+      "Amara",
+      "Tess"
+     ],
+     "essence": [
+      "We read the newest IPS blind beside two rooms' rewrites, with two outside readers who had never seen any of it, and both picked the newest IPS as it stands, for two plain lines both rewrites had cut: how much of Laura's money is in shares, and the order in which money is used.",
+      "Neither reader could say what the closing line 'Do not crush.' asks Laura not to do, so we offer two words in the opening ('none sold') that make the obvious guess, don't sell the bonds early, the reading.",
+      "We also found the draft calls every rung 'one bond' when half of them are bond funds, and names the operating reserve without the money set aside for its gap; all four fixes fit in 496 words if the IPS stops repeating the pitch's 'We buy them'."
+     ],
+     "decided": [
+      "V53 first with both blind readers (Sonnet A, C, B; Haiku A, B = C)",
+      "Laura's Room's package not taken: 'a quarter' reads as our rule (2 of 2) but 'a quarter of what' is unclear (2 of 2); its reserve fix kept, its 'under a tenth' cut reversed",
+      "Amara's D1 to the Final Report; D2, D3 dropped",
+      "Hard issues: 'one bond' -> 'one rung' (0); 'none sold' (+2); reserve = ladder plus set-aside (+6); paid by P3's pitch mirror (-9); W2 496 strict",
+      "Library: 'moves into Treasuries' TRUE, 0 words (the 2031 move buys IBTM)"
+     ],
+     "seeds": [
+      "Does 'none sold' read as a vow Laura can never touch her money in an emergency? Her flexibility lives in the stocks, so a reader should be able to tell (Amara)",
+      "If the thread keeps P3's 'We buy them', which whole idea pays for 'none sold' and the reserve line? (Tess)"
+     ],
+     "todos": {
+      "done": 3,
+      "total": 6
+     },
+     "path": "keel/huddles/2026-11-02_beside-the-champion",
+     "transcript": "keel/huddles/2026-11-02_beside-the-champion/transcript.md",
+     "changes": [
+      "../../ips_rewrite/inbox/2026-11-02_writing-room.md",
+      "../../drafts/writing_room_2026-11-02/README.md",
+      "../../drafts/writing_room_2026-11-02/W2_V53_repaired.txt"
+     ],
+     "rounds": 2,
+     "rounds_today": 2
+    },
     {
      "id": "H-015",
      "title": "The other side of each holding",
@@ -175,6 +219,27 @@
    ],
    "done": [
     {
+     "text": "Three diversification candidates at 497, each with the whole idea that pays (Amara; done 2 Nov)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-11-02",
+     "huddle": "H-018"
+    },
+    {
+     "text": "Two blind reads of V53, Laura's Room's package and Amara's D1 on Wharton's words only (cold readers, Sonnet and Haiku; done 2 Nov)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-02",
+     "huddle": "H-018"
+    },
+    {
+     "text": "Answer the five requests and list V53's hard issues with the smallest edits (Tess; done 2 Nov)",
+     "done": true,
+     "owner": "Tess",
+     "day": "2026-11-02",
+     "huddle": "H-018"
+    },
+    {
      "text": "Three scouts back with the other side's own words: iShares on the five funds, Wharton and the submitted notes on the WInS book, Australian leaflets and bond-maths slides on the caplet (Tess, Nora, Felix; done 2 Nov)",
      "done": true,
      "owner": "Tess",
@@ -275,6 +340,27 @@
    ],
    "open": [
     {
+     "text": "Read V53 against W2 blind, with the \"what does the last line ask?\" say-back (Long Room, Jun; by Mon 2 Nov 18:20)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-018"
+    },
+    {
+     "text": "Gate \"one rung per cheque\" and \"none sold\" against the funds' documents and the WInS book (Window, Felix; by Tue 3 Nov 08:40)",
+     "done": false,
+     "owner": "Window",
+     "day": null,
+     "huddle": "H-018"
+    },
+    {
+     "text": "D1 and ledger B6's arithmetic as the Final Report's diversification paragraph (Final Report planner, Tess; after the instructions land, Tue 10 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-018"
+    },
+    {
      "text": "Fold O1 and O2 into the claim set beside V52, and check P6's \"moves into Treasuries\" the same way (Writing Room, Tess and Amara; by Mon 2 Nov 16:20)",
      "done": false,
      "owner": null,
@@ -341,7 +427,13 @@
    "runs": [
     {
      "day": "2026-11-02",
-     "when": "Mon 2 Nov 16:40",
+     "when": "Mon 2 Nov 17:05",
+     "room": "Writing Room",
+     "what": "Beat 7, round 6, as huddle H-018 (Amara writes; 2 cold readers, Sonnet 5.5 and Haiku 5.5, blind; 3 agent calls): claim set on **V53** (497 strict, pitch 50): V53 1st with both readers over Laura's Room's package (3rd / 2nd =; \"a quarter\" a chosen rule 2 of 2, \"of what?\" 2 of 2) and Amara's one-borrower D1 (2nd / 2nd =); both readers protect \"under a tenth\" and the order line; \"Do not crush.\" said back by 0 of 2 in every arm. Five requests closed (Library noun check TRUE, 0 words). 4 hard issues -> **W2 496 strict** (\"one rung\" 0; P2 \"none sold\" +2; reserve = ladder + set-aside +6; P3 pitch mirror -9); CORD on the Window's \"one bond\" TRUE; bank #136-#137; requests to the Long Room and the Window"
+    },
+    {
+     "day": "2026-11-02",
+     "when": "Mon 2 Nov 15:42",
      "room": "Laura's Room",
      "what": "Beat 6, round 6, as huddle H-017 (Amara as a SIMULATED Laura, Kai as a SIMULATED co-sponsor + CME's waterfall in its own words, Felix as a judge with the case open; 2 rounds, 6 posts, the routine's 3 agents continued): the Lab's seed to this room answered (where the kept half is empty her flexibility is nothing until 2042); LR-10 on **V53**'s design, 4 worlds (MODEL): keep a quarter of the kept stocks on naming day, the rest lowers the range: pocket gone by 2033 19.0 -> 6.6% base, 65.4 -> 44.5% S6; top reached 97.9 -> 99.3%; bottom never broken; cheques 99.82 -> 99.86%; gift mean -$830. V53 P8's \"so her flexibility shrinks before her promise does\" KILL 3-0 (Kai changed his mind); H25 ADOPT 3-0, H50 KILL; P7 +1, P9 reserve +6, P5 \"under a tenth\" cut (2-1); offer 496 strict; 2 CORDs (chair); bank #133-#135"
     },
@@ -356,6 +448,12 @@
      "when": "Mon 2 Nov 13:11",
      "room": "Library",
      "what": "Beat 4, round 6 (Q14 verify round, lens 6) as huddle H-015 (Tess, Nora, Felix scouts; Kai flaw-hunter; Felix lands; 3 rounds, 5 agent calls) on **V52** (landed overnight; the order named V50): 48/48 quoted lines re-checked at pages or files; O1 P5 \"a Treasury fund maturing in late 2032 ... the interest it should earn\" (IBTM's bonds mature all through 2032; 3-1), O2 \"under a tenth\" for \"about a fifteenth\" (true at one yield only; 4-0), V52 496 -> 495; 14 lines TRUE at source (redeemed, mature like bonds, caplet at an Australian label, pays exactly); slip S-11 KEEP narrowly; bank #126-#128, 2 dropped; 2 requests (Writing Room, Genius Lab)"
+    },
+    {
+     "day": "2026-11-02",
+     "when": "Mon 2 Nov 09:05",
+     "room": "Window",
+     "what": "Beat 2 gate, round 6: **V52 P2 false at its source** (\"Break it open and you ruin how it works\": Adderall XR and Effexor XR labels say open it, crushing is the harm); fix \"a caplet ... Crush it and the schedule is gone.\" (Kai's repair, 495); P4 income half overstated (+1 \"can\"); P3/P5/pitch true-if (funds pay NAV; Kai dissents); L-15 and LR-09 re-run identical; round 5 gate 7 verified / 2 overstated / 0 false; 7 requests closed, 1 filed (Long Room blind read); D28-D32 labelled; WHARTON_WORD case line 161-162; own find W-07; Kai flaw-hunter (one agent)"
     },
     {
      "day": "2026-11-02",
@@ -600,7 +698,7 @@
       "A condition report on our own plan for the Final Report's risk section: each flaw with its address (which year, which paths), then one 'However' (Writing Room, after 7 Nov)"
      ],
      "todos": {
-      "done": 3,
+      "done": 4,
       "total": 7
      },
      "path": "keel/huddles/2026-11-01_the-hard-case-named-first",
@@ -789,6 +887,13 @@
      "owner": null,
      "day": "2026-11-01",
      "huddle": "H-008"
+    },
+    {
+     "text": "Try the voice gate's callback sentence (\"that January morning arrives mid-slump\") in LR3 and count it (Writing Room; done Sun 1 Nov: \"that morning comes mid-slump\", taken 3-0, `../../office/outbox/2026-11-01_writing-room_five-places-one-page.md`)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-01",
+     "huddle": "H-006"
     },
     {
      "text": "Read the Lab's A-D as a co-sponsor, a judge with the case open and a practitioner (Amara, Kai, Felix; done 1 Nov, round 1)",
@@ -994,6 +1099,13 @@
      "huddle": "H-009"
     },
     {
+     "text": "Like-for-like paragraphs for a blind voice reader, with Felix's fixes, against V47's own (Tess and Amara, Writing Room; done Sun 1 Nov on V49, `../../office/outbox/2026-11-01_writing-room_five-places-one-page.md`)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-01",
+     "huddle": "H-009"
+    },
+    {
      "text": "Round 6's orders written in the loop's frontier: Q14, three verify jobs, each with its Wharton line (Amara; done 1 Nov)",
      "done": true,
      "owner": "Amara",
@@ -1083,13 +1195,6 @@
      "text": "Lock-timing test (a month and a quarter late; skipped where stocks rose most before naming; top reached S0, S1, S6) and the order test (half moved before naming: does any V47 number change?) (Jun, Genius Lab; by Mon 2 Nov)",
      "done": false,
      "owner": "Jun",
-     "day": null,
-     "huddle": "H-009"
-    },
-    {
-     "text": "Like-for-like paragraphs for a blind voice reader, with Felix's fixes, against V47's own (Tess and Amara, Writing Room; by Sun 1 Nov 16:20)",
-     "done": false,
-     "owner": null,
      "day": null,
      "huddle": "H-009"
     },
@@ -1253,7 +1358,7 @@
       "Does a blind reader prefer the A09 paragraph to V45's 60/40 paragraph, and does losing 'three-quarters stocks, until our own model sank it' cost the decision path? (Writing Room)"
      ],
      "todos": {
-      "done": 5,
+      "done": 6,
       "total": 7
      },
      "path": "keel/huddles/2026-10-31_the-bad-naming-day",
@@ -1344,7 +1449,7 @@
       "Which 19 words pay for the paragraph: the 97-in-100 top line, the one-in-thirty line, or something else?"
      ],
      "todos": {
-      "done": 5,
+      "done": 6,
       "total": 7
      },
      "path": "keel/huddles/2026-10-31_the-price-of-the-floor",
@@ -1387,7 +1492,7 @@
       "Does 'ten one-year bills' belong anywhere in the IPS once the rival also owns the ladder?"
      ],
      "todos": {
-      "done": 4,
+      "done": 5,
       "total": 8
      },
      "path": "keel/huddles/2026-10-31_the-whole-price",
@@ -1528,6 +1633,13 @@
      "huddle": "H-007"
     },
     {
+     "text": "Blind read: the A09 paragraph against V45's 60/40 paragraph (Writing Room; done Sat 31 Oct: arm Q3 read by six blind judges, `../../office/outbox/2026-10-31_writing-room_the-price-of-the-floor.md`)",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-31",
+     "huddle": "H-007"
+    },
+    {
      "text": "Round 5's orders written in the loop's frontier: Q13, lens 11, annuity sellers / auction lot essays / mountaineering turnarounds (Amara; done 31 Oct)",
      "done": true,
      "owner": "Amara",
@@ -1591,6 +1703,13 @@
      "huddle": "H-005"
     },
     {
+     "text": "The three ADOPT versions read cold beside V39 para 7, one picked, the 19-word cost weighed (Writing Room; closed Mon 2 Nov unread: overtaken, V39 para 7 was rebuilt away in V50 after Book 11; the price idea was read as arm Q1 on V45, 31 Oct)",
+     "done": true,
+     "owner": null,
+     "day": "2026-10-31",
+     "huddle": "H-005"
+    },
+    {
      "text": "Price the floor in full on LR-08's engine: median, mean, 2033 and 2042, worst twentieth (chair; done 31 Oct, C-04)",
      "done": true,
      "owner": null,
@@ -1628,20 +1747,6 @@
      "huddle": "H-007"
     },
     {
-     "text": "Blind read: the A09 paragraph against V45's 60/40 paragraph (Writing Room; by Sun 1 Nov)",
-     "done": false,
-     "owner": null,
-     "day": null,
-     "huddle": "H-007"
-    },
-    {
-     "text": "The three ADOPT versions read cold beside V39 para 7, one picked, the 19-word cost weighed (Writing Room; by Sun 1 Nov)",
-     "done": false,
-     "owner": null,
-     "day": null,
-     "huddle": "H-005"
-    },
-    {
      "text": "The Window gates L-14's headline from the script (Window; by Sun 1 Nov)",
      "done": false,
      "owner": "Window",
@@ -1650,13 +1755,6 @@
     },
     {
      "text": "The rewrite thread decides whether LR3's paragraph replaces V45's \"Sell low, by appointment\" section (rewrite thread; by Sun 1 Nov)",
-     "done": false,
-     "owner": null,
-     "day": null,
-     "huddle": "H-006"
-    },
-    {
-     "text": "Try the voice gate's callback sentence (\"that January morning arrives mid-slump\") in LR3 and count it (Writing Room; by Sun 1 Nov)",
      "done": false,
      "owner": null,
      "day": null,

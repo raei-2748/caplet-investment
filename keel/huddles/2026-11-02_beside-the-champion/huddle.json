@@ -1,0 +1,60 @@
+{
+  "id": "H-018",
+  "slug": "beside-the-champion",
+  "title": "Beside the champion",
+  "question": "V53 is the champion. Read it blind beside today's two challengers (Laura's Room's quarter-back package; Amara's one-borrower diversification sentence), answer the five requests to the Writing Room, and list V53's hard issues with the smallest edits (round 6 beat 7).",
+  "room": "Writing Room",
+  "chair": "the run (Tess's room)",
+  "opened": "2026-11-02",
+  "status": "closed",
+  "closed": "2026-11-02",
+  "members": [
+    "Amara",
+    "Tess"
+  ],
+  "serves": "North stars 1 and 2 (plain voice; the motif paid off); Wharton: Investment Strategy (uses appropriate diversification), Client Knowledge (the operating reserve's size, case :95-96), Creativity & Presentation (Book 11 rule 6, plain sense)",
+  "rounds": [
+    {
+      "n": 1,
+      "name": "Amara writes (three candidates, each counted at 497)",
+      "date": "2026-11-02",
+      "posts": [
+        "posts/r1_amara.md"
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Two cold readers on two other models, blind (the routine's cap of three agent calls)",
+      "date": "2026-11-02",
+      "posts": [
+        "posts/r2_reader1_sonnet.md",
+        "posts/r2_reader2_haiku.md"
+      ]
+    }
+  ],
+  "essence": [
+    "We read the newest IPS blind beside two rooms' rewrites, with two outside readers who had never seen any of it, and both picked the newest IPS as it stands, for two plain lines both rewrites had cut: how much of Laura's money is in shares, and the order in which money is used.",
+    "Neither reader could say what the closing line 'Do not crush.' asks Laura not to do, so we offer two words in the opening ('none sold') that make the obvious guess, don't sell the bonds early, the reading.",
+    "We also found the draft calls every rung 'one bond' when half of them are bond funds, and names the operating reserve without the money set aside for its gap; all four fixes fit in 496 words if the IPS stops repeating the pitch's 'We buy them'."
+  ],
+  "decided": [
+    "V53 first with both blind readers (Sonnet A, C, B; Haiku A, B = C)",
+    "Laura's Room's package not taken: 'a quarter' reads as our rule (2 of 2) but 'a quarter of what' is unclear (2 of 2); its reserve fix kept, its 'under a tenth' cut reversed",
+    "Amara's D1 to the Final Report; D2, D3 dropped",
+    "Hard issues: 'one bond' -> 'one rung' (0); 'none sold' (+2); reserve = ladder plus set-aside (+6); paid by P3's pitch mirror (-9); W2 496 strict",
+    "Library: 'moves into Treasuries' TRUE, 0 words (the 2031 move buys IBTM)"
+  ],
+  "seeds": [
+    "Does 'none sold' read as a vow Laura can never touch her money in an emergency? Her flexibility lives in the stocks, so a reader should be able to tell (Amara)",
+    "If the thread keeps P3's 'We buy them', which whole idea pays for 'none sold' and the reserve line? (Tess)"
+  ],
+  "changes": [
+    "../../ips_rewrite/inbox/2026-11-02_writing-room.md",
+    "../../drafts/writing_room_2026-11-02/README.md",
+    "../../drafts/writing_room_2026-11-02/W2_V53_repaired.txt"
+  ],
+  "todos": {
+    "done": 3,
+    "total": 6
+  }
+}
