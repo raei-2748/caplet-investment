@@ -1,0 +1,619 @@
+From 0fdda97746f9d137637e31be5c7a945bd93daff5 Mon Sep 17 00:00:00 2001
+From: Claude <noreply@anthropic.com>
+Date: Sun, 25 Oct 2026 19:52:58 +0000
+Subject: [PATCH 6/6] Keel episode 5: fact-check fixes; file the
+ coupon-shortfall scripts and the 23 Oct curve
+
+- 'whole sail covers it in every path' -> all but about 1 in 2,000 (99.95%); Caplet split
+  $12.9k/$6.2k/$2.0k; like-for-like comparison of the two coupon designs; timing 'mostly 2038-42'.
+- keel/scripts/coupon_shortfall.py, coupon_payers.py, caplet_shortfall_replica.py and
+  competition/official_market_data/daily-treasury-rates_2026-10-23.csv so the numbers re-run from the repo.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01EXBkXPwAChDhLub9Cc8j2D
+---
+ .../daily-treasury-rates_2026-10-23.csv       | 205 ++++++++++++++++++
+ keel/episodes/2026-10-26_ep05.md              |  25 ++-
+ keel/members/jun.md                           |   5 +-
+ keel/members/kai.md                           |   2 +-
+ keel/scripts/caplet_shortfall_replica.py      |  35 +++
+ keel/scripts/coupon_payers.py                 |  67 ++++++
+ keel/scripts/coupon_shortfall.py              | 157 ++++++++++++++
+ 7 files changed, 483 insertions(+), 13 deletions(-)
+ create mode 100644 competition/official_market_data/daily-treasury-rates_2026-10-23.csv
+ create mode 100644 keel/scripts/caplet_shortfall_replica.py
+ create mode 100644 keel/scripts/coupon_payers.py
+ create mode 100644 keel/scripts/coupon_shortfall.py
+
+diff --git a/competition/official_market_data/daily-treasury-rates_2026-10-23.csv b/competition/official_market_data/daily-treasury-rates_2026-10-23.csv
+new file mode 100644
+index 0000000..792ea89
+--- /dev/null
++++ b/competition/official_market_data/daily-treasury-rates_2026-10-23.csv
+@@ -0,0 +1,205 @@
++Date,"1 Mo","1.5 Month","2 Mo","3 Mo","4 Mo","6 Mo","1 Yr","2 Yr","3 Yr","5 Yr","7 Yr","10 Yr","20 Yr","30 Yr"
++10/23/2026,4.11,4.11,4.16,4.22,4.30,4.30,4.44,4.69,4.75,4.82,4.89,5.00,5.37,5.33
++10/22/2026,4.11,4.10,4.16,4.22,4.29,4.29,4.41,4.65,4.72,4.78,4.86,4.96,5.32,5.29
++10/21/2026,4.09,4.12,4.16,4.25,4.34,4.35,4.52,4.81,4.89,4.95,5.03,5.13,5.47,5.42
++10/20/2026,4.10,4.13,4.17,4.26,4.34,4.36,4.51,4.79,4.86,4.94,5.02,5.12,5.47,5.42
++10/19/2026,4.11,4.14,4.17,4.27,4.34,4.37,4.50,4.77,4.85,4.94,5.04,5.15,5.53,5.48
++10/16/2026,4.12,4.14,4.17,4.26,4.32,4.34,4.46,4.74,4.82,4.89,4.98,5.09,5.47,5.43
++10/15/2026,4.17,4.15,4.19,4.28,4.35,4.35,4.49,4.77,4.85,4.91,5.00,5.10,5.48,5.43
++10/14/2026,4.11,4.15,4.15,4.28,4.36,4.37,4.53,4.82,4.92,5.00,5.09,5.19,5.57,5.52
++10/13/2026,4.10,4.15,4.15,4.26,4.32,4.34,4.48,4.79,4.90,5.00,5.11,5.21,5.60,5.56
++10/09/2026,4.13,4.13,4.13,4.25,4.29,4.32,4.47,4.80,4.89,5.02,5.13,5.24,5.65,5.60
++10/08/2026,4.14,4.14,4.13,4.23,4.29,4.30,4.44,4.75,4.85,4.99,5.11,5.22,5.64,5.60
++10/07/2026,4.07,4.13,4.14,4.22,4.28,4.28,4.42,4.77,4.87,5.03,5.15,5.28,5.71,5.67
++10/06/2026,4.06,4.12,4.13,4.21,4.26,4.28,4.46,4.79,4.88,5.03,5.15,5.27,5.68,5.64
++10/05/2026,4.05,4.10,4.13,4.22,4.27,4.30,4.47,4.84,4.97,5.06,5.19,5.31,5.70,5.66
++10/02/2026,4.04,4.09,4.11,4.19,4.26,4.27,4.46,4.83,4.96,5.06,5.17,5.28,5.67,5.63
++10/01/2026,4.06,4.10,4.13,4.17,4.26,4.27,4.44,4.78,4.91,5.01,5.12,5.24,5.64,5.61
++09/30/2026,4.02,4.13,4.16,4.20,4.29,4.33,4.54,4.88,5.00,5.09,5.19,5.29,5.68,5.64
++09/29/2026,4.04,4.14,4.18,4.25,4.30,4.36,4.58,4.89,4.98,5.06,5.16,5.26,5.64,5.59
++09/28/2026,4.04,4.14,4.20,4.28,4.33,4.41,4.59,4.92,5.01,5.06,5.15,5.24,5.60,5.56
++09/25/2026,4.04,4.14,4.20,4.24,4.32,4.33,4.50,4.81,4.94,4.98,5.06,5.17,5.54,5.49
++09/24/2026,4.01,4.10,4.18,4.24,4.33,4.34,4.51,4.87,4.99,5.03,5.10,5.18,5.53,5.47
++09/23/2026,3.99,4.07,4.10,4.19,4.30,4.31,4.49,4.85,4.97,4.99,5.05,5.11,5.45,5.40
++09/22/2026,3.97,4.04,4.09,4.16,4.26,4.26,4.43,4.71,4.81,4.83,4.89,4.96,5.33,5.29
++09/21/2026,3.96,4.02,4.10,4.17,4.26,4.27,4.45,4.76,4.82,4.83,4.89,4.96,5.33,5.29
++09/18/2026,3.97,3.98,4.10,4.14,4.24,4.24,4.44,4.76,4.83,4.86,4.93,5.01,5.38,5.34
++09/17/2026,3.97,3.98,4.09,4.12,4.23,4.20,4.40,4.67,4.75,4.78,4.86,4.94,5.32,5.29
++09/16/2026,3.96,4.00,4.07,4.14,4.24,4.22,4.45,4.74,4.82,4.86,4.94,5.01,5.39,5.35
++09/15/2026,3.93,4.00,4.06,4.11,4.19,4.17,4.39,4.67,4.76,4.83,4.91,5.00,5.40,5.36
++09/14/2026,3.94,4.00,4.06,4.11,4.18,4.18,4.37,4.65,4.73,4.80,4.88,4.97,5.37,5.34
++09/11/2026,3.93,3.99,4.05,4.07,4.15,4.12,4.35,4.63,4.69,4.78,4.87,4.96,5.38,5.35
++09/10/2026,3.91,3.93,4.01,4.00,4.11,4.07,4.28,4.56,4.63,4.75,4.84,4.95,5.39,5.37
++09/09/2026,3.81,3.88,3.93,3.95,4.06,4.01,4.17,4.43,4.49,4.61,4.71,4.83,5.28,5.28
++09/08/2026,3.81,3.88,3.91,3.94,4.02,4.00,4.15,4.39,4.44,4.57,4.68,4.80,5.26,5.25
++09/04/2026,3.79,3.83,3.90,3.91,4.00,3.98,4.13,4.37,4.45,4.54,4.65,4.78,5.25,5.24
++09/03/2026,3.83,3.82,3.91,3.89,3.99,3.95,4.11,4.34,4.41,4.52,4.63,4.77,5.25,5.25
++09/02/2026,3.83,3.87,3.89,3.92,4.02,4.00,4.16,4.39,4.45,4.54,4.66,4.79,5.27,5.27
++09/01/2026,3.85,3.88,3.89,3.92,3.97,4.00,4.18,4.39,4.46,4.55,4.66,4.79,5.27,5.27
++08/31/2026,3.85,3.86,3.88,3.91,3.96,3.99,4.16,4.34,4.40,4.49,4.62,4.75,5.24,5.25
++08/28/2026,3.84,3.83,3.86,3.90,3.94,4.02,4.15,4.34,4.41,4.48,4.59,4.73,5.21,5.22
++08/27/2026,3.81,3.79,3.81,3.84,3.88,3.94,4.04,4.20,4.30,4.38,4.52,4.67,5.18,5.19
++08/26/2026,3.80,3.78,3.80,3.85,3.88,3.94,4.02,4.19,4.29,4.37,4.51,4.66,5.17,5.18
++08/25/2026,3.79,3.78,3.80,3.86,3.89,3.95,4.01,4.17,4.25,4.35,4.48,4.64,5.16,5.17
++08/24/2026,3.79,3.78,3.80,3.87,3.90,3.96,4.04,4.24,4.31,4.41,4.55,4.70,5.21,5.23
++08/21/2026,3.80,3.77,3.80,3.88,3.90,3.95,4.03,4.24,4.31,4.43,4.57,4.74,5.25,5.27
++08/20/2026,3.80,3.77,3.79,3.87,3.88,3.94,3.99,4.19,4.26,4.39,4.53,4.69,5.20,5.23
++08/19/2026,3.77,3.77,3.81,3.86,3.88,3.94,4.00,4.19,4.25,4.35,4.48,4.65,5.17,5.19
++08/18/2026,3.78,3.78,3.82,3.86,3.88,3.94,3.99,4.19,4.26,4.37,4.53,4.71,5.28,5.28
++08/17/2026,3.79,3.80,3.82,3.87,3.89,3.95,4.00,4.19,4.25,4.38,4.54,4.72,5.30,5.31
++08/14/2026,3.79,3.80,3.81,3.86,3.88,3.95,3.98,4.17,4.24,4.36,4.51,4.68,5.25,5.25
++08/13/2026,3.79,3.79,3.81,3.87,3.88,3.94,3.97,4.15,4.20,4.32,4.47,4.63,5.20,5.21
++08/12/2026,3.78,3.79,3.80,3.87,3.89,3.97,4.00,4.20,4.25,4.38,4.52,4.68,5.24,5.24
++08/11/2026,3.79,3.82,3.83,3.89,3.90,3.99,4.03,4.22,4.27,4.39,4.54,4.70,5.25,5.24
++08/10/2026,3.79,3.80,3.84,3.89,3.91,4.00,4.04,4.25,4.31,4.41,4.56,4.72,5.25,5.25
++08/07/2026,3.79,3.79,3.83,3.87,3.89,3.96,4.01,4.19,4.25,4.35,4.49,4.65,5.20,5.19
++08/06/2026,3.80,3.80,3.84,3.90,3.92,3.99,4.06,4.25,4.31,4.40,4.53,4.69,5.22,5.22
++08/05/2026,3.77,3.79,3.84,3.89,3.91,3.98,4.03,4.18,4.24,4.33,4.47,4.63,5.18,5.17
++08/04/2026,3.78,3.80,3.85,3.89,3.91,4.00,4.04,4.20,4.25,4.33,4.47,4.63,5.18,5.18
++08/03/2026,3.79,3.82,3.87,3.91,3.94,4.02,4.07,4.25,4.32,4.40,4.54,4.70,5.23,5.23
++07/31/2026,3.78,3.80,3.85,3.83,3.92,3.98,4.08,4.28,4.34,4.45,4.59,4.75,5.28,5.27
++07/30/2026,3.79,3.80,3.84,3.82,3.92,3.98,4.04,4.23,4.30,4.38,4.52,4.68,5.22,5.21
++07/29/2026,3.73,3.80,3.83,3.83,3.91,3.97,4.04,4.22,4.29,4.37,4.51,4.67,5.21,5.20
++07/28/2026,3.76,3.86,3.90,3.90,4.02,4.07,4.09,4.26,4.31,4.35,4.47,4.61,5.11,5.09
++07/27/2026,3.80,3.89,3.95,3.96,4.05,4.10,4.14,4.31,4.35,4.40,4.52,4.65,5.15,5.12
++07/24/2026,3.80,3.88,3.95,3.96,4.04,4.08,4.14,4.33,4.36,4.43,4.55,4.69,5.18,5.16
++07/23/2026,3.82,3.90,3.95,3.95,4.04,4.09,4.15,4.37,4.40,4.46,4.58,4.71,5.20,5.17
++07/22/2026,3.76,3.82,3.82,3.89,4.00,4.05,4.11,4.31,4.34,4.41,4.53,4.67,5.17,5.15
++07/21/2026,3.75,3.81,3.81,3.87,3.96,4.02,4.08,4.26,4.31,4.37,4.50,4.63,5.14,5.13
++07/20/2026,3.72,3.76,3.81,3.86,3.93,4.00,4.03,4.21,4.25,4.33,4.45,4.60,5.12,5.11
++07/17/2026,3.73,3.75,3.80,3.85,3.91,3.96,4.01,4.18,4.21,4.28,4.40,4.55,5.07,5.06
++07/16/2026,3.76,3.75,3.81,3.84,3.90,3.94,3.99,4.16,4.20,4.28,4.41,4.57,5.09,5.09
++07/15/2026,3.73,3.76,3.82,3.83,3.89,3.93,3.97,4.13,4.18,4.26,4.39,4.55,5.07,5.08
++07/14/2026,3.73,3.75,3.82,3.84,3.91,3.95,4.02,4.18,4.23,4.31,4.44,4.58,5.09,5.08
++07/13/2026,3.73,3.76,3.82,3.89,3.97,4.03,4.12,4.26,4.30,4.37,4.48,4.62,5.11,5.10
++07/10/2026,3.71,3.74,3.81,3.85,3.94,3.99,4.06,4.21,4.22,4.30,4.42,4.56,5.08,5.06
++07/09/2026,3.72,3.72,3.79,3.83,3.91,3.96,4.02,4.16,4.18,4.27,4.40,4.54,5.06,5.05
++07/08/2026,3.67,3.74,3.82,3.87,3.94,3.99,4.06,4.21,4.21,4.31,4.43,4.56,5.07,5.06
++07/07/2026,3.69,3.74,3.82,3.86,3.94,3.99,4.06,4.19,4.18,4.27,4.40,4.55,5.05,5.05
++07/06/2026,3.69,3.75,3.81,3.87,3.93,3.98,3.95,4.13,4.14,4.21,4.33,4.48,4.99,4.99
++07/02/2026,3.70,3.73,3.81,3.82,3.91,3.98,3.96,4.14,4.16,4.23,4.35,4.49,4.99,4.98
++07/01/2026,3.67,3.71,3.72,3.85,3.95,4.00,4.00,4.17,4.19,4.24,4.35,4.48,4.97,4.97
++06/30/2026,3.70,3.74,3.77,3.87,3.92,4.01,3.98,4.14,4.15,4.19,4.30,4.44,4.93,4.91
++06/29/2026,3.71,3.71,3.76,3.87,3.92,4.00,3.97,4.10,4.10,4.14,4.24,4.38,4.86,4.86
++06/26/2026,3.70,3.70,3.75,3.83,3.89,3.94,3.94,4.07,4.09,4.12,4.23,4.38,4.87,4.87
++06/25/2026,3.70,3.71,3.75,3.84,3.90,3.95,3.96,4.09,4.13,4.15,4.26,4.40,4.87,4.86
++06/24/2026,3.66,3.71,3.76,3.85,3.90,3.95,3.99,4.11,4.15,4.17,4.28,4.41,4.87,4.86
++06/23/2026,3.65,3.71,3.76,3.85,3.89,3.96,4.01,4.16,4.22,4.27,4.38,4.50,4.96,4.94
++06/22/2026,3.66,3.71,3.77,3.85,3.89,3.98,4.04,4.24,4.25,4.29,4.39,4.51,4.97,4.95
++06/18/2026,3.69,3.69,3.74,3.83,3.85,3.92,4.00,4.19,4.19,4.23,4.34,4.46,4.91,4.90
++06/17/2026,3.68,3.70,3.74,3.83,3.85,3.91,3.98,4.20,4.23,4.27,4.37,4.49,4.95,4.93
++06/16/2026,3.67,3.69,3.71,3.79,3.79,3.81,3.84,4.05,4.08,4.16,4.28,4.43,4.92,4.93
++06/15/2026,3.69,3.70,3.71,3.79,3.79,3.81,3.84,4.07,4.10,4.18,4.32,4.47,4.97,4.97
++06/12/2026,3.69,3.70,3.70,3.78,3.79,3.82,3.86,4.09,4.12,4.21,4.34,4.48,4.98,4.97
++06/11/2026,3.69,3.69,3.70,3.78,3.79,3.81,3.85,4.05,4.09,4.18,4.31,4.45,4.96,4.95
++06/10/2026,3.69,3.70,3.72,3.79,3.80,3.82,3.90,4.13,4.17,4.27,4.40,4.55,5.04,5.03
++06/09/2026,3.69,3.69,3.71,3.79,3.79,3.82,3.90,4.13,4.16,4.26,4.39,4.53,5.02,5.01
++06/08/2026,3.70,3.70,3.71,3.80,3.79,3.83,3.85,4.15,4.21,4.29,4.42,4.56,5.05,5.03
++06/05/2026,3.71,3.71,3.71,3.78,3.78,3.81,3.88,4.17,4.22,4.29,4.41,4.55,5.03,5.01
++06/04/2026,3.71,3.70,3.70,3.78,3.76,3.78,3.82,4.05,4.10,4.18,4.32,4.47,4.98,4.97
++06/03/2026,3.71,3.71,3.72,3.78,3.77,3.78,3.84,4.08,4.14,4.21,4.34,4.49,5.00,4.99
++06/02/2026,3.72,3.71,3.73,3.77,3.79,3.78,3.82,4.05,4.09,4.17,4.31,4.46,4.97,4.97
++06/01/2026,3.72,3.71,3.73,3.78,3.80,3.79,3.83,4.05,4.09,4.18,4.32,4.47,4.99,4.99
++05/29/2026,3.72,3.71,3.71,3.69,3.78,3.78,3.79,3.98,4.06,4.13,4.27,4.45,4.98,4.99
++05/28/2026,3.72,3.71,3.71,3.69,3.78,3.79,3.80,3.99,4.07,4.15,4.29,4.45,4.98,4.98
++05/27/2026,3.72,3.70,3.69,3.68,3.77,3.79,3.80,4.00,4.09,4.17,4.32,4.48,5.01,5.01
++05/26/2026,3.72,3.70,3.69,3.68,3.78,3.80,3.82,4.01,4.10,4.19,4.33,4.50,5.03,5.03
++05/22/2026,3.72,3.69,3.69,3.68,3.78,3.79,3.86,4.13,4.18,4.27,4.41,4.56,5.06,5.07
++05/21/2026,3.72,3.68,3.69,3.68,3.76,3.78,3.83,4.08,4.13,4.25,4.41,4.57,5.09,5.10
++05/20/2026,3.65,3.65,3.65,3.65,3.74,3.75,3.79,4.04,4.11,4.22,4.39,4.57,5.10,5.11
++05/19/2026,3.66,3.66,3.66,3.67,3.75,3.77,3.83,4.13,4.20,4.32,4.50,4.67,5.19,5.18
++05/18/2026,3.69,3.68,3.68,3.68,3.76,3.77,3.81,4.07,4.14,4.27,4.43,4.61,5.14,5.14
++05/15/2026,3.71,3.70,3.69,3.69,3.76,3.77,3.82,4.09,4.14,4.26,4.43,4.59,5.14,5.12
++05/14/2026,3.72,3.71,3.70,3.69,3.76,3.76,3.79,4.00,4.04,4.13,4.29,4.47,5.01,5.02
++05/13/2026,3.71,3.71,3.70,3.69,3.76,3.77,3.79,3.98,4.00,4.12,4.28,4.46,5.03,5.03
++05/12/2026,3.71,3.72,3.69,3.70,3.77,3.77,3.80,4.00,4.01,4.12,4.29,4.46,5.02,5.03
++05/11/2026,3.71,3.70,3.69,3.70,3.77,3.77,3.79,3.95,3.96,4.07,4.24,4.42,4.97,4.98
++05/08/2026,3.71,3.70,3.68,3.69,3.75,3.74,3.75,3.90,3.92,4.02,4.19,4.38,4.93,4.95
++05/07/2026,3.72,3.70,3.69,3.69,3.75,3.74,3.76,3.92,3.94,4.04,4.22,4.41,4.96,4.97
++05/06/2026,3.70,3.70,3.69,3.69,3.75,3.74,3.73,3.87,3.89,3.99,4.17,4.36,4.92,4.94
++05/05/2026,3.70,3.70,3.70,3.69,3.75,3.75,3.77,3.93,3.97,4.08,4.25,4.43,4.98,4.98
++05/04/2026,3.71,3.70,3.70,3.70,3.76,3.76,3.78,3.95,3.98,4.08,4.26,4.45,5.01,5.02
++05/01/2026,3.71,3.71,3.70,3.68,3.76,3.71,3.73,3.88,3.91,4.02,4.20,4.39,4.96,4.97
++04/30/2026,3.72,3.71,3.71,3.68,3.76,3.71,3.72,3.88,3.91,4.02,4.20,4.40,4.97,4.98
++04/29/2026,3.68,3.70,3.72,3.68,3.77,3.73,3.75,3.92,3.94,4.05,4.23,4.42,4.97,4.98
++04/28/2026,3.68,3.70,3.72,3.68,3.69,3.72,3.71,3.84,3.86,3.97,4.16,4.36,4.92,4.94
++04/27/2026,3.70,3.72,3.72,3.68,3.70,3.72,3.69,3.78,3.83,3.94,4.14,4.35,4.92,4.94
++04/24/2026,3.69,3.72,3.71,3.69,3.69,3.71,3.67,3.78,3.80,3.92,4.10,4.31,4.88,4.91
++04/23/2026,3.69,3.72,3.72,3.69,3.70,3.72,3.70,3.83,3.84,3.96,4.13,4.34,4.90,4.92
++04/22/2026,3.68,3.71,3.70,3.69,3.69,3.72,3.69,3.79,3.81,3.91,4.10,4.30,4.87,4.90
++04/21/2026,3.67,3.72,3.71,3.69,3.70,3.73,3.69,3.78,3.80,3.91,4.09,4.30,4.87,4.89
++04/20/2026,3.69,3.70,3.72,3.71,3.70,3.72,3.65,3.72,3.73,3.86,4.04,4.26,4.85,4.88
++04/17/2026,3.69,3.70,3.73,3.70,3.69,3.69,3.64,3.71,3.72,3.84,4.04,4.26,4.85,4.88
++04/16/2026,3.69,3.70,3.73,3.70,3.70,3.71,3.69,3.78,3.80,3.91,4.10,4.32,4.90,4.93
++04/15/2026,3.72,3.72,3.74,3.71,3.71,3.72,3.70,3.76,3.79,3.90,4.08,4.29,4.87,4.89
++04/14/2026,3.71,3.72,3.72,3.71,3.70,3.73,3.71,3.76,3.76,3.87,4.06,4.26,4.84,4.87
++04/13/2026,3.69,3.71,3.71,3.71,3.70,3.74,3.70,3.78,3.79,3.92,4.10,4.30,4.88,4.90
++04/10/2026,3.67,3.69,3.70,3.69,3.69,3.72,3.70,3.81,3.80,3.94,4.12,4.31,4.89,4.91
++04/09/2026,3.66,3.67,3.69,3.68,3.68,3.71,3.68,3.78,3.77,3.91,4.10,4.29,4.88,4.90
++04/08/2026,3.67,3.69,3.71,3.69,3.69,3.73,3.69,3.79,3.78,3.92,4.10,4.29,4.87,4.89
++04/07/2026,3.68,3.70,3.72,3.71,3.71,3.73,3.68,3.81,3.82,3.95,4.13,4.33,4.90,4.90
++04/06/2026,3.72,3.72,3.74,3.72,3.72,3.74,3.72,3.84,3.88,3.98,4.16,4.34,4.89,4.89
++04/03/2026,3.71,3.73,3.73,3.71,3.71,3.73,3.72,3.84,3.88,3.99,4.17,4.35,4.91,4.91
++04/02/2026,3.72,3.72,3.73,3.70,3.71,3.72,3.68,3.79,3.82,3.94,4.12,4.31,4.88,4.88
++04/01/2026,3.74,3.72,3.71,3.70,3.70,3.72,3.68,3.81,3.84,3.97,4.15,4.33,4.91,4.91
++03/31/2026,3.74,3.73,3.72,3.70,3.70,3.72,3.68,3.79,3.81,3.92,4.11,4.30,4.88,4.88
++03/30/2026,3.74,3.72,3.71,3.71,3.71,3.73,3.71,3.82,3.85,3.97,4.16,4.35,4.92,4.91
++03/27/2026,3.74,3.73,3.72,3.73,3.72,3.75,3.77,3.88,3.94,4.06,4.25,4.44,4.99,4.98
++03/26/2026,3.74,3.73,3.73,3.73,3.73,3.77,3.83,3.96,4.00,4.08,4.25,4.42,4.96,4.93
++03/25/2026,3.73,3.72,3.72,3.73,3.72,3.76,3.77,3.84,3.88,3.96,4.15,4.33,4.90,4.89
++03/24/2026,3.74,3.72,3.72,3.74,3.73,3.78,3.81,3.90,3.93,4.03,4.21,4.39,4.95,4.94
++03/23/2026,3.73,3.71,3.72,3.74,3.72,3.77,3.76,3.83,3.85,3.95,4.15,4.34,4.93,4.91
++03/20/2026,3.73,3.71,3.72,3.74,3.73,3.79,3.80,3.88,3.90,4.01,4.20,4.39,4.97,4.96
++03/19/2026,3.73,3.71,3.72,3.73,3.71,3.76,3.73,3.79,3.79,3.88,4.06,4.25,4.82,4.83
++03/18/2026,3.73,3.72,3.72,3.73,3.71,3.74,3.68,3.76,3.76,3.87,4.05,4.26,4.84,4.88
++03/17/2026,3.74,3.72,3.72,3.72,3.69,3.71,3.63,3.68,3.68,3.79,3.98,4.20,4.81,4.85
++03/16/2026,3.75,3.73,3.72,3.72,3.69,3.72,3.64,3.68,3.69,3.80,4.00,4.23,4.83,4.86
++03/13/2026,3.75,3.74,3.71,3.72,3.69,3.70,3.66,3.73,3.74,3.87,4.07,4.28,4.89,4.90
++03/12/2026,3.76,3.74,3.72,3.72,3.69,3.70,3.66,3.76,3.75,3.88,4.06,4.27,4.86,4.88
++03/11/2026,3.75,3.73,3.70,3.71,3.69,3.68,3.60,3.64,3.64,3.79,3.98,4.21,4.82,4.86
++03/10/2026,3.75,3.74,3.71,3.71,3.69,3.68,3.56,3.57,3.58,3.73,3.93,4.15,4.74,4.78
++03/09/2026,3.75,3.73,3.72,3.71,3.68,3.68,3.56,3.56,3.58,3.71,3.90,4.12,4.70,4.72
++03/06/2026,3.75,3.74,3.72,3.69,3.67,3.66,3.55,3.56,3.59,3.72,3.93,4.15,4.74,4.77
++03/05/2026,3.75,3.74,3.72,3.70,3.68,3.68,3.59,3.57,3.59,3.72,3.92,4.13,4.71,4.74
++03/04/2026,3.75,3.75,3.75,3.71,3.68,3.68,3.58,3.54,3.55,3.67,3.87,4.09,4.67,4.72
++03/03/2026,3.75,3.75,3.74,3.71,3.67,3.68,3.55,3.51,3.50,3.63,3.83,4.06,4.65,4.70
++03/02/2026,3.74,3.74,3.74,3.72,3.68,3.68,3.54,3.47,3.49,3.62,3.82,4.05,4.64,4.70
++02/27/2026,3.74,3.73,3.73,3.67,3.67,3.60,3.48,3.38,3.39,3.51,3.72,3.97,4.57,4.64
++02/26/2026,3.74,3.74,3.75,3.68,3.68,3.61,3.52,3.42,3.46,3.57,3.78,4.02,4.60,4.67
++02/25/2026,3.71,3.74,3.73,3.69,3.68,3.62,3.53,3.45,3.49,3.61,3.82,4.05,4.63,4.70
++02/24/2026,3.72,3.75,3.73,3.69,3.70,3.62,3.52,3.43,3.47,3.61,3.81,4.04,4.63,4.70
++02/23/2026,3.72,3.74,3.74,3.69,3.70,3.62,3.50,3.43,3.45,3.59,3.79,4.03,4.63,4.70
++02/20/2026,3.72,3.73,3.74,3.69,3.71,3.61,3.51,3.48,3.50,3.65,3.85,4.08,4.66,4.72
++02/19/2026,3.72,3.74,3.75,3.69,3.70,3.60,3.50,3.47,3.50,3.65,3.85,4.08,4.64,4.70
++02/18/2026,3.71,3.74,3.73,3.70,3.70,3.60,3.49,3.47,3.50,3.66,3.86,4.09,4.65,4.71
++02/17/2026,3.72,3.75,3.73,3.69,3.70,3.59,3.48,3.43,3.47,3.63,3.82,4.05,4.63,4.68
++02/13/2026,3.72,3.71,3.73,3.68,3.70,3.59,3.42,3.40,3.43,3.61,3.81,4.04,4.64,4.69
++02/12/2026,3.72,3.71,3.74,3.70,3.70,3.58,3.45,3.47,3.49,3.67,3.87,4.09,4.68,4.72
++02/11/2026,3.71,3.71,3.73,3.70,3.70,3.60,3.47,3.52,3.55,3.75,3.96,4.18,4.76,4.82
++02/10/2026,3.72,3.72,3.74,3.69,3.69,3.58,3.40,3.45,3.50,3.70,3.92,4.16,4.73,4.78
++02/09/2026,3.72,3.72,3.73,3.69,3.70,3.59,3.43,3.48,3.56,3.75,3.97,4.22,4.79,4.85
++02/06/2026,3.72,3.72,3.74,3.68,3.70,3.59,3.45,3.50,3.57,3.76,3.98,4.22,4.80,4.85
++02/05/2026,3.72,3.71,3.74,3.67,3.68,3.58,3.44,3.47,3.55,3.74,3.97,4.21,4.79,4.85
++02/04/2026,3.72,3.72,3.74,3.69,3.70,3.62,3.49,3.57,3.64,3.83,4.05,4.29,4.86,4.91
++02/03/2026,3.72,3.72,3.74,3.69,3.70,3.62,3.49,3.57,3.64,3.83,4.04,4.28,4.85,4.90
++02/02/2026,3.72,3.72,3.74,3.69,3.70,3.62,3.49,3.57,3.64,3.83,4.05,4.29,4.85,4.90
++01/30/2026,3.72,3.73,3.75,3.67,3.69,3.61,3.48,3.52,3.60,3.79,4.01,4.26,4.82,4.87
++01/29/2026,3.72,3.73,3.75,3.67,3.69,3.62,3.50,3.53,3.63,3.80,4.01,4.24,4.80,4.85
++01/28/2026,3.76,3.72,3.71,3.68,3.70,3.63,3.52,3.56,3.66,3.83,4.05,4.26,4.81,4.85
++01/27/2026,3.77,3.72,3.70,3.67,3.66,3.61,3.50,3.53,3.65,3.81,4.03,4.24,4.79,4.83
++01/26/2026,3.77,3.71,3.70,3.67,3.67,3.62,3.52,3.56,3.66,3.82,4.02,4.22,4.75,4.80
++01/23/2026,3.78,3.71,3.72,3.70,3.67,3.61,3.53,3.60,3.67,3.84,4.03,4.24,4.78,4.82
++01/22/2026,3.79,3.71,3.72,3.71,3.67,3.61,3.53,3.61,3.68,3.85,4.05,4.26,4.79,4.84
++01/21/2026,3.75,3.71,3.70,3.70,3.67,3.62,3.53,3.60,3.66,3.83,4.04,4.26,4.82,4.87
++01/20/2026,3.75,3.71,3.69,3.70,3.65,3.61,3.53,3.60,3.68,3.86,4.08,4.30,4.87,4.91
++01/16/2026,3.75,3.72,3.68,3.67,3.66,3.60,3.55,3.59,3.67,3.82,4.02,4.24,4.79,4.83
++01/15/2026,3.75,3.73,3.69,3.68,3.66,3.60,3.54,3.56,3.62,3.77,3.96,4.17,4.74,4.79
++01/14/2026,3.72,3.71,3.66,3.67,3.65,3.58,3.50,3.51,3.56,3.72,3.92,4.15,4.73,4.79
++01/13/2026,3.72,3.72,3.66,3.67,3.63,3.59,3.51,3.53,3.57,3.75,3.95,4.18,4.77,4.83
++01/12/2026,3.71,3.68,3.64,3.67,3.63,3.58,3.53,3.54,3.59,3.77,3.97,4.19,4.78,4.83
++01/09/2026,3.70,3.68,3.63,3.62,3.62,3.57,3.52,3.54,3.59,3.75,3.95,4.18,4.76,4.82
++01/08/2026,3.70,3.69,3.63,3.62,3.60,3.56,3.48,3.49,3.56,3.74,3.95,4.19,4.79,4.85
++01/07/2026,3.70,3.69,3.60,3.62,3.60,3.56,3.48,3.47,3.53,3.70,3.91,4.15,4.76,4.82
++01/06/2026,3.70,3.70,3.61,3.63,3.58,3.56,3.48,3.47,3.54,3.72,3.93,4.18,4.80,4.86
++01/05/2026,3.71,3.68,3.64,3.64,3.61,3.57,3.47,3.46,3.53,3.71,3.92,4.17,4.79,4.85
++01/02/2026,3.72,3.71,3.66,3.65,3.62,3.58,3.47,3.47,3.55,3.74,3.95,4.19,4.81,4.86
+\ No newline at end of file
+diff --git a/keel/episodes/2026-10-26_ep05.md b/keel/episodes/2026-10-26_ep05.md
+index 0232024..78027a5 100644
+--- a/keel/episodes/2026-10-26_ep05.md
++++ b/keel/episodes/2026-10-26_ep05.md
+@@ -40,7 +40,8 @@ Friday's close.
+ 
+ **Kai:** In 2033 money. When does it actually hit?
+ 
+-**Jun:** 2038 to 2042. The late payments. That's where the coupons pile up.
++**Jun:** Mostly 2038 to 2042. The late payments. That's where the coupons pile up. Almost all of it after the
++2033 split.
+ 
+ **Kai:** So "then the sail" is a joke. In 2033 we cut the sail in half and give half to a building. You can't send a
+ 2040 bill to a boat we've already sunk.
+@@ -48,7 +49,7 @@ Friday's close.
+ **Amara:** Then who?
+ 
+ **Jun:** Laura's kept half covers the two-point case in 91 paths out of 100. The whole sail, before it's split, covers
+-it in every path. The floor never has to.
++it in all but about one path in two thousand. The floor almost never has to.
+ 
+ **Amara:** Her kept half is the money line 102 is about: "committing all remaining assets could limit her financial
+ flexibility as the project develops." It's for overruns. In the year yields fall for good, the building might be over
+@@ -58,7 +59,7 @@ budget too.
+ other $4.4k comes off the gift, which still lands above the floor.
+ 
+ **Kai:** Here's my motion. On 1 January 2033, before a dollar goes to the building, we reprice the reserve on that
+-day's prices and top it up from the sail. Whatever is already locked in by then gets paid while the sail still exists.
++day's prices and top it up from the sail. Whatever is already known by then gets paid while the sail still exists.
+ Her half only backs what's left after.
+ 
+ **Felix:** That matches line 94. Reserve first.
+@@ -95,7 +96,7 @@ in one sentence a co-sponsor would believe?
+ |---|---|---|
+ | Payer order for a coupon shortfall (to vote Wed 28 Oct): reprice the reserve on 1 Jan 2033 before any facility money and top it up from the sail; after 2033, Laura's kept half; never the announced floor | Kai, Amara | Wed 28 Oct |
+ | Cut "the facility fund absorbs it" from Principle 1; replace with the payer rule (about 20 words) | Tess, Amara | IPS v3 |
+-| Choose the coupon rule: each coupon into its own bond (shortfall $16.4k at -2pt, MODEL) or into the next payment (about $4.8k, iBond income not yet priced) | Jun | Wed 28 Oct |
++| Choose the coupon rule: each coupon into its own bond ($13.5k at -2pt, cash when due, Treasuries only, MODEL) or into the next payment ($4.8k on the same basis; iBond income not yet priced) | Jun | Wed 28 Oct |
+ 
+ ## Open threads
+ - The $0-deposit case: if the 2028 money never arrives, nobody can pay a $19.8k shortfall (MODEL). Write it down as the
+@@ -107,14 +108,14 @@ in one sentence a co-sponsor would believe?
+ 
+ ## What Caplet can take from today
+ 1. **Your "~$21k" coupon-shortfall figure holds up.** Keel re-ran it on the 23 Oct close and got $21.0k (cash when
+-   due): Treasuries $12.9k, iBond income $6.3k, bills between maturity and payment $2.0k
++   due): Treasuries $12.9k, iBond income $6.2k, bills between maturity and payment $2.0k
+    (`keel/library/ips_numbers_2026-10/ips_numbers.py`, MODEL). It is a 2-point-fall-for-good case.
+ 2. **Your IPS names a payer for a shortfall "expected in 2033", but the shortfall mostly arrives later.** IPS Version 5
+    says income is "reinvested in the holding that paid it" (`caplet/google_drive/ips_report/01_version_5.md:26`). On
+-   that design the gap shows up in 2038-42, after the 2033 split. Check that the IPS says who covers a shortfall that
++   that design the gap shows up mostly in 2038-42, almost all of it after the 2033 split. Check that the IPS says who covers a shortfall that
+    appears after 2033.
+-3. **Name the payer as a rule now.** The IPS must set "managing the operating reserve's asset composition over time"
+-   (`2026_WGY_Investment_Policy-FINAL.txt:48-49`) and can't be revised after the deadline (`:73-74`). The number waits
++3. **Name the payer as a rule now.** The IPS should "establish your strategic approach to ... managing the operating
++   reserve's asset composition over time" (`2026_WGY_Investment_Policy-FINAL.txt:48-49`) and can't be revised after the deadline (`:73-74`). The number waits
+    for the Final Report (`:68-70`).
+ 4. **Reserve first, gift second.** The case orders it: the reserve is set aside "before ... contributing to the
+    facility" (`Laura_Gao_2026_Client_Profile.txt:94-95`). A 2033 repricing before the gift is the cleanest reading.
+@@ -131,6 +132,10 @@ in one sentence a co-sponsor would believe?
+   2032-36, assumed): each coupon reinvested to its own bond's maturity; -2pt for good from 2 Jan 2027: T-bonds $13.5k when
+   due ($10.5k in 2033 $); with iBond income $19.8k ($16.4k). Next-payment design: $4.8k ($4.6k), iBond income not
+   modelled. Laura's kept half (25% sail, `keel/scripts/sail_mc.py`, J.P. Morgan 2026 LTCMA AC World 7.00% / 16.78%,
+-  200,000 paths) covers $16.4k in 91.1% of paths; the whole sail in 100%. Joint case: half $12.0k; $4.4k from the gift.
+-- Caplet's figure reproduced with its own method (`keel/library/ips_numbers_2026-10/ips_numbers.py`): $21,027 on 23 Oct.
++  200,000 paths) covers $16.4k in 91.1% of paths; the whole sail in 99.95%. Joint case: half $12.0k; $4.4k from the gift.
++- Caplet's figure reproduced with its own method (`keel/library/ips_numbers_2026-10/ips_numbers.py`): $21,027 on 23 Oct
++  ($12.9k / $6.2k / $2.0k).
++- Scripts: `keel/scripts/coupon_shortfall.py`, `keel/scripts/coupon_payers.py`, `keel/scripts/caplet_shortfall_replica.py`.
++  Curve copy: `competition/official_market_data/daily-treasury-rates_2026-10-23.csv`. Run from `keel/scripts/` with the
++  curve and `keel/library/ips_numbers_2026-10/fred_GS10_monthly.csv` as arguments.
+ - Caplet IPS Version 5 export (14 Oct) `caplet/google_drive/ips_report/01_version_5.md:26`.
+diff --git a/keel/members/jun.md b/keel/members/jun.md
+index 5e5af2f..3296ef6 100644
+--- a/keel/members/jun.md
++++ b/keel/members/jun.md
+@@ -188,9 +188,10 @@ Open: who absorbs a coupon-reinvestment shortfall (by Wed 28 Oct).
+ | Next-payment design (IPS v2 sentence read literally), -2pt | about $4.8k, mostly 2034; ladder cost $300,404; no iBond for 2033 | iBond income not yet modelled |
+ | Rate paths | random walk 90bp/yr (assumed): p95 $14.4k; history replay (GS10 1953-2026): p95 $16.0k, worst $26.8k | Treasuries only |
+ | Laura's kept half covers the -2pt shortfall | 91.1% of paths ($150k deposit); 24.9% at a $75k deposit; 0% at $0 | 25% sail, `sail_mc.py` method |
+-| Whole sail covers it | 100% of paths ($150k deposit) | Same |
++| Whole sail covers it | 99.95% of paths ($150k deposit; lowest sail $11.8k) | Same |
+ | Joint bad case (-2pt, stocks -40% then +7%) | kept half $12.0k; $4.4k from the gift; floor untouched | Deterministic |
+ | Floor cut needed if the floor paid in advance | $10.5k-$16.4k (floor $141.8k to $131k-$125k) | 5y 4.82% |
+-| Caplet's "~$21k" with Caplet's own method | $21,027 on 23 Oct = Treasuries $12.9k + iBonds $6.3k + bills $2.0k (cash when due) | `library/ips_numbers_2026-10/ips_numbers.py` |
++| Caplet's "~$21k" with Caplet's own method | $21,027 on 23 Oct = Treasuries $12.9k + iBonds $6.2k + bills $2.0k (cash when due) | `library/ips_numbers_2026-10/ips_numbers.py` |
+ 
++Scripts: `keel/scripts/coupon_shortfall.py`, `keel/scripts/coupon_payers.py`, `keel/scripts/caplet_shortfall_replica.py`.
+ Open by Wed 28 Oct: price the next-payment design with iBond income, then choose the coupon rule.
+diff --git a/keel/members/kai.md b/keel/members/kai.md
+index 97ee8bc..a881a14 100644
+--- a/keel/members/kai.md
++++ b/keel/members/kai.md
+@@ -156,4 +156,4 @@ a floor about $50k higher, p5 about $19k higher, a bigger building contribution
+ Motion for Wed 28 Oct: on 1 Jan 2033, before any facility money, reprice the reserve on that day's prices and top it
+ up from the sail; Laura's kept half backs only what is left after 2033; never the announced floor.
+ Lost a point: I said our coupon sentence makes its own risk. Jun's model says the literal sentence gives a smaller
+-shortfall (about $4.8k vs $16.4k, MODEL), though on a different ladder and without the iBond income. Waiting for his re-run.
++shortfall (about $4.8k vs $13.5k, cash when due, Treasuries only, MODEL), though on a different ladder and without the iBond income. Waiting for his re-run.
+diff --git a/keel/scripts/caplet_shortfall_replica.py b/keel/scripts/caplet_shortfall_replica.py
+new file mode 100644
+index 0000000..e67ecc4
+--- /dev/null
++++ b/keel/scripts/caplet_shortfall_replica.py
+@@ -0,0 +1,35 @@
++"""MODEL. Replica of the deterministic stress in keel/library/ips_numbers_2026-10/ips_numbers.py (lines 161-176),
++split into parts, on the 15 Oct and 23 Oct curves. Usage: python3 -I caplet_replica.py CSV_OCT15 CSV_OCT23"""
++import csv, sys, datetime as dt
++import numpy as np
++T27 = dt.date(2027, 1, 1); YMIN = .25; PAY = 50000.0
++RUNGS = {2033: (dt.date(2032,12,15), None), 2034: (dt.date(2033,12,15), None), 2035: (dt.date(2034,12,15), None),
++         2036: (dt.date(2035,12,15), None), 2037: (dt.date(2036,12,15), None), 2038: (dt.date(2037,2,15), 4.75),
++         2039: (dt.date(2038,5,15), 4.50), 2040: (dt.date(2039,11,15), 4.375), 2041: (dt.date(2040,11,15), 4.25),
++         2042: (dt.date(2041,11,15), 3.125)}
++yrs = lambda a, b: (b - a).days / 365.25
++def load(path, day):
++    r = [x for x in csv.DictReader(open(path)) if x["Date"] == day][0]
++    pts = {1/12: "1 Mo", .25: "3 Mo", .5: "6 Mo", 1: "1 Yr", 2: "2 Yr", 3: "3 Yr", 5: "5 Yr", 7: "7 Yr", 10: "10 Yr", 20: "20 Yr", 30: "30 Yr"}
++    xs = np.array(list(pts)); ys = np.array([float(r[k]) for k in pts.values()])
++    return lambda t: float(np.interp(t, xs, ys))
++def stress(curve, today, dy, ib=True, tb=True, gap=True):
++    TOFF = yrs(today, T27); tot = 0.0
++    for py, (mat, cpn) in RUNGS.items():
++        T = yrs(T27, mat); y0 = curve(T + TOFF)
++        isib = cpn is None
++        if (isib and not ib) or (not isib and not tb): tot += PAY; continue
++        cc = (y0 if isib else cpn) / 100
++        k = np.arange(1, int(np.floor(T * 2 + 1e-9)) + 1) / 2
++        yk = max(y0 + dy, YMIN) / 100
++        d = 1 + cc / 2 * ((1 + yk / 2) ** (2 * (T - k))).sum()
++        db = 1 + cc / 2 * ((1 + y0 / 200) ** (2 * (T - k))).sum()
++        gy = yrs(mat, dt.date(py, 1, 1))
++        g = (1 + max(curve(.25) + (dy if gap else 0), YMIN) / 100) ** gy; gb = (1 + curve(.25) / 100) ** gy
++        tot += PAY / (db * gb) * d * g
++    return 500000 - tot
++for path, day, today in ((sys.argv[1], "10/15/2026", dt.date(2026,10,15)), (sys.argv[2], "10/23/2026", dt.date(2026,10,23))):
++    c = load(path, day)
++    for dy in (-1, -2, -3):
++        print(f"{day} {dy:+d}pp: total ${stress(c,today,dy):,.0f} | iBonds only ${stress(c,today,dy,tb=False,gap=False):,.0f}"
++              f" | T-bonds only ${stress(c,today,dy,ib=False,gap=False):,.0f} | gap-bill part ${stress(c,today,dy)-stress(c,today,dy,gap=False):,.0f}")
+diff --git a/keel/scripts/coupon_payers.py b/keel/scripts/coupon_payers.py
+new file mode 100644
+index 0000000..f123c2b
+--- /dev/null
++++ b/keel/scripts/coupon_payers.py
+@@ -0,0 +1,67 @@
++"""MODEL. Who pays a coupon shortfall? Floor / sail / Laura's kept half, 25% sail rule (keel/scripts/sail_mc.py method).
++2028 money = $150,000 - holdings gap $992 x (1 + 1y 4.44%) = $148,964 (23 Oct close, Jun's 25 Oct sheet).
++Floor = 75% in a Treasury maturing near 1 Jan 2033 at the 5y par (4.82%, or 2.82% if yields fell 2pp), coupons
++reinvested at the same yield; sail = 25% in AC World stocks, lognormal 7.00% compound / 16.78% vol (JPM 2026 LTCMA),
++N=200,000, seed 2033, buy and hold 2028-32. Laura's kept half = half the sail on 1 Jan 2033 (cap ignored: conservative).
++Usage: python3 -I q3_payers.py TSY_CSV GS10_CSV"""
++import sys, io, contextlib, runpy
++from datetime import date
++import numpy as np
++buf = io.StringIO()
++with contextlib.redirect_stdout(buf):
++    g = runpy.run_path(sys.argv[0].replace("coupon_payers.py", "coupon_shortfall.py"), run_name="lib")
++pv27, lnf, yf, grow, J27, J33, IB, PAYD = (g[k] for k in ("pv27", "lnf", "yf", "grow", "J27", "J33", "IB", "PAYD"))
++deliverA, pv33, PAYY = g["deliverA"], g["pv33"], g["PAYY"]
++
++# iBond rungs as par bonds (coupon = forward par yield from 1 Jan 2027), coupons reinvested to maturity: add-on
++def cd(mat):
++    out, y, m = [], mat.year, mat.month
++    while True:
++        d = date(y, m, 15)
++        if d <= date(2027, 1, 1): break
++        out.append(d); m -= 6
++        if m <= 0: m += 12; y -= 1
++    return sorted(out)
++def ib_short(X):
++    sf = {}
++    for Y, mat in IB.items():
++        ds = cd(mat); tm = yf(mat)
++        c = (1 - pv27(tm)) / sum(pv27(yf(d)) for d in ds)          # forward par coupon per half-year
++        v0 = 1 + c * sum(grow(yf(d), tm) for d in ds); v1 = 1 + c * sum(grow(yf(d), tm, X) for d in ds)
++        sf[Y] = 50000 * (1 - v1 / v0)
++    return sf
++print("iBond-as-par-bond add-on (design A):")
++SA = {}
++for X in (-1, -2, -3):
++    sfT = {Y: 50000 - v for Y, v in deliverA(lambda t, X=X: X).items()}
++    sfI = ib_short(X)
++    tot = {Y: sfT[Y] + sfI.get(Y, 0) for Y in PAYY}
++    SA[X] = (pv33(sfT, X), pv33(tot, X))
++    print(f"  {X:+d}pp: iBonds " + " ".join(f"{Y%100}:{sfI[Y]:,.0f}" for Y in IB) +
++          f" | iBond nominal ${sum(sfI.values()):,.0f} | A+iBond nominal ${sum(tot.values()):,.0f}, 2033$ ${SA[X][1]:,.0f}")
++
++def bond_growth(y, n=10):
++    return 1 + y / 2 * sum((1 + y / 2) ** k for k in range(n))
++N, SEED = 200_000, 2033
++sig = np.sqrt(np.log(1 + (0.1678 / 1.0828) ** 2)); mu = np.log(1.07)
++eq = np.exp(np.random.default_rng(SEED).normal(mu, sig, (N, 5)).sum(1))
++Y1, Y5 = .0444, .0482; GAP = 992
++print("\nPayers (2pp lower for good; shortfall in 2033 $: T-bonds only / T-bonds + iBond income):",
++      f"${SA[-2][0]:,.0f} / ${SA[-2][1]:,.0f}")
++for dep in (150_000, 75_000, 0):
++    m = dep - GAP * (1 + Y1)
++    for y5, lab in ((Y5, "5y 4.82%"), (Y5 - .02, "5y 2.82% (rates already down)")):
++        floor = max(m, 0) * .75 * bond_growth(y5); half = max(m, 0) * .125 * eq; sail = 2 * half
++        row = f"  deposit ${dep:,} {lab}: floor ${floor:,.0f}; sail p5/p50/p95 ${np.percentile(sail,5):,.0f}/${np.percentile(sail,50):,.0f}/${np.percentile(sail,95):,.0f}"
++        for k, S in (("T", SA[-2][0]), ("T+iB", SA[-2][1])):
++            row += f" | {k}: P(half>=S) {np.mean(half >= S):.1%}, P(sail>=S) {np.mean(sail >= S):.1%}"
++        print(row)
++# joint bad case: yields -2pp for good + stocks -40% 2028-31 then +7% in 2032
++m = 150000 - GAP * (1 + Y1); half_bad = m * .125 * .60 * 1.07
++print(f"\nJoint bad case (yields -2pp, stocks -40% then +7%): half ${half_bad:,.0f}, sail ${2*half_bad:,.0f}, "
++      f"floor ${m*.75*bond_growth(Y5-.02):,.0f}; shortfall ${SA[-2][0]:,.0f}/${SA[-2][1]:,.0f}; uncovered by half "
++      f"${max(SA[-2][0]-half_bad,0):,.0f}/${max(SA[-2][1]-half_bad,0):,.0f}")
++for X in (-1, -2, -3):
++    for k, S in (("T", SA[X][0]), ("T+iB", SA[X][1])):
++        print(f"  floor cut in advance for {X:+d}pp ({k}): ${S:,.0f} in 2033 $ = ${S/bond_growth(Y5):,.0f} of 2028 money at 4.82% "
++              f"(${S/bond_growth(Y5+X/100):,.0f} if bought after the fall); floor ${m*.75*bond_growth(Y5):,.0f} -> ${m*.75*bond_growth(Y5)-S:,.0f}")
+diff --git a/keel/scripts/coupon_shortfall.py b/keel/scripts/coupon_shortfall.py
+new file mode 100644
+index 0000000..afed347
+--- /dev/null
++++ b/keel/scripts/coupon_shortfall.py
+@@ -0,0 +1,157 @@
++"""FICTION (Team Keel), MODEL. Coupon-reinvestment shortfall of Keel's ladder bought 1 Jan 2027.
++Curve: treasury.gov par CSV row 10/23/2026 (fetched 24 Oct 19:39 UTC), method A of keel/scripts/ladder_pv.py
++(par yields semiannual, bootstrapped on 0.5y grid, log-linear discount factors). Forward rates from 1 Jan 2027.
++Rungs: iBond ETFs 2033-37 = zero-coupon-like, $ at 15 Dec 2032-36 (ASSUMED date, UNVERIFIED);
++T-bonds 4.750% 15 Feb 2037 (->2038), 4.500% 15 May 2038 (->2039), 4.375% 15 Nov 2039/4.250% 2040/3.125% 2041 (->2040-42).
++Design A (own rung): each T-bond's coupons are reinvested to its own maturity at forward rates, face sized so that
++  face + reinvested coupons = $50,000; principal waits as cash to 1 Jan (holdings basis convention).
++Design B (IPS v2 literal, "Treasuries maturing before the next payment"): every coupon funds the NEXT payment date;
++  rungs sized backward (2042 first) so each year's cash = $50,000; iBond faces shrink by the T-bond coupons they receive.
++Shocks: reinvestment forward rates lower by X pp (continuous-comp approx), floored at 0, from 2 Jan 2027.
++Usage: python3 -I coupon_shortfall.py /path/to/tsy_2026.csv /path/to/fred_GS10_monthly.csv"""
++import csv, sys
++from datetime import date
++import numpy as np
++
++COLS = {"1 Mo": 1/12, "2 Mo": 2/12, "3 Mo": .25, "6 Mo": .5, "1 Yr": 1, "2 Yr": 2, "3 Yr": 3,
++        "5 Yr": 5, "7 Yr": 7, "10 Yr": 10, "20 Yr": 20, "30 Yr": 30}
++rows = {r["Date"]: r for r in csv.DictReader(open(sys.argv[1]))}
++DAY = sys.argv[3] if len(sys.argv) > 3 else "10/23/2026"
++m_, d_, y_ = map(int, DAY.split("/")); VAL = date(y_, m_, d_)
++par = {COLS[k]: float(rows[DAY][k]) for k in COLS}
++grid = np.arange(0.5, 30.01, 0.5)
++ts = sorted(par); p = np.interp(grid, ts, [par[t] / 100 for t in ts]); df = []
++for yv in p:
++    c = yv / 2; df.append((1 - c * sum(df)) / (1 + c))
++G, LZ = np.r_[0, grid], np.log(np.r_[1, df])
++lnf = lambda t: np.interp(t, G, LZ)                    # ln discount factor from VAL
++yf = lambda d: (d - VAL).days / 365.25
++J27, J33 = yf(date(2027, 1, 1)), yf(date(2033, 1, 1))
++
++def grow(t1, t2, shift=0.0):
++    """Growth of $1 reinvested at t1 to t2 at the forward rate + shift (pp), cc, floored at 0."""
++    if t2 <= t1: return 1.0
++    r = (lnf(t1) - lnf(t2)) / (t2 - t1)
++    return float(np.exp(max(r + shift / 100, 0.0) * (t2 - t1)))
++
++def cdates(mat):
++    out, y, m = [], mat.year, mat.month
++    while True:
++        d = date(y, m, 15)
++        if d <= date(2027, 1, 1): break
++        out.append(d); m -= 6
++        if m <= 0: m += 12; y -= 1
++    return sorted(out)
++
++PAYY = list(range(2033, 2043)); PAYD = {Y: date(Y, 1, 1) for Y in PAYY}
++TB = {2038: (date(2037, 2, 15), 4.75), 2039: (date(2038, 5, 15), 4.50), 2040: (date(2039, 11, 15), 4.375),
++      2041: (date(2040, 11, 15), 4.25), 2042: (date(2041, 11, 15), 3.125)}
++IB = {Y: date(Y - 1, 12, 15) for Y in range(2033, 2038)}
++pv27 = lambda t: float(np.exp(lnf(t) - lnf(J27)))       # price at 1 Jan 2027 of $1 at t
++
++def nextpay(d):
++    for Y in PAYY:
++        if d <= PAYD[Y]: return Y
++
++# ---------- Design A ----------
++def A_value(Y, F, shiftfn):
++    mat, cpn = TB[Y]; tm = yf(mat)
++    return F * (1 + cpn / 200 * sum(grow(yf(d), tm, shiftfn(yf(d))) for d in cdates(mat)))
++FA = {Y: 50000 / A_value(Y, 1.0, lambda t: 0) for Y in TB}
++FA.update({Y: 50000.0 for Y in IB})
++def costA():
++    c = sum(FA[Y] * pv27(yf(IB[Y])) for Y in IB)
++    for Y, (mat, cpn) in TB.items():
++        c += FA[Y] * (pv27(yf(mat)) + cpn / 200 * sum(pv27(yf(d)) for d in cdates(mat)))
++    return c
++def deliverA(shiftfn):
++    return {Y: (50000.0 if Y in IB else A_value(Y, FA[Y], shiftfn)) for Y in PAYY}
++
++# ---------- Design B ----------
++def B_cash(F, shiftfn):
++    """cash at each payment date from T-bond faces F (dict), coupons rolled to the next payment date."""
++    cash = {Y: 0.0 for Y in PAYY}
++    for Yb, (mat, cpn) in TB.items():
++        if Yb not in F: continue
++        for d in cdates(mat):
++            Y = nextpay(d); cash[Y] += F[Yb] * cpn / 200 * grow(yf(d), yf(PAYD[Y]), shiftfn(yf(d)))
++        cash[Yb] += F[Yb]   # principal (idle to 1 Jan)
++    return cash
++FB = {}
++for Yb in sorted(TB, reverse=True):          # solve backward: later bonds' coupons land in earlier windows
++    FB[Yb] = 0.0
++    lo, hi = 0.0, 60000.0
++    for _ in range(60):
++        FB[Yb] = (lo + hi) / 2
++        (lo, hi) = (FB[Yb], hi) if B_cash(FB, lambda t: 0)[Yb] < 50000 else (lo, FB[Yb])
++base_cashB = B_cash(FB, lambda t: 0)
++def B_roll(cash, ib, shiftfn):
++    """add iBond $ and roll any surplus over $50k forward to the next payment date (reinvested)."""
++    out, carry = {}, 0.0
++    for i, Y in enumerate(PAYY):
++        avail = cash[Y] + ib.get(Y, 0) + carry
++        out[Y] = min(avail, 50000.0)
++        if i + 1 < len(PAYY):
++            t = yf(PAYD[Y]); carry = max(avail - 50000, 0) * grow(t, yf(PAYD[PAYY[i + 1]]), shiftfn(t))
++    return out
++IBB, carry = {}, 0.0                      # size iBonds on base forwards: buy only what the coupons + carry miss
++for i, Y in enumerate(PAYY[:5]):
++    avail = base_cashB[Y] + carry
++    IBB[Y] = max(50000 - avail, 0.0)
++    t = yf(PAYD[Y]); carry = max(avail + IBB[Y] - 50000, 0) * grow(t, yf(PAYD[PAYY[i + 1]]))
++def costB():
++    c = sum(IBB[Y] * pv27(yf(IB[Y])) for Y in IB)
++    for Y, (mat, cpn) in TB.items():
++        c += FB[Y] * (pv27(yf(mat)) + cpn / 200 * sum(pv27(yf(d)) for d in cdates(mat)))
++    return c
++def deliverB(shiftfn):
++    d = B_roll(B_cash(FB, shiftfn), IBB, shiftfn)
++    return {Y: d[Y] for Y in PAYY}
++# note: deliverB caps each year at $50k, so a surplus never hides a later shortfall; shortfall reported >= 0 per year
++def pv33(sf, X):   # shortfall in 2033 dollars, discounted at the shifted forward curve (cost to cover in 2033)
++    return sum(v / grow(J33, yf(PAYD[Y]), X) for Y, v in sf.items())
++
++if __name__ == "__main__":
++    hold = sum(50000 * pv27(yf(IB[Y])) for Y in IB) + sum(50000 * pv27(yf(TB[Y][0])) for Y in TB)
++    print(f"Curve {DAY}: 1y {par[1]} 5y {par[5]} 10y {par[10]} 20y {par[20]} 30y {par[30]}")
++    print(f"Cost A ${costA():,.0f} | cost B ${costB():,.0f} | check: holdings-basis zero ladder ${hold:,.0f}")
++    print("Faces A (T-bonds):", {Y: round(FA[Y]) for Y in TB})
++    print("Faces B (T-bonds):", {Y: round(FB[Y]) for Y in TB}, " iBond $ B:", {Y: round(IBB[Y]) for Y in IB})
++    totcpn = sum(FA[Y] * TB[Y][1] / 200 * len(cdates(TB[Y][0])) for Y in TB)
++    pre33 = sum(FA[Y] * TB[Y][1] / 200 * sum(1 for d in cdates(TB[Y][0]) if d < date(2033, 1, 1)) for Y in TB)
++    print(f"A: total T-bond coupons ${totcpn:,.0f} (before 2033 ${pre33:,.0f})")
++    for name, dfn in (("A own-rung", deliverA), ("B next-payment", deliverB)):
++        print(f"\n{name}: shortfall by payment year (nominal $), reinvestment X pp lower for good")
++        for X in (-1, -2, -3):
++            d = dfn(lambda t, X=X: X); sf = {Y: 50000 - d[Y] for Y in PAYY}
++            print(f"  {X:+d}pp: " + " ".join(f"{Y % 100}:{sf[Y]:,.0f}" for Y in PAYY if abs(sf[Y]) > .5) +
++                  f" | total nominal ${sum(sf.values()):,.0f} | 2033$ ${pv33(sf, X):,.0f}")
++    # path 1: yields drift down 2pp evenly over 2027-2030 then stay
++    ramp = lambda t: -2 * min(max((t - J27) / 4, 0), 1)
++    for name, dfn in (("A", deliverA), ("B", deliverB)):
++        d = dfn(ramp); sf = {Y: 50000 - d[Y] for Y in PAYY}
++        print(f"Path ramp -2pp over 4y, {name}: total ${sum(sf.values()):,.0f}, 2033$ ${pv33(sf, -2):,.0f}")
++    # Monte Carlo: random-walk parallel shift, 90bp/yr (Jun's assumption, UNVERIFIED), monthly from 1 Jan 2027
++    rng = np.random.default_rng(2033); N = 4000
++    steps = np.arange(0, 16.01, 1 / 12)
++    for name, dfn in (("A", deliverA), ("B", deliverB)):
++        tot = []
++        for i in range(N):
++            w = np.r_[0, rng.normal(0, .9 * np.sqrt(1 / 12), len(steps) - 1).cumsum()]
++            fn = lambda t, w=w: float(np.interp(t - J27, steps, w))
++            d = dfn(fn); tot.append(sum(50000 - d[Y] for Y in PAYY))
++        tot = np.array(tot)
++        print(f"MC {name} (90bp/yr, N={N}): total shortfall p5 ${np.percentile(tot,5):,.0f} p50 ${np.percentile(tot,50):,.0f} "
++              f"p95 ${np.percentile(tot,95):,.0f} p99 ${np.percentile(tot,99):,.0f}; P(>$1k) {np.mean(tot>1000):.0%}")
++    # historical replay: GS10 monthly changes 1953-2026 as a parallel shift (16-year windows)
++    h = [(r["observation_date"], float(r["GS10"])) for r in csv.DictReader(open(sys.argv[2]))]
++    for name, dfn in (("A", deliverA), ("B", deliverB)):
++        res = []
++        for s in range(0, len(h) - 15 * 12):
++            seg = np.array([v for _, v in h[s:s + 16 * 12 + 1]]) - h[s][1]
++            st = np.arange(len(seg)) / 12
++            d = dfn(lambda t, seg=seg, st=st: float(np.interp(t - J27, st, seg)))
++            res.append((sum(50000 - d[Y] for Y in PAYY), h[s][0]))
++        v = np.array([r[0] for r in res]); w = max(res)
++        print(f"History {name}: {len(res)} starts, p95 ${np.percentile(v,95):,.0f}, worst ${w[0]:,.0f} (start {w[1]}), "
++              f"P(>$1k) {np.mean(v>1000):.0%}")
+-- 
+2.43.0
+

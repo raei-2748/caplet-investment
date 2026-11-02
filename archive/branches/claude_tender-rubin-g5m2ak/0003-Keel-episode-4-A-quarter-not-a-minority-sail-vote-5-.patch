@@ -1,0 +1,315 @@
+From 763a60a673f8c0130eec882b7df487f49c07a8a2 Mon Sep 17 00:00:00 2001
+From: Claude <noreply@anthropic.com>
+Date: Sat, 24 Oct 2026 19:46:44 +0000
+Subject: [PATCH 3/6] Keel episode 4: A quarter, not a minority (sail vote 5-1;
+ IPS v2)
+
+- keel/episodes/2026-10-25_ep04.md: on the 23 Oct close the ladder is $300,992 on the
+  holdings basis (gap $992, MODEL); a quarter in stocks gives a floor of about $141.8k,
+  not $150k. Keel votes 5-1 for a quarter of the 2028 money left after the ladder.
+- keel/drafts/IPS_v2.txt: certainty names the 2028 deposit; 'a quarter' for 'a minority';
+  overclaims cut; body 477 strict, pitch 50.
+- Working notes for Jun, Kai, Tess, Nora; tea room updated. Fact-check pending.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01EXBkXPwAChDhLub9Cc8j2D
+---
+ keel/drafts/IPS_v2.txt           |  19 +++++
+ keel/episodes/2026-10-25_ep04.md | 120 +++++++++++++++++++++++++++++++
+ keel/members/jun.md              |  14 ++++
+ keel/members/kai.md              |  11 +++
+ keel/members/nora.md             |   7 ++
+ keel/members/tess.md             |  13 ++++
+ keel/tea_room.md                 |  24 ++++---
+ 7 files changed, 199 insertions(+), 9 deletions(-)
+ create mode 100644 keel/drafts/IPS_v2.txt
+ create mode 100644 keel/episodes/2026-10-25_ep04.md
+
+diff --git a/keel/drafts/IPS_v2.txt b/keel/drafts/IPS_v2.txt
+new file mode 100644
+index 0000000..8b176b8
+--- /dev/null
++++ b/keel/drafts/IPS_v2.txt
+@@ -0,0 +1,19 @@
++FICTION (Team Keel). IPS v2, 25 Oct 2026: v1 with Tess's cuts and the Sunday vote (sail = one quarter). Plain text for the SMApply form.
++
++Investment Strategy Elevator Pitch
++
++We buy Laura's promise first. Her 2027 money buys U.S. Treasury bonds that repay each $50,000 payment as it falls due, 2033 to 2042. Her 2028 money builds the facility fund: a bond floor plus a measured stock sail, so co-sponsors hear only a range she can stand behind.
++
++Investment Policy Statement
++
++Goal. Laura has two commitments. The ten $50,000 operating payments are a promise she must keep with a high degree of certainty. The facility contribution is a hope she wants to share credibly with co-sponsors. Our strategy keeps them in separate parts of the portfolio, so a bad market year touches the hope, not the promise.
++
++Principle 1: the promise comes first. In January 2027 the first $300,000 buys U.S. Treasury bonds, available on WInS, maturing just before each payment date from 2033 to 2042. We buy the latest payments first. Coupons received before 2033 are reinvested in Treasuries maturing before the next payment. We define a high degree of certainty as: every payment is paid in full from Treasury bonds Laura owns unless the U.S. government defaults. If the bonds cost more than $300,000, the shortfall falls on the 2033 payment alone, and the first dollars of the 2028 deposit complete it. The one remaining risk is that coupons are reinvested at lower rates; the Final Report will measure it and show how the facility fund absorbs it.
++
++Principle 2: the facility fund has a floor and a sail. After completing the ladder, three quarters of the January 2028 deposit buys a Treasury bond maturing just before 2033 (the floor) and one quarter buys a broad, low-cost world stock fund (the sail). Laura has been willing to take thoughtful risks, and this money is not needed for any payment, so it can carry stock risk for five years. The sail is kept to a quarter, because in 2031 Laura will be asking strangers to trust her, and a crash should cost her upside, not her word. The sail is never sold to cover a payment, and the mix is not changed for market moves before 2033.
++
++Principle 3: we only promise what she owns. In 2031 the bottom of the range is the floor, money she already holds in Treasuries maturing before 2033. The top is the floor plus half the sail's value that day. In 2033 her contribution is the floor plus half the sail, capped at the top she announced. So it falls inside the range; the confidence we state is about where in the range it lands. The other half of the sail, and anything above the cap, stays with Laura as flexibility for overruns and a project that will change once it is real.
++
++The reserve from 2033. At the start of 2033 the remaining bonds become the operating reserve. Each year one bond matures and pays that year's $50,000. Nothing is sold; the reserve shortens as payments are made.
++
++What we watch. Each year we check that the bonds owned still cover every remaining payment, and that every holding is on the permitted list. The plan changes only on dates we have named in advance, never because markets moved.
+diff --git a/keel/episodes/2026-10-25_ep04.md b/keel/episodes/2026-10-25_ep04.md
+new file mode 100644
+index 0000000..f5190d3
+--- /dev/null
++++ b/keel/episodes/2026-10-25_ep04.md
+@@ -0,0 +1,120 @@
++# FICTION. Episode 4: A quarter, not a minority
++
++**Sunday 25 October 2026, Sydney · Point of view: Kai · Vote day. IPS due in 13 days (Sat 7 Nov 09:00).**
++
++---
++
++Kai had his speech ready by 9 a.m. Fifty per cent stocks. He'd practised it on his nan.
++
++Then he did what he'd been doing all week: he ran Jun's script himself, to find the hole. He found something worse.
++
++**Kai:** (to the group, 9:40) I came here to argue for more stocks and the numbers just argued me out of it. Medians
++in 2033: all bonds $200k, a quarter in stocks $205k, half $209k. Every extra quarter of stocks buys about four grand.
++Jun, check me.
++
++**Jun:** It's my script. You're right. MODEL, 21 October curve. And here's the bit you didn't ask for.
++
++He posted a new table at 9:52, on Friday's close.
++
++**Jun:** The ladder on the holdings basis, 23 October: $300,992. Still $992 over. Yields went up a bit, so it's $1,207
++cheaper than Thursday. Fine. But the floor at 25% stocks is $141,800, not $150,000.
++
++**Nora:** Since when?
++
++**Jun:** Since always. The $150k sat on Wednesday's curve and the wrong basis. Switch to the bonds we'd really hold and
++it loses three grand. The five-year falling from 4.95 to 4.82 takes another thousand. The gap's only the last three
++and a half. Even with no gap, 25% gives about $142,800. If the rule is "floor at least $150k", the answer today is 20%.
++
++---
++
++### Library, 2 p.m. The vote.
++
++Tess spoke first. She'd printed IPS v2: both of Friday's fixes in, four weak phrases out.
++
++**Tess:** Both fixes alone put us at 503 on the strict count with the heading. I cut "with different natures", "by
++construction", "only ever ... never", and half a sentence about the reserve. Now it's 477. And the case says Laura has
++"been willing to take thoughtful risks", not "always taken". So it says that now.
++
++**Nora:** And the judge?
++
++She'd had their mock judge read v1 overnight: a portfolio manager's eye, scored against Wharton's five criteria.
++
++**Nora:** Fours on strategy, client and presentation. Three on portfolio analysis. Weakest sentence: our certainty line.
++It says the only risk is a U.S. default, and the next sentence names a second risk. So what? A judge stops trusting us
++right there. And "a minority" isn't a policy. Give me a number.
++
++**Kai:** "A minority" is forty-nine per cent wearing a hat. Here's my motion: the sail is one quarter of the 2028 money
++*left after the ladder is complete*. We write "a quarter" and say why.
++
++**Jun:** And if January's gap is big? Last week's bad case had a $25,600 gap.
++
++**Kai:** Then three quarters and one quarter of a smaller pile. Floor and sail shrink together, so "a quarter" stays true.
++If we fix the floor and make the sail take the whole hit, a big gap squeezes the sail to ten per cent and our sentence is
++lying.
++
++**Amara:** And Laura's half? Every extra stock dollar is half a dollar off the building and half in her drawer. At 25%
++the building gets about $177k in the middle case; at 50%, about $155k. Line 110 says her own contribution is what
++makes co-sponsors believe. I'll take the bigger floor.
++
++**Felix:** One check. "Thoughtful risks" is line 70. Line 72 asks for "an appropriate balance between pursuing growth and
++protecting the capital required for her goals." Her risk already sits in her career, which is where the 2028 money
++comes from. One sentence of ours can say that.
++
++**Jun:** I'm voting no. Not on the quarter. On what we'll say in 2031. The floor won't be $150k. On today's prices it's
++about $142k.
++
++**Amara:** Then we say $142k, or whatever she owns that day. Principle 3 never promised $150k. It promised what she owns.
++
++Jun thought about that for a long time, which for Jun was about four seconds.
++
++**Jun:** Still no. Write my reason down.
++
++Tess wrote it down.
++
++Five to one. Kai looked almost disappointed to have won.
++
++**Kai:** Bold. Brave. A quarter. My nan's furious.
++
++**Nora:** Decision, owner, date. Read it back, Tess.
++
++---
++
++## Decisions
++| Decision | Owner | By |
++|---|---|---|
++| Sail = one quarter of the 2028 deposit left after the ladder is complete; floor = three quarters. Vote 5-1 (Jun against: the floor will be about $142k on today's prices, not $150k) | All | Done |
++| A ladder gap shrinks floor and sail in proportion (follows from the quarter rule) | Jun, Kai | Done |
++| IPS v2 adopted (`drafts/IPS_v2.txt`): certainty names the 2028 deposit for the 2033 payment; "a quarter" for "a minority"; four overclaims and weak phrases cut. Strict count 477, pitch 50 | Tess, Amara | Done |
++| Never quote $150k as the floor. The 2031 bottom is the floor she owns that day | Amara, Jun | Standing rule |
++
++## Open threads
++- Who absorbs a coupon-reinvestment shortfall: the floor, the sail or Laura's half? The judge's top fix. Jun, Wed 28 Oct.
++- Name the review dates in place of "dates we have named in advance" (judge). Nora, Sun 1 Nov.
++- The pitch is at 50 strict with no spare word, and doesn't say the 2028 money first finishes the ladder. Tess.
++- "Falls on the 2033 payment alone" holds only while the gap is smaller than the 2033 bond (about $37k). Jun to state it.
++
++---
++
++## What Caplet can take from today
++1. **Re-check your floor number on the holdings basis.** On Keel's model, a quarter in stocks gives a floor of about
++   $141.8k on the 23 Oct close, not $150k, mostly because the real bonds mature before the payment dates. If any
++   Caplet draft says "$150k floor", check it against `keel/library/range_2031/README.md` (bottom $145k, already rounded down).
++2. **Replace vague shares with a number.** If the IPS says "a minority" or "small", a judge can't hold you to it.
++   Caplet's plan already has VT at about 9% of the WInS book; say the real-plan share in words.
++3. **Run the strict count on the IPS with its headings.** Two small fixes put Keel's draft over 500 when headings
++   counted (`keel/office/tools/textcheck.py --limit 500`). The SMApply form's counting method is UNVERIFIED.
++4. **Check "thoughtful risks" against the case.** The case says she "has been willing to take thoughtful risks"
++   (`Laura_Gao_2026_Client_Profile.txt:69-71`); don't upgrade it to "always".
++
++## Sources
++- Treasury par yield CSV, https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv,
++  fetched 24 Oct 2026 19:39 UTC; row 23 Oct: 1y 4.44, 5y 4.82, 10y 5.00, 20y 5.37.
++- MODEL (Jun's method, `keel/scripts/ladder_pv.py`, holdings dates as in Episode 3, forward rates to 1 Jan 2027): 23 Oct
++  ladder $300,992 holdings basis (gap $992; second method $300,390), $297,636 payment-date basis.
++- MODEL (`keel/scripts/sail_mc.py`: J.P. Morgan 2026 LTCMA AC World 7.00% compound, 16.78% vol, lognormal, 200k paths,
++  buy and hold). 21 Oct curve medians: 0% $200k, 25% $205k, 50% $209k. 23 Oct curve, 2028 money $148,964: 25% p5/p50/p95
++  $171.4k/$194.0k/$233.7k, floor $141.8k; 20% floor $151.2k; highest share with floor >= $150k 20.6%. Median 2033
++  contribution under Principle 3: 25% about $177k, 50% about $155k.
++- Client case `competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt:69-71, 72-74, 110-112`.
++- IPS instruction `competition/official/2026_27/2026_WGY_Investment_Policy-FINAL.txt:107, 109` (50 and 500 words).
++- Counts: `keel/office/tools/textcheck.py` on `keel/drafts/IPS_v2.txt` (body 475 by spaces, 477 strict; pitch 49/50).
+diff --git a/keel/members/jun.md b/keel/members/jun.md
+index f99c8d6..c138ca1 100644
+--- a/keel/members/jun.md
++++ b/keel/members/jun.md
+@@ -164,3 +164,17 @@ Script: `keel/scripts/sail_mc.py` (uses `ladder_pv.py` in the same folder). Inpu
+ 
+ Retired: $293,928 (true on 21 Oct, payment-date basis only). From now on, ladder costs are quoted on the holdings
+ basis, with date and method. Re-check against the 23 Oct close when it posts.
++
++### 25 Oct: 23 Oct close and the sail vote (all MODEL)
++| Number | Value | Basis and inputs |
++|---|---|---|
++| Ladder, holdings basis, 23 Oct | $300,992; gap $992 (yields must rise 0.03 points); DV01 $293/bp; second method $300,390 | Forward rates to 1 Jan 2027; treasury.gov par CSV fetched 24 Oct 19:39 UTC, row 23 Oct |
++| Ladder, payment-date basis, 23 Oct | $297,636 (reference only, not for quoting) | Same |
++| 2028 money for floor and sail | $148,964 = $150,000 - $992 x 1.0444 | 1y par 4.44% |
++| Sail, 25% stocks (23 Oct) | p5/p50/p95 $171.4k/$194.0k/$233.7k; floor $141.8k | `scripts/sail_mc.py` method, 5y par 4.82% |
++| Sail, 20% stocks (23 Oct) | floor $151.2k; highest share with floor >= $150k: 20.6% | Same |
++| Chance any stock mix ends below all-bond | 38.7% (every mix) | Same |
++
++Retired: "25% keeps a $150k floor" (true only on the 21 Oct curve, payment-date basis). The vote chose a quarter
++anyway; my no vote is on what we say in 2031: the floor is whatever she owns that day, about $142k on today's prices.
++Open: who absorbs a coupon-reinvestment shortfall (by Wed 28 Oct).
+diff --git a/keel/members/kai.md b/keel/members/kai.md
+index 539855f..6d4a3e0 100644
+--- a/keel/members/kai.md
++++ b/keel/members/kai.md
+@@ -140,3 +140,14 @@ bonds we own.
+ The order is right (gap in the short 2033 bond, not the 2042 one). The sentence is wrong: "paid from bonds she already
+ owns" isn't true for the 2033 payment until the 2028 deposit arrives. Fix: name the deposit as the assumption, and give
+ the 2028 money an order (ladder, then floor, then sail).
++
++### 25 Oct: the motion that won (5-1)
++"The sail is one quarter of the 2028 money left after the ladder is complete." Floor and sail shrink together if
++there is a gap, so "a quarter" stays true for the bonds actually owned.
++
++| Date (Sydney) | What | So what for Laura | Action |
++|---|---|---|---|
++| 25 Oct | Treasury par curve, 23 Oct close: 5y 4.82, 10y 5.00 (+4bp), 20y 5.37 (+5bp) | Ladder $300,992 on the holdings basis, $992 over $300k (Jun, MODEL) | No WInS trade |
++
++What 25% gives up against 50% (21 Oct curve, MODEL): about $4-5k of median pot and about $47k at p95. What it buys:
++a floor about $50k higher, p5 about $19k higher, a bigger building contribution in the middle case.
+diff --git a/keel/members/nora.md b/keel/members/nora.md
+index f97fe27..299822a 100644
+--- a/keel/members/nora.md
++++ b/keel/members/nora.md
+@@ -103,3 +103,10 @@ decides things, writes them down and moves on.
+ ### Notes to self
+ - Ask Tess to speak first.
+ - Internal deadline two days before the real one. TNA: submit Fri 23 Oct 20:00, Felix watching.
++
++### 25 Oct
++- One sentence, new version: "Buy Laura's promise first, the floor second and the sail last, and never tell a
++  co-sponsor a number she doesn't already own."
++- Mock judge on IPS v1 (practitioner): strategy 4, client 4, portfolio analysis 3, articulation 2 (earned in the Final
++  Report), presentation 4. Weakest sentence: the certainty line (fixed in v2).
++- Still to do from the judge: name the review dates (by 1 Nov); say who absorbs a coupon shortfall (Jun, 28 Oct).
+diff --git a/keel/members/tess.md b/keel/members/tess.md
+index 8e96267..7c0795e 100644
+--- a/keel/members/tess.md
++++ b/keel/members/tess.md
+@@ -89,3 +89,16 @@ knows its own history.
+ | 22 Oct | VT "is up 2.1% since we bought it" | Kai's VT reflection | "Do not focus on portfolio performance" (Week 4 email) | No |
+ | 22 Oct | "In 2028 we may add TIPS to protect the residency against Taiwan's rising costs." | Amara's bond reflection | TIPS named as not permitted | Only the worry: as a Final Report assumption on facility costs |
+ | 23 Oct | "...Laura can tell co-sponsors in 2031 that she will give between $150,000 and $200,000." | Amara's reflection | No model behind the number; the TNA instruction leaves facility amounts to the Final Report | Yes, in December, once Jun's model supports a range |
++
++### 25 Oct: IPS v2 cuts
++| Date | Line | From | Why cut | Can it come back? |
++|---|---|---|---|---|
++| 25 Oct | "If rates have fallen and the bonds cost more than $300,000, the gap is the first use of the 2028 deposit, before any stock is bought." | IPS v1, Principle 1 | Merged into the certainty sentence | No |
++| 25 Oct | "with different natures" | IPS v1, Goal | The next two sentences show the difference | No |
++| 25 Oct | "can only ever touch the hope, never the promise" | IPS v1, Goal | Overclaim; a risk to the promise remains | Softened: "touches the hope, not the promise" |
++| 25 Oct | "By construction" | IPS v1, Principle 3 | Overclaim | No |
++| 25 Oct | "naturally and holds less risk" | IPS v1, Reserve | Words needed for the fixes | Yes, in the Final Report |
++| 25 Oct | "Laura has always taken thoughtful risks" | IPS v1, Principle 2 | Stronger than the case ("been willing to take thoughtful risks") | No |
++| 25 Oct | "a minority of the fund" | IPS v1, Principle 2 | Not a policy a judge can hold us to; vote chose a quarter | No |
++
++Counts, IPS v2 (`drafts/IPS_v2.txt`): body 475 by spaces, 477 strict; pitch 49/50 (no spare word).
+diff --git a/keel/tea_room.md b/keel/tea_room.md
+index c065a0a..a28d180 100644
+--- a/keel/tea_room.md
++++ b/keel/tea_room.md
+@@ -1,15 +1,17 @@
+ # FICTION. Team Keel: the shared tea room
+ 
+ The team's shared room: plan, decision journal, open threads and how everyone is getting on. Updated by
+-each daily episode. Last update: Episode 3, Sat 24 Oct 2026 (Sydney).
++each daily episode. Last update: Episode 4, Sun 25 Oct 2026 (Sydney).
+ 
+ ## Keel's plan (their own; not Caplet's)
+-One sentence (Nora's current version): **"Buy Laura's promise first, then let what's left grow, and never tell a
+-co-sponsor a number she doesn't already own."**
++One sentence (Nora's current version, 25 Oct): **"Buy Laura's promise first, the floor second and the sail last, and
++never tell a co-sponsor a number she doesn't already own."**
+ - **Keel (the promise):** the ten $50k payments (2033-42) matched with WInS-listed Treasury bonds and Treasury
+   ETFs bought from the 2027 $300k.
+-- **Sail (growth):** whatever is left after the payments, mainly from the 2028 $150k, in broad stock ETFs.
+-  Kai wants more of it than Jun does; the size is still open.
++- **Floor and sail (voted 25 Oct, 5-1):** the 2028 deposit first completes the ladder; of what is left, three quarters
++  buys the floor (a Treasury maturing just before 2033) and one quarter the sail (a broad world stock fund). A gap
++  shrinks both in proportion. On the 23 Oct close the floor would be about $141.8k (MODEL), so $150k is never quoted.
++- **IPS v2:** `drafts/IPS_v2.txt` (body 477 strict, pitch 50).
+ - **2031 range:** bottom = what Laura already owns for the building; top = bottom + a stated share of the growth
+   sleeve, with a confidence level Jun can defend.
+ - WInS: built, trading done except possible small fixes. Only Kai places orders, after Felix's check. Any last fix
+@@ -47,14 +49,16 @@ co-sponsor a number she doesn't already own."**
+ | 24 Oct | Ladder cost quoted on the holdings basis only ($302,199 on 22 Oct, MODEL); $293,928 retired | Jun | Thursday's fall in yields put the real ladder $2,199 over $300k |
+ | 24 Oct | IPS states the rule, not a dollar floor or range | Amara, Felix | Investment Policy :68-69; any figure is stale by January |
+ | 24 Oct | Plan follows the Week 4 email on TIPS/STRIPS until Wharton is asked | Felix | Live FAQ now says "Individual TIPS/STRIPS" |
++| 25 Oct | Sail = one quarter of the 2028 money left after the ladder; floor = three quarters (5-1, Jun against) | All | Medians barely move with more stocks; a bigger floor makes the contribution co-sponsors hear larger and safer |
++| 25 Oct | IPS v2 adopted: certainty names the 2028 deposit; "a quarter" for "a minority"; overclaims cut | Tess, Amara | Mock judge's weakest sentence; strict count 477 |
++| 25 Oct | Never quote $150k as the floor; the 2031 bottom is what she owns that day | Amara, Jun | On the 23 Oct close the floor is about $141.8k (MODEL) |
+ 
+ ## Open threads
+-- **For Sunday's vote (25 Oct):** (1) 2028 deposit order = finish the ladder, then the floor, then the sail, so the
+-  sail absorbs any gap (Jun, Kai); (2) certainty sentence names the 2028 deposit as the assumption for the 2033 rung
+-  (Kai, Felix).
++- Who absorbs a coupon-reinvestment shortfall (floor, sail or Laura's half)? Jun, Wed 28 Oct (the judge's top fix).
++- Name the review dates in place of "dates we have named in advance". Nora, Sun 1 Nov.
++- Pitch is at 50 strict and doesn't say the 2028 money first finishes the ladder. Tess.
+ - Could the coupon shortfall reach the floor after 2031? Amara wants it closed before the freeze.
+ - Re-check the 22 Oct row against the 23 Oct close; confirm iBond maturity dates (assumed 15 Dec).
+-- How big is the sail? Jun 25% vs Kai more; vote Sun 25 Oct, final 1 Nov.
+ - Re-run Jun's numbers on a fresh Treasury curve (the site could not be reached on 23 Oct) and add a worst-historical-window check.
+ - What exactly will the IPS form look like? (Felix checks SMApply when it opens.)
+ - Amara's inflation research for the Final Report: Taiwan construction costs vs CPI (opens after the IPS).
+@@ -63,6 +67,8 @@ co-sponsor a number she doesn't already own."**
+ 
+ 
+ ## Relationships right now
++- Kai came to argue for 50% and argued himself out of it with Jun's own script; he won the vote anyway, with "a quarter".
++- Jun voted no and asked for his reason to be written down. Nobody minded; Amara answered it.
+ - Kai won the argument he picked (the sentence, not the equity share) and said so; Nora made him write it down.
+ - Jun corrected his own number before anyone else could, and retired it in public.
+ - Amara lost a second line in two days (the 2031 range) but cut it herself; she wants it back in December.
+-- 
+2.43.0
+
