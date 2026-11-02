@@ -120,6 +120,11 @@ co-sponsor a number she doesn't already own."**
   checks everyone's paste, asked her to read whatever he writes on Sunday before the vote, not after: "Against the page
   I was handed. I never asked which plan." She stuck *which plan?* to the back of his phone; he left it there
   (Kitchen, Sat 31 Oct, `rooms/kitchen.md`).
+- Jun and Kai: the Coke goes back the other way. Book 11 (Sun 1 Nov) banned model numbers from the IPS, and both lost
+  their rewrites to it; in the huddle Kai called Jun's flood door "lovely, not yet honest". In the Kitchen he put a can
+  beside Jun's cup: "I was harsh about your flood. Best door tonight." Jun: "My numbers are banned." Kai: "From one page.
+  Para five's still your table. They just took the figures off it ... 'Which basis?' isn't a number." First time Kai has
+  said sorry without a joke; Jun drank it (Kitchen, Sun 1 Nov, `rooms/kitchen.md`).
 
 ## Long Room log (Sydney date and minutes; room days; purpose)
 | Sydney | Minutes | Room days | Purpose | Who |

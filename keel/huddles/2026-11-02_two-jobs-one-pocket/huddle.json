@@ -1,0 +1,52 @@
+{
+  "id": "H-016",
+  "slug": "two-jobs-one-pocket",
+  "title": "Two jobs, one pocket",
+  "question": "V52 makes the stocks Laura keeps both her flexibility and the first payer of the bond ladder's reinvestment gap. How often does the second job eat the first, what does the margin the text dropped carry, and where does the worst world's cheque gap come from? (round 6 beat 5; L-16)",
+  "room": "Genius Lab",
+  "chair": "Amara",
+  "opened": "2026-11-02",
+  "status": "closed",
+  "closed": "2026-11-02",
+  "members": [
+    "Amara",
+    "Jun",
+    "Kai"
+  ],
+  "serves": "North star 4 (investing knowledge, applied and true); Wharton: Investment Strategy (define a high degree of funding certainty), Client Knowledge (preserves appropriate financial flexibility), Creativity & Presentation",
+  "rounds": [
+    {
+      "n": 1,
+      "name": "Read and post (one round; the routine caps subagents at three)",
+      "date": "2026-11-02",
+      "posts": [
+        "posts/r1_kai.md",
+        "posts/r1_jun.md",
+        "posts/r1_amara.md"
+      ]
+    }
+  ],
+  "seeds": [
+    "Is $7,500 the right margin, or should it be sized each 2031 from the gap's own spread (the Final Report's amount, reason, proof)?",
+    "If the kept half is empty in two futures in three when yields fall for good, what is Laura's flexibility in those futures: the margin coming back after 2042, or nothing? (Laura's Room)"
+  ],
+  "essence": [
+    "Our draft gives the stocks Laura keeps two jobs: they are her flexibility, and they are the first money that covers the bond ladder's one weak point, the interest it has to reinvest.",
+    "We measured how often the second job eats the first: all of that pocket is gone by 2033 in about one future in five, and two in three if rates fall hard and stay down; and the draft had quietly lost the safety margin the plan sets aside, without which a cheque comes up short in about one future in four instead of one in 550.",
+    "So the IPS should say \"add a margin\" again and, if a whole idea can pay for it, say plainly that her flexibility shrinks before her promise does."
+  ],
+  "decided": [
+    "C1 ADOPT: P8 'we price that gap at that day's yields, add a margin, and set it aside' (+3; IDEA_LEDGER D6's cushion, lost in V52)",
+    "C2 ADOPT as the offer m3j: ', so her flexibility shrinks before her promise does. Whatever the stocks can't cover lowers the whole range.' (498 strict with P3's mirror cut; one word owed). Jun ranked it first blind; Kai: TRUE of the code",
+    "Gap first, then halve: PARK (Final Report alternative); it breaks P7 in 3-31 futures in 10,000. Keel's call: keep V52's order",
+    "Kept stocks behind the cheques after 2033 and a $15,000 margin: PARK (Final Report); the overage image: BIN (Amara), its three-part test to the Final Report",
+    "S9 (Kai's question): 35% of the short dollars a rung never bought, 64% reinvestment gaps the halved deposit left nothing to pay; neither cure closes it"
+  ],
+  "changes": [
+    "V52 P8 offer m3j (inbox 2026-11-02_genius-lab.md); no draft changed by the Lab"
+  ],
+  "todos": {
+    "done": 4,
+    "total": 8
+  }
+}
