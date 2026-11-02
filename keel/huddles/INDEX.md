@@ -4,6 +4,7 @@
 
 | ID | Opened | Title | Status | Rounds | Members | To-dos | Essence |
 |---|---|---|---|---|---|---|---|
+| H-016 | 2026-11-02 | [Two jobs, one pocket](2026-11-02_two-jobs-one-pocket/transcript.md) | closed | 1 | Amara, Jun, Kai | 4/8 | Our draft gives the stocks Laura keeps two jobs: they are her flexibility, and they are the first money that covers the bond ladder's one weak point, the interest it has to reinvest. We measured how often the second job  |
 | H-015 | 2026-11-02 | [The other side of each holding](2026-11-02_the-other-side-of-each-holding/transcript.md) | closed | 3 | Tess, Nora, Felix, Kai | 4/7 | We checked every claim the IPS makes about what Laura owns against the words of the people on the other side: the fund company's own documents, the US Treasury's rules and the medicine leaflets behind the caplet name. Ne |
 | H-014 | 2026-11-01 | [The Kitchen after Book 11](2026-11-01_the-kitchen-after-book-eleven/transcript.md) | closed | 3 | Amara, Kai, Jun | 5/10 | Our own order yesterday told the scouts to keep model numbers in their paragraphs, and Ahaan's message banned exactly that, so tomorrow every job has to quote the line of Wharton's instructions it was checked against bef |
 | H-013 | 2026-11-01 | [Do not crush, on trial](2026-11-01_do-not-crush-on-trial/transcript.md) | closed | 3 | Kai, Felix, Amara, Tess, Nora | 5/7 | We put the newest IPS on trial. All three of us found the same hole: it opens with a capsule labelled 'do not crush' and ends on 'Do not crush.', but never says what crushing would mean for Laura. The fix says it plainly |
@@ -56,3 +57,5 @@
 - H-015: P6's 'that half moves into Treasuries': WInS lists no Treasury bond maturing Feb 2031 to Feb 2036, so the 2031 move buys a fund; does O1's noun fix apply there too? (Writing Room, before Wed 4 Nov)
 - H-015: The kept shares do two jobs, 'her flexibility' and first payer of the reinvestment gap: how much flexibility is left in the bad case? (Genius Lab, MODEL, Final Report)
 - H-015: The Final Report's bridge to the WInS book: the plan scaled to $300,000, IBTM doing two jobs, the pie chart's 'Long Equities', VT at 8.6%, the floorlet line
+- H-016: Is $7,500 the right margin, or should it be sized each 2031 from the gap's own spread (the Final Report's amount, reason, proof)?
+- H-016: If the kept half is empty in two futures in three when yields fall for good, what is Laura's flexibility in those futures: the margin coming back after 2042, or nothing? (Laura's Room)
