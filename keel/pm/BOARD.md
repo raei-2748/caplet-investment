@@ -59,6 +59,7 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Mon 2 Nov 2026
 ## Done
 | ID | Task | Owner | Done | Output |
 |---|---|---|---|---|
+| SD-LR10 | Round 6 beat 6: the Lab's seed answered (where her kept stocks are empty her flexibility is nothing); keep a quarter back on naming day, tested in four worlds and offered as P8 (+ P7, P9, P5), 496 strict | Amara | Mon 2 Nov | `../office/outbox/2026-11-02_lauras-room_what-is-left-to-her.md` |
 | SD-N07 | Research round 6 gathered: Q14, is everything V50 says about what Laura owns and about the caplet true at its source (verify round, 0:3 dial); lens 6; scouts Tess (fund prospectuses), Nora (why the WInS book holds VT), Felix (the caplet at an Australian source). LS-14 read-back caught a non-Wharton "Wharton line"; request filed | Nora (Kai reading back) | Mon 2 Nov | `keel/loop/rounds/2026-11-02.md` |
 | SD-N06 | Research round 5 gathered: Q13 the voice round (who gets a sceptic to pay for a promise); lens 11; annuity sellers, auction condition reports, mountain guides' turnaround times (row restored 2 Nov; dropped in the 1 Nov weekly rewrite) | Nora | Sun 1 Nov | `keel/loop/rounds/2026-11-01.md` |
 | SD-A09 | Round 4 recorded; LR3 (the rival paragraph) checked against the submitted notes and re-run on V45's own design: no breach, $19,000 -> $15,000, two word fixes | Tess | Sat 31 Oct | `../office/outbox/2026-10-31_archive_the-price-on-our-own-design.md` |

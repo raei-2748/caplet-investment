@@ -1,0 +1,62 @@
+{
+  "id": "H-017",
+  "slug": "what-is-left-to-her",
+  "title": "What is left to her?",
+  "question": "V53 spends all the stocks Laura keeps on the bond ladder's reinvestment gap before it will lower the range she names in 2031, when nobody has heard a number yet. What is her flexibility where that pocket is empty, and should she keep a quarter back? (round 6 beat 6; the Genius Lab's seed; LR-10)",
+  "room": "Laura's Room",
+  "chair": "Laura's Room (run)",
+  "opened": "2026-11-02",
+  "status": "closed",
+  "closed": "2026-11-02",
+  "members": [
+    "Amara",
+    "Kai",
+    "Felix"
+  ],
+  "serves": "North stars 3 and 4; Wharton: Client Knowledge (preserves appropriate financial flexibility; the reserve's size), Investment Strategy",
+  "rounds": [
+    {
+      "n": 1,
+      "name": "Read alone: simulated Laura, co-sponsor and clearing house, judge with the case open",
+      "date": "2026-11-02",
+      "posts": [
+        "posts/r1_amara.md",
+        "posts/r1_kai.md",
+        "posts/r1_felix.md"
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Reply by name and vote (the same three agents, continued)",
+      "date": "2026-11-02",
+      "posts": [
+        "posts/r2_amara.md",
+        "posts/r2_kai.md",
+        "posts/r2_felix.md"
+      ]
+    }
+  ],
+  "essence": [
+    "Our draft makes Laura spend every stock she keeps for herself before it will lower the range she announces in 2031, even though on that day nobody has heard a number yet; where that pocket runs dry, her flexibility is nothing until money comes back in 2042.",
+    "We tested keeping a quarter of those stocks back on that day and lowering the range instead: her pocket is empty by 2033 about 1 time in 15 instead of 1 in 5, the number she announces is delivered more often, the cheques are no worse, and it costs under $1,000 of the average gift.",
+    "So we offer one new sentence for the IPS, \"set it aside from the stocks Laura keeps until only a quarter is left. Anything still missing lowers the whole range, before anyone hears it\", plus two small fixes the case asks for."
+  ],
+  "decided": [
+    "KILL 3-0 V53 P8's 'so her flexibility shrinks before her promise does' (Kai changed his mind in round 2: no promise exists on naming day, and the pitch's 'promise' is the cheques)",
+    "ADOPT 3-0 H25 as the P8 offer (0 words); KILL 3-0 H50",
+    "P7 'to attract co-sponsors' (+1, 3-0); P9 'the ladder and everything set aside for it become the operating reserve' (+6, 3-0 on the fix, 2-1 on the word); cut P5 'That is under a tenth of her money.' (-8, 2-1, Amara dissenting); V53 with all four 496 strict",
+    "The Lab's seed answered 3-0: where the pocket is empty her flexibility is nothing; the cushion back after 2042 is 'a refund, not a roof' (Final Report)"
+  ],
+  "seeds": [
+    "Why a quarter and not a fifth or a third? Untested between none and a quarter (Final Report: amount, reason, proof)",
+    "If the thread keeps 'under a tenth' (Amara's dissent), which whole idea pays for P9's six words?"
+  ],
+  "changes": [
+    "Offer in ../../ips_rewrite/inbox/2026-11-02_lauras-room.md; no draft changed by the room",
+    "../../rooms/lauras_room/LR-10_what_is_left_to_her.md (+ .py, _results.json)"
+  ],
+  "todos": {
+    "done": 5,
+    "total": 8
+  }
+}
