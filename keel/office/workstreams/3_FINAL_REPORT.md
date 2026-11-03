@@ -9,6 +9,9 @@
 The detailed instructions are released on Mon 9 Nov ET. Until then, every structure and page-range assumption is
 FORECAST. In 2023-24 the range was 10-13 pages, and "Reports that go over or under this range will not be
 reviewed". The window is short (9 Nov - 4 Dec ET), so build the modules now.
+**Plan (4 Nov): `../../final_report/ERUDITION_PLAN.md`** maps every Keel model (about 60 experiments), the strategy
+family tree (about twenty strategies, kept or refused, six fusions) and the reading list onto a forecast section plan,
+with the jobs for 7-15 Nov (one numbers engine on the final IPS and the 6 Nov close; eight exhibits; reading verified).
 Status (18 Oct): not started. The journal (about 390 words) stops at 7 Oct, and the only outline is for the
 abandoned plan.
 
