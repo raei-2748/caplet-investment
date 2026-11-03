@@ -530,6 +530,13 @@ sentence.
 | "From 2033, the ladder and that set-aside become her operating reserve, paying one cheque each January" | A self-liquidating dedicated portfolio | Leibowitz 1986 |
 | "extended-release tablets ... do not crush" | Zero-order release; dose dumping | Costa et al. 2003; Health Canada 2005 |
 
+**A second V56 exists.** The 4 Nov loop wrote a concept-heavier draft, also labelled V56 (branch
+`claude/keel-loop-2026-11-04`, `drafts/D36/` there, 499 strict, PR #121). It adds three ideas from the family tree in
+plain words: pension funds' two ways to cover fixed payments, matching average life and rebalancing or one bond per
+payment held (rows 1-2); time making a loss rarer but not smaller (row 11); and portfolio insurance selling into the
+1987 crash (row 5). Whichever text Caplet submits, the bridge above extends to it, and the report cites the same
+sources.
+
 The note to the rewrite thread (`../ips_rewrite/inbox/2026-11-04_final-report-thread.md`) offers one optional clause
 (five words in P3) that would make one more idea visible without numbers. V56 is locked and Caplet reads it Thursday, so they are offers
 only; the rewrite thread and Caplet decide.
