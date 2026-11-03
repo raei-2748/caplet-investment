@@ -668,3 +668,14 @@ shouldn't trust them on. Where they judged substance, V56 won: the actuary put i
 whose promise needs no forecast. If Caplet reads V54 and disagrees with Ray, it's one file away (`drafts/D34/`), and
 V56's reinvestment rule drops into it in one sentence.
 
+## Wed 4 Nov, midday: two V56s become V57
+Caplet's top priority came in at 08:06: show the investing thinking, not the modelling. One session answered it with a
+V56 full of the ideas pension funds, insurers and option desks argue about. Another session, at the same hour, had
+fixed the reinvestment gap so no cheque leans on shares. Neither had both. V57 puts them together. The six judges
+placed it best on average, and the professor said the deciding difference between the two concept versions was the
+gap rule you can check. The actuary still wanted the return assumption and the stock share printed; they went to the
+Final Report, where Book 11 wants model figures.
+
+**What Caplet would say (Commandment X):** "Where's the 7.5%? The Trading Notes had it." It's in the Final Report.
+With six ideas weighed in under 500 words, the one number the IPS can't source on its face was the thing to cut, and
+no payment ever relied on it.
