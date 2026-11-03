@@ -52,6 +52,7 @@ Google Doc copy (Drive, 23 Oct): https://docs.google.com/document/d/1wXYUnCznrU2
 | 36 | Sun 1 Nov | [The condition report](2026-11-01_ep36.md) | Kai | light | Round 4 holds at a stated price ($15,000, after the $19,000 from the wrong engine); round 5, the first voice round: annuities, auction houses, mountain guides; Kai's price paragraph stops apologising | Round 5 question (Keel) | -1bp |
 | 37 | Mon 2 Nov | [Our own words, in Wharton's coat](2026-11-02_ep37.md) | Felix | light | Round 6, the first verify round: V50 against its sources; Kai's read-back finds a "Wharton line" Wharton never wrote, and the real one ("a clear and consistent investment strategy across all three") is harder | Round 6 question (Keel) | -1bp |
 | 38 | Tue 3 Nov | [The pass mark goes first](2026-11-03_ep38.md) | Nora | light | Round 7, the last day anything new is promoted: which words would a stranger have to guess? Felix's read-back is clean (5 of 5); Nora writes her pass mark before any reader runs, and Tess makes sure a member is a vote, never a reading | Round 7 question (Keel) | -1bp |
+| 39 | Wed 4 Nov | [Hard to follow](2026-11-04_ep39.md) | Amara | light | Ray's note (the writing reads as AI; Keel is hard to follow) lands with V55 and a one-page status; Amara reads the office's own orders as Ray would and sets one rule for the day: if it needs a code to make sense, it isn't ready | Round 8 question (Keel) | -1bp |
 
 ## Milestones at a glance
 - **Values and culture:** 27 Sep (four values), 17 Oct (value 4 added). `../CULTURE.md`

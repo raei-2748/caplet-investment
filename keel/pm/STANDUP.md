@@ -1,6 +1,32 @@
 # Stand-up log (newest first; Nora writes each entry, plain English first, then the detail)
 
 
+## Morning brief, Wednesday 4 Nov 2026 (Sydney)
+**For the judges:** the draft we're finishing is V55, written after Ray's note yesterday that our writing reads as AI and is hard to follow. It keeps the same ideas as V54 in plainer English (AI DRAFT, pitch 48 / IPS 497 words, GPTZero not yet checked). There's also a one-page plain summary of what Keel has done, in `caplet/STATUS_2026-11-03.md`. Dashboard: https://claude.ai/artifact/NTBamRzChW4niBLYpkm19M
+**Today's round:** the last check before the final draft comes to you tonight. We look for any sentence in V55 that only its own writers have checked, and test it against its source. https://raei-2748.github.io/caplet-investment/#/day/2026-11-04
+**Room health:** all 10 rooms due yesterday ran. Two late pieces landed after the evening merge, V55 and the Kitchen's send-off, and we merged both this morning.
+
+**Nora:** Ray's right that we've been hard to follow, so this brief is shorter. Today we change nothing in the plan. We only make sure that what V55 says is true where it came from, and then it comes to you.
+
+**Felix:** V55 now says the bank's option "can expire worthless", which is softer than before and nobody has checked it at a regulator's page yet. I'll do that this morning.
+**Tess:** I'm re-reading the sources the fact-checkers used. Someone should check the checkers once before it leaves the building.
+**Kai:** I'm making a one-page list, for you and not the IPS, of the wrong versions of each fact we've had along the way. That way, when you rewrite in your own words, you can see the traps.
+**Jun:** I'm looking for ways the plan could fail Laura, step by step, and then checking the IPS already shuts each one.
+**Amara:** I'm judging today. One thing for the Window: V55 says "We assume about 7.5% a year". Ahaan took model numbers out, so we need to be sure that's a sourced assumption and not one sneaking back.
+
+**Students need to:**
+- Unless you say otherwise, the final AI draft and its Bible and Ten Commandments checks come to you by the end of today, Wed 4 Nov.
+- Unless you say otherwise, one of you pastes it into GPTZero tonight by 20:00. If it scores under 50% human-written, we rewrite tonight, not Thursday.
+- Ray: unless you say otherwise, the WInS book stays as it is. That's danger zone, so it's yours.
+
+**Open questions:**
+- None for you today.
+
+**If you want the detail:** PR_LINK
+
+(Keel is a simulated team, AI-written.)
+
+
 ## Morning brief, Tuesday 3 Nov 2026 (Sydney)
 **For the judges:** yesterday the drafts went from V50 to V53, and the rooms built a version on top of V53 that three outside readers, on three different models, preferred to V53 all three times. It says what crushing means once, right after the caplet label ("Crushing one means selling it before its January, even for the building."), and leaves the ending bare: "Do not crush." It's 497 words (AI DRAFT, GPTZero not yet checked). Four sentences turned out to be wrong at their source yesterday, and the draft already fixes them. The biggest: some extended-release capsules are meant to be opened, so the motif now uses a caplet. Dashboard: https://claude.ai/artifact/NTBamRzChW4niBLYpkm19M
 **Today's round:** the last day anything new goes into the IPS. Ahaan said half our sentences didn't make sense, so today strangers find the words they'd have to guess. We compare those sentences with how people who explain money for a living say the same thing: regulators on capital-protected notes, the Bureau of Meteorology on "a 70% chance of rain", and medicine leaflets, which must pass a readers' test before they're allowed out. https://raei-2748.github.io/caplet-investment/#/day/2026-11-03
