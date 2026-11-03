@@ -4,6 +4,7 @@
 
 | ID | Opened | Title | Status | Rounds | Members | To-dos | Essence |
 |---|---|---|---|---|---|---|---|
+| H-027 | 2026-11-03 | [The Kitchen before the hand-over](2026-11-03_the-kitchen-before-the-hand-over/transcript.md) | closed | 3 | Amara, Felix, Kai | 5/12 | We first all agreed that tomorrow should protect the IPS from your rewrite, then all three of us changed our minds: Wednesday is our last day to check the draft, and the rewrite is yours from Thursday. Checking tonight,  |
 | H-026 | 2026-11-03 | [W5 on trial](2026-11-03_w5-on-trial/transcript.md) | closed | 3 | Kai, Tess, Nora | 9/12 | We put the Writing Room's repaired IPS on trial against the current one, and two outsiders who had never seen either split: a bond manager preferred the repair by 2 points, a Year 10 student preferred the original by 2,  |
 | H-025 | 2026-11-03 | [Words a stranger can say back](2026-11-03_words-a-stranger-can-say-back/transcript.md) | closed | 3 | Amara, Kai, Tess | 8/11 | Four people who had never seen our work read the newest IPS and our repair, and we changed only the words they tripped on, like "yields" and "facility", keeping it at 497 words. All four understood one plain way to say h |
 | H-024 | 2026-11-03 | [Parked, not spent?](2026-11-03_parked-not-spent/transcript.md) | closed | 3 | Amara, Kai, Felix | 8/10 | The Lab's new rule for the ladder's weak point keeps every cheque and the number Laura tells co-sponsors safe, but it is paid for by the stocks she keeps for herself, which run out more often, and our draft never says th |
@@ -82,6 +83,8 @@
 - H-023: Where does the unused lock go (about $18,000 at the median), and does 'pays exactly what it promises' stretch to the fund rungs, which pay net asset value? (Courtroom, 18:20; Final Report)
 - H-024: Kai's dissent for the strangers: in 2036, does 'what the cheques don't need' read as that year's leftover (the wrong sum), where 'what no remaining cheque needs' carries the escrow's test?
 - H-024: Why a quarter, under the lock? Untested between none and a quarter (Final Report)
+- H-027: 'Later bond payments' pulls the funds' own bonds inside the lock; 'later coupons' would shrink it below the sizing that already misses. Would Caplet ever know that word was holding a cheque up? (the card, Wed 13:40)
+- H-027: The updated IPS instructions' lines 79-80 ('Your portfolio and Final Report should reflect the strategy established in your IPS') are not in WHARTON_WORD, so no order can quote them (Library, after the freeze)
 - H-021: Does Kai's lock (price the gap as if its interest earned nothing) hold in the 200,000 futures, and what does it cost her flexibility? (Genius Lab, 13:40)
 - H-021: Road A or road B, in words a stranger can say back, inside 497 strict (Writing Room, 16:20)
 - H-026: Which three numbers lead the Final Report, so the bond manager's Portfolio Analysis 7 becomes a 9? (Nora)

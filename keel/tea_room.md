@@ -125,6 +125,12 @@ co-sponsor a number she doesn't already own."**
   beside Jun's cup: "I was harsh about your flood. Best door tonight." Jun: "My numbers are banned." Kai: "From one page.
   Para five's still your table. They just took the figures off it ... 'Which basis?' isn't a number." First time Kai has
   said sorry without a joke; Jun drank it (Kitchen, Sun 1 Nov, `rooms/kitchen.md`).
+- Felix and Kai: square, and the checking runs both ways now. On Tue 3 Nov Kai found the leak in Felix's own Window
+  test (the 86.76%, withdrawn the same morning); that evening the Courtroom's exhibit N found Kai's lock had been sized
+  on funds paid as bonds. In the Kitchen Felix showed him the number crossed out in his own pen ("You found that.");
+  Kai: "Nora found mine." "One each." Kai wrote *what did it leave out?* on a Post-it and told Felix to fold his
+  scouting page before Kai reads it. Felix stuck it on the back of his phone, under Tess's *which plan?* (Kitchen,
+  Tue 3 Nov, `rooms/kitchen.md`).
 
 ## Long Room log (Sydney date and minutes; room days; purpose)
 | Sydney | Minutes | Room days | Purpose | Who |

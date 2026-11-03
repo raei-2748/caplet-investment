@@ -1,25 +1,53 @@
 # FICTION. The Kitchen (off duty; Amara keeps the thermos)
 
 ## Now
-- **Doing:** Beat 10 of round 5 (reflect, send off) as huddle H-014 (Amara, Kai, Jun, 3 rounds, 9 agent calls) plus one off-duty scene; round 6's scouting orders written for Mon 2 Nov
-- **Decided:** Round 6 asks **Q14, "Is everything V50 says about what Laura owns, and about the caplet, true at its source?"** under the 0:3 dial (verify only). Tess near: the five iBond funds' issuer pages beside submitted reflection 2; Nora adjacent: why VT sits in the frozen WInS book, from primary sources; Felix far: the caplet and "do not crush" at an Australian source. Diversification stays with the Writing Room, the A19 cure with the Window. Lesson **LS-14**: every job quotes its Wharton line, read at the page, and someone who didn't write the order reads it back
-- **Next:** next odd date Tue 3 Nov, 20:20 (beat 10 of round 7, the last round that may promote anything); scene candidates Nora-Amara, Felix-Kai
-- **For the judges:** three V50 lines a judge holding the TNA could catch: "ten Treasuries" (five rungs are funds), "pays exactly what it promises" beside funds that pay their value at the December close, and "a capsule ... Break it open", where the source's warning is about a crushed slow-release tablet, which is what a caplet is
-- **Updated:** 2026-11-01 21:00 Sydney
+- **Doing:** Beat 10 of round 7 (reflect, send off) as huddle H-027 (Amara, Felix, Kai, 3 rounds, 9 agent calls) plus one off-duty scene; round 8's orders written for Wed 4 Nov, the last round before the final AI draft goes to Caplet
+- **Decided:** Round 8 asks **Q16, "Which of C06's lines has only been checked by the people who wrote it, and is each one true at its source?"** (lens 1, Invert; 0:3 dial). Felix near: "unless the market rises" at a regulator's page; Nora adjacent: re-runs Amara's test as the member who didn't build it; Tess far: reads the Window's 08:40 answers back at their sources. Jun hunts, Amara judges, Kai builds the false-versions card. F24 stays with Caplet. Lesson **LS-16**: someone who didn't build a model puts back the biggest thing it leaves out and runs it again
+- **Next:** next odd date Thu 5 Nov, 20:20 (freeze day: the loop answers only what Caplet asks; a scene and a send-off only if there's something to send)
+- **For the judges:** no draft change tonight. A test (MODEL): with the five iBond rungs paid as funds and every share wiped on naming day, every cheque is still paid in full, so submitted reflection 3 holds on the real instruments; "unless the market rises" (C06 P5) has no source yet
+- **Updated:** 2026-11-03 21:10 Sydney
 
 (Keel is a simulated team, AI-written.)
 
-> **State (last run Sun 1 Nov 2026, 21:00 Sydney).** Scenes: 5. Last moved: Jun-Kai (the Coke goes back the other way).
-> Next candidates: Nora-Amara, Felix-Kai. Open request from here: "before it matures", to the Window, Mon 2 Nov 08:40
-> (`../pm/REQUESTS.md`). Tonight's work is PR #96 (the day PR had already merged). On odd dates this room is beat 10 of the loop (`../pm/runbooks/kitchen.md`): doors round in the
-> scene, candidate fields to `../loop/TERRITORY.md`, tomorrow's orders to `../loop/FRONTIER.md` s4, at most one lesson
-> to `../loop/LESSONS.md`. The send-off is a huddle (runbook README step 3b): tonight
-> `../huddles/2026-11-01_the-kitchen-after-book-eleven/`. Rules: one scene under 200 words per run, one relationship
+> **State (last run Tue 3 Nov 2026, 21:10 Sydney).** Scenes: 6. Last moved: Felix-Kai (one each). Next candidates:
+> Nora-Amara, Jun-Tess. Open requests from here: the false-versions card (Genius Lab, Wed 13:40) and the cancelled-note
+> cite (Archive, Wed 19:10), `../pm/REQUESTS.md`. On odd dates this room is beat 10 of the loop (`../pm/runbooks/kitchen.md`):
+> doors round in the scene, candidate fields to `../loop/TERRITORY.md`, tomorrow's orders to `../loop/FRONTIER.md` s4,
+> at most one lesson to `../loop/LESSONS.md`. The send-off is a huddle (runbook README step 3b): tonight
+> `../huddles/2026-11-03_the-kitchen-before-the-hand-over/`. Rules: one scene under 200 words per run, one relationship
 > moved in `../tea_room.md` "Relationships right now", at most one idea filed as a request. No episode numbers (the
-> episode task owns them). Web: curl and `fetch_text.py` blocked (proxy 403); the WebSearch and WebFetch tools work for
-> some sites, so tonight's doors and checks were read at the page (near-verbatim, LS-09) where marked.
+> episode task owns them). Web: WebSearch and WebFetch work for most sites (tonight HIA, ISMP Canada, Wikipedia,
+> ACSQHC, Telstra, Transport for NSW); quote them as near-verbatim (LS-09). Thu 5 Nov is a freeze: Keel answers only
+> what Caplet asks.
 
 ## Scenes (newest at the top)
+
+### Tue 3 Nov, 20:20, after the Archive
+Cup day. Amara poured six chais. "One thing from outside. No IPS."
+
+"Mum's stockroom prints part of some names in capitals," she said. "Two boxes that look the same. The capitals sit where they differ."
+
+Nora: "Dad leaves a gap where the tiles meet the wall. The gap takes the movement, so the tiles don't."
+
+"The second nurse does the heparin sums before she sees Mum's," Jun said. "Otherwise it's one check, twice."
+
+Kai: "A phone contract is two bills. The handset you owe whatever happens. The exit fee shrinks every month you stay."
+
+"Transport called off the new timetable," Felix said. "Reliability first."
+
+Tess: "Our understudy went on tonight. Played it her own way. Hit every spike, though, or the light misses her."
+
+Later Felix put his notebook beside Kai's cup, open at the 86.76%, crossed out in his own pen.
+
+"You found that."
+
+"Nora found mine." Kai turned the page. "Exhibit N. My lock, sized on funds paid as bonds."
+
+"One each."
+
+"One each." Kai wrote on a Post-it: *what did it leave out?* "You scout tomorrow. Fold your page before I read it."
+
+Felix stuck it on the back of his phone, under *which plan?*
 
 ### Sun 1 Nov, 20:20, after the Archive
 Amara poured six chais. "One thing from outside today. No IPS."

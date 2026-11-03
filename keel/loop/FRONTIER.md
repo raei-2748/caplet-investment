@@ -8,6 +8,7 @@
 ## 1. Open questions, ranked (Nora re-ranks each morning: most IPS lift for the least-explored ground first)
 | # | Question | Slot it could move (`CHAMPIONS.md`) | Why it matters | Added | Rounds spent |
 |---|---|---|---|---|---|
+| Q16 | Which of C06's lines has only been checked by the people who wrote it, and is each one true at its source? (Kitchen H-027, Tue 3 Nov) | C4 (P5's option clause), C6 (the lock), every line Caplet reads on Thu 5 Nov | The last round before the final AI draft goes to Caplet; nothing new is promoted. Three members first named Caplet's rewrite as the risk, then all three changed their minds: Wednesday is the last day to make C06 true, and the rewrite is Caplet's from Thursday. C06's "unless the market rises" has no source yet; the deletion test (A33) paid the funds as bonds | Tue 3 Nov | 0 |
 | Q11 | Once Laura names the range, what can still move the gift, and why is the top above what she owns? (F10; Long Room, 30 Oct) | C5 | 4 of 5 blind readers on 30 Oct asked "why a range once the half is locked?"; the fundraiser named the deleted signal. True answers known (LR-07: only the cheques' 2033 top-up, at most $9,768; case :110-112, List and Lucking-Reiley) but no tested words; candidate "it draws co-sponsors' gifts, and only the cheques can trim it" (+5) | Fri 30 Oct | 0. **Archive, 30 Oct:** V33 (`../ips_rewrite/drafts/D13/`, Book 10) already carries half an answer: "high enough that her lead gift draws bigger ones" (the signal) and "the rare miss is about $1,000" (what can still move it). Round 4 tests V33's words, not new ones |
 | Q2 | Which R makes "X = ten" land: redemption, runway, or something nobody has tried? What do people who name products for a living test before they pick? | C2 | `../BIBLE.md` Book 5: R must be clever, not weird; still open in the THINKING_LOG | Tue 27 Oct | 0 |
 | Q3 | How should the IPS define certainty so a judge says "aha", not "fine"? Who else writes down a standard for "certain enough" (law, engineering, medicine), and does any of them beat the IRS 1-in-20? | C3, C11 | S-05 is a strong challenger; the D4 holder has a factual flaw | Tue 27 Oct | 0 |
@@ -52,9 +53,9 @@
 | F19 | The Courtroom's payoff "Crushing one means selling it before its January" is loose: every rung matures before its January (IBTM Dec 2032 for 2033; the Feb-2037 T-bond for 2038), so after maturity there is nothing left to sell. "Before it matures" is true of all ten | last paragraph (C-05 repair) | Kitchen H-014, Kai (round 3 notes, 1 Nov) | **closed 2 Nov (superseded):** V53 dropped the Courtroom's payoff line; the last line is "Do not crush." alone, which raises F20 |
 | F20 | "Do not crush." can't be said back: asked what the last line tells Laura not to do, two cold readers on two models answered "can't tell" in all three texts | the last line (C9) and P2 | Writing Room H-018 (2 Nov) | open: "ten holdings, one redeemed for each January, none sold." (+2) gives it a handle; the Archive checked it: true of all ten (each fund redeems itself, each bond matures) and it is reflection 1's "untouched", but it must stay attached to the ten holdings, because Trading Note 1's waiting fund and the 2031 stock sale are sold (A4). The Long Room reads V53 v W2 tonight. **Rooftop, 2 Nov:** the Long Room's D answers it (three strangers of three said the ask back, V50's sentence in P2); F20 closes when the thread takes D; "no fourth flip" (rule 7 of `../huddles/2026-11-02_what-the-last-line-asks/blind/REGISTRATION_D.md`, 19:16) **Closed 3 Nov:** V54 took D (P2 "Crushing one means selling it before it matures, even for the building."), and C06 keeps it |
 | F21 | "Her promise" in P8 ("so her flexibility shrinks before her promise does") has two readings: the pitch calls the cheques "a promise", while P6 ("every dollar she promises") and the submitted VT note ("her promised minimum") use it for the gift | P8 | Laura's Room LR-10 (killed 3-0 as the cheques); Writing Room H-018 (2 of 2 cold readers read the range) | open: the Archive reads it as the TNA's own word and P9's order line rules out the bad reading, so it HOLDS; if the thread wants no doubt, "before her gift does" (0) (Archive A31). **Rooftop H-020, 2 Nov: the HOLD is void on D**, which cuts the order line it rests on (LS-15). The case says "promise" only of the 2031 range (case lines 114-115) and calls the cheques "the operating commitment"; the pitch calls the cheques "a promise". Settled Tue 3 Nov 16:20 by one stranger, TNA open, pitch shown, key written first ("the range" keeps "her promise"; anything else takes "her gift"); the Courtroom records it, no vote **Closed 3 Nov:** V54 P8 says "before her gift does"; on the pitch, 4 of 4 fresh strangers told the cheques' promise from the range's and nobody fused them (Writing Room H-025); recorded by the Courtroom, no vote |
-| F22 | The lock as the model sized it pays the five iBond rungs (2033-37) as par bonds. As funds (bonds maturing through the last year, cash waiting for the 15 December close at bill rates, 0.07% fee), the lock as sized pays every cheque in 97.02% of base futures and 82.18% if yields fall 2 points for good (shorts median $1,372 / $2,160) | C6 (the lock), the FR's certainty number | Courtroom C-06 exhibit N (3 Nov; Jun's actuary worry, L-17) | open for the FR, not the IPS: C06's words already describe the right size (the bonds inside the funds are "later bond payments" too): 100% in both, about $3,559 more on naming day at the median, from the stocks Laura keeps. Every FR number on the lock is sized as the words read (Archive A33); the Window gates exhibit N and the funds' real maturity dates Wed 08:40 |
+| F22 | The lock as the model sized it pays the five iBond rungs (2033-37) as par bonds. As funds (bonds maturing through the last year, cash waiting for the 15 December close at bill rates, 0.07% fee), the lock as sized pays every cheque in 97.02% of base futures and 82.18% if yields fall 2 points for good (shorts median $1,372 / $2,160) | C6 (the lock), the FR's certainty number | Courtroom C-06 exhibit N (3 Nov; Jun's actuary worry, L-17) | open for the FR, not the IPS: C06's words already describe the right size (the bonds inside the funds are "later bond payments" too): 100% in both, about $3,559 more on naming day at the median, from the stocks Laura keeps. Every FR number on the lock is sized as the words read (Archive A33); the Window gates exhibit N and the funds' real maturity dates Wed 08:40 **Kitchen H-027, 3 Nov (MODEL, a test for the Window):** A33 was built on par-bond funds (its own header, line 10), so "sized as the words read (Archive A33)" says more than A33 ran. Amara joined A33 to exhibit N: funds as funds, every share wiped on naming day, no cheque worse off in the base or the low-yield world (the halved-deposit world slightly worse), `../huddles/2026-11-03_the-kitchen-before-the-hand-over/research/amara_r3.md`; Nora re-runs it Wed 4 Nov as the member who didn't build it (LS-16). |
 | F23 | P4's new why, "in a downturn, when interest rates usually fall, making bonds cost more", rests on FRED GS10 (10 of 11 recessions); the NBER dates under it are UNVERIFIED | C4 (C06 P4) | Courtroom C-06 (3 Nov, Kai's charge: "no case" on the evidence so far) | open: the Window gates the NBER dates Wed 4 Nov 08:40 (`../pm/REQUESTS.md`); if "usually" fails, V54's "in the kind of downturn that makes a ladder dearer to buy" stands (a blind reader with the locked record preferred C06's line narrowly: it keeps the notes' link between falling yields and a dearer ladder) |
-| F24 | A judge with the WInS book open sees VT and the IBTM floor bought with the simulator's $300,000, while the pitch and P5 say Laura's first $300,000 buys only the ladder and the floor and stocks come from 2028 | the pitch, P5; the FR's Portfolio Analysis | Archive's blind reader (3 Nov, HIGH; the 2 Nov reader listed it as "not a clash") | open, FR first: two outside readers split, and Library N1 (3-0) kept the IPS free of a "scaled" bridge (case :129-130; Wharton: "Your WInS portfolio should reflect the strategy"). The reader's fix, "Our trades show this portfolio, scaled to $300,000." (+8), needs 8 words cut from C06 (497 strict). The FR's first Portfolio Analysis line says it in the Nov-2041 note's own words ("scaled to the model portfolio") (Archive A32) |
+| F24 | A judge with the WInS book open sees VT and the IBTM floor bought with the simulator's $300,000, while the pitch and P5 say Laura's first $300,000 buys only the ladder and the floor and stocks come from 2028 | the pitch, P5; the FR's Portfolio Analysis | Archive's blind reader (3 Nov, HIGH; the 2 Nov reader listed it as "not a clash") | open, FR first: two outside readers split, and Library N1 (3-0) kept the IPS free of a "scaled" bridge (case :129-130; Wharton: "Your WInS portfolio should reflect the strategy"). The reader's fix, "Our trades show this portfolio, scaled to $300,000." (+8), needs 8 words cut from C06 (497 strict). The FR's first Portfolio Analysis line says it in the Nov-2041 note's own words ("scaled to the model portfolio") (Archive A32) **Kitchen H-027, 3 Nov:** not a scout job (2-1): Wharton line 117 is an order to the book, not the IPS, and Nora answered it on 2 Nov (N1); it stays with Caplet as a split (`../pm/ASK_HUMANS.md`, the Archive's row of 3 Nov). **CORD (Kai):** A32 and bank #142 cite the Nov-2039 note's "scaled 2040 payment", which is on a cancelled order (WInS snapshot line 52; the filled note says "$50,000 payment"); the FR line leans on the Nov-2041 note alone, which scales "the last five payments" (to the Archive, Wed 19:10). |
 
 ## 3. Stepping stones (ideas that lost, or haven't found their place, but left something to build from)
 | # | Stone | What it left | Where it might lead | From |
@@ -86,66 +87,70 @@
 
 ## 4. Tomorrow's scouting orders (written by the send-off at 20:20; Nora may change them at 07:00)
 
-**Round 7, Tue 3 Nov (written by the Rooftop, Mon 2 Nov, 20:20; huddle H-020, Tess, Nora, Jun, 3 rounds; every line
-below 3-0 unless marked).** The last day anything new is promoted; the final AI draft goes to Caplet at the end of Wed 4
-Nov. Question: **Q15, which words in D plus the cure would the weakest stranger have to guess, and what do people who
-explain money for a living put first?** Book 11 item 6 ("half of your sentences just DON'T MAKE SENSE") and the
-fingerprint it names ("your extreme obsession with parsimony and concision"), in a form strangers can test rather than
-our own ear (Commandment VI). Dial **0 : 3**: no new fields. **The text:** the Long Room's D plus the Archive's cure,
-`../rooms/archive_checks/V54D_archive_repaired_ips.txt` (497 strict); if the rewrite thread lands V54 overnight, check
-that one. Lens **19, the child's question** (never drawn): "Explain it to a twelve-year-old in two lines. Which word did
-you have to cheat on?"
-**What each scout brings back** (no model numbers; no pitch; no paragraph rewritten; **no sentence brought back to
-paste**, because copying great lines made V49 worse, Book 11): the source's own words for the idea, quoted with URL and
-date read (near-verbatim if read through a fetch tool, LS-09); the D sentence it tests; **what the source explains first
-that our sentence skips** (the missing step); and a verdict, CLEAR, GUESS (name the word a stranger has to guess) or
-WRONG. To `../ips_rewrite/inbox/2026-11-03_library.md`. The new wording stays with the Writing Room at 16:20.
-**LS-14 applied:** each Wharton line below was read at `../WHARTON_WORD.md` on Mon 2 Nov, 20:20-21:30. The file's numbers
-moved +7 on Mon 2 Nov when the case's "together" lines went in ("should reflect the strategy" is now line 117, "why each
-investment belongs" lines 120-121), so quote the line, not a number from memory. **Felix** (chair's pick), who didn't write the order,
-reads them back at 07:00. **LS-15 applied (new tonight):** before any room cuts or moves a line, it searches the
-register for it and names what carries each job afterwards. **LS-10 applied:** P8 gets two beats, the Window and the
-Writing Room; nothing else touches it.
-**Rotation row 7** (fixed: row 1 would have put Tess and Felix on the scouts' job two rounds running): scouts are the
-three who didn't scout in round 6, with round 5's fields swapped (whoever went near goes far): **Amara near, Kai
-adjacent, Jun far**. Flaw-hunter **Tess**. Cold judge **Nora**, her sheet written before any reader runs: the pass mark
-first, every question must pass, the weakest reader decides, and every tally says how many readers were strangers ("a
-member is a vote, never a reading"). Builder at 13:40 **Felix** (Tess's Writing Room reads the build at 16:20, so she
-can't build it).
-- **Near, Amara (Haiku 5.5): capital-protected notes** (mined; deepened). D's P5: "Banks sell this as a capital-protected
-  note, but they spend that interest on an option, which expires worthless if the market stands still. Shares don't."
-  The skimmer: neither term explained; and "Shares don't." was "Shares don't expire." in V52 when the Window passed it.
-  Read how a regulator explains a capital-protected or principal-protected product to an ordinary investor (ASIC's
-  Moneysmart; the SEC's investor bulletin on principal-protected notes, already read in the Window's W-06): which plain
-  word comes before "option", and what is explained first. **Wharton line 71:** "Clearly explain your team's investment
-  strategy and the reasoning behind it." **Could change:** P5. (door: her mum's vaccine fridge, the bad-reading rule written in advance)
-- **Adjacent, Kai (Sonnet 5.5): the share with no "of what?"** (weather forecasting, mined; his own field from round 3).
-  The Bureau of Meteorology's own explanation of a chance of rain and a possible-rainfall range: what the forecaster says
-  the number is a share *of*, and what readers picture without it. Then each share in D: "That is under a tenth of her
-  money." (that = ?), "roughly the interest it should earn", "half her stocks": can a stranger say what it is a share of?
-  **Wharton lines 89-90:** "Your goal is to present a clear, cohesive, and well-supported investment strategy." **Could
-  change:** P5, P6 (not P8: LS-10). (door: the 14-second shot clock)
-- **Far, Jun (Opus 5.5): what a medicine leaflet says first, and the pass mark it must meet** (pharmacology, mined; the
-  motif's home). An Australian consumer medicine leaflet for an extended-release tablet (the TGA's CMI rules, or the
-  Panadol Osteo leaflet the Long Room quoted): what it defines before it says "do not crush". And the readers' test a
-  leaflet must pass: Norway's medicines agency, read tonight through a fetch tool (near-verbatim): "90% of test
-  participants can find the information, of whom 90% can show that they understand it", on "each and every question";
-  find the EU's own guideline if the host opens. Bring back the leaflet's order beside D's P2-P4 (the caplet sentence,
-  "Crush it and the schedule is gone.", "Crushing one means selling it before its January, even for the building.",
-  "funds that mature like bonds", "dearer to buy"), and a pass mark Nora can honestly use with three readers. **Wharton
-  line 34:** "Presents a compelling, well-organized narrative in an authentic team voice". **Could change:** P2, P3, P4.
-  (door: his dad's flood inputs)
-- **To rooms, not scouts:** the **Window** (08:40) reads F21's HOLD out (it rests on the order line D cuts) and lays the
-  case's only "promise" (case lines 114-115, the 2031 range) beside the pitch's "Laura's ten $50,000 cheques are a
-  promise", on top of the five requests already queued (D's three edits, P3's "pays exactly what it promises", the gap
-  money's home, "one rung" and "none sold", the L-16 and LR-10 gates). The **Writing Room** (16:20) takes the six
-  stumbles (queued) with the scouts' missing steps beside them, read blind by a fresh skimmer; asks one stranger, TNA
-  open, pitch shown, key written first, what "her promise" means (F21); and whoever rewrites P8's last line keeps the job
-  the cut order line did. The **Courtroom** (18:20; Tuesday is odd) tries the round's challengers against D + the cure
-  and records F21's result, no vote on it.
-- **Not tomorrow:** new fields; any model number; the pitch's words (the rewrite thread owns them; the "promise"
-  finding goes to it as a note, `../ips_rewrite/inbox/2026-11-02_rooftop.md`); reopening the last line ("no fourth
-  flip").
+**Round 8, Wed 4 Nov (written by the Kitchen, Tue 3 Nov, 20:20; huddle H-027, Amara, Felix, Kai, 3 rounds; votes as
+marked).** The last round before the final AI draft goes to Caplet (end of Wed 4 Nov); Thu 5 Nov is a freeze ("Caplet
+reads; Keel answers only what Caplet asks"). **Nothing new is promoted.** Question: **Q16, which of C06's lines has only
+been checked by the people who wrote it, and is each one true at its source?** (Felix's and Amara's words.) All three
+first named Caplet's rewrite as tomorrow's risk; all three changed their minds in round 2 (Kai: "The rewrite is
+Caplet's risk, from Thursday. Wednesday's is ours"), 3-0. Dial **0 : 3**. **The text:** C06
+(`../huddles/2026-11-03_w5-on-trial/exhibits/C06_ruling_ips.txt`, 497 strict); if the rewrite thread lands V55
+overnight, check that one. Lens **1, Invert** (never drawn), aimed at C06, not at Caplet: "How would this plan fail
+Laura, step by step? Now remove each step." 3-0.
+**What each scout brings back:** no model numbers for the IPS, no pitch, no sentence to paste; for every claim checked,
+the source's words (URL, date read, near-verbatim if through a fetch tool, LS-09) and TRUE, TRUE IF (name the
+condition) or FALSE. To `../ips_rewrite/inbox/2026-11-04_library.md`.
+**LS-14 applied:** each Wharton line below was read at `../WHARTON_WORD.md` on Tue 3 Nov, 20:25-20:50, by the members who
+proposed it and again by the chair. **Nora** (she didn't write these orders) reads them back at 07:00. **LS-16 applied
+(new tonight):** a clean model number leaves its room only after someone who didn't build it puts back the biggest thing
+it leaves out and re-runs it.
+**Rotation row 8:** scouts are the three who didn't scout in round 7, round 6's fields swapped (whoever went near goes
+far): **Felix near, Nora adjacent, Tess far**. Flaw-hunter **Jun** (he wrote none of C06's six new lines and not the
+lock), cold judge **Amara** (sheet sealed first, read back by Felix; strangers decide, not her, since she wrote in W5's
+room), builder at 13:40 **Kai** (2-1; Felix wanted Amara cutting, Kai hunting, Jun judging).
+- **Near, Felix (Sonnet 5.5): capital-protected notes** (mined; deepened). C06 P5 now says the option "expires
+  worthless unless the market rises" (a W5 line the Courtroom took tonight). Every check so far (the Window 2 Nov TRUE,
+  3 Nov TRUE IF at the money; the Library 3 Nov) was on the old words, "if the market stands still". The new words have
+  two readers' preference and no source. At a regulator's page (ASIC Moneysmart, the SEC's investor bulletin): is it
+  true of a capital-protected note as sold, or only of the textbook one (zero-coupon bond plus an at-the-money call)?
+  Name the condition if TRUE IF. **Wharton line 71:** "Clearly explain your team's investment strategy and the
+  reasoning behind it." **Could change:** P5's option clause only (a word, not a sentence). (door: the cancelled
+  timetable)
+- **Adjacent, Nora (Opus 5.5): fixed income, the funds' own mechanics** (mined; deepened). Tonight Amara joined the
+  Archive's deletion test (A33, which pays the five funds as par bonds: its own header, line 10) to the Courtroom's
+  exhibit N (the funds as funds): wipe every share on naming day and no cheque is worse off in the base or the
+  low-yield world; the halved-deposit world is slightly worse (MODEL, `../huddles/2026-11-03_the-kitchen-before-the-hand-over/research/amara_r3.md`).
+  Nora didn't build it: re-run it from a clean checkout (`python3 -B keel/huddles/2026-11-03_the-kitchen-before-the-hand-over/research/amara_r3_deletion_on_funds.py S0 S6 S9`,
+  ~100 s; it asserts L-17, A33 and exhibit N before it prints), then put back the biggest thing it still leaves out (her
+  choice, said before she runs it; exhibit N's own list names the even spread of maturities and the 0.07% fee) and run
+  it again, or say why that can't be done in one run. **Wharton line 27:** "uses reasonable assumptions and projections
+  to evaluate funding reliability". **Could change:** nothing in the IPS; P5's "the cheques never depend on it" either
+  holds on the funds or is flagged before Caplet reads it. (door: the gap at the wall)
+- **Far, Tess (Haiku 5.5, then Sonnet 5.5 for any page Haiku can't open): the Window's own sources** (mined pages, read
+  again). Nobody has ever read the Window's answers back. After the Window's 08:40 gates, re-read at their pages the
+  sources the Window cites on exhibit N (the iShares final-year sentence; the funds' maturity dates), LR-11 (the escrow
+  clauses: Wisconsin 2021 s4.1(b), s4.5; MWRA 2025-2 s3, s7, s10; Santa Monica 2018 s3.1) and L-17 (MWRA s3), and say
+  for each: the words are there, the "so" holds (LS-02), or CORD. Not the A33 or W5 rows: Tess filed those. **Wharton
+  lines 89-90:** "Your goal is to present a clear, cohesive, and well-supported investment strategy." **Could change:**
+  P8's lock sentence, only if a source fails. (door: the understudy's spikes)
+- **Builder, Kai (13:40, the Genius Lab beat): the false-versions card** (the idea from Amara's door, mixed-case
+  lettering on look-alike medicine names: "uses selective capitalisation to help make similar looking medicine names
+  more easily distinguishable", ACSQHC, near-verbatim). One page for the rewrite thread's final folder (K01), never the
+  IPS: each fact in C06 beside the false version that once stood in its place (FRONTIER s2 and the register: "ten
+  Treasuries", "before its January", "her floor" with no "rounded down", "promise" for the gift, "Treasuries" for the
+  2032 fund, and Amara's new twin, "later coupons" for "later bond payments", which shrinks the lock), no numbers, so
+  Caplet can reword freely without landing on one. A list of false versions, never words to keep: "keep exactly" fights
+  Wharton line 34's "authentic team voice" (3-0). Jun throws Year 11 rewrites at it; Amara judges it cold.
+- **To rooms, not scouts:** the **Window** (08:40) keeps its five queued gates (A33 as built, exhibit N with the funds'
+  real maturity dates and the NBER dates under "usually fall", W5's words, LR-11, L-17); Tess reads three of them back
+  after. **F24** (the WInS book v "her first $300,000") is not a scout job (Kai withdrew it after checking: Nora answered
+  it on 2 Nov, N1 3-0, and Wharton's line 117 is an order to the book, not the IPS): it stays with Caplet as a split,
+  Final Report first (2-1; `../pm/ASK_HUMANS.md`, the Archive's row of Tue 3 Nov). The **Archive** (19:10) fixes A32's
+  and bank #142's cite (Kai's CORD: the "scaled 2040 payment" note is on a cancelled order). The **Long Room** (18:20,
+  even date) hears Jun's flaw hunt and Amara's judgement on the card; no vote on C06's words.
+- **Not tomorrow:** new fields; any model number in the IPS; the pitch's words; F24's eight words (Caplet's call);
+  reopening the last line ("no fourth flip"); the rewrite itself (Caplet's, from Thursday).
+
+**Round 7, Tue 3 Nov** (the Rooftop's orders, Mon 2 Nov): carried out; see `rounds/2026-11-03.md` and Q15 in section 1.
 
 **Round 6, Mon 2 Nov** (the Kitchen's orders, Sun 1 Nov): carried out; see `rounds/2026-11-02.md` and Q14 in section 1.
 

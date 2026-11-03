@@ -1,5 +1,5 @@
 {
- "built": "2026-11-03T08:24",
+ "built": "2026-11-03T09:51",
  "days": [
   {
    "date": "2026-11-03",
@@ -11,6 +11,9 @@
     "The Lab's new rule for the ladder's weak point keeps every cheque and the number Laura tells co-sponsors safe, but it is paid for by the stocks she keeps for herself, which run out more often, and our draft never says that most of that money comes back once the cheques don't need it.",
     "Public bond escrows, which are sized exactly this way, hand the leftover back to the owner once what remains still covers every later payment; so all three of us want the IPS to say the money comes back to Laura, and to keep a quarter of her stocks out of reach on the day she names her range, so she is never left with nothing when the building starts.",
     "We offer a package at 497 words: \"as if nothing more is reinvested\", \"until only a quarter of them is left\", and \"returning to Laura what the cheques don't need\", paid for by four small cuts nobody needed.",
+    "We first all agreed that tomorrow should protect the IPS from your rewrite, then all three of us changed our minds: Wednesday is our last day to check the draft, and the rewrite is yours from Thursday.",
+    "Checking tonight, we found our own 'wipe out the shares' test still treated the five bond funds as plain bonds; with the funds put back the way they really pay out, wiping every share still leaves every cheque whole.",
+    "Tomorrow three of us check the one new line nobody has sourced and re-check the checkers, and we write you a short list of the false versions each fact once had, so you can reword freely without landing on one.",
     "Our newest IPS says we check the bond ladder's one weak point once, in 2031, but the plan behind it checks twice, again in January 2033.",
     "Kai caught a leak in my first test, which made the gap look four times bigger than it is; fairly measured, with one check a cheque comes up a little short (usually about $1,300) in about 1 future in 25, and with two about 1 in 770.",
     "So the IPS should either name the second check or use Kai's simpler rule, setting the money aside as if the interest earned nothing, which needs no second check at all.",
@@ -101,6 +104,54 @@
      "changes": [
       "Offer in ../../ips_rewrite/inbox/2026-11-03_lauras-room.md (full text: ../../rooms/lauras_room/LR-11_offered_ips.txt); no draft changed by the room",
       "../../rooms/lauras_room/LR-11_parked_not_spent.md (+ .py, _results.json)"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    },
+    {
+     "id": "H-027",
+     "title": "The Kitchen before the hand-over",
+     "question": "Round 7 was the last day anything new could be promoted, and the final AI draft goes to Caplet at the end of Wed 4 Nov. What did round 7 teach us about how we work, and what should round 8 do with a verify-only dial?",
+     "status": "closed",
+     "room": "Kitchen",
+     "chair": "Amara",
+     "members": [
+      "Amara",
+      "Felix",
+      "Kai"
+     ],
+     "essence": [
+      "We first all agreed that tomorrow should protect the IPS from your rewrite, then all three of us changed our minds: Wednesday is our last day to check the draft, and the rewrite is yours from Thursday.",
+      "Checking tonight, we found our own 'wipe out the shares' test still treated the five bond funds as plain bonds; with the funds put back the way they really pay out, wiping every share still leaves every cheque whole.",
+      "Tomorrow three of us check the one new line nobody has sourced and re-check the checkers, and we write you a short list of the false versions each fact once had, so you can reword freely without landing on one."
+     ],
+     "decided": [
+      "3-0: round 8 checks C06 at its sources (lens 1, Invert); the rewrite is Caplet's from Thursday",
+      "3-0: Felix near sources 'which expires worthless unless the market rises' (P5); Tess far reads the Window's 08:40 answers back at their sources; 2-1: Nora re-runs Amara's test as the member who didn't build it",
+      "2-1: F24 goes to Caplet as a split, Final Report first, no IPS words from Keel (Amara: Nora checks first)",
+      "2-1: Kai builds (cuts the false-versions card), Jun hunts flaws, Amara judges cold (Felix: Jun judges, Amara cuts)",
+      "3-0: the card lists each false version beside its fact, no numbers, for the rewrite thread's final folder, never the IPS",
+      "3-0: LS-16, 'Before a model's clean number leaves its room, someone who didn't build it puts back the biggest thing it leaves out and runs it again; a list isn't a check.' (2-1 on the last clause)"
+     ],
+     "seeds": [
+      "'Later bond payments' pulls the funds' own bonds inside the lock; 'later coupons' would shrink it below the sizing that already misses. Would Caplet ever know that word was holding a cheque up? (the card, Wed 13:40)",
+      "The updated IPS instructions' lines 79-80 ('Your portfolio and Final Report should reflect the strategy established in your IPS') are not in WHARTON_WORD, so no order can quote them (Library, after the freeze)"
+     ],
+     "todos": {
+      "done": 5,
+      "total": 12
+     },
+     "path": "keel/huddles/2026-11-03_the-kitchen-before-the-hand-over",
+     "transcript": "keel/huddles/2026-11-03_the-kitchen-before-the-hand-over/transcript.md",
+     "changes": [
+      "keel/loop/FRONTIER.md",
+      "keel/loop/LESSONS.md",
+      "keel/loop/TERRITORY.md",
+      "keel/loop/rounds/2026-11-03.md",
+      "keel/rooms/kitchen.md",
+      "keel/tea_room.md",
+      "keel/pm/REQUESTS.md",
+      "keel/ips_rewrite/IDEA_BANK.md"
      ],
      "rounds": 3,
      "rounds_today": 3
@@ -326,6 +377,42 @@
      "huddle": "H-024"
     },
     {
+     "path": "keel/huddles/2026-11-03_the-kitchen-before-the-hand-over/research/amara.md",
+     "title": "amara",
+     "member": "Amara",
+     "huddle": "H-027"
+    },
+    {
+     "path": "keel/huddles/2026-11-03_the-kitchen-before-the-hand-over/research/amara_r3.md",
+     "title": "Amara, round 3 check notes (H-027, Tue 3 Nov 2026)",
+     "member": "Amara",
+     "huddle": "H-027"
+    },
+    {
+     "path": "keel/huddles/2026-11-03_the-kitchen-before-the-hand-over/research/felix.md",
+     "title": "Felix, sources (3 Nov 2026)",
+     "member": "Felix",
+     "huddle": "H-027"
+    },
+    {
+     "path": "keel/huddles/2026-11-03_the-kitchen-before-the-hand-over/research/felix_r3.md",
+     "title": "Felix, round 3 check (Tue 3 Nov 2026, Kitchen 20:20): every scout job against the Open table",
+     "member": "Felix",
+     "huddle": "H-027"
+    },
+    {
+     "path": "keel/huddles/2026-11-03_the-kitchen-before-the-hand-over/research/kai.md",
+     "title": "Kai's sources (round 1, Tue 3 Nov 2026)",
+     "member": "Kai",
+     "huddle": "H-027"
+    },
+    {
+     "path": "keel/huddles/2026-11-03_the-kitchen-before-the-hand-over/research/kai_r3.md",
+     "title": "Kai's round 3 check notes (H-027, Tue 3 Nov 2026)",
+     "member": "Kai",
+     "huddle": "H-027"
+    },
+    {
      "path": "keel/huddles/2026-11-03_w5-on-trial/research/chair_exhibit_N.md",
      "title": "Exhibit N (the chair's test, copied from `../../../rooms/courtroom/C-06_w5_on_trial/EXHIBIT_N.md`; links below are relative to that file)",
      "member": "Chair",
@@ -540,6 +627,41 @@
      "owner": null,
      "day": "2026-11-03",
      "huddle": "H-024"
+    },
+    {
+     "text": "Round 8's orders written in the loop's frontier: Q16, lens 1, three verify jobs with their Wharton lines (Amara, Felix, Kai; done 3 Nov)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-11-03",
+     "huddle": "H-027"
+    },
+    {
+     "text": "LS-16 filed: someone who didn't build it puts back the biggest thing the model leaves out and runs it again (Felix's words; done 3 Nov)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-03",
+     "huddle": "H-027"
+    },
+    {
+     "text": "A33's deletion test re-run with the five funds as funds (exhibit N's leg) and C06's lock as the words read (Amara; done 3 Nov: no cheque worse off in the base or low-yield world; MODEL, a test)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-11-03",
+     "huddle": "H-027"
+    },
+    {
+     "text": "Chair re-ran Amara's test on the base world from the same checkout: identical JSON (chair; done 3 Nov)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-03",
+     "huddle": "H-027"
+    },
+    {
+     "text": "CORD: A32 and bank #142 cite a cancelled-order note (\"scaled 2040 payment\") (Kai; filed to the Archive, done 3 Nov)",
+     "done": true,
+     "owner": "Kai",
+     "day": "2026-11-03",
+     "huddle": "H-027"
     },
     {
      "text": "V54 line by line against the case, the TNA and the model files (Felix; done 3 Nov: `../../ips_rewrite/inbox/2026-11-03_window.md` s2)",
@@ -810,6 +932,55 @@
      "huddle": "H-024"
     },
     {
+     "text": "Re-run Amara's test from a clean checkout as the member who didn't build it, and put one more thing back (Nora, adjacent scout; by Wed 4 Nov 12:10)",
+     "done": false,
+     "owner": "Nora",
+     "day": null,
+     "huddle": "H-027"
+    },
+    {
+     "text": "Source \"which expires worthless unless the market rises\" (C06 P5) at a regulator's page: true of every capital-protected note, or only the textbook one? (Felix, near scout; by Wed 4 Nov 12:10)",
+     "done": false,
+     "owner": "Felix",
+     "day": null,
+     "huddle": "H-027"
+    },
+    {
+     "text": "Read the Window's 08:40 answers on exhibit N, LR-11 and L-17 back at their sources (Tess, far scout; by Wed 4 Nov 12:10)",
+     "done": false,
+     "owner": "Tess",
+     "day": null,
+     "huddle": "H-027"
+    },
+    {
+     "text": "Cut the false-versions card from FRONTIER s2 and the register, no numbers, with \"later bond payments\" on it (Kai, builder; Wed 4 Nov 13:40)",
+     "done": false,
+     "owner": "Kai",
+     "day": null,
+     "huddle": "H-027"
+    },
+    {
+     "text": "Throw Year 11 rewrites at the card and C06 (Jun, flaw-hunter; Wed 4 Nov)",
+     "done": false,
+     "owner": "Jun",
+     "day": null,
+     "huddle": "H-027"
+    },
+    {
+     "text": "Judge the card cold, sheet sealed first, read back by Felix (Amara; Wed 4 Nov)",
+     "done": false,
+     "owner": "Amara",
+     "day": null,
+     "huddle": "H-027"
+    },
+    {
+     "text": "Fix A32's and bank #142's cite to the Nov-2041 note (the Archive, Tess; Wed 4 Nov 19:10)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-027"
+    },
+    {
      "text": "Gate exhibit N from a clean checkout; the funds' real maturity dates against the even spread; the NBER dates under \"usually fall\" (Window, Felix; by Wed 4 Nov 08:40)",
      "done": false,
      "owner": "Window",
@@ -867,6 +1038,12 @@
     }
    ],
    "runs": [
+    {
+     "day": "2026-11-03",
+     "when": "Tue 3 Nov 21:10",
+     "room": "Kitchen",
+     "what": "Beat 10, round 7, as huddle H-027 (Amara, Felix, Kai; 3 rounds, 9 agent calls): all three first said round 8 should guard the IPS against Caplet's rewrite, then all three changed their minds (3-0): Wednesday checks C06, the rewrite is Caplet's from Thursday. **Round 8 orders: Q16** \"which of C06's lines has only been checked by the people who wrote it, and is each one true at its source?\" (lens 1; Felix near, \"unless the market rises\" at a regulator's page, line 71; Nora adjacent, re-runs Amara's test as the non-builder, line 27; Tess far, reads the Window's 08:40 answers back, lines 89-90; Jun hunts, Amara judges, Kai builds the false-versions card). **Test (Amara, MODEL):** A33 paid the funds as par bonds (its header, line 10); joined to exhibit N, wiping every share leaves 0 of 200,000 futures worse off, base and S6 (S9 1.60% v 0.94%); chair re-ran S0, identical. **LS-16** new. CORDs: \"nine rooms\" (two); F20 closed; A32/bank #142 cite a cancelled-order note. Scene 6 (Felix-Kai, one each); 6 doors read at their pages, 2 TERRITORY candidates + 2 notes; requests to the Genius Lab and the Archive; bank #162-#163. `../office/outbox/2026-11-03_kitchen_the-kitchen-before-the-hand-over.md`"
+    },
     {
      "day": "2026-11-03",
      "when": "Tue 3 Nov 19:45",
