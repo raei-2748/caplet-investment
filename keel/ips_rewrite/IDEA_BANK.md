@@ -313,6 +313,14 @@ times worse" becomes 5-10 times. Fix both or neither, and don't re-size the top 
 `research/R07_synergies/FUSIONS.md` s3): deferred annuities, Lundberg ruin, Tobin's perpetual rule, DSRA and debt
 sculpting, k-out-of-n, rolldown, Bayesian persuasion as a tool, Kreps-Wilson, cy-près, Dutch book.
 
+## From the Final Report plan (Wed 4 Nov: `../final_report/ERUDITION_PLAN.md`; numbered after the Kitchen's 162-163)
+
+| # | Idea | Where | Why it earns its place | Honest weakness / critique |
+|---|---|---|---|---|
+| 164 | **Validate the models the way banks must (Final Report thread, Wed 4 Nov).** The Fed's SR 11-7 (4 Apr 2011, read 4 Nov) names "Evaluation of Conceptual Soundness", "Ongoing Monitoring" and "Outcomes Analysis", plus "effective challenge" ("critical analysis by objective, informed parties that can identify model limitations and produce appropriate changes"). Our family tree, re-runs on each curve, history replay with cross-engine reconciliation, and devil's-advocate tests written before each run map onto it | FR (method note; `../final_report/ERUDITION_PLAN.md` s6) | Turns forty numbers into evidence a practitioner trusts, in one short paragraph | A bank's rulebook for a household plan can read as costume; use it as the shape of the method note, one sentence on the source, no more |
+| 165 | **The strategy family tree (Final Report thread, Wed 4 Nov; Caplet I81).** Caplet XR shown as about twenty named strategies, each with what we took, what we refused and the test that settled it, plus the ideas that look relevant and aren't, and six fusions that are ours | FR (§2, the erudition centrepiece; `../final_report/ERUDITION_PLAN.md` s3) | Proves wide reading and synthesis at once (Books 4 and 9); every refusal points to a run | Twenty rows can read as a catalogue; the report keeps the rows that changed or defended a decision |
+| 166 | **Test the NAV treatment on an iBond fund that has already closed (Final Report thread, Wed 4 Nov).** The Dec 2024 fund's Form 497 notice is on file; compare its last months with how exhibit N models our five funds | FR (§3, §8) | An outcomes check on real data, not a model | Different year, different yields; one fund is one case |
+
 ## Motif material (XR)
 
 | # | Idea | Where | Critique |

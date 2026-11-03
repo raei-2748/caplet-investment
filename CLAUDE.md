@@ -1,7 +1,7 @@
 # Team Keel / Team Caplet: project memory
 
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
-decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-03 (Ray: drafts read AI/corny and the team can't follow Keel; V55 = V54 in plain English, `caplet/STATUS_2026-11-03.md`; all branches merged into main 2 Nov; V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
+decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-04 (Final Report erudition plan, `keel/final_report/ERUDITION_PLAN.md`; 3 Nov Ray: drafts read AI/corny and the team can't follow Keel; V55 = V54 in plain English, `caplet/STATUS_2026-11-03.md`; all branches merged into main 2 Nov; V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
 
 ## For every Claude session in this repo (all teammates)
 - **Talk to the students plainly (Ray, 3 Nov, INSTRUCTIONS I80).** Anything written for Caplet is one page of plain
@@ -62,6 +62,10 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
   `keel/pm/ASK_HUMANS.md` with a default Keel acts on), merges its `keel/**` work into main daily, and never decides for Caplet.
 
 ## Current status (2026-10-14) - read this before the older sections below
+- 4 Nov (Caplet, INSTRUCTIONS I81-I82): put all of Keel's modelling into the Final Report and make erudition a top
+  priority (concepts and strategies, each judged relevant or not, fused into our own). Plan: `keel/final_report/ERUDITION_PLAN.md`
+  (every model family with its finding, method, report section and reading; the strategy family tree; the IPS bridge:
+  ~16 ideas the final IPS V56 uses uncited, which the report cites). Next: one numbers engine on V56 + the 6 Nov close (Sat 7-Sun 8 Nov).
 - 1 Nov (Caplet, INSTRUCTIONS I71): "steal" the best human sentences: V48 (`keel/ips_rewrite/drafts/D28/`) rebuilds V47
   sentence by sentence on the shapes of 15 great writers (shape and turn borrowed, never their words; every sentence
   sourced in `SOURCE_LOG.md`). Blind voice read: V48 over V47, narrowly; V47 stays the panels' best until a panel reads V48.
