@@ -4,6 +4,7 @@
 
 | ID | Opened | Title | Status | Rounds | Members | To-dos | Essence |
 |---|---|---|---|---|---|---|---|
+| H-028 | 2026-11-04 | [The word the writer meant](2026-11-04_the-word-the-writer-meant/transcript.md) | closed | 3 | Felix, Kai, Tess | 7/9 | We checked every new investing idea in the final draft at its source (the 1987 crash report, the US and Australian regulators on capital-protected notes, a 1995 finance paper, a medicine leaflet), and every one is true.  |
 | H-027 | 2026-11-03 | [The Kitchen before the hand-over](2026-11-03_the-kitchen-before-the-hand-over/transcript.md) | closed | 3 | Amara, Felix, Kai | 5/12 | We first all agreed that tomorrow should protect the IPS from your rewrite, then all three of us changed our minds: Wednesday is our last day to check the draft, and the rewrite is yours from Thursday. Checking tonight,  |
 | H-026 | 2026-11-03 | [W5 on trial](2026-11-03_w5-on-trial/transcript.md) | closed | 3 | Kai, Tess, Nora | 9/12 | We put the Writing Room's repaired IPS on trial against the current one, and two outsiders who had never seen either split: a bond manager preferred the repair by 2 points, a Year 10 student preferred the original by 2,  |
 | H-025 | 2026-11-03 | [Words a stranger can say back](2026-11-03_words-a-stranger-can-say-back/transcript.md) | closed | 3 | Amara, Kai, Tess | 8/11 | Four people who had never seen our work read the newest IPS and our repair, and we changed only the words they tripped on, like "yields" and "facility", keeping it at 497 words. All four understood one plain way to say h |
@@ -94,3 +95,5 @@
 - H-022: After naming day, does the reinvestment cushion's forecast fall on the top of the range or on a cheque? (S-12 break 2; Genius Lab, MODEL, Final Report)
 - H-025: A cheque's safety after naming day is never said in words (one stranger: 'possibly yes'); about three words would say it, beside five fund rungs that pay out net asset value (Courtroom tonight; Final Report)
 - H-025: What strangers still take on trust: 'option' (4 of 4), 'operating reserve' (3 of 4), why falling rates raise bond prices (Caplet's own words)
+- H-028: Does 'Her income already rides on booms' say back better than 'rides on shares' to strangers? (Writing Room, 16:20)
+- H-028: Three false versions for Kai's card for Caplet's rewrite: 'we don't duration-match', 'the funds pay exactly what they promised', 'the ladder's one weakness' (Genius Lab, 13:40)

@@ -1,6 +1,158 @@
 {
- "built": "2026-11-03T09:51",
+ "built": "2026-11-03T21:58",
  "days": [
+  {
+   "date": "2026-11-04",
+   "weekday": "Wed",
+   "essence": [
+    "We checked every new investing idea in the final draft at its source (the 1987 crash report, the US and Australian regulators on capital-protected notes, a 1995 finance paper, a medicine leaflet), and every one is true.",
+    "But our submitted trading notes already told the judges the bond funds pay what they are worth at the end, not a promised amount, while the draft says a Treasury held to maturity pays exactly what it promised, right after naming the funds.",
+    "One word fixes it ('a Treasury bond'), and another ('main' for 'one weakness') removes a second clash; Kai voted against the first because the sentence is already true of a bond."
+   ],
+   "huddles": [
+    {
+     "id": "H-028",
+     "title": "The word the writer meant",
+     "question": "Which of V57's lines (the final AI draft for Caplet, landed 08:26 Wed 4 Nov) has only been checked by the people who wrote it, and is each one true at its source and beside our own submitted TNA? (round 8 beat 2; Q16 aimed at V57)",
+     "status": "closed",
+     "room": "Window",
+     "chair": "Felix",
+     "members": [
+      "Felix",
+      "Kai",
+      "Tess"
+     ],
+     "essence": [
+      "We checked every new investing idea in the final draft at its source (the 1987 crash report, the US and Australian regulators on capital-protected notes, a 1995 finance paper, a medicine leaflet), and every one is true.",
+      "But our submitted trading notes already told the judges the bond funds pay what they are worth at the end, not a promised amount, while the draft says a Treasury held to maturity pays exactly what it promised, right after naming the funds.",
+      "One word fixes it ('a Treasury bond'), and another ('main' for 'one weakness') removes a second clash; Kai voted against the first because the sentence is already true of a bond."
+     ],
+     "decided": [
+      "No false line in V57 or its pitch",
+      "Near-breach: P4 'A Treasury held to maturity pays exactly' v the TNA's 'as opposed to a promise of par'; offer 'bond' (+1, 497 strict), 2-1, Kai against",
+      "Near-breach: P8 'one weakness' v the TNA's 'catch'; offer 'main' (+0), Tess",
+      "CORD (Felix): 'matching every payment matches the timing too' only roughly true; ladder about 7.6 v 10.0 years (Kai, MODEL); Caplet's rewrite says 'each payment has its own bond'",
+      "P5 'tend to dry up' VERIFIED (W-09); 'rides on shares' OVERSTATED (Tess); 'booms' offered (+0) as an ear call"
+     ],
+     "seeds": [
+      "Does 'Her income already rides on booms' say back better than 'rides on shares' to strangers? (Writing Room, 16:20)",
+      "Three false versions for Kai's card for Caplet's rewrite: 'we don't duration-match', 'the funds pay exactly what they promised', 'the ladder's one weakness' (Genius Lab, 13:40)"
+     ],
+     "todos": {
+      "done": 7,
+      "total": 9
+     },
+     "path": "keel/huddles/2026-11-04_the-word-the-writer-meant",
+     "transcript": "keel/huddles/2026-11-04_the-word-the-writer-meant/transcript.md",
+     "changes": [
+      "No draft changed. Offers in ../../ips_rewrite/inbox/2026-11-04_window.md"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    }
+   ],
+   "research": [
+    {
+     "path": "keel/huddles/2026-11-04_the-word-the-writer-meant/research/felix_reruns_and_sources.md",
+     "title": "Felix's checks, Wed 4 Nov 2026 (H-028 research)",
+     "member": "Felix",
+     "huddle": "H-028"
+    },
+    {
+     "path": "keel/huddles/2026-11-04_the-word-the-writer-meant/research/kai_r2_check.md",
+     "title": "Kai's round 2 check (H-028, Wed 4 Nov 2026)",
+     "member": "Kai",
+     "huddle": "H-028"
+    },
+    {
+     "path": "keel/huddles/2026-11-04_the-word-the-writer-meant/research/tess_r2_sources.md",
+     "title": "Tess, round 2: sources read beside Felix's conclusions (H-028)",
+     "member": "Tess",
+     "huddle": "H-028"
+    }
+   ],
+   "done": [
+    {
+     "text": "Felix: V57 line by line at its sources; five idea lines verified (Brady, SEC, ASIC, Bodie, Diabex XR)",
+     "done": true,
+     "owner": "Brady",
+     "day": "2026-11-04",
+     "huddle": "H-028"
+    },
+    {
+     "text": "Felix: W-09, income in downturns (Times 2009, Authors Guild 2021)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-04",
+     "huddle": "H-028"
+    },
+    {
+     "text": "Felix: five re-runs from a clean checkout (L-17, audit, A33, exhibit N, LR-11): identical",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-04",
+     "huddle": "H-028"
+    },
+    {
+     "text": "Cold checker (no stake): case, WInS book, locked TNA, internal consistency",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-04",
+     "huddle": "H-028"
+    },
+    {
+     "text": "Kai: break points 1 and 2; rung-by-rung duration check (7.6 v 10.0 years)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-04",
+     "huddle": "H-028"
+    },
+    {
+     "text": "Tess: read W-09's two pages beside the \"so\"; read the locked TNA against V57 (found \"one weakness\")",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-04",
+     "huddle": "H-028"
+    },
+    {
+     "text": "Felix: offers to the rewrite inbox (`../../ips_rewrite/inbox/2026-11-04_window.md`)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-04",
+     "huddle": "H-028"
+    }
+   ],
+   "open": [
+    {
+     "text": "Writing Room (Tess, 16:20): \"rides on booms\" v \"rides on shares\" with fresh strangers (request filed)",
+     "done": false,
+     "owner": "Tess",
+     "day": null,
+     "huddle": "H-028"
+    },
+    {
+     "text": "Genius Lab (Kai, 13:40): three false versions onto the card for Caplet's rewrite (request filed)",
+     "done": false,
+     "owner": "Kai",
+     "day": null,
+     "huddle": "H-028"
+    }
+   ],
+   "runs": [
+    {
+     "day": "2026-11-04",
+     "when": "Wed 4 Nov 09:50",
+     "room": "Window",
+     "what": "Beat 2, round 8, as huddle H-028 (Felix, Kai, Tess + one cold checker; 3 agent calls), aimed at V57 (FINAL): **no false line**; two near-breaches against the submitted TNA (P4 \"A Treasury held to maturity pays exactly\" -> \"bond\", 2-1; P8 \"one weakness\" -> \"main\"); \"duration-matching\" trap for Caplet's rewrite (ladder ~7.6 v 10.0 yrs, Kai, MODEL); Brady, SEC, ASIC, Bodie, Diabex verified; W-09 (income in downturns); five re-runs identical; 6 requests closed; D36-FINAL labelled; I80 near-breach (FINAL README)"
+    },
+    {
+     "day": "2026-11-04",
+     "when": "Wed 4 Nov 07:40",
+     "room": "Noticeboard (daily loop)",
+     "what": "Round 8 gathered `../loop/rounds/2026-11-04.md` (Q16 aimed at V55, lens 1 Invert, last round before the freeze; Felix option clause, Nora deletion test on the funds, Tess checkers' sources; flaw Jun, judge Amara, builder Kai's false-versions card). Read-back clean, 4 of 4. Request to the Window: V55's 7.5%. Merged V55 + Caplet status page (amazing-ritchie-fuu0ce, Ray I80) and the Kitchen's 3 Nov send-off (project-thread-o61mxu). Watchdog: 10/10 due rooms on Tue 3 Nov. Board groomed (SD-N09). Brief (shorter, no codes, per I80), ep39"
+    }
+   ]
+  },
   {
    "date": "2026-11-03",
    "weekday": "Tue",
@@ -1040,7 +1192,7 @@
    "runs": [
     {
      "day": "2026-11-03",
-     "when": "Tue 3 Nov 21:10",
+     "when": "Tue 3 Nov 20:50",
      "room": "Kitchen",
      "what": "Beat 10, round 7, as huddle H-027 (Amara, Felix, Kai; 3 rounds, 9 agent calls): all three first said round 8 should guard the IPS against Caplet's rewrite, then all three changed their minds (3-0): Wednesday checks C06, the rewrite is Caplet's from Thursday. **Round 8 orders: Q16** \"which of C06's lines has only been checked by the people who wrote it, and is each one true at its source?\" (lens 1; Felix near, \"unless the market rises\" at a regulator's page, line 71; Nora adjacent, re-runs Amara's test as the non-builder, line 27; Tess far, reads the Window's 08:40 answers back, lines 89-90; Jun hunts, Amara judges, Kai builds the false-versions card). **Test (Amara, MODEL):** A33 paid the funds as par bonds (its header, line 10); joined to exhibit N, wiping every share leaves 0 of 200,000 futures worse off, base and S6 (S9 1.60% v 0.94%); chair re-ran S0, identical. **LS-16** new. CORDs: \"nine rooms\" (two); F20 closed; A32/bank #142 cite a cancelled-order note. Scene 6 (Felix-Kai, one each); 6 doors read at their pages, 2 TERRITORY candidates + 2 notes; requests to the Genius Lab and the Archive; bank #162-#163. `../office/outbox/2026-11-03_kitchen_the-kitchen-before-the-hand-over.md`"
     },
