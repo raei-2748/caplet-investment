@@ -1,0 +1,77 @@
+{
+  "id": "H-022",
+  "slug": "what-a-stranger-would-guess",
+  "title": "What a stranger would have to guess",
+  "question": "Which words in the newest IPS draft (V54) would the weakest stranger have to guess, and what do people who explain money and medicine for a living put first? (Q15, round 7; lens 19, the child's question)",
+  "room": "Library",
+  "chair": "Felix",
+  "opened": "2026-11-03",
+  "status": "closed",
+  "closed": "2026-11-03",
+  "members": [
+    "Amara",
+    "Kai",
+    "Jun",
+    "Tess",
+    "Felix"
+  ],
+  "serves": "North star 1 (a voice a judge can follow: every sentence plain, Book 11 item 6) and 4 (investing knowledge explained, not name-dropped); Wharton: Creativity and Presentation ('a compelling, well-organized narrative') and 'Clearly explain your team's investment strategy and the reasoning behind it'",
+  "rounds": [
+    {
+      "n": 1,
+      "name": "Go out (three scouts) and two cold strangers",
+      "date": "2026-11-03",
+      "posts": [
+        "posts/r1_amara.md",
+        "posts/r1_kai.md",
+        "posts/r1_jun.md",
+        "posts/r1_stranger_a.md",
+        "posts/r1_stranger_b.md"
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Reply by name (flaw-hunter)",
+      "date": "2026-11-03",
+      "posts": [
+        "posts/r2_tess.md"
+      ]
+    },
+    {
+      "n": 3,
+      "name": "Settle and land",
+      "date": "2026-11-03",
+      "posts": [
+        "posts/r3_felix.md"
+      ]
+    }
+  ],
+  "essence": [
+    "We argued whether a word cold readers guessed right counts as understood, and decided it does only if they can explain it in their own words and act on it.",
+    "So \"option\" stays a problem and \"redemption\" doesn't, and the writers get six missing steps, led by the bank sentence, with no new wording from us.",
+    "Nothing new enters the IPS from this round; the weather comparison goes to the Final Report, to show why Laura owns her range instead of giving odds, with the one place where it doesn't hold."
+  ],
+  "decided": [
+    "One rule for a word a stranger guessed right: CLEAR only if they say it back in their own words and could act on it (the EU readability guideline: 'answer each question correctly and act appropriately'; Jun: borrowing our word earns nothing). 'Redemption' passes; 'option' fails",
+    "Verdicts on V54 (two readers can only falsify, so CLEAR means 'not failed'): CLEAR all five P2 sentences, P5 'Shares don't expire.', P6 'The other half stays'; GUESS P5 'The remainder ... the interest it should earn', P5 'under a tenth of her money', P5's bank sentence ('option', 'the same idea'), P6 'half her stocks' ('stocks'); WRONG none",
+    "'Expires worthless if the market stands still' stays: TRUE IF the option is a plain bet on the market rising (the SEC's own example: no gain or loss at maturity, 0%, 100% of principal returned); never defended as a rule for every note",
+    "Kai's false reading of 'her money' (the 2028 deposit alone) is not WRONG (no stranger read it so) and not mere taste: it ranks the GUESS fourth (Keel decision, reversible)",
+    "Six missing steps to the Writing Room, named and not worded, led by P5's bank sentence (what 'the same idea' is, and what an option pays on); then P4 'dearer to buy', P3 'funds that mature like bonds', P5 'under a tenth', P5 'the interest it should earn', one name per thing",
+    "Nora's judge sheet: 'Our two or three readers are the size of the regulator's pilot, which it doesn't count: a sentence any one of them can't say back in their own words goes back to the Writing Room, and one they all say back is \"not failed\", never \"passed\"' (three of three fits a true pass rate as low as 37%; two of two, 22%; the regulator asks 81% of every question)",
+    "Slip S-12 (the Bureau of Meteorology's rain range beside Laura's 2031 range): DROP for the IPS and pitch; KEEP narrowly for the Final Report only, never without break 2 (ownership holds on naming day, not paying day)"
+  ],
+  "seeds": [
+    "Does V54 'state how confident' her 2033 contribution will fall in the range (case :117), or only show it through 'already in bonds'? (Final Report, Laura's Room)",
+    "The 16:20 text needs fresh strangers, never today's two: 'not to re-test participants whom you have already tested' (Writing Room)",
+    "After naming day, does the reinvestment cushion's forecast fall on the top of the range or on a cheque? (S-12 break 2; Genius Lab, MODEL, Final Report)"
+  ],
+  "changes": [
+    "keel/ips_rewrite/inbox/2026-11-03_library.md (offers: six missing steps, no wording)",
+    "keel/rooms/library.md (slip S-12, Now block)",
+    "keel/loop/rounds/2026-11-03.md section 4"
+  ],
+  "todos": {
+    "done": 5,
+    "total": 10
+  }
+}

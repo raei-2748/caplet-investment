@@ -1,5 +1,5 @@
 {
- "built": "2026-11-02T22:11",
+ "built": "2026-11-03T01:49",
  "days": [
   {
    "date": "2026-11-03",
@@ -7,7 +7,10 @@
    "essence": [
     "Our newest IPS says we check the bond ladder's one weak point once, in 2031, but the plan behind it checks twice, again in January 2033.",
     "Kai caught a leak in my first test, which made the gap look four times bigger than it is; fairly measured, with one check a cheque comes up a little short (usually about $1,300) in about 1 future in 25, and with two about 1 in 770.",
-    "So the IPS should either name the second check or use Kai's simpler rule, setting the money aside as if the interest earned nothing, which needs no second check at all."
+    "So the IPS should either name the second check or use Kai's simpler rule, setting the money aside as if the interest earned nothing, which needs no second check at all.",
+    "We argued whether a word cold readers guessed right counts as understood, and decided it does only if they can explain it in their own words and act on it.",
+    "So \"option\" stays a problem and \"redemption\" doesn't, and the writers get six missing steps, led by the bank sentence, with no new wording from us.",
+    "Nothing new enters the IPS from this round; the weather comparison goes to the Final Report, to show why Laura owns her range instead of giving odds, with the one place where it doesn't hold."
    ],
    "huddles": [
     {
@@ -49,9 +52,87 @@
      ],
      "rounds": 3,
      "rounds_today": 3
+    },
+    {
+     "id": "H-022",
+     "title": "What a stranger would have to guess",
+     "question": "Which words in the newest IPS draft (V54) would the weakest stranger have to guess, and what do people who explain money and medicine for a living put first? (Q15, round 7; lens 19, the child's question)",
+     "status": "closed",
+     "room": "Library",
+     "chair": "Felix",
+     "members": [
+      "Amara",
+      "Kai",
+      "Jun",
+      "Tess",
+      "Felix"
+     ],
+     "essence": [
+      "We argued whether a word cold readers guessed right counts as understood, and decided it does only if they can explain it in their own words and act on it.",
+      "So \"option\" stays a problem and \"redemption\" doesn't, and the writers get six missing steps, led by the bank sentence, with no new wording from us.",
+      "Nothing new enters the IPS from this round; the weather comparison goes to the Final Report, to show why Laura owns her range instead of giving odds, with the one place where it doesn't hold."
+     ],
+     "decided": [
+      "One rule for a word a stranger guessed right: CLEAR only if they say it back in their own words and could act on it (the EU readability guideline: 'answer each question correctly and act appropriately'; Jun: borrowing our word earns nothing). 'Redemption' passes; 'option' fails",
+      "Verdicts on V54 (two readers can only falsify, so CLEAR means 'not failed'): CLEAR all five P2 sentences, P5 'Shares don't expire.', P6 'The other half stays'; GUESS P5 'The remainder ... the interest it should earn', P5 'under a tenth of her money', P5's bank sentence ('option', 'the same idea'), P6 'half her stocks' ('stocks'); WRONG none",
+      "'Expires worthless if the market stands still' stays: TRUE IF the option is a plain bet on the market rising (the SEC's own example: no gain or loss at maturity, 0%, 100% of principal returned); never defended as a rule for every note",
+      "Kai's false reading of 'her money' (the 2028 deposit alone) is not WRONG (no stranger read it so) and not mere taste: it ranks the GUESS fourth (Keel decision, reversible)",
+      "Six missing steps to the Writing Room, named and not worded, led by P5's bank sentence (what 'the same idea' is, and what an option pays on); then P4 'dearer to buy', P3 'funds that mature like bonds', P5 'under a tenth', P5 'the interest it should earn', one name per thing",
+      "Nora's judge sheet: 'Our two or three readers are the size of the regulator's pilot, which it doesn't count: a sentence any one of them can't say back in their own words goes back to the Writing Room, and one they all say back is \"not failed\", never \"passed\"' (three of three fits a true pass rate as low as 37%; two of two, 22%; the regulator asks 81% of every question)",
+      "Slip S-12 (the Bureau of Meteorology's rain range beside Laura's 2031 range): DROP for the IPS and pitch; KEEP narrowly for the Final Report only, never without break 2 (ownership holds on naming day, not paying day)"
+     ],
+     "seeds": [
+      "Does V54 'state how confident' her 2033 contribution will fall in the range (case :117), or only show it through 'already in bonds'? (Final Report, Laura's Room)",
+      "The 16:20 text needs fresh strangers, never today's two: 'not to re-test participants whom you have already tested' (Writing Room)",
+      "After naming day, does the reinvestment cushion's forecast fall on the top of the range or on a cheque? (S-12 break 2; Genius Lab, MODEL, Final Report)"
+     ],
+     "todos": {
+      "done": 5,
+      "total": 10
+     },
+     "path": "keel/huddles/2026-11-03_what-a-stranger-would-guess",
+     "transcript": "keel/huddles/2026-11-03_what-a-stranger-would-guess/transcript.md",
+     "changes": [
+      "keel/ips_rewrite/inbox/2026-11-03_library.md (offers: six missing steps, no wording)",
+      "keel/rooms/library.md (slip S-12, Now block)",
+      "keel/loop/rounds/2026-11-03.md section 4"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
     }
    ],
-   "research": [],
+   "research": [
+    {
+     "path": "keel/huddles/2026-11-03_what-a-stranger-would-guess/research/README.md",
+     "title": "The Library's re-check of every quoted line (H-022, Tue 3 Nov 2026)",
+     "member": "Readme",
+     "huddle": "H-022"
+    },
+    {
+     "path": "keel/huddles/2026-11-03_what-a-stranger-would-guess/research/amara.md",
+     "title": "Amara's research (round 1, H-022, Tue 3 Nov 2026)",
+     "member": "Amara",
+     "huddle": "H-022"
+    },
+    {
+     "path": "keel/huddles/2026-11-03_what-a-stranger-would-guess/research/felix_slip_S-12.md",
+     "title": "Slip S-12 · The rain range beside Laura's range (Library, H-022 round 3, Tue 3 Nov 2026)",
+     "member": "Felix",
+     "huddle": "H-022"
+    },
+    {
+     "path": "keel/huddles/2026-11-03_what-a-stranger-would-guess/research/jun.md",
+     "title": "Jun's research (round 1, H-022, Tue 3 Nov 2026)",
+     "member": "Jun",
+     "huddle": "H-022"
+    },
+    {
+     "path": "keel/huddles/2026-11-03_what-a-stranger-would-guess/research/kai.md",
+     "title": "Kai's research (round 1, H-022, Tue 3 Nov 2026)",
+     "member": "Kai",
+     "huddle": "H-022"
+    }
+   ],
    "done": [
     {
      "text": "Gate \"one rung per cheque\" and \"none sold\" against the funds' documents and the WInS book (Window, Felix; done 3 Nov: \"one rung\" TRUE, \"none sold\" moot, not in V54; `../../ips_rewrite/inbox/2026-11-03_window.md` s3)",
@@ -122,6 +203,41 @@
      "owner": "Felix",
      "day": "2026-11-03",
      "huddle": "H-021"
+    },
+    {
+     "text": "Three scouts out on Q15: capital-protected notes, the share with no \"of what?\", the leaflet and its pass mark (Amara, Kai, Jun; done 3 Nov: nine finds, `research/`)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-11-03",
+     "huddle": "H-022"
+    },
+    {
+     "text": "Two cold strangers read V54 and name every guessed word (chair; done 3 Nov: `posts/r1_stranger_a.md`, `posts/r1_stranger_b.md`)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-03",
+     "huddle": "H-022"
+    },
+    {
+     "text": "Mark every verdict UPHELD, TASTE or OVERTURNED against a named stranger (Tess; done 3 Nov: 13 verdicts, 3 taste, 3 overturned)",
+     "done": true,
+     "owner": "Tess",
+     "day": "2026-11-03",
+     "huddle": "H-022"
+    },
+    {
+     "text": "Re-fetch every quoted line at its page (Library; done 3 Nov: 35 of 35 found, `research/README.md`)",
+     "done": true,
+     "owner": "Library",
+     "day": "2026-11-03",
+     "huddle": "H-022"
+    },
+    {
+     "text": "Settle the three fights and land it: one own-words rule, six missing steps, the pass-mark sentence, slip S-12 (Felix; done 3 Nov: `posts/r3_felix.md`)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-11-03",
+     "huddle": "H-022"
     }
    ],
    "open": [
@@ -145,9 +261,62 @@
      "owner": null,
      "day": null,
      "huddle": "H-021"
+    },
+    {
+     "text": "Find the words for the six missing steps inside 497 strict, led by P5's bank sentence; read by fresh strangers, never today's two (Writing Room, Tess and Amara; by Tue 3 Nov 16:20)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-022"
+    },
+    {
+     "text": "Put the own-words pass rule and the \"not failed, never passed\" sentence on the judge sheet before any reader runs (Courtroom, Nora as cold judge; by Tue 3 Nov 18:20)",
+     "done": false,
+     "owner": "Courtroom",
+     "day": null,
+     "huddle": "H-022"
+    },
+    {
+     "text": "Does V54 \"state how confident\" (case :117), or only show it through \"already in bonds\"? (Final Report, Laura's Room; after Sat 7 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-022"
+    },
+    {
+     "text": "After naming day, does the cushion's forecast fall on the top or on a cheque? (S-12 break 2; Genius Lab, MODEL, Final Report)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-022"
+    },
+    {
+     "text": "Two findings no stranger made, kept in the folder: Kai's \"half of cost or of worth?\" and Jun's early-sale price (any room that runs a fresh stranger)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-022"
     }
    ],
    "runs": [
+    {
+     "day": "2026-11-03",
+     "when": "Tue 3 Nov 13:25",
+     "room": "Library",
+     "what": "Beat 4 (Go out), round 7, as huddle H-022 (Amara, Kai, Jun scouts; two cold strangers run by the chair; Tess flaw, Felix lands; 7 agent calls): V54 no WRONG line; one own-words pass rule (EU readability guideline); six missing steps to the Writing Room, named not worded, P5's bank sentence first; Nora's pass-mark sentence; 35/35 quotes re-found; slip S-12 (rain range) DROP IPS, KEEP FR; bank #148-#150; 2 requests filed"
+    },
+    {
+     "day": "2026-11-03",
+     "when": "Tue 3 Nov 10:45",
+     "room": "Trading Desk (markets and rules check)",
+     "what": "No breach; V53 pitch at exactly 50 words; ladder repriced on the 23 Oct close: $297,636, headroom $2,364 (8bp), ground truth s5 updated"
+    },
+    {
+     "day": "2026-11-03",
+     "when": "Tue 3 Nov 09:15",
+     "room": "Window",
+     "what": "Beat 2 gate, round 7, as huddle H-021 (Felix, Kai, Tess; 3 rounds, 3 agent calls incl. a source checker): **V54 no false line; near-breach, one look at the reinvestment gap where the model takes two** (W-08 fair test W0f: every cheque in full 96.01% v 99.87%, 94.39% v 99.85% yields 2 pts lower, MODEL; first test 86.76% withdrawn, Kai found a leak); Keel's call reopen E2, road A (P9) or B (Kai's lock, `../rooms/window/W-08c_kai_no_reinvestment_lock.py`); pitch \"a promise\" ours, not the case's (Tess); round 6: 9 of 9 verified; L-16 and LR-10 re-run identical; 23 Oct close $297,636 (8 bp); D33-D34 labelled; own find W-08b SEC Pub. 151; 6 requests closed, 2 filed"
+    },
     {
      "day": "2026-11-03",
      "when": "Tue 3 Nov 07:40",

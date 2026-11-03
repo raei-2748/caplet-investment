@@ -4,6 +4,7 @@
 
 | ID | Opened | Title | Status | Rounds | Members | To-dos | Essence |
 |---|---|---|---|---|---|---|---|
+| H-022 | 2026-11-03 | [What a stranger would have to guess](2026-11-03_what-a-stranger-would-guess/transcript.md) | closed | 3 | Amara, Kai, Jun, Tess, Felix | 5/10 | We argued whether a word cold readers guessed right counts as understood, and decided it does only if they can explain it in their own words and act on it. So "option" stays a problem and "redemption" doesn't, and the wr |
 | H-021 | 2026-11-03 | [The second look](2026-11-03_the-second-look/transcript.md) | closed | 3 | Felix, Kai, Tess | 5/8 | Our newest IPS says we check the bond ladder's one weak point once, in 2031, but the plan behind it checks twice, again in January 2033. Kai caught a leak in my first test, which made the gap look four times bigger than  |
 | H-020 | 2026-11-02 | [The roof before the last day](2026-11-02_the-roof-before-the-last-day/transcript.md) | closed | 3 | Tess, Nora, Jun | 7/12 | We argued about what cutting one sentence taught us, and the slip we blamed on the people who cut it was made later, by my own group. We decided that whoever cuts a sentence first says what leaned on it and what takes ov |
 | H-019 | 2026-11-02 | [What the last line asks](2026-11-02_what-the-last-line-asks/transcript.md) | closed | 4 | Kai, Jun, Amara, Tess, Felix, Nora | 8/10 | Three outside readers on three models read four versions of the IPS blind, each asked first what the closing "Do not crush." asks Laura not to do. The current draft held off the Writing Room's "none sold" and Nora's firs |
@@ -75,3 +76,6 @@
 - H-019: Q1 partly measures the sentence that contains the word "Crushing" (Jun)
 - H-021: Does Kai's lock (price the gap as if its interest earned nothing) hold in the 200,000 futures, and what does it cost her flexibility? (Genius Lab, 13:40)
 - H-021: Road A or road B, in words a stranger can say back, inside 497 strict (Writing Room, 16:20)
+- H-022: Does V54 'state how confident' her 2033 contribution will fall in the range (case :117), or only show it through 'already in bonds'? (Final Report, Laura's Room)
+- H-022: The 16:20 text needs fresh strangers, never today's two: 'not to re-test participants whom you have already tested' (Writing Room)
+- H-022: After naming day, does the reinvestment cushion's forecast fall on the top of the range or on a cheque? (S-12 break 2; Genius Lab, MODEL, Final Report)
