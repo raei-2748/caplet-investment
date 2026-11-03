@@ -1,0 +1,78 @@
+{
+ "id": "H-026",
+ "slug": "w5-on-trial",
+ "title": "W5 on trial",
+ "question": "The Writing Room's W5 is V54 plus twelve changes four strangers backed. Should it replace V54 as the page a Wharton judge reads, and does the new set-aside rule still pay every cheque once half the ladder is treated as the funds it really is? (round 7 beat 8)",
+ "room": "Courtroom",
+ "chair": "the run (Nora on the bench)",
+ "opened": "2026-11-03",
+ "status": "closed",
+ "closed": "2026-11-03",
+ "members": [
+  "Kai",
+  "Tess",
+  "Nora"
+ ],
+ "serves": "North stars 1 and 4 (a plain human voice; investing knowledge applied); Wharton: Portfolio Analysis ('uses reasonable assumptions and projections to evaluate funding reliability'), Creativity & Presentation; Book 11 item 6; Commandments IV and V",
+ "rounds": [
+  {
+   "n": 1,
+   "name": "Sealed: Kai prosecutes, Nora writes the judge sheet and key, Tess opens the defence",
+   "date": "2026-11-03",
+   "posts": [
+    "posts/r1_kai.md",
+    "posts/r1_nora.md",
+    "posts/r1_tess.md"
+   ]
+  },
+  {
+   "n": 2,
+   "name": "Exhibit N (the funds as funds); Tess answers Kai and makes one repair; two blind readers, one each way round",
+   "date": "2026-11-03",
+   "posts": [
+    "posts/r2_tess.md",
+    "posts/r2_reader_J.md",
+    "posts/r2_reader_S.md"
+   ]
+  },
+  {
+   "n": 3,
+   "name": "Kai and Tess reply and vote; Nora rules",
+   "date": "2026-11-03",
+   "posts": [
+    "posts/r3_kai.md",
+    "posts/r3_tess.md",
+    "posts/r3_nora.md"
+   ]
+  }
+ ],
+ "essence": [
+  "We put the Writing Room's repaired IPS on trial against the current one, and two outsiders who had never seen either split: a bond manager preferred the repair by 2 points, a Year 10 student preferred the original by 2, so the original stays.",
+  "Six of the repair's lines still go forward, most of all the rule that sets money aside as if the bonds' later payments earned nothing, which the bond manager called an assumption he could check.",
+  "Testing that rule properly showed half the bond ladder is really five funds that wait in cash at the end, so the Final Report must set aside a little more (about $3,500 in our model) to keep every cheque safe."
+ ],
+ "decided": [
+  "W5 FALLS as a whole: J (bond manager) W5R 33 v 31, under Nora's sealed +3; S (Year 10) V54 25 v 23, '$450,000' lost; CLEAR 1 v 1",
+  "Keel vote B 3-0: C06 = V54 + six W5 lines (497 strict), led by the lock 'as if later bond payments sat idle'",
+  "Back to V54: P3 'funds that mature like bonds', 'of her money', 'That is her floor.', 'facility contribution', 'over the long run'",
+  "Exhibit N (MODEL): funds as funds, the lock as sized pays every cheque in 97.02% of base futures, 82.18% if yields fall 2 pts for good; sized as the words read, 100% in both, +$3,559 median",
+  "No 'can't be short' sentence on the page (overclaims beside funds that pay net asset value); the unused lock's return goes to the Final Report",
+  "F21 recorded closed (Writing Room H-025), no vote"
+ ],
+ "seeds": [
+  "Which three numbers lead the Final Report, so the bond manager's Portfolio Analysis 7 becomes a 9? (Nora)",
+  "The funds' real maturity dates against the even spread exhibit N assumes; IBTR waits longest (Kai)"
+ ],
+ "changes": [
+  "keel/rooms/courtroom/C-06_w5_on_trial.md",
+  "keel/rooms/courtroom/C-06_w5_on_trial/",
+  "keel/ips_rewrite/inbox/2026-11-03_courtroom.md",
+  "keel/loop/CHAMPIONS.md",
+  "keel/ips_rewrite/IDEA_BANK.md",
+  "keel/pm/REQUESTS.md"
+ ],
+ "todos": {
+  "done": 9,
+  "total": 12
+ }
+}

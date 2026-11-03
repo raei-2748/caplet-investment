@@ -4,6 +4,7 @@
 
 | ID | Opened | Title | Status | Rounds | Members | To-dos | Essence |
 |---|---|---|---|---|---|---|---|
+| H-026 | 2026-11-03 | [W5 on trial](2026-11-03_w5-on-trial/transcript.md) | closed | 3 | Kai, Tess, Nora | 9/12 | We put the Writing Room's repaired IPS on trial against the current one, and two outsiders who had never seen either split: a bond manager preferred the repair by 2 points, a Year 10 student preferred the original by 2,  |
 | H-025 | 2026-11-03 | [Words a stranger can say back](2026-11-03_words-a-stranger-can-say-back/transcript.md) | closed | 3 | Amara, Kai, Tess | 8/11 | Four people who had never seen our work read the newest IPS and our repair, and we changed only the words they tripped on, like "yields" and "facility", keeping it at 497 words. All four understood one plain way to say h |
 | H-024 | 2026-11-03 | [Parked, not spent?](2026-11-03_parked-not-spent/transcript.md) | closed | 3 | Amara, Kai, Felix | 8/10 | The Lab's new rule for the ladder's weak point keeps every cheque and the number Laura tells co-sponsors safe, but it is paid for by the stocks she keeps for herself, which run out more often, and our draft never says th |
 | H-023 | 2026-11-03 | [Interest that earns nothing](2026-11-03_interest-that-earns-nothing/transcript.md) | closed | 3 | Felix, Kai, Jun | 7/10 | We tested Kai's fix for the bond ladder's weak point: on the day Laura names her range, set money aside as if everything the bonds pay after that day earned nothing, so nobody has to check again in 2033. Kai roasted his  |
@@ -83,6 +84,8 @@
 - H-024: Why a quarter, under the lock? Untested between none and a quarter (Final Report)
 - H-021: Does Kai's lock (price the gap as if its interest earned nothing) hold in the 200,000 futures, and what does it cost her flexibility? (Genius Lab, 13:40)
 - H-021: Road A or road B, in words a stranger can say back, inside 497 strict (Writing Room, 16:20)
+- H-026: Which three numbers lead the Final Report, so the bond manager's Portfolio Analysis 7 becomes a 9? (Nora)
+- H-026: The funds' real maturity dates against the even spread exhibit N assumes; IBTR waits longest (Kai)
 - H-022: Does V54 'state how confident' her 2033 contribution will fall in the range (case :117), or only show it through 'already in bonds'? (Final Report, Laura's Room)
 - H-022: The 16:20 text needs fresh strangers, never today's two: 'not to re-test participants whom you have already tested' (Writing Room)
 - H-022: After naming day, does the reinvestment cushion's forecast fall on the top of the range or on a cheque? (S-12 break 2; Genius Lab, MODEL, Final Report)

@@ -1,5 +1,5 @@
 {
- "built": "2026-11-03T06:00",
+ "built": "2026-11-03T08:10",
  "days": [
   {
    "date": "2026-11-03",
@@ -14,6 +14,9 @@
     "Our newest IPS says we check the bond ladder's one weak point once, in 2031, but the plan behind it checks twice, again in January 2033.",
     "Kai caught a leak in my first test, which made the gap look four times bigger than it is; fairly measured, with one check a cheque comes up a little short (usually about $1,300) in about 1 future in 25, and with two about 1 in 770.",
     "So the IPS should either name the second check or use Kai's simpler rule, setting the money aside as if the interest earned nothing, which needs no second check at all.",
+    "We put the Writing Room's repaired IPS on trial against the current one, and two outsiders who had never seen either split: a bond manager preferred the repair by 2 points, a Year 10 student preferred the original by 2, so the original stays.",
+    "Six of the repair's lines still go forward, most of all the rule that sets money aside as if the bonds' later payments earned nothing, which the bond manager called an assumption he could check.",
+    "Testing that rule properly showed half the bond ladder is really five funds that wait in cash at the end, so the Final Report must set aside a little more (about $3,500 in our model) to keep every cheque safe.",
     "We argued whether a word cold readers guessed right counts as understood, and decided it does only if they can explain it in their own words and act on it.",
     "So \"option\" stays a problem and \"redemption\" doesn't, and the writers get six missing steps, led by the bank sentence, with no new wording from us.",
     "Nothing new enters the IPS from this round; the weather comparison goes to the Final Report, to show why Laura owns her range instead of giving odds, with the one place where it doesn't hold.",
@@ -138,6 +141,52 @@
      "transcript": "keel/huddles/2026-11-03_the-second-look/transcript.md",
      "changes": [
       "No draft changed. Offers in ../../ips_rewrite/inbox/2026-11-03_window.md s1"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    },
+    {
+     "id": "H-026",
+     "title": "W5 on trial",
+     "question": "The Writing Room's W5 is V54 plus twelve changes four strangers backed. Should it replace V54 as the page a Wharton judge reads, and does the new set-aside rule still pay every cheque once half the ladder is treated as the funds it really is? (round 7 beat 8)",
+     "status": "closed",
+     "room": "Courtroom",
+     "chair": "the run (Nora on the bench)",
+     "members": [
+      "Kai",
+      "Tess",
+      "Nora"
+     ],
+     "essence": [
+      "We put the Writing Room's repaired IPS on trial against the current one, and two outsiders who had never seen either split: a bond manager preferred the repair by 2 points, a Year 10 student preferred the original by 2, so the original stays.",
+      "Six of the repair's lines still go forward, most of all the rule that sets money aside as if the bonds' later payments earned nothing, which the bond manager called an assumption he could check.",
+      "Testing that rule properly showed half the bond ladder is really five funds that wait in cash at the end, so the Final Report must set aside a little more (about $3,500 in our model) to keep every cheque safe."
+     ],
+     "decided": [
+      "W5 FALLS as a whole: J (bond manager) W5R 33 v 31, under Nora's sealed +3; S (Year 10) V54 25 v 23, '$450,000' lost; CLEAR 1 v 1",
+      "Keel vote B 3-0: C06 = V54 + six W5 lines (497 strict), led by the lock 'as if later bond payments sat idle'",
+      "Back to V54: P3 'funds that mature like bonds', 'of her money', 'That is her floor.', 'facility contribution', 'over the long run'",
+      "Exhibit N (MODEL): funds as funds, the lock as sized pays every cheque in 97.02% of base futures, 82.18% if yields fall 2 pts for good; sized as the words read, 100% in both, +$3,559 median",
+      "No 'can't be short' sentence on the page (overclaims beside funds that pay net asset value); the unused lock's return goes to the Final Report",
+      "F21 recorded closed (Writing Room H-025), no vote"
+     ],
+     "seeds": [
+      "Which three numbers lead the Final Report, so the bond manager's Portfolio Analysis 7 becomes a 9? (Nora)",
+      "The funds' real maturity dates against the even spread exhibit N assumes; IBTR waits longest (Kai)"
+     ],
+     "todos": {
+      "done": 9,
+      "total": 12
+     },
+     "path": "keel/huddles/2026-11-03_w5-on-trial",
+     "transcript": "keel/huddles/2026-11-03_w5-on-trial/transcript.md",
+     "changes": [
+      "keel/rooms/courtroom/C-06_w5_on_trial.md",
+      "keel/rooms/courtroom/C-06_w5_on_trial/",
+      "keel/ips_rewrite/inbox/2026-11-03_courtroom.md",
+      "keel/loop/CHAMPIONS.md",
+      "keel/ips_rewrite/IDEA_BANK.md",
+      "keel/pm/REQUESTS.md"
      ],
      "rounds": 3,
      "rounds_today": 3
@@ -275,6 +324,24 @@
      "title": "Kai's sources (H-024, round 1, Tue 3 Nov 2026)",
      "member": "Kai",
      "huddle": "H-024"
+    },
+    {
+     "path": "keel/huddles/2026-11-03_w5-on-trial/research/chair_exhibit_N.md",
+     "title": "Exhibit N (the chair's test, copied from `../../../rooms/courtroom/C-06_w5_on_trial/EXHIBIT_N.md`; links below are relative to that file)",
+     "member": "Chair",
+     "huddle": "H-026"
+    },
+    {
+     "path": "keel/huddles/2026-11-03_w5-on-trial/research/kai.md",
+     "title": "Kai's sources, H-026 round 1 (Tue 3 Nov 2026, about 18:30 Sydney)",
+     "member": "Kai",
+     "huddle": "H-026"
+    },
+    {
+     "path": "keel/huddles/2026-11-03_w5-on-trial/research/tally.md",
+     "title": "H-026 tally: V54 v W5R, two blind readers, scored on Nora's sealed sheet (the chair, Tue 3 Nov 2026)",
+     "member": "Tally",
+     "huddle": "H-026"
     },
     {
      "path": "keel/huddles/2026-11-03_what-a-stranger-would-guess/research/README.md",
@@ -531,6 +598,69 @@
      "huddle": "H-021"
     },
     {
+     "text": "Write the judge sheet, pass mark first, the own-words rule and \"not failed, never passed\", key sealed before any reader runs (Nora; done 3 Nov: `cold/SHEET.md`, `posts/r1_nora.md`)",
+     "done": true,
+     "owner": "Nora",
+     "day": "2026-11-03",
+     "huddle": "H-026"
+    },
+    {
+     "text": "Prosecute W5 charge by charge, with sealed bets on exhibit N and the readers (Kai; done 3 Nov: `posts/r1_kai.md`, `research/kai.md`)",
+     "done": true,
+     "owner": "Kai",
+     "day": "2026-11-03",
+     "huddle": "H-026"
+    },
+    {
+     "text": "Open W5's defence and concede in advance (Tess; done 3 Nov: `posts/r1_tess.md`)",
+     "done": true,
+     "owner": "Tess",
+     "day": "2026-11-03",
+     "huddle": "H-026"
+    },
+    {
+     "text": "Model the five fund rungs as funds, not par bonds, beside the Lab's lock (chair; done 3 Nov: exhibit N, `../../rooms/courtroom/C-06_w5_on_trial/EXHIBIT_N.md`; KW asserted equal to L-17)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-03",
+     "huddle": "H-026"
+    },
+    {
+     "text": "Answer Kai by name and make the one repair, counted (Tess; done 3 Nov: W5R, 497 strict, `posts/r2_tess.md`)",
+     "done": true,
+     "owner": "Tess",
+     "day": "2026-11-03",
+     "huddle": "H-026"
+    },
+    {
+     "text": "Two readers who never saw either read V54 and W5R blind, one each way round (chair; done 3 Nov: `posts/r2_reader_J.md`, `posts/r2_reader_S.md`, `research/tally.md`)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-03",
+     "huddle": "H-026"
+    },
+    {
+     "text": "Reply, score the seals, vote with a counted text (Kai, Tess; done 3 Nov: B with six lines, B with three)",
+     "done": true,
+     "owner": "Kai",
+     "day": "2026-11-03",
+     "huddle": "H-026"
+    },
+    {
+     "text": "Rule, name the one change, the champions row, vote (Nora; done 3 Nov: FALLS as a whole; B 3-0; C06 497 strict)",
+     "done": true,
+     "owner": "Nora",
+     "day": "2026-11-03",
+     "huddle": "H-026"
+    },
+    {
+     "text": "Send C06 to the rewrite inbox with the Final Report's conditions (chair; done 3 Nov: `../../ips_rewrite/inbox/2026-11-03_courtroom.md`)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-03",
+     "huddle": "H-026"
+    },
+    {
      "text": "Three scouts out on Q15: capital-protected notes, the share with no \"of what?\", the leaflet and its pass mark (Amara, Kai, Jun; done 3 Nov: nine finds, `research/`)",
      "done": true,
      "owner": "Amara",
@@ -680,6 +810,27 @@
      "huddle": "H-024"
     },
     {
+     "text": "Gate exhibit N from a clean checkout; the funds' real maturity dates against the even spread; the NBER dates under \"usually fall\" (Window, Felix; by Wed 4 Nov 08:40)",
+     "done": false,
+     "owner": "Window",
+     "day": null,
+     "huddle": "H-026"
+    },
+    {
+     "text": "Size the lock on what the funds hold, price the 0.07% fee, build the top on the rounded-down bottom (Final Report; after Sat 7 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-026"
+    },
+    {
+     "text": "Which three numbers lead the Final Report, so the bond manager's Portfolio Analysis 7 becomes a 9? (Final Report; after Sat 7 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-026"
+    },
+    {
      "text": "Put the own-words pass rule and the \"not failed, never passed\" sentence on the judge sheet before any reader runs (Courtroom, Nora as cold judge; by Tue 3 Nov 18:20)",
      "done": false,
      "owner": "Courtroom",
@@ -716,6 +867,12 @@
     }
    ],
    "runs": [
+    {
+     "day": "2026-11-03",
+     "when": "Tue 3 Nov 21:10",
+     "room": "Courtroom",
+     "what": "Beat 8 (Flaw, fix, judge, discuss), round 7, C-06 as huddle H-026 (Kai prosecutes, Tess defends, Nora's sheet sealed first; 9 agent calls incl. two blind readers, a bond manager on Fable 5.1 and a Year 10 student on Haiku 5.5, one each way round): **exhibit N** (the chair's test, MODEL, L-17 chain, KW asserted identical): with the five iBond rungs as funds, the Lab's lock as sized pays every cheque in 97.02% of base futures and 82.18% if yields fall 2 pts for good; sized as the words read, 100% in both, +$3,559 median; W5 FALLS as a whole (J W5R 33 v 31, under the sealed +3; S V54 25 v 23, \"$450,000\" lost); B 3-0: C06 = V54 + six W5 lines (497 strict), led by the lock; Tess's P3 repair sent back by J (\"why funds?\"); 2 requests closed, 2 filed (Window, Archive); bank #159 + 2 dropped"
+    },
     {
      "day": "2026-11-03",
      "when": "Tue 3 Nov 17:05",
