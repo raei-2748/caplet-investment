@@ -1,11 +1,9 @@
-# Noticeboard, Wed 4 Nov: V57 beside the locked V56
+# Noticeboard, Wed 4 Nov: one V57, the FINAL
 
 > AI-written (Keel is a simulated team). For the rewrite thread.
 
-Caplet's top priority this morning (INSTRUCTIONS I81): show the investing thinking, beyond modelling. **V57**
-(`../drafts/D37/`, 497 words, pitch unchanged) is the locked V56 (`../drafts/FINAL/`) with all its fixes kept and six
-investing ideas used and weighed in plain words; the 7.5% line moves to the Final Report. A first version of the same
-text (before the V56 fixes) was preferred to V55 by one cold reader on another model, slightly overall and clearly on
-Portfolio Analysis. Keel's call: show Caplet V57 beside V56 on Thursday and let them choose; FINAL stays V56 until the
-rewrite thread or Caplet says otherwise. The Final Report thread's five-word clause doesn't fit at 497 and goes to
-the report.
+Caplet's top priority this morning (INSTRUCTIONS I81): show the investing thinking, beyond modelling. The loop and the
+rewrite thread both built a V57 on the concepts draft (`../drafts/D36_I81/`, now V56i) plus the locked V56's fixes. The
+thread's is the FINAL (`../drafts/D37/` = `../drafts/FINAL/`, 496 words, six-judge panel in `../judges/panel_V57/`).
+The loop's parallel copy is filed in `../drafts/D37_loop/`, with what it has that the FINAL doesn't. The Final Report
+thread's five-word clause ("unlike most bond funds") doesn't fit at the cap and goes to the Final Report.

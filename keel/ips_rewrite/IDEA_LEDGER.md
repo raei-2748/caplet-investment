@@ -258,3 +258,14 @@ All to the **Final Report**, where models, evidence and the team's story belong 
   alternative); the Writing Room's W5 lines not already in V55; the Courtroom's C06 wording ("as if later bond payments
   sat idle": "paid by whom?").
 
+## V57 (Wed 4 Nov): the concepts and the lock together
+- **IN (Caplet, I81, via V56i `drafts/D36_I81/`):** pension funds' two methods (immunisation rejected, cash-flow matching
+  chosen); time diversification answered ("rarer, not smaller"); human capital as a bet on shares; the capital-protected
+  note taken apart; portfolio insurance rejected (1987); rules on dates, never on market moves. Concept map in `drafts/D37/README.md`.
+- **KEPT from V56:** the lock ("as if no more interest were reinvested"), "Her spare money shrinks first", "one redeemed
+  for each January", "maturing before".
+- **CHANGED (cold reader):** "average life" -> "average timing"; the certainty definition restored ("So, to us, high
+  certainty means no payment depends on shares"); the human-capital opener moved after its evidence.
+- **OUT to the FINAL REPORT:** the 7.5% share-return assumption (J.P. Morgan 2027 LTCMA); "less than a tenth of her
+  $450,000"; what an option is; the bank note's fees and issuer risk; what the caution costs Laura in gift dollars
+  (panel V57's professor asked for this).
