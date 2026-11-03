@@ -239,3 +239,22 @@ All to the **Final Report**, where models, evidence and the team's story belong 
 - **Not said anywhere yet, for the Final Report:** what our version costs next to the bank's note (a smaller share of
   a boom: the option's upside is capped but levered; our stocks are uncapped but small). Laura's Room's "keep a
   quarter back on naming day" (H25) is a priced alternative for the FR, not the IPS (Tue rule: converge).
+
+## V55 and V56 (Tue 3 Nov to Wed 4 Nov): plain English, and the lock
+- **V55 (`drafts/D35/`, Ray's 3 Nov note, INSTRUCTIONS I80):** every V54 idea kept, said plainly. OUT as habits, not
+  ideas: "We buy them." flips, "Shares don't expire." / "Crush it and the schedule is gone." kickers, "That is her
+  floor." runs, the one-line "Do not crush." (now a full closing sentence). OUT, with its reason kept inside P6: the
+  separate "We could put the floor into stocks and chase a bigger gift." (FINAL REPORT: the rejected alternative named in
+  full; panel V56's professor missed it).
+- **V56 (`drafts/D36/`):** CHANGED METHOD: the reinvestment gap is now priced "as if nothing more were reinvested"
+  (Genius Lab L-17, Laura's Room LR-11, Courtroom C-06, Archive A33), replacing "at that day's rates, add a margin"
+  (which itself replaced V52's "priced at the day's yields"). Why: it can only overstate the gap, so no cheque depends on
+  shares or on a second top-up in 2033 that the text never named (Window W-08). Cost, MODEL: her kept shares used up in
+  28 base futures in 100 (19 before), the range lowered on naming day in 27 (17), the gift about $670 lower on average;
+  the unneeded money (median about $18,000) comes back to her as the rungs pay (FINAL REPORT). CHANGED: "before her
+  promise does" became "Her spare money shrinks first"; "her money" became "her $450,000"; "one redeemed for each
+  January"; "maturing before" (no "just").
+- **Not taken on the last day (converging):** Laura's Room's "keep a quarter back on naming day" (FINAL REPORT, priced
+  alternative); the Writing Room's W5 lines not already in V55; the Courtroom's C06 wording ("as if later bond payments
+  sat idle": "paid by whom?").
+
