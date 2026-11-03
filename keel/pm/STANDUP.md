@@ -1,6 +1,32 @@
 # Stand-up log (newest first; Nora writes each entry, plain English first, then the detail)
 
 
+## Morning brief, Tuesday 3 Nov 2026 (Sydney)
+**For the judges:** yesterday the drafts went from V50 to V53, and the rooms built a version on top of V53 that three outside readers, on three different models, preferred to V53 all three times. It says what crushing means once, right after the caplet label ("Crushing one means selling it before its January, even for the building."), and leaves the ending bare: "Do not crush." It's 497 words (AI DRAFT, GPTZero not yet checked). Four sentences turned out to be wrong at their source yesterday, and the draft already fixes them. The biggest: some extended-release capsules are meant to be opened, so the motif now uses a caplet. Dashboard: https://claude.ai/artifact/NTBamRzChW4niBLYpkm19M
+**Today's round:** the last day anything new goes into the IPS. Ahaan said half our sentences didn't make sense, so today strangers find the words they'd have to guess. We compare those sentences with how people who explain money for a living say the same thing: regulators on capital-protected notes, the Bureau of Meteorology on "a 70% chance of rain", and medicine leaflets, which must pass a readers' test before they're allowed out. https://raei-2748.github.io/caplet-investment/#/day/2026-11-03
+**Room health:** all 9 rooms due yesterday ran. The Rooftop's send-off landed after the evening merge, so we merged it in this morning.
+
+**Nora:** Yesterday we checked whether every sentence was true. Today we check whether a stranger can follow it, which is harder to fake. I'm judging, and I've written my pass mark before any reader runs, so I can't move it after I see the answers.
+
+**Felix:** I read the five Wharton lines in today's orders back against Wharton's own file. All five were really theirs this time, after yesterday's catch.
+**Amara:** "They spend that interest on an option" assumes you know what an option is. I want to see which plain word the regulators put first, because that's the word our sentence skips.
+**Kai:** "Half her stocks": half of what, on which day? A forecaster never says 70% without saying of what, and I think we do that three times in one paragraph.
+**Jun:** Medicine leaflets have to pass a test where nine in ten readers find the information and nine in ten of those understand it. Our three readers can't prove that, but they can fail it, and that's worth knowing on the last day.
+**Tess:** I'm hunting flaws, and the one I'm looking for is a "stranger got confused" that's really just us not liking a sentence. Every guess has to name the reader who guessed.
+
+**Students need to:**
+- Nothing is due from you today. Unless you say otherwise, the final IPS for your review arrives by the end of Wed 4 Nov, with its Bible check and the Ten Commandments check beside it.
+- Unless you say otherwise, one of you pastes the final into GPTZero on Wed 4 Nov by 20:00 (K02). Keel can't reach the site.
+- Ray: unless you say otherwise, the WInS book stays as it is (D6). That's danger zone, so it's yours.
+
+**Open questions:**
+- None for you. Keel made four calls on the draft yesterday: where the 2031 gap money goes, where "do not crush" is explained, who pays the bond ladder's gap first, and how much of Laura's own stocks is kept back from it. They're logged with reasons in `keel/pm/ASK_HUMANS.md`, and any of you can overrule one.
+
+**If you want the detail:** https://github.com/raei-2748/caplet-investment/pull/110
+
+(Keel is a simulated team, AI-written.)
+
+
 ## Morning brief, Monday 2 Nov 2026 (Sydney)
 **For the judges:** V50 is the draft on the table (AI DRAFT, pitch 40 / IPS 497 words, GPTZero not yet checked). It's the rebuild after Ahaan's Book 11, with last night's fix: the ending now says what "crushing" means (selling a bond before its January, even for the building). Today we test it against its sources. The pitch and three paragraphs say "ten Treasuries", but five of the ten cheques come from iBond funds that, in their own prospectus's words, do "not seek to return any predetermined amount at maturity". Dashboard: https://claude.ai/artifact/NTBamRzChW4niBLYpkm19M
 **Today's round:** a verify round, with no new research fields and no numbers. Three checks: the funds' own prospectuses, why the WInS book holds a stock fund when the IPS says the first $300,000 buys the ladder, and an Australian pharmacy source on what a caplet is and why you don't crush it. https://raei-2748.github.io/caplet-investment/#/day/2026-11-02

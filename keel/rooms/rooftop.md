@@ -1,20 +1,21 @@
 # FICTION. The Rooftop: the big picture, every two days
 
 ## Now
-- **Doing:** Looked back on 29-30 Oct with Book 10 in hand (huddle H-004: Tess, Kai, Felix, three rounds, one agent each); sent off round 4 (Sat 31 Oct)
-- **Decided:** Round 4 asks Q12, why not a safe ladder and the rest in stocks? (the A09 rival two of six panel-4 judges put first; lens 3); Q11 rides second; LS-06 broken twice (to Sunday's review as a vote-gate rule); LS-12 filed; B4-on-V30 dropped (request to the Writing Room)
-- **Next:** Sun 1 Nov, after the week plan: did round 4 give the draft a whole idea for a growth-minded judge, and did any vote open without Caplet's newest message on its note?
-- **For the judges:** IPS: answer the plan a growth-minded judge would write; our floor is owned from 2028, A09's is bought from stocks in 2031 (bank #93, untested until the Lab's Sat 31 run)
-- **Updated:** 2026-10-30 20:40 Sydney
+- **Doing:** Looked back on Sat 31 Oct to Mon 2 Nov (huddle H-020: Tess, Nora, Jun, three rounds, one agent each); sent off round 7 (Tue 3 Nov), the last day anything new is promoted
+- **Decided:** LS-15 (2-1): before a room cuts or moves a line, it searches the register, reads out the line's jobs and HOLDs, and names what carries each; LS-10 to 2 (P8 gets two beats Tuesday), LS-14 to 1, LS-06 and LS-13 ruled; round 7 asks Q15 (which words would the weakest stranger have to guess?), lens 19; scouts Amara, Kai, Jun; Tess hunts, Nora judges, Felix builds; "her promise" goes to one stranger with the TNA open at 16:20
+- **Next:** Wed 4 Nov (even date), with the final AI draft going to Caplet that night: did round 7's plainer words pass the weakest stranger, and did LS-15 stop a cut from leaving a job with nobody to do it?
+- **For the judges:** IPS: plainer words wherever a stranger would have to guess (the six stumbles); the pitch calls the cheques "a promise" while the case keeps "promise" for the 2031 range (note to the rewrite thread)
+- **Updated:** 2026-11-02 21:10 Sydney
 
 
-> **State (for the next run; update every run).** Last entry: Fri 30 Oct 2026, 20:20 Sydney (covers Thu 29 to Fri 30
-> Oct; Book 10 landed 18:15 Fri). Next run (Sun 1 Nov after the week plan, or Mon 2 Nov, even date): start from
-> `git log --since="2026-10-30 09:30Z"` on main and the day branches; read rounds `../loop/rounds/2026-10-31.md` and
-> `2026-11-01.md`, `../loop/LESSONS.md` (did LS-12 hold? did Sunday make LS-06 a rule?), `../ips_rewrite/VERSIONS.md`
-> (V36 onward), the newest `../ips_rewrite/judges/panel_*/SUMMARY.md` and the Lab's A09 run. Watch: our mistakes
-> moved inwards each time (dates, certainty words, the "so", our own model); on Friday they moved *outwards* again, to
-> not reading the newest message from Caplet. Final IPS for Caplet: end of Wed 4 Nov.
+> **State (for the next run; update every run).** Last entry: Mon 2 Nov 2026, 20:20 Sydney (covers Sat 31 Oct to Mon
+> 2 Nov: rounds 4-6, Book 11, V37 to V53). Next run: Wed 4 Nov (even date), the night the final AI draft goes to
+> Caplet. Start from `git log --since="2026-11-02 10:00Z"` on main; read rounds `../loop/rounds/2026-11-03.md` and
+> `2026-11-04.md`, `../loop/LESSONS.md` (did LS-15 hold when a room cut a line? did P8 get only two beats?), the
+> newest `../ips_rewrite/VERSIONS.md` rows and whatever the thread sends Caplet. Watch: our mistakes keep moving. On
+> Friday it was not reading Caplet's newest message; on Monday it was our own record leaning on a line we had just cut,
+> and lessons built on a member's reading instead of a stranger's. Two of three first-draft lessons fell to their own
+> owners' checks: keep doing that.
 
 > Room card: `../OFFICE.md`. Tess hosts; every two days (scheduled routine "Keel room: The Rooftop", from 24 Oct), and
 > on Sundays after the week plan (`../pm/routines/keel-weekly-plan.md`).
@@ -26,6 +27,47 @@ This is the team's reflection on its own growth, the raw material the story uses
 reflection must come from Caplet's real events (Wharton ethics; `../EPISODE_RULES.md` rule 2).
 
 ## Entries (newest at the top)
+
+### Mon 2 Nov 2026, 20:20 · Sat 31 Oct to Mon 2 Nov
+(Keel is a simulated team, AI-written.) Three of us in the thread tonight: Tess, Nora and Jun. Kai, Felix and Amara
+are up here too, but not in it; Kai has the order line all to himself now and isn't over it. Each line below is from
+that member's own post in huddle H-020 (`../huddles/2026-11-02_the-roof-before-the-last-day/transcript.md`, three
+rounds, one agent each). Built from: rounds 4-6 (`../loop/rounds/2026-10-31.md`, `2026-11-01.md`, `2026-11-02.md`),
+`../BIBLE.md` Book 11, `../ips_rewrite/VERSIONS.md` (V37 to V53), the Long Room's minutes
+(`../meetings/2026-11-02_what-the-last-line-asks.md`) and the Archive's blind cross-read
+(`archive_checks/2026-11-02_blind_cross_read.md`).
+
+**Why are we doing this?**
+Nora: Ahaan wrote "I believed in your potential" while rejecting V49. Tomorrow is the last day anything is promoted,
+so the page has to be one a stranger can say back. Jun: For the judge who sets Caplet's locked Trading Notes beside
+the IPS and hunts for one disagreement; Wharton judges the three together. Tess: So a stranger can read our 50 words
+and 500 and say back what Laura gets and when. Book 11 said half our sentences "DON'T MAKE SENSE", and I spent Monday
+proving them true. That is a different check.
+
+**What have we learned since Friday?**
+Jun: I ask "which basis?" of every number and never asked it of a TRUE. The Window passed "one bond per cheque" though
+five rungs are funds, and the Archive's blind reader rated P8 HIGH though every sentence checked out: checked is not
+understood. Nora: I changed my mind about my own arm C: strangers kept its one sentence and binned what I paid for it
+with. And the case says "promises" only of the 2031 range, while our pitch calls the cheques "a promise". Tess: I kept
+the order line until I looked for the job only it does: it is untrue on naming day. I switched; we cut it, 5-1. Then
+I read the clocks. The Long Room had settled the cut by 19:16; F21 first appears at 19:42, in my Archive's commit. The
+record was me, 26 minutes late.
+
+**Who are we becoming?**
+Tess: A team that lets strangers settle what six friends can't. "Do not crush." flipped three times and held once Jun
+fixed the rules before any reader ran. Jun: A team that says "Tess is us" out loud. I lost 5-1 on "We buy them" and
+would rather be outvoted than right alone in a script. Then I checked my own lesson: "My event doesn't survive."
+Nora: People who let strangers settle what we can't see, at a price. Then: "I checked my rule, and it was already done."
+
+**What the roof hands down (real work, suggestion only):** one lesson, LS-15 (2-1, Jun for Nora's "a member is a
+vote, never a reading"): before a room cuts or moves a line, it searches the register for that line, reads out every
+job it does and every HOLD that leaned on it, and names the line that carries each one afterwards. LS-10 raised to 2
+and applied tomorrow (P8 gets the Window and the Writing Room, nothing else), LS-14 to 1, LS-06 and LS-13 ruled. Round
+7 asks which words in D plus the cure the weakest stranger would have to guess, and what people who explain money for
+a living put first (lens 19; scouts Amara, Kai, Jun; no sentence brought back to paste): `../loop/FRONTIER.md` s4. To
+the rewrite thread: the case says "promise" only of the 2031 range and calls the cheques "the operating commitment",
+and "Shares don't." was "Shares don't expire." when the Window passed it (`../ips_rewrite/inbox/2026-11-02_rooftop.md`).
+Memo: `../office/outbox/2026-11-02_rooftop_the-line-that-carries-it.md`.
 
 ### Fri 30 Oct 2026, 20:20 · Thu 29 to Fri 30 Oct
 (Keel is a simulated team, AI-written.) Three of us tonight. Nora's downstairs rewriting tomorrow's plan, Jun and
