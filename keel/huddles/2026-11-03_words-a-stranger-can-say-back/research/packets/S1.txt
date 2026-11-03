@@ -1,0 +1,102 @@
+You are a 15-year-old Year 10 student in Brisbane who has never invested or owned a share or a bond. Someone hands you a short investment plan written by a team of high-school students for a client called Laura Gao, and asks what you understood. Read as that person would, honestly. If a word means nothing to you, say so; don't be cleverer than the person you are playing.
+
+Rules: answer only from the texts; don't use finance knowledge the person you play wouldn't have; never look anything up or open any file; keep each answer short; number your answers 1-14.
+
+THE PITCH (sits above the plan):
+Laura's ten $50,000 cheques are a promise, so we don't invest for them. We buy them. Her first $300,000 buys Treasuries that each mature before a January. Her 2028 deposit buys a Treasury floor for her building gift, and only the interest that floor should earn goes into world stocks.
+
+FIRST TEXT:
+In January 2033, Laura's portfolio writes the first of ten cheques: $50,000 each, one every January, toward running her Taiwan residency. She also hopes to contribute to the building.
+
+We call our plan Caplet XR. To a pharmacist, XR means extended release: a caplet that delivers its dose on schedule, labelled do not crush. Crush it and the schedule is gone. To us, X is ten and R is redemption – ten holdings, one redeemed for each January. Crushing one means selling it before it matures, even for the building.
+
+In January 2027, her first $300,000 buys a ladder of Treasury bonds and funds that mature like bonds, one rung falling due before each cheque. A Treasury held to maturity pays exactly what it promises, whatever markets do. That, to us, is what "a high degree of certainty" means.
+
+Laura's career already behaves like a stock. Her 2028 deposit depends on publishing advances, speaking fees and licensing – income that can dry up in the kind of downturn that makes a ladder dearer to buy. If that deposit arrives smaller, the gift shrinks. A cheque funded by a Treasury already bought does not.
+
+Her 2028 deposit first finishes any rung the first $300,000 couldn't buy. Most of the rest buys a Treasury fund maturing in late 2032. That is her floor. The remainder, roughly the interest it should earn, goes into one world index fund, spread across thousands of companies. That is under a tenth of her money. Banks sell the same idea as a capital-protected note, but they spend that interest on an option, which expires worthless if the market stands still. Shares don't expire. We assume world shares earn about 7.5% a year over the long run, but the cheques never depend on it.
+
+In 2031, Laura gives co-sponsors a range for her facility contribution. The bottom is her floor, rounded down: money she already owns. The top adds half her stocks. Before she names it, that half moves into Treasuries, so every dollar she promises is already in bonds. The other half stays with Laura, liquid any day, as her flexibility, in case the building costs more in Taiwan dollars.
+
+We could put the floor into stocks and chase a bigger gift. But a number said aloud to co-sponsors cannot be quietly halved if markets turn.
+
+The weak point is reinvestment. The ladder costs less than the cheques because its bonds pay interest along the way, which we reinvest. If yields fall and stay low, that interest earns less, and the ladder falls short. Before she names the range, we price that gap at that day's yields, plus a cushion, and move that much from the stocks Laura keeps into Treasuries, so her flexibility shrinks before her gift does. Whatever the stocks can't cover lowers the whole range.
+
+From 2033, the ladder and the money set aside for its gap become the operating reserve, paying out one rung per cheque.
+
+Do not crush.
+
+## Part 1, on the FIRST TEXT only (read it once, at normal speed, before answering)
+1. List every sentence you didn't understand the first time you read it. Quote it, and say in a few words what you
+   couldn't follow. If none, say none.
+2. In 2-4 sentences of your own, what does the plan do with Laura's money?
+3. In your own words (if you would be guessing, say "guess" and give the guess):
+   a. What is the banks' "capital-protected note", and why doesn't the plan use one?
+   b. Why would a downturn make the ladder cost more to buy?
+   c. The ladder holds some funds as well as bonds. What does one of those funds do at the end?
+   d. The line about how much goes into the world index fund says it is "under a tenth" of something: a tenth of what?
+   e. The interest that pays for the world index fund: whose interest, and over what stretch of time?
+   f. Are "stocks", "shares" and the "world index fund" one thing or different things? Are "the building", "the
+      facility" and "the gift" one thing or different things?
+4. What can a fall in Laura's shares do to one of her $50,000 cheques? Between 2031 and 2033, where is the money set
+   aside for the gap kept?
+5. The paragraph that starts "The weak point is reinvestment": say its rule in your own words. Under that rule, do the
+   bonds still pay their interest? Does money that was already reinvested stop earning?
+6. Once Laura names her range in 2031, can anything still leave one of the cheques short? What?
+7. The pitch says the cheques "are a promise". The paragraph about 2031 says "every dollar she promises". What is
+   Laura promising in each, and to whom? (Readers with the Trading Notes: what is "her promised minimum"?)
+8. Only if the text has these words: "until only a quarter of them is left": a quarter of what, and is it a fixed rule?
+   "returning to Laura what the cheques don't need": who gets the money, and in 2036 what money is it?
+9. What does the last line, "Do not crush.", ask Laura not to do?
+
+
+SECOND TEXT (another version of the same plan; the pitch above is the same):
+In January 2033, Laura's portfolio writes the first of ten cheques: $50,000 each, one every January, toward running her Taiwan residency. She also hopes to contribute to its building.
+
+We call our plan Caplet XR. To a pharmacist, XR means extended release: a caplet that delivers its dose on schedule, labelled do not crush. Crush it and the schedule is gone. To us, X is ten and R is redemption – ten holdings, one redeemed for each January. Crushing one means selling it before it matures, even for the building.
+
+In January 2027, her first $300,000 buys a ladder of Treasury bonds and funds with an end date, one rung falling due before each cheque. A Treasury held to maturity pays exactly what it promises, whatever markets do. That, to us, is what "a high degree of certainty" means.
+
+Laura's career already behaves like a stock. Her 2028 deposit depends on publishing advances, speaking fees and licensing – income that can dry up in a downturn, when interest rates usually fall, making bonds cost more. If that deposit arrives smaller, the gift shrinks. A cheque funded by a Treasury already bought does not.
+
+Her 2028 deposit finishes any rung the first $300,000 couldn't buy. Most of the rest buys a Treasury fund maturing in late 2032. That is her floor. The remainder, roughly the interest the floor should earn by then, goes into one world index fund, spread across thousands of companies. That is under a tenth of both her deposits. A bank's capital-protected note also starts with a bond, but spends that interest on an option, a bet that expires worthless unless the market rises. Stocks don't expire. We assume world stocks earn about 7.5% a year, but the cheques never depend on it.
+
+In 2031, Laura gives co-sponsors a range for her gift to the building. The bottom is her floor, rounded down: money she already owns. The top adds half her stocks. Before she names it, that half moves into Treasuries, so every dollar she promises is already in bonds. The other half stays with Laura, liquid any day, as her flexibility, in case the building costs more in Taiwan dollars.
+
+We could put the floor into stocks and chase a bigger gift. But a number said aloud to co-sponsors cannot be quietly halved if markets turn.
+
+The weak point is reinvestment. The ladder costs less than the cheques because its bonds pay interest along the way, which we reinvest. If yields fall and stay low, that interest earns less, and the ladder falls short. Before she names the range, we price that gap as if nothing more is reinvested, and move that much from the stocks Laura keeps into Treasuries, so her flexibility shrinks before her gift does. Whatever the stocks can't cover lowers the whole range.
+
+From 2033, the ladder and the money set aside for its gap become the operating reserve, paying out one rung per cheque.
+
+Do not crush.
+
+## Part 2, the SECOND TEXT
+10. Read it once. List every sentence you didn't understand the first time.
+11. For each pair below (the places the two texts differ; which is "1" and which is "2" is shuffled), which one did you understand on first read, "1", "2" or "same", and why in a few words?
+Pair 1:
+  1: She also hopes to contribute to the building.
+  2: She also hopes to contribute to its building.
+Pair 2:
+  1: In January 2027, her first $300,000 buys a ladder of Treasury bonds and funds that mature like bonds, one rung falling due before each cheque.
+  2: In January 2027, her first $300,000 buys a ladder of Treasury bonds and funds with an end date, one rung falling due before each cheque.
+Pair 3:
+  1: Her 2028 deposit depends on publishing advances, speaking fees and licensing – income that can dry up in the kind of downturn that makes a ladder dearer to buy.
+  2: Her 2028 deposit depends on publishing advances, speaking fees and licensing – income that can dry up in a downturn, when interest rates usually fall, making bonds cost more.
+Pair 4:
+  1: Her 2028 deposit finishes any rung the first $300,000 couldn't buy. The remainder, roughly the interest the floor should earn by then, goes into one world index fund, spread across thousands of companies. That is under a tenth of both her deposits. A bank's capital-protected note also starts with a bond, but spends that interest on an option, a bet that expires worthless unless the market rises. Stocks don't expire. We assume world stocks earn about 7.5% a year, but the cheques never depend on it.
+  2: Her 2028 deposit first finishes any rung the first $300,000 couldn't buy. The remainder, roughly the interest it should earn, goes into one world index fund, spread across thousands of companies. That is under a tenth of her money. Banks sell the same idea as a capital-protected note, but they spend that interest on an option, which expires worthless if the market stands still. Shares don't expire. We assume world shares earn about 7.5% a year over the long run, but the cheques never depend on it.
+Pair 5:
+  1: In 2031, Laura gives co-sponsors a range for her gift to the building.
+  2: In 2031, Laura gives co-sponsors a range for her facility contribution.
+Pair 6:
+  1: Before she names the range, we price that gap at that day's yields, plus a cushion, and move that much from the stocks Laura keeps into Treasuries, so her flexibility shrinks before her gift does.
+  2: Before she names the range, we price that gap as if nothing more is reinvested, and move that much from the stocks Laura keeps into Treasuries, so her flexibility shrinks before her gift does.
+
+## Part 3, the sentence block
+12. Each version of the same sentence below: say it back in one line. Do the bonds still pay their interest? Does money already reinvested stop earning? Which version would you act on with the least guessing?
+  Version A: "Before she names the range, we price that gap as if later bond payments sat idle, and move that much from the stocks Laura keeps into Treasuries, so her flexibility shrinks before her gift does."
+  Version B: "Before she names the range, we price that gap as if money paid later sat idle, and move that much from the stocks Laura keeps into Treasuries, so her flexibility shrinks before her gift does."
+  Version C: "Before she names the range, we price that gap as if nothing more is reinvested, and move that much from the stocks Laura keeps into Treasuries, so her flexibility shrinks before her gift does."
+13. Two endings for the last paragraph: (x) "...paying out one rung per cheque and returning to Laura what the cheques don't need." (y) "...paying out one rung per cheque and returning to Laura what no remaining cheque needs." In 2036, what money goes back to Laura under each? Which is clearer?
+14. Another version of the same paragraph says: "Before she names the range, we price that gap as if nothing more is reinvested, and move that much from the stocks Laura keeps into Treasuries, until only a quarter of them is left. Whatever the stocks can't cover lowers the whole range." A quarter of what? Is it a fixed rule she can keep, and what happens past it?

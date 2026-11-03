@@ -6,6 +6,6 @@
 - [x] Replies by name, two votes, six D's (all six; done 2 Nov)
 - [x] Check the order line from both sides (Tess and Felix; done 2 Nov)
 - [x] Register and read the majority D blind, pitch shown, tripwire on (Jun; done 2 Nov)
-- [ ] Gate D's two new lines, where the gap money sits 2031-2033, and P3's "exactly what it promises" (Window, Felix; by Tue 3 Nov 08:40)
-- [ ] Plainer words for the skimmer's six stumbles, read blind (Writing Room, Tess; by Tue 3 Nov 16:20)
+- [x] Gate D's two new lines, where the gap money sits 2031-2033, and P3's "exactly what it promises" (Window, Felix; done 3 Nov: both TRUE; 3-month bills to 2033, then a second look the text doesn't name (W-08); P3 TRUE in the SEC's words; `../../ips_rewrite/inbox/2026-11-03_window.md` s1-s3)
+- [x] Plainer words for the skimmer's six stumbles, read blind (Writing Room, Tess; done 3 Nov: four repaired at the same count in W5, two still trip ("option", "Stocks don't expire."); H-025, `../2026-11-03_words-a-stranger-can-say-back/`)
 - [ ] The order line's mechanism, with its date, in the Final Report (Final Report planner, Tess; after the instructions land, Tue 10 Nov)

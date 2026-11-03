@@ -1,0 +1,73 @@
+{
+  "id": "H-024",
+  "slug": "parked-not-spent",
+  "title": "Parked, not spent?",
+  "question": "Kai's lock (set the ladder's reinvestment gap aside on naming day as if nothing more is reinvested) keeps every cheque and the named range safe. Who pays for it, does the IPS say so plainly enough for a co-sponsor, a judge and a practitioner, and what should change in P8 or P9 today? (round 7 beat 6; the Lab's challengers C1-C4 read three ways; LR-11)",
+  "room": "Laura's Room",
+  "chair": "Laura's Room (run)",
+  "opened": "2026-11-03",
+  "status": "closed",
+  "closed": "2026-11-03",
+  "members": [
+    "Amara",
+    "Kai",
+    "Felix"
+  ],
+  "serves": "North stars 3 and 4; Wharton: Investment Strategy (IPS question 4, how the composition changes as payments are made), Client Knowledge (appropriate financial flexibility, case :94-99, :102-103)",
+  "rounds": [
+    {
+      "n": 1,
+      "name": "Read alone: co-sponsor and simulated Laura, the escrow practitioner in its own words, judge with the case open",
+      "date": "2026-11-03",
+      "posts": [
+        "posts/r1_amara.md",
+        "posts/r1_kai.md",
+        "posts/r1_felix.md"
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Reply by name on three fights, with the chair's register check and LR-11",
+      "date": "2026-11-03",
+      "posts": [
+        "posts/r2_amara.md",
+        "posts/r2_kai.md",
+        "posts/r2_felix.md"
+      ]
+    },
+    {
+      "n": 3,
+      "name": "Settle: the add-on's words and who pays, counted, and vote",
+      "date": "2026-11-03",
+      "posts": [
+        "posts/r3_amara.md",
+        "posts/r3_kai.md",
+        "posts/r3_felix.md"
+      ]
+    }
+  ],
+  "essence": [
+    "The Lab's new rule for the ladder's weak point keeps every cheque and the number Laura tells co-sponsors safe, but it is paid for by the stocks she keeps for herself, which run out more often, and our draft never says that most of that money comes back once the cheques don't need it.",
+    "Public bond escrows, which are sized exactly this way, hand the leftover back to the owner once what remains still covers every later payment; so all three of us want the IPS to say the money comes back to Laura, and to keep a quarter of her stocks out of reach on the day she names her range, so she is never left with nothing when the building starts.",
+    "We offer a package at 497 words: \"as if nothing more is reinvested\", \"until only a quarter of them is left\", and \"returning to Laura what the cheques don't need\", paid for by four small cuts nobody needed."
+  ],
+  "decided": [
+    "C1 SHARPEN 3-0; C2 BIN, C3 Final Report (Wharton: a final range is not expected in the IPS), C4 Final Report (3-0)",
+    "P8 'as if nothing more is reinvested' over the Lab's 'as if money paid later sat idle' (3-0: the paragraph's own word, the escrows' 'without reinvestment'; 'paid later' asks 'by whom?')",
+    "Flexibility: both (3-0): keep a quarter back (P8, 0 words, replaces 'so her flexibility shrinks before her gift does') and say what the cheques don't need comes back (P9)",
+    "P9 '...and returning to Laura what the cheques don't need.' ('to Laura' 2-1 over 'her'; 'the cheques don't need' 2-1 over Kai's 'what no remaining cheque needs')",
+    "Paid by 'for good' (-1), 'first' (-1), 'over the long run' (-4), 'in a downturn' (-2; 2-1, Amara would cut 'roughly' instead); kept: 'under a tenth', 'spread across thousands of companies', 'to us,', 'along the way', 'liquid any day,' and P1's building line (each has a job in the register). 497 strict"
+  ],
+  "seeds": [
+    "Kai's dissent for the strangers: in 2036, does 'what the cheques don't need' read as that year's leftover (the wrong sum), where 'what no remaining cheque needs' carries the escrow's test?",
+    "Why a quarter, under the lock? Untested between none and a quarter (Final Report)"
+  ],
+  "changes": [
+    "Offer in ../../ips_rewrite/inbox/2026-11-03_lauras-room.md (full text: ../../rooms/lauras_room/LR-11_offered_ips.txt); no draft changed by the room",
+    "../../rooms/lauras_room/LR-11_parked_not_spent.md (+ .py, _results.json)"
+  ],
+  "todos": {
+    "done": 8,
+    "total": 10
+  }
+}

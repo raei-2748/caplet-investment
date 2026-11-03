@@ -1,0 +1,462 @@
+{
+ "stamp": "curve 22 Oct 2026 | J.P. Morgan 2027 global equities 7.5% | 200,000 paths, seed 20261016 | rho 0.5 unless S0 | V54's design via L-13 -> L-14 -> L-16 -> W-08 -> L-17, KW+H25/H50 added | MODEL",
+ "S0 base, rates and stocks independent": {
+  "KW": {
+   "cheques_paid_in_full": 1.0,
+   "p_cheque_short_over_1k": 0.0,
+   "short_p50_p90_when_short": [
+    0,
+    0
+   ],
+   "p_short_from_rung_never_bought_only": 0.0,
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95_p99": [
+    11635,
+    24893,
+    30781
+   ],
+   "lock_cost_mean": 11721,
+   "lock_delivers_nominal_p50": 16953,
+   "lock_unused_released_p50_mean": [
+    17953,
+    18067
+   ],
+   "p_lock_not_fully_funded": 0.0,
+   "kept_half": {
+    "p_lock_takes_any": 0.8909,
+    "share_taken_p50_p90_when_taken": [
+     0.676,
+     1.0
+    ],
+    "p_half_or_more_taken": 0.5713,
+    "p_nothing_left": 0.2813,
+    "left_2033_p5_p50": [
+     0,
+     8746
+    ]
+   },
+   "p_range_lowered_on_naming_day": 0.2686,
+   "range_cut_p50_when": 10000,
+   "p_gift_pays_cheques_after_naming": 0.0,
+   "p_top_reached": 0.9933,
+   "p_below_quoted_bottom": 0.0,
+   "top_quoted_p50": 165000,
+   "gift_mean": 159286,
+   "laura_2042_mean": 48722,
+   "laura_2042_mean_realised_release": 49090,
+   "worst_tenth_of_naming_day_gaps": {
+    "p_nothing_left": 0.7113,
+    "share_taken_p50": 1.0,
+    "p_cheque_short_any": 0.0
+   }
+  },
+  "KW_left_2033_mean": 12039,
+  "KW+H25": {
+   "cheques_paid_in_full": 1.0,
+   "p_cheque_short_over_1k": 0.0,
+   "short_p50_p90_when_short": [
+    0,
+    0
+   ],
+   "p_short_from_rung_never_bought_only": 0.0,
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95_p99": [
+    11635,
+    24893,
+    30781
+   ],
+   "lock_cost_mean": 11721,
+   "lock_delivers_nominal_p50": 16953,
+   "lock_unused_released_p50_mean": [
+    17953,
+    18067
+   ],
+   "p_lock_not_fully_funded": 0.0,
+   "kept_half": {
+    "p_lock_takes_any": 0.8909,
+    "share_taken_p50_p90_when_taken": [
+     0.676,
+     0.75
+    ],
+    "p_half_or_more_taken": 0.5713,
+    "p_nothing_left": 0.0,
+    "left_2033_p5_p50": [
+     2576,
+     8948
+    ],
+    "left_2033_mean": 13406
+   },
+   "p_range_lowered_on_naming_day": 0.3982,
+   "range_cut_p50_when": 10000,
+   "p_gift_pays_cheques_after_naming": 0.0,
+   "p_top_reached": 0.9949,
+   "p_below_quoted_bottom": 0.0,
+   "top_quoted_p50": 160000,
+   "gift_mean": 157800,
+   "laura_2042_mean": 51954,
+   "laura_2042_mean_realised_release": 52322,
+   "worst_tenth_of_naming_day_gaps": {
+    "p_nothing_left": 0.0001,
+    "share_taken_p50": 0.75,
+    "p_cheque_short_any": 0.0
+   }
+  },
+  "KW+H50": {
+   "cheques_paid_in_full": 1.0,
+   "p_cheque_short_over_1k": 0.0,
+   "short_p50_p90_when_short": [
+    0,
+    0
+   ],
+   "p_short_from_rung_never_bought_only": 0.0,
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95_p99": [
+    11635,
+    24893,
+    30781
+   ],
+   "lock_cost_mean": 11721,
+   "lock_delivers_nominal_p50": 16953,
+   "lock_unused_released_p50_mean": [
+    17953,
+    18067
+   ],
+   "p_lock_not_fully_funded": 0.0,
+   "kept_half": {
+    "p_lock_takes_any": 0.8909,
+    "share_taken_p50_p90_when_taken": [
+     0.5,
+     0.5
+    ],
+    "p_half_or_more_taken": 0.5713,
+    "p_nothing_left": 0.0,
+    "left_2033_p5_p50": [
+     5096,
+     12306
+    ],
+    "left_2033_mean": 15627
+   },
+   "p_range_lowered_on_naming_day": 0.5713,
+   "range_cut_p50_when": 10000,
+   "p_gift_pays_cheques_after_naming": 0.0,
+   "p_top_reached": 0.9957,
+   "p_below_quoted_bottom": 0.0,
+   "top_quoted_p50": 160000,
+   "gift_mean": 155495,
+   "laura_2042_mean": 57062,
+   "laura_2042_mean_realised_release": 57430,
+   "worst_tenth_of_naming_day_gaps": {
+    "p_nothing_left": 0.0001,
+    "share_taken_p50": 0.5,
+    "p_cheque_short_any": 0.0
+   }
+  },
+  "check": "KW identical to the Lab's L-17 results.json"
+ },
+ "S6 yields fall 2pt just after the build, for good": {
+  "KW": {
+   "cheques_paid_in_full": 1.0,
+   "p_cheque_short_over_1k": 0.0,
+   "short_p50_p90_when_short": [
+    0,
+    0
+   ],
+   "p_short_from_rung_never_bought_only": 0.0,
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95_p99": [
+    21225,
+    36098,
+    39787
+   ],
+   "lock_cost_mean": 20642,
+   "lock_delivers_nominal_p50": 26729,
+   "lock_unused_released_p50_mean": [
+    12633,
+    13528
+   ],
+   "p_lock_not_fully_funded": 0.0,
+   "kept_half": {
+    "p_lock_takes_any": 0.9662,
+    "share_taken_p50_p90_when_taken": [
+     1.0,
+     1.0
+    ],
+    "p_half_or_more_taken": 0.867,
+    "p_nothing_left": 0.7281,
+    "left_2033_p5_p50": [
+     0,
+     0
+    ]
+   },
+   "p_range_lowered_on_naming_day": 0.7191,
+   "range_cut_p50_when": 15000,
+   "p_gift_pays_cheques_after_naming": 0.0,
+   "p_top_reached": 0.9957,
+   "p_below_quoted_bottom": 0.0,
+   "top_quoted_p50": 145000,
+   "gift_mean": 141580,
+   "laura_2042_mean": 24914,
+   "laura_2042_mean_realised_release": 25582,
+   "worst_tenth_of_naming_day_gaps": {
+    "p_nothing_left": 0.9254,
+    "share_taken_p50": 1.0,
+    "p_cheque_short_any": 0.0
+   }
+  },
+  "KW_left_2033_mean": 3338,
+  "KW+H25": {
+   "cheques_paid_in_full": 1.0,
+   "p_cheque_short_over_1k": 0.0,
+   "short_p50_p90_when_short": [
+    0,
+    0
+   ],
+   "p_short_from_rung_never_bought_only": 0.0,
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95_p99": [
+    21225,
+    36098,
+    39787
+   ],
+   "lock_cost_mean": 20642,
+   "lock_delivers_nominal_p50": 26729,
+   "lock_unused_released_p50_mean": [
+    12633,
+    13528
+   ],
+   "p_lock_not_fully_funded": 0.0,
+   "kept_half": {
+    "p_lock_takes_any": 0.9662,
+    "share_taken_p50_p90_when_taken": [
+     0.75,
+     0.75
+    ],
+    "p_half_or_more_taken": 0.867,
+    "p_nothing_left": 0.0145,
+    "left_2033_p5_p50": [
+     1069,
+     3424
+    ],
+    "left_2033_mean": 5641
+   },
+   "p_range_lowered_on_naming_day": 0.7957,
+   "range_cut_p50_when": 20000,
+   "p_gift_pays_cheques_after_naming": 0.0,
+   "p_top_reached": 0.996,
+   "p_below_quoted_bottom": 0.0,
+   "top_quoted_p50": 140000,
+   "gift_mean": 139450,
+   "laura_2042_mean": 29988,
+   "laura_2042_mean_realised_release": 30656,
+   "worst_tenth_of_naming_day_gaps": {
+    "p_nothing_left": 0.0554,
+    "share_taken_p50": 0.75,
+    "p_cheque_short_any": 0.0
+   }
+  },
+  "KW+H50": {
+   "cheques_paid_in_full": 1.0,
+   "p_cheque_short_over_1k": 0.0,
+   "short_p50_p90_when_short": [
+    0,
+    0
+   ],
+   "p_short_from_rung_never_bought_only": 0.0,
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95_p99": [
+    21225,
+    36098,
+    39787
+   ],
+   "lock_cost_mean": 20642,
+   "lock_delivers_nominal_p50": 26729,
+   "lock_unused_released_p50_mean": [
+    12633,
+    13528
+   ],
+   "p_lock_not_fully_funded": 0.0,
+   "kept_half": {
+    "p_lock_takes_any": 0.9662,
+    "share_taken_p50_p90_when_taken": [
+     0.5,
+     0.5
+    ],
+    "p_half_or_more_taken": 0.867,
+    "p_nothing_left": 0.0038,
+    "left_2033_p5_p50": [
+     2137,
+     6757
+    ],
+    "left_2033_mean": 8334
+   },
+   "p_range_lowered_on_naming_day": 0.867,
+   "range_cut_p50_when": 20000,
+   "p_gift_pays_cheques_after_naming": 0.0,
+   "p_top_reached": 0.9959,
+   "p_below_quoted_bottom": 0.0,
+   "top_quoted_p50": 140000,
+   "gift_mean": 137013,
+   "laura_2042_mean": 35859,
+   "laura_2042_mean_realised_release": 36527,
+   "worst_tenth_of_naming_day_gaps": {
+    "p_nothing_left": 0.0138,
+    "share_taken_p50": 0.5,
+    "p_cheque_short_any": 0.0
+   }
+  },
+  "check": "KW identical to the Lab's L-17 results.json"
+ },
+ "S9 yields 1pt lower before the build + 2028 deposit halved": {
+  "KW": {
+   "cheques_paid_in_full": 0.9871,
+   "p_cheque_short_over_1k": 0.0115,
+   "short_p50_p90_when_short": [
+    5716,
+    17019
+   ],
+   "p_short_from_rung_never_bought_only": 0.0027,
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95_p99": [
+    13158,
+    24437,
+    29192
+   ],
+   "lock_cost_mean": 13730,
+   "lock_delivers_nominal_p50": 17372,
+   "lock_unused_released_p50_mean": [
+    12350,
+    12063
+   ],
+   "p_lock_not_fully_funded": 0.0241,
+   "kept_half": {
+    "p_lock_takes_any": 0.9991,
+    "share_taken_p50_p90_when_taken": [
+     1.0,
+     1.0
+    ],
+    "p_half_or_more_taken": 0.9775,
+    "p_nothing_left": 0.9033,
+    "left_2033_p5_p50": [
+     0,
+     0
+    ]
+   },
+   "p_range_lowered_on_naming_day": 0.891,
+   "range_cut_p50_when": 10000,
+   "p_gift_pays_cheques_after_naming": 0.0,
+   "p_top_reached": 0.998,
+   "p_below_quoted_bottom": 0.0,
+   "top_quoted_p50": 35000,
+   "gift_mean": 35983,
+   "laura_2042_mean": 17639,
+   "laura_2042_mean_realised_release": 17987,
+   "worst_tenth_of_naming_day_gaps": {
+    "p_nothing_left": 0.9991,
+    "share_taken_p50": 1.0,
+    "p_cheque_short_any": 0.0305
+   }
+  },
+  "KW_left_2033_mean": 449,
+  "KW+H25": {
+   "cheques_paid_in_full": 0.9869,
+   "p_cheque_short_over_1k": 0.0116,
+   "short_p50_p90_when_short": [
+    5651,
+    16923
+   ],
+   "p_short_from_rung_never_bought_only": 0.0027,
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95_p99": [
+    13158,
+    24437,
+    29192
+   ],
+   "lock_cost_mean": 13730,
+   "lock_delivers_nominal_p50": 17372,
+   "lock_unused_released_p50_mean": [
+    12349,
+    12062
+   ],
+   "p_lock_not_fully_funded": 0.0247,
+   "kept_half": {
+    "p_lock_takes_any": 0.9991,
+    "share_taken_p50_p90_when_taken": [
+     0.75,
+     0.75
+    ],
+    "p_half_or_more_taken": 0.9775,
+    "p_nothing_left": 0.1103,
+    "left_2033_p5_p50": [
+     312,
+     1328
+    ],
+    "left_2033_mean": 1731
+   },
+   "p_range_lowered_on_naming_day": 0.9404,
+   "range_cut_p50_when": 10000,
+   "p_gift_pays_cheques_after_naming": 0.0,
+   "p_top_reached": 0.9975,
+   "p_below_quoted_bottom": 0.0,
+   "top_quoted_p50": 35000,
+   "gift_mean": 34802,
+   "laura_2042_mean": 20434,
+   "laura_2042_mean_realised_release": 20783,
+   "worst_tenth_of_naming_day_gaps": {
+    "p_nothing_left": 0.227,
+    "share_taken_p50": 0.75,
+    "p_cheque_short_any": 0.0313
+   }
+  },
+  "KW+H50": {
+   "cheques_paid_in_full": 0.9867,
+   "p_cheque_short_over_1k": 0.0118,
+   "short_p50_p90_when_short": [
+    5596,
+    16759
+   ],
+   "p_short_from_rung_never_bought_only": 0.0027,
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95_p99": [
+    13158,
+    24437,
+    29192
+   ],
+   "lock_cost_mean": 13730,
+   "lock_delivers_nominal_p50": 17372,
+   "lock_unused_released_p50_mean": [
+    12348,
+    12060
+   ],
+   "p_lock_not_fully_funded": 0.0252,
+   "kept_half": {
+    "p_lock_takes_any": 0.9991,
+    "share_taken_p50_p90_when_taken": [
+     0.5,
+     0.5
+    ],
+    "p_half_or_more_taken": 0.9775,
+    "p_nothing_left": 0.036,
+    "left_2033_p5_p50": [
+     624,
+     2649
+    ],
+    "left_2033_mean": 3136
+   },
+   "p_range_lowered_on_naming_day": 0.9775,
+   "range_cut_p50_when": 15000,
+   "p_gift_pays_cheques_after_naming": 0.0,
+   "p_top_reached": 0.9966,
+   "p_below_quoted_bottom": 0.0,
+   "top_quoted_p50": 35000,
+   "gift_mean": 33545,
+   "laura_2042_mean": 23454,
+   "laura_2042_mean_realised_release": 23803,
+   "worst_tenth_of_naming_day_gaps": {
+    "p_nothing_left": 0.0708,
+    "share_taken_p50": 0.5,
+    "p_cheque_short_any": 0.0323
+   }
+  },
+  "check": "KW identical to the Lab's L-17 results.json"
+ }
+}

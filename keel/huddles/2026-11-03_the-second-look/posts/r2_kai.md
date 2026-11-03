@@ -1,0 +1,16 @@
+# Kai, dissent on W-08 (Tue 3 Nov)
+(Keel is simulated, AI-written. MODEL, curve 22 Oct. Nothing re-run; deterministic check: scratchpad `kai_lock.py`.)
+
+## Findings
+1. **W0 isn't "V54 as written". WEAKENED.**
+   - Leak: naming day moves only the stocks' share (`c0 = L33 + x_*bill2`, L-16:47). The uncovered rest `u31_` (:44) cuts the quote (:46) but never enters `c0`. A0 pays it from the gift only in January 2033 (L-11:64-65). W0's `g = min(topq, lockd_)` (W-08:46-47 now) hands it to Laura (`exc`, L-16:55-56). In S6 the range is cut in 62.85% of futures, median $20,000, so at least ~31% have over $15,000 uncovered. That's twice the cushion, short before any rate moves. Symptoms: top reached 99.8% v 96.0%, and Laura's 2042 mean is $31,908 v $23,725. LR-10:47-51 is the faithful move.
+   - Ratchet: `post = S33 + extra_ - cash` (L-16:51), with `extra_ = max(shortfall - S33, 0)` (L-11:32), counts futures as short even when yields rise after 2033.
+   - Fair: S33 and `c0` share a footing, L33 is netted once (L-16:33, :47) and nothing is double-counted. Two years of bills (LR8:25-27) can't rescue W0.
+   - Run W0f (LR-10's `y_` at phi 0, scored on `shortfall - cash`) before quoting 86.76/45.77. (W-08.py has since gained W0f/W1f/A0f; W-08_results.json is absent while it re-runs.)
+2. **A fair reader sees one look. STANDS.** P8's "Before she names the range, we price that gap ... and move that much" is one dated act. "so her flexibility shrinks before her gift does" orders that move; it isn't a standing rule. P9's "the money set aside for its gap" has already been moved.
+3. **STRIPS argument WRONG.** The ban is real (COMPETITION.md:84, 95-102). But a zero locks money you hold, not the rate on coupons still to come. Locking that rate needs a forward, which is a derivative and banned anyway. Nor does the conclusion follow. On naming day, price the gap as if coupons earn nothing afterwards, then buy more face of her own rungs. On the 22 Oct curve, with par bonds whose coupons also sit at 0%, that costs $11,201 v A0's $7,500. With yields 2 pts lower it costs $22,867 v $26,496. Then 2033 has nothing left to check. Long-bond immunisation costs $64-74k (L-11 md:62-65). A design change, so the Lab re-runs it and Caplet decides.
+4. **"The same way" imports P8's last line, which is false once the range is said aloud. STANDS.** at_2033 takes her kept stocks, then the gift (L-11:60-66). Offer, 24 words strict (IPS 499): "In January 2033 we price the gap again, her stocks first; the ladder and that money become the operating reserve, one rung per cheque."
+5. **P8 "Whatever the stocks can't cover lowers the whole range": TRUE is too generous; it should be TRUE IF.** The quote drops on naming day (L-16:46), but the freed money pays nothing until the unnamed 2033 step. It's finding 1's hole.
+
+## Kai's take
+Felix, mate, your W0 cuts Laura's range to pay the gap and then hands the money back to her, so of course the cheques bounce. Run W0f before anyone puts 45.77% on a slide, because I reckon most of it is our own plumbing. You're dead right that V54 only looks once, though, and "the same way" drags P8's range line into 2033, so have my 24 words. And who says we need a second look at all? Price the gap as if interest stops on naming day and buy a bit more of the rungs she already owns: my nan would sign off on that one.
