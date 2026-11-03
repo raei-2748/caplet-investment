@@ -1,6 +1,6 @@
 # The stranger sheet (H-025 round 2; written by the chair before any reader ran)
 
-> 17:25, before any reader ran: question 3's items were reworded so they don't quote either text's own words (the first
+> Before any reader ran: question 3's items were reworded so they don't quote either text's own words (the first
 > wording quoted V54 and would have hinted to readers who get W3 first).
 
 Every reader gets: who they are (one line), the pitch above a full IPS text (FIRST TEXT, read cold), the questions

@@ -56,7 +56,7 @@ sentence back; all passing is "not failed", never "passed". Every tally says how
   top of the gift). The gap money between 2031 and 2033 sits in Treasuries.
 - **K5 after naming day:** what could still leave a cheque short? Road B arms: nothing a fall in yields does (the gap
   is bought as if later money earns nothing). V54: a reader may honestly say "if yields fall more than the cushion".
-  **Amended 16:55, before any reader ran (Kai, r1 (d)):** "nothing markets do" was too wide: five rungs are funds that
+  **Amended before any reader ran (Kai, r1 (d)):** "nothing markets do" was too wide: five rungs are funds that
   pay out their net asset value, "not fixed" (submitted IBTM note). A reader who says "nothing" is recorded as reading
   the text that way, not as passing a fact; whether the text claims too much is Tess's call in round 3.
 - **K6 the six steps:** (1) the bank puts most of the money in a bond that returns it and spends the rest on a bet that
