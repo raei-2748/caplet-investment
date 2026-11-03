@@ -8,15 +8,43 @@
   "opened": "2026-11-03",
   "status": "closed",
   "closed": "2026-11-03",
-  "members": ["Amara", "Kai", "Felix"],
+  "members": [
+    "Amara",
+    "Kai",
+    "Felix"
+  ],
   "serves": "North stars 3 and 4; Wharton: Investment Strategy (IPS question 4, how the composition changes as payments are made), Client Knowledge (appropriate financial flexibility, case :94-99, :102-103)",
   "rounds": [
-    {"n": 1, "name": "Read alone: co-sponsor and simulated Laura, the escrow practitioner in its own words, judge with the case open", "date": "2026-11-03",
-     "posts": ["posts/r1_amara.md", "posts/r1_kai.md", "posts/r1_felix.md"]},
-    {"n": 2, "name": "Reply by name on three fights, with the chair's register check and LR-11", "date": "2026-11-03",
-     "posts": ["posts/r2_amara.md", "posts/r2_kai.md", "posts/r2_felix.md"]},
-    {"n": 3, "name": "Settle: the add-on's words and who pays, counted, and vote", "date": "2026-11-03",
-     "posts": ["posts/r3_amara.md", "posts/r3_kai.md", "posts/r3_felix.md"]}
+    {
+      "n": 1,
+      "name": "Read alone: co-sponsor and simulated Laura, the escrow practitioner in its own words, judge with the case open",
+      "date": "2026-11-03",
+      "posts": [
+        "posts/r1_amara.md",
+        "posts/r1_kai.md",
+        "posts/r1_felix.md"
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Reply by name on three fights, with the chair's register check and LR-11",
+      "date": "2026-11-03",
+      "posts": [
+        "posts/r2_amara.md",
+        "posts/r2_kai.md",
+        "posts/r2_felix.md"
+      ]
+    },
+    {
+      "n": 3,
+      "name": "Settle: the add-on's words and who pays, counted, and vote",
+      "date": "2026-11-03",
+      "posts": [
+        "posts/r3_amara.md",
+        "posts/r3_kai.md",
+        "posts/r3_felix.md"
+      ]
+    }
   ],
   "essence": [
     "The Lab's new rule for the ladder's weak point keeps every cheque and the number Laura tells co-sponsors safe, but it is paid for by the stocks she keeps for herself, which run out more often, and our draft never says that most of that money comes back once the cheques don't need it.",
@@ -38,5 +66,8 @@
     "Offer in ../../ips_rewrite/inbox/2026-11-03_lauras-room.md (full text: ../../rooms/lauras_room/LR-11_offered_ips.txt); no draft changed by the room",
     "../../rooms/lauras_room/LR-11_parked_not_spent.md (+ .py, _results.json)"
   ],
-  "todos": {"done": 7, "total": 10}
+  "todos": {
+    "done": 8,
+    "total": 10
+  }
 }

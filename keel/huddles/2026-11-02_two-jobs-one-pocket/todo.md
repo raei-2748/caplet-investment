@@ -3,7 +3,7 @@
 - [x] Flaw-hunt every finding against run.py and results.json (Kai; done 2 Nov)
 - [x] Blind read of V52, m1 and m3 + cut (Jun; done 2 Nov)
 - [x] Break the overage image; keep only what survives (Amara; done 2 Nov)
-- [ ] Read m3j blind against V52 in tonight's claim set (Writing Room, Tess and Amara; by Mon 2 Nov 16:20)
+- [x] Read m3j blind against V52 in tonight's claim set (Writing Room, Tess and Amara; moved on 2 Nov: V53 carried m3j and H-018 read V53 blind (`../../drafts/writing_room_2026-11-02/README.md`))
 - [x] Gate L-16's headline from a clean checkout (S0, S6) and rule on "add a margin" (Window, Felix; done 3 Nov: S0 and S6 identical; "plus a cushion" is C on naming day; its January 2033 half is W-08, a near-breach; `../../ips_rewrite/inbox/2026-11-03_window.md` s1, s3)
 - [ ] Size the margin from the gap's own spread for the Final Report (Genius Lab, Jun; after 7 Nov)
 - [x] What is Laura's flexibility when the pocket is empty? (Laura's Room, Amara; done 2 Nov: nothing until 2042, so keep a quarter back on naming day, LR-10 / H-017)

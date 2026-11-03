@@ -1,11 +1,11 @@
 # FICTION (the room) + real drafts. The Writing Room
 
 ## Now
-- **Doing:** round 6 beat 7 (2 Nov): V53 read blind beside Laura's Room's quarter-back package and Amara's one-borrower line by two cold readers (huddle H-018); all five open requests closed
-- **Decided:** V53 first with both readers; four hard issues -> W2 at 496 strict ("one rung" for "one bond"; P2 "none sold" so "Do not crush." has a handle; the reserve is the ladder plus its set-aside; paid by P3's pitch mirror); D1 to the Final Report
-- **Next:** Tue 3 Nov: the Long Room's verdict on V53 v W2 and the Window's gate on "one rung" and "none sold"; then whatever V54 changes (nothing new is promoted after Tue 3 Nov)
-- **For the judges:** a last line a reader can say back, and a reserve that holds what the plan sets aside for it
-- **Updated:** 2026-11-02 17:05 Sydney
+- **Doing:** round 7 beat 7 (3 Nov): V54 read blind by four fresh strangers beside Amara's repair, against a key sealed first (huddle H-025); all seven open requests to this room answered
+- **Decided:** W5 offered (497 strict, V54 + twelve backed changes, pitch untouched): the lock as "as if later bond payments sat idle" (4 of 4), "funds with an end date", why a downturn makes bonds dearer, the bank sentence bond-first, "the floor should earn", "yields" gone; the diversification words kept (Tess reversed W4's cut); return line and quarter to the Final Report
+- **Next:** Wed 4 Nov: the Window's gates (L-17, which the lock stands on; "$450,000", "bond payments" v the fund rungs); the rewrite thread's final; nothing new promoted after today
+- **For the judges:** every sentence a stranger can say back, and a weak point stated as a rule, not a forecast
+- **Updated:** 2026-11-03 16:58 Sydney
 
 > AI DRAFT material throughout (Claude); not for submission as written. (Keel is a simulated team, AI-written.)
 
@@ -14,6 +14,8 @@
 > Rule: flag only hard issues (limits, rule breaches, facts, numbers, formatting) with minimal edits; never reword
 > for taste or soften a confident claim. Suggestions stay in the repo; never touch the Google Docs.
 
+> **State (Tue 3 Nov, 16:20 run):** beat 7 done as huddle H-025 on V54 (D34, 497): texts, the four strangers' answers, the sealed key and the tally in `../huddles/2026-11-03_words-a-stranger-can-say-back/`; W5 + packet builder in `../drafts/writing_room_2026-11-03/` (README first). Open to this room: nothing; two requests out (Window gate, Courtroom read of W5).
+>
 > **State (Mon 2 Nov, 16:20 run):** beat 7 done as huddle H-018 on V53 (D33, 497): arms, reader replies and W2 in `../drafts/writing_room_2026-11-02/` (README first) and `../huddles/2026-11-02_beside-the-champion/`. Open to this room: nothing; two requests out (Long Room blind read V53 v W2, Window gate).
 >
 > **State (Sun 1 Nov, 16:20 run):** beat 7 done as huddle H-012 on V49, then V50 checked after Book 11 (W1 withdrawn; `V50_check.md`); arms, blind sheets, reader replies, cold reads and `packages.py` (rebuilds W1) in `../drafts/writing_room_2026-11-01/`. Open to this room: nothing; two requests out (Window gate, Courtroom panel).
@@ -58,3 +60,4 @@
 | Sun 1 Nov (16:20) | V49 (D29) + 17 arms in five places; W1 | V49 493, pitch 49; arms 483-519; W1 497 (494 by spaces) | 5: P5 "all of it" false in 46.9% of modelled futures; P7 mis-timed; worst-twentieth pair from the independent world; "set-aside" never introduced; $145,000 beside the $150,000 floor | `../office/outbox/2026-11-01_writing-room_five-places-one-page.md` |
 | Sun 1 Nov (17:40) | V50 (D30), after Book 11 | V50 497 (margin 0), pitch 40 | 2 live + 1 already filed: top end never moved into Treasuries before naming; 2028 deposit's ladder-finishing job gone (paras 3, 5 overclaim); fund rungs v "pays exactly" (weekly plan K01) | `../drafts/writing_room_2026-11-01/V50_check.md` |
 | Mon 2 Nov (16:20) | V53 (D33) + Laura's Room's package + Amara's D1, read blind by 2 cold readers | V53 497, pitch 50; B 496; C 497; W2 496 | 4: "one bond" for fund rungs; "Do not crush." unexplained (2 of 2 readers); reserve without its set-aside; +8 needs a whole idea (P3 mirror) | `../office/outbox/2026-11-02_writing-room_beside-the-champion.md` |
+| Tue 3 Nov (16:20) | V54 (D34) + Amara's W3/W4, Kai's rival words, Laura's Room's LR-11 lines, read by 4 fresh strangers | V54 497, pitch 50; W3 497; W4 496; **W5 497**; V54 + five fixes 499 | 5: P8 lock ("as if later bond payments sat idle", 4 of 4); P4 why (both V54 cold readers failed); bank sentence bond first; "it should earn" -> "the floor"; "yields" (4 of 4) | `../office/outbox/2026-11-03_writing-room_words-a-stranger-can-say-back.md` |

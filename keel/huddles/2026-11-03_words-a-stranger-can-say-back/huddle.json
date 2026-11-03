@@ -1,0 +1,75 @@
+{
+  "id": "H-025",
+  "slug": "words-a-stranger-can-say-back",
+  "title": "Words a stranger can say back",
+  "question": "V54 is the champion. Seven requests ask the Writing Room for words a fresh stranger can say back: the lock in P8, the six missing steps, the order line, the promise, the TNA read. Does a repair beat V54 with four fresh strangers, and which wording of the lock do they get right? (round 7 beat 7)",
+  "room": "Writing Room",
+  "chair": "the run (Tess's room)",
+  "opened": "2026-11-03",
+  "status": "closed",
+  "closed": "2026-11-03",
+  "members": [
+    "Amara",
+    "Kai",
+    "Tess"
+  ],
+  "serves": "North stars 1 and 4 (a plain human voice; investing logic a stranger can follow); Wharton: Creativity & Presentation ('Clearly explain your team's investment strategy and the reasoning behind it'), Investment Strategy ('uses appropriate diversification'); Book 11 item 6; Commandment VI",
+  "rounds": [
+    {
+      "n": 1,
+      "name": "Amara writes W3; Kai seals his predictions and writes rival words",
+      "date": "2026-11-03",
+      "posts": [
+        "posts/r1_amara.md",
+        "posts/r1_kai.md"
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Four fresh strangers read V54 and W3 blind, two each way round, against a key sealed first",
+      "date": "2026-11-03",
+      "posts": [
+        "posts/r2_reader1_haiku.md",
+        "posts/r2_reader2_sonnet.md",
+        "posts/r2_reader3_opus.md",
+        "posts/r2_reader4_fable.md"
+      ]
+    },
+    {
+      "n": 3,
+      "name": "Kai scores his seals and checks 'first'; Amara takes the losses (W4); Tess lands W5",
+      "date": "2026-11-03",
+      "posts": [
+        "posts/r3_kai.md",
+        "posts/r3_amara.md",
+        "posts/r3_tess.md"
+      ]
+    }
+  ],
+  "essence": [
+    "Four people who had never seen our work read the newest IPS and our repair, and we changed only the words they tripped on, like \"yields\" and \"facility\", keeping it at 497 words.",
+    "All four understood one plain way to say how we cover a fall in interest rates (before Laura names her range, set money aside as if later bond payments sat idle), while the two other wordings on the table confused them.",
+    "We put back the five words that say her stocks are spread across thousands of companies, because judges mark diversification and nothing else in the IPS says it."
+  ],
+  "decided": [
+    "W5 offered (497 strict, V54 + twelve backed changes, net 0, pitch untouched)",
+    "Lock words: Kai's 'as if later bond payments sat idle,' (picked 4 of 4; both H-023 questions right 4 of 4); 'as if nothing more is reinvested' and 'as if money paid later sat idle' out",
+    "Diversification words restored over W4's cut (Wharton scores 'uses appropriate diversification')",
+    "Five hard issues on V54: the lock, P4's why, the bank sentence bond-first, 'the floor should earn', 'yields' (+2 alone)",
+    "Laura's Room's return line and quarter to the Final Report; if the return line is ever used, 'what no remaining cheque needs' (4 of 4)",
+    "Kai's 'first' charge withdrawn after the register check; F21 closed on the pitch; the Archive's TNA read met 4 of 4"
+  ],
+  "seeds": [
+    "A cheque's safety after naming day is never said in words (one stranger: 'possibly yes'); about three words would say it, beside five fund rungs that pay out net asset value (Courtroom tonight; Final Report)",
+    "What strangers still take on trust: 'option' (4 of 4), 'operating reserve' (3 of 4), why falling rates raise bond prices (Caplet's own words)"
+  ],
+  "changes": [
+    "../../ips_rewrite/inbox/2026-11-03_writing-room.md",
+    "../../drafts/writing_room_2026-11-03/W5_V54_repaired.txt",
+    "../../drafts/writing_room_2026-11-03/README.md"
+  ],
+  "todos": {
+    "done": 8,
+    "total": 11
+  }
+}

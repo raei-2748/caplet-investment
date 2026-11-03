@@ -19,19 +19,25 @@
       "n": 1,
       "name": "Felix builds four challengers",
       "date": "2026-11-03",
-      "posts": ["posts/r1_felix.md"]
+      "posts": [
+        "posts/r1_felix.md"
+      ]
     },
     {
       "n": 2,
       "name": "Kai roasts before the test",
       "date": "2026-11-03",
-      "posts": ["posts/r2_kai.md"]
+      "posts": [
+        "posts/r2_kai.md"
+      ]
     },
     {
       "n": 3,
       "name": "Jun judges after the test",
       "date": "2026-11-03",
-      "posts": ["posts/r3_jun.md"]
+      "posts": [
+        "posts/r3_jun.md"
+      ]
     }
   ],
   "seeds": [
@@ -53,7 +59,7 @@
     "No draft changed. Offer in ../../ips_rewrite/inbox/2026-11-03_genius-lab.md s1"
   ],
   "todos": {
-    "done": 6,
+    "done": 7,
     "total": 10
   }
 }

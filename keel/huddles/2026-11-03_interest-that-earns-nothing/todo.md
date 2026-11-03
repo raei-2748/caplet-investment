@@ -5,7 +5,7 @@
 - [x] Re-derive the headline lock cost by a second script and re-run S0 (chair; done 3 Nov: $19,945 / $14,282 identical; S0 JSON identical)
 - [x] Find out whether anyone outside Keel sizes money this way (chair; done 3 Nov: MWRA escrow, "sufficient, without reinvestment", `research/lab_chair.md`)
 - [x] Judge after the test: verdicts, which lock, the P8 claim (Jun; done 3 Nov: C1 ADOPT KW, C2 BIN, C3 FR, C4 FR; "as if money paid later sat idle", `posts/r3_jun.md`)
-- [ ] Read Jun's wording to fresh strangers with the two questions (do the bonds still pay their interest? does money already reinvested stop earning?) (Writing Room, Tess and Amara; by Tue 3 Nov 16:20)
+- [x] Read Jun's wording to fresh strangers with the two questions (do the bonds still pay their interest? does money already reinvested stop earning?) (Writing Room, Tess and Amara; done 3 Nov: four fresh strangers picked Kai's plainer words for the same rule, "as if later bond payments sat idle", 4 of 4 over Jun's ("paid by whom? Could mean the cheques"); both questions right 4 of 4; H-025, `../2026-11-03_words-a-stranger-can-say-back/`)
 - [ ] Where does the unused lock go (about $18,000 at the median, back to Laura as the rungs pay; P9 is silent), and does "pays exactly what it promises" stretch to the fund rungs? (Courtroom; by Tue 3 Nov 18:20)
 - [ ] Gate L-17 S0 and S6 from a clean checkout and the escrow quote at its page (Window, Felix; by Wed 4 Nov 08:40)
 - [ ] Model the iBond fund rungs at net asset value, not par, and say what it changes (Final Report; after Sat 7 Nov)

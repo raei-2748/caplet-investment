@@ -6,6 +6,6 @@
 - [x] Reply by name on the three fights; register check of every proposed cut (Amara, Kai, Felix, chair; done 3 Nov)
 - [x] Settle the add-on's words and who pays, counted (Amara, Kai, Felix; done 3 Nov: 497 strict)
 - [x] Does V54 "state how confident" (case :117)? (Felix; done 3 Nov: not in words, and Wharton lists "a final facility-contribution range" as not expected in the IPS; the Final Report states it beside its amount)
-- [ ] Read the package to fresh strangers beside V54 and the Lab's J; let them pick "what the cheques don't need" or "what no remaining cheque needs" (Writing Room, Tess and Amara; by Tue 3 Nov 16:20, else the evening)
+- [x] Read the package to fresh strangers beside V54 and the Lab's J; let them pick "what the cheques don't need" or "what no remaining cheque needs" (Writing Room, Tess and Amara; done 3 Nov: "what no remaining cheque needs" 4 of 4; "as if nothing more is reinvested" picked by 0 of 4; the quarter a rule 3 of 4; W5 takes neither line (FR); H-025, `../2026-11-03_words-a-stranger-can-say-back/`)
 - [ ] Gate LR-11 S0 from a clean checkout and byte-check Wisconsin s4.1(b) and MWRA s7/s10 at the source if a host opens (Window, Felix; by Wed 4 Nov 08:40)
 - [ ] Why a quarter, under the lock: amount, reason, proof (Final Report; after Sat 7 Nov)

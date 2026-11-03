@@ -1,5 +1,5 @@
 {
- "built": "2026-11-03T04:37",
+ "built": "2026-11-03T06:00",
  "days": [
   {
    "date": "2026-11-03",
@@ -16,7 +16,10 @@
     "So the IPS should either name the second check or use Kai's simpler rule, setting the money aside as if the interest earned nothing, which needs no second check at all.",
     "We argued whether a word cold readers guessed right counts as understood, and decided it does only if they can explain it in their own words and act on it.",
     "So \"option\" stays a problem and \"redemption\" doesn't, and the writers get six missing steps, led by the bank sentence, with no new wording from us.",
-    "Nothing new enters the IPS from this round; the weather comparison goes to the Final Report, to show why Laura owns her range instead of giving odds, with the one place where it doesn't hold."
+    "Nothing new enters the IPS from this round; the weather comparison goes to the Final Report, to show why Laura owns her range instead of giving odds, with the one place where it doesn't hold.",
+    "Four people who had never seen our work read the newest IPS and our repair, and we changed only the words they tripped on, like \"yields\" and \"facility\", keeping it at 497 words.",
+    "All four understood one plain way to say how we cover a fall in interest rates (before Laura names her range, set money aside as if later bond payments sat idle), while the two other wordings on the table confused them.",
+    "We put back the five words that say her stocks are spread across thousands of companies, because judges mark diversification and nothing else in the IPS says it."
    ],
    "huddles": [
     {
@@ -47,7 +50,7 @@
       "Where does the unused lock go (about $18,000 at the median), and does 'pays exactly what it promises' stretch to the fund rungs, which pay net asset value? (Courtroom, 18:20; Final Report)"
      ],
      "todos": {
-      "done": 6,
+      "done": 7,
       "total": 10
      },
      "path": "keel/huddles/2026-11-03_interest-that-earns-nothing",
@@ -87,7 +90,7 @@
       "Why a quarter, under the lock? Untested between none and a quarter (Final Report)"
      ],
      "todos": {
-      "done": 7,
+      "done": 8,
       "total": 10
      },
      "path": "keel/huddles/2026-11-03_parked-not-spent",
@@ -128,7 +131,7 @@
       "Road A or road B, in words a stranger can say back, inside 497 strict (Writing Room, 16:20)"
      ],
      "todos": {
-      "done": 6,
+      "done": 8,
       "total": 8
      },
      "path": "keel/huddles/2026-11-03_the-second-look",
@@ -173,7 +176,7 @@
       "After naming day, does the reinvestment cushion's forecast fall on the top of the range or on a cheque? (S-12 break 2; Genius Lab, MODEL, Final Report)"
      ],
      "todos": {
-      "done": 7,
+      "done": 8,
       "total": 10
      },
      "path": "keel/huddles/2026-11-03_what-a-stranger-would-guess",
@@ -182,6 +185,49 @@
       "keel/ips_rewrite/inbox/2026-11-03_library.md (offers: six missing steps, no wording)",
       "keel/rooms/library.md (slip S-12, Now block)",
       "keel/loop/rounds/2026-11-03.md section 4"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    },
+    {
+     "id": "H-025",
+     "title": "Words a stranger can say back",
+     "question": "V54 is the champion. Seven requests ask the Writing Room for words a fresh stranger can say back: the lock in P8, the six missing steps, the order line, the promise, the TNA read. Does a repair beat V54 with four fresh strangers, and which wording of the lock do they get right? (round 7 beat 7)",
+     "status": "closed",
+     "room": "Writing Room",
+     "chair": "the run (Tess's room)",
+     "members": [
+      "Amara",
+      "Kai",
+      "Tess"
+     ],
+     "essence": [
+      "Four people who had never seen our work read the newest IPS and our repair, and we changed only the words they tripped on, like \"yields\" and \"facility\", keeping it at 497 words.",
+      "All four understood one plain way to say how we cover a fall in interest rates (before Laura names her range, set money aside as if later bond payments sat idle), while the two other wordings on the table confused them.",
+      "We put back the five words that say her stocks are spread across thousands of companies, because judges mark diversification and nothing else in the IPS says it."
+     ],
+     "decided": [
+      "W5 offered (497 strict, V54 + twelve backed changes, net 0, pitch untouched)",
+      "Lock words: Kai's 'as if later bond payments sat idle,' (picked 4 of 4; both H-023 questions right 4 of 4); 'as if nothing more is reinvested' and 'as if money paid later sat idle' out",
+      "Diversification words restored over W4's cut (Wharton scores 'uses appropriate diversification')",
+      "Five hard issues on V54: the lock, P4's why, the bank sentence bond-first, 'the floor should earn', 'yields' (+2 alone)",
+      "Laura's Room's return line and quarter to the Final Report; if the return line is ever used, 'what no remaining cheque needs' (4 of 4)",
+      "Kai's 'first' charge withdrawn after the register check; F21 closed on the pitch; the Archive's TNA read met 4 of 4"
+     ],
+     "seeds": [
+      "A cheque's safety after naming day is never said in words (one stranger: 'possibly yes'); about three words would say it, beside five fund rungs that pay out net asset value (Courtroom tonight; Final Report)",
+      "What strangers still take on trust: 'option' (4 of 4), 'operating reserve' (3 of 4), why falling rates raise bond prices (Caplet's own words)"
+     ],
+     "todos": {
+      "done": 8,
+      "total": 11
+     },
+     "path": "keel/huddles/2026-11-03_words-a-stranger-can-say-back",
+     "transcript": "keel/huddles/2026-11-03_words-a-stranger-can-say-back/transcript.md",
+     "changes": [
+      "../../ips_rewrite/inbox/2026-11-03_writing-room.md",
+      "../../drafts/writing_room_2026-11-03/W5_V54_repaired.txt",
+      "../../drafts/writing_room_2026-11-03/README.md"
      ],
      "rounds": 3,
      "rounds_today": 3
@@ -259,6 +305,18 @@
      "title": "Kai's research (round 1, H-022, Tue 3 Nov 2026)",
      "member": "Kai",
      "huddle": "H-022"
+    },
+    {
+     "path": "keel/huddles/2026-11-03_words-a-stranger-can-say-back/research/kai_r3.md",
+     "title": "Kai, round 3: did W3 lose the job \"first\" did? (H-025)",
+     "member": "Kai",
+     "huddle": "H-025"
+    },
+    {
+     "path": "keel/huddles/2026-11-03_words-a-stranger-can-say-back/research/tally.md",
+     "title": "H-025 tally: four fresh strangers scored against the key sealed before they read (chair)",
+     "member": "Tally",
+     "huddle": "H-025"
     }
    ],
    "done": [
@@ -273,6 +331,13 @@
      "text": "Read F21's HOLD out (it rests on a line D cuts) and lay the case's only \"promise\" (lines 114-115, the 2031 range) beside the pitch's \"cheques are a promise\" (Window, Felix; done 3 Nov: moot on P8, where V54 says \"gift\"; the pitch's \"a promise\" is not false but is our word, not the case's (\"commitment\"), so the stranger test is re-aimed at the pitch beside P6 (Tess, H-021); `../../ips_rewrite/inbox/2026-11-03_window.md` s3)",
      "done": true,
      "owner": "Window",
+     "day": "2026-11-03",
+     "huddle": "H-020"
+    },
+    {
+     "text": "One stranger, TNA open, pitch shown, key written first: what does \"her promise\" mean on D + the cure? \"The range\" keeps it; anything else takes \"her gift\". Whoever rewrites P8's last line keeps the job the cut order line did (Writing Room, Tess; done 3 Nov: two strangers with the TNA and the pitch put \"promised minimum\" at the range's bottom and told it from the cheques; the order is carried by P8's last two sentences, unchanged; H-025, `../2026-11-03_words-a-stranger-can-say-back/`)",
+     "done": true,
+     "owner": null,
      "day": "2026-11-03",
      "huddle": "H-020"
     },
@@ -294,6 +359,13 @@
      "text": "Gate D's two new lines, where the gap money sits 2031-2033, and P3's \"exactly what it promises\" (Window, Felix; done 3 Nov: both TRUE; 3-month bills to 2033, then a second look the text doesn't name (W-08); P3 TRUE in the SEC's words; `../../ips_rewrite/inbox/2026-11-03_window.md` s1-s3)",
      "done": true,
      "owner": "Window",
+     "day": "2026-11-03",
+     "huddle": "H-019"
+    },
+    {
+     "text": "Plainer words for the skimmer's six stumbles, read blind (Writing Room, Tess; done 3 Nov: four repaired at the same count in W5, two still trip (\"option\", \"Stocks don't expire.\"); H-025, `../2026-11-03_words-a-stranger-can-say-back/`)",
+     "done": true,
+     "owner": null,
      "day": "2026-11-03",
      "huddle": "H-019"
     },
@@ -336,6 +408,13 @@
      "text": "Judge after the test: verdicts, which lock, the P8 claim (Jun; done 3 Nov: C1 ADOPT KW, C2 BIN, C3 FR, C4 FR; \"as if money paid later sat idle\", `posts/r3_jun.md`)",
      "done": true,
      "owner": "Jun",
+     "day": "2026-11-03",
+     "huddle": "H-023"
+    },
+    {
+     "text": "Read Jun's wording to fresh strangers with the two questions (do the bonds still pay their interest? does money already reinvested stop earning?) (Writing Room, Tess and Amara; done 3 Nov: four fresh strangers picked Kai's plainer words for the same rule, \"as if later bond payments sat idle\", 4 of 4 over Jun's (\"paid by whom? Could mean the cheques\"); both questions right 4 of 4; H-025, `../2026-11-03_words-a-stranger-can-say-back/`)",
+     "done": true,
+     "owner": null,
      "day": "2026-11-03",
      "huddle": "H-023"
     },
@@ -389,6 +468,13 @@
      "huddle": "H-024"
     },
     {
+     "text": "Read the package to fresh strangers beside V54 and the Lab's J; let them pick \"what the cheques don't need\" or \"what no remaining cheque needs\" (Writing Room, Tess and Amara; done 3 Nov: \"what no remaining cheque needs\" 4 of 4; \"as if nothing more is reinvested\" picked by 0 of 4; the quarter a rule 3 of 4; W5 takes neither line (FR); H-025, `../2026-11-03_words-a-stranger-can-say-back/`)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-03",
+     "huddle": "H-024"
+    },
+    {
      "text": "V54 line by line against the case, the TNA and the model files (Felix; done 3 Nov: `../../ips_rewrite/inbox/2026-11-03_window.md` s2)",
      "done": true,
      "owner": "Felix",
@@ -431,6 +517,20 @@
      "huddle": "H-021"
     },
     {
+     "text": "Words for the step (road A in P9 or road B in P8), paid inside 497 strict, read by one stranger who never saw the model (Writing Room, Tess and Amara; done 3 Nov: road B in P8, \"as if later bond payments sat idle,\" (0), said back by four strangers who never saw the model; H-025, `../2026-11-03_words-a-stranger-can-say-back/`)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-03",
+     "huddle": "H-021"
+    },
+    {
+     "text": "The stranger test on \"promise\", re-aimed: with the case open, are the pitch's \"a promise\" and P6's \"every dollar she promises\" two things? (Writing Room, Tess; done 3 Nov: 4 of 4 told the cheques' promise from the range's, nobody fused them; F21 closes on the pitch; H-025, `../2026-11-03_words-a-stranger-can-say-back/`)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-03",
+     "huddle": "H-021"
+    },
+    {
      "text": "Three scouts out on Q15: capital-protected notes, the share with no \"of what?\", the leaflet and its pass mark (Amara, Kai, Jun; done 3 Nov: nine finds, `research/`)",
      "done": true,
      "owner": "Amara",
@@ -466,6 +566,13 @@
      "huddle": "H-022"
     },
     {
+     "text": "Find the words for the six missing steps inside 497 strict, led by P5's bank sentence; read by fresh strangers, never today's two (Writing Room, Tess and Amara; done 3 Nov: all six worded in W5 (497 strict), read by four fresh strangers; the bank sentence still listed 4 of 4 for \"option\"; H-025, `../2026-11-03_words-a-stranger-can-say-back/`)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-03",
+     "huddle": "H-022"
+    },
+    {
      "text": "Does V54 \"state how confident\" (case :117), or only show it through \"already in bonds\"? (Final Report, Laura's Room; done 3 Nov: not in words, and not expected in the IPS: Wharton lists \"a final facility-contribution range\" as not expected there; P6's \"every dollar she promises is already in bonds\" is the plain version; the Final Report states the confidence beside its amount; `../../ips_rewrite/inbox/2026-11-03_lauras-room.md` s4)",
      "done": true,
      "owner": null,
@@ -478,16 +585,65 @@
      "owner": null,
      "day": "2026-11-03",
      "huddle": "H-022"
+    },
+    {
+     "text": "Seal predictions for every key question and write rival words for the bank sentence and the lock, counted (Kai; done 3 Nov: `posts/r1_kai.md`, `arms/K1_kai_bank.txt`, `arms/K2_kai_lock.txt`)",
+     "done": true,
+     "owner": "Kai",
+     "day": "2026-11-03",
+     "huddle": "H-025"
+    },
+    {
+     "text": "Write W3: the lock and the six missing steps inside 497 strict, register-checked (Amara; done 3 Nov: `arms/W3_amara.txt`, 497)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-11-03",
+     "huddle": "H-025"
+    },
+    {
+     "text": "Write the answer key and the stranger sheet before any reader runs; build four blind packets (chair; done 3 Nov: `BRIEF.md`, `../../drafts/writing_room_2026-11-03/`)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-03",
+     "huddle": "H-025"
+    },
+    {
+     "text": "Four fresh strangers read V54 and W3, two each way round (chair; done 3 Nov: `posts/r2_reader*.md`)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-03",
+     "huddle": "H-025"
+    },
+    {
+     "text": "Score every answer against the sealed key (chair; done 3 Nov: `research/tally.md`)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-03",
+     "huddle": "H-025"
+    },
+    {
+     "text": "Score the seals and check the \"first\" charge against the register (Kai; done 3 Nov: 5 right, 8 wrong, 2 mixed; charge withdrawn, `research/kai_r3.md`)",
+     "done": true,
+     "owner": "Kai",
+     "day": "2026-11-03",
+     "huddle": "H-025"
+    },
+    {
+     "text": "Take the losses; fix \"yields\", \"That is her floor.\", \"both her deposits\" (Amara; done 3 Nov: `arms/W4_amara.txt`, 496)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-11-03",
+     "huddle": "H-025"
+    },
+    {
+     "text": "Land it: W5, five hard issues, the seven rulings, seeds, essence (Tess; done 3 Nov: `arms/W5_tess.txt`, 497; `posts/r3_tess.md`)",
+     "done": true,
+     "owner": "Tess",
+     "day": "2026-11-03",
+     "huddle": "H-025"
     }
    ],
    "open": [
-    {
-     "text": "Read Jun's wording to fresh strangers with the two questions (do the bonds still pay their interest? does money already reinvested stop earning?) (Writing Room, Tess and Amara; by Tue 3 Nov 16:20)",
-     "done": false,
-     "owner": null,
-     "day": null,
-     "huddle": "H-023"
-    },
     {
      "text": "Where does the unused lock go (about $18,000 at the median, back to Laura as the rungs pay; P9 is silent), and does \"pays exactly what it promises\" stretch to the fund rungs? (Courtroom; by Tue 3 Nov 18:20)",
      "done": false,
@@ -510,13 +666,6 @@
      "huddle": "H-023"
     },
     {
-     "text": "Read the package to fresh strangers beside V54 and the Lab's J; let them pick \"what the cheques don't need\" or \"what no remaining cheque needs\" (Writing Room, Tess and Amara; by Tue 3 Nov 16:20, else the evening)",
-     "done": false,
-     "owner": null,
-     "day": null,
-     "huddle": "H-024"
-    },
-    {
      "text": "Gate LR-11 S0 from a clean checkout and byte-check Wisconsin s4.1(b) and MWRA s7/s10 at the source if a host opens (Window, Felix; by Wed 4 Nov 08:40)",
      "done": false,
      "owner": "Window",
@@ -531,27 +680,6 @@
      "huddle": "H-024"
     },
     {
-     "text": "Words for the step (road A in P9 or road B in P8), paid inside 497 strict, read by one stranger who never saw the model (Writing Room, Tess and Amara; by Tue 3 Nov 16:20)",
-     "done": false,
-     "owner": null,
-     "day": null,
-     "huddle": "H-021"
-    },
-    {
-     "text": "The stranger test on \"promise\", re-aimed: with the case open, are the pitch's \"a promise\" and P6's \"every dollar she promises\" two things? (Writing Room, Tess; by Tue 3 Nov 16:20)",
-     "done": false,
-     "owner": null,
-     "day": null,
-     "huddle": "H-021"
-    },
-    {
-     "text": "Find the words for the six missing steps inside 497 strict, led by P5's bank sentence; read by fresh strangers, never today's two (Writing Room, Tess and Amara; by Tue 3 Nov 16:20)",
-     "done": false,
-     "owner": null,
-     "day": null,
-     "huddle": "H-022"
-    },
-    {
      "text": "Put the own-words pass rule and the \"not failed, never passed\" sentence on the judge sheet before any reader runs (Courtroom, Nora as cold judge; by Tue 3 Nov 18:20)",
      "done": false,
      "owner": "Courtroom",
@@ -564,9 +692,36 @@
      "owner": null,
      "day": null,
      "huddle": "H-022"
+    },
+    {
+     "text": "Gate W5's new words: \"$450,000\", \"interest rates usually fall\" in a downturn, \"bond payments\" against the fund rungs, \"funds with an end date\" (Window, Felix; by Wed 4 Nov 08:40)",
+     "done": false,
+     "owner": "Window",
+     "day": null,
+     "huddle": "H-025"
+    },
+    {
+     "text": "Try W5 against V54 with readers who never saw either; does P8 still let a reader think a cheque can be short after naming day? (Courtroom, Nora; by Tue 3 Nov 18:20)",
+     "done": false,
+     "owner": "Courtroom",
+     "day": null,
+     "huddle": "H-025"
+    },
+    {
+     "text": "What can still leave a cheque short after naming day, in one plain sentence, with the fund rungs' net asset value (Final Report; after Sat 7 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-025"
     }
    ],
    "runs": [
+    {
+     "day": "2026-11-03",
+     "when": "Tue 3 Nov 17:05",
+     "room": "Writing Room",
+     "what": "Beat 7 (Work: make it comparable), round 7, as huddle H-025 (Amara writes, Kai dissents with sealed predictions, Tess lands; four fresh strangers, Haiku/Sonnet/Opus/Fable, two with the Trading Notes, scored on a key sealed first; 10 agent calls): all **seven** open requests answered in one read. **W5 offered, 497 strict** (V54 + twelve backed changes, net 0, pitch untouched): the lock \"as if later bond payments sat idle\" (picked 4 of 4; both H-023 questions right 4 of 4), \"funds with an end date\" 4:0, why a downturn makes bonds dearer 4:0, bank sentence bond-first 3:1, \"gift to the building\" 4:0, \"yields\" (4 of 4) and \"That is her floor.\" (3 of 4) gone; Tess reversed W4's cut of the diversification words; 5 hard issues on V54 (+2 alone, 499); return line and quarter to the FR ('what no remaining cheque needs' 4 of 4 if ever used); F21 closed on the pitch; Archive TNA read 4 of 4; Kai's seals 5 right, 8 wrong; bank #156-#158; 2 requests (Window, Courtroom)"
+    },
     {
      "day": "2026-11-03",
      "when": "Tue 3 Nov 15:55",
@@ -700,7 +855,7 @@
       "The Final Report's bridge to the WInS book: the plan scaled to $300,000, IBTM doing two jobs, the pie chart's 'Long Equities', VT at 8.6%, the floorlet line"
      ],
      "todos": {
-      "done": 4,
+      "done": 5,
       "total": 7
      },
      "path": "keel/huddles/2026-11-02_the-other-side-of-each-holding",
@@ -744,7 +899,7 @@
       "A medicine leaflet must pass a readers' test on every question, not on average (Norway's medicines agency, 90% find and 90% of those understand). Is there a version of that pass mark a three-reader panel can honestly use? (Nora's judge sheet)"
      ],
      "todos": {
-      "done": 7,
+      "done": 8,
       "total": 12
      },
      "path": "keel/huddles/2026-11-02_the-roof-before-the-last-day",
@@ -791,7 +946,7 @@
       "If the kept half is empty in two futures in three when yields fall for good, what is Laura's flexibility in those futures: the margin coming back after 2042, or nothing? (Laura's Room)"
      ],
      "todos": {
-      "done": 6,
+      "done": 7,
       "total": 8
      },
      "path": "keel/huddles/2026-11-02_two-jobs-one-pocket",
@@ -830,7 +985,7 @@
       "If the thread keeps 'under a tenth' (Amara's dissent), which whole idea pays for P9's six words?"
      ],
      "todos": {
-      "done": 6,
+      "done": 7,
       "total": 8
      },
      "path": "keel/huddles/2026-11-02_what-is-left-to-her",
@@ -875,7 +1030,7 @@
       "Q1 partly measures the sentence that contains the word \"Crushing\" (Jun)"
      ],
      "todos": {
-      "done": 8,
+      "done": 9,
       "total": 10
      },
      "path": "keel/huddles/2026-11-02_what-the-last-line-asks",
@@ -1127,6 +1282,13 @@
      "huddle": "H-015"
     },
     {
+     "text": "Fold O1 and O2 into the claim set beside V52, and check P6's \"moves into Treasuries\" the same way (Writing Room, Tess and Amara; moved on 3 Nov: V52 is superseded; P6's \"moves into Treasuries\" checked TRUE, 0 words, on 2 Nov (H-018); O1 and O2 were not folded into a claim set)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-02",
+     "huddle": "H-015"
+    },
+    {
      "text": "Round 7's orders written in the loop's frontier: Q15, lens 19, three scout jobs, each with its Wharton line read at the page (Tess; done 2 Nov)",
      "done": true,
      "owner": "Tess",
@@ -1197,6 +1359,13 @@
      "huddle": "H-016"
     },
     {
+     "text": "Read m3j blind against V52 in tonight's claim set (Writing Room, Tess and Amara; moved on 2 Nov: V53 carried m3j and H-018 read V53 blind (`../../drafts/writing_room_2026-11-02/README.md`))",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-02",
+     "huddle": "H-016"
+    },
+    {
      "text": "What is Laura's flexibility when the pocket is empty? (Laura's Room, Amara; done 2 Nov: nothing until 2042, so keep a quarter back on naming day, LR-10 / H-017)",
      "done": true,
      "owner": null,
@@ -1235,6 +1404,13 @@
      "text": "Reply by name and vote one P8 package (Amara, Kai, Felix; done 2 Nov)",
      "done": true,
      "owner": "Amara",
+     "day": "2026-11-02",
+     "huddle": "H-017"
+    },
+    {
+     "text": "Read the package blind beside V53 (Writing Room, Tess; done 2 Nov: H-018 read it blind beside V53 (V53 first with both readers); `../2026-11-02_beside-the-champion/`)",
+     "done": true,
+     "owner": null,
      "day": "2026-11-02",
      "huddle": "H-017"
     },
@@ -1297,13 +1473,6 @@
      "huddle": "H-018"
     },
     {
-     "text": "Fold O1 and O2 into the claim set beside V52, and check P6's \"moves into Treasuries\" the same way (Writing Room, Tess and Amara; by Mon 2 Nov 16:20)",
-     "done": false,
-     "owner": null,
-     "day": null,
-     "huddle": "H-015"
-    },
-    {
      "text": "Size how much of the kept half the reinvestment gap can take in the bad case, MODEL, for the Final Report (Genius Lab, Jun; by Wed 4 Nov)",
      "done": false,
      "owner": null,
@@ -1316,13 +1485,6 @@
      "owner": null,
      "day": null,
      "huddle": "H-015"
-    },
-    {
-     "text": "One stranger, TNA open, pitch shown, key written first: what does \"her promise\" mean on D + the cure? \"The range\" keeps it; anything else takes \"her gift\". Whoever rewrites P8's last line keeps the job the cut order line did (Writing Room, Tess; by Tue 3 Nov 16:20)",
-     "done": false,
-     "owner": null,
-     "day": null,
-     "huddle": "H-020"
     },
     {
      "text": "Near: a regulator's plain word for a capital-protected note, and what it explains before \"option\" (Amara, scout; by Tue 3 Nov 12:10)",
@@ -1353,13 +1515,6 @@
      "huddle": "H-020"
     },
     {
-     "text": "Read m3j blind against V52 in tonight's claim set (Writing Room, Tess and Amara; by Mon 2 Nov 16:20)",
-     "done": false,
-     "owner": null,
-     "day": null,
-     "huddle": "H-016"
-    },
-    {
      "text": "Size the margin from the gap's own spread for the Final Report (Genius Lab, Jun; after 7 Nov)",
      "done": false,
      "owner": null,
@@ -1367,25 +1522,11 @@
      "huddle": "H-016"
     },
     {
-     "text": "Read the package blind beside V53 (Writing Room, Tess; by Tue 3 Nov 16:20)",
-     "done": false,
-     "owner": null,
-     "day": null,
-     "huddle": "H-017"
-    },
-    {
      "text": "Why a quarter? Amount, reason, proof for the Final Report (Genius Lab, Jun; after 7 Nov)",
      "done": false,
      "owner": null,
      "day": null,
      "huddle": "H-017"
-    },
-    {
-     "text": "Plainer words for the skimmer's six stumbles, read blind (Writing Room, Tess; by Tue 3 Nov 16:20)",
-     "done": false,
-     "owner": null,
-     "day": null,
-     "huddle": "H-019"
     },
     {
      "text": "The order line's mechanism, with its date, in the Final Report (Final Report planner, Tess; after the instructions land, Tue 10 Nov)",
