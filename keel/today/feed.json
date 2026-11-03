@@ -1,6 +1,161 @@
 {
- "built": "2026-11-02T10:11",
+ "built": "2026-11-02T22:11",
  "days": [
+  {
+   "date": "2026-11-03",
+   "weekday": "Tue",
+   "essence": [
+    "Our newest IPS says we check the bond ladder's one weak point once, in 2031, but the plan behind it checks twice, again in January 2033.",
+    "Kai caught a leak in my first test, which made the gap look four times bigger than it is; fairly measured, with one check a cheque comes up a little short (usually about $1,300) in about 1 future in 25, and with two about 1 in 770.",
+    "So the IPS should either name the second check or use Kai's simpler rule, setting the money aside as if the interest earned nothing, which needs no second check at all."
+   ],
+   "huddles": [
+    {
+     "id": "H-021",
+     "title": "The second look",
+     "question": "V54 names one look at the bond ladder's reinvestment gap, on naming day in 2031; the model behind every cheque figure looks again in January 2033 and tops the reserve up. Does the text's one look carry the cheques, and what is the truest few-word fix? (round 7 beat 2; W-08)",
+     "status": "closed",
+     "room": "Window",
+     "chair": "Felix",
+     "members": [
+      "Felix",
+      "Kai",
+      "Tess"
+     ],
+     "essence": [
+      "Our newest IPS says we check the bond ladder's one weak point once, in 2031, but the plan behind it checks twice, again in January 2033.",
+      "Kai caught a leak in my first test, which made the gap look four times bigger than it is; fairly measured, with one check a cheque comes up a little short (usually about $1,300) in about 1 future in 25, and with two about 1 in 770.",
+      "So the IPS should either name the second check or use Kai's simpler rule, setting the money aside as if the interest earned nothing, which needs no second check at all."
+     ],
+     "decided": [
+      "W0 (86.76% / 45.77%) WITHDRAWN: a leak (the range cut's money went back to Laura) and a ratchet in the score (Kai)",
+      "W0f: one look 96.01% / 94.39% of futures pay every cheque in full; two looks 99.87% / 99.85% (base / yields 2 pts lower; MODEL)",
+      "Near-breach, not breach. Keel's call: reopen IDEA_LEDGER E2 and put the step in the IPS, by road A (P9) or road B (Kai's lock, P8)",
+      "The STRIPS reason: WRONG (a zero locks only money already held; locking future coupon rates needs a forward)",
+      "Pitch 'a promise': NOT FALSE, TRUE IF read as 'commitment'; the word is ours, not the case's (Tess)"
+     ],
+     "seeds": [
+      "Does Kai's lock (price the gap as if its interest earned nothing) hold in the 200,000 futures, and what does it cost her flexibility? (Genius Lab, 13:40)",
+      "Road A or road B, in words a stranger can say back, inside 497 strict (Writing Room, 16:20)"
+     ],
+     "todos": {
+      "done": 5,
+      "total": 8
+     },
+     "path": "keel/huddles/2026-11-03_the-second-look",
+     "transcript": "keel/huddles/2026-11-03_the-second-look/transcript.md",
+     "changes": [
+      "No draft changed. Offers in ../../ips_rewrite/inbox/2026-11-03_window.md s1"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    }
+   ],
+   "research": [],
+   "done": [
+    {
+     "text": "Gate \"one rung per cheque\" and \"none sold\" against the funds' documents and the WInS book (Window, Felix; done 3 Nov: \"one rung\" TRUE, \"none sold\" moot, not in V54; `../../ips_rewrite/inbox/2026-11-03_window.md` s3)",
+     "done": true,
+     "owner": "Window",
+     "day": "2026-11-03",
+     "huddle": "H-018"
+    },
+    {
+     "text": "Read F21's HOLD out (it rests on a line D cuts) and lay the case's only \"promise\" (lines 114-115, the 2031 range) beside the pitch's \"cheques are a promise\" (Window, Felix; done 3 Nov: moot on P8, where V54 says \"gift\"; the pitch's \"a promise\" is not false but is our word, not the case's (\"commitment\"), so the stranger test is re-aimed at the pitch beside P6 (Tess, H-021); `../../ips_rewrite/inbox/2026-11-03_window.md` s3)",
+     "done": true,
+     "owner": "Window",
+     "day": "2026-11-03",
+     "huddle": "H-020"
+    },
+    {
+     "text": "Gate L-16's headline from a clean checkout (S0, S6) and rule on \"add a margin\" (Window, Felix; done 3 Nov: S0 and S6 identical; \"plus a cushion\" is C on naming day; its January 2033 half is W-08, a near-breach; `../../ips_rewrite/inbox/2026-11-03_window.md` s1, s3)",
+     "done": true,
+     "owner": "Window",
+     "day": "2026-11-03",
+     "huddle": "H-016"
+    },
+    {
+     "text": "Gate LR-10 from a clean checkout and byte-check the CME quotes if the host opens (Window, Felix; done 3 Nov: S0 and S6 identical, H branch right; both CME quotes found near-verbatim via the fetch tool, both conditional; `../../ips_rewrite/inbox/2026-11-03_window.md` s3)",
+     "done": true,
+     "owner": "Window",
+     "day": "2026-11-03",
+     "huddle": "H-017"
+    },
+    {
+     "text": "Gate D's two new lines, where the gap money sits 2031-2033, and P3's \"exactly what it promises\" (Window, Felix; done 3 Nov: both TRUE; 3-month bills to 2033, then a second look the text doesn't name (W-08); P3 TRUE in the SEC's words; `../../ips_rewrite/inbox/2026-11-03_window.md` s1-s3)",
+     "done": true,
+     "owner": "Window",
+     "day": "2026-11-03",
+     "huddle": "H-019"
+    },
+    {
+     "text": "V54 line by line against the case, the TNA and the model files (Felix; done 3 Nov: `../../ips_rewrite/inbox/2026-11-03_window.md` s2)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-11-03",
+     "huddle": "H-021"
+    },
+    {
+     "text": "Break W0 against the code (Kai; done 3 Nov: a leak and a ratchet; W0 withdrawn)",
+     "done": true,
+     "owner": "Kai",
+     "day": "2026-11-03",
+     "huddle": "H-021"
+    },
+    {
+     "text": "What did the cut order line carry, and is the gap older than the cut? (Tess; done 3 Nov: a priority, never a second look; E2 ruled FR at V31)",
+     "done": true,
+     "owner": "Tess",
+     "day": "2026-11-03",
+     "huddle": "H-021"
+    },
+    {
+     "text": "Re-run as W0f, scored on the realised gap (Felix; done 3 Nov: 96.01% v 99.87% base, 94.39% v 99.85% yields lower)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-11-03",
+     "huddle": "H-021"
+    },
+    {
+     "text": "Re-run Kai's no-reinvestment lock (Felix; done 3 Nov: identical, $11,201 / $22,867)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-11-03",
+     "huddle": "H-021"
+    }
+   ],
+   "open": [
+    {
+     "text": "Test Kai's lock in the 200,000 futures beside A0f and W0f: cheques in full, kept half emptied, gift mean, top reached (Genius Lab, Jun; by Tue 3 Nov 13:40)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-021"
+    },
+    {
+     "text": "Words for the step (road A in P9 or road B in P8), paid inside 497 strict, read by one stranger who never saw the model (Writing Room, Tess and Amara; by Tue 3 Nov 16:20)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-021"
+    },
+    {
+     "text": "The stranger test on \"promise\", re-aimed: with the case open, are the pitch's \"a promise\" and P6's \"every dollar she promises\" two things? (Writing Room, Tess; by Tue 3 Nov 16:20)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-021"
+    }
+   ],
+   "runs": [
+    {
+     "day": "2026-11-03",
+     "when": "Tue 3 Nov 07:40",
+     "room": "Noticeboard (daily loop)",
+     "what": "Round 7 gathered `../loop/rounds/2026-11-03.md` (Q15 the stranger-reader round, lens 19, 0:3 dial, last promotion day; Amara capital-protected notes, Kai weather shares, Jun medicine leaflets + readers' test; flaw Tess, judge Nora, builder Felix). LS-14 read-back (Felix) clean, 5 of 5. Merged the Rooftop's 2 Nov send-off (project-thread-5p7eaf). Watchdog: 9/9 due rooms on Mon 2 Nov. Board groomed (SD-N08). Brief, ep38. Dashboard not refreshed (public artifact refuses data writes)"
+    }
+   ]
+  },
   {
    "date": "2026-11-02",
    "weekday": "Mon",
@@ -53,7 +208,7 @@
       "If the thread keeps P3's 'We buy them', which whole idea pays for 'none sold' and the reserve line? (Tess)"
      ],
      "todos": {
-      "done": 4,
+      "done": 5,
       "total": 6
      },
      "path": "keel/huddles/2026-11-02_beside-the-champion",
@@ -140,7 +295,7 @@
       "A medicine leaflet must pass a readers' test on every question, not on average (Norway's medicines agency, 90% find and 90% of those understand). Is there a version of that pass mark a three-reader panel can honestly use? (Nora's judge sheet)"
      ],
      "todos": {
-      "done": 6,
+      "done": 7,
       "total": 12
      },
      "path": "keel/huddles/2026-11-02_the-roof-before-the-last-day",
@@ -187,7 +342,7 @@
       "If the kept half is empty in two futures in three when yields fall for good, what is Laura's flexibility in those futures: the margin coming back after 2042, or nothing? (Laura's Room)"
      ],
      "todos": {
-      "done": 5,
+      "done": 6,
       "total": 8
      },
      "path": "keel/huddles/2026-11-02_two-jobs-one-pocket",
@@ -226,7 +381,7 @@
       "If the thread keeps 'under a tenth' (Amara's dissent), which whole idea pays for P9's six words?"
      ],
      "todos": {
-      "done": 5,
+      "done": 6,
       "total": 8
      },
      "path": "keel/huddles/2026-11-02_what-is-left-to-her",
@@ -271,7 +426,7 @@
       "Q1 partly measures the sentence that contains the word \"Crushing\" (Jun)"
      ],
      "todos": {
-      "done": 7,
+      "done": 8,
       "total": 10
      },
      "path": "keel/huddles/2026-11-02_what-the-last-line-asks",
@@ -686,13 +841,6 @@
    ],
    "open": [
     {
-     "text": "Gate \"one rung per cheque\" and \"none sold\" against the funds' documents and the WInS book (Window, Felix; by Tue 3 Nov 08:40)",
-     "done": false,
-     "owner": "Window",
-     "day": null,
-     "huddle": "H-018"
-    },
-    {
      "text": "D1 and ledger B6's arithmetic as the Final Report's diversification paragraph (Final Report planner, Tess; after the instructions land, Tue 10 Nov)",
      "done": false,
      "owner": null,
@@ -719,13 +867,6 @@
      "owner": null,
      "day": null,
      "huddle": "H-015"
-    },
-    {
-     "text": "Read F21's HOLD out (it rests on a line D cuts) and lay the case's only \"promise\" (lines 114-115, the 2031 range) beside the pitch's \"cheques are a promise\" (Window, Felix; by Tue 3 Nov 08:40)",
-     "done": false,
-     "owner": "Window",
-     "day": null,
-     "huddle": "H-020"
     },
     {
      "text": "One stranger, TNA open, pitch shown, key written first: what does \"her promise\" mean on D + the cure? \"The range\" keeps it; anything else takes \"her gift\". Whoever rewrites P8's last line keeps the job the cut order line did (Writing Room, Tess; by Tue 3 Nov 16:20)",
@@ -770,13 +911,6 @@
      "huddle": "H-016"
     },
     {
-     "text": "Gate L-16's headline from a clean checkout (S0, S6) and rule on \"add a margin\" (Window, Felix; by Tue 3 Nov 08:40)",
-     "done": false,
-     "owner": "Window",
-     "day": null,
-     "huddle": "H-016"
-    },
-    {
      "text": "Size the margin from the gap's own spread for the Final Report (Genius Lab, Jun; after 7 Nov)",
      "done": false,
      "owner": null,
@@ -791,25 +925,11 @@
      "huddle": "H-017"
     },
     {
-     "text": "Gate LR-10 from a clean checkout and byte-check the CME quotes if the host opens (Window, Felix; by Tue 3 Nov 08:40)",
-     "done": false,
-     "owner": "Window",
-     "day": null,
-     "huddle": "H-017"
-    },
-    {
      "text": "Why a quarter? Amount, reason, proof for the Final Report (Genius Lab, Jun; after 7 Nov)",
      "done": false,
      "owner": null,
      "day": null,
      "huddle": "H-017"
-    },
-    {
-     "text": "Gate D's two new lines, where the gap money sits 2031-2033, and P3's \"exactly what it promises\" (Window, Felix; by Tue 3 Nov 08:40)",
-     "done": false,
-     "owner": "Window",
-     "day": null,
-     "huddle": "H-019"
     },
     {
      "text": "Plainer words for the skimmer's six stumbles, read blind (Writing Room, Tess; by Tue 3 Nov 16:20)",
