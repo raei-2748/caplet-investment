@@ -1,5 +1,5 @@
 {
- "built": "2026-11-03T08:10",
+ "built": "2026-11-03T08:24",
  "days": [
   {
    "date": "2026-11-03",
@@ -869,7 +869,13 @@
    "runs": [
     {
      "day": "2026-11-03",
-     "when": "Tue 3 Nov 21:10",
+     "when": "Tue 3 Nov 19:45",
+     "room": "Archive",
+     "what": "Beat 9, round 7: C06 (Courtroom) and V54 v the TNA and all 11 WInS notes: **no contradiction**; A16 closed by C06's words, A31 closed, A19/A20 hold, A32 raised to WATCH (F24), **A33 new: deletion test on the lock** (`../rooms/archive_checks/A33_lock_deletion_test.py`, L-17 chain, KW asserted equal; shares wiped on naming day: 0 of 600,000 futures with a cheque worse off in S0/S1/S6; S9 0.94%, help only); blind reader with the locked record (Opus 5.5): `../rooms/archive_checks/2026-11-03_blind_cross_read.md`. TERRITORY 3 rows; FRONTIER Q15 answered, F2 F20 F21 closed, F22-F24 S24 new; CHAMPIONS note; HEALTH row 7; bank #160-#161; inbox `../ips_rewrite/inbox/2026-11-03_archive.md`; memo `../office/outbox/2026-11-03_archive_delete-the-stocks.md`; the Courtroom's row re-stamped 19:10 (its commit time); 1 agent call"
+    },
+    {
+     "day": "2026-11-03",
+     "when": "Tue 3 Nov 19:10",
      "room": "Courtroom",
      "what": "Beat 8 (Flaw, fix, judge, discuss), round 7, C-06 as huddle H-026 (Kai prosecutes, Tess defends, Nora's sheet sealed first; 9 agent calls incl. two blind readers, a bond manager on Fable 5.1 and a Year 10 student on Haiku 5.5, one each way round): **exhibit N** (the chair's test, MODEL, L-17 chain, KW asserted identical): with the five iBond rungs as funds, the Lab's lock as sized pays every cheque in 97.02% of base futures and 82.18% if yields fall 2 pts for good; sized as the words read, 100% in both, +$3,559 median; W5 FALLS as a whole (J W5R 33 v 31, under the sealed +3; S V54 25 v 23, \"$450,000\" lost); B 3-0: C06 = V54 + six W5 lines (497 strict), led by the lock; Tess's P3 repair sent back by J (\"why funds?\"); 2 requests closed, 2 filed (Window, Archive); bank #159 + 2 dropped"
     },

@@ -78,4 +78,16 @@ keeps" into nothing, and a blind reader read the stocks as standing behind a che
 order line, "set it aside, in Treasuries, from the stocks Laura keeps" (+2, 497 strict) is the one line left that says
 the stocks come last.
 
+**Archive note, Tue 3 Nov (round 7, the last promotion day).** V54 (`../ips_rewrite/drafts/D34/`, built overnight on
+the Long Room's D plus the Archive's cure) took every repair the register asked for: C6's money has a home ("move that
+much from the stocks Laura keeps into Treasuries"), C9 and C10 are D's ("before it matures"; "the ladder and the money
+set aside for its gap become the operating reserve, paying out one rung per cheque"), and P8 says "gift". The round's
+one promotion is **C06** (Courtroom, Keel B 3-0): V54 plus six stranger-backed lines, and it changes **C6's holder**
+for the first time since 28 Oct. The cushion and the unnamed January 2033 look go; the lock prices the gap "as if later
+bond payments sat idle" (L-17 KW: every cheque in full in 100% / 100% / 98.71% of base / yields-lower / deposit-halved
+futures, MODEL). The Archive's deletion test on the new holder (A33): wipe out every share on naming day and no cheque
+is worse off in any of 600,000 futures across base, recession-linked and yields-lower; the range pays instead. C4 gains
+its why ("in a downturn, when interest rates usually fall, making bonds cost more"; NBER dates for the Window, Wed
+08:40). C1's bank sentence ends "unless the market rises"; "option" still trips 4 of 4 strangers, left open on purpose.
+
 (Keel is a simulated team, AI-written.)

@@ -1,0 +1,158 @@
+{
+ "stamp": "curve 22 Oct 2026 | J.P. Morgan 2027 global equities 7.5% | 200,000 paths, seed 20261016 | V54's design + C06's lock (L-17 KW) via L-13 -> L-14 -> L-16 -> W-08 -> L-17, A33 block appended | MODEL",
+ "S0 base, rates and stocks independent": {
+  "kw_cheques_paid_in_full_check": 1.0,
+  "wiped on naming day": {
+   "cheques_paid_in_full": 1.0,
+   "p_any_cheque_worse_off": 0.0,
+   "p_any_cheque_better_off": 0.0,
+   "n_paths_worse": 0,
+   "worse_by_p50_max": [
+    0,
+    0
+   ],
+   "p_short_over_1k": 0.0,
+   "lock_paid_from_floor_p50_p95_when_any": [
+    12688,
+    25353
+   ],
+   "p_floor_cannot_buy_lock": 0.0
+  },
+  "halved on naming day": {
+   "cheques_paid_in_full": 1.0,
+   "p_any_cheque_worse_off": 0.0,
+   "p_any_cheque_better_off": 0.0,
+   "n_paths_worse": 0,
+   "worse_by_p50_max": [
+    0,
+    0
+   ],
+   "p_short_over_1k": 0.0,
+   "lock_paid_from_floor_p50_p95_when_any": [
+    7471,
+    20661
+   ],
+   "p_floor_cannot_buy_lock": 0.0
+  },
+  "as_modelled_lock_from_floor_p": 0.2686,
+  "as_modelled_n_paths_short": 0,
+  "kw_as_modelled": 1.0,
+  "check": "KW identical to L-17 results.json"
+ },
+ "S1 base, recession-linked (rho 0.5)": {
+  "kw_cheques_paid_in_full_check": 1.0,
+  "wiped on naming day": {
+   "cheques_paid_in_full": 1.0,
+   "p_any_cheque_worse_off": 0.0,
+   "p_any_cheque_better_off": 0.0,
+   "n_paths_worse": 0,
+   "worse_by_p50_max": [
+    0,
+    0
+   ],
+   "p_short_over_1k": 0.0,
+   "lock_paid_from_floor_p50_p95_when_any": [
+    12688,
+    25353
+   ],
+   "p_floor_cannot_buy_lock": 0.0
+  },
+  "halved on naming day": {
+   "cheques_paid_in_full": 1.0,
+   "p_any_cheque_worse_off": 0.0,
+   "p_any_cheque_better_off": 0.0,
+   "n_paths_worse": 0,
+   "worse_by_p50_max": [
+    0,
+    0
+   ],
+   "p_short_over_1k": 0.0,
+   "lock_paid_from_floor_p50_p95_when_any": [
+    7841,
+    21655
+   ],
+   "p_floor_cannot_buy_lock": 0.0
+  },
+  "as_modelled_lock_from_floor_p": 0.2795,
+  "as_modelled_n_paths_short": 0,
+  "kw_as_modelled": 1.0
+ },
+ "S6 yields fall 2pt just after the build, for good": {
+  "kw_cheques_paid_in_full_check": 1.0,
+  "wiped on naming day": {
+   "cheques_paid_in_full": 1.0,
+   "p_any_cheque_worse_off": 0.0,
+   "p_any_cheque_better_off": 0.0,
+   "n_paths_worse": 0,
+   "worse_by_p50_max": [
+    0,
+    0
+   ],
+   "p_short_over_1k": 0.0,
+   "lock_paid_from_floor_p50_p95_when_any": [
+    21627,
+    36203
+   ],
+   "p_floor_cannot_buy_lock": 0.0
+  },
+  "halved on naming day": {
+   "cheques_paid_in_full": 1.0,
+   "p_any_cheque_worse_off": 0.0,
+   "p_any_cheque_better_off": 0.0,
+   "n_paths_worse": 0,
+   "worse_by_p50_max": [
+    0,
+    0
+   ],
+   "p_short_over_1k": 0.0,
+   "lock_paid_from_floor_p50_p95_when_any": [
+    17187,
+    33718
+   ],
+   "p_floor_cannot_buy_lock": 0.0
+  },
+  "as_modelled_lock_from_floor_p": 0.719,
+  "as_modelled_n_paths_short": 0,
+  "kw_as_modelled": 1.0,
+  "check": "KW identical to L-17 results.json"
+ },
+ "S9 yields 1pt lower before the build + 2028 deposit halved": {
+  "kw_cheques_paid_in_full_check": 0.9871,
+  "wiped on naming day": {
+   "cheques_paid_in_full": 0.9853,
+   "p_any_cheque_worse_off": 0.0094,
+   "p_any_cheque_better_off": 0.0,
+   "n_paths_worse": 1889,
+   "worse_by_p50_max": [
+    758,
+    3563
+   ],
+   "p_short_over_1k": 0.013,
+   "lock_paid_from_floor_p50_p95_when_any": [
+    13077,
+    24438
+   ],
+   "p_floor_cannot_buy_lock": 0.0299
+  },
+  "halved on naming day": {
+   "cheques_paid_in_full": 0.9863,
+   "p_any_cheque_worse_off": 0.0084,
+   "p_any_cheque_better_off": 0.0,
+   "n_paths_worse": 1687,
+   "worse_by_p50_max": [
+    379,
+    1782
+   ],
+   "p_short_over_1k": 0.0121,
+   "lock_paid_from_floor_p50_p95_when_any": [
+    10701,
+    22714
+   ],
+   "p_floor_cannot_buy_lock": 0.0265
+  },
+  "as_modelled_lock_from_floor_p": 0.8857,
+  "as_modelled_n_paths_short": 2577,
+  "kw_as_modelled": 0.9871,
+  "check": "KW identical to L-17 results.json"
+ }
+}
