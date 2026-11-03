@@ -5,11 +5,11 @@
 - **Decided:** Round 8 asks **Q16, "Which of C06's lines has only been checked by the people who wrote it, and is each one true at its source?"** (lens 1, Invert; 0:3 dial). Felix near: "unless the market rises" at a regulator's page; Nora adjacent: re-runs Amara's test as the member who didn't build it; Tess far: reads the Window's 08:40 answers back at their sources. Jun hunts, Amara judges, Kai builds the false-versions card. F24 stays with Caplet. Lesson **LS-16**: someone who didn't build a model puts back the biggest thing it leaves out and runs it again
 - **Next:** next odd date Thu 5 Nov, 20:20 (freeze day: the loop answers only what Caplet asks; a scene and a send-off only if there's something to send)
 - **For the judges:** no draft change tonight. A test (MODEL): with the five iBond rungs paid as funds and every share wiped on naming day, every cheque is still paid in full, so submitted reflection 3 holds on the real instruments; "unless the market rises" (C06 P5) has no source yet
-- **Updated:** 2026-11-03 21:10 Sydney
+- **Updated:** 2026-11-03 20:50 Sydney
 
 (Keel is a simulated team, AI-written.)
 
-> **State (last run Tue 3 Nov 2026, 21:10 Sydney).** Scenes: 6. Last moved: Felix-Kai (one each). Next candidates:
+> **State (last run Tue 3 Nov 2026, 20:50 Sydney).** Scenes: 6. Last moved: Felix-Kai (one each). Next candidates:
 > Nora-Amara, Jun-Tess. Open requests from here: the false-versions card (Genius Lab, Wed 13:40) and the cancelled-note
 > cite (Archive, Wed 19:10), `../pm/REQUESTS.md`. On odd dates this room is beat 10 of the loop (`../pm/runbooks/kitchen.md`):
 > doors round in the scene, candidate fields to `../loop/TERRITORY.md`, tomorrow's orders to `../loop/FRONTIER.md` s4,
