@@ -1,0 +1,24 @@
+
+
+Trading Note 1: B-T-4.750-15022037
+
+Note (as saved in WInS): Future funding: we use the 4.750% Treasury maturing 15 Feb 2037 for Laura's 1 Jan 2038 payment because it is the latest WInS bond available beforehand. The 10.5-month gap creates reinvestment-rate risk on the proceeds held in a short-term Treasury ETF.
+
+Reflection: We know Treasury bonds (including this one – maturing 2037) won’t create wealth, but they will remove uncertainty, through duration-matching. In other words, we take Laura’s requested ‘high degree of certainty’ to mean a near-ironclad guarantee, and we provide exactly that. Every year the bonds sit untouched is a good year – one less year of Laura’s money being exposed to anything the restless markets might decide to do. Notably – Laura’s payments are fixed in nominal dollars, so a nominal Treasury matches the liability perfectly, meaning we don’t need TIPS, which would hedge against a nonexistent inflation risk.
+
+
+
+Trading Note 2: IBTM
+
+Note (as saved in WInS): Future funding and risk management: IBTM does two jobs in Laura's plan. It supports her first $50,000 payment and provides a floor for her facility contribution, giving co-sponsors a minimum figure in 2031. It holds 2032 Treasuries, so the timing fits, although the final payout is not fixed.
+
+Reflection: Some years, WInS lists no Treasuries maturing – so we purchased iShares iBonds (like IBTM for 2032) instead. Defined-maturity, investment-grade, liquid, cheap and transparent about yields, these behave a lot like bonds when held to their end – so we’ll simply ignore price noise in the interim. Together, our T-Bonds and iBonds ensure each of Laura’s payments rests on a dedicated instrument (not merely a forecast). The catch is, their terminal payout is a net asset value, as opposed to a promise of par – but in return we gain a level of liquidity which no odd-lot bond offers.
+
+
+
+Trading Note 3: VT
+
+Note (as saved in WInS): Growth: Vanguard Total World Stock ETF holds about 10,000 stocks at a 0.06% fee, so one cheap fund diversifies Laura's stocks. They only set how far her gift rises above her promised minimum. A fall can shrink the extra, and a rise before 2031 lifts the top of the range co-sponsors hear.
+
+Reflection: VT is where we allow ourselves to be wrong – because it’s the only investment not standing between Laura and a payment deadline. This ETF owns thousands of companies, diversified across countries and sectors, which means we can avoid paying the price for the vain illusion that we can pick winners, instead buying the entire market’s growth premium at an expense ratio of just 0.06%, for a forecast return of about 7.5% a year (as per JPMorgan). The T-Bonds and iBonds already cover the operating commitments, so VT answers a different question – how generous can the facility contribution be?
+
