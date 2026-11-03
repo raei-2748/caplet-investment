@@ -4,6 +4,6 @@
 - [x] What did the cut order line carry, and is the gap older than the cut? (Tess; done 3 Nov: a priority, never a second look; E2 ruled FR at V31)
 - [x] Re-run as W0f, scored on the realised gap (Felix; done 3 Nov: 96.01% v 99.87% base, 94.39% v 99.85% yields lower)
 - [x] Re-run Kai's no-reinvestment lock (Felix; done 3 Nov: identical, $11,201 / $22,867)
-- [ ] Test Kai's lock in the 200,000 futures beside A0f and W0f: cheques in full, kept half emptied, gift mean, top reached (Genius Lab, Jun; by Tue 3 Nov 13:40)
+- [x] Test Kai's lock in the 200,000 futures beside A0f and W0f: cheques in full, kept half emptied, gift mean, top reached (Genius Lab, Jun; done 3 Nov: every cheque in full whenever the money exists, in all three worlds; W-08c's sizing was $3,081 short (the bill wait), and as sized it pays every cheque in only 95.2% of base futures; `../../rooms/lab/L-17_interest_that_earns_nothing.md`, huddle H-023)
 - [ ] Words for the step (road A in P9 or road B in P8), paid inside 497 strict, read by one stranger who never saw the model (Writing Room, Tess and Amara; by Tue 3 Nov 16:20)
 - [ ] The stranger test on "promise", re-aimed: with the case open, are the pitch's "a promise" and P6's "every dollar she promises" two things? (Writing Room, Tess; by Tue 3 Nov 16:20)

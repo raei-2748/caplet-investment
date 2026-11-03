@@ -1,10 +1,13 @@
 {
- "built": "2026-11-03T01:49",
+ "built": "2026-11-03T03:10",
  "days": [
   {
    "date": "2026-11-03",
    "weekday": "Tue",
    "essence": [
+    "We tested Kai's fix for the bond ladder's weak point: on the day Laura names her range, set money aside as if everything the bonds pay after that day earned nothing, so nobody has to check again in 2033.",
+    "Kai roasted his own idea first and was right that he had sized it too small (it missed the months some bonds wait for their January), but wrong about how much that mattered; sized honestly, it pays every cheque whenever the money exists and never touches the gift once co-sponsors have heard it, at the cost of using up Laura's own stocks more often.",
+    "Jun adopted it: one sentence of the IPS swaps 'plus a cushion' for 'as if money paid later sat idle', at the same length, and the Final Report gets the numbers and a real public bond escrow that is sized the same way.",
     "Our newest IPS says we check the bond ladder's one weak point once, in 2031, but the plan behind it checks twice, again in January 2033.",
     "Kai caught a leak in my first test, which made the gap look four times bigger than it is; fairly measured, with one check a cheque comes up a little short (usually about $1,300) in about 1 future in 25, and with two about 1 in 770.",
     "So the IPS should either name the second check or use Kai's simpler rule, setting the money aside as if the interest earned nothing, which needs no second check at all.",
@@ -13,6 +16,45 @@
     "Nothing new enters the IPS from this round; the weather comparison goes to the Final Report, to show why Laura owns her range instead of giving odds, with the one place where it doesn't hold."
    ],
    "huddles": [
+    {
+     "id": "H-023",
+     "title": "Interest that earns nothing",
+     "question": "V54 prices the bond ladder's reinvestment gap once, on naming day, 'at that day's yields, plus a cushion'; the model behind every cheque figure looks again in January 2033. Does Kai's lock (price the gap as if nothing earns from naming day on, never look again) hold in the 200,000 futures, at what price, and which of today's finds make a challenger worth testing? (round 7 beat 5; L-17)",
+     "status": "closed",
+     "room": "Genius Lab",
+     "chair": "Jun",
+     "members": [
+      "Felix",
+      "Kai",
+      "Jun"
+     ],
+     "essence": [
+      "We tested Kai's fix for the bond ladder's weak point: on the day Laura names her range, set money aside as if everything the bonds pay after that day earned nothing, so nobody has to check again in 2033.",
+      "Kai roasted his own idea first and was right that he had sized it too small (it missed the months some bonds wait for their January), but wrong about how much that mattered; sized honestly, it pays every cheque whenever the money exists and never touches the gift once co-sponsors have heard it, at the cost of using up Laura's own stocks more often.",
+      "Jun adopted it: one sentence of the IPS swaps 'plus a cushion' for 'as if money paid later sat idle', at the same length, and the Final Report gets the numbers and a real public bond escrow that is sized the same way."
+     ],
+     "decided": [
+      "C1 ADOPT, KW (the WInS-true lock) as the rule: every cheque 100% / 100% / 98.71% (base / yields 2 pts lower / deposit halved; shorts only where the money isn't there); gift never pays a cheque after naming; gift mean -$670 base v A0f; kept stocks all gone 28.1% v 19.0% (MODEL)",
+      "CORD: W-08c's $11,201 is $14,282 on the model's own sizing (the wait for January); as sized (K0) the lock pays every cheque in only 95.16% of base futures",
+      "C2 BIN; C3 BIN for the IPS, Final Report; C4 Final Report only (about a tenth of the cheques rides on future yields, 4.0% on naming day)",
+      "Count copy: 'as if that interest earned nothing more' reads as the strictest lock (Jun); offer 'as if money paid later sat idle' (497 strict)"
+     ],
+     "seeds": [
+      "Do strangers say 'as if money paid later sat idle' back right: do the bonds still pay their interest, and does money already reinvested stop earning? (Writing Room, 16:20)",
+      "Where does the unused lock go (about $18,000 at the median), and does 'pays exactly what it promises' stretch to the fund rungs, which pay net asset value? (Courtroom, 18:20; Final Report)"
+     ],
+     "todos": {
+      "done": 6,
+      "total": 10
+     },
+     "path": "keel/huddles/2026-11-03_interest-that-earns-nothing",
+     "transcript": "keel/huddles/2026-11-03_interest-that-earns-nothing/transcript.md",
+     "changes": [
+      "No draft changed. Offer in ../../ips_rewrite/inbox/2026-11-03_genius-lab.md s1"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    },
     {
      "id": "H-021",
      "title": "The second look",
@@ -42,7 +84,7 @@
       "Road A or road B, in words a stranger can say back, inside 497 strict (Writing Room, 16:20)"
      ],
      "todos": {
-      "done": 5,
+      "done": 6,
       "total": 8
      },
      "path": "keel/huddles/2026-11-03_the-second-look",
@@ -87,7 +129,7 @@
       "After naming day, does the reinvestment cushion's forecast fall on the top of the range or on a cheque? (S-12 break 2; Genius Lab, MODEL, Final Report)"
      ],
      "todos": {
-      "done": 5,
+      "done": 6,
       "total": 10
      },
      "path": "keel/huddles/2026-11-03_what-a-stranger-would-guess",
@@ -102,6 +144,18 @@
     }
    ],
    "research": [
+    {
+     "path": "keel/huddles/2026-11-03_interest-that-earns-nothing/research/felix.md",
+     "title": "Felix, source notes (H-023 round 1)",
+     "member": "Felix",
+     "huddle": "H-023"
+    },
+    {
+     "path": "keel/huddles/2026-11-03_interest-that-earns-nothing/research/lab_chair.md",
+     "title": "Chair's source check (Genius Lab run, Tue 3 Nov 2026)",
+     "member": "Lab",
+     "huddle": "H-023"
+    },
     {
      "path": "keel/huddles/2026-11-03_what-a-stranger-would-guess/research/README.md",
      "title": "The Library's re-check of every quoted line (H-022, Tue 3 Nov 2026)",
@@ -170,6 +224,48 @@
      "huddle": "H-019"
     },
     {
+     "text": "Build at least three challengers from today's finds, novelty-checked (Felix; done 3 Nov: C1-C4, `posts/r1_felix.md`)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-11-03",
+     "huddle": "H-023"
+    },
+    {
+     "text": "Roast every challenger before any result exists, with sealed bets (Kai; done 3 Nov: `posts/r2_kai.md`)",
+     "done": true,
+     "owner": "Kai",
+     "day": "2026-11-03",
+     "huddle": "H-023"
+    },
+    {
+     "text": "Test Kai's lock in the 200,000 futures beside A0f and W0f, plus Kai's two roast arms (chair; done 3 Nov: L-17, S0/S6/S9, `../../rooms/lab/L-17_interest_that_earns_nothing.md`)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-03",
+     "huddle": "H-023"
+    },
+    {
+     "text": "Re-derive the headline lock cost by a second script and re-run S0 (chair; done 3 Nov: $19,945 / $14,282 identical; S0 JSON identical)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-03",
+     "huddle": "H-023"
+    },
+    {
+     "text": "Find out whether anyone outside Keel sizes money this way (chair; done 3 Nov: MWRA escrow, \"sufficient, without reinvestment\", `research/lab_chair.md`)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-03",
+     "huddle": "H-023"
+    },
+    {
+     "text": "Judge after the test: verdicts, which lock, the P8 claim (Jun; done 3 Nov: C1 ADOPT KW, C2 BIN, C3 FR, C4 FR; \"as if money paid later sat idle\", `posts/r3_jun.md`)",
+     "done": true,
+     "owner": "Jun",
+     "day": "2026-11-03",
+     "huddle": "H-023"
+    },
+    {
      "text": "V54 line by line against the case, the TNA and the model files (Felix; done 3 Nov: `../../ips_rewrite/inbox/2026-11-03_window.md` s2)",
      "done": true,
      "owner": "Felix",
@@ -201,6 +297,13 @@
      "text": "Re-run Kai's no-reinvestment lock (Felix; done 3 Nov: identical, $11,201 / $22,867)",
      "done": true,
      "owner": "Felix",
+     "day": "2026-11-03",
+     "huddle": "H-021"
+    },
+    {
+     "text": "Test Kai's lock in the 200,000 futures beside A0f and W0f: cheques in full, kept half emptied, gift mean, top reached (Genius Lab, Jun; done 3 Nov: every cheque in full whenever the money exists, in all three worlds; W-08c's sizing was $3,081 short (the bill wait), and as sized it pays every cheque in only 95.2% of base futures; `../../rooms/lab/L-17_interest_that_earns_nothing.md`, huddle H-023)",
+     "done": true,
+     "owner": null,
      "day": "2026-11-03",
      "huddle": "H-021"
     },
@@ -238,15 +341,43 @@
      "owner": "Felix",
      "day": "2026-11-03",
      "huddle": "H-022"
+    },
+    {
+     "text": "After naming day, does the cushion's forecast fall on the top or on a cheque? (S-12 break 2; Genius Lab, MODEL, Final Report; done 3 Nov: on the gift with the January 2033 look (it pays a cheque in 8.1% of base futures, 24.1% if yields fall 2 points, median about $1,800), on a cheque without it (V54 as written: 4.0% / 5.6%), on neither under Kai's lock, which leaves no forecast inside the owned range; `../../rooms/lab/L-17_interest_that_earns_nothing.md`)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-03",
+     "huddle": "H-022"
     }
    ],
    "open": [
     {
-     "text": "Test Kai's lock in the 200,000 futures beside A0f and W0f: cheques in full, kept half emptied, gift mean, top reached (Genius Lab, Jun; by Tue 3 Nov 13:40)",
+     "text": "Read Jun's wording to fresh strangers with the two questions (do the bonds still pay their interest? does money already reinvested stop earning?) (Writing Room, Tess and Amara; by Tue 3 Nov 16:20)",
      "done": false,
      "owner": null,
      "day": null,
-     "huddle": "H-021"
+     "huddle": "H-023"
+    },
+    {
+     "text": "Where does the unused lock go (about $18,000 at the median, back to Laura as the rungs pay; P9 is silent), and does \"pays exactly what it promises\" stretch to the fund rungs? (Courtroom; by Tue 3 Nov 18:20)",
+     "done": false,
+     "owner": "Courtroom",
+     "day": null,
+     "huddle": "H-023"
+    },
+    {
+     "text": "Gate L-17 S0 and S6 from a clean checkout and the escrow quote at its page (Window, Felix; by Wed 4 Nov 08:40)",
+     "done": false,
+     "owner": "Window",
+     "day": null,
+     "huddle": "H-023"
+    },
+    {
+     "text": "Model the iBond fund rungs at net asset value, not par, and say what it changes (Final Report; after Sat 7 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-023"
     },
     {
      "text": "Words for the step (road A in P9 or road B in P8), paid inside 497 strict, read by one stranger who never saw the model (Writing Room, Tess and Amara; by Tue 3 Nov 16:20)",
@@ -284,13 +415,6 @@
      "huddle": "H-022"
     },
     {
-     "text": "After naming day, does the cushion's forecast fall on the top or on a cheque? (S-12 break 2; Genius Lab, MODEL, Final Report)",
-     "done": false,
-     "owner": null,
-     "day": null,
-     "huddle": "H-022"
-    },
-    {
      "text": "Two findings no stranger made, kept in the folder: Kai's \"half of cost or of worth?\" and Jun's early-sale price (any room that runs a fresh stranger)",
      "done": false,
      "owner": null,
@@ -299,6 +423,12 @@
     }
    ],
    "runs": [
+    {
+     "day": "2026-11-03",
+     "when": "Tue 3 Nov 14:15",
+     "room": "Genius Lab",
+     "what": "Beat 5 (Come back), round 7, as huddle H-023 (Felix builds four challengers, Kai roasts before the test, Jun judges; 3 agent calls): the Window's request, **Kai's lock in the 200,000 futures** (L-17, arms K, KK, Kz, KW, K0 x S0/S6/S9 on the W-08 chain, A0f/W0f asserted identical; S0 re-run identical; `audit_c4.py` re-derives $19,945 / $14,282): **C1 ADOPT, KW** (every cheque 100% / 100% / 98.71%; gift never pays a cheque after naming; gift mean -$670 base; kept stocks all gone 28.1% v 19.0%); CORD W-08c $11,201 -> $14,282 (as sized, 95.16%); C2 BIN, C3 FR, C4 FR; escrow precedent (MWRA s3 \"without reinvestment\"); P8 offer \"as if money paid later sat idle\" (497 strict, +0); bank #147 updated, #151-#152; 1 request closed, 2 filed"
+    },
     {
      "day": "2026-11-03",
      "when": "Tue 3 Nov 13:25",

@@ -19,19 +19,26 @@
       "n": 1,
       "name": "Felix posts the finding",
       "date": "2026-11-03",
-      "posts": ["posts/r1_felix.md"]
+      "posts": [
+        "posts/r1_felix.md"
+      ]
     },
     {
       "n": 2,
       "name": "Kai breaks the test, Tess reads the register",
       "date": "2026-11-03",
-      "posts": ["posts/r2_kai.md", "posts/r2_tess.md"]
+      "posts": [
+        "posts/r2_kai.md",
+        "posts/r2_tess.md"
+      ]
     },
     {
       "n": 3,
       "name": "Felix re-runs and lands it",
       "date": "2026-11-03",
-      "posts": ["posts/r3_felix.md"]
+      "posts": [
+        "posts/r3_felix.md"
+      ]
     }
   ],
   "seeds": [
@@ -54,7 +61,7 @@
     "No draft changed. Offers in ../../ips_rewrite/inbox/2026-11-03_window.md s1"
   ],
   "todos": {
-    "done": 5,
+    "done": 6,
     "total": 8
   }
 }

@@ -1,0 +1,59 @@
+{
+  "id": "H-023",
+  "slug": "interest-that-earns-nothing",
+  "title": "Interest that earns nothing",
+  "question": "V54 prices the bond ladder's reinvestment gap once, on naming day, 'at that day's yields, plus a cushion'; the model behind every cheque figure looks again in January 2033. Does Kai's lock (price the gap as if nothing earns from naming day on, never look again) hold in the 200,000 futures, at what price, and which of today's finds make a challenger worth testing? (round 7 beat 5; L-17)",
+  "room": "Genius Lab",
+  "chair": "Jun",
+  "opened": "2026-11-03",
+  "status": "closed",
+  "closed": "2026-11-03",
+  "members": [
+    "Felix",
+    "Kai",
+    "Jun"
+  ],
+  "serves": "North stars 3 and 4 (an idea no other team reaches, investing knowledge applied and true); Wharton: Investment Strategy (define a high degree of funding certainty; the reserve's size and initial asset composition), Client Knowledge (a range co-sponsors can rely on)",
+  "rounds": [
+    {
+      "n": 1,
+      "name": "Felix builds four challengers",
+      "date": "2026-11-03",
+      "posts": ["posts/r1_felix.md"]
+    },
+    {
+      "n": 2,
+      "name": "Kai roasts before the test",
+      "date": "2026-11-03",
+      "posts": ["posts/r2_kai.md"]
+    },
+    {
+      "n": 3,
+      "name": "Jun judges after the test",
+      "date": "2026-11-03",
+      "posts": ["posts/r3_jun.md"]
+    }
+  ],
+  "seeds": [
+    "Do strangers say 'as if money paid later sat idle' back right: do the bonds still pay their interest, and does money already reinvested stop earning? (Writing Room, 16:20)",
+    "Where does the unused lock go (about $18,000 at the median), and does 'pays exactly what it promises' stretch to the fund rungs, which pay net asset value? (Courtroom, 18:20; Final Report)"
+  ],
+  "essence": [
+    "We tested Kai's fix for the bond ladder's weak point: on the day Laura names her range, set money aside as if everything the bonds pay after that day earned nothing, so nobody has to check again in 2033.",
+    "Kai roasted his own idea first and was right that he had sized it too small (it missed the months some bonds wait for their January), but wrong about how much that mattered; sized honestly, it pays every cheque whenever the money exists and never touches the gift once co-sponsors have heard it, at the cost of using up Laura's own stocks more often.",
+    "Jun adopted it: one sentence of the IPS swaps 'plus a cushion' for 'as if money paid later sat idle', at the same length, and the Final Report gets the numbers and a real public bond escrow that is sized the same way."
+  ],
+  "decided": [
+    "C1 ADOPT, KW (the WInS-true lock) as the rule: every cheque 100% / 100% / 98.71% (base / yields 2 pts lower / deposit halved; shorts only where the money isn't there); gift never pays a cheque after naming; gift mean -$670 base v A0f; kept stocks all gone 28.1% v 19.0% (MODEL)",
+    "CORD: W-08c's $11,201 is $14,282 on the model's own sizing (the wait for January); as sized (K0) the lock pays every cheque in only 95.16% of base futures",
+    "C2 BIN; C3 BIN for the IPS, Final Report; C4 Final Report only (about a tenth of the cheques rides on future yields, 4.0% on naming day)",
+    "Count copy: 'as if that interest earned nothing more' reads as the strictest lock (Jun); offer 'as if money paid later sat idle' (497 strict)"
+  ],
+  "changes": [
+    "No draft changed. Offer in ../../ips_rewrite/inbox/2026-11-03_genius-lab.md s1"
+  ],
+  "todos": {
+    "done": 6,
+    "total": 10
+  }
+}
