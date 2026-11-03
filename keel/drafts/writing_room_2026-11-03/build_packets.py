@@ -56,8 +56,9 @@ PART1 = SHEET.split("## Part 1")[1].split("## Part 2")[0]
 PART1 = "## Part 1" + PART1
 P2HEAD = "## Part 2, the SECOND TEXT\n10. Read it once. List every sentence you didn't understand the first time.\n11. For each pair below (the places the two texts differ; which is \"1\" and which is \"2\" is shuffled), which one did you understand on first read, \"1\", \"2\" or \"same\", and why in a few words?\n"
 P3HEAD = "## Part 3, the sentence block\n12. Each version of the same sentence below: say it back in one line. Do the bonds still pay their interest? Does money already reinvested stop earning? Which version would you act on with the least guessing?\n"
+P3C = "14. Another version of the same paragraph says: \"Before she names the range, we price that gap as if nothing more is reinvested, and move that much from the stocks Laura keeps into Treasuries, until only a quarter of them is left. Whatever the stocks can't cover lowers the whole range.\" A quarter of what? Is it a fixed rule she can keep, and what happens past it?\n"
 P3B = "13. Two endings for the last paragraph: (x) \"...paying out one rung per cheque and returning to Laura what the cheques don't need.\" (y) \"...paying out one rung per cheque and returning to Laura what no remaining cheque needs.\" In 2036, what money goes back to Laura under each? Which is clearer?\n"
-RULES = "Rules: answer only from the texts; don't use finance knowledge the person you play wouldn't have; never look anything up or open any file; keep each answer short; number your answers 1-13."
+RULES = "Rules: answer only from the texts; don't use finance knowledge the person you play wouldn't have; never look anything up or open any file; keep each answer short; number your answers 1-14."
 
 
 def build(name, seed):
@@ -80,7 +81,7 @@ def build(name, seed):
     parts.append(PART1)
     parts.append("SECOND TEXT (another version of the same plan; the pitch above is the same):\n" + t2 + "\n")
     parts.append(P2HEAD + "\n".join(lines) + "\n")
-    parts.append(P3HEAD + lock_txt + "\n" + P3B)
+    parts.append(P3HEAD + lock_txt + "\n" + P3B + P3C)
     key = {"first": first, "pairs": [(va, vw) for va, vw in pairs], "lock_order": locks}
     return "\n".join(parts), key
 

@@ -1,5 +1,8 @@
 # The stranger sheet (H-025 round 2; written by the chair before any reader ran)
 
+> 17:25, before any reader ran: question 3's items were reworded so they don't quote either text's own words (the first
+> wording quoted V54 and would have hinted to readers who get W3 first).
+
 Every reader gets: who they are (one line), the pitch above a full IPS text (FIRST TEXT, read cold), the questions
 below, then a SECOND TEXT, then the changed sentences side by side in a random order, then the sentence block. Two of
 the four also get the submitted Trading Notes (three notes and reflections) before the first text, because judges read
@@ -11,10 +14,10 @@ the three deliverables together. Readers see no file, no room name, no draft num
 2. In 2-4 sentences of your own, what does the plan do with Laura's money?
 3. In your own words (if you would be guessing, say "guess" and give the guess):
    a. What is the banks' "capital-protected note", and why doesn't the plan use one?
-   b. Why would a downturn make the ladder dearer (cost more) to buy?
-   c. What does a "fund that matures like a bond" do?
-   d. "Under a tenth of her money": a tenth of what?
-   e. "The interest it should earn": whose interest, and over what stretch of time?
+   b. Why would a downturn make the ladder cost more to buy?
+   c. The ladder holds some funds as well as bonds. What does one of those funds do at the end?
+   d. The line about how much goes into the world index fund says it is "under a tenth" of something: a tenth of what?
+   e. The interest that pays for the world index fund: whose interest, and over what stretch of time?
    f. Are "stocks", "shares" and the "world index fund" one thing or different things? Are "the building", "the
       facility" and "the gift" one thing or different things?
 4. What can a fall in Laura's shares do to one of her $50,000 cheques? Between 2031 and 2033, where is the money set
