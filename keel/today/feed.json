@@ -1,5 +1,5 @@
 {
- "built": "2026-11-03T03:10",
+ "built": "2026-11-03T04:37",
  "days": [
   {
    "date": "2026-11-03",
@@ -8,6 +8,9 @@
     "We tested Kai's fix for the bond ladder's weak point: on the day Laura names her range, set money aside as if everything the bonds pay after that day earned nothing, so nobody has to check again in 2033.",
     "Kai roasted his own idea first and was right that he had sized it too small (it missed the months some bonds wait for their January), but wrong about how much that mattered; sized honestly, it pays every cheque whenever the money exists and never touches the gift once co-sponsors have heard it, at the cost of using up Laura's own stocks more often.",
     "Jun adopted it: one sentence of the IPS swaps 'plus a cushion' for 'as if money paid later sat idle', at the same length, and the Final Report gets the numbers and a real public bond escrow that is sized the same way.",
+    "The Lab's new rule for the ladder's weak point keeps every cheque and the number Laura tells co-sponsors safe, but it is paid for by the stocks she keeps for herself, which run out more often, and our draft never says that most of that money comes back once the cheques don't need it.",
+    "Public bond escrows, which are sized exactly this way, hand the leftover back to the owner once what remains still covers every later payment; so all three of us want the IPS to say the money comes back to Laura, and to keep a quarter of her stocks out of reach on the day she names her range, so she is never left with nothing when the building starts.",
+    "We offer a package at 497 words: \"as if nothing more is reinvested\", \"until only a quarter of them is left\", and \"returning to Laura what the cheques don't need\", paid for by four small cuts nobody needed.",
     "Our newest IPS says we check the bond ladder's one weak point once, in 2031, but the plan behind it checks twice, again in January 2033.",
     "Kai caught a leak in my first test, which made the gap look four times bigger than it is; fairly measured, with one check a cheque comes up a little short (usually about $1,300) in about 1 future in 25, and with two about 1 in 770.",
     "So the IPS should either name the second check or use Kai's simpler rule, setting the money aside as if the interest earned nothing, which needs no second check at all.",
@@ -51,6 +54,47 @@
      "transcript": "keel/huddles/2026-11-03_interest-that-earns-nothing/transcript.md",
      "changes": [
       "No draft changed. Offer in ../../ips_rewrite/inbox/2026-11-03_genius-lab.md s1"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    },
+    {
+     "id": "H-024",
+     "title": "Parked, not spent?",
+     "question": "Kai's lock (set the ladder's reinvestment gap aside on naming day as if nothing more is reinvested) keeps every cheque and the named range safe. Who pays for it, does the IPS say so plainly enough for a co-sponsor, a judge and a practitioner, and what should change in P8 or P9 today? (round 7 beat 6; the Lab's challengers C1-C4 read three ways; LR-11)",
+     "status": "closed",
+     "room": "Laura's Room",
+     "chair": "Laura's Room (run)",
+     "members": [
+      "Amara",
+      "Kai",
+      "Felix"
+     ],
+     "essence": [
+      "The Lab's new rule for the ladder's weak point keeps every cheque and the number Laura tells co-sponsors safe, but it is paid for by the stocks she keeps for herself, which run out more often, and our draft never says that most of that money comes back once the cheques don't need it.",
+      "Public bond escrows, which are sized exactly this way, hand the leftover back to the owner once what remains still covers every later payment; so all three of us want the IPS to say the money comes back to Laura, and to keep a quarter of her stocks out of reach on the day she names her range, so she is never left with nothing when the building starts.",
+      "We offer a package at 497 words: \"as if nothing more is reinvested\", \"until only a quarter of them is left\", and \"returning to Laura what the cheques don't need\", paid for by four small cuts nobody needed."
+     ],
+     "decided": [
+      "C1 SHARPEN 3-0; C2 BIN, C3 Final Report (Wharton: a final range is not expected in the IPS), C4 Final Report (3-0)",
+      "P8 'as if nothing more is reinvested' over the Lab's 'as if money paid later sat idle' (3-0: the paragraph's own word, the escrows' 'without reinvestment'; 'paid later' asks 'by whom?')",
+      "Flexibility: both (3-0): keep a quarter back (P8, 0 words, replaces 'so her flexibility shrinks before her gift does') and say what the cheques don't need comes back (P9)",
+      "P9 '...and returning to Laura what the cheques don't need.' ('to Laura' 2-1 over 'her'; 'the cheques don't need' 2-1 over Kai's 'what no remaining cheque needs')",
+      "Paid by 'for good' (-1), 'first' (-1), 'over the long run' (-4), 'in a downturn' (-2; 2-1, Amara would cut 'roughly' instead); kept: 'under a tenth', 'spread across thousands of companies', 'to us,', 'along the way', 'liquid any day,' and P1's building line (each has a job in the register). 497 strict"
+     ],
+     "seeds": [
+      "Kai's dissent for the strangers: in 2036, does 'what the cheques don't need' read as that year's leftover (the wrong sum), where 'what no remaining cheque needs' carries the escrow's test?",
+      "Why a quarter, under the lock? Untested between none and a quarter (Final Report)"
+     ],
+     "todos": {
+      "done": 7,
+      "total": 10
+     },
+     "path": "keel/huddles/2026-11-03_parked-not-spent",
+     "transcript": "keel/huddles/2026-11-03_parked-not-spent/transcript.md",
+     "changes": [
+      "Offer in ../../ips_rewrite/inbox/2026-11-03_lauras-room.md (full text: ../../rooms/lauras_room/LR-11_offered_ips.txt); no draft changed by the room",
+      "../../rooms/lauras_room/LR-11_parked_not_spent.md (+ .py, _results.json)"
      ],
      "rounds": 3,
      "rounds_today": 3
@@ -129,7 +173,7 @@
       "After naming day, does the reinvestment cushion's forecast fall on the top of the range or on a cheque? (S-12 break 2; Genius Lab, MODEL, Final Report)"
      ],
      "todos": {
-      "done": 6,
+      "done": 7,
       "total": 10
      },
      "path": "keel/huddles/2026-11-03_what-a-stranger-would-guess",
@@ -155,6 +199,36 @@
      "title": "Chair's source check (Genius Lab run, Tue 3 Nov 2026)",
      "member": "Lab",
      "huddle": "H-023"
+    },
+    {
+     "path": "keel/huddles/2026-11-03_parked-not-spent/research/amara.md",
+     "title": "Amara, research notes (round 1). SIMULATED reactions, tests not quotes. No web fetches.",
+     "member": "Amara",
+     "huddle": "H-024"
+    },
+    {
+     "path": "keel/huddles/2026-11-03_parked-not-spent/research/chair_r2.md",
+     "title": "Chair's note for round 2 (H-024; Laura's Room, Tue 3 Nov 2026)",
+     "member": "Chair",
+     "huddle": "H-024"
+    },
+    {
+     "path": "keel/huddles/2026-11-03_parked-not-spent/research/chair_r3.md",
+     "title": "Chair's note for round 3 (H-024; Laura's Room, Tue 3 Nov 2026)",
+     "member": "Chair",
+     "huddle": "H-024"
+    },
+    {
+     "path": "keel/huddles/2026-11-03_parked-not-spent/research/felix.md",
+     "title": "Felix, round 1 research notes (judge with the case and Wharton open)",
+     "member": "Felix",
+     "huddle": "H-024"
+    },
+    {
+     "path": "keel/huddles/2026-11-03_parked-not-spent/research/kai.md",
+     "title": "Kai's sources (H-024, round 1, Tue 3 Nov 2026)",
+     "member": "Kai",
+     "huddle": "H-024"
     },
     {
      "path": "keel/huddles/2026-11-03_what-a-stranger-would-guess/research/README.md",
@@ -266,6 +340,55 @@
      "huddle": "H-023"
     },
     {
+     "text": "Run the lock with a quarter and a half kept back, three worlds; KW equal to the Lab's (chair; done 3 Nov: LR-11)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-03",
+     "huddle": "H-024"
+    },
+    {
+     "text": "Read V54 + the lock as a simulated co-sponsor and a simulated Laura, case only (Amara; done 3 Nov)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-11-03",
+     "huddle": "H-024"
+    },
+    {
+     "text": "Read the lock as the practitioner, in escrow agreements' own words (Kai; done 3 Nov: four escrows and a statute, WebFetch, near-verbatim)",
+     "done": true,
+     "owner": "Kai",
+     "day": "2026-11-03",
+     "huddle": "H-024"
+    },
+    {
+     "text": "Kill, sharpen or pass C1-C4 with the case and Wharton open; tick V54 + C1 against :94-99, :117, flexibility (Felix; done 3 Nov)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-11-03",
+     "huddle": "H-024"
+    },
+    {
+     "text": "Reply by name on the three fights; register check of every proposed cut (Amara, Kai, Felix, chair; done 3 Nov)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-11-03",
+     "huddle": "H-024"
+    },
+    {
+     "text": "Settle the add-on's words and who pays, counted (Amara, Kai, Felix; done 3 Nov: 497 strict)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-11-03",
+     "huddle": "H-024"
+    },
+    {
+     "text": "Does V54 \"state how confident\" (case :117)? (Felix; done 3 Nov: not in words, and Wharton lists \"a final facility-contribution range\" as not expected in the IPS; the Final Report states it beside its amount)",
+     "done": true,
+     "owner": "Felix",
+     "day": "2026-11-03",
+     "huddle": "H-024"
+    },
+    {
      "text": "V54 line by line against the case, the TNA and the model files (Felix; done 3 Nov: `../../ips_rewrite/inbox/2026-11-03_window.md` s2)",
      "done": true,
      "owner": "Felix",
@@ -343,6 +466,13 @@
      "huddle": "H-022"
     },
     {
+     "text": "Does V54 \"state how confident\" (case :117), or only show it through \"already in bonds\"? (Final Report, Laura's Room; done 3 Nov: not in words, and not expected in the IPS: Wharton lists \"a final facility-contribution range\" as not expected there; P6's \"every dollar she promises is already in bonds\" is the plain version; the Final Report states the confidence beside its amount; `../../ips_rewrite/inbox/2026-11-03_lauras-room.md` s4)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-03",
+     "huddle": "H-022"
+    },
+    {
      "text": "After naming day, does the cushion's forecast fall on the top or on a cheque? (S-12 break 2; Genius Lab, MODEL, Final Report; done 3 Nov: on the gift with the January 2033 look (it pays a cheque in 8.1% of base futures, 24.1% if yields fall 2 points, median about $1,800), on a cheque without it (V54 as written: 4.0% / 5.6%), on neither under Kai's lock, which leaves no forecast inside the owned range; `../../rooms/lab/L-17_interest_that_earns_nothing.md`)",
      "done": true,
      "owner": null,
@@ -380,6 +510,27 @@
      "huddle": "H-023"
     },
     {
+     "text": "Read the package to fresh strangers beside V54 and the Lab's J; let them pick \"what the cheques don't need\" or \"what no remaining cheque needs\" (Writing Room, Tess and Amara; by Tue 3 Nov 16:20, else the evening)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-024"
+    },
+    {
+     "text": "Gate LR-11 S0 from a clean checkout and byte-check Wisconsin s4.1(b) and MWRA s7/s10 at the source if a host opens (Window, Felix; by Wed 4 Nov 08:40)",
+     "done": false,
+     "owner": "Window",
+     "day": null,
+     "huddle": "H-024"
+    },
+    {
+     "text": "Why a quarter, under the lock: amount, reason, proof (Final Report; after Sat 7 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-024"
+    },
+    {
      "text": "Words for the step (road A in P9 or road B in P8), paid inside 497 strict, read by one stranger who never saw the model (Writing Room, Tess and Amara; by Tue 3 Nov 16:20)",
      "done": false,
      "owner": null,
@@ -408,13 +559,6 @@
      "huddle": "H-022"
     },
     {
-     "text": "Does V54 \"state how confident\" (case :117), or only show it through \"already in bonds\"? (Final Report, Laura's Room; after Sat 7 Nov)",
-     "done": false,
-     "owner": null,
-     "day": null,
-     "huddle": "H-022"
-    },
-    {
      "text": "Two findings no stranger made, kept in the folder: Kai's \"half of cost or of worth?\" and Jun's early-sale price (any room that runs a fresh stranger)",
      "done": false,
      "owner": null,
@@ -423,6 +567,12 @@
     }
    ],
    "runs": [
+    {
+     "day": "2026-11-03",
+     "when": "Tue 3 Nov 15:55",
+     "room": "Laura's Room",
+     "what": "Beat 6 (Work: the second angle), round 7, as huddle H-024 (Amara as co-sponsor and SIMULATED Laura, Kai as the escrow practitioner in its own words, Felix as judge with the case open; 3 agents, 3 rounds, 9 posts): the Lab's C1 **SHARPEN 3-0** (P8 'as if nothing more is reinvested'; keep a quarter back under the lock; P9 '...and returning to Laura what the cheques don't need'), C2 BIN, C3/C4 FR; **LR-11** (lock + H25/H50 x S0/S6/S9, KW asserted equal to L-17): pocket empty by 2033 0.0% v 28.1% base, cheques unchanged, gift mean -$1,486 (MODEL); five escrow documents + a statute (WebFetch, near-verbatim): surplus back to the owner on a sufficiency test; offer 497 strict; bank #153-#155; 2 requests filed"
+    },
     {
      "day": "2026-11-03",
      "when": "Tue 3 Nov 14:15",
