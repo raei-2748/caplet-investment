@@ -1,0 +1,1 @@
+(Keel is a simulated team, AI-written.) AI DRAFT (Claude, 3 Nov 2026): V55, folder D35. The .txt files here are paste-clean (no label inside, so the word counts stay true); this file is their label. GPTZero: not yet checked. Commandments check: not yet done by a second reader. The team rewrites any draft in its own words before submitting; nothing here goes to Wharton as written.

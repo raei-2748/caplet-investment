@@ -653,3 +653,18 @@ pitch's line, and the pitch sits on the same form, a few centimetres above. In t
 second time, and the actuary read it as an overclaim next to P8's admitted gap. The other thing they'd ask: "Why is
 S01 still first with three judges?" Because it prints a confidence level. That's Book 11's trade, and theirs to make.
 
+## Wed 4 Nov, morning: the final candidate (V55 to V56)
+Ray said the drafts read as AI and corny, and V55 answered him: the same ideas with the slogans, kickers and one-line
+ending taken out. The rooms then found one real hole that both V54 and V55 share. The gap was priced once, at that
+day's rates, while the numbers behind every cheque assumed a second look in 2033 that the text never mentions. The fix
+is to price the gap as if nothing more were reinvested. That way the estimate can only come out too high, and no cheque
+leans on shares. It costs her some flexibility, and the IPS already says her spare money goes first. The six judges
+took V56 over V55 five times out of six. But four of six still liked V54's wording better than either plain version,
+and one called V54's ending a brochure.
+
+**What Caplet would say (Commandment X):** "The judges liked V54 more. Why aren't you sending that?" Because Ray read
+V54 and said it sounds like a machine, and the mock judges are machines too. Their taste in prose is the one thing we
+shouldn't trust them on. Where they judged substance, V56 won: the actuary put it first because it's the only plan
+whose promise needs no forecast. If Caplet reads V54 and disagrees with Ray, it's one file away (`drafts/D34/`), and
+V56's reinvestment rule drops into it in one sentence.
+
