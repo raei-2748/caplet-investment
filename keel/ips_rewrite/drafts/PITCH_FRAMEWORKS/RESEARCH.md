@@ -31,8 +31,8 @@ wondering how the story reached that point.
 Every payment still arrives." The claim is true (the payments are in Treasuries). The judge
 must read on to understand why.
 
-**Risk:** The plan's real weakness is falling interest rates, not share crashes. A sharp
-judge may ask why the pitch picked shares as the threat.
+**Risk:** The plan's real weakness is falling interest rates, not share crashes. The IPS
+body has to cover it on the page, since nobody can answer a judge before the semifinal.
 
 ---
 

@@ -24,8 +24,7 @@ Strongest move: "The crash shrinks the gift, not the cheques." One sentence tell
 exactly what is protected and what is not.
 
 Risk: the plan's real weakness is falling interest rates, not a share crash. The IPS body
-covers reinvestment risk, but a sharp judge may ask why the pitch picked shares as the
-threat.
+must say so on the page; no one answers a judge's questions before the semifinal.
 
 ---
 
@@ -141,3 +140,5 @@ may depend on shares or on her career.
 > its interest goes into shares.
 
 Checks: word counts by `split()`; not yet checked in GPTZero; team rewrites in its own words.
+"Tend to" stays because the case lists the income sources but does not say they fall with
+markets; the claim has to hold on the page alone (INSTRUCTIONS I82).
