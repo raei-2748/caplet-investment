@@ -6,8 +6,8 @@ The plain one-page note for Caplet is `README.md`. This file is Keel's record: c
 Thu 5 Nov, rewrites it in its own words, and submits it on the SMApply form by **Sat 7 Nov 09:00 Sydney** (Fri 6 Nov
 5:00 p.m. ET). Keel doesn't submit anything.
 
-- `pitch.txt`: the 50-word elevator pitch field. **48 words.**
-- `ips.txt`: the 500-word IPS field. **495 words** on the strict count (hyphenated words split; `keel/office/tools/textcheck.py`).
+- `pitch.txt`: the 50-word elevator pitch field. **49 words.**
+- `ips.txt`: the 500-word IPS field. **496 words** on the strict count (hyphenated words split; `keel/office/tools/textcheck.py`).
   The house cap is 497.
 - `COMMANDMENTS_CHECK.md`: the Commandments, Book 11 and I80 check by a cold reader who didn't write V57, with the fixes
   made after it listed at the end.
@@ -108,4 +108,17 @@ Laura's Room read V57 against every line of the case (`../../inbox/2026-11-04_la
 - **P2 "one redeemed for each January" -> "before each January"** (payments come "at the beginning of each year", case 88).
 The look-alike card's rows J and A carry the old P2 and P7 words; the Archive has that request. The Room's case card is
 now `CASE_CARD.md` beside the IPS. IPS 495 strict.
+
+## 9. Ray's word rule (I83, 4 Nov; reached main 5 Nov)
+"Do not invent terms, like floor": use the case's words or plain English. The noticeboard listed every coined label in the
+FINAL (`inbox/2026-11-05_noticeboard.md` on `claude/keel-loop-2026-11-05`). Swapped, meaning unchanged:
+- Pitch: "ten $50,000 cheques are promises" -> "ten $50,000 operating payments are fixed"; "set a minimum building gift"
+  -> "set her minimum facility contribution". 49 words.
+- IPS P5: "the floor of her gift" -> "which sets her minimum facility contribution"; "the interest that floor will earn" ->
+  "the interest that fund will earn". P6: "a range" -> "a credible range" (the case's words); "The bottom is the floor,
+  rounded down" -> "The bottom is that fund's payout, rounded down". P4 "fixed cheque", P7 "waiting for a cheque", P8
+  "each January's cheque" -> "payment" / "$50,000".
+- To fit: "Treasury bonds and Treasury funds" -> "Treasury bonds and funds"; "before a January payment" -> "before a payment".
+- The case card and plain README use the new words; the look-alike card carries a note mapping its old labels.
+IPS 496 strict.
 

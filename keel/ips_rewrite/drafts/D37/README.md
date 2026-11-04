@@ -1,6 +1,6 @@
 # V57: the investing thinking shown, with the reinvestment lock (AI DRAFT, Claude, Wed 4 Nov 2026)
 
-**GPTZero: not yet checked.** Pitch 48 (V55's). IPS **495** strict (after the Window's, the Library's and Laura's Room's fixes, `../FINAL/KEEL_RECORD.md` sections 6-8) (`keel/office/tools/textcheck.py`; house cap 497).
+**GPTZero: not yet checked.** Pitch 48 (V55's). IPS **496** strict, pitch 49 (after the Window's, the Library's and Laura's Room's fixes and Ray's word rule, `../FINAL/KEEL_RECORD.md` sections 6-9) (`keel/office/tools/textcheck.py`; house cap 497).
 
 Why it exists: on Wed 4 Nov two V56s were written in parallel. One (`../D36/`) fixed the last real hole, pricing the
 reinvestment gap so no cheque depends on shares. The other (`../D36_I81/`, "V56i") answered Caplet's 08:06 top priority
