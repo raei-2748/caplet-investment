@@ -136,3 +136,16 @@ co-sponsor range / financial flexibility.
 > To tame the risk of Laura's human capital, which fluctuates with stocks, Steady Roots invests her $300,000 in
 > ten Treasuries, one per operating payment, and her 2028 contribution in a Treasury fund for her facility
 > contribution, plus stocks. Co-sponsors receive a credible range she owns; the rest is financial flexibility.
+
+## Final sentence showing Laura's objectives (4 Nov)
+
+Ray's: "This both pleases co-sponsors and ensures flexibility." Options for the case's three goals (certainty,
+credibility with co-sponsors, financial flexibility):
+- Her operating commitment stays certain, her co-sponsor range credible, her flexibility intact. (12; recommended)
+- Her operating commitment stays certain, her range credible, her flexibility intact. (11)
+- Every payment is certain, every promise to co-sponsors credible, and her flexibility preserved. (13)
+
+Full pitch with the recommended sentence (50 words):
+> To tame the risk of Laura's human capital, which fluctuates with stocks, Steady Roots invests her $300,000 in
+> ten Treasuries, one per operating payment, and her 2028 contribution in a Treasury fund for her facility
+> contribution, plus stocks. Her operating commitment stays certain, her co-sponsor range credible, her flexibility intact.
