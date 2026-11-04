@@ -7,7 +7,7 @@ Thu 5 Nov, rewrites it in its own words, and submits it on the SMApply form by *
 5:00 p.m. ET). Keel doesn't submit anything.
 
 - `pitch.txt`: the 50-word elevator pitch field. **48 words.**
-- `ips.txt`: the 500-word IPS field. **493 words** on the strict count (hyphenated words split; `keel/office/tools/textcheck.py`).
+- `ips.txt`: the 500-word IPS field. **495 words** on the strict count (hyphenated words split; `keel/office/tools/textcheck.py`).
   The house cap is 497.
 - `COMMANDMENTS_CHECK.md`: the Commandments, Book 11 and I80 check by a cold reader who didn't write V57, with the fixes
   made after it listed at the end.
@@ -98,4 +98,14 @@ rewrites, say "each payment has its own bond", never "we don't duration-match". 
   sentence was cut this afternoon.
 - **Corrected here:** section 3's old "can only overstate it" line, and the cold reader's "say the same" note
   (`COMMANDMENTS_CHECK.md`, "Applied" item 4), both wrong for the funds' cash. IPS 493 strict.
+
+## 8. Laura's Room against the case (Wed 4 Nov, evening)
+Laura's Room read V57 against every line of the case (`../../inbox/2026-11-04_lauras-room.md`, agreed 3-0). All four taken:
+- **P7 "the whole range comes down" -> "she names a lower range".** Two readers took the old words as cutting a range she
+  had already announced, the damage case line 114 warns about. The cut happens before she names it.
+- **P1 "to run" -> "towards running"** (case 88: payments "toward" operating costs).
+- **P1 "Anything left" -> "Part of what's left"** (case 102-103: committing all remaining assets could limit her flexibility).
+- **P2 "one redeemed for each January" -> "before each January"** (payments come "at the beginning of each year", case 88).
+The look-alike card's rows J and A carry the old P2 and P7 words; the Archive has that request. The Room's case card is
+now `CASE_CARD.md` beside the IPS. IPS 495 strict.
 
