@@ -2,17 +2,18 @@
 
 AI DRAFT (Claude, 4 Nov 2026). Due on the form by **Sat 7 Nov 09:00 Sydney** (Fri 6 Nov 5 pm ET). Keel submits nothing.
 
-**The files.** `pitch.txt` is the 50-word pitch (48 words). `ips.txt` is the 500-word IPS (495 on the strictest count).
-Rewrite both in your own words before you paste them in.
+**The files.** `pitch.txt` is the 50-word pitch (49 words). `ips.txt` is the 500-word IPS (496 on the strictest count).
+Rewrite both in your own words before you paste them in. Use the case's own words, as Ray asked on 5 Nov:
+"operating payments", "facility contribution", "credible range"; not "floor", "cheques" or "building gift".
 
-**What the plan says.** Laura's first $300,000 buys ten Treasury holdings, one maturing before each January cheque from
-2033 to 2042, so no cheque depends on shares. Her 2028 money buys a Treasury fund that sets the minimum building gift, and
+**What the plan says.** Laura's first $300,000 buys ten Treasury holdings, one maturing before each January payment from
+2033 to 2042, so no payment depends on shares. Her 2028 money buys a Treasury fund that sets her minimum facility contribution, and
 only about that fund's interest goes into one world share fund. In 2031 the bottom of her range is money she already owns;
 half her shares move into Treasuries to back the top. If falling interest rates leave the ladder short, the gap is priced
-as if money waiting for a cheque earned nothing, and set aside before she names the range.
+as if money waiting for a payment earned nothing, and set aside before she names the range.
 
 **What changed today, as you asked on Wednesday morning.** The IPS now shows the investing thinking behind each choice:
-why pension funds' "one bond per payment" method suits her; why ten years doesn't make shares safe for fixed cheques; why
+why pension funds' "one bond per payment" method suits her; why ten years doesn't make shares safe for fixed payments; why
 her income tends to dry up in the same downturns that hit shares; why a bank's capital-protected note is a worse version of our plan;
 and why we turned down portfolio insurance, which made the 1987 crash worse. The 7.5% share-return figure moved to the
 Final Report to make room.
