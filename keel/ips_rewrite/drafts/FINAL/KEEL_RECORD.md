@@ -14,7 +14,7 @@ Thu 5 Nov, rewrites it in its own words, and submits it on the SMApply form by *
 
 V57 answers Caplet's top priority of Wed morning (I81: look "truly extraordinary erudite", not through modelling): it
 weighs pension-fund cash-flow matching against immunisation, answers "shares are safe over ten years" with time
-diversification, treats Laura's income as a bet on shares already, takes apart the capital-protected note, rejects
+diversification, says her income can dry up in the same downturns that hit share prices, takes apart the capital-protected note, rejects
 portfolio insurance, and builds its own date-based rules from those pieces. The concept map, with what each idea does
 for Laura and where the Final Report cites it, is in `../D37/README.md`.
 

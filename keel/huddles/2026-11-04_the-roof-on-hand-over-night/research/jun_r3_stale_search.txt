@@ -1,0 +1,493 @@
+Jun r3 stale search (LS-17), keel/ips_rewrite/drafts/FINAL/, read only. MODEL-free: text matching only.
+
+0. Hashes
+  ips.txt: sha256 b9368f5b5fa9ffc5  OK
+  pitch.txt: sha256 2f94abe7c30be498  OK
+  earlier FINALs read from git: 4 of 4
+
+1. QUOTE SEARCH: every quoted phrase (class; where it is)
+
+  README.md: 5 phrases
+    L15  FINE       "one bond per payment"  (in ips)
+    L25  FINE       "human"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L27  FINE       "Like the tablet it is named after, the plan works as long as nobody crushes it."  (in ips)
+    L29  FINE       "each payment has its own bond"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L29  FINE       "we don't duration-match"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+
+  CASE_CARD.md: 72 phrases
+    L7   FINE       "Case 88"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L7   FINE       "IPS 58"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L10  FINE       "towards running"  (in ips)
+    L10  ON PURPOSE "to run"  (the old word in the card's change list [was in V56 (059ffe0)])
+    L10  FINE       "toward"  (in ips)
+    L11  FINE       "Part of what's left"  (in ips)
+    L11  ON PURPOSE "Anything left"  (the same [was in V56 (059ffe0)])
+    L11  FINE       "all remaining assets"  (words of the case, not the IPS's)
+    L12  FINE       "before each January"  (in ips+pitch)
+    L12  ON PURPOSE "for each January"  (the same [was in V56 (059ffe0)])
+    L12  FINE       "at the beginning of each year"  (words of the case, not the IPS's)
+    L13  FINE       "she names a lower range"  (in ips)
+    L13  ON PURPOSE "the whole range comes down"  (the same [was in V56 (059ffe0)])
+    L17  FINE       "the central idea behind your approach"  (words of Wharton, not the IPS's)
+    L17  FINE       "cheques are promises, so we pay for them up front"  (in pitch)
+    L18  FINE       "What your team is trying to accomplish"  (words of Wharton, not the IPS's)
+    L19  FINE       "fixed"  (in ips)
+    L19  FINE       "funded by the investment portfolio with a high degree of certainty"  (words of the case, not the IPS's)
+    L19  FINE       "Laura's portfolio must pay"  (in ips)
+    L19  FINE       "before"  (in ips+pitch)
+    L20  FINE       "define ... a high degree of funding certainty"  (words of the case, not the IPS's)
+    L20  FINE       "evaluated"  (words of the case, not the IPS's)
+    L20  FINE       "the assumptions"  (words of the case, not the IPS's)
+    L20  FINE       "A Treasury bond held to maturity pays exactly what it promised"  (in ips)
+    L20  FINE       "high certainty means no payment depends on shares"  (in ips)
+    L20  FINE       "first completes the ladder, if needed"  (in ips)
+    L20  FINE       "main weakness"  (in ips)
+    L20  FINE       "earned nothing"  (in ips)
+    L21  FINE       "size"  (words of the case, not the IPS's)
+    L21  FINE       "initial asset composition"  (words of the case, not the IPS's)
+    L21  FINE       "if at all"  (words of the case, not the IPS's)
+    L21  FINE       "operating reserve"  (in ips)
+    L21  FINE       "with fixed end dates"  (in ips)
+    L21  FINE       "never needs rebalancing"  (in ips)
+    L22  FINE       "Why your strategy is appropriate for the client"  (words of Wharton, not the IPS's)
+    L23  FINE       "an appropriate balance between pursuing growth and protecting the capital"  (words of the case, not the IPS's)
+    L23  FINE       "roughly the interest that floor will earn"  (in ips)
+    L23  FINE       "bet on shares twice"  (in ips)
+    L24  FINE       "risk and return"  (words of Wharton, not the IPS's)
+    L24  FINE       "no payment depends on shares"  (in ips)
+    L24  FINE       "money she already owns"  (in ips)
+    L25  FINE       "liquidity"  (words of the case, not the IPS's)
+    L25  FINE       "stays hers and liquid"  (in ips)
+    L26  FINE       "diversification"  (words of Wharton, not the IPS's)
+    L26  FINE       "thousands of companies"  (in ips)
+    L27  FINE       "planned changes ... as future funding needs approach"  (words of Wharton, not the IPS's)
+    L27  FINE       "changes only on fixed dates, never on a market move"  (in ips)
+    L28  FINE       "protect the required operating payments while supporting a responsible facili..."  (words of Wharton, not the IPS's)
+    L28  FINE       "even for the building"  (in ips)
+    L29  FINE       "how much of the remaining portfolio she can responsibly contribute"  (words of the case, not the IPS's)
+    L29  FINE       "A meaningful personal contribution"  (words of the case, not the IPS's)
+    L29  FINE       "set a minimum building gift"  (in pitch)
+    L29  FINE       "Most of the rest ... the floor of her gift"  (in ips)
+    L29  FINE       "half her shares"  (in ips)
+    L30  FINE       "committing all remaining assets could limit her financial flexibility"  (words of the case, not the IPS's)
+    L30  FINE       "The other half stays hers and liquid, as a cushion"  (in ips)
+    L31  FINE       "a credible range"  (words of the case, not the IPS's)
+    L31  FINE       "must also protect"  (words of the case, not the IPS's)
+    L31  FINE       "money she already owns"  (in ips)
+    L31  FINE       "Before Laura names her range"  (in ips)
+    L32  FINE       "state how confident"  (words of the case, not the IPS's)
+    L32  FINE       "rounded down"  (in ips)
+    L32  FINE       "money she already owns"  (in ips)
+    L32  FINE       "before she names it"  (in ips)
+    L33  FINE       "favorable and unfavorable market outcomes"  (words of the case, not the IPS's)
+    L33  FINE       "after a bad year"  (in ips)
+    L33  FINE       "fall and stay low"  (in ips)
+    L34  FINE       "the effect of inflation"  (words of the case, not the IPS's)
+    L34  FINE       "fixed cheque"  (in ips)
+    L34  FINE       "in Taiwan dollars"  (in ips)
+    L35  FINE       "fundraising materials"  (words of the case, not the IPS's)
+    L37  FINE       "Final Report"  (words of the case, not the IPS's)
+
+  LOOK_ALIKE_CARD.md: 30 phrases
+    L15  ON PURPOSE "one redeemed each January"  (a false look-alike, shown as false)
+    L15  ON PURPOSE "one maturing IN January"  (a false look-alike, shown as false)
+    L20  ON PURPOSE "our ladder is DURATION-MATCHED"  (a false look-alike, shown as false)
+    L20  ON PURPOSE "the other way is DURATION MATCHING"  (a false look-alike, shown as false)
+    L22  FINE       "through duration-matching"  (words of the submitted TNA, not the IPS's)
+    L25  ON PURPOSE "a Treasury held to maturity pays exactly"  (a false look-alike, shown as false)
+    L25  ON PURPOSE "the funds pay EXACTLY what they PROMISED"  (a false look-alike, shown as false)
+    L26  FINE       "as opposed to a promise of par"  (words of the submitted TNA, not the IPS's)
+    L30  ON PURPOSE "every cheque is GUARANTEED"  (a false look-alike, shown as false)
+    L30  ON PURPOSE "the second deposit NEVER touches the cheques"  (a false look-alike, shown as false)
+    L32  FINE       "would top up the ladder"  (words of the WInS notes, not the IPS's)
+    L32  FINE       "near-ironclad"  (words of the submitted TNA, not the IPS's)
+    L35  ON PURPOSE "which dry up in the same downturns"  (a false look-alike, shown as false)
+    L35  ON PURPOSE "her income RIDES ON shares"  (a false look-alike, shown as false)
+    L40  ON PURPOSE "she shouldn't own shares"  (a false look-alike, shown as false)
+    L40  ON PURPOSE "her portfolio holds NO shares"  (a false look-alike, shown as false)
+    L40  ON PURPOSE "the shares NEVER TOUCH the cheques"  (a false look-alike, shown as false)
+    L41  FINE       "bet on shares twice"  (in ips)
+    L45  ON PURPOSE "the floor is a Treasury BOND"  (a false look-alike, shown as false)
+    L45  ON PURPOSE "the bottom is her floor"  (a false look-alike, shown as false)
+    L50  ON PURPOSE "they spend the interest to pay for the PROTECTION"  (a false look-alike, shown as false)
+    L50  ON PURPOSE "Banks sell THIS"  (a false look-alike, shown as false)
+    L52  FINE       "this"  (in ips)
+    L56  ON PURPOSE "the ladder's weakness is ..."  (a false look-alike, shown as false)
+    L56  ON PURPOSE "as if no more INTEREST were reinvested"  (a false look-alike, shown as false)
+    L61  ON PURPOSE "sell shares to cover the gap WHEN IT APPEARS"  (a false look-alike, shown as false)
+    L61  ON PURPOSE "set it aside from her shares"  (a false look-alike, shown as false)
+    L66  ON PURPOSE "EXCESS CASH absorbs the gap first"  (a false look-alike, shown as false)
+    L66  ON PURPOSE "the range she has GIVEN is cut"  (a false look-alike, shown as false)
+    L66  ON PURPOSE "the bottom NEVER moves"  (a false look-alike, shown as false)
+
+  READERS_CARD.md: 9 phrases
+    L7   ON PURPOSE "We do the second, so no cheque depends on what a bond sells for that January."  (an offered sentence, said not to beat the final)
+    L9   FINE       "In January 2027"  (in ips)
+    L9   FINE       "with fixed end dates"  (in ips)
+    L11  FINE       "Exactly"  (in the FINAL with other capitals)
+    L13  FINE       "Like the tablet it is named after, the plan works as long as nobody crushes it."  (in ips)
+    L13  FINE       "do not crush"  (in ips)
+    L15  FINE       ", to us,"  (in ips)
+    L15  FINE       "So, to us, high certainty means ..."  (in ips)
+    L21  FINE       "The top adds half her shares"  (in ips)
+
+  KEEL_RECORD.md: 55 phrases
+    L15  FINE       "truly extraordinary erudite"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L16  FINE       "shares are safe over ten years"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L25  ON PURPOSE "average life"  (the cold read's LOST phrases, said fixed)
+    L25  ON PURPOSE "as if nothing more were reinvested"  (the cold read's LOST phrases, said fixed [was in V56 (059ffe0)])
+    L25  FINE       "option"  (in ips)
+    L25  ON PURPOSE "average life"  (the cold read's LOST phrases, said fixed)
+    L25  FINE       "option"  (in ips)
+    L27  FINE       "our model"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L27  FINE       "do not crush"  (in ips)
+    L28  FINE       "That is X."  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L33  FINE       "a high degree of certainty"  (in ips)
+    L34  FINE       "publishing advances, speaking engagements, licensing, and other entrepreneuri..."  (words of the case, not the IPS's)
+    L36  FINE       "a Treasury fund maturing in late 2032"  (in ips)
+    L36  FINE       "on or about December 15, 2032"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L39  FINE       "contested but fair as written"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L40  ON PURPOSE "less than a tenth"  (said moved to the Final Report [was in V56 (059ffe0)])
+    L46  FINE       "our model"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L49  FINE       "do not crush"  (in ips)
+    L51  FINE       "That is X."  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L54  FINE       "as if every dollar waiting for a cheque earned nothing"  (in ips)
+    L57  FINE       "erudite"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L62  FINE       "human-written"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L70  FINE       "Like the tablet it is named after, the plan works as long as nobody crushes it."  (in ips)
+    L72  ON PURPOSE "was blamed for deepening"  (a softer wording offered as Caplet's call)
+    L81  FINE       "A Treasury bond held to maturity pays exactly what it promised"  (in ips)
+    L82  FINE       "The ladder's main weakness"  (in ips)
+    L82  FINE       "the catch"  (words of the submitted TNA, not the IPS's)
+    L83  ON PURPOSE "Her income already rides on shares"  (said cut [was in V57 at 08:26 (9f287c2)])
+    L84  FINE       "... the same downturns that hit share prices, so her portfolio shouldn't bet ..."  (in ips)
+    L85  FINE       "duration-matching"  (words of the submitted TNA, not the IPS's)
+    L86  FINE       "each payment has its own bond"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L86  FINE       "we don't duration-match"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L89  ON PURPOSE "as if no more interest were reinvested"  (said false and fixed [was in V57 at 08:26 (9f287c2)])
+    L90  FINE       "the Fund is expected to consist almost entirely of cash"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L92  FINE       "as if every dollar waiting for a cheque earned nothing"  (in ips)
+    L93  ON PURPOSE "waiting cash earned nothing"  (the Library's offer, spelt out instead)
+    L95  ON PURPOSE "tend to dry up"  (change log, old -> new [was in V56 (059ffe0)])
+    L95  FINE       "can dry up"  (in ips)
+    L96  FINE       "can"  (in ips)
+    L96  ON PURPOSE "tend to"  (change log [was in V56 (059ffe0)])
+    L97  FINE       "Treasury bond"  (in ips)
+    L97  ON PURPOSE "Her income may already ride on shares"  (an offer said not needed)
+    L99  ON PURPOSE "can only overstate it"  (corrections of other files)
+    L99  ON PURPOSE "say the same"  (corrections of other files)
+    L100 FINE       "Applied"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L104 ON PURPOSE "the whole range comes down"  (change log, old -> new [was in V56 (059ffe0)])
+    L104 FINE       "she names a lower range"  (in ips)
+    L106 ON PURPOSE "to run"  (change log [was in V56 (059ffe0)])
+    L106 FINE       "towards running"  (in ips)
+    L106 FINE       "toward"  (in ips)
+    L107 ON PURPOSE "Anything left"  (change log [was in V56 (059ffe0)])
+    L107 FINE       "Part of what's left"  (in ips)
+    L108 ON PURPOSE "one redeemed for each January"  (change log [was in V56 (059ffe0)])
+    L108 FINE       "before each January"  (in ips+pitch)
+    L108 FINE       "at the beginning of each year"  (words of the case, not the IPS's)
+
+  COMMANDMENTS_CHECK.md: 134 phrases
+    L9   FINE       "Fixes"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L33  ON PURPOSE "we price that shortfall as if nothing more were reinvested"  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162))
+    L33  ON PURPOSE "as if every coupon from that day on earned nothing"  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162))
+    L34  FINE       "stop reinvesting"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L35  ON PURPOSE "matching their bonds' average life to the payments and rebalancing as rates move"  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162))
+    L36  FINE       "smart adult"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L36  ON PURPOSE "Average life"  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162))
+    L37  FINE       "they spend the interest on an option that can expire worthless"  (in ips)
+    L37  FINE       "Option"  (in the FINAL with other capitals)
+    L42  FINE       "the floor of her gift"  (in ips)
+    L42  FINE       "gift"  (in ips+pitch)
+    L42  FINE       "help build the facility"  (in ips)
+    L42  FINE       "the building"  (in ips)
+    L44  FINE       "half her shares, which move into Treasuries"  (in ips)
+    L45  FINE       "Her spare money"  (in ips)
+    L45  FINE       "her kept shares"  (in ips)
+    L45  FINE       "the other half"  (in the FINAL with other capitals)
+    L46  ON PURPOSE "the whole range comes down"  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162) [was in V56 (059ffe0)])
+    L48  FINE       "the ladder and the money set aside"  (in ips)
+    L49  FINE       "Treasuries that mature one before each January"  (in pitch)
+    L50  FINE       "pays exactly what it promised"  (in ips)
+    L50  FINE       "never needs rebalancing"  (in ips)
+    L50  FINE       "counts on reinvesting its bonds' interest"  (in ips)
+    L51  FINE       "can fall short"  (in ips)
+    L53  FINE       "rounded down"  (in ips)
+    L54  FINE       "state how confident they are"  (words of the case, not the IPS's)
+    L57  ON PURPOSE "matching their bonds' average life to the payments"  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162))
+    L58  ON PURPOSE "Average life"  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162))
+    L60  FINE       "average timing"  (in ips)
+    L63  ON PURPOSE "A Treasury held to maturity pays exactly what it promised"  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162) [was in V56 (059ffe0)])
+    L64  FINE       "Treasury funds with fixed end dates"  (in ips)
+    L65  FINE       "exactly"  (in ips)
+    L67  FINE       "We do the second, which never needs rebalancing"  (in ips)
+    L67  FINE       "it counts on reinvesting its bonds' interest"  (in ips)
+    L71  FINE       "portfolio insurance ... helped deepen the 1987 crash"  (in ips)
+    L73  FINE       "Helped deepen"  (in the FINAL with other capitals)
+    L74  FINE       "time makes a loss rarer, not smaller"  (in ips)
+    L76  FINE       "Shares are called safe"  (in ips)
+    L76  FINE       "they"  (in ips)
+    L81  ON PURPOSE "to run her Taiwan residency"  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162) [was in V56 (059ffe0)])
+    L81  FINE       "toward the residency's operating expenses"  (words of the case, not the IPS's)
+    L82  FINE       "any operating support beyond Laura's commitment"  (words of the case, not the IPS's)
+    L82  FINE       "Run"  (in the FINAL with other capitals)
+    L83  ON PURPOSE "book advances, speaking fees and licensing ... tend to dry up in the same dow..."  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162) [was in V56 (059ffe0)])
+    L84  FINE       "publishing advances"  (words of the case, not the IPS's)
+    L84  ON PURPOSE "XR tablets ... come labelled 'do not crush'"  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162))
+    L90  ON PURPOSE "tend to dry up in the same downturns that hit share prices ... shouldn't bet ..."  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162))
+    L90  FINE       "We would rather she owned the shares."  (in ips)
+    L90  FINE       "selling it before it matures, even for the building"  (in ips)
+    L90  FINE       "rarer, not smaller"  (in ips)
+    L90  FINE       "every team"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L91  FINE       "one world index fund holding thousands of companies"  (in ips)
+    L91  FINE       "stays hers and liquid"  (in ips)
+    L91  FINE       "costs more in Taiwan dollars"  (in ips)
+    L91  ON PURPOSE "That is what we mean by ..."  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162) [was in V56 (059ffe0)])
+    L91  FINE       "define what they consider a high degree of funding certainty"  (words of the case, not the IPS's)
+    L91  ON PURPOSE "We assume about 7.5%"  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162) [was in V56 (059ffe0)])
+    L91  FINE       "assumptions about investment performance"  (words of the case, not the IPS's)
+    L91  ON PURPOSE "paying one cheque each January"  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162) [was in V56 (059ffe0)])
+    L92  FINE       "but"  (in ips)
+    L92  FINE       "Shares are called safe ..., but"  (in ips)
+    L92  FINE       "Banks sell this ..., but"  (in ips)
+    L92  FINE       "We would rather she owned the shares."  (in ips)
+    L92  FINE       "can't quietly be halved after a bad year"  (in ips)
+    L92  FINE       "labelled"  (in ips)
+    L92  FINE       "cheque"  (in ips+pitch)
+    L92  FINE       ": X for ten"  (in ips)
+    L92  FINE       ": the floor of her gift"  (in ips)
+    L92  FINE       ": money she already owns"  (in ips)
+    L94  FINE       "half"  (in ips)
+    L94  FINE       "the other half stays hers ... as a cushion"  (in the FINAL with other capitals)
+    L94  FINE       "roughly the interest that floor will earn"  (in ips)
+    L94  FINE       "we judge"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L94  FINE       "Thousands of companies"  (in the FINAL with other capitals)
+    L96  FINE       "every mechanism briefly"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L97  ON PURPOSE "no payment relies on it"  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162) [was in V56 (059ffe0)])
+    L97  ON PURPOSE "less than a tenth of her $450,000"  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162) [was in V56 (059ffe0)])
+    L97  ON PURPOSE "one bad year could hurt her twice"  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162) [was in V56 (059ffe0)])
+    L97  ON PURPOSE "a smaller deposit shrinks the building gift, but every payment is already pai..."  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162) [was in V56 (059ffe0)])
+    L97  ON PURPOSE "That is what we mean by ..."  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162) [was in V56 (059ffe0)])
+    L105 FINE       "From 2033, Laura's portfolio must pay $50,000 each January"  (in ips)
+    L105 FINE       "?"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L106 FINE       "our model"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L106 FINE       "We price that shortfall"  (in the FINAL with other capitals)
+    L108 ON PURPOSE "come labelled 'do not crush'"  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162))
+    L108 FINE       "Crushing one means selling it before it matures, even for the building"  (in ips)
+    L108 FINE       "works as long as nobody crushes it"  (in ips)
+    L119 FINE       "X, not Y"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L119 FINE       "rarer, not smaller"  (in ips)
+    L119 FINE       "only on fixed dates, never on a market move"  (in ips)
+    L120 ON PURPOSE "so her portfolio shouldn't bet on shares a second time"  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162))
+    L121 FINE       "That is X."  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L122 ON PURPOSE "The ladder's one weakness is that it counts on reinvesting ..."  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162) [was in V57 at 08:26 (9f287c2)])
+    L124 ON PURPOSE "Laura's earning power already behaves like a share."  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162))
+    L124 FINE       "Laura's career already behaves like a stock."  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L127 FINE       "Like the tablet it is named after, the plan works as long as nobody crushes it"  (in ips)
+    L127 FINE       "We would rather she owned the shares."  (in ips)
+    L129 FINE       "look erudite"  (a label, rule, saying, source or advice; not offered as the IPS's words)
+    L133 FINE       "We do the second, which never needs rebalancing"  (in ips)
+    L133 ON PURPOSE "average life"  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162))
+    L133 FINE       "average timing"  (in ips)
+    L134 FINE       "whatever markets do"  (in ips)
+    L134 FINE       "exactly"  (in ips)
+    L135 FINE       "Treasury funds with fixed end dates"  (in ips)
+    L136 FINE       "rarer, not smaller"  (in ips)
+    L136 FINE       "a fixed cheque can't wait for a recovery"  (in ips)
+    L138 FINE       "option"  (in ips)
+    L139 FINE       "Our plan changes only on fixed dates, never on a market move"  (in ips)
+    L140 FINE       "a number said aloud can't quietly be halved"  (in ips)
+    L142 FINE       "thousands of companies"  (in ips)
+    L143 FINE       "Taiwan dollars"  (in ips)
+    L144 FINE       "stays hers and liquid"  (in ips)
+    L148 ON PURPOSE `Laura's earning power already behaves like a share.`  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162))
+    L149 ON PURPOSE "tend to dry up in the same downturns that hit share prices, so her portfolio ..."  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162))
+    L152 ON PURPOSE `A Treasury held to maturity pays exactly what it promised, whatever markets d...`  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162))
+    L153 ON PURPOSE `A Treasury held to maturity pays what it promised, whatever markets do, so no...`  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162))
+    L155 ON PURPOSE `matching their bonds' average life to the payments and`  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162))
+    L156 FINE       `matching their bonds' average timing to the payments' and`  (in ips)
+    L157 ON PURPOSE `as if nothing more were reinvested`  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162) [was in V56 (059ffe0)])
+    L157 ON PURPOSE `as if its interest from then on earned nothing`  (the cold read of the pre-fix V57 (md5 7d73eed5, L11; 'the check above is of the text before these', L162))
+    L159 FINE       "option"  (in ips)
+    L163 ON PURPOSE "Laura's earning power already behaves like a share."  (said gone)
+    L164 STALE      "Her income already rides on shares, so her portfolio shouldn't bet on them tw..."  (offered as the applied wording; the Window cut it at f06ad13, and no note says so [was in V57 at 08:26 (9f287c2)])
+    L166 STALE      "A Treasury held to maturity pays exactly what it promised, whatever markets d..."  (offered as the applied wording; the FINAL says 'A Treasury bond held' (f06ad13) [was in V57 at 08:26 (9f287c2)])
+    L167 FINE       "Exactly"  (in the FINAL with other capitals)
+    L169 ON PURPOSE "average life"  (old -> new)
+    L169 FINE       "average timing"  (in ips)
+    L170 ON PURPOSE "as if no more interest were reinvested"  (corrected in place at L171-172 [was in V57 at 08:26 (9f287c2)])
+    L170 FINE       "earned nothing"  (in ips)
+    L172 FINE       "as if every dollar waiting for a cheque earned nothing"  (in ips)
+    L173 ON PURPOSE "paying one cheque each January"  (old -> new [was in V56 (059ffe0)])
+    L173 FINE       "paying each January's cheque"  (in ips)
+    L174 FINE       "option"  (in ips)
+    L174 FINE       "never needs rebalancing"  (in ips)
+
+  LABEL.md: 0 phrases
+
+  Quote search tally: FINE 221, ON PURPOSE 82, STALE 2
+
+2-3. OLD-WORDS and CUT-IDEA SEARCH, quoted or not (each line once; first old run shown)
+  README.md L5   FINE       pattern: a word count
+        | The files. `pitch.txt` is the 50-word pitch (48 words). `ips.txt` is the 500-word IPS (495 on the strictest count).
+        -> 495, the FINAL's strict count
+  README.md L16  STALE      old run "to dry up in"; pattern: the income line, before 'can'
+        | her income tends to dry up in the same downturns that hit shares; why a bank's capital-protected note is a worse version of our plan;
+        -> the FINAL says 'can dry up' (c82e1ee)
+  README.md L17  OVERSTATED pattern: the 1987 line, stronger than 'helped deepen'
+        | and why we turned down portfolio insurance, which made the 1987 crash worse. The 7.5% share-return figure moved to the
+        -> the FINAL says portfolio insurance 'helped deepen' the crash; 'made ... worse' drops the 'helped' the Library said carries the dispute (and the cold read: 'Don't strengthen it')
+  CASE_CARD.md L9   FINE       pattern: a word count
+        | Four small changes, now in the final draft (495 words on the strict count; the cap is 497):
+        -> 495, the FINAL's strict count, and the house cap 497
+  CASE_CARD.md L13  ON PURPOSE old run "the whole range comes" (+1)
+        | 4. Para 7: "she names a lower range" for "the whole range comes down" (never cut an announced range, case 114).
+        -> the same
+  LOOK_ALIKE_CARD.md L4   FINE       pattern: a word count
+        | (495 words on the strict count, pitch 48).
+        -> 495, the FINAL's strict count
+  LOOK_ALIKE_CARD.md L25  ON PURPOSE old run "a treasury held to" (+1)
+        | - False: "a Treasury held to maturity pays exactly" / "the funds pay EXACTLY what they PROMISED"
+        -> a false look-alike
+  LOOK_ALIKE_CARD.md L31  FINE       old run "the ladder can fall" (+1)
+        | - Why: the IPS says the ladder can fall short if rates fall and stay low, and our trade notes say the second deposit
+        -> 'the ladder can fall short' = P7's 'it can fall short'
+  LOOK_ALIKE_CARD.md L56  ON PURPOSE old run "as if no more" (+3)
+        | - False: "the ladder's weakness is ..." / "as if no more INTEREST were reinvested"
+        -> a false look-alike
+  LOOK_ALIKE_CARD.md L68  FINE       old run "cover the gap the"
+        | money can't cover the gap, the floor pays the rest, so the bottom falls with the top. Two of three first-time
+        -> the card's own reason, not the IPS's words
+  KEEL_RECORD.md L10  FINE       pattern: a word count
+        | - `ips.txt`: the 500-word IPS field. 495 words on the strict count (hyphenated words split; `keel/office/tools/textcheck.py`).
+        -> 495, the FINAL's strict count
+  KEEL_RECORD.md L17  STALE      pattern: the cut income sentence, reworded
+        | diversification, treats Laura's income as a bet on shares already, takes apart the capital-protected note, rejects
+        -> the FINAL cut 'Her income already rides on shares' (f06ad13); this file's own section 6 says so
+  KEEL_RECORD.md L25  ON PURPOSE old run "as if nothing more" (+2)
+        | | Cold read (Opus, first-time reader) | Three phrases LOST on first read ("average life", "as if nothing more were reinvested", "option"), o
+        -> the cold read's LOST phrases, said fixed
+  KEEL_RECORD.md L40  ON PURPOSE old run "less than a tenth" (+2)
+        | V57 prints no model figure. The 7.5% share-return assumption (J.P. Morgan 2027 LTCMA) and "less than a tenth" of her money
+        -> said moved to the Final Report
+  KEEL_RECORD.md L83  ON PURPOSE old run "her income already rides" (+2); pattern: the cut income sentence
+        | Also applied: "Her income already rides on shares" was overstated (writers' incomes kept falling after shares recovered
+        -> said cut
+  KEEL_RECORD.md L86  ON PURPOSE pattern: a word count
+        | rewrites, say "each payment has its own bond", never "we don't duration-match". IPS 491 strict.
+        -> the count after that step, in a dated section
+  KEEL_RECORD.md L89  ON PURPOSE old run "as if no more" (+3)
+        | - P7 was false as worded, now fixed. "as if no more interest were reinvested" left out the funds' own principal: IBTM's
+        -> said false and fixed
+  KEEL_RECORD.md L95  ON PURPOSE old run "tend to dry up"; pattern: the income line, before 'can'
+        | - P4 "tend to dry up" -> "can dry up". The evidence is one shock (2020, speaking income, Authors Guild 2021), enough
+        -> change log, old -> new
+  KEEL_RECORD.md L97  ON PURPOSE pattern: the cut income sentence
+        | - Already done: "Treasury bond" (the Window's fix). Not needed: "Her income may already ride on shares": that
+        -> an offer said not needed
+  KEEL_RECORD.md L100 ON PURPOSE pattern: a word count
+        | (`COMMANDMENTS_CHECK.md`, "Applied" item 4), both wrong for the funds' cash. IPS 493 strict.
+        -> the count after that step, in a dated section
+  KEEL_RECORD.md L104 ON PURPOSE old run "the whole range comes" (+1)
+        | - P7 "the whole range comes down" -> "she names a lower range". Two readers took the old words as cutting a range she
+        -> change log, old -> new
+  KEEL_RECORD.md L108 ON PURPOSE old run "one redeemed for each" (+1)
+        | - P2 "one redeemed for each January" -> "before each January" (payments come "at the beginning of each year", case 88).
+        -> change log
+  KEEL_RECORD.md L110 FINE       pattern: a word count
+        | now `CASE_CARD.md` beside the IPS. IPS 495 strict.
+        -> 495, the FINAL's strict count
+  COMMANDMENTS_CHECK.md L11  ON PURPOSE pattern: a word count
+        | What was checked. `ips_V57.txt` (md5 `7d73eed5...`): 495 strict (492 by spaces). `pitch.txt` (md5 `337ab932...`, the
+        -> the pre-fix text's count
+  COMMANDMENTS_CHECK.md L29  ON PURPOSE old run "as if no more" (+1)
+        | as if no more interest is reinvested, and that much moves from her kept shares into Treasuries. If her kept shares can't
+        -> the cold read of the pre-fix V57
+  COMMANDMENTS_CHECK.md L33  ON PURPOSE old run "shortfall as if nothing" (+3)
+        | 1. P7 "we price that shortfall as if nothing more were reinvested". I had to stop and work out that it means "as if every
+        -> the cold read of the pre-fix V57
+  COMMANDMENTS_CHECK.md L46  ON PURPOSE old run "the whole range comes" (+1)
+        | - P7 "the whole range comes down": this can be read as cutting a range she already announced. It means the range she
+        -> the cold read of the pre-fix V57
+  COMMANDMENTS_CHECK.md L63  ON PURPOSE old run "a treasury held to" (+1)
+        | 2. Overclaim: "A Treasury held to maturity pays exactly what it promised" (P3). This is true of a Treasury bond or note.
+        -> the cold read of the pre-fix V57
+  COMMANDMENTS_CHECK.md L81  ON PURPOSE old run "to run her taiwan" (+1)
+        | 7. Case wording: "to run her Taiwan residency" (P1). The case says "toward the residency's operating expenses" (p.3) and
+        -> the cold read of the pre-fix V57
+  COMMANDMENTS_CHECK.md L83  ON PURPOSE old run "tend to dry up" (+1); pattern: the income line, before 'can'
+        | 8. Unsourced but plausible: "book advances, speaking fees and licensing ... tend to dry up in the same downturns" (case
+        -> the cold read of the pre-fix V57
+  COMMANDMENTS_CHECK.md L90  ON PURPOSE old run "tend to dry up" (+1); pattern: the income line, before 'can'
+        | | I | OPEN | Retellable ideas: income tied to markets ("tend to dry up in the same downturns that hit share prices ... shouldn't bet on shar
+        -> the cold read of the pre-fix V57
+  COMMANDMENTS_CHECK.md L91  ON PURPOSE old run "that is what we" (+5)
+        | | II | OPEN | Read against the case only (WHARTON_WORD is outside my reading set). Strengths: central idea, growth ("one world index fund ho
+        -> the cold read of the pre-fix V57
+  COMMANDMENTS_CHECK.md L97  ON PURPOSE old run "no payment relies on" (+24)
+        | | VIII | OPEN | IDEA_LEDGER is outside my reading set. Against V56 (as quoted in D36), V57 drops: the 7.5% assumption with "no payment relie
+        -> the cold read of the pre-fix V57
+  COMMANDMENTS_CHECK.md L122 ON PURPOSE old run "the ladder's one weakness" (+2)
+        | | Announcing instead of saying | PASS | "The ladder's one weakness is that it counts on reinvesting ..." states the weakness and its cause i
+        -> the cold read of the pre-fix V57
+  COMMANDMENTS_CHECK.md L124 ON PURPOSE pattern: the aphorism cut before 08:26
+        | | Aphorism openers | FAIL | "Laura's earning power already behaves like a share." is D35's own example ("Laura's career already behaves like
+        -> the cold read of the pre-fix V57
+  COMMANDMENTS_CHECK.md L148 ON PURPOSE pattern: the aphorism cut before 08:26
+        | 1. Aphorism FAIL (I80), −8 words. Delete `Laura's earning power already behaves like a share. ` (P4). The next sentence still
+        -> the cold read of the pre-fix V57
+  COMMANDMENTS_CHECK.md L149 ON PURPOSE old run "tend to dry up" (+1); pattern: the income line, before 'can'
+        | carries the idea ("tend to dry up in the same downturns that hit share prices, so her portfolio shouldn't bet on shares a
+        -> the cold read of the pre-fix V57
+  COMMANDMENTS_CHECK.md L152 ON PURPOSE old run "a treasury held to" (+1)
+        | `A Treasury held to maturity pays exactly what it promised, whatever markets do, so no payment depends on shares.` ->
+        -> the cold read of the pre-fix V57
+  COMMANDMENTS_CHECK.md L153 ON PURPOSE old run "a treasury held to" (+3)
+        | `A Treasury held to maturity pays what it promised, whatever markets do, so no payment depends on shares, which is what we mean by high cert
+        -> the cold read of the pre-fix V57
+  COMMANDMENTS_CHECK.md L157 ON PURPOSE old run "as if nothing more" (+2)
+        | 4. LOST 1 (IV, 11.6), +3 words. `as if nothing more were reinvested` -> `as if its interest from then on earned nothing`.
+        -> the cold read of the pre-fix V57
+  COMMANDMENTS_CHECK.md L163 ON PURPOSE pattern: the aphorism cut before 08:26
+        | 1. Aphorism FAIL fixed differently: the opener "Laura's earning power already behaves like a share." is gone; the idea
+        -> said gone
+  COMMANDMENTS_CHECK.md L164 STALE      old run "her income already rides" (+7); pattern: the cut income sentence
+        | now comes after the evidence, as a reason: "Her income already rides on shares, so her portfolio shouldn't bet on them
+        -> offered as the applied wording; the Window cut it at f06ad13, and no note says so
+  COMMANDMENTS_CHECK.md L166 STALE      old run "a treasury held to" (+1)
+        | 2. Certainty definition back: "A Treasury held to maturity pays exactly what it promised, whatever markets do. So, to us,
+        -> offered as the applied wording; the FINAL says 'A Treasury bond held' (f06ad13)
+  COMMANDMENTS_CHECK.md L170 ON PURPOSE old run "as if no more" (+3)
+        | 4. LOST 1: "as if no more interest were reinvested" (+1; your "earned nothing" version would cost +3 and say the same).
+        -> corrected in place at L171-172
+  COMMANDMENTS_CHECK.md L173 ON PURPOSE old run "paying one cheque each" (+1)
+        | 5. "paying one cheque each January" -> "paying each January's cheque" (-1, to make room).
+        -> old -> new
+  COMMANDMENTS_CHECK.md L174 STALE      pattern: a word count
+        | Strict count after: 496 (pitch 48). Not taken: explaining "option" (no room; the Final Report explains it); "never needs
+        -> 'Strict count after: 496' under 'Applied'; the FINAL is 495
+
+  Old-words / cut-idea tally (lines): FINE 7, ON PURPOSE 33, OVERSTATED 1, STALE 5
+
+SUMMARY: every STALE / OVERSTATED hit, and which search found it
+  STALE      COMMANDMENTS_CHECK.md L164  found by: cut-idea pattern + old-words + quote
+             Her income already rides on shares, so her portfolio shouldn't bet on them twice.
+             offered as the applied wording; the Window cut it at f06ad13, and no note says so [was in V57 at 08:26 (9f287c2)]
+  STALE      COMMANDMENTS_CHECK.md L166  found by: old-words + quote
+             A Treasury held to maturity pays exactly what it promised, whatever markets do. So, to us, high certainty means no payment depends on shares.
+             offered as the applied wording; the FINAL says 'A Treasury bond held' (f06ad13) [was in V57 at 08:26 (9f287c2)]
+  STALE      COMMANDMENTS_CHECK.md L174  found by: word count
+             Strict count after: 496 (pitch 48). Not taken: explaining "option" (no room; the Final Report explains it); "n
+             'Strict count after: 496' under 'Applied'; the FINAL is 495
+  STALE      KEEL_RECORD.md L17  found by: cut-idea pattern
+             diversification, treats Laura's income as a bet on shares already, takes apart the capital-protected note, rej
+             the FINAL cut 'Her income already rides on shares' (f06ad13); this file's own section 6 says so
+  STALE      README.md L16  found by: cut-idea pattern + old-words
+             her income tends to dry up in the same downturns that hit shares; why a bank's capital-protected note is a wor
+             the FINAL says 'can dry up' (c82e1ee)
+  OVERSTATED README.md L17  found by: cut-idea pattern
+             and why we turned down portfolio insurance, which made the 1987 crash worse. The 7.5% share-return figure move
+             the FINAL says portfolio insurance 'helped deepen' the crash; 'made ... worse' drops the 'helped' the Library said carries the dispute (and the cold read: 'Don't strengthen it')
+
+  'tends to dry up' (README L16): quote search MISSED (it is not in quote marks); old-words search CAUGHT.
