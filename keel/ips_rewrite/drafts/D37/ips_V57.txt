@@ -1,6 +1,6 @@
-From 2033, Laura's portfolio must pay $50,000 each January for ten years to run her Taiwan residency, with a high degree of certainty. Anything left can help build the facility.
+From 2033, Laura's portfolio must pay $50,000 each January for ten years towards running her Taiwan residency, with a high degree of certainty. Part of what's left can help build the facility.
 
-We call the plan Caplet XR, after extended-release tablets, which release their dose on schedule and come labelled "do not crush". Ours is ten Treasury holdings, one redeemed for each January: X for ten, R for redemption. Crushing one means selling it before it matures, even for the building.
+We call the plan Caplet XR, after extended-release tablets, which release their dose on schedule and come labelled "do not crush". Ours is ten Treasury holdings, one redeemed before each January: X for ten, R for redemption. Crushing one means selling it before it matures, even for the building.
 
 Pension funds cover fixed payments either by matching their bonds' average timing to the payments' and rebalancing as rates move, or by buying one bond per payment and holding it. We do the second, which never needs rebalancing. In January 2027, her first $300,000 buys a ladder of Treasury bonds and Treasury funds with fixed end dates, each maturing before a January payment. A Treasury bond held to maturity pays exactly what it promised, whatever markets do. So, to us, high certainty means no payment depends on shares.
 
@@ -10,6 +10,6 @@ The 2028 deposit first completes the ladder, if needed. Most of the rest buys a 
 
 In 2031, Laura gives co-sponsors a range. The bottom is the floor, rounded down: money she already owns. The top adds half her shares, which move into Treasuries before she names it, because a number said aloud can't quietly be halved after a bad year. The other half stays hers and liquid, as a cushion if the building costs more in Taiwan dollars.
 
-The ladder's main weakness is that it counts on reinvesting its bonds' interest; if rates fall and stay low, it can fall short. Before Laura names her range, we price that shortfall as if every dollar waiting for a cheque earned nothing, and move that much from her kept shares into Treasuries. Her spare money shrinks first, and if it can't cover the gap, the whole range comes down.
+The ladder's main weakness is that it counts on reinvesting its bonds' interest; if rates fall and stay low, it can fall short. Before Laura names her range, we price that shortfall as if every dollar waiting for a cheque earned nothing, and move that much from her kept shares into Treasuries. Her spare money shrinks first, and if it can't cover the gap, she names a lower range.
 
 From 2033, the ladder and the money set aside become her operating reserve, paying each January's cheque until 2042. Like the tablet it is named after, the plan works as long as nobody crushes it.

@@ -2,7 +2,7 @@
 
 AI DRAFT (Claude, 4 Nov 2026). Due on the form by **Sat 7 Nov 09:00 Sydney** (Fri 6 Nov 5 pm ET). Keel submits nothing.
 
-**The files.** `pitch.txt` is the 50-word pitch (48 words). `ips.txt` is the 500-word IPS (493 on the strictest count).
+**The files.** `pitch.txt` is the 50-word pitch (48 words). `ips.txt` is the 500-word IPS (495 on the strictest count).
 Rewrite both in your own words before you paste them in.
 
 **What the plan says.** Laura's first $300,000 buys ten Treasury holdings, one maturing before each January cheque from
@@ -28,5 +28,8 @@ line; the words they flagged are fixed, including two that clashed with our subm
    end on the sentence before. Your ear decides.
 3. **When you rewrite**, say "each payment has its own bond". Don't write "we don't duration-match": our trading notes
    used that phrase loosely, and the IPS shouldn't contradict them.
+
+**Before you rewrite, open `CASE_CARD.md`.** It lists which words answer each thing the case asks, so a rewrite doesn't
+cut an answer by accident.
 
 Full checks, sources and history: `KEEL_RECORD.md`.
