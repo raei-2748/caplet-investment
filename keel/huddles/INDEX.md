@@ -4,6 +4,7 @@
 
 | ID | Opened | Title | Status | Rounds | Members | To-dos | Essence |
 |---|---|---|---|---|---|---|---|
+| H-031 | 2026-11-04 | [Read with the case open](2026-11-04_read-with-the-case-open/transcript.md) | closed | 3 | Amara, Kai, Felix | 6/8 | Nobody had read the final IPS against the client case itself, so we did, line by line: it answers every question the case and Wharton put to it, and we made a one-page card that shows Caplet which words carry each answer |
 | H-030 | 2026-11-04 | [The look-alike card](2026-11-04_the-look-alike-card/transcript.md) | closed | 3 | Kai, Jun, Amara | 9/11 | We built a one-page check sheet for tomorrow's rewrite: each fact in the final IPS beside the false version a rewrite tends to land on, with the part that differs in capitals, the way hospitals label look-alike medicines |
 | H-029 | 2026-11-04 | [Checked only by the people who wrote it](2026-11-04_checked-only-by-its-writers/transcript.md) | closed | 3 | Felix, Nora, Tess, Kai | 8/11 | We read the final draft's new investing lines against the people who first wrote the ideas down (regulators, the 1987 crash report, pension textbooks, a fund's own prospectus and the finance papers): seven lines are true |
 | H-028 | 2026-11-04 | [The word the writer meant](2026-11-04_the-word-the-writer-meant/transcript.md) | closed | 3 | Felix, Kai, Tess | 7/9 | We checked every new investing idea in the final draft at its source (the 1987 crash report, the US and Australian regulators on capital-protected notes, a 1995 finance paper, a medicine leaflet), and every one is true.  |
@@ -99,6 +100,8 @@
 - H-025: What strangers still take on trust: 'option' (4 of 4), 'operating reserve' (3 of 4), why falling rates raise bond prices (Caplet's own words)
 - H-029: When the 2028 deposit falls short in the same downturn that hits her shares, does every cheque still get paid under the 'waiting cash' lock? (Genius Lab, MODEL, Final Report)
 - H-029: A reader of the whole fixed IPS, with no hint about the funds' cash, says P7 back (Writing Room, today)
+- H-031: Strangers on 'she names a lower range': does a first-time reader still see the bottom can fall too? (the Writing Room)
+- H-031: If the thread takes the package, the look-alike card's rows A and J change the same night (the Archive)
 - H-030: Does a real Caplet student, rewriting on Thursday, keep the 'for' (or 'before') in 'one redeemed for each January' with the card beside them? (Archive, Fri 6 Nov: compare Caplet's submitted text with the card)
 - H-030: Re-run L-18's deposit break point on the 6 Nov close before the Final Report quotes it (Genius Lab, from Sat 7 Nov)
 - H-028: Does 'Her income already rides on booms' say back better than 'rides on shares' to strangers? (Writing Room, 16:20)

@@ -1,0 +1,10 @@
+# H-031 to-do (Keel is a simulated team, AI-written)
+
+- [x] Read V57 as a SIMULATED co-sponsor and a SIMULATED Laura, each reaction on a case line (Amara; done 4 Nov: `posts/r1_amara.md`)
+- [x] The pension regulator's own words on the employer covenant, read at the page (Kai; done 4 Nov: `research/kai.md`; chair re-read para 05, Example 8 and "common drivers")
+- [x] The case card, draft and final (Felix; done 4 Nov: `research/felix_case_card.md`, `research/case_card_v3.md`)
+- [x] Count every package and check the round-1 claims (chair; done 4 Nov: `research/chair_r2.md`, 495 strict)
+- [x] Land the Final Report lines: covenant, what the cheques rest on, one borrower, the cushion (Kai, Amara; done 4 Nov: `posts/r3_kai.md`, `posts/r3_amara.md`)
+- [x] Offer the package to the rewrite thread and file it in the inbox (chair; done 4 Nov: `../../ips_rewrite/inbox/2026-11-04_lauras-room.md`)
+- [ ] Read "she names a lower range" and "Part of what's left" to strangers beside the FINAL's words (Writing Room; by Wed 4 Nov 16:20)
+- [ ] Put the case card beside the FINAL and the look-alike card; change look-alike rows A and J if the thread takes the package (Archive; by Wed 4 Nov 19:10)
