@@ -1,5 +1,5 @@
 {
- "built": "2026-11-04T01:54",
+ "built": "2026-11-04T01:56",
  "days": [
   {
    "date": "2026-11-04",
@@ -7,11 +7,11 @@
    "essence": [
     "We read the final draft's new investing lines against the people who first wrote the ideas down (regulators, the 1987 crash report, pension textbooks, a fund's own prospectus and the finance papers): seven lines are true as written, three need one word changed, and one more is fixed by the change next to it.",
     "One line was false as worded: the final draft's words for the ladder's safety margin count only interest, but the bond funds end their lives holding cash, so a margin sized to those words leaves a cheque short in some modelled futures, while 'as if waiting cash earned nothing' covers both and costs a word less.",
-    "With the four one-word fixes the IPS stays at 496 words; we handed them to the people finishing the draft today and kept no new picture, because today's sources belong in the Final Report as citations."
+    "With the Window's fixes this afternoon, two of our other changes were already made, so one change is left for the people finishing the draft today; it makes the final draft 490 words, and we kept no new picture because today's sources belong in the Final Report as citations."
    ],
    "huddles": [
     {
-     "id": "H-028",
+     "id": "H-029",
      "title": "Checked only by the people who wrote it",
      "question": "Which of the final IPS draft's lines (V57) have only been checked by the people who wrote them, and is each one true at its source? (Q16, round 8; lens 1, Invert)",
      "status": "closed",
@@ -26,7 +26,7 @@
      "essence": [
       "We read the final draft's new investing lines against the people who first wrote the ideas down (regulators, the 1987 crash report, pension textbooks, a fund's own prospectus and the finance papers): seven lines are true as written, three need one word changed, and one more is fixed by the change next to it.",
       "One line was false as worded: the final draft's words for the ladder's safety margin count only interest, but the bond funds end their lives holding cash, so a margin sized to those words leaves a cheque short in some modelled futures, while 'as if waiting cash earned nothing' covers both and costs a word less.",
-      "With the four one-word fixes the IPS stays at 496 words; we handed them to the people finishing the draft today and kept no new picture, because today's sources belong in the Final Report as citations."
+      "With the Window's fixes this afternoon, two of our other changes were already made, so one change is left for the people finishing the draft today; it makes the final draft 490 words, and we kept no new picture because today's sources belong in the Final Report as citations."
      ],
      "decided": [
       "P7 'as if no more interest were reinvested' is FALSE as written (Felix, upholding Kai over Nora): the IBTM prospectus says the fund 'is expected to consist almost entirely of cash' by 15 Dec 2032, principal the word 'interest' leaves out; read literally the words are exhibit N's KW-N lock, which pays every cheque in 97.02% of base futures and 82.18% if yields fall 2 points for good (MODEL). Fix: 'as if waiting cash earned nothing' (-1), exhibit N's KWN-w lock, which pays every cheque in both worlds (MODEL)",
@@ -35,15 +35,16 @@
       "P4 'Her income already rides on shares' -> 'Her income may already ride on shares' (+1): TRUE IF, not FALSE (Felix, upholding Kai over Tess): Ibbotson et al. (2007) call earning power stock-like only if its correlation with the market and its volatility are both high, and nobody has measured Laura's; 'may' is the true word, not a hedge",
       "TRUE with no fix: P3's two pension methods, 'average timing', 'rebalancing as rates move', 'never needs rebalancing' and 'we do the second' (CFA reading, Western Asset, the 1988 SOA paper's zero-interest carry-forward); P4 'rarer, not smaller' (Kritzman, FAJ: 'less likely to lose money' while 'the magnitude of your potential loss increases'; overturns Tess); P5 the capital-protected note (FINRA: 'could earn no return ... even if you hold the note to maturity'; overturns Felix r1); P5 1987 (Brady: 'played a prominent role in the market break')",
       "Deletion test re-run from a clean copy reproduces the Kitchen's results key for key: no payment depends on shares with the funds as funds (0 of 200,000 futures worse off in the base and low-yield worlds, MODEL)",
-      "All four fixes: 496 strict (house cap 497). No slip kept"
+      "All four fixes: 496 strict (house cap 497). No slip kept",
+      "Re-read at 13:30 against the FINAL on main (491 strict, after the Window's fixes): the P7 lock fix still applies (490 strict); 'A Treasury bond held' already in; 'Her income already rides on shares' cut, so 'may' is moot; 'can dry up' optional (the Window's Times 2009 source on advances, not re-fetched by the Library). The Window reads 'no more interest' as covering the funds (100%); the Library reads it as KW-N; the fix pays every cheque on either reading (MODEL)"
      ],
      "seeds": [
       "When the 2028 deposit falls short in the same downturn that hits her shares, does every cheque still get paid under the 'waiting cash' lock? (Genius Lab, MODEL, Final Report)",
       "A reader of the whole fixed IPS, with no hint about the funds' cash, says P7 back (Writing Room, today)"
      ],
      "todos": {
-      "done": 6,
-      "total": 10
+      "done": 7,
+      "total": 11
      },
      "path": "keel/huddles/2026-11-04_checked-only-by-its-writers",
      "transcript": "keel/huddles/2026-11-04_checked-only-by-its-writers/transcript.md",
@@ -59,33 +60,33 @@
    "research": [
     {
      "path": "keel/huddles/2026-11-04_checked-only-by-its-writers/research/README.md",
-     "title": "H-028 · the chair's re-check of every quoted line (Library, Wed 4 Nov 2026, after round 1)",
+     "title": "H-029 · the chair's re-check of every quoted line (Library, Wed 4 Nov 2026, after round 1)",
      "member": "Readme",
-     "huddle": "H-028"
+     "huddle": "H-029"
     },
     {
      "path": "keel/huddles/2026-11-04_checked-only-by-its-writers/research/felix.md",
      "title": "Felix, R1 research: two P5 sentences of V57 at their sources (read Wed 4 Nov 2026, Sydney)",
      "member": "Felix",
-     "huddle": "H-028"
+     "huddle": "H-029"
     },
     {
      "path": "keel/huddles/2026-11-04_checked-only-by-its-writers/research/felix_r3.md",
-     "title": "H-028 round 3 · Felix's working note: the count, the lock against exhibit N, the Final Report shelf (Wed 4 Nov 2026)",
+     "title": "H-029 round 3 · Felix's working note: the count, the lock against exhibit N, the Final Report shelf (Wed 4 Nov 2026)",
      "member": "Felix",
-     "huddle": "H-028"
+     "huddle": "H-029"
     },
     {
      "path": "keel/huddles/2026-11-04_checked-only-by-its-writers/research/nora.md",
      "title": "nora",
      "member": "Nora",
-     "huddle": "H-028"
+     "huddle": "H-029"
     },
     {
      "path": "keel/huddles/2026-11-04_checked-only-by-its-writers/research/tess.md",
      "title": "Tess, research note: P4 of FINAL (V57), two sentences",
      "member": "Tess",
-     "huddle": "H-028"
+     "huddle": "H-029"
     }
    ],
    "done": [
@@ -94,72 +95,79 @@
      "done": true,
      "owner": "Felix",
      "day": "2026-11-04",
-     "huddle": "H-028"
+     "huddle": "H-029"
     },
     {
      "text": "Re-run the Kitchen's deletion test from a clean copy, prediction written first (Nora; done 4 Nov: reproduces key for key; \"no payment depends on shares\" holds with the funds as funds, 0 of 200,000 worse off in the base and low-yield worlds, MODEL)",
      "done": true,
      "owner": "Nora",
      "day": "2026-11-04",
-     "huddle": "H-028"
+     "huddle": "H-029"
     },
     {
      "text": "Re-fetch every quoted line at its page (Library; done 4 Nov: 49 of 50 re-found, 0 contradicted, plus 3 of Kai's, `research/README.md`)",
      "done": true,
      "owner": "Library",
      "day": "2026-11-04",
-     "huddle": "H-028"
+     "huddle": "H-029"
     },
     {
      "text": "Reply by name: steal, hit, yes-and (Kai; done 4 Nov: `posts/r2_kai.md`)",
      "done": true,
      "owner": "Kai",
      "day": "2026-11-04",
-     "huddle": "H-028"
+     "huddle": "H-029"
     },
     {
      "text": "Settle and land: 12 verdicts, four word fixes, 496 strict, no slip (Felix; done 4 Nov: `posts/r3_felix.md`)",
      "done": true,
      "owner": "Felix",
      "day": "2026-11-04",
-     "huddle": "H-028"
+     "huddle": "H-029"
     },
     {
      "text": "One first-time reader on the new P7 words before the hand-over (chair; done 4 Nov: \"waiting cash\" guessed and said back right, `posts/r3_stranger.md`)",
      "done": true,
      "owner": null,
      "day": "2026-11-04",
-     "huddle": "H-028"
+     "huddle": "H-029"
+    },
+    {
+     "text": "Re-read the fixes against the FINAL on main after the Window's fixes landed (Library; done 4 Nov 13:30: \"bond\" already in, income line cut, \"can\" optional, the lock fix still needed, 490 strict)",
+     "done": true,
+     "owner": "Library",
+     "day": "2026-11-04",
+     "huddle": "H-029"
     }
    ],
    "open": [
     {
-     "text": "Apply or reject the four word fixes in FINAL before the hand-over, and correct FINAL README s3 (\"can only overstate\") and COMMANDMENTS_CHECK applied fix 4 (\"say the same\") (the rewrite thread; by end of Wed 4 Nov)",
+     "text": "Apply or reject the P7 lock fix in FINAL before the hand-over, and correct KEEL_RECORD.md's \"can only overstate\" (the rewrite thread; by end of Wed 4 Nov)",
      "done": false,
      "owner": null,
      "day": null,
-     "huddle": "H-028"
+     "huddle": "H-029"
     },
     {
-     "text": "A reader of the whole fixed IPS, with no hint about the funds' cash, says P7 back (Writing Room; by Wed 4 Nov 16:20)",
+     "text": "A reader of the whole FINAL with the lock fix, with no hint about the funds' cash, says P7 back (Writing Room; by Wed 4 Nov 16:20)",
      "done": false,
      "owner": null,
      "day": null,
-     "huddle": "H-028"
+     "huddle": "H-029"
     },
     {
      "text": "Seed: when the 2028 deposit falls short in the same downturn that hits her shares, does every cheque still get paid under the \"waiting cash\" lock? Add a KWN-w row to exhibit N's halved-deposit world, with the deposit tied to a share fall (Genius Lab, MODEL, Final Report)",
      "done": false,
      "owner": null,
      "day": null,
-     "huddle": "H-028"
+     "huddle": "H-029"
     },
     {
      "text": "Re-open before the Final Report cites them: Leibowitz 1986 parts I and II, the publisher's Kritzman page (1994 and 2015), the iShares fact sheets' \"Monthly\" field, and a source for the March 2020 share fall (Library, from Sun 8 Nov)",
      "done": false,
      "owner": "Library",
      "day": null,
-     "huddle": "H-028"
+     "huddle": "H-029"
     }
    ],
    "runs": [
@@ -167,7 +175,7 @@
      "day": "2026-11-04",
      "when": "Wed 4 Nov 13:05",
      "room": "Library",
-     "what": "Beat 4, round 8, as huddle H-028 (Felix, Nora, Tess scouts; Kai r2; Felix lands; 1 cold stranger; 6 agent calls), re-aimed at the FINAL V57: 12 sentences, 7 TRUE, 4 TRUE IF, **1 FALSE** (P7 lock \"no more interest\" misses the funds' final cash: exhibit N KW-N, MODEL) -> \"waiting cash earned nothing\"; + \"Treasury bond\", \"can dry up\", \"may already ride\"; 496 strict; 49/50 quotes re-found; deletion test reproduces; no slip; bank #167-169; 2 requests (Writing Room, Lab)"
+     "what": "Beat 4, round 8, as huddle H-029 (Felix, Nora, Tess scouts; Kai r2; Felix lands; 1 cold stranger; 6 agent calls), re-aimed at the FINAL V57: 12 sentences, 7 TRUE, 4 TRUE IF, **1 FALSE** (P7 lock \"no more interest\" misses the funds' final cash: exhibit N KW-N, MODEL) -> \"waiting cash earned nothing\"; re-read vs the FINAL on main (491): \"bond\" already in (Window), income line cut, \"can\" optional, lock fix still needed (490); 49/50 quotes re-found; deletion test reproduces; no slip; bank #168-170; 2 requests (Writing Room, Lab)"
     },
     {
      "day": "2026-11-04",

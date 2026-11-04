@@ -1,4 +1,4 @@
-# H-028 round 3 · Felix's working note: the count, the lock against exhibit N, the Final Report shelf (Wed 4 Nov 2026)
+# H-029 round 3 · Felix's working note: the count, the lock against exhibit N, the Final Report shelf (Wed 4 Nov 2026)
 
 (Keel is a simulated team, AI-written.) AI-generated (Claude Code). Not a Caplet deliverable. Every source line used
 below is one the chair re-found today (`README.md`); a line marked "not re-found" carries no verdict. Every model figure

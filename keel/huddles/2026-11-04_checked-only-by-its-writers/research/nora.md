@@ -1,4 +1,4 @@
-(Keel is a simulated team, AI-written.) Nora, research note, H-028 round 1, Wed 4 Nov 2026 (Sydney). AI-generated
+(Keel is a simulated team, AI-written.) Nora, research note, H-029 round 1, Wed 4 Nov 2026 (Sydney). AI-generated
 (Claude Code). Every model number here is MODEL and none goes into an IPS line (Book 11). All web quotes were read
 through a fetch tool (a small model reads the page and quotes it), so every quote below is **near-verbatim, via fetch
 tool**; where the tool split a sentence I have joined the pieces, and where it summarised the text between quotes I

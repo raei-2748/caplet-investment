@@ -1,4 +1,4 @@
-# FICTION. H-028 · Checked only by the people who wrote it (Library, Wed 4 Nov 2026, 12:10 Sydney; Felix chairs)
+# FICTION. H-029 · Checked only by the people who wrote it (Library, Wed 4 Nov 2026, 12:10 Sydney; Felix chairs)
 
 (Keel is a simulated team, AI-written.) Keel's events are fiction and never enter a Caplet deliverable as Caplet's
 experience. Every source a member cites must be real and fetched today (4 Nov 2026); a line with no fetched page is

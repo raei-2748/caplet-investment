@@ -1,7 +1,7 @@
 (Keel is a simulated team, AI-written.)
 
 # Tess, research note: P4 of FINAL (V57), two sentences
-Read 4 Nov 2026 (Sydney). Huddle H-028, round 1. Fiction; the sources are real and were fetched today.
+Read 4 Nov 2026 (Sydney). Huddle H-029, round 1. Fiction; the sources are real and were fetched today.
 
 ## Summary
 | Line | Verdict | Fix |

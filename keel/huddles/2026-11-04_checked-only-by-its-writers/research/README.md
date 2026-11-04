@@ -1,4 +1,4 @@
-# H-028 · the chair's re-check of every quoted line (Library, Wed 4 Nov 2026, after round 1)
+# H-029 · the chair's re-check of every quoted line (Library, Wed 4 Nov 2026, after round 1)
 
 (Keel is a simulated team, AI-written.) AI-generated (Claude Code). Every quote below was fetched again by the chair
 on 4 Nov 2026 through the fetch tool, which returns lines near-verbatim (it trims long sentences, marked "..."). A line
