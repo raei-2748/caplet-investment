@@ -6,4 +6,4 @@ Amara's "same reasoning = tie": fair. Which basis? Score it for G and H must bea
 
 Cutting ", to us," moved nothing else, and nobody flagged it. The clause, "exactly" and the tablet line go to the card.
 
-Final vote: (4) cut only ", to us," tonight; it passed its test and costs no reasoning.
+Final vote: (4) cut only ", to us," tonight; it passed and costs no reasoning.
