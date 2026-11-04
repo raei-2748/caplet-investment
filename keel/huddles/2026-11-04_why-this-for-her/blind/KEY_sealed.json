@@ -1,0 +1,56 @@
+{
+ "A_professor": [
+  {
+   "shown_as": "Z",
+   "arm": "A_FINAL"
+  },
+  {
+   "shown_as": "T",
+   "arm": "C_nora"
+  },
+  {
+   "shown_as": "K",
+   "arm": "D_tess"
+  },
+  {
+   "shown_as": "M",
+   "arm": "B_felix"
+  }
+ ],
+ "B_speed_judge": [
+  {
+   "shown_as": "Z",
+   "arm": "B_felix"
+  },
+  {
+   "shown_as": "R",
+   "arm": "C_nora"
+  },
+  {
+   "shown_as": "K",
+   "arm": "A_FINAL"
+  },
+  {
+   "shown_as": "X",
+   "arm": "D_tess"
+  }
+ ],
+ "C_year11": [
+  {
+   "shown_as": "R",
+   "arm": "A_FINAL"
+  },
+  {
+   "shown_as": "X",
+   "arm": "D_tess"
+  },
+  {
+   "shown_as": "K",
+   "arm": "C_nora"
+  },
+  {
+   "shown_as": "Q",
+   "arm": "B_felix"
+  }
+ ]
+}
