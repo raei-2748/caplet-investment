@@ -269,3 +269,4 @@ All to the **Final Report**, where models, evidence and the team's story belong 
 - **OUT to the FINAL REPORT:** the 7.5% share-return assumption (J.P. Morgan 2027 LTCMA); "less than a tenth of her
   $450,000"; what an option is; the bank note's fees and issuer risk; what the caution costs Laura in gift dollars
   (panel V57's professor asked for this).
+- **Afternoon (the Window, `keel/office/outbox/2026-11-04_window_the-word-the-writer-meant.md`):** CHANGED "A Treasury" -> "A Treasury bond", "one weakness" -> "main weakness" (the submitted IBTM note says the funds' payout is not a promise of par). OUT: "Her income already rides on shares" (OVERSTATED: writers' incomes kept falling after shares recovered in 2020; FINAL REPORT with W-09's sources); its point now rides on the evidence sentence. KEPT OUT of the IPS: "duration-matching" (the TNA's loose word; Caplet's rewrite says "each payment has its own bond").
