@@ -1,0 +1,15 @@
+# To-do: H-032 why this, for her (Long Room, Wed 4 Nov 2026)
+
+(Keel is a simulated team, AI-written.)
+
+- [x] Brief, question, rules, vote gate (chair; done 4 Nov)
+- [x] Six sealed positions, five P3 repairs (all six; done 4 Nov)
+- [x] Registration written before any post was visible (Amara; done 4 Nov)
+- [x] First blind read: final + three repairs, one per reason (chair ran; Amara scored; done 4 Nov)
+- [x] Replies by name and the round-2 vote, 4-1-1 for a second read (all six; done 4 Nov)
+- [x] Second blind read: final + three merged lines + the "to us" cut (chair ran; Amara scored; done 4 Nov)
+- [x] Round-3 checks: Amara's decisive call (Felix), the cut against Caplet's words (Nora); final vote 6-0 for (4) (done 4 Nov)
+- [x] The card for Caplet's own-words rewrite (Nora; done 4 Nov)
+- [x] Offer the ", to us," cut to the rewrite thread, 493 strict (chair; done 4 Nov)
+- [ ] Put the card beside the final, and fix Laura's Room's keep-list to "So ... high certainty means" if the cut goes in (Archive; by Wed 4 Nov 23:59)
+- [ ] Final Report: Felix's reason (price risk on the payment date, the risk the other method leaves open) and why the ladder reinvests (interest arrives years before the cheques) (Final Report work, from Tue 10 Nov)

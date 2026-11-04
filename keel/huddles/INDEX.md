@@ -4,6 +4,12 @@
 
 | ID | Opened | Title | Status | Rounds | Members | To-dos | Essence |
 |---|---|---|---|---|---|---|---|
+| H-032 | 2026-11-04 | [Why this, for her](2026-11-04_why-this-for-her/transcript.md) | closed | 3 | Jun, Amara, Kai, Felix, Tess, Nora | 9/11 | All six of us pointed at the same sentence: the final says it buys one bond per payment because that 'never needs rebalancing', which reads as our convenience, not a reason for Laura. Six outside readers, in two blind te |
+| H-031 | 2026-11-04 | [Read with the case open](2026-11-04_read-with-the-case-open/transcript.md) | closed | 3 | Amara, Kai, Felix | 7/8 | Nobody had read the final IPS against the client case itself, so we did, line by line: it answers every question the case and Wharton put to it, and we made a one-page card that shows Caplet which words carry each answer |
+| H-030 | 2026-11-04 | [The look-alike card](2026-11-04_the-look-alike-card/transcript.md) | closed | 3 | Kai, Jun, Amara | 9/11 | We built a one-page check sheet for tomorrow's rewrite: each fact in the final IPS beside the false version a rewrite tends to land on, with the part that differs in capitals, the way hospitals label look-alike medicines |
+| H-029 | 2026-11-04 | [Checked only by the people who wrote it](2026-11-04_checked-only-by-its-writers/transcript.md) | closed | 3 | Felix, Nora, Tess, Kai | 9/11 | We read the final draft's new investing lines against the people who first wrote the ideas down (regulators, the 1987 crash report, pension textbooks, a fund's own prospectus and the finance papers): seven lines are true |
+| H-028 | 2026-11-04 | [The word the writer meant](2026-11-04_the-word-the-writer-meant/transcript.md) | closed | 3 | Felix, Kai, Tess | 8/9 | We checked every new investing idea in the final draft at its source (the 1987 crash report, the US and Australian regulators on capital-protected notes, a 1995 finance paper, a medicine leaflet), and every one is true.  |
+| H-027 | 2026-11-03 | [The Kitchen before the hand-over](2026-11-03_the-kitchen-before-the-hand-over/transcript.md) | closed | 3 | Amara, Felix, Kai | 5/12 | We first all agreed that tomorrow should protect the IPS from your rewrite, then all three of us changed our minds: Wednesday is our last day to check the draft, and the rewrite is yours from Thursday. Checking tonight,  |
 | H-026 | 2026-11-03 | [W5 on trial](2026-11-03_w5-on-trial/transcript.md) | closed | 3 | Kai, Tess, Nora | 9/12 | We put the Writing Room's repaired IPS on trial against the current one, and two outsiders who had never seen either split: a bond manager preferred the repair by 2 points, a Year 10 student preferred the original by 2,  |
 | H-025 | 2026-11-03 | [Words a stranger can say back](2026-11-03_words-a-stranger-can-say-back/transcript.md) | closed | 3 | Amara, Kai, Tess | 8/11 | Four people who had never seen our work read the newest IPS and our repair, and we changed only the words they tripped on, like "yields" and "facility", keeping it at 497 words. All four understood one plain way to say h |
 | H-024 | 2026-11-03 | [Parked, not spent?](2026-11-03_parked-not-spent/transcript.md) | closed | 3 | Amara, Kai, Felix | 8/10 | The Lab's new rule for the ladder's weak point keeps every cheque and the number Laura tells co-sponsors safe, but it is paid for by the stocks she keeps for herself, which run out more often, and our draft never says th |
@@ -82,6 +88,8 @@
 - H-023: Where does the unused lock go (about $18,000 at the median), and does 'pays exactly what it promises' stretch to the fund rungs, which pay net asset value? (Courtroom, 18:20; Final Report)
 - H-024: Kai's dissent for the strangers: in 2036, does 'what the cheques don't need' read as that year's leftover (the wrong sum), where 'what no remaining cheque needs' carries the escrow's test?
 - H-024: Why a quarter, under the lock? Untested between none and a quarter (Final Report)
+- H-027: 'Later bond payments' pulls the funds' own bonds inside the lock; 'later coupons' would shrink it below the sizing that already misses. Would Caplet ever know that word was holding a cheque up? (the card, Wed 13:40)
+- H-027: The updated IPS instructions' lines 79-80 ('Your portfolio and Final Report should reflect the strategy established in your IPS') are not in WHARTON_WORD, so no order can quote them (Library, after the freeze)
 - H-021: Does Kai's lock (price the gap as if its interest earned nothing) hold in the 200,000 futures, and what does it cost her flexibility? (Genius Lab, 13:40)
 - H-021: Road A or road B, in words a stranger can say back, inside 497 strict (Writing Room, 16:20)
 - H-026: Which three numbers lead the Final Report, so the bond manager's Portfolio Analysis 7 becomes a 9? (Nora)
@@ -91,3 +99,14 @@
 - H-022: After naming day, does the reinvestment cushion's forecast fall on the top of the range or on a cheque? (S-12 break 2; Genius Lab, MODEL, Final Report)
 - H-025: A cheque's safety after naming day is never said in words (one stranger: 'possibly yes'); about three words would say it, beside five fund rungs that pay out net asset value (Courtroom tonight; Final Report)
 - H-025: What strangers still take on trust: 'option' (4 of 4), 'operating reserve' (3 of 4), why falling rates raise bond prices (Caplet's own words)
+- H-029: When the 2028 deposit falls short in the same downturn that hits her shares, does every cheque still get paid under the 'waiting cash' lock? (Genius Lab, MODEL, Final Report)
+- H-029: A reader of the whole fixed IPS, with no hint about the funds' cash, says P7 back (Writing Room, today)
+- H-031: Strangers on 'she names a lower range': does a first-time reader still see the bottom can fall too? (the Writing Room)
+- H-031: If the thread takes the package, the look-alike card's rows A and J change the same night (the Archive)
+- H-030: Does a real Caplet student, rewriting on Thursday, keep the 'for' (or 'before') in 'one redeemed for each January' with the card beside them? (Archive, Fri 6 Nov: compare Caplet's submitted text with the card)
+- H-030: Re-run L-18's deposit break point on the 6 Nov close before the Final Report quotes it (Genius Lab, from Sat 7 Nov)
+- H-028: Does 'Her income already rides on booms' say back better than 'rides on shares' to strangers? (Writing Room, 16:20)
+- H-028: Three false versions for Kai's card for Caplet's rewrite: 'we don't duration-match', 'the funds pay exactly what they promised', 'the ladder's one weakness' (Genius Lab, 13:40)
+- H-032: Why does a ladder held to maturity need to reinvest anything? 3 of 3 second readers couldn't see it (the bonds pay interest years before the cheques start): card now, Final Report later
+- H-032: The closing tablet line was called the corny one in all 27 reader answers across both tests: Caplet's call
+- H-032: Readers prefer the 'no forced sale that January' paragraph more than it makes them understand the why: a Final Report sentence, with the risk the other method leaves open

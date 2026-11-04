@@ -1,0 +1,76 @@
+{
+  "id": "H-031",
+  "slug": "read-with-the-case-open",
+  "title": "Read with the case open",
+  "question": "With the case open, which case requirement does each sentence of the final IPS (V57) answer, so Caplet's rewrite never drops one? Where is it weaker than a top team's answer, and what fixes it: a word today, or a Final Report line? And the Genius Lab's two offers read three ways (round 8 beat 6)",
+  "room": "Laura's Room",
+  "chair": "Laura's Room (run)",
+  "opened": "2026-11-04",
+  "status": "closed",
+  "closed": "2026-11-04",
+  "members": [
+    "Amara",
+    "Kai",
+    "Felix"
+  ],
+  "serves": "North stars 3 and 4; Wharton: Client Knowledge (case :101-103, :109-120), Investment Strategy (IPS instructions: flexibility, diversification), Creativity and Presentation (communicates the contribution credibly to co-sponsors)",
+  "rounds": [
+    {
+      "n": 1,
+      "name": "Read alone: co-sponsor and simulated Laura, the pension regulator in its own words, a judge with the case open",
+      "date": "2026-11-04",
+      "posts": [
+        "posts/r1_amara.md",
+        "posts/r1_kai.md",
+        "posts/r1_felix.md"
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Reply by name: four wordings, one new P7 fix, the cushion and the card",
+      "date": "2026-11-04",
+      "posts": [
+        "posts/r2_amara.md",
+        "posts/r2_kai.md",
+        "posts/r2_felix.md"
+      ]
+    },
+    {
+      "n": 3,
+      "name": "Land it: the case card, the Final Report lines, the route",
+      "date": "2026-11-04",
+      "posts": [
+        "posts/r3_amara.md",
+        "posts/r3_kai.md",
+        "posts/r3_felix.md"
+      ]
+    }
+  ],
+  "essence": [
+    "Nobody had read the final IPS against the client case itself, so we did, line by line: it answers every question the case and Wharton put to it, and we made a one-page card that shows Caplet which words carry each answer, so a rewrite never cuts one by accident.",
+    "We found four words to change: 'the whole range comes down' reads as cutting a number Laura has already told co-sponsors (two readers took it that way), so it becomes 'she names a lower range'; 'to run her residency' and 'Anything left' overstate what her money does and what she gives, so they become 'towards running' and 'Part of what's left'; and the Lab's 'before each January' goes in.",
+    "A pension regulator's own guidance backs the IPS's point about her income: an employer's ability to keep paying in can weaken in the same downturn that hits the fund, and Laura is her own employer; that, why every promised dollar is lent to the US government, and why her spare shares pay a gap before her gift does, go into the Final Report."
+  ],
+  "decided": [
+    "P7 'the whole range comes down' -> 'she names a lower range' ADOPT 3-0 (Amara's; case :114; the FINAL's own check and today's cold reader both misread it); a lower range is lower at both ends, bottom included (Kai), on the card, no IPS words",
+    "P1 'to run' -> 'towards running' 3-0 (Amara conceded; case :88 'toward'; British spelling as V57 writes, the chair's call over Kai's 'toward')",
+    "P1 'Anything left' -> 'Part of what's left' 3-0 (Felix and Kai switched to Amara's; case :101-103)",
+    "P2 'for' -> 'before' ADOPT 3-0 (the Genius Lab's offer; case :59-60, :88-89)",
+    "Package 495 strict; offered to the rewrite thread tonight and printed on the card as 'if the final draft takes them' (Amara's vote; the chair's call, two-way door)",
+    "Nothing V57 leaves to the Final Report costs IPS marks (Felix, 3-0): the range's confidence, return and inflation projections and the reserve's size are on Wharton's 'not expected' list, provided the keep-lines survive",
+    "Case card v3 ADOPT for Caplet's rewrite (19 rows, one page); L-18 SHARPEN for the Final Report (Kai's paragraph, limited to its downturn); Felix's 'any other borrower only adds the chance of not being paid' withdrawn (Kai's hit)"
+  ],
+  "seeds": [
+    "Strangers on 'she names a lower range': does a first-time reader still see the bottom can fall too? (the Writing Room)",
+    "If the thread takes the package, the look-alike card's rows A and J change the same night (the Archive)"
+  ],
+  "changes": [
+    "Offer in ../../ips_rewrite/inbox/2026-11-04_lauras-room.md (full text ../../rooms/lauras_room/LR-12_offered_ips.txt, 495 strict); no draft changed by the room",
+    "Case card: research/case_card_v3.md (copy for Caplet in the project folder ips/case_card/)",
+    "../../rooms/lauras_room/LR-12_read_with_the_case_open.md"
+  ],
+  "todos": {
+    "done": 7,
+    "total": 8
+  }
+}

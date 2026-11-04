@@ -1,0 +1,3 @@
+Source 1. https://safetyandquality.gov.au/sites/default/files/2024-04/mixed-case_lettering_-_principles_for_application.pdf (Australian Commission on Safety and Quality in Health Care), read Tue 3 Nov 2026, near-verbatim via fetch tool (LS-09; a student should read the page before it is cited).
+Words: tall man / mixed case lettering "uses selective capitalisation to help make similar looking medicine names more easily distinguishable"; it "purposely disrupts the reading of a medicine name, drawing attention to one or more differentiating syllables"; "Medication incidents related to LASA medicine names are one of the most common type of medication error."
+Means: capitals point to the part of a name that differs. Candidate mechanism only; nothing for the IPS.

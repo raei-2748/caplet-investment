@@ -1,14 +1,13 @@
 # FICTION (the room) + real sources (the slips). The Library: reading slips
 
 ## Now
-- **Doing:** Beat 4 of round 7 (Go out): three scouts on Q15, the stranger-reader round (which words in V54 would the weakest stranger have to guess, and what do the people who explain money and medicine for a living put first?), lens 19 (the child's question), as huddle H-022, with two cold strangers so every GUESS names who guessed
-- **Decided:** 35 of 35 quoted lines re-found. One rule: a word a stranger guessed right is CLEAR only if said back in their own words (EU readability guideline). V54: no WRONG line; GUESS on P5's bank sentence ("option", "the same idea"), "under a tenth of her money", "the interest it should earn", P6 "stocks". Six missing steps to the Writing Room, named and not worded. Slip S-12 (the rain range) DROP for the IPS, KEEP narrowly for the FR. Bank #148-#150
-- **Next:** the Writing Room words the six steps inside 497 strict and reads them with fresh strangers; the Courtroom puts the own-words pass rule on Nora's sheet; from Sun 8 Nov, the FR's range section takes S-12 with break 2; before 8 Nov re-check Jun's 41 lines (1 Nov) and Krakauer's pages
-- **For the judges:** no draft change from this room; the Writing Room can now fix the one sentence every reader lost (P5's bank note) by saying what "the same idea" is and what the option pays on
-- **Updated:** 2026-11-03 13:20 Sydney
+- **Doing:** Beat 4 of round 8 (Go out): Q16, which lines of the FINAL IPS (V57, not V55: re-aimed at 12:10) only their writers had checked, and are they true at the source? Lens 1, Invert; huddle H-029 (Felix, Nora, Tess scouts; Kai replies; Felix lands; one cold stranger on the new words)
+- **Decided:** 12 V57 sentences: 7 TRUE, 4 TRUE IF, 1 FALSE. P7's lock "as if no more interest were reinvested" is FALSE as written (IBTM ends "almost entirely" cash, which "interest" leaves out; the words are exhibit N's KW-N lock, MODEL) -> "as if waiting cash earned nothing" (-1). Re-read at 13:30 against the FINAL on main (491, after the Window's fixes): "bond" already in, the income line cut, "can dry up" optional; the lock fix still needed (490 strict). 49 of 50 quotes re-found. No slip. Bank #168-#170
+- **Next:** the lock fix is in the FINAL in the thread's words ("every dollar waiting for a cheque earned nothing", PR #129, 493 strict); the Writing Room reads the whole fixed IPS with a fresh stranger (no hint about the funds' cash); the Lab adds a "waiting cash" row to the halved-deposit world with the deposit tied to a share fall; from Sun 8 Nov re-open Leibowitz 1986, the publisher's Kritzman page and the fact sheets before the Final Report cites them
+- **For the judges:** the FINAL's safety-margin sentence now covers the funds' cash (PR #129), the only line where following the words could leave a cheque short; everything else in V57's new investing paragraphs is true at its source
+- **Updated:** 2026-11-04 13:05 Sydney
 
-
-> **State (last run Tue 3 Nov, 13:20 Sydney).** Slips: S-01 (defence in depth, KEEP, FR), S-02 (Lab facts, own
+> **State (last run Wed 4 Nov, 13:05 Sydney; H-029 on V57, four word fixes, no slip).** Slips: S-01 (defence in depth, KEEP, FR), S-02 (Lab facts, own
 > file), S-03 (Palladone dose dumping, KEEP as the XR-line test), S-04 (Contac 600, KEEP, FR), S-05 (sum certain + the
 > IRS 5%, KEEP as yardstick only, Window 28 Oct), S-06 (tracking and the block, KEEP, FR), S-07 (the signed, expiring
 > override, KEEP to the Lab and Courtroom), S-08 (newsvendor + cost-loss, each end its own chance, KEEP to the Lab and
@@ -25,7 +24,8 @@
 > in `library/<date>_scouts/`. On a verify day, check which draft is newest before briefing scouts (2 Nov: V52 landed
 > overnight, the order named V50; 3 Nov: V54 landed, the order named "D plus the cure"). On a stranger-reader day,
 > run two cold strangers (only the draft, nothing else) so each GUESS names who guessed; the flaw-hunter marks TASTE
-> any GUESS no stranger made.
+> any GUESS no stranger made. On a truth day (4 Nov), a word fix that changes what a rule covers is checked against the
+> model arm the new words name (H-029: V57 swapped "nothing more" for "no more interest" for clarity and changed the lock).
 
 > Room card: `../OFFICE.md`. Librarian: Felix ("Can I read you something?"). Kai brings his reading pile; anyone
 > who reads writes a slip. Shelves (all research so far): `../library/`. How to hunt for an idea: the ideation

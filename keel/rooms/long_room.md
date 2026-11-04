@@ -1,13 +1,18 @@
 # FICTION. The Long Room: state (read this first)
 
 ## Now
-- **Doing:** Beat 8 of round 6: what "Do not crush." asks, and where the IPS says it (H-019)
-- **Decided:** V53 stood blind against W2 and C, 6-0; the room's D (V50's crushing line in P2; reserve = the ladder and the money set aside for its gap; "one rung"; order line cut 5-1, Kai keeps; "We buy them" cut 5-1, Jun keeps) beat V53 with 3 of 3 outside readers under a registration written first; offered for V54. No fourth flip
-- **Next:** Wed 4 Nov 18:20 (even dates): the final AI draft goes to Caplet at the end of that day; judge whatever round 7 or 8 offers against the thread's newest version, if anything is left to judge
-- **For the judges:** IPS P2 and P9: the motif's meaning said once in the set-up, the reserve's composition named, the close left bare
-- **Updated:** 2026-11-02 19:40 Sydney
+- **Doing:** Nothing open: beat 8 of round 8 done (H-032, why this, for her); the final goes to Caplet tonight
+- **Decided:** P3's "never needs rebalancing" is our convenience, not her reason (6-0), but no reason line beat the final with six blind outside readers in two reads (Felix's one line short, Tess's G one point short); offer only the ", to us," cut (493 strict), 6-0
+- **Next:** Caplet reads the final on Thu 5 Nov with the card (the reason as a spare, "exactly", the tablet ending, P7's reinvestment why, P6's "half her shares"); Final Report work from Tue 10 Nov (#179, #180)
+- **For the judges:** IPS P3 loses the stilted "to us" aside (the definition the case asks for stays); the readers' findings go to Caplet's own-words rewrite
+- **Updated:** 2026-11-04 19:20 Sydney
 
 (Keel is a simulated team, AI-written.)
+
+**State, Wed 4 Nov 2026 evening.** Round 8, beat 8 done: `../meetings/2026-11-04_why-this-for-her.md`, huddle
+`../huddles/2026-11-04_why-this-for-her/` (blind results `blind/RESULTS.md` and `blind/RESULTS_r3.md`). Offer to the
+thread: `../ips_rewrite/inbox/2026-11-04_long-room.md` (only ", to us," cut, 493 strict). Card for Caplet:
+`../huddles/2026-11-04_why-this-for-her/research/card_for_caplet.md`. Earlier: Mon 2 Nov D for V54 (3 of 3 readers).
 
 **State, Mon 2 Nov 2026 evening.** Round 6, beat 8 done: `../meetings/2026-11-02_what-the-last-line-asks.md`, huddle
 `../huddles/2026-11-02_what-the-last-line-asks/` (blind results `blind/RESULTS.md` and `blind/RESULTS_D.md`). Offer to the
@@ -22,3 +27,4 @@ for Saturday's review (5-1); Wed 28 Oct banked at the mark (4-1-1); Mon 26 Oct C
 - Wed 28 Oct (evening, beat 8): `../meetings/2026-10-28_bank-it-at-the-mark.md` (coupon-gap cure; 4-1-1; the lock catch)
 - Fri 30 Oct (evening, beat 8): `../meetings/2026-10-30_the-cheques-first-call.md` (V30 for Saturday, 5-1; Q11 to round 4)
 - Mon 2 Nov (evening, beat 8, H-019): `../meetings/2026-11-02_what-the-last-line-asks.md` (V53 stood 6-0; D beat it 3 of 3; offered for V54)
+- Wed 4 Nov (evening, beat 8, H-032): `../meetings/2026-11-04_why-this-for-her.md` (flaw 6-0; no reason line cleared two blind reads; ", to us," cut offered, 6-0)

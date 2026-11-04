@@ -1,0 +1,44 @@
+{
+  "id": "H-032",
+  "slug": "why-this-for-her",
+  "title": "Why this, for her",
+  "question": "Caplet asked this morning for every investing idea in the IPS to say how it is or isn't relevant to Laura. Six rooms checked the final for truth today; none asked whether its ideas land as reasons. Is there a place where an idea is named but not fused that a finance judge would mark down, and is there one repair worth offering tonight, or does it go to Caplet's own-words rewrite and the Final Report? (round 8 beat 8)",
+  "room": "Long Room",
+  "chair": "the run (Nora's room)",
+  "opened": "2026-11-04",
+  "status": "closed",
+  "closed": "2026-11-04",
+  "members": ["Jun", "Amara", "Kai", "Felix", "Tess", "Nora"],
+  "serves": "North star 4 (investing knowledge applied, not name-dropped) and Caplet's top priority of 4 Nov (each idea's relevance to Laura); Wharton: Portfolio Analysis (effective use of investment concepts), Investment Strategy (why each choice belongs), Creativity and Presentation (Ray's 3 Nov note on AI-sounding phrasing)",
+  "rounds": [
+    {"n": 1, "name": "Sealed positions, Jun's flaw hunt, Amara's registration", "date": "2026-11-04",
+     "posts": ["posts/r1_jun.md", "posts/r1_amara.md", "posts/r1_kai.md", "posts/r1_felix.md", "posts/r1_tess.md", "posts/r1_nora.md"]},
+    {"n": 2, "name": "First blind read (three outside readers), Amara's scoring, replies by name", "date": "2026-11-04",
+     "posts": ["posts/r2_amara.md", "posts/r2_jun.md", "posts/r2_kai.md", "posts/r2_felix.md", "posts/r2_tess.md", "posts/r2_nora.md"]},
+    {"n": 3, "name": "Second blind read of the merged lines and the two-word cut; the two sides check; the vote", "date": "2026-11-04",
+     "posts": ["posts/r3_amara.md", "posts/r3_felix.md", "posts/r3_nora.md", "posts/r3_jun.md", "posts/r3_kai.md", "posts/r3_tess.md"]}
+  ],
+  "essence": [
+    "All six of us pointed at the same sentence: the final says it buys one bond per payment because that 'never needs rebalancing', which reads as our convenience, not a reason for Laura.",
+    "Six outside readers, in two blind tests, liked the version that says why ('so no cheque depends on what a bond sells for that January') best, but it never beat the final on the reason itself, because both Year 11 readers already found the why in the final.",
+    "So the only change Keel offers tonight is cutting two words, 'to us', which two of three readers flagged in both tests and nobody flagged once gone; the better reason, 'exactly' and the corny last line go on a card for Caplet's own rewrite."
+  ],
+  "decided": [
+    "Flaw upheld 6-0: P3's 'which never needs rebalancing' names a convenience, not a reason for Laura",
+    "No repair beat the final in the first blind read (Felix's missed by one line: it cut the purchase date)",
+    "Second read 4-1-1; no merged line beat the final (Tess's G came closest: Q1 9 v 8, one short of +2; five of six picks)",
+    "Final vote (4), 6-0: offer only the ', to us,' cut tonight (493 strict); the reason, 'exactly' and the ending go on Caplet's card"
+  ],
+  "seeds": [
+    "Why does a ladder held to maturity need to reinvest anything? 3 of 3 second readers couldn't see it (the bonds pay interest years before the cheques start): card now, Final Report later",
+    "The closing tablet line was called the corny one in all 27 reader answers across both tests: Caplet's call",
+    "Readers prefer the 'no forced sale that January' paragraph more than it makes them understand the why: a Final Report sentence, with the risk the other method leaves open"
+  ],
+  "changes": [
+    "../../ips_rewrite/inbox/2026-11-04_long-room.md",
+    "../../meetings/2026-11-04_why-this-for-her.md",
+    "../../office/outbox/2026-11-04_long-room_why-this-for-her.md",
+    "research/card_for_caplet.md"
+  ],
+  "todos": {"done": 9, "total": 11}
+}

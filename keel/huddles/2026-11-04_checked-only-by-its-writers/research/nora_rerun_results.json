@@ -1,0 +1,432 @@
+{
+ "stamp": "curve 22 Oct 2026 | J.P. Morgan 2027 global equities 7.5% | 200,000 paths, seed 20261016 | rho 0.5 unless S0 | V54's design + C06's lock via L-13 -> L-14 -> L-16 -> W-08 -> L-17, A33 + exhibit N + Kitchen block appended | MODEL, a test for the Window, not promoted",
+ "S0 base, rates and stocks independent": {
+  "baseline": {
+   "KW_par_bonds_kept": 1.0,
+   "KW_par_bonds_wiped_n_worse_vs_kept": 0,
+   "KW_N_funds_kept": 0.9702,
+   "KWN_funds_kept": 1.0,
+   "asserted": "1-4 in-run (L-17 KW path by path, A33 wiped path by path, exhibit N KW-N and KWN)",
+   "matches_saved_files": [
+    "L-17",
+    "A33",
+    "exhibit N"
+   ]
+  },
+  "floor at NAV (main)": {
+   "KW-N (lock as the model sized it), wiped on naming day": {
+    "cheques_paid_in_full": 0.9702,
+    "p_any_cheque_worse_off_than_shares_kept": 0.0,
+    "n_paths_worse": 0,
+    "p_any_cheque_better_off": 0.0,
+    "worse_by_p50_max": [
+     0,
+     0
+    ],
+    "p_short_over_1k": 0.0188,
+    "short_p50_p90_when_short": [
+     1372,
+     2489
+    ],
+    "lock_from_floor_p50_p95_when_any": [
+     12688,
+     25353
+    ],
+    "p_floor_cannot_buy_lock": 0.0
+   },
+   "KWN (lock sized as the words read), wiped on naming day": {
+    "cheques_paid_in_full": 1.0,
+    "p_any_cheque_worse_off_than_shares_kept": 0.0,
+    "n_paths_worse": 0,
+    "p_any_cheque_better_off": 0.0,
+    "worse_by_p50_max": [
+     0,
+     0
+    ],
+    "p_short_over_1k": 0.0,
+    "short_p50_p90_when_short": [
+     0,
+     0
+    ],
+    "lock_from_floor_p50_p95_when_any": [
+     15858,
+     29267
+    ],
+    "p_floor_cannot_buy_lock": 0.0
+   },
+   "KWN (lock sized as the words read), halved on naming day": {
+    "cheques_paid_in_full": 1.0,
+    "p_any_cheque_worse_off_than_shares_kept": 0.0,
+    "n_paths_worse": 0,
+    "p_any_cheque_better_off": 0.0,
+    "worse_by_p50_max": [
+     0,
+     0
+    ],
+    "p_short_over_1k": 0.0,
+    "short_p50_p90_when_short": [
+     0,
+     0
+    ],
+    "lock_from_floor_p50_p95_when_any": [
+     9602,
+     23948
+    ],
+    "p_floor_cannot_buy_lock": 0.0
+   }
+  },
+  "floor at par (exhibit N's convention)": {
+   "KW-N (lock as the model sized it), wiped on naming day": {
+    "cheques_paid_in_full": 0.9702,
+    "p_any_cheque_worse_off_than_shares_kept": 0.0,
+    "n_paths_worse": 0,
+    "p_any_cheque_better_off": 0.0,
+    "worse_by_p50_max": [
+     0,
+     0
+    ],
+    "p_short_over_1k": 0.0188,
+    "short_p50_p90_when_short": [
+     1372,
+     2489
+    ],
+    "lock_from_floor_p50_p95_when_any": [
+     12688,
+     25353
+    ],
+    "p_floor_cannot_buy_lock": 0.0
+   },
+   "KWN (lock sized as the words read), wiped on naming day": {
+    "cheques_paid_in_full": 1.0,
+    "p_any_cheque_worse_off_than_shares_kept": 0.0,
+    "n_paths_worse": 0,
+    "p_any_cheque_better_off": 0.0,
+    "worse_by_p50_max": [
+     0,
+     0
+    ],
+    "p_short_over_1k": 0.0,
+    "short_p50_p90_when_short": [
+     0,
+     0
+    ],
+    "lock_from_floor_p50_p95_when_any": [
+     15858,
+     29267
+    ],
+    "p_floor_cannot_buy_lock": 0.0
+   },
+   "KWN (lock sized as the words read), halved on naming day": {
+    "cheques_paid_in_full": 1.0,
+    "p_any_cheque_worse_off_than_shares_kept": 0.0,
+    "n_paths_worse": 0,
+    "p_any_cheque_better_off": 0.0,
+    "worse_by_p50_max": [
+     0,
+     0
+    ],
+    "p_short_over_1k": 0.0,
+    "short_p50_p90_when_short": [
+     0,
+     0
+    ],
+    "lock_from_floor_p50_p95_when_any": [
+     9602,
+     23948
+    ],
+    "p_floor_cannot_buy_lock": 0.0
+   }
+  },
+  "floor_leg_fl_R_p5_p50_p95": [
+   -1122,
+   922,
+   2837
+  ]
+ },
+ "S6 yields fall 2pt just after the build, for good": {
+  "baseline": {
+   "KW_par_bonds_kept": 1.0,
+   "KW_par_bonds_wiped_n_worse_vs_kept": 0,
+   "KW_N_funds_kept": 0.8218,
+   "KWN_funds_kept": 1.0,
+   "asserted": "1-4 in-run (L-17 KW path by path, A33 wiped path by path, exhibit N KW-N and KWN)",
+   "matches_saved_files": [
+    "L-17",
+    "A33",
+    "exhibit N"
+   ]
+  },
+  "floor at NAV (main)": {
+   "KW-N (lock as the model sized it), wiped on naming day": {
+    "cheques_paid_in_full": 0.8218,
+    "p_any_cheque_worse_off_than_shares_kept": 0.0,
+    "n_paths_worse": 0,
+    "p_any_cheque_better_off": 0.0,
+    "worse_by_p50_max": [
+     0,
+     0
+    ],
+    "p_short_over_1k": 0.1396,
+    "short_p50_p90_when_short": [
+     2160,
+     3093
+    ],
+    "lock_from_floor_p50_p95_when_any": [
+     21627,
+     36203
+    ],
+    "p_floor_cannot_buy_lock": 0.0
+   },
+   "KWN (lock sized as the words read), wiped on naming day": {
+    "cheques_paid_in_full": 1.0,
+    "p_any_cheque_worse_off_than_shares_kept": 0.0,
+    "n_paths_worse": 0,
+    "p_any_cheque_better_off": 0.0,
+    "worse_by_p50_max": [
+     0,
+     0
+    ],
+    "p_short_over_1k": 0.0,
+    "short_p50_p90_when_short": [
+     0,
+     0
+    ],
+    "lock_from_floor_p50_p95_when_any": [
+     25340,
+     40484
+    ],
+    "p_floor_cannot_buy_lock": 0.0
+   },
+   "KWN (lock sized as the words read), halved on naming day": {
+    "cheques_paid_in_full": 1.0,
+    "p_any_cheque_worse_off_than_shares_kept": 0.0,
+    "n_paths_worse": 0,
+    "p_any_cheque_better_off": 0.0,
+    "worse_by_p50_max": [
+     0,
+     0
+    ],
+    "p_short_over_1k": 0.0,
+    "short_p50_p90_when_short": [
+     0,
+     0
+    ],
+    "lock_from_floor_p50_p95_when_any": [
+     20453,
+     37834
+    ],
+    "p_floor_cannot_buy_lock": 0.0
+   }
+  },
+  "floor at par (exhibit N's convention)": {
+   "KW-N (lock as the model sized it), wiped on naming day": {
+    "cheques_paid_in_full": 0.8218,
+    "p_any_cheque_worse_off_than_shares_kept": 0.0,
+    "n_paths_worse": 0,
+    "p_any_cheque_better_off": 0.0,
+    "worse_by_p50_max": [
+     0,
+     0
+    ],
+    "p_short_over_1k": 0.1396,
+    "short_p50_p90_when_short": [
+     2160,
+     3093
+    ],
+    "lock_from_floor_p50_p95_when_any": [
+     21627,
+     36203
+    ],
+    "p_floor_cannot_buy_lock": 0.0
+   },
+   "KWN (lock sized as the words read), wiped on naming day": {
+    "cheques_paid_in_full": 1.0,
+    "p_any_cheque_worse_off_than_shares_kept": 0.0,
+    "n_paths_worse": 0,
+    "p_any_cheque_better_off": 0.0,
+    "worse_by_p50_max": [
+     0,
+     0
+    ],
+    "p_short_over_1k": 0.0,
+    "short_p50_p90_when_short": [
+     0,
+     0
+    ],
+    "lock_from_floor_p50_p95_when_any": [
+     25340,
+     40484
+    ],
+    "p_floor_cannot_buy_lock": 0.0
+   },
+   "KWN (lock sized as the words read), halved on naming day": {
+    "cheques_paid_in_full": 1.0,
+    "p_any_cheque_worse_off_than_shares_kept": 0.0,
+    "n_paths_worse": 0,
+    "p_any_cheque_better_off": 0.0,
+    "worse_by_p50_max": [
+     0,
+     0
+    ],
+    "p_short_over_1k": 0.0,
+    "short_p50_p90_when_short": [
+     0,
+     0
+    ],
+    "lock_from_floor_p50_p95_when_any": [
+     20453,
+     37834
+    ],
+    "p_floor_cannot_buy_lock": 0.0
+   }
+  },
+  "floor_leg_fl_R_p5_p50_p95": [
+   -1121,
+   862,
+   2355
+  ]
+ },
+ "S9 yields 1pt lower before the build + 2028 deposit halved": {
+  "baseline": {
+   "KW_par_bonds_kept": 0.9871,
+   "KW_par_bonds_wiped_n_worse_vs_kept": 1889,
+   "KW_N_funds_kept": 0.9197,
+   "KWN_funds_kept": 0.9827,
+   "asserted": "1-4 in-run (L-17 KW path by path, A33 wiped path by path, exhibit N KW-N and KWN)",
+   "matches_saved_files": [
+    "L-17",
+    "A33",
+    "exhibit N"
+   ]
+  },
+  "floor at NAV (main)": {
+   "KW-N (lock as the model sized it), wiped on naming day": {
+    "cheques_paid_in_full": 0.9183,
+    "p_any_cheque_worse_off_than_shares_kept": 0.0139,
+    "n_paths_worse": 2781,
+    "p_any_cheque_better_off": 0.0,
+    "worse_by_p50_max": [
+     952,
+     3749
+    ],
+    "p_short_over_1k": 0.0591,
+    "short_p50_p90_when_short": [
+     1742,
+     7270
+    ],
+    "lock_from_floor_p50_p95_when_any": [
+     13075,
+     24438
+    ],
+    "p_floor_cannot_buy_lock": 0.0303
+   },
+   "KWN (lock sized as the words read), wiped on naming day": {
+    "cheques_paid_in_full": 0.9788,
+    "p_any_cheque_worse_off_than_shares_kept": 0.016,
+    "n_paths_worse": 3193,
+    "p_any_cheque_better_off": 0.0,
+    "worse_by_p50_max": [
+     1059,
+     4512
+    ],
+    "p_short_over_1k": 0.0187,
+    "short_p50_p90_when_short": [
+     5450,
+     16324
+    ],
+    "lock_from_floor_p50_p95_when_any": [
+     16519,
+     28364
+    ],
+    "p_floor_cannot_buy_lock": 0.0485
+   },
+   "KWN (lock sized as the words read), halved on naming day": {
+    "cheques_paid_in_full": 0.9808,
+    "p_any_cheque_worse_off_than_shares_kept": 0.0139,
+    "n_paths_worse": 2788,
+    "p_any_cheque_better_off": 0.0,
+    "worse_by_p50_max": [
+     596,
+     2381
+    ],
+    "p_short_over_1k": 0.0171,
+    "short_p50_p90_when_short": [
+     5633,
+     16974
+    ],
+    "lock_from_floor_p50_p95_when_any": [
+     14002,
+     26541
+    ],
+    "p_floor_cannot_buy_lock": 0.0416
+   }
+  },
+  "floor at par (exhibit N's convention)": {
+   "KW-N (lock as the model sized it), wiped on naming day": {
+    "cheques_paid_in_full": 0.9185,
+    "p_any_cheque_worse_off_than_shares_kept": 0.0136,
+    "n_paths_worse": 2711,
+    "p_any_cheque_better_off": 0.0,
+    "worse_by_p50_max": [
+     865,
+     3563
+    ],
+    "p_short_over_1k": 0.059,
+    "short_p50_p90_when_short": [
+     1738,
+     7178
+    ],
+    "lock_from_floor_p50_p95_when_any": [
+     13077,
+     24438
+    ],
+    "p_floor_cannot_buy_lock": 0.0299
+   },
+   "KWN (lock sized as the words read), wiped on naming day": {
+    "cheques_paid_in_full": 0.9792,
+    "p_any_cheque_worse_off_than_shares_kept": 0.0155,
+    "n_paths_worse": 3109,
+    "p_any_cheque_better_off": 0.0,
+    "worse_by_p50_max": [
+     959,
+     4261
+    ],
+    "p_short_over_1k": 0.0184,
+    "short_p50_p90_when_short": [
+     5477,
+     16458
+    ],
+    "lock_from_floor_p50_p95_when_any": [
+     16523,
+     28370
+    ],
+    "p_floor_cannot_buy_lock": 0.0476
+   },
+   "KWN (lock sized as the words read), halved on naming day": {
+    "cheques_paid_in_full": 0.9811,
+    "p_any_cheque_worse_off_than_shares_kept": 0.0136,
+    "n_paths_worse": 2729,
+    "p_any_cheque_better_off": 0.0,
+    "worse_by_p50_max": [
+     486,
+     2130
+    ],
+    "p_short_over_1k": 0.0168,
+    "short_p50_p90_when_short": [
+     5661,
+     17091
+    ],
+    "lock_from_floor_p50_p95_when_any": [
+     14004,
+     26546
+    ],
+    "p_floor_cannot_buy_lock": 0.0409
+   }
+  },
+  "floor_leg_fl_R_p5_p50_p95": [
+   -343,
+   241,
+   952
+  ]
+ }
+}

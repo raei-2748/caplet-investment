@@ -125,6 +125,12 @@ co-sponsor a number she doesn't already own."**
   beside Jun's cup: "I was harsh about your flood. Best door tonight." Jun: "My numbers are banned." Kai: "From one page.
   Para five's still your table. They just took the figures off it ... 'Which basis?' isn't a number." First time Kai has
   said sorry without a joke; Jun drank it (Kitchen, Sun 1 Nov, `rooms/kitchen.md`).
+- Felix and Kai: square, and the checking runs both ways now. On Tue 3 Nov Kai found the leak in Felix's own Window
+  test (the 86.76%, withdrawn the same morning); that evening the Courtroom's exhibit N found Kai's lock had been sized
+  on funds paid as bonds. In the Kitchen Felix showed him the number crossed out in his own pen ("You found that.");
+  Kai: "Nora found mine." "One each." Kai wrote *what did it leave out?* on a Post-it and told Felix to fold his
+  scouting page before Kai reads it. Felix stuck it on the back of his phone, under Tess's *which plan?* (Kitchen,
+  Tue 3 Nov, `rooms/kitchen.md`).
 
 ## Long Room log (Sydney date and minutes; room days; purpose)
 | Sydney | Minutes | Room days | Purpose | Who |
@@ -158,6 +164,7 @@ co-sponsor a number she doesn't already own."**
 | Wed 28 Oct 18:20 | 1 | 1 | Coupon-gap cure, beat 8: bank it at the mark (4-1-1); Kai's catch, the model never locked the promised half (top 86%, not 73%) | All |
 | Fri 30 Oct 18:20 | 1 | 1 | Saturday's review draft, beat 8: V30 (B3W less "only"), 5-1; B3W 2-0 cold; why a range once locked goes to round 4 (Q11) | All |
 | Mon 2 Nov 18:20 | 1 | 1 | What the last line asks, beat 8 (H-019): V53 stood blind against W2 and C (6-0); the room's D (V50's crushing line moved to P2, reserve = ladder + the money set aside for its gap; order line and "We buy them" cut, 5-1 each) beat V53 with 3 of 3 outside readers; offered for V54, no fourth flip | All |
+| Wed 4 Nov 18:20 | ~55 | 1 | Why this, for her, beat 8 (H-032): all six named P3's "never needs rebalancing" as our convenience, not her reason; two blind reads by six outside readers, no reason sentence beat the final (Tess's merge one point short); offer only ", to us," cut (493), 6-0; the better reason, "exactly" and the corny tablet ending (27 of 27 answers) on a card for Caplet | All |
 
 ## Calendar (Sydney)
 TNA Sat 24 Oct 08:00 (Keel submits Fri 23 Oct 20:00) · IPS + trading freeze Sat 7 Nov 09:00 (last U.S. fill 08:00) ·

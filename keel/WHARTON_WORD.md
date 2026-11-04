@@ -94,6 +94,18 @@ portfolio projections, a final facility-contribution range, or the draft communi
 **Sources:** "Teams should use research and analysis to develop their strategy, but sources do not need to be cited in
 the IPS." No charts, links or citations. **Once submitted, the strategy may not be revised.**
 
+**The IPS and the Final Report** (updated IPS instructions, `../competition/official/2026_27/UPDATED_2026_WGY_Investment_Policy_FINAL.txt`
+lines 73-82, verbatim; added Wed 4 Nov 2026 by the Archive on the Kitchen's 3 Nov CORD that it was missing):
+> Your IPS is the foundation of your Final Report and will be evaluated.
+>
+> Once submitted, the IPS becomes the official record of your team’s investment strategy. Your team may not
+> revise its investment strategy after the submission deadline.
+>
+> Your portfolio and Final Report should reflect the strategy established in your IPS. In the Final Report, your team
+> will evaluate how effectively it implemented that strategy and present its analysis and recommendations for the
+> operating commitment, facility contribution, financial flexibility, and communication with co-sponsors under
+> varying investment outcomes.
+
 ## 3. What Wharton says judges look for (Competition Guide, verbatim)
 
 > The competition recognizes thoughtful strategy, research and analysis, client understanding, disciplined decisions,

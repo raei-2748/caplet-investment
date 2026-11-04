@@ -1,0 +1,76 @@
+{
+  "id": "H-029",
+  "slug": "checked-only-by-its-writers",
+  "title": "Checked only by the people who wrote it",
+  "question": "Which of the final IPS draft's lines (V57) have only been checked by the people who wrote them, and is each one true at its source? (Q16, round 8; lens 1, Invert)",
+  "room": "Library",
+  "chair": "Felix",
+  "opened": "2026-11-04",
+  "status": "closed",
+  "closed": "2026-11-04",
+  "members": [
+    "Felix",
+    "Nora",
+    "Tess",
+    "Kai"
+  ],
+  "serves": "North star 4 (investing knowledge applied, and true) and Wharton's Investment Strategy and Portfolio Analysis ('Clearly explain your team's investment strategy and the reasoning behind it'; 'uses reasonable assumptions and projections to evaluate funding reliability')",
+  "rounds": [
+    {
+      "n": 1,
+      "name": "Go out (three scouts)",
+      "date": "2026-11-04",
+      "posts": [
+        "posts/r1_felix.md",
+        "posts/r1_nora.md",
+        "posts/r1_tess.md"
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Reply by name",
+      "date": "2026-11-04",
+      "posts": [
+        "posts/r2_kai.md"
+      ]
+    },
+    {
+      "n": 3,
+      "name": "Settle and land, then one cold reader on the new words",
+      "date": "2026-11-04",
+      "posts": [
+        "posts/r3_felix.md",
+        "posts/r3_stranger.md"
+      ]
+    }
+  ],
+  "essence": [
+    "We read the final draft's new investing lines against the people who first wrote the ideas down (regulators, the 1987 crash report, pension textbooks, a fund's own prospectus and the finance papers): seven lines are true as written, three need one word changed, and one more is fixed by the change next to it.",
+    "One line was false as worded: the final draft's words for the ladder's safety margin count only interest, but the bond funds end their lives holding cash, so a margin sized to those words leaves a cheque short in some modelled futures, while 'as if waiting cash earned nothing' covers both and costs a word less.",
+    "With the fact-checkers' fixes earlier this afternoon, only the margin sentence was left, and the people finishing the draft changed it the same day, in their own words, with 'can dry up' as well; we kept no new picture, because today's sources belong in the Final Report as citations."
+  ],
+  "decided": [
+    "P7 'as if no more interest were reinvested' is FALSE as written (Felix, upholding Kai over Nora): the IBTM prospectus says the fund 'is expected to consist almost entirely of cash' by 15 Dec 2032, principal the word 'interest' leaves out; read literally the words are exhibit N's KW-N lock, which pays every cheque in 97.02% of base futures and 82.18% if yields fall 2 points for good (MODEL). Fix: 'as if waiting cash earned nothing' (-1), exhibit N's KWN-w lock, which pays every cheque in both worlds (MODEL)",
+    "P3 'A Treasury held to maturity' -> 'A Treasury bond held to maturity' (+1): IBTM 'does not seek to return any predetermined amount at maturity'",
+    "P4 'which tend to dry up' -> 'which can dry up' (-1): only speaking income is shown falling, in one shock (Authors Guild, Feb 2021: 46.3% lost speaking income)",
+    "P4 'Her income already rides on shares' -> 'Her income may already ride on shares' (+1): TRUE IF, not FALSE (Felix, upholding Kai over Tess): Ibbotson et al. (2007) call earning power stock-like only if its correlation with the market and its volatility are both high, and nobody has measured Laura's; 'may' is the true word, not a hedge",
+    "TRUE with no fix: P3's two pension methods, 'average timing', 'rebalancing as rates move', 'never needs rebalancing' and 'we do the second' (CFA reading, Western Asset, the 1988 SOA paper's zero-interest carry-forward); P4 'rarer, not smaller' (Kritzman, FAJ: 'less likely to lose money' while 'the magnitude of your potential loss increases'; overturns Tess); P5 the capital-protected note (FINRA: 'could earn no return ... even if you hold the note to maturity'; overturns Felix r1); P5 1987 (Brady: 'played a prominent role in the market break')",
+    "Deletion test re-run from a clean copy reproduces the Kitchen's results key for key: no payment depends on shares with the funds as funds (0 of 200,000 futures worse off in the base and low-yield worlds, MODEL)",
+    "All four fixes: 496 strict (house cap 497). No slip kept",
+    "Re-read at 13:30 against the FINAL on main (491 strict, after the Window's fixes): the P7 lock fix still applies (490 strict); 'A Treasury bond held' already in; 'Her income already rides on shares' cut, so 'may' is moot; 'can dry up' optional (the Window's Times 2009 source on advances, not re-fetched by the Library). The Window reads 'no more interest' as covering the funds (100%); the Library reads it as KW-N; the fix pays every cheque on either reading (MODEL)",
+    "Applied by the rewrite thread (PR #129, 4 Nov): \"as if every dollar waiting for a cheque earned nothing\" and \"which can dry up\", FINAL 493 strict (PR #129, merged 4 Nov)"
+  ],
+  "seeds": [
+    "When the 2028 deposit falls short in the same downturn that hits her shares, does every cheque still get paid under the 'waiting cash' lock? (Genius Lab, MODEL, Final Report)",
+    "A reader of the whole fixed IPS, with no hint about the funds' cash, says P7 back (Writing Room, today)"
+  ],
+  "changes": [
+    "keel/ips_rewrite/inbox/2026-11-04_library.md (four word fixes, one FALSE, for the rewrite thread)",
+    "keel/rooms/library.md (Now block, state)",
+    "keel/loop/rounds/2026-11-04.md section 4"
+  ],
+  "todos": {
+    "done": 9,
+    "total": 11
+  }
+}
