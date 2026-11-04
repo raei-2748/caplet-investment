@@ -124,3 +124,15 @@ approach and how it is designed to support your client's financial goals and fut
 
 Coverage: central idea (human capital) / operating commitment with certainty / facility contribution /
 co-sponsor range / financial flexibility.
+
+## Ray's version (4 Nov), light edit keeping "tame" (50 words each)
+
+**A, straight swap**
+> To tame Laura's human capital, which fluctuates with stocks, Steady Roots invests her first $300,000 in ten
+> Treasuries, one per operating payment, and her 2028 contribution in a Treasury fund for part of her facility
+> contribution, plus stocks. Co-sponsors receive a credible range she owns; the rest is financial flexibility.
+
+**B, "tame the risk of"**
+> To tame the risk of Laura's human capital, which fluctuates with stocks, Steady Roots invests her $300,000 in
+> ten Treasuries, one per operating payment, and her 2028 contribution in a Treasury fund for her facility
+> contribution, plus stocks. Co-sponsors receive a credible range she owns; the rest is financial flexibility.
