@@ -52,3 +52,23 @@ Notes: "human capital" is not a case word; it is the economists' name for the id
 named investing concepts). The SMApply form allows no citations; the Final Report can cite the literature
 (e.g. Ibbotson, Milevsky, Chen & Zhu, *Lifetime Financial Advice*, CFA Institute Research Foundation,
 2007; verify before citing). Not yet checked in GPTZero.
+
+## 50-word pitches in the case's key words (AI DRAFT, Claude, 4 Nov 2026)
+
+**P1, opens on "thoughtful risks" (49 words)**
+> Laura takes thoughtful risks in her entrepreneurial career: her 2028 contribution comes from publishing
+> advances, speaking engagements and licensing, which fall when markets do. So her first $300,000 buys ten
+> Treasuries, one per operating payment, and her 2028 contribution sets a minimum facility contribution;
+> only its interest buys shares.
+
+**P2, opens on "pursuing growth / protecting the capital" (50 words)**
+> Laura's entrepreneurial career already pursues growth: publishing advances, speaking engagements and
+> licensing rise and fall with markets. Her portfolio protects the capital her goals require. Her first
+> $300,000 buys ten Treasuries, one per operating payment. Her 2028 contribution sets a minimum facility
+> contribution, and only its interest goes into shares.
+
+**P3, names human capital (50 words)**
+> Laura's human capital, her publishing advances, speaking engagements and licensing, rises and falls like
+> shares, so the operating commitment never depends on either. Her first $300,000 buys ten Treasuries, one
+> per operating payment from 2033. Her 2028 contribution sets a minimum facility contribution, and only its
+> interest goes into shares.
