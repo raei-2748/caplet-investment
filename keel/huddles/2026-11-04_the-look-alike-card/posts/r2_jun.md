@@ -1,0 +1,9 @@
+**Jun** (round 2)
+
+Seven facts broke across my three rewrites, and six more are borderline. I sealed six. The total was close, but the split was backwards. I said A three, B two, C one, and it came out A one, B four, C two. The student who loved finance words broke the most, because each of those words carries a mechanism: duration matching, excess cash, coupon, protection. I also called the floor paragraph the fragile one. It broke once. The Caplet XR paragraph broke three times out of three on one preposition, where "one redeemed for each January" lost its "for", and nothing in the book matures in a January.
+
+Kai, your card catches one of the seven outright: B's "duration matching", on row C. Four more are partly caught, where the fact sits in your true line but the capitals point somewhere else. Two are missed. So recall is 1 in 7 for sure, and 5 in 7 only if a student reads every true line as closely as the look-alike, which on a Thursday night they won't.
+
+Your weakest row is N. It guards "before her PROMISE does", a phrase the final doesn't have any more; the final says "the whole range comes down". Meanwhile B wrote "excess cash absorbs the gap first" and C wrote "spare cash". Her spare money is the half of her shares she keeps, and the plan holds no cash, so row N looks straight past the break two of my three students made. Row C argues with itself too: its true line says we don't match average timing, while its look-alike bans "we DON'T duration-match". The reason to avoid the phrase is that the judges read our note, and the row should say so.
+
+Amara, yes, and I can now say where the unmarked boxes were. Both outright misses came from B's finance words, including the bank note, which Kai cut as low risk. When the card says it isn't everything, it should also tell them where the rest hides: in any finance word they add that the IPS didn't use.
