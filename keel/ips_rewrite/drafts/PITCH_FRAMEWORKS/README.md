@@ -113,3 +113,31 @@ judge who likes it will remember this team out of hundreds.
 - The current IPS pitch (V57) should be compared against these before choosing.
 - The pitch and the IPS body must tell the same story; changing the pitch may require
   small adjustments to the IPS's opening paragraph.
+
+---
+
+## Insight-led pitch (Ray, 4 Nov: "open with our most original insight, build on it")
+
+AI DRAFT (Claude, 4 Nov 2026). The insight: Laura's 2028 money comes from "publishing advances,
+speaking engagements, licensing, and other entrepreneurial ventures" (case, p.1), income that
+tends to fall when shares fall. The case lists the sources; the link to markets is our
+reasoning. Everything else in the plan follows from it: no promise (cheque, or the 2031 range)
+may depend on shares or on her career.
+
+**Lead (50 words)**
+> When shares fall, Laura's book advances and speaking fees tend to fall with them, so we never
+> let a promise depend on either. Her first $300,000 buys ten Treasuries, one per January cheque
+> from 2033. Her 2028 deposit buys a minimum building gift, and only its interest goes into shares.
+
+**Alt A (49 words)**
+> Laura's book, speaking and licensing income can dry up in the same downturns that sink shares,
+> so her portfolio never needs both to recover. Her first $300,000 buys ten Treasuries, one per
+> January cheque. Her 2028 deposit buys a minimum building gift, and only its interest goes into shares.
+
+**Alt B (50 words)**
+> Laura's career already rides on good times: book advances, speaking fees and licensing shrink
+> when markets fall. So no cheque depends on shares. Her first $300,000 buys ten Treasuries, one
+> maturing before each January payment. Her 2028 deposit buys a minimum building gift, and only
+> its interest goes into shares.
+
+Checks: word counts by `split()`; not yet checked in GPTZero; team rewrites in its own words.
