@@ -165,3 +165,9 @@ Shape: idea -> how each goal is funded -> what Laura gets.
 > credible, her flexibility intact.
 
 Moved to the IPS body: $300,000, one Treasury per payment, the 2028 contribution, the Treasury fund, interest into stocks.
+
+**50-word systematic version (4 Nov)**
+> Laura's human capital, earned from publishing and speaking, fluctuates with stocks. To tame that
+> entrepreneurial risk, Steady Roots funds her ten operating payments with Treasuries held to maturity and her
+> facility contribution with Treasuries plus world stocks. Her operating commitment stays certain, her co-sponsor
+> range credible, her financial flexibility intact.
