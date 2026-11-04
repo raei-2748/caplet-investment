@@ -111,3 +111,16 @@ Earlier sections of this file still say "floor" / "minimum"; use these two versi
 > entrepreneurial risk. Her first $300,000 buys ten Treasuries, one per operating payment. Her 2028 contribution
 > buys Treasuries for part of her facility contribution; only their interest buys stocks. Co-sponsors receive a
 > credible range she already owns.
+
+## Ray's run-on draft (4 Nov, 56 words), made elegant against Wharton's pitch brief (AI edit, Claude)
+
+Brief: "Quickly summarize your team's investment strategy. Clearly communicate the central idea behind your
+approach and how it is designed to support your client's financial goals and future funding needs."
+
+> Steady Roots: because Laura's human capital, from publishing and speaking, fluctuates with stocks, her
+> $300,000 buys ten Treasuries, one per operating payment, whatever markets do. Her 2028 contribution buys a
+> Treasury fund for her facility contribution, plus stocks. Co-sponsors hear a credible range she owns; the
+> rest is financial flexibility. (50 words)
+
+Coverage: central idea (human capital) / operating commitment with certainty / facility contribution /
+co-sponsor range / financial flexibility.
