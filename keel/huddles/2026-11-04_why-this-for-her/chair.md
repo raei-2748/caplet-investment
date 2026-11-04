@@ -48,3 +48,22 @@
 - **(3)** Build one merged P3 (Felix's reason, "In January 2027" kept, a named payer) and read it blind in round 3
   under Amara's bar; offer it only if it clears. Say what the merged line keeps and cuts.
 - **(4)** Something else, named.
+
+## Round 2 tally and round 3 (written 18:50, before the second read)
+- **Round-2 votes:** (3) read a merged line, offer only if it clears: Jun, Kai, Felix, Tess (4). (2) no change, card
+  only: Amara (1). (4) cut only "to us," tonight, the rest to the card: Nora (1). Kai's stated fallback: "If round 3
+  says it again, I take (2)."
+- **The merged lines** (each the final with only P3 changed, each 497 strict, each drops "exactly" and "to us,"):
+  - **E** (Jun and Felix wrote the same text): Felix's arm with "In January 2027," back, paid by "as rates move".
+  - **F** (Kai): "In 2027," (not "In January", so two Januaries don't sit side by side), paid by "either" and "So".
+  - **G** (Tess): "In January 2027," back, paid by "whatever markets do" (Felix's clause now does its job).
+  - **H** (Nora's (4)): the final with only ", to us," cut (493 strict). It claims no new reason.
+- **The second read:** three fresh outside readers (same three kinds, new instances, new shuffle and letters) read the
+  final, E, F, G and H blind under Amara's registration, unchanged. E, F and G are judged on her whole bar and
+  tripwire. **H is judged on (b), (c) and the tripwire only**, since it offers no new reason (it can't win Q1 by
+  design); it passes if no reader puts it behind the final on Q2 or Q3 and no reader flags its last sentence.
+- **What happens after (registered now):** if exactly one of E, F, G clears the bar, it is the room's offer. If more
+  than one clears, the highest Q1 total wins, then the most Q4 + Q5 picks, then the fewest words changed from the
+  final. If none clears, no reason goes into the IPS tonight, and the room chooses between (2) and (4) on H's result.
+  Round 3's two checkers (Felix for the read-it side, Nora for the "exactly"/card side) check one thing each and vote
+  last.

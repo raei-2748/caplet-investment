@@ -1,0 +1,68 @@
+{
+ "A2_professor": [
+  {
+   "shown_as": "V",
+   "arm": "F_kai"
+  },
+  {
+   "shown_as": "N",
+   "arm": "E_jun_felix"
+  },
+  {
+   "shown_as": "G",
+   "arm": "H_nora"
+  },
+  {
+   "shown_as": "P",
+   "arm": "A_FINAL"
+  },
+  {
+   "shown_as": "B",
+   "arm": "G_tess"
+  }
+ ],
+ "B2_speed_judge": [
+  {
+   "shown_as": "V",
+   "arm": "E_jun_felix"
+  },
+  {
+   "shown_as": "D",
+   "arm": "A_FINAL"
+  },
+  {
+   "shown_as": "L",
+   "arm": "G_tess"
+  },
+  {
+   "shown_as": "J",
+   "arm": "H_nora"
+  },
+  {
+   "shown_as": "Y",
+   "arm": "F_kai"
+  }
+ ],
+ "C2_year11": [
+  {
+   "shown_as": "J",
+   "arm": "A_FINAL"
+  },
+  {
+   "shown_as": "V",
+   "arm": "H_nora"
+  },
+  {
+   "shown_as": "S",
+   "arm": "F_kai"
+  },
+  {
+   "shown_as": "B",
+   "arm": "G_tess"
+  },
+  {
+   "shown_as": "N",
+   "arm": "E_jun_felix"
+  }
+ ]
+}
