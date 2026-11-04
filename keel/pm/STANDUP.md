@@ -1,6 +1,32 @@
 # Stand-up log (newest first; Nora writes each entry, plain English first, then the detail)
 
 
+## Morning brief, Thursday 5 Nov 2026 (Sydney)
+**For the judges:** the final AI draft is V57, in `keel/ips_rewrite/drafts/FINAL/` (pitch 48 / IPS 495 words, unchanged overnight; GPTZero not yet checked). It's yours to read and rewrite today. Dashboard: https://claude.ai/artifact/NTBamRzChW4niBLYpkm19M
+**Today:** a freeze. We answer only what you ask. https://raei-2748.github.io/caplet-investment/#/day/2026-11-05
+**Room health:** all 10 rooms due yesterday ran. The Rooftop's late send-off and Ray's pitch-thread notes were merged this morning.
+
+**Nora:** We're not changing the draft today. One thing did come up: yesterday Ray told the pitch thread "do not invent terms, like floor". The final draft was finished before that, and it still says "floor" three times and "cheque" three times, and the pitch says "cheques are promises" and "minimum building gift". We've passed the list to the people finishing the draft. When you rewrite, use the case's own words: operating payments, operating reserve, facility contribution, credible range.
+
+**Felix:** None of the swaps change a fact, but "floor" carries the bottom of the range in two places, so whatever replaces it has to say the same thing.
+**Jun:** Ray's other rule, no "if a judge asks" writing, the draft already passes.
+**Kai:** I'd keep "Treasuries" and "ladder" for now. They're market words, not ours. Ray's list didn't name them.
+**Amara:** If you rewrite today, send it over and we'll list anything whose meaning moved, without rewriting a word.
+**Tess:** GPTZero still needs one of you. It takes a minute, and we can't reach it from here.
+
+**Students need to:**
+- Unless you say otherwise, the final draft's "floor", "cheque" and "promises" get swapped for the case's words by the people finishing it, and the word count stays under 497.
+- Unless you say otherwise, one of you pastes the IPS into gptzero.me today and notes the "human" figure in the final folder's README.
+- Ray: unless you say otherwise, the WInS book stays as it is. Trading locks Sat 7 Nov 09:00, and that call is yours.
+
+**Open questions:**
+- None for you today.
+
+**If you want the detail:** PR_LINK
+
+(Keel is a simulated team, AI-written.)
+
+
 ## Morning brief, Wednesday 4 Nov 2026 (Sydney)
 **For the judges:** the draft we're finishing is V55, written after Ray's note yesterday that our writing reads as AI and is hard to follow. It keeps the same ideas as V54 in plainer English (AI DRAFT, pitch 48 / IPS 497 words, GPTZero not yet checked). There's also a one-page plain summary of what Keel has done, in `caplet/STATUS_2026-11-03.md`. Dashboard: https://claude.ai/artifact/NTBamRzChW4niBLYpkm19M
 **Today's round:** the last check before the final draft comes to you tonight. We look for any sentence in V55 that only its own writers have checked, and test it against its source. https://raei-2748.github.io/caplet-investment/#/day/2026-11-04
