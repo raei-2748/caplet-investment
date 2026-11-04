@@ -1,5 +1,5 @@
 {
- "built": "2026-11-04T04:45",
+ "built": "2026-11-04T05:29",
  "days": [
   {
    "date": "2026-11-04",
@@ -53,7 +53,7 @@
       "A reader of the whole fixed IPS, with no hint about the funds' cash, says P7 back (Writing Room, today)"
      ],
      "todos": {
-      "done": 8,
+      "done": 9,
       "total": 11
      },
      "path": "keel/huddles/2026-11-04_checked-only-by-its-writers",
@@ -97,7 +97,7 @@
       "If the thread takes the package, the look-alike card's rows A and J change the same night (the Archive)"
      ],
      "todos": {
-      "done": 6,
+      "done": 7,
       "total": 8
      },
      "path": "keel/huddles/2026-11-04_read-with-the-case-open",
@@ -178,7 +178,7 @@
       "Three false versions for Kai's card for Caplet's rewrite: 'we don't duration-match', 'the funds pay exactly what they promised', 'the ladder's one weakness' (Genius Lab, 13:40)"
      ],
      "todos": {
-      "done": 7,
+      "done": 8,
       "total": 9
      },
      "path": "keel/huddles/2026-11-04_the-word-the-writer-meant",
@@ -418,6 +418,13 @@
      "huddle": "H-029"
     },
     {
+     "text": "A reader of the whole FINAL with the lock fix, with no hint about the funds' cash, says P7 back (Writing Room; done 4 Nov 16:20: three readers, 3 of 3 said it back, 3 of 3 'no' on a fund's December payout, `../../drafts/writing_room_2026-11-04/READERS.md`)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-04",
+     "huddle": "H-029"
+    },
+    {
      "text": "Read V57 as a SIMULATED co-sponsor and a SIMULATED Laura, each reaction on a case line (Amara; done 4 Nov: `posts/r1_amara.md`)",
      "done": true,
      "owner": "Amara",
@@ -454,6 +461,13 @@
     },
     {
      "text": "Offer the package to the rewrite thread and file it in the inbox (chair; done 4 Nov: `../../ips_rewrite/inbox/2026-11-04_lauras-room.md`)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-04",
+     "huddle": "H-031"
+    },
+    {
+     "text": "Read \"she names a lower range\" and \"Part of what's left\" to strangers beside the FINAL's words (Writing Room; done 4 Nov 16:20 on the FINAL with the words in: cut later? 2 of 3 no, one unsure; bottom can fall? 1 of 3; everything to the building? 3 of 3 no, `../../drafts/writing_room_2026-11-04/READERS.md`)",
      "done": true,
      "owner": null,
      "day": "2026-11-04",
@@ -570,16 +584,16 @@
      "owner": null,
      "day": "2026-11-04",
      "huddle": "H-028"
+    },
+    {
+     "text": "Writing Room (Tess, 16:20): \"rides on booms\" v \"rides on shares\" with fresh strangers (done 4 Nov: moot, the line was cut; on \"can dry up\" 3 of 3 read the fall, 3 of 3 guess a recovery the IPS never states, `../../drafts/writing_room_2026-11-04/READERS.md`)",
+     "done": true,
+     "owner": "Tess",
+     "day": "2026-11-04",
+     "huddle": "H-028"
     }
    ],
    "open": [
-    {
-     "text": "A reader of the whole FINAL with the lock fix, with no hint about the funds' cash, says P7 back (Writing Room; by Wed 4 Nov 16:20)",
-     "done": false,
-     "owner": null,
-     "day": null,
-     "huddle": "H-029"
-    },
     {
      "text": "Seed: when the 2028 deposit falls short in the same downturn that hits her shares, does every cheque still get paid under the \"waiting cash\" lock? Add a KWN-w row to exhibit N's halved-deposit world, with the deposit tied to a share fall (Genius Lab, MODEL, Final Report)",
      "done": false,
@@ -593,13 +607,6 @@
      "owner": "Library",
      "day": null,
      "huddle": "H-029"
-    },
-    {
-     "text": "Read \"she names a lower range\" and \"Part of what's left\" to strangers beside the FINAL's words (Writing Room; by Wed 4 Nov 16:20)",
-     "done": false,
-     "owner": null,
-     "day": null,
-     "huddle": "H-031"
     },
     {
      "text": "Put the case card beside the FINAL and the look-alike card; change look-alike rows A and J if the thread takes the package (Archive; by Wed 4 Nov 19:10)",
@@ -623,13 +630,6 @@
      "huddle": "H-030"
     },
     {
-     "text": "Writing Room (Tess, 16:20): \"rides on booms\" v \"rides on shares\" with fresh strangers (request filed)",
-     "done": false,
-     "owner": "Tess",
-     "day": null,
-     "huddle": "H-028"
-    },
-    {
      "text": "Genius Lab (Kai, 13:40): three false versions onto the card for Caplet's rewrite (request filed)",
      "done": false,
      "owner": "Kai",
@@ -638,6 +638,12 @@
     }
    ],
    "runs": [
+    {
+     "day": "2026-11-04",
+     "when": "Wed 4 Nov 17:05",
+     "room": "Writing Room",
+     "what": "Beat 7, round 8, on the FINAL as Caplet gets it (V57 after PR #132, IPS 495 strict / pitch 48, 0 non-ASCII): three first-time readers (Year 11 student Haiku, bank adviser Sonnet, judge at speed Opus; no case, no hint), nine questions, key and bar sealed first (commit 23d3ef3). **0 hard issues, no change offered**: lock words 3/3 (+ fund's December payout 3/3, 2034 interest 3/3), 'she names a lower range' 2/3 (one unsure), 'Part of what's left' 3/3, bottom can fall 1/3 (card), income in a recovery: 3/3 assume it returns (FR). Five reader notes to the cards; optional P5 'this mix' (+1) below the bar. No member huddle (the routine's three agent calls went to readers)"
+    },
     {
      "day": "2026-11-04",
      "when": "Wed 4 Nov 15:55",

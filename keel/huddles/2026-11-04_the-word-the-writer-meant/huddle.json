@@ -8,12 +8,38 @@
   "opened": "2026-11-04",
   "status": "closed",
   "closed": "2026-11-04",
-  "members": ["Felix", "Kai", "Tess"],
+  "members": [
+    "Felix",
+    "Kai",
+    "Tess"
+  ],
   "serves": "North star 4 (investing knowledge, applied and true); Wharton: Investment Strategy (define a high degree of funding certainty) and all three deliverables judged together (the TNA is locked)",
   "rounds": [
-    {"n": 1, "name": "Felix checks V57 at its sources; a cold checker takes the case, the book and the TNA", "date": "2026-11-04", "posts": ["posts/r1_felix.md"]},
-    {"n": 2, "name": "Kai breaks the fixes, Tess reads the sources and the TNA", "date": "2026-11-04", "posts": ["posts/r2_kai.md", "posts/r2_tess.md"]},
-    {"n": 3, "name": "Felix lands it, with Kai's dissent kept", "date": "2026-11-04", "posts": ["posts/r3_felix.md"]}
+    {
+      "n": 1,
+      "name": "Felix checks V57 at its sources; a cold checker takes the case, the book and the TNA",
+      "date": "2026-11-04",
+      "posts": [
+        "posts/r1_felix.md"
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Kai breaks the fixes, Tess reads the sources and the TNA",
+      "date": "2026-11-04",
+      "posts": [
+        "posts/r2_kai.md",
+        "posts/r2_tess.md"
+      ]
+    },
+    {
+      "n": 3,
+      "name": "Felix lands it, with Kai's dissent kept",
+      "date": "2026-11-04",
+      "posts": [
+        "posts/r3_felix.md"
+      ]
+    }
   ],
   "seeds": [
     "Does 'Her income already rides on booms' say back better than 'rides on shares' to strangers? (Writing Room, 16:20)",
@@ -34,5 +60,8 @@
   "changes": [
     "No draft changed. Offers in ../../ips_rewrite/inbox/2026-11-04_window.md"
   ],
-  "todos": {"done": 7, "total": 9}
+  "todos": {
+    "done": 8,
+    "total": 9
+  }
 }

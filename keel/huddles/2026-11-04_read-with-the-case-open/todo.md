@@ -6,5 +6,5 @@
 - [x] Count every package and check the round-1 claims (chair; done 4 Nov: `research/chair_r2.md`, 495 strict)
 - [x] Land the Final Report lines: covenant, what the cheques rest on, one borrower, the cushion (Kai, Amara; done 4 Nov: `posts/r3_kai.md`, `posts/r3_amara.md`)
 - [x] Offer the package to the rewrite thread and file it in the inbox (chair; done 4 Nov: `../../ips_rewrite/inbox/2026-11-04_lauras-room.md`)
-- [ ] Read "she names a lower range" and "Part of what's left" to strangers beside the FINAL's words (Writing Room; by Wed 4 Nov 16:20)
+- [x] Read "she names a lower range" and "Part of what's left" to strangers beside the FINAL's words (Writing Room; done 4 Nov 16:20 on the FINAL with the words in: cut later? 2 of 3 no, one unsure; bottom can fall? 1 of 3; everything to the building? 3 of 3 no, `../../drafts/writing_room_2026-11-04/READERS.md`)
 - [ ] Put the case card beside the FINAL and the look-alike card; change look-alike rows A and J if the thread takes the package (Archive; by Wed 4 Nov 19:10)

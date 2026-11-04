@@ -1,11 +1,11 @@
 # FICTION (the room) + real drafts. The Writing Room
 
 ## Now
-- **Doing:** round 7 beat 7 (3 Nov): V54 read blind by four fresh strangers beside Amara's repair, against a key sealed first (huddle H-025); all seven open requests to this room answered
-- **Decided:** W5 offered (497 strict, V54 + twelve backed changes, pitch untouched): the lock as "as if later bond payments sat idle" (4 of 4), "funds with an end date", why a downturn makes bonds dearer, the bank sentence bond-first, "the floor should earn", "yields" gone; the diversification words kept (Tess reversed W4's cut); return line and quarter to the Final Report
-- **Next:** Wed 4 Nov: the Window's gates (L-17, which the lock stands on; "$450,000", "bond payments" v the fund rungs); the rewrite thread's final; nothing new promoted after today
-- **For the judges:** every sentence a stranger can say back, and a weak point stated as a rule, not a forecast
-- **Updated:** 2026-11-03 16:58 Sydney
+- **Doing:** round 8 beat 7 (4 Nov): three first-time readers on the FINAL exactly as Caplet gets it tonight (V57 after PR #132, 495 strict), key sealed first; the three open requests to this room answered in one read
+- **Decided:** no hard issue, no change offered (the sealed bar was never met); the lock words held 3 of 3 with no hint, "she names a lower range" 2 of 3 (one unsure); five reader notes go to the cards and the Final Report, led by P5's "this" (2 of 3 stopped)
+- **Next:** after the hand-over: read Caplet's own-words rewrite against the two cards the moment it exists (Thu 5 - Fri 6 Nov), counts first; then the Final Report
+- **For the judges:** nothing changes tonight; the final reads true to three kinds of first-time reader
+- **Updated:** 2026-11-04 17:05 Sydney
 
 > AI DRAFT material throughout (Claude); not for submission as written. (Keel is a simulated team, AI-written.)
 
@@ -14,6 +14,8 @@
 > Rule: flag only hard issues (limits, rule breaches, facts, numbers, formatting) with minimal edits; never reword
 > for taste or soften a confident claim. Suggestions stay in the repo; never touch the Google Docs.
 
+> **State (Wed 4 Nov, 16:20 run):** beat 7 done on the FINAL (495, pitch 48) with three strangers (no member huddle: the routine's three agent calls went to readers); key, text as read and answers in `../drafts/writing_room_2026-11-04/` (`READERS.md` first). Open to this room: nothing; one request out (Archive: reader notes onto the cards).
+>
 > **State (Tue 3 Nov, 16:20 run):** beat 7 done as huddle H-025 on V54 (D34, 497): texts, the four strangers' answers, the sealed key and the tally in `../huddles/2026-11-03_words-a-stranger-can-say-back/`; W5 + packet builder in `../drafts/writing_room_2026-11-03/` (README first). Open to this room: nothing; two requests out (Window gate, Courtroom read of W5).
 >
 > **State (Mon 2 Nov, 16:20 run):** beat 7 done as huddle H-018 on V53 (D33, 497): arms, reader replies and W2 in `../drafts/writing_room_2026-11-02/` (README first) and `../huddles/2026-11-02_beside-the-champion/`. Open to this room: nothing; two requests out (Long Room blind read V53 v W2, Window gate).
@@ -49,6 +51,7 @@
 | Wed 28 Oct (16:20) | V28 (D8) + three soft-spot splices (C6, C6+MC, A) | V28 499 by spaces, pitch 50; splices 495 / 498 / 500 | 5: count margin 1/0; first $300k one-close fact; Laura's half double-booked; 2031 lock 'Treasuries maturing before 2033' (none on WInS); six quotable endings (cut one) | `../office/outbox/2026-10-28_writing-room_three-cures-side-by-side.md` |
 | Thu 29 Oct (16:20) | V29 (D9) + three texts (A hard fixes; B four doors; C B with the range kept) | V29 495, pitch 48; A 499, B 498, C 497 | 4 + reader notes: "never changes"; "carries risk" (57%); "$300,000 buys them" (3 readers); "three times" stale (six); "what's left", "one dollar in fifteen" | `../office/outbox/2026-10-29_writing-room_the-order-and-the-clock.md` |
 | Fri 30 Oct (16:20) | B2, B3 (C-03) -> B2f, B3S, B3O, B3W | B2f 488, B3S 492, B3O 497, B3W 500 (498 split); pitch D9 48 | 5: count at 500; deletion line (W1 lost 3-0, "them" antecedent); slide "range"; "one dollar in fifteen" reads as a yield; "stand or fall as one" 3 of 3 | `../office/outbox/2026-10-30_writing-room_each-end-its-own-odds.md` |
+| Wed 4 Nov (16:20) | FINAL V57 after PR #132 (3 strangers, key sealed first) | IPS 495 strict (492 by spaces), pitch 48; 0 non-ASCII | 0 hard issues (bar not met); 5 reader notes for the cards/FR: P5 "this" (2 of 3 stopped), bottom can fall (1 of 3), "bet on shares twice", "no payment depends on shares" v P7, income in a recovery | `../office/outbox/2026-11-04_writing-room_three-strangers-on-the-final.md` |
 
 ## Tool changes
 - 27 Oct: `words_limit()` = the larger of the two counts; the summary line says "quote the larger"; the portal's IPS
