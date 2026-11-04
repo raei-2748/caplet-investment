@@ -3,7 +3,7 @@
 AI DRAFT (Claude, 4 Nov 2026). Due on the form by **Sat 7 Nov 09:00 Sydney** (Fri 6 Nov 5 pm ET). Keel submits nothing.
 
 **The files.** `pitch.txt` is the 50-word pitch (49 words). `ips.txt` is the 500-word IPS (496 on the strictest count).
-Rewrite both in your own words before you paste them in. Use the case's own words, as Ray asked on 5 Nov:
+Rewrite both in your own words before you paste them in. Use the case's own words, as Ray asked on 4 Nov:
 "operating payments", "facility contribution", "credible range"; not "floor", "cheques" or "building gift".
 
 **What the plan says.** Laura's first $300,000 buys ten Treasury holdings, one maturing before each January payment from

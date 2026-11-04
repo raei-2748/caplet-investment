@@ -3,7 +3,7 @@
 AI DRAFT (Claude, 4 Nov 2026). Keel is a simulated team, AI-written. Checked against the final IPS as it stands tonight
 (495 words on the strict count, pitch 48).
 
-**Note (5 Nov, after Ray's word rule):** this card was written before the IPS swapped its own labels for the case's
+**Note (5 Nov, after Ray's 4 Nov word rule):** this card was written before the IPS swapped its own labels for the case's
 words. Where it says "cheque", the IPS now says "payment"; where it says "the floor", the IPS means the Treasury fund
 maturing in late 2032 that "sets her minimum facility contribution". The facts on the card are unchanged. Don't bring
 "floor" or "cheque" back into the IPS.

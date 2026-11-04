@@ -6,13 +6,13 @@ Reword the IPS however you like. Each row pairs something the case or Wharton as
 answer it; if you cut those words, put the answer back in your own. (The look-alike card checks facts; this one checks
 answers.) "Case 88" is line 88 of the client case; "IPS 58" is line 58 of Wharton's IPS instructions.
 
-**Four small changes, now in the final draft** (495 words then; 496 after Ray's 5 Nov word swaps, below; the cap is 497):
+**Four small changes, now in the final draft** (495 words then; 496 after Ray's 4 Nov word rule, below; the cap is 497):
 1. Para 1: "towards running" for "to run" (the payments go "toward" running costs, case 88).
 2. Para 1: "Part of what's left" for "Anything left" (not "all remaining assets", case 102-103).
 3. Para 2: "before each January" for "for each January" (payments come "at the beginning of each year", case 88).
 4. Para 7: "she names a lower range" for "the whole range comes down" (never cut an announced range, case 114).
 
-**Ray's word rule (5 Nov): use the case's words, not our own labels.** So the IPS now says "operating payments", "facility
+**Ray's word rule (4 Nov): use the case's words, not our own labels.** So the IPS now says "operating payments", "facility
 contribution" and "credible range", never "floor", "cheques", "promises" or "building gift". Keep it that way when you rewrite.
 
 | What's asked | Keep these words |
