@@ -1,0 +1,13 @@
+# H-030 to-do (Keel is a simulated team, AI-written)
+
+- [x] Build card v1 from the final IPS, the TNA and the old false versions (Kai; done 4 Nov: `research/card_v1.md`, 14 rows)
+- [x] Three blind Year 11 rewrites of the final IPS, no card (Jun; done 4 Nov: `research/jun_rewrites.md`)
+- [x] Judging sheet sealed before seeing the card (Amara; done 4 Nov: `research/amara_sealed_sheet.md`)
+- [x] Roast L-18 blind, sealed prediction (Kai; done 4 Nov: ~94%; result 99.96%)
+- [x] Audit the rewrites and score card v1 (Jun; done 4 Nov: 7 breaks, 1 caught outright, `research/jun_r2_audit.md`)
+- [x] Cold verdict on card v1 (Amara; done 4 Nov: send back, `research/amara_r2_verdict.md`)
+- [x] Card v2 and v3 (Kai; done 4 Nov: `research/card_v2.md`, `research/card_v3.md`)
+- [x] Held-out test: two stranger rewrites, ground truth first, a second stranger with only the card (chair, Jun; done 4 Nov: 2 of 2, 0 false alarms)
+- [x] L-18 six worlds run, S10 re-run identical (Lab; done 4 Nov: `../../rooms/lab/L-18_the_same_downturn.md`)
+- [ ] Put the card beside the final IPS for Caplet (Archive; by Wed 4 Nov 19:10)
+- [ ] Re-derive L-18 S10 and S11 from a clean checkout (Window; by Thu 5 Nov 08:40)

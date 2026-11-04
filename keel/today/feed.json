@@ -1,5 +1,5 @@
 {
- "built": "2026-11-04T02:41",
+ "built": "2026-11-04T03:26",
  "days": [
   {
    "date": "2026-11-04",
@@ -8,6 +8,9 @@
     "We read the final draft's new investing lines against the people who first wrote the ideas down (regulators, the 1987 crash report, pension textbooks, a fund's own prospectus and the finance papers): seven lines are true as written, three need one word changed, and one more is fixed by the change next to it.",
     "One line was false as worded: the final draft's words for the ladder's safety margin count only interest, but the bond funds end their lives holding cash, so a margin sized to those words leaves a cheque short in some modelled futures, while 'as if waiting cash earned nothing' covers both and costs a word less.",
     "With the fact-checkers' fixes earlier this afternoon, only the margin sentence was left, and the people finishing the draft changed it the same day, in their own words, with 'can dry up' as well; we kept no new picture, because today's sources belong in the Final Report as citations.",
+    "We built a one-page check sheet for tomorrow's rewrite: each fact in the final IPS beside the false version a rewrite tends to land on, with the part that differs in capitals, the way hospitals label look-alike medicines.",
+    "Its first version caught only one of the seven mistakes three test rewrites made, so we rebuilt it; the new one caught every mistake in two rewrites it had never seen. All five test rewrites made the same slip: 'one redeemed for each January' lost its 'for', and nothing pays out in a January.",
+    "We also tested the IPS's warning that her income can dry up when shares fall: with half the 2028 deposit in that kind of downturn, every cheque is still paid in 9,996 futures in 10,000 (our model); with no deposit at all, only about 1 in 5.",
     "We checked every new investing idea in the final draft at its source (the 1987 crash report, the US and Australian regulators on capital-protected notes, a 1995 finance paper, a medicine leaflet), and every one is true.",
     "But our submitted trading notes already told the judges the bond funds pay what they are worth at the end, not a promised amount, while the draft says a Treasury held to maturity pays exactly what it promised, right after naming the funds.",
     "One word fixes it ('a Treasury bond'), and another ('main' for 'one weakness') removes a second clash; Kai voted against the first because the sentence is already true of a bond."
@@ -56,6 +59,45 @@
       "keel/ips_rewrite/inbox/2026-11-04_library.md (four word fixes, one FALSE, for the rewrite thread)",
       "keel/rooms/library.md (Now block, state)",
       "keel/loop/rounds/2026-11-04.md section 4"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    },
+    {
+     "id": "H-030",
+     "title": "The look-alike card",
+     "question": "Can one page show Caplet each fact in the final IPS beside the false look-alike a rewrite lands on, so they can reword freely without landing on one, and does it catch the breaks real rewrites make? (round 8 beat 5; the Kitchen's request; plus the Library's seed, L-18: does every cheque hold when the 2028 deposit falls short in the same downturn?)",
+     "status": "closed",
+     "room": "Genius Lab",
+     "chair": "Jun",
+     "members": [
+      "Kai",
+      "Jun",
+      "Amara"
+     ],
+     "essence": [
+      "We built a one-page check sheet for tomorrow's rewrite: each fact in the final IPS beside the false version a rewrite tends to land on, with the part that differs in capitals, the way hospitals label look-alike medicines.",
+      "Its first version caught only one of the seven mistakes three test rewrites made, so we rebuilt it; the new one caught every mistake in two rewrites it had never seen. All five test rewrites made the same slip: 'one redeemed for each January' lost its 'for', and nothing pays out in a January.",
+      "We also tested the IPS's warning that her income can dry up when shares fall: with half the 2028 deposit in that kind of downturn, every cheque is still paid in 9,996 futures in 10,000 (our model); with no deposit at all, only about 1 in 5."
+     ],
+     "decided": [
+      "L-19 the look-alike card: ADOPT for Caplet's rewrite (v1 1 of 7; v3 10 rows, one page; held-out v2 2 of 2, 0 false alarms)",
+      "IPS offer: P2 'one redeemed for each January' -> 'one redeemed before each January' (+0, 493 strict)",
+      "L-18 the same downturn: ADOPT for the Final Report (deposit halved 99.96%, shares halved too 99.96%, $50k 96.00%, none 18.46%; MODEL); Kai's sealed 94% was too gloomy",
+      "The Library's 'no KWN-w in S9': CORD, the row exists (98.28%)"
+     ],
+     "seeds": [
+      "Does a real Caplet student, rewriting on Thursday, keep the 'for' (or 'before') in 'one redeemed for each January' with the card beside them? (Archive, Fri 6 Nov: compare Caplet's submitted text with the card)",
+      "Re-run L-18's deposit break point on the 6 Nov close before the Final Report quotes it (Genius Lab, from Sat 7 Nov)"
+     ],
+     "todos": {
+      "done": 9,
+      "total": 11
+     },
+     "path": "keel/huddles/2026-11-04_the-look-alike-card",
+     "transcript": "keel/huddles/2026-11-04_the-look-alike-card/transcript.md",
+     "changes": [
+      "No draft changed. Offers in ../../ips_rewrite/inbox/2026-11-04_genius-lab.md; card in research/card_v3.md; ../../rooms/lab/L-18_the_same_downturn.md, ../../rooms/lab/L-19_the_look_alike_card.md"
      ],
      "rounds": 3,
      "rounds_today": 3
@@ -131,6 +173,78 @@
      "title": "Tess, research note: P4 of FINAL (V57), two sentences",
      "member": "Tess",
      "huddle": "H-029"
+    },
+    {
+     "path": "keel/huddles/2026-11-04_the-look-alike-card/research/amara_r2_verdict.md",
+     "title": "Amara, round 2: Kai's look-alike card (first version) against my sealed sheet",
+     "member": "Amara",
+     "huddle": "H-030"
+    },
+    {
+     "path": "keel/huddles/2026-11-04_the-look-alike-card/research/amara_sealed_sheet.md",
+     "title": "Amara's judging sheet for the look-alike card (written before I saw it)",
+     "member": "Amara",
+     "huddle": "H-030"
+    },
+    {
+     "path": "keel/huddles/2026-11-04_the-look-alike-card/research/card_v1.md",
+     "title": "The look-alike card",
+     "member": "Card",
+     "huddle": "H-030"
+    },
+    {
+     "path": "keel/huddles/2026-11-04_the-look-alike-card/research/card_v2.md",
+     "title": "The look-alike card",
+     "member": "Card",
+     "huddle": "H-030"
+    },
+    {
+     "path": "keel/huddles/2026-11-04_the-look-alike-card/research/card_v3.md",
+     "title": "The look-alike card",
+     "member": "Card",
+     "huddle": "H-030"
+    },
+    {
+     "path": "keel/huddles/2026-11-04_the-look-alike-card/research/heldout_rewrites.md",
+     "title": "Rewrite D",
+     "member": "Heldout",
+     "huddle": "H-030"
+    },
+    {
+     "path": "keel/huddles/2026-11-04_the-look-alike-card/research/jun_r2_audit.md",
+     "title": "H-030 round 2: Jun audits his three rewrites, then checks Kai's card against them",
+     "member": "Jun",
+     "huddle": "H-030"
+    },
+    {
+     "path": "keel/huddles/2026-11-04_the-look-alike-card/research/jun_r3_heldout_truth.md",
+     "title": "H-030 round 3: what actually broke in Rewrites D and E (Jun)",
+     "member": "Jun",
+     "huddle": "H-030"
+    },
+    {
+     "path": "keel/huddles/2026-11-04_the-look-alike-card/research/jun_rewrites.md",
+     "title": "jun_rewrites",
+     "member": "Jun",
+     "huddle": "H-030"
+    },
+    {
+     "path": "keel/huddles/2026-11-04_the-look-alike-card/research/kai_r1.md",
+     "title": "Kai, round 1: sources and checks",
+     "member": "Kai",
+     "huddle": "H-030"
+    },
+    {
+     "path": "keel/huddles/2026-11-04_the-look-alike-card/research/kai_r3.md",
+     "title": "Kai, round 3: card v1 -> v2 changelog",
+     "member": "Kai",
+     "huddle": "H-030"
+    },
+    {
+     "path": "keel/huddles/2026-11-04_the-look-alike-card/research/stranger_marks.md",
+     "title": "stranger_marks",
+     "member": "Stranger",
+     "huddle": "H-030"
     },
     {
      "path": "keel/huddles/2026-11-04_the-word-the-writer-meant/research/felix_reruns_and_sources.md",
@@ -209,6 +323,69 @@
      "huddle": "H-029"
     },
     {
+     "text": "Build card v1 from the final IPS, the TNA and the old false versions (Kai; done 4 Nov: `research/card_v1.md`, 14 rows)",
+     "done": true,
+     "owner": "Kai",
+     "day": "2026-11-04",
+     "huddle": "H-030"
+    },
+    {
+     "text": "Three blind Year 11 rewrites of the final IPS, no card (Jun; done 4 Nov: `research/jun_rewrites.md`)",
+     "done": true,
+     "owner": "Jun",
+     "day": "2026-11-04",
+     "huddle": "H-030"
+    },
+    {
+     "text": "Judging sheet sealed before seeing the card (Amara; done 4 Nov: `research/amara_sealed_sheet.md`)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-11-04",
+     "huddle": "H-030"
+    },
+    {
+     "text": "Roast L-18 blind, sealed prediction (Kai; done 4 Nov: ~94%; result 99.96%)",
+     "done": true,
+     "owner": "Kai",
+     "day": "2026-11-04",
+     "huddle": "H-030"
+    },
+    {
+     "text": "Audit the rewrites and score card v1 (Jun; done 4 Nov: 7 breaks, 1 caught outright, `research/jun_r2_audit.md`)",
+     "done": true,
+     "owner": "Jun",
+     "day": "2026-11-04",
+     "huddle": "H-030"
+    },
+    {
+     "text": "Cold verdict on card v1 (Amara; done 4 Nov: send back, `research/amara_r2_verdict.md`)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-11-04",
+     "huddle": "H-030"
+    },
+    {
+     "text": "Card v2 and v3 (Kai; done 4 Nov: `research/card_v2.md`, `research/card_v3.md`)",
+     "done": true,
+     "owner": "Kai",
+     "day": "2026-11-04",
+     "huddle": "H-030"
+    },
+    {
+     "text": "Held-out test: two stranger rewrites, ground truth first, a second stranger with only the card (chair, Jun; done 4 Nov: 2 of 2, 0 false alarms)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-04",
+     "huddle": "H-030"
+    },
+    {
+     "text": "L-18 six worlds run, S10 re-run identical (Lab; done 4 Nov: `../../rooms/lab/L-18_the_same_downturn.md`)",
+     "done": true,
+     "owner": "Lab",
+     "day": "2026-11-04",
+     "huddle": "H-030"
+    },
+    {
      "text": "Felix: V57 line by line at its sources; five idea lines verified (Brady, SEC, ASIC, Bodie, Diabex XR)",
      "done": true,
      "owner": "Brady",
@@ -281,6 +458,20 @@
      "huddle": "H-029"
     },
     {
+     "text": "Put the card beside the final IPS for Caplet (Archive; by Wed 4 Nov 19:10)",
+     "done": false,
+     "owner": "Archive",
+     "day": null,
+     "huddle": "H-030"
+    },
+    {
+     "text": "Re-derive L-18 S10 and S11 from a clean checkout (Window; by Thu 5 Nov 08:40)",
+     "done": false,
+     "owner": "Window",
+     "day": null,
+     "huddle": "H-030"
+    },
+    {
      "text": "Writing Room (Tess, 16:20): \"rides on booms\" v \"rides on shares\" with fresh strangers (request filed)",
      "done": false,
      "owner": "Tess",
@@ -296,6 +487,12 @@
     }
    ],
    "runs": [
+    {
+     "day": "2026-11-04",
+     "when": "Wed 4 Nov 14:26",
+     "room": "Genius Lab",
+     "what": "Beat 5, round 8, as huddle H-030 (Kai builds, Jun hunts, Amara judges cold, two strangers test; 9 agent calls + 1 follow-up), aimed at the FINAL (V57, 493): **L-19 the look-alike card** (the Kitchen's request + the Window's three rows): Jun's three blind rewrites broke 7 facts (sealed 6); card v1 caught **1 of 7** outright; Amara's sealed sheet sent it back (1 of 8); v2 rebuilt; **held-out** (a stranger's two rewrites, Jun's truth first, a second stranger with only the card): **2 of 2, 0 false alarms**; v3 10 rows, one page. **5 of 5 rewrites dropped \"for\"** in \"one redeemed for each January\": offer P2 \"before\" (+0, 493). **L-18 the same downturn** (the Library's seed; CORD: S9 already had KWN-w, 98.28%): rates -2pt for good after the build, KWN-w: deposit $112.5k 100%, **$75k 99.96%** (Kai sealed 94%), + shares halved 99.96%, $50k 96.00%, $25k 66.76%, **$0 18.46%** (MODEL; S10 re-run identical). 3 requests closed (Kitchen, Window, Library), 2 filed (Window gate L-18; Archive: card beside the FINAL); bank #171-173; Keel's call in ASK_HUMANS"
+    },
     {
      "day": "2026-11-04",
      "when": "Wed 4 Nov 13:05",

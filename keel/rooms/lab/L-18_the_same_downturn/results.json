@@ -1,0 +1,1017 @@
+{
+ "stamp": "curve 22 Oct 2026 | J.P. Morgan 2027 global equities 7.5% | 200,000 paths, seed 20261016 | rho 0.5 | V54's design via L-13 -> L-14 -> L-16 -> W-08 -> L-17 -> exhibit N; FINAL's lock = KWN-w | MODEL",
+ "S10 2027 downturn: yields -2pt for good after the build + 2028 deposit halved": {
+  "floor_leg_in_scope": true,
+  "fund_leg_real_p5_p50_p95": [
+   -133,
+   2890,
+   4366
+  ],
+  "fund_leg_zero_bills_p50_p95_max": [
+   4501,
+   4791,
+   5261
+  ],
+  "fund_leg_real_per_rung_p50": {
+   "2033": 578,
+   "2034": 581,
+   "2035": 582,
+   "2036": 580,
+   "2037": 575
+  },
+  "fund_leg_zero_bills_per_rung_p50": {
+   "2033": 934,
+   "2034": 918,
+   "2035": 901,
+   "2036": 883,
+   "2037": 864
+  },
+  "fee_part_p50": 949,
+  "floor_leg_real_p5_p50_p95": [
+   -539,
+   405,
+   1164
+  ],
+  "floor_leg_zero_bills_p50": 1108,
+  "floor_margin_R_minus_bottom_p50_min": [
+   5000,
+   3700
+  ],
+  "KW as the Lab ran it (check)": {
+   "cheques_paid_in_full": 0.9998,
+   "p_cheque_short_over_1k": 0.0001,
+   "short_p50_p90_when_short": [
+    2941,
+    6687
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    21225,
+    36098
+   ],
+   "lock_cost_mean": 20642,
+   "p_kept_stocks_all_gone": 0.8744,
+   "p_range_lowered_on_naming_day": 0.868,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9954,
+   "gift_mean": 55414,
+   "laura_2042_mean_realised_release": 20159,
+   "unused_lock_back_to_laura_p50": 12633
+  },
+  "KW-N funds at NAV, bills as the path has them": {
+   "cheques_paid_in_full": 0.8218,
+   "p_cheque_short_over_1k": 0.1396,
+   "short_p50_p90_when_short": [
+    2161,
+    3095
+   ],
+   "p_short_with_lock_fully_funded": 0.178,
+   "lock_cost_p50_p95": [
+    21225,
+    36098
+   ],
+   "lock_cost_mean": 20642,
+   "p_kept_stocks_all_gone": 0.8744,
+   "p_range_lowered_on_naming_day": 0.868,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9789,
+   "gift_mean": 55406,
+   "laura_2042_mean_realised_release": 17525,
+   "unused_lock_back_to_laura_p50": 9789
+  },
+  "KW-N0 funds at NAV, bills at 0% (bound)": {
+   "cheques_paid_in_full": 0.8083,
+   "p_cheque_short_over_1k": 0.1505,
+   "short_p50_p90_when_short": [
+    2220,
+    3264
+   ],
+   "p_short_with_lock_fully_funded": 0.1914,
+   "lock_cost_p50_p95": [
+    21225,
+    36098
+   ],
+   "lock_cost_mean": 20642,
+   "p_kept_stocks_all_gone": 0.8744,
+   "p_range_lowered_on_naming_day": 0.868,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9481,
+   "gift_mean": 55386,
+   "laura_2042_mean_realised_release": 14980,
+   "unused_lock_back_to_laura_p50": 8156
+  },
+  "KWN lock sized as the words read (funds' bonds idle + fee), scored with the real leg": {
+   "cheques_paid_in_full": 0.9996,
+   "p_cheque_short_over_1k": 0.0003,
+   "short_p50_p90_when_short": [
+    2196,
+    8296
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    25126,
+    40432
+   ],
+   "lock_cost_mean": 24432,
+   "p_kept_stocks_all_gone": 0.9156,
+   "p_range_lowered_on_naming_day": 0.9109,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9764,
+   "gift_mean": 51788,
+   "laura_2042_mean_realised_release": 20800,
+   "unused_lock_back_to_laura_p50": 14223
+  },
+  "KWN under the 0% bound": {
+   "cheques_paid_in_full": 0.9996,
+   "p_cheque_short_over_1k": 0.0003,
+   "short_p50_p90_when_short": [
+    2141,
+    8285
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    25126,
+    40432
+   ],
+   "lock_cost_mean": 24432,
+   "p_kept_stocks_all_gone": 0.9156,
+   "p_range_lowered_on_naming_day": 0.9109,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9443,
+   "gift_mean": 51766,
+   "laura_2042_mean_realised_release": 18217,
+   "unused_lock_back_to_laura_p50": 12591
+  },
+  "KWN-w words only (funds' bonds idle, fee not priced), scored with the real leg": {
+   "cheques_paid_in_full": 0.9996,
+   "p_cheque_short_over_1k": 0.0003,
+   "short_p50_p90_when_short": [
+    2188,
+    8290
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    24279,
+    39479
+   ],
+   "lock_cost_mean": 23619,
+   "p_kept_stocks_all_gone": 0.9085,
+   "p_range_lowered_on_naming_day": 0.9035,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9772,
+   "gift_mean": 52578,
+   "laura_2042_mean_realised_release": 19993,
+   "unused_lock_back_to_laura_p50": 13278
+  },
+  "KWN_extra_lock_cost_p50_p95": [
+   3901,
+   4448
+  ],
+  "ladder_headroom": -224
+ },
+ "S11 2027 downturn: yields -2pt for good after the build + 2028 deposit missing": {
+  "floor_leg_in_scope": true,
+  "fund_leg_real_p5_p50_p95": [
+   -133,
+   2890,
+   4366
+  ],
+  "fund_leg_zero_bills_p50_p95_max": [
+   4501,
+   4791,
+   5261
+  ],
+  "fund_leg_real_per_rung_p50": {
+   "2033": 578,
+   "2034": 581,
+   "2035": 582,
+   "2036": 580,
+   "2037": 575
+  },
+  "fund_leg_zero_bills_per_rung_p50": {
+   "2033": 934,
+   "2034": 918,
+   "2035": 901,
+   "2036": 883,
+   "2037": 864
+  },
+  "fee_part_p50": 949,
+  "floor_leg_real_p5_p50_p95": [
+   0,
+   0,
+   0
+  ],
+  "floor_leg_zero_bills_p50": 0,
+  "floor_margin_R_minus_bottom_p50_min": [
+   0,
+   0
+  ],
+  "KW as the Lab ran it (check)": {
+   "cheques_paid_in_full": 0.2072,
+   "p_cheque_short_over_1k": 0.7798,
+   "short_p50_p90_when_short": [
+    24840,
+    48745
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    21225,
+    36098
+   ],
+   "lock_cost_mean": 20642,
+   "p_kept_stocks_all_gone": 1.0,
+   "p_range_lowered_on_naming_day": 0.9677,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 1.0,
+   "gift_mean": -23076,
+   "laura_2042_mean_realised_release": 25748,
+   "unused_lock_back_to_laura_p50": 0
+  },
+  "KW-N funds at NAV, bills as the path has them": {
+   "cheques_paid_in_full": 0.1846,
+   "p_cheque_short_over_1k": 0.8037,
+   "short_p50_p90_when_short": [
+    27180,
+    52089
+   ],
+   "p_short_with_lock_fully_funded": 0.0001,
+   "lock_cost_p50_p95": [
+    21225,
+    36098
+   ],
+   "lock_cost_mean": 20642,
+   "p_kept_stocks_all_gone": 1.0,
+   "p_range_lowered_on_naming_day": 0.9677,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 1.0,
+   "gift_mean": -23076,
+   "laura_2042_mean_realised_release": 25501,
+   "unused_lock_back_to_laura_p50": 0
+  },
+  "KW-N0 funds at NAV, bills at 0% (bound)": {
+   "cheques_paid_in_full": 0.1546,
+   "p_cheque_short_over_1k": 0.8348,
+   "short_p50_p90_when_short": [
+    27776,
+    52358
+   ],
+   "p_short_with_lock_fully_funded": 0.0001,
+   "lock_cost_p50_p95": [
+    21225,
+    36098
+   ],
+   "lock_cost_mean": 20642,
+   "p_kept_stocks_all_gone": 1.0,
+   "p_range_lowered_on_naming_day": 0.9677,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 1.0,
+   "gift_mean": -23076,
+   "laura_2042_mean_realised_release": 24900,
+   "unused_lock_back_to_laura_p50": 0
+  },
+  "KWN lock sized as the words read (funds' bonds idle + fee), scored with the real leg": {
+   "cheques_paid_in_full": 0.1846,
+   "p_cheque_short_over_1k": 0.8037,
+   "short_p50_p90_when_short": [
+    27180,
+    52089
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    25126,
+    40432
+   ],
+   "lock_cost_mean": 24432,
+   "p_kept_stocks_all_gone": 1.0,
+   "p_range_lowered_on_naming_day": 0.9836,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 1.0,
+   "gift_mean": -26899,
+   "laura_2042_mean_realised_release": 29325,
+   "unused_lock_back_to_laura_p50": 0
+  },
+  "KWN under the 0% bound": {
+   "cheques_paid_in_full": 0.1546,
+   "p_cheque_short_over_1k": 0.8348,
+   "short_p50_p90_when_short": [
+    27776,
+    52358
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    25126,
+    40432
+   ],
+   "lock_cost_mean": 24432,
+   "p_kept_stocks_all_gone": 1.0,
+   "p_range_lowered_on_naming_day": 0.9836,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 1.0,
+   "gift_mean": -26899,
+   "laura_2042_mean_realised_release": 28723,
+   "unused_lock_back_to_laura_p50": 0
+  },
+  "KWN-w words only (funds' bonds idle, fee not priced), scored with the real leg": {
+   "cheques_paid_in_full": 0.1846,
+   "p_cheque_short_over_1k": 0.8037,
+   "short_p50_p90_when_short": [
+    27180,
+    52089
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    24279,
+    39479
+   ],
+   "lock_cost_mean": 23619,
+   "p_kept_stocks_all_gone": 1.0,
+   "p_range_lowered_on_naming_day": 0.9813,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 1.0,
+   "gift_mean": -26077,
+   "laura_2042_mean_realised_release": 28503,
+   "unused_lock_back_to_laura_p50": 0
+  },
+  "KWN_extra_lock_cost_p50_p95": [
+   3901,
+   4448
+  ],
+  "ladder_headroom": -224
+ },
+ "S12 S10 + shares halve before the 2031 range is named": {
+  "floor_leg_in_scope": true,
+  "fund_leg_real_p5_p50_p95": [
+   -133,
+   2890,
+   4366
+  ],
+  "fund_leg_zero_bills_p50_p95_max": [
+   4501,
+   4791,
+   5261
+  ],
+  "fund_leg_real_per_rung_p50": {
+   "2033": 578,
+   "2034": 581,
+   "2035": 582,
+   "2036": 580,
+   "2037": 575
+  },
+  "fund_leg_zero_bills_per_rung_p50": {
+   "2033": 934,
+   "2034": 918,
+   "2035": 901,
+   "2036": 883,
+   "2037": 864
+  },
+  "fee_part_p50": 949,
+  "floor_leg_real_p5_p50_p95": [
+   -539,
+   405,
+   1164
+  ],
+  "floor_leg_zero_bills_p50": 1108,
+  "floor_margin_R_minus_bottom_p50_min": [
+   5000,
+   3700
+  ],
+  "KW as the Lab ran it (check)": {
+   "cheques_paid_in_full": 0.9998,
+   "p_cheque_short_over_1k": 0.0002,
+   "short_p50_p90_when_short": [
+    3285,
+    6851
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    21225,
+    36098
+   ],
+   "lock_cost_mean": 20642,
+   "p_kept_stocks_all_gone": 0.9309,
+   "p_range_lowered_on_naming_day": 0.926,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9941,
+   "gift_mean": 49629,
+   "laura_2042_mean_realised_release": 18767,
+   "unused_lock_back_to_laura_p50": 12633
+  },
+  "KW-N funds at NAV, bills as the path has them": {
+   "cheques_paid_in_full": 0.8218,
+   "p_cheque_short_over_1k": 0.1396,
+   "short_p50_p90_when_short": [
+    2161,
+    3095
+   ],
+   "p_short_with_lock_fully_funded": 0.178,
+   "lock_cost_p50_p95": [
+    21225,
+    36098
+   ],
+   "lock_cost_mean": 20642,
+   "p_kept_stocks_all_gone": 0.9309,
+   "p_range_lowered_on_naming_day": 0.926,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.984,
+   "gift_mean": 49623,
+   "laura_2042_mean_realised_release": 16130,
+   "unused_lock_back_to_laura_p50": 9789
+  },
+  "KW-N0 funds at NAV, bills at 0% (bound)": {
+   "cheques_paid_in_full": 0.8083,
+   "p_cheque_short_over_1k": 0.1505,
+   "short_p50_p90_when_short": [
+    2221,
+    3264
+   ],
+   "p_short_with_lock_fully_funded": 0.1914,
+   "lock_cost_p50_p95": [
+    21225,
+    36098
+   ],
+   "lock_cost_mean": 20642,
+   "p_kept_stocks_all_gone": 0.9309,
+   "p_range_lowered_on_naming_day": 0.926,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9533,
+   "gift_mean": 49601,
+   "laura_2042_mean_realised_release": 13588,
+   "unused_lock_back_to_laura_p50": 8156
+  },
+  "KWN lock sized as the words read (funds' bonds idle + fee), scored with the real leg": {
+   "cheques_paid_in_full": 0.9996,
+   "p_cheque_short_over_1k": 0.0004,
+   "short_p50_p90_when_short": [
+    2264,
+    7994
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    25126,
+    40432
+   ],
+   "lock_cost_mean": 24432,
+   "p_kept_stocks_all_gone": 0.958,
+   "p_range_lowered_on_naming_day": 0.9549,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9807,
+   "gift_mean": 45881,
+   "laura_2042_mean_realised_release": 19779,
+   "unused_lock_back_to_laura_p50": 14223
+  },
+  "KWN under the 0% bound": {
+   "cheques_paid_in_full": 0.9995,
+   "p_cheque_short_over_1k": 0.0004,
+   "short_p50_p90_when_short": [
+    2488,
+    8124
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    25126,
+    40432
+   ],
+   "lock_cost_mean": 24432,
+   "p_kept_stocks_all_gone": 0.958,
+   "p_range_lowered_on_naming_day": 0.9549,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9483,
+   "gift_mean": 45855,
+   "laura_2042_mean_realised_release": 17200,
+   "unused_lock_back_to_laura_p50": 12591
+  },
+  "KWN-w words only (funds' bonds idle, fee not priced), scored with the real leg": {
+   "cheques_paid_in_full": 0.9996,
+   "p_cheque_short_over_1k": 0.0003,
+   "short_p50_p90_when_short": [
+    2256,
+    7988
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    24279,
+    39479
+   ],
+   "lock_cost_mean": 23619,
+   "p_kept_stocks_all_gone": 0.9537,
+   "p_range_lowered_on_naming_day": 0.9501,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.982,
+   "gift_mean": 46693,
+   "laura_2042_mean_realised_release": 18907,
+   "unused_lock_back_to_laura_p50": 13278
+  },
+  "KWN_extra_lock_cost_p50_p95": [
+   3901,
+   4448
+  ],
+  "ladder_headroom": -224
+ },
+ "S13 2027 downturn: yields -2pt for good after the build + 2028 deposit a quarter short": {
+  "floor_leg_in_scope": true,
+  "fund_leg_real_p5_p50_p95": [
+   -133,
+   2890,
+   4366
+  ],
+  "fund_leg_zero_bills_p50_p95_max": [
+   4501,
+   4791,
+   5261
+  ],
+  "fund_leg_real_per_rung_p50": {
+   "2033": 578,
+   "2034": 581,
+   "2035": 582,
+   "2036": 580,
+   "2037": 575
+  },
+  "fund_leg_zero_bills_per_rung_p50": {
+   "2033": 934,
+   "2034": 918,
+   "2035": 901,
+   "2036": 883,
+   "2037": 864
+  },
+  "fee_part_p50": 949,
+  "floor_leg_real_p5_p50_p95": [
+   -830,
+   634,
+   1758
+  ],
+  "floor_leg_zero_bills_p50": 1694,
+  "floor_margin_R_minus_bottom_p50_min": [
+   7500,
+   3700
+  ],
+  "KW as the Lab ran it (check)": {
+   "cheques_paid_in_full": 1.0,
+   "p_cheque_short_over_1k": 0.0,
+   "short_p50_p90_when_short": [
+    0,
+    0
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    21225,
+    36098
+   ],
+   "lock_cost_mean": 20642,
+   "p_kept_stocks_all_gone": 0.8052,
+   "p_range_lowered_on_naming_day": 0.7969,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9964,
+   "gift_mean": 98652,
+   "laura_2042_mean_realised_release": 22464,
+   "unused_lock_back_to_laura_p50": 12633
+  },
+  "KW-N funds at NAV, bills as the path has them": {
+   "cheques_paid_in_full": 0.8218,
+   "p_cheque_short_over_1k": 0.1396,
+   "short_p50_p90_when_short": [
+    2160,
+    3093
+   ],
+   "p_short_with_lock_fully_funded": 0.1782,
+   "lock_cost_p50_p95": [
+    21225,
+    36098
+   ],
+   "lock_cost_mean": 20642,
+   "p_kept_stocks_all_gone": 0.8052,
+   "p_range_lowered_on_naming_day": 0.7969,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9653,
+   "gift_mean": 98629,
+   "laura_2042_mean_realised_release": 19645,
+   "unused_lock_back_to_laura_p50": 9789
+  },
+  "KW-N0 funds at NAV, bills at 0% (bound)": {
+   "cheques_paid_in_full": 0.8084,
+   "p_cheque_short_over_1k": 0.1505,
+   "short_p50_p90_when_short": [
+    2219,
+    3262
+   ],
+   "p_short_with_lock_fully_funded": 0.1916,
+   "lock_cost_p50_p95": [
+    21225,
+    36098
+   ],
+   "lock_cost_mean": 20642,
+   "p_kept_stocks_all_gone": 0.8052,
+   "p_range_lowered_on_naming_day": 0.7969,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9129,
+   "gift_mean": 98586,
+   "laura_2042_mean_realised_release": 16733,
+   "unused_lock_back_to_laura_p50": 8156
+  },
+  "KWN lock sized as the words read (funds' bonds idle + fee), scored with the real leg": {
+   "cheques_paid_in_full": 1.0,
+   "p_cheque_short_over_1k": 0.0,
+   "short_p50_p90_when_short": [
+    0,
+    0
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    25126,
+    40432
+   ],
+   "lock_cost_mean": 24432,
+   "p_kept_stocks_all_gone": 0.8602,
+   "p_range_lowered_on_naming_day": 0.8537,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9655,
+   "gift_mean": 95207,
+   "laura_2042_mean_realised_release": 22390,
+   "unused_lock_back_to_laura_p50": 14224
+  },
+  "KWN under the 0% bound": {
+   "cheques_paid_in_full": 1.0,
+   "p_cheque_short_over_1k": 0.0,
+   "short_p50_p90_when_short": [
+    0,
+    0
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    25126,
+    40432
+   ],
+   "lock_cost_mean": 24432,
+   "p_kept_stocks_all_gone": 0.8602,
+   "p_range_lowered_on_naming_day": 0.8537,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9142,
+   "gift_mean": 95164,
+   "laura_2042_mean_realised_release": 19437,
+   "unused_lock_back_to_laura_p50": 12592
+  },
+  "KWN-w words only (funds' bonds idle, fee not priced), scored with the real leg": {
+   "cheques_paid_in_full": 1.0,
+   "p_cheque_short_over_1k": 0.0,
+   "short_p50_p90_when_short": [
+    0,
+    0
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    24279,
+    39479
+   ],
+   "lock_cost_mean": 23619,
+   "p_kept_stocks_all_gone": 0.8501,
+   "p_range_lowered_on_naming_day": 0.8433,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9653,
+   "gift_mean": 95953,
+   "laura_2042_mean_realised_release": 21687,
+   "unused_lock_back_to_laura_p50": 13279
+  },
+  "KWN_extra_lock_cost_p50_p95": [
+   3901,
+   4448
+  ],
+  "ladder_headroom": -224
+ },
+ "S14 2027 downturn: yields -2pt for good after the build + 2028 deposit $50,000": {
+  "floor_leg_in_scope": true,
+  "fund_leg_real_p5_p50_p95": [
+   -133,
+   2890,
+   4366
+  ],
+  "fund_leg_zero_bills_p50_p95_max": [
+   4501,
+   4791,
+   5261
+  ],
+  "fund_leg_real_per_rung_p50": {
+   "2033": 578,
+   "2034": 581,
+   "2035": 582,
+   "2036": 580,
+   "2037": 575
+  },
+  "fund_leg_zero_bills_per_rung_p50": {
+   "2033": 934,
+   "2034": 918,
+   "2035": 901,
+   "2036": 883,
+   "2037": 864
+  },
+  "fee_part_p50": 949,
+  "floor_leg_real_p5_p50_p95": [
+   -345,
+   250,
+   771
+  ],
+  "floor_leg_zero_bills_p50": 721,
+  "floor_margin_R_minus_bottom_p50_min": [
+   5000,
+   0
+  ],
+  "KW as the Lab ran it (check)": {
+   "cheques_paid_in_full": 0.9744,
+   "p_cheque_short_over_1k": 0.0224,
+   "short_p50_p90_when_short": [
+    5009,
+    14879
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    21225,
+    36098
+   ],
+   "lock_cost_mean": 20642,
+   "p_kept_stocks_all_gone": 0.9137,
+   "p_range_lowered_on_naming_day": 0.9083,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9944,
+   "gift_mean": 26335,
+   "laura_2042_mean_realised_release": 19295,
+   "unused_lock_back_to_laura_p50": 12549
+  },
+  "KW-N funds at NAV, bills as the path has them": {
+   "cheques_paid_in_full": 0.8125,
+   "p_cheque_short_over_1k": 0.1507,
+   "short_p50_p90_when_short": [
+    2357,
+    6062
+   ],
+   "p_short_with_lock_fully_funded": 0.1541,
+   "lock_cost_p50_p95": [
+    21225,
+    36098
+   ],
+   "lock_cost_mean": 20642,
+   "p_kept_stocks_all_gone": 0.9137,
+   "p_range_lowered_on_naming_day": 0.9083,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9869,
+   "gift_mean": 26332,
+   "laura_2042_mean_realised_release": 16846,
+   "unused_lock_back_to_laura_p50": 9693
+  },
+  "KW-N0 funds at NAV, bills at 0% (bound)": {
+   "cheques_paid_in_full": 0.7988,
+   "p_cheque_short_over_1k": 0.1617,
+   "short_p50_p90_when_short": [
+    2425,
+    5949
+   ],
+   "p_short_with_lock_fully_funded": 0.1664,
+   "lock_cost_p50_p95": [
+    21225,
+    36098
+   ],
+   "lock_cost_mean": 20642,
+   "p_kept_stocks_all_gone": 0.9137,
+   "p_range_lowered_on_naming_day": 0.9083,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9674,
+   "gift_mean": 26322,
+   "laura_2042_mean_realised_release": 14561,
+   "unused_lock_back_to_laura_p50": 8063
+  },
+  "KWN lock sized as the words read (funds' bonds idle + fee), scored with the real leg": {
+   "cheques_paid_in_full": 0.9599,
+   "p_cheque_short_over_1k": 0.036,
+   "short_p50_p90_when_short": [
+    5629,
+    15819
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    25126,
+    40432
+   ],
+   "lock_cost_mean": 24432,
+   "p_kept_stocks_all_gone": 0.9455,
+   "p_range_lowered_on_naming_day": 0.9418,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.984,
+   "gift_mean": 22625,
+   "laura_2042_mean_realised_release": 20439,
+   "unused_lock_back_to_laura_p50": 14054
+  },
+  "KWN under the 0% bound": {
+   "cheques_paid_in_full": 0.9577,
+   "p_cheque_short_over_1k": 0.0378,
+   "short_p50_p90_when_short": [
+    5671,
+    15946
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    25126,
+    40432
+   ],
+   "lock_cost_mean": 24432,
+   "p_kept_stocks_all_gone": 0.9455,
+   "p_range_lowered_on_naming_day": 0.9418,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9635,
+   "gift_mean": 22613,
+   "laura_2042_mean_realised_release": 18123,
+   "unused_lock_back_to_laura_p50": 12439
+  },
+  "KWN-w words only (funds' bonds idle, fee not priced), scored with the real leg": {
+   "cheques_paid_in_full": 0.96,
+   "p_cheque_short_over_1k": 0.036,
+   "short_p50_p90_when_short": [
+    5635,
+    15825
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    24279,
+    39479
+   ],
+   "lock_cost_mean": 23619,
+   "p_kept_stocks_all_gone": 0.9404,
+   "p_range_lowered_on_naming_day": 0.9367,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9849,
+   "gift_mean": 23415,
+   "laura_2042_mean_realised_release": 19605,
+   "unused_lock_back_to_laura_p50": 13137
+  },
+  "KWN_extra_lock_cost_p50_p95": [
+   3901,
+   4448
+  ],
+  "ladder_headroom": -224
+ },
+ "S15 2027 downturn: yields -2pt for good after the build + 2028 deposit $25,000": {
+  "floor_leg_in_scope": true,
+  "fund_leg_real_p5_p50_p95": [
+   -133,
+   2890,
+   4366
+  ],
+  "fund_leg_zero_bills_p50_p95_max": [
+   4501,
+   4791,
+   5261
+  ],
+  "fund_leg_real_per_rung_p50": {
+   "2033": 578,
+   "2034": 581,
+   "2035": 582,
+   "2036": 580,
+   "2037": 575
+  },
+  "fund_leg_zero_bills_per_rung_p50": {
+   "2033": 934,
+   "2034": 918,
+   "2035": 901,
+   "2036": 883,
+   "2037": 864
+  },
+  "fee_part_p50": 949,
+  "floor_leg_real_p5_p50_p95": [
+   -158,
+   97,
+   382
+  ],
+  "floor_leg_zero_bills_p50": 342,
+  "floor_margin_R_minus_bottom_p50_min": [
+   5000,
+   0
+  ],
+  "KW as the Lab ran it (check)": {
+   "cheques_paid_in_full": 0.7143,
+   "p_cheque_short_over_1k": 0.2719,
+   "short_p50_p90_when_short": [
+    11543,
+    27228
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    21225,
+    36098
+   ],
+   "lock_cost_mean": 20642,
+   "p_kept_stocks_all_gone": 0.9462,
+   "p_range_lowered_on_naming_day": 0.942,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9985,
+   "gift_mean": -2088,
+   "laura_2042_mean_realised_release": 20899,
+   "unused_lock_back_to_laura_p50": 9013
+  },
+  "KW-N funds at NAV, bills as the path has them": {
+   "cheques_paid_in_full": 0.6357,
+   "p_cheque_short_over_1k": 0.3404,
+   "short_p50_p90_when_short": [
+    11527,
+    29079
+   ],
+   "p_short_with_lock_fully_funded": 0.0396,
+   "lock_cost_p50_p95": [
+    21225,
+    36098
+   ],
+   "lock_cost_mean": 20642,
+   "p_kept_stocks_all_gone": 0.9462,
+   "p_range_lowered_on_naming_day": 0.942,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9974,
+   "gift_mean": -2088,
+   "laura_2042_mean_realised_release": 19312,
+   "unused_lock_back_to_laura_p50": 5838
+  },
+  "KW-N0 funds at NAV, bills at 0% (bound)": {
+   "cheques_paid_in_full": 0.6144,
+   "p_cheque_short_over_1k": 0.3602,
+   "short_p50_p90_when_short": [
+    11530,
+    29095
+   ],
+   "p_short_with_lock_fully_funded": 0.0436,
+   "lock_cost_p50_p95": [
+    21225,
+    36098
+   ],
+   "lock_cost_mean": 20642,
+   "p_kept_stocks_all_gone": 0.9462,
+   "p_range_lowered_on_naming_day": 0.942,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9935,
+   "gift_mean": -2089,
+   "laura_2042_mean_realised_release": 17518,
+   "unused_lock_back_to_laura_p50": 4471
+  },
+  "KWN lock sized as the words read (funds' bonds idle + fee), scored with the real leg": {
+   "cheques_paid_in_full": 0.667,
+   "p_cheque_short_over_1k": 0.3189,
+   "short_p50_p90_when_short": [
+    12984,
+    29823
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    25126,
+    40432
+   ],
+   "lock_cost_mean": 24432,
+   "p_kept_stocks_all_gone": 0.9689,
+   "p_range_lowered_on_naming_day": 0.9664,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9977,
+   "gift_mean": -5872,
+   "laura_2042_mean_realised_release": 23207,
+   "unused_lock_back_to_laura_p50": 8456
+  },
+  "KWN under the 0% bound": {
+   "cheques_paid_in_full": 0.6486,
+   "p_cheque_short_over_1k": 0.3368,
+   "short_p50_p90_when_short": [
+    13036,
+    29833
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    25126,
+    40432
+   ],
+   "lock_cost_mean": 24432,
+   "p_kept_stocks_all_gone": 0.9689,
+   "p_range_lowered_on_naming_day": 0.9664,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9937,
+   "gift_mean": -5874,
+   "laura_2042_mean_realised_release": 21410,
+   "unused_lock_back_to_laura_p50": 7120
+  },
+  "KWN-w words only (funds' bonds idle, fee not priced), scored with the real leg": {
+   "cheques_paid_in_full": 0.6676,
+   "p_cheque_short_over_1k": 0.3183,
+   "short_p50_p90_when_short": [
+    12989,
+    29835
+   ],
+   "p_short_with_lock_fully_funded": 0.0,
+   "lock_cost_p50_p95": [
+    24279,
+    39479
+   ],
+   "lock_cost_mean": 23619,
+   "p_kept_stocks_all_gone": 0.9655,
+   "p_range_lowered_on_naming_day": 0.9625,
+   "p_below_quoted_bottom": 0.0,
+   "p_top_reached": 0.9978,
+   "gift_mean": -5058,
+   "laura_2042_mean_realised_release": 22361,
+   "unused_lock_back_to_laura_p50": 8002
+  },
+  "KWN_extra_lock_cost_p50_p95": [
+   3901,
+   4448
+  ],
+  "ladder_headroom": -224
+ }
+}
