@@ -168,6 +168,8 @@ scope here. That doesn't mean the row failed.
    Caplet asked on 26 Oct for no hedging there.
 3. "average life" -> "average timing" (your 0-word fix).
 4. LOST 1: "as if no more interest were reinvested" (+1; your "earned nothing" version would cost +3 and say the same).
+   [Corrected later, Wed 4 Nov: they don't say the same. The funds end as cash that is principal, not interest. P7 now
+   reads "as if every dollar waiting for a cheque earned nothing"; see `KEEL_RECORD.md` section 7.]
 5. "paying one cheque each January" -> "paying each January's cheque" (-1, to make room).
 Strict count after: 496 (pitch 48). Not taken: explaining "option" (no room; the Final Report explains it); "never needs
 rebalancing" kept: rebalancing and reinvesting coupons are different things, and P7 names the coupon weakness.

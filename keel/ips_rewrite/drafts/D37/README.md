@@ -1,9 +1,9 @@
 # V57: the investing thinking shown, with the reinvestment lock (AI DRAFT, Claude, Wed 4 Nov 2026)
 
-**GPTZero: not yet checked.** Pitch 48 (V55's). IPS **496** strict (`keel/office/tools/textcheck.py`; house cap 497).
+**GPTZero: not yet checked.** Pitch 48 (V55's). IPS **493** strict (496 before the Window's and the Library's fixes, `../FINAL/KEEL_RECORD.md` sections 6-7) (`keel/office/tools/textcheck.py`; house cap 497).
 
 Why it exists: on Wed 4 Nov two V56s were written in parallel. One (`../D36/`) fixed the last real hole, pricing the
-reinvestment gap so it can only be overstated. The other (`../D36_I81/`, "V56i") answered Caplet's 08:06 top priority
+reinvestment gap so no cheque depends on shares. The other (`../D36_I81/`, "V56i") answered Caplet's 08:06 top priority
 (INSTRUCTIONS I81: look "truly extraordinary erudite", use investing concepts cleverly and say how each is or isn't
 relevant). V57 is V56i's concepts with D36's lock and truth fixes, then the cold reader's fixes.
 
@@ -22,8 +22,8 @@ relevant). V57 is V56i's concepts with D36's lock and truth fixes, then the cold
 | Reinvestment risk, priced at its worst case | 7 | The ladder's one weakness, covered before the range is named | Genius Lab L-17, Archive A33 (0 short cheques in 600,000 futures) |
 
 ## What changed from V56i, and why
-- **The lock:** "price that shortfall at the day's rates, add a margin" -> "as if no more interest were reinvested". The old
-  wording left a cheque short in about 1 future in 25 (Window W-08); the new one can only overstate the gap. Panel V57's
+- **The lock:** "price that shortfall at the day's rates, add a margin" -> "as if no more interest were reinvested", later -> "as if every dollar waiting for a cheque earned nothing" (the
+  Library: the funds' end cash is principal). The old wording left a cheque short in about 1 future in 25 (Window W-08). Panel V57's
   professor ranked V57 above V56i for exactly this.
 - **"Her spare money shrinks before her promise does" -> "Her spare money shrinks first"** (Ray's I80: no slogan flips).
 - **"Ours holds ... one redeemed each January" -> "Ours is ... one redeemed for each January"; "just before" -> "before"**
