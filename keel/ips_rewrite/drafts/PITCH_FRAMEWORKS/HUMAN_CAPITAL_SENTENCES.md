@@ -84,3 +84,17 @@ named investing concepts). The SMApply form allows no citations; the Final Repor
 > Laura earns like a stockbroker: publishing advances and speaking fees rise and fall with stocks. Her first
 > $300,000 buys ten Treasuries, one per operating payment; her 2028 contribution buys a Treasury fund setting
 > her facility contribution's floor, and only its interest buys shares. Co-sponsors hear a range she already owns.
+
+## No invented terms (Ray, 4 Nov, INSTRUCTIONS I83): "floor" removed
+
+**A (50 words)**
+> Laura earns like a stockbroker: her publishing advances and speaking fees move with stocks. To tame that
+> entrepreneurial risk, her first $300,000 buys ten Treasuries, one maturing before each operating payment.
+> Her 2028 contribution buys a Treasury fund that pays part of her facility contribution; only its interest buys stocks.
+
+**B (50 words)**
+> Laura earns like a stockbroker: publishing advances and speaking fees move with stocks. Her first $300,000
+> buys ten Treasuries, one per operating payment; her 2028 contribution buys a Treasury fund for part of her
+> facility contribution, and only its interest buys stocks. Co-sponsors hear a credible range she already owns.
+
+Earlier sections of this file still say "floor" / "minimum"; use these two versions instead.
