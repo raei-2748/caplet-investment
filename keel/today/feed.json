@@ -1,5 +1,5 @@
 {
- "built": "2026-11-04T08:17",
+ "built": "2026-11-04T08:26",
  "days": [
   {
    "date": "2026-11-04",
@@ -776,6 +776,12 @@
     }
    ],
    "runs": [
+    {
+     "day": "2026-11-04",
+     "when": "Wed 4 Nov 19:26",
+     "room": "Archive",
+     "what": "Beat 9, round 8, hand-over day: **the FINAL (V57 as applied, 495 strict, sha256 b9368f5b5fa9ffc5) v the TNA and all 11 WInS notes: no contradiction**; every repair the register asked for is in. Two blind outside readers, locked record only (Opus 5.5 pension judge, Sonnet 5.5 rival student): no HIGH; **both found A34 alone** (reflection 1 \"through duration-matching\" v P3's two methods, MEDIUM; a change of word, not of plan); the judge's fix \"also matches timing\" is false (Kai's duration check re-run 7.61 v 9.99, MODEL); IPS unchanged, FR owns it (bank #167). A14 flagged a 4th time, A32/F24 MEDIUM twice: rulings hold. Look-alike card v4 + the Long Room's readers card beside the FINAL (all fact phrases checked; case card's 32 keep-phrases checked), README pointer, project folder. A32/#142 cite the filled Nov-2039 note; Wharton's lines 73-82 added to WHARTON_WORD verbatim. TERRITORY 3 rows + field; FRONTIER Q16 answered, F22 closed (IPS), F23 moot, F25 new; HEALTH row 8 + lights (text moved under the checkers; three cards); CHAMPIONS note; 6 requests closed, 2 filed: `../rooms/archive_checks/2026-11-04_blind_cross_read.md`, `../office/outbox/2026-11-04_archive_the-word-october-used.md`"
+    },
     {
      "day": "2026-11-04",
      "when": "Wed 4 Nov 19:16",

@@ -30,6 +30,8 @@ line; the words they flagged are fixed, including two that clashed with our subm
    used that phrase loosely, and the IPS shouldn't contradict them.
 
 **Before you rewrite, open `CASE_CARD.md`.** It lists which words answer each thing the case asks, so a rewrite doesn't
-cut an answer by accident.
+cut an answer by accident. Two more one-page cards sit beside it: `LOOK_ALIKE_CARD.md` (each fact beside the false
+version a rewrite tends to land on) and `READERS_CARD.md` (what outside readers stumbled on). Check your rewrite against
+all three before you paste it in.
 
 Full checks, sources and history: `KEEL_RECORD.md`.

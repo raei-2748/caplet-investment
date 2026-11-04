@@ -18,8 +18,8 @@ If the thread takes 1 or 4, the look-alike card's rows J and A change the same n
 Wharton asks beside the FINAL's words that answer it, so Caplet's rewrite never cuts an answer by accident. It
 complements the look-alike card (facts) with coverage (answers). The judge's verdict: every requirement answered or
 moved to the Final Report by Wharton's own "not expected" list; the words that look cuttable and aren't are "if
-needed" (P5), "Most of the rest" (P5), "even for the building" (P2), "with fixed end dates" and "So, to us, high
-certainty means" (P3), "money she already owns" and "before she names it" (P6), and P8's "operating reserve" (the only
+needed" (P5), "Most of the rest" (P5), "even for the building" (P2), "with fixed end dates" and "So ... high
+certainty means" (P3; the Long Room offers to cut ", to us,", which keeps the answer: Archive, 4 Nov), "money she already owns" and "before she names it" (P6), and P8's "operating reserve" (the only
 time the IPS uses the case's term).
 
 ## 3. For the Final Report (not the IPS)
