@@ -149,3 +149,19 @@ Full pitch with the recommended sentence (50 words):
 > To tame the risk of Laura's human capital, which fluctuates with stocks, Steady Roots invests her $300,000 in
 > ten Treasuries, one per operating payment, and her 2028 contribution in a Treasury fund for her facility
 > contribution, plus stocks. Her operating commitment stays certain, her co-sponsor range credible, her flexibility intact.
+
+## Systematic pitch, core elements only (Ray, 4 Nov: details belong in the body)
+
+Shape: idea -> how each goal is funded -> what Laura gets.
+
+**B (39 words, Ray's opening)**
+> To tame the risk of Laura's human capital, which fluctuates with stocks, Steady Roots funds her operating
+> commitment with Treasuries and her facility contribution with Treasuries plus stocks. Her payments stay
+> certain, her co-sponsor range credible, her flexibility intact.
+
+**A (35 words)**
+> Laura's human capital fluctuates with stocks, so Steady Roots tames that risk. Treasuries fund every operating
+> payment; Treasuries plus stocks fund her facility contribution. Her payments stay certain, her co-sponsor range
+> credible, her flexibility intact.
+
+Moved to the IPS body: $300,000, one Treasury per payment, the 2028 contribution, the Treasury fund, interest into stocks.
