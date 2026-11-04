@@ -5,6 +5,7 @@
 | ID | Opened | Title | Status | Rounds | Members | To-dos | Essence |
 |---|---|---|---|---|---|---|---|
 | H-029 | 2026-11-04 | [Checked only by the people who wrote it](2026-11-04_checked-only-by-its-writers/transcript.md) | closed | 3 | Felix, Nora, Tess, Kai | 8/11 | We read the final draft's new investing lines against the people who first wrote the ideas down (regulators, the 1987 crash report, pension textbooks, a fund's own prospectus and the finance papers): seven lines are true |
+| H-028 | 2026-11-04 | [The word the writer meant](2026-11-04_the-word-the-writer-meant/transcript.md) | closed | 3 | Felix, Kai, Tess | 7/9 | We checked every new investing idea in the final draft at its source (the 1987 crash report, the US and Australian regulators on capital-protected notes, a 1995 finance paper, a medicine leaflet), and every one is true.  |
 | H-027 | 2026-11-03 | [The Kitchen before the hand-over](2026-11-03_the-kitchen-before-the-hand-over/transcript.md) | closed | 3 | Amara, Felix, Kai | 5/12 | We first all agreed that tomorrow should protect the IPS from your rewrite, then all three of us changed our minds: Wednesday is our last day to check the draft, and the rewrite is yours from Thursday. Checking tonight,  |
 | H-026 | 2026-11-03 | [W5 on trial](2026-11-03_w5-on-trial/transcript.md) | closed | 3 | Kai, Tess, Nora | 9/12 | We put the Writing Room's repaired IPS on trial against the current one, and two outsiders who had never seen either split: a bond manager preferred the repair by 2 points, a Year 10 student preferred the original by 2,  |
 | H-025 | 2026-11-03 | [Words a stranger can say back](2026-11-03_words-a-stranger-can-say-back/transcript.md) | closed | 3 | Amara, Kai, Tess | 8/11 | Four people who had never seen our work read the newest IPS and our repair, and we changed only the words they tripped on, like "yields" and "facility", keeping it at 497 words. All four understood one plain way to say h |
@@ -97,3 +98,5 @@
 - H-025: What strangers still take on trust: 'option' (4 of 4), 'operating reserve' (3 of 4), why falling rates raise bond prices (Caplet's own words)
 - H-029: When the 2028 deposit falls short in the same downturn that hits her shares, does every cheque still get paid under the 'waiting cash' lock? (Genius Lab, MODEL, Final Report)
 - H-029: A reader of the whole fixed IPS, with no hint about the funds' cash, says P7 back (Writing Room, today)
+- H-028: Does 'Her income already rides on booms' say back better than 'rides on shares' to strangers? (Writing Room, 16:20)
+- H-028: Three false versions for Kai's card for Caplet's rewrite: 'we don't duration-match', 'the funds pay exactly what they promised', 'the ladder's one weakness' (Genius Lab, 13:40)

@@ -1,5 +1,5 @@
 {
- "built": "2026-11-04T01:57",
+ "built": "2026-11-04T02:41",
  "days": [
   {
    "date": "2026-11-04",
@@ -7,7 +7,10 @@
    "essence": [
     "We read the final draft's new investing lines against the people who first wrote the ideas down (regulators, the 1987 crash report, pension textbooks, a fund's own prospectus and the finance papers): seven lines are true as written, three need one word changed, and one more is fixed by the change next to it.",
     "One line was false as worded: the final draft's words for the ladder's safety margin count only interest, but the bond funds end their lives holding cash, so a margin sized to those words leaves a cheque short in some modelled futures, while 'as if waiting cash earned nothing' covers both and costs a word less.",
-    "With the fact-checkers' fixes earlier this afternoon, only the margin sentence was left, and the people finishing the draft changed it the same day, in their own words, with 'can dry up' as well; we kept no new picture, because today's sources belong in the Final Report as citations."
+    "With the fact-checkers' fixes earlier this afternoon, only the margin sentence was left, and the people finishing the draft changed it the same day, in their own words, with 'can dry up' as well; we kept no new picture, because today's sources belong in the Final Report as citations.",
+    "We checked every new investing idea in the final draft at its source (the 1987 crash report, the US and Australian regulators on capital-protected notes, a 1995 finance paper, a medicine leaflet), and every one is true.",
+    "But our submitted trading notes already told the judges the bond funds pay what they are worth at the end, not a promised amount, while the draft says a Treasury held to maturity pays exactly what it promised, right after naming the funds.",
+    "One word fixes it ('a Treasury bond'), and another ('main' for 'one weakness') removes a second clash; Kai voted against the first because the sentence is already true of a bond."
    ],
    "huddles": [
     {
@@ -56,6 +59,46 @@
      ],
      "rounds": 3,
      "rounds_today": 3
+    },
+    {
+     "id": "H-028",
+     "title": "The word the writer meant",
+     "question": "Which of V57's lines (the final AI draft for Caplet, landed 08:26 Wed 4 Nov) has only been checked by the people who wrote it, and is each one true at its source and beside our own submitted TNA? (round 8 beat 2; Q16 aimed at V57)",
+     "status": "closed",
+     "room": "Window",
+     "chair": "Felix",
+     "members": [
+      "Felix",
+      "Kai",
+      "Tess"
+     ],
+     "essence": [
+      "We checked every new investing idea in the final draft at its source (the 1987 crash report, the US and Australian regulators on capital-protected notes, a 1995 finance paper, a medicine leaflet), and every one is true.",
+      "But our submitted trading notes already told the judges the bond funds pay what they are worth at the end, not a promised amount, while the draft says a Treasury held to maturity pays exactly what it promised, right after naming the funds.",
+      "One word fixes it ('a Treasury bond'), and another ('main' for 'one weakness') removes a second clash; Kai voted against the first because the sentence is already true of a bond."
+     ],
+     "decided": [
+      "No false line in V57 or its pitch",
+      "Near-breach: P4 'A Treasury held to maturity pays exactly' v the TNA's 'as opposed to a promise of par'; offer 'bond' (+1, 497 strict), 2-1, Kai against",
+      "Near-breach: P8 'one weakness' v the TNA's 'catch'; offer 'main' (+0), Tess",
+      "CORD (Felix): 'matching every payment matches the timing too' only roughly true; ladder about 7.6 v 10.0 years (Kai, MODEL); Caplet's rewrite says 'each payment has its own bond'",
+      "P5 'tend to dry up' VERIFIED (W-09); 'rides on shares' OVERSTATED (Tess); 'booms' offered (+0) as an ear call"
+     ],
+     "seeds": [
+      "Does 'Her income already rides on booms' say back better than 'rides on shares' to strangers? (Writing Room, 16:20)",
+      "Three false versions for Kai's card for Caplet's rewrite: 'we don't duration-match', 'the funds pay exactly what they promised', 'the ladder's one weakness' (Genius Lab, 13:40)"
+     ],
+     "todos": {
+      "done": 7,
+      "total": 9
+     },
+     "path": "keel/huddles/2026-11-04_the-word-the-writer-meant",
+     "transcript": "keel/huddles/2026-11-04_the-word-the-writer-meant/transcript.md",
+     "changes": [
+      "No draft changed. Offers in ../../ips_rewrite/inbox/2026-11-04_window.md"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
     }
    ],
    "research": [
@@ -88,6 +131,24 @@
      "title": "Tess, research note: P4 of FINAL (V57), two sentences",
      "member": "Tess",
      "huddle": "H-029"
+    },
+    {
+     "path": "keel/huddles/2026-11-04_the-word-the-writer-meant/research/felix_reruns_and_sources.md",
+     "title": "Felix's checks, Wed 4 Nov 2026 (H-028 research)",
+     "member": "Felix",
+     "huddle": "H-028"
+    },
+    {
+     "path": "keel/huddles/2026-11-04_the-word-the-writer-meant/research/kai_r2_check.md",
+     "title": "Kai's round 2 check (H-028, Wed 4 Nov 2026)",
+     "member": "Kai",
+     "huddle": "H-028"
+    },
+    {
+     "path": "keel/huddles/2026-11-04_the-word-the-writer-meant/research/tess_r2_sources.md",
+     "title": "Tess, round 2: sources read beside Felix's conclusions (H-028)",
+     "member": "Tess",
+     "huddle": "H-028"
     }
    ],
    "done": [
@@ -146,6 +207,55 @@
      "owner": null,
      "day": "2026-11-04",
      "huddle": "H-029"
+    },
+    {
+     "text": "Felix: V57 line by line at its sources; five idea lines verified (Brady, SEC, ASIC, Bodie, Diabex XR)",
+     "done": true,
+     "owner": "Brady",
+     "day": "2026-11-04",
+     "huddle": "H-028"
+    },
+    {
+     "text": "Felix: W-09, income in downturns (Times 2009, Authors Guild 2021)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-04",
+     "huddle": "H-028"
+    },
+    {
+     "text": "Felix: five re-runs from a clean checkout (L-17, audit, A33, exhibit N, LR-11): identical",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-04",
+     "huddle": "H-028"
+    },
+    {
+     "text": "Cold checker (no stake): case, WInS book, locked TNA, internal consistency",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-04",
+     "huddle": "H-028"
+    },
+    {
+     "text": "Kai: break points 1 and 2; rung-by-rung duration check (7.6 v 10.0 years)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-04",
+     "huddle": "H-028"
+    },
+    {
+     "text": "Tess: read W-09's two pages beside the \"so\"; read the locked TNA against V57 (found \"one weakness\")",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-04",
+     "huddle": "H-028"
+    },
+    {
+     "text": "Felix: offers to the rewrite inbox (`../../ips_rewrite/inbox/2026-11-04_window.md`)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-04",
+     "huddle": "H-028"
     }
    ],
    "open": [
@@ -169,6 +279,20 @@
      "owner": "Library",
      "day": null,
      "huddle": "H-029"
+    },
+    {
+     "text": "Writing Room (Tess, 16:20): \"rides on booms\" v \"rides on shares\" with fresh strangers (request filed)",
+     "done": false,
+     "owner": "Tess",
+     "day": null,
+     "huddle": "H-028"
+    },
+    {
+     "text": "Genius Lab (Kai, 13:40): three false versions onto the card for Caplet's rewrite (request filed)",
+     "done": false,
+     "owner": "Kai",
+     "day": null,
+     "huddle": "H-028"
     }
    ],
    "runs": [
@@ -183,6 +307,12 @@
      "when": "Wed 4 Nov 10:45",
      "room": "Trading Desk (markets and rules check)",
      "what": "No breach, no near-breach; V57 pitch 48 / IPS 496; last WInS order Thu 5 Nov 08:00 (hold); no close after 23 Oct"
+    },
+    {
+     "day": "2026-11-04",
+     "when": "Wed 4 Nov 09:50",
+     "room": "Window",
+     "what": "Beat 2, round 8, as huddle H-028 (Felix, Kai, Tess + one cold checker; 3 agent calls), aimed at V57 (FINAL): **no false line**; two near-breaches against the submitted TNA (P4 \"A Treasury held to maturity pays exactly\" -> \"bond\", 2-1; P8 \"one weakness\" -> \"main\"); \"duration-matching\" trap for Caplet's rewrite (ladder ~7.6 v 10.0 yrs, Kai, MODEL); Brady, SEC, ASIC, Bodie, Diabex verified; W-09 (income in downturns); five re-runs identical; 6 requests closed; D36-FINAL labelled; I80 near-breach (FINAL README)"
     },
     {
      "day": "2026-11-04",
