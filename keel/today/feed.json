@@ -1,6 +1,29 @@
 {
- "built": "2026-11-04T10:02",
+ "built": "2026-11-04T21:51",
  "days": [
+  {
+   "date": "2026-11-05",
+   "weekday": "Thu",
+   "essence": [],
+   "huddles": [],
+   "research": [],
+   "done": [],
+   "open": [],
+   "runs": [
+    {
+     "day": "2026-11-05",
+     "when": "Thu 5 Nov 09:40",
+     "room": "Window",
+     "what": "Beat 2, round 9, freeze, no huddle (3 blind readers, 3 models): the one pass on Ray's word swap (main 07:15): **true, no false line**, pitch 49, IPS 496, case words at :59/:95/:100/:116/:136; P6 \"that fund\" stopped 3 of 3 readers (fix offered, +1). **Two near-breaches beside the final, fixed:** Caplet's README copy (3 lines the final doesn't say) and the readers' card's \"cheque\" sentence; README conflict resolved as a union. L-18 S10/S11 identical. Steady Roots v Caplet XR noted (I06)"
+    },
+    {
+     "day": "2026-11-05",
+     "when": "Thu 5 Nov 07:25",
+     "room": "Noticeboard (daily loop)",
+     "what": "Beat 1, round 9, freeze: FINAL hash/count unchanged (b9368f5b5fa9ffc5, 495); merged the Rooftop send-off and the pitch thread's branch (Ray's I82, I83); I83 \"no invented terms\" broken by the FINAL (floor x3, cheque x3; pitch \"cheques\", \"promises\", \"minimum building gift\"): `../ips_rewrite/inbox/2026-11-05_noticeboard.md`; watchdog 10 of 10; brief; ep 40"
+    }
+   ]
+  },
   {
    "date": "2026-11-04",
    "weekday": "Wed",
