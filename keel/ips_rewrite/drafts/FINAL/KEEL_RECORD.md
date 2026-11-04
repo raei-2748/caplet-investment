@@ -7,7 +7,7 @@ Thu 5 Nov, rewrites it in its own words, and submits it on the SMApply form by *
 5:00 p.m. ET). Keel doesn't submit anything.
 
 - `pitch.txt`: the 50-word elevator pitch field. **48 words.**
-- `ips.txt`: the 500-word IPS field. **491 words** on the strict count (hyphenated words split; `keel/office/tools/textcheck.py`).
+- `ips.txt`: the 500-word IPS field. **493 words** on the strict count (hyphenated words split; `keel/office/tools/textcheck.py`).
   The house cap is 497.
 - `COMMANDMENTS_CHECK.md`: the Commandments, Book 11 and I80 check by a cold reader who didn't write V57, with the fixes
   made after it listed at the end.
@@ -50,8 +50,10 @@ V33 was the Book 10 draft (`../D13/`). It opened with team history and printed m
   forbids (selling a holding before it matures, even for the building); the reinvestment money has a home.
 - **Ray's note (3 Nov): it reads as AI and corny (V55).** Slogan flips, two-word kickers, "That is X." runs and the
   one-line ending came out (`../D35/README.md`). The ideas stayed.
-- **The last real hole (V56).** The reinvestment gap is priced as if no more interest were reinvested, which can only
-  overstate it, so every cheque is paid in every modelled future and none depends on shares.
+- **The last real hole (V56).** The reinvestment gap is priced so that no cheque depends on shares. The wording
+  was corrected twice (section 7): it is now "as if every dollar waiting for a cheque earned nothing", the lock under
+  which every cheque is paid in the base and low-yield worlds (Courtroom exhibit N, KWN-w; MODEL). It is not true in
+  every future: if the 2028 deposit is halved, no wording of the lock covers every cheque (exhibit N, S9).
 - **Caplet's "erudite" priority (V57).** The investing ideas behind each choice are now in the text, each used or
   rejected for a reason that is Laura's (`../D37/README.md`). To fit them, the 7.5% assumption and the stock slice's
   size moved to the Final Report.
@@ -82,3 +84,18 @@ Also applied: "Her income already rides on shares" was overstated (writers' inco
 in 2020), so the sentence is cut and its point joined to the evidence: "... the same downturns that hit share prices, so
 her portfolio shouldn't bet on shares twice." No change needed for "duration-matching": V57 never says it; when Caplet
 rewrites, say "each payment has its own bond", never "we don't duration-match". IPS 491 strict.
+
+## 7. The Library's fact-check (Wed 4 Nov, afternoon)
+- **P7 was false as worded, now fixed.** "as if no more interest were reinvested" left out the funds' own principal: IBTM's
+  prospectus says that by 15 Dec 2032 "the Fund is expected to consist almost entirely of cash", and that cash waits for
+  the January cheque too. Read literally, the old words left a cheque short in about 3 base futures in 100 and 18 in 100
+  if yields fall 2 points for good (exhibit N, KW-N; MODEL). Now: "as if every dollar waiting for a cheque earned
+  nothing" (the KWN-w lock: every cheque paid in both worlds; MODEL). The Library offered "waiting cash earned nothing";
+  we spelt it out (+3 words) because a cold reader had already lost the shorter version of this line once.
+- **P4 "tend to dry up" -> "can dry up".** The evidence is one shock (2020, speaking income, Authors Guild 2021), enough
+  for "can", not "tend to".
+- **Already done:** "Treasury bond" (the Window's fix). **Not needed:** "Her income may already ride on shares": that
+  sentence was cut this afternoon.
+- **Corrected here:** section 3's old "can only overstate it" line, and the cold reader's "say the same" note
+  (`COMMANDMENTS_CHECK.md`, "Applied" item 4), both wrong for the funds' cash. IPS 493 strict.
+
