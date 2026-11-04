@@ -10,7 +10,7 @@ kept. The office ledger is retired (CLAUDE.md, 27 Oct), so no ledger row.
 sentence is false as worded: the safety margin for the bond ladder counts only interest, while the bond funds end their
 lives holding cash, so a margin sized to those words leaves a cheque short in some modelled futures. "As if waiting cash
 earned nothing" fixes it and saves a word (FINAL 491 -> 490); the Window's fixes this afternoon already made two of our
-other three.
+other three. **Applied the same afternoon** (PR #129): "as if every dollar waiting for a cheque earned nothing" and "which can dry up", FINAL 493 strict (PR #129, merged 4 Nov).
 
 ## What changes for the judges (the rewrite thread decides before tonight's hand-over; Caplet rewrites in its own words)
 The huddle tested V57 as it stood at 12:10 (496 strict). Re-read at 13:30 against the FINAL on main (491 strict, after

@@ -4,7 +4,7 @@
 
 **The question.** Which of the final IPS draft's lines (V57) have only been checked by the people who wrote them, and is each one true at its source? (Q16, round 8; lens 1, Invert)
 
-**The essence.** We read the final draft's new investing lines against the people who first wrote the ideas down (regulators, the 1987 crash report, pension textbooks, a fund's own prospectus and the finance papers): seven lines are true as written, three need one word changed, and one more is fixed by the change next to it. One line was false as worded: the final draft's words for the ladder's safety margin count only interest, but the bond funds end their lives holding cash, so a margin sized to those words leaves a cheque short in some modelled futures, while 'as if waiting cash earned nothing' covers both and costs a word less. With the Window's fixes this afternoon, two of our other changes were already made, so one change is left for the people finishing the draft today; it makes the final draft 490 words, and we kept no new picture because today's sources belong in the Final Report as citations.
+**The essence.** We read the final draft's new investing lines against the people who first wrote the ideas down (regulators, the 1987 crash report, pension textbooks, a fund's own prospectus and the finance papers): seven lines are true as written, three need one word changed, and one more is fixed by the change next to it. One line was false as worded: the final draft's words for the ladder's safety margin count only interest, but the bond funds end their lives holding cash, so a margin sized to those words leaves a cheque short in some modelled futures, while 'as if waiting cash earned nothing' covers both and costs a word less. With the fact-checkers' fixes earlier this afternoon, only the margin sentence was left, and the people finishing the draft changed it the same day, in their own words, with 'can dry up' as well; we kept no new picture, because today's sources belong in the Final Report as citations.
 
 ## Round 1: Go out (three scouts) (2026-11-04)
 
@@ -203,6 +203,7 @@ cash, should see P7 before Caplet does (to the Writing Room, 16:20).
 - Deletion test re-run from a clean copy reproduces the Kitchen's results key for key: no payment depends on shares with the funds as funds (0 of 200,000 futures worse off in the base and low-yield worlds, MODEL)
 - All four fixes: 496 strict (house cap 497). No slip kept
 - Re-read at 13:30 against the FINAL on main (491 strict, after the Window's fixes): the P7 lock fix still applies (490 strict); 'A Treasury bond held' already in; 'Her income already rides on shares' cut, so 'may' is moot; 'can dry up' optional (the Window's Times 2009 source on advances, not re-fetched by the Library). The Window reads 'no more interest' as covering the funds (100%); the Library reads it as KW-N; the fix pays every cheque on either reading (MODEL)
+- Applied by the rewrite thread (PR #129, 4 Nov): "as if every dollar waiting for a cheque earned nothing" and "which can dry up", FINAL 493 strict (PR #129, merged 4 Nov)
 
 ## Still open (seeds for the next huddle)
 

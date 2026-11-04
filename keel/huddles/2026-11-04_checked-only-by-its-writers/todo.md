@@ -9,7 +9,7 @@
 - [x] Settle and land: 12 verdicts, four word fixes, 496 strict, no slip (Felix; done 4 Nov: `posts/r3_felix.md`)
 - [x] One first-time reader on the new P7 words before the hand-over (chair; done 4 Nov: "waiting cash" guessed and said back right, `posts/r3_stranger.md`)
 - [x] Re-read the fixes against the FINAL on main after the Window's fixes landed (Library; done 4 Nov 13:30: "bond" already in, income line cut, "can" optional, the lock fix still needed, 490 strict)
-- [ ] Apply or reject the P7 lock fix in FINAL before the hand-over, and correct KEEL_RECORD.md's "can only overstate" (the rewrite thread; by end of Wed 4 Nov)
+- [x] Apply or reject the P7 lock fix in FINAL before the hand-over, and correct the records (the rewrite thread; done 4 Nov: "as if every dollar waiting for a cheque earned nothing" and "which can dry up", FINAL 493 strict (PR #129, merged 4 Nov))
 - [ ] A reader of the whole FINAL with the lock fix, with no hint about the funds' cash, says P7 back (Writing Room; by Wed 4 Nov 16:20)
 - [ ] Seed: when the 2028 deposit falls short in the same downturn that hits her shares, does every cheque still get paid under the "waiting cash" lock? Add a KWN-w row to exhibit N's halved-deposit world, with the deposit tied to a share fall (Genius Lab, MODEL, Final Report)
 - [ ] Re-open before the Final Report cites them: Leibowitz 1986 parts I and II, the publisher's Kritzman page (1994 and 2015), the iShares fact sheets' "Monthly" field, and a source for the March 2020 share fall (Library, from Sun 8 Nov)
