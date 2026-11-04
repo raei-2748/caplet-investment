@@ -98,3 +98,16 @@ named investing concepts). The SMApply form allows no citations; the Final Repor
 > facility contribution, and only its interest buys stocks. Co-sponsors hear a credible range she already owns.
 
 Earlier sections of this file still say "floor" / "minimum"; use these two versions instead.
+
+## Ray's draft (4 Nov, 53 words) sharpened with the name Steady Roots (AI edit, Claude)
+
+**S1 (50 words), name first**
+> Steady Roots: Laura's human capital, from publishing and speaking, fluctuates with stocks. To tame that risk,
+> her first $300,000 buys ten Treasuries, one per operating payment. Her 2028 contribution buys Treasuries for
+> part of her facility contribution; only their interest buys stocks. Co-sponsors receive a credible range she already owns.
+
+**S2 (50 words), name in the first sentence**
+> Laura's human capital, from publishing and speaking, fluctuates with stocks; Steady Roots tames that
+> entrepreneurial risk. Her first $300,000 buys ten Treasuries, one per operating payment. Her 2028 contribution
+> buys Treasuries for part of her facility contribution; only their interest buys stocks. Co-sponsors receive a
+> credible range she already owns.
