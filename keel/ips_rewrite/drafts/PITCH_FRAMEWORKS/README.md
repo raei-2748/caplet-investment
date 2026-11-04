@@ -34,6 +34,8 @@ must say so on the page; no one answers a judge's questions before the semifinal
 backwards to the cause. The pitch names the failure mode, then shows the team eliminated it.
 Signals the team stress-tested the plan, not just designed it.
 
+> **Fact check (daily loop, 5 Nov):** not true as worded. A US default is not the only way to miss a payment: the FINAL says falling reinvestment rates can leave the ladder short, and the 2028 deposit may have to complete it (`../FINAL/ips.txt` P7; `../FINAL/LOOK_ALIKE_CARD.md` section D). This version also uses "cheque" and "minimum building gift", which Ray banned (I83).
+
 > We asked what would have to go wrong for Laura to miss a cheque. Answer: the US Treasury
 > defaults. Her first $300,000 buys ten Treasuries, each maturing before a January payment.
 > No share needs to rise. Her 2028 deposit sets a minimum building gift; only its interest

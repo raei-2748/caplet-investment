@@ -166,6 +166,8 @@ Shape: idea -> how each goal is funded -> what Laura gets.
 
 Moved to the IPS body: $300,000, one Treasury per payment, the 2028 contribution, the Treasury fund, interest into stocks.
 
+> **Fact check (daily loop, 5 Nov):** "fluctuates with stocks" states as fact what the case does not establish. The FINAL says her income *can* dry up in the same downturns (`../FINAL/ips.txt` P4; `../FINAL/LOOK_ALIKE_CARD.md` section E). Keep it conditional if this version is used.
+
 **50-word systematic version (4 Nov)**
 > Laura's human capital, earned from publishing and speaking, fluctuates with stocks. To tame that
 > entrepreneurial risk, Steady Roots funds her ten operating payments with Treasuries held to maturity and her
