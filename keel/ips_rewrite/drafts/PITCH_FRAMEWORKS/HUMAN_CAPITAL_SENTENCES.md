@@ -72,3 +72,15 @@ named investing concepts). The SMApply form allows no citations; the Final Repor
 > shares, so the operating commitment never depends on either. Her first $300,000 buys ten Treasuries, one
 > per operating payment from 2033. Her 2028 contribution sets a minimum facility contribution, and only its
 > interest goes into shares.
+
+## Ray's draft (4 Nov), compressed to 50 words (AI edit, Claude)
+
+**A (49 words, drops the 2031 sentence)**
+> Laura earns like a stockbroker: her publishing advances and speaking fees move with stocks. To tame that
+> entrepreneurial risk, her first $300,000 buys ten Treasuries, one maturing before each operating payment.
+> Her 2028 contribution buys a Treasury fund that sets her facility contribution's floor; only its interest buys shares.
+
+**B (50 words, keeps the 2031 range)**
+> Laura earns like a stockbroker: publishing advances and speaking fees rise and fall with stocks. Her first
+> $300,000 buys ten Treasuries, one per operating payment; her 2028 contribution buys a Treasury fund setting
+> her facility contribution's floor, and only its interest buys shares. Co-sponsors hear a range she already owns.
