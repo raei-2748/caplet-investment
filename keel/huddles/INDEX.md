@@ -4,6 +4,7 @@
 
 | ID | Opened | Title | Status | Rounds | Members | To-dos | Essence |
 |---|---|---|---|---|---|---|---|
+| H-032 | 2026-11-04 | [Why this, for her](2026-11-04_why-this-for-her/transcript.md) | closed | 3 | Jun, Amara, Kai, Felix, Tess, Nora | 9/11 | All six of us pointed at the same sentence: the final says it buys one bond per payment because that 'never needs rebalancing', which reads as our convenience, not a reason for Laura. Six outside readers, in two blind te |
 | H-031 | 2026-11-04 | [Read with the case open](2026-11-04_read-with-the-case-open/transcript.md) | closed | 3 | Amara, Kai, Felix | 7/8 | Nobody had read the final IPS against the client case itself, so we did, line by line: it answers every question the case and Wharton put to it, and we made a one-page card that shows Caplet which words carry each answer |
 | H-030 | 2026-11-04 | [The look-alike card](2026-11-04_the-look-alike-card/transcript.md) | closed | 3 | Kai, Jun, Amara | 9/11 | We built a one-page check sheet for tomorrow's rewrite: each fact in the final IPS beside the false version a rewrite tends to land on, with the part that differs in capitals, the way hospitals label look-alike medicines |
 | H-029 | 2026-11-04 | [Checked only by the people who wrote it](2026-11-04_checked-only-by-its-writers/transcript.md) | closed | 3 | Felix, Nora, Tess, Kai | 9/11 | We read the final draft's new investing lines against the people who first wrote the ideas down (regulators, the 1987 crash report, pension textbooks, a fund's own prospectus and the finance papers): seven lines are true |
@@ -106,3 +107,6 @@
 - H-030: Re-run L-18's deposit break point on the 6 Nov close before the Final Report quotes it (Genius Lab, from Sat 7 Nov)
 - H-028: Does 'Her income already rides on booms' say back better than 'rides on shares' to strangers? (Writing Room, 16:20)
 - H-028: Three false versions for Kai's card for Caplet's rewrite: 'we don't duration-match', 'the funds pay exactly what they promised', 'the ladder's one weakness' (Genius Lab, 13:40)
+- H-032: Why does a ladder held to maturity need to reinvest anything? 3 of 3 second readers couldn't see it (the bonds pay interest years before the cheques start): card now, Final Report later
+- H-032: The closing tablet line was called the corny one in all 27 reader answers across both tests: Caplet's call
+- H-032: Readers prefer the 'no forced sale that January' paragraph more than it makes them understand the why: a Final Report sentence, with the risk the other method leaves open

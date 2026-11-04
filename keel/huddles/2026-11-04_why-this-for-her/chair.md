@@ -67,3 +67,26 @@
   final. If none clears, no reason goes into the IPS tonight, and the room chooses between (2) and (4) on H's result.
   Round 3's two checkers (Felix for the read-it side, Nora for the "exactly"/card side) check one thing each and vote
   last.
+
+## Round 3 and the landing (19:00-19:12)
+- **Checks.** Felix (for the read-it side): Amara's decisive call holds. Cell by cell, the speed judge's own answer for
+  the final is a 2, not 3 ("the cheques are fixed and her top-up money is unreliable in a crash": no sale); G's
+  "Same plan and same reasoning" sits straight after it, so G ties either way. G clears (9 v 7) only if "same
+  reasoning" skips back past the final to E's answer, a reading that would also put H, the final but for two words,
+  ahead of the final. And case 97-98 ("define what they consider a high degree of funding certainty") is still
+  answered by "So high certainty means no payment depends on shares." Nora (for the card side): the cut is allowed and
+  wanted, claims no new reason, and changes nothing Caplet asked to keep; she wrote the card.
+- **Final vote: (4), 6-0** (Amara, Nora, Felix, Jun, Kai, Tess). Kai's stated fallback (2) was set "when the choice was
+  a risky merge or nothing"; H is neither. Keel's recommendation only: offer the cut to the rewrite thread tonight;
+  the reason, "exactly", "In January 2027"/"with fixed end dates" and the ending go on Caplet's card.
+- **CORD (chair, on the chair's own notes):** chair.md item 3 and the brief call Ray's "exactly" words "Book 4"; they
+  sit in **Book 5** ("Caplet XR locked; stop hedging; be extraordinary", Mon 26 Oct, `../../BIBLE.md` line 189 on).
+  The brief also calls the D35 list "Ray's I80 list"; it is **our** list, written by the rewrite thread on 3 Nov to
+  answer Ray's note that the drafts read "as AI and corny" (Nora caught both in round 3).
+- **CORD (Felix, on Amara's RESULTS_r3):** the speed judge's Q1 for the final is a 2 on its own words, not 3. It changes
+  no line of the bar.
+- **Not part of the vote, from the second read (3 of 3 readers):** nobody could see why a ladder held to maturity needs
+  to reinvest anything ("The text never says the bond interest arrives years before the cheques start", the
+  professor). That's P7, outside tonight's paragraph (LS-10): it goes on the card as a reader finding, and to the
+  Final Report.
+- A stray guard call (a placeholder agent told to do nothing) ran once by the chair's slip and wrote nothing.
