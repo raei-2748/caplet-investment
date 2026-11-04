@@ -1,0 +1,5 @@
+/home/user/caplet-investment/keel/library/ips_numbers_2026-10/ips_numbers.py:255: RuntimeWarning: invalid value encountered in divide
+  
+/home/user/caplet-investment/keel/library/ips_numbers_2026-10/ips_numbers.py:256: RuntimeWarning: invalid value encountered in divide
+  # --- 7. Allocation in Jan 2028 (typical path) ---
+/home/user/caplet-investment/keel/library/ips_numbers_2026-10/ips_numbers.py:542: RuntimeWarning: invalid value encountered in divide
