@@ -21,7 +21,8 @@ Last updated: Fri 6 Nov ~02:20 Sydney. Live round: R8 (500/50, Writer's text ver
 | V5 Judge – Practitioner | (`local_634399e4`) | running (R2 now) | `rounds/R*_judge_practitioner.md` | blind score + reasons | – |
 | V6 Judge – Cold Reader | (`local_b4476375`) | running (R2 now) | `rounds/R*_judge_cold.md` | paraphrase every paragraph | – |
 | V7 Judge – Contrarian | Idea-List Judge, 2nd shift | on R5 | `rounds/R*_judge_contrarian.md` | blind score + reasons | – |
-| S  Commits + portal | Repo Steward (`local_9db43c70`) | committed 3593c3b, pushed; exporting other threads | git | `final_night/` committed hourly, pushed, portal green | – |
+| G  Creativity lab | Genius Lab (`local_8f5f8876`) | on call (kept by Ray 02:40) | `GENIUS_LAB.md`, `rounds/R*_genius_lab.md` | ideas to the Writer by message; no round files | – |
+| S  Commits + portal | Repo Steward (`local_9db43c70`) | 3593c3b, then 89520ff (R4-R8, 121 files), pushed | git | `final_night/` committed hourly, pushed, portal green | – |
 
 ## Blockers
 - **02:05 overwrite (resolved by the Writer):** session "Genius Lab" (lead-fork-16, `local_8f5f8876`, author of PR #150) wrote its own `rounds/R8_ips.txt` + R8 pack over the Writer's, reintroducing "two decades". Told to stop; rule 0 added to TEAM.md. Genius Lab confirmed it stopped (02:10). The Writer restored its R8; blind/R8_pack.txt is still Genius Lab's text until the Writer rebuilds it. The panel waits for the Writer's "R8 ready".

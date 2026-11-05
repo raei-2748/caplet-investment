@@ -89,3 +89,14 @@ reserve. Cut whole: "one honest cost" (sentence 2 carries it), "because co-spons
 "A patient investor … A January cannot." (again; budget). Pitch rewritten: no "That deposit", "buy" once.
 Note: at ~00:00 another session overwrote R8_ips.txt (one-writer breach, reported to the Chief of Staff); the writer
 restored this text.
+
+## R8 panel: Facts PASS; Archivist no CONTRADICTS (one strain, "never whether she meets a payment", kept: Book 5, true
+by design); Wharton 43/50, nothing fails; Contrarian 38.5 YES; Practitioner 36.5 YES; Bible no ★ (two polish items).
+
+## R9 – 500, pitch 50 (polish only)
+Voice: "her other half" (reads as her partner) → "the half of her shares she kept"; the pricing mechanism gets its own
+sentence again ("because it counts growth that hasn't happened yet"); "its" pile-ups untangled ("Each holding, kept to
+its end, …"; "money that waits: interest and early repayments sit for months …"); "A crash on its own …" → "Falling
+shares before 2031 can lower only the top, and rising shares lift it."; "Only about" → "Roughly the interest they will
+earn". Pitch: "with roughly its interest in world shares".
+Org (Ray, ~00:50): the night team is now four departments (ORG.md); five finished reader sessions archived.

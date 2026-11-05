@@ -45,6 +45,7 @@ reviewed and rewritten many times. Live state is in `BOARD.md`.
 | V4 | Archivist | Each round against the submitted TNA, the WInS trade notes and the locked holdings: any contradiction is a stop | `CONSISTENCY.md`, `rounds/R*_archive.md` | per round |
 | V5 | Judge – Practitioner | Blind judge: a fixed-income portfolio manager, sceptical, rewards rigour and correct terms | `rounds/R*_judge_practitioner.md` | per round |
 | V6 | Judge – Cold Reader | Blind judge: a Wharton undergraduate evaluator who knows the case but not the jargon; paraphrases every paragraph, flags any sentence not clear on one reading | `rounds/R*_judge_cold.md` | per round |
+| G | Genius Lab (`local_8f5f8876`, kept by Ray 02:40) | Creativity lab: strategy-level ideas (I84: in the plan and its reasoning, never metaphor), each checked against the locked record and the books; never writes IPS sentences meant for the page | `GENIUS_LAB.md`, `rounds/R*_genius_lab.md` | on call |
 | V7 | Judge – Contrarian (R7's second shift, from 01:30) | Blind judge: an equity-minded industry judge who thinks the plan is too timid for a client "willing to take thoughtful risks"; scores creativity and conviction | `rounds/R*_judge_contrarian.md` | per round |
 
 Every session was forked from the same thread, so blindness is a discipline, not a guarantee. Judges read blind (Commandment IX): they see only the round's pitch and IPS and `WHARTON_WORD.md`, never the
