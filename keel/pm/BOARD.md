@@ -1,7 +1,7 @@
 # Task board (real Caplet work; run by Keel)
 
 Rules: `LOOP.md`. WIP limit 3 in Doing. Priority P = Impact (1-3) x Urgency (1-3); pick 4 or more. Owner = a Keel
-desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Wed 4 Nov 2026, 07:25 (daily loop; top 3 kept; item 1 now V55, Ray's plain-English version of 3 Nov; K01 is due tonight).
+desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Thu 5 Nov 2026, 07:20 (daily loop; freeze day; top 3 kept; K01 delivered as the FINAL, V57; Ray's I83 "no invented terms" flagged against it).
 
 **This week's top 3 (Mon 2 - Sat 7 Nov; set by the weekly plan, Sun 1 Nov 17:00):**
 1. **Final AI draft to Caplet by the end of Wed 4 Nov [K01]** (rewrite thread; the Writing Room and the Window feed
@@ -63,6 +63,7 @@ desk (AI) or a Caplet role (student). Dates Sydney. Last groomed: Wed 4 Nov 2026
 ## Done
 | ID | Task | Owner | Done | Output |
 |---|---|---|---|---|
+| SD-N10 | Round 9 gathered (freeze): the FINAL's hash and count unchanged; Ray's 4 Nov rules I82/I83 found on the pitch thread's branch and merged; the FINAL uses "floor" x3 and "cheque" x3, the pitch "cheques", "promises", "minimum building gift": flagged to the rewrite thread, FINAL untouched | Nora | Thu 5 Nov | `keel/ips_rewrite/inbox/2026-11-05_noticeboard.md` |
 | SD-A13 | Round 8 recorded; the final IPS checked against the submitted TNA and all eleven trade notes (no contradiction) with two blind outside readers (no HIGH; both found October's "duration-matching" word, A34, Final Report); three cards beside the final, each checked against it | Tess | Wed 4 Nov | `../office/outbox/2026-11-04_archive_the-word-october-used.md` |
 | SD-N09 | Research round 8 gathered: Q16 aimed at V55 (which lines only their writers have checked; lens 1, Invert; last round before the freeze); Felix's job re-aimed at V55's softer option clause; V55's 7.5% sent to the Window as a gate. Read-back clean, 4 of 4 | Nora | Wed 4 Nov | `keel/loop/rounds/2026-11-04.md` |
 | SD-N08 | Research round 7 gathered: Q15, which words in D plus the cure would the weakest stranger have to guess (0:3 dial, last promotion day); lens 19; scouts Amara (capital-protected notes), Kai (weather shares), Jun (medicine leaflets and their readers' test). LS-14 read-back clean, 5 of 5 | Nora (Felix reading back) | Tue 3 Nov | `keel/loop/rounds/2026-11-03.md` |

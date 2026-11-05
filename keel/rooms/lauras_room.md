@@ -1,15 +1,18 @@
 # FICTION (the room and the simulated people) + the real case. Laura's Room
 
 ## Now
-- **Doing:** Round 8 beat 6 done: the FINAL (V57) read against every line of the case, three ways, in huddle H-031 (Amara as a SIMULATED co-sponsor and SIMULATED Laura, Kai as the pension regulator in its own words, Felix as a judge with the case open; 3 agents, 3 rounds, 9 posts). LR-12
-- **Decided:** every case requirement is answered or moved to the Final Report by Wharton's own list; four words offered 3-0 (P7 "she names a lower range", P1 "towards running" and "Part of what's left", P2 the Lab's "before"; 495 strict); the case card ADOPT for Caplet's rewrite; the covenant, "one borrower" and cushion lines to the Final Report. Keel's call logged
-- **Next:** the rewrite thread takes or leaves the four words tonight; the Writing Room reads "she names a lower range" to strangers (16:20); the Archive puts the case card beside the FINAL and fixes the look-alike rows A and J if the words go in (19:10)
-- **For the judges:** `../ips_rewrite/inbox/2026-11-04_lauras-room.md` (full text `lauras_room/LR-12_offered_ips.txt`); the case card `../huddles/2026-11-04_read-with-the-case-open/research/case_card_v3.md`; Client Knowledge (:101-103, :109-120), Investment Strategy (flexibility, diversification)
-- **Updated:** 2026-11-04 15:55 Sydney
+- **Doing:** Round 9 beat 6 (Thu 5 Nov, freeze): nothing asked, hash unchanged. Read the FINAL's hash (IPS `2c48738daa2113ce`, 496 strict; pitch `71fcadfb0fbe898e`, 49), `INSTRUCTIONS.md` (nothing after I83), `ASK_HUMANS.md` (no new answer) and Drive's modified time on Caplet's IPS Report Doc (12:22:59, already taken by the Genius Lab)
+- **Decided:** no simulated reader today (Keel's call under the freeze: the FINAL had its full case read on 4 Nov, LR-12, and its word swap its one pass this morning; LS-10, no second room on the same text)
+- **Next:** if Caplet asks a case question or sends a rewrite before Sat 7 Nov 09:00, the first beat after it lands takes it once, against the case card; Taiwan research opens Sun 8 Nov for the Final Report
+- **For the judges:** no draft change; the case card beside the FINAL (`/mnt/project-files/ips/FINAL/CASE_CARD.md`) is this room's last IPS output
+- **Updated:** 2026-11-05 15:25 Sydney
 
 > Room card: `../OFFICE.md`. Host: Amara ("What does she feel in a bad year?"). Agents: `case-analyst`,
 > `cosponsor-reader`, `taiwan-researcher` (Taiwan research opens Sun 8 Nov).
 
+> **State (Thu 5 Nov, 15:10 run, round 9 beat 6, freeze):** nothing asked; hash unchanged (IPS `2c48738daa2113ce` 496,
+> pitch `71fcadfb0fbe898e` 49); Caplet's doc last modified 12:22:59 (the Genius Lab's pass). No reader run. Next run: check
+> Drive's modified time and INSTRUCTIONS first; take a case question or a rewrite once, else one line and stop.
 > **State (Wed 4 Nov, 15:10 run, round 8 beat 6):** LR-12 (`lauras_room/LR-12_read_with_the_case_open.md` +
 > `_offered_ips.txt`; no model run, figures from exhibit N and L-18): the FINAL against all 169 case lines; the case card
 > (`../huddles/2026-11-04_read-with-the-case-open/research/case_card_v3.md`, 19 rows); four words offered (495 strict).

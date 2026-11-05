@@ -1,11 +1,11 @@
 # FICTION (the room) + real drafts. The Writing Room
 
 ## Now
-- **Doing:** round 8 beat 7 (4 Nov): three first-time readers on the FINAL exactly as Caplet gets it tonight (V57 after PR #132, 495 strict), key sealed first; the three open requests to this room answered in one read
-- **Decided:** no hard issue, no change offered (the sealed bar was never met); the lock words held 3 of 3 with no hint, "she names a lower range" 2 of 3 (one unsure); five reader notes go to the cards and the Final Report, led by P5's "this" (2 of 3 stopped)
-- **Next:** after the hand-over: read Caplet's own-words rewrite against the two cards the moment it exists (Thu 5 - Fri 6 Nov), counts first; then the Final Report
-- **For the judges:** nothing changes tonight; the final reads true to three kinds of first-time reader
-- **Updated:** 2026-11-04 17:05 Sydney
+- **Doing:** round 9 beat 7 (Thu 5 Nov, freeze): nothing asked, hash unchanged. Read Drive's modified time on Caplet's IPS Report Doc (12:22:59, already taken by the Genius Lab), `INSTRUCTIONS.md` (nothing after I83) and `ASK_HUMANS.md` (no new answer); ran `textcheck.py` on the FINAL (IPS 493 / 496 strict, pitch 49, 0 non-ASCII; hashes `2c48738daa2113ce` / `71fcadfb0fbe898e`, project folder matches)
+- **Decided:** no stranger read and no issue list today (Keel's call under the freeze): Caplet's own-words rewrite of the FINAL doesn't exist yet, and every text in their doc has had its one pass (LS-10)
+- **Next:** the first beat after Caplet's rewrite of the FINAL lands takes it once against the two cards, counts first (Fri 6 Nov is the last full day); the Final Report from Tue 10 Nov
+- **For the judges:** no draft change; the FINAL reads clean on this room's check
+- **Updated:** 2026-11-05 16:28 Sydney
 
 > AI DRAFT material throughout (Claude); not for submission as written. (Keel is a simulated team, AI-written.)
 
@@ -14,6 +14,10 @@
 > Rule: flag only hard issues (limits, rule breaches, facts, numbers, formatting) with minimal edits; never reword
 > for taste or soften a confident claim. Suggestions stay in the repo; never touch the Google Docs.
 
+> **State (Thu 5 Nov, 16:20 run, round 9 beat 7, freeze):** nothing asked; hash unchanged (IPS `2c48738daa2113ce` 496, pitch
+> `71fcadfb0fbe898e` 49, 0 non-ASCII); Caplet's doc last modified 12:22:59. No reader run. Next run: Drive's modified time and
+> INSTRUCTIONS first; take Caplet's rewrite of the FINAL once if it has landed, else one line and stop.
+>
 > **State (Wed 4 Nov, 16:20 run):** beat 7 done on the FINAL (495, pitch 48) with three strangers (no member huddle: the routine's three agent calls went to readers); key, text as read and answers in `../drafts/writing_room_2026-11-04/` (`READERS.md` first). Open to this room: nothing; one request out (Archive: reader notes onto the cards).
 >
 > **State (Tue 3 Nov, 16:20 run):** beat 7 done as huddle H-025 on V54 (D34, 497): texts, the four strangers' answers, the sealed key and the tally in `../huddles/2026-11-03_words-a-stranger-can-say-back/`; W5 + packet builder in `../drafts/writing_room_2026-11-03/` (README first). Open to this room: nothing; two requests out (Window gate, Courtroom read of W5).
@@ -52,6 +56,7 @@
 | Thu 29 Oct (16:20) | V29 (D9) + three texts (A hard fixes; B four doors; C B with the range kept) | V29 495, pitch 48; A 499, B 498, C 497 | 4 + reader notes: "never changes"; "carries risk" (57%); "$300,000 buys them" (3 readers); "three times" stale (six); "what's left", "one dollar in fifteen" | `../office/outbox/2026-10-29_writing-room_the-order-and-the-clock.md` |
 | Fri 30 Oct (16:20) | B2, B3 (C-03) -> B2f, B3S, B3O, B3W | B2f 488, B3S 492, B3O 497, B3W 500 (498 split); pitch D9 48 | 5: count at 500; deletion line (W1 lost 3-0, "them" antecedent); slide "range"; "one dollar in fifteen" reads as a yield; "stand or fall as one" 3 of 3 | `../office/outbox/2026-10-30_writing-room_each-end-its-own-odds.md` |
 | Wed 4 Nov (16:20) | FINAL V57 after PR #132 (3 strangers, key sealed first) | IPS 495 strict (492 by spaces), pitch 48; 0 non-ASCII | 0 hard issues (bar not met); 5 reader notes for the cards/FR: P5 "this" (2 of 3 stopped), bottom can fall (1 of 3), "bet on shares twice", "no payment depends on shares" v P7, income in a recovery | `../office/outbox/2026-11-04_writing-room_three-strangers-on-the-final.md` |
+| Thu 5 Nov (16:20) | FINAL after Ray's I83 swap (freeze; nothing new from Caplet) | IPS 496 strict (493 by spaces), pitch 49; 0 non-ASCII | 0 (no new text; no read run) | none (round file `../loop/rounds/2026-11-05.md` s7) |
 
 ## Tool changes
 - 27 Oct: `words_limit()` = the larger of the two counts; the summary line says "quote the larger"; the portal's IPS

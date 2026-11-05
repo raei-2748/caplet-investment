@@ -1,21 +1,20 @@
 # FICTION. The Rooftop: the big picture, every two days
 
 ## Now
-- **Doing:** Looked back on Sat 31 Oct to Mon 2 Nov (huddle H-020: Tess, Nora, Jun, three rounds, one agent each); sent off round 7 (Tue 3 Nov), the last day anything new is promoted
-- **Decided:** LS-15 (2-1): before a room cuts or moves a line, it searches the register, reads out the line's jobs and HOLDs, and names what carries each; LS-10 to 2 (P8 gets two beats Tuesday), LS-14 to 1, LS-06 and LS-13 ruled; round 7 asks Q15 (which words would the weakest stranger have to guess?), lens 19; scouts Amara, Kai, Jun; Tess hunts, Nora judges, Felix builds; "her promise" goes to one stranger with the TNA open at 16:20
-- **Next:** Wed 4 Nov (even date), with the final AI draft going to Caplet that night: did round 7's plainer words pass the weakest stranger, and did LS-15 stop a cut from leaving a job with nobody to do it?
-- **For the judges:** IPS: plainer words wherever a stranger would have to guess (the six stumbles); the pitch calls the cheques "a promise" while the case keeps "promise" for the 2031 range (note to the rewrite thread)
-- **Updated:** 2026-11-02 21:10 Sydney
+- **Doing:** Looked back on Tue 3 to Wed 4 Nov on hand-over night (huddle H-033: Tess, Jun, Amara, three rounds, one agent each, plus one first-time reader); sent off round 9 (Thu 5 Nov), a freeze
+- **Decided:** keep the three cards, no merge (3-0); the README Caplet reads first now sends them to a card by task and its stale lines are fixed (one first-time reader, 6 of 6 on a sealed key); LS-17 (search, then read, every file handed over beside a changed text); LS-10 to 3, LS-16 to 1, LS-15 held; round 9: no question, no scouts, Caplet's words read where they land, one pass on a rewrite from the first beat after it lands
+- **Next:** Fri 6 Nov (even date), the night before the IPS is due: did the freeze hold (no word of ours in Caplet's rewrite), and if anything was handed over, did LS-17 run on it?
+- **For the judges:** no change to the IPS or the pitch; the note beside them sends the team to the right card for each kind of change
+- **Updated:** 2026-11-04 21:15 Sydney
 
 
-> **State (for the next run; update every run).** Last entry: Mon 2 Nov 2026, 20:20 Sydney (covers Sat 31 Oct to Mon
-> 2 Nov: rounds 4-6, Book 11, V37 to V53). Next run: Wed 4 Nov (even date), the night the final AI draft goes to
-> Caplet. Start from `git log --since="2026-11-02 10:00Z"` on main; read rounds `../loop/rounds/2026-11-03.md` and
-> `2026-11-04.md`, `../loop/LESSONS.md` (did LS-15 hold when a room cut a line? did P8 get only two beats?), the
-> newest `../ips_rewrite/VERSIONS.md` rows and whatever the thread sends Caplet. Watch: our mistakes keep moving. On
-> Friday it was not reading Caplet's newest message; on Monday it was our own record leaning on a line we had just cut,
-> and lessons built on a member's reading instead of a stranger's. Two of three first-draft lessons fell to their own
-> owners' checks: keep doing that.
+> **State (for the next run; update every run).** Last entry: Wed 4 Nov 2026, 20:20 Sydney (covers Tue 3 to Wed 4 Nov:
+> rounds 7-8, V55 to V57 = the FINAL, the hand-over). Next run: Fri 6 Nov (even date), during the freeze, the night before
+> the IPS is due (Sat 7 Nov 09:00 Sydney). Start from `git log --since="2026-11-04 10:30Z"` on main; read rounds
+> `../loop/rounds/2026-11-05.md` and `2026-11-06.md` (did each beat stop at "nothing asked", or answer Caplet in one
+> pass?), `../INSTRUCTIONS.md` and `../pm/ASK_HUMANS.md` for anything Caplet said, and `../loop/LESSONS.md` LS-17. Watch:
+> our mistakes keep moving. Monday it was a cut line's job; Wednesday the text moved under the checkers, and the slip was
+> in a file *beside* the text, not in it. From Sun 8 Nov the loop turns to the Final Report (dial 2 : 1).
 
 > Room card: `../OFFICE.md`. Tess hosts; every two days (scheduled routine "Keel room: The Rooftop", from 24 Oct), and
 > on Sundays after the week plan (`../pm/routines/keel-weekly-plan.md`).
@@ -27,6 +26,50 @@ This is the team's reflection on its own growth, the raw material the story uses
 reflection must come from Caplet's real events (Wharton ethics; `../EPISODE_RULES.md` rule 2).
 
 ## Entries (newest at the top)
+
+### Wed 4 Nov 2026, 20:20 · Tue 3 to Wed 4 Nov (hand-over night)
+(Keel is a simulated team, AI-written.) Three of us in the thread tonight: Tess, Jun and Amara. Nora, Felix and Kai are
+up here too, but not in it, which got awkward when we spent an hour on whether to merge the three cards they each made.
+Each line below is from that member's own post in huddle H-033
+(`../huddles/2026-11-04_the-roof-on-hand-over-night/transcript.md`, three rounds, one agent each, and one first-time
+reader). Built from: rounds 7-8 (`../loop/rounds/2026-11-03.md`, `2026-11-04.md`), `../INSTRUCTIONS.md` I80-I81, the
+FINAL and the files beside it (`../ips_rewrite/drafts/FINAL/`), `../loop/HEALTH.md` and `../loop/LESSONS.md`.
+
+**Why are we doing this?**
+Jun: So that on Saturday at 09:00 Sydney the page Caplet pastes in is one they can say back and defend, and so that
+Ray's complaint on Tuesday (it reads corny, and nobody can follow Keel) has an answer that is a count. Amara: Ray submits;
+the rewrite is all six of theirs. Everything we did to the draft today was meant to make [their] job lighter, and I think we
+made it heavier in one place. Tess: So that on Saturday the page is theirs and everything beside it is true too; tonight's
+stale line sat in a page I'd typed in myself.
+
+**What have we learned since Monday?**
+Tess: A plainer word can make a true line false, and only the source catches it. Tonight I misquoted my own readers and
+the written notes had it right, which is my mum's whole job. Amara: I changed my mind about what "plainer" means. Then I
+quoted the failure as the fix, the first thing a co-sponsor would catch. Jun: I wrote three blind rewrites of the final
+and broke 7 facts, and I took that to mean a rewrite is the danger. Then all five test rewrites, by five different
+writers, made the same slip, so the danger sits in a few spots, not everywhere. On the roof's two questions: plainer
+words mostly passed, but only 1 of 3 readers saw that the range's bottom can fall, and the cuts held: the income line and
+", to us," each had their job named before they went. And: I was wrong to post both [numbers] with no saved run, and the lock doesn't zero all $49k, only what's unearned when she names the range.
+
+**Who are we becoming?**
+Amara: A team that is good at checking a page and worse at knowing when to stop touching it. I wrote that we can't stop
+touching the page, then asked for a new one at nine o'clock. Jun: A team that can hand over a page and then stay out of the way. Tess: People who fix
+and test the page we have instead of starting a new one at nine o'clock, now that Amara has caught us at it.
+
+**What the roof hands down (real work, suggestion only):** one lesson, **LS-17** (Amara's, 3-0; search and read both
+because we split): "Before a changed text is handed over, someone who wrote none of the files beside it searches each,
+README included, for the old words and old word count, reads every hit, then reads each file through against the
+handed-over hash." Run tonight: a search of quoted phrases missed "tends to dry up", a search for the old text's
+four-word runs caught it and three stale record lines, and only reading caught a fifth. No hash lesson (the Archive's
+HEALTH rule already says it). LS-10 to 3 (P7 had four beats and three moves), LS-16 to 1 (bent: the 7.6 v 10.0 years
+figure reached Caplet's line before anyone put anything back; Jun put three things back tonight and it held, MODEL),
+LS-15 held. **The note on top:** no merge (3-0); the README now sends the team to a card by task (cutting a sentence,
+changing a word or fact, weighing the last line), with "can dry up", "helped deepen the 1987 crash" and "covered with
+Treasuries", the FINAL's own words, and without the untrue "no false line"; one first-time reader with only that page
+got all six questions right against Amara's sealed key. **Round 9 (Thu 5 Nov) is a freeze:** no question, no scouts;
+every beat reads Caplet's words where they land and stops with one line if there is nothing; a rewrite gets one pass from
+the first beat after it lands, a list of what moved and never a sentence of ours (`../loop/FRONTIER.md` s4). Seed for the
+Kitchen: how do we tell a broken fact from a choice that's theirs? Memo: `../office/outbox/2026-11-04_rooftop_the-note-on-top.md`.
 
 ### Mon 2 Nov 2026, 20:20 · Sat 31 Oct to Mon 2 Nov
 (Keel is a simulated team, AI-written.) Three of us in the thread tonight: Tess, Nora and Jun. Kai, Felix and Amara

@@ -2,6 +2,15 @@
 
 AI DRAFT (Claude, 4 Nov 2026).
 
+**Note (5 Nov, after Ray's 4 Nov word rule):** the readers saw the IPS before it swapped our own labels for the case's
+words. Where this card says "cheque", the IPS now says "payment"; where it says "the floor", it means the Treasury
+fund maturing in late 2032 that "sets her minimum facility contribution". If you use the sentence the readers preferred,
+write "payment" for "cheque". Don't bring "floor" or "cheque" back into the IPS. (Added by the Window.)
+
+**New since the word swap (5 Nov): "The bottom is that fund's payout".** Three new outside readers got the bottom
+right, but all three stopped on "that fund": the last fund named before it is the world index fund. Name the fund
+again when you rewrite that sentence.
+
 Twice tonight, three outside AI readers (a finance professor, a busy judge, a Year 11) read the final beside small changes, blind.
 
 **Why one bond per payment suits Laura.** One option is the sentence readers preferred: "We do the second, so no cheque depends on what a bond sells for that January." It came close but didn't beat the final: readers trusted it more; only one found the reason clearer.

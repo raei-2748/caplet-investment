@@ -1,6 +1,47 @@
 {
- "built": "2026-11-04T08:26",
+ "built": "2026-11-05T02:48",
  "days": [
+  {
+   "date": "2026-11-05",
+   "weekday": "Thu",
+   "essence": [],
+   "huddles": [],
+   "research": [],
+   "done": [],
+   "open": [],
+   "runs": [
+    {
+     "day": "2026-11-05",
+     "when": "Thu 5 Nov 14:30",
+     "room": "Genius Lab",
+     "what": "Beat 5, round 9, freeze, no huddle, no script (sealed list, then 1 blind checker): **Caplet's doc changed at 12:22**, after the Library's 12:20 read. Ray's tab: two new pitches (A 49/50, B 47/48), IPS opening deleted (Library item 6 moot). False 1: B \"human capital already fluctuates with the economy\" (case :43-45); meaning 2: \"promise(s)\" (case :114-116, I83), \"a bet on good times\"; A no spare word. Page: `../ips_rewrite/caplet_doc/2026-11-05_ray_tab_check.md`; memo `../office/outbox/2026-11-05_genius-lab_two-more-pitches.md`"
+    },
+    {
+     "day": "2026-11-05",
+     "when": "Thu 5 Nov 12:50",
+     "room": "Library",
+     "what": "Beat 4, round 9, freeze, no scouts, no slip (sealed list, then 1 blind checker): **Caplet's words had landed** in their IPS Report Doc (09:39; tabs \"IPS Body\", \"ray\", \"Pitch\", unread since 26 Oct). One pass: Darren's pitch in \"IPS Body\" 56/57 > 50; Handwritten 50/51; \"human capital that fluctuates with stocks\" unsupported; \"IPS Body\" = V5 body verbatim, whose \"7%\" and \"an uncovered payment is funded from the equity\" contradict the locked VT reflection; 5 meaning changes; 3 checker catches overruled at source. Hashes for the Archive. `../ips_rewrite/caplet_doc/2026-11-05_one_check.md`, memo `../office/outbox/2026-11-05_library_the-pitch-in-their-doc.md`"
+    },
+    {
+     "day": "2026-11-05",
+     "when": "Thu 5 Nov 10:45",
+     "room": "Trading Desk (markets and rules check)",
+     "what": "No breach; the FINAL Caplet has (pitch 49 / IPS 496) inside every rule; last-order time passed (hold); no close after 23 Oct"
+    },
+    {
+     "day": "2026-11-05",
+     "when": "Thu 5 Nov 09:40",
+     "room": "Window",
+     "what": "Beat 2, round 9, freeze, no huddle (3 blind readers, 3 models): the one pass on Ray's word swap (main 07:15): **true, no false line**, pitch 49, IPS 496, case words at :59/:95/:100/:116/:136; P6 \"that fund\" stopped 3 of 3 readers (fix offered, +1). **Two near-breaches beside the final, fixed:** Caplet's README copy (3 lines the final doesn't say) and the readers' card's \"cheque\" sentence; README conflict resolved as a union. L-18 S10/S11 identical. Steady Roots v Caplet XR noted (I06)"
+    },
+    {
+     "day": "2026-11-05",
+     "when": "Thu 5 Nov 07:25",
+     "room": "Noticeboard (daily loop)",
+     "what": "Beat 1, round 9, freeze: FINAL hash/count unchanged (b9368f5b5fa9ffc5, 495); merged the Rooftop send-off and the pitch thread's branch (Ray's I82, I83); I83 \"no invented terms\" broken by the FINAL (floor x3, cheque x3; pitch \"cheques\", \"promises\", \"minimum building gift\"): `../ips_rewrite/inbox/2026-11-05_noticeboard.md`; watchdog 10 of 10; brief; ep 40"
+    }
+   ]
+  },
   {
    "date": "2026-11-04",
    "weekday": "Wed",
@@ -14,6 +55,9 @@
     "We built a one-page check sheet for tomorrow's rewrite: each fact in the final IPS beside the false version a rewrite tends to land on, with the part that differs in capitals, the way hospitals label look-alike medicines.",
     "Its first version caught only one of the seven mistakes three test rewrites made, so we rebuilt it; the new one caught every mistake in two rewrites it had never seen. All five test rewrites made the same slip: 'one redeemed for each January' lost its 'for', and nothing pays out in a January.",
     "We also tested the IPS's warning that her income can dry up when shares fall: with half the 2028 deposit in that kind of downturn, every cheque is still paid in 9,996 futures in 10,000 (our model); with no deposit at all, only about 1 in 5.",
+    "From tomorrow the draft is yours: rewrite it in your own words, put it through GPTZero because we can't, and submit it by 9 am Saturday 7 November, Sydney time.",
+    "Open the README first; it tells you which short card to use when you cut a sentence, change a word or decide the last line.",
+    "Send us your rewrite and we'll list anything whose meaning changed, without rewriting a word of it for you; send nothing and we'll stay out of your way.",
     "We checked every new investing idea in the final draft at its source (the 1987 crash report, the US and Australian regulators on capital-protected notes, a 1995 finance paper, a medicine leaflet), and every one is true.",
     "But our submitted trading notes already told the judges the bond funds pay what they are worth at the end, not a promised amount, while the draft says a Treasury held to maturity pays exactly what it promised, right after naming the funds.",
     "One word fixes it ('a Treasury bond'), and another ('main' for 'one weakness') removes a second clash; Kai voted against the first because the sentence is already true of a bond.",
@@ -148,6 +192,58 @@
      "transcript": "keel/huddles/2026-11-04_the-look-alike-card/transcript.md",
      "changes": [
       "No draft changed. Offers in ../../ips_rewrite/inbox/2026-11-04_genius-lab.md; card in research/card_v3.md; ../../rooms/lab/L-18_the_same_downturn.md, ../../rooms/lab/L-19_the_look_alike_card.md"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    },
+    {
+     "id": "H-033",
+     "title": "The roof on hand-over night",
+     "question": "Tonight the final AI draft goes to Caplet and from tomorrow the IPS is theirs. What did rounds 7 and 8 teach us about how we work, and how should Keel behave while someone else holds the pen?",
+     "status": "closed",
+     "room": "Rooftop",
+     "chair": "Tess",
+     "members": [
+      "Tess",
+      "Jun",
+      "Amara"
+     ],
+     "essence": [
+      "From tomorrow the draft is yours: rewrite it in your own words, put it through GPTZero because we can't, and submit it by 9 am Saturday 7 November, Sydney time.",
+      "Open the README first; it tells you which short card to use when you cut a sentence, change a word or decide the last line.",
+      "Send us your rewrite and we'll list anything whose meaning changed, without rewriting a word of it for you; send nothing and we'll stay out of your way."
+     ],
+     "decided": [
+      "3-0: keep the three cards, no merge tonight (Jun and Amara moved in round 2: the look-alike card's 2 of 2 belongs to the card as it stands; 'I wrote that we can't stop touching the page, then asked for a new one at nine o'clock')",
+      "3-0: the hand-over README now routes by task (cutting a sentence: the case card; changing a word or fact: the look-alike card; weighing the last sentence or a suggested cut: the readers card) and says 'can dry up'; Tess's two extra fixes ('covered with Treasuries'; 'read an earlier wording', the false 'no false line' gone) went with it. One first-time Year 11 reader, Amara's key and bar sealed first: PASS 6 of 6. 'helped deepen the 1987 crash' (the FINAL's words) swapped in after the test, 2-0. Applied to drafts/FINAL and the project folder",
+      "Tess's call: KEEL_RECORD's 'treats Laura's income as a bet on shares already' now gives the FINAL's words; COMMANDMENTS_CHECK gets one bracketed note under 'Applied' (changed later at f06ad13; 495 strict)",
+      "3-0 on the lesson, LS-17 (Amara's, aimed at every hand-over file; search and read both): 'Before a changed text is handed over, someone who wrote none of the files beside it searches each, README included, for the old words and old word count, reads every hit, then reads each file through against the handed-over hash.' No hash lesson: the Archive's HEALTH rule already says it",
+      "LS-10 2 to 3 by date (P7: four beats, three moves; not bent by design, since Q16 was the whole text), 3-0; LS-15 held on both cuts, 3-0; LS-16 0 to 1, bent (the 7.6 v 10.0 years figure reached Caplet's line before anything was put back; Jun then put three things back and it held: at least 1.83 years short, MODEL), 2 for bent, Amara uncounted; LS-14 stays at 1",
+      "3-0: round 9 (Thu 5 Nov) is a freeze: no question, no scouts; every beat reads Caplet's words where they land (INSTRUCTIONS.md, ASK_HUMANS.md's Answer column, their IPS Report Doc, read only) and stops with one line if there is nothing; the Library and the Lab run only on a line Caplet quotes; a rewrite gets one pass from the first beat after it lands, with the Writing Room's sealed key: a list of what moved and both strict counts, never a sentence of ours"
+     ],
+     "seeds": [
+      "When their rewrite drops a line we fought for, how do we tell a broken fact from a choice that's theirs, and say only the first? (Tess; Friday's run, with fresh eyes)",
+      "The first-time reader found the README's summary of the lock ('priced as if money waiting for a cheque earned nothing') hard to follow, though three readers said the IPS's own words back right. Does the Final Report explain the lock in the order a stranger needs: why a ladder reinvests, then what the lock assumes? (Writing Room, from Sun 8 Nov)"
+     ],
+     "todos": {
+      "done": 9,
+      "total": 11
+     },
+     "path": "keel/huddles/2026-11-04_the-roof-on-hand-over-night",
+     "transcript": "keel/huddles/2026-11-04_the-roof-on-hand-over-night/transcript.md",
+     "changes": [
+      "keel/ips_rewrite/drafts/FINAL/README.md",
+      "keel/ips_rewrite/drafts/FINAL/KEEL_RECORD.md",
+      "keel/ips_rewrite/drafts/FINAL/COMMANDMENTS_CHECK.md",
+      "keel/loop/LESSONS.md",
+      "keel/loop/FRONTIER.md",
+      "keel/loop/TERRITORY.md",
+      "keel/loop/rounds/2026-11-04.md",
+      "keel/rooms/rooftop.md",
+      "keel/pm/REQUESTS.md",
+      "keel/pm/ASK_HUMANS.md",
+      "keel/ips_rewrite/IDEA_BANK.md",
+      "keel/ips_rewrite/inbox/2026-11-04_rooftop.md"
      ],
      "rounds": 3,
      "rounds_today": 3
@@ -391,6 +487,36 @@
      "huddle": "H-030"
     },
     {
+     "path": "keel/huddles/2026-11-04_the-roof-on-hand-over-night/research/amara_key_sealed.md",
+     "title": "The README test: Amara's key (H-033, round 3, Wed 4 Nov 2026, about 21:10 Sydney)",
+     "member": "Amara",
+     "huddle": "H-033"
+    },
+    {
+     "path": "keel/huddles/2026-11-04_the-roof-on-hand-over-night/research/reader_answers.md",
+     "title": "The README test: one first-time reader, scored against Amara's sealed key (H-033, round 3, Wed 4 Nov 20:43 Sydney)",
+     "member": "Reader",
+     "huddle": "H-033"
+    },
+    {
+     "path": "keel/huddles/2026-11-04_the-roof-on-hand-over-night/research/reader_questions.md",
+     "title": "Questions for the first-time reader",
+     "member": "Reader",
+     "huddle": "H-033"
+    },
+    {
+     "path": "keel/huddles/2026-11-04_the-roof-on-hand-over-night/research/readme_proposed.md",
+     "title": "The final IPS: what to read and what to decide",
+     "member": "Readme",
+     "huddle": "H-033"
+    },
+    {
+     "path": "keel/huddles/2026-11-04_the-roof-on-hand-over-night/research/tess_r3_readme_note.md",
+     "title": "tess_r3_readme_note",
+     "member": "Tess",
+     "huddle": "H-033"
+    },
+    {
      "path": "keel/huddles/2026-11-04_the-word-the-writer-meant/research/felix_reruns_and_sources.md",
      "title": "Felix's checks, Wed 4 Nov 2026 (H-028 research)",
      "member": "Felix",
@@ -598,6 +724,69 @@
      "huddle": "H-030"
     },
     {
+     "text": "Three round-1 posts, alone (Tess, Jun, Amara; done 4 Nov)",
+     "done": true,
+     "owner": "Tess",
+     "day": "2026-11-04",
+     "huddle": "H-033"
+    },
+    {
+     "text": "CORDs: Tess's \"3 of 3\" was the lock line, not the bank note; Amara's 97.02%/82.18% were the false wording's numbers; Ray submits; there is no \"Caplet inbox\" (chair, then each owner in round 2; done 4 Nov)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-04",
+     "huddle": "H-033"
+    },
+    {
+     "text": "Replies by name; no hash lesson, keep three cards (3-0; done 4 Nov)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-04",
+     "huddle": "H-033"
+    },
+    {
+     "text": "README proposal, minimal, routing by task, \"can dry up\" (Tess; done 4 Nov: `research/readme_proposed.md`, 480 words)",
+     "done": true,
+     "owner": "Tess",
+     "day": "2026-11-04",
+     "huddle": "H-033"
+    },
+    {
+     "text": "Key and pass bar sealed before the proposal was read (Amara; done 4 Nov: `research/amara_key_sealed.md`, sha256 80fdd271e10e2ac5)",
+     "done": true,
+     "owner": "Amara",
+     "day": "2026-11-04",
+     "huddle": "H-033"
+    },
+    {
+     "text": "One first-time Year 11 reader on the proposal alone, scored against the sealed key (chair; done 4 Nov: PASS 6 of 6, `research/reader_answers.md`)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-04",
+     "huddle": "H-033"
+    },
+    {
+     "text": "Show the duration figures and the $49k, put back what they leave out (Jun; done 4 Nov: 7.61 v 9.99 modified, 7.80 v 10.24 Macaulay, still >= 1.83 years short with three things put back; $49k at `keel/library/assistant_review_2026-10/oct20/ldi/ldi_second_opinion.md:71`, re-run $50,870; MODEL; `research/jun_r3_duration*`)",
+     "done": true,
+     "owner": "Jun",
+     "day": "2026-11-04",
+     "huddle": "H-033"
+    },
+    {
+     "text": "The LS-17 search on every hand-over file (Jun; done 4 Nov: quote search missed \"tends to dry up\", old-words search caught it plus three stale record lines; only reading caught \"a bet on shares already\"; `research/jun_r3_stale_search*`)",
+     "done": true,
+     "owner": "Jun",
+     "day": "2026-11-04",
+     "huddle": "H-033"
+    },
+    {
+     "text": "Apply the landing: README (+ \"helped deepen the 1987 crash\"), KEEL_RECORD line, COMMANDMENTS_CHECK note, repo and project folder (chair; done 4 Nov)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-04",
+     "huddle": "H-033"
+    },
+    {
      "text": "Felix: V57 line by line at its sources; five idea lines verified (Brady, SEC, ASIC, Bodie, Diabex XR)",
      "done": true,
      "owner": "Brady",
@@ -754,6 +943,20 @@
      "huddle": "H-030"
     },
     {
+     "text": "Round 9 (Thu 5 Nov) opened as a freeze from FRONTIER s4: no question, no scouts, Caplet's words read where they land (Noticeboard, Nora; by Thu 5 Nov 07:00)",
+     "done": false,
+     "owner": "Noticeboard",
+     "day": null,
+     "huddle": "H-033"
+    },
+    {
+     "text": "If Caplet sends a rewrite: one pass, first beat after it lands, the Writing Room's sealed key, a list of what moved, none of our sentences (whichever room is next; Thu 5 - Sat 7 Nov)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-033"
+    },
+    {
      "text": "Genius Lab (Kai, 13:40): three false versions onto the card for Caplet's rewrite (request filed)",
      "done": false,
      "owner": "Kai",
@@ -776,6 +979,12 @@
     }
    ],
    "runs": [
+    {
+     "day": "2026-11-04",
+     "when": "Wed 4 Nov 21:15",
+     "room": "Rooftop",
+     "what": "Beat 10, round 8, hand-over night, as huddle H-033 (Tess, Jun, Amara; 3 rounds, one agent each, + one first-time reader; 11 calls): entry for 3-4 Nov; **keep the three cards, no merge (3-0)**; the FINAL's README now routes by task, says \"can dry up\" and drops two lines no longer true (Tess's proposal, Amara's key sealed first, one Year 11 reader **PASS 6 of 6**), applied with KEEL_RECORD/COMMANDMENTS_CHECK fixes, project folder synced; IPS and pitch unchanged (b9368f5b5fa9ffc5 / 2f94abe7c30be498); **LS-17** new (search, then read, every file beside a changed text); LS-10 to 3, LS-16 to 1, LS-15 held; Jun's duration put-back (>= 1.83 years short, MODEL) and stale-file search; round 9 orders = freeze; requests to the Noticeboard and the Weekly plan; bank #181"
+    },
     {
      "day": "2026-11-04",
      "when": "Wed 4 Nov 19:26",

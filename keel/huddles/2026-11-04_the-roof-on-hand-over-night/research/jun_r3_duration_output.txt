@@ -1,0 +1,45 @@
+Jun r3 duration check, MODEL, settlement 23 Oct 2026 (python3 -I jun_r3_duration.py)
+
+1. Per rung (holding v its own cheque, years)
+  rung             pays   yield  hold mod  hold Mac  chq mod  chq Mac  short (Mac)  cheque PV
+  IBTM             2033  5.000%      5.02      5.15     6.04     6.19         1.05     36,827
+  IBTO             2034  5.000%      5.68      5.82     7.02     7.19         1.37     35,053
+  IBTP             2035  5.000%      6.39      6.55     7.99     8.19         1.64     33,364
+  IBTQ             2036  5.000%      7.03      7.21     8.97     9.19         1.99     31,756
+  IBTR             2037  5.000%      7.56      7.75     9.94    10.19         2.44     30,226
+  4.75% Feb-2037   2038  5.049%      7.97      8.17    10.92    11.19         3.02     28,616
+  4.50% May-2038   2039  5.099%      8.66      8.88    11.89    12.19         3.31     27,063
+  4.375% Nov-2039  2040  5.232%      9.49      9.73    12.86    13.19         3.46     25,297
+  4.25% Nov-2040   2041  5.288%     10.03     10.30    13.83    14.19         3.89     23,838
+  3.125% Nov-2041  2042  5.372%     11.12     11.42    14.79    15.19         3.77     22,348
+  every rung shorter than its own cheque: True  (smallest gap 1.05y, largest 3.89y)
+  sum of cheque PVs (own-rung sizing): $294,388
+  fund rungs: 'hold mod' is iShares effective duration (16 Oct); 'hold Mac' = effective x (1 + 0.05/2), an approximation
+
+2. Whole ladder v the cheques (Kai's weighting: each rung costs its own cheque's PV)
+  A. own-rung sizing (Kai's inputs, second way)              modified  7.61 v  9.99 ( 76%)   Macaulay  7.80 v 10.24 (short by 2.44)
+  Kai's published figures: 7.61 v 9.99 modified, ratio 76%.
+
+3. Put back what the method leaves out, one at a time (the cheques' side never changes)
+  funds as one bond each (average coupon, ends 15 Dec, 5.00%): modelled modified v iShares effective
+    IBTM: 5.35 v 5.02   (Macaulay 5.48)
+    IBTO: 6.00 v 5.68   (Macaulay 6.15)
+    IBTP: 6.69 v 6.39   (Macaulay 6.85)
+    IBTQ: 7.31 v 7.03   (Macaulay 7.50)
+    IBTR: 7.92 v 7.56   (Macaulay 8.12)
+  B. funds' durations from that bond model                   modified  7.79 v  9.99 ( 78%)   Macaulay  7.98 v 10.24 (short by 2.26)
+  C. WInS weights, 23 Oct (all of IBTM's $99,314)            modified  6.91 v  9.99 ( 69%)   Macaulay  7.08 v 10.24 (short by 3.16)
+  D. WInS weights, IBTM cut to its 2033 rung (x0.68 of PV)   modified  7.60 v  9.99 ( 76%)   Macaulay  7.80 v 10.24 (short by 2.44)
+  E. T-bonds bought at $50,000 face (funds at PV)            modified  8.07 v  9.99 ( 81%)   Macaulay  8.27 v 10.24 (short by 1.97)
+  F. B and E together (the longest this script makes it)     modified  8.20 v  9.99 ( 82%)   Macaulay  8.41 v 10.24 (short by 1.83)
+  To reach the cheques' 10.24y Macaulay, 70% of the ladder's money would have to sit in the 2042 bond alone (it holds 8% under own-rung sizing): a bet on the long end, not one bond per payment.
+  Not put back (none is worth two years): durations are today's and shrink as the funds turn to cash before each
+  December; one parallel yield move per rung; fund durations dated 16 Oct, a week before settlement (about 0.02y);
+  cheques discounted at each rung's own yield, not one curve.
+
+4. The money duration leaves out: where each $50,000 comes from (own-rung sizing, reinvested at the rung's yield)
+  principal $313,767 (63%), coupons $135,363 (27%), interest on reinvested coupons and waiting money $50,870 (10%)
+  (funds modelled as one bond each, as in 3B; settlement 23 Oct, not the January 2027 purchase)
+  The round-2 figure at its file, keel/library/assistant_review_2026-10/oct20/ldi/ldi_second_opinion.md:71:
+    - **Where the $500k comes from** (base case, own-rung sizing): principal **$320k (64%)**, coupons **$130k (26%)**, interest on reinvested coupons and waiting money **$49k (10%)**. Only the $49k is truly at risk, since coupons them
+  (its own source, oct20/ldi/data/ldi_19oct_stdout.txt, is not in the repo: the $49k is quoted, not re-runnable; this section is the re-run)

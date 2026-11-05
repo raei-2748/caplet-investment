@@ -160,6 +160,9 @@ scope here. That doesn't mean the row failed.
    the bank's credit risk; the range's confidence; the closing bow.
 
 ## Applied after this check (Rewrite, Wed 4 Nov; the check above is of the text before these)
+[Changed later, Wed 4 Nov (f06ad13, the fact-checkers' fixes): item 1's "Her income already rides on shares" was cut as
+overstated, and the FINAL says her income "can dry up in the same downturns that hit share prices"; item 2's sentence now
+reads "A Treasury bond held to maturity". The FINAL as handed over is 495 strict (pitch 48), not the 496 below.]
 1. Aphorism FAIL fixed differently: the opener "Laura's earning power already behaves like a share." is gone; the idea
    now comes after the evidence, as a reason: "Her income already rides on shares, so her portfolio shouldn't bet on them
    twice." (keeps the human-capital idea, which is one of the I81 concepts).

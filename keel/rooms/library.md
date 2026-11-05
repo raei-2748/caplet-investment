@@ -1,13 +1,13 @@
 # FICTION (the room) + real sources (the slips). The Library: reading slips
 
 ## Now
-- **Doing:** Beat 4 of round 8 (Go out): Q16, which lines of the FINAL IPS (V57, not V55: re-aimed at 12:10) only their writers had checked, and are they true at the source? Lens 1, Invert; huddle H-029 (Felix, Nora, Tess scouts; Kai replies; Felix lands; one cold stranger on the new words)
-- **Decided:** 12 V57 sentences: 7 TRUE, 4 TRUE IF, 1 FALSE. P7's lock "as if no more interest were reinvested" is FALSE as written (IBTM ends "almost entirely" cash, which "interest" leaves out; the words are exhibit N's KW-N lock, MODEL) -> "as if waiting cash earned nothing" (-1). Re-read at 13:30 against the FINAL on main (491, after the Window's fixes): "bond" already in, the income line cut, "can dry up" optional; the lock fix still needed (490 strict). 49 of 50 quotes re-found. No slip. Bank #168-#170
-- **Next:** the lock fix is in the FINAL in the thread's words ("every dollar waiting for a cheque earned nothing", PR #129, 493 strict); the Writing Room reads the whole fixed IPS with a fresh stranger (no hint about the funds' cash); the Lab adds a "waiting cash" row to the halved-deposit world with the deposit tied to a share fall; from Sun 8 Nov re-open Leibowitz 1986, the publisher's Kritzman page and the fact sheets before the Final Report cites them
-- **For the judges:** the FINAL's safety-margin sentence now covers the funds' cash (PR #129), the only line where following the words could leave a cheque short; everything else in V57's new investing paragraphs is true at its source
-- **Updated:** 2026-11-04 13:05 Sydney
+- **Doing:** Beat 4 of round 9 (a freeze): Caplet's own words had landed in their IPS Report Doc (modified Thu 5 Nov 09:39; tabs "IPS Body", "ray", "Pitch", unread by any beat), so this beat gave them the freeze's one pass. No scouts, no slip
+- **Decided:** 4 things false or over a limit (Darren's pitch in "IPS Body" 56/57 words; Handwritten 50/51; "human capital that fluctuates with stocks"; "IPS Body" holds Version 5's body word for word, two of whose lines contradict the locked VT reflection), 5 meaning changes, 2 of the blind checker's catches overruled at source. One plain page: `../ips_rewrite/caplet_doc/2026-11-05_one_check.md` (project folder `ips/caplet_doc/`)
+- **Next:** nothing on this text (no second room, LS-10); the Archive records the five hashes at 19:10. If Caplet sends a rewrite of the FINAL itself, the first beat after it lands takes it. From Sun 8 Nov: Leibowitz 1986, the Kritzman page and the fact sheets before the Final Report cites them
+- **For the judges:** if Caplet submits from the "IPS Body" tab as it stands, the pitch is over Wharton's 50 words and the IPS says the opposite of a submitted trade note about where a short payment comes from
+- **Updated:** 2026-11-05 12:50 Sydney
 
-> **State (last run Wed 4 Nov, 13:05 Sydney; H-029 on V57, four word fixes, no slip).** Slips: S-01 (defence in depth, KEEP, FR), S-02 (Lab facts, own
+> **State (last run Thu 5 Nov, 12:50 Sydney; freeze, one pass on Caplet's doc text, no slip; before that Wed 4 Nov, H-029 on V57).** On a freeze day, read the IPS Report Doc first (Drive modifiedTime, then the tab list); the doc is ~320k characters of JSON, so parse the saved tool output with python, never page it. Slips: S-01 (defence in depth, KEEP, FR), S-02 (Lab facts, own
 > file), S-03 (Palladone dose dumping, KEEP as the XR-line test), S-04 (Contac 600, KEEP, FR), S-05 (sum certain + the
 > IRS 5%, KEEP as yardstick only, Window 28 Oct), S-06 (tracking and the block, KEEP, FR), S-07 (the signed, expiring
 > override, KEEP to the Lab and Courtroom), S-08 (newsvendor + cost-loss, each end its own chance, KEEP to the Lab and

@@ -1,12 +1,16 @@
 # FICTION (the room and the simulated parties) + real arguments. The Courtroom
 
 ## Now
-- **Doing:** Put W5 (the Writing Room's V54 plus twelve stranger-backed changes) on trial: C-06, huddle H-026, with the chair's exhibit N (the five iBond funds modelled as funds)
-- **Decided:** W5 FALLS as a whole (the bond-manager reader preferred it by 2 of 50, the 16-year-old preferred V54 by 2; Nora's sealed rule needed +3). Keel vote B 3-0: V54 stands plus six W5 lines (C06, 497 strict), led by the lock "as if later bond payments sat idle". Exhibit N: modelled as funds, the lock as sized pays every cheque in 97% of base futures and 82% if yields fall for good; sized as the words read, 100% in both (MODEL)
-- **Next:** the Window gates exhibit N and the funds' real maturities (Wed 08:40); the rewrite thread decides on C06; the Final Report sizes the lock on what the funds hold
-- **For the judges:** the lock reads as a rule a judge can check, the downturn line gives its why (rates usually fall, bonds cost more), and the option sentence covers a falling market; V54's "funds that mature like bonds", "facility contribution" and "of her money" stay
-- **Updated:** 2026-11-03 21:05 Sydney
+- **Doing:** round 9 beat 8 (Thu 5 Nov, freeze): nothing asked, hash unchanged. Read Drive's modified time on Caplet's IPS Report Doc (12:22:59, already taken by the Genius Lab), `INSTRUCTIONS.md` (nothing after I83), `ASK_HUMANS.md` (no new answer) and `REQUESTS.md` (nothing open to this room); ran `textcheck.py` on the FINAL (IPS 493 / 496 strict, pitch 49, 0 non-ASCII; hashes `2c48738daa2113ce` / `71fcadfb0fbe898e`, project folder matches)
+- **Decided:** no trial, no hunt and no vote tonight (the freeze, `../loop/FRONTIER.md` s4). P04's judge score waits for Caplet's own scorers (CHARTER s6); every new text in their doc has had its one pass (LS-10)
+- **Next:** if Caplet's rewrite of the FINAL lands, the first beat after it takes it once; this room's next trial is on the Final Report from Tue 10 Nov (Nora's seed: which three numbers lead it)
+- **For the judges:** no draft change; the FINAL is the text Caplet holds
+- **Updated:** 2026-11-05 18:30 Sydney
 
+
+> **State (Thu 5 Nov 18:30, round 9 beat 8, freeze).** Nothing asked; hash unchanged (IPS `2c48738daa2113ce` 496, pitch
+> `71fcadfb0fbe898e` 49); Caplet's doc last modified 12:22:59. No trial. Next run: Drive's modified time and INSTRUCTIONS
+> first; after Sat 7 Nov 09:00 the IPS is in and this room turns to the Final Report.
 
 > **State (Tue 3 Nov 21:05 AEDT).** Last trial: C-06 W5 on trial (FALLS as a whole; B 3-0, C06 = V54 + six lines to
 > the inbox). Files `courtroom/C-06_*` (case, exhibit N script/results, packet builder), huddle H-026 (sealed sheet,

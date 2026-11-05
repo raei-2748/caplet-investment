@@ -4,6 +4,7 @@
 
 | ID | Opened | Title | Status | Rounds | Members | To-dos | Essence |
 |---|---|---|---|---|---|---|---|
+| H-033 | 2026-11-04 | [The roof on hand-over night](2026-11-04_the-roof-on-hand-over-night/transcript.md) | closed | 3 | Tess, Jun, Amara | 9/11 | From tomorrow the draft is yours: rewrite it in your own words, put it through GPTZero because we can't, and submit it by 9 am Saturday 7 November, Sydney time. Open the README first; it tells you which short card to use |
 | H-032 | 2026-11-04 | [Why this, for her](2026-11-04_why-this-for-her/transcript.md) | closed | 3 | Jun, Amara, Kai, Felix, Tess, Nora | 9/11 | All six of us pointed at the same sentence: the final says it buys one bond per payment because that 'never needs rebalancing', which reads as our convenience, not a reason for Laura. Six outside readers, in two blind te |
 | H-031 | 2026-11-04 | [Read with the case open](2026-11-04_read-with-the-case-open/transcript.md) | closed | 3 | Amara, Kai, Felix | 7/8 | Nobody had read the final IPS against the client case itself, so we did, line by line: it answers every question the case and Wharton put to it, and we made a one-page card that shows Caplet which words carry each answer |
 | H-030 | 2026-11-04 | [The look-alike card](2026-11-04_the-look-alike-card/transcript.md) | closed | 3 | Kai, Jun, Amara | 9/11 | We built a one-page check sheet for tomorrow's rewrite: each fact in the final IPS beside the false version a rewrite tends to land on, with the part that differs in capitals, the way hospitals label look-alike medicines |
@@ -105,6 +106,8 @@
 - H-031: If the thread takes the package, the look-alike card's rows A and J change the same night (the Archive)
 - H-030: Does a real Caplet student, rewriting on Thursday, keep the 'for' (or 'before') in 'one redeemed for each January' with the card beside them? (Archive, Fri 6 Nov: compare Caplet's submitted text with the card)
 - H-030: Re-run L-18's deposit break point on the 6 Nov close before the Final Report quotes it (Genius Lab, from Sat 7 Nov)
+- H-033: When their rewrite drops a line we fought for, how do we tell a broken fact from a choice that's theirs, and say only the first? (Tess; Friday's run, with fresh eyes)
+- H-033: The first-time reader found the README's summary of the lock ('priced as if money waiting for a cheque earned nothing') hard to follow, though three readers said the IPS's own words back right. Does the Final Report explain the lock in the order a stranger needs: why a ladder reinvests, then what the lock assumes? (Writing Room, from Sun 8 Nov)
 - H-028: Does 'Her income already rides on booms' say back better than 'rides on shares' to strangers? (Writing Room, 16:20)
 - H-028: Three false versions for Kai's card for Caplet's rewrite: 'we don't duration-match', 'the funds pay exactly what they promised', 'the ladder's one weakness' (Genius Lab, 13:40)
 - H-032: Why does a ladder held to maturity need to reinvest anything? 3 of 3 second readers couldn't see it (the bonds pay interest years before the cheques start): card now, Final Report later

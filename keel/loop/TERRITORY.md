@@ -111,6 +111,7 @@
 | 6 | Tess, Nora, Felix | Nora (scouts, so **Kai**: Kitchen H-014, Sun 1 Nov) | Jun |
 | 7 (Tue 3 Nov) | Amara, Kai, Jun (round 5's fields swapped; row 1 would have repeated Tess and Felix as scouts: Rooftop H-020, Mon 2 Nov) | Tess | Nora (builder Felix) |
 | 8 (Wed 4 Nov) | Felix, Nora, Tess (round 6's fields swapped: Kitchen H-027, Tue 3 Nov) | Jun | Amara (builder Kai) |
+| 9 (Thu 5 Nov) | none: a freeze (Rooftop H-033, Wed 4 Nov) | none | none (a rewrite from Caplet: the first beat after it lands, one pass) |
 | then repeat from 1 with the scouts' fields swapped (whoever went near goes far) | | | |
 
 The builder (usually Jun at the Genius Lab) never hunts flaws in or judges their own challenger; if the table would
