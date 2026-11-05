@@ -1,5 +1,5 @@
 {
- "built": "2026-11-05T01:22",
+ "built": "2026-11-05T02:48",
  "days": [
   {
    "date": "2026-11-05",
@@ -10,6 +10,12 @@
    "done": [],
    "open": [],
    "runs": [
+    {
+     "day": "2026-11-05",
+     "when": "Thu 5 Nov 14:30",
+     "room": "Genius Lab",
+     "what": "Beat 5, round 9, freeze, no huddle, no script (sealed list, then 1 blind checker): **Caplet's doc changed at 12:22**, after the Library's 12:20 read. Ray's tab: two new pitches (A 49/50, B 47/48), IPS opening deleted (Library item 6 moot). False 1: B \"human capital already fluctuates with the economy\" (case :43-45); meaning 2: \"promise(s)\" (case :114-116, I83), \"a bet on good times\"; A no spare word. Page: `../ips_rewrite/caplet_doc/2026-11-05_ray_tab_check.md`; memo `../office/outbox/2026-11-05_genius-lab_two-more-pitches.md`"
+    },
     {
      "day": "2026-11-05",
      "when": "Thu 5 Nov 12:50",

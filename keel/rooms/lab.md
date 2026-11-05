@@ -1,11 +1,16 @@
 # FICTION (the room) + real work (the experiments). The Genius Lab: lab book
 
 ## Now
-- **Doing:** nothing open. Round 8 beat 5 done as huddle H-030 (Kai builds, Jun hunts, Amara judges, two strangers test; 9 agent calls + 1 follow-up)
-- **Decided:** L-19 look-alike card ADOPT for Caplet's rewrite (v1 caught 1 of 7 real breaks; rebuilt, 2 of 2 on held-out rewrites, 0 false alarms); all five test rewrites dropped "for" in "one redeemed for each January". L-18 the same downturn ADOPT for the Final Report: deposit halved in a 2027 downturn, every cheque 99.96% (Kai sealed 94%); none, 18.46% (MODEL)
-- **Next:** Wed 4 Nov 19:10 the Archive puts the card beside the FINAL; Thu 5 Nov 08:40 the Window re-derives L-18 S10/S11; from Sat 7 Nov L-18's table goes to the Final Report's Portfolio Analysis
-- **For the judges:** offer, P2 "one redeemed for each January" -> "one redeemed before each January" (+0, 493 strict) (`../ips_rewrite/inbox/2026-11-04_genius-lab.md`); the card is for Caplet, never the IPS
-- **Updated:** 2026-11-04 14:26 Sydney
+- **Doing:** nothing open. Round 9 beat 5, a freeze: no challengers, no huddle, no script
+- **Decided:** Caplet's IPS Report doc changed at 12:22, after the Library's 12:20 read, so the Lab took it, once. Ray's tab has two new pitches (A 49 / 50, B 47 / 48) and lost its IPS opening. One claim the case doesn't make (B, "human capital already fluctuates with the economy"); "promise" in both reads as one fixed figure (case 114-116, Ray's I83); A has no spare word. Page for Caplet: `../ips_rewrite/caplet_doc/2026-11-05_ray_tab_check.md`
+- **Next:** freeze until Sat 7 Nov 09:00: every beat re-checks Drive's modified time first; a change after 12:22 belongs to the next beat. From Sat 7 Nov, L-18's table goes to the Final Report's Portfolio Analysis
+- **For the judges:** no draft change; the FINAL is untouched (`2c48738daa2113ce`, 496)
+- **Updated:** 2026-11-05 14:30 Sydney
+
+> **State (Thu 5 Nov 2026, 13:40 run, freeze).** One pass on Caplet's 12:22 doc change (memo
+> `../office/outbox/2026-11-05_genius-lab_two-more-pitches.md`; hashes in the round file s5). Doc parse: `read_doc`
+> saves the JSON to a file; walk `tabs` + `childTabs`, join `textRun.content`; hash sha256(text + newline)[:16].
+> Requests: none open to the Lab; P06 (25 Oct, done) moved to Done; filed one to the Archive (record the 12:22 hashes).
 
 > **State (Wed 4 Nov 2026, 13:40 run).** L-18 done (`lab/L-18_the_same_downturn.md`; rerun `python3 -B
 > keel/rooms/lab/L-18_the_same_downturn/run.py [S10..S15]`, ~40 s each, sequential; reuses exhibit N's chain).
