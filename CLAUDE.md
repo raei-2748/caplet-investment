@@ -30,6 +30,8 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
   (Nora leads; each Keel member heads a desk) and researches, checks and drafts. Caplet's six students are the real
   entrants: they vote, rewrite in their own words and submit; only Ray trades. Keel proposes, never decides.
   Students talk to Keel with `/keel status`, `/keel <name>: <question>`, `/keel meeting: <topic>` (`.claude/skills/keel/`).
+  Third-party skills added 5 Nov (Ray): `avoid-ai-writing`, `investment-policy`, `asset-liability-management`; sources,
+  commits and limits in `.claude/skills/THIRD_PARTY.md` (checklists and editors only, never cited; GPTZero rule unchanged).
 - Keel's world, people and story (23 Oct): `keel/WORLD.md` (Sydney students; the Long Room, where one real minute is
   about one room day: an analogy, not another world), `keel/CULTURE.md` (mission, vision, five values), `keel/CAST.md` (the six in one screen),
   `keel/ARCS.md`, `keel/IDEAS.md` (concepts adopted or rejected), timeline `keel/episodes/INDEX.md` (Ep 0-26, daily
