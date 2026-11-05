@@ -100,3 +100,14 @@ its end, …"; "money that waits: interest and early repayments sit for months �
 shares before 2031 can lower only the top, and rising shares lift it."; "Only about" → "Roughly the interest they will
 earn". Pitch: "with roughly its interest in world shares".
 Org (Ray, ~00:50): the night team is now four departments (ORG.md); five finished reader sessions archived.
+
+## R10 – 499, pitch 50: CLEARS THE MERGE GATE
+Fixes: "Falling shares alone, before 2031, lower only the top; rising shares lift it." (Facts' wording); pitch "In 2028 she
+buys a minimum facility contribution and puts roughly its interest into world shares."; "her first holding, a fund
+ending in late 2032" (introduces the fund where it first appears). Panel: Archivist PASS, Facts PASS, Bible PASS (0 ★),
+Cold 0/28 stops; standing from R9: Wharton 43, Voice pass, Contrarian 39 YES, Practitioner 36.5 YES.
+
+## FINAL (= R10 with one punctuation polish) – 500, pitch 50
+Bible's non-blocking preference: the semicolon mirror became "…lower only the top, and rising shares lift it."
+**Writer's sign-off (Fri 6 Nov, ~03:30 Sydney):** `FINAL/pitch.txt` and `FINAL/ips.txt` are the Book 12 final.
+One writer wrote every word across ten rounds; every round was reviewed blind; every gate in TEAM.md passes.

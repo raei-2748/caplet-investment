@@ -1,7 +1,7 @@
 # Board (control pane) – owned by the Chief of Staff; nobody else edits this file
 
 Mission: Book 12 final pitch + IPS by Fri 6 Nov 08:00 Sydney. Rules and roster: `TEAM.md`.
-Last updated: Fri 6 Nov ~02:20 Sydney. Live round: R8 (500/50, Writer's text verified), full panel running. If R8 clears every gate, R9 is polish-only, then the final.
+Last updated: Fri 6 Nov ~03:30 Sydney. R10 cleared every gate; the Writer is producing the final.
 
 | Card | Owner (session id) | State | File | Acceptance | Heartbeat |
 |---|---|---|---|---|---|
@@ -21,7 +21,7 @@ Last updated: Fri 6 Nov ~02:20 Sydney. Live round: R8 (500/50, Writer's text ver
 | V5 Judge – Practitioner | (`local_634399e4`) | running (R2 now) | `rounds/R*_judge_practitioner.md` | blind score + reasons | – |
 | V6 Judge – Cold Reader | (`local_b4476375`) | running (R2 now) | `rounds/R*_judge_cold.md` | paraphrase every paragraph | – |
 | V7 Judge – Contrarian | Idea-List Judge, 2nd shift | on R5 | `rounds/R*_judge_contrarian.md` | blind score + reasons | – |
-| G  Creativity lab | Genius Lab (`local_8f5f8876`) | on call (kept by Ray 02:40) | `GENIUS_LAB.md`, `rounds/R*_genius_lab.md` | ideas to the Writer by message; no round files | – |
+| G  Creativity lab | Genius Lab (`local_8f5f8876`) | R8 take done 02:55 (G1 2028 timing reason; G2 two-condition riskless test) | `GENIUS_LAB.md`, `rounds/R*_genius_lab.md` | ideas to the Writer by message; no round files | – |
 | S  Commits + portal | Repo Steward (`local_9db43c70`) | 3593c3b, then 89520ff (R4-R8, 121 files), pushed | git | `final_night/` committed hourly, pushed, portal green | – |
 
 ## Blockers
@@ -30,6 +30,9 @@ Last updated: Fri 6 Nov ~02:20 Sydney. Live round: R8 (500/50, Writer's text ver
 - **A parallel Book 12 night** exists on origin/claude/project-thread-wsatab 41763b1 (rounds R01-R20). Not merged; Steward exporting it to `other_thread/` as inspiration. Owner: Steward → Writer.
 - **Cloud session summary** (Ray, 00:05): `other_thread/cloud_sleepy_euler_2026-11-05.md`. Central idea "a dollar with a fixed job goes into Treasuries…", its fixes list, and cautions (JPM 7.5%, XR cut) sent to the Writer. Its PR #149 (GPTZero/AI-DRAFT ban, = our I88) still needs Ray to merge it to main. Owner: Writer (idea); Ray (PR).
 - Correction: the Writer's readers did NOT die. Team readers were moved off the Writer's filenames (FACTS, HARVEST_ROOMS, READING, IDEA_LIST_VERDICTS) onto `*_TEAM`, `*_ADDENDUM`, `*_MATHS`, `READING_*`.
+
+## Decided
+- Ray, ~03:35: rebuild the Review Board staff as the Chief of Staff's own child sessions AFTER the final (Writer archives the old eight then). Genius Lab stays as is (Ray: "Keep it").
 
 ## Round tracker
 | Round | Words (IPS/pitch) | Reviews in | Gate failures | Writer's response |
@@ -42,3 +45,5 @@ Last updated: Fri 6 Nov ~02:20 Sydney. Live round: R8 (500/50, Writer's text ver
 | R6 | 499 / 50 | practitioner 34 "yes, narrowly"; contrarian 34.5; wharton 39; cold 4/26; voice 6 unclear; archive clean; facts FAIL; bible FAIL (★ "half", 4th round) | "two decades"; "half" reason; diversification/liquidity/C3 (3rd round); why-2028 (2nd) | digest sent 01:10 |
 | R7 | 497 / 50 | contrarian 37 YES; practitioner 35 YES; wharton 40; **bible 0 ★ (first pass)**; cold 5/26; voice 7; archive 1 CONTRADICTS; facts FAIL | "never its bottom"; "nothing ever sold"; "two decades"; pitch unchanged since R6 | digest sent ~02:00 |
 | R8 | 500 / 50 | **wharton 43 (gate PASS)**; **facts PASS**; **archive CLEARS**; contrarian 38.5 YES; practitioner 36.5 YES; cold 2/27 (best); voice: 1 must-change ("her other half" = partner), 7 unclear; **bible 0 ★**. ALL GATES PASS | late-2032 fund never introduced (4th); why-2028 timing reason lost; pitch "about its interest" squeezed; "keep up with it" | – |
+| R9 | 500 / 50 | contrarian 39 YES; practitioner 36.5 YES; wharton 43 PASS; bible 0 ★ PASS; voice PASS; cold 1/28 | MUST: scope "falling shares … only the top"; pitch tag verbless | digest sent ~03:05; final after a quick confirm |
+| R10 | 499 / 50 | **MERGE GATE PASSES**: archive, facts, bible (0 ★), cold 0/28; R9 standing: wharton 43, voice pass, contrarian 39 YES, practitioner 36.5 YES | non-blocking: semicolon mirror, "to keep up" | Writer writing the final (~03:30) |
