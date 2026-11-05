@@ -1,5 +1,7 @@
 # Human-capital sentences, in the case's own words — AI DRAFT (Claude, 4 Nov 2026)
 
+> **Retired, Thu 5 Nov 2026 (Ray):** "Roots" is banned as a name or theme; other AIs given the case suggest it too, so it isn't ours. The drafts below are kept as history only. The replacement name and idea are in `../D38/README.md`.
+
 Ray, 4 Nov: open on the boldest idea; then "use case key words, don't invent your own".
 Every quoted term below is from `competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt`.
 
