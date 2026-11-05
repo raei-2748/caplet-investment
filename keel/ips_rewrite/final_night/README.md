@@ -1,50 +1,45 @@
-# Final night: the absolute final IPS (Book 12, Thu 5 - Fri 6 Nov 2026)
+# Final night: the Book 12 rewrite (Thu 5 – Fri 6 Nov 2026, Sydney)
 
-AI DRAFT workspace (Claude, 5-6 Nov 2026). Caplet's order, verbatim in `keel/BIBLE.md` Book 12: one absolute final
-50-word pitch and 500-word IPS by Friday morning (Sydney), rewritten from scratch by one writer, reviewed against every
-book, Wharton's guide and the brilliance test, then rewritten, many times. Nothing else runs tonight: the scheduled
-room tasks are paused until Caplet's review.
+**Two threads worked in this folder on the same night (note added Fri 6 Nov).** Both answered Book 12 with one
+writer each, independently.
+- **This README's thread** (merged as PR #151): `FINAL/` (its final, 500 strict), `ROUNDS_LOG.md`, the top-level
+  files listed below, and `rounds/R1_*` to `rounds/R10_*` (no leading zero).
+- **The other thread** (branch `claude/project-thread-wsatab`): V59 (495 strict) in `../drafts/D39/`, also copied to
+  `../drafts/FINAL/`; its method in `other_thread/README.md`; its round log `rounds/LOG.md` with drafts
+  `rounds/R01_*` to `rounds/R76_*` (leading zero; its R10 text is `other_thread/rounds/R10_ips.txt`, because this
+  thread's R10 holds that path); `FR_IDEAS.md`; `harvest/`.
+- A blind side-by-side read of the two finals by four fresh readers: `compare/`.
 
-## How the night runs
+Book 12 (Caplet, Thu 5 Nov, 22:50 Sydney, verbatim in `../../BIBLE.md`) asks for one absolute final pitch and IPS
+by Friday morning, rewritten from scratch by one writer, reviewed against every book, Wharton's guide and plain
+brilliance, and rewritten again, many times. This folder is that work. Nothing else ran tonight: no rooms, loops or
+episodes.
 
-1. **Harvest** (`harvest/`). Eight readers went through everything Keel has produced: every IPS version V1-V58
-   (best lines, worst lines, ideas that never made it in), the rewrite workspace (idea ledger, idea bank, inbox,
-   creativity files), every room log and office output, the library, the models and Caplet's own records.
-   Each harvest file lists ideas with where they came from and a verdict: IPS, Final Report, or neither (and why).
-2. **Voice brief** (`harvest/03_VOICE_BRIEF.md`). The voice studies first (`keel/voice/`), Ahaan's essays only as a
-   small tone pointer, as Book 12 asks.
-3. **Erudition** (`harvest/04a_*`, `04b_*`). Damodaran's corporate finance lectures, Shiller's Financial Markets
-   (Yale ECON 252), and wider reading: each concept with "does it fit Laura, and how" in plain words.
-4. **The pasted list** (`IDEA_LIST_VERDICTS.md`). Every item in the list Caplet pasted, judged: use, adapt, Final
-   Report, or drop, with a reason.
-5. **Expectations** (`harvest/05_EXPECTATIONS.md`). Every expectation in every book, Wharton's word and the register,
-   as a numbered checklist the reviewers score against.
-6. **Plan** (`PLAN.md`). Which ideas earn a place in 500 words, which go to the Final Report, and the shape.
-7. **Rounds** (`rounds/`). One writer (the thread's own Claude) writes the whole pitch and IPS. Reviewers then read
-   it cold: (a) every book's expectations, (b) Wharton's criteria and five questions, (c) brilliance, erudition and
-   creativity, (d) a first-time reader who paraphrases every sentence and flags any it could not follow, (e) a fact
-   and locked-record check. The writer rewrites. `rounds/LOG.md` records each round: what the reviewers found, what
-   changed, both word counts.
-8. **Hand-over** (`drafts/D39/` = V59): the final text, a filled Commandments check by a reader who did not write it,
-   and a short note on every choice Caplet may want to undo.
+## Who did what
+- **One writer** wrote every word of the pitch and IPS, every round (this Claude session).
+- **Readers** read and reported, and wrote no IPS prose: the drafts harvest (`HARVEST_DRAFTS.md`), the rooms harvest
+  (`HARVEST_ROOMS.md`), the reading of Damodaran, Shiller's ECON 252 and beyond (`READING.md`), verdicts on the pasted
+  list (`IDEA_LIST_VERDICTS.md`) and the facts and numbers (`FACTS.md`).
+- **Reviewers** read each round blind and scored it against (a) every book, (b) Wharton's five criteria and the IPS's
+  own questions, (c) brilliance. Their reports are in `rounds/`, and `ROUNDS_LOG.md` says what each round changed.
 
-## Decisions made tonight, with reasons
-
-**The motif (Book 11 asks for it full circle; Ray, 5 Nov, finds the tablet corny and rehab-like).** Keep the name
-Caplet XR. X is ten (the ten Treasury holdings, one for each operating payment); R is redemption, the day the Treasury
-repays a holding, which is also the old sense of redeeming a promise. The full circle is the ten redemptions: named
-at the start, the last sentence reaches the tenth in 2042. No tablet, no "extended release" explanation, no "do not
-crush", no medicine image anywhere. Why: Ray's two objections are about the medical picture, and both Book 11 and
-Book 5 want the name and the full circle kept. Redemption is a real Treasury word, so the motif now describes the
-strategy itself and adds no packaging. The literal "extended release" meaning stays available for the Final Report
-(Book 5), if Caplet wants it there.
-
-**The first paragraph (Book 12).** It does not retell the case. The judges have read the case; the first sentences
-state the plan's one rule and what it buys Laura.
-
-**Creativity (Ray, I84-I86).** Creativity is carried by strategy-level ideas, never by images. Ray asked what the
-strategy's biggest strength is: the plan never asks Laura to promise money she does not already own, so every number
-she says out loud (the ten payments, both ends of the 2031 range) is bought before it is said.
-
-**No model statistics, citations, or team history in the IPS** (Book 11). Ideas from finance and economics appear
-uncited, in plain words, each with its "so, for Laura". The sources go to the Final Report.
+## Calls the writer made, with reasons
+1. **The motif.** Book 11 (1 Nov) asked for Caplet XR as a full circle, intro and conclusion, with "do not crush". Ray
+   on 5 Nov (I84, I85): the tablet makes Laura sound like a patient, "do not crush" is corny, and a metaphor alone is
+   packaging. The later word wins on the imagery; Book 11 still wins on the circle. So the name stays (X = ten,
+   R = redemption, the bond market's word for the day a bond is repaid, per the Ten Commandments), the medicine goes,
+   and the full circle is carried by the redemptions themselves: the plan's name is introduced with its ten
+   holdings, and the IPS ends on the tenth redemption in 2042. The motif now argues (it is the plan's structure), so it
+   passes the voice guide's law 6.
+2. **The opening.** Book 12: no first paragraph retelling the case. The first sentence states the strategy's one rule;
+   the first paragraph says why that rule is right, against the people who do the opposite (US public pensions).
+3. **One connected argument** (Ray, I86). Every paragraph applies the same rule on a different date (2027, 2028, 2031,
+   2033), and the biggest strength is said plainly once: no number anyone relies on depends on a share price.
+4. **Few ideas at full size** (Commandment VII, Books 2, 9, 10, 12). Ideas that didn't fit go to the Final Report list
+   in `FINAL_REPORT_BANK.md`, never lost (Book 9).
+5. **The October record binds** (Archive, 5 Nov): every claim agrees with the submitted trading notes and TNA.
+6. **The name, after PR #150 (Thu 5 Nov, late).** Another thread proposed "Datum" (surveyors' fixed point; Latin "a
+   thing given") with the recession test as the central idea. The writer kept Caplet XR because Books 3 and 5 lock it
+   ("Caplet XR is a brilliant name; let's stick with it"), and took the idea, not the name: the residency's other money
+   can shrink in a recession, so Laura's part is bought in Treasuries as each deposit arrives (R8, ¶3). If Caplet
+   prefers Datum, it swaps into one sentence of ¶2 without touching anything else.

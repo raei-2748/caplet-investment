@@ -1,9 +1,9 @@
 # The final IPS: what to read and what to decide
 
-AI DRAFT (Claude, Fri 6 Nov 2026). For Ahaan's own rewrite this morning. Due on the form by **Sat 7 Nov 09:00 Sydney**
+Written by Claude, Fri 6 Nov 2026, for Ahaan's own rewrite this morning. Due on the form by **Sat 7 Nov 09:00 Sydney**
 (Fri 6 Nov 5 pm ET). Keel submits nothing.
 
-**The files.** This folder holds V59, the final AI draft (the same text as `../D39/`). `pitch.txt` is the 50-word pitch
+**The files.** This folder holds V59, the final draft (the same text as `../D39/`). `pitch.txt` is the 50-word pitch
 (50 words). `ips.txt` is the 500-word IPS (495 on the strictest count). Both are paste-clean. Rewrite them in your own words before they go in the form.
 
 **What the plan says.** Laura makes two commitments: the ten $50,000 operating payments, and the credible range she
@@ -28,14 +28,13 @@ for a dollar range. This final draft had a last fact-check, a last Bible read an
 check (`../D39/COMMANDMENTS_CHECK.md`). The whole log is in `../../final_night/rounds/LOG.md`.
 
 **Things only you can do.**
-1. **GPTZero.** Paste the IPS into gptzero.me and note the "human" figure. We can't reach it from here.
-2. **The numbers on the last close.** "About two thirds" and "Should $300,000 fall short" rest on the 23 Oct close,
+1. **The numbers on the last close.** "About two thirds" and "Should $300,000 fall short" rest on the 23 Oct close,
    when the ten holdings cost $297,636 (only $2,364 spare). Re-check on Friday's prices before you submit.
-3. **What we left out on purpose** (all kept for the Final Report in `../../final_night/FR_IDEAS.md`): dollar figures
+2. **What we left out on purpose** (all kept for the Final Report in `../../final_night/FR_IDEAS.md`): dollar figures
    for the range and a confidence level (Wharton puts these in the Final Report), why five payments sit in funds, where
    waiting money sits (a short-term Treasury fund), why every payment rests on one borrower, why half the shares, and
    Ray's point that her share of the running costs is already bought, which belongs in the fundraising text.
-4. **Your call.** "Caplet" is also the name of an interest-rate option in finance; a judge may notice. The literal
+3. **Your call.** "Caplet" is also the name of an interest-rate option in finance; a judge may notice. The literal
    meaning of XR is yours to use or drop in the Final Report.
 
 **Older cards in this folder.** `CASE_CARD.md`, `LOOK_ALIKE_CARD.md`, `READERS_CARD.md`, `KEEL_RECORD.md` and

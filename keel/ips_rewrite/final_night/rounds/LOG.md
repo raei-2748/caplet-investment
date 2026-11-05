@@ -1,8 +1,9 @@
 # Rounds log (final night, Thu 5 - Fri 6 Nov 2026)
 
-AI DRAFT workspace (Claude, 5-6 Nov 2026). One writer (this thread's Claude) writes every round. Reviewers read each
+Workspace (Claude, 5-6 Nov 2026). One writer (this thread's Claude) writes every round. Reviewers read each
 reviewed round cold and never write sentences. Counts are strict (`keel/office/tools/textcheck.py`, larger count).
 Target: IPS at most 497, pitch at most 50.
+Files: this log's drafts are `R01_*` to `R76_*` (leading zero). Another thread worked in the same folder the same night (`../README.md`); its files are `R1_*` to `R10_*`, and since its R10 took the path `R10_ips.txt`, this log's R10 is at `../other_thread/rounds/R10_ips.txt`.
 
 | Round | IPS | Pitch | What changed and why |
 |---|---|---|---|
@@ -318,7 +319,7 @@ Target: IPS at most 497, pitch at most 50.
 ### Final round on R76 (round 25: a last fact-check, a last Bible read and a second reader's Ten Commandments check)
 - **Bible (`R76_review_a_bible.md`):** pass, no KILL row fails. Asked for: X = ten said near the close; "2027" named; the repeated bottom clause cut; the pitch's "half its shares" and "returning about all of it, with interest" made unambiguous; diversification still argued only for shares (left to the Final Report, FR #32).
 - **Facts (`R76_review_e_facts.md`):** nothing contradicts the locked October text; "about two thirds" re-run at $297,636 (66.1%). Fixed: "the bottom is set where they can't pay less" (funds pay net asset value; cut, the margin is in P3); "her Taiwan residency" (could read as her home; now "her creative residency in Taiwan"); "a second debt" stated flatter than the first ("in effect" added).
-- **Commandments (`../../drafts/D39/COMMANDMENTS_CHECK.md`):** Commandments PASS 6, FAIL 1 (IV, the pitch's "half its shares"), OPEN 3 (VI GPTZero, IX, X); Book 11 PASS 7, FAIL 1 (same), OPEN 1; I80 habits PASS 9. Fixed in the pitch ("what's left of her 2028 deposit buys its bottom and some shares, and half those shares become the top's Treasuries before she speaks").
+- **Commandments (`../../drafts/D39/COMMANDMENTS_CHECK.md`):** Commandments PASS 6, FAIL 1 (IV, the pitch's "half its shares"), OPEN 3 (VI, IX, X); Book 11 PASS 7, FAIL 1 (same), OPEN 1; I80 habits PASS 9. Fixed in the pitch ("what's left of her 2028 deposit buys its bottom and some shares, and half those shares become the top's Treasuries before she speaks").
 
 | Round | IPS | Pitch | What changed and why |
 |---|---|---|---|

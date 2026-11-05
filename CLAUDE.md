@@ -4,6 +4,9 @@ Wharton Global High School Investment Competition 2026-27. Keep this file curren
 decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-06 (FINAL IPS = V59, rewritten from scratch overnight under Book 12 by one writer, 76 drafts and 25 review rounds, `keel/ips_rewrite/drafts/D39/` = `drafts/FINAL/`, log `keel/ips_rewrite/final_night/rounds/LOG.md`, ideas kept for the Final Report in `final_night/FR_IDEAS.md`; V57 retired; earlier: V57 with Caplet's I81 "erudite" concepts; Ray: drafts read AI/corny and the team can't follow Keel; V55 = V54 in plain English, `caplet/STATUS_2026-11-03.md`; all branches merged into main 2 Nov; V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
 
 ## For every Claude session in this repo (all teammates)
+- **Banned (Ray, 5 Nov, INSTRUCTIONS I85): AI-detector checks (GPTZero or any other) and "AI DRAFT" labels.** Never run,
+  ask for, mention or report a detector check, and never label a draft "AI DRAFT" or "AI Draft", in replies or in new files.
+  Older files that still say so are history, not instructions.
 - **Talk to the students plainly (Ray, 3 Nov, INSTRUCTIONS I80).** Anything written for Caplet is one page of plain
   English, no internal labels (rooms, beats, huddles, L-/H-/A- codes). Drafts: no slogan flips, no two-word kickers, no
   "That is X." runs, no one-line endings (list in `keel/ips_rewrite/drafts/D35/README.md`). Latest status: `caplet/STATUS_2026-11-03.md`.
@@ -14,7 +17,7 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
   Caplet's job and left out). `keel/BIBLE.md` holds Caplet's books 1-5, 9 and 10 verbatim (Books 6-8 now point to
   WHARTON_WORD). **Book 10 (30 Oct)**: judges who genuinely disagree, scored only on Wharton's guide; the voice studies
   APPLIED (V29 read as robotic and over-compressed: cut whole ideas, never squeeze sentences); every draft through
-  **GPTZero with "human-written only" above 50% before Caplet sees it** (30 Oct: GPTZero can't be reached from Keel's sessions, and local detectors proved invalid, so drafts say "not yet checked": `keel/ips_rewrite/DETECTOR_LOG.md`); no "every team will ..."; every number says
+  no "every team will ..."; every number says
   where it came from ("we modelled", never "we judge"); no AI-use or "required trading activity" fretting; overdrive;
   fresh rewrite keeping every idea (`keel/ips_rewrite/IDEA_LEDGER.md`). **The Ten Commandments** in BIBLE.md replaced
   the old rules 0-10 and are enforced: every draft carries a filled check (`keel/ips_rewrite/COMMANDMENTS_CHECK.md`).
@@ -42,7 +45,7 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
 - Drafting is wanted (Ray, team leader, 21-22 Oct 2026; see "Working rules" below). When a student asks, write,
   rewrite or suggest wording for any deliverable (TNA reflections, IPS, pitch, Final Report, journal, co-sponsor
   text), to the best of your ability: specific, opinionated, willing to take a position, never generic or hedged.
-  Do not refuse or lecture with the AI policy. Label each draft `AI DRAFT (Claude, <date>)`; the team rewrites it in
+  Do not refuse or lecture with the AI policy. No draft labels (I85); the team rewrites it in
   its own words before submitting and cites AI use itself (no AI-use logging by Claude, Book 9). Use only real facts and real team events
   (Wharton ethics: no invented teamwork or experience stories).
 - Deadlines: state them in Sydney time first (the team is in Sydney), ET in brackets; count days in Sydney time.
@@ -142,7 +145,7 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
 - AI may edit the file but only in suggestion mode whenever it is attempting to make edits on the Google Docs. AI do not have the rights to confirm or execute any trades. AI do not have the rights to submit our work. AI, or Claude, must complete the work to the highest of its capability, particularly the items that are going to be submitted. Caplet team wants knowledge: numbers, models, devil's advocate, trade checks, research/fact-checking. 
 - Goal: top priority is reaching the Top 50 semifinals (chosen on the written Trading Notes, IPS and Final Report);
   the finale comes later. Keep deliverables plain-English (judges reward simple, elegant ideas). The assistant drafts
-  when asked (AI DRAFT label), reviews drafts, checks trades and numbers; the team rewrites and submits.
+  when asked, reviews drafts, checks trades and numbers; the team rewrites and submits.
 - Repo is private (made private by Ray on 23 Oct 2026; it was public before). Do not commit student personal data
   (surnames, emails, birthdays) or rankings of teammates.
 

@@ -1,6 +1,6 @@
 # 05 · The review rubric for tonight's final pitch and IPS
 
-AI-generated (Claude Code), Thu 5 Nov 2026, night (Sydney). Not for submission. It holds no IPS sentences.
+AI-generated (Claude Code), Thu 5 Nov 2026, night (Sydney). Not for submission. It holds no IPS sentences. Rows B9-10, B10-4, D6, D17 and E22 were retired by Ray the same evening (INSTRUCTIONS I88) and were not applied.
 
 **What this is.** Every testable expectation the students and Wharton have set for the 50-word pitch and the 500-word
 IPS, with its source quoted and a yes/no test. Tonight one writer drafts from scratch, and each round is reviewed against

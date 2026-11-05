@@ -1,6 +1,6 @@
 # Ideas the final IPS had no room for, routed to the Final Report
 
-AI DRAFT note (Claude, 5-6 Nov 2026; rows 24-35 added 6 Nov from review rounds 12-15). Book 9: every good idea lands in the IPS or the Final Report. Each of these was
+Note (Claude, 5-6 Nov 2026; rows 24-35 added 6 Nov from review rounds 12-15). Book 9: every good idea lands in the IPS or the Final Report. Each of these was
 in a round tonight and was cut whole to keep the IPS at 500 words and every sentence plain, or never fitted. Sources
 are in the harvest files named; numbers are MODEL unless marked otherwise and need a re-run on the 6 Nov close.
 

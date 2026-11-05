@@ -1,5 +1,5 @@
 # D39 (V59): cold read, Ten Commandments, Book 11 and I80 check
-AI-generated (Claude, second reader), Fri 6 Nov 2026. Draft V59. Not for submission. GPTZero: not yet checked.
+AI-generated (Claude, second reader), Fri 6 Nov 2026. Draft V59. Not for submission.
 
 **Tally.** Commandments: PASS 6 · FAIL 1 (IV) · OPEN 3 (VI, IX, X). Book 11: PASS 7 · FAIL 1 (6) · OPEN 1 (7). Book 12: PASS 3 · OPEN 1. I80: PASS 9. The one FAIL is a single phrase in the pitch.
 
@@ -26,7 +26,7 @@ AI-generated (Claude, second reader), Fri 6 Nov 2026. Draft V59. Not for submiss
 | III | PASS | A concession, then "But" (P2). A short line that lands. Contractions. The stiff spots are "hence the X and R" and P6's opening sentence |
 | IV | **FAIL** | The pitch's "half its shares" (A) |
 | V | PASS | "at current Treasury prices ... about two thirds" names its source. Every other figure is either the case's or a rule with its reason. No "we judge" |
-| VI | OPEN | Not yet checked. No agent stood in for a detector |
+| VI | RETIRED | Ray retired this check on 5 Nov (INSTRUCTIONS I88); not applied |
 | VII | PASS | It fits in three sentences (see A) |
 | VIII | PASS | FR_IDEAS routes 38 cut ideas to the Final Report, each with a reason (IDEA_LEDGER not read) |
 | IX | OPEN | In every logged round the growth investor dissents from the other two judges (36/32/30 on R75), but no panel has read V59 and no rank correlations are shown |
@@ -39,7 +39,7 @@ AI-generated (Claude, second reader), Fri 6 Nov 2026. Draft V59. Not for submiss
 | 11.1-11.3, 11.5 | PASS | No "?", no model, no team history, no subheadings |
 | 11.4 Full-circle XR | PASS | Set up in P1 ("kept until its redemption"). Paid off at the end ("When the last holding is redeemed ... the debt is repaid") |
 | 11.6 Plain sense | **FAIL** | Same as IV |
-| 11.7 Sound human | OPEN | GPTZero not checked |
+| 11.7 Sound human | OPEN | Judged by ear only; no reader scored it |
 | 11.8 Wharton's guidelines | PASS | Strategy, not sums |
 | 11.9 Overdrive | PASS | 76 rounds; 24 of them reviewed by five readers each |
 | 12.6 First paragraph is strategy | PASS | One clause of the case, then the rule |
