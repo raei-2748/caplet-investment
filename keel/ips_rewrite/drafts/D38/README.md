@@ -1,4 +1,4 @@
-# A new name and a new central idea: Fixed Point
+# A new name and a new central idea: Datum
 
 Claude, Thu 5 Nov 2026. Keel's research, for you to rewrite in your own words. No trade changes. Every choice is yours.
 
@@ -21,8 +21,12 @@ money at the same time. The idea also says why her minimum is bought in 2028 and
 holds shares until 2031: on average it leaves Laura about $19,000 more by 2042. But in its worst twentieth of 2028-30
 markets, it names about $90,000 to co-sponsors against our $140,000, in the same years co-sponsors give less.
 
-**The name.** Fixed Point: in a residency whose other money moves with the economy, her part is settled first and stays
-put. It needs no more explaining than that.
+**The name: Datum.** Surveyors fix one point first and measure every height from it; that point is the datum. Laura's
+part is the residency's datum: settled before anyone is asked, so co-sponsors size their own gifts against it, and it
+doesn't move when the economy does. The word also means "a thing given" in Latin, and her facility contribution is a
+gift. That second meaning is for whoever catches it; the plan never leans on it. (Runner-up: Cornerstone. In Hong Kong
+share offerings, cornerstone investors commit a fixed amount before the offering opens, are named in the prospectus and
+can't sell for a set period, which is Laura's role exactly. But the word is common enough that other AIs may suggest it.)
 
 **Where it comes from** (for the Final Report; read at the source on the date shown):
 - Robert Merton, "Optimal Investment Strategies for University Endowment Funds" (NBER Working Paper 3820, 1991; read 5
@@ -47,7 +51,7 @@ put. It needs no more explaining than that.
 - The half of her shares she keeps would be smallest in exactly the downturn this idea is about. That's why it's her
   flexibility, and nobody counts on it.
 
-**The drafts in this folder.** `pitch.txt` (49 words, strict count). `ips_V58.txt` (486 words) is the final draft with
+**The drafts in this folder.** `pitch.txt` (48 words, strict count). `ips_V58.txt` (496 words) is the final draft with
 five changes:
 - the new name and a new second paragraph (the idea, replacing the tablet)
 - the pension-fund sentence cut from the third paragraph
