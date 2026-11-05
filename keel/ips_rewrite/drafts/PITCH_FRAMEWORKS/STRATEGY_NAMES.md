@@ -1,5 +1,7 @@
 # Strategy name brainstorm — AI DRAFT (Claude, 4 Nov 2026)
 
+> **Retired, Thu 5 Nov 2026 (Ray):** "Roots" is banned as a name or theme; other AIs given the case suggest it too, so it isn't ours. The drafts below are kept as history only. The replacement name and idea are in `../D38/README.md`.
+
 Current name: Caplet XR (V57). Brainstorm for the human-capital version of the strategy.
 
 ## Shortlist
