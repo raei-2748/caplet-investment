@@ -1,4 +1,4 @@
-# THE BIBLE: eleven books (23 Oct – 1 Nov 2026), under Wharton's word (`WHARTON_WORD.md`), which ranks first. Top priority for every Keel member, room, agent and run.
+# THE BIBLE: twelve books (23 Oct – 5 Nov 2026), under Wharton's word (`WHARTON_WORD.md`), which ranks first. Top priority for every Keel member, room, agent and run.
 
 > **"The message Ray quoted earlier isn't the only Bible. In fact, you've got quite a few Bibles. (Multiple books of
 > the Bible, I suppose?) ... All are equal."** (Caplet, Mon 26 Oct 2026, 23:21 Sydney.) The first version of this page
@@ -417,3 +417,312 @@ Replaced by the Ten Commandments above (Book 10: "a fresh rewrite of a new list 
   agent are retired); home-made AI-detector scores; voice targets treated as numbers to hit.
 - Kept, because it is accuracy, not word-policing: a strategy is still described by what it is (a static floor plus a
   cushion is not CPPI; a cash-flow-matched ladder is not immunisation), and stocks are never called sure.
+
+
+## Book 12: The absolute final IPS, rewritten from scratch overnight (Caplet, Thu 5 Nov 2026, 22:50 Sydney)
+
+> Caplet's own words, verbatim (the account is shared; the coordinator reads it as Ahaan's). The message says "Add
+> this message to the Bible, and get to work." It came with two links and a long list pasted from another AI, both
+> kept below exactly as sent. Keel's reading of it follows the list. Ray's points from earlier the same evening (19:08
+> to 21:09 Sydney, `INSTRUCTIONS.md` I84-I86), which the message says to "keep in mind", are quoted after that.
+
+> I'm expecting an absolute final version by tomorrow morning, which is when I will begin rewriting it like a human. I want you to work like never before over the next 12 hours or so. It should be absolutely EXTREME. As they say, 'quality over quantity', but you seem to be taking that as a sign that you don't need quantity of output, which is absolutely wrong. I need you to be working your head off. You need to be able to prove to me that you have done more work over the next 12 hours than throughout the entirety of the project so far, in terms of sheer VOLUME of hard work. Is that clear? And by the way, no more regular runs of the Keel rooms and so on. Absolutely nothing but explicitly working on the IPS and finalising it. There should be no more gaps and no more holes and no more revisions required by the time I take a look tomorrow morning. Keep in mind all the things Ray just said, because they're really, really important. And keep in mind everything I've said throughout the entirety of this project. Everything we've both said is nothing less than God to you, and you must ensure every single one of our expectations is met.
+>
+> I've also noticed that a lot of your rooms and some of the tasks you set up to do all kinds of different things had thousands of good ideas which you just completely ignored or forgot about and clearly did not implement in the IPS. This is shameful. Over the next 12 hours, I want you to entirely rewrite the full IPS from scratch. You will use every single version you've generated so far as just inspiration and nothing more than that. You will read through every single one of them and find the best bits of each and critique the worst bits and come up with an idea of what exactly you need to do.
+>
+> You're going to completely kill your generic AI voice and specifically train yourself using all of the voice studies which you did (and which you completely failed to actually use) as well as your in-depth qualitative analysis of the way I write (though this is very much secondary to the voice studies – my voice isn't as good; it's just a small guide in a certain general direction of tone to some extent so that we don't sound like generic HUMANS, which isn't quite as bad as sounding like generic AI but is certainly in that realm).
+>
+> Also just use your brain a little bit – for instance, spending the whole first paragraph just summarising the case (as you have in v57) is the most stupid use of scarce word count I've ever seen. Please use your brain. At the same time, don't aim for maximum parsimony at all costs, because I think I've pointed out to exhaustion the fact that it makes you sound more AI. Cut things whole, don't chop and snip words here and there to maximise parsimony and concision and brevity, because it only makes it sound less real and authentic and human. Right now, that's what you're doing, and I swear I literally can't understand half of the sentences in the IPS, because they just don't sound normal or human, let alone being comprehensible by a human. This is genuinely a diabolical situation. The IPS as it stands is diabolical. You must learn to fix this. I don't know how. But I've told you this a thousand times, and for once, I want you to actually implement it.
+>
+> Before you begin writing, you are going to read through every single thing you've produced so far – including every single idea you've had, every single bit of work you've done, and so on, which could possibly be genuinely relevant to the IPS. And after that, you're going to read through every single word of every single one of the Bibles, and you're going to commit them to memory as you are writing the IPS. This is crucial.
+>
+> By the way, you're not going to have different parts of Keel writing different bits. There's going to be a single person or agent or whatever you call it which writes the entire thing. And then there's going to be a review – against (a) every single one of my expectations across every single one of my Bibles (this is by far the most important, and if my exceedingly high standards are not met, it's back to the drawing board for you), (b) Wharton's marking guidelines, and (c) just simply being AS BRILLIANT AS POSSIBLE in general (truly extraordinary, stunning, breathtaking, exceptional; erudite, intellectual, cerebral; creative; distinctive, unique; etc.) – and then you're going to rewrite it. And you're going to undergo this process many, many times, until you have created the ultimate IPS, which is simply extraordinary, and no other word could possibly be used to describe it – and it should blow the judges away and absolutely stun them and impress them, leaving them to marvel at our sheer brilliance. Is that understood?
+>
+> On being seen as truly extraordinarily erudite: I've got a few ideas below, from another AI. (I also included the two links from which a few of the ideas come – I would encourage you to explore these two links comprehensively, as they contain thousands of lectures and bits and pieces of investing strategy and concepts which we could use in the most clever and niche and unexpected and creative and effective and genius ways possible. Make sure to do this. Don't take it as gospel; it's just some ideas. But also search far and wide beyond these and into every niche place and nook and cranny you possibly can to find the best ideas.) The majority of them are not relevant to our specific strategy; they are quite generic, or designed for other strategies. It's possible, however, that some of them may be related to our strategy, or that they could be modified to be relevant – in which case, it may be valuable to mention and consider and analyse and evaluate them; either in the IPS or in the Final Report, depending on what you believe to be appropriate. I would also strongly encourage you to do your own research. I did mention my expectation for demonstrating our breathtaking level of knowledge of investing strategies and concepts and analysing a range of different such ideas in the context of the case to formulate our own. Make sure to do so, no matter what. Add this message to the Bible, and get to work. You've got your work cut out for you – and there's a hell of a lot of it.
+>
+> https://pages.stern.nyu.edu/~adamodar/New_Home_Page/cflect.htm
+> https://oyc.yale.edu/economics/econ-252
+
+**The pasted list (from another AI, verbatim; tabs kept in the tables).** It is source material, not Caplet's
+expectations: Caplet calls most of it "generic, or designed for other strategies". Its "Roots", "Canopy" and
+"Branch" labels are roots-themed and banned by Book 2. Keel's verdict on each item is in
+`ips_rewrite/final_night/IDEA_LIST_VERDICTS.md`.
+
+```text
+Leverage (Modigliani–Miller/Hamada, Damodaran’s capital structure lectures). With riskless debt, surplus beta = asset beta × (1 + D/E). In 2033 the reserve is about $400k against a surplus of about $200k, so D/E ≈ 2. A “moderate” 60/40 portfolio (β ≈ 0.6) gives the facility money a β of about 1.8. The portfolio that looks balanced is aggressive for the money Laura cares most about.
+Merton’s structural model (equity as a call option on assets). The surplus is a call struck at the present value of the liability. Define distance-to-default as DD = [ln(A/L) + (μ − σ²/2)T] / (σ√T). Make DD ≥ 2.33 (about 99%) the IPS definition of “high degree of certainty.” This one metric ties your three deliverables together.
+Duration. At 5.25% the ladder costs about $295k in January 2027, with a modified duration of about 9.6. Every 100 bp move changes the liability by about $28k. A 60/40 whose bond sleeve has duration 5.5 offsets only about a quarter of that.
+Roy’s safety-first and Sharpe–Tint surplus optimization. Minimize shortfall probability on the senior claim first, then optimize the junior claim. The case wording (“protect the capital required”) is a safety-first problem.
+Damodaran’s implied equity risk premium was 4.23% at the start of August, with an expected equity return near 9%. If the premium held while the 10-year moved to about 5.25%, the implied return would be about 9.5%. Verify his latest monthly update. 
+The equity premium is thin versus 5%+ Treasuries. With 8.5% arithmetic return and 16.5% volatility, equities beat a locked Treasury zero over five years only about 64% of the time in my model. That argues for a small, efficiently spent risk budget. Bodie’s critique of time diversification (the cost of insuring against shortfall grows with horizon) beats a naive “stocks for the long run” argument here, though you should still present Siegel’s side.
+Governor: CPPI (Black–Jones) with a floor at 90% of the riskless 2033 value of the Branch capital, multiplier 3, equity cap 60–80%, annual rebalance plus a tolerance band.
+Average equity weight is about 30–37% of the Branch, or about 11% of total capital.
+The floor turns the pledge into a risk budget automatically.
+Known failure mode: path dependence and “cash-lock.” In the 2008-style scenario CPPI ended below a static 50/50 ($168k vs $185k).
+Hurdle rate (Damodaran): the Branch hurdle is the Treasury-zero yield. Risk assets must justify themselves against it.
+The 2033 waterfall (write this into the IPS)
+Mark the portfolio and confirm the ten strips are in hand.
+Surplus S = total assets − Roots.
+Contribution C = min(0.9 × S, max(pledge floor, 0.75 × S)), rounded down to $5k.
+The retained 25% is the flexibility buffer. It is a real option to expand, delay or abandon. It also covers the floor if S falls short.
+This is Damodaran’s dividend framework applied to Laura. S is free cash flow to equity, the 75% payout is a deliberate cash-build, and signaling matters because a pledge cut is punished the way a dividend cut is (Lintner). Swensen’s endowment spending rules support the same restraint.
+Newsvendor logic. Choosing what to promise is an inventory problem. If overpromising costs k times more than underpromising, promise the 1/(1+k) quantile of the surplus. At k = 4 that is the 20th percentile. Credibility is the scarce asset, and behavioral finance (loss aversion, anchoring) says sponsors remember a missed number far longer than an exceeded one.
+Premium Check with honest statistics. An 8-week window has a standard deviation of about 6.5% against an expected equity premium of about 0.6%. You cannot infer skill, so say so (efficient markets, plus Lehrer’s “Truth Wears Off” from the syllabus). Judge process, not outcomes.
+Diversification audit (Shiller Lecture 4, Markowitz). Compute marginal contribution to risk and the diversification ratio. Add a Taiwan-stress screen using correlation with a Taiwan equity ETF and USD/TWD.
+Options as priced insurance. Price a put or collar with Black–Scholes and compare it with CPPI’s synthetic protection. Benchmark: a 5-year zero costs about 77.4% of face, leaving about 22.6% for a call. My rough calculation (17% vol, 1.3% dividend yield) puts a 5-year at-the-money call near 23%. So fully protected, full-participation structures are roughly break-even at today’s rates. Use it as a benchmark only. Listed options don’t go out five years, and your platform’s eligible instruments govern what you can actually trade.
+Mission line: “Protect the commitment first; let the upside serve the dream.”
+Dual mandate with separate benchmarks. Roots benchmark: funded ratio ≥100%. Branch benchmark: the riskless 2033 value plus a risk premium.
+Risk metrics: surplus-at-risk and distance-to-default, not volatility.
+Three-part certainty definition (section 3).
+Hedge ratio policy: 100% of the liability’s rate sensitivity (±2%), rechecked whenever a contribution arrives.
+Branch governor: CPPI parameters, equity cap, tolerance bands, rebalancing calendar and the written alternative dial positions (Treasury-only, CPPI, 50/50). State that beyond about 50% equity the 5th percentile slides toward the pledge floor.
+Capital market assumptions method: building blocks (risk-free + implied ERP), cross-checked against CAPE-based and historical estimates, with a haircut and Base/Low/High sets.
+Facility contribution policy: the waterfall in section 3.
+Co-sponsor communication policy: pledge ladder, annual updates, “expects” not “will,” and the 2031 lock rule.
+Decision rights: investment committee, quorum and a limit on discretionary trades.
+Behavioral guardrails (Ulysses clauses, Nudge-style choice architecture): the default is stay the course, a 48-hour cooling-off for any change outside the rules, and a mandatory pre-mortem.
+Eligible instruments: no leverage, no short selling, no sold options, issuer limits.
+If–then trigger table: yields ±100 bp, equity drawdown of 20%, ERP above 5.5%, a missed contribution, a geopolitical shock, a US fiscal or downgrade event.
+Review and amendment: scheduled and event-driven reviews, plus a version log that connects to your trading notes.
+Reporting: a three-number dashboard for Laura (Roots funded ratio, surplus, pledge confidence) with traffic lights.
+Assumption register: every assumption with an owner, source and update trigger.
+Executive summary: the three answers first (reserve size and composition, facility contribution and range, confidence).
+Client and goals restated as a balance sheet.
+Design logic and rejected alternatives.
+Implementation: WInS results as attribution against policy, kept separate from the long-term projections as the case requires.
+Operating commitment: the certainty tests.
+Facility contribution: the waterfall and the flexibility buffer.
+Co-sponsor communication: range, confidence, pledge ladder, update protocol and the draft fundraising text.
+Uncertainty: favorable and unfavorable cases, reverse stress and the tornado.
+Inflation and FX: nominal and real tables.
+What would change our mind.
+Appendix: model specification and sources.
+Exhibits worth building:
+Balance-sheet reframe.
+Reserve cost versus yield with the 5.09% break-even marked.
+Liability duration from 10 to 0.
+Funded-ratio fan chart, hedged versus unhedged.
+Surplus histogram with percentile markers.
+Scenario table.
+Tornado chart.
+Cone-narrowing chart.
+Pledge-ladder graphic.
+Waterfall diagram.
+Add a one-page plain-English “Letter to Laura.” Her work is about storytelling, so let the numbers carry a narrative.
+Purpose & Client Profile — brief on Laura, her risk psychology (entrepreneurial but wants a “responsible” balance — quote this directly).
+Objectives — return objective (grow $450K to fund a known future liability + optional legacy contribution) and risk objective (protect certainty of the 10-year commitment above all else).
+Time Horizon — explicitly multi-stage: 6-year accumulation, 1-year pivot, 10-year distribution. This is unusual and worth calling out — most IPS templates assume a single horizon; yours needs three.
+Liquidity Requirements — near-zero liquidity needs 2027–2032; then annual, predictable liquidity needs 2033–2042; a one-time lump-sum liquidity event at start of 2033 for the facility contribution.
+Risk Tolerance & Asset Allocation Ranges — your glide path table, with strategic ranges (not fixed points) and rebalancing triggers/bands.
+The Two-Sleeve Structure at 2033 — formal description of Reserve sleeve (immunized, bond-ladder, define your certainty methodology) vs. Facility/Flexibility sleeve (residual, may stay growth-oriented if the contribution isn’t needed immediately).
+Executive summary of strategy and headline numbers (reserve size, facility contribution recommendation, co-sponsor range).
+Assumptions log (return/vol assumptions, discount rate, inflation treatment — explicitly note the fixed-nominal-payment insight).
+Operating Reserve: size, initial composition, how it evolves as 2033 approaches and payments are made (does duration shorten each year as the ladder is drawn down? yes — explain that mechanically).
+Facility Contribution: recommended amount/range, methodology, sensitivity table showing bear/base/bull outcomes.
+Co-Sponsor Communication: your recommended range, confidence level, and reasoning.
+Draft fundraising excerpt (the case explicitly requires this) — a short, polished paragraph in Laura’s voice or her team’s voice that a co-sponsor deck could actually use. Something like a “Financial Commitment” one-pager: states the range, frames it as credible and conservative, signals seriousness without over-promising.
+Risk discussion: what happens in the true bear case (does the facility contribution go to zero while the reserve is still fully protected? state this plainly — it’s the right answer, not a failure).
+Financial flexibility discussion: why you held back a buffer rather than committing 100% of the surplus.
+Three Buckets (built at the 2033 pivot), borrowing Ashvin Chhabra’s “Wealth Allocation Framework” (a well-known practitioner model — worth citing explicitly, it signals sophistication):
+Personal Risk Bucket → The Operating Reserve. Capital preservation is the only mandate. This funds survival of the mission — the 10-year commitment.
+Market Risk Bucket → The Facility Contribution (Committed portion). Reasonable risk for reasonable growth, sized to what can responsibly be handed over.
+Aspirational Risk Bucket → The Flexibility Reserve. Whatever isn’t allocated above stays invested for growth — Laura’s dry powder for overruns, a second facility gift, or new ventures.
+The core math (build this spreadsheet first)
+1.1 Cost of the operating reserve (annuity-due, 10 × $50k, valued at Jan 2033)
+2033 yield	Reserve needed	Facility residual if portfolio = $562k
+2%	$458.1k	$103.9k
+3%	$439.3k	$122.7k
+4%	$421.8k	$140.3k
+5%	$405.4k	$156.7k
+6%	$390.1k	$172.0k
+Use the formula 50,000 × [1 + (1 − (1+y)^−9)/y] for a flat curve. In your model, discount each payment at its own STRIPS yield from the actual curve.
+Finding: a 1-point fall in yields raises the reserve cost by about $17k, or 4%. If the reserve isn’t hedged, rate risk alone can erase 10 to 15% of the facility contribution.
+1.2 The null hypothesis: the risk-free plan
+If everything sits in Treasuries at 4%:
+$300k × 1.04⁶ + $150k × 1.04⁵ = $562.1k in 2033
+Reserve = $421.8k
+Facility contribution = $140.3k with near-certainty
+This is the benchmark. Every risk you recommend must justify itself against a guaranteed ~$140k, and most teams will never compute it.
+1.3 The master equation
+Let G₀ be the dollars in the growth sleeve at the start of 2027, held with no de-risking, and M the growth sleeve’s 6-year multiple. Then:
+Facility surplus in 2033 = $140.3k + G₀ × (M − 1.265)
+Here 1.265 is the risk-free 6-year growth factor. Risk-taking is worth only the excess return over Treasuries. With equity assumptions of 7% arithmetic mean and 16% volatility, the geometric drift is about 5.5%, and the 6-year multiple has median 1.39 and mean 1.50.
+Growth sleeve at inception (G₀)	P5	P10	P25	Median	P75	P90	Mean	P(reserve short, no ratchet)
+A: $0 (0%)	140	140	140	140	140	140	140	0
+B: $90k (30%)	92	102	123	152	189	233	161	0
+C′: $150k (50%)	60	77	111	159	222	295	176	~0.01%
+C: $180k (60%)	44	64	105	163	238	326	183	~0.4%
+D: $240k (80%)	12	39	93	170	271	388	197	~3.4%
+Dollar figures are in $000s. This table assumes a static hold, a lognormal growth sleeve, and a locked 4% floor. It overstates risk relative to your final ratcheted strategy, so the real simulation should replace it.
+Four insights come out of this table.
+Going from A to C′ adds only about $19k to the median and about $36k to the mean, but it cuts the P5 outcome from $140k to $60k. At a modest equity premium, risk buys very little.
+The probability of underperforming the risk-free plan is about 40% at any sizing. It depends only on the distribution of M, not on G₀. Sizing changes the magnitude of regret, not its likelihood.
+The price of insuring the growth sleeve up to risk-free growth is roughly 15% of the sleeve. This is the at-the-forward Black-Scholes put value, 2N(σ√T/2)−1 ≈ 15.5% for σ=16%, T=6. On $150k that is about $23k, against about $35k of expected excess return. Certainty is expensive, which is why we buy it with rules (the ratchet) instead of options.
+Gap-risk arithmetic: with exposure m times the cushion, a one-shot equity drop of 1/m breaches the floor. Design for m ≈ 2, which tolerates a 50% crash.
+1.4 The surplus framework (Sharpe-Tint style)
+At start of 2027, with yields at 4%:
+PV of liability = $421.8k / 1.04⁶ = $333.4k
+Assets = $300k + λ × PV($150k) = $300k + 0.75 × $144.2k = $408.2k (λ = 0.75 haircut for the not-yet-received check)
+Cushion = $74.9k, funded ratio = 1.22
+Why the haircut: Laura’s contribution comes from publishing advances, speaking, and licensing. That income falls in the same recessions that hurt equities, so it is a risky receivable. Treat it as bond-like in the base case and haircut it in stress tests.
+Growth exposure of $150k on a $75k cushion gives m = 2.0 and a 50% gap tolerance. That is where the 50% starting allocation comes from.
+1.5 Liability duration
+From 2027, the ten payments sit at t = 6 to 15 years. The Macaulay duration is about 10.2 years, and the modified duration about 9.8. That means about $326 per basis point on the $333k liability. Your floor sleeve should hedge that sensitivity, not merely sit in “safe bonds.”
+Intellectual lineage:
+Contingent immunization (Leibowitz-Weinberger, 1981): stay active while a cushion exists, and switch to full immunization at a trigger.
+CPPI (Perold, Black-Jones) with a ratchet (Estep-Kritzman’s TIPP).
+Redington immunization (1952): match PV, match duration, and keep asset convexity at least equal to liability convexity.
+Safety-first (Roy, 1952): minimize the probability of missing the goal, not variance.
+Goals-based investing and behavioral portfolio theory (Shefrin-Statman; Das-Markowitz-Scheid-Statman; Chhabra’s risk buckets). Different goals get different risk budgets.
+Lifecycle investing with human capital (Bodie-Merton-Samuelson): a bond-like future contribution lets you hold more equity early.
+Barbell vs. ladder: a barbell of long zeros plus short bills has more convexity than a bullet ladder with the same duration, which satisfies Redington’s third condition. Its cost is key-rate mismatch when the curve twists, so the plan converges to an exact ladder by 2031.
+Follow a CFA-style structure, with the differences noted.
+Purpose, scope, governance: roles, decision rights, and an override protocol (a “Ulysses clause”: rules bind in advance; any deviation needs a supermajority and a 48-hour cooling-off period, documented).
+Goal ledger, in priority order:
+Goal 1, operating commitment: non-negotiable, ≥ 99.9% funding certainty (the four layers above).
+Goal 2, facility contribution: discretionary, target range with a one-sided confidence level.
+Goal 3, flexibility: minimum retained liquidity.
+Goal 4, credibility: never communicate an amount that is not hedged or supported at the stated confidence.
+Risk: ability versus willingness, measured separately. Note that Laura’s human capital is concentrated in creative-industry income with a positive equity beta, so avoid overweighting media, publishing, and consumer-discretionary stocks.
+Constraints:
+Multi-stage horizon: accumulation (2027–2033), reserve funding and decumulation (2033–2042).
+Liquidity: no withdrawals before 2033.
+Taxes and legal: out of scope per the case.
+Unique: TWD currency exposure and single-person governance.
+Capital market assumptions (three sets):
+Base: cash 3.5–4%, Treasuries 4%, global equity 6.5–7% arithmetic with geometric returns shown alongside.
+Low-return: equity at 5%. Use valuation (Shiller CAPE and earnings yield) to justify a haircut.
+Stagflation: real yields up, stock-bond correlation positive.
+Show arithmetic means for expectations but compound geometric returns for projections. The gap is roughly σ²/2, or about 1.3 points for equities.
+Strategic asset allocation table with sleeve, target, range, instrument type, and role.
+Glide path and trigger table (Part 2 above).
+Benchmarks: a liability-relative policy benchmark (a duration-matched Treasury index plus a global equity index, weighted by sleeve), plus the risk-free ladder as a reference.
+Rebalancing: band-based, using contributions to rebalance where possible (the 2028 check).
+Reserve Establishment Protocol and Facility Release Protocol (Parts 3 and 4).
+Monitoring dashboard: funded ratio, cushion, m, DV01 hedge ratio, surplus VaR and CVaR, tracking error to the liability benchmark, probability of goal achievement, and liquidity.
+Exhibits:
+Waterfall diagram: senior tranche (reserve), junior tranche (facility), and flex.
+Reserve-cost versus yield table, and the benefit of pre-locking.
+Distribution of 2033 surplus with percentiles and the $140k risk-free line marked.
+Funded-ratio fan chart with the glide path.
+Sensitivity tornado: equity return, yields, inflation, contribution shortfall, and FX.
+Historical stress tests: 1973–74, 2000–02, 2008, 2022, and a 2000–2009 “lost decade.”
+Reverse stress test: what combination of outcomes makes the reserve fail? (Without a ratchet, roughly an −82% cumulative growth-sleeve loss.)
+Co-sponsor confidence ladder (Committed / Planning / Stretch).
+Implementation review: WInS decisions versus shadow portfolios and calibration results.
+A “what would change our mind” page and a model-risk humility section.
+Include the decision tree for Laura in 2031, 2032, and 2033, with the exact rule at each node.
+Stochastic yields (a Nelson-Siegel or two-factor model), with the floor locked to its ladder so that rate scenarios drive only reinvestment and the unbought rungs.
+Chhabra’s (2005) layered risk buckets, Das, Markowitz, Scheid & Statman’s (2010) mental-accounts optimization, Shefrin–Statman behavioral portfolio theory, and Merton’s argument for defeasing essential liabilities with safe assets. Cite them. It shows the framework has an intellectual pedigree.
+Strategy	Description	Weakness
+A. Lock-Everything	All Treasuries, reserve bought early	Zero upside beyond ~$140k, ignores Laura’s appetite for growth
+B. Surplus-Only Equity	Only the surplus (about 25%) in equities	Wide facility outcome, low expected gain
+C. Dynamic (CPPI-style, m ≈ 2)	Canopy exposure = multiplier × cushion	Gap risk in sharp drawdowns
+D. Static 60/40	Conventional	Roughly 5–6% chance the portfolio falls short of the reserve by 2033 (my back-of-envelope estimate); fails a 99% certainty test
+Recommend a disciplined version of C (a capped dynamic cushion strategy), citing Black & Perold (1992), with an explicit gap-risk buffer. Show why D fails your own certainty definition. That single exhibit demonstrates rigor.
+Brier-score your forecasts. Track every probability you stated and compute the team’s Brier score at the end (Tetlock). Almost no team will show calibration.
+Separate process from outcome. Use Annie Duke’s “resulting” concept. Include a 2×2 (good/bad decision × good/bad outcome) and be honest about a good decision that lost money.
+Report liability-relative performance. Show the Funded Ratio and surplus return, not just performance versus the S&P 500. In your dashboard, put a Reserve Cost Ticker (the live cost of the reserve at today’s yields) beside your P&L.
+Purpose and governance. Roles, review cadence (annual, plus event-driven reviews), and amendment procedure.
+Client profile and objectives. Translate Laura’s story into quantitative constraints.
+Liability specification. State the precise obligation in one sentence: “Ten payments of $50,000 due January 1 of each year from 2033 through 2042 (annuity due), fixed nominal, to be met with a probability of at least 99%.”
+Definition of a high degree of certainty. The case explicitly asks you to define this. Use a four-test standard:
+Structural: after defeasance, each payment is backed by a maturity-matched Treasury, so only U.S. government credit risk remains.
+Probabilistic: at least 99% of simulated paths reach 2033 with portfolio ≥ reserve cost plus a margin (for example 3%).
+Stress: the funded ratio stays ≥ 1.00 in all eight named scenarios (see Part 6).
+Reverse-stress: we state the combination of shocks that would break the plan and why we judge it implausible.
+Risk tolerance. Separate willingness (Laura is entrepreneurial) from ability (the reserve is 93% of contributions). State that ability, not willingness, binds.
+Strategic asset allocation. Roots/Canopy/Ballast ranges, the glide path table, and rebalancing bands.
+The funded-ratio traffic light (Section 3.2), written as binding rules.
+The yield-triggered ratchet (Section 3.3).
+Rebalancing policy. Calendar review plus threshold bands. Rebalance toward Roots when FR falls. Do not rebalance Canopy up in Yellow/Orange/Red.
+Contribution-shortfall contingency. If the 2028 contribution is smaller than $150k, the reserve is funded first, and the facility contribution absorbs the entire shortfall.
+Instrument selection criteria. Cost, liquidity, size, tracking, and counterparty.
+Behavioral guardrails. Pre-commitment rules: no discretionary Canopy increase during Red/Orange, and a 48-hour cooling-off period for off-policy trades.
+Benchmark: the Liability-Relative Benchmark. Roots benchmarked to the reserve’s ladder, Canopy to a global equity index, blended by the glide path. This lets you evaluate performance fairly.
+Assumption register. Every assumption in one table (returns, volatilities, correlations, yield paths), each with a source and a sensitivity.
+One-page Decision Card (page 1). Reserve size and composition, facility contribution, the range and confidence, and the flexibility buffer. A judge who reads only this page should understand your entire answer.
+Client translation. Laura’s goals as quantitative constraints, and the Trap Register (below).
+Strategy and rationale. Roots & Canopy, the Riskless Anchor, and the strategy spectrum.
+Implementation review. WInS results honestly attributed to Roots and Canopy, with the funded-ratio path.
+Operating reserve. Size, composition, glide path, certainty definition, and the proof.
+Facility contribution. The formula, the scenarios, and the recommendation.
+Financial flexibility. The Ballast rationale.
+Co-sponsor communication. The range, the confidence, the fundraising draft.
+Risk analysis. Stress tests, reverse stress, sensitivities.
+Limits and what would change our mind.
+Appendices. Model code, data, assumption register.
+Eight stress scenarios
+2008-style: equities −40%, yields −150 bp (the double whammy).
+2020-style: sharp shock and rebound.
+2022-style: stocks and bonds fall together.
+1970s stagflation: yields rising, real returns negative.
+Japan-style: a decade of near-zero yields (reserve near $500k).
+Dot-com decade: a long equity slump.
+Contribution shock: the 2028 contribution is $100k instead of $150k.
+Combined: scenario 1 plus scenario 7.
+Simulation blueprint
+Methods:
+Block-bootstrap historical annual/monthly returns (1926 onward; Shiller, Damodaran, and Fama-French data libraries), overlaid with a regime-switching correlation between equities and yields (negative in 2000–2020, positive in the 1970s and 2022).
+Simulate the Treasury curve with a two-factor model (Vasicek/Nelson–Siegel style). Compute the reserve on each path at that path’s 2033 yields.
+10,000 paths, and every rolling historical 6-year window as a cross-check.
+Report P5/P25/P50/P75/P95 of the facility contribution, the probability of reserve shortfall, expected shortfall, and the funded-ratio path.
+Run sensitivities to the 2028 contribution, the return assumptions, and the yield level.
+Minimal core to verify your hand calculations:
+python
+def reserve(y):            # annuity due, 10 payments of $50k
+    return sum(50_000/(1+y)**t for t in range(10))
+def riskless_anchor(y):    # all-Treasury facility capacity
+    return 300_000*(1+y)**6 + 150_000*(1+y)**5 - reserve(y)
+print(round(reserve(0.04)))         # ~421,767
+print(round(riskless_anchor(0.04))) # ~140,327
+Present return assumptions transparently: average several published capital-market assumptions (for example Vanguard, J.P. Morgan, BlackRock, Research Affiliates), show the dispersion between them, and explain your choice. Uncertainty about the assumptions is itself an insight.
+Research library
+Redington (1952) on immunization; Fisher & Weil (1971) on duration.
+Sharpe & Tint (1990), “Liabilities: A New Approach.”
+Black & Perold (1992) on constant-proportion portfolio insurance.
+Chhabra (2005), “Beyond Markowitz,” on layered risk buckets.
+Das, Markowitz, Scheid & Statman (2010) on mental accounts.
+Bodie, Merton & Samuelson (1992) on labor income and portfolio choice.
+Campbell & Viceira, Strategic Asset Allocation.
+Merton’s writings on defeasing essential goals with safe assets.
+Tetlock, Superforecasting, and Duke, Thinking in Bets.
+Data: FRED (Treasury yields, real yields, breakevens), the Treasury yield curve, the Shiller and Damodaran datasets, and the Fama-French library.
+```
+
+**Ray's points from earlier the same evening, which Book 12 says to keep in mind (verbatim, Thu 5 Nov, Sydney):**
+
+> "What does do not crush even mean? it sounds so corny." (19:08)
+>
+> "metaphors alone does not count as creativity. We want intellectual creativity, yours just packaging." (19:09)
+>
+> "No, because I personally feel like if you say our strategy is like calculate XR it feels like we're helping Laura
+> for a rehab, but she doesn't need any rehab." (19:10)
+>
+> "Your analysis is kind of fragmented. So convince our strategy is the best. So explain what our strategy is. What is
+> the biggest strength our strategy? After all this work, why do you think our strategy is very, very strong?" (21:05)
+>
+> "so what is most creative?" (21:09)
+
+**Keel's reading of Book 12.** It governs everything until Caplet's own rewrite starts on Fri 6 Nov:
+1. One absolute final pitch and IPS by Fri 6 Nov morning (Sydney), with no gaps, holes or revisions left. Keel still
+   never submits.
+2. Nothing but the IPS: no room runs, loops or episodes until it is done.
+3. Rewritten from scratch. Every earlier version (V1-V58) is inspiration only: read every one, keep the best parts,
+   name the worst.
+4. Read everything first: every room output, idea log and research run that bears on the IPS; then every word of every
+   book. Harvest the good ideas the rooms produced and the IPS never used.
+5. Kill the generic AI voice. The voice studies (`voice/`, `VOICE.md`, `voice/reading/`) come first; Ahaan's essays are
+   a small, secondary pointer for tone.
+6. No opening paragraph that retells the case. Every word earns its place, and the first paragraph carries strategy.
+7. Don't squeeze sentences to save words; cut whole ideas. Every sentence must read as normal human English first time.
+8. ONE writer writes the whole IPS. Others may read, research and review; nobody else writes a part.
+9. Each round is reviewed against (a) every expectation in every book (the most important; a miss means back to the
+   drawing board), (b) Wharton's marking guide, (c) brilliance: erudite, creative, distinctive. Then rewritten. Many
+   rounds, each logged.
+10. Erudition: explore Damodaran's corporate finance lectures and Yale's ECON 252 (Shiller) thoroughly, research far
+    beyond them, judge every item on the pasted list, and use what fits our strategy (IPS or Final Report).
+11. Volume: provably more work in these twelve hours than in the whole project before them.
+12. From Ray (I84-I86): creativity must be in the strategy and the reasoning, not in metaphor; no rehab or medicine
+    imagery (Laura is not a patient); "do not crush" read as corny. Book 11 asked for the motif in the intro and the
+    conclusion. Keel's resolution is logged in `ips_rewrite/final_night/README.md`.
