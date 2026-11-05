@@ -324,3 +324,59 @@ Files: this log's drafts are `R01_*` to `R76_*` (leading zero). Another thread w
 | Round | IPS | Pitch | What changed and why |
 |---|---|---|---|
 | V59 | 495 | 50 | R76 with the final round's fixes: "its interest makes up the difference by December 2032" and "What the stake returns, less a margin because a fund's payout isn't fixed, is the bottom of her range" (one reading); "for her creative residency in Taiwan"; "Should her $300,000 in 2027 fall short of all ten"; "She gives what the Treasuries behind it pay, capped at the top."; "Naming the range creates, in effect, a second debt."; the close echoes the ten ("When the tenth holding is redeemed for the 2042 payment, the debt is repaid."). Pitch: "The credible range she names in 2031 is a second debt: what's left of her 2028 deposit buys its bottom and some shares, and half those shares become the top's Treasuries before she speaks." **Final AI draft, filed as V59 in `drafts/D39/` and `drafts/FINAL/`.** |
+
+### After V59: the other thread's final, a blind comparison, and one combined draft (Fri 6 Nov, ~06:00-06:40 Sydney)
+
+Another thread had also written a Book 12 final overnight (`../FINAL/`, merged into main at about 00:08). Four
+fresh readers compared it with V59 blind (`../compare/README.md`): the Bible reader, the cold reader and two of
+three mock judges preferred the other draft for plainness and order; the fact-checker preferred V59, because the
+other draft has one false sentence and several that go too far. Neither was ready as it stood, so this writer wrote
+one more draft: the other draft's order (the rule first, then 2027, 2028, 2031, 2033), its recession reason and its
+named strength; V59's accuracy, its two-thirds argument, its inflation line and its contribution rule (what the
+Treasuries pay, up to the top).
+
+| Round | IPS | Pitch | What changed and why |
+|---|---|---|---|
+| R77 | 538 | 54 | First combined draft. Opens on the rule ("before anyone relies on a sum Laura names, she owns the Treasuries that will repay it"), not the case; the two-thirds argument as the answer to a balanced mix; X and R spelled out; the recession reason; the waiting-money cover; both ends owned before anyone hears them; "Falling shares can lower the range before she names it"; the strength named in the case's words |
+| R78 | 492 | 50 | Cut whole ideas to fit: the funds' net-asset-value sentence (the margin in the bottom sentence carries it), the "gives up some growth" concession, "no holding is sold early" |
+| R79 | 508 | 50 | Clarity: the two-thirds sentence split in two ("In a balanced mix every gain or loss would land on the last third"); "the 2028 deposit buys any it can't afford"; "the facility" for "the building" (case word); the 2028 sentence rebuilt plainly (most buys the stake, the rest, about what it will earn, buys shares); the concession back as the reason the residency can't take the risk; "after that, it rests on Treasuries alone" replaces a default clause that claimed too much; the strength sentence names itself |
+| R80 | 496 | 50 | Trims: "three years early", "Then she sells", "her part must hold when they do", "met elsewhere" |
+| R81 | 495 | 50 | P3 now says the stake "sets the bottom of her range" before the bottom is used; pitch names the 2028 deposit before "that deposit". Sent to five fresh readers (round 26) |
+
+### Round 26 on R81 (five fresh readers)
+- **Bible (`R81_review_a_bible.md`):** back to the drawing board on four KILL rows, none structural: the pitch's last sentence is a telegram; the IPS never says why the shares equal the stake's interest; "comes out of the 2028 stake" reads as selling a Treasury fund early; "ladder" is never introduced. Also: Taiwan never named; the colon reveal in the opening; the leverage sentence compressed; one holding under several names.
+- **Judges (`R81_review_b_wharton.md`):** the fixed-income manager and the professor Top 50 yes, the growth investor narrowly no. "Locking in that bottom three years early" contradicts paragraph 4; the gift almost always lands at the top; "one weakness" overclaims.
+- **Brilliance (`R81_review_c_brilliance.md`):** close; add the cap on share risk (losing every share costs only the stake's interest); the pitch is all trades.
+- **Cold reader (`R81_review_d_coldread.md`):** 9 clear, 12 slowed, 5 lost; "the fund behind the 2033 payment" is the first sign a holding is a fund; "early repayments"; "what they fetched"; the repeated "one".
+- **Facts (`R81_review_e_facts.md`):** 0 false, 5 half-true, 4 strains: "one weakness" (October also names the funds' unfixed payout); the zero-earnings test must count cash inside the funds; "topped up" read as certain in the pitch; "locking in" the bottom.
+
+| Round | IPS | Pitch | What changed and why |
+|---|---|---|---|
+| R82 | 507 | 49 | Opening: "Under Caplet XR, Laura owns the Treasuries that will repay a sum before anyone relies on it" (no colon, no "one rule"); "A balanced mix would probably leave her richer" cut (paragraph 3 carries the concession); "a ladder of ten Treasury holdings"; the funds sentence back ("which pay out what they hold rather than a fixed sum"); "losing every share would cost her only that interest"; "Buying the bottom in 2028" for "locking in"; "The ladder's other weakness"; where waiting money sits; "every waiting dollar, inside the funds too"; the top as "puts the money in Treasury funds ... the top is the bottom plus that money"; pitch rebuilt around what she gets ("Shares can change how large a range she names, never whether she pays it"; "topped up in 2028 if needed") |
+| R83 | 501 | 49 | The leverage sentence unpacked ("since the payments don't move"); "a further stake", then "the stake" throughout; "comes out of what the stake pays in late 2032"; "the one place the plan is allowed to be wrong" cut (the cap clause says it); the Taiwan residency named; P5's falling-shares sentence cut (P4 says the range starts lower) |
+| R84 | 497 | 49 | Trims: "the interest kept for it meet", "needs no trade: it is", "The bottom is what the stake will pay" |
+| R85 | 496 | 49 | "The creative residency in Taiwan" (not her home); "Most of the remaining 2028 deposit". Sent to three fresh readers (Bible, cold reader, facts), round 27 |
+
+### Round 27 on R85 (three fresh readers: Bible, cold reader, facts)
+- **Bible (`R85_review_a_bible.md`):** back to the drawing board, narrowly, on two KILL rows: the two 2028 sentences kept an older draft's shape with nouns swapped; two squeezed sentences (the 2031 one with "inside the funds too", and the balanced-mix one). Also: the funds sentence gave a cost with no reason (October's liquidity trade); no fair hearing for the balanced mix; "a sum", "the ladder's other weakness", a bottom that contradicted "starts lower", "Buying the bottom"; diversification never argued for the payments; R never tied to repayment; the pitch a colon list with a mirrored closer.
+- **Cold reader (`R85_review_d_coldread.md`):** 7 clear, 15 slowed, 2 lost (the X/R line, the 2031 sentence); "losing every share would cost only that interest" seemed to contradict the 2031 step.
+- **Facts (`R85_review_e_facts.md`):** none false; half-true: the bottom must also be less any extra Treasuries the stake pays for; the 2033 reserve "needs no trade" leaves out waiting money; the tenth payment also needs the 2031 Treasuries; "barring a US default" had dropped out.
+
+| Round | IPS | Pitch | What changed and why |
+|---|---|---|---|
+| R86 | 511 | 49 | The facts fixes (bottom less what it gives toward the extra Treasuries; reserve "already in place: the ladder, the extra Treasuries and the money waiting for them"; "barring a US default"; the tenth payment); the 2031 step split in two; "the shares put at risk only about what the stake will earn"; "Paying for the bottom" |
+| R87 | 496 | 49 | The shortfall folded into the bottom's definition; "cover" dropped as a label; "with what was set aside for it" |
+| R88 | 522 | 52 | The Bible fixes: concession first ("A balanced mix would suit her record of thoughtful risks. But ..."); the leverage step in two plain sentences ("they are fixed, so ... every gain or loss would fall on the last third. That third would swing like ..."); the 2028 step told afresh ("what the ladder doesn't need buys more of the fund ..., enough to pay back about all of that money by late 2032. It costs less than that, so the difference, roughly its interest, goes into one world index fund"); "her part, resting on the US government instead"; "R for redemption, the day each repays"; the funds' liquidity reason; "reinvestment risk" named and explained; the pitch in spoken sentences |
+| R89 | 498 | 49 | Cuts: the living-costs clause (the concession carries the trade-off), "Each holding is kept to the end" folded into "none is sold before then", "some holdings repay months early", "inside the funds too" |
+| R90 | 493 | 49 | The 53-word 2028 sentence split ("It is bought now, not in 2031, because the creative residency in Taiwan can't wait on shares"); "Then she sells the other half". Sent to one last reader for facts, hard rules and a cold read |
+
+### Last read on R90 (`R90_review_last.md`)
+Nothing false. Half-true or unclear: "bought now" against "In 2028"; "if rates stay low" (the locked risk is rates falling); "sells half her shares" against the leftover shares that stay hers; "no named figure depends on a share price" (the top is set by the share price on naming day); "beyond that half" implied selling the 2032 fund early; the pitch's "buy ten"; the inflation line as a slogan flip; "facility contribution" never used; the 2028 chain and the bottom's definition hard to follow.
+
+| Round | IPS | Pitch | What changed and why |
+|---|---|---|---|
+| R91 | 515 | 50 | "bought in 2028, not 2031"; "if rates fall and stay low"; "sells up to half her shares"; "If that half falls short, the 2028 holding's payout makes up the rest"; "The bottom is what that holding will pay after this"; "no payment, and no figure once named"; "inflation affects only what the facility will cost"; "her facility contribution, resting on the US government instead"; "Treasuries that all mature in one year"; pitch "ten holdings" |
+| R92 | 495 | 50 | Cuts: "and her 2031 range would rest on it", the $50,000 in paragraph 1 (it closes the IPS), "return about all of it", the X/R line shortened |
+| V60 | 497 | 50 | R92 with "The plan's biggest strength" (not "Its") and "X stands for the ten, R for redemption". FINAL: `../../drafts/D40/` = `../../drafts/FINAL/`. Ten Commandments check by a second reader in `../../drafts/D40/COMMANDMENTS_CHECK.md` |
+
+Ten Commandments check on V60 (second reader, `../../drafts/D40/COMMANDMENTS_CHECK.md`): no FAIL; Commandments PASS 7, OPEN 2, VI retired; Book 11 PASS 8, OPEN 1; Book 12 PASS 6, OPEN 1; I80 PASS 9. Its pitch point applied: the opening now reads "Before anyone relies on a sum Laura names, Caplet XR buys Treasuries to repay it." (pitch 50).

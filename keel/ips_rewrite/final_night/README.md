@@ -9,6 +9,7 @@ writer each, independently.
   `rounds/R01_*` to `rounds/R76_*` (leading zero; its R10 text is `other_thread/rounds/R10_ips.txt`, because this
   thread's R10 holds that path); `FR_IDEAS.md`; `harvest/`.
 - A blind side-by-side read of the two finals by four fresh readers: `compare/`.
+- **The final handed to Caplet is V60** (`../drafts/D40/` = `../drafts/FINAL/`): the second thread's writer combined the two finals after that comparison (rounds R77-R92 in `rounds/LOG.md`).
 
 Book 12 (Caplet, Thu 5 Nov, 22:50 Sydney, verbatim in `../../BIBLE.md`) asks for one absolute final pitch and IPS
 by Friday morning, rewritten from scratch by one writer, reviewed against every book, Wharton's guide and plain
