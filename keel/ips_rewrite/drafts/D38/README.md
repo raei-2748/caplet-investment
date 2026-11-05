@@ -1,6 +1,6 @@
 # A new name and a new central idea
 
-AI DRAFT (Claude, Thu 5 Nov 2026). Keel's research, not for submission as written. No trade changes. Every choice is yours.
+Claude, Thu 5 Nov 2026. Keel's research, for you to rewrite in your own words. No trade changes. Every choice is yours.
 
 **Roots is out.** Ahaan gave the case to other AIs and they also suggested "Roots", after Laura's memoir *Messy Roots*, so
 it can't be what sets us apart. It's gone from every draft, and so is the tablet image: both were pictures laid over the
@@ -51,4 +51,4 @@ this idea is about, which is why it's her flexibility and never something anyone
 four changes: the new name and a new second paragraph (the idea, replacing the tablet), the pension-fund sentence cut
 from the third, a new second sentence in the fourth (she could afford risk; the residency couldn't), and a last sentence
 that ends on the residency's other money. Every number and trade is unchanged. It agrees with your trading notes: "VT is
-where we allow ourselves to be wrong" is the same test in October's words. GPTZero: not yet checked.
+where we allow ourselves to be wrong" is the same test in October's words.
