@@ -3,7 +3,7 @@
 ## Now
 - **Doing:** Ray's Stop Slop (I85, Thu 5 Nov evening): installed as a project skill (`.claude/skills/stop-slop/`, github.com/hardikpandya/stop-slop, MIT, read in full first) with Keel's house rules, and run once on the FINAL
 - **Decided:** seven flags worth fixing, the closing tablet line first; the rest it flags (adverbs that carry facts, the case's words, words matching the trading notes, the Caplet XR paragraph) stay or are Caplet's call. No self-score: GPTZero stays the test
-- **Next:** every draft this room touches goes through Stop Slop before Caplet sees it; Caplet's rewrite of the FINAL once it lands; the Final Report from Tue 10 Nov
+- **Next:** Stop Slop stays unused until Caplet asks (Ray, 5 Nov 20:05: "not asking you to use stop slop yet"); Caplet's rewrite of the FINAL once it lands; the Final Report from Tue 10 Nov
 - **For the judges:** suggestions only, no draft changed (`../ips_rewrite/inbox/2026-11-05_stop-slop.md`; 476 strict with all seven, 492 keeping the last line)
 - **Updated:** 2026-11-05 19:58 Sydney
 

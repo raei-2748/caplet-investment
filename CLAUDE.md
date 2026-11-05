@@ -7,10 +7,6 @@ decision, deadline or open item changes, and commit it with the related change. 
 - **Talk to the students plainly (Ray, 3 Nov, INSTRUCTIONS I80).** Anything written for Caplet is one page of plain
   English, no internal labels (rooms, beats, huddles, L-/H-/A- codes). Drafts: no slogan flips, no two-word kickers, no
   "That is X." runs, no one-line endings (list in `keel/ips_rewrite/drafts/D35/README.md`). Latest status: `caplet/STATUS_2026-11-03.md`.
-- **Stop Slop before Caplet sees anything (Ray, 5 Nov, INSTRUCTIONS I85).** Run the `stop-slop` skill
-  (`.claude/skills/stop-slop/`, from github.com/hardikpandya/stop-slop) on every IPS, pitch or Final Report draft and every
-  note for Caplet; fix each flag or keep it with a reason. Keel's house rules at the end of its `SKILL.md` win where they
-  clash (en dashes stay, the case's words stay, words that carry a fact stay, no self-score: GPTZero stays the test).
 Whoever is using Claude here, these rules apply, and the Keel Office (formerly the Caplet Research Office) is how competition work is done:
 - **Wharton's word first, then THE BIBLE (ten books).** `keel/WHARTON_WORD.md` holds everything in Wharton's documents
   that bears on the IPS (the five criteria, the IPS's questions, what judges look for, Wharton's advice), verbatim; it

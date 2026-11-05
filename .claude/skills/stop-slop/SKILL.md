@@ -74,8 +74,9 @@ MIT
 Installed for Team Keel / Caplet at Ray's request (5 Nov 2026, `keel/INSTRUCTIONS.md` I85). Everything above this line
 is Hardik Pandya's skill, unchanged (source and pinned commit in `SOURCE.md`). In this repo:
 
-**When.** Run this skill on every IPS, pitch or Final Report draft, and on any note written for Caplet, before Caplet
-sees it. Fix each flag, or keep it with one line saying why. Suggestions for Caplet's own docs stay suggestions.
+**When.** Only when a Caplet student asks for it. Ray, 5 Nov: "I am not asking you to use stop slop yet", so Keel does
+not run it on drafts on its own until a student says so. When it runs, fix each flag or keep it with one line saying
+why. Suggestions for Caplet's own docs stay suggestions.
 
 **Where Keel's standing rules win over the skill:**
 1. **Dashes.** No em dashes (agreed). En dashes stay: Ray, 25 Oct, they are correct in Australian English. The
