@@ -1,7 +1,7 @@
 # Team Keel / Team Caplet: project memory
 
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
-decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-05 (Ray bans "Roots" (I86); proposed new name and central idea First In, Last Out = V58, `keel/ips_rewrite/drafts/D38/`; FINAL IPS = V57, `keel/ips_rewrite/drafts/FINAL/`, with Caplet's I81 "erudite" concepts; Ray: drafts read AI/corny and the team can't follow Keel; V55 = V54 in plain English, `caplet/STATUS_2026-11-03.md`; all branches merged into main 2 Nov; V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
+decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-05 (Ray bans "Roots" (I86); proposed new name and central idea Fixed Point = V58, `keel/ips_rewrite/drafts/D38/`; FINAL IPS = V57, `keel/ips_rewrite/drafts/FINAL/`, with Caplet's I81 "erudite" concepts; Ray: drafts read AI/corny and the team can't follow Keel; V55 = V54 in plain English, `caplet/STATUS_2026-11-03.md`; all branches merged into main 2 Nov; V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
 
 ## For every Claude session in this repo (all teammates)
 - **No "Roots" (Ray, 5 Nov, INSTRUCTIONS I86).** Never use "Roots" ("Steady Roots", *Messy Roots* callbacks) as a name or
