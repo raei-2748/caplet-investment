@@ -4,6 +4,11 @@ Wharton Global High School Investment Competition 2026-27. Keep this file curren
 decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-04 (FINAL IPS = V57, `keel/ips_rewrite/drafts/FINAL/`, with Caplet's I81 "erudite" concepts; Ray: drafts read AI/corny and the team can't follow Keel; V55 = V54 in plain English, `caplet/STATUS_2026-11-03.md`; all branches merged into main 2 Nov; V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
 
 ## For every Claude session in this repo (all teammates)
+- **BANNED (Ray, 4 Nov, INSTRUCTIONS I82): "defend it", "if a judge asks", "be ready if pushed".** No one answers a
+  judge before the semifinal; the Top 50 is chosen on the written work only. A claim that needs defending is fixed or
+  cut on the page. Don't write this analysis for Caplet until they are semifinalists.
+- **No invented terms (Ray, 4 Nov, INSTRUCTIONS I83).** Use the case's own words (operating commitment / payments /
+  reserve, facility contribution, credible range, co-sponsors) or plain English; never coined labels like "floor".
 - **Talk to the students plainly (Ray, 3 Nov, INSTRUCTIONS I80).** Anything written for Caplet is one page of plain
   English, no internal labels (rooms, beats, huddles, L-/H-/A- codes). Drafts: no slogan flips, no two-word kickers, no
   "That is X." runs, no one-line endings (list in `keel/ips_rewrite/drafts/D35/README.md`). Latest status: `caplet/STATUS_2026-11-03.md`.
