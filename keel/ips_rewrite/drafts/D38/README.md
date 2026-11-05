@@ -21,12 +21,14 @@ money at the same time. The idea also says why her minimum is bought in 2028 and
 holds shares until 2031: on average it leaves Laura about $19,000 more by 2042. But in its worst twentieth of 2028-30
 markets, it names about $90,000 to co-sponsors against our $140,000, in the same years co-sponsors give less.
 
-**The name: Datum.** Surveyors fix one point first and measure every height from it; that point is the datum. Laura's
-part is the residency's datum: settled before anyone is asked, so co-sponsors size their own gifts against it, and it
-doesn't move when the economy does. The word also means "a thing given" in Latin, and her facility contribution is a
-gift. That second meaning is for whoever catches it; the plan never leans on it. (Runner-up: Cornerstone. In Hong Kong
-share offerings, cornerstone investors commit a fixed amount before the offering opens, are named in the prospectus and
-can't sell for a set period, which is Laura's role exactly. But the word is common enough that other AIs may suggest it.)
+**The name: Datum.** The word has two meanings, and the plan needs both. To surveyors, a datum is the fixed point every
+height is measured from. In Latin, *datum* means "a thing given". Laura's contribution is a gift, and it's also the fixed
+point co-sponsors measure their own gifts from, because it's settled before they're asked and doesn't move when markets
+do. The drafts say this outright, in the pitch's first sentence and the IPS's second paragraph, so no judge has to work
+it out. The IPS ends on it too: whatever happens to the residency's other money, Laura's part stays where it was set.
+(Runner-up: Cornerstone. In Hong Kong share offerings, cornerstone investors commit a fixed amount before the offering
+opens, are named in the prospectus and can't sell for a set period, which is Laura's role exactly. But the word is
+common enough that other AIs may suggest it.)
 
 **Where it comes from** (for the Final Report; read at the source on the date shown):
 - Robert Merton, "Optimal Investment Strategies for University Endowment Funds" (NBER Working Paper 3820, 1991; read 5
@@ -51,13 +53,14 @@ can't sell for a set period, which is Laura's role exactly. But the word is comm
 - The half of her shares she keeps would be smallest in exactly the downturn this idea is about. That's why it's her
   flexibility, and nobody counts on it.
 
-**The drafts in this folder.** `pitch.txt` (48 words, strict count). `ips_V58.txt` (496 words) is the final draft with
+**The drafts in this folder.** `pitch.txt` (49 words, strict count). `ips_V58.txt` (497 words) is the final draft with
 five changes:
 - the new name and a new second paragraph (the idea, replacing the tablet)
 - the pension-fund sentence cut from the third paragraph
 - a new second sentence in the fourth (she could afford more risk; the residency couldn't)
-- the portfolio-insurance sentence cut
-- a last sentence that ends on the residency's other money
+- the capital-protected-note and portfolio-insurance sentences cut
+- a last sentence that pays off the name: whatever happens to the residency's other money, Laura's part stays where it
+  was set
 
 Every number and trade is unchanged, and it agrees with your trading notes. "VT is where we allow ourselves to be wrong"
 asks the same question in October's words.
