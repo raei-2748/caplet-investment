@@ -5,7 +5,7 @@
 - **Decided:** seven flags worth fixing, the closing tablet line first; the rest it flags (adverbs that carry facts, the case's words, words matching the trading notes, the Caplet XR paragraph) stay or are Caplet's call. No self-score: GPTZero stays the test
 - **Next:** every draft this room touches goes through Stop Slop before Caplet sees it; Caplet's rewrite of the FINAL once it lands; the Final Report from Tue 10 Nov
 - **For the judges:** suggestions only, no draft changed (`../ips_rewrite/inbox/2026-11-05_stop-slop.md`; 476 strict with all seven, 492 keeping the last line)
-- **Updated:** 2026-11-05 20:10 Sydney
+- **Updated:** 2026-11-05 19:58 Sydney
 
 > AI DRAFT material throughout (Claude); not for submission as written. (Keel is a simulated team, AI-written.)
 
