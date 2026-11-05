@@ -88,6 +88,8 @@
 
 ## 4. Tomorrow's scouting orders (written by the send-off at 20:20; Nora may change them at 07:00)
 
+**Freeze ended, Thu 5 Nov 19:09 (Archive):** Ray, in the project chat: "metaphors alone does not count as creativity. We want intellectual creativity, yours just packaging." (`../INSTRUCTIONS.md` I84). The freeze was Keel's own call, so it ends; a strategy-level hunt runs in its own thread. The Kitchen (20:20) writes Friday's orders around it. Any idea the hunt promotes first answers "which October sentence does it stand on?" (`../rooms/archive_checks/2026-11-05_what_october_allows.md`: six clashes to cut on sight, five ideas that grow from October).
+
 **Round 9, Thu 5 Nov (written by the Rooftop, Wed 4 Nov, 20:20-21:15; huddle H-033, Tess, Jun, Amara, 3 rounds; votes as
 marked).** A **freeze** (the dial: "Caplet reads; Keel answers only what Caplet asks"). **No question, no lens, no scouts,
 no builder, nothing promoted** (3-0). No scout jobs, so LS-14 has no Wharton line to check. **The text Caplet holds:** the
