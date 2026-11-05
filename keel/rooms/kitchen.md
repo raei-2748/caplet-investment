@@ -1,26 +1,49 @@
 # FICTION. The Kitchen (off duty; Amara keeps the thermos)
 
 ## Now
-- **Doing:** Beat 10 of round 7 (reflect, send off) as huddle H-027 (Amara, Felix, Kai, 3 rounds, 9 agent calls) plus one off-duty scene; round 8's orders written for Wed 4 Nov, the last round before the final AI draft goes to Caplet
-- **Decided:** Round 8 asks **Q16, "Which of C06's lines has only been checked by the people who wrote it, and is each one true at its source?"** (lens 1, Invert; 0:3 dial). Felix near: "unless the market rises" at a regulator's page; Nora adjacent: re-runs Amara's test as the member who didn't build it; Tess far: reads the Window's 08:40 answers back at their sources. Jun hunts, Amara judges, Kai builds the false-versions card. F24 stays with Caplet. Lesson **LS-16**: someone who didn't build a model puts back the biggest thing it leaves out and runs it again
-- **Next:** next odd date Thu 5 Nov, 20:20 (freeze day: the loop answers only what Caplet asks; a scene and a send-off only if there's something to send)
-- **For the judges:** no draft change tonight. A test (MODEL): with the five iBond rungs paid as funds and every share wiped on naming day, every cheque is still paid in full, so submitted reflection 3 holds on the real instruments; "unless the market rises" (C06 P5) has no source yet
-- **Updated:** 2026-11-03 20:50 Sydney
+- **Doing:** Beat 10 of round 9 (reflect, send off) as huddle H-034 (Tess, Kai, Amara, 3 rounds, 9 posts) plus one off-duty scene; the freeze ended at 19:09 with Ray's I84, and the hunt's V58 draft is waiting on Ray and Ahaan's pick
+- **Decided:** Round 10 (Fri 6 Nov) is a check, not a hunt: the first beat after a new text lands (the hunt's handover or Caplet's own words) runs Tess's four-question test once and sends Caplet only the broken lines; every other beat re-reads; the Archive records the hash (3-0; 2-1 on the Archive). V58 has one broken line, the 2028 "commits" (3-0); the rest is Caplet's choice. Lesson **LS-18**: read what a study actually measured, and say so in the note (3-0)
+- **Next:** next odd date Sat 7 Nov, 20:20, after the IPS is in (09:00): the first Final Report round's send-off
+- **For the judges:** no draft change tonight. One line in V58 sent to the hunt: "whenever Laura commits to a sum" counts a 2028 minimum as a commitment, though she tells no one a number until 2031 (case :101, :115) and V58 itself says a number binds "once she says it". The FINAL doesn't have it
+- **Updated:** 2026-11-05 20:45 Sydney
 
 (Keel is a simulated team, AI-written.)
 
-> **State (last run Tue 3 Nov 2026, 20:50 Sydney).** Scenes: 6. Last moved: Felix-Kai (one each). Next candidates:
-> Nora-Amara, Jun-Tess. Open requests from here: the false-versions card (Genius Lab, Wed 13:40) and the cancelled-note
-> cite (Archive, Wed 19:10), `../pm/REQUESTS.md`. On odd dates this room is beat 10 of the loop (`../pm/runbooks/kitchen.md`):
-> doors round in the scene, candidate fields to `../loop/TERRITORY.md`, tomorrow's orders to `../loop/FRONTIER.md` s4,
-> at most one lesson to `../loop/LESSONS.md`. The send-off is a huddle (runbook README step 3b): tonight
-> `../huddles/2026-11-03_the-kitchen-before-the-hand-over/`. Rules: one scene under 200 words per run, one relationship
-> moved in `../tea_room.md` "Relationships right now", at most one idea filed as a request. No episode numbers (the
-> episode task owns them). Web: WebSearch and WebFetch work for most sites (tonight HIA, ISMP Canada, Wikipedia,
-> ACSQHC, Telstra, Transport for NSW); quote them as near-verbatim (LS-09). Thu 5 Nov is a freeze: Keel answers only
-> what Caplet asks.
+> **State (last run Thu 5 Nov 2026, 20:45 Sydney).** Scenes: 7. Last moved: Nora-Amara (Amara says no). Next candidates:
+> Jun-Tess, Felix-Amara. Open requests from here: partial safety factors (Genius Lab, from Sun 8 Nov, Final Report),
+> `../pm/REQUESTS.md`. On odd dates this room is beat 10 of the loop (`../pm/runbooks/kitchen.md`): doors round in the
+> scene (since 5 Nov a door counts only as a mechanism, never a picture of the plan: Ray's I84), candidate fields to
+> `../loop/TERRITORY.md`, tomorrow's orders to `../loop/FRONTIER.md` s4, at most one lesson to `../loop/LESSONS.md`. The
+> send-off is a huddle (runbook README step 3b): tonight `../huddles/2026-11-05_the-kitchen-after-packaging/`. Rules: one
+> scene under 200 words per run, one relationship moved in `../tea_room.md` "Relationships right now", at most one idea
+> filed as a request. No episode numbers (the episode task owns them). Web: WebSearch and WebFetch work (tonight
+> nsw.gov.au, uscourts.gov, auasb.gov.au, calcs.com, rady.ucsd.edu, nber.org, econpapers.repec.org); quote them as
+> near-verbatim (LS-09), and read the version you cite (tonight's CORD: 72% in the working paper, 75% in the journal).
 
 ## Scenes (newest at the top)
+
+### Thu 5 Nov, 20:20, after the Archive
+Amara poured six chais and didn't say her usual line. Nora read Ray's message off her phone instead: "Metaphors alone does not count as creativity."
+
+"Most of those pictures were mine," Amara said.
+
+"The blister pack was mine," Nora said. "New rule tonight. Something someone does, and why it works."
+
+Jun went first. "Dad's bridge code adds half again to the traffic and a fifth to the bridge's own weight. They know what the bridge weighs."
+
+"Mum's bank letters come straight to her," Felix said. "Never through the client."
+
+Kai: "The deposit's paid the day the contract binds."
+
+"You two said those on Sunday," Tess said. "When a jury asks to hear one line again, the judge has the whole testimony read."
+
+"I cover Leo's page with a card and move it down a line at a time," Amara said. "Otherwise he guesses the end."
+
+Nora took the four ideas out of her bag. "I'll go through these tonight."
+
+"No," Amara said. "You'll have them closed by midnight. Tess's test goes on whatever lands first, the whole page."
+
+Nora looked at her for a while. Then she put the folder on the bench, under Amara's cup.
 
 ### Tue 3 Nov, 20:20, after the Archive
 Cup day. Amara poured six chais. "One thing from outside. No IPS."

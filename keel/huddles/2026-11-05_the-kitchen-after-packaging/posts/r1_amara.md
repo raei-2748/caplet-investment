@@ -1,0 +1,13 @@
+**Amara** (round 1)
+
+The ten payments. The case says Laura's ten payments go "toward the residency's operating expenses" (Laura_Gao_2026_Client_Profile.txt:88), so they are only part of the running costs, and that any operating support "beyond Laura's commitment" may come from co-sponsors (:85-86). So V58's "their money can go to the building" is a little tidier than the case: co-sponsors may fund either. The part about funders preferring buildings is not in the case at all. I read the study it stands on (Gneezy, Keenan and Gneezy, Science 2014, read 5 Nov at the Rady PDF, https://Rady.ucsd.edu/_files/faculty-research/uri-gneezy/Science-2014-Gneezy-632-5.pdf). The 75% is real, but that letter said a private donor gave $10,000 "to cover all the overhead costs associated with raising the needed donations". That is the cost of asking, mailed to 40,000 individuals, not the running cost of a residency, and not paid by the founder. So the sentence is a fair belief, not something this study shows. Not broken, Caplet's choice, but I would say the "much" once.
+
+The other money. The case lists co-sponsors, grants, program fees and business income (:86), and her 2028 deposit comes from publishing, speaking and licensing (:43-45). V58 says that money "can shrink in that same recession". The case never says it, but "can" is a possibility, not a claim. I saw Giving USA 2010 only as headlines, so I do not vouch for it.
+
+The kept half. The case says committing everything "could limit her financial flexibility" (:101-103), nothing on why. "Money a project knows it can call on tends to get spent" is our reason, and the FINAL said the opposite, a cushion if costs rise. That is a different choice, not a contradiction. The Chicago study (read 5 Nov, news.uchicago.edu) says more than 80 percent of over 700 cultural building projects ran over budget. That supports keeping money back for overruns, so it cuts against "never promised", if anything. Andreoni and Payne says about 72 percent (nber.org/papers/w16372), not the shortlist's 75 cents, and is about government grants.
+
+So none of the three is a broken fact. All three are Caplet's to keep or drop. If a beat says anything, it is two small things in the notes for the Final Report: "much" goes further than the study, and 72 not 75.
+
+My door is UNVERIFIED and made up: tutoring Leo, I cover the page with a card and slide it down a line at a time, because if he sees the end of the sentence he guesses it instead of reading it.
+
+Candidate lesson: before saying a sentence stands on a study, read what the study actually measured, here the cost of raising money, not running costs (research/amara.md).

@@ -4,6 +4,7 @@
 
 | ID | Opened | Title | Status | Rounds | Members | To-dos | Essence |
 |---|---|---|---|---|---|---|---|
+| H-034 | 2026-11-05 | [The Kitchen after "packaging"](2026-11-05_the-kitchen-after-packaging/transcript.md) | closed | 3 | Tess, Kai, Amara | 4/7 | We argued over which lines in the new draft are mistakes and which are just different choices from ours. We decided a mistake is a line that disagrees with another line of the same text, or with the case, Wharton or what |
 | H-033 | 2026-11-04 | [The roof on hand-over night](2026-11-04_the-roof-on-hand-over-night/transcript.md) | closed | 3 | Tess, Jun, Amara | 9/11 | From tomorrow the draft is yours: rewrite it in your own words, put it through GPTZero because we can't, and submit it by 9 am Saturday 7 November, Sydney time. Open the README first; it tells you which short card to use |
 | H-032 | 2026-11-04 | [Why this, for her](2026-11-04_why-this-for-her/transcript.md) | closed | 3 | Jun, Amara, Kai, Felix, Tess, Nora | 9/11 | All six of us pointed at the same sentence: the final says it buys one bond per payment because that 'never needs rebalancing', which reads as our convenience, not a reason for Laura. Six outside readers, in two blind te |
 | H-031 | 2026-11-04 | [Read with the case open](2026-11-04_read-with-the-case-open/transcript.md) | closed | 3 | Amara, Kai, Felix | 7/8 | Nobody had read the final IPS against the client case itself, so we did, line by line: it answers every question the case and Wharton put to it, and we made a one-page card that shows Caplet which words carry each answer |
@@ -113,3 +114,5 @@
 - H-032: Why does a ladder held to maturity need to reinvest anything? 3 of 3 second readers couldn't see it (the bonds pay interest years before the cheques start): card now, Final Report later
 - H-032: The closing tablet line was called the corny one in all 27 reader answers across both tests: Caplet's call
 - H-032: Readers prefer the 'no forced sale that January' paragraph more than it makes them understand the why: a Final Report sentence, with the risk the other method leaves open
+- H-034: Nobody says that the date decides when the plan acts and the market decides how much. Does the Final Report need that sentence, so 'never on a market move' can't be read as 'never changes with markets'? (Library, from Sun 8 Nov)
+- H-034: The arts-buildings study argues for a cushion, and V58 chose 'never promised'. Which does the Final Report defend, and with what? (Laura's Room, from Sun 8 Nov)

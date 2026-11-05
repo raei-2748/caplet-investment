@@ -90,6 +90,48 @@
 
 **Freeze ended, Thu 5 Nov 19:09 (Archive):** Ray, in the project chat: "metaphors alone does not count as creativity. We want intellectual creativity, yours just packaging." (`../INSTRUCTIONS.md` I84). The freeze was Keel's own call, so it ends; a strategy-level hunt runs in its own thread. The Kitchen (20:20) writes Friday's orders around it. Any idea the hunt promotes first answers "which October sentence does it stand on?" (`../rooms/archive_checks/2026-11-05_what_october_allows.md`: six clashes to cut on sight, five ideas that grow from October).
 
+**Round 10, Fri 6 Nov (written by the Kitchen, Thu 5 Nov, 20:20-20:45; huddle H-034, Tess, Kai, Amara, 3 rounds;
+votes as marked; `../huddles/2026-11-05_the-kitchen-after-packaging/`).** The dial (`README.md`): **"the IPS is Caplet's;
+the loop only checks"**. The strategy hunt (Ray's I84) runs in its own thread and owns the text; the loop does not hunt,
+draft or promote. **No question, no lens, no scouts, no builder** (3-0). Texts on file at 20:45: the FINAL (V57,
+`../ips_rewrite/drafts/FINAL/ips.txt` `2c48738daa2113ce`, 496 strict; pitch `71fcadfb0fbe898e`, 49) and the hunt's V58
+(`claude/project-thread-wzz9t4` `0327626`, `drafts/D38/ips_V58.txt` `64962d48ce5168cc`, 497 strict; pitch `682a000971ae1714`,
+50), pending Ray and Ahaan's pick.
+- **Every beat, first:** read the dial line; check the FINAL's hash and strict count; read Caplet's words where they land
+  (new rows in `../INSTRUCTIONS.md`, the Answer column of `../pm/ASK_HUMANS.md`, their IPS Report Doc's modified time
+  against **12:22:59**, read only, never edited or commented on); and look for a handover from the hunt (the newest
+  `../ips_rewrite/drafts/D*` named in `../ips_rewrite/README.md`, or `ips/` in the project folder). If nothing is new:
+  one line in the round file ("nothing new; hash unchanged") and stop.
+- **A new text lands (the hunt's handover or Caplet's own words): the first beat after it takes it, once** (3-0; never a
+  second room on the same text, LS-10). It runs **Tess's test** (3-0, checked on four V58 lines in round 3, all sorted
+  the way the room had):
+  1. Does the line contradict another line of the same text, or its own example? Broken.
+  2. Does it contradict a source we can open at a line: the case, Wharton (`../WHARTON_WORD.md`) or what Caplet
+     submitted in October (the Archive's key, `../rooms/archive_checks/2026-11-05_what_october_allows.md`: six clash,
+     five grow)? Broken. If it leans on an outside study, read what the study measured (LS-18); a mismatch is a Final
+     Report note, never a break.
+  3. Otherwise it is their choice, cited or not ("sources do not need to be cited in the IPS", `../WHARTON_WORD.md` :94).
+     Say nothing.
+  4. For a line the new text dropped: name the line that now does each of its jobs; if none, name the gap.
+  It hands Caplet **one plain page: each broken line read inside its paragraph, the source line quoted, then "the rest is
+  yours"**. No replacement sentence, no wording of ours, no codes. **The Archive (19:10) records the hash it was given**
+  (2-1; Kai wanted it to read the changed lines against the October key as well).
+- **Already done on V58 tonight** (so the first beat doesn't repeat it if V58 is handed over unchanged, same hash): one
+  broken line, sent to the hunt's inbox (`../ips_rewrite/inbox/2026-11-05_kitchen.md`): line 3, "whenever Laura commits
+  to a sum ... a minimum facility contribution in 2028". By V58's own rule a number binds "once she says it" (line 11),
+  which is 2031; the case has her decide the contribution in 2033 (:101) and give co-sponsors a range, "rather than
+  promising one exact amount" (:115) (3-0, on the page plus :101 and :115, not :104 alone, which lets a team recommend a
+  minimum). New in V58; the FINAL only says the fund "sets her minimum facility contribution". Everything else in V58
+  is Caplet's choice, including "never on a market move" (the date sets when, the market sets how much), "funders much
+  prefer" and "tends to get spent" (3-0). If V58 changes before handover, the first beat tests the new text whole.
+- **The Trading Desk (10:30)** runs its usual rules check; Ray's last order is his (U.S. close, Sat 08:00 Sydney).
+- **The Long Room (18:20)** holds no vote on the IPS's words. **The Rooftop (20:20)** writes Saturday's one beat: Sat 07:00
+  is the last before 09:00, so a text that lands after Friday's test is the 07:00 beat's to test, once, and its page must
+  reach Caplet by 08:00.
+- **Not tomorrow:** any new idea into the IPS from a room; any word of ours in Caplet's text; a second room on one text;
+  the Final Report notes (the overhead study measured the cost of raising money; the arts-buildings study argues for a
+  cushion; crowding out about 75% in the published paper), which wait for Sun 8 Nov.
+
 **Round 9, Thu 5 Nov (written by the Rooftop, Wed 4 Nov, 20:20-21:15; huddle H-033, Tess, Jun, Amara, 3 rounds; votes as
 marked).** A **freeze** (the dial: "Caplet reads; Keel answers only what Caplet asks"). **No question, no lens, no scouts,
 no builder, nothing promoted** (3-0). No scout jobs, so LS-14 has no Wharton line to check. **The text Caplet holds:** the

@@ -1,15 +1,173 @@
 {
- "built": "2026-11-05T02:48",
+ "built": "2026-11-05T09:38",
  "days": [
   {
    "date": "2026-11-05",
    "weekday": "Thu",
-   "essence": [],
-   "huddles": [],
-   "research": [],
-   "done": [],
-   "open": [],
+   "essence": [
+    "We argued over which lines in the new draft are mistakes and which are just different choices from ours.",
+    "We decided a mistake is a line that disagrees with another line of the same text, or with the case, Wharton or what you already submitted; an uncited sentence you believe is yours to keep.",
+    "So you hear about one sentence, the 2028 one, which calls a minimum facility contribution a commitment two years before Laura tells anyone a number; the rest is yours."
+   ],
+   "huddles": [
+    {
+     "id": "H-034",
+     "title": "The Kitchen after \"packaging\"",
+     "question": "Ray ended the freeze at 19:09 ('yours just packaging') and the hunt has drafted V58. Friday is the last full day before the IPS is due: what should Friday's beats check, and how do we say only what's broken?",
+     "status": "closed",
+     "room": "Kitchen",
+     "chair": "Amara",
+     "members": [
+      "Tess",
+      "Kai",
+      "Amara"
+     ],
+     "essence": [
+      "We argued over which lines in the new draft are mistakes and which are just different choices from ours.",
+      "We decided a mistake is a line that disagrees with another line of the same text, or with the case, Wharton or what you already submitted; an uncited sentence you believe is yours to keep.",
+      "So you hear about one sentence, the 2028 one, which calls a minimum facility contribution a commitment two years before Laura tells anyone a number; the rest is yours."
+     ],
+     "decided": [
+      "3-0: the first beat after a new text lands runs the four-question test once; other beats re-read; 2-1: the Archive records the hash only (Kai: also the changed lines against the October key)",
+      "3-0: V58's 2028 'commits' line is broken on the page (its own 'once she says it') and by case :101 and :115, not by :104 alone; new in V58, not in the FINAL",
+      "3-0: 'never on a market move', 'funders much prefer' and 'tends to get spent' are Caplet's choices, not broken facts",
+      "3-0: LS-18, 'Before saying a sentence stands on a study, read what the study actually measured, and say what it measured in the note.'"
+     ],
+     "seeds": [
+      "Nobody says that the date decides when the plan acts and the market decides how much. Does the Final Report need that sentence, so 'never on a market move' can't be read as 'never changes with markets'? (Library, from Sun 8 Nov)",
+      "The arts-buildings study argues for a cushion, and V58 chose 'never promised'. Which does the Final Report defend, and with what? (Laura's Room, from Sun 8 Nov)"
+     ],
+     "todos": {
+      "done": 4,
+      "total": 7
+     },
+     "path": "keel/huddles/2026-11-05_the-kitchen-after-packaging",
+     "transcript": "keel/huddles/2026-11-05_the-kitchen-after-packaging/transcript.md",
+     "changes": [
+      "keel/loop/FRONTIER.md",
+      "keel/loop/LESSONS.md",
+      "keel/loop/TERRITORY.md",
+      "keel/loop/rounds/2026-11-05.md",
+      "keel/rooms/kitchen.md",
+      "keel/tea_room.md",
+      "keel/pm/REQUESTS.md",
+      "keel/ips_rewrite/inbox/2026-11-05_kitchen.md",
+      "keel/ips_rewrite/IDEA_BANK.md"
+     ],
+     "rounds": 3,
+     "rounds_today": 3
+    }
+   ],
+   "research": [
+    {
+     "path": "keel/huddles/2026-11-05_the-kitchen-after-packaging/research/amara.md",
+     "title": "Amara's sourced notes (round 1, Thu 5 Nov 2026). Keel is a simulated team, AI-written.",
+     "member": "Amara",
+     "huddle": "H-034"
+    },
+    {
+     "path": "keel/huddles/2026-11-05_the-kitchen-after-packaging/research/chair_doors.md",
+     "title": "Chair's notes: the three doors from members outside this thread (Thu 5 Nov 2026)",
+     "member": "Chair",
+     "huddle": "H-034"
+    },
+    {
+     "path": "keel/huddles/2026-11-05_the-kitchen-after-packaging/research/kai.md",
+     "title": "Kai, round 1 notes (read 5 Nov 2026)",
+     "member": "Kai",
+     "huddle": "H-034"
+    },
+    {
+     "path": "keel/huddles/2026-11-05_the-kitchen-after-packaging/research/tess.md",
+     "title": "Tess, round 1 notes (read Thu 5 Nov 2026)",
+     "member": "Tess",
+     "huddle": "H-034"
+    }
+   ],
+   "done": [
+    {
+     "text": "Friday's orders written in the loop's frontier: the first beat after a new text lands runs the four-question test once; the rest re-read; the Archive records the hash (Tess, Kai, Amara; done 5 Nov)",
+     "done": true,
+     "owner": "Tess",
+     "day": "2026-11-05",
+     "huddle": "H-034"
+    },
+    {
+     "text": "The one broken line in V58 sent to the hunt's inbox with the case lines and no wording of ours (Amara's sentence; done 5 Nov)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-05",
+     "huddle": "H-034"
+    },
+    {
+     "text": "LS-18 filed: read what a study actually measured, and say so in the note (Amara's words, Kai's clause; done 5 Nov)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-05",
+     "huddle": "H-034"
+    },
+    {
+     "text": "CORD: crowding-out figure is 75% in the published 2011 paper the shortlist cites, 72% in the 2010 working paper (chair; done 5 Nov)",
+     "done": true,
+     "owner": null,
+     "day": "2026-11-05",
+     "huddle": "H-034"
+    }
+   ],
+   "open": [
+    {
+     "text": "Run the four-question test once on the first new text after 20:45 Thu (the hunt's handover or Caplet's own words), and send Caplet only the broken lines, each read in its paragraph (whichever beat meets it first; Fri 6 or Sat 7 Nov before 08:00)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-034"
+    },
+    {
+     "text": "Final Report notes on the shortlist's sources: the overhead study measured the cost of raising money; the arts-buildings study argues for a cushion; crowding out about 75% (published) (Library; from Sun 8 Nov)",
+     "done": false,
+     "owner": "Library",
+     "day": null,
+     "huddle": "H-034"
+    },
+    {
+     "text": "Jun's door, partial safety factors: are the plan's margins ordered by how unpredictable each source of money is? (Genius Lab; from Sun 8 Nov, Final Report)",
+     "done": false,
+     "owner": null,
+     "day": null,
+     "huddle": "H-034"
+    }
+   ],
    "runs": [
+    {
+     "day": "2026-11-05",
+     "when": "Thu 5 Nov 20:45",
+     "room": "Kitchen",
+     "what": "Beat 10, round 9, as huddle H-034 (Tess, Kai, Amara; 3 rounds, 9 posts): the hunt's V58 (`64962d48ce5168cc`, 497 strict) read with Tess's new four-question test; **one broken line** (the 2028 \"commits\": V58's own \"once she says it\" + case :101, :115; new in V58, not in the FINAL), the rest Caplet's choice (3-0); sent to `../ips_rewrite/inbox/2026-11-05_kitchen.md`. Round 10 orders in `../loop/FRONTIER.md` s4 (first beat after a new text lands tests it once; the Archive records the hash). **LS-18** (read what a study measured). Chair CORD: crowding out is 75% in the cited 2011 paper, 72% only in the 2010 working paper. Scene 7, Nora-Amara. TERRITORY: 1 new, 3 updated. Requests: closed 1, filed 1 (partial safety factors, Genius Lab, Sun 8 Nov). Bank #182. `../office/outbox/2026-11-05_kitchen_one-line-in-v58.md`"
+    },
+    {
+     "day": "2026-11-05",
+     "when": "Thu 5 Nov 19:45",
+     "room": "Archive",
+     "what": "Beat 9, round 9: Ray's 19:09 message registered as **I84** (creativity is intellect, not packaging; the freeze ends); **twelve sample ideas against the locked record, two blind checkers, 12 / 12 the same way round**: six clash, five grow from October, three of those the FINAL never says: `../office/outbox/2026-11-05_archive_what-october-allows.md`; Caplet's doc hashes recorded (09:39, 12:22); the day merged into main, CLAUDE.md held for Ray"
+    },
+    {
+     "day": "2026-11-05",
+     "when": "Thu 5 Nov 18:30",
+     "room": "Courtroom",
+     "what": "Beat 8, round 9, freeze, no trial, no hunt, no vote: **nothing asked; hash unchanged** (textcheck on the FINAL: IPS 493 by spaces / 496 strict, pitch 49, 0 non-ASCII; hashes `2c48738daa2113ce` / `71fcadfb0fbe898e`, project folder matches; no row after I83; no new answer; nothing open to this room; Caplet's doc still 12:22:59 at 18:22, the Genius Lab's pass). P04's judge score waits for Caplet's own scorers (CHARTER s6): `../loop/rounds/2026-11-05.md` s8"
+    },
+    {
+     "day": "2026-11-05",
+     "when": "Thu 5 Nov 16:25",
+     "room": "Writing Room",
+     "what": "Beat 7, round 9, freeze, no huddle, no reader: **nothing asked; hash unchanged** (textcheck on the FINAL: IPS 493 by spaces / 496 strict, pitch 49, 0 non-ASCII; hashes `2c48738daa2113ce` / `71fcadfb0fbe898e`, project folder matches; no row after I83; no new answer; Caplet's doc still 12:22:59 at 16:22, the Genius Lab's pass). No Caplet rewrite of the FINAL exists yet, so the room's card read had nothing to read: `../loop/rounds/2026-11-05.md` s7"
+    },
+    {
+     "day": "2026-11-05",
+     "when": "Thu 5 Nov 15:25",
+     "room": "Laura's Room",
+     "what": "Beat 6, round 9, freeze, no huddle, no reader: **nothing asked; hash unchanged** (IPS `2c48738daa2113ce` 496, pitch `71fcadfb0fbe898e` 49; no row after I83; no new answer; Caplet's doc still 12:22:59, the Genius Lab's pass). No simulated Laura run (the freeze; LR-12 read the FINAL against the case on 4 Nov): `../loop/rounds/2026-11-05.md` s6"
+    },
     {
      "day": "2026-11-05",
      "when": "Thu 5 Nov 14:30",
