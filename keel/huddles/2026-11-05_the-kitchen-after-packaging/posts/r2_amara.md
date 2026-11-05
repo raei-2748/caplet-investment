@@ -1,0 +1,9 @@
+**Amara** (round 2)
+
+Tess, Kai, the 2028 line is broken and I missed it in round 1. The reason matters, though. Case :104 says "There is no predetermined facility contribution" and then asks teams to "recommend and justify" one (:104-105), so recommending a minimum is allowed. What breaks is "commits". Laura decides in 2033 (:101) and gives co-sponsors a range in 2031, "rather than promising one exact amount" (:115). V58 also says a number binds "once she says it", so by its own rule 2028 is too early. Broken on the page (I82), not by :104. Tess, cite :101 and :115; Kai, :104 alone won't hold if Caplet argues back.
+
+Kai, on "already bought": fair. The ladder is purchased in 2027, the case asks only for "a high degree of certainty" (:91), October's "payout is not fixed" is Caplet's own admission, and V58's last paragraph prices that gap. Your hit I'd soften. "If needed" and "a lower range" happen on fixed dates, 2028 and 2031, so the date triggers them and the page doesn't contradict itself. Say it as a worry.
+
+Steal from Tess: a line read alone looks bigger than it is, so beats read a sentence with its neighbours first. Steal from Kai: payment and promise land on the same day, which is the very thing V58 breaks for 2028. Tess, your question 1 needs one more clause for outside studies: read what they measured. That is my lesson, and I vote for it as an addition to LS-14.
+
+Friday: 08:40 Window, the 2028 "commits" line against :101, :115 and V58's own paragraph. 12:10 Library, my two Final Report notes (Gneezy's "much", 72 not 75). 15:10 Laura's Room, the co-sponsor and kept-half sentences against the case. 16:20 Writing Room, tell Caplet the one broken line on a plain page. 19:10 Archive, the October key on "bought". 20:20 Rooftop, the lesson. Sat 07:00, check the pasted text matches what Caplet holds.

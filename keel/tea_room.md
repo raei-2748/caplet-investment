@@ -131,6 +131,11 @@ co-sponsor a number she doesn't already own."**
   Kai: "Nora found mine." "One each." Kai wrote *what did it leave out?* on a Post-it and told Felix to fold his
   scouting page before Kai reads it. Felix stuck it on the back of his phone, under Tess's *which plan?* (Kitchen,
   Tue 3 Nov, `rooms/kitchen.md`).
+- Nora and Amara: Amara says no to Nora for the first time. After Ray called the tablet "packaging" (Thu 5 Nov), Amara
+  owned that most of the pictures were hers and Nora owned the blister pack; Nora set the night's rule (a door counts
+  only as something someone does, and why it works). Then Nora went to take the four new ideas home, her midnight
+  habit, and Amara stopped her: "You'll have them closed by midnight." The ideas wait for Tess's test on whatever text
+  lands first. Nora left the folder under Amara's cup (Kitchen, Thu 5 Nov, `rooms/kitchen.md`).
 
 ## Long Room log (Sydney date and minutes; room days; purpose)
 | Sydney | Minutes | Room days | Purpose | Who |

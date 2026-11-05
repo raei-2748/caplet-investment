@@ -1,0 +1,9 @@
+# Tess, round 1 notes (read Thu 5 Nov 2026)
+- keel/WHARTON_WORD.md:78-79 (read at the line): "Focus on the strategy and decision-making framework that guide your portfolio rather than describing individual investments or presenting detailed financial calculations." Means: named concepts are optional; dropping them is a choice.
+- keel/WHARTON_WORD.md:92-95: not expected in the IPS: final reserve calculations, detailed projections, a final range, co-sponsor draft; sources need not be cited. Means: the FINAL's 1987 claim was uncited and unneeded.
+- keel/WHARTON_WORD.md:57-63: the five questions. Job-check in step 3 uses these.
+- Case (competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt) :109-116: she approaches co-sponsors from 2031 and gives a range then. Means V58's "commits ... in 2028" is not a commitment to anyone. :83-86 and :91-93: outside funding sources named; operating payments may not rely on them. Nothing says funders prefer buildings to running costs.
+- keel/rooms/archive_checks/2026-11-05_what_october_allows.md: C4 (rebalancing clashes with October), C10, C12 (no fixed payout); V58 keeps "never on a market move".
+- keel/loop/LESSONS.md LS-15 (:25): read the line's jobs and name the line that carries each. Covers lesson, so none new.
+- V58 (research/v58_ips_as_read.txt) para 2: "Whenever Laura commits to a sum, she buys ... a minimum facility contribution in 2028". Para 5: "which funders much prefer to running costs"; "tends to get spent".
+- DOOR: https://www.ce9.uscourts.gov/jury-instructions/node/907, 5 Nov 2026, fetched, near-verbatim: "all [readbacks] [playbacks] run the risk of distorting the trial because of overemphasis of one portion of the testimony"; "[you will be required to hear all the witness's testimony on direct and cross-examination]". (Ninth Circuit model civil/criminal readback instruction, US; mum is Sydney, mechanism is the same idea, not NSW practice: UNVERIFIED for NSW.)
