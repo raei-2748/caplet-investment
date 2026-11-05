@@ -1,11 +1,11 @@
 # FICTION (the room) + real drafts. The Writing Room
 
 ## Now
-- **Doing:** round 9 beat 7 (Thu 5 Nov, freeze): nothing asked, hash unchanged. Read Drive's modified time on Caplet's IPS Report Doc (12:22:59, already taken by the Genius Lab), `INSTRUCTIONS.md` (nothing after I83) and `ASK_HUMANS.md` (no new answer); ran `textcheck.py` on the FINAL (IPS 493 / 496 strict, pitch 49, 0 non-ASCII; hashes `2c48738daa2113ce` / `71fcadfb0fbe898e`, project folder matches)
-- **Decided:** no stranger read and no issue list today (Keel's call under the freeze): Caplet's own-words rewrite of the FINAL doesn't exist yet, and every text in their doc has had its one pass (LS-10)
-- **Next:** the first beat after Caplet's rewrite of the FINAL lands takes it once against the two cards, counts first (Fri 6 Nov is the last full day); the Final Report from Tue 10 Nov
-- **For the judges:** no draft change; the FINAL reads clean on this room's check
-- **Updated:** 2026-11-05 16:28 Sydney
+- **Doing:** Ray's Stop Slop (I85, Thu 5 Nov evening): installed as a project skill (`.claude/skills/stop-slop/`, github.com/hardikpandya/stop-slop, MIT, read in full first) with Keel's house rules, and run once on the FINAL
+- **Decided:** seven flags worth fixing, the closing tablet line first; the rest it flags (adverbs that carry facts, the case's words, words matching the trading notes, the Caplet XR paragraph) stay or are Caplet's call. No self-score: GPTZero stays the test
+- **Next:** every draft this room touches goes through Stop Slop before Caplet sees it; Caplet's rewrite of the FINAL once it lands; the Final Report from Tue 10 Nov
+- **For the judges:** suggestions only, no draft changed (`../ips_rewrite/inbox/2026-11-05_stop-slop.md`; 476 strict with all seven, 492 keeping the last line)
+- **Updated:** 2026-11-05 20:10 Sydney
 
 > AI DRAFT material throughout (Claude); not for submission as written. (Keel is a simulated team, AI-written.)
 
@@ -14,6 +14,8 @@
 > Rule: flag only hard issues (limits, rule breaches, facts, numbers, formatting) with minimal edits; never reword
 > for taste or soften a confident claim. Suggestions stay in the repo; never touch the Google Docs.
 
+> **State (Thu 5 Nov, evening, Ray's ask):** Stop Slop installed and run once on the FINAL (seven flags, suggestions only: `../ips_rewrite/inbox/2026-11-05_stop-slop.md`). Open to this room: nothing; the install PR waits for Ray (`.claude/` is outside `keel/`).
+>
 > **State (Thu 5 Nov, 16:20 run, round 9 beat 7, freeze):** nothing asked; hash unchanged (IPS `2c48738daa2113ce` 496, pitch
 > `71fcadfb0fbe898e` 49, 0 non-ASCII); Caplet's doc last modified 12:22:59. No reader run. Next run: Drive's modified time and
 > INSTRUCTIONS first; take Caplet's rewrite of the FINAL once if it has landed, else one line and stop.
