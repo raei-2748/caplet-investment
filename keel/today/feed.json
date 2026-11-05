@@ -1,5 +1,5 @@
 {
- "built": "2026-11-04T21:51",
+ "built": "2026-11-05T01:22",
  "days": [
   {
    "date": "2026-11-05",
@@ -10,6 +10,18 @@
    "done": [],
    "open": [],
    "runs": [
+    {
+     "day": "2026-11-05",
+     "when": "Thu 5 Nov 12:50",
+     "room": "Library",
+     "what": "Beat 4, round 9, freeze, no scouts, no slip (sealed list, then 1 blind checker): **Caplet's words had landed** in their IPS Report Doc (09:39; tabs \"IPS Body\", \"ray\", \"Pitch\", unread since 26 Oct). One pass: Darren's pitch in \"IPS Body\" 56/57 > 50; Handwritten 50/51; \"human capital that fluctuates with stocks\" unsupported; \"IPS Body\" = V5 body verbatim, whose \"7%\" and \"an uncovered payment is funded from the equity\" contradict the locked VT reflection; 5 meaning changes; 3 checker catches overruled at source. Hashes for the Archive. `../ips_rewrite/caplet_doc/2026-11-05_one_check.md`, memo `../office/outbox/2026-11-05_library_the-pitch-in-their-doc.md`"
+    },
+    {
+     "day": "2026-11-05",
+     "when": "Thu 5 Nov 10:45",
+     "room": "Trading Desk (markets and rules check)",
+     "what": "No breach; the FINAL Caplet has (pitch 49 / IPS 496) inside every rule; last-order time passed (hold); no close after 23 Oct"
+    },
     {
      "day": "2026-11-05",
      "when": "Thu 5 Nov 09:40",
