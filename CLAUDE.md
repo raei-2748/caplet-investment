@@ -1,7 +1,7 @@
 # Team Keel / Team Caplet: project memory
 
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
-decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-04 (FINAL IPS = V57, `keel/ips_rewrite/drafts/FINAL/`, with Caplet's I81 "erudite" concepts; Ray: drafts read AI/corny and the team can't follow Keel; V55 = V54 in plain English, `caplet/STATUS_2026-11-03.md`; all branches merged into main 2 Nov; V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
+decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-06 (FINAL IPS = V59, rewritten from scratch overnight under Book 12 by one writer, 76 drafts and 25 review rounds, `keel/ips_rewrite/drafts/D39/` = `drafts/FINAL/`, log `keel/ips_rewrite/final_night/rounds/LOG.md`, ideas kept for the Final Report in `final_night/FR_IDEAS.md`; V57 retired; earlier: V57 with Caplet's I81 "erudite" concepts; Ray: drafts read AI/corny and the team can't follow Keel; V55 = V54 in plain English, `caplet/STATUS_2026-11-03.md`; all branches merged into main 2 Nov; V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
 
 ## For every Claude session in this repo (all teammates)
 - **Talk to the students plainly (Ray, 3 Nov, INSTRUCTIONS I80).** Anything written for Caplet is one page of plain

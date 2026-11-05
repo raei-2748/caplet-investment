@@ -1,1 +1,1 @@
-Laura's ten $50,000 operating payments are fixed, so we pay for them up front: her first $300,000 buys Treasuries that mature one before each January from 2033. Her 2028 deposit buys Treasuries that set her minimum facility contribution, and only the interest those would earn goes into world shares.
+Caplet XR treats Laura's ten operating payments as a debt and buys Treasuries to repay it. The credible range she names in 2031 is a second debt: what's left of her 2028 deposit buys its bottom and some shares, and half those shares become the top's Treasuries before she speaks.
