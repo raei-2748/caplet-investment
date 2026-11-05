@@ -28,3 +28,8 @@ episodes.
 4. **Few ideas at full size** (Commandment VII, Books 2, 9, 10, 12). Ideas that didn't fit go to the Final Report list
    in `FINAL_REPORT_BANK.md`, never lost (Book 9).
 5. **The October record binds** (Archive, 5 Nov): every claim agrees with the submitted trading notes and TNA.
+6. **The name, after PR #150 (Thu 5 Nov, late).** Another thread proposed "Datum" (surveyors' fixed point; Latin "a
+   thing given") with the recession test as the central idea. The writer kept Caplet XR because Books 3 and 5 lock it
+   ("Caplet XR is a brilliant name; let's stick with it"), and took the idea, not the name: the residency's other money
+   can shrink in a recession, so Laura's part is bought in Treasuries as each deposit arrives (R8, ¶3). If Caplet
+   prefers Datum, it swaps into one sentence of ¶2 without touching anything else.

@@ -1,0 +1,38 @@
+# Rounds log (final night, Thu 5 - Fri 6 Nov 2026)
+
+AI DRAFT workspace (Claude, 5-6 Nov 2026). One writer (this thread's Claude) writes every round. Reviewers read each
+reviewed round cold and never write sentences. Counts are strict (`keel/office/tools/textcheck.py`, larger count).
+Target: IPS at most 497, pitch at most 50.
+
+| Round | IPS | Pitch | What changed and why |
+|---|---|---|---|
+| R01 | 786 | 51 | First full draft from the writer's own reading (twelve books, Wharton's word, case, locked record, V57, V58), before the harvests landed. Every idea at full size: the rule (never name a number she doesn't own), the pension lesson, cash v Treasuries, certainty, time and shares, the leverage point, her income, the hand-built capital-protected note, both ends of the range owned, a co-sponsor match, the running-costs argument, the reinvestment gap, the unpromised half, the shrinking reserve. Deliberately long: the method is to cut whole ideas, never to squeeze sentences (Book 12). |
+| R02 | 585 | – | Cut whole: the pension story, cash v Treasuries, the co-sponsor match (all to the Final Report list). Added the required-return point (the payments need only what Treasuries pay). |
+| R03 | 738 | – | Rewritten after the voice brief (`harvest/03_VOICE_BRIEF.md`): every compressed phrase unpacked into plain sentences ("rarer, not smaller" and "a number said aloud can't be quietly halved" both flagged as riddles), pronouns pinned to nouns, calendar order, people as subjects. Longer, so the next rounds cut ideas. Opening no longer retells the case: it states what Laura will stake her word on and the rule. |
+| R04 | 609 | – | Cut whole: time diversification, the liquidity sentence, the target-date contrast, "allowed to be wrong". |
+| R05 | 637 | – | Added, from the harvests: why hold shares at all and what the caution costs (Treasuries alone give a larger sure sum; shares are the only part that can grow with building costs in Taiwan, and the worst they can do is hand back the deposit), which also answers inflation (case asks). Cut her income (the case never links it to markets; the team's own notes doubt it). Softened the co-sponsor line to reasoning (the claim that funders prefer buildings is only half true). |
+| R06 | 587 | – | New opening built on a case fact the drafts never used: the building can look to co-sponsors, the payments cannot (outside money may fund the facility, never the payments). Cut the hand-built note's bank sentence (readers never understood "option"). |
+| R07 | 553 | – | Ladder purchase moved into the opening so the name and the rule sit beside the holdings they describe. |
+| R08 | 539 | – | The required-return point merged into the shares paragraph as its first reason; the certainty definition now follows from the argument instead of standing alone. |
+| R09 | 527 | 48 | Tightened without squeezing; first pitch. **Sent to five reviewers**: (a) every Bible expectation, (b) three Wharton judges who disagree, (c) brilliance and erudition, (d) a cold first-time reader, (e) facts and the locked record. |
+
+### Review of R09 (five reviewers, files `R09_review_*.md`)
+- **(a) Bible:** fails. The ending "each January one is redeemed" is false and contradicts paragraph 1; "repaid by the US government" gives the five funds a bond's promise; "Shares nearly always beat Treasuries" is false; five sentences are light edits of V58; R08 to R09 was word-snipping; four pronouns in the interest sentence; erudition hidden; diversification and liquidity missing; the two top unused ideas (why buy the bottom in 2028; one borrower on purpose) absent.
+- **(b) Three Wharton judges:** fixed-income PM 8/7/8/7/7 (Top 50), professor 7/7/6/8/7 (Top 50), growth investor 5/5/6/7/6 (borderline: "thoughtful risks" never engaged). Liquidity is the biggest gap; no reason for "half"; "near-complete confidence" has no basis; two of three would cut the co-sponsor line.
+- **(c) Brilliance:** three retellable ideas (payments can't look to co-sponsors; leverage; risk only the interest). Strength argued for the payments, only asserted for the range. Missing: a capped range is lopsided; why the bottom is bought in 2028; diversification by purpose; certainty named by its ways to fail; the good-market path.
+- **(d) Cold reader:** 5 clear, 10 slowed, 6 lost of 21 sentences. Lost: the pitch's "only their interest ... which can raise it"; why the leftover swings harder; topping up bonds already bought; "they ... hand back her deposit"; the top never defined; four "it"s in the interest sentence. The rule repeated reads as a slogan.
+- **(e) Facts:** false: "nearly always beat"; "ten years of running costs ... won't stand empty"; the reserve without the set-aside; "each January one is redeemed". Clashes with record: "fail only if the US government missed one". Half-true: the leverage claim holds only for a large share weight (true for a balanced mix); the gap must come from the kept half; the 2032 fund is the first payment's fund (one fund, two jobs).
+- **What Caplet would say next (Ahaan):** "You built the ending on the one phrase everyone knew was fragile, and the knowledge is gone." **(Ray):** "I read the interest sentence three times. Where's diversification?"
+
+| Round | IPS | Pitch | What changed and why |
+|---|---|---|---|
+| R10 | 652 | – | Rewritten on the reviews: the leverage mechanism said out loud (fixed payments act like a debt); certainty as "near-ironclad" (October's word) without "only if"; liquidity; the top-up explained (bond prices rising before January 2027); iBonds explained; the trade-off and Laura's "thoughtful risks"; the reinvestment step told before the range; the cash fact (2009-15); why a range; ending made true (the November 2041 bond). Co-sponsor line cut (overclaim; two judges). |
+| R11 | 526 | 50 | Cut whole: required return, the 2009-15 fact, the good-market clause, the trade-off's second half. New pitch ("the least she'll give ... how much more she can promise"). |
+| R12 | 548 | – | Put back the good-and-bad-market clause and a stated basis for confidence ("Barring a US default"), both case musts. |
+| R13 | 548 | – | Facts: the 2032 fund is the first payment's fund (one fund, two jobs, as the locked IBTM note says); the gap comes from the kept half, top first to fall; inflation moved to the kept half. |
+| R14 | 508 | 50 | Cut whole: the capped-range reason (the rule already gives it), the co-sponsor argument, the "weak point" announcement. |
+| R15 | 561 | – | Fresh opening on the central idea (Bible review: the central idea came third). Added: one borrower on purpose (diversification), the company-leverage comparison, Laura's own income, the US-city escrow standard for the zero rate. |
+| R16 | 536 | – | 2031 told in one order: half to the top, the gap from the other half, then the good/bad-market effect and the 2033 choice. |
+| R17 | 496 | – | Cut whole: the city standard (to the Final Report), "money promised to a building gets spent on overruns" (half-true), "of thousands of companies", her book and speaking income (the "can" link stays a Final Report point). |
+| R18 | 519 | – | Put back "rounded down" (locked: the fund's payout is not fixed), the weak point as its own short paragraph, "market moves change nothing" (Wharton's own line about strategy and markets). |
+| R19-R20 | 496 | 49 | Cut whole: "only if that half runs out" (edge case, Final Report), "nothing in it is sold" (said in paragraph 2). Subject moved next to its verb in the bottom-of-range sentence; "So" removed where it implied a false cause. **Sent to round-2 reviewers (fresh agents, no memory of R09).** |

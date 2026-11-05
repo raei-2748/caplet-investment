@@ -6,6 +6,7 @@ affaan-m/ECC and wshobson/agents). Mission: Book 12. One absolute final pitch an
 reviewed and rewritten many times. Live state is in `BOARD.md`.
 
 ## House rules (every member, no exceptions)
+0. **Rounds are the Writer's alone (added 02:05 after an overwrite).** Nobody but the Writer ("Lead") creates or edits `rounds/R*_ips.txt`, `rounds/R*_pitch.txt`, `rounds/blind/`, `ROUNDS_LOG.md`, `README.md` or `FINAL_REPORT_BANK.md`. Suggestions go in a message to the Writer or a review file `rounds/RN_<seat>.md`.
 1. **One writer.** Only the Writer writes pitch or IPS prose. Everyone else reads, researches, checks or reviews,
    and may quote, critique and propose ideas, never sentences meant for the page.
 2. **Own your file.** Each member writes only the file(s) listed against their name, in this folder. Never edit
@@ -30,12 +31,12 @@ reviewed and rewritten many times. Live state is in `BOARD.md`.
 | Repo Steward | Repo Steward | The only git operator: periodic commits of `final_night/`, merges, push, portal check | git history only | commits on request |
 | **Readers** (Phase 1) | | | | |
 | R1 | Harvest – Drafts | Every draft V1-V58 + the students' own versions: best line, worst flaw, vanished ideas | `HARVEST_DRAFTS.md` | 01:00 |
-| R2 | Harvest – Rooms | Every room, memo, idea bank, ladder, huddle: strategy-level ideas the IPS never used | `HARVEST_ROOMS.md` | 01:00 |
-| R3 | Fact-Checker | Case words, WInS holdings, the submitted TNA notes, every usable number with source, never-say list; then checks every number in each round | `FACTS.md`, `rounds/R*_facts.md` | 01:00, then per round |
+| R2 | Harvest – Rooms | Every room, memo, idea bank, ladder, huddle: strategy-level ideas the IPS never used | `HARVEST_ROOMS_TEAM.md` | 01:00 |
+| R3 | Fact-Checker | Case words, WInS holdings, the submitted TNA notes, every usable number with source, never-say list; then checks every number in each round | `FACTS_ADDENDUM.md`, `rounds/R*_facts.md` (FACTS.md is the Writer's) | 01:00, then per round |
 | R4 | Library – Damodaran | NYU corporate finance lectures (cflect.htm): concepts that fit this strategy | `READING_DAMODARAN.md` | 01:30 |
 | R5 | Library – Shiller | Yale ECON 252, all 26 lectures/transcripts: concepts that fit | `READING_SHILLER.md` | 01:30 |
 | R6 | Library – Beyond | LDI, defeasance, Redington, Leibowitz, Merton, Bodie, Roy, Lintner, newsvendor, donor studies, endowment rules | `READING_BEYOND.md` | 01:30 |
-| R7 | Idea-List Judge | Item-by-item verdict on the pasted list in Book 12, with the maths checked | `IDEA_LIST_VERDICTS.md` | 01:30 |
+| R7 | Idea-List Judge | Item-by-item verdict on the pasted list in Book 12, with the maths checked | `IDEA_LIST_MATHS.md` | 01:30 |
 | R8 | Strategist | Ray's I86: what is the strategy, its biggest strength, why very strong, what is most creative; plus the opponent's best case | `STRATEGY_SPINE.md` | 01:00 |
 | **Reviewers** (Phase 2, each round) | | | | |
 | V1 | Bible Auditor | First builds the checklist of every expectation in Wharton's word, Books 1-12, the Commandments and I80-I88; then scores each round line by line (review (a), the one that decides) | `BIBLE_CHECKLIST.md`, `rounds/R*_bible.md` | checklist 00:45 |
