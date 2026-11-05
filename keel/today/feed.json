@@ -1,5 +1,5 @@
 {
- "built": "2026-11-05T09:36",
+ "built": "2026-11-05T09:38",
  "days": [
   {
    "date": "2026-11-05",
@@ -116,7 +116,7 @@
    ],
    "open": [
     {
-     "text": "Run the four-question test once on the first new text after 21:00 Thu (the hunt's handover or Caplet's own words), and send Caplet only the broken lines, each read in its paragraph (whichever beat meets it first; Fri 6 or Sat 7 Nov before 08:00)",
+     "text": "Run the four-question test once on the first new text after 20:45 Thu (the hunt's handover or Caplet's own words), and send Caplet only the broken lines, each read in its paragraph (whichever beat meets it first; Fri 6 or Sat 7 Nov before 08:00)",
      "done": false,
      "owner": null,
      "day": null,
@@ -140,7 +140,7 @@
    "runs": [
     {
      "day": "2026-11-05",
-     "when": "Thu 5 Nov 21:40",
+     "when": "Thu 5 Nov 20:45",
      "room": "Kitchen",
      "what": "Beat 10, round 9, as huddle H-034 (Tess, Kai, Amara; 3 rounds, 9 posts): the hunt's V58 (`64962d48ce5168cc`, 497 strict) read with Tess's new four-question test; **one broken line** (the 2028 \"commits\": V58's own \"once she says it\" + case :101, :115; new in V58, not in the FINAL), the rest Caplet's choice (3-0); sent to `../ips_rewrite/inbox/2026-11-05_kitchen.md`. Round 10 orders in `../loop/FRONTIER.md` s4 (first beat after a new text lands tests it once; the Archive records the hash). **LS-18** (read what a study measured). Chair CORD: crowding out is 75% in the cited 2011 paper, 72% only in the 2010 working paper. Scene 7, Nora-Amara. TERRITORY: 1 new, 3 updated. Requests: closed 1, filed 1 (partial safety factors, Genius Lab, Sun 8 Nov). Bank #182. `../office/outbox/2026-11-05_kitchen_one-line-in-v58.md`"
     },

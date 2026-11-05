@@ -90,10 +90,10 @@
 
 **Freeze ended, Thu 5 Nov 19:09 (Archive):** Ray, in the project chat: "metaphors alone does not count as creativity. We want intellectual creativity, yours just packaging." (`../INSTRUCTIONS.md` I84). The freeze was Keel's own call, so it ends; a strategy-level hunt runs in its own thread. The Kitchen (20:20) writes Friday's orders around it. Any idea the hunt promotes first answers "which October sentence does it stand on?" (`../rooms/archive_checks/2026-11-05_what_october_allows.md`: six clashes to cut on sight, five ideas that grow from October).
 
-**Round 10, Fri 6 Nov (written by the Kitchen, Thu 5 Nov, 20:20-21:40; huddle H-034, Tess, Kai, Amara, 3 rounds;
+**Round 10, Fri 6 Nov (written by the Kitchen, Thu 5 Nov, 20:20-20:45; huddle H-034, Tess, Kai, Amara, 3 rounds;
 votes as marked; `../huddles/2026-11-05_the-kitchen-after-packaging/`).** The dial (`README.md`): **"the IPS is Caplet's;
 the loop only checks"**. The strategy hunt (Ray's I84) runs in its own thread and owns the text; the loop does not hunt,
-draft or promote. **No question, no lens, no scouts, no builder** (3-0). Texts on file at 21:40: the FINAL (V57,
+draft or promote. **No question, no lens, no scouts, no builder** (3-0). Texts on file at 20:45: the FINAL (V57,
 `../ips_rewrite/drafts/FINAL/ips.txt` `2c48738daa2113ce`, 496 strict; pitch `71fcadfb0fbe898e`, 49) and the hunt's V58
 (`claude/project-thread-wzz9t4` `0327626`, `drafts/D38/ips_V58.txt` `64962d48ce5168cc`, 497 strict; pitch `682a000971ae1714`,
 50), pending Ray and Ahaan's pick.

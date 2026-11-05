@@ -38,7 +38,7 @@ continued across the three rounds, 9 posts.
 | B3 The lesson | LS-18: "Before saying a sentence stands on a study, read what the study actually measured, and say what it measured in the note" (Amara's words, Kai's clause) | 3-0 |
 | The one line for the hunt | V58 line 3, "whenever Laura commits to a sum ... a minimum facility contribution in 2028": broken; everything else in V58 is Caplet's choice | 3-0 |
 
-## CORD (chair, 21:20): one of tonight's own source checks was wrong
+## CORD (chair, 20:35): one of tonight's own source checks was wrong
 Amara's research (round 1) and Kai's round 2 said the crowding-out paper gives "about 72 percent, not the shortlist's
 75". That is true of the 2010 NBER working paper (https://www.nber.org/papers/w16372, abstract read 5 Nov 2026: "at
 about 72 percent"). The shortlist cites the published paper (Journal of Public Economics 95, 2011), whose abstract says

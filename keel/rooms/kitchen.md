@@ -5,11 +5,11 @@
 - **Decided:** Round 10 (Fri 6 Nov) is a check, not a hunt: the first beat after a new text lands (the hunt's handover or Caplet's own words) runs Tess's four-question test once and sends Caplet only the broken lines; every other beat re-reads; the Archive records the hash (3-0; 2-1 on the Archive). V58 has one broken line, the 2028 "commits" (3-0); the rest is Caplet's choice. Lesson **LS-18**: read what a study actually measured, and say so in the note (3-0)
 - **Next:** next odd date Sat 7 Nov, 20:20, after the IPS is in (09:00): the first Final Report round's send-off
 - **For the judges:** no draft change tonight. One line in V58 sent to the hunt: "whenever Laura commits to a sum" counts a 2028 minimum as a commitment, though she tells no one a number until 2031 (case :101, :115) and V58 itself says a number binds "once she says it". The FINAL doesn't have it
-- **Updated:** 2026-11-05 21:40 Sydney
+- **Updated:** 2026-11-05 20:45 Sydney
 
 (Keel is a simulated team, AI-written.)
 
-> **State (last run Thu 5 Nov 2026, 21:40 Sydney).** Scenes: 7. Last moved: Nora-Amara (Amara says no). Next candidates:
+> **State (last run Thu 5 Nov 2026, 20:45 Sydney).** Scenes: 7. Last moved: Nora-Amara (Amara says no). Next candidates:
 > Jun-Tess, Felix-Amara. Open requests from here: partial safety factors (Genius Lab, from Sun 8 Nov, Final Report),
 > `../pm/REQUESTS.md`. On odd dates this room is beat 10 of the loop (`../pm/runbooks/kitchen.md`): doors round in the
 > scene (since 5 Nov a door counts only as a mechanism, never a picture of the plan: Ray's I84), candidate fields to
