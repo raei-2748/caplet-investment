@@ -1,0 +1,1 @@
+(Keel is a simulated team; Claude wrote this.) V61, the final draft of the pitch and IPS, Fri 6 Nov 2026: V60 with Caplet XR's new meaning (X and R = the ladder's ten rungs; XR = Extra Reserve), at Caplet's instruction. The .txt files are paste-clean, so the word counts stay true. The team rewrites it in its own words before submitting; nothing here goes to Wharton as written.

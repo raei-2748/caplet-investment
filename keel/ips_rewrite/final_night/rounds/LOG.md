@@ -380,3 +380,6 @@ Nothing false. Half-true or unclear: "bought now" against "In 2028"; "if rates s
 | V60 | 497 | 50 | R92 with "The plan's biggest strength" (not "Its") and "X stands for the ten, R for redemption". FINAL: `../../drafts/D40/` = `../../drafts/FINAL/`. Ten Commandments check by a second reader in `../../drafts/D40/COMMANDMENTS_CHECK.md` |
 
 Ten Commandments check on V60 (second reader, `../../drafts/D40/COMMANDMENTS_CHECK.md`): no FAIL; Commandments PASS 7, OPEN 2, VI retired; Book 11 PASS 8, OPEN 1; Book 12 PASS 6, OPEN 1; I80 PASS 9. Its pitch point applied: the opening now reads "Before anyone relies on a sum Laura names, Caplet XR buys Treasuries to repay it." (pitch 50).
+
+### V61 (Fri 6 Nov, midday): the name's new meaning (Caplet, I89)
+Caplet found "ten redemptions" odd and asked for a new R plus a product-like second reading, urgently. Pick: X and R = the ladder's ten rungs (X is ten in Roman numerals); XR = Extra Reserve, the 2031 Treasuries. Edits: "The X and R stand for those ten rungs, and none is sold before it repays"; "an extra reserve of Treasuries"; "the extra reserve"; "The tenth rung, with what was set aside for it"; "the top is the bottom plus what that half raised" (to fit). IPS 496, pitch 50 unchanged. No review round (Caplet: "Do it right now").
