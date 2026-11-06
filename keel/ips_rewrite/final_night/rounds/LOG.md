@@ -386,3 +386,6 @@ Caplet found "ten redemptions" odd and asked for a new R plus a product-like sec
 
 ### V62 (Fri 6 Nov, midday): the caplet conceit restored (Caplet, I90)
 Caplet: V60 had lost the central conceit; bring back extended release, "do not crush" and two XR readings in two places, within 15 minutes. Opening and ending on the caplet; P2 "Those ten rungs are the first meaning of XR, and crushing the caplet would mean selling one before it repays"; P4 "XR's second meaning, an extra reserve of Treasuries". Cut to fit: the balanced-mix concession, the funds' liquidity sentence, the inflation sentence. IPS 493, pitch 50. No review round (deadline).
+
+### V63 (Fri 6 Nov, evening): built on Caplet's own paragraphs (I91)
+Caplet wrote the only part of V62 it accepts (244 words) and dropped the rest from the strategy. V63 keeps those sentences and adds only what a reader needs (why Treasuries, rung sizing, maturity, the operating reserve, what VT is for and its risk). Pitch rewritten to match. IPS 496, pitch 49. Open points for Caplet in `drafts/D43/README.md`.

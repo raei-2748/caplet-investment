@@ -1,42 +1,23 @@
-# The final IPS (V62): what to read and what to decide
+# V63: the IPS built from Caplet's own paragraphs
 
-Written by Claude, Fri 6 Nov 2026, for Ahaan's own rewrite this morning. Due on the form by **Sat 7 Nov 09:00 Sydney**
-(Fri 6 Nov 5 pm ET). Keel submits nothing.
+This folder holds V63, the final draft (the same text as `../D43/`). `ips.txt` is the IPS (496 on the strictest count, limit 500); `pitch.txt` is the pitch (49, limit 50).
+`../D43/user_text.txt` is the text Caplet wrote by hand on Fri 6 Nov (244 words), which is the base.
 
-**The files.** This folder holds V62, the final draft (the same text as `../D42/`). `pitch.txt` is the elevator pitch (50 words). `ips.txt` is the IPS (493 on the strictest count, so
-any word you add needs a cut). Both are paste-clean. Rewrite them in your own words before they go in the form.
+**What happened.** On Fri 6 Nov Caplet wrote the only part of V62 it accepts and dropped the rest from the strategy.
+V63 keeps those sentences as written (one "it" became "them") and adds only what a reader needs to follow them:
+why Treasuries suit fixed payments, how each rung is sized, why price swings don't matter when a holding is kept to
+maturity, that the ladder is the operating reserve and needs no change in 2033, and what the world index fund is
+for, why it can hold shares, how it spreads risk, and what a fall would cost. Nothing from earlier versions came back.
+The pitch was rewritten to match, because the old one described the 2031 range.
 
-**Why there is a V60, V61 and V62.** Two threads each wrote a Book 12 final overnight: V59 (`../D39/`) and another
-(`../../final_night/FINAL/`). Four fresh readers compared them blind (`../../final_night/compare/README.md`). Three
-preferred the other draft because it reads more plainly and in date order; the fact-checker preferred V59, because the
-other draft has one false sentence and several that go too far. V60 keeps the other draft's order (the rule first,
-then 2027, 2028, 2031, 2033), its recession reason and its named strength, and V59's accuracy, its two-thirds argument
-and its rule for what she gives. It then went through two more review rounds and a last read (rounds R77 to R92 in
-`../../final_night/rounds/LOG.md`). The last reader found nothing false; its fixes are in. V61 (Fri 6 Nov, midday) gave the name a new meaning; V62, minutes later, brings back the caplet itself at your instruction, below.
+**Points for Caplet to decide (not changed in the text):**
+1. The trading notes submitted on 23 Oct say IBTM also gives co-sponsors a minimum figure in 2031 and that VT sets how
+   far the gift rises above it. This IPS no longer says that, and judges read the notes and the IPS together.
+2. The text says no payment is ever at risk. Interest that arrives before 2033 has to wait for the payments; if rates
+   fall and stay low it earns less while waiting, and the ladder could come up somewhat short.
+3. Wharton asks the IPS to explain how she will decide a responsible facility contribution. The text says the fund
+   pays for it but not how much she gives.
 
-**What the plan says.** Before anyone relies on a sum Laura commits to, she owns the Treasuries that will repay it.
-Her $300,000 (and the 2028 deposit if needed) buys one Treasury holding for each payment, kept until it repays: the
-ten rungs of a ladder (the X and the R). In 2028 the rest buys more of the fund behind the 2033 payment, enough to return about all of that
-money by December 2032; that sets the bottom of her range, and the small difference buys world shares. In 2031,
-before she names the range, up to half her shares buy an extra reserve of Treasuries so the payments are met even if waiting money
-earns nothing, and the other half buys Treasuries that set the top. She gives what those Treasuries pay, up to the top.
-
-**Things only you can do.**
-1. **The number on the last close.** "About two thirds" rests on the 23 Oct close, when the ten holdings cost
-   $297,636 (66% of $450,000; between 64% and 72% all year). Re-check on Friday's prices if you can.
-2. **What we left out on purpose**, kept for the Final Report (`../../final_night/FR_IDEAS.md` and the other thread's
-   `../../final_night/FINAL_REPORT_BANK.md`): dollar figures for the range and a confidence level (Wharton puts these
-   in the Final Report), why every payment rests on one borrower, why half the shares, the US public pensions point
-   from the other draft, and Ray's point that her share of the running costs is already bought, which belongs in the
-   fundraising text.
-3. **The name (your instructions, Fri 6 Nov).** The central conceit is back. The IPS opens on extended-release
-   caplets, which release their dose on schedule and come labelled "do not crush"; our dose is Treasuries. XR then
-   has two readings in two places: the ten rungs of the ladder (X is ten in Roman numerals), where crushing the
-   caplet means selling a rung early; and the extra reserve of Treasuries bought in 2031. It ends on the caplet:
-   the plan works as long as nobody crushes it. To fit, the inflation sentence and the funds' liquidity sentence
-   were cut (both are in V60 if you want one back).
-4. **Your call.** "Caplet" is also the name of an interest-rate option in finance; a judge may notice. "Reinvestment
-   risk" is the one finance term the IPS uses, and the sentence explains it.
-
-The other files in this folder (CASE_CARD, LOOK_ALIKE_CARD, READERS_CARD, KEEL_RECORD, COMMANDMENTS_CHECK) were
-written for V57 and are kept as history.
+**Facts checked.** "About $300,000": $297,636 on the 23 Oct Treasury curve, the newest on file (MODEL,
+`keel/office/checks/2026-11-03.md`); $500,000 less that is about $202,000, so "roughly $200,000 in interest" holds.
+The plan matches what is already held in WInS: the ten-rung ladder and VT.

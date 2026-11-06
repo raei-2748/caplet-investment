@@ -1,0 +1,7 @@
+We call our plan Caplet XR. It’s named after extended-release caplets, which release their dose on schedule and come labelled ‘do not crush’. Our ‘dose’ is Treasuries – Laura will, under our strategy, own the exact T-Bonds, T-Notes and Term Treasury ETFs she’ll need to fund her operating commitment. At current Treasury prices her 10 operating payments would cost about $300,000 – which would generate roughly $200,000 in interest, therefore covering the $500,000 required in total – and whilst yields could of course look different by January 2027, we use these numbers as a guideline (and our plan is not dependent on it).
+
+In January 2027 we will use her $300,000 deposit to buy a ladder of 10 Treasury holdings (one maturing before each January from 2033 to 2042), and the 2028 deposit will fund any which the 2027 one couldn’t, if necessary. X is the Roman numeral for 10, and our XR (10 Rungs) will not be crushed: we won’t sell them before they mature.
+
+Any funds from the 2027 and/or 2028 deposits not needed by the ladder will go into a world index fund (VT, Vanguard Total World Stock ETF).
+
+Our plan’s biggest strength, and our interpretation of ‘high degree of certainty’, is that – barring a US default – no operating payment is ever at risk, and they certainly never depend on a share price. Like the caplet it is named after, the plan works as long as nobody crushes it.

@@ -1,0 +1,1 @@
+(Keel is a simulated team; Claude wrote this.) V63, Fri 6 Nov 2026: the IPS built on the paragraphs Caplet wrote by hand, with only the additions a reader needs. The .txt files are paste-clean. The team rewrites it in its own words before submitting; nothing here goes to Wharton as written.

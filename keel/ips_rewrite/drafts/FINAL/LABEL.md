@@ -1,1 +1,1 @@
-(Keel is a simulated team; Claude wrote this.) V62, the final draft for Caplet's own rewrite (same text as `../D42/`), Fri 6 Nov 2026. It replaces V61 and V60. The .txt files are paste-clean. The team rewrites it in its own words before submitting; nothing here goes to Wharton as written.
+(Keel is a simulated team; Claude wrote this.) V63, Fri 6 Nov 2026: the IPS built on the paragraphs Caplet wrote by hand, with only the additions a reader needs. The .txt files are paste-clean. The team rewrites it in its own words before submitting; nothing here goes to Wharton as written.
