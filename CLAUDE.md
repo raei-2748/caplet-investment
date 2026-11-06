@@ -65,6 +65,12 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
   `keel/pm/ASK_HUMANS.md` with a default Keel acts on), merges its `keel/**` work into main daily, and never decides for Caplet.
 
 ## Current status (2026-10-14) - read this before the older sections below
+- 6 Nov: newest Treasury curve in the repo = 5 Nov close (`competition/official_market_data/daily-treasury-rates_2026-11-05.csv`).
+  Ten payments on 1 Jan 2027 (MODEL, `keel/scripts/ladder_history.py`): $302,163, $2,163 over $300k (67.1% of $450k;
+  23 Oct $297,636). curl to treasury.gov is refused; the WebFetch tool reaches it (CSV export and XML feed).
+  Priced with the instruments we hold (`keel/scripts/holdings_ladder.py`, 5 Nov bond quotes, 4 Nov iBonds yields):
+  $303,269 (67.4%); $306,663 (68.1%) if money earns nothing between maturity and 1 Jan. The WInS positions hold
+  67-72% of each full $50k rung (the book is Laura's plan scaled to the $300k simulator).
 - 1 Nov (Caplet, INSTRUCTIONS I71): "steal" the best human sentences: V48 (`keel/ips_rewrite/drafts/D28/`) rebuilds V47
   sentence by sentence on the shapes of 15 great writers (shape and turn borrowed, never their words; every sentence
   sourced in `SOURCE_LOG.md`). Blind voice read: V48 over V47, narrowly; V47 stays the panels' best until a panel reads V48.
@@ -139,8 +145,8 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
 ## Working rules (from the team leader)
 - Use only exact official Wharton materials and verified sources. No fictional clients, rules, rosters or data.
   Anything not verified is marked UNVERIFIED; never fill gaps from memory or "typical" rules.
-- Research online and verify facts; cite URL + date. Network access was widened on 2026-09-27: primary sites load
-  with curl, but the WebFetch tool is still blocked, so read pages with
+- Research online and verify facts; cite URL + date. Network access was widened on 2026-09-27: primary sites loaded
+  with curl then; since late Oct curl is refused for most hosts and the WebFetch tool works (6 Nov), else read pages with
   `.venv/bin/python keel/library/insight_v1/scripts/fetch_text.py URL [--grep "exact phrase"]`.
 - AI may edit the file but only in suggestion mode whenever it is attempting to make edits on the Google Docs. AI do not have the rights to confirm or execute any trades. AI do not have the rights to submit our work. AI, or Claude, must complete the work to the highest of its capability, particularly the items that are going to be submitted. Caplet team wants knowledge: numbers, models, devil's advocate, trade checks, research/fact-checking. 
 - Goal: top priority is reaching the Top 50 semifinals (chosen on the written Trading Notes, IPS and Final Report);

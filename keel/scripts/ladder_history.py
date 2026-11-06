@@ -8,7 +8,8 @@ from pathlib import Path
 
 import ladder_pv as lp
 
-SRC = Path(__file__).resolve().parents[1] / "library/assistant_review_2026-10/checks/tsy_202610_22oct.csv"
+SRC = (Path(sys.argv[1]) if len(sys.argv) > 1 else
+       Path(__file__).resolve().parents[1] / "library/assistant_review_2026-10/checks/tsy_202610_22oct.csv")
 TENORS = {"1 Mo": 1/12, "2 Mo": 2/12, "3 Mo": .25, "6 Mo": .5, "1 Yr": 1, "2 Yr": 2, "3 Yr": 3,
           "5 Yr": 5, "7 Yr": 7, "10 Yr": 10, "20 Yr": 20, "30 Yr": 30}
 
