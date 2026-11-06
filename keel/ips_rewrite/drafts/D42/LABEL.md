@@ -1,0 +1,1 @@
+(Keel is a simulated team; Claude wrote this.) V62, the final draft of the pitch and IPS, Fri 6 Nov 2026: V61 with the caplet conceit restored at Caplet's instruction (extended release, "do not crush", XR = ten rungs and an extra reserve). The .txt files are paste-clean. The team rewrites it in its own words before submitting; nothing here goes to Wharton as written.

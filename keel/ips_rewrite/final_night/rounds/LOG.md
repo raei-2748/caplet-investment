@@ -383,3 +383,6 @@ Ten Commandments check on V60 (second reader, `../../drafts/D40/COMMANDMENTS_CHE
 
 ### V61 (Fri 6 Nov, midday): the name's new meaning (Caplet, I89)
 Caplet found "ten redemptions" odd and asked for a new R plus a product-like second reading, urgently. Pick: X and R = the ladder's ten rungs (X is ten in Roman numerals); XR = Extra Reserve, the 2031 Treasuries. Edits: "The X and R stand for those ten rungs, and none is sold before it repays"; "an extra reserve of Treasuries"; "the extra reserve"; "The tenth rung, with what was set aside for it"; "the top is the bottom plus what that half raised" (to fit). IPS 496, pitch 50 unchanged. No review round (Caplet: "Do it right now").
+
+### V62 (Fri 6 Nov, midday): the caplet conceit restored (Caplet, I90)
+Caplet: V60 had lost the central conceit; bring back extended release, "do not crush" and two XR readings in two places, within 15 minutes. Opening and ending on the caplet; P2 "Those ten rungs are the first meaning of XR, and crushing the caplet would mean selling one before it repays"; P4 "XR's second meaning, an extra reserve of Treasuries". Cut to fit: the balanced-mix concession, the funds' liquidity sentence, the inflation sentence. IPS 493, pitch 50. No review round (deadline).

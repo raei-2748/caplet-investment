@@ -1,18 +1,18 @@
-# The final IPS (V61): what to read and what to decide
+# The final IPS (V62): what to read and what to decide
 
 Written by Claude, Fri 6 Nov 2026, for Ahaan's own rewrite this morning. Due on the form by **Sat 7 Nov 09:00 Sydney**
 (Fri 6 Nov 5 pm ET). Keel submits nothing.
 
-**The files.** This folder holds V61, the final draft (the same text as `../D41/`). `pitch.txt` is the elevator pitch (50 words). `ips.txt` is the IPS (496 on the strictest count, so
+**The files.** This folder holds V62, the final draft (the same text as `../D42/`). `pitch.txt` is the elevator pitch (50 words). `ips.txt` is the IPS (493 on the strictest count, so
 any word you add needs a cut). Both are paste-clean. Rewrite them in your own words before they go in the form.
 
-**Why there is a V60 and a V61.** Two threads each wrote a Book 12 final overnight: V59 (`../D39/`) and another
+**Why there is a V60, V61 and V62.** Two threads each wrote a Book 12 final overnight: V59 (`../D39/`) and another
 (`../../final_night/FINAL/`). Four fresh readers compared them blind (`../../final_night/compare/README.md`). Three
 preferred the other draft because it reads more plainly and in date order; the fact-checker preferred V59, because the
 other draft has one false sentence and several that go too far. V60 keeps the other draft's order (the rule first,
 then 2027, 2028, 2031, 2033), its recession reason and its named strength, and V59's accuracy, its two-thirds argument
 and its rule for what she gives. It then went through two more review rounds and a last read (rounds R77 to R92 in
-`../../final_night/rounds/LOG.md`). The last reader found nothing false; its fixes are in. V61 (Fri 6 Nov, midday) is V60 with the name's new meaning, below.
+`../../final_night/rounds/LOG.md`). The last reader found nothing false; its fixes are in. V61 (Fri 6 Nov, midday) gave the name a new meaning; V62, minutes later, brings back the caplet itself at your instruction, below.
 
 **What the plan says.** Before anyone relies on a sum Laura commits to, she owns the Treasuries that will repay it.
 Her $300,000 (and the 2028 deposit if needed) buys one Treasury holding for each payment, kept until it repays: the
@@ -29,12 +29,14 @@ earns nothing, and the other half buys Treasuries that set the top. She gives wh
    in the Final Report), why every payment rests on one borrower, why half the shares, the US public pensions point
    from the other draft, and Ray's point that her share of the running costs is already bought, which belongs in the
    fundraising text.
-3. **The name (your instruction, Fri 6 Nov).** X and R now stand for the ladder's ten rungs (X is ten in Roman
-   numerals), and read as a product name, XR is the Extra Reserve: the Treasuries bought in 2031 so the payments
-   hold even if waiting money earns nothing. The IPS shows both quietly ("those ten rungs", "an extra reserve of
-   Treasuries", and it ends on "The tenth rung"); "redemption" is gone.
+3. **The name (your instructions, Fri 6 Nov).** The central conceit is back. The IPS opens on extended-release
+   caplets, which release their dose on schedule and come labelled "do not crush"; our dose is Treasuries. XR then
+   has two readings in two places: the ten rungs of the ladder (X is ten in Roman numerals), where crushing the
+   caplet means selling a rung early; and the extra reserve of Treasuries bought in 2031. It ends on the caplet:
+   the plan works as long as nobody crushes it. To fit, the inflation sentence and the funds' liquidity sentence
+   were cut (both are in V60 if you want one back).
 4. **Your call.** "Caplet" is also the name of an interest-rate option in finance; a judge may notice. "Reinvestment
    risk" is the one finance term the IPS uses, and the sentence explains it.
 
 The other files in this folder (CASE_CARD, LOOK_ALIKE_CARD, READERS_CARD, KEEL_RECORD, COMMANDMENTS_CHECK) were
-written for V57 and are kept as history; V60's check is `../D40/COMMANDMENTS_CHECK.md`.
+written for V57 and are kept as history.
