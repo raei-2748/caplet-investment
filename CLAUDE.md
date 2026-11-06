@@ -68,6 +68,9 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
 - 6 Nov: newest Treasury curve in the repo = 5 Nov close (`competition/official_market_data/daily-treasury-rates_2026-11-05.csv`).
   Ten payments on 1 Jan 2027 (MODEL, `keel/scripts/ladder_history.py`): $302,163, $2,163 over $300k (67.1% of $450k;
   23 Oct $297,636). curl to treasury.gov is refused; the WebFetch tool reaches it (CSV export and XML feed).
+  Priced with the instruments we hold (`keel/scripts/holdings_ladder.py`, 5 Nov bond quotes, 4 Nov iBonds yields):
+  $303,269 (67.4%); $306,663 (68.1%) if money earns nothing between maturity and 1 Jan. The WInS positions hold
+  67-72% of each full $50k rung (the book is Laura's plan scaled to the $300k simulator).
 - 1 Nov (Caplet, INSTRUCTIONS I71): "steal" the best human sentences: V48 (`keel/ips_rewrite/drafts/D28/`) rebuilds V47
   sentence by sentence on the shapes of 15 great writers (shape and turn borrowed, never their words; every sentence
   sourced in `SOURCE_LOG.md`). Blind voice read: V48 over V47, narrowly; V47 stays the panels' best until a panel reads V48.
