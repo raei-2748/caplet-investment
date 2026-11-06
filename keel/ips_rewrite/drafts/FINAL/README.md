@@ -18,6 +18,8 @@ The pitch was rewritten to match, because the old one described the 2031 range.
 3. Wharton asks the IPS to explain how she will decide a responsible facility contribution. The text says the fund
    pays for it but not how much she gives.
 
-**Facts checked.** "About $300,000": $297,636 on the 23 Oct Treasury curve, the newest on file (MODEL,
-`keel/office/checks/2026-11-03.md`); $500,000 less that is about $202,000, so "roughly $200,000 in interest" holds.
+**Facts checked.** "About $300,000": $302,163 on the 5 Nov Treasury curve, the newest on file, and $303,269 priced with the bonds and
+funds actually held (MODEL, `keel/scripts/ladder_history.py`, `keel/scripts/holdings_ladder.py`; 23 Oct was $297,636).
+$500,000 less that is about $197,000, so "roughly $200,000 in interest" holds, and the 2028 deposit would fill a gap of
+about $3,300.
 The plan matches what is already held in WInS: the ten-rung ladder and VT.
