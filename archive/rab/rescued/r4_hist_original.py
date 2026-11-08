@@ -3,7 +3,7 @@ from datetime import date, timedelta
 import numpy as np
 spec = importlib.util.spec_from_file_location("d1", "research/insight_v1/scripts/D1_purchase_rule.py")
 d1 = importlib.util.module_from_spec(spec); spec.loader.exec_module(d1)
-H="/private/tmp/claude-501/-Users-ray-Library-CloudStorage-GoogleDrive-jiwang27-knox-nsw-edu-au-My-Drive-Knox-Wharton-2026/03ebd134-68e1-4be3-9581-d23c653d03df/scratchpad/hist/"
+H="scratchpad/hist/"
 rows=[]
 for f in sorted(glob.glob(H+"*.csv")): rows+=d1.load(f)
 new=d1.load("research/insight_v1/verification/ladder_2026-09-28/treasury_par_2026_to_09-28.csv")

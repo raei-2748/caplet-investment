@@ -98,7 +98,7 @@ https://ui.adsabs.harvard.edu/abs/2011Sci...333.1393S
 https://www.cbsnews.com/news/little-island-new-york-city-hudson-river
 https://www.bloomberg.com/news/features/2021-05-20/barry-diller-s-260-million-little-island-opens-today-in-nyc
 https://therealdeal.com/new-york/2017/09/25/how-barry-dillers-pier-55-project-finally-went-overboard/
-The downloaded primary PDFs are saved in /private/tmp/claude-501/-Users-ray-Library-CloudStorage-GoogleDrive-jiwang27-knox-nsw-edu-au-My-Drive-Knox-Wharton-2026/d993f1f2-34a7-425d-b5bf-50ec5ab4fdf1/scratchpad/ (sis/s.pdf, gusa/g.pdf, nori/n.pdf, kr/k.pdf). Extracted text is in the fc/ subfolder of that scratchpad.
+The downloaded primary PDFs are saved in a temporary working folder (sis/s.pdf, gusa/g.pdf, nori/n.pdf, kr/k.pdf). Extracted text is in the fc/ subfolder of that scratchpad.
 Fact-check log
 Case asks for "confidence that her 2033 contribution will fall within that range" (Case p.3) -> Confirmed. The exact wording is "state how confident they are that her 2033 contribution will fall within that range". Source: Case PDF p.3.
 The case says operating support beyond Laura's commitment "may come from co-sponsors", and the $50,000 is "toward" operating expenses -> Confirmed (Case p.3). The doc's claim that "not needed... which the case allows" is wrong. Draft text confirmed in doc_dump.md, lines 560 and 564.

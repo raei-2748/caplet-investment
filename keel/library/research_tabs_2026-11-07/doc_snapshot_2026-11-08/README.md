@@ -17,3 +17,9 @@ The "Past Submissions" tab (not copied) holds the Trading Notes and the IPS exac
 `keel/final_report/FINAL_IPS_as_submitted.txt` and `keel/drafts/writing_room_2026-11-03/tna_as_submitted.txt` (checked
 word by word on 8 Nov: same 549 words of IPS). The "Final Report" tab and its v1-v3 sub-tabs were empty on 8 Nov.
 Keel writes only in the Research tabs.
+
+**Later on 8 Nov**, after the ninth reader (H9) went through these tabs, three fixes were made in both the Doc and these
+copies: local computer paths that contained a student's school email were replaced with plain words (tabs 10, 11, 12);
+the max-out plan's escrow sentence no longer gives $306,663 as the no-reinvestment cost (that figure is the cost if money
+earns nothing between each maturity and 1 January; tab 06); and the TIPS/STRIPS ban is dated to the public FAQ (20 Oct)
+and the Week 4 email (received by 22 Oct), not the Week 5 email (tab 13).

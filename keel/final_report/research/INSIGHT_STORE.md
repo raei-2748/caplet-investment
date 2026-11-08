@@ -12,30 +12,34 @@ Caplet, Book 14: "Keep a store of every single insight you have. They should be 
 
 ## Where it stands
 
-- **1131 ideas** in the store; 0 judged so far, the rest on the first pass.
-- Tiers: A 431, B 563, C 137; refused or merged 0.
-- 186 ideas need reframing before use (they clash in some detail with the FINAL IPS or the TNA).
-- Rows per source: `harvest/H1_idea_bank_part1.md` 88; `harvest/H2_idea_bank_part2_and_ledger.md` 124; `harvest/H3_concepts_R02_R05_R06.md` 126; `harvest/H4_synergies_S1_S3_fusions.md` 190; `harvest/H5_synergies_S4_S6_R11.md` 153; `harvest/H6_shiller_damodaran.md` 171; `harvest/H7_final_night_reading.md` 118; `harvest/H8_lab_window_plans.md` 161.
+- **1317 ideas** in the store; 0 judged so far, the rest on the first pass.
+- Tiers: A 507, B 664, C 146; refused or merged 0.
+- 205 ideas need reframing before use (they clash in some detail with the FINAL IPS or the TNA).
+- Rows per source: `harvest/H1_idea_bank_part1.md` 88; `harvest/H2_idea_bank_part2_and_ledger.md` 124; `harvest/H3_concepts_R02_R05_R06.md` 126; `harvest/H4_synergies_S1_S3_fusions.md` 190; `harvest/H5_synergies_S4_S6_R11.md` 153; `harvest/H6_shiller_damodaran.md` 171; `harvest/H7_final_night_reading.md` 118; `harvest/H8_lab_window_plans.md` 161; `harvest/H9_doc_research_tabs.md` 186.
 
 ## The parts of the plan and the case
 
 | Tag | What it covers | Ideas | Ranked list |
 |---|---|---|---|
-| CAREER | Laura's career as an unsellable stock | 67 | [by_tag/CAREER.md](store/by_tag/CAREER.md) |
-| CERTAINTY | A high degree of certainty | 332 | [by_tag/CERTAINTY.md](store/by_tag/CERTAINTY.md) |
-| LADDER | The ten Treasuries | 267 | [by_tag/LADDER.md](store/by_tag/LADDER.md) |
-| COMPLETE2028 | The 2028 deposit completes the ladder | 88 | [by_tag/COMPLETE2028.md](store/by_tag/COMPLETE2028.md) |
-| FLOOR | The 2032 Treasury fund (bottom of the range) | 167 | [by_tag/FLOOR.md](store/by_tag/FLOOR.md) |
-| CEILING | VT (top of the range) | 241 | [by_tag/CEILING.md](store/by_tag/CEILING.md) |
-| HALFKEPT | Half the shares promised to no one | 112 | [by_tag/HALFKEPT.md](store/by_tag/HALFKEPT.md) |
-| MOVE2031 | The move into Treasuries before 2031 | 112 | [by_tag/MOVE2031.md](store/by_tag/MOVE2031.md) |
-| RESERVE2033 | The operating reserve from 2033 | 60 | [by_tag/RESERVE2033.md](store/by_tag/RESERVE2033.md) |
-| TWOREASONS | Only two reasons to change | 120 | [by_tag/TWOREASONS.md](store/by_tag/TWOREASONS.md) |
-| COSPONSOR | The 2031 range and the co-sponsors | 259 | [by_tag/COSPONSOR.md](store/by_tag/COSPONSOR.md) |
-| INFLATION_TWD | Inflation, Taiwan costs, the Taiwan dollar | 47 | [by_tag/INFLATION_TWD.md](store/by_tag/INFLATION_TWD.md) |
-| REINVEST | Reinvesting the ladder's interest | 122 | [by_tag/REINVEST.md](store/by_tag/REINVEST.md) |
-| PROCESS | How the team decided and learned | 151 | [by_tag/PROCESS.md](store/by_tag/PROCESS.md) |
-| OTHER | Other | 124 | [by_tag/OTHER.md](store/by_tag/OTHER.md) |
+| CAREER | Laura's career as an unsellable stock | 86 | [by_tag/CAREER.md](store/by_tag/CAREER.md) |
+| CERTAINTY | A high degree of certainty | 369 | [by_tag/CERTAINTY.md](store/by_tag/CERTAINTY.md) |
+| LADDER | The ten Treasuries | 298 | [by_tag/LADDER.md](store/by_tag/LADDER.md) |
+| COMPLETE2028 | The 2028 deposit completes the ladder | 106 | [by_tag/COMPLETE2028.md](store/by_tag/COMPLETE2028.md) |
+| FLOOR | The 2032 Treasury fund (bottom of the range) | 197 | [by_tag/FLOOR.md](store/by_tag/FLOOR.md) |
+| CEILING | VT (top of the range) | 266 | [by_tag/CEILING.md](store/by_tag/CEILING.md) |
+| HALFKEPT | Half the shares promised to no one | 129 | [by_tag/HALFKEPT.md](store/by_tag/HALFKEPT.md) |
+| MOVE2031 | The move into Treasuries before 2031 | 129 | [by_tag/MOVE2031.md](store/by_tag/MOVE2031.md) |
+| RESERVE2033 | The operating reserve from 2033 | 76 | [by_tag/RESERVE2033.md](store/by_tag/RESERVE2033.md) |
+| TWOREASONS | Only two reasons to change | 130 | [by_tag/TWOREASONS.md](store/by_tag/TWOREASONS.md) |
+| COSPONSOR | The 2031 range and the co-sponsors | 297 | [by_tag/COSPONSOR.md](store/by_tag/COSPONSOR.md) |
+| FUNDRAISING | The fundraising text | 17 | [by_tag/FUNDRAISING.md](store/by_tag/FUNDRAISING.md) |
+| RESIDENCY | The residency itself | 12 | [by_tag/RESIDENCY.md](store/by_tag/RESIDENCY.md) |
+| INFLATION_TWD | Inflation, Taiwan costs, the Taiwan dollar | 66 | [by_tag/INFLATION_TWD.md](store/by_tag/INFLATION_TWD.md) |
+| REINVEST | Reinvesting the ladder's interest | 136 | [by_tag/REINVEST.md](store/by_tag/REINVEST.md) |
+| LAURA | Laura's working life and values | 21 | [by_tag/LAURA.md](store/by_tag/LAURA.md) |
+| PROCESS | How the team decided and learned | 195 | [by_tag/PROCESS.md](store/by_tag/PROCESS.md) |
+| PRESENTATION | How the report shows its work | 56 | [by_tag/PRESENTATION.md](store/by_tag/PRESENTATION.md) |
+| OTHER | Other | 133 | [by_tag/OTHER.md](store/by_tag/OTHER.md) |
 
 ## The top 40 across the store (current ratings)
 
@@ -84,11 +88,11 @@ Caplet, Book 14: "Keep a store of every single insight you have. They should be 
 
 ## The thinnest parts (fewest ideas rated B or better)
 
-- INFLATION_TWD (Inflation, Taiwan costs, the Taiwan dollar): 41 rated B or better, 47 in all.
-- RESERVE2033 (The operating reserve from 2033): 53 rated B or better, 60 in all.
-- CAREER (Laura's career as an unsellable stock): 60 rated B or better, 67 in all.
-- COMPLETE2028 (The 2028 deposit completes the ladder): 78 rated B or better, 88 in all.
-- REINVEST (Reinvesting the ladder's interest): 93 rated B or better, 122 in all.
-- OTHER (Other): 101 rated B or better, 124 in all.
-- HALFKEPT (Half the shares promised to no one): 102 rated B or better, 112 in all.
-- MOVE2031 (The move into Treasuries before 2031): 102 rated B or better, 112 in all.
+- RESIDENCY (The residency itself): 12 rated B or better, 12 in all.
+- FUNDRAISING (The fundraising text): 16 rated B or better, 17 in all.
+- LAURA (Laura's working life and values): 20 rated B or better, 21 in all.
+- PRESENTATION (How the report shows its work): 55 rated B or better, 56 in all.
+- INFLATION_TWD (Inflation, Taiwan costs, the Taiwan dollar): 59 rated B or better, 66 in all.
+- RESERVE2033 (The operating reserve from 2033): 69 rated B or better, 76 in all.
+- CAREER (Laura's career as an unsellable stock): 78 rated B or better, 86 in all.
+- COMPLETE2028 (The 2028 deposit completes the ladder): 96 rated B or better, 106 in all.
