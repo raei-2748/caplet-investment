@@ -1,0 +1,52 @@
+Experience
+1. Caplet's timeline
+27 Sep: first model of our original plan, about three-quarters shares. It missed a payment in 3.2% of model paths, 13.7% if the 2028 deposit came in at $75,000 and 40.8% if it never came. Buying the payments first never missed one. We changed strategy.
+28 Sep: trading opened. We decided upon our new strategy: buy the ten payments with the first deposit, then a Treasury floor plus a world share fund with the second, with gift = floor + half the fund. Reason: better outcomes in bad years.
+29 Sep: WInS listed no Treasury bonds maturing between Feb 2031 and Feb 2036, so the team used iShares iBonds Term Treasury ETFs (IBTM to IBTR) for the 2033-2037 payments.
+29-30 Sep: two WInS bond prices were stale, about 1 percentage point of yield off the Treasury curve. New rule: check every bond's yield against the curve (to be within 0.25 points) before ordering.
+‘Execution Alpha’: optimal delivery and tactical execution of our trading strategy.
+An artificially low yield would mean immediately overpaying for an asset destined to plummet in value upon market correction, and an artificially high yield would probably signal extreme underlying illiquidity that would trap the fund in an un-tradable position.
+30 Sep: After-hours iBond spreads were wide, so we planned limit orders and/or during-market-hours trades.
+1 Oct: core strategy locked.
+5 Oct: Darren argued the world fund was a "copout" and proposed picking stocks and ETFs; a Taiwan fund (EWT) and gold (GLD) were raised. We decided, in the end, to keep the one world fund (VT).
+7 Oct: a mis-click incident led to the rule that only Ray places or cancels orders.
+7 Oct: Market open was 00:30 Sydney time; Eric fell asleep before it.
+7-8 Oct: all eleven orders filled (five iBond ETFs, five Treasury bonds, VT).
+16 Oct: rates fell and the ladder's room under $300,000 shrank to about $1,900.
+2. What the Keel Office was, room by room
+Each "room" was a label for one kind of AI work. The useful output is listed; the fiction is not.
+Long Room: debates and votes on the plan. Real output: decision records with reasons (keel/pm/ASK_HUMANS.md).
+Noticeboard: the task board, road map, risks and daily status.
+Window: every outside fact came in here and was checked against its source (Wharton files, Treasury data, WInS snapshots).
+Library: wide reading. Real output: the reading list behind the strategy (see Ideas and Sources).
+Genius Lab: experiments. Real output: about 60 tests in more than 200 scripts, each with a verdict (adopt, park or bin).
+Trading Desk: market and rules checks before and after each order.
+Courtroom: mock judges and a rival team to attack each draft.
+Laura's Room: tested the plan from the client's and co-sponsors' side.
+Writing Room and Archive: drafting, counts, and checks that submitted text stayed consistent.
+Kitchen and Rooftop: off-duty scenes and weekly reflection. They produced story, not judge-facing work.
+3. What Keel produced
+A model suite tested in four "worlds": a standard simulation, one with market crashes that cluster, one that resamples real market months since 1871, and a straight replay of every start month since 1871.
+Five rival plans (60/40, target-date, three-year bucket, bond-fund matching, all shares then buy bonds late).
+4. What went wrong
+Ray's and Ahaan's own words are quoted where they set the lesson.
+The IPS failed. On 6 Nov the team set Keel's drafts aside and wrote its own. Ray, 3 Nov: the writing "reads as AI and corny", and the team couldn't follow what Keel had done.
+We polished words instead of improving the plan. The ideas were settled by about 28 Oct. Most of the next 40 versions were rewording. Keel's own 3 Nov status said: "55 versions is a sign we were polishing words, not improving the plan."
+Sentences stopped making sense. Ahaan, 1 Nov: "half of your sentences just DON'T MAKE SENSE"; the "extreme obsession with parsimony and concision" was "deeply unnatural".
+Keel was hard to follow. Room names, codes like L-17, and huddle numbers meant nothing to the students. Ray, 26 Oct: "I have no idea what is happening in the office."
+Rules piled up and were applied unevenly. Twelve "books" of instructions, ten commandments and 88 logged instructions. Keel's own register marks many as "Ignored" or "Partly" applied, often because scheduled runs kept old prompts.
+Numbers drifted. The same cost came out at $4,000, $9,000, $15,000 and $19,000 on four different engines. The Final Report must use one engine on one dated curve.
+5. What went right
+The core plan held from late September to the submitted IPS: buy the ten payments first, a Treasury floor for the building, one world share fund for the rest.
+Facts were checked. Stale WInS prices were caught before any order; the Treasury curve was verified against treasury.gov.
+6. Lessons for the Final Report
+A human reader first. Every sentence must make plain sense to an intelligent reader who has not seen our drafts.
+Real investing insights. Laura's career behaves like shares she can't sell, so her portfolio shouldn't add more of the same risk.
+Warm, direct, plain sentences. Short paragraphs. The letter-to-Laura voice Caplet found on 6 Nov works.
+Clear structure.
+7. Material for "Articulation of Competition Experience"
+These are real events we could use. Each one shows a decision, its cause and its cost.
+The 27 Sep model that killed the team's first plan (3.2% chance of a missed payment, 40.8% with no 2028 deposit).
+The stale-price catch and the yield-check rule (29-30 Sep).
+The 00:30 market open from Sydney, and the mis-click rule that only Ray trades (7 Oct).
+Darren's "copout" challenge and why the team still chose one world fund (5 Oct).

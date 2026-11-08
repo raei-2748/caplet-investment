@@ -1,0 +1,38 @@
+Co-sponsor Brief: the 2031 range, our confidence, and draft fundraising text
+Written by Claude (Keel) on 7 Nov 2026; corrected on 8 Nov to the IPS Caplet submitted (the FINAL tab, the letter to Laura). This feeds the Creativity and Presentation criterion ("communicates Laura's potential facility contribution and investment uncertainty clearly and credibly to prospective co-sponsors") and the case's request for draft fundraising text (Case p.3-4).
+1. What the case asks for
+A dollar range Laura gives co-sponsors in 2031, and how confident we are that her 2033 contribution lands inside it.
+How good and bad markets would change what she can give.
+A range that still protects the ten payments.
+Part of her fundraising materials, drafted by us.
+2. How Caplet's IPS builds the range
+The bottom is the floor: a Treasury ETF maturing in December 2032, bought with the 2028 deposit. We take its expected payout and round it down, because a fund's final payout is not fixed to the dollar.
+The top adds the promised half of the world share fund (Caplet's IPS).
+The other half of the shares is promised to no one. It is her flexibility for building costs that overrun, a stronger Taiwan dollar or a co-sponsor falling short (Caplet's IPS).
+Before the 2031 meetings, the submitted IPS moves the promised half of the share fund into Treasuries, so every dollar in the range is already in bonds and whatever figure Laura chooses is money she already owns. This is a commitment in the IPS, not an option, and the Final Report should present it as part of the plan. (Corrected 7 Nov: an earlier version of this tab called it an optional v11 step.)
+3. How sure we are (MODEL, re-run before quoting)
+The bottom is owned, so the contribution falls below it only if the floor fund pays less than its rounded-down value. Keel's number sheet found the floor fund pays at least 98.7% of face value in 99 paths out of 100.
+In our October model, on a design without the 2031 move, the 2033 contribution reached the top of the range about three times in four, and at least the halfway point about 99 times in 100 (keel/library/range_2031/README.md). That model may predate the submitted IPS design; re-run it on the IPS as submitted before quoting. The case asks for the chance the gift lands inside the range (Case p.3), so state that first and the chance of reaching the top second.
+Everything that can move the bottom (yields before January 2027, the size of the 2028 deposit) is known before 2031. So by the time Laura speaks, the bottom is a fact, not a forecast.
+Once the promised half has moved into Treasuries before 2031, share prices no longer move the range; they move only the half promised to no one. What stays uncertain is small: the exact final payouts of the Treasury funds. (To re-run on the submitted design.)
+4. Good and bad markets, in plain words
+Shares rise: the contribution reaches the top. Anything above the top stays with Laura.
+Shares fall 40% in 2032: under the submitted IPS the promised half is already in Treasuries by then, so the range holds; only the half promised to no one falls. (The v12 draft's figure, about $169,000 falling to $162,000, came from a design without the 2031 move.)
+Yields fall before January 2027: more of the 2028 deposit finishes the ten payments, so the floor is smaller (about $136,000 after a 0.5-point fall, in an older model; re-run). This is known before 2031.
+The 2028 deposit comes in short: the floor is smaller, almost dollar for dollar. Also known before 2031.
+A recession around 2031: Laura's range is entirely in Treasuries after the move, so it holds while co-sponsors' budgets shrink. Adjusted for inflation, US giving fell 2.4% in 2008 and 3.2% in 2009, and arts giving fell 10.1% in 2008 and 2.0% in 2009 (Giving USA 2010, checked 7 Nov). In current dollars, all giving fell 3.6% in 2009.
+5. What fundraisers already know
+Capital campaigns run a "quiet phase" of private talks with lead donors before any public goal. Capital Campaign Pro sets 65% of the goal as the minimum secured before a public launch, or 75-80% for small organisations (Capital Campaign Pro). The Kresge Foundation's guide asks applicants to have raised at least 20% of the goal, sometimes 50% or more. (Corrected 7 Nov: the "AFP 60-80%" and 20% lead-gift figures came from a careers-site page, not AFP guidance, and have been removed.)
+Laura's 2031 conversations are a quiet phase, and her own contribution is the founder's lead gift. Its job is to show the project is real.
+The rule fundraisers follow, secure the money before you announce the number, is the rule Caplet's plan follows: the bottom of the range is already owned when she says it.
+A range is normal in early talks. Fundraisers call the private figure a "working goal" and raise it if lead gifts come in high.
+6. Draft fundraising text (for the team to rewrite in its own words)
+The numbers in brackets are placeholders from our October model. Replace them with the re-run figures.
+"I am committing my own money to the residency's building, and I want you to know exactly how much and how sure it is. I expect to contribute between [$145,000] and [$170,000] in January 2033. The lower figure is already set aside in US Treasury bonds that mature at the end of 2032, so it does not depend on the stock market. The upper figure was built from a world share fund and moved into Treasury bonds before these conversations, so the whole range is money I already own. Separately, my own ten payments of $50,000 toward the residency's operating expenses, from 2033 to 2042, are already set aside in US Treasury bonds, one maturing before each payment. I am keeping part of my savings back for building costs that run over budget, so I am not promising everything I have."
+Why it is written this way:
+It gives a range and a confidence level, as the case asks.
+It says what the bottom is made of, which is what makes it believable.
+It tells co-sponsors that Laura's own share of the operating costs is already set aside. It does not say their operating support is unneeded: the case says operating support beyond her commitment may come from co-sponsors (Case p.3). (Corrected 7 Nov.)
+It names what she keeps back and why, which protects her credibility if costs rise.
+7. What to avoid
+Invented names for parts of the plan. Use the case's words: operating commitment, operating reserve, facility contribution, credible range, co-sponsors.

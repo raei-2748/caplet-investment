@@ -1,4 +1,4 @@
-# Other (OTHER): 147 ideas, ranked
+# Other (OTHER): 114 ideas, ranked
 
 Built by `../build_store.py`; do not edit by hand (change `../ratings.csv` instead). Full rows are in `../insights.jsonl` and in the harvest file named in each row.
 
@@ -112,42 +112,9 @@ Built by `../build_store.py`; do not edit by hand (change `../ratings.csv` inste
 | 106 | H5-058 | 14 (4 1 2 3) | C | keep | Little's law: the money held in reserve equals the inflow times the holding time. | Little 1961 (RG1) | no |
 | 107 | H5-093 | 14 (3 3 2 3) | C | adapt | Canada's CPP total portfolio approach: manage all the money as one portfolio against liabilities. | RG1 | partial: managing it all as one pool contradicts the FINAL's separation |
 | 108 | H5-095 | 14 (4 1 2 3) | C | keep | Gompertz (1825) and Makeham (1860) mortality laws. | RG1 | no |
-| 109 | H7-001 | 13 (3 2 2 3) | C | keep | Hamada leverage (452) | USE IN IPS (idea); numbers FR |  |
-| 110 | H7-002 | 13 (3 2 2 3) | C | keep | Merton DD >= 2.33 as certainty (453) | REJECT |  |
-| 111 | H7-004 | 13 (3 2 2 3) | C | keep | Roy safety-first, Sharpe-Tint (455) | FR ONLY |  |
-| 112 | H7-006 | 13 (3 2 2 3) | C | keep | Thin premium 64%; Bodie vs Siegel (457) | USE IN IPS (Bodie); numbers FR |  |
-| 113 | H7-007 | 13 (3 2 2 3) | C | keep | CPPI governor (458-461) | REJECT |  |
-| 114 | H7-008 | 13 (3 2 2 3) | C | keep | Hurdle rate (462) | USE IN IPS (one clause) |  |
-| 115 | H7-009 | 13 (3 2 2 3) | C | keep | 2033 waterfall formula (463-468) | REJECT the formula |  |
-| 116 | H7-010 | 13 (3 2 2 3) | C | keep | Newsvendor (469) | FR ONLY |  |
-| 117 | H7-012 | 13 (3 2 2 3) | C | keep | Diversification audit; Taiwan stress screen (471) | FR ONLY |  |
-| 118 | H7-013 | 13 (3 2 2 3) | C | keep | Options as priced insurance (472) | USE IN IPS (already); numbers FR |  |
-| 119 | H7-016 | 13 (3 2 2 3) | C | keep | Surplus-at-risk and DD (475) | FR (surplus-at-risk); REJECT DD |  |
-| 120 | H7-017 | 13 (3 2 2 3) | C | keep | Three-part certainty definition (476) | see ILV #69 |  |
-| 121 | H7-018 | 13 (3 2 2 3) | C | keep | Hedge ratio rechecked (477) | REJECT |  |
-| 122 | H7-024 | 13 (3 2 2 3) | C | keep | Behavioural guardrails (483) | REJECT the apparatus; the principle is already in |  |
-| 123 | H7-025 | 13 (3 2 2 3) | C | keep | Eligible instruments (484) | FR ONLY |  |
-| 124 | H7-027 | 13 (3 2 2 3) | C | keep | Review and amendment (486) | REJECT for the IPS |  |
-| 125 | H7-028 | 13 (3 2 2 3) | C | keep | Dashboard with traffic lights (487) | FR ONLY, no lights |  |
-| 126 | H7-031 | 13 (3 2 2 3) | C | keep | Exhibits incl. the 5.09% break-even (500-510) | FR ONLY |  |
-| 127 | H7-032 | 13 (3 2 2 3) | C | keep | One-page "Letter to Laura" (511) | REJECT |  |
-| 128 | H7-033 | 13 (3 2 2 3) | C | keep | CFA-style IPS template; multi-stage horizon (512-517) | REJECT the template; horizon FR |  |
-| 129 | H7-034 | 13 (3 2 2 3) | C | keep | FR contents incl. the "true bear case" (518-525) | FR ONLY (the bottom doesn't go to zero) |  |
-| 130 | H7-035 | 13 (3 2 2 3) | C | keep | Chhabra's three buckets (526-529) | REJECT the mapping |  |
-| 131 | H7-038 | 13 (3 2 2 3) | C | keep | 1.3 master equation (546-561) | FR ONLY; the insight informs |  |
-| 132 | H7-039 | 13 (3 2 2 3) | C | keep | 1.4 surplus framework, haircut, m (562-568) | REJECT the haircut and m |  |
-| 133 | H7-043 | 13 (3 2 2 3) | C | keep | Redington immunisation (574) | USE IN IPS as the contrast |  |
-| 134 | H7-046 | 13 (3 2 2 3) | C | keep | Bodie-Merton-Samuelson lifecycle (577) | REJECT the direction |  |
-| 135 | H7-050 | 13 (3 2 2 3) | C | keep | Ability vs willingness; media tilt (586) | FR ONLY (ability vs willingness) |  |
-| 136 | H7-056 | 13 (3 2 2 3) | C | keep | Reverse stress, -82% (610) | FR ONLY, redone |  |
-| 137 | H7-062 | 13 (3 2 2 3) | C | keep | Cite Chhabra, Das et al., Shefrin-Statman, Merton (616) | FR ONLY |  |
-| 138 | H7-064 | 13 (3 2 2 3) | C | keep | Brier scores (623) | FR ONLY |  |
-| 139 | H7-068 | 13 (3 2 2 3) | C | keep | Liability sentence with ">= 99%" (628) | REJECT the 99%; the rest FR |  |
-| 140 | H7-073 | 13 (3 2 2 3) | C | keep | Contribution-shortfall contingency (639) | FR ONLY (as a stress) |  |
-| 141 | H7-082 | 13 (3 2 2 3) | C | keep | Research library (680-689) | FR ONLY (bibliography) |  |
-| 142 | H7-117 | 13 (3 2 2 3) | C | adapt | Rejected from the pasted list as packaging or wrong: the mission slogan ("Protect the commitment first; let the upside serve the dream"); the "Roots / Canopy / Branch / Ballast", "Riskless Anchor" and "Trap Register" la… | Pasted list | slogan and labels: yes (motif and coined-label bans); the rest: no |
-| 143 | H5-142 | 12 (1 5 2 3) | C | adapt | Marginal value theorem (Charnov 1976): leave a food patch when its return falls to the average; i.e. sell a holding when its marginal return drops. | RG1 | yes if applied: selling on returns contradicts the FINAL's two reasons to change ("a fall… |
-| 144 | H5-153 | 12 (1 5 2 3) | C | keep | Parrondo's paradox (1996): two losing games can win when played in a set order. | RG1; S4 dropped | no |
-| 145 | H7-025 | 11 (1 1 5 3) | C | adapt | Rejected alternatives: CPPI (equity = multiplier x cushion, sold as prices fall), the TIPP ratchet, and contingent immunisation (manage actively until a trigger, then immunise). Caplet does the reverse: lock first, risk… | Leibowitz & Weinberger, FAJ 38(6) 1982 / 39(1) 1983; Black-Jones; Perold; Black & Perold (1992) JEDC; Estep & Kritzman TIPP (1988); the pas… | yes if adopted (FINAL: "A fall in the market is not one of them"; TNA: "ignore price nois… |
-| 146 | H5-083 | 10 (1 3 2 3) | C | adapt | Dutch conditional indexation: pensions rise only when the funding ratio clears a threshold. A test of whether a "fixed" promise can bend. | Dutch pension practice (RG1) | yes if applied to the payments (fixed nominal $50k in the case and the FINAL) |
-| 147 | H7-116 | 9 (1 2 2 3) | C | adapt | Plan names: Caplet XR (X = ten holdings, R = redemption), and Datum (a surveyors' fixed point; Latin "a thing given"; runner-up Cornerstone) | PR #150 README; Book 11; final_night README | yes: the Caplet XR / tablet / redemption motif is gone (Ray, 5 Nov), Caplet's FINAL uses … |
+| 109 | H7-117 | 13 (3 2 2 3) | C | adapt | Rejected from the pasted list as packaging or wrong: the mission slogan ("Protect the commitment first; let the upside serve the dream"); the "Roots / Canopy / Branch / Ballast", "Riskless Anchor" and "Trap Register" la… | Pasted list | slogan and labels: yes (motif and coined-label bans); the rest: no |
+| 110 | H5-142 | 12 (1 5 2 3) | C | adapt | Marginal value theorem (Charnov 1976): leave a food patch when its return falls to the average; i.e. sell a holding when its marginal return drops. | RG1 | yes if applied: selling on returns contradicts the FINAL's two reasons to change ("a fall… |
+| 111 | H5-153 | 12 (1 5 2 3) | C | keep | Parrondo's paradox (1996): two losing games can win when played in a set order. | RG1; S4 dropped | no |
+| 112 | H7-025 | 11 (1 1 5 3) | C | adapt | Rejected alternatives: CPPI (equity = multiplier x cushion, sold as prices fall), the TIPP ratchet, and contingent immunisation (manage actively until a trigger, then immunise). Caplet does the reverse: lock first, risk… | Leibowitz & Weinberger, FAJ 38(6) 1982 / 39(1) 1983; Black-Jones; Perold; Black & Perold (1992) JEDC; Estep & Kritzman TIPP (1988); the pas… | yes if adopted (FINAL: "A fall in the market is not one of them"; TNA: "ignore price nois… |
+| 113 | H5-083 | 10 (1 3 2 3) | C | adapt | Dutch conditional indexation: pensions rise only when the funding ratio clears a threshold. A test of whether a "fixed" promise can bend. | Dutch pension practice (RG1) | yes if applied to the payments (fixed nominal $50k in the case and the FINAL) |
+| 114 | H7-116 | 9 (1 2 2 3) | C | adapt | Plan names: Caplet XR (X = ten holdings, R = redemption), and Datum (a surveyors' fixed point; Latin "a thing given"; runner-up Cornerstone) | PR #150 README; Book 11; final_night README | yes: the Caplet XR / tablet / redemption motif is gone (Ray, 5 Nov), Caplet's FINAL uses … |

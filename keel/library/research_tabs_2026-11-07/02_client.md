@@ -1,6 +1,6 @@
 # Client: Laura Gao, inside out
 
-Research notes for the Final Report, written by Claude (Keel) on 7 Nov 2026. Everything here is either from Wharton's case (marked "Case", with the page) or from a public source with its link. The case wins wherever the two differ. Our strategy is Caplet's submitted IPS; this tab explains the client it was written for.
+Research notes for the Final Report, written by Claude (Keel) on 7 Nov 2026; corrected on 8 Nov to the IPS Caplet submitted (the FINAL tab, the letter to Laura). Everything here is either from Wharton's case (marked "Case", with the page) or from a public source with its link. The case wins wherever the two differ. Our strategy is Caplet's submitted IPS; this tab explains the client it was written for.
 
 ## 1. The facts we must never get wrong (Case)
 
@@ -86,9 +86,9 @@ Willingness versus capacity: she is **willing** to take risk (her career shows i
 
 ## 7. What earns her confidence
 
-- **Plain, checkable rules.** The IPS says decisions follow her long-term objectives, not short-term market moves. An earlier Caplet draft (v11) went further: change the plan only when a deposit or payment date changes or a holding stops existing. The Final Report can state that rule outright; a statistician can test it.
+- **Plain, checkable rules.** Caplet's submitted IPS names only two reasons to change the plan, a missed deposit or a Treasury default, and says a fall in the market is not one of them. A statistician can test a rule like that.
 - **Low cost and few trades.** Eleven trades in WInS; one world index fund; Treasuries held to maturity.
-- **Our weak points named before she finds them.** Falling yields, Taiwan costs, a possible 7% vs 7.5% return assumption mismatch between our IPS and our Trading Notes (to fix in the Final Report).
+- **Our weak points named before she finds them.** Falling yields and the reinvesting of interest, Taiwan costs, and the 7.5% return the Trading Notes cite (J.P. Morgan's 2027 estimate for global equities, to cite in the Final Report).
 - **Her own language.** "Operating commitment", "operating reserve", "facility contribution", "credible range", "co-sponsors", "high degree of certainty", "financial flexibility". Ray's rule (4 Nov): use the case's words, don't invent terms.
 
 ## 8. Things the case does not say (don't write them)

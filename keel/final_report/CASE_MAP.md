@@ -4,7 +4,8 @@ Book 15: "Every single part of our Final Report MUST be underpinned by a breatht
 analysis." This page lists every requirement the case and Wharton place on the report, the questions (Q1-Q14 in
 `README.md`) and store tags (`research/INSIGHT_STORE.md`) that feed it, and the analysis still open. Wharton's Final
 Report instructions (Tue 10 Nov, 01:00 Sydney) will be added as section E the day they arrive. This is a planning
-page, not report text.
+page, not report text. The IPS this page uses is the one in the "Past Submissions" tab of Caplet's FINAL REPORT doc,
+checked word for word against `FINAL_IPS_as_submitted.txt` on 8 Nov.
 
 ## A. What the case requires (Client Case Study, `competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt`)
 
@@ -19,7 +20,7 @@ page, not report text.
 | A7 | "The proposed range must also protect the portfolio's ability to fund the ten-year operating commitment" | Q2, Q3 | CERTAINTY, FLOOR | The range is drawn only from money outside the ladder; show that no outcome of the range can touch a payment |
 | A8 | "Draft part of Laura's fundraising materials describing this potential contribution for prospective co-sponsors" | Q4, Q11, Q12 | FUNDRAISING, COSPONSOR, LAURA | What good case-for-support writing does; what a founder's committed money signals; how to state a range and its confidence in a donor document; Laura's own voice and values (public sources only) |
 | A9 | Strategy must: support the commitment with high certainty; determine a responsible facility contribution; address how uncertainty affects both; communicate the contribution clearly and credibly; preserve flexibility | all | all | The report's spine: one argument (EXPECTATIONS 2.9) |
-| A10 | Assumptions on "investment performance, the timing of cash flows, outside funding, the effect of inflation on portfolio projections and facility costs, and the financial flexibility Laura should preserve"; favourable and unfavourable outcomes | Q6, Q10, Q12 | CEILING, INFLATION_TWD, REINVEST | One assumptions table, every figure sourced. Return: the TNA cites 7.5% (J.P. Morgan); the 2026 LTCMA in our files gives 7.00% for all-country world shares and 7.50% for EAFE, so the source must be pinned and explained (EXPECTATIONS T12). Inflation: US CPI against Taiwan CPI and Taiwan's construction cost index. Outside funding: none for the payments, by design |
+| A10 | Assumptions on "investment performance, the timing of cash flows, outside funding, the effect of inflation on portfolio projections and facility costs, and the financial flexibility Laura should preserve"; favourable and unfavourable outcomes | Q6, Q10, Q12 | CEILING, INFLATION_TWD, REINVEST | One assumptions table, every figure sourced. Return: the TNA's 7.5% is J.P. Morgan's 2027 estimate for global equities (press release 19 Oct 2026, "increasing from 7.0%"; settled 27 Oct, `../office/outbox/2026-10-27_noticeboard_7-5-is-world-stocks.md`); the 2026 edition's 7.50% for EAFE is a coincidence of editions. Test about 4% to 10% around it. Inflation: US CPI against Taiwan CPI and Taiwan's construction cost index. Outside funding: none for the payments, by design |
 | A11 | "Evaluates how that strategy was implemented" (the WInS portfolio) | Q13 | PROCESS | What the WInS book shows (IBTM, the T-bond ladder, VT 8.6%), what it could not show (no 2028 deposit, no Treasuries for some years), the trades of 7-8 Oct, what the Trading Notes tested. WInS gains never enter Laura's projections |
 | A12 | Projections start from $300,000 in 2027 and $150,000 in 2028 with "reasonable return assumptions consistent with their strategy" | Q6 | all numbers | One engine, one curve (6 Nov close), Caplet's design as written |
 | A13 | Out of scope: the facility's cost, a construction budget, the funding gap, a business plan, taxes, Taiwan's legal rules | Q9, Q10 | RESIDENCY, INFLATION_TWD | Research on residencies and Taiwan informs flexibility and the co-sponsor text; it never estimates the building's cost |
@@ -36,9 +37,21 @@ page, not report text.
 
 ## C. Open analysis found while gathering the old research (to settle before Thu 26 Nov)
 
-1. **Reinvestment under Caplet's design.** Coupons and early maturities (the Feb-2037 bond for the 2038 payment) must
-   wait in Treasuries before they are paid out. None of the old research covers this with only Treasuries and the 2028
-   deposit; several old ideas used shares or later coupons, which the FINAL rules out. Size it on the 6 Nov curve.
+1. **Reinvestment under Caplet's design: the largest open question.** A ladder of coupon bonds costing about
+   $300,000 delivers $50,000 a year only if its coupons are reinvested: a T-bond bought for about $30,000 reaches
+   $50,000 in 2038 only with ten years of coupons reinvested on the way. So the payments depend on future Treasury
+   rates as well as on default, and Caplet's FINAL has no rule for a shortfall (TNA note 1 names the risk). Wharton
+   bars revising the strategy, so the report can measure, explain and implement within the IPS's words, but cannot add
+   a new rule. Work to do: (a) size the risk on the 6 Nov curve under the FINAL design (old-design figure: about $21,000
+   if yields fall 2 points for good); (b) test the implementation the IPS's words allow: a cash-flow-matched ladder in
+   Leibowitz's sense, where each later bond's coupons pay the earlier payments as they fall due, leaves only the
+   2027-2032 coupons to reinvest. Keel's harvest brief flagged "later coupons paying earlier payments" as a clash; that
+   was too strict, because the FINAL only says each Treasury matures "just before it's needed" and TNA note 2 says each
+   payment "rests on a dedicated instrument", which stays true. Decide on Mon 16 with the numbers, log the call in
+   `pm/ASK_HUMANS.md`, and show Caplet the reasoning in the 28 Nov draft; (c) the case's own order helps: the operating
+   reserve is set aside in 2033 before the facility contribution, and Caplet's choice to fill the ladder with the 2028
+   deposit's first dollars shows the same priority. (d) Lineage: Fisher and Weil, Redington, Leibowitz's dedicated
+   portfolios, municipal escrows "sufficient without reinvestment", Damodaran's two conditions for a riskless asset.
 2. **"Pay what they say" against "net asset value, not par".** The FINAL says the Treasuries "pay what they say" and
    the bottom is promised "without doubt"; TNA note 2 says the iBond payout is a net asset value. The report must state
    the bottom in a way that is true for an iBond ETF (for example, rounded down from its expected payout) and say why
@@ -46,7 +59,9 @@ page, not report text.
 3. **The ladder's cost now.** On the 6 Nov close the ten payments cost $301,544 on 1 Jan 2027 (MODEL), so the 2028
    deposit's first dollars finish the ladder, exactly as the FINAL says. Old research that says "under $300,000" or
    "the 2028 deposit never funds payments" is out of date.
-4. **The 7.5% figure** (A10): find the exact J.P. Morgan table the TNA used.
+4. **The 7.5% figure** (A10): settled. J.P. Morgan, 2027 Long-Term Capital Market Assumptions, press release 19 Oct
+   2026: "Global equities are projected to return 7.5% (USD), increasing from 7.0%." The matrix itself (compound or
+   arithmetic) sits behind a login, so the report says "J.P. Morgan's estimate for global shares" and never "compound".
 5. **The 2031 move:** into which Treasury, when, and what the 2031 range then is. After the move both ends are owned;
    is the communicated range then floor to floor-plus-promised-half, with near-certain confidence, and what is the
    honest residual risk?

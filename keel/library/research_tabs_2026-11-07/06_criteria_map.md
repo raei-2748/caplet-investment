@@ -6,7 +6,7 @@ Written by Claude (Keel) on 7 Nov 2026. Wharton judges the Trading Notes, the IP
 
 - Feeds: Numbers and Models (sections 3-6), Ideas and Sources (section 1).
 - Strong: one clear design that never changed in substance from late September to the IPS; rival plans tested on the same markets; a named weak point (reinvesting interest) with a priced answer.
-- Missing: one numbers sheet on one engine and one dated curve, built on the IPS as submitted. Decide 7% or 7.5% for shares.
+- Missing: one numbers sheet on one engine and one dated curve, built on the IPS as submitted. Cite the Trading Notes' 7.5% for shares (J.P. Morgan's 2027 estimate for global equities, 19 Oct 2026) and test a range around it.
 
 ## Client Knowledge
 

@@ -1,0 +1,160 @@
+Deep research: the Taiwan residency landscape
+Key findings
+Who runs and pays for residencies in Taiwan
+Taipei Artist Village opened in 2001 as Taiwan's first publicly funded artist village. The Ministry of Culture says that over the past decade or so, private groups and local governments have also started using empty buildings as artist villages. [Verified] artres.moc.gov.tw/en/about/index
+AIR Taipei is based at Treasure Hill and run by the Department of Artist Village Operations of the Taipei Culture Foundation. In the 2027 call:
+International residents get no money. They get a free studio with accommodation (usually one bed) and pay their own transport, living, production, visa and insurance costs.
+Domestic residents get a creative grant of NT$72,000, paid in two instalments.
+[Verified] artres.moc.gov.tw/en/calls/content/ff8081819cd603ad019d71596d5f0065
+Taiwan Comic Base runs a "Comic Artists Program" residency. The Ministry announced the 2019 fourth cohort, which was there from October to December 2019, worked for about two months and then exhibited. [Verified] moc.gov.tw/en/News_Content2.aspx?n=468&s=17078
+The Ministry already pays to send Taiwanese comics artists abroad through its overseas residency exchange program. The two partners are La Maison des auteurs (Cité internationale de la bande dessinée et de l'image, Angoulême) and bd BOUM, both in France. [Verified] artres.moc.gov.tw/en/about/index
+The Ministry's operating subsidy for artist villages works as follows. The rules were last revised on 28 Oct 2025 (ROC 114). [Verified] law.moc.gov.tw/LawContent.aspx?id=FL049953
+Up to NT$3,000,000 per application. It covers an annual operating plan and capital spending on space and equipment.
+Up to NT$800 per resident per day for living costs. The village must also pay each resident at least this amount per day, and each residency must last at least one month.
+Any legally established or registered legal body, group or organisation can apply.
+Applications are reviewed. Funded work must be finished within one year, by 30 November.
+The amount "depends on the Legislative Yuan budget review", and the Ministry may reduce or stop the subsidy.
+The Ministry will not fund the same project again if it is already funded by the NCAF (National Culture and Arts Foundation), a Ministry-supervised administrative body, or the Ministry or its agencies.
+TAICCA's Creative Content Development Program funds early development of films, series, documentaries and animation. It gives up to NT$2-3 million, or 5-15% of a project's budget, and TAICCA gets first right to invest if the project goes into production. It cannot be combined with the Ministry's script subsidies. [Verified] en.taicca.tw/grants_investment/detail/12. I found no TAICCA grant aimed at residencies or comics.
+Founder-funded residencies
+Bamboo Curtain Studio (Tamsui, founded 1995) is the closest Taiwan example to Laura's plan.
+Wikipedia says three ceramicists started it: Margaret Shiu, Chen Cheng-hsun and Fan Chiang Ming-tao. The Ministry names Shiu as the founder.
+Most of its money came from Shiu's own resources and from outside project work. Its income included government grants, venue hire and contract work.
+In 2011 Shiu registered it as a non-profit so it could accept sponsorship, because income from its incubation and service work could not cover losses.
+At its smallest, Shiu ran it alone, part-time.
+[Secondary] zh.wikipedia.org/wiki/竹圍工作室
+Shiu died on 30 Aug 2021, aged 75. [Verified] moc.gov.tw/en/News_Content2.aspx?n=467&s=16056
+The studio stopped operating at the end of 2021 and moved out of its riverside site. In 2022, with support from Shiu's family, its company arm was reorganised to look after the archive. [Secondary] arthistorystrolls.com/?p=23984 (13 Oct 2026). This source gives no reason for the closure.
+A national archive document says the announced Danbei road works would last at least four years and make it hard for the studio to keep offering residencies. [Snippet] twfineartsarchive.ntmofa.gov.tw/QuarterlyFile/B015905.pdf. I downloaded the PDF but its text would not extract. The date of this statement, and whether the road works caused the closure, are unconfirmed.
+Hedgebrook (US) was set up by Nancy Nordhoff (1932-2026) and co-founder Sheryl Feldman with an original founding gift plus the property, cottages and other buildings. Its history page says it "has continued to subsist on" Nordhoff's gift, supplemented by fundraising that "began in earnest in 2006". [Verified] hedgebrook.org/about-us-history. Its own blog says people often assumed Nordhoff "bankrolled the operation". [Snippet] hedgebrook.org/blog/march-2026
+Is $50,000 a year a plausible operating budget? (latest US tax returns via the ProPublica Nonprofit Explorer API [Verified] projects.propublica.org/nonprofits)
+
+Residency | Year | Total expenses
+Hewnoaks | 2023 | about $111k
+Elsewhere | 2022 | about $386k
+Millay Colony | 2023 | about $430k
+Jentel | 2022 | about $599k
+Hedgebrook | 2023 | about $1.87M
+Ucross | 2023 | about $2.85M
+Headlands | 2023 | about $4.82M
+At about 32.8 TWD per USD, $50,000 is about NT$1.64M a year. That is a little over half the Ministry's maximum subsidy, or about 2,050 resident-days at NT$800 a day (the subsidy cap, which is also the minimum daily living allowance). [Inference]
+Building costs and overruns
+Taipei Performing Arts Center: the first budget was NT$3.8bn, later raised to NT$5.99bn. Then the main contractor, International Engineering and Construction Co, filed for bankruptcy in November 2016 and work stopped. [Verified] taipeitimes.com/News/taiwan/archives/2017/12/28/2003684787
+The final cost was about NT$6.7bn, roughly 76% over the first budget. [Snippet] cnn.com and scmp.com. The building opened in 2022. [Snippet]
+Set in Stone (University of Chicago, 2012), Table E, average overrun from the first agreed budget [Verified] culturalpolicy.uchicago.edu/.../setinstone.pdf:
+Producing theatres +92%
+Museums +46%
+Non-resident performing arts centres +62%
+Resident performing arts centres +64%
+In the producing-theatre discussion, the report says the first budget was usually internal, managers chose when to announce budgets, and the increase the public saw averaged about 19%.
+Taiwan's construction cost index rose 7.18% in the year to Oct 2026 (materials +7.72%). [Snippet] en.macromicro.me/charts/56409
+Taiwan's producer price index rose 19.66% in the year to Oct 2026. [Verified] eng.stat.gov.tw/Point.aspx?sid=t.2&n=4201&sms=11713
+Taiwan inflation and the central bank
+Consumer prices rose 2.33% in the year to Oct 2026 (core 2.23%). [Verified] eng.stat.gov.tw
+That was the sixth straight month above 2%. [Snippet] CNA/Focus Taiwan
+September was 2.73%, the fifth straight month above 2%. [Snippet] Taipei Times, 8 Oct 2026
+Taiwan's central bank, at its 17 Sep 2026 meeting [Verified] cbc.gov.tw/en/cp-448-192883-c5fa1-2.html:
+Held the discount rate at 2%.
+Forecasts CPI inflation of 2.03% for 2026 and 1.83% for 2027.
+Forecasts GDP growth of 11.48% for 2026.
+Says the exchange rate "is in principle determined by market forces", but steps in when moves are excessive or disorderly.
+Notes that the US Federal Reserve "has pivoted toward a policy rate increase".
+The Taiwan dollar
+Official closing rate: 32.876 TWD per USD on 5 Nov 2026. [Verified] cbc.gov.tw/en/lp-700-2.html. The 32.768 figure for 6 Nov is [Unconfirmed].
+Monthly averages (FRED series EXTAUS, Fed H.10 data) [Verified] fred.stlouisfed.org/series/EXTAUS:
+Since 2006 the range is 27.67 (Jan 2022, strongest Taiwan dollar) to 34.30 (Mar 2009).
+Since 1996 the range is 27.19 (Apr 1996) to 35.07 (Feb 2002).
+Over every 6-year window starting from 2000 (the same length as 2027 to 2033), this is how much more a fixed Taiwan-dollar bill cost in US dollars at the end [Inference from FRED data]:
+Median +2%.
+More than +5% in 40% of windows, and more than +10% in 16%. The 90th percentile is about +11%.
+Worst +20.8% (Jan 2016 to Jan 2022). Best -11%.
+If the rate went from 32.8 back to its Jan 2022 level, a Taiwan-dollar bill would cost about 18.5% more in US dollars. [Inference]
+What this means for Caplet
+Grants are annual, reviewed, and can be cut by the legislature. This is concrete evidence for the case's rule that grants can't fund the ten payments (Case p.3). It also explains why co-sponsors and grants fit best on top of Laura's $50k. Client Knowledge / Investment Strategy. Use it in the Final Report section on operating-commitment certainty: one sentence, with the Ministry rule as the source.
+$50k a year is a strong base, not the whole budget. Small US residencies spend $110k-$600k a year. In Taiwan, $50k is just over half the Ministry's maximum subsidy. The Final Report can say Laura's payments are a reliable base that makes co-sponsor and grant money easier to win. It should not call $50k "enough". Client Knowledge / Creativity & Presentation. Use it in the co-sponsor section.
+Bamboo Curtain shows the risk of a residency that depends on its founder. It ran mostly on the founder's own resources, faced at least four years of nearby road works, and stopped operating at the end of the year she died. The cause of the closure is not confirmed, so don't claim one. Caplet's plan pays all ten payments in advance and keeps half of VT unpromised. That answers this risk: the residency's first decade does not depend on Laura's later income or her yearly decisions. Client Knowledge. Use it in the client-insight paragraph next to the "career is a stock she can't sell" idea. Treat it as a case to learn from, not a prediction.
+Hedgebrook shows that people may assume the founder pays for everything. A stated range, with what is held back and why, corrects that early. Creativity & Presentation. Add it to Co-sponsor Brief section 5.
+Overruns support keeping half of VT back. Use the Set in Stone figure for the right building type, plus the Taipei Performing Arts Center's +76% and its contractor bankruptcy. Laura's facility will be small, so say the percentage overrun may be lower. The point is that overruns run upwards. Investment Strategy / Portfolio Analysis. Use it in the financial-flexibility section.
+Size the currency risk against the money kept back. Use the team's own figures: a typical gift of about $169k (IPS figure) and the "roughly $26,000 Laura keeps" (Numbers §9).
+A return to the 2022 rate (+18.5%) would cost about $31k of buying power on the gift, more than the kept amount.
+The historical 90th-percentile move (about +11%) would cost about $19k.
+Show this as one small table: the kept money covers ordinary currency moves, not extreme ones. That is an honest weak point to name.
+Portfolio Analysis. Use it in the stress-test section. The team should re-run it with the final figures.
+Building costs in Taiwan are rising fast now (about 7%), while consumer prices are near 2%. The case asks teams to consider "the effect of inflation on portfolio projections and facility costs". Model the facility with a building-cost rate, not consumer inflation. The 3.5% "Taiwan building inflation" in M4 looks low against the current 7%, so give a range of 3.5% to 7%. Note that M4 applies the 3.5% to the payments' buying power, not to the facility. Portfolio Analysis.
+There is a natural partner network for a comics creator. The Ministry's comics office is linked to the Comic Base residency, and the Ministry sends comics artists to Angoulême. Laura is a graphic novelist, so the Ministry's comics side is a likely co-sponsor channel. TAICCA's CCDP is for screen content, so it fits only if her work is adapted for screen. Client Knowledge / Creativity. This is a one-line idea for the "with more time" or co-sponsor section only, because the case says teams don't need a detailed business plan.
+Taiwan's central bank says the US Fed has turned toward rate rises. That fits the IPS point that rising US yields before January 2027 make the ladder cheaper. Investment Strategy. Use it as a footnote only, since it is outside this stream.
+Corrections to existing tabs
+Client §6, Set in Stone: "about 92%" is for producing theatres only. Museums were +46%, non-resident performing arts centres +62%, and resident performing arts centres +64%. The figures come from the report's case studies, not every 1994-2008 project. Cite Table E.
+Client §6, currency: "USD/TWD was 31.82 on 18 Sep 2026" is out of date. The official rate was 32.876 on 5 Nov, so the Taiwan dollar has weakened about 3%. The 4-6% yearly swing matches my figure of about 4.2-4.4% from monthly averages, which understates swings measured from daily data.
+Client §6, inflation: update "+2.04% in August" to October +2.33% (September was 2.73%). The central bank forecasts 1.83% for 2027.
+Client §6: "about 2.8% a year over five years" only works if the base is the 2021 average, which makes it about 5.7 years to Sep 2026. Say "since the 2021 average".
+Numbers §9: the 3.5% building inflation is below the current 7.2%. Present it as a range, not a single rate.
+Open questions / not found
+No operating budget for Treasure Hill or Taipei Artist Village, and no budget breakdown for Bamboo Curtain. The Taipei Culture Foundation's annual reports, in Chinese, are the next place to look.
+NCAF grant amounts for residencies are not verified. A snippet only says project grants often reach NT$0.5-1M.
+The cost and operator of Taiwan Comic Base itself are not verified.
+No study of overruns on small Taiwan cultural buildings. The evidence is US arts buildings plus one large Taipei project.
+Bamboo Curtain's end-2021 closure is confirmed by a secondary source. The road-works link is still a snippet, because the archive PDF's text would not extract. Read it by hand before citing.
+No forecasts of the USD/TWD rate for 2031-2033. Use historical ranges, not forecasts.
+Sources (all accessed 7 Nov 2026)
+https://artres.moc.gov.tw/en/about/index
+https://artres.moc.gov.tw/en/calls/content/ff8081819cd603ad019d71596d5f0065
+https://law.moc.gov.tw/LawContent.aspx?id=FL049953
+https://www.moc.gov.tw/en/News_Content2.aspx?n=468&s=17078
+https://www.moc.gov.tw/en/News_Content2.aspx?n=467&s=16056
+https://zh.wikipedia.org/wiki/竹圍工作室
+https://arthistorystrolls.com/?p=23984
+https://twfineartsarchive.ntmofa.gov.tw/QuarterlyFile/B015905.pdf
+https://www.hedgebrook.org/about-us-history
+https://www.hedgebrook.org/blog/march-2026
+https://projects.propublica.org/nonprofits/ (EINs 800012629, 742188539, 942817843, 830331644, 464508441, 141556850, 201026041)
+https://en.taicca.tw/grants_investment/detail/12
+https://www.taipeitimes.com/News/taiwan/archives/2017/12/28/2003684787
+https://www.cnn.com/style/article/taipei-performing-arts-center-oma-theater
+https://www.scmp.com/lifestyle/arts-culture/article/3178160/
+https://culturalpolicy.uchicago.edu/sites/culturalpolicy.uchicago.edu/files/setinstone/pdf/setinstone.pdf
+https://en.macromicro.me/charts/56409/taiwan-construction-cost-index
+https://eng.stat.gov.tw/Point.aspx?sid=t.2&n=4201&sms=11713
+https://www.taipeitimes.com/News/biz/archives/2026/10/08/2003865572
+https://www.cbc.gov.tw/en/cp-448-192883-c5fa1-2.html
+https://www.cbc.gov.tw/en/lp-700-2.html
+https://fred.stlouisfed.org/series/EXTAUS
+Case: Client Case Study.pdf, pp.2-4
+Fact-check log
+Taipei Artist Village 2001, first publicly funded; private groups and local governments followed -> Confirmed. The source says "over the last decade or so". artres.moc.gov.tw/en/about/index
+AIR Taipei 2027 terms: international residents get no money and pay their own costs; domestic grant NT$72,000; run by the Taipei Culture Foundation's artist-village department -> Confirmed. Department name made exact, and the grant is paid in two instalments. artres.moc.gov.tw call page
+Comics exchange with La Maison des auteurs and bd BOUM -> Confirmed. artres.moc.gov.tw/en/about/index
+Comic Base 2019 residency, about two months, then exhibition -> Confirmed. This was the fourth cohort, Oct-Dec 2019. moc.gov.tw n=468 s=17078
+Ministry subsidy: revised 28 Oct 2025; NT$3M cap; NT$800 per day; any registered body can apply; depends on the Legislative Yuan budget; no double funding with NCAF -> Confirmed, with corrections:
+NT$800 is also the minimum the village must pay each resident per day.
+Residencies must last at least one month.
+The no-double-funding rule also covers Ministry bodies.
+The subsidy also funds capital spending on space and equipment.
+law.moc.gov.tw FL049953 points 3, 5, 6, 9, 13
+TAICCA CCDP NT$2-3M, 5-15% of budget -> Corrected from [Snippet] to Confirmed, and its scope added: film, series, documentaries and animation, and it cannot be combined with Ministry script subsidies. en.taicca.tw/grants_investment/detail/12 (Firecrawl scrape)
+Bamboo Curtain funding, 2011 non-profit, run alone part-time -> Confirmed at the secondary source. Added that Wikipedia names three co-founders. zh.wikipedia (API extract)
+Shiu died Aug 2021 -> Confirmed: 30 Aug 2021, aged 75. moc.gov.tw n=467 s=16056
+Studio stopped operating at the end of 2021 -> Corrected from [Snippet] to [Secondary]. The article gives no reason for the closure. arthistorystrolls.com/?p=23984
+Road works of at least four years threatened residencies -> Unconfirmed. The PDF downloaded but its text would not extract. A causal link to the closure is not supported, so Caplet item 3 was reworded.
+Hedgebrook founding gift, "subsist on", fundraising from 2006 -> Confirmed. hedgebrook.org/about-us-history
+Hedgebrook "founder bankrolled" assumption -> Unconfirmed (snippet only).
+ProPublica expense table (7 organisations) -> Confirmed, every figure: Hedgebrook 2023 $1,865,968; Ucross 2023 $2,848,804; Headlands 2023 $4,822,205; Jentel 2022 $599,268; Hewnoaks 2023 $111,034; Millay 2023 $429,788; Elsewhere 2022 $385,511. ProPublica API
+Taipei Performing Arts Center NT$3.8bn to NT$5.99bn, then contractor bankruptcy -> Confirmed. Added that the bankruptcy was in Nov 2016. taipeitimes 2017-12-28
+Taipei Performing Arts Center final cost NT$6.7bn (+76%) -> Confirmed as a snippet (CNN/SCMP); the arithmetic checks.
+Taipei Performing Arts Center opened in 2022 -> Unconfirmed (snippet).
+Set in Stone 92/46/62/64% and about 19% public -> Confirmed, Table E. Corrected "arts centres" to "performing arts centres", and the 19% is stated in the producing-theatre discussion. setinstone.pdf
+Construction cost index +7.18% (materials +7.72%), Oct 2026 -> Confirmed as a snippet only. macromicro
+PPI +19.66%, Oct 2026 -> Confirmed. eng.stat.gov.tw indicator table
+CPI 2.33%, core 2.23% -> Confirmed. eng.stat.gov.tw
+Sixth month above 2%; September 2.73% -> Confirmed as snippets. The Taipei Times calls September the fifth month above 2%, which is consistent.
+Central bank 17 Sep 2026: rate 2%, inflation 2.03%/1.83%, GDP 11.48%, exchange rate "market forces", Fed "pivoted toward a policy rate increase" -> Confirmed. The 2% is the discount rate. cbc.gov.tw cp-448-192883
+USD/TWD 32.876 on 5 Nov -> Confirmed. 32.768 on 6 Nov -> Unconfirmed.
+FRED ranges (27.67/34.30 since 2006; 27.19/35.07 since 1996) -> Confirmed by recomputing from extaus.csv. The 1996 low is Apr 1996.
+6-year window stats (median +2%, 40%/16%, +20.8%, -11%) and +18.5% -> Confirmed by recomputing. The 90th percentile is +11.2%.
+4.2-4.4% yearly swing on monthly data -> Confirmed: 4.2% since 2000/2006, 4.4% since 2016.
+Team gift "about $165k" -> Corrected to about $169k, the IPS typical-contribution figure in the doc dump. FX costs recomputed to about $31k (+18.5%) and about $19k (+11%).
+"$26,000 Laura keeps" in Numbers §9 -> Confirmed. Note that the M4 3.5% applies to the payments' buying power, not the facility. doc_dump.md
+Client §6 quotes (31.82 on 18 Sep, 4-6% swing, +2.04% Aug, 2.8% a year, "about 92%") -> Confirmed as accurate quotes of the team doc. doc_dump.md §6
+Case: grants can't fund the ten payments -> Confirmed, Case p.3.
+Case: detailed business plan not required -> Confirmed, Case p.4.
+Case: facility-cost inflation is in scope -> Confirmed, Case p.4. Added to item 7.

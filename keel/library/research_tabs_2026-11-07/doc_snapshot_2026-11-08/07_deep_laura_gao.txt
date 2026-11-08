@@ -1,0 +1,133 @@
+Deep research: Laura Gao, inside out
+Written by Claude (Keel) on 7 Nov 2026 through a 15-agent research workflow (Firecrawl and web search). Each stream was checked by a separate fact-checker; see its Fact-check log. Labels: [Verified] read at the primary source, [Secondary], [Snippet], [Inference], [Unconfirmed]. Research notes only: the team writes every submitted word.
+Key findings
+Her own words about her income as a gamble (strongest new evidence for the IPS insight)
+In a March 2025 interview about Kirby's Lessons for Falling (in Love), Gao said she doesn't know how a book will do "until the day it hits the shelves". Each book is "three, four years" of her life. She said she has friends whose books "flopped". She also asked what happens, "with book bans", when you write a queer story and worry about the fallout. She called the chance of falling "the scary part" of a creative career. [Verified] climbing.com (Maya Silver, updated 10 Mar 2025)
+On leaving Twitter, she said it was not easy to give up "my incredibly cushy, paying job with health insurance to be self-employed, with unstable income". Her rule for big decisions is that "you should always take the jump" because otherwise you will regret it. [Verified] Overachiever Magazine, "March I Issue". The year is about 2021: she gives her age as 24 and says Messy Roots is due January 2022. The exact day is not shown.
+Her speaking guide says "Rates will differ based on travel, length of event, and books purchased", and that "pro-bono visits can be offered on need-basis". So her event income is set case by case, not at a fixed rate. [Verified] lauragao.com Publicity & Speaking Guide PDF
+Credibility and other people's money: she has said this before
+In January 2016, talking about her student business, she said things are harder for an entrepreneur because "not only are you letting yourself down" but also "letting other people down". She meant the people who backed her early. The scraped text breaks off at "people who were your e…", so "earliest supporters" is a close paraphrase and not a full quote. [Verified] Daily Pennsylvanian, Jan 2016, Student Spotlight Q&A
+That business was Draw Street Journal, which sold laptop decals, many of them Penn-themed. She started it as a Wharton sophomore. It matches the "small business" she launched while at Wharton (Case p.1). The Client tab does not mention it. [Verified] same source; Case p.1
+Community, and relying on other people
+She says one big theme of Kirby is that when "you're only relying on yourself, that's when everything topples over". She wanted readers to rely on their community "and not feeling guilty for it". [Verified] climbing.com
+Pride in Panels: she says it grew out of a talk with Justin Hall (a fellow CCA professor) and Avi Ehrlich (founder of Silver Sprocket). The photo caption also names Malcolm Johnson as a co-creator. The festival is run with the San Francisco Public Library's James C. Hormel LGBTQIA Center and is free for exhibitors and visitors. More than 2,000 people came to the first festival in 2024. The 2026 festival added mini grants for 20 comic creators. The article calls it a biennial event and calls Gao a "co-organizer". [Verified] Local News Matters, 12 Feb 2026
+Search snippets list her as one of three founders and a board member. Her own résumé, her own site and Local News Matters all say "co-organizer", so the founder and board claims stay [Unconfirmed]. The festival's own site now shows "Website Expired". [Verified] prideinpanels.org scrape, 7 Nov 2026
+Taiwan: a real link, separate from the case's residency
+In about 2021 she said she was "currently in Taiwan, Taipei". [Verified] Overachiever
+She said she "lived nomadically last year, splitting my time between Taiwan and Europe". [Verified] Geeks OUT, 11 May 2022
+A profile includes a photo captioned "Laura's workspace in Taiwan". [Verified] Pulse Spikes. The publication date is [Unconfirmed]. The image's upload timestamp is 17 Jun 2021.
+A 2022 profile says she spent stretches of time in places including Taiwan and Portugal. It quotes her: "Now I get to fit work around life instead of the other way around." [Verified] Input (Inverse), 7 Mar 2022
+Her speaking guide lists coverage by Wainao Media (Taiwan). The scraped collage text includes "TAIPEI COMIC CON", but it is garbled, so we could not confirm she took part. Her site also has an image file named "taiwan-colleges" whose content we could not identify. [Verified that these items exist; meaning unconfirmed]
+Her résumé lists Mandarin Chinese. [Verified] lauragao.com résumé PDF
+We found nothing public about a real residency plan. The residency exists only in the case (Case pp.2–3).
+Career, skills and values
+Her résumé lists:
+Amazon data analyst (2017).
+Twitter product manager, 2018–20: Growth ML (2018–19) and Abuse & Safety (2019–20). She was "one of two PMs for 40 engineers" and claims "10 features" shipped and "+4.5M DAU".
+"LG Studios" since 2020, doing freelance product design. Clients include Retainit and M3 (face-scanning for 3D-printed medical masks, with usability tests run with National Institute of Health researchers).
+A 3.7 GPA and summa cum laude.
+[Verified, self-reported] résumé PDF
+She began seriously thinking about going full time toward the end of 2019. Before the comic went viral she had a tentative plan to travel, teach art part time and draw. She gave Twitter notice when the HarperCollins deal came through. [Verified] Input. The same article mentions a friend's violent death as a trigger. That is private grief: do not use it.
+In 2022 she said her parents were hoping her art was "just a phase" and that she would return to a corporate job. She also mentioned delivering free groceries to elderly Asians in San Francisco during the pandemic. [Verified] BookWeb Q&A, 7 Feb 2022
+Her advice to new creators is "Post terrible work!". [Verified] Geeks OUT
+She is a co-founder of The Signal, a Penn student publication that promotes other career paths. The Signal's Anti-Resume project launched on 11 March 2019 and was the idea of another student, Qi Linzhi. Gao's anti-résumé was one of four alumni profiles. It listed 33 job rejections and sleeping through two final exams and one final-round interview. [Verified] Daily Pennsylvanian, Mar 2019. Pulse Spikes says she "helped launch" the project through the club. Her anti-résumé page is now a 404. [Verified]
+She is open about not having gone to art school and about her impostor syndrome. [Verified] Overachiever
+She has said she wants to try many things in life rather than master one. [Unconfirmed] We did not re-check this. The nearest checked text is "I feel like I've been jumping almost my whole life… I jumped majors almost every semester." (Overachiever)
+She builds websites and apps for nonprofits. [Verified] Geeks OUT
+What this means for Caplet
+Quote her own words for the insight (Client Knowledge; Investment Strategy). In the Final Report section on why the plan suits Laura, use one short line from the climbing.com interview, for example that she doesn't know how a book will do "until the day it hits the shelves". It shows she already sees her income as an uncertain bet. This fills the Criteria Map gap ("why this plan suits Laura and not any client"). [Inference]
+Tie the range's floor to her 2016 point about supporters (Client Knowledge; Creativity & Presentation). The bottom of the 2031 range is money already held in Treasuries, so she cannot end up "letting other people down". This gives a personal reason for the floor in the co-sponsor section and matches the case's credibility risk (Case p.3). Keep the quote under 15 words and cite it. [Inference]
+Settle the "community" question openly (Client Knowledge). Her work says to rely on community. The case says the ten payments may not rely on co-sponsors, grants or fees (Case p.3). The report can square this: the ten payments are hers alone, and the community is invited to help with the facility and its growth. Put this in the operating-reserve rationale. [Inference]
+Frame the plan the way she framed Pride in Panels (Creativity & Presentation). She has already built something free with partners: the library, a publisher and grants for creators. The draft fundraising text should read like a partner pitch: what she brings, what is already secured, and what partners are asked for. Avoid charity-appeal language. [Inference]
+Taiwan currency and costs are personal, not hypothetical (Investment Strategy; Portfolio Analysis). She has lived and worked in Taipei. A sentence noting she knows the place makes the Taiwan dollar and facility-cost risk read as real. The case asks teams to address inflation in facility costs but not to estimate the cost (Case p.4). Don't claim she has a real plan there. [Inference]
+Use her product-manager habits for the review rule (Client Knowledge; Portfolio Analysis). She ran roadmaps, priorities and A/B tests. Present the plan's rules as a short "if this happens, we do that" table: deposit late, yields fall, shares fall before 2031. This also fits her "post terrible work" habit of shipping first and improving later, with 2031 as the formal check-in. Place it in the monitoring and uncertainty section. [Inference]
+The plan protects her right to keep taking career risks (Investment Strategy). The IPS line "You take risks on the page" now has her own words behind it ("always take the jump"). The Treasuries take market risk off her plate so she can keep jumping in her career. [Inference]
+How she would read the plan, what earns trust, and what would put her off [Inference from the above]
+She will read it as a statistics graduate and former PM. Expect checks on:
+how "high certainty" is defined;
+the sample of futures;
+the assumptions;
+which edge cases are covered.
+Trust comes from naming failure points first, short plain rules, and low cost.
+Things likely to put her off:
+overclaiming ("guaranteed"; say "barring a US default");
+corporate or finance jargon;
+a tone that treats her as fragile or reckless;
+using her identity, Wuhan or COVID as decoration;
+anything implying her art career is a phase.
+Likely questions:
+"What's the probability, and how did you measure it?"
+"My advances depend on release dates. What if the 2028 money comes late or short?"
+"Can I change the gift if co-sponsors give more?"
+"Why not hold Taiwan shares if I'm building there?"
+"What do the funds cost?"
+"What happens if I spend more time in Taiwan?" (currency)
+Corrections to existing tabs
+Client §2, awards. "Harvey and Goodreads Choice Award honoree" is her site's wording. Her résumé and speaking guide say "Finalist". Messy Roots was a 2022 Harvey Awards nominee [Verified via search snippet of harveyawards.com, "Harvey Awards Unveil 2022 Nominees"; category not confirmed]. A secondary review lists it as a 2022 Goodreads Choice nominee in Graphic Novels & Comics [Snippet]. Write "Harvey Award and Goodreads Choice finalist", never "winner".
+Client §2, "April 2020" virality. The comic was tweeted on 17 March 2020 [Verified: Input; the tweet ID decodes to 18 Mar 02:16 UTC, which is 17 March in US time]. NPR's story ran on 4 April 2020. Gao herself has dated the comic to "April 2020" (Overachiever), which may explain the tab. Better wording: "tweeted March 2020, widely covered from April". The HarperCollins two-book deal appeared in Publishers Weekly's "Rights Report: Week of July 20, 2020" (21 Jul 2020) [Secondary: cited by Wikipedia; PW page not opened].
+Client §2, Pride in Panels. Keep "co-organiser". Her résumé, her site ("co-organizes") and Local News Matters (2026) all use that word. The "one of three founders" and board claims are [Unconfirmed]. Add that it started in 2024, is biennial, is free, and is run with SFPL's Hormel LGBTQIA Center. Its own website has expired.
+Client §2, CCA. We found no cca.edu staff page for her. Her site calls her "Professor of Comics at California College of the Arts". Local News Matters (2026) calls her "a faculty member of California College of the Arts". Label it self-described and press-reported.
+Client §2, missing case fact. The small business she launched at Wharton (Case p.1) is Draw Street Journal [Verified, DP 2016].
+Client §2, birth and move. Fine as written. One nuance: her parents moved to the US first, and she stayed with her grandparents in Wuhan until she was four [Verified, Wikipedia, citing Ampersand; consistent with BookWeb]. Overachiever says she grew up in "Dallas, TX"; Wikipedia says Coppell, a Dallas suburb.
+Client §2, "Twitter until 2020". Confirmed [Verified, résumé (2018–2020) and BookWeb/Geeks OUT bio].
+Open questions / not found
+No public statement about her own investing, saving or attitude to markets.
+No public plan for a real residency. Nothing on whether she has used Taiwanese residencies or arts infrastructure there.
+Unconfirmed:
+the Taipei Comic Con appearance and what the "taiwan-colleges" image shows;
+the Pride in Panels founder and board roles;
+the Overachiever exact date;
+the Pulse Spikes publication date;
+the Harvey category.
+Not found: who funds Pride in Panels beyond the library partnership. There is a Benevity charity listing [Snippet].
+Not read, because pages failed or timed out:
+the NPR piece of 22 Apr 2022;
+Ampersand (2021);
+Kirkus (2022);
+the Publishers Weekly rights report.
+Not checked:
+the NüVoices podcast audio (episode 72);
+the Michael Saloio podcast;
+her newsletter.
+Personal material we found but should not use: her mother's cancer comic, her family's views on her sexuality, and her friend's death.
+Sources
+https://www.climbing.com/people/peek-inside-this-new-climbing-inspired-queer-kirbys-lessons-falling-love/
+https://overachievermagazine.com/conversations/gskjklclyh93jwbb2809150ne9iyid
+https://www.geeksout.org/2022/05/11/interview-with-creator-laura-gao/
+https://pulsespikes.org/story/laura-gao
+https://www.inverse.com/input/culture/laura-gao-messy-roots-viral-tweet-comic-graphic-novel
+https://www.bookweb.org/news/indies-introduce-qa-laura-gao-1627512
+https://www.thedp.com/article/2016/01/draw-street-journal-q-and-a
+https://www.thedp.com/article/2019/03/penn-anti-resume-ocr-recruiting-failure-signal
+https://lauragao.com/hey/
+https://lauragao.com/s/Laura-Gao-Resume.pdf
+https://www.lauragao.com/s/Publicity-and-Speaking-Guide-Laura-Gao-e5n7.pdf
+https://www.lauragao.com/comics-and-stories
+https://en.wikipedia.org/wiki/Laura_Gao
+https://localnewsmatters.org/2026/02/12/sf-queer-comics-fest-expands-stays-free-in-second-year/
+https://sfpl.org/events/2026/02/15/celebration-pride-panels-2026 (snippet)
+https://www.prideinpanels.org/ (expired)
+https://www.harveyawards.com/en-us/about/news/harvey-awards-unveil-2022-nominees.html (snippet)
+https://magazine.wharton.upenn.edu/digital/a-wharton-grad-from-wuhans-exploration-of-identity/
+https://nuvoices.com/podcast/nuvoices-podcast-72-messy-roots-a-conversation-with-laura-gao
+https://www.graphiclibrary.org/info--news/awards-roundup-2022 (snippet)
+Case: Client Case Study.pdf, pp.1–4
+Fact-check log
+Climbing.com quotes (not knowing until the book "hits the shelves", "flopped", book bans, "scary part", "topples over"); Maya Silver, 10 Mar 2025 -> Corrected (wording). It is "three, four years", and the book-bans point is her question about writing queer stories, not a stated statistic. Source: climbing.com page.
+Overachiever "unstable income" and "always take the jump"; "currently in Taiwan, Taipei"; impostor syndrome and no art school -> Confirmed (exact quote now used: "incredibly cushy, paying job with health insurance"). The date "15 Mar" is Unconfirmed; the page shows "March I Issue", about 2021. Source: overachievermagazine.com.
+"Try many things rather than master one" (Overachiever) -> Unconfirmed. Not found in the checked text; nearest is "jumping almost my whole life".
+Speaking guide: fees vary with travel, length and books; free visits on need -> Confirmed. Source: Publicity & Speaking Guide PDF.
+DP 2016 "letting other people down"; Draw Street Journal laptop decals -> Confirmed. The "earliest supporters" gloss is only partly visible because the scraped text is truncated. Source: thedp.com 2016.
+The case's Wharton "small business" (p.1); ten payments may not rely on outside funding (p.3); co-sponsors approached in 2031 (p.3) -> Confirmed. Source: Client Case Study.pdf.
+Pride in Panels: Hall/Ehrlich origin, Hormel Center, free, 2,000+ in 2024, 20 mini grants in 2026, biennial -> Confirmed, with Malcolm Johnson added. "One of three founders / board member" -> Unconfirmed; LNM, her résumé and her site all say "co-organizer". Source: localnewsmatters.org, re-scraped.
+The existing-tab correction "Co-organiser understates her role" -> Corrected: withdrawn, keep "co-organiser". Sources: résumé PDF, lauragao.com/hey, LNM.
+The Signal and the anti-résumé, 33 rejections -> Corrected. Gao is a co-founder of The Signal (a student publication). The Anti-Resume project (launched 11 Mar 2019) was Qi Linzhi's idea. The 33 rejections are confirmed. Source: thedp.com 2019.
+Résumé details (Amazon 2017; Twitter PM 2018–20, Growth ML and Abuse & Safety; 2 PMs / 40 engineers; 10 features, +4.5M DAU; LG Studios 2020–; Retainit; M3 with NIH; summa cum laude; Mandarin) -> Confirmed as self-reported. Source: résumé PDF.
+Tweet date 17 Mar 2020; NPR 4 Apr 2020 -> Confirmed. Sources: Input; tweet ID timestamp; NPR URL date. HarperCollins deal in PW rights report, week of 20 Jul 2020 -> Secondary (Wikipedia citation dated 21 Jul 2020; PW page not opened).
+Messy Roots a 2022 Harvey nominee -> Confirmed (harveyawards.com and Comics Beat search snippets); category Unconfirmed. Goodreads Choice 2022 nominee -> Snippet (readerpants.net).
+Input: late-2019 plan, notice on the HarperCollins deal, Taiwan and Portugal, "fit work around life" -> Confirmed. Source: inverse.com/input, 7 Mar 2022.
+Geeks OUT: nomadic between Taiwan and Europe; "Post terrible work!"; nonprofits -> Confirmed. Source: geeksout.org, 11 May 2022.
+BookWeb: "just a phase"; free groceries -> Confirmed. Source: bookweb.org, 7 Feb 2022.
+Pulse Spikes "workspace in Taiwan" -> Confirmed; date 18 Jun 2021 -> Unconfirmed (image uploaded 17 Jun 2021).
+Stayed with grandparents in Wuhan until four; Coppell/Dallas -> Confirmed. Sources: Wikipedia (citing Ampersand); Overachiever.
+CCA faculty -> Confirmed as press-reported and self-described (LNM "faculty member"; her site "Professor of Comics"). No cca.edu page was checked.

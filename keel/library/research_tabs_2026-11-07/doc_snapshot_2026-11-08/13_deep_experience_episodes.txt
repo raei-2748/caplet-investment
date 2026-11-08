@@ -1,0 +1,118 @@
+Deep research: articulating our competition experience
+Key findings
+"What? So what? Now what?" Edinburgh says Driscoll (1994) built this model from three questions first asked by Borton (1970), and that Rolfe et al. (2001) are among those who adapted it. It has three steps:
+describe what happened;
+interpret it, bringing in theory;
+plan concrete action.
+Edinburgh's guide warns that answering only the three bare questions means the reflection may not reach "a meaningful and critical depth". "So what?" is where "other people's ideas, references, and theories" belong. "Now what?" must be concrete, not "I will do things differently/better". [Verified: reflection.ed.ac.uk]
+Gibbs (1988) has six stages: description, feelings, evaluation, analysis, conclusion and action plan. Kolb (1984) has four: experience, reflection, conceptualisation and experimentation. A common criticism is that writers fill in the stages without real analysis. [Secondary: Edinburgh toolkit index and guide pages via search; the Gibbs page was not opened]
+Decision journals. Mauboussin says to "write down what you expect to happen, why you expect it to happen" at the moment of decision. He says the journal "prevents something called hindsight bias", because people look back and "tilt" their memory of a decision so it looks better. [Verified: fs.blog, 2012]
+The same page has Mauboussin recounting that Kahneman advised investors to "buy a very cheap notebook and start keeping track of your decisions." [Verified: fs.blog, as Mauboussin tells it]
+Annie Duke's "resulting". She calls it the mistake of judging a decision by its outcome; decision quality and luck are separate things. [Secondary: book summaries; the book was not read]
+This matches Guide p.3, which says WInS "is not the competition scorecard". It also says WInS gains or losses "should not be added to or subtracted from the client's long-term portfolio projections". [Verified: Competition Guide p.3]
+The pre-mortem (Gary Klein, HBR, September 2007). The team imagines the project has already failed and lists plausible reasons why. The stated benefit is "making it safe for dissenters who are knowledgeable about the undertaking and worried about its weaknesses to speak up". [Verified: HBR summary page]
+The often-quoted "30%" figure (prospective hindsight "increases the ability to correctly identify reasons for future outcomes by 30%") goes back to Mitchell, Russo & Pennington (1989), Journal of Behavioral Decision Making 2:25-38. The HBR summary page does not contain it. Whether the study measured more reasons or more correct reasons could not be checked against the paper. [Unconfirmed]
+Do not quote any 30% figure.
+Edmondson (1999), Administrative Science Quarterly 44(2): 350-383. Team psychological safety is "a shared belief held by members of a team that the team is safe for interpersonal risk taking". In a study of 51 work teams in one manufacturing company, it was linked to learning behaviour, and learning behaviour mediated between safety and team performance. The paper says psychological safety "is not the same as group cohesiveness", because cohesiveness "can reduce willingness to disagree and challenge others' views" (groupthink). [Verified: full paper PDF via web.mit.edu]
+How investment committees keep records. Committees should "draft and retain meeting minutes that reflect IN DETAIL the committee's decision-making process". They should be clear about why each investment was included or rejected, after discussing "the pros and cons of all investment options". [Verified: bricker.com]
+In board practice, dissent is recorded with the member's name and reasons. [Snippet: governance blogs]
+The phrase "prudence is about process, not results" is not on the Bricker page; it is close to the page's own phrase, "a prudent process". [Unconfirmed]
+The Guide sets the boundary on "what we'd do differently". "You may identify decisions you would make differently, but you may not redesign your strategy after observing the results" (Guide p.5). Judges want "the reasoning, assumptions, and tradeoffs" behind decisions (Guide p.5). [Verified: Competition Guide p.5]
+So every "Now what?" must be about process or how the plan was carried out, never a new strategy.
+What this means for Caplet
+Use one reflection format for every episode. Each episode gets: What happened → Decision and the options we had → Evidence at the time (the journal entry) → What changed → So what (one outside idea, named only if it explains the decision) → Now what (process only, per Guide p.5).
+This is "What? So what? Now what?" with a decision-journal step added. Gibbs is too long for a page-limited report.
+Serves Articulation. Goes in the Final Report's Experience section, one short paragraph per episode.
+Add a one-page decision log, in the style of committee minutes: date | decision | options | evidence | who disagreed and why | what we expected | what happened.
+Serves Articulation and Investment Strategy (consistency with the IPS). Goes in an appendix, if the 9 Nov instructions allow one.
+Separate the decision from the outcome on purpose. For example: "WInS rose 1.85% to 23 Oct; that tells you nothing about whether the plan is right."
+Cite Duke's "resulting" and Guide p.3.
+Serves Portfolio Analysis and Creativity. Goes at the start of the implementation review.
+Name dissent with reasons, with members' consent. Darren's 5 Oct challenge is the best example. A team that records its disagreements reads as more credible than one that claims it always agreed (Edmondson's point about cohesiveness).
+Serves Articulation.
+Draft reflection episodes (real Caplet events only)
+E1. The first plan was replaced (late Sep).
+What happened: the first plan was to lock the ladder in 2027, put 80/20 in a growth sleeve, and lock in two tiers in 2031. It changed to a Treasury floor bought now plus a world fund (Experience tab).
+Decision: buy the building's floor in 2028, not 2031.
+Evidence: the bad-year comparison. In the worst twentieth of modelled markets, the bottom Laura could promise was about $90,000 under the 2031 version against $140,000 under ours, at a cost of about $5,000 in median gift (Numbers §6; MODEL, re-run first).
+So what: certainty that is owned before it is announced. The case has Laura approaching co-sponsors in 2031 (Case p.3).
+Now what: run the bad-case test first, before the median.
+Criterion: Investment Strategy and Articulation.
+NEEDS TEAM: who argued for and against, and which "first plan" the 27 Sep model tested (see Corrections).
+E2. The WInS universe forced substitutes (29-30 Sep).
+What happened: WInS listed no Treasury bond maturing Feb 2031 to Feb 2036, so the team used iBonds IBTM to IBTR. Two bond prices were about 1 percentage point of yield off the curve, and after-hours spreads were wide.
+Decision: adopt the yield-check rule (within 0.25 points of the curve) and use limit orders in market hours.
+What changed: the Trading Note 2 reflection names the cost honestly: a fund pays its net asset value, not a promised face value.
+Now what: audit what is actually available from the first day of the practice period (15 Sep, Guide p.5), not at trading.
+Criterion: Portfolio Analysis and Articulation.
+E3. Darren's "copout" challenge (5 Oct).
+What happened: Darren argued for picking stocks and ETFs; EWT (Taiwan) and GLD (gold) were also raised.
+Decision: keep VT.
+Evidence the team could cite: Ideas §2 on EWT's concentration and the Trading Note 3 reasoning.
+So what: Edmondson. The challenge made the team defend VT in writing.
+Criterion: Articulation (teamwork).
+NEEDS TEAM: the actual reasons given on the day, whether Darren was persuaded, and his consent to be named. If no record from the day exists, say the reasons were reconstructed afterwards.
+E4. Wharton tightened the rules mid-competition (6 Oct email per team records; Week 5 email, about 25 Oct).
+What happened:
+Per team records, a 6 Oct email restricted Laura's real plan to WInS-listed instruments. The local folder has no copy of a 6 Oct email, so this is [Unconfirmed].
+The Week 5 email (PDF created 25 Oct 2026 ET) then listed individual TIPS and STRIPS as not permitted.
+What changed: STRIPS-based numbers were dropped and the floor became IBTM.
+Now what: treat each rule update as a constraint and re-check every number against it.
+Criterion: Client Knowledge (respecting constraints) and Articulation.
+E5. Trading from Sydney (7 Oct).
+What happened: the market opened at 00:30 Sydney time and Eric fell asleep before it. An order was cancelled by mistake. The rule became that only Ray places or cancels orders.
+Now what: a second person checks every order before confirmation (a "four-eyes" check).
+Criterion: Articulation.
+E6. Falling rates and the pre-mortem (16 Oct).
+What happened: the ladder's room under $300,000 shrank to about $1,900. The team's pre-mortem found unsourced figures in the IPS draft.
+What changed: the IPS clause letting the 2028 deposit ($150,000, Case p.3) complete the ladder.
+So what: Klein's pre-mortem. Cite it without any 30% claim.
+Criterion: Portfolio Analysis and Articulation.
+NEEDS TEAM: confirm the clause came from this event; Keel's records only show the two events close in time.
+Corrections to existing tabs
+The TIPS ban is overstated. Client §1 says TIPS are "not allowed in the IPS or the Final Report". Ideas §2 says "TIPS: banned this year". Keel §1 says "Wharton banned TIPS and STRIPS".
+The Week 5 email bans individual TIPS and STRIPS and allows "Any Exchange-Traded Fund (ETF) available on WInS". TIPS ETFs listed on WInS (for example the iBonds TIPS funds) therefore appear to be allowed.
+The Week 6 email (PDF created 1 Nov 2026) says only that the permitted investments are "stocks, ETFs, and government or Treasury bonds available on WInS".
+This does not change the plan, since the payments are fixed in dollars, but the claim should be stated accurately. [Verified: both email PDFs]
+The date of the TIPS/STRIPS ban is inconsistent. Keel §1 dates it "20-22 Oct". The Week 5 email PDF was created 25 Oct 2026 at 21:34 ET, and Week 6 is the week of 2 Nov, which places the ban around 25-26 Oct. The "6 Oct" email covered only the WInS-listed restriction. Check the actual email receipt dates before quoting any date.
+There are two versions of the "first plan". The Experience tab says the first plan already locked the ladder in 2027 and was changed for better bad-year outcomes than "the 2031 lock-in". Keel §1, §7 and Numbers §4 say the first plan was about three-quarters shares and missed payments in 3.2% of paths. A plan that locked the ladder in 2027 could not miss payments, so these may be two different plans. The team must reconcile this before E1 is written.
+"Submitted a day early" is unclear. Keel §1 says the Trading Notes Analysis went in on 23 Oct, "a day early".
+Guide p.5 gives 23 Oct as the due date with no time. If the usual 5:00 pm ET deadline applied, that is 24 Oct 08:00 Sydney time, so "a day early" is unclear either way.
+Check the timestamp on the SMApply submission.
+The freeze time differs between emails. The Week 6 email says "WInS trading ends when the U.S. markets close at 4:00 p.m. ET"; the Week 5 email says trading ends at 5:00 p.m. ET. This is minor, but use 4:00 pm (the later email) if a time is quoted. [Verified: both emails]
+Sources
+https://globalyouth.wharton.upenn.edu/ai-policy/
+https://www.nsw.gov.au/education-and-training/nesa/hsc/all-my-own-work/what-is-amow/when-is-it-not-all-my-own-work
+https://reflection.ed.ac.uk/reflectors-toolkit/reflecting-on-experience/what-so-what-now-what
+https://reflection.ed.ac.uk/reflectors-toolkit/reflecting-on-experience/gibbs-reflective-cycle (search result only)
+https://www.fs.blog/2012/09/how-to-improve-the-quality-of-our-decision-making/
+https://hbr.org/2007/09/performing-a-project-premortem
+https://colab.ws/articles/10.1002%2Fbdm.3960020103 (Mitchell, Russo & Pennington 1989, bibliographic record)
+https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Group_Performance/Edmondson%20Psychological%20safety.pdf (Edmondson 1999, full text)
+https://www.bricker.com/benefits-insights/investment-committee-best-practices-if-a-prudent-decision-was-made-and-no-one-documented-it-did-it-happen
+https://aaronhall.com/recording-dissent-in-board-minutes-properly/ (search result)
+https://www.sachinrekhi.com/thinking-in-bets-annie-duke (secondary summary)
+Local official files:
+Competition Guide.pdf pp.3, 5
+Client Case Study.pdf p.3
+26-27 Week-Five-Email.pdf
+26-27 Week-Six-Email.pdf
+Fact-check log
+"What? So what? Now what?" attribution (Borton 1970; Rolfe et al. 2001), the shallow-depth warning, theory in "So what?" and concrete "Now what?" -> Corrected (attribution only: Edinburgh credits Driscoll 1994, building on Borton 1970, with Rolfe et al. 2001 among adapters). The rest is Confirmed (reflection.ed.ac.uk).
+Mauboussin decision-journal quote and its hindsight-bias purpose -> Confirmed (fs.blog 2012).
+Kahneman "cheap notebook" story only in secondary write-ups -> Corrected: it appears on the same fs.blog page, as Mauboussin recounts it.
+Pre-mortem: Klein, HBR September 2007, and the benefit for dissenters -> Confirmed (HBR page).
+"30% more reasons, not 30% more correct ones" -> Unconfirmed. The original paper is identified (J. Behav. Decis. Making 2:25-38), but its result could not be read. The advice not to quote any 30% figure stands.
+Edmondson 1999 details (ASQ 44(2), 51 teams, definition, learning behaviour as mediator, distinction from cohesiveness) -> Confirmed from the full paper. Also added: pp. 350-383, and all 51 teams were in one manufacturing company.
+Bricker: minutes record options, decision and rationale "in detail" -> Confirmed, wording tightened to the actual quote.
+"Prudence is about process, not results" -> Unconfirmed (not on Bricker; snippet only).
+Guide p.5 quotes ("may not redesign your strategy after observing the results"; "the reasoning, assumptions, and tradeoffs") -> Confirmed (Competition Guide p.5).
+Guide p.3: WInS gains not scored and not added to projections -> Confirmed (Competition Guide p.3).
+Week 5 email bans only individual TIPS and STRIPS and allows any WInS ETF -> Confirmed (Week-Five-Email.pdf p.1).
+E4 dated "6 Oct; Week 5 email" -> Corrected: the Week 5 email PDF was created 25 Oct 2026, so the TIPS/STRIPS ban is from about 25-26 Oct. The 6 Oct WInS-only email is Unconfirmed (no primary copy). Keel's "20-22 Oct" date is also flagged.
+Freeze time: Week 6 says 4:00 pm ET, Week 5 says 5:00 pm ET -> Confirmed (both emails).
+Trading Notes due 23 Oct at 5 pm ET -> Corrected/Unconfirmed: Guide p.5 confirms 23 Oct but gives no time.
+Practice period begins 15 Sep -> Confirmed (Guide p.5).
+Case facts used ($300,000 in 2027, $150,000 in 2028, co-sponsor approach in 2031) -> Confirmed (Client Case Study p.3).
+Duke's "resulting" and the Gibbs/Kolb stages -> not checked at a primary source. Left as labelled [Secondary].
+

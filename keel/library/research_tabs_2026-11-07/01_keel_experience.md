@@ -24,7 +24,7 @@ Wharton's rules ban invented teamwork stories, so nothing Keel's characters did 
 - 20-22 Oct: Wharton banned TIPS and STRIPS for both contributions; the IPS became an SMApply form.
 - 23 Oct: Trading Notes Analysis submitted, a day early. WInS value $305,557.66 (+1.85%).
 - 26 Oct to 5 Nov: Keel rewrote the IPS from scratch, through more than 60 versions.
-- 6 Nov: Caplet set Keel's drafts aside and wrote its own IPS (twelve versions in the IPS Report doc), as a letter to Laura built on the career-as-unsellable-stock idea. Submitted before the 7 Nov 09:00 deadline.
+- 6 Nov: Caplet set Keel's drafts aside and wrote its own IPS (twelve versions in the IPS Report doc, then the FINAL tab it submitted), as a letter to Laura built on the career-as-unsellable-stock idea. Submitted before the 7 Nov 09:00 deadline.
 
 ## 2. What the Keel Office was, room by room
 

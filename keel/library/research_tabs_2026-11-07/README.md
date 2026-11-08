@@ -10,3 +10,8 @@ The Google Doc is the live copy; these files are the record.
 - 04_ideas.md: the investing ideas used, adapted or refused, with sources.
 - 05_cosponsor.md: the 2031 range, confidence, fundraising practice and a draft paragraph.
 - md_to_gdoc.py: converts one of these files into Google Docs batchUpdate requests for an empty tab.
+
+8 Nov: the six .md files were corrected to the IPS Caplet submitted (the FINAL tab, the letter to Laura), and the same
+corrections were made in the Google Doc. The Doc had moved on since 7 Nov (another Keel run corrected some lines, and the
+team rewrote the Experience tab in its own words), so the .md files are Keel's record, not a copy of the Doc. The Doc as it
+stood on 8 Nov, including eight research tabs that existed nowhere else, is in `doc_snapshot_2026-11-08/`.

@@ -12,10 +12,10 @@ Caplet, Book 14: "Keep a store of every single insight you have. They should be 
 
 ## Where it stands
 
-- **1053 ideas** in the store; 0 judged so far, the rest on the first pass.
-- Tiers: A 399, B 461, C 193; refused or merged 0.
+- **970 ideas** in the store; 0 judged so far, the rest on the first pass.
+- Tiers: A 399, B 461, C 110; refused or merged 0.
 - 152 ideas need reframing before use (they clash in some detail with the FINAL IPS or the TNA).
-- Rows per source: `harvest/H1_idea_bank_part1.md` 88; `harvest/H2_idea_bank_part2_and_ledger.md` 124; `harvest/H3_concepts_R02_R05_R06.md` 126; `harvest/H4_synergies_S1_S3_fusions.md` 190; `harvest/H5_synergies_S4_S6_R11.md` 153; `harvest/H6_shiller_damodaran.md` 171; `harvest/H7_final_night_reading.md` 201.
+- Rows per source: `harvest/H1_idea_bank_part1.md` 88; `harvest/H2_idea_bank_part2_and_ledger.md` 124; `harvest/H3_concepts_R02_R05_R06.md` 126; `harvest/H4_synergies_S1_S3_fusions.md` 190; `harvest/H5_synergies_S4_S6_R11.md` 153; `harvest/H6_shiller_damodaran.md` 171; `harvest/H7_final_night_reading.md` 118.
 
 ## The parts of the plan and the case
 
@@ -35,10 +35,7 @@ Caplet, Book 14: "Keep a store of every single insight you have. They should be 
 | INFLATION_TWD | Inflation, Taiwan costs, the Taiwan dollar | 39 | [by_tag/INFLATION_TWD.md](store/by_tag/INFLATION_TWD.md) |
 | REINVEST | Reinvesting the ladder's interest | 97 | [by_tag/REINVEST.md](store/by_tag/REINVEST.md) |
 | PROCESS | How the team decided and learned | 128 | [by_tag/PROCESS.md](store/by_tag/PROCESS.md) |
-| OTHER | Other | 147 | [by_tag/OTHER.md](store/by_tag/OTHER.md) |
-| FR | FR | 1 | [by_tag/FR.md](store/by_tag/FR.md) |
-| SAME | SAME | 48 | [by_tag/SAME.md](store/by_tag/SAME.md) |
-| UNVERIFIED | UNVERIFIED | 1 | [by_tag/UNVERIFIED.md](store/by_tag/UNVERIFIED.md) |
+| OTHER | Other | 114 | [by_tag/OTHER.md](store/by_tag/OTHER.md) |
 
 ## The top 40 across the store (current ratings)
 

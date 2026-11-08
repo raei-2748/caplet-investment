@@ -103,10 +103,24 @@ def main():
     ideas = []
     for src in SOURCES:
         prefix = src.stem.split("_")[0]
+        in_idea_table = False
+        seen = set()
         for line in src.read_text().splitlines():
-            m = ROW.match(line)
-            if not m:
+            if line.startswith("|") and not ROW.match(line):
+                # a header or separator row: an idea table has an "Idea" column and at least ten columns
+                if not set(line.replace("|", "").strip()) <= set("-: "):
+                    in_idea_table = ("Idea" in line and len(cells(line)) >= 10)
                 continue
+            if not line.startswith("|"):
+                if line.strip() == "" or line.startswith("#"):
+                    pass
+                continue
+            m = ROW.match(line)
+            if not m or not in_idea_table:
+                continue
+            if m.group(1) in seen:
+                continue
+            seen.add(m.group(1))
             c = cells(line)
             if len(c) < 10:
                 c += [""] * (10 - len(c))
