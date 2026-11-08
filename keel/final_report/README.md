@@ -19,26 +19,26 @@ of this thread early in the morning (06:00 on Fri 27); every run reads `../EXPEC
 | Day | Date | Work |
 |---|---|---|
 | 1 | Sun 8 Nov | Bible Books 13-16, expectation notes, insight store (1,317 ideas), skills search, this schedule, first meta research (why Wharton runs the competition, how great strategists plan, Q1 first pass) |
-| 2 | Mon 9 | The numbers engine set to Caplet's submitted design on the 6 Nov close, so every later note rests on settled numbers |
-| 3 | Tue 10 | Wharton's Final Report instructions (out 01:00) filed verbatim into `WHARTON_NORTH_STAR.md`; **the report's skeleton** (`SKELETON.md`: sections, what each must prove, which criterion); Q1 deepened, Q12 |
+| 2 | Mon 9 | The numbers engine set to Caplet's submitted design on the 6 Nov close, the hardest problems first (reinvestment; an iBond fund pays its net asset value, not par); the number register (`NUMBERS.md`) and the canon file (`CANON.md`: everything the submitted IPS, Trading Notes, reflections and portfolio commit Caplet to) |
+| 3 | Tue 10 | Wharton's Final Report instructions (out 01:00) filed verbatim into `WHARTON_NORTH_STAR.md`; a re-plan: **the intent page** (`INTENT.md`: the governing thought, five things a judge should be able to say, three ways the report could fail) and a triage of Q1-Q14; **the report's skeleton** (`SKELETON.md`); Q1 deepened, Q12 |
 | 4 | Wed 11 | Q4 and Q11: the co-sponsors and the fundraising text (the store's thinnest seams, moved forward) |
 | 5 | Thu 12 | Q2 and Q8: certainty |
 | 6 | Fri 13 | Q3 and Q9 |
 | 7 | Sat 14 | Q5 and Q10 |
-| 8 | Sun 15 | Q6, Q7 and the first digest to Caplet |
+| 8 | Sun 15 | Q6, Q7; the first digest to Caplet, with the four After Action Review questions for each student's own moments (answers by Sun 22) |
 | 9 | Mon 16 | Q13, Q14, the first round closed a day early, and the first exhibit designs |
-| 10 | Tue 17 | Ask Caplet for each student's own sentences (due Sun 22); the second research round begins |
+| 10 | Tue 17 | Caplet's answers filed, or one reminder; the second research round begins |
 | 11 | Wed 18 | Second research round on the richest seams |
 | 12 | Thu 19 | Combining ideas |
 | 13 | Fri 20 | Attack day: readers who disagree |
-| 14 | Sat 21 | Third round and a re-read of the case; Caplet's sentences filed as they arrive |
-| 15 | Sun 22 | Voice studies 2 and 3 |
+| 14 | Sat 21 | **The argument tree and the lead** (`ARGUMENT_TREE.md`), the store ranked, the skeleton refined; a short last research round on the gaps |
+| 15 | Sun 22 | **The report's shape to Caplet** on one page (Keel's default if no reply by Wed 25); voice studies 2 and 3 |
 | 16 | Mon 23 | Exhibits finished, a fresh-reader test of each, sources checked at source |
 | 17 | Tue 24 | Co-sponsor communication |
-| 18 | Wed 25 | Final ranking of the store; section notes; **a rehearsal of the review machinery on Caplet's submitted IPS** (rubric, blind panel, reader test), timed |
-| 19 | Thu 26 | Final checks; `WRITING_SESSION.md` (order of work, rubric, reader test, round log) |
+| 18 | Wed 25 | Final ranking of the store; section notes; **a rehearsal of the review loop on Caplet's submitted IPS with five planted faults** (fresh reader, independent reviews, red team, killer items, reader test), timed, reviewers weighted by the faults they catch |
+| 19 | Thu 26 | Final checks against `CANON.md` and `NUMBERS.md`; a pre-mortem on the session; inputs frozen; `WRITING_SESSION.md` (phases, round steps, stop rule, margin, round log) |
 | 20 | Fri 27 | The writing session from 06:00; check-ins at 10:00, 14:00, 18:00, 22:00, then Sat 02:00 and 05:00 |
-| 21 | Sat 28 | **Final draft to Caplet by 09:00** with a one-page plain-English note |
+| 21 | Sat 28 | **Final draft to Caplet by 09:00** with a one-page note, the Works Cited, a claims-and-sources sheet, a cut list and open risks |
 | - | Mon 30 Nov, Wed 2 Dec | Review week: hard issues only in Caplet's text (numbers, coherence, Works Cited, Wharton's limits), read only |
 | - | Fri 4 Dec 18:00 | Last check, fifteen hours before the deadline (Sat 5 Dec 09:00 Sydney) |
 
@@ -52,6 +52,16 @@ is in hand before the voice studies; exhibits a week earlier, so each can be tes
 the review machinery on the IPS Caplet already wrote, so the 24-hour session does not test its tools for the first
 time on the real thing; check-ins during the session, so twelve rounds are paced rather than hoped for; and a review
 week to the deadline, so Keel is still useful after handing over. Logged in `../pm/ASK_HUMANS.md`.
+
+**Then sharpened the same evening** from `research/meta/HOW_STRATEGISTS_PLAN.md` (Ray, I99-I100: read how the best
+strategists plan, and borrow solutions from whichever field already solved the problem): re-plan the day Wharton's
+instructions land (Eisenhower, Boyd, mission command); research claims to keep or kill rather than topics (investigative
+journalism, Tetlock); a canon file of everything already submitted, checked by every run (film continuity); Caplet's
+own moments asked a week earlier with the Army's After Action Review questions; the structure and the lead decided on
+Sat 21 and shown to Caplet on Sun 22, before the writing day (McPhee, Minto); the review loop rehearsed with planted
+faults (Pixar's Braintrust, red teaming); the writing day run in phases with a stop rule and spare hours (Collins,
+Duke); and a handover pack so Caplet's week to 5 Dec works as the "fresh mind" read (Bezos). Every run follows
+`DAILY_RUN.md` and ends with one line in `ARGUMENT_LOG.md`.
 
 ## The fourteen research questions
 Questions 1-7 each come from a sentence in the FINAL IPS: 1. Is Laura's career really a stock, and what kind? 2. Who
@@ -86,4 +96,5 @@ like it; how it is not; what we take), in `research/`.
 - `WHARTON_NORTH_STAR.md`: Wharton's word on the Final Report and the weekly tips, with the daily test (Ray, I97).
 - `TOOLS.md`: skills, connectors and plugins ranked for this work (Ray, I94).
 - `research/meta/`: why Wharton runs the competition, how great strategists plan, the running list of angles (I98-I100).
+- `DAILY_RUN.md`: the steps every daily run follows; `ARGUMENT_LOG.md`: one line a day on how the argument moved.
 - `drafts/`: nothing before Fri 27 Nov.

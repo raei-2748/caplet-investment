@@ -26,7 +26,7 @@ not said, which Book 10 asked for.
 ## Ray's standing orders of Sun 8 Nov, evening (INSTRUCTIONS I94-I100): read these before anything else
 
 Seven messages from Ray between 19:29 and 19:40 Sydney, after these notes were written. They govern how the next 20
-days are run. Quotes are Ray's words.
+days are run. Quotes are Ray's words. Keel's steps for following them every day are in `final_report/DAILY_RUN.md`.
 
 1. **Wharton is the north star (I97).** "Criteria and Wharton's weekly email's competition tips is the north star.
    Always work around criteria and competition tips." Every run reads `final_report/WHARTON_NORTH_STAR.md` after these
