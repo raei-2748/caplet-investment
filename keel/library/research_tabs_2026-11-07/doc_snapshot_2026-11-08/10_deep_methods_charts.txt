@@ -1,0 +1,160 @@
+Deep research: analysis methods and charts
+Key findings
+Central banks are moving away from fan charts on their own. Bernanke's April 2024 review of the Bank of England said its fan charts "have weak conceptual foundations … and receive little attention from the public. They should be eliminated." He recommended regularly publishing alternative scenarios to "de-emphasise the central forecast". [Secondary: MNI, quoting the review. CNBC and City AM also covered it.] On 16 May 2025 (published 19 May) Deputy Governor Clare Lombardelli said scenarios "can also speak to a wider audience than fan charts and similar tools, which can be quite specialist and technical". She said the Bank would "explicitly focus less on a central forecast". She also said fan charts "have their advocates and are a powerful visual representation of uncertainty", but they have limits in showing how and why outcomes differ. [Secondary: Mondo Visione transcript of the speech] I did not reach the BoE's own page; its URL returned 404.
+Pension actuaries use four named ways to test risk. ASOP 51 (effective 1 Nov 2018) lists four:
+scenario tests
+stress tests
+sensitivity tests (change one assumption)
+stochastic modelling (thousands of random futures)
+It does not require numerical tests. [Secondary: Milliman; WA Office of the State Actuary. The ASB's own text was not read.]
+Pension plans must now publish what their promises cost at low-default-risk yields. Revised ASOP 4 requires public pension funding valuations to disclose a "Low-Default-Risk Obligation Measure" (LDROM). Per the ASB, this applies to actuarial reports issued on or after 15 Feb 2023, with a further condition on the measurement date. The LDROM values benefits using yields on low-default-risk bonds. It shows what the liability would be if the plan held only such bonds. [Verified: ASB page snippet; Segal, July 2022] I did not recheck at source that the standard names US Treasury yields as an example. [Unconfirmed] The standards board says the LDROM is not meant to be the "right" liability measure. [Verified: NIRS fact sheet quoting the ASB]
+Pension funds measure risk against the promise, not on its own. "Surplus" is assets minus liabilities, and "surplus risk" is how much that gap swings. [Secondary: Cambridge Associates, Capital Group] Kroon, Wouters and de Carvalho argue that the funding ratio (assets divided by liabilities) is a better yardstick than surplus. [Snippet] My attempt to read SSGA's page on the interest-rate "hedge ratio" returned no article text.
+Defeasance escrows are checked by an independent arithmetic test. A "Verification Agent" checks the mathematical accuracy of the escrow's cash flows that will repay the refunded bonds. It also checks the yields and the escrow investments. [Verified: NABL glossary. NABL does not say the agent is a CPA, so that word is removed.] State filings suggest these reports say they make no claim that the assumptions will hold. [Snippet only, unconfirmed: Wisconsin DOA filings]
+Kitces: talk to clients about dollars, not odds. "Probability of adjustment" improves on "probability of failure". But it "can still greatly underestimate" how often spending is actually cut, especially under dynamic spending rules, because retirees cannot know which iteration they are on. The article concludes that "outcomes, not probabilities, are what matter to clients". It shows advice given as dollar guardrails rather than a probability. [Verified: Tharp, Kitces.com, 2022]
+The textbook Monte Carlo is overconfident; history-based versions do better. Kitces.com (April 2023) backtested a simplified persona: a 60/40 portfolio over 20 years, with forecasts dated across 2002 to 2022.
+Traditional Monte Carlo was markedly overconfident above 50%, "particularly between 70% and 97%".
+Of 100 clients who targeted 95%, about 20 would have been overspending, not the expected 5.
+The Historical model had "very tight calibration, especially from 65% to 100%". It still showed some overconfidence above 50%, but much less.
+The Historical and Regime-Based models had Brier scores about 25% lower than Traditional Monte Carlo.
+[Verified: Fitzpatrick and Tharp, Kitces.com, April 2023. The exact day was not confirmed.]
+Endowments report how often spending is cut and by how much. Cambridge Associates (Kennedy and Majeski, 1994) argued that risk modelling should focus on downside variability over the institution's own horizon. The right measures are "shortfall risk" (the chance spending must be cut) and "shortfall severity" (the average annual, worst one-year and worst cumulative decline in real spending). Their example covers 1946 to 1993: a fund 70% in the S&P 500 and 30% in fixed income, spending 5% of a three-year moving average. It had to cut real spending in 20 of the 47 years (43%), and by more than 5% in 8% of the years. [Verified: CA PDF]
+CFP Board rules on assumptions and alternatives. On Step 2 ("Identifying Potential Goals"), a planner "must discuss with the Client, and apply, reasonable assumptions and estimates", such as inflation rates and investment returns. On Step 3 ("Analyzing Potential Alternative Courses of Action"), "Where appropriate", a planner must analyse alternatives. Documentation is a principles-based requirement: the planner must act prudently in documenting "as the facts and circumstances require". The bulletin lists items a planner "may consider documenting". [Verified: CFP Board, "Focus on Ethics", 28 Feb 2019. The earlier labels "C 2.1" and "C 3.2" do not appear on that page, and "writing these down is optional" overstated it.]
+US securities rules say what a probability tool must disclose. FINRA Rule 2214 requires a firm to describe "the criteria and methodology used, including the investment analysis tool's limitations and key assumptions". It must explain that "results may vary with each use and over time". It must display that projections "are hypothetical in nature, do not reflect actual investment results and are not guarantees of future results." [Verified: FINRA rulebook]
+An independent 2026 benchmark puts share returns below Caplet's figure. The FP Canada / Institute of Financial Planning guidelines (16 Apr 2026, for projections of 10 years or more) give:
+
+Asset or measure | Return
+Canadian shares | 6.3%
+US shares | 6.4%
+International developed shares | 6.6%
+Emerging-market shares | 7.5%
+Fixed income | 3.2%
+Short-term | 2.4%
+Inflation | 2.1%
+For projections under 10 years, planners may use the actual rates on fixed-term investments held to maturity, and dividend yields on equities. [Verified: FP Canada release] These are guidelines for Canadian planners. The release does not say whether they are before or after fees, or what currency basis they use.
+Goals-based methods judge a plan by its chance of reaching each goal, not by average return. Das, Ostrov, Radhakrishnan and Srivastav, "Dynamic portfolio allocation in goals-based wealth management" (Computational Management Science 17(4), pp. 613–640, 2020), maximise the chance of reaching a target wealth. They report that their method "soundly beats the performance of target date funds in attaining investors' goals". [Verified: IDEAS/RePEc abstract; the PDF itself returned 401] Chhabra, "Beyond Markowitz" (Journal of Wealth Management 7(4), Spring 2005, pp. 8–34), says risk allocation should come before asset allocation. A protected portion earns below-market returns so another portion can take "aspirational" risk. [Citation verified: PMR/SSRN listings. Content is secondary: CFA Institute blog, EDHEC.] I did not read any Brunel source.
+What this means for Caplet
+What Caplet already does, checked against the doc:
+Stochastic testing in four worlds, including history since 1871. Fitzpatrick and Tharp's calibration result backs the history world; cite it. Note that their test used a simplified 60/40, 20-year persona.
+Stress and scenario tests: the 2008 replay, 1923, and deleting the shares.
+The escrow-style "no reinvestment" pricing.
+Safety-first (Roy).
+Goals-based pots, citing Das 2010.
+What it does not yet do:
+Funding ratio or surplus language.
+Shortfall severity.
+A FINRA-style disclosure block.
+Showing fan and scenarios together.
+Dollar-based "who adjusts" framing.
+Five analyses for the Final Report, at most one chart or table each.
+"Are my ten payments really paid for?" A funding-ratio line plus a sufficiency table. [Portfolio Analysis, Investment Strategy] Goes in the operating-reserve section.
+Funding ratio = money set aside for the payments ÷ cost of the ten payments at the Treasury curve (the LDROM idea, in plain words).
+On the doc's 5 Nov figures, the $300,000 2027 deposit against a $302,163 curve cost is about 99.3% before the 2028 top-up. Against the exact-instrument cost of $303,269 it is about 98.9%. [Inference: my arithmetic on Numbers and Models §2. The numerator is the deposit, not the market value of bonds already held. Once the bonds are held, their value and the cost move together and the ratio should sit near 100%.]
+Chart the ratio weekly through the WInS period. Assets and cost should move together, which turns the October "book moved with what it owes" point into a picture.
+Add a defeasance-style table: holding, maturity, value at maturity, payment, surplus or gap. Show it under base reinvestment and under zero reinvestment.
+Data: the dated Treasury curve, WInS holdings and iBond yields, on one engine.
+Line to use: Caplet's plan is the rare case where the funding liability is the low-default-risk (LDROM-style) measure, because it holds the bonds.
+"What does 'high degree of certainty' mean, exactly?" A table of shortfall chance and shortfall size. [Portfolio Analysis, Client Knowledge] Goes where the case asks us to define certainty (Case p.3: teams "should also define what they consider a high degree of funding certainty, explain how they evaluated that level of certainty").
+For the payments and for the gift, give per model world:
+the chance of any shortfall;
+the average shortfall when one happens;
+the worst 1-in-100.
+Laura's degree is in Statistics & Information Decisions Management (Case p.1). Defining certainty as both how often and how much (Kennedy and Majeski; Roy) answers her better than one percentage.
+Data: the existing model suite, re-run on one engine.
+"How much will Laura give, and how sure are we?" A fan chart with named scenarios on top. [Creativity and Presentation, co-sponsor communication] Goes in the co-sponsor section.
+Fan of the 2028–2033 facility contribution, with the floor drawn flat as money already owned.
+Three labelled paths on top: a 2008 replay, a 1923 start, and a strong market.
+The Bernanke critique is the reason for overlaying scenarios: the fan shows the spread, and the paths say why outcomes differ. Lombardelli's line that scenarios reach a wider audience suits co-sponsors. She also credits fan charts as a strong picture of uncertainty, so keep both.
+Data: the M6 runs plus the historical replays.
+State two numbers separately:
+the chance the 2033 gift lands inside the range. The case asks for exactly this: "state how confident they are that her 2033 contribution will fall within that range" (Case p.3).
+the chance it reaches the top (the doc's "three in four").
+"If markets go badly, what changes for me?" A dollar waterfall of who absorbs the loss. [Client Knowledge, Portfolio Analysis] Goes in the facility contribution / flexibility section.
+Use three stresses:
+shares fall 40% in 2032;
+yields fall 0.5 point before 2027;
+the 2028 deposit is $75k.
+For each, show in dollars:
+how much of the unpromised half of VT shrinks;
+how far the gift falls toward the floor;
+that the payments change by $0.
+This is Kitces's "outcomes, not probabilities" applied to the order of losses the doc already describes. It also answers the 2023–24 judges' point about how the client feels in a downturn. The case also asks how "favorable and unfavorable market outcomes" affect the amount (Case p.3).
+"Which assumption matters most?" A tornado chart of one-at-a-time sensitivities. [Portfolio Analysis; the assumptions list on Case p.4] Goes in an assumptions box or appendix.
+Vary one assumption at a time:
+share return at about 6.5% (my estimate of a world blend of the FP Canada figures), 7% and 7.5%;
+yields ±0.5 point;
+2028 deposit at $75k, $112.5k and $150k;
+reinvestment −2 points;
+Taiwan cost inflation at 2.5% and 3.5%.
+Measure the effect on the floor, the median gift and any payment gap.
+Close it with a three-line disclosure modelled on FINRA 2214: method, limitations and key assumptions; "results may vary with each use and over time"; hypothetical and not guaranteed. This mirrors ASOP 51 sensitivity testing and the CFP Step 2 duty to discuss and apply reasonable assumptions.
+Corrections to existing tabs
+Numbers and Models §1 / Criteria Map ("pick 7% or 7.5%"). The only 2026 benchmark I verified (FP Canada) has developed-market shares at 6.4–6.6%. I could not verify the J.P. Morgan 2027 7.5% figure in this pass. Recommendation: keep one base figure, show about 6.5% as a sensitivity, and cite the J.P. Morgan figure only after checking it at the source.
+Co-sponsor Brief §3 / draft text. "Reached the top about three times in four" does not answer the case's question, which is how confident we are that the gift falls within the range (Case p.3). The doc reports the gift reached at least the halfway point about 99 times in 100. With the floor owned, the chance of landing within the range is therefore at least about 99%. [Inference from Brief §3] State both numbers. Otherwise the range can look either badly missed or engineered to be wide.
+Ideas and Sources, Goals-based investing. "Das and others (2010)" has no title. The well-known 2010 Das paper is Das, Markowitz, Scheid and Statman in JFQA, which I did not verify. Give the full reference, or cite the 2020 CMS paper above (17(4), 613–640).
+Model risk. Add Fitzpatrick and Tharp (Kitces.com, April 2023) as direct evidence for the 1871-history world. Optional.
+Nothing else in the dump that I checked was contradicted.
+Open questions / not found
+The BoE review page, and whether the Bank actually dropped its fan charts by 2026. I found only the 2025 speech, which does not say.
+CFP Board Practice Standards PDF (login-gated). Brunel's book. Das et al. 2018 JOIM text (401/404 errors).
+Whether the FP Canada returns are before or after fees, and in which currency (not stated on the release page).
+Primary text of SSGA's hedge-ratio piece and of Kroon et al. on funding-ratio risk.
+ASOP 4's own wording on Treasury yields as an LDROM example, and ASOP 51's own text on numerical tests (not read at the ASB).
+No public example found of a foundation reporting a fixed-dollar grant's reliability, as opposed to a percentage spending rule.
+Sources (all accessed 7 Nov 2026)
+https://www.kitces.com/blog/monte-carlo-guardrails-probability-of-adjustment-success-client-communication-dynamic-retirement-spending/
+https://www.kitces.com/blog/monte-carlo-models-simulation-forecast-error-brier-score-retirement-planning/
+https://www.kitces.com/blog/monte-carlo-retirement-projection-probability-success-adjustment-minimum-odds/
+https://www.mnimarkets.com/mni-bernanke-review-tells-boe-to-shift-to-scenario-analysis
+https://www.cnbc.com/2024/04/10/bernanke-review-how-the-former-fed-boss-could-shake-up-the-bank-of-england.html
+https://mondovisione.com/media-and-resources/news/central-bank-communications-and-uncertainty-remarks-by-clare-lombardelli-depu-2025519/
+https://www.milliman.com/en/insight/ASOP-51-Summary-and-considerations-for-public-plans
+http://www.actuarialstandardsboard.org/asops/asop-no-4-measuring-pension-obligations-and-determining-pension-plan-costs-or-contributions/
+https://leg.wa.gov/osa/pensionfunding/Pages/CommentaryOnRisk.aspx
+https://www.segalco.com/consulting-insights/archive/articles/2022/07/public-pension-plan-sponsors-get-ready-for-new-disclosures/
+https://www.segalco.com/media/2839/ncpers-persist_spring_2022_actuary.pdf
+https://www.nirsonline.org/wp-content/uploads/2023/03/ASOP4_FACTSHEET_NIRS.pdf
+https://www.cambridgeassociates.com/en-eu/insight/pension-risk-management/
+https://www.capitalgroup.com/advisor/insights/articles/LDI-three-fundamental-questions.html
+https://www.nabl.org/bond-basics/verification-report/
+https://doa.wi.gov/DEBFCapitalFinance/2015/EventFiling2015-09_GeneralObligations_Defeasance_April2015.pdf
+https://publishedresearch.cambridgeassociates.com/wp-content/uploads/2014/12/Endowment-Risk-Return-and-Spending-1994.pdf
+https://www.cfp.net/ethics/compliance-resources/2019/02/focus-on-ethics---identifying-and-selecting-goals-and-analyzing-courses-of-action
+https://www.finra.org/rules-guidance/rulebooks/finra-rules/2214
+https://fpcanada.ca/newsdetail/fp-canada--and-the-institute-of-financial-planning-jointly-publish-the-2026-projection-assumption-guidelines-for-financial-planners
+https://ideas.repec.org/a/spr/comgts/v17y2020i4d10.1007_s10287-019-00351-7.html
+https://www.pm-research.com/content/iijwealthmgmt/7/4/8
+https://rpc.cfainstitute.org/blogs/enterprising-investor/2012/whats-so-special-about-private-wealth-management
+https://climateimpact.edhec.edu/sites/risk/files/indices/2018/02/edhec_publication_comprehensive_investment_framework.pdf
+Case: "/Users/ray/Library/CloudStorage/GoogleDrive-jiwang27@knox.nsw.edu.au/My Drive/Knox Wharton 2026/Caplet Investments/Final Report/Client Case Study.pdf" pp.1–4
+Fact-check log
+Central banks
+Bernanke review: fan charts have "weak conceptual foundations" and "should be eliminated"; publish alternative scenarios -> Confirmed (secondary: MNI quoting the review; BoE primary not reached).
+Lombardelli, May 2025: scenarios "speak to a wider audience" than fan charts, which are "specialist"; less focus on a central forecast -> Confirmed, with the date corrected to a speech on 16 May 2025, published 19 May. Context added: she also praised fan charts. Source: Mondo Visione transcript.
+Actuarial standards
+ASOP 51 effective 1 Nov 2018 and its four test types -> Confirmed (secondary: Milliman). "Numerical tests not mandatory" -> Unconfirmed at the ASB.
+ASOP 4 LDROM applies to "valuations issued on or after 15 Feb 2023" -> Corrected to "actuarial reports issued on or after 15 Feb 2023, with a measurement-date condition" (ASB page snippet; Segal). NIRS's "plan years after" wording differs.
+ASOP 4 gives US Treasury yields as an LDROM example -> Unconfirmed (not seen at source in this pass).
+ASB says the LDROM is not the "right" liability measure -> Confirmed (NIRS fact sheet quoting the ASB).
+Defeasance
+A CPA verification agent checks the escrow arithmetic -> Corrected: NABL says "Verification Agent … verifies the mathematical accuracy of the Cash Flows" and does not mention a CPA (NABL glossary).
+Verification reports disclaim the assumptions -> Unconfirmed (snippet only; Wisconsin filing not opened).
+Monte Carlo and Kitces
+Kitces 2022: probability of adjustment "can greatly understate" adjustments; "outcomes, not probabilities" -> Confirmed. Wording tightened to "improvement over probability of failure … can still greatly underestimate". Source: Tharp, Kitces.com, 2022 (June 2022 image paths).
+Kitces 2023: traditional Monte Carlo overconfident "particularly between 70% and 97%"; 20 of 100 at 95%; history "very tight … from 65% to 100%" -> Confirmed. The date is corrected from "12 Apr 2023" to April 2023 (day unconfirmed). Caveats on the persona and residual bias added. Source: kitces.com.
+Endowments
+Cambridge Associates 1994: shortfall risk and severity measures; 70/30, 5% of a three-year average, 1946–93, cuts above 5% in 8% of years -> Confirmed. The allocation is specified as S&P 500 / fixed-income indexes, and the "20 of 47 years" figure was added. Source: CA PDF.
+Planning rules and benchmarks
+CFP "Rule C 2.1 … must discuss with the Client, and apply, reasonable assumptions and estimates"; "C 3.2 … where appropriate"; writing these down is optional -> Corrected. The quotes are confirmed, but the "C 2.1/C 3.2" labels are not on the source page and are replaced by step names. "Optional" is replaced by the principles-based documentation duty. Source: CFP Board, 28 Feb 2019.
+FINRA 2214 disclosure items and quotes -> Confirmed (FINRA rulebook).
+FP Canada 2026: US 6.4%, international developed 6.6%, emerging markets 7.5%, fixed income 3.2%, inflation 2.1%, dated 16 Apr 2026, for projections of 10+ years -> Confirmed (FP Canada release). Fees and currency basis are Unconfirmed.
+Goals-based investing
+Das, Ostrov, Radhakrishnan and Srivastav, CMS 17(4), 2020; beats target-date funds -> Confirmed, pages 613–640 added (IDEAS/RePEc).
+Chhabra (2005), Journal of Wealth Management 7(5) -> Corrected to 7(4), Spring 2005, pp. 8–34 (PMR, SSRN).
+Claims about the case and the team doc
+Case p.3: teams must define "high degree of funding certainty" and state confidence that the 2033 gift falls "within that range" -> Confirmed (case PDF p.3).
+Laura has a statistics degree -> Confirmed: "Statistics & Information Decisions Management", Case p.1.
+"Guide p.4" assumptions list -> Corrected to Case p.4. It lists assumptions on investment performance, timing of cash flows, outside funding, inflation and flexibility.
+Funding ratio "$300,000 market value of holdings / $302,163 ≈ 99.3%" -> Corrected. The arithmetic is right, but the numerator is the $300,000 2027 deposit, not the market value of holdings. The figure is 98.9% against the exact-instrument cost of $303,269. Source: doc_dump Numbers and Models §2.
+"Within-range confidence about 99%" -> Corrected to "at least about 99%". The doc's 99/100 figure is for reaching the halfway point. Source: doc_dump Brief §3.
+"2024 judges" asked about a bad year -> Confirmed as the 2023–24 finale (doc_dump winning-team table).
+

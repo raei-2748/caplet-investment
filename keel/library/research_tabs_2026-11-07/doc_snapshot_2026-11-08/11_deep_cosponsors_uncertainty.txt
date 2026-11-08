@@ -1,0 +1,122 @@
+Deep research: co-sponsors and communicating uncertainty
+Key findings
+Capital campaigns and founder or lead gifts
+The "AFP 60–80%" and "~20% lead gift" figures come from a page on the AFP careers job-board site (careers.afpglobal.org), titled "Capital Campaigns: How They Work, Timeline, Gift Table (2026)". The page credits these figures to an unnamed "AFP (2021)" campaign note and to "AFP's range-of-gifts method". It is not an AFP guidance document. The page is inconsistent:
+One heading says "50–70%", while the body says 60–80%. The page itself explains that the heading uses "the older 50–70 percent band" found in vendor guides.
+The 72% figure is credited to Capital Campaign Pro's 2026 Benchmark Report, not to AFP. One place says the top 20 gifts made up 72% of the amount raised. Another says the sample "hit 72 percent at 15 gifts".
+The page also credits AFP with the claim that 5–10% of donors provide 90–95% of a campaign goal.
+[Verified that the page says this; Secondary for AFP itself] (careers.afpglobal.org)
+Capital Campaign Pro says an organisation should have raised at least 65% of the campaign goal before kick-off. It says that for smaller organisations and campaigns, "closer to 75% or even 80% is advisable". By kick-off the organisation should have asked for most, if not all, of the lead gifts, and every board member should have given. Until then the target is a "working goal", and kick-off is "the final opportunity to adjust the goal up or down". [Verified] (capitalcampaignpro.com/capital-campaign-quiet-phase)
+Thresholds differ by adviser. One consultant wants 80–90% before going public. [Unconfirmed: search snippet only] (capdev.com)
+The Kresge Foundation's challenge-grant guide ("Updated June 30, 2011", now historical) suggests "at least 20 percent and sometimes as much as 50 percent" of the private fundraising goal be raised before an organisation applies. It suggests more than 50% when the goal is large. It counts written pledges as well as cash, but pledges must be paid within five years. Its readiness test asks whether board leaders are giving their own gifts and whether these are "the largest gifts they have ever made to your organization". [Verified] (kresge.org GuidetoChallengeGrant.pdf)
+Evidence that an announced lead gift draws in others comes from a field experiment in a University of Central Florida capital campaign. It solicited 3,000 central Florida residents. Raising announced seed money from 10% to 67% of the goal increased contributions nearly sixfold (List & Lucking-Reiley, JPE 110(1), 2002). [Secondary: abstract via search] (econpapers.repec.org)
+In another experiment, direct-mail letters went to more than 50,000 past donors. A match offer raised both revenue per letter and the share of people who gave, but 2:1 and 3:1 matches added nothing beyond 1:1 (Karlan & List, AER 97(5), 2007). [Secondary: abstract] (isps.yale.edu)
+A gift that is promised but not yet paid can cost credibility. The Royal Ontario Museum had about $23M of pledges to its capital campaign, which ended in 2010, still unpaid in 2015. By then a naming policy about two years old withheld naming rights until 25% of a pledge had been received. [Secondary: NPQ and other outlets summarising the Globe and Mail's "Crystal Myths" investigation of late March 2015. The ROM's own letter dates it 28 Mar 2015 and NPQ lists 30 Mar.] (nonprofitquarterly.org)
+Overruns (Set in Stone, primary PDF; page numbers are PDF pages)
+The study separated a sample of 56 projects into four categories (p.22). It measured average budget escalation from the first agreed budget to the final cost (p.23). Table E (p.24) gives:
+producing theatres: 92%
+museums: 46%
+non-resident performing-arts centres: 62%
+resident performing-arts centres: 64%
+On p.13 the same 56-project sample is used for a different measure: final cost compared with the building-permit value. That comparison gives museums +69%, performing-arts centres +82% and theatres +19%. Do not mix the two measures. [Verified] (drama.yale.edu Set-in-Stone-2012-acs.pdf)
+On p.23 the authors write about theatres that the starting budget was usually an internal figure. Managers chose carefully when to announce budgets publicly, and as a result the publicly perceived escalations averaged about 19%. [Verified, p.23]
+The study concludes there was "significant overinvestment in bricks and mortar" during the building boom, and that a number of the organisations studied had financial difficulties after finishing a building project (p.36). [Verified]
+A secondary summary says 80% of projects ran over budget. [Unconfirmed] (hillstrategies.com) This figure was not found in the PDF.
+Giving in recessions (Giving USA 2010 Executive Summary, primary)
+Total giving in 2009 fell 3.6% in current dollars, or 3.2% "adjusted for inflation". Because prices fell slightly in 2009, the report notes this was in fact a deflation adjustment. For 2008, the revised fall was 2.4% inflation-adjusted. In current dollars, the report says 2008 giving was revised "to show a slight increase", so "US giving fell 2.4% in 2008" is true only in inflation-adjusted terms. [Verified] (americansforthearts.org GivingUSA_2010_ExecSummary.pdf)
+Giving to arts, culture and humanities:
+inflation-adjusted: fell 10.1% in 2008 and 2.0% in 2009
+current dollars: fell 6.5% in 2008 and 2.4% in 2009
+Foundation giving fell 8.6% in 2009 (8.9% in current dollars). Bequests fell 23.6% (23.9% in current dollars). [Verified]
+Operating reserves
+The Nonprofit Operating Reserves Initiative (NORI) white paper suggests a minimum operating reserve ratio of 25% of the annual expense budget, which is about three months, measured at the lowest point in the year. It defines operating reserves as the part of unrestricted net assets that boards keep or designate for emergencies. [Verified] (nonprofitaccountingbasics.org 01-OperatingReservesWhitePaper2009.pdf)
+Nonprofit Finance Fund surveyed 2,206 nonprofits in 2025 (press release dated 17 Jun 2025). Of these, 52% had three months of cash or less and 18% had one month or less. [Verified] The release does not describe the sampling method, so the earlier label "unweighted convenience sample" is removed. (nff.org)
+Communicating probabilities
+Van der Bles, van der Linden, Freeman & Spiegelhalter (PNAS 2020) ran five studies with 5,780 people: four online experiments and one field experiment on the BBC News website.
+In their internal meta-analysis, a numeric range barely lowered trust in the number (d = −0.15) and had almost no effect on trust in the source (d = −0.03).
+A verbal hedge ("it could be somewhat higher or lower") lowered trust in the number more (d = −0.55).
+In the BBC field test, neither format significantly changed trust in the number or the source.
+("d" measures effect size: 0.2 is small and 0.5 is medium.)
+[Verified] (pmc.ncbi.nlm.nih.gov/articles/PMC7149229)
+Gigerenzer et al. (Risk Analysis 2005) asked people in five cities what "a 30% chance of rain" means and got different answers in each. A probability for a single event is unclear unless you say what it is out of. [Secondary] (eprints.lse.ac.uk/16975)
+Natural frequencies (counts such as "3 out of 4") make probability reasoning easier (Gigerenzer & Hoffrage 1995). A later meta-analysis reports about 4% correct with probabilities against 24% with natural frequencies, and the benefit is not universal. [Unconfirmed: not checked at source]
+Pairing verbal terms with number ranges ("very likely, 90–100%") brings people's readings closer to what was intended (Budescu et al., Nature Climate Change 2014). [Secondary] (researchportalplus.anu.edu.au) The IPCC AR5 guidance note itself could not be opened (403 error), so its likelihood table is not verified here.
+The Bank of England has published its inflation forecast as a probability distribution, the fan chart, since February 1996 (Britton, Fisher & Whitley, Quarterly Bulletin Feb 1998). [Verified at BoE page title/summary via search] (bankofengland.co.uk)
+Spiegelhalter, Pearson & Short (Science 2011) review how to show uncertainty in charts. They conclude the best chart depends on the audience and how numerate it is. [Secondary]
+Real projects
+Little Island (Pier 55) in New York was backed by the Diller–von Furstenberg Family Foundation. It was first floated at about $35M in about 2014 and was reported at about $250–260M when it opened in 2021. Barry Diller pulled out in September 2017 after legal challenges, having spent about $40M before construction, and later revived the project. [Secondary: sources differ on the final figure ($250M or $260M); no audited cost found] (cbsnews.com, Bloomberg, therealdeal.com)
+I could not find a documented, sourced example of an artist founding a residency and publicly announcing a range for their own gift.
+What this means for Caplet
+Give the confidence the case actually asks for. The case asks teams to "state how confident they are that her 2033 contribution will fall within that range" (Case p.3). The draft gives two other numbers instead: the chance of reaching the top of the range (about 3 in 4) and what the floor pays out. Under the IPS design, the gift is the floor plus half the share fund, capped at the top of the range. It therefore lands inside the range unless the floor fund pays less than its rounded-down value, which in the team's model is about 99 times in 100 (team model figure, not externally checked). State that number first, then the chance of reaching the top. [Portfolio Analysis; Creativity] Where: the co-sponsor communication section of the Final Report, and the draft text.
+Say what the odds are out of (Gigerenzer). Write "in about 3 of every 4 market histories we tested" rather than "three times in four." Laura has a degree in Statistics & Information Decisions Management (Case p.1) and will notice a missing denominator. [Client Knowledge; Creativity] Where: the draft text and the confidence paragraph.
+Use a range plus a most-likely figure, with no verbal hedging (van der Bles). Show the range and a central "most likely about $X" figure. Drop vague hedges such as "may" around the numbers. A numeric range was the format that cost the least trust. Verbal hedges cost the most, and in the BBC field test neither format had a significant effect. [Creativity] Where: the draft text. This keeps the existing rule against giving a single number, because the central figure sits inside a stated range.
+Draw a fan chart of the facility contribution from 2028 to 2033. It would show the band narrowing as the floor is locked in. It would narrow again if the v11 step is used, which moves the promised half into Treasuries before 2031. That puts the IPS's "owned before it is said" idea in one picture, in the format the Bank of England has used since 1996. [Creativity; Portfolio Analysis] Where: the main figure in the co-sponsor section.
+Split "committed" from "expected." The floor is already owned, so Laura could put it in writing in 2031. The rest is an intention. Kresge's guide counted written pledges, paid within five years, toward the share of the goal raised before applying. A written founder floor therefore helps the residency reach the 20–80% thresholds that foundations and advisers use. Kresge asks for at least 20%, and sometimes 50% or more. Capital Campaign Pro asks for at least 65%, or 75–80% for small organisations. Mention the ROM case as the reason the paid-in floor matters: about $23M of pledges stayed unpaid, and naming rights are now withheld until 25% is received. [Investment Strategy; Creativity] Where: the co-sponsor section and the draft text. The case puts legal requirements and taxes out of scope (Case p.4), so describe this only as a communication choice.
+Name the signal and give its source. The case says a meaningful personal contribution "may signal that the residency is financially viable" (Case p.3). List & Lucking-Reiley give field evidence for this: announced seed money raised other people's giving. [Client Knowledge] Where: a sentence on why the floor exists. Explicitly reject framing the gift as a "match". Karlan & List show that a 1:1 match works, but making Laura's gift depend on co-sponsors would break the IPS's capped rule. This can go in the Ideas tab under "relevant but refused."
+Avoid the clash with "operating reserve." Foundations use NORI's meaning: unrestricted reserves the organisation holds, at least about three months (25%) of its annual expenses. The case uses the term for something else: a set-aside from Laura's portfolio that funds ten fixed $50,000 payments (Case p.3). Add one plain sentence to the co-sponsor text so funders don't misread it, and keep the case's term. You could add that more than half of the nonprofits NFF surveyed in 2025 hold three months of cash or less. A founder's ten-year commitment already set aside is therefore unusual. [Client Knowledge; Creativity] Where: the operating reserve definition and the draft text.
+Use Set in Stone accurately, including its timing lesson. Escalation from the first budget ran 46–92% by building type. The low public figure (about 19%) came from announcing internal budgets late. This supports Laura keeping half the share fund unpromised. Her materials should also say plainly that the facility's total cost "has not been determined" (Case p.4) rather than imply it is known. [Investment Strategy; Client Knowledge] Where: the flexibility section.
+Use the arts-specific recession numbers. Inflation-adjusted, arts giving fell 10.1% in 2008, against 2.4% for all giving. Foundation giving fell 8.6% in 2009. That makes the "one storm" argument much stronger for an arts residency. [Client Knowledge; Investment Strategy] Where: the human-capital and co-sponsor recession paragraph.
+Notes on the draft fundraising text (Co-sponsor Brief §6), not a rewrite
+Remove "the residency's running costs of $50,000 a year." The case only says Laura makes ten payments of $50,000 "toward the residency's operating expenses" (Case p.3).
+State the in-range confidence first, then the chance of reaching the top, and say what each is out of.
+Say "a US Treasury fund that closes in December 2032." IBTM is an exchange-traded fund, not a bond, and its payout is not fixed. [ETF detail not re-checked at the issuer here]
+Separate "I commit at least $X" from "I expect to add up to $Y."
+Add one sentence each on: the building cost not yet being set; what "operating reserve" means here; and when the range will be updated (for example, once a year until 2033).
+Corrections to existing tabs
+Co-sponsor Brief §6, the "why" list. The draft says co-sponsors' operating support "is not needed for the first ten years, which the case allows Laura to show." The case says the reverse: "any operating support beyond Laura's commitment, may come from co-sponsors" (Case p.3). The draft's "running costs of $50,000 a year" also treats her share as the whole operating budget. Both should be removed.
+Co-sponsor Brief §5 (AFP). The source is a careers-site article on AFP's job board, not an AFP guidance document. It credits an unnamed "AFP (2021)" note and is inconsistent (see Key findings). Cite it as Secondary or drop it, and keep Capital Campaign Pro, which is Verified. Also add Capital Campaign Pro's "closer to 75% or even 80%" for smaller organisations, since Laura's residency is small.
+Client §6 (Set in Stone). The 92% applies to producing theatres only, measured from the first agreed budget across a 56-project sample. It is not a general overrun figure. Use the 46–92% range by building type (Table E). The authors are Joanna Woronkowicz, D. Carroll Joynes, Peter Frumkin and others (University of Chicago Cultural Policy Center, 2012).
+Client §3 and Co-sponsor Brief §4 (Giving USA). The 2.4% (2008, revised) and 3.2% (2009) figures are both inflation-adjusted. The 2009 figure was technically adjusted for deflation. In current dollars, giving fell 3.6% in 2009 and was revised to a slight increase in 2008. Label the figures accordingly, and prefer the arts-specific 10.1% and 2.0%.
+Ideas tab §3, "Fundraisers do the same thing." This is broadly supported, but "secure before you announce" applies to the campaign goal. Laura is announcing her own gift, so present it as an analogy, not as a rule fundraisers follow.
+Open questions / not found
+The IPCC AR5 likelihood table: the PDF returned a 403 error. Re-check before quoting any band such as "likely = 66–100%."
+AFP's own 2021 note behind the careers page: not found.
+The 80% "over budget" figure attributed to Set in Stone: not found in the primary PDF.
+The full papers for List & Lucking-Reiley and Karlan & List: only abstracts were read.
+The meta-analysis figures for natural frequencies (4% against 24%): not checked at source.
+A documented case of an artist founding a residency and announcing a range for their own gift: none found. Candid was not searched.
+Whether Wharton's Final Report instructions (released at the start of Week 7) set a format for the fundraising text.
+Sources (all accessed 7 Nov 2026)
+https://careers.afpglobal.org/career-resources/on-the-job-7/capital-campaigns-a-practical-guide-for-fundraising-117
+https://capitalcampaignpro.com/capital-campaign-quiet-phase/
+https://capdev.com/capital-campaign-quiet-phase-strategy-why-goal-raised-before-going-public/
+https://kresge.org/sites/default/files/GuidetoChallengeGrant.pdf
+https://econpapers.repec.org/RePEc:ucp:jpolec:v:110:y:2002:i:1:p:215-233
+https://isps.yale.edu/resource/does-price-matter-in-charitable-giving-evidence-from-a-large-scale-natural-field
+https://nonprofitquarterly.org/a-museum-s-unpaid-pledges-raise-questions-on-capital-campaign-preparedness/
+https://www.drama.yale.edu/app/uploads/2020/04/Set-in-Stone-2012-acs.pdf
+https://hillstrategies.com/2013/03/27/set-in-stone-building-americas-new-generation-of-arts-facilities-1994-2008/
+https://phys.org/news/2012-06-overspending-cultural-boom-years.html
+https://ww2.americansforthearts.org/sites/default/files/assets/files/GivingUSA_2010_ExecSummary.pdf
+https://www.nonprofitaccountingbasics.org/sites/default/files/01-OperatingReservesWhitePaper2009.pdf
+https://nff.org/insights/survey-us-nonprofits-at-critical-point-as-funding-for-community-needs-falters/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC7149229/
+https://eprints.lse.ac.uk/16975
+https://researchportalplus.anu.edu.au/en/publications/the-interpretation-of-ipcc-probabilistic-statements-around-the-wo/
+https://www.bankofengland.co.uk/quarterly-bulletin/1998/q1/the-inflation-report-projections-understanding-the-fan-chart
+https://ui.adsabs.harvard.edu/abs/2011Sci...333.1393S
+https://www.cbsnews.com/news/little-island-new-york-city-hudson-river
+https://www.bloomberg.com/news/features/2021-05-20/barry-diller-s-260-million-little-island-opens-today-in-nyc
+https://therealdeal.com/new-york/2017/09/25/how-barry-dillers-pier-55-project-finally-went-overboard/
+The downloaded primary PDFs are saved in /private/tmp/claude-501/-Users-ray-Library-CloudStorage-GoogleDrive-jiwang27-knox-nsw-edu-au-My-Drive-Knox-Wharton-2026/d993f1f2-34a7-425d-b5bf-50ec5ab4fdf1/scratchpad/ (sis/s.pdf, gusa/g.pdf, nori/n.pdf, kr/k.pdf). Extracted text is in the fc/ subfolder of that scratchpad.
+Fact-check log
+Case asks for "confidence that her 2033 contribution will fall within that range" (Case p.3) -> Confirmed. The exact wording is "state how confident they are that her 2033 contribution will fall within that range". Source: Case PDF p.3.
+The case says operating support beyond Laura's commitment "may come from co-sponsors", and the $50,000 is "toward" operating expenses -> Confirmed (Case p.3). The doc's claim that "not needed... which the case allows" is wrong. Draft text confirmed in doc_dump.md, lines 560 and 564.
+"May signal" viability (Case p.3); facility cost not determined (Case p.4); taxes and legal requirements out of scope (Case p.4) -> Confirmed. Statistics degree -> Corrected to "Statistics & Information Decisions Management" (Case p.1).
+AFP careers page: 60–80%, ~20% lead gift, 50–70% heading, 72% at top 20 and at 15 gifts -> Confirmed that the page says all of this (Firecrawl scrape). Added: the page itself explains the 50–70% heading as an older vendor band, and the 72% comes from Capital Campaign Pro's benchmark report, not AFP.
+Capital Campaign Pro: 65% minimum, 75–80% for smaller organisations, most lead gifts solicited, every board member given, working goal -> Confirmed (capitalcampaignpro.com).
+Kresge: 20% and sometimes 50%+, written pledges count, "largest gifts they have ever made", updated 2011 -> Confirmed (k.pdf: "Updated June 30, 2011"; pledges must be paid within 5 years).
+Set in Stone: 56 projects, Table E 92/46/62/64, public ~19%, overinvestment -> Confirmed. Corrected: the escalation measure is on PDF pp.22–23, not p.13. Page 13 uses a different measure, permit value against final cost (museums 69%, performing-arts centres 82%, theatres 19%). The ~19% public figure refers to producing theatres. Authors confirmed (s.pdf).
+Giving USA 2010: −3.6% current / −3.2% adjusted for 2009, −2.4% revised for 2008, arts −10.1% / −2.0% adjusted and −6.5% / −2.4% current, foundations −8.6%, bequests −23.6% -> Confirmed. Added: in current dollars, 2008 was revised to a slight increase (g.pdf).
+NORI: 25%, or 3 months, at the lowest point in the year; unrestricted reserves designated by the board -> Confirmed. Wording corrected to "annual expense budget" (n.pdf).
+NFF 2025: 2,206 respondents, 52% with three months or less, 18% with one month or less -> Confirmed. "Unweighted convenience sample" -> Unconfirmed and removed (nff.org release).
+Van der Bles et al. PNAS 2020: 5 studies, 5,780 people, d = −0.15 / −0.03 / −0.55, no effect in the BBC test -> Confirmed (PMC7149229).
+List & Lucking-Reiley 2002: 3,000 households, seed money 10% to 67%, nearly sixfold -> Confirmed at abstract level (econpapers and econbiz via search). Upgraded detail: the university was UCF.
+Karlan & List 2007: 1:1 match works, 2:1 and 3:1 add nothing -> Confirmed at abstract level (isps.yale.edu, NBER w12338 via search).
+ROM: ~$23M unpaid from the campaign that ended in 2010, naming withheld until 25% paid -> Confirmed at secondary level (NPQ, Chronicle of Philanthropy via search). Globe date corrected to late March 2015 (ROM letter: 28 Mar; NPQ: 30 Mar).
+Bank of England fan chart since February 1996 -> Confirmed (BoE Quarterly Bulletin 1998 Q1 page via search).
+Little Island ~$35M to ~$260M, founder pulled funding -> Corrected to "about $35M (c.2014) to $250–260M, figures vary; Diller withdrew in Sept 2017 then revived the project". Secondary only (therealdeal, dezeen, 6sqft via search).
+Hill Strategies "80% over budget" -> Unconfirmed (not in the primary PDF).
+Gigerenzer & Hoffrage meta-analysis 4% vs 24% -> Unconfirmed (not checked).
+Model "99-in-100 in range" and "3 in 4 reaching top" -> Not externally checkable; labelled as team model figures.
+

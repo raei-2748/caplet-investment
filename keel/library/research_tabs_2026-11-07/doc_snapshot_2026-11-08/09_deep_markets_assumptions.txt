@@ -1,0 +1,107 @@
+Deep research: markets and assumptions, Nov 2026
+Key findings
+1. Treasury curve (latest date: 6 Nov 2026)
+The par yields on 6 Nov 2026 were: 2y 4.51, 3y 4.59, 5y 4.64, 7y 4.74, 10y 4.86, 20y 5.29, 30y 5.26. [Verified: treasury.gov daily par yield curve CSV]
+The 2026 range so far: the 10-year was lowest at 3.97% (27 Feb) and highest at 5.31% (5 Oct). The 20-year peaked at 5.71% on 7 Oct. [Verified: same CSV, my calculation]
+In October the 10-year moved from 5.28% (2 Oct) to 5.00% (23 Oct), and it reached 4.86% by 6 Nov. The Numbers tab's "about 5.28% to 5.00%" matches the data. [Verified]
+I rebuilt the cost of the ten payments from the par curve: about $302,100 on the 6 Nov curve and about $302,800 on the 5 Nov curve. The team's figure for 5 Nov is $302,163, so the two methods agree within about $600. The same rebuild gives about $298,300 on 23 Oct (the team's sheet says $297,636) and $289,600 on 7 Oct. [Inference: my own bootstrap, re-run in the fact-check. It converts the par curve into a discount rate for each date. Payments are valued at t=6 to 15 years from 1 Jan 2027, which matches the case: payments run 2033–2042 and the deposit is made at the start of 2027]
+The yield the plan needs is 5.09% a year with annual compounding ($300,000 today against ten $50,000 payments). Treasury yields are quoted with half-yearly compounding (bond-equivalent), and on that basis the need is 5.02%. [Inference: recomputed, 5.087% annual and 5.024% half-yearly]
+On 6 Nov the curve's spot rate (the interest rate for a single payment at that date, half-yearly basis) was about 4.70% at 6 years (2033) and 5.18% at 15 years (2042). Payments from 2033 to 2039 (4.70–5.00%) cost more than the 5.02% they need. Only the 2040–42 payments (5.06–5.18%) are cheaper. [Inference: recomputed]
+2. 2027 return assumptions from investment houses
+
+House (edition) | World/global shares | US Treasuries / bonds | Horizon, currency | Label
+J.P. Morgan 2027 LTCMA (released 19 Oct 2026) | Global equities 7.5%, up from 7.0%. US large cap 7.5% (up from 6.7%), EM 7.1% | US intermediate Treasuries 4.6%. Global aggregate 5.3% | 10–15 yrs, USD | [Verified: JPM press release]
+Vanguard VCMM (run of 30 Sep 2026, page dated 21 Oct 2026) | US 4.8–6.8%, developed ex-US 5.3–7.3%, EM 3.7–5.7% | US aggregate bonds 5.1–6.1% | 10 yrs, USD | [Verified: Vanguard return-forecasts page]
+Vanguard, weighted to VT's mix | about 5.8% (mid-point) | — | 10 yrs, USD | [Inference: midpoints weighted 62% US, about 27% developed ex-US, about 11% EM. Arithmetic re-checked: 5.81%]
+Schwab 2026 (data to 31 Oct 2025) | US large cap 5.9% | US aggregate 4.8% | 10 yrs, USD | [Unconfirmed: search snippet only, page returned 403]
+Northern Trust 2026 | US 6.8% (global figure not found). Its 2025 edition had 7.1% global | — | 10 yrs | [Unconfirmed: snippet only]
+AQR 2026 (as of 31 Dec 2025, published 14 Jan 2026) | global 60/40 at 3.4% real | — | 5–10 yrs, real | [Verified for 60/40: AQR PDF text. The equity exhibit is an image I could not read]
+Research Affiliates | US large cap 3.1% nominal (31 Dec 2025) | — | 10 yrs | [Unconfirmed: snippet via Morningstar]
+GMO 7-year | negative real returns for US large caps; EM positive | — | 7 yrs, real | [Unconfirmed: snippet. The source URL suggests the August 2026 forecast]
+BlackRock | No 2027 figure found. An undated tool page shows MSCI USA 6.17% and World ex-US 7.98% | — | 10 yrs | [Unconfirmed: snippet]
+Morningstar own | US equities 5.2% (30 Sep 2025) | US aggregate 4.1% | 10 yrs | [Unconfirmed: snippet, page returned 403]
+Among the dated 2026–27 editions we checked, J.P. Morgan's 7.5% is the highest global-equity figure. Vanguard's is about 5.8%. The value-based houses (GMO, Research Affiliates, AQR) are far lower, although only AQR's 60/40 figure is confirmed. BlackRock's undated tool shows 7.98% for World ex-US, so present 7.5% as the top of the dated range, not as an absolute ceiling. [Inference]
+3. iShares iBonds Treasury ETFs
+All five funds charge 0.07% and pay monthly distributions. [Verified: iShares fact sheets as of 30 Sep 2026]
+The fact sheets say the funds "terminate on or about October or December 15 of the year in each Fund's name". These are the Dec-series funds, so the date is about 15 December. In their final months they move into cash and cash-like instruments, so the yield drifts toward money-market rates. [Verified: fact sheet risk text. The earlier quote left out "October or"]
+The final payout is net assets less liabilities. It is "not predictable at the time of investment", and the funds do not aim to return a set amount. [Verified]
+Precedent from IBTF (2025): the last trading day and final NAV were both on 15 Dec 2025, and liquidation was on 18 Dec 2025. Proceeds arrive "on or around" that date depending on the broker, which is about two weeks before a 1 January payment. [Verified: BusinessWire/BlackRock release of 15 Oct 2025, read directly]
+Fund facts as at 30 Sep 2026 (SEC yield / duration / holdings / net assets / launch date):
+IBTM: 4.87% / 5.03 yrs / 15 / $580m / 6 Jul 2022
+IBTO: 4.93% / 5.69 / 13 / $473m / 27 Jun 2023
+IBTP: 5.00% / 6.40 / 4 / $315m / 11 Jun 2024
+IBTQ: 5.02% / 7.03 / 4 / $259m / 25 Mar 2025
+IBTR: 5.00% / 7.56 / 4 / $37m / 25 Mar 2026 [Verified]
+On 5 Nov, IBTM showed a weighted average yield to maturity of 4.66%, a 30-day SEC yield of 4.84%, a 30-day median bid/ask spread of 0.05% and net assets of $637m. [Verified: IBTM iShares page, as of 5 Nov 2026]
+Tracking since inception, NAV behind its index: IBTM −0.04 points a year (0.39 vs 0.43), IBTO −0.03 (1.30 vs 1.33), IBTP −0.05 (1.93 vs 1.98), IBTQ −0.03 (−0.12 vs −0.09). The lag is about the size of the fee. [Verified: fact sheets]
+Morningstar's search text showed an IBTM yield to maturity of 5.12% (30 Oct). This conflicts with iShares' own 4.66% figure, so do not use it. [Unconfirmed: snippet]
+4. VT (Vanguard Total World Stock ETF), as at 30 Sep 2026 [all Verified: Vanguard fact sheet F3141]
+10,185 stocks, a 0.06% fee, $81.8bn in the ETF ($101.2bn across all share classes), and it tracks the FTSE Global All Cap Index.
+Country weights: US 62.4%, Japan 6.0%, Taiwan 3.5% (third largest), UK 3.1%, Canada 3.0%, China 2.6%.
+TSMC is 1.6% of the fund. Technology is 34.2%, and the top 10 holdings make up 23.5%. The standard deviation is 11.80%. The fact sheet footnote defines it, and I assume it is the usual 3-year figure but did not check that footnote.
+5. History: reinvestment risk and how long high yields last (FRED GS10, monthly, Apr 1953–Oct 2026)
+Since 2000 the 10-year has been at or above 4.86% in only 11% of months. One spell above 4.75% started in Feb 1999 and lasted 31 months, to Aug 2001 (20 of those months fall from Jan 2000). Every later spell lasted 7 months or less. Before Sep 2026, the most recent month above 4.75% was Oct 2023 (4.80%), a single month. The longest gap ran from mid-2007 to 2023. [Verified data, recounted; Inference for the counting]
+I looked at the 90 months where the 10-year started between 4.5% and 5.5% and measured the average yield over years 6 to 15 afterwards, which is Laura's reinvestment window. It fell by a median of about 2.0 points, and fell by more than 1 point in 63% of cases. [Inference: recomputed, median −1.98, 63%]
+That result depends on the era:
+1990s starts: −0.7 to −2.0 points
+2000s starts: −1.9 to −3.0 points
+1950s–60s starts: +1.5 to +4.6 points [Inference: recomputed]
+What this means for Caplet
+Settle the share return. Use about 7% as the base case and state that it sits between Vanguard's roughly 5.8% and J.P. Morgan's 7.5%. Show 5% and 7.5% as the low and high cases. VT is a small sleeve held for only 3 to 5 years, so the gap between 5.8% and 7.5% moves the top of the range by only a few thousand dollars. [Inference] Also say that these forecasts are 10–15-year averages, used here over a shorter period. Strengthens Portfolio Analysis and Investment Strategy. Place: the assumptions table in the Final Report.
+Recast the 2-point reinvestment stress. It is the median experience after 1990 when yields started where they are today, so it is not an extreme case. The 3-point case (about $31k short, from the team's 15 Oct number sheet) is about the worst outcome in the data (the worst start was −3.03). This makes "how we defined high certainty" much stronger. Strengthens Portfolio Analysis. Place: the certainty and stress-test section.
+Use the 1960s mirror image. Rising rates would have helped the reinvestment. This shows the plan is hedged in one direction only, and that the kept shares cover the other direction. Strengthens Investment Strategy.
+Describe iBond mechanics accurately. The funds terminate around 15 December, and on the 2025 precedent the money arrives about 18 December (broker-dependent), ahead of the 1 January payments. Inside each fund, bonds mature during the year and the cash then earns money-market rates. That is the same reinvestment gap as the 2037 bond, just smaller. Write "payout is NAV, not par" in plain words. Strengthens Investment Strategy and Experience (it is something we learned). Place: the implementation review.
+Liquidity and diversification honesty. IBTP, IBTQ and IBTR each hold only 4 notes, and IBTR is about 7 months old with $37m in assets. Holding the funds to maturity makes trading spreads mostly irrelevant, but say so. Strengthens Portfolio Analysis.
+Fees in dollars. At 0.07% on about $150k of iBonds for roughly 6–10 years, the total cost is under about $1,000. This is the price paid for being able to buy one fund per year instead of odd lots of bonds. [Inference] Place: the cost line in the analysis.
+The Taiwan angle. VT already holds 3.5% in Taiwan, TSMC included. It is a small and honest point to mention, and it should not be oversold (the Ideas tab already says this). Strengthens Client Knowledge.
+Yields have fallen since the IPS was written. The curve at the deposit date (1 Jan 2027) is unknown. The IPS rule that the 2028 deposit can finish the set of bonds is now carrying about $2k ($2,163 on the team's 5 Nov figure). Present the Oct–Nov path ($289.6k to $302.1k) as live evidence for the rule. Strengthens Experience and Strategy.
+Corrections to existing tabs
+Numbers §1: "the chosen Treasuries yield about 5.15%" does not fit the current curve. On 6 Nov the 6–15-year spot rates were 4.70–5.18%, and the iBond YTM and SEC yields were 4.66–5.02% (IBTM's YTM is 5 Nov; the fact-sheet SEC yields are 30 Sep). That cannot be squared with §2's $302k cost. If the holdings yielded 5.15%, the payments would cost less than $300k. Date the 5.15% (it fits roughly mid-October, between the 7 Oct and 23 Oct curves) or replace it. Also state the compounding basis: 5.09% annual equals 5.02% half-yearly.
+Numbers / Trading Notes: "7.5% (J.P. Morgan's 2027 long-term estimate)" is correct for global equities in USD over 10–15 years, and the same figure applies to US large caps. But it is the top of the dated range across houses, not the consensus.
+Trading Note VT: "about 10,000 stocks" is fine (10,185). The 0.06% fee is correct.
+Portfolio tab: "Matures Dec 2032" for the iBonds would be more precise as "terminates about 15 Dec 2032; payout expected about 18 Dec, based on the 2025 precedent".
+Numbers §2: the team's 23 Oct cost of $297,636 differs from my rebuild ($298,300) by about $700. That is within method noise, but use one engine throughout.
+Doc §3, "in no month from mid-2007 until autumn 2026" ($300,000 could buy all ten payments): FRED supports this. No monthly 10-year yield reached the roughly 5.09% needed between Aug 2007 and Sep 2026 (the highest was 4.80% in Oct 2023, then 5.13% in Oct 2026). Do not restate it as "no month above 4.75% since 2007". Oct 2023 was above that level.
+Open questions / not found
+No 2027 editions yet from BlackRock, Schwab, Northern Trust, AQR, GMO or Research Affiliates. Most of these houses publish in Dec–Jan. Re-check before 4 Dec. The figures for those houses in the table remain [Unconfirmed].
+Vanguard's interactive chart lists US Treasury categories (short, intermediate, long), but the scrape did not capture their values, and there is no single global-equity figure. The 5.8% is my own blend.
+I could not read AQR's equity numbers (they are in an image). The GMO date is unclear (the URL suggests August 2026).
+Median bid/ask spreads for IBTO–IBTR were not fetched.
+The exact payable date of the 2032 iBond final distribution will only be announced in about Oct 2032.
+The FRED history covers 1953–2026 only. The team's 1871 series was not re-checked.
+Sources (accessed 7 Nov 2026)
+https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026
+https://fred.stlouisfed.org/graph/fredgraph.csv?id=GS10
+https://am.jpmorgan.com/us/en/asset-management/institutional/about-us/media/press-releases/jp-morgan-releases-2027-long-term-capital-market-assumptions/
+https://corporate.vanguard.com/content/corporatesite/us/en/corp/vemo/vemo-return-forecasts.html
+https://www.aqr.com/Insights/Research/Alternative-Thinking/2026-Capital-Market-Assumptions-for-Major-Asset-Classes
+https://www.schwabassetmanagement.com/story/schwabs-2022-long-term-capital-market-expectations (403; snippet only)
+https://ntam.northerntrust.com/all-investor/insights/capital-market-assumptions (snippet)
+https://www.morningstar.com/markets/experts-forecast-stock-bond-returns-2026-edition (403; snippet)
+https://www.advisorperspectives.com/commentaries/2026/09/22/gmo-7-year-forecast-august-2026 (snippet)
+https://www.ishares.com/us/products/328944/ishares-ibonds-dec-2032-term-treasury-etf
+https://www.ishares.com/us/literature/fact-sheet/ibtm-ishares-ibonds-dec-2032-term-treasury-etf-fund-fact-sheet-en-us.pdf (also ibto/ibtp/ibtq/ibtr equivalents)
+https://www.businesswire.com/news/home/20251015356466/en/iShares-iBonds-ETFs-Near-Final-Distribution-Dates (read directly)
+https://fund-docs.vanguard.com/F3141.pdf
+Case: Client Case Study.pdf pp.2–4
+Fact-check log
+6 Nov par yields (2y 4.51 … 30y 5.26) -> Confirmed (treasury.gov CSV, row 11/06/2026).
+10y 2026 low 3.97% on 27 Feb, high 5.31% on 5 Oct; 20y peak 5.71% on 7 Oct -> Confirmed (same CSV).
+10y at 5.28% on 2 Oct, 5.00% on 23 Oct, 4.86% on 6 Nov -> Confirmed (same CSV).
+Bootstrap cost $302.1k (6 Nov), $302.8k (5 Nov), $298.3k (23 Oct), $289.6k (7 Oct) -> Confirmed by an independent re-run (302,116 / 302,765 / 298,334 / 289,613). Added a note that the team doc gives $297,636 for 23 Oct.
+Required yield 5.09% annual = 5.02% half-yearly; spot 4.70% (6y) and 5.18% (15y); only 2040–42 cheaper -> Confirmed (recomputed 5.087%/5.024%; spots on a half-yearly basis; 2040 = 5.06%, 2039 = 5.00%).
+Case mechanics (deposits of $300k in 2027 and $150k in 2028, ten $50k payments 2033–2042 at the start of each year, t = 6–15 from the 2027 deposit, Taiwan residency) -> Confirmed (Client Case Study.pdf pp.2–3).
+J.P. Morgan 2027 LTCMA: released 19 Oct 2026; global equities 7.5% (from 7.0%); US large cap 7.5%; EM 7.1%; US intermediate Treasuries 4.6%; global aggregate 5.3%; 10–15 yrs -> Confirmed (JPM press release). Added that US large cap rose from 6.7%.
+Vanguard VCMM ranges (US 4.8–6.8, dev ex-US 5.3–7.3, EM 3.7–5.7, US aggregate 5.1–6.1; 30 Sep run; page dated 21 Oct) -> Confirmed (Vanguard page). "Vanguard gives no Treasury-only figure" -> Corrected to: Treasury categories exist in the chart, but their values were not captured.
+AQR global 60/40 3.4% real, as of 31 Dec 2025 -> Confirmed (AQR PDF, 14 Jan 2026).
+Schwab, Northern Trust, Research Affiliates, GMO, BlackRock and Morningstar figures -> Unconfirmed (snippets only, labels downgraded). The claim "JPM 7.5% is the highest credible figure" -> Corrected to "highest among the dated editions checked", because the unconfirmed BlackRock tool shows 7.98% for World ex-US.
+iBonds: 0.07% fee, monthly distributions; SEC yield, duration, holdings, net assets and launch dates for IBTM–IBTR as of 30 Sep 2026 -> Confirmed (fact sheets). Exact launch dates added.
+Termination quote "on or about... December 15" -> Corrected. The full text reads "on or about October or December 15"; the ellipsis had removed "October or". The NAV-payout and "not predictable" wording -> Confirmed.
+IBTF precedent (last trading day and final NAV 15 Dec 2025, liquidation 18 Dec 2025) -> Confirmed at the BusinessWire release itself (upgraded from Secondary). Added that proceeds arrive "on or around" the date, depending on the broker.
+IBTM on 5 Nov: YTM 4.66%, SEC 4.84%, spread 0.05%, net assets $637m -> Confirmed (iShares product page).
+Tracking since inception (−0.04 / −0.03 / −0.05 / −0.03) -> Confirmed (fact sheet NAV vs benchmark).
+VT facts (10,185 stocks, 0.06%, $81.8bn ETF assets, FTSE GACI, country weights, TSMC 1.6%, Tech 34.2%, top 10 23.5%, standard deviation 11.80%) -> Confirmed (F3141, 30 Sep 2026). That the standard deviation is a 3-year figure -> Unconfirmed (footnote not read).
+FRED: share of months since 2000 at or above 4.86% = 11% -> Confirmed. "20-month spell from Jan 2000" -> Corrected to a 31-month spell from Feb 1999 to Aug 2001. "Last spell above 4.75% before Sep 2026 ended in 2007" -> Corrected: Oct 2023 averaged 4.80%.
+Reinvestment study (90 starts, median about −2.0, 63% fell more than 1 point; era ranges 1990s −0.7 to −2.0, 2000s −1.9 to −3.0, 1950s–60s +1.5 to +4.6) -> Confirmed by re-run (−1.98; 63%; −1.97 to −0.66; −3.03 to −1.89; +1.47 to +4.58).
+Team doc "$31k short for a 3-point fall" and "$302,163 on 5 Nov / IPS rule that the 2028 deposit completes the set" -> Confirmed as quoted from the team doc (doc_dump lines 384, 429, 433). These are internal figures and were not independently re-modelled, apart from item 4.
+Doc §3 "no month from mid-2007 until autumn 2026" -> Confirmed on its actual threshold (about 5.09%: the highest month between Aug 2007 and Sep 2026 was 4.80% in Oct 2023). The report's earlier reason, "no spell above 4.75%", -> Corrected.

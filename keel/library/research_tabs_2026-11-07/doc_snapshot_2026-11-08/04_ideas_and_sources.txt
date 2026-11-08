@@ -1,0 +1,44 @@
+Ideas and Sources: the investing ideas behind our strategy
+Written by Claude (Keel) on 7 Nov 2026, condensed from the Final Report plan (/mnt/project-files/final_report/ERUDITION_PLAN.md, section 3). Caplet's IPS uses many of these ideas without naming them; the Final Report can name and cite them. Saying what we took, what we refused and why is the strongest proof that we read widely and thought for ourselves.
+1. Strategies we used, adapted or refused
+Cash-flow matching (liability-driven investing). Start from what must be paid and buy assets that pay it on the day. Took: the whole Treasury ladder, one holding per payment. Source: Leibowitz (1986).
+Immunisation. Match a liability's sensitivity to interest rates instead of its dates. Took: the insight that price risk and reinvestment risk pull against each other. Refused: bond funds that never mature (that rival missed a payment in 11-13% of model paths). Sources: Redington (1952); Fisher and Weil (1971).
+Contingent immunisation. Keep a safety floor and let the surplus take risk. Took: floor plus surplus, the shape of the 2028 deposit. Refused: the trigger that switches to safety after losses; our split is fixed in advance, so nobody has to act in a crash. Source: Leibowitz and Weinberger (1982).
+Capital-protected notes. A bond that returns your money plus an option on shares. Took: the idea that the floor's expected interest is the risk budget, so the share fund is roughly the floor's interest taken up front. Refused: the option itself; derivatives are banned and an option can expire worthless, while shares don't. Source: Leland and Rubinstein (1981).
+Constant-proportion portfolio insurance (CPPI). Refused: it trades constantly and can fall through the floor in a crash. We chose buy-and-hold.
+The endowment model. Spend a fixed percentage and hold shares forever. Refused for Laura: a percentage rule never runs dry, but a fixed-dollar payment can. Source: Swensen (2009).
+Safe withdrawal rates and sequence risk. Withdrawals in a crash lock in losses. Took: no share ever pays a payment. Source: Bengen (1994).
+Target-date glide path, three-year bucket, 60/40 balanced. Refused: each broke one of Laura's two promises in 22-36% of model paths.
+Wait, then buy the bonds. Its median gift is the biggest, but $300,000 bought all ten payments in only one month in four since 1871. Source: Bodie (1995) on why shares are not safer in the long run.
+Human capital. A career is an asset; if it behaves like shares, hold fewer shares. Took: the core of Caplet's IPS. Sources: Bodie, Merton and Samuelson (1992); Viceira (2001); Ibbotson, Milevsky, Chen and Zhu (2007); Benzoni, Collin-Dufresne and Goldstein (2007).
+Goals-based investing. Separate pots for separate goals: payments, floor, shares. Refused: trusting the labels; we tested the pots together by deleting the shares in the model. Sources: Shefrin and Statman (2000); Das and others (2010).
+Safety-first. Minimise the chance of falling below what you need. Took: our definition of "high certainty" as how often a payment falls short, and where it breaks. Source: Roy (1952).
+Signalling and credible ranges. A promise is believed when it costs something, and an honest forecast comes as a range. Took: a bottom already owned in Treasuries. Sources: Spence (1973); Crawford and Sobel (1982).
+Rules over discretion. A rule you can't break later is believed now. Took: no overrides in a downturn. Source: Kydland and Prescott (1977).
+Bond escrows ("defeasance"). Public bond escrows are sized to pay "without reinvestment" and hand back any excess. Took: price the reinvestment gap as if nothing more were reinvested. Source: municipal escrow agreements and the GFOA's guidance.
+Global diversification, low costs, trading less. Took: one world index fund and eleven trades. Refused: stock picking, sector funds and home bias. Sources: French and Poterba (1991); Sharpe (1991); Barber and Odean (2000).
+Capital market assumptions. Took: a stated share return with no payment relying on it. Sources: J.P. Morgan 2027 Long-Term Capital Market Assumptions; Dimson, Marsh and Staunton (2002).
+Model risk. Odds can be wrong and crashes cluster. Took: four model worlds including every month since 1871, and no conclusion resting on one engine. Sources: Knight (1921); Mandelbrot (1963); the Federal Reserve's model-risk guidance SR 11-7.
+2. Ideas that look relevant and aren't
+Annuities: with no mortality pool to share, an annuity for Laura is just a ladder plus a fee.
+Insurance ruin models: they need random claims; Laura's payments are known to the dollar.
+Debt service reserve accounts: they protect against revenue shortfalls, and her payments have no revenue behind them.
+Rolldown strategies: held to maturity, rolldown is already in the purchase yield.
+Black-Litterman: it blends views across many assets; we hold one share fund.
+TIPS: individual TIPS are banned this year (ETFs on WInS are allowed), and the payments are fixed in dollars anyway, so TIPS would hedge an inflation risk the payments don't carry.
+Foreign shares in VT as a Taiwan-dollar hedge: worth a few hundred dollars once sized, and never why we chose VT.
+A Taiwan share fund (EWT, raised by the team on 5 Oct): one country's shares, heavily weighted to a few chipmakers. Our reasoning: any Taiwan-dollar hedge it gives is small next to its share risk.
+3. Combinations that are ours
+A protected note without the option: floor plus shares, funded by the floor's own interest, timed around Laura's income risk.
+Owned before it is said: the bottom of the 2031 range is already in Treasuries before Laura names it. Fundraisers do the same thing when they secure most of a campaign's goal before announcing it (see Co-sponsor Brief).
+Laura's own money absorbs a shortfall first: her spare shares take a hit before the gift does, and the gift before any payment, so the ten payments sit at the top of the queue.
+One storm, three holes: a slump makes bonds dearer, widens the reinvestment gap and shrinks her 2028 income at the same time, so the plan is built so that only the gift feels it.
+4. New sources
+Authors Guild, "Key Takeaways from the 2023 Author Income Survey": authorsguild.org.
+Ibbotson, Milevsky, Chen and Zhu, Lifetime Financial Advice (CFA Institute Research Foundation, 2007): PDF.
+Bodie, Merton and Samuelson (1992): SSRN 420291.
+Viceira, NBER working paper 7409: NBER.
+Benzoni, Collin-Dufresne and Goldstein (2007): Chicago Fed WP 2007-11.
+Taiwan construction cost index: MacroMicro and CEIC.
+Capital campaign practice (lead gift and quiet phase): Capital Campaign Pro. (The "AFP" page used earlier was a careers-site page, not AFP guidance; don't cite it.)
+Laura Gao's public profile: lauragao.com, Wikipedia: Messy Roots.

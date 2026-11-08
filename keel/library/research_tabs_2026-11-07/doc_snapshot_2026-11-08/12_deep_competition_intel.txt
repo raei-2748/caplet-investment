@@ -1,0 +1,134 @@
+Deep research: competition intelligence
+Key findings
+The written criteria changed between the earlier wording and 2026-27. A third-party guide (Lumiere, first published Aug 2023 and updated Sep 2025) quotes the earlier evaluation page. That wording asked for a "visually pleasing presentation of data", a portfolio "invested in at least as many sectors as there are team members", and a strategy that "would win him/her over as a client" [Secondary: Lumiere]. The 2026-27 wording drops the visual-data line and the sector minimum. It recasts "win over" as recommendations that can "earn her confidence". It also adds:
+"disciplined planning across Laura's changing time horizons and cash-flow needs"
+consistency with the IPS
+residency goals
+"reasonable assumptions and projections to evaluate funding reliability, the facility contribution, and financial flexibility under varying market outcomes"
+reflection on the team's "growth and response to challenges", plus "meaningful reflection" under Creativity
+the co-sponsor message
+"Authentic team voice" is not new; it was already in the earlier wording [Verified: Evaluation criteria tab; Inference on what the changes mean]. Each new phrase points at a section the Final Report needs.
+Wharton's official 2024-25 learning objectives ask teams to make the strategy "memorable and unique". They also ask for a "clear, concise and compelling written overview" of the team's approach, plus "key tenets of the overall competition experience, such as teamwork and takeaways" [Verified: Wharton 24-25 Participant Badge PDF].
+Rules page [Verified: rules-roles]:
+The Top 50 are chosen on "the strength of their Investment Policy Statement (IPS) and Final Reports".
+"All teams should review the CFA Institute's Asset Manager Code and operate by these standards" (Ethics section).
+Recording, screenshots and posting during the Semifinals or Global Finale are "strictly prohibited".
+FAQ [Verified]:
+Teams receive no individual feedback.
+Successful teams "communicate their reasoning, assumptions, tradeoffs, and competition experience clearly and authentically".
+Wharton looks for teams that "score exceptionally well on all five components of the criteria".
+Semifinalists give "a short presentation (via video conference for the Semifinals…)" to "a live panel of judges", and "All team members must participate".
+2026-27 dates [Verified: competition page]: Learning Day and the Global Finale are on 29-30 April (2027). The Top 50 announcement and the Virtual Semifinals are both "TBD". In past seasons the Top 50 were announced on 30 Jan 2025 and 27 Jan 2026 [Verified]. Expect late January [Inference].
+2025-26 results, beyond what the Portrait tab has [Verified: champions article, 30 Apr 2026]:
+1st: Stuyvesant (FigCapital). 2nd: Colégio Marista de Brasília (HHA Investments, Brazil). 3rd: Farmington HS (Riverhawk Traders).
+Finale judges came from Aberdeen, Achilles, King Street, Zen Capital Partners and WRDS.
+The article publishes no strategy details and no judge quotes.
+The client was Connor Barwin.
+2025-26 Top 11 [Verified: 20 Mar 2026 article]: 49 semifinalist teams presented virtually to "panels of Wharton alumni and industry experts". The article lists 15 semifinal judges, 10 of whom hold Wharton degrees. Four of the 11 finalists were outside the US: two UK schools (Westminster, Perse), one in Brazil and one in India.
+What Westminster's finalist team said worked [Verified: Westminster School news page, the school's own account]. Their 2025-26 task was to invest $500,000 for Connor Barwin, growing it "to $1.5 million by 2036" while generating steady income for his foundation. They built a Python tool to read real-time data, which let them take an "interventionist" strategy. They were "highly commended" for research depth, presentation skills, and the "capacity to adapt and pivot investment classes". This year's Guide says teams "may not redesign your strategy after observing the results" (Guide p.5). So "adapting" will not score the same way this year [Inference].
+2025 semifinal format [Verified: "Let's Go" article, 24 Mar 2025]: 15 judges in five groups of three reviewed "the 50 team presentation videos". Semifinal judge Melissa Ko Hahn praised the "written reports and the videos". She also said "the best solutions are made up of simple, elegant ideas" and warned against "hiding behind fancy terms and formulas". She said this at the semifinal stage, not the finale.
+2025 finale format [Verified: Deerfield article, 1 May 2025]: each team had 10 minutes to present and 5 minutes of Q&A before four judges. Chirag Jain (Aberdeen) praised "clear thoughtfulness and reasoning behind all the decisions". The client, Ladi Ayoola, told teams "You were very impact-minded."
+2023 winners' report-writing lessons [Verified: "Tales from the 2023 Teams"]:
+Brian Z of Thomas Jefferson HS (DMV's Finest, 2022-23 champions) said that once a rough draft of their final report was laid out, "we really needed to cut things down". In his words: "less is more", and an explainable strategy beats "going for so many different things at once".
+Teacher advisor Alex Lamon (Livingston HS) advised building the thesis first and checking each stock against it before buying, which makes the final report easier to write.
+Wharton's own framing of the client [Verified: competition page]: "While the client is real, the financial scenario is developed specifically for the competition." Laura's real-world finances are not evidence.
+The CFA Asset Manager Code (the code the rules page tells teams to follow) [Verified: CFA PDF, 2nd ed.]:
+Section F requires managers to "Ensure that disclosures are truthful, accurate, complete, and understandable".
+The items to disclose include the investment process (strategies and risk factors), management fees and other investment costs, valuation methods, and risk management processes.
+General Principle 5: "Communicate with clients in a timely and accurate manner."
+IBTM details [Verified: iShares product page snippet; SEC summary prospectus, 2022]:
+The expense ratio is 0.07%.
+Its index holds Treasuries maturing between 1 Jan and 15 Dec 2032.
+The fund will "wind up and terminate" on or around 15 Dec 2032.
+The fund "does not seek to return any predetermined amount at maturity".
+No public 2026-27 Final Report instructions were found, nor any posted past Final Report, finale recording or judge transcript [Not found in searches of the Wharton site, school news pages and YouTube; this does not prove they don't exist]. The Week 5 and Week 6 emails both say the instructions will be posted Mon 9 Nov at 9:00 a.m. ET [Verified: 26-27 Week-Five-Email.pdf, 26-27 Week-Six-Email.pdf].
+What Wharton's official materials stress this year [Verified: Week 5 and 6 emails; Guide; Infographic]:
+The final WInS portfolio "will be an important part of your Final Report", "with each investment serving a clear purpose" (Week 6 email).
+"A long-term strategy may include planned adjustments as funding dates approach", but teams "may not redesign your strategy after observing the results" (Guide p.5, not the emails).
+The infographic's core principle: "Strategy guides every decision."
+The only permitted investments for long-term modelling are "stocks, ETFs, and government or Treasury bonds available on WInS" (Week 6 email).
+What this means for Caplet
+Map the new criteria wording to sections (Investment Strategy, Portfolio Analysis). Make each new phrase a visible section:
+"how the plan changes 2027 to 2042" (time horizons)
+"how it matches the IPS" (consistency)
+"good and bad markets" (varying outcomes)
+Put this in the report's skeleton once the 9 Nov instructions confirm the format.
+Add a disclosure table in the Asset Manager Code style (Client Knowledge, Presentation). One short table should cover:
+fees (IBTM 0.07%, confirmed in the prospectus; VT 0.06%, as stated in Trading Note 3; check IBTN to IBTR on iShares)
+risk factors (a US default, an iBond's final payout not being fixed, reinvestment)
+the valuation method (checking each bond's yield against the Treasury curve)
+risk processes (two trigger events, one person places trades)
+Few teams will cite the code Wharton names [Inference]. Place it after the strategy summary or in an appendix.
+Reconcile one IPS sentence before a judge does (Portfolio Analysis). The submitted IPS says that, barring a US default, none of the payments "will depend on a share price". The Client and Numbers tabs say a permanent 2-point fall in reinvestment rates (about $21,000 short) would be covered from Laura's retained shares. The report must explain this plainly: the shares are a backstop for a modelled shortfall, not a source for any payment. It belongs in the stress-test section.
+IBTM is not a bond (Portfolio Analysis). The IPS calls its payout the minimum Laura can promise co-sponsors "without doubt". Trading Note 2 and IBTM's own prospectus say the final payout is not fixed. State the measured gap (the Co-sponsor Brief cites Keel's figure of at least 98.7% of face value in 99 of 100 modelled paths) and the rounding-down rule.
+Plan for the semifinal now (Presentation). Semifinalists present a short talk by video conference to a live panel, and all team members must take part. In 2025, judges scored presentation videos in groups of three. Write the report so that its section headings could become a 10-minute talk (the 2025 finale length; the semifinal length is not published).
+Say why Caplet does not keep changing course (Investment Strategy). Westminster was praised for adapting, but this year's Guide forbids redesign after seeing results. Caplet's submitted IPS allows only two reasons to change the plan: a missed deposit or a Treasury default. Present this as following the Guide, citing Guide p.5.
+Corrections to existing tabs
+Ideas and Sources §2 ("TIPS: banned this year") and Client §1 ("TIPS and STRIPS are not allowed"). The Week 5 email bans individual TIPS and STRIPS only. Any TIPS ETF listed on WInS remains permitted as an ETF. Whether WInS lists one has not been checked. Caplet's reason for not using TIPS still stands: the payments are fixed in dollars, as Trading Note 1 says. Do not write that TIPS are banned.
+Co-sponsor Brief §2 and Client §7 call two steps "earlier draft (v11)" ideas.
+Moving the promised half of VT into Treasuries before the 2031 meetings is in the IPS as submitted: "Before you meet co-sponsors in 2031, the other half will move into Treasuries".
+The submitted IPS also has a change-the-plan rule, though worded differently from v11: "only 2 possible reasons… a missed deposit or a Treasury default".
+Describe both as IPS commitments, not optional refinements. Quote the submitted wording, not v11's.
+Numbers and Models §1 ("numbers in Caplet's submitted IPS (v12)": 7%, 5.1%, 75%, $169k/$162k, $136k, 12%). None of these numbers appear in the submitted IPS text on the Past Submissions tab. That text gives only "roughly $300,000". So no 7% vs 7.5% conflict exists in what was submitted. The Final Report can adopt 7.5%, matching Trading Note 3 (J.P. Morgan). Caveat: this assumes the SMApply form had no other fields; check with Ray.
+Winning Team Portrait, 2024-25 row. "Simple, elegant ideas" is semifinal judge Melissa Ko Hahn (Mar 2025), not a finale comment.
+Portrait, "Finalists are mostly US teams". This is still true: 7 of 11 finalists in 2025-26 and 8 of 10 in 2024-25 were US schools. But it understates the trend. In 2025-26, 4 of 11 finalists were non-US and 2nd place went to Brazil. The 2025-26 row can now name 2nd and 3rd place and the finale judges.
+Portrait, team counts. Wharton's own pages give both "more than 5,400" (20 Mar 2026 Top 11 article) and "more than 6,300 registered teams" (27 Jan 2026 Top 50 article) for 2025-26. The competition page says "the top 10 teams advance", while 11 advanced in 2025-26. These contradictions are Wharton's and cannot be resolved; cite one figure with its source.
+Open questions / not found
+What format the Final Report takes (PDF or form, length, whether charts are allowed). It is not public until 9 Nov.
+Whether the five components are weighted equally. No source says.
+How long the 2026-27 semifinal presentation is. The FAQ says only "short".
+No winning Final Report, finale video or judge transcript is public. The rules ban recording semifinals and finales, which probably explains why [Inference].
+A 15-page "Teacher Guide: Investment Competition Curriculum" on Scribd could not be read.
+Things most likely to separate a Top-50 Final Report this year (ranked)
+Every section answers a named case requirement. Evidence: the case says teams "must" do four things here: recommend the operating reserve's size and composition, define and evaluate "a high degree of funding certainty", recommend a dollar range with a stated confidence (all Case p.3), and draft part of the fundraising materials (Case p.4). The FAQ says Wharton looks for teams that score "exceptionally well on all five components".
+One idea a reader remembers. Evidence: the badge objective "memorable and unique"; "simple, elegant ideas" (2025 semifinal judge).
+Visible reasoning, assumptions and tradeoffs. Evidence: Guide p.5, the infographic, the FAQ, and Chirag Jain in 2025.
+Results shown "under varying market outcomes", including bad ones. Evidence: the new Portfolio Analysis wording; Guide p.4 ("across varying outcomes"); the Case p.3-4 call for favourable and unfavourable outcomes.
+Consistency with the IPS, and evaluating it without redesigning it. Evidence: Guide p.4-5; the Week 6 email ("should remain consistent in the Final Report").
+Every WInS holding has a stated purpose. Evidence: the Week 6 email.
+A co-sponsor message that is credible, not hype. Evidence: the new Creativity clause ("clearly and credibly to prospective co-sponsors"); the CFA Code's "truthful, accurate, complete, and understandable" standard.
+Authentic team voice and real reflection. Evidence: the FAQ's "authentically"; the criteria's "reflects meaningfully" and "meaningful reflection"; Ray's 3 Nov finding that AI prose "reads as AI and corny" (Keel Experience tab).
+Concise writing. Evidence: the badge PDF's "clear, concise"; Thomas Jefferson's "less is more"; the 2022 judge's "cut slides, cut words" (Portrait tab, not re-checked).
+Sources (all accessed 7 Nov 2026)
+https://globalyouth.wharton.upenn.edu/news/2026-investment-competition-global-champions/
+https://globalyouth.wharton.upenn.edu/news/11-teams-advance-to-the-2026-wharton-global-high-school-investment-competition-global-finale/
+https://globalyouth.wharton.upenn.edu/news/a-winning-season-thousands-of-teams-bigger-stakes-and-the-top-50-2026-investment-competition-teams-revealed/
+https://globalyouth.wharton.upenn.edu/competitions/investment-competition/
+https://globalyouth.wharton.upenn.edu/competitions/investment-competition/rules-roles/
+https://globalyouth.wharton.upenn.edu/competitions/investment-competition/faq/
+https://globalyouth.wharton.upenn.edu/competitions/investment-competition/archive/
+https://globalyouth.wharton.upenn.edu/ai-policy/
+https://globalyouth.wharton.upenn.edu/wp-content/uploads/2025/01/24-25-Participant-Badge-Evidence.pdf
+https://globalyouth.wharton.upenn.edu/news/lets-go-announcing-the-top-10-teams-advancing-to-the-wharton-investment-competitions-2025-global-finale/
+https://globalyouth.wharton.upenn.edu/news/announcing-the-semifinalists-in-the-2025-wharton-global-high-school-investment-competition/
+https://globalyouth.wharton.upenn.edu/news/bam-investing-from-deerfield-academy-massachusetts-wins-the-2025-wharton-global-high-school-investment-competition/
+https://globalyouth.wharton.upenn.edu/news/wharton-investment-competition-tales-from-the-2023-teams/
+https://www.westminster.org.uk/news-hub/westminster-school/westminster-school-economists-pitch-their-way-to-the-final-of-global-investment-challenge/ (redirect from ?p=11311)
+https://www.ramaz.org/ramaz-news/~board/us-news/post/the-six-student-end-zone-equity-is-top-50-in-the-wharton-global-high-school-investment-competition
+https://www.lumiere-education.com/post/wharton-global-youth-program-s-investment-competition-a-comprehensive-guide
+https://rpc.cfainstitute.org/-/media/documents/code/amc/asset-manager-code-and-guidance-2nd-ed.pdf
+https://www.ishares.com/us/products/328944/ishares-ibonds-dec-2032-term-treasury-etf ; https://www.sec.gov/Archives/edgar/data/1100663/000119312522189317/d356524d497k.htm (IBTM summary prospectus)
+Local, official: Client Case Study.pdf, Competition Guide.pdf, Competition Infographic.pdf, Emails/26-27 Week-Five-Email.pdf and Emails/26-27 Week-Six-Email.pdf (all in /Users/ray/Library/CloudStorage/GoogleDrive-jiwang27@knox.nsw.edu.au/My Drive/Knox Wharton 2026/Caplet Investments/Final Report/)
+Fact-check log
+Earlier criteria wording ("visually appealing", sector minimum, "persuade the client to hire") -> Corrected. Lumiere's Aug 2023 guide quotes "visually pleasing presentation of data", "at least as many sectors as there are team members" and "would win him/her over as a client". The new wording drops the first two and recasts the third as "earn her confidence". "Authentic team voice" was already in the old wording. Sources: Lumiere; Evaluation criteria tab.
+Badge PDF phrases "memorable and unique" and "clear, concise and compelling written overview" -> Confirmed (24-25 Participant Badge PDF).
+Rules page: Top 50 chosen on "strength of" IPS and Final Reports; citation and image crediting; CFA Asset Manager Code; recording ban -> Confirmed (rules-roles; the CFA line is in the Ethics section, found in the page HTML).
+FAQ: no feedback; "reasoning, assumptions, tradeoffs, and competition experience clearly and authentically"; "all five components"; semifinal by video conference, all members participate -> Confirmed (FAQ page).
+2026-27 dates: Learning Day and Finale 29-30 April, Semifinals TBD -> Confirmed (competition page). Top 50 announced 30 Jan 2025 and 27 Jan 2026 -> Confirmed (Wharton news dates).
+2025-26 results, finale judges' firms and client -> Confirmed (champions article, 30 Apr 2026). The Top 11 article's "15 judges, mostly Wharton alumni investors" -> Corrected to 15 listed judges, 10 with Wharton degrees, described as "Wharton alumni and industry experts". 49 semifinalists and 4 of 11 non-US -> Confirmed.
+Westminster: $500k toward $1.5M by 2036, foundation income, Python, "interventionist", "highly commended" for research, presentation and adapting -> Confirmed (Westminster School news page; the school's own account).
+2025 semifinal: 15 judges in groups of three, Melissa Ko Hahn's "written reports and the videos" and "simple, elegant ideas" said at the semifinal -> Confirmed ("Let's Go" article, 24 Mar 2025).
+2025 finale: 10+5 minutes, four judges, Chirag Jain quote, client "impact-minded" -> Confirmed (Deerfield article; the client was Ladi Ayoola).
+2023 lessons: Thomas Jefferson "less is more" while drafting the final report; an advisor's thesis-first advice -> Confirmed (Tales from the 2023 Teams; speakers Brian Z of DMV's Finest and advisor Alex Lamon).
+Client real but scenario made up -> Confirmed (competition page: "While the client is real, the financial scenario is developed specifically for the competition").
+CFA Code: Section F "truthful, accurate, complete, and understandable"; disclosure of strategy, risk factors, fees, valuation methods and risk-management processes; Principle 5 -> Confirmed (CFA Asset Manager Code PDF, 2nd ed.).
+IBTM: 0.07% fee, 2032 maturities, wind-up around 15 Dec 2032 -> Confirmed, upgraded from a snippet (iShares; SEC summary prospectus 2022). Added that the fund "does not seek to return any predetermined amount at maturity".
+Week 5 and 6 emails: instructions posted 9 Nov at 9:00 a.m. ET; "important part of your Final Report"; "each investment serving a clear purpose"; only WInS stocks, ETFs and government or Treasury bonds -> Confirmed. "Planned adjustments allowed, no redesign" -> Corrected attribution: it comes from Guide p.5, not the emails. Infographic "Strategy guides every decision." -> Confirmed.
+Case "must" items (operating reserve, high-certainty definition, range plus confidence, fundraising text) on Case p.3-4 -> Confirmed (Client Case Study.pdf p.3, with fundraising text on p.4).
+Week 5 bans only individual TIPS and STRIPS -> Confirmed (26-27 Week-Five-Email.pdf). Whether WInS lists a TIPS ETF -> Unconfirmed.
+Submitted IPS contains the half-VT move before 2031, the two-reason change rule, "will depend on a share price", "without doubt", "roughly $300,000", and none of 7%/5.1%/75%/$169k/$136k/12% -> Confirmed (Past Submissions tab). The claim that the v11 rule equals the IPS rule -> Corrected: the IPS rule is worded differently.
+Portrait "Finalists are mostly US teams" -> Corrected. The statement is still literally true (7 of 11 in 2025-26), so it is reframed as understating the trend rather than being wrong.
+Team counts of 5,400+ vs 6,300+, and 10 vs 11 finalists -> Confirmed as Wharton's own inconsistency (Top 11 article; Top 50 article; competition page).
+VT 0.06% fee, the 98.7%-in-99-of-100 figure, the $21,000 shortfall, and the Portrait's 2022 "cut slides, cut words" quote -> Unconfirmed at a primary source. These come from internal tabs and Trading Note 3; they were checked only against the team doc.
+Absence of public Final Report instructions and past reports -> Unconfirmed (not found in searches; this does not prove they don't exist).
+

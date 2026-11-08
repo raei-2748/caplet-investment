@@ -1,27 +1,27 @@
 # Numbers and Models: what the modelling shows (for Portfolio Analysis)
 
-Written by Claude (Keel) on 7 Nov 2026. Every number below is a model result or a market fact with its date. Read the warning first.
+Written by Claude (Keel) on 7 Nov 2026; corrected on 8 Nov to the IPS Caplet submitted (the FINAL tab, the letter to Laura). Every number below is a model result or a market fact with its date. Read the warning first.
 
 ## Warning before quoting anything
 
 - These numbers come from several draft designs and several Treasury curves (22 Oct to 5 Nov). Before the Final Report quotes one, re-run it on one engine, on one dated curve, using the design in Caplet's submitted IPS. Keel's own plan calls this "one numbers sheet".
 - Say "we modelled" or "in our model", never "we judge" or "we expect", and give the assumption.
 - WInS gains and losses never go into Laura's projections (Case p.4).
-- Caplet's IPS (v12) uses about 7% a year for world shares. The submitted Trading Notes and most of Keel's models used 7.5% (J.P. Morgan's 2027 long-term estimate). Pick one and state it.
+- Caplet's submitted IPS (the FINAL tab, the letter to Laura) names no return for shares. The submitted Trading Notes say about 7.5% a year (J.P. Morgan). Source: J.P. Morgan's 2027 Long-Term Capital Market Assumptions (press release, 19 Oct 2026): "Global equities are projected to return 7.5% (USD), increasing from 7.0%." So the Trading Notes' figure is the world-stocks number, the right one for VT; the 7.50% for developed markets outside the US in the 2026 edition is a coincidence of editions. Keel's models used 7.0% or 7.5%; the Final Report will test about 4% to 10%.
 
-## 1. The numbers in Caplet's submitted IPS (v12), and where they come from
+## 1. Numbers from Caplet's v12 draft (not in the submitted IPS), and where they come from
 
-- The ten payments need about 5.1% a year on the 2027 deposit; the chosen Treasuries yield about 5.15%. Check: $500,000 of payments against $300,000 today.
+- The submitted IPS quotes one number: the ten Treasuries cost roughly $300,000 at current yields. The rest of this section comes from the v12 draft and Keel's models on older designs, so treat it as leads to re-run. The ten payments need about 5.1% a year on the 2027 deposit; the chosen Treasuries yield about 5.15%. Check: $500,000 of payments against $300,000 today.
 - In our simulations the facility contribution reached the top of the range in about three paths in four (model suite M6: 75% in the standard world, 79% with clustered crashes, 84% replaying history since 1871).
 - A 40% fall in world shares during 2032 would lower a typical contribution from about $169,000 to $162,000, because the floor is owned in Treasuries.
 - A 0.5-point fall in yields before January 2027 would reduce the floor to about $136,000. Rule of thumb from our models: each 0.1-point fall moves about $3,000 of the 2028 deposit from the floor to the payments (M3).
-- A permanent 2-point fall in reinvestment rates would leave the payments about $21,000 short over the decade, covered from the shares Laura keeps (15 Oct number sheet: about $11,000, $21,000 and $31,000 short for 1, 2 and 3-point falls).
+- A permanent 2-point fall in reinvestment rates would leave the payments about $21,000 short over the decade (15 Oct number sheet: about $11,000, $21,000 and $31,000 short for 1, 2 and 3-point falls). The v12 draft covered this from the shares Laura keeps; the submitted IPS says no payment depends on a share price, so the Final Report must show how this risk is handled within the submitted plan. Re-run on the 6 Nov curve.
 - 2.5% inflation cuts the floor's real value by about 12% by 2033.
 - Result: about two-thirds Treasuries for the payments, one quarter in the floor, under one tenth in shares.
 
 ## 2. The cost of the ten payments today
 
-- 5 Nov 2026 close (US Treasury par curve): the ten payments cost $302,163 on 1 Jan 2027 at curve prices, $2,163 over $300,000 (keel/scripts/ladder_history.py). On 23 Oct they cost $297,636.
+- 6 Nov 2026 close, the day trading froze (US Treasury par curve): the ten payments cost $301,544 on 1 Jan 2027 at curve prices, $1,544 over $300,000 (keel/scripts/ladder_history.py). On 5 Nov they cost $302,163; on 23 Oct, $297,636.
 - Priced with the exact instruments we hold (5 Nov bond quotes, 4 Nov iBond yields): $303,269. If money earns nothing between each maturity and 1 January: $306,663.
 - Sensitivity: about $290 per 0.01 point move in yields, so a 0.25-point fall costs about $7,300 more.
 - This is why the IPS lets the 2028 deposit finish the set if yields fall first.

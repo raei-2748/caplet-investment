@@ -345,7 +345,10 @@ def decisions(path):
 
 def bible():
     """keel/BIBLE.md (Ray's 26 Oct message, read first by every run) and the six members' takes on it."""
-    txt = (ROOT / "keel/BIBLE.md").read_text(encoding="utf-8") if (ROOT / "keel/BIBLE.md").exists() else ""
+    src = ROOT / "archive/bible_2026-11-08/BIBLE.md"  # the books moved here on 8 Nov; keel/BIBLE.md is a pointer
+    if not src.exists():
+        src = ROOT / "keel/BIBLE.md"
+    txt = src.read_text(encoding="utf-8") if src.exists() else ""
     if not txt:
         return {}
     rules, cur = [], None

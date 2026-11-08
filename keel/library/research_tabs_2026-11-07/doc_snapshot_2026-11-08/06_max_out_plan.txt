@@ -1,0 +1,103 @@
+Max-out plan: criterion by criterion
+Written by Claude (Keel) on 7 Nov 2026 through a 15-agent research workflow (Firecrawl and web search). Each stream was checked by a separate fact-checker; see its Fact-check log. Labels: [Verified] read at the primary source, [Secondary], [Snippet], [Inference], [Unconfirmed]. Research notes only: the team writes every submitted word.
+These are research notes for Caplet. The team writes every word that gets submitted. "R-x" points to a research stream: R1 Laura, R2 Taiwan, R3 Markets, R4 Methods, R5 Co-sponsors, R6 Competition, R7 Experience.
+1. The five criteria
+Investment Strategy
+Strongest moves, ranked
+Add a table showing the report matches the IPS. Quote each IPS sentence beside the section of the report that carries it out. Cover these four: the 2028 deposit completes the ladder; half of VT moves into Treasuries before 2031; only two reasons to change the plan; "none… will depend on a share price". The new criteria wording asks for consistency with the IPS, and Guide p.5 says teams may not redesign (R6).
+Show what each part of the money does, year by year, from 2027 to 2042. Cover the deposit, the ladder, the floor, the move of half of VT in 2031, the reserve in 2033, and each payment as it is made. This answers the "changing time horizons" phrase in the criteria and the case's question about how the reserve's makeup changes as payments are made (Case p.3; R6).
+Say that certainty is cheap right now. The 10-year yield has been at or above 4.86% in only 11% of months since 2000. Before Sep 2026, the last month above 4.75% was Oct 2023, and it lasted one month. The cost of the ladder moved from $289.6k to $302.1k between 7 Oct and 6 Nov, which shows the 2028 completion rule is a real working rule (R3).
+Cite the 1960s mirror case. When rates rose afterwards, reinvestment helped. That shows the ladder is exposed in one direction only, and the shares Laura keeps cover that direction (R3).
+Explain why the plan does not change course. Westminster's team was praised for adapting, but this year's Guide forbids redesign. Caplet's two-trigger rule follows the Guide (R6).
+Biggest risk: a judge catches the report contradicting the IPS. Two places are at risk. The IPS says no payment depends on a share price, yet the shares cover a reinvestment shortfall. And the Brief calls the move of half of VT an "optional v11" step, when it is in the submitted IPS.
+Fix: cost the reserve as if the interest earns nothing, the way bond escrows are sized (that cost is $306,663 in the tab). The 2028 deposit then covers the gap, so the shares truly pay for nothing (R4, Ideas §1). Describe the move of half of VT as an IPS commitment.
+Client Knowledge
+Strongest moves, ranked
+Back the human-capital insight with her own words. Use one short cited line: she doesn't know how a book will do "until the day it hits the shelves". Pair it with her "unstable income" remark about leaving Twitter (R1). This fills the Criteria Map gap: why the plan suits Laura and not just any client.
+Use the arts-specific recession figures. Adjusted for inflation, arts giving fell 10.1% in 2008, against 2.4% for all giving. Foundation giving fell 8.6% in 2009 (R5). This strengthens the "one storm, three holes" argument for her co-sponsors in particular.
+Treat Taiwan as real, not hypothetical. She has lived and worked in Taipei. Taiwan ministry grants are reviewed every year, depend on the legislature's budget, and cannot pay for the same item twice (R1, R2). That gives concrete Taiwan evidence for the case rule that grants can't fund the ten payments.
+Use Bamboo Curtain carefully, as a lesson. It was a residency in Taiwan that ran mostly on its founder's own money and stopped at the end of the year she died. The cause is unconfirmed, so don't state one (R2). Paying for all ten years in advance means the residency's first decade doesn't depend on Laura's later income or on her yearly decisions.
+Write rules the way a product manager would. Use an "if this happens, we do this" table for three cases: the 2028 deposit is late or short, yields fall, shares fall. Her Twitter PM background and her statistics degree make this format a good fit (R1, Case p.1).
+Resolve the "community" question. Her book says to rely on community. The case says the ten payments are hers alone, and the community helps with the building and with growth (R1, Case p.3).
+Biggest risk: the text could be pasted onto any client with fixed payments (self-scoresheet: "Yes = 0").
+Fix: tie every rule to one Laura fact: lumpy advances, a cyclical 2028 deposit, co-sponsor credibility, Taiwan costs, a statistician reading the odds.
+Portfolio Analysis
+Strongest moves, ranked
+Put one numbers sheet on one engine and one dated curve (Keel §4; R3). Everything else depends on this.
+Answer the case's actual confidence question. First give the chance the 2033 gift lands inside the range. Then give the chance it reaches the top. Say what each figure is out of, for example "in about 3 of every 4 market histories we tested" (R4, R5, Case p.3).
+Define certainty as both how often and how much. For each model world, give the chance of any shortfall, the average shortfall when one happens, and the worst 1 in 100 (Kennedy and Majeski, Roy; R4).
+Restate the 2-point reinvestment fall as the normal case, not a stress. It is the median outcome after 1990 when yields started where they are today. A 3-point fall is about the worst case on record (R3). This is the strongest honesty point in the report.
+Add a funding-ratio line through the WInS period, and a table checking each holding against its payment the way escrow agents do (LDROM and NABL idea; R4).
+Add a tornado chart and a dollar table of who absorbs each loss (Kitces "outcomes, not probabilities"; R4). Close with a three-line disclosure modelled on FINRA rule 2214.
+Biggest risk: numbers drift, or a figure contradicts the curve. Examples: "5.15% yield" against a $302k cost, and the same cost appearing as $4k, $9k, $15k and $19k on different engines.
+Fix: use the checklist in section 5, and put a date and an assumption on every figure.
+Articulation of Competition Experience
+Strongest moves, ranked
+Write each episode as What happened → Decision and options → Evidence at the time → So what → Now what. "Now what" covers process only (Edinburgh model; Guide p.5; R7).
+Add a one-page decision log that records who disagreed and why, with consent. Edmondson's research suggests a team that records disagreement reads as more credible than one that claims it always agreed (R7).
+Separate the decisions from the WInS result. Cite Duke's "resulting" (judging a decision by how it turned out) and Guide p.3 (R7).
+Pick the episodes that show learning: 27 Sep model, stale prices, 00:30 trading, Darren's challenge, rule changes, IPS written by the team itself.
+Creativity and Presentation
+Strongest moves, ranked
+Fix the co-sponsor draft. Delete "running costs of $50,000 a year" and "not needed for the first ten years"; the case says the opposite (R5). Separate "I commit at least $X" from "I expect up to $Y".
+Use a fan chart of 2028–2033 with three named scenarios on top (a 2008 replay, a 1923 start, a strong market). The fan shows the spread and the scenarios explain why outcomes differ (Bernanke and Lombardelli; R4, R5).
+Give a range plus a "most likely" figure, with no vague hedges. Van der Bles's experiments found verbal hedges cost trust; a numeric range cost almost none (R5).
+Pitch it to co-sponsors as partners. Say what Laura brings, what is already secured, and what partners are asked for. This mirrors how she framed Pride in Panels (R1). The point that announced seed money draws in other donors is backed by List and Lucking-Reiley (R5).
+Write the section headings so they can become a 10-minute semifinal talk (R6).
+Biggest risk: the co-sponsor text contains factual errors against the case, or a probability with no "out of".
+Fix: check the text line by line against Case p.3–4, and state every probability with its denominator.
+2. Ideas a generic team would not have (all within the IPS)
+The reserve is its own low-risk benchmark. Pension plans must now report what their promises would cost at low-default-risk bond yields. Laura's reserve actually holds those bonds, so the two figures coincide. Fits Laura because: a statistician can check the funding ratio herself.
+Size the reserve as if no interest is reinvested, the way bond escrows are sized. Because a 2-point fall is the historical median, this is the honest way to size it. Fits Laura because: "no payment depends on a share price" becomes literally true.
+A written, already-owned floor helps her pass foundations' readiness tests. Kresge counted written pledges toward the share of a goal raised. The Royal Ontario Museum's unpaid pledges show why money already paid in matters. Fits Laura because: the case names credibility as her risk.
+The prepaid decade removes founder dependence. Bamboo Curtain is the Taiwan lesson (state no cause for its closure). Fits Laura because: a residency in Taiwan, founded by her.
+Her payments are the stable base that Taiwan grants sit on top of. Ministry grants are reviewed every year and can be cut by the legislature. Fits Laura because: it explains the case rule using her actual market.
+A currency table that names its own limit. The money kept back covers an ordinary Taiwan-dollar move (about +11% at the 90th percentile) but not a return to the 2022 rate (+18.5%). Fits Laura because: she has lived there and will notice if this is overclaimed.
+A PM-style "if this happens, we do this" rule table, with 2031 as the formal review. Fits Laura because: she worked as a product manager running roadmaps and A/B tests.
+3. Contradictions and tensions
+7% vs 7.5% vs about 6.5%. R3 verified J.P. Morgan's 7.5%. R4 could not verify it and leaned toward FP Canada. R6 found that the submitted IPS contains no rate at all. Judgment: use 7.5% as the base so it matches the locked Trading Note 3. Call it the top of the dated range, and show Vanguard's about 5.8% as the low case. The effect is a few thousand dollars.
+"3 in 4 reach the top" may be out of date. If half of VT moves into Treasuries before 2031 (as the IPS says), the top is mostly fixed in 2031, so the October figure probably reflects the earlier design. Judgment: re-run on the IPS design before quoting.
+In-range confidence: "at least about 99%" (R4) vs "99 in 100 that the floor pays at least 98.7% of face value" (R5). These are different quantities. Judgment: compute the in-range probability directly.
+Quoting Laura. Client §8 says "avoid quoting her"; R1 recommends one quote. Judgment: one short, cited, public quote is evidence, not putting words in her mouth. Never paraphrase her into a commitment.
+"TIPS banned" (three tabs) vs the Week 5 email, which bans only individual TIPS and STRIPS. Judgment: correct the wording. The reason for not using TIPS (payments are fixed in dollars) still stands.
+Two versions of the "first plan". One was about three-quarters shares and missed payments; the other locked the ladder in 2027 and could not miss. Judgment: the team must reconcile them before writing E1.
+Taiwan building inflation: M4's 3.5% vs 7.18% now. The 7.18% is a snippet only. Judgment: model a 3.5–7% range, applied to the building, not to the payments.
+Set in Stone "92%". That figure is producing theatres only. Use 46–92% by building type (Table E). Don't use the different measure on p.13.
+The "AFP 60–80%" figure comes from a careers-site page, not AFP guidance. Drop it, and keep Capital Campaign Pro's 65%, or 75–80% for small organisations.
+Giving USA figures. Label them as inflation-adjusted, and use the arts figures instead.
+"Required yield 5.09%" vs "Treasuries yield 5.15%." The bases differ (5.09% annual equals 5.02% half-yearly), and the 5.15% matches roughly the mid-October curve. Put a date on it or drop it.
+Funding ratio. The 99.3% compares the deposit, not the holdings, with the cost. Once the bonds are held, the ratio should sit near 100%.
+Westminster praised for "adapting" vs Guide p.5's ban on redesign. Present Caplet's discipline as following the Guide.
+4. Completeness critic (ranked by marks at stake)
+Final Report instructions (9 Nov): format, length, charts, appendix. Every structural choice depends on these.
+The models re-run on the submitted IPS design (half of VT moved, no-reinvestment sizing). Nothing in Portfolio Analysis is quotable until this is done.
+Direct evidence that her income is cyclical. The thesis rests on the claim that advances and speaking fees shrink in recessions, and that claim is an inference. Look for publishing-advance data from 2008–09, speaker-bureau data from 2020, and Authors Guild trend data.
+Early-closure risk for small iBond funds. IBTR has $37m in assets and IBTP and IBTQ each hold only 4 notes. Can iShares close a term fund early? If so, the money comes back early and must be reinvested. This is unverified.
+The 2026 Treasury credit picture (downgrades, debt-ceiling episodes) behind "barring a US default". Not covered.
+Construction-cost index of 7.18% (snippet only) and the Bamboo Curtain road-works PDF (not read).
+Equity forecasts from other investment houses for 2027 (BlackRock, GMO, AQR equities). Re-check before 4 Dec.
+Semifinal length and format; whether the five criteria are weighted equally.
+Primary checks still outstanding: the IPCC likelihood table, the natural-frequency meta-analysis, Duke's book, and the 30% pre-mortem figure (Mitchell 1989). Don't cite any of these until checked.
+Whether WInS lists a TIPS ETF (minor).
+5. Numbers to re-run on one engine (one curve date, one design)
+Ten-payment cost on 1 Jan 2027: at curve prices, with the exact instruments, and with no reinvestment. Depends on: curve date; holding money between each maturity and 1 Jan; iBond payout about 18 Dec.
+Required yield. Depends on: the compounding basis (annual vs half-yearly).
+Spot rates by payment year. Depends on: the curve date.
+How the 2028 deposit splits between finishing the ladder, the IBTM floor and VT. Depends on: the curve; a deposit of $150k, $112.5k or $75k.
+Floor value. Depends on: IBTM yield; NAV haircut (98.7%?); rounding-down rule; 0.07% fee.
+Top of the range. Depends on: VT return (7.5%, 5.8%, 5%); half of VT moved before 2031.
+In-range probability and probability of reaching the top. Depends on: model world; number of paths; definition of "in range".
+Shortfall chance, average shortfall and worst 1-in-100, for payments and for the gift. Depends on: the four worlds.
+Effect of a 40% share fall in 2032 on a typical gift ($169k to $162k?). Depends on: the IPS design after the move of half of VT.
+Floor after a 0.5-point yield fall (about $136k) and $ per 0.1 point. Depends on: the curve.
+Reinvestment shortfall at −1, −2 and −3 points. Depends on: the reinvestment model; whether no-reinvestment sizing is applied.
+Funding ratio, weekly through the WInS period. Depends on: holdings valued against curve cost.
+Real erosion of the floor and payments. Depends on: 2.5% US inflation and 3.5–7% Taiwan building costs.
+Currency effect on the gift and the money kept back. Depends on: about 32.9 TWD per USD at the start; +11% and +18.5% moves; size of the kept amount (is it $26k?).
+Rival plans' breach rates and money left by 2042. Depends on: the same paths and the same "breaks a promise" definition.
+Strongest rival's 1-in-20 floor ($90k vs $140k) and the $5k median cost. Depends on: one engine.
+History test: the share of months since 1871 when $300k bought all ten payments, and the $469k cost at the 2020 low. Depends on: the 10-year yield as a proxy for the curve.
+2008 replay cost ($361k on an old design). Depends on: the current design.
+WInS value at the freeze (6 Nov, 4:00 pm ET), excluded from the projections. Depends on: the freeze time.
+Lifetime fees in dollars (iBonds 0.07%, VT 0.06%). Depends on: balances and holding periods.
+
