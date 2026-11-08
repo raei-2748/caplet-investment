@@ -1,0 +1,17 @@
+Dear Laura,
+
+The operating commitment from Laura is ten payments of $50,000 to her Taiwan residency, due each January from 2033 to 2042, therefore expecting to pay $500,000 against her initial deposited $450,000. The primary objective is to meet every payment with a high degree of certainty using only the portfolio. The secondary objective is a facility contribution with a minimum Laura can announce in 2031, while preserving her financial flexibility.
+
+The payments require a 5.1% annual return on the 2027 deposit, and the chosen Treasuries yield about 5.15%, which is sufficient in meeting the requirements. Laura's tolerance for risk is relatively high, as other income covers her living costs. She takes thoughtful risks but seeks a balance between maximising growth and protecting capital. Because her 2028 deposit depends on publishing and speaking income, we use the 2027 deposit alone for the payments.
+
+In January 2027 we buy Treasuries for all ten payments, beginning with 2042, so any shortfall can still be covered by the 2028 deposit. Excess funds buy into the floor: a Treasury ETF maturing in December 2032 with a portion invested into one global equity index fund, historically returning around 7% per annum, held until 2033. The result is about two-thirds Treasuries, one quarter floor and under one tenth equities.
+
+Bonds are held to maturity, so each payment's liquidity comes from a set maturity date at a set price. From 2033, the remaining Treasuries fund the operating commitment. The range Laura gives co-sponsors in 2031 has the floor as its lower bound, rounded down because a fund's payout is not fixed. Its upper bound adds half the equity fund's value, less any expected payment shortfall. In 2033 she contributes the floor plus half the fund, capped at the upper bound, and retains the other half for flexibility. In our simulations the contribution reached the upper bound in about three of four paths. Because the floor is owned, a 40% fall in world stocks during 2032 would lower a typical contribution from about $169,000 to $162,000.
+
+Beyond a US debt default which has never occurred historically, the main risk iss are falling yields and increasing costs in Taiwan. A 50 basis point fall before January 2027 would reduce the floor to about $136,000. A permanent two-percent fall in reinvestment rates would leave the payments about $21,000 short, which would be covered by her retained equity. Inflation of 2.5% would cut the floor's real value by about 12% by 2033, and a stronger Taiwan dollar would raise costs further. Holding the floor in equities would raise the expected contribution but endanger a figure Laura has announced, so it remains in Treasuries.
+
+The strategy adopts a largely passive investment approach, prioritising stability and certainty over speculation. This ensures that decisions remain guided by Laura’s long-term objectives rather than short-term market movements. By securing her operating commitments through Treasury securities while allowing a measured portion of the portfolio to pursue growth, the strategy balances reliability with opportunity to allow for essential obligations to be met while preserving the flexibility to support her other goals.
+
+Yours,
+Caplet.
+

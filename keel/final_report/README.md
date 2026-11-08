@@ -9,17 +9,20 @@ final draft by **Sat 28 Nov** (Ray's message of 8 Nov, thread "Write an extraord
 - **Older plan, to be re-based:** `/mnt/project-files/final_report/ERUDITION_PLAN.md` (4 Nov, written for Keel's V56).
 - **Research tabs** (7 Nov, in Caplet's FINAL REPORT Google Doc, built on v12): `../library/research_tabs_2026-11-07/`.
 
-## The schedule (Sydney)
+## The schedule (Sydney), revised Sun 8 Nov after Ray's second message
+
+No Final Report prose before **Fri 27 Nov**. The 19 days before it produce ideas, notes and numbers only, nothing
+meant to be pasted into the report. Then one 24-hour writing session: draft, review, rewrite, at least twelve rounds.
 
 | Dates | Stretch | What happens |
 |---|---|---|
-| Sun 8 - Mon 9 Nov | Research | Re-base on the FINAL IPS; pull every idea Keel already found into one list; fix the Research tabs; voice study 1 |
-| Tue 10 Nov | Research | Wharton's FR instructions arrive 01:00; map them; question 1 |
-| Wed 11 - Mon 16 Nov | Research | Questions 2-7, about one a day; numbers re-run on one engine; digest to Caplet Sun 15 |
-| Tue 17 - Thu 19 Nov | Putting it together | Combine; attack with readers who disagree; voice studies 2-3; outline (no prose) |
-| Fri 20 - Sat 21 Nov | Writing | Draft A from scratch; teardown |
-| Sun 22 - Thu 26 Nov | Writing | Draft B from scratch; exhibits and citations; Draft C; final reads |
-| Fri 27 - Sat 28 Nov | Writing | Works Cited; **final draft to Caplet Sat 28 Nov** |
+| Sun 8 Nov | Set-up | Ray's two 8 Nov messages into the Bible (Books 13-14); every earlier idea gathered into one store; voice study 1; 6 Nov curve saved |
+| Mon 9 Nov | Set-up | Full expectation notes on every Bible book (`../EXPECTATIONS.md`), checked line by line, then originals archived; Research tabs corrected to the FINAL IPS |
+| Tue 10 - Mon 16 Nov | Research | Wharton's FR instructions (Tue 01:00) mapped; questions 1-7, one a day; digest to Caplet Sun 15; numbers engine set to the FINAL design Mon 16 |
+| Tue 17 - Sat 21 Nov | Analysis | Every number re-run on one engine and one curve; second round on the richest seams; each plan part traced to its ideas; attack by readers who disagree; third round on the gaps; case re-read against the store |
+| Sun 22 - Thu 26 Nov | Analysis | Voice studies 2-3; sources checked at source; charts; co-sponsor communication; store ranked for the last time; argument laid out as notes per section (no prose); final fact and number checks |
+| Fri 27 Nov | Writing | One 24-hour session: at least twelve rounds of draft, review against Wharton + the expectation notes, rewrite; each round logged in `drafts/` |
+| Sat 28 Nov | Writing | **Final draft to Caplet** |
 
 ## The seven research questions (each from a sentence in the FINAL IPS)
 1. Is Laura's career really a stock, and what kind? 2. Who else promises fixed payments, and how did they keep or
@@ -35,7 +38,8 @@ like it; how it is not; what we take), in `research/`.
 - Shares at 7.5% a year (the TNA's J.P. Morgan figure); the FINAL IPS names none, so nothing conflicts.
 
 ## Folders
-- `research/`: the idea list (harvest of all earlier Keel research) and one card per idea.
+- `research/`: `INSIGHT_STORE.md` (one ranked, categorised store of every insight, old and new; nothing deleted, only
+  ranked lower), the harvest files it was built from (`harvest/`), and one card per idea.
 - `voice/`: the three voice studies.
 - `numbers/`: the one engine set to the FINAL design, on the 6 Nov close.
-- `drafts/`: nothing before Fri 20 Nov.
+- `drafts/`: nothing before Fri 27 Nov.

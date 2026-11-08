@@ -14,3 +14,6 @@ Calculations from these files: `research/verified_2026-09-27/official_curve_pv.p
   2026 CSV export; the 5 Nov row from the XML feed (`pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value_month=202611`),
   read twice with the same result; 23 Oct row identical to `daily-treasury-rates_2026-10-23.csv`; 10y for 29 Oct to 4 Nov
   matches FRED DGS10. Ten payments priced on it: `python keel/scripts/ladder_history.py <this file>` (5 Nov: $302,163).
+- `daily-treasury-rates_2026-11-06.csv`: the 5 Nov file plus the 6 Nov close (the day WInS trading froze), read 8 Nov
+  2026 twice with the WebFetch tool, from the TextView page and the XML feed (same values both times); 2-5 Nov rows
+  on the TextView page match the 5 Nov file. The Final Report's one curve (`keel/final_report/numbers/`).
