@@ -1,15 +1,17 @@
 # What Caplet expects of Keel: notes on the whole Bible
 
-First draft Sun 8 Nov 2026 (Sydney); revised the same day after an independent line-by-line check against every book
-and every register row. Written at Caplet's request (Book 14): "create truly comprehensive notes on all of my Bibles
+First draft Sun 8 Nov 2026 (Sydney), a day earlier than the plan's Mon 9 Nov; revised the same day after two
+independent line-by-line checks against every book and every register row. Written at Caplet's request (Book 14): "create truly comprehensive notes on all of my Bibles
 ... such that I could say, 'You've expressed my thoughts and expectations even better than I did.'"
 
 **What these notes cover.** Every book of the Bible (Books 1-16, the cover note of 26 Oct, the preface on where the
 Bible sits, the list of what it overruled on 26 Oct), Ray's points of 5 Nov that Book 12 says to keep in mind, the Ten
-Commandments Keel drew from Books 1-10, every row of the instruction register (`INSTRUCTIONS.md`, B and I01-I92), and
+Commandments Keel drew from Books 1-10, every row of the instruction register (`INSTRUCTIONS.md`, B and I01-I93), and
 Keel's earlier rubric of Caplet's expectations for the IPS (`ips_rewrite/final_night/other_thread/harvest/05_EXPECTATIONS.md`).
 Wharton's word (`WHARTON_WORD.md`) ranks above all of it and is kept whole, not summarised here; section 0 says how the
-two fit. Part 10 maps every source to the notes that carry it, so anyone can check that nothing was dropped.
+two fit. Part 10 maps every source to the notes that carry it, so anyone can check that nothing was dropped. The books
+themselves are kept verbatim in `archive/bible_2026-11-08/BIBLE.md` (moved there on 8 Nov after the second check;
+`keel/BIBLE.md` is now a pointer). These notes are what every run reads.
 
 **How to read them.** Caplet asked for expectations, not rules: "they can't be responded to with a simple 'yes' or
 'no' ... the extent to which you have met them exists on a continuum". So each note says what Caplet means, describes
@@ -73,7 +75,8 @@ which are later and about the report itself, set the order above; voice is not m
   place once the original books are archived.
 - **The hard limits sit above both** (`pm/INVARIANTS.md`): no WInS or SMApply, no trading, no submitting, no personal
   data, Keel's fiction never presented as Caplet's experience. Caplet's own Google Docs are edited only in suggestion
-  mode, and only where Caplet allows it (the Research tabs of the Final Report doc may be written directly).
+  mode (CLAUDE.md). One exception, given by Ray on 7 Nov when he asked Keel to build them: Keel writes the tabs under
+  "Research" in the FINAL REPORT doc directly, and touches no other tab (register I93; `library/research_tabs_2026-11-07/`).
 - **All of Caplet's books are equal,** and Keel may weigh and question them: "you can decide all of our instructions
   are equal but some are more equal than others, sure! As long as you understand what we're trying to say" (cover
   note, 26 Oct). Where Keel weighs one above another, it says so and why (Part 8).
@@ -141,8 +144,8 @@ what Caplet ranks higher.
 no other team could ever do ... I cannot possibly over-emphasise how important this is. It's absolutely crucial, and
 imperative to our success" (Book 13).
 
-The fourth north star: "truly extraordinary knowledge of investing concepts and strategies" (Book 4). "Go for the most
-niche ones rather than the obvious ones which every team would've heard about" (Book 13); "those which 99.9% of
+The fourth north star: "truly extraordinary knowledge of investing concepts and strategies" (Book 4). "You should go for the
+most niche ones rather than the obvious ones which every team would've heard about and would know" (Book 13); "those which 99.9% of
 students our age and indeed investors don't know about" (Book 9); "from the most unexpected places in the nooks and
 crannies of the web and the world" (Book 13); "dig up info from the most unexpected places and the least-looked-for
 sources" (Book 9). Book 12 gave two places to explore "comprehensively, as they contain thousands of lectures and bits
@@ -161,8 +164,8 @@ The canon is not banned. Book 13's sentence starts "We didn't ignore these", and
 job in Laura's case that the textbook version doesn't.
 
 Everything used is cited: "we can cite all the relevant works in the Final Report to prove that this was built off
-significant and indeed stunning wide reading and research to an extent that is frankly breathtaking" (Book 4); I81:
-the Final Report cites every source. Every concept behind Caplet's IPS gets its source in the report.
+significant and indeed stunning wide reading and research to an extent that is frankly breathtaking" (Book 4). Every
+concept behind Caplet's IPS gets its source in the report.
 - *Falls short:* the ideas any finance textbook lists (diversification, duration, the 60/40, Markowitz) carrying the
   argument by themselves; two links skimmed and called explored.
 - *Meets it:* each part of the plan rests on several sources a well-read practitioner would respect, including some
@@ -278,8 +281,8 @@ strong?" Wharton says the same: judges want "the reasoning, assumptions, and tra
 which your investment decisions work together". Ray asked for one connected argument, not for fewer ideas. Commandment
 VII ("few ideas, at full size") was written for the 500-word IPS and sent the rest here: "sums, edge cases and
 mechanisms go to the Final Report." For the report, Caplet hopes "you could include every single idea in the Final
-Report", and if not, "you must ensure the best ideas remain" (Book 14). And ideas are "a scalpel mapped to the judging
-criteria" (I26): each one is there because it serves a criterion.
+Report", and if not, "you must ensure the best ideas remain" (Book 14). And ideas are a scalpel mapped to the judging
+criteria (I26, register paraphrase): each one is there because it serves a criterion.
 - *Falls short:* many good points, no through-line; the reader has to assemble the case. Or a tidy argument that left
   most of the good ideas on the floor.
 - *Meets it:* the reader can say the strategy, its biggest strength and its main trade-off in three sentences, and
@@ -291,7 +294,7 @@ criteria" (I26): each one is there because it serves a criterion.
 "They're interested in the big picture. They're interested in our investing knowledge and strategic thinking. Not our
 ability to plan out every single detail of every single trade we'll ever make for the next 20 years" (Book 9). "You
 seem to be too focused on making minute changes. A little tiny accuracy error here, a minor word change there ...
-(Frankly, I don't think the judges care that much.)" (Book 9). Judges are not interrogating every word for absolute
+(Frankly, I don't think the judges care that much." (Book 9). Judges are not interrogating every word for absolute
 precision the way an AI does.
 - *Falls short:* pages on edge cases, exact dates of minor trades, internal-consistency trivia; time spent polishing
   words while ideas are missing.
@@ -351,6 +354,7 @@ more AI ... cut the HUMAN way, not the AI way" (Book 9); "Cut things whole, don'
 comes from choosing fewer ideas per paragraph, not from fewer words per idea.
 - *Falls short:* the small words, verbs and links stripped out to save space.
 - *Meets it:* each idea has the sentences it needs; ideas that don't fit are cut whole.
+- *Delights:* the prose feels unhurried and still nothing in it is spare.
 - *In the Final Report:* the report has room the IPS did not. An idea Caplet left out of its 500 words for space is not
   an idea Caplet rejected (see T16 for how Keel tells the two apart).
 
@@ -367,9 +371,11 @@ realm" (Book 12).
 Where the voice comes from, in order:
 1. Caplet's FINAL IPS and the Trading Notes Analysis, "a genuinely distinctive voice which differs vastly from AI slop"
    (Book 13), and Caplet's own edits to Keel's text (their rewrite of the Experience tab, `library/research_tabs_2026-11-07/doc_snapshot_2026-11-08/01_experience_with_caplet_edits.txt`).
-2. Keel's voice studies, including finance writers with real personality, "as much or more" than Ahaan's essays (I69):
-   Buffett's letters, Marks's memos, bank research (Goldman, J.P. Morgan, Morgan Stanley), great essays and university
-   essays (I47), and Orwell ("you can and should absolutely use him", Book 5).
+2. Keel's voice studies, including real finance writers with real personality, as much as or more than Ahaan's
+   essays (I69, register paraphrase): bank research (Goldman, J.P. Morgan, Morgan Stanley), great essays and
+   university essays, investor theses (I47), and Orwell ("you can and should absolutely use him", Book 5). Buffett's
+   letters and Marks's memos are Keel's own picks for the "funny or eccentric finance gurus of Wall St" that Book 9
+   calls "very useful".
 3. Ahaan's three essays, as a small pointer for tone only: "not gospel"; "very much secondary to the voice studies – my
    voice isn't as good; it's just a small guide" (Book 12).
 
@@ -567,6 +573,7 @@ a clear indication of preference in one direction or another when really I'm jus
   Caplet's settled choices because Keel prefers its own.
 - *Meets it:* Keel decides, logs why in `pm/ASK_HUMANS.md`, and carries on; it argues with Caplet openly where it
   disagrees, and Caplet's decision on its own deliverables stands.
+- *Delights:* Caplet finds a hard call already made well, with its reason, and has nothing to add.
 
 ### 4.8 Spend effort where the judges look
 Not worth Keel's time: grammar, punctuation and spelling ("Just don't waste your time on that. En dashes are correct
@@ -592,8 +599,8 @@ the IPS." Keel's list, each with where the lesson now lives:
 9. Sentences were squeezed to fit, which made them sound like AI (Books 2, 9, 12): 3.2.
 10. The motif was half used, then had to go (Books 11, 12): Part 6.
 11. Keel produced more than the team could read, and the team could not follow what Keel had done (I80): Part 7.
-12. Keel defended its own drafts after Caplet had moved on. Caplet's IPS is the base; Keel works from Caplet's text
-    (5.2).
+12. Keel's own inference, not Caplet's words: Keel kept building on its own drafts after Caplet had turned against
+    them, and Caplet had to write the IPS itself (Book 16). Caplet's IPS is the base; Keel works from Caplet's text (5.2).
 
 ---
 
@@ -602,7 +609,9 @@ the IPS." Keel's list, each with where the lesson now lives:
 ### 5.1 Real facts and real team events only
 Verified facts, cited; anything unchecked is marked UNVERIFIED (working rules, 27 Sep). Real team events only: no
 invented teamwork or experience stories (Wharton ethics). Keel's six members and their episodes are fiction and never
-appear as Caplet's experience. Laura is a client in Wharton's case; nothing outside the case is treated as her.
+appear as Caplet's experience. Laura is never contacted; her public work may be read and used for framing, but the case is the only source on her
+plan, money and dates, and wins wherever a public source differs. No quotes are put in her mouth that the case does not
+contain.
 Strictness here is about truth, not polish: a wrong fact is fixed, but Keel does not spend days on details that change
 nothing (2.10, T20).
 
@@ -623,15 +632,15 @@ to challenges) is where the team's story belongs, and Caplet's own expectations 
 - The Sydney time-zone story belongs in the Final Report if anywhere (Keel's 23 Oct recommendation, CLAUDE.md).
 - *Falls short:* invented or Keel-sourced events; a story told for its own sake.
 - *Meets it:* the Articulation section uses only what Caplet actually did, decided and learned, ideally in their own
-  sentences (asked for by Sun 22 Nov).
+  sentences (Keel's plan has asked each student for a few by Sun 22 Nov).
 - *Delights:* the reflection shows a team that changed its mind for good reasons, and a judge believes every word.
 
 ### 5.2 One strategy across the TNA, the IPS and the report
 Wharton judges the three deliverables together and wants "a clear and consistent investment strategy across all
 three". Caplet's own IPS (the letter to Laura, Book 16) is the strategy the report must evaluate and build on, with the
 locked Trading Notes Analysis (23 Oct). Book 9 frees Keel from copying the TNA's content ("You can go deeper, you can go
-further"), but never from contradicting it. Keel's lesson from Book 16: work from Caplet's text, and don't defend old
-Keel drafts.
+further"), but never from contradicting it. Keel's own lesson, drawn from Book 16: work from Caplet's text, and don't
+defend old Keel drafts.
 - *Falls short:* a report that quietly changes the plan, or brings in STRIPS or TIPS for Laura's plan (banned by
   Wharton).
 - *Meets it:* every recommendation follows from the IPS as written.
@@ -657,8 +666,8 @@ Book 11 wanted it full-circle, set up at the start and paid off at the end. Even
 "this isn't a literature competition; it's an investment competition."
 
 On 5 Nov Ray reversed the direction: "do not crush" "sounds so corny"; "metaphors alone does not count as creativity";
-the tablet makes Laura sound as if she needs rehab (I85). Ahaan told Keel the same night to "Keep in mind all the
-things Ray just said, because they're really, really important" (Book 12). I85 recorded a proposal for Ray and Ahaan to
+the tablet makes Laura sound as if she needs rehab (I85). The same night, Book 12 (read as Ahaan's message) said: "Keep in mind all the things Ray just said, because they're
+really, really important." I85 recorded a proposal for Ray and Ahaan to
 decide (keep the name Caplet XR, X = ten, R = redemption, drop all medicine imagery); Caplet's submitted IPS answered it
 by having no motif and no product name. It is signed "Caplet", and its thread is an idea: her career is a large holding
 of shares she cannot sell, so the portfolio leans the other way, and it ends on her own work ("You take risks on the
@@ -674,6 +683,9 @@ page").
   sell). An analogy that explains, predicts or tests is wanted; a decorative or long-running image is not.
 - Open question for Caplet, not for Keel: whether the report explains the team name. Book 3 noted the name "may seem a
   bit random to the judges". Keel will not invent a meaning; if Caplet has one, the Articulation section could hold it.
+- *Falls short:* an image or name laid over the plan; or a report with no thread at all, a list of sections.
+- *Meets it:* the IPS's own idea runs through the report, and the end answers the beginning.
+- *Delights:* the thread is the argument itself, so a judge remembers the idea and the team together.
 
 ---
 
@@ -682,7 +694,7 @@ page").
 - Everything written for Caplet is plain English, about a page, with no internal labels (rooms, beats, huddles, codes)
   (Ray, 3 Nov, I80). The register records Ray's second problem as: the team doesn't know what Keel has achieved, Keel
   overcomplicates things and is hard to follow; show the milestones and the best ideas plainly.
-- Chat is serious and plain: no slang, emoji, filler, em dashes or quotable kickers (project memory, 5 Nov). The Stop
+- Chat is serious and plain: no slang, emoji, filler, em dashes or quotable kickers (the project's shared memory, 5 Nov; not in the repo). The Stop
   Slop skill is not a gate on drafts: "I am not asking you to use stop slop yet, let me have the skill in claude first
   globally" (Ray, 5 Nov, 20:05, recorded in Keel's 5 Nov rubric, C18).
 - Two people share the account: Ray (team leader, short spoken-style messages) and Ahaan (long typed messages). Long
@@ -707,9 +719,9 @@ page").
 | T7 | Not bound by the TNA (Book 9) against one consistent strategy (5.2) | Go deeper and further than the TNA; never contradict it. |
 | T8 | Process doesn't matter (Book 9) against Book 14's prescribed process | Book 14 is later and specific to the report. Follow it. |
 | T9 | Overdrive volume (4.5) against "don't be hasty" (cover note) | Both: enormous research done slowly; fast writing only at the end. |
-| T10 | Which voice to learn from (3.3) | Caplet's FINAL IPS, TNA and own edits first; then Keel's voice studies, with finance writers "as much or more" than the essays (I69); then Ahaan's essays as a small pointer for tone, "very much secondary to the voice studies" (Book 12). |
+| T10 | Which voice to learn from (3.3) | Caplet's FINAL IPS, TNA and own edits first; then Keel's voice studies, with finance writers as much as or more than the essays (I69, register paraphrase); then Ahaan's essays as a small pointer for tone, "very much secondary to the voice studies" (Book 12). |
 | T11 | "Do not invent terms, like floor" (Ray, 4 Nov) against Caplet's IPS using "floor" and "ceiling" | Caplet's own submitted words win; the report may use them, defined on first use. Caplet's own coinages are Caplet's; Keel coins none. |
-| T12 | The 7.5% for VT: the TNA cites it; Book 9 says "You don't have to use it" and that it "technically doesn't apply to VT; it applies to world equities in general" | The source is settled: J.P. Morgan's 2027 Long-Term Capital Market Assumptions, press release of 19 Oct 2026, "Global equities are projected to return 7.5% (USD), increasing from 7.0%" (Keel memo, 27 Oct). The report never presents it as VT's own expected return, says exactly what it is (a 10-15 year estimate for global equities from one manager), shows it beside other published forecasts, tests the plan from about 4% to 10%, and shows that no payment depends on it. Little time is spent on it. Whether it is the base case is decided with the numbers on Mon 16 Nov, with the reason written down. |
+| T12 | The 7.5% for VT: the TNA cites it; Book 9 says "You don't have to use it" and that it "technically doesn't apply to VT; it applies to world equities in general" | The source is settled: J.P. Morgan's 2027 Long-Term Capital Market Assumptions, press release of 19 Oct 2026, "Global equities are projected to return 7.5% (USD), increasing from 7.0%" (Keel memo, 27 Oct). The report never presents it as VT's own expected return, says exactly what it is (a 10-15 year estimate for global equities from one manager), shows it beside other published forecasts, tests the plan from about 4% to 10%, and shows that no payment depends on it. Little time is spent on it. Keel's call (`pm/ASK_HUMANS.md`, 8 Nov): 7.5% is the base case, because it keeps the report in step with the TNA and contradicts nothing in the IPS; Mon 16 Nov's numbers can change that only with a written reason. |
 | T13 | Keel proposes, never decides (Caplet's deliverables) against Keel makes its own calls | Keel decides everything about its own work; Caplet decides what is submitted and rewrites it in their own words. Neither side defers by habit (4.7). |
 | T14 | No subheadings (Book 11) | Written about the IPS form and about copying Ahaan's essay structure. The report's structure follows Wharton's Final Report instructions. |
 | T15 | Clarity (3.1) against voice (3.4: Ray kept his wording over "clearer" edits) | A sentence a human can't follow is rewritten, because Book 16 puts comprehension first. A sentence that is clear but plainer than Caplet's own is left in Caplet's voice. Keel never trades voice for a marginal gain in clarity. |
@@ -833,6 +845,7 @@ the report (4.5).
 | I87 (Book 12) | 4.2, 4.4, 2.1, 3.2 |
 | I89-I91 (Books 13-15) | Part 2, 4.1, 4.4, 2.8 |
 | I92 (Book 16) | 3.1, 5.2, 4.9 |
+| I93 (Research tabs written directly, 7 Nov) | 0 |
 
 ---
 
@@ -880,14 +893,15 @@ IPS and edited Keel's Research tabs. Caplet can strike any of them.
    payout plainly and move on. The report should treat its own risks the same way: name, size, answer.
 9. **Caplet will read it aloud, or quickly.** Ray's complaints are about how lines sound and whether they can be
    followed. A draft should survive being read aloud once by someone in a hurry.
-10. **On time and within the limits.** Wharton's rules on length and format are "God" for Caplet; a brilliant draft
-    over the word limit is a draft Caplet has to cut, which is the work Caplet wanted to avoid.
+10. **On time and within the limits.** Caplet treats Wharton's expectations as "in some senses 'God'" and keeps
+    formatting as its own job; but a brilliant draft over Wharton's length limit is a draft Caplet has to cut, which is
+    the work Caplet wanted to avoid.
 11. **No surprises in the plan.** Caplet will notice any line that changes what its IPS committed to. Anything the
     report adds is an implementation inside the IPS's words, stated as such.
 12. **Ahaan and Ray read for different things.** Ahaan reads for erudition, synthesis and voice; Ray reads for whether
     it's convincing, clear and not corny. A draft has to pass both readings.
 
-*Sources read for these notes: `BIBLE.md` (Books 1-16, preface, cover note, Ten Commandments, the 26 Oct overrule
-list, Book 12's pasted list and Ray's 5 Nov points), `INSTRUCTIONS.md` (B, I01-I92), `WHARTON_WORD.md`, Caplet's
+*Sources read for these notes: the Bible, now `archive/bible_2026-11-08/BIBLE.md` (Books 1-16, preface, cover note, Ten Commandments, the 26 Oct overrule
+list, Book 12's pasted list and Ray's 5 Nov points), `INSTRUCTIONS.md` (B, I01-I93), `WHARTON_WORD.md`, Caplet's
 submitted IPS and TNA, Caplet's edits to the Experience tab (8 Nov snapshot), Keel's 5 Nov rubric of expectations,
 voice study 1, and the standing rules in `CLAUDE.md`.*

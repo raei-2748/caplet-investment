@@ -1,26 +1,29 @@
 # Team Keel / Team Caplet: project memory
 
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
-decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-08 (Final Report plan: no prose until Fri 27 Nov, Books 13-15; Caplet wrote and submitted its own IPS on 6 Nov, which replaces every Keel version incl. V57 in `keel/ips_rewrite/drafts/FINAL/`; Ray: drafts read AI/corny and the team can't follow Keel; V55 = V54 in plain English, `caplet/STATUS_2026-11-03.md`; all branches merged into main 2 Nov; V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
+decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-08 (expectation notes `keel/EXPECTATIONS.md` replace the Bible in the working set, books archived; Book 16 = Caplet's 7 Nov message with its IPS; Final Report plan: no prose until Fri 27 Nov, Books 13-15; Caplet wrote and submitted its own IPS on 6 Nov, which replaces every Keel version incl. V57 in `keel/ips_rewrite/drafts/FINAL/`; Ray: drafts read AI/corny and the team can't follow Keel; V55 = V54 in plain English, `caplet/STATUS_2026-11-03.md`; all branches merged into main 2 Nov; V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
 
 ## For every Claude session in this repo (all teammates)
-- **Final Report (Ray, 8 Nov, BIBLE Books 13-15, INSTRUCTIONS I89-I91): no Final Report prose until Fri 27 Nov.** Until
+- **Caplet's expectations live in `keel/EXPECTATIONS.md` (8 Nov, Book 14).** Notes on all sixteen Bible books, checked
+  twice against them; read them first. The books themselves are archived verbatim in `archive/bible_2026-11-08/BIBLE.md`
+  (`keel/BIBLE.md` is a pointer); a new book is appended there, registered in `keel/INSTRUCTIONS.md` and carried into the notes the same day.
+- **Final Report (Caplet, 8 Nov, BIBLE Books 13-16, INSTRUCTIONS I89-I92): no Final Report prose until Fri 27 Nov.** Until
   then: deep research, analysis and thinking on every part of the case (not only investing), a little voice study, and
   one ranked store of every insight (`keel/final_report/research/INSIGHT_STORE.md`; nothing lost). Fri 27 Nov: one
   24-hour session, at least twelve draft-review-rewrite rounds against the Bible and Wharton; final draft to Caplet Sat
   28 Nov. Plan: `keel/final_report/README.md`. Built on Caplet's own FINAL IPS (`keel/final_report/FINAL_IPS_as_submitted.txt`).
-- **Banned (Ray, 5 Nov, INSTRUCTIONS I85): AI-detector checks (GPTZero or any other) and "AI DRAFT" labels.** Never run,
+- **Banned (Ray, 5 Nov, INSTRUCTIONS I88): AI-detector checks (GPTZero or any other) and "AI DRAFT" labels.** Never run,
   ask for, mention or report a detector check, and never label a draft "AI DRAFT" or "AI Draft", in replies or in new files.
   Older files that still say so are history, not instructions.
 - **Talk to the students plainly (Ray, 3 Nov, INSTRUCTIONS I80).** Anything written for Caplet is one page of plain
   English, no internal labels (rooms, beats, huddles, L-/H-/A- codes). Drafts: no slogan flips, no two-word kickers, no
   "That is X." runs, no one-line endings (list in `keel/ips_rewrite/drafts/D35/README.md`). Latest status: `caplet/STATUS_2026-11-03.md`.
 Whoever is using Claude here, these rules apply, and the Keel Office (formerly the Caplet Research Office) is how competition work is done:
-- **Wharton's word first, then THE BIBLE (ten books).** `keel/WHARTON_WORD.md` holds everything in Wharton's documents
+- **Wharton's word first, then THE BIBLE (sixteen books, read through `keel/EXPECTATIONS.md`).** `keel/WHARTON_WORD.md` holds everything in Wharton's documents
   that bears on the IPS (the five criteria, the IPS's questions, what judges look for, Wharton's advice), verbatim; it
   ranks above everything (Caplet, 30 Oct: Wharton's files are "in some senses 'God'"; dates, formatting and logistics are
-  Caplet's job and left out). `keel/BIBLE.md` holds Caplet's books 1-5, 9 and 10 verbatim (Books 6-8 now point to
-  WHARTON_WORD). **Book 10 (30 Oct)**: judges who genuinely disagree, scored only on Wharton's guide; the voice studies
+  Caplet's job and left out). The books (1-5 and 9-16 verbatim; Books 6-8 point to WHARTON_WORD) are archived in
+  `archive/bible_2026-11-08/BIBLE.md`. **Book 10 (30 Oct)**: judges who genuinely disagree, scored only on Wharton's guide; the voice studies
   APPLIED (V29 read as robotic and over-compressed: cut whole ideas, never squeeze sentences); every draft through
   no "every team will ..."; every number says
   where it came from ("we modelled", never "we judge"); no AI-use or "required trading activity" fretting; overdrive;
