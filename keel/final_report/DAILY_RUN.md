@@ -1,8 +1,16 @@
 # How each daily Final Report run works (Keel's protocol, from Sun 8 Nov 2026)
 
 Every scheduled run of the Final Report thread follows this page. It turns Ray's standing orders of 8 Nov (top of
-`../EXPECTATIONS.md`, INSTRUCTIONS I94-I100) into steps, and borrows from the methods in
+`../EXPECTATIONS.md`, INSTRUCTIONS I94-I100) and Caplet's of 9 Nov (I101-I102) into steps, and borrows from the methods in
 `research/meta/HOW_STRATEGISTS_PLAN.md`. It never overrides the day's own instructions or Caplet's word.
+
+## How hard (Caplet, Mon 9 Nov, INSTRUCTIONS I102)
+"I am expecting you to have burned through almost every last one of your tokens by the end of each and every week ...
+that doesn't mean wasting tokens. You must be efficient. And EVEN THEN, you should burn through all of them. Quality AND
+quantity." So every run, morning and evening, works in parallel: at least four research workers on separate claims,
+each reading primary sources in full (papers, theses, essays, filings, data), never summaries of summaries; every find
+carded; the day's volume logged in the RUNLOG row (sources read, cards added, claims kept, killed or changed). Waste is
+re-reading what the store already holds, regenerating what exists, or research that feeds no section of the report.
 
 ## Before work
 1. Read `../EXPECTATIONS.md` (Ray's standing orders first), `WHARTON_NORTH_STAR.md`, this page, the last five lines of

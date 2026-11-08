@@ -3,7 +3,9 @@
 Started Mon 9 Nov 2026 (Sydney). Notes, not report text. This is the material for the experience section: real,
 dated events of Caplet's competition, each with its source. The section is built from these and told vividly; a
 scenario that helps the argument is told as an illustration ("suppose ...", "imagine ..."), never as something that
-happened. Keel's diary is Keel's own story and is not used here.
+happened. Since I102 (Mon 9 Nov) the pool also holds Keel's real work events, and the whole pool is judged blind of
+which team produced each event (`experience/`); the invented people and scenes in Keel's diary are not events and are
+not used.
 
 The spine is Caplet's own timeline in the Final Report doc's Experience tab, as Caplet edited it
 (`keel/library/research_tabs_2026-11-07/doc_snapshot_2026-11-08/01_experience_with_caplet_edits.txt`, "the tab" below).

@@ -211,8 +211,75 @@ Smallest 2028 deposit that still completes the ladder, by how far yields fall be
 - **The 73/27 split** is read from the frozen WInS book. The IPS says only "most".
 - **No market quotes on 6 Nov.** Everything is priced on the curve.
 
-## 8. Still to add (later days)
+## 8. Added Mon 9 Nov, later (`numbers/extras.py`, `numbers/results_extras_2026-11-06.json`)
+
+### 8a. Where each rung's $50,000 comes from (design A, sized at today's forward rates)
+| Payment | Instrument | Cost (1 Jan 2027) | Coupons received | Interest on those coupons | Share of the $50,000 that is interest on interest | Delivered if reinvested 3 pt below forwards | Delivered if money earns nothing |
+|---|---|---|---|---|---|---|---|
+| 2033 | IBTM | $37,908 | $8,848 | $1,719 | 3.4% | $48,880 | $48,281 |
+| 2034 | IBTO | $36,065 | $10,079 | $2,180 | 4.4% | $48,595 | $47,820 |
+| 2035 | IBTP | $34,300 | $11,368 | $2,949 | 5.9% | $48,098 | $47,051 |
+| 2036 | IBTQ | $32,588 | $12,426 | $3,670 | 7.3% | $47,643 | $46,330 |
+| 2037 | IBTR | $30,922 | $13,178 | $4,328 | 8.7% | $47,242 | $45,672 |
+| 2038 | 4.750% Feb 2037 | $29,136 | $13,742 | $6,640 | 13.3% | $45,883 | $43,360 |
+| 2039 | 4.500% May 2038 | $27,567 | $14,099 | $6,777 | 13.6% | $45,811 | $43,223 |
+| 2040 | 4.375% Nov 2039 | $26,051 | $15,059 | $6,803 | 13.6% | $45,747 | $43,197 |
+| 2041 | 4.250% Nov 2040 | $24,582 | $15,233 | $7,653 | 15.3% | $45,236 | $42,347 |
+| 2042 | 3.125% Nov 2041 | $23,168 | $13,150 | $7,376 | 14.8% | $45,434 | $42,624 |
+
+What it shows: the later the payment, the more of it is interest earned on interest (3% of the 2033 payment, about
+15% of the 2041 and 2042 payments). The risk sits in the last five, the T-bonds, which is why a margin sized for
+them protects the whole ladder.
+
+**Flat break-even.** Bought at today's prices with no margin, the ladder pays all ten only if every coupon earns at least
+**5.12% a year** from the day it arrives until it is needed (bisection on one flat rate for every reinvestment). Today's
+forward rates are 4.67% for 2027-2033 and 5.43% for 2033-2042, so the break-even is simply the average of the forwards:
+the ladder as written assumes today's forward rates come true. At a flat 4.0% the worst payment is $47,721 and the ten
+fall $13,906 short in all; at 3.0%, $46,215 and $25,144; at zero, $42,347 and $54,595 (matches section 2).
+
+### 8b. The cost of the ten payments through 2026, from this one engine (every Treasury close, 2 Jan to 6 Nov)
+214 closes. Value on 1 Jan 2027 of the ten payments (payment-date basis) and of the ten instruments held (design A):
+
+| Date | Ten payments | Ten held | Ten held with Keel's margin (-3 pt) | 10-year yield |
+|---|---|---|---|---|
+| Fri 2 Jan | $316,546 | $317,338 | $338,677 | 4.19% |
+| Fri 27 Feb (the year's dearest) | $325,563 | $326,382 | $347,837 | 3.97% |
+| Tue 30 Jun | $312,974 | $313,752 | $335,061 | 4.44% |
+| Thu 10 Sep (first close under $300,000) | $297,879 | $298,612 | $319,704 | 4.95% |
+| Fri 25 Sep | $292,264 | $292,979 | $313,976 | 5.17% |
+| Mon 28 Sep (trading opens) | $290,291 | $291,000 | $311,968 | 5.24% |
+| Mon 5 Oct (the year's cheapest) | $287,938 | $288,642 | $309,559 | 5.31% |
+| Wed 7 Oct (orders filled 7-8 Oct) | $288,510 | $289,216 | | |
+| Thu 8 Oct | $290,349 | $291,060 | | |
+| Fri 16 Oct | $294,770 | $295,493 | $316,537 | 5.09% |
+| Fri 23 Oct (Trading Notes due) | $297,636 | $298,367 | $319,462 | 5.00% |
+| Fri 6 Nov (IPS in, trading froze) | $301,544 | $302,287 | $323,436 | 4.86% |
+
+The ten payments cost less than $300,000 on only 37 of the 214 closes (the ten held, on 36), every one of them between
+10 Sep and 3 Nov. The team's orders filled on 7-8 Oct, within two trading days of the year's cheapest close (5 Oct).
+That is luck of timing, not skill, and should be told that way if it is told at all. By the IPS deadline the cost was
+back over $300,000, which is the situation the IPS's completion rule was written for. Dates are US closes.
+
+### 8c. The strongest rival on Caplet's own design: buy the floor in 2031, not 2028
+Rival: everything left in Jan 2028 after completing the ladder goes into VT; in Jan 2031 the same final mix as FINAL
+after its move (86.65% into Treasuries maturing late 2032, 13.35% of VT kept to 2033). Same margin, same house paths
+(200,000, seed 2033) and the same 1,770 history windows (US stocks with dividends, every 3-year start since 1871).
+
+| | FINAL (floor bought Jan 2028) | Rival (floor bought Jan 2031) |
+|---|---|---|
+| Money owned in Jan 2031, house p5 / p50 / p95 | $111,290 / $139,329 / $170,152 | $88,376 / $147,170 / $244,170 |
+| Worst 1 in 100 (house) | $100,010 | $71,049 |
+| Chance it is under $110,000 (the stated bottom), house | 4.3% | 17.3% |
+| Total by 2033, house p5 / p50 / p95 | $128,297 / $163,799 / $208,591 | $102,900 / $171,606 / $284,930 |
+| Money owned in 2031, history p5 / p50 / p95 | $131,215 / $140,235 / $153,646 | $99,214 / $157,757 / $244,802 |
+| Lowest in history | $119,868 (start Jul 1929) | $25,564 (start Jul 1929) |
+| Under $110,000 in history | 0% | 10.7% |
+
+What it shows: waiting to buy the floor raises the middle by about $8,000 and the lucky end a great deal, but in about
+one path in six (house) or one window in nine (history) Laura would walk into the 2031 co-sponsor meetings with less
+than the bottom she could have promised in 2028; from a July 1929 start she would have about $26,000. FINAL ends up
+behind the rival in about 60% of house paths and 68% of history windows, and that is its price: it can name a bottom in January 2028, three years
+before the meetings, and it cannot fall below it.
+
+## 9. Still to add (later days)
 - Inflation (US and Taiwan) and real values of the payments, the floor and the range.
-- The strongest rival priced on the FINAL's own design (shares held until 2031, the floor bought only then).
-- A dated ladder-cost history from this one engine (for the Articulation story).
-- Per-rung reinvestment figures and the flat break-even yield.

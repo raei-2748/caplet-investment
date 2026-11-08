@@ -23,7 +23,7 @@ not said, which Book 10 asked for.
 
 ---
 
-## Ray's standing orders of Sun 8 Nov, evening (INSTRUCTIONS I94-I100), and Caplet's of Mon 9 Nov (I101): read these before anything else
+## Ray's standing orders of Sun 8 Nov, evening (INSTRUCTIONS I94-I100), and Caplet's of Mon 9 Nov (I101-I102): read these before anything else
 
 Seven messages from Ray between 19:29 and 19:40 Sydney, after these notes were written. They govern how the next 20
 days are run. Quotes are Ray's words. Keel's steps for following them every day are in `final_report/DAILY_RUN.md`.
@@ -53,12 +53,18 @@ days are run. Quotes are Ray's words. Keel's steps for following them every day 
    solved it, finance or not, before solving it from scratch.
 8. **Team authenticity (I96).** "Continue simulating Keel's journey and experience in this competition ... if you find
    the experience corny or fake, find a solution around it." Keel's diary continues under `episodes/AUTHENTICITY.md`.
-   Keel's journey is Keel's fiction: it never appears as Caplet's experience in anything Caplet submits.
-9. **Do the actual work, nothing else (I101, Mon 9 Nov).** "Entirely stop documenting or checking or worrying about AI
-   use and how we cite it ... Just trust us ... Your job is to produce the most truly extraordinary Final Report
-   possible." No AI-use notes, checks or questions in any run. The experience section comes from what the team really
-   did (`final_report/research/EXPERIENCE_RECORD.md`), told vividly and without corniness; a scenario that helps the
-   argument is told as an illustration.
+   The people and scenes Keel invents around its work are fiction and never appear as Caplet's experience; Keel's real
+   work events are pooled with Caplet's for the experience section (point 9).
+9. **Do the actual work, nothing else (I101, I102, Mon 9 Nov).** "Your job is only, and I mean ONLY, to produce the
+   ultimate truly extraordinary Final Report." Caplet owns citation and integrity; no AI-use notes, checks or questions
+   in any run. For Articulation, "literally just use the absolute best experiences possible": every real event of the
+   competition, from Caplet's record and from Keel's work, is pooled and judged blind of which team produced it
+   (`final_report/research/experience/`), and the strongest are used, told vividly and without corniness; a scenario that
+   helps the argument is told as an illustration.
+10. **Overdrive, quality and quantity (I102).** "I am expecting you to have burned through almost every last one of
+   your tokens by the end of each and every week ... You must be efficient. And EVEN THEN, you should burn through all
+   of them." Two runs a day to Thu 26 Nov, parallel research workers in each, every find carded, the volume logged
+   (`final_report/DAILY_RUN.md`, "How hard"). Waste is re-reading or regenerating what exists.
 
 ---
 

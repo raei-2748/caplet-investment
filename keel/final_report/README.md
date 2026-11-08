@@ -53,6 +53,11 @@ the review machinery on the IPS Caplet already wrote, so the 24-hour session doe
 time on the real thing; check-ins during the session, so twelve rounds are paced rather than hoped for; and a review
 week to the deadline, so Keel is still useful after handing over. Logged in `../pm/ASK_HUMANS.md`.
 
+**Overdrive (Caplet, Mon 9 Nov, I102).** Every day to Thu 26 Nov also has an evening research run at 19:13 Sydney
+(four to six parallel research workers on the thinnest claims, every find carded, volume logged; `DAILY_RUN.md`, "How
+hard"). The experience section draws on every real event of the competition from Caplet and Keel, judged blind
+(`research/experience/`).
+
 **Then sharpened the same evening** from `research/meta/HOW_STRATEGISTS_PLAN.md` (Ray, I99-I100: read how the best
 strategists plan, and borrow solutions from whichever field already solved the problem): re-plan the day Wharton's
 instructions land (Eisenhower, Boyd, mission command); research claims to keep or kill rather than topics (investigative
