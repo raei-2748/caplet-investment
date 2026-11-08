@@ -6,8 +6,8 @@ VT; before the 2031 co-sponsor meetings half of VT moves into Treasuries (IBTM a
 half is promised to no one. The 2031 range runs from the floor's payout to the floor plus the moved half.
 
 Worlds:
-  house    VT log returns normal, median growth 7.5% a year (J.P. Morgan 2027, global equities), s.d. 16.78%
-           (J.P. Morgan 2026, AC World); Treasury yields move in parallel, s.d. 0.9 points a year (MODEL assumption);
+  house    VT log returns normal, median growth 7.5% a year (J.P. Morgan 2027, global equities), s.d. 17.88%
+           (J.P. Morgan 2027, AC World); Treasury yields move in parallel, s.d. 0.9 points a year (MODEL assumption);
            stocks and yields independent. 200,000 paths, seed 2033.
   history  VT replaced by US stocks with dividends (Shiller monthly, every 3-year and 5-year window since 1871);
            yields stay on today's forward curve.

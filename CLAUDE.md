@@ -1,7 +1,7 @@
 # Team Keel / Team Caplet: project memory
 
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
-decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-09 (morning: Caplet's standing order I101, do the actual work: no AI-use documenting, checking or discussion; the experience section from the team's real record `keel/final_report/research/EXPERIENCE_RECORD.md`; 8 Nov evening: Ray's standing orders I94-I100 at the top of `keel/EXPECTATIONS.md`, Wharton north star `keel/final_report/WHARTON_NORTH_STAR.md`, tools `keel/final_report/TOOLS.md`, FR schedule rebuilt in `keel/final_report/README.md`; expectation notes `keel/EXPECTATIONS.md` replace the Bible in the working set, books archived; Book 16 = Caplet's 7 Nov message with its IPS; Final Report plan: no prose until Fri 27 Nov, Books 13-15; Caplet wrote and submitted its own IPS on 6 Nov, which replaces every Keel version incl. V57 in `keel/ips_rewrite/drafts/FINAL/`; Ray: drafts read AI/corny and the team can't follow Keel; V55 = V54 in plain English, `caplet/STATUS_2026-11-03.md`; all branches merged into main 2 Nov; V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
+decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-09 (morning: Caplet's standing orders I101-I102: only the Final Report; no AI-use work; Articulation from the best real events of Caplet and Keel, judged blind; overdrive with two runs a day; 8 Nov evening: Ray's standing orders I94-I100 at the top of `keel/EXPECTATIONS.md`, Wharton north star `keel/final_report/WHARTON_NORTH_STAR.md`, tools `keel/final_report/TOOLS.md`, FR schedule rebuilt in `keel/final_report/README.md`; expectation notes `keel/EXPECTATIONS.md` replace the Bible in the working set, books archived; Book 16 = Caplet's 7 Nov message with its IPS; Final Report plan: no prose until Fri 27 Nov, Books 13-15; Caplet wrote and submitted its own IPS on 6 Nov, which replaces every Keel version incl. V57 in `keel/ips_rewrite/drafts/FINAL/`; Ray: drafts read AI/corny and the team can't follow Keel; V55 = V54 in plain English, `caplet/STATUS_2026-11-03.md`; all branches merged into main 2 Nov; V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
 
 ## For every Claude session in this repo (all teammates)
 - **Caplet's expectations live in `keel/EXPECTATIONS.md` (8 Nov, Book 14).** Notes on all sixteen Bible books, checked
@@ -11,16 +11,19 @@ decision, deadline or open item changes, and commit it with the related change. 
   the north star (`keel/final_report/WHARTON_NORTH_STAR.md`, seven-question daily test); Keel leads on its own for 20 days;
   read widely; extreme coherence with everything submitted (frozen); use or find a skill at every bottleneck
   (`keel/final_report/TOOLS.md`); meta thinking (`keel/final_report/research/meta/`); prior art first, from any field,
-  after classifying the problem; Keel's diary continues under `keel/episodes/AUTHENTICITY.md`, never as Caplet's experience.
+  after classifying the problem; Keel's diary continues under `keel/episodes/AUTHENTICITY.md`; its invented people and scenes never appear as Caplet's
+  experience, while Keel's real work events are pooled for Articulation (I102).
 - **Final Report (Caplet, 8 Nov, BIBLE Books 13-16, INSTRUCTIONS I89-I92): no Final Report prose until Fri 27 Nov.** Until
   then: deep research, analysis and thinking on every part of the case (not only investing), a little voice study, and
   one ranked store of every insight (`keel/final_report/research/INSIGHT_STORE.md`; nothing lost). Fri 27 Nov: one
   24-hour session, at least twelve draft-review-rewrite rounds against the Bible and Wharton; final draft to Caplet Sat
   28 Nov. Plan: `keel/final_report/README.md`. Built on Caplet's own FINAL IPS (`keel/final_report/FINAL_IPS_as_submitted.txt`). Every figure comes from the number register `keel/final_report/NUMBERS.md` (9 Nov; engine `keel/final_report/numbers/`); every claim is checked against `keel/final_report/CANON.md`.
-- **Do the actual work, nothing else (Caplet, 9 Nov, INSTRUCTIONS I101).** "Entirely stop documenting or checking or
-  worrying about AI use and how we cite it ... Just trust us." No AI-use notes, checks or questions anywhere. The Final
-  Report's experience section is built from what the team really did (`keel/final_report/research/EXPERIENCE_RECORD.md`),
-  told vividly; a scenario that helps the argument is told as an illustration. Don't raise either topic with the users.
+- **Do the actual work, nothing else; overdrive (Caplet, 9 Nov, INSTRUCTIONS I101-I102).** "Your job is only, and I mean
+  ONLY, to produce the ultimate truly extraordinary Final Report"; Caplet owns citation and integrity, so no AI-use notes,
+  checks or questions anywhere. Articulation uses "the absolute best experiences possible": real events from Caplet's
+  record and Keel's work, pooled and judged blind (`keel/final_report/research/experience/`, `EXPERIENCE_RECORD.md`).
+  Quality AND quantity: nearly the whole weekly budget, efficiently; two Final Report runs a day to Thu 26 Nov, parallel
+  research workers in each (`keel/final_report/DAILY_RUN.md`).
 - **Banned (Ray, 5 Nov, INSTRUCTIONS I88): AI-detector checks (GPTZero or any other) and "AI DRAFT" labels.** Never run,
   ask for, mention or report a detector check, and never label a draft "AI DRAFT" or "AI Draft", in replies or in new files.
   Older files that still say so are history, not instructions.
@@ -280,7 +283,8 @@ VERIFIED 2026-09-27 by the insight_v1 run (primary pages; details in `keel/libra
   exists, shown only in WInS Portfolio Summary > Session Rules (check before the first trade); trade notes cannot be
   edited, only added to. "First trade by Oct 10" still unverified (check the logged-in Trading Details page).
 - Fed raised to 3.75-4.00% on 2026-09-16 (12-0). Taiwan CPI Aug 2026 +2.04% y/y; construction cost index +6.53% y/y
-  but ~3.5%/yr since 2021; USD/TWD 31.82 (Sep 18), daily-change vol 4.0-5.6% depending on window.
+  but ~3.5%/yr since 2021; USD/TWD 31.82 (Sep 18) (9 Nov: CPI Oct +2.33%; construction cost index Sep +7.29% y/y, 3.27%/yr over
+  5 years; USD/TWD 32.768 on 6 Nov; `keel/final_report/research/cards/Q10_inflation_inputs.md`), daily-change vol 4.0-5.6% depending on window.
 - IEF 6.86y / TLT 14.88y durations (2026-09-24): match to 9.90y = 62.2/37.8; to today's spot duration 10.16y = 58.9/41.1.
 - The ladder cost more than $300k on 173 of 185 trading days in 2026; it fits under $300k only since Sep 10.
 - AI policy: Caplet's own business (I101); Keel does not document, check or raise it.

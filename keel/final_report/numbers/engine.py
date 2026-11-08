@@ -44,7 +44,8 @@ ASSUMPTIONS = {
     # Coupons of the funds' holdings: modelled as the curve's par yield to the WAM date (IBTM's own weighted average
     # coupon is 3.50%, so this overstates the interest to be reinvested: conservative for the reinvestment test).
     "eq_growth": 0.075,   # J.P. Morgan 2027 LTCMA, global equities 7.5% (USD), press release 19 Oct 2026 (TNA's figure)
-    "eq_vol": 0.1678,     # J.P. Morgan 2026 LTCMA, AC World equity volatility (USD matrix, data 30 Sep 2025)
+    "eq_vol": 0.1788,     # J.P. Morgan 2027 LTCMA, AC World equity volatility (USD matrix, estimates as of 30 Sep
+                          # 2026; row "AC World Equity 7.50 8.94 17.88 7.00", read 9 Nov 2026); same edition as eq_growth
     "yield_vol": 0.009,   # yearly s.d. of Treasury yield changes for the 2027-2031 purchases (MODEL assumption, as in
                           # keel/scripts/sail_mc.py; history replay is run beside it)
     "floor_share": 0.733, # share of the 2028 money left after completing the ladder that buys the floor: the frozen

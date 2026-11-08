@@ -1,0 +1,1742 @@
+{
+ "per_rung": {
+  "2033": {
+   "instrument": "IBTM",
+   "cost_jan2027": 37907.61602562171,
+   "principal_or_payout": 39432.95118291433,
+   "coupons": 8848.131366605996,
+   "interest_on_coupons_at_forwards": 1718.9174504796738,
+   "share_of_50k_from_interest_on_interest": 0.034378349009593474,
+   "delivered_if_reinvested_3pt_below_forwards": 48879.567274776084,
+   "delivered_if_money_earns_nothing": 48281.082549520324
+  },
+  "2034": {
+   "instrument": "IBTO",
+   "cost_jan2027": 36065.4384990294,
+   "principal_or_payout": 37741.63241144893,
+   "coupons": 10078.695750166076,
+   "interest_on_coupons_at_forwards": 2179.6718383849984,
+   "share_of_50k_from_interest_on_interest": 0.043593436767699965,
+   "delivered_if_reinvested_3pt_below_forwards": 48595.45420836092,
+   "delivered_if_money_earns_nothing": 47820.32816161501
+  },
+  "2035": {
+   "instrument": "IBTP",
+   "cost_jan2027": 34299.815917269785,
+   "principal_or_payout": 35682.56374167027,
+   "coupons": 11368.279955063494,
+   "interest_on_coupons_at_forwards": 2949.156303266247,
+   "share_of_50k_from_interest_on_interest": 0.058983126065324944,
+   "delivered_if_reinvested_3pt_below_forwards": 48098.24758573343,
+   "delivered_if_money_earns_nothing": 47050.84369673376
+  },
+  "2036": {
+   "instrument": "IBTQ",
+   "cost_jan2027": 32587.82450412224,
+   "principal_or_payout": 33904.20198510654,
+   "coupons": 12425.538821778882,
+   "interest_on_coupons_at_forwards": 3670.259193114576,
+   "share_of_50k_from_interest_on_interest": 0.07340518386229153,
+   "delivered_if_reinvested_3pt_below_forwards": 47642.80239167123,
+   "delivered_if_money_earns_nothing": 46329.74080688543
+  },
+  "2037": {
+   "instrument": "IBTR",
+   "cost_jan2027": 30921.93355677832,
+   "principal_or_payout": 32493.347795651167,
+   "coupons": 13178.432872423948,
+   "interest_on_coupons_at_forwards": 4328.219331924885,
+   "share_of_50k_from_interest_on_interest": 0.0865643866384977,
+   "delivered_if_reinvested_3pt_below_forwards": 47242.436117883095,
+   "delivered_if_money_earns_nothing": 45671.78066807512
+  },
+  "2038": {
+   "instrument": "4.750% T-bond 15 Feb 2037",
+   "cost_jan2027": 29136.416810807874,
+   "principal_or_payout": 29617.5892079023,
+   "coupons": 13741.98278266529,
+   "interest_on_coupons_at_forwards": 6640.428009432402,
+   "share_of_50k_from_interest_on_interest": 0.13280856018864803,
+   "delivered_if_reinvested_3pt_below_forwards": 45882.778258415514,
+   "delivered_if_money_earns_nothing": 43359.571990567594
+  },
+  "2039": {
+   "instrument": "4.500% T-bond 15 May 2038",
+   "cost_jan2027": 27567.36867386037,
+   "principal_or_payout": 29123.786557264113,
+   "coupons": 14099.045815008054,
+   "interest_on_coupons_at_forwards": 6777.167627727833,
+   "share_of_50k_from_interest_on_interest": 0.13554335255455666,
+   "delivered_if_reinvested_3pt_below_forwards": 45810.97196092174,
+   "delivered_if_money_earns_nothing": 43222.83237227217
+  },
+  "2040": {
+   "instrument": "4.375% T-bond 15 Nov 2039",
+   "cost_jan2027": 26050.676303684155,
+   "principal_or_payout": 28138.46863123436,
+   "coupons": 15058.813487663645,
+   "interest_on_coupons_at_forwards": 6802.717881101997,
+   "share_of_50k_from_interest_on_interest": 0.13605435762203993,
+   "delivered_if_reinvested_3pt_below_forwards": 45747.34492170362,
+   "delivered_if_money_earns_nothing": 43197.282118898
+  },
+  "2041": {
+   "instrument": "4.250% T-bond 15 Nov 2040",
+   "cost_jan2027": 24581.746181626884,
+   "principal_or_payout": 27113.930295740476,
+   "coupons": 15232.917999687736,
+   "interest_on_coupons_at_forwards": 7653.151704571796,
+   "share_of_50k_from_interest_on_interest": 0.1530630340914359,
+   "delivered_if_reinvested_3pt_below_forwards": 45236.17366925516,
+   "delivered_if_money_earns_nothing": 42346.84829542821
+  },
+  "2042": {
+   "instrument": "3.125% T-bond 15 Nov 2041",
+   "cost_jan2027": 23167.92510778908,
+   "principal_or_payout": 29474.184286372038,
+   "coupons": 13150.02068161214,
+   "interest_on_coupons_at_forwards": 7375.795032015822,
+   "share_of_50k_from_interest_on_interest": 0.14751590064031644,
+   "delivered_if_reinvested_3pt_below_forwards": 45433.961255489296,
+   "delivered_if_money_earns_nothing": 42624.20496798418
+  }
+ },
+ "flat_break_even_rate": 0.051238475589973555,
+ "flat_rate_table": {
+  "0.000": {
+   "worst_payment": 42346.84829542821,
+   "total_short": 54595.31349367924
+  },
+  "0.010": {
+   "worst_payment": 43520.210057078875,
+   "total_short": 45426.75900949813
+  },
+  "0.020": {
+   "worst_payment": 44805.37755341634,
+   "total_short": 35629.58847496051
+  },
+  "0.030": {
+   "worst_payment": 46214.743097496874,
+   "total_short": 25144.413720054872
+  },
+  "0.035": {
+   "worst_payment": 46967.824275520405,
+   "total_short": 19623.55775994932
+  },
+  "0.040": {
+   "worst_payment": 47721.0556140908,
+   "total_short": 13905.529203137965
+  },
+  "0.045": {
+   "worst_payment": 48513.46331287941,
+   "total_short": 7981.00911052688
+  }
+ },
+ "forward_rates_for_reference": {
+  "2027-2033": 0.046700956772106214,
+  "2027-2037": 0.04857932585198099,
+  "2033-2042": 0.05433574909293479
+ },
+ "history": {
+  "days": 214,
+  "first": "2026-01-02",
+  "last": "2026-11-06",
+  "payments_min": {
+   "value": 287938.45811935636,
+   "date": "2026-10-05"
+  },
+  "payments_max": {
+   "value": 325562.7025101089,
+   "date": "2026-02-27"
+  },
+  "ten_held_min": {
+   "value": 288642.0268765891,
+   "date": "2026-10-05"
+  },
+  "ten_held_max": {
+   "value": 326381.91054048634,
+   "date": "2026-02-27"
+  },
+  "days_payments_under_300k": 37,
+  "days_ten_held_under_300k": 36,
+  "trade_days_7_8_oct": [
+   {
+    "date": "2026-10-07",
+    "payments": 288509.56833162165,
+    "ten_held": 289215.7220909728,
+    "ten_held_with_margin_minus3": 310138.4500587459,
+    "y10": 5.28
+   },
+   {
+    "date": "2026-10-08",
+    "payments": 290349.272031667,
+    "ten_held": 291059.9781491276,
+    "ten_held_with_margin_minus3": 312023.71464971075,
+    "y10": 5.22
+   }
+  ],
+  "ipsday_6_nov": {
+   "date": "2026-11-06",
+   "payments": 301543.66458835866,
+   "ten_held": 302286.7615805898,
+   "ten_held_with_margin_minus3": 323435.5931214174,
+   "y10": 4.86
+  },
+  "series": [
+   {
+    "date": "2026-01-02",
+    "payments": 316545.5818592564,
+    "ten_held": 317338.3176427038,
+    "ten_held_with_margin_minus3": 338677.4743834167,
+    "y10": 4.19
+   },
+   {
+    "date": "2026-01-05",
+    "payments": 317329.10744551214,
+    "ten_held": 318124.373875495,
+    "ten_held_with_margin_minus3": 339471.3834903729,
+    "y10": 4.17
+   },
+   {
+    "date": "2026-01-06",
+    "payments": 317022.71194910636,
+    "ten_held": 317817.09909068956,
+    "ten_held_with_margin_minus3": 339159.62915112113,
+    "y10": 4.18
+   },
+   {
+    "date": "2026-01-07",
+    "payments": 318200.0302090035,
+    "ten_held": 318997.42047805345,
+    "ten_held_with_margin_minus3": 340360.38326868304,
+    "y10": 4.15
+   },
+   {
+    "date": "2026-01-08",
+    "payments": 316892.8157331203,
+    "ten_held": 317686.0605251191,
+    "ten_held_with_margin_minus3": 339034.5862217431,
+    "y10": 4.19
+   },
+   {
+    "date": "2026-01-09",
+    "payments": 317629.8080953977,
+    "ten_held": 318424.58229723375,
+    "ten_held_with_margin_minus3": 339787.037131228,
+    "y10": 4.18
+   },
+   {
+    "date": "2026-01-12",
+    "payments": 317210.0035459575,
+    "ten_held": 318003.6257780771,
+    "ten_held_with_margin_minus3": 339361.17047670286,
+    "y10": 4.19
+   },
+   {
+    "date": "2026-01-13",
+    "payments": 317537.3011024994,
+    "ten_held": 318332.0527876757,
+    "ten_held_with_margin_minus3": 339691.959243733,
+    "y10": 4.18
+   },
+   {
+    "date": "2026-01-14",
+    "payments": 318702.1547978157,
+    "ten_held": 319500.05263966025,
+    "ten_held_with_margin_minus3": 340877.78577339184,
+    "y10": 4.15
+   },
+   {
+    "date": "2026-01-15",
+    "payments": 318233.86376754835,
+    "ten_held": 319029.79433764174,
+    "ten_held_with_margin_minus3": 340405.27572618914,
+    "y10": 4.17
+   },
+   {
+    "date": "2026-01-16",
+    "payments": 316010.3543396748,
+    "ten_held": 316799.4051054353,
+    "ten_held_with_margin_minus3": 338148.8150190406,
+    "y10": 4.24
+   },
+   {
+    "date": "2026-01-20",
+    "payments": 313631.6490228243,
+    "ten_held": 314414.19861970656,
+    "ten_held_with_margin_minus3": 335728.6757654653,
+    "y10": 4.3
+   },
+   {
+    "date": "2026-01-21",
+    "payments": 315185.3525322768,
+    "ten_held": 315972.212899198,
+    "ten_held_with_margin_minus3": 337309.4296766578,
+    "y10": 4.26
+   },
+   {
+    "date": "2026-01-22",
+    "payments": 315510.5553906554,
+    "ten_held": 316297.3400881414,
+    "ten_held_with_margin_minus3": 337648.91782786313,
+    "y10": 4.26
+   },
+   {
+    "date": "2026-01-23",
+    "payments": 316146.0229833509,
+    "ten_held": 316934.9540600974,
+    "ten_held_with_margin_minus3": 338291.3507012273,
+    "y10": 4.24
+   },
+   {
+    "date": "2026-01-26",
+    "payments": 316924.64270426094,
+    "ten_held": 317715.3615408833,
+    "ten_held_with_margin_minus3": 339089.77981452295,
+    "y10": 4.22
+   },
+   {
+    "date": "2026-01-27",
+    "payments": 315939.49893889134,
+    "ten_held": 316728.0310305472,
+    "ten_held_with_margin_minus3": 338084.0612971107,
+    "y10": 4.24
+   },
+   {
+    "date": "2026-01-28",
+    "payments": 315312.72632789885,
+    "ten_held": 316099.46127423184,
+    "ten_held_with_margin_minus3": 337446.5518130739,
+    "y10": 4.26
+   },
+   {
+    "date": "2026-01-29",
+    "payments": 315926.79449236125,
+    "ten_held": 316715.98393880465,
+    "ten_held_with_margin_minus3": 338063.55421768065,
+    "y10": 4.24
+   },
+   {
+    "date": "2026-01-30",
+    "payments": 315183.9903393683,
+    "ten_held": 315971.3589554245,
+    "ten_held_with_margin_minus3": 337306.9742841007,
+    "y10": 4.26
+   },
+   {
+    "date": "2026-02-02",
+    "payments": 314203.05036742374,
+    "ten_held": 314987.3695672831,
+    "ten_held_with_margin_minus3": 336309.8063789019,
+    "y10": 4.29
+   },
+   {
+    "date": "2026-02-03",
+    "payments": 314489.5415177887,
+    "ten_held": 315274.9806975532,
+    "ten_held_with_margin_minus3": 336597.13598588516,
+    "y10": 4.28
+   },
+   {
+    "date": "2026-02-04",
+    "payments": 314134.11635435617,
+    "ten_held": 314918.51369513955,
+    "ten_held_with_margin_minus3": 336236.9083869055,
+    "y10": 4.29
+   },
+   {
+    "date": "2026-02-05",
+    "payments": 316664.31588700943,
+    "ten_held": 317456.31333029113,
+    "ten_held_with_margin_minus3": 338811.2905957878,
+    "y10": 4.21
+   },
+   {
+    "date": "2026-02-06",
+    "payments": 316387.4319101487,
+    "ten_held": 317178.6456900701,
+    "ten_held_with_margin_minus3": 338527.527660074,
+    "y10": 4.22
+   },
+   {
+    "date": "2026-02-09",
+    "payments": 316502.0786631762,
+    "ten_held": 317293.53620516876,
+    "ten_held_with_margin_minus3": 338645.2771753535,
+    "y10": 4.22
+   },
+   {
+    "date": "2026-02-10",
+    "payments": 318519.4249381696,
+    "ten_held": 319316.54759335803,
+    "ten_held_with_margin_minus3": 340699.60448221787,
+    "y10": 4.16
+   },
+   {
+    "date": "2026-02-11",
+    "payments": 317908.39192512113,
+    "ten_held": 318703.7133362073,
+    "ten_held_with_margin_minus3": 340076.7314575038,
+    "y10": 4.18
+   },
+   {
+    "date": "2026-02-12",
+    "payments": 320981.26950093795,
+    "ten_held": 321785.8908626931,
+    "ten_held_with_margin_minus3": 343195.0939416085,
+    "y10": 4.09
+   },
+   {
+    "date": "2026-02-13",
+    "payments": 322615.3173454527,
+    "ten_held": 323425.19045718096,
+    "ten_held_with_margin_minus3": 344852.15252298635,
+    "y10": 4.04
+   },
+   {
+    "date": "2026-02-17",
+    "payments": 322714.9187093445,
+    "ten_held": 323524.6629584843,
+    "ten_held_with_margin_minus3": 344955.20993631904,
+    "y10": 4.05
+   },
+   {
+    "date": "2026-02-18",
+    "payments": 321521.8900117364,
+    "ten_held": 322327.595297283,
+    "ten_held_with_margin_minus3": 343748.94616970234,
+    "y10": 4.09
+   },
+   {
+    "date": "2026-02-19",
+    "payments": 321925.04663061816,
+    "ten_held": 322731.96820050123,
+    "ten_held_with_margin_minus3": 344157.64710471313,
+    "y10": 4.08
+   },
+   {
+    "date": "2026-02-20",
+    "payments": 321767.98955893045,
+    "ten_held": 322575.02610117756,
+    "ten_held_with_margin_minus3": 343992.1048018759,
+    "y10": 4.08
+   },
+   {
+    "date": "2026-02-23",
+    "payments": 323396.35769461235,
+    "ten_held": 324208.96327056567,
+    "ten_held_with_margin_minus3": 345638.71411001834,
+    "y10": 4.03
+   },
+   {
+    "date": "2026-02-24",
+    "payments": 323175.6108929403,
+    "ten_held": 323987.09788370074,
+    "ten_held_with_margin_minus3": 345419.7767332039,
+    "y10": 4.04
+   },
+   {
+    "date": "2026-02-25",
+    "payments": 322956.25413363805,
+    "ten_held": 323766.8580462638,
+    "ten_held_with_margin_minus3": 345198.7599011333,
+    "y10": 4.05
+   },
+   {
+    "date": "2026-02-26",
+    "payments": 324041.68706021167,
+    "ten_held": 324855.7009465619,
+    "ten_held_with_margin_minus3": 346298.77799986454,
+    "y10": 4.02
+   },
+   {
+    "date": "2026-02-27",
+    "payments": 325562.7025101089,
+    "ten_held": 326381.91054048634,
+    "ten_held_with_margin_minus3": 347836.8316489789,
+    "y10": 3.97
+   },
+   {
+    "date": "2026-03-02",
+    "payments": 322997.3092097347,
+    "ten_held": 323808.35035885626,
+    "ten_held_with_margin_minus3": 345236.49907571194,
+    "y10": 4.05
+   },
+   {
+    "date": "2026-03-03",
+    "payments": 322687.8810828865,
+    "ten_held": 323498.03964007174,
+    "ten_held_with_margin_minus3": 344920.75781764224,
+    "y10": 4.06
+   },
+   {
+    "date": "2026-03-04",
+    "payments": 321789.8457231171,
+    "ten_held": 322596.91829428164,
+    "ten_held_with_margin_minus3": 344012.08738737064,
+    "y10": 4.09
+   },
+   {
+    "date": "2026-03-05",
+    "payments": 320381.9018955497,
+    "ten_held": 321184.6166060934,
+    "ten_held_with_margin_minus3": 342584.0118477821,
+    "y10": 4.13
+   },
+   {
+    "date": "2026-03-06",
+    "payments": 319492.96536278445,
+    "ten_held": 320293.4859993671,
+    "ten_held_with_margin_minus3": 341677.25160306145,
+    "y10": 4.15
+   },
+   {
+    "date": "2026-03-09",
+    "payments": 320768.6992186728,
+    "ten_held": 321572.7281170798,
+    "ten_held_with_margin_minus3": 342973.74787729536,
+    "y10": 4.12
+   },
+   {
+    "date": "2026-03-10",
+    "payments": 319592.05442278687,
+    "ten_held": 320392.88141834544,
+    "ten_held_with_margin_minus3": 341777.91635468,
+    "y10": 4.15
+   },
+   {
+    "date": "2026-03-11",
+    "payments": 317448.4589965261,
+    "ten_held": 318243.8110278128,
+    "ten_held_with_margin_minus3": 339588.124317993,
+    "y10": 4.21
+   },
+   {
+    "date": "2026-03-12",
+    "payments": 315721.13394227065,
+    "ten_held": 316510.5645682694,
+    "ten_held_with_margin_minus3": 337835.6983196998,
+    "y10": 4.27
+   },
+   {
+    "date": "2026-03-13",
+    "payments": 315143.37820710277,
+    "ten_held": 315931.64145774784,
+    "ten_held_with_margin_minus3": 337246.2329669742,
+    "y10": 4.28
+   },
+   {
+    "date": "2026-03-16",
+    "payments": 317046.56134681345,
+    "ten_held": 317840.58539894485,
+    "ten_held_with_margin_minus3": 339179.12148385897,
+    "y10": 4.23
+   },
+   {
+    "date": "2026-03-17",
+    "payments": 317979.8803436808,
+    "ten_held": 318776.67418900866,
+    "ten_held_with_margin_minus3": 340126.0965456084,
+    "y10": 4.2
+   },
+   {
+    "date": "2026-03-18",
+    "payments": 316328.4052678474,
+    "ten_held": 317119.4164888215,
+    "ten_held_with_margin_minus3": 338454.3370014453,
+    "y10": 4.26
+   },
+   {
+    "date": "2026-03-19",
+    "payments": 316870.81907252496,
+    "ten_held": 317662.81297556544,
+    "ten_held_with_margin_minus3": 339010.5257608324,
+    "y10": 4.25
+   },
+   {
+    "date": "2026-03-20",
+    "payments": 312097.8934469148,
+    "ten_held": 312876.2638993681,
+    "ten_held_with_margin_minus3": 334154.24233971024,
+    "y10": 4.39
+   },
+   {
+    "date": "2026-03-23",
+    "payments": 313641.39938541525,
+    "ten_held": 314424.4939485623,
+    "ten_held_with_margin_minus3": 335723.477964144,
+    "y10": 4.34
+   },
+   {
+    "date": "2026-03-24",
+    "payments": 312360.7248998555,
+    "ten_held": 313139.1355560644,
+    "ten_held_with_margin_minus3": 334426.67746062385,
+    "y10": 4.39
+   },
+   {
+    "date": "2026-03-25",
+    "payments": 314227.66898630717,
+    "ten_held": 315011.7531607246,
+    "ten_held_with_margin_minus3": 336324.4005302801,
+    "y10": 4.33
+   },
+   {
+    "date": "2026-03-26",
+    "payments": 311608.296768481,
+    "ten_held": 312383.8086760277,
+    "ten_held_with_margin_minus3": 333664.1769599507,
+    "y10": 4.42
+   },
+   {
+    "date": "2026-03-27",
+    "payments": 310677.1177288287,
+    "ten_held": 311450.4745290068,
+    "ten_held_with_margin_minus3": 332717.63497374766,
+    "y10": 4.44
+   },
+   {
+    "date": "2026-03-30",
+    "payments": 313464.46604544134,
+    "ten_held": 314246.40926380275,
+    "ten_held_with_margin_minus3": 335549.72011934756,
+    "y10": 4.35
+   },
+   {
+    "date": "2026-03-31",
+    "payments": 315042.5007599208,
+    "ten_held": 315829.29138709954,
+    "ten_held_with_margin_minus3": 337151.94126386254,
+    "y10": 4.3
+   },
+   {
+    "date": "2026-04-01",
+    "payments": 314007.73282044905,
+    "ten_held": 314791.2470605711,
+    "ten_held_with_margin_minus3": 336102.0415548351,
+    "y10": 4.33
+   },
+   {
+    "date": "2026-04-02",
+    "payments": 314832.0885545845,
+    "ten_held": 315617.9864775571,
+    "ten_held_with_margin_minus3": 336940.4228568467,
+    "y10": 4.31
+   },
+   {
+    "date": "2026-04-03",
+    "payments": 313637.0270366208,
+    "ten_held": 314419.00970009086,
+    "ten_held_with_margin_minus3": 335727.7668873698,
+    "y10": 4.35
+   },
+   {
+    "date": "2026-04-06",
+    "payments": 314129.53150202264,
+    "ten_held": 314912.70980111184,
+    "ten_held_with_margin_minus3": 336230.5647682809,
+    "y10": 4.34
+   },
+   {
+    "date": "2026-04-07",
+    "payments": 314244.1286636882,
+    "ten_held": 315028.5377225027,
+    "ten_held_with_margin_minus3": 336340.2641053249,
+    "y10": 4.33
+   },
+   {
+    "date": "2026-04-08",
+    "payments": 315516.22751704365,
+    "ten_held": 316304.4006563791,
+    "ten_held_with_margin_minus3": 337634.7068771172,
+    "y10": 4.29
+   },
+   {
+    "date": "2026-04-09",
+    "payments": 315379.9295708855,
+    "ten_held": 316167.9440490526,
+    "ten_held_with_margin_minus3": 337494.8209850221,
+    "y10": 4.29
+   },
+   {
+    "date": "2026-04-10",
+    "payments": 314866.7942487884,
+    "ten_held": 315653.07365211775,
+    "ten_held_with_margin_minus3": 336973.6831428429,
+    "y10": 4.31
+   },
+   {
+    "date": "2026-04-13",
+    "payments": 315293.4285897712,
+    "ten_held": 316081.19794313033,
+    "ten_held_with_margin_minus3": 337405.38655167975,
+    "y10": 4.3
+   },
+   {
+    "date": "2026-04-14",
+    "payments": 316683.0149411073,
+    "ten_held": 317474.8837371006,
+    "ten_held_with_margin_minus3": 338817.9307123607,
+    "y10": 4.26
+   },
+   {
+    "date": "2026-04-15",
+    "payments": 315682.2674973453,
+    "ten_held": 316471.404204857,
+    "ten_held_with_margin_minus3": 337797.2719833823,
+    "y10": 4.29
+   },
+   {
+    "date": "2026-04-16",
+    "payments": 314653.8968176505,
+    "ten_held": 315440.24505623785,
+    "ten_held_with_margin_minus3": 336749.640242822,
+    "y10": 4.32
+   },
+   {
+    "date": "2026-04-17",
+    "payments": 316503.7506719797,
+    "ten_held": 317295.704691457,
+    "ten_held_with_margin_minus3": 338631.75847540057,
+    "y10": 4.26
+   },
+   {
+    "date": "2026-04-20",
+    "payments": 316620.49345461733,
+    "ten_held": 317412.80344986514,
+    "ten_held_with_margin_minus3": 338748.85267653974,
+    "y10": 4.26
+   },
+   {
+    "date": "2026-04-21",
+    "payments": 315513.24206488935,
+    "ten_held": 316301.6295726526,
+    "ten_held_with_margin_minus3": 337627.5188666324,
+    "y10": 4.3
+   },
+   {
+    "date": "2026-04-22",
+    "payments": 315481.63048883865,
+    "ten_held": 316269.7037533583,
+    "ten_held_with_margin_minus3": 337597.78505809617,
+    "y10": 4.3
+   },
+   {
+    "date": "2026-04-23",
+    "payments": 314291.0987566251,
+    "ten_held": 315075.65201008186,
+    "ten_held_with_margin_minus3": 336385.54709814704,
+    "y10": 4.34
+   },
+   {
+    "date": "2026-04-24",
+    "payments": 315156.88365281036,
+    "ten_held": 315944.1886155932,
+    "ten_held_with_margin_minus3": 337266.0381027531,
+    "y10": 4.31
+   },
+   {
+    "date": "2026-04-27",
+    "payments": 313835.2496570479,
+    "ten_held": 314618.73080051114,
+    "ten_held_with_margin_minus3": 335923.5739702727,
+    "y10": 4.35
+   },
+   {
+    "date": "2026-04-28",
+    "payments": 313634.0066591513,
+    "ten_held": 314416.4407813896,
+    "ten_held_with_margin_minus3": 335720.83109774685,
+    "y10": 4.36
+   },
+   {
+    "date": "2026-04-29",
+    "payments": 311775.285107797,
+    "ten_held": 312551.85429478105,
+    "ten_held_with_margin_minus3": 333831.674332582,
+    "y10": 4.42
+   },
+   {
+    "date": "2026-04-30",
+    "payments": 312240.26473546075,
+    "ten_held": 313018.8809162845,
+    "ten_held_with_margin_minus3": 334298.3797641822,
+    "y10": 4.4
+   },
+   {
+    "date": "2026-05-01",
+    "payments": 312577.64023778116,
+    "ten_held": 313357.01934381697,
+    "ten_held_with_margin_minus3": 334643.9685611448,
+    "y10": 4.39
+   },
+   {
+    "date": "2026-05-04",
+    "payments": 310817.938403437,
+    "ten_held": 311592.02691173303,
+    "ten_held_with_margin_minus3": 332853.4874711093,
+    "y10": 4.45
+   },
+   {
+    "date": "2026-05-05",
+    "payments": 311552.9923558745,
+    "ten_held": 312328.7056013077,
+    "ten_held_with_margin_minus3": 333606.8620863992,
+    "y10": 4.43
+   },
+   {
+    "date": "2026-05-06",
+    "payments": 313790.87390757015,
+    "ten_held": 314573.5763030709,
+    "ten_held_with_margin_minus3": 335880.1314266333,
+    "y10": 4.36
+   },
+   {
+    "date": "2026-05-07",
+    "payments": 312246.4373711328,
+    "ten_held": 313024.4105062594,
+    "ten_held_with_margin_minus3": 334310.1617561466,
+    "y10": 4.41
+   },
+   {
+    "date": "2026-05-08",
+    "payments": 313277.26579652645,
+    "ten_held": 314058.23021729087,
+    "ten_held_with_margin_minus3": 335358.2953854104,
+    "y10": 4.38
+   },
+   {
+    "date": "2026-05-11",
+    "payments": 312015.4682059211,
+    "ten_held": 312792.571789068,
+    "ten_held_with_margin_minus3": 334076.5133835564,
+    "y10": 4.42
+   },
+   {
+    "date": "2026-05-12",
+    "payments": 310587.78419507225,
+    "ten_held": 311360.75535204186,
+    "ten_held_with_margin_minus3": 332622.5433262787,
+    "y10": 4.46
+   },
+   {
+    "date": "2026-05-13",
+    "payments": 310532.2332647367,
+    "ten_held": 311305.49668711185,
+    "ten_held_with_margin_minus3": 332561.4836799905,
+    "y10": 4.46
+   },
+   {
+    "date": "2026-05-14",
+    "payments": 310497.9725702573,
+    "ten_held": 311270.4063714072,
+    "ten_held_with_margin_minus3": 332531.4164383637,
+    "y10": 4.47
+   },
+   {
+    "date": "2026-05-15",
+    "payments": 306396.1733484976,
+    "ten_held": 307156.4736374742,
+    "ten_held_with_margin_minus3": 328359.74045702314,
+    "y10": 4.59
+   },
+   {
+    "date": "2026-05-18",
+    "payments": 306001.79670129047,
+    "ten_held": 306760.8964345684,
+    "ten_held_with_margin_minus3": 327958.7678662321,
+    "y10": 4.61
+   },
+   {
+    "date": "2026-05-19",
+    "payments": 304110.86497562047,
+    "ten_held": 304864.04634833056,
+    "ten_held_with_margin_minus3": 326037.3328501256,
+    "y10": 4.67
+   },
+   {
+    "date": "2026-05-20",
+    "payments": 307298.5097281224,
+    "ten_held": 308061.3709655177,
+    "ten_held_with_margin_minus3": 329279.37243779126,
+    "y10": 4.57
+   },
+   {
+    "date": "2026-05-21",
+    "payments": 307438.033099558,
+    "ten_held": 308200.63221715833,
+    "ten_held_with_margin_minus3": 329427.347417819,
+    "y10": 4.57
+   },
+   {
+    "date": "2026-05-22",
+    "payments": 308042.9692607467,
+    "ten_held": 308806.64933217096,
+    "ten_held_with_margin_minus3": 330044.6814470525,
+    "y10": 4.56
+   },
+   {
+    "date": "2026-05-26",
+    "payments": 309819.4756188757,
+    "ten_held": 310589.4797063968,
+    "ten_held_with_margin_minus3": 331844.50413070706,
+    "y10": 4.5
+   },
+   {
+    "date": "2026-05-27",
+    "payments": 310430.78626757493,
+    "ten_held": 311202.3245752964,
+    "ten_held_with_margin_minus3": 332469.8731901456,
+    "y10": 4.48
+   },
+   {
+    "date": "2026-05-28",
+    "payments": 311461.2904346278,
+    "ten_held": 312235.8192169716,
+    "ten_held_with_margin_minus3": 333517.57360331865,
+    "y10": 4.45
+   },
+   {
+    "date": "2026-05-29",
+    "payments": 311516.0771147198,
+    "ten_held": 312291.2388946417,
+    "ten_held_with_margin_minus3": 333567.51788583794,
+    "y10": 4.45
+   },
+   {
+    "date": "2026-06-01",
+    "payments": 310931.28228090855,
+    "ten_held": 311703.8081165452,
+    "ten_held_with_margin_minus3": 332982.0301243053,
+    "y10": 4.47
+   },
+   {
+    "date": "2026-06-02",
+    "payments": 311353.8227672983,
+    "ten_held": 312127.3263764017,
+    "ten_held_with_margin_minus3": 333413.6954442874,
+    "y10": 4.46
+   },
+   {
+    "date": "2026-06-03",
+    "payments": 310410.65022520535,
+    "ten_held": 311181.4227459748,
+    "ten_held_with_margin_minus3": 332451.4324446257,
+    "y10": 4.49
+   },
+   {
+    "date": "2026-06-04",
+    "payments": 311043.1950373336,
+    "ten_held": 311815.7922442198,
+    "ten_held_with_margin_minus3": 333097.8276153649,
+    "y10": 4.47
+   },
+   {
+    "date": "2026-06-05",
+    "payments": 308784.64713140397,
+    "ten_held": 309549.7865356904,
+    "ten_held_with_margin_minus3": 330802.9668065761,
+    "y10": 4.55
+   },
+   {
+    "date": "2026-06-08",
+    "payments": 308380.28854926134,
+    "ten_held": 309144.4932709121,
+    "ten_held_with_margin_minus3": 330392.07938652067,
+    "y10": 4.56
+   },
+   {
+    "date": "2026-06-09",
+    "payments": 309375.5845730968,
+    "ten_held": 310142.6761465132,
+    "ten_held_with_margin_minus3": 331406.12579187984,
+    "y10": 4.53
+   },
+   {
+    "date": "2026-06-10",
+    "payments": 308753.70328598545,
+    "ten_held": 309519.2298728039,
+    "ten_held_with_margin_minus3": 330770.60893060005,
+    "y10": 4.55
+   },
+   {
+    "date": "2026-06-11",
+    "payments": 311828.29617411067,
+    "ten_held": 312602.95218083425,
+    "ten_held_with_margin_minus3": 333899.0837896338,
+    "y10": 4.45
+   },
+   {
+    "date": "2026-06-12",
+    "payments": 310957.47795133543,
+    "ten_held": 311729.3838908457,
+    "ten_held_with_margin_minus3": 333014.3872370347,
+    "y10": 4.48
+   },
+   {
+    "date": "2026-06-15",
+    "payments": 311316.47948818887,
+    "ten_held": 312089.66922437353,
+    "ten_held_with_margin_minus3": 333377.85309054336,
+    "y10": 4.47
+   },
+   {
+    "date": "2026-06-16",
+    "payments": 312777.8655324604,
+    "ten_held": 313555.0340789874,
+    "ten_held_with_margin_minus3": 334865.63581076247,
+    "y10": 4.43
+   },
+   {
+    "date": "2026-06-17",
+    "payments": 311264.96648138005,
+    "ten_held": 312036.470157848,
+    "ten_held_with_margin_minus3": 333331.89782102196,
+    "y10": 4.49
+   },
+   {
+    "date": "2026-06-18",
+    "payments": 312361.7091909343,
+    "ten_held": 313136.1832441412,
+    "ten_held_with_margin_minus3": 334450.7434061155,
+    "y10": 4.46
+   },
+   {
+    "date": "2026-06-22",
+    "payments": 310782.27956522437,
+    "ten_held": 311552.47508974903,
+    "ten_held_with_margin_minus3": 332839.42702584894,
+    "y10": 4.51
+   },
+   {
+    "date": "2026-06-23",
+    "payments": 311036.91598041274,
+    "ten_held": 311807.7967047327,
+    "ten_held_with_margin_minus3": 333103.1144658708,
+    "y10": 4.5
+   },
+   {
+    "date": "2026-06-24",
+    "payments": 314062.4708543607,
+    "ten_held": 314842.3789569282,
+    "ten_held_with_margin_minus3": 336176.93724655674,
+    "y10": 4.41
+   },
+   {
+    "date": "2026-06-25",
+    "payments": 314337.7577636786,
+    "ten_held": 315118.94253784383,
+    "ten_held_with_margin_minus3": 336452.7055253875,
+    "y10": 4.4
+   },
+   {
+    "date": "2026-06-26",
+    "payments": 314843.023282541,
+    "ten_held": 315626.38450190745,
+    "ten_held_with_margin_minus3": 336960.1866390535,
+    "y10": 4.38
+   },
+   {
+    "date": "2026-06-29",
+    "payments": 315043.5718772629,
+    "ten_held": 315827.0776533752,
+    "ten_held_with_margin_minus3": 337168.4700328459,
+    "y10": 4.38
+   },
+   {
+    "date": "2026-06-30",
+    "payments": 312974.0973423753,
+    "ten_held": 313751.86023711285,
+    "ten_held_with_margin_minus3": 335061.4299754377,
+    "y10": 4.44
+   },
+   {
+    "date": "2026-07-01",
+    "payments": 311612.6027632122,
+    "ten_held": 312386.1499549949,
+    "ten_held_with_margin_minus3": 333679.0761652337,
+    "y10": 4.48
+   },
+   {
+    "date": "2026-07-02",
+    "payments": 311160.5729147335,
+    "ten_held": 311933.25681810087,
+    "ten_held_with_margin_minus3": 333217.7091759009,
+    "y10": 4.49
+   },
+   {
+    "date": "2026-07-06",
+    "payments": 311474.4542457644,
+    "ten_held": 312248.5316253252,
+    "ten_held_with_margin_minus3": 333532.16378321196,
+    "y10": 4.48
+   },
+   {
+    "date": "2026-07-07",
+    "payments": 309275.92503173836,
+    "ten_held": 310043.43154391425,
+    "ten_held_with_margin_minus3": 331296.33228544745,
+    "y10": 4.55
+   },
+   {
+    "date": "2026-07-08",
+    "payments": 308826.15352223,
+    "ten_held": 309592.0671062826,
+    "ten_held_with_margin_minus3": 330841.6106284063,
+    "y10": 4.56
+   },
+   {
+    "date": "2026-07-09",
+    "payments": 309366.40380311495,
+    "ten_held": 310134.33830798365,
+    "ten_held_with_margin_minus3": 331388.1378302605,
+    "y10": 4.54
+   },
+   {
+    "date": "2026-07-10",
+    "payments": 308809.2203522436,
+    "ten_held": 309575.58170582575,
+    "ten_held_with_margin_minus3": 330817.75344929803,
+    "y10": 4.56
+   },
+   {
+    "date": "2026-07-13",
+    "payments": 307238.31082387996,
+    "ten_held": 307999.4697899199,
+    "ten_held_with_margin_minus3": 329222.61176733125,
+    "y10": 4.62
+   },
+   {
+    "date": "2026-07-14",
+    "payments": 308193.5353428798,
+    "ten_held": 308957.8283010184,
+    "ten_held_with_margin_minus3": 330195.843917007,
+    "y10": 4.58
+   },
+   {
+    "date": "2026-07-15",
+    "payments": 309115.3755577153,
+    "ten_held": 309883.0399723079,
+    "ten_held_with_margin_minus3": 331127.8748507617,
+    "y10": 4.55
+   },
+   {
+    "date": "2026-07-16",
+    "payments": 308497.4713888153,
+    "ten_held": 309263.36506486457,
+    "ten_held_with_margin_minus3": 330497.91471688997,
+    "y10": 4.57
+   },
+   {
+    "date": "2026-07-17",
+    "payments": 309192.70793306985,
+    "ten_held": 309960.38442414126,
+    "ten_held_with_margin_minus3": 331206.0995238185,
+    "y10": 4.55
+   },
+   {
+    "date": "2026-07-20",
+    "payments": 307652.5172684839,
+    "ten_held": 308415.76622389565,
+    "ten_held_with_margin_minus3": 329638.71261091664,
+    "y10": 4.6
+   },
+   {
+    "date": "2026-07-21",
+    "payments": 306757.54495965084,
+    "ten_held": 307517.5331617426,
+    "ten_held_with_margin_minus3": 328733.1334118835,
+    "y10": 4.63
+   },
+   {
+    "date": "2026-07-22",
+    "payments": 305655.60437135946,
+    "ten_held": 306412.4518439675,
+    "ten_held_with_margin_minus3": 327608.8918377682,
+    "y10": 4.67
+   },
+   {
+    "date": "2026-07-23",
+    "payments": 304514.4757409011,
+    "ten_held": 305267.60955905175,
+    "ten_held_with_margin_minus3": 326449.38332210487,
+    "y10": 4.71
+   },
+   {
+    "date": "2026-07-24",
+    "payments": 305164.9939465965,
+    "ten_held": 305920.23125801503,
+    "ten_held_with_margin_minus3": 327110.84108105255,
+    "y10": 4.69
+   },
+   {
+    "date": "2026-07-27",
+    "payments": 306410.8070982478,
+    "ten_held": 307169.64615273714,
+    "ten_held_with_margin_minus3": 328379.31284560607,
+    "y10": 4.65
+   },
+   {
+    "date": "2026-07-28",
+    "payments": 307695.36212123715,
+    "ten_held": 308458.12926508347,
+    "ten_held_with_margin_minus3": 329685.2862770831,
+    "y10": 4.61
+   },
+   {
+    "date": "2026-07-29",
+    "payments": 305285.47968844033,
+    "ten_held": 306042.58600583824,
+    "ten_held_with_margin_minus3": 327222.5979882889,
+    "y10": 4.67
+   },
+   {
+    "date": "2026-07-30",
+    "payments": 304991.3490594152,
+    "ten_held": 305747.61487809045,
+    "ten_held_with_margin_minus3": 326922.938510578,
+    "y10": 4.68
+   },
+   {
+    "date": "2026-07-31",
+    "payments": 302836.12987942784,
+    "ten_held": 303585.9322169378,
+    "ten_held_with_margin_minus3": 324730.43355458294,
+    "y10": 4.75
+   },
+   {
+    "date": "2026-08-03",
+    "payments": 304538.7818013032,
+    "ten_held": 305293.55630085943,
+    "ten_held_with_margin_minus3": 326463.67187147506,
+    "y10": 4.7
+   },
+   {
+    "date": "2026-08-04",
+    "payments": 306599.5177205082,
+    "ten_held": 307360.6795627318,
+    "ten_held_with_margin_minus3": 328558.7941056847,
+    "y10": 4.63
+   },
+   {
+    "date": "2026-08-05",
+    "payments": 306570.8552957637,
+    "ten_held": 307331.90043157525,
+    "ten_held_with_margin_minus3": 328531.0410828814,
+    "y10": 4.63
+   },
+   {
+    "date": "2026-08-06",
+    "payments": 304864.43923698214,
+    "ten_held": 305620.1032701412,
+    "ten_held_with_margin_minus3": 326795.3625644879,
+    "y10": 4.69
+   },
+   {
+    "date": "2026-08-07",
+    "payments": 305916.3765563076,
+    "ten_held": 306675.498600981,
+    "ten_held_with_margin_minus3": 327865.5194236971,
+    "y10": 4.65
+   },
+   {
+    "date": "2026-08-10",
+    "payments": 303921.22261917125,
+    "ten_held": 304674.1929909096,
+    "ten_held_with_margin_minus3": 325837.2921470939,
+    "y10": 4.72
+   },
+   {
+    "date": "2026-08-11",
+    "payments": 304374.63038092194,
+    "ten_held": 305129.3303101831,
+    "ten_held_with_margin_minus3": 326296.86328351084,
+    "y10": 4.7
+   },
+   {
+    "date": "2026-08-12",
+    "payments": 304921.5888810573,
+    "ten_held": 305678.0421909899,
+    "ten_held_with_margin_minus3": 326852.6765835328,
+    "y10": 4.68
+   },
+   {
+    "date": "2026-08-13",
+    "payments": 306400.2337120353,
+    "ten_held": 307161.17781239375,
+    "ten_held_with_margin_minus3": 328357.3120869832,
+    "y10": 4.63
+   },
+   {
+    "date": "2026-08-14",
+    "payments": 304855.07480449486,
+    "ten_held": 305611.8163197148,
+    "ten_held_with_margin_minus3": 326780.6650025521,
+    "y10": 4.68
+   },
+   {
+    "date": "2026-08-17",
+    "payments": 303550.3955587215,
+    "ten_held": 304303.86677639553,
+    "ten_held_with_margin_minus3": 325447.1338103259,
+    "y10": 4.72
+   },
+   {
+    "date": "2026-08-18",
+    "payments": 303965.89791106404,
+    "ten_held": 304720.3523967143,
+    "ten_held_with_margin_minus3": 325871.23885248584,
+    "y10": 4.71
+   },
+   {
+    "date": "2026-08-19",
+    "payments": 306326.1607216619,
+    "ten_held": 307086.0154701375,
+    "ten_held_with_margin_minus3": 328286.0581014537,
+    "y10": 4.65
+   },
+   {
+    "date": "2026-08-20",
+    "payments": 305061.12470408645,
+    "ten_held": 305816.831692104,
+    "ten_held_with_margin_minus3": 327006.5181803914,
+    "y10": 4.69
+   },
+   {
+    "date": "2026-08-21",
+    "payments": 303547.522359414,
+    "ten_held": 304299.15335316135,
+    "ten_held_with_margin_minus3": 325459.3740816553,
+    "y10": 4.74
+   },
+   {
+    "date": "2026-08-24",
+    "payments": 304824.14462111203,
+    "ten_held": 305578.96674836584,
+    "ten_held_with_margin_minus3": 326764.11146671226,
+    "y10": 4.7
+   },
+   {
+    "date": "2026-08-25",
+    "payments": 306692.85825709376,
+    "ten_held": 307453.5141687226,
+    "ten_held_with_margin_minus3": 328663.15614744485,
+    "y10": 4.64
+   },
+   {
+    "date": "2026-08-26",
+    "payments": 306105.3538437285,
+    "ten_held": 306863.8572772083,
+    "ten_held_with_margin_minus3": 328068.9349859138,
+    "y10": 4.66
+   },
+   {
+    "date": "2026-08-27",
+    "payments": 305802.1852846095,
+    "ten_held": 306559.8194286032,
+    "ten_held_with_margin_minus3": 327759.7054214935,
+    "y10": 4.67
+   },
+   {
+    "date": "2026-08-28",
+    "payments": 304296.8737056515,
+    "ten_held": 305049.3006796814,
+    "ten_held_with_margin_minus3": 326229.03207848925,
+    "y10": 4.73
+   },
+   {
+    "date": "2026-08-31",
+    "payments": 303508.5383185618,
+    "ten_held": 304258.6591897466,
+    "ten_held_with_margin_minus3": 325429.3022407477,
+    "y10": 4.75
+   },
+   {
+    "date": "2026-09-01",
+    "payments": 302390.68779007805,
+    "ten_held": 303137.34969445795,
+    "ten_held_with_margin_minus3": 324290.39819945296,
+    "y10": 4.79
+   },
+   {
+    "date": "2026-09-02",
+    "payments": 302384.90707893,
+    "ten_held": 303131.57121143094,
+    "ten_held_with_margin_minus3": 324285.2942524266,
+    "y10": 4.79
+   },
+   {
+    "date": "2026-09-03",
+    "payments": 302988.64172020205,
+    "ten_held": 303737.21224654303,
+    "ten_held_with_margin_minus3": 324900.1990542212,
+    "y10": 4.77
+   },
+   {
+    "date": "2026-09-04",
+    "payments": 302787.42639147403,
+    "ten_held": 303534.98350538296,
+    "ten_held_with_margin_minus3": 324698.1995035412,
+    "y10": 4.78
+   },
+   {
+    "date": "2026-09-08",
+    "payments": 302245.51668011077,
+    "ten_held": 302991.03343113424,
+    "ten_held_with_margin_minus3": 324153.5328081757,
+    "y10": 4.8
+   },
+   {
+    "date": "2026-09-09",
+    "payments": 301438.37052510283,
+    "ten_held": 302181.3560996492,
+    "ten_held_with_margin_minus3": 323330.9616126821,
+    "y10": 4.83
+   },
+   {
+    "date": "2026-09-10",
+    "payments": 297879.36493619997,
+    "ten_held": 298611.7303598531,
+    "ten_held_with_margin_minus3": 319703.67322012724,
+    "y10": 4.95
+   },
+   {
+    "date": "2026-09-11",
+    "payments": 297772.81012860284,
+    "ten_held": 298504.01647558087,
+    "ten_held_with_margin_minus3": 319600.3597252811,
+    "y10": 4.96
+   },
+   {
+    "date": "2026-09-14",
+    "payments": 297744.2078320712,
+    "ten_held": 298474.9478808634,
+    "ten_held_with_margin_minus3": 319573.1755535217,
+    "y10": 4.97
+   },
+   {
+    "date": "2026-09-15",
+    "payments": 296830.03156240383,
+    "ten_held": 297558.1574086903,
+    "ten_held_with_margin_minus3": 318640.3433121867,
+    "y10": 5.0
+   },
+   {
+    "date": "2026-09-16",
+    "payments": 296719.9657303576,
+    "ten_held": 297446.9253522867,
+    "ten_held_with_margin_minus3": 318533.51589404984,
+    "y10": 5.01
+   },
+   {
+    "date": "2026-09-17",
+    "payments": 298882.9058591915,
+    "ten_held": 299616.27681122907,
+    "ten_held_with_margin_minus3": 320737.5359913994,
+    "y10": 4.94
+   },
+   {
+    "date": "2026-09-18",
+    "payments": 296893.12452017557,
+    "ten_held": 297620.6303855745,
+    "ten_held_with_margin_minus3": 318707.6811350873,
+    "y10": 5.01
+   },
+   {
+    "date": "2026-09-21",
+    "payments": 298488.0379637105,
+    "ten_held": 299219.8558956079,
+    "ten_held_with_margin_minus3": 320335.090291186,
+    "y10": 4.96
+   },
+   {
+    "date": "2026-09-22",
+    "payments": 298462.9693021852,
+    "ten_held": 299194.67935501505,
+    "ten_held_with_margin_minus3": 320312.2685995847,
+    "y10": 4.96
+   },
+   {
+    "date": "2026-09-23",
+    "payments": 294168.82396533125,
+    "ten_held": 294887.47062342236,
+    "ten_held_with_margin_minus3": 315938.0237831539,
+    "y10": 5.11
+   },
+   {
+    "date": "2026-09-24",
+    "payments": 292051.41885533946,
+    "ten_held": 292764.78473300114,
+    "ten_held_with_margin_minus3": 313770.534154922,
+    "y10": 5.18
+   },
+   {
+    "date": "2026-09-25",
+    "payments": 292263.8506980704,
+    "ten_held": 292979.0023741067,
+    "ten_held_with_margin_minus3": 313976.2624722651,
+    "y10": 5.17
+   },
+   {
+    "date": "2026-09-28",
+    "payments": 290291.3819066209,
+    "ten_held": 291000.30750333966,
+    "ten_held_with_margin_minus3": 311968.0748730554,
+    "y10": 5.24
+   },
+   {
+    "date": "2026-09-29",
+    "payments": 289498.6502363356,
+    "ten_held": 290205.94454437314,
+    "ten_held_with_margin_minus3": 311155.12915230694,
+    "y10": 5.26
+   },
+   {
+    "date": "2026-09-30",
+    "payments": 288503.4669546265,
+    "ten_held": 289208.09216716036,
+    "ten_held_with_margin_minus3": 310138.97308261687,
+    "y10": 5.29
+   },
+   {
+    "date": "2026-10-01",
+    "payments": 289879.5584833657,
+    "ten_held": 290588.7605347122,
+    "ten_held_with_margin_minus3": 311540.9641194256,
+    "y10": 5.24
+   },
+   {
+    "date": "2026-10-02",
+    "payments": 288759.2446580189,
+    "ten_held": 289464.8123415312,
+    "ten_held_with_margin_minus3": 310400.7388174977,
+    "y10": 5.28
+   },
+   {
+    "date": "2026-10-05",
+    "payments": 287938.45811935636,
+    "ten_held": 288642.0268765891,
+    "ten_held_with_margin_minus3": 309559.18399547355,
+    "y10": 5.31
+   },
+   {
+    "date": "2026-10-06",
+    "payments": 288929.0698508881,
+    "ten_held": 289635.77796526847,
+    "ten_held_with_margin_minus3": 310571.81991263083,
+    "y10": 5.27
+   },
+   {
+    "date": "2026-10-07",
+    "payments": 288509.56833162165,
+    "ten_held": 289215.7220909728,
+    "ten_held_with_margin_minus3": 310138.4500587459,
+    "y10": 5.28
+   },
+   {
+    "date": "2026-10-08",
+    "payments": 290349.272031667,
+    "ten_held": 291059.9781491276,
+    "ten_held_with_margin_minus3": 312023.71464971075,
+    "y10": 5.22
+   },
+   {
+    "date": "2026-10-09",
+    "payments": 289893.26776285784,
+    "ten_held": 290602.4863548755,
+    "ten_held_with_margin_minus3": 311557.42998191644,
+    "y10": 5.24
+   },
+   {
+    "date": "2026-10-13",
+    "payments": 290985.1948085537,
+    "ten_held": 291696.8972510002,
+    "ten_held_with_margin_minus3": 312677.41502520826,
+    "y10": 5.21
+   },
+   {
+    "date": "2026-10-14",
+    "payments": 291749.55864296324,
+    "ten_held": 292463.23752250685,
+    "ten_held_with_margin_minus3": 313455.8937780389,
+    "y10": 5.19
+   },
+   {
+    "date": "2026-10-15",
+    "payments": 294452.6291897503,
+    "ten_held": 295174.0036354343,
+    "ten_held_with_margin_minus3": 316214.1001422984,
+    "y10": 5.1
+   },
+   {
+    "date": "2026-10-16",
+    "payments": 294770.39107149496,
+    "ten_held": 295492.9127791995,
+    "ten_held_with_margin_minus3": 316536.9767149966,
+    "y10": 5.09
+   },
+   {
+    "date": "2026-10-19",
+    "payments": 292992.9623170984,
+    "ten_held": 293710.4570577912,
+    "ten_held_with_margin_minus3": 314724.1858283987,
+    "y10": 5.15
+   },
+   {
+    "date": "2026-10-20",
+    "payments": 294129.2914665545,
+    "ten_held": 294849.11680668907,
+    "ten_held_with_margin_minus3": 315890.59894141194,
+    "y10": 5.12
+   },
+   {
+    "date": "2026-10-21",
+    "payments": 293927.5354148144,
+    "ten_held": 294646.60256880894,
+    "ten_held_with_margin_minus3": 315684.76805632684,
+    "y10": 5.13
+   },
+   {
+    "date": "2026-10-22",
+    "payments": 298861.30143441,
+    "ten_held": 299594.7602339388,
+    "ten_held_with_margin_minus3": 320717.60867244785,
+    "y10": 4.96
+   },
+   {
+    "date": "2026-10-23",
+    "payments": 297636.1781010803,
+    "ten_held": 298366.59985763975,
+    "ten_held_with_margin_minus3": 319462.4296633477,
+    "y10": 5.0
+   },
+   {
+    "date": "2026-10-26",
+    "payments": 297786.9032314638,
+    "ten_held": 298516.8438793668,
+    "ten_held_with_margin_minus3": 319625.5060988165,
+    "y10": 5.0
+   },
+   {
+    "date": "2026-10-27",
+    "payments": 298067.7100439957,
+    "ten_held": 298798.2662955566,
+    "ten_held_with_margin_minus3": 319912.34795168316,
+    "y10": 4.99
+   },
+   {
+    "date": "2026-10-28",
+    "payments": 296184.68824583676,
+    "ten_held": 296910.59718522645,
+    "ten_held_with_margin_minus3": 317987.804656944,
+    "y10": 5.05
+   },
+   {
+    "date": "2026-10-29",
+    "payments": 298255.69237992534,
+    "ten_held": 298987.91839590925,
+    "ten_held_with_margin_minus3": 320096.0721535573,
+    "y10": 4.98
+   },
+   {
+    "date": "2026-10-30",
+    "payments": 299331.8617901517,
+    "ten_held": 300068.55481893837,
+    "ten_held_with_margin_minus3": 321179.68413488613,
+    "y10": 4.94
+   },
+   {
+    "date": "2026-11-02",
+    "payments": 300233.258123093,
+    "ten_held": 300972.00446753576,
+    "ten_held_with_margin_minus3": 322103.08454355685,
+    "y10": 4.91
+   },
+   {
+    "date": "2026-11-03",
+    "payments": 299021.3155799897,
+    "ten_held": 299756.60112069594,
+    "ten_held_with_margin_minus3": 320868.0205125562,
+    "y10": 4.95
+   },
+   {
+    "date": "2026-11-04",
+    "payments": 300608.1755875101,
+    "ten_held": 301348.2422684645,
+    "ten_held_with_margin_minus3": 322481.67579011904,
+    "y10": 4.9
+   },
+   {
+    "date": "2026-11-05",
+    "payments": 302162.7284469501,
+    "ten_held": 302908.1439102707,
+    "ten_held_with_margin_minus3": 324062.16670984507,
+    "y10": 4.84
+   },
+   {
+    "date": "2026-11-06",
+    "payments": 301543.66458835866,
+    "ten_held": 302286.7615805898,
+    "ten_held_with_margin_minus3": 323435.5931214174,
+    "y10": 4.86
+   }
+  ]
+ },
+ "rival_late_lock": {
+  "what": "2028 money after completion all in VT; in Jan 2031 86.65% moved to Treasuries maturing late 2032, 13.35% kept",
+  "house": {
+   "final_top": [
+    111182.62502617645,
+    139391.5291322567,
+    170770.45348558508
+   ],
+   "rival_top": [
+    85802.00060147246,
+    147146.01074507157,
+    251435.8174481515
+   ],
+   "final_total": [
+    127849.43518456409,
+    163894.19402832282,
+    210689.75617431238
+   ],
+   "rival_total": [
+    99950.98397692695,
+    171621.32919387257,
+    293738.9736249466
+   ],
+   "share_rival_top_below_110k": 0.18662,
+   "share_final_top_below_110k": 0.04332,
+   "share_rival_top_below_final_top": 0.401625,
+   "share_rival_total_below_final_total": 0.401625,
+   "rival_top_p1": 68097.35934793793,
+   "final_top_p1": 99941.21542241989
+  },
+  "history": {
+   "windows": 1770,
+   "final_top": [
+    131215.1501633326,
+    140234.80521340718,
+    153645.53988600217
+   ],
+   "rival_top": [
+    99214.15904818532,
+    157757.46317469925,
+    244801.66986985703
+   ],
+   "rival_top_lowest": {
+    "value": 25564.325101101116,
+    "start": "1929-07"
+   },
+   "final_top_lowest": 119868.06091701325,
+   "share_rival_top_below_110k": 0.10677966101694915,
+   "share_rival_top_below_final_top": 0.315819209039548
+  }
+ },
+ "stamp": {
+  "curve": "11/06/2026",
+  "margin_jan2027_value": 21148.83154082758,
+  "run": "Mon 9 Nov 2026"
+ }
+}

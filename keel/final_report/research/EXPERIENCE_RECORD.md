@@ -1,9 +1,11 @@
 # What Caplet actually did: the record behind "Articulation of Competition Experience"
 
-Started Mon 9 Nov 2026 (Sydney). Notes, not report text. This is the material for the experience section: real,
+Started Mon 9 Nov 2026 (Sydney); section 5 holds the blind ranking of the whole pool. Notes, not report text. This is the material for the experience section: real,
 dated events of Caplet's competition, each with its source. The section is built from these and told vividly; a
 scenario that helps the argument is told as an illustration ("suppose ...", "imagine ..."), never as something that
-happened. Keel's diary is Keel's own story and is not used here.
+happened. Since I102 (Mon 9 Nov) the pool also holds Keel's real work events, and the whole pool is judged blind of
+which team produced each event (`experience/`); the invented people and scenes in Keel's diary are not events and are
+not used.
 
 The spine is Caplet's own timeline in the Final Report doc's Experience tab, as Caplet edited it
 (`keel/library/research_tabs_2026-11-07/doc_snapshot_2026-11-08/01_experience_with_caplet_edits.txt`, "the tab" below).
@@ -59,3 +61,54 @@ the team's growth story.
 
 Feelings, who said what in meetings beyond the tab, and moments after 7 Nov. If Caplet adds any, they go straight
 into the table above with the date.
+
+## 5. The blind ranking (Mon 9 Nov, Caplet's order I102)
+
+**How.** Two researchers gathered every real event of the competition that the files confirm: 40 from Caplet's own
+record and 63 from Keel's work (`experience/candidates_W.md`, `candidates_K.md`; each with its evidence). The pool was
+stripped of who produced each event, given random ids and shuffled (`experience/blind.py`, `BLIND_POOL.md`). Three
+independent readers who saw nothing else scored all 103 on Wharton's Articulation wording, vividness, credibility and
+the link to the strategy (`judge_1-3.md` and `.csv`: a Wharton finance professor, a reader of student essays, a
+fixed-income portfolio manager). Origins were revealed only after (`experience/aggregate.py`, `RANKING.md`). The best
+events split evenly: Caplet 6 and Keel 4 in the top 10, 15 each in the top 30.
+
+**The top 15** (mean of three readers, out of 40; all three put the first nine in their own top 15):
+
+| Rank | Event | Score | Origin |
+|---|---|---|---|
+| 1 | The model that sank our own first plan (27 Sep) | 34.0 | Caplet |
+| 2 | Our own trade note's warning came true (7 Oct note; the completion rule) | 32.3 | Keel |
+| 3 | Last year's lessons (FMC down 54%, trades outside the rules, no feedback; three rules for this year) | 32.0 | Caplet |
+| 4 | A bond fund never matures (why one dated holding per payment) | 31.0 | Keel |
+| 5 | No bond for the missing years, and a ticker that was not ours (IBTN was INSCORP Inc.) | 31.0 | Caplet |
+| 6 | The "copout" objection, settled by a test written before the numbers (5 Oct) | 31.0 | Caplet |
+| 7 | Laura's career is a stock she cannot sell: six weeks to find the words | 30.7 | Caplet |
+| 8 | The cheapest the payments had been in years (28 Sep) | 30.3 | Keel |
+| 9 | A former Wharton judge says the IPS cannot make it ("Laura is barely in it") | 30.0 | Caplet |
+| 10 | The night the ladder crossed $300,000 | 30.0 | Keel |
+| 11 | Her career is a share she can't sell: the idea that survived from the first day | 30.0 | Caplet |
+| 12 | We set the drafts aside and wrote our own IPS as a letter | 30.0 | Caplet |
+| 13 | $300,000 could buy the ten payments in only about one month in four since 1871 | 29.7 | Keel |
+| 14 | From $1,913 of room to $1,544 over the line | 29.3 | Keel |
+| 15 | Wharton's 6 Oct email takes away our floor | 29.0 | Caplet |
+
+**The arc all three readers built** (each proposed one; they share five steps): last year's lessons -> the model that
+sank our own plan -> learning how Treasuries really behave (no bond for the missing years; a bond fund never matures)
+-> the "copout" objection -> the trade note's warning came true -> a former judge: "Laura is barely in it" -> our own
+IPS as a letter -> the central idea tested honestly after submission (2009 supports it, 2020 does not). It runs from a
+team that lost last year, through decisions made on evidence, to a team that found its client and its own voice.
+
+**What the readers said to leave out**, with their reasons: a thousand essays read in one night (no reader believes
+students did it, and it makes the true events look doubtful); drafts scored by machine judges and an office that
+ignored the team's messages (reads as a team that did not own its work); the team leader handing decisions to someone
+else (Wharton says the decisions are the students'); thirteen edits rejected on deadline night (points the judges at a
+weak line in a reflection they already hold).
+
+**Numbers to reconcile before any event is told.** Event cards quote the record as it stood that day; the report uses
+NUMBERS.md only. (a) "Only 12 of 185 days" came from an earlier ladder model: the register says 37 of 214 closes
+(section 8b). (b) "$302,863 on 22 Oct" and "crossed $300,000 for the first time" came from an older calculation: on
+the register's engine the ten cost $298,861 on 22 Oct and first went back over $300,000 on 2 Nov ($300,233), $301,544
+at the freeze; the 10-year yield on 22 Oct was 0.31 points below 6 Oct, as the card says. (c) "Cheapest since May
+2002" and "one month in four since 1871" are not yet in the register; re-derive them on this engine before use.
+(d) The 7 Oct mis-click is told as Caplet's own tab tells it ("a mis-click incident led to the rule that only Ray
+places or cancels orders").
