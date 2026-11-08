@@ -1,5 +1,8 @@
 # FICTION. Team Keel: story arcs to December
 
+> **Retired for new episodes on Sun 8 Nov 2026.** From Ep 41 the diary follows `episodes/AUTHENTICITY.md`: no arcs, only
+> real events with invented people. This page is kept as history of Ep 0-40.
+
 > The long threads that run through the episodes. Each daily episode should move at least one arc by one step and
 > say which in its summary header. When an arc moves, update its "Where it stands" line here (one line, dated).
 > Background: `WORLD.md` (setting and time), `CULTURE.md` (values), `CAST.md` (the six in one screen),
