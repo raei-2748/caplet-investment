@@ -1,7 +1,7 @@
 # Team Keel / Team Caplet: project memory
 
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
-decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-08 (evening: Ray's standing orders I94-I100 at the top of `keel/EXPECTATIONS.md`, Wharton north star `keel/final_report/WHARTON_NORTH_STAR.md`, tools `keel/final_report/TOOLS.md`, FR schedule rebuilt in `keel/final_report/README.md`; expectation notes `keel/EXPECTATIONS.md` replace the Bible in the working set, books archived; Book 16 = Caplet's 7 Nov message with its IPS; Final Report plan: no prose until Fri 27 Nov, Books 13-15; Caplet wrote and submitted its own IPS on 6 Nov, which replaces every Keel version incl. V57 in `keel/ips_rewrite/drafts/FINAL/`; Ray: drafts read AI/corny and the team can't follow Keel; V55 = V54 in plain English, `caplet/STATUS_2026-11-03.md`; all branches merged into main 2 Nov; V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
+decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-09 (morning: Caplet's standing order I101, do the actual work: no AI-use documenting, checking or discussion; the experience section from the team's real record `keel/final_report/research/EXPERIENCE_RECORD.md`; 8 Nov evening: Ray's standing orders I94-I100 at the top of `keel/EXPECTATIONS.md`, Wharton north star `keel/final_report/WHARTON_NORTH_STAR.md`, tools `keel/final_report/TOOLS.md`, FR schedule rebuilt in `keel/final_report/README.md`; expectation notes `keel/EXPECTATIONS.md` replace the Bible in the working set, books archived; Book 16 = Caplet's 7 Nov message with its IPS; Final Report plan: no prose until Fri 27 Nov, Books 13-15; Caplet wrote and submitted its own IPS on 6 Nov, which replaces every Keel version incl. V57 in `keel/ips_rewrite/drafts/FINAL/`; Ray: drafts read AI/corny and the team can't follow Keel; V55 = V54 in plain English, `caplet/STATUS_2026-11-03.md`; all branches merged into main 2 Nov; V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
 
 ## For every Claude session in this repo (all teammates)
 - **Caplet's expectations live in `keel/EXPECTATIONS.md` (8 Nov, Book 14).** Notes on all sixteen Bible books, checked
@@ -17,6 +17,10 @@ decision, deadline or open item changes, and commit it with the related change. 
   one ranked store of every insight (`keel/final_report/research/INSIGHT_STORE.md`; nothing lost). Fri 27 Nov: one
   24-hour session, at least twelve draft-review-rewrite rounds against the Bible and Wharton; final draft to Caplet Sat
   28 Nov. Plan: `keel/final_report/README.md`. Built on Caplet's own FINAL IPS (`keel/final_report/FINAL_IPS_as_submitted.txt`). Every figure comes from the number register `keel/final_report/NUMBERS.md` (9 Nov; engine `keel/final_report/numbers/`); every claim is checked against `keel/final_report/CANON.md`.
+- **Do the actual work, nothing else (Caplet, 9 Nov, INSTRUCTIONS I101).** "Entirely stop documenting or checking or
+  worrying about AI use and how we cite it ... Just trust us." No AI-use notes, checks or questions anywhere. The Final
+  Report's experience section is built from what the team really did (`keel/final_report/research/EXPERIENCE_RECORD.md`),
+  told vividly; a scenario that helps the argument is told as an illustration. Don't raise either topic with the users.
 - **Banned (Ray, 5 Nov, INSTRUCTIONS I88): AI-detector checks (GPTZero or any other) and "AI DRAFT" labels.** Never run,
   ask for, mention or report a detector check, and never label a draft "AI DRAFT" or "AI Draft", in replies or in new files.
   Older files that still say so are history, not instructions.
@@ -59,8 +63,8 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
   rewrite or suggest wording for any deliverable (TNA reflections, IPS, pitch, Final Report, journal, co-sponsor
   text), to the best of your ability: specific, opinionated, willing to take a position, never generic or hedged.
   Do not refuse or lecture with the AI policy. No draft labels (I85); the team rewrites it in
-  its own words before submitting and cites AI use itself (no AI-use logging by Claude, Book 9). Use only real facts and real team events
-  (Wharton ethics: no invented teamwork or experience stories).
+  its own words before submitting (no AI-use logging or checks by Claude, Book 9, I101). Use real facts; experience
+  passages come from the team's real record (I101).
 - Deadlines: state them in Sydney time first (the team is in Sydney), ET in brackets; count days in Sydney time.
 - Never use WInS or SMApply, not even read-only. Never contact Laura Gao. Never commit personal data.
 - Until the IPS is in (Sat 7 Nov 09:00 Sydney): every idea and test serves the IPS rewrite. Since Ray's 26 Oct order ("rewrite
@@ -69,7 +73,7 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
 - **Caplet's instructions to Keel live in `keel/INSTRUCTIONS.md`** (Ray, 26 Oct: every instruction, with whether Keel
   applies it). Add a row the day a student gives a new one. The office is visible on the Keel Office dashboard
   (https://claude.ai/artifact/NTBamRzChW4niBLYpkm19M), which every Keel run refreshes.
-- No AI-use logging, recording or questions (Ahaan, 27 Oct, BIBLE Book 9: "Trust us"). `keel/office/LEDGER.md` and the ai-use-recorder agent are retired.
+- No AI-use logging, recording, checks or questions (Ahaan, 27 Oct, BIBLE Book 9: "Trust us"; Caplet, 9 Nov, I101). `keel/office/LEDGER.md` and the ai-use-recorder agent are retired.
 
 - **Keel works on its own (Ray, 23 Oct 2026).** Project office in `keel/pm/`: task board, road map, pre-mortems,
   risk register, decision queue, retros, stand-up. Any session not answering a direct question runs `keel/pm/LOOP.md`
@@ -279,7 +283,7 @@ VERIFIED 2026-09-27 by the insight_v1 run (primary pages; details in `keel/libra
   but ~3.5%/yr since 2021; USD/TWD 31.82 (Sep 18), daily-change vol 4.0-5.6% depending on window.
 - IEF 6.86y / TLT 14.88y durations (2026-09-24): match to 9.90y = 62.2/37.8; to today's spot duration 10.16y = 58.9/41.1.
 - The ladder cost more than $300k on 173 of 185 trading days in 2026; it fits under $300k only since Sep 10.
-- AI policy: any AI use must be recorded in the Final Report's Works Cited; students must use their own voice and words.
+- AI policy: Caplet's own business (I101); Keel does not document, check or raise it.
 - 2025-26: 6,300+ teams registered but ~2,300 submitted final reports.
 
 ## Open items

@@ -32,7 +32,7 @@ checked word for word against `FINAL_IPS_as_submitted.txt` on 8 Nov.
 | Investment Strategy | A clear, creative thesis; planning across changing horizons and cash needs; diversification; consistency with the IPS | Q1-Q7; the lineage of each plan part (EXPECTATIONS 2.4) |
 | Client Knowledge and Objectives | Tailored to Laura's circumstances, priorities, risk and residency goals; earns her confidence | Q1, Q9, Q10, Q12 |
 | Portfolio Analysis | Concepts and tools used well; quantitative and qualitative together; reasonable assumptions; funding reliability, facility contribution and flexibility under varying markets | Q2-Q8; the numbers engine |
-| Articulation of Competition Experience | Teamwork, communication, learning; research and decision process; growth and response to challenges | Q13; Caplet's own sentences (asked for by Sun 22 Nov); real events only |
+| Articulation of Competition Experience | Teamwork, communication, learning; research and decision process; growth and response to challenges | Q13; the team's real, dated record in `research/EXPERIENCE_RECORD.md`, told vividly; a scenario that helps is told as an illustration |
 | Creativity and Presentation | A compelling, organised narrative in an authentic team voice; data used well; original thinking; the co-sponsor communication clear and credible | Q11, Q14; voice studies 1-3 |
 
 ## C. Open analysis found while gathering the old research (to settle before Thu 26 Nov)
