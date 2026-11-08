@@ -1687,31 +1687,31 @@
   "what": "2028 money after completion all in VT; in Jan 2031 86.65% moved to Treasuries maturing late 2032, 13.35% kept",
   "house": {
    "final_top": [
-    111289.99465805199,
-    139328.73953559072,
-    170151.79541990205
+    111182.62502617645,
+    139391.5291322567,
+    170770.45348558508
    ],
    "rival_top": [
-    88375.8079828121,
-    147170.34672287354,
-    244169.7637698321
+    85802.00060147246,
+    147146.01074507157,
+    251435.8174481515
    ],
    "final_total": [
-    128296.6743052775,
-    163798.6292322501,
-    208591.01472791005
+    127849.43518456409,
+    163894.19402832282,
+    210689.75617431238
    ],
    "rival_total": [
-    102900.1255964469,
-    171606.46267924155,
-    284929.5445394708
+    99950.98397692695,
+    171621.32919387257,
+    293738.9736249466
    ],
-   "share_rival_top_below_110k": 0.173045,
-   "share_final_top_below_110k": 0.042675,
-   "share_rival_top_below_final_top": 0.395445,
-   "share_rival_total_below_final_total": 0.395445,
-   "rival_top_p1": 71049.47009839879,
-   "final_top_p1": 100010.25353549318
+   "share_rival_top_below_110k": 0.18662,
+   "share_final_top_below_110k": 0.04332,
+   "share_rival_top_below_final_top": 0.401625,
+   "share_rival_total_below_final_total": 0.401625,
+   "rival_top_p1": 68097.35934793793,
+   "final_top_p1": 99941.21542241989
   },
   "history": {
    "windows": 1770,

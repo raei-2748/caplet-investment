@@ -1,0 +1,134 @@
+{
+  "as_of": "2026-11-09 (Sydney); web sources read that day (8 Nov US)",
+  "units": "Rates are decimal annual rates (0.024 = 2.4% a year). Exchange rates are NT$ per US$.",
+  "real_value_base": "End-2026 prices (1 Jan 2027). A payment at the start of year Y is deflated over (Y - 2027) years.",
+  "card": "keel/final_report/research/cards/Q10_inflation_inputs.md",
+  "us": {
+    "index": "CPI-U",
+    "horizon": "2027-2042, average a year",
+    "central": 0.024,
+    "low": 0.019,
+    "high": 0.035,
+    "reason_central": "J.P. Morgan 2027 LTCMA US inflation 2.40%, the same edition as the register's 7.5% equity return; it sits between SPF and CBO (2.3%) and the Cleveland Fed model (2.7%), and near the realised 30-year rate (2.56%).",
+    "reason_low": "About the lowest 16-year stretch since 1960 (1.94%, May 2004 to May 2020), the lowest SPF forecaster (1.91%) and the IMF's 2029-2031 path (1.9%).",
+    "reason_high": "The last 10 years ran 3.38%; 3.5% is a little above that and above every 16-year stretch starting since 1984 (max 3.23%); a 1970s repeat (7%) is kept as a stress outside the band.",
+    "anchors": {
+      "jpm_ltcma_2027": {"compound": 0.024, "arithmetic": 0.0242, "volatility": 0.0187, "prior_edition_2026": 0.025},
+      "cleveland_fed_oct_2026": {"1y": 0.0298, "2y": 0.0287, "5y": 0.0277, "10y": 0.0273, "20y": 0.0270, "30y": 0.0270, "last_updated": "2026-10-14", "next_update": "2026-11-10 (US)", "10y_a_year_earlier": 0.0230},
+      "breakevens_2026_11_06": {"5y": 0.0229, "10y": 0.0223, "5y5y_forward": 0.0217},
+      "spf_q3_2026": {"cpi_10y_2026_2035": 0.0230, "pce_10y_2026_2035": 0.0220, "cpi_5y_2026_2030": 0.0260, "cpi_2031_2035": 0.0220, "cpi_10y_forecaster_min": 0.0191, "cpi_10y_forecaster_max": 0.0300, "cpi_10y_interquartile": [0.0230, 0.0260], "cpi_10y_std_dev": 0.0026, "n": 25, "released": "2026-08-14"},
+      "spf_q3_2026_probabilities_2027_q4q4": {"core_pce_3pct_or_more": 0.2552, "core_pce_2_to_2_9": 0.6198, "core_pce_below_2": 0.1249, "core_cpi_3pct_or_more": 0.2856},
+      "cbo_feb_2026_cpi_u_q4q4": {"2025": 0.030, "2026": 0.028, "2027": 0.024, "2028": 0.023, "2029_2030": 0.023, "2031_2036": 0.023},
+      "fed_sep_2026_09_16": {"pce_median": {"2026": 0.037, "2027": 0.023, "2028": 0.021, "2029": 0.020, "longer_run": 0.020}, "cpi_error_range_70pct": {"2026": 0.010, "2027": 0.017, "2028": 0.018, "2029": 0.017}},
+      "imf_weo_cpi": {"2026": 0.036, "2027": 0.028, "2028": 0.021, "2029": 0.019, "2030": 0.019, "2031": 0.019},
+      "realised_cpi_u_to_sep_2026": {"1y": 0.0372, "5y": 0.0419, "10y": 0.0338, "20y": 0.0256, "30y": 0.0256, "since_jan_2000": 0.0261},
+      "realised_16y_windows": {"since_1960_min": 0.0194, "since_1960_max": 0.0712, "since_1960_median": 0.0318, "starts_1984_on_min": 0.0194, "starts_1984_on_max": 0.0323}
+    },
+    "real_values_end_2026_dollars": {
+      "payments": {
+        "low_1.9": {"2033": 44661, "2037": 41422, "2042": 37701, "ten_total": 410937},
+        "central_2.4": {"2033": 43368, "2037": 39443, "2042": 35032, "ten_total": 390686},
+        "jpm_2026_2.5": {"2033": 43115, "2037": 39060, "2042": 34523, "ten_total": 386777},
+        "high_3.5": {"2033": 40675, "2037": 35446, "2042": 29845, "ten_total": 350118}
+      },
+      "facility_110k_135k_paid_jan_2033": {"low_1.9": [98253, 120584], "central_2.4": [95410, 117094], "high_3.5": [89485, 109823]}
+    },
+    "sources": [
+      {"name": "J.P. Morgan Asset Management, 2027 LTCMA, USD assumption matrix (estimates as of 30 Sep 2026)", "url": "https://am.jpmorgan.com/content/dam/jpm-am-aem/global/en/insights/portfolio-insights/ltcma/noindex/ltcma-2027-matrix-usd.pdf", "read": "2026-11-09", "figure": "U.S. Inflation 2.40 compound, 2.42 arithmetic, 1.87 volatility; 2026 edition 2.50"},
+      {"name": "Federal Reserve Bank of Cleveland, Inflation Expectations", "url": "https://www.clevelandfed.org/indicators-and-data/inflation-expectations", "read": "2026-11-09", "figure": "10-year 2.73%, last updated 14 Oct 2026, next update 10 Nov 2026"},
+      {"name": "FRED EXPINF1YR to EXPINF30YR (Cleveland Fed)", "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=EXPINF1YR,EXPINF2YR,EXPINF5YR,EXPINF10YR,EXPINF20YR,EXPINF30YR", "read": "2026-11-09", "figure": "Oct 2026 row"},
+      {"name": "FRED T5YIE, T10YIE, T5YIFR", "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE,T10YIE,T5YIFR", "read": "2026-11-09", "figure": "6 Nov 2026: 2.29, 2.23, 2.17"},
+      {"name": "Philadelphia Fed, Survey of Professional Forecasters Q3 2026 (14 Aug 2026)", "url": "https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/spf-q3-2026", "read": "2026-11-09", "figure": "10-year CPI 2.30%, PCE 2.20%; Tables Seven and Eight in spfQ326.pdf"},
+      {"name": "CBO, The Budget and Economic Outlook: 2026 to 2036 (11 Feb 2026)", "url": "https://www.cbo.gov/system/files/2026-02/61882-Outlook-2026.pdf", "read": "2026-11-09", "figure": "CPI Q4/Q4: 2.8 (2026), 2.4 (2027), 2.3 (2028, 2029-2030, 2031-2036)"},
+      {"name": "Federal Reserve, Summary of Economic Projections, 16 Sep 2026", "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm", "read": "2026-11-09", "figure": "PCE medians; CPI error ranges about 70% probability"},
+      {"name": "IMF DataMapper PCPIPCH (World Economic Outlook)", "url": "https://www.imf.org/external/datamapper/api/v1/PCPIPCH/TWN/USA", "read": "2026-11-09", "figure": "USA 2027 2.8, 2028 2.1, 2029-2031 1.9"},
+      {"name": "FRED CPIAUCSL, CPIAUCNS, PCEPI (BLS, BEA)", "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPIAUCSL", "read": "2026-11-09", "figure": "Monthly to Sep 2026; Oct 2025 missing, filled by geometric mean of Sep and Nov 2025"}
+    ]
+  },
+  "taiwan_cpi": {
+    "horizon": "2027-2042, average a year",
+    "central": 0.018,
+    "low": 0.010,
+    "high": 0.025,
+    "reason_central": "Taiwan's central bank forecasts 1.83% for 2027 and DGBAS 1.90%; the IMF has 1.5-1.8% for 2027-2031; above the 1.2% since 2000 because the last five years ran 2.25%.",
+    "reason_low": "The lowest 16-year stretch since 1981 averaged 0.98% (1999-2015) and 2000-2020 averaged 0.90%.",
+    "reason_high": "Above every 16-year stretch since 1981 (max 2.36%, 1981-1997) and the last five years (2.25%); 2022, the worst recent year, was 2.95%.",
+    "latest": {"month": "2026-10", "yoy": 0.0233, "core_yoy": 0.0223, "jan_oct_avg": 0.0198, "sep_2026_yoy_revised": 0.0274, "index_2021_100": 112.90, "index_note": "Keel arithmetic: Oct 2025 110.33 x 1.0233; DGBAS time-series file ends Sep 2026 (112.82)", "released": "2026-11-05", "next_release": "2026-12-08"},
+    "forecasts": {"cbc_2026": 0.0203, "cbc_2027": 0.0183, "cbc_core_2026": 0.0216, "cbc_core_2027": 0.0189, "cbc_date": "2026-09-17", "dgbas_2026": 0.0207, "dgbas_2027": 0.0190, "dgbas_date": "2026-08-14", "imf_2026_2031": {"2026": 0.020, "2027": 0.018, "2028": 0.016, "2029": 0.015, "2030": 0.016, "2031": 0.015}},
+    "long_run": {"since_oct_2000": 0.0120, "annual_avg_2000_2025": 0.0117, "annual_avg_2000_2020": 0.0090, "last_10y_to_oct_2026": 0.0147, "last_5y_to_oct_2026": 0.0225, "16y_windows_since_1981": {"min": 0.0098, "max": 0.0236, "median": 0.0125}},
+    "real_values_payments_ntd_fx_flat_32_768": {"nominal_ntd_per_payment": 1638400, "central_1.8": {"2033": 1472100, "2042": 1253500, "share_2033": 0.90, "share_2042": 0.77, "ten_total_m": 13.6}, "low_1.0": {"share_2033": 0.94, "share_2042": 0.86}, "high_2.5": {"share_2033": 0.86, "share_2042": 0.69}, "spread_2042_share_with_fx_range_ends": [0.58, 0.93]},
+    "sources": [
+      {"name": "DGBAS, The Price Indices for October 2026 (16:00, 5 Nov 2026)", "url": "https://ws.dgbas.gov.tw/001/Upload/464/relfile/10854/236838/the%20price%20indices%20for%20october%202026.pdf", "read": "2026-11-09", "figure": "CPI +2.33% y/y, core +2.23%, Jan-Oct +1.98%; next release 8 Dec 2026"},
+      {"name": "Central Bank of the Republic of China (Taiwan), Board meeting press release, 17 Sep 2026", "url": "https://www.cbc.gov.tw/en/cp-448-192883-c5fa1-2.html", "read": "2026-11-09", "figure": "CPI 2.03% (2026), 1.83% (2027); core 2.16%, 1.89%"},
+      {"name": "DGBAS, GDP: Preliminary Estimate for 2026Q2 and Outlook for 2026-27 (14 Aug 2026)", "url": "https://eng.stat.gov.tw/News_Content.aspx?n=2317&s=236587", "read": "2026-11-09", "figure": "CPI 2.07% (2026), 1.90% (2027)"},
+      {"name": "DGBAS, Time Series of Consumer Price Indices (cpiidx.xls, 2021=100)", "url": "https://ws.dgbas.gov.tw/001/Upload/464/relfile/10320/2710/cpiidx.xls", "read": "2026-11-09", "figure": "Monthly and yearly indices 1959 to Sep 2026"},
+      {"name": "Focus Taiwan (CNA), 5 Nov 2026", "url": "https://focustaiwan.tw/business/202611050021", "read": "2026-11-09", "figure": "Sixth month above 2%; September 2.74%"}
+    ]
+  },
+  "taiwan_construction": {
+    "index": "DGBAS construction cost index (營造工程物價指數), 2021=100",
+    "horizon": "2026-2033 (the facility is paid in Jan 2033); the same band is reasonable to 2042",
+    "central": 0.030,
+    "low": 0.015,
+    "high": 0.050,
+    "reason_central": "The index rose 3.0-3.2% a year since 2000 (yearly 2000-2025 3.02%; Sep 2000 to Sep 2026 3.19%); the middle 6-year stretch since 1991 was 3.01% and the middle 16-year 2.88%.",
+    "reason_low": "About the lowest 16-year pace on record (1.60%, 2008-2024); 2010-2020 averaged 1.0% after the 2008 spike.",
+    "reason_high": "Above 9 in 10 six-year stretches since 1991 (4.56%) and the last 10 years (3.91%); lets the current 7.3% pace (wages +9.3%) run two or three more years before fading.",
+    "latest": {"month": "2026-09", "level": 120.26, "yoy": 0.0729, "mom": 0.0065, "jan_sep_yoy": 0.0487, "wages_yoy": 0.0929, "materials_yoy": 0.0727, "building_construction_level": 116.86, "building_construction_yoy": 0.0593, "civil_engineering_yoy": 0.0888, "oct_2026_yoy_secondary_unverified": 0.0718, "oct_note": "MacroMicro shows Oct 2026 +7.18%; DGBAS files still end at Sep 2026"},
+    "growth": {"1y_sep": 0.0729, "5y_sep_2021_sep_2026_per_year": 0.0327, "5y_total": 0.175, "10y_sep_2016_sep_2026_per_year": 0.0391, "10y_total": 0.468, "since_sep_2000_per_year": 0.0319, "since_sep_1991_per_year": 0.0292, "yearly_2010_2020": 0.0103},
+    "gap_over_taiwan_cpi_per_year": {"2000_2025": 0.0185, "2010_2025": 0.0085, "1991_2025": 0.0129},
+    "windows": {"6y_since_1991": {"min": -0.0009, "p10": 0.0002, "median": 0.0301, "p90": 0.0456, "max": 0.0818, "n": 29}, "16y_since_1991": {"min": 0.0160, "median": 0.0288, "max": 0.0348, "n": 19}},
+    "facility_range_in_sep_2026_building_ntd_m": {
+      "nominal_at_32_768": [3.60, 4.42],
+      "fx_flat_cci_1.5": [3.30, 4.05],
+      "fx_flat_cci_3.0": [3.02, 3.70],
+      "fx_flat_cci_5.0": [2.69, 3.30],
+      "fx_flat_cci_7.29": [2.36, 2.90],
+      "fx_27_52_cci_3.0": [2.54, 3.11],
+      "fx_35_21_cci_3.0": [3.24, 3.98]
+    },
+    "drift_2031_to_2033_usd_on_range": {"cci_3.0": [6314, 7749], "cci_5.0": [10227, 12551], "cci_7.29": [14441, 17723], "kept_half_jan_2033_central": 23986, "kept_half_1_in_20": 13000},
+    "sources": [
+      {"name": "DGBAS, The Changes of Construction Cost Indices (cci.xls), Sep 2026", "url": "https://ws.dgbas.gov.tw/001/Upload/464/relfile/10320/2710/cci.xls", "read": "2026-11-09", "figure": "120.26, +7.29% y/y; wages +9.29%; building construction +5.93%"},
+      {"name": "DGBAS, Time Series of Construction Cost Indices (cciidx.xls)", "url": "https://ws.dgbas.gov.tw/001/Upload/464/relfile/10320/2710/cciidx.xls", "read": "2026-11-09", "figure": "Monthly and yearly 1991 to Sep 2026"},
+      {"name": "DGBAS, 營造工程物價指數 (總指數) 銜接表及年增率 (ccispl.xls)", "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/10315/2703/ccispl.xls", "read": "2026-11-09", "figure": "Same levels; y/y rates to Sep 2026"},
+      {"name": "MacroMicro, Taiwan Construction Cost Index (YoY) (secondary)", "url": "https://en.macromicro.me/series/502/tw-construction-cost-yoy", "read": "2026-11-09", "figure": "Oct 2026 +7.18% (UNVERIFIED at DGBAS)"}
+    ]
+  },
+  "usdtwd": {
+    "latest": 32.768,
+    "date": "2026-11-06",
+    "latest_source": "Central Bank of the Republic of China (Taiwan) daily closing rate, https://www.cbc.gov.tw/en/lp-700-2.html, read 2026-11-09",
+    "prior_day": {"2026-11-05": 32.876},
+    "fred_h10_latest": {"value": 32.59, "date": "2026-10-30"},
+    "range_10y": [27.52, 33.21],
+    "range_10y_dates": ["2022-01-04", "2025-04-01"],
+    "range_10y_basis": "FRED DEXTAUS daily (Fed H.10), Nov 2016 to Oct 2026; monthly averages 27.67 to 32.98",
+    "range_25y": [27.52, 35.21],
+    "range_25y_dates": ["2022-01-04", "2009-03-02"],
+    "range_25y_basis": "FRED DEXTAUS daily (Fed H.10), Nov 2001 to Oct 2026; monthly averages 27.67 to 35.07",
+    "year_ago": {"value": 30.82, "date": "2025-11-03", "note": "12-month strongest; the Taiwan dollar is about 6% weaker now"},
+    "volatility_monthly_since_2000_annualised": 0.052,
+    "usd_cost_of_fixed_ntd_bill": {"6y_windows_since_2000": {"p5": -0.069, "median": 0.022, "p95": 0.130, "worst": 0.202, "share_above_10pct": 0.16}, "2y_windows_since_2000": {"p5": -0.104, "median": 0.004, "p95": 0.115, "worst": 0.177, "share_above_10pct": 0.08}, "move_to_10y_strongest_27_52": 0.191, "move_to_25y_weakest_35_21": -0.069, "extra_usd_needed_on_110k_135k_at_27_52": [21000, 26000]},
+    "ppp_check": {"usd_cpi_rise_jan_2000_sep_2026": 0.986, "taiwan_cpi_rise_jan_2000_sep_2026": 0.394, "rate_jan_2000": 30.89, "parity_implied_now": 21.7, "note": "Price parity has not held for 26 years; a reference, not a forecast"},
+    "sources": [
+      {"name": "Central Bank of the Republic of China (Taiwan), NTD/USD closing rates", "url": "https://www.cbc.gov.tw/en/lp-700-2.html", "read": "2026-11-09", "figure": "6 Nov 2026 32.768; 5 Nov 32.876"},
+      {"name": "FRED DEXTAUS (daily) and EXTAUS (monthly), Fed H.10", "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXTAUS", "read": "2026-11-09", "figure": "Daily 1983 to 30 Oct 2026"}
+    ]
+  },
+  "us_10y_realised_cpi_windows": {
+    "best": 0.0138,
+    "best_window": "Jul 2008 to Jul 2018",
+    "worst": 0.0884,
+    "worst_window": "Jul 1972 to Jul 1982",
+    "since": "Windows starting Jan 1960 or later, monthly CPI-U (FRED CPIAUCSL) to Sep 2026; 681 windows",
+    "median": 0.0313,
+    "p5": 0.0174,
+    "p95": 0.0815,
+    "share_above_3pct": 0.53,
+    "share_above_4pct": 0.32,
+    "starts_1984_on": {"best": 0.0138, "worst": 0.0370, "worst_window": "Nov 1986 to Nov 1996"},
+    "latest_window": {"rate": 0.0338, "window": "Sep 2016 to Sep 2026", "note": "Highest of any window starting since 2000"},
+    "method_note": "Oct 2025 CPI was not published; filled with the geometric mean of Sep and Nov 2025. NSA series (CPIAUCNS) gives 1.37% and 8.81%."
+  }
+}

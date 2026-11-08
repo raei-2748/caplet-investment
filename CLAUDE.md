@@ -283,7 +283,8 @@ VERIFIED 2026-09-27 by the insight_v1 run (primary pages; details in `keel/libra
   exists, shown only in WInS Portfolio Summary > Session Rules (check before the first trade); trade notes cannot be
   edited, only added to. "First trade by Oct 10" still unverified (check the logged-in Trading Details page).
 - Fed raised to 3.75-4.00% on 2026-09-16 (12-0). Taiwan CPI Aug 2026 +2.04% y/y; construction cost index +6.53% y/y
-  but ~3.5%/yr since 2021; USD/TWD 31.82 (Sep 18), daily-change vol 4.0-5.6% depending on window.
+  but ~3.5%/yr since 2021; USD/TWD 31.82 (Sep 18) (9 Nov: CPI Oct +2.33%; construction cost index Sep +7.29% y/y, 3.27%/yr over
+  5 years; USD/TWD 32.768 on 6 Nov; `keel/final_report/research/cards/Q10_inflation_inputs.md`), daily-change vol 4.0-5.6% depending on window.
 - IEF 6.86y / TLT 14.88y durations (2026-09-24): match to 9.90y = 62.2/37.8; to today's spot duration 10.16y = 58.9/41.1.
 - The ladder cost more than $300k on 173 of 185 trading days in 2026; it fits under $300k only since Sep 10.
 - AI policy: Caplet's own business (I101); Keel does not document, check or raise it.

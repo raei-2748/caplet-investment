@@ -24,7 +24,7 @@ Rule for every later note and draft: a figure not on this page is not used. A fi
 | Fund holdings' average maturity | IBTM 5.65, IBTO 6.62, IBTP 7.66, IBTQ 8.65, IBTR 9.53 years (4 Nov) | ishares.com, recorded in `keel/scripts/holdings_ladder.py` |
 | Fund coupons in the model | The curve's par yield to each fund's average maturity. This is higher than IBTM's real 3.50% coupon, so the reinvestment test is conservative | Assumption |
 | Floor and VT split of the 2028 money | 73.3% floor, 26.7% VT, of what is left after the ladder is complete | Frozen WInS book: 3,361 IBTM shares as floor stand-in ($72,766 at fill) against 167 VT ($26,525). FINAL says only "most" |
-| Shares | VT median growth 7.5% a year; 16.78% yearly spread | J.P. Morgan 2027 LTCMA press release (19 Oct 2026), global equities 7.5%, the TNA's figure; J.P. Morgan 2026 matrix, AC World volatility |
+| Shares | VT median growth 7.5% a year; 17.88% yearly spread | J.P. Morgan 2027 LTCMA, USD matrix (estimates as of 30 Sep 2026; row "AC World Equity 7.50 8.94 17.88", read 9 Nov 2026), the TNA's 7.5%; until 9 Nov the spread was the 2026 edition's 16.78% (house figures moved by at most $2,100) |
 | VT fee | 0.06% | TNA note 3 |
 | Yield moves, 2026-2031 | Parallel, s.d. 0.9 points a year, independent of shares | MODEL assumption, as `keel/scripts/sail_mc.py` |
 | Rate history | FRED DGS1 (1-year Treasury), daily from 1962, as monthly averages | `archive/rab/data/fred/DGS1.csv` |
@@ -137,9 +137,9 @@ Central case: today's forward rates, VT at its median 7.5%. Move date modelled a
 | **Bottom Laura states** (less 4.1%, down to $5k) | **$110,000** | | |
 | VT on 1 Jan 2031 | $41,561 | | |
 | The moved half, paid late 2032 | $22,806 | $14k / $23k / $38k | |
-| **Top of the range** (floor + moved half) | **$138,735** | $111k / $139k / $170k | $131k / $140k / $154k; lowest $119.9k (start Jul 1929) |
+| **Top of the range** (floor + moved half) | **$138,735** | $111k / $139k / $171k | $131k / $140k / $154k; lowest $119.9k (start Jul 1929) |
 | Half kept, promised to no one, on 1 Jan 2033 | $23,986 | $13k / $24k / $45k | |
-| Floor + moved half + kept half | $162,721 | $128k / $164k / $209k | $148k / $166k / $195k |
+| Floor + moved half + kept half | $162,721 | $128k / $164k / $211k | $148k / $166k / $195k |
 
 **Without the margin**, for comparison:
 - Floor payout $136,328, stated bottom $130,000.
@@ -158,7 +158,7 @@ More from the same runs:
 - **Today the range is not known.** Its bottom is fixed in January 2028, when the floor is bought (yields and the completion set it). Its top is fixed on the day half of VT moves into Treasuries, before the 2031 meetings.
 - **Once the move is made, both ends are money Laura owns in Treasuries maturing late 2032.** What can still move them is only interest on their final months in cash and on their last distributions. That is at most 4.1% for the floor and 2.5% for the moved half, and both are already deducted from the figures she states.
 - **So the confidence she can state in 2031 is "certain unless the US Treasury defaults".** That is the IPS's own standard ("barring a US default"). In the house model the 2033 gift falls inside the stated range in every path.
-- **The uncertainty a judge should see is earlier: which range she will be able to announce.** From today, the top she announces in 2031 is between about $111,000 and $170,000 (1-in-20 each side, house model). It is $131,000 to $154,000 on US stock history.
+- **The uncertainty a judge should see is earlier: which range she will be able to announce.** From today, the top she announces in 2031 is between about $111,000 and $171,000 (1-in-20 each side, house model). It is $131,000 to $154,000 on US stock history.
 - **Central, the 2031 announcement is about $110,000 to $135,000.** That is the top less 2.5%, rounded down to $5k.
 - Good and bad markets before the move change only the top. After the move nothing changes either end (case A6).
 - **One definition, used everywhere:** the 2033 facility contribution is the floor plus the moved half, and the range above is for that. Money Laura later spends on the building from the half kept is her separate choice, outside the announced range (`CANON.md` D12). Without this, the kept half could push the money reaching the facility above the range and make the stated confidence look wrong.
@@ -267,19 +267,42 @@ after its move (86.65% into Treasuries maturing late 2032, 13.35% of VT kept to 
 
 | | FINAL (floor bought Jan 2028) | Rival (floor bought Jan 2031) |
 |---|---|---|
-| Money owned in Jan 2031, house p5 / p50 / p95 | $111,290 / $139,329 / $170,152 | $88,376 / $147,170 / $244,170 |
-| Worst 1 in 100 (house) | $100,010 | $71,049 |
-| Chance it is under $110,000 (the stated bottom), house | 4.3% | 17.3% |
-| Total by 2033, house p5 / p50 / p95 | $128,297 / $163,799 / $208,591 | $102,900 / $171,606 / $284,930 |
+| Money owned in Jan 2031, house p5 / p50 / p95 | $111,183 / $139,392 / $170,770 | $85,802 / $147,146 / $251,436 |
+| Worst 1 in 100 (house) | $99,941 | $68,097 |
+| Chance it is under $110,000 (the stated bottom), house | 4.3% | 18.7% |
+| Total by 2033, house p5 / p50 / p95 | $127,849 / $163,894 / $210,690 | $99,951 / $171,621 / $293,739 |
 | Money owned in 2031, history p5 / p50 / p95 | $131,215 / $140,235 / $153,646 | $99,214 / $157,757 / $244,802 |
 | Lowest in history | $119,868 (start Jul 1929) | $25,564 (start Jul 1929) |
 | Under $110,000 in history | 0% | 10.7% |
 
-What it shows: waiting to buy the floor raises the middle by about $8,000 and the lucky end a great deal, but in about
-one path in six (house) or one window in nine (history) Laura would walk into the 2031 co-sponsor meetings with less
+What it shows: waiting to buy the floor raises the middle by about $8,000 and the lucky end a great deal, but in almost
+one path in five (house) or one window in nine (history) Laura would walk into the 2031 co-sponsor meetings with less
 than the bottom she could have promised in 2028; from a July 1929 start she would have about $26,000. FINAL ends up
 behind the rival in about 60% of house paths and 68% of history windows, and that is its price: it can name a bottom in January 2028, three years
 before the meetings, and it cannot fall below it.
 
+### 8d. What the dollars buy: inflation and the Taiwan dollar (`numbers/real_values.py`, inputs `numbers/inflation_inputs.json`)
+Sources and bands in `research/cards/Q10_inflation_inputs.md` (all read 9 Nov 2026). US central 2.4% a year (J.P. Morgan
+2027 matrix, the same edition as the 7.5%); band 1.9%-3.5%. Taiwan construction costs central 3.0%, band 1.5%-5.0%
+(DGBAS construction cost index: September 2026 +7.29% on a year, about 3% a year since 2000). USD/TWD 32.768 on 6 Nov
+(central bank of Taiwan); strongest Taiwan dollar of the last ten years 27.52.
+
+| | US inflation 1.9% | 2.4% (central) | 3.5% |
+|---|---|---|---|
+| The 2033 payment in 1 Jan 2027 dollars | $44,661 | $43,368 | $40,675 |
+| The 2042 payment in 1 Jan 2027 dollars | $37,701 | $35,032 | $29,845 |
+| All ten in 1 Jan 2027 dollars | $410,937 | $390,686 | $350,118 |
+| The $110,000-$135,000 range (paid 2033) in 1 Jan 2027 dollars | $98,253-$120,584 | $95,410-$117,094 | $89,485-$109,823 |
+
+In Taiwan building terms, the range buys NT$3.00m-NT$3.69m of today's construction at 3% cost growth (NT$3.29m-4.04m
+at 1.5%, NT$2.67m-3.27m at 5%). If the Taiwan dollar went back to its ten-year strongest (27.52), Laura would need about
+$21,000-$26,000 more to buy the same NT$ budget, roughly the whole kept half of VT in the middle case ($23,986, section 4).
+
+What it shows: the ten payments are fixed in dollars by the case, so inflation cannot make them fail; it decides what
+they buy. At 2.4% the 2042 payment buys about 70% of what $50,000 buys today. The facility money is exposed twice, to
+Taiwan's building costs and to the exchange rate, which is one more reason the kept half exists. Market prices on 6 Nov
+(10-year breakeven 2.23%) leave the ladder's yield about 2.6 points above expected inflation (Keel arithmetic, 10-year
+point). CANON check: the TNA's "nonexistent inflation risk" is about funding the payments, which holds.
+
 ## 9. Still to add (later days)
-- Inflation (US and Taiwan) and real values of the payments, the floor and the range.
+- Nothing open from Mon 9 Nov. Later days add what the research rounds and the skeleton ask for.
