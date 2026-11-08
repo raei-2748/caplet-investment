@@ -16,7 +16,7 @@ decision, deadline or open item changes, and commit it with the related change. 
   then: deep research, analysis and thinking on every part of the case (not only investing), a little voice study, and
   one ranked store of every insight (`keel/final_report/research/INSIGHT_STORE.md`; nothing lost). Fri 27 Nov: one
   24-hour session, at least twelve draft-review-rewrite rounds against the Bible and Wharton; final draft to Caplet Sat
-  28 Nov. Plan: `keel/final_report/README.md`. Built on Caplet's own FINAL IPS (`keel/final_report/FINAL_IPS_as_submitted.txt`).
+  28 Nov. Plan: `keel/final_report/README.md`. Built on Caplet's own FINAL IPS (`keel/final_report/FINAL_IPS_as_submitted.txt`). Every figure comes from the number register `keel/final_report/NUMBERS.md` (9 Nov; engine `keel/final_report/numbers/`); every claim is checked against `keel/final_report/CANON.md`.
 - **Banned (Ray, 5 Nov, INSTRUCTIONS I88): AI-detector checks (GPTZero or any other) and "AI DRAFT" labels.** Never run,
   ask for, mention or report a detector check, and never label a draft "AI DRAFT" or "AI Draft", in replies or in new files.
   Older files that still say so are history, not instructions.

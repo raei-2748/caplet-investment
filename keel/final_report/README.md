@@ -92,7 +92,9 @@ like it; how it is not; what we take), in `research/`.
 - `research/`: `INSIGHT_STORE.md` (one ranked, categorised store of every insight, old and new; nothing deleted, only
   ranked lower), the harvest files it was built from (`harvest/`), and one card per idea.
 - `voice/`: the three voice studies.
-- `numbers/`: the one engine set to the FINAL design, on the 6 Nov close.
+- `numbers/`: the one engine set to the FINAL design, on the 6 Nov close (`engine.py`, `plan.py`, `run_numbers.py`).
+- `NUMBERS.md`: the number register; every figure the report may use, with its source and script (Mon 9 Nov).
+- `CANON.md`: every claim the submitted IPS, Trading Notes Analysis, trade notes and WInS book commit Caplet to, quoted with its line (Mon 9 Nov; Ray's guardrail 1).
 - `WHARTON_NORTH_STAR.md`: Wharton's word on the Final Report and the weekly tips, with the daily test (Ray, I97).
 - `TOOLS.md`: skills, connectors and plugins ranked for this work (Ray, I94).
 - `research/meta/`: why Wharton runs the competition, how great strategists plan, the running list of angles (I98-I100).

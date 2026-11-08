@@ -1,0 +1,167 @@
+id,F,R,S,C,status,merged_into,note
+H1-005,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): top reached about 3 in 4 (87-93% with the lock) is now void: after the 2031 move the gift falls inside the stated range in every house path (sections 4 and 6)
+H1-007,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): 5 Nov ladder $2,163 over $300,000 is now $2,287 over at the 6 Nov close ($302,287) (section 1)"
+H1-008,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): break only if yields fall 2pp AND the deposit is under about $50k is now: after a 2-point fall the ladder needs $70,400 ($92,000 with margin) (section 5)"
+H1-011,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): payment misses 6.8% to 0.01% is now any shortfall in 55.6% of history windows as written and 6.0% with Keel's margin (section 2)
+H1-013,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): kept half median $17k is now $24k (house median; central $23,986); gift below bottom 0.75-1.3% is now 0 (section 4)"
+H1-017,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): payments' duration 9.90 years (25 Sep) is now 9.94 years (section 1)
+H1-022,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): inside the range about 99% is now certain once half of VT moves: every house path inside the stated range (section 4)
+H1-024,,,1,,adapt,,VOID figure (NUMBERS.md 9 Nov): 73-77% chance of reaching the top is now void: top fixed at the 2031 move; idea now wrong: history cannot back a void odds (sections 4 and 6)
+H1-026,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): $145k floor (below it in 43.5%) is now floor payout $115,929 central (house $92k-$140k); stated bottom $110,000 (section 4)"
+H1-028,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): odds of reaching the top by share pledged are now void: after the 2031 move the top is reached in every house path (sections 4 and 6)
+H1-043,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): 5 Nov ladder $302,163 is now $301,544 on the curve and $302,287 in the ten instruments (6 Nov) (sections 1 and 6)"
+H1-052,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): headroom $2k-$6k is now none: the ten cost $302,287 ($2,287 over) (sections 1 and 6)"
+H1-053,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): about $21k short at a 2-point fall for good is now $23,509 as written and $0 with Keel's margin (sections 2 and 6)"
+H1-059,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): about $21k short in 6-7% of paths is now $23,509 at a 2-point fall as written; history 1-in-20 $34,555 (sections 2 and 6)"
+H1-074,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): median $205k-$209k (old design) is now floor + moved half + kept half $162,721 central (house median $164k) (section 4)"
+H1-082,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): ten payments cost about $294-298k is now $302,287 (interest still pays about two-fifths: 39.5%) (section 1)"
+H1-083,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): VT sized near the floor's expected interest (21%) is now VT $33,515 against floor interest of about $23,900 (sections 0 and 4)"
+H1-084,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): payment over $1k short about 1.1% is now any shortfall in 55.6% of history windows as written (6.0% with margin) (section 2)
+H2-012,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): 99.96% paid with rates -2 and the deposit halved is now: after a 2-point fall the ladder needs $70,400 ($92,000 with margin) (section 5)"
+H2-014,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): first ~$50,000 of the 2028 deposit insures the payments is now $2,400 ($24,500 with margin) at today's yields (section 5)"
+H2-018,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): face $317,155 / coupons $135,890 / interest on interest $42,610 is now interest worth $93,900 by 2033; $54,595 short at zero (section 2)"
+H2-020,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): ladder short in 46% of paths (2033 rung) is now $2,287 short at the 6 Nov close; the register puts the gap on the 2042 rung (sections 1 and 5)"
+H2-025,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): payments' duration 9.99 modified (10.24 Macaulay) is now 9.94 years; the held ladder's duration is not on the register (section 1)
+H2-028,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): the dedicated ladder costs more than the headroom is now: no headroom ($302,287) and design B costs $258 less than A (sections 1 2 and 6)"
+H2-032,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): all paid 96.01% with a margin and 76% without is now 94% and 44% of history windows (sections 2 and 6)
+H2-033,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): interest-only lock pays all in 97.02% (82.18% at -2) is now 44% of history windows as written; 94% with margin (sections 2 3 and 6)
+H2-034,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): gift below the bottom 4.9% to 0.03% is now 0: the gift falls inside the stated range in every house path (section 4)
+H2-035,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): a $7.5k 2028 holding for the gap still to come is now Keel's margin of $21,149 costing about $20,000 off the bottom (sections 2 and 4)"
+H2-036,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): 6.2% vs 5.9% short by over $1k is now any shortfall in 55.6% of history windows as written (6.0% with margin) (section 2)
+H2-038,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): $7,500 capped cushion is now Keel's margin of $21,149 (1 Jan 2027 money) (section 2)"
+H2-041,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): one look: short in 1 future in 25 (median $1,341) is now any shortfall in 55.6% of windows as written (median $1,592) (section 2)"
+H2-042,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): top reached 97.9% to 99.3% is now void (top fixed at the move); kept half central $23,986 (sections 4 and 6)"
+H2-043,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): top reached 96-98% and a $10k fall in the median top are now void: top fixed at the move ($138,735 central) (sections 4 and 6)"
+H2-044,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): payments short 0.03-0.09% is now 6.0% of history windows with Keel's margin; top reached void (sections 2 and 6)
+H2-048,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): no 2028 deposit: 57% of paths short is now certain: the 2042 payment about $4,900 short at forward rates (section 5)"
+H2-055,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): top reached 86% with the move vs 73% without is now void: after the move the gift falls inside the stated range in every house path (sections 4 and 6)
+H2-061,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): $140k named bottom in the worst twentieth is now a stated bottom of $110,000 central (floor payout $115,929) (section 4)"
+H2-063,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): ours broken under 1 in 60 is now any payment shortfall in 55.6% of history windows as written (6.0% with margin) (section 2)
+H2-065,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): VT sized to the floor's expected interest (6.6%) is now VT $33,515: 26.7% of what is left and 7.4% of the $450k (sections 0 and 4)"
+H2-074,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): top-up needed in 46.9% of futures (median $9,758) is now certain: $2,287 ($24,475 with Keel's margin) (sections 1 and 4)"
+H2-075,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): payments take at most $9,768 after naming; bottom $10k under the top is now: nothing moves after the move; range $110k-$135k (sections 3 and 4)"
+H2-076,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): newsvendor ratio 5.7 (0.8 yields-down) is now void: top reached is void once the top is fixed at the 2031 move (sections 4 and 6)
+H2-078,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): only the payments' top-up (at most $9,768) can trim the gift is now: after the move nothing changes either end (sections 3 and 4)"
+H2-079,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): range width about a tenth of the top is now about $25k on $135k (about 19%) central (section 4)
+H2-086,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): 3 in 4 surviving a 0.6pt haircut (71-75%) is now void: top reached is void once the top is fixed at the move (sections 4 and 6)
+H2-089,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): 2008 replay 14-18% short is now: worst history window (Jul 2007) $45,266 short as written and $12,117 with margin (section 2)"
+H2-090,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): all ten paid in 998 of 1,000 futures is now 44% of history windows as written and 94% with Keel's margin (sections 2 and 6)"
+H2-102,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): $7,500 margin is now Keel's margin of $21,149 (1 Jan 2027 money) (section 2)"
+H3-004,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): about $21k at a lasting 2-point fall is now $23,509 as written and $0 with Keel's margin (sections 2 and 6)"
+H3-007,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): floor quoted at about $145k is now a stated bottom of $110,000 (payout $115,929 less 4.1% rounded down) (sections 3 and 4)"
+H3-008,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): $289 per basis point (25 Sep) is now $300 per basis point (6 Nov) (section 1)
+H3-023,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): about 99% inside the range is now certain once moved: every house path inside the stated range (section 4)
+H3-037,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): VT sized to the floor fund's expected interest is now VT $33,515 against floor interest of about $23,900 (about 1.4 times) (sections 0 and 4)"
+H3-091,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): low dependency on the $300k alone unless yields fall is now: $2,287 is owed even with no fall ($302,287) (sections 1 and 2)"
+H3-094,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): $289 per basis point (25 Sep) is now $300 per basis point (6 Nov) (section 1)
+H3-104,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): gap about $21k vs half of a $32k VT sleeve is now $23,509 as written ($0 with margin); VT $41,561 in 2031 (sections 2 and 4)"
+H3-105,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): top reached 70-73% (loss ratio 2.3-2.7) is now void: the top is fixed at the 2031 move (sections 4 and 6)
+H3-122,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): ladder over $300k in 47% of paths is now $2,287 over at the 6 Nov close; coupon gap 1-in-20 $34,555 as written (sections 1 and 2)"
+H3-126,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): gap above $1k in 47% and ladder over $300k in 47% are now 55.6% of windows short as written and $2,287 over now (sections 1 and 2)"
+H4-002,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): coupon-gap risk 2% to 7.5% as the deposit falls is now history 55.6% as written / 6.0% with margin; sizes in section 5 (sections 2 and 5)
+H4-003,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): 1.00x cover is enough is now 1.07x with Keel's margin ($323,436 vs $302,287); gift always inside the range (sections 2 and 4)"
+H4-004,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): US-history top odds 84% (5:1) are now void: the top is fixed at the move; history top $131k-$154k (sections 4 and 6)
+H4-005,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): median $193k vs rivals is now FINAL $164k with margin ($193k without) vs all-Treasury $158k ($186k) (section 4)
+H4-008,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): payments held at 1.0x cover is now 1.07x with Keel's margin ($323,436 vs $302,287) (section 2)"
+H4-011,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): a 2-point fall costs about $21k is now $23,509 as written and $0 with Keel's margin (sections 2 and 6)"
+H4-014,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): cover 102% / 1.006x / headroom $1,139 is now below 1.00x at $300,000 ($302,287); 1.07x with Keel's margin (sections 1 2 and 6)"
+H4-019,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): $10k-$20k hold-back is now Keel's margin of $21,149 (section 2)"
+H4-020,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): ladder over $300k in 46-47%; break if the deposit falls over 56% after -2pt is now $2,287 over now and a 53% threshold (sections 1 and 5)"
+H4-028,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): ladder over $300k in about 47% of paths is now $2,287 over at the 6 Nov close (section 1)"
+H4-043,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): a $150k lead is now no fixed floor: stated bottom $110,000 central; the 3x ratio rests on void top-reached odds (sections 4 and 6)"
+H4-044,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): range $145k-$170k leads $0.7m-$1.7m is now range $110k-$135k central leading about $0.55m-$1.35m (sections 4 and 6)
+H4-081,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): ladder over $300k in 47%; a 56% deposit fall after -2pt is now $2,287 over now and a 53% threshold ($70,400) (sections 1 and 5)"
+H4-083,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): top reached 87-93% under the lock is now void: the gift falls inside the stated range in every house path (sections 4 and 6)
+H4-087,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): the $7,500 hold-back (about $9k of gift; not adopted) is now Keel's call: a $21,149 margin costing about $20,000 off the bottom (sections 2 and 4)"
+H4-088,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): A14's fixed $3,700 and P(gift below bottom) 4.9% to 0.03% are now 0: every house path inside the stated range (section 4)"
+H4-090,,,1,,adapt,,VOID figure (NUMBERS.md 9 Nov): target of about 75% top reached is now void: top fixed at the 2031 move; idea now wrong: no VT share can restore a void odds (sections 4 and 6)
+H4-185,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): $10k hold-back is now Keel's margin of $21,149 (section 2)"
+H5-001,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): 3 in 4 for the top (73% and 68% with haircuts) is now void; VT about $31k in 2028 is now $33,515 (sections 4 and 6)"
+H5-005,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): thin headroom in Jan 2027 ($2k-$5k) is now none: the ten cost $302,287 (sections 1 and 6)"
+H5-007,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): a ""$150k floor"" is now no fixed floor: floor payout $115,929 central (sections 4 and 6)"
+H5-010,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): top about $16.4-17.2k above the floor is now $22,806 above it (the moved half) central (section 4)"
+H5-011,,,1,,adapt,,VOID figure (NUMBERS.md 9 Nov): top reached about 3 in 4 is now void: the stated top is reached in every house path after the move; idea now wrong for the FINAL (sections 4 and 6)
+H5-015,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): about $21k coupon gap is now $23,509 at a 2-point fall as written and $0 with Keel's margin (sections 2 and 6)"
+H5-030,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): coupon gap about $21k and ladder about $294k are now $23,509 ($0 with margin) and $302,287 (sections 1 2 and 6)"
+H5-060,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): Keel's $7,500 cushion for 2033 is now Keel's margin of $21,149 bought in Jan 2028 (section 2)"
+H5-062,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): at most about $50k of the deposit for the payments is now $70,400 after a 2-point fall ($92,000 with margin) (section 5)"
+H5-069,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): about 21% of the deposit in VT is now $33,515 (22% of the deposit; 26.7% of what is left); 7.5% is the 2027 LTCMA (sections 0 and 4)"
+H5-072,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): about $21k gap is now $23,509 as written and $0 with Keel's margin (sections 2 and 6)"
+H5-074,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): VT sized to about the floor's expected interest is now VT $33,515 against floor interest of about $23,900 (sections 0 and 4)"
+H5-075,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): roughly the floor's interest into shares (21%) is now VT $33,515 (26.7% of what is left) vs floor interest about $23,900 (sections 0 and 4)"
+H5-082,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): about $21k reinvestment gap is now $23,509 as written and $0 with Keel's margin (sections 2 and 6)"
+H6-053,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): the 5 Nov curve price $302,163 is now $301,544 curve and $302,287 instruments (6 Nov); flat-yield figures unchanged (sections 1 and 6)"
+H6-066,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): roughly the fund's interest into shares is now VT $33,515 against floor interest of about $23,900; no fixed $150,000 (sections 0 4 and 6)"
+H7-014,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): 65% chance the 2028 deposit tops up is now certain: $2,287 at the 6 Nov close ($24,475 with Keel's margin) (sections 1 and 4)"
+H7-026,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): VT $32,133 and $117,867 for the floor are now VT $33,515 and floor money $92,010 paying $115,929 (sections 4 and 6)"
+H7-027,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): VT bought with the fund's interest so the deposit comes back whole is now VT $33,515 vs interest about $23,900 (sections 0 and 4)"
+H7-028,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): about $46k of shares on $196k of surplus in 2033 is now the kept half $23,986 on $162,721 (section 4)"
+H7-044,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): VT stake $30,926 (median $41.0k) is now $33,515 bought and $41,561 in 2031; FINAL ahead of all-Treasury in 63% (section 4)"
+H7-045,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): shares trail the riskless plan 37.7-40.5% is now 37%: FINAL ahead of all-Treasury in 63% of house paths (section 4)
+H7-046,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): all-Treasury about $191,223 and bottom $145-150k are now $158,157 with margin ($185,987 without) and $110,000 (sections 4 and 6)"
+H7-047,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): 4 Nov $300,608 and $289-$299 per bp are now $302,287 (6 Nov) and $300 per bp; 9.94 years (sections 1 and 6)"
+H7-066,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): top reached about 76% (k about 3.2) is now void: the announced top is reached in every house path after the move (sections 4 and 6)
+H7-075,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): payments cost 99.6% of $300,000 with a $1,139 cushion is now 100.8% ($302,287): $2,287 short (sections 1 and 6)"
+H7-076,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): about 6.6% shares in Laura's plan is now VT $33,515: 7.4% of the $450k (22% of the 2028 deposit) (section 4)"
+H7-092,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): all-Treasury about $190-192k is now $158,157 with margin ($185,987 without); VT exceeds the floor's interest (sections 4 and 6)"
+H7-093,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): our minimum under $100,000 about 1 in 150 is now more than 1 in 20 (floor payout house 1-in-20 low $92k) (section 4)"
+H7-097,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): cushion in hand about $1k on 1 Jan 2027 is now none: the ten cost $302,287 ($2,287 over) (sections 1 and 6)"
+H7-100,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): TNA's 7.5% as JPM's EAFE figure is now settled: J.P. Morgan 2027 LTCMA global equities 7.5% (section 0)
+H7-109,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): money promised but not owned is zero at every date is now $2,287 unbought until Jan 2028 ($24,475 with margin) (sections 1 and 4)"
+H8-003,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): $300,000 fits by $1,139 (22 Oct) is now no headroom at the 6 Nov close: the ten cost $302,287 (sections 1 and 6)"
+H8-005,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): V25 1-in-20 gift $138.8k is now a top 1-in-20 low of $110k (house) (section 4)
+H8-006,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): after a 2-point fall: 84% short at $50k ... 0% at $150k is now the ladder needs $70,400 ($92,000 with margin) (sections 1 and 5)"
+H8-008,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): coupon-gap risk 2% ($150k) to 7.5% ($50k) is now history: 55.6% as written and 6.0% with margin (sections 2 and 5)
+H8-009,,,1,,adapt,,VOID figure (NUMBERS.md 9 Nov): odds of reaching the top 75%/79%/84% are now void: the stated top is reached in every house path after the move; idea now wrong (sections 4 and 6)
+H8-015,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): about $289 to $296 per basis point is now $300 per basis point (6 Nov) (section 1)
+H8-016,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): short 9.0% / 2.9% / 1.3% / 0.5% for $0-$20k is now 55.6% / 39.1% / 14.0% / 6.0% of windows for $0-$21,149 margins (section 2)"
+H8-017,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): 1-point fall $31,361 on the day vs $10,836 later is now $31,805 vs $12,172 (2 points: $67,423 vs $23,509) (sections 1 and 2)"
+H8-024,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): iBond rungs mature one day early is now: funds end about 15 Dec and their holdings' cash waits 5.4-7.4 months (sections 0 and 3)
+H8-026,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): 22 Oct $298,861 / $1,139 headroom / $296 per bp is now $302,287 / none / $300 per bp; 1-point fall $31,805 (sections 1 and 6)"
+H8-040,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): a 4-5 point fall to use both deposits is now 3.89 points before 1 Jan 2027 (section 1)
+H8-059,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): $117,936 grows to $150,000 freeing $32,064 for shares is now floor money $92,010 paying $115,929 and VT $33,515 (section 4)"
+H8-060,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): $32,064 to shares at 4.92% is now VT $33,515 at the 6 Nov forwards (section 4)"
+H8-061,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): floor falls $1.00 per lost dollar (79/21) is now a 73.3/26.7 split; floor payout falls about $0.92 per dollar (sections 0 and 5)
+H8-062,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): share wipe-out costs $19,700 (11.6% of a $170k top) is now the moved half $22,806 on a $138,735 top (section 4)"
+H8-063,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): any gap 0.50; p95 $21,915 is now any shortfall in 55.6% of windows as written; 1-in-20 $34,555 (section 2)"
+H8-064,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): about 7.1% of the $450k in stocks is now 7.4% (VT $33,515) (section 4)"
+H8-078,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): dedicated ladder -2pt $21,385 vs $9,616 is now A $23,509 vs B $10,725; B costs $258 less (section 2)"
+H8-079,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): $85,025 of coupons; short $11,062 / $21,385 / $31,030 is now $93,900 of interest; $12,172 / $23,509 / $34,083 (section 2)"
+H8-081,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): payment short in 6.8% of S0 futures (median $3,154) is now 55.6% of history windows as written (median $1,592) (section 2)"
+H8-083,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): payments short 0.01-0.02% and median gift $165,528 are now 6.0% of windows with margin and top $138,735 (sections 2 and 4)"
+H8-084,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): deposit leaned on in 47% of paths (median $9,758) is now certain: $2,287 ($24,475 with margin) (sections 1 and 4)"
+H8-085,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): $7.5k set-aside: bottom $145k to $135k is now Keel's margin $21,149: bottom $130,000 to $110,000; 6.0% of windows (sections 2 and 4)"
+H8-087,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): 6.2 / 7.7 / 36% short is now any shortfall in 55.6% of history windows as written (6.0% with margin) (section 2)
+H8-090,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): first $50k ($75k after -1pt) of the deposit is payment money is now $2,400 ($35,000 after -1pt); with margin $24,500 (section 5)"
+H8-094,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): top reached 86.6-97.9% is now void; width 14.7-20.0% of the top is now about 19% ($110k-$135k) (sections 4 and 6)
+H8-096,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): our worst-5% bottom $140k (under $100k 0.9%) is now floor payout $115,929 central with a house 1-in-20 low of $92k (section 4)"
+H8-101,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): all ten paid 76.09% / 75.91% without a margin is now 44% of history windows; 94% with Keel's margin (sections 2 and 6)
+H8-104,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): zero-rate set-aside p50 $9,032 / p95 $23,773 is now: sizing so interest is never needed costs $337,836 (section 2)"
+H8-106,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): face $317,155 / coupons $135,890 / interest on interest $42,610 is now interest worth $93,900 by 2033 (section 2)"
+H8-107,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): -2pt for good: $75k deposit 99.96% paid is now: after a 2-point fall the ladder needs $70,400 ($92,000 with margin) (section 5)"
+H8-109,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): bottom $140k and top $165k are now a stated bottom of $110,000 and a top of $138,735 central (sections 4 and 6)"
+H8-119,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): no cushion 74.70% paid; margin 99.87% is now 44% and 94% of history windows (sections 2 and 6)
+H8-122,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): 2008 replay ladder $361,003 (14-18% short) is now -2 points $369,710; worst window Jul 2007 $45,266 short as written (sections 1 and 2)"
+H8-125,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): median $205-209k is now FINAL total $162,721 central (house median $164k) (section 4)"
+H8-126,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): floor pays at least 98.7% in 99 of 100 paths is now: payout falls at most 4.1% (zero interest) (section 3)
+H8-127,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): 1 in 4 short without a margin is now 56% of history windows; 6.0% with Keel's margin (sections 2 and 6)
+H8-129,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): printed $145,000 bottom is now a stated bottom of $110,000 central; gift always inside the range (sections 3 4 and 6)"
+H9-011,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): the 2027 money buys all ten is now $2,287 short at the 6 Nov close ($302,287) (section 1)"
+H9-036,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): $306,663 as the no-reinvestment price is now $337,836 (sized so interest is never needed) (sections 2 and 6)"
+H9-050,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): ours broke a promise in 0-1.6% of paths is now any payment shortfall in 6.0% of windows with margin (55.6% without) (section 2)
+H9-052,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): Caplet's worst-twentieth bottom $140,000 is now floor payout $115,929 central (stated $110,000); yields move it $92k-$140k (section 4)"
+H9-053,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): 2008 replay $361,003 and a $61,000 top-up are now $369,710 at -2 points; completion $70,400 ($92,000 with margin) (sections 1 and 5)"
+H9-061,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): Keel bootstrap $302,100 and about $2,000 to complete are now $301,544 curve / $302,287 instruments and $2,287 (sections 1 and 6)"
+H9-062,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): $303,269 (5 Nov) and about $290 per bp are now $302,287 (6 Nov curve) and $300 per bp; 0.25 fall $7,619 (sections 1 and 6)"
+H9-065,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): 3-point fall about $31,000 short is now $34,083 as written; history replay worst $45,266 (section 2)"
+H9-067,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): $11,000 / $21,000 / $31,000 short is now $12,172 / $23,509 / $34,083 as written ($0 with Keel's margin) (sections 2 and 6)"
+H9-069,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): dedicated ladder cuts the bad case by about 40% is now design B halves it at the same cost (section 2)
+H9-077,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): a 0.5-point fall leaves a floor of about $136,000 is now: 0.5 point costs $15,455; floor payout $115,929 central (sections 1 and 4)"
+H9-082,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): the share fund is roughly the floor's interest is now VT $33,515 against floor interest of about $23,900 (sections 0 and 4)"
+H9-085,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): floor fund pays at least 98.7% in 99 of 100 paths is now: payout falls at most 4.1% (zero interest) (section 3)
+H9-086,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): in-range chance at least about 99% is now certain unless the US defaults: every house path inside the stated range (section 4)
+H9-087,,,1,,adapt,,VOID figure (NUMBERS.md 9 Nov): top reached about 3 in 4 and halfway 99 in 100 are now void: every house path inside the stated range; idea now wrong (sections 4 and 6)
+H9-102,,,,,adapt,,VOID figure (NUMBERS.md 9 Nov): two-thirds payments / a quarter floor / under a tenth shares is now 72% / 20% / 7% of the $450k (sections 1 and 4)
+H9-137,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): [$145,000] to [$170,000] is now a stated range of about $110,000 to $135,000 central (sections 4 and 6)"
+H9-179,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): worst-twentieth bottom $140,000 is now floor payout $115,929 central (stated $110,000); yields move it $92k-$140k (section 4)"
+Q1-048,,,,,adapt,,"VOID figure (NUMBERS.md 9 Nov): a 1-point fall adds about $30,600 is now $31,805 (6 Nov); safe unless the deposit falls over 77% after -1pt (sections 1 5 and 6)"

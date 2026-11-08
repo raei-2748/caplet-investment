@@ -1,0 +1,745 @@
+{
+ "C3": {
+  "curve_cost_payment_dates": 301543.66458835866,
+  "ten_instruments_with_fund_fees": 302286.7615805898,
+  "ladder_duration_years": 9.9381776153994,
+  "dv01_per_bp": 299.6794497477531,
+  "rungs": {
+   "2033": {
+    "instrument": "IBTM",
+    "units": 37907.61602562171,
+    "cost": 37907.61602562171
+   },
+   "2034": {
+    "instrument": "IBTO",
+    "units": 36065.4384990294,
+    "cost": 36065.4384990294
+   },
+   "2035": {
+    "instrument": "IBTP",
+    "units": 34299.815917269785,
+    "cost": 34299.815917269785
+   },
+   "2036": {
+    "instrument": "IBTQ",
+    "units": 32587.82450412224,
+    "cost": 32587.82450412224
+   },
+   "2037": {
+    "instrument": "IBTR",
+    "units": 30921.93355677832,
+    "cost": 30921.93355677832
+   },
+   "2038": {
+    "instrument": "4.750% T-bond 15 Feb 2037",
+    "units": 28930.490068769035,
+    "cost": 29136.416810807874
+   },
+   "2039": {
+    "instrument": "4.500% T-bond 15 May 2038",
+    "units": 28482.92083840011,
+    "cost": 27567.36867386037
+   },
+   "2040": {
+    "instrument": "4.375% T-bond 15 Nov 2039",
+    "units": 27536.11609172781,
+    "cost": 26050.676303684155
+   },
+   "2041": {
+    "instrument": "4.250% T-bond 15 Nov 2040",
+    "units": 26549.748147603892,
+    "cost": 24581.746181626884
+   },
+   "2042": {
+    "instrument": "3.125% T-bond 15 Nov 2041",
+    "units": 29020.73529735093,
+    "cost": 23167.92510778908
+   }
+  },
+  "cost_if_yields_fall_25bp_before_jan2027": 309906.1593334849,
+  "cost_if_yields_fall_50bp_before_jan2027": 317742.31194609235,
+  "cost_if_yields_fall_100bp_before_jan2027": 334092.3859720648,
+  "cost_if_yields_fall_200bp_before_jan2027": 369709.6648946821,
+  "fall_that_uses_whole_2028_deposit_pt": 3.8906125992634766,
+  "held_ladder_duration_years": 7.758324046768774,
+  "held_ladder_dv01_per_bp": 233.94734641266405,
+  "build_order": "longest rungs first; any part unbought in Jan 2027 is the 2033 rung, completed Jan 2028"
+ },
+ "C1": {
+  "A_forward": {
+   "cost": 302286.7615805898,
+   "units_bought_in_jan_2027": 10,
+   "short_if_rates_fall_for_good": {
+    "1pt": 12172.438291021412,
+    "2pt": 23508.938747983593,
+    "3pt": 34083.19468858533
+   },
+   "short_if_interest_earns_nothing": 54595.31349367924,
+   "history_windows": 585,
+   "history_share_with_any_shortfall": 0.5555555555555556,
+   "history_median_shortfall": 1591.6109660072834,
+   "history_1_in_20_shortfall": 34555.49118489993,
+   "history_worst_shortfall": 45265.84337790198,
+   "history_worst_start": "2007-07"
+  },
+  "A_minus1": {
+   "cost": 309456.4858727633,
+   "units_bought_in_jan_2027": 10,
+   "short_if_rates_fall_for_good": {
+    "1pt": 0.0,
+    "2pt": 11650.304591359432,
+    "3pt": 22515.576159247263
+   },
+   "short_if_interest_earns_nothing": 43598.77556907737,
+   "history_windows": 585,
+   "history_share_with_any_shortfall": 0.39145299145299145,
+   "history_median_shortfall": 0.0,
+   "history_1_in_20_shortfall": 22991.419620469893,
+   "history_worst_shortfall": 34016.34781471493,
+   "history_worst_start": "2007-07"
+  },
+  "A_minus2": {
+   "cost": 316508.2242400151,
+   "units_bought_in_jan_2027": 10,
+   "short_if_rates_fall_for_good": {
+    "1pt": 0.0,
+    "2pt": 3.637978807091713e-11,
+    "3pt": 11150.737892093217
+   },
+   "short_if_interest_earns_nothing": 32793.99091300195,
+   "history_windows": 585,
+   "history_share_with_any_shortfall": 0.14017094017094017,
+   "history_median_shortfall": 0.0,
+   "history_1_in_20_shortfall": 11629.828218927967,
+   "history_worst_shortfall": 22963.177685272392,
+   "history_worst_start": "2007-07"
+  },
+  "A_minus3": {
+   "cost": 323435.5931214174,
+   "units_bought_in_jan_2027": 10,
+   "short_if_rates_fall_for_good": {
+    "1pt": 0.0,
+    "2pt": 0.0,
+    "3pt": 0.0
+   },
+   "short_if_interest_earns_nothing": 22191.614742862133,
+   "history_windows": 585,
+   "history_share_with_any_shortfall": 0.05982905982905983,
+   "history_median_shortfall": 0.0,
+   "history_1_in_20_shortfall": 1224.5426272690565,
+   "history_worst_shortfall": 12117.26110448395,
+   "history_worst_start": "2007-07"
+  },
+  "A_zero": {
+   "cost": 337835.8995731885,
+   "units_bought_in_jan_2027": 10,
+   "short_if_rates_fall_for_good": {
+    "1pt": 0.0,
+    "2pt": 0.0,
+    "3pt": 0.0
+   },
+   "short_if_interest_earns_nothing": 0.0,
+   "history_windows": 585,
+   "history_share_with_any_shortfall": 0.0,
+   "history_median_shortfall": 0.0,
+   "history_1_in_20_shortfall": 0.0,
+   "history_worst_shortfall": 0.0,
+   "history_worst_start": "1962-01"
+  },
+  "B_matched_forward": {
+   "cost": 302028.9577064612,
+   "units_bought_in_jan_2027": 8,
+   "short_if_rates_fall_for_good": {
+    "1pt": 5500.425178407873,
+    "2pt": 10724.717376788321,
+    "3pt": 15689.734325421443
+   },
+   "short_if_interest_earns_nothing": 25007.24769183909,
+   "history_windows": 585,
+   "history_share_with_any_shortfall": 0.582905982905983,
+   "history_median_shortfall": 2913.0490968172962,
+   "history_1_in_20_shortfall": 15925.025524943441,
+   "history_worst_shortfall": 19583.516764134227,
+   "history_worst_start": "2007-07"
+  },
+  "B_matched_zero": {
+   "cost": 319687.2049108727,
+   "units_bought_in_jan_2027": 8,
+   "short_if_rates_fall_for_good": {
+    "1pt": 0.0,
+    "2pt": 0.0,
+    "3pt": 0.0
+   },
+   "short_if_interest_earns_nothing": 9.815266821533442e-09,
+   "history_windows": 585,
+   "history_share_with_any_shortfall": 0.0,
+   "history_median_shortfall": 0.0,
+   "history_1_in_20_shortfall": 0.0,
+   "history_worst_shortfall": 0.0,
+   "history_worst_start": "1962-01"
+  },
+  "history_first_start": "1962-01",
+  "history_last_start": "2010-09",
+  "interest_received_before_2033_valued_jan_2033": 93940.85392967945
+ },
+ "C2": {
+  "IBTM": {
+   "fee_cost_on_50k": 170.22449653931108,
+   "months_in_cash_before_end": 5.388090349075975,
+   "lost_if_cash_earns_nothing_in_final_months": 868.5161102188157,
+   "as_share_of_payment": 0.017370322204376315
+  },
+  "IBTO": {
+   "fee_cost_on_50k": 196.40039215846627,
+   "months_in_cash_before_end": 6.373716632443531,
+   "lost_if_cash_earns_nothing_in_final_months": 1000.058667992444,
+   "as_share_of_payment": 0.02000117335984888
+  },
+  "IBTP": {
+   "fee_cost_on_50k": 221.23362780448952,
+   "months_in_cash_before_end": 5.388090349075975,
+   "lost_if_cash_earns_nothing_in_final_months": 806.7531430490254,
+   "as_share_of_payment": 0.016135062860980508
+  },
+  "IBTQ": {
+   "fee_cost_on_50k": 244.75082591365936,
+   "months_in_cash_before_end": 5.388090349075975,
+   "lost_if_cash_earns_nothing_in_final_months": 781.2372755459581,
+   "as_share_of_payment": 0.015624745510919164
+  },
+  "IBTR": {
+   "fee_cost_on_50k": 265.829684810451,
+   "months_in_cash_before_end": 7.392197125256674,
+   "lost_if_cash_earns_nothing_in_final_months": 1043.2639248527908,
+   "as_share_of_payment": 0.020865278497055814
+  }
+ },
+ "plan": {
+  "no_margin": {
+   "margin_jan2027_value": 0.0,
+   "central": {
+    "complete": 2388.2193353530683,
+    "R": 147611.78066464694,
+    "floor": 136328.20354141132,
+    "vt28": 39412.34543746073,
+    "vt31": 48873.75514115038,
+    "moved": 26818.91801298413,
+    "top": 163147.12155439545,
+    "kept33": 28205.988968876947,
+    "total": 191353.1105232724,
+    "all_t": 185986.6351178872
+   },
+   "floor_share_of_2028_deposit": 0.7213295681812414,
+   "house": {
+    "floor": [
+     113675.67934816654,
+     136335.15041801374,
+     159864.80188197768
+    ],
+    "top": [
+     135386.36577406948,
+     163840.45624838758,
+     195513.809585731
+    ],
+    "moved": [
+     16186.8478308875,
+     26711.185775851627,
+     43954.464849610136
+    ],
+    "kept33": [
+     14955.978026551682,
+     28077.89974623717,
+     52658.648552000464
+    ],
+    "total": [
+     155364.37317762375,
+     192539.22638810927,
+     241097.33995514654
+    ],
+    "all_t": [
+     155082.78219395163,
+     185996.1124393093,
+     218096.59192629973
+    ]
+   },
+   "house_share_total_below_all_treasury": 0.36528,
+   "house_share_top_below_all_treasury": 0.982335,
+   "house_payments_full": 1.0,
+   "history": {
+    "top": [
+     154303.5978083183,
+     164910.33966308163,
+     180680.80981579138
+    ],
+    "moved": [
+     17975.39426690699,
+     28582.1361216703,
+     44352.606274380065
+    ],
+    "kept33": [
+     17491.591115492698,
+     31025.536718064064,
+     53654.28096274484
+    ],
+    "total": [
+     173812.84402569814,
+     195634.18160624284,
+     229716.39974582745
+    ]
+   },
+   "history_lowest_top": [
+    140959.88945467398,
+    "1929-07"
+   ],
+   "history_windows": 1770
+  },
+  "margin_minus2": {
+   "margin_jan2027_value": 14221.462659425277,
+   "central": {
+    "complete": 17240.65187074708,
+    "R": 132759.34812925293,
+    "floor": 122611.10429192564,
+    "vt28": 35446.745950510536,
+    "vt31": 43956.16558483693,
+    "moved": 24120.446599208222,
+    "top": 146731.55089113387,
+    "kept33": 25367.952964108088,
+    "total": 172099.50385524196,
+    "all_t": 167272.99357697906
+   },
+   "floor_share_of_2028_deposit": 0.6487506811916159,
+   "house": {
+    "floor": [
+     99877.24094779784,
+     122606.65301089181,
+     146227.14806795915
+    ],
+    "top": [
+     119216.41543485182,
+     147361.01002661057,
+     178432.4827226994
+    ],
+    "moved": [
+     14467.29059135043,
+     23997.050611799117,
+     39674.89096049889
+    ],
+    "kept33": [
+     13403.308747814508,
+     25221.43429523484,
+     47466.005553708645
+    ],
+    "total": [
+     137208.17874679502,
+     173204.1428877954,
+     219161.06896434232
+    ],
+    "all_t": [
+     136258.17318935588,
+     167266.92088798337,
+     199491.33433555134
+    ]
+   },
+   "house_share_total_below_all_treasury": 0.36528,
+   "house_share_top_below_all_treasury": 0.982335,
+   "house_payments_full": 1.0,
+   "history": {
+    "top": [
+     138777.84663793427,
+     148317.35715717083,
+     162501.03089742686
+    ],
+    "moved": [
+     16166.742346008608,
+     25706.252865245173,
+     39889.92660550123
+    ],
+    "kept33": [
+     15731.6185996827,
+     27903.80287741405,
+     48255.683475158956
+    ],
+    "total": [
+     156324.10750309267,
+     175949.8212466524,
+     206602.74774504488
+    ]
+   },
+   "history_lowest_top": [
+    126776.75827845371,
+    "1929-07"
+   ],
+   "history_windows": 1770
+  },
+  "margin_minus3": {
+   "margin_jan2027_value": 21148.83154082758,
+   "central": {
+    "complete": 24475.37036790717,
+    "R": 125524.62963209284,
+    "floor": 115929.414176105,
+    "vt28": 33515.07611176879,
+    "vt31": 41560.775062798195,
+    "moved": 22806.00325770312,
+    "top": 138735.41743380812,
+    "kept33": 23985.526783724636,
+    "total": 162720.94421753276,
+    "all_t": 158157.45453766032
+   },
+   "floor_share_of_2028_deposit": 0.613397023468827,
+   "house": {
+    "floor": [
+     93162.44221280681,
+     115897.14777208673,
+     139600.22453928762
+    ],
+    "top": [
+     111289.99465805199,
+     139328.73953559072,
+     170151.79541990205
+    ],
+    "moved": [
+     13615.891939648489,
+     22674.25422677855,
+     37618.769143996054
+    ],
+    "kept33": [
+     12634.691074646656,
+     23824.232057393674,
+     44937.14060616125
+    ],
+    "total": [
+     128296.6743052775,
+     163798.6292322501,
+     208591.01472791005
+    ],
+    "all_t": [
+     127097.4655017828,
+     158113.43488688502,
+     190450.51096765025
+    ]
+   },
+   "house_share_total_below_all_treasury": 0.36528,
+   "house_share_top_below_all_treasury": 0.982335,
+   "house_payments_full": 1.0,
+   "history": {
+    "top": [
+     131215.1501633326,
+     140234.80521340718,
+     153645.53988600217
+    ],
+    "moved": [
+     15285.735987227627,
+     24305.391037302186,
+     37716.125709897184
+    ],
+    "kept33": [
+     14874.324302315523,
+     26383.18559762903,
+     45625.990796260434
+    ],
+    "total": [
+     147805.22783065273,
+     166361.43862589833,
+     195343.9343979053
+    ]
+   },
+   "history_lowest_top": [
+    119868.06091701325,
+    "1929-07"
+   ],
+   "history_windows": 1770
+  },
+  "margin_zero": {
+   "margin_jan2027_value": 35549.1379925987,
+   "central": {
+    "complete": 39514.58153668107,
+    "R": 110485.41846331893,
+    "floor": 102039.81381977034,
+    "vt28": 29499.606729706156,
+    "vt31": 36581.34374052063,
+    "moved": 20073.59687726914,
+    "top": 122113.41069703948,
+    "kept33": 21111.800700230255,
+    "total": 143225.21139726974,
+    "all_t": 139208.47724388857
+   },
+   "floor_share_of_2028_deposit": 0.5399054115574186,
+   "house": {
+    "floor": [
+     79127.15138697485,
+     101975.38199963848,
+     125877.41690656972
+    ],
+    "top": [
+     94679.63983659123,
+     122607.04215844878,
+     153046.85322245135
+    ],
+    "moved": [
+     11827.778697829463,
+     19927.210142419877,
+     33330.55323829637
+    ],
+    "kept33": [
+     11005.76646127007,
+     20930.991837937574,
+     39690.74129569852
+    ],
+    "total": [
+     109603.32338289061,
+     144202.69351824914,
+     186740.26150511796
+    ],
+    "all_t": [
+     107949.72904089336,
+     139120.57571574146,
+     171729.08172792595
+    ]
+   },
+   "house_share_total_below_all_treasury": 0.36528,
+   "house_share_top_below_all_treasury": 0.982335,
+   "house_payments_full": 1.0,
+   "history": {
+    "top": [
+     115494.15295638923,
+     123433.15556904853,
+     135237.13887132925
+    ],
+    "moved": [
+     13454.33913661889,
+     21393.341749278192,
+     33197.32505155893
+    ],
+    "kept33": [
+     13092.219030776401,
+     23222.194000436924,
+     40159.50256697304
+    ],
+    "total": [
+     130096.55950230101,
+     146429.53511685,
+     171939.61375931962
+    ]
+   },
+   "history_lowest_top": [
+    105506.56799083525,
+    "1929-07"
+   ],
+   "history_windows": 1770
+  },
+  "vt_growth_sensitivity_central": {
+   "0.040": {
+    "top": 136579.592539045,
+    "kept33": 20327.016343993117,
+    "total": 156906.6088830381
+   },
+   "0.060": {
+    "top": 137794.00654737419,
+    "kept33": 22358.170628751403,
+    "total": 160152.17717612558
+   },
+   "0.075": {
+    "top": 138735.41743380812,
+    "kept33": 23985.526783724636,
+    "total": 162720.94421753276
+   },
+   "0.090": {
+    "top": 139703.4702710461,
+    "kept33": 25706.29159460067,
+    "total": 165409.76186564675
+   },
+   "0.100": {
+    "top": 140363.82349231845,
+    "kept33": 26907.315165719658,
+    "total": 167271.1386580381
+   }
+  },
+  "deletion_test_vt_to_zero": 115929.414176105,
+  "margin_handed_back_if_rates_hold_jan2033_value": 27990.196627655365,
+  "missed_deposit_2033_payment_short": 3026.4984690862057
+ },
+ "C5": {
+  "move_date_modelled": "1 Jan 2031",
+  "after_move_worst_case_if_rates_go_to_zero": "both ends lose only the interest on the fund's final months in cash and on its last distributions",
+  "floor_cash_months": 5.388090349075975
+ },
+ "C6": {
+  "fall_0bp": {
+   "150000": {
+    "ladder_complete": true,
+    "margin_complete": true,
+    "completion_needed_no_margin": 2388.2193353530683,
+    "floor": 115929.414176105,
+    "top": 138735.41743380812
+   },
+   "112500": {
+    "ladder_complete": true,
+    "margin_complete": true,
+    "completion_needed_no_margin": 2388.2193353530683,
+    "floor": 81295.94786478556,
+    "top": 97288.745421978
+   },
+   "75000": {
+    "ladder_complete": true,
+    "margin_complete": true,
+    "completion_needed_no_margin": 2388.2193353530683,
+    "floor": 46662.48155346611,
+    "top": 55842.07341014787
+   },
+   "37500": {
+    "ladder_complete": true,
+    "margin_complete": true,
+    "completion_needed_no_margin": 2388.2193353530683,
+    "floor": 12029.015242146668,
+    "top": 14395.401398317741
+   },
+   "0": {
+    "ladder_complete": false,
+    "margin_complete": false,
+    "completion_needed_no_margin": 2388.2193353530683,
+    "floor": 0.0,
+    "top": 0.0
+   },
+   "smallest_deposit_ladder": 2388.2193353530683,
+   "smallest_deposit_ladder_and_margin": 24475.37036790717
+  },
+  "fall_50bp": {
+   "150000": {
+    "ladder_complete": true,
+    "margin_complete": true,
+    "completion_needed_no_margin": 18379.722649558193,
+    "floor": 98783.85814104056,
+    "top": 118510.69388453523
+   },
+   "112500": {
+    "ladder_complete": true,
+    "margin_complete": true,
+    "completion_needed_no_margin": 18379.722649558193,
+    "floor": 64997.98031434106,
+    "top": 77977.87911004525
+   },
+   "75000": {
+    "ladder_complete": true,
+    "margin_complete": true,
+    "completion_needed_no_margin": 18379.722649558193,
+    "floor": 31212.102487641558,
+    "top": 37445.064335555275
+   },
+   "37500": {
+    "ladder_complete": true,
+    "margin_complete": false,
+    "completion_needed_no_margin": 18379.722649558193,
+    "floor": 0.0,
+    "top": 0.0
+   },
+   "0": {
+    "ladder_complete": false,
+    "margin_complete": false,
+    "completion_needed_no_margin": 18379.722649558193,
+    "floor": 0.0,
+    "top": 0.0
+   },
+   "smallest_deposit_ladder": 18379.722649558193,
+   "smallest_deposit_ladder_and_margin": 40356.71355676306
+  },
+  "fall_100bp": {
+   "150000": {
+    "ladder_complete": true,
+    "margin_complete": true,
+    "completion_needed_no_margin": 35022.89719453644,
+    "floor": 81834.8365300968,
+    "top": 98424.04126587918
+   },
+   "112500": {
+    "ladder_complete": true,
+    "margin_complete": true,
+    "completion_needed_no_margin": 35022.89719453644,
+    "floor": 48875.80406537387,
+    "top": 58783.69604201728
+   },
+   "75000": {
+    "ladder_complete": true,
+    "margin_complete": true,
+    "completion_needed_no_margin": 35022.89719453644,
+    "floor": 15916.771600650958,
+    "top": 19143.35081815542
+   },
+   "37500": {
+    "ladder_complete": true,
+    "margin_complete": false,
+    "completion_needed_no_margin": 35022.89719453644,
+    "floor": 0.0,
+    "top": 0.0
+   },
+   "0": {
+    "ladder_complete": false,
+    "margin_complete": false,
+    "completion_needed_no_margin": 35022.89719453644,
+    "floor": 0.0,
+    "top": 0.0
+   },
+   "smallest_deposit_ladder": 35022.89719453644,
+   "smallest_deposit_ladder_and_margin": 56890.277402309395
+  },
+  "fall_200bp": {
+   "150000": {
+    "ladder_complete": true,
+    "margin_complete": true,
+    "completion_needed_no_margin": 70386.35507540595,
+    "floor": 48481.81780164226,
+    "top": 58609.21981643615
+   },
+   "112500": {
+    "ladder_complete": true,
+    "margin_complete": true,
+    "completion_needed_no_margin": 70386.35507540595,
+    "floor": 17116.264863742446,
+    "top": 20691.69382096565
+   },
+   "75000": {
+    "ladder_complete": true,
+    "margin_complete": false,
+    "completion_needed_no_margin": 70386.35507540595,
+    "floor": 0.0,
+    "top": 0.0
+   },
+   "37500": {
+    "ladder_complete": false,
+    "margin_complete": false,
+    "completion_needed_no_margin": 70386.35507540595,
+    "floor": 0.0,
+    "top": 0.0
+   },
+   "0": {
+    "ladder_complete": false,
+    "margin_complete": false,
+    "completion_needed_no_margin": 70386.35507540595,
+    "floor": 0.0,
+    "top": 0.0
+   },
+   "smallest_deposit_ladder": 70386.35507540595,
+   "smallest_deposit_ladder_and_margin": 92036.1512146414
+  }
+ },
+ "stamp": {
+  "curve": "US Treasury par yield curve, 6 Nov 2026 close",
+  "valuation": "forward to 1 Jan 2027",
+  "assumptions": {
+   "fund_end": "iBond funds terminate 'on or about' 15 Dec of their year (ishares.com IBTM page, read 9 Nov 2026)",
+   "fund_fee": 0.0007,
+   "vt_fee": 0.0006,
+   "fund_wam": {
+    "2033": 5.65,
+    "2034": 6.62,
+    "2035": 7.66,
+    "2036": 8.65,
+    "2037": 9.53
+   },
+   "eq_growth": 0.075,
+   "eq_vol": 0.1678,
+   "yield_vol": 0.009,
+   "floor_share": 0.733
+  },
+  "call": "A_minus3"
+ }
+}

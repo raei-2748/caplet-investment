@@ -12,9 +12,9 @@ Caplet, Book 14: "Keep a store of every single insight you have. They should be 
 
 ## Where it stands
 
-- **1432 ideas** in the store; 0 judged so far, the rest on the first pass.
-- Tiers: A 598, B 685, C 149; refused or merged 0.
-- 224 ideas need reframing before use (they clash in some detail with the FINAL IPS or the TNA).
+- **1432 ideas** in the store; 166 judged so far, the rest on the first pass.
+- Tiers: A 596, B 686, C 150; refused or merged 0.
+- 318 ideas need reframing before use (they clash in some detail with the FINAL IPS or the TNA).
 - Rows per source: `cards/Q1_career_as_shares.md` 50; `harvest/H10_why_wharton.md` 65; `harvest/H1_idea_bank_part1.md` 88; `harvest/H2_idea_bank_part2_and_ledger.md` 124; `harvest/H3_concepts_R02_R05_R06.md` 126; `harvest/H4_synergies_S1_S3_fusions.md` 190; `harvest/H5_synergies_S4_S6_R11.md` 153; `harvest/H6_shiller_damodaran.md` 171; `harvest/H7_final_night_reading.md` 118; `harvest/H8_lab_window_plans.md` 161; `harvest/H9_doc_research_tabs.md` 186.
 
 ## The parts of the plan and the case
@@ -72,12 +72,12 @@ Caplet, Book 14: "Keep a store of every single insight you have. They should be 
 | 25 | H10-064 | 21 | PRESENTATION | A Wharton teacher blog: "Thesis isn't just for English class" (the team's "guiding light") and "Chunk the final report" | keep |
 | 26 | H2-010 | 21 | CAREER | Her income falls in the slump but doesn't come back with the market | keep |
 | 27 | H2-031 | 21 | REINVEST, LADDER, CERTAINTY | Measure the ladder's weak point the way auditors do: public defeasance escrows buy Treasuries that pay enough "without reinvestment"; actuaries carry cash forward "at low or zero interest" | keep |
-| 28 | H2-033 | 21 | REINVEST, LADDER | The funds' last-year wait: iBond funds hold maturing Treasuries and then cash until the 15 December close ("expected to consist almost entirely of cash"), less 0.07% a year, so a reinvestment rule wr… | keep |
+| 28 | H2-033 | 21 | REINVEST, LADDER | The funds' last-year wait: iBond funds hold maturing Treasuries and then cash until the 15 December close ("expected to consist almost entirely of cash"), less 0.07% a year, so a reinvestment rule wr… | adapt |
 | 29 | H2-060 | 21 | FLOOR, MOVE2031 | Grain in the bin: farmers pre-sell only what they are sure to grow and lock more as the crop gets surer; the 2028 deposit is grain already in the bin, so lock its share then | keep |
 | 30 | H2-082 | 21 | CEILING, MOVE2031, COSPONSOR | Never more than the pot holds: Alaska's Permanent Fund draw is "limited to the ERA balance"; smoothing like a sovereign fund (Norway, Alaska's lagged average) was rejected, because a gift that ends o… | keep |
 | 31 | H2-093 | 21 | PROCESS, COMPLETE2028, TWOREASONS | The plan's rule was in the trade notes before it was named: the IBTR note (7 Oct) has a dated check ("by January"), one market reading ("If yields fall more than about 0.2 percentage points") and a r… | keep |
 | 32 | H2-095 | 21 | PROCESS, LADDER | The WInS book is the finished plan at about two-thirds size: VT 8.6%, IBTM as both a rung and the minimum, each rung partly filled; the Nov-2041 note says "scaled to the model portfolio" | keep |
-| 33 | H3-007 | 21 | FLOOR, LADDER, CERTAINTY | A defined-maturity ETF pays out its NAV, not par: IBTM "does not seek to return any predetermined amount at maturity", terminates about 15 Dec 2032, fee 0.07%; "Government backing ... does not apply … | keep |
+| 33 | H3-007 | 21 | FLOOR, LADDER, CERTAINTY | A defined-maturity ETF pays out its NAV, not par: IBTM "does not seek to return any predetermined amount at maturity", terminates about 15 Dec 2032, fee 0.07%; "Government backing ... does not apply … | adapt |
 | 34 | H3-013 | 21 | CERTAINTY, LADDER | A US default is really a political delay; every rung matures before its payment (IBTM about 15 Dec 2032; the Feb-2037 bond about ten months before 1 Jan 2038), so a delay of weeks would not stop a pa… | keep |
 | 35 | H3-015 | 21 | LADDER, CERTAINTY | Term premium: long bonds usually pay a little extra for rate risk; for a holder with fixed long payments, long bonds are the low-risk asset, so she is paid for holding what she would hold anyway | keep |
 | 36 | H3-016 | 21 | LADDER, CERTAINTY | The riskless asset depends on the liability: for a long-horizon investor cash is risky (its rate rolls over); the matched long bond is riskless | keep |
