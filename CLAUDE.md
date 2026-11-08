@@ -1,9 +1,14 @@
 # Team Keel / Team Caplet: project memory
 
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
-decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-04 (FINAL IPS = V57, `keel/ips_rewrite/drafts/FINAL/`, with Caplet's I81 "erudite" concepts; Ray: drafts read AI/corny and the team can't follow Keel; V55 = V54 in plain English, `caplet/STATUS_2026-11-03.md`; all branches merged into main 2 Nov; V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
+decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-08 (Final Report plan: no prose until Fri 27 Nov, Books 13-15; Caplet wrote and submitted its own IPS on 6 Nov, which replaces every Keel version incl. V57 in `keel/ips_rewrite/drafts/FINAL/`; Ray: drafts read AI/corny and the team can't follow Keel; V55 = V54 in plain English, `caplet/STATUS_2026-11-03.md`; all branches merged into main 2 Nov; V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
 
 ## For every Claude session in this repo (all teammates)
+- **Final Report (Ray, 8 Nov, BIBLE Books 13-15, INSTRUCTIONS I89-I91): no Final Report prose until Fri 27 Nov.** Until
+  then: deep research, analysis and thinking on every part of the case (not only investing), a little voice study, and
+  one ranked store of every insight (`keel/final_report/research/INSIGHT_STORE.md`; nothing lost). Fri 27 Nov: one
+  24-hour session, at least twelve draft-review-rewrite rounds against the Bible and Wharton; final draft to Caplet Sat
+  28 Nov. Plan: `keel/final_report/README.md`. Built on Caplet's own FINAL IPS (`keel/final_report/FINAL_IPS_as_submitted.txt`).
 - **Banned (Ray, 5 Nov, INSTRUCTIONS I85): AI-detector checks (GPTZero or any other) and "AI DRAFT" labels.** Never run,
   ask for, mention or report a detector check, and never label a draft "AI DRAFT" or "AI Draft", in replies or in new files.
   Older files that still say so are history, not instructions.
