@@ -42,8 +42,10 @@ checked word for word against `FINAL_IPS_as_submitted.txt` on 8 Nov.
    $50,000 in 2038 only with ten years of coupons reinvested on the way. So the payments depend on future Treasury
    rates as well as on default, and Caplet's FINAL has no rule for a shortfall (TNA note 1 names the risk). Wharton
    bars revising the strategy, so the report can measure, explain and implement within the IPS's words, but cannot add
-   a new rule. Work to do: (a) size the risk on the 6 Nov curve under the FINAL design (old-design figure: about $21,000
-   if yields fall 2 points for good); (b) test the implementation the IPS's words allow: a cash-flow-matched ladder in
+   a new rule. Work to do: (a) size the risk on the 6 Nov curve under the FINAL design (old-design figures: about $21,000
+   short if yields fall 2 points for good; and in Keel's two runs closest to the plan as written, with no margin for
+   interest waiting to be reinvested, all ten payments were paid in full in only about 76% and 75% of base futures,
+   the misses a few thousand dollars each; `research/harvest/H8_lab_window_plans.md`); (b) test the implementation the IPS's words allow: a cash-flow-matched ladder in
    Leibowitz's sense, where each later bond's coupons pay the earlier payments as they fall due, leaves only the
    2027-2032 coupons to reinvest. Keel's harvest brief flagged "later coupons paying earlier payments" as a clash; that
    was too strict, because the FINAL only says each Treasury matures "just before it's needed" and TNA note 2 says each

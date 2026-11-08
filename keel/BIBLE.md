@@ -1,4 +1,4 @@
-# THE BIBLE: fifteen books (23 Oct – 8 Nov 2026), under Wharton's word (`WHARTON_WORD.md`), which ranks first. Top priority for every Keel member, room, agent and run.
+# THE BIBLE: sixteen books (23 Oct – 8 Nov 2026), under Wharton's word (`WHARTON_WORD.md`), which ranks first. Top priority for every Keel member, room, agent and run.
 
 > **"The message Ray quoted earlier isn't the only Bible. In fact, you've got quite a few Bibles. (Multiple books of
 > the Bible, I suppose?) ... All are equal."** (Caplet, Mon 26 Oct 2026, 23:21 Sydney.) The first version of this page
@@ -788,3 +788,22 @@ Data: FRED (Treasury yields, real yields, breakevens), the Treasury yield curve,
 2. Wherever the report creates, does or decides something that is not directly about investing, it shows the same
    depth of knowledge, reading and research as the investing parts.
 3. No section of the Final Report is exempt.
+
+## Book 16: Caplet's own IPS, and why Keel's failed (Caplet, Sat 7 Nov 2026, 01:54 Sydney; Fri 6 Nov in the US)
+
+> Caplet's own words, verbatim, in the message that brought the IPS the team submitted. Filed on Sun 8 Nov, after
+> Books 13-15, so that every expectation Caplet has stated is in this file before the expectation notes
+> (`EXPECTATIONS.md`) take its place in the working set. The IPS that followed these words is kept verbatim in
+> `final_report/FINAL_IPS_as_submitted.txt` (the same 549 words appear in the "Past Submissions" tab of Caplet's
+> FINAL REPORT Google Doc, checked 8 Nov).
+
+> Frankly, your IPS was just too unacceptably bad for us to work with. We gave up on you. We made our expectations very clear, and you completely and utterly failed to meet them. So we used our own tactics with other AIs. And through a comprehensive rewriting process, below is what we came up with. It's vastly better than whatever the hell you ended up with. First and foremost, and most importantly, it sounds HUMAN. Even more importantly, it's COMPREHENSIBLE to humans, not just to fellow robots. I just thought I'd show you this so you understand our standards, and can compare that to whatever on Earth you're doing. Hopefully you'll make some notes on what you did wrong, and perhaps keep them in mind for future, so you can actually produce a stunning Final Report as we had so hoped you could do for the IPS.
+
+**Keel's reading of Book 16.**
+1. Keel's IPS failed Caplet's standards and was not used. Caplet wrote its own with other tools; it is the strategy
+   the Final Report evaluates and builds on.
+2. Caplet's two tests, in its own order: first, it sounds human; "even more importantly", a human understands it.
+3. Caplet's IPS is the standard to compare Keel's work against, for voice and for comprehension.
+4. Keel makes notes on what it did wrong and keeps them in mind for the Final Report (`final_report/voice/STUDY1_two_voices.md`,
+   and the list of lessons in `EXPECTATIONS.md`).
+5. The aim is unchanged: a stunning Final Report.

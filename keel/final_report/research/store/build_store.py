@@ -104,12 +104,16 @@ def main():
     for src in SOURCES:
         prefix = src.stem.split("_")[0]
         in_idea_table = False
+        status_col = None  # optional extra "FINAL status" column (H8 adds one)
         seen = set()
         for line in src.read_text().splitlines():
             if line.startswith("|") and not ROW.match(line):
                 # a header or separator row: an idea table has an "Idea" column and at least ten columns
                 if not set(line.replace("|", "").strip()) <= set("-: "):
                     in_idea_table = ("Idea" in line and len(cells(line)) >= 10)
+                    if in_idea_table:
+                        hdr = cells(line)
+                        status_col = next((i for i, h in enumerate(hdr) if h.lower().startswith("final status")), None)
                 continue
             if not line.startswith("|"):
                 if line.strip() == "" or line.startswith("#"):
@@ -122,6 +126,9 @@ def main():
                 continue
             seen.add(m.group(1))
             c = cells(line)
+            final_status = ""
+            if status_col is not None and len(c) > status_col:
+                final_status = c.pop(status_col)
             if len(c) < 10:
                 c += [""] * (10 - len(c))
             num, idea, sources, tags, niche, use, critique, verified, clash, where = c[:10]
@@ -130,7 +137,7 @@ def main():
             ideas.append({
                 "id": f"{prefix}-{int(num):03d}", "idea": idea, "sources": sources, "tags": tag_list,
                 "niche": niche, "use": use, "critique": critique, "verified": verified, "clash": clash,
-                "where": where, "file": str(src.relative_to(RESEARCH)),
+                "where": where, "final_status": final_status, "file": str(src.relative_to(RESEARCH)),
                 "F": rate_fit(clash, critique), "R": rate_rarity(niche), "S": rate_source(verified), "C": 3,
                 "status": status_for(clash), "merged_into": "", "note": "", "rated_by": "first pass"})
     overrides = load_overrides()
