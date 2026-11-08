@@ -108,7 +108,9 @@ weak line in a reflection they already hold).
 NUMBERS.md only. (a) "Only 12 of 185 days" came from an earlier ladder model: the register says 37 of 214 closes
 (section 8b). (b) "$302,863 on 22 Oct" and "crossed $300,000 for the first time" came from an older calculation: on
 the register's engine the ten cost $298,861 on 22 Oct and first went back over $300,000 on 2 Nov ($300,233), $301,544
-at the freeze; the 10-year yield on 22 Oct was 0.31 points below 6 Oct, as the card says. (c) "Cheapest since May
-2002" and "one month in four since 1871" are not yet in the register; re-derive them on this engine before use.
+at the freeze; the 10-year yield on 22 Oct was 0.31 points below 6 Oct, as the card says. (c) Both re-derived on
+the register's engine (NUMBERS.md 8e): 5 Oct 2026 was the cheapest since 21 May 2002 (28 Sep: since 7 Jun 2002); about
+one month in four since 1871 holds (25.2%), but nearly all of it is 1966-1999; "no day since 2008" was one day wrong
+(19 Oct 2023 was under $300,000); 10.9% of days since 2000.
 (d) The 7 Oct mis-click is told as Caplet's own tab tells it ("a mis-click incident led to the rule that only Ray
 places or cancels orders").

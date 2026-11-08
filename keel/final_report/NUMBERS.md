@@ -304,5 +304,36 @@ Taiwan's building costs and to the exchange rate, which is one more reason the k
 (10-year breakeven 2.23%) leave the ladder's yield about 2.6 points above expected inflation (Keel arithmetic, 10-year
 point). CANON check: the TNA's "nonexistent inflation risk" is about funding the payments, which holds.
 
+### 8e. What the ten would have cost on every curve since 1962, and every month since 1871 (`numbers/price_history.py`, `numbers/results_price_history.json`)
+Basis: each past curve is treated as if it were the 6 Nov 2026 curve, so the payments are always the same distance
+ahead (the 1 Jan 2027 value of $50,000 on 1 Jan 2033-2042). It asks one question: would $300,000 have bought all ten on
+that day's rates? Data: FRED constant-maturity Treasury yields (Treasury's own par curve) 1962-2025, treasury.gov par
+curves for 2026, Shiller's long government bond yield for 1871-1961 (one rate, so a flat curve; on 1962-2026, where both
+exist, the flat curve gives 53.3% of months under $300,000 against 54.4% on the full curve, so the bias is small). For
+2026 this basis runs on average $1,944 above section 8b's dated values (at most $4,579, nothing on 6 Nov) and gives the
+same 37 closes under $300,000, from the same first day, 10 Sep.
+
+| Measure | Figure |
+|---|---|
+| Days since 2000 on which $300,000 bought all ten | 731 of 6,716 (10.9%) |
+| Days since 1990 / since 1962 | 34.1% / 54.5% |
+| Days from June 2007 to August 2026 | one: Thu 19 Oct 2023 ($299,293; 10-year 4.98%, 20-year 5.30% at the close) |
+| Last run of days before 2026 | June 2007 (cheapest that year $291,692 on 12 Jun) |
+| Dearest since 2000 | $470,217 on Tue 4 Aug 2020 (10-year at 0.52%), more than both of Laura's deposits together |
+| Cheapest since 2000 | $250,757 on Thu 20 Jan 2000 |
+| Mon 28 Sep 2026 (trading opened) | $290,698, cheapest since 7 Jun 2002 |
+| Mon 5 Oct 2026 (the year's cheapest) | $288,333, cheapest since 21 May 2002 |
+| Wed 7 Oct 2026 (orders filling) | $288,889 |
+| Months since 1871 on which $300,000 bought all ten (flat curve at the long rate) | 25.2%, about one in four |
+| The same by era | 1871-1913: 9.7%; 1914-1945: 1.8%; 1946-1965: 0%; 1966-1999: 94.9%; 2000-2026: 8.7% |
+| Flat yield at which $300,000 buys all ten | 5.02% |
+| Share by decade, daily full curve | 1960s 35%; 1970s and 1980s 100%; 1990s 96%; 2000s 28%; 2010s 0%; 2020s 2% |
+
+What it shows: "one month in four since 1871" is true, but it is almost all one era. In the 156 years, $300,000 bought
+the ten in nearly every month from 1966 to 1999 (the great inflation and its slow unwinding) and in about one month in
+ten otherwise. Before this September it had happened on a single day since June 2007. The two event claims check out on
+this engine with dates attached: 5 Oct 2026 was the cheapest the payments had been since May 2002 (28 Sep: since June
+2002). The older line "on no day since 2008" was one day wrong (19 Oct 2023).
+
 ## 9. Still to add (later days)
 - Nothing open from Mon 9 Nov. Later days add what the research rounds and the skeleton ask for.
