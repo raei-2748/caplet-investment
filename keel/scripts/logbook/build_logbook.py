@@ -18,6 +18,7 @@ for f in sorted(glob.glob(R+'episodes/2026-*.md')):
     title=re.search(r'^# FICTION\. Episode (\d+): (.+)$',t,re.M)
     head=re.search(r'^\*\*(.+?)\*\*\s*$',t,re.M).group(1)
     sm=re.search(r'> \*\*Summary\.\*\*(.+?)\n> \*\*Arcs',t,re.S)
+    if not (title and sm): continue  # two early drafts (2026-10-22_ep01, 2026-10-23_ep02) predate the summary block and were superseded by the backfill
     summ=' '.join(l.lstrip('> ').strip() for l in sm.group(1).split('\n'))
     tags=re.search(r'> \*\*Arcs:\*\*(.+)',t).group(1)
     parts=[p.strip() for p in head.split('·')]
