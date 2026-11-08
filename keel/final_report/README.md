@@ -84,7 +84,7 @@ the team learned (Articulation: from `research/EXPERIENCE_RECORD.md`, told vivid
 its work (Creativity and Presentation: Cleveland and McGill, icon arrays, the SEC Plain English Handbook, McCloud).
 
 Pairs by day: Tue 10 Q1 (deepened) + Q12; Wed 11 Q4+Q11; Thu 12 Q2+Q8; Fri 13 Q3+Q9; Sat 14 Q5+Q10; Sun 15
-Q6+Q7 + digest; Mon 16 Q13+Q14 + exhibits. Q1's first pass ran on Sun 8 Nov.
+Q6+Q7 + digest; Mon 16 Q13+Q14 + exhibits. Q1's first pass ran on Sun 8 Nov; Q10's inputs and the first passes of Q9, Q11 (in two parts) and Q12 ran on Mon 9 Nov (`research/cards/`), so their days deepen them.
 
 Every idea is judged on five questions before it can reach the report (what is it; did it work; how Laura's case is
 like it; how it is not; what we take), in `research/`.
