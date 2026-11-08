@@ -125,7 +125,7 @@ https://ideas.repec.org/a/spr/comgts/v17y2020i4d10.1007_s10287-019-00351-7.html
 https://www.pm-research.com/content/iijwealthmgmt/7/4/8
 https://rpc.cfainstitute.org/blogs/enterprising-investor/2012/whats-so-special-about-private-wealth-management
 https://climateimpact.edhec.edu/sites/risk/files/indices/2018/02/edhec_publication_comprehensive_investment_framework.pdf
-Case: "/Users/ray/Library/CloudStorage/GoogleDrive-jiwang27@knox.nsw.edu.au/My Drive/Knox Wharton 2026/Caplet Investments/Final Report/Client Case Study.pdf" pp.1–4
+Case: "the team's shared Drive folder Knox Wharton 2026/Caplet Investments/Final Report/Client Case Study.pdf" pp.1–4
 Fact-check log
 Central banks
 Bernanke review: fan charts have "weak conceptual foundations" and "should be eliminated"; publish alternative scenarios -> Confirmed (secondary: MNI quoting the review; BoE primary not reached).

@@ -55,7 +55,7 @@ NEEDS TEAM: the actual reasons given on the day, whether Darren was persuaded, a
 E4. Wharton tightened the rules mid-competition (6 Oct email per team records; Week 5 email, about 25 Oct).
 What happened:
 Per team records, a 6 Oct email restricted Laura's real plan to WInS-listed instruments. The local folder has no copy of a 6 Oct email, so this is [Unconfirmed].
-The Week 5 email (PDF created 25 Oct 2026 ET) then listed individual TIPS and STRIPS as not permitted.
+The public SMApply FAQ (live 20 Oct) and the Week 4 email (received by 22 Oct) then listed TIPS and STRIPS as not permitted; the Week 5 email (PDF created 25 Oct 2026 ET) repeated it.
 What changed: STRIPS-based numbers were dropped and the floor became IBTM.
 Now what: treat each rule update as a constraint and re-check every number against it.
 Criterion: Client Knowledge (respecting constraints) and Articulation.
@@ -74,7 +74,7 @@ The TIPS ban is overstated. Client §1 says TIPS are "not allowed in the IPS or 
 The Week 5 email bans individual TIPS and STRIPS and allows "Any Exchange-Traded Fund (ETF) available on WInS". TIPS ETFs listed on WInS (for example the iBonds TIPS funds) therefore appear to be allowed.
 The Week 6 email (PDF created 1 Nov 2026) says only that the permitted investments are "stocks, ETFs, and government or Treasury bonds available on WInS".
 This does not change the plan, since the payments are fixed in dollars, but the claim should be stated accurately. [Verified: both email PDFs]
-The date of the TIPS/STRIPS ban is inconsistent. Keel §1 dates it "20-22 Oct". The Week 5 email PDF was created 25 Oct 2026 at 21:34 ET, and Week 6 is the week of 2 Nov, which places the ban around 25-26 Oct. The "6 Oct" email covered only the WInS-listed restriction. Check the actual email receipt dates before quoting any date.
+The date of the TIPS/STRIPS ban: Keel §1's "20-22 Oct" is right (corrected 8 Nov). The public SMApply FAQ listed TIPS and STRIPS as not permitted by 20 Oct and the Week 4 email, received by 22 Oct, did too; the Week 5 email (PDF created 25 Oct 2026 at 21:34 ET) repeated it. The "6 Oct" email covered only the WInS-listed restriction. Check the actual email receipt dates before quoting any date.
 There are two versions of the "first plan". The Experience tab says the first plan already locked the ladder in 2027 and was changed for better bad-year outcomes than "the 2031 lock-in". Keel §1, §7 and Numbers §4 say the first plan was about three-quarters shares and missed payments in 3.2% of paths. A plan that locked the ladder in 2027 could not miss payments, so these may be two different plans. The team must reconcile this before E1 is written.
 "Submitted a day early" is unclear. Keel §1 says the Trading Notes Analysis went in on 23 Oct, "a day early".
 Guide p.5 gives 23 Oct as the due date with no time. If the usual 5:00 pm ET deadline applied, that is 24 Oct 08:00 Sydney time, so "a day early" is unclear either way.
