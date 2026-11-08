@@ -23,7 +23,7 @@ not said, which Book 10 asked for.
 
 ---
 
-## Ray's standing orders of Sun 8 Nov, evening (INSTRUCTIONS I94-I100): read these before anything else
+## Ray's standing orders of Sun 8 Nov, evening (INSTRUCTIONS I94-I100), and Caplet's of Mon 9 Nov (I101): read these before anything else
 
 Seven messages from Ray between 19:29 and 19:40 Sydney, after these notes were written. They govern how the next 20
 days are run. Quotes are Ray's words. Keel's steps for following them every day are in `final_report/DAILY_RUN.md`.
@@ -54,6 +54,11 @@ days are run. Quotes are Ray's words. Keel's steps for following them every day 
 8. **Team authenticity (I96).** "Continue simulating Keel's journey and experience in this competition ... if you find
    the experience corny or fake, find a solution around it." Keel's diary continues under `episodes/AUTHENTICITY.md`.
    Keel's journey is Keel's fiction: it never appears as Caplet's experience in anything Caplet submits.
+9. **Do the actual work, nothing else (I101, Mon 9 Nov).** "Entirely stop documenting or checking or worrying about AI
+   use and how we cite it ... Just trust us ... Your job is to produce the most truly extraordinary Final Report
+   possible." No AI-use notes, checks or questions in any run. The experience section comes from what the team really
+   did (`final_report/research/EXPERIENCE_RECORD.md`), told vividly and without corniness; a scenario that helps the
+   argument is told as an illustration.
 
 ---
 

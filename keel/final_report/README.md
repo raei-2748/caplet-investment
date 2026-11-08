@@ -25,9 +25,9 @@ of this thread early in the morning (06:00 on Fri 27); every run reads `../EXPEC
 | 5 | Thu 12 | Q2 and Q8: certainty |
 | 6 | Fri 13 | Q3 and Q9 |
 | 7 | Sat 14 | Q5 and Q10 |
-| 8 | Sun 15 | Q6, Q7; the first digest to Caplet, with the four After Action Review questions for each student's own moments (answers by Sun 22) |
+| 8 | Sun 15 | Q6, Q7; the first digest to Caplet, with the experience section's best real moments from `research/EXPERIENCE_RECORD.md` (Caplet may add any; nothing is chased) |
 | 9 | Mon 16 | Q13, Q14, the first round closed a day early, and the first exhibit designs |
-| 10 | Tue 17 | Caplet's answers filed, or one reminder; the second research round begins |
+| 10 | Tue 17 | Anything Caplet added to the experience record filed; the second research round begins |
 | 11 | Wed 18 | Second research round on the richest seams |
 | 12 | Thu 19 | Combining ideas |
 | 13 | Fri 20 | Attack day: readers who disagree |
@@ -56,8 +56,8 @@ week to the deadline, so Keel is still useful after handing over. Logged in `../
 **Then sharpened the same evening** from `research/meta/HOW_STRATEGISTS_PLAN.md` (Ray, I99-I100: read how the best
 strategists plan, and borrow solutions from whichever field already solved the problem): re-plan the day Wharton's
 instructions land (Eisenhower, Boyd, mission command); research claims to keep or kill rather than topics (investigative
-journalism, Tetlock); a canon file of everything already submitted, checked by every run (film continuity); Caplet's
-own moments asked a week earlier with the Army's After Action Review questions; the structure and the lead decided on
+journalism, Tetlock); a canon file of everything already submitted, checked by every run (film continuity); the experience
+section built from the team's real, dated record (`research/EXPERIENCE_RECORD.md`, 9 Nov), not from asking the students; the structure and the lead decided on
 Sat 21 and shown to Caplet on Sun 22, before the writing day (McPhee, Minto); the review loop rehearsed with planted
 faults (Pixar's Braintrust, red teaming); the writing day run in phases with a stop rule and spare hours (Collins,
 Duke); and a handover pack so Caplet's week to 5 Dec works as the "fresh mind" read (Bezos). Every run follows
@@ -75,7 +75,7 @@ II's 1-in-200, ALARP). 9. What makes a residency last (Black Mountain College, M
 nonprofit reserves). 10. Taiwan: building costs, the Taiwan dollar, earthquakes, public arts funders. 11. The
 fundraising text (assurance contracts, case for support, gift range charts, real campaign documents). 12. Laura's
 working life (advances, royalties, school and library market, speaking, licensing; the 2028 deposit's risk). 13. How
-the team learned (Articulation: pre-mortems, decision journals, Tetlock; real events only). 14. How the report shows
+the team learned (Articulation: from `research/EXPERIENCE_RECORD.md`, told vividly; scenarios told as illustrations). 14. How the report shows
 its work (Creativity and Presentation: Cleveland and McGill, icon arrays, the SEC Plain English Handbook, McCloud).
 
 Pairs by day: Tue 10 Q1 (deepened) + Q12; Wed 11 Q4+Q11; Thu 12 Q2+Q8; Fri 13 Q3+Q9; Sat 14 Q5+Q10; Sun 15
