@@ -1,12 +1,17 @@
 # Team Keel / Team Caplet: project memory
 
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
-decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-08 (expectation notes `keel/EXPECTATIONS.md` replace the Bible in the working set, books archived; Book 16 = Caplet's 7 Nov message with its IPS; Final Report plan: no prose until Fri 27 Nov, Books 13-15; Caplet wrote and submitted its own IPS on 6 Nov, which replaces every Keel version incl. V57 in `keel/ips_rewrite/drafts/FINAL/`; Ray: drafts read AI/corny and the team can't follow Keel; V55 = V54 in plain English, `caplet/STATUS_2026-11-03.md`; all branches merged into main 2 Nov; V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
+decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-08 (evening: Ray's standing orders I94-I100 at the top of `keel/EXPECTATIONS.md`, Wharton north star `keel/final_report/WHARTON_NORTH_STAR.md`, tools `keel/final_report/TOOLS.md`, FR schedule rebuilt in `keel/final_report/README.md`; expectation notes `keel/EXPECTATIONS.md` replace the Bible in the working set, books archived; Book 16 = Caplet's 7 Nov message with its IPS; Final Report plan: no prose until Fri 27 Nov, Books 13-15; Caplet wrote and submitted its own IPS on 6 Nov, which replaces every Keel version incl. V57 in `keel/ips_rewrite/drafts/FINAL/`; Ray: drafts read AI/corny and the team can't follow Keel; V55 = V54 in plain English, `caplet/STATUS_2026-11-03.md`; all branches merged into main 2 Nov; V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
 
 ## For every Claude session in this repo (all teammates)
 - **Caplet's expectations live in `keel/EXPECTATIONS.md` (8 Nov, Book 14).** Notes on all sixteen Bible books, checked
   twice against them; read them first. The books themselves are archived verbatim in `archive/bible_2026-11-08/BIBLE.md`
   (`keel/BIBLE.md` is a pointer); a new book is appended there, registered in `keel/INSTRUCTIONS.md` and carried into the notes the same day.
+- **Ray's standing orders (8 Nov evening, INSTRUCTIONS I94-I100), read first:** Wharton's criteria and weekly-email tips are
+  the north star (`keel/final_report/WHARTON_NORTH_STAR.md`, seven-question daily test); Keel leads on its own for 20 days;
+  read widely; extreme coherence with everything submitted (frozen); use or find a skill at every bottleneck
+  (`keel/final_report/TOOLS.md`); meta thinking (`keel/final_report/research/meta/`); prior art first, from any field,
+  after classifying the problem; Keel's diary continues under `keel/episodes/AUTHENTICITY.md`, never as Caplet's experience.
 - **Final Report (Caplet, 8 Nov, BIBLE Books 13-16, INSTRUCTIONS I89-I92): no Final Report prose until Fri 27 Nov.** Until
   then: deep research, analysis and thinking on every part of the case (not only investing), a little voice study, and
   one ranked store of every insight (`keel/final_report/research/INSIGHT_STORE.md`; nothing lost). Fri 27 Nov: one
