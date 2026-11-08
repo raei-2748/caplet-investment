@@ -37,7 +37,7 @@ checked word for word against `FINAL_IPS_as_submitted.txt` on 8 Nov.
 
 ## C. Open analysis found while gathering the old research (to settle before Thu 26 Nov)
 
-1. **Reinvestment under Caplet's design: the largest open question.** A ladder of coupon bonds costing about
+1. **Reinvestment under Caplet's design: the largest open question.** *Settled Mon 9 Nov (`NUMBERS.md` section 2): the ladder as written falls short in 56% of historical rate stretches; Keel's call sizes the 2028 completion so all ten are paid even 3 points below today's forward rates (margin $21,149); the matched ladder halves the risk but buys only eight in January, against the IPS. Logged in `../pm/ASK_HUMANS.md`.* A ladder of coupon bonds costing about
    $300,000 delivers $50,000 a year only if its coupons are reinvested: a T-bond bought for about $30,000 reaches
    $50,000 in 2038 only with ten years of coupons reinvested on the way. So the payments depend on future Treasury
    rates as well as on default, and Caplet's FINAL has no rule for a shortfall (TNA note 1 names the risk). Wharton
@@ -54,25 +54,25 @@ checked word for word against `FINAL_IPS_as_submitted.txt` on 8 Nov.
    reserve is set aside in 2033 before the facility contribution, and Caplet's choice to fill the ladder with the 2028
    deposit's first dollars shows the same priority. (d) Lineage: Fisher and Weil, Redington, Leibowitz's dedicated
    portfolios, municipal escrows "sufficient without reinvestment", Damodaran's two conditions for a riskless asset.
-2. **"Pay what they say" against "net asset value, not par".** The FINAL says the Treasuries "pay what they say" and
+2. **"Pay what they say" against "net asset value, not par".** *Settled Mon 9 Nov (`NUMBERS.md` section 3): each fund's payout can move by up to about 2% (its final months in cash); the floor's by up to 4.1%; the stated bottom is the modelled payout less 4.1%, rounded down to $5,000.* The FINAL says the Treasuries "pay what they say" and
    the bottom is promised "without doubt"; TNA note 2 says the iBond payout is a net asset value. The report must state
    the bottom in a way that is true for an iBond ETF (for example, rounded down from its expected payout) and say why
    the gap is small.
-3. **The ladder's cost now.** On the 6 Nov close the ten payments cost $301,544 on 1 Jan 2027 (MODEL), so the 2028
+3. **The ladder's cost now.** *Settled Mon 9 Nov (`NUMBERS.md` section 1): $301,544 curve, $302,287 with the funds' fees.* On the 6 Nov close the ten payments cost $301,544 on 1 Jan 2027 (MODEL), so the 2028
    deposit's first dollars finish the ladder, exactly as the FINAL says. Old research that says "under $300,000" or
    "the 2028 deposit never funds payments" is out of date.
 4. **The 7.5% figure** (A10): settled. J.P. Morgan, 2027 Long-Term Capital Market Assumptions, press release 19 Oct
    2026: "Global equities are projected to return 7.5% (USD), increasing from 7.0%." The matrix itself (compound or
    arithmetic) sits behind a login, so the report says "J.P. Morgan's estimate for global shares" and never "compound".
-5. **The 2031 move:** into which Treasury, when, and what the 2031 range then is. After the move both ends are owned;
+5. **The 2031 move:** *Settled Mon 9 Nov (`NUMBERS.md` section 4): after the move both ends are Treasuries maturing late 2032, so the stated range holds barring a default; the uncertainty is which range she can announce (top about $111,000 to $170,000 from today, 1 in 20 each side).* into which Treasury, when, and what the 2031 range then is. After the move both ends are owned;
    is the communicated range then floor to floor-plus-promised-half, with near-certain confidence, and what is the
    honest residual risk?
-6. **A missed or smaller 2028 deposit** (one of the two reasons to change): what exactly changes, in order.
+6. **A missed or smaller 2028 deposit** *Settled Mon 9 Nov (`NUMBERS.md` section 5): the payments are safe unless the deposit falls by more than about 98% (77% after a 1-point fall in yields first); a missed deposit leaves the 2033 payment about $3,000 short (longest rungs bought first) and no gift.* (one of the two reasons to change): what exactly changes, in order.
 7. **Caplet's own use of the half kept back.** The FINAL keeps half the shares for overruns, a stronger Taiwan dollar
    and a co-sponsor falling short. Keel's old research argued against earmarking that half for the building, so the
    store has almost nothing in support of Caplet's choice. Q5 must research it fairly (contingency practice in capital
    projects, P50/P90 budgets, reference classes) and the report follows the FINAL.
-8. **Benchmarks for the facility contribution.** An all-Treasury plan leaves about $191,000 for the facility on the 4
+8. **Benchmarks for the facility contribution.** *Settled Mon 9 Nov (`NUMBERS.md` section 4): all-Treasury $158,157 certain with Keel's margin; the FINAL's top is below it in 98% of paths because half of VT is kept back; counting the kept half, the FINAL leaves more in 63%.* An all-Treasury plan leaves about $191,000 for the facility on the 4
    Nov curve (MODEL, `ips_rewrite/final_night/IDEA_LIST_MATHS.md`); the report should show what VT adds over that and
    what it risks, re-run on the 6 Nov curve.
 9. **Wording traps in the locked texts.** TNA reflection 1 says "duration-matching" (a ladder matched payment by
