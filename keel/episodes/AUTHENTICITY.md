@@ -120,7 +120,15 @@ a message from Caplet, a finding, a mistake caught); only the people are invente
   paragraph saying the office log had no rows on Friday or Saturday, placed after Caplet's message (true, but the
   loop had been paused since 5 Nov, so the placement implied a false cause); a dinner line built to land ("I said
   they handed it in"); a three-line setup and punchline between Kai and Jun; a "That is X." sentence; and the code
-  "V62", now "version 62".
+  "V62", now "version 62". (Its commit message and RUNLOG row said "cut after a fresh reader's test"; this paragraph
+  is the accurate account.) **Re-test, Sun 8 Nov, first scheduled run (Ep 42):** a fresh reader failed Ep 41 on
+  questions 2 (Friday ended on a line that set up Saturday's message) and 11 (a line put a Caplet student in a scene);
+  both were cut and four smaller lines flattened. A second fresh read failed it again on questions 2 (the new last line
+  of Friday did the same job) and 6 (book numbers a reader can't follow); those were cut, and one of the two lines
+  quoted from Caplet's 11:06 message (praise, quoted the morning after the IPS was set aside) was dropped under
+  question 9. A third read found three small hits (two entry endings that landed a beat, "the curve" unexplained);
+  all three were flattened, not read a fourth time. Ep 42 failed its first read on questions 2 and 6 and passed the
+  second with one small hit, then cut.
 
 ## 3. Sources, and what each teaches (all accessed Sun 8 Nov 2026)
 
