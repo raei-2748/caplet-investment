@@ -1,9 +1,10 @@
 # FICTION. Team Keel: the cast in one screen
 
-> **Read `BIBLE.md` first: ten books (23-30 Oct 2026; Book 10 and the Ten Commandments, 30 Oct), under Wharton's word (`keel/WHARTON_WORD.md`), which ranks first.** They beat every rule on this page.
-> Extraordinary above all; a distinctive, deeply human voice (Ahaan's, never AI's); one subtle motif, Caplet XR (extended
-> release; X = 10; R never "release"); breathtaking investing knowledge, applied, not name-dropped; no hedging; and the
-> IPS rewrite is slow, deep thinking, never rushed. No work is finished until the portal shows it.
+> **From Ep 41 (Sun 8 Nov 2026) the diary follows `episodes/AUTHENTICITY.md` (Ray, INSTRUCTIONS I96: "if you find the
+> experience corny or fake, find a solution around it").** Every event is real and sourced; only the people are invented.
+> It overrides this page's "Says", "Never says" and "Arc" rows and all of `ARCS.md`: no catchphrases, arcs, payoffs or
+> epiphanies. Use this page for names, desks and homes only. Caplet's expectations: `EXPECTATIONS.md` (the Bible is
+> archived; the Caplet XR motif is retired).
 
 > Load this instead of the six member files unless a member is central to the day (`TOKEN_RULES.md`). Full
 > profiles: `members/<name>.md`. How they write: `VOICE.md` (Ahaan's writing is the shared base). Setting: `WORLD.md`. Values: `CULTURE.md`. Arcs: `ARCS.md`. World, rivals, motifs
