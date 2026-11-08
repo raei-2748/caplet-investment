@@ -63,7 +63,9 @@ def rate_source(v):
     if "CONFLICT" in u or "FALSE" in u or u.startswith("NO SOURCE"):
         return 1
     if re.search(r"(?<!UN)VERIFIED", u):
-        return 3 if "PARTLY" in u or "PARTIAL" in u else 5
+        # a cell that checks some claims and leaves others unchecked is partly checked, not verified
+        mixed = re.search(r"UNVERIFIED|UNCHECKED|NOT CHECKED|NOT VERIFIED|UNCONFIRMED|PARTLY|PARTIAL", u)
+        return 3 if mixed else 5
     if "MODEL" in u:
         return 3
     return 2
@@ -171,6 +173,10 @@ def main():
     live = [i for i in ideas if i["status"] not in ("merged",)]
     tags_present = [t for t in TAG_ORDER if any(t in i["tags"] for i in live)]
     extra = sorted({t for i in live for t in i["tags"]} - set(TAG_ORDER))
+    # by_tag/ is generated: drop lists for tags no longer present, so no stale ranking survives a rebuild
+    for old in by_tag.glob("*.md"):
+        if old.stem not in tags_present + extra:
+            old.unlink()
     for tag in tags_present + extra:
         rows = sorted([i for i in live if tag in i["tags"]], key=lambda i: (-i["score"], i["id"]))
         lines = [f"# {TAG_NAMES.get(tag, tag)} ({tag}): {len(rows)} ideas, ranked", "",
