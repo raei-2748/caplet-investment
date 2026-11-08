@@ -23,6 +23,40 @@ not said, which Book 10 asked for.
 
 ---
 
+## Ray's standing orders of Sun 8 Nov, evening (INSTRUCTIONS I94-I100): read these before anything else
+
+Seven messages from Ray between 19:29 and 19:40 Sydney, after these notes were written. They govern how the next 20
+days are run. Quotes are Ray's words.
+
+1. **Wharton is the north star (I97).** "Criteria and Wharton's weekly email's competition tips is the north star.
+   Always work around criteria and competition tips." Every run reads `final_report/WHARTON_NORTH_STAR.md` after these
+   notes and puts every note, number and plan decision through its seven-question test. Where a Bible note and
+   Wharton's word pull apart, Wharton's word wins (section 0).
+2. **Lead on your own for 20 days (I95).** "Orchestrate and lead Keel members and agents for the next 20 days and work
+   autonomously without our supervision." Plan the scheduled days carefully; "think creatively and match our bold
+   style". Danger-zone limits are unchanged (no trading, no submitting, no edits to Caplet's own documents).
+3. **Read, read, read (I95, I99).** "Find interesting papers, essays and investment thesis, and jot down anything you
+   find interesting." Every find goes into the insight store, so nothing is lost.
+4. **Coherence with what is frozen (I95, guardrail 1).** "All submitted items, such as IPS trading notes portfolio and
+   trading note reflection, are all frozen. You must reach an extremely high of coherence with the materials that has
+   already been sent."
+5. **Use skills, or find one, at every bottleneck (I94, I95 guardrail 2).** "Use skills or find skills whever you meet a
+   bottleneck or you feel like you are falling short." The ranked list is `final_report/TOOLS.md`.
+6. **Meta thinking (I95 guardrail 3, I98, I99).** When stuck, step back and look for a cleverer route instead of pushing
+   harder on the same one: "maybe I can find a skill, or read a tech news article". Ask the higher questions: why
+   Wharton runs this competition and what it rewards most (I98); how the most successful people strategise (I99).
+   The running list of such angles is `final_report/research/meta/META_ANGLES.md`; what they mean for the plan is in
+   `final_report/research/meta/`.
+7. **Prior art first, from any field (I100).** "Whatever problem you are tackling, there will always be a similar
+   solution someone has attempted." First "break into the core and fundamental of the problem to classify it" (a
+   strategy problem, a writing problem, a computing problem, a persuasion problem), then read how people in that field
+   solved it, finance or not, before solving it from scratch.
+8. **Team authenticity (I96).** "Continue simulating Keel's journey and experience in this competition ... if you find
+   the experience corny or fake, find a solution around it." Keel's diary continues under `episodes/AUTHENTICITY.md`.
+   Keel's journey is Keel's fiction: it never appears as Caplet's experience in anything Caplet submits.
+
+---
+
 ## The whole of it, in one paragraph
 
 Caplet wants a Final Report that a judge reading thousands of entries could not mistake for anyone else's, and would
