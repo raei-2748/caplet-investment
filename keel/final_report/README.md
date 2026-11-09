@@ -20,7 +20,7 @@ of this thread early in the morning (06:00 on Fri 27); every run reads `../EXPEC
 |---|---|---|
 | 1 | Sun 8 Nov | Bible Books 13-16, expectation notes, insight store (1,317 ideas), skills search, this schedule, first meta research (why Wharton runs the competition, how great strategists plan, Q1 first pass) |
 | 2 | Mon 9 | The numbers engine set to Caplet's submitted design on the 6 Nov close, the hardest problems first (reinvestment; an iBond fund pays its net asset value, not par); the number register (`NUMBERS.md`) and the canon file (`CANON.md`: everything the submitted IPS, Trading Notes, reflections and portfolio commit Caplet to, with a column for each loose phrase a bond reader would catch and its exact meaning, `research/meta/META_ANGLES.md` angle 5). Also modelled on FINAL's design: the range Laura could announce in 2031 (angle 6), and a 2028 deposit that arrives smaller, not missed, in a recession that also lowers yields (`research/cards/Q1_career_as_shares.md`) |
-| 3 | Tue 10 | (Wharton's instructions were filed a day early, Mon 9 evening: `WHARTON_NORTH_STAR.md` section 0, `CASE_MAP.md` section E.) The operating reserve's numbers (NUMBERS section 9); a re-plan: **the intent page** (`INTENT.md`: the governing thought, five things a judge should be able to say, three ways the report could fail) and a triage of Q1-Q14; **the report's skeleton** (`SKELETON.md`) on Wharton's two sections and page budget (`CASE_MAP.md` E), first page first (the reader with about 76 reports, `research/meta/WHY_WHARTON.md`); Q1 deepened from the first pass of Sun 8, Q12 |
+| 3 | Tue 10 | (Done early, Mon 9 night: Wharton's instructions filed, `WHARTON_NORTH_STAR.md` section 0, `CASE_MAP.md` section E; the reserve's numbers, NUMBERS 8h; `INTENT.md`, `SKELETON.md`, the scorecard and the first panel.) Act on the panel; the scorecard's lowest cells; originally: **the intent page** (`INTENT.md`: the governing thought, five things a judge should be able to say, three ways the report could fail) and a triage of Q1-Q14; **the report's skeleton** (`SKELETON.md`) on Wharton's two sections and page budget (`CASE_MAP.md` E), first page first (the reader with about 76 reports, `research/meta/WHY_WHARTON.md`); Q1 deepened from the first pass of Sun 8, Q12 |
 | 4 | Wed 11 | Q4 and Q11: the co-sponsors and the fundraising text (the store's thinnest seams, moved forward) |
 | 5 | Thu 12 | Q2 and Q8: certainty |
 | 6 | Fri 13 | Q3 and Q9 |
@@ -60,6 +60,10 @@ operating reserve, the facility contribution and flexibility, the 2031 range and
 assumptions and what to monitor as 2031 and 2033 approach, and the Team Reflection last), 9-12 pages in all, about
 2,700-2,900 words of prose. The schedule stands; the research now answers those parts, ranked against that budget
 (`CASE_MAP.md` section E). The holdings table is built (`NUMBERS.md` 8g). Nothing about the deadline changed.
+
+**The loop (Ray, Mon 9 Nov night, I103).** Every run starts from `SCORECARD.md` and `LESSONS.md`, attacks the
+weakest parts first and re-scores what its evidence touched; three blind judges with different methods and models score
+the plan twice a week (`research/panel/`). Why and how: `BEST_IN_COMPETITION.md`.
 
 **Overdrive (Caplet, Mon 9 Nov, I102).** Every day to Thu 26 Nov also has an evening research run at 19:13 Sydney
 (four to six parallel research workers on the thinnest claims, every find carded, volume logged; `DAILY_RUN.md`, "How

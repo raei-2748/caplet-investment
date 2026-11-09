@@ -12,6 +12,19 @@ each reading primary sources in full (papers, theses, essays, filings, data), ne
 carded; the day's volume logged in the RUNLOG row (sources read, cards added, claims kept, killed or changed). Waste is
 re-reading what the store already holds, regenerating what exists, or research that feeds no section of the report.
 
+## The loop (Ray, Mon 9 Nov: "running automically self-reinforcing to produce the BEST final report")
+Every run makes the next one better (`BEST_IN_COMPETITION.md` section 3):
+- **Start** from `LESSONS.md` (how to work) and `SCORECARD.md` (where the report is weakest). The two or three lowest
+  cells, and any part where the judges disagree, are the run's first claims; breadth research waits for a cell that
+  needs it.
+- **End** by re-scoring every cell the run's evidence touched, with the reason and what would make it a 5; a score
+  rises only when evidence lands, never for wording. Add the run's method lessons to `LESSONS.md`. The RUNLOG row
+  carries the scorecard's lowest cell and mean.
+- **Twice a week** (Mon and Thu, and after any large change to `INTENT.md` or `SKELETON.md`), a panel of three judges
+  scores the plan blind: different personas, methods and models (EXPECTATIONS 4.3), each reading only Wharton's
+  instructions, the case, the frozen submissions and the plan, never the scorecard or Keel's notes. Their files go to
+  `research/panel/`; their disagreements become targets.
+
 ## Before work
 1. Read `../EXPECTATIONS.md` (Ray's standing orders first), `WHARTON_NORTH_STAR.md`, this page, the last five lines of
    `ARGUMENT_LOG.md`, and any message from Caplet since the last run. A student's word overrides everything below.

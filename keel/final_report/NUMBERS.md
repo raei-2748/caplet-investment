@@ -401,7 +401,46 @@ so these are the final holdings. Not a model.
   late-2032 floor stand-in inside IBTM, and VT), not her January 2027 purchase alone. Section 2's text explains this
   once; the evidence is in `CANON.md` and the 23 Oct snapshot's "Pays for" column.
 
+### 8h. The operating reserve from 1 Jan 2033 (`numbers/reserve.py`, `numbers/results_reserve.json`)
+The IPS: "From 2033 the Treasuries are the operating reserve." These are the ten rungs at Keel's call (design A, sized
+so that each pays $50,000 even if every reinvestment from 2027 earns 3 points below today's forward rates; cost
+$323,436 in 1 Jan 2027 money, of which the margin is $21,149, section 2). Value on a date = money already received,
+grown at the rate locked when it arrived, plus flows still to come, discounted on the 6 Nov curve's forwards: a forward
+market value if rates follow today's forwards, not a forecast. The facility money (the late-2032 floor and the moved
+half) is separate and is not in these figures.
+
+| 1 January | Reserve before the payment | Paid | Reserve after | Payments still owed | Their value at today's forwards | Share in bonds after |
+|---|---|---|---|---|---|---|
+| 2033 | $427,028 | $50,000 | $375,323 | $450,000 | $349,089 | 50% |
+| 2034 | $394,700 | $50,000 | $342,614 | $400,000 | $317,111 | 58% |
+| 2035 | $360,429 | $50,000 | $307,931 | $350,000 | $283,600 | 68% |
+| 2036 | $324,259 | $50,000 | $271,281 | $300,000 | $248,639 | 81% |
+| 2037 | $286,016 | $50,000 | $232,421 | $250,000 | $212,144 | 100% |
+| 2038 | $245,360 | $50,000 | $190,873 | $200,000 | $173,954 | 100% |
+| 2039 | $201,737 | $50,000 | $147,165 | $150,000 | $133,855 | 100% |
+| 2040 | $155,733 | $50,000 | $101,085 | $100,000 | $91,648 | 100% |
+| 2041 | $107,126 | $50,000 | $51,860 | $50,000 | $47,124 | 100% |
+| 2042 | $55,025 | $50,000 | $0 | $0 | $0 | |
+
+**Composition on 1 Jan 2033, before the first payment (same basis):** ten holdings worth $427,028: five iBond ETFs
+$237,798 (55.7%: IBTM $51,705, already paid out on 15 Dec 2032 and waiting for the 1 January payment; IBTO $49,528;
+IBTP $47,454; IBTQ $45,476; IBTR $43,635) and five T-bonds $189,230 (44.3%: Feb-2037 $42,022; May-2038 $39,821;
+Nov-2039 $37,683; Nov-2040 $35,960; Nov-2041 $33,744). How early each pays out before its payment: the iBond ETFs about
+half a month (15 December); the Feb-2037 bond 10.5 months; the May-2038 bond 7.6 months; the three November bonds 1.5
+months.
+
+**What it shows.**
+- **Size:** the reserve is the ten Treasuries, about $427,000 on 1 Jan 2033 if rates follow today's forwards, against
+  $500,000 of payments still owed (worth $399,089 at those forwards: $50,000 now plus $349,089). The difference, about
+  $28,000, is Keel's margin grown to 2033 ($27,939): it is what makes the payments safe in the world 3 points lower.
+- **It changes only by running down.** Nothing is bought or sold after January 2028: each year one holding pays out
+  just before its payment, so the reserve moves from half iBond ETFs to all T-bonds by 2037, and its value falls by
+  about one payment a year. No rebalancing (the IPS's two reasons to change are a missed deposit or a Treasury default).
+- **If rates follow today's forwards,** each rung pays $1,705 (2033) to $5,266 (2041) more than $50,000, $36,859 in all
+  over ten years: the margin handed back, Laura's to use. If every reinvestment earns 3 points less, each rung pays
+  exactly $50,000 (the design).
+
 ## 9. Still to add (later days)
-- **The operating reserve (case A1, Wharton's Section 3):** its size on 1 Jan 2033 on the 6 Nov curve's forwards, what
-  it holds rung by rung, and how it runs down 2033-2042 with no rebalancing (Day 3, Tue 10 Nov).
+- The operating reserve's paying-out mechanics (where each early payout waits; how an iBond ETF winds down) come
+  from research card Q16 when it lands; any figure it changes is changed in 8h first.
 - Later days add what the research rounds and the skeleton ask for.
