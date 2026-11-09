@@ -172,6 +172,10 @@ school website. (Personal details are deliberately not stored in this public rep
 
 ## 7. Our strategy ("Roots First")
 
+> **VOID as a description of the plan (Tue 10 Nov 2026; card Q17 I7).** This section predates Caplet's own submitted IPS
+> (7 Nov). Its floor "sized to return about $150k" and its shortfall order are not the plan. The plan is the submitted
+> IPS (`keel/final_report/FINAL_IPS_as_submitted.txt`); its numbers are in `keel/final_report/NUMBERS.md`. Never quote this section.
+
 Locked in principle in the IPS drafts; the team still words it. Plain version:
 
 1. **Jan 2027, $300k:** buy a Treasury ladder that pays the ten $50k payments (2033-42). This becomes the

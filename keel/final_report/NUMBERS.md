@@ -43,7 +43,8 @@ Rule for every later note and draft: a figure not on this page is not used. A fi
 | Fall before 1 Jan 2027 that would use the whole 2028 deposit | 3.89 points | Engine |
 
 So the FINAL's words hold as written. The ten cost "roughly $300,000", and the 2028 deposit's first dollars finish the
-ladder. At the 6 Nov close that is $2,287 in 1 Jan 2027 money, or about $2,400 by Jan 2028. **Build order (Keel's reading; the IPS is silent):** longest rungs first, because they move most with yields; so any part still unbought in January 2027 is the 2033 rung (IBTM), finished in January 2028.
+ladder. At the 6 Nov close that is $2,287 in 1 Jan 2027 money, or about $2,400 by Jan 2028. **Build order (Keel's reading; the IPS is silent):** longest rungs first, because they move most with yields; so any part still unbought in January 2027 is the 2033 rung (IBTM), finished in January 2028. Said once with the WInS
+note on IBTO ("one of the first payments we would top up", CANON D17): earliest rungs first, IBTM then IBTO.
 
 The rungs at today's forward rates (amount bought on 1 Jan 2027, and its cost):
 
@@ -405,21 +406,31 @@ so these are the final holdings. Not a model.
 | (WInS id) | T-Bond 4.250% 15-Nov-2040 | Treasury bond | $15,790.32 | 5.26% |
 | (WInS id) | T-Bond 3.125% 15-Nov-2041 | Treasury bond | $14,991.00 | 5.00% |
 | VT | Vanguard Total World Stock ETF | ETF (equity) | $26,524.61 | 8.84% |
-| N/A | Cash | Cash | $4,823.21 | 1.61% |
+| N/A | Cash | Cash | $3,513.79 | 1.17% |
+| N/A | Commissions and bond interest paid at purchase | Cost | $1,309.42 | 0.44% |
 | **Total** | | | **$300,000.00** | **100.00%** |
 
+- **Version 2 (Tue 10 Nov, panel 1's bond desk):** the cash row now equals the cash WInS shows ($3,513.79), and the
+  $1,309.42 that left the account at purchase has its own row: $200 of commissions (six ETF trades at $25, five bond
+  trades at $10) and $1,109.42 that WInS charged on the five bonds, which should be the interest accrued since each
+  bond's last coupon. It is not split by bond in the table: WInS used a 15 Aug coupon date on the May-2038 bond, so it
+  charged about $225 less than standard accrual would ($1,338 at a 6 Oct settlement; card Q17 row 32, MODEL), and no WInS
+  accrued-interest figure is quoted in the report (the 23 Oct snapshot, check 3). Accrued interest is not a loss: it comes
+  back with each bond's next coupon. Percentages by largest remainder. The
+  version 1 table (cash $4,823.21, 1.61%) is void.
 - **Keel's call (logged in `../pm/ASK_HUMANS.md`, Mon 9 Nov):** amounts at cost, because Wharton asks for the "amount
-  allocated" out of the original $300,000 and bars the ending value. Cash is $300,000 less the cost of the eleven
-  holdings: WInS showed $3,513.79 in cash; the other $1,309.42 went on commissions and the interest accrued on the five
-  bonds when they were bought. A table note says so in one line. Percentages are rounded so that they add to exactly
+  allocated" out of the original $300,000 and bars the ending value. Cash and the costs row together are $300,000 less the cost of the eleven
+  holdings ($295,176.79). Percentages are rounded so that they add to exactly
   100.00% (largest remainder: the May-2038 bond shows 6.20% rather than 6.21%).
-- **In groups:** Treasuries 89.55% ($268,652.18: iBond ETFs 61.28%, bonds 28.27%), VT 8.84%, cash 1.61%.
+- **In groups:** Treasuries 89.55% ($268,652.18: iBond ETFs 61.28%, bonds 28.27%), VT 8.84%, cash 1.17%, costs at purchase 0.44%.
 - **Identifiers.** The ETFs use their tickers. Wharton's own example row ("532281 T-Bond 4.500% 15-May-2038") is one of
   Caplet's bonds, so 532281 is probably its WInS identifier; the other four come from Caplet's final WInS export (asked
   of Ray, Mon 9 Nov). Until then the table names the bonds by coupon and date, which identifies them uniquely.
 - **The rival reading,** each holding's weight at the final market value times $300,000 (accrued interest left out),
-  moves no security by more than 0.25 points at 23 Oct prices (VT 8.59% instead of 8.84%) and cash by 0.46 (1.15% instead of 1.61%),
+  moves no security by more than 0.25 points at 23 Oct prices (VT 8.59% instead of 8.84%) and cash by 0.02 (1.15% instead of 1.17%; the rival reading has no costs row),
   and would need the final export; Caplet may switch to it.
+- **The book was built before the margin (card Q17 I5).** VT is 8.84% of the frozen book but 7.45% of the $450,000 in the
+  plan with Keel's margin (section 4: $33,515). Section 2 never says the frozen weights equal the plan with the margin.
 - **What the table must not be read as:** the WInS book is Laura's whole plan in miniature (the ladder rungs, the
   late-2032 floor stand-in inside IBTM, and VT), not her January 2027 purchase alone. Section 2's text explains this
   once; the evidence is in `CANON.md` and the 23 Oct snapshot's "Pays for" column.

@@ -102,7 +102,7 @@ Whoever is using Claude here, these rules apply, and the Keel Office (formerly t
   23 Oct $297,636). curl to treasury.gov is refused; the WebFetch tool reaches it (CSV export and XML feed).
   Priced with the instruments we hold (`keel/scripts/holdings_ladder.py`, 5 Nov bond quotes, 4 Nov iBonds yields):
   $303,269 (67.4%); $306,663 (68.1%) if money earns nothing between maturity and 1 Jan. The WInS positions hold
-  67-72% of each full $50k rung (the book is Laura's plan scaled to the $300k simulator).
+  about 66-70% of each full $50k rung (65.6-70.4% at the 23 Oct curve, card Q17; "67-72%" was high) (the book is Laura's plan scaled to the $300k simulator).
 - 1 Nov (Caplet, INSTRUCTIONS I71): "steal" the best human sentences: V48 (`keel/ips_rewrite/drafts/D28/`) rebuilds V47
   sentence by sentence on the shapes of 15 great writers (shape and turn borrowed, never their words; every sentence
   sourced in `SOURCE_LOG.md`). Blind voice read: V48 over V47, narrowly; V47 stays the panels' best until a panel reads V48.
