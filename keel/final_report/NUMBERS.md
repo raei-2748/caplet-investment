@@ -136,9 +136,9 @@ Central case: today's forward rates, VT at its median 7.5%. Move date modelled a
 | **Floor payout, late 2032 (bottom)** | **$115,929** | $93k / $116k / $140k | (fixed once bought in Jan 2028) |
 | **Bottom Laura states** (less 4.1%, down to $5k) | **$110,000** | | |
 | VT on 1 Jan 2031 | $41,561 | | |
-| The moved half, paid late 2032 | $22,806 | $14k / $23k / $38k | |
+| The moved half, paid late 2032 | $22,806 | $13k / $23k / $39k | $15k / $24k / $38k |
 | **Top of the range** (floor + moved half) | **$138,735** | $111k / $139k / $171k | $131k / $140k / $154k; lowest $119.9k (start Jul 1929) |
-| Half kept, promised to no one, on 1 Jan 2033 | $23,986 | $13k / $24k / $45k | |
+| Half kept, promised to no one, on 1 Jan 2033 | $23,986 | $12k / $24k / $47k | $15k / $26k / $46k |
 | Floor + moved half + kept half | $162,721 | $128k / $164k / $211k | $148k / $166k / $195k |
 
 **Without the margin**, for comparison:
@@ -200,6 +200,7 @@ Smallest 2028 deposit that still completes the ladder, by how far yields fall be
 | A 1-point fall adds about $30,600 | 25 Sep curve | $31,805 before 1 Jan 2027 (6 Nov) |
 | "Headroom" under $300,000 | Every curve before 5 Nov | Gone: the ten cost more than $300,000 |
 | Fixed $150,000 floor | Old option 4b | No fixed floor: the FINAL's floor is "most" of what is left, and the payout "is not fixed" |
+| $13k / $24k / $45k (kept half) and $14k / $23k / $38k (moved half), house model | Section 4 before the 9 Nov move to J.P. Morgan's 2027 volatility (17.88%) | $12k / $24k / $47k and $13k / $23k / $39k (section 4; history columns added) |
 | $302,137 (curve) and $303,269 (instruments) | 5 Nov, `keel/scripts/holdings_ladder.py` | 6 Nov: $301,544 curve; $302,287 instruments on the curve. Market quotes for 6 Nov were not taken, and the 5 Nov gap was +$1,132 |
 
 ## 7. Limits of these numbers
@@ -334,6 +335,32 @@ the ten in nearly every month from 1966 to 1999 (the great inflation and its slo
 ten otherwise. Before this September it had happened on a single day since June 2007. The two event claims check out on
 this engine with dates attached: 5 Oct 2026 was the cheapest the payments had been since May 2002 (28 Sep: since June
 2002). The older line "on no day since 2008" was one day wrong (19 Oct 2023).
+
+### 8f. How small the half kept gets in the years shares fall (`numbers/kept_half.py`, `numbers/results_kept_half.json`)
+Same engine, Keel's margin, house paths and history windows as section 4. The kept half is half of the VT bought in
+January 2028 (about $16,757 at cost) grown to 1 Jan 2033. "Shares fell" means VT ended 2031-2033 lower than it began,
+the two years from the co-sponsor meetings to the gift.
+
+| | House model (200,000 paths) | History (US stocks, every window since 1871) |
+|---|---|---|
+| Kept half, 1 Jan 2033: 1-in-100 / 1-in-20 / median / 1-in-20 high | $9,168 / $12,150 / $23,831 / $46,746 | $9,324 / $14,874 / $26,383 / $45,626 |
+| As a share of the top of the range (1-in-20 / median / 1-in-20 high) | 9% / 17% / 31% | 11% / 19% / 31% |
+| Paths in which shares fell over 2031-2033 | 28.4% | 20.7% |
+| Kept half, median, if shares fell over 2031-2033 | $17,663 | $18,162 |
+| Kept half, median, if shares rose over 2031-2033 | $26,756 | $28,303 |
+| Kept half, median, if shares fell more than 20% over 2031-2033 (7.3% / 5.2% of paths) | $14,839 | $16,271 |
+| Kept half, median, if VT ends below its 2028 cost (18.3% / 10.5% of paths) | $13,859 | $14,956 |
+| Kept half under $15,000 / under $10,000 | 12.9% / 1.7% of paths | 5.4% / 1.6% of windows |
+| Lowest window | | $6,494 (start September 1929) |
+| Named starts | | 1973: $15,542; March 2000: $14,931; October 2007: $17,424 |
+
+What it shows: the risk the morning research flagged is real and has a size. In the years shares fall, when the IPS
+expects co-sponsors to cut, the kept half is about a third smaller than when they rise (median about $18,000 against
+$27,000), and in a fall of more than a fifth it is about $15,000. It does not vanish: even from September 1929 it is
+about $6,500, and from every other bad start named above it is close to what was put in. The 2031 range itself does not
+move, because the floor and the moved half are Treasuries by then. The honest line is that the kept half is a cushion
+whose size moves with the markets, smallest in the years it is most likely to be needed; that is a cost of keeping
+flexibility in shares rather than in Treasuries (section 4, the all-Treasury benchmark).
 
 ## 9. Still to add (later days)
 - Nothing open from Mon 9 Nov. Later days add what the research rounds and the skeleton ask for.
