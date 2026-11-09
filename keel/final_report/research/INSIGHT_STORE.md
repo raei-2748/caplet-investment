@@ -12,34 +12,34 @@ Caplet, Book 14: "Keep a store of every single insight you have. They should be 
 
 ## Where it stands
 
-- **1771 ideas** in the store; 475 judged so far, the rest on the first pass.
-- Tiers: A 778, B 811, C 163; refused or merged 19.
-- 384 ideas need reframing before use (they clash in some detail with the FINAL IPS or the TNA).
-- Rows per source: `cards/NUM_extras_2026-11-09.md` 12; `cards/Q10_inflation_inputs.md` 25; `cards/Q11a_funders_seed_assurance.md` 35; `cards/Q11b_real_case_statements.md` 35; `cards/Q12_lauras_working_life.md` 35; `cards/Q1_career_as_shares.md` 50; `cards/Q1b_career_beta_horizon.md` 28; `cards/Q4b_cosponsors_in_downturns.md` 35; `cards/Q5_is_half_right.md` 34; `cards/Q6_how_far_to_trust_7_5.md` 33; `cards/Q7_precommitment_and_rules.md` 32; `cards/Q9_what_makes_a_residency_last.md` 35; `harvest/H10_why_wharton.md` 65; `harvest/H1_idea_bank_part1.md` 88; `harvest/H2_idea_bank_part2_and_ledger.md` 124; `harvest/H3_concepts_R02_R05_R06.md` 126; `harvest/H4_synergies_S1_S3_fusions.md` 190; `harvest/H5_synergies_S4_S6_R11.md` 153; `harvest/H6_shiller_damodaran.md` 171; `harvest/H7_final_night_reading.md` 118; `harvest/H8_lab_window_plans.md` 161; `harvest/H9_doc_research_tabs.md` 186.
+- **1892 ideas** in the store; 475 judged so far, the rest on the first pass.
+- Tiers: A 872, B 836, C 165; refused or merged 19.
+- 406 ideas need reframing before use (they clash in some detail with the FINAL IPS or the TNA).
+- Rows per source: `cards/NUM_extras_2026-11-09.md` 12; `cards/Q10_inflation_inputs.md` 25; `cards/Q11a_funders_seed_assurance.md` 35; `cards/Q11b_real_case_statements.md` 35; `cards/Q12_lauras_working_life.md` 35; `cards/Q15_monitoring_and_triggers.md` 41; `cards/Q16_operating_reserve_mechanics.md` 40; `cards/Q17_judging_the_implementation.md` 40; `cards/Q1_career_as_shares.md` 50; `cards/Q1b_career_beta_horizon.md` 28; `cards/Q4b_cosponsors_in_downturns.md` 35; `cards/Q5_is_half_right.md` 34; `cards/Q6_how_far_to_trust_7_5.md` 33; `cards/Q7_precommitment_and_rules.md` 32; `cards/Q9_what_makes_a_residency_last.md` 35; `harvest/H10_why_wharton.md` 65; `harvest/H1_idea_bank_part1.md` 88; `harvest/H2_idea_bank_part2_and_ledger.md` 124; `harvest/H3_concepts_R02_R05_R06.md` 126; `harvest/H4_synergies_S1_S3_fusions.md` 190; `harvest/H5_synergies_S4_S6_R11.md` 153; `harvest/H6_shiller_damodaran.md` 171; `harvest/H7_final_night_reading.md` 118; `harvest/H8_lab_window_plans.md` 161; `harvest/H9_doc_research_tabs.md` 186.
 
 ## The parts of the plan and the case
 
 | Tag | What it covers | Ideas | Ranked list |
 |---|---|---|---|
 | CAREER | Laura's career as an unsellable stock | 206 | [by_tag/CAREER.md](store/by_tag/CAREER.md) |
-| CERTAINTY | A high degree of certainty | 436 | [by_tag/CERTAINTY.md](store/by_tag/CERTAINTY.md) |
-| LADDER | The ten Treasuries | 318 | [by_tag/LADDER.md](store/by_tag/LADDER.md) |
-| COMPLETE2028 | The 2028 deposit completes the ladder | 127 | [by_tag/COMPLETE2028.md](store/by_tag/COMPLETE2028.md) |
-| FLOOR | The 2032 Treasury fund (bottom of the range) | 236 | [by_tag/FLOOR.md](store/by_tag/FLOOR.md) |
-| CEILING | VT (top of the range) | 313 | [by_tag/CEILING.md](store/by_tag/CEILING.md) |
-| HALFKEPT | Half the shares promised to no one | 192 | [by_tag/HALFKEPT.md](store/by_tag/HALFKEPT.md) |
-| MOVE2031 | The move into Treasuries before 2031 | 175 | [by_tag/MOVE2031.md](store/by_tag/MOVE2031.md) |
-| RESERVE2033 | The operating reserve from 2033 | 89 | [by_tag/RESERVE2033.md](store/by_tag/RESERVE2033.md) |
-| TWOREASONS | Only two reasons to change | 150 | [by_tag/TWOREASONS.md](store/by_tag/TWOREASONS.md) |
-| COSPONSOR | The 2031 range and the co-sponsors | 452 | [by_tag/COSPONSOR.md](store/by_tag/COSPONSOR.md) |
+| CERTAINTY | A high degree of certainty | 469 | [by_tag/CERTAINTY.md](store/by_tag/CERTAINTY.md) |
+| LADDER | The ten Treasuries | 367 | [by_tag/LADDER.md](store/by_tag/LADDER.md) |
+| COMPLETE2028 | The 2028 deposit completes the ladder | 133 | [by_tag/COMPLETE2028.md](store/by_tag/COMPLETE2028.md) |
+| FLOOR | The 2032 Treasury fund (bottom of the range) | 244 | [by_tag/FLOOR.md](store/by_tag/FLOOR.md) |
+| CEILING | VT (top of the range) | 320 | [by_tag/CEILING.md](store/by_tag/CEILING.md) |
+| HALFKEPT | Half the shares promised to no one | 194 | [by_tag/HALFKEPT.md](store/by_tag/HALFKEPT.md) |
+| MOVE2031 | The move into Treasuries before 2031 | 178 | [by_tag/MOVE2031.md](store/by_tag/MOVE2031.md) |
+| RESERVE2033 | The operating reserve from 2033 | 123 | [by_tag/RESERVE2033.md](store/by_tag/RESERVE2033.md) |
+| TWOREASONS | Only two reasons to change | 181 | [by_tag/TWOREASONS.md](store/by_tag/TWOREASONS.md) |
+| COSPONSOR | The 2031 range and the co-sponsors | 457 | [by_tag/COSPONSOR.md](store/by_tag/COSPONSOR.md) |
 | FUNDRAISING | The fundraising text | 19 | [by_tag/FUNDRAISING.md](store/by_tag/FUNDRAISING.md) |
 | RESIDENCY | The residency itself | 67 | [by_tag/RESIDENCY.md](store/by_tag/RESIDENCY.md) |
-| INFLATION_TWD | Inflation, Taiwan costs, the Taiwan dollar | 99 | [by_tag/INFLATION_TWD.md](store/by_tag/INFLATION_TWD.md) |
-| REINVEST | Reinvesting the ladder's interest | 140 | [by_tag/REINVEST.md](store/by_tag/REINVEST.md) |
+| INFLATION_TWD | Inflation, Taiwan costs, the Taiwan dollar | 100 | [by_tag/INFLATION_TWD.md](store/by_tag/INFLATION_TWD.md) |
+| REINVEST | Reinvesting the ladder's interest | 157 | [by_tag/REINVEST.md](store/by_tag/REINVEST.md) |
 | LAURA | Laura's working life and values | 73 | [by_tag/LAURA.md](store/by_tag/LAURA.md) |
-| PROCESS | How the team decided and learned | 236 | [by_tag/PROCESS.md](store/by_tag/PROCESS.md) |
+| PROCESS | How the team decided and learned | 272 | [by_tag/PROCESS.md](store/by_tag/PROCESS.md) |
 | PRESENTATION | How the report shows its work | 84 | [by_tag/PRESENTATION.md](store/by_tag/PRESENTATION.md) |
-| OTHER | Other | 142 | [by_tag/OTHER.md](store/by_tag/OTHER.md) |
+| OTHER | Other | 145 | [by_tag/OTHER.md](store/by_tag/OTHER.md) |
 | HISTORY | HISTORY | 1 | [by_tag/HISTORY.md](store/by_tag/HISTORY.md) |
 
 ## The top 40 across the store (current ratings)
@@ -92,8 +92,8 @@ Caplet, Book 14: "Keep a store of every single insight you have. They should be 
 - FUNDRAISING (The fundraising text): 18 rated B or better, 19 in all.
 - RESIDENCY (The residency itself): 66 rated B or better, 67 in all.
 - LAURA (Laura's working life and values): 72 rated B or better, 73 in all.
-- RESERVE2033 (The operating reserve from 2033): 82 rated B or better, 89 in all.
 - PRESENTATION (How the report shows its work): 83 rated B or better, 84 in all.
-- INFLATION_TWD (Inflation, Taiwan costs, the Taiwan dollar): 92 rated B or better, 99 in all.
-- REINVEST (Reinvesting the ladder's interest): 108 rated B or better, 140 in all.
-- COMPLETE2028 (The 2028 deposit completes the ladder): 117 rated B or better, 127 in all.
+- INFLATION_TWD (Inflation, Taiwan costs, the Taiwan dollar): 93 rated B or better, 100 in all.
+- RESERVE2033 (The operating reserve from 2033): 116 rated B or better, 123 in all.
+- OTHER (Other): 121 rated B or better, 145 in all.
+- COMPLETE2028 (The 2028 deposit completes the ladder): 123 rated B or better, 133 in all.

@@ -1,0 +1,357 @@
+{
+ "stamp": {
+  "curve": "11/06/2026",
+  "run": "Mon 9 Nov 2026 night",
+  "units": "design A sized for minus 3 (Keel's call)"
+ },
+ "base": [
+  {
+   "date": "2033-01-01",
+   "value_before_payment": 427027.5572906766,
+   "payment": 50000.0,
+   "this_rung_over_50k": 1704.740711049475,
+   "value_after_payment": 375322.8165796271,
+   "payments_still_owed": 450000.0,
+   "forward_value_of_payments_still_owed": 349089.02046706824,
+   "after_in_bonds": 189229.6819952945,
+   "after_in_ibond_etfs": 186093.1345843326,
+   "share_bonds_after": 0.5041784662061658
+  },
+  {
+   "date": "2034-01-01",
+   "value_before_payment": 394699.66086432314,
+   "payment": 50000.0,
+   "this_rung_over_50k": 2085.2116060510016,
+   "value_after_payment": 342614.4492582721,
+   "payments_still_owed": 400000.0,
+   "forward_value_of_payments_still_owed": 317111.4888390447,
+   "after_in_bonds": 198999.06962666824,
+   "after_in_ibond_etfs": 143615.3796316039,
+   "share_bonds_after": 0.5808250937970725
+  },
+  {
+   "date": "2035-01-01",
+   "value_before_payment": 360429.1470221235,
+   "payment": 50000.0,
+   "this_rung_over_50k": 2498.5701955353215,
+   "value_after_payment": 307930.5768265882,
+   "payments_still_owed": 350000.0,
+   "forward_value_of_payments_still_owed": 283600.1259742928,
+   "after_in_bonds": 209346.29312632373,
+   "after_in_ibond_etfs": 98584.2837002645,
+   "share_bonds_after": 0.6798489948083901
+  },
+  {
+   "date": "2036-01-01",
+   "value_before_payment": 324259.3862120501,
+   "payment": 50000.0,
+   "this_rung_over_50k": 2978.7895688159188,
+   "value_after_payment": 271280.5966432342,
+   "payments_still_owed": 300000.0,
+   "forward_value_of_payments_still_owed": 248638.75073981937,
+   "after_in_bonds": 220447.4177734478,
+   "after_in_ibond_etfs": 50833.178869786396,
+   "share_bonds_after": 0.8126177120708785
+  },
+  {
+   "date": "2037-01-01",
+   "value_before_payment": 286015.5311329972,
+   "payment": 50000.0,
+   "this_rung_over_50k": 3594.2446069638972,
+   "value_after_payment": 232421.2865260333,
+   "payments_still_owed": 250000.0,
+   "forward_value_of_payments_still_owed": 212143.86591982582,
+   "after_in_bonds": 232421.2865260333,
+   "after_in_ibond_etfs": 0,
+   "share_bonds_after": 1.0
+  },
+  {
+   "date": "2038-01-01",
+   "value_before_payment": 245359.8803080998,
+   "payment": 50000.0,
+   "this_rung_over_50k": 4486.6744101631775,
+   "value_after_payment": 190873.2058979366,
+   "payments_still_owed": 200000.0,
+   "forward_value_of_payments_still_owed": 173953.6418036124,
+   "after_in_bonds": 190873.2058979366,
+   "after_in_ibond_etfs": 0,
+   "share_bonds_after": 1.0
+  },
+  {
+   "date": "2039-01-01",
+   "value_before_payment": 201737.10994516377,
+   "payment": 50000.0,
+   "this_rung_over_50k": 4572.07941653327,
+   "value_after_payment": 147165.0305286305,
+   "payments_still_owed": 150000.0,
+   "forward_value_of_payments_still_owed": 133854.5373448687,
+   "after_in_bonds": 147165.0305286305,
+   "after_in_ibond_etfs": 0,
+   "share_bonds_after": 1.0
+  },
+  {
+   "date": "2040-01-01",
+   "value_before_payment": 155733.10286416358,
+   "payment": 50000.0,
+   "this_rung_over_50k": 4647.980211283066,
+   "value_after_payment": 101085.12265288051,
+   "payments_still_owed": 100000.0,
+   "forward_value_of_payments_still_owed": 91647.66152858589,
+   "after_in_bonds": 101085.12265288053,
+   "after_in_ibond_etfs": 0,
+   "share_bonds_after": 1.0000000000000002
+  },
+  {
+   "date": "2041-01-01",
+   "value_before_payment": 107125.66104504946,
+   "payment": 50000.0,
+   "this_rung_over_50k": 5265.505395721149,
+   "value_after_payment": 51860.15564932831,
+   "payments_still_owed": 50000.0,
+   "forward_value_of_payments_still_owed": 47124.24604950454,
+   "after_in_bonds": 51860.15564932831,
+   "after_in_ibond_etfs": 0,
+   "share_bonds_after": 1.0
+  },
+  {
+   "date": "2042-01-01",
+   "value_before_payment": 55024.918165108305,
+   "payment": 50000.0,
+   "this_rung_over_50k": 5024.918165108305,
+   "value_after_payment": 0.0,
+   "payments_still_owed": 0.0,
+   "forward_value_of_payments_still_owed": 0,
+   "after_in_bonds": 0,
+   "after_in_ibond_etfs": 0,
+   "share_bonds_after": null
+  }
+ ],
+ "minus3": [
+  {
+   "date": "2033-01-01",
+   "value_before_payment": 415395.13278623304,
+   "payment": 50000.0,
+   "this_rung_over_50k": 7.275957614183426e-12,
+   "value_after_payment": 365395.13278623304,
+   "payments_still_owed": 450000.0,
+   "forward_value_of_payments_still_owed": 349089.02046706824,
+   "after_in_bonds": 185338.54723516968,
+   "after_in_ibond_etfs": 180056.58555106336,
+   "share_bonds_after": 0.5072277395210905
+  },
+  {
+   "date": "2034-01-01",
+   "value_before_payment": 381487.2196251958,
+   "payment": 50000.0,
+   "this_rung_over_50k": 0.0,
+   "value_after_payment": 331487.2196251958,
+   "payments_still_owed": 400000.0,
+   "forward_value_of_payments_still_owed": 317111.4888390447,
+   "after_in_bonds": 193552.19444807037,
+   "after_in_ibond_etfs": 137935.0251771254,
+   "share_bonds_after": 0.5838903673780091
+  },
+  {
+   "date": "2035-01-01",
+   "value_before_payment": 345912.07802719454,
+   "payment": 50000.0,
+   "this_rung_over_50k": 7.275957614183426e-12,
+   "value_after_payment": 295912.07802719454,
+   "payments_still_owed": 350000.0,
+   "forward_value_of_payments_still_owed": 283600.1259742928,
+   "after_in_bonds": 202032.3147165936,
+   "after_in_ibond_etfs": 93879.76331060092,
+   "share_bonds_after": 0.682744401862592
+  },
+  {
+   "date": "2036-01-01",
+   "value_before_payment": 308852.08169375244,
+   "payment": 50000.0,
+   "this_rung_over_50k": 0.0,
+   "value_after_payment": 258852.08169375244,
+   "payments_still_owed": 300000.0,
+   "forward_value_of_payments_still_owed": 248638.75073981937,
+   "after_in_bonds": 210926.1169560898,
+   "after_in_ibond_etfs": 47925.96473766261,
+   "share_bonds_after": 0.81485192460471
+  },
+  {
+   "date": "2037-01-01",
+   "value_before_payment": 270314.6771839548,
+   "payment": 50000.0,
+   "this_rung_over_50k": 0.0,
+   "value_after_payment": 220314.6771839548,
+   "payments_still_owed": 250000.0,
+   "forward_value_of_payments_still_owed": 212143.86591982582,
+   "after_in_bonds": 220314.6771839548,
+   "after_in_ibond_etfs": 0,
+   "share_bonds_after": 1.0
+  },
+  {
+   "date": "2038-01-01",
+   "value_before_payment": 229415.8678111158,
+   "payment": 50000.0,
+   "this_rung_over_50k": 0.0,
+   "value_after_payment": 179415.8678111158,
+   "payments_still_owed": 200000.0,
+   "forward_value_of_payments_still_owed": 173953.6418036124,
+   "after_in_bonds": 179415.8678111158,
+   "after_in_ibond_etfs": 0,
+   "share_bonds_after": 1.0
+  },
+  {
+   "date": "2039-01-01",
+   "value_before_payment": 187057.77892891507,
+   "payment": 50000.0,
+   "this_rung_over_50k": 0.0,
+   "value_after_payment": 137057.77892891507,
+   "payments_still_owed": 150000.0,
+   "forward_value_of_payments_still_owed": 133854.5373448687,
+   "after_in_bonds": 137057.77892891507,
+   "after_in_ibond_etfs": 0,
+   "share_bonds_after": 1.0
+  },
+  {
+   "date": "2040-01-01",
+   "value_before_payment": 143358.56324358,
+   "payment": 50000.0,
+   "this_rung_over_50k": 0.0,
+   "value_after_payment": 93358.56324357999,
+   "payments_still_owed": 100000.0,
+   "forward_value_of_payments_still_owed": 91647.66152858589,
+   "after_in_bonds": 93358.56324357999,
+   "after_in_ibond_etfs": 0,
+   "share_bonds_after": 1.0
+  },
+  {
+   "date": "2041-01-01",
+   "value_before_payment": 97737.71046908504,
+   "payment": 50000.0,
+   "this_rung_over_50k": 0.0,
+   "value_after_payment": 47737.71046908504,
+   "payments_still_owed": 50000.0,
+   "forward_value_of_payments_still_owed": 47124.24604950454,
+   "after_in_bonds": 47737.71046908504,
+   "after_in_ibond_etfs": 0,
+   "share_bonds_after": 1.0
+  },
+  {
+   "date": "2042-01-01",
+   "value_before_payment": 49999.99999999999,
+   "payment": 49999.99999999999,
+   "this_rung_over_50k": -7.275957614183426e-12,
+   "value_after_payment": 0.0,
+   "payments_still_owed": 0.0,
+   "forward_value_of_payments_still_owed": 0,
+   "after_in_bonds": 0,
+   "after_in_ibond_etfs": 0,
+   "share_bonds_after": null
+  }
+ ],
+ "composition_1jan2033_base": [
+  {
+   "payment": 2033,
+   "holding": "IBTM",
+   "type": "iBond ETF",
+   "pays_out": "2032-12-15",
+   "months_before_payment": 0.6,
+   "value_1jan2033": 51704.740711049475,
+   "units_jan2027": 39200.06915157589,
+   "cost_jan2027": 39200.06915157589
+  },
+  {
+   "payment": 2034,
+   "holding": "IBTO",
+   "type": "iBond ETF",
+   "pays_out": "2033-12-15",
+   "months_before_payment": 0.6,
+   "value_1jan2033": 49528.211600994444,
+   "units_jan2027": 37569.519917739286,
+   "cost_jan2027": 37569.519917739286
+  },
+  {
+   "payment": 2035,
+   "holding": "IBTP",
+   "type": "iBond ETF",
+   "pays_out": "2034-12-15",
+   "months_before_payment": 0.6,
+   "value_1jan2033": 47453.85072242119,
+   "units_jan2027": 36013.82587253455,
+   "cost_jan2027": 36013.82587253455
+  },
+  {
+   "payment": 2036,
+   "holding": "IBTQ",
+   "type": "iBond ETF",
+   "pays_out": "2035-12-15",
+   "months_before_payment": 0.6,
+   "value_1jan2033": 45476.420653316265,
+   "units_jan2027": 34529.2699381879,
+   "cost_jan2027": 34529.2699381879
+  },
+  {
+   "payment": 2037,
+   "holding": "IBTR",
+   "type": "iBond ETF",
+   "pays_out": "2036-12-15",
+   "months_before_payment": 0.6,
+   "value_1jan2033": 43634.65160760072,
+   "units_jan2027": 33144.75341524525,
+   "cost_jan2027": 33144.75341524525
+  },
+  {
+   "payment": 2038,
+   "holding": "4.750% T-bond 15 Feb 2037",
+   "type": "Treasury bond",
+   "pays_out": "2037-02-15",
+   "months_before_payment": 10.5,
+   "value_1jan2033": 42021.931452971774,
+   "units_jan2027": 31526.523858069555,
+   "cost_jan2027": 31750.929124985872
+  },
+  {
+   "payment": 2039,
+   "holding": "4.500% T-bond 15 May 2038",
+   "type": "Treasury bond",
+   "pays_out": "2038-05-15",
+   "months_before_payment": 7.6,
+   "value_1jan2033": 39821.29542506335,
+   "units_jan2027": 31087.444360160025,
+   "cost_jan2027": 30088.172651495188
+  },
+  {
+   "payment": 2040,
+   "holding": "4.375% T-bond 15 Nov 2039",
+   "type": "Treasury bond",
+   "pays_out": "2039-11-15",
+   "months_before_payment": 1.5,
+   "value_1jan2033": 37682.75829787144,
+   "units_jan2027": 30095.86254552669,
+   "cost_jan2027": 28472.336862685446
+  },
+  {
+   "payment": 2041,
+   "holding": "4.250% T-bond 15 Nov 2040",
+   "type": "Treasury bond",
+   "pays_out": "2040-11-15",
+   "months_before_payment": 1.5,
+   "value_1jan2033": 35959.73173088406,
+   "units_jan2027": 29345.704990128816,
+   "cost_jan2027": 27170.452524738972
+  },
+  {
+   "payment": 2042,
+   "holding": "3.125% T-bond 15 Nov 2041",
+   "type": "Treasury bond",
+   "pays_out": "2041-11-15",
+   "months_before_payment": 1.5,
+   "value_1jan2033": 33743.96508850387,
+   "units_jan2027": 31937.2716965601,
+   "cost_jan2027": 25496.263662229045
+  }
+ ],
+ "ladder_cost_jan2027_with_margin": 323435.5931214174,
+ "ladder_cost_jan2027_no_margin": 302286.7615805898,
+ "margin_jan2027": 21148.83154082758,
+ "margin_value_1jan2033_if_rates_follow_forwards": 27938.536823608298
+}
