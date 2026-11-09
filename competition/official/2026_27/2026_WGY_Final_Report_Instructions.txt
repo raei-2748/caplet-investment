@@ -1,0 +1,158 @@
+Investment Competition Guide      1
+The Final Report is the culmination of your team’s work in the competition. It should evaluate how effectively 
+your team implemented its investment strategy, applied it to Laura’s financial goals, and developed its final 
+recommendations. The report should draw on your prior deliverables, final WInS portfolio, and analysis without 
+repeating the content of your Investment Policy Statement (IPS) or Trading Notes Analysis.
+There is no single correct strategy or recommendation. Teams may reach different conclusions about portfolio 
+construction, risk, funding certainty, the operating reserve, the facility contribution, and financial flexibility. 
+Your report will be evaluated based on the quality of your analysis, evidence, assumptions, judgment, and 
+communication.
+How the Deliverables Fit T ogether
+Each deliverable serves a distinct purpose, but evaluators will consider all three together.
+The strategy established in your IPS should remain consistent in the Final Report. The Final Report is not an 
+opportunity to create a new strategy or revise the IPS. Evaluators will assess whether your Trading Notes 
+Analysis, final WInS portfolio, assumptions, analysis, and recommendations align with your strategy and  
+Laura’s financial goals.
+Minimum Requirements
+Your Final Report must:
+ • Include all required sections.
+ • Meet the minimum and maximum page requirements.
+ • Actual holdings.
+ • Use only permitted investments.
+ • Address Laura’s financial goals and circumstances.
+ • Demonstrate consistency with the strategy established in the IPS.
+ • Follow all formatting, citation, and submission requirements.
+Reports that do not meet these minimum requirements may be removed from semifinal consideration.
+Meeting the minimum requirements makes a report eligible for evaluation. It does not guarantee a strong 
+evaluation.
+FINAL REPORT REQUIREMENTS
+Deliverable Purpose
+Trading Notes Analysis Demonstrate how selected investment decisions reflected your team’s  
+strategy during the trading period.
+Investment Policy Statement Establish your team’s investment strategy and decision-making framework.
+Final Report Evaluate how effectively your team implemented its strategy and present 
+recommendations for Laura.
+Investment Competition Guide      2
+Permitted Investments
+For all long-term portfolio modeling, teams may use only the following investment types:
+ • Stocks available on WInS
+ • Exchange-traded funds available on WInS
+ • Government or Treasury bonds available on WInS
+The following are not permitted:
+ • Margin trading
+ • Short selling
+ • Stock-secured debt
+ • Cryptocurrency
+ • Derivatives, including options, futures, and swaps
+ • Individual TIPS
+ • Individual STRIPS
+ • Any investment other than the permitted investments listed above
+Required Format and Submission
+ • Submit the report through SurveyMonkey Apply by the stated deadline.
+ • Submit the report as a PDF file no larger than 5 MB.
+ • Use 12-point Times New Roman font.
+ • Double-space the report.
+ • Use 1-inch margins.
+ • Include page numbers in the bottom-left corner.
+ • Cite all sources, images, media, and generative AI use in APA format.
+ • Include a separate References page.
+ • Do not include external links that evaluators are expected to open.
+Tables and graphics may be single-spaced when needed for readability. Graphics should support the narrative 
+and clarify the team’s analysis rather than distract from it. 
+Required Report Length
+Section Minimum Maximum
+Title Page 1 page 1 page
+Portfolio Implementation 2 pages 3 pages
+Integrated Recommendation and Reflection 6 pages 8 pages
+Total, excluding References 9 pages 12 pages
+Investment Competition Guide      3
+Section 1: Title Page
+Minimum: One page Maximum: One page
+Include:
+ • Official team name • Advisor’s first and last name
+ • Finalized team member names • Team WInS username
+The information must match your official team roster.
+Section 2: Portfolio Implementation
+Minimum: Two pages Maximum: Three pages
+Present your final WInS portfolio and evaluate how effectively it implemented the investment strategy 
+established in your IPS. Explain how the portfolio’s construction, allocation, diversification, and most 
+important holdings reflect your strategy and support Laura’s financial goals.
+Include a table listing every holding in your final WInS portfolio. The table must include each investment’s  
+ticker or identifier, name, asset type, amount allocated, and percentage of the portfolio.
+Example Portfolio Table
+For illustrative purposes only. The holdings and allocations below are not intended to represent a recommended 
+investment strategy.
+Your table should reflect the composition and allocation of your final WInS portfolio, expressed using 
+the original $300,000 investment. The total must equal $300,000 and 100%. Do not use the ending 
+market value of your WInS portfolio or incorporate WInS gains and losses into Laura’s long-term financial 
+projections.
+Use your accompanying narrative to evaluate:
+ • How the portfolio’s construction and allocation reflect your strategy
+ • How diversification and risk considerations influenced your decisions
+ • The intended roles of the most important holdings or asset classes
+ • How effectively the portfolio aligns with your IPS and Laura’s financial goals
+Focus on the holdings and portfolio decisions most important to understanding your strategy. You do not 
+need to explain every individual holding.
+Ticker Name of Investment Asset Type Amount % of Portfolio
+META Meta Platforms Inc. Stock $60,000 20%
+VOO Vanguard S&P 500 ETF ETF $90,000 30%
+KTB Kontoor Brands, Inc Stock $45,000 15%
+532281 T-Bond 4.500% 15-May-2038 Treasury Bond $90,000 30%
+N /A Cash Cash $15,000 5%
+T otal $300,000 100%
+Investment Competition Guide      4
+Section 3: Integrated Recommendation and Reflection
+Minimum: Six pages Maximum: Eight pages
+Apply the investment strategy established in your IPS, as demonstrated through your final WInS portfolio, 
+to develop an integrated recommendation for Laura. Support your recommendation with reasonable 
+assumptions and analysis.
+Your recommendation must:
+ • Explain how your strategy supports the ten-year operating commitment
+ • Recommend an appropriate operating reserve
+ • Recommend a responsible facility contribution while preserving financial flexibility
+ • Provide a credible dollar range that Laura could communicate to potential co-sponsors in 2031
+ • Explain the level of confidence associated with that range and the factors that could affect it
+ • Provide language Laura could use when communicating with prospective co-sponsors
+For your long-term analysis, begin with Laura’s $300,000 investment at the beginning of 2027 and add the 
+additional $150,000 contribution at the beginning of 2028. Do not add WInS gains or losses to Laura’s  
+projected portfolio value.
+Clearly identify important assumptions, uncertainties, and limitations. Explain what Laura or her asset 
+management team should monitor as 2031 and 2033 approach and how changing conditions could affect 
+your recommendations.
+You are not expected to:
+ • Estimate the facility’s total cost or calculate the complete funding gap
+ • Prepare a construction budget or detailed business plan
+ • Account for Laura’s personal taxes
+ • Address the legal or regulatory requirements associated with establishing the residency
+T eam Reflection
+Conclude your report by explaining how your team’s research, collaboration, disagreements, decision-
+making, and learning influenced its final recommendation. Focus on the overall competition experience and 
+do not repeat the analysis presented in your Trading Notes Analysis.
+Evaluation Criteria
+Evaluators will consider all three deliverables together using five high-level criteria. 
+Investment Strategy
+The team establishes and applies a clear and coherent strategy that reflects mid-term and long-term thinking, 
+appropriate diversification, and consistency across the IPS, Trading Notes Analysis, and Final Report.
+Client Knowledge and Objectives
+The team demonstrates a meaningful understanding of Laura’s circumstances and financial goals, including the 
+ten-year operating commitment, operating reserve, facility contribution, co-sponsor considerations, liquidity 
+needs, and financial flexibility.
+Investment Competition Guide      5
+Portfolio Analysis
+The team uses quantitative and qualitative analysis to evaluate its final WInS portfolio and support its long-term 
+recommendations for Laura. The analysis demonstrates purposeful investment decisions, appropriate allocation 
+and diversification, reasonable assumptions, consideration of uncertainty, and an understanding of the portfolio’s 
+strengths and limitations.
+WInS gains and losses are not treated as evidence of the quality of the strategy.
+Articulation of Competition Experience
+The team explains how research, collaboration, disagreement, decision-making, uncertainty, and learning  
+shaped its investment thinking and final recommendation.
+Creativity and Presentation
+The team presents a compelling, well-organized, and authentic recommendation. Supporting data, projections, 
+graphics, and co-sponsor communication are used purposefully and effectively.
+Final Standard
+Addressing every required element is necessary, but it does not by itself demonstrate strong analysis. The 
+strongest reports will connect the team’s established strategy, portfolio decisions, analysis, assumptions, and 
+understanding of Laura’s goals into a cohesive and well-supported recommendation.
+There is no single correct answer. Your goal is to demonstrate that your team can apply its investment strategy 
+thoughtfully and responsibly to a realistic client scenario.

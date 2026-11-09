@@ -20,13 +20,13 @@ of this thread early in the morning (06:00 on Fri 27); every run reads `../EXPEC
 |---|---|---|
 | 1 | Sun 8 Nov | Bible Books 13-16, expectation notes, insight store (1,317 ideas), skills search, this schedule, first meta research (why Wharton runs the competition, how great strategists plan, Q1 first pass) |
 | 2 | Mon 9 | The numbers engine set to Caplet's submitted design on the 6 Nov close, the hardest problems first (reinvestment; an iBond fund pays its net asset value, not par); the number register (`NUMBERS.md`) and the canon file (`CANON.md`: everything the submitted IPS, Trading Notes, reflections and portfolio commit Caplet to, with a column for each loose phrase a bond reader would catch and its exact meaning, `research/meta/META_ANGLES.md` angle 5). Also modelled on FINAL's design: the range Laura could announce in 2031 (angle 6), and a 2028 deposit that arrives smaller, not missed, in a recession that also lowers yields (`research/cards/Q1_career_as_shares.md`) |
-| 3 | Tue 10 | Wharton's Final Report instructions (out 01:00) filed verbatim into `WHARTON_NORTH_STAR.md`; a re-plan: **the intent page** (`INTENT.md`: the governing thought, five things a judge should be able to say, three ways the report could fail) and a triage of Q1-Q14; **the report's skeleton** (`SKELETON.md`), first page first (the reader with about 76 reports, `research/meta/WHY_WHARTON.md`); Q1 deepened from the first pass of Sun 8, Q12 |
+| 3 | Tue 10 | (Wharton's instructions were filed a day early, Mon 9 evening: `WHARTON_NORTH_STAR.md` section 0, `CASE_MAP.md` section E.) The operating reserve's numbers (NUMBERS section 9); a re-plan: **the intent page** (`INTENT.md`: the governing thought, five things a judge should be able to say, three ways the report could fail) and a triage of Q1-Q14; **the report's skeleton** (`SKELETON.md`) on Wharton's two sections and page budget (`CASE_MAP.md` E), first page first (the reader with about 76 reports, `research/meta/WHY_WHARTON.md`); Q1 deepened from the first pass of Sun 8, Q12 |
 | 4 | Wed 11 | Q4 and Q11: the co-sponsors and the fundraising text (the store's thinnest seams, moved forward) |
 | 5 | Thu 12 | Q2 and Q8: certainty |
 | 6 | Fri 13 | Q3 and Q9 |
 | 7 | Sat 14 | Q5 and Q10 |
 | 8 | Sun 15 | Q6, Q7; the first digest to Caplet, with the experience section's best real moments from `research/EXPERIENCE_RECORD.md` (Caplet may add any; nothing is chased) |
-| 9 | Mon 16 | Q13, Q14, the first round closed a day early, and the first exhibit designs |
+| 9 | Mon 16 | Q13, Q14, the first round closed a day early, the first exhibit designs (two or three fit beside the holdings table), and the blind re-rank of the experience pool, scored on the instructions' Articulation and Team Reflection wording |
 | 10 | Tue 17 | Anything Caplet added to the experience record filed; the second research round begins |
 | 11 | Wed 18 | Second research round on the richest seams |
 | 12 | Thu 19 | Combining ideas |
@@ -36,7 +36,7 @@ of this thread early in the morning (06:00 on Fri 27); every run reads `../EXPEC
 | 16 | Mon 23 | Exhibits finished, a fresh-reader test of each, sources checked at source |
 | 17 | Tue 24 | Co-sponsor communication |
 | 18 | Wed 25 | Final ranking of the store; section notes; **a rehearsal of the review loop on Caplet's submitted IPS with five planted faults** (fresh reader, independent reviews, red team, killer items, reader test), timed, reviewers weighted by the faults they catch |
-| 19 | Thu 26 | Final checks against `CANON.md` and `NUMBERS.md`; a pre-mortem on the session; inputs frozen; `WRITING_SESSION.md` (phases, round steps, stop rule, margin, round log) |
+| 19 | Thu 26 | Final checks against `CANON.md` and `NUMBERS.md`; a pre-mortem on the session; inputs frozen; `WRITING_SESSION.md` (phases, round steps, stop rule, margin, round log); the page template in Wharton's format (12-point Times New Roman, double-spaced, 1-inch margins, page numbers bottom left, References page) tested, so every round is measured in pages |
 | 20 | Fri 27 | The writing session from 06:00; check-ins at 10:00, 14:00, 18:00, 22:00, then Sat 02:00 and 05:00 |
 | 21 | Sat 28 | **Final draft to Caplet by 09:00** with a one-page note, the Works Cited, a claims-and-sources sheet, a cut list and open risks |
 | - | Mon 30 Nov, Wed 2 Dec | Review week: hard issues only in Caplet's text (numbers, coherence, Works Cited, Wharton's limits), read only |
@@ -52,6 +52,14 @@ is in hand before the voice studies; exhibits a week earlier, so each can be tes
 the review machinery on the IPS Caplet already wrote, so the 24-hour session does not test its tools for the first
 time on the real thing; check-ins during the session, so twelve rounds are paced rather than hoped for; and a review
 week to the deadline, so Keel is still useful after handing over. Logged in `../pm/ASK_HUMANS.md`.
+
+**What Wharton's instructions changed (Mon 9 Nov, evening).** They arrived early (Caplet put them in the Drive at 20:33
+Sydney) and fix the report's shape: Section 2 Portfolio Implementation (2-3 pages, with a table of every holding at cost
+on the original $300,000), Section 3 Integrated Recommendation and Reflection (6-8 pages: the ten-year commitment, the
+operating reserve, the facility contribution and flexibility, the 2031 range and its confidence, words for co-sponsors,
+assumptions and what to monitor as 2031 and 2033 approach, and the Team Reflection last), 9-12 pages in all, about
+2,700-2,900 words of prose. The schedule stands; the research now answers those parts, ranked against that budget
+(`CASE_MAP.md` section E). The holdings table is built (`NUMBERS.md` 8g). Nothing about the deadline changed.
 
 **Overdrive (Caplet, Mon 9 Nov, I102).** Every day to Thu 26 Nov also has an evening research run at 19:13 Sydney
 (four to six parallel research workers on the thinnest claims, every find carded, volume logged; `DAILY_RUN.md`, "How

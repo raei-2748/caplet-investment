@@ -1,7 +1,7 @@
 # Team Keel / Team Caplet: project memory
 
 Wharton Global High School Investment Competition 2026-27. Keep this file current: update it whenever a fact,
-decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-09 (morning: Caplet's standing orders I101-I102: only the Final Report; no AI-use work; Articulation from the best real events of Caplet and Keel, judged blind; overdrive with two runs a day; 8 Nov evening: Ray's standing orders I94-I100 at the top of `keel/EXPECTATIONS.md`, Wharton north star `keel/final_report/WHARTON_NORTH_STAR.md`, tools `keel/final_report/TOOLS.md`, FR schedule rebuilt in `keel/final_report/README.md`; expectation notes `keel/EXPECTATIONS.md` replace the Bible in the working set, books archived; Book 16 = Caplet's 7 Nov message with its IPS; Final Report plan: no prose until Fri 27 Nov, Books 13-15; Caplet wrote and submitted its own IPS on 6 Nov, which replaces every Keel version incl. V57 in `keel/ips_rewrite/drafts/FINAL/`; Ray: drafts read AI/corny and the team can't follow Keel; V55 = V54 in plain English, `caplet/STATUS_2026-11-03.md`; all branches merged into main 2 Nov; V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
+decision, deadline or open item changes, and commit it with the related change. Last updated: 2026-11-09 (evening: Wharton's Final Report instructions filed verbatim, `keel/final_report/WHARTON_NORTH_STAR.md` section 0, what they require in `keel/final_report/CASE_MAP.md` section E, the holdings table at cost in `keel/final_report/NUMBERS.md` 8g; morning: Caplet's standing orders I101-I102: only the Final Report; no AI-use work; Articulation from the best real events of Caplet and Keel, judged blind; overdrive with two runs a day; 8 Nov evening: Ray's standing orders I94-I100 at the top of `keel/EXPECTATIONS.md`, Wharton north star `keel/final_report/WHARTON_NORTH_STAR.md`, tools `keel/final_report/TOOLS.md`, FR schedule rebuilt in `keel/final_report/README.md`; expectation notes `keel/EXPECTATIONS.md` replace the Bible in the working set, books archived; Book 16 = Caplet's 7 Nov message with its IPS; Final Report plan: no prose until Fri 27 Nov, Books 13-15; Caplet wrote and submitted its own IPS on 6 Nov, which replaces every Keel version incl. V57 in `keel/ips_rewrite/drafts/FINAL/`; Ray: drafts read AI/corny and the team can't follow Keel; V55 = V54 in plain English, `caplet/STATUS_2026-11-03.md`; all branches merged into main 2 Nov; V50: complete rebuild after Book 11; V49 rejected; Book 11 + Ten Commandments; final IPS due for review end of Wed 4 Nov).
 
 ## For every Claude session in this repo (all teammates)
 - **Caplet's expectations live in `keel/EXPECTATIONS.md` (8 Nov, Book 14).** Notes on all sixteen Bible books, checked
@@ -13,6 +13,15 @@ decision, deadline or open item changes, and commit it with the related change. 
   (`keel/final_report/TOOLS.md`); meta thinking (`keel/final_report/research/meta/`); prior art first, from any field,
   after classifying the problem; Keel's diary continues under `keel/episodes/AUTHENTICITY.md`; its invented people and scenes never appear as Caplet's
   experience, while Keel's real work events are pooled for Articulation (I102).
+- **Wharton's Final Report instructions (filed 9 Nov; `competition/official/2026_27/2026_WGY_Final_Report_Instructions.pdf`,
+  verbatim in `keel/final_report/WHARTON_NORTH_STAR.md` section 0).** Title page 1 page; Section 2 Portfolio
+  Implementation 2-3 pages (a table of every holding, ticker or identifier, name, type, amount, %, at the original
+  $300,000, totalling $300,000 and 100%); Section 3 Integrated Recommendation and Reflection 6-8 pages (ten-year
+  commitment, operating reserve, facility contribution with flexibility, 2031 range with confidence and factors,
+  co-sponsor language, assumptions and limits, what to monitor as 2031 and 2033 approach, Team Reflection last); 9-12
+  pages without References; 12-pt Times New Roman, double-spaced, 1-inch margins, page numbers bottom left, APA,
+  separate References page, no links to open, PDF of 5 MB or less. Do not repeat the IPS or Trading Notes; the IPS
+  strategy must stay consistent; WInS gains are never evidence or projections. Map: `keel/final_report/CASE_MAP.md` E.
 - **Final Report (Caplet, 8 Nov, BIBLE Books 13-16, INSTRUCTIONS I89-I92): no Final Report prose until Fri 27 Nov.** Until
   then: deep research, analysis and thinking on every part of the case (not only investing), a little voice study, and
   one ranked store of every insight (`keel/final_report/research/INSIGHT_STORE.md`; nothing lost). Fri 27 Nov: one
@@ -203,7 +212,7 @@ Structured in `toolkit/config/client_mandate.yaml` (human_approved: false) and `
 Roster Oct 9 | Trading Notes Analysis Oct 23 (3 notes quoted exactly from executed WInS trades, <=100-word
 reflections) | IPS Nov 6, 5:00 p.m. ET = Sat 7 Nov 09:00 Sydney (an SMApply FORM with two fields, 50-word pitch + 500-word IPS, no title page, no PDF format rules, no charts/links/citations;
 updated instructions filed 27 Oct, BIBLE Book 7;
-TRADING ENDS AND PORTFOLIO LOCKS; strategy frozen) | Final Report instructions Nov 9, 9:00 a.m. ET (Tue 10 Nov 01:00 Sydney) | Final Report + school
+TRADING ENDS AND PORTFOLIO LOCKS; strategy frozen) | Final Report instructions Nov 9, 9:00 a.m. ET (Tue 10 Nov 01:00 Sydney; in the team's Drive Mon 9 Nov 20:33 Sydney, filed) | Final Report + school
 documentation Dec 4. Evaluation: Investment Strategy; Client Knowledge; Portfolio Analysis; Articulation of
 Competition Experience; Creativity & Presentation. All three evaluated deliverables are judged together.
 

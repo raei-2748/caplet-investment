@@ -362,5 +362,46 @@ move, because the floor and the moved half are Treasuries by then. The honest li
 whose size moves with the markets, smallest in the years it is most likely to be needed; that is a cost of keeping
 flexibility in shares rather than in Treasuries (section 4, the all-Treasury benchmark).
 
+### 8g. The holdings table Wharton asks for in Section 2, at cost on the original $300,000 (Mon 9 Nov, evening)
+Wharton's instructions (`WHARTON_NORTH_STAR.md` section 0): every holding of the final WInS portfolio, with ticker or
+identifier, name, asset type, amount and percentage, "expressed using the original $300,000 investment"; the total must
+equal $300,000 and 100%; never the ending market value. Source: the WInS export of 23 Oct
+(`../../competition/wins/2026-10-23_snapshot.md`): quantity times the price paid on 6-7 Oct (ET). No trade since 8 Oct,
+so these are the final holdings. Not a model.
+
+| Ticker or identifier | Name | Asset type | Amount | % of portfolio |
+|---|---|---|---|---|
+| IBTM | iShares iBonds Dec 2032 Term Treasury ETF | ETF (Treasury) | $97,489.95 | 32.50% |
+| IBTO | iShares iBonds Dec 2033 Term Treasury ETF | ETF (Treasury) | $23,408.64 | 7.80% |
+| IBTP | iShares iBonds Dec 2034 Term Treasury ETF | ETF (Treasury) | $22,155.30 | 7.39% |
+| IBTQ | iShares iBonds Dec 2035 Term Treasury ETF | ETF (Treasury) | $20,973.24 | 6.99% |
+| IBTR | iShares iBonds Dec 2036 Term Treasury ETF | ETF (Treasury) | $19,823.72 | 6.61% |
+| (WInS id) | T-Bond 4.750% 15-Feb-2037 | Treasury bond | $19,203.80 | 6.40% |
+| 532281 (probably) | T-Bond 4.500% 15-May-2038 | Treasury bond | $18,615.26 | 6.20% |
+| (WInS id) | T-Bond 4.375% 15-Nov-2039 | Treasury bond | $16,200.95 | 5.40% |
+| (WInS id) | T-Bond 4.250% 15-Nov-2040 | Treasury bond | $15,790.32 | 5.26% |
+| (WInS id) | T-Bond 3.125% 15-Nov-2041 | Treasury bond | $14,991.00 | 5.00% |
+| VT | Vanguard Total World Stock ETF | ETF (equity) | $26,524.61 | 8.84% |
+| N/A | Cash | Cash | $4,823.21 | 1.61% |
+| **Total** | | | **$300,000.00** | **100.00%** |
+
+- **Keel's call (logged in `../pm/ASK_HUMANS.md`, Mon 9 Nov):** amounts at cost, because Wharton asks for the "amount
+  allocated" out of the original $300,000 and bars the ending value. Cash is $300,000 less the cost of the eleven
+  holdings: WInS showed $3,513.79 in cash; the other $1,309.42 went on commissions and the interest accrued on the five
+  bonds when they were bought. A table note says so in one line. Percentages are rounded so that they add to exactly
+  100.00% (largest remainder: the May-2038 bond shows 6.20% rather than 6.21%).
+- **In groups:** Treasuries 89.55% ($268,652.18: iBond ETFs 61.28%, bonds 28.27%), VT 8.84%, cash 1.61%.
+- **Identifiers.** The ETFs use their tickers. Wharton's own example row ("532281 T-Bond 4.500% 15-May-2038") is one of
+  Caplet's bonds, so 532281 is probably its WInS identifier; the other four come from Caplet's final WInS export (asked
+  of Ray, Mon 9 Nov). Until then the table names the bonds by coupon and date, which identifies them uniquely.
+- **The rival reading,** each holding's weight at the final market value times $300,000 (accrued interest left out),
+  moves no security by more than 0.25 points at 23 Oct prices (VT 8.59% instead of 8.84%) and cash by 0.46 (1.15% instead of 1.61%),
+  and would need the final export; Caplet may switch to it.
+- **What the table must not be read as:** the WInS book is Laura's whole plan in miniature (the ladder rungs, the
+  late-2032 floor stand-in inside IBTM, and VT), not her January 2027 purchase alone. Section 2's text explains this
+  once; the evidence is in `CANON.md` and the 23 Oct snapshot's "Pays for" column.
+
 ## 9. Still to add (later days)
-- Nothing open from Mon 9 Nov. Later days add what the research rounds and the skeleton ask for.
+- **The operating reserve (case A1, Wharton's Section 3):** its size on 1 Jan 2033 on the 6 Nov curve's forwards, what
+  it holds rung by rung, and how it runs down 2033-2042 with no rebalancing (Day 3, Tue 10 Nov).
+- Later days add what the research rounds and the skeleton ask for.

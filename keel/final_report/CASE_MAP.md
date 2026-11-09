@@ -3,7 +3,7 @@
 Book 15: "Every single part of our Final Report MUST be underpinned by a breathtaking level of research and
 analysis." This page lists every requirement the case and Wharton place on the report, the questions (Q1-Q14 in
 `README.md`) and store tags (`research/INSIGHT_STORE.md`) that feed it, and the analysis still open. Wharton's Final
-Report instructions (Tue 10 Nov, 01:00 Sydney) will be added as section E the day they arrive. This is a planning
+Report instructions arrived on Mon 9 Nov and are section E. This is a planning
 page, not report text. The IPS this page uses is the one in the "Past Submissions" tab of Caplet's FINAL REPORT doc,
 checked word for word against `FINAL_IPS_as_submitted.txt` on 8 Nov.
 
@@ -86,3 +86,54 @@ checked word for word against `FINAL_IPS_as_submitted.txt` on 8 Nov.
 Thin: Taiwan and the Taiwan dollar, the residency itself, the fundraising text, Laura's working life, how the team
 learned, how the report presents itself (Q8-Q14 start from little). Dense: certainty, the ladder, co-sponsors and the
 shares.
+
+## E. What Wharton's Final Report instructions require (filed Mon 9 Nov; verbatim in `WHARTON_NORTH_STAR.md` section 0)
+
+The instructions fix the report's shape. They rank above sections A-D where the two differ. Planning notes only.
+
+**The shape and the budget.** Title page (1 page, Caplet's logistics), **Section 2 Portfolio Implementation** (2-3
+pages), **Section 3 Integrated Recommendation and Reflection** (6-8 pages, the Team Reflection at its end), then a
+separate References page (APA). 9-12 pages in all without References; 12-point Times New Roman, double-spaced, 1-inch
+margins, page numbers bottom left, a PDF of 5 MB or less, no links the reader is meant to open; tables and graphics may
+be single-spaced. A double-spaced page holds about 280-300 words, so a full-length report is about 2,700-2,900 words of
+prose plus the holdings table and two or three exhibits: roughly 700 words for Section 2 and 2,000 for Section 3. The
+store holds 1,771 ideas; perhaps sixty will be used. Keel's first page budget, for the skeleton (Day 3) to refine:
+
+| Part | Pages | What it must do (Wharton's words in quotes) | Feeds from |
+|---|---|---|---|
+| 2. Portfolio Implementation | 3 | The table of every holding at cost on $300,000 (NUMBERS 8g); "how the portfolio's construction and allocation reflect your strategy"; "how diversification and risk considerations influenced your decisions"; "the intended roles of the most important holdings"; "how effectively the portfolio aligns with your IPS and Laura's financial goals" | A11; CANON; Q13 |
+| 3a. The ten-year commitment and the operating reserve | 1.5 | "how your strategy supports the ten-year operating commitment"; "recommend an appropriate operating reserve" (case A1: size, initial composition, how it changes; A2: what high certainty means) | A1, A2, A7; NUMBERS 1-3, 8a, 8b, the reserve (NUMBERS 9) |
+| 3b. The facility contribution and flexibility | 1.25 | "a responsible facility contribution while preserving financial flexibility" | A3, A4; NUMBERS 4, 5, 8c, 8f |
+| 3c. The 2031 range and its confidence | 1.25 | "a credible dollar range"; "the level of confidence associated with that range and the factors that could affect it" | A5, A6; NUMBERS 4, 8e |
+| 3d. Words for co-sponsors | 0.75 | "language Laura could use when communicating with prospective co-sponsors" | A8; Q4, Q11 cards |
+| 3e. Assumptions, limits and what to watch | 1.25 | "important assumptions, uncertainties, and limitations"; "what Laura or her asset management team should monitor as 2031 and 2033 approach and how changing conditions could affect your recommendations" | A10, A12, A13; NUMBERS 7, 8d; CANON |
+| 3f. Team Reflection | 1.5 | "how your team's research, collaboration, disagreements, decision-making, and learning influenced its final recommendation"; "the overall competition experience"; not the Trading Notes' analysis again | EXPERIENCE_RECORD; the blind ranking |
+
+**New or sharper than before.**
+1. **The holdings table** is a minimum requirement ("actual holdings"). Built tonight at cost (NUMBERS 8g); the WInS
+   identifiers of four bonds come from Caplet's final export.
+2. **Monitoring "as 2031 and 2033 approach"** is now required in its own right. It must agree with the IPS's "only 2
+   possible reasons we would change our plan": Laura watches many things, and only a missed deposit or a Treasury default
+   changes the plan. Everything else watched (yields in January 2028, VT before the 2031 move, the Taiwan dollar and
+   building costs, co-sponsor budgets, each iBond fund's payout against par) changes a number, never a payment.
+3. **Liquidity needs** are named in Client Knowledge: each payment's money is in hand when it falls due (a rung
+   matures just before each payment), and the kept half is a daily-traded fund.
+4. **"WInS gains and losses are not treated as evidence of the quality of the strategy."** The report never cites the
+   WInS return (+1.85% on 23 Oct) as evidence.
+5. **"Without repeating the content of your IPS or Trading Notes Analysis."** The report applies the IPS and evaluates
+   it; it does not restate the letter. The Team Reflection may tell an event that a trade note recorded, but not its
+   analysis; the blind re-rank on Mon 16 Nov scores against the instructions' own Articulation wording (now with
+   "disagreement" and "uncertainty") and marks events that would repeat the Trading Notes.
+6. **"The strategy established in your IPS should remain consistent ... not an opportunity to create a new strategy or
+   revise the IPS."** Ray's coherence order (I99) is now Wharton's rule. Keel's calls that size what the IPS left open
+   (the reinvestment margin, the floor and VT split) are applications of the IPS, and the report says so.
+7. **Permitted investments apply to all long-term modelling.** Checked Mon 9 Nov: the numbers engine models only the
+   frozen book's instruments (IBTM-IBTR, the five T-bonds, VT; IBTM again for the floor and the 2031 move). Figures from
+   older scripts built on STRIPS or idealised zero-coupon bonds stay void (NUMBERS section 6).
+8. **Exhibits are welcome** ("graphics should support the narrative"), but the page budget allows two or three beside
+   the holdings table.
+9. **APA references** on a separate page: every source carded from now on records the author, year, title and
+   publisher it needs.
+
+**Not expected** (Wharton): the facility's total cost, the funding gap, a construction budget or business plan,
+Laura's taxes, the residency's legal or regulatory requirements. Unchanged from A13.

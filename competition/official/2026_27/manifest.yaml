@@ -99,4 +99,27 @@ documents:
   human_verified: false
   verified_by: null
   verification_notes: Pages 1-2 unchanged; page 3 instructions replaced (two form fields; title page and PDF formatting removed)
-last_updated: '2026-10-27 00:00:00'
+- filename: 2026_WGY_Final_Report_Instructions.pdf
+  sha256_hash: 650b1b5a5464e1a41f22421cea6dd7c139f1a25292830a91f639927d793b115f
+  document_type: final_report_instructions
+  source: Wharton Final Report instructions (uploaded by Caplet to the team's Drive, Final Report folder, 9 Nov 2026 20:33 Sydney); PDF created by Wharton 3 Nov 2026
+  received_date: '2026-11-09'
+  competition_year: 2026-2027
+  authority: OFFICIAL_PRIVATE_VERIFIED
+  version: '1.0'
+  parsed: true
+  human_verified: false
+  verified_by: null
+  verification_notes: Five pages; text extraction alongside (.txt); filed verbatim in keel/final_report/WHARTON_NORTH_STAR.md section 0
+- filename: wharton_email_week6_2026-11.md
+  sha256_hash: null
+  document_type: weekly_email
+  source: Week 6 email PDF in the team's Drive (uploaded 7 Nov 2026), transcribed verbatim
+  received_date: '2026-11-07'
+  competition_year: 2026-2027
+  authority: OFFICIAL_PRIVATE_VERIFIED
+  parsed: true
+  human_verified: false
+  verified_by: null
+  verification_notes: Links replaced by [link]
+last_updated: '2026-11-09 00:00:00'
