@@ -12,88 +12,88 @@ Caplet, Book 14: "Keep a store of every single insight you have. They should be 
 
 ## Where it stands
 
-- **1607 ideas** in the store; 167 judged so far, the rest on the first pass.
-- Tiers: A 747, B 709, C 151; refused or merged 0.
-- 332 ideas need reframing before use (they clash in some detail with the FINAL IPS or the TNA).
-- Rows per source: `cards/NUM_extras_2026-11-09.md` 10; `cards/Q10_inflation_inputs.md` 25; `cards/Q11a_funders_seed_assurance.md` 35; `cards/Q11b_real_case_statements.md` 35; `cards/Q12_lauras_working_life.md` 35; `cards/Q1_career_as_shares.md` 50; `cards/Q9_what_makes_a_residency_last.md` 35; `harvest/H10_why_wharton.md` 65; `harvest/H1_idea_bank_part1.md` 88; `harvest/H2_idea_bank_part2_and_ledger.md` 124; `harvest/H3_concepts_R02_R05_R06.md` 126; `harvest/H4_synergies_S1_S3_fusions.md` 190; `harvest/H5_synergies_S4_S6_R11.md` 153; `harvest/H6_shiller_damodaran.md` 171; `harvest/H7_final_night_reading.md` 118; `harvest/H8_lab_window_plans.md` 161; `harvest/H9_doc_research_tabs.md` 186.
+- **1771 ideas** in the store; 475 judged so far, the rest on the first pass.
+- Tiers: A 778, B 811, C 163; refused or merged 19.
+- 384 ideas need reframing before use (they clash in some detail with the FINAL IPS or the TNA).
+- Rows per source: `cards/NUM_extras_2026-11-09.md` 12; `cards/Q10_inflation_inputs.md` 25; `cards/Q11a_funders_seed_assurance.md` 35; `cards/Q11b_real_case_statements.md` 35; `cards/Q12_lauras_working_life.md` 35; `cards/Q1_career_as_shares.md` 50; `cards/Q1b_career_beta_horizon.md` 28; `cards/Q4b_cosponsors_in_downturns.md` 35; `cards/Q5_is_half_right.md` 34; `cards/Q6_how_far_to_trust_7_5.md` 33; `cards/Q7_precommitment_and_rules.md` 32; `cards/Q9_what_makes_a_residency_last.md` 35; `harvest/H10_why_wharton.md` 65; `harvest/H1_idea_bank_part1.md` 88; `harvest/H2_idea_bank_part2_and_ledger.md` 124; `harvest/H3_concepts_R02_R05_R06.md` 126; `harvest/H4_synergies_S1_S3_fusions.md` 190; `harvest/H5_synergies_S4_S6_R11.md` 153; `harvest/H6_shiller_damodaran.md` 171; `harvest/H7_final_night_reading.md` 118; `harvest/H8_lab_window_plans.md` 161; `harvest/H9_doc_research_tabs.md` 186.
 
 ## The parts of the plan and the case
 
 | Tag | What it covers | Ideas | Ranked list |
 |---|---|---|---|
-| CAREER | Laura's career as an unsellable stock | 177 | [by_tag/CAREER.md](store/by_tag/CAREER.md) |
-| CERTAINTY | A high degree of certainty | 418 | [by_tag/CERTAINTY.md](store/by_tag/CERTAINTY.md) |
-| LADDER | The ten Treasuries | 316 | [by_tag/LADDER.md](store/by_tag/LADDER.md) |
-| COMPLETE2028 | The 2028 deposit completes the ladder | 122 | [by_tag/COMPLETE2028.md](store/by_tag/COMPLETE2028.md) |
-| FLOOR | The 2032 Treasury fund (bottom of the range) | 221 | [by_tag/FLOOR.md](store/by_tag/FLOOR.md) |
-| CEILING | VT (top of the range) | 276 | [by_tag/CEILING.md](store/by_tag/CEILING.md) |
-| HALFKEPT | Half the shares promised to no one | 155 | [by_tag/HALFKEPT.md](store/by_tag/HALFKEPT.md) |
-| MOVE2031 | The move into Treasuries before 2031 | 139 | [by_tag/MOVE2031.md](store/by_tag/MOVE2031.md) |
-| RESERVE2033 | The operating reserve from 2033 | 92 | [by_tag/RESERVE2033.md](store/by_tag/RESERVE2033.md) |
-| TWOREASONS | Only two reasons to change | 136 | [by_tag/TWOREASONS.md](store/by_tag/TWOREASONS.md) |
-| COSPONSOR | The 2031 range and the co-sponsors | 400 | [by_tag/COSPONSOR.md](store/by_tag/COSPONSOR.md) |
+| CAREER | Laura's career as an unsellable stock | 206 | [by_tag/CAREER.md](store/by_tag/CAREER.md) |
+| CERTAINTY | A high degree of certainty | 436 | [by_tag/CERTAINTY.md](store/by_tag/CERTAINTY.md) |
+| LADDER | The ten Treasuries | 318 | [by_tag/LADDER.md](store/by_tag/LADDER.md) |
+| COMPLETE2028 | The 2028 deposit completes the ladder | 127 | [by_tag/COMPLETE2028.md](store/by_tag/COMPLETE2028.md) |
+| FLOOR | The 2032 Treasury fund (bottom of the range) | 236 | [by_tag/FLOOR.md](store/by_tag/FLOOR.md) |
+| CEILING | VT (top of the range) | 313 | [by_tag/CEILING.md](store/by_tag/CEILING.md) |
+| HALFKEPT | Half the shares promised to no one | 192 | [by_tag/HALFKEPT.md](store/by_tag/HALFKEPT.md) |
+| MOVE2031 | The move into Treasuries before 2031 | 175 | [by_tag/MOVE2031.md](store/by_tag/MOVE2031.md) |
+| RESERVE2033 | The operating reserve from 2033 | 89 | [by_tag/RESERVE2033.md](store/by_tag/RESERVE2033.md) |
+| TWOREASONS | Only two reasons to change | 150 | [by_tag/TWOREASONS.md](store/by_tag/TWOREASONS.md) |
+| COSPONSOR | The 2031 range and the co-sponsors | 452 | [by_tag/COSPONSOR.md](store/by_tag/COSPONSOR.md) |
 | FUNDRAISING | The fundraising text | 19 | [by_tag/FUNDRAISING.md](store/by_tag/FUNDRAISING.md) |
-| RESIDENCY | The residency itself | 60 | [by_tag/RESIDENCY.md](store/by_tag/RESIDENCY.md) |
-| INFLATION_TWD | Inflation, Taiwan costs, the Taiwan dollar | 92 | [by_tag/INFLATION_TWD.md](store/by_tag/INFLATION_TWD.md) |
+| RESIDENCY | The residency itself | 67 | [by_tag/RESIDENCY.md](store/by_tag/RESIDENCY.md) |
+| INFLATION_TWD | Inflation, Taiwan costs, the Taiwan dollar | 99 | [by_tag/INFLATION_TWD.md](store/by_tag/INFLATION_TWD.md) |
 | REINVEST | Reinvesting the ladder's interest | 140 | [by_tag/REINVEST.md](store/by_tag/REINVEST.md) |
-| LAURA | Laura's working life and values | 63 | [by_tag/LAURA.md](store/by_tag/LAURA.md) |
-| PROCESS | How the team decided and learned | 215 | [by_tag/PROCESS.md](store/by_tag/PROCESS.md) |
+| LAURA | Laura's working life and values | 73 | [by_tag/LAURA.md](store/by_tag/LAURA.md) |
+| PROCESS | How the team decided and learned | 236 | [by_tag/PROCESS.md](store/by_tag/PROCESS.md) |
 | PRESENTATION | How the report shows its work | 84 | [by_tag/PRESENTATION.md](store/by_tag/PRESENTATION.md) |
-| OTHER | Other | 140 | [by_tag/OTHER.md](store/by_tag/OTHER.md) |
+| OTHER | Other | 142 | [by_tag/OTHER.md](store/by_tag/OTHER.md) |
 | HISTORY | HISTORY | 1 | [by_tag/HISTORY.md](store/by_tag/HISTORY.md) |
 
 ## The top 40 across the store (current ratings)
 
 | Rank | Id | Score | Tags | Idea | Status |
 |---|---|---|---|---|---|
-| 1 | H1-081 | 21 | CERTAINTY, LADDER, TWOREASONS | Correlation makes the chain certain: ten payments fail if any one fails; ten independent 99% bets miss at least one about one time in ten (1 - 0.99^10 = 9.6%). One shared issuer makes them stand or f… | keep |
-| 2 | H10-001 | 21 | PROCESS, OTHER | The competition began in 2012 with three Philadelphia teams and 15 students, inside Knowledge@Wharton High School, whose mission was "to promote financial literacy and a deeper understanding of how b… | keep |
-| 3 | H10-008 | 21 | PRESENTATION, CERTAINTY | The academic director's whole philosophy: "There's one finance. It rests on two intuitive principles: costs and benefits, and risk." | keep |
-| 4 | H10-009 | 21 | PRESENTATION, COSPONSOR | Roberts wants to "level the playing field ... by replacing ignorance and fear with knowledge and confidence"; jargon is "obfuscating the elegant simplicity of finance" | keep |
-| 5 | H10-010 | 21 | LADDER, REINVEST | Roberts directs Wharton's executive course "Fixed Income and Credit Market Investing" and researches interest rates and bank lending | keep |
-| 6 | H10-013 | 21 | PRESENTATION | Wharton's older guidebook: "Remember your reader ... You want your report to stand out from the hundreds we are reading." | keep |
-| 7 | H10-014 | 21 | PRESENTATION | "We encourage a narrative format, rather than strictly a list of bullet points accompanied by charts and graphs." | keep |
-| 8 | H10-015 | 21 | PRESENTATION | "Overly technical strategies will not necessarily impress us. We want both qualitative and quantitative analysis." | keep |
-| 9 | H10-016 | 21 | PRESENTATION | "Too many charts, graphs, photos, images and over-the-top formatting will not dazzle your readers, but instead confuse and overwhelm them." | keep |
-| 10 | H10-017 | 21 | PROCESS, PRESENTATION | "Evaluators don't want to read pages of defined terms as proof that you've learned something"; the page adds "show, don't tell" | keep |
-| 11 | H10-020 | 21 | COSPONSOR, RESIDENCY, PRESENTATION | The 2026 semifinal panel: 11 of 15 hold Wharton designations; they are owners and allocators of money (private funds, a family office, two real-estate firms, wealth management, investment banking) | keep |
-| 12 | H10-021 | 21 | LADDER, RESERVE2033 | Andrea Vittorelli, 2026 semifinal judge, was "global chairman of J.P. Morgan's Insurance Investment Group" when he judged the 2022 finale | keep |
-| 13 | H10-023 | 21 | LAURA, CAREER, HALFKEPT | Two family-office judges recur: Thom Phan (2025 and 2026 semifinals) and Valerie Mukherjee (2025 semifinal, 2026 finale) | keep |
-| 14 | H10-025 | 21 | PROCESS | Muk Rao (2025): "You're a better communicator now... you're better at advancing really complex arguments." | keep |
-| 15 | H10-028 | 21 | COSPONSOR, CERTAINTY | Connor Barwin (2026): "confidence that you can figure it out, and humility to know that you don't have all the answers" | keep |
-| 16 | H10-031 | 21 | OTHER, PRESENTATION | The 2025-26 participant badge still lists SWOT and Porter's Five Forces among learning objectives | keep |
-| 17 | H10-033 | 21 | PRESENTATION, LAURA | Earlier cases framed teams as rivals "trying to land the same client" and asked "What sets you and your strategy apart from other teams?" | keep |
-| 18 | H10-036 | 21 | PROCESS | Wharton bans paid advisers and outside courses that "claim to teach the Investment Competition", and may use "third-party private investigatory firms and/or forensic analysts" | keep |
-| 19 | H10-042 | 21 | OTHER | The prize is more Wharton: champions get Wharton youth-programme scholarships, and Wharton hires 239 students across its youth programmes | keep |
-| 20 | H10-044 | 21 | LAURA, PRESENTATION | As a student Laura ran a 30-day case competition, recruited Wharton judges, and wrote of "sculpting a simple idea into a spectacle" | keep |
-| 21 | H10-055 | 21 | COSPONSOR, FUNDRAISING | IPCC rule for a quantity: give the range, its likelihood, the basis, what sets the outer bounds, assumptions, structural uncertainty, and the likelihood of values outside the range | keep |
-| 22 | H10-056 | 21 | COSPONSOR, CERTAINTY | IPCC likelihood scale: virtually certain 99-100%, very likely 90-100%, likely 66-100%, about as likely as not 33-66%, unlikely 0-33%, very unlikely 0-10%, exceptionally unlikely 0-1% | keep |
-| 23 | H10-057 | 21 | COSPONSOR, FUNDRAISING | Readers "systematically underestimate the probability" of high-likelihood statements, so put the number beside the word | keep |
-| 24 | H10-058 | 21 | COSPONSOR | Sherman Kent: "We promise to speak, not in discrete figures, but in ranges of figures and ranges of our uncertainty regarding them." | keep |
-| 25 | H10-064 | 21 | PRESENTATION | A Wharton teacher blog: "Thesis isn't just for English class" (the team's "guiding light") and "Chunk the final report" | keep |
-| 26 | H2-010 | 21 | CAREER | Her income falls in the slump but doesn't come back with the market | keep |
-| 27 | H2-031 | 21 | REINVEST, LADDER, CERTAINTY | Measure the ladder's weak point the way auditors do: public defeasance escrows buy Treasuries that pay enough "without reinvestment"; actuaries carry cash forward "at low or zero interest" | keep |
-| 28 | H2-033 | 21 | REINVEST, LADDER | The funds' last-year wait: iBond funds hold maturing Treasuries and then cash until the 15 December close ("expected to consist almost entirely of cash"), less 0.07% a year, so a reinvestment rule wr… | adapt |
-| 29 | H2-060 | 21 | FLOOR, MOVE2031 | Grain in the bin: farmers pre-sell only what they are sure to grow and lock more as the crop gets surer; the 2028 deposit is grain already in the bin, so lock its share then | keep |
-| 30 | H2-082 | 21 | CEILING, MOVE2031, COSPONSOR | Never more than the pot holds: Alaska's Permanent Fund draw is "limited to the ERA balance"; smoothing like a sovereign fund (Norway, Alaska's lagged average) was rejected, because a gift that ends o… | keep |
-| 31 | H2-093 | 21 | PROCESS, COMPLETE2028, TWOREASONS | The plan's rule was in the trade notes before it was named: the IBTR note (7 Oct) has a dated check ("by January"), one market reading ("If yields fall more than about 0.2 percentage points") and a r… | keep |
-| 32 | H2-095 | 21 | PROCESS, LADDER | The WInS book is the finished plan at about two-thirds size: VT 8.6%, IBTM as both a rung and the minimum, each rung partly filled; the Nov-2041 note says "scaled to the model portfolio" | keep |
-| 33 | H3-007 | 21 | FLOOR, LADDER, CERTAINTY | A defined-maturity ETF pays out its NAV, not par: IBTM "does not seek to return any predetermined amount at maturity", terminates about 15 Dec 2032, fee 0.07%; "Government backing ... does not apply … | adapt |
-| 34 | H3-013 | 21 | CERTAINTY, LADDER | A US default is really a political delay; every rung matures before its payment (IBTM about 15 Dec 2032; the Feb-2037 bond about ten months before 1 Jan 2038), so a delay of weeks would not stop a pa… | keep |
-| 35 | H3-015 | 21 | LADDER, CERTAINTY | Term premium: long bonds usually pay a little extra for rate risk; for a holder with fixed long payments, long bonds are the low-risk asset, so she is paid for holding what she would hold anyway | keep |
-| 36 | H3-016 | 21 | LADDER, CERTAINTY | The riskless asset depends on the liability: for a long-horizon investor cash is risky (its rate rolls over); the matched long bond is riskless | keep |
-| 37 | H3-024 | 21 | CERTAINTY, LADDER | Surplus optimisation: measure risk as assets minus liabilities, not assets alone | keep |
-| 38 | H3-026 | 21 | CERTAINTY, HALFKEPT | Mental accounts can be efficient: separate goal pots with a shortfall limit each map to a mean-variance solution | keep |
-| 39 | H3-045 | 21 | COSPONSOR, HALFKEPT | The entrepreneur's own stake signals project quality to outside financiers | keep |
-| 40 | H3-046 | 21 | COSPONSOR | Cheap talk: when interests differ, only coarse messages are credible, and they take the form of an interval | keep |
+| 1 | Q11a-025 | 24 | COSPONSOR, FLOOR, MOVE2031 | Uncertainty about how much is needed breaks group funding; uncertainty about the size of the benefit does not. Threshold known: catastrophe avoided in 18 of 20 groups (8/10 with known impact, 10/10 w… | keep |
+| 2 | Q11b-032 | 24 | COSPONSOR, FLOOR, CEILING, MOVE2031 | CASE's counting rules split firm and soft money: "Do not include conditional pledges where conditions may not be met by the institution, until such time that it is anticipated the conditions will be … | keep |
+| 3 | Q5-014 | 24 | HALFKEPT, CERTAINTY | England's housing agency split buildings by risk (Table 4): "Uncomplex Buildings (low risk)", "residential, schools, community buildings, GP practices, car parks, small sports centres", n=64: P50 4%,… | keep |
+| 4 | Q12-018 | 23 | CAREER, LAURA | Laura's own genre, graphic novels: +29% in 2020 (Q1 row 32), then -22.4% in 2023 ("the biggest decline") and -11.5% in 2024 (24.4m copies), then +0.7% in the first nine months of 2025. Keel arithmeti… | adapt |
+| 5 | Q1b-002 | 23 | CAREER | The average career is mostly a bond: "The bond component averages more than 80 percent of the value of human capital"; the stock component "averages below 35 percent at all ages for high school agent… | adapt |
+| 6 | Q4b-001 | 23 | COSPONSOR, HALFKEPT | US foundation giving ROSE in the crash year: foundation assets fell 17.2% in 2008 ($682.2bn to $565.0bn) while foundation giving rose 5.4% ($44.4bn to $46.8bn). The yearbook says funders cut operatin… | adapt |
+| 7 | Q7-031 | 23 | TWOREASONS, COSPONSOR, FLOOR | After January 2028 only one of the two reasons can still happen. The case allows no money in or out before 2033 except the two deposits (case p.2), so "a missed deposit" can only occur in Jan 2028, b… | keep |
+| 8 | Q9-016 | 23 | RESIDENCY, RESERVE2033, CERTAINTY | One-founder cultural institutions are fragile: private art museums that closed had been open a median of 10 years; closure was "usually related to financial difficulties, rather than the founder's de… | keep |
+| 9 | Q9-020 | 23 | RESIDENCY, CERTAINTY, TWOREASONS, CAREER | Yaddo nearly ended before its first guest: after Spencer Trask died in 1909 "the Trasks' financial investments depreciated the following year, jeopardizing Yaddo's future"; Katrina Trask closed the m… | keep |
+| 10 | Q9-022 | 23 | RESERVE2033, CERTAINTY, TWOREASONS | Even a large residency endowment can fall 15% in a year: MacDowell's went from $33.1M to $28.2M in 2022 (investment return -$5.6M, after +$7.0M in 2021), while it ran a $3.4M gap before investment re… | keep |
+| 11 | Q9-033 | 23 | COSPONSOR, RESIDENCY | Taiwan's national arts grant-maker never got its endowment: the law set a NT$10bn fund to be reached within 10 years; government gave its NT$6bn share by 2003, but the NT$4bn private share was never … | keep |
+| 12 | Q11a-004 | 22 | FLOOR, COSPONSOR | Seed money matters only when fixed costs are high: with a high fixed cost, giving in sequence raised the provision rate from 40% (simultaneous) to 76%; with a low fixed cost both were above 80% and "… | keep |
+| 13 | Q11b-005 | 22 | COSPONSOR, RESIDENCY, MOVE2031 | MacDowell announced a $13 million campaign in Aug 2010 when "more than $10 million has already been raised", then said what it buys: a library center, endowed Fellowships "in perpetuity", and stipend… | keep |
+| 14 | Q11b-014 | 22 | COSPONSOR, LAURA, RESIDENCY | Fogo Island Arts (Canada): Zita Cobb, who made her money in technology and returned home, "personally committed about $30 million of her own capital to build the Inn and the Fogo Island artist studio… | adapt |
+| 15 | Q11b-022 | 22 | COSPONSOR, HALFKEPT, RESIDENCY | Kresge's arts program required "a building reserves policy" with every facility grant; a comprehensive campaign should include "transitional operating funding to help the organization adapt to higher… | adapt |
+| 16 | Q11b-023 | 22 | COSPONSOR, RESERVE2033, RESIDENCY | NFF's evaluation of Kresge's 32 facility grantees (2010-12 grants): organisations did not plan "for the costs associated with operating new or expanded facilities"; "Many organizations do not plan fo… | keep |
+| 17 | Q11b-026 | 22 | INFLATION_TWD, HALFKEPT, MOVE2031, RESIDENCY | Set in Stone (US cultural building 1994-2008, about $16 billion): "More than 80 percent of the projects studied ran over budget, some by as much as 200 percent"; theatres' end cost was about 92 perce… | keep |
+| 18 | Q12-001 | 22 | CAREER, COMPLETE2028 | An advance is not one cheque: the model contract pays it "on the execution of this Agreement", "on acceptance of the complete manuscript" and "on Publisher's initial publication of the Work"; "paymen… | keep |
+| 19 | Q12-004 | 22 | CAREER, COMPLETE2028 | In the 2020 shock the biggest publisher stretched payments rather than cancelling: Penguin Random House "lengthened the period of payment on the first installments of significant advances"; "While th… | keep |
+| 20 | Q12-006 | 22 | CAREER, LAURA | In 2009 the cuts fell on new deals for midlist and new authors, not on proven sellers: "No one had said, 'let's go the extra £50,000'"; "Midlist authors will be squeezed again, perhaps dropped, while… | adapt |
+| 21 | Q12-008 | 22 | CAREER, COMPLETE2028 | Royalties arrive twice a year, three months after each half: "Publisher shall prepare a statement of account semi-annually", paid "within three months following the end of the period". Keel arithmeti… | keep |
+| 22 | Q12-015 | 22 | CAREER, LAURA | Children's books sell into two markets "and those markets do not cycle together"; institutional cuts "take time to take effect"; worked example: "If a publisher makes 60% of its sales in the institut… | keep |
+| 23 | Q1b-001 | 22 | CAREER, COMPLETE2028 | Shares lead pay by about a year: the aggregate part of US earnings growth correlates 0.184 with the same year's share return and 0.372 with the previous year's (college 0.248 and 0.377; high school 0… | keep |
+| 24 | Q1b-010 | 22 | CAREER, CERTAINTY | At the very top, pay and shares move together fast: "The co-movement of income growth for top earners with GDP growth and stock returns is quite striking. In fact, the correlation with all three seri… | keep |
+| 25 | Q1b-021 | 22 | CAREER, LAURA | Writers' unemployment rose after the crash and peaked while shares rose: writers and authors 4.4% (Q4 2007), 6.6% (Q4 2008); annual 4.5% (2007), 6.4% (2008), 7.9% (2009), and 10.0% in Q4 2009, the ye… | keep |
+| 26 | Q1b-026 | 22 | COMPLETE2028, FLOOR, CERTAINTY, CAREER | The deposit's market year is one in which the plan owns no shares (Keel inference): under the measured lag (rows 1, 4, 7), earnings in 2027 respond most to the 2026 share market and partly to 2027's.… | adapt |
+| 27 | Q4b-016 | 22 | COSPONSOR, CAREER | Corporate giving follows profits, not share prices, and the previous year's profits at that. "Corporate giving is tied more closely to corporate profits than stock market performance". Giving as a sh… | adapt |
+| 28 | Q4b-027 | 22 | COSPONSOR, HALFKEPT, RESIDENCY | ...but NCAF's grants ROSE that year. Grant expenses went from NT$153,598,721 (2014) to NT$160,462,639 (2015), +4.5%, and regular grants from NT$109,988,100 to NT$112,538,905, +2.3%. It ran a NT$54.7m… | keep |
+| 29 | Q5-006 | 22 | HALFKEPT, INFLATION_TWD, COSPONSOR | In cost engineering a contingency is a narrow thing. It "usually excludes: a) Major scope changes such as changes in end product specification, capacities, building sizes, and location ...; b) Extrao… | adapt |
+| 30 | Q5-011 | 22 | HALFKEPT, CERTAINTY, COSPONSOR | Flyvbjerg's 2004 guidance for UK transport: uplifts at 50% / 80% confidence, roads 15% / 32%, rail 40% / 57%, fixed links 23% / 55%. Who should use which: "the 50% percentile should be used only in i… | keep |
+| 31 | Q5-012 | 22 | HALFKEPT, CERTAINTY, MOVE2031 | Updated reference classes (Table 5, international): Buildings ("Stations, depots, concert halls, office buildings, museums", n=149) mean / 50% certainty (RCF50) / 80% certainty (RCF80): full business… | adapt |
+| 32 | Q5-016 | 22 | HALFKEPT, CERTAINTY | Denmark's 110 cultural buildings delivered 2000-2007 (DKK 5.8bn in all, average DKK 53m; 63 new, 47 repairs): 40% at or under the decision budget; 75% within +10%; to be 80% sure the budget holds add… | keep |
+| 33 | Q5-018 | 22 | HALFKEPT, COSPONSOR, MOVE2031 | Norway's state project model gives the agency a P50 steering frame and sets the cost frame at P85; the difference is a reserve held by the ministry, not the project | keep |
+| 34 | Q5-022 | 22 | HALFKEPT, INFLATION_TWD, MOVE2031 | Taiwan's public works manual: allowable cost variation (經費變動率) by stage, feasibility 15%-30%, comprehensive planning 10%-25%, basic design 3%-10%, detailed design 3%-5%; contingency (工程預備費) for major… | keep |
+| 35 | Q5-023 | 22 | INFLATION_TWD, COSPONSOR | The same manual prices escalation (物價調整費) separately, from the average of the construction cost index (10 years in 2018; 3-10 years in the 2023 revision), and lists causes of cost change including ex… | keep |
+| 36 | Q6-011 | 22 | CEILING, COSPONSOR | Ranked, the eight houses with a dated world-share figure are J.P. Morgan 7.5%, Aon 7.5%, Northern Trust 7.1%, AQR about 6.6%, Invesco 6.4%, Janus Henderson 6.2%, Capital Group 6.0% (20 years) and Van… | adapt |
+| 37 | Q6-027 | 22 | CEILING, MOVE2031, COSPONSOR | In dollars, the forecast matters little and luck matters a lot. Assuming 4% instead of 10% for VT moves the top of the range only from $136,580 to $140,364 ($3,784). At a fixed 7.5%, the moved half r… | keep |
+| 38 | Q6-030 | 22 | COSPONSOR, MOVE2031 | In 13,300+ forecasts by US finance chiefs over a ten-year panel, the realised one-year S&P 500 return fell inside their 80% confidence intervals only 36.3% of the time (59% even in the calmest quarte… | keep |
+| 39 | Q7-008 | 22 | TWOREASONS, COSPONSOR, CERTAINTY | Lenders separate "excusable" default in "identifiably bad states of the world" from repudiation; "although sovereigns sometimes excusably default, they never repudiate their debts", because the long-… | keep |
+| 40 | Q7-009 | 22 | TWOREASONS | A well-designed escape clause names "(i) a limited and clearly defined set of events triggering the operation of the clause, (ii) the authority to activate it, (iii) the timeline and procedures to re… | adapt |
 
 ## The thinnest parts (fewest ideas rated B or better)
 
 - FUNDRAISING (The fundraising text): 18 rated B or better, 19 in all.
-- RESIDENCY (The residency itself): 60 rated B or better, 60 in all.
-- LAURA (Laura's working life and values): 62 rated B or better, 63 in all.
+- RESIDENCY (The residency itself): 66 rated B or better, 67 in all.
+- LAURA (Laura's working life and values): 72 rated B or better, 73 in all.
+- RESERVE2033 (The operating reserve from 2033): 82 rated B or better, 89 in all.
 - PRESENTATION (How the report shows its work): 83 rated B or better, 84 in all.
-- RESERVE2033 (The operating reserve from 2033): 85 rated B or better, 92 in all.
-- INFLATION_TWD (Inflation, Taiwan costs, the Taiwan dollar): 85 rated B or better, 92 in all.
+- INFLATION_TWD (Inflation, Taiwan costs, the Taiwan dollar): 92 rated B or better, 99 in all.
 - REINVEST (Reinvesting the ladder's interest): 108 rated B or better, 140 in all.
-- COMPLETE2028 (The 2028 deposit completes the ladder): 112 rated B or better, 122 in all.
+- COMPLETE2028 (The 2028 deposit completes the ladder): 117 rated B or better, 127 in all.
