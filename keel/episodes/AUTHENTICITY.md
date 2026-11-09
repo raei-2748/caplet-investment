@@ -128,7 +128,9 @@ a message from Caplet, a finding, a mistake caught); only the people are invente
   quoted from Caplet's 11:06 message (praise, quoted the morning after the IPS was set aside) was dropped under
   question 9. A third read found three small hits (two entry endings that landed a beat, "the curve" unexplained);
   all three were flattened, not read a fourth time. Ep 42 failed its first read on questions 2 and 6 and passed the
-  second with one small hit, then cut.
+  second with one small hit, then cut. Ep 43 (Mon 9 Nov) failed three fresh reads: 16 lines (entry
+  endings, finance and office words), then five (four words a Year 11 wouldn't say, one run of short sentences), then
+  one ("exhibits"); each was cut or put in plain words, and it was not read a fourth time.
 
 ## 3. Sources, and what each teaches (all accessed Sun 8 Nov 2026)
 
