@@ -1,7 +1,11 @@
 """How small the half kept "promised to no one" gets in the years shares fall (Keel, Mon 9 Nov 2026, evening). MODEL.
 
-Run from the repo root:  python3 -I keel/final_report/numbers/kept_half.py
-Writes keel/final_report/numbers/results_kept_half.json and prints the figures.
+Run from the repo root:  python3 -I keel/final_report/numbers/kept_half.py [--design KEEL]
+Writes keel/final_report/numbers/results_kept_half_2026-11-10.json and prints the figures (the Mon 9 Nov
+results_kept_half.json, on Keel's margin, is kept). Tue 10 Nov: the completion is the call in completion.py (H_plain);
+the kept half plus the range rule's excess (card Q19, CANON D12) is added. Tue 10 Nov afternoon: the range rule is
+completion.rule on the fund's own holdings (0.5% cut), and VT is what plan.run buys under Keel's reading of "most"
+(the floor gets at least $75,001), not a fixed 26.7% of what is left.
 
 Why: the IPS keeps half of VT for overruns, a stronger Taiwan dollar or "a co-sponsor falling short", and says
 co-sponsors cut budgets when shares fall. The kept half is itself in VT, so it is likely to be smaller in exactly those
@@ -22,19 +26,18 @@ import engine as E   # noqa: E402
 import plan as P     # noqa: E402
 
 c = E.Curve(E.load_par())
-res = json.load(open(HERE / "results_2026-11-06.json"))
-m3 = None
-for v in res.values():
-    if isinstance(v, dict) and "margin_minus3" in v:
-        m3 = v["margin_minus3"]["margin_jan2027_value"]
-if m3 is None:
-    m3 = res["plan"]["margin_minus3"]["margin_jan2027_value"]
+import completion as C   # noqa: E402
+NAME = C.design_arg()
+m3 = C.design(NAME)["margin"]
+MF = C.margin_fn(NAME)
 
 
-def summary(fin, vt3, vt2):
+def summary(fin, vt3, vt2, sF=0.0, sM=0.0):
     kept = fin["kept33"]
+    rr = C.rule(fin, sF, sM)
+    kpe = kept + rr["excess"]
     top = fin["top"]
-    vt_cost = fin["R"] * (1 - E.ASSUMPTIONS["floor_share"])          # VT bought in Jan 2028, at cost
+    vt_cost = fin["vt28"] + 0 * kept                                 # VT bought in Jan 2028, at cost (most rule)
     kept_at_cost = vt_cost / 2
     fell2 = vt2 < 1.0
     fell5 = vt3 * vt2 < 1.0
@@ -54,6 +57,14 @@ def summary(fin, vt3, vt2):
         "kept_median_if_vt_below_cost_2033": q(kept[fell5], 50),
         "share_paths_kept_under_15k": float((kept < 15_000).mean()),
         "share_paths_kept_under_10k": float((kept < 10_000).mean()),
+        "kept_plus_excess_p1_p5_p50_p95": [q(kpe, 1), q(kpe, 5), q(kpe, 50), q(kpe, 95)],
+        "kept_plus_excess_median_if_fell_2031_2033": q(kpe[fell2], 50),
+        "kept_plus_excess_median_if_rose_2031_2033": q(kpe[~fell2], 50),
+        "kept_plus_excess_median_if_fell_over_20pct": q(kpe[deep2], 50),
+        "kept_plus_excess_median_if_vt_below_cost_2033": q(kpe[fell5], 50),
+        "share_paths_kept_plus_excess_under_15k": float((kpe < 15_000).mean()),
+        "share_paths_kept_plus_excess_under_10k": float((kpe < 10_000).mean()),
+        "excess_p5_p50_p95": [q(rr["excess"], 5), q(rr["excess"], 50), q(rr["excess"], 95)],
     }
 
 
@@ -67,21 +78,30 @@ d2 = rng.normal(0, sv * math.sqrt(3), P.N)
 mu, sd = math.log(1 + E.ASSUMPTIONS["eq_growth"]), E.ASSUMPTIONS["eq_vol"]
 vt3 = np.exp(rng.normal(mu * 3, sd * math.sqrt(3), P.N))
 vt2 = np.exp(rng.normal(mu * 2, sd * math.sqrt(2), P.N))
-fin = P.run(c, m3, None, 150_000.0, d0, d1, d2, vt3, vt2)
-out = {"house": summary(fin, vt3, vt2)}
+fin = P.run(c, m3, None, 150_000.0, d0, d1, d2, vt3, vt2, MF)
+out = {"house": summary(fin, vt3, vt2, d0 + d1, d0 + d1 + d2)}
 
 w = P.shiller_windows()
 h3 = np.array([a for _, a, _ in w])
 h2 = np.array([b for _, _, b in w])
-fin_h = P.run(c, m3, None, 150_000.0, 0.0, 0.0, 0.0, h3, h2)
+fin_h = P.run(c, m3, None, 150_000.0, 0.0, 0.0, 0.0, h3, h2, MF)
 out["history"] = summary(fin_h, h3, h2)
 lo = int(np.argmin(fin_h["kept33"]))
 out["history"]["kept_lowest"] = {"value": float(fin_h["kept33"][lo]), "start": w[lo][0]}
 starts = {"1929-09": None, "1973-01": None, "2000-03": None, "2007-10": None, "2020-01": None}
+ex_h = C.rule(fin_h)["excess"]
+starts_x = {}
 for i, (k, _, _) in enumerate(w):
     if k[:7] in starts:
         starts[k[:7]] = float(fin_h["kept33"][i])
+        starts_x[k[:7]] = float(fin_h["kept33"][i] + ex_h[i])
 out["history"]["kept_at_named_starts"] = starts
-out["stamp"] = {"curve": E.CURVE_DAY, "margin_jan2027_value": m3, "run": "Mon 9 Nov 2026 evening"}
-json.dump(out, open(HERE / "results_kept_half.json", "w"), indent=1)
+out["history"]["kept_plus_excess_at_named_starts"] = starts_x
+out["history"]["kept_plus_excess_lowest"] = float(np.min(fin_h["kept33"] + ex_h))
+cen = P.run(c, m3, margin_fn=MF)
+out["central"] = {"kept33": float(cen["kept33"]), "vt_bought_jan2028": float(cen["vt28"]),
+                  "kept_at_cost": float(cen["vt28"] / 2),
+                  "excess": float(C.rule(cen)["excess"])}
+out["stamp"] = {"curve": E.CURVE_DAY, "design": NAME, "margin_jan2027_value": m3, "run": C.RUN}
+json.dump(out, open(HERE / f"results_kept_half_2026-11-10{C.tag(NAME)}.json", "w"), indent=1)
 print(json.dumps(out, indent=1))

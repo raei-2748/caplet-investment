@@ -114,3 +114,13 @@ one month in four since 1871 holds (25.2%), but nearly all of it is 1966-1999; "
 (19 Oct 2023 was under $300,000); 10.9% of days since 2000.
 (d) The 7 Oct mis-click is told as Caplet's own tab tells it ("a mis-click incident led to the rule that only Ray
 places or cancels orders").
+(e) **Tue 10 Nov: fact sheets for the 16 Nov re-rank** (`cards/Q21_team_reflection_events.md`, section a2): every top-24
+event with its before and after, its source line, whether each figure holds on the register (VOID ones listed with
+replacements: X006, X020 in part, X026, X028, X032 in part, X045, X059, X087), and whether it repeats the Trading
+Notes or the IPS (X044 repeats note 2; X013 sits against note 1's "duration-matching"; X100 partly repeats note 3;
+X003 and X059 partly repeat note 2; X026, X028 and X087 repeat the IPS's completion rule). The 16 Nov readers get
+the corrected texts, not the old cards. Only about seven events can be told with register figures at both ends. (f) The
+post-submission test of the career idea was Keel's analysis on Sun 8 Nov (20:01-20:10 Sydney), after the IPS went in;
+Caplet's own notes held the 2020 counter-example on 14 Oct. It is planned for 3e as a limit. (g) The record supports
+a narrower roles line than "the advisor did administration only": the advisor handled administration; the team chose
+and wrote its IPS; only Ray placed orders (Q21 claim 3).

@@ -1,4 +1,4 @@
-# Scorecard: where the Final Report is weakest (re-scored every run; from Mon 9 Nov 2026)
+# Scorecard: where the Final Report is weakest (re-scored every run; from Mon 9 Nov 2026; last Tue 10 Nov)
 
 The loop's engine (`BEST_IN_COMPETITION.md` section 3, `DAILY_RUN.md` "The loop"). Rows are Wharton's required parts
 (`SKELETON.md`) and the minimum requirements; columns are five tests drawn from the criteria and the two readers:
@@ -13,24 +13,25 @@ The loop's engine (`BEST_IN_COMPETITION.md` section 3, `DAILY_RUN.md` "The loop"
 the scores judge the plan and its evidence, since there is no prose. A score rises only when evidence lands. Each run
 changes only the cells its work touched, with the reason in the log below.
 
-## Keel's scores (Mon 9 Nov, night: baseline, then re-scored after cards Q15-Q17 landed)
+## Keel's scores (re-scored Tue 10 Nov, morning, after the Day 3 run; Mon 9 Nov values in brackets where changed)
 
 | Part | E | P | C | K | D | Lowest | What would make it a 5 |
 |---|---|---|---|---|---|---|---|
-| First page and the one argument (INTENT) | 4 | 4 | 3 | 5 | 3 | 3 | A governing thought a stack reader repeats after one page; the three numbers on it |
-| 2.1-2.4 The book: table, construction, roles | 4 | 3 | 3 | 5 | 2 | 2 | The "whole plan in miniature" reading made obvious; WInS identifiers in the table; VT's breadth read at source |
-| 2.5 How well it was implemented | 4 | 4 | 3 | 4 | 3 | 3 | Professional measures for a matched book (Q17), each with a value; frictions in dollars; limits named |
-| 3a Commitment, certainty, the reserve | 4 | 4 | 3 | 4 | 4 | 3 | The reserve's paying-out mechanics (Q16); certainty evaluated four ways with one figure each |
-| 3b Contribution and flexibility | 4 | 4 | 3 | 4 | 3 | 3 | Why half (Q5) and what VT costs, each in one line; the kept half's bad-year size as a stated limit |
-| 3c The 2031 range and its confidence | 4 | 4 | 3 | 5 | 4 | 3 | Confidence stated in numbers and words on a recognised scale; the factors ranked by size |
-| 3d Words for co-sponsors | 3 | 3 | 2 | 4 | 2 | 2 | A checklist from how funders count pledges (Q18) and real case statements (Q11b); a reader test |
-| 3e Assumptions and limits | 4 | 4 | 3 | 4 | 3 | 3 | One assumptions table, every row sourced; limits each paired with a decision |
-| 3e What to monitor to 2031 and 2033 | 4 | 3 | 3 | 4 | 4 | 3 | The watch list against the two triggers (Q15), each signal with what it changes and what it never changes |
-| 3f Team Reflection | 4 | 3 | 3 | 3 | 4 | 3 | Three or four blind-ranked events, each tied to a change in the recommendation; none repeats the Trading Notes |
-| Exhibits | 3 | 3 | 2 | 4 | 3 | 2 | Two designed and tested on a fresh reader, each answering one case question |
-| Minimum requirements (format, APA, permitted investments, page limits) | 2 | | | 5 | | 2 | APA elements for every source carded; a page template tested in Wharton's format |
+| First page and the one argument (INTENT) | 4 | 4 | 4 (3) | 5 | 4 (3) | 4 | A fresh reader repeats the 2.0 lead after one read; the co-sponsor proposition tested on a funder |
+| 2.1-2.4 The book: table, construction, roles | 5 (4) | 4 (3) | 3 | 5 | 3 (2) | 3 | Table 1 and the 2.1 answer ("the whole plan built at $300,000") read right by a stranger in five seconds; WInS identifiers |
+| 2.5 How well it was implemented | 4 | 4 | 3 | 4 | 3 | 3 | The measures in one small table a judge can scan; the maturity-not-duration point in one plain line |
+| 3a Commitment, certainty, the reserve | 5 (4) | 5 (4) | 3 | 4 | 4 | 3 | The escrow standard said in one plain sentence a lay judge repeats; Figure 1 rebuilt on the new reserve |
+| 3b Contribution and flexibility | 5 (4) | 4 | 3 | 4 | 4 (3) | 3 | Why about $75,000 at forward rates returns to Laura while the gift is $115,000, said so it reads as design, not as holding back |
+| 3c The 2031 range and its confidence | 5 (4) | 5 (4) | 4 (3) | 5 | 4 | 4 | Table 2 tested on a fresh reader; the rule in three plain lines |
+| 3d Words for co-sponsors | 4 (3) | 4 (3) | 3 (2) | 4 | 3 (2) | 3 | The passage read by someone who has funded or raised money ("would you take the meeting?") |
+| 3e Assumptions and limits | 5 (4) | 4 | 3 | 4 | 4 (3) | 3 | The assumptions in Table 2's note, every row sourced; the joint recession test in one line |
+| 3e What to monitor to 2031 and 2033 | 4 | 3 | 3 | 4 | 4 | 3 | Table 3 built from Q15's three tiers and checked by a bond reader |
+| 3f Team Reflection | 4 | 4 (3) | 3 | 4 (3) | 4 | 3 | Three or four events from the 16 Nov re-rank, read on corrected fact sheets, each ending on a number that changed |
+| Exhibits | 4 (3) | 4 (3) | 3 (2) | 4 | 3 | 3 | Table 1, Figure 1 and Table 2 built on today's register and passed by a fresh reader (due Mon 23 Nov) |
+| Minimum requirements (format, APA, permitted investments, page limits) | 4 (2) | | | 5 | | 4 | The 11 card citation conflicts fixed; the five bond identifiers from Caplet's export |
 
-Mean of the row minimums: 2.67 (baseline 2.5). Lowest cells: 2.1-2.4 D, 3d, exhibits, minimum requirements (APA).
+Mean of the row minimums: 3.25 (Mon 9 Nov 2.67; baseline 2.5). Lowest cells: clarity (C) almost everywhere, which
+only fresh readers can raise; the 2.1-2.4 book's distinctiveness; the reflection waits for the 16 Nov re-rank.
 
 ## Panel 1 (Mon 9 Nov, night): three blind judges on INTENT and SKELETON
 
@@ -55,37 +56,31 @@ Files in `research/panel/2026-11-09_judge_*.md`. A bond-desk manager (one model)
 | Exhibit 2 reserve | 4 | 4 | 4 | 4.0 | |
 | Exhibit 3 | 3 | 3 | 3 | 3.0 | Two judges: a scenario table (forwards, lower rates, recession, inflation); one: the range narrowing under three markets |
 
-Panel mean about 3.3. As planned: a strong report, not yet the best in the competition.
+Panel mean about 3.3. As planned: a strong report, not yet the best in the competition. Figures the panel quoted (the
+$130,000 top, Keel's $323,436) were superseded on Tue 10 Nov by the escrow standard and the range rule (NUMBERS 2, 4).
 
-## Targets for the next runs (from the panel and the research of Mon 9 Nov night; highest first)
+## Targets for the next runs (Tue 10 Nov; highest first)
 
-1. **The range: framing and arithmetic (3c, 3d).** Per-end deductions ($130,000 top); a cap rule (the contribution is the
-   stated figure, any excess joins the kept half, CANON D12); why a range of choice and not one figure; both ends'
-   1-in-20 from today; the confidence in one number and what would lower it. Q18 (pledges, stated confidence) feeds it.
-2. **The pooled book that pays at zero interest (3a).** NUMBERS section 2 candidate: all ten rungs held, every payment met
-   even if interest earns nothing, $320,707-$325,569 against Keel's call $323,436; it passes the escrow verifier's test
-   (Q17). Check against CANON and the Trading Notes; decide; re-run the register.
-3. **The Team Reflection (3f).** Budget 500-650 words, taken from 2.4 (merged into 2.1) and 3e (to its table); events
-   chosen at the 16 Nov blind re-rank on Wharton's wording, each with a before and after number; the post-submission
-   test of the career idea placed; no event that repeats the Trading Notes (the IBTN and stale-price events).
-4. **Diversification (2.3).** The portfolio diversifies Laura (her career is the equity); the promised money is
-   deliberately concentrated in one issuer and matched by date; maturity matching, not duration matching (7.76 against
-   9.94 years; hedge ratio 78% against 100% cash coverage, Q17); fix CANON C12's "also matches duration".
-5. **The kept half as a designed contingency (3b),** with purpose, order of use, size at 2031 and 2033 and a release rule;
-   the joint stress (a recession lowers rates and shares together) as Exhibit 3 candidate; liquidity named; the
-   completion's use of about $24,500 of the 2028 deposit said plainly.
-6. **The first page:** the governing thought and three numbers at the head of Section 2.
-7. **The holdings table (Exhibit 1):** split the $1,309.42 ($200 commissions, $1,109.42 accrued interest, Q17) and choose
-   between cost with costs inside each holding and final weights; WInS identifiers from Caplet's export.
-8. **Monitoring (3e):** Q15's three tiers (signals, thresholds that call a decision, two automatic triggers); the next
-   debt-limit date projected near the January 2028 purchase; the IPS has the "if" but not the "then".
-9. **Register and canon fixes from Q17 (I1-I7):** rung coverage 65.6-70.4% (CLAUDE.md says 67-72%); VT 8.84% of the book
-   against 7.45% of the plan; which rung the completion tops up first; COMPETITION.md section 7's void design.
+1. **The bond-desk check of the rewritten register** (`research/panel/2026-11-10_bond_desk_register_check.md`): fix every
+   finding before any plan file or exhibit quotes a new figure.
+2. **Clarity, the lowest column.** A fresh reader with a stack reads the 2.0 lead notes, Table 1 and Table 2 once and
+   says what they mean; panel 2 (Thu 12 Nov) scores INTENT and SKELETON version 2 blind.
+3. **Exhibits on the new register.** `exhibits/exhibit_data.py` holds Mon 9 Nov figures by hand: rebuild Figure 1 (the
+   rungs now pay exactly $50,000 at forward rates and the backstop covers the rest) and Table 2 from NUMBERS 8i.
+4. **What returns to Laura (3b).** At forward rates about $44,000 of reserve overflow (2033 money), $9,500 of excess
+   above the stated top and the $21,500 half kept stay hers while the gift is $115,000. Say why that is design (promise
+   only what is certain; the rest is flexibility she may later give by a separate, announced choice), and test it on the
+   funder judge's "under-signals" objection.
+5. **The Team Reflection (3f):** corrected event texts from card Q21 for the 16 Nov readers, ready by Sun 15 Nov.
+6. **Table 3, monitoring (3e),** from card Q15's three tiers.
+7. **Citations:** the 11 conflicts in `research/REFERENCES_APA.md` fixed in the cards they come from.
+8. **Q2 (Thu 12 Nov):** how certainty is evaluated, now on the escrow standard.
 
 ## Log (newest first)
 
 | Date (Sydney) | Run | Cells changed | Why |
 |---|---|---|---|
+| Tue 10 Nov, morning | Day 3: panel 1 acted on; nine workers; register re-run | First page C3>4 D3>4; book E4>5 P3>4 D2>3; 3a E4>5 P4>5; 3b E4>5 D3>4; 3c E4>5 P4>5 C3>4; 3d E3>4 P3>4 C2>3 D2>3; 3e assumptions E4>5 D3>4; 3f P3>4 K3>4; exhibits E3>4 P3>4 C2>3; minimum requirements E2>4 | INTENT and SKELETON version 2 on all three judges' advice; payments to the escrow standard, paid even if interest earns nothing (Q20); the range as a rule true by construction (Q19); the half kept designed, the joint recession tested (Q24); co-sponsor checklist with 39 sourced rows (Q22); event fact sheets with VOID figures found (Q21); Wharton's format measured at about 330 words a page (Q23); 124 APA entries, 103 confirmed (REFERENCES_APA); diversification answered at the source (Q1c) |
 | Mon 9 Nov, night | Cards Q15-Q17 | 2.5 E3>4 P3>4 D2>3; monitoring E2>4 P2>3 D3>4 | Q17 gave professional measures with values (escrow verifier's two tests, $250 of costs against a $37,625 swing); Q15 gave the three tiers, the X-date record and the January 2028 risk |
 | Mon 9 Nov, night | Panel 1 | none of Keel's cells | The panel's means sit beside Keel's baseline; the Day 3 run re-scores Keel's cells after acting on targets 1-3 |
 | Mon 9 Nov, night | Baseline | all | First scoring, by Keel, after the instructions arrived |

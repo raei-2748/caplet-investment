@@ -1,0 +1,114 @@
+{
+ "house": {
+  "kept_half_at_cost_2028": 14906.818564002748,
+  "kept_p1_p5_p50_p95": [
+   6670.465741764184,
+   9881.236889574937,
+   20738.638468607984,
+   41258.136025700245
+  ],
+  "kept_as_share_of_top_p5_p50_p95": [
+   0.08774620650865939,
+   0.16699439124111173,
+   0.3039002011966815
+  ],
+  "share_paths_shares_fell_2031_2033": 0.28422,
+  "kept_median_if_fell_2031_2033": 15422.661966962587,
+  "kept_p5_if_fell_2031_2033": 8033.5719074625185,
+  "kept_median_if_rose_2031_2033": 23314.607463582593,
+  "share_paths_fell_over_20pct_2031_2033": 0.073195,
+  "kept_median_if_fell_over_20pct": 12963.513219785847,
+  "share_paths_vt_below_cost_2033": 0.18274,
+  "kept_median_if_vt_below_cost_2033": 12208.1455853892,
+  "share_paths_kept_under_15k": 0.226725,
+  "share_paths_kept_under_10k": 0.052475,
+  "kept_plus_excess_p1_p5_p50_p95": [
+   12027.487603281988,
+   16193.060743308508,
+   28540.632639984036,
+   49923.93165155483
+  ],
+  "kept_plus_excess_median_if_fell_2031_2033": 23201.36850542436,
+  "kept_plus_excess_median_if_rose_2031_2033": 31108.39985458192,
+  "kept_plus_excess_median_if_fell_over_20pct": 20726.511514931983,
+  "kept_plus_excess_median_if_vt_below_cost_2033": 19507.8978668744,
+  "share_paths_kept_plus_excess_under_15k": 0.033305,
+  "share_paths_kept_plus_excess_under_10k": 0.003995,
+  "excess_p5_p50_p95": [
+   4339.732387873777,
+   7629.1054462812535,
+   11218.222198070978
+  ]
+ },
+ "history": {
+  "kept_half_at_cost_2028": 14914.334009674596,
+  "kept_p1_p5_p50_p95": [
+   8298.500768759512,
+   13238.259705759978,
+   23481.232203086234,
+   40607.47252898624
+  ],
+  "kept_as_share_of_top_p5_p50_p95": [
+   0.10986467689141079,
+   0.18870128937248815,
+   0.3059217064545997
+  ],
+  "share_paths_shares_fell_2031_2033": 0.20734463276836157,
+  "kept_median_if_fell_2031_2033": 16163.901090360261,
+  "kept_p5_if_fell_2031_2033": 10139.974156556731,
+  "kept_median_if_rose_2031_2033": 25190.217623004413,
+  "share_paths_fell_over_20pct_2031_2033": 0.0519774011299435,
+  "kept_median_if_fell_over_20pct": 14481.387804984768,
+  "share_paths_vt_below_cost_2033": 0.10508474576271186,
+  "kept_median_if_vt_below_cost_2033": 13311.30036862259,
+  "share_paths_kept_under_15k": 0.11073446327683616,
+  "share_paths_kept_under_10k": 0.022033898305084745,
+  "kept_plus_excess_p1_p5_p50_p95": [
+   15230.753711229612,
+   20018.69042058216,
+   30901.57961950668,
+   48398.68006954035
+  ],
+  "kept_plus_excess_median_if_fell_2031_2033": 23986.887021863637,
+  "kept_plus_excess_median_if_rose_2031_2033": 32681.49360051693,
+  "kept_plus_excess_median_if_fell_over_20pct": 21658.009625768012,
+  "kept_plus_excess_median_if_vt_below_cost_2033": 20217.928022150183,
+  "share_paths_kept_plus_excess_under_15k": 0.00847457627118644,
+  "share_paths_kept_plus_excess_under_10k": 0.0,
+  "excess_p5_p50_p95": [
+   5322.161735611427,
+   7524.395054399283,
+   9846.011575431485
+  ],
+  "kept_lowest": {
+   "value": 5779.454812061106,
+   "start": "1929-09"
+  },
+  "kept_at_named_starts": {
+   "1929-09": 5779.454812061106,
+   "1973-01": 13832.449156255638,
+   "2000-03": 13288.567465896826,
+   "2007-10": 15507.693258142463,
+   "2020-01": null
+  },
+  "kept_plus_excess_at_named_starts": {
+   "1929-09": 14258.809478473639,
+   "1973-01": 22035.955468757093,
+   "2000-03": 21478.012044450566,
+   "2007-10": 22037.39893795614
+  },
+  "kept_plus_excess_lowest": 12838.137706827445
+ },
+ "central": {
+  "kept33": 21347.297953761732,
+  "vt_bought_jan2028": 29828.668019349192,
+  "kept_at_cost": 14914.334009674596,
+  "excess": 8475.557547838442
+ },
+ "stamp": {
+  "curve": "11/06/2026",
+  "design": "H_plain",
+  "margin_jan2027_value": 34369.05592462372,
+  "run": "Tue 10 Nov 2026 (Sydney)"
+ }
+}

@@ -474,3 +474,442 @@ Q9-032,3,5,5,4,keep,,"Taipei's public residencies run on 71% and 86% city money,
 Q9-033,4,5,5,5,keep,,"Top-40: the private half of Taiwan's national arts fund was promised in law and never arrived, plain proof that a pledge is not money in hand."
 Q9-034,3,5,5,4,merged,Q4b-026,"Same NCAF income fall as Q4b-026, which settles its cause; the grant-steadying reserve fits Q4b-027."
 Q9-035,3,4,3,5,keep,,"Keel arithmetic putting $50,000 a year at about a tenth of a small Taipei residency's 2018 budget; context, not a facility estimate."
+Q10-001,4,3,5,5,keep,,"3e assumptions table and 3b: J.P. Morgan 2027's 2.4% US inflation is the same edition as the 7.5%, so VT's real return is about 5%; the central rate for every real-value figure."
+Q10-002,3,1,5,4,keep,,"3e assumptions table: the verified source line for 7.5% and 17.88%; the register mismatch it flagged was fixed in NUMBERS 0 on 9 Nov, so nothing else to use."
+Q10-003,2,3,5,4,keep,,The Cleveland Fed's 2.7% is the cautious anchor for the band; recheck after its 10 Nov update before quoting; 3e at most.
+Q10-004,3,3,5,4,keep,,3b or 3e: the market's 2.23% breakeven on the freeze date leaves the ladder about 2.6 points above expected inflation; backs the TNA's TIPS line for the payments.
+Q10-005,2,3,5,4,keep,,"SPF's 2.3% with a narrow spread across forecasters; one more anchor for the 3e band, little room for it in 190 words."
+Q10-006,2,5,5,4,keep,,"A published 1-in-4 chance of 3% or more inflation even next year; good for 'how sure', but one-year bins only and the payments do not depend on it."
+Q10-007,2,3,5,4,keep,,"CBO's 2.3% official path; a supporting anchor for the band, already looking low after 2026's 3.7%."
+Q10-008,2,5,5,3,keep,,"The Fed's own 70% band is about 3.4 points wide for one year; single-year errors overstate a 16-year average's spread, so background for 3e."
+Q10-009,2,3,4,4,keep,,IMF anchors stop in 2031 and the vintage was not re-read; the low Taiwan anchor only.
+Q10-010,3,1,5,5,keep,,Shows the 3.5% high case is the last decade plus a little; one clause in 3e or in Exhibit 3's inflation row.
+Q10-011,2,3,4,4,merged,Q10-012,Same CPI-window method as Q10-012 at 10 years; the 16-year window matches 2027-2042 and is the one to use.
+Q10-012,3,5,4,4,keep,,"Sets the 1.9%-3.5% band from every 16-year stretch since 1960, the plan's own length; 3e assumptions and Exhibit 3's inflation row; carries Q10-011."
+Q10-013,4,1,4,5,adapt,,"3b and 3e: at 2.4% the 2042 payment buys about 70% of today's $50,000 (NUMBERS 8d); word the TNA's 'nonexistent inflation risk' as nil for funding the payments and real for what they buy (CANON C15)."
+Q10-014,4,1,4,5,adapt,,"3b: the gift in today's dollars (about $95k-$117k at 2.4%); the $135,000 top is under review and INTENT v2 says about $110k-$130k, so recompute from the Q19 range rule before use."
+Q10-015,2,3,5,4,keep,,"Dated Taiwan CPI input (2.33% in October) that updates CLAUDE.md's August figure; a 3e watch item, not a report line."
+Q10-016,2,3,5,4,keep,,"The official Taiwan anchor for the 1.8% central, made before the September and October readings."
+Q10-017,2,3,4,4,keep,,"Long-run Taiwan CPI sets the 1.0%-2.5% band, which matters only for the NT$ frame the card itself calls less cautious."
+Q10-018,3,5,4,3,keep,,"Why a stronger Taiwan dollar is a real tail: Taiwan prices rose far less than US ones since 2000 yet the NT$ is weaker; supports 3b's flexibility, but price parity is no forecast."
+Q10-019,3,3,4,5,keep,,"Building costs up 7.29% in a year, about three times CPI; a dated input for 3b and a 3e watch item; October's figure is secondary."
+Q10-020,3,5,4,4,keep,,"Sets the 1.5%-5.0% construction band (3.27% a year over five years) for 3b and Exhibit 3, and corrects the old 3.5% since 2021."
+Q10-021,5,5,4,4,adapt,,"3b's exact ask, the gift as a down payment in Taiwan building terms; use NUMBERS 8d's NT$3.00m-3.69m at 3% and NT$2.67m-3.27m at 5% (the card's NT$3.02m-3.70m and NT$2.69m-3.30m differ) and recompute on the final range."
+Q10-022,4,5,3,4,adapt,,"3b sizes 'building costs that overrun' from 2031 to 2033 against the kept half; VOID figure: the kept half's 1-in-20 'about $13,000' is now $12,150 (NUMBERS 8f; $12k in section 4); the cost-gap figures must enter NUMBERS first."
+Q10-023,2,5,4,3,keep,,"The NT$ view of each payment; the card itself says the US frame is the cautious one to print, so background."
+Q10-024,3,1,5,5,keep,,The dated NT$ rate (32.768 on 6 Nov) under every NT$ figure in 3b; replaces CLAUDE.md's 31.82.
+Q10-025,5,5,4,4,keep,,"3b and 3e: tests the IPS's 'a stronger Taiwan dollar' use of the kept half, since one move to the 10-year high costs about $21k-$26k, about the whole middle-case kept half (NUMBERS 8d); recompute on the final range; carries Q15-035."
+Q15-001,3,5,5,4,keep,,"3e monitoring table's tier logic: a bank's indicator breach is an alarm to look, never an automatic act; carries Q15-002; one clause at most."
+Q15-002,3,5,5,4,merged,Q15-001,Same EBA watch-versus-act split as Q15-001.
+Q15-003,2,3,5,3,keep,,"Basel's 'invocation' and 'assessment' words; bank liquidity is daily and short-term, so a weak fit for 3e."
+Q15-004,4,5,5,4,adapt,,"3e: the two reasons are the only two ways the book's cash flows can change, as insurers' matching rules allow change only when cash flows do; cite the principle only, since an iBond rung pays NAV and would not count as fixed (TNA note 2); carries Q15-005."
+Q15-005,3,5,5,4,merged,Q15-004,The UK regulator's reading of the same matching-adjustment rule ('out of the control of the firm').
+Q15-006,4,5,5,4,adapt,,"3e: an escrow is watched by statement and acted on only if the securities cannot pay, and its named residual is the Treasury paying late; say that the ladder, unlike an escrow, counts on reinvested coupons, which the 2028 completion covers (CANON C9)."
+Q15-007,3,5,5,4,merged,Q16-022,"Scheduled escrow statements make the same point as the lottery's yearly sufficiency report, which is closer to Laura's annual payments."
+Q15-008,2,5,5,4,keep,,"Pension triggers fire on numbers and some act automatically; a contrast only, since Laura has none and must add none (CANON A34)."
+Q15-009,4,5,5,5,keep,,"3e and 3c: pensions that de-risk never 're-risk' after a fall, the professional form of 'a fall in the market is not one of them'; fits the 2028 floor and the 2031 move."
+Q15-010,2,3,5,4,keep,,Monitoring at several speeds; the 3e table can carry a 'how often' column without the citation.
+Q15-011,3,3,5,4,keep,,"A yearly look is the regulator's minimum, more often only near a limit; sets the 3e table's default frequency."
+Q15-012,2,3,3,4,keep,,"CFA's 'assign responsibility for monitoring', read via an excerpt; its benchmark focus does not fit a ladder."
+Q15-013,2,3,5,4,keep,,Endowments review quarterly because they rebalance to targets; a one-line disanalogy at most.
+Q15-014,3,5,4,4,merged,Q15-015,"The 1979 late payment from an abstract whose 60bp effect CRS disputes; Q15-015 is the fuller, checked account."
+Q15-015,4,5,5,4,keep,,"3e limits: the one US late payment (1979) was a three-week back-office delay on paper checks with no compensation, so 'a US default' most likely means a late payment; carries Q15-014."
+Q15-016,1,5,1,3,refuse,,Conflicts with CRS (no new law was passed); the card itself says do not use.
+Q15-017,3,5,5,4,keep,,"3e limits: the market's playbook rolls a delayed maturity one day at a time with no interest, so only a long delay could reach a payment."
+Q15-018,1,5,5,3,keep,,"Treasury never endorsed the delay playbooks; the card shows this weakness does not apply to Laura, so no report use."
+Q15-019,3,5,5,4,keep,,"In both standoffs bondholders were planned to be paid first; supports the 3e base rate, but second-hand and legally disputed."
+Q15-020,3,5,5,3,keep,,"3e watch signal: bills maturing just after the X-date yield more, and long Treasuries got dearer, which would raise a January 2028 completion's price; carries Q16-037."
+Q15-021,2,5,5,4,merged,Q15-023,Source for the 2013 warning time summed in Q15-023.
+Q15-022,2,5,4,4,merged,Q15-023,Source for the 2023 warning time summed in Q15-023.
+Q15-023,3,3,4,5,keep,,"3e: past standoffs gave 78 to 151 days of public warning and 1979 gave none, so default can mostly be watched; carries Q15-021 and Q15-022."
+Q15-024,4,5,5,4,keep,,"3e base rate for the second reason: 13 debt-limit impasses since 2011 with no missed payment, and GAO's bill kink is a ready watch signal; carries Q15-025."
+Q15-025,2,3,4,4,merged,Q15-024,"Earlier GAO study, superseded by Q15-024."
+Q15-026,4,5,4,5,keep,,"3a and 3e: the next X-date is projected for late 2027 to early 2028, the month the plan completes the ladder and buys the floor; a price risk only, never a reason to move the dates; drop the 'only payment in the window' line, which leaves out the funds' monthly distributions."
+Q15-027,3,3,4,5,keep,,"A 3e table row: a downgrade is a watch item, not a missed payment; Moody's Aa1 was not re-read today."
+Q15-028,3,5,5,4,adapt,,"3e watch item and 3a: the IBTM board 'may extend the termination date', and mid-December 2032 is the plan's busiest date; against TNA note 2's 'the timing fits', say an extension delays cash and never cuts it; carries Q16-004."
+Q15-029,3,3,5,4,keep,,"3e: watch each fund closely in its last six months, as its yield drifts to money-market rates; BlackRock's count of past Treasury liquidations (five) is higher than Q16-006's three; carries Q16-005."
+Q15-030,4,5,4,4,keep,,"3e limits: turns 'a US default' into a dated question, since the T-bonds end 47-320 days early and absorb a 1979-length delay while the iBond rungs end about 17 days early and might not; refines store H3-013."
+Q15-031,2,3,5,4,keep,,"Names the free public tables for the default watch (Daily Treasury Statement, par curve); a 'where to read it' column only."
+Q15-032,2,1,3,4,merged,Q15-034,"Giving USA is the same yearly co-sponsor-climate watch line as Q15-034, read through a summary."
+Q15-033,2,3,5,4,merged,Q15-034,Candid's survey is the same co-sponsor-climate watch line as Q15-034.
+Q15-034,2,3,5,4,keep,,"3e: one yearly co-sponsor-climate row (corporate giving follows lagged profits, Q4b) that changes the message, never the range; carries Q15-032 and Q15-033."
+Q15-035,3,3,5,4,merged,Q10-025,Restates Q10 rows as watch items; Q10-025 holds the Taiwan dollar sizing and Q10-019 the cost index.
+Q15-036,5,4,3,4,keep,,"The spine of 3e's monitoring table: each signal mapped to the number it moves and the instruction it leaves alone (INTENT point 5); register figures, MODEL."
+Q15-037,5,4,3,4,adapt,,"3e limits: reinvestment (short in 6.0% of windows, worst $12,117, with Keel's margin) and an iBond rung's cash wait can still nick a payment; name them after 'barring a US default' (CANON C9); recheck if card Q20 picks the pooled book."
+Q15-038,2,3,4,4,keep,,"Written, reported monitoring helps reach goals (d = 0.40), but in health and study, not portfolios; background for a yearly written check."
+Q15-039,3,3,4,4,adapt,,"3e: the IPS names the two 'ifs' but not the 'thens'; state each response as what the IPS order already does (ladder first, nothing else moves) and add no rule (CANON A34, D9); carries Q15-041."
+Q15-040,3,5,5,4,keep,,"3e: the Fed dropped a numeric threshold as it neared, while an event cannot be argued away; explains why the IPS's two reasons are events."
+Q15-041,2,5,5,3,merged,Q15-039,The Fed's pre-written debt-limit memos make the same 'responses written in advance' point as Q15-039.
+Q16-001,4,3,5,4,keep,,"3a and 2.1: the prospectus words for how the 2033 rung pays (liquidation at NAV 'on or about December 15, 2032', no predetermined amount); the exact form behind TNA note 2."
+Q16-002,4,5,5,3,keep,,"3a: the 2026 prospectus reinvests in the fund's own notes in its last months, so NUMBERS 3's 'earns nothing' is a stress test, not the expected case (now in NUMBERS 8h)."
+Q16-003,3,3,5,4,keep,,"Minimum-requirements check: the iBond rungs' index excludes STRIPS and TIPS, so they are permitted; one clause in 2.2 if a judge could wonder."
+Q16-004,3,5,5,4,merged,Q15-028,Same prospectus sentence on the board extending the end date as Q15-028.
+Q16-005,3,3,5,4,merged,Q15-029,The prospectus's 'declining yield risk' is the same last-months point as Q15-029.
+Q16-006,4,5,5,4,keep,,"3a liquidity and Exhibit 2: past iBond Treasury funds paid cash 10 to 14 days before 1 January, on schedule; BlackRock's case study counts more terminations than these three (Q15-029), so check the count and say 'every one so far'."
+Q16-007,3,5,5,5,keep,,"3a and 3e: the yearly routine is read the October notice, do nothing, receive cash in mid-December and pay on 1 January."
+Q16-008,4,5,4,5,keep,,"2.1 and 3a: IBTF, a fund that already ended, returned about its launch-day yield after a -6.4% year, real proof of TNA note 2's 'behave a lot like bonds when held to their end'."
+Q16-009,2,5,3,4,keep,,"IBTF's final months earned bill rates, as disclosed; the December figures are secondary."
+Q16-010,2,5,2,4,keep,,"IBTE's end cash earned more when bills paid 4-5%; secondary data only, unverified."
+Q16-011,2,1,3,4,keep,,The textbook name for interest on coupons; NUMBERS 8a already shows its share (3% to 15% of a payment).
+Q16-012,3,5,5,4,keep,,"Exhibit 2's real cash dates: Treasury pays on the next business day, so the Feb-2037 bond pays Tue 17 Feb 2037; already in NUMBERS 8h."
+Q16-013,2,5,5,4,keep,,"Plumbing (1 January is never a business day; T+1 settlement), with weeks of slack on every rung, so no report line."
+Q16-014,4,3,5,5,keep,,"3a liquidity: where early money waits is already in Caplet's submitted words ('a short-term Treasury ETF', TNA note 1), so the report stays consistent and names no ticker."
+Q16-015,2,3,3,4,keep,,"SGOV and BIL show what a bill ETF is, but their WInS listing is unverified and Keel's call names no ticker."
+Q16-016,3,3,3,4,keep,,3a or 3e: in the zero-interest stress the waiting money is a small part of the reinvestment risk; register figures only.
+Q16-017,3,5,2,4,adapt,,"2.5 asks why nothing later than Feb-2037 was used; the card's 'only because the notes are not yet issued' is partly false: a 5.000% May-2037 bond exists but WInS did not list it (trading_notes.csv, checked 5 Oct), so say what WInS listed, as TNA note 1 does; never propose a 2037 note."
+Q16-018,4,5,5,5,keep,,"3a and 2.0: a state lottery's written rule for fixed annual prizes is to 'mature ... immediately prior' to each payment, a public twin of 'each maturing just before it's needed'; carries Q16-021."
+Q16-019,3,5,5,5,keep,,"3a's 'if at all': the same lottery holds to maturity by rule ('Buy and Hold'), so a payment reserve changes only by running down; cited with Q16-018, one source in the report."
+Q16-020,4,5,5,4,keep,,"3a: the lottery buys extra bonds on purpose against reinvestment risk, a public precedent for the 2028 completion's margin (or the pooled book, card Q20)."
+Q16-021,3,5,5,4,merged,Q16-018,The same lottery 'immediately prior' rule applied to early money; travels with Q16-018.
+Q16-022,4,5,4,4,keep,,"3e and 3a: what Laura's managers report each January (holdings, cash due against payments due, a yes or no on sufficiency), as the lottery does; carries Q15-007."
+Q16-023,2,5,3,4,keep,,"The lottery moving new prizes into Treasuries; an excerpt only, with whole-portfolio figures."
+Q16-024,2,5,5,3,merged,Q17-022,"Same 26 U.S.C. 130 'reasonably related' test as Q17-022, which records why coupon bonds fit it only loosely."
+Q16-025,1,5,2,4,keep,,"Qualified assignment companies hold Treasuries to back payments; a secondary source, and most hold annuities."
+Q16-026,4,3,4,4,keep,,"2.5: Leibowitz's purist dedication needs no reinvestment, so the ladder as written relies on forward rates (5.12% break-even) and the no-reinvestment version would cost $337,836 (NUMBERS 2); carries Q17-005."
+Q16-027,3,3,4,4,merged,Q17-006,Same Leibowitz (1986b) point that immunization needs trading as Q17-006.
+Q16-028,4,1,4,5,keep,,"3a's 'if at all' in one line: a cash-flow-matched portfolio needs no rebalancing (CFA: 'Not required'), and trading could only save cost, never add safety; carries Q16-029."
+Q16-029,3,1,5,4,merged,Q16-028,Same CFA reading on duration drift as Q16-028.
+Q16-030,2,5,5,3,keep,,"Redington's original statement that immunization means constant trading; a citation for the matched-versus-immunized line, with little room for it."
+Q16-031,2,3,4,3,keep,,Fisher and Weil's test is the same as NUMBERS 2's falls-for-good test; Q17-013's regulator scenario is the plainer frame.
+Q16-032,3,3,4,4,merged,Q17-006,"Fabozzi, Tong and Zhu's 'on or before a liability date' is the same cash-matching definition as Q17-006."
+Q16-033,3,5,5,4,keep,,"3e: a model sentence for the yearly check ('adequate provision' for the payments still owed), from insurers' reserve opinions."
+Q16-034,2,5,5,4,keep,,Escrow vocabulary (a third-party agent; 'negative arbitrage' for waiting money); Laura cannot buy SLGS.
+Q16-035,2,5,4,3,keep,,The SLGS window shuts near debt limits; weak support for buying the reserve years ahead.
+Q16-036,3,5,5,4,keep,,"3a's 'if at all': moving a rung into bills early would buy the very securities GAO found at risk near an X-date, so the early maturities are the buffer."
+Q16-037,2,5,3,4,merged,Q15-020,Fidelity's 2013 avoidance of bills is the same money-fund point Q15-020 reads from the Fed memo.
+Q16-038,4,5,5,4,keep,,"3a and 3d: to funders an operating reserve means months of expenses for emergencies, while Laura's is a designated fund for a known commitment and the kept half is the closer match; one plain sentence."
+Q16-039,5,3,4,4,keep,,"3a's size answer: the promise ($500,000 in ten payments), the holdings' value on 1 Jan 2033 and a sufficiency schedule; NUMBERS 8h now gives $427,028 against $399,089, about 107% funded."
+Q16-040,5,3,4,4,keep,,"3a and Exhibit 2: the initial composition on 1 Jan 2033 (the 2033 rung in cash, four iBond funds, five T-bonds) and how it changes, one rung to cash each year; IBTM's two lots explained once."
+Q17-001,3,3,4,4,keep,,2.5: Perold's implementation shortfall is the frame for 'implementation cost in dollars and basis points'; carries Q17-002.
+Q17-002,3,3,5,4,merged,Q17-001,Russell's transition standard restates Perold's measure.
+Q17-003,4,5,4,4,keep,,"2.5: for bonds, rates swamp execution, since the ladder's cost swung $37,625 in 2026 against $200 of commissions; tell the 7-8 Oct fill timing as luck, never skill or gain (Wharton)."
+Q17-004,2,3,5,4,keep,,"Order tickets with expected costs and the fills (4,486 planned, 4,503 filled) are a pre- and post-trade record; minor for 2.5."
+Q17-005,4,3,4,4,merged,Q16-026,"Same Leibowitz 'no reinvestment' standard as Q16-026, which carries the $337,836 figure; its 'pay what they say' caution travels too (CANON C2, C17)."
+Q17-006,4,1,5,4,adapt,,"2.5: the ladder is cash-flow matched and never rebalanced, while immunization needs trading; word the TNA's 'duration-matching' as matched payment by payment (CANON C12); carries Q16-027 and Q16-032."
+Q17-007,4,5,5,4,merged,Q17-008,The CPA verification agent is the same escrow standard Q17-008 applies with numbers.
+Q17-008,5,5,4,4,adapt,,"Top for 2.5: the escrow verifier's two tests applied to the book (a Treasury ending before every payment, 10 of 10; sufficient without reinvestment, 89.1% as bought and 95.6% with Keel's margin); never call it escrow-grade or ironclad (CANON C1, C13); recheck if Q20 picks the pooled book."
+Q17-009,3,5,5,4,keep,,"3a: escrows assume 0% on spare cash, so NUMBERS 2's 'interest earns nothing' test is the market's own strictest convention."
+Q17-010,4,5,4,5,keep,,"2.5: a certain match needs zero-coupon bonds, which Wharton bans as individual STRIPS, so the ladder's reinvestment risk is partly the price of the rules; pairs with Q17-036."
+Q17-011,2,1,5,4,keep,,"A textbook list of dedication's advantages; a checklist, not a finding."
+Q17-012,2,5,5,3,keep,,The actuary's definition of cash flow testing fits NUMBERS 2's tests; one phrase at most.
+Q17-013,4,5,5,4,keep,,"3a: Keel's margin is sized for New York Regulation 126's own 'immediate decrease of three percent' scenario, a standard a bond reader knows; the margin is a 2028 recommendation, not in the frozen book; recheck if Q20 changes the standard."
+Q17-014,5,3,4,4,adapt,,"2.5 as the skeleton asks: a hedge ratio of $234/$300 = 78% while cash on dates is matched 100%, the gap being coupons that arrive early; word the TNA's 'duration-matching' as cash-flow matching (CANON C12)."
+Q17-015,2,5,5,3,keep,,"UK schemes manage hedge ratios in bands; borrow the measure only, since Laura's ladder is unleveraged."
+Q17-016,3,3,5,4,keep,,"2.5: the yardstick is Caplet's own policy portfolio, which is Wharton's 'alignment with your IPS'."
+Q17-017,2,1,5,4,keep,,"Evaluation is progress toward the objective and six WInS weeks show no skill; a guard, not content."
+Q17-018,3,3,5,4,keep,,"2.5: a liability-based book is judged against its liabilities, so tracking error to an index does not apply; carries Q17-019."
+Q17-019,2,5,5,3,merged,Q17-018,Same point as Q17-018: the only tracking error that fits is against the ten payments.
+Q17-020,3,3,5,4,keep,,2.5 guard: no Sharpe ratio and no WInS returns as evidence; use J.P. Morgan's 7.5% and 17.88% if VT's risk is discussed.
+Q17-021,3,3,5,4,keep,,"Exhibit 1 at cost and the TNA's 'ignore price noise' match held-to-maturity accounting; iBond funds would not qualify, so the principle only."
+Q17-022,2,5,5,3,keep,,Congress's test for funding fixed payments with Treasuries is one dated asset per payment; a tax rule that coupon bonds fit only loosely; carries Q16-024.
+Q17-023,4,3,4,4,keep,,"2.0 and 2.5: in Leibowitz's surplus view Laura starts with a small deficit ($300,000 against $302,287 on the instruments) that the IPS's 2028 completion closes, the candid cost."
+Q17-024,5,5,5,4,adapt,,"2.1's first job: the book is the whole plan scaled 300/450, not the January 2027 purchase; VOID figure: cash $4,823.21 (1.61%) is now cash $3,513.79 (1.17%) plus a $1,309.42 costs row (0.44%) (NUMBERS 8g v2)."
+Q17-025,4,5,5,5,keep,,"2.1 or 3f: the team chose a book showing the whole strategy over 'Book L' (all bonds), a real implementation decision not in the Trading Notes."
+Q17-026,5,3,5,4,keep,,"2.1 roles, as Wharton asks: one line per holding's job, with IBTM's two lots (the 2033 rung and the floor) as the key story."
+Q17-027,4,5,3,4,keep,,"2.1 rung coverage of 65.6-70.4% (68.0% overall, one rung $835 short from $1,000 lots) replaces '67-72%'; NUMBERS must adopt it first."
+Q17-028,4,3,5,4,keep,,"2.5 'what WInS could not show' (the 2028 completion, the margin, waiting money, the 2031 move); VT is 8.84% of the book but 7.45% of $450,000 with the margin, so never imply the frozen weights include it."
+Q17-029,4,3,5,4,adapt,,2.5 and Exhibit 2: every holding ends before its payment (17 to 320 days); word 'just before' as 'never after' beside the TNA's 10.5-month gap (CANON D6).
+Q17-030,2,3,5,5,keep,,"A table note only: WInS labels the iBond ETFs 'Long Equities', so Exhibit 1 says 'ETF (Treasury)'."
+Q17-031,3,1,5,5,keep,,"2.5: $200 of commissions, 11 of 200 trades, nothing sold; one part of the execution cost."
+Q17-032,3,5,3,3,keep,,"Exhibit 1 note: accrued interest ($1,109.42) is not a cost and comes back with the next coupon; adopted in NUMBERS 8g v2; quote no WInS accrued figure."
+Q17-033,4,5,3,4,keep,,"2.5: the five bonds were bought 2.6-8.8 basis points from the Treasury curve, inside the team's 25bp rule, so the ladder cost what the market said; NUMBERS must adopt the figures first."
+Q17-034,3,5,5,4,adapt,,"2.2 'whichever works best for each year': the yield-check rule chose IBTR over a stale-priced Feb-2036 bond that offered more fixed cash, so say so plainly (CANON D5, D13); a 2.2 line, not a 3f event (SKELETON 3f)."
+Q17-035,3,3,4,4,keep,,"2.5: ETF half-spreads add about $47, so execution cost was about $250 (0.08%) in all; limit orders in market hours were the control."
+Q17-036,4,5,3,4,keep,,"2.5 to 3a handover: the WInS-listed instruments cost $743 more than the payment-date ideal but fall $54,595 short if coupons earn nothing, so the real cost is reinvestment exposure; pairs with Q17-010."
+Q17-037,2,1,5,4,keep,,Markowitz: diversification cannot remove market risk; textbook support for keeping only unpromised money in VT.
+Q17-038,4,5,5,4,keep,,"2.3 vocabulary: hedging for promised money (ladder, floor), diversification for VT, and the 2031 move as a static insurance step; never call it CPPI."
+Q17-039,4,2,5,5,keep,,"2.3: VT's breadth read at the source (10,185 stocks, over 47 countries, 0.06%), with its concentration (a third in technology) stated honestly."
+Q17-040,5,3,5,5,keep,,"2.3's lead, as the skeleton asks: 89.55% of the book is US Treasury obligations by design, because other issuers would add default risk to fixed payments; the ladder spreads dates, not credits."
+Q18-001,4,3,5,3,keep,,"3d: under US nonprofit accounting a market-set top is not a 'condition' but an amount not yet promised, so never call it 'conditional up to'; refines store H1-023 and H3-109."
+Q18-002,3,5,5,4,keep,,"3c: likelihood never turns the top into a booked promise, so a stated confidence serves trust, not the books."
+Q18-003,4,5,5,4,keep,,"3d: wording that mixes the minimum and the 'up to' is presumed conditional, so state the minimum in its own sentence, as the IPS already separates them."
+Q18-004,4,3,4,5,keep,,"3d: commitment verbs decide whether a pledge exists ('promise' for the minimum, 'plan' for the band), and the IPS's verbs already fit."
+Q18-005,3,3,4,4,keep,,3d: give the year with each amount (a January 2033 sum) so each reader discounts it correctly.
+Q18-006,3,5,4,4,keep,,3d: a documented minimum counts in full in a campaign and an unspecified 'up to' never counts; complements Q11b-032.
+Q18-007,2,5,4,4,keep,,"A pledge conditional on a match is counted only after the match, so Laura's floor sits first in the chain; adds to Q11b-032."
+Q18-008,4,5,4,4,keep,,"3d: facility funders already sort money as committed, pledged or projected; the minimum is 'pledged' and the top before the move 'projected'."
+Q18-009,3,5,4,4,keep,,"3d limit: strict public funders count only binding pledges or cash in hand, so Laura's 2031 statement builds confidence but becomes matchable money only in 2033."
+Q18-010,3,5,4,5,keep,,"3d: some challenge funders refuse a founder's own money as the match, so present her minimum as given first, never as a match (Q11a-008)."
+Q18-011,3,5,4,4,keep,,"3d: a matchable pledge is one exact sum with a date; the range is not a pledge, the minimum can be."
+Q18-012,4,3,4,4,adapt,,"3b and 3d guard: the kept half works privately like a backstop, but showing it to co-sponsors as one would make it part of the promise, so keep it out of co-sponsor text (CANON A30, D12)."
+Q18-013,2,3,4,4,keep,,First committed money is a credential others cite; Q11a's lead-gift signal rows make the point more strongly.
+Q18-014,3,5,4,3,keep,,"Pledge forms count securities at their cash value on liquidation, as the floor is counted at its payout (CANON C5); reliance is when a promise hardens."
+Q18-015,4,3,4,5,keep,,3d checklist: the words must say whether the minimum is a binding commitment or a statement of intent; pairs with Q18-027.
+Q18-016,3,3,4,4,keep,,"3d: builders gate construction on firm pledges plus cash, so from 2031 to 2033 her written commitment is what they lean on."
+Q18-017,2,3,4,4,keep,,"Campaigns launch at about half their goal, a lower bar than Q11b-034's 60-80%; any share of a goal needs the facility cost the case leaves out."
+Q18-018,2,3,5,4,keep,,"A dated 1:1 match for artist housing; outside donors, and matches can lower giving (Q11a-008), so background."
+Q18-019,3,5,5,5,keep,,"3d: a $20m lead pledge collapsed when its form changed after a state match relied on it, so state the date and form once and keep them."
+Q18-020,4,3,5,5,keep,,"3c: numbers cost little trust (d = -0.15) and words much more (d = -0.55), best as a range with a central figure; stronger than Q11a-031, which a later pass should merge into this row."
+Q18-021,3,3,4,5,keep,,"3c: people accept uncertain advice but not advisers who sound unsure, so state the confidence plainly."
+Q18-022,3,3,4,4,keep,,"3c: quantified ranges cost nothing on average and disagreement framing does, so present one team range, not rival forecasts."
+Q18-023,3,5,4,4,keep,,3c: a range stated in advance cushions trust if 2033 differs from 2031's picture; one study.
+Q18-024,4,5,5,4,adapt,,"3c: once co-sponsors see 2033, calibration beats confidence, and the plan states both ends below the modelled payout; word the IPS's 'the bottom will remain constant' as share markets cannot move it (CANON C6)."
+Q18-025,3,5,4,4,keep,,"3c: good news is believed when it can be checked, and after the 2031 move the top is owned Treasuries, which stand in for a track record."
+Q18-026,4,5,5,4,keep,,"3c: the securities-law form for a forward figure (label it and name the specific factors that could move it) is the shape Wharton asks for, confidence plus factors."
+Q18-027,4,5,3,4,adapt,,"3d: owned Treasuries prove she can pay, not that she must; 'money you already own' speaks to capacity only, so the words must say whether she is bound; the ranking is Keel's."
+Q18-028,2,3,4,3,merged,H3-109,Same Restatement 90(2) enforceability point as store H3-109; no legal claims in the report.
+Q18-029,3,5,5,4,keep,,"3d: Little Island shows the step above Laura (a partner-controlled account), which the case rules out before 2033; it says what her assurance is not."
+Q18-030,1,5,4,3,keep,,A standby letter of credit is outside the frozen plan; context for the ranking only.
+Q18-031,1,5,4,4,keep,,"A donor-advised fund would weaken a binding promise; taxes are out of scope, so no report use."
+Q18-032,3,5,5,4,keep,,"3d: a founder's real wording pairs a firm sum with an 'up to' set by need; Laura's 'up to' is set by markets, so say what sets it."
+Q18-033,2,5,5,4,keep,,"A residency moving from founder money to a campaign, launched at 56% in gifts and pledges; background for 3d."
+Q18-034,3,5,5,5,keep,,"3d: an author's money opened a residency campaign as one exact sum, the nearest real form for Laura's minimum."
+Q18-035,2,5,4,4,keep,,A residency launched at about a seventh of its goal with the founder's sum unstated; contrast only.
+Q18-036,2,5,5,4,keep,,"Authors founding an arts building never published their sum; a contrast, since Laura must state one."
+Q18-037,2,3,5,4,keep,,"'Irrevocable pledge agreement' is the public phrase for firm money in a market fall; a stadium, not a residency."
+Q18-038,2,3,5,4,keep,,"Founders who pay for everything state no range; a contrast showing why Laura, who needs co-sponsors, must."
+Q18-039,3,5,3,5,keep,,"3c: no founder read states a range with a likelihood, so Laura's form borrows from company guidance; a creativity point, the search not exhaustive."
+Q18-040,1,5,5,3,refuse,,"Taiwan foundation law is out of scope (case), so kept for the record only."
+Q1c-001,1,5,5,4,keep,,"Census receipts for artists and writers barely slowed through 2001 at two-year resolution; a gap closed, too small a test to earn words in 2.3 or 3e."
+Q1c-002,2,5,5,4,keep,,"Receipts in Laura's line of work slowed but did not fall in 2008, so a crash year leaves the next deposit nearly whole; background for 3e, not needed in 2.3."
+Q1c-003,2,5,5,4,keep,,"Growth in her line of work halved over 2008-12, a slow cost spread over years; the inside years are unread, so background for 3e only."
+Q1c-004,1,5,5,3,keep,,"Employer firms in the same code dipped 1.5% a year late; small and not self-employed authors, so no report use."
+Q1c-005,4,5,5,4,keep,,"Carries rows 6 and 7: on IRS tax data arts sole proprietors' receipts fell 11.6% in 2009 while shares rose 25.94%, the one figure 2.3 and 3e use for 'tied to the business cycle'; say 'on the tax data', since BEA disagrees."
+Q1c-006,2,5,5,4,merged,Q1c-005,Same IRS series as Q1c-005: the 2010 rebound (+7.0%) travels with it as one clause at most.
+Q1c-007,2,3,5,4,merged,Q1c-005,Same IRS series as Q1c-005: the all-sole-proprietor 2008 baseline that shows the arts line fell a year later.
+Q1c-008,3,5,5,4,keep,,"3e guard: BEA shows no 2008-10 fall for independent artists and writers, so the report never cites BEA as support and says 'on the tax data'."
+Q1c-009,2,5,5,3,merged,Q1b-022,"BEA vintages for 2020 run -18% to -25%, so Q1b-022's single figure must be quoted as that range; travels with Q1b-022."
+Q1c-010,4,5,5,4,adapt,,"2.3 and 3e: Census receipts fell 12.4% in 2020 while shares rose 18.02%, the counter-example; word the IPS's 'during that same period' as 'in the same downturn, not always in the same months'."
+Q1c-011,3,3,5,4,merged,Q1-037,"Same long slide in authors' pay while shares rose as Q1-037 (2015 survey: full-time median -30%); a second, correlation-free reason for 2.3, carried there."
+Q1c-012,2,3,5,4,merged,Q1-038,Same Authors Guild 2023 quote as Q1-038 (half of writing income from outside books).
+Q1c-013,2,3,5,4,merged,Q1-039,"Same UK ALCS and CREATe series as Q1-039; the 2022 report's authors are Thomas, Battisti and Kretschmer (Q12b-005), not the organisations."
+Q1c-014,2,5,4,4,keep,,"Corporate meetings bookings fell 29% in 2009, the nearest speaking-fee index; the Skift title is still to confirm and 3e has room for a clause at most."
+Q1c-015,1,5,5,3,merged,Q12b-012,Same SpeakerFlow 2022 report as Q12b-012 (61% meet budget objections).
+Q1c-016,2,5,5,4,merged,Q12b-013,"Same Licensing International totals as Q12b-013 ($292.8bn to $315.5bn), which carries the 2020 licensing point."
+Q1c-017,1,5,5,3,merged,Q12b-013,The 2020 split-year licensing survey is the same point as Q12b-013 (also in Q12-029).
+Q1c-018,3,3,5,4,keep,,"Huggett and Kaplan's Table 3 read at the source (0.184 same year, 0.372 a year later, employees' wages) supports 'tied to the business cycle' in 3e, never a lag rule for Laura (SKELETON 2.3); Q1b-001 should be merged into this row and re-rated."
+Q1c-019,2,3,5,3,merged,Q1b-005,"Same Benzoni et al. cointegration baseline as Q1b-005, now read at the source; no horizon table exists, so nothing new for the report."
+Q1c-020,3,3,4,5,keep,,"3e limit in one line: the field calls the risk of labour income an open debate, so the IPS takes a side for a client more cyclical than a wage earner; JF volume and pages unverified."
+Q1c-021,3,2,4,4,keep,,"2.3 or 3a framing: fixed payments act like negative labour income, so matching them with Treasuries leaves the rest facing only her career and VT; closes Q1-003's wording gap."
+Q1c-022,2,1,4,4,keep,,"Nominal Treasuries are the exact match only for nominal payments, which TNA note 1 already says; inflation belongs to 3b's facility costs, so little room here."
+Q1c-023,5,3,5,4,keep,,"2.3's textbook anchor read on the page: in Bodie, Merton and Samuelson's Table 1 a risky career cuts shares in the financial portfolio from 73% to 23%; name the two cases compared, and the third author is William F. Samuelson."
+Q1c-024,3,3,5,5,keep,,"2.3 support: a Boston Fed paper names people with risky careers, 'such as Samuelson's businessmen', as starting with no stock exposure; one sentence if 2.3's 140 words allow."
+Q1c-025,3,3,4,4,keep,,"Viceira (2001): a positively correlated income can cut shares below a retiree's, a sharp line for 2.3; cite the journal only after its DOI is read."
+Q1c-026,3,3,5,4,merged,Q1b-013,Same Davis and Willen working paper as Q1b-013 (a 0.2 correlation halves the benefit of shares; the self-employed excluded by design).
+Q1c-027,3,3,5,4,merged,Q1-021,Same Heaton and Lucas abstract quote as Q1-021.
+Q1c-028,3,3,4,5,keep,,"2.3 lead: the IPS's 'counterbalance ... not a contributor' is Merton's 'don't double up' applied to a career; the FAJ abstract is verified, the podcast line only via a search excerpt."
+Q1c-029,5,3,5,4,keep,,"2.3's central citation as SKELETON names it: a dedicated portfolio is 'a least-risk asset' for 'nominal-dollar liabilities' (Leibowitz, 1986a); Q16-026 carries the same abstract's no-reinvestment use."
+Q1c-030,3,1,5,4,merged,Q17-006,Same Leibowitz (1986b) point that immunization needs trading as Q17-006 (which also carries Q16-027).
+Q1c-031,2,3,4,4,keep,,"A 60/40 pension fully funded in 1981 was 69% funded by 1986 as falling rates raised its liabilities; a good picture of the completion clause, but 2.5 and 3a have no room and its end page is missing."
+Q1c-032,3,3,4,4,keep,,"Answers 'why not cash, it is safer?' for 2.3 or 3a: in the surplus view the matched fund is the riskless asset; confirm the co-author's full name before APA."
+Q1c-033,2,3,2,3,adapt,,"Sharpe and Tint's liability hedge credit is unread at the source and the ASTIN citation was filled from memory; confirm both at the source before any use, which 2.3 does not need."
+Q1c-034,4,1,5,4,keep,,"2.3 support for 'adding issuers adds the one risk a match keeps': CFA's 'although credit risk remains'; carries Q1c-035 and Q20-025; Q20 cites the same excerpt as 'CFA Institute (2017)', so check the author line before APA."
+Q1c-035,2,1,4,4,merged,Q1c-034,"Same CFA reading as Q1c-034 (ladders, LDI for an individual's budget); outlines only."
+Q1c-036,1,3,5,4,keep,,"One line of history ('dedication' named by Leibowitz) with no room in the report; the review's author is R. J. Ryan (2013), as card Q20 S12 gives."
+Q1c-037,4,2,5,5,keep,,"2.3's conventional-diversification line read at the source: VT 10,185 stocks, 0.06%, US 62.4%, top ten 23.5% (30 Sep 2026); never quote the sheet's '8,000 holdings'; Q17-039, H9-103 and Q1b-020 should be merged into this row."
+Q1c-038,4,3,5,4,merged,Q17-040,Same 89.55%-in-one-issuer point as Q17-040; IBTM's 32.50% and 'spread by structure' travel with it; VOID cash 1.61% is now cash 1.17% plus a 0.44% costs row (NUMBERS 8g v2).
+Q1c-039,3,5,4,4,merged,Q17-010,"Same point as Q17-010: a no-reinvestment match needs zero-coupon bonds, which the STRIPS ban removes."
+Q1c-040,4,3,5,4,merged,Q1-047,"Same case reading as Q1-047: the career reaches the portfolio once, through the 2028 deposit."
+Q12b-001,2,5,5,4,adapt,,"Non-manga graphic novels grew 39% over 2007-09, so 'smaller' does not hold for her genre's shop sales; 2.3 and 3e word the career claim around speaking and new deals."
+Q12b-002,2,5,5,4,merged,Q12-018,"Same genre cycle as Q12-018 (it grew in 2020 and fell in the 2023 bull market), in market dollars."
+Q12b-003,2,3,3,3,keep,,Children's and YA revenue held in 2020 while fiction units fell; several figures unverified and no report part needs it.
+Q12b-004,2,5,5,4,keep,,"UK children's fiction writers were the most likely to report income down since 2008 while children's sales held; supports 'sales held, income did not', with no room in 2.3."
+Q12b-005,2,5,5,4,keep,,"UK author-illustrators' median income fell about 9% in the Covid year as children's sales rose; tiny samples, background for 3e."
+Q12b-006,1,3,5,4,keep,,Closes a gap (no US children's or YA author income after 2017); no report use.
+Q12b-007,1,5,5,4,keep,,"School library budgets stayed flat when pandemic aid ended; after January 2028 her income never enters the portfolio, so school budgets are no 3e signal."
+Q12b-008,2,5,4,4,keep,,"Classroom buying fell 12% then 28% when federal aid ended, in a rising share market; carries Q12b-009; background only, since school money after 2028 never touches the plan."
+Q12b-009,1,3,4,4,merged,Q12b-008,"Same post-aid fall as Q12b-008, sized industry-wide (PreK-12 -2.5% in 2025)."
+Q12b-010,1,3,4,4,adapt,,"The 2025 federal school-fund freeze came while shares rose, so school money is not 'during that same period' (IPS l.9); a wording point Q12-019 already carries."
+Q12b-011,1,5,4,4,keep,,"Virtual talks paid about three-quarters of in-person fees; celebrity keynotes, not school visits, so no report use."
+Q12b-012,2,5,5,4,keep,,"Speaking breaks within weeks and takes about two years to recover, the channel by which a 2027 downturn reaches the 2028 deposit; carries Q1c-015; one clause in 3e at most."
+Q12b-013,2,3,4,4,adapt,,"Licensed sales were 7.75% above 2019 by 2021, so 'licences come later and smaller' holds for 2008-09 but not 2020; word it 'licensing later and less' in 3e; carries Q1c-016 and Q1c-017, and Q12-029 should be merged into it."
+Q12b-014,1,5,3,4,merged,Q12-028,Same point as Q12-028: screen money runs on Hollywood's own cycle (the 2023 strikes in a bull market).
+Q12b-015,2,5,5,4,merged,Q12-008,Real publisher calendars confirm Q12-008's cut-off: no royalty on a sale after mid-2027 reaches the January 2028 deposit.
+Q12b-016,2,5,5,4,keep,,"For illustrated books the advance follows the art, so delivery and publication parts can slip past January 2028; carries Q12b-017; supports 'later' in 3e at most."
+Q12b-017,1,5,5,4,merged,Q12b-016,"Same point as Q12b-016: graphic novels take years to draw, so later instalments land after the deposit."
+Q12b-018,3,5,3,4,keep,,"3a and 3e: the earlier a downturn starts, the more of it reaches the 2028 deposit, and none reaches it in full; Keel synthesis on other publishers' calendars."
+Q12b-019,3,5,3,4,adapt,,"Sizes a career hit in dollars of the floor; VOID: the $115,929 floor is about $104,031 under the escrow-standard completion (H_plain), and the ten now take about $37,358 of the deposit, so they hold at that standard unless it falls by more than about 75%, not 98%."
+Q12b-020,3,5,3,4,adapt,,"3e risk line, VOID as written: 98%/77%/53% and $24,500/$56,900/$92,000 were Keel's margin; under H_plain about $37,358 is bought in January 2028, so yields falling during 2027 also raise its cost and the window does not close on 1 Jan 2027; recompute."
+Q12b-021,2,3,5,4,keep,,In 2020 corporate and arts giving fell with profits while foundations gave 17% more; adds a year to Q4b-016's 'corporate follows profits' for 3e or 3d.
+Q12b-022,1,5,2,4,merged,Q4b-024,Same Wenxin Award source as Q4b-024; the minister's quote is only a search excerpt.
+Q19-001,5,5,3,4,adapt,,"3c's rule: each end is its fund's payout if no more interest is earned, at its own purchase yield, rounded down to $5,000; carries Q19-002; VOID central range: $110,000-$130,000 is now about $95,000-$115,000 under the H_plain completion (Q20-012)."
+Q19-002,2,3,3,4,merged,Q19-001,"The bond desk's $133,412 check of a fixed 4.1% and 2.5%, superseded by Q19-001's method and void under H_plain."
+Q19-003,5,5,3,4,keep,,"3c: why the rule names a method, not a percentage: the zero-interest loss rises with the purchase yield (2.03% to 6.68% on the floor), so a fixed 4.1% and 2.5% fails in about 14% of paths; carries Q24-017; recheck the 13.75% on H_plain."
+Q19-004,1,4,3,3,refuse,,"Counting losses only from 2031 adds about $1,000 for an extra sentence; Keel kept the January 2028 rule, so kept for the record."
+Q19-005,5,4,3,5,keep,,"3c's confidence: with the cap the gift equals the stated top in every house path and history window, certain barring a US default or a fund failing to work as its prospectus says; carries Q24-018."
+Q19-006,3,4,3,4,adapt,,"One clause in 3b: the cap's excess (median about $8,000) joins the kept half; VOID amounts were on Keel's margin, and under H_plain the kept half on 1 Jan 2033 is $21,524 (Q20); rerun."
+Q19-007,5,5,3,4,adapt,,"3c's 'which range' from today and Exhibit 3: before 2031 rates set the bottom and shares the top; VOID figures (bottom $90k-$130k, top $105k-$160k, the odds) were on Keel's margin; rerun on H_plain."
+Q19-008,4,5,3,4,adapt,,"Exhibit 3 history rows (even 1929 leaves the bottom whole); VOID: the $110,000 bottom and the tops were on Keel's margin; rerun on H_plain."
+Q19-009,4,5,3,4,adapt,,"3c and Exhibit 3: the range narrows on dates (bottom fixed in 2028, top in 2031, paid December 2032); VOID amounts, central now about $95,000-$115,000."
+Q19-010,4,5,3,4,keep,,"3c: move first, then state, or the top is not fully owned (8% of paths if stated a month early, 16% at twelve); the IPS's own order; recheck the percentages on H_plain."
+Q19-011,3,5,3,4,adapt,,"VOID as a limit: under the escrow-standard completion the ten are paid in all 585 joint windows, so nothing draws on the gift or the kept half; what survives for 3c is that the worst replay keeps the range."
+Q19-012,4,5,3,4,adapt,,"3c's 'why a range': narrowing to what is owned (C) breaks 'the bottom will remain constant' and one figure (D) drops the range the case asks for, so keep the IPS band; VOID figures."
+Q19-013,2,3,3,4,adapt,,"Why $5,000 steps (they read as a plan, not false precision); VOID figures, and at $1,000 steps the H_plain range is $99,000-$119,000."
+Q19-014,2,3,5,4,keep,,"The match evidence read at the source (+19% revenue per letter, small donors); the match was dropped on 10 Nov, so 3d needs a clause at most; H3-110 and H9-133 should be merged into this row."
+Q19-015,1,3,5,4,keep,,"The match effect replicated only weakly; supports dropping the match, no report use."
+Q19-016,1,3,5,4,keep,,"Lab framing of a match against a rebate; small donors, no report use; carries Q19-017."
+Q19-017,1,3,4,4,merged,Q19-016,"Same match-versus-rebate comparison as Q19-016, in a radio fund drive."
+Q19-018,1,3,4,4,keep,,A review finds match effects depend on context; background for dropping the match.
+Q19-019,2,5,5,4,keep,,"Pooled, a match adds a small, non-significant effect (r = 0.08); the cleanest single cite if 3d says why Laura offers no match."
+Q19-020,1,5,5,3,keep,,"Kresge's challenge grants were a funder's leverage tool, not a founder's; the 2004 report is n.d. here and 2005 in Q22-009, so settle the date before APA."
+Q19-021,1,5,5,4,keep,,Kresge moved away from challenges because needy nonprofits could not meet them; background for dropping the match.
+Q19-022,2,5,4,4,keep,,"Kresge took challenge applicants at half to two-thirds raised, so Laura's owned bottom is the 'raised' share a challenger asks for; partial quote, and it differs from Q11b-027's 20-50%."
+Q19-023,3,5,5,4,keep,,"Exhibit 3's design: Bernanke told the Bank of England to drop fan charts for named scenarios, read at the source; H9-144 should be merged into this row."
+Q19-024,2,3,4,4,merged,Q11a-033,Same accuracy-informativeness point as Q11a-033: readers prefer a narrow range.
+Q19-025,4,5,5,4,adapt,,"3c and 3d: outcomes inside a range, even at its edge, read as correct, and 'can' is heard as the top; VOID example: 'can reach $130,000' is now about $115,000."
+Q19-026,3,3,4,4,adapt,,"Wide intervals read as less certain, so the from-today spread goes in Exhibit 3 as dated scenarios, not as the stated range; VOID example spread ($105k-$160k) was on Keel's margin."
+Q19-027,4,5,5,4,adapt,,"3d wording: 'at least' signals more to come and 'up to' a ceiling, so state both ends each with its word; VOID examples ($110,000 and $130,000) are now about $95,000 and $115,000."
+Q19-028,5,4,3,5,keep,,"3c and 3d: after the move the range is one of choice, not of uncertainty; the bottom is committed and the top owned and available, the IPS's own 'whatever figure you choose is money you already own'."
+Q20-001,3,4,3,5,keep,,"3a in one line: pooling coupons creates no money, the sizing standard does; carries Q20-002."
+Q20-002,1,5,3,4,merged,Q20-001,"Keel's units run pooled get worse, the same lesson as Q20-001."
+Q20-003,2,4,3,4,keep,,"The pooled design P100 ($332,922) is the cheapest all-pooled book; a rejected alternative, quoted only beside H_plain."
+Q20-004,2,5,3,4,merged,Q20-005,Same P100 consistency finding as Q20-005: which bond's coupons pay which payment decides whether the frozen words hold.
+Q20-005,3,5,3,4,keep,,"Why not the pooled book: up to $49,813 of the 2033 payment would come from 2038-2042 coupons, against WN l.18 and TNA note 2; a consistency line for 3a; carries Q20-004."
+Q20-006,5,5,3,4,keep,,"3a's standard, adopted 10 Nov: the ten exactly as the Trading Notes describe plus extra face whose cash waits in a short-term Treasury ETF, $335,771, all ten paid even if no coupon earns a cent; carries Q20-008."
+Q20-007,3,3,3,5,merged,Q16-026,"Design A sized for 0% ($337,836) is the same no-reinvestment cost Q16-026 already carries."
+Q20-008,1,5,3,4,merged,Q20-006,Dearer variants of H_plain (on Keel's rung sizes); travel with Q20-006.
+Q20-009,2,4,3,4,keep,,"Scaling the frozen WInS book's shape until it pays at 0% costs $339,467, about $3,700 more than H_plain; background for 2.5's 'what WInS could not show'."
+Q20-010,1,5,3,4,refuse,,"Floors at 25-75% are cheaper only by shrinking early rungs, which breaks TNA note 2 and CANON A12; kept for the record."
+Q20-011,1,3,3,4,refuse,,"The unfloored pooled book buys no 2033 or 2034 rung, against the IPS's 'buy 10 Treasuries'; kept for the record."
+Q20-012,5,4,3,4,keep,,"3a and 3c: the price of certainty is about $15,000 off each end, central range about $95,000-$115,000 under H_plain ($99,000-$119,000 at $1,000 steps); the floor sits $244 below the next $5,000 step."
+Q20-013,4,4,3,5,keep,,"Consistency check for 3a: the floor still takes 'most' of the 2028 deposit (55.0% under H_plain), so IPS l.15 holds."
+Q20-014,4,3,3,5,keep,,"3a: the certainty is bought, not spent; if forward rates hold about $33,461 (1 Jan 2027 money) flows back to Laura from 2033 to 2042."
+Q20-015,3,3,3,4,keep,,"3c and 3b spread under H_plain: floor $81k/$104k/$128k and kept half $11k/$21k/$42k (house, 1-in-20 low, median, 1-in-20 high)."
+Q20-016,3,5,3,4,keep,,"The reason for the 10 Nov call: the rejected cheaper standard left the ten short in one rate era (2006-08 starts), by up to 4% of a payment; 3a may say so in a clause; under H_plain all 585 are paid."
+Q20-017,2,5,4,4,keep,,"Under the rejected standard only the kept half (shares) could have paid that shortfall, failing IPS l.11; resolved by the 10 Nov call."
+Q20-018,1,5,3,4,keep,,Shares would have covered the old shortfall only by a lucky 2013-2023 alignment; moot under H_plain.
+Q20-019,1,5,3,4,keep,,A 2031 check would have seen the old shortfall with no remedy allowed (CANON A34); moot under H_plain.
+Q20-020,5,5,4,5,keep,,"3a's standard in a professional's words: 'sufficient, without further reinvestment', with idle cash assumed not reinvested; cite Moody's as its 2020 edition (Q20-031); Q17-008 should be merged into this row."
+Q20-021,3,5,5,4,merged,Q17-009,"Same escrow-agreement 0% convention as Q17-009, in agreements from 2021 to 2026."
+Q20-022,2,5,5,4,merged,Q17-009,"Older wordings of the same 'without reinvestment' test as Q17-009 (1993, 2018, 2021)."
+Q20-023,3,5,5,4,keep,,"3a support: defeasance accounting disqualifies assets whose sufficiency relies on reinvestment yields (GASB 7 and 86), the named reason for the zero standard."
+Q20-024,3,3,4,4,merged,Q16-026,"Same Leibowitz (1986a) abstract as Q16-026: strict dedication means 'no reinvestment', which H_plain now meets."
+Q20-025,2,1,4,4,merged,Q1c-034,Same textbook point as Q1c-034: cash-flow matching leaves only some reinvestment risk.
+Q20-026,3,5,4,4,merged,Q17-010,"Same point as Q17-010: actuaries assume zero-coupon bonds; with STRIPS banned the zero standard costs $12,335 more than Keel's call."
+Q20-027,3,5,4,4,keep,,"3a, one line: H_plain passes all seven New York Regulation 126 scenarios; Q17-013's margin sized for that regulation is superseded by the zero standard."
+Q20-028,2,5,4,3,keep,,"Insurers' norm is adequacy under moderately adverse scenarios, a milder standard than the one adopted; background."
+Q20-029,1,5,2,3,keep,,"Cash-flow matching as a linear programme; the paper is unread, so cite nothing from it."
+Q20-030,5,4,3,4,keep,,"Consistency defence for 3a: the January 2028 completion ($37,358 under H_plain) is the IPS's own 'complete it with the 2028 deposit' held to a standard, not a new strategy; a strict reader may see a margin, so say why."
+Q20-031,2,2,5,4,keep,,"Citation fix: the Moody's methodology quoted in Q17 and Q20 is the outdated 15 Jul 2020 edition, so cite it as such or use the escrow agreements."
+Q21-001,5,1,5,5,keep,,"3f's own test in Wharton's words: research, collaboration, disagreements, decision-making and learning that 'influenced its final recommendation', without repeating the Trading Notes."
+Q21-002,4,1,5,5,keep,,"3f: this year's criterion adds 'uncertainty', so at least one event shows uncertainty named and handled."
+Q21-003,4,1,5,5,merged,H9-093,"Same Guide p.5 rule as H9-093: say what you would do differently, never redesign after results."
+Q21-004,3,1,5,5,merged,H10-006,"Same Wharton line as H10-006: reasoning, assumptions and trade-offs."
+Q21-005,2,3,5,4,keep,,"A 2025 finale judge rewarded 'thoughtfulness and reasoning behind all the decisions'; said of live pitches, so background for 3f."
+Q21-006,3,3,4,5,merged,H10-022,"Same 2022 finale advice as H10-022: 'cut slides, cut words, cut minutes'."
+Q21-007,2,3,4,4,merged,H9-153,Same 2023 'less is more' lesson as H9-153.
+Q21-008,2,3,4,4,keep,,"An older deliverables page asked for a narrative, not bullets; historical, so it only confirms how 3f is told."
+Q21-009,1,3,5,3,keep,,A 2020 press line that the articulated experience is weighed with the strategy; nothing new for the report.
+Q21-010,1,3,5,3,keep,,"Narration from the 2026 finale write-up, not a judge's words; no report use."
+Q21-011,2,5,2,5,keep,,"A generic reflection sentence from another team's report is the model 3f avoids; search excerpt only, never quoted."
+Q21-012,3,5,5,4,keep,,"3f's opening two sentences: last year's reflection told one event and its rule but never what it changed in the recommendation, the step this year adds."
+Q21-013,3,3,4,4,keep,,A guide for writing 3f: the top level of reflection is a change in one's own assumptions; abstract only.
+Q21-014,2,5,4,4,keep,,"Most student reflection is description (about 65%), so each 3f event needs its 'so what'; abstract only."
+Q21-015,3,3,4,4,keep,,"3f is ordered by meaning, not by date, on Moon's levels as reproduced by Edinburgh; carries Q21-016."
+Q21-016,2,3,3,4,merged,Q21-015,A second four-level scheme read only through a secondary source; travels with Q21-015.
+Q21-017,3,3,4,4,keep,,A disorienting dilemma is the strongest opening for a 3f event (the model that sank the team's first plan); criteria read on Edinburgh's page.
+Q21-018,2,1,3,4,adapt,,"The 'why' step between what happened and what changed is the one most teams skip; date conflict (the reprint's note says first published 1998, the usual citation is 1988), so confirm on the reprint before APA."
+Q21-019,3,3,4,5,keep,,"Three questions per 3f event: what happened, why, what the team kept or changed; read at a non-official copy of TC 25-20."
+Q21-020,4,4,4,5,keep,,"3f's structure: about half of each event's words go on consequences (Garvin's 25/25/50), which is SKELETON's 'what changed in the recommendation'."
+Q21-021,4,1,5,5,keep,,"3f's roles line: Wharton bars advisors from strategy and trading decisions, so 'the advisor handled administration only' must match the record."
+Q21-022,3,1,5,5,keep,,"3f's roles line: students place trades, never the advisor, so 'only Ray placed orders' is compliant."
+Q21-023,3,5,5,4,keep,,"3f guard: the case's role-play calls the advisor the one who 'makes the final investment decisions', so 3f must not echo it."
+Q21-024,1,3,5,4,merged,Q11a-002,"Same List and Lucking-Reiley seed-money result as Q11a-002 (also H3-047), here as the fact behind event X072."
+Q22-001,4,3,5,4,keep,,"3d status: capital funders file every pound as secured, expected or still to raise, so Laura's words make that filing easy; even the owned bottom may be filed as 'expected' until 2033."
+Q22-002,3,3,5,4,keep,,"3d proof: own money is shown by a document, which replaces adjectives like the IPS's 'without doubt'."
+Q22-003,4,3,5,4,keep,,"3d checklist item 8: funders refuse overruns, so her contribution does not rise with costs and the project carries its own contingency."
+Q22-004,4,3,5,5,keep,,"3d and 3.0: building funders screen on who pays to run the building after it opens, the evidence for leading with the ten owned payments."
+Q22-005,3,3,5,4,keep,,"3d dates: match money must be secured before a construction contract, so the exact January 2033 date matters."
+Q22-006,4,3,5,4,keep,,"3d checklist backbone: a capital funder asks for confirmed and unconfirmed money, status, timescales and what happens if it fails."
+Q22-007,3,3,5,5,keep,,"3d length: a capital funder's first outline is at most 150 words, so the opening paragraph stands alone below that."
+Q22-008,3,3,5,4,keep,,"3d ask: some funders cannot fund buildings but can fund programs, so split the ask; carries Q22-010."
+Q22-009,3,3,5,4,keep,,"3d order: capital funders look for founders 'leading with their own gifts'; the 2004 report is dated 2005 here and n.d. in Q19-020, so settle it before APA."
+Q22-010,2,3,5,4,merged,Q22-008,Same split-the-ask point as Q22-008 (a foundation that excludes buildings).
+Q22-011,3,5,5,3,keep,,"3d item 1 in Taiwan: the culture ministry's residency subsidy asks for proof of other resources and can be cut each year, so owned payments are the base under it."
+Q22-012,3,5,5,4,keep,,"3d item 10: Taiwan's grant rules require every funder and amount to be listed, so Laura's figure is one range in one currency every time."
+Q22-013,3,5,5,4,keep,,"3d item 10: Taiwan's national arts foundation refuses exclusively sponsored plans, so invite several co-sponsors; carries Q22-014."
+Q22-014,2,5,5,4,merged,Q22-013,Same foundation and the same 'one of several funders' point as Q22-013.
+Q22-015,3,5,5,3,keep,,"3d: Taiwanese firms budget a sponsorship against an amount and a date and weigh earlier support; a 2007 survey, the closest evidence on corporate co-sponsors."
+Q22-016,3,5,3,4,keep,,3d item 3: Taiwanese pledges can slip a year while a Treasury maturity cannot; read only in search excerpts.
+Q22-017,3,3,5,5,keep,,"3d item 6: a finance office accepts a statement from the institution holding the money, so offer a custodian statement on request."
+Q22-018,4,3,5,4,keep,,"3d item 4: strict funders count only money in hand or legally committed, so the words say plainly which Laura's is."
+Q22-019,2,3,5,4,keep,,"Elements a finance office checks on a statement; detail for the proof item, no prose."
+Q22-020,3,3,4,4,keep,,"3d: proof of funds shows capacity, not obligation, and comes from the custodian, never the team; two of three sources are secondary."
+Q22-021,4,3,5,5,keep,,"3d item 4: real campaign forms say in one line whether a promise binds, so Laura's passage does too."
+Q22-022,3,3,5,4,merged,Q18-019,"Same point as Q18-019: once others rely on a pledge, its form and date are kept."
+Q22-023,3,3,5,4,keep,,"3d item 3: builders count future gifts at present value and may bridge them, so the exact date adds value."
+Q22-024,3,3,5,4,keep,,3d order evidence: real combined announcements put the building first and operations second; carries Q22-025.
+Q22-025,2,3,5,4,merged,Q22-024,"Same building-first order as Q22-024 (The Met, 2026)."
+Q22-026,4,5,4,5,keep,,"3d's nearest real model: a residency founder's support told as building, then years of operations, then a dated end; Laura's ten payments end in 2042."
+Q22-027,3,5,5,4,keep,,"3d shape: one paragraph holds owned money, what is fixed later, dates and the ask; never copy its challenge form."
+Q22-028,2,3,3,4,keep,,"Committed money first in one clause; a search excerpt, and its slogan is the kind the voice rules ban."
+Q22-029,3,3,5,4,keep,,"3d order: telling givers the running costs are covered raised giving most (8.55% against 3.36%); read at the source, so Q11a-011 should be merged into this row."
+Q22-030,3,3,4,4,keep,,3d length and placement: other money gets one sentence beside the ask in a short letter.
+Q22-031,4,3,4,5,keep,,"3d: the opening paragraph must work alone and carry the ask, so it holds checklist items 1, 2, 3 and 5."
+Q22-032,2,3,5,4,keep,,"An upper length anchor (500-1,000 words for a whole capital request); background."
+Q22-033,3,3,5,4,keep,,"3d item 11: governance belongs to the residency's own file, so Laura's passage says only who holds her money and decides about it."
+Q22-034,2,3,4,4,keep,,The professional version of the 3d reader test; Caplet's is smaller and asks for no gift estimate.
+Q22-035,3,1,5,5,keep,,"3d reader-test method: paraphrase testing, no correcting, no yes-or-no questions."
+Q22-036,3,3,5,4,keep,,3d reader-test method: Stop Here marks after each paragraph and plus-minus marks by line.
+Q22-037,4,5,4,5,keep,,"3d length, measured: real opening paragraphs on committed money run 74-123 words, so the opening is 75-125 words inside a 250-word passage."
+Q22-038,4,5,3,4,adapt,,"3d and 3b: name the kept half to co-sponsors for overruns and the Taiwan dollar only, since offering it for 'a co-sponsor falling short' invites less giving; record as a choice of audience beside the IPS's three uses."
+Q22-039,4,4,3,4,keep,,"3d item 7: by 2031 the 2028 deposit is settled and both ends are Treasury funds, so only a US default stops the money; never repeat 'without doubt' or 'the bottom will remain constant'."
+Q23-001,3,1,5,5,keep,,"Format rule: only tables and graphics may be single-spaced, which is what lets Table 1 fit; if ever cited, Wharton's documents are by Wharton Global Youth Program (REFERENCES_APA rule 6)."
+Q23-002,3,1,5,5,keep,,Each exhibit must answer one case question or go (Creativity and Presentation).
+Q23-003,3,4,5,5,keep,,"Wharton's PDFs are US Letter, so build on Letter from the first draft."
+Q23-004,3,4,3,4,keep,,"Word in Australia opens on A4, so a Sydney draft runs about half a page long on Letter; secondary sources."
+Q23-005,4,4,4,5,keep,,"Measured: a full page in Wharton's format holds about 330 words, not 280-300, which resets every SKELETON budget; check on 27 Nov with the audit."
+Q23-006,3,4,4,4,keep,,"Words a page depend on word length (about 350 at the IPS's 4.66 characters a word), so plain short words buy space."
+Q23-007,2,3,5,4,keep,,Each APA heading costs one line; keep Wharton's section and case headings anyway.
+Q23-008,1,3,5,4,keep,,APA's repeated paper title costs one line; an optional detail.
+Q23-009,4,4,4,4,keep,,"Exhibit 1, a minimum requirement: the holdings table fits one page only with a single-spaced body (14.1 lines)."
+Q23-010,3,4,4,4,keep,,"Keep Wharton's five columns; a 'Pays for' column wraps every row, so Figure 1 carries that mapping."
+Q23-011,3,3,5,5,keep,,"Exhibit 1 labels: Wharton's own example uses short asset types ('ETF', 'Treasury Bond'), which keeps each row on one line."
+Q23-012,3,4,4,4,keep,,"Figure 1 costs 16 lines (about 230 words), the largest exhibit; trimming the image saves about 1.5 lines."
+Q23-013,2,4,4,4,keep,,"Table 2 costs about 11 lines (160 words), measured with placeholder cells."
+Q23-014,4,4,4,4,keep,,"3e decision: a monitoring table is a fourth exhibit costing about 245 words of prose, so it replaces 3e prose or becomes a paragraph."
+Q23-015,2,1,5,4,keep,,APA table layout rules; a template detail.
+Q23-016,2,3,5,4,keep,,"Times New Roman inside figures too, since Wharton's font rule ranks first."
+Q23-017,3,1,5,5,keep,,"Say Table 1, Figure 1 and Table 2 in the report, not 'Exhibit'; each placed after its first call-out."
+Q23-018,2,1,5,4,keep,,"APA double-spaces table titles and notes, so keep notes to three lines."
+Q23-019,2,1,5,4,keep,,"APA paragraphs; Docs and Word defaults add space after paragraphs, which costs lines."
+Q23-020,1,3,5,4,keep,,"APA does not count words in figure images; Wharton counts pages, so no gain."
+Q23-021,3,1,4,5,keep,,"Form by job: about 20 numbers or fewer go in a table, so Table 2 is a table and the all-Treasury comparison a sentence."
+Q23-022,3,1,5,4,keep,,"Tables for look-up, graphs for shape, which makes Figure 1's staircase a graph and Table 1 a table."
+Q23-023,2,3,5,4,keep,,Say neither more nor less than the message: Figure 1 shows one holding per payment and nothing else.
+Q23-024,3,5,4,4,keep,,"The measurements used a metric twin of Times New Roman, so the submitted PDF must come from Word or Docs with the real font; re-measure once there."
+Q23-025,3,3,5,5,keep,,"Minimum format: page numbers bottom left (Wharton overrides APA), no running head."
+Q23-026,3,4,4,4,keep,,Start each section on a new page so the per-section page limits can be audited.
+Q23-027,2,1,4,5,keep,,"The test PDF is 0.3 MB, far under 5 MB; size is no risk without photos."
+Q23-028,3,3,2,4,keep,,"URLs stay as plain text in References, never links to open; Wharton's view on reference URLs is unverified."
+Q23-029,3,3,5,4,keep,,"A five-second test for each exhibit, with fresh readers by 23 Nov, not Keel's own look."
+Q23-030,4,4,3,4,adapt,,"Figure 1, the reserve as a staircase, answers the case's composition question and names liquidity; VOID: $427,028 was on Keel's margin, so take the reserve figure from the rewritten NUMBERS 8h."
+Q23-031,3,4,3,4,keep,,"A range chart failed Keel's five-second look, so the range goes in Table 2 as scenarios."
+Q23-032,3,1,3,4,keep,,Exhibit notes name their data source; the Treasury curve goes in References.
+Q23-033,5,4,4,4,keep,,"Tests SKELETON's page arithmetic: three exhibits leave about 2,900 words at twelve pages, a fourth leaves 2,660, and Section 2's 700 is its ceiling, so budget 650."
+Q23-034,3,4,4,4,keep,,"None of the small levers is worth taking; A4 holds 5.5% more than Letter, so a draft on A4 overruns on export."
+Q24-001,2,2,5,3,adapt,,The joint replay reproduces the register as it stood on Keel's margin; rerun it on H_plain before any figure in this card is used.
+Q24-002,4,5,4,4,keep,,"3e's assumptions table: shares and the 1-year yield moved at -0.31 in 1962-99 and +0.22 since 2000, so the house model's zero is a middle case; computed on repo copies of FRED and Shiller."
+Q24-003,3,3,5,4,keep,,"3e citation for the regime switch (Campbell, Pflueger and Viceira, 2020, a break in 2001); carries Q24-004."
+Q24-004,2,3,5,4,merged,Q24-003,"The same stock-bond sign switch as Q24-003, in practitioners' data (FAJ 2024)."
+Q24-005,3,5,3,3,adapt,,"Exhibit 3 and 3e distributions from the joint replay; VOID on Keel's margin, rerun on H_plain."
+Q24-006,4,5,3,4,adapt,,"3e's joint recession line: when shares end below cost the overflow is about $11,000 thinner than independence says; VOID amounts, and H_plain's larger overflow changes them."
+Q24-007,3,5,3,4,adapt,,"Both cushions in their bottom fifth in 5.1% of windows against 4.5% unlinked, two named crashes; carries Q24-008; rerun on H_plain."
+Q24-008,2,5,3,4,merged,Q24-007,"The same joint-tail sizing as Q24-007 (kept half plus overflow under $25,000)."
+Q24-009,2,5,3,4,adapt,,"VOID: under H_plain the ten are paid in every window, so 'payments do not fail more when shares fall' no longer applies; the rates-risk point stays."
+Q24-010,3,5,3,4,adapt,,"Post-2000 windows are about a quarter worse on the cushions; VOID: the 27.1% payment shortfall was Keel's margin (none under H_plain), and the range medians move."
+Q24-011,4,5,3,4,adapt,,"3e: independence flatters only the overflow, not the range or the kept half; VOID 1-in-20 figures, rerun on H_plain."
+Q24-012,4,5,3,4,adapt,,"Exhibit 3's named recession row (Jul 2007 start); VOID: under H_plain the payments are full and the range is lower than $90,000-$105,000."
+Q24-013,3,5,3,4,adapt,,"The bond desk's two-cushions case, sized (Jun 2006 start); VOID amounts on Keel's margin."
+Q24-014,3,5,3,4,adapt,,"A second recession row (Jan 2000 start); VOID range $100,000-$115,000."
+Q24-015,2,5,3,4,adapt,,The cushions can offset as well as coincide (Mar 2003 start); VOID kept-half amount.
+Q24-016,4,5,3,4,adapt,,"3e monitoring: the January 2028 curve is the biggest thing to watch (a Dec 2007 start gives the lowest range); VOID $80,000-$100,000."
+Q24-017,3,5,3,4,merged,Q19-003,"Same point as Q19-003: the zero-interest deduction grows with the purchase yield, here on the joint history."
+Q24-018,4,5,3,4,merged,Q19-005,Same point as Q19-005: with the cap the gift is inside the range in every window.
+Q24-019,4,5,3,4,adapt,,"Exhibit 3's inflation row and 3b: the dollars are safe, what they buy is not; carries Q24-020; VOID amounts, and under the cap the gift is the stated top, not $143,301."
+Q24-020,2,5,3,4,merged,Q24-019,1970s history rows for the same inflation point as Q24-019.
+Q24-021,4,5,3,4,adapt,,"Exhibit 3's 'rates lower for good' row; VOID: under H_plain the ten are more than met at 3 points lower, and the range falls below $85,000-$105,000."
+Q24-022,4,5,3,4,adapt,,"3b's 'responsible' test on the kept half alone (93% house, 97% joint); with the cap rule adopted the pot includes the excess (Q24-024), and both rerun on H_plain."
+Q24-023,3,5,2,4,adapt,,The test on the real Taiwan dollar (97.1% covered since 1983); the FX file is unverified against FRED and the figures were on Keel's margin.
+Q24-024,5,5,3,4,adapt,,3b's test under the adopted cap rule: kept half plus excess covers a 10% stronger Taiwan dollar in 99.97% of house paths; rerun on H_plain before SKELETON 3b's '93%' is used.
+Q24-025,4,3,3,4,adapt,,"3b's one line on the gift in Taiwan dollars and 2027 dollars; VOID: under the cap the gift is the stated top (about $115,000 central), not the $138,735 payout."
+Q24-026,5,3,3,4,adapt,,"3b's size line: the kept half is known to the dollar on the meeting day ($20,780 central); VOID on Keel's margin, since H_plain gives $21,524 on 1 Jan 2033 against $23,986, about a tenth less."
+Q24-027,4,3,5,4,keep,,"3b: GAO holds contingency at the owner's level, spends it only on realised needs and states it with a confidence, the frame for the kept half."
+Q24-028,4,3,5,4,keep,,"3b's order of use and release: the builder's contingency first, the owner's after, never for added scope, and any remainder back to the owner."
+Q24-029,3,5,3,4,keep,,3b release rule: public contracts return unused contingency to the owner at completion; read in search excerpts of the contracts.
+Q24-030,2,3,3,4,keep,,"The giver decides where unused grant money goes; a weak parallel, since Laura never gives the kept half away."
+Q24-031,2,3,5,4,merged,H9-095,Set in Stone's overruns are already in the store as H9-095 (also H8-147 and H7-086).
+Q24-032,3,5,5,4,keep,,"3b: Taiwan's own record of budget revisions (64.71% of tracked plans; Taichung opera house +80.86%) for the overrun use, never a cost estimate."
+Q24-033,4,3,5,4,merged,Q16-006,Same IBTM and IBTF termination facts as Q16-006: the gift is cash about 18 Dec 2032.
+Q24-034,4,3,5,4,keep,,"3a liquidity: the ETFs trade on exchanges and the T-bonds over the counter on every bond-market business day; say 'traded', never 'listed'."
+Q24-035,4,3,4,4,keep,,"3a liquidity and Figure 1: when each payment's cash arrives, half a month to 10.5 months early; overlaps Q17-029."

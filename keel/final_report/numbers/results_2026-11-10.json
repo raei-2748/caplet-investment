@@ -1,0 +1,2199 @@
+{
+ "C3": {
+  "curve_cost_payment_dates": 301543.66458835866,
+  "ten_instruments_with_fund_fees": 302286.7615805898,
+  "ladder_duration_years": 9.9381776153994,
+  "dv01_per_bp": 299.6794497477531,
+  "rungs": {
+   "2033": {
+    "instrument": "IBTM",
+    "units": 37907.61602562171,
+    "cost": 37907.61602562171
+   },
+   "2034": {
+    "instrument": "IBTO",
+    "units": 36065.4384990294,
+    "cost": 36065.4384990294
+   },
+   "2035": {
+    "instrument": "IBTP",
+    "units": 34299.815917269785,
+    "cost": 34299.815917269785
+   },
+   "2036": {
+    "instrument": "IBTQ",
+    "units": 32587.82450412224,
+    "cost": 32587.82450412224
+   },
+   "2037": {
+    "instrument": "IBTR",
+    "units": 30921.93355677832,
+    "cost": 30921.93355677832
+   },
+   "2038": {
+    "instrument": "4.750% T-bond 15 Feb 2037",
+    "units": 28930.490068769035,
+    "cost": 29136.416810807874
+   },
+   "2039": {
+    "instrument": "4.500% T-bond 15 May 2038",
+    "units": 28482.92083840011,
+    "cost": 27567.36867386037
+   },
+   "2040": {
+    "instrument": "4.375% T-bond 15 Nov 2039",
+    "units": 27536.11609172781,
+    "cost": 26050.676303684155
+   },
+   "2041": {
+    "instrument": "4.250% T-bond 15 Nov 2040",
+    "units": 26549.748147603892,
+    "cost": 24581.746181626884
+   },
+   "2042": {
+    "instrument": "3.125% T-bond 15 Nov 2041",
+    "units": 29020.73529735093,
+    "cost": 23167.92510778908
+   }
+  },
+  "cost_if_yields_fall_25bp_before_jan2027": 309906.1593334849,
+  "cost_if_yields_fall_50bp_before_jan2027": 317742.31194609235,
+  "cost_if_yields_fall_100bp_before_jan2027": 334092.3859720648,
+  "cost_if_yields_fall_200bp_before_jan2027": 369709.6648946821
+ },
+ "C1": {
+  "A_forward": {
+   "cost": 302286.7615805898,
+   "units_bought_in_jan_2027": 10,
+   "short_if_rates_fall_for_good": {
+    "1pt": 12172.438291021397,
+    "2pt": 23508.938747983593,
+    "3pt": 34083.194688585354
+   },
+   "short_if_interest_earns_nothing": 54595.31349367926,
+   "short_if_waiting_money_pays_0.15pct_a_year": 55919.76844909032,
+   "left_after_2042_if_interest_earns_nothing": 0.0,
+   "history_windows": 585,
+   "history_share_with_any_shortfall": 0.5555555555555556,
+   "history_windows_short": 325,
+   "history_median_shortfall": 1591.610966007298,
+   "history_1_in_20_shortfall": 34555.49118489994,
+   "history_worst_shortfall": 45265.84337790199,
+   "history_worst_start": "2007-07"
+  },
+  "A_minus1": {
+   "cost": 309456.4858727633,
+   "units_bought_in_jan_2027": 10,
+   "short_if_rates_fall_for_good": {
+    "1pt": 0.0,
+    "2pt": 11650.304591359418,
+    "3pt": 22515.576159247263
+   },
+   "short_if_interest_earns_nothing": 43598.77556907736,
+   "short_if_waiting_money_pays_0.15pct_a_year": 44959.02640441828,
+   "left_after_2042_if_interest_earns_nothing": 0.0,
+   "history_windows": 585,
+   "history_share_with_any_shortfall": 0.39145299145299145,
+   "history_windows_short": 229,
+   "history_median_shortfall": 0.0,
+   "history_1_in_20_shortfall": 22991.419620469886,
+   "history_worst_shortfall": 34016.34781471492,
+   "history_worst_start": "2007-07"
+  },
+  "A_minus2": {
+   "cost": 316508.2242400151,
+   "units_bought_in_jan_2027": 10,
+   "short_if_rates_fall_for_good": {
+    "1pt": 0.0,
+    "2pt": 0.0,
+    "3pt": 11150.737892093224
+   },
+   "short_if_interest_earns_nothing": 32793.990913001944,
+   "short_if_waiting_money_pays_0.15pct_a_year": 34189.375653537565,
+   "left_after_2042_if_interest_earns_nothing": 0.0,
+   "history_windows": 585,
+   "history_share_with_any_shortfall": 0.14017094017094017,
+   "history_windows_short": 82,
+   "history_median_shortfall": 0.0,
+   "history_1_in_20_shortfall": 11629.828218927978,
+   "history_worst_shortfall": 22963.1776852724,
+   "history_worst_start": "2007-07"
+  },
+  "A_minus3": {
+   "cost": 323435.5931214174,
+   "units_bought_in_jan_2027": 10,
+   "short_if_rates_fall_for_good": {
+    "1pt": 0.0,
+    "2pt": 0.0,
+    "3pt": 0.0
+   },
+   "short_if_interest_earns_nothing": 22191.61474286214,
+   "short_if_waiting_money_pays_0.15pct_a_year": 23621.43194259647,
+   "left_after_2042_if_interest_earns_nothing": 0.0,
+   "history_windows": 585,
+   "history_share_with_any_shortfall": 0.05982905982905983,
+   "history_windows_short": 35,
+   "history_median_shortfall": 0.0,
+   "history_1_in_20_shortfall": 1224.542627269045,
+   "history_worst_shortfall": 12117.261104483943,
+   "history_worst_start": "2007-07"
+  },
+  "A_zero": {
+   "cost": 337835.8995731885,
+   "units_bought_in_jan_2027": 10,
+   "short_if_rates_fall_for_good": {
+    "1pt": 0.0,
+    "2pt": 0.0,
+    "3pt": 0.0
+   },
+   "short_if_interest_earns_nothing": 7.275957614183426e-12,
+   "short_if_waiting_money_pays_0.15pct_a_year": 1502.85344907127,
+   "left_after_2042_if_interest_earns_nothing": 0.0,
+   "history_windows": 585,
+   "history_share_with_any_shortfall": 0.0,
+   "history_windows_short": 0,
+   "history_median_shortfall": 0.0,
+   "history_1_in_20_shortfall": 0.0,
+   "history_worst_shortfall": 0.0,
+   "history_worst_start": "1962-01"
+  },
+  "B_matched_forward": {
+   "cost": 302028.9577064612,
+   "units_bought_in_jan_2027": 8,
+   "short_if_rates_fall_for_good": {
+    "1pt": 5500.425178407873,
+    "2pt": 10724.717376788321,
+    "3pt": 15689.734325421443
+   },
+   "short_if_interest_earns_nothing": 25007.24769183909,
+   "short_if_waiting_money_pays_0.15pct_a_year": 25673.826632268312,
+   "left_after_2042_if_interest_earns_nothing": 0.0,
+   "history_windows": 585,
+   "history_share_with_any_shortfall": 0.582905982905983,
+   "history_windows_short": 341,
+   "history_median_shortfall": 2913.0490968172962,
+   "history_1_in_20_shortfall": 15925.025524943441,
+   "history_worst_shortfall": 19583.516764134227,
+   "history_worst_start": "2007-07"
+  },
+  "B_matched_zero": {
+   "cost": 319687.2049108727,
+   "units_bought_in_jan_2027": 8,
+   "short_if_rates_fall_for_good": {
+    "1pt": 0.0,
+    "2pt": 0.0,
+    "3pt": 0.0
+   },
+   "short_if_interest_earns_nothing": 9.815266821533442e-09,
+   "short_if_waiting_money_pays_0.15pct_a_year": 713.9289406424141,
+   "left_after_2042_if_interest_earns_nothing": 1.3191311154514551e-08,
+   "history_windows": 585,
+   "history_share_with_any_shortfall": 0.0,
+   "history_windows_short": 0,
+   "history_median_shortfall": 0.0,
+   "history_1_in_20_shortfall": 0.0,
+   "history_worst_shortfall": 0.0,
+   "history_worst_start": "1962-01"
+  },
+  "H_plain": {
+   "cost": 336655.81750521355,
+   "units_bought_in_jan_2027": 10,
+   "short_if_rates_fall_for_good": {
+    "1pt": 0.0,
+    "2pt": 0.0,
+    "3pt": 0.0
+   },
+   "short_if_interest_earns_nothing": 0.0,
+   "short_if_waiting_money_pays_0.15pct_a_year": 0.0,
+   "left_after_2042_if_interest_earns_nothing": 1414.2699246458724,
+   "history_windows": 585,
+   "history_share_with_any_shortfall": 0.0,
+   "history_windows_short": 0,
+   "history_median_shortfall": 0.0,
+   "history_1_in_20_shortfall": 0.0,
+   "history_worst_shortfall": 0.0,
+   "history_worst_start": "1962-01"
+  },
+  "H_plain_0": {
+   "cost": 335770.9834296492,
+   "units_bought_in_jan_2027": 10,
+   "short_if_rates_fall_for_good": {
+    "1pt": 0.0,
+    "2pt": 0.0,
+    "3pt": 0.0
+   },
+   "short_if_interest_earns_nothing": 0.0,
+   "short_if_waiting_money_pays_0.15pct_a_year": 1411.1962380643745,
+   "left_after_2042_if_interest_earns_nothing": 7.275957614183426e-12,
+   "history_windows": 585,
+   "history_share_with_any_shortfall": 0.0,
+   "history_windows_short": 0,
+   "history_median_shortfall": 0.0,
+   "history_1_in_20_shortfall": 0.0,
+   "history_worst_shortfall": 0.0,
+   "history_worst_start": "1962-01"
+  },
+  "history_first_start": "1962-01",
+  "history_last_start": "2010-09",
+  "interest_received_before_2033_valued_jan_2033": 93940.85392967945,
+  "H_plain_backstop": {
+   "units": {
+    "2036": 420.0372451343625,
+    "2037": 4100.982696617432,
+    "2038": 5602.9301706933165,
+    "2039": 6003.15992124634,
+    "2040": 6151.624969265078,
+    "2041": 7284.096975281314,
+    "2042": 7304.174748159372
+   },
+   "cost_jan2027": {
+    "2036": 420.0372451343625,
+    "2037": 4100.982696617432,
+    "2038": 5642.8117334729095,
+    "2039": 5810.194947915184,
+    "2040": 5819.774665466632,
+    "2041": 6744.162769953851,
+    "2042": 5831.091866063348
+   },
+   "total_jan2027": 34369.05592462372,
+   "zero_ledger": {
+    "2033": {
+     "own_rung_at_zero": 47412.56643930151,
+     "backstop_cash_due": 9339.02415599823,
+     "available": 56751.59059529974,
+     "paid": 50000.0,
+     "carried": 6751.590595299742
+    },
+    "2034": {
+     "own_rung_at_zero": 46820.26949362256,
+     "backstop_cash_due": 1555.9817881625931,
+     "available": 55127.841877084895,
+     "paid": 50000.0,
+     "carried": 5127.841877084895
+    },
+    "2035": {
+     "own_rung_at_zero": 46244.090553684735,
+     "backstop_cash_due": 1555.8329739907217,
+     "available": 52927.76540476035,
+     "paid": 50000.0,
+     "carried": 2927.76540476035
+    },
+    "2036": {
+     "own_rung_at_zero": 45548.50353133946,
+     "backstop_cash_due": 1973.2277372700491,
+     "available": 50449.49667336986,
+     "paid": 50000.0,
+     "carried": 449.4966733698602
+    },
+    "2037": {
+     "own_rung_at_zero": 44628.516743222324,
+     "backstop_cash_due": 5514.272524606258,
+     "available": 50592.28594119845,
+     "paid": 50000.0,
+     "carried": 592.2859411984464
+    },
+    "2038": {
+     "own_rung_at_zero": 43359.571990567594,
+     "backstop_cash_due": 6813.105133438151,
+     "available": 50764.96306520419,
+     "paid": 50000.0,
+     "carried": 764.9630652041888
+    },
+    "2039": {
+     "own_rung_at_zero": 43222.83237227216,
+     "backstop_cash_due": 6945.194194209165,
+     "available": 50932.989631685516,
+     "paid": 50000.0,
+     "carried": 932.9896316855156
+    },
+    "2040": {
+     "own_rung_at_zero": 43197.282118898,
+     "backstop_cash_due": 6958.588143999861,
+     "available": 51088.85989458338,
+     "paid": 50000.0,
+     "carried": 1088.85989458338
+    },
+    "2041": {
+     "own_rung_at_zero": 42346.84829542821,
+     "backstop_cash_due": 7821.92655761075,
+     "available": 51257.63474762234,
+     "paid": 50000.0,
+     "carried": 1257.6347476223382
+    },
+    "2042": {
+     "own_rung_at_zero": 42624.20496798418,
+     "backstop_cash_due": 7532.430209039352,
+     "available": 51414.26992464587,
+     "paid": 50000.0,
+     "carried": 1414.2699246458724
+    }
+   },
+   "zero_ledger_left_after_2042": 1414.2699246458724,
+   "fee_ledger": {
+    "2033": {
+     "own_rung": 47337.65122112597,
+     "backstop_cash_due": 9298.065895395248,
+     "available": 56635.71711652122,
+     "paid": 50000.0,
+     "carried": 6635.71711652122
+    },
+    "2034": {
+     "own_rung": 46730.74909073699,
+     "backstop_cash_due": 1554.976095556637,
+     "available": 54911.50299123375,
+     "paid": 50000.0,
+     "carried": 4911.502991233749
+    },
+    "2035": {
+     "own_rung": 46141.81806469207,
+     "backstop_cash_due": 1554.827379588443,
+     "available": 52600.7917387618,
+     "paid": 50000.0,
+     "carried": 2600.7917387618
+    },
+    "2036": {
+     "own_rung": 45431.19187299781,
+     "backstop_cash_due": 1971.9119852037854,
+     "available": 50000.0,
+     "paid": 50000.0,
+     "carried": 0.0
+    },
+    "2037": {
+     "own_rung": 44490.736601280056,
+     "backstop_cash_due": 5509.2633987199515,
+     "available": 50000.00000000001,
+     "paid": 50000.0,
+     "carried": 7.275957614183426e-12
+    },
+    "2038": {
+     "own_rung": 43195.04258965777,
+     "backstop_cash_due": 6804.957410342225,
+     "available": 50000.00000000001,
+     "paid": 50000.0,
+     "carried": 7.275957614183426e-12
+    },
+    "2039": {
+     "own_rung": 43061.08663068771,
+     "backstop_cash_due": 6938.913369312293,
+     "available": 50000.00000000001,
+     "paid": 50000.0,
+     "carried": 7.275957614183426e-12
+    },
+    "2040": {
+     "own_rung": 43043.05957808385,
+     "backstop_cash_due": 6956.9404219161515,
+     "available": 50000.00000000001,
+     "paid": 50000.0,
+     "carried": 7.275957614183426e-12
+    },
+    "2041": {
+     "own_rung": 42179.78616171622,
+     "backstop_cash_due": 7820.213838283784,
+     "available": 50000.00000000001,
+     "paid": 50000.0,
+     "carried": 7.275957614183426e-12
+    },
+    "2042": {
+     "own_rung": 42469.10973993124,
+     "backstop_cash_due": 7530.890260068756,
+     "available": 50000.00000000001,
+     "paid": 50000.0,
+     "carried": 7.275957614183426e-12
+    }
+   },
+   "fee_ledger_left_after_2042": 7.275957614183426e-12,
+   "wait_fee_a_year": 0.0015,
+   "cost_of_the_fee_cushion": 884.8340755643585,
+   "morning_backstop_units": {
+    "2036": 331.60563376141846,
+    "2037": 3991.076665773573,
+    "2038": 5457.8125316262685,
+    "2039": 5855.933705931275,
+    "2040": 6013.242467688891,
+    "2041": 7126.755649120076,
+    "2042": 7152.286091651703
+   },
+   "ibtm_tail": {
+    "tail_jan2027": 2286.7615805898095,
+    "units": 2286.7615805898095,
+    "distributions_2027_missed": 97.20027066791414,
+    "completion_money_for_tail_jan2028": 2388.2193353530683,
+    "tail_price_jan2028": 2279.6275281185535
+   }
+  }
+ },
+ "C2": {
+  "IBTM": {
+   "fee_cost_on_50k": 170.22449653931108,
+   "months_in_cash_before_end": 5.388090349075975,
+   "lost_if_cash_earns_nothing_in_final_months": 868.5161102188157,
+   "as_share_of_payment": 0.017370322204376315
+  },
+  "IBTO": {
+   "fee_cost_on_50k": 196.40039215846627,
+   "months_in_cash_before_end": 6.373716632443531,
+   "lost_if_cash_earns_nothing_in_final_months": 1000.058667992444,
+   "as_share_of_payment": 0.02000117335984888
+  },
+  "IBTP": {
+   "fee_cost_on_50k": 221.23362780448952,
+   "months_in_cash_before_end": 5.388090349075975,
+   "lost_if_cash_earns_nothing_in_final_months": 806.7531430490254,
+   "as_share_of_payment": 0.016135062860980508
+  },
+  "IBTQ": {
+   "fee_cost_on_50k": 244.75082591365936,
+   "months_in_cash_before_end": 5.388090349075975,
+   "lost_if_cash_earns_nothing_in_final_months": 781.2372755459581,
+   "as_share_of_payment": 0.015624745510919164
+  },
+  "IBTR": {
+   "fee_cost_on_50k": 265.829684810451,
+   "months_in_cash_before_end": 7.392197125256674,
+   "lost_if_cash_earns_nothing_in_final_months": 1043.2639248527908,
+   "as_share_of_payment": 0.020865278497055814
+  }
+ },
+ "deductions": {
+  "haircut": 0.005,
+  "engine_ibtm_coupon": 0.042513262088140186,
+  "zero_payout_per_dollar_today": {
+   "floor_jan2028": 1.2116945524510276,
+   "moved_jan2031": 1.071332150228101
+  },
+  "cut_today_with_haircut": {
+   "floor": 0.04312431673598238,
+   "moved": 0.02870382328731491
+  },
+  "cut_today_before_haircut": {
+   "floor": 0.03831589621706766,
+   "moved": 0.02382293797720092
+  },
+  "by_shift_with_haircut": {
+   "-3pt": {
+    "floor": 0.01749271678055797,
+    "moved": 0.013729157833100691
+   },
+   "-2pt": {
+    "floor": 0.0259958326548837,
+    "moved": 0.018739565587123308
+   },
+   "-1pt": {
+    "floor": 0.03453942845055291,
+    "moved": 0.023731085368002947
+   },
+   "+0pt": {
+    "floor": 0.04312431673598238,
+    "moved": 0.02870382328731491
+   },
+   "+1pt": {
+    "floor": 0.05175127343381103,
+    "moved": 0.03365788499545763
+   },
+   "+2pt": {
+    "floor": 0.060421034473213675,
+    "moved": 0.038593375680514574
+   },
+   "+3pt": {
+    "floor": 0.06913429231710266,
+    "moved": 0.04351040006703066
+   }
+  },
+  "par_stand_in_morning": {
+   "floor_today": 0.04135951577951602,
+   "moved_today": 0.02446719389982499,
+   "by_shift": {
+    "-3pt": {
+     "floor": 0.011838212408331383,
+     "moved": 0.009237909979429415
+    },
+    "-2pt": {
+     "floor": 0.020313788652218223,
+     "moved": 0.014163755658682775
+    },
+    "-1pt": {
+     "floor": 0.030212654636951664,
+     "moved": 0.019243614806947917
+    },
+    "+0pt": {
+     "floor": 0.04135951577951602,
+     "moved": 0.02446719389982499
+    },
+    "+1pt": {
+     "floor": 0.05359484269042847,
+     "moved": 0.029824692537553044
+    },
+    "+2pt": {
+     "floor": 0.06677355279487851,
+     "moved": 0.03530678051619729
+    },
+    "+3pt": {
+     "floor": 0.08076380138313144,
+     "moved": 0.04090457601031128
+    }
+   }
+  },
+  "holdings_vs_engine_zero_payout_pct": {
+   "-3pt": {
+    "coupon_3.50": 0.1048415617348919,
+    "coupon_4.00": 0.03431460008522791
+   },
+   "-2pt": {
+    "coupon_3.50": 0.16762527723741538,
+    "coupon_4.00": 0.05484054693154494
+   },
+   "-1pt": {
+    "coupon_3.50": 0.23198135454427504,
+    "coupon_4.00": 0.07586258700589266
+   },
+   "+0pt": {
+    "coupon_3.50": 0.2979432913873259,
+    "coupon_4.00": 0.09739033969276001
+   },
+   "+1pt": {
+    "coupon_3.50": 0.3655446641505744,
+    "coupon_4.00": 0.1194333813791637
+   },
+   "+2pt": {
+    "coupon_3.50": 0.434819074981041,
+    "coupon_4.00": 0.1420012260801906
+   },
+   "+3pt": {
+    "coupon_3.50": 0.5058000950197483,
+    "coupon_4.00": 0.1651033048660544
+   }
+  },
+  "minus3_from_purchase": {
+   "floor": 0.026065659200462665,
+   "moved": 0.014927934704706214
+  },
+  "shift_where_par_floor_loss_reaches_4.1pct_pt": -0.031049121208268735
+ },
+ "plan": {
+  "no_margin": {
+   "margin_jan2027_value": 0.0,
+   "central": {
+    "complete": 2388.2193353530683,
+    "R": 147611.78066464694,
+    "floor": 136328.20354141132,
+    "vt28": 39412.34543746074,
+    "vt31": 48873.75514115039,
+    "moved": 26818.918012984133,
+    "top": 163147.12155439545,
+    "kept33": 28205.98896887695,
+    "total": 191353.1105232724,
+    "all_t": 185986.6351178872
+   },
+   "central_rule": {
+    "dF": 0.04312431673598238,
+    "dM": 0.02870382328731491,
+    "bottom_raw": 130449.14291184403,
+    "bottom": 130000.0,
+    "top_raw": 156498.2554414265,
+    "top": 155000.0,
+    "payout": 163147.12155439545,
+    "gift": 155000.0,
+    "excess": 8147.121554395446,
+    "kept_plus_excess": 36353.11052327239
+   },
+   "floor_money_jan2028": 108199.4352271862,
+   "floor_share_of_2028_deposit": 0.7213295681812414,
+   "most_rule_house": {
+    "share_paths_binding": 0.0001,
+    "vt_squeeze_where_binding_p50_p95_max": [
+     2099.1110536472697,
+     4363.594362408488,
+     4625.34925685027
+    ],
+    "vt_bought_where_binding_p5_p50": [
+     21366.538386891563,
+     24455.874415215178
+    ],
+    "vt_share_of_left_where_binding_p5_p50": [
+     0.22171868607694714,
+     0.24589423103910818
+    ],
+    "floor_money_p5_p50_p95": [
+     94540.32633517648,
+     108213.6067500936,
+     121149.1468432576
+    ],
+    "floor_money_without_rule_p5_p50_p95": [
+     94540.32633517648,
+     108213.6067500936,
+     121149.1468432576
+    ],
+    "share_floor_money_under_75k_without_rule": 0.0001,
+    "completion_above_which_rule_binds": 47679.3997271487
+   },
+   "owned_test_house": {
+    "engine": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "coupon_3.50": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "coupon_4.00": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "par_stand_in": {
+     "share_bottom_not_owned": 0.022455,
+     "share_top_not_owned": 0.017295,
+     "count_bottom_not_owned": 4491,
+     "count_top_not_owned": 3459,
+     "largest_gap_bottom": 2778.9334564540186,
+     "largest_gap_top": 3345.236261977814
+    },
+    "engine_less_0.0010": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "engine_less_0.0025": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "engine_less_0.0050": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "engine_less_0.0075": {
+     "share_bottom_not_owned": 0.066115,
+     "share_top_not_owned": 0.07939,
+     "count_bottom_not_owned": 13223,
+     "count_top_not_owned": 15878,
+     "largest_gap_bottom": 417.1504524300981,
+     "largest_gap_top": 558.5227921175829
+    },
+    "engine_less_0.0100": {
+     "share_bottom_not_owned": 0.13122,
+     "share_top_not_owned": 0.159225,
+     "count_bottom_not_owned": 26244,
+     "count_top_not_owned": 31845,
+     "largest_gap_bottom": 844.3112825247226,
+     "largest_gap_top": 1136.461021860392
+    }
+   },
+   "owned_test_history": {
+    "engine": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "coupon_3.50": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "coupon_4.00": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "par_stand_in": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "engine_less_0.0010": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "engine_less_0.0025": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "engine_less_0.0050": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "engine_less_0.0075": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.07062146892655367,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 125,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 423.1536459486233
+    },
+    "engine_less_0.0100": {
+     "share_bottom_not_owned": 1.0,
+     "share_top_not_owned": 0.14293785310734464,
+     "count_bottom_not_owned": 1,
+     "count_top_not_owned": 253,
+     "largest_gap_bottom": 206.38041937127127,
+     "largest_gap_top": 850.2993546490034
+    }
+   },
+   "house": {
+    "complete": [
+     0.0,
+     2368.8857433920625,
+     21022.747155284484
+    ],
+    "R": [
+     128977.2528447155,
+     147631.11425660795,
+     165278.50865383027
+    ],
+    "floor": [
+     113675.67934816654,
+     136335.15041801374,
+     159864.80188197768
+    ],
+    "vt28": [
+     34436.92650953904,
+     39417.507506514325,
+     44129.36181057269
+    ],
+    "vt31": [
+     28833.308063936154,
+     48647.34894838348,
+     82140.12526692754
+    ],
+    "moved": [
+     15709.311811716167,
+     26711.655148587488,
+     45315.07798220514
+    ],
+    "top": [
+     135208.91748936565,
+     163926.4896389577,
+     196300.07169977072
+    ],
+    "kept33": [
+     14373.999215000584,
+     28071.273878462507,
+     54785.38717082106
+    ],
+    "total": [
+     154792.7484794612,
+     192638.23479292088,
+     243857.82942561686
+    ],
+    "all_t": [
+     155082.78219395163,
+     185996.1124393093,
+     218096.59192629973
+    ]
+   },
+   "house_rule": {
+    "bottom_raw": [
+     109854.96795047013,
+     130477.96705676985,
+     151384.0261831094
+    ],
+    "top_raw": [
+     130784.34157523306,
+     157213.1709931582,
+     186976.15648553122
+    ],
+    "gift": [
+     130000.0,
+     155000.0,
+     185000.0
+    ],
+    "excess": [
+     5543.319923886198,
+     9234.809357159873,
+     13290.751637213814
+    ],
+    "kept_plus_excess": [
+     22554.53628943674,
+     37442.54730246494,
+     65013.13168899637
+    ],
+    "dF": [
+     0.02948993504093924,
+     0.0431201139385326,
+     0.05679948036796472
+    ],
+    "dM": [
+     0.013614715143822743,
+     0.028662651639591197,
+     0.04360219581049595
+    ],
+    "bottom": [
+     105000.0,
+     130000.0,
+     150000.0
+    ],
+    "top": [
+     130000.0,
+     155000.0,
+     185000.0
+    ]
+   },
+   "house_rule_extra": {
+    "share_gift_equals_stated_top": 1.0,
+    "share_payout_below_stated_top": 0.0,
+    "share_zero_world_below_stated_top": 0.0,
+    "share_floor_zero_below_stated_bottom": 0.0,
+    "P_stated_bottom_at_least": {
+     "80k": 0.99998,
+     "90k": 0.999285,
+     "95k": 0.997705,
+     "100k": 0.992355,
+     "110k": 0.94889,
+     "120k": 0.79918
+    },
+    "P_stated_top_at_least": {
+     "90k": 0.999995,
+     "100k": 0.999865,
+     "110k": 0.99863,
+     "115k": 0.996325,
+     "120k": 0.99019,
+     "130k": 0.95487,
+     "140k": 0.85487,
+     "150k": 0.66882
+    },
+    "share_total_below_all_treasury": 0.371935,
+    "share_payout_below_all_treasury": 0.97608,
+    "fixed_4.1_2.5": {
+     "share_zero_world_below_fixed_top": 0.0759,
+     "share_floor_zero_below_fixed_bottom": 0.06541
+    }
+   },
+   "history": {
+    "floor": [
+     136328.20354141132,
+     136328.20354141132,
+     136328.20354141132
+    ],
+    "moved": [
+     17975.394266906995,
+     28582.1361216703,
+     44352.60627438007
+    ],
+    "top": [
+     154303.5978083183,
+     164910.33966308163,
+     180680.80981579138
+    ],
+    "kept33": [
+     17491.5911154927,
+     31025.536718064068,
+     53654.280962744844
+    ],
+    "total": [
+     173812.84402569817,
+     195634.1816062429,
+     229716.39974582748
+    ]
+   },
+   "history_rule": {
+    "top_raw": [
+     147908.5746381939,
+     158210.86244910394,
+     173528.65981339244
+    ],
+    "gift": [
+     145000.0,
+     155000.0,
+     170000.0
+    ],
+    "excess": [
+     6976.409609080109,
+     9430.84268253886,
+     11446.736168522311
+    ],
+    "kept_plus_excess": [
+     26426.663712525333,
+     40323.46206346339,
+     63250.65217070206
+    ],
+    "bottom": [
+     130000.0,
+     130000.0,
+     130000.0
+    ],
+    "top": [
+     145000.0,
+     155000.0,
+     170000.0
+    ]
+   },
+   "history_lowest_stated_top": [
+    130000.0,
+    134947.88173113004,
+    "1929-07"
+   ],
+   "history_lowest_payout": [
+    140959.88945467398,
+    "1929-07"
+   ],
+   "history_windows": 1770
+  },
+  "KEEL": {
+   "margin_jan2027_value": 21148.83154082758,
+   "central": {
+    "complete": 24475.370367907166,
+    "R": 125524.62963209284,
+    "floor": 115929.414176105,
+    "vt28": 33515.076111768794,
+    "vt31": 41560.7750627982,
+    "moved": 22806.003257703123,
+    "top": 138735.41743380812,
+    "kept33": 23985.52678372464,
+    "total": 162720.94421753276,
+    "all_t": 158157.45453766032
+   },
+   "central_rule": {
+    "dF": 0.04312431673598227,
+    "dM": 0.02870382328731491,
+    "bottom_raw": 110930.03740015777,
+    "bottom": 110000.0,
+    "top_raw": 133081.42117046184,
+    "top": 130000.0,
+    "payout": 138735.41743380812,
+    "gift": 130000.0,
+    "excess": 8735.417433808121,
+    "kept_plus_excess": 32720.94421753276
+   },
+   "floor_money_jan2028": 92009.55352032404,
+   "floor_share_of_2028_deposit": 0.613397023468827,
+   "most_rule_house": {
+    "share_paths_binding": 0.02365,
+    "vt_squeeze_where_binding_p50_p95_max": [
+     2553.1723988847443,
+     9825.246669201537,
+     20011.115065579652
+    ],
+    "vt_bought_where_binding_p5_p50": [
+     13915.443834650025,
+     23836.418282558327
+    ],
+    "vt_share_of_left_where_binding_p5_p50": [
+     0.15650022854552817,
+     0.24116795740632602
+    ],
+    "floor_money_p5_p50_p95": [
+     78023.83868022602,
+     92006.30959258901,
+     105004.06206648672
+    ],
+    "floor_money_without_rule_p5_p50_p95": [
+     78023.83868022602,
+     92006.30959258901,
+     105004.06206648672
+    ],
+    "share_floor_money_under_75k_without_rule": 0.023635,
+    "completion_above_which_rule_binds": 47679.3997271487
+   },
+   "owned_test_house": {
+    "engine": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "coupon_3.50": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "coupon_4.00": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "par_stand_in": {
+     "share_bottom_not_owned": 0.0198,
+     "share_top_not_owned": 0.01437,
+     "count_bottom_not_owned": 3960,
+     "count_top_not_owned": 2874,
+     "largest_gap_bottom": 2878.8863613189023,
+     "largest_gap_top": 2320.663541543152
+    },
+    "engine_less_0.0010": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "engine_less_0.0025": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "engine_less_0.0050": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "engine_less_0.0075": {
+     "share_bottom_not_owned": 0.05578,
+     "share_top_not_owned": 0.06727,
+     "count_bottom_not_owned": 11156,
+     "count_top_not_owned": 13454,
+     "largest_gap_bottom": 373.9289207943075,
+     "largest_gap_top": 485.4035849592183
+    },
+    "engine_less_0.0100": {
+     "share_bottom_not_owned": 0.11116,
+     "share_top_not_owned": 0.134735,
+     "count_bottom_not_owned": 22232,
+     "count_top_not_owned": 26947,
+     "largest_gap_bottom": 750.8207874925574,
+     "largest_gap_top": 1000.5537018736941
+    }
+   },
+   "owned_test_history": {
+    "engine": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "coupon_3.50": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "coupon_4.00": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "par_stand_in": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "engine_less_0.0010": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "engine_less_0.0025": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "engine_less_0.0050": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "engine_less_0.0075": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.08192090395480225,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 145,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 351.49292360185063
+    },
+    "engine_less_0.0100": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.1497175141242938,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 265,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 703.2523872703605
+    }
+   },
+   "house": {
+    "complete": [
+     19881.525275244083,
+     25267.562406356596,
+     43555.47246899586
+    ],
+    "R": [
+     106444.52753100413,
+     125520.20408265894,
+     143252.47212344708
+    ],
+    "floor": [
+     93306.65621272285,
+     115897.14777208673,
+     139600.22453928762
+    ],
+    "vt28": [
+     28420.688850778104,
+     33513.894490069935,
+     38248.410056960376
+    ],
+    "vt31": [
+     23987.200825675354,
+     41233.76604258314,
+     70030.89525709473
+    ],
+    "moved": [
+     13053.395270478883,
+     22638.431339391078,
+     38723.53178083396
+    ],
+    "top": [
+     111233.37226358226,
+     139391.5291322567,
+     170770.45348558508
+    ],
+    "kept33": [
+     12004.355401497547,
+     23775.613826306493,
+     46728.51968318318
+    ],
+    "total": [
+     127720.9427170798,
+     163888.04185985762,
+     210689.75617431235
+    ],
+    "all_t": [
+     127097.46550178282,
+     158113.43488688505,
+     190450.51096765025
+    ]
+   },
+   "house_rule": {
+    "bottom_raw": [
+     90217.19593917216,
+     110910.39741034093,
+     132053.92897882347
+    ],
+    "top_raw": [
+     107667.91879700855,
+     133672.97794217296,
+     162356.1500075363
+    ],
+    "gift": [
+     105000.0,
+     130000.0,
+     160000.0
+    ],
+    "excess": [
+     4759.99453440288,
+     8247.387870746374,
+     12076.720577297301
+    ],
+    "kept_plus_excess": [
+     19079.095596765306,
+     32156.6338533081,
+     56044.58426980429
+    ],
+    "dF": [
+     0.02948993504093924,
+     0.0431201139385326,
+     0.056799480367964915
+    ],
+    "dM": [
+     0.01361166335297273,
+     0.0286625370607691,
+     0.04360219581049617
+    ],
+    "bottom": [
+     90000.0,
+     110000.0,
+     130000.0
+    ],
+    "top": [
+     105000.0,
+     130000.0,
+     160000.0
+    ]
+   },
+   "house_rule_extra": {
+    "share_gift_equals_stated_top": 1.0,
+    "share_payout_below_stated_top": 0.0,
+    "share_zero_world_below_stated_top": 0.0,
+    "share_floor_zero_below_stated_bottom": 0.0,
+    "P_stated_bottom_at_least": {
+     "80k": 0.999375,
+     "90k": 0.95186,
+     "95k": 0.895785,
+     "100k": 0.806775,
+     "110k": 0.528665,
+     "120k": 0.2364
+    },
+    "P_stated_top_at_least": {
+     "90k": 0.99904,
+     "100k": 0.9853,
+     "110k": 0.93203,
+     "115k": 0.879125,
+     "120k": 0.80299,
+     "130k": 0.58906,
+     "140k": 0.350835,
+     "150k": 0.167575
+    },
+    "share_total_below_all_treasury": 0.371925,
+    "share_payout_below_all_treasury": 0.97605,
+    "fixed_4.1_2.5": {
+     "share_zero_world_below_fixed_top": 0.066185,
+     "share_floor_zero_below_fixed_bottom": 0.05704
+    }
+   },
+   "history": {
+    "floor": [
+     115929.414176105,
+     115929.414176105,
+     115929.414176105
+    ],
+    "moved": [
+     15285.735987227628,
+     24305.391037302197,
+     37716.12570989719
+    ],
+    "top": [
+     131215.1501633326,
+     140234.8052134072,
+     153645.5398860022
+    ],
+    "kept33": [
+     14874.324302315526,
+     26383.18559762904,
+     45625.99079626044
+    ],
+    "total": [
+     147805.22783065276,
+     166361.43862589833,
+     195343.9343979053
+    ]
+   },
+   "history_rule": {
+    "top_raw": [
+     125777.01432279147,
+     134537.77078819615,
+     147563.5661025959
+    ],
+    "gift": [
+     125000.0,
+     130000.0,
+     145000.0
+    ],
+    "excess": [
+     5898.377122886818,
+     8073.47100732752,
+     10460.544628295742
+    ],
+    "kept_plus_excess": [
+     22541.088369327743,
+     34353.066328253466,
+     53990.95350496398
+    ],
+    "bottom": [
+     110000.0,
+     110000.0,
+     110000.0
+    ],
+    "top": [
+     125000.0,
+     130000.0,
+     145000.0
+    ]
+   },
+   "history_lowest_stated_top": [
+    110000.0,
+    114864.27680927145,
+    "1929-06"
+   ],
+   "history_lowest_payout": [
+    119868.06091701325,
+    "1929-07"
+   ],
+   "history_windows": 1770
+  },
+  "H_plain": {
+   "margin_jan2027_value": 34369.05592462372,
+   "central": {
+    "complete": 38282.14224962851,
+    "R": 111717.85775037149,
+    "floor": 103178.04434054051,
+    "vt28": 29828.668019349192,
+    "vt31": 36989.40016847324,
+    "moved": 20297.513207297936,
+    "top": 123475.55754783844,
+    "kept33": 21347.297953761732,
+    "total": 144822.85550160016,
+    "all_t": 140761.31560783152
+   },
+   "central_rule": {
+    "dF": 0.04312431673598238,
+    "dM": 0.02870382328731491,
+    "bottom_raw": 98728.56167619981,
+    "bottom": 95000.0,
+    "top_raw": 118443.45865122353,
+    "top": 115000.0,
+    "payout": 123475.55754783844,
+    "gift": 115000.0,
+    "excess": 8475.557547838442,
+    "kept_plus_excess": 29822.855501600174
+   },
+   "floor_money_jan2028": 81889.1897310223,
+   "floor_share_of_2028_deposit": 0.5459279315401486,
+   "most_rule_house": {
+    "share_paths_binding": 0.168795,
+    "vt_squeeze_where_binding_p50_p95_max": [
+     3103.6644697351294,
+     10942.745252499399,
+     20015.803544349124
+    ],
+    "vt_bought_where_binding_p5_p50": [
+     12390.889150751167,
+     23085.405907591907
+    ],
+    "vt_share_of_left_where_binding_p5_p50": [
+     0.14178534496777503,
+     0.23535785304786147
+    ],
+    "floor_money_p5_p50_p95": [
+     75001.0,
+     81847.92514916862,
+     93015.37162129683
+    ],
+    "floor_money_without_rule_p5_p50_p95": [
+     69870.47072523776,
+     81847.92514916862,
+     93015.37162129683
+    ],
+    "share_floor_money_under_75k_without_rule": 0.168775,
+    "completion_above_which_rule_binds": 47679.3997271487
+   },
+   "owned_test_house": {
+    "engine": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "coupon_3.50": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "coupon_4.00": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "par_stand_in": {
+     "share_bottom_not_owned": 0.01809,
+     "share_top_not_owned": 0.0134,
+     "count_bottom_not_owned": 3618,
+     "count_top_not_owned": 2680,
+     "largest_gap_bottom": 1968.7561701212107,
+     "largest_gap_top": 2470.3097527000355
+    },
+    "engine_less_0.0010": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "engine_less_0.0025": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "engine_less_0.0050": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "engine_less_0.0075": {
+     "share_bottom_not_owned": 0.05003,
+     "share_top_not_owned": 0.05992,
+     "count_bottom_not_owned": 10006,
+     "count_top_not_owned": 11984,
+     "largest_gap_bottom": 339.0010658115498,
+     "largest_gap_top": 428.80087024348904
+    },
+    "engine_less_0.0100": {
+     "share_bottom_not_owned": 0.101255,
+     "share_top_not_owned": 0.12007,
+     "count_bottom_not_owned": 20251,
+     "count_top_not_owned": 24014,
+     "largest_gap_bottom": 678.1975366785482,
+     "largest_gap_top": 881.1212710741092
+    }
+   },
+   "owned_test_history": {
+    "engine": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "coupon_3.50": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "coupon_4.00": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "par_stand_in": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "engine_less_0.0010": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "engine_less_0.0025": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "engine_less_0.0050": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.0,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 0,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 0.0
+    },
+    "engine_less_0.0075": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.06327683615819209,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 112,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 312.1795641268254
+    },
+    "engine_less_0.0100": {
+     "share_bottom_not_owned": 0.0,
+     "share_top_not_owned": 0.1310734463276836,
+     "count_bottom_not_owned": 0,
+     "count_top_not_owned": 232,
+     "largest_gap_bottom": 0.0,
+     "largest_gap_top": 626.2546785748709
+    }
+   },
+   "house": {
+    "complete": [
+     33883.94611091384,
+     40239.12915250638,
+     54679.043616114745
+    ],
+    "R": [
+     95321.2424628073,
+     111661.56227717412,
+     126896.82349426579
+    ],
+    "floor": [
+     88046.86742469211,
+     103096.92093265479,
+     124379.84185053868
+    ],
+    "vt28": [
+     20320.2424628073,
+     29813.637128005495,
+     33881.45187296896
+    ],
+    "vt31": [
+     19534.924719924802,
+     36095.28698250527,
+     61959.028851115545
+    ],
+    "moved": [
+     10580.781235704057,
+     19828.18905356381,
+     34307.9641125924
+    ],
+    "top": [
+     101092.84611771931,
+     124007.7665514291,
+     152051.4357665914
+    ],
+    "kept33": [
+     9881.236889574937,
+     20738.638468607984,
+     41258.136025700245
+    ],
+    "total": [
+     113448.68481034618,
+     145686.58936748677,
+     187490.10920966437
+    ],
+    "all_t": [
+     113168.99387705818,
+     140649.2255136441,
+     169686.00525312233
+    ]
+   },
+   "house_rule": {
+    "bottom_raw": [
+     85358.5841533821,
+     98653.47600960074,
+     117613.8805112987
+    ],
+    "top_raw": [
+     97931.61005759031,
+     118920.73355066686,
+     144548.21376160494
+    ],
+    "gift": [
+     95000.0,
+     115000.0,
+     140000.0
+    ],
+    "excess": [
+     4339.732387873777,
+     7629.1054462812535,
+     11218.222198070978
+    ],
+    "kept_plus_excess": [
+     16193.060743308508,
+     28540.632639984036,
+     49923.93165155483
+    ],
+    "dF": [
+     0.029489935040939125,
+     0.043120113938532656,
+     0.056799480367965026
+    ],
+    "dM": [
+     0.01360248242886405,
+     0.02866219243947632,
+     0.04360219581049617
+    ],
+    "bottom": [
+     85000.0,
+     95000.0,
+     115000.0
+    ],
+    "top": [
+     95000.0,
+     115000.0,
+     140000.0
+    ]
+   },
+   "house_rule_extra": {
+    "share_gift_equals_stated_top": 1.0,
+    "share_payout_below_stated_top": 0.0,
+    "share_zero_world_below_stated_top": 0.0,
+    "share_floor_zero_below_stated_bottom": 0.0,
+    "P_stated_bottom_at_least": {
+     "80k": 0.99898,
+     "90k": 0.798575,
+     "95k": 0.629215,
+     "100k": 0.452205,
+     "110k": 0.1586,
+     "120k": 0.032575
+    },
+    "P_stated_top_at_least": {
+     "90k": 0.99392,
+     "100k": 0.925545,
+     "110k": 0.735565,
+     "115k": 0.607615,
+     "120k": 0.47047,
+     "130k": 0.228485,
+     "140k": 0.085165,
+     "150k": 0.024985
+    },
+    "share_total_below_all_treasury": 0.371875,
+    "share_payout_below_all_treasury": 0.97583,
+    "fixed_4.1_2.5": {
+     "share_zero_world_below_fixed_top": 0.05947,
+     "share_floor_zero_below_fixed_bottom": 0.05154
+    }
+   },
+   "history": {
+    "floor": [
+     103178.04434054051,
+     103178.04434054051,
+     103178.04434054051
+    ],
+    "moved": [
+     13604.419177622702,
+     21631.979528089752,
+     33567.63353377896
+    ],
+    "top": [
+     116782.4635181632,
+     124810.02386863026,
+     136745.67787431946
+    ],
+    "kept33": [
+     13238.259705759978,
+     23481.232203086234,
+     40607.47252898624
+    ],
+    "total": [
+     131547.75653147494,
+     148062.92271109403,
+     173857.56038019416
+    ]
+   },
+   "history_rule": {
+    "top_raw": [
+     111942.48200982147,
+     119739.62068656046,
+     131332.67578885183
+    ],
+    "gift": [
+     110000.0,
+     115000.0,
+     130000.0
+    ],
+    "excess": [
+     5322.161735611427,
+     7524.395054399283,
+     9846.011575431485
+    ],
+    "kept_plus_excess": [
+     20018.69042058216,
+     30901.57961950668,
+     48398.68006954035
+    ],
+    "bottom": [
+     95000.0,
+     95000.0,
+     95000.0
+    ],
+    "top": [
+     110000.0,
+     115000.0,
+     130000.0
+    ]
+   },
+   "history_lowest_stated_top": [
+    100000.0,
+    104924.62891677805,
+    "1929-01"
+   ],
+   "history_lowest_payout": [
+    106683.46935250369,
+    "1929-07"
+   ],
+   "history_windows": 1770
+  },
+  "vt_growth_sensitivity_central": {
+   "0.040": {
+    "payout": 121556.85729248807,
+    "stated_top_raw": 116579.83242894406,
+    "stated_top": 115000.0,
+    "gift": 115000.0,
+    "excess": 6556.857292488072,
+    "kept33": 18091.196341814197,
+    "kept_plus_excess": 24648.05363430227,
+    "total": 139648.05363430228
+   },
+   "0.060": {
+    "payout": 122637.69482875668,
+    "stated_top_raw": 117629.6457955693,
+    "stated_top": 115000.0,
+    "gift": 115000.0,
+    "excess": 7637.694828756677,
+    "kept33": 19898.93882325999,
+    "kept_plus_excess": 27536.633652016666,
+    "total": 142536.63365201667
+   },
+   "0.075": {
+    "payout": 123475.55754783844,
+    "stated_top_raw": 118443.45865122353,
+    "stated_top": 115000.0,
+    "gift": 115000.0,
+    "excess": 8475.557547838442,
+    "kept33": 21347.297953761732,
+    "kept_plus_excess": 29822.855501600174,
+    "total": 144822.85550160016
+   },
+   "0.090": {
+    "payout": 124337.13180208938,
+    "stated_top_raw": 119280.30243033155,
+    "stated_top": 115000.0,
+    "gift": 115000.0,
+    "excess": 9337.131802089381,
+    "kept33": 22878.79148556295,
+    "kept_plus_excess": 32215.92328765233,
+    "total": 147215.92328765232
+   },
+   "0.100": {
+    "payout": 124924.85110032855,
+    "stated_top_raw": 119851.15193769151,
+    "stated_top": 115000.0,
+    "gift": 115000.0,
+    "excess": 9924.851100328553,
+    "kept33": 23947.71143271896,
+    "kept_plus_excess": 33872.562533047516,
+    "total": 148872.56253304752
+   }
+  },
+  "deletion_test_vt_to_zero": {
+   "floor_payout": 103178.04434054051,
+   "stated_bottom": 95000.0,
+   "stated_top": 95000.0,
+   "gift": 95000.0,
+   "excess_kept_by_laura": 8178.044340540509
+  },
+  "floor_expected_interest": 21288.85460951821,
+  "overflow_if_forwards_hold": {
+   "left_after_2042_nominal": 74122.56759813958,
+   "value_jan2027": 34345.32189821463,
+   "value_jan2033": 45455.575704752475,
+   "carry_after_each_payment": {
+    "2033": 10774.583255219994,
+    "2034": 12921.214179794035,
+    "2035": 15183.605862149692,
+    "2036": 18008.25639421858,
+    "2037": 24680.98339561002,
+    "2038": 33170.09246856929,
+    "2039": 42240.51380650641,
+    "2040": 51721.75141879449,
+    "2041": 62701.779551473795,
+    "2042": 74122.56759813958
+   }
+  },
+  "missed_deposit_2033_payment_short": 3026.4984690862057,
+  "all_treasury": {
+   "payout_central": 140761.31560783152,
+   "stated_zero_interest_central": 134691.0800493858,
+   "stated_rounded": 130000.0,
+   "house": [
+    113168.99387705818,
+    140649.2255136441,
+    169686.00525312233
+   ],
+   "same_flexibility_payout": 120022.67713922354,
+   "same_flexibility_stated": 110000.0,
+   "final_median_kept_half": 20738.638468607984,
+   "share_final_stated_top_below_all_t_stated": 0.949545,
+   "share_final_payout_below_all_t": 0.97583,
+   "share_final_total_above_all_t": 0.62785
+  }
+ },
+ "C5": {
+  "move_date_modelled": "1 Jan 2031",
+  "rule": "card Q19, completion.rule",
+  "design": "H_plain"
+ },
+ "C6": {
+  "fall_0bp": {
+   "ladder_only": 2388.2193353530683,
+   "with_standard": 38282.14224962853,
+   "deposit_fall_that_breaks_ladder_pct": 98.40785377643128,
+   "deposit_fall_that_breaks_standard_pct": 74.47857183358097,
+   "150000": {
+    "left": 111717.85775037148,
+    "floor_money": 81889.18973102228,
+    "most_binds": false,
+    "vt_bought": 29828.668019349192,
+    "floor_payout": 103178.04434054048,
+    "stated_bottom_raw": 98728.5616761998,
+    "stated_bottom": 95000.0,
+    "standard_complete": true,
+    "ladder_complete": true
+   },
+   "112500": {
+    "left": 74217.85775037148,
+    "floor_money": 56251.0,
+    "most_binds": true,
+    "vt_bought": 17966.857750371477,
+    "floor_payout": 70874.6562429479,
+    "stated_bottom_raw": 67818.23511857315,
+    "stated_bottom": 65000.0,
+    "standard_complete": true,
+    "ladder_complete": true
+   },
+   "75000": {
+    "left": 36717.85775037147,
+    "floor_money": 36717.85775037147,
+    "most_binds": true,
+    "vt_bought": 0.0,
+    "floor_payout": 46263.453912553334,
+    "stated_bottom_raw": 44268.37407272787,
+    "stated_bottom": 40000.0,
+    "standard_complete": true,
+    "ladder_complete": true
+   },
+   "37500": {
+    "left": 0.0,
+    "floor_money": 0.0,
+    "most_binds": false,
+    "vt_bought": 0.0,
+    "floor_payout": 0.0,
+    "stated_bottom_raw": 0.0,
+    "stated_bottom": 0.0,
+    "standard_complete": false,
+    "ladder_complete": true
+   }
+  },
+  "fall_25bp": {
+   "ladder_only": 10320.365286881539,
+   "with_standard": 44835.75952484817,
+   "deposit_fall_that_breaks_ladder_pct": 93.1197564754123,
+   "deposit_fall_that_breaks_standard_pct": 70.10949365010121,
+   "150000": {
+    "left": 105164.24047515183,
+    "floor_money": 77085.38826828629,
+    "most_binds": false,
+    "vt_bought": 28078.852206865544,
+    "floor_payout": 95952.16303558288,
+    "stated_bottom_raw": 91998.914982833,
+    "stated_bottom": 90000.0,
+    "standard_complete": true,
+    "ladder_complete": true
+   },
+   "112500": {
+    "left": 67664.24047515183,
+    "floor_money": 56251.0,
+    "most_binds": true,
+    "vt_bought": 11413.240475151833,
+    "floor_payout": 70018.52418683503,
+    "stated_bottom_raw": 67133.74717252866,
+    "stated_bottom": 65000.0,
+    "standard_complete": true,
+    "ladder_complete": true
+   },
+   "75000": {
+    "left": 30164.240475151833,
+    "floor_money": 30164.240475151833,
+    "most_binds": true,
+    "vt_bought": 0.0,
+    "floor_payout": 37546.98763198746,
+    "stated_bottom_raw": 36000.044331837635,
+    "stated_bottom": 35000.0,
+    "standard_complete": true,
+    "ladder_complete": true
+   },
+   "37500": {
+    "left": 0.0,
+    "floor_money": 0.0,
+    "most_binds": false,
+    "vt_bought": 0.0,
+    "floor_payout": 0.0,
+    "stated_bottom_raw": 0.0,
+    "stated_bottom": 0.0,
+    "standard_complete": false,
+    "ladder_complete": true
+   }
+  },
+  "fall_50bp": {
+   "ladder_only": 18438.904059334625,
+   "with_standard": 51541.283832016314,
+   "deposit_fall_that_breaks_ladder_pct": 87.7073972937769,
+   "deposit_fall_that_breaks_standard_pct": 65.63914411198913,
+   "150000": {
+    "left": 98458.71616798369,
+    "floor_money": 75001.0,
+    "most_binds": true,
+    "vt_bought": 23457.716167983686,
+    "floor_payout": 92228.55232697354,
+    "stated_bottom_raw": 88607.14315943359,
+    "stated_bottom": 85000.0,
+    "standard_complete": true,
+    "ladder_complete": true
+   },
+   "112500": {
+    "left": 60958.716167983686,
+    "floor_money": 56251.0,
+    "most_binds": true,
+    "vt_bought": 4707.716167983686,
+    "floor_payout": 69171.72166963892,
+    "stated_bottom_raw": 66455.65272278101,
+    "stated_bottom": 65000.0,
+    "standard_complete": true,
+    "ladder_complete": true
+   },
+   "75000": {
+    "left": 23458.716167983686,
+    "floor_money": 23458.716167983686,
+    "most_binds": true,
+    "vt_bought": 0.0,
+    "floor_payout": 28847.127793262804,
+    "stated_bottom_raw": 27714.42809873268,
+    "stated_bottom": 25000.0,
+    "standard_complete": true,
+    "ladder_complete": true
+   },
+   "37500": {
+    "left": 0.0,
+    "floor_money": 0.0,
+    "most_binds": false,
+    "vt_bought": 0.0,
+    "floor_payout": 0.0,
+    "stated_bottom_raw": 0.0,
+    "stated_bottom": 0.0,
+    "standard_complete": false,
+    "ladder_complete": true
+   }
+  },
+  "fall_100bp": {
+   "ladder_only": 35257.266114572005,
+   "with_standard": 65437.21175061378,
+   "deposit_fall_that_breaks_ladder_pct": 76.49515592361867,
+   "deposit_fall_that_breaks_standard_pct": 56.375192166257484,
+   "150000": {
+    "left": 84562.78824938621,
+    "floor_money": 75001.0,
+    "most_binds": true,
+    "vt_bought": 9561.788249386213,
+    "floor_payout": 90007.25722054814,
+    "stated_bottom_raw": 86824.20353722363,
+    "stated_bottom": 85000.0,
+    "standard_complete": true,
+    "ladder_complete": true
+   },
+   "112500": {
+    "left": 47062.78824938622,
+    "floor_money": 47062.78824938622,
+    "most_binds": true,
+    "vt_bought": 0.0,
+    "floor_payout": 56479.146777758906,
+    "stated_bottom_raw": 54481.79498931968,
+    "stated_bottom": 50000.0,
+    "standard_complete": true,
+    "ladder_complete": true
+   },
+   "75000": {
+    "left": 9562.78824938622,
+    "floor_money": 9562.78824938622,
+    "most_binds": true,
+    "vt_bought": 0.0,
+    "floor_payout": 11476.118207865771,
+    "stated_bottom_raw": 11070.272041013846,
+    "stated_bottom": 10000.0,
+    "standard_complete": true,
+    "ladder_complete": true
+   },
+   "37500": {
+    "left": 0.0,
+    "floor_money": 0.0,
+    "most_binds": false,
+    "vt_bought": 0.0,
+    "floor_payout": 0.0,
+    "stated_bottom_raw": 0.0,
+    "stated_bottom": 0.0,
+    "standard_complete": false,
+    "ladder_complete": true
+   }
+  },
+  "fall_200bp": {
+   "ladder_only": 71384.04145029858,
+   "with_standard": 95316.25799072889,
+   "deposit_fall_that_breaks_ladder_pct": 52.410639033134274,
+   "deposit_fall_that_breaks_standard_pct": 36.455828006180745,
+   "150000": {
+    "left": 54683.74200927111,
+    "floor_money": 54683.74200927111,
+    "most_binds": true,
+    "vt_bought": 0.0,
+    "floor_payout": 62490.786803784795,
+    "stated_bottom_raw": 60776.64835578884,
+    "stated_bottom": 60000.0,
+    "standard_complete": true,
+    "ladder_complete": true
+   },
+   "112500": {
+    "left": 17183.74200927111,
+    "floor_money": 17183.74200927111,
+    "most_binds": true,
+    "vt_bought": 0.0,
+    "floor_payout": 19637.016761042883,
+    "stated_bottom_raw": 19098.368311316433,
+    "stated_bottom": 15000.0,
+    "standard_complete": true,
+    "ladder_complete": true
+   },
+   "75000": {
+    "left": 0.0,
+    "floor_money": 0.0,
+    "most_binds": false,
+    "vt_bought": 0.0,
+    "floor_payout": 0.0,
+    "stated_bottom_raw": 0.0,
+    "stated_bottom": 0.0,
+    "standard_complete": false,
+    "ladder_complete": true
+   },
+   "37500": {
+    "left": 0.0,
+    "floor_money": 0.0,
+    "most_binds": false,
+    "vt_bought": 0.0,
+    "floor_payout": 0.0,
+    "stated_bottom_raw": 0.0,
+    "stated_bottom": 0.0,
+    "standard_complete": false,
+    "ladder_complete": false
+   }
+  },
+  "missed": {
+   "tail_unbought_jan2027": 2286.7615805898095,
+   "short_at_forwards": 3016.2297452894345,
+   "short_at_forwards_by_payment": {
+    "2033": 3016.2297452894345,
+    "2034": 0.0,
+    "2035": 0.0,
+    "2036": 0.0,
+    "2037": 0.0,
+    "2038": 0.0,
+    "2039": 0.0,
+    "2040": 0.0,
+    "2041": 0.0,
+    "2042": 0.0
+   },
+   "short_at_zero": 57455.45735757391,
+   "history_windows_short": 585
+  },
+  "partial_10000": {
+   "backstop_share_bought": 0.21206321423339425,
+   "short_at_zero": 42717.74120611582
+  },
+  "partial_20000": {
+   "backstop_share_bought": 0.49066190693919715,
+   "short_at_zero": 27113.544486773826
+  },
+  "partial_30000": {
+   "backstop_share_bought": 0.769260599645,
+   "short_at_zero": 11509.347767431835
+  },
+  "fall_during_2027_50bp": {
+   "completion_jan2028": 39912.19285274265,
+   "deposit_fall_that_breaks_standard_pct": 73.3918714315049
+  },
+  "fall_during_2027_100bp": {
+   "completion_jan2028": 41629.551886666806,
+   "deposit_fall_that_breaks_standard_pct": 72.2469654088888
+  },
+  "fall_during_2027_200bp": {
+   "completion_jan2028": 45346.738059307754,
+   "deposit_fall_that_breaks_standard_pct": 69.76884129379484
+  }
+ },
+ "stamp": {
+  "curve": "US Treasury par yield curve, 6 Nov 2026 close",
+  "valuation": "forward to 1 Jan 2027",
+  "design": "H_plain",
+  "decided": "Tue 10 Nov 2026 07:04 Sydney (keel/pm/ASK_HUMANS.md)",
+  "run": "Tue 10 Nov 2026 (Sydney)",
+  "assumptions": {
+   "fund_end": "iBond funds terminate 'on or about' 15 Dec of their year (ishares.com IBTM page, read 9 Nov 2026)",
+   "fund_fee": 0.0007,
+   "vt_fee": 0.0006,
+   "fund_wam": {
+    "2033": 5.65,
+    "2034": 6.62,
+    "2035": 7.66,
+    "2036": 8.65,
+    "2037": 9.53
+   },
+   "eq_growth": 0.075,
+   "eq_vol": 0.1788,
+   "yield_vol": 0.009,
+   "floor_share": 0.733
+  }
+ }
+}
