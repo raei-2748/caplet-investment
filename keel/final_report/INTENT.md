@@ -33,14 +33,15 @@ in 3d.
 ## Six things a judge should be able to say after the first page (version 2)
 
 1. The ten payments rest on ten Treasuries, each paying out just before its payment; from 2033 they are the operating
-   reserve, about $427,000 on 1 Jan 2033 at today's forward rates against the $399,000 the payments are worth at the
-   same rates, about 107% funded (NUMBERS 8h, MODEL). The standard of certainty behind that is stated in one line with
-   its number (card Q20 decides between Keel's margin and a pooled book).
+   reserve, about $444,500 on 1 Jan 2033 at today's forward rates against the $399,089 the payments are worth at the
+   same rates, about 111% funded (NUMBERS 8h, Tue 10 Nov, MODEL). The standard behind that is the escrow verifier's: every payment is paid
+   even if no coupon earns a cent (decided Tue 10 Nov, card Q20), and the report says what that standard costs the gift.
 2. The WInS book is the whole plan built at $300,000, and it cost more than the deposit: the ten cost $302,287 at the
    6 Nov close, and the IPS's own clause completes them from the 2028 deposit. A team that shows its overrun and the
    rule that covers it is believed on the rest.
-3. In 2031 Laura states a range by a written rule (each end's own deduction; a cap with any excess joining the half
-   kept), about $110,000 to $130,000 at today's central figures; once half the shares have moved, both ends are money
+3. In 2031 Laura states a range by a written rule (each end at what it pays if no more interest is earned, worked out
+   when it is bought; a cap with any excess joining the half kept; no figure before the move; card Q19), about $95,000 to $115,000 at today's central figures (NUMBERS 4, Tue 10 Nov; the escrow standard for the payments
+   costs the range about $15,000, and about $45,000 of reserve overflow returns to Laura in 2033 if forward rates hold); once half the shares have moved, both ends are money
    she owns in Treasury funds, so the gift lands inside it unless the US Treasury defaults or a fund fails to work as
    its prospectus says. The real uncertainty is earlier and is shown: which range she will be able to announce
    (card Q19).

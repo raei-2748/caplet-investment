@@ -1,0 +1,1232 @@
+{
+ "stamp": {
+  "curve": "11/06/2026",
+  "run": "Tue 10 Nov 2026 (Sydney)",
+  "design": "H_plain",
+  "label": "Ten rungs as written plus a pooled backstop, sufficient without reinvestment after a 0.15% a year fee on all waiting money (Tue 10 Nov call, afternoon)",
+  "margin_jan2027_value": 34369.05592462372,
+  "ladder_yield_from_jan2028": 0.04972982997286627,
+  "fF": 0.047333002722633036,
+  "fM": 0.048282072310930325
+ },
+ "checks": {
+  "central_floor": 103178.04434054051,
+  "register_floor": 103178.04434054051,
+  "central_top": 123475.55754783844,
+  "central_kept33": 21347.297953761732,
+  "central_bottom_stated": 95000.0,
+  "central_top_stated": 115000.0,
+  "forwards_overflow_nominal": 74122.56759813958,
+  "forwards_overflow_jan2033": 45455.57570475247,
+  "forwards_shortfall": 0.0,
+  "floor_ratio_zero_world_vs_forwards": -0.0413563962989808,
+  "floor_ratio_minus3_vs_forwards": -0.026063458838432974,
+  "moved_ratio_zero_world_vs_forwards": -0.024867553220366934,
+  "floor_ratio_forwards_vs_plan": 4.440892098500626e-16
+ },
+ "joint": {
+  "windows": 585,
+  "first": "1962-01",
+  "last": "2010-09",
+  "share_with_payment_shortfall": 0.0,
+  "shortfall_p50_p95_max": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "overflow_nominal_p5_p50_p95": [
+   23608.303838615808,
+   71398.41340450529,
+   166671.70670518928
+  ],
+  "overflow_jan2033_p5_p50_p95": [
+   18053.428883245368,
+   43469.24108866429,
+   84845.35276739176
+  ],
+  "share_overflow_under_10k_jan2033": 0.0,
+  "bottom_stated_p5_p50_p95": [
+   80000.0,
+   95000.0,
+   115000.0
+  ],
+  "top_stated_p5_p50_p95": [
+   95000.0,
+   115000.0,
+   140000.0
+  ],
+  "kept33_p1_p5_p50_p95": [
+   12671.506120987127,
+   13873.816614965925,
+   23600.62243549682,
+   42014.51257881865
+  ],
+  "kept_plus_overflow_p5_p50_p95": [
+   35697.623395069546,
+   70118.60048268137,
+   108267.78625888118
+  ],
+  "completion_jan2028_p5_p50_p95": [
+   29994.66814030837,
+   38397.22339081425,
+   47706.06858457434
+  ],
+  "most_rule": {
+   "windows_binding": 30,
+   "binding_starts": [
+    "2000-09",
+    "2000-10",
+    "2000-11",
+    "2000-12",
+    "2001-01",
+    "2001-02",
+    "2002-03",
+    "2002-06",
+    "2007-02",
+    "2007-03",
+    "2007-04",
+    "2007-05",
+    "2007-07",
+    "2007-09",
+    "2007-10",
+    "2007-11",
+    "2007-12",
+    "2008-01",
+    "2008-02",
+    "2008-03",
+    "2008-04",
+    "2008-05",
+    "2008-06",
+    "2008-07",
+    "2008-08",
+    "2008-09",
+    "2008-10",
+    "2008-11",
+    "2010-08",
+    "2010-09"
+   ],
+   "vt_squeeze_where_binding_p50_max": [
+    2058.3729754485685,
+    5596.851470369656
+   ],
+   "floor_money_p5_p50_p95": [
+    75006.31450734973,
+    81804.83525453316,
+    87963.90825315396
+   ]
+  },
+  "floor_realised_minus_bottom_stated_min": 1261.854913056668,
+  "gift_realised_minus_top_stated_min_before_cap": 934.3727756624285,
+  "zero_interest_floor_minus_bottom_stated_min": 458.33993993271724,
+  "zero_interest_total_minus_top_stated_min": 532.4261002147832,
+  "gift_realised_below_bottom_stated": 0,
+  "floor_realised_below_bottom_stated": 0,
+  "gift_realised_above_top_stated_share": 1.0,
+  "gift_realised_minus_top_stated_p5_p50_p95": [
+   3521.539246672802,
+   7671.270769649214,
+   13133.724828631126
+  ],
+  "floor_realised_ratio_min": 0.9568727817430472,
+  "moved_realised_ratio_min": 0.9440828842812575,
+  "named": {
+   "2000-01": {
+    "start": "2000-01",
+    "vt_bought": "2001-01",
+    "rate_ratio_jan2028": 0.7865330237297893,
+    "rate_ratio_jan2031": 0.20248305153965535,
+    "rate_ratio_jan2033": 0.7261292166952545,
+    "shares_2028_2031": 0.8885720055639275,
+    "shares_2031_2033": 1.1677665136732702,
+    "payments_shortfall": 0.0,
+    "rungs_short": 0,
+    "overflow_nominal": 29368.24189719773,
+    "overflow_jan2033_value": 20590.872887426784,
+    "completion_jan2028": 41867.475634945906,
+    "floor_money": 79261.14035958465,
+    "most_binds": false,
+    "floor_payout": 94989.50698640294,
+    "bottom_stated": 90000.0,
+    "floor_realised": 93867.64635797871,
+    "moved_half": 13033.275276402233,
+    "top_stated": 100000.0,
+    "floor_plus_moved_model": 108022.78226280517,
+    "gift_realised": 107014.26457263842,
+    "bottom_raw": 91737.47925777953,
+    "top_raw": 104653.6384512737,
+    "gift_capped": 100000.0,
+    "excess_to_kept_half": 7014.264572638422,
+    "kept_plus_excess_jan2033": 21948.49944163121,
+    "kept_half_jan2033": 14934.23486899279,
+    "kept_plus_overflow_jan2033": 35525.10775641957
+   },
+   "2006-06": {
+    "start": "2006-06",
+    "vt_bought": "2007-06",
+    "rate_ratio_jan2028": 0.9626345203454805,
+    "rate_ratio_jan2031": 0.06172295212062427,
+    "rate_ratio_jan2033": 0.036672671008267516,
+    "shares_2028_2031": 0.7677865181266091,
+    "shares_2031_2033": 1.2701457192514227,
+    "payments_shortfall": 0.0,
+    "rungs_short": 0,
+    "overflow_nominal": 19114.32793723131,
+    "overflow_jan2033_value": 18774.61775223012,
+    "completion_jan2028": 38880.80935421592,
+    "floor_money": 81450.36674335973,
+    "most_binds": false,
+    "floor_payout": 101729.62058430763,
+    "bottom_stated": 95000.0,
+    "floor_realised": 98643.13164129382,
+    "moved_half": 11419.954953612623,
+    "top_stated": 105000.0,
+    "floor_plus_moved_model": 113149.57553792026,
+    "gift_realised": 110053.31527327608,
+    "bottom_raw": 97501.16112039635,
+    "top_raw": 108858.59683230321,
+    "gift_capped": 105000.0,
+    "excess_to_kept_half": 5053.315273276079,
+    "kept_plus_excess_jan2033": 19476.4975307029,
+    "kept_half_jan2033": 14423.182257426823,
+    "kept_plus_overflow_jan2033": 33197.800009656945
+   },
+   "2007-01": {
+    "start": "2007-01",
+    "vt_bought": "2008-01",
+    "rate_ratio_jan2028": 0.5361581920903954,
+    "rate_ratio_jan2031": 0.0540819209039548,
+    "rate_ratio_jan2033": 0.028719397363465154,
+    "shares_2028_2031": 0.9988156684950636,
+    "shares_2031_2033": 1.2012274815143802,
+    "payments_shortfall": 0.0,
+    "rungs_short": 0,
+    "overflow_nominal": 15455.39960590464,
+    "overflow_jan2033_value": 15239.87106187767,
+    "completion_jan2028": 46627.28137407972,
+    "floor_money": 75772.20275279955,
+    "most_binds": false,
+    "floor_payout": 85628.84949612994,
+    "bottom_stated": 80000.0,
+    "floor_realised": 84223.99952292483,
+    "moved_half": 13810.611800733408,
+    "top_stated": 95000.0,
+    "floor_plus_moved_model": 99439.46129686336,
+    "gift_realised": 98028.8556434713,
+    "bottom_raw": 83585.88306757802,
+    "top_raw": 97323.52401963767,
+    "gift_capped": 95000.0,
+    "excess_to_kept_half": 3028.8556434712955,
+    "kept_plus_excess_jan2033": 19536.85849378079,
+    "kept_half_jan2033": 16508.002850309495,
+    "kept_plus_overflow_jan2033": 31747.873912187162
+   },
+   "2007-07": {
+    "start": "2007-07",
+    "vt_bought": "2008-07",
+    "rate_ratio_jan2028": 0.45964682799215173,
+    "rate_ratio_jan2031": 0.03726618705035971,
+    "rate_ratio_jan2033": 0.024538914323086983,
+    "shares_2028_2031": 1.1297994377136793,
+    "shares_2031_2033": 1.3120720238721921,
+    "payments_shortfall": 0.0,
+    "rungs_short": 0,
+    "overflow_nominal": 11846.408316041765,
+    "overflow_jan2033_value": 11705.11090539393,
+    "completion_jan2028": 48214.29588565025,
+    "floor_money": 75001.0,
+    "most_binds": true,
+    "floor_payout": 83249.80206201616,
+    "bottom_stated": 80000.0,
+    "floor_realised": 81984.12713122954,
+    "moved_half": 15135.936673766124,
+    "top_stated": 95000.0,
+    "floor_plus_moved_model": 98385.73873578227,
+    "gift_realised": 97117.22880784851,
+    "bottom_raw": 81526.7448578223,
+    "top_raw": 96589.0678167893,
+    "gift_capped": 95000.0,
+    "excess_to_kept_half": 2117.2288078485144,
+    "kept_plus_excess_jan2033": 21910.273842962495,
+    "kept_half_jan2033": 19793.04503511398,
+    "kept_plus_overflow_jan2033": 31498.15594050791
+   },
+   "1973-01": {
+    "start": "1973-01",
+    "vt_bought": "1974-01",
+    "rate_ratio_jan2028": 1.259625028932953,
+    "rate_ratio_jan2031": 0.8980861999919172,
+    "rate_ratio_jan2033": 1.7677648329604199,
+    "shares_2028_2031": 1.2217019105953708,
+    "shares_2031_2033": 1.057267260870987,
+    "payments_shortfall": 0.0,
+    "rungs_short": 0,
+    "overflow_nominal": 127103.97023676793,
+    "overflow_jan2033_value": 53548.92498006133,
+    "completion_jan2028": 34432.02983347101,
+    "floor_money": 84711.32213206575,
+    "most_binds": false,
+    "floor_payout": 113435.65832178826,
+    "bottom_stated": 105000.0,
+    "floor_realised": 113591.02659238798,
+    "moved_half": 20451.262812039695,
+    "top_stated": 125000.0,
+    "floor_plus_moved_model": 133886.92113382794,
+    "gift_realised": 134278.40523087198,
+    "bottom_raw": 107311.5923014745,
+    "top_raw": 127227.01737004577,
+    "gift_capped": 125000.0,
+    "excess_to_kept_half": 9278.405230871984,
+    "kept_plus_excess_jan2033": 29146.925047286873,
+    "kept_half_jan2033": 19868.51981641489,
+    "kept_plus_overflow_jan2033": 73417.44479647622
+   },
+   "1979-01": {
+    "start": "1979-01",
+    "vt_bought": "1980-01",
+    "rate_ratio_jan2028": 1.157733938547486,
+    "rate_ratio_jan2031": 0.8278714418728386,
+    "rate_ratio_jan2033": 0.8665078810853951,
+    "shares_2028_2031": 1.5212957238782765,
+    "shares_2031_2033": 1.2990028608976243,
+    "payments_shortfall": 0.0,
+    "rungs_short": 0,
+    "overflow_nominal": 68028.52508343598,
+    "overflow_jan2033_value": 44532.449983129634,
+    "completion_jan2028": 35880.87131186672,
+    "floor_money": 83649.3213284017,
+    "most_binds": false,
+    "floor_payout": 109368.219344879,
+    "bottom_stated": 100000.0,
+    "floor_realised": 109410.91101823025,
+    "moved_half": 24981.08965902158,
+    "top_stated": 125000.0,
+    "floor_plus_moved_model": 134349.3090039006,
+    "gift_realised": 134571.72294077728,
+    "bottom_raw": 103930.75183463919,
+    "top_raw": 128300.47046405102,
+    "gift_capped": 125000.0,
+    "excess_to_kept_half": 9571.722940777283,
+    "kept_plus_excess_jan2033": 39588.23257657337,
+    "kept_half_jan2033": 30016.509635796087,
+    "kept_plus_overflow_jan2033": 74548.95961892573
+   },
+   "2008-01": {
+    "start": "2008-01",
+    "vt_bought": "2009-01",
+    "rate_ratio_jan2028": 0.16393572181243413,
+    "rate_ratio_jan2031": 0.04241306638566912,
+    "rate_ratio_jan2033": 0.04285212504390587,
+    "shares_2028_2031": 1.6041378159586681,
+    "shares_2031_2033": 1.4591979789235798,
+    "payments_shortfall": 0.0,
+    "rungs_short": 0,
+    "overflow_nominal": 16995.912493050782,
+    "overflow_jan2033_value": 16643.484964610496,
+    "completion_jan2028": 55006.16671396853,
+    "floor_money": 75001.0,
+    "most_binds": true,
+    "floor_payout": 77671.15874542907,
+    "bottom_stated": 75000.0,
+    "floor_realised": 77420.51826228715,
+    "moved_half": 16049.004059540794,
+    "top_stated": 90000.0,
+    "floor_plus_moved_model": 93720.16280496986,
+    "gift_realised": 93471.11403584073,
+    "bottom_raw": 77009.05155312206,
+    "top_raw": 92977.93698002266,
+    "gift_capped": 90000.0,
+    "excess_to_kept_half": 3471.1140358407283,
+    "kept_plus_excess_jan2033": 26800.1595758574,
+    "kept_half_jan2033": 23329.045540016672,
+    "kept_plus_overflow_jan2033": 39972.53050462717
+   },
+   "1962-01": {
+    "start": "1962-01",
+    "vt_bought": "1963-01",
+    "rate_ratio_jan2028": 0.9265419265419265,
+    "rate_ratio_jan2031": 1.486994686994687,
+    "rate_ratio_jan2033": 1.6553014553014551,
+    "shares_2028_2031": 1.568798856365063,
+    "shares_2031_2033": 1.0866829209873285,
+    "payments_shortfall": 0.0,
+    "rungs_short": 0,
+    "overflow_nominal": 134606.15952228202,
+    "overflow_jan2033_value": 59915.56606454078,
+    "completion_jan2028": 39470.4197800548,
+    "floor_money": 81018.18230121983,
+    "most_binds": false,
+    "floor_payout": 100336.79038241273,
+    "bottom_stated": 95000.0,
+    "floor_realised": 102038.91634972478,
+    "moved_half": 26552.32471395105,
+    "top_stated": 120000.0,
+    "floor_plus_moved_model": 126889.11509636378,
+    "gift_realised": 128616.17826474924,
+    "bottom_raw": 96317.17482010703,
+    "top_raw": 121791.5165234726,
+    "gift_capped": 120000.0,
+    "excess_to_kept_half": 8616.178264749236,
+    "kept_plus_excess_jan2033": 33696.12543731113,
+    "kept_half_jan2033": 25079.947172561897,
+    "kept_plus_overflow_jan2033": 84995.51323710267
+   },
+   "1981-07": {
+    "start": "1981-07",
+    "vt_bought": "1982-07",
+    "rate_ratio_jan2028": 0.8421001898923299,
+    "rate_ratio_jan2031": 0.4998120355108296,
+    "rate_ratio_jan2033": 0.42517567450334,
+    "shares_2028_2031": 2.014644619823629,
+    "shares_2031_2033": 1.7243832488203696,
+    "payments_shortfall": 0.0,
+    "rungs_short": 0,
+    "overflow_nominal": 35145.94416126107,
+    "overflow_jan2033_value": 28548.514085194,
+    "completion_jan2028": 40894.72923791953,
+    "floor_money": 79974.16346860498,
+    "most_binds": false,
+    "floor_payout": 97101.40758561714,
+    "bottom_stated": 90000.0,
+    "floor_realised": 95794.6340493496,
+    "moved_half": 30664.529282372838,
+    "top_stated": 120000.0,
+    "floor_plus_moved_model": 127765.93686798998,
+    "gift_realised": 126371.21968340903,
+    "bottom_raw": 93552.7624830786,
+    "top_raw": 123715.24851677942,
+    "gift_capped": 120000.0,
+    "excess_to_kept_half": 6371.219683409028,
+    "kept_plus_excess_jan2033": 56820.61513512274,
+    "kept_half_jan2033": 50449.39545171371,
+    "kept_plus_overflow_jan2033": 78997.90953690771
+   }
+  },
+  "worst_kept": {
+   "start": "2003-03",
+   "vt_bought": "2004-03",
+   "rate_ratio_jan2028": 0.9575736325385694,
+   "rate_ratio_jan2031": 3.0,
+   "rate_ratio_jan2033": 0.5194281524926686,
+   "shares_2028_2031": 1.3183531818440026,
+   "shares_2031_2033": 0.5634236795411659,
+   "payments_shortfall": 0.0,
+   "rungs_short": 0,
+   "overflow_nominal": 129543.57820045081,
+   "overflow_jan2033_value": 100486.66114721197,
+   "completion_jan2028": 38962.80724105254,
+   "floor_money": 81390.26229230849,
+   "most_binds": false,
+   "floor_payout": 101533.9512700904,
+   "bottom_stated": 95000.0,
+   "floor_realised": 106434.27219148503,
+   "moved_half": 25856.821601631604,
+   "top_stated": 120000.0,
+   "floor_plus_moved_model": 127390.772871722,
+   "gift_realised": 131478.46067105792,
+   "bottom_raw": 97335.05034648917,
+   "top_raw": 121204.39307631257,
+   "gift_capped": 120000.0,
+   "excess_to_kept_half": 11478.460671057925,
+   "kept_plus_excess_jan2033": 22456.210561579814,
+   "kept_half_jan2033": 10977.74989052189,
+   "kept_plus_overflow_jan2033": 111464.41103773387
+  },
+  "worst_payments": {
+   "start": "1962-01",
+   "vt_bought": "1963-01",
+   "rate_ratio_jan2028": 0.9265419265419265,
+   "rate_ratio_jan2031": 1.486994686994687,
+   "rate_ratio_jan2033": 1.6553014553014551,
+   "shares_2028_2031": 1.568798856365063,
+   "shares_2031_2033": 1.0866829209873285,
+   "payments_shortfall": 0.0,
+   "rungs_short": 0,
+   "overflow_nominal": 134606.15952228202,
+   "overflow_jan2033_value": 59915.56606454078,
+   "completion_jan2028": 39470.4197800548,
+   "floor_money": 81018.18230121983,
+   "most_binds": false,
+   "floor_payout": 100336.79038241273,
+   "bottom_stated": 95000.0,
+   "floor_realised": 102038.91634972478,
+   "moved_half": 26552.32471395105,
+   "top_stated": 120000.0,
+   "floor_plus_moved_model": 126889.11509636378,
+   "gift_realised": 128616.17826474924,
+   "bottom_raw": 96317.17482010703,
+   "top_raw": 121791.5165234726,
+   "gift_capped": 120000.0,
+   "excess_to_kept_half": 8616.178264749236,
+   "kept_plus_excess_jan2033": 33696.12543731113,
+   "kept_half_jan2033": 25079.947172561897,
+   "kept_plus_overflow_jan2033": 84995.51323710267
+  },
+  "worst_kept_plus_overflow": {
+   "start": "2007-04",
+   "vt_bought": "2008-04",
+   "rate_ratio_jan2028": 0.3524021836437361,
+   "rate_ratio_jan2031": 0.04997586406642209,
+   "rate_ratio_jan2033": 0.025250574874054313,
+   "shares_2028_2031": 1.0423061705432082,
+   "shares_2031_2033": 1.228627508047359,
+   "payments_shortfall": 0.0,
+   "rungs_short": 0,
+   "overflow_nominal": 13656.056000242344,
+   "overflow_jan2033_value": 13488.479425792404,
+   "completion_jan2028": 50552.27812521937,
+   "floor_money": 75001.0,
+   "most_binds": true,
+   "floor_payout": 81181.75558603264,
+   "bottom_stated": 75000.0,
+   "floor_realised": 80353.28241473927,
+   "moved_half": 12760.215386405514,
+   "top_stated": 90000.0,
+   "floor_plus_moved_model": 93941.97097243815,
+   "gift_realised": 93109.24308858498,
+   "bottom_raw": 79860.54722985238,
+   "top_raw": 92554.6507374259,
+   "gift_capped": 90000.0,
+   "excess_to_kept_half": 3109.2430885849753,
+   "kept_plus_excess_jan2033": 18715.64923660866,
+   "kept_half_jan2033": 15606.406148023685,
+   "kept_plus_overflow_jan2033": 29094.88557381609
+  },
+  "lowest_top_stated": {
+   "start": "2000-10",
+   "vt_bought": "2001-10",
+   "rate_ratio_jan2028": 0.3876092622726552,
+   "rate_ratio_jan2031": 0.37056866782829084,
+   "rate_ratio_jan2033": 0.8332805322350704,
+   "shares_2028_2031": 1.0899602011053715,
+   "shares_2031_2033": 1.2635565394312258,
+   "payments_shortfall": 0.0,
+   "rungs_short": 0,
+   "overflow_nominal": 24418.248160622243,
+   "overflow_jan2033_value": 16246.36873377142,
+   "completion_jan2028": 49769.715739425956,
+   "floor_money": 75001.0,
+   "most_binds": true,
+   "floor_payout": 81854.94193794412,
+   "bottom_stated": 80000.0,
+   "floor_realised": 82414.26701620307,
+   "moved_half": 14193.801998181782,
+   "top_stated": 90000.0,
+   "floor_plus_moved_model": 96048.7439361259,
+   "gift_realised": 96748.60398131033,
+   "bottom_raw": 80404.01306178742,
+   "top_raw": 94410.93067534307,
+   "gift_capped": 90000.0,
+   "excess_to_kept_half": 6748.603981310327,
+   "kept_plus_excess_jan2033": 24069.76424446609,
+   "kept_half_jan2033": 17321.16026315576,
+   "kept_plus_overflow_jan2033": 33567.52899692718
+  },
+  "lowest_bottom_stated": {
+   "start": "2000-11",
+   "vt_bought": "2001-11",
+   "rate_ratio_jan2028": 0.3581802548268585,
+   "rate_ratio_jan2031": 0.41038067693269764,
+   "rate_ratio_jan2033": 0.8225592120691003,
+   "shares_2028_2031": 1.0870628912924174,
+   "shares_2031_2033": 1.2301236074171267,
+   "payments_shortfall": 0.0,
+   "rungs_short": 0,
+   "overflow_nominal": 23422.458497714615,
+   "overflow_jan2033_value": 15665.746541498891,
+   "completion_jan2028": 50422.81867000182,
+   "floor_money": 75001.0,
+   "most_binds": true,
+   "floor_payout": 81291.85577541313,
+   "bottom_stated": 75000.0,
+   "floor_realised": 81942.99596372095,
+   "moved_half": 13841.531354465005,
+   "top_stated": 90000.0,
+   "floor_plus_moved_model": 95133.38712987813,
+   "gift_realised": 95910.31989455898,
+   "bottom_raw": 79949.50389718644,
+   "top_raw": 93595.11005583043,
+   "gift_capped": 90000.0,
+   "excess_to_kept_half": 5910.319894558983,
+   "kept_plus_excess_jan2033": 22292.985108534587,
+   "kept_half_jan2033": 16382.665213975604,
+   "kept_plus_overflow_jan2033": 32048.411755474495
+  },
+  "both_in_bottom_fifth": 0.05811965811965812,
+  "share_vt_below_cost_2033": 0.11282051282051282,
+  "if_vt_below_cost": {
+   "overflow_jan2033_median": 38904.88666035148,
+   "kept_median": 14050.910542763657,
+   "share_with_payment_shortfall": 0.0,
+   "shortfall_max": 0.0
+  },
+  "if_vt_above_cost": {
+   "overflow_jan2033_median": 44734.61155117014,
+   "kept_median": 24786.68683484553,
+   "share_with_payment_shortfall": 0.0
+  },
+  "if_rates_fell_40pct_by_2031": {
+   "share": 0.26153846153846155,
+   "kept_median": 22134.38707696369,
+   "overflow_jan2033_median": 30017.632520393425,
+   "top_stated_median": 110000.0,
+   "bottom_stated_median": 90000.0
+  },
+  "both_in_bottom_fifth_starts": [
+   "1999-05",
+   "1999-06",
+   "1999-07",
+   "1999-08",
+   "1999-09",
+   "1999-10",
+   "1999-11",
+   "1999-12",
+   "2000-01",
+   "2000-02",
+   "2000-05",
+   "2000-06",
+   "2000-07",
+   "2000-08",
+   "2000-11",
+   "2005-10",
+   "2005-11",
+   "2005-12",
+   "2006-01",
+   "2006-02",
+   "2006-03",
+   "2006-04",
+   "2006-05",
+   "2006-06",
+   "2006-07",
+   "2006-08",
+   "2006-09",
+   "2006-10",
+   "2006-11",
+   "2006-12",
+   "2007-01",
+   "2007-02",
+   "2007-03",
+   "2007-04"
+  ],
+  "bottom_fifth_cutoffs_kept_overflow": [
+   16557.66039522821,
+   30971.237577282416
+  ],
+  "kept_plus_overflow_median_all": 70118.60048268137,
+  "kept_plus_overflow_median_if_vt_below_cost": 53204.66823281772,
+  "deductions": {
+   "floor_realised_more_than_4_1pct_below_locked": 1,
+   "moved_realised_more_than_2_5pct_below_locked": 23,
+   "worst_floor": [
+    0.9568727817430472,
+    "2004-03"
+   ],
+   "worst_moved": [
+    0.9440828842812575,
+    "2003-10",
+    3.0
+   ],
+   "gift_realised_below_unrounded_deducted_top": 0,
+   "gift_realised_minus_top_stated_min": 934.3727756624285
+  },
+  "by_era_of_start": {
+   "1962-1979": {
+    "windows": 216,
+    "share_with_payment_shortfall": 0.0,
+    "shortfall_p50_p95_max": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "overflow_jan2033_p5_p50": [
+     38718.970245382116,
+     57151.75234966587
+    ],
+    "kept_p5_p50": [
+     15087.319597630421,
+     21194.900117781293
+    ],
+    "kept_plus_overflow_p5_p50": [
+     63326.807947421374,
+     78223.55694061544
+    ],
+    "bottom_stated_p5_p50": [
+     90000.0,
+     100000.0
+    ],
+    "top_stated_p5_p50": [
+     105000.0,
+     120000.0
+    ],
+    "share_vt_below_cost": 0.06018518518518518
+   },
+   "1980-1999": {
+    "windows": 240,
+    "share_with_payment_shortfall": 0.0,
+    "shortfall_p50_p95_max": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "overflow_jan2033_p5_p50": [
+     27357.990904808765,
+     36243.82333385633
+    ],
+    "kept_p5_p50": [
+     13620.436030717972,
+     29618.119053412676
+    ],
+    "kept_plus_overflow_p5_p50": [
+     47444.63816882535,
+     65100.72345892322
+    ],
+    "bottom_stated_p5_p50": [
+     85000.0,
+     95000.0
+    ],
+    "top_stated_p5_p50": [
+     105000.0,
+     120000.0
+    ],
+    "share_vt_below_cost": 0.14583333333333334
+   },
+   "2000-2010": {
+    "windows": 129,
+    "share_with_payment_shortfall": 0.0,
+    "shortfall_p50_p95_max": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "overflow_jan2033_p5_p50": [
+     13465.950224889702,
+     36430.633343206144
+    ],
+    "kept_p5_p50": [
+     14347.525401851426,
+     18277.452102893472
+    ],
+    "kept_plus_overflow_p5_p50": [
+     31437.131532579773,
+     58832.39399498001
+    ],
+    "bottom_stated_p5_p50": [
+     75000.0,
+     85000.0
+    ],
+    "top_stated_p5_p50": [
+     90000.0,
+     105000.0
+    ],
+    "share_vt_below_cost": 0.13953488372093023
+   }
+  },
+  "corr_windows": {
+   "kept33_vs_overflow": -0.16249035449177596,
+   "kept33_vs_shortfall": NaN,
+   "log_shares_2028_2031_vs_log_rate_ratio_2031_over_2028": 0.3541565364498289,
+   "log_shares_2028_2033_vs_log_rate_ratio_2033": 0.19613345575382654,
+   "log_shares_2028_2033_vs_overflow": -0.27013128939629943,
+   "note": "585 overlapping monthly windows: about four independent rate eras, so these are descriptions, not estimates"
+  },
+  "share_kept_plus_overflow_under_25k": 0.0
+ },
+ "independent_pairs": {
+  "pairs": 342225,
+  "bottom_stated_p5_p50_p95": [
+   80000.0,
+   95000.0,
+   115000.0
+  ],
+  "top_stated_p5_p50_p95": [
+   95000.0,
+   115000.0,
+   145000.0
+  ],
+  "kept33_p1_p5_p50_p95": [
+   11978.478313104244,
+   13465.572798213729,
+   23860.99901499393,
+   42080.00687658927
+  ],
+  "kept_plus_overflow_p5_p50_p95": [
+   39526.112239841896,
+   69605.70981582717,
+   114858.49644592497
+  ],
+  "both_in_bottom_fifth": 0.050542771568412595,
+  "if_vt_below_cost": {
+   "overflow_jan2033_median": 43469.24108866429,
+   "share_with_payment_shortfall": 0.0
+  },
+  "if_vt_above_cost": {
+   "overflow_jan2033_median": 43469.24108866429,
+   "share_with_payment_shortfall": 0.0
+  },
+  "share_kept_plus_overflow_under_25k": 0.0016392724085031777,
+  "kept_plus_overflow_median_if_vt_below_cost": 57371.59283717164
+ },
+ "house": {
+  "bottom_stated_p5_p50_p95": [
+   85000.0,
+   95000.0,
+   115000.0
+  ],
+  "top_stated_p5_p50_p95": [
+   95000.0,
+   115000.0,
+   140000.0
+  ],
+  "share_most_rule_binds": 0.168795,
+  "kept33_p1_p5_p50_p95": [
+   6670.465741764184,
+   9881.236889574937,
+   20738.638468607984,
+   41258.136025700245
+  ],
+  "floor_p5_p50_p95": [
+   88046.86742469211,
+   103096.92093265479,
+   124379.84185053868
+  ],
+  "top_model_p5_p50_p95": [
+   101092.84611771931,
+   124007.7665514291,
+   152051.4357665914
+  ],
+  "note": "no reinvestment and no overflow in the house model (NUMBERS 7); yields and shares independent"
+ },
+ "correlation_data": {
+  "annual_jan_to_jan_1962_2022": {
+   "years": 61,
+   "stocks_vs_yield_change_points": -0.09371545570144044,
+   "stocks_vs_yield_change_proportional": 0.05459957513944063,
+   "yield_change_sd_points": 1.6778180307668031
+  },
+  "annual_1962_1999": {
+   "years": 38,
+   "stocks_vs_yield_change_points": -0.3098064169267059,
+   "stocks_vs_yield_change_proportional": -0.31895657064315963,
+   "yield_change_sd_points": 1.8071048825494898
+  },
+  "annual_2000_2022": {
+   "years": 23,
+   "stocks_vs_yield_change_points": 0.22411628185979657,
+   "stocks_vs_yield_change_proportional": 0.18113367060815702,
+   "yield_change_sd_points": 1.4741379244583022
+  },
+  "monthly_1962_2023_stocks_vs_1y_yield_change": -0.1012227911806845,
+  "monthly_2000_2023": 0.2863289496219604,
+  "monthly_1962_1999": -0.21776784877740982,
+  "dgs1_annual_log_ratio_sd": 0.6631476099523824,
+  "dgs1_annual_log_ratio_sd_as_points_at_4_6pct": 3.050479005780959,
+  "house_model": 0.0,
+  "house_yield_sd_points": 0.8999999999999999,
+  "sign": "positive = shares and yields fall together (the recession case the bond desk names)"
+ },
+ "scenarios": {
+  "forwards": {
+   "label": "Today's forwards; shares 7.5% a year",
+   "shortfall": 0.0,
+   "overflow_nominal": 74122.56759813958,
+   "overflow_jan2033_value": 45455.57570475247,
+   "overflow_jan2033_value_at_6nov_forwards": 45455.575704752475,
+   "rungs_short": 0.0,
+   "completion_jan2028": 38282.14224962851,
+   "left_for_floor_and_vt": 111717.85775037149,
+   "floor_money": 81889.1897310223,
+   "most_binds": false,
+   "vt_bought": 29828.668019349192,
+   "vt_squeeze": 0.0,
+   "floor_payout": 103178.04434054051,
+   "floor_realised": 103178.04434054055,
+   "floor_zero_interest": 99224.68510170835,
+   "zero_interest_total": 119038.65191077741,
+   "bottom_raw": 98728.56167619981,
+   "bottom_stated": 95000.0,
+   "moved_half": 20297.513207297936,
+   "top_raw": 118443.45865122353,
+   "top_stated": 115000.0,
+   "funds_pay": 123475.55754783849,
+   "gift_realised": 115000.0,
+   "excess_to_kept_half": 8475.557547838485,
+   "kept_half_jan2033": 21347.297953761732,
+   "kept_plus_excess_jan2033": 29822.85550160022,
+   "gift_in_2027_us_dollars": 99746.5998686664,
+   "gift_ntd_m_2033_at_32_768": 3.76832,
+   "gift_ntd_m_in_jan2027_building_costs": 3.155908674146148,
+   "us_cpi": 0.024,
+   "tw_building_costs": 0.03
+  },
+  "minus3": {
+   "label": "Rates 3 points lower for good from Jan 2027; shares 7.5%",
+   "shortfall": 0.0,
+   "overflow_nominal": 25650.756522825483,
+   "overflow_jan2033_value": 20605.705023146915,
+   "overflow_jan2033_value_at_6nov_forwards": 15730.295681726115,
+   "rungs_short": 0.0,
+   "completion_jan2028": 49477.972760332676,
+   "left_for_floor_and_vt": 100522.02723966732,
+   "floor_money": 75001.0,
+   "most_binds": true,
+   "vt_bought": 25521.027239667324,
+   "vt_squeeze": 1318.3540333238489,
+   "floor_payout": 81444.77980348619,
+   "floor_realised": 81444.7798034862,
+   "floor_zero_interest": 80422.20033882302,
+   "zero_interest_total": 96655.66197345848,
+   "bottom_raw": 80020.08933712891,
+   "bottom_stated": 80000.0,
+   "moved_half": 16377.138647812682,
+   "top_raw": 96172.38366359119,
+   "top_stated": 95000.0,
+   "funds_pay": 97821.91845129889,
+   "gift_realised": 95000.0,
+   "excess_to_kept_half": 2821.918451298887,
+   "kept_half_jan2033": 18264.47537710517,
+   "kept_plus_excess_jan2033": 21086.39382840405,
+   "gift_in_2027_us_dollars": 82399.36510889833,
+   "gift_ntd_m_2033_at_32_768": 3.11296,
+   "gift_ntd_m_in_jan2027_building_costs": 2.6070549916859482,
+   "us_cpi": 0.024,
+   "tw_building_costs": 0.03
+  },
+  "inflation": {
+   "label": "Inflation world: yields +3 points by 2031, shares flat 2028-2033, prices 5% a year",
+   "shortfall": 0.0,
+   "overflow_nominal": 125730.71130256337,
+   "overflow_jan2033_value": 58860.979909613685,
+   "overflow_jan2033_value_at_6nov_forwards": 77104.20795203933,
+   "rungs_short": 0.0,
+   "completion_jan2028": 35990.40997625435,
+   "left_for_floor_and_vt": 114009.59002374565,
+   "floor_money": 83569.02948740555,
+   "most_binds": false,
+   "vt_bought": 30440.560536340097,
+   "vt_squeeze": 0.0,
+   "floor_payout": 109281.64058194314,
+   "floor_realised": 110785.73427827266,
+   "floor_zero_interest": 104384.22511348072,
+   "zero_interest_total": 121380.84231866413,
+   "bottom_raw": 103862.30398791331,
+   "bottom_stated": 100000.0,
+   "moved_half": 17680.938841721505,
+   "top_raw": 120773.9381070708,
+   "top_stated": 120000.0,
+   "funds_pay": 128466.67311999417,
+   "gift_realised": 120000.0,
+   "excess_to_kept_half": 8466.673119994171,
+   "kept_half_jan2033": 15174.674187508557,
+   "kept_plus_excess_jan2033": 23641.34730750273,
+   "gift_in_2027_us_dollars": 89545.8475963953,
+   "gift_ntd_m_2033_at_32_768": 3.93216,
+   "gift_ntd_m_in_jan2027_building_costs": 2.934238334038681,
+   "us_cpi": 0.05,
+   "tw_building_costs": 0.05
+  },
+  "inflation_shares_minus_20": {
+   "label": "Inflation world with shares -20% 2028-2031 (1973-74 style)",
+   "shortfall": 0.0,
+   "overflow_nominal": 125730.71130256337,
+   "overflow_jan2033_value": 58860.979909613685,
+   "overflow_jan2033_value_at_6nov_forwards": 77104.20795203933,
+   "rungs_short": 0.0,
+   "completion_jan2028": 35990.40997625435,
+   "left_for_floor_and_vt": 114009.59002374565,
+   "floor_money": 83569.02948740555,
+   "most_binds": false,
+   "vt_bought": 30440.560536340097,
+   "vt_squeeze": 0.0,
+   "floor_payout": 109281.64058194314,
+   "floor_realised": 110785.73427827266,
+   "floor_zero_interest": 104384.22511348072,
+   "zero_interest_total": 117981.51887762744,
+   "bottom_raw": 103862.30398791331,
+   "bottom_stated": 100000.0,
+   "moved_half": 14144.751073377205,
+   "top_raw": 117391.61128323931,
+   "top_stated": 115000.0,
+   "funds_pay": 124930.48535164987,
+   "gift_realised": 115000.0,
+   "excess_to_kept_half": 9930.48535164987,
+   "kept_half_jan2033": 12139.739350006847,
+   "kept_plus_excess_jan2033": 22070.224701656727,
+   "gift_in_2027_us_dollars": 85814.77061321215,
+   "gift_ntd_m_2033_at_32_768": 3.76832,
+   "gift_ntd_m_in_jan2027_building_costs": 2.8119784034537356,
+   "us_cpi": 0.05,
+   "tw_building_costs": 0.05
+  }
+ },
+ "kept_half_on_meeting_day_2031": {
+  "central": 18494.70008423662,
+  "house_p5_p50_p95": [
+   9767.462359962401,
+   18047.643491252635,
+   30979.514425557772
+  ],
+  "history_p5_p50_p95": [
+   12396.082709280025,
+   19710.63989536016,
+   30586.176168693895
+  ],
+  "joint_p5_p50_p95": [
+   11820.27149863016,
+   20089.66579461505,
+   30443.740448307366
+  ],
+  "note": "equal to the moved half on that day, before it is moved"
+ },
+ "twd_test": {
+  "house": {
+   "label": "house model, 200,000 paths",
+   "covers_0.100": 0.908535,
+   "gap_when_fails_median_0.100": 1582.6245178356057,
+   "covers_0.111": 0.85691,
+   "gap_when_fails_median_0.111": 1903.1607630580029,
+   "kept_over_gift_p5_p50_p95": [
+    0.08774620650865939,
+    0.16699439124111173,
+    0.3039002011966815
+   ],
+   "largest_stronger_twd_covered_19_in_20": 0.08774620650865939,
+   "covers_share_of_gift": {
+    "0.10": 0.908535,
+    "0.13": 0.74633,
+    "0.17": 0.480835,
+    "0.20": 0.3133,
+    "0.30": 0.05394
+   },
+   "cap_rule_pot_p5_p50_p95": [
+    16193.060743308508,
+    28540.632639984036,
+    49923.93165155483
+   ],
+   "cap_rule_surplus_p5_p50_p95": [
+    4339.732387873777,
+    7629.1054462812535,
+    11218.222198070978
+   ],
+   "cap_rule_covers_0.100": 0.997665,
+   "cap_rule_covers_share_of_contribution": {
+    "0.10": 0.997665,
+    "0.13": 0.9871,
+    "0.17": 0.909775,
+    "0.20": 0.771235,
+    "0.30": 0.228615
+   }
+  },
+  "history_rates_at_forwards": {
+   "label": "US stocks every window since 1871, rates at forwards",
+   "covers_0.100": 0.9649717514124294,
+   "gap_when_fails_median_0.100": 2282.806318077367,
+   "covers_0.111": 0.9485875706214689,
+   "gap_when_fails_median_0.111": 2811.4031715690635,
+   "kept_over_gift_p5_p50_p95": [
+    0.10986467689141079,
+    0.18870128937248815,
+    0.3059217064545997
+   ],
+   "largest_stronger_twd_covered_19_in_20": 0.10986467689141079,
+   "covers_share_of_gift": {
+    "0.10": 0.9649717514124294,
+    "0.13": 0.86045197740113,
+    "0.17": 0.6062146892655367,
+    "0.20": 0.4180790960451977,
+    "0.30": 0.05706214689265537
+   },
+   "cap_rule_pot_p5_p50_p95": [
+    20018.69042058216,
+    30901.57961950668,
+    48398.68006954035
+   ],
+   "cap_rule_surplus_p5_p50_p95": [
+    5322.161735611427,
+    7524.395054399283,
+    9846.011575431485
+   ],
+   "cap_rule_covers_0.100": 1.0,
+   "cap_rule_covers_share_of_contribution": {
+    "0.10": 1.0,
+    "0.13": 0.9943502824858758,
+    "0.17": 0.9576271186440678,
+    "0.20": 0.8706214689265537,
+    "0.30": 0.2983050847457627
+   }
+  },
+  "joint_replay": {
+   "label": "joint replay 1962-2010 starts (realised gift)",
+   "covers_0.100": 0.9743589743589743,
+   "gap_when_fails_median_0.100": 1142.49548613128,
+   "covers_0.111": 0.9384615384615385,
+   "gap_when_fails_median_0.111": 1214.4555379856647,
+   "kept_over_gift_p5_p50_p95": [
+    0.10841528401633811,
+    0.19170278637990754,
+    0.31142816251574257
+   ],
+   "largest_stronger_twd_covered_19_in_20": 0.10841528401633811,
+   "covers_share_of_gift": {
+    "0.10": 0.9743589743589743,
+    "0.13": 0.8239316239316239,
+    "0.17": 0.6136752136752137,
+    "0.20": 0.46324786324786327,
+    "0.30": 0.07521367521367521
+   },
+   "cap_rule_pot_p5_p50_p95": [
+    19689.865491985405,
+    31808.792229182756,
+    49629.14676365184
+   ],
+   "cap_rule_surplus_p5_p50_p95": [
+    3521.539246672802,
+    7671.270769649214,
+    13133.724828631126
+   ],
+   "cap_rule_covers_0.100": 1.0,
+   "cap_rule_covers_share_of_contribution": {
+    "0.10": 1.0,
+    "0.13": 1.0,
+    "0.17": 0.9675213675213675,
+    "0.20": 0.8358974358974359,
+    "0.30": 0.3572649572649573
+   }
+  },
+  "real_twd_with_same_months_shares": {
+   "windows": 417,
+   "first_vt_purchase": "1983-10",
+   "last_vt_purchase": "2018-06",
+   "twd_cost_change_p5_p50_p95": [
+    -0.12736810143866387,
+    0.0007946816431878556,
+    0.1372077095248358
+   ],
+   "share_twd_stronger_by_10pct_or_more": 0.11031175059952038,
+   "kept_covers_actual_move": 0.9712230215827338,
+   "worst_uncovered": [
+    8942.42228336537,
+    "1983-11"
+   ],
+   "corr_twd_cost_vs_shares_2031_2033": 0.09087417057602176
+  },
+  "gift_terms": {
+   "central_floor_plus_moved": {
+    "usd_2033": 123475.55754783844,
+    "ntd_m_2033_at_32_768": 4.04604706972757,
+    "ntd_m_2033_at_27_52": 3.398047343716514,
+    "ntd_m_2033_10pct_stronger": 3.6782246088432458,
+    "in_jan2027_us_dollars_at_1_9_2_4_3_5": [
+     110289.93781039506,
+     107097.97419378028,
+     100447.44562142559
+    ],
+    "ntd_m_in_jan2027_building_costs_at_1_5_3_0_5_0": [
+     3.7002807581791632,
+     3.388500722697872,
+     3.019222618947223
+    ],
+    "extra_usd_for_10pct_stronger_twd": 12347.555754783845
+   },
+   "stated_bottom": {
+    "usd_2033": 95000.0,
+    "ntd_m_2033_at_32_768": 3.11296,
+    "ntd_m_2033_at_27_52": 2.6144,
+    "ntd_m_2033_10pct_stronger": 2.8299636363636362,
+    "in_jan2027_us_dollars_at_1_9_2_4_3_5": [
+     84855.20778416563,
+     82399.36510889833,
+     77282.56120923653
+    ],
+    "ntd_m_in_jan2027_building_costs_at_1_5_3_0_5_0": [
+     2.8469332636204343,
+     2.6070549916859482,
+     2.3229386811139556
+    ],
+    "extra_usd_for_10pct_stronger_twd": 9500.0
+   },
+   "stated_top_corrected": {
+    "usd_2033": 115000.0,
+    "ntd_m_2033_at_32_768": 3.76832,
+    "ntd_m_2033_at_27_52": 3.1648,
+    "ntd_m_2033_10pct_stronger": 3.425745454545454,
+    "in_jan2027_us_dollars_at_1_9_2_4_3_5": [
+     102719.46205451628,
+     99746.5998686664,
+     93552.57409539158
+    ],
+    "ntd_m_in_jan2027_building_costs_at_1_5_3_0_5_0": [
+     3.446287634908947,
+     3.155908674146148,
+     2.8119784034537356
+    ],
+    "extra_usd_for_10pct_stronger_twd": 11500.0
+   }
+  }
+ },
+ "liquidity_cash_dates": [
+  {
+   "payment": "1 Jan 2033",
+   "holding": "IBTM",
+   "cash_on": "2032-12-15",
+   "months_early": 0.6
+  },
+  {
+   "payment": "1 Jan 2034",
+   "holding": "IBTO",
+   "cash_on": "2033-12-15",
+   "months_early": 0.6
+  },
+  {
+   "payment": "1 Jan 2035",
+   "holding": "IBTP",
+   "cash_on": "2034-12-15",
+   "months_early": 0.6
+  },
+  {
+   "payment": "1 Jan 2036",
+   "holding": "IBTQ",
+   "cash_on": "2035-12-15",
+   "months_early": 0.6
+  },
+  {
+   "payment": "1 Jan 2037",
+   "holding": "IBTR",
+   "cash_on": "2036-12-15",
+   "months_early": 0.6
+  },
+  {
+   "payment": "1 Jan 2038",
+   "holding": "4.750% T-bond 15 Feb 2037",
+   "cash_on": "2037-02-15",
+   "months_early": 10.5
+  },
+  {
+   "payment": "1 Jan 2039",
+   "holding": "4.500% T-bond 15 May 2038",
+   "cash_on": "2038-05-15",
+   "months_early": 7.6
+  },
+  {
+   "payment": "1 Jan 2040",
+   "holding": "4.375% T-bond 15 Nov 2039",
+   "cash_on": "2039-11-15",
+   "months_early": 1.5
+  },
+  {
+   "payment": "1 Jan 2041",
+   "holding": "4.250% T-bond 15 Nov 2040",
+   "cash_on": "2040-11-15",
+   "months_early": 1.5
+  },
+  {
+   "payment": "1 Jan 2042",
+   "holding": "3.125% T-bond 15 Nov 2041",
+   "cash_on": "2041-11-15",
+   "months_early": 1.5
+  }
+ ],
+ "liquidity_floor_and_moved": {
+  "holding": "IBTM (late-2032 Treasury fund)",
+  "cash_on_or_about": "2032-12-15",
+  "kept_half": "VT, promised to no one; sellable any trading day"
+ }
+}

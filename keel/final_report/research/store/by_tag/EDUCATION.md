@@ -1,0 +1,11 @@
+# EDUCATION (EDUCATION): 5 ideas, ranked
+
+Built by `../build_store.py`; do not edit by hand (change `../ratings.csv` instead). Full rows are in `../insights.jsonl` and in the harvest file named in each row.
+
+| Rank | Id | Score (F R S C) | Tier | Status | Idea | Sources | Clash |
+|---|---|---|---|---|---|---|---|
+| 1 | Q21-013 | 17 (3 3 4 4) | B | keep | Reflective writing can be coded into four levels (habitual action, understanding, reflection, critical reflection), and trained assessors agree well on the level | Kember, D., McKay, J., Sinclair, K., & Wong, F. K. Y. (2008). A four-category scheme for coding and assessing the level of reflection in wr… | no |
+| 2 | Q21-014 | 17 (2 5 4 4) | B | keep | In business students' reflective journals, coders found about 65% of content non-reflective and 35% reflective (inter-coder reliability 0.802) | Bell, A., Kelton, J., McDonagh, N., Mladenovic, R., & Morrison, K. (2011). A critical evaluation of the usefulness of a coding scheme to ca… | no |
+| 3 | Q21-015 | 17 (3 3 4 4) | B | keep | Four levels of reflective writing; at the bottom, "Ideas tend to be linked by the sequence of the account / story rather than by meaning"; higher up, "Description now only serves the process of reflection", the writer's… | Moon, J. A. (2004). *A handbook of reflective and experiential learning: Theory and practice*. RoutledgeFalmer (Resource 9). Descriptors re… | no |
+| 4 | Q21-017 | 17 (3 3 4 4) | B | keep | The REFLECT rubric scores writing spectrum, presence, description of a conflict or "disorienting dilemma", attention to emotions, and analysis and meaning-making, and separates transformative from confirmatory learning | Wald, H. S., Borkan, J. M., Taylor, J. S., Anthony, D., & Reis, S. P. (2012). Fostering and evaluating reflective capacity in medical educa… | no |
+| 5 | Q21-018 | 12 (2 1 3 4) | C | adapt | The reflective cycle (description, feelings, evaluation, analysis, conclusion, action plan), with the warning that learners "often lurch from superficial descriptions of what happened to premature conclusions about what… | Gibbs, G. (1988). *Learning by doing: A guide to teaching and learning methods*. Further Education Unit, Oxford Polytechnic. Reprint: https… | no |

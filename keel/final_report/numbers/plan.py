@@ -42,10 +42,16 @@ def setup(curve):
                 tauF=E.yf(date(2032, 12, 15), E.J28), tauM=E.yf(date(2032, 12, 15), E.J31))
 
 
-def run(curve, margin=0.0, share=None, deposit=150_000.0, d0=None, d1=None, d2=None, vt3=None, vt2=None):
+def run(curve, margin=0.0, share=None, deposit=150_000.0, d0=None, d1=None, d2=None, vt3=None, vt2=None,
+        margin_fn=None, most=True):
     """Vectorised plan. margin: extra ladder cost (1 Jan 2027 value) bought with the 2028 deposit's first dollars.
     d0, d1, d2: parallel yield changes now->Jan 2027, Jan 2027->Jan 2028, Jan 2028->Jan 2031 (arrays or floats).
-    vt3, vt2: VT growth factors Jan 2028->Jan 2031 and Jan 2031->Jan 2033 (before the fund fee)."""
+    vt3, vt2: VT growth factors Jan 2028->Jan 2031 and Jan 2031->Jan 2033 (before the fund fee).
+    margin_fn (added Tue 10 Nov): f(d0, d1) -> the margin's cost in Jan 2028 money, replacing the 9 Nov convention
+    (margin x exp(-ladder duration x d1) x one year's carry); completion.margin_fn gives it for each design.
+    most (added Tue 10 Nov afternoon, Keel's reading of IPS l.15 "Most of the 2028 deposit will fund a Treasury fund
+    maturing in late 2032"): the floor gets the larger of `share` of what is left after the completion and just over
+    half the deposit (deposit / 2 + $1; all of what is left if that is less); VT takes the rest."""
     s = setup(curve)
     share = E.ASSUMPTIONS["floor_share"] if share is None else share
     fee, vfee = E.ASSUMPTIONS["fund_fee"], E.ASSUMPTIONS["vt_fee"]
@@ -57,13 +63,20 @@ def run(curve, margin=0.0, share=None, deposit=150_000.0, d0=None, d1=None, d2=N
     left27 = np.maximum(300_000 - c27, 0.0)
     r01 = np.maximum(s["f01"] + d0, 0.001)
     # completion in Jan 2028: the unbought tail (plus the margin), re-priced for a year of carry and the 2027 move
-    complete = (short27 * np.exp(-s["tail_dur"] * d1) + margin * np.exp(-s["dur_l"] * d1)) * np.exp(r01)
+    if margin_fn is None:
+        mcost = margin * np.exp(-s["dur_l"] * d1) * np.exp(r01)
+    else:
+        mcost = np.asarray(margin_fn(d0, d1), float)
+    complete = short27 * np.exp(-s["tail_dur"] * d1) * np.exp(r01) + mcost
     R = deposit + left27 * np.exp(r01) - complete
     payments_full = R >= 0
     R = np.maximum(R, 0.0)
     yF = np.maximum(s["fF"] + d0 + d1, 0.001)
-    floor = share * R * np.exp(yF * s["tauF"]) * (1 - fee) ** s["tauF"]
-    vt28 = (1 - share) * R
+    fm = share * R
+    if most:
+        fm = np.maximum(fm, np.minimum(R, deposit / 2 + 1.0))
+    floor = fm * np.exp(yF * s["tauF"]) * (1 - fee) ** s["tauF"]
+    vt28 = R - fm
     vt3 = np.asarray(np.exp(math.log(1.075) * 3) if vt3 is None else vt3, float)
     vt2 = np.asarray(np.exp(math.log(1.075) * 2) if vt2 is None else vt2, float)
     vt31 = vt28 * vt3 * (1 - vfee) ** 3
@@ -72,10 +85,13 @@ def run(curve, margin=0.0, share=None, deposit=150_000.0, d0=None, d1=None, d2=N
     kept33 = vt31 / 2 * vt2 * (1 - vfee) ** 2
     all_t = R * np.exp(yF * s["tauF"]) * (1 - fee) ** s["tauF"]
     return dict(complete=complete, R=R, payments_full=payments_full, floor=floor, vt28=vt28, vt31=vt31,
-                moved=moved, top=floor + moved, kept33=kept33, total=floor + moved + kept33, all_t=all_t, setup=s)
+                moved=moved, top=floor + moved, kept33=kept33, total=floor + moved + kept33, all_t=all_t, setup=s,
+                floor_money=fm, moved_money=vt31 / 2, most_binds=fm > share * R + 1e-6, vt_squeeze=fm - share * R)
 
 
-def house(curve, margin=0.0, share=None, deposit=150_000.0, n=N, seed=SEED):
+def draws(n=N, seed=SEED):
+    """The house model's draws, in the order house() has always made them (Tue 10 Nov: split out so scripts can see the
+    yield moves each path's purchases were made at)."""
     rng = np.random.default_rng(seed)
     sv = E.ASSUMPTIONS["yield_vol"]
     t0 = E.yf(E.J27)
@@ -85,7 +101,14 @@ def house(curve, margin=0.0, share=None, deposit=150_000.0, n=N, seed=SEED):
     mu, sd = math.log(1 + E.ASSUMPTIONS["eq_growth"]), E.ASSUMPTIONS["eq_vol"]
     vt3 = np.exp(rng.normal(mu * 3, sd * math.sqrt(3), n))
     vt2 = np.exp(rng.normal(mu * 2, sd * math.sqrt(2), n))
-    return run(curve, margin, share, deposit, d0, d1, d2, vt3, vt2)
+    return d0, d1, d2, vt3, vt2
+
+
+def house(curve, margin=0.0, share=None, deposit=150_000.0, n=N, seed=SEED, margin_fn=None):
+    d0, d1, d2, vt3, vt2 = draws(n, seed)
+    res = run(curve, margin, share, deposit, d0, d1, d2, vt3, vt2, margin_fn)
+    res["draws"] = (d0, d1, d2, vt3, vt2)
+    return res
 
 
 def shiller_windows(path=None):
@@ -107,11 +130,11 @@ def shiller_windows(path=None):
     return out
 
 
-def history(curve, margin=0.0, share=None, deposit=150_000.0):
+def history(curve, margin=0.0, share=None, deposit=150_000.0, margin_fn=None):
     w = shiller_windows()
     vt3 = np.array([a for _, a, _ in w])
     vt2 = np.array([b for _, _, b in w])
-    res = run(curve, margin, share, deposit, vt3=vt3, vt2=vt2)
+    res = run(curve, margin, share, deposit, vt3=vt3, vt2=vt2, margin_fn=margin_fn)
     res["starts"] = [k for k, _, _ in w]
     return res
 

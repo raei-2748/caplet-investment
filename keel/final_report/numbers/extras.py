@@ -1,7 +1,13 @@
 """NUMBERS.md section 8 items, on the same engine and curve (Keel, Mon 9 Nov 2026). MODEL, not a forecast.
 
-Run from the repo root:  python3 -I keel/final_report/numbers/extras.py
-Writes keel/final_report/numbers/results_extras_2026-11-06.json and prints the figures.
+Run from the repo root:  python3 -I keel/final_report/numbers/extras.py [--design KEEL]
+Writes keel/final_report/numbers/results_extras_2026-11-10.json and prints the figures (about two minutes). The Mon 9 Nov
+results_extras_2026-11-06.json (Keel's margin) is kept. Tue 10 Nov: the completion is the call in completion.py
+(H_plain); item 2 adds each close's cost of the whole design; item 3's threshold is the rule's central stated bottom.
+Tue 10 Nov afternoon: item 2's design cost is the fee-cushioned backstop (completion.build); item 3's bottom is
+completion.rule on the fund's holdings; the rival keeps the same share of each path's 2028 money as FINAL's kept half
+(VT bought under Keel's reading of "most", halved), not a fixed 13.35%. Item 1's "-3pt" column reinvests coupons
+3 points below forwards; a fund's cash in its last months earns forwards (bond desk check, finding 7).
 
 1. Per-rung reinvestment: where each rung's $50,000 comes from (principal, coupons, interest on coupons), and the
    flat reinvestment rate at which the ladder as written still pays all ten (the break-even).
@@ -22,6 +28,9 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import engine as E   # noqa: E402
 import plan as P     # noqa: E402
+import completion as C   # noqa: E402
+
+NAME = C.design_arg()
 
 out = {}
 c = E.Curve(E.load_par())
@@ -104,7 +113,8 @@ for d in sorted(days):
     uu = E.size_own_rung(ii, E.Reinvest(cc))
     u3 = E.size_own_rung(ii, E.Reinvest(cc, "shift", 0.03))
     hist.append({"date": d.isoformat(), "payments": E.ladder_cost(cc), "ten_held": E.cost(ii, uu),
-                 "ten_held_with_margin_minus3": E.cost(ii, u3), "y10": days[d][10]})
+                 "ten_held_with_margin_minus3": E.cost(ii, u3),
+                 "ten_held_with_backstop_escrow_standard": C.build(cc)["H_plain"]["cost"], "y10": days[d][10]})
 pay = np.array([h["payments"] for h in hist])
 held = np.array([h["ten_held"] for h in hist])
 out["history"] = {
@@ -121,14 +131,9 @@ out["history"] = {
 }
 
 # ---------------------------------------------------------------- 3. the strongest rival on FINAL's own design
-res = json.load(open(HERE / "results_2026-11-06.json"))
-m3 = res["plan"]["margin_minus3"]["margin_jan2027_value"] if "plan" in res and "margin_minus3" in res["plan"] else None
-if m3 is None:
-    for v in res.values():
-        if isinstance(v, dict) and "margin_minus3" in v:
-            m3 = v["margin_minus3"]["margin_jan2027_value"]
-share = E.ASSUMPTIONS["floor_share"]
-keep_frac = (1 - share) / 2          # FINAL keeps half of VT to 2033: 13.35% of the 2028 money at cost
+m3 = C.design(NAME)["margin"]
+MF = C.margin_fn(NAME)
+BOTTOM = float(C.rule(P.run(c, m3, margin_fn=MF))["bottom"])
 fee, vfee = E.ASSUMPTIONS["fund_fee"], E.ASSUMPTIONS["vt_fee"]
 
 
@@ -146,8 +151,10 @@ def draws(n=P.N, seed=P.SEED):
 
 def rival(fin):
     """From plan.run's output: same R; all of it in VT 2028-2031; in Jan 2031 the same mix as FINAL after its move
-    (86.65% Treasuries to late 2032, 13.35% VT kept to 2033)."""
+    (FINAL's kept half as a share of the 2028 money stays in VT to 2033, the rest goes to Treasuries to late 2032;
+    13.35% when the "most" rule does not bind)."""
     s = fin["setup"]
+    keep_frac = np.where(fin["R"] > 0, fin["vt28"] / 2 / np.where(fin["R"] > 0, fin["R"], 1.0), 0.0)
     vt31 = fin["R"] * VT3 * (1 - vfee) ** 3
     yM = np.maximum(s["fM"] + D0 + D1 + D2, 0.001)
     floor31 = (1 - keep_frac) * vt31 * np.exp(yM * s["tauM"]) * (1 - fee) ** s["tauM"]
@@ -156,13 +163,14 @@ def rival(fin):
 
 
 D0, D1, D2, VT3, VT2 = draws()
-fin = P.run(c, m3, None, 150_000.0, D0, D1, D2, VT3, VT2)
+fin = P.run(c, m3, None, 150_000.0, D0, D1, D2, VT3, VT2, MF)
 riv = rival(fin)
 out["rival_late_lock"] = {
-    "what": "2028 money after completion all in VT; in Jan 2031 86.65% moved to Treasuries maturing late 2032, 13.35% kept",
+    "what": "2028 money after completion all in VT; in Jan 2031 FINAL's after-move mix (13.35% kept when 'most' does not bind)",
     "house": {"final_top": P.pct(fin["top"]), "rival_top": P.pct(riv["top"]),
               "final_total": P.pct(fin["total"]), "rival_total": P.pct(riv["total"]),
-              "share_rival_top_below_110k": float((riv["top"] < 110_000).mean()), "share_final_top_below_110k": float((fin["top"] < 110_000).mean()),
+              "stated_bottom_central": BOTTOM,
+              "share_rival_top_below_bottom": float((riv["top"] < BOTTOM).mean()), "share_final_top_below_bottom": float((fin["top"] < BOTTOM).mean()),
               "share_rival_top_below_final_top": float((riv["top"] < fin["top"]).mean()),
               "share_rival_total_below_final_total": float((riv["total"] < fin["total"]).mean()),
               "rival_top_p1": float(np.percentile(riv["top"], 1)), "final_top_p1": float(np.percentile(fin["top"], 1))},
@@ -170,18 +178,21 @@ out["rival_late_lock"] = {
 w = P.shiller_windows()
 VT3 = np.array([a for _, a, _ in w]); VT2 = np.array([b for _, _, b in w])
 D0 = D1 = D2 = np.zeros(len(w))
-fin_h = P.run(c, m3, None, 150_000.0, 0.0, 0.0, 0.0, VT3, VT2)
+fin_h = P.run(c, m3, None, 150_000.0, 0.0, 0.0, 0.0, VT3, VT2, MF)
 riv_h = rival(fin_h)
 lo_i = int(np.argmin(riv_h["top"]))
 out["rival_late_lock"]["history"] = {
     "windows": len(w), "final_top": P.pct(fin_h["top"]), "rival_top": P.pct(riv_h["top"]),
     "rival_top_lowest": {"value": float(riv_h["top"][lo_i]), "start": w[lo_i][0]},
     "final_top_lowest": float(np.min(fin_h["top"])),
-    "share_rival_top_below_110k": float((riv_h["top"] < 110_000).mean()),
+    "share_rival_top_below_bottom": float((riv_h["top"] < BOTTOM).mean()),
+    "share_final_top_below_bottom": float((fin_h["top"] < BOTTOM).mean()),
+    "share_rival_total_below_final_total": float((riv_h["total"] < fin_h["total"]).mean()),
+    "final_total": P.pct(fin_h["total"]), "rival_total": P.pct(riv_h["total"]),
     "share_rival_top_below_final_top": float((riv_h["top"] < fin_h["top"]).mean()),
 }
-out["stamp"] = {"curve": E.CURVE_DAY, "margin_jan2027_value": m3, "run": "Mon 9 Nov 2026"}
-json.dump(out, open(HERE / "results_extras_2026-11-06.json", "w"), indent=1, default=str)
+out["stamp"] = {"curve": E.CURVE_DAY, "design": NAME, "margin_jan2027_value": m3, "run": C.RUN}
+json.dump(out, open(HERE / f"results_extras_2026-11-10{C.tag(NAME)}.json", "w"), indent=1, default=str)
 
 k = lambda v: f"${v:,.0f}"
 for y, r in rows.items():

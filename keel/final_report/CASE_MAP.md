@@ -37,7 +37,7 @@ checked word for word against `FINAL_IPS_as_submitted.txt` on 8 Nov.
 
 ## C. Open analysis found while gathering the old research (to settle before Thu 26 Nov)
 
-1. **Reinvestment under Caplet's design: the largest open question.** *Settled Mon 9 Nov (`NUMBERS.md` section 2): the ladder as written falls short in 56% of historical rate stretches; Keel's call sizes the 2028 completion so all ten are paid even 3 points below today's forward rates (margin $21,149); the matched ladder halves the risk but buys only eight in January, against the IPS. Logged in `../pm/ASK_HUMANS.md`.* A ladder of coupon bonds costing about
+1. **Reinvestment under Caplet's design: the largest open question.** *Settled Mon 9 Nov, re-settled Tue 10 Nov (`NUMBERS.md` section 2): the ladder as written falls short in 56% of historical rate stretches; the 2028 completion now meets the escrow standard "sufficient without reinvestment" (each rung funds itself as the Trading Notes say; a backstop of extra face in IBTR and the five T-bonds, cash waiting in a short-term Treasury ETF; all ten paid even if no coupon earns a cent; completion about $38,300 in January 2028). The Mon 9 Nov margin ($21,149, rates 3 points lower) is void. Logged in `../pm/ASK_HUMANS.md`.* A ladder of coupon bonds costing about
    $300,000 delivers $50,000 a year only if its coupons are reinvested: a T-bond bought for about $30,000 reaches
    $50,000 in 2038 only with ten years of coupons reinvested on the way. So the payments depend on future Treasury
    rates as well as on default, and Caplet's FINAL has no rule for a shortfall (TNA note 1 names the risk). Wharton
@@ -54,7 +54,7 @@ checked word for word against `FINAL_IPS_as_submitted.txt` on 8 Nov.
    reserve is set aside in 2033 before the facility contribution, and Caplet's choice to fill the ladder with the 2028
    deposit's first dollars shows the same priority. (d) Lineage: Fisher and Weil, Redington, Leibowitz's dedicated
    portfolios, municipal escrows "sufficient without reinvestment", Damodaran's two conditions for a riskless asset.
-2. **"Pay what they say" against "net asset value, not par".** *Settled Mon 9 Nov (`NUMBERS.md` section 3): each fund's payout can move by up to about 2% (its final months in cash); the floor's by up to 4.1%; the stated bottom is the modelled payout less 4.1%, rounded down to $5,000.* The FINAL says the Treasuries "pay what they say" and
+2. **"Pay what they say" against "net asset value, not par".** *Settled Mon 9 Nov, re-settled Tue 10 Nov (`NUMBERS.md` section 3): each fund's payout can move by up to about 2% (its final months in cash); each stated end is now the fund's payout if no more interest is earned, computed from its holdings on the trade day, cut 0.5% and rounded down to $5,000 (card Q19; the fixed 4.1% was today's value, breached at high yields).* The FINAL says the Treasuries "pay what they say" and
    the bottom is promised "without doubt"; TNA note 2 says the iBond payout is a net asset value. The report must state
    the bottom in a way that is true for an iBond ETF (for example, rounded down from its expected payout) and say why
    the gap is small.
@@ -72,7 +72,7 @@ checked word for word against `FINAL_IPS_as_submitted.txt` on 8 Nov.
    and a co-sponsor falling short. Keel's old research argued against earmarking that half for the building, so the
    store has almost nothing in support of Caplet's choice. Q5 must research it fairly (contingency practice in capital
    projects, P50/P90 budgets, reference classes) and the report follows the FINAL.
-8. **Benchmarks for the facility contribution.** *Settled Mon 9 Nov (`NUMBERS.md` section 4): all-Treasury $158,157 certain with Keel's margin; the FINAL's top is below it in 98% of paths because half of VT is kept back; counting the kept half, the FINAL leaves more in 63%.* An all-Treasury plan leaves about $191,000 for the facility on the 4
+8. **Benchmarks for the facility contribution.** *Settled Mon 9 Nov, re-run Tue 10 Nov (`NUMBERS.md` section 4): all-Treasury $140,761 (stated $130,000) on the same completion; the FINAL's funds pay less in 97.6% of house paths because half of VT is kept back; counting the half kept and the excess, the FINAL leaves more in 62.8%; with the same flexibility an all-Treasury plan states $110,000, $5,000 under the FINAL's central top.* An all-Treasury plan leaves about $191,000 for the facility on the 4
    Nov curve (MODEL, `ips_rewrite/final_night/IDEA_LIST_MATHS.md`); the report should show what VT adds over that and
    what it risks, re-run on the 6 Nov curve.
 9. **Wording traps in the locked texts.** TNA reflection 1 says "duration-matching" (a ladder matched payment by
