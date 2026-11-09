@@ -105,6 +105,23 @@ Findings:
    - **Why this keeps to the IPS:** "Even if yields fall and the total cost of the ladder ends up being above $300,000, we'll simply complete it with the 2028 deposit." Falling yields are exactly what raises the true cost of a coupon ladder.
    - Revisit only if Caplet disagrees, or if the FR instructions (Tue 10) change what the report may recommend.
 
+**A candidate to replace Keel's call (Mon 9 Nov night; the Day 3 run decides).** The bond-desk judge proposed a pooled
+book: every coupon pays the next payment due (design B), but every one of the ten rungs is still bought in January 2027
+(B as first sized bought only eight, so it clashed with the IPS). Run on the same engine, with each rung held at no less
+than a share of its plain size and the whole sized so that every payment is met even if interest earns nothing:
+
+| Each rung at least | Cost (1 Jan 2027 value) | Short if interest earns nothing | Against Keel's call ($323,436; short $22,192 at zero, any shortfall in 6% of history) |
+|---|---|---|---|
+| 25% of its plain size | $320,707 | $0 | $2,729 cheaper |
+| 50% | $322,352 | $0 | $1,084 cheaper |
+| 75% | $325,569 | $0 | $2,133 dearer |
+| 100% | $332,922 | $0 | $9,486 dearer |
+
+It would pass the municipal escrow verifier's test, "sufficient without reinvestment" (research card Q17), for about
+what Keel's call costs. Before it can replace Keel's call: check it against CANON (the Trading Notes' "reinvested coupons
+fund the rest"; the frozen book's even rung sizes), decide the share kept per rung, and re-run sections 4, 5, 8a, 8c,
+8f and 8h on it. MODEL.
+
 ## 3. An iBond fund pays its net asset value, not par (CASE_MAP C2): settled
 
 | Fund (pays) | Fund fee over its life, on a $50,000 rung | Months its holdings' money waits in cash before the end | Lost if that cash earns nothing |
@@ -160,6 +177,12 @@ More from the same runs:
 - **So the confidence she can state in 2031 is "certain unless the US Treasury defaults".** That is the IPS's own standard ("barring a US default"). In the house model the 2033 gift falls inside the stated range in every path.
 - **The uncertainty a judge should see is earlier: which range she will be able to announce.** From today, the top she announces in 2031 is between about $111,000 and $171,000 (1-in-20 each side, house model). It is $131,000 to $154,000 on US stock history.
 - **Central, the 2031 announcement is about $110,000 to $135,000.** That is the top less 2.5%, rounded down to $5k.
+  **Correction under review (panel, Mon 9 Nov night):** each end should take its own deduction: the floor part 4.1%
+  and the moved half 2.5%, so the stated top is $115,929 x 0.959 + $22,806 x 0.975 = $133,412, or $130,000 rounded down
+  to $5k. The panel also asks how the range is framed: after the move both ends are owned, so the gift (about $138,700
+  central) sits above the stated top unless a cap rule sends the excess to the kept half (CANON D12), and the bottom is
+  then about $23,000 below money already owned. The Day 3 run decides the framing and rewrites this section; until
+  then new notes quote neither end without this caveat.
 - Good and bad markets before the move change only the top. After the move nothing changes either end (case A6).
 - **One definition, used everywhere:** the 2033 facility contribution is the floor plus the moved half, and the range above is for that. Money Laura later spends on the building from the half kept is her separate choice, outside the announced range (`CANON.md` D12). Without this, the kept half could push the money reaching the facility above the range and make the stated confidence look wrong.
 
@@ -433,12 +456,25 @@ months.
 - **Size:** the reserve is the ten Treasuries, about $427,000 on 1 Jan 2033 if rates follow today's forwards, against
   $500,000 of payments still owed (worth $399,089 at those forwards: $50,000 now plus $349,089). The difference, about
   $28,000, is Keel's margin grown to 2033 ($27,939): it is what makes the payments safe in the world 3 points lower.
-- **It changes only by running down.** Nothing is bought or sold after January 2028: each year one holding pays out
+- **Funded ratio:** $427,028 against $399,089, about 107% funded at today's forwards on 1 Jan 2033 (panel: compare
+  like with like, not with the $500,000 face).
+- **It changes only by running down.** Nothing is sold after January 2028, and nothing is added except each holding's
+  own interest (design A reinvests each rung's coupons in its own rung): each year one holding pays out
   just before its payment, so the reserve moves from half iBond ETFs to all T-bonds by 2037, and its value falls by
   about one payment a year. No rebalancing (the IPS's two reasons to change are a missed deposit or a Treasury default).
 - **If rates follow today's forwards,** each rung pays $1,705 (2033) to $5,266 (2041) more than $50,000, $36,859 in all
   over ten years: the margin handed back, Laura's to use. If every reinvestment earns 3 points less, each rung pays
   exactly $50,000 (the design).
+- **The waits between payout and payment** (research card Q16, Mon 9 Nov night). The Feb-2037 bond's money waits about
+  10.5 months for the 1 Jan 2038 payment and earns about $1,572 at today's forwards (3.1% of its payment); the May-2038
+  bond's waits 7.6 months and earns $1,139 (2.3%); each November bond's waits 1.5 months and earns $227-$252. Keel's
+  margin covers these at 3 points below forwards, as it does every reinvestment. A Treasury payment due on a weekend or
+  holiday is made the next business day (the Feb-2037 bond pays on Tue 17 Feb 2037), which changes none of these
+  figures materially.
+- **The funds' payouts in practice** (Q16): three iBonds Treasury funds have already ended on schedule (Dec 2023, 2024,
+  2025), each paying its net asset value to holders 10 to 14 days before 1 January, with notice in mid-October. The
+  2026 prospectus says money from bonds maturing in a fund's last months is typically reinvested in its remaining
+  notes, so section 3's "earns nothing" case is a stress test, not the expected case.
 
 ## 9. Still to add (later days)
 - The operating reserve's paying-out mechanics (where each early payout waits; how an iBond ETF winds down) come

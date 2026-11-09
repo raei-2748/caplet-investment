@@ -19,13 +19,14 @@ facility contribution, the 2031 range and its confidence, the words for co-spons
 2. Its biggest strength: every promise Laura makes, to the residency in 2033 and to co-sponsors in 2031, is backed by
    money she already owns, so the confidence she states comes from structure rather than from a forecast.
 3. Its main trade-off: a lower certain gift than an all-Treasury plan at the bottom, and a smaller cushion in the years
-   shares fall, in exchange for a share of world growth that is never promised to anyone.
+   shares fall, in exchange for a share of world growth, half of which is never promised to anyone.
 
 ## Five things a judge should be able to say after the first page
 
 1. The ten payments rest on ten Treasuries, each paying out just before its payment; from 2033 they are the operating
-   reserve, about $427,000 on 1 Jan 2033 at today's forward rates against $500,000 still owed (NUMBERS 8h, MODEL).
-2. In 2031 Laura can tell co-sponsors a range of about $110,000 to $135,000 (central, NUMBERS 4), and once half the
+   reserve, about $427,000 on 1 Jan 2033 at today's forward rates against the $399,000 the payments are worth at the
+   same rates, about 107% funded (NUMBERS 8h, MODEL).
+2. In 2031 Laura can tell co-sponsors a range of about $110,000 to $130,000 (central, NUMBERS 4; framing under review), and once half the
    shares have moved, both ends are Treasuries she owns: the 2033 gift falls inside it unless the US Treasury defaults.
 3. Half the shares are promised to no one, for overruns, a stronger Taiwan dollar or a co-sponsor falling short; that
    cushion is smallest in the years it is most likely to be needed, and the report says so (NUMBERS 8f).
