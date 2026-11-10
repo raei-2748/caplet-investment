@@ -913,3 +913,132 @@ Q24-032,3,5,5,4,keep,,"3b: Taiwan's own record of budget revisions (64.71% of tr
 Q24-033,4,3,5,4,merged,Q16-006,Same IBTM and IBTF termination facts as Q16-006: the gift is cash about 18 Dec 2032.
 Q24-034,4,3,5,4,keep,,"3a liquidity: the ETFs trade on exchanges and the T-bonds over the counter on every bond-market business day; say 'traded', never 'listed'."
 Q24-035,4,3,4,4,keep,,"3a liquidity and Figure 1: when each payment's cash arrives, half a month to 10.5 months early; overlaps Q17-029."
+Q25-001,5,4,5,5,keep,,"3b and 3d: the figures behind H7-063 (same paper): a broken promise 8.32, kept 9.88, exceeded 9.77, so giving the $8,476 excess would buy no trust; SKELETON 3b already cites them."
+Q25-002,3,4,5,4,keep,,3b back-up to Q25-001: in remembered promises exceeding gained only 13.3% of what breaking cost; one Gneezy figure is enough in the report.
+Q25-003,4,5,5,4,keep,,"3d rule: co-sponsors get the rule and the stated range, never the $123,476 modelled payout, or it becomes an expectation the $115,000 contribution falls short of; already in SKELETON 3d."
+Q25-004,3,5,5,5,keep,,"3c: the fact of a miss costs trust, not its size, which is why each stated end is owned to the dollar (0.5% cut, rounded down); a pilot, so one clause at most."
+Q25-005,2,3,2,4,keep,,"The same asymmetry among voters judging pledges; abstract only, and Q25-001 already carries the point."
+Q25-006,2,3,2,3,keep,,"Counter-evidence for the record (employees, not funders; abstract only); no place in the report."
+Q25-007,2,2,5,4,keep,,"Counterpoint for the record: markets do reward a beat, but in a repeated game; it limits Q25-001 to one-off promises and needs no report space."
+Q25-008,2,3,5,3,keep,,"Markets forgive a managed beat; funders reading one founder are not a market, so no report use."
+Q25-009,3,3,4,4,keep,,"3c back-up to Q25-004 from markets: the fact of a missed forecast, not its size, is punished; working-paper version read."
+Q25-010,3,5,5,4,keep,,"3c: a bottom set low to be beaten buys nothing, so the report says the bottom comes from the rule (owned money less 0.5%), not from caution."
+Q25-011,1,3,2,3,keep,,Secondary excerpt only; early warning is not free either; no use.
+Q25-012,4,3,5,4,merged,Q11a-008,"Same opera-patron experiment as Q11a-008 (+78% mean gift, +65% total, matching crowded out own giving)."
+Q25-013,3,3,5,4,keep,,"3d support: the same money announced raised 71% more than unannounced (full text), so an owned, dated figure does the work; same paper as Q11a-006."
+Q25-014,2,4,5,3,keep,,"The full text puts Q11a-006's +18% dollars and +23% donors against a larger $5,000 ask, not against no announcement; a bigger stated need also raised gifts."
+Q25-015,3,4,5,3,merged,Q11a-009,Same smaller-lead follow-up as Q11a-009 (1.3-1.5% response against 3.5%; not randomised).
+Q25-016,3,3,4,4,merged,Q11a-002,"Same seed-money result as Q11a-002 (10% to 67% of the goal, nearly sixfold)."
+Q25-017,3,3,5,3,merged,Q11a-012,Same point as Q11a-012: a lead gift signals quality only if it is large; Vesterlund's theory adds nothing the report needs.
+Q25-018,3,5,4,3,keep,,"3b, the objection that holding back under-signals: in theory a leader who can give again later does not free-ride (answers Q11a-005); no field test."
+Q25-019,4,3,5,4,adapt,,"3d's opening: the signal is the whole commitment (the ten payments plus the gift); VOID use of '$615,000 nominal from $450,000', since NUMBERS 8k bars adding nominal dollars across years; say 87.2% promised (8k)."
+Q25-020,2,5,4,4,keep,,"Second-hand Kresge figure: announced lead pledges are almost always paid (0.62% withdrawn), so co-sponsors expect delivery; a clause in 3d at most."
+Q25-021,3,4,5,4,merged,Q11a-013,Same leading-by-example experiment as Q11a-013 (works only when followers cannot judge the project).
+Q25-022,2,4,4,4,keep,,3b at most a clause: a later closing challenge is one form Laura's separate choice could take (CANON D12); never offered in 2031 (IPS l.15).
+Q25-023,2,4,4,4,merged,Q18-032,"Same Diller lead-donor case as Q18-032 (stated 'more than $113 million', gave far more)."
+Q25-024,3,3,4,4,merged,Q22-038,"Same practitioner warnings as Q11b-029 and Q11b-022 (a low top gift drags others; a held reserve looks like less need), applied as in Q22-038."
+Q25-025,5,5,3,4,keep,,"3b's 'two kinds of money', now NUMBERS 8k: the backstop $45,456 (60%), the price of the payments' certainty, and the flexibility $29,823 (40%); quote 8k's total $75,298 (about $75,300), not the card's $75,279 at face."
+Q25-026,4,5,3,4,adapt,,"3b proportion line: 87.2% promised and 12.8% returning are now in NUMBERS 8k; the card's $589,368 total disagrees with 8k's $589,655 (contribution in 2033 money), so quote 8k."
+Q25-027,4,5,3,4,keep,,"3a and 3b: the backstop comes back only if rates hold ($45,456 at forwards, $20,606 at 3 points lower, $1,414 at zero; NUMBERS 8h, 8i), so it is never facility money; any release schedule stays Keel's reading."
+Q25-028,3,4,3,4,keep,,"3b size of the flexibility with its spread (NUMBERS 4: $29,823; house $16,193 / $28,541 / $49,924); the 20.6% and 5.1% shares are Keel sums not in the register."
+Q25-029,4,3,4,5,merged,H3-041,Same cap idea as H3-041 (the gift never exceeds the stated top; the excess stays Laura's); its evidence is Q25-001.
+Q25-030,3,3,4,4,merged,Q11b-032,Same counting rules as Q11b-032 and Q18-001 to Q18-007: only the stated range is pledged; the rest sits outside it.
+Q25-031,4,3,5,4,keep,,"3b: IPS l.15 bars promising the kept half, not giving it later; any later gift is Laura's separate, announced choice (CANON D12), with no default destination 'to the facility' (A30)."
+Q25-032,3,1,5,5,merged,Q11a-001,Same case lines as Q11a-001: over-promising 'could damage her credibility'; a meaningful gift 'may signal' viability.
+Q26-001,3,5,5,4,keep,,Table 3's form from mine safety: a trigger action response plan writes each response before its trigger; prior art for watching many things and acting on two.
+Q26-002,3,5,5,4,keep,,"Table 3 design check: keep simplicity, clear linkage, accountability and communication; refuse escalation, which would add triggers (CANON A34)."
+Q26-003,4,5,5,4,keep,,"Table 3: most rows sit at a 'Normal' level whose response is 'continue as planned', borrowed from mine TARPs; already in SKELETON item 4."
+Q26-004,2,5,5,3,keep,,"TARPs guard against slow drift being accepted; for Laura the slow signals are Taiwan costs and the Taiwan dollar, which draw only on the half kept."
+Q26-005,3,5,5,4,keep,,"Table 3 or 3e: one yearly status line, 'triggers reached since last report'; overlaps the lottery's yearly sufficiency report (Q16-022); a habit, not a rule in the IPS."
+Q26-006,2,5,5,3,keep,,"Thresholds come from the register, not taste; never borrow 'regularly reviewed and revised', which would contradict IPS l.17."
+Q26-007,3,3,5,4,keep,,"3e: Laura already has two written orders of use (the 2028 deposit's: ladder, backstop, floor, VT; and the half kept's three named uses), as pension guidance asks."
+Q26-008,4,4,4,4,keep,,"Table 3's distance to each trigger (NUMBERS 5): the escrow standard holds unless the 2028 deposit falls more than 74.5%, the ladder 98.4%; a 3.60-point fall takes all $150,000."
+Q26-009,1,3,5,3,keep,,"Disanalogy for the record: Laura has no leverage, so no stress buffer and no refill rule."
+Q26-010,3,3,5,4,keep,,"Table 3's middle level: read more often when a signal moves, change nothing."
+Q26-011,3,5,5,4,merged,Q15-028,Same IBTM prospectus sentence as Q15-028 and Q16-004 (the Board may extend the end date).
+Q26-012,3,5,5,4,keep,,"Table 3 instrument row: a fund ended early by its Board pays net asset value in cash; the prepared step is a Treasury maturing before the same payment; an instrument changes, never the plan."
+Q26-013,3,3,5,4,merged,Q15-029,"Same 'Declining Yield Risk' in the final months as Q15-029 and Q16-005, already sized in NUMBERS 3 (1.6% to 2.1% of a rung)."
+Q26-014,5,5,5,4,keep,,"3c and 3e: the 0.5% cut, not the prospectus, carries the fund risk (lending losses, extraordinary and liquidation costs, no cap); answers NUMBERS 3's open check; carries Q26-029."
+Q26-015,2,5,4,3,keep,,Table 3 check: the cash collateral fund inside each iBond fund should be a Treasury fund (it is for IBTG and IBTR; IBTM's own file not checked).
+Q26-016,2,3,5,4,keep,,"Table 3 instrument row: a halt or suspended redemptions matter only on a trade day (January 2028, the 2031 move); a date changes, never the plan."
+Q26-017,3,4,5,5,keep,,"3a and 3e: a fourth iBond Treasury fund (Dec 2026) is ending on schedule (notice 15 Oct, proceeds 18 Dec), updating Q16-006's three to four."
+Q26-018,3,3,5,5,keep,,"2.5 and Table 3: none of the five T-bonds can be called (TreasuryDirect records read), which settles H7-013's point for Caplet's own bonds."
+Q26-019,2,5,5,4,merged,H7-013,"Same history as H7-013: Treasury last called a bond in 2009, and calls ended with 1984 issues."
+Q26-020,2,3,2,4,keep,,Table 3: buybacks are offers a holder may ignore; FAQ excerpt only.
+Q26-021,3,5,5,4,keep,,Table 3 'look closer' threshold ready-made in law: an ETF premium or discount above 2% for more than seven trading days (Rule 6c-11); matters only on trade days.
+Q26-022,3,4,4,4,keep,,"Table 3 custody row: holdings near Dec 2032 of about $589,000 (NUMBERS 8k: $589,655) exceed SIPC's $500,000 at one broker; changes where assets sit, never what is held."
+Q26-023,3,4,3,4,keep,,"Table 3 debt-limit row: headroom $749,285m on 6 Nov 2026 (DTS IIIC); but with six to nine months of extraordinary measures the X-date falls late 2027 to early 2028 (Q15-026), near the January 2028 completion, not mid-2027."
+Q26-024,2,2,5,4,keep,,Correction to Q15-031: the par curve's quotes are taken at about 3:30 pm and posted by 6:00 pm ET; a 'when' cell in Table 3.
+Q26-025,2,1,5,5,merged,Q10-024,Same CBC rate as Q10-024 (32.768 on 6 Nov 2026); adds 8d's 27.52 as the threshold.
+Q26-026,3,4,5,4,keep,,"Table 3 instrument row: VT may change its index (same market segment) without a vote; the half kept stays world shares; the IPS names VT, so record it as a risk."
+Q26-027,3,1,5,5,keep,,"3e and Table 3's 'who' column: Wharton names the reader, 'Laura or her asset management team'."
+Q26-028,4,4,3,4,keep,,"Table 3's three levels (Watch, Look closer, Reason): the middle level is a prepared step inside the plan, never a third reason (CANON A34)."
+Q26-029,4,5,5,4,merged,Q26-014,"Same point as Q26-014, as a wording fix already applied in SKELETON 3c; Q19-005's note still uses the narrower 'prospectus' words."
+Q26-030,1,1,5,4,keep,,"Housekeeping only: Q15's table quotes void figures ($138,735, $23,986, $110,000, $21,149, about $24,500); serves no part of the report."
+Q26-031,2,2,3,4,keep,,"Table 3: co-sponsor commitments and the builder's contingency rest on Laura's own records, not a public source."
+Q26-032,4,4,4,4,keep,,"3e and Table 3: the IPS gives no date when a late 2028 deposit becomes 'missed'; the report states one reading as Keel's, never as a new rule."
+Q27-001,4,1,5,5,merged,Q21-001,Same Wharton Team Reflection test as Q21-001 ('influenced its final recommendation').
+Q27-002,3,1,5,5,merged,Q21-002,"Same 2026-27 Articulation wording as Q21-002 ('uncertainty', 'shaped its investment thinking')."
+Q27-003,3,1,5,5,merged,H10-006,"Same Wharton line as H10-006 and Q21-004 (reasoning, assumptions and tradeoffs)."
+Q27-004,4,1,5,5,merged,H9-093,Same Guide p.5 rule as H9-093 and Q21-003; the re-rank caps post-submission events at 3 on influence.
+Q27-005,2,3,5,4,keep,,"3f standard: evidence and an aim to improve, not a story of the week; background for the re-rank anchors."
+Q27-006,3,3,5,5,keep,,3f's closing paragraph answers DEAL's last question ('What will I do in light of it?') for the recommendation.
+Q27-007,3,4,5,5,keep,,3f disagreements: put the losing side so its holder would agree with it; criterion C of the re-rank.
+Q27-008,2,4,5,4,keep,,Process for 27 Nov: revising against the same rubric lifted critical-thinking levels from 22% to 69% of drafts (14 students).
+Q27-009,3,3,5,4,merged,Q21-015,Same four kinds of reflective writing as Q21-016 (carried by Q21-015); adds the definition 'thinking about action with a view to its improvement'.
+Q27-010,3,5,5,4,keep,,"3f: do not force a 'transformation'; careful weighing of reasons scored as well, which supports telling a decision tested and kept."
+Q27-011,3,5,5,4,keep,,"3f drafting and the re-rank: score facts, not reflective-sounding stock phrases; cut them on 27 Nov."
+Q27-012,3,3,5,4,merged,Q21-015,"Same Moon descriptor as Q21-015 (linked by sequence, not meaning)."
+Q27-013,3,3,5,4,merged,Q21-015,Same Moon top level as Q21-015 (description serves reflection; the frame of reference can change).
+Q27-014,2,3,2,4,merged,Q21-013,Same Kember levels as Q21-013; the 'very good agreement' figure is still unseen.
+Q27-015,2,5,5,3,keep,,"Corrects Q21-014: the 0.802 is an alpha, initial agreement was 50% to 79%, and the authors advise against grading with the scheme."
+Q27-016,4,5,5,4,keep,,"3f: a decision tested and kept can score at the top ('Reflection isn't only about transformation'), so each event ends on a before and after state, not always a change; in SKELETON 3f."
+Q27-017,4,5,5,4,merged,Q21-017,Same REFLECT split as Q21-017 (transformative and confirmatory learning); adds the exact descriptor; the use is carried by Q27-016.
+Q27-018,2,5,2,3,keep,,Re-rank background: the best reported single-reader agreement (ICC 0.632) is from the rubric's developers; abstract only.
+Q27-019,2,5,5,3,keep,,"Re-rank process: one reader's score is noisy (independent ICC about 0.45), so readers read the anchors first and no single score decides."
+Q27-020,3,5,5,4,keep,,"Re-rank design: score the five criteria separately, never one overall mark (by criterion 0.50 against one global level 0.36)."
+Q27-021,1,5,2,3,keep,,"Abstract only, and about judging people across many essays, not ranking events; no use."
+Q27-022,2,2,4,4,keep,,Re-rank: rank on the mean of three readers and treat a gap under 1.0 of 25 as a tie; the gain is smaller than the formula since readers share one design.
+Q27-023,4,4,5,4,keep,,"3f: one of the three or four events is a success or a decision kept; reviews of successes and failures beat failures only, by a small effect in one quasi-experiment."
+Q27-024,3,4,5,4,keep,,"3f's success event is told by its decision point with the luck named (NUMBERS 8b: fills within two trading days of the year's cheapest close are luck of timing, NUM-004)."
+Q27-025,3,2,5,5,keep,,"Supports one success among the 3f events and the closing paragraph, in doctrine's plain words; not a study."
+Q27-026,2,3,5,4,keep,,"Re-rank sheets use roles, not names; the 3f draft may name people Caplet supplies, since the no-names norm is for internal reviews."
+Q27-027,3,2,5,4,merged,Q21-020,"Same after-action agenda as Q21-020 and Q21-019 (intended, happened, why, next time)."
+Q27-028,3,3,5,4,merged,H9-177,"Same Edmondson (1999) study as H9-177 (learning behaviour, open disagreement, outsiders' ratings)."
+Q27-029,3,4,5,4,keep,,"3f criterion C: an objection raised in the open and tested (the 'copout' challenge, H9-181) is evidence of a learning team; no invented conflict."
+Q27-030,2,3,2,4,keep,,"Debriefs help later performance (meta-analyses, abstracts only); supports figures as before and after states where they exist."
+Q28-001,4,5,5,4,keep,,"Figure 1: the professional form of 'the reserve running down' is the escrow verifier's sufficiency schedule by payment date, ending at a balance; borrow the test, never 'held uninvested' (CANON A15)."
+Q28-002,3,5,5,4,keep,,"Figure 1's staircase is the verifier's securities-by-date matrix drawn as a picture: its real pedigree, not paired bars."
+Q28-003,4,5,5,4,merged,Q20-020,"Same verifier standard as Q20-020; adds the verifier's scope ('no opinion as to the attainability of the assumptions'), so Figure 1's note says 'modelled', never 'verified'."
+Q28-004,3,5,5,4,keep,,"Figure 1: verifiers print 'excess receipts' as a signed number per date, not a bar; under NUMBERS 8h it is $0 at forwards, so print the zero-interest split instead (Q28-005)."
+Q28-005,5,5,3,4,keep,,"Figure 1's per-payment numbers: own holding plus backstop at zero interest (NUMBERS 8h; SKELETON uses the fee column, $55,920 in all), since every rung pays exactly $50,000 at forwards; the void $36,859 must leave specs.md."
+Q28-006,3,5,5,4,merged,H2-040,"Same release idea as H2-040, now with a real verifier's release column; the release stays Keel's reading (8h) and out of the exhibit."
+Q28-007,2,3,4,4,keep,,"A manager draws the unmatched part of a liability in its own tone; images not seen; Laura has ten payments, not hundreds."
+Q28-008,2,3,4,4,keep,,"Stacked cash-flow charts earn their place at 91 years of flows; ten payments sit under the 20-number line (Q23-021), where numbers do better."
+Q28-009,2,3,5,4,keep,,"The reinvestment caveat behind the backstop, in a pension consultant's words; one clause at most."
+Q28-010,3,2,5,4,keep,,Figure 1: a stacked own-holding-plus-backstop bar would show the backstop as a sliver judged by length; print it as a number or on its own baseline.
+Q28-011,2,1,5,4,keep,,Background to Q28-010: position beats length and shading for reading values.
+Q28-012,3,3,4,4,keep,,"Figure 1: label bars by ticker, as iShares draws its own ladder; a lighter last stretch can show cash inside each fund before the mid-December payout."
+Q28-013,3,3,5,4,merged,Q15-028,"Same 'does not seek to return any predetermined amount' as Q15-028; adds the design rule that no fund bar carries a bare $50,000 (CANON B20)."
+Q28-014,3,5,5,4,merged,Q16-022,Same lottery report as Q16-022 (sufficiency stated in words and a table) and Q16-020 (a reserve against reinvestment risk).
+Q28-015,2,3,5,4,merged,Q17-013,"Same Regulation 126 scenarios as Q17-013 and Q20-027; adds their fixed order (level first), a rule for Table 2's rows."
+Q28-016,2,3,2,4,keep,,"Table 2: base world first and a plain 'not a forecast' label, as the Fed's stress tables do; search excerpts only."
+Q28-017,3,4,5,4,keep,,"Table 2: the public reads fan charts well (Bank of England 2026), so the report never claims tables beat fans; Table 2 wins on its structure (Q28-019)."
+Q28-018,4,4,5,4,keep,,"Table 2: one number per world reads as certain ('mistake precision for certainty'), so add the 585-window spread row and a MODEL label (Q28-023)."
+Q28-019,3,5,5,4,keep,,"Table 2 is chosen for its structure (named conditional worlds by several outputs), since no central-bank test compared scenario tables with fan charts."
+Q28-020,3,4,5,4,merged,Q19-023,Same Bernanke Review as Q19-023 and H9-144; adds the Bank's own reply that fan charts 'have not proved to be an effective way of communicating'.
+Q28-021,3,5,5,4,keep,,"Table 2: the failed range chart was the deterministic construal error (36% misread an interval; text 94% correct), so the range goes in text with its two kinds of range made to look different."
+Q28-022,2,4,5,5,keep,,Process for the Mon 23 Nov fresh-reader test: ask 'what does this range mean?' before explaining it.
+Q28-023,5,5,4,4,keep,,"Table 2: keep the stated range ($95,000 to $115,000 at forwards) apart from the 585-window spread (bottom $80,000 / $95,000 / $115,000, top $95,000 / $115,000 / $140,000; NUMBERS 8i) in its own row under a rule."
+Q28-024,2,1,5,4,merged,H9-142,"Same Spiegelhalter, Pearson and Short (2011) paper as H9-142; adds its Box 1 rules (words and numbers, narrative labels, test and iterate)."
+Q28-025,3,3,5,4,merged,H9-138,Same advice as H9-138: show a best estimate inside a range; here the spread row shows the median between the two 1-in-20 ends.
+Q28-026,3,3,5,4,merged,Q18-020,Same van der Bles (2020) result as Q18-020; adds that the word 'estimated' alone did not signal uncertainty.
+Q28-027,3,2,5,4,keep,,"Tables 1 and 2: round, order columns past to future, set the summary row apart with space; Table 2's base row is the standard of comparison."
+Q28-028,3,2,5,4,keep,,Supports single-spaced exhibits with one deliberate gap and a one-line lead before each exhibit in the prose.
+Q28-029,3,4,5,4,keep,,Table 1's pedigree: a Treasury term fund's own SEC schedule groups holdings by type with subtotals and ends on a 100% line.
+Q28-030,2,4,5,4,keep,,"Table 1: a payment-funding portfolio reported to a lay commission groups holdings with subtotals (by term, not role)."
+Q28-031,2,1,5,4,keep,,Table 1: one subtotal row with a rule above it is APA-native; adds to Q23-015's table rules.
+Q28-032,2,1,4,4,merged,Q23-022,Same Few look-up point as Q23-022; adds 'combine summary and detail in a single display' for Table 1's one subtotal.
+Q28-033,4,5,5,4,keep,,"Table 1: IBTM does two jobs (TNA), so one subtotal under the ten Treasuries 'for the ten payments and the floor' ($268,652.18, 89.55%, NUMBERS 8g); a group named for the payments alone would contradict the Trading Note."
+Q28-034,2,3,5,5,keep,,"Table 1 option, checked: 8g rounded to whole dollars and one-decimal % still totals $300,000 and 100.0%; SKELETON keeps cents and two decimals as WInS records them."
+Q28-035,3,3,5,5,keep,,"Figure 1's label says '7.5 months' for the May-2038 bond, matching the submitted trade note (CANON A16, B35), not the register's 7.6."
