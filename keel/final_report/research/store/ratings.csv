@@ -1042,3 +1042,103 @@ Q28-032,2,1,4,4,merged,Q23-022,Same Few look-up point as Q23-022; adds 'combine 
 Q28-033,4,5,5,4,keep,,"Table 1: IBTM does two jobs (TNA), so one subtotal under the ten Treasuries 'for the ten payments and the floor' ($268,652.18, 89.55%, NUMBERS 8g); a group named for the payments alone would contradict the Trading Note."
 Q28-034,2,3,5,5,keep,,"Table 1 option, checked: 8g rounded to whole dollars and one-decimal % still totals $300,000 and 100.0%; SKELETON keeps cents and two decimals as WInS records them."
 Q28-035,3,3,5,5,keep,,"Figure 1's label says '7.5 months' for the May-2038 bond, matching the submitted trade note (CANON A16, B35), not the register's 7.6."
+Q4c-001,2,3,5,5,keep,,Background for 3c's no-word rule: Kent's own board read 'a serious possibility' anywhere from 20% to 80%; too long for the page budget.
+Q4c-002,2,3,5,4,keep,,"3c background: on Kent's scale 'almost certain' is about 87-99%, so it undersells an owned end; Q4c-013's 86% is the figure to use."
+Q4c-003,4,4,5,4,keep,,"3c: an owned end is stated as a fact with its named exception, never with a likelihood word (Kent's type-one statement); carries Q4c-008 (IPCC para 5, same rule)."
+Q4c-004,3,3,5,4,keep,,"3c: the US intelligence scale stops at 95-99%, so its top word would tell co-sponsors up to 1 chance in 20 of failure for an end Laura owns."
+Q4c-005,3,3,5,4,merged,H7-031,Same rule as H7-031 (likelihood and confidence kept apart); ICD 203's version adds 'never in one sentence'.
+Q4c-006,2,3,5,4,keep,,"Table 3: the analytic standard asks for indicators that would change the uncertainty, which the monitoring table already does."
+Q4c-007,3,3,5,4,merged,H10-056,Same IPCC likelihood scale as H10-056.
+Q4c-008,3,4,5,4,merged,Q4c-003,Same rule as Q4c-003 from a second field (IPCC para 5): an overwhelming finding is stated as fact.
+Q4c-009,2,3,5,4,keep,,"3c: where numbers exist, give them without the scale's words; Q4c-020 carries the measured evidence."
+Q4c-010,3,3,5,4,merged,H10-055,"Same IPCC range checklist as H10-055; adds the mapping to 3c (basis = the rule, outside = below the bottom only)."
+Q4c-011,3,3,5,4,keep,,"3c and Table 2's note: pair 'inside the range in every tested path' with its reciprocal, what would put it outside and how large."
+Q4c-012,3,3,5,4,merged,H7-031,"Same IPCC para 9 quote as H7-031, as the card itself says."
+Q4c-013,4,3,5,5,keep,,"3c and 3d words: 'almost certain' is heard as about 86% across 20 studies, roughly 1 chance in 7 of failing, so the report never uses it."
+Q4c-014,3,3,5,4,keep,,"3d words to avoid: 'certain' is heard near 100% (writers' median 99.6%), so it always travels with its exception (CANON C5, C13, check 5)."
+Q4c-015,2,4,4,4,keep,,Background: the scale offered moves how a word is read (78% to 90% for 'almost certain'); read second-hand.
+Q4c-016,3,3,5,4,keep,,3c words: never 'possible' or 'could' for the top after the move; 'possible' is read in two very different ways.
+Q4c-017,3,3,5,4,keep,,"3c: even with 90-100% in the sentence, the public read 'very likely' at about 62%, so the number, not the word, carries the claim."
+Q4c-018,2,3,4,4,merged,H10-057,Same finding as H10-057 (readers shade high likelihood words down); adds that a printed glossary did not fix it.
+Q4c-019,3,3,5,4,merged,H9-141,"Same Budescu et al. (2014) result as H9-141; adds 25 samples in 17 languages, so it holds for Taiwanese and US co-sponsors alike."
+Q4c-020,4,4,5,5,keep,,"3c: the evidence SKELETON uses for 'no likelihood word': readers agreed 40 of 100 on words, 72 on words with numbers, 75 on numbers alone (N = 1,202)."
+Q4c-021,3,4,5,4,keep,,"3c and 3d: name each number's role, the bottom 'at least' and the top 'at most', since bare numbers are read as exact, at least, at most or roughly."
+Q4c-022,3,3,5,4,merged,H9-139,Same Gigerenzer et al. (2005) rain study as H9-139 (say what each count is out of).
+Q4c-023,2,3,5,4,merged,H9-140,"Same Gigerenzer and Hoffrage (1995) source as H9-140; adds that the gain is for Bayesian sums, not for reading a stated certainty."
+Q4c-024,2,3,5,4,merged,H9-140,"Confirms at the source H9-140's unnamed meta-analysis (McDowell and Jacobs 2017: 4% against 24%, odds ratio 7.1)."
+Q4c-025,4,4,4,4,keep,,"3c: zero failures in about four independent rate eras rules out almost nothing (the 95% bound is about 53%), so the 585 count is a stress test of the rule, never the odds."
+Q4c-026,4,4,5,4,keep,,3c and Table 2's note: on the engine's own holdings 'every path' is true by construction; the informative test is other holdings and frictions (NUMBERS 3).
+Q4c-027,5,5,4,4,keep,,"3c's two-part confidence, adopted in SKELETON: inside the range has one exception (a US default), the top has two (plus fund costs above 0.5%: 6.0% of house paths, at most $429, NUMBERS 3); the smallest margin across paths is not yet computed."
+Q4c-028,4,5,5,4,keep,,"3e: the default exception's market size, 0.2-0.4% a year in quiet periods and 4-6% at the 2011, 2013 and 2023 standoffs; context only, never the plan's probability (CANON A4)."
+Q4c-029,3,5,5,4,keep,,"3e: the caveats that travel with any CDS figure (risk premium, euro contracts, a tiny market, a late payment rather than a loss)."
+Q4c-030,4,5,5,4,keep,,"3e: about 1% in late 2024 and April 2025, and US CDS gauges a technical default, not insolvency; with Q4c-028 it gives SKELETON 3e's clause."
+Q4c-031,2,3,4,4,keep,,3e background: in 2011 one-year CDS rose from about 30 to 80 basis points while most traders expected a deal; excerpt only.
+Q4c-032,2,4,3,3,keep,,Support for reading CDS as risk-adjusted rather than real-world odds; abstract only.
+Q4c-033,2,3,5,4,merged,H3-088,Same ratings point as H3-088 (no longer AAA); adds the 2026 affirmations and S&P's 0.00% AA sovereign default at 1-15 years.
+Q11c-001,2,3,5,4,keep,,"Background for 3d: unequal groups reached a target less often (2 of 10 against 5 of 10); small lab groups, and Q11c-005 finds the opposite."
+Q11c-002,3,3,5,4,keep,,"3d: non-binding pledges took unequal groups from 2 to 6 of 10 and were kept, so an early written statement is the cheap repair (p = 0.085)."
+Q11c-003,2,3,5,4,keep,,"Background: large players' early signals decided success and small ones did not fill their gap; tokens, not funders."
+Q11c-004,3,3,5,4,keep,,"3d: each funder thinks a larger one should carry more, so the ask names no shares and conditions only on the facility's total."
+Q11c-005,2,5,5,4,keep,,Counter-result to Q11c-001: unequal wealth alone did not hurt; disagreement on what to fund did.
+Q11c-006,2,5,5,4,keep,,"Risk to record: a dominant funder's choice tends to become the project, which could narrow Laura's flexibility; lab labels, not a residency."
+Q11c-007,1,5,5,3,keep,,Large lab players paid more than their head start; no part of the report needs it.
+Q11c-008,3,5,5,4,keep,,3d order: moving in sequence beat moving together (47.8% to 75.6% or 79.4%); extends Q11a-004 to unequal funders; working paper.
+Q11c-009,3,5,5,4,keep,,"3d order: lead when the table is scattered, anchor when it is organised, so Laura's owned figure goes first and the largest funder may come last."
+Q11c-010,2,5,5,4,keep,,3d background: on a scattered table the big funder's project wins; Laura's plan stated first keeps the residency hers.
+Q11c-011,2,5,5,3,keep,,"Background: no first-mover cost or last-mover penalty in the lab, so Laura going first costs her nothing."
+Q11c-012,1,3,2,3,keep,,Older lab result that inequality hurts; abstract only and the literature is mixed.
+Q11c-013,2,5,2,3,keep,,"A few large funders, each needed, coordinate more easily; abstract only."
+Q11c-014,2,3,2,3,keep,,Sequence beats simultaneity and refunds matter less once order is used; abstract only.
+Q11c-015,1,3,2,3,keep,,Funders respond to the project's value against its cost; abstracts only and no part needs it.
+Q11c-016,3,3,5,4,merged,H7-071,"Same Kresge all-or-nothing challenge as H7-071; adds Kresge's own words, 'paid in full only when the campaign succeeds completely', which SKELETON 3d cites."
+Q11c-017,2,3,5,4,merged,H7-071,Same Kresge challenge grant as H7-071; adds the 2011 guide's terms (the condition is the whole goal; typically 8% to 10% of it).
+Q11c-018,3,3,5,4,keep,,3d never-offered list: private funders fear pending public money and ask someone to backstop it; the half kept is never that backstop (A30).
+Q11c-019,4,3,5,4,keep,,"3d ask: a public capital funder withholds its first payment until 100% of other funding is confirmed in writing, so Laura's figure must exist in writing; adds to Q22-003 and Q22-005."
+Q11c-020,3,3,5,4,merged,Q22-003,"Same Arts Council England overrun rule as Q22-003 (no extra money if costs rise), from the newer fund."
+Q11c-021,3,3,5,4,keep,,"3d ask: a state arts capital fund pays at most a third, and only after all other money is raised, the second case of 'last money by rule'."
+Q11c-022,3,3,5,4,merged,Q22-018,"Same point as Q22-018 (only committed money counts); Washington counts documented pledges, never intentions."
+Q11c-023,2,3,5,4,keep,,"3e background: public capital money lapses on its own budget clock, so a conditional chain can lose its anchor."
+Q11c-024,2,3,5,4,keep,,"A third conditional form: a proportional match that shrinks with a shortfall; background for 3d, not in the passage."
+Q11c-025,3,3,4,5,keep,,"3d: the three forms funders already use all put the condition on the total and leave gaps and overruns with the applicant, so Laura invents no mechanism."
+Q11c-026,4,5,3,4,keep,,"3d ask, adopted in SKELETON: two funders cannot both be last money, so conditions rest on the facility's total by one close date; the deadlock is Keel's inference from the rules."
+Q11c-027,1,5,5,3,merged,Q11a-016,"Same Tabarrok contract as Q11a-016; adds that the bonus is the designer's own enforceable promise, which Laura could pay only from the half kept."
+Q11c-028,2,5,5,3,keep,,"Corrects Q11a-016's 'always provided': with differing values the good comes half the time, so a bonus would often be paid."
+Q11c-029,2,5,5,3,keep,,"With a few named funders each is already pivotal, and the danger is pessimism, which an owned lead figure answers."
+Q11c-030,1,5,5,3,refuse,,"Zubrickas's lead-funded bonus would pay Laura's contribution to co-sponsors if the raise fails, breaking IPS l.15 (A22, C5, D12); kept as the reason 3d never offers a bonus."
+Q11c-031,1,5,5,4,keep,,"A 75% bonus cut lab success to 23%, so there is no generous version; no part needs it."
+Q11c-032,1,5,5,3,keep,,"Honest counterpoint: a 25% bonus helped unequal groups late; the objection is who pays, not whether it works."
+Q11c-033,2,5,4,4,keep,,"Corrects Q11a-017's 'never paid': its own lab counts paid the bonus in 33.0% to 39.5% of campaigns (Keel arithmetic, checked)."
+Q11c-034,1,5,2,3,keep,,"Bonus counterpoints (quality signal, land assembly) read as abstracts only."
+Q11c-035,4,5,3,4,keep,,"3e risk, adopted in SKELETON: conditional pledges release together, so one funder's cut in a downturn can release the rest; Laura's owned figure is the one that does not shrink (IPS l.9)."
+Q11d-001,3,4,5,4,keep,,"3d ask: Taiwan's main arts grant pays programmes, never capital or basic running costs (cap NT$5m a year); Taiwan's version of Q22-008's split ask."
+Q11d-002,4,4,5,5,keep,,"3d and the 3e assumption, adopted in SKELETON: the Ministry of Culture approves multi-year work year by year, cut to the legislature's budget; extends H9-116."
+Q11d-003,3,5,5,4,keep,,"3e assumption: NCAF pays after the project ends, so the residency floats its costs while Laura's cash arrives first (December 2032, NUMBERS 4)."
+Q11d-004,3,4,5,5,keep,,"3d currency: Taiwan's national arts funder counts every amount in NT$, the reason for one dated NT$ size beside the US$ figure ($115,000 = NT$3.77m at 32.768, NUMBERS 8j)."
+Q11d-005,2,5,5,4,keep,,"Background for 3d: the longest public horizon found for a space's programme is three one-year grants, each reviewed."
+Q11d-006,2,5,5,4,keep,,"Background: public funders in Taiwan do not stack for one group, so each pays a named part; adds to Q22-012 and Q22-013."
+Q11d-007,3,5,5,4,keep,,"3b and 3d: Taiwan's own venue grant puts overruns on the owner ('no request for more subsidy'), which is why the half kept exists (A31), never a pledge."
+Q11d-008,2,5,5,4,keep,,"3d background: a Taiwanese capital funder checks site right, an operating plan with years and other funders; adds to Q22-011."
+Q11d-009,2,4,5,4,keep,,"Background: Pier-2's first operator failed when its subsidy ended, so the operating plan matters more than the building money."
+Q11d-010,2,4,5,4,merged,H9-116,"Same NT$800 a day residency stipend as H9-116, at Pier-2 from 2026."
+Q11d-011,2,3,5,4,merged,Q11b-017,Same Taipei model as Q11b-017 (a city-owned residency run on commission by the Taipei Culture Foundation); adds only the 2007 date.
+Q11d-012,2,4,5,4,keep,,"3e background: even endowed public foundations live on the yearly budget (NCAF 38.85% in 2022, in deficit); adds to Q9-033 and Q4b-026."
+Q11d-013,2,4,5,4,keep,,"Background: a Taiwanese foundation's endowment is a locked core, so its capacity is its yearly income."
+Q11d-014,3,5,5,4,keep,,"3d and 3e: one foundation may give one grantee at most 10% of its yearly spending unless an exception applies, the biggest limit on any one co-sponsor's gift."
+Q11d-015,2,5,5,4,keep,,Background to Q11d-014: gifts of NT$1m or less escape the 10% cap; Laura's NT$3.77m is far above it (NUMBERS 8j).
+Q11d-016,4,4,5,4,keep,,"3d and Table 3, adopted in SKELETON: foundations file each year's plan and budget in January, so a 2031 meeting lands in the 2032 plan and the filings are a signal to watch."
+Q11d-017,2,5,5,4,keep,,"Background: a tax-exempt foundation must spend 60% of each year's income, so it saves for a large gift only under an approved four-year plan; a co-sponsor limit, not Laura's tax."
+Q11d-018,1,5,5,4,keep,,Main donors hold at most a third of a foundation's board; no part of the report needs it.
+Q11d-019,2,4,5,4,keep,,Background: a corporate arts foundation is a small locked endowment (NT$10m) run on yearly money; carries Q11d-021.
+Q11d-020,3,5,5,5,keep,,"3d, adopted in SKELETON: a bank gave its arts foundation NT$30m in 2025, three times the endowment, so a corporate co-sponsor's money is its parent's yearly decision."
+Q11d-021,2,4,5,4,merged,Q11d-019,"Same small locked endowment as Q11d-019, at a second corporate foundation (Fubon)."
+Q11d-022,3,5,5,4,keep,,"Table 3: a co-sponsor foundation's plan, budget and grant lists are public each year on the Ministry of Culture portal, the source for the January signal."
+Q11d-023,4,5,4,4,keep,,"3e and the career idea: a Taiwanese patron dropped a planned museum after 2008 as its parent's results fell, the first primary-reported case for IPS l.9's co-sponsor half (CANON B4); one firm, one interview."
+Q11d-024,2,4,4,4,keep,,"A second corporate museum lost its money with its parent in 2004; one sentence, and not tied to a recession."
+Q11d-025,2,5,5,4,keep,,"Background: a Taiwanese building gift's figure drifts between tellings (NT$1.3bn to NT$3bn), so a written rule is firmer than any one figure."
+Q11d-026,2,5,3,4,keep,,Background: a building gift came with a 50-year operating contract and the running costs were the hard part; the 2012 cost estimate is unverified.
+Q11d-027,2,4,5,4,keep,,"Background for 3d: around a Taiwanese building gift, the written promise was a public contract fixing site, term and hand-back."
+Q11d-028,4,5,5,4,keep,,"3d currency, adopted in SKELETON: Cloud Gate named a foreign gift in US dollars, so Laura's US$ figure is normal if one dated NT$ size sits beside it, labelled as today's size."
+Q11d-029,2,4,5,4,keep,,3d 'if the building slips': a private Taiwanese theatre opened seven years after the fire; adds a private case to Q9's public delays.
+Q11d-030,2,4,5,4,merged,Q22-004,Same point as Q22-004 (funders ask who pays to run the building); adds Cloud Gate's NT$15m a year site cost.
+Q11d-031,3,5,5,4,merged,Q18-039,"Same absence as Q18-039 (no founder states a range with a likelihood), now in Taiwan sources too; the guard is NUMBERS 4's one definition."
+Q11d-032,3,5,4,5,keep,,"3b and 3d scale: NT$3.77m is about 1.3 times the ministry's yearly residency cap and 0.6% of Cloud Gate's raise, a lead gift for a small residency, not a building (Keel arithmetic on NUMBERS 8j, checked)."

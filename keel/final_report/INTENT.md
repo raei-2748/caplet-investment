@@ -1,4 +1,4 @@
-# Intent: what the Final Report must leave in a judge's head (version 2, Tue 10 Nov 2026; first version Mon 9 Nov night)
+# Intent: what the Final Report must leave in a judge's head (version 2, Tue 10 Nov 2026, amended Wed 11 Nov; first version Mon 9 Nov night)
 
 Planning notes, not report text. No sentence here is meant to be pasted into the report. Every figure is from
 `NUMBERS.md`; every claim about what Caplet committed to is checked against `CANON.md`. Re-scored by every run through
@@ -7,8 +7,9 @@ Planning notes, not report text. No sentence here is meant to be pasted into the
 ## The governing thought (one idea the whole report serves)
 
 Money Laura has promised is owned in Treasuries before she promises it; only money promised to no one takes market
-risk. The IPS set this rule (the payments in Treasuries; the bottom of the gift a Treasury fund; half the shares moved
-into Treasuries before she names a figure; half promised to no one). The report shows that the WInS book put the rule
+risk. The IPS set this rule (the payments in Treasuries; the bottom of the gift a Treasury fund; half the shares, the world
+share fund VT bought with the 2028 deposit, moved into Treasuries before she names a figure; the other half promised
+to no one). Say once which shares "half the shares" means (fresh reader, Wed 11 Nov). The report shows that the WInS book put the rule
 into practice, and applies the same rule to each thing Wharton asks Caplet to recommend: the operating reserve, the
 facility contribution, the 2031 range and its confidence, the words for co-sponsors and what to watch.
 
@@ -39,12 +40,12 @@ in 3d.
 2. The WInS book is the whole plan built at $300,000, and it cost more than the deposit: the ten cost $302,287 at the
    6 Nov close, and the IPS's own clause completes them from the 2028 deposit. A team that shows its overrun and the
    rule that covers it is believed on the rest.
-3. In 2031 Laura states a range by a written rule (each end at what it pays if no more interest is earned, worked out
-   when it is bought; a cap with any excess joining the half kept; no figure before the move; card Q19), about $95,000 to $115,000 at today's central figures (NUMBERS 4, Tue 10 Nov; the escrow standard for the payments
-   costs the range about $15,000, and about $45,000 of reserve overflow returns to Laura in 2033 if forward rates hold); once half the shares have moved, both ends are money
-   she owns in Treasury funds, so the gift lands inside it unless the US Treasury defaults or a fund's own costs or losses take more than the
-   0.5% each end is cut by (IBTM's prospectus lets a fund pay below its holdings and sets no cap; card Q26). The real uncertainty is earlier and is shown: which range she will be able to announce
-   (card Q19).
+3. In 2031 Laura states about $95,000 to $115,000, and both ends are money she already owns in Treasury funds; co-sponsors
+   count the bottom, and the gift reaches the top unless the US defaults. (Notes, not words for the report: the written
+   rule, the cap and the two exceptions are in SKELETON 3c and cards Q19, Q4c and Q26; the escrow standard costs the
+   range about $15,000 and about $45,000 of the backstop returns to Laura if forward rates hold, NUMBERS 4, 8k; the real
+   uncertainty is earlier, which range she will be able to announce. Shortened Wed 11 Nov after a fresh reader scored
+   the opening idea 3 for clarity.)
 4. Half the shares are promised to no one, as a designed contingency with a purpose, an order of use and a release
    rule; that cushion is smallest in the years it is most likely to be needed, and the report says so, with a
    recession replayed from history (card Q24).
