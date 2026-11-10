@@ -42,8 +42,8 @@ in 3d.
 3. In 2031 Laura states a range by a written rule (each end at what it pays if no more interest is earned, worked out
    when it is bought; a cap with any excess joining the half kept; no figure before the move; card Q19), about $95,000 to $115,000 at today's central figures (NUMBERS 4, Tue 10 Nov; the escrow standard for the payments
    costs the range about $15,000, and about $45,000 of reserve overflow returns to Laura in 2033 if forward rates hold); once half the shares have moved, both ends are money
-   she owns in Treasury funds, so the gift lands inside it unless the US Treasury defaults or a fund fails to work as
-   its prospectus says. The real uncertainty is earlier and is shown: which range she will be able to announce
+   she owns in Treasury funds, so the gift lands inside it unless the US Treasury defaults or a fund's own costs or losses take more than the
+   0.5% each end is cut by (IBTM's prospectus lets a fund pay below its holdings and sets no cap; card Q26). The real uncertainty is earlier and is shown: which range she will be able to announce
    (card Q19).
 4. Half the shares are promised to no one, as a designed contingency with a purpose, an order of use and a release
    rule; that cushion is smallest in the years it is most likely to be needed, and the report says so, with a
@@ -51,7 +51,8 @@ in 3d.
 5. Laura watches many things, but only a missed deposit or a Treasury default changes the plan; everything else changes
    a number, never a payment.
 6. The team changed its own first plan on its own evidence, and its recommendation came from disagreements it settled
-   on reasons; each event in the reflection changed a number that appears earlier in the report.
+   on reasons; each event in the reflection ends on something that changed, or was tested and kept, in a
+   recommendation earlier in the report (card Q27).
 
 ## Ways the report could fail (each has a scorecard row)
 
@@ -64,7 +65,8 @@ in 3d.
    plus moved half, capped at the stated top, CANON D12); the range as a rule; the confidence said in numbers and
    words; what could lower it named.
 4. **The reflection is generic, retells the Trading Notes, or is about analysis rather than people.** Guard: three or
-   four real events from the blind ranking, each naming who did what and when, each tied to a number that changed.
+   four real events from the blind ranking, each naming who did what and when, each ending on what changed or what was tested and kept,
+   with a number where the register has one; one of them a success.
 5. **It is too dense to follow at speed.** Guard: the stack test on the first page; word budgets per part
    (`SKELETON.md`: about 2,700 words of prose in all); cut whole ideas, never squeeze sentences (EXPECTATIONS 3.2).
 6. **It ignores what the case names.** Guard: liquidity, inflation, the Taiwan dollar and a recession that hits shares

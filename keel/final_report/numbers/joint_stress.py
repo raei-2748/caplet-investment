@@ -17,6 +17,12 @@ floor gets the larger of 73.3% of what is left and $75,001 (plan.run, most=True)
 1 Jan 2033 money at the world's own rates (completion.in_2033_money), not at the 6 Nov forwards; stated (rounded)
 percentiles use the 'lower' method.
 
+Tue 10 Nov evening (numbers owner, NUMBERS 8j and 8k): the Taiwan dollar test is run on the 2033 contribution after the
+cap (the lower of what the funds pay and the stated top, NUMBERS 4), for the half kept alone and for the half kept plus
+the excess; the real-currency test and gift_terms follow the same definitions (gift_terms on NUMBERS 8d's conventions).
+New block returns_to_laura: the backstop's money left after 2042, the excess and the half kept, in 1 Jan 2033 money at
+each world's own rates, at forwards and over the 585 joint windows. Its independent check is returns_check.py.
+
 Why (panel, bond desk weakness 4): the house model draws shares and Treasury yields independently. In a recession both
 often fall: the kept half (half of VT, promised to no one) shrinks, and lower reinvestment rates use up Keel's margin,
 so the reserve's overflow shrinks too. This replays both from the SAME historical months.
@@ -224,7 +230,11 @@ for st, m in E.history_windows(DGS1, "DGS1"):
                  "vt3": idx[i + 48] / idx[i + 12], "vt2": idx[i + 72] / idx[i + 48],
                  "stocks_first_year": idx[i + 12] / idx[i],
                  "floor_real_ratio": fund_ratio(E.J28, w, m28) / math.exp(fF * m28 * tauF),
-                 "moved_real_ratio": fund_ratio(E.J31, w, m31) / math.exp(fM * m31 * tauM), **pay})
+                 "moved_real_ratio": fund_ratio(E.J31, w, m31) / math.exp(fM * m31 * tauM),
+                 # Tue 10 Nov evening (NUMBERS 8k): 15 Dec 2032 money -> 1 Jan 2033 money at the window's own rates, and
+                 # the ten payments' value on 1 Jan 2033 at the window's own rates (promised money, for the shares)
+                 "g_end_j33": w.grow(END, E.J33),
+                 "pay33": sum(E.PAYMENT / w.grow(E.J33, date(y, 1, 1)) for y in E.YEARS), **pay})
 n = len(rows)
 A = {k: np.array([r[k] for r in rows]) for k in rows[0] if k != "start"}
 starts = [r["start"] for r in rows]
@@ -473,74 +483,151 @@ sc["inflation_shares_minus_20"] = world_row("Inflation world with shares -20% 20
                                             dL=ramp(E.J28), us_cpi=0.05, tw_cci=0.05, parallel28=ramp(E.J28))
 out["scenarios"] = sc
 
-# ---------------------------------------------------------------- 6. the Taiwan dollar test
-def twd_test(kept, gift, label, top_stated=None):
-    o = {"label": label}
-    for x in (0.10, 1 / 0.9 - 1):
-        need = gift * x
-        ok = kept >= need
-        o[f"covers_{x:.3f}"] = float(ok.mean())
-        o[f"gap_when_fails_median_{x:.3f}"] = float(np.median((need - kept)[~ok])) if (~ok).any() else 0.0
-    ratio = kept / gift
-    o["kept_over_gift_p5_p50_p95"] = q(ratio)
-    o["largest_stronger_twd_covered_19_in_20"] = float(np.percentile(ratio, 5))
-    # the same pot against an overrun allowance of x% of the contribution (Q5's early-stage norms, illustration only)
-    o["covers_share_of_gift"] = {f"{x:.2f}": float((kept >= gift * x).mean()) for x in (0.10, 0.13, 0.17, 0.20, 0.30)}
-    if top_stated is not None:
-        # cap rule (panel, under review): the contribution is the stated top; anything above it joins the kept half
-        pot = kept + np.maximum(gift - top_stated, 0.0)
-        o["cap_rule_pot_p5_p50_p95"] = q(pot)
-        o["cap_rule_surplus_p5_p50_p95"] = q(np.maximum(gift - top_stated, 0.0))
-        o["cap_rule_covers_0.100"] = float((pot >= top_stated * 0.10).mean())
-        o["cap_rule_covers_share_of_contribution"] = {f"{x:.2f}": float((pot >= top_stated * x).mean())
-                                                      for x in (0.10, 0.13, 0.17, 0.20, 0.30)}
+# ---------------------------------------------------------------- 6. the Taiwan dollar test (re-run Tue 10 Nov evening)
+# Which "gift": the 2033 contribution after the cap, i.e. the lower of what the floor and the moved half pay and the
+# stated top (NUMBERS 4, "One definition, used everywhere"; CANON D12). It is the US-dollar sum fixed at the 2031
+# meetings that has to buy a Taiwan-dollar budget in December 2032. Until Tue 10 Nov afternoon the kept-half-alone test
+# used what the funds pay (before the cap) and only the cap-rule test used the stated top; both now use the
+# contribution, which equals the stated top wherever the funds pay at least the top (every path and window here; the
+# share is reported). "x% stronger Taiwan dollar" = x% more US dollars for the same NT$ budget (NUMBERS 8d: NT$ at
+# 32.768 / 1.10); the stricter reading (NT$ per US$ falls 10%, so 11.1% more US dollars) is reported beside it.
+# Two pots: the half kept alone (VT, promised to no one), and the half kept plus the excess the cap sends to it.
+SHARES_OF_CONTRIB = (0.10, 0.13, 0.17, 0.20, 0.30)
+
+
+def twd_test(kept, contribution, excess, label, top_stated):
+    kept, contribution, excess = (np.asarray(a, float) for a in (kept, contribution, excess))
+    o = {"label": label,
+         "gift_used": "the 2033 contribution after the cap: min(what the floor and the moved half pay, stated top)",
+         "share_contribution_equals_stated_top": float((np.abs(contribution - np.asarray(top_stated, float)) < 0.5).mean()),
+         "contribution_p5_p50_p95": qs(contribution), "excess_p5_p50_p95": q(excess)}
+    for name, pot in (("kept_half", kept), ("kept_half_plus_excess", kept + excess)):
+        d = {"pot_p5_p50_p95": q(pot)}
+        for x in (0.10, 1 / 0.9 - 1):
+            need = contribution * x
+            ok = pot >= need
+            gap = (need - pot)[~ok]
+            d[f"covers_{x:.3f}"] = float(ok.mean())
+            d[f"fails_count_{x:.3f}"] = int((~ok).sum())
+            d[f"gap_when_fails_p50_p95_max_{x:.3f}"] = ([float(np.median(gap)), float(np.percentile(gap, 95)),
+                                                        float(gap.max())] if gap.size else [0.0, 0.0, 0.0])
+        ratio = pot / contribution
+        d["pot_over_contribution_p5_p50_p95"] = q(ratio)
+        d["largest_stronger_twd_covered_19_in_20"] = float(np.percentile(ratio, 5))   # in "x% more US dollars"
+        d["largest_covered_19_in_20_as_ntd_per_usd_fall"] = float(1 - 1 / (1 + np.percentile(ratio, 5)))
+        # the same pot against an overrun allowance of x% of the contribution (Q5's early-stage norms, illustration only)
+        d["covers_share_of_contribution"] = {f"{x:.2f}": float((pot >= contribution * x).mean()) for x in SHARES_OF_CONTRIB}
+        o[name] = d
     return o
 
 
 Hh = P.history(c, margin=MARGIN, margin_fn=C.margin_fn(NAME))
 Hh_top_stated = C.rule(Hh)["top"]
-tw = {"house": twd_test(H["kept33"], H["top"], "house model, 200,000 paths", Ht),
-      "history_rates_at_forwards": twd_test(Hh["kept33"], Hh["top"], "US stocks every window since 1871, rates at forwards",
-                                            Hh_top_stated),
-      "joint_replay": twd_test(J["kept33"], J["gift_realised"], "joint replay 1962-2010 starts (realised gift)",
+H_contrib = np.minimum(H["top"], Ht)                     # the house model's funds pay = H["top"] (model, at the path's rates)
+Hh_contrib = np.minimum(Hh["top"], Hh_top_stated)
+tw = {"house": twd_test(H["kept33"], H_contrib, H["top"] - H_contrib, "house model, 200,000 paths", Ht),
+      "history_rates_at_forwards": twd_test(Hh["kept33"], Hh_contrib, Hh["top"] - Hh_contrib,
+                                            "US stocks every window since 1871 (1,770), rates at forwards", Hh_top_stated),
+      "joint_replay": twd_test(J["kept33"], J["gift_capped"], J["excess"],
+                               "joint replay 1962-2010 starts (585; funds pay as realised on each window's rates)",
                                J["top_stated"])}
 out["kept_half_on_meeting_day_2031"] = {"central": float(cen["vt31"] / 2), "house_p5_p50_p95": q(H["vt31"] / 2),
                                         "history_p5_p50_p95": q(Hh["vt31"] / 2), "joint_p5_p50_p95": q(J["vt31"] / 2),
                                         "note": "equal to the moved half on that day, before it is moved"}
-# the real Taiwan dollar, paired with the same months' shares (rates at forwards), meeting (s+36) to gift (s+60)
+# the real Taiwan dollar (Fed H.10 monthly, mirror), paired with the same months' US shares (rates at forwards): the move
+# from the meetings (VT purchase + 36 months, Jan 2031) to the gift (+60 months, Jan 2033), on the same contribution
 fx = {r["Date"][:7]: float(r["TWD_per_USD"]) for r in csv.DictReader(open(TWD))}
 w_hist = P.shiller_windows()
-kk, gg, cost, st_fx = [], [], [], []
+sel, cost, st_fx = [], [], []
 for i, (st, _, _) in enumerate(w_hist):
     j0 = kpos[st]
     if j0 + 60 < len(keys) and keys[j0 + 36] in fx and keys[j0 + 60] in fx and st >= "1983-10":
-        kk.append(Hh["kept33"][i])
-        gg.append(Hh["top"][i])
-        cost.append(fx[keys[j0 + 36]] / fx[keys[j0 + 60]] - 1)   # extra US$ per fixed NT$ budget
+        sel.append(i)
+        cost.append(fx[keys[j0 + 36]] / fx[keys[j0 + 60]] - 1)   # extra US$ per fixed NT$ budget (+ = Taiwan dollar stronger)
         st_fx.append(st)
-kk, gg, cost = np.array(kk), np.array(gg), np.array(cost)
-okfx = kk >= gg * np.maximum(cost, 0)
-tw["real_twd_with_same_months_shares"] = {
-    "windows": int(kk.size), "first_vt_purchase": st_fx[0], "last_vt_purchase": st_fx[-1],
-    "twd_cost_change_p5_p50_p95": q(cost), "share_twd_stronger_by_10pct_or_more": float((cost >= 0.10).mean()),
-    "kept_covers_actual_move": float(okfx.mean()),
-    "worst_uncovered": (float(np.max(gg * cost - kk)), st_fx[int(np.argmax(gg * cost - kk))]),
-    "corr_twd_cost_vs_shares_2031_2033": float(np.corrcoef(cost, np.log([b for (s, a, b) in w_hist if s in set(st_fx)]))[0, 1]),
-}
-# the gift in Taiwan dollars and in 2027 money (NUMBERS 8d inputs)
-gifts = {"central_floor_plus_moved": float(cen["top"]), "stated_bottom": float(cen["bottom_stated"]),
-         "stated_top_corrected": float(cen["top_stated"])}
-tw["gift_terms"] = {}
+sel, cost = np.array(sel), np.array(cost)
+kk, cc, ee = Hh["kept33"][sel], Hh_contrib[sel], (Hh["top"] - Hh_contrib)[sel]
+rt = {"windows": int(sel.size), "first_vt_purchase": st_fx[0], "last_vt_purchase": st_fx[-1],
+      "meeting_to_gift": "VT purchase + 36 months to + 60 months (Jan 2031 to Jan 2033 in the plan)",
+      "gift_used": "the 2033 contribution after the cap (history model, rates at forwards)",
+      "contribution_p5_p50_p95": qs(cc),
+      "twd_cost_change_p5_p50_p95": q(cost), "twd_cost_change_max_and_start": [float(cost.max()), st_fx[int(np.argmax(cost))]],
+      "share_twd_stronger_by_10pct_or_more": float((cost >= 0.10).mean()),
+      "share_twd_stronger_at_all": float((cost > 0).mean()),
+      "corr_twd_cost_vs_shares_2031_2033": float(np.corrcoef(cost, np.log(np.array([w_hist[i][2] for i in sel])))[0, 1])}
+for name, pot in (("kept_half", kk), ("kept_half_plus_excess", kk + ee)):
+    need = cc * np.maximum(cost, 0.0)
+    gap = need - pot
+    bad = gap > 0
+    rt[name] = {"covers_actual_move": float((~bad).mean()), "fails_count": int(bad.sum()),
+                "fails_starts": [s for s, b in zip(st_fx, bad) if b],
+                "gap_when_fails_p50_max": ([float(np.median(gap[bad])), float(gap[bad].max())] if bad.any() else [0.0, 0.0]),
+                "worst_uncovered": [float(gap.max()), st_fx[int(np.argmax(gap))]]}
+tw["real_twd_with_same_months_shares"] = rt
+# the contribution and the stated range in other money, on NUMBERS 8d's conventions (numbers/inflation_inputs.json;
+# US dollars of 1 Jan 2027 over 6 years; NT$ of today's building from the Sep 2026 index, 6.17 years, as real_values.py)
+_inf = json.load(open(HERE / "inflation_inputs.json"))
+_us = [_inf["us"][k] for k in ("low", "central", "high")]
+_tc = [_inf["taiwan_construction"][k] for k in ("low", "central", "high")]
+_fx0, _fxs = _inf["usdtwd"]["latest"], min(_inf["usdtwd"]["range_10y"])
+_yrs_tw = 2033 - 2026 - (10 / 12)
+gifts = {"contribution_central": float(np.minimum(cen["top"], cen["top_stated"])),
+         "stated_bottom_central": float(cen["bottom_stated"]), "stated_top_central": float(cen["top_stated"]),
+         "funds_pay_central_before_cap": float(cen["top"])}
+tw["gift_terms"] = {"conventions": {"usdtwd_6nov": _fx0, "strongest_10y": _fxs, "us_inflation_low_central_high": _us,
+                                    "tw_building_costs_low_central_high": _tc, "tw_years_from_sep_2026_index": _yrs_tw,
+                                    "note": "8d's conventions; the contribution is the stated top centrally"}}
 for lab, g in gifts.items():
     tw["gift_terms"][lab] = {
-        "usd_2033": g,
-        "ntd_m_2033_at_32_768": g * 32.768 / 1e6, "ntd_m_2033_at_27_52": g * 27.52 / 1e6,
-        "ntd_m_2033_10pct_stronger": g * 32.768 / 1.10 / 1e6,
-        "in_jan2027_us_dollars_at_1_9_2_4_3_5": [g / (1 + r) ** 6 for r in (0.019, 0.024, 0.035)],
-        "ntd_m_in_jan2027_building_costs_at_1_5_3_0_5_0": [g * 32.768 / (1 + r) ** 6 / 1e6 for r in (0.015, 0.03, 0.05)],
+        "usd_paid_dec_2032": g,
+        "ntd_m_at_32_768": g * _fx0 / 1e6, "ntd_m_at_strongest_10y": g * _fxs / 1e6,
+        "ntd_m_if_twd_10pct_stronger": g * _fx0 / 1.10 / 1e6,
+        "in_jan2027_us_dollars_low_central_high": [g / (1 + r) ** 6 for r in _us],
+        "ntd_m_of_todays_building_low_central_high_cost_growth": [g * _fx0 / (1 + r) ** _yrs_tw / 1e6 for r in _tc],
         "extra_usd_for_10pct_stronger_twd": g * 0.10,
+        "extra_usd_at_strongest_10y": g * (_fx0 / _fxs - 1),
     }
 out["twd_test"] = tw
+
+# ---------------------------------------------------------------- 6b. what returns to Laura (Tue 10 Nov evening, NUMBERS 8k)
+# Three parts, each in 1 Jan 2033 money at the world's own rates: the backstop's money left after the 2042 payment
+# (completion.in_2033_money), the excess the cap sends back (paid about 15 Dec 2032, carried 17 days at the world's own
+# rate), and the half kept (VT on 1 Jan 2033). Promised money: the ten payments' value on 1 Jan 2033 at the world's own
+# rates, plus the contribution (15 Dec 2032, carried the same 17 days).
+def _ret(back, exc, kept, pay33, contr33):
+    tot = back + exc + kept
+    return {"backstop_left_p5_p50_p95": q(back), "excess_p5_p50_p95": q(exc), "half_kept_p5_p50_p95": q(kept),
+            "total_p5_p50_p95": q(tot), "total_p1_min": [float(np.percentile(tot, 1)), float(tot.min())],
+            "share_returned_of_all_money_p5_p50_p95": q(tot / (tot + pay33 + contr33)),
+            "promised_p5_p50_p95": q(pay33 + contr33)}
+
+
+fw = sc["forwards"]
+g_fw = base.grow(END, E.J33)
+pay33_fw = sum(E.PAYMENT * c.P(date(y, 1, 1)) / c.P(E.J33) for y in E.YEARS)
+ret_fw = {"backstop_left_jan2033": fw["overflow_jan2033_value"], "backstop_left_nominal_1jan2042": fw["overflow_nominal"],
+          "excess_paid_dec2032": fw["excess_to_kept_half"], "excess_jan2033": fw["excess_to_kept_half"] * g_fw,
+          "half_kept_jan2033": fw["kept_half_jan2033"],
+          "total_excess_at_face": fw["overflow_jan2033_value"] + fw["excess_to_kept_half"] + fw["kept_half_jan2033"],
+          "total_jan2033": fw["overflow_jan2033_value"] + fw["excess_to_kept_half"] * g_fw + fw["kept_half_jan2033"],
+          "contribution_paid_dec2032": fw["gift_realised"], "contribution_jan2033": fw["gift_realised"] * g_fw,
+          "payments_value_jan2033": pay33_fw, "carry_15dec2032_to_1jan2033": g_fw}
+ret_fw["promised_jan2033"] = ret_fw["payments_value_jan2033"] + ret_fw["contribution_jan2033"]
+ret_fw["share_returned"] = ret_fw["total_jan2033"] / (ret_fw["total_jan2033"] + ret_fw["promised_jan2033"])
+ret_fw["total_in_jan2027_money"] = ret_fw["total_jan2033"] * c.P(E.J33)
+out["returns_to_laura"] = {
+    "forwards": ret_fw,
+    "joint_replay": dict(_ret(A["overflow_jan2033_value"], J["excess"] * A["g_end_j33"], J["kept33"], A["pay33"],
+                              J["gift_capped"] * A["g_end_j33"]), windows=n,
+                         note="each part's percentiles are its own; the total's are of the per-window sums"),
+}
+_tot = A["overflow_jan2033_value"] + J["excess"] * A["g_end_j33"] + J["kept33"]
+out["returns_to_laura"]["joint_replay"]["lowest_total_window"] = window(int(np.argmin(_tot)))
+out["returns_to_laura"]["joint_replay"]["lowest_total"] = float(_tot.min())
+out["returns_to_laura"]["joint_replay"]["share_total_under_25k_50k"] = [float((_tot < 25_000).mean()),
+                                                                       float((_tot < 50_000).mean())]
+out["returns_to_laura"]["joint_replay"]["corr_backstop_left_vs_half_kept"] = float(
+    np.corrcoef(A["overflow_jan2033_value"], J["kept33"])[0, 1])
 
 # ---------------------------------------------------------------- 7. liquidity: when each payment's cash arrives
 liq = []
@@ -601,5 +688,9 @@ for lab, r in sc.items():
           f"top {k(r['top_stated'])} gift {k(r['gift_realised'])} kept {k(r['kept_half_jan2033'])} "
           f"compl {k(r['completion_jan2028'])} gift2027$ {k(r['gift_in_2027_us_dollars'])} NT$m(2027 build) {r['gift_ntd_m_in_jan2027_building_costs']:.2f}")
 for lab, r in tw.items():
-    print(" TWD", lab, json.dumps(r, default=float)[:1200])
+    print(" TWD", lab, json.dumps(r, default=float))
+print(" RETURNS forwards", json.dumps(out["returns_to_laura"]["forwards"], default=float))
+print(" RETURNS joint", json.dumps({a: b for a, b in out["returns_to_laura"]["joint_replay"].items()
+                                    if a != "lowest_total_window"}, default=float))
+print(" RETURNS lowest window", json.dumps(out["returns_to_laura"]["joint_replay"]["lowest_total_window"], default=float))
 print(" kept half on 2031 meeting day", json.dumps(out["kept_half_on_meeting_day_2031"], default=float))

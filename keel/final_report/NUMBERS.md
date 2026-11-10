@@ -13,6 +13,11 @@ submitted. These are research notes, not report text.
   - **Keel's reading of "most" (finding 2).** The floor gets the larger of 73.3% of what is left and $75,001 (section 4).
   - **Smaller items.** The escrow release counts coupons waiting in the ETF at their value that day (finding 4). Money left after 2042 is put into 2033 money at each world's own rates (finding 5). Wording items 6 to 12 are applied.
 - **Re-run:** sections 2, 3, 4 and 5, and 8a, 8b, 8c, 8d, 8f, 8h and 8i. **Unchanged:** section 1, 8e and 8g. Section 0 gains rows. Section 6 lists every figure now void, this morning's included, and section 10 lists the files that still quote one.
+- **Evening (numbers owner).** Two sections added; nothing is re-sized and no earlier figure moves.
+  - **8j, the Taiwan dollar test,** re-run on section 4's one definition of the gift (the 2033 contribution after the cap). The half kept alone covers a 10% stronger Taiwan dollar in 93.2% of house paths; with the excess the cap sends to it, in 99.77%; on the real Taiwan dollar since 1983, in 98.1% and 99.8% of windows.
+  - **8k, what returns to Laura:** $75,298 in 1 Jan 2033 money at today's forwards (the backstop's $45,456, the excess $8,476, the half kept $21,347), 12.8% of all the money. A second calculation by value conservation (`numbers/returns_check.py`) agrees to $1.48.
+  - Two loose lines fixed: 8g's VT share (6.63% of the $450,000, not 7.45%) and section 3's fee, now with its money year.
+  - `joint_stress` re-run: only its `twd_test` block changed, and it gains `returns_to_laura`; every other figure in it is identical.
 - **The headline now:**
   - completion **$38,282** in January 2028; floor payout **$103,178**;
   - central range **$95,000 to $115,000** (unrounded $98,729 to $118,443); contribution **$115,000**; excess **$8,476**; half kept **$21,347**;
@@ -27,9 +32,10 @@ submitted. These are research notes, not report text.
   - `engine.py`: the curve, the instruments and reinvestment;
   - `plan.py`: 2027 to 2033, with Keel's reading of "most";
   - `completion.py`: the completion standard (with the fee cushion) and the range rule (on the fund's holdings), which every script reads from here;
-  - `run_numbers.py`: sections 1 to 5.
-- **Results.** `numbers/results_2026-11-10.json`, plus `results_reserve_`, `results_range_rule_`, `results_joint_stress_`, `results_kept_half_`, `results_extras_` and `results_real_2026-11-10.json`, all rewritten Tue 10 Nov afternoon. The Mon 9 Nov files (`results_2026-11-06.json` and the undated `results_*.json`) are kept as the record of the old call.
-- **Rerun.** From the repo root, run `python3 -I keel/final_report/numbers/<script>.py` for `run_numbers`, `reserve`, `range_rule`, `joint_stress`, `kept_half`, `extras` and `real_values`, in that order. Each needs only numpy; `extras` takes about two minutes, the others under a minute.
+  - `run_numbers.py`: sections 1 to 5;
+  - `returns_check.py` (Tue 10 Nov evening): the independent check of 8k.
+- **Results.** `numbers/results_2026-11-10.json`, plus `results_reserve_`, `results_range_rule_`, `results_joint_stress_`, `results_kept_half_`, `results_extras_` and `results_real_2026-11-10.json`, all rewritten Tue 10 Nov afternoon (`results_joint_stress_` again in the evening, 8j and 8k), and `results_returns_2026-11-10.json` (evening). The Mon 9 Nov files (`results_2026-11-06.json` and the undated `results_*.json`) are kept as the record of the old call.
+- **Rerun.** From the repo root, run `python3 -I keel/final_report/numbers/<script>.py` for `run_numbers`, `reserve`, `range_rule`, `joint_stress`, `returns_check`, `kept_half`, `extras` and `real_values`, in that order. Each needs only numpy; `extras` takes about two minutes, the others under a minute.
   - Adding `--design KEEL` to any of the first six reproduces Mon 9 Nov's standard on the same code and writes `*_KEEL.json`.
   - `pooled.py` (card Q20) is the record of the comparison at 0%, with the old fixed deductions.
 
@@ -185,7 +191,7 @@ nothing; these costs are sized at exactly 0%, so the call is compared at its 0% 
 | IBTQ (2036) | $245 | 5.4 | $781 (1.6%) |
 | IBTR (2037) | $266 | 7.4 | $1,043 (2.1%) |
 
-- The fee is already in the engine's $302,287, at $1,098 across the five funds.
+- The fee is already in the engine's $302,287. Across the five funds it is $1,098 in the money of each payment year (the column above), or $743 in 1 Jan 2027 money: $302,287 against the payments' $301,544, since the T-bonds carry no fee (checked in `numbers/returns_check.py`, Tue 10 Nov evening).
 - What is left is the cash wait. In its final months a fund holds cash, and that cash earns whatever short rates are then. This is why the payout "is not fixed" (TNA note 2): it moves by up to about 2%.
 - The floor fund has the same feature. On its own holdings (section 0), measured from the day it is bought (January 2028 at today's forwards), its payout falls by 3.83% if every distribution and its final cash earn nothing; for money moved into it in 2031, by 2.38%.
 
@@ -473,6 +479,9 @@ Exact figures, with the instruments re-sized on each shifted curve. Smallest 202
 | 8h: reserve $443,375, 111.1%, run-down 112.7% to 244.4%; composition with IBTM's $50,000 among iBond ETFs ($230,646, 52.0%); backstop $332 ... $6,013 and $10,496; left $24,040 ($14,743) at 3 points lower; release $10,496 / $1,549 / $1,549 ... $56,994 | 8h | 8h |
 | 8i: every row, including rates 3 points lower $80,000 ($80,003) to $95,000 ($97,269), floor $79,864 at zero interest; left after 2042 $44,286 / $14,743 / $6,351 / $10,797 / $75,717 at today's forwards; joint half kept $13,972 / $24,024 / $42,366, left $13,580 / $42,510 / $100,618; lowest bottom $70,000 (Dec 2007); Jan 2008 $70,000 to $90,000 (completion $53,684); Jul 2007 $99,292 against $98,015 | 8i | 8i |
 | The reserve JSON key `margin_value_1jan2033_at_forwards` = $44,316 (the backstop's cost carried, ignoring the funds' fee) | `numbers/results_reserve_2026-11-10.json`, morning | The key now holds $45,456 (reserve before the payment less the own rungs); the cost carried is kept as `margin_cost_carried_to_1jan2033_at_forwards` ($45,487) |
+| **Voided Tue 10 Nov evening (8j):** | | |
+| Taiwan dollar test, half kept alone: 90.9% of house paths (median gap $1,583; 8.8% covered 19 in 20), history 96.5%, joint 97.4%; stricter reading 85.7% / 94.9% / 93.8%; real currency 97.1% (worst $8,942) | `twd_test` in this afternoon's `results_joint_stress_2026-11-10.json` (never in the register; quoted in the evening brief). It divided by what the funds pay before the cap | 8j, on the contribution after the cap: 93.2% ($1,407; 9.4%), 96.9%, 99.3%; stricter 89.1% / 96.0% / 97.3%; real currency 98.1% (worst $7,312). The 99.77% with the excess stands |
+| Mon 9 Nov's Taiwan dollar test: 93.0%, "1 in 14", $1,590, 99.97% with the cap rule, real currency 97.1% (worst $10,048), and the gift in NT$ ($138,735 = NT$4.55m) | Card Q24 verdict 3, rows 22-25, card 4 | 8j (section 10 lists the lines) |
 
 ## 7. Limits of these numbers
 - **The reinvestment history** uses 1-year yields in proportion. That is harsh on windows starting at high rates, and it is only 585 overlapping windows, roughly four independent rate eras. A design that passes at 0% passes it anyway.
@@ -593,7 +602,7 @@ Sources and bands in `research/cards/Q10_inflation_inputs.md` (all read 9 Nov 20
 | The $95,000-$115,000 range (paid 2033) in 1 Jan 2027 dollars | $84,855-$102,719 | $82,399-$99,747 | $77,283-$93,553 |
 
 - **In Taiwan building terms,** the range buys NT$2.59m-NT$3.14m of today's construction at 3% cost growth (NT$2.84m-3.44m at 1.5%, NT$2.30m-2.79m at 5%).
-- **If the Taiwan dollar went back to its ten-year strongest (27.52),** Laura would need $18,116-$21,930 more to buy the same NT$ budget. That is about the whole half kept in the middle case ($21,347), and within the half kept plus the excess ($29,823, section 4).
+- **If the Taiwan dollar went back to its ten-year strongest (27.52),** Laura would need $18,116-$21,930 more to buy the same NT$ budget. That is about the whole half kept in the middle case ($21,347), and within the half kept plus the excess ($29,823, section 4). 8j tests the half kept against a 10% stronger Taiwan dollar and against the real currency since 1983.
 
 What it shows: the ten payments are fixed in dollars by the case, so inflation cannot make them fail; it decides what
 they buy. At 2.4% the 2042 payment buys about 70% of what $50,000 buys today. The facility money is exposed twice, to
@@ -706,8 +715,9 @@ so these are the final holdings. Not a model.
 - **The rival reading,** each holding's weight at the final market value times $300,000 (accrued interest left out),
   moves no security by more than 0.25 points at 23 Oct prices (VT 8.59% instead of 8.84%) and cash by 0.02 (1.15% instead of 1.17%; the rival reading has no costs row),
   and would need the final export; Caplet may switch to it.
-- **The book was built before the margin (card Q17 I5).** VT is 8.84% of the frozen book but 7.45% of the $450,000 in the
-  plan with Keel's margin (section 4: $33,515). Section 2 never says the frozen weights equal the plan with the margin.
+- **The book was built before the completion standard (card Q17 I5).** VT is 8.84% of the frozen book but 6.63% of the
+  $450,000 in the plan on the escrow standard (section 4: $29,829 in January 2028; Tue 10 Nov evening, replacing the void
+  7.45% of section 6). Section 2 never says the frozen weights equal the plan.
 - **What the table must not be read as:** the WInS book is Laura's whole plan in miniature (the ladder rungs, the
   late-2032 floor stand-in inside IBTM, and VT), not her January 2027 purchase alone. Section 2's text explains this
   once; the evidence is in `CANON.md` and the 23 Oct snapshot's "Pays for" column.
@@ -853,15 +863,153 @@ Added Tue 10 Nov; re-run in the afternoon. This is the plan under the escrow sta
 - **Other named windows:** Jan 2000, $90,000 to $100,000; Jan 2008, $75,000 to $90,000 (completion $55,006, "most" binds); Jan 1973, $105,000 to $125,000.
 - **Two figures for the Jul 2007 window.** `range_rule.py` gives $98,386 for what the funds pay there, against $97,117 here. There, the funds' final months follow today's forwards; here, they follow the window's own rates. Exhibit 3 uses this table.
 
+### 8j. The Taiwan dollar test on the Tue 10 Nov register (`numbers/joint_stress.py`, block `twd_test` of `numbers/results_joint_stress_2026-11-10.json`). MODEL
+Added Tue 10 Nov evening. Design H_plain with the fee cushion, the range rule on the fund's holdings, Keel's reading of
+"most" (sections 2 to 4). It replaces card Q24's Mon 9 Nov test (verdict 3), whose figures are void (section 10).
+- **The question** (bond desk, card Q24 claim 3). The contribution is fixed in US dollars at the 2031 meetings and is
+  spent in Taiwan dollars from December 2032. If the Taiwan dollar strengthens in between, the same NT$ budget needs
+  more US dollars. Does the money that comes back to Laura in 2033 cover that extra?
+- **Which gift.** Every test uses the 2033 contribution after the cap: the lower of what the floor and the moved half
+  pay and the stated top (section 4, "One definition, used everywhere"). In every house path, history window and joint
+  window the funds pay at least the stated top, so the contribution equals the stated top: $115,000 centrally; house
+  $95,000 / $115,000 / $140,000. It is never what the funds pay before the cap ($123,476 centrally).
+  - This afternoon's JSON divided the half kept by what the funds pay before the cap. That gave the 90.9% the evening
+    brief quoted; on the contribution it is 93.2%. Its 99.77% with the excess was already on the contribution.
+- **"10% stronger"** means 10% more US dollars for the same NT$ budget, 8d's convention (NT$ per US$ from 32.768 to
+  32.768 / 1.10 = 29.79). The stricter reading, NT$ per US$ down 10% (to 29.49), needs 11.1% more and is shown beside it.
+- **Two pots.** The half kept alone (VT's market value on 1 Jan 2033, MODEL). And the half kept plus the excess the cap sends to it (paid on
+  or about 15 Dec 2032, counted at face as in section 4). The need is 10% of the contribution, in December 2032 money; every gap below is the
+  need less the pot, at face, in the same money.
+
+| Test (gift = the contribution after the cap) | House model (200,000 paths, seed 2033) | US stock history (1,770 windows since 1871; rates at today's forwards) | Joint replay (585 windows, 1962-2010 starts; each on its own rates) |
+|---|---|---|---|
+| **Half kept alone covers a 10% stronger Taiwan dollar** | **93.2%** (fails in 13,618 paths, about 1 in 15) | **96.9%** (fails in 54) | **99.3%** (fails in 4) |
+| Gap when it fails: median (95th percentile of the gaps / largest) | $1,407 ($4,553 / $8,500) | $1,795 ($4,860 / $5,756) | $746 (largest $1,022) |
+| Largest move covered 19 in 20 (more US dollars needed) | 9.4% (NT$ per US$ down to 29.96) | 11.8% | 11.6% |
+| Stricter reading (11.1% more): covered / median gap | 89.1% / $1,699 | 96.0% / $2,513 | 97.3% / $1,170 |
+| **Half kept plus the excess covers a 10% stronger Taiwan dollar** | **99.77%** (fails in 467 paths, about 1 in 430) | **100%** | **100%** |
+| Gap when it fails: median (largest) | $1,280 ($6,083) | none | none |
+| Largest move covered 19 in 20 | 15.6% (NT$ per US$ down to 28.34) | 17.5% | 17.6% |
+| Stricter reading: covered | 99.56% | 100% | 100% |
+| The half kept, 1 Jan 2033: 1-in-20 low / median / 1-in-20 high | $9,881 / $20,739 / $41,258 | $13,238 / $23,481 / $40,607 | $13,874 / $23,601 / $42,015 |
+| The half kept plus the excess: the same | $16,193 / $28,541 / $49,924 | $20,019 / $30,902 / $48,399 | $19,690 / $31,809 / $49,629 |
+| Against an overrun allowance of 13% / 17% of the contribution (Q5's early-stage norms; an illustration, never a cost estimate): half kept alone | 79.7% / 54.9% | 90.1% / 67.0% | 87.5% / 67.7% |
+| The same, half kept plus the excess | 98.7% / 91.0% | 99.4% / 95.8% | 100% / 96.8% |
+
+- **Central case** (today's forwards, VT 7.5% a year). A 10% stronger Taiwan dollar on $115,000 needs $11,500 more in
+  December 2032. The half kept ($21,347) covers it 1.9 times; with the excess ($29,823), 2.6 times. At the ten-year
+  strongest rate (27.52, 19.1% more US dollars) the need is $21,930: the half kept alone is $583 short, and with the
+  excess it is covered with $7,893 to spare (8d).
+- **On the real Taiwan dollar** (Fed H.10 monthly, Oct 1983 to Sep 2026, the repo mirror
+  `keel/models/data/twd_per_usd_monthly.csv`, UNVERIFIED against FRED; US stocks from the same months; rates at today's
+  forwards). 417 windows, VT bought Oct 1983 to Jun 2018. The move is measured from the meetings (36 months after VT is
+  bought; Jan 2031 in the plan) to the gift (60 months; Jan 2033), on each window's contribution after the cap ($110,000 /
+  $120,000 / $130,000, 1-in-20 low / median / high).
+  - The two-year move, in US dollars needed: 1-in-20 -12.7% (Taiwan dollar weaker), median +0.1%, 1-in-20 +13.7%; the
+    largest +29.4% (VT bought Nov 1983: the 1986-1988 appreciation). It moved 10% or more against Laura in 11.0% of
+    windows, and against her at all in 51.1%.
+  - **The half kept alone covered the actual move in 98.1% of windows** (fails in 8: VT bought Oct 1983 to Mar 1984,
+    and Feb and Mar 2006). Median gap when it fails $1,833; largest $7,312 (Nov 1983).
+  - **With the excess: 99.8%** (fails in 1: Nov 1983, $1,755 short).
+  - The move's correlation with shares over the same two years: +0.09, close to none.
+- **The contribution in other money** (block `gift_terms`, on 8d's conventions; agrees with 8d to the dollar): the
+  central $115,000, paid December 2032, is NT$3.77m at 32.768, NT$3.43m if the Taiwan dollar is 10% stronger, and
+  NT$3.16m at 27.52. It is $99,747 in 1 Jan 2027 US dollars at 2.4% inflation, and NT$3.14m of today's building at 3%.
+
+What it shows:
+- **On the register's own definitions, "19 in 20" holds for the half kept alone on history and in the joint replay,
+  but not in the house model** (93.2%: about 1 path in 15 fails, by about $1,400 at the median). The house model is the
+  harshest mainly because its shares grow more slowly: a median 7.5% a year against about 9.6% in the US history windows
+  (Keel arithmetic on the same Shiller series; the spreads are close, 17.88% against about 16-18%). It also moves yields
+  before 2028, so "most" squeezes VT in 16.9% of its paths.
+- **Counting the excess, it fails in about 1 house path in 430 and in no history or joint window.** The excess is
+  Treasury money, fixed once the half is moved in 2031, so the weaker part of the pot is always the half kept.
+- **On the real currency since 1983, 98 windows in 100 for the half kept alone, and all but one with the excess.** The
+  one failure is the 1986-1988 appreciation, the largest two-year move in the series.
+- **The test is about one use of the pot only.** The IPS names three (l.15: overruns, a stronger Taiwan dollar, a
+  co-sponsor falling short); the overrun rows show how fast the pot is used when they come together.
+
+### 8k. What returns to Laura (`numbers/joint_stress.py`, block `returns_to_laura`; checked by `numbers/returns_check.py`, `numbers/results_returns_2026-11-10.json`). MODEL
+Added Tue 10 Nov evening for part 3b. Same design as 8j. Three parts come back to Laura; none is promised to anyone.
+
+**At today's forward rates, shares at 7.5% a year:**
+
+| Part | What it is | When it is hers | Amount in its own money | In 1 Jan 2033 money (today's forwards) | Source |
+|---|---|---|---|---|---|
+| The backstop's money | Section 2's backstop, never needed at forwards | After the last payment, 1 Jan 2042; or year by year under an escrow release (8h; Keel's reading, not in the IPS) | $74,123 on 1 Jan 2042 (or $58,603 released 2033-2042, nominal; $8,813 on 1 Jan 2033) | $45,456 | 8h; `results_reserve_2026-11-10.json` |
+| The excess | What the floor and the moved half pay above the stated top (the cap, CANON D12) | When the funds pay, on or about 15 Dec 2032 | $8,476 on 15 Dec 2032 | $8,495 | Section 4 |
+| The half kept | Half of VT, promised to no one (IPS l.15) | Always; she can sell it any trading day | $21,347 on 1 Jan 2033 (a market value at the central 7.5%) | $21,347 | Section 4 |
+| **Total** | | | | **$75,298** | `returns_to_laura.forwards` |
+
+- Counting the excess at face (17 days early), as section 4 does: $75,278; the rounded parts add to $75,279.
+- In 1 Jan 2027 money: $56,894.
+- **Two kinds of money, not one** (card Q25, Tue 10 Nov evening): the backstop's money is $45,456, 60.4% of what
+  returns; it is the price of the payments' certainty, sized for zero interest, and comes back only because rates held.
+  The flexibility (half kept plus excess) is $29,823, 39.6%. Only the second is money Laura chose not to promise.
+- **What Laura can use in January 2033 is less.** It is the half kept and the excess, $29,823 (section 4). Add the first
+  escrow release, $8,813 on 1 Jan 2033 (8h), if the release is used. The rest of the backstop's money comes back only as
+  the payments no longer need it.
+
+**Where Laura's $450,000 ends, at today's forwards** (1 Jan 2033 money; at forwards the shares are the same in any money year):
+- The two deposits grown at forward rates to 1 Jan 2033 ($300,000 from 1 Jan 2027, $150,000 from 1 Jan 2028): $587,141.
+- **Promised money: $514,357, 87.6% of that.** It is the ten payments, $399,089 (their forward value on 1 Jan 2033;
+  $500,000 nominal, 2033-2042), plus the contribution, $115,268 ($115,000 paid in December 2032).
+- **What returns to Laura: $75,298, 12.8%.**
+- The two add to 100.4%. VT's growth above forward rates ($3,918, net of VT's fee) less every iBond fund's fee ($1,402)
+  adds 0.4%.
+- **Of all the money at the end ($589,655), 87.2% is promised** (payments 67.7%, contribution 19.5%) **and 12.8% returns
+  to Laura.**
+- Do not add nominal dollars across years ($500,000 plus $115,000 against $74,123 plus $8,476 plus $21,347): they fall
+  in different years.
+
+**Across the 585 joint windows** (rates and US stocks from the same months, as 8i). Each part is in 1 Jan 2033 money at
+the window's own rates; the excess is carried 17 days at the window's rate:
+
+| | 1-in-20 low | Median | 1-in-20 high |
+|---|---|---|---|
+| The backstop's money | $18,053 | $43,469 | $84,845 |
+| The excess | $3,526 | $7,698 | $13,196 |
+| The half kept | $13,874 | $23,601 | $42,015 |
+| **Total, each window's sum** | **$40,404** | **$78,584** | **$120,375** |
+| Share of all the money that returns (the rest is the payments and the contribution, at the window's own rates) | 7.0% | 13.3% | 19.1% |
+
+- Each row's percentiles are its own, so the rows do not add.
+- **Lowest total $32,148** (start Mar 2007: rates fall to near zero and VT is bought in March 2008; backstop $14,361,
+  excess $2,325, half kept $15,461). 1-in-100 $33,607. Never under $25,000; under $50,000 in 9.7% of windows.
+- The backstop's money and the half kept barely move together across windows (correlation -0.16), so the total is
+  steadier than its parts.
+- The ten are paid in full in every window (8i); only what comes back varies.
+
+**The check by a different calculation** (`numbers/returns_check.py`; the promise is tested by a calculation other than
+the one that sized it):
+- **Route 1, other files.** The backstop's 1 Jan 2033 value from `reserve.py`'s composition (its holdings and waiting
+  cash that day), $45,456, plus `range_rule.py`'s excess ($8,476) and half kept ($21,347): $75,279 at face, against
+  joint_stress's $75,278. The $0.14 is `range_rule.py`'s rounding to the dollar. Three routes to the backstop's 2033 value
+  agree to the cent: the composition, the ledger run to 2042 and brought back, and the escrow release schedule.
+- **Route 2, value conservation, with no ledger, no reserve and no plan.run.** At forwards every Treasury dollar is
+  bought at a forward price and earns forward rates. So, in 1 Jan 2033 money, what returns = the deposits grown
+  ($587,141) + VT's growth above forwards, net of its fee ($3,918) - the iBond funds' fee on the rungs, the backstop,
+  the floor and the moved half ($1,402) - the payments' forward value ($399,089) - the contribution ($115,268) =
+  **$75,300**.
+- **Difference from joint_stress: $1.48** (0.002%). $1.44 of it is a convention in `plan.py`. The January 2028
+  completion is carried a year at the 2027 forward rate as if 2027 had 365.25 days, so it costs $1.14 more than a
+  forward carry ($38,282.14 against $38,281.00, January 2028 money), and the floor and VT get that much less between them. Left as it is: it moves the
+  completion and the floor money by $1 and nothing a reader sees (section 9).
+
 ## 9. Still to add (later days)
 - **The exhibits are not yet re-built on these figures.** `exhibits/exhibit_data.py` reads 8h (per payment: own holding above $50,000 and backstop cover, now in four worlds), section 4 and 8i (Exhibit 3). Re-run it, then `exhibits/build_exhibits.py`; this register run did not touch them. `exhibit_data.py` should read the backstop's value on 1 Jan 2033 ($45,456), not its cost carried ($45,487).
-- **Cards Q19, Q20 and Q24 refresh to these figures** (section 10).
+- **Cards Q19, Q20 and Q24 refresh to these figures** (section 10). Q24's Taiwan dollar test (verdict 3, rows 22-25, card 4) is replaced by 8j.
+- **8j and 8k were added Tue 10 Nov evening.** Still open from them:
+  - SKELETON 3b's Taiwan dollar sentence was written "to be re-run before use"; it is now re-run (section 10 gives the replacement).
+  - The Taiwan dollar file is a repo mirror (`keel/models/data/twd_per_usd_monthly.csv`), UNVERIFIED against FRED EXTAUS. A later run checks a few months against FRED before 8j's real-currency figures are quoted.
+  - An exhibit for 3b, if one is wanted, reads `returns_to_laura` in `numbers/results_joint_stress_2026-11-10.json`.
+  - `plan.py` carries the January 2028 completion a year as if 2027 had 365.25 days ($1.14 too much; 8k's check). Fix it on the next full re-run, not alone: it moves the completion to $38,281 and the floor money to $81,890 in every file.
 - **Two checks only a student can make:** which Treasury-bill ETF WInS lists, with its fee (section 0; the cushion is sized for 0.15% a year); and IBTM's prospectus wording on what may make the fund pay less than its holdings (section 3).
 - `pooled.py` (card Q20) still compares the designs at exactly 0%, with the old fixed deductions; it is a record, not a source.
 - Later days add what the research rounds and the skeleton ask for.
 
-## 10. Files that still quote a void figure (Tue 10 Nov afternoon; listed, not edited)
-Paths are under `keel/final_report/` unless shown. Each file's owner changes it, using the section named as the replacement. Line numbers are as of Tue 10 Nov afternoon.
+## 10. Files that still quote a void figure (Tue 10 Nov afternoon, with evening rows; listed, not edited)
+Paths are under `keel/final_report/` unless shown. Each file's owner changes it, using the section named as the replacement. Line numbers are as of Tue 10 Nov afternoon; rows marked "(evening)" were added Tue 10 Nov evening for 8j.
 
 **Planning files**
 
@@ -870,6 +1018,7 @@ Paths are under `keel/final_report/` unless shown. Each file's owner changes it,
 | INTENT.md | 36-37 | Reserve "about $427,000" against "$399,000", "about 107% funded" | $444,545 against $399,089, 111.4% funded (8h) |
 | INTENT.md | 43 | Range "about $110,000 to $130,000" | About $95,000 to $115,000 on today's figures (section 4) |
 | SKELETON.md | 40 | 2028 deposit's first "about $24,500"; reserve "$427,000" against "$399,000", "107%" | About $38,300 (section 2); $444,545 against $399,089, 111.4% (8h) |
+| SKELETON.md (evening) | 41 | Taiwan dollar test "about 93 house paths in 100 (97% in the joint history replay)", "about 1 in 14 it does not", "99.97%" with the excess (Mon 9 Nov design, "to be re-run") | On the contribution after the cap (8j): half kept alone 93.2% of house paths (about 1 in 15 fails), 96.9% of history windows, 99.3% of joint windows; with the excess 99.77% (about 1 in 430 fails), 100%, 100%; on the real Taiwan dollar since 1983, 98.1% and 99.8% |
 | CASE_MAP.md | 40 | "Keel's call ... margin $21,149" (Mon 9 Nov settlement) | Escrow standard with the fee cushion: backstop $34,369, cost $336,656 (section 2) |
 | CASE_MAP.md | 57 | Floor "up to 4.1%"; stated bottom "less 4.1%" | The range rule on the fund's holdings, less 0.5%; 4.31% today (section 3) |
 | CASE_MAP.md | 75 | All-Treasury $158,157; 98%; 63% | $140,761 (stated $130,000); 97.6%; 62.8% (section 4) |
@@ -917,13 +1066,19 @@ Paths are under `keel/final_report/` unless shown. Each file's owner changes it,
 | Q23_exhibits_and_format.md | 60, 129 | $427,028 against $500,000 | $444,545 against $500,000 owed, worth $399,089 (8h) |
 | Q23_exhibits_and_format.md | 95 | "$115,929" as an example of a wide figure | Any register figure; no change needed beyond the example |
 | Q24_kept_half_and_joint_stress.md | 10-12, 35, 70, 80, 86, 94-95, 167, 216, 223-224, 244 | Every figure on Mon 9 Nov's design (overflow $27,939, range $110,000 to $130,000, $138,735, $23,986, $12,150 / $23,831 / $46,746, the 4.1% / 2.6% / 2.5% deductions, the matrix) | 8f and 8i |
+| Q24_kept_half_and_joint_stress.md (evening) | 55-59, 155-157, 162-164, 205-207 | Taiwan dollar test on Mon 9 Nov's design, gift = what the funds pay: house 93.0% ("1 in 14", median gap $1,590), 9.4% covered 19 in 20, history 96.5%, joint 97.4%, real currency 97.1% (worst $10,048, Nov 1983), cap rule 99.97%, "about 93 to 97 of 100" | 8j, gift = the contribution after the cap: house 93.2% (about 1 in 15; median gap $1,407), 9.4% covered 19 in 20, history 96.9%, joint 99.3%; real currency 98.1% (worst $7,312, Nov 1983); with the excess 99.77% house, 100% history and joint, 99.8% real currency |
+| Q24_kept_half_and_joint_stress.md (evening) | 91 (row 22) | Stricter reading 88.4% / 94.9% / 93.8%; 19 in 20: 9.4% (house), 11.0% (history) | 8j: 89.1% / 96.0% / 97.3%; 19 in 20: 9.4% (house), 11.8% (history), 11.6% (joint) |
+| Q24_kept_half_and_joint_stress.md (evening) | 92 (row 23) | Real Taiwan dollar: kept half covered 97.1%; worst $10,048 | 8j: 98.1% (fails in 8 of 417 windows), worst $7,312 (Nov 1983); 99.8% with the excess (fails in 1, $1,755). The move's distribution (-12.7% / +0.1% / +13.7%), 11.0% of windows at 10% or more and the +0.09 correlation are unchanged |
+| Q24_kept_half_and_joint_stress.md (evening) | 93 (row 24), 246-248 | Cap-rule pot $19,295 / $31,727 / $55,242; surplus median $7,860; 10% covered 99.97%; 13% in 99.2% (history 98.9%), 17% in 91.3% (95.1%); kept half alone 13% in 77.9% (86.0%), 17% in 51.4% (60.6%); "93-97 of 100", "78-86", "99.97 and 99 of 100" | 8j: half kept plus excess $16,193 / $28,541 / $49,924 (house); excess median $7,629 (section 4); 10% covered 99.77%; 13% in 98.7% (history 99.4%), 17% in 91.0% (95.8%); kept half alone 13% in 79.7% (90.1%), 17% in 54.9% (67.0%) |
+| Q24_kept_half_and_joint_stress.md (evening) | 94 (row 25) | The gift in other money: $138,735 = NT$4.55m, NT$4.13m, NT$3.82m; $120,334 in 2027 dollars; stated $110,000-$130,000 = NT$3.60m-4.26m | 8j and 8d: the contribution $115,000 = NT$3.77m at 32.768, NT$3.43m 10% stronger, NT$3.16m at 27.52; $99,747 in 1 Jan 2027 dollars at 2.4%; NT$3.14m of today's building at 3%; the range $95,000-$115,000 as 8d |
 
 False positives, not void: 25.94%, 36.55% and other S&P 500 years (Q1 l.17, 51, 67, 122, 191; Q1b l.23, 104, 121; Q1c l.23, 31, 59, 137; Q4b l.23, 136, 245, 268; Q12 l.20; Q12b l.23; Q21 l.85, 90, 200); a 4.1% grant cut (Q4b l.131); "107" inside URLs (Q5 l.105; Q9 l.83, 88); 1.94% inflation (Q10 l.32); 8.94% (Q6 l.76); $111k residency budgets and $171k bucket figures (H8 l.22, H9 l.130).
 
 **Dated records** (left as they stand; any new entry uses this register):
 - the panels in `research/panel/` (4 files, 37 lines), including the bond desk check itself, which quotes this morning's figures on purpose;
-- the insight store `research/store/` (16 files, 266 lines): `insights.jsonl`, `VOID_CHECK_2026-11-09.md` and the tag pages CERTAINTY, CEILING, COMPLETE2028, COSPONSOR, FLOOR, HALFKEPT, INFLATION_TWD, LIQUIDITY, MOVE2031, OTHER, PROCESS, RESERVE2033 and RESIDENCY. Several carry this morning's 4.14% / 2.45% / $33,461 from the Q19 and Q20 rows, so a store refresh adds superseding entries rather than editing old ones;
+- the insight store `research/store/` (16 files, 266 lines): `insights.jsonl`, `VOID_CHECK_2026-11-09.md` and the tag pages CERTAINTY, CEILING, COMPLETE2028, COSPONSOR, FLOOR, HALFKEPT, INFLATION_TWD, LIQUIDITY, MOVE2031, OTHER, PROCESS, RESERVE2033 and RESIDENCY. Several carry this morning's 4.14% / 2.45% / $33,461 from the Q19 and Q20 rows, so a store refresh adds superseding entries rather than editing old ones. (Evening) HALFKEPT.md line 71 and INFLATION_TWD.md line 29 carry Q24-022's Taiwan dollar test (93.0%); its superseding entry uses 8j;
 - `research/experience/` (BLIND_POOL.md, candidates_K.md, candidates_W.md, judge_3.md, blind_key.json; 13 lines): event fact sheets quoting the figures of their day.
+  - One is wrong even for its day (card Q27, Tue 10 Nov evening): BLIND_POOL X053 says the ten cost "over $300,000" on 23 Oct; at that close they cost $297,636 (8b). The corrected sheets for the 16 Nov re-rank use 8b.
 
 **Outside `keel/final_report/`:**
 - `keel/pm/ASK_HUMANS.md` (Tue 10 Nov 07:04 entry, line 19) says the call costs $335,771, "$12,335 more", and "about $44,000 comes back to Laura in 2033 (2033 money; $33,461 in 1 Jan 2027 money)". Now: $336,656, $13,220 more, about $45,000 ($45,456 in 2033 money; $34,345 in 1 Jan 2027 money).
