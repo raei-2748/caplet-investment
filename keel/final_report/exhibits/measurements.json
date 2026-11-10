@@ -1,0 +1,46 @@
+{
+ "t1_note_budget": {
+  "lines": 16.9,
+  "inches": 6.46,
+  "prose_words_displaced": 240,
+  "note_words": 50,
+  "pages_spanned": 1
+ },
+ "t1_no_note": {
+  "lines": 12.9,
+  "inches": 4.93,
+  "prose_words_displaced": 180,
+  "note_words": 0,
+  "pages_spanned": 1
+ },
+ "f1_note_budget": {
+  "lines": 16.9,
+  "inches": 6.47,
+  "prose_words_displaced": 240,
+  "note_words": 55,
+  "pages_spanned": 1
+ },
+ "f1_no_note": {
+  "lines": 12.9,
+  "inches": 4.93,
+  "prose_words_displaced": 180,
+  "note_words": 0,
+  "pages_spanned": 1
+ },
+ "t2_note_budget": {
+  "lines": 12.2,
+  "inches": 4.67,
+  "prose_words_displaced": 170,
+  "note_words": 45,
+  "pages_spanned": 1
+ },
+ "t2_no_note": {
+  "lines": 9.2,
+  "inches": 3.52,
+  "prose_words_displaced": 130,
+  "note_words": 0,
+  "pages_spanned": 1
+ },
+ "_method": "Card Q23: Letter, 1-inch margins, 12-pt Times New Roman metrics (Liberation Serif), double-spaced text at a 27.6-pt pitch, table bodies single-spaced, APA number, title and note double-spaced, a blank double-spaced line after each exhibit; LibreOffice headless; words a line 14.26 (Q23 row 5)",
+ "_built": "Wed 11 Nov 2026 (Sydney), register of Tue 10 Nov 2026"
+}
