@@ -130,7 +130,11 @@ a message from Caplet, a finding, a mistake caught); only the people are invente
   all three were flattened, not read a fourth time. Ep 42 failed its first read on questions 2 and 6 and passed the
   second with one small hit, then cut. Ep 43 (Mon 9 Nov) failed three fresh reads: 16 lines (entry
   endings, finance and office words), then five (four words a Year 11 wouldn't say, one run of short sentences), then
-  one ("exhibits"); each was cut or put in plain words, and it was not read a fourth time.
+  one ("exhibits"); each was cut or put in plain words, and it was not read a fourth time. Ep 44 (Tue 10 Nov) failed
+  three fresh reads: about 13 lines (finance and office words, a kicker exchange, a catchphrase-style reminder of
+  Kai's job), then six (a mirrored study line, scorecard and office words), then five small ones (office words, a
+  summary ending on its point, a blame line that disagreed with the summary); each was cut or put in plain words, and
+  it was not read a fourth time.
 
 ## 3. Sources, and what each teaches (all accessed Sun 8 Nov 2026)
 
