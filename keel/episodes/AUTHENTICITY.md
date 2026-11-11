@@ -134,7 +134,11 @@ a message from Caplet, a finding, a mistake caught); only the people are invente
   three fresh reads: about 13 lines (finance and office words, a kicker exchange, a catchphrase-style reminder of
   Kai's job), then six (a mirrored study line, scorecard and office words), then five small ones (office words, a
   summary ending on its point, a blame line that disagreed with the summary); each was cut or put in plain words, and
-  it was not read a fourth time.
+  it was not read a fourth time. Ep 45 (Wed 11 Nov) failed two fresh reads: 21 lines (entry endings that landed, fundraising, office
+  and developer words, a trait tag, the readers' praise put before the score drop), then three small ones (two labels
+  in the header and summary that section 5 requires, and three "X is Y" sentences in a row); the run of three, a
+  confusing line in Jun's paragraph, one loose home detail and a contrast in the summary were fixed, and it was not
+  read a third time.
 
 ## 3. Sources, and what each teaches (all accessed Sun 8 Nov 2026)
 
