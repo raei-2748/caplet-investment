@@ -61,3 +61,39 @@ the next blind re-rank (scheduled Mon 16 Nov), so that one panel reads every wee
 - Strand: research and decision process
 - Related: N-03, N-04
 - Evidence: `keel/pm/ASK_HUMANS.md` (Tue 10 Nov, 08:01); `keel/final_report/NUMBERS.md` section 4; `keel/final_report/research/panel/2026-11-10_bond_desk_register_check.md`
+
+### N-06: A funder asked which number to count
+- Date (Sydney): Wed 11 Nov
+- Origin: KEEL
+- What happened: We gave our plan for Laura's words to co-sponsors to a reader playing a foundation program officer who funds artist residencies, and asked one question: would you take the meeting? The answer was yes, decided by one fact: ten years of the residency's operations already owned in Treasuries before the doors open ("who keeps the lights on in year three" is the question that kills most proposals). But the reader also found what three research cards and a panel of three judges had missed: after the 2031 move both ends of the range are owned and the gift reaches the top in every tested path, so a funder "will count $95,000 and ask why there is a range". The same reader said the ask "has no limit".
+- Stakes: The co-sponsor words are the part the case asks the team to draft. A funder who does not know which figure to count, or what is being asked, does not pledge.
+- Decision or response: Co-sponsors count the stated bottom, pledged in writing, which only a US default can lower; the top is owned and is what Laura intends to give. The ask now has two parts: capital pledged on condition that the facility's total is reached by one close date, with Laura's figure first and unconditional; and yearly programme money from 2033.
+- What changed afterwards: The co-sponsor plan was rebuilt the same morning, and the scorecard's "what it asks" target now waits for a second funder's reading. Our method changed too: each part now gets a reader who must act on it, asked "what would you do with this?", not "is it good?".
+- Vivid detail: One question from someone with money to give did what three research cards had not.
+- Strand: research and decision process
+- Related: N-04, N-07
+- Evidence: `keel/final_report/research/panel/2026-11-11_funder_reader_3d.md` (section A); `keel/pm/ASK_HUMANS.md` (Wed 11 Nov, 06:54); `keel/final_report/SKELETON.md` row 3d; `keel/final_report/LESSONS.md` (Wed 11 Nov, morning)
+
+### N-07: Taiwan's own rules changed what Laura asks for
+- Date (Sydney): Wed 11 Nov
+- Origin: KEEL
+- What happened: Our earlier cards had assumed Taiwanese funders behave like American and British ones, matching a founder's gift with promised capital. We then read Taiwan's own rules in Chinese at the source: the Ministry of Culture's grant directions and the law on foundations. The Ministry approves multi-year work only "year by year", funds buildings only through city and county governments with local matching, and its venue grant says the owner may not ask for more money when costs overrun. Corporate foundations are funded by their parent companies each year.
+- Stakes: An ask shaped for the wrong funders would ask Taiwanese co-sponsors for something their own rules do not let them give.
+- Decision or response: The ask changed from matched promises of capital to two parts: capital pledged on condition of the facility's total by one close date, and yearly programme money from 2033 in New Taiwan dollars.
+- What changed afterwards: The co-sponsor plan, the assumptions (co-sponsor money comes year by year in NT$; only Laura's figure is fixed before 2033) and the monitoring table (the co-sponsors' January budget filings) all changed. The rule that overruns are the owner's, not the funder's, supports the IPS's own reason for the half kept.
+- Vivid detail: One line of a Ministry rule, "no request for extra subsidy" (不得要求追加補助數額), said in ten characters what the IPS's half kept is for.
+- Strand: research
+- Related: N-06
+- Evidence: `keel/final_report/research/cards/Q11d_taiwan_funders_primary.md` (verdict 1, row 7); `keel/final_report/SKELETON.md` rows 3d and 3e; `keel/final_report/LESSONS.md` (Wed 11 Nov, morning)
+
+### N-08: The first outside reader lowered our own score
+- Date (Sydney): Wed 11 Nov
+- Origin: KEEL
+- What happened: We had scored the clarity of our report plan's opening idea 4 out of 5. The first fresh reader, playing a first-round judge with a stack of fifty reports and five minutes each, read it once and scored it 3: the governing thought alone was clear, but the six points under it were not. The same reader could not reconcile two totals in the exhibits ($268,652 in the holdings table against $302,287 in the notes; $444,080 in the reserve figure against $444,500), because one figure was on the $300,000 trading book and the other on Laura's whole $450,000 plan.
+- Stakes: Clarity is the weakest score in nine of the plan's ten weak parts, and only readers can move it.
+- Decision or response: Every exhibit now states its scale (the $300,000 book or the $450,000 plan) and its basis (at cost, at forward rates, at zero interest) in its title or note; the holdings table gained a column saying what each holding pays for.
+- What changed afterwards: The scorecard's mean fell from 3.25 to 3.17, the first fall since scoring began. From that run on, readers set every clarity score and Keel stopped scoring its own clarity upward.
+- Vivid detail: The first honest outside number made our average go down.
+- Strand: research and decision process
+- Related: N-06
+- Evidence: `keel/final_report/research/panel/2026-11-11_fresh_reader_exhibits.md` (items 2, 3 and 4); `keel/final_report/SCORECARD.md` (log, Wed 11 Nov, morning); `keel/final_report/exhibits/`

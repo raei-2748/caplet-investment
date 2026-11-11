@@ -70,9 +70,9 @@ of concern.
 
 | # | Idea (plain words, one line) | Source(s) as cited in the file | Tags | Niche? | Analogy/use for Laura | Critique/disanalogy already recorded | Verified? | Clash with FINAL or TNA? | Where it was found |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | Wharton's test for 3f is whether research, collaboration, disagreements, decision-making and learning "influenced its final recommendation", without repeating the Trading Notes analysis | Wharton Global Youth Program (2026), Final Report instructions; verbatim in `WHARTON_NORTH_STAR.md` section 0 | PROCESS | TEXTBOOK | Criterion A ("influence") and E ("new") of the re-rank sheet carry these words | Q21 row 1: "influenced" is wider than "changed a number" | VERIFIED (filed PDF text) | no | repo |
+| 1 | Wharton's test for 3f is whether research, collaboration, disagreements, decision-making and learning "influenced its final recommendation", without repeating the Trading Notes analysis | Wharton Global Youth Program (2026b), Final Report instructions (REFERENCES_APA row 121); verbatim in `WHARTON_NORTH_STAR.md` section 0 | PROCESS | TEXTBOOK | Criterion A ("influence") and E ("new") of the re-rank sheet carry these words | Q21 row 1: "influenced" is wider than "changed a number" | VERIFIED (filed PDF text) | no | repo |
 | 2 | The 2026-27 Articulation criterion adds "uncertainty" and "shaped its investment thinking" | Same, `WHARTON_NORTH_STAR.md` section 0 | PROCESS | TEXTBOOK | Criterion D scores uncertainty named and handled | Wharton publishes no level descriptors (Q21 d) | VERIFIED (filed PDF text) | no | repo |
-| 3 | Judges want "the reasoning, assumptions, and tradeoffs behind those decisions", not only the decisions | Wharton Global Youth Program (2026), Competition guide; `WHARTON_NORTH_STAR.md` | PROCESS | TEXTBOOK | Criterion B: option rejected, evidence, what was given up | General guidance for all deliverables | VERIFIED (filed text) | no | repo |
+| 3 | Judges want "the reasoning, assumptions, and tradeoffs behind those decisions", not only the decisions | Wharton Global Youth Program (2026c), Competition guide (REFERENCES_APA row 122); `WHARTON_NORTH_STAR.md` | PROCESS | TEXTBOOK | Criterion B: option rejected, evidence, what was given up | General guidance for all deliverables | VERIFIED (filed text) | no | repo |
 | 4 | A team may say what it would do differently but "may not redesign your strategy after observing the results" | Wharton (2026), Competition guide p.5 | PROCESS | TEXTBOOK | Re-rank cap: an event after the IPS went in scores at most 3 on influence | Q21 row 3 | VERIFIED (filed text) | risk: telling the post-submission career test (X001) as a change to the plan would break the Guide; SKELETON already puts it in 3e | repo |
 | 5 | Critical reflection is "an evidence-based examination of the sources of and gaps in knowledge and practice, with the intent to improve both"; without structure it becomes "descriptive accounts of experiences or venting of personal feelings" | Ash & Clayton (2009), pp. 25-48 | PROCESS | KNOWN | Each event needs evidence and an aim to improve, not a story of the week | Written for service-learning students, not teams writing for judges | VERIFIED (full text, ERIC PDF) | no | web |
 | 6 | DEAL: Describe, Examine, Articulate Learning; the last step answers "What did I learn? How did I learn it? Why does it matter? What will I do in light of it?" | Ash & Clayton (2009) | PROCESS | KNOWN | The closing paragraph of 3f answers the fourth question for the recommendation | Individual students' learning, not a team's decisions | VERIFIED (full text) | no | web |
@@ -340,8 +340,9 @@ of concern.
   capacity in medical education: Developing the REFLECT rubric for assessing reflective writing. *Academic Medicine,
   87*(1), 41-50. https://doi.org/10.1097/ACM.0b013e31823b55fa. UNVERIFIED (abstract only,
   https://pubmed.ncbi.nlm.nih.gov/22104060). No update notice in Crossref.
-- Wharton Global Youth Program. (2026). *2026-2027 Wharton Global High School Investment Competition: Final report
-  instructions* [PDF]. `competition/official/2026_27/2026_WGY_Final_Report_Instructions.pdf` (verbatim in
+- Wharton Global Youth Program. (2026b). [Final Report instructions, 2026–2027 Wharton Global High School Investment Competition].
+  Unpublished document distributed to registered teams (REFERENCES_APA row 121; no printed title, author or date). `competition/official/2026_27/2026_WGY_Final_Report_Instructions.pdf` (verbatim in
   `keel/final_report/WHARTON_NORTH_STAR.md` section 0).
-- Wharton Global Youth Program. (2026). *Competition guide* [PDF], p. 5. Filed in `competition/official/2026_27/`; quoted
+- Wharton Global Youth Program. (2026c). *2026–2027 investment competition guide: Wharton Global High School Investment Competition*
+  (REFERENCES_APA row 122), p. 5. Filed in `competition/official/2026_27/`; quoted
   in `keel/final_report/WHARTON_NORTH_STAR.md`.

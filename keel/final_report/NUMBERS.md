@@ -900,8 +900,8 @@ Added Tue 10 Nov evening. Design H_plain with the fee cushion, the range rule on
   December 2032. The half kept ($21,347) covers it 1.9 times; with the excess ($29,823), 2.6 times. At the ten-year
   strongest rate (27.52, 19.1% more US dollars) the need is $21,930: the half kept alone is $583 short, and with the
   excess it is covered with $7,893 to spare (8d).
-- **On the real Taiwan dollar** (Fed H.10 monthly, Oct 1983 to Sep 2026, the repo mirror
-  `keel/models/data/twd_per_usd_monthly.csv`, UNVERIFIED against FRED; US stocks from the same months; rates at today's
+- **On the real Taiwan dollar** (Fed G.5 monthly, FRED EXTAUS, Oct 1983 to Sep 2026, the repo mirror
+  `keel/models/data/twd_per_usd_monthly.csv`, VERIFIED against FRED EXTAUS, all 516 months, Wed 11 Nov, 8l; US stocks from the same months; rates at today's
   forwards). 417 windows, VT bought Oct 1983 to Jun 2018. The move is measured from the meetings (36 months after VT is
   bought; Jan 2031 in the plan) to the gift (60 months; Jan 2033), on each window's contribution after the cap ($110,000 /
   $120,000 / $130,000, 1-in-20 low / median / high).
@@ -996,12 +996,141 @@ the one that sized it):
   forward carry ($38,282.14 against $38,281.00, January 2028 money), and the floor and VT get that much less between them. Left as it is: it moves the
   completion and the floor money by $1 and nothing a reader sees (section 9).
 
+### 8l. How much room the 2031 range leaves, path by path; and the Taiwan dollar file checked at FRED (`numbers/range_margin.py`, `numbers/results_range_margin_2026-11-11.json`). MODEL
+Added Wed 11 Nov evening (numbers owner) for part 3c and card Q4c (its Gaps: "the smallest in-range margin across
+paths"). Nothing is re-sized and no earlier figure moves. Same register as sections 3, 4 and 8i: design H_plain with
+the fee cushion, the range rule on the fund's holdings, Keel's reading of "most".
+- **The claim tested:** "After the 2031 move the gift stays inside the stated range with room to spare in every path,
+  and the range never collapses to one figure."
+- **Definitions, exactly as section 4.** Each stated end is the money put into the late-2032 fund times what $1 of the
+  fund's own holdings pays on 15 Dec 2032 if nothing earns interest from the trade day, less 0.5%, rounded down to
+  $5,000. The bottom is fixed when the floor is bought (January 2028); the top at the 2031 move. The 2033 contribution
+  is the lower of what the floor and the moved half pay and the stated top; the excess joins the half kept.
+- **What the funds pay:** house model and US stock history as section 4 (at their purchase yields); joint replay as 8i
+  (realised on each window's own rates). The script builds the first two with `plan.run` and `completion.rule`, as
+  `range_rule.py` does, and the joint replay by running `joint_stress.py`'s own setup code (none of its results
+  blocks). It reproduces 8i to the dollar: $458, $532, $1,262 and $934, and the stated ends' 1-in-20 points.
+- **Rerun:** `python3 -I keel/final_report/numbers/range_margin.py` from the repo root (about 15 seconds). It reads
+  `results_joint_stress_2026-11-10.json` only to show the match, and writes nothing else.
+
+| Measure (central case in brackets) | House model (200,000 paths, seed 2033) | US stock history (1,770 windows since 1871; rates at today's forwards) | Joint replay (585 windows, 1962-2010 starts) |
+|---|---|---|---|
+| **(i) Contribution less the stated bottom** ($20,000): 1-in-20 low / median / smallest | $10,000 / $20,000 / **$0** | $15,000 / $20,000 / $5,000 | $10,000 / $20,000 / $10,000 |
+| Contribution equal to the bottom (no room) / below it | **254 paths (0.127%, about 1 in 790)** / none | none / none | none / none |
+| **(ii) Width: stated top less stated bottom** ($20,000): 1-in-20 low / median / 1-in-20 high | $10,000 / $20,000 / $35,000 | $15,000 / $20,000 / $35,000 | $10,000 / $20,000 / $35,000 |
+| Width $0, a single figure | **254 (0.127%)** | 0 | 0 |
+| Width $5,000 | 3,040 (1.52%) | 13 (0.73%: VT bought Jan 1929 to Apr 1930) | 0 |
+| Width $10,000 or more | 98.35% | 99.27% | 100% (narrowest $10,000) |
+| **(iii) Contribution less the stated top**, funds paying as modelled ($0) | $0 in every path | $0 in every window | $0 in every window |
+| The same if the funds pay only their holdings' zero-interest payout less a fund cost of 0.5% ($0) | $0 in every path | $0 | $0 |
+| Fund cost 0.75%: top missed in / largest gap / median gap where missed ($0 centrally) | 11,984 paths (5.99%) / $429 / $153 | 112 windows (6.3%) / $312 / $142 | 34 windows (5.8%) / $312 / $151 |
+| Fund cost 0.75%: contribution below the stated bottom | **1 path ($211 below)** | 0 | 0 |
+| Fund cost 1%: top missed / largest gap; below the bottom | 12.0% / $881; 5 paths (up to $425 below) | 13.1% / $626; 0 | 12.3% / $664; 0 |
+| **(iv) Excess** at face, 15 Dec 2032 ($8,476): 1-in-20 low / median / 1-in-20 high / smallest | $4,340 / $7,629 / $11,218 / $1,251 | $5,322 / $7,524 / $9,846 / $4,640 | $3,522 / $7,671 / $13,134 / $934 |
+| **(v) Floor's zero-interest payout less the stated bottom** ($4,225): 1-in-20 low / median / smallest | $749 / $3,001 / **$405** | $4,225 in every window (the floor is bought at forwards) | $811 / $3,024 / **$458** (start Feb 2002) |
+| **Both funds' zero-interest payout less the stated top** ($4,039): the same | $851 / $3,101 / **$430** | $848 / $3,064 / **$533** (start Dec 1929) | $872 / $3,144 / **$532** (start Aug 2010) |
+| What the floor pays less the bottom; what both pay less the top: smallest | $1,063; $1,251 | $8,178; $4,640 | $1,262; $934 |
+| Card Q4c's measure: both funds' zero-interest payout less 0.5%, less the stated bottom ($23,443): 1-in-20 low / median / smallest | $12,456 / $21,790 / $3 | $16,942 / $24,740 / $7,133 | $14,196 / $24,106 / $10,891 |
+| Largest fund cost covered at zero interest in every path: bottom / top | 0.50% / 0.50% | 4.26% / 0.50% | 0.51% / 0.50% |
+
+- In every path and window the funds pay at least the stated top, so (i) equals (ii) everywhere: the room above the
+  bottom is the width of the range.
+- **Where the range is one figure (254 house paths).**
+  - Every one is a path where "most" binds. Yields fell before January 2028 (median 2.3 points), the completion took
+    most of the $150,000, and VT bought was a median $3,765. In 55 paths (0.028%) nothing was left for VT at all: the
+    completion took $75,000 or more.
+  - The single figure is a median $80,000 (from $65,000 to $90,000). The contribution equals it, and the excess
+    (median $5,998, smallest $1,917) joins the half kept.
+  - Section 4's "VT worthless" row ($95,000, one figure) is the same case at the centre.
+  - A range $5,000 wide: 3,040 house paths, 85% of them with "most" binding (VT a median 18% down by the move); in the
+    stock history, the 13 windows with VT bought Jan 1929 to Apr 1930 (VT a median 68% down).
+- **The 0.75% case.** Beyond the rule's 0.5% cut, only the top is missed, by at most $429, except where the range is
+  one figure: then a missed top is a missed bottom (1 house path in 200,000 at 0.75%; 0 with seed 2034).
+- **The smallest margins are the 0.5% cut, by construction.** Each end is at most 99.5% of its zero-interest value,
+  so its margin is at least 0.5% of that value (about $400 to $600) plus whatever the rounding leaves. Card N-04's
+  "$458 and $532 across 585 historical windows" is right as worded; keep "historical windows" in any use, since the
+  house model goes to $405 and $430.
+
+**The check by a different calculation** (functions ending in 2 in `range_margin.py`; the margins are tested by a
+calculation other than the one that set them):
+- **Route 2.** It takes only each path's money left after the completion, its draws or window inputs and the curve's
+  discount factors. It re-derives the IBTM holdings (coupon 4.2513%, the engine's figure), the "most" split, VT and the
+  moved half, each end's zero-interest payout, the rounding (whole dollars, integer division), what the funds pay (in
+  the joint replay, from each window's 1-year yield ratios), the contribution and the excess. It calls none of
+  `completion.rule`, `completion.zero_per_dollar`, `plan.run` or `joint_stress.py`'s functions.
+  - **Result:** every stated end is identical in all 202,355 paths and windows. Every dollar figure agrees to within a
+    millionth of a cent, and every count and percentile in the table is the same.
+- **No-model checks.**
+  - Each margin lies between 0.5% of its end's zero-interest value and that plus $5,000, in every path (no breaks).
+    The lowest possible margins are $333 (house) and $386 (joint floor); the smallest found are just above them.
+  - A one-figure range needs the moved half, after the cut, to be under $5,000 (693 house paths). If the rounding
+    remainder were spread evenly, 247 of them would round to one figure; 254 do.
+- **Sampling.** The house model drawn again with seed 2034 gives:
+  - one-figure ranges 236, $5,000 ranges 3,032;
+  - at 0.75%, top missed 11,951 and none below the bottom;
+  - smallest margins $421 and $433;
+  - excess $4,368 / $7,637 / $11,218, smallest $1,184.
+  So "about 1 path in 800" holds, and the one 0.75% path below the bottom is noise around zero.
+- **A stricter reading.** The rule counts the funds' monthly distributions at face. Suppose instead they wait in the
+  Treasury-bill ETF at its 0.15% a year fee, section 0's rule for waiting money.
+  - Centrally the floor's zero-interest payout falls by $69 and the moved half's by $3.
+  - Every end is still owned in every path. The smallest margins become $349 and $370 (house), $399 and $472
+    (joint) and $4,155 and $463 (history).
+  - The largest fund cost covered in every path falls from 0.50% to about 0.43%.
+
+**Verdict on the claim: CHANGE.**
+- **"Inside the stated range in every path": KEEP.** It is true in all 200,000 house paths, 1,770 stock windows and 585
+  joint windows. It holds at the funds' modelled payouts, and at zero interest after fund costs up to 0.5%.
+- **"With room to spare in every path": CHANGE.**
+  - The room above the bottom is $10,000 or more in 98.35% of house paths, 99.27% of stock windows and every joint
+    window. It is $0 in 254 house paths (1-in-20 $10,000, median $20,000).
+  - The room between what is owned and what is stated is at least 0.5% of each end. The smallest is $405 and $430
+    (house), $458 and $532 (joint) and $4,225 and $533 (history).
+- **"The range never collapses to one figure": KILL** for the house model: 254 paths in 200,000 (0.127%; 236 with
+  another seed). It holds in the stock history and the joint replay.
+  - One figure means yields fell about 2 points before January 2028 and left almost nothing for VT, or VT became
+    worthless.
+  - So "a range, not one figure" is not certain from today. From January 2028 it turns only on what VT and the
+    moved half's yield are on the move day.
+
+**The Taiwan dollar file, checked at the source (8j).**
+- **Read:** FRED series EXTAUS at https://fred.stlouisfed.org/data/EXTAUS.txt, Wed 11 Nov 2026. That is FRED's own
+  table page: "Last Updated 2026-11-02"; release G.5 Foreign Exchange Rates; monthly averages of daily noon buying
+  rates in New York. The whole table was read through a fetch service (its copy dated 8 Nov 2026). Nine months were
+  read again live the same day: Nov 1983, Dec 1987, Nov 1997, Jan 1998, Mar 2008, Dec 2020, Oct 2022, Sep and Oct 2026.
+  The CSV link (`fredgraph.csv?id=EXTAUS`) did not load (binary or fetch error), and curl is refused.
+- **Compared:** all 516 months of the mirror, Oct 1983 to Sep 2026. That includes every month of 1987, 1997-98, 2008,
+  2020 and 2022, and the mirror's latest month (Sep 2026, 31.7381). All 516 are identical to the series' four
+  decimals. FRED adds Oct 2026 (32.2695, preliminary), which 8j does not use (its last month is Jun 2023).
+- **So 8j's real-currency figures are VERIFIED as to their data.** Nothing is re-run and no figure changes.
+- **Label:** the monthly series comes from the Fed's G.5 release; H.10, the name 8j uses, is the daily release that
+  the monthly figures average.
+- **Reference:** `research/REFERENCES_APA.md` holds the daily series DEXTAUS (entry 16), not the monthly EXTAUS that 8j
+  uses. Add EXTAUS before 8j's real-currency figures are cited.
+
+### 8m. The WInS book against the targets set before trading (Section 2.5; card Q29). Team record and register, checked Wed 11 Nov evening
+The book is the plan after both deposits at two-thirds scale (300/450; the WInS notes say "scaled to the model portfolio", CANON A18, D3). These are the criteria on file before the first fill (6 Oct ET) and the result against each. Sources: the Portfolio tab's target units (`caplet/google_drive/sheets/portfolio_and_trading_notes/portfolio.csv` l.20-31; exported 14 Oct, after the fills, but priced on 2 Oct closes and 5 Oct bond checks), the pre-trade ticket file (`archive/rab/trades/tickets.md` l.7-13, trade date Fri 2 Oct) and the 23 Oct WInS snapshot (`competition/wins/2026-10-23_snapshot.md` l.22-32).
+
+| Criterion set before trading | Result | Basis |
+|---|---|---|
+| Units of each Treasury holding (IBTM 4,503; IBTO 1,024; IBTP 927; IBTQ 894; IBTR 853; bonds 20, 20, 18, 18, 20 lots of $1,000) | All ten held at exactly the target units | portfolio.csv against the snapshot |
+| VT sized "from the cash then left", bought last (order 11) | 167 shares against 164 at 2 Oct prices; filled last (7 Oct, 8:27 PM ET), after the two longest bonds were filled first (6 Oct) | portfolio.csv l.30; snapshot; card Q29 row 14 |
+| Bonds within 25 basis points of the Treasury curve | -10 to +6 basis points at the 5 Oct check; 2.6 to 8.8 at the fills (card Q17, MODEL) | portfolio.csv l.25-29; Q17 |
+| Cash never below $1,000 | $3,513.79 at the end | 8g |
+| Cost | Commissions $200, 0.067% (6.7 basis points) of $300,000; 11 of 200 trades | 8g |
+| Each payment has a holding that pays out before it | 10 of 10: the five iBond funds about 17 days before each 1 January; the Nov-2039, Nov-2040 and Nov-2041 bonds 47 days; the May-2038 bond 231 days ("7.5 months" in the Trading Notes' words); the Feb-2037 bond 320 days (10.5 months) | CANON B8; 8h |
+| Each rung at two-thirds of a full $50,000 rung | 65.6% to 70.4% (whole ladder 68.0%); not exactly 66.7% because bonds trade in $1,000 lots | card Q17, MODEL, register engine at the 23 Oct curve |
+
+- **What the scale changes and what it does not.** No promised money is in shares, in the book or in the plan (IPS l.11). The weights do not carry over one for one: VT is 8.84% of the book at cost and 6.63% of the $450,000 plan (8g), because the book holds no 2028 completion and no backstop. So never write that "the Treasury share is unchanged" by the scaling.
+- **Measured afterwards, and labelled so.** The sufficiency standard ("sufficient without reinvestment", section 2) and Q17's measures came after the freeze (Tue 10 Nov and Mon 9 Nov). The WInS notes say the book relies on "reinvested coupons funding part of each" (CANON A18), so 2.5 never presents the escrow test as a criterion the book was built to.
+
 ## 9. Still to add (later days)
 - **The exhibits are not yet re-built on these figures.** `exhibits/exhibit_data.py` reads 8h (per payment: own holding above $50,000 and backstop cover, now in four worlds), section 4 and 8i (Exhibit 3). Re-run it, then `exhibits/build_exhibits.py`; this register run did not touch them. `exhibit_data.py` should read the backstop's value on 1 Jan 2033 ($45,456), not its cost carried ($45,487).
 - **Cards Q19, Q20 and Q24 refresh to these figures** (section 10). Q24's Taiwan dollar test (verdict 3, rows 22-25, card 4) is replaced by 8j.
 - **8j and 8k were added Tue 10 Nov evening.** Still open from them:
   - SKELETON 3b's Taiwan dollar sentence was written "to be re-run before use"; it is now re-run (section 10 gives the replacement).
   - The Taiwan dollar file is a repo mirror (`keel/models/data/twd_per_usd_monthly.csv`), UNVERIFIED against FRED EXTAUS. A later run checks a few months against FRED before 8j's real-currency figures are quoted.
+- **8l added Wed 11 Nov evening:** the Taiwan dollar item above is closed (all 516 months match FRED EXTAUS); still open from 8l: an EXTAUS entry in `research/REFERENCES_APA.md` (it holds only the daily DEXTAUS), and cards Q4c, Q19 and N-04 to quote 8l's margins with their bases. 8j's source label was corrected to G.5 the same evening.
   - An exhibit for 3b, if one is wanted, reads `returns_to_laura` in `numbers/results_joint_stress_2026-11-10.json`.
   - `plan.py` carries the January 2028 completion a year as if 2027 had 365.25 days ($1.14 too much; 8k's check). Fix it on the next full re-run, not alone: it moves the completion to $38,281 and the floor money to $81,890 in every file.
 - **Two checks only a student can make:** which Treasury-bill ETF WInS lists, with its fee (section 0; the cushion is sized for 0.15% a year); and IBTM's prospectus wording on what may make the fund pay less than its holdings (section 3).

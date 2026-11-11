@@ -1,13 +1,13 @@
-# Intent: what the Final Report must leave in a judge's head (version 2, Tue 10 Nov 2026, amended Wed 11 Nov; first version Mon 9 Nov night)
+# Intent: what the Final Report must leave in a judge's head (version 2, Tue 10 Nov 2026, amended Wed 11 Nov morning and evening; first version Mon 9 Nov night)
 
 Planning notes, not report text. No sentence here is meant to be pasted into the report. Every figure is from
-`NUMBERS.md`; every claim about what Caplet committed to is checked against `CANON.md`. Re-scored by every run through
+`NUMBERS.md`; every claim about what Caplet committed to is checked against `CANON.md`; every name for a thing is the one in `WORDS.md` (Wed 11 Nov evening). Re-scored by every run through
 `SCORECARD.md`; changed only with a line in `ARGUMENT_LOG.md`.
 
 ## The governing thought (one idea the whole report serves)
 
 Money Laura has promised is owned in Treasuries before she promises it; only money promised to no one takes market
-risk. The IPS set this rule (the payments in Treasuries; the bottom of the gift a Treasury fund; half the shares, the world
+risk. The IPS set this rule (the payments in Treasuries; the bottom of the facility contribution a Treasury fund, the floor; half the shares, the world
 share fund VT bought with the 2028 deposit, moved into Treasuries before she names a figure; the other half promised
 to no one). Say once which shares "half the shares" means (fresh reader, Wed 11 Nov). The report shows that the WInS book put the rule
 into practice, and applies the same rule to each thing Wharton asks Caplet to recommend: the operating reserve, the
@@ -25,32 +25,41 @@ in 3d.
 ## The argument in three sentences (EXPECTATIONS 2.9: the strategy, its biggest strength, its main trade-off)
 
 1. The strategy: ten Treasuries pay the ten operating payments; the 2028 deposit completes them, then buys a Treasury
-   fund maturing late 2032 for the bottom of the gift and a world share fund for the top and for flexibility.
+   fund maturing late 2032 for the bottom of the facility contribution and a world share fund for the top and for flexibility.
 2. Its biggest strength: every promise Laura makes, to the residency in 2033 and to co-sponsors in 2031, is backed by
    money she already owns, so the confidence she states comes from structure rather than from a forecast.
-3. Its main trade-off: a lower certain gift than an all-Treasury plan at the bottom, and a smaller cushion in the years
+3. Its main trade-off: a lower certain contribution than an all-Treasury plan at the bottom, and a smaller cushion in the years
    shares fall, in exchange for a share of world growth, half of which is never promised to anyone.
 
 ## Six things a judge should be able to say after the first page (version 2)
 
-1. The ten payments rest on ten Treasuries, each paying out just before its payment; from 2033 they are the operating
-   reserve, about $444,500 on 1 Jan 2033 at today's forward rates against the $399,089 the payments are worth at the
-   same rates, about 111% funded (NUMBERS 8h, Tue 10 Nov, MODEL). The standard behind that is the escrow verifier's: every payment is paid
-   even if no coupon earns a cent (decided Tue 10 Nov, card Q20), and the report says what that standard costs the gift.
-2. The WInS book is the whole plan built at $300,000, and it cost more than the deposit: the ten cost $302,287 at the
-   6 Nov close, and the IPS's own clause completes them from the 2028 deposit. A team that shows its overrun and the
-   rule that covers it is believed on the rest.
+1. The ten payments rest on ten Treasuries, each paying out just before its payment, and are paid even if interest
+   earns nothing, barring a US default (decided Tue 10 Nov, card Q20). The price, in the next breath: the top-up, the
+   first part of the 2028 deposit ($38,282 at today's forward rates, about a quarter of it; NUMBERS 2), most of which
+   comes back to Laura if rates hold (about $45,500 in 2033 money, NUMBERS 8k). From 2033 the Treasuries are the
+   operating reserve. (Changed Wed 11 Nov evening, card Q31 and two readers: the funded ratio, about 111%, is no longer
+   the headline; it invited "why is the range so small?" and a lay reader followed it "only by faith". It goes to
+   Figure 1's note with its reason. "Escrow verifier's standard" is dropped as a label: MSRB's name for the test is
+   "full cash" or "gross" refunding, named once in 3a for bond readers.)
+2. The WInS portfolio is Laura's whole plan at two-thirds scale (the WInS notes' own words: "scaled to the model
+   portfolio"), built to targets set before trading and matching them (all ten Treasury holdings at exactly their target
+   units; NUMBERS 8m); what does not scale (fixed fees, $1,000 bond lots, the 2028 deposit, time) is calculated, not
+   shown (card Q29). And it cost more than the deposit: the ten cost $302,287 at the 6 Nov close, and the IPS's own
+   clause completes them from the 2028 deposit. A team that shows its overrun and the rule that covers it is believed
+   on the rest.
 3. In 2031 Laura states about $95,000 to $115,000, and both ends are money she already owns in Treasury funds; co-sponsors
-   count the bottom, and the gift reaches the top unless the US defaults. (Notes, not words for the report: the written
-   rule, the cap and the two exceptions are in SKELETON 3c and cards Q19, Q4c and Q26; the escrow standard costs the
-   range about $15,000 and about $45,000 of the backstop returns to Laura if forward rates hold, NUMBERS 4, 8k; the real
+   count the bottom, and the contribution reaches the top unless the US defaults. (Notes, not words for the report: the written
+   rule, the cap and the two exceptions are in SKELETON 3c and cards Q19, Q4c and Q26; the payments' standard costs the
+   range about $15,000 and about $45,500 of the top-up comes back to Laura if forward rates hold, NUMBERS 4, 8k; the real
    uncertainty is earlier, which range she will be able to announce. Shortened Wed 11 Nov after a fresh reader scored
    the opening idea 3 for clarity.)
 4. Half the shares are promised to no one, as a designed contingency with a purpose, an order of use and a release
    rule; that cushion is smallest in the years it is most likely to be needed, and the report says so, with a
    recession replayed from history (card Q24).
 5. Laura watches many things, but only a missed deposit or a Treasury default changes the plan; everything else changes
-   a number, never a payment.
+   a number, never a payment. (Defined Wed 11 Nov evening, so the two exits are not vague: a Treasury default is
+   a payment on any marketable Treasury not made within five business days; a missed deposit is nothing received by
+   31 March 2028. Card Q30, bond reader, ASK_HUMANS.)
 6. The team changed its own first plan on its own evidence, and its recommendation came from disagreements it settled
    on reasons; each event in the reflection ends on something that changed, or was tested and kept, in a
    recommendation earlier in the report (card Q27).
