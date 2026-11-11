@@ -1124,6 +1124,106 @@ The book is the plan after both deposits at two-thirds scale (300/450; the WInS 
 - **What the scale changes and what it does not.** No promised money is in shares, in the book or in the plan (IPS l.11). The weights do not carry over one for one: VT is 8.84% of the book at cost and 6.63% of the $450,000 plan (8g), because the book holds no 2028 completion and no backstop. So never write that "the Treasury share is unchanged" by the scaling.
 - **Measured afterwards, and labelled so.** The sufficiency standard ("sufficient without reinvestment", section 2) and Q17's measures came after the freeze (Tue 10 Nov and Mon 9 Nov). The WInS notes say the book relies on "reinvested coupons funding part of each" (CANON A18), so 2.5 never presents the escrow test as a criterion the book was built to.
 
+### 8n. What more shares would buy: the benchmark on the other side (Thu 12 Nov, MODEL)
+Added Thu 12 Nov morning (numbers worker) for part 3b. Today's blind panel (finance professor judge): "No case for the
+floor-VT split of the 2028 deposit against a growthier alternative ... the plan never shows what more shares would
+buy." Section 4's C8 is the benchmark with fewer shares; this is the one with more. **A benchmark, not a
+recommendation:** the plan stays B, and C to E break the frozen IPS's "Most of the 2028 deposit will fund a Treasury
+fund maturing in late 2032" (l.15). Nothing is re-sized and no earlier figure moves.
+- **Script and rerun:** `numbers/share_split.py`, results `numbers/results_share_split_2026-11-12.json` (exact
+  values). From the repo root, `python3 -I keel/final_report/numbers/share_split.py` (about 12 seconds). It changes no
+  other script; it reads `results_2026-11-10.json` and `results_joint_stress_2026-11-10.json` only for the checks.
+- **Basis and date:** the Tue 10 Nov register on the 6 Nov 2026 curve (design H_plain with the fee cushion, the range
+  rule on the fund's holdings). Three bases, built exactly as 8l builds them:
+  - 200,000 simulated futures (seed 2033; stocks and rates drawn apart, section 7);
+  - US stocks from every starting month since 1871 (1,770; rates at today's market rates);
+  - rates and US stocks together from the same months, every starting month Jan 1962 to Sep 2010 (585; as 8i).
+- **What is split:** the money left in January 2028 after the top-up ($111,718 at today's market rates, section 4).
+  The top-up, the ten payments and the operating reserve are identical in every option and every simulated future.
+- **The five splits:** A all to the floor (C8); B the plan (the floor gets the larger of 73.3% of what is left and
+  $75,001, section 0); C half floor, half VT; D a quarter floor, three quarters VT; E all VT.
+- **Same rules for every option (section 4):** half the VT is moved into the late-2032 Treasury fund before the 2031
+  meetings; each stated end is what the fund's holdings pay with no more interest, cut by 0.5%, rounded down to $5,000;
+  the other half is promised to no one (her flexibility); the facility contribution is never above the stated top, and
+  anything above the top joins her flexibility.
+- **All money left to Laura beyond the ten payments** = the facility contribution + her flexibility (both at face, as
+  section 4's last row) + what comes back from the top-up (1 Jan 2033 money, 8h and 8k). That last part is $45,456 in
+  the simulated futures and on US stocks since 1871 (no rate moves after 2031 there, section 7), and each starting
+  month's own figure when rates and stocks move together. It is the same for every option, so it moves no comparison.
+- **Rounding:** $1,000 and whole percentages; exact values are in the JSON. Stated figures and the contribution are
+  read without interpolation (section 0).
+
+**Simulated futures (200,000):**
+
+| Option | Floor money as a share of the $150,000 deposit (today's market rates) | Keeps "most of the 2028 deposit"? | Stated range on today's market rates | Facility contribution: median / 1-in-20 low | Contribution under $95,000 | Her flexibility: median / 1-in-20 low | All money left to Laura beyond the ten: median / 1-in-20 low |
+|---|---|---|---|---|---|---|---|
+| A. All to the floor (C8) | 74% | Yes | $130,000 (one figure) | $130,000 / $105,000 | under 1% | $9,000 / $5,000 | $186,000 / $159,000 |
+| **B. The plan** | **55%** | **Yes** | **$95,000 to $115,000** | **$115,000 / $95,000** | **3%** | **$29,000 / $16,000** | **$191,000 / $159,000** |
+| C. Half floor, half VT | 37% | No | $65,000 to $100,000 | $100,000 / $80,000 | 26% | $46,000 / $26,000 | $194,000 / $154,000 |
+| D. A quarter floor, three quarters VT | 19% | No | $30,000 to $85,000 | $85,000 / $60,000 | 62% | $65,000 / $35,000 | $198,000 / $145,000 |
+| E. All VT | 0% | No | $0 to $70,000 (no floor) | $70,000 / $40,000 | 79% | $84,000 / $44,000 | $202,000 / $134,000 |
+
+- A and B keep "most" in all but 0.03% of simulated futures (the 55 where the top-up took $75,000 or more, 8l).
+- B's 3% under $95,000 are futures where yields fell before January 2028, so B's own stated bottom is lower; B never
+  pays below its own stated bottom (8l).
+- On today's market rates (VT at its median), all money left to Laura is A $186,000, B $190,000, C $194,000, D
+  $198,000, E $201,000.
+
+**On history:**
+
+| Option | US stocks since 1871: contribution median / 1-in-20 low; under $95,000 | Her flexibility: median / 1-in-20 low | All money: median / 1-in-20 low | Rates and US stocks together since 1962: contribution median / 1-in-20 low; under $95,000 | Her flexibility | All money |
+|---|---|---|---|---|---|---|
+| A | $130,000 in every start; 0% | $11,000 in every start | $186,000 in every start | $130,000 / $110,000; 0% | $8,000 / $4,000 | $185,000 / $137,000 |
+| **B** | **$115,000 / $110,000; 0%** | **$31,000 / $20,000** | **$194,000 / $177,000** | **$115,000 / $95,000; 3%** | **$32,000 / $20,000** | **$198,000 / $138,000** |
+| C | $105,000 / $90,000; 11% | $51,000 / $31,000 | $200,000 / $169,000 | $105,000 / $85,000; 19% | $52,000 / $31,000 | $205,000 / $140,000 |
+| D | $90,000 / $70,000; 57% | $72,000 / $42,000 | $207,000 / $160,000 | $90,000 / $65,000; 53% | $73,000 / $44,000 | $214,000 / $135,000 |
+| E | $75,000 / $45,000; 77% | $93,000 / $53,000 | $214,000 / $152,000 | $80,000 / $45,000; 81% | $95,000 / $56,000 | $223,000 / $129,000 |
+
+**The worst historical start** (US stocks: the month VT is bought; rates and stocks together: the starting month, VT
+bought a year later):
+
+| Option | US stocks since 1871: lowest contribution | Lowest all money | Rates and stocks together since 1962: lowest contribution | Lowest all money |
+|---|---|---|---|---|
+| A | $130,000 in every start (no shares) | $186,000 in every start | $95,000 (6 starts: Dec 2007, Jan 2008, Jun to Sep 2008; yields fell and the top-up took more) | $111,000 (Dec 2007) |
+| **B** | **$100,000 (13 months: Jan to Oct 1929, Feb to Apr 1930)** | **$159,000 (Jul 1929)** | **$90,000 (15 starts, including Oct 2000, Mar 2007 and Jan 2008; as 8i)** | **$122,000 (Mar 2007)** |
+| C | $70,000 (May to Jul 1929) | $135,000 (Jul 1929) | $75,000 (Mar and Apr 2007) | $124,000 (Apr 2007) |
+| D | $40,000 (Jun and Jul 1929) | $109,000 (Jul 1929) | $60,000 (8 starts: Sep 1970; Jul, Aug and Sep 1998; Mar 1999; Jul, Sep and Oct 2006) | $124,000 (Nov 2006) |
+| E | $10,000 (Jun and Jul 1929) | $84,000 (Jul 1929) | $35,000 (9 starts: 8 between Jul 1998 and Apr 1999, and Mar 2005) | $116,000 (Jun 2006) |
+
+**Against the plan, future by future** (share of futures where the option leaves Laura more in all; then the median
+and the 1-in-20 low of the difference from B):
+
+| Option | Simulated futures | US stocks since 1871 | Rates and stocks together since 1962 |
+|---|---|---|---|
+| A | 37%: -$4,000 / -$35,000 | 31%: -$7,000 / -$33,000 | 29%: -$9,000 / -$35,000 |
+| C | 63%: +$4,000 / -$12,000 | 69%: +$6,000 / -$8,000 | 71%: +$8,000 / -$11,000 |
+| D | 63%: +$8,000 / -$25,000 | 69%: +$13,000 / -$17,000 | 71%: +$17,000 / -$23,000 |
+| E | 63%: +$12,000 / -$38,000 | 69%: +$20,000 / -$25,000 | 71%: +$25,000 / -$35,000 |
+
+- **The check against C8: passed exactly.**
+  - Option A reproduces section 4's C8 to the dollar: the floor pays $140,761 centrally, stated $130,000 (unrounded
+    $134,691); in simulated futures $113,169 / $140,649 / $169,686.
+  - Against A, the plan's funds pay less in 97.6% of futures, its stated top is below A's stated figure in 95.0%, and its
+    contribution plus flexibility is more in 62.8%: C8's three shares, future by future.
+  - A's contribution plus flexibility equals C8's payout in every future; A's flexibility is only what the floor pays
+    above its stated figure ($10,761 centrally).
+  - Option B reproduces section 4 (central, simulated futures, US stocks), 8i (stated ends, contribution, excess and
+    half kept identical in all 585 starting months) and 8k ($40,404 / $78,584 / $120,375 returned; the top-up's $45,456).
+- **Reading, against C to E (notes, not wording):**
+  - *What the plan gives up:* more shares leave Laura more in all in about 63 of 100 simulated futures (69 and 71 of 100
+    on history), by a median $4,000, $8,000 and $12,000 (C, D, E), and her flexibility is $18,000 to $56,000 larger at
+    the median.
+  - *What it gets:* a bottom owned from January 2028 of $95,000 against $65,000, $30,000 and nothing; a contribution
+    under $95,000 in 3 of 100 simulated futures against 26, 62 and 79; a lowest contribution since 1871 of $100,000
+    against $70,000, $40,000 and $10,000 (VT bought in 1929); a 1-in-20 low of all money $5,000 to $25,000 higher in simulated
+    futures and on US stocks (with rates and stocks together, C's is $2,000 above B's); and "most of the 2028 deposit"
+    kept. Against A, the plan gives up $15,000 of the median contribution for $20,000 more median flexibility, at the
+    same 1-in-20 low of all money ($159,000).
+- **Limits.** Stocks and rates are drawn apart in the simulated futures (section 7). US stocks since 1871 grew faster
+  than the 7.5% a year assumed (median about 9.8% a year over the three years to the move), which favours C to E on
+  that basis. E has no floor, so it has no bottom to state in January
+  2028. C to E are not choices open to Caplet: the IPS is frozen.
+
 ## 9. Still to add (later days)
 - **The exhibits are not yet re-built on these figures.** `exhibits/exhibit_data.py` reads 8h (per payment: own holding above $50,000 and backstop cover, now in four worlds), section 4 and 8i (Exhibit 3). Re-run it, then `exhibits/build_exhibits.py`; this register run did not touch them. `exhibit_data.py` should read the backstop's value on 1 Jan 2033 ($45,456), not its cost carried ($45,487).
 - **Cards Q19, Q20 and Q24 refresh to these figures** (section 10). Q24's Taiwan dollar test (verdict 3, rows 22-25, card 4) is replaced by 8j.

@@ -97,3 +97,27 @@ the next blind re-rank (scheduled Mon 16 Nov), so that one panel reads every wee
 - Strand: research and decision process
 - Related: N-06
 - Evidence: `keel/final_report/research/panel/2026-11-11_fresh_reader_exhibits.md` (items 2, 3 and 4); `keel/final_report/SCORECARD.md` (log, Wed 11 Nov, morning); `keel/final_report/exhibits/`
+
+### N-09: Three judges said "right, but too dense", and we cut instead of adding
+- Date (Sydney): Thu 12 Nov
+- Origin: KEEL
+- What happened: A second blind panel of three judges (a finance professor, a wealth manager who writes investment policies for authors and artists, and a former finalist reading as a first-round volunteer) read our report plan. They scored its content about 4 out of 5, up from about 3.3 three days earlier, but its clarity about 3. All three put the facility contribution and the 2031 range at 2 for clarity. The former finalist wrote that after reading the contribution part "I could not say afterwards what the recommended contribution was"; the professor counted six to twelve figures in front of each point.
+- Stakes: Every fix we had taken from a reader had been added to a part; none had been taken out. A first-round judge who cannot repeat the answer marks two criteria down together.
+- Decision or response: The same morning each part of the plan was cut to one answer and one headline number, with no probability rarer than 1 in 100 in the prose; the rest went to the exhibits' notes or stayed in the research store. The plan lost 170 words.
+- What changed afterwards: The contribution now leads with one figure, about $115,000, and the range with three sentences. Our own scorecard fell from 3.17 to 2.75 because the readers, not Keel, now set every clarity score.
+- Vivid detail: "Top 50: yes, likely. Top 10: not as planned. The plan is written for the three hardest readers it has met, not for me at minute four."
+- Strand: research and decision process
+- Related: N-08
+- Evidence: `keel/final_report/research/panel/2026-11-12_judge_finalist.md` (sections 4 and 5); `keel/final_report/research/panel/2026-11-12_judge_faculty.md` (section 4); `keel/final_report/SKELETON.md` ("Panel 2's density cut"); `keel/final_report/SCORECARD.md` (log, Thu 12 Nov, morning)
+
+### N-10: A true sentence that read as a contradiction
+- Date (Sydney): Thu 12 Nov
+- Origin: KEEL
+- What happened: Our plan said the ladder was "maturity-matched, not duration-matched", which is the precise description. A blind judge set it beside the team's submitted trading-note reflection, which says the bonds "remove uncertainty, through duration-matching", and read it as the team contradicting its own submitted work. The same judge read the standard we set on 10 Nov (every payment paid even if interest earns nothing) as the IPS being revised, where the IPS had said the ten cost "roughly $300,000".
+- Stakes: Wharton requires the report to stay consistent with the IPS; a judge who sees a revision can mark the whole strategy down.
+- Decision or response: The report will say the true thing positively ("matched payment by payment") and never negate a submitted phrase; the top-up is said as the IPS's own clause ("we'll simply complete it with the 2028 deposit"), dated from January 2028.
+- What changed afterwards: A seventh way the report could fail was added to the plan ("it reads as the IPS changed"), and our coherence checks now ask how a judge reads two texts side by side, not only whether a claim is true.
+- Vivid detail: Both of our checks had passed both sentences, because both were true.
+- Strand: research and decision process
+- Related: N-09
+- Evidence: `keel/final_report/research/panel/2026-11-12_judge_finalist.md` (section 3 and the hand-back); `keel/final_report/INTENT.md` (failure 7); `keel/final_report/CANON.md` C12; `keel/final_report/LESSONS.md` (Thu 12 Nov, morning)

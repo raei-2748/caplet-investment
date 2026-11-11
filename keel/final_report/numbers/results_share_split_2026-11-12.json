@@ -1,0 +1,2535 @@
+{
+ "stamp": {
+  "run": "Thu 12 Nov 2026 morning (Sydney)",
+  "curve": "11/06/2026",
+  "design": "H_plain",
+  "register": "Tue 10 Nov 2026 (NUMBERS 0, 3, 4, 8h, 8i, 8k, 8l)",
+  "haircut": 0.005,
+  "step": 5000.0,
+  "status": "MODEL; a benchmark, not a recommendation",
+  "options": {
+   "A": "All to the floor (C8, the all-Treasury benchmark)",
+   "B": "The plan: floor gets the larger of 73.3% of what is left and $75,001",
+   "C": "Half floor, half VT",
+   "D": "A quarter floor, three quarters VT",
+   "E": "All VT"
+  },
+  "money_compared": "what is left in January 2028 after the top-up (plan.run R)",
+  "conventions": "contribution, excess and half kept at face (15 Dec 2032 / 1 Jan 2033), as NUMBERS 4; what comes back from the top-up in 1 Jan 2033 money, as NUMBERS 8h and 8k; stated figures and the contribution read without interpolation (method 'lower'), others linear"
+ },
+ "topup_return_forwards_jan2033": 45455.57570475247,
+ "options": {
+  "A": {
+   "label": "All to the floor (C8, the all-Treasury benchmark)",
+   "central_today": {
+    "floor_money_jan2028": 111717.85775037149,
+    "vt_bought_jan2028": 0.0,
+    "floor_share_of_deposit": 0.74478571833581,
+    "keeps_most_of_2028_deposit": true,
+    "stated_bottom": 130000.0,
+    "stated_top": 130000.0,
+    "bottom_raw": 134691.08004938584,
+    "top_raw": 134691.08004938584,
+    "funds_pay": 140761.31560783152,
+    "contribution": 130000.0,
+    "excess": 10761.315607831522,
+    "half_kept": 0.0,
+    "flexibility": 10761.315607831522,
+    "contribution_plus_flexibility": 140761.31560783152,
+    "topup_return": 45455.57570475247,
+    "all_money": 186216.891312584
+   },
+   "house": {
+    "paths": 200000,
+    "stated_bottom_p5_p50_p95": [
+     105000.0,
+     130000.0,
+     160000.0
+    ],
+    "stated_top_p5_p50_p95": [
+     105000.0,
+     130000.0,
+     160000.0
+    ],
+    "contribution_p5_p50_p95": [
+     105000.0,
+     130000.0,
+     160000.0
+    ],
+    "contribution_p5_p50_p95_linear": [
+     105000.0,
+     130000.0,
+     160000.0
+    ],
+    "contribution_min": 65000.0,
+    "share_contribution_below_95k": 0.004625,
+    "share_contribution_equals_stated_top": 1.0,
+    "share_stated_bottom_zero": 0.0,
+    "flexibility_p5_p50_p95": [
+     4980.513058038351,
+     8620.290492974214,
+     12704.196433143488
+    ],
+    "flexibility_min": 985.9134245493042,
+    "half_kept_p5_p50_p95": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "excess_p5_p50_p95": [
+     4980.513058038351,
+     8620.290492974214,
+     12704.196433143488
+    ],
+    "funds_pay_p5_p50_p95": [
+     113168.99387705818,
+     140649.2255136441,
+     169686.00525312233
+    ],
+    "contribution_plus_flexibility_p5_p50_p95": [
+     113168.99387705818,
+     140649.2255136441,
+     169686.00525312233
+    ],
+    "topup_return_p5_p50_p95": [
+     45455.57570475247,
+     45455.57570475247,
+     45455.57570475247
+    ],
+    "all_money_p5_p50_p95": [
+     158624.56958181065,
+     186104.80121839658,
+     215141.5809578748
+    ],
+    "all_money_min": 112436.13032146703,
+    "floor_money_p5_p50_p95": [
+     95321.2424628073,
+     111661.56227717412,
+     126896.82349426579
+    ],
+    "floor_share_of_deposit_p50": 0.7444104151811608,
+    "share_floor_money_over_half_deposit": 0.999725,
+    "vt_bought_p5_p50_p95": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "against_plan": {
+     "share_contribution_above_plan": 0.949545,
+     "share_contribution_below_plan": 0.015945,
+     "contribution_difference_p5_p50_p95": [
+      0.0,
+      15000.0,
+      25000.0
+     ],
+     "share_all_money_above_plan": 0.37185,
+     "all_money_difference_p5_p50_p95": [
+      -34719.80278389117,
+      -4067.299554523008,
+      13713.664060761006
+     ],
+     "flexibility_difference_p5_p50_p95": [
+      -40674.24852779191,
+      -19769.17967294868,
+      -8291.65169904843
+     ]
+    }
+   },
+   "history": {
+    "paths": 1770,
+    "stated_bottom_p5_p50_p95": [
+     130000.0,
+     130000.0,
+     130000.0
+    ],
+    "stated_top_p5_p50_p95": [
+     130000.0,
+     130000.0,
+     130000.0
+    ],
+    "contribution_p5_p50_p95": [
+     130000.0,
+     130000.0,
+     130000.0
+    ],
+    "contribution_p5_p50_p95_linear": [
+     130000.0,
+     130000.0,
+     130000.0
+    ],
+    "contribution_min": 130000.0,
+    "share_contribution_below_95k": 0.0,
+    "share_contribution_equals_stated_top": 1.0,
+    "share_stated_bottom_zero": 0.0,
+    "flexibility_p5_p50_p95": [
+     10761.315607831522,
+     10761.315607831522,
+     10761.315607831522
+    ],
+    "flexibility_min": 10761.315607831522,
+    "half_kept_p5_p50_p95": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "excess_p5_p50_p95": [
+     10761.315607831522,
+     10761.315607831522,
+     10761.315607831522
+    ],
+    "funds_pay_p5_p50_p95": [
+     140761.31560783152,
+     140761.31560783152,
+     140761.31560783152
+    ],
+    "contribution_plus_flexibility_p5_p50_p95": [
+     140761.31560783152,
+     140761.31560783152,
+     140761.31560783152
+    ],
+    "topup_return_p5_p50_p95": [
+     45455.57570475247,
+     45455.57570475247,
+     45455.57570475247
+    ],
+    "all_money_p5_p50_p95": [
+     186216.891312584,
+     186216.891312584,
+     186216.891312584
+    ],
+    "all_money_min": 186216.891312584,
+    "floor_money_p5_p50_p95": [
+     111717.85775037149,
+     111717.85775037149,
+     111717.85775037149
+    ],
+    "floor_share_of_deposit_p50": 0.74478571833581,
+    "share_floor_money_over_half_deposit": 1.0,
+    "vt_bought_p5_p50_p95": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "worst_contribution": {
+     "value": 130000.0,
+     "start": "1871-01",
+     "stated_bottom": 130000.0,
+     "stated_top": 130000.0,
+     "contribution": 130000.0,
+     "flexibility": 10761.315607831522,
+     "all_money": 186216.891312584,
+     "windows_at_minimum": 1770,
+     "starts_at_minimum_first_12": [
+      "1871-01",
+      "1871-02",
+      "1871-03",
+      "1871-04",
+      "1871-05",
+      "1871-06",
+      "1871-07",
+      "1871-08",
+      "1871-09",
+      "1871-10",
+      "1871-11",
+      "1871-12"
+     ]
+    },
+    "worst_flexibility": {
+     "value": 10761.315607831522,
+     "start": "1871-01",
+     "stated_bottom": 130000.0,
+     "stated_top": 130000.0,
+     "contribution": 130000.0,
+     "flexibility": 10761.315607831522,
+     "all_money": 186216.891312584,
+     "windows_at_minimum": 1770,
+     "starts_at_minimum_first_12": [
+      "1871-01",
+      "1871-02",
+      "1871-03",
+      "1871-04",
+      "1871-05",
+      "1871-06",
+      "1871-07",
+      "1871-08",
+      "1871-09",
+      "1871-10",
+      "1871-11",
+      "1871-12"
+     ]
+    },
+    "worst_all_money": {
+     "value": 186216.891312584,
+     "start": "1871-01",
+     "stated_bottom": 130000.0,
+     "stated_top": 130000.0,
+     "contribution": 130000.0,
+     "flexibility": 10761.315607831522,
+     "all_money": 186216.891312584,
+     "windows_at_minimum": 1770,
+     "starts_at_minimum_first_12": [
+      "1871-01",
+      "1871-02",
+      "1871-03",
+      "1871-04",
+      "1871-05",
+      "1871-06",
+      "1871-07",
+      "1871-08",
+      "1871-09",
+      "1871-10",
+      "1871-11",
+      "1871-12"
+     ]
+    },
+    "worst_stated_top": {
+     "value": 130000.0,
+     "start": "1871-01",
+     "stated_bottom": 130000.0,
+     "stated_top": 130000.0,
+     "contribution": 130000.0,
+     "flexibility": 10761.315607831522,
+     "all_money": 186216.891312584,
+     "windows_at_minimum": 1770,
+     "starts_at_minimum_first_12": [
+      "1871-01",
+      "1871-02",
+      "1871-03",
+      "1871-04",
+      "1871-05",
+      "1871-06",
+      "1871-07",
+      "1871-08",
+      "1871-09",
+      "1871-10",
+      "1871-11",
+      "1871-12"
+     ]
+    },
+    "against_plan": {
+     "share_contribution_above_plan": 0.9254237288135593,
+     "share_contribution_below_plan": 0.010169491525423728,
+     "contribution_difference_p5_p50_p95": [
+      0.0,
+      15000.0,
+      20000.0
+     ],
+     "share_all_money_above_plan": 0.30847457627118646,
+     "all_money_difference_p5_p50_p95": [
+      -33096.24477236263,
+      -7301.607103262519,
+      9213.559076356587
+     ],
+     "flexibility_difference_p5_p50_p95": [
+      -37637.364461708836,
+      -20140.264011675157,
+      -9257.374812750639
+     ]
+    }
+   },
+   "joint": {
+    "paths": 585,
+    "stated_bottom_p5_p50_p95": [
+     110000.0,
+     130000.0,
+     160000.0
+    ],
+    "stated_top_p5_p50_p95": [
+     110000.0,
+     130000.0,
+     160000.0
+    ],
+    "contribution_p5_p50_p95": [
+     110000.0,
+     130000.0,
+     160000.0
+    ],
+    "contribution_p5_p50_p95_linear": [
+     110000.0,
+     130000.0,
+     160000.0
+    ],
+    "contribution_min": 95000.0,
+    "share_contribution_below_95k": 0.0,
+    "share_contribution_equals_stated_top": 1.0,
+    "share_stated_bottom_zero": 0.0,
+    "flexibility_p5_p50_p95": [
+     3828.6460824296755,
+     8465.82657421066,
+     14781.316647614978
+    ],
+    "flexibility_min": 1210.233048484748,
+    "half_kept_p5_p50_p95": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "excess_p5_p50_p95": [
+     3828.6460824296755,
+     8465.82657421066,
+     14781.316647614978
+    ],
+    "funds_pay_p5_p50_p95": [
+     115576.34657361386,
+     140760.8540027878,
+     172027.07520440104
+    ],
+    "contribution_plus_flexibility_p5_p50_p95": [
+     115576.34657361386,
+     140760.8540027878,
+     172027.07520440104
+    ],
+    "topup_return_p5_p50_p95": [
+     18053.428883245368,
+     43469.24108866429,
+     84845.35276739176
+    ],
+    "all_money_p5_p50_p95": [
+     136559.50442943184,
+     184639.58127294437,
+     245602.30391110468
+    ],
+    "all_money_min": 111436.8689906308,
+    "floor_money_p5_p50_p95": [
+     102293.93141542566,
+     111602.77660918575,
+     120005.33185969162
+    ],
+    "floor_share_of_deposit_p50": 0.744018510727905,
+    "share_floor_money_over_half_deposit": 1.0,
+    "vt_bought_p5_p50_p95": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "worst_contribution": {
+     "value": 95000.0,
+     "start": "2007-12",
+     "stated_bottom": 95000.0,
+     "stated_top": 95000.0,
+     "contribution": 95000.0,
+     "flexibility": 2476.05278310024,
+     "all_money": 111436.8689906308,
+     "vt_bought": "2008-12",
+     "windows_at_minimum": 6,
+     "starts_at_minimum_first_12": [
+      "2007-12",
+      "2008-01",
+      "2008-06",
+      "2008-07",
+      "2008-08",
+      "2008-09"
+     ],
+     "vt_bought_at_minimum_first_12": [
+      "2008-12",
+      "2009-01",
+      "2009-06",
+      "2009-07",
+      "2009-08",
+      "2009-09"
+     ]
+    },
+    "worst_flexibility": {
+     "value": 1210.233048484748,
+     "start": "2007-10",
+     "stated_bottom": 105000.0,
+     "stated_top": 105000.0,
+     "contribution": 105000.0,
+     "flexibility": 1210.233048484748,
+     "all_money": 118268.31556905295,
+     "vt_bought": "2008-10",
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "2007-10"
+     ],
+     "vt_bought_at_minimum_first_12": [
+      "2008-10"
+     ]
+    },
+    "worst_all_money": {
+     "value": 111436.8689906308,
+     "start": "2007-12",
+     "stated_bottom": 95000.0,
+     "stated_top": 95000.0,
+     "contribution": 95000.0,
+     "flexibility": 2476.05278310024,
+     "all_money": 111436.8689906308,
+     "vt_bought": "2008-12",
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "2007-12"
+     ],
+     "vt_bought_at_minimum_first_12": [
+      "2008-12"
+     ]
+    },
+    "worst_stated_top": {
+     "value": 95000.0,
+     "start": "2007-12",
+     "stated_bottom": 95000.0,
+     "stated_top": 95000.0,
+     "contribution": 95000.0,
+     "flexibility": 2476.05278310024,
+     "all_money": 111436.8689906308,
+     "vt_bought": "2008-12",
+     "windows_at_minimum": 6,
+     "starts_at_minimum_first_12": [
+      "2007-12",
+      "2008-01",
+      "2008-06",
+      "2008-07",
+      "2008-08",
+      "2008-09"
+     ],
+     "vt_bought_at_minimum_first_12": [
+      "2008-12",
+      "2009-01",
+      "2009-06",
+      "2009-07",
+      "2009-08",
+      "2009-09"
+     ]
+    },
+    "against_plan": {
+     "share_contribution_above_plan": 0.9794871794871794,
+     "share_contribution_below_plan": 0.0,
+     "contribution_difference_p5_p50_p95": [
+      5000.0,
+      15000.0,
+      25000.0
+     ],
+     "share_all_money_above_plan": 0.28717948717948716,
+     "all_money_difference_p5_p50_p95": [
+      -35086.60054102438,
+      -9263.698845320585,
+      12793.315446146322
+     ],
+     "flexibility_difference_p5_p50_p95": [
+      -41217.10856251039,
+      -22541.754397012774,
+      -12259.601902027513
+     ]
+    },
+    "all_money_8k_convention_p5_p50_p95": [
+     136750.28681615487,
+     184964.71788798622,
+     245896.5815148025
+    ],
+    "returns_8k_convention_p5_p50_p95": [
+     22522.722571997827,
+     52986.42049565138,
+     97768.68309188802
+    ]
+   }
+  },
+  "B": {
+   "label": "The plan: floor gets the larger of 73.3% of what is left and $75,001",
+   "central_today": {
+    "floor_money_jan2028": 81889.1897310223,
+    "vt_bought_jan2028": 29828.668019349192,
+    "floor_share_of_deposit": 0.5459279315401486,
+    "keeps_most_of_2028_deposit": true,
+    "stated_bottom": 95000.0,
+    "stated_top": 115000.0,
+    "bottom_raw": 98728.56167619981,
+    "top_raw": 118443.45865122353,
+    "funds_pay": 123475.55754783844,
+    "contribution": 115000.0,
+    "excess": 8475.557547838442,
+    "half_kept": 21347.297953761732,
+    "flexibility": 29822.855501600174,
+    "contribution_plus_flexibility": 144822.85550160016,
+    "topup_return": 45455.57570475247,
+    "all_money": 190278.43120635263
+   },
+   "house": {
+    "paths": 200000,
+    "stated_bottom_p5_p50_p95": [
+     85000.0,
+     95000.0,
+     115000.0
+    ],
+    "stated_top_p5_p50_p95": [
+     95000.0,
+     115000.0,
+     140000.0
+    ],
+    "contribution_p5_p50_p95": [
+     95000.0,
+     115000.0,
+     140000.0
+    ],
+    "contribution_p5_p50_p95_linear": [
+     95000.0,
+     115000.0,
+     140000.0
+    ],
+    "contribution_min": 65000.0,
+    "share_contribution_below_95k": 0.025235,
+    "share_contribution_equals_stated_top": 1.0,
+    "share_stated_bottom_zero": 0.0,
+    "flexibility_p5_p50_p95": [
+     16193.060743308508,
+     28540.632639984036,
+     49923.93165155483
+    ],
+    "flexibility_min": 1916.7165199425217,
+    "half_kept_p5_p50_p95": [
+     9881.236889574937,
+     20738.638468607984,
+     41258.136025700245
+    ],
+    "excess_p5_p50_p95": [
+     4339.732387873777,
+     7629.1054462812535,
+     11218.222198070978
+    ],
+    "funds_pay_p5_p50_p95": [
+     101092.84611771931,
+     124007.7665514291,
+     152051.4357665914
+    ],
+    "contribution_plus_flexibility_p5_p50_p95": [
+     113448.68481034618,
+     145686.58936748677,
+     187490.10920966437
+    ],
+    "topup_return_p5_p50_p95": [
+     45455.57570475247,
+     45455.57570475247,
+     45455.57570475247
+    ],
+    "all_money_p5_p50_p95": [
+     158904.26051509863,
+     191142.16507223924,
+     232945.68491441684
+    ],
+    "all_money_min": 112436.13032146703,
+    "floor_money_p5_p50_p95": [
+     75001.0,
+     81847.92514916862,
+     93015.37162129683
+    ],
+    "floor_share_of_deposit_p50": 0.5456528343277908,
+    "share_floor_money_over_half_deposit": 0.999725,
+    "vt_bought_p5_p50_p95": [
+     20320.2424628073,
+     29813.637128005495,
+     33881.45187296896
+    ]
+   },
+   "history": {
+    "paths": 1770,
+    "stated_bottom_p5_p50_p95": [
+     95000.0,
+     95000.0,
+     95000.0
+    ],
+    "stated_top_p5_p50_p95": [
+     110000.0,
+     115000.0,
+     130000.0
+    ],
+    "contribution_p5_p50_p95": [
+     110000.0,
+     115000.0,
+     130000.0
+    ],
+    "contribution_p5_p50_p95_linear": [
+     110000.0,
+     115000.0,
+     130000.0
+    ],
+    "contribution_min": 100000.0,
+    "share_contribution_below_95k": 0.0,
+    "share_contribution_equals_stated_top": 1.0,
+    "share_stated_bottom_zero": 0.0,
+    "flexibility_p5_p50_p95": [
+     20018.69042058216,
+     30901.57961950668,
+     48398.68006954035
+    ],
+    "flexibility_min": 12838.137706827445,
+    "half_kept_p5_p50_p95": [
+     13238.259705759978,
+     23481.232203086234,
+     40607.47252898624
+    ],
+    "excess_p5_p50_p95": [
+     5322.161735611427,
+     7524.395054399283,
+     9846.011575431485
+    ],
+    "funds_pay_p5_p50_p95": [
+     116782.4635181632,
+     124810.02386863026,
+     136745.67787431946
+    ],
+    "contribution_plus_flexibility_p5_p50_p95": [
+     131547.75653147494,
+     148062.92271109403,
+     173857.56038019416
+    ],
+    "topup_return_p5_p50_p95": [
+     45455.57570475247,
+     45455.57570475247,
+     45455.57570475247
+    ],
+    "all_money_p5_p50_p95": [
+     177003.3322362274,
+     193518.4984158465,
+     219313.13608494663
+    ],
+    "all_money_min": 158890.86555352446,
+    "floor_money_p5_p50_p95": [
+     81889.1897310223,
+     81889.1897310223,
+     81889.1897310223
+    ],
+    "floor_share_of_deposit_p50": 0.5459279315401486,
+    "share_floor_money_over_half_deposit": 1.0,
+    "vt_bought_p5_p50_p95": [
+     29828.668019349192,
+     29828.668019349192,
+     29828.668019349192
+    ],
+    "worst_contribution": {
+     "value": 100000.0,
+     "start": "1929-01",
+     "stated_bottom": 95000.0,
+     "stated_top": 100000.0,
+     "contribution": 100000.0,
+     "flexibility": 18128.379010657416,
+     "all_money": 163583.9547154099,
+     "windows_at_minimum": 13,
+     "starts_at_minimum_first_12": [
+      "1929-01",
+      "1929-02",
+      "1929-03",
+      "1929-04",
+      "1929-05",
+      "1929-06",
+      "1929-07",
+      "1929-08",
+      "1929-09",
+      "1929-10",
+      "1930-02",
+      "1930-03"
+     ]
+    },
+    "worst_flexibility": {
+     "value": 12838.137706827445,
+     "start": "1928-03",
+     "stated_bottom": 95000.0,
+     "stated_top": 115000.0,
+     "contribution": 115000.0,
+     "flexibility": 12838.137706827445,
+     "all_money": 173293.7134115799,
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "1928-03"
+     ]
+    },
+    "worst_all_money": {
+     "value": 158890.86555352446,
+     "start": "1929-07",
+     "stated_bottom": 95000.0,
+     "stated_top": 100000.0,
+     "contribution": 100000.0,
+     "flexibility": 13435.289848771985,
+     "all_money": 158890.86555352446,
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "1929-07"
+     ]
+    },
+    "worst_stated_top": {
+     "value": 100000.0,
+     "start": "1929-01",
+     "stated_bottom": 95000.0,
+     "stated_top": 100000.0,
+     "contribution": 100000.0,
+     "flexibility": 18128.379010657416,
+     "all_money": 163583.9547154099,
+     "windows_at_minimum": 13,
+     "starts_at_minimum_first_12": [
+      "1929-01",
+      "1929-02",
+      "1929-03",
+      "1929-04",
+      "1929-05",
+      "1929-06",
+      "1929-07",
+      "1929-08",
+      "1929-09",
+      "1929-10",
+      "1930-02",
+      "1930-03"
+     ]
+    }
+   },
+   "joint": {
+    "paths": 585,
+    "stated_bottom_p5_p50_p95": [
+     80000.0,
+     95000.0,
+     115000.0
+    ],
+    "stated_top_p5_p50_p95": [
+     95000.0,
+     115000.0,
+     140000.0
+    ],
+    "contribution_p5_p50_p95": [
+     95000.0,
+     115000.0,
+     140000.0
+    ],
+    "contribution_p5_p50_p95_linear": [
+     95000.0,
+     115000.0,
+     143999.99999999977
+    ],
+    "contribution_min": 90000.0,
+    "share_contribution_below_95k": 0.02564102564102564,
+    "share_contribution_equals_stated_top": 1.0,
+    "share_stated_bottom_zero": 0.0,
+    "flexibility_p5_p50_p95": [
+     19689.865491985405,
+     31808.792229182756,
+     49629.14676365184
+    ],
+    "flexibility_min": 15965.26877419572,
+    "half_kept_p5_p50_p95": [
+     13873.816614965925,
+     23600.62243549682,
+     42014.51257881865
+    ],
+    "excess_p5_p50_p95": [
+     3521.539246672802,
+     7671.270769649214,
+     13133.724828631126
+    ],
+    "funds_pay_p5_p50_p95": [
+     100886.5867727217,
+     125143.15706543377,
+     154210.46432425675
+    ],
+    "contribution_plus_flexibility_p5_p50_p95": [
+     120018.93354847346,
+     147719.6444967717,
+     187389.4553422056
+    ],
+    "topup_return_p5_p50_p95": [
+     18053.428883245368,
+     43469.24108866429,
+     84845.35276739176
+    ],
+    "all_money_p5_p50_p95": [
+     138042.57194189317,
+     197887.31953710518,
+     260461.73704737387
+    ],
+    "all_money_min": 122147.97307687347,
+    "floor_money_p5_p50_p95": [
+     75006.31450734973,
+     81804.83525453316,
+     87963.90825315396
+    ],
+    "floor_share_of_deposit_p50": 0.5453655683635544,
+    "share_floor_money_over_half_deposit": 1.0,
+    "vt_bought_p5_p50_p95": [
+     27287.616908075932,
+     29797.94135465259,
+     32041.423606537664
+    ],
+    "worst_contribution": {
+     "value": 90000.0,
+     "start": "2000-10",
+     "stated_bottom": 80000.0,
+     "stated_top": 90000.0,
+     "contribution": 90000.0,
+     "flexibility": 24069.76424446609,
+     "all_money": 130316.13297823751,
+     "vt_bought": "2001-10",
+     "windows_at_minimum": 15,
+     "starts_at_minimum_first_12": [
+      "2000-10",
+      "2000-11",
+      "2000-12",
+      "2007-02",
+      "2007-03",
+      "2007-04",
+      "2007-05",
+      "2007-12",
+      "2008-01",
+      "2008-06",
+      "2008-07",
+      "2008-08"
+     ],
+     "vt_bought_at_minimum_first_12": [
+      "2001-10",
+      "2001-11",
+      "2001-12",
+      "2008-02",
+      "2008-03",
+      "2008-04",
+      "2008-05",
+      "2008-12",
+      "2009-01",
+      "2009-06",
+      "2009-07",
+      "2009-08"
+     ]
+    },
+    "worst_flexibility": {
+     "value": 15965.26877419572,
+     "start": "2006-05",
+     "stated_bottom": 95000.0,
+     "stated_top": 110000.0,
+     "contribution": 110000.0,
+     "flexibility": 15965.26877419572,
+     "all_money": 145735.1435760955,
+     "vt_bought": "2007-05",
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "2006-05"
+     ],
+     "vt_bought_at_minimum_first_12": [
+      "2007-05"
+     ]
+    },
+    "worst_all_money": {
+     "value": 122147.97307687347,
+     "start": "2007-03",
+     "stated_bottom": 75000.0,
+     "stated_top": 90000.0,
+     "contribution": 90000.0,
+     "flexibility": 17786.662837748394,
+     "all_money": 122147.97307687347,
+     "vt_bought": "2008-03",
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "2007-03"
+     ],
+     "vt_bought_at_minimum_first_12": [
+      "2008-03"
+     ]
+    },
+    "worst_stated_top": {
+     "value": 90000.0,
+     "start": "2000-10",
+     "stated_bottom": 80000.0,
+     "stated_top": 90000.0,
+     "contribution": 90000.0,
+     "flexibility": 24069.76424446609,
+     "all_money": 130316.13297823751,
+     "vt_bought": "2001-10",
+     "windows_at_minimum": 15,
+     "starts_at_minimum_first_12": [
+      "2000-10",
+      "2000-11",
+      "2000-12",
+      "2007-02",
+      "2007-03",
+      "2007-04",
+      "2007-05",
+      "2007-12",
+      "2008-01",
+      "2008-06",
+      "2008-07",
+      "2008-08"
+     ],
+     "vt_bought_at_minimum_first_12": [
+      "2001-10",
+      "2001-11",
+      "2001-12",
+      "2008-02",
+      "2008-03",
+      "2008-04",
+      "2008-05",
+      "2008-12",
+      "2009-01",
+      "2009-06",
+      "2009-07",
+      "2009-08"
+     ]
+    },
+    "all_money_8k_convention_p5_p50_p95": [
+     138283.64764036945,
+     198154.81895917066,
+     261038.99267555613
+    ],
+    "returns_8k_convention_p5_p50_p95": [
+     40404.276864427586,
+     78583.58173398816,
+     120375.45220984073
+    ]
+   }
+  },
+  "C": {
+   "label": "Half floor, half VT",
+   "central_today": {
+    "floor_money_jan2028": 55858.928875185746,
+    "vt_bought_jan2028": 55858.928875185746,
+    "floor_share_of_deposit": 0.372392859167905,
+    "keeps_most_of_2028_deposit": false,
+    "stated_bottom": 65000.0,
+    "stated_top": 100000.0,
+    "bottom_raw": 67345.54002469292,
+    "top_raw": 104264.82274945642,
+    "funds_pay": 108390.9821621516,
+    "contribution": 100000.0,
+    "excess": 8390.982162151602,
+    "half_kept": 39976.21339655754,
+    "flexibility": 48367.19555870914,
+    "contribution_plus_flexibility": 148367.19555870915,
+    "topup_return": 45455.57570475247,
+    "all_money": 193822.77126346162
+   },
+   "house": {
+    "paths": 200000,
+    "stated_bottom_p5_p50_p95": [
+     50000.0,
+     65000.0,
+     80000.0
+    ],
+    "stated_top_p5_p50_p95": [
+     80000.0,
+     100000.0,
+     135000.0
+    ],
+    "contribution_p5_p50_p95": [
+     80000.0,
+     100000.0,
+     135000.0
+    ],
+    "contribution_p5_p50_p95_linear": [
+     80000.0,
+     100000.0,
+     135000.0
+    ],
+    "contribution_min": 45000.0,
+    "share_contribution_below_95k": 0.264195,
+    "share_contribution_equals_stated_top": 1.0,
+    "share_stated_bottom_zero": 0.0,
+    "flexibility_p5_p50_p95": [
+     26062.65078422641,
+     46491.26101374375,
+     85513.76549171875
+    ],
+    "flexibility_min": 9235.30681038769,
+    "half_kept_p5_p50_p95": [
+     20268.95250363397,
+     39724.91310589665,
+     77785.453381927
+    ],
+    "excess_p5_p50_p95": [
+     3649.03825567088,
+     6739.9045684967205,
+     10017.004217553917
+    ],
+    "funds_pay_p5_p50_p95": [
+     83921.5296687247,
+     108731.74025002558,
+     141949.27543799888
+    ],
+    "contribution_plus_flexibility_p5_p50_p95": [
+     108247.40771318774,
+     148951.56002289554,
+     214021.3361293963
+    ],
+    "topup_return_p5_p50_p95": [
+     45455.57570475247,
+     45455.57570475247,
+     45455.57570475247
+    ],
+    "all_money_p5_p50_p95": [
+     153702.9834179402,
+     194407.135727648,
+     259476.91183414878
+    ],
+    "all_money_min": 107695.18774439995,
+    "floor_money_p5_p50_p95": [
+     47660.62123140365,
+     55830.78113858706,
+     63448.411747132894
+    ],
+    "floor_share_of_deposit_p50": 0.3722052075905804,
+    "share_floor_money_over_half_deposit": 1e-05,
+    "vt_bought_p5_p50_p95": [
+     47660.62123140365,
+     55830.78113858706,
+     63448.411747132894
+    ],
+    "against_plan": {
+     "share_contribution_above_plan": 0.01543,
+     "share_contribution_below_plan": 0.950165,
+     "contribution_difference_p5_p50_p95": [
+      -25000.0,
+      -15000.0,
+      -5000.0
+     ],
+     "share_all_money_above_plan": 0.62805,
+     "all_money_difference_p5_p50_p95": [
+      -12270.457592992216,
+      3834.939491080164,
+      31695.60592010475
+     ],
+     "flexibility_difference_p5_p50_p95": [
+      8037.815526056279,
+      18184.165102251056,
+      36670.880273385985
+     ]
+    }
+   },
+   "history": {
+    "paths": 1770,
+    "stated_bottom_p5_p50_p95": [
+     65000.0,
+     65000.0,
+     65000.0
+    ],
+    "stated_top_p5_p50_p95": [
+     90000.0,
+     105000.0,
+     125000.0
+    ],
+    "contribution_p5_p50_p95": [
+     90000.0,
+     105000.0,
+     125000.0
+    ],
+    "contribution_p5_p50_p95_linear": [
+     90000.0,
+     105000.0,
+     125000.0
+    ],
+    "contribution_min": 70000.0,
+    "share_contribution_below_95k": 0.11073446327683616,
+    "share_contribution_equals_stated_top": 1.0,
+    "share_stated_bottom_zero": 0.0,
+    "flexibility_p5_p50_p95": [
+     30847.75336022525,
+     50559.437768239964,
+     82868.68297409239
+    ],
+    "flexibility_min": 16131.154316899152,
+    "half_kept_p5_p50_p95": [
+     24790.74851265913,
+     43972.34494959968,
+     76043.95604679073
+    ],
+    "excess_p5_p50_p95": [
+     4483.266989799156,
+     6792.935764140348,
+     8952.17841320561
+    ],
+    "funds_pay_p5_p50_p95": [
+     95857.0982114489,
+     110889.98276288534,
+     133241.394758558
+    ],
+    "contribution_plus_flexibility_p5_p50_p95": [
+     123507.45965959821,
+     154434.73714952162,
+     202739.30207293006
+    ],
+    "topup_return_p5_p50_p95": [
+     45455.57570475247,
+     45455.57570475247,
+     45455.57570475247
+    ],
+    "all_money_p5_p50_p95": [
+     168963.03536435068,
+     199890.3128542741,
+     248194.87777768253
+    ],
+    "all_money_min": 135044.55843045004,
+    "floor_money_p5_p50_p95": [
+     55858.928875185746,
+     55858.928875185746,
+     55858.928875185746
+    ],
+    "floor_share_of_deposit_p50": 0.372392859167905,
+    "share_floor_money_over_half_deposit": 0.0,
+    "vt_bought_p5_p50_p95": [
+     55858.928875185746,
+     55858.928875185746,
+     55858.928875185746
+    ],
+    "worst_contribution": {
+     "value": 70000.0,
+     "start": "1929-05",
+     "stated_bottom": 65000.0,
+     "stated_top": 70000.0,
+     "contribution": 70000.0,
+     "flexibility": 22762.802900561415,
+     "all_money": 138218.3786053139,
+     "windows_at_minimum": 3,
+     "starts_at_minimum_first_12": [
+      "1929-05",
+      "1929-06",
+      "1929-07"
+     ]
+    },
+    "worst_flexibility": {
+     "value": 16131.154316899152,
+     "start": "1929-09",
+     "stated_bottom": 65000.0,
+     "stated_top": 75000.0,
+     "contribution": 75000.0,
+     "flexibility": 16131.154316899152,
+     "all_money": 136586.7300216516,
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "1929-09"
+     ]
+    },
+    "worst_all_money": {
+     "value": 135044.55843045004,
+     "start": "1929-07",
+     "stated_bottom": 65000.0,
+     "stated_top": 70000.0,
+     "contribution": 70000.0,
+     "flexibility": 19588.982725697555,
+     "all_money": 135044.55843045004,
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "1929-07"
+     ]
+    },
+    "worst_stated_top": {
+     "value": 70000.0,
+     "start": "1929-05",
+     "stated_bottom": 65000.0,
+     "stated_top": 70000.0,
+     "contribution": 70000.0,
+     "flexibility": 22762.802900561415,
+     "all_money": 138218.3786053139,
+     "windows_at_minimum": 3,
+     "starts_at_minimum_first_12": [
+      "1929-05",
+      "1929-06",
+      "1929-07"
+     ]
+    },
+    "against_plan": {
+     "share_contribution_above_plan": 0.0062146892655367235,
+     "share_contribution_below_plan": 0.9531073446327684,
+     "contribution_difference_p5_p50_p95": [
+      -20000.0,
+      -15000.0,
+      -5000.0
+     ],
+     "share_all_money_above_plan": 0.6915254237288135,
+     "all_money_difference_p5_p50_p95": [
+      -8040.29687187672,
+      6371.81443842758,
+      28881.741692735923
+     ],
+     "flexibility_difference_p5_p50_p95": [
+      9287.487937769327,
+      19748.87662258748,
+      34978.25524739488
+     ]
+    }
+   },
+   "joint": {
+    "paths": 585,
+    "stated_bottom_p5_p50_p95": [
+     55000.0,
+     65000.0,
+     80000.0
+    ],
+    "stated_top_p5_p50_p95": [
+     85000.0,
+     105000.0,
+     135000.0
+    ],
+    "contribution_p5_p50_p95": [
+     85000.0,
+     105000.0,
+     135000.0
+    ],
+    "contribution_p5_p50_p95_linear": [
+     85000.0,
+     105000.0,
+     135000.0
+    ],
+    "contribution_min": 75000.0,
+    "share_contribution_below_95k": 0.18632478632478633,
+    "share_contribution_equals_stated_top": 1.0,
+    "share_stated_bottom_zero": 0.0,
+    "flexibility_p5_p50_p95": [
+     31209.06889725934,
+     51514.80203126211,
+     87048.47619878873
+    ],
+    "flexibility_min": 25832.494861068288,
+    "half_kept_p5_p50_p95": [
+     25980.929990572895,
+     44568.1604659048,
+     78678.86250715102
+    ],
+    "excess_p5_p50_p95": [
+     2720.4535659691346,
+     6926.690469264751,
+     11598.379121062397
+    ],
+    "funds_pay_p5_p50_p95": [
+     87084.37155023089,
+     111550.46013858463,
+     143938.02883690645
+    ],
+    "contribution_plus_flexibility_p5_p50_p95": [
+     118792.73074322498,
+     155880.60496909183,
+     209225.41731099723
+    ],
+    "topup_return_p5_p50_p95": [
+     18053.428883245368,
+     43469.24108866429,
+     84845.35276739176
+    ],
+    "all_money_p5_p50_p95": [
+     139765.94242485173,
+     205410.87685862402,
+     278927.3656416644
+    ],
+    "all_money_min": 124448.9342151621,
+    "floor_money_p5_p50_p95": [
+     51146.96570771283,
+     55801.388304592874,
+     60002.66592984581
+    ],
+    "floor_share_of_deposit_p50": 0.3720092553639525,
+    "share_floor_money_over_half_deposit": 0.0,
+    "vt_bought_p5_p50_p95": [
+     51146.96570771283,
+     55801.388304592874,
+     60002.66592984581
+    ],
+    "worst_contribution": {
+     "value": 75000.0,
+     "start": "2007-03",
+     "stated_bottom": 50000.0,
+     "stated_top": 75000.0,
+     "contribution": 75000.0,
+     "flexibility": 35986.02620546684,
+     "all_money": 125347.33644459193,
+     "vt_bought": "2008-03",
+     "windows_at_minimum": 2,
+     "starts_at_minimum_first_12": [
+      "2007-03",
+      "2007-04"
+     ],
+     "vt_bought_at_minimum_first_12": [
+      "2008-03",
+      "2008-04"
+     ]
+    },
+    "worst_flexibility": {
+     "value": 25832.494861068288,
+     "start": "1998-07",
+     "stated_bottom": 65000.0,
+     "stated_top": 85000.0,
+     "contribution": 85000.0,
+     "flexibility": 25832.494861068288,
+     "all_money": 144861.68208067998,
+     "vt_bought": "1999-07",
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "1998-07"
+     ],
+     "vt_bought_at_minimum_first_12": [
+      "1999-07"
+     ]
+    },
+    "worst_all_money": {
+     "value": 124448.9342151621,
+     "start": "2007-04",
+     "stated_bottom": 50000.0,
+     "stated_top": 75000.0,
+     "contribution": 75000.0,
+     "flexibility": 35960.45478936969,
+     "all_money": 124448.9342151621,
+     "vt_bought": "2008-04",
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "2007-04"
+     ],
+     "vt_bought_at_minimum_first_12": [
+      "2008-04"
+     ]
+    },
+    "worst_stated_top": {
+     "value": 75000.0,
+     "start": "2007-03",
+     "stated_bottom": 50000.0,
+     "stated_top": 75000.0,
+     "contribution": 75000.0,
+     "flexibility": 35986.02620546684,
+     "all_money": 125347.33644459193,
+     "vt_bought": "2008-03",
+     "windows_at_minimum": 2,
+     "starts_at_minimum_first_12": [
+      "2007-03",
+      "2007-04"
+     ],
+     "vt_bought_at_minimum_first_12": [
+      "2008-03",
+      "2008-04"
+     ]
+    },
+    "against_plan": {
+     "share_contribution_above_plan": 0.0,
+     "share_contribution_below_plan": 0.976068376068376,
+     "contribution_difference_p5_p50_p95": [
+      -25000.0,
+      -10000.0,
+      -5000.0
+     ],
+     "share_all_money_above_plan": 0.7128205128205128,
+     "all_money_difference_p5_p50_p95": [
+      -11164.204115925426,
+      8084.051801347174,
+      30817.433927803293
+     ],
+     "flexibility_difference_p5_p50_p95": [
+      10010.476434050266,
+      20015.531160545353,
+      37222.14415866343
+     ]
+    },
+    "all_money_8k_convention_p5_p50_p95": [
+     139922.66322637798,
+     205648.55099856976,
+     279106.16952611273
+    ],
+    "returns_8k_convention_p5_p50_p95": [
+     54522.224667734285,
+     98954.48088608368,
+     150076.08402148902
+    ]
+   }
+  },
+  "D": {
+   "label": "A quarter floor, three quarters VT",
+   "central_today": {
+    "floor_money_jan2028": 27929.464437592873,
+    "vt_bought_jan2028": 83788.39331277861,
+    "floor_share_of_deposit": 0.1861964295839525,
+    "keeps_most_of_2028_deposit": false,
+    "stated_bottom": 30000.0,
+    "stated_top": 85000.0,
+    "bottom_raw": 33672.77001234646,
+    "top_raw": 89051.69409949172,
+    "funds_pay": 92205.81543931163,
+    "contribution": 85000.0,
+    "excess": 7205.815439311627,
+    "half_kept": 59964.320094836316,
+    "flexibility": 67170.13553414794,
+    "contribution_plus_flexibility": 152170.13553414794,
+    "topup_return": 45455.57570475247,
+    "all_money": 197625.7112389004
+   },
+   "house": {
+    "paths": 200000,
+    "stated_bottom_p5_p50_p95": [
+     25000.0,
+     30000.0,
+     40000.0
+    ],
+    "stated_top_p5_p50_p95": [
+     60000.0,
+     85000.0,
+     125000.0
+    ],
+    "contribution_p5_p50_p95": [
+     60000.0,
+     85000.0,
+     125000.0
+    ],
+    "contribution_p5_p50_p95_linear": [
+     60000.0,
+     85000.0,
+     125000.0
+    ],
+    "contribution_min": 35000.0,
+    "share_contribution_below_95k": 0.619485,
+    "share_contribution_equals_stated_top": 1.0,
+    "share_stated_bottom_zero": 0.0,
+    "flexibility_p5_p50_p95": [
+     35249.311258831825,
+     65323.6498453046,
+     123569.21750244689
+    ],
+    "flexibility_min": 13155.681135671455,
+    "half_kept_p5_p50_p95": [
+     30403.428755450954,
+     59587.36965884498,
+     116678.18007289051
+    ],
+    "excess_p5_p50_p95": [
+     2851.4515646982336,
+     5766.147707624026,
+     8905.813015034484
+    ],
+    "funds_pay_p5_p50_p95": [
+     65225.4437102847,
+     92093.37433849444,
+     134535.93170905468
+    ],
+    "contribution_plus_flexibility_p5_p50_p95": [
+     99055.67386487272,
+     152514.29686847376,
+     245207.88129494395
+    ],
+    "topup_return_p5_p50_p95": [
+     45455.57570475247,
+     45455.57570475247,
+     45455.57570475247
+    ],
+    "all_money_p5_p50_p95": [
+     144511.2495696252,
+     197969.87257322622,
+     290663.4569996964
+    ],
+    "all_money_min": 97388.33287773616,
+    "floor_money_p5_p50_p95": [
+     23830.310615701826,
+     27915.39056929353,
+     31724.205873566447
+    ],
+    "floor_share_of_deposit_p50": 0.1861026037952902,
+    "share_floor_money_over_half_deposit": 0.0,
+    "vt_bought_p5_p50_p95": [
+     71490.93184710547,
+     83746.1717078806,
+     95172.61762069934
+    ],
+    "against_plan": {
+     "share_contribution_above_plan": 0.019955,
+     "share_contribution_below_plan": 0.964055,
+     "contribution_difference_p5_p50_p95": [
+      -45000.0,
+      -30000.0,
+      -5000.0
+     ],
+     "share_all_money_above_plan": 0.628055,
+     "all_money_difference_p5_p50_p95": [
+      -25149.84624088982,
+      7844.345340328,
+      64653.203701726154
+     ],
+     "flexibility_difference_p5_p50_p95": [
+      17474.85072849712,
+      37026.919547566344,
+      74482.60185575357
+     ]
+    }
+   },
+   "history": {
+    "paths": 1770,
+    "stated_bottom_p5_p50_p95": [
+     30000.0,
+     30000.0,
+     30000.0
+    ],
+    "stated_top_p5_p50_p95": [
+     70000.0,
+     90000.0,
+     125000.0
+    ],
+    "contribution_p5_p50_p95": [
+     70000.0,
+     90000.0,
+     125000.0
+    ],
+    "contribution_p5_p50_p95_linear": [
+     70000.0,
+     90000.0,
+     125000.0
+    ],
+    "contribution_min": 40000.0,
+    "share_contribution_below_95k": 0.5689265536723164,
+    "share_contribution_equals_stated_top": 1.0,
+    "share_stated_bottom_zero": 0.0,
+    "flexibility_p5_p50_p95": [
+     42439.59595276434,
+     71738.53651829335,
+     119661.7669944288
+    ],
+    "flexibility_min": 21316.073671432965,
+    "half_kept_p5_p50_p95": [
+     37186.122768988695,
+     65958.51742439951,
+     114065.93407018606
+    ],
+    "excess_p5_p50_p95": [
+     3457.8134405009573,
+     5835.16254374948,
+     8133.155759244922
+    ],
+    "funds_pay_p5_p50_p95": [
+     73404.9895132576,
+     95954.31634041223,
+     129481.43433392122
+    ],
+    "contribution_plus_flexibility_p5_p50_p95": [
+     114880.53168548155,
+     161271.44792036666,
+     233728.29530547932
+    ],
+    "topup_return_p5_p50_p95": [
+     45455.57570475247,
+     45455.57570475247,
+     45455.57570475247
+    ],
+    "all_money_p5_p50_p95": [
+     160336.107390234,
+     206727.02362511912,
+     279183.8710102318
+    ],
+    "all_money_min": 109458.39198938303,
+    "floor_money_p5_p50_p95": [
+     27929.464437592873,
+     27929.464437592873,
+     27929.464437592873
+    ],
+    "floor_share_of_deposit_p50": 0.1861964295839525,
+    "share_floor_money_over_half_deposit": 0.0,
+    "vt_bought_p5_p50_p95": [
+     83788.39331277861,
+     83788.39331277861,
+     83788.39331277861
+    ],
+    "worst_contribution": {
+     "value": 40000.0,
+     "start": "1929-06",
+     "stated_bottom": 30000.0,
+     "stated_top": 40000.0,
+     "contribution": 40000.0,
+     "flexibility": 26970.424809547832,
+     "all_money": 112426.0005143003,
+     "windows_at_minimum": 2,
+     "starts_at_minimum_first_12": [
+      "1929-06",
+      "1929-07"
+     ]
+    },
+    "worst_flexibility": {
+     "value": 21316.073671432965,
+     "start": "1929-09",
+     "stated_bottom": 30000.0,
+     "stated_top": 45000.0,
+     "contribution": 45000.0,
+     "flexibility": 21316.073671432965,
+     "all_money": 111771.64937618544,
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "1929-09"
+     ]
+    },
+    "worst_all_money": {
+     "value": 109458.39198938303,
+     "start": "1929-07",
+     "stated_bottom": 30000.0,
+     "stated_top": 40000.0,
+     "contribution": 40000.0,
+     "flexibility": 24002.81628463056,
+     "all_money": 109458.39198938303,
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "1929-07"
+     ]
+    },
+    "worst_stated_top": {
+     "value": 40000.0,
+     "start": "1929-06",
+     "stated_bottom": 30000.0,
+     "stated_top": 40000.0,
+     "contribution": 40000.0,
+     "flexibility": 26970.424809547832,
+     "all_money": 112426.0005143003,
+     "windows_at_minimum": 2,
+     "starts_at_minimum_first_12": [
+      "1929-06",
+      "1929-07"
+     ]
+    },
+    "against_plan": {
+     "share_contribution_above_plan": 0.007344632768361582,
+     "share_contribution_below_plan": 0.9728813559322034,
+     "contribution_difference_p5_p50_p95": [
+      -40000.0,
+      -25000.0,
+      -5000.0
+     ],
+     "share_all_money_above_plan": 0.6915254237288135,
+     "all_money_difference_p5_p50_p95": [
+      -16667.22484599338,
+      13208.52520927263,
+      59870.734925285156
+     ],
+     "flexibility_difference_p5_p50_p95": [
+      21229.945491774863,
+      40721.17819944123,
+      71438.32187878218
+     ]
+    }
+   },
+   "joint": {
+    "paths": 585,
+    "stated_bottom_p5_p50_p95": [
+     25000.0,
+     30000.0,
+     40000.0
+    ],
+    "stated_top_p5_p50_p95": [
+     65000.0,
+     90000.0,
+     125000.0
+    ],
+    "contribution_p5_p50_p95": [
+     65000.0,
+     90000.0,
+     125000.0
+    ],
+    "contribution_p5_p50_p95_linear": [
+     65000.0,
+     90000.0,
+     125000.0
+    ],
+    "contribution_min": 60000.0,
+    "share_contribution_below_95k": 0.5299145299145299,
+    "share_contribution_equals_stated_top": 1.0,
+    "share_stated_bottom_zero": 0.0,
+    "flexibility_p5_p50_p95": [
+     43502.545314770156,
+     73017.16138730347,
+     124939.71000297925
+    ],
+    "flexibility_min": 36943.390703793666,
+    "half_kept_p5_p50_p95": [
+     38971.39498585934,
+     66852.24069885722,
+     118018.29376072656
+    ],
+    "excess_p5_p50_p95": [
+     1899.801202253916,
+     5936.936584457377,
+     9472.953360681982
+    ],
+    "funds_pay_p5_p50_p95": [
+     68076.49236508389,
+     98048.61689185022,
+     132826.02610199712
+    ],
+    "contribution_plus_flexibility_p5_p50_p95": [
+     111456.44810306477,
+     165517.63412114352,
+     240700.65799393234
+    ],
+    "topup_return_p5_p50_p95": [
+     18053.428883245368,
+     43469.24108866429,
+     84845.35276739176
+    ],
+    "all_money_p5_p50_p95": [
+     135171.61530839355,
+     213616.0221469943,
+     293174.35962357675
+    ],
+    "all_money_min": 124462.5872782534,
+    "floor_money_p5_p50_p95": [
+     25573.482853856414,
+     27900.694152296437,
+     30001.332964922905
+    ],
+    "floor_share_of_deposit_p50": 0.18600462768197626,
+    "share_floor_money_over_half_deposit": 0.0,
+    "vt_bought_p5_p50_p95": [
+     76720.44856156924,
+     83702.08245688931,
+     90003.99889476871
+    ],
+    "worst_contribution": {
+     "value": 60000.0,
+     "start": "1970-09",
+     "stated_bottom": 30000.0,
+     "stated_top": 60000.0,
+     "contribution": 60000.0,
+     "flexibility": 58653.55414652931,
+     "all_money": 179713.93065937707,
+     "vt_bought": "1971-09",
+     "windows_at_minimum": 8,
+     "starts_at_minimum_first_12": [
+      "1970-09",
+      "1998-07",
+      "1998-08",
+      "1998-09",
+      "1999-03",
+      "2006-07",
+      "2006-09",
+      "2006-10"
+     ],
+     "vt_bought_at_minimum_first_12": [
+      "1971-09",
+      "1999-07",
+      "1999-08",
+      "1999-09",
+      "2000-03",
+      "2007-07",
+      "2007-09",
+      "2007-10"
+     ]
+    },
+    "worst_flexibility": {
+     "value": 36943.390703793666,
+     "start": "1997-04",
+     "stated_bottom": 30000.0,
+     "stated_top": 80000.0,
+     "contribution": 80000.0,
+     "flexibility": 36943.390703793666,
+     "all_money": 154371.31833379169,
+     "vt_bought": "1998-04",
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "1997-04"
+     ],
+     "vt_bought_at_minimum_first_12": [
+      "1998-04"
+     ]
+    },
+    "worst_all_money": {
+     "value": 124462.5872782534,
+     "start": "2006-11",
+     "stated_bottom": 30000.0,
+     "stated_top": 65000.0,
+     "contribution": 65000.0,
+     "flexibility": 43159.10398929553,
+     "all_money": 124462.5872782534,
+     "vt_bought": "2007-11",
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "2006-11"
+     ],
+     "vt_bought_at_minimum_first_12": [
+      "2007-11"
+     ]
+    },
+    "worst_stated_top": {
+     "value": 60000.0,
+     "start": "1970-09",
+     "stated_bottom": 30000.0,
+     "stated_top": 60000.0,
+     "contribution": 60000.0,
+     "flexibility": 58653.55414652931,
+     "all_money": 179713.93065937707,
+     "vt_bought": "1971-09",
+     "windows_at_minimum": 8,
+     "starts_at_minimum_first_12": [
+      "1970-09",
+      "1998-07",
+      "1998-08",
+      "1998-09",
+      "1999-03",
+      "2006-07",
+      "2006-09",
+      "2006-10"
+     ],
+     "vt_bought_at_minimum_first_12": [
+      "1971-09",
+      "1999-07",
+      "1999-08",
+      "1999-09",
+      "2000-03",
+      "2007-07",
+      "2007-09",
+      "2007-10"
+     ]
+    },
+    "against_plan": {
+     "share_contribution_above_plan": 0.0,
+     "share_contribution_below_plan": 0.9880341880341881,
+     "contribution_difference_p5_p50_p95": [
+      -50000.0,
+      -25000.0,
+      -10000.0
+     ],
+     "share_all_money_above_plan": 0.7128205128205128,
+     "all_money_difference_p5_p50_p95": [
+      -23142.963896961315,
+      16757.92712468104,
+      63471.266147246395
+     ],
+     "flexibility_difference_p5_p50_p95": [
+      22291.836637617125,
+      41514.11535513674,
+      73582.68800341687
+     ]
+    },
+    "all_money_8k_convention_p5_p50_p95": [
+     135297.78406179504,
+     213884.5062481996,
+     293259.9927638477
+    ],
+    "returns_8k_convention_p5_p50_p95": [
+     69782.06436597525,
+     122077.86636516068,
+     176071.57656452645
+    ]
+   }
+  },
+  "E": {
+   "label": "All VT",
+   "central_today": {
+    "floor_money_jan2028": 0.0,
+    "vt_bought_jan2028": 111717.85775037149,
+    "floor_share_of_deposit": 0.0,
+    "keeps_most_of_2028_deposit": false,
+    "stated_bottom": 0.0,
+    "stated_top": 70000.0,
+    "bottom_raw": 0.0,
+    "top_raw": 73838.56544952701,
+    "funds_pay": 76020.64871647167,
+    "contribution": 70000.0,
+    "excess": 6020.648716471667,
+    "half_kept": 79952.42679311508,
+    "flexibility": 85973.07550958675,
+    "contribution_plus_flexibility": 155973.07550958675,
+    "topup_return": 45455.57570475247,
+    "all_money": 201428.65121433922
+   },
+   "house": {
+    "paths": 200000,
+    "stated_bottom_p5_p50_p95": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "stated_top_p5_p50_p95": [
+     40000.0,
+     70000.0,
+     120000.0
+    ],
+    "contribution_p5_p50_p95": [
+     40000.0,
+     70000.0,
+     120000.0
+    ],
+    "contribution_p5_p50_p95_linear": [
+     40000.0,
+     70000.0,
+     120000.0
+    ],
+    "contribution_min": 15000.0,
+    "share_contribution_below_95k": 0.786825,
+    "share_contribution_equals_stated_top": 1.0,
+    "share_stated_bottom_zero": 1.0,
+    "flexibility_p5_p50_p95": [
+     44394.378045298065,
+     84188.159378885,
+     161570.87699001216
+    ],
+    "flexibility_min": 13967.947066989815,
+    "half_kept_p5_p50_p95": [
+     40537.90500726794,
+     79449.8262117933,
+     155570.906763854
+    ],
+    "excess_p5_p50_p95": [
+     1920.4892606442002,
+     4788.003634792523,
+     7953.463877506107
+    ],
+    "funds_pay_p5_p50_p95": [
+     44106.23867150948,
+     75568.76665959842,
+     129101.08783835832
+    ],
+    "contribution_plus_flexibility_p5_p50_p95": [
+     88241.07714466988,
+     156179.35987281695,
+     277317.886749603
+    ],
+    "topup_return_p5_p50_p95": [
+     45455.57570475247,
+     45455.57570475247,
+     45455.57570475247
+    ],
+    "all_money_p5_p50_p95": [
+     133696.65284942233,
+     201634.9355775694,
+     322773.4624543555
+    ],
+    "all_money_min": 80085.78324033218,
+    "floor_money_p5_p50_p95": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "floor_share_of_deposit_p50": 0.0,
+    "share_floor_money_over_half_deposit": 0.0,
+    "vt_bought_p5_p50_p95": [
+     95321.2424628073,
+     111661.56227717412,
+     126896.82349426579
+    ],
+    "against_plan": {
+     "share_contribution_above_plan": 0.021865,
+     "share_contribution_below_plan": 0.967745,
+     "contribution_difference_p5_p50_p95": [
+      -70000.0,
+      -45000.0,
+      -10000.0
+     ],
+     "share_all_money_above_plan": 0.628055,
+     "all_money_difference_p5_p50_p95": [
+      -38067.48111340001,
+      11835.2130021271,
+      97596.73564097728
+     ],
+     "flexibility_difference_p5_p50_p95": [
+      26648.12408158219,
+      55902.00084249491,
+      112491.68884320333
+     ]
+    }
+   },
+   "history": {
+    "paths": 1770,
+    "stated_bottom_p5_p50_p95": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "stated_top_p5_p50_p95": [
+     45000.0,
+     75000.0,
+     120000.0
+    ],
+    "contribution_p5_p50_p95": [
+     45000.0,
+     75000.0,
+     120000.0
+    ],
+    "contribution_p5_p50_p95_linear": [
+     45000.0,
+     75000.0,
+     120000.0
+    ],
+    "contribution_min": 10000.0,
+    "share_contribution_below_95k": 0.7745762711864407,
+    "share_contribution_equals_stated_top": 1.0,
+    "share_stated_bottom_zero": 1.0,
+    "flexibility_p5_p50_p95": [
+     53326.1976485066,
+     92733.59151973508,
+     157070.63556449034
+    ],
+    "flexibility_min": 26500.993025966778,
+    "half_kept_p5_p50_p95": [
+     49581.49702531826,
+     87944.68989919937,
+     152087.91209358146
+    ],
+    "excess_p5_p50_p95": [
+     2394.4742586021544,
+     4807.413703300037,
+     7368.124901414486
+    ],
+    "funds_pay_p5_p50_p95": [
+     50952.88081506628,
+     81018.64991793915,
+     125721.47390928445
+    ],
+    "contribution_plus_flexibility_p5_p50_p95": [
+     106253.60371136489,
+     168108.15869121172,
+     264717.2885380286
+    ],
+    "topup_return_p5_p50_p95": [
+     45455.57570475247,
+     45455.57570475247,
+     45455.57570475247
+    ],
+    "all_money_p5_p50_p95": [
+     151709.17941611737,
+     213563.7343959642,
+     310172.86424278107
+    ],
+    "all_money_min": 83872.22554831604,
+    "floor_money_p5_p50_p95": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "floor_share_of_deposit_p50": 0.0,
+    "share_floor_money_over_half_deposit": 0.0,
+    "vt_bought_p5_p50_p95": [
+     111717.85775037149,
+     111717.85775037149,
+     111717.85775037149
+    ],
+    "worst_contribution": {
+     "value": 10000.0,
+     "start": "1929-06",
+     "stated_bottom": 0.0,
+     "stated_top": 10000.0,
+     "contribution": 10000.0,
+     "flexibility": 32373.461210119945,
+     "all_money": 87829.03691487241,
+     "windows_at_minimum": 2,
+     "starts_at_minimum_first_12": [
+      "1929-06",
+      "1929-07"
+     ]
+    },
+    "worst_flexibility": {
+     "value": 26500.993025966778,
+     "start": "1929-09",
+     "stated_bottom": 0.0,
+     "stated_top": 15000.0,
+     "contribution": 15000.0,
+     "flexibility": 26500.993025966778,
+     "all_money": 86956.56873071924,
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "1929-09"
+     ]
+    },
+    "worst_all_money": {
+     "value": 83872.22554831604,
+     "start": "1929-07",
+     "stated_bottom": 0.0,
+     "stated_top": 10000.0,
+     "contribution": 10000.0,
+     "flexibility": 28416.649843563573,
+     "all_money": 83872.22554831604,
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "1929-07"
+     ]
+    },
+    "worst_stated_top": {
+     "value": 10000.0,
+     "start": "1929-06",
+     "stated_bottom": 0.0,
+     "stated_top": 10000.0,
+     "contribution": 10000.0,
+     "flexibility": 32373.461210119945,
+     "all_money": 87829.03691487241,
+     "windows_at_minimum": 2,
+     "starts_at_minimum_first_12": [
+      "1929-06",
+      "1929-07"
+     ]
+    },
+    "against_plan": {
+     "share_contribution_above_plan": 0.007909604519774011,
+     "share_contribution_below_plan": 0.976271186440678,
+     "contribution_difference_p5_p50_p95": [
+      -65000.0,
+      -40000.0,
+      -10000.0
+     ],
+     "share_all_money_above_plan": 0.6915254237288135,
+     "all_money_difference_p5_p50_p95": [
+      -25294.152820110026,
+      20045.23598011768,
+      90859.72815783446
+     ],
+     "flexibility_difference_p5_p50_p95": [
+      32105.054032413977,
+      61637.3602184057,
+      108796.2314208545
+     ]
+    }
+   },
+   "joint": {
+    "paths": 585,
+    "stated_bottom_p5_p50_p95": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "stated_top_p5_p50_p95": [
+     45000.0,
+     80000.0,
+     120000.0
+    ],
+    "contribution_p5_p50_p95": [
+     45000.0,
+     80000.0,
+     120000.0
+    ],
+    "contribution_p5_p50_p95_linear": [
+     45000.0,
+     80000.0,
+     120000.0
+    ],
+    "contribution_min": 35000.0,
+    "share_contribution_below_95k": 0.8085470085470086,
+    "share_contribution_equals_stated_top": 1.0,
+    "share_stated_bottom_zero": 1.0,
+    "flexibility_p5_p50_p95": [
+     56023.30100509084,
+     94937.16877247603,
+     161943.93369928596
+    ],
+    "flexibility_min": 47920.82991403971,
+    "half_kept_p5_p50_p95": [
+     51961.85998114579,
+     89136.3209318096,
+     157357.72501430204
+    ],
+    "excess_p5_p50_p95": [
+     1751.4600760303529,
+     4767.942062424176,
+     8690.90748223025
+    ],
+    "funds_pay_p5_p50_p95": [
+     45780.38563123342,
+     83163.49466090502,
+     126786.15648040007
+    ],
+    "contribution_plus_flexibility_p5_p50_p95": [
+     104090.58123450608,
+     173562.1480969684,
+     271682.82009884773
+    ],
+    "topup_return_p5_p50_p95": [
+     18053.428883245368,
+     43469.24108866429,
+     84845.35276739176
+    ],
+    "all_money_p5_p50_p95": [
+     128770.82964828008,
+     222843.88294646982,
+     320566.16634033405
+    ],
+    "all_money_min": 115528.79711331282,
+    "floor_money_p5_p50_p95": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "floor_share_of_deposit_p50": 0.0,
+    "share_floor_money_over_half_deposit": 0.0,
+    "vt_bought_p5_p50_p95": [
+     102293.93141542566,
+     111602.77660918575,
+     120005.33185969162
+    ],
+    "worst_contribution": {
+     "value": 35000.0,
+     "start": "1998-07",
+     "stated_bottom": 0.0,
+     "stated_top": 35000.0,
+     "contribution": 35000.0,
+     "flexibility": 51273.47885571559,
+     "all_money": 120302.66607532729,
+     "vt_bought": "1999-07",
+     "windows_at_minimum": 9,
+     "starts_at_minimum_first_12": [
+      "1998-07",
+      "1998-09",
+      "1998-11",
+      "1998-12",
+      "1999-01",
+      "1999-02",
+      "1999-03",
+      "1999-04",
+      "2005-03"
+     ],
+     "vt_bought_at_minimum_first_12": [
+      "1999-07",
+      "1999-09",
+      "1999-11",
+      "1999-12",
+      "2000-01",
+      "2000-02",
+      "2000-03",
+      "2000-04",
+      "2006-03"
+     ]
+    },
+    "worst_flexibility": {
+     "value": 47920.82991403971,
+     "start": "2003-02",
+     "stated_bottom": 0.0,
+     "stated_top": 90000.0,
+     "contribution": 90000.0,
+     "flexibility": 47920.82991403971,
+     "all_money": 235009.30321987247,
+     "vt_bought": "2004-02",
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "2003-02"
+     ],
+     "vt_bought_at_minimum_first_12": [
+      "2004-02"
+     ]
+    },
+    "worst_all_money": {
+     "value": 115528.79711331282,
+     "start": "2006-06",
+     "stated_bottom": 0.0,
+     "stated_top": 40000.0,
+     "contribution": 40000.0,
+     "flexibility": 56754.17936108269,
+     "all_money": 115528.79711331282,
+     "vt_bought": "2007-06",
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "2006-06"
+     ],
+     "vt_bought_at_minimum_first_12": [
+      "2007-06"
+     ]
+    },
+    "worst_stated_top": {
+     "value": 35000.0,
+     "start": "1998-07",
+     "stated_bottom": 0.0,
+     "stated_top": 35000.0,
+     "contribution": 35000.0,
+     "flexibility": 51273.47885571559,
+     "all_money": 120302.66607532729,
+     "vt_bought": "1999-07",
+     "windows_at_minimum": 9,
+     "starts_at_minimum_first_12": [
+      "1998-07",
+      "1998-09",
+      "1998-11",
+      "1998-12",
+      "1999-01",
+      "1999-02",
+      "1999-03",
+      "1999-04",
+      "2005-03"
+     ],
+     "vt_bought_at_minimum_first_12": [
+      "1999-07",
+      "1999-09",
+      "1999-11",
+      "1999-12",
+      "2000-01",
+      "2000-02",
+      "2000-03",
+      "2000-04",
+      "2006-03"
+     ]
+    },
+    "against_plan": {
+     "share_contribution_above_plan": 0.0,
+     "share_contribution_below_plan": 0.9965811965811966,
+     "contribution_difference_p5_p50_p95": [
+      -75000.0,
+      -40000.0,
+      -11000.000000000227
+     ],
+     "share_all_money_above_plan": 0.7128205128205128,
+     "all_money_difference_p5_p50_p95": [
+      -35121.72367799721,
+      25431.802448014903,
+      96323.88837667
+     ],
+     "flexibility_difference_p5_p50_p95": [
+      34403.38281282532,
+      62940.220255395456,
+      112187.93448528984
+     ]
+    },
+    "all_money_8k_convention_p5_p50_p95": [
+     128783.37338543533,
+     223027.67514538363,
+     320878.7536881558
+    ],
+    "returns_8k_convention_p5_p50_p95": [
+     83942.62651818994,
+     144852.61781271803,
+     208088.9973622544
+    ]
+   }
+  }
+ },
+ "checks": {
+  "C8_payout_central": [
+   140761.31560783152,
+   140761.31560783152
+  ],
+  "C8_stated_unrounded_central": [
+   134691.08004938584,
+   134691.0800493858
+  ],
+  "C8_stated_central": [
+   130000.0,
+   130000.0
+  ],
+  "C8_house_payout_p5_p50_p95": [
+   [
+    113168.99387705818,
+    140649.2255136441,
+    169686.00525312233
+   ],
+   [
+    113168.99387705818,
+    140649.2255136441,
+    169686.00525312233
+   ]
+  ],
+  "C8_house_all_t_equals_option_A_payout_max_abs_diff": 0.0,
+  "C8_share_plan_payout_below_all_t": [
+   0.97583,
+   0.97583
+  ],
+  "C8_share_plan_stated_top_below_all_t_stated": [
+   0.949545,
+   0.949545
+  ],
+  "C8_share_plan_total_above_all_t": [
+   0.62785,
+   0.62785
+  ],
+  "A_contribution_plus_flexibility_equals_C8_payout_max_abs_diff": 0.0,
+  "B_central_vs_register": {
+   "floor_payout": [
+    103178.04434054051,
+    103178.04434054051
+   ],
+   "funds_pay": [
+    123475.55754783844,
+    123475.55754783844
+   ],
+   "half_kept": [
+    21347.297953761732,
+    21347.297953761732
+   ],
+   "contribution_plus_flexibility": [
+    144822.85550160016,
+    144822.85550160016
+   ],
+   "stated": [
+    [
+     95000.0,
+     115000.0
+    ],
+    [
+     95000.0,
+     115000.0
+    ]
+   ],
+   "excess": [
+    8475.557547838442,
+    8475.557547838442
+   ]
+  },
+  "B_house_vs_register": {
+   "stated_bottom": [
+    [
+     85000.0,
+     95000.0,
+     115000.0
+    ],
+    [
+     85000.0,
+     95000.0,
+     115000.0
+    ]
+   ],
+   "stated_top": [
+    [
+     95000.0,
+     115000.0,
+     140000.0
+    ],
+    [
+     95000.0,
+     115000.0,
+     140000.0
+    ]
+   ],
+   "flexibility": [
+    [
+     16193.060743308508,
+     28540.632639984036,
+     49923.93165155483
+    ],
+    [
+     16193.060743308508,
+     28540.632639984036,
+     49923.93165155483
+    ]
+   ],
+   "contribution_plus_flexibility": [
+    [
+     113448.68481034618,
+     145686.58936748677,
+     187490.10920966437
+    ],
+    [
+     113448.68481034618,
+     145686.58936748677,
+     187490.10920966437
+    ]
+   ]
+  },
+  "B_history_vs_register": {
+   "stated_top": [
+    [
+     110000.0,
+     115000.0,
+     130000.0
+    ],
+    [
+     110000.0,
+     115000.0,
+     130000.0
+    ]
+   ],
+   "flexibility": [
+    [
+     20018.69042058216,
+     30901.57961950668,
+     48398.68006954035
+    ],
+    [
+     20018.69042058216,
+     30901.57961950668,
+     48398.68006954035
+    ]
+   ]
+  },
+  "B_joint_vs_joint_stress_J_max_abs_diff": {
+   "bottom_stated": 0.0,
+   "top_stated": 0.0,
+   "gift_capped": 0.0,
+   "excess": 0.0,
+   "kept33": 0.0,
+   "floor_money": 0.0
+  },
+  "B_joint_returns_vs_8k": [
+   [
+    40404.276864427586,
+    78583.58173398816,
+    120375.45220984073
+   ],
+   [
+    40404.276864427586,
+    78583.58173398815,
+    120375.45220984073
+   ]
+  ],
+  "topup_return_vs_8k": [
+   45455.57570475247,
+   45455.57570475247
+  ],
+  "same_R_every_option_house_max_abs_diff": 0.0,
+  "same_topup_every_option_joint_max_abs_diff": 0.0
+ },
+ "run_seconds": 10.937768948999974
+}
