@@ -291,34 +291,36 @@ moved half (D12). The cap rule is optional and marked as under review.
 
 - S1. U.S. Government Accountability Office. (2020). *Cost estimating and assessment guide: Best practices for
   developing and managing program costs* (GAO-20-195G). https://www.gao.gov/assets/gao-20-195g.pdf
-- S2. Hart, D. H. (2023, December 1). *Managing the contingency allowance*. American Institute of Architects.
+- S2. Hart, D. H. (2023, November 30). *Managing the contingency allowance*. American Institute of Architects.
   https://www.aia.org/resource-center/managing-the-contingency-allowance
 - S3. State of Louisiana, Division of Administration. (2025). *AIA Document A133-2009, Standard form of agreement
   between owner and construction manager as constructor, as modified by owner* (New Southeast Louisiana State Office
   Building). https://wwwprd.doa.louisiana.gov/osp/lapac/agency/pdf/8873801.pdf
-- S4. Cobb County, Georgia. (2022). *A133-2009 Exhibit A, combined CM at risk contract, final draft (Attachment B)*
-  [Publisher inferred from the URL]. https://sbcobbstor.blob.core.windows.net/media/WWWCobb/medialib/a133-2009-a133-exhibit-a-combined-cm-at-risk-contract-final-draft-attachment-b.0e31fa63819.pdf
+- S4. Cobb County School District. (2022). *AIA Document A133-2009: Standard form of agreement between owner and
+  construction manager as constructor* [Owner's template 10.28.2015, with Exhibit A, Guaranteed Maximum Price
+  Amendment; the owner the document names, REFERENCES_APA 11 Nov]. https://sbcobbstor.blob.core.windows.net/media/WWWCobb/medialib/a133-2009-a133-exhibit-a-combined-cm-at-risk-contract-final-draft-attachment-b.0e31fa63819.pdf
 - S5. Princeton University Facilities. (2025). *Construction management GMP contract* (Model v4.4, 03-2025).
   https://facilities.princeton.edu/sites/g/files/toruqf5436/files/documents/construction_management_gmp_contract_v4-4_03-2025_model.pdf
 - S6. Bill & Melinda Gates Foundation. (2026). *Sample terms and conditions* [Project support].
   https://docs.gatesfoundation.org/documents/sample-terms-and-conditions.pdf
 - S7. Woronkowicz, J., Joynes, D. C., Frumkin, P., Kolendo, A., Seaman, B., Gertner, R., & Bradburn, N. (2012). *Set
   in stone: Building America's new generation of arts facilities, 1994-2008*. Cultural Policy Center, University of
-  Chicago. https://www.norc.org/content/dam/norc-org/pdfs/setinstone%20FINAL%20REPORT.pdf ; University of Chicago News.
+  Chicago. https://www.norc.org/content/dam/norc-org/pdfs/setinstone%20FINAL%20REPORT.pdf ; Harms, W.
   (2012, June 28). *Careful planning and focus on audience crucial to success of new cultural facilities*.
-  https://news.uchicago.edu/story/careful-planning-and-focus-audience-crucial-success-new-cultural-facilities
+  University of Chicago News. https://news.uchicago.edu/story/careful-planning-and-focus-audience-crucial-success-new-cultural-facilities
 - S8. Legislative Yuan Budget Center [立法院預算中心]. (2020, September). *108年度中央政府總決算審核報告評估報告*
   [Evaluation of the audit report on the FY2019 central government final accounts], item 41 (author 羅玉姍).
   https://www.ly.gov.tw/Pages/ashx/File.ashx?FilePath=~%2FFile%2FAttach%2F199201%2FFile_272610.pdf
 - S9. Campbell, J. Y., Pflueger, C., & Viceira, L. M. (2020). Macroeconomic drivers of bond and equity risks. *Journal
   of Political Economy, 128*(8), 3148-3185. https://doi.org/10.1086/707766 (read at
   https://www.hbs.edu/ris/Publication%20Files/CampbellPfluegerViceira_JPE2020_c649d0cf-589b-4493-b695-c51d2ac45d48.pdf)
-- S10. Molenaar, R., Senechal, E., Swinkels, L., & Wang, Z. (2024). Empirical evidence on the stock-bond correlation.
+- S10. Molenaar, R., Sénéchal, E., Swinkels, L., & Wang, Z. (2024). Empirical evidence on the stock-bond correlation.
   *Financial Analysts Journal, 80*(3), 17-36. https://doi.org/10.1080/0015198X.2024.2317333
-- S11. iShares by BlackRock. (2026, February 27). *iShares iBonds Dec 2032 Term Treasury ETF summary prospectus*.
-  https://www.ishares.com/us/literature/summary-prospectus/sp-ibonds-dec-2032-term-treasury-etf-10-31.pdf ; iShares
-  by BlackRock. (2026). *iShares iBonds Dec 2032 Term Treasury ETF (IBTM)* [Fund page, key facts as of 27 Oct 2026].
-  https://www.ishares.com/us/products/328944/ishares-ibonds-dec-2032-term-treasury-etf
+- S11. iShares Trust. (2026, February 27). *Summary prospectus: iShares iBonds Dec 2032 Term Treasury ETF*
+  (IS-SP-IBTM-0226). BlackRock. (REFERENCES_APA row 78; copy read at
+  https://www.ishares.com/us/literature/summary-prospectus/sp-ibonds-dec-2032-term-treasury-etf-10-31.pdf) ; BlackRock.
+  (n.d.-b). *iShares iBonds Dec 2032 Term Treasury ETF (IBTM)* [Fund page]. iShares (REFERENCES_APA row 9; key facts as
+  of 27 Oct 2026). https://www.ishares.com/us/products/328944/ishares-ibonds-dec-2032-term-treasury-etf
 - S12. BlackRock. (2025, October 15). *iShares iBonds ETFs near final distribution dates* [Press release]. Business
   Wire. https://www.businesswire.com/news/home/20251015356466/en/iShares-iBonds-ETFs-Near-Final-Distribution-Dates
 - S13. Vanguard. (2026). *Vanguard Total World Stock ETF (VT)* [Fact sheet, as of 30 Sep 2026].
@@ -333,8 +335,8 @@ moved half (D12). The cap rule is optional and marked as under review.
   SIFMA. (2026, October 28). *SIFMA fixed income market close recommendation in the U.S., the U.K., and Japan for the
   U.S. Veterans Day holiday* [Press release].
   https://www.sifma.org/news/press-releases/sifma-fixed-income-market-close-recommendation-in-the-u-s-the-u-k-and-japan-for-the-u-s-veterans-day-holiday-2026
-- Data (repo copies). Board of Governors of the Federal Reserve System. (2026). *Market yield on U.S. Treasury
-  securities at 1-year constant maturity* [DGS1], FRED, `archive/rab/data/fred/DGS1.csv`. Shiller, R. J. (2023). *U.S.
+- Data (repo copies). Board of Governors of the Federal Reserve System. (n.d.-a). *Market yield on U.S. Treasury
+  securities at 1-year constant maturity, quoted on an investment basis (DGS1)* [Data set; REFERENCES_APA row 15], FRED, `archive/rab/data/fred/DGS1.csv`. Shiller, R. J. (2023). *U.S.
   stock markets 1871-present* [ie_data.xls], mirror `keel/models/data/shiller_monthly.csv` (UNVERIFIED against the
-  primary file). Board of Governors of the Federal Reserve System. (2026). *Taiwan dollars to one U.S. dollar* [H.10,
-  EXTAUS], mirror `keel/models/data/twd_per_usd_monthly.csv` (UNVERIFIED against the primary file).
+  primary file). Board of Governors of the Federal Reserve System. (n.d.-c). *Taiwan dollars to U.S. dollar spot exchange
+  rate (EXTAUS)* [Data set; release G.5, monthly; REFERENCES_APA, 11 Nov], mirror `keel/models/data/twd_per_usd_monthly.csv` (UNVERIFIED against the primary file).

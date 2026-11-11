@@ -333,7 +333,7 @@ Read at the source in full (or main text in full, as marked):
   Retraction check: none found.
 
 Read at the source in the sections named:
-- Arts Council England. (n.d.). *Creative Foundations Fund (Round 1): Guidance for applicants*. Retrieved November 11,
+- Arts Council England. (n.d.). *Creative Foundations Fund: Guidance for applicants* (the page heading has no round number; REFERENCES_APA, 11 Nov). Retrieved November 11,
   2026, from https://www.artscouncil.org.uk/our-open-funds/creative-foundations-fund-guidance-applicants
 - National Endowment for the Arts. (2026). *How to manage your NEA award handbook*.
   https://www.arts.gov/sites/default/files/How-to-Manage-Your-NEA-Award-Handbook-1-14-26.pdf
