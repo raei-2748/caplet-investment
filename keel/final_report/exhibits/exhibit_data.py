@@ -46,6 +46,10 @@ def _load(name):
 RESERVE = _load(f"results_reserve_{REGISTER_DATE}.json")
 JOINT = _load(f"results_joint_stress_{REGISTER_DATE}.json")
 RETURNS = _load(f"results_returns_{REGISTER_DATE}.json")
+MAIN = _load(f"results_{REGISTER_DATE}.json")          # NUMBERS sections 1-5 (Table 3: the top-up, section 5's distances)
+INPUTS = _load("inflation_inputs.json")                # NUMBERS 8d's inputs (Table 3: the Taiwan dollar, building costs)
+SKELETON_MD = os.path.join(FR, "SKELETON.md")         # Table 3's definitions and dates are Keel's calls, set out there
+WORDS_MD = os.path.join(FR, "WORDS.md")               # the report's one name for each thing
 
 assert RESERVE["stamp"]["design"] == "H_plain" and RESERVE["stamp"]["curve"] == "11/06/2026", RESERVE["stamp"]
 assert JOINT["stamp"]["curve"] == "11/06/2026", JOINT["stamp"]
@@ -202,6 +206,20 @@ FIGURE1_NOTE_FACTS = {
     "etf_fee": 0.0015,
     "curve": "Treasury par yield curve, 6 Nov 2026",
 }
+# The note's ratio in WORDS.md's form (Thu 12 Nov): "about $1.11 for each $1 the payments need at today's rates, because
+# the top-up is sized for no interest" ($444,545 against $399,089 on 1 Jan 2033, NUMBERS 8h).
+FIGURE1_PER_DOLLAR = f"${FIGURE1_NOTE_FACTS['funded_1jan2033']:.2f}"
+# Figure 1's heads (Thu 12 Nov, lay reader): the right-hand columns' head asks the question they answer, in WORDS.md's
+# names; the first number column says "today's market rates", never "forward rates".
+FIGURE1_HEADS = {
+    "payment": "Payment",
+    "timeline": "Held from January 2027 until its cash arrives",
+    "c1": ("At today's", "market rates"),
+    "question": ("If interest earns nothing,", "what pays each $50,000?"),
+    "c2": ("Its own", "Treasury"),
+    "c3": ("What the", "top-up pays"),  # Thu 12 Nov, lead: the column holds what its Treasuries pay ($55,920), not its cost ($38,282)
+}
+FIGURE1_LEGEND = ("iBond Treasury fund", "Treasury bond", "$50,000 paid on 1 January", "cash waiting")
 
 
 # =================================================================================================================
@@ -265,6 +283,122 @@ def table2_cells(v):
 # five-column Table 2). Same data, the stated range in one column.
 SCENARIO_COLUMNS = ["World", "Ten payments", "Stated bottom (2031)", "Stated top (2031)", "Flexibility (Jan 2033)"]
 SCENARIO_ROWS = [tuple([name] + table2_cells(v)) for _, name, v in TABLE2_WORLDS]
+
+
+# =================================================================================================================
+# Table 3, monitoring (3e). SKELETON Exhibits item 4 (spec of Thu 12 Nov), card Q30 "Table 3 cut", the bond reader of
+# Wed 11 Nov (research/panel/2026-11-11_bond_desk_table3.md). Seven rows in three levels, five columns, one trigger
+# per "look closer or act when" cell; the two reasons defined in their rows; custody is not a row (one line of 3e prose).
+# =================================================================================================================
+from datetime import date as _date  # noqa: E402
+
+_C6 = MAIN["C6"]
+DEPOSIT_2028 = 150000.0
+TOPUP = _C6["fall_0bp"]["with_standard"]                 # $38,282: the top-up, January 2028 prices (NUMBERS 2, 5)
+TOPUP_TEN_LACK = _C6["fall_0bp"]["ladder_only"]          # $2,388: what the ten Treasuries still lack
+TOPUP_NO_INTEREST = TOPUP - TOPUP_TEN_LACK               # $35,894: so no payment needs interest (NUMBERS 2)
+BOTTOM_AFTER_2PT_FALL = _C6["fall_200bp"]["150000"]["stated_bottom"]   # $60,000 (NUMBERS 5)
+FALL_TAKES_WHOLE_DEPOSIT = 3.60   # points; NUMBERS 5 text only (no results file holds it), checked against the text
+TWD_PER_USD = INPUTS["usdtwd"]["latest"]                                # 32.768 on 6 Nov (NUMBERS 8d)
+CCI_BAND = (INPUTS["taiwan_construction"]["low"], INPUTS["taiwan_construction"]["high"])   # 1.5% to 5.0% (8d)
+TWD_TEST = 0.10                                          # a 10% stronger Taiwan dollar (NUMBERS 8j)
+_TWDF = JOINT["scenarios"]["forwards"]
+CONTRIBUTION_FWD = _TWDF["gift_realised"]                # $115,000 at today's forwards (8i, 8j)
+TWD_NEED = TWD_TEST * CONTRIBUTION_FWD                   # $11,500 more in December 2032 (8j central case)
+FLEX_FWD = _TWDF["kept_plus_excess_jan2033"]             # $29,823; printed to the nearest $100, as Table 2 prints it
+TRADE_DAYS = (_date(2027, 1, 4), _date(2028, 1, 3))      # 1 Jan 2027 is a market holiday, 1 Jan 2028 a Saturday
+FEB37_PAYS = _date(2037, 2, 17)                          # 15 Feb 2037 is a Sunday, 16 Feb Presidents' Day (8h)
+MISSED_BY = _date(2028, 3, 31)                           # a missed deposit: nothing received by this date
+DEFAULT_DAYS = 5                                         # a Treasury default: not paid within five business days
+
+
+def _d(d, weekday=True):
+    """'Mon 4 Jan 2027' (weekday=True) or '31 March 2028'."""
+    return f"{d.strftime('%a')} {d.day} {d.strftime('%b')} {d.year}" if weekday else f"{d.day} {d.strftime('%B')} {d.year}"
+
+
+_NUM = {5: "five"}
+# Cells. Words are WORDS.md's: "the top-up", "her flexibility", "facility contribution", "simulated futures", "the
+# floor", "the world share fund (VT)", "her team" (Wharton: "Laura or her asset management team"). The last column is
+# a list of runs: (text, italic); "\n" breaks the line inside the cell.
+TABLE3_HEADER = ["Signal", "Reader", "Carry on while", "Look closer or act when",
+                 "What it changes; what it never changes"]
+TABLE3_LEVELS = {
+    "reason": "The two reasons to change the plan",
+    "closer": "Look closer: a date or an instrument may change, never the plan",
+    "watch": "Watch: the plan carries on",
+}
+
+
+def _changes(changes, never):
+    """The last column: two labelled parts in one run of text (a line break between them costs a line a row)."""
+    return [("Changes: ", True), (changes + ". ", False), ("Never: ", True), (never + ".", False)]
+
+
+TABLE3_ROWS = [
+    ("reason", [
+        f"The 2028 deposit ({dollars(DEPOSIT_2028)})",
+        "Laura",
+        f"Confirmed in late 2027; the {dollars(TOPUP)} top-up comes first",
+        f"Nothing received by {_d(MISSED_BY, weekday=False)} (a missed deposit)",
+        _changes("the plan, before any range is stated", "the Treasuries held")]),
+    ("reason", [
+        "Treasury payments to her or her funds",
+        "Team",
+        f"Paid by the next business day ({_d(FEB37_PAYS)} for the February 2037 bond)",
+        f"A Treasury default: any marketable Treasury payment over {_NUM[DEFAULT_DAYS]} business days late",
+        _changes("the payments and range, restated on what was received", "a forced sale")]),
+    ("closer", [
+        "The X-date of the debt limit",
+        "Team",
+        "No X-date within a month of a cash date",
+        "An X-date within a month of a payout, maturity or trade day",
+        _changes("that money moves to bills due before it", "the payments")]),
+    ("closer", [
+        "iBond fund notices, the floor's too",
+        "Team",
+        "Cash arrives 10 to 14 days before 1 January",
+        "A notice that moves a fund's end date",
+        _changes("the instrument, to a Treasury maturing in time", "the payment")]),
+    ("closer", [
+        f"Trade days: {_d(TRADE_DAYS[0])}, {_d(TRADE_DAYS[1])}",
+        "Team",
+        "Limit orders near each fund's net asset value",
+        "A date cannot be kept (a halt; a first draw after January 2033)",
+        _changes("a date, by days", "the step or its order")]),
+    ("watch", [
+        "Treasury yields and share prices",
+        "Team",
+        "Any level: a fall in the market is not a reason",
+        f"None. Yields 2 points lower before 2027: a {dollars(BOTTOM_AFTER_2PT_FALL)} bottom; "
+        f"{FALL_TAKES_WHOLE_DEPOSIT:.2f} lower: the top-up takes the whole deposit",
+        _changes("prices, until each end is bought; then only her flexibility", "the payments")]),
+    ("watch", [
+        "Her flexibility's three uses",
+        "Laura",
+        f"US$1 = NT${TWD_PER_USD:.3f}; construction cost index up {100 * CCI_BAND[0]:.1f}% to "
+        f"{100 * CCI_BAND[1]:.1f}% a year",
+        f"A Taiwan dollar {100 * TWD_TEST:.0f}% stronger ({dollars(TWD_NEED)} more on {dollars(CONTRIBUTION_FWD)})",
+        _changes(f"a call on her flexibility ({hundreds(FLEX_FWD)} today)", "the range")]),
+]
+
+
+def cell_text(v):
+    """A cell as plain text (runs joined; a line break becomes a space)."""
+    if isinstance(v, (list, tuple)):
+        return "".join(t for t, _ in v).replace("\n", " ")
+    return str(v).replace("\n", " ")
+
+
+def table3_rows():
+    """Table 3 as printed: list of (kind, cells); a level is a 'spanner' row (one italic cell across the table)."""
+    out, level = [], None
+    for lev, cells in TABLE3_ROWS:
+        if lev != level:
+            out.append(("spanner", [TABLE3_LEVELS[lev]]))
+            level = lev
+        out.append(("row", cells))
+    return out
 
 
 # =================================================================================================================
@@ -387,7 +521,7 @@ def check(verbose=True):
     cmp("Figure 1", "Total backstop, no fee", round(T["backstop_if_nothing_earns_no_fee"]), _money(tot[3])[1], "8h")
     foot_own = sum(round(f["own_if_nothing_earns"]) for f in FIGURE1_ROWS)
     foot_bk = sum(round(f["backstop_if_nothing_earns"]) for f in FIGURE1_ROWS)
-    note("Figure 1", "Printed rows foot to (own / backstop)", f"{dollars(foot_own)} / {dollars(foot_bk)}",
+    note("Figure 1", "Printed rows foot to (own / top-up)", f"{dollars(foot_own)} / {dollars(foot_bk)}",
          f"{dollars(round(T['own_if_nothing_earns']))} / {dollars(round(T['backstop_if_nothing_earns']))}",
          "8h (totals of unrounded figures)", "PASS" if foot_own == round(T["own_if_nothing_earns"]) else
          "ROUNDING: rows equal 8h and foot $1 off its totals of unrounded figures (the note carries the rounding clause)")
@@ -402,9 +536,27 @@ def check(verbose=True):
     m = re.search(r"\| Cost \(1 Jan 2027 value\) \|.*?\*\*\$([\d,]+)\*\*", s2)
     cmp("Figure 1", "Treasuries bought with the 2028 deposit: cost in 1 Jan 2027 money (note item)",
         round(RESERVE["margin_jan2027"]), float(m.group(1).replace(",", "")), "section 2 table")
-    note("Figure 1", "'Bought with the 2028 deposit' (head)", "In January 2028 the deposit's first dollars also buy extra face",
+    note("Figure 1", "'The top-up' (head): extra Treasuries bought with the 2028 deposit",
+         "In January 2028 the deposit's first dollars also buy extra face",
          "found" if "In January 2028 the deposit's first dollars also buy extra face" in s2 else "not found", "section 2",
          "PASS" if "In January 2028 the deposit's first dollars also buy extra face" in s2 else "FAIL")
+    with open(WORDS_MD) as fh:
+        words = fh.read()
+    ok = "| the top-up |" in words and "more Treasuries bought with the first part of the 2028 deposit" in words
+    note("Figure 1", "'The top-up' is WORDS.md's name for that money", "the top-up", "found" if ok else "not found",
+         "WORDS.md", "PASS" if ok else "FAIL")
+    cmp("Figure 1", "Note: the ratio, dollars held for each $1 the payments need", float(FIGURE1_PER_DOLLAR[1:]),
+        round(float(re.search(r"Funded ratio: \$[\d,]+ against \$[\d,]+, ([\d.]+)% funded", s8h).group(1)) / 100, 2),
+        "8h", tol=0.0001)
+    note("Figure 1", "Note: the ratio as WORDS.md words it", f"about {FIGURE1_PER_DOLLAR} for each $1",
+         "found" if f"about {FIGURE1_PER_DOLLAR} for each $1" in words else "not found", "WORDS.md",
+         "PASS" if f"about {FIGURE1_PER_DOLLAR} for each $1" in words else "FAIL")
+    banned = ("backstop", "gift", "overflow", "paths", "forward rates")
+    printed_f1 = " ".join([FIGURE1_HEADS["payment"], FIGURE1_HEADS["timeline"]] + list(FIGURE1_HEADS["c1"]) +
+                          list(FIGURE1_HEADS["question"]) + list(FIGURE1_HEADS["c2"]) + list(FIGURE1_HEADS["c3"]) +
+                          list(FIGURE1_LEGEND)).lower()
+    note("Figure 1", "No word WORDS.md bans in the figure's text", ", ".join(b for b in banned if b in printed_f1) or "none",
+         "none", "WORDS.md", "PASS" if not any(b in printed_f1 for b in banned) else "FAIL")
     m = re.search(r"Funded ratio: \$([\d,]+) against \$([\d,]+), ([\d.]+)% funded", s8h)
     cmp("Figure 1", "Reserve on 1 Jan 2033", round(FIGURE1_NOTE_FACTS["reserve_1jan2033"]), float(m.group(1).replace(",", "")), "8h")
     cmp("Figure 1", "Own rungs on 1 Jan 2033", round(FIGURE1_NOTE_FACTS["own_rungs_1jan2033"]), float(m.group(2).replace(",", "")), "8h")
@@ -478,6 +630,93 @@ def check(verbose=True):
         r1["half_kept_from_range_rule_jan2033"] + r1["excess_from_range_rule_dec2032"], round(fwd["flexibility"]),
         "8k check", tol=1.0)
 
+    # ---- Table 3 against NUMBERS 2, 5, 8d, 8h, 8j and SKELETON's definitions (Exhibits item 4) ----
+    s5 = _section(md, "## 5. A smaller or missed 2028 deposit", "\n## 6.")
+    r = [x for x in _table_rows(s5, "| Yields fall before Jan 2027") if x[0].startswith("None")][0]
+    cmp("Table 3", "Row 1: the top-up ($38,282)", round(TOPUP), _money(r[2])[0], "5")
+    cmp("Table 3", "Row 1: what the ten Treasuries still lack ($2,388)", round(TOPUP_TEN_LACK), _money(r[1])[0], "5")
+    m = re.search(r"the \$([\d,]+) tail plus the backstop \(\$([\d,]+)\)", s2)
+    cmp("Table 3", "Row 1: the top-up's part so no payment needs interest ($35,894)", round(TOPUP_NO_INTEREST),
+        float(m.group(2).replace(",", "")), "2")
+    cmp("Table 3", "Row 1: the top-up's two parts add up", round(TOPUP_TEN_LACK) + round(TOPUP_NO_INTEREST),
+        round(TOPUP), "2, 5")
+    dep = [x for x in _table_rows(s5, "| 2028 deposit | Floor money") if x[0].startswith("$150,000")]
+    cmp("Table 3", "Row 1: the 2028 deposit", DEPOSIT_2028, _money(dep[0][0])[0] if dep else None, "5")
+    m = re.search(r"After 2 points: the floor takes all \$[\d,]+ left, VT \$0, stated \$([\d,]+)", s5)
+    cmp("Table 3", "Row 6: bottom after a 2-point fall before Jan 2027", BOTTOM_AFTER_2PT_FALL,
+        float(m.group(1).replace(",", "")) if m else None, "5")
+    m = re.search(r"The standard takes the whole \$150,000 at a ([\d.]+)-point fall", s5)
+    cmp("Table 3", "Row 6: the fall at which the top-up takes the whole deposit (points)", FALL_TAKES_WHOLE_DEPOSIT,
+        float(m.group(1)) if m else None, "5", tol=0.0001)
+    s8d = _section(md, "### 8d.", "\n### 8e.")
+    m = re.search(r"USD/TWD:\*\* ([\d.]+) on 6 Nov", s8d)
+    cmp("Table 3", "Row 7: Taiwan dollars to the US dollar", TWD_PER_USD, float(m.group(1)) if m else None, "8d",
+        tol=0.0001)
+    m = re.search(r"band ([\d.]+)%-([\d.]+)% \(DGBAS construction cost index", s8d)
+    cmp("Table 3", "Row 7: building costs, low end of the band (%)", 100 * CCI_BAND[0], float(m.group(1)), "8d",
+        tol=0.0001)
+    cmp("Table 3", "Row 7: building costs, high end of the band (%)", 100 * CCI_BAND[1], float(m.group(2)), "8d",
+        tol=0.0001)
+    m = re.search(r"A ([\d.]+)% stronger Taiwan dollar on \$([\d,]+) needs \$([\d,]+) more", re.sub(r"\s+", " ", s8j))
+    cmp("Table 3", "Row 7: the test, a stronger Taiwan dollar (%)", 100 * TWD_TEST, float(m.group(1)), "8j", tol=0.0001)
+    cmp("Table 3", "Row 7: the contribution it is tested on", round(CONTRIBUTION_FWD), _money(m.group(0))[0], "8j")
+    cmp("Table 3", "Row 7: more US dollars needed", round(TWD_NEED), _money(m.group(0))[1], "8j")
+    m = re.search(r"with the excess \(\$([\d,]+)\), ([\d.]+) times", re.sub(r"\s+", " ", s8j))
+    cmp("Table 3", "Row 7: her flexibility at today's forwards", round(FLEX_FWD), float(m.group(1).replace(",", "")),
+        "8j", tol=0.5)
+    cmp("Table 3", "Row 7: her flexibility as printed (Table 2's rounding)", float(hundreds(FLEX_FWD)[1:].replace(",", "")),
+        float(table2_cells(TABLE2_WORLDS[0][2])[3][1:].replace(",", "")), "Table 2, row 1")
+    m = re.search(r"pays on (\w{3} \d+ \w{3} \d{4})\)", s8h)
+    note("Table 3", "Row 2: the Feb-2037 bond's business-day date", _d(FEB37_PAYS), m.group(1) if m else None, "8h",
+         "PASS" if m and m.group(1) == _d(FEB37_PAYS) and FEB37_PAYS.weekday() == 1 else "FAIL")
+    m = re.search(r"Three iBonds Treasury funds have already ended on schedule.*?(\d+ to \d+) days before 1 January, "
+                  r"with notice in (mid-October)", s8h, re.S)
+    ok = bool(m) and m.group(1) == "10 to 14" and m.group(2) == "mid-October"
+    note("Table 3", "Row 4: ending notice, cash dates and past endings", "mid-October; 10 to 14 days; all three",
+         m.group(0)[:60] + "..." if m else None, "8h", "PASS" if ok else "FAIL")
+    with open(SKELETON_MD) as fh:
+        sk = fh.read()
+    sk4 = sk[sk.index("4. **Table 3, monitoring**"):]
+    sk4 = sk4[:sk4.index("\n## ")]
+    for what, mine, want in (
+            ("Row 1: a missed deposit", f"nothing received by {_d(MISSED_BY, weekday=False)}",
+             "a missed deposit** is nothing received by 31 March 2028"),
+            ("Row 2: a Treasury default", f"within {_NUM[DEFAULT_DAYS]} business days", "within five business days"),
+            ("Row 1: the early warning", "confirms it in writing in late 2027", "confirms the deposit in writing in late 2027"),
+            ("Row 3: the X-date's window", "within a month of a date the plan needs cash",
+             "within a month of a date the plan needs cash"),
+            ("Row 5: the trade days", f"{_d(TRADE_DAYS[0])} and {_d(TRADE_DAYS[1])}", "Mon 4 Jan 2027 and Mon 3 Jan 2028"),
+            ("Row 5: the first draw", "first draw after January 2033", "first draw slipping past January 2033"),
+            ("Row 6: the distances", f"{dollars(BOTTOM_AFTER_2PT_FALL)}; {FALL_TAKES_WHOLE_DEPOSIT:.2f}-point",
+             "cuts the stated bottom to $60,000; a 3.60-point fall takes the whole deposit"),
+            ("Row 7: the test", f"{100 * TWD_TEST:.0f}% stronger", "row 7 tests a 10% stronger Taiwan dollar")):
+        note("Table 3", what, mine, want, "SKELETON Exhibits item 4", "PASS" if want in sk4 else "FAIL")
+    shut = (TRADE_DAYS[0] - _date(2027, 1, 1)).days == 3 and _date(2028, 1, 1).weekday() == 5 and \
+        all(d.weekday() == 0 for d in TRADE_DAYS)
+    note("Table 3", "Row 5: both trade days are the first market day of the year", "Mondays after a closed 1 January",
+         "1 Jan 2027 holiday (Fri), 1 Jan 2028 Saturday", "calendar", "PASS" if shut else "FAIL")
+    # Every figure printed in Table 3 is one checked above (a printed number with no check fails here)
+    printed = " ".join(cell_text(c) for _, cells in TABLE3_ROWS for c in cells)
+    allowed = {dollars(DEPOSIT_2028), dollars(TOPUP), dollars(TOPUP_TEN_LACK), dollars(TOPUP_NO_INTEREST),
+               dollars(BOTTOM_AFTER_2PT_FALL), dollars(TWD_NEED), dollars(CONTRIBUTION_FWD), hundreds(FLEX_FWD)}
+    found = set(re.findall(r"(?<![A-Z])\$[\d,]+", printed))   # NT$ and US$ mark an exchange rate, not a dollar figure
+    if "US$1 = NT$" in printed:
+        note("Table 3", "Row 7: the exchange rate as printed", f"US$1 = NT${TWD_PER_USD:.3f}", "32.768 (8d)", "8d",
+             "PASS" if f"US$1 = NT${TWD_PER_USD:.3f}" in printed else "FAIL")
+    note("Table 3", "Every dollar figure printed is checked", ", ".join(sorted(found)), ", ".join(sorted(allowed)),
+         "this check", "PASS" if found <= allowed else "FAIL")
+    nums = set(re.findall(r"(?<![\w$,.])\d+(?:\.\d+)?%?", printed.replace("NT$", "NT ").replace("US$", "US ")))
+    known = {"2028", "31", "2027", "4", "3", "17", "2037", "10", "14", "2031", "2033", "2", "1", "1.5%", "5.0%",
+             f"{FALL_TAKES_WHOLE_DEPOSIT:.2f}", f"{TWD_PER_USD:.3f}", "10%"}
+    note("Table 3", "Every other number printed is a checked date or figure", ", ".join(sorted(nums - known)) or "none",
+         "dates and figures above", "this check", "PASS" if nums <= known else "FAIL")
+
+    banned3 = ("backstop", "gift", "overflow", "paths", "forward rates", "half kept", "kept half", "moved half", "rung",
+               "completion", "model", "cap ", "capped", "excess", "stated ends", "escrow")
+    printed3 = " ".join([printed] + TABLE3_HEADER + list(TABLE3_LEVELS.values())).lower()
+    note("Table 3", "No word WORDS.md bans", ", ".join(b for b in banned3 if b in printed3) or "none", "none",
+         "WORDS.md", "PASS" if not any(b in printed3 for b in banned3) else "FAIL")
+
     fails = [x for x in res if x[5] == "FAIL"]
     if verbose:
         for ex, what, mine, reg, sec, status in res:
@@ -493,7 +732,7 @@ if __name__ == "__main__":
     print("Table 1 (NUMBERS 8g v2, WInS record at cost)")
     for kind, cells in table1_rows():
         print(f"  {kind:<9}", " | ".join(c.replace("\n", " / ") for c in cells))
-    print("\nFigure 1 (NUMBERS 8h, MODEL): year | paid from | cash arrives | at forwards | nothing earns after fee: own + backstop")
+    print("\nFigure 1 (NUMBERS 8h, MODEL): year | paid from | cash arrives | at forwards | nothing earns after fee: own + top-up")
     for f in FIGURE1_ROWS:
         print(f"  {f['year']} | {f['holding']:<16} | {f['pays_out']} ({f['wait_words'] or str(f['months_model']) + ' mo'}) |"
               f" {dollars(f['at_forwards'])} | {dollars(f['own_if_nothing_earns'])} + {dollars(f['backstop_if_nothing_earns'])}")
@@ -505,6 +744,9 @@ if __name__ == "__main__":
     print(f"  {TABLE2_SPREAD_LABEL}")
     for label, v in TABLE2_SPREAD:
         print(f"  {label:<36}", " | ".join(table2_cells(v)))
+    print("\nTable 3 (SKELETON Exhibits item 4; figures from NUMBERS 2, 5, 8d, 8h, 8j)")
+    for kind, cells in table3_rows():
+        print(f"  {kind:<8}", " | ".join(cell_text(c) for c in cells))
     print()
     fails, _ = check()
     sys.exit(1 if fails else 0)

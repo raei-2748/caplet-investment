@@ -1,24 +1,45 @@
-# Exhibit specs for the Final Report (rebuilt Wed 11 Nov 2026, Sydney, on the register of Tue 10 Nov)
+# Exhibit specs for the Final Report (rebuilt Thu 12 Nov 2026, Sydney, on the register of Tue 10 Nov)
 
 Design notes, not report text. Titles below are working labels and each note is a list of the items it must carry;
 both are written on 27 Nov. Design: H_plain ("sufficient without reinvestment", with the fee cushion), the Treasury
 curve of 6 Nov 2026, the range rule on the fund's holdings, Keel's reading of "most". MODEL = Keel's calculation.
 
+**What changed Thu 12 Nov, and why** (lead's brief; SKELETON Exhibits items 2 and 4; Panel 2's density cut).
+- **Table 3 built** (Exhibit 4 below): seven rows in three levels, five columns, one trigger per cell, the two reasons
+  to change the plan defined in their own rows. Why: SKELETON item 4 and the bond reader's condition for signing off
+  ("I wouldn't approve a policy whose only two exits are undefined").
+- **Figure 1 fixed.** The right-hand head now asks the question its two columns answer ("If interest earns nothing,
+  what pays each $50,000?"); the axis break is gone (one scale, 2027 to 2042); `../WORDS.md` names throughout ("At
+  today's market rates", "Its own Treasury", "What the top-up pays": renamed by the lead the same morning, since the column totals what the top-up's Treasuries pay, $55,920, while `WORDS.md` and the prose give its cost, $38,282); the note carries the ratio with its reason and the
+  historical rate stretches. Why: the lay reader (`../research/panel/2026-11-11_lay_reader_3a_3b_figure1.md`), card
+  Q31 and the density cut, which moved the ratio out of 2.0 and 3a into this note.
+- **The letter build holds four exhibits** and the check now reads Figure 1's and Table 3's words as well as figures.
+
 **Files.**
 - `exhibit_data.py` reads every modelled figure from `../numbers/results_reserve_2026-11-10.json`,
-  `results_joint_stress_2026-11-10.json` and `results_returns_2026-11-10.json`. Table 1's rows are the WInS record
+  `results_joint_stress_2026-11-10.json`, `results_returns_2026-11-10.json`, and (Thu 12 Nov, for Table 3)
+  `results_2026-11-10.json` (the top-up and the yield-fall distances, block C6) and `inflation_inputs.json` (the
+  exchange rate and the construction cost band). Table 1's rows are the WInS record
   (8g), which no results file holds, so they are typed in and checked cell by cell against the 8g table.
   Run it to print every exhibit figure and the check against `../NUMBERS.md`.
-  - Wed 11 Nov, after the fresh reader's fixes: 235 figures; 229 PASS, 0 FAIL, 6 flagged (five identifier
-    placeholders; Figure 1's rows foot $1 off 8h's totals, which its note's rounding clause covers).
+  - Thu 12 Nov, with Table 3 and the new Figure 1: **269 figures; 263 PASS, 0 FAIL, 6 flagged** (the same six: five
+    identifier placeholders; Figure 1's rows foot $1 off 8h's totals, which its note's rounding clause covers).
+    Wed 11 Nov: 235; 229 PASS, 0 FAIL, 6 flagged.
+  - New checks (Thu 12 Nov): Figure 1's top-up head against NUMBERS section 2 and `WORDS.md`; its $1.11 against 8h's
+    111.4%; Table 3's every dollar figure, date and number against NUMBERS 2, 5, 8d, 8h and 8j, its two definitions
+    and trade days against SKELETON item 4, the trade days and the Feb-2037 bond's date against the calendar; no
+    banned word ("backstop", "gift", "overflow", "paths") in any printed cell, head or legend.
   - The check also reads the waiting times from the Trading Notes (TNA and the WInS trade-note file), Table 1's
     "Pays for" from the 23 Oct WInS snapshot, and the cost of the Treasuries bought with the 2028 deposit from
     NUMBERS section 2.
 - `build_exhibits.py` stops if any figure fails, then writes:
   - `figure1_reserve.svg` (text kept as text) and `figure1_reserve_2x.png`;
-  - `exhibit2_reserve.png`: Figure 1 at 300 dpi, under the old name `../template/build_template.py` places;
-  - `table1_holdings_2x.png` and `table2_markets_2x.png`, cropped from `exhibits_letter.pdf` (the three exhibits on
-    Letter in Wharton's format, each note showing its items);
+  - `exhibit2_reserve.png`: Figure 1 at 300 dpi, under the old name `../template/build_template.py` places.
+    Checked Thu 12 Nov and kept, not deleted: `build_exhibits.py` writes it and `../template/build_template.py`
+    (line 414) reads it;
+  - `table1_holdings_2x.png`, `table2_markets_2x.png` and `table3_monitoring_2x.png`, cropped from
+    `exhibits_letter.pdf` and `.docx` (the four exhibits on Letter in Wharton's format, each note showing its items;
+    the bracketed items are what each note must carry, longer than the budget the measure uses);
   - `tables.md`: every exhibit as text;
   - `measurements.json`: the page cost of each exhibit.
 - Rerun from the repo root: `python3 -I keel/final_report/exhibits/build_exhibits.py` (about 15 seconds; needs
@@ -29,8 +50,8 @@ curve of 6 Nov 2026, the range rule on the fund's holdings, Keel's reading of "m
 
 ## 0. Rules for every exhibit
 
-- **APA 7 labels.** Keel's Exhibit 1, 2, 3 are **Table 1**, **Figure 1**, **Table 2**, numbered in the order the text
-  calls them out. A monitoring table in 3e would be Table 3.
+- **APA 7 labels.** Keel's Exhibit 1, 2, 3, 4 are **Table 1**, **Figure 1**, **Table 2**, **Table 3**, numbered in the
+  order the text calls them out.
 - **Layout (APA 7; Wharton allows single spacing in tables and graphics).**
   - Number in bold; title in italic title case on the next double-spaced line.
   - Body single-spaced, 12 pt. Number, title and note double-spaced. "*Note.*" in italics.
@@ -44,27 +65,31 @@ curve of 6 Nov 2026, the range rule on the fund's holdings, Keel's reading of "m
   fixes are in each spec. The next fresh-reader test is Mon 23 Nov.
 - **Scale in every title** (fresh reader, Wed 11 Nov). Table 1 is the WInS book on the original $300,000 (8g: Laura's
   whole plan in miniature). Figure 1 and Table 2 are her plan for both deposits ($450,000), modelled.
-- **Page cost, measured Wed 11 Nov.**
+- **Page cost, measured Thu 12 Nov.**
   - Method (card Q23): an exhibit between two prose lines on a Letter page in Wharton's format. Height = the gap /
-    27.6 pt, less one line. It includes the number, title, note and the blank line after.
+    27.6 pt, less one line. It includes the number, title, note and the blank line after. An exhibit too tall for
+    that (Table 3) is measured from the top of its own page.
   - A note is double-spaced like prose, so its words cost about what the same words cost in prose (about 14 a line).
   - The fixed cost below is each exhibit without its note:
 
-| Exhibit | Section | Without a note | With the note budget | Prose it displaces (budget note) | Before the fresh reader's fixes |
+| Exhibit | Section | Without a note | With the note budget | Prose it displaces (budget note) | Wed 11 Nov |
 |---|---|---|---|---|---|
-| Table 1 | Section 2 | 12.9 lines | 16.9 lines (50-word note) | about 240 words | 11.9 / 14.9 (45 words) |
-| Figure 1 | 3a | 12.9 lines (image 6.5 x 3.40 in; two-line title) | 16.9 lines (55-word note) | about 240 words | 11.9 / 14.9 (45 words) |
-| Table 2 | 3b, 3c | 9.2 lines | 12.2 lines (45-word note) | about 170 words | 8.7 / 12.7 (55 words) |
-| Section 3's two exhibits | | 22.1 lines | 29.1 lines (1.2 pages) | about 410 words | 20.6 / 27.6 |
+| Table 1 | Section 2 | 12.9 lines | 16.9 lines (50-word note) | about 240 words | the same |
+| Figure 1 | 3a | 13.3 lines (image 6.5 x 3.56 in; two-line title) | 17.3 lines (60-word note) | about 250 words | 12.9 / 16.9 (55 words) |
+| Table 2 | 3b, 3c | 9.2 lines | 12.2 lines (45-word note) | about 170 words | the same |
+| Table 3 | 3e | 18.9 lines (30 single-spaced body lines) | 21.9 lines (35-word note) | about 310 words | Q23's filler measure 17.1 |
+| Section 3's three exhibits | | 41.4 lines | 51.4 lines (2.2 pages) | about 730 words | Q23's 44.2 (16.0 + 11.1 + 17.1) |
 
-  - Where the lines went. Table 1: +1.0 fixed (two "Pays for" cells on two lines) and +1.0 from five more note words.
-    Figure 1: +1.0 fixed (the title is now a sentence with the scale, two lines) and +1.0 from ten more note words.
-    Table 2: +0.5 fixed (the result row) and -1.0 from ten fewer note words.
-  - Does each still fit? Section 2: two lines are about 30 words, so SKELETON's ceiling of about 700 words beside
-    Table 1 falls to about 670, still above its 650-word budget. Section 3: against SKELETON v2's 27.1 lines (Q23's
-    Tue 10 Nov measures, 16.0 + 11.1), the two exhibits now cost 29.1 lines with their notes held to 100 words
-    together (55 + 45): two lines (about 30 words) over, so the ceiling of about 1,960 words falls to about 1,930, still
-    above the 1,900 budget. Cutting Figure 1's optional note item (the $34,369 cost) wins back one line.
+  - Where the lines went since Wed 11 Nov. Figure 1: +0.4 fixed (the question head takes two lines more) and five
+    more note words for the ratio. Table 3: real cells, not Q23's filler: +4.8 lines on Q23's 17.1 (two-line heads,
+    three level rows, four- and five-line cells in the trigger and changes columns, a 1-pt gap after each row, which
+    costs about 0.3 line in all).
+  - **RISK: Section 3 no longer fits its budget.** Q23 row 33's ceiling of about 1,960 words beside the three
+    exhibits assumed 44.2 lines; they now cost 51.4, about 100 words more, so the ceiling falls to about 1,860, about
+    40 words under SKELETON's 1,900 budget. Ways back, each about one line (14 words): Table 3's note to about 20
+    words (today's market rates; the reader); Figure 1's note to 45 words (move the historical rate stretches to 3a's
+    prose); Table 3 without the row gaps (0.3). Or 3e gives 40 words. The lead's call; nothing is cut here.
+  - Section 2 is unchanged: about 670 words of ceiling beside Table 1, above its 650-word budget.
   - Items cut from the notes go to prose: the inflation row's $89,546 in 2027 dollars (3b or 3c), the range rule (3c),
     the replay method and VT's purchase month (3e).
 
@@ -91,15 +116,16 @@ curve of 6 Nov 2026, the range rule on the fund's holdings, Keel's reading of "m
 | Item | Spec |
 |---|---|
 | Case question | The case: "recommend its size and initial asset composition and explain how its composition should change, if at all, as the annual payments approach and are made". Wharton: "Recommend an appropriate operating reserve". |
-| Five-second question | "Which holding pays each year's $50,000, when does its cash arrive, and what covers the gap if nothing earns interest?" (answer in the title: extra Treasuries bought with the 2028 deposit) |
-| Form (card Q28: the escrow verifier's sufficiency schedule beside a staircase) | Ten rows, 2033 at the top. Left: the payment year. Middle: one bar per own holding, from purchase (January 2027, at the broken left edge) until its cash arrives, labelled on the bar with its ticker or coupon and date. The bars are light grey for the iBond Treasury ETFs and dark grey with white text for the Treasury bonds. A black tick marks each 1 January payment. A dotted line and the Trading Notes' words mark the two long waits: "cash waits 10.5 months" (Feb-2037 bond) and "cash waits 7.5 months" (May-2038 bond; CANON A16, B35; the model's 7.6 is not printed). Right: three printed number columns: "At forward rates", then, under a spanner "If nothing earns interest", "Own holding" and "Bought with / 2028 deposit" (fresh reader and coordinator, Wed 11 Nov: "Backstop" said neither where the money comes from nor when it is bought; NUMBERS section 2: "In January 2028 the deposit's first dollars also buy extra face in the same Treasuries"; it is not in the WInS book). The 0.15% fee moved from the spanner to the note. A total row sits under a rule, and a legend inside the figure. The axis years run along the head: 2027, then 2033 to 2041. The axis is broken before 2033 (a cut through every bar and through the head rule). |
-| Data | NUMBERS 8h, MODEL; `results_reserve_2026-11-10.json`. Holdings and cash dates come from `composition_1jan2033_base`; "At forward rates" from `base` ($50,000 in every row; the backstop is untouched). The zero-interest columns come from `fee`, Keel's standard as SKELETON's Exhibits item 2 sets it: nothing earns interest from 2027 and every waiting dollar pays the Treasury-bill ETF's 0.15% fee. Own holding $47,338 (2033) down to $42,180 (2041) and $42,469 (2042); backstop $2,662 to $7,820; each row exactly $50,000; totals $500,000, $444,080 and $55,920. Nothing is left after 2042; without the fee, $1,414 is left (the `zero` block). |
-| Number and working title | **Figure 1** / *Each Payment Has Its Own Treasury; Extra Treasuries Bought With the 2028 Deposit Pay Any Gap if Nothing Earns Interest (Laura's Plan for Both Deposits, $450,000, Modelled)* (two lines; the point first, from NUMBERS section 2's own sentence, then the scale) |
-| Note must carry (about 55 words) | MODEL, at forward rates on the Treasury par yield curve of 6 Nov 2026. The right-hand columns are what each payment gets if nothing earns interest from 2027 and waiting money pays the Treasury-bill ETF's 0.15% fee: the $500,000 of payments split between the payment's own holding ($444,080) and the Treasuries bought with the 2028 deposit ($55,920), not the reserve's value on 1 Jan 2033 ($444,545 at forward rates; the reader confused the two). If room: those Treasuries cost $34,369 in 1 Jan 2027 money (section 2) and are not in the WInS book. The standard clause that rows may not add to the totals because of rounding. To 3a's prose: the escrow test's name, the short-term Treasury ETF where waiting money sits (CANON A15), the reserve's funded ratio (111.4%), and nothing left after 2042 ($1,414 without the fee). |
+| Five-second question | "Which Treasury pays each year's $50,000, when does its cash arrive, and what pays the gap if interest earns nothing?" (answer in the title: the top-up from the 2028 deposit) |
+| Form (card Q28: the escrow sufficiency schedule beside a staircase; Thu 12 Nov fixes) | Ten rows, 2033 at the top. Left: the payment year. Middle: one bar per own Treasury, from January 2027 until its cash arrives, labelled on the bar with its ticker or coupon and date; light grey for the iBond Treasury funds, dark grey with white text for the Treasury bonds; a black tick at each 1 January payment. **One scale, 2027 to 2042, no break** (Thu 12 Nov, lead's brief): years 2027, 2030, 2033, 2036, 2039 and 2042 along the head, so the six years held before the first payment show at their true length. The two long waits keep the Trading Notes' months on a dotted line: "waits 10.5 months" (Feb-2037 bond) and "waits 7.5 months" (May-2038 bond; CANON A16, B35; the model's 7.6 is not printed); "cash" left the label so it clears the number columns, and the legend names the dotted line "cash waiting". Right: "At today's market rates" ($50,000 in every row), then, under a two-line head that **asks the question the columns answer**, "If interest earns nothing, what pays each $50,000?", two columns: "Its own Treasury" and "The top-up". A total row under a rule. Legend inside the figure, one line: iBond Treasury fund; Treasury bond; $50,000 paid on 1 January; cash waiting (the build stops if it does not fit). |
+| Words (`../WORDS.md`, Thu 12 Nov) | "today's market rates", not "forward rates"; "Its own Treasury", not "Own holding"; "The top-up", not "Backstop" or "Bought with / 2028 deposit" (WORDS.md's name since Wed 11 Nov evening, which also says where it comes from in the title); "interest earns nothing". The check fails on any banned word in the figure's title, heads, legend or labels. |
+| Data | NUMBERS 8h, MODEL; `results_reserve_2026-11-10.json`. Holdings and cash dates come from `composition_1jan2033_base`; "At today's market rates" from `base` ($50,000 in every row; the top-up is untouched). The two question columns come from `fee`, Keel's standard as SKELETON's Exhibits item 2 sets it: nothing earns interest from 2027 and every waiting dollar pays the Treasury-bill fund's 0.15% fee. Own Treasury $47,338 (2033) down to $42,180 (2041) and $42,469 (2042); the top-up $2,662 to $7,820; each row exactly $50,000; totals $500,000, $444,080 and $55,920. Nothing is left after 2042; without the fee, $1,414 is left (the `zero` block). |
+| Number and working title | **Figure 1** / *Each Payment Has Its Own Treasury, and the Top-Up From the 2028 Deposit Pays Any Gap if Interest Earns Nothing (Laura's Plan for Both Deposits, $450,000, Modelled)* (two lines; the point first, then the scale) |
+| Note must carry (about 60 words; was 55) | Modelled at today's market rates (Treasury par curve of 6 Nov 2026); Laura's plan for both deposits ($450,000); each payment in the dollars of its own 1 January. The two right-hand columns: if nothing earns interest from 2027 and waiting money pays the Treasury-bill fund's 0.15% fee, own Treasuries pay $444,080 and the top-up $55,920 of the $500,000. **The ratio with its reason** (density cut; card Q31; WORDS.md): about $1.11 for each $1 on 1 Jan 2033 at today's rates ($444,545 against $399,089, 8h's 111.4%), because the top-up is sized for no interest. The top-up: the first $38,282 of the 2028 deposit; $2,388 completes the ten and $35,894 pays the last column (NUMBERS 2); not in the WInS portfolio. Paid in every historical rate stretch tested (585 starting months, 1962-2010; NUMBERS 2; no longer "if room", the density cut puts it here). The rounding clause. Cut: Wed 11 Nov's $34,369 in 1 Jan 2027 money, replaced by the top-up's $38,282 in January 2028 money, as 2.0 and WORDS.md state it. Scale is stated twice, in the title and the note's first item. |
 | Rounding (coordinator, Wed 11 Nov) | Every row equals 8h and sums to exactly $50,000. The totals are 8h's totals of unrounded figures ($500,000, $444,080, $55,920); the printed rows foot to $444,081 and $55,919, which the note's rounding clause covers. |
 | Words never used | Waiting money is never called cash held at 0% or cash not invested (CANON A15). No fund bar carries a bare "$50,000": the funds pay net asset value (card Q28 row 13). |
-| Measured | Image 6.5 x 3.40 in. 16.9 lines with a 55-word note; 12.9 without. Before the fixes: 14.9 and 11.9. Tue 10 Nov's version: 16.0 lines, 3.85-in image, three-line note. |
-| Five-second result | Fresh reader, before the fix: bars 5, right-hand columns 2 ("Backstop" undefined; "zero interest on what?"; no title sentence; scale unclear). All four are now addressed in the heads, the title and the note. Open: the reader would drop the constant "At forward rates" column ("tells me nothing"). Kept for now: it shows each own holding pays exactly $50,000 at forward rates (8h), the other half of the escrow test; 3a's prose must say they were sized to do so, or the column goes (dropping it saves no height). |
+| Measured | Image 6.5 x 3.56 in (was 3.40: the question head). 17.3 lines with a 60-word note; 13.3 without. Wed 11 Nov: 16.9 and 12.9. Tue 10 Nov: 16.0 lines, 3.85-in image. |
+| Five-second result | Not re-tested since Thu 12 Nov's fixes; the fresh-reader test is Mon 23 Nov. Fresh reader, Wed 11 Nov: bars 5, right-hand columns 2 ("Backstop" undefined; "zero interest on what?"). Keel's look Thu 12 Nov: the head now says what the two columns answer, and the bars' 2027-2033 stretch shows money held six years before it pays. Still open: the reader would drop the constant "At today's market rates" column; kept, since it shows each own Treasury pays exactly $50,000 at today's rates (8h), and 3a's prose must say they were sized to do so. |
 | Not drawn | Q28's optional lighter last stretch on each fund bar (cash inside the fund in its final months): a third grey breaks the two-greys rule, and the register gives no per-fund maturity months. |
 | Files | `figure1_reserve.svg`, `figure1_reserve_2x.png`, `exhibit2_reserve.png` (300 dpi); its numbers as text in `tables.md`. |
 
@@ -121,16 +147,33 @@ curve of 6 Nov 2026, the range rule on the fund's holdings, Keel's reading of "m
 | Five-second result | Fresh reader, before the fix: 4 and 4; "All paid" read at once; the confidence answer was in the note. It now closes the table. Open for 3c's prose: what confidence Laura states in one number, and what she says before 2031 while the range still moves with rates. |
 | Files | `table2_markets_2x.png`; Markdown in `tables.md`; built by `add_table2` in `build_exhibits.py`. |
 
-## Decisions taken (coordinator, Wed 11 Nov) and what is still open
+## Exhibit 4 = Table 3, what to monitor as 2031 and 2033 approach (3e)
+
+| Item | Spec |
+|---|---|
+| Case question | Wharton, Section 3: "Explain what Laura or her asset management team should monitor as 2031 and 2033 approach and how changing conditions could affect your recommendations." |
+| Five-second question | "What would make Laura change the plan?" (two things, both defined in their rows: a missed 2028 deposit and a Treasury default; everything else changes a date, an instrument or her flexibility, never the plan) |
+| Form (SKELETON item 4; cards Q15, Q26, Q30; bond reader, Wed 11 Nov) | Seven rows in three levels, each level an italic full-width row under a rule: "The two reasons to change the plan" (rows 1-2); "Look closer: a date or an instrument may change, never the plan" (rows 3-5); "Watch: the plan carries on" (rows 6-7). Five columns: Signal; Reader; Carry on while; Look closer or act when; What it changes; what it never changes. One trigger per cell; no source column. The last column opens each part with an italic "Changes:" and "Never:". Widths 0.85 / 0.60 / 1.50 / 1.65 / 1.90 in, all left-aligned, single-spaced, a 1-pt gap after each row (rows ran together without it). |
+| Rows (as printed) | 1. The 2028 deposit ($150,000) / Laura / Confirmed in late 2027; the $38,282 top-up comes first / Nothing received by 31 March 2028 (a missed deposit) / Changes: the plan, before any range is stated. Never: the Treasuries held. 2. Treasury payments to her or her funds / Team / Paid by the next business day (Tue 17 Feb 2037 for the February 2037 bond) / A Treasury default: any marketable Treasury payment over five business days late / Changes: the payments and range, restated on what was received. Never: a forced sale. 3. The X-date of the debt limit / Team / No X-date within a month of a cash date / An X-date within a month of a payout, maturity or trade day / Changes: that money moves to bills due before it. Never: the payments. 4. iBond fund notices, the floor's too / Team / Cash arrives 10 to 14 days before 1 January / A notice that moves a fund's end date / Changes: the instrument, to a Treasury maturing in time. Never: the payment. 5. Trade days: Mon 4 Jan 2027, Mon 3 Jan 2028 / Team / Limit orders near each fund's net asset value / A date cannot be kept (a halt; a first draw after January 2033) / Changes: a date, by days. Never: the step or its order. 6. Treasury yields and share prices / Team / Any level: a fall in the market is not a reason / None. Yields 2 points lower before 2027: a $60,000 bottom; 3.60 lower: the top-up takes the whole deposit / Changes: prices, until each end is bought; then only her flexibility. Never: the payments. 7. Her flexibility's three uses / Laura / US$1 = NT$32.768; construction cost index up 1.5% to 5.0% a year / A Taiwan dollar 10% stronger ($11,500 more on $115,000) / Changes: a call on her flexibility ($29,800 today). Never: the range. |
+| Sources (all checked) | Row 1: NUMBERS 2 (the top-up $38,282) and SKELETON item 4 (31 March 2028; confirmed in writing in late 2027). Row 2: SKELETON item 4's definition (five business days; S&P's test) and 8h (Tue 17 Feb 2037). Row 3: SKELETON item 4 (a month; payout, maturity, trade day; bills). Row 4: 8h (cash 10 to 14 days before 1 January; notice in mid-October). Row 5: SKELETON item 4 and the calendar (both 1 Januaries closed). Row 6: NUMBERS 5 and C6 (`fall_200bp`, stated bottom $60,000; 3.60 points takes the whole deposit). Row 7: 8d (US$1 = NT$32.768 on 6 Nov; construction cost band) and 8j (a 10% stronger Taiwan dollar: $11,500 more on the $115,000 top; her flexibility $29,823, printed $29,800 as in Table 2). |
+| Number and working title | **Table 3** / *Seven Signals to Watch as 2031 and 2033 Approach; Two Can Change Laura's $450,000 Plan* (one line) |
+| Note must carry (about 35 words) | Today's market rates (curve of 6 Nov 2026); the top-up's two parts, in January 2028 dollars: $2,388 the ten Treasuries still lack plus $35,894 so no payment needs interest (NUMBERS 2, 5); "Team" is Wharton's "her asset management team". |
+| Choices against SKELETON item 4 (each forced by width or source) | (a) Row 4's trigger is a notice that moves a fund's end date; SKELETON's "bridge if cash is not in by 28 Dec" has no source in NUMBERS (no 28 Dec date, no bridge instrument), so it is left to 3e's prose or a NUMBERS entry first. (b) Row 1 names the $38,282 and the note carries its two parts, since both parts in the cell made it seven lines. (c) "Reader" for "who reads it" (the head fits one line). (d) Row 5 drops the 2031 meetings and keeps the first draw slipping past January 2033 inside its trigger. (e) Row 7's test is the $11,500 against the $29,800 of flexibility, not 8j's tail probability (the density cut keeps tail probabilities out). (f) Row 6 shows NUMBERS 5's distances, not spreads, as SKELETON asks; its trigger cell opens "None." because no market level is a reason. (g) Custody is not a row (SKELETON item 4 (c): one line of prose). |
+| Measured | 21.9 lines with a 35-word note (8.39 in of the 9-in text block); 18.9 without. It fits one page only at the top of its own page. Q23's filler estimate was 17.1. |
+| Five-second result | Not yet tested. Keel's look: the three italic level rows and the "Changes:/Never:" pairs carry the point before any cell is read; the two reasons sit first. Due Mon 23 Nov with the others. |
+| Files | `table3_monitoring_2x.png`; Markdown in `tables.md`; built by `add_table3` in `build_exhibits.py`; rows in `exhibit_data.TABLE3_ROWS`. |
+
+## Decisions taken (coordinator, Wed 11 Nov; lead, Thu 12 Nov) and what is still open
 
 1. Taken: Table 1's costs row is printed "Commissions and accrued interest at purchase" (one line).
 2. Taken: Figure 1's rows equal 8h; its note carries the standard rounding clause.
 3. Taken: Table 2 has no contribution column. Superseded the same day by decision 6: the claim is a table row.
-   The two Section 3 notes are held to about 100 words together (now 55 + 45).
+   The two Section 3 notes were held to about 100 words together (55 + 45); Thu 12 Nov: 60 + 45, and Table 3's 35.
 4. Taken (fresh reader, coordinator): every title says its scale; Table 1 is the WInS book on the original
    $300,000 (Laura's whole plan in miniature), Figure 1 and Table 2 her plan for both deposits ($450,000), modelled.
    Figure 1's note says its right-hand columns are the $500,000 of payments split, not the reserve's value.
-5. Taken: Figure 1 has a title sentence with its point; "Backstop" is "Bought with / 2028 deposit". Table 1 has a
+5. Taken: Figure 1 has a title sentence with its point; "Backstop" is "Bought with / 2028 deposit" (since Thu 12 Nov
+   "The top-up", decision 8). Table 1 has a
    "Pays for" column (two cells on two lines; +2.0 lines with the note; Section 2 still within budget).
 6. Taken: Table 2's last row says the contribution equals the stated top in every world and replay.
 7. Open: `../template/build_template.py` belongs to another owner. Its own `add_figure1_reserve` and
@@ -139,6 +182,10 @@ curve of 6 Nov 2026, the range rule on the fund's holdings, Keel's reading of "m
    variant with "Pays for"; `SCENARIO_COLUMNS` has five columns without the contribution). Its titles and notes
    predate the scale fix. On 27 Nov, pour with `build_exhibits.py`'s `add_table1`, `add_figure1` and `add_table2`, or update
    the template.
+8. Taken Thu 12 Nov (lead's brief): Table 3 is built and checked; Figure 1 has no axis break, a question head, WORDS.md
+   names and the ratio in its note. `exhibit2_reserve.png` stays (two builds use it).
+9. Open Thu 12 Nov: Section 3's three exhibits cost about 100 words more than Q23 assumed (see Page cost); row 4's
+   bridge needs a NUMBERS entry before it can be printed.
 
 ## Former candidates, for the record
 
@@ -146,8 +193,8 @@ curve of 6 Nov 2026, the range rule on the fund's holdings, Keel's reading of "m
    outcomes. Superseded by Table 2. The chart file is deleted. On today's register the house-model figures are: floor
    payout $88,047 / $103,097 / $124,380; stated bottom $85,000 / $95,000 / $115,000; stated top $95,000 / $115,000 /
    $140,000 (NUMBERS section 4).
-2. **The monitoring table (Table 3, 3e).** Kept as a fourth exhibit (SKELETON item 4; card Q26). Its spec and
-   measure are still Q23's: 17.1 lines with filler cells.
+2. **The monitoring table (Table 3, 3e).** Built Thu 12 Nov as the fourth exhibit (Exhibit 4 above); Q23's filler
+   measure of 17.1 lines is superseded by 21.9.
 3. **The contribution against an all-Treasury plan.** One sentence in 3b, no exhibit. An all-Treasury plan gives
    $140,761 at forward rates (stated $130,000). The FINAL's funds pay $123,476, and the stated top is $115,000.
    Counting the half kept and the excess, the FINAL's house-model median is $145,687 against $140,649, and its

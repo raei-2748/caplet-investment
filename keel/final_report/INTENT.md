@@ -1,4 +1,4 @@
-# Intent: what the Final Report must leave in a judge's head (version 2, Tue 10 Nov 2026, amended Wed 11 Nov morning and evening; first version Mon 9 Nov night)
+# Intent: what the Final Report must leave in a judge's head (version 2, Tue 10 Nov 2026, amended Wed 11 Nov morning and evening and Thu 12 Nov morning; first version Mon 9 Nov night)
 
 Planning notes, not report text. No sentence here is meant to be pasted into the report. Every figure is from
 `NUMBERS.md`; every claim about what Caplet committed to is checked against `CANON.md`; every name for a thing is the one in `WORDS.md` (Wed 11 Nov evening). Re-scored by every run through
@@ -19,8 +19,8 @@ the holdings table make sense.
 ## What it means to a co-sponsor (panel 1, the funder judge)
 
 Ten years of the residency's operations are owned in Treasuries before the doors open, so the facility is the only
-thing Laura asks anyone to share. No other founder in a co-sponsor's pile can say that. It leads 3.0 and the passage
-in 3d.
+thing Laura asks anyone to share. It leads 3.0 and the passage in 3d. (The note that no other founder can say that is
+Keel's belief, untestable, and stays out of the report: panel 2's professor, Thu 12 Nov.)
 
 ## The argument in three sentences (EXPECTATIONS 2.9: the strategy, its biggest strength, its main trade-off)
 
@@ -46,7 +46,8 @@ in 3d.
    units; NUMBERS 8m); what does not scale (fixed fees, $1,000 bond lots, the 2028 deposit, time) is calculated, not
    shown (card Q29). And it cost more than the deposit: the ten cost $302,287 at the 6 Nov close, and the IPS's own
    clause completes them from the 2028 deposit. A team that shows its overrun and the rule that covers it is believed
-   on the rest.
+   on the rest. (Thu 12 Nov, panel 2: the overrun is said in 3a with the top-up, not in the 2.0 lead, where beside a table
+   totalling $300,000 at two-thirds scale it confuses; SKELETON's density cut.)
 3. In 2031 Laura states about $95,000 to $115,000, and both ends are money she already owns in Treasury funds; co-sponsors
    count the bottom, and the contribution reaches the top unless the US defaults. (Notes, not words for the report: the written
    rule, the cap and the two exceptions are in SKELETON 3c and cards Q19, Q4c and Q26; the payments' standard costs the
@@ -70,7 +71,8 @@ in 3d.
    measure, a test, a decision or a number that is in neither the IPS nor the Trading Notes (SKELETON's rule).
 2. **A bond reader catches a loose claim** ("immune to markets", "without doubt", "pay what they say" for an iBond
    fund, "diversified by date", "duration-matching"). Guard: the canon's exact meanings (`CANON.md`); net asset value,
-   not par; maturity-matched, not duration-matched; reinvestment priced; the margin explained.
+   not par; matched payment by payment, said positively (never "not duration-matched": it negates the frozen TNA l.7
+   in a judge's eyes; panel 2's finalist judge, Thu 12 Nov); reinvestment priced; the margin explained.
 3. **The confidence statement overpromises or can be made to fail.** Guard: one definition of the contribution (floor
    plus moved half, capped at the stated top, CANON D12); the range as a rule; the confidence said in numbers and
    words; what could lower it named.
@@ -81,3 +83,10 @@ in 3d.
    (`SKELETON.md`: about 2,700 words of prose in all); cut whole ideas, never squeeze sentences (EXPECTATIONS 3.2).
 6. **It ignores what the case names.** Guard: liquidity, inflation, the Taiwan dollar and a recession that hits shares
    and rates together each appear once, with a number (panel 1: all three were thin in version 1).
+7. **It reads as the IPS changed** (panel 2's finalist judge, Thu 12 Nov: "the zero-interest standard was set after the
+   freeze ... could read as the IPS revised, where the IPS said 'roughly $300,000'"). Guard: the top-up is the IPS's own
+   clause ("we'll simply complete it with the 2028 deposit", IPS l.13), sized for the furthest fall in yields there is,
+   to nothing for the coupons and the money that waits; "roughly $300,000" stays true as the ten's price with interest
+   as the market expects (NUMBERS 1); "most of the 2028 deposit" still funds the floor by the written rule (NUMBERS 0,
+   at least $75,001 of $150,000). The report shows the IPS applied and never writes "new standard", "after the freeze"
+   or "we changed" about it; 2.5 labels only the measures as made afterwards, never the rule.

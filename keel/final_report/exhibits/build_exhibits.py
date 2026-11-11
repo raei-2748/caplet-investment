@@ -1,4 +1,4 @@
-"""Build the Final Report's three exhibits on the register of Tue 10 Nov 2026 (rebuilt Wed 11 Nov 2026, Sydney).
+"""Build the Final Report's four exhibits on the register of Tue 10 Nov 2026 (rebuilt Thu 12 Nov 2026, Sydney).
 
     python3 -I keel/final_report/exhibits/build_exhibits.py            everything below (about a minute)
     python3 -I keel/final_report/exhibits/build_exhibits.py figure     Figure 1 only
@@ -11,7 +11,8 @@ NUMBERS.md; this script stops if that check fails. Writes, next to this file:
   exhibit2_reserve.png         Figure 1 at 300 dpi, the file ../template/build_template.py places (its old name)
   table1_holdings_2x.png       Table 1 preview at 2x, cropped from the Wharton-format PDF
   table2_markets_2x.png        Table 2 preview at 2x, cropped from the same PDF
-  exhibits_letter.docx / .pdf  the three exhibits as APA blocks on Letter in Wharton's format; each note shows the
+  table3_monitoring_2x.png     Table 3 preview at 2x, cropped from the same PDF
+  exhibits_letter.docx / .pdf  the four exhibits as APA blocks on Letter in Wharton's format; each note shows the
                                items it must carry (notes are written on 27 Nov, not here)
   tables.md                    every exhibit as Markdown text, with its source and note items
   measurements.json            each exhibit's height in double-spaced lines on a Letter page (card Q23's method)
@@ -31,7 +32,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 from matplotlib import font_manager  # noqa: E402
-from matplotlib.patches import Rectangle, Polygon  # noqa: E402
+from matplotlib.patches import Rectangle  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 TEMPLATE = os.path.normpath(os.path.join(HERE, "..", "template"))
@@ -69,16 +70,20 @@ def yearfrac(iso):
 # =================================================================================================================
 # Figure 1: the escrow verifier's sufficiency schedule beside a staircase (card Q28, section (c))
 # =================================================================================================================
-# Geometry in inches (the figure is drawn on one axes in inch units, y downwards).
-W, H = 6.5, 3.40
+# Geometry in inches (the figure is drawn on one axes in inch units, y downwards). Thu 12 Nov: no axis break (lay
+# reader, Wed 11 Nov: "the axis break marks are odd"); the time scale runs unbroken from January 2027, so every bar's
+# length is its real holding time. The right-hand head is the question its two columns answer.
+W, H = 6.5, 3.56
 X_YEAR = 0.0                       # payment year, left-aligned
-AX_L, AX_R = 0.72, 3.76            # the staircase
-C1_R, C2_R, C3_R = 4.70, 5.64, 6.50  # right edges of the three number columns
-SPAN_L = 4.80                      # left end of the spanner over columns 2 and 3
-T0, T_CUT, T1 = 2030.85, 2031.25, 2043.0   # T0 stands for January 2027 (the axis is broken at T_CUT)
-HEAD_TOP, HEAD_RULE = 0.03, 0.62
-ROW0, ROW_H, BAR_H = 0.66, 0.222, 0.15
+AX_L, AX_R = 0.62, 3.70            # the timeline
+C1_R, C2_R, C3_R = 4.88, 5.66, 6.50  # right edges of the three number columns
+SPAN_L = 4.96                      # left end of the rule under the question (over columns 2 and 3)
+T0, T1 = 2027.0, 2042.10           # 1 January 2027 at the left edge; the last payment, 1 January 2042, near the right
+YEAR_LABELS = (2027, 2030, 2033, 2036, 2039, 2042)
+HEAD_RULE = 0.79
+ROW0, ROW_H, BAR_H = 0.83, 0.222, 0.15
 FS_NUM, FS_LAB, FS_HEAD = 10.5, 10, 10.5
+LINE = 0.17                        # one head line at 10.5 pt
 
 
 def X(t):
@@ -92,6 +97,7 @@ def row_y(i):
 def figure1(outputs):
     """outputs: list of (path, dpi); an .svg path ignores dpi."""
     rows = D.FIGURE1_ROWS
+    hd = D.FIGURE1_HEADS
     n = len(rows)
     fig = plt.figure(figsize=(W, H))
     ax = fig.add_axes([0, 0, 1, 1])
@@ -100,34 +106,31 @@ def figure1(outputs):
     ax.axis("off")
 
     def text(x, y, s, ha="left", va="center", size=FS_NUM, weight="normal", color=INK, **kw):
-        ax.text(x, y, s, ha=ha, va=va, fontsize=size, fontweight=weight, color=color, **kw)
+        return ax.text(x, y, s, ha=ha, va=va, fontsize=size, fontweight=weight, color=color, **kw)
 
-    # ---- column heads ----
-    hb = HEAD_RULE - 0.06                      # baseline of the lowest head line
-    text(X_YEAR, hb, "Payment", va="bottom", weight="bold", size=FS_HEAD)
-    text((AX_L + AX_R) / 2, 0.30, "Held from January 2027 until its cash arrives", ha="center", va="bottom",
-         weight="bold", size=FS_HEAD)
-    text(C1_R, hb, "rates", ha="right", va="bottom", weight="bold", size=FS_HEAD)
-    text(C1_R, hb - 0.17, "At forward", ha="right", va="bottom", weight="bold", size=FS_HEAD)
-    # the spanner says what the two columns test; the 0.15% fee on waiting money is in the note
+    # ---- column heads: four lines; the lowest (L4) sits on the head rule ----
+    L4 = HEAD_RULE - 0.06
+    L3, L2, L1 = L4 - LINE, L4 - 2 * LINE - 0.06, L4 - 3 * LINE - 0.06
+    text(X_YEAR, L4, hd["payment"], va="bottom", weight="bold", size=FS_HEAD)
+    text((AX_L + AX_R) / 2, L3, hd["timeline"], ha="center", va="bottom", weight="bold", size=FS_HEAD)
+    for yr in YEAR_LABELS:
+        text(X(yr), L4, str(yr), ha="left" if yr == T0 else "center", va="bottom", size=FS_LAB)
+    text(C1_R, L3, hd["c1"][0], ha="right", va="bottom", weight="bold", size=FS_HEAD)
+    text(C1_R, L4, hd["c1"][1], ha="right", va="bottom", weight="bold", size=FS_HEAD)
+    # the question the two right-hand columns answer, over a rule that groups them
     span_c = (SPAN_L + C3_R) / 2
-    text(span_c, 0.20, "If nothing earns interest", ha="center", va="bottom", weight="bold", size=FS_HEAD)
-    ax.plot([SPAN_L, C3_R], [0.235, 0.235], color=INK, linewidth=0.6)
-    text(C2_R, hb, "Own holding", ha="right", va="bottom", weight="bold", size=FS_HEAD)
-    # where the extra money comes from and when it is bought (NUMBERS section 2: "In January 2028 the deposit's
-    # first dollars also buy extra face in the same Treasuries"); it is not in the WInS book
-    text(C3_R, hb - 0.17, "Bought with", ha="right", va="bottom", weight="bold", size=FS_HEAD)
-    text(C3_R, hb, "2028 deposit", ha="right", va="bottom", weight="bold", size=FS_HEAD)
-    # the timeline's own head: January 2027 at the left (bars start at purchase), then the payment years
-    text(X(T0), hb, "2027", ha="left", va="bottom", size=FS_LAB)
-    for yr in range(2033, 2043, 2):
-        text(X(yr), hb, str(yr), ha="center", va="bottom", size=FS_LAB)
+    text(span_c, L1, hd["question"][0], ha="center", va="bottom", weight="bold", size=FS_HEAD)
+    text(span_c, L2, hd["question"][1], ha="center", va="bottom", weight="bold", size=FS_HEAD)
+    ax.plot([SPAN_L, C3_R], [L2 + 0.035, L2 + 0.035], color=INK, linewidth=0.6)
+    for x_r, (a, b) in ((C2_R, hd["c2"]), (C3_R, hd["c3"])):
+        if a:
+            text(x_r, L3, a, ha="right", va="bottom", weight="bold", size=FS_HEAD)
+        text(x_r, L4, b, ha="right", va="bottom", weight="bold", size=FS_HEAD)
     ax.plot([0, W], [HEAD_RULE, HEAD_RULE], color=INK, linewidth=0.6)
-    _cut(ax, X(T_CUT), HEAD_RULE, 0.07)            # the break shows on the head rule too
 
-    # ---- year grid behind the bars ----
+    # ---- year grid behind the bars (the bars hide it before each one's cash arrives) ----
     last = ROW0 + n * ROW_H
-    for yr in range(2033, 2043):
+    for yr in range(int(T0) + 1, 2043):
         ax.plot([X(yr), X(yr)], [HEAD_RULE, last], color=RULE, linewidth=0.35, zorder=0)
 
     # ---- one row per payment ----
@@ -137,14 +140,14 @@ def figure1(outputs):
         bond = r["kind"] == "T-bond"
         ax.add_patch(Rectangle((X(T0), y - BAR_H / 2), X(end) - X(T0), BAR_H, facecolor=BOND if bond else FUND,
                                edgecolor=INK, linewidth=0.5, zorder=2))
-        _cut(ax, X(T_CUT), y, BAR_H / 2 + 0.035)
-        text(X(T_CUT) + 0.075, y, r["holding"], size=FS_LAB, color="white" if bond else INK, zorder=5)
+        text(X(T0) + 0.07, y, r["holding"], size=FS_LAB, color="white" if bond else INK, zorder=5)
         # the payment: a black tick on 1 January
         ax.plot([X(r["year"]), X(r["year"])], [y - 0.095, y + 0.095], color=INK, linewidth=2.0,
                 solid_capstyle="butt", zorder=4)
-        if r["wait_words"]:   # long waits in the Trading Notes' words
+        if r["wait_words"]:   # the long waits, in the Trading Notes' months; the legend says what the dots are
             ax.plot([X(end), X(r["year"])], [y, y], color=INK, linewidth=0.7, linestyle=(0, (1.2, 1.4)), zorder=3)
-            text(X(r["year"]) + 0.06, y, f"cash waits {r['wait_words']}", size=FS_LAB)
+            text(X(r["year"]) + 0.05, y, f"waits {r['wait_words']}", size=FS_LAB, zorder=5,
+                 bbox=dict(facecolor="white", edgecolor="none", pad=0.4))
         text(X_YEAR, y, str(r["year"]))
         text(C1_R, y, D.dollars(r["at_forwards"]), ha="right")
         text(C2_R, y, D.dollars(r["own_if_nothing_earns"]), ha="right")
@@ -162,17 +165,22 @@ def figure1(outputs):
     # ---- legend inside the figure (APA), one row ----
     yl = H - 0.12
     x = 0.0
-    for kind, label in (("fund", "iBond Treasury ETF"), ("bond", "Treasury bond"),
-                        ("tick", "$50,000 payment on 1 January")):
+    for kind, label in zip(("fund", "bond", "tick", "wait"), D.FIGURE1_LEGEND):
         if kind == "tick":
             ax.plot([x + 0.07, x + 0.07], [yl - 0.08, yl + 0.08], color=INK, linewidth=2.0, solid_capstyle="butt")
+            lx = x + 0.2
+        elif kind == "wait":
+            ax.plot([x, x + 0.3], [yl, yl], color=INK, linewidth=0.7, linestyle=(0, (1.2, 1.4)))
+            lx = x + 0.38
         else:
             ax.add_patch(Rectangle((x, yl - BAR_H / 2), 0.28, BAR_H, facecolor=FUND if kind == "fund" else BOND,
                                    edgecolor=INK, linewidth=0.5))
-        t = ax.text(x + (0.2 if kind == "tick" else 0.36), yl, label, ha="left", va="center", fontsize=FS_LAB)
+            lx = x + 0.36
+        t = ax.text(lx, yl, label, ha="left", va="center", fontsize=FS_LAB)
         fig.canvas.draw()
         bb = t.get_window_extent().transformed(ax.transData.inverted())
-        x = bb.x1 + 0.3
+        x = bb.x1 + 0.28
+    assert x - 0.28 <= W + 0.001, "legend wider than the figure"
 
     for path, dpi in outputs:
         if path.endswith(".svg"):
@@ -182,15 +190,6 @@ def figure1(outputs):
             fig.savefig(path, dpi=dpi, facecolor="white")
     plt.close(fig)
     return [p for p, _ in outputs]
-
-
-def _cut(ax, x, y, half):
-    """A broken-axis mark: a white slanted gap edged by two short ink lines (the usual mark for a skipped stretch)."""
-    dx, gap = 0.035, 0.045
-    pts = [(x - dx, y + half), (x + dx, y - half), (x + dx + gap, y - half), (x - dx + gap, y + half)]
-    ax.add_patch(Polygon(pts, closed=True, facecolor="white", edgecolor="none", zorder=6))
-    for off in (0.0, gap):
-        ax.plot([x - dx + off, x + dx + off], [y + half, y - half], color=INK, linewidth=0.6, zorder=7)
 
 
 def _svg_font_fallback(path):
@@ -220,16 +219,20 @@ EXHIBITS = {
                "costs row = $200 of commissions + $1,109.42 of bond interest accrued at purchase, which comes back "
                "with each bond's next coupon (8g v2)"]},
     "f1": {"label": "Figure 1",
-           "title": "Each Payment Has Its Own Treasury; Extra Treasuries Bought With the 2028 Deposit Pay Any Gap if "
-                    "Nothing Earns Interest (Laura's Plan for Both Deposits, $450,000, Modelled)",
-           "section": "Section 3, part 3a", "note_budget_words": 55,
+           # Thu 12 Nov: WORDS.md's names ("the top-up", "interest earns nothing"); the point first, then the scale
+           "title": "Each Payment Has Its Own Treasury, and the Top-Up From the 2028 Deposit Pays Any Gap if Interest "
+                    "Earns Nothing (Laura's Plan for Both Deposits, $450,000, Modelled)",
+           "section": "Section 3, part 3a", "note_budget_words": 60,
            "note_items": [
-               "MODEL, at forward rates on the Treasury par yield curve of 6 Nov 2026",
-               "the right-hand columns are what each payment gets if nothing earns interest from 2027 and waiting "
-               "money pays the Treasury-bill ETF's 0.15% fee: the $500,000 of payments split between the payment's "
-               "own holding ($444,080) and the Treasuries bought with the 2028 deposit ($55,920); not the reserve's "
-               "value on 1 Jan 2033 ($444,545 at forward rates) (8h)",
-               "if room: those extra Treasuries cost $34,369 in 1 Jan 2027 money (section 2); not in the WInS book",
+               "modelled at today's market rates (Treasury par curve of 6 Nov 2026); Laura's plan for both deposits "
+               "($450,000); each payment in the dollars of its own 1 January (8h)",
+               "the two right-hand columns: if nothing earns interest from 2027 and waiting money pays the "
+               "Treasury-bill fund's 0.15% fee, own Treasuries pay $444,080 and the top-up $55,920 of the $500,000 (8h)",
+               f"the ratio with its reason: about {D.FIGURE1_PER_DOLLAR} for each $1 on 1 Jan 2033 at today's rates "
+               "($444,545 against $399,089), because the top-up is sized for no interest (8h; card Q31)",
+               "the top-up: the first $38,282 of the 2028 deposit; $2,388 completes the ten, $35,894 pays the last "
+               "column (NUMBERS 2); not in the WInS portfolio",
+               "paid in every historical rate stretch tested (585 starting months, 1962-2010; NUMBERS 2)",
                "rows may not add to the totals because of rounding"]},
     "t2": {"label": "Table 2",
            "title": "Laura's Plan for Both Deposits ($450,000) in Five Markets and 585 History Replays, Modelled",
@@ -242,6 +245,15 @@ EXHIBITS = {
                "flexibility: the half of VT promised to no one plus whatever the funds pay above the stated top, to "
                "the nearest $100 (8i)",
                "spread rows: each column's own percentile"]},
+    "t3": {"label": "Table 3",
+           # Thu 12 Nov (SKELETON Exhibits item 4): seven rows in three levels, five columns, one trigger per cell
+           "title": "Seven Signals to Watch as 2031 and 2033 Approach; Two Can Change Laura's $450,000 Plan",
+           "section": "Section 3, part 3e", "note_budget_words": 35,
+           "note_items": [
+               "today's market rates (curve of 6 Nov 2026)",
+               "the top-up: $2,388 the ten Treasuries still lack plus $35,894 so no payment needs interest, in January "
+               "2028 dollars (NUMBERS 2, 5)",
+               "Team: Wharton's \"her asset management team\""]},
 }
 
 
@@ -272,7 +284,7 @@ def _pad(cell, c_first, c_last, n_cols):
     _lr_margins(cell, from_left, from_right)
 
 
-def apa_table(BT, rep, ex, header, rows, widths, aligns, note_text, top=False, spanners=None):
+def apa_table(BT, rep, ex, header, rows, widths, aligns, note_text, top=False, spanners=None, row_gap=0):
     """rows: list of (kind, cells); kind is row, subtotal, total, spanner (one italic cell across the table, a rule
     above), indent (a stub indented under a spanner) or result (one plain cell across the table, a rule above: a
     finding that holds for every row). Borders: top and bottom of the heads, above a subtotal, spanner, result or
@@ -318,14 +330,18 @@ def apa_table(BT, rep, ex, header, rows, widths, aligns, note_text, top=False, s
                 p.paragraph_format.left_indent = Inches(0.2)
             if kind == "subtotal":
                 p.paragraph_format.space_after = Pt(6)      # one deliberate gap after the subtotal (card Q28)
-            run = p.add_run(str(val))
-            run.bold = kind == "total"
-            run.italic = kind == "spanner"
+            if kind == "row" and row_gap:
+                p.paragraph_format.space_after = Pt(row_gap)  # Table 3: multi-line rows need air between them
+            # a cell is a string, or a list of runs (text, italic) as Table 3's last column is
+            for text_, it in (val if isinstance(val, (list, tuple)) else [(str(val), kind == "spanner")]):
+                run = p.add_run(text_)
+                run.bold = kind == "total"
+                run.italic = it
             edges = {}
             if kind == "head":
                 edges.update(top=8, bottom=8)
-            if kind in ("subtotal", "spanner", "result"):
-                edges.update(top=4)
+            if kind in ("subtotal", "spanner", "result") and not (kind == "spanner" and r_i == 1):
+                edges.update(top=4)                         # a level right under the heads needs no second rule
             if kind == "total":
                 edges.update(top=4)
             if last:
@@ -396,7 +412,16 @@ def add_table2(BT, rep, note_text, top=False):
                      spanners=[(2, 3, D.TABLE2_SPANNER)])
 
 
-ADDERS = {"t1": add_table1, "f1": add_figure1, "t2": add_table2}
+def add_table3(BT, rep, note_text, top=False):
+    # Widths (6.5 in): the reader column holds "Laura" and "Team" on one line; the last column is the widest, as it
+    # carries two parts ("Changes:" and "Never:", in italics).
+    widths = [0.85, 0.60, 1.50, 1.65, 1.90]
+    aligns = [BT.L] * 5
+    return apa_table(BT, rep, "t3", D.TABLE3_HEADER, D.table3_rows(), widths, aligns, note_text, top, row_gap=1)
+
+
+ADDERS = {"t1": add_table1, "f1": add_figure1, "t2": add_table2, "t3": add_table3}
+ORDER = ("t1", "f1", "t2", "t3")
 
 
 def items_note(ex):
@@ -404,9 +429,9 @@ def items_note(ex):
 
 
 def build_letter_pdf(BT, path_docx):
-    """The three exhibits on Letter in Wharton's format, each with its note items as a placeholder note."""
+    """The four exhibits on Letter in Wharton's format, each with its note items as a placeholder note."""
     rep = BT.Report(paper="letter")
-    for k, ex in enumerate(("t1", "f1", "t2")):
+    for k, ex in enumerate(ORDER):
         rep.para("Above the exhibit.")
         ADDERS[ex](BT, rep, items_note(ex), top=(k > 0))
         rep.para("Below the exhibit.")
@@ -418,7 +443,8 @@ def crop_previews(BT, pdf):
     pages = BT.pdf_pages_text(pdf)
     out = {}
     with pdfplumber.open(pdf) as doc:
-        for ex, name in (("t1", "table1_holdings_2x.png"), ("t2", "table2_markets_2x.png")):
+        for ex, name in (("t1", "table1_holdings_2x.png"), ("t2", "table2_markets_2x.png"),
+                         ("t3", "table3_monitoring_2x.png")):
             pi, ln = BT.find_line(pages, EXHIBITS[ex]["label"])
             pj, below = BT.find_line(pages, "Below the exhibit.", start_page=pi)
             assert pi == pj, f"{ex} spans pages"
@@ -437,7 +463,7 @@ def measure(BT, workdir):
     exhibit's word budget (the notes are written on 27 Nov), and without a note, so the cost per note line shows."""
     f = BT.Filler()
     res = {}
-    for ex in ("t1", "f1", "t2"):
+    for ex in ORDER:
         for variant, words in (("note_budget", EXHIBITS[ex]["note_budget_words"]), ("no_note", 0)):
             rep = BT.Report(paper="letter")
             rep.para("Above the exhibit.")
@@ -455,7 +481,19 @@ def measure(BT, workdir):
                             "prose_words_displaced": int(round(lines * 14.26, -1)), "note_words": words,
                             "pages_spanned": 1}
             else:
-                res[key] = {"lines": None, "pages_spanned": b[0] - a[0] + 1, "note_words": words}
+                # Too tall to sit between two prose lines (Table 3 with its note): it moved whole to the next page,
+                # so measure from the top of that page (where the "Above" line sat on its own page) to "Below".
+                n = BT.find_line(pages, EXHIBITS[ex]["label"], start_page=b[0])
+                whole = n[0] == b[0] and abs(n[1]["top"] - a[1]["top"]) < 2.0 and a[0] == b[0] - 1
+                if whole:
+                    gap = b[1]["top"] - a[1]["top"]
+                    lines = gap / 27.6
+                    res[key] = {"lines": round(lines, 1), "inches": round(gap / 72, 2),
+                                "prose_words_displaced": int(round(lines * 14.26, -1)), "note_words": words,
+                                "pages_spanned": 1, "method": "from the top of its own page (too tall to sit "
+                                                              "between two prose lines)"}
+                else:
+                    res[key] = {"lines": None, "pages_spanned": b[0] - a[0] + 1, "note_words": words}
     return res
 
 
@@ -474,7 +512,7 @@ def _md_table(header, rows, right):
 
 def tables_md(measures):
     L = []
-    L.append("# The Final Report's exhibits as text (built Wed 11 Nov 2026, Sydney)\n")
+    L.append("# The Final Report's exhibits as text (built Thu 12 Nov 2026, Sydney)\n")
     L.append("Generated by `build_exhibits.py` from `exhibit_data.py`, which reads `../numbers/results_*_2026-11-10.json` "
              "and checks every figure against `../NUMBERS.md` (sections named under each exhibit). Notes for the "
              "store, not report prose: titles are working labels and each note lists the items it must carry; both "
@@ -514,16 +552,21 @@ def tables_md(measures):
         y, m, d = r["pays_out"].split("-")
         arrives = f"{int(d)} {date(int(y), int(m), 1).strftime('%b')} {y}"
         if r["wait_words"]:
-            arrives += f" (cash waits {r['wait_words']})"
-        rows.append([r["year"], r["holding"], "Treasury bond" if r["kind"] == "T-bond" else "iBond Treasury ETF",
+            arrives += f" (waits {r['wait_words']})"
+        rows.append([r["year"], r["holding"], "Treasury bond" if r["kind"] == "T-bond" else "iBond Treasury fund",
                      arrives, D.dollars(r["at_forwards"]), D.dollars(r["own_if_nothing_earns"]),
                      D.dollars(r["backstop_if_nothing_earns"])])
     T = D.FIGURE1_TOTALS
     rows.append(["**Total**", "", "", "", f"**{D.dollars(T['at_forwards'])}**",
                  f"**{D.dollars(T['own_if_nothing_earns'])}**", f"**{D.dollars(T['backstop_if_nothing_earns'])}**"])
-    L.append(_md_table(["Payment (1 Jan)", "Paid from", "Type", "Cash arrives", "At forward rates",
-                        "If nothing earns interest (after the ETF fee): own holding",
-                        "If nothing earns interest: bought with the 2028 deposit"], rows, right={4, 5, 6}) + "\n")
+    hd = D.FIGURE1_HEADS
+    q = " ".join(hd["question"])
+    L.append(_md_table([hd["payment"] + " (1 Jan)", "Paid from", "Type", "Cash arrives", " ".join(hd["c1"]),
+                        f"{q} {' '.join(hd['c2'])}", f"{q} {hd['c3'][1]}"], rows, right={4, 5, 6}) + "\n")
+    L.append(f"As drawn: no axis break (the timeline runs unbroken from January 2027 to 2042); the two right-hand columns "
+             f"sit under the question \"{q}\" (the 0.15% fee on waiting money is in the note); a dotted line and "
+             f"\"waits 10.5 months\" / \"waits 7.5 months\" mark the two long waits; legend: "
+             f"{'; '.join(D.FIGURE1_LEGEND)}.\n")
     L.append("Note items: " + "; ".join(EXHIBITS["f1"]["note_items"]) + ".\n")
     L.append(cost("f1") + "\n")
 
@@ -539,6 +582,24 @@ def tables_md(measures):
              "and 100% of the 585 replays, 8i and 8j).\n")
     L.append("Note items: " + "; ".join(EXHIBITS["t2"]["note_items"]) + ".\n")
     L.append(cost("t2") + "\n")
+
+    # Table 3
+    L.append(f"## {EXHIBITS['t3']['label']}. {EXHIBITS['t3']['title']} (working title)\n")
+    L.append(f"{EXHIBITS['t3']['section']}. Source: SKELETON Exhibits item 4 (Thu 12 Nov spec: card Q30's cut, the bond "
+             "reader of Wed 11 Nov, Keel's definitions of the two reasons); every figure from NUMBERS 2, 5, 8d, 8h and "
+             "8j through `exhibit_data.py`, checked. Single-spaced; each level is an italic row across the table; the "
+             "last column prints \"Changes:\" and \"Never:\" in italics, each on its own line.\n")
+    rows = []
+    for kind, cells in D.table3_rows():
+        if kind == "spanner":
+            rows.append([f"*{cells[0]}*", "", "", "", ""])
+        else:
+            rows.append([D.cell_text(c) if not isinstance(c, list) else
+                         "".join(f"*{t}*" if it else ("<br>" if t == "\n" else t) for t, it in c) for c in cells])
+    L.append(_md_table(D.TABLE3_HEADER, rows, right=set()) + "\n")
+    L.append("Note items: " + "; ".join(EXHIBITS["t3"]["note_items"]) + ".\n")
+    L.append("Not a row: custody (one line of 3e prose, SKELETON item 4 (c)).\n")
+    L.append(cost("t3") + "\n")
     with open(os.path.join(HERE, "tables.md"), "w") as fh:
         fh.write("\n".join(L))
 
@@ -564,7 +625,7 @@ def main(argv):
     m["_method"] = ("Card Q23: Letter, 1-inch margins, 12-pt Times New Roman metrics (Liberation Serif), double-spaced "
                     "text at a 27.6-pt pitch, table bodies single-spaced, APA number, title and note double-spaced, a "
                     "blank double-spaced line after each exhibit; LibreOffice headless; words a line 14.26 (Q23 row 5)")
-    m["_built"] = "Wed 11 Nov 2026 (Sydney), register of Tue 10 Nov 2026"
+    m["_built"] = "Thu 12 Nov 2026 (Sydney), register of Tue 10 Nov 2026"
     with open(os.path.join(HERE, "measurements.json"), "w") as fh:
         json.dump(m, fh, indent=1)
     print(json.dumps(m, indent=1))
