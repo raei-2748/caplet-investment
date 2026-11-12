@@ -138,7 +138,10 @@ a message from Caplet, a finding, a mistake caught); only the people are invente
   and developer words, a trait tag, the readers' praise put before the score drop), then three small ones (two labels
   in the header and summary that section 5 requires, and three "X is Y" sentences in a row); the run of three, a
   confusing line in Jun's paragraph, one loose home detail and a contrast in the summary were fixed, and it was not
-  read a third time.
+  read a third time. Ep 46 (Thu 12 Nov) failed two fresh reads: 21 lines (finance, office and repo words, paragraph
+  endings that landed, two slide-like lines), then 19 (more paragraph endings, office and simulation words, a line that
+  made the judges look as if they had misread); each was cut or put in plain words, and the third read passed with two
+  small hits (the bonds half of the judges' point, an "X, not Y" contrast), both then fixed.
 
 ## 3. Sources, and what each teaches (all accessed Sun 8 Nov 2026)
 
