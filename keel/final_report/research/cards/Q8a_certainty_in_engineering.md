@@ -270,7 +270,7 @@ disproportion). Finance twin: KMV distance-to-default.
   corrigendum December 2008). Posted by Public.Resource.Org.
   https://www.phd.eng.br/wp-content/uploads/2015/12/en.1990.2002.pdf (sections 1.5, 2.1, 2.2, 3.2, Annex B and Annex C
   read; the CEN standard is sold, so this public posting was read).
-- Crosbie, P., & Bohn, J. (2002). *Modeling default risk* [Technical document, revised 14 January 2002]. KMV LLC.
+- Crosbie, P. J., & Bohn, J. R. (2002). *Modeling default risk* [Technical document, revised 14 January 2002]. KMV LLC.
   http://marshallinside.usc.edu/dietrich/KMVModellingDefaultRisk2002.pdf (read in full).
 - Definitions, 10 C.F.R. § 50.2 (2026).
   https://www.ecfr.gov/current/title-10/chapter-I/part-50/subject-group-ECFR1aad221999377bf/section-50.2 (definition of
@@ -292,15 +292,17 @@ disproportion). Finance twin: KMV distance-to-default.
 - Office for Nuclear Regulation. (2020). *Safety assessment principles for nuclear facilities* (2014 ed., Rev. 1).
   https://www.onr.org.uk/media/pobf24xm/saps2014.pdf (paras 12, 152-156, 180-194, EKP.3, EKP.5, EDR.2-EDR.4, paras 610,
   698, 724, 768, Annex 2 and Targets 5 and 9 read).
-- U.S. Nuclear Regulatory Commission. (1986). Safety goals for the operations of nuclear power plants; Policy statement.
-  *Federal Register, 51*(162), 30028-30033. https://www.nrc.gov/reading-rm/doc-collections/commission/policy/51fr30028.pdf
+- U.S. Nuclear Regulatory Commission. (1986, August 21). Safety goals for the operations of nuclear power plants; Policy
+  statement; Republication. *Federal Register, 51*(162), 30028-30033. https://www.nrc.gov/reading-rm/doc-collections/commission/policy/51fr30028.pdf
   (read in full).
 - U.S. Nuclear Regulatory Commission. (2018). *An approach for using probabilistic risk assessment in risk-informed
   decisions on plant-specific changes to the licensing basis* (Regulatory Guide 1.174, Rev. 3).
   https://www.nrc.gov/docs/ML1731/ML17317A256.pdf (the defence-in-depth considerations and the CDF and LERF acceptance guidelines read).
-- Not read at the source (UNVERIFIED; for the record only): European Commission Joint Research Centre. (2018).
-  *Reliability of structural members designed with the Eurocodes NDPs selected by EU and EFTA Member States*
-  (JRC113687); Federal Aviation Administration. (1988). *System design and analysis* (AC 25.1309-1A).
+- Not read at the source (UNVERIFIED; for the record only): Markova, J., Sousa, M. L., Dimova, S., Athanasopoulou, A.,
+  & Iannaccone, S. (2018). *Reliability of structural members designed with the Eurocodes NDPs selected by EU and EFTA
+  Member States* (EUR 29410 EN; JRC113687). Publications Office of the European Union. https://doi.org/10.2760/426349 ;
+  Federal Aviation Administration. (1988, June 21). *System design and analysis* (AC 25.1309-1A).
+  https://doi.org/10.21949/1514499
 - Legal case, cited as quoted in HSE (2001), Appendix 3: Edwards v National Coal Board [1949] 1 All ER 743.
 - Repo files (not external sources): Wharton Global Youth Program, *Laura Gao 2026 client profile*
   (`competition/official/2026_27/`); `../../FINAL_IPS_as_submitted.txt`; `../../CANON.md` (A4, A5, A6, A34, C2, C9,

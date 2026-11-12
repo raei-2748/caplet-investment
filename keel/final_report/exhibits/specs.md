@@ -1,8 +1,27 @@
-# Exhibit specs for the Final Report (rebuilt Thu 12 Nov 2026, Sydney, on the register of Tue 10 Nov)
+# Exhibit specs for the Final Report (rebuilt Thu 12 Nov 2026, Sydney, on the register of Tue 10 Nov; Table 1 again Thu 12 Nov evening)
 
 Design notes, not report text. Titles below are working labels and each note is a list of the items it must carry;
 both are written on 27 Nov. Design: H_plain ("sufficient without reinvestment", with the fee cushion), the Treasury
 curve of 6 Nov 2026, the range rule on the fund's holdings, Keel's reading of "most". MODEL = Keel's calculation.
+
+**What changed Thu 12 Nov evening, and why** (lead's brief; SKELETON's density cut, row 2.5, and Exhibits item 1; panel 2's
+faculty and finalist judges, `../research/panel/2026-11-12_judge_faculty.md` and `..._judge_finalist.md`).
+- **Table 1 has a seventh column, "Units bought / target"** (after the asset type): "4,503 / 4,503" and so on for the
+  ten Treasuries, all at exactly their targets; VT "167 / 164" with "bought last, / from cash left" under it. Why:
+  SKELETON's density cut makes 2.5's targets set before trading one column of Table 1, not a second table, so Section
+  2's three pages hold (the faculty judge: 2.5's table was not counted). Every figure is NUMBERS 8m's, checked in
+  `exhibit_data.py` against 8m's text, the Portfolio tab's target units (`portfolio.csv`, 8m's source), the 23 Oct
+  snapshot's quantities and, for each holding, units x price paid = 8g's amount to the cent. Wharton's five columns
+  and "Pays for" stay. The column is paid for by the name column (3.17 -> 2.13 in), so the five iBond fund names and
+  VT's take two lines.
+- **The costs row is set apart.** It now sits below a new "All holdings" subtotal ($298,690.58, 99.56%: the twelve
+  holdings, cash included) and above the total, with no ticker, type or units, its label across the first four
+  columns: "Costs at purchase, not a holding: fees and accrued interest". Why: the faculty judge ("the fees and
+  accrued-interest row must not look like a holding") and the finalist ("the extra row for money that left at purchase
+  is not in Wharton's example; I would look twice"). The total stays $300,000.00 and 100.00%.
+- **Table 1 costs 20.9 lines with a 75-word note** (15.9 without; Wed: 16.9 and 12.9). **Section 2 measured against
+  Wharton's three pages for the first time with the table as built:** at most 626 words of prose beside it, so 46 words
+  of headroom over the density cut's 580 (about 27 in real text). See Page cost.
 
 **What changed Thu 12 Nov, and why** (lead's brief; SKELETON Exhibits items 2 and 4; Panel 2's density cut).
 - **Table 3 built** (Exhibit 4 below): seven rows in three levels, five columns, one trigger per cell, the two reasons
@@ -20,11 +39,20 @@ curve of 6 Nov 2026, the range rule on the fund's holdings, Keel's reading of "m
   `results_joint_stress_2026-11-10.json`, `results_returns_2026-11-10.json`, and (Thu 12 Nov, for Table 3)
   `results_2026-11-10.json` (the top-up and the yield-fall distances, block C6) and `inflation_inputs.json` (the
   exchange rate and the construction cost band). Table 1's rows are the WInS record
-  (8g), which no results file holds, so they are typed in and checked cell by cell against the 8g table.
+  (8g), which no results file holds, so they are typed in and checked cell by cell against the 8g table; its units
+  (Thu 12 Nov evening) are typed in from 8m and checked against 8m, `caplet/google_drive/sheets/
+  portfolio_and_trading_notes/portfolio.csv` (the Portfolio tab 8m cites) and the 23 Oct snapshot.
   Run it to print every exhibit figure and the check against `../NUMBERS.md`.
-  - Thu 12 Nov, with Table 3 and the new Figure 1: **269 figures; 263 PASS, 0 FAIL, 6 flagged** (the same six: five
-    identifier placeholders; Figure 1's rows foot $1 off 8h's totals, which its note's rounding clause covers).
-    Wed 11 Nov: 235; 229 PASS, 0 FAIL, 6 flagged.
+  - Thu 12 Nov evening, with Table 1's units column and costs row: **333 figures; 327 PASS, 0 FAIL, 6 flagged** (the
+    same six: five identifier placeholders; Figure 1's rows foot $1 off 8h's totals, which its note's rounding clause
+    covers). Thu 12 Nov morning: 269; 263 PASS. Wed 11 Nov: 235; 229 PASS.
+  - New checks (Thu 12 Nov evening, 64): each Treasury's target units against 8m's criterion row and bought = target
+    against 8m's "All ten held at exactly the target units"; VT's 167 and 164 against 8m; VT's cell words against 8m
+    ("from the cash then left", "filled last"); every target against the Portfolio tab's "Type into WInS" column and VT's
+    order (11 of 11); units held against the 23 Oct snapshot; units x price paid = 8g's amount, holding by holding; the
+    "All holdings" subtotal three ways (the eleven at cost, $295,176.79, plus WInS cash; $300,000 less the costs row;
+    8g's groups); the costs row below that subtotal and above the total, with no ticker, type or units, and its label
+    saying "costs" and "not a holding".
   - New checks (Thu 12 Nov): Figure 1's top-up head against NUMBERS section 2 and `WORDS.md`; its $1.11 against 8h's
     111.4%; Table 3's every dollar figure, date and number against NUMBERS 2, 5, 8d, 8h and 8j, its two definitions
     and trade days against SKELETON item 4, the trade days and the Feb-2037 bond's date against the calendar; no
@@ -41,9 +69,13 @@ curve of 6 Nov 2026, the range rule on the fund's holdings, Keel's reading of "m
     `exhibits_letter.pdf` and `.docx` (the four exhibits on Letter in Wharton's format, each note showing its items;
     the bracketed items are what each note must carry, longer than the budget the measure uses);
   - `tables.md`: every exhibit as text;
-  - `measurements.json`: the page cost of each exhibit.
-- Rerun from the repo root: `python3 -I keel/final_report/exhibits/build_exhibits.py` (about 15 seconds; needs
-  matplotlib, python-docx, pdfplumber and LibreOffice).
+  - `measurements.json`: the page cost of each exhibit and (Thu 12 Nov evening) `s2_fit`, Section 2 against
+    Wharton's three pages (see Page cost).
+  - The Table 1 preview stops under its note: since Thu 12 Nov evening the note-items placeholder (about 110 words,
+    longer than the 75-word budget) pushes the line after the table onto the next page of the letter build.
+- Rerun from the repo root: `python3 -I keel/final_report/exhibits/build_exhibits.py` (about 30 seconds since Thu 12
+  Nov evening: Section 2's fit takes about 18 LibreOffice conversions; needs matplotlib, python-docx, pdfplumber and
+  LibreOffice).
 - Research behind the design:
   - `../research/cards/Q28_exhibits_prior_art.md` section (c), the design brief;
   - `../research/cards/Q23_exhibits_and_format.md`, Wharton's format and the measuring method.
@@ -74,7 +106,7 @@ curve of 6 Nov 2026, the range rule on the fund's holdings, Keel's reading of "m
 
 | Exhibit | Section | Without a note | With the note budget | Prose it displaces (budget note) | Wed 11 Nov |
 |---|---|---|---|---|---|
-| Table 1 | Section 2 | 12.9 lines | 16.9 lines (50-word note) | about 240 words | the same |
+| Table 1 | Section 2 | 15.9 lines (units column, "All holdings" row) | 20.9 lines (75-word note) | about 300 words | 12.9 / 16.9 (50 words) |
 | Figure 1 | 3a | 13.3 lines (image 6.5 x 3.56 in; two-line title) | 17.3 lines (60-word note) | about 250 words | 12.9 / 16.9 (55 words) |
 | Table 2 | 3b, 3c | 9.2 lines | 12.2 lines (45-word note) | about 170 words | the same |
 | Table 3 | 3e | 18.9 lines (30 single-spaced body lines) | 21.9 lines (35-word note) | about 310 words | Q23's filler measure 17.1 |
@@ -89,7 +121,21 @@ curve of 6 Nov 2026, the range rule on the fund's holdings, Keel's reading of "m
     40 words under SKELETON's 1,900 budget. Ways back, each about one line (14 words): Table 3's note to about 20
     words (today's market rates; the reader); Figure 1's note to 45 words (move the historical rate stretches to 3a's
     prose); Table 3 without the row gaps (0.3). Or 3e gives 40 words. The lead's call; nothing is cut here.
-  - Section 2 is unchanged: about 670 words of ceiling beside Table 1, above its 650-word budget.
+  - **Section 2, measured Thu 12 Nov evening (`measurements.json` `s2_fit`).** Card Q23 row 33's fit (`fit_mock`):
+    title page; on page 2 the paper title, the Level 1 heading, the lead and 2.1 under one Level 2 heading; Table 1
+    with a 75-word filler note at the top of page 3; 2.2, 2.3 and 2.5 under three Level 2 headings; Section 3 on a new
+    page. Each prose block is filled until one more word pushes Table 1 off page 3 or Section 3 off page 5.
+    - **Ceiling 626 words** (299 before Table 1, 327 after) against the density cut's **580: 46 words of headroom**
+      (3.2 lines), **about 27 in real text** (Q23: real paragraphs run 2-3% under a filler ceiling). Section 2 ends on
+      page 4: three pages, Wharton's maximum.
+    - The same fit on Wed 11 Nov's Table 1 (six columns, 50-word note, 16.9 lines): 661. On tonight's table with a
+      50-word note: 654 (run once, not in the build). So the units column, the "All holdings" row and VT's third line
+      cost about 7 words of prose at the page breaks, and the 25 extra note words about 28: the ceiling moves in whole
+      lines at page breaks, not smoothly.
+    - What moves it: each 14 words of note or one more Level 2 heading costs about one line (14 words). The note's
+      75 words is a budget for its five items; at 50 the headroom is about 74 (54 in real text).
+    - Superseded: "about 670 words of ceiling beside Table 1" (Wed 11 Nov, an estimate from Q23's 700 less the table's
+      growth, not a fit).
   - Items cut from the notes go to prose: the inflation row's $89,546 in 2027 dollars (3b or 3c), the range rule (3c),
     the replay method and VT's purchase month (3e).
 
@@ -98,18 +144,19 @@ curve of 6 Nov 2026, the range rule on the fund's holdings, Keel's reading of "m
 | Item | Spec |
 |---|---|
 | Case question | Wharton, Section 2: a table of every holding in the final WInS portfolio with "ticker or identifier, name, asset type, amount allocated, and percentage of the portfolio", "expressed using the original $300,000 investment"; "The total must equal $300,000 and 100%." |
-| Five-second question | "What did the $300,000 buy, and which payment does each holding stand for?" (ten Treasury holdings, 89.55%, one per payment year, IBTM also the floor; one world stock fund for the range's top and the flexibility; a little cash and costs) |
-| Data | NUMBERS 8g version 2, the WInS record at cost; not a model. 13 holdings plus one subtotal and the total. Amounts in cents as WInS records them; percentages to two decimals by largest remainder, as 8g. Subtotal under the ten Treasuries: $268,652.18, 89.55% (8g "In groups"). Cash $3,513.79 (1.17%) = the cash WInS shows. Costs row $1,309.42 (0.44%) = $200 of commissions + $1,109.42 of bond interest accrued at purchase. Total $300,000.00, 100.00%. |
-| Form | Wharton's five columns plus "Pays for" (fresh reader, Wed 11 Nov). Rows in payment order (IBTM for 2033 down to the 3.125% Nov 2041 bond for 2042). Then one subtotal row with a thin rule above and a 6-pt gap after; then VT, cash, the costs row, and a bold Total row under a rule. No spanner rows and no other subtotals (card Q28: IBTM does two jobs, so a grouping by role cannot work; a subtotal of one row adds nothing). Widths 0.67 / 3.17 / 0.47 / 0.85 / 0.55 / 0.79 in, with no padding at the table's outer edges (text flush with the rule ends): every row on one line except the two designed two-line cells. |
+| Five-second question | "What did the $300,000 buy, which payment does each holding stand for, and was it bought as planned?" (ten Treasury holdings, 89.55%, one per payment year, IBTM also the floor, each at exactly its target units; one world stock fund for the range's top and the flexibility, bought last from the cash left; a little cash; and, set apart, the costs at purchase, which are not a holding) |
+| Data | NUMBERS 8g version 2, the WInS record at cost, and 8m, the targets set before trading; not a model. 13 rows of 8g: twelve holdings (cash included, as in Wharton's example) and the costs row. Amounts in cents as WInS records them; percentages to two decimals by largest remainder, as 8g. Subtotal under the ten Treasuries: $268,652.18, 89.55% (8g "In groups"). VT $26,524.61 (8.84%); cash $3,513.79 (1.17%) = the cash WInS shows. **All holdings (Thu 12 Nov evening): $298,690.58, 99.56%** = the eleven at cost ($295,176.79, 8g) plus WInS cash = $300,000 less the costs row = 8g's groups (89.55 + 8.84 + 1.17). Costs row $1,309.42 (0.44%) = $200 of commissions + $1,109.42 of bond interest accrued at purchase. Total $300,000.00, 100.00%. **Units (8m; Thu 12 Nov evening):** IBTM 4,503 / 4,503; IBTO 1,024 / 1,024; IBTP 927 / 927; IBTQ 894 / 894; IBTR 853 / 853; the five bonds 20 / 20, 20 / 20, 18 / 18, 18 / 18 and 20 / 20 units of $1,000 face; VT 167 / 164 (164 at 2 Oct prices; its target was the cash then left; order 11 of 11, filled 7 Oct, 8:27 PM ET). Each holding's units x price paid (23 Oct snapshot) equals its 8g amount to the cent. |
+| Form (Thu 12 Nov evening) | Seven columns: Wharton's five, with "Units bought / target" after the asset type, and "Pays for" last. Rows in payment order (IBTM for 2033 down to the 3.125% Nov 2041 bond for 2042); then the Treasury subtotal (thin rule above, 6-pt gap after); VT; cash; **"All holdings"** (thin rule above); **the costs row**; the bold Total under a rule. The two subtotals and the costs row print their labels across the first four columns (4.31 in), with no ticker, type or units: the Treasury subtotal indented to the names (it is a group inside the holdings), "All holdings" and the costs row flush left like "Total" (they reconcile the holdings to the $300,000). Widths 0.67 / 2.13 / 0.46 / 1.05 / 0.85 / 0.55 / 0.79 in, no padding at the table's outer edges. Units centred: bought and target have the same digits in every row and Times digits are all one width, so the slashes line up. Two lines: the five iBond fund names ("iShares iBonds Dec 2032 / Term Treasury ETF"), VT's name and the two designed Pays-for cells; three: VT's units cell. Card Q28 still holds: no grouping by role (IBTM does two jobs); "All holdings" is not a role group but the line the costs row hangs from. |
+| Units bought / target (Thu 12 Nov evening; SKELETON density cut, 2.5) | The head reads "Units bought / target" (two lines). The targets are the Portfolio tab's units, set before the first fill (portfolio.csv l.20-31, priced on 2 Oct closes and 5 Oct bond checks; 8m). All ten Treasuries print equal pairs, so the eye reads "met" down the column; VT's unequal pair carries its reason in the cell, "bought last, / from cash left" (the brief's "bought last from the cash left"; "from the cash left" needs 1.17 in and the column holds 0.97). A bond's units are $1,000 of face value (the note). Not printed: the other two targets (bonds within 25 basis points; cash never below $1,000), which go to the note, as the density cut says. |
 | Pays for (fresh reader and coordinator, Wed 11 Nov) | The payment year each holding stands for, from the 23 Oct WInS snapshot's "Pays for" column (8g cites it): 2034 to 2042 for IBTO to the Nov-2041 bond. IBTM: "2033 and / the floor" (snapshot: "2033 payment + floor stand-in"). VT: "Range top, / flexibility" (the snapshot says "growth sleeve"; IPS l.15 gives the two jobs; "flexibility" is the IPS's word for the half promised to no one and Table 2's head, chosen over "half kept", which a stranger cannot read). Cash, costs, subtotal and total: blank. Centred. Those two cells cannot fit one line at 12 pt: the column has 0.75 in of text room and "2033 and the floor" needs 1.2 in. |
-| Wording choices (each forced by width at 12 pt) | To make room for "Pays for", asset types are one word, Wharton's own: "ETF" (8g's "ETF (Treasury)" and "ETF (equity)"; each name already says Treasury or Stock) and "Bond" (Wharton's example says "Treasury Bond"; each name says T-Bond). The dollar sign moved into the head, "Amount ($)". The % head is "% of total": "portfolio" needs 0.58 in. The subtotal is named "Treasuries for the ten payments and the floor"; never "the payments" alone, which would contradict the Trading Note on IBTM (card Q28 row 33). |
-| Costs row (coordinator, Wed 11 Nov) | Printed "Commissions and accrued interest at purchase" (3.08 in; the column holds 3.09 in), so it fits one line. 8g's name, "Commissions and bond interest paid at purchase" (3.22 in), wrapped to two. Same meaning: $200 of commissions and $1,109.42 of bond interest accrued at purchase. Amount and percentage exactly 8g's ($1,309.42, 0.44%); the check keeps 8g's name and confirms both. Still open (fresh reader): accrued interest is typed "Cost" though it comes back; the note says so. |
+| Wording choices (each forced by width at 12 pt) | Asset types are one word, Wharton's own: "ETF" (8g's "ETF (Treasury)" and "ETF (equity)"; each name already says Treasury or Stock) and "Bond" (Wharton's example says "Treasury Bond"; each name says T-Bond). The dollar sign moved into the head, "Amount ($)". The % head is "% of total": "portfolio" needs 0.58 in. The Treasury subtotal is named "Treasuries for the ten payments and the floor"; never "the payments" alone, which would contradict the Trading Note on IBTM (card Q28 row 33). "All holdings", not "Holdings": the twelve rows above it, cash included. |
+| Costs row (Thu 12 Nov evening; panel 2) | Printed "Costs at purchase, not a holding: fees and accrued interest" (3.86 in, across the first four columns, which hold 4.27 in), below "All holdings" and above the total, with no ticker, type or units. Why: the faculty judge ("must not look like a holding") and the finalist ("not in Wharton's example; I would look twice"). It says what it is and that it is not a holding, and it reconciles the holdings ($298,690.58) to Wharton's $300,000. "Fees", as SKELETON 2.5 and 8m say it, for WInS's $200 of commissions. Same money as 8g's "Commissions and bond interest paid at purchase"; amount and percentage exactly 8g's ($1,309.42, 0.44%); the check keeps 8g's name and confirms both. Wed 11 Nov's label ("Commissions and accrued interest at purchase", in the name column with "N/A" and "Cost") read as a holding. Still open (fresh reader): accrued interest is not spent; the note says it comes back with each bond's next coupon. |
 | Identifiers | ETFs by ticker. The bonds are placeholders in square brackets: "[532281]" for the May-2038 bond (Wharton's own example row, still to confirm) and "[ID]" for the other four. They are filled from Caplet's final WInS export before 27 Nov (8g "Identifiers"). |
 | Number and working title | **Table 1** / *The Final WInS Portfolio at Cost on the Original $300,000: Laura's Whole Plan in Miniature* (one line; 8g's own words for what the book is, which answers the reader's "how do rungs this size become $50,000 each?") |
-| Note must carry (about 50 words) | Amounts at cost: quantity held x price paid on 6-7 Oct 2026 (U.S. Eastern), on the original $300,000. Pays for: the payment (1 January of that year) each holding stands for; the full-size plan for both deposits is Figure 1 and Table 2. The floor: the least Laura can promise co-sponsors in 2031; IBTM stands in for the plan's late-2032 floor fund (TNA l.13, CANON A24, 8g). What the costs row holds; the accrued interest comes back with each bond's next coupon. |
-| Measured | 16.9 lines with a 50-word note; 12.9 without. Before the "Pays for" column: 14.9 and 11.9. Mon 9 Nov's version: 14.1 lines with a shorter note and no subtotal. |
-| Five-second result | Keel's look: the eye lands on IBTM's 32.50% and, beside it, "2033 and the floor", so the big row explains itself; the years then run down the last column. Fresh reader, before the fix: 4 for clarity, 3 for wanting to read on (IBTM's weight unexplained; scale unclear; "[ID]"). Risk left: the bracketed identifiers read as unfinished until Caplet's export fills them. |
-| Files | `table1_holdings_2x.png`; Markdown in `tables.md`; built by `add_table1` in `build_exhibits.py`. |
+| Note must carry (about 75 words; was 50) | Amounts at cost: units held x price paid on 6-7 Oct 2026 (U.S. Eastern), on the original $300,000 (8g). Units bought / target: the targets were set before the first trade (Portfolio tab, 2 Oct prices); a bond unit is $1,000 of face value (8m). The other two targets, met: every bond bought within 25 basis points of the Treasury curve; cash never below $1,000 (8m; SKELETON's density cut sends both here from 2.5). Pays for: the payment (1 January of that year) each holding stands for; the floor: the least Laura can promise co-sponsors in 2031, which IBTM stands in for (TNA l.13, CANON A24, 8g). The costs row: the $200 of fees and $1,109.42 of bond interest accrued at purchase, which comes back with each bond's next coupon (8g v2). Cut Thu 12 Nov evening: "the full-size plan for both deposits is Figure 1 and Table 2" (the title carries the scale; 2.0 and 2.1 name the plan; kept in the store). |
+| Measured | **20.9 lines with a 75-word note; 15.9 without** (Thu 12 Nov evening). The column, the "All holdings" row and VT's third line add 3.0 lines; the 25 more note words 2.0. Wed 11 Nov: 16.9 and 12.9. Before the "Pays for" column: 14.9 and 11.9. Mon 9 Nov's version: 14.1 lines with a shorter note and no subtotal. Section 2 beside it: at most 626 words in three pages, 46 over the 580 budget (see Page cost). |
+| Five-second result | Keel's look, Thu 12 Nov evening: the eye lands on IBTM's 32.50% and "2033 and the floor", then runs down two columns that say the same thing differently, the years and the equal pairs; VT's unequal pair explains itself in the cell; the costs row, flush left under "All holdings" with no ticker, reads as the reconciling line, not a holding. Not yet read by a fresh reader (due Mon 23 Nov). Fresh reader, Wed 11 Nov, before the Pays-for fix: 4 for clarity, 3 for wanting to read on. Risks left: the bracketed identifiers read as unfinished until Caplet's export fills them; the wrapped fund names make the top half look denser than the bond rows. |
+| Files | `table1_holdings_2x.png`; Markdown in `tables.md`; built by `add_table1` in `build_exhibits.py`; units in `exhibit_data.UNITS`, rows in `exhibit_data.table1_rows`. |
 
 ## Exhibit 2 = Figure 1, the operating reserve running down (3a)
 
@@ -157,7 +204,7 @@ curve of 6 Nov 2026, the range rule on the fund's holdings, Keel's reading of "m
 | Rows (as printed) | 1. The 2028 deposit ($150,000) / Laura / Confirmed in late 2027; the $38,282 top-up comes first / Nothing received by 31 March 2028 (a missed deposit) / Changes: the plan, before any range is stated. Never: the Treasuries held. 2. Treasury payments to her or her funds / Team / Paid by the next business day (Tue 17 Feb 2037 for the February 2037 bond) / A Treasury default: any marketable Treasury payment over five business days late / Changes: the payments and range, restated on what was received. Never: a forced sale. 3. The X-date of the debt limit / Team / No X-date within a month of a cash date / An X-date within a month of a payout, maturity or trade day / Changes: that money moves to bills due before it. Never: the payments. 4. iBond fund notices, the floor's too / Team / Cash arrives 10 to 14 days before 1 January / A notice that moves a fund's end date / Changes: the instrument, to a Treasury maturing in time. Never: the payment. 5. Trade days: Mon 4 Jan 2027, Mon 3 Jan 2028 / Team / Limit orders near each fund's net asset value / A date cannot be kept (a halt; a first draw after January 2033) / Changes: a date, by days. Never: the step or its order. 6. Treasury yields and share prices / Team / Any level: a fall in the market is not a reason / None. Yields 2 points lower before 2027: a $60,000 bottom; 3.60 lower: the top-up takes the whole deposit / Changes: prices, until each end is bought; then only her flexibility. Never: the payments. 7. Her flexibility's three uses / Laura / US$1 = NT$32.768; construction cost index up 1.5% to 5.0% a year / A Taiwan dollar 10% stronger ($11,500 more on $115,000) / Changes: a call on her flexibility ($29,800 today). Never: the range. |
 | Sources (all checked) | Row 1: NUMBERS 2 (the top-up $38,282) and SKELETON item 4 (31 March 2028; confirmed in writing in late 2027). Row 2: SKELETON item 4's definition (five business days; S&P's test) and 8h (Tue 17 Feb 2037). Row 3: SKELETON item 4 (a month; payout, maturity, trade day; bills). Row 4: 8h (cash 10 to 14 days before 1 January; notice in mid-October). Row 5: SKELETON item 4 and the calendar (both 1 Januaries closed). Row 6: NUMBERS 5 and C6 (`fall_200bp`, stated bottom $60,000; 3.60 points takes the whole deposit). Row 7: 8d (US$1 = NT$32.768 on 6 Nov; construction cost band) and 8j (a 10% stronger Taiwan dollar: $11,500 more on the $115,000 top; her flexibility $29,823, printed $29,800 as in Table 2). |
 | Number and working title | **Table 3** / *Seven Signals to Watch as 2031 and 2033 Approach; Two Can Change Laura's $450,000 Plan* (one line) |
-| Note must carry (about 35 words) | Today's market rates (curve of 6 Nov 2026); the top-up's two parts, in January 2028 dollars: $2,388 the ten Treasuries still lack plus $35,894 so no payment needs interest (NUMBERS 2, 5); "Team" is Wharton's "her asset management team". |
+| Note must carry (about 35 words; Thu 12 Nov evening: more spills the table onto a second page) | Today's market rates (curve of 6 Nov 2026); the top-up's two parts, in January 2028 dollars: $2,388 the ten Treasuries still lack plus $35,894 so each payment is met even if money already received earns nothing (never "so no payment needs interest", which is false: each payment needs its own bonds' coupons; bond reader) (NUMBERS 2, 5); (a deposit received after 31 March 2028 runs the same order, card Q34: said in 3e's prose, not here, for the page); the X-date is the Treasury's estimate, else the CBO's; "Team" is Wharton's "her asset management team". |
 | Choices against SKELETON item 4 (each forced by width or source) | (a) Row 4's trigger is a notice that moves a fund's end date; SKELETON's "bridge if cash is not in by 28 Dec" has no source in NUMBERS (no 28 Dec date, no bridge instrument), so it is left to 3e's prose or a NUMBERS entry first. (b) Row 1 names the $38,282 and the note carries its two parts, since both parts in the cell made it seven lines. (c) "Reader" for "who reads it" (the head fits one line). (d) Row 5 drops the 2031 meetings and keeps the first draw slipping past January 2033 inside its trigger. (e) Row 7's test is the $11,500 against the $29,800 of flexibility, not 8j's tail probability (the density cut keeps tail probabilities out). (f) Row 6 shows NUMBERS 5's distances, not spreads, as SKELETON asks; its trigger cell opens "None." because no market level is a reason. (g) Custody is not a row (SKELETON item 4 (c): one line of prose). |
 | Measured | 21.9 lines with a 35-word note (8.39 in of the 9-in text block); 18.9 without. It fits one page only at the top of its own page. Q23's filler estimate was 17.1. |
 | Five-second result | Not yet tested. Keel's look: the three italic level rows and the "Changes:/Never:" pairs carry the point before any cell is read; the two reasons sit first. Due Mon 23 Nov with the others. |
@@ -186,6 +233,17 @@ curve of 6 Nov 2026, the range rule on the fund's holdings, Keel's reading of "m
    names and the ratio in its note. `exhibit2_reserve.png` stays (two builds use it).
 9. Open Thu 12 Nov: Section 3's three exhibits cost about 100 words more than Q23 assumed (see Page cost); row 4's
    bridge needs a NUMBERS entry before it can be printed.
+10. Taken Thu 12 Nov evening (lead's brief): Table 1 gains "Units bought / target" (NUMBERS 8m, checked) and the costs
+   row is set apart below an "All holdings" subtotal, labelled "Costs at purchase, not a holding: fees and accrued
+   interest"; the total stays $300,000.00 and 100.00%. Note budget 75 words (two of 2.5's targets moved in, the
+   full-size-plan pointer out). Section 2 measured: 626-word ceiling, 46 words of headroom over 580 (about 27 in real
+   text).
+11. Open Thu 12 Nov evening, for the lead (files the exhibits owner does not edit): SKELETON's Exhibits item 1 still
+   says "one subtotal row" (there are now two subtotals and the set-apart costs row) and its Section 2 head still says
+   "about 650 words and Table 1" (the density cut's 580 fits; the ceiling is 626); 8g's table keeps the costs row's
+   name and its "Cost" type (the exhibit prints its own label, checked against 8g's amounts). The template's own
+   Table 1 (`../template/build_template.py`, `add_table1_holdings`) has neither the units column nor the "All holdings"
+   row: on 27 Nov pour with `build_exhibits.add_table1` (decision 7).
 
 ## Former candidates, for the record
 

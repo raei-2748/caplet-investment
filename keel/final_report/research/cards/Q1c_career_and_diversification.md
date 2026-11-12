@@ -283,3 +283,11 @@ Feeds 3f (Team Reflection: an honest test of the team's central idea after submi
 - Authors of three sources to confirm on title pages: the 2010 IRS bulletin, the 2022 ALCS/CREATe report and the 2013
   CFA Research Foundation review. Also the Skift article's exact title, Leibowitz (1987)'s end page, Viceira (2001)'s
   journal DOI and the Keel & Mueller (1995) ASTIN pages.
+
+## Correction (Thu 12 Nov 2026, evening; card Q33 read Bodie, Merton & Samuelson in full)
+
+Row 23 and Card 2 misstate the worked example in two places: the riskier-career case's total wealth is $600,000, not
+the same $800,000; and the first case's career is flexible labour, not a "safe" career. The 73% to 23% shift stands as
+the direction a riskier career pushes the share of shares, all else equal; it is never compared with Laura's own
+weights (Q33: her 26.7% of what is left is the frozen book's split, not a model output). See
+`Q33_shares_of_free_money.md`.

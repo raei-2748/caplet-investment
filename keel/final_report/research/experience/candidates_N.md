@@ -121,3 +121,15 @@ the next blind re-rank (scheduled Mon 16 Nov), so that one panel reads every wee
 - Strand: research and decision process
 - Related: N-09
 - Evidence: `keel/final_report/research/panel/2026-11-12_judge_finalist.md` (section 3 and the hand-back); `keel/final_report/INTENT.md` (failure 7); `keel/final_report/CANON.md` C12; `keel/final_report/LESSONS.md` (Thu 12 Nov, morning)
+
+### N-11: The morning's fix was itself the thing a strict reader caught
+- Date (Sydney): Thu 12 Nov, evening
+- Origin: KEEL
+- What happened: That morning we had answered a judge's worry (the zero-interest standard reads as the IPS revised) by calling the whole $38,282 top-up the IPS's own clause, "we'll simply complete it with the 2028 deposit". In the evening a strict reader, given only the submitted IPS, trading notes, reflections and our plan, did the arithmetic: the ten Treasuries cost $302,287 against the $300,000 deposit, so the clause covers $2,388, not $38,282. The reader also scaled the trading portfolio up by one and a half and found it implied about $109,000 of floor where our plan recommends about $82,000.
+- Stakes: Wharton requires the report to stay consistent with the frozen IPS; a sentence that claims more from the IPS than it says is the plainest evidence of revision.
+- Decision or response: We split the top-up into its two real sources: the $2,388 is the IPS's completion clause; the other $35,894 is how we size the operating reserve, which Wharton asks the report to recommend, justified by the IPS's own promise that no payment will depend on a share price (at the IPS's sizing, a shortfall in reinvested interest in about half the historical starting months could have been met only from the shares). Section 2 now says once that the portfolio was built before the reserve was sized.
+- What changed afterwards: The report quotes the IPS's promise rather than stretching its clause; our word list carries the two sources, and "high certainty defined" is banned, because the IPS already defines it.
+- Vivid detail: $2,388 of a $38,282 sum had been carrying the whole argument.
+- Strand: research and decision process
+- Related: N-10
+- Evidence: `keel/final_report/research/panel/2026-11-12_coherence_reader.md` (sections 1-3); `keel/final_report/INTENT.md` (item 1, failure 7, rewritten Thu 12 Nov evening); `keel/final_report/WORDS.md` (the top-up row); `keel/pm/ASK_HUMANS.md` (Thu 12 Nov, 19:26); NUMBERS 1, 2

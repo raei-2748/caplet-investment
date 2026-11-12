@@ -1,4 +1,4 @@
-"""Build the Final Report's four exhibits on the register of Tue 10 Nov 2026 (rebuilt Thu 12 Nov 2026, Sydney).
+"""Build the Final Report's four exhibits on the register of Tue 10 Nov 2026 (rebuilt Thu 12 Nov 2026 evening, Sydney).
 
     python3 -I keel/final_report/exhibits/build_exhibits.py            everything below (about a minute)
     python3 -I keel/final_report/exhibits/build_exhibits.py figure     Figure 1 only
@@ -15,7 +15,9 @@ NUMBERS.md; this script stops if that check fails. Writes, next to this file:
   exhibits_letter.docx / .pdf  the four exhibits as APA blocks on Letter in Wharton's format; each note shows the
                                items it must carry (notes are written on 27 Nov, not here)
   tables.md                    every exhibit as Markdown text, with its source and note items
-  measurements.json            each exhibit's height in double-spaced lines on a Letter page (card Q23's method)
+  measurements.json            each exhibit's height in double-spaced lines on a Letter page (card Q23's method), and
+                               (Thu 12 Nov evening) "s2_fit": the most prose Section 2 holds in Wharton's three pages
+                               beside Table 1, against SKELETON's 580-word budget
 
 Format (Wharton; card Q23): 12-point Times New Roman, double-spaced text, 1-inch margins, Letter; tables single-spaced
 (Wharton: "Tables and graphics may be single-spaced when needed for readability"); APA 7 number, title, note. Black and
@@ -209,15 +211,22 @@ EXHIBITS = {
     # original $300,000 (8g: "Laura's whole plan in miniature"); Figure 1 and Table 2 are her plan for both deposits.
     "t1": {"label": "Table 1",
            "title": "The Final WInS Portfolio at Cost on the Original $300,000: Laura's Whole Plan in Miniature",
-           "section": "Section 2 (2-3 pages)", "note_budget_words": 50,
+           # Thu 12 Nov evening: 75 words (was 50). The units column needs its basis (targets set before the first
+           # trade; a bond unit is $1,000 of face value) and SKELETON's density cut sends 2.5's two other targets
+           # here (bonds within 25 basis points; cash never below $1,000). The costs label now says what the row is,
+           # so its item shrinks to the coupon clause; "the full-size plan is Figure 1 and Table 2" goes (the title
+           # carries the scale; 2.0 and 2.1 name the plan).
+           "section": "Section 2 (2-3 pages)", "note_budget_words": 75,
            "note_items": [
-               "amounts at cost: quantity held x price paid on 6-7 Oct 2026 (U.S. Eastern), on the original $300,000 (8g)",
-               "Pays for: the payment (1 January of that year) each holding stands for; the full-size plan for both "
-               "deposits is Figure 1 and Table 2 (8g, 23 Oct snapshot)",
-               "the floor: the least Laura can promise co-sponsors in 2031; IBTM stands in for the plan's late-2032 "
-               "floor fund (TNA l.13, CANON A24, 8g)",
-               "costs row = $200 of commissions + $1,109.42 of bond interest accrued at purchase, which comes back "
-               "with each bond's next coupon (8g v2)"]},
+               "amounts at cost: units held x price paid on 6-7 Oct 2026 (U.S. Eastern), on the original $300,000 (8g)",
+               "units bought / target: the targets were set before the first trade (Portfolio tab, 2 Oct prices); a "
+               "bond unit is $1,000 of face value (8m)",
+               "the other two targets, met: every bond bought within 25 basis points of the Treasury curve; cash "
+               "never below $1,000 (8m; SKELETON density cut, 2.5)",
+               "Pays for: the payment (1 January of that year) each holding stands for (23 Oct snapshot); the floor: "
+               "the least Laura can promise co-sponsors in 2031, which IBTM stands in for (TNA l.13, CANON A24, 8g)",
+               "costs row: the $200 of fees and $1,109.42 of bond interest accrued at purchase, which comes back with "
+               "each bond's next coupon (8g v2)"]},
     "f1": {"label": "Figure 1",
            # Thu 12 Nov: WORDS.md's names ("the top-up", "interest earns nothing"); the point first, then the scale
            "title": "Each Payment Has Its Own Treasury, and the Top-Up From the 2028 Deposit Pays Any Gap if Interest "
@@ -251,8 +260,9 @@ EXHIBITS = {
            "section": "Section 3, part 3e", "note_budget_words": 35,
            "note_items": [
                "today's market rates (curve of 6 Nov 2026)",
-               "the top-up: $2,388 the ten Treasuries still lack plus $35,894 so no payment needs interest, in January "
-               "2028 dollars (NUMBERS 2, 5)",
+               "the top-up: $2,388 the ten still lack plus $35,894 so each payment is met if money received earns "
+               "nothing (January 2028 dollars)",
+               "X-date: Treasury's estimate, else CBO's",
                "Team: Wharton's \"her asset management team\""]},
 }
 
@@ -284,13 +294,19 @@ def _pad(cell, c_first, c_last, n_cols):
     _lr_margins(cell, from_left, from_right)
 
 
-def apa_table(BT, rep, ex, header, rows, widths, aligns, note_text, top=False, spanners=None, row_gap=0):
-    """rows: list of (kind, cells); kind is row, subtotal, total, spanner (one italic cell across the table, a rule
-    above), indent (a stub indented under a spanner) or result (one plain cell across the table, a rule above: a
-    finding that holds for every row). Borders: top and bottom of the heads, above a subtotal, spanner, result or
-    total, and at the bottom; never vertical (APA 7). spanners: [(first column, last column, text)] puts a column
-    spanner over those heads (a second head row, with a rule under the spanner); the other heads span both head rows,
-    set at the bottom."""
+LABEL_KINDS = ("subtotal", "holdings", "costs")
+
+
+def apa_table(BT, rep, ex, header, rows, widths, aligns, note_text, top=False, spanners=None, row_gap=0,
+              label_span=0, label_indent=None):
+    """rows: list of (kind, cells); kind is row, subtotal, holdings (a second subtotal), costs (money that is not a
+    holding), total, spanner (one italic cell across the table, a rule above), indent (a stub indented under a
+    spanner) or result (one plain cell across the table, a rule above: a finding that holds for every row). Borders:
+    top and bottom of the heads, above a subtotal, holdings, spanner, result or total, and at the bottom; never
+    vertical (APA 7). spanners: [(first column, last column, text)] puts a column spanner over those heads (a second
+    head row, with a rule under the spanner); the other heads span both head rows, set at the bottom. label_span=k
+    prints the label of each subtotal, holdings and costs row across the first k columns (Table 1); label_indent
+    {kind: inches} indents that label (the Treasury subtotal lines up with the names)."""
     from docx.shared import Inches, Pt
     rep._number_title(EXHIBITS[ex]["label"], EXHIBITS[ex]["title"], top)
     nh = 2 if spanners else 1
@@ -302,6 +318,7 @@ def apa_table(BT, rep, ex, header, rows, widths, aligns, note_text, top=False, s
     if spanners:
         _two_row_head(BT, rep, t, header, widths, spanners)
     all_rows = [("head", header)] + rows
+    n = len(header)
     for r_i, (kind, values) in enumerate(all_rows):
         if spanners and r_i == 0:
             continue
@@ -309,25 +326,35 @@ def apa_table(BT, rep, ex, header, rows, widths, aligns, note_text, top=False, s
         BT._row_keep(row, header=(r_i == 0))
         if kind in ("spanner", "result"):
             merged = row.cells[0].merge(row.cells[-1])
-            cells = [merged]
+            cells, spans = [merged], [(0, n - 1)]
             values = [values[0]]
+        elif label_span and kind in LABEL_KINDS:
+            # Table 1's label rows: the label runs across the first label_span columns (no ticker, type or units)
+            grid = list(row.cells)
+            merged = grid[0].merge(grid[label_span - 1])
+            cells = [merged] + grid[label_span:]
+            spans = [(0, label_span - 1)] + [(c, c) for c in range(label_span, n)]
+            values = [values[0]] + list(values[label_span:])
         else:
             cells = row.cells
+            spans = [(c, c) for c in range(n)]
         last = r_i == len(all_rows) - 1
-        for c_i, (cell, val) in enumerate(zip(cells, values)):
-            full = kind in ("spanner", "result")
-            cell.width = Inches(sum(widths) if full else widths[c_i])
+        for (c0, c1), cell, val in zip(spans, cells, values):
+            full = c1 > c0
+            cell.width = Inches(sum(widths[c0:c1 + 1]))
             BT._cell_margins(cell, PAD)
-            _pad(cell, 0 if full else c_i, len(header) - 1 if full else c_i, len(header))
+            _pad(cell, c0, c1, n)
             p = cell.paragraphs[0]
             p.style = rep.doc.styles["APA Table Text"]
             p.paragraph_format.keep_with_next = not last
             if kind == "head":
                 p.alignment = BT.C
             else:
-                p.alignment = BT.L if full else aligns[c_i]
-            if kind == "indent" and c_i == 0:
+                p.alignment = BT.L if full else aligns[c0]
+            if kind == "indent" and c0 == 0:
                 p.paragraph_format.left_indent = Inches(0.2)
+            if full and label_indent and kind in label_indent:
+                p.paragraph_format.left_indent = Inches(label_indent[kind])
             if kind == "subtotal":
                 p.paragraph_format.space_after = Pt(6)      # one deliberate gap after the subtotal (card Q28)
             if kind == "row" and row_gap:
@@ -340,7 +367,7 @@ def apa_table(BT, rep, ex, header, rows, widths, aligns, note_text, top=False, s
             edges = {}
             if kind == "head":
                 edges.update(top=8, bottom=8)
-            if kind in ("subtotal", "spanner", "result") and not (kind == "spanner" and r_i == 1):
+            if kind in ("subtotal", "holdings", "spanner", "result") and not (kind == "spanner" and r_i == 1):
                 edges.update(top=4)                         # a level right under the heads needs no second rule
             if kind == "total":
                 edges.update(top=4)
@@ -389,11 +416,16 @@ def _two_row_head(BT, rep, t, header, widths, spanners):
 
 def add_table1(BT, rep, note_text, top=False):
     # Each cell needs its text + its padding (0.08 in between columns, none at the outer edges) + slack, or it wraps:
-    # "[532281]" 0.611 in; the costs label 3.078; "Asset" 0.370; bold "300,000.00" 0.750; bold "100.00" 0.458;
-    # "Range top," 0.722. Two "Pays for" cells take two lines by design (IBTM's and VT's two jobs).
-    widths = [0.67, 3.17, 0.47, 0.85, 0.55, 0.79]
-    aligns = [BT.L, BT.L, BT.L, BT.R, BT.R, BT.C]
-    return apa_table(BT, rep, "t1", D.TABLE1_HEADER, D.table1_rows(), widths, aligns, note_text, top)
+    # "[532281]" 0.611 in; "Asset" 0.370; "from cash left" 0.926 and "4,503 / 4,503" 0.880; bold "300,000.00" 0.750;
+    # bold "100.00" 0.458; "Range top," 0.722; the longest bond name 2.014. Thu 12 Nov evening: the "Units bought /
+    # target" column (1.05 in) is paid for by the name column (3.17 -> 2.13 in), so the five iBond fund names and VT's
+    # take two lines (IBTM's and VT's rows had two already). The label rows run across the first four columns (4.31
+    # in): the Treasury subtotal indented to the names, "All holdings" and the costs row flush left like "Total".
+    # Units are centred: bought and target have the same digits in every row, so the slashes line up.
+    widths = [0.67, 2.13, 0.46, 1.05, 0.85, 0.55, 0.79]
+    aligns = [BT.L, BT.L, BT.L, BT.C, BT.R, BT.R, BT.C]
+    return apa_table(BT, rep, "t1", D.TABLE1_HEADER, D.table1_rows(), widths, aligns, note_text, top,
+                     label_span=D.LABEL_SPAN, label_indent={"subtotal": widths[0] + PAD / 1440})
 
 
 def add_figure1(BT, rep, note_text, top=False):
@@ -447,14 +479,27 @@ def crop_previews(BT, pdf):
                          ("t3", "table3_monitoring_2x.png")):
             pi, ln = BT.find_line(pages, EXHIBITS[ex]["label"])
             pj, below = BT.find_line(pages, "Below the exhibit.", start_page=pi)
-            assert pi == pj, f"{ex} spans pages"
             top = ln["top"] - 6
-            bottom = below["top"] - 27.6 + 4          # stop above the blank line after the exhibit
             page = doc.pages[pi]
+            if pi == pj:
+                bottom = below["top"] - 27.6 + 4      # stop above the blank line after the exhibit
+            else:
+                # Table 1 since Thu 12 Nov evening: its note-items placeholder (about 110 words, longer than the
+                # 75-word budget) pushes the line after it to the next page; the whole table and note sit on page pi,
+                # so stop under the last text line above the page number.
+                body = [x for x in BT.lines_of(pages[pi]["words"]) if x["top"] < pages[pi]["height"] - 72]
+                assert pj == pi + 1 and body and body[-1]["text"].endswith(".]"), f"{ex} spans pages"
+                bottom = body[-1]["bottom"] + 6
             img = page.crop((66, top, page.width - 66, bottom)).to_image(resolution=PREVIEW_DPI)
             img.save(os.path.join(HERE, name))
             out[ex] = name
     return out
+
+
+# Where each exhibit's filler note starts in the filler text: where it started on Wed 11 Nov (one shared filler, notes
+# of 50, 60, 45 and 35 words in turn). Fixed since Thu 12 Nov evening, so that a longer Table 1 note does not change the
+# words, and so the line breaks, of the notes measured after it (Figure 1 measured a line taller when it moved).
+FILLER_START = {"t1": 0, "f1": 50, "t2": 110, "t3": 155}
 
 
 def measure(BT, workdir):
@@ -464,6 +509,7 @@ def measure(BT, workdir):
     f = BT.Filler()
     res = {}
     for ex in ORDER:
+        f.i = FILLER_START[ex]
         for variant, words in (("note_budget", EXHIBITS[ex]["note_budget_words"]), ("no_note", 0)):
             rep = BT.Report(paper="letter")
             rep.para("Above the exhibit.")
@@ -497,6 +543,61 @@ def measure(BT, workdir):
     return res
 
 
+SECTION2_BUDGET = 580        # SKELETON, Panel 2's density cut (Thu 12 Nov): 100 + 120 + 80 + 130 + 150 words
+CEILING_BEFORE = 661         # the same fit, Thu 12 Nov evening, on Wed 11 Nov's Table 1 (6 columns, 50-word note)
+
+
+def fit_section2(BT, workdir):
+    """Section 2 against Wharton's three-page maximum (card Q23 row 33's method, `fit_mock` in the template): title page,
+    paper title, the Level 1 heading, the lead and part 2.1 with its Level 2 heading on page 2, Table 1 (with the
+    note budget in filler) at the top of page 3, then parts 2.2, 2.3 and 2.5 with their headings; Section 3 starts
+    on a new page. Each prose block is filled with filler (120-word paragraphs) until one more word would push
+    Table 1 off page 3 or Section 3 off page 5. The sum is the most prose Section 2 holds in three pages."""
+    note = BT.Filler().words(EXHIBITS["t1"]["note_budget_words"]) + "."
+    n = [0]
+
+    def pages(pre, post):
+        n[0] += 1
+        f = BT.Filler()
+        rep = BT.Report(paper="letter")
+        rep.title_page()
+        rep.paper_title("[Report Title]")
+        rep.heading(BT.SECTION2, 1)
+        BT._prose_with_headings(rep, f, pre, ["Part 2.1 Heading"], 120)
+        add_table1(BT, rep, note, top=True)
+        BT._prose_with_headings(rep, f, post, [f"Part {p} Heading" for p in BT.S2_PARTS[1:]], 120, lead=False)
+        rep.heading(BT.SECTION3, 1, new_page=True)
+        rep.para("Section three starts here.")
+        return BT.pdf_pages_text(rep.save(os.path.join(workdir, "s2_fit.docx")))
+
+    def most(lo, hi, ok):
+        best = lo
+        while lo <= hi:
+            mid = (lo + hi) // 2
+            if ok(mid):
+                best, lo = mid, mid + 1
+            else:
+                hi = mid - 1
+        return best
+
+    pre = most(150, 400, lambda v: BT.find_line(pages(v, 0), "Table 1")[0] == 2)
+    post = most(100, 700, lambda v: BT.find_line(pages(pre, v), BT.SECTION3)[0] == 4)
+    final = pages(pre, post)
+    t1_page = BT.find_line(final, "Table 1")[0] + 1
+    ceiling = pre + post
+    return {"ceiling_words": ceiling, "before_table1_words": pre, "after_table1_words": post,
+            "budget_words": SECTION2_BUDGET, "headroom_words": ceiling - SECTION2_BUDGET,
+            "headroom_real_text_words": int(round(ceiling * 0.97 - SECTION2_BUDGET)),
+            "headroom_lines": round((ceiling - SECTION2_BUDGET) / 14.26, 1),
+            "ceiling_before_words": CEILING_BEFORE, "table1_page": t1_page,
+            "pages": "title 1; Section 2 pages 2-4 (Wharton's maximum, 3); Section 3 from page 5",
+            "conversions": n[0],
+            "method": "card Q23 row 33 (fit_mock): Letter, Wharton's format, 120-word filler paragraphs, the paper title "
+                      "on page 2, Level 1 heading, lead + 2.1 under one Level 2 heading before Table 1 (top of page 3), "
+                      "2.2, 2.3 and 2.5 under three after it; Table 1 with its note budget in filler. Real text runs "
+                      "2-3% under a filler ceiling (Q23), so the real-text headroom takes 3% off the ceiling."}
+
+
 # =================================================================================================================
 # tables.md: every exhibit as text
 # =================================================================================================================
@@ -512,7 +613,7 @@ def _md_table(header, rows, right):
 
 def tables_md(measures):
     L = []
-    L.append("# The Final Report's exhibits as text (built Thu 12 Nov 2026, Sydney)\n")
+    L.append("# The Final Report's exhibits as text (built Thu 12 Nov 2026 evening, Sydney)\n")
     L.append("Generated by `build_exhibits.py` from `exhibit_data.py`, which reads `../numbers/results_*_2026-11-10.json` "
              "and checks every figure against `../NUMBERS.md` (sections named under each exhibit). Notes for the "
              "store, not report prose: titles are working labels and each note lists the items it must carry; both "
@@ -529,19 +630,32 @@ def tables_md(measures):
     L.append(f"## {EXHIBITS['t1']['label']}. {EXHIBITS['t1']['title']} (working title)\n")
     L.append(f"{EXHIBITS['t1']['section']}. Source: NUMBERS 8g version 2, the WInS record at cost (not a model).\n")
     rows = []
+    k = D.LABEL_SPAN
     for kind, cells in D.table1_rows():
         cells = [c.replace("\n", " ") for c in cells]
-        if kind == "subtotal":
-            cells = ["", f"*{cells[1]}*", "", f"*{cells[3]}*", f"*{cells[4]}*", ""]
+        if kind == "subtotal":                       # printed across the first four columns, indented to the names
+            cells = ["", f"*{cells[0]}*"] + [""] * (k - 2) + [f"*{c}*" if c else "" for c in cells[k:]]
+        if kind == "holdings":                       # printed flush left across the first four columns
+            cells = [f"*{cells[0]}*"] + [""] * (k - 1) + [f"*{c}*" if c else "" for c in cells[k:]]
         if kind == "total":
             cells = [f"**{c}**" if c else "" for c in cells]
         rows.append(cells)
-    L.append(_md_table(D.TABLE1_HEADER, rows, right={3, 4}) + "\n")
-    L.append("Two Pays-for cells print on two lines at 12 pt: IBTM's (\"2033 and / the floor\") and VT's (\"Range top, / "
-             "flexibility\"). Asset types are one word (Wharton's \"ETF\" and \"Bond\" for its \"Treasury Bond\"); the "
-             "dollar sign is in the head.\n")
+    L.append(_md_table(D.TABLE1_HEADER, rows, right={4, 5}) + "\n")
+    L.append("Printed: the five iBond fund names and VT's take two lines in the 2.13-in name column, as do the "
+             "Pays-for cells of IBTM (\"2033 and / the floor\") and VT (\"Range top, / flexibility\"); VT's units cell "
+             "takes three (\"167 / 164 / bought last, / from cash left\"). Units are centred, so the slashes line up. "
+             "The two subtotals and the costs row print their labels across the first four columns: the Treasury "
+             "subtotal indented to the names; \"All holdings\" and the costs row flush left, with no ticker, type or "
+             "units. Rules above each subtotal and the total. Asset types are one word (Wharton's \"ETF\" and \"Bond\" "
+             "for its \"Treasury Bond\"); the dollar sign is in the head.\n")
     L.append("Note items: " + "; ".join(EXHIBITS["t1"]["note_items"]) + ".\n")
     L.append(cost("t1") + "\n")
+    s2 = measures.get("s2_fit")
+    if s2:
+        L.append(f"Section 2 in Wharton's three pages (measured): {s2['ceiling_words']} words of prose at most beside "
+                 f"Table 1 (Q23's method); SKELETON budgets {s2['budget_words']}, so **{s2['headroom_words']} words of "
+                 f"headroom** (about {s2['headroom_real_text_words']} in real text, which runs 2-3% under a filler "
+                 f"ceiling). The same fit on Wed 11 Nov's Table 1 (six columns, 50-word note): {s2['ceiling_before_words']}.\n")
 
     # Figure 1
     L.append(f"## {EXHIBITS['f1']['label']}. {EXHIBITS['f1']['title']} (working title)\n")
@@ -621,11 +735,12 @@ def main(argv):
     print(crop_previews(BT, pdf))
     work = tempfile.mkdtemp(prefix="keel_exhibits_")
     m = measure(BT, work)
+    m["s2_fit"] = fit_section2(BT, work)
     shutil.rmtree(work, ignore_errors=True)
     m["_method"] = ("Card Q23: Letter, 1-inch margins, 12-pt Times New Roman metrics (Liberation Serif), double-spaced "
                     "text at a 27.6-pt pitch, table bodies single-spaced, APA number, title and note double-spaced, a "
                     "blank double-spaced line after each exhibit; LibreOffice headless; words a line 14.26 (Q23 row 5)")
-    m["_built"] = "Thu 12 Nov 2026 (Sydney), register of Tue 10 Nov 2026"
+    m["_built"] = "Thu 12 Nov 2026 evening (Sydney), register of Tue 10 Nov 2026"
     with open(os.path.join(HERE, "measurements.json"), "w") as fh:
         json.dump(m, fh, indent=1)
     print(json.dumps(m, indent=1))
