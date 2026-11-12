@@ -1,15 +1,15 @@
 {
  "t1_note_budget": {
-  "lines": 16.9,
-  "inches": 6.46,
-  "prose_words_displaced": 240,
-  "note_words": 50,
+  "lines": 20.9,
+  "inches": 8.0,
+  "prose_words_displaced": 300,
+  "note_words": 75,
   "pages_spanned": 1
  },
  "t1_no_note": {
-  "lines": 12.9,
-  "inches": 4.93,
-  "prose_words_displaced": 180,
+  "lines": 15.9,
+  "inches": 6.09,
+  "prose_words_displaced": 230,
   "note_words": 0,
   "pages_spanned": 1
  },
@@ -55,6 +55,20 @@
   "note_words": 0,
   "pages_spanned": 1
  },
+ "s2_fit": {
+  "ceiling_words": 626,
+  "before_table1_words": 299,
+  "after_table1_words": 327,
+  "budget_words": 580,
+  "headroom_words": 46,
+  "headroom_real_text_words": 27,
+  "headroom_lines": 3.2,
+  "ceiling_before_words": 661,
+  "table1_page": 3,
+  "pages": "title 1; Section 2 pages 2-4 (Wharton's maximum, 3); Section 3 from page 5",
+  "conversions": 18,
+  "method": "card Q23 row 33 (fit_mock): Letter, Wharton's format, 120-word filler paragraphs, the paper title on page 2, Level 1 heading, lead + 2.1 under one Level 2 heading before Table 1 (top of page 3), 2.2, 2.3 and 2.5 under three after it; Table 1 with its note budget in filler. Real text runs 2-3% under a filler ceiling (Q23), so the real-text headroom takes 3% off the ceiling."
+ },
  "_method": "Card Q23: Letter, 1-inch margins, 12-pt Times New Roman metrics (Liberation Serif), double-spaced text at a 27.6-pt pitch, table bodies single-spaced, APA number, title and note double-spaced, a blank double-spaced line after each exhibit; LibreOffice headless; words a line 14.26 (Q23 row 5)",
- "_built": "Thu 12 Nov 2026 (Sydney), register of Tue 10 Nov 2026"
+ "_built": "Thu 12 Nov 2026 evening (Sydney), register of Tue 10 Nov 2026"
 }

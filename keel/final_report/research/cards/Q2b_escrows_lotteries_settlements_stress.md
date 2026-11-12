@@ -238,25 +238,26 @@ release it (a legislature), or the plumbing that moves it (clearing banks, fund 
 
 ## Sources (APA 7; all accessed 12 Nov 2026)
 
-- S1. U.S. Securities and Exchange Commission. (2000, April 6). *SEC settles with ten brokerage firms as part of
+- S1. U.S. Securities and Exchange Commission. (2000a, April 6). *SEC settles with ten brokerage firms as part of
   global resolution of yield burning claims* (Press Release No. 2000-45).
   https://www.sec.gov/newsroom/press-releases/2000-45-sec-settles-ten-brokerage-firms-part-global-resolution-yield-burning-claims
   (read in full)
-- S2. U.S. Securities and Exchange Commission. (n.d.). *Supplementary news material: Summary of yield burning
+- S2. U.S. Securities and Exchange Commission. (2000b, April 6). *Supplementary news material: Summary of yield burning
   settlement payments*. https://www.sec.gov/news/extra/yeildb.htm (search excerpt only; UNVERIFIED)
-- S3. Congressional Research Service. (2015). *State and local government series (SLGS) Treasury debt: A description*
-  (CRS Report No. R41811; updated October 29, 2015). https://www.congress.gov/crs_external_products/R/HTML/R41811.html
+- S3. Driessen, G. A. (2015). *State and local government series (SLGS) Treasury debt: A description*
+  (CRS Report No. R41811; updated October 29, 2015). Congressional Research Service. https://www.congress.gov/crs_external_products/R/HTML/R41811.html
   (read in full)
-- S4. U.S. Department of the Treasury, Bureau of the Fiscal Service. (2015-2023). *Treasury to suspend [resume] sales
-  of State and Local Government Series securities* [Press releases]. TreasuryDirect. For example
-  https://treasurydirect.gov/news/2023/release-06-05-slgs and https://slgs.gov/news/2021/release-12-16 (headings and
+- S4. Bureau of the Fiscal Service. (2021, December 16). *Treasury resumes sales of State and Local Government Series
+  securities* [Press release]. U.S. Department of the Treasury. https://slgs.gov/news/2021/release-12-16 ; Bureau of
+  the Fiscal Service. (2023, June 5). *Treasury resumes sales of State and Local Government Series securities* [Press
+  release]. U.S. Department of the Treasury. https://treasurydirect.gov/news/2023/release-06-05-slgs (headings and
   excerpts only; UNVERIFIED)
 - S5. Modugno, V. (2000, September). Municipal reinvestment contracts. *Risks and Rewards*, (35), 12-14. Society of
   Actuaries. https://www.soa.org/globalassets/assets/library/newsletters/risks-and-rewards/2000/september/rar-2000-iss35-modugno.pdf
   (read in full)
-- S6. Los Angeles Times. (1991, May 3). Executive Life failure reaches muni bonds.
+- S6. Kristof, K. M. (1991, May 3). Executive Life failure reaches muni bonds. *Los Angeles Times*.
   https://www.latimes.com/archives/la-xpm-1991-05-03-fi-1068-story.html (excerpt only; UNVERIFIED)
-- S7. Los Angeles Times. (1991, December 8). Agencies' bonds frozen in Executive Life bankruptcy.
+- S7. Willman, D. (1991, December 8). Agencies' bonds frozen in Executive Life bankruptcy. *Los Angeles Times*.
   https://www.latimes.com/archives/la-xpm-1991-12-08-mn-387-story.html (excerpt only; UNVERIFIED)
 - S8. Chicago Tribune. (1985, March 11). Bond search pressed in firm's failure.
   https://www.chicagotribune.com/1985/03/11/bond-search-pressed-in-firms-failure (excerpt only; UNVERIFIED)
@@ -271,11 +272,11 @@ release it (a legislature), or the plumbing that moves it (clearing banks, fund 
   [Monthly investment note].
   https://www.illinoislottery.com/content/dam/il/pdfs/financial-pdfs/investments/2020/2020-9-30-Illinois-Lottery-Investments.pdf
   (read in full)
-- S13. Minnesota State Lottery. (2025). *Minnesota State Lottery financial statements, fiscal years ended June 30, 2025
-  and 2024* [Annual report].
+- S13. Minnesota State Lottery. (2025). *Annual comprehensive financial report: An enterprise fund of the State of
+  Minnesota, for the fiscal years ended June 30, 2025 and 2024*.
   https://mnlottery-craft-assets-prod.s3.us-gov-west-1.amazonaws.com/Annual-Report/2025_Financial_Statement.pdf
   (debt administration section and note 10 read)
-- S14. U.S. General Accounting Office. (1992, September 9). *Insurer failures: Regulators failed to respond in timely
+- S14. U.S. General Accounting Office. (1992b, September 9). *Insurer failures: Regulators failed to respond in timely
   and forceful manner in four large life insurer failures* (GAO/T-GGD-92-43; testimony of R. L. Fogel).
   https://www.gao.gov/assets/t-ggd-92-43.pdf (read in full)
 - S15. Pennsylvania Life and Health Insurance Guaranty Association v. Insurance Department, 625 A.2d 1286 (Pa. Commw.
@@ -286,26 +287,28 @@ release it (a legislature), or the plumbing that moves it (clearing banks, fund 
   https://www.nycourts.gov/REPORTER/3dseries/2013/2013_00738.htm (read in full)
 - S18. The Life and Health Insurance Company Guaranty Corporation of New York. (n.d.). *Executive Life Insurance Company
   of New York*. Retrieved November 12, 2026, from https://www.nylifega.org/Custom/Index/718 (read in full)
-- S19. AIRROC. (2012). The elephant in the courtroom. *AIRROC Matters*, Summer 2012.
+- S19. Bickford, P. H. (2012, Summer). The elephant in the courtroom. *AIRROC Matters*.
   https://airroc.memberclicks.net/assets/CLIP/elephant%20in%20the%20courtroom.airroc_matters_summer_2012%202.pdf
   (excerpt only; UNVERIFIED)
 - S20. Stone, E. S. (n.d.). *ELNY debacle*. Retrieved November 12, 2026, from https://edwardstonelaw.com/elny/elny-litigation
   (excerpt only; UNVERIFIED)
 - S21. Certain personal injury liability assignments, 26 U.S.C. § 130. Legal Information Institute.
   https://www.law.cornell.edu/uscode/text/26/130 (read in full)
-- S22. Board of Governors of the Federal Reserve System. (2026, July 8). *Holidays observed by the Federal Reserve
+- S22. Board of Governors of the Federal Reserve System. (2026a, July 8). *Holidays observed by the Federal Reserve
   System 2026-2030* (K.8). https://www.federalreserve.gov/aboutthefed/k8.htm (read in full)
 - S23. Ennis, H. M., & Price, D. A. (2015). *Discount window lending: Policy trade-offs and the 1985 BoNY computer
   failure* (Economic Brief No. 15-05). Federal Reserve Bank of Richmond.
   https://www.richmondfed.org/-/media/richmondfedorg/publications/research/economic_brief/2015/pdf/eb_15-05.pdf
   (read in full)
-- S24. Financial Planning. (2015, August 28). *BNY Mellon tech issues continue to dog funds*.
+- S24. *BNY Mellon tech issues continue to dog funds*. (2015, August 28). Financial Planning.
   https://www.financial-planning.com/news/bny-mellon-tech-issues-continue-to-dog-funds-mme257866 (read in full)
-- S25. Reuters. (2015, August 26). *BNY Mellon pricing glitch affects billions of dollars of funds*.
+- S25. Toonkel, J., & McLaughlin, T. (2015, August 26). *BNY Mellon pricing glitch affects billions of dollars of
+  funds*. Reuters.
   https://www.reuters.com/article/markets/wealth/bny-mellon-pricing-glitch-affects-billions-of-dollars-of-funds-idUSKCN0QV28C
   (excerpt only; UNVERIFIED)
-- S26. Banking Dive. (2021, February 24; updated February 26). *Fed says 'operational error' caused payment system
-  outage*. https://www.bankingdive.com/news/federal-reserve-operational-error-payment-system-outage/595678 (read in full)
-- S27. The News-Gazette. (2017). *Illinois Lottery says state budget impasse cost it almost $4M in sales*.
+- S26. Hrushka, A. (2021, February 24; updated February 26). *Fed says 'operational error' caused payment system
+  outage*. Banking Dive. https://www.bankingdive.com/news/federal-reserve-operational-error-payment-system-outage/595678 (read in full)
+- S27. Zigterman, B. (2017, July 27). Illinois Lottery says state budget impasse cost it almost $4M in sales.
+  *The News-Gazette*.
   https://www.news-gazette.com/news/illinois-lottery-says-state-budget-impasse-cost-it-almost-4m-in-sales/article_214b77f2-5b91-5b1d-a215-511361e1ec6c.html
   (excerpt only; UNVERIFIED)

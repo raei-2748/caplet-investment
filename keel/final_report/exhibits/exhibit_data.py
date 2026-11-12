@@ -5,7 +5,9 @@ range rule on the fund's holdings and Keel's reading of "most". Everything model
 
 Where the figures come from:
   Table 1  (Section 2)      NUMBERS.md 8g version 2, the WInS record at cost. No results file holds it, so the rows are
-                            copied here by hand and check() compares every cell with the 8g table.
+                            copied here by hand and check() compares every cell with the 8g table. Since Thu 12 Nov
+                            evening also the units bought against the targets set before trading (NUMBERS 8m), checked
+                            against 8m, the Portfolio tab (portfolio.csv) and the 23 Oct WInS snapshot.
   Figure 1 (3a)             numbers/results_reserve_2026-11-10.json (NUMBERS 8h): blocks composition_1jan2033_base,
                             base (today's forwards), fee (nothing earns interest and waiting money pays the ETF's fee:
                             Keel's standard, SKELETON Exhibits item 2) and zero (nothing earns interest, no fee).
@@ -35,6 +37,9 @@ WN_TXT = os.path.normpath(os.path.join(FR, "..", "..", "caplet", "google_drive",
                                        "05_trading_note_reflection_wins_trading_notes.md"))
 # The 23 Oct WInS export with its "Pays for" column (NUMBERS 8g cites it for what the book stands for)
 SNAPSHOT_MD = os.path.normpath(os.path.join(FR, "..", "..", "competition", "wins", "2026-10-23_snapshot.md"))
+# The Portfolio tab's target units, set before the first fill (NUMBERS 8m cites portfolio.csv l.20-31)
+PORTFOLIO_CSV = os.path.normpath(os.path.join(FR, "..", "..", "caplet", "google_drive", "sheets",
+                                              "portfolio_and_trading_notes", "portfolio.csv"))
 REGISTER_DATE = "2026-11-10"
 
 
@@ -103,9 +108,32 @@ HOLDINGS_NOTE_FACTS = {"commissions": 200.00, "accrued_interest": 1109.42, "wins
 # "Identifiers"); 532281 is Wharton's own example row and still to confirm. Asset types: 8g's "ETF (Treasury)" and
 # "ETF (equity)" in plain words; at 12 pt "ETF (Treasury)" would push the longest fund name off one line.
 ID_PRINT = {"(WInS id)": "[ID]", "532281 (probably)": "[532281]"}
-# 8g's costs-row name needs 3.22 in at 12 pt; the column has 3.13 in. Printed short, same meaning (coordinator,
-# Wed 11 Nov): the $200 of commissions and the $1,109.42 of bond interest accrued at purchase.
-NAME_PRINT = {"Commissions and bond interest paid at purchase": "Commissions and accrued interest at purchase"}
+# The costs row (Thu 12 Nov evening; panel 2: "the fees and accrued-interest row must not look like a holding", faculty
+# judge; "the extra row for money that left at purchase is not in Wharton's example", finalist judge). It now sits
+# below an "All holdings" subtotal, its label runs across the first four columns (no ticker, no asset type, no units)
+# and says what it is: costs at purchase, not a holding. Same money as 8g's row: the $200 of commissions ("fees", as
+# SKELETON 2.5 and 8m's "Cost" row say it) and the $1,109.42 of bond interest accrued at purchase. 3.86 in at 12 pt;
+# the four columns hold 4.27 in. Wed 11 Nov's "Commissions and accrued interest at purchase" read as a holding.
+NAME_PRINT = {"Commissions and bond interest paid at purchase":
+              "Costs at purchase, not a holding: fees and accrued interest"}
+COSTS_ROW = len(HOLDINGS) - 1          # the last 8g row; not a holding
+HOLDINGS_LABEL = "All holdings"        # the twelve holdings, cash included (Wharton's example lists cash as a row)
+LABEL_SPAN = 4                         # label rows (the two subtotals, the costs row) run across columns 1-4
+
+# Units bought against the targets set before trading (Thu 12 Nov evening; SKELETON's density cut, row 2.5: "the targets
+# become one column of Table 1 (units bought against target), not a second table"). NUMBERS 8m, typed in like the rows
+# above and checked against 8m's text, the Portfolio tab's target units (portfolio.csv l.20-31, 8m's source), the
+# 23 Oct snapshot's quantities, and units x price paid = 8g's amount. Bonds trade in units of $1,000 of face value (8m
+# "lots of $1,000"). VT's target was the cash then left (8m), 164 shares at 2 Oct prices; it was bought last (order 11,
+# filled 7 Oct, 8:27 PM ET), after the ten Treasuries. In the order of HOLDINGS: (units held, target units).
+UNITS = [(4503, 4503), (1024, 1024), (927, 927), (894, 894), (853, 853),
+         (20, 20), (20, 20), (18, 18), (18, 18), (20, 20),
+         (167, 164)]
+# VT's cell carries why its two numbers differ (the brief: "167 / 164, bought last from the cash left"; "from the cash
+# left" needs 1.17 in, the column holds 0.97, so "from cash left"). VT's row is two lines already (its name and its
+# "Pays for" wrap), so the third line costs one single-spaced line.
+VT_UNITS_WORDS = ("bought last,", "from cash left")
+UNITS_HEAD = "Units bought / target"
 # Since the "Pays for" column (fresh reader, Wed 11 Nov) the types are one word, Wharton's own ("ETF", and "Bond" for
 # its "Treasury Bond"): each name already says Treasury, T-Bond or Stock.
 TYPE_PRINT = {"ETF (Treasury)": "ETF", "ETF (equity)": "ETF", "Treasury bond": "Bond", "Cash": "Cash", "Cost": "Cost"}
@@ -123,18 +151,36 @@ def pays_for(role):
 SUBTOTAL_LABEL = "Treasuries for the ten payments and the floor"   # card Q28 row 33: never "the payments" alone
 
 
+def units_cell(i):
+    """'4,503 / 4,503': units bought / target units (8m). VT's cell adds why they differ, on two more lines."""
+    held, target = UNITS[i]
+    s = f"{held:,} / {target:,}"
+    if HOLDINGS[i][0] == "VT":
+        s += "\n" + "\n".join(VT_UNITS_WORDS)
+    return s
+
+
 def table1_rows():
-    """Table 1 as printed: list of (kind, cells). kind is 'row', 'subtotal' or 'total'; cells are Wharton's five
-    columns plus "Pays for". Amounts in cents as WInS records them; percentages to two decimals (8g's largest
-    remainder)."""
+    """Table 1 as printed: list of (kind, cells). kind is 'row' (a holding), 'subtotal' (the ten Treasuries),
+    'holdings' (all twelve holdings, cash included), 'costs' (money that left at purchase: not a holding) or 'total'.
+    Cells are Wharton's five columns plus "Units bought / target" (after the asset type) and "Pays for". In the label
+    rows (subtotal, holdings, costs) the first cell is the label, printed across the first LABEL_SPAN columns; the
+    next LABEL_SPAN - 1 cells are empty. Amounts in cents as WInS records them; percentages to two decimals (8g's
+    largest remainder)."""
     out = []
+    pad = [""] * (LABEL_SPAN - 1)
     for i, (ident, name, typ, amt, pct, role) in enumerate(HOLDINGS):
-        out.append(("row", [ID_PRINT.get(ident, ident), NAME_PRINT.get(name, name), TYPE_PRINT[typ], cents_plain(amt),
-                            f"{pct:.2f}", pays_for(role)]))
+        if i == COSTS_ROW:
+            ha, hp = holdings_subtotal()
+            out.append(("holdings", [HOLDINGS_LABEL] + pad + [cents_plain(ha), f"{hp:.2f}", ""]))
+            out.append(("costs", [NAME_PRINT[name]] + pad + [cents_plain(amt), f"{pct:.2f}", ""]))
+            continue
+        out.append(("row", [ID_PRINT.get(ident, ident), NAME_PRINT.get(name, name), TYPE_PRINT[typ],
+                            units_cell(i) if i < len(UNITS) else "", cents_plain(amt), f"{pct:.2f}", pays_for(role)]))
         if i == N_TREASURIES - 1:
             sa, sp = treasury_subtotal()
-            out.append(("subtotal", ["", SUBTOTAL_LABEL, "", cents_plain(sa), f"{sp:.2f}", ""]))
-    out.append(("total", ["Total", "", "", cents_plain(HOLDINGS_TOTAL[0]), f"{HOLDINGS_TOTAL[1]:.2f}", ""]))
+            out.append(("subtotal", [SUBTOTAL_LABEL] + pad + [cents_plain(sa), f"{sp:.2f}", ""]))
+    out.append(("total", ["Total"] + pad + [cents_plain(HOLDINGS_TOTAL[0]), f"{HOLDINGS_TOTAL[1]:.2f}", ""]))
     return out
 
 
@@ -144,8 +190,16 @@ def treasury_subtotal():
     return a, p
 
 
-TABLE1_HEADER = ["Ticker or identifier", "Name of investment", "Asset type", "Amount ($)", "% of total",  # "portfolio"
-                 "Pays for"]                                                                          # needs 0.58 in
+def holdings_subtotal():
+    """The twelve holdings (ten Treasuries, VT, cash): every 8g row but the costs row."""
+    a = round(sum(h[3] for k, h in enumerate(HOLDINGS) if k != COSTS_ROW), 2)
+    p = round(sum(h[4] for k, h in enumerate(HOLDINGS) if k != COSTS_ROW), 2)
+    return a, p
+
+
+TABLE1_HEADER = ["Ticker or identifier", "Name of investment", "Asset type", UNITS_HEAD, "Amount ($)",
+                 "% of total",  # "portfolio" needs 0.58 in
+                 "Pays for"]
 
 
 # =================================================================================================================
@@ -296,7 +350,7 @@ _C6 = MAIN["C6"]
 DEPOSIT_2028 = 150000.0
 TOPUP = _C6["fall_0bp"]["with_standard"]                 # $38,282: the top-up, January 2028 prices (NUMBERS 2, 5)
 TOPUP_TEN_LACK = _C6["fall_0bp"]["ladder_only"]          # $2,388: what the ten Treasuries still lack
-TOPUP_NO_INTEREST = TOPUP - TOPUP_TEN_LACK               # $35,894: so no payment needs interest (NUMBERS 2)
+TOPUP_NO_INTEREST = TOPUP - TOPUP_TEN_LACK               # $35,894: met even if money received earns nothing (NUMBERS 2)
 BOTTOM_AFTER_2PT_FALL = _C6["fall_200bp"]["150000"]["stated_bottom"]   # $60,000 (NUMBERS 5)
 FALL_TAKES_WHOLE_DEPOSIT = 3.60   # points; NUMBERS 5 text only (no results file holds it), checked against the text
 TWD_PER_USD = INPUTS["usdtwd"]["latest"]                                # 32.768 on 6 Nov (NUMBERS 8d)
@@ -309,6 +363,10 @@ FLEX_FWD = _TWDF["kept_plus_excess_jan2033"]             # $29,823; printed to t
 TRADE_DAYS = (_date(2027, 1, 4), _date(2028, 1, 3))      # 1 Jan 2027 is a market holiday, 1 Jan 2028 a Saturday
 FEB37_PAYS = _date(2037, 2, 17)                          # 15 Feb 2037 is a Sunday, 16 Feb Presidents' Day (8h)
 MISSED_BY = _date(2028, 3, 31)                           # a missed deposit: nothing received by this date
+CONFIRM_BY = _date(2027, 12, 1)                          # the early warning: Laura confirms the deposit in writing
+MISSED_SHORT_2033 = MAIN["C6"]["missed"]["short_at_forwards"]   # $3,016: the 2033 payment short at today's rates (NUMBERS 5)
+IBOND_SLACK = "4 to 9"                                   # business days, cash in hand to the year's last business day (card Q2b)
+IBOND_SLACK_2036 = "4 to 6"                              # the tightest year, 15 Dec 2035 a Saturday (card Q2b)
 DEFAULT_DAYS = 5                                         # a Treasury default: not paid within five business days
 
 
@@ -339,27 +397,27 @@ TABLE3_ROWS = [
     ("reason", [
         f"The 2028 deposit ({dollars(DEPOSIT_2028)})",
         "Laura",
-        f"Confirmed in late 2027; the {dollars(TOPUP)} top-up comes first",
+        f"Confirmed by {CONFIRM_BY.day} {CONFIRM_BY.strftime('%b')} {CONFIRM_BY.year}; the {dollars(TOPUP)} top-up first",
         f"Nothing received by {_d(MISSED_BY, weekday=False)} (a missed deposit)",
-        _changes("the plan, before any range is stated", "the Treasuries held")]),
+        _changes(f"no range; the 2033 payment {dollars(MISSED_SHORT_2033)} short", "a sale")]),
     ("reason", [
-        "Treasury payments to her or her funds",
+        "Treasury payments",
         "Team",
-        f"Paid by the next business day ({_d(FEB37_PAYS)} for the February 2037 bond)",
-        f"A Treasury default: any marketable Treasury payment over {_NUM[DEFAULT_DAYS]} business days late",
-        _changes("the payments and range, restated on what was received", "a forced sale")]),
+        "Paid on the due date, moved past holidays",
+        f"A Treasury default: a payment over {_NUM[DEFAULT_DAYS]} business days late",
+        _changes("what the Treasuries pay, restated", "a forced sale")]),
     ("closer", [
-        "The X-date of the debt limit",
+        "The debt limit's X-date",
         "Team",
         "No X-date within a month of a cash date",
         "An X-date within a month of a payout, maturity or trade day",
-        _changes("that money moves to bills due before it", "the payments")]),
+        _changes("nothing before it (a late payment is row 2)", "a sale ahead of it")]),
     ("closer", [
         "iBond fund notices, the floor's too",
         "Team",
-        "Cash arrives 10 to 14 days before 1 January",
-        "A notice that moves a fund's end date",
-        _changes("the instrument, to a Treasury maturing in time", "the payment")]),
+        f"Cash in {IBOND_SLACK} business days before the year's last ({IBOND_SLACK_2036} for 2036)",
+        "A notice that moves a fund's end date past a payment",
+        _changes("the fund, for a Treasury due in time; any cost from her flexibility", "the amount")]),
     ("closer", [
         f"Trade days: {_d(TRADE_DAYS[0])}, {_d(TRADE_DAYS[1])}",
         "Team",
@@ -370,9 +428,10 @@ TABLE3_ROWS = [
         "Treasury yields and share prices",
         "Team",
         "Any level: a fall in the market is not a reason",
-        f"None. Yields 2 points lower before 2027: a {dollars(BOTTOM_AFTER_2PT_FALL)} bottom; "
+        f"None. 2 points lower before 2027: a {dollars(BOTTOM_AFTER_2PT_FALL)} bottom; "
         f"{FALL_TAKES_WHOLE_DEPOSIT:.2f} lower: the top-up takes the whole deposit",
-        _changes("prices, until each end is bought; then only her flexibility", "the payments")]),
+        _changes("prices until each end is bought, then her flexibility",
+                 f"the payments, to a {FALL_TAKES_WHOLE_DEPOSIT:.2f} fall")]),
     ("watch", [
         "Her flexibility's three uses",
         "Laura",
@@ -456,8 +515,11 @@ def check(verbose=True):
         cmp("Table 1", f"{name}: amount", amt, _money(r[3])[0], "8g", tol=0.005)
         cmp("Table 1", f"{name}: %", pct, float(r[4].rstrip("%")), "8g", tol=0.0001)
         if name in NAME_PRINT:
-            note("Table 1", f"{name}: printed as", NAME_PRINT[name], name, "8g (coordinator's short label, Wed 11 Nov)",
-                 "PASS" if amt == 1309.42 and pct == 0.44 else "FAIL")
+            lab = NAME_PRINT[name].lower()
+            note("Table 1", f"{name}: printed as", NAME_PRINT[name], name,
+                 "8g (Thu 12 Nov label: costs, not a holding; panel 2)",
+                 "PASS" if amt == 1309.42 and pct == 0.44 and lab.startswith("costs") and "not a holding" in lab
+                 and "fees" in lab and "accrued interest" in lab else "FAIL")
         if ident in ID_PRINT:
             note("Table 1", f"{name}: identifier", ID_PRINT[ident], ident, "8g", "PLACEHOLDER (Caplet's final WInS export)")
     note("Table 1", "row count", len(HOLDINGS), len(body), "8g", "PASS" if len(HOLDINGS) == len(body) else "FAIL")
@@ -496,6 +558,73 @@ def check(verbose=True):
     note("Table 1", "Pays for: snapshot rows in holding order", len(snap), N_TREASURIES + 1, "23 Oct snapshot",
          "PASS" if len(snap) == N_TREASURIES + 1 and snap[0][0].startswith("IBTM") and snap[-1][0].startswith("VT")
          else "FAIL")
+
+    # ---- Table 1, Thu 12 Nov evening: the costs row set apart, and units bought against target (8m) ----
+    # The holdings subtotal: the twelve holdings = $300,000 less the costs row = 8g's "cost of the eleven holdings"
+    # plus the cash WInS shows; its % = 100 less the costs row's 0.44.
+    ha, hp = holdings_subtotal()
+    m = re.search(r"\$300,000\s+less\s+the\s+cost\s+of\s+the\s+eleven\s+holdings\s+\(\$([\d,.]+)\)", s8g)
+    eleven = float(m.group(1).replace(",", "")) if m else None
+    cmp("Table 1", "All holdings = the eleven at cost + WInS cash", ha,
+        None if eleven is None else round(eleven + HOLDINGS_NOTE_FACTS["wins_cash"], 2), "8g v2 (Keel's call)", tol=0.005)
+    cmp("Table 1", "All holdings = $300,000 less the costs row", ha,
+        round(HOLDINGS_TOTAL[0] - HOLDINGS[COSTS_ROW][3], 2), "8g", tol=0.005)
+    cmp("Table 1", "All holdings % = 100 less the costs row's %", hp,
+        round(HOLDINGS_TOTAL[1] - HOLDINGS[COSTS_ROW][4], 2), "8g", tol=0.0001)
+    m = re.search(r"Treasuries ([\d.]+)% .*?VT ([\d.]+)%, cash ([\d.]+)%, costs at purchase ([\d.]+)%", s8g)
+    cmp("Table 1", "All holdings % = 8g's groups (Treasuries + VT + cash)", hp,
+        round(float(m.group(1)) + float(m.group(2)) + float(m.group(3)), 2) if m else None, "8g In groups", tol=0.0001)
+    kinds = [k for k, _ in table1_rows()]
+    order_ok = kinds[-3:] == ["holdings", "costs", "total"] and kinds.count("costs") == 1 and \
+        kinds.index("subtotal") == N_TREASURIES and kinds.count("row") == len(HOLDINGS) - 1
+    note("Table 1", "Costs row below the holdings subtotal, above the total; no ticker, type or units",
+         " > ".join(kinds[-3:]), "holdings > costs > total", "panel 2 (faculty, finalist judges)",
+         "PASS" if order_ok and all(c == "" for c in table1_rows()[-2][1][1:LABEL_SPAN]) else "FAIL")
+    # Units against 8m's targets (the criterion row names each target; the result says all ten were met exactly)
+    s8m = _section(md, "### 8m.", "\n### 8n.")
+    m = re.search(r"IBTM ([\d,]+); IBTO ([\d,]+); IBTP ([\d,]+); IBTQ ([\d,]+); IBTR ([\d,]+); bonds ([\d, ]+) lots of "
+                  r"\$1,000", s8m)
+    targets_8m = [int(x.replace(",", "")) for x in m.groups()[:5]] + [int(x) for x in m.group(6).split(",")] if m else []
+    ten_exact = "All ten held at exactly the target units" in s8m
+    m = re.search(r"(\d+) shares against (\d+) at 2 Oct prices", s8m)
+    vt_8m = (int(m.group(1)), int(m.group(2))) if m else None
+    note("Table 1", "Units: 8m says all ten Treasuries were bought at exactly their targets", "yes",
+         "yes" if ten_exact else "no", "8m", "PASS" if ten_exact else "FAIL")
+    for i in range(N_TREASURIES):
+        h, (held, target) = HOLDINGS[i], UNITS[i]
+        who = h[0] if h[0] not in ID_PRINT else h[1]
+        cmp("Table 1", f"{who}: target units", target, targets_8m[i] if i < len(targets_8m) else None, "8m")
+        cmp("Table 1", f"{who}: units bought = target", held, target if ten_exact else None, "8m")
+    cmp("Table 1", "VT: units bought", UNITS[N_TREASURIES][0], vt_8m[0] if vt_8m else None, "8m")
+    cmp("Table 1", "VT: target units (2 Oct prices)", UNITS[N_TREASURIES][1], vt_8m[1] if vt_8m else None, "8m")
+    ok = ("filled last" in s8m and 'from the cash then left' in s8m and VT_UNITS_WORDS[0].startswith("bought last")
+          and "cash left" in VT_UNITS_WORDS[1])
+    note("Table 1", "VT's cell: bought last, from cash left", " ".join(VT_UNITS_WORDS),
+         "8m: sized \"from the cash then left\", bought last (filled last)", "8m", "PASS" if ok else "FAIL")
+    # The same units in the 23 Oct WInS snapshot (quantities held) and units x price paid = 8g's amount at cost
+    for h, (held, _), r in zip(HOLDINGS[:N_TREASURIES + 1], UNITS, snap):
+        who = h[0] if h[0] not in ID_PRINT else h[1]
+        cmp("Table 1", f"{who}: units held (WInS snapshot)", held, float(r[1].replace(",", "")), "23 Oct snapshot")
+        cmp("Table 1", f"{who}: units x price paid = 8g amount", round(held * float(r[3].replace(",", "")), 2), h[3],
+            "23 Oct snapshot, 8g", tol=0.005)
+    # The targets as the Portfolio tab set them before the first fill (8m's source; WInS units, bonds in $1,000 lots)
+    import csv
+    with open(PORTFOLIO_CSV, newline="") as fh:
+        grid = list(csv.reader(fh))
+    head = next(r for r in grid if "Holding" in r and "Target units" in r)
+    c_hold, c_win, c_ord = head.index("Holding"), [c for c, v in enumerate(head) if v.startswith("Type into WInS")][0], \
+        head.index("Order tonight")
+    tab = [r for r in grid[grid.index(head) + 1:] if len(r) > c_ord and r[c_win].strip()]
+    note("Table 1", "Portfolio tab: eleven target rows in holding order", len(tab), N_TREASURIES + 1,
+         "portfolio.csv l.20-31 (8m)", "PASS" if len(tab) == N_TREASURIES + 1 and tab[0][c_hold] == "IBTM"
+         and tab[-1][c_hold] == "VT" else "FAIL")
+    for h, (_, target), r in zip(HOLDINGS[:N_TREASURIES + 1], UNITS, tab):
+        who = h[0] if h[0] not in ID_PRINT else h[1]
+        cmp("Table 1", f"{who}: target units (Portfolio tab, set 2 Oct)", target, float(r[c_win].replace(",", "")),
+            "portfolio.csv (8m)")
+    orders = [int(r[c_ord]) for r in tab]
+    note("Table 1", "VT bought last (order 11 of 11 on the Portfolio tab)", orders[-1], max(orders),
+         "portfolio.csv (8m)", "PASS" if orders[-1] == max(orders) == N_TREASURIES + 1 else "FAIL")
 
     # ---- Figure 1 against 8h ----
     s8h = _section(md, "### 8h.", "\n### 8i.")
@@ -636,7 +765,7 @@ def check(verbose=True):
     cmp("Table 3", "Row 1: the top-up ($38,282)", round(TOPUP), _money(r[2])[0], "5")
     cmp("Table 3", "Row 1: what the ten Treasuries still lack ($2,388)", round(TOPUP_TEN_LACK), _money(r[1])[0], "5")
     m = re.search(r"the \$([\d,]+) tail plus the backstop \(\$([\d,]+)\)", s2)
-    cmp("Table 3", "Row 1: the top-up's part so no payment needs interest ($35,894)", round(TOPUP_NO_INTEREST),
+    cmp("Table 3", "Row 1: the top-up's part for no interest on money received ($35,894)", round(TOPUP_NO_INTEREST),
         float(m.group(2).replace(",", "")), "2")
     cmp("Table 3", "Row 1: the top-up's two parts add up", round(TOPUP_TEN_LACK) + round(TOPUP_NO_INTEREST),
         round(TOPUP), "2, 5")
@@ -669,11 +798,15 @@ def check(verbose=True):
     m = re.search(r"pays on (\w{3} \d+ \w{3} \d{4})\)", s8h)
     note("Table 3", "Row 2: the Feb-2037 bond's business-day date", _d(FEB37_PAYS), m.group(1) if m else None, "8h",
          "PASS" if m and m.group(1) == _d(FEB37_PAYS) and FEB37_PAYS.weekday() == 1 else "FAIL")
-    m = re.search(r"Three iBonds Treasury funds have already ended on schedule.*?(\d+ to \d+) days before 1 January, "
-                  r"with notice in (mid-October)", s8h, re.S)
-    ok = bool(m) and m.group(1) == "10 to 14" and m.group(2) == "mid-October"
-    note("Table 3", "Row 4: ending notice, cash dates and past endings", "mid-October; 10 to 14 days; all three",
-         m.group(0)[:60] + "..." if m else None, "8h", "PASS" if ok else "FAIL")
+    with open(os.path.join(FR, "research", "cards", "Q2b_escrows_lotteries_settlements_stress.md")) as fh:
+        q2b = re.sub(r"\s+", " ", fh.read())
+    m = re.search(r"the five iBond rungs (\d+ to \d+) business days .*?2036 the tightest at (\d+ to \d+)", q2b)
+    ok = bool(m) and m.group(1) == IBOND_SLACK and m.group(2) == IBOND_SLACK_2036
+    note("Table 3", "Row 4: business days of slack, all years and 2036", f"{IBOND_SLACK}; {IBOND_SLACK_2036}",
+         f"{m.group(1)}; {m.group(2)}" if m else None, "card Q2b, card 5", "PASS" if ok else "FAIL")
+    m = re.search(r"the 2033 payment is \$([\d,]+) short at forward rates", re.sub(r"\s+", " ", s5))
+    cmp("Table 3", "Row 1: a missed deposit, the 2033 payment short", round(MISSED_SHORT_2033),
+        float(m.group(1).replace(",", "")) if m else None, "5")
     with open(SKELETON_MD) as fh:
         sk = fh.read()
     sk4 = sk[sk.index("4. **Table 3, monitoring**"):]
@@ -682,7 +815,8 @@ def check(verbose=True):
             ("Row 1: a missed deposit", f"nothing received by {_d(MISSED_BY, weekday=False)}",
              "a missed deposit** is nothing received by 31 March 2028"),
             ("Row 2: a Treasury default", f"within {_NUM[DEFAULT_DAYS]} business days", "within five business days"),
-            ("Row 1: the early warning", "confirms it in writing in late 2027", "confirms the deposit in writing in late 2027"),
+            ("Row 1: the early warning", f"confirmed in writing by {_d(CONFIRM_BY, weekday=False)}",
+             "confirms the deposit in writing by 1 December 2027"),
             ("Row 3: the X-date's window", "within a month of a date the plan needs cash",
              "within a month of a date the plan needs cash"),
             ("Row 5: the trade days", f"{_d(TRADE_DAYS[0])} and {_d(TRADE_DAYS[1])}", "Mon 4 Jan 2027 and Mon 3 Jan 2028"),
@@ -698,6 +832,7 @@ def check(verbose=True):
     # Every figure printed in Table 3 is one checked above (a printed number with no check fails here)
     printed = " ".join(cell_text(c) for _, cells in TABLE3_ROWS for c in cells)
     allowed = {dollars(DEPOSIT_2028), dollars(TOPUP), dollars(TOPUP_TEN_LACK), dollars(TOPUP_NO_INTEREST),
+               dollars(MISSED_SHORT_2033),
                dollars(BOTTOM_AFTER_2PT_FALL), dollars(TWD_NEED), dollars(CONTRIBUTION_FWD), hundreds(FLEX_FWD)}
     found = set(re.findall(r"(?<![A-Z])\$[\d,]+", printed))   # NT$ and US$ mark an exchange rate, not a dollar figure
     if "US$1 = NT$" in printed:
@@ -707,6 +842,7 @@ def check(verbose=True):
          "this check", "PASS" if found <= allowed else "FAIL")
     nums = set(re.findall(r"(?<![\w$,.])\d+(?:\.\d+)?%?", printed.replace("NT$", "NT ").replace("US$", "US ")))
     known = {"2028", "31", "2027", "4", "3", "17", "2037", "10", "14", "2031", "2033", "2", "1", "1.5%", "5.0%",
+             "9", "6", "2036",
              f"{FALL_TAKES_WHOLE_DEPOSIT:.2f}", f"{TWD_PER_USD:.3f}", "10%"}
     note("Table 3", "Every other number printed is a checked date or figure", ", ".join(sorted(nums - known)) or "none",
          "dates and figures above", "this check", "PASS" if nums <= known else "FAIL")

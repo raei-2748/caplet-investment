@@ -1,4 +1,4 @@
-# Scorecard: where the Final Report is weakest (re-scored every run; from Mon 9 Nov 2026; last Thu 12 Nov, morning)
+# Scorecard: where the Final Report is weakest (re-scored every run; from Mon 9 Nov 2026; last Thu 12 Nov, evening)
 
 The loop's engine (`BEST_IN_COMPETITION.md` section 3, `DAILY_RUN.md` "The loop"). Rows are Wharton's required parts
 (`SKELETON.md`) and the minimum requirements; columns are five tests drawn from the criteria and the two readers:
@@ -13,33 +13,35 @@ The loop's engine (`BEST_IN_COMPETITION.md` section 3, `DAILY_RUN.md` "The loop"
 the scores judge the plan and its evidence, since there is no prose. A score rises only when evidence lands. Each run
 changes only the cells its work touched, with the reason in the log below.
 
-## Keel's scores (re-scored Thu 12 Nov, morning; the value before today's change in brackets)
+## Keel's scores (re-scored Thu 12 Nov, evening; the value before this run's change in brackets)
 
 From today a clarity cell takes the median of the latest blind readers who read that version of the plan (panel 2:
 three judges), not Keel's view; a fix made after they read waits for the next reader before its cell rises.
 
 | Part | E | P | C | K | D | Lowest | What would make it a 5 |
 |---|---|---|---|---|---|---|---|
-| First page and the one argument (INTENT) | 4 | 4 | 3 | 5 | 4 | 3 | A fresh reader repeats the 2.0 lead after one read, now that it carries only the idea and the scale (panel 2: the idea landed at once for all three, the opening "crowded"; the overrun moved to 3a) |
-| 2.1-2.4 The book: table, construction, roles | 5 | 4 | 3 (4) | 4 (5) | 4 | 3 | Panel 2 scored 2.1-2.3 clarity 3, 4 and 3, and the professor found 2.2 and 2.3 repeating Trading Notes 2 and 3; the density cut drops both repeats and answers "why about 7% shares?" (VT is about 27% of the money left after the ten, near the textbook's 23%), to be read by a fresh reader |
-| 2.5 How well it was implemented | 5 | 4 | 2 (3) | 4 | 4 | 2 | The targets as a column of Table 1, the result and the cost in two sentences, the duration figures out (panel 2: clarity 2, 3, 2; "eight measures and an unbudgeted table in 180 words") |
-| 3a Commitment, certainty, the reserve | 5 | 5 | 3 (2) | 4 | 4 | 3 | Panel 2 read it in `WORDS.md`'s names and scored clarity 2, 3, 3; a lay reader passes card Q31's closed-book repeat-back on the cut 3a (the standard dated from January 2028; why test at no interest; the price and what comes back) |
-| 3b Contribution and flexibility | 5 | 5 | 2 | 5 | 4 | 2 | All three judges at clarity 2 ("I could not say afterwards what the recommended contribution was"): the cut 3b leads with one figure (about $115,000), says why it is meaningful in the case's word, keeps one currency test, and moves what comes back from the top-up to 3a; then a fresh reader names the contribution after one read |
-| 3c The 2031 range and its confidence | 5 | 5 | 2 (4) | 5 | 4 | 2 | All three judges at clarity 2 (the professor scored its content 5, "the most professional piece", buried by "the tail statistics"): the cut 3c carries the range, the rule and the confidence in three sentences, the denominators in Table 2's note; then a fresh reader repeats them |
-| 3d Words for co-sponsors | 5 | 4 | 3 (4) | 4 | 4 | 3 | Panel 2: clarity 3, 4, 3 ("reads like a term sheet"; the professor: beyond "describing this potential contribution"); the cut passage describes her contribution with a one-sentence ask; a third funder then answers "would you pledge?" |
+| First page and the one argument (INTENT) | 4 | 4 | 3 | 4 (5) | 4 | 3 | A fresh reader repeats the 2.0 lead after one read, now that it carries only the idea and the scale (panel 2: the idea landed at once for all three, the opening "crowded"; the overrun moved to 3a); a coherence reader passes INTENT item 1 and failure 7 as rewritten Thu 12 Nov evening (the evening reader found item 2's "whole plan at two-thirds scale" beside a top-up the portfolio does not hold) |
+| 2.1-2.4 The book: table, construction, roles | 5 | 4 | 3 | 3 (4) | 4 | 3 | Panel 2 scored 2.1-2.3 clarity 3, 4 and 3, and the professor found 2.2 and 2.3 repeating Trading Notes 2 and 3; the density cut drops both repeats and answers "why about 7% shares?" from her two promises, not the textbook's 23% (card Q33, Thu 12 Nov evening: the comparison was not like for like), to be read by a fresh reader; coherence (3): the evening reader scaled Table 1 up and found about $109,000 of floor against Section 3's $82,000, so 2.1 now says once that the portfolio was built before the operating reserve was sized; a second coherence reader confirms |
+| 2.5 How well it was implemented | 5 | 4 | 2 | 4 | 4 | 2 | The targets became a column of Table 1 on Thu 12 Nov evening (units bought against target; the other two targets in its note); left: the result and the cost in two sentences, the duration figures out, then a fresh reader (panel 2: clarity 2, 3, 2; "eight measures and an unbudgeted table in 180 words") |
+| 3a Commitment, certainty, the reserve | 5 | 5 | 3 | 3 (4) | 4 | 3 | The evening lay reader scored the cut 3a 3 and named the promise and its exception, lost on "coupons", "completes the ten", why more comes back than went in, and "operating reserve" (all four fixed in SKELETON the same evening); coherence (3): the strict reader found the whole top-up sourced to IPS l.13 when only $2,388 is (card Q34 agrees: the $35,894 is the reserve's size, recommended as Wharton asks, under l.11); rewritten the same evening, waits for the next reader |
+| 3b Contribution and flexibility | 5 | 5 | 3 (2) | 4 (5) | 4 | 3 | The evening lay reader named the $115,000 and the flexibility list ("the clearest things on the page") and scored the cut 3b 3; "meaningful" now argued from card Q32 (the case's word is BoardSource's "according to their means"; size beside the $450,000 and coming first, never "lead gift"); coherence (4): flexibility was said as $29,800 where IPS l.15's half of the shares is about $21,300, with an order of use the IPS never gives (both fixed the same evening); a fresh reader on the rewritten 3b |
+| 3c The 2031 range and its confidence | 5 | 5 | 2 | 5 | 4 | 2 | The evening lay reader still scored the cut 3c 2 ("I could not say what she actually tells co-sponsors in 2031"; six spread figures read as "a range of ranges"); rewritten the same evening to open with what co-sponsors hear, say what each end is (card Q35: a wide range reads as telling little unless its width is explained) and send the spread to Table 2. Earlier: all three judges at clarity 2 (the professor scored its content 5, "the most professional piece", buried by "the tail statistics"): the cut 3c carries the range, the rule and the confidence in three sentences, the denominators in Table 2's note; then a fresh reader repeats them |
+| 3d Words for co-sponsors | 5 | 4 | 3 | 4 | 4 | 3 | Panel 2: clarity 3, 4, 3 ("reads like a term sheet"; the professor: beyond "describing this potential contribution"); the cut passage describes her contribution with a one-sentence ask; a third funder then answers "would you pledge?" |
 | 3e Assumptions and limits | 5 | 5 | 3 | 4 | 4 | 3 | The assumptions named with their numbers in prose, as Wharton asks (the professor: 7.5% sat only in a table note); one clause on why only two reasons (card Q8a) read right by a stranger |
-| 3e What to monitor to 2031 and 2033 | 5 | 3 | 3 (2) | 5 | 4 | 3 | Panel 2 read the seven-row, five-column plan with the two reasons defined: clarity 3, 3, 2. Built today; a bond reader signs it off (precision) and a stranger reads it |
+| 3e What to monitor to 2031 and 2033 | 5 | 3 | 3 | 4 (5) | 4 | 3 | The bond reader signed Table 3 off with fixes (precision 3, clarity 3): slack in business days, a dated warning, what a missed deposit changes, bounded swaps; all applied the same evening, the table still one page with its note. Coherence (4): the debt-limit row's move into bills was a third trigger (CANON A34), now a watch that changes nothing before the date. A stranger reads it; the bond reader re-reads |
 | 3f Team Reflection | 5 | 4 | 3 | 4 | 4 | 3 | Three or four events from the 16 Nov re-rank, read on corrected fact sheets, each ending on what changed or what was tested and kept, one a success (card Q27); panel 2 could score only the method (3, 3, 3) |
-| Exhibits | 5 | 5 | 3 (4) | 5 | 4 | 3 | Panel 2's clarity: Table 1 4, Figure 1 3, Table 2 3, Table 3 3. Figure 1's question in its header and Table 3 built today; every exhibit passed by a fresh reader on Mon 23 Nov |
-| Minimum requirements (format, APA, permitted investments, page limits) | 3 (4) | | | 5 | | 3 | Section 2's pages measured with every exhibit in them (the professor: 2.5's table was not counted against the three-page limit; now a column of Table 1); the 11 card citation conflicts fixed; the five bond identifiers from Caplet's export |
+| Exhibits | 5 | 5 | 3 | 4 (5) | 4 | 3 | Panel 2's clarity: Table 1 4, Figure 1 3, Table 2 3, Table 3 3. Table 1 gained its target column (units bought against target) the same evening; Figure 1's dates are fund end dates, not cash dates (bond reader), and its note must define "if interest earns nothing" (WORDS); every exhibit passed by a fresh reader on Mon 23 Nov |
+| Minimum requirements (format, APA, permitted investments, page limits) | 3 | | | 5 | | 3 | Section 2's pages measured with every exhibit in them (the professor: 2.5's table was not counted against the three-page limit; now a column of Table 1); the 11 card citation conflicts fixed; the five bond identifiers from Caplet's export |
 
-Mean of the row minimums: 2.75 on Thu 12 Nov, morning (Wed 11 Nov evening 3.17; Wed morning 3.17; Tue 10 Nov 3.25;
+Mean of the row minimums: 2.83 on Thu 12 Nov, evening (morning 2.75; Wed 11 Nov evening 3.17; Wed morning 3.17; Tue 10 Nov 3.25;
 Mon 9 Nov 2.67; baseline 2.5). It fell because three more readers read the plan, not because the plan got worse:
 panel 2 scored its content 3.96 on average (panel 1: about 3.3) and its clarity 3.04, and Wharton's five criteria
 3.73. The clarity cells now take the readers' median, and the readers put 3b and 3c at 2 unanimously, 2.5 at 2 by two
 of three. The fix landed this morning as one structural cut (SKELETON, "Panel 2's density cut"): each part carries one
-answer and one headline number, no probability rarer than 1 in 100 in prose, 170 fewer words. The scores wait for the
-next readers.
+answer and one headline number, no probability rarer than 1 in 100 in prose, 170 fewer words. In the evening a lay
+reader lifted 3b to 3 (3a 3, 3c still 2), and a strict coherence reader scored the plan's coherence 3 of 5, which
+lowered five coherence cells by one (none to a row minimum): the morning's fix had sourced the whole top-up to the IPS's
+completion clause. Rewritten that evening; the cells wait for the next coherence reader.
 
 ## Panel 2 (Thu 12 Nov, morning): three blind judges on INTENT, SKELETON and WORDS
 
@@ -100,29 +102,33 @@ Files in `research/panel/2026-11-09_judge_*.md`. A bond-desk manager (one model)
 Panel mean about 3.3. As planned: a strong report, not yet the best in the competition. Figures the panel quoted (the
 $130,000 top, Keel's $323,436) were superseded on Tue 10 Nov by the escrow standard and the range rule (NUMBERS 2, 4).
 
-## Targets for the next runs (Thu 12 Nov, morning; highest first)
+## Targets for the next runs (Thu 12 Nov, evening; highest first)
 
-1. **Clarity of 3b and 3c (2, unanimous):** the density cut landed this morning. A fresh lay reader, closed book and
-   timed, reads the cut notes for 3a, 3b and 3c once and names the contribution (about $115,000), the range and its
-   confidence, and the standard with its price (card Q31's repeat-back). Fri 13 Nov or sooner.
-2. **2.5 (2) and Section 2's pages:** Table 1 gains the target column (units bought against target) so 2.5 needs no
-   table of its own; the exhibits owner measures Section 2 with every exhibit in it against the three-page limit.
-3. **Coherence (INTENT failure 7):** a coherence reader checks INTENT item 1 and the cut 3a against the IPS and Trading
-   Notes: the top-up reads as the IPS's own completion clause, the standard is dated from January 2028, the match is
-   said positively, and nothing says "after the freeze" or "new standard".
-4. **Table 3 (precision 3):** built today; a bond reader signs it off, then a stranger reads it.
-5. **3d, the third funder (Tue 24 Nov or sooner):** "would you pledge?" on the cut passage, which now describes her
-   contribution with a one-sentence ask.
+1. **Clarity of 3c (2) and 2.5 (2):** a fresh lay reader, closed book and timed, reads the rewritten 3c (what
+   co-sponsors hear first, each end explained, the spread in Table 2) and 2.5 (the result and the cost in two sentences
+   beside Table 1's target column), and repeats each back. Fri 13 Nov.
+2. **Coherence (five cells at 3 or 4):** a second strict coherence reader, given only the frozen texts and the plan,
+   checks the top-up's two sources (IPS l.13 for $2,388; the reserve's size under l.11 for $35,894), Section 2's build
+   note, her flexibility as IPS l.15's half of the shares, the uses in the IPS's order, and Table 3's debt-limit row.
+3. **"Most" under the top-up (new, card Q34):** with the top-up, "most of the 2028 deposit" to the floor fails between
+   a 1- and 2-point fall in yields before January 2027, or with a deposit below about $76,600 (the worker's arithmetic;
+   NUMBERS has neither threshold). The numbers owner prices both and says what the report says, before Sun 15 Nov.
+4. **Table 3 and Figure 1:** the bond reader re-reads Table 3 as fitted (one page, 35-word note); Figure 1's dates
+   become cash dates (holders paid 18 to 22 Dec, 8h), and its note defines "if interest earns nothing" and reconciles
+   $55,920 with $35,894 plus its coupons (bond reader, Keel arithmetic to confirm in the engine).
+5. **3d, the third funder (Tue 24 Nov or sooner):** "would you pledge?" on the cut passage, with the bottom confirmed in
+   writing (card Q32).
 6. **The Team Reflection (3f):** corrected, blind fact sheets built by the Sat 14 Nov evening run, scored on Mon 16 Nov
-   on `research/experience/RERANK_RUBRIC.md`.
-7. **Citations:** about 120 sources in cards Q11d, Q21-Q27 still unchecked, plus today's cards Q2a-Q2c, Q8a-Q8b
-   (`research/REFERENCES_APA.md` section 6); the APA style pages re-lettered together; Kresge's report date.
+   on `research/experience/RERANK_RUBRIC.md`; N-11 joins the pool.
+7. **Citations:** the references run reached Q1 (365 entries; 24 missing elements; five clashes in cards Q10, Q7, Q1
+   and Q23); the next starts at Q4b; Crossref's retraction check on five finance articles re-run.
 8. **Fri 13 Nov:** Q3 and Q9 (README's schedule); every new idea judged against the density cut (one number per part).
 
 ## Log (newest first)
 
 | Date (Sydney) | Run | Cells changed | Why |
 |---|---|---|---|
+| Thu 12 Nov, evening | Evening research run: four research workers (Q32-Q35), a lay reader, a strict coherence reader, a bond reader, the exhibits owner, the references worker | Book K5>4; 2.1-2.4 K4>3; 3a K4>3; 3b C2>3 K5>4; monitoring K5>4; exhibits K5>4 | The lay reader set 3a 3, 3b 3, 3c 2 on the cut notes. The coherence reader (3 of 5) found the morning's fix had sourced the whole top-up to IPS l.13, Table 1 implying a different 2028 split from Section 3, flexibility enlarged with an order of use, and a third trigger in Table 3; each rewritten the same evening, so the cells wait for a second reader. Mean 2.75 to 2.83 |
 | Thu 12 Nov, morning | Day 5: Q2 and Q8 (five workers), panel 2, a numbers worker, the exhibits owner | Book C4>3 K5>4; 2.5 C3>2; 3a C2>3; 3c C4>2; 3d C4>3; monitoring C2>3; exhibits C4>3; minimum requirements E4>3 | Panel 2 (`research/panel/2026-11-12_judge_*.md`) set every clarity cell, by the readers' median: content 3.96, clarity 3.04, criteria 3.73; 3b and 3c at clarity 2 unanimously. The professor found 2.2 and 2.3 repeating Trading Notes 2 and 3 (book K) and 2.5's table outside the page count (minimum requirements). Acted on the same morning: SKELETON's density cut, INTENT failure 7 (the IPS revised), the match said positively (CANON C12), NUMBERS 8n (what more shares would buy). Cards Q2a-Q2c and Q8a-Q8b (167 rows): the plan's standard dated from January 2028, "fail-safe" banned, the two reasons explained as the two events that remove a layer |
 | Wed 11 Nov, evening | Evening research run: seven workers, two follow-ups | Book D3>4; 2.5 E4>5 D3>4; 3a C3>2; 3b C3>2; 3d C3>4; monitoring P4>3 C3>2; exhibits C3>4 | Readers set every clarity change: a lay reader (`research/panel/2026-11-11_lay_reader_3a_3b_figure1.md`) got all four answers right but scored 3a and 3b 2 for the vocabulary and Figure 1 4; a Taiwanese funder (`2026-11-11_taiwan_funder_reader_3d.md`) scored the rebuilt 3d clarity 4 and would pledge in principle; a bond reader (`2026-11-11_bond_desk_table3.md`) scored the cut Table 3 clarity 2 and precision 3 until its two reasons are defined. Evidence: card Q29 and NUMBERS 8m (the portfolio met its pre-trade targets exactly; the scale model in the WInS notes' words); card Q30 (Table 3 cut; the X-date settled); card Q31 (the standard's right name and its price); NUMBERS 8l (the range's room; one figure in about 1 in 790) |
 | Wed 11 Nov, morning | Day 4: Q4 and Q11 (the co-sponsors), the exhibits rebuilt, two readers | First page C4>3; book C3>4; 3d E4>5 D3>4; exhibits P4>5 K4>5 | A fresh first-round reader (`research/panel/2026-11-11_fresh_reader_exhibits.md`) scored the opening idea 3 and Table 1 4 on one read; a funder (`2026-11-11_funder_reader_3d.md`) would take the meeting (clarity 3, credibility 4, what it asks 2, difference 4) and found that co-sponsors need one figure to count; cards Q4c (no likelihood word; two exceptions; the default sized), Q11c (lead first, others conditional on the total; public capital funders are last money), Q11d (Taiwan's funders give year by year in NT$); exhibits rebuilt on the Tue 10 register, 219 figures checked against it, none wrong |
