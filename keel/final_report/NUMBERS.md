@@ -33,7 +33,8 @@ submitted. These are research notes, not report text.
   - `plan.py`: 2027 to 2033, with Keel's reading of "most";
   - `completion.py`: the completion standard (with the fee cushion) and the range rule (on the fund's holdings), which every script reads from here;
   - `run_numbers.py`: sections 1 to 5;
-  - `returns_check.py` (Tue 10 Nov evening): the independent check of 8k.
+  - `returns_check.py` (Tue 10 Nov evening): the independent check of 8k;
+  - `most_check.py` (Fri 13 Nov): when "most" cannot hold (section 5); `topup_paid.py` (Fri 13 Nov): what the top-up pays, reconciled with its cost, and the cash dates (8h). They write `results_most_2026-11-13.json` and `results_topup_2026-11-13.json` and change no earlier file.
 - **Results.** `numbers/results_2026-11-10.json`, plus `results_reserve_`, `results_range_rule_`, `results_joint_stress_`, `results_kept_half_`, `results_extras_` and `results_real_2026-11-10.json`, all rewritten Tue 10 Nov afternoon (`results_joint_stress_` again in the evening, 8j and 8k), and `results_returns_2026-11-10.json` (evening). The Mon 9 Nov files (`results_2026-11-06.json` and the undated `results_*.json`) are kept as the record of the old call.
 - **Rerun.** From the repo root, run `python3 -I keel/final_report/numbers/<script>.py` for `run_numbers`, `reserve`, `range_rule`, `joint_stress`, `returns_check`, `kept_half`, `extras` and `real_values`, in that order. Each needs only numpy; `extras` takes about two minutes, the others under a minute.
   - Adding `--design KEEL` to any of the first six reproduces Mon 9 Nov's standard on the same code and writes `*_KEEL.json`.
@@ -257,8 +258,9 @@ Central case: today's forward rates, VT at its median 7.5%. Move date modelled a
 
 **Keel's reading of "most" (Tue 10 Nov afternoon; bond desk check, finding 2).** The IPS says "Most of the 2028
 deposit will fund a Treasury fund maturing in late 2032" (l.15). Under the escrow standard, 73.3% of what is left
-would fall below half the deposit whenever the completion is above $47,679, which happens when yields fall about a
-point or more before January 2028. **Keel reads "most" as: the floor gets the larger of 73.3% of what is left and just
+would fall below half the deposit whenever the completion is above $47,679, which happens after a fall in yields of
+about 0.36 points before 1 Jan 2027, or of about 2.6 points during 2027 alone (Fri 13 Nov, `numbers/most_check.py`;
+"about a point or more before January 2028" was loose). **Keel reads "most" as: the floor gets the larger of 73.3% of what is left and just
 over half the deposit ($75,001 in January 2028 money, or all of what is left if that is less); VT takes the rest.**
 It keeps the frozen book's split wherever that split already meets the IPS's word. Caplet can overrule it.
 - **How often it binds:** in 16.9% of house paths. In the joint replay, 30 of 585 windows (5.1%): starts Sep 2000 to Feb 2001, Mar and Jun 2002, Feb 2007 to Nov 2008, Aug and Sep 2010. In the stock history (rates at forwards), never. Centrally, never (floor money $81,889).
@@ -387,7 +389,7 @@ Exact figures, with the instruments re-sized on each shifted curve. Smallest 202
   - The standard takes the whole $150,000 at a 3.60-point fall; the ladder alone takes it at 3.89 points (section 1).
 - **A fall during 2027,** after the ladder is bought, also raises the completion, because the tail and the backstop are repriced: 0.5 points, $39,912 (the standard then survives a deposit fall of 73.4%); 1 point, $41,630 (72.2%); 2 points, $45,347 (69.8%).
 - **A deposit too small for the whole backstop** buys part of it. The shortfall at 0% is $54,595 with no backstop. Whole deposits of $10,000, $20,000 or $30,000 buy 21%, 49% or 77% of the backstop, and the ten would then be short at 0% by $42,718, $27,114 or $11,509. At forward rates the ten are still paid in full.
-- **The floor shrinks almost dollar for dollar,** and "most" takes at least half of the deposit. At today's yields:
+- **The floor shrinks almost dollar for dollar,** and "most" takes at least half of the deposit while what is left allows it; below that the floor takes all of what is left (the $75,000 row; "When "most" cannot hold", below). At today's yields:
 
   | 2028 deposit | Floor money | VT bought | Floor payout | Stated bottom |
   |---|---|---|---|---|
@@ -403,6 +405,46 @@ Exact figures, with the instruments re-sized on each shifted curve. Smallest 202
   - no floor and no VT, so nothing for the building. Laura would know before 2031, because the deposit is due Jan 2028 and the meetings are in 2031.
 - **A smaller deposit is not one of the two reasons.** The plan as written absorbs it: ladder first, then backstop, then floor and VT smaller.
 - The Q1 card shows a recession could shrink the deposit while yields fall. The report states this as a risk, not a change.
+
+### When "most" cannot hold (Fri 13 Nov, numbers owner; `numbers/most_check.py`, `numbers/results_most_2026-11-13.json`). MODEL
+Card Q34 (row 33) found that the top-up can break IPS l.15, "Most of the 2028 deposit will fund a Treasury fund
+maturing in late 2032"; its thresholds were Keel arithmetic, not in this register. Checked on the engine. "Most" means
+the floor gets more than half the deposit, so under Keel's reading it holds exactly while the top-up costs less than
+half the deposit (what is left is then more than half, and the floor gets at least $75,001 of it).
+
+| Question | Answer | How, and what goes with it |
+|---|---|---|
+| (a) The fall in yields before 1 Jan 2027 at which "most" fails | **1.33 points** (the top-up reaches $75,001, half the deposit) | The ten and the top-up re-sized exactly on the shifted curve, as the table above. Keel's $75,001 starts to bind at 0.36 points; from there to 1.33 points the floor keeps "most" by one dollar while VT shrinks to nothing. With the ten alone (no part for no interest) the threshold would be 2.10 points, so failure between 1.33 and 2.10 points comes from the operating reserve's sizing (IPS l.11), not from l.13's completion |
+| (b) The same for a fall during 2027 (the ten already bought) | **None, on its own.** Even at zero rates in January 2028 the top-up would cost $59,172, leaving $90,828 | The unbought tail and the top-up re-priced on their own flows, rates floored at zero; this gives the 2027 falls above ("A fall during 2027") within $40 ($39,903, $41,611, $45,308 against $39,912, $41,630, $45,347, which price the tail by its duration). A 2027 fall alone makes the $75,001 bind from 2.59 points. Combined: after a 0.5-point fall before 1 Jan 2027, no fall during 2027 breaks "most" ($71,818 at zero rates); after a 1-point fall, a further 2.11 points does (3.11 in all) |
+| (c) The smallest 2028 deposit for which "most" holds at today's yields | **$76,565** (more than twice the $38,282 top-up; 51.0% of $150,000) | So "most" survives a deposit cut of up to 49.0%, while the payments' standard survives 74.5% (table above); between the two, the payments are whole and the floor gets all of what is left, less than half. After a 0.5-point fall before 1 Jan 2027 the smallest is $103,083; after 1 point, $130,874. Keel's $75,001 binds for any deposit below $120,437 at today's yields |
+| (d) How often it fails | **House model: 55 of 200,000 futures, about 1 in 3,600** (57 with the ten's cost re-sized exactly rather than by duration). **Joint replay: 0 of 585 windows** (1962-2010 starts; largest top-up $55,315, start Dec 2007) | The replays start at today's forwards, so they test only the 2027 move, which cannot break "most" alone (b). The fall before 1 Jan 2027 (56 days from the 6 Nov close) is tested on the 1-year Treasury yield, daily since 1962 (FRED DGS1): it fell 1.33 points or more within 56 days in 2.2% of the 16,130 stretches starting 2 Jan 1962 to 31 Jul 2026, in 20 episodes, 16 of them in 1970-1986 when the yield was 6% to 17%; from a yield between 3% and 6% (6 Nov: 4.33%), in 0.09% (Sep 2001; Dec 2007 to Jan 2008); of the 610 stretches starting 1 to 15 November, 3 (Nov 2000, from 6.1%). The house model draws a fall that size before 1 Jan 2027 in 25 of 200,000 futures (0.0125%): its 0.9 points a year makes such a fall rarer than history does, even near today's yields (0.09%, from two episodes of overlapping daily stretches) |
+
+**(e) What the plan does then (the IPS's order: the ladder, then the top-up, then the floor and VT).** Full $150,000
+deposit, yields lower by the fall before 1 Jan 2027 and then at that curve's forwards:
+
+| Fall before 1 Jan 2027 | Top-up (share of the deposit) | Floor money (share of the deposit) | VT bought | Floor pays, late 2032 | Range Laura states in 2031 | Above the stated figure, joining her flexibility |
+|---|---|---|---|---|---|---|
+| None (today) | $38,282 (25.5%) | $81,889 (54.6%) | $29,829 | $103,178 | $95,000 to $115,000 | $8,476 (with the half kept, $29,823) |
+| 1.33 points | $75,001 (50.0%) | $74,999 (50.0%), all of what is left | $0 | $88,562 | $85,000, one figure | $3,562 (no half kept) |
+| 1.5 points | $80,012 (53.3%) | $69,988 (46.7%), all of what is left | $0 | $81,963 | $75,000, one figure | $6,963 (no half kept) |
+| 2 points | $95,316 (63.5%) | $54,684 (36.5%), all of what is left | $0 | $62,491 | $60,000, one figure | $2,491 (no half kept) |
+
+- **Plainly: the floor then gets all of what is left, and VT nothing.** That no longer reads as "most of the 2028
+  deposit": the top-up takes more than half and the floor less. It is still the most the order allows, and all of the
+  money left for the building. The order settles the clash: l.11 and l.13 come before l.15, so the payments stay whole
+  at no interest and the word gives way, not the payments.
+- **What Laura loses with VT:** no half kept and no top, so the range is one figure (the stated bottom) and her
+  flexibility is only what the floor pays above it, $2,491 to $6,963 here, plus whatever comes back from the top-up if
+  rates then hold (not counted). IPS l.15's "half of the value of the shares will be promised to no one" has nothing
+  to apply to.
+- **The other reading, for the lead (not Keel's call):** once "most" cannot hold, keep the frozen book's 73.3% / 26.7%
+  split of what is left. After a 2-point fall that buys VT $14,601 and the floor $40,083 (26.7% of the deposit): some
+  flexibility kept, the floor further from "most".
+- **What the report says:** "most of the 2028 deposit" only with its basis, today's market rates (about 55%, WORDS),
+  never that "most" holds whatever happens; no odds in prose (1 in 3,600 futures is rarer than the density rule's 1 in
+  100, and the 2.2% of 8-week stretches since 1962 is mostly yields of 6% to 17%, 0.09% near today's); if 3e or Table
+  3's row 6 needs it, the distance only: a fall of about 1.3 points in yields before January 2027, after which the
+  floor takes all that is left and VT nothing.
 
 ## 6. Figures now void (do not use)
 
@@ -765,8 +807,56 @@ their last months; money waits in the Treasury-bill ETF.
 | Left after the last payment, 1 Jan 2042 | $74,123 | $25,651 | $1,414 (the fee cushion) | $0 |
 | The same, in 1 Jan 2033 money at that world's own rates | $45,456 | $20,606 ($15,730 if converted at today's forwards) | $1,414 | $0 |
 
+**What the top-up pays, reconciled with what it costs** (Fri 13 Nov, numbers owner; `numbers/topup_paid.py`,
+`numbers/results_topup_2026-11-13.json`; asked by the bond reader, `research/panel/2026-11-12_bond_desk_table3_built.md`
+section 2). Figure 1's last column ($55,920) and section 2's $35,894 are the same Treasuries counted two ways:
+- **Cost:** the top-up's part for no interest costs $35,894 in January 2028 ($34,369 in 1 Jan 2027 money). The
+  top-up's other $2,388 completes the ten, so it sits in "own holding pays", not in this column.
+- **What it buys:** $36,867 of face and fund dollars (IBTQ $420, IBTR $4,101, and $32,346 of face in the five bonds).
+  That is more face than dollars because the 3.125% Nov-2041 bond costs about $83 per $100 of face in January 2028
+  (the others $97 to $105).
+- **What it pays if interest earns nothing:** the $36,867 back plus $19,143 of its own interest (coupons and fund
+  distributions, after the funds' 0.07% fee), received from 2027 to 2041 and added up without discounting: $56,010 over
+  the ten payment years. The Treasury-bill ETF's fee takes $90 of that while it waits, so **$55,920** reaches the
+  payments; $1,324 of it makes up what the same fee takes from the ten's own money. Without the fee: $54,595 paid and
+  $1,414 left, the same $56,010.
+- **At today's market rates** the ten never need it: $74,123 is left by 1 Jan 2042, **$45,456** in 1 Jan 2033 money
+  (this part of the top-up plus the interest it earns, less the funds' fee; 8k).
+- This confirms the bond reader's estimate ($36,867 plus about $19,000 of their coupons, summed undiscounted).
+
+**"If interest earns nothing", defined once (Figure 1's note; WORDS):** money already received earns nothing while it
+waits for its payment (in Keel's test it also pays the Treasury-bill ETF's 0.15% fee); every coupon, fund distribution
+and fund payout still arrives and counts. So the 3.125% Nov-2041 bond still pays $42,469 toward 2042: its face and
+every coupon, with nothing earned on the coupons. Never "so no payment needs interest": each payment needs its own
+Treasuries' coupons.
+
+**When the cash arrives (Figure 1's bars, Fri 13 Nov).** The valuations on this page use each fund's end date and each
+bond's maturity date. A fund's money reaches Laura a few days after it ends, and a bond due on a weekend or holiday
+pays the next business day. Neither changes a figure here materially.
+
+| Payment | Paid from | Ends or matures | Cash reaches Laura | Days before 1 January |
+|---|---|---|---|---|
+| 2033 | IBTM | on or about Wed 15 Dec 2032 | Mon 20 to Wed 22 Dec 2032 | 10 to 12 |
+| 2034 | IBTO | on or about Thu 15 Dec 2033 | Mon 19 to Thu 22 Dec 2033 | 10 to 13 |
+| 2035 | IBTP | on or about Fri 15 Dec 2034 | Mon 18 to Fri 22 Dec 2034 | 10 to 14 |
+| 2036 | IBTQ | on or about Sat 15 Dec 2035 | Thu 20 to Mon 24 Dec 2035 | 8 to 12 |
+| 2037 | IBTR | on or about Mon 15 Dec 2036 | Thu 18 to Mon 22 Dec 2036 | 10 to 14 |
+| 2038 | 4.750% Feb 2037 | Sun 15 Feb 2037 | Tue 17 Feb 2037 | 318 (10.4 months) |
+| 2039 | 4.500% May 2038 | Sat 15 May 2038 | Mon 17 May 2038 | 229 (7.5 months) |
+| 2040 | 4.375% Nov 2039 | Tue 15 Nov 2039 | Tue 15 Nov 2039 | 47 (1.5 months) |
+| 2041 | 4.250% Nov 2040 | Thu 15 Nov 2040 | Thu 15 Nov 2040 | 47 (1.5 months) |
+| 2042 | 3.125% Nov 2041 | Fri 15 Nov 2041 | Fri 15 Nov 2041 | 47 (1.5 months) |
+
+- **Funds:** the three iBond Treasury funds whose payouts were read at the source (Dec 2023, 2024 and 2025; five have ended,
+  8h below) paid holders 3 to 7 days after their end, 18 to 22 December
+  (card Q16 row 6). The ranges are card Q2b's (card 5), the same ones Table 3's row 4 counts business days from; IBTQ's
+  end is taken as Mon 17 Dec 2035. Figure 1's bars end on the last date of each range.
+- **Bonds:** a payment due on a weekend or federal holiday is made the next business day (card Q16 row 12); 16 Feb 2037
+  is Presidents' Day. The Trading Notes' "10.5 months" for the Feb-2037 bond counts from 15 Feb (10.4 from the cash);
+  their "7.5 months" for the May-2038 bond is exact from the cash (7.6 from 15 May).
+
 **Composition on 1 Jan 2033, before the first payment** (today's forwards):
-- How early each pays out before its payment: the iBond ETFs about half a month (15 December); the Feb-2037 bond 10.5 months; the May-2038 bond 7.6 months; the three November bonds 1.5 months.
+- How early each pays out before its payment, on the model's dates (cash dates above): the iBond ETFs about half a month (15 December); the Feb-2037 bond 10.5 months; the May-2038 bond 7.6 months; the three November bonds 1.5 months.
 - IBTM has already paid out on 15 Dec 2032. On 1 Jan 2033 its $50,000 is cash waiting in the Treasury-bill ETF for that day's payment, so it is counted as cash, not as an iBond ETF.
 
 | Payment | Holding | Own rung | Backstop in the same holding |
@@ -820,7 +910,7 @@ The backstop's cost carried to 1 Jan 2033 at forwards is $45,487; its value ther
   - The escrow standard covers these even if every wait earns nothing and pays the ETF's fee: the design test assumes exactly that.
   - A Treasury payment due on a weekend or holiday is made the next business day (the Feb-2037 bond pays on Tue 17 Feb 2037), which changes none of these figures materially.
 - **The funds' payouts in practice** (Q16).
-  - Three iBonds Treasury funds have already ended on schedule (Dec 2023, 2024, 2025), each paying its net asset value to holders 10 to 14 days before 1 January, with notice in mid-October.
+  - Five iBonds Treasury funds have already ended (Dec 2021 to Dec 2025; card Q3a, Fri 13 Nov: IBTB's Dec 2022 end read at the source, IBTA's Dec 2021 date from a secondary site, so say "five" only with that caveat and "three, read at the source" otherwise); the three of Dec 2023, 2024 and 2025 each paid its net asset value to holders 10 to 14 days before 1 January, with notice in mid-October.
   - The 2026 prospectus says money from bonds maturing in a fund's last months is typically reinvested in its remaining notes, so section 3's "earns nothing" case is a stress test, not the expected case.
 
 ### 8i. The scenario matrix for Exhibit 3 (`numbers/joint_stress.py`, `numbers/results_joint_stress_2026-11-10.json`)

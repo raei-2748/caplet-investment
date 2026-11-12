@@ -199,3 +199,9 @@ business day of December or the first business day of January.
   be known, so row 17 stays a note.
 - **Fund-board extension (row 4).** No case of an iBond term fund extending its end date was found. A search of iShares
   supplements for "extend the termination date" was not run.
+
+## Correction (Fri 13 Nov 2026; card Q3a)
+
+Rows 4 and 6 say three iBonds Treasury funds have ended. Card Q3a found five: IBTA (Dec 2021, date from a secondary
+site) and IBTB (Dec 2022, read at the source) as well as IBTD, IBTE and IBTF. The three dated payouts in row 6 stand.
+NUMBERS 8h carries the count with its caveat.

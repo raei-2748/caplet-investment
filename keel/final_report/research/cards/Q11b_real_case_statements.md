@@ -256,3 +256,12 @@ How to read the table:
 - No evidence was found on how co-sponsors react to a founder announcing a range rather than one figure; the store's
   experimental sources (List and Lucking-Reiley, Varian) remain the only ones.
 - Whether funders in Taiwan ask for operating plans before facility grants (as Kresge and Eckerd do) was not found.
+
+## Correction (Fri 13 Nov 2026; card Q9c)
+
+Section (d) says the reason Bamboo Curtain Studio's operations ended in 2021 was not read, and row 15 gives its funding
+from a secondary source. Card Q9c (rows 28-30) read both at the source: the farewell was announced in July 2020, before
+the founder's death on 30 Aug 2021, over a planned riverside road that would make the site unfit for residencies, the
+pandemic and the departure of a group of senior staff; operations ended at the end of 2021. So it is not a case of a
+residency that stopped because its founder died, and the report never uses it as one. Store row Q11b-015 is read with
+Q9c-030.

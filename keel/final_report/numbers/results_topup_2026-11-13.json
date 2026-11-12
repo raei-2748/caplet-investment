@@ -1,0 +1,242 @@
+{
+ "stamp": {
+  "run": "Fri 13 Nov 2026 (Sydney)",
+  "design": "H_plain",
+  "curve": "11/06/2026"
+ },
+ "topup_jan2028": 38282.14224962853,
+ "ten_still_lack_jan2028": 2388.2193353530683,
+ "for_no_interest_jan2028": 35893.92291427546,
+ "for_no_interest_jan2027": 34369.05592462372,
+ "holdings": [
+  {
+   "pays_for": 2036,
+   "holding": "IBTQ",
+   "face_or_fund_dollars": 420.0372451343625,
+   "cost_jan2027": 420.0372451343625,
+   "price_jan2028": 438.6732219541608,
+   "price_per_100_face_jan2028": 104.43674389251767,
+   "all_flows_undiscounted": 587.0925179702153,
+   "interest_undiscounted": 167.05527283585286,
+   "last_flow": "2035-12-15"
+  },
+  {
+   "pays_for": 2037,
+   "holding": "IBTR",
+   "face_or_fund_dollars": 4100.982696617432,
+   "cost_jan2027": 4100.982696617432,
+   "price_jan2028": 4282.932795942813,
+   "price_per_100_face_jan2028": 104.43674389251767,
+   "all_flows_undiscounted": 5918.801119069625,
+   "interest_undiscounted": 1817.8184224521929,
+   "last_flow": "2036-12-15"
+  },
+  {
+   "pays_for": 2038,
+   "holding": "4.750% T-bond 15 Feb 2037",
+   "face_or_fund_dollars": 5602.9301706933165,
+   "cost_jan2027": 5642.8117334729095,
+   "price_jan2028": 5893.16883842404,
+   "price_per_100_face_jan2028": 105.18012288014664,
+   "all_flows_undiscounted": 8397.391593326609,
+   "interest_undiscounted": 2794.4614226332924,
+   "last_flow": "2037-02-15"
+  },
+  {
+   "pays_for": 2039,
+   "holding": "4.500% T-bond 15 May 2038",
+   "face_or_fund_dollars": 6003.15992124634,
+   "cost_jan2027": 5810.194947915184,
+   "price_jan2028": 6067.978417410181,
+   "price_per_100_face_jan2028": 101.07973962070267,
+   "all_flows_undiscounted": 9109.79518049132,
+   "interest_undiscounted": 3106.6352592449794,
+   "last_flow": "2038-05-15"
+  },
+  {
+   "pays_for": 2040,
+   "holding": "4.375% T-bond 15 Nov 2039",
+   "face_or_fund_dollars": 6151.624969265078,
+   "cost_jan2027": 5819.774665466632,
+   "price_jan2028": 6077.983162495013,
+   "price_per_100_face_jan2028": 98.80288855159415,
+   "all_flows_undiscounted": 9650.361670534592,
+   "interest_undiscounted": 3498.736701269514,
+   "last_flow": "2039-11-15"
+  },
+  {
+   "pays_for": 2041,
+   "holding": "4.250% T-bond 15 Nov 2040",
+   "face_or_fund_dollars": 7284.096975281314,
+   "cost_jan2027": 6744.162769953851,
+   "price_jan2028": 7043.38399975123,
+   "price_per_100_face_jan2028": 96.69536283842805,
+   "all_flows_undiscounted": 11618.134675573696,
+   "interest_undiscounted": 4334.0377002923815,
+   "last_flow": "2040-11-15"
+  },
+  {
+   "pays_for": 2042,
+   "holding": "3.125% T-bond 15 Nov 2041",
+   "face_or_fund_dollars": 7304.174748159372,
+   "cost_jan2027": 5831.091866063348,
+   "price_jan2028": 6089.802478298008,
+   "price_per_100_face_jan2028": 83.37427140324947,
+   "all_flows_undiscounted": 10728.006661359077,
+   "interest_undiscounted": 3423.831913199705,
+   "last_flow": "2041-11-15"
+  }
+ ],
+ "face_and_fund_dollars": 36867.006726397216,
+ "interest_undiscounted": 19142.57669192792,
+ "all_flows_undiscounted": 56009.583418325135,
+ "zero": {
+  "covers": 54595.31349367926,
+  "left_after_2042": 1414.2699246458724,
+  "check_covers_plus_left_equals_all_flows": 56009.583418325135
+ },
+ "fee": {
+  "covers": 55919.76844909032,
+  "left_after_2042": 7.275957614183426e-12,
+  "fee_on_the_topups_own_waiting_money": 89.81496923480881,
+  "fee_on_the_tens_own_waiting_money": 1324.4549554110563
+ },
+ "by_payment_fee_world": {
+  "2033": {
+   "own_pays": 47337.65122112597,
+   "topup_pays": 2662.3487788740313,
+   "topup_cash_arriving_for_it": 9298.065895395248
+  },
+  "2034": {
+   "own_pays": 46730.74909073699,
+   "topup_pays": 3269.2509092630135,
+   "topup_cash_arriving_for_it": 1554.976095556637
+  },
+  "2035": {
+   "own_pays": 46141.81806469207,
+   "topup_pays": 3858.1819353079336,
+   "topup_cash_arriving_for_it": 1554.827379588443
+  },
+  "2036": {
+   "own_pays": 45431.19187299781,
+   "topup_pays": 4568.808127002187,
+   "topup_cash_arriving_for_it": 1971.9119852037854
+  },
+  "2037": {
+   "own_pays": 44490.736601280056,
+   "topup_pays": 5509.263398719944,
+   "topup_cash_arriving_for_it": 5509.2633987199515
+  },
+  "2038": {
+   "own_pays": 43195.04258965777,
+   "topup_pays": 6804.957410342227,
+   "topup_cash_arriving_for_it": 6804.957410342225
+  },
+  "2039": {
+   "own_pays": 43061.08663068771,
+   "topup_pays": 6938.913369312293,
+   "topup_cash_arriving_for_it": 6938.913369312293
+  },
+  "2040": {
+   "own_pays": 43043.05957808385,
+   "topup_pays": 6956.9404219161515,
+   "topup_cash_arriving_for_it": 6956.9404219161515
+  },
+  "2041": {
+   "own_pays": 42179.78616171622,
+   "topup_pays": 7820.21383828378,
+   "topup_cash_arriving_for_it": 7820.213838283784
+  },
+  "2042": {
+   "own_pays": 42469.10973993124,
+   "topup_pays": 7530.890260068758,
+   "topup_cash_arriving_for_it": 7530.890260068756
+  }
+ },
+ "comes_back_if_forwards_hold": {
+  "nominal_by_1jan2042": 74122.56759813958,
+  "value_1jan2033": 45455.57570475245
+ },
+ "cash_dates": {
+  "2033": {
+   "ends": "2032-12-15",
+   "cash_first": "2032-12-20",
+   "cash_last": "2032-12-22",
+   "days_to_payment_from_last": 10,
+   "months_to_payment_from_last": 0.33,
+   "months_to_payment_model": 0.56
+  },
+  "2034": {
+   "ends": "2033-12-15",
+   "cash_first": "2033-12-19",
+   "cash_last": "2033-12-22",
+   "days_to_payment_from_last": 10,
+   "months_to_payment_from_last": 0.33,
+   "months_to_payment_model": 0.56
+  },
+  "2035": {
+   "ends": "2034-12-15",
+   "cash_first": "2034-12-18",
+   "cash_last": "2034-12-22",
+   "days_to_payment_from_last": 10,
+   "months_to_payment_from_last": 0.33,
+   "months_to_payment_model": 0.56
+  },
+  "2036": {
+   "ends": "2035-12-15",
+   "cash_first": "2035-12-20",
+   "cash_last": "2035-12-24",
+   "days_to_payment_from_last": 8,
+   "months_to_payment_from_last": 0.26,
+   "months_to_payment_model": 0.56
+  },
+  "2037": {
+   "ends": "2036-12-15",
+   "cash_first": "2036-12-18",
+   "cash_last": "2036-12-22",
+   "days_to_payment_from_last": 10,
+   "months_to_payment_from_last": 0.33,
+   "months_to_payment_model": 0.56
+  },
+  "2038": {
+   "ends": "2037-02-15",
+   "cash_first": "2037-02-17",
+   "cash_last": "2037-02-17",
+   "days_to_payment_from_last": 318,
+   "months_to_payment_from_last": 10.45,
+   "months_to_payment_model": 10.51
+  },
+  "2039": {
+   "ends": "2038-05-15",
+   "cash_first": "2038-05-17",
+   "cash_last": "2038-05-17",
+   "days_to_payment_from_last": 229,
+   "months_to_payment_from_last": 7.52,
+   "months_to_payment_model": 7.59
+  },
+  "2040": {
+   "ends": "2039-11-15",
+   "cash_first": "2039-11-15",
+   "cash_last": "2039-11-15",
+   "days_to_payment_from_last": 47,
+   "months_to_payment_from_last": 1.54,
+   "months_to_payment_model": 1.54
+  },
+  "2041": {
+   "ends": "2040-11-15",
+   "cash_first": "2040-11-15",
+   "cash_last": "2040-11-15",
+   "days_to_payment_from_last": 47,
+   "months_to_payment_from_last": 1.54,
+   "months_to_payment_model": 1.54
+  },
+  "2042": {
+   "ends": "2041-11-15",
+   "cash_first": "2041-11-15",
+   "cash_last": "2041-11-15",
+   "days_to_payment_from_last": 47,
+   "months_to_payment_from_last": 1.54,
+   "months_to_payment_model": 1.54
+  }
+ }
+}

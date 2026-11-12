@@ -357,3 +357,11 @@ Read only at a secondary source, as a title or abstract (UNVERIFIED):
 - Prasad, D., Bruton, G. D., & Vozikis, G. (2000). Signaling value to business angels: The proportion of the
   entrepreneur's net worth invested in a new venture as a decision signal. *Venture Capital, 2*(3), 167–182.
   https://doi.org/10.1080/13691060050135064 (RePEc record only)
+
+## Correction (Fri 13 Nov 2026; card Q9b)
+
+Row 31 and the verdicts above read Jentel's contributions falling to $0 after its founder died as founder-only funding
+proving "fragile". Card Q9b read further: the founder's estate passed the residency to the University of Wyoming, which
+added $1 million, and it still hosted six residents a month in December 2025. The lesson changes: founder money lasted
+because it was placed, by will and estate, before the founder left; residencies that had only their land placed
+(Dorland, Byrdcliffe) or nothing (Black Mountain) nearly closed or broke up. See `Q9b_residencies_reserves_and_founders.md`.
