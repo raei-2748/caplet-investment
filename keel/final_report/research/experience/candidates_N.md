@@ -133,3 +133,15 @@ the next blind re-rank (scheduled Mon 16 Nov), so that one panel reads every wee
 - Strand: research and decision process
 - Related: N-10
 - Evidence: `keel/final_report/research/panel/2026-11-12_coherence_reader.md` (sections 1-3); `keel/final_report/INTENT.md` (item 1, failure 7, rewritten Thu 12 Nov evening); `keel/final_report/WORDS.md` (the top-up row); `keel/pm/ASK_HUMANS.md` (Thu 12 Nov, 19:26); NUMBERS 1, 2
+
+### N-12: Two nights running, the fix was the next reader's finding
+- Date (Sydney): Fri 13 Nov, morning
+- Origin: KEEL
+- What happened: The evening before, we had fixed a coherence problem (only $2,388 of the $38,282 top-up is the IPS's completion clause) and, in the same pass, written two new things: Table 3 paid any fund swap "from her flexibility", and the plan justified the top-up by saying that at the IPS's sizing a shortfall "could have been met only from the shares". In the morning a second strict reader, given the same submitted texts, confirmed the split and then caught both: before 2033 "her flexibility" is shares, so the swap rule broke the IPS's promise that no payment depends on a share price; and the justification told a judge that the submitted plan had broken that promise.
+- Stakes: the report must agree with the frozen IPS in a judge's reading, not only in arithmetic; both sentences were true as numbers and wrong as a reading.
+- Decision or response: The swap is now paid from the reserve, never the shares; the top-up is justified as the IPS's own promise ("our plan isn't dependent on yields staying put") carried through to the interest each bond pays, never as the IPS's sizing failing. We also made a rule for ourselves: every new rule or sentence the plan adopts gets a strict reader in the next run.
+- What changed afterwards: Table 3's fourth row and the top-up's justification were rewritten the same morning; the coherence cells wait for a third reader before they rise.
+- Vivid detail: The word "flexibility" meant shares until 2033 and cash after it, and one table cell had used the second meaning seven years early.
+- Strand: research and decision process
+- Related: N-11
+- Evidence: `keel/final_report/research/panel/2026-11-13_coherence_reader_2.md`; `keel/final_report/INTENT.md` (item 1, failure 7); `keel/final_report/exhibits/exhibit_data.py` (Table 3 row 4); `keel/pm/ASK_HUMANS.md` (Fri 13 Nov, 06:55)

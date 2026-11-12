@@ -1,0 +1,551 @@
+{
+ "stamp": {
+  "run": "Fri 13 Nov 2026 (Sydney)",
+  "design": "H_plain",
+  "curve": "11/06/2026",
+  "deposit_2028": 150000.0,
+  "most_means": "the floor gets more than half the 2028 deposit (more than $75,000)",
+  "keel_reading": "floor = max(73.3% of what is left, min(what is left, $75,001)); VT the rest"
+ },
+ "a_fall_before_jan2027": {
+  "points_where_topup_reaches_half_the_deposit": 1.3307504653930662,
+  "topup_at_that_fall": 75001.20291230499,
+  "points_where_the_ten_alone_reach_half_the_deposit_ips_own_sizing": 2.0950517654418945,
+  "points_where_keel_75001_starts_to_bind": 0.3567466735839843,
+  "topup_where_75001_starts_to_bind": 47679.3997271487,
+  "grid": {
+   "0.00": {
+    "topup": 38282.14224962853,
+    "left": 111717.85775037148,
+    "floor_share_of_deposit": 0.5459279315401485
+   },
+   "0.50": {
+    "topup": 51541.283832016314,
+    "left": 98458.71616798369,
+    "floor_share_of_deposit": 0.5000066666666667
+   },
+   "1.00": {
+    "topup": 65437.21175061378,
+    "left": 84562.78824938621,
+    "floor_share_of_deposit": 0.5000066666666667
+   },
+   "1.25": {
+    "topup": 72637.00876351217,
+    "left": 77362.99123648783,
+    "floor_share_of_deposit": 0.5000066666666667
+   },
+   "1.50": {
+    "topup": 80012.19474271395,
+    "left": 69987.80525728605,
+    "floor_share_of_deposit": 0.466585368381907
+   },
+   "1.75": {
+    "topup": 87569.55691968343,
+    "left": 62430.443080316574,
+    "floor_share_of_deposit": 0.41620295386877715
+   },
+   "2.00": {
+    "topup": 95316.25799072889,
+    "left": 54683.74200927111,
+    "floor_share_of_deposit": 0.3645582800618074
+   }
+  }
+ },
+ "b_fall_during_2027": {
+  "check_register_section5": {
+   "0.5pt": 39903.02001366081,
+   "1pt": 41610.91887231414,
+   "2pt": 45308.29016194155
+  },
+  "topup_if_every_rate_is_zero_in_jan2028": 59172.24060133175,
+  "left_then": 90827.75939866825,
+  "most_holds_after_any_fall_during_2027_alone": true,
+  "points_during_2027_alone_where_keel_75001_starts_to_bind": 2.5897836685180664,
+  "after_a_fall_before_jan2027": {
+   "0.5pt": {
+    "points_during_2027": null,
+    "topup_at_zero": 71817.78044534859
+   },
+   "1.0pt": {
+    "points_during_2027": 2.1120100021362305,
+    "total_points": 3.1120100021362305
+   }
+  }
+ },
+ "c_smallest_deposit": {
+  "topup_today": 38282.14224962853,
+  "smallest_deposit_today": 76564.28449925706,
+  "as_share_of_150000": 0.5104285633283804,
+  "after_falls_before_jan2027": {
+   "0.5pt": 103082.56766403263,
+   "1.0pt": 130874.42350122756
+  },
+  "deposit_below_which_keel_75001_binds_today": 120436.95394411036
+ },
+ "d_how_often": {
+  "house": {
+   "paths": 200000,
+   "paths_failing": 55,
+   "share_failing": 0.000275,
+   "share_keel_75001_binds": 0.168795,
+   "largest_topup": 86754.37710631543,
+   "share_fall_before_jan2027_beyond_a": 0.000125,
+   "failing_paths_d0_d1_points": [
+    [
+     -1.448,
+     0.579
+    ],
+    [
+     -1.151,
+     -1.181
+    ],
+    [
+     -1.003,
+     -2.872
+    ],
+    [
+     -1.394,
+     -0.188
+    ],
+    [
+     -0.955,
+     -2.51
+    ],
+    [
+     -1.339,
+     -0.097
+    ],
+    [
+     -1.344,
+     -1.007
+    ],
+    [
+     -1.046,
+     -2.313
+    ],
+    [
+     -1.203,
+     -1.43
+    ],
+    [
+     -1.432,
+     -0.959
+    ],
+    [
+     -1.467,
+     -0.19
+    ],
+    [
+     -1.299,
+     -0.906
+    ],
+    [
+     -0.965,
+     -2.327
+    ],
+    [
+     -1.359,
+     -0.238
+    ],
+    [
+     -1.123,
+     -1.36
+    ],
+    [
+     -1.369,
+     -1.93
+    ],
+    [
+     -1.127,
+     -1.373
+    ],
+    [
+     -1.309,
+     -0.444
+    ],
+    [
+     -1.401,
+     -0.378
+    ],
+    [
+     -1.059,
+     -1.941
+    ],
+    [
+     -1.381,
+     -0.972
+    ],
+    [
+     -1.005,
+     -2.164
+    ],
+    [
+     -1.323,
+     -1.073
+    ],
+    [
+     -1.025,
+     -2.105
+    ],
+    [
+     -1.414,
+     -0.485
+    ],
+    [
+     -1.295,
+     -0.57
+    ],
+    [
+     -1.313,
+     -0.203
+    ],
+    [
+     -1.35,
+     -1.008
+    ],
+    [
+     -1.051,
+     -2.029
+    ],
+    [
+     -1.284,
+     -0.823
+    ],
+    [
+     -1.277,
+     -0.86
+    ],
+    [
+     -1.438,
+     -1.064
+    ],
+    [
+     -1.29,
+     -0.634
+    ],
+    [
+     -1.094,
+     -2.507
+    ],
+    [
+     -1.312,
+     -1.548
+    ],
+    [
+     -1.095,
+     -1.616
+    ],
+    [
+     -1.256,
+     -0.804
+    ],
+    [
+     -1.393,
+     -1.977
+    ],
+    [
+     -1.469,
+     0.039
+    ],
+    [
+     -1.053,
+     -1.859
+    ],
+    [
+     -1.136,
+     -2.138
+    ],
+    [
+     -0.915,
+     -2.798
+    ],
+    [
+     -1.106,
+     -1.573
+    ],
+    [
+     -1.272,
+     -0.628
+    ],
+    [
+     -1.301,
+     -0.401
+    ],
+    [
+     -1.571,
+     0.32
+    ],
+    [
+     -1.188,
+     -1.623
+    ],
+    [
+     -1.18,
+     -1.98
+    ],
+    [
+     -0.999,
+     -2.27
+    ],
+    [
+     -1.095,
+     -2.067
+    ],
+    [
+     -1.149,
+     -1.255
+    ],
+    [
+     -1.14,
+     -1.486
+    ],
+    [
+     -1.274,
+     -2.488
+    ],
+    [
+     -1.415,
+     -0.678
+    ],
+    [
+     -1.342,
+     -1.878
+    ]
+   ],
+   "paths_failing_with_the_tail_resized_exactly": 57
+  },
+  "joint_windows": {
+   "windows": 585,
+   "first": "1962-01",
+   "last": "2010-09",
+   "windows_failing": 0,
+   "windows_keel_75001_binds": 30,
+   "largest_topup": 55314.940614419735,
+   "largest_topup_start": "2007-12",
+   "smallest_left": 94685.05938558027
+  },
+  "history_56_days_dgs1": {
+   "stretches": 16130,
+   "first_start": "1962-01-02",
+   "last_start": "2026-07-31",
+   "threshold_points": 1.3307504653930662,
+   "share_falling_by_threshold_points": 0.021512709237445752,
+   "years_points": [
+    1970,
+    1973,
+    1974,
+    1975,
+    1979,
+    1980,
+    1981,
+    1982,
+    1984,
+    1985,
+    1986,
+    2000,
+    2001,
+    2007,
+    2008,
+    2020
+   ],
+   "threshold_share_of_level": 0.30733267099147027,
+   "one_year_par_6nov": 4.33,
+   "share_falling_by_threshold_share": 0.021264724116553006,
+   "years_share": [
+    1980,
+    1981,
+    1982,
+    2001,
+    2003,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2020,
+    2021
+   ],
+   "share_falling_half_a_point_or_more": 0.1319280843149411,
+   "episodes_points": [
+    {
+     "first_start": "1970-01-27",
+     "last_start": "1970-01-30",
+     "largest_fall_points": 1.42,
+     "yield_at_first_start": 8.14
+    },
+    {
+     "first_start": "1970-09-24",
+     "last_start": "1970-10-30",
+     "largest_fall_points": 1.7200000000000006,
+     "yield_at_first_start": 6.5
+    },
+    {
+     "first_start": "1973-08-03",
+     "last_start": "1973-08-22",
+     "largest_fall_points": 1.700000000000001,
+     "yield_at_first_start": 8.94
+    },
+    {
+     "first_start": "1974-08-12",
+     "last_start": "1974-09-13",
+     "largest_fall_points": 2.17,
+     "yield_at_first_start": 9.13
+    },
+    {
+     "first_start": "1974-12-11",
+     "last_start": "1974-12-30",
+     "largest_fall_points": 1.5700000000000003,
+     "yield_at_first_start": 7.21
+    },
+    {
+     "first_start": "1975-09-04",
+     "last_start": "1975-09-18",
+     "largest_fall_points": 1.7400000000000002,
+     "yield_at_first_start": 7.61
+    },
+    {
+     "first_start": "1979-10-22",
+     "last_start": "1979-10-25",
+     "largest_fall_points": 1.6999999999999993,
+     "yield_at_first_start": 13.41
+    },
+    {
+     "first_start": "1980-02-20",
+     "last_start": "1980-05-09",
+     "largest_fall_points": 7.609999999999999,
+     "yield_at_first_start": 14.46
+    },
+    {
+     "first_start": "1980-12-11",
+     "last_start": "1981-02-03",
+     "largest_fall_points": 1.9000000000000004,
+     "yield_at_first_start": 15.85
+    },
+    {
+     "first_start": "1981-05-04",
+     "last_start": "1981-05-21",
+     "largest_fall_points": 1.6800000000000015,
+     "yield_at_first_start": 15.96
+    },
+    {
+     "first_start": "1981-08-14",
+     "last_start": "1981-10-28",
+     "largest_fall_points": 5.15,
+     "yield_at_first_start": 16.72
+    },
+    {
+     "first_start": "1982-03-26",
+     "last_start": "1982-03-30",
+     "largest_fall_points": 1.4800000000000004,
+     "yield_at_first_start": 14.21
+    },
+    {
+     "first_start": "1982-06-07",
+     "last_start": "1982-09-28",
+     "largest_fall_points": 4.800000000000001,
+     "yield_at_first_start": 13.51
+    },
+    {
+     "first_start": "1984-08-28",
+     "last_start": "1984-10-30",
+     "largest_fall_points": 2.0,
+     "yield_at_first_start": 11.97
+    },
+    {
+     "first_start": "1985-03-14",
+     "last_start": "1985-04-23",
+     "largest_fall_points": 1.7299999999999995,
+     "yield_at_first_start": 10.07
+    },
+    {
+     "first_start": "1986-02-12",
+     "last_start": "1986-02-21",
+     "largest_fall_points": 1.5300000000000002,
+     "yield_at_first_start": 7.71
+    },
+    {
+     "first_start": "2000-11-10",
+     "last_start": "2000-11-14",
+     "largest_fall_points": 1.5100000000000007,
+     "yield_at_first_start": 6.11
+    },
+    {
+     "first_start": "2001-09-04",
+     "last_start": "2001-09-05",
+     "largest_fall_points": 1.44,
+     "yield_at_first_start": 3.55
+    },
+    {
+     "first_start": "2007-12-24",
+     "last_start": "2008-01-14",
+     "largest_fall_points": 1.45,
+     "yield_at_first_start": 3.46
+    },
+    {
+     "first_start": "2020-01-22",
+     "last_start": "2020-02-07",
+     "largest_fall_points": 1.4000000000000001,
+     "yield_at_first_start": 1.55
+    }
+   ],
+   "stretches_starting_at_3_to_6pct": 6484,
+   "share_falling_by_threshold_points_from_3_to_6pct": 0.0009253547193090684,
+   "stretches_starting_1_to_15_nov": 610,
+   "of_which_falling_by_threshold_points": 3
+  }
+ },
+ "e_what_the_plan_does": {
+  "at_threshold": {
+   "fall_points": 1.3307504653930662,
+   "topup": 75001.20291230499,
+   "topup_share_of_deposit": 0.5000080194153665,
+   "left": 74998.79708769501,
+   "floor_money": 74998.79708769501,
+   "floor_share_of_deposit": 0.4999919805846334,
+   "floor_share_of_what_is_left": 1.0,
+   "vt_bought": 0.0,
+   "floor_payout": 88561.87874260709,
+   "stated_bottom": 85000.0,
+   "stated_top_if_no_vt": 85000.0,
+   "contribution_if_no_vt": 85000.0,
+   "excess_if_no_vt": 3561.878742607092,
+   "frozen_split_instead_vt": 20024.67882241457
+  },
+  "at_1.5pt": {
+   "fall_points": 1.5,
+   "topup": 80012.19474271395,
+   "topup_share_of_deposit": 0.533414631618093,
+   "left": 69987.80525728605,
+   "floor_money": 69987.80525728605,
+   "floor_share_of_deposit": 0.466585368381907,
+   "floor_share_of_what_is_left": 1.0,
+   "vt_bought": 0.0,
+   "floor_payout": 81963.28743502147,
+   "stated_bottom": 75000.0,
+   "stated_top_if_no_vt": 75000.0,
+   "contribution_if_no_vt": 75000.0,
+   "excess_if_no_vt": 6963.28743502147,
+   "frozen_split_instead_vt": 18686.744003695374
+  },
+  "at_2pt": {
+   "fall_points": 2.0,
+   "topup": 95316.25799072889,
+   "topup_share_of_deposit": 0.6354417199381925,
+   "left": 54683.74200927111,
+   "floor_money": 54683.74200927111,
+   "floor_share_of_deposit": 0.3645582800618074,
+   "floor_share_of_what_is_left": 1.0,
+   "vt_bought": 0.0,
+   "floor_payout": 62490.786803784795,
+   "stated_bottom": 60000.0,
+   "stated_top_if_no_vt": 60000.0,
+   "contribution_if_no_vt": 60000.0,
+   "excess_if_no_vt": 2490.7868037847948,
+   "frozen_split_instead_vt": 14600.559116475388
+  }
+ }
+}

@@ -1,4 +1,4 @@
-"""Build the Final Report's four exhibits on the register of Tue 10 Nov 2026 (rebuilt Thu 12 Nov 2026 evening, Sydney).
+"""Build the Final Report's four exhibits on the register of Tue 10 Nov 2026 (rebuilt Fri 13 Nov 2026 morning, Sydney).
 
     python3 -I keel/final_report/exhibits/build_exhibits.py            everything below (about a minute)
     python3 -I keel/final_report/exhibits/build_exhibits.py figure     Figure 1 only
@@ -138,7 +138,7 @@ def figure1(outputs):
     # ---- one row per payment ----
     for i, r in enumerate(rows):
         y = row_y(i)
-        end = yearfrac(r["pays_out"])
+        end = yearfrac(r["cash_last"])     # Fri 13 Nov: when the cash reaches Laura, not the fund's end date (8h)
         bond = r["kind"] == "T-bond"
         ax.add_patch(Rectangle((X(T0), y - BAR_H / 2), X(end) - X(T0), BAR_H, facecolor=BOND if bond else FUND,
                                edgecolor=INK, linewidth=0.5, zorder=2))
@@ -231,20 +231,25 @@ EXHIBITS = {
            # Thu 12 Nov: WORDS.md's names ("the top-up", "interest earns nothing"); the point first, then the scale
            "title": "Each Payment Has Its Own Treasury, and the Top-Up From the 2028 Deposit Pays Any Gap if Interest "
                     "Earns Nothing (Laura's Plan for Both Deposits, $450,000, Modelled)",
+           # Fri 13 Nov (bond reader, 12 Nov): the definition and the reconciliation join, in priority order. The
+           # budget stays 60 words: items 1 to 4 fit it in a terse note (counted Fri 13 Nov, the title already
+           # carrying "$450,000" and "Modelled"); 5 and 6 only if room, else 3a's prose (the bars show the cash dates)
            "section": "Section 3, part 3a", "note_budget_words": 60,
            "note_items": [
-               "modelled at today's market rates (Treasury par curve of 6 Nov 2026); Laura's plan for both deposits "
-               "($450,000); each payment in the dollars of its own 1 January (8h)",
-               "the two right-hand columns: if nothing earns interest from 2027 and waiting money pays the "
-               "Treasury-bill fund's 0.15% fee, own Treasuries pay $444,080 and the top-up $55,920 of the $500,000 (8h)",
-               f"the ratio with its reason: about {D.FIGURE1_PER_DOLLAR} for each $1 on 1 Jan 2033 at today's rates "
-               "($444,545 against $399,089), because the top-up is sized for no interest (8h; card Q31)",
-               "the top-up: the first $38,282 of the 2028 deposit; $2,388 completes the ten, $35,894 pays the last "
-               "column (NUMBERS 2); not in the WInS portfolio",
-               "paid in every historical rate stretch tested (585 starting months, 1962-2010; NUMBERS 2)",
-               "rows may not add to the totals because of rounding"]},
+               "1. \"if interest earns nothing\", defined once: money already received earns nothing while it waits; "
+               "every coupon and fund payout still counts (WORDS; 8h)",
+               "2. the last column reconciled: the top-up's $35,894 (January 2028) buys $36,867 of Treasuries at face; "
+               "with $19,143 of their own interest, summed undiscounted, they pay $55,920 after $90 of the waiting "
+               "fund's 0.15% fee; at today's rates about $45,500 comes back (1 Jan 2033 money) (8h)",
+               f"3. the ratio with its reason: about {D.FIGURE1_PER_DOLLAR} for each $1 on 1 Jan 2033 at today's "
+               "rates, because the top-up is sized for no interest (8h; card Q31)",
+               "4. Treasury par curve of 6 Nov 2026; each payment in its own year's dollars (8h)",
+               "5. bars end when the cash reaches Laura: a fund a few days after its 15 December end, a bond on its "
+               "maturity date or the next business day (8h cash table)",
+               "6. if room: paid in every historical rate stretch tested (585 starts, 1962-2010; NUMBERS 2); the "
+               "top-up's other $2,388 completes the ten, in \"Its own Treasury\"; rows may not add because of rounding"]},
     "t2": {"label": "Table 2",
-           "title": "Laura's Plan for Both Deposits ($450,000) in Five Markets and 585 History Replays, Modelled",
+           "title": "Laura's Plan for Both Deposits ($450,000) in Five Markets and in History Since 1962, Modelled",
            "section": "Section 3, parts 3b and 3c", "note_budget_words": 45,
            "note_items": [
                "MODEL, not forecasts; Treasury curve of 6 Nov 2026",
@@ -253,7 +258,8 @@ EXHIBITS = {
                "inflation row: prices up 5% a year",
                "flexibility: the half of VT promised to no one plus whatever the funds pay above the stated top, to "
                "the nearest $100 (8i)",
-               "spread rows: each column's own percentile"]},
+               "spread rows: each column's own percentile",
+               "each row is a different market before January 2028; within each, the bottom is fixed from then"]},
     "t3": {"label": "Table 3",
            # Thu 12 Nov (SKELETON Exhibits item 4): seven rows in three levels, five columns, one trigger per cell
            "title": "Seven Signals to Watch as 2031 and 2033 Approach; Two Can Change Laura's $450,000 Plan",
@@ -613,7 +619,7 @@ def _md_table(header, rows, right):
 
 def tables_md(measures):
     L = []
-    L.append("# The Final Report's exhibits as text (built Thu 12 Nov 2026 evening, Sydney)\n")
+    L.append("# The Final Report's exhibits as text (built Fri 13 Nov 2026 morning, Sydney)\n")
     L.append("Generated by `build_exhibits.py` from `exhibit_data.py`, which reads `../numbers/results_*_2026-11-10.json` "
              "and checks every figure against `../NUMBERS.md` (sections named under each exhibit). Notes for the "
              "store, not report prose: titles are working labels and each note lists the items it must carry; both "
@@ -660,11 +666,11 @@ def tables_md(measures):
     # Figure 1
     L.append(f"## {EXHIBITS['f1']['label']}. {EXHIBITS['f1']['title']} (working title)\n")
     L.append(f"{EXHIBITS['f1']['section']}. Source: NUMBERS 8h (MODEL), `results_reserve_2026-11-10.json` blocks "
-             "`composition_1jan2033_base`, `base` and `fee`. The figure is `figure1_reserve.svg`; its numbers as text:\n")
+             "`composition_1jan2033_base`, `base` and `fee`; cash dates and the note's reconciliation from "
+             "`results_topup_2026-11-13.json` (Fri 13 Nov). The figure is `figure1_reserve.svg`; its numbers as text:\n")
     rows = []
     for r in D.FIGURE1_ROWS:
-        y, m, d = r["pays_out"].split("-")
-        arrives = f"{int(d)} {date(int(y), int(m), 1).strftime('%b')} {y}"
+        arrives = D.cash_words(r)             # Fri 13 Nov: the cash date (8h's cash table), not the fund's end date
         if r["wait_words"]:
             arrives += f" (waits {r['wait_words']})"
         rows.append([r["year"], r["holding"], "Treasury bond" if r["kind"] == "T-bond" else "iBond Treasury fund",
@@ -740,7 +746,7 @@ def main(argv):
     m["_method"] = ("Card Q23: Letter, 1-inch margins, 12-pt Times New Roman metrics (Liberation Serif), double-spaced "
                     "text at a 27.6-pt pitch, table bodies single-spaced, APA number, title and note double-spaced, a "
                     "blank double-spaced line after each exhibit; LibreOffice headless; words a line 14.26 (Q23 row 5)")
-    m["_built"] = "Thu 12 Nov 2026 evening (Sydney), register of Tue 10 Nov 2026"
+    m["_built"] = "Fri 13 Nov 2026 morning (Sydney), register of Tue 10 Nov 2026"
     with open(os.path.join(HERE, "measurements.json"), "w") as fh:
         json.dump(m, fh, indent=1)
     print(json.dumps(m, indent=1))

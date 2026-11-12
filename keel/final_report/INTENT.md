@@ -40,14 +40,17 @@ Keel's belief, untestable, and stays out of the report: panel 2's professor, Thu
    the first part of the 2028 deposit ($38,282 at today's forward rates, about a quarter of it; NUMBERS 2), most of
    which comes back to Laura if rates hold (about $45,500 by 2033 with its interest, NUMBERS 8k). Of it, $2,388 is the
    IPS's own "complete it" (l.13: the ten cost slightly more than $300,000); the other $35,894 is the reserve's sizing,
-   justified by l.11, because at the IPS's sizing a shortfall in reinvested interest (about half of the historical
-   starts since 1962) could have been met only from the shares (NUMBERS 2, design A; the coherence reader, Thu 12 Nov
-   evening). The report never offers a definition of high certainty of its own: l.11 is the definition (CANON A4).
+   justified by l.11 and carrying l.13's own promise ("our plan isn't dependent on yields staying put") through to the
+   interest each bond pays along the way: reinvested at lower yields, that interest would have fallen a little short in
+   about half of the historical starts since 1962, and the top-up is what makes the 2028 deposit cover it, as l.13 says
+   it covers a dearer ladder (NUMBERS 2, design A; coherence readers, Thu 12 Nov evening and Fri 13 Nov morning: never
+   "at the IPS's sizing it could have been met only from the shares", which tells a judge the submitted plan broke
+   l.11). The report never offers a definition of high certainty of its own: l.11 is the definition (CANON A4).
    From 2033 the Treasuries are the operating reserve. (Changed Wed 11 Nov evening, card Q31 and two readers: the funded ratio, about 111%, is no longer
    the headline; it invited "why is the range so small?" and a lay reader followed it "only by faith". It goes to
    Figure 1's note with its reason. "Escrow verifier's standard" is dropped as a label: MSRB's name for the test is
    "full cash" or "gross" refunding, named once in 3a for bond readers.)
-2. The WInS portfolio is Laura's whole plan at two-thirds scale (the WInS notes' own words: "scaled to the model
+2. The WInS portfolio holds Laura's plan's instruments, in the plan's order, at two-thirds scale, built before the operating reserve was sized, so it holds no top-up (said in one sentence; second coherence reader, Fri 13 Nov) (the WInS notes' own words: "scaled to the model
    portfolio"), built to targets set before trading and matching them (all ten Treasury holdings at exactly their target
    units; NUMBERS 8m); what does not scale (fixed fees, $1,000 bond lots, the 2028 deposit, time) is calculated, not
    shown (card Q29). And it cost more than the deposit: the ten cost $302,287 at the 6 Nov close, and the IPS's own
@@ -97,11 +100,16 @@ Keel's belief, untestable, and stays out of the report: panel 2's professor, Thu
    evening after a strict coherence reader rated this risk high (`research/panel/2026-11-12_coherence_reader.md`): only
    the $2,388 by which the ten cost more than $300,000 is the IPS's "we'll simply complete it with the 2028 deposit"
    (l.13); the other $35,894 is the operating reserve's sizing, which Wharton asks Section 3 to recommend and the IPS
-   leaves open, justified by l.11 (no payment may depend on a share price, and at the IPS's sizing a reinvestment
-   shortfall could have been met only from the shares). Said that way it is the IPS's own promise kept, not a new rule.
+   leaves open, justified by l.11 (no payment may depend on a share price) and carrying l.13's "our plan isn't
+   dependent on yields staying put" through to reinvested interest, which the 2028 deposit covers as it covers a
+   dearer ladder. Said that way it is the IPS's own promise kept, not a new rule, and never a failure of the IPS's
+   sizing (second coherence reader, Fri 13 Nov).
    "Roughly $300,000" stays true as the ten's price with interest as the market expects (NUMBERS 1); "most of the 2028
-   deposit" still funds the floor (54.6% centrally, NUMBERS 4; never print $75,001, "just over half" or a label saying
-   the rule binds). Section 2 says once that the WInS portfolio was built before the reserve was sized: it splits the
+   deposit" still funds the floor at today's rates (54.6% centrally, NUMBERS 4; never print $75,001, "just over half" or
+   a label saying the rule binds; always "at today's rates", with no odds: "most" fails only if yields fall more than
+   about 1.3 points before January 2027, about 1 in 3,600 simulated futures, and then the floor takes all of what is left
+   and VT nothing, NUMBERS 5, Fri 13 Nov; with the ten alone it would fail only past 2.1 points, so that narrow band is
+   the reserve's price, store only). Section 2 says once that the WInS portfolio was built before the reserve was sized: it splits the
    2028 money as the plan does (about 73% floor, 27% VT) but holds no top-up, which comes first in the plan (the coherence
    reader found Table 1, scaled up, implying about $109,000 of floor against Section 3's $82,000). The report never
    writes "new standard", "after the freeze" or "we changed"; 2.5 labels only the measures as made afterwards.

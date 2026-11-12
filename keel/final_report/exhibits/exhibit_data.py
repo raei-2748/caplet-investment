@@ -15,6 +15,9 @@ Where the figures come from:
                             and inflation; joint.named 2006-06 and 2007-07; the 585-window percentiles; and
                             twd_test.joint_replay for the contribution and the flexibility across windows.
   Cross-check (8k)          numbers/results_returns_2026-11-10.json: the flexibility at forwards by a second route.
+  Figure 1, Fri 13 Nov      numbers/results_topup_2026-11-13.json (NUMBERS 8h): when each payment's cash reaches Laura
+                            (a fund's end date is not its cash date; a bond due on a weekend or holiday pays the next
+                            business day), and the top-up's column reconciled with its cost (the note items).
 
 Nothing is computed here except rounding, sums and the joining of two parts the register names (the flexibility is the
 half kept plus the excess, NUMBERS 8i column "Half kept plus excess"). Run this file to print every exhibit figure and
@@ -53,6 +56,7 @@ JOINT = _load(f"results_joint_stress_{REGISTER_DATE}.json")
 RETURNS = _load(f"results_returns_{REGISTER_DATE}.json")
 MAIN = _load(f"results_{REGISTER_DATE}.json")          # NUMBERS sections 1-5 (Table 3: the top-up, section 5's distances)
 INPUTS = _load("inflation_inputs.json")                # NUMBERS 8d's inputs (Table 3: the Taiwan dollar, building costs)
+TOPUP_PAID = _load("results_topup_2026-11-13.json")    # NUMBERS 8h, Fri 13 Nov: the top-up reconciled; the cash dates
 SKELETON_MD = os.path.join(FR, "SKELETON.md")         # Table 3's definitions and dates are Keel's calls, set out there
 WORDS_MD = os.path.join(FR, "WORDS.md")               # the report's one name for each thing
 
@@ -226,11 +230,16 @@ def _figure1():
         year = c["payment"]
         assert int(b["date"][:4]) == year == int(f["date"][:4]) == int(z["date"][:4])
         kind = "T-bond" if c["type"] == "Treasury bond" else "iBond ETF"   # IBTM's 2033 rung is an iBond ETF until
-        rows.append({                                                       # it pays out on 15 Dec 2032
+        cd = TOPUP_PAID["cash_dates"][str(year)]                            # it pays out in December 2032
+        assert cd["ends"] == c["pays_out"]
+        rows.append({
             "year": year,
             "holding": _short_holding(c["holding"]),
             "kind": kind,
-            "pays_out": c["pays_out"],
+            "ends": c["pays_out"],              # a fund's end date or a bond's maturity date (the model's date)
+            "cash_first": cd["cash_first"],     # when the cash reaches Laura (Fri 13 Nov: the bars end at cash_last)
+            "cash_last": cd["cash_last"],
+            "months_cash": cd["months_to_payment_from_last"],
             "months_model": c["months_before_payment"],
             "wait_words": WAIT_WORDS.get(year),
             "at_forwards": b["own_holding_pays"],
@@ -259,7 +268,23 @@ FIGURE1_NOTE_FACTS = {
     "funded_1jan2033": RESERVE["composition_1jan2033_total"] / RESERVE["own_rungs_value_1jan2033"],
     "etf_fee": 0.0015,
     "curve": "Treasury par yield curve, 6 Nov 2026",
+    # Fri 13 Nov (bond reader, 12 Nov): the last column reconciled with the top-up's cost (NUMBERS 8h)
+    "topup_for_no_interest_jan2028": TOPUP_PAID["for_no_interest_jan2028"],       # $35,894
+    "topup_face_and_fund_dollars": TOPUP_PAID["face_and_fund_dollars"],           # $36,867
+    "topup_interest_undiscounted": TOPUP_PAID["interest_undiscounted"],           # $19,143
+    "topup_all_flows_undiscounted": TOPUP_PAID["all_flows_undiscounted"],         # $56,010
+    "topup_fee_while_waiting": TOPUP_PAID["fee"]["fee_on_the_topups_own_waiting_money"],   # $90
+    "topup_comes_back_1jan2033": TOPUP_PAID["comes_back_if_forwards_hold"]["value_1jan2033"],  # $45,456
 }
+
+
+def cash_words(r):
+    """When a row's cash reaches Laura, as NUMBERS 8h's cash table and card Q2b (card 5) print it: 'Tue 17 Feb 2037' or
+    'Mon 20 to Wed 22 Dec 2032'."""
+    from datetime import date as _dt
+    a, b = (_dt.fromisoformat(r[k]) for k in ("cash_first", "cash_last"))
+    one = lambda d, month=True: f"{d.strftime('%a')} {d.day}" + (f" {d.strftime('%b')} {d.year}" if month else "")
+    return one(a) if a == b else f"{one(a, False)} to {one(b)}"
 # The note's ratio in WORDS.md's form (Thu 12 Nov): "about $1.11 for each $1 the payments need at today's rates, because
 # the top-up is sized for no interest" ($444,545 against $399,089 on 1 Jan 2033, NUMBERS 8h).
 FIGURE1_PER_DOLLAR = f"${FIGURE1_NOTE_FACTS['funded_1jan2033']:.2f}"
@@ -417,7 +442,7 @@ TABLE3_ROWS = [
         "Team",
         f"Cash in {IBOND_SLACK} business days before the year's last ({IBOND_SLACK_2036} for 2036)",
         "A notice that moves a fund's end date past a payment",
-        _changes("the fund, for a Treasury due in time; any cost from her flexibility", "the amount")]),
+        _changes("the fund, for a Treasury due in time, paid from the reserve", "the amount; the shares")]),
     ("closer", [
         f"Trade days: {_d(TRADE_DAYS[0])}, {_d(TRADE_DAYS[1])}",
         "Team",
@@ -708,6 +733,64 @@ def check(verbose=True):
         note("Figure 1", f"{year} wait label '{words}'", words, f"TNA and WInS trade notes ({'found' if ok else 'not found'})",
              "CANON A15, A16, B35", "PASS" if ok else "FAIL")
 
+    # ---- Figure 1, Fri 13 Nov: cash dates (8h's cash table, card Q2b card 5) and the top-up's column reconciled ----
+    from datetime import date as _dt
+    cash_8h = {int(r[0]): r for r in _table_rows(s8h, "| Payment | Paid from | Ends or matures | Cash reaches Laura")
+               if r[0].isdigit()}
+    with open(os.path.join(FR, "research", "cards", "Q2b_escrows_lotteries_settlements_stress.md")) as fh:
+        q2b_text = re.sub(r"\s+", " ", fh.read())
+    for f in FIGURE1_ROWS:
+        w = cash_words(f)
+        r = cash_8h.get(f["year"])
+        note("Figure 1", f"{f['year']} cash reaches Laura", w, r[3] if r else None, "8h cash table",
+             "PASS" if r and r[3] == w else "FAIL")
+        note("Figure 1", f"{f['year']} cash date as card Q2b gives it", w, "found" if f"| {w} |" in q2b_text else
+             "not found", "card Q2b, card 5", "PASS" if f"| {w} |" in q2b_text else "FAIL")
+        e, a, b = (_dt.fromisoformat(f[k]) for k in ("ends", "cash_first", "cash_last"))
+        y1 = _dt(f["year"], 1, 1)
+        ok = e <= a <= b < y1 and a.weekday() < 5 and b.weekday() < 5
+        days = f"{(y1 - b).days}" if a == b else f"{(y1 - b).days} to {(y1 - a).days}"
+        note("Figure 1", f"{f['year']} cash on a business day, after the end date, before 1 January",
+             f"{f['ends']} -> {f['cash_first']}..{f['cash_last']}", "calendar", "calendar", "PASS" if ok else "FAIL")
+        note("Figure 1", f"{f['year']} days from cash to 1 January", days, r[4].split(" (")[0] if r else None,
+             "8h cash table", "PASS" if r and r[4].split(" (")[0] == days else "FAIL")
+    for f in FIGURE1_ROWS:
+        if f["wait_words"]:
+            n = float(f["wait_words"].split()[0])
+            note("Figure 1", f"{f['year']} wait label within 0.1 month of the cash wait", f["wait_words"],
+                 f"{f['months_cash']:.2f} months from the cash", "8h cash table",
+                 "PASS" if abs(n - f["months_cash"]) <= 0.1 else "FAIL")
+    s8h1 = re.sub(r"\s+", " ", s8h)
+    F = FIGURE1_NOTE_FACTS
+    for what, mine, pat in (
+            ("top-up's part for no interest, January 2028", F["topup_for_no_interest_jan2028"],
+             r"part for no interest costs \$([\d,]+) in January 2028"),
+            ("what it buys, face and fund dollars", F["topup_face_and_fund_dollars"],
+             r"What it buys:\*\* \$([\d,]+) of face and fund dollars"),
+            ("its own interest, undiscounted", F["topup_interest_undiscounted"],
+             r"back plus \$([\d,]+) of its own interest"),
+            ("face plus interest, undiscounted", F["topup_all_flows_undiscounted"],
+             r"without discounting: \$([\d,]+)"),
+            ("the ETF's fee while it waits", F["topup_fee_while_waiting"], r"fee takes \$([\d,]+) of that"),
+            ("reaches the payments (the column's total)", T["backstop_if_nothing_earns"],
+             r"\*\*\$([\d,]+)\*\* reaches the payments"),
+            ("what comes back, 1 Jan 2033 money", F["topup_comes_back_1jan2033"],
+             r"\*\*\$([\d,]+)\*\* in 1 Jan 2033 money \(this part of the top-up plus")):
+        m = re.search(pat, s8h1)
+        cmp("Figure 1", f"Note: {what}", round(mine), float(m.group(1).replace(",", "")) if m else None, "8h reconciled")
+    cmp("Figure 1", "Note: $35,894 is Table 3's part for no interest", round(F["topup_for_no_interest_jan2028"]),
+        round(TOPUP_NO_INTEREST), "2, 5")
+    cmp("Figure 1", "Note: face + interest - fee = the column's total", round(F["topup_all_flows_undiscounted"] -
+        F["topup_fee_while_waiting"]), round(T["backstop_if_nothing_earns"]), "8h reconciled")
+    cmp("Figure 1", "Note: what comes back = 8h's backstop on 1 Jan 2033", round(F["topup_comes_back_1jan2033"]),
+        round(RESERVE["margin_value_1jan2033_at_forwards"]), "8h")
+    phrase = "money already received earns nothing while it waits"
+    with open(WORDS_MD) as fh:            # read again: the wait-label loop above reuses the name `words`
+        words_md = fh.read()
+    ok = phrase in words_md and phrase in s8h1 and "every coupon and fund payout still counts" in words_md
+    note("Figure 1", "Note: 'if interest earns nothing' defined once", phrase, "WORDS.md and 8h", "WORDS, 8h",
+         "PASS" if ok else "FAIL")
+
     # ---- Table 2 against 8i (and 8j for the spread of the flexibility) ----
     s8i = _section(md, "### 8i.", "\n### 8j.")
     rows = _table_rows(s8i, "| World | Ten payments")
@@ -870,7 +953,7 @@ if __name__ == "__main__":
         print(f"  {kind:<9}", " | ".join(c.replace("\n", " / ") for c in cells))
     print("\nFigure 1 (NUMBERS 8h, MODEL): year | paid from | cash arrives | at forwards | nothing earns after fee: own + top-up")
     for f in FIGURE1_ROWS:
-        print(f"  {f['year']} | {f['holding']:<16} | {f['pays_out']} ({f['wait_words'] or str(f['months_model']) + ' mo'}) |"
+        print(f"  {f['year']} | {f['holding']:<16} | {cash_words(f)} ({f['wait_words'] or str(f['months_cash']) + ' mo'}) |"
               f" {dollars(f['at_forwards'])} | {dollars(f['own_if_nothing_earns'])} + {dollars(f['backstop_if_nothing_earns'])}")
     T = FIGURE1_TOTALS
     print(f"  Total {dollars(T['at_forwards'])} | {dollars(T['own_if_nothing_earns'])} + {dollars(T['backstop_if_nothing_earns'])}")
