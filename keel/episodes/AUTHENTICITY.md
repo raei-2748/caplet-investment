@@ -141,7 +141,11 @@ a message from Caplet, a finding, a mistake caught); only the people are invente
   read a third time. Ep 46 (Thu 12 Nov) failed two fresh reads: 21 lines (finance, office and repo words, paragraph
   endings that landed, two slide-like lines), then 19 (more paragraph endings, office and simulation words, a line that
   made the judges look as if they had misread); each was cut or put in plain words, and the third read passed with two
-  small hits (the bonds half of the judges' point, an "X, not Y" contrast), both then fixed.
+  small hits (the bonds half of the judges' point, an "X, not Y" contrast), both then fixed. Ep 47 (Fri 13 Nov) failed four fresh reads: about 22 lines (finance and office
+  words, entry endings that landed, a closing moral, Caplet's export put as the slow side), then 12 small ones (endings,
+  a real line about the spare money nobody could follow), then 17 mostly small (every problem paragraph ending on its fix,
+  scoring talk), then four small ones (two tangled sentences, an ending); each was cut or put in plain words, and the
+  fourth read's four were fixed without a fifth read.
 
 ## 3. Sources, and what each teaches (all accessed Sun 8 Nov 2026)
 
