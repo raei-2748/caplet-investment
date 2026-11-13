@@ -94,7 +94,7 @@ Section 3, part 3e. Source: SKELETON Exhibits item 4 (Thu 12 Nov spec: card Q30'
 | Trades in 2027, 2028, 2031 | Team | Limit orders near each fund's value | A date cannot be kept (a trading halt) | *Changes: *the date. *Never: *the step or its order. |
 | *Watch: the plan carries on* |  |  |  |  |
 | Treasury yields and share prices | Team | Any level: a fall in the market is not a reason | None. 1 percentage point lower before 2027: an $85,000 bottom | *Changes: *the bottom to Jan 2028, the top to the 2031 move, then her flexibility. *Never: *the payments. |
-| Her flexibility's three uses | Laura | NT$32.768 per US$1 (6 Nov 2026); building costs 1.5% to 5.0% a year | A Taiwan dollar 10% stronger ($11,500 more on $115,000) | *Changes: *a call on her flexibility and anything above the top ($29,800). *Never: *the range. |
+| Her flexibility's three uses | Laura | NT$32.768 per US$1 (6 Nov 2026); building-cost trend 1.5% to 5.0% a year | A Taiwan dollar 10% stronger than in 2031 ($11,500 more on $115,000) | *Changes: *a call on her flexibility and anything above the top ($29,800). *Never: *the range. |
 
 Note items: $38,282: top-up ($2,388) and extra Treasuries ($35,894); X-date: when the debt limit stops the Treasury paying every bill (its estimate, else the Congressional Budget Office's); cash dates: fund payouts, maturities, trade days; payments hold to a 3.60-point fall before 2027.
 

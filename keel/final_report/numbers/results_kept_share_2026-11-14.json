@@ -1,0 +1,2861 @@
+{
+ "stamp": {
+  "run": "Sat 14 Nov 2026 (Sydney)",
+  "curve": "11/06/2026",
+  "design": "H_plain",
+  "register": "Tue 10 Nov 2026 (NUMBERS 0, 3, 4, 8f, 8i, 8j, 8k, 8l, 8n)",
+  "haircut": 0.005,
+  "step": 5000.0,
+  "seed": 2033,
+  "futures": 200000,
+  "status": "MODEL; benchmarks of the split the frozen IPS chose (l.15), not a recommendation",
+  "splits": {
+   "move70": "Move 70% of the shares into Treasuries before the 2031 meetings; keep 30%",
+   "plan": "The plan (IPS l.15): move half, keep half promised to no one",
+   "move30": "Move 30%; keep 70%"
+  },
+  "names": "flexibility = the shares not moved, on 1 Jan 2033 (WORDS: her flexibility); flexibility_plus_above_top = that plus what the funds pay above the stated top",
+  "conventions": "contribution, excess and flexibility at face (15 Dec 2032 / 1 Jan 2033), as NUMBERS 4; stated figures and the contribution read without interpolation (method 'lower'), others linear; Taiwan dollar test as NUMBERS 8j (10% = 10% more US dollars on the contribution; strict = NT$ per US$ down 10%); returns_to_laura as NUMBERS 8k"
+ },
+ "topup_return_forwards_jan2033": 45455.57570475247,
+ "splits": {
+  "move70": {
+   "label": "Move 70% of the shares into Treasuries before the 2031 meetings; keep 30%",
+   "fraction_moved": 0.7,
+   "fraction_kept": 0.3,
+   "central_today": {
+    "stated_bottom": 95000.0,
+    "stated_top": 125000.0,
+    "bottom_raw": 98728.56167619981,
+    "top_raw": 126329.41744123302,
+    "width": 30000.0,
+    "funds_pay": 131594.5628307576,
+    "contribution": 125000.0,
+    "excess": 6594.562830757612,
+    "flexibility": 12808.378772257041,
+    "flexibility_plus_above_top": 19402.941603014653,
+    "contribution_plus_flexibility_plus_above_top": 144402.94160301465,
+    "flexibility_over_stated_top": 0.10246703017805633,
+    "flexibility_plus_above_top_over_stated_top": 0.15522353282411722,
+    "twd_10pct_need": 12500.0,
+    "twd_10pct_flexibility_cover_multiple": 1.0246703017805634,
+    "twd_10pct_flexibility_plus_above_top_cover_multiple": 1.5522353282411723,
+    "moved_money_2031": 25892.58011793127,
+    "moved_pays": 28416.51849021711,
+    "returns_to_laura_8k": 64873.89287912924
+   },
+   "house": {
+    "futures": 200000,
+    "stated_bottom_p5_p50_p95": [
+     85000.0,
+     95000.0,
+     115000.0
+    ],
+    "stated_top_p5_p50_p95": [
+     100000.0,
+     125000.0,
+     155000.0
+    ],
+    "width_p5_p50_p95": [
+     15000.0,
+     25000.0,
+     45000.0
+    ],
+    "share_width_zero_one_figure": 0.00072,
+    "count_width_zero_one_figure": 144,
+    "share_width_5k_or_less": 0.00484,
+    "contribution_p5_p50_p95": [
+     100000.0,
+     125000.0,
+     155000.0
+    ],
+    "contribution_min": 65000.0,
+    "share_contribution_inside_stated_range": 1.0,
+    "share_contribution_equals_stated_top": 1.0,
+    "funds_pay_p5_p50_p95": [
+     105861.12266153762,
+     132184.72643851777,
+     164363.48357375764
+    ],
+    "excess_p5_p50_p95": [
+     4498.675610311783,
+     7875.055014383113,
+     11571.361225857148
+    ],
+    "flexibility_p1_p5_p50_p95": [
+     4002.279445058511,
+     5928.742133744963,
+     12443.183081164792,
+     24754.88161542015
+    ],
+    "flexibility_min": 0.0,
+    "flexibility_plus_above_top_p1_p5_p50_p95": [
+     9121.56641067903,
+     12079.534127529143,
+     20498.58279462593,
+     33996.62970675176
+    ],
+    "flexibility_plus_above_top_min": 1645.2788134526152,
+    "flexibility_median_if_shares_fell_2031_2033": 9253.597180177554,
+    "flexibility_plus_above_top_median_if_shares_fell_2031_2033": 17249.643805427768,
+    "share_shares_fell_2031_2033": 0.28422,
+    "flexibility_over_stated_top_p5_p50_p95": [
+     0.05367705366361794,
+     0.10000538768342129,
+     0.17785005761790726
+    ],
+    "flexibility_over_funds_pay_p5_p50_p95": [
+     0.050380146626219674,
+     0.09403928224103009,
+     0.16777415586700875
+    ],
+    "flexibility_plus_above_top_over_stated_top_p5_p50_p95": [
+     0.11145181546872793,
+     0.16452958830355924,
+     0.24131839167237235
+    ],
+    "contribution_plus_flexibility_plus_above_top_p5_p50_p95": [
+     113344.60365881344,
+     145195.63136145571,
+     185487.9513827867
+    ],
+    "vt_on_move_day_p5_p50_p95": [
+     19534.924719924802,
+     36095.28698250527,
+     61959.028851115545
+    ],
+    "twd_flexibility": {
+     "covers_10pct": 0.50006,
+     "fails_count_10pct": 99988,
+     "gap_when_fails_p50_p95_max_10pct": [
+      2598.3088850819213,
+      6024.638761430873,
+      10419.617066347371
+     ],
+     "covers_strict_11.1pct": 0.38456,
+     "fails_count_strict_11.1pct": 123088,
+     "gap_when_fails_p50_p95_max_strict_11.1pct": [
+      3347.514298511449,
+      7142.093250986354,
+      11864.061510791822
+     ],
+     "largest_stronger_twd_covered_19_in_20": 0.05367705366361794,
+     "covers_share_of_contribution": {
+      "0.10": 0.50006,
+      "0.13": 0.23122,
+      "0.17": 0.065035,
+      "0.20": 0.023005,
+      "0.30": 0.00072
+     }
+    },
+    "twd_flexibility_plus_above_top": {
+     "covers_10pct": 0.9793,
+     "fails_count_10pct": 4140,
+     "gap_when_fails_p50_p95_max_10pct": [
+      825.2313798291871,
+      3090.6758750334807,
+      6354.721186547385
+     ],
+     "covers_strict_11.1pct": 0.951135,
+     "fails_count_strict_11.1pct": 9773,
+     "gap_when_fails_p50_p95_max_strict_11.1pct": [
+      993.8348273512693,
+      3377.9460150520003,
+      7243.610075436277
+     ],
+     "largest_stronger_twd_covered_19_in_20": 0.11145181546872793,
+     "covers_share_of_contribution": {
+      "0.10": 0.9793,
+      "0.13": 0.847795,
+      "0.17": 0.44269,
+      "0.20": 0.197755,
+      "0.30": 0.005995
+     }
+    },
+    "against_plan": {
+     "contribution_difference_p5_p50_p95": [
+      5000.0,
+      10000.0,
+      15000.0
+     ],
+     "share_contribution_above_plan": 0.978075,
+     "share_contribution_below_plan": 0.0,
+     "share_contribution_same_as_plan": 0.021925,
+     "flexibility_difference_p5_p50_p95": [
+      -16503.254410280093,
+      -8295.455387443191,
+      -3952.4947558299764
+     ],
+     "flexibility_plus_above_top_difference_p5_p50_p95": [
+      -16735.669550237613,
+      -8303.89241524287,
+      -3172.761832152481
+     ],
+     "total_difference_p5_p50_p95": [
+      -5169.02956822257,
+      -372.46356913648924,
+      2708.9178650681324
+     ],
+     "share_total_above_plan": 0.421315
+    }
+   },
+   "history": {
+    "futures": 1770,
+    "stated_bottom_p5_p50_p95": [
+     95000.0,
+     95000.0,
+     95000.0
+    ],
+    "stated_top_p5_p50_p95": [
+     115000.0,
+     125000.0,
+     140000.0
+    ],
+    "width_p5_p50_p95": [
+     20000.0,
+     30000.0,
+     45000.0
+    ],
+    "share_width_zero_one_figure": 0.0,
+    "count_width_zero_one_figure": 0,
+    "share_width_5k_or_less": 0.001694915254237288,
+    "contribution_p5_p50_p95": [
+     115000.0,
+     125000.0,
+     140000.0
+    ],
+    "contribution_min": 100000.0,
+    "share_contribution_inside_stated_range": 1.0,
+    "share_contribution_equals_stated_top": 1.0,
+    "funds_pay_p5_p50_p95": [
+     122224.23118921228,
+     133462.81567986615,
+     150172.73128783106
+    ],
+    "excess_p5_p50_p95": [
+     5555.918221254657,
+     7978.981934584328,
+     10095.405889360125
+    ],
+    "flexibility_p1_p5_p50_p95": [
+     4979.100461255708,
+     7942.955823455988,
+     14088.73932185174,
+     24364.48351739175
+    ],
+    "flexibility_min": 3467.6728872366643,
+    "flexibility_plus_above_top_p1_p5_p50_p95": [
+     12186.836768064719,
+     14858.009272434503,
+     22020.132608630345,
+     32820.280739609196
+    ],
+    "flexibility_plus_above_top_min": 8877.143874714999,
+    "flexibility_median_if_shares_fell_2031_2033": 9698.340654216157,
+    "flexibility_plus_above_top_median_if_shares_fell_2031_2033": 17748.766426992406,
+    "share_shares_fell_2031_2033": 0.20734463276836157,
+    "flexibility_over_stated_top_p5_p50_p95": [
+     0.06591564635551121,
+     0.11226969735166364,
+     0.1793905693014291
+    ],
+    "flexibility_over_funds_pay_p5_p50_p95": [
+     0.06207789947804661,
+     0.10613282922771461,
+     0.16890702644404768
+    ],
+    "flexibility_plus_above_top_over_stated_top_p5_p50_p95": [
+     0.12309284816809322,
+     0.17460779959221018,
+     0.24332231726047465
+    ],
+    "contribution_plus_flexibility_plus_above_top_p5_p50_p95": [
+     131445.20253876186,
+     147557.81282732263,
+     172230.00376357906
+    ],
+    "vt_on_move_day_p5_p50_p95": [
+     24792.16541856005,
+     39421.27979072032,
+     61172.35233738779
+    ],
+    "twd_flexibility": {
+     "covers_10pct": 0.6220338983050847,
+     "fails_count_10pct": 669,
+     "gap_when_fails_p50_p95_max_10pct": [
+      1981.1200650910396,
+      5560.566379632004,
+      9253.699942601459
+     ],
+     "covers_strict_11.1pct": 0.5135593220338983,
+     "fails_count_strict_11.1pct": 861,
+     "gap_when_fails_p50_p95_max_strict_11.1pct": [
+      2766.5873153864995,
+      6485.870107978913,
+      10698.144387045908
+     ],
+     "largest_stronger_twd_covered_19_in_20": 0.06591564635551121,
+     "covers_share_of_contribution": {
+      "0.10": 0.6220338983050847,
+      "0.13": 0.303954802259887,
+      "0.17": 0.07401129943502825,
+      "0.20": 0.024858757062146894,
+      "0.30": 0.0
+     }
+    },
+    "twd_flexibility_plus_above_top": {
+     "covers_10pct": 0.9926553672316384,
+     "fails_count_10pct": 13,
+     "gap_when_fails_p50_p95_max_10pct": [
+      758.069845134858,
+      1570.6415777124253,
+      1622.8561252850013
+     ],
+     "covers_strict_11.1pct": 0.9819209039548022,
+     "fails_count_strict_11.1pct": 32,
+     "gap_when_fails_p50_p95_max_strict_11.1pct": [
+      1092.9523659816014,
+      2684.7984968460164,
+      2924.720768219604
+     ],
+     "largest_stronger_twd_covered_19_in_20": 0.12309284816809322,
+     "covers_share_of_contribution": {
+      "0.10": 0.9926553672316384,
+      "0.13": 0.9163841807909604,
+      "0.17": 0.5406779661016949,
+      "0.20": 0.26384180790960454,
+      "0.30": 0.005649717514124294
+     }
+    },
+    "worst_flexibility": {
+     "value": 3467.6728872366643,
+     "start": "1929-09",
+     "stated_bottom": 95000.0,
+     "stated_top": 105000.0,
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "1929-09"
+     ]
+    },
+    "worst_flexibility_plus_above_top": {
+     "value": 8877.143874714999,
+     "start": "1929-08",
+     "stated_bottom": 95000.0,
+     "stated_top": 105000.0,
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "1929-08"
+     ]
+    },
+    "worst_contribution": {
+     "value": 100000.0,
+     "start": "1929-05",
+     "stated_bottom": 95000.0,
+     "stated_top": 100000.0,
+     "windows_at_minimum": 3,
+     "starts_at_minimum_first_12": [
+      "1929-05",
+      "1929-06",
+      "1929-07"
+     ]
+    },
+    "against_plan": {
+     "contribution_difference_p5_p50_p95": [
+      5000.0,
+      10000.0,
+      15000.0
+     ],
+     "share_contribution_above_plan": 0.992090395480226,
+     "share_contribution_below_plan": 0.0,
+     "share_contribution_same_as_plan": 0.007909604519774011,
+     "flexibility_difference_p5_p50_p95": [
+      -16242.989011594496,
+      -9392.492881234492,
+      -5295.303882303991
+     ],
+     "flexibility_plus_above_top_difference_p5_p50_p95": [
+      -16772.501207124016,
+      -9484.762931292447,
+      -3704.3405433548637
+     ],
+     "total_difference_p5_p50_p95": [
+      -4947.4588559940485,
+      -877.1001254662551,
+      2754.8266602263793
+     ],
+     "share_total_above_plan": 0.3192090395480226
+    },
+    "real_twd_since_1983": {
+     "windows": 417,
+     "first_vt_purchase": "1983-10",
+     "last_vt_purchase": "2018-06",
+     "contribution_p5_p50_p95": [
+      115000.0,
+      130000.0,
+      145000.0
+     ],
+     "flexibility": {
+      "covers_actual_move": 0.9160671462829736,
+      "fails_count": 35,
+      "fails_starts": [
+       "1983-10",
+       "1983-11",
+       "1983-12",
+       "1984-01",
+       "1984-02",
+       "1984-03",
+       "1984-04",
+       "1984-05",
+       "1984-06",
+       "1984-07",
+       "1984-08",
+       "1984-09",
+       "1984-10",
+       "1999-12",
+       "2000-01",
+       "2000-02",
+       "2000-03",
+       "2000-04",
+       "2000-05",
+       "2000-06",
+       "2000-07",
+       "2005-11",
+       "2005-12",
+       "2006-01",
+       "2006-02",
+       "2006-03",
+       "2006-04",
+       "2006-05",
+       "2006-06",
+       "2006-07",
+       "2006-08",
+       "2006-09",
+       "2007-02",
+       "2007-05",
+       "2007-06"
+      ],
+      "gap_when_fails_p50_max": [
+       5600.742230039361,
+       21997.6242521624
+      ]
+     },
+     "flexibility_plus_above_top": {
+      "covers_actual_move": 0.9760191846522782,
+      "fails_count": 10,
+      "fails_starts": [
+       "1983-10",
+       "1983-11",
+       "1983-12",
+       "1984-01",
+       "1984-02",
+       "1984-03",
+       "1984-04",
+       "1984-05",
+       "2006-03",
+       "2006-05"
+      ],
+      "gap_when_fails_p50_max": [
+       7634.193959915414,
+       15490.195134561705
+      ]
+     }
+    }
+   },
+   "joint": {
+    "futures": 585,
+    "stated_bottom_p5_p50_p95": [
+     80000.0,
+     95000.0,
+     115000.0
+    ],
+    "stated_top_p5_p50_p95": [
+     100000.0,
+     125000.0,
+     155000.0
+    ],
+    "width_p5_p50_p95": [
+     15000.0,
+     30000.0,
+     45000.0
+    ],
+    "share_width_zero_one_figure": 0.0,
+    "count_width_zero_one_figure": 0,
+    "share_width_5k_or_less": 0.0,
+    "contribution_p5_p50_p95": [
+     100000.0,
+     125000.0,
+     155000.0
+    ],
+    "contribution_min": 95000.0,
+    "share_contribution_inside_stated_range": 1.0,
+    "share_contribution_equals_stated_top": 1.0,
+    "funds_pay_p5_p50_p95": [
+     107109.59082673758,
+     134414.86372345206,
+     166906.52110830627
+    ],
+    "excess_p5_p50_p95": [
+     3489.240018190816,
+     7683.1313262311305,
+     13640.703231332514
+    ],
+    "flexibility_p1_p5_p50_p95": [
+     7602.903672592277,
+     8324.289968979556,
+     14160.373461298095,
+     25208.707547291193
+    ],
+    "flexibility_min": 6586.649934313135,
+    "flexibility_plus_above_top_p1_p5_p50_p95": [
+     11682.26263383072,
+     13429.921545394423,
+     22559.170071393703,
+     34652.13549748207
+    ],
+    "flexibility_plus_above_top_min": 10308.658940082098,
+    "flexibility_median_if_shares_fell_2031_2033": 9778.80972390361,
+    "flexibility_plus_above_top_median_if_shares_fell_2031_2033": 19578.240970880754,
+    "share_shares_fell_2031_2033": 0.1623931623931624,
+    "flexibility_over_stated_top_p5_p50_p95": [
+     0.066086153321079,
+     0.11590032682512803,
+     0.18158251899517097
+    ],
+    "flexibility_over_funds_pay_p5_p50_p95": [
+     0.06181607309480234,
+     0.10787921160485031,
+     0.17058230190197168
+    ],
+    "flexibility_plus_above_top_over_stated_top_p5_p50_p95": [
+     0.11670349797914167,
+     0.18022568457279192,
+     0.24986715460960238
+    ],
+    "contribution_plus_flexibility_plus_above_top_p5_p50_p95": [
+     118241.71213694116,
+     147858.03173377828,
+     186409.93947347807
+    ],
+    "vt_on_move_day_p5_p50_p95": [
+     23640.54299726032,
+     40179.3315892301,
+     60887.48089661473
+    ],
+    "twd_flexibility": {
+     "covers_10pct": 0.6410256410256411,
+     "fails_count_10pct": 210,
+     "gap_when_fails_p50_p95_max_10pct": [
+      2507.5821236641805,
+      5989.356385348205,
+      8471.437777817348
+     ],
+     "covers_strict_11.1pct": 0.5401709401709401,
+     "fails_count_strict_11.1pct": 269,
+     "gap_when_fails_p50_p95_max_strict_11.1pct": [
+      3242.125427242723,
+      7528.412874089618,
+      10415.8822222618
+     ],
+     "largest_stronger_twd_covered_19_in_20": 0.066086153321079,
+     "covers_share_of_contribution": {
+      "0.10": 0.6410256410256411,
+      "0.13": 0.38290598290598293,
+      "0.17": 0.08717948717948718,
+      "0.20": 0.013675213675213675,
+      "0.30": 0.0
+     }
+    },
+    "twd_flexibility_plus_above_top": {
+     "covers_10pct": 0.9897435897435898,
+     "fails_count_10pct": 6,
+     "gap_when_fails_p50_p95_max_10pct": [
+      253.8742092596376,
+      510.82151800199154,
+      552.6211809563647
+     ],
+     "covers_strict_11.1pct": 0.9606837606837607,
+     "fails_count_strict_11.1pct": 23,
+     "gap_when_fails_p50_p95_max_strict_11.1pct": [
+      884.5485045737278,
+      1717.409900974017,
+      1885.954514289704
+     ],
+     "largest_stronger_twd_covered_19_in_20": 0.11670349797914167,
+     "covers_share_of_contribution": {
+      "0.10": 0.9897435897435898,
+      "0.13": 0.8923076923076924,
+      "0.17": 0.5965811965811966,
+      "0.20": 0.27521367521367524,
+      "0.30": 0.0
+     }
+    },
+    "returns_to_laura_8k_p5_p50_p95": [
+     33599.74622674167,
+     67994.81942117386,
+     109398.47469426923
+    ],
+    "worst_flexibility": {
+     "value": 6586.649934313135,
+     "start": "2003-03",
+     "stated_bottom": 95000.0,
+     "stated_top": 130000.0,
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "2003-03"
+     ]
+    },
+    "worst_flexibility_plus_above_top": {
+     "value": 10308.658940082098,
+     "start": "2006-12",
+     "stated_bottom": 85000.0,
+     "stated_top": 105000.0,
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "2006-12"
+     ]
+    },
+    "worst_contribution": {
+     "value": 95000.0,
+     "start": "2000-11",
+     "stated_bottom": 75000.0,
+     "stated_top": 95000.0,
+     "windows_at_minimum": 9,
+     "starts_at_minimum_first_12": [
+      "2000-11",
+      "2007-02",
+      "2007-03",
+      "2007-04",
+      "2007-05",
+      "2007-12",
+      "2008-01",
+      "2008-08",
+      "2008-09"
+     ]
+    },
+    "against_plan": {
+     "contribution_difference_p5_p50_p95": [
+      5000.0,
+      10000.0,
+      15000.0
+     ],
+     "share_contribution_above_plan": 0.9948717948717949,
+     "share_contribution_below_plan": 0.0,
+     "share_contribution_same_as_plan": 0.005128205128205128,
+     "flexibility_difference_p5_p50_p95": [
+      -16805.80503152746,
+      -9440.248974198727,
+      -5549.526645986369
+     ],
+     "flexibility_plus_above_top_difference_p5_p50_p95": [
+      -16461.803108379663,
+      -9574.359995691586,
+      -4395.566424754089
+     ],
+     "total_difference_p5_p50_p95": [
+      -5058.637369465816,
+      -1094.4142071616661,
+      3338.711208923516
+     ],
+     "share_total_above_plan": 0.27008547008547007
+    }
+   }
+  },
+  "plan": {
+   "label": "The plan (IPS l.15): move half, keep half promised to no one",
+   "fraction_moved": 0.5,
+   "fraction_kept": 0.5,
+   "central_today": {
+    "stated_bottom": 95000.0,
+    "stated_top": 115000.0,
+    "bottom_raw": 98728.56167619981,
+    "top_raw": 118443.45865122353,
+    "width": 20000.0,
+    "funds_pay": 123475.55754783844,
+    "contribution": 115000.0,
+    "excess": 8475.557547838442,
+    "flexibility": 21347.297953761732,
+    "flexibility_plus_above_top": 29822.855501600174,
+    "contribution_plus_flexibility_plus_above_top": 144822.8555016002,
+    "flexibility_over_stated_top": 0.18562867785879766,
+    "flexibility_plus_above_top_over_stated_top": 0.25932917827478413,
+    "twd_10pct_need": 11500.0,
+    "twd_10pct_flexibility_cover_multiple": 1.8562867785879766,
+    "twd_10pct_flexibility_plus_above_top_cover_multiple": 2.593291782747841,
+    "moved_money_2031": 18494.70008423662,
+    "moved_pays": 20297.513207297936,
+    "returns_to_laura_8k": 75298.192416194
+   },
+   "house": {
+    "futures": 200000,
+    "stated_bottom_p5_p50_p95": [
+     85000.0,
+     95000.0,
+     115000.0
+    ],
+    "stated_top_p5_p50_p95": [
+     95000.0,
+     115000.0,
+     140000.0
+    ],
+    "width_p5_p50_p95": [
+     10000.0,
+     20000.0,
+     35000.0
+    ],
+    "share_width_zero_one_figure": 0.00127,
+    "count_width_zero_one_figure": 254,
+    "share_width_5k_or_less": 0.01647,
+    "contribution_p5_p50_p95": [
+     95000.0,
+     115000.0,
+     140000.0
+    ],
+    "contribution_min": 65000.0,
+    "share_contribution_inside_stated_range": 1.0,
+    "share_contribution_equals_stated_top": 1.0,
+    "funds_pay_p5_p50_p95": [
+     101092.84611771931,
+     124007.7665514291,
+     152051.4357665914
+    ],
+    "excess_p5_p50_p95": [
+     4339.732387873777,
+     7629.1054462812535,
+     11218.222198070978
+    ],
+    "flexibility_p1_p5_p50_p95": [
+     6670.465741764184,
+     9881.236889574937,
+     20738.638468607984,
+     41258.136025700245
+    ],
+    "flexibility_min": 0.0,
+    "flexibility_plus_above_top_p1_p5_p50_p95": [
+     12027.487603281988,
+     16193.060743308508,
+     28540.632639984036,
+     49923.93165155483
+    ],
+    "flexibility_plus_above_top_min": 1916.7165199425217,
+    "flexibility_median_if_shares_fell_2031_2033": 15422.661966962587,
+    "flexibility_plus_above_top_median_if_shares_fell_2031_2033": 23201.36850542436,
+    "share_shares_fell_2031_2033": 0.28422,
+    "flexibility_over_stated_top_p5_p50_p95": [
+     0.09361946562745374,
+     0.17777595911213445,
+     0.3231791296921732
+    ],
+    "flexibility_over_funds_pay_p5_p50_p95": [
+     0.08774620650865939,
+     0.16699439124111173,
+     0.3039002011966815
+    ],
+    "flexibility_plus_above_top_over_stated_top_p5_p50_p95": [
+     0.1561621553687404,
+     0.2441003888953725,
+     0.38803291823942204
+    ],
+    "contribution_plus_flexibility_plus_above_top_p5_p50_p95": [
+     113448.68481034618,
+     145686.5893674868,
+     187490.10920966437
+    ],
+    "vt_on_move_day_p5_p50_p95": [
+     19534.924719924802,
+     36095.28698250527,
+     61959.028851115545
+    ],
+    "twd_flexibility": {
+     "covers_10pct": 0.93191,
+     "fails_count_10pct": 13618,
+     "gap_when_fails_p50_p95_max_10pct": [
+      1407.1441089811801,
+      4553.120911696039,
+      8500.0
+     ],
+     "covers_strict_11.1pct": 0.890665,
+     "fails_count_strict_11.1pct": 21867,
+     "gap_when_fails_p50_p95_max_strict_11.1pct": [
+      1698.7675178719019,
+      5170.104670341095,
+      9588.250666134514
+     ],
+     "largest_stronger_twd_covered_19_in_20": 0.09361946562745374,
+     "covers_share_of_contribution": {
+      "0.10": 0.93191,
+      "0.13": 0.79685,
+      "0.17": 0.54864,
+      "0.20": 0.375715,
+      "0.30": 0.075495
+     }
+    },
+    "twd_flexibility_plus_above_top": {
+     "covers_10pct": 0.997665,
+     "fails_count_10pct": 467,
+     "gap_when_fails_p50_p95_max_10pct": [
+      1280.31141579809,
+      4430.517254031996,
+      6083.283480057478
+     ],
+     "covers_strict_11.1pct": 0.995635,
+     "fails_count_strict_11.1pct": 873,
+     "gap_when_fails_p50_p95_max_strict_11.1pct": [
+      1146.3224218406103,
+      4694.947566030866,
+      6972.172368946371
+     ],
+     "largest_stronger_twd_covered_19_in_20": 0.1561621553687404,
+     "covers_share_of_contribution": {
+      "0.10": 0.997665,
+      "0.13": 0.9871,
+      "0.17": 0.909775,
+      "0.20": 0.771235,
+      "0.30": 0.228615
+     }
+    }
+   },
+   "history": {
+    "futures": 1770,
+    "stated_bottom_p5_p50_p95": [
+     95000.0,
+     95000.0,
+     95000.0
+    ],
+    "stated_top_p5_p50_p95": [
+     110000.0,
+     115000.0,
+     130000.0
+    ],
+    "width_p5_p50_p95": [
+     15000.0,
+     20000.0,
+     35000.0
+    ],
+    "share_width_zero_one_figure": 0.0,
+    "count_width_zero_one_figure": 0,
+    "share_width_5k_or_less": 0.007344632768361582,
+    "contribution_p5_p50_p95": [
+     110000.0,
+     115000.0,
+     130000.0
+    ],
+    "contribution_min": 100000.0,
+    "share_contribution_inside_stated_range": 1.0,
+    "share_contribution_equals_stated_top": 1.0,
+    "funds_pay_p5_p50_p95": [
+     116782.4635181632,
+     124810.02386863026,
+     136745.67787431946
+    ],
+    "excess_p5_p50_p95": [
+     5322.161735611427,
+     7524.395054399283,
+     9846.011575431485
+    ],
+    "flexibility_p1_p5_p50_p95": [
+     8298.500768759512,
+     13238.259705759978,
+     23481.232203086234,
+     40607.47252898624
+    ],
+    "flexibility_min": 5779.454812061106,
+    "flexibility_plus_above_top_p1_p5_p50_p95": [
+     15230.753711229612,
+     20018.69042058216,
+     30901.57961950668,
+     48398.68006954035
+    ],
+    "flexibility_plus_above_top_min": 12838.137706827445,
+    "flexibility_median_if_shares_fell_2031_2033": 16163.901090360261,
+    "flexibility_plus_above_top_median_if_shares_fell_2031_2033": 23986.887021863637,
+    "share_shares_fell_2031_2033": 0.20734463276836157,
+    "flexibility_over_stated_top_p5_p50_p95": [
+     0.11784457233427034,
+     0.20069695393197995,
+     0.32718819748375044
+    ],
+    "flexibility_over_funds_pay_p5_p50_p95": [
+     0.10986467689141079,
+     0.18870128937248815,
+     0.3059217064545997
+    ],
+    "flexibility_plus_above_top_over_stated_top_p5_p50_p95": [
+     0.174838463646036,
+     0.2641460801475013,
+     0.3943201014922936
+    ],
+    "contribution_plus_flexibility_plus_above_top_p5_p50_p95": [
+     131547.75653147497,
+     148062.92271109403,
+     173857.56038019416
+    ],
+    "vt_on_move_day_p5_p50_p95": [
+     24792.16541856005,
+     39421.27979072032,
+     61172.35233738779
+    ],
+    "twd_flexibility": {
+     "covers_10pct": 0.9694915254237289,
+     "fails_count_10pct": 54,
+     "gap_when_fails_p50_p95_max_10pct": [
+      1795.389984795388,
+      4860.169972596362,
+      5756.166571002431
+     ],
+     "covers_strict_11.1pct": 0.9598870056497175,
+     "fails_count_strict_11.1pct": 71,
+     "gap_when_fails_p50_p95_max_strict_11.1pct": [
+      2513.449776666712,
+      5941.163299930189,
+      7089.49990433577
+     ],
+     "largest_stronger_twd_covered_19_in_20": 0.11784457233427034,
+     "covers_share_of_contribution": {
+      "0.10": 0.9694915254237289,
+      "0.13": 0.9005649717514125,
+      "0.17": 0.6700564971751413,
+      "0.20": 0.5045197740112994,
+      "0.30": 0.08644067796610169
+     }
+    },
+    "twd_flexibility_plus_above_top": {
+     "covers_10pct": 1.0,
+     "fails_count_10pct": 0,
+     "gap_when_fails_p50_p95_max_10pct": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "covers_strict_11.1pct": 1.0,
+     "fails_count_strict_11.1pct": 0,
+     "gap_when_fails_p50_p95_max_strict_11.1pct": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "largest_stronger_twd_covered_19_in_20": 0.174838463646036,
+     "covers_share_of_contribution": {
+      "0.10": 1.0,
+      "0.13": 0.9943502824858758,
+      "0.17": 0.9576271186440678,
+      "0.20": 0.8706214689265537,
+      "0.30": 0.2983050847457627
+     }
+    },
+    "worst_flexibility": {
+     "value": 5779.454812061106,
+     "start": "1929-09",
+     "stated_bottom": 95000.0,
+     "stated_top": 100000.0,
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "1929-09"
+     ]
+    },
+    "worst_flexibility_plus_above_top": {
+     "value": 12838.137706827445,
+     "start": "1928-03",
+     "stated_bottom": 95000.0,
+     "stated_top": 115000.0,
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "1928-03"
+     ]
+    },
+    "worst_contribution": {
+     "value": 100000.0,
+     "start": "1929-01",
+     "stated_bottom": 95000.0,
+     "stated_top": 100000.0,
+     "windows_at_minimum": 13,
+     "starts_at_minimum_first_12": [
+      "1929-01",
+      "1929-02",
+      "1929-03",
+      "1929-04",
+      "1929-05",
+      "1929-06",
+      "1929-07",
+      "1929-08",
+      "1929-09",
+      "1929-10",
+      "1930-02",
+      "1930-03"
+     ]
+    },
+    "real_twd_since_1983": {
+     "windows": 417,
+     "first_vt_purchase": "1983-10",
+     "last_vt_purchase": "2018-06",
+     "contribution_p5_p50_p95": [
+      110000.0,
+      120000.0,
+      130000.0
+     ],
+     "flexibility": {
+      "covers_actual_move": 0.9808153477218226,
+      "fails_count": 8,
+      "fails_starts": [
+       "1983-10",
+       "1983-11",
+       "1983-12",
+       "1984-01",
+       "1984-02",
+       "1984-03",
+       "2006-02",
+       "2006-03"
+      ],
+      "gap_when_fails_p50_max": [
+       1833.04731142554,
+       7311.6243748322595
+      ]
+     },
+     "flexibility_plus_above_top": {
+      "covers_actual_move": 0.9976019184652278,
+      "fails_count": 1,
+      "fails_starts": [
+       "1983-11"
+      ],
+      "gap_when_fails_p50_max": [
+       1755.4480506773398,
+       1755.4480506773398
+      ]
+     }
+    }
+   },
+   "joint": {
+    "futures": 585,
+    "stated_bottom_p5_p50_p95": [
+     80000.0,
+     95000.0,
+     115000.0
+    ],
+    "stated_top_p5_p50_p95": [
+     95000.0,
+     115000.0,
+     140000.0
+    ],
+    "width_p5_p50_p95": [
+     10000.0,
+     20000.0,
+     35000.0
+    ],
+    "share_width_zero_one_figure": 0.0,
+    "count_width_zero_one_figure": 0,
+    "share_width_5k_or_less": 0.0,
+    "contribution_p5_p50_p95": [
+     95000.0,
+     115000.0,
+     140000.0
+    ],
+    "contribution_min": 90000.0,
+    "share_contribution_inside_stated_range": 1.0,
+    "share_contribution_equals_stated_top": 1.0,
+    "funds_pay_p5_p50_p95": [
+     100886.5867727217,
+     125143.15706543377,
+     154210.46432425675
+    ],
+    "excess_p5_p50_p95": [
+     3521.539246672802,
+     7671.270769649214,
+     13133.724828631126
+    ],
+    "flexibility_p1_p5_p50_p95": [
+     12671.506120987127,
+     13873.816614965925,
+     23600.62243549682,
+     42014.51257881865
+    ],
+    "flexibility_min": 10977.74989052189,
+    "flexibility_plus_above_top_p1_p5_p50_p95": [
+     17627.453685827953,
+     19689.865491985405,
+     31808.792229182756,
+     49629.14676365184
+    ],
+    "flexibility_plus_above_top_min": 15965.26877419572,
+    "flexibility_median_if_shares_fell_2031_2033": 16298.016206506014,
+    "flexibility_plus_above_top_median_if_shares_fell_2031_2033": 26532.86250860474,
+    "share_shares_fell_2031_2033": 0.1623931623931624,
+    "flexibility_over_stated_top_p5_p50_p95": [
+     0.11573295122024302,
+     0.20624117829266658,
+     0.33306750375274263
+    ],
+    "flexibility_over_funds_pay_p5_p50_p95": [
+     0.10841528401633811,
+     0.19170278637990754,
+     0.31142816251574257
+    ],
+    "flexibility_plus_above_top_over_stated_top_p5_p50_p95": [
+     0.17599776941978895,
+     0.2742854055639956,
+     0.39785111805380174
+    ],
+    "contribution_plus_flexibility_plus_above_top_p5_p50_p95": [
+     120018.93354847346,
+     147719.6444967717,
+     187389.4553422056
+    ],
+    "vt_on_move_day_p5_p50_p95": [
+     23640.54299726032,
+     40179.3315892301,
+     60887.48089661473
+    ],
+    "twd_flexibility": {
+     "covers_10pct": 0.9931623931623932,
+     "fails_count_10pct": 4,
+     "gap_when_fails_p50_p95_max_10pct": [
+      745.8866589111003,
+      1011.7720375107301,
+      1022.2501094781092
+     ],
+     "covers_strict_11.1pct": 0.9726495726495726,
+     "fails_count_strict_11.1pct": 16,
+     "gap_when_fails_p50_p95_max_strict_11.1pct": [
+      1170.4306239112857,
+      2449.231100643595,
+      2730.1740741400336
+     ],
+     "largest_stronger_twd_covered_19_in_20": 0.11573295122024302,
+     "covers_share_of_contribution": {
+      "0.10": 0.9931623931623932,
+      "0.13": 0.8752136752136752,
+      "0.17": 0.676923076923077,
+      "0.20": 0.5367521367521367,
+      "0.30": 0.09914529914529914
+     }
+    },
+    "twd_flexibility_plus_above_top": {
+     "covers_10pct": 1.0,
+     "fails_count_10pct": 0,
+     "gap_when_fails_p50_p95_max_10pct": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "covers_strict_11.1pct": 1.0,
+     "fails_count_strict_11.1pct": 0,
+     "gap_when_fails_p50_p95_max_strict_11.1pct": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "largest_stronger_twd_covered_19_in_20": 0.17599776941978895,
+     "covers_share_of_contribution": {
+      "0.10": 1.0,
+      "0.13": 1.0,
+      "0.17": 0.9675213675213675,
+      "0.20": 0.8358974358974359,
+      "0.30": 0.3572649572649573
+     }
+    },
+    "returns_to_laura_8k_p5_p50_p95": [
+     40404.276864427586,
+     78583.58173398816,
+     120375.45220984073
+    ],
+    "worst_flexibility": {
+     "value": 10977.74989052189,
+     "start": "2003-03",
+     "stated_bottom": 95000.0,
+     "stated_top": 120000.0,
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "2003-03"
+     ]
+    },
+    "worst_flexibility_plus_above_top": {
+     "value": 15965.26877419572,
+     "start": "2006-05",
+     "stated_bottom": 95000.0,
+     "stated_top": 110000.0,
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "2006-05"
+     ]
+    },
+    "worst_contribution": {
+     "value": 90000.0,
+     "start": "2000-10",
+     "stated_bottom": 80000.0,
+     "stated_top": 90000.0,
+     "windows_at_minimum": 15,
+     "starts_at_minimum_first_12": [
+      "2000-10",
+      "2000-11",
+      "2000-12",
+      "2007-02",
+      "2007-03",
+      "2007-04",
+      "2007-05",
+      "2007-12",
+      "2008-01",
+      "2008-06",
+      "2008-07",
+      "2008-08"
+     ]
+    }
+   }
+  },
+  "move30": {
+   "label": "Move 30%; keep 70%",
+   "fraction_moved": 0.3,
+   "fraction_kept": 0.7,
+   "central_today": {
+    "stated_bottom": 95000.0,
+    "stated_top": 110000.0,
+    "bottom_raw": 98728.56167619981,
+    "top_raw": 110557.49986121403,
+    "width": 15000.0,
+    "funds_pay": 115356.55226491927,
+    "contribution": 110000.0,
+    "excess": 5356.552264919272,
+    "flexibility": 29886.217135266423,
+    "flexibility_plus_above_top": 35242.769400185694,
+    "contribution_plus_flexibility_plus_above_top": 145242.7694001857,
+    "flexibility_over_stated_top": 0.2716928830478766,
+    "flexibility_plus_above_top_over_stated_top": 0.32038881272896086,
+    "twd_10pct_need": 11000.0,
+    "twd_10pct_flexibility_cover_multiple": 2.7169288304787655,
+    "twd_10pct_flexibility_plus_above_top_cover_multiple": 3.2038881272896087,
+    "moved_money_2031": 11096.820050541972,
+    "moved_pays": 12178.50792437876,
+    "returns_to_laura_8k": 80710.83418931236
+   },
+   "house": {
+    "futures": 200000,
+    "stated_bottom_p5_p50_p95": [
+     85000.0,
+     95000.0,
+     115000.0
+    ],
+    "stated_top_p5_p50_p95": [
+     90000.0,
+     110000.0,
+     130000.0
+    ],
+    "width_p5_p50_p95": [
+     5000.0,
+     10000.0,
+     20000.0
+    ],
+    "share_width_zero_one_figure": 0.00441,
+    "count_width_zero_one_figure": 882,
+    "share_width_5k_or_less": 0.138755,
+    "contribution_p5_p50_p95": [
+     90000.0,
+     110000.0,
+     130000.0
+    ],
+    "contribution_min": 65000.0,
+    "share_contribution_inside_stated_range": 1.0,
+    "share_contribution_equals_stated_top": 1.0,
+    "funds_pay_p5_p50_p95": [
+     96213.37278729628,
+     115754.27976043723,
+     140338.209696408
+    ],
+    "excess_p5_p50_p95": [
+     4197.461962847609,
+     7401.7451368533,
+     10856.732576366607
+    ],
+    "flexibility_p1_p5_p50_p95": [
+     9338.652038469856,
+     13833.73164540491,
+     29034.093856051175,
+     57761.390435980335
+    ],
+    "flexibility_min": 0.0,
+    "flexibility_plus_above_top_p1_p5_p50_p95": [
+     14707.932602967205,
+     20139.850723858377,
+     36561.163546840515,
+     65978.45934215667
+    ],
+    "flexibility_plus_above_top_min": 1916.7165199425217,
+    "flexibility_median_if_shares_fell_2031_2033": 21591.726753747622,
+    "flexibility_plus_above_top_median_if_shares_fell_2031_2033": 29143.956880747566,
+    "share_shares_fell_2031_2033": 0.28422,
+    "flexibility_over_stated_top_p5_p50_p95": [
+     0.13737141709202105,
+     0.26705136132547225,
+     0.49720141884620095
+    ],
+    "flexibility_over_funds_pay_p5_p50_p95": [
+     0.12855188131250603,
+     0.25003698872167024,
+     0.4662680934520128
+    ],
+    "flexibility_plus_above_top_over_stated_top_p5_p50_p95": [
+     0.20270284851161596,
+     0.3356943048850535,
+     0.5644441357495703
+    ],
+    "contribution_plus_flexibility_plus_above_top_p5_p50_p95": [
+     113370.74611293717,
+     146064.68992023566,
+     189998.30472833273
+    ],
+    "vt_on_move_day_p5_p50_p95": [
+     19534.924719924802,
+     36095.28698250527,
+     61959.028851115545
+    ],
+    "twd_flexibility": {
+     "covers_10pct": 0.98948,
+     "fails_count_10pct": 2104,
+     "gap_when_fails_p50_p95_max_10pct": [
+      1392.3049762515666,
+      6097.797473747472,
+      8500.0
+     ],
+     "covers_strict_11.1pct": 0.98219,
+     "fails_count_strict_11.1pct": 3562,
+     "gap_when_fails_p50_p95_max_strict_11.1pct": [
+      1415.515517064321,
+      5882.351977855372,
+      9444.444444444449
+     ],
+     "largest_stronger_twd_covered_19_in_20": 0.13737141709202105,
+     "covers_share_of_contribution": {
+      "0.10": 0.98948,
+      "0.13": 0.961815,
+      "0.17": 0.873455,
+      "0.20": 0.770165,
+      "0.30": 0.381115
+     }
+    },
+    "twd_flexibility_plus_above_top": {
+     "covers_10pct": 0.998855,
+     "fails_count_10pct": 229,
+     "gap_when_fails_p50_p95_max_10pct": [
+      1701.0736599759612,
+      5022.12733203634,
+      6083.283480057478
+     ],
+     "covers_strict_11.1pct": 0.99843,
+     "fails_count_strict_11.1pct": 314,
+     "gap_when_fails_p50_p95_max_strict_11.1pct": [
+      1930.1731726348057,
+      5595.078263111699,
+      6972.172368946371
+     ],
+     "largest_stronger_twd_covered_19_in_20": 0.20270284851161596,
+     "covers_share_of_contribution": {
+      "0.10": 0.998855,
+      "0.13": 0.996875,
+      "0.17": 0.98472,
+      "0.20": 0.95437,
+      "0.30": 0.643745
+     }
+    },
+    "against_plan": {
+     "contribution_difference_p5_p50_p95": [
+      -15000.0,
+      -10000.0,
+      -5000.0
+     ],
+     "share_contribution_above_plan": 0.0,
+     "share_contribution_below_plan": 0.977745,
+     "share_contribution_same_as_plan": 0.022255,
+     "flexibility_difference_p5_p50_p95": [
+      3952.494755829973,
+      8295.455387443191,
+      16503.254410280097
+     ],
+     "flexibility_plus_above_top_difference_p5_p50_p95": [
+      3151.2160080432163,
+      8312.370515771605,
+      16722.064966721457
+     ],
+     "total_difference_p5_p50_p95": [
+      -2708.9178650681097,
+      372.4635691364747,
+      5169.029568222569
+     ],
+     "share_total_above_plan": 0.578185
+    }
+   },
+   "history": {
+    "futures": 1770,
+    "stated_bottom_p5_p50_p95": [
+     95000.0,
+     95000.0,
+     95000.0
+    ],
+    "stated_top_p5_p50_p95": [
+     105000.0,
+     110000.0,
+     115000.0
+    ],
+    "width_p5_p50_p95": [
+     10000.0,
+     15000.0,
+     20000.0
+    ],
+    "share_width_zero_one_figure": 0.0,
+    "count_width_zero_one_figure": 0,
+    "share_width_5k_or_less": 0.01694915254237288,
+    "contribution_p5_p50_p95": [
+     105000.0,
+     110000.0,
+     115000.0
+    ],
+    "contribution_min": 100000.0,
+    "share_contribution_inside_stated_range": 1.0,
+    "share_contribution_equals_stated_top": 1.0,
+    "funds_pay_p5_p50_p95": [
+     111340.69584711413,
+     116157.23205739436,
+     123318.62446080789
+    ],
+    "excess_p5_p50_p95": [
+     5071.693413400188,
+     7440.147783401502,
+     9565.303020036767
+    ],
+    "flexibility_p1_p5_p50_p95": [
+     11617.901076263315,
+     18533.563588063967,
+     32873.72508432072,
+     56850.461540580734
+    ],
+    "flexibility_min": 8091.236736885548,
+    "flexibility_plus_above_top_p1_p5_p50_p95": [
+     18835.42133522244,
+     25280.583916229858,
+     39995.269323109955,
+     64284.22941644777
+    ],
+    "flexibility_plus_above_top_min": 14450.06727294928,
+    "flexibility_median_if_shares_fell_2031_2033": 22629.461526504365,
+    "flexibility_plus_above_top_median_if_shares_fell_2031_2033": 30255.150369667394,
+    "share_shares_fell_2031_2033": 0.20734463276836157,
+    "flexibility_over_stated_top_p5_p50_p95": [
+     0.17489194688497067,
+     0.30197291098229895,
+     0.504636735898659
+    ],
+    "flexibility_over_funds_pay_p5_p50_p95": [
+     0.16337805397775573,
+     0.28291648446559675,
+     0.4709206715680751
+    ],
+    "flexibility_plus_above_top_over_stated_top_p5_p50_p95": [
+     0.23441271253736984,
+     0.3666656283625657,
+     0.5719584633665133
+    ],
+    "contribution_plus_flexibility_plus_above_top_p5_p50_p95": [
+     131449.04942539567,
+     149141.48675302858,
+     177442.13328968955
+    ],
+    "vt_on_move_day_p5_p50_p95": [
+     24792.16541856005,
+     39421.27979072032,
+     61172.35233738779
+    ],
+    "twd_flexibility": {
+     "covers_10pct": 0.9943502824858758,
+     "fails_count_10pct": 10,
+     "gap_when_fails_p50_p95_max_10pct": [
+      1130.7266063974457,
+      2122.1903594430896,
+      2258.6331994034044
+     ],
+     "covers_strict_11.1pct": 0.9892655367231639,
+     "fails_count_strict_11.1pct": 19,
+     "gap_when_fails_p50_p95_max_strict_11.1pct": [
+      1558.3281339452333,
+      3207.969741705003,
+      3480.8554216256325
+     ],
+     "largest_stronger_twd_covered_19_in_20": 0.17489194688497067,
+     "covers_share_of_contribution": {
+      "0.10": 0.9943502824858758,
+      "0.13": 0.9790960451977401,
+      "0.17": 0.9570621468926553,
+      "0.20": 0.8785310734463276,
+      "0.30": 0.5050847457627119
+     }
+    },
+    "twd_flexibility_plus_above_top": {
+     "covers_10pct": 1.0,
+     "fails_count_10pct": 0,
+     "gap_when_fails_p50_p95_max_10pct": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "covers_strict_11.1pct": 1.0,
+     "fails_count_strict_11.1pct": 0,
+     "gap_when_fails_p50_p95_max_strict_11.1pct": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "largest_stronger_twd_covered_19_in_20": 0.23441271253736984,
+     "covers_share_of_contribution": {
+      "0.10": 1.0,
+      "0.13": 1.0,
+      "0.17": 0.9926553672316384,
+      "0.20": 0.9745762711864406,
+      "0.30": 0.7677966101694915
+     }
+    },
+    "worst_flexibility": {
+     "value": 8091.236736885548,
+     "start": "1929-09",
+     "stated_bottom": 95000.0,
+     "stated_top": 100000.0,
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "1929-09"
+     ]
+    },
+    "worst_flexibility_plus_above_top": {
+     "value": 14450.06727294928,
+     "start": "1929-09",
+     "stated_bottom": 95000.0,
+     "stated_top": 100000.0,
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "1929-09"
+     ]
+    },
+    "worst_contribution": {
+     "value": 100000.0,
+     "start": "1928-09",
+     "stated_bottom": 95000.0,
+     "stated_top": 100000.0,
+     "windows_at_minimum": 30,
+     "starts_at_minimum_first_12": [
+      "1928-09",
+      "1928-10",
+      "1928-11",
+      "1928-12",
+      "1929-01",
+      "1929-02",
+      "1929-03",
+      "1929-04",
+      "1929-05",
+      "1929-06",
+      "1929-07",
+      "1929-08"
+     ]
+    },
+    "against_plan": {
+     "contribution_difference_p5_p50_p95": [
+      -15000.0,
+      -10000.0,
+      -5000.0
+     ],
+     "share_contribution_above_plan": 0.0,
+     "share_contribution_below_plan": 0.9858757062146892,
+     "share_contribution_same_as_plan": 0.014124293785310734,
+     "flexibility_difference_p5_p50_p95": [
+      5295.303882303991,
+      9392.49288123449,
+      16242.98901159449
+     ],
+     "flexibility_plus_above_top_difference_p5_p50_p95": [
+      3597.169541790848,
+      9793.680031523185,
+      16420.41169100708
+     ],
+     "total_difference_p5_p50_p95": [
+      -2754.826660226367,
+      877.1001254662551,
+      4947.458855994003
+     ],
+     "share_total_above_plan": 0.6807909604519774
+    },
+    "real_twd_since_1983": {
+     "windows": 417,
+     "first_vt_purchase": "1983-10",
+     "last_vt_purchase": "2018-06",
+     "contribution_p5_p50_p95": [
+      105000.0,
+      110000.0,
+      115000.0
+     ],
+     "flexibility": {
+      "covers_actual_move": 1.0,
+      "fails_count": 0,
+      "fails_starts": [],
+      "gap_when_fails_p50_max": [
+       0.0,
+       0.0
+      ]
+     },
+     "flexibility_plus_above_top": {
+      "covers_actual_move": 1.0,
+      "fails_count": 0,
+      "fails_starts": [],
+      "gap_when_fails_p50_max": [
+       0.0,
+       0.0
+      ]
+     }
+    }
+   },
+   "joint": {
+    "futures": 585,
+    "stated_bottom_p5_p50_p95": [
+     80000.0,
+     95000.0,
+     115000.0
+    ],
+    "stated_top_p5_p50_p95": [
+     90000.0,
+     110000.0,
+     130000.0
+    ],
+    "width_p5_p50_p95": [
+     5000.0,
+     15000.0,
+     20000.0
+    ],
+    "share_width_zero_one_figure": 0.0,
+    "count_width_zero_one_figure": 0,
+    "share_width_5k_or_less": 0.07008547008547009,
+    "contribution_p5_p50_p95": [
+     90000.0,
+     110000.0,
+     130000.0
+    ],
+    "contribution_min": 85000.0,
+    "share_contribution_inside_stated_range": 1.0,
+    "share_contribution_equals_stated_top": 1.0,
+    "funds_pay_p5_p50_p95": [
+     95325.19827318609,
+     116553.03497577045,
+     143530.24939459554
+    ],
+    "excess_p5_p50_p95": [
+     2946.7230650223037,
+     7253.068720986717,
+     12899.045420609395
+    ],
+    "flexibility_p1_p5_p50_p95": [
+     17740.108569381977,
+     19423.343260952293,
+     33040.87140969555,
+     58820.31761034611
+    ],
+    "flexibility_min": 15368.849846730645,
+    "flexibility_plus_above_top_p1_p5_p50_p95": [
+     22875.940766353186,
+     24857.18939546888,
+     40894.43203851975,
+     67030.0260063846
+    ],
+    "flexibility_plus_above_top_min": 20806.683899863856,
+    "flexibility_median_if_shares_fell_2031_2033": 22817.222689108417,
+    "flexibility_plus_above_top_median_if_shares_fell_2031_2033": 32137.521504497956,
+    "share_shares_fell_2031_2033": 0.1623931623931624,
+    "flexibility_over_stated_top_p5_p50_p95": [
+     0.1721029629140244,
+     0.309561350542484,
+     0.5160372321498211
+    ],
+    "flexibility_over_funds_pay_p5_p50_p95": [
+     0.1604935680402451,
+     0.2886043211118652,
+     0.48110932287855557
+    ],
+    "flexibility_plus_above_top_over_stated_top_p5_p50_p95": [
+     0.2340377336742557,
+     0.3871562099900517,
+     0.5876192173006038
+    ],
+    "contribution_plus_flexibility_plus_above_top_p5_p50_p95": [
+     121607.94988933824,
+     148931.76916163822,
+     188067.8639847644
+    ],
+    "vt_on_move_day_p5_p50_p95": [
+     23640.54299726032,
+     40179.3315892301,
+     60887.48089661473
+    ],
+    "twd_flexibility": {
+     "covers_10pct": 1.0,
+     "fails_count_10pct": 0,
+     "gap_when_fails_p50_p95_max_10pct": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "covers_strict_11.1pct": 1.0,
+     "fails_count_strict_11.1pct": 0,
+     "gap_when_fails_p50_p95_max_strict_11.1pct": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "largest_stronger_twd_covered_19_in_20": 0.1721029629140244,
+     "covers_share_of_contribution": {
+      "0.10": 1.0,
+      "0.13": 1.0,
+      "0.17": 0.958974358974359,
+      "0.20": 0.8393162393162393,
+      "0.30": 0.5435897435897435
+     }
+    },
+    "twd_flexibility_plus_above_top": {
+     "covers_10pct": 1.0,
+     "fails_count_10pct": 0,
+     "gap_when_fails_p50_p95_max_10pct": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "covers_strict_11.1pct": 1.0,
+     "fails_count_strict_11.1pct": 0,
+     "gap_when_fails_p50_p95_max_strict_11.1pct": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "largest_stronger_twd_covered_19_in_20": 0.2340377336742557,
+     "covers_share_of_contribution": {
+      "0.10": 1.0,
+      "0.13": 1.0,
+      "0.17": 1.0,
+      "0.20": 0.9965811965811966,
+      "0.30": 0.747008547008547
+     }
+    },
+    "returns_to_laura_8k_p5_p50_p95": [
+     46705.37467376289,
+     88214.14996012455,
+     135213.4437243864
+    ],
+    "worst_flexibility": {
+     "value": 15368.849846730645,
+     "start": "2003-03",
+     "stated_bottom": 95000.0,
+     "stated_top": 110000.0,
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "2003-03"
+     ]
+    },
+    "worst_flexibility_plus_above_top": {
+     "value": 20806.683899863856,
+     "start": "1997-04",
+     "stated_bottom": 95000.0,
+     "stated_top": 105000.0,
+     "windows_at_minimum": 1,
+     "starts_at_minimum_first_12": [
+      "1997-04"
+     ]
+    },
+    "worst_contribution": {
+     "value": 85000.0,
+     "start": "2000-10",
+     "stated_bottom": 80000.0,
+     "stated_top": 85000.0,
+     "windows_at_minimum": 19,
+     "starts_at_minimum_first_12": [
+      "2000-10",
+      "2000-11",
+      "2000-12",
+      "2007-02",
+      "2007-03",
+      "2007-04",
+      "2007-05",
+      "2007-09",
+      "2007-10",
+      "2007-11",
+      "2007-12",
+      "2008-01"
+     ]
+    },
+    "against_plan": {
+     "contribution_difference_p5_p50_p95": [
+      -15000.0,
+      -10000.0,
+      -5000.0
+     ],
+     "share_contribution_above_plan": 0.0,
+     "share_contribution_below_plan": 0.9914529914529915,
+     "share_contribution_same_as_plan": 0.008547008547008548,
+     "flexibility_difference_p5_p50_p95": [
+      5549.526645986369,
+      9440.24897419873,
+      16805.805031527456
+     ],
+     "flexibility_plus_above_top_difference_p5_p50_p95": [
+      4225.528696438683,
+      9216.530986989284,
+      16765.761050259
+     ],
+     "total_difference_p5_p50_p95": [
+      -3338.711208923557,
+      1094.4142071616952,
+      5058.637369465765
+     ],
+     "share_total_above_plan": 0.7299145299145299
+    }
+   }
+  }
+ },
+ "central_frontier": {
+  "by_fraction": [
+   {
+    "fraction_moved": 0.0,
+    "stated_bottom": 95000.0,
+    "stated_top": 95000.0,
+    "top_raw": 98728.56167619981,
+    "funds_pay": 103178.04434054051,
+    "contribution": 95000.0,
+    "excess": 8178.044340540509,
+    "flexibility": 42694.595907523464,
+    "flexibility_plus_above_top": 50872.64024806398,
+    "total": 145872.64024806398
+   },
+   {
+    "fraction_moved": 0.05,
+    "stated_bottom": 95000.0,
+    "stated_top": 100000.0,
+    "top_raw": 100700.05137370218,
+    "funds_pay": 105207.7956612703,
+    "contribution": 100000.0,
+    "excess": 5207.795661270298,
+    "flexibility": 40559.86611214729,
+    "flexibility_plus_above_top": 45767.66177341758,
+    "total": 145767.66177341758
+   },
+   {
+    "fraction_moved": 0.1,
+    "stated_bottom": 95000.0,
+    "stated_top": 100000.0,
+    "top_raw": 102671.54107120454,
+    "funds_pay": 107237.5469820001,
+    "contribution": 100000.0,
+    "excess": 7237.546982000102,
+    "flexibility": 38425.13631677112,
+    "flexibility_plus_above_top": 45662.68329877121,
+    "total": 145662.6832987712
+   },
+   {
+    "fraction_moved": 0.15,
+    "stated_bottom": 95000.0,
+    "stated_top": 100000.0,
+    "top_raw": 104643.03076870693,
+    "funds_pay": 109267.29830272989,
+    "contribution": 100000.0,
+    "excess": 9267.29830272989,
+    "flexibility": 36290.40652139494,
+    "flexibility_plus_above_top": 45557.70482412484,
+    "total": 145557.7048241248
+   },
+   {
+    "fraction_moved": 0.2,
+    "stated_bottom": 95000.0,
+    "stated_top": 105000.0,
+    "top_raw": 106614.5204662093,
+    "funds_pay": 111297.04962345968,
+    "contribution": 105000.0,
+    "excess": 6297.049623459679,
+    "flexibility": 34155.67672601877,
+    "flexibility_plus_above_top": 40452.72634947844,
+    "total": 145452.72634947847
+   },
+   {
+    "fraction_moved": 0.25,
+    "stated_bottom": 95000.0,
+    "stated_top": 105000.0,
+    "top_raw": 108586.01016371167,
+    "funds_pay": 113326.80094418948,
+    "contribution": 105000.0,
+    "excess": 8326.800944189483,
+    "flexibility": 32020.946930642596,
+    "flexibility_plus_above_top": 40347.74787483207,
+    "total": 145347.74787483207
+   },
+   {
+    "fraction_moved": 0.3,
+    "stated_bottom": 95000.0,
+    "stated_top": 110000.0,
+    "top_raw": 110557.49986121403,
+    "funds_pay": 115356.55226491927,
+    "contribution": 110000.0,
+    "excess": 5356.552264919272,
+    "flexibility": 29886.217135266423,
+    "flexibility_plus_above_top": 35242.7694001857,
+    "total": 145242.7694001857
+   },
+   {
+    "fraction_moved": 0.35,
+    "stated_bottom": 95000.0,
+    "stated_top": 110000.0,
+    "top_raw": 112528.9895587164,
+    "funds_pay": 117386.30358564906,
+    "contribution": 110000.0,
+    "excess": 7386.303585649061,
+    "flexibility": 27751.487339890253,
+    "flexibility_plus_above_top": 35137.7909255393,
+    "total": 145137.7909255393
+   },
+   {
+    "fraction_moved": 0.4,
+    "stated_bottom": 95000.0,
+    "stated_top": 110000.0,
+    "top_raw": 114500.47925621878,
+    "funds_pay": 119416.05490637886,
+    "contribution": 110000.0,
+    "excess": 9416.054906378864,
+    "flexibility": 25616.75754451408,
+    "flexibility_plus_above_top": 35032.81245089293,
+    "total": 145032.81245089293
+   },
+   {
+    "fraction_moved": 0.45,
+    "stated_bottom": 95000.0,
+    "stated_top": 115000.0,
+    "top_raw": 116471.96895372115,
+    "funds_pay": 121445.80622710865,
+    "contribution": 115000.0,
+    "excess": 6445.806227108653,
+    "flexibility": 23482.027749137906,
+    "flexibility_plus_above_top": 29927.833976246562,
+    "total": 144927.83397624653
+   },
+   {
+    "fraction_moved": 0.5,
+    "stated_bottom": 95000.0,
+    "stated_top": 115000.0,
+    "top_raw": 118443.45865122353,
+    "funds_pay": 123475.55754783844,
+    "contribution": 115000.0,
+    "excess": 8475.557547838442,
+    "flexibility": 21347.297953761732,
+    "flexibility_plus_above_top": 29822.855501600163,
+    "total": 144822.8555016002
+   },
+   {
+    "fraction_moved": 0.55,
+    "stated_bottom": 95000.0,
+    "stated_top": 120000.0,
+    "top_raw": 120414.9483487259,
+    "funds_pay": 125505.30886856825,
+    "contribution": 120000.0,
+    "excess": 5505.308868568245,
+    "flexibility": 19212.56815838556,
+    "flexibility_plus_above_top": 24717.877026953793,
+    "total": 144717.8770269538
+   },
+   {
+    "fraction_moved": 0.6,
+    "stated_bottom": 95000.0,
+    "stated_top": 120000.0,
+    "top_raw": 122386.43804622827,
+    "funds_pay": 127535.06018929803,
+    "contribution": 120000.0,
+    "excess": 7535.060189298034,
+    "flexibility": 17077.838363009385,
+    "flexibility_plus_above_top": 24612.898552307423,
+    "total": 144612.8985523074
+   },
+   {
+    "fraction_moved": 0.65,
+    "stated_bottom": 95000.0,
+    "stated_top": 120000.0,
+    "top_raw": 124357.92774373064,
+    "funds_pay": 129564.81151002782,
+    "contribution": 120000.0,
+    "excess": 9564.811510027823,
+    "flexibility": 14943.108567633211,
+    "flexibility_plus_above_top": 24507.920077661023,
+    "total": 144507.92007766105
+   },
+   {
+    "fraction_moved": 0.7,
+    "stated_bottom": 95000.0,
+    "stated_top": 125000.0,
+    "top_raw": 126329.41744123302,
+    "funds_pay": 131594.5628307576,
+    "contribution": 125000.0,
+    "excess": 6594.562830757612,
+    "flexibility": 12808.378772257041,
+    "flexibility_plus_above_top": 19402.941603014653,
+    "total": 144402.94160301465
+   },
+   {
+    "fraction_moved": 0.75,
+    "stated_bottom": 95000.0,
+    "stated_top": 125000.0,
+    "top_raw": 128300.90713873538,
+    "funds_pay": 133624.31415148743,
+    "contribution": 125000.0,
+    "excess": 8624.31415148743,
+    "flexibility": 10673.648976880866,
+    "flexibility_plus_above_top": 19297.963128368283,
+    "total": 144297.96312836825
+   },
+   {
+    "fraction_moved": 0.8,
+    "stated_bottom": 95000.0,
+    "stated_top": 130000.0,
+    "top_raw": 130272.39683623776,
+    "funds_pay": 135654.06547221722,
+    "contribution": 130000.0,
+    "excess": 5654.0654722172185,
+    "flexibility": 8538.91918150469,
+    "flexibility_plus_above_top": 14192.984653721913,
+    "total": 144192.9846537219
+   },
+   {
+    "fraction_moved": 0.85,
+    "stated_bottom": 95000.0,
+    "stated_top": 130000.0,
+    "top_raw": 132243.88653374012,
+    "funds_pay": 137683.816792947,
+    "contribution": 130000.0,
+    "excess": 7683.816792947007,
+    "flexibility": 6404.189386128521,
+    "flexibility_plus_above_top": 14088.006179075514,
+    "total": 144088.0061790755
+   },
+   {
+    "fraction_moved": 0.9,
+    "stated_bottom": 95000.0,
+    "stated_top": 130000.0,
+    "top_raw": 134215.3762312425,
+    "funds_pay": 139713.5681136768,
+    "contribution": 130000.0,
+    "excess": 9713.568113676796,
+    "flexibility": 4269.459590752345,
+    "flexibility_plus_above_top": 13983.027704429143,
+    "total": 143983.0277044291
+   },
+   {
+    "fraction_moved": 0.95,
+    "stated_bottom": 95000.0,
+    "stated_top": 135000.0,
+    "top_raw": 136186.86592874487,
+    "funds_pay": 141743.31943440659,
+    "contribution": 135000.0,
+    "excess": 6743.319434406585,
+    "flexibility": 2134.729795376175,
+    "flexibility_plus_above_top": 8878.049229782773,
+    "total": 143878.04922978277
+   },
+   {
+    "fraction_moved": 1.0,
+    "stated_bottom": 95000.0,
+    "stated_top": 135000.0,
+    "top_raw": 138158.35562624724,
+    "funds_pay": 143773.07075513637,
+    "contribution": 135000.0,
+    "excess": 8773.070755136374,
+    "flexibility": 0.0,
+    "flexibility_plus_above_top": 8773.070755136374,
+    "total": 143773.07075513637
+   }
+  ],
+  "step_starts": [
+   {
+    "stated_top": 100000.0,
+    "fraction_moved_from": 0.03224562434718634,
+    "flexibility": 41317.88200623454,
+    "excess": 4487.05631266968,
+    "flexibility_plus_above_top": 45804.93831890423
+   },
+   {
+    "stated_top": 105000.0,
+    "fraction_moved_from": 0.15905328675430844,
+    "flexibility": 35903.88010178481,
+    "excess": 4634.816717659953,
+    "flexibility_plus_above_top": 40538.69681944477
+   },
+   {
+    "stated_top": 110000.0,
+    "fraction_moved_from": 0.2858609491614305,
+    "flexibility": 30489.878197335078,
+    "excess": 4782.577122650226,
+    "flexibility_plus_above_top": 35272.45531998531
+   },
+   {
+    "stated_top": 115000.0,
+    "fraction_moved_from": 0.4126686115685526,
+    "flexibility": 25075.876292885347,
+    "excess": 4930.337527640513,
+    "flexibility_plus_above_top": 30006.213820525852
+   },
+   {
+    "stated_top": 120000.0,
+    "fraction_moved_from": 0.5394762739756748,
+    "flexibility": 19661.87438843561,
+    "excess": 5078.097932630786,
+    "flexibility_plus_above_top": 24739.972321066394
+   },
+   {
+    "stated_top": 125000.0,
+    "fraction_moved_from": 0.6662839363827968,
+    "flexibility": 14247.872483985882,
+    "excess": 5225.858337621059,
+    "flexibility_plus_above_top": 19473.730821606936
+   },
+   {
+    "stated_top": 130000.0,
+    "fraction_moved_from": 0.793091598789919,
+    "flexibility": 8833.87057953615,
+    "excess": 5373.6187426113465,
+    "flexibility_plus_above_top": 14207.489322147507
+   },
+   {
+    "stated_top": 135000.0,
+    "fraction_moved_from": 0.919899261197041,
+    "flexibility": 3419.8686750864185,
+    "excess": 5521.379147601605,
+    "flexibility_plus_above_top": 8941.24782268802
+   }
+  ],
+  "note": "central only (today's forwards, VT 7.5% a year); a benchmark of the trade, not a choice open to Caplet (IPS l.15 is frozen at half)"
+ },
+ "checks": {
+  "central_vs_NUMBERS_4": {
+   "stated": [
+    [
+     95000.0,
+     115000.0
+    ],
+    [
+     95000.0,
+     115000.0
+    ]
+   ],
+   "unrounded": [
+    [
+     98728.56167619981,
+     118443.45865122353
+    ],
+    [
+     98728.56167619981,
+     118443.45865122353
+    ]
+   ],
+   "funds_pay": [
+    123475.55754783844,
+    123475.55754783844
+   ],
+   "contribution": [
+    115000.0,
+    115000.0
+   ],
+   "excess": [
+    8475.557547838442,
+    8475.557547838442
+   ],
+   "half_kept": [
+    21347.297953761732,
+    21347.297953761732
+   ],
+   "half_kept_plus_excess": [
+    29822.855501600174,
+    29822.855501600174
+   ],
+   "total": [
+    144822.8555016002,
+    144822.85550160016
+   ]
+  },
+  "house_vs_NUMBERS_4_and_8f": {
+   "stated_bottom": [
+    [
+     85000.0,
+     95000.0,
+     115000.0
+    ],
+    [
+     85000.0,
+     95000.0,
+     115000.0
+    ]
+   ],
+   "stated_top": [
+    [
+     95000.0,
+     115000.0,
+     140000.0
+    ],
+    [
+     95000.0,
+     115000.0,
+     140000.0
+    ]
+   ],
+   "contribution": [
+    [
+     95000.0,
+     115000.0,
+     140000.0
+    ],
+    [
+     95000.0,
+     115000.0,
+     140000.0
+    ]
+   ],
+   "excess": [
+    [
+     4339.732387873777,
+     7629.1054462812535,
+     11218.222198070978
+    ],
+    [
+     4339.732387873777,
+     7629.1054462812535,
+     11218.222198070978
+    ]
+   ],
+   "half_kept_p1_p5_p50_p95": [
+    [
+     6670.465741764184,
+     9881.236889574937,
+     20738.638468607984,
+     41258.136025700245
+    ],
+    [
+     6670.465741764184,
+     9881.236889574937,
+     20738.638468607984,
+     41258.136025700245
+    ]
+   ],
+   "half_kept_plus_excess_p1_p5_p50_p95": [
+    [
+     12027.487603281988,
+     16193.060743308508,
+     28540.632639984036,
+     49923.93165155483
+    ],
+    [
+     12027.487603281988,
+     16193.060743308508,
+     28540.632639984036,
+     49923.93165155483
+    ]
+   ],
+   "half_kept_over_funds_pay_8f": [
+    [
+     0.08774620650865939,
+     0.16699439124111173,
+     0.3039002011966815
+    ],
+    [
+     0.08774620650865939,
+     0.16699439124111173,
+     0.3039002011966815
+    ]
+   ],
+   "half_kept_median_if_fell": [
+    15422.661966962587,
+    15422.661966962587
+   ],
+   "half_kept_plus_excess_median_if_fell": [
+    23201.36850542436,
+    23201.36850542436
+   ],
+   "total": [
+    [
+     113448.68481034618,
+     145686.5893674868,
+     187490.10920966437
+    ],
+    [
+     113448.68481034618,
+     145686.58936748677,
+     187490.10920966437
+    ]
+   ]
+  },
+  "history_vs_NUMBERS_4_and_8f": {
+   "stated_top": [
+    [
+     110000.0,
+     115000.0,
+     130000.0
+    ],
+    [
+     110000.0,
+     115000.0,
+     130000.0
+    ]
+   ],
+   "half_kept_p1_p5_p50_p95": [
+    [
+     8298.500768759512,
+     13238.259705759978,
+     23481.232203086234,
+     40607.47252898624
+    ],
+    [
+     8298.500768759512,
+     13238.259705759978,
+     23481.232203086234,
+     40607.47252898624
+    ]
+   ],
+   "half_kept_plus_excess_p1_p5_p50_p95": [
+    [
+     15230.753711229612,
+     20018.69042058216,
+     30901.57961950668,
+     48398.68006954035
+    ],
+    [
+     15230.753711229612,
+     20018.69042058216,
+     30901.57961950668,
+     48398.68006954035
+    ]
+   ],
+   "half_kept_plus_excess_lowest": [
+    12838.137706827445,
+    12838.137706827445
+   ],
+   "half_kept_over_funds_pay_8f": [
+    [
+     0.10986467689141079,
+     0.18870128937248815,
+     0.3059217064545997
+    ],
+    [
+     0.10986467689141079,
+     0.18870128937248815,
+     0.3059217064545997
+    ]
+   ],
+   "half_kept_lowest": [
+    5779.454812061106,
+    5779.454812061106
+   ],
+   "half_kept_lowest_start": [
+    "1929-09",
+    "1929-09"
+   ]
+  },
+  "joint_vs_NUMBERS_8i": {
+   "stated_bottom": [
+    [
+     80000.0,
+     95000.0,
+     115000.0
+    ],
+    [
+     80000.0,
+     95000.0,
+     115000.0
+    ]
+   ],
+   "stated_top": [
+    [
+     95000.0,
+     115000.0,
+     140000.0
+    ],
+    [
+     95000.0,
+     115000.0,
+     140000.0
+    ]
+   ],
+   "half_kept_p1_p5_p50_p95": [
+    [
+     12671.506120987127,
+     13873.816614965925,
+     23600.62243549682,
+     42014.51257881865
+    ],
+    [
+     12671.506120987127,
+     13873.816614965925,
+     23600.62243549682,
+     42014.51257881865
+    ]
+   ],
+   "max_abs_diff_vs_joint_stress_J": {
+    "bottom_stated": 0.0,
+    "top_stated": 0.0,
+    "gift_capped": 0.0,
+    "excess": 0.0,
+    "kept33": 0.0
+   }
+  },
+  "twd_vs_NUMBERS_8j": {
+   "house": {
+    "flexibility_covers_10pct": [
+     0.93191,
+     0.93191
+    ],
+    "flexibility_fails": [
+     13618,
+     13618
+    ],
+    "flexibility_covers_strict": [
+     0.890665,
+     0.890665
+    ],
+    "flexibility_19_in_20": [
+     0.09361946562745374,
+     0.09361946562745374
+    ],
+    "plus_above_top_covers_10pct": [
+     0.997665,
+     0.997665
+    ],
+    "plus_above_top_fails": [
+     467,
+     467
+    ],
+    "shares_of_contribution_flexibility": [
+     {
+      "0.10": 0.93191,
+      "0.13": 0.79685,
+      "0.17": 0.54864,
+      "0.20": 0.375715,
+      "0.30": 0.075495
+     },
+     {
+      "0.10": 0.93191,
+      "0.13": 0.79685,
+      "0.17": 0.54864,
+      "0.20": 0.375715,
+      "0.30": 0.075495
+     }
+    ],
+    "shares_of_contribution_plus_above_top": [
+     {
+      "0.10": 0.997665,
+      "0.13": 0.9871,
+      "0.17": 0.909775,
+      "0.20": 0.771235,
+      "0.30": 0.228615
+     },
+     {
+      "0.10": 0.997665,
+      "0.13": 0.9871,
+      "0.17": 0.909775,
+      "0.20": 0.771235,
+      "0.30": 0.228615
+     }
+    ]
+   },
+   "history_rates_at_forwards": {
+    "flexibility_covers_10pct": [
+     0.9694915254237289,
+     0.9694915254237289
+    ],
+    "flexibility_fails": [
+     54,
+     54
+    ],
+    "flexibility_covers_strict": [
+     0.9598870056497175,
+     0.9598870056497175
+    ],
+    "flexibility_19_in_20": [
+     0.11784457233427034,
+     0.11784457233427034
+    ],
+    "plus_above_top_covers_10pct": [
+     1.0,
+     1.0
+    ],
+    "plus_above_top_fails": [
+     0,
+     0
+    ],
+    "shares_of_contribution_flexibility": [
+     {
+      "0.10": 0.9694915254237289,
+      "0.13": 0.9005649717514125,
+      "0.17": 0.6700564971751413,
+      "0.20": 0.5045197740112994,
+      "0.30": 0.08644067796610169
+     },
+     {
+      "0.10": 0.9694915254237289,
+      "0.13": 0.9005649717514125,
+      "0.17": 0.6700564971751413,
+      "0.20": 0.5045197740112994,
+      "0.30": 0.08644067796610169
+     }
+    ],
+    "shares_of_contribution_plus_above_top": [
+     {
+      "0.10": 1.0,
+      "0.13": 0.9943502824858758,
+      "0.17": 0.9576271186440678,
+      "0.20": 0.8706214689265537,
+      "0.30": 0.2983050847457627
+     },
+     {
+      "0.10": 1.0,
+      "0.13": 0.9943502824858758,
+      "0.17": 0.9576271186440678,
+      "0.20": 0.8706214689265537,
+      "0.30": 0.2983050847457627
+     }
+    ]
+   },
+   "joint_replay": {
+    "flexibility_covers_10pct": [
+     0.9931623931623932,
+     0.9931623931623932
+    ],
+    "flexibility_fails": [
+     4,
+     4
+    ],
+    "flexibility_covers_strict": [
+     0.9726495726495726,
+     0.9726495726495726
+    ],
+    "flexibility_19_in_20": [
+     0.11573295122024302,
+     0.11573295122024302
+    ],
+    "plus_above_top_covers_10pct": [
+     1.0,
+     1.0
+    ],
+    "plus_above_top_fails": [
+     0,
+     0
+    ],
+    "shares_of_contribution_flexibility": [
+     {
+      "0.10": 0.9931623931623932,
+      "0.13": 0.8752136752136752,
+      "0.17": 0.676923076923077,
+      "0.20": 0.5367521367521367,
+      "0.30": 0.09914529914529914
+     },
+     {
+      "0.10": 0.9931623931623932,
+      "0.13": 0.8752136752136752,
+      "0.17": 0.676923076923077,
+      "0.20": 0.5367521367521367,
+      "0.30": 0.09914529914529914
+     }
+    ],
+    "shares_of_contribution_plus_above_top": [
+     {
+      "0.10": 1.0,
+      "0.13": 1.0,
+      "0.17": 0.9675213675213675,
+      "0.20": 0.8358974358974359,
+      "0.30": 0.3572649572649573
+     },
+     {
+      "0.10": 1.0,
+      "0.13": 1.0,
+      "0.17": 0.9675213675213675,
+      "0.20": 0.8358974358974359,
+      "0.30": 0.3572649572649573
+     }
+    ]
+   }
+  },
+  "real_twd_vs_NUMBERS_8j": {
+   "flexibility": [
+    0.9808153477218226,
+    0.9808153477218226
+   ],
+   "flexibility_fails_starts": [
+    "1983-10,1983-11,1983-12,1984-01,1984-02,1984-03,2006-02,2006-03",
+    "1983-10,1983-11,1983-12,1984-01,1984-02,1984-03,2006-02,2006-03"
+   ],
+   "flexibility_gap_p50_max": [
+    [
+     1833.04731142554,
+     7311.6243748322595
+    ],
+    [
+     1833.04731142554,
+     7311.6243748322595
+    ]
+   ],
+   "plus_above_top": [
+    0.9976019184652278,
+    0.9976019184652278
+   ],
+   "windows": [
+    417,
+    417
+   ]
+  },
+  "returns_vs_NUMBERS_8k": {
+   "central_total_jan2033": [
+    75298.192416194,
+    75298.19241619404
+   ],
+   "carry_15dec_to_1jan": [
+    1.0023315527892787,
+    1.0023315527892787
+   ],
+   "topup_return": [
+    45455.57570475247,
+    45455.57570475247
+   ],
+   "joint_total_p5_p50_p95": [
+    [
+     40404.276864427586,
+     78583.58173398816,
+     120375.45220984073
+    ],
+    [
+     40404.276864427586,
+     78583.58173398815,
+     120375.45220984073
+    ]
+   ]
+  },
+  "vs_NUMBERS_8n_option_B": {
+   "house": {
+    "stated_bottom": [
+     [
+      85000.0,
+      95000.0,
+      115000.0
+     ],
+     [
+      85000.0,
+      95000.0,
+      115000.0
+     ]
+    ],
+    "stated_top": [
+     [
+      95000.0,
+      115000.0,
+      140000.0
+     ],
+     [
+      95000.0,
+      115000.0,
+      140000.0
+     ]
+    ],
+    "contribution": [
+     [
+      95000.0,
+      115000.0,
+      140000.0
+     ],
+     [
+      95000.0,
+      115000.0,
+      140000.0
+     ]
+    ],
+    "flexibility_plus_above_top": [
+     [
+      16193.060743308508,
+      28540.632639984036,
+      49923.93165155483
+     ],
+     [
+      16193.060743308508,
+      28540.632639984036,
+      49923.93165155483
+     ]
+    ],
+    "half_kept": [
+     [
+      9881.236889574937,
+      20738.638468607984,
+      41258.136025700245
+     ],
+     [
+      9881.236889574937,
+      20738.638468607984,
+      41258.136025700245
+     ]
+    ],
+    "total": [
+     [
+      113448.68481034618,
+      145686.5893674868,
+      187490.10920966437
+     ],
+     [
+      113448.68481034618,
+      145686.58936748677,
+      187490.10920966437
+     ]
+    ]
+   },
+   "history": {
+    "stated_bottom": [
+     [
+      95000.0,
+      95000.0,
+      95000.0
+     ],
+     [
+      95000.0,
+      95000.0,
+      95000.0
+     ]
+    ],
+    "stated_top": [
+     [
+      110000.0,
+      115000.0,
+      130000.0
+     ],
+     [
+      110000.0,
+      115000.0,
+      130000.0
+     ]
+    ],
+    "contribution": [
+     [
+      110000.0,
+      115000.0,
+      130000.0
+     ],
+     [
+      110000.0,
+      115000.0,
+      130000.0
+     ]
+    ],
+    "flexibility_plus_above_top": [
+     [
+      20018.69042058216,
+      30901.57961950668,
+      48398.68006954035
+     ],
+     [
+      20018.69042058216,
+      30901.57961950668,
+      48398.68006954035
+     ]
+    ],
+    "half_kept": [
+     [
+      13238.259705759978,
+      23481.232203086234,
+      40607.47252898624
+     ],
+     [
+      13238.259705759978,
+      23481.232203086234,
+      40607.47252898624
+     ]
+    ],
+    "total": [
+     [
+      131547.75653147497,
+      148062.92271109403,
+      173857.56038019416
+     ],
+     [
+      131547.75653147494,
+      148062.92271109403,
+      173857.56038019416
+     ]
+    ]
+   },
+   "joint": {
+    "stated_bottom": [
+     [
+      80000.0,
+      95000.0,
+      115000.0
+     ],
+     [
+      80000.0,
+      95000.0,
+      115000.0
+     ]
+    ],
+    "stated_top": [
+     [
+      95000.0,
+      115000.0,
+      140000.0
+     ],
+     [
+      95000.0,
+      115000.0,
+      140000.0
+     ]
+    ],
+    "contribution": [
+     [
+      95000.0,
+      115000.0,
+      140000.0
+     ],
+     [
+      95000.0,
+      115000.0,
+      140000.0
+     ]
+    ],
+    "flexibility_plus_above_top": [
+     [
+      19689.865491985405,
+      31808.792229182756,
+      49629.14676365184
+     ],
+     [
+      19689.865491985405,
+      31808.792229182756,
+      49629.14676365184
+     ]
+    ],
+    "half_kept": [
+     [
+      13873.816614965925,
+      23600.62243549682,
+      42014.51257881865
+     ],
+     [
+      13873.816614965925,
+      23600.62243549682,
+      42014.51257881865
+     ]
+    ],
+    "total": [
+     [
+      120018.93354847346,
+      147719.6444967717,
+      187389.4553422056
+     ],
+     [
+      120018.93354847346,
+      147719.6444967717,
+      187389.4553422056
+     ]
+    ]
+   }
+  },
+  "same_floor_every_split_max_abs_diff": 0.0,
+  "same_bottom_every_split_max_abs_diff": 0.0,
+  "moved_plus_kept_value_on_move_day_equals_vt31": 0.0,
+  "summary": {
+   "pairs_compared": 179,
+   "largest_dollar_difference": 4.3655745685100555e-11,
+   "largest_share_difference": 0.0,
+   "joint_J_largest_difference": 0.0,
+   "mismatches": [],
+   "plan_reproduces_register": true
+  }
+ },
+ "run_seconds": 11.275129596000056
+}

@@ -760,7 +760,7 @@ def main(argv):
     m["_method"] = ("Card Q23: Letter, 1-inch margins, 12-pt Times New Roman metrics (Liberation Serif), double-spaced "
                     "text at a 27.6-pt pitch, table bodies single-spaced, APA number, title and note double-spaced, a "
                     "blank double-spaced line after each exhibit; LibreOffice headless; words a line 14.26 (Q23 row 5)")
-    m["_built"] = "Fri 13 Nov 2026 evening (Sydney), register of Tue 10 Nov 2026"
+    m["_built"] = "Sat 14 Nov 2026 morning (Sydney), register of Tue 10 Nov 2026"
     with open(os.path.join(HERE, "measurements.json"), "w") as fh:
         json.dump(m, fh, indent=1)
     print(json.dumps(m, indent=1))

@@ -476,9 +476,11 @@ TABLE3_ROWS = [
     ("watch", [
         "Her flexibility's three uses",
         "Laura",
-        f"NT${TWD_PER_USD:.3f} per US$1 (6 Nov 2026); building costs {100 * CCI_BAND[0]:.1f}% to "
-        f"{100 * CCI_BAND[1]:.1f}% a year",   # the five-year rate, 3.27% (8d), goes to 3e's prose: no room
-        f"A Taiwan dollar {100 * TWD_TEST:.0f}% stronger ({dollars(TWD_NEED)} more on {dollars(CONTRIBUTION_FWD)})",
+        f"NT${TWD_PER_USD:.3f} per US$1 (6 Nov 2026); building-cost trend {100 * CCI_BAND[0]:.1f}% to "
+        f"{100 * CCI_BAND[1]:.1f}% a year",   # "trend": a rate over years, not a one-year ceiling
+        # (card Q10c: costs rise in bursts); the five-year rate, 3.27% (8d), goes to 3e's prose: no room
+        f"A Taiwan dollar {100 * TWD_TEST:.0f}% stronger than in 2031 ({dollars(TWD_NEED)} more on "
+        f"{dollars(CONTRIBUTION_FWD)})",   # the test's base (8j; card Q10b): the rate when the range is stated
         _changes(f"a call on her flexibility and anything above the top ({hundreds(FLEX_FWD)})", "the range")]),
 ]
 
