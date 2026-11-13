@@ -107,7 +107,8 @@ like it; how it is not; what we take), in `research/`.
 
 ## Folders
 - `research/`: `INSIGHT_STORE.md` (one ranked, categorised store of every insight, old and new; nothing deleted, only
-  ranked lower), the harvest files it was built from (`harvest/`), and one card per idea.
+  ranked lower), the harvest files it was built from (`harvest/`), and one card per idea. `research/SOURCES.md`
+  (Sat 14 Nov) says where every source label leads (W8, T14, "Q2b S26", R1 and the rest), with its link.
 - `voice/`: the three voice studies.
 - `numbers/`: the one engine set to the FINAL design, on the 6 Nov close (`engine.py`, `plan.py`, `run_numbers.py`).
 - `NUMBERS.md`: the number register; every figure the report may use, with its source and script (Mon 9 Nov).

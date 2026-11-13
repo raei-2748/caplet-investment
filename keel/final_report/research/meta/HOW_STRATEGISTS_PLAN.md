@@ -347,7 +347,7 @@ What not to change: keep "no prose until 27 Nov" (it matches McPhee and "think s
 | 7 | The weak points (reinvestment, NAV) were hidden and a judge found them, or were overstated and alarmed | Each gets a sized number and an explanation within the IPS's words, decided Mon 16 (Rumelt: face the challenge) | Wed 11 to Mon 16 |
 | 8 | The session failed: drift, fixed faults coming back, reviewers approving everything, a half-done last round (lessons 6, 9) | Tue 24 rehearsal with planted faults; regression log; independent blind reviews; red team; whole draft by hour 4; stop rule; four hours of margin | Tue 24 to Fri 27 |
 | 9 | Caplet could not own it: too long, too clever, not its voice, built on something it had turned against (lessons 11, 12) | Daily output cap; one-page skeleton to Caplet Sun 22 with a default; voice matched to the FINAL IPS; claims-and-sources sheet on Sat 28 | Sun 22, Sat 28 |
-| 10 | Wharton's Final Report instructions changed the shape (limits, sections, who the report addresses, T22) and the plan did not change with them (lesson 8) | Re-plan day Tue 10; WHARTON_WORD updated that day; checklist items rebuilt from the instructions' own words | Tue 10 |
+| 10 | Wharton's Final Report instructions changed the shape (limits, sections, who the report addresses, EXPECTATIONS T22) and the plan did not change with them (lesson 8) | Re-plan day Tue 10; WHARTON_WORD updated that day; checklist items rebuilt from the instructions' own words | Tue 10 |
 
 ### 2c. Working backwards: what a judge should be able to say after one reading
 
