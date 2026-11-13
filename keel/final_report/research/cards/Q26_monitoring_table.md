@@ -52,7 +52,7 @@ Fund-level events are settled by fund law (iShares prospectus and SAI; SEC Rule 
 
 | # | Idea (plain words, one line) | Source(s) as cited in the file | Tags | Niche? | Analogy/use for Laura | Critique/disanalogy already recorded | Verified? | Clash with FINAL or TNA? | Where it was found |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | A TARP is a planned response that a monitored trigger sets off; the actions are written before they are needed | NSW Resources Regulator, Guide: Managing risks of subsidence, s.2.6.2 | TWOREASONS, PROCESS, PRESENTATION | NICHE | Table 3 is Laura's TARP: what is watched, what sets anything off, what is done | Mining TARPs manage slow physical hazards with escalating actions; Laura's two reasons are events | VERIFIED (guide s.2.6.2, s.2.9.2, Appendix B read) | no | NSW subsidence guide |
+| 1 | A TARP is a planned response that a monitored trigger sets off; the actions are written before they are needed | NSW Department of Primary Industries and Regional Development (2026), Guide: Managing risks of subsidence, s.2.6.2 | TWOREASONS, PROCESS, PRESENTATION | NICHE | Table 3 is Laura's TARP: what is watched, what sets anything off, what is done | Mining TARPs manage slow physical hazards with escalating actions; Laura's two reasons are events | VERIFIED (guide s.2.6.2, s.2.9.2, Appendix B read) | no | NSW subsidence guide |
 | 2 | Five TARP design factors: simplicity, clear linkage, clear accountability, communication, escalation | NSW subsidence guide s.2.6.2; WA MIAC (2022) code s.2.5.1 | PROCESS, PRESENTATION | NICHE | Keep the first four; one named reader per row | Escalation does not fit: the plan has no middle actions between "continue" and the two reasons | VERIFIED (both read) | risk: an escalation ladder would add triggers (CANON A34: "never add a rule or trigger") | NSW subsidence guide; WA code |
 | 3 | The lowest TARP level is Normal: routine monitoring and "continue mining as per ATM" | NSW TRG Gas outbursts (2023), s.7.6 and Appendix B (Normal green; Level 1 yellow "Increased awareness"; Level 2 orange; Level 3 red) | TWOREASONS, PRESENTATION | NICHE | Most of Table 3 sits at Normal: watch, carry on | Coloured levels may read as alarm in a client report | VERIFIED (TRG s.7.6 and Appendix B read) | no | NSW gas outburst TRG |
 | 4 | TARPs exist to stop "normalisation": slow drift accepted because each day looks like the last | WA MIAC (2022) code s.2.5.1 | INFLATION_TWD, HALFKEPT | NICHE | The slow signals for Laura are Taiwan costs and the Taiwan dollar; a five-year pace, not one month | The drift does not touch the ten payments; it only draws on the half kept | VERIFIED (code s.2.5.1 read) | no | WA code |
@@ -289,37 +289,39 @@ New, read at the source:
 1. Bureau of the Fiscal Service. (2026, November 6). *Daily Treasury Statement* [Data set]. U.S. Department of the
    Treasury. https://fiscaldata.treasury.gov/static-data/published-reports/dts/DailyTreasuryStatement_20261106.pdf
    (also 18 Aug and 6 Oct 2026 statements at the same path).
-2. BlackRock. (2026, October 15). *iShares iBonds ETFs near final distribution date* [Press release]. Business Wire.
+2. BlackRock. (2026b, October 15). *iShares iBonds ETFs near final distribution date* [Press release]. Business Wire.
    http://www.businesswire.com/news/home/20261015791681/en/iShares-iBonds-ETFs-Near-Final-Distribution-Date
 3. Central Bank of the Republic of China (Taiwan). (n.d.). *NT$/US$ closing rate* [Data set]. Retrieved November 10,
    2026, from https://www.cbc.gov.tw/en/lp-700-2.html
 4. Exchange-traded funds, 17 C.F.R. § 270.6c-11 (2026). https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11
-5. iShares Trust. (2026a, February 27). *Prospectus: iShares iBonds term Treasury ETFs* [Prospectus]. BlackRock.
+5. iShares Trust. (2026a, February 27). *Prospectus* [iShares iBonds Term Treasury ETFs and iShares Treasury Floating
+   Rate Bond ETF]. BlackRock.
    https://www.ishares.com/us/literature/prospectus/p-ishares-trust-us-treasury-ibonds-non-ibonds-10-31.pdf
-6. iShares Trust. (2026b, February 27). *Statement of additional information: iShares iBonds ETFs* (as supplemented
-   September 11, 2026). BlackRock. https://www.ishares.com/us/literature/sai/sai-ishares-ibonds-corporate-etf-10-31.pdf
-7. iShares Trust. (2026c, March 25). *Summary prospectus: iShares iBonds Dec 2036 Term Treasury ETF* (Form 497K).
+6. iShares Trust. (2026b, February 27). *Statement of additional information* [iShares iBonds ETFs] (with supplements
+   dated July 1, September 11 and October 15, 2026). BlackRock. https://www.ishares.com/us/literature/sai/sai-ishares-ibonds-corporate-etf-10-31.pdf
+7. iShares Trust. (2026d, March 25). *Summary prospectus: iShares iBonds Dec 2036 Term Treasury ETF* (Form 497K).
    U.S. Securities and Exchange Commission. https://www.sec.gov/Archives/edgar/data/1100663/000119312526123568/d121596d497k.htm
-8. iShares Trust. (2026d, October 15). *Supplement dated October 15, 2026 to the currently effective summary prospectus,
+8. iShares Trust. (2026e, October 15). *Supplement dated October 15, 2026 to the currently effective summary prospectus,
    prospectus and statement of additional information for IBDR, IBTG and IBHF* (Form 497). OTC Markets.
    https://www.otcmarkets.com/filing/html?guid=7q-Xk621EjtFTih&id=19853207
-9. Mining Industry Advisory Committee. (2022). *Mine safety management system: Code of practice*. Department of Mines,
+9. Mining Industry Advisory Committee, & Work Health and Safety Commission. (2022). *Mine safety management system: Code of practice*. Department of Mines,
    Industry Regulation and Safety, Western Australia.
    https://www.worksafe.wa.gov.au/system/files/migrated/sites/default/files/atoms/files/221188_cp_msms_0.pdf
-10. NSW Resources Regulator. (n.d.). *Guide: Managing risks of subsidence* (RDOC23/51285). NSW Government.
+10. Department of Primary Industries and Regional Development. (2026). *Guide: Managing risks of subsidence*
+    (RDOC23/51285).
     https://www.resources.nsw.gov.au/sites/default/files/documents/guideline-managing-risks-of-subsidence-guideline.pdf
-11. NSW Resources Regulator. (2023). *Technical reference guide: Gas outbursts – principal hazard management plan*
-    (MEG/DOC21/202783). NSW Government. https://www.resources.nsw.gov.au/sites/default/files/2023-04/trg-gas-outbursts-phmp.pdf
+11. NSW Resources Regulator. (2023). *Technical reference guide: Gas outbursts: Principal hazard management plan*
+    (MEG/DOC21/202783). Department of Regional NSW. https://www.resources.nsw.gov.au/sites/default/files/2023-04/trg-gas-outbursts-phmp.pdf
 12. Securities Investor Protection Corporation. (n.d.). *What SIPC protects*. https://www.sipc.org/for-investors/what-sipc-protects
 13. Securities Investor Protection Corporation. (2026). *How SIPC protects you* [Brochure].
     https://www.sipc.org/media/brochures/HowSIPCProtectsYou-English-Web.pdf
 14. The Pensions Regulator. (2023, April 24). *Using leveraged liability-driven investment* [Guidance].
     https://www.thepensionsregulator.gov.uk/document-library/scheme-management-detailed-guidance/funding-and-investment-detailed-guidance/liability-driven-investment
-15. TreasuryDirect. (2009, July 15). *Treasury calls 11-3/4 percent bonds of 2009-14* [Press release]. U.S. Department of
-    the Treasury. https://maint.treasurydirect.gov/news/2009/release-07-15
+15. U.S. Department of the Treasury. (2009, July 15). *Treasury calls 11-3/4 percent bonds of 2009-14* [Press release].
+    TreasuryDirect. https://maint.treasurydirect.gov/news/2009/release-07-15
 16. TreasuryDirect. (n.d.). *Securities search* [Web service; CUSIPs 912810PT9, 912810PX0, 912810QD3, 912810QL5,
     912810QT8]. Retrieved November 10, 2026, from https://www.treasurydirect.gov/TA_WS/securities/search?cusip=912810PT9&format=json
-17. Treasury Borrowing Advisory Committee. (2024). *Charge: Q2 2024* [Presentation]. U.S. Department of the Treasury.
+17. Treasury Borrowing Advisory Committee. (2024, April 30). *TBAC charge* [Presentation]. U.S. Department of the Treasury.
     https://home.treasury.gov/system/files/221/TBACCharge2Q22024.pdf
 18. U.S. Department of the Treasury. (2025, February 18). *Treasury yield curve methodology*.
     https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics/treasury-yield-curve-methodology

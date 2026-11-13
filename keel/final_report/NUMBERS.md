@@ -100,6 +100,14 @@ Each rung reaches $50,000 only with its interest reinvested on the way. That is 
 
 ## 2. Reinvestment (CASE_MAP C1): settled, with Keel's call of Tue 10 Nov
 
+> **Names in the report (Fri 13 Nov evening, `WORDS.md`; third coherence reader):** this register's "top-up" ($38,282)
+> and "backstop" ($35,894) are working labels. In the report the $2,388 that completes the ten is **the top-up** (the
+> frozen WInS notes' "top up", WN l.15, l.20; IPS l.13), the other $35,894 is **the extra Treasuries**, and the sum has
+> no name of its own ("the first $38,282 of the 2028 deposit"). The standard is said "even if cash waiting earns
+> nothing". The extra Treasuries' subject is the reinvestment-rate risk the Trading Notes named (TNA l.5); they rest on
+> IPS l.13's "our plan isn't dependent on yields staying put", and l.11 is the test they meet, never their justification.
+
+
 **What the risk is.** The ten pay interest long before the payments start. By 1 Jan 2033 that interest is worth
 **$93,941**, nearly two of the ten payments. To turn today's $302,287 into ten payments of $50,000, every coupon must
 be reinvested at today's forward rates. If rates later fall, the ladder pays less. The case's "high degree of
@@ -431,8 +439,9 @@ deposit, yields lower by the fall before 1 Jan 2027 and then at that curve's for
 
 - **Plainly: the floor then gets all of what is left, and VT nothing.** That no longer reads as "most of the 2028
   deposit": the top-up takes more than half and the floor less. It is still the most the order allows, and all of the
-  money left for the building. The order settles the clash: l.11 and l.13 come before l.15, so the payments stay whole
-  at no interest and the word gives way, not the payments.
+  money left for the building. Keel's call settles the clash (ASK_HUMANS, Fri 13 Nov 06:55): the payments stay whole
+  at no interest and the word "most" gives way, not the payments. The IPS sets no order between its lines, so this is
+  Keel's reading, never "l.11 and l.13 come before l.15" (third coherence reader, Fri 13 Nov evening).
 - **What Laura loses with VT:** no half kept and no top, so the range is one figure (the stated bottom) and her
   flexibility is only what the floor pays above it, $2,491 to $6,963 here, plus whatever comes back from the top-up if
   rates then hold (not counted). IPS l.15's "half of the value of the shares will be promised to no one" has nothing
@@ -632,7 +641,7 @@ What it shows:
 ### 8d. What the dollars buy: inflation and the Taiwan dollar (`numbers/real_values.py`, inputs `numbers/inflation_inputs.json`)
 Sources and bands in `research/cards/Q10_inflation_inputs.md` (all read 9 Nov 2026).
 - **US inflation:** central 2.4% a year (J.P. Morgan 2027 matrix, the same edition as the 7.5%); band 1.9%-3.5%.
-- **Taiwan construction costs:** central 3.0%, band 1.5%-5.0% (DGBAS construction cost index: September 2026 +7.29% on a year, about 3% a year since 2000).
+- **Taiwan construction costs:** central 3.0%, band 1.5%-5.0% (DGBAS construction cost index: September 2026 +7.29% on a year, 3.27% a year over the five years to September 2026 (card Q10 row 20; Table 3 row 7), about 3% a year since 2000).
 - **USD/TWD:** 32.768 on 6 Nov (central bank of Taiwan); the strongest Taiwan dollar of the last ten years was 27.52.
 - The range is read from `results_2026-11-10.json`.
 
@@ -728,11 +737,11 @@ so these are the final holdings. Not a model.
 | IBTP | iShares iBonds Dec 2034 Term Treasury ETF | ETF (Treasury) | $22,155.30 | 7.39% |
 | IBTQ | iShares iBonds Dec 2035 Term Treasury ETF | ETF (Treasury) | $20,973.24 | 6.99% |
 | IBTR | iShares iBonds Dec 2036 Term Treasury ETF | ETF (Treasury) | $19,823.72 | 6.61% |
-| (WInS id) | T-Bond 4.750% 15-Feb-2037 | Treasury bond | $19,203.80 | 6.40% |
-| 532281 (probably) | T-Bond 4.500% 15-May-2038 | Treasury bond | $18,615.26 | 6.20% |
-| (WInS id) | T-Bond 4.375% 15-Nov-2039 | Treasury bond | $16,200.95 | 5.40% |
-| (WInS id) | T-Bond 4.250% 15-Nov-2040 | Treasury bond | $15,790.32 | 5.26% |
-| (WInS id) | T-Bond 3.125% 15-Nov-2041 | Treasury bond | $14,991.00 | 5.00% |
+| 912810PT9 | T-Bond 4.750% 15-Feb-2037 | Treasury bond | $19,203.80 | 6.40% |
+| 912810PX0 | T-Bond 4.500% 15-May-2038 | Treasury bond | $18,615.26 | 6.20% |
+| 912810QD3 | T-Bond 4.375% 15-Nov-2039 | Treasury bond | $16,200.95 | 5.40% |
+| 912810QL5 | T-Bond 4.250% 15-Nov-2040 | Treasury bond | $15,790.32 | 5.26% |
+| 912810QT8 | T-Bond 3.125% 15-Nov-2041 | Treasury bond | $14,991.00 | 5.00% |
 | VT | Vanguard Total World Stock ETF | ETF (equity) | $26,524.61 | 8.84% |
 | N/A | Cash | Cash | $3,513.79 | 1.17% |
 | N/A | Commissions and bond interest paid at purchase | Cost | $1,309.42 | 0.44% |
@@ -751,9 +760,14 @@ so these are the final holdings. Not a model.
   holdings ($295,176.79). Percentages are rounded so that they add to exactly
   100.00% (largest remainder: the May-2038 bond shows 6.20% rather than 6.21%).
 - **In groups:** Treasuries 89.55% ($268,652.18: iBond ETFs 61.28%, bonds 28.27%), VT 8.84%, cash 1.17%, costs at purchase 0.44%.
-- **Identifiers.** The ETFs use their tickers. Wharton's own example row ("532281 T-Bond 4.500% 15-May-2038") is one of
-  Caplet's bonds, so 532281 is probably its WInS identifier; the other four come from Caplet's final WInS export (asked
-  of Ray, Mon 9 Nov). Until then the table names the bonds by coupon and date, which identifies them uniquely.
+- **Identifiers (Fri 13 Nov evening, card Q38).** The ETFs use their tickers. The five Treasury bonds use their CUSIPs,
+  each read at Treasury's Fiscal Data auctions dataset and in the bond's own TreasuryDirect auction result, with coupon
+  and maturity matching this table, 8h and Table 1: 912810PT9 (4.750% 15 Feb 2037), 912810PX0 (4.500% 15 May 2038),
+  912810QD3 (4.375% 15 Nov 2039), 912810QL5 (4.250% 15 Nov 2040), 912810QT8 (3.125% 15 Nov 2041). Wharton's example
+  row ("532281 T-Bond 4.500% 15-May-2038", marked "for illustrative purposes only") names one of Caplet's bonds, but
+  532281 is not a CUSIP and nothing in the repo shows what it is; it is never printed. Caplet's final WInS export is no
+  longer needed for Table 1; if it arrives and shows a WInS number for every bond, Caplet may switch all five at once,
+  never a mix. One References entry covers the five (the Fiscal Data dataset).
 - **The rival reading,** each holding's weight at the final market value times $300,000 (accrued interest left out),
   moves no security by more than 0.25 points at 23 Oct prices (VT 8.59% instead of 8.84%) and cash by 0.02 (1.15% instead of 1.17%; the rival reading has no costs row),
   and would need the final export; Caplet may switch to it.

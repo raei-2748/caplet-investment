@@ -94,11 +94,11 @@ HOLDINGS = [
     ("IBTP", "iShares iBonds Dec 2034 Term Treasury ETF", "ETF (Treasury)", 22155.30, 7.39, "2035 payment"),
     ("IBTQ", "iShares iBonds Dec 2035 Term Treasury ETF", "ETF (Treasury)", 20973.24, 6.99, "2036 payment"),
     ("IBTR", "iShares iBonds Dec 2036 Term Treasury ETF", "ETF (Treasury)", 19823.72, 6.61, "2037 payment"),
-    ("(WInS id)", "T-Bond 4.750% 15-Feb-2037", "Treasury bond", 19203.80, 6.40, "2038 payment"),
-    ("532281 (probably)", "T-Bond 4.500% 15-May-2038", "Treasury bond", 18615.26, 6.20, "2039 payment"),
-    ("(WInS id)", "T-Bond 4.375% 15-Nov-2039", "Treasury bond", 16200.95, 5.40, "2040 payment"),
-    ("(WInS id)", "T-Bond 4.250% 15-Nov-2040", "Treasury bond", 15790.32, 5.26, "2041 payment"),
-    ("(WInS id)", "T-Bond 3.125% 15-Nov-2041", "Treasury bond", 14991.00, 5.00, "2042 payment"),
+    ("912810PT9", "T-Bond 4.750% 15-Feb-2037", "Treasury bond", 19203.80, 6.40, "2038 payment"),
+    ("912810PX0", "T-Bond 4.500% 15-May-2038", "Treasury bond", 18615.26, 6.20, "2039 payment"),
+    ("912810QD3", "T-Bond 4.375% 15-Nov-2039", "Treasury bond", 16200.95, 5.40, "2040 payment"),
+    ("912810QL5", "T-Bond 4.250% 15-Nov-2040", "Treasury bond", 15790.32, 5.26, "2041 payment"),
+    ("912810QT8", "T-Bond 3.125% 15-Nov-2041", "Treasury bond", 14991.00, 5.00, "2042 payment"),
     ("VT", "Vanguard Total World Stock ETF", "ETF (equity)", 26524.61, 8.84, "Growth: top of the range and the half kept"),
     ("N/A", "Cash", "Cash", 3513.79, 1.17, "Cash"),
     ("N/A", "Commissions and bond interest paid at purchase", "Cost", 1309.42, 0.44, "Cost of buying"),
@@ -108,10 +108,12 @@ N_TREASURIES = 10                      # the first ten rows, in payment order 20
 HOLDINGS_NOTE_FACTS = {"commissions": 200.00, "accrued_interest": 1109.42, "wins_cash": 3513.79,
                        "trade_dates": "6-7 Oct 2026 (U.S. Eastern)"}
 
-# How Table 1 prints 8g's cells. Placeholders are in square brackets until Caplet's final WInS export (8g
-# "Identifiers"); 532281 is Wharton's own example row and still to confirm. Asset types: 8g's "ETF (Treasury)" and
+# How Table 1 prints 8g's cells. Identifiers (Fri 13 Nov evening, card Q38): tickers for the six ETFs and, for the
+# five Treasury bonds, their CUSIPs, each read at Treasury's Fiscal Data auctions dataset and in the bond's own
+# TreasuryDirect auction result; no placeholder is left, and Caplet's WInS export is no longer needed for Table 1.
+# Wharton's example "532281" is not a CUSIP and is never printed (never a mix of WInS numbers and CUSIPs). Asset types: 8g's "ETF (Treasury)" and
 # "ETF (equity)" in plain words; at 12 pt "ETF (Treasury)" would push the longest fund name off one line.
-ID_PRINT = {"(WInS id)": "[ID]", "532281 (probably)": "[532281]"}
+ID_PRINT = {}   # no placeholders since Fri 13 Nov evening (card Q38)
 # The costs row (Thu 12 Nov evening; panel 2: "the fees and accrued-interest row must not look like a holding", faculty
 # judge; "the extra row for money that left at purchase is not in Wharton's example", finalist judge). It now sits
 # below an "All holdings" subtotal, its label runs across the first four columns (no ticker, no asset type, no units)
@@ -136,7 +138,7 @@ UNITS = [(4503, 4503), (1024, 1024), (927, 927), (894, 894), (853, 853),
 # VT's cell carries why its two numbers differ (the brief: "167 / 164, bought last from the cash left"; "from the cash
 # left" needs 1.17 in, the column holds 0.97, so "from cash left"). VT's row is two lines already (its name and its
 # "Pays for" wrap), so the third line costs one single-spaced line.
-VT_UNITS_WORDS = ("bought last,", "from cash left")
+VT_UNITS_WORDS = ("bought last,", "with the rest")   # Fri 13 Nov evening: "from cash left" (0.926 in) no longer fits the 0.97-in column the CUSIPs pay for; "with the rest" is 0.824 in; the note keeps "the cash then left"
 UNITS_HEAD = "Units bought / target"
 # Since the "Pays for" column (fresh reader, Wed 11 Nov) the types are one word, Wharton's own ("ETF", and "Bond" for
 # its "Treasury Bond"): each name already says Treasury, T-Bond or Stock.
@@ -145,7 +147,7 @@ TYPE_PRINT = {"ETF (Treasury)": "ETF", "ETF (equity)": "ETF", "Treasury bond": "
 # miniature). Two cells take two lines at 12 pt in the 0.79-in column ("\n" is a line break): IBTM's two jobs (TNA l.13,
 # CANON A24) and VT's (IPS l.15; "flexibility" is the IPS's word for the half promised to no one, and Table 2's head).
 PAYS_FOR_PRINT = {"2033 payment and floor stand-in": "2033 and\nthe floor",
-                  "Growth: top of the range and the half kept": "Range top,\nflexibility",
+                  "Growth: top of the range and the half kept": "Range\ntop,\nflexibility",   # 3 lines in the 0.71-in column (Fri 13 Nov evening)
                   "Cash": "", "Cost of buying": ""}
 
 
@@ -294,11 +296,12 @@ FIGURE1_HEADS = {
     "payment": "Payment",
     "timeline": "Held from January 2027 until its cash arrives",
     "c1": ("At today's", "market rates"),
-    "question": ("If interest earns nothing,", "what pays each $50,000?"),
+    "question": ("If cash waiting earns nothing,", "what pays each $50,000?"),
     "c2": ("Its own", "Treasury"),
-    "c3": ("What the", "top-up pays"),  # Thu 12 Nov, lead: the column holds what its Treasuries pay ($55,920), not its cost ($38,282)
+    "c3": ("Extra", "Treasuries"),  # Fri 13 Nov evening: the $35,894's name (WORDS); was "What the top-up pays"; the
+    # question above says the columns hold what pays each $50,000, so the head names who pays  # Thu 12 Nov, lead: the column holds what its Treasuries pay ($55,920), not its cost ($38,282)
 }
-FIGURE1_LEGEND = ("iBond Treasury fund", "Treasury bond", "$50,000 paid on 1 January", "cash waiting")
+FIGURE1_LEGEND = ("iBonds Treasury ETF", "Treasury bond", "$50,000 due on 1 January", "cash waiting")
 
 
 # =================================================================================================================
@@ -377,9 +380,11 @@ TOPUP = _C6["fall_0bp"]["with_standard"]                 # $38,282: the top-up, 
 TOPUP_TEN_LACK = _C6["fall_0bp"]["ladder_only"]          # $2,388: what the ten Treasuries still lack
 TOPUP_NO_INTEREST = TOPUP - TOPUP_TEN_LACK               # $35,894: met even if money received earns nothing (NUMBERS 2)
 BOTTOM_AFTER_2PT_FALL = _C6["fall_200bp"]["150000"]["stated_bottom"]   # $60,000 (NUMBERS 5)
+BOTTOM_AFTER_1PT_FALL = _C6["fall_100bp"]["150000"]["stated_bottom"]   # $85,000: "most" still holds (NUMBERS 5)
 FALL_TAKES_WHOLE_DEPOSIT = 3.60   # points; NUMBERS 5 text only (no results file holds it), checked against the text
 TWD_PER_USD = INPUTS["usdtwd"]["latest"]                                # 32.768 on 6 Nov (NUMBERS 8d)
 CCI_BAND = (INPUTS["taiwan_construction"]["low"], INPUTS["taiwan_construction"]["high"])   # 1.5% to 5.0% (8d)
+CCI_5Y = 0.0327                                          # building costs a year, five years to Sep 2026 (8d; card Q10 row 20)
 TWD_TEST = 0.10                                          # a 10% stronger Taiwan dollar (NUMBERS 8j)
 _TWDF = JOINT["scenarios"]["forwards"]
 CONTRIBUTION_FWD = _TWDF["gift_realised"]                # $115,000 at today's forwards (8i, 8j)
@@ -404,7 +409,7 @@ _NUM = {5: "five"}
 # Cells. Words are WORDS.md's: "the top-up", "her flexibility", "facility contribution", "simulated futures", "the
 # floor", "the world share fund (VT)", "her team" (Wharton: "Laura or her asset management team"). The last column is
 # a list of runs: (text, italic); "\n" breaks the line inside the cell.
-TABLE3_HEADER = ["Signal", "Reader", "Carry on while", "Look closer or act when",
+TABLE3_HEADER = ["Signal", "Who", "Carry on while", "Look closer or act when",
                  "What it changes; what it never changes"]
 TABLE3_LEVELS = {
     "reason": "The two reasons to change the plan",
@@ -418,52 +423,63 @@ def _changes(changes, never):
     return [("Changes: ", True), (changes + ". ", False), ("Never: ", True), (never + ".", False)]
 
 
+# Fri 13 Nov evening (bond desk re-read, third coherence reader, lay reader; research/panel/2026-11-13_*): "Watched
+# by" for "Reader"; row 1 names the first $38,282's two parts and what a missed deposit changes until the money comes;
+# row 2 says how a due date moves; row 3 one set of cash dates, the X-date defined in the note; row 4 watches all three
+# fund events (an early end, a merger, an end moved past a payment) and a missing October notice (card Q36), the swap
+# for a Treasury "maturing just before it's needed" (IPS l.13) paid from the fund's own cash and any gap from the
+# extra Treasuries, never "the reserve" before 2033; row 5 adds the 2031 move, the first draw goes to 3e's prose;
+# row 6 shows the 1-point case ("most" still holds, NUMBERS 5) and what a fall changes and when it stops changing it;
+# the 3.6-point bound moves to the note; row 7's levels are dated and the five-year building-cost rate is shown.
 TABLE3_ROWS = [
     ("reason", [
         f"The 2028 deposit ({dollars(DEPOSIT_2028)})",
         "Laura",
-        f"Confirmed by {CONFIRM_BY.day} {CONFIRM_BY.strftime('%b')} {CONFIRM_BY.year}; the {dollars(TOPUP)} top-up first",
+        f"Confirmed by {CONFIRM_BY.day} {CONFIRM_BY.strftime('%b')} {CONFIRM_BY.year}; its first {dollars(TOPUP)} "
+        "to the payments",
         f"Nothing received by {_d(MISSED_BY, weekday=False)} (a missed deposit)",
-        _changes(f"no range; the 2033 payment {dollars(MISSED_SHORT_2033)} short", "a sale")]),
+        _changes(f"no range until money comes; 2033's payment {dollars(MISSED_SHORT_2033)} short at today's rates",
+                 "a sale")]),
     ("reason", [
         "Treasury payments",
         "Team",
-        "Paid on the due date, moved past holidays",
+        "Paid when due, or the next business day after a holiday",
         f"A Treasury default: a payment over {_NUM[DEFAULT_DAYS]} business days late",
-        _changes("what the Treasuries pay, restated", "a forced sale")]),
+        _changes("payments and range, restated on what was paid", "a forced sale")]),
     ("closer", [
-        "The debt limit's X-date",
+        "Debt-limit X-date",
         "Team",
         "No X-date within a month of a cash date",
-        "An X-date within a month of a payout, maturity or trade day",
-        _changes("nothing before it (a late payment is row 2)", "a sale ahead of it")]),
+        "An X-date within a month of a cash date",
+        _changes("nothing before it", "a sale ahead of it")]),
     ("closer", [
         "iBond fund notices, the floor's too",
         "Team",
-        f"Cash in {IBOND_SLACK} business days before the year's last ({IBOND_SLACK_2036} for 2036)",
-        "A notice that moves a fund's end date past a payment",
-        _changes("the fund, for a Treasury due in time, paid from the reserve", "the amount; the shares")]),
+        f"Ending notice in October; cash {IBOND_SLACK} business days before the year's last ({IBOND_SLACK_2036} "
+        "for 2036)",
+        "No notice by 31 October, or one that ends a fund early, merges it or moves its end past a payment",
+        _changes("the fund, for a Treasury maturing just before it's needed; any gap from the extra Treasuries, "
+                 "the floor's from its 0.5% margin",
+                 "VT")]),   # Fri 13 Nov evening (card Q36 row 23): "the shares" could mean the iBond fund's own
     ("closer", [
-        f"Trade days: {_d(TRADE_DAYS[0])}, {_d(TRADE_DAYS[1])}",
+        "Trades in 2027, 2028, 2031",
         "Team",
-        "Limit orders near each fund's net asset value",
-        "A date cannot be kept (a halt; a first draw after January 2033)",
-        _changes("a date, by days", "the step or its order")]),
+        "Limit orders near each fund's value",
+        "A date cannot be kept (a trading halt)",
+        _changes("the date", "the step or its order")]),
     ("watch", [
         "Treasury yields and share prices",
         "Team",
         "Any level: a fall in the market is not a reason",
-        f"None. 2 points lower before 2027: a {dollars(BOTTOM_AFTER_2PT_FALL)} bottom; "
-        f"{FALL_TAKES_WHOLE_DEPOSIT:.2f} lower: the top-up takes the whole deposit",
-        _changes("prices until each end is bought, then her flexibility",
-                 f"the payments, to a {FALL_TAKES_WHOLE_DEPOSIT:.2f} fall")]),
+        f"None. 1 percentage point lower before 2027: an {dollars(BOTTOM_AFTER_1PT_FALL)} bottom",
+        _changes("the bottom to Jan 2028, the top to the 2031 move, then her flexibility", "the payments")]),
     ("watch", [
         "Her flexibility's three uses",
         "Laura",
-        f"US$1 = NT${TWD_PER_USD:.3f}; construction cost index up {100 * CCI_BAND[0]:.1f}% to "
-        f"{100 * CCI_BAND[1]:.1f}% a year",
+        f"NT${TWD_PER_USD:.3f} per US$1 (6 Nov 2026); building costs {100 * CCI_BAND[0]:.1f}% to "
+        f"{100 * CCI_BAND[1]:.1f}% a year",   # the five-year rate, 3.27% (8d), goes to 3e's prose: no room
         f"A Taiwan dollar {100 * TWD_TEST:.0f}% stronger ({dollars(TWD_NEED)} more on {dollars(CONTRIBUTION_FWD)})",
-        _changes(f"a call on her flexibility ({hundreds(FLEX_FWD)} today)", "the range")]),
+        _changes(f"a call on her flexibility and anything above the top ({hundreds(FLEX_FWD)})", "the range")]),
 ]
 
 
@@ -623,8 +639,8 @@ def check(verbose=True):
     cmp("Table 1", "VT: units bought", UNITS[N_TREASURIES][0], vt_8m[0] if vt_8m else None, "8m")
     cmp("Table 1", "VT: target units (2 Oct prices)", UNITS[N_TREASURIES][1], vt_8m[1] if vt_8m else None, "8m")
     ok = ("filled last" in s8m and 'from the cash then left' in s8m and VT_UNITS_WORDS[0].startswith("bought last")
-          and "cash left" in VT_UNITS_WORDS[1])
-    note("Table 1", "VT's cell: bought last, from cash left", " ".join(VT_UNITS_WORDS),
+          and VT_UNITS_WORDS[1] == "with the rest")
+    note("Table 1", "VT's cell: bought last, with the rest (of the cash)", " ".join(VT_UNITS_WORDS),
          "8m: sized \"from the cash then left\", bought last (filled last)", "8m", "PASS" if ok else "FAIL")
     # The same units in the 23 Oct WInS snapshot (quantities held) and units x price paid = 8g's amount at cost
     for h, (held, _), r in zip(HOLDINGS[:N_TREASURIES + 1], UNITS, snap):
@@ -690,14 +706,14 @@ def check(verbose=True):
     m = re.search(r"\| Cost \(1 Jan 2027 value\) \|.*?\*\*\$([\d,]+)\*\*", s2)
     cmp("Figure 1", "Treasuries bought with the 2028 deposit: cost in 1 Jan 2027 money (note item)",
         round(RESERVE["margin_jan2027"]), float(m.group(1).replace(",", "")), "section 2 table")
-    note("Figure 1", "'The top-up' (head): extra Treasuries bought with the 2028 deposit",
+    note("Figure 1", "'The extra Treasuries' (head): bought with the 2028 deposit",
          "In January 2028 the deposit's first dollars also buy extra face",
          "found" if "In January 2028 the deposit's first dollars also buy extra face" in s2 else "not found", "section 2",
          "PASS" if "In January 2028 the deposit's first dollars also buy extra face" in s2 else "FAIL")
     with open(WORDS_MD) as fh:
         words = fh.read()
-    ok = "| the top-up |" in words and "more Treasuries bought with the first part of the 2028 deposit" in words
-    note("Figure 1", "'The top-up' is WORDS.md's name for that money", "the top-up", "found" if ok else "not found",
+    ok = "| the extra Treasuries |" in words and "more Treasuries bought with the 2028 deposit, right after the top-up" in words
+    note("Figure 1", "'The extra Treasuries' is WORDS.md's name for that money", "the extra Treasuries", "found" if ok else "not found",
          "WORDS.md", "PASS" if ok else "FAIL")
     cmp("Figure 1", "Note: the ratio, dollars held for each $1 the payments need", float(FIGURE1_PER_DOLLAR[1:]),
         round(float(re.search(r"Funded ratio: \$[\d,]+ against \$[\d,]+, ([\d.]+)% funded", s8h).group(1)) / 100, 2),
@@ -705,7 +721,7 @@ def check(verbose=True):
     note("Figure 1", "Note: the ratio as WORDS.md words it", f"about {FIGURE1_PER_DOLLAR} for each $1",
          "found" if f"about {FIGURE1_PER_DOLLAR} for each $1" in words else "not found", "WORDS.md",
          "PASS" if f"about {FIGURE1_PER_DOLLAR} for each $1" in words else "FAIL")
-    banned = ("backstop", "gift", "overflow", "paths", "forward rates")
+    banned = ("backstop", "gift", "overflow", "paths", "forward rates", "interest earns nothing", "top-up pays")
     printed_f1 = " ".join([FIGURE1_HEADS["payment"], FIGURE1_HEADS["timeline"]] + list(FIGURE1_HEADS["c1"]) +
                           list(FIGURE1_HEADS["question"]) + list(FIGURE1_HEADS["c2"]) + list(FIGURE1_HEADS["c3"]) +
                           list(FIGURE1_LEGEND)).lower()
@@ -788,7 +804,7 @@ def check(verbose=True):
     with open(WORDS_MD) as fh:            # read again: the wait-label loop above reuses the name `words`
         words_md = fh.read()
     ok = phrase in words_md and phrase in s8h1 and "every coupon and fund payout still counts" in words_md
-    note("Figure 1", "Note: 'if interest earns nothing' defined once", phrase, "WORDS.md and 8h", "WORDS, 8h",
+    note("Figure 1", "Note: 'if cash waiting earns nothing' defined once", phrase, "WORDS.md and 8h", "WORDS, 8h",
          "PASS" if ok else "FAIL")
 
     # ---- Table 2 against 8i (and 8j for the spread of the flexibility) ----
@@ -855,8 +871,15 @@ def check(verbose=True):
     dep = [x for x in _table_rows(s5, "| 2028 deposit | Floor money") if x[0].startswith("$150,000")]
     cmp("Table 3", "Row 1: the 2028 deposit", DEPOSIT_2028, _money(dep[0][0])[0] if dep else None, "5")
     m = re.search(r"After 2 points: the floor takes all \$[\d,]+ left, VT \$0, stated \$([\d,]+)", s5)
-    cmp("Table 3", "Row 6: bottom after a 2-point fall before Jan 2027", BOTTOM_AFTER_2PT_FALL,
+    cmp("Table 3", "Row 6 (store): bottom after a 2-point fall before Jan 2027", BOTTOM_AFTER_2PT_FALL,
         float(m.group(1).replace(",", "")) if m else None, "5")
+    m = re.search(r"After a 1-point fall: \$([\d,]+), VT \$([\d,]+), floor payout \$[\d,]+, stated \$([\d,]+)", s5)
+    cmp("Table 3", "Row 6: bottom after a 1-point fall before Jan 2027", BOTTOM_AFTER_1PT_FALL,
+        float(m.group(3).replace(",", "")) if m else None, "5")
+    note("Table 3", "Row 6: \"most\" still holds after a 1-point fall (floor money over half the deposit, VT bought)",
+         f"floor {m.group(1) if m else None}, VT {m.group(2) if m else None}", "floor > $75,000, VT > $0", "5",
+         "PASS" if m and float(m.group(1).replace(",", "")) > DEPOSIT_2028 / 2 and float(m.group(2).replace(",", "")) > 0
+         else "FAIL")
     m = re.search(r"The standard takes the whole \$150,000 at a ([\d.]+)-point fall", s5)
     cmp("Table 3", "Row 6: the fall at which the top-up takes the whole deposit (points)", FALL_TAKES_WHOLE_DEPOSIT,
         float(m.group(1)) if m else None, "5", tol=0.0001)
@@ -869,6 +892,9 @@ def check(verbose=True):
         tol=0.0001)
     cmp("Table 3", "Row 7: building costs, high end of the band (%)", 100 * CCI_BAND[1], float(m.group(2)), "8d",
         tol=0.0001)
+    m = re.search(r"([\d.]+)% a year over the five years to September 2026", s8d)
+    cmp("Table 3", "Row 7: building costs a year, five years to Sep 2026 (%)", 100 * CCI_5Y,
+        float(m.group(1)) if m else None, "8d", tol=0.0001)
     m = re.search(r"A ([\d.]+)% stronger Taiwan dollar on \$([\d,]+) needs \$([\d,]+) more", re.sub(r"\s+", " ", s8j))
     cmp("Table 3", "Row 7: the test, a stronger Taiwan dollar (%)", 100 * TWD_TEST, float(m.group(1)), "8j", tol=0.0001)
     cmp("Table 3", "Row 7: the contribution it is tested on", round(CONTRIBUTION_FWD), _money(m.group(0))[0], "8j")
@@ -903,9 +929,10 @@ def check(verbose=True):
             ("Row 3: the X-date's window", "within a month of a date the plan needs cash",
              "within a month of a date the plan needs cash"),
             ("Row 5: the trade days", f"{_d(TRADE_DAYS[0])} and {_d(TRADE_DAYS[1])}", "Mon 4 Jan 2027 and Mon 3 Jan 2028"),
-            ("Row 5: the first draw", "first draw after January 2033", "first draw slipping past January 2033"),
-            ("Row 6: the distances", f"{dollars(BOTTOM_AFTER_2PT_FALL)}; {FALL_TAKES_WHOLE_DEPOSIT:.2f}-point",
-             "cuts the stated bottom to $60,000; a 3.60-point fall takes the whole deposit"),
+            ("Row 5: the 2031 move", "the 2031 move", "row 5 adds the 2031 move"),
+            ("Row 6: the scale", f"1 point; {dollars(BOTTOM_AFTER_1PT_FALL)}",
+             "a 1-point fall in yields before January 2027 gives a stated bottom of $85,000"),
+            ("Note: the bound", f"{FALL_TAKES_WHOLE_DEPOSIT:.2f}-point", "a 3.60-point fall takes the whole deposit"),
             ("Row 7: the test", f"{100 * TWD_TEST:.0f}% stronger", "row 7 tests a 10% stronger Taiwan dollar")):
         note("Table 3", what, mine, want, "SKELETON Exhibits item 4", "PASS" if want in sk4 else "FAIL")
     shut = (TRADE_DAYS[0] - _date(2027, 1, 1)).days == 3 and _date(2028, 1, 1).weekday() == 5 and \
@@ -916,22 +943,26 @@ def check(verbose=True):
     printed = " ".join(cell_text(c) for _, cells in TABLE3_ROWS for c in cells)
     allowed = {dollars(DEPOSIT_2028), dollars(TOPUP), dollars(TOPUP_TEN_LACK), dollars(TOPUP_NO_INTEREST),
                dollars(MISSED_SHORT_2033),
-               dollars(BOTTOM_AFTER_2PT_FALL), dollars(TWD_NEED), dollars(CONTRIBUTION_FWD), hundreds(FLEX_FWD)}
+               dollars(BOTTOM_AFTER_1PT_FALL), dollars(TWD_NEED), dollars(CONTRIBUTION_FWD), hundreds(FLEX_FWD)}
     found = set(re.findall(r"(?<![A-Z])\$[\d,]+", printed))   # NT$ and US$ mark an exchange rate, not a dollar figure
-    if "US$1 = NT$" in printed:
-        note("Table 3", "Row 7: the exchange rate as printed", f"US$1 = NT${TWD_PER_USD:.3f}", "32.768 (8d)", "8d",
-             "PASS" if f"US$1 = NT${TWD_PER_USD:.3f}" in printed else "FAIL")
+    if "NT$" in printed:
+        note("Table 3", "Row 7: the exchange rate as printed", f"NT${TWD_PER_USD:.3f} per US$1", "32.768 (8d)", "8d",
+             "PASS" if f"NT${TWD_PER_USD:.3f} per US$1" in printed else "FAIL")
     note("Table 3", "Every dollar figure printed is checked", ", ".join(sorted(found)), ", ".join(sorted(allowed)),
          "this check", "PASS" if found <= allowed else "FAIL")
     nums = set(re.findall(r"(?<![\w$,.])\d+(?:\.\d+)?%?", printed.replace("NT$", "NT ").replace("US$", "US ")))
     known = {"2028", "31", "2027", "4", "3", "17", "2037", "10", "14", "2031", "2033", "2", "1", "1.5%", "5.0%",
              "9", "6", "2036",
-             f"{FALL_TAKES_WHOLE_DEPOSIT:.2f}", f"{TWD_PER_USD:.3f}", "10%"}
+             f"{FALL_TAKES_WHOLE_DEPOSIT:.2f}", f"{TWD_PER_USD:.3f}", "10%", "2026", f"{100 * CCI_5Y:.2f}%", "0.5%"}
+    ok = "less 0.5%" in md and "0.5% margin" in printed      # row 4: the floor's swap from the range rule's 0.5% cut
+    note("Table 3", "Row 4: the floor's 0.5% margin is the range rule's cut (NUMBERS 4: each end less 0.5%)",
+         "0.5% margin", "less 0.5%" if "less 0.5%" in md else None, "4", "PASS" if ok else "FAIL")
     note("Table 3", "Every other number printed is a checked date or figure", ", ".join(sorted(nums - known)) or "none",
          "dates and figures above", "this check", "PASS" if nums <= known else "FAIL")
 
     banned3 = ("backstop", "gift", "overflow", "paths", "forward rates", "half kept", "kept half", "moved half", "rung",
-               "completion", "model", "cap ", "capped", "excess", "stated ends", "escrow")
+               "completion", "model", "cap ", "capped", "excess", "stated ends", "escrow", "reserve",
+               "interest earns nothing")
     printed3 = " ".join([printed] + TABLE3_HEADER + list(TABLE3_LEVELS.values())).lower()
     note("Table 3", "No word WORDS.md bans", ", ".join(b for b in banned3 if b in printed3) or "none", "none",
          "WORDS.md", "PASS" if not any(b in printed3 for b in banned3) else "FAIL")
