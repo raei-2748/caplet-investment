@@ -26,7 +26,7 @@ decision, deadline or open item changes, and commit it with the related change. 
   then: deep research, analysis and thinking on every part of the case (not only investing), a little voice study, and
   one ranked store of every insight (`keel/final_report/research/INSIGHT_STORE.md`; nothing lost). Fri 27 Nov: one
   24-hour session, at least twelve draft-review-rewrite rounds against the Bible and Wharton; final draft to Caplet Sat
-  28 Nov. Plan: `keel/final_report/README.md`. Built on Caplet's own FINAL IPS (`keel/final_report/FINAL_IPS_as_submitted.txt`). Every figure comes from the number register `keel/final_report/NUMBERS.md` (9 Nov; engine `keel/final_report/numbers/`); every claim is checked against `keel/final_report/CANON.md`.
+  28 Nov. Plan: `keel/final_report/README.md`. Built on Caplet's own FINAL IPS (`keel/final_report/FINAL_IPS_as_submitted.txt`). Every figure comes from the number register `keel/final_report/NUMBERS.md` (9 Nov; engine `keel/final_report/numbers/`); every claim is checked against `keel/final_report/CANON.md`. Every source label in the research (W8, T14, "Q2b S26") resolves in `keel/final_report/research/SOURCES.md` (14 Nov).
 - **Self-reinforcing toward the best report in the competition (Ray, 9 Nov night, I103):** `keel/final_report/BEST_IN_COMPETITION.md`;
   every run starts from `SCORECARD.md` and `LESSONS.md` (weakest cells first), blind three-judge panels twice a week in
   `keel/final_report/research/panel/`; the plan is `INTENT.md` and `SKELETON.md` (notes, no prose before 27 Nov).

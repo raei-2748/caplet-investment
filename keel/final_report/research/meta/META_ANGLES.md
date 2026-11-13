@@ -3,7 +3,10 @@
 Research notes for the Final Report (Sun 8 Nov 2026). Ray asked for more angles like "why Wharton started this
 competition, what they want from us, and what they reward the most", to build "meta-thinking" or "high dimension
 thinking". Each angle below is a different place to stand when judging a piece of the report. The evidence for the
-Wharton facts is in `WHY_WHARTON.md` (sources W1-W35); this file adds the angles and answers the best ones.
+Wharton facts is in `WHY_WHARTON.md` (sources W1-W35); this file adds the angles and answers the best ones. T05, T07
+and T14 are tabs 05 (co-sponsor brief), 07 (Laura Gao) and 14 (Winning Team Portrait) of the FINAL REPORT Google
+Doc's Research section, saved in `keel/library/research_tabs_2026-11-07/doc_snapshot_2026-11-08/`; R1 and B7a are
+named at the top of `WHY_WHARTON.md`. Every label is resolved, with its link, in `../SOURCES.md`.
 
 Labels as in `WHY_WHARTON.md`: [Source] read at the page, [Inference] my reading, [Arithmetic] my calculation,
 [MODEL] a model figure. Every quotation from Caplet's frozen texts is from `../../FINAL_IPS_as_submitted.txt` (FINAL)

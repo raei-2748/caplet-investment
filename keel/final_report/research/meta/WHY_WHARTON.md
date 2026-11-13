@@ -15,7 +15,9 @@ returning judges, the fixed-income judge on every finale panel since 2024), and 
 **Labels.** [Source] = read at the page named, quoted exactly. [Snippet] = only seen in a search-result excerpt, not
 on the full page. [Secondary] = a third party reporting it. [Inference] = my reading, not stated anywhere.
 [Arithmetic] = my own calculation. All pages read Sun 8 Nov 2026 through the Parallel and WebFetch tools (the tool
-cache showed fetch dates of 1-5 Nov 2026 for some Wharton pages). Sources are numbered W1-W34 at the end.
+cache showed fetch dates of 1-5 Nov 2026 for some Wharton pages). Sources are numbered W1 to W35 at the end (with
+W15b; there is no W11). T12 and T14 are tabs 12 and 14 of the FINAL REPORT Google Doc's Research section, the two
+snapshot files named above. Every label in this file is resolved, with its link, in `../SOURCES.md`.
 
 ---
 
@@ -179,7 +181,7 @@ assumptions, tradeoffs, and competition experience clearly and authentically" [S
 
 ### The semifinal panel (decides the Top 10 from video presentations)
 - 2025-26's fifteen semifinal judges [Source W13], by my count from the list: 11 carry a Wharton designation (8 degree
-  programmes: seven WG, one W; 3 executive programmes: two WAM, one WMP). T12 counted "10 with Wharton degrees"; the
+  programmes: seven WG, one W; 3 executive programmes: two WAM, one WMP). T12 (the competition intelligence tab) counted "10 with Wharton degrees"; the
   difference is how the executive programmes are counted. By role:
   - private investment firms and asset managers: K1 Investment Management, Cadenza Capital Management, Advaya
     Capital, Orchard Global Asset Management, Equanimity Investments;
@@ -239,7 +241,7 @@ assumptions, tradeoffs, and competition experience clearly and authentically" [S
 
 | Change | Evidence | What it signals [Inference] |
 |---|---|---|
-| Returns stopped counting | 2015-16 guidebook: ROI "important" but "by no means the main determining factor" (T14); now "WInS is a tool for implementing your investment strategy. It is not the competition scorecard" (Guide p.3, B7a) and standings have "little to do with the final outcome" [W5] | Wharton removed the one thing a lucky team could win on; what is left is thinking and explaining |
+| Returns stopped counting | 2015-16 guidebook: ROI "important" but "by no means the main determining factor" (T14, which links the 2015-16 guidebook PDF); now "WInS is a tool for implementing your investment strategy. It is not the competition scorecard" (Guide p.3, B7a) and standings have "little to do with the final outcome" [W5] | Wharton removed the one thing a lucky team could win on; what is left is thinking and explaining |
 | Stock-picking gave way to goals-based planning | Clients: Jordan 2021-22 ("long-term and a small amount of mid-term profitability" [W29]); Ash 2023-24 ("build her wealth from an initial $100,000 investment", new ETF requirement [W30]); Ayoola 2024-25 (housing units at "about $10,000 USD per housing unit", a youth centre in 2040 "estimated to cost at least $50,000" [W31]); Barwin 2025-26 ($500,000 toward "$1.5 million by 2036" plus foundation income, per Westminster's account [Secondary, T12]; "think beyond financial returns" [W13]); Laura 2026-27 (fixed liabilities, "high degree of certainty", co-sponsors, a range with confidence) | Each year moved further from "which stocks" toward "fund a real project for a real person, with other people involved". This year's case is a liability-matching and communication problem, and stock analysis tools (SWOT, Porter's Five Forces) that were still learning objectives in 2025-26 [W7] are mostly beside the point |
 | The client is always a Wharton alum, recently a young one with a social purpose | "Since 2012, the Wharton Global High School Investment Competition has featured Wharton alumni as the competition client" [W4]; clients WG'08, W'19, W'13, WG'22, WG'23, W'18 [W4] | Wharton uses the case to show teenagers what Wharton graduates do: build things for communities. Laura (W'18, a statistics/analytics graduate who became an author) fits the pattern; the report should treat her as an intelligent, numerate person with a creative career, not as a generic retail investor |
 | Deliverables became a locked strategy plus an evaluation | Mid-project review + final report (2020-21 [W8]; 2025-26 "a Midterm and a comprehensive Final Report" [W7]) became TNA + 500-word IPS + Final Report, "Evaluators will consider the three deliverables together" (case p.4), and "you may not redesign your strategy after observing the results" (Guide p.5) | Wharton now rewards what an investment committee rewards: commit in writing, implement, then evaluate honestly without rewriting history. A Final Report that quietly drifts from the IPS loses on "maintains consistency with the team's IPS" |
