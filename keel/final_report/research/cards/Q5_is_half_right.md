@@ -255,3 +255,44 @@ Comparison used for the verdict (kept half: 17.8%-21.8% in the middle case; 9.0%
 - No source gives a norm for the Taiwan dollar risk in a reserve; the 19.1% is the register's stress (NUMBERS s8d),
   not a market forecast.
 - Who carries overruns between Laura and co-sponsors (row 33) is unknown and depends on the 2031 talks.
+
+## Sat 14 Nov: the half, researched in support of Caplet's choice (cards Q5b to Q5e)
+
+The IPS froze the split at half (l.15), so today's question was not "is half right?" but "what does the evidence
+support saying about half?", researched fairly, with what cuts the other way kept. Four new cards; notes, not prose.
+
+**Verdict: KEEP half as Caplet's choice, and CHANGE how it is defended.** The 9 Nov verdict above stands on size (about
+a fifth is enough for one risk at middle odds, not for three at once); today adds why keeping it unpromised is sound.
+
+1. **The numbers (card Q5b, NUMBERS 8o).** Half is the middle of a nearly one-for-one trade, not an optimum: each
+   $5,000 more of stated top would cost about $5,300 of what Laura keeps, and her total barely moves (within about
+   $1,100 at the median on every basis). Moving 70% would leave her flexibility alone enough for a 10% stronger Taiwan
+   dollar in about half the simulated futures (93 in 100 at half): worse for l.15's named uses. Moving 30% is a smaller
+   promise for a larger cushion, so preferring half over it is Caplet's judgment on a "meaningful" contribution (card
+   Q32), not a model result. Never "optimal".
+2. **The theory (card Q5c).** Money kept unpromised is worth something only because bad news may come after the
+   promise (Bernanke, 1980, the working paper read), and all three uses are bad news that arrives after 2031 (the tender, the rate on the day,
+   written pledges). A promise can be raised later but not taken back (Arrow and Fisher, 1974). A minimum with full
+   freedom above it is the best simple rule when news is expected (Amador, Werning and Angeletos, 2006): the plan's own
+   shape, the ten and the bottom fixed, her flexibility free. Waiting has a price, a smaller promise now, which is why
+   only half is kept back (McDonald and Siegel, 1982, the working paper read).
+3. **The practice (card Q5c).** Lead donors keep a later gift unannounced: one "decides later" to give again when a
+   campaign falls short or overruns make the goal too low, and no one should count on it (Klein, 2001). NASA promises
+   outside at 70% confidence and holds its reserve above the project. The announced "first and last" gift is a promise
+   and is never copied (CANON A30).
+4. **The size (card Q5d).** For small and renovated buildings, measured from an approved budget, about a fifth of the
+   stated top sits above the middle overrun (about the 60th percentile) and below the 90th; Laura in 2031 is earlier
+   than any approved budget, so the same money covers less. Funders cap their grants and owners pay overruns (England's
+   arts lottery: about two-thirds fell on the organisations; Taiwan's venue programme: the owner raises anything over
+   the approved budget), which is why the flexibility is Laura's. Small size is never a comfort: small buildings
+   overrun by more.
+5. **The correlation (card Q5e).** Not a hedge: in the year shares fall, building costs more often rise (-0.31 to
+   -0.34), and over Laura's two-year windows the link is about nothing. The uses take turns (a slump hits giving; an
+   inflationary fall hits building costs; the Taiwan dollar is unlinked, +0.09); 1973-75 hit two at once. The steady
+   part of what she keeps is the money the funds pay above the stated top.
+
+**Changed claim for the report (notes, not wording).** Half is Caplet's chosen middle of a nearly one-for-one trade
+between what Laura promises and what she keeps. It keeps enough for one use at middle odds (a 10% stronger Taiwan
+dollar in about 93 of 100 simulated futures; about the 60th percentile of small-building overruns from an approved
+budget), not for all three at once, which the report says. It stays unpromised because a promise can be raised later
+but not taken back, which is how lead donors keep their last gift.

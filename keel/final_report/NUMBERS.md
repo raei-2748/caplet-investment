@@ -721,7 +721,7 @@ What it shows:
 - **It does not vanish.** Even from September 1929 it is about $5,800, and from every other bad start named above it is close to what was put in. The house model's lowest 1 in 100 ($6,670) is lower than history's, because there "most" has also squeezed VT.
 - **The cap adds a second cushion that does not move with shares.** The excess is Treasury money, so the half kept plus the excess has a median of about $23,200 even in the years shares fall, and is under $15,000 in about 3% of house paths.
 - **The 2031 range itself does not move,** because the floor and the moved half are Treasuries by then.
-- **The honest line:** the half kept is a cushion whose size moves with the markets, smallest in the years it is most likely to be needed. That is a cost of keeping flexibility in shares rather than in Treasuries (section 4, the all-Treasury benchmark).
+- **The honest line:** the half kept is a cushion whose size moves with the markets. That is a cost of keeping flexibility in shares rather than in Treasuries (section 4, the all-Treasury benchmark). Narrowed Sat 14 Nov (card Q5e): it is smallest when two of its uses may grow, co-sponsors in a slump and building costs in an inflationary fall (1974, 2022), but not for a stronger Taiwan dollar, whose two-year move is unlinked to shares (+0.09, 8j). The uses take turns; never "a natural hedge", and never "smallest in the years it is most likely to be needed" for all three.
 
 ### 8g. The holdings table Wharton asks for in Section 2, at cost on the original $300,000 (Mon 9 Nov, evening)
 Wharton's instructions (`WHARTON_NORTH_STAR.md` section 0): every holding of the final WInS portfolio, with ticker or
@@ -997,7 +997,7 @@ Added Tue 10 Nov evening. Design H_plain with the fee cushion, the range rule on
 | Stricter reading: covered | 99.56% | 100% | 100% |
 | The half kept, 1 Jan 2033: 1-in-20 low / median / 1-in-20 high | $9,881 / $20,739 / $41,258 | $13,238 / $23,481 / $40,607 | $13,874 / $23,601 / $42,015 |
 | The half kept plus the excess: the same | $16,193 / $28,541 / $49,924 | $20,019 / $30,902 / $48,399 | $19,690 / $31,809 / $49,629 |
-| Against an overrun allowance of 13% / 17% of the contribution (Q5's early-stage norms; an illustration, never a cost estimate): half kept alone | 79.7% / 54.9% | 90.1% / 67.0% | 87.5% / 67.7% |
+| Against an overrun allowance of 13% / 17% of the contribution (card Q5's overrun allowances, about middle odds for small buildings from an approved budget (card Q5d); an illustration, never a cost estimate): half kept alone | 79.7% / 54.9% | 90.1% / 67.0% | 87.5% / 67.7% |
 | The same, half kept plus the excess | 98.7% / 91.0% | 99.4% / 95.8% | 100% / 96.8% |
 
 - **Central case** (today's forwards, VT 7.5% a year). A 10% stronger Taiwan dollar on $115,000 needs $11,500 more in
@@ -1328,6 +1328,108 @@ and the 1-in-20 low of the difference from B):
   that basis. E has no floor, so it has no bottom to state in January
   2028. C to E are not choices open to Caplet: the IPS is frozen.
 
+### 8o. Keeping 30%, half or 70% of the shares: the trade-off the IPS chose (Sat 14 Nov, MODEL)
+Added Sat 14 Nov (numbers owner) for part 3b and card Q5b. **The claim tested:** "Keeping half of the shares
+unpromised (IPS l.15) is a sound split between what Laura can promise co-sponsors in 2031 and what she keeps for the
+three named uses (cost overruns, a stronger Taiwan dollar, a co-sponsor falling short). Moving 70% of VT (keeping 30%)
+or moving 30% (keeping 70%) would be worse on balance." **Benchmarks, not a recommendation:** IPS l.15 is frozen at
+half; 70% and 30% only show the trade-off it chose. Nothing is re-sized and no earlier figure moves.
+- **Script and rerun:** `numbers/kept_share.py`, results `numbers/results_kept_share_2026-11-14.json` (exact values,
+  plus a central line every 5% moved, `central_frontier`). From the repo root, `python3 -I
+  keel/final_report/numbers/kept_share.py` (about 13 seconds). It changes no other script; it reads
+  `results_2026-11-10.json`, `results_kept_half_2026-11-10.json`, `results_joint_stress_2026-11-10.json` and
+  `results_share_split_2026-11-12.json` only for the checks.
+- **Basis:** the Tue 10 Nov register (design H_plain with the fee cushion, the range rule on the fund's holdings, Keel's
+  reading of "most"), on 8n's three bases: 200,000 simulated futures (seed 2033; stocks and rates drawn apart), US stocks
+  from every starting month since 1871 (1,770; rates at today's market rates), rates and US stocks together from every
+  starting month Jan 1962 to Sep 2010 (585). Plus 8j's real Taiwan dollar since 1983 (417 windows, on the US-stock basis).
+- **The one change:** the share of VT moved into the late-2032 Treasury fund before the 2031 meetings: 70%, 50% (the
+  plan) or 30%. The ten, the top-up, the extra Treasuries, the floor and VT bought in January 2028 are the same in every
+  split and every future, and so is the stated bottom. `plan.run` moves exactly half, so the script scales the moved
+  part and the part kept in proportion to VT's value on the move day (both are linear in it); at half the multipliers
+  are exactly 1.
+- **Same rule (section 4):** the top is the bottom plus the moved part's zero-interest payout less 0.5%, rounded down to
+  $5,000; the facility contribution is the lower of what the funds pay and the top; anything above the top joins her
+  flexibility.
+- **Names (WORDS):** her flexibility = the shares not moved, promised to no one, on 1 Jan 2033; "plus anything above the
+  top" adds what the funds pay above the stated top. Shares of the stated top are percentages only, never Laura's
+  building cost (case l.164; CANON A31); the 13% and 17% are 8j's overrun allowances from card Q5, an illustration.
+- **Rounding:** central figures to the dollar; spreads to $100 and one decimal of a percent. Stated figures and the
+  contribution are read without interpolation (section 0).
+
+| Measure | Move 70%, keep 30% | **The plan: move half, keep half** | Move 30%, keep 70% |
+|---|---|---|---|
+| **Today's market rates, VT 7.5% a year:** stated range | $95,000 to $125,000 (unrounded top $126,329) | **$95,000 to $115,000 ($118,443)** | $95,000 to $110,000 ($110,557) |
+| Facility contribution / what the funds pay | $125,000 / $131,595 | **$115,000 / $123,476** | $110,000 / $115,357 |
+| Her flexibility / plus anything above the top | $12,808 / $19,403 | **$21,347 / $29,823** | $29,886 / $35,243 |
+| Her flexibility as a share of the stated top (plus anything above) | 10.2% (15.5%) | **18.6% (25.9%)** | 27.2% (32.0%) |
+| A 10% stronger Taiwan dollar needs; her flexibility covers it (plus anything above) | $12,500; 1.02 times (1.55) | **$11,500; 1.86 times (2.59)** | $11,000; 2.72 times (3.20) |
+| **Simulated futures (200,000):** stated bottom, 1-in-20 low / median / 1-in-20 high | $85,000 / $95,000 / $115,000 | **$85,000 / $95,000 / $115,000** | $85,000 / $95,000 / $115,000 |
+| Stated top (= the contribution in every future) | $100,000 / $125,000 / $155,000 | **$95,000 / $115,000 / $140,000** | $90,000 / $110,000 / $130,000 |
+| Width of the range | $15,000 / $25,000 / $45,000 | **$10,000 / $20,000 / $35,000** | $5,000 / $10,000 / $20,000 |
+| Range one figure; range $5,000 wide or less | 144 futures (0.07%); 0.5% | **254 (0.13%, 8l); 1.6%** | 882 (0.44%); 13.9% |
+| Contribution inside the stated range | 100% | **100%** | 100% |
+| Her flexibility, 1 Jan 2033: 1-in-100 / 1-in-20 / median / 1-in-20 high | $4,000 / $5,900 / $12,400 / $24,800 | **$6,670 / $9,881 / $20,739 / $41,258 (8f)** | $9,300 / $13,800 / $29,000 / $57,800 |
+| Her flexibility plus anything above the top: 1-in-20 / median | $12,100 / $20,500 | **$16,193 / $28,541** | $20,100 / $36,600 |
+| Her flexibility, median, if shares fell over 2031-2033 (28.4% of futures) | $9,300 | **$15,423 (8f)** | $21,600 |
+| Her flexibility over the stated top: 1-in-20 / median | 5.4% / 10.0% | **9.4% / 17.8%** | 13.7% / 26.7% |
+| **Her flexibility covers a 10% stronger Taiwan dollar (8j)** | **50.0%** | **93.2%** | **98.9%** |
+| The same, plus anything above the top | 97.9% | **99.77%** | 99.89% |
+| Overrun illustration: her flexibility covers 13% / 17% of the contribution | 23.1% / 6.5% | **79.7% / 54.9% (8j)** | 96.2% / 87.3% |
+| The same, plus anything above the top | 84.8% / 44.3% | **98.7% / 91.0%** | 99.7% / 98.5% |
+| Against the plan, future by future: contribution, median (1-in-20 low to high) | +$10,000 (+$5,000 to +$15,000) | | -$10,000 (-$15,000 to -$5,000) |
+| Her flexibility plus anything above the top, against the plan | -$8,300 (-$16,700 to -$3,200) | | +$8,300 (+$3,200 to +$16,700) |
+| Contribution plus her flexibility plus anything above, against the plan; share of futures with more | -$400 (-$5,200 to +$2,700); 42% | **median $145,687** | +$400 (-$2,700 to +$5,200); 58% |
+| **US stocks since 1871:** stated top 1-in-20 / median / high; lowest contribution | $115,000 / $125,000 / $140,000; $100,000 | **$110,000 / $115,000 / $130,000; $100,000** | $105,000 / $110,000 / $115,000; $100,000 |
+| Her flexibility: 1-in-20 / median; lowest (VT bought) | $7,900 / $14,100; $3,500 (Sep 1929) | **$13,238 / $23,481; $5,779 (Sep 1929)** | $18,500 / $32,900; $8,100 (Sep 1929) |
+| Covers a 10% stronger Taiwan dollar: her flexibility / plus anything above | 62.2% / 99.3% | **96.9% / 100%** | 99.4% / 100% |
+| **Rates and US stocks together since 1962:** stated top 1-in-20 / median / high | $100,000 / $125,000 / $155,000 | **$95,000 / $115,000 / $140,000** | $90,000 / $110,000 / $130,000 |
+| Her flexibility: 1-in-20 / median | $8,300 / $14,200 | **$13,874 / $23,601** | $19,400 / $33,000 |
+| Covers a 10% stronger Taiwan dollar: her flexibility / plus anything above | 64.1% / 99.0% | **99.3% / 100%** | 100% / 100% |
+| **The real Taiwan dollar since 1983** (actual two-year move, 417 windows): her flexibility / plus anything above | 91.6% (fails 35) / 97.6% (fails 10) | **98.1% (8) / 99.8% (1)** | 100% / 100% |
+| Contribution plus her flexibility plus anything above, against the plan: median; share with more (US stocks; together) | -$900, 32%; -$1,100, 27% | | +$900, 68%; +$1,100, 73% |
+
+- **The plan reproduces the register exactly** (`checks.summary`: 179 figures compared, largest difference
+  $0.00000000004, no share or count differs): section 4 (central $95,000 to $115,000, unrounded $98,729 to $118,443;
+  funds pay $123,476; excess $8,476; half kept $21,347; $29,823; $144,823; the simulated futures' and US stocks'
+  stated ends, contribution, excess and totals); 8f (half kept $6,670 / $9,881 / $20,739 / $41,258, its share of what
+  the funds pay, the medians if shares fell, the lowest window $5,779 in Sep 1929); 8i (stated ends and half kept, and
+  `joint_stress.py`'s own arrays in all 585 starting months); 8j (93.2%, 13,618 failures; 99.77%, 467; 96.9%, 54;
+  99.3%, 4; the 13% and 17% rows; the real currency's 98.1% with the same eight failing starts and 99.8%); 8k ($75,298
+  centrally; $40,404 / $78,584 / $120,375 across the 585); 8n's option B. The floor and the stated bottom are identical
+  in every split and every future.
+- **The trade at the centre** (`central_frontier`, today's market rates): the stated top steps up $5,000 at 28.6%,
+  41.3% and 53.9% of the shares moved ($110,000, $115,000, $120,000). Where each step starts, her flexibility plus
+  anything above the top is $35,272, $30,006 and $24,740: each $5,000 more promised costs about $5,266 of what she
+  keeps. Inside a step only the mix moves (more shares kept, or more Treasury money above the top), not the total.
+- **The total barely moves.** What Laura has beyond the ten (the contribution plus her flexibility plus anything above
+  the top) is linear in the share moved: against the plan it differs by a median of $372 in the simulated futures, $877
+  on US stocks and $1,094 with rates and stocks together, either way. The split decides what is promised and what stays
+  hers, and how much of what stays hers rides on shares from 2031 to 2033; it barely changes how much there is.
+- **What the report may say (notes, not wording):**
+  - Half is the middle of a nearly one-for-one trade, not an optimum the model finds. On today's market rates each
+    $5,000 more of stated top would cost about $5,300 of what Laura keeps, and her total is about the same either way.
+  - The 3b sentence "the most she can give while keeping about $30,000 for the three things that could go wrong" holds
+    at today's market rates as a description of that trade: $115,000 is the highest $5,000 step at which she keeps
+    about $30,000; $120,000 would leave about $24,700 and $110,000 about $35,300. Two conditions: the $30,000 is her
+    flexibility (about $21,300 of shares) plus anything the funds pay above the top (about $8,500), said so (WORDS); and
+    it is the central figure (in 1 of 20 simulated futures it is about $16,200 or less). The order of cause is the
+    IPS's: half was chosen (l.15) and $115,000 follows from it; Caplet did not set a $30,000 target.
+  - Moving 70% would add about $10,000 to the contribution and leave her flexibility alone enough for a 10% stronger
+    Taiwan dollar in about half the simulated futures (93 in 100 at half) and about 6 in 10 historical starts; at the
+    1-in-20 low it would be about $5,900, about 5% of the top. Worse for the uses IPS l.15 names: supported.
+  - Moving 30% would take about $10,000 off the contribution in the simulated futures ($5,000 at today's rates), add
+    about $8,300 to what she keeps, and cover a 10% stronger Taiwan dollar from her flexibility alone in about 99 in 100
+    simulated futures and in every starting month since 1962. On these numbers it is not worse; it is a smaller promise
+    for a larger cushion, with a narrower range ($5,000 or less in about 14 in 100 simulated futures, against about 2).
+    The case for half over 30% is the size of the contribution (card Q32), Caplet's judgment, not a model result.
+  - Never: "half is optimal", "the model chose half", or "a different split would leave her worse off" (the totals
+    agree within about $1,100 at the median).
+- **Limits.** Stocks and rates are drawn apart in the simulated futures (section 7); US stocks since 1871 grew faster
+  than the 7.5% assumed (8n), which favours keeping more shares on that basis. The co-sponsor use has no test here: no
+  co-sponsor's size or shortfall is modelled (case l.106-107). The three uses are tested one at a time, never together
+  (card Q5). The move is modelled on 1 Jan 2031. 70% and 30% are not choices open to Caplet: the IPS is frozen.
+
 ## 9. Still to add (later days)
 - **The exhibits are not yet re-built on these figures.** `exhibits/exhibit_data.py` reads 8h (per payment: own holding above $50,000 and backstop cover, now in four worlds), section 4 and 8i (Exhibit 3). Re-run it, then `exhibits/build_exhibits.py`; this register run did not touch them. `exhibit_data.py` should read the backstop's value on 1 Jan 2033 ($45,456), not its cost carried ($45,487).
 - **Cards Q19, Q20 and Q24 refresh to these figures** (section 10). Q24's Taiwan dollar test (verdict 3, rows 22-25, card 4) is replaced by 8j.
@@ -1339,6 +1441,7 @@ and the 1-in-20 low of the difference from B):
   - `plan.py` carries the January 2028 completion a year as if 2027 had 365.25 days ($1.14 too much; 8k's check). Fix it on the next full re-run, not alone: it moves the completion to $38,281 and the floor money to $81,890 in every file.
 - **Two checks only a student can make:** which Treasury-bill ETF WInS lists, with its fee (section 0; the cushion is sized for 0.15% a year); and IBTM's prospectus wording on what may make the fund pay less than its holdings (section 3).
 - `pooled.py` (card Q20) still compares the designs at exactly 0%, with the old fixed deductions; it is a record, not a source.
+- **Sat 14 Nov (cards Q10b, Q10c, Q10d):** DGBAS lists the October 2026 construction cost index as published (+7.18% on a year, a secondary read) but its downloadable files still ended in September on 14 Nov; re-read the DGBAS file before 8d is next changed (8d keeps September's +7.29%). Before 3d prints Taiwan's 2026 artist-village grants (NT$13.5m to 11 grantees, a mean of NT$1.23m, card Q10d row 9), they need an entry here with their conversion date.
 - Later days add what the research rounds and the skeleton ask for.
 
 ## 10. Files that still quote a void figure (Tue 10 Nov afternoon, with evening rows; listed, not edited)

@@ -1767,3 +1767,202 @@ Q38-017,3,2,5,4,keep,,Store: the five maturities' weekdays match 8h's cash table
 Q38-018,3,2,5,4,keep,,"Table 1's type column: all five are bonds, never notes."
 Q38-019,3,2,5,4,keep,,3e or Table 1 note: none of the five can be called.
 Q38-020,3,2,5,4,keep,,"Done: Table 1 widths refitted for CUSIPs (identifier column 0.87 in), no wraps (Fri 13 Nov evening)."
+Q5b-001,3,3,5,3,adapt,,"Benchmark only (IPS l.15 is frozen at half): defence and questions, never a choice in prose (NUMBERS 8o)."
+Q5b-002,5,5,5,4,keep,,"3b candidate clause: each $5,000 more of stated top costs about $5,300 of what she keeps; said as half's result (l.15 chose half, $115,000 follows), never how half was chosen."
+Q5b-003,4,5,5,4,keep,,"3b or 3e defence: the split changes what is promised, not how much there is (her total within about $1,100 at the median on every basis)."
+Q5b-004,4,3,5,3,keep,,"Supports l.15 for its named uses: keeping only 30% would cover a 10% stronger Taiwan dollar in about half the futures, half keeps it at 93 in 100."
+Q5b-005,3,3,5,3,merged,Q5b-004,The same test with anything above the top and on the real Taiwan dollar since 1983.
+Q5b-006,4,4,5,4,keep,,The bridge to the contingency evidence: her flexibility is about 18% of the stated top (card Q5d places it).
+Q5b-007,3,3,5,3,keep,,Store: the overrun illustration across splits (8o).
+Q5b-008,3,3,5,3,keep,,Store: her flexibility's spread across splits (8o).
+Q5b-009,3,4,5,3,keep,,"Questions: keeping more narrows the range ($5,000 or less in about 14 in 100 futures at 30% moved, about 2 at half)."
+Q5b-010,4,2,5,4,keep,,"Check: the bottom and the floor never move with the split, and the contribution is always inside the range."
+Q5b-011,3,3,5,3,merged,Q5b-002,"The same trade, future by future."
+Q5c-001,4,5,5,3,keep,,"3b or 3e theory: waiting is worth something only because bad news may come, and all three uses are bad news (Bernanke, 1980, NBER working paper)."
+Q5c-002,4,4,5,3,keep,,"Condition: the news must arrive after the 2031 statement (the tender, the rate on the day, written pledges); it does."
+Q5c-003,3,4,5,3,merged,Q5c-001,Present value is unreliable for an irreversible commitment; holds for risk-lovers too.
+Q5c-004,5,5,5,4,keep,,"3b's one line of theory if room: a promise can be raised later but not taken back (Arrow and Fisher, 1974); fits the top rounded down and half kept."
+Q5c-005,3,4,5,3,merged,Q5c-004,Irreversibility reduces benefits rather than forbidding the act.
+Q5c-006,3,4,5,3,keep,,"Defence: waiting has a price (the case's 'meaningful'), which lowers the hurdle; why only half is kept back (McDonald and Siegel)."
+Q5c-007,4,4,5,4,keep,,"Analogy: venture capitalists never commit all the money a company will need (Sahlman, 1990); Laura states what she owns and keeps the rest."
+Q5c-008,3,3,5,3,adapt,,Risk recorded: holding back can signal doubt; SKELETON 3b's answer is to name what is kept and why.
+Q5c-009,2,4,4,3,keep,,Store only.
+Q5c-010,3,4,5,3,merged,Q5c-007,Staging in 794 venture-backed firms (Gompers).
+Q5c-011,5,5,5,4,keep,,"The plan's shape in one theorem: a minimum with full freedom above it is the best simple rule when news is expected (Amador, Werning and Angeletos, 2006); the ten and the bottom fixed, her flexibility free. 3b or 3.0."
+Q5c-012,2,3,4,3,keep,,Store only.
+Q5c-013,4,3,5,3,adapt,,"Honest limit: the option is worth most in bad states, where her flexibility is smallest (8f); carried with card Q5e."
+Q5c-014,3,5,5,4,adapt,,"Contrast only: an announced 'first and last' gift is a promise (CANON A30, D12); never copy."
+Q5c-015,5,5,5,5,keep,,"3b or 3d: practice in co-sponsors' own words; a lead donor 'decides later' to give again when a campaign falls short or overruns make the goal too low, and no one should count on it (Klein, 2001)."
+Q5c-016,3,4,5,3,adapt,,Contrast only: a pledge tied to the last stage is a promise (A30).
+Q5c-017,3,3,5,3,keep,,Store: gift-chart practice; never set beside the case's 'meaningful' without card Q32.
+Q5c-018,3,4,4,3,merged,Q5c-015,Gap-closing anecdotes.
+Q5c-019,3,4,4,3,keep,,Store: a large gap becomes a new campaign.
+Q5c-020,4,3,3,4,keep,,"Guard: no study gives a typical held-back share, so the report quotes none."
+Q5c-021,4,5,5,4,keep,,Analogy for 3c or 3e: NASA commits outside at 70% confidence and holds its reserve above the project; Laura states what she already owns and keeps her flexibility outside the promise.
+Q5c-022,3,4,5,3,merged,Q5c-021,The reserve as a formula.
+Q5c-023,3,4,5,3,merged,Q5c-021,Released only on approval.
+Q5c-024,3,4,5,4,adapt,,"Risk recorded (A31, card Q24): one pot, three uses; tested one at a time."
+Q5c-025,3,4,5,3,keep,,Defence: reserves get used (23 of 53 major NASA projects overran by 15% or more).
+Q5c-026,3,3,5,3,keep,,Store: Crossrail's sponsor-held £600m was needed.
+Q5c-027,2,3,3,3,keep,,Store only.
+Q5d-001,5,5,5,4,keep,,"3b or 3e: small buildings overrun by more; Norway's smallest quarter P50 12%, P90 42% from an approved budget (n=48)."
+Q5d-002,4,5,5,4,keep,,Renovations have the fattest tail (P90 52%); a residency often reuses an old building.
+Q5d-003,3,4,5,3,merged,Q5d-001,The same data by price per m² and distinctiveness.
+Q5d-004,3,5,5,4,keep,,Store: why small projects overrun more (decided on a less mature basis).
+Q5d-005,4,5,3,3,adapt,,"Placement, Keel arithmetic, illustration only (A31): 18.6% about P60 and 25.9% about P70-75 for small and renovated buildings from an approved budget; Laura is earlier. 8j's label fixed today ('overrun allowances', not 'early-stage norms')."
+Q5d-006,4,5,5,4,keep,,"England's 15 arts lottery buildings: 13 over budget, 16.9% in all; the closest arts reference class."
+Q5d-007,3,4,5,3,merged,Q5d-006,The smaller six ran -7.9% to +20.0%.
+Q5d-008,5,5,5,4,keep,,"Funders cap and owners pay: supplementary grants met about 35% of England's arts lottery overruns, two-thirds fell on the organisations (with Q5d-028: why the flexibility is Laura's)."
+Q5d-009,3,4,5,3,keep,,Store: Heritage Lottery Fund overruns rise with grant size.
+Q5d-010,3,4,5,4,keep,,Store quote: 'Once you take the roof off a historic building'; pairs with Q10c-036.
+Q5d-011,3,4,5,3,keep,,"Store: Australia, 276 projects from contract award."
+Q5d-012,3,4,5,3,merged,Q5d-011,Exceedance odds by size.
+Q5d-013,3,4,5,3,keep,,Store: Denmark's cultural repairs and new builds.
+Q5d-014,4,5,5,4,keep,,"The owner's own changes are the largest cause of overruns (about 55%, Denmark); her flexibility also pays for her own better ideas. Store and 3b defence."
+Q5d-015,3,3,5,3,keep,,Guard: Set in Stone has no size analysis (projects under $4m left out); never quote its means for a small building.
+Q5d-016,3,4,4,3,keep,,Store: Arts Council England's small capital grants.
+Q5d-017,3,4,5,3,keep,,Store: Canada Cultural Spaces Fund overrun top-ups.
+Q5d-018,2,3,5,3,keep,,Store only.
+Q5d-019,2,3,5,3,merged,Q5d-020,Norwegian roads by contract size.
+Q5d-020,3,3,3,3,keep,,Store: smaller projects overrun more in percentage terms.
+Q5d-021,3,5,3,3,keep,,Caveat: the size effect is partly an artefact of measuring size by the estimate.
+Q5d-022,3,3,3,3,keep,,Counter-evidence kept: larger projects overrun more often.
+Q5d-023,2,3,3,3,keep,,Store only.
+Q5d-024,3,3,3,3,keep,,Store: fat right tails.
+Q5d-025,4,5,5,4,keep,,"Taiwan heritage roof repair: +22.47% on cost from rot found when the roof came off; store only (density cut, no NUMBERS 0 entry); carries Q10c-035."
+Q5d-026,3,4,4,3,keep,,Store: Kinmen's heritage repairs and the dismantling survey.
+Q5d-027,3,5,4,3,keep,,Store: C-LAB's phase 2 budget +35.5%.
+Q5d-028,5,5,4,4,keep,,"Taiwan's own rule: anything over the approved budget is raised by the owner; with Q5d-008, why the flexibility is Laura's (3b, 3d)."
+Q5d-029,4,4,3,3,adapt,,Honest limit (3e): in a 1-in-20 bad market her flexibility is about the small-building middle overrun.
+Q5d-030,3,4,3,3,adapt,,"Risk (Q5 row 33): if her $115,000 is only part of the budget, her flexibility covers less of the building's overrun; never a cost estimate."
+Q10b-001,5,4,5,4,keep,,"3e or Table 3 row 7: 10% in two years is real but not rare; if one figure, the register's 11.0% (8j, since 1983); this card's 9.0% since 2001 in the store."
+Q10b-002,2,3,5,3,merged,Q10b-001,One-year windows.
+Q10b-003,2,3,5,3,merged,Q10b-001,Three-year windows.
+Q10b-004,3,4,5,3,keep,,Store: the worst two-year moves.
+Q10b-005,3,4,5,3,keep,,Store: strengthening episodes.
+Q10b-006,3,4,5,3,keep,,Defence: 10% is about 1.5 two-year standard deviations.
+Q10b-007,4,4,5,4,adapt,,Row 7's base fixed today: the test runs from the rate at the 2031 meetings; NT$32.768 is printed for scale only (SKELETON exhibits).
+Q10b-008,3,3,5,3,keep,,Store: today's level against ten and 25 years.
+Q10b-009,3,5,4,3,keep,,"Store: from a weak level a 10% rise came more often, from few episodes; never a forecast."
+Q10b-010,2,3,5,3,keep,,Store only.
+Q10b-011,4,4,5,4,keep,,"3e: 10% can arrive in weeks (+6.21% in two sessions, May 2025, CBC closes); the test is about the rate on the day of conversion."
+Q10b-012,3,4,5,3,merged,Q10b-011,May 2025's records on the Fed's series.
+Q10b-013,2,3,3,3,merged,Q10b-011,"Intraday figures, unverified."
+Q10b-014,3,4,5,3,keep,,Store: the CBC's account of 2 May 2025.
+Q10b-015,3,4,5,3,merged,Q10b-014,The CBC's 5 May statement.
+Q10b-016,2,3,3,3,keep,,Store only (unverified).
+Q10b-017,3,4,5,3,keep,,"Guard: the cause is contested (US Treasury: insurers; CBC: exporters and equity inflows); say 'expectations around US tariff talks', never 'trade-policy pressure' as the cause."
+Q10b-018,3,4,5,3,merged,Q10b-017,The BIS on hedging.
+Q10b-019,3,4,5,3,keep,,Store: insurers' foreign exposure.
+Q10b-020,2,4,5,3,keep,,Store only.
+Q10b-021,4,5,5,3,keep,,"Context: insurers' hedge ratios at a record low (50.23%, end-2025), so another sudden move stays possible; store only, never in Table 3."
+Q10b-022,2,3,5,3,keep,,Store only.
+Q10b-023,2,4,5,3,keep,,Store only.
+Q10b-024,3,5,5,3,merged,Q10b-021,The FSC's rule may limit hedging.
+Q10b-025,2,3,5,3,keep,,Store only.
+Q10b-026,3,4,5,4,keep,,The CBC: short-term capital flows drive the rate; why row 7 cannot warn ahead of a jump and her flexibility sits ready instead.
+Q10b-027,2,3,5,3,keep,,Store only.
+Q10b-028,2,3,5,3,keep,,Store only.
+Q10b-029,3,3,4,3,keep,,Store: reasons for a stronger NT$; not a forecast.
+Q10b-030,3,3,5,3,keep,,Store: reasons against.
+Q10b-031,5,3,5,5,keep,,"3e: the test's direction comes from the exposure, not a forecast; only a stronger NT$ costs her."
+Q10b-032,3,2,5,3,keep,,Store correction: May 2025 now on primary sources.
+Q10c-001,2,3,5,3,keep,,Store: what the index measures.
+Q10c-002,5,5,5,4,keep,,3e clause: building costs rise in bursts that raise the level for good (six of 25 years carried about 80% of the rise); no new number in prose.
+Q10c-003,4,4,5,4,adapt,,"Risk recorded and fixed: row 7's band is a rate over five years, so a one-year print outside it is a look-closer, not a breach (SKELETON exhibits)."
+Q10c-004,3,3,5,3,merged,Q10c-002,After a burst the rate falls back.
+Q10c-005,3,3,5,3,keep,,Store: 2026 so far.
+Q10c-006,2,2,3,3,keep,,Re-read DGBAS's October file before 8d next changes (NUMBERS 9).
+Q10c-007,2,3,5,3,keep,,Store only.
+Q10c-008,4,4,5,3,keep,,Store: the building sub-index runs gentler than the headline (+5.93% in September); the better watch if row 7 is revisited.
+Q10c-009,3,3,5,3,merged,Q10c-010,2021-22 was materials-led.
+Q10c-010,4,5,4,4,keep,,"3e clause: 2026's burst is led by wages, the part least likely to fall back."
+Q10c-011,1,2,1,3,refuse,,Unverified claim seen and not used.
+Q10c-012,2,4,3,3,keep,,Store only.
+Q10c-013,2,3,3,3,keep,,Store only.
+Q10c-014,2,3,3,3,keep,,Store only.
+Q10c-015,3,5,5,4,keep,,Store: site matters; one city's index ran about twice another's in the same month.
+Q10c-016,2,3,5,3,keep,,Store only.
+Q10c-017,2,3,5,3,keep,,Store only.
+Q10c-018,3,5,5,3,keep,,Store: in a burst the first thing a job meets is no bidders (time risk).
+Q10c-019,3,2,5,3,keep,,CPI October +2.33% confirmed at DGBAS.
+Q10c-020,2,3,5,3,keep,,Store only.
+Q10c-021,2,3,5,3,keep,,Store only.
+Q10c-022,3,5,5,4,keep,,Store: 31 Dec 1999 is Taiwan's line between old and new buildings for seismic checks.
+Q10c-023,2,4,5,3,merged,Q10c-022,Pre-2000 buildings flagged.
+Q10c-024,2,4,5,3,merged,Q10c-022,The public-buildings programme.
+Q10c-025,3,4,5,3,keep,,Store: buildings open to the public face regulator-led seismic checks.
+Q10c-026,4,4,5,4,keep,,"Guard: never say the code was tightened after Hualien 2024 (last revision 1 Mar 2024, a month before)."
+Q10c-027,2,3,5,3,keep,,Store only.
+Q10c-028,2,3,5,3,keep,,Store only.
+Q10c-029,1,3,5,3,merged,Q10c-027,Subsidy schedule.
+Q10c-030,3,4,5,4,keep,,Store: new-build code cost about 5% (NCREE).
+Q10c-031,2,3,5,3,merged,Q10c-030,US evidence.
+Q10c-032,3,4,5,3,keep,,Store: retrofit about 12-20% of a new building.
+Q10c-033,2,3,4,3,merged,Q10c-032,A retrofit pulls in other work.
+Q10c-034,1,3,5,3,keep,,Store only.
+Q10c-035,4,5,5,4,merged,Q5d-025,The Control Yuan's heritage repair.
+Q10c-036,3,5,5,4,keep,,"Store quote: until a roof is taken apart, damage cannot be counted (PCC); pairs with Q5d-010."
+Q10c-037,3,4,5,3,keep,,Store: small heritage repairs struggle to draw bidders.
+Q10c-038,2,3,4,3,keep,,Store only.
+Q10c-039,3,3,5,3,keep,,Store: both Taipei residencies reused buildings; adds to card Q9c's site losses.
+Q10c-040,4,4,3,4,keep,,"3e limit: the national rate is the part the plan shows; site, age and timing are at least as large and no national rate shows them."
+Q10d-001,3,4,5,3,keep,,Store: who the village grant is for.
+Q10d-002,3,4,5,3,merged,Q10d-029,What an applicant files.
+Q10d-003,4,3,5,4,keep,,"3d or 3e: Taiwan's residency grant is one year at a time and its amount depends on the legislature; public money comes after the building, never in place of it."
+Q10d-004,3,5,5,3,keep,,Store: the 2009 grant paid only for capital.
+Q10d-005,2,3,5,3,merged,Q10d-004,2013's two categories.
+Q10d-006,3,4,5,3,keep,,Store: the two-year option came (2021) and went (Dec 2024).
+Q10d-007,4,5,5,4,keep,,"3e limit: the rules changed 13 times in 17 years, about every 16 months; a co-sponsor's terms can change before 2032."
+Q10d-008,2,3,5,3,merged,Q10d-007,Application windows moved.
+Q10d-009,4,4,5,4,keep,,"Scale for 3d: the whole 2026 village programme was about $412,000 to 11 grantees, a mean of about $37,000; needs a NUMBERS entry before print."
+Q10d-010,2,4,5,3,keep,,Store only.
+Q10d-011,3,4,4,3,keep,,Store: incumbents win most years.
+Q10d-012,1,3,3,3,keep,,Store only.
+Q10d-013,3,4,5,3,keep,,Store: the programme is about 0.05% of the Ministry's budget.
+Q10d-014,2,3,5,3,keep,,Store only.
+Q10d-015,3,3,5,3,keep,,Store: NCAF pays at a project's end.
+Q10d-016,2,3,5,3,merged,Q10d-018,No residency-operations item.
+Q10d-017,2,4,5,3,keep,,Store only.
+Q10d-018,4,4,5,4,keep,,"Correction: the written tests are legal form, a site right, a running residency and staff (NCAF: one year registered, one full-time employee), not private capital."
+Q10d-019,2,3,5,3,merged,Q10d-018,The operating grant's size.
+Q10d-020,5,5,5,4,adapt,,"Coherence guard (CANON B4): Taiwan's central culture spending rose in 2009-10 and with COVID money in 2020-21, so the report never says Taiwan's government cut arts money in a recession; IPS l.9's co-sponsors are private and US funders (card Q4b)."
+Q10d-021,3,3,5,3,merged,Q10d-020,The Ministry's budget 2013-2024.
+Q10d-022,3,4,5,3,merged,Q10d-020,COVID relief.
+Q10d-023,3,4,5,3,keep,,Store: NCAF grants by year.
+Q10d-024,2,3,5,3,keep,,Store only.
+Q10d-025,4,5,5,4,keep,,"3e: public money falls short through budget votes and rule changes, not recessions (2025's record cut and freeze; 2026's budget 351 days late)."
+Q10d-026,4,5,5,4,merged,Q10d-025,2026's late budget.
+Q10d-027,2,3,5,3,keep,,Store only.
+Q10d-028,3,4,5,3,keep,,Store: the 2026 local-venue directions.
+Q10d-029,4,4,5,4,keep,,"3d: public funders ask first for registration, a site right and a running residency; Laura's money comes first."
+Q10d-030,4,4,3,4,keep,,Order in time: public running money follows the December 2032 payment by at least one cycle.
+Q5e-001,4,4,5,3,adapt,,"Guard: never 'partial natural hedge'; in the year shares fall, building costs more often rise (-0.31 to -0.34 in three series)."
+Q5e-002,3,4,5,3,merged,Q5e-003,One year later the sign turns weakly right-way.
+Q5e-003,4,4,5,4,keep,,Over Laura's two-year windows the link is about nothing (-0.33 to +0.25); store and defence.
+Q5e-004,3,4,5,3,merged,Q5e-003,World shares against Taiwan costs lean wrong-way.
+Q5e-005,5,5,5,4,adapt,,"3e clause: an inflationary fall (1974, 2022) is the case that hits her flexibility and building costs at once; named as a limit, no trigger (CANON A34)."
+Q5e-006,3,4,5,3,merged,Q5e-005,After big falls costs rise in the crash year.
+Q5e-007,3,5,5,3,keep,,"Store: Taiwan's index follows the S&P by about six months, then rebounds."
+Q5e-008,2,4,5,3,merged,Q5e-007,Cost surprise against trend.
+Q5e-009,3,4,5,3,keep,,Store: Taiwan 2008-09.
+Q5e-010,3,5,5,3,keep,,Store: Taiwan's contractors in 2009.
+Q5e-011,4,4,5,4,keep,,Store with Q10c-016: Taiwan's public contracts pass index rises during the build to the owner.
+Q5e-012,4,4,5,3,merged,Q5e-005,"2022, the inflationary counter-case."
+Q5e-013,3,4,5,3,merged,Q10c-018,Failed tenders in 2022.
+Q5e-014,2,3,5,3,merged,Q10c-017,The 98 revised projects.
+Q5e-015,2,4,5,3,merged,Q10c-018,Taipei's failed tenders and the index.
+Q5e-016,3,5,5,3,keep,,Store: markups fall in slumps (Austria).
+Q5e-017,3,4,5,3,merged,Q5e-016,Texas bids in the recession.
+Q5e-018,2,3,4,3,merged,Q5e-016,US 2009 bids.
+Q5e-019,2,3,2,3,keep,,Store only (sources disagree).
+Q5e-020,3,4,5,4,keep,,Defence: low slump bids come back as claims and failures; a cheap tender is not a saving to count on.
+Q5e-021,2,3,5,3,keep,,Store only.
+Q5e-022,2,3,5,3,keep,,Store only.
+Q5e-023,3,4,3,3,keep,,Guard: share prices do not lead building prices.
+Q5e-024,4,5,5,4,keep,,"Theory: hedge less only when funds and needs move together (Froot, Scharfstein and Stein, 1993); hers do not, so her flexibility is a reserve, not a hedge."
+Q5e-025,2,4,3,3,keep,,Store only (not read at source).
+Q5e-026,3,5,5,3,keep,,"Store: downside matters more than average co-movement (Ang, Chen and Sundaresan, 2013)."
+Q5e-027,2,4,3,3,keep,,Store only.
+Q5e-028,5,5,5,5,adapt,,"3e: the uses take turns (a slump hits giving; an inflationary fall hits building costs; the Taiwan dollar is unlinked, 8j); 1973-75 hit two at once, recorded."
+Q5e-029,5,4,5,4,keep,,"The steady part of her flexibility is the excess above the top (median $23,201 with it, $15,423 without, where shares fell; 8f): why $29,800 is always said with its two parts."
