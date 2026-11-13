@@ -1689,3 +1689,81 @@ H9-117,3,5,3,3,merged,Q9c-028,"Merged into Q9c-028, which reads Bamboo Curtain's
 H9-119,3,5,4,4,adapt,,"Adapt: keep '$50,000 a year is a base, not a whole budget' for 3d, but drop or date Jentel's $599,000, the founder-era budget from before the residency passed by her estate to the University of Wyoming (card Q9b)."
 Q32-031,2,5,5,4,adapt,,"Adapt: the filings are right that the founder gave nearly all of Jentel's money, but the $0 after her death means the residency passed by estate to the University of Wyoming, not that founder money failed (card Q9b), so never call it fragile."
 Q11b-015,4,5,4,4,adapt,,"Adapt (Fri 13 Nov): read with Q9c-030, which read the closure at the source: a planned road, the pandemic and senior staff leaving, announced in 2020 before the founder died in 2021. Never a residency that stopped because its founder died."
+Q36-001,4,3,5,4,keep,,"Table 3 row 4 and 3e: the end date is the board's, no shareholder vote; why row 4 watches notices."
+Q36-002,4,4,5,4,adapt,,"Table 3 row 4: an extension needs no notice period, so the row watches for silence by 31 October (card Q36); never 'must give notice'."
+Q36-003,2,3,5,3,keep,,Store: where an extension would show (a prospectus supplement); the team's monitoring source for row 4.
+Q36-004,4,4,5,4,keep,,Table 3 row 4's look-closer cell: no ending notice by 31 October is the cheap warning (mid-October four years running).
+Q36-005,3,3,5,4,keep,,"3e: no iBonds fund has been extended or ended early; four of four Treasury iBonds ended on schedule. Base rate, never a promise."
+Q36-006,4,4,5,4,keep,,Table 3 row 4: the board alone can end a fund early (s.11.04(c)); settles card Q3b line 23's UNVERIFIED.
+Q36-007,2,3,5,3,keep,,Store: Invesco's wording allows an earlier or later date; iShares' names only later. Supports watching both.
+Q36-008,3,5,5,4,keep,,"3e or Table 3 note if room: term bond ETFs have been ended early (Invesco BSCE, BSDE, 2023); the early end is real, not hypothetical."
+Q36-009,3,4,5,4,keep,,"Store and 3e: closures give about two months' notice and cash at NAV 3 to 7 days after the last NAV, costs inside the NAV."
+Q36-010,2,3,5,3,keep,,"Store: 633 US ETFs closed 2012-2019; holders may do best taking NAV. Context for the swap step, not report prose."
+Q36-011,5,4,5,4,keep,,"Table 3 row 4's action: early cash is smaller than the end payout, so it buys a Treasury due before the payment the day it arrives; the reserve's 0% standard has $0 to spare with the fee (NUMBERS 2, 8h)."
+Q36-012,3,3,5,3,keep,,"Store: 22(e)'s seven-day limit on delayed redemption, with its exceptions; a date risk, Table 3 row 5's halt."
+Q36-013,3,5,4,3,adapt,,"Figure 1 note at most: seven days after each end equals the last date of each cash range (8h); that 22(e) binds the final payout is Keel's reading, not settled law, so never stated as law."
+Q36-014,2,3,5,3,keep,,Store: suspension cases; cannot leave a payment unfunded in dollars.
+Q36-015,2,3,5,3,keep,,Store: an in-kind final payout would be cash and Treasuries due by 15 December; not a funding risk.
+Q36-016,4,4,5,4,keep,,"Table 3 row 4: a merger needs no vote and only 30 days' notice and could change the end date, so row 4 watches it."
+Q36-017,2,2,5,2,keep,,Store: Rule 17a-8's conditions for a merger without a vote.
+Q36-018,2,2,5,3,keep,,Store: an objective or index change needs 60 days' notice for the 80% policy; not a funding risk.
+Q36-019,2,2,5,3,keep,,"Store: delisting triggers stop exchange sales, not the fund's payout."
+Q36-020,2,2,5,3,keep,,Store: holders have little say; why the plan watches rather than votes.
+Q36-021,2,2,5,3,keep,,Store: SEC bulletin on fund liquidations; holders can sell before trading stops.
+Q36-022,1,1,5,3,keep,,"Store: the 2009 Declaration is still the charter (Form 8-A, 7 Jul 2026); provenance for Q36-001 to 006."
+Q36-023,4,3,4,4,adapt,,"Done Fri 13 Nov evening: row 4's Never cell now says VT, since its swap sells the iBond fund's own shares; 3e's prose names the world share fund (VT)."
+Q37-001,4,2,5,4,keep,,"3e: each assumption with its number, its source and what it moves (ASOP 41)."
+Q37-002,5,4,5,5,keep,,"3e's spine: the case's own five assumption areas, in the case's order, one sentence each (card Q37's main finding)."
+Q37-003,4,3,5,4,keep,,"3e: say whose each assumption is (the bond market, J.P. Morgan, the case, Caplet); ASOP 41 3.4.4, ASOP 27 4.2."
+Q37-004,3,3,5,3,keep,,"3e: estimate, market observation or both; folds into Q37-003's 'whose'."
+Q37-005,5,4,5,4,keep,,"3e: zero interest after January 2028 and the 0.5% cut are margins Caplet chose, not forecasts; say so."
+Q37-006,4,2,5,4,keep,,3e and every exhibit note: the date of the information (6 Nov 2026 curve).
+Q37-007,4,3,5,4,keep,,"3e: 'barring a US default' is the condition, stated first (as CBO states its main condition), not a limit."
+Q37-008,3,3,5,3,keep,,3e: when each assumption bites (yields until January 2028; shares until the 2031 move).
+Q37-009,4,4,5,4,keep,,"3e: say once what no assumption moves (the payments after January 2028), as the Trustees' sensitivity table does."
+Q37-010,3,2,5,3,keep,,Table 2 note: one assumption varied at a time.
+Q37-011,2,2,5,3,keep,,Store: a rule of thumb per assumption; density cut keeps it out of prose.
+Q37-012,3,2,5,4,keep,,"3e: 7.5% is compound (J.P. Morgan 2027), said once."
+Q37-013,4,3,5,4,keep,,"3e's headline number: the stated top is $115,000 at every share return from 4% to 10% (NUMBERS 4)."
+Q37-014,3,2,5,3,keep,,"3e: one standard form for the return (compound, US dollars, before fees, inflation included)."
+Q37-015,3,3,5,3,keep,,3e: reinvestment is its own named assumption; the payments' standard sets it to zero for cash waiting.
+Q37-016,5,4,5,5,adapt,,"3e and SKELETON: the deposit assumption is the case's 'in full at the start of 2028'; 31 March 2028 is reason 1's trigger, never the assumption."
+Q37-017,4,3,5,4,keep,,"3e: yields move the top-up's size, the bottom and what comes back; never whether the ten are paid after January 2028."
+Q37-018,5,4,5,5,keep,,"3e's headline: at 4% to 10% share returns the stated top is $115,000 in every column (NUMBERS 4)."
+Q37-019,5,4,5,5,adapt,,"SKELETON 3c, 3d: the 0.5% is a one-time cut of each end's value, never 'half a percent a year' (about 0.10% a year over five years); fixed in SKELETON Fri 13 Nov evening."
+Q37-020,3,3,5,3,keep,,3e: the waiting money's 0.15% fee is an assumption the payments' standard depends on (8h).
+Q37-021,4,3,5,4,keep,,3e: inflation cannot make the payments fail (fixed dollars); it decides what they and the contribution buy.
+Q37-022,4,3,5,4,keep,,3e: Taiwan building costs and the Taiwan dollar are not model inputs; tested against her flexibility (Table 3 row 7).
+Q37-023,4,3,5,4,keep,,"3e: outside funding, none for the payments or the bottom; co-sponsor money year by year in NT$ (card Q9c)."
+Q37-024,4,3,5,4,keep,,"3e: her flexibility is sized as half the shares (IPS l.15), not to a cost; say so."
+Q37-025,3,2,5,3,keep,,"Table 2 note: model mechanics (yields 0.9 point a year, independent of shares; joint replay)."
+Q37-026,4,4,4,4,keep,,"3e voice: numeric ranges cost little or no trust, verbal hedges cost more (van der Bles 2020); supports 'number, source, what it moves'."
+Q37-027,3,3,4,4,keep,,Voice: 'estimated' and 'around' do not signal uncertainty; give the range.
+Q37-028,3,4,4,3,keep,,Store: expert disagreement is the one framing that hurts trust (Gustafson and Rice 2020); never show the team's internal disagreement as uncertainty.
+Q37-029,3,4,5,3,keep,,"Store: 28 experiments, no overall effect of stating uncertainty on trust (meta-analysis g = 0.00)."
+Q37-030,3,3,4,3,keep,,3e for co-sponsor words: uncertainty stated in advance protects trust when the figure later changes.
+Q37-031,2,3,4,3,keep,,Store: readers assume evidence is high quality without a cue.
+Q37-032,2,2,4,3,keep,,Store: keep the size of uncertainty separate from the quality of the evidence.
+Q37-033,3,3,5,3,keep,,3e monitoring: say whether anything changed since the last statement (for Laura's 2031 and 2033 updates).
+Q37-034,4,3,5,4,keep,,"3e: limits apart from assumptions, each residual named and sized."
+Q37-035,2,3,4,2,keep,,Store: a wide management range weakened investors' reaction to an audit paragraph; caution on range width.
+Q38-001,5,2,5,5,keep,,Table 1: IBTM's ticker and name; CUSIP held in the card. Done Fri 13 Nov evening (8g).
+Q38-002,4,2,5,5,keep,,Table 1: IBTO's name; CUSIP in the card.
+Q38-003,4,2,5,5,keep,,Table 1: IBTP's name; CUSIP in the card.
+Q38-004,4,2,5,5,keep,,Table 1: IBTQ's name; CUSIP in the card.
+Q38-005,4,2,5,5,keep,,Table 1: IBTR's name; CUSIP in the card.
+Q38-006,4,2,5,5,keep,,Table 1: VT's name; 0.06% expense ratio as of 30 Sep 2026.
+Q38-007,5,2,5,5,keep,,"Table 1: the bond for 2038 by CUSIP 912810PT9 (done Fri 13 Nov evening, 8g)."
+Q38-008,5,2,5,5,keep,,Table 1: the bond for 2039 by CUSIP 912810PX0.
+Q38-009,5,2,5,5,keep,,Table 1: the bond for 2040 by CUSIP 912810QD3.
+Q38-010,5,2,5,5,keep,,Table 1: the bond for 2041 by CUSIP 912810QL5.
+Q38-011,5,2,5,5,keep,,Table 1: the bond for 2042 by CUSIP 912810QT8.
+Q38-012,3,3,5,4,keep,,Store: coupon plus maturity picks out one bond; two dates have twins that differ by coupon.
+Q38-013,4,3,5,4,keep,,Never print Wharton's 532281: not a CUSIP; Wharton's table is illustrative.
+Q38-014,4,2,5,4,keep,,Section 2: a CUSIP meets Wharton's 'identifier'; Caplet's WInS export no longer needed for Table 1.
+Q38-015,2,4,3,3,keep,,Store: WInS likely took the May-2038 bond's first sale date as a coupon date (inference); explains 8g v2's 15 Aug.
+Q38-016,3,2,5,4,keep,,Store: all eleven identifiers pass the CUSIP check digit.
+Q38-017,3,2,5,4,keep,,Store: the five maturities' weekdays match 8h's cash table.
+Q38-018,3,2,5,4,keep,,"Table 1's type column: all five are bonds, never notes."
+Q38-019,3,2,5,4,keep,,3e or Table 1 note: none of the five can be called.
+Q38-020,3,2,5,4,keep,,"Done: Table 1 widths refitted for CUSIPs (identifier column 0.87 in), no wraps (Fri 13 Nov evening)."

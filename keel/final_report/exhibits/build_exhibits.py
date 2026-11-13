@@ -120,9 +120,10 @@ def figure1(outputs):
     text(C1_R, L3, hd["c1"][0], ha="right", va="bottom", weight="bold", size=FS_HEAD)
     text(C1_R, L4, hd["c1"][1], ha="right", va="bottom", weight="bold", size=FS_HEAD)
     # the question the two right-hand columns answer, over a rule that groups them
-    span_c = (SPAN_L + C3_R) / 2
-    text(span_c, L1, hd["question"][0], ha="center", va="bottom", weight="bold", size=FS_HEAD)
-    text(span_c, L2, hd["question"][1], ha="center", va="bottom", weight="bold", size=FS_HEAD)
+    # Fri 13 Nov evening: right-aligned on the last column, since "If cash waiting earns nothing," is wider than the
+    # rule's span; it sits two lines above the other heads, so it may run left over "At today's market rates"
+    text(C3_R, L1, hd["question"][0], ha="right", va="bottom", weight="bold", size=FS_HEAD)
+    text(C3_R, L2, hd["question"][1], ha="right", va="bottom", weight="bold", size=FS_HEAD)
     ax.plot([SPAN_L, C3_R], [L2 + 0.035, L2 + 0.035], color=INK, linewidth=0.6)
     for x_r, (a, b) in ((C2_R, hd["c2"]), (C3_R, hd["c3"])):
         if a:
@@ -210,7 +211,7 @@ EXHIBITS = {
     # Every title says the exhibit's scale (fresh reader and coordinator, Wed 11 Nov): Table 1 is the WInS book on the
     # original $300,000 (8g: "Laura's whole plan in miniature"); Figure 1 and Table 2 are her plan for both deposits.
     "t1": {"label": "Table 1",
-           "title": "The Final WInS Portfolio at Cost on the Original $300,000: Laura's Whole Plan in Miniature",
+           "title": "The Final WInS Portfolio at Cost on the Original $300,000: Laura's Plan in Miniature",
            # Thu 12 Nov evening: 75 words (was 50). The units column needs its basis (targets set before the first
            # trade; a bond unit is $1,000 of face value) and SKELETON's density cut sends 2.5's two other targets
            # here (bonds within 25 basis points; cash never below $1,000). The costs label now says what the row is,
@@ -219,35 +220,39 @@ EXHIBITS = {
            "section": "Section 2 (2-3 pages)", "note_budget_words": 75,
            "note_items": [
                "amounts at cost: units held x price paid on 6-7 Oct 2026 (U.S. Eastern), on the original $300,000 (8g)",
-               "units bought / target: the targets were set before the first trade (Portfolio tab, 2 Oct prices); a "
-               "bond unit is $1,000 of face value (8m)",
+               "units bought / target: targets set before the first trade (Portfolio tab, 2 Oct prices); a bond "
+               "unit is $1,000 of face value (8m)",
                "the other two targets, met: every bond bought within 25 basis points of the Treasury curve; cash "
-               "never below $1,000 (8m; SKELETON density cut, 2.5)",
-               "Pays for: the payment (1 January of that year) each holding stands for (23 Oct snapshot); the floor: "
-               "the least Laura can promise co-sponsors in 2031, which IBTM stands in for (TNA l.13, CANON A24, 8g)",
-               "costs row: the $200 of fees and $1,109.42 of bond interest accrued at purchase, which comes back with "
-               "each bond's next coupon (8g v2)"]},
+               "never below $1,000 (8m; 2.5)",
+               "Pays for: each holding's payment (1 January; 23 Oct snapshot); the floor: the least Laura can promise "
+               "co-sponsors in 2031, IBTM standing in (TNA l.13, CANON A24, 8g)",
+               "costs row: $200 of fees and $1,109.42 of accrued bond interest, repaid with each bond's next coupon "
+               "(8g v2)",
+               "identifiers: tickers for funds, CUSIPs for bonds (8g, card Q38); VT bought last, with the cash left "
+               "(8m)"]},
     "f1": {"label": "Figure 1",
-           # Thu 12 Nov: WORDS.md's names ("the top-up", "interest earns nothing"); the point first, then the scale
-           "title": "Each Payment Has Its Own Treasury, and the Top-Up From the 2028 Deposit Pays Any Gap if Interest "
-                    "Earns Nothing (Laura's Plan for Both Deposits, $450,000, Modelled)",
+           # Fri 13 Nov evening: WORDS.md's names ("the extra Treasuries", "cash waiting earns nothing"; the top-up is
+           # the $2,388 that completes the ten, IPS l.13); the point first, then the scale
+           "title": "Each Payment Has Its Own Treasury, and Extra Treasuries From the 2028 Deposit Pay Any Gap if Cash "
+                    "Waiting Earns Nothing (Laura's Plan for Both Deposits, $450,000, Modelled)",
            # Fri 13 Nov (bond reader, 12 Nov): the definition and the reconciliation join, in priority order. The
            # budget stays 60 words: items 1 to 4 fit it in a terse note (counted Fri 13 Nov, the title already
            # carrying "$450,000" and "Modelled"); 5 and 6 only if room, else 3a's prose (the bars show the cash dates)
            "section": "Section 3, part 3a", "note_budget_words": 60,
            "note_items": [
-               "1. \"if interest earns nothing\", defined once: money already received earns nothing while it waits; "
-               "every coupon and fund payout still counts (WORDS; 8h)",
-               "2. the last column reconciled: the top-up's $35,894 (January 2028) buys $36,867 of Treasuries at face; "
+               "1. \"if cash waiting earns nothing\", defined once: money already received earns nothing while it "
+               "waits; every coupon and fund payout still counts (WORDS; 8h)",
+               "2. the last column reconciled: the extra Treasuries' $35,894 (January 2028) buys $36,867 at face; "
                "with $19,143 of their own interest, summed undiscounted, they pay $55,920 after $90 of the waiting "
                "fund's 0.15% fee; at today's rates about $45,500 comes back (1 Jan 2033 money) (8h)",
                f"3. the ratio with its reason: about {D.FIGURE1_PER_DOLLAR} for each $1 on 1 Jan 2033 at today's "
-               "rates, because the top-up is sized for no interest (8h; card Q31)",
+               "rates, because the extra Treasuries are sized for cash waiting earning nothing (8h; card Q31)",
                "4. Treasury par curve of 6 Nov 2026; each payment in its own year's dollars (8h)",
                "5. bars end when the cash reaches Laura: a fund a few days after its 15 December end, a bond on its "
                "maturity date or the next business day (8h cash table)",
                "6. if room: paid in every historical rate stretch tested (585 starts, 1962-2010; NUMBERS 2); the "
-               "top-up's other $2,388 completes the ten, in \"Its own Treasury\"; rows may not add because of rounding"]},
+               "top-up, $2,388, completes the ten, in \"Its own Treasury\"; the floor's IBTM shares are a separate lot "
+               "from the 2033 payment's; rows may not add because of rounding"]},
     "t2": {"label": "Table 2",
            "title": "Laura's Plan for Both Deposits ($450,000) in Five Markets and in History Since 1962, Modelled",
            "section": "Section 3, parts 3b and 3c", "note_budget_words": 45,
@@ -261,15 +266,17 @@ EXHIBITS = {
                "spread rows: each column's own percentile",
                "each row is a different market before January 2028; within each, the bottom is fixed from then"]},
     "t3": {"label": "Table 3",
-           # Thu 12 Nov (SKELETON Exhibits item 4): seven rows in three levels, five columns, one trigger per cell
+           # Thu 12 Nov (SKELETON Exhibits item 4): seven rows in three levels, five columns, one trigger per cell.
+           # Fri 13 Nov evening: rows rewritten for three readers and card Q36, refitted to one page (18.4 lines without
+           # the note, 21.4 with 40 words; was 18.9 and 21.9 with 35)
            "title": "Seven Signals to Watch as 2031 and 2033 Approach; Two Can Change Laura's $450,000 Plan",
-           "section": "Section 3, part 3e", "note_budget_words": 35,
+           "section": "Section 3, part 3e", "note_budget_words": 40,
            "note_items": [
-               "today's market rates (curve of 6 Nov 2026)",
-               "the top-up: $2,388 the ten still lack plus $35,894 so each payment is met if money received earns "
-               "nothing (January 2028 dollars)",
-               "X-date: Treasury's estimate, else CBO's",
-               "Team: Wharton's \"her asset management team\""]},
+               "$38,282: top-up ($2,388) and extra Treasuries ($35,894)",
+               "X-date: when the debt limit stops the Treasury paying every bill (its estimate, else the "
+               "Congressional Budget Office's)",
+               "cash dates: fund payouts, maturities, trade days",
+               "payments hold to a 3.60-point fall before 2027"]},
 }
 
 
@@ -422,13 +429,19 @@ def _two_row_head(BT, rep, t, header, widths, spanners):
 
 def add_table1(BT, rep, note_text, top=False):
     # Each cell needs its text + its padding (0.08 in between columns, none at the outer edges) + slack, or it wraps:
-    # "[532281]" 0.611 in; "Asset" 0.370; "from cash left" 0.926 and "4,503 / 4,503" 0.880; bold "300,000.00" 0.750;
+    # (before Fri 13 Nov evening) "[532281]" 0.611 in; "Asset" 0.370; "from cash left" 0.926 and "4,503 / 4,503" 0.880; bold "300,000.00" 0.750;
     # bold "100.00" 0.458; "Range top," 0.722; the longest bond name 2.014. Thu 12 Nov evening: the "Units bought /
     # target" column (1.05 in) is paid for by the name column (3.17 -> 2.13 in), so the five iBond fund names and VT's
     # take two lines (IBTM's and VT's rows had two already). The label rows run across the first four columns (4.31
     # in): the Treasury subtotal indented to the names, "All holdings" and the costs row flush left like "Total".
     # Units are centred: bought and target have the same digits in every row, so the slashes line up.
-    widths = [0.67, 2.13, 0.46, 1.05, 0.85, 0.55, 0.79]
+    # Fri 13 Nov evening (card Q38): the bonds' CUSIPs (widest "912810QD3", 0.824 in by font metrics) widen column 1
+    # to 0.87 in, paid by every other column's slack, each set by rendering in LibreOffice (which needs about 0.02-0.04
+    # in more than the font metrics: the bond names wrapped at 2.09 and "4,503 / 4,503" at 0.96): names 2.12, units
+    # 0.97 (VT's "with the rest" 0.824), amount 0.83 (bold "300,000.00" 0.750), % 0.54 (bold "100.00" 0.458), and
+    # Pays-for 0.71, VT's cell on three lines ("Range / top, / flexibility"), which its three-line units cell already
+    # makes the row's height. Table 1 keeps 20.9 lines with its note budget.
+    widths = [0.87, 2.12, 0.46, 0.97, 0.83, 0.54, 0.71]
     aligns = [BT.L, BT.L, BT.L, BT.C, BT.R, BT.R, BT.C]
     return apa_table(BT, rep, "t1", D.TABLE1_HEADER, D.table1_rows(), widths, aligns, note_text, top,
                      label_span=D.LABEL_SPAN, label_indent={"subtotal": widths[0] + PAD / 1440})
@@ -453,7 +466,7 @@ def add_table2(BT, rep, note_text, top=False):
 def add_table3(BT, rep, note_text, top=False):
     # Widths (6.5 in): the reader column holds "Laura" and "Team" on one line; the last column is the widest, as it
     # carries two parts ("Changes:" and "Never:", in italics).
-    widths = [0.85, 0.60, 1.50, 1.65, 1.90]
+    widths = [0.85, 0.48, 1.55, 1.62, 2.00]   # Fri 13 Nov evening: "Who" needs less than "Reader"
     aligns = [BT.L] * 5
     return apa_table(BT, rep, "t3", D.TABLE3_HEADER, D.table3_rows(), widths, aligns, note_text, top, row_gap=1)
 
@@ -647,9 +660,10 @@ def tables_md(measures):
             cells = [f"**{c}**" if c else "" for c in cells]
         rows.append(cells)
     L.append(_md_table(D.TABLE1_HEADER, rows, right={4, 5}) + "\n")
-    L.append("Printed: the five iBond fund names and VT's take two lines in the 2.13-in name column, as do the "
-             "Pays-for cells of IBTM (\"2033 and / the floor\") and VT (\"Range top, / flexibility\"); VT's units cell "
-             "takes three (\"167 / 164 / bought last, / from cash left\"). Units are centred, so the slashes line up. "
+    L.append("Printed: the five iBond fund names and VT's take two lines in the 2.12-in name column, as does the "
+             "Pays-for cell of IBTM (\"2033 and / the floor\"); VT's Pays-for cell takes three (\"Range / top, / "
+             "flexibility\") and so does its units cell (\"167 / 164 / bought last, / with the rest\"). The bonds' "
+             "identifiers are their CUSIPs (card Q38). Units are centred, so the slashes line up. "
              "The two subtotals and the costs row print their labels across the first four columns: the Treasury "
              "subtotal indented to the names; \"All holdings\" and the costs row flush left, with no ticker, type or "
              "units. Rules above each subtotal and the total. Asset types are one word (Wharton's \"ETF\" and \"Bond\" "
@@ -746,7 +760,7 @@ def main(argv):
     m["_method"] = ("Card Q23: Letter, 1-inch margins, 12-pt Times New Roman metrics (Liberation Serif), double-spaced "
                     "text at a 27.6-pt pitch, table bodies single-spaced, APA number, title and note double-spaced, a "
                     "blank double-spaced line after each exhibit; LibreOffice headless; words a line 14.26 (Q23 row 5)")
-    m["_built"] = "Fri 13 Nov 2026 morning (Sydney), register of Tue 10 Nov 2026"
+    m["_built"] = "Fri 13 Nov 2026 evening (Sydney), register of Tue 10 Nov 2026"
     with open(os.path.join(HERE, "measurements.json"), "w") as fh:
         json.dump(m, fh, indent=1)
     print(json.dumps(m, indent=1))

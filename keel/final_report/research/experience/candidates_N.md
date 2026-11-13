@@ -145,3 +145,15 @@ the next blind re-rank (scheduled Mon 16 Nov), so that one panel reads every wee
 - Strand: research and decision process
 - Related: N-11
 - Evidence: `keel/final_report/research/panel/2026-11-13_coherence_reader_2.md`; `keel/final_report/INTENT.md` (item 1, failure 7); `keel/final_report/exhibits/exhibit_data.py` (Table 3 row 4); `keel/pm/ASK_HUMANS.md` (Fri 13 Nov, 06:55)
+
+### N-13: The team's own Trading Notes settled what to call the money
+- Date (Sydney): Fri 13 Nov, evening
+- Origin: KEEL
+- What happened: For two days we had called the first $38,282 of the 2028 deposit "the top-up". A third strict reader checked the word against the Trading Notes Caplet submitted in October and found that there "top up" means only completing the ten Treasuries, which is $2,388 of it. The other $35,894 buys extra Treasuries so that each payment is met even if cash waiting earns nothing, a risk the same notes had named in their own words.
+- Stakes: the report must agree with every submitted document in a judge's reading. A judge comparing the notes with the report would have seen one word mean two different sums.
+- Decision or response: Two names, each true to the frozen texts: "the top-up" for the $2,388 and "the extra Treasuries" for the $35,894; and "if interest earns nothing" became "if cash waiting earns nothing", after a bond reader and a lay reader both read the old phrase as false.
+- What changed afterwards: the word list, the plan, Figure 1, Table 3 and the decision log were renamed the same evening; a rule went into the lessons: before a fix ships, grep the frozen texts for every word it touches.
+- Vivid detail: the answer was already in the notes the team wrote on 6 and 7 October, five weeks before anyone asked the question.
+- Strand: research and decision process
+- Related: N-11, N-12
+- Evidence: `keel/final_report/research/panel/2026-11-13_coherence_reader_3.md`; `caplet/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md`; `keel/final_report/WORDS.md`; `keel/pm/ASK_HUMANS.md` (Fri 13 Nov, 19:50)
