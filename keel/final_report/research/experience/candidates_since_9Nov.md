@@ -316,3 +316,51 @@ basis) unless marked as that day's figure; MODEL marks a simulated figure. Times
 - Strand: learning and growth
 - Related: S-23
 - Evidence: `archive/bible_2026-11-08/BIBLE.md` l.812, l.826 (Book 17, working tree); `keel/INSTRUCTIONS.md` l.132 (I107: "SKELETON restates parts of the IPS"; `final_report/research/meta/EVALUATE_NOT_DESCRIBE.md` planned); `competition/official/2026_27/2026_WGY_Final_Report_Instructions.txt` l.12-13
+
+### S-27: Three blind readers could not tell the team's practice passages from Keel's, and could always tell Keel's
+- Date (Sydney): Sat 14 Nov, afternoon
+- Origin: KEEL (work on the team's order to "write like us")
+- What happened: Three writers wrote the same three Final Report passages, about 350 words each, from the same plain facts: two fresh writers who read only the team's own writing, and Keel's main session with all its working files in mind. Three readers, playing judges who had read the IPS twice, got fourteen unlabelled passages in a different order each, including the team's three real Trading Note reflections, and said whether the people who wrote the IPS could have written each one. The team's real reflections were read as theirs 9 times in 9; the fresh writers' passages 13 times in 18; Keel's main session 0 times in 9, and two paragraphs of Keel's last IPS draft 0 in 6. The readers heard staged openings and rounded endings as not the team's.
+- Stakes: The voice of the Final Report, after the team had set aside more than sixty earlier drafts as unreadable and written its own IPS.
+- Decision or response: On 27 Nov the sentences will be written by fresh writers who read only the team's writing, and the main session will check facts and figures instead of writing.
+- What changed afterwards: Every later voice round is judged the same way, blind, on whole passages, with the team's real passages mixed in; an image sentence may never open or close a part.
+- Vivid detail: The readers marked the team's own reflections "Surely" every time.
+- Strand: learning and growth
+- Related: S-25, K-27, W-05
+- Evidence: `keel/final_report/voice/ROUND1.md` l.5-32 (the table at l.26-32); `keel/final_report/voice/README.md`; `keel/pm/RUNLOG.md` (Sat 14 Nov 12:08 row)
+
+### S-28: The team chose a conceit, "pencil and ink", and said why the IPS had none
+- Date (Sydney): Sat 14 Nov, 17:19
+- Origin: CAPLET
+- What happened: A week after submitting an IPS with no image in it, the team decided the Final Report would carry one conceit, "pencil and ink", from the client's own trade as a graphic novelist and illustrator. The team defined what it meant, "not a motif or an extended metaphor ... strikingly dissimilar, surprising and seemingly far-fetched parallels", and why the two documents differ: "That was a letter; this is not a letter. That was a brief, blunt summary; this is an in-depth, intricate analysis." It sent a mapping another AI had drafted, calling it "not gospel ... not written by us ... not final".
+- Stakes: The report's creativity and presentation, one of Wharton's five criteria, after an earlier image (a "tablet" name for the plan) had been cut on 5 Nov as corny.
+- Decision or response: The rule the image stands for became the report's governing rule in plain words: Laura states a figure only once Treasuries she already owns will pay it, barring a US default. The IPS stays as submitted.
+- What changed afterwards: Every part of the report plan names whether it carries the image and which number it explains; five to seven image sentences in the whole report, never in tables or in Laura's words to co-sponsors.
+- Vivid detail: "That was a letter; this is not a letter."
+- Strand: learning and growth
+- Related: S-25, S-29, S-30
+- Evidence: `keel/INSTRUCTIONS.md` I114; `keel/final_report/CONCEIT.md` section 1 and "Caplet's message, verbatim"; `keel/EXPECTATIONS.md` standing order 20; commit `2ad6133` (PR #188)
+
+### S-29: The image tested the plan, and the plan of three days earlier failed it
+- Date (Sydney): Sat 14 Nov, evening
+- Origin: KEEL (work on the team's conceit)
+- What happened: The mapping the team sent quoted a 2031 range of about $140,000 to $160,000, a $7,500 buffer and a check in January 2033. Its figures came from a full draft in the team's own document, written before the 10 Nov number register, which most likely took them from two of Keel's own research tabs of 7-8 Nov. Running the conceit's own rule through both designs showed that under the older design the top Laura states in 2031 would not yet be owned, because the 2033 check could take part of it, against the IPS's "whatever figure you choose is money you already own". Under the register's design every figure she states is owned the day she states it, at a range about $35,000 lower.
+- Stakes: Whether the report keeps the lower, owned range or returns to the higher one the team's draft used.
+- Decision or response: The register's design stays (Keel's call, logged; any student can overrule). Keel added a dated note to its two out-of-date research tabs and left the team's draft untouched.
+- What changed afterwards: The conceit now carries the true date on which each figure is owned: the ten payments and the bottom in January 2028, the top before the 2031 meetings, the half kept back never.
+- Vivid detail: The team's own image, applied to its own earlier numbers, caught the figure that was not yet owned.
+- Strand: research and decision process
+- Related: S-28, S-30, S-20
+- Evidence: `keel/final_report/CONCEIT.md` sections 3, 4 and 9; `keel/pm/ASK_HUMANS.md` (Sat 14 Nov, 17:35, two rows); `keel/final_report/NUMBERS.md` section 4 ("What certainty costs the gift"); commit `dfee722` (PR #189)
+
+### S-30: An outside reader found nine errors in Keel's own first notes on the image
+- Date (Sydney): Sat 14 Nov, evening
+- Origin: KEEL
+- What happened: The same evening Keel wrote its notes on the conceit, a reader given only the team's files and none of Keel's conclusions audited the mapping and Keel's notes together. Most of its corrections to the AI mapping matched Keel's, but it found nine errors in Keel's own text, among them "the plan is fully inked by January 2028" (the top is owned only before the 2031 meetings), a comics term for printing past the trim line applied to the wrong money, and a scale image that claimed more than the portfolio holds.
+- Stakes: Images that would have told a bond-reading judge something false about which figures are owned and when.
+- Decision or response: All nine were fixed before the notes were merged; the reader's twelve ranked parallels replaced weaker ones.
+- What changed afterwards: Every image sentence must carry its date and pass a written test (true to the craft, true to the plan, costing the reader less than it teaches) before it reaches the report.
+- Vivid detail: The first line Keel wrote to sum up the image, "fully inked by January 2028", was the first one the reader struck.
+- Strand: research and decision process
+- Related: S-28, S-29, N-12
+- Evidence: `keel/final_report/research/cards/Q41_conceit_audit.md` Part A2; `keel/final_report/CONCEIT.md` sections 3, 5b, 7; commit `2ad6133` (PR #188)

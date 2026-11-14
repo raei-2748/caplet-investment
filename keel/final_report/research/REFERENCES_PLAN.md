@@ -1195,8 +1195,32 @@ uses). Full elements and quotes in card Q40.
 - Authors Guild. (n.d.). *Model trade book contract*: advance instalments; reserve against returns.
 - Association of Illustrators. (n.d.). *Publishing contracts: The basics*: advances in three parts.
 - The Comics Journal (2011, March 13): original art at 10 x 15 inches (card Q40, item 10).
-- Martin, G. *The art of comic book inking* (Dark Horse; 1997, 2nd ed. 2005, 3rd ed. 2019): cite only after a printed
-  copy is checked and the page noted; the sentences found so far are from a manuscript.
+- Martin, G. (2019). *The art of comic book inking* (3rd ed.). Dark Horse Books. VERIFIED in print (card Q44, Sat 14
+  Nov evening, Google Books snippet view): "The inked line is what's reproduced in the finished comic book, since
+  pencil lines are erased after inking" (p. 6); "inking is not tracing" (p. 7); "the blue-line is unerasable" (p. 149).
+  The 1997 edition (Martin & Rude) matches the p. 6 phrase. Cite only if a pencil-and-ink image is printed.
+- Richmond, T. (2006, August 21). Inking tutorial part I. *Tom Richmond*. https://www.tomrichmond.com/inking-tutorial-part-i/21/08/2006
+  ("you can always add more later, but taking it away is a lot more complicated (and messy)"; 5b rank 1).
+- Briar Press forum (2014) and Mullaly (2007) on non-photo blue (card Q44 S18, S19): store only unless rank 6 is used.
+- IDW Publishing's Artist's Editions and *Jack Kirby pencils and inks* (2016) (card Q44 S1-S4): store only (not in 3f).
+
+### 2I. Evidence on how the conceit is used, and on when a promise counts (Sat 14 Nov evening; cards Q42, Q43)
+These shape Keel's guards; they enter References only if the report's text uses an idea from them.
+- Sopory, P., & Dillard, J. P. (2002). The persuasive effects of metaphor: A meta-analysis. *Human Communication
+  Research, 28*(3), 382-419. https://doi.org/10.1111/j.1468-2958.2002.tb00813.x (guards only; not cited unless the
+  report discusses its own image, which it does not).
+- Morris, M. W., Sheldon, O. J., Ames, D. R., & Young, M. J. (2007). Metaphors and the market. *Organizational Behavior
+  and Human Decision Processes, 102*(2), 174-192. https://doi.org/10.1016/j.obhdp.2006.03.001 (investing literature:
+  agent metaphors in market commentary raise expectations of trend; a candidate if 3e says why figures are plain).
+- Watts, R. L. (2003). Conservatism in accounting Part I: Explanations and implications. *Accounting Horizons, 17*(3),
+  207-221 (investing and accounting literature; "the asymmetrical verification requirements for gains and losses";
+  a candidate for 3c or 3d, beside the ban on "prudent").
+- U.S. Government Accountability Office. (2006). *Principles of federal appropriations law* (3rd ed., Vol. II, ch. 6)
+  (the Antideficiency Act's "very act of obligating"; one clause at most, in 3c or 3d).
+- Office of Management and Budget. (2025). *Circular No. A-11, Appendix J* (the useful-segment test; idea only, never
+  "full funding" for the facility).
+- Full elements for every source: cards Q42 (l.302), Q43 (l.363) and Q44 (l.163).
+
 
 ## 3. What the rules allow, and the shape we recommend
 

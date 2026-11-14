@@ -42,10 +42,13 @@ Keel's belief, untestable, and stays out of the report: panel 2's professor, Thu
    $38,282 of the 2028 deposit at today's forward rates, about a quarter of it (NUMBERS 2), in two parts with two names
    (third coherence reader, Fri 13 Nov evening: the frozen WInS notes already use "top up" for the 2028 deposit
    completing the ladder if yields fall, WN l.15 and l.20, so the whole sum under that word reads as the notes' warning
-   come true sixteen times over). **The top-up** is the $2,388 by which the ten cost more than $300,000 (IPS l.13, "we'll
-   simply complete it with the 2028 deposit"; the ten cost $302,287 at the 6 Nov close, NUMBERS 1), bought first, into the
-   2033 payment's fund. **The extra Treasuries** are the other $35,894: the operating reserve's sizing, which the IPS
-   leaves open and Wharton asks Section 3 to recommend. Their subject is the risk the Trading Notes already named,
+   come true sixteen times over). **The top-up** is the $2,388 (January 2028 money) by which the ten cost more than $300,000 (IPS l.13, "we'll
+   simply complete it with the 2028 deposit"; the ten cost $302,287 at the 6 Nov close, a $2,287 gap in January 2027
+   money, NUMBERS 1), bought first, into the
+   2033 payment's fund. **The extra Treasuries** are the other $35,894, which size the operating reserve above the ten,
+   as Wharton asks Section 3 to recommend; both parts are said inside l.13's step (the ten completed so they do not
+   depend on yields: the top-up for their price, the extra Treasuries for the interest our WInS trade notes say they
+   rely on), before l.15's split of the rest, never "which the IPS leaves open" (coherence reader 4, Sat 14 Nov evening). Their subject is the risk the Trading Notes already named,
    reinvestment-rate risk (TNA l.5; WN l.24, "reinvested coupons funding part of each"): in about half of the starting
    months since 1962, yields fell enough after purchase that the interest each bond pays along the way, reinvested,
    would have needed the 2028 deposit's help, which l.13 promises ("our plan isn't dependent on yields staying put");
@@ -110,8 +113,9 @@ Keel's belief, untestable, and stays out of the report: panel 2's professor, Thu
    evening after a strict coherence reader rated this risk high (`research/panel/2026-11-12_coherence_reader.md`) and
    again Fri 13 Nov evening (`2026-11-13_coherence_reader_3.md`): only the $2,388 by which the ten cost more than
    $300,000 is the IPS's "we'll simply complete it with the 2028 deposit" (l.13) and the WInS notes' "top up" (WN l.15,
-   l.20), and only it is called the top-up; the other $35,894, the extra Treasuries, is the operating reserve's sizing,
-   which Wharton asks Section 3 to recommend and the IPS leaves open. Its subject is the reinvestment-rate risk the
+   l.20), and only it is called the top-up; the other $35,894, the extra Treasuries, sizes the operating reserve above
+   the ten, which Wharton asks Section 3 to recommend, said inside l.13's step with the top-up (coherence reader 4,
+   Sat 14 Nov evening: "which the IPS leaves open" in prose reads as a new allocation outside l.13 and l.15). Its subject is the reinvestment-rate risk the
    Trading Notes named (TNA l.5); it rests on l.13's "our plan isn't dependent on yields staying put", which the 2028
    deposit keeps for reinvested interest as it keeps it for a dearer ladder; l.11 is the test it meets. Said that way
    it is the IPS's own promise kept, not a new rule, and never a failure of the IPS's sizing (second and third
