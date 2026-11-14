@@ -217,8 +217,8 @@ The conceit itself tests the two designs:
   $130,000 to $155,000 for the same rule without the extra Treasuries (NUMBERS 4, "What certainty costs the gift").
   Most of the extra Treasuries come back to Laura if rates hold.
 
-Keel keeps the register's design (Keel's call of Tue 10 Nov, logged; any student can overrule). Caplet is asked once
-which design the report should use; until Caplet answers, everything here follows the register. v1's sources (the
+Keel keeps the register's design (Keel's call of Tue 10 Nov, confirmed Sat 14 Nov evening and logged in
+`../pm/ASK_HUMANS.md`; a design choice, not a danger-zone one, so Keel decides; any student can overrule). v1's sources (the
 soft budget constraint, arts-building overruns, seed money, uncertainty and trust) are already in the store.
 
 v1's figures most likely came from Keel's own Research tabs of 7-8 Nov ("Numbers and models", "Co-sponsor brief"),
