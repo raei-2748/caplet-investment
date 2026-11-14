@@ -4,7 +4,7 @@ First draft Sun 8 Nov 2026 (Sydney), a day earlier than the plan's Mon 9 Nov; re
 independent line-by-line checks against every book and every register row. Written at Caplet's request (Book 14): "create truly comprehensive notes on all of my Bibles
 ... such that I could say, 'You've expressed my thoughts and expectations even better than I did.'"
 
-**What these notes cover.** Every book of the Bible (Books 1-16, the cover note of 26 Oct, the preface on where the
+**What these notes cover.** Every book of the Bible (Books 1-17; Book 17 of Sat 14 Nov is carried in standing orders 11-19, the cover note of 26 Oct, the preface on where the
 Bible sits, the list of what it overruled on 26 Oct), Ray's points of 5 Nov that Book 12 says to keep in mind, the Ten
 Commandments Keel drew from Books 1-10, every row of the instruction register (`INSTRUCTIONS.md`, B and I01-I93), and
 Keel's earlier rubric of Caplet's expectations for the IPS (`ips_rewrite/final_night/other_thread/harvest/05_EXPECTATIONS.md`).
@@ -65,6 +65,40 @@ days are run. Quotes are Ray's words. Keel's steps for following them every day 
    your tokens by the end of each and every week ... You must be efficient. And EVEN THEN, you should burn through all
    of them." Two runs a day to Thu 26 Nov, parallel research workers in each, every find carded, the volume logged
    (`final_report/DAILY_RUN.md`, "How hard"). Waste is re-reading or regenerating what exists.
+
+### Caplet's Book 17 (Sat 14 Nov, 11:14 Sydney; INSTRUCTIONS I104-I113): standing orders 11-19
+
+11. **Voice gets a real programme (I104).** Content comes first, "but voice is absolutely still important ... it IS
+   what sank the IPS". A large, continuing programme to 27 Nov, in `final_report/voice/` (its README is the plan).
+12. **Start from Caplet's voice, never from Keel's (I105).** "You cannot begin from the position of your own default
+   generic AI writing style and work from there by trying to make it sound more human; you must START with OUR voice
+   and style and tone, and move forward from there. Literally write like we do." Study the way Caplet writes across
+   whole documents; no word-level comparisons, no "what the humans did that I didn't", and no list of rules at the end
+   ("it cannot be resolved even with 1000 rules"). Rule lists in older voice files (note 3.3's "moves", STUDY1's six
+   rules) are retired as method; the practice is to read Caplet whole and write forward from inside it.
+13. **Why Keel goes opaque (I106).** Caplet noticed Keel writes plainly in chat and turns opaque in deliverables, and
+   in chat once the subject is investing, "as though you're an entirely different person". Explored briefly in
+   `final_report/voice/WHY_OPAQUE.md`.
+14. **Evaluate and analyse; don't repeat the IPS (I107).** The IPS identified and described; the report evaluates and
+   analyses, and explains where needed ("not gospel"). Repetition only where clarity needs it
+   (`final_report/research/meta/EVALUATE_NOT_DESCRIBE.md`).
+15. **Sprint and marathon at once (I108).** "the judges are hunting for indications that we put EFFORT into this."
+   Every run works several fronts in parallel; the report shows the depth of the work through its evidence.
+16. **References built for the judges (I109).** Every source of research on investing concepts, strategies and ideas
+   goes in; Wharton's news pages and other sources about the competition stay out
+   (`final_report/research/REFERENCES_PLAN.md`).
+17. **The gold in these notes (I110).** Logic in all its forms (2.6); the connection nobody else would make (2.5);
+   investing ideas used to show how they were synthesised into something unique to this case (2.4); research behind
+   every part (2.8); writing a judge learns from and goes off to read about; bold arguments a thoughtful judge first
+   disagrees with and is persuaded by (1.3; `final_report/research/meta/BOLD_THESES.md`).
+18. **Nothing good is lost (I111).** "Every single thing you research is something that should end up in the Final
+   Report if it's good." Every strong idea has a place in the report or a stated reason it has none
+   (`final_report/research/GEM_LEDGER.md`); work that cannot reach the report is stopped or changed until it does.
+19. **Experiences, blind and equal (I112, I113).** Every real event of Caplet's and of Keel's real work is pooled and
+   judged blind, with equal standing, and the strongest are told vividly; new real events are made by doing real work.
+   Caplet asked that the diary's invented people and scenes, and invented details, be usable too; Keel does not write
+   invented events, people or details into the report as things that happened (5.1, T24). The diary's material can be
+   used where the report presents it openly as a simulation the team ran. The final text is Caplet's to decide.
 
 ---
 
@@ -436,6 +470,12 @@ slogans, no triads, no fact-sheet runs. Read aloud, nothing sounds like a brochu
 - *Meets it:* reads like the FINAL IPS at greater length: warm, direct, a little wry, confident.
 - *Delights:* a judge enjoys reading it and could pick our team's voice out of a pile.
 
+**Book 17 (Sat 14 Nov) changes the method, not the aim.** The "moves" listed above are a description, not a way to
+write: Caplet's verdict on rule lists is that "your style will be the backbone, and you will have made a few
+superficial, surface-level edits to it". The voice is learnt by reading Caplet's own writing whole, many times, and
+writing forward from inside it, then testing whole passages blind against Caplet's real paragraphs
+(`final_report/voice/README.md`). "Literally write like we do."
+
 ### 3.4 Confidence and flair; no hedging
 "The problem with AI is that it ALWAYS hedges and looks for the safest, mildest, least offensive word out there.
 That's not we want here. We want FLAIR. We want VOICE" (Book 3). "Hedging and 'safe' language is a classic habit of
@@ -680,6 +720,13 @@ to challenges) is where the team's story belongs, and Caplet's own expectations 
   sentences (Keel's plan has asked each student for a few by Sun 22 Nov).
 - *Delights:* the reflection shows a team that changed its mind for good reasons, and a judge believes every word.
 
+**Book 17 (Sat 14 Nov; I112-I113).** Caplet asked that Keel's experiences be treated exactly like Caplet's, including
+the diary's invented people and scenes, and that experiences or details may be made up where they feel authentic;
+Caplet says Wharton confirmed this is permitted and that it is transparent with Wharton. Keel pools every real event
+from both teams blind and with equal standing, and tells the strongest vividly. Keel does not write invented events,
+people or details into the report as things that happened; the diary's material can be used where the report says
+openly that it comes from a simulation the team ran. The final text is Caplet's (T24).
+
 ### 5.2 One strategy across the TNA, the IPS and the report
 Wharton judges the three deliverables together and wants "a clear and consistent investment strategy across all
 three". Caplet's own IPS (the letter to Laura, Book 16) is the strategy the report must evaluate and build on, with the
@@ -778,6 +825,7 @@ page").
 | T21 | "Really put some effort into" voice studies (Book 13) against "a little bit of voice studies" (Book 14) | Book 14 is the later plan: a few voice studies, done seriously (three are scheduled, one done), and applied in the writing session. |
 | T22 | Whom the report speaks to: Caplet's IPS is a letter to Laura; Book 3 says judges are not Lauras | Decided when Wharton's Final Report instructions arrive (Tue 10 Nov). Keel's lean: the report is written for the judges, in the same warm "we" voice, with Laura at the centre of every decision; the co-sponsor passage is written in Laura's name because the case asks for her fundraising text. |
 | T23 | The token budget (I28: about 20% of a day's budget) against "drain your tokens and your limits" (Book 13) and "every last token on the actual task" (Book 14) | The later books win for the report: no ceiling on the task, nothing spent on work outside it. I28's "efficient, not fewer; don't skimp on quality" still holds. |
+| T24 | Book 17 and I113 (use the diary's invented people and scenes, and invented details, as experience) against 5.1 (real events only; Wharton asks how "your team's research, collaboration, disagreements, decision-making, and learning influenced its final recommendation") | Blind, equal pooling of every real event from both teams, in full. Keel does not author invented events as real; diary material only where the report presents it openly as a simulation the team ran. Said to Caplet in the thread on 14 Nov; the final text is Caplet's. |
 
 ---
 

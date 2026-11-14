@@ -1,0 +1,712 @@
+{
+ "Y001": {
+  "cid": "K-03",
+  "origin": "KEEL",
+  "evidence": "`keel/library/insight_v1/00_executive_summary.md:52-53`; `keel/library/insight_v1/strategy_changes.md:36` (I4: \"headroom $5,613 ... supersedes CLAUDE.md's $7.7k/27bp ... ~1 in 3 rate paths cost >$300k\"); commit `81663b2`; commit `84e7010` and `keel/library/insight_v1/verification/ladder_2026-09-28/README.md` (\"The $204 gap ... reproduces the GPT figures to the cent\"); `keel/library/assistant_review_2026-10/03_Repo_Review_30Sep2026.md:100` (\"On 22 Sep it did not fit ($300,485)\"); `keel/final_report/FINAL_IPS_as_submitted.txt`."
+ },
+ "Y002": {
+  "cid": "S-16",
+  "origin": "KEEL",
+  "evidence": "commit `aae511b` (Wed 11 Nov 19:53); `keel/final_report/research/panel/2026-11-11_lay_reader_3a_3b_figure1.md` l.11, l.21, l.25, l.28-29, l.35-36; `keel/final_report/WORDS.md`; `keel/pm/ASK_HUMANS.md` l.38; `keel/final_report/ARGUMENT_LOG.md` l.13; `keel/final_report/LESSONS.md` l.32"
+ },
+ "Y003": {
+  "cid": "K-11",
+  "origin": "KEEL",
+  "evidence": "commit `9db8d35` (Wed 30 Sep 10:27, \"the buyable ladder delivers $500k only if coupons are reinvested at about 4.97% or more\"); commit `f38fe68`; `keel/final_report/NUMBERS.md:76-103`; RUNLOG Mon 9 Nov 07:40."
+ },
+ "Y004": {
+  "cid": "K-31",
+  "origin": "KEEL",
+  "evidence": "RUNLOG Tue 27 Oct 10:45 and rows to Sat 31 Oct; commit `0fdda97` (Mon 26 Oct 06:52, \"file the coupon-shortfall scripts and the 23 Oct curve\"); `keel/office/outbox/2026-10-27_archive_stocks-behind-the-cheques.md` (\"L-10 was stranded on its own branch (PR #50)\"); `keel/office/outbox/2026-10-31_archive_the-price-on-our-own-design.md` (\"the Writing Room and the Courtroom never saw it\"); commit `a8396c3` and RUNLOG Mon 2 Nov 19:30 (\"All 21 leftover branches merged\"); commit `d2e68f2`; commit `b69fa9f`; commit `f38fe68`."
+ },
+ "Y005": {
+  "cid": "K-39",
+  "origin": "KEEL",
+  "evidence": "commit `693c3e5`; `keel/office/outbox/2026-10-27_courtroom_mark-to-market-on-trial.md`; `keel/final_report/FINAL_IPS_as_submitted.txt`."
+ },
+ "Y006": {
+  "cid": "W-23",
+  "origin": "KEEL",
+  "evidence": "`keel/ips_rewrite/VERSIONS.md` rows 48-50 (\"every sentence modelled on a real sentence by one of 15 writers (Feynman, Didion, Orwell, E. B. White, Buffett, Marks, Munger ...\"; \"eight sentences rewritten on new sources (Baldwin, Dillard, Keynes, Taleb, Damodaran\"; \"Ahaan's Book 11 rejected V49 entirely. Rebuilt from scratch\"); `archive/bible_2026-11-08/BIBLE.md` l.318 (Book 11, Sun 1 Nov 16:26); `keel/INSTRUCTIONS.md` I71-I74; students' timeline `.../01_experience_with_caplet_edits.txt` l.35"
+ },
+ "Y007": {
+  "cid": "S-23",
+  "origin": "KEEL (the team leader brought the instructions in; the response was KEEL's)",
+  "evidence": "commits `96b9426` (Mon 9 Nov 20:45) and `74c81d5` (21:10); `competition/official/2026_27/2026_WGY_Final_Report_Instructions.txt` l.12-13, l.146; `keel/final_report/WHARTON_NORTH_STAR.md` section 0; `keel/final_report/CASE_MAP.md` section E; `keel/pm/RUNLOG.md` l.25; `keel/pm/ASK_HUMANS.md` l.49, l.50; `keel/final_report/ARGUMENT_LOG.md` l.20; `keel/final_report/LESSONS.md` l.55; CLAUDE.md (WInS value 23 Oct $305,557.66, +1.85%)"
+ },
+ "Y008": {
+  "cid": "N-06",
+  "origin": "KEEL",
+  "evidence": "`keel/final_report/research/panel/2026-11-11_funder_reader_3d.md` (section A); `keel/pm/ASK_HUMANS.md` (Wed 11 Nov, 06:54); `keel/final_report/SKELETON.md` row 3d; `keel/final_report/LESSONS.md` (Wed 11 Nov, morning)"
+ },
+ "Y009": {
+  "cid": "K-10",
+  "origin": "KEEL",
+  "evidence": "commit `57dca24`; `keel/ips_rewrite/inbox/2026-10-27_model-suite.md` (items 1-2); `keel/models/README.md:35-36` (incl. \"[Window 28 Oct: not in suite_results.json ... Re-derive before use]\"); RUNLOG Tue 27 Oct 22:20 (\"the champion breaks a promise in 0-1.6% of worlds vs 22-36% for rival plans\")."
+ },
+ "Y010": {
+  "cid": "K-45",
+  "origin": "KEEL",
+  "evidence": "commit `a356283`; `keel/library/assistant_review_2026-10/05_Premortem_Review_16Oct2026.md` section 0."
+ },
+ "Y011": {
+  "cid": "W-14",
+  "origin": "CAPLET",
+  "evidence": "`caplet/google_drive/2025_knox_wharton.md` (quoted line); `keel/library/assistant_review_2026-10/04_North_Star_Memo_16Oct2026.md` (four of six names on last year's team; 11-12% target; 12 themed stocks; \"clarity beats complexity\"); CLAUDE.md \"Team\" (Ray: \"strategy packaging was over-complex for the insight; the team traded assets outside the trading rules. So: complexity must earn its place; check every trade ...; client first\"); `competition/wins/2026-10-23_snapshot.md`"
+ },
+ "Y012": {
+  "cid": "K-19",
+  "origin": "CAPLET (the team brought the verdict); KEEL (the diagnosis)",
+  "evidence": "commit `39c37c3`; `keel/office/outbox/2026-10-19_WO-0002_judging_ips-v5-why-not-semifinal.md` (context line and Answer 1-2)."
+ },
+ "Y013": {
+  "cid": "W-46",
+  "origin": "CAPLET",
+  "evidence": "commit 44bf900 (Fri 23 Oct 23:52 Sydney) \"Mark the TNA submitted (T01 done, 23 Oct)\"; `keel/office/LEDGER.md` WO-0007 (\"Notes 1-3 (Feb-2037 12:24 AM, IBTM, VT) match filled orders exactly\"); `keel/rooms/archive.md` (submitted text); `competition/wins/2026-10-23_snapshot.md`; `keel/pm/ASK_HUMANS.md` l.28 (4 Nov, the \"duration-matching\" case)"
+ },
+ "Y014": {
+  "cid": "N-09",
+  "origin": "KEEL",
+  "evidence": "`keel/final_report/research/panel/2026-11-12_judge_finalist.md` (sections 4 and 5); `keel/final_report/research/panel/2026-11-12_judge_faculty.md` (section 4); `keel/final_report/SKELETON.md` (\"Panel 2's density cut\"); `keel/final_report/SCORECARD.md` (log, Thu 12 Nov, morning)"
+ },
+ "Y015": {
+  "cid": "W-22",
+  "origin": "CAPLET",
+  "evidence": "`caplet/google_drive/final_report.md` l.21 (\"Strategy name settled as Root-and-Branch (earlier 'Roots First')\"); `keel/rooms/archive.md` l.77 (\"Ray, 24 Oct: name and roots motif out\"); `archive/bible_2026-11-08/BIBLE.md` Book 5 (Mon 26 Oct; quoted lines; author Ahaan per `keel/INSTRUCTIONS.md` I48); `keel/ips_rewrite/caplet_doc/2026-11-05_one_check.md` l.40 (\"All three pitches say Steady Roots\"); `keel/INSTRUCTIONS.md` I85; `keel/final_report/FINAL_IPS_as_submitted.txt` (no strategy name)"
+ },
+ "Y016": {
+  "cid": "K-22",
+  "origin": "KEEL",
+  "evidence": "`keel/office/outbox/2026-10-31_library_money-with-a-date.md` (commit `76a0081`); RUNLOG Sat 31 Oct 16:40 (\"price ~$9k\"), 19:40 (\"its '$9,000' was the smallest cell, the price is a ~$19,000 mean\"); commit `0c4f84c` and `keel/office/outbox/2026-10-31_archive_the-price-on-our-own-design.md` (\"'$19,000' becomes '$15,000'\"); `keel/loop/LESSONS.md` LS-13; `keel/ips_rewrite/rivals/A09.md`."
+ },
+ "Y017": {
+  "cid": "W-18",
+  "origin": "KEEL",
+  "evidence": "`caplet/google_drive/notes_and_discussions.md` l.101 (\"three pretend Lauras ... all three ranked yours first. All three also said it looks too timid, with only about 9% in stocks\"), Strategy Log 29 Sep l.280-301 (\"Smaller-floor test\"; \"Each $25k less floor adds only about $2-3k to the middle outcome, but costs about $9-10k in a bad market and about $15k in the worst historical case\"; \"With $150k she already owns 86% of the likely gift ... with $100k it's 68%\"); `caplet/google_drive/final_report.md` l.21 (1 Oct)"
+ },
+ "Y018": {
+  "cid": "W-17",
+  "origin": "KEEL",
+  "evidence": "`keel/final_report/research/cards/Q1_career_as_shares.md` (Sun 8 Nov) row 32 (\"print units +8.2% ... graphic novels +29%\"), row 45, row 46 (\"Her career is not a plain index holding: its best year so far came when markets crashed. It is a single, hit-driven stock whose danger is the left tail\"); `keel/final_report/CANON.md` l.115 (B4 \"PARTLY\"; \"licensing royalties down 8.7% in 2009\"); `caplet/google_drive/notes_and_discussions.md` l.236 (\"The only market crash in her career was her best year\")"
+ },
+ "Y019": {
+  "cid": "K-44",
+  "origin": "CAPLET (the instruction); KEEL (the change)",
+  "evidence": "`keel/INSTRUCTIONS.md` I40; `keel/pm/ASK_HUMANS.md`; CLAUDE.md (\"Keel makes its own calls (Ray, 26 Oct)\")."
+ },
+ "Y020": {
+  "cid": "S-12",
+  "origin": "KEEL (the order to run toward \"the BEST final report in this whole competition\", with blind panels, was CAPLET's)",
+  "evidence": "commit `74c81d5` (Mon 9 Nov 21:10); `keel/INSTRUCTIONS.md` l.128 (I103, 20:49); `keel/final_report/research/panel/2026-11-09_judge_bond_desk.md` l.24, l.27, l.67, l.125-136; `keel/final_report/ARGUMENT_LOG.md` l.19, l.17; `keel/final_report/LESSONS.md` l.52, l.54; `keel/final_report/NUMBERS.md` section 6 and 8h (the reserve now $444,545, 111.4% funded)"
+ },
+ "Y021": {
+  "cid": "W-13",
+  "origin": "CAPLET",
+  "evidence": "CLAUDE.md: \"6 Oct Wharton email: Laura's real plan may use only WInS-listed stocks, ETFs and Treasury bonds. STRIPS-based numbers ... are superseded (banners added). The floor is IBTM.\"; `archive/rab/decisions/D_fund_choice.md` l.1 (\"STRIPS/zero-coupon references are superseded\"); `competition/wins/2026-10-23_snapshot.md` (first order 10/06 7:55:45 PM ET); `competition/COMPETITION.md` s4; `keel/final_report/FINAL_IPS_as_submitted.txt`"
+ },
+ "Y022": {
+  "cid": "K-36",
+  "origin": "KEEL",
+  "evidence": "commit `a0488a4`; `keel/office/outbox/2026-10-25_courtroom_d1-buffer-is-a-lower-quote.md`; `keel/IDEAS.md` I-24."
+ },
+ "Y023": {
+  "cid": "W-43",
+  "origin": "CAPLET",
+  "evidence": "`keel/ips_rewrite/caplet_doc/2026-11-05_one_check.md` l.11-13, l.40, l.52-54 (\"Pitch, Handwritten | 50 / 51\"; \"Pitch, Ray's ... | 44 / 45\"; \"Pitch, Darren's ... | 56 / 57\"; \"All three pitches say Steady Roots\"); `keel/pm/ASK_HUMANS.md` l.26; `keel/final_report/FINAL_IPS_as_submitted.txt`"
+ },
+ "Y024": {
+  "cid": "W-48",
+  "origin": "KEEL",
+  "evidence": "commit 78fc1df (Wed 21 Oct 16:11 Sydney) \"Fix Feb-2037 bond coupon in COMPETITION.md (4.750%, per WInS security code); log WO-0004 TNA final check\"; `keel/library/assistant_review_2026-10/01_Caplet_Team_Brief_15Oct2026.md` l.287 (\"WInS shows B-T-4.750-15022037 ... competition/COMPETITION.md:181 says 5.000%\"); `keel/office/LEDGER.md` WO-0007"
+ },
+ "Y025": {
+  "cid": "K-35",
+  "origin": "KEEL",
+  "evidence": "commit `8bd0819`; `keel/office/outbox/2026-11-03_window_the-second-look.md`; commit `059ffe0` (Wed 4 Nov 08:09, \"reinvestment priced as if nothing more were reinvested\")."
+ },
+ "Y026": {
+  "cid": "W-10",
+  "origin": "CAPLET",
+  "evidence": "`keel/office/outbox/2026-10-19_WO-0002_judging_ips-v5-why-not-semifinal.md` l.5: \"Context (team report ...): a former Wharton judge told the team that the IPS cannot reach the semifinals. The judge's reasons were not passed on\"; findings 1-3 (\"played very safely, and V5 never argues the trade-off for Laura\"; \"It claims more certainty than the holdings give\"; \"Laura is barely in it\"); CLAUDE.md (26 Oct: \"IPS rewritten from scratch\"; Ray's order \"rewrite from scratch, slowly, with deep research and thought\")"
+ },
+ "Y027": {
+  "cid": "W-04",
+  "origin": "KEEL",
+  "evidence": "`caplet/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md` l.15 (IBTR note, 10/07/2026 04:42:53 AM ET, quoted); `keel/library/assistant_review_2026-10/oct23/tna_status.md` l.8 (\"Picks changed: IBTR is out of the top table\"), l.22 (\"The test has now crossed on the 22 Oct close ... so the strongest evidence is now unused\"), l.64 (\"22 Oct | $302,863 | -$2,863 (crossed) | -0.31\"); commit efbabf5 (Fri 23 Oct 09:53 Sydney) \"ladder cost crosses $300k\"; `keel/final_report/FINAL_IPS_as_submitted.txt` (\"we'll simply complete it with the 2028 deposit\"); `keel/final_report/NUMBERS.md` s1 ($301,544)"
+ },
+ "Y028": {
+  "cid": "S-19",
+  "origin": "KEEL",
+  "evidence": "commit `ddb7f5e` (Mon 9 Nov 19:51); `keel/final_report/research/cards/Q1b_career_beta_horizon.md` l.36-37, row 1 (l.84); `keel/final_report/FINAL_IPS_as_submitted.txt` l.9; `keel/final_report/ARGUMENT_LOG.md` l.18"
+ },
+ "Y029": {
+  "cid": "K-04",
+  "origin": "KEEL",
+  "evidence": "commit `a09fc8b` (\"V52 P2 false at its source (XR capsule labels say open it; crushing is the harm)\"); commit `7de6289` (09:06 fix); `keel/office/outbox/2026-11-02_window_the-capsule-you-may-open.md`; `keel/rooms/window/W-07_the_capsule_you_may_open.md`."
+ },
+ "Y030": {
+  "cid": "K-46",
+  "origin": "KEEL",
+  "evidence": "`keel/office/outbox/2026-10-28_rooftop_one-sentence-for-nine-beats.md`; `keel/loop/LESSONS.md` LS-10; `archive/bible_2026-11-08/BIBLE.md:276`."
+ },
+ "Y031": {
+  "cid": "W-06",
+  "origin": "CAPLET",
+  "evidence": "`keel/office/outbox/2026-10-21_WO-0003*.md`: \"Asked by: team lead (Ray), 21 Oct 2026\"; \"J.P. Morgan 2027 LTCMA, press release 19 Oct 2026 ... Global equities 7.5% (up from 7.0% in the 2026 edition the IPS cites)\"; `keel/rooms/archive.md` l.69 (\"a forecast return of about 7.5% a year (as per JPMorgan)\"); `keel/library/assistant_review_2026-10/oct23/tna_status.md` l.46 (\"FALSE: VT 'about 7.5% a year per JPMorgan'\"); `keel/pm/CHANGES.md` (Tue 27 Oct): \"Withdrawn ... 'Global equities are projected to return 7.5% (USD), increasing from 7.0%' ... if a return is quoted, it is 7.5%\""
+ },
+ "Y032": {
+  "cid": "W-51",
+  "origin": "KEEL",
+  "evidence": "`keel/final_report/NUMBERS.md` l.81 (\"$302,287 | ... | 55.6% | $1,592 / $34,555 / $45,266 (start Jul 2007)\"); `keel/pm/ASK_HUMANS.md` l.18 (Mon 9 Nov 07:00: \"Margin $21,149 ... all ten paid in 94% of historical stretches, worst $12,117 short of $500,000. It costs about $20,000 off the bottom of the range\"); `keel/pm/CHANGES.md` (Sun 8 Nov: \"the reinvestment risk is no longer said to be covered from the shares\")"
+ },
+ "Y033": {
+  "cid": "W-12",
+  "origin": "KEEL",
+  "evidence": "`keel/pm/CHANGES.md` (Wed 28 Oct overnight): \"'lock what you announce' (in 2031 the promised half of the stocks moves into Treasuries, so the top is reached ~93% vs ~77% for ~$1.6k)\"; (Wed 28 Oct): \"No number Laura names rests on a share price: each is owned in Treasuries by the day she names it.\"; `keel/final_report/FINAL_IPS_as_submitted.txt` l.15 (quoted)"
+ },
+ "Y034": {
+  "cid": "S-14",
+  "origin": "KEEL",
+  "evidence": "commit `ddb7f5e` (Mon 9 Nov 19:51); `keel/final_report/research/cards/Q6_how_far_to_trust_7_5.md` l.14, row 11 (l.62), row 29 (l.80); `keel/final_report/NUMBERS.md` section 4 l.299-310 (\"So the 7.5% is not doing the work; the Treasuries are\"), l.257 (moved half $10,581 / $19,828 / $34,308), MODEL; `keel/pm/ASK_HUMANS.md` l.59; `keel/final_report/ARGUMENT_LOG.md` l.18"
+ },
+ "Y035": {
+  "cid": "K-18",
+  "origin": "CAPLET",
+  "evidence": "commit `66d5403` (`keel/office/LEDGER.md` WO-0007 row); commit `0d1680b` (\"Keel voice: confidence is the voice; checks flag hard issues only, never soften\"); `keel/pm/RETROS.md:25`; `keel/INSTRUCTIONS.md` I35."
+ },
+ "Y036": {
+  "cid": "W-08",
+  "origin": "CAPLET",
+  "evidence": "commit 66d5403 (Fri 23 Oct 21:09 Sydney), `keel/office/LEDGER.md` WO-0007: \"'Rewritten' TNA (Ahaan edit, 7:12 pm Sydney)\"; \"Ray rejected all 13 (23 Oct 21:08 Sydney): clearer but softens the voice. STANDING RULE: Caplet prefers confident, assertive phrasing; Keel checks flag only hard issues (limits, rule breaches, factual errors\"; commit 44bf900 (Fri 23 Oct 23:52 Sydney) \"Mark the TNA submitted\"; `keel/rooms/archive.md` (submitted reflection 1)"
+ },
+ "Y037": {
+  "cid": "N-10",
+  "origin": "KEEL",
+  "evidence": "`keel/final_report/research/panel/2026-11-12_judge_finalist.md` (section 3 and the hand-back); `keel/final_report/INTENT.md` (failure 7); `keel/final_report/CANON.md` C12; `keel/final_report/LESSONS.md` (Thu 12 Nov, morning)"
+ },
+ "Y038": {
+  "cid": "W-07",
+  "origin": "CAPLET",
+  "evidence": "`caplet/google_drive/final_report.md` l.19: \"two WInS bond prices were stale, about 1 percentage point of yield off the curve. New rule: yield-check every bond (within 25bp) before ordering. Swapped the Feb-2038 bond for the May-2038.\"; `archive/rab/STATUS.md` l.92 (\"2 stale prices (-111bp/-92bp) confirmed; in-book bonds within 25bp\"), l.93 (\"all 3 pricers agree to the cent\"), l.95 (\"stale Feb-2036/Feb-2038 prices confirmed -111/-92bp\"); `competition/COMPETITION.md` l.114"
+ },
+ "Y039": {
+  "cid": "W-27",
+  "origin": "KEEL",
+  "evidence": "`keel/pm/ASK_HUMANS.md` l.28 (Wed 4 Nov: \"Two outside readers ... both noticed, separately, that your first reflection says the bonds remove uncertainty 'through duration-matching' ... It's a change of word, not of plan. One reader's fix ... is false: the ladder comes back early on average, about 7.6 years against the payments' 10.0\"; \"Rewrite P3 as 'each payment has its own bond', never 'we don't duration-match'\"); `keel/rooms/archive.md` (submitted reflection 1); CLAUDE.md (\"extreme coherence with everything submitted (frozen)\")"
+ },
+ "Y040": {
+  "cid": "N-04",
+  "origin": "KEEL",
+  "evidence": "`keel/final_report/research/panel/2026-11-10_bond_desk_register_check.md` (finding 1); `keel/final_report/NUMBERS.md` sections 0, 3, 4 and 8i; `keel/pm/ASK_HUMANS.md` (Tue 10 Nov, 07:04)"
+ },
+ "Y041": {
+  "cid": "W-25",
+  "origin": "KEEL",
+  "evidence": "`keel/office/outbox/2026-10-30_window_the-wipe-out-line.md` (\"is false in our own model: the shares never hurt a cheque, but wiping them out does leave one worse off in about 1 path in 500\"; \"364 / 354 / 412 of 200,000 paths ... by up to $2,812\"); `keel/pm/ASK_HUMANS.md` l.48 (\"'The shares can help a cheque, never hurt one.' Reason: true in 600,000 of 600,000 MODEL paths\"); `keel/pm/RUNLOG.md` l.90"
+ },
+ "Y042": {
+  "cid": "W-50",
+  "origin": "KEEL",
+  "evidence": "`keel/INSTRUCTIONS.md` I52 (\"i want more COMPUTER MODELS\"; \"The lab ran one world (bell-curve stocks, random-walk yields) and no rival plans\"); `keel/pm/RUNLOG.md` l.112 (Tue 27 Oct 22:20: \"four worlds, five rival plans, 7 charts; the champion breaks a promise in 0-1.6% of worlds vs 22-36% for rival plans; new fact: $300k buys the ten cheques in 1 month in 4 since 1871, none from mid-2007 to now\")"
+ },
+ "Y043": {
+  "cid": "K-09",
+  "origin": "KEEL (the finding; the change of plan was the team's)",
+  "evidence": "`keel/library/insight_v1/securities_and_allocation.md:81`; `keel/library/assistant_review_2026-10/03_Repo_Review_30Sep2026.md:263-267` (\"Until 28 Sep the plan used bond ETFs (IEF and TLH) ... a bond fund never matures, so it cannot end when a payment is due. The strategy changed from duration matching to one dated holding per payment\"); CLAUDE.md (WInS book filled 7-8 Oct)."
+ },
+ "Y044": {
+  "cid": "K-30",
+  "origin": "KEEL",
+  "evidence": "commit `8655ddc`; commit `1c5522f` (\"the reinvestment cushion restored and the order of loss said\"); RUNLOG Mon 2 Nov 13:40; `keel/office/outbox/2026-11-02_genius-lab_two-jobs-one-pocket.md`; `keel/INSTRUCTIONS.md` I65."
+ },
+ "Y045": {
+  "cid": "S-24",
+  "origin": "CAPLET (the instruction); applying it in the research was KEEL's",
+  "evidence": "`keel/INSTRUCTIONS.md` l.125 (I100, Sun 8 Nov 19:39-19:40); commit `9f8609c` (Sun 8 Nov 19:43); `keel/final_report/research/meta/HOW_STRATEGISTS_PLAN.md` l.14, l.444; `keel/pm/RUNLOG.md` l.31 (Mon 9 Nov 07:40: \"classified reinvestment as a liability-matching problem and borrowed dedicated-portfolio and escrow practice before building\"); `keel/final_report/research/cards/Q20_pooled_book_or_margin.md` l.26-28; `keel/final_report/research/cards/Q8a_certainty_in_engineering.md` l.24; `keel/final_report/research/cards/Q36_ibonds_fund_end_powers.md`; `keel/final_report/research/cards/Q3a_floors_in_markets.md` l.29; `grep -c \"Problem class\" keel/final_report/research/cards/*.md` (45 of 57 files, Sat 14 Nov)"
+ },
+ "Y046": {
+  "cid": "W-31",
+  "origin": "KEEL",
+  "evidence": "`caplet/google_drive/notes_and_discussions.md` l.173 (\"The case PDF was created on 10 Sep 2026. That's the first day in 2026 the ten-payment ladder cost dropped under $300k; it was above $300k on 173 of 185 trading days. Interpretation: ... Her money has two jobs, one per deposit.\"); CLAUDE.md (\"it fits under $300k only since Sep 10\")"
+ },
+ "Y047": {
+  "cid": "N-05",
+  "origin": "KEEL",
+  "evidence": "`keel/pm/ASK_HUMANS.md` (Tue 10 Nov, 08:01); `keel/final_report/NUMBERS.md` section 4; `keel/final_report/research/panel/2026-11-10_bond_desk_register_check.md`"
+ },
+ "Y048": {
+  "cid": "K-17",
+  "origin": "KEEL",
+  "evidence": "commit `c546f9b` and `keel/office/outbox/2026-10-27_archive_stocks-behind-the-cheques.md` (\"move any visible gap ... into Treasury bills, once\"); `keel/ips_rewrite/drafts/D6/ips.txt:11`; commit `dc9f748` (22:13, \"brief to the rewrite (T-bills rule risk)\"); `keel/office/checks/2026-10-28.md:8` (\"WInS lists 43 US T-bonds and no bill has been seen there\"); commit `ae30a4d` (10:43, \"no T-bills on WInS\"); CLAUDE.md \"Team\" (2025-26 lesson)."
+ },
+ "Y049": {
+  "cid": "S-01",
+  "origin": "KEEL",
+  "evidence": "commit `5391660` (Thu 12 Nov 07:12); `keel/final_report/research/panel/2026-11-12_judge_faculty.md` l.12 (\"No case for the floor-VT split of the 2028 deposit against a growthier alternative\"), l.47 (\"look over-insured for an entrepreneur ... the plan never shows what more shares would buy\"); `keel/final_report/NUMBERS.md` 8n l.1231-1330 (l.1316-1326: \"more shares leave Laura more in all in about 63 of 100 simulated futures ... a contribution under $95,000 in 3 of 100 simulated futures against 26, 62 and 79\"), MODEL; `keel/final_report/LESSONS.md` l.30; `keel/final_report/ARGUMENT_LOG.md` l.12"
+ },
+ "Y050": {
+  "cid": "N-08",
+  "origin": "KEEL",
+  "evidence": "`keel/final_report/research/panel/2026-11-11_fresh_reader_exhibits.md` (items 2, 3 and 4); `keel/final_report/SCORECARD.md` (log, Wed 11 Nov, morning); `keel/final_report/exhibits/`"
+ },
+ "Y051": {
+  "cid": "N-07",
+  "origin": "KEEL",
+  "evidence": "`keel/final_report/research/cards/Q11d_taiwan_funders_primary.md` (verdict 1, row 7); `keel/final_report/SKELETON.md` rows 3d and 3e; `keel/final_report/LESSONS.md` (Wed 11 Nov, morning)"
+ },
+ "Y052": {
+  "cid": "W-20",
+  "origin": "KEEL",
+  "evidence": "`caplet/google_drive/notes_and_discussions.md` l.309-322 (\"$289,119, the cheapest since May 2002\"; \"Only 11% of days since 2000 would $300k have bought all ten payments, and no day between 2008 and today would have\"; \"about a 1 in 4 chance the ladder costs more than $300k by January\"; \"Why no stocks in the first $300k? Because this rare chance buys all ten promises\")"
+ },
+ "Y053": {
+  "cid": "K-25",
+  "origin": "CAPLET (the team leader's note); KEEL (the response)",
+  "evidence": "commit `b9c492c` (\"V55: V54 in plain English; one-page plain status for the team (Ray, 3 Nov)\"); `caplet/STATUS_2026-11-03.md` (point 5); `keel/INSTRUCTIONS.md` I80; RUNLOG Wed 4 Nov 07:40 (\"Brief (shorter, no codes, per I80)\"); CLAUDE.md (\"Talk to the students plainly\")."
+ },
+ "Y054": {
+  "cid": "W-19",
+  "origin": "KEEL",
+  "evidence": "`caplet/google_drive/notes_and_discussions.md` l.87-100 (\"472 questions -> 48 survived\"; \"The pretend rival team's plan beat your own designer agent's plan, so it became the final recommendation\"); CLAUDE.md insight_v1 section (REC vs ALT \"the earlier 2031 lock\": \"p5/p50/p95 $182k/$207k/$250k vs $168k/$210k/$266k; worst historical 6-year window $169k vs $120k\")"
+ },
+ "Y055": {
+  "cid": "W-55",
+  "origin": "CAPLET",
+  "evidence": "`keel/INSTRUCTIONS.md` I47 (\"is just telling facts ... like eating plastic\"; \"to practice writing, not start writing\"), I50 (\"you gotta have emotional appeal man. Judges are not examiners ... judges are shark tanks\"; \"a hook, real stakes, a reason to care about Laura's residency, and confidence in us\"); `keel/pm/ASK_HUMANS.md` l.61 (Tue 27 Oct: Ray: \"stop writing for now\"; \"Paused 27-29 Oct\")"
+ },
+ "Y056": {
+  "cid": "K-26",
+  "origin": "CAPLET (the verdict); KEEL (the rebuild)",
+  "evidence": "commits `d536e71` (11:08, \"V48: IPS rebuilt sentence by sentence on great human sentences\"), `84f1c4f` (11:29, V49), `fd4a575` (16:46, \"V50: complete IPS rebuild after Book 11\"); `keel/INSTRUCTIONS.md` I71-I78; RUNLOG Sun 1 Nov 17:45 (\"W1 withdrawn at 17:40: Book 11 and V50 landed mid-run\")."
+ },
+ "Y057": {
+  "cid": "K-12",
+  "origin": "CAPLET (the two instructions); KEEL (the drafts and the reset)",
+  "evidence": "commits `65b2a36` (07:56, \"Stop polishing IPS v4 (Ray, 26 Oct): rewrite from scratch\"), `2f9d0cd`, `015a986`, `f8817a0`, `3826a5d`, `15c7d3d`, `c19ccf3`, `17e348d`; `keel/INSTRUCTIONS.md` I41 (\"D1, D1.2, D1.3, D2 and D3 were all written on 26 Oct\"); CLAUDE.md (no Final Report prose until Fri 27 Nov)."
+ },
+ "Y058": {
+  "cid": "S-25",
+  "origin": "CAPLET",
+  "evidence": "`archive/bible_2026-11-08/BIBLE.md` l.812-821 (Book 17, Sat 14 Nov 11:14; in the working tree, not yet committed when this note was made); `keel/INSTRUCTIONS.md` l.129-130 (I104, I105; same); `keel/final_report/voice/STUDY1_two_voices.md` l.103 (\"Rules for the report that follow from this study\"; commit `7de06ac`); `keel/final_report/voice/README.md` l.6-19 (Sat 14 Nov, uncommitted)"
+ },
+ "Y059": {
+  "cid": "W-15",
+  "origin": "KEEL",
+  "evidence": "CLAUDE.md: \"Ladder headroom fell to $1,913 (7bp) on the 16 Oct curve (cost $298,087)\"; `keel/final_report/research/EXPERIENCE_RECORD.md` (Fri 16 Oct: \"Why the IPS says the 2028 deposit completes the ladder if yields fall\"); `keel/final_report/FINAL_IPS_as_submitted.txt`; `keel/final_report/NUMBERS.md` s1 ($301,544, 6 Nov close)"
+ },
+ "Y060": {
+  "cid": "S-04",
+  "origin": "KEEL",
+  "evidence": "commit `fb5f8e8`; `keel/final_report/NUMBERS.md` 8b l.593-619 (\"The ten payments cost less than $300,000 on only 37 of the 214 closes ... That is luck of timing, not skill, and should be told that way if it is told at all\"); `keel/final_report/ARGUMENT_LOG.md` l.22 (killed: \"Any claim that the team timed its purchases\"); `keel/final_report/research/EXPERIENCE_RECORD.md` section 5, items (a) and (b); `keel/final_report/LESSONS.md` l.58"
+ },
+ "Y061": {
+  "cid": "S-08",
+  "origin": "KEEL",
+  "evidence": "commits `74c81d5` (Mon 9 Nov 21:10) and `c89ec3f` (Tue 10 Nov 08:40); `keel/final_report/research/panel/2026-11-09_judge_bond_desk.md` l.13, l.51-62; `keel/final_report/research/cards/Q20_pooled_book_or_margin.md` l.26-28 (problem class: defeasance sufficiency), rows 1-2 (l.103-104: \"Pooling creates no money\"; \"any shortfall in 9.4% of windows (6.0% run own-rung)\"); `keel/final_report/CANON.md` l.69 (A17); `keel/final_report/ARGUMENT_LOG.md` l.16 (killed: \"a fully pooled book ... clash with the Trading Notes, CANON A17\"); `keel/final_report/LESSONS.md` l.53"
+ },
+ "Y062": {
+  "cid": "W-09",
+  "origin": "CAPLET",
+  "evidence": "`keel/INSTRUCTIONS.md` I84 (\"Ray, 19:09 Sydney: 'metaphors alone does not count as creativity. We want intellectual creativity, yours just packaging.'\"), I85 (\"19:10 ... 'she doesn't need any rehab'\"), I86 (\"21:05 and 21:09 ... 'What is the biggest strength our strategy?'\"; answer: \"the 2031 range owned at both ends before it is said\"); `keel/final_report/FINAL_IPS_as_submitted.txt`"
+ },
+ "Y063": {
+  "cid": "W-49",
+  "origin": "KEEL",
+  "evidence": "`keel/pm/CHANGES.md` l.47 (Tue 27 Oct night: \"36 simulated rival IPSs mapped (all 12 raw-AI rivals reach 'ladder first, then stocks'; 0 of 36 have human capital or a two-cost range)\"), l.44 (Wed 28 Oct: \"9 of 12 rival plans already lock stocks into Treasuries around 2031 ... Human capital and the two-cost range kept (no rival has them)\"); `keel/final_report/FINAL_IPS_as_submitted.txt`"
+ },
+ "Y064": {
+  "cid": "K-28",
+  "origin": "KEEL",
+  "evidence": "commit `2ffca6e`; `keel/office/outbox/2026-10-28_long-room_bank-it-at-the-mark.md` (\"We also caught the shared model leaving out the draft's own 2031 lock\")."
+ },
+ "Y065": {
+  "cid": "N-12",
+  "origin": "KEEL",
+  "evidence": "`keel/final_report/research/panel/2026-11-13_coherence_reader_2.md`; `keel/final_report/INTENT.md` (item 1, failure 7); `keel/final_report/exhibits/exhibit_data.py` (Table 3 row 4); `keel/pm/ASK_HUMANS.md` (Fri 13 Nov, 06:55)"
+ },
+ "Y066": {
+  "cid": "K-37",
+  "origin": "KEEL (the count); CAPLET (the overrule)",
+  "evidence": "commit `641e796`; `keel/office/outbox/2026-10-26_rooftop_three-kinds-of-sure.md`; `keel/INSTRUCTIONS.md` I35 (\"Overrules the Rooftop's 'three kinds of sure'\"; \"a false fact is a breach, a strong true word is not\"); commit `d5db4e9` (22:42)."
+ },
+ "Y067": {
+  "cid": "W-35",
+  "origin": "CAPLET",
+  "evidence": "`competition/wins/2026-10-23_snapshot.md`; CLAUDE.md (\"11/200 trades, cash $3,514\"; \"15 trade notes on 11 trades (4 on cancelled orders)\"); `keel/library/assistant_review_2026-10/01_Caplet_Team_Brief_15Oct2026.md` l.120 (\"The cancelled one says '0.3'; the filled one ... says 'about 0.2'\"), l.279-288 (\"Every order went in while the US market was closed (6 Oct 7:55 PM to 7 Oct 8:27 PM ET). The plan had been Fri 2 Oct\"; \"largest order was 1.3% of that day's volume (IBTM)\"; \"commissions were $200\"; \"VT: 167 shares bought against 164 planned (+$476 ...)\")"
+ },
+ "Y068": {
+  "cid": "W-47",
+  "origin": "KEEL",
+  "evidence": "`competition/COMPETITION.md` l.117 (\"The WInS pie chart labels the iBond ETFs 'Long Equities' (61.6%). The true mix is about 91% Treasuries.\"); `competition/wins/2026-10-23_snapshot.md` l.63-65 (\"WInS's own figures disagree by $1,310\"; \"Portfolio value ($305,557.66) = cash + positions ($300,757.88) + accrued interest\"; \"Quote portfolio value and return, not the long-positions line\"); `competition/COMPETITION.md` l.117-118 (\"Explain this in the Final Report.\")"
+ },
+ "Y069": {
+  "cid": "K-07",
+  "origin": "KEEL",
+  "evidence": "commit `ac0b8e5`; `keel/meetings/2026-11-04_why-this-for-her.md:48`; `keel/office/outbox/2026-11-04_long-room_why-this-for-her.md:18`; commit `a496114` (Sun 25 Oct 00:10, \"Courtroom on v4 (plain body wins; motif lines cost human-read and crowd out the investing)\"); `keel/ips_rewrite/final_night/README.md` (call 1); `keel/final_report/FINAL_IPS_as_submitted.txt`."
+ },
+ "Y070": {
+  "cid": "N-11",
+  "origin": "KEEL",
+  "evidence": "`keel/final_report/research/panel/2026-11-12_coherence_reader.md` (sections 1-3); `keel/final_report/INTENT.md` (item 1, failure 7, rewritten Thu 12 Nov evening); `keel/final_report/WORDS.md` (the top-up row); `keel/pm/ASK_HUMANS.md` (Thu 12 Nov, 19:26); NUMBERS 1, 2"
+ },
+ "Y071": {
+  "cid": "W-42",
+  "origin": "CAPLET",
+  "evidence": "`archive/bible_2026-11-08/BIBLE.md` Book 5 (Mon 26 Oct; \"the fund's price automatically locks into its final value as that year approaches ('pull-to-par')\"; \"the iBonds can also be described as 'near-ironclad'\"; quoted line); `keel/INSTRUCTIONS.md` I48 (the books are Ahaan's); `keel/rooms/archive.md` (submitted reflections: \"near-ironclad guarantee\"; \"a net asset value, as opposed to a promise of par\"); `keel/pm/CHANGES.md` (Mon 26 Oct: \"iBonds near-ironclad\")"
+ },
+ "Y072": {
+  "cid": "K-06",
+  "origin": "CAPLET",
+  "evidence": "commit `fae84d1` (Fri 6 Nov 00:06, \"FINAL pitch + IPS (R10 + punctuation), every gate passed\"); `archive/bible_2026-11-08/BIBLE.md:792` (Book 16, 01:54 Sat 7 Nov); `keel/INSTRUCTIONS.md` I92 (\"Keel's V57-V63 were set aside\"); `keel/final_report/FINAL_IPS_as_submitted.txt`; `keel/episodes/2026-11-08_ep41.md` Record table."
+ },
+ "Y073": {
+  "cid": "W-32",
+  "origin": "KEEL",
+  "evidence": "`caplet/google_drive/notes_and_discussions.md` l.242 (\"didn't appear in any of 25 sources checked ... A team that writes 'As Laura says...' is making a factual error\"), l.244 (\"came from a reporter's sentence, not her own words, so it was dropped\"; quoted line); CLAUDE.md (\"no Laura quotes in the Trading Notes or IPS\")"
+ },
+ "Y074": {
+  "cid": "S-03",
+  "origin": "KEEL",
+  "evidence": "commits `fb5f8e8` (Mon 9 Nov 08:34) and `ddb7f5e` (19:51); `keel/final_report/NUMBERS.md` 8c l.620-640 (\"Waiting raises the middle by about $7,400\"; under $95,000 in 15.8% of house paths; $22,752 against $106,683, start Jul 1929; \"behind the rival in 59.8% of house paths and 68.4% of history windows\"), MODEL; `keel/final_report/research/cards/Q7_precommitment_and_rules.md` l.16-30, row 16 l.102 (\"67% of optimists, 73% of neutrals, and 70% of pessimists\" did not change their portfolios; Giglio et al. 2021); `keel/final_report/ARGUMENT_LOG.md` l.18, l.22"
+ },
+ "Y075": {
+  "cid": "S-18",
+  "origin": "KEEL",
+  "evidence": "commit `5391660` (Thu 12 Nov 07:12); `keel/final_report/research/cards/Q8a_certainty_in_engineering.md` l.19, l.24, l.49-60, row 15 (l.96); `keel/final_report/research/cards/Q8b_certainty_standards_1in200_ALARP.md` l.9-13, l.26; `keel/pm/ASK_HUMANS.md` l.36, l.37; `keel/final_report/FINAL_IPS_as_submitted.txt` l.17; `keel/final_report/ARGUMENT_LOG.md` l.12"
+ },
+ "Y076": {
+  "cid": "K-02",
+  "origin": "KEEL",
+  "evidence": "commit `b68907c`/`d5f2053` (13:53, \"Payments are the weakest promise (short after 2033 in 6.8-8.4% of MODEL paths); a 2033 coverage test cuts it to 0.01%\"); `keel/office/outbox/2026-10-27_genius-lab_last-in-line.md` (\"from how CLOs protect senior notes\"; \"Payments short 8.4% -> 0.01%\"); commit `c546f9b` (19:21) and `keel/office/outbox/2026-10-27_archive_stocks-behind-the-cheques.md` (\"gets used that way in 33% of MODEL paths\")."
+ },
+ "Y077": {
+  "cid": "K-40",
+  "origin": "KEEL",
+  "evidence": "commit `9dfd199`; RUNLOG Thu 29 Oct 15:45 (\"V29 never names the operating reserve (case :94-97, Book 7), fix = from 2033 the ten holdings are the reserve, one redemption per cheque (+14 words)\"); `keel/rooms/lauras_room/LR-06_four_doors_then_ten.md`; `keel/final_report/FINAL_IPS_as_submitted.txt`."
+ },
+ "Y078": {
+  "cid": "W-24",
+  "origin": "CAPLET",
+  "evidence": "`caplet/google_drive/final_report.md` l.22 (\"We traced it to a third-party site mislabelled 2026-27 (wghs.org.cn), the official 2015-16 guidebook and a 2021 teacher blog; this year's official Trading Details says there is no sector minimum. Lesson: check the primary source.\"); CLAUDE.md (\"NO sector minimum (the 'sector minimum = team size' claim is false)\")"
+ },
+ "Y079": {
+  "cid": "K-23",
+  "origin": "KEEL (absorbing a Wharton rule change)",
+  "evidence": "commit `124e1d6` (28 Sep, 831-page record); CLAUDE.md (\"6 Oct Wharton email ... STRIPS-based numbers ... superseded (banners added)\"); commit `44f1296`; commit `f9adf01`; commit `85a10cc`; `competition/official/2026_27/smapply_public_2026-10-20/`."
+ },
+ "Y080": {
+  "cid": "W-16",
+  "origin": "KEEL",
+  "evidence": "`keel/ips_rewrite/VERSIONS.md` (57 numbered rows; row 57 dated Wed 4 Nov); `caplet/STATUS_2026-11-03.md` l.23 (quoted); students' timeline `.../01_experience_with_caplet_edits.txt` l.34 (\"The ideas were settled by about 28 Oct. Most of the next 40 versions were rewording.\"); `keel/INSTRUCTIONS.md` I41 (\"THINK ... I don't want you to be hasty\"; \"D1, D1.2, D1.3, D2 and D3 were all written on 26 Oct\"), I89-I91"
+ },
+ "Y081": {
+  "cid": "W-29",
+  "origin": "KEEL",
+  "evidence": "`archive/rab/trades/october_trade.md` l.14 (quoted), l.47 (\"Write 'checked 14 Oct: the rules said hold'\"); commit efbabf5 (Fri 23 Oct 09:53 Sydney) \"Update rate checks to 22 Oct: ladder cost crosses $300k; October rule did not fire\"; `competition/wins/2026-10-23_snapshot.md`"
+ },
+ "Y082": {
+  "cid": "W-02",
+  "origin": "CAPLET",
+  "evidence": "`competition/COMPETITION.md` l.231-232: \"on 7 Oct an AI browser click cancelled the wrong order (May-2038) because the page had scrolled. Rule since then: only Ray places or cancels WInS orders.\"; same file s4 table: \"WInS cancels instantly with no confirmation\"; `competition/wins/2026-10-23_snapshot.md` l.51: \"T-bond May-2038 | 10/7 12:22:11 AM | ... | 10/6 8:13:31 PM (identical text)\" (ET, = 15:22 and 11:13 Sydney; first order Nov-2041 10/06 7:55:45 PM ET = 10:55 Sydney); `caplet/google_drive/final_report.md` l.27 (Eric's line)"
+ },
+ "Y083": {
+  "cid": "K-43",
+  "origin": "KEEL",
+  "evidence": "commits `4b83f8f`, `47b30ed`; RUNLOG Sun 8 Nov 12:07 and 12:20; `keel/episodes/2026-11-08_ep41.md` Record table; `keel/final_report/NUMBERS.md` (design A, \"Short if interest earns nothing $54,595\")."
+ },
+ "Y084": {
+  "cid": "W-41",
+  "origin": "CAPLET",
+  "evidence": "`keel/INSTRUCTIONS.md` I82 (\"Nobody gets to answer a judge before the semifinal; the Top 50 is picked on the written work alone. Every claim must hold on the page, or be fixed or cut.\"), I83 (quoted; \"no coined labels ('floor', 'building gift', 'cheques', 'promises')\"); `keel/final_report/FINAL_IPS_as_submitted.txt`"
+ },
+ "Y085": {
+  "cid": "S-06",
+  "origin": "KEEL",
+  "evidence": "commit `6a0c30a` (Fri 13 Nov 07:08); `keel/final_report/research/cards/Q3a_floors_in_markets.md` l.18-23, l.55-59, rows 1-2 (l.72-73), row 18 (l.89: store rows H2-068 and H3-092 \"frame the 2028 money as a 'capital-protected' or 'principal-protected note'\"; the register says \"Not capital-protected\"), row 34 (l.105); `keel/final_report/research/cards/Q3b_floors_in_institutions.md`; CLAUDE.md l.113 (26 Oct: \"Thesis = the gift is a capital-protected note minus the option\"); `keel/final_report/ARGUMENT_LOG.md` l.10; `keel/final_report/LESSONS.md` l.20"
+ },
+ "Y086": {
+  "cid": "K-42",
+  "origin": "KEEL",
+  "evidence": "commit `343b921`; `keel/library/insight_v1/phase_G/verification.md:5-6, 20`; `keel/library/insight_v1/README.md` (status labels); CLAUDE.md (\"no Laura quotes in the Trading Notes or IPS\")."
+ },
+ "Y087": {
+  "cid": "W-01",
+  "origin": "CAPLET",
+  "evidence": "`keel/library/verified_2026-09-27/strategy_mc.py` (PATHS = 200_000, SEED 20260927); CLAUDE.md open items: \"Growth-first: 3.2% miss; ... 13.7% miss if 2028 deposit is $75k, 40.8% if $0\" and \"Equity weight 50/60/70% in the sleeve: median $205k/$207k/$209k (barely matters)\"; `keel/library/council_2026-09-27/team_notes_2026-09-27.md` (the team's ~75% equity notes); `keel/final_report/research/EXPERIENCE_RECORD.md` row Sun 27 Sep; students' timeline `keel/library/research_tabs_2026-11-07/doc_snapshot_2026-11-08/01_experience_with_caplet_edits.txt`"
+ },
+ "Y088": {
+  "cid": "S-05",
+  "origin": "KEEL",
+  "evidence": "commit `e31522d`; `keel/final_report/research/cards/Q10d_moc_ncaf_residency_support.md` l.72-80 (verdict 2), row 20 l.118; `keel/final_report/FINAL_IPS_as_submitted.txt` l.9; `keel/final_report/CANON.md` l.115 (B4: \"PARTLY (Sat 14 Nov)\"); `keel/pm/ASK_HUMANS.md` l.21; `keel/final_report/LESSONS.md` l.10; `keel/final_report/ARGUMENT_LOG.md` l.8"
+ },
+ "Y089": {
+  "cid": "S-21",
+  "origin": "KEEL",
+  "evidence": "commit `762e895` (Wed 11 Nov 07:14); `keel/final_report/research/cards/Q11c_unequal_cosponsors_and_conditions.md` l.43-47, row 8 (l.93), l.66-72; `keel/pm/ASK_HUMANS.md` l.41; `keel/final_report/ARGUMENT_LOG.md` l.14"
+ },
+ "Y090": {
+  "cid": "K-21",
+  "origin": "KEEL",
+  "evidence": "commit `e7aa7d0`; `keel/ips_rewrite/inbox/2026-11-02_noticeboard.md`; `keel/loop/LESSONS.md` LS-14; RUNLOG Mon 2 Nov 07:40."
+ },
+ "Y091": {
+  "cid": "W-28",
+  "origin": "CAPLET",
+  "evidence": "`keel/pm/ASK_HUMANS.md` l.71 (Mon 26 Oct: \"Keep the WInS book exactly as it is ... ten trades for a ~$1.5k model gain\"; \"u sure\"; \"Keel's case for holding sent in the thread the same day; still Ray's call until the freeze\"), l.56 (Wed 28 Oct: \"thin-coupon twins ... four extra trades and two new trade notes for ~$2k of protection ... the idea goes to the Final Report\"); `competition/wins/2026-10-23_snapshot.md` (no trade since 8 Oct)"
+ },
+ "Y092": {
+  "cid": "W-30",
+  "origin": "CAPLET",
+  "evidence": "`keel/pm/ASK_HUMANS.md` l.3-6 (Ray, Mon 26 Oct, quoted; \"Only danger-zone decisions wait for a student: anything irreversible or outward-facing, i.e. a WInS trade or order\"); `keel/INSTRUCTIONS.md` I19 (26 Oct, quoted; fix: dashboard), I80 (3 Nov: \"The team doesn't know what Keel has achieved; Keel overcomplicates things and is hard to follow\"); `caplet/STATUS_2026-11-03.md`"
+ },
+ "Y093": {
+  "cid": "W-05",
+  "origin": "CAPLET",
+  "evidence": "`keel/final_report/FINAL_IPS_as_submitted.txt` (\"Dear Laura,\"; \"In effect your career is a large holding of shares, and one you cannot sell\"; closing lines quoted); `archive/bible_2026-11-08/BIBLE.md` l.792 (Book 16, Sat 7 Nov 01:54): \"through a comprehensive rewriting process ... it sounds HUMAN. Even more importantly, it's COMPREHENSIBLE to humans\"; `keel/INSTRUCTIONS.md` I92; `keel/ips_rewrite/VERSIONS.md` (57 numbered versions before it); `keel/final_report/ARGUMENT_LOG.md` (Sun 8 Nov row)"
+ },
+ "Y094": {
+  "cid": "K-38",
+  "origin": "KEEL",
+  "evidence": "commit `8d2fd9e`; `keel/office/outbox/2026-10-24_rooftop_our-own-dates.md`; commit `5e07534`; `keel/office/outbox/2026-10-25_SD-P02_numbers_one-basis-sheet.md` (table B); commit `fcec8f3` (holdings basis $302,199)."
+ },
+ "Y095": {
+  "cid": "N-02",
+  "origin": "KEEL",
+  "evidence": "`keel/final_report/NUMBERS.md` section 8e; `keel/final_report/numbers/price_history.py`; `keel/final_report/research/EXPERIENCE_RECORD.md` section 5, item (c)"
+ },
+ "Y096": {
+  "cid": "S-02",
+  "origin": "KEEL",
+  "evidence": "commit `e31522d` (Sat 14 Nov 07:08); `keel/final_report/NUMBERS.md` 8o l.1331-1432 (l.1401: \"each $5,000 more promised costs about $5,266 of what she keeps\"; l.1405: \"The total barely moves\"; l.1426: 'Never: \"half is optimal\"'), MODEL; `keel/final_report/research/cards/Q5b_kept_share_numbers.md` l.27-45 (\"Moving 30% would be worse on balance\": KILL); `keel/final_report/research/cards/Q5e_does_the_reserve_fall_with_its_uses.md` l.17-20 (the claim), l.31-45 (same-year correlation -0.34; \"Taiwan +14.0% in 2008 as TAIEX fell 46.0%\"), l.76; `keel/final_report/research/cards/Q5c_option_value_and_last_dollar.md` l.29-33 (Arrow and Fisher 1974; Klein 2001); `keel/pm/ASK_HUMANS.md` l.18-19; `keel/final_report/LESSONS.md` l.9, l.12; `keel/final_report/ARGUMENT_LOG.md` l.8"
+ },
+ "Y097": {
+  "cid": "W-36",
+  "origin": "CAPLET",
+  "evidence": "`caplet/google_drive/final_report.md` l.18 (\"WInS lists no Treasury bond maturing Feb 2031 to Feb 2036, so we used iBonds Treasury ETFs (IBTM to IBTR) for the 2033-2037 payments. Also caught that 'IBTN' in WInS is an unrelated company\"); `competition/COMPETITION.md` l.113 (\"IBTN on WInS is INSCORP Inc, not an iBond\"); `keel/rooms/archive.md` (IBTM reflection: \"a net asset value, as opposed to a promise of par\")"
+ },
+ "Y098": {
+  "cid": "W-52",
+  "origin": "KEEL",
+  "evidence": "`keel/final_report/NUMBERS.md` l.168-170 (\"The FINAL's gift top is below that benchmark in 98% of house paths. Half of VT is held back from the gift on purpose, as flexibility\"; \"What VT adds is a share of world growth for the top and for the kept half, at the cost of a lower certain bottom\"); `keel/final_report/ARGUMENT_LOG.md` (Mon 9 Nov, killed: \"VT makes the gift bigger\")"
+ },
+ "Y099": {
+  "cid": "S-11",
+  "origin": "CAPLET (the targets in the team's portfolio sheet and the trades); the check against them after the freeze was KEEL's",
+  "evidence": "commit `aae511b` (Wed 11 Nov 19:53); `keel/final_report/NUMBERS.md` 8m l.1215-1229 (sources named there: `caplet/google_drive/sheets/portfolio_and_trading_notes/portfolio.csv` l.20-31, `archive/rab/trades/tickets.md` l.7-13, `competition/wins/2026-10-23_snapshot.md` l.22-32); `keel/final_report/research/cards/Q29_section2_pilot_frame.md` l.10, l.40; `keel/pm/ASK_HUMANS.md` l.39; `keel/final_report/ARGUMENT_LOG.md` l.13; `keel/final_report/LESSONS.md` l.34, l.19; `competition/official/2026_27/2026_WGY_Final_Report_Instructions.txt` l.146"
+ },
+ "Y100": {
+  "cid": "S-15",
+  "origin": "KEEL",
+  "evidence": "commits `ddb7f5e` (Mon 9 Nov 19:51) and `a03280f` (Thu 12 Nov 19:56); `keel/final_report/research/cards/Q7_precommitment_and_rules.md` row 14 (l.100), l.246, l.252; `keel/final_report/research/cards/Q35_range_forecasts_credibility.md` l.55-57; store rows Q7-014, Q35-001, Q35-002, all \"refuse\" (`keel/final_report/research/store/ratings.csv` l.423; `keel/final_report/research/store/by_tag/OTHER.md` l.171, l.174); `keel/final_report/LESSONS.md` l.57; `keel/final_report/ARGUMENT_LOG.md` l.18, l.11"
+ },
+ "Y101": {
+  "cid": "W-11",
+  "origin": "CAPLET",
+  "evidence": "`keel/library/team_materials/review_why_laura_and_public_profile.md` (team documents reviewed 27 Sep): \"her career already carries concentrated risk (publishing, speaking, licensing), so the portfolio should not add correlated risk\"; `keel/ips_rewrite/caplet_doc/2026-11-05_one_check.md` l.13 (\"'Laura's human capital that fluctuates with stocks' (Handwritten)\"); `keel/final_report/FINAL_IPS_as_submitted.txt` (pitch); `keel/pm/CHANGES.md` (Tue 27 Oct night: \"0 of 36 have human capital or a two-cost range\")"
+ },
+ "Y102": {
+  "cid": "S-17",
+  "origin": "KEEL",
+  "evidence": "commits `c97129e` (Mon 9 Nov 09:00) and `6a0c30a` (Fri 13 Nov 07:08); `keel/final_report/research/cards/Q9_what_makes_a_residency_last.md` l.22-30, rows 1-3 (l.57-59), row 19 (l.75); `keel/final_report/research/cards/Q9b_residencies_reserves_and_founders.md` l.10-12, l.49 (\"Jentel did not fail\"); `keel/final_report/research/cards/Q9c_taiwan_residencies_funding.md` l.36-37, l.44; `keel/final_report/research/panel/2026-11-11_funder_reader_3d.md`; `keel/pm/ASK_HUMANS.md` l.29; `keel/final_report/ARGUMENT_LOG.md` l.21, l.10"
+ },
+ "Y103": {
+  "cid": "K-05",
+  "origin": "KEEL",
+  "evidence": "commit `d62e431` (Wed 28 Oct 19:21, \"shares wiped: no cheque worse off in 600,000 MODEL paths\"); commit `2a19628` (Fri 30 Oct 08:51, \"BREACH, the wipe-out line reads A19 backwards\"); `keel/office/outbox/2026-10-30_window_the-wipe-out-line.md`; `keel/rooms/archive_checks/A19_results_S0.json`."
+ },
+ "Y104": {
+  "cid": "K-48",
+  "origin": "KEEL",
+  "evidence": "commits `dd68e6e`, `33d7de9`; `archive/rab/gates/gate_C.md`."
+ },
+ "Y105": {
+  "cid": "K-24",
+  "origin": "KEEL",
+  "evidence": "`keel/library/assistant_review_2026-10/03_Repo_Review_30Sep2026.md:302-307`; commit `cf43a9d`; commit `44f1296` (\"Fixed stale rules ($300k, commissions, dates, no sector rule, no approved list)\"); CLAUDE.md \"Team\" and \"Open items\"."
+ },
+ "Y106": {
+  "cid": "K-13",
+  "origin": "CAPLET (the office's response was KEEL)",
+  "evidence": "commit `3b71b9e` and `keel/rooms/lab/L-06_cp/packages.md:102` (\"Package B: Caplet XR (our own name; the road nobody else can take)\"); `keel/INSTRUCTIONS.md` I34, I84, I85; commits `92ce7ba` (19:52) and `0327626` (19:58, \"four-idea rewrite with the tablets out\"); `keel/ips_rewrite/final_night/README.md` (call 1)."
+ },
+ "Y107": {
+  "cid": "W-37",
+  "origin": "CAPLET",
+  "evidence": "`caplet/google_drive/final_report.md` l.17 (\"minimum price $3 (guide says $5), and the trade note box holds 300 characters, shorter than Wharton's own 413-character example\"); `competition/wins/2026-10-23_snapshot.md` l.49 (\"288 chars\")"
+ },
+ "Y108": {
+  "cid": "K-15",
+  "origin": "KEEL",
+  "evidence": "`keel/loop/LESSONS.md` LS-06 (\"13 of 33 instructions ignored or partly applied\"; \"ruled (Sun 1 Nov: the vote gate)\"); `keel/office/outbox/2026-10-30_rooftop_the-vote-after-the-message.md`; commit `ae292c1` (18:34); `keel/INSTRUCTIONS.md` I70; commit `f6a1020` (\"IPS V45 (voice-first) with its 198-row Bible check\")."
+ },
+ "Y109": {
+  "cid": "S-09",
+  "origin": "KEEL",
+  "evidence": "commits `aae511b` (Wed 11 Nov 19:53) and `a03280f` (Thu 12 Nov 19:56); `keel/final_report/research/panel/2026-11-11_bond_desk_table3.md` l.12-13; `keel/final_report/research/cards/Q30_table3_cut_and_xdate.md`; `keel/pm/ASK_HUMANS.md` l.37 (the definitions), l.35 and l.31 (no sale, no bridge, no third reason; custody set-up; 4 to 9 business days); `keel/final_report/research/panel/2026-11-12_bond_desk_table3_built.md` l.7 (\"Sign-off: yes, with fixes\"), l.21-27; `keel/final_report/FINAL_IPS_as_submitted.txt` l.17; `keel/final_report/CANON.md` l.101 (A34); `keel/final_report/ARGUMENT_LOG.md` l.13; `keel/final_report/LESSONS.md` l.33"
+ },
+ "Y110": {
+  "cid": "K-16",
+  "origin": "KEEL",
+  "evidence": "commit `efbabf5` (\"ladder cost crosses $300k; October rule did not fire\"); `keel/library/assistant_review_2026-10/checks/RESULTS_16Oct2026.md` section 5 (table 16-22 Oct; \"+$10,206\"; \"about $7,550 (+2.8%)\")."
+ },
+ "Y111": {
+  "cid": "K-20",
+  "origin": "KEEL",
+  "evidence": "commit `b08794b`; `keel/office/outbox/2026-10-27_window_7-5-and-three-checks.md:15` (\"The cited study shows the opposite\"); RUNLOG Tue 27 Oct 15:40 (\"co-sponsors read the bottom as bookable, the top as an intention\"); commit `855c18a` (\"seed money read at the source (nearly sixfold, so the low side costs the co-sponsors' gifts)\")."
+ },
+ "Y112": {
+  "cid": "K-01",
+  "origin": "KEEL (keeping the line in the submitted Trading Notes Analysis was CAPLET's action)",
+  "evidence": "commit `a0bea2d` (Wed 21 Oct 15:20) and `keel/office/outbox/2026-10-21_WO-0003_equity-return-projections.md` (\"Global equities 7.5% (up from 7.0% in the 2026 edition the IPS cites)\"); `keel/library/assistant_review_2026-10/oct21_tna/TNA_Teardown_21Oct2026.md:20` (commit `314701b`, 18:28: \"Delete 'about 7.5% a year per JPMorgan' ... 7.5% is JPMorgan's non-US developed (EAFE) figure\"); `keel/office/outbox/2026-10-24_rooftop_our-own-dates.md` (\"The 21 Oct teardown called the submitted 7.5% FALSE, reading the 2026 LTCMA\"); commit `70819cf` (Mon 26 Oct 23:32, \"7.5% is EAFE not world\"); `keel/office/outbox/2026-10-27_noticeboard_7-5-is-world-stocks.md` (\"The rewrite's correction is wrong\"); commit `696f0f5`; commit `dac1d5b` (\"P06 re-run at JPM 2027 7.5% (only 29% -> 28% moves)\")."
+ },
+ "Y113": {
+  "cid": "K-47",
+  "origin": "KEEL",
+  "evidence": "commit `f9adf01`; commit `d401ba2` (\"Redact WInS username from the 17 Oct compliance audit\"); CLAUDE.md (\"Repo is private (made private by Ray on 23 Oct 2026; it was public before)\")."
+ },
+ "Y114": {
+  "cid": "N-03",
+  "origin": "KEEL",
+  "evidence": "`keel/pm/ASK_HUMANS.md` (Tue 10 Nov, 07:04); `keel/final_report/research/cards/Q20_pooled_book_or_margin.md`; `keel/final_report/NUMBERS.md` sections 2 (cost $336,656), 4 and 8h (overflow $45,456); `keel/final_report/LESSONS.md` (Tue 10 Nov)"
+ },
+ "Y115": {
+  "cid": "S-22",
+  "origin": "KEEL",
+  "evidence": "commit `05e689f` (Fri 13 Nov 20:02); `keel/final_report/research/cards/Q37_stating_assumptions.md` l.17-22 (the claims), l.40-56 (verdict 2), row 2 (l.76), row 19 (l.93); `competition/official/2026_27/Laura_Gao_2026_Client_Profile.txt` l.146-149; `keel/final_report/LESSONS.md` l.17; `keel/final_report/ARGUMENT_LOG.md` l.9"
+ },
+ "Y116": {
+  "cid": "S-13",
+  "origin": "KEEL",
+  "evidence": "commit `762e895` (Wed 11 Nov 07:14); `keel/final_report/research/cards/Q4c_how_sure_words_and_numbers.md` l.34-40 (Mandel and Irwin, N = 1,202: 71.76 word and number, 39.75 word alone, 74.63 number alone), row 13 (l.92: Mosteller and Youtz 1990); `keel/pm/ASK_HUMANS.md` l.42; `keel/final_report/ARGUMENT_LOG.md` l.14"
+ },
+ "Y117": {
+  "cid": "W-34",
+  "origin": "CAPLET",
+  "evidence": "`caplet/google_drive/notes_and_discussions.md` l.303-305 (\"Wharton never showed the second deposit (150K later), which means we need to reconsider what the 300K mean\"; \"Current plan (ii)R ... scaled down to $300k. That's why it includes 8.7% in VT\"); `archive/rab/decisions/D7_wins_book.md` (\"for the 1 Oct vote\"; \"Written because the red team ... found no memo that set out both sides before the vote\"; \"Scale words needed: yes\"); `competition/wins/2026-10-23_snapshot.md` (VT 167 held; no trade since 8 Oct)"
+ },
+ "Y118": {
+  "cid": "K-29",
+  "origin": "KEEL",
+  "evidence": "commits `fbf45f2`, `29e85c7`; `keel/office/outbox/2026-10-30_archive_the-deposit-carries-more.md`; `keel/rooms/archive_checks/A25_results.json`."
+ },
+ "Y119": {
+  "cid": "K-08",
+  "origin": "KEEL (prompted by the team's criticism)",
+  "evidence": "commit `93d64a4` (Tue 27 Oct 22:01, \"blind rival panel (V25 1st with all 3 judges)\"); commit `04da14b` (Wed 28 Oct, \"V27 first with all three judges\"); `keel/ips_rewrite/judges/README.md` (diagnosis and new panel); `keel/ips_rewrite/judges/panel_V35/SUMMARY.md:16`; commit `ae292c1` (18:34, \"V30 ... = Keel's Sat 31 review draft, 5-1\"); `keel/office/outbox/2026-10-30_rooftop_the-vote-after-the-message.md` (\"The loop's own V30 came 5th of 6 in panel 4 (mean rank 4.5), behind Caplet's own Version 5 of 14 Oct\")."
+ },
+ "Y120": {
+  "cid": "W-26",
+  "origin": "KEEL",
+  "evidence": "`keel/pm/CHANGES.md` l.33 (Fri 30 Oct night: \"on this plan the 2028 deposit can fall to about $125,000 (not $85,000) after a two-point yield drop\"; \"V39 says only two things break a cheque\"); `keel/final_report/FINAL_IPS_as_submitted.txt` (quoted)"
+ },
+ "Y121": {
+  "cid": "W-21",
+  "origin": "CAPLET",
+  "evidence": "`keel/library/council_2026-09-27/team_notes_2026-09-27.md` (student-authored, 27 Sep) l.34 (\"Reserve PV in 2027 = L2033/1.04^6 ~ $333k (> first $300k deposit)\"), l.52-55 (\"KNOWN INTERNAL CONTRADICTIONS\"; \"4% in one place, 5.1% in another\"); `keel/library/council_2026-09-27/01_chair_memo.md` s2 (\"retire both the flat 4% and '10y 5.1%'\"); CLAUDE.md (\"10y 5.17 ... (A search summary claiming 10y 4.22% was wrong.)\"; \"Ten payments valued at 2027-01-01 from that curve: $292,264\")"
+ },
+ "Y122": {
+  "cid": "S-20",
+  "origin": "KEEL",
+  "evidence": "commit `8e7b4fd` (Tue 10 Nov 19:50); `keel/final_report/research/cards/Q25_what_returns_to_laura.md` rows 1-4 (l.82-85); `keel/final_report/NUMBERS.md` 8k l.1036-1102 ($75,298 centrally) and section 4 ($123,476), MODEL; `keel/pm/ASK_HUMANS.md` l.44; `keel/final_report/ARGUMENT_LOG.md` l.15"
+ },
+ "Y123": {
+  "cid": "K-14",
+  "origin": "CAPLET (the team's own idea); KEEL (kept it and tested it)",
+  "evidence": "`keel/library/team_materials/review_why_laura_and_public_profile.md:12` (\"her career already carries concentrated risk (publishing, speaking, licensing), so the portfolio should not add correlated risk\"); `keel/final_report/FINAL_IPS_as_submitted.txt`; commit `332880b` (PR #159, merged `7076208` 20:02); `keel/final_report/research/cards/Q1_career_as_shares.md` rows 7, 28, 44 and section (b); `keel/episodes/2026-11-08_ep42.md` Record table."
+ },
+ "Y124": {
+  "cid": "W-44",
+  "origin": "KEEL",
+  "evidence": "CLAUDE.md (\"Public SMApply FAQ, live 20 Oct: TIPS and STRIPS are now listed as NOT permitted, the permitted list is 'for BOTH contributions, the IPS and Final Report', and the public $5 stock floor is gone\"); `competition/COMPETITION.md` s4; `competition/official/2026_27/smapply_public_2026-10-20/`; `keel/final_report/FINAL_IPS_as_submitted.txt`"
+ },
+ "Y125": {
+  "cid": "K-41",
+  "origin": "KEEL",
+  "evidence": "commit `5413013`; `keel/office/outbox/2026-10-27_writing-room_voice-study.md:15-18`; `keel/INSTRUCTIONS.md` I36 (\"said 'Ray's' until 27 Oct\"), I69; commits `21911fc`, `435c432`, `4c8e45d`, `4cade3d`, `d9d1f01`, `8bf1b93`, `eb39665`; `keel/voice/reading/LOG.md`."
+ },
+ "Y126": {
+  "cid": "S-10",
+  "origin": "KEEL",
+  "evidence": "commits `8e7b4fd` (Tue 10 Nov 19:50) and `05e689f` (Fri 13 Nov 20:02); `keel/final_report/research/cards/Q26_monitoring_table.md` l.45-48, row 14 (l.68); `keel/final_report/research/cards/Q36_ibonds_fund_end_powers.md` rows 2, 4, 6, 16 (l.66, l.68, l.70, l.80); `keel/pm/ASK_HUMANS.md` l.26, l.27; `keel/final_report/LESSONS.md` l.15, l.44; `keel/final_report/ARGUMENT_LOG.md` l.9, l.15"
+ },
+ "Y127": {
+  "cid": "W-53",
+  "origin": "KEEL",
+  "evidence": "students' timeline `keel/library/research_tabs_2026-11-07/doc_snapshot_2026-11-08/01_experience_with_caplet_edits.txt` l.38 (\"The same cost came out at $4,000, $9,000, $15,000 and $19,000 on four different engines. The Final Report must use one engine on one dated curve.\"); `keel/final_report/NUMBERS.md` (9 Nov; engine `keel/final_report/numbers/`); CLAUDE.md (\"Every figure comes from the number register\")"
+ },
+ "Y128": {
+  "cid": "W-54",
+  "origin": "CAPLET",
+  "evidence": "`archive/bible_2026-11-08/BIBLE.md` l.730 (Book 13, Sun 8 Nov 11:06), l.755 (Book 14, 11:21: \"No writing until the day before; notes on every expectation; one ranked store of every insight\"), l.778 (Book 15, 11:26); `keel/INSTRUCTIONS.md` I89-I91; `keel/final_report/README.md`; CLAUDE.md (\"Fri 27 Nov: one 24-hour session, at least twelve draft-review-rewrite rounds ... final draft to Caplet Sat 28 Nov\")"
+ },
+ "Y129": {
+  "cid": "W-03",
+  "origin": "CAPLET",
+  "evidence": "`caplet/google_drive/final_report.md` l.23: \"5 Oct: Darren argued the world fund is a 'copout' and proposed normal stock and ETF picking; Taiwan (EWT) and gold (GLD) were also raised\"; `archive/rab/decisions/D_fund_choice.md` (WS3, 30 Sep): \"Decision: keep VT\"; \"Rule, written before any number was run\"; \"its spread ratio is 0.8991 ... 0.001 under the 0.90 bar ... passes on 80-85% of seeds ... so it fails the every-seed clause\"; `keel/library/insight_v1/strategy_changes.md` l.44 (\"EWT, AI or thematic tilts: tokenism and concentration\"); `keel/rooms/archive.md` l.50 (submitted VT reflection)"
+ },
+ "Y130": {
+  "cid": "S-07",
+  "origin": "KEEL",
+  "evidence": "commits `c89ec3f` (Tue 10 Nov 08:40) and `a03280f` (Thu 12 Nov 19:56); `keel/final_report/ARGUMENT_LOG.md` l.16 (Tue 10 Nov, kept: \"a risky career cuts shares from 73% to 23%, Bodie, Merton and Samuelson 1992\"), l.11 (Thu 12 Nov, killed: \"Laura's 27% 'near the textbook's 23%' (Q33: not like for like)\"); `keel/final_report/research/cards/Q33_shares_of_free_money.md` l.14, l.35, rows 1-6 (l.54-59: \"about -5% ... about 6% ... about 29%\"); `keel/final_report/research/cards/Q1c_career_and_diversification.md` row 23 (l.77); `keel/final_report/LESSONS.md` l.25"
+ },
+ "Y131": {
+  "cid": "K-33",
+  "origin": "KEEL",
+  "evidence": "commit `27d3132`; `keel/office/outbox/2026-11-04_archive_the-word-october-used.md`; RUNLOG Wed 4 Nov 19:26."
+ },
+ "Y132": {
+  "cid": "K-32",
+  "origin": "KEEL",
+  "evidence": "commit `f954c19`; commit `039bcbf`; RUNLOG Sun 8 Nov 11:48; `keel/episodes/2026-11-08_ep41.md` Record table; commit `f38fe68` (`keel/final_report/NUMBERS.md`, `keel/final_report/CANON.md`)."
+ },
+ "Y133": {
+  "cid": "W-38",
+  "origin": "CAPLET",
+  "evidence": "`caplet/google_drive/final_report.md` l.20 (\"IBTR's order ticket errored and after-hours iBond spreads were very wide, so we plan limit orders and a retry in market hours. Also learned Treasury orders are entered in $1,000-face units.\"); `keel/library/assistant_review_2026-10/01_Caplet_Team_Brief_15Oct2026.md` l.277 (\"below the 7 Oct closes, by about $0.8-0.9k in total. That was luck.\"), l.278 (\"The bonds filled within about 9bp of the curve\")"
+ },
+ "Y134": {
+  "cid": "N-13",
+  "origin": "KEEL",
+  "evidence": "`keel/final_report/research/panel/2026-11-13_coherence_reader_3.md`; `caplet/google_drive/ips_report/05_trading_note_reflection_wins_trading_notes.md`; `keel/final_report/WORDS.md`; `keel/pm/ASK_HUMANS.md` (Fri 13 Nov, 19:50)"
+ },
+ "Y135": {
+  "cid": "W-39",
+  "origin": "CAPLET",
+  "evidence": "`caplet/google_drive/final_report.md` l.21 (\"1 Oct: model check backed the $150k floor and 50/50 split; IPS content locked.\"); `archive/rab/decisions/D7_wins_book.md` (\"for the 1 Oct vote\"; \"10 on Fri 2 Oct\"); `keel/final_report/FINAL_IPS_as_submitted.txt` (\"half of the value of the shares will be promised to no one\")"
+ },
+ "Y136": {
+  "cid": "W-33",
+  "origin": "KEEL",
+  "evidence": "`caplet/google_drive/notes_and_discussions.md` l.256 (\"The original model priced the bonds at about 5.08% but let spare bond money earn only 4%. That made the all-bond option look about $9k worse than it really is. It was found and corrected.\"), l.296 (all-Treasuries row in the 29 Sep test); `keel/final_report/NUMBERS.md` l.168 (all-Treasury benchmark)"
+ },
+ "Y137": {
+  "cid": "S-26",
+  "origin": "CAPLET",
+  "evidence": "`archive/bible_2026-11-08/BIBLE.md` l.812, l.826 (Book 17, working tree); `keel/INSTRUCTIONS.md` l.132 (I107: \"SKELETON restates parts of the IPS\"; `final_report/research/meta/EVALUATE_NOT_DESCRIBE.md` planned); `competition/official/2026_27/2026_WGY_Final_Report_Instructions.txt` l.12-13"
+ },
+ "Y138": {
+  "cid": "N-01",
+  "origin": "KEEL (research on the team's submitted idea)",
+  "evidence": "`keel/final_report/research/cards/Q12_lauras_working_life.md` rows 17-20 and 18 (Publishers Weekly, 5 Jan 2024 and 10 Jan 2025); `keel/final_report/ARGUMENT_LOG.md` (Mon 9 Nov, midday)"
+ },
+ "Y139": {
+  "cid": "W-40",
+  "origin": "CAPLET",
+  "evidence": "`caplet/google_drive/final_report.md` l.24 (\"we realised the facility floor counted inside the operating reserve. We fixed four phrases and kept 'never below the floor' on purpose\"); `keel/final_report/FINAL_IPS_as_submitted.txt` (quoted)"
+ },
+ "Y140": {
+  "cid": "K-27",
+  "origin": "KEEL",
+  "evidence": "commit `7de06ac`; `keel/final_report/voice/STUDY1_two_voices.md` (sections A and B); `keel/episodes/2026-11-08_ep41.md` Record table (11:26)."
+ },
+ "Y141": {
+  "cid": "K-34",
+  "origin": "KEEL",
+  "evidence": "commits `ae31139`, `c82e1ee`; `keel/office/outbox/2026-11-04_library_checked-only-by-its-writers.md`; RUNLOG Wed 4 Nov 13:05."
+ },
+ "Y142": {
+  "cid": "W-45",
+  "origin": "CAPLET",
+  "evidence": "`competition/official/2026_27/wharton_email_week4_2026-10.md`; CLAUDE.md (\"IPS is now an SMApply FORM, not a PDF\"; 16 Oct pre-mortem: \"the live V5 ... added ~a dozen figures\"); `keel/INSTRUCTIONS.md` I73 (Book 11: \"Models, citations, evidence for the Final Report\"); `keel/final_report/FINAL_IPS_as_submitted.txt`"
+ }
+}
