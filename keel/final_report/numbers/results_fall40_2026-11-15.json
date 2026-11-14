@@ -1,0 +1,1858 @@
+{
+ "stamp": {
+  "run": "Sun 15 Nov 2026 (Sydney)",
+  "curve": "11/06/2026",
+  "design": "H_plain",
+  "card": "Q6c",
+  "margin_jan2027_value": 34369.05592462372,
+  "basis": "Tue 10 Nov register (NUMBERS 0, 4, 8i)",
+  "fall": "VT index with dividends, before its 0.06% fee, at 0.6x the earlier value"
+ },
+ "checks_central_vs_8i_row1": {
+  "bottom_stated": {
+   "register": 95000,
+   "this_run": 95000.0,
+   "diff": 0.0
+  },
+  "bottom_unrounded": {
+   "register": 98728.56,
+   "this_run": 98728.56167619981,
+   "diff": 0.0016761998122092336
+  },
+  "top_stated": {
+   "register": 115000,
+   "this_run": 115000.0,
+   "diff": 0.0
+  },
+  "top_unrounded": {
+   "register": 118443.46,
+   "this_run": 118443.45865122353,
+   "diff": -0.0013487764808814973
+  },
+  "funds_pay": {
+   "register": 123475.56,
+   "this_run": 123475.55754783849,
+   "diff": -0.002452161512337625
+  },
+  "contribution": {
+   "register": 115000,
+   "this_run": 115000.0,
+   "diff": 0.0
+  },
+  "above_top_to_her_flexibility": {
+   "register": 8475.56,
+   "this_run": 8475.557547838485,
+   "diff": -0.0024521615141566144
+  },
+  "her_flexibility_jan2033": {
+   "register": 21347.3,
+   "this_run": 21347.297953761732,
+   "diff": -0.002046238267212175
+  },
+  "her_flexibility_plus_above_top": {
+   "register": 29822.86,
+   "this_run": 29822.85550160022,
+   "diff": -0.0044983997795498
+  },
+  "completion_jan2028": {
+   "register": 38282.14,
+   "this_run": 38282.14224962851,
+   "diff": 0.002249628509161994
+  },
+  "payments_left_after_2042_nominal": {
+   "register": 74122.57,
+   "this_run": 74122.56759813958,
+   "diff": -0.0024018604308366776
+  },
+  "payments_left_after_2042_jan2033_money": {
+   "register": 45455.58,
+   "this_run": 45455.57570475247,
+   "diff": -0.004295247534173541
+  },
+  "vt_bought_jan2028": {
+   "register": 29828.67,
+   "this_run": 29828.668019349192,
+   "diff": -0.0019806508062174544
+  },
+  "floor_money_jan2028": {
+   "register": 81889.19,
+   "this_run": 81889.1897310223,
+   "diff": -0.0002689777029445395
+  },
+  "vt_on_move_day": {
+   "register": 36989.0,
+   "this_run": 36989.40016847324,
+   "diff": 0.4001684732429567
+  }
+ },
+ "checks_zero_vs_numbers4": {
+  "top_stated": {
+   "register": 95000,
+   "this_run": 95000.0,
+   "diff": 0.0
+  },
+  "contribution": {
+   "register": 95000,
+   "this_run": 95000.0,
+   "diff": 0.0
+  },
+  "funds_pay": {
+   "register": 103178.04,
+   "this_run": 103178.04434054055,
+   "diff": 0.0043405405594967306
+  },
+  "above_top_to_her_flexibility": {
+   "register": 8178.04,
+   "this_run": 8178.044340540553,
+   "diff": 0.004340540553130268
+  }
+ },
+ "all_checks_pass": true,
+ "scenarios": {
+  "central": {
+   "label": "VT 7.5% a year throughout; today's forwards (NUMBERS 8i row 1)",
+   "vt3_index": 1.2422968749999999,
+   "vt2_index": 1.155625,
+   "yield_move_at_move_points": 0.0,
+   "vt_value_at_move_over_jan2028_cost_after_fee": 1.2400620820372885,
+   "completion_jan2028": 38282.14224962851,
+   "floor_money_jan2028": 81889.1897310223,
+   "vt_bought_jan2028": 29828.668019349192,
+   "vt_on_move_day": 36989.40016847324,
+   "moved_money": 18494.70008423662,
+   "floor_pays": 103178.04434054055,
+   "moved_shares_pay": 20297.513207297936,
+   "bottom_unrounded": 98728.56167619981,
+   "bottom_stated": 95000.0,
+   "top_unrounded": 118443.45865122353,
+   "top_stated": 115000.0,
+   "funds_pay": 123475.55754783849,
+   "funds_pay_plan_run_model": 123475.55754783844,
+   "contribution": 115000.0,
+   "above_top_to_her_flexibility": 8475.557547838485,
+   "her_flexibility_jan2033": 21347.297953761732,
+   "her_flexibility_plus_above_top": 29822.85550160022,
+   "contribution_plus_flexibility_plus_above_top": 144822.85550160022,
+   "contribution_inside_stated_range": true,
+   "payments_all_ten_paid": true,
+   "payments_shortfall": 0.0,
+   "payments_left_after_2042_nominal": 74122.56759813958,
+   "payments_left_after_2042_jan2033_money": 45455.57570475247
+  },
+  "a": {
+   "label": "VT down 40% at the move from its Jan 2028 value, then 7.5% a year",
+   "vt3_index": 0.6,
+   "vt2_index": 1.155625,
+   "yield_move_at_move_points": 0.0,
+   "vt_value_at_move_over_jan2028_cost_after_fee": 0.5989206478703999,
+   "completion_jan2028": 38282.14224962851,
+   "floor_money_jan2028": 81889.1897310223,
+   "vt_bought_jan2028": 29828.668019349192,
+   "vt_on_move_day": 17865.005175259696,
+   "moved_money": 8932.502587629848,
+   "floor_pays": 103178.04434054055,
+   "moved_shares_pay": 9803.21867458514,
+   "bottom_unrounded": 98728.56167619981,
+   "bottom_stated": 95000.0,
+   "top_unrounded": 108250.39049430276,
+   "top_stated": 105000.0,
+   "funds_pay": 112981.26301512569,
+   "funds_pay_plan_run_model": 112981.26301512565,
+   "contribution": 105000.0,
+   "above_top_to_her_flexibility": 7981.263015125689,
+   "her_flexibility_jan2033": 10310.239871010734,
+   "her_flexibility_plus_above_top": 18291.502886136426,
+   "contribution_plus_flexibility_plus_above_top": 123291.50288613641,
+   "contribution_inside_stated_range": true,
+   "payments_all_ten_paid": true,
+   "payments_shortfall": 0.0,
+   "payments_left_after_2042_nominal": 74122.56759813958,
+   "payments_left_after_2042_jan2033_money": 45455.57570475247,
+   "change_vs_central": {
+    "bottom_stated": 0.0,
+    "top_stated": -10000.0,
+    "top_unrounded": -10193.068156920766,
+    "funds_pay": -10494.294532712796,
+    "contribution": -10000.0,
+    "her_flexibility_jan2033": -11037.058082750998,
+    "her_flexibility_plus_above_top": -11531.352615463795,
+    "contribution_plus_flexibility_plus_above_top": -21531.35261546381
+   }
+  },
+  "a_flat": {
+   "label": "VT down 40% at the move, then flat to Jan 2033",
+   "vt3_index": 0.6,
+   "vt2_index": 1.0,
+   "yield_move_at_move_points": 0.0,
+   "vt_value_at_move_over_jan2028_cost_after_fee": 0.5989206478703999,
+   "completion_jan2028": 38282.14224962851,
+   "floor_money_jan2028": 81889.1897310223,
+   "vt_bought_jan2028": 29828.668019349192,
+   "vt_on_move_day": 17865.005175259696,
+   "moved_money": 8932.502587629848,
+   "floor_pays": 103178.04434054055,
+   "moved_shares_pay": 9803.21867458514,
+   "bottom_unrounded": 98728.56167619981,
+   "bottom_stated": 95000.0,
+   "top_unrounded": 108250.39049430276,
+   "top_stated": 105000.0,
+   "funds_pay": 112981.26301512569,
+   "funds_pay_plan_run_model": 112981.26301512565,
+   "contribution": 105000.0,
+   "above_top_to_her_flexibility": 7981.263015125689,
+   "her_flexibility_jan2033": 8921.786800225624,
+   "her_flexibility_plus_above_top": 16903.049815351318,
+   "contribution_plus_flexibility_plus_above_top": 121903.04981535132,
+   "contribution_inside_stated_range": true,
+   "payments_all_ten_paid": true,
+   "payments_shortfall": 0.0,
+   "payments_left_after_2042_nominal": 74122.56759813958,
+   "payments_left_after_2042_jan2033_money": 45455.57570475247,
+   "change_vs_central": {
+    "bottom_stated": 0.0,
+    "top_stated": -10000.0,
+    "top_unrounded": -10193.068156920766,
+    "funds_pay": -10494.294532712796,
+    "contribution": -10000.0,
+    "her_flexibility_jan2033": -12425.511153536108,
+    "her_flexibility_plus_above_top": -12919.805686248903,
+    "contribution_plus_flexibility_plus_above_top": -22919.805686248903
+   }
+  },
+  "b0": {
+   "label": "VT flat to the move, then 7.5% a year (baseline for b)",
+   "vt3_index": 1.0,
+   "vt2_index": 1.155625,
+   "yield_move_at_move_points": 0.0,
+   "vt_value_at_move_over_jan2028_cost_after_fee": 0.9982010797839999,
+   "completion_jan2028": 38282.14224962851,
+   "floor_money_jan2028": 81889.1897310223,
+   "vt_bought_jan2028": 29828.668019349192,
+   "vt_on_move_day": 29775.008625432827,
+   "moved_money": 14887.504312716414,
+   "floor_pays": 103178.04434054055,
+   "moved_shares_pay": 16338.697790975235,
+   "bottom_unrounded": 98728.56167619981,
+   "bottom_stated": 95000.0,
+   "top_unrounded": 114598.27637303805,
+   "top_stated": 110000.0,
+   "funds_pay": 119516.74213151578,
+   "funds_pay_plan_run_model": 119516.74213151574,
+   "contribution": 110000.0,
+   "above_top_to_her_flexibility": 9516.742131515784,
+   "her_flexibility_jan2033": 17183.733118351225,
+   "her_flexibility_plus_above_top": 26700.475249867013,
+   "contribution_plus_flexibility_plus_above_top": 136700.475249867,
+   "contribution_inside_stated_range": true,
+   "payments_all_ten_paid": true,
+   "payments_shortfall": 0.0,
+   "payments_left_after_2042_nominal": 74122.56759813958,
+   "payments_left_after_2042_jan2033_money": 45455.57570475247,
+   "change_vs_central": {
+    "bottom_stated": 0.0,
+    "top_stated": -5000.0,
+    "top_unrounded": -3845.1822781854717,
+    "funds_pay": -3958.815416322701,
+    "contribution": -5000.0,
+    "her_flexibility_jan2033": -4163.564835410507,
+    "her_flexibility_plus_above_top": -3122.380251733208,
+    "contribution_plus_flexibility_plus_above_top": -8122.380251733208
+   }
+  },
+  "b": {
+   "label": "VT flat to the move, then down 40% by Jan 2033",
+   "vt3_index": 1.0,
+   "vt2_index": 0.6,
+   "yield_move_at_move_points": 0.0,
+   "vt_value_at_move_over_jan2028_cost_after_fee": 0.9982010797839999,
+   "completion_jan2028": 38282.14224962851,
+   "floor_money_jan2028": 81889.1897310223,
+   "vt_bought_jan2028": 29828.668019349192,
+   "vt_on_move_day": 29775.008625432827,
+   "moved_money": 14887.504312716414,
+   "floor_pays": 103178.04434054055,
+   "moved_shares_pay": 16338.697790975235,
+   "bottom_unrounded": 98728.56167619981,
+   "bottom_stated": 95000.0,
+   "top_unrounded": 114598.27637303805,
+   "top_stated": 110000.0,
+   "funds_pay": 119516.74213151578,
+   "funds_pay_plan_run_model": 119516.74213151574,
+   "contribution": 110000.0,
+   "above_top_to_her_flexibility": 9516.742131515784,
+   "her_flexibility_jan2033": 8921.786800225624,
+   "her_flexibility_plus_above_top": 18438.528931741414,
+   "contribution_plus_flexibility_plus_above_top": 128438.52893174143,
+   "contribution_inside_stated_range": true,
+   "payments_all_ten_paid": true,
+   "payments_shortfall": 0.0,
+   "payments_left_after_2042_nominal": 74122.56759813958,
+   "payments_left_after_2042_jan2033_money": 45455.57570475247,
+   "change_vs_central": {
+    "bottom_stated": 0.0,
+    "top_stated": -5000.0,
+    "top_unrounded": -3845.1822781854717,
+    "funds_pay": -3958.815416322701,
+    "contribution": -5000.0,
+    "her_flexibility_jan2033": -12425.511153536108,
+    "her_flexibility_plus_above_top": -11384.326569858807,
+    "contribution_plus_flexibility_plus_above_top": -16384.326569858793
+   },
+   "change_vs_b0": {
+    "bottom_stated": 0.0,
+    "top_stated": 0.0,
+    "funds_pay": 0.0,
+    "contribution": 0.0,
+    "her_flexibility_jan2033": -8261.946318125601,
+    "her_flexibility_plus_above_top": -8261.9463181256
+   }
+  },
+  "c": {
+   "label": "VT down 40% at the move, then back to its 7.5% path by Jan 2033",
+   "vt3_index": 0.6,
+   "vt2_index": 2.3927155436197913,
+   "yield_move_at_move_points": 0.0,
+   "vt_value_at_move_over_jan2028_cost_after_fee": 0.5989206478703999,
+   "completion_jan2028": 38282.14224962851,
+   "floor_money_jan2028": 81889.1897310223,
+   "vt_bought_jan2028": 29828.668019349192,
+   "vt_on_move_day": 17865.005175259696,
+   "moved_money": 8932.502587629848,
+   "floor_pays": 103178.04434054055,
+   "moved_shares_pay": 9803.21867458514,
+   "bottom_unrounded": 98728.56167619981,
+   "bottom_stated": 95000.0,
+   "top_unrounded": 108250.39049430276,
+   "top_stated": 105000.0,
+   "funds_pay": 112981.26301512569,
+   "funds_pay_plan_run_model": 112981.26301512565,
+   "contribution": 105000.0,
+   "above_top_to_her_flexibility": 7981.263015125689,
+   "her_flexibility_jan2033": 21347.297953761732,
+   "her_flexibility_plus_above_top": 29328.56096888741,
+   "contribution_plus_flexibility_plus_above_top": 134328.5609688874,
+   "contribution_inside_stated_range": true,
+   "payments_all_ten_paid": true,
+   "payments_shortfall": 0.0,
+   "payments_left_after_2042_nominal": 74122.56759813958,
+   "payments_left_after_2042_jan2033_money": 45455.57570475247,
+   "change_vs_central": {
+    "bottom_stated": 0.0,
+    "top_stated": -10000.0,
+    "top_unrounded": -10193.068156920766,
+    "funds_pay": -10494.294532712796,
+    "contribution": -10000.0,
+    "her_flexibility_jan2033": 0.0,
+    "her_flexibility_plus_above_top": -494.2945327128109,
+    "contribution_plus_flexibility_plus_above_top": -10494.29453271281
+   }
+  },
+  "d": {
+   "label": "As a, with yields 2 points below today's forwards from the move on",
+   "vt3_index": 0.6,
+   "vt2_index": 1.155625,
+   "yield_move_at_move_points": -2.0,
+   "vt_value_at_move_over_jan2028_cost_after_fee": 0.5989206478703999,
+   "completion_jan2028": 38282.14224962851,
+   "floor_money_jan2028": 81889.1897310223,
+   "vt_bought_jan2028": 29828.668019349192,
+   "vt_on_move_day": 17865.005175259696,
+   "moved_money": 8932.502587629848,
+   "floor_pays": 102256.45794591677,
+   "moved_shares_pay": 9427.342642618474,
+   "bottom_unrounded": 98728.56167619981,
+   "bottom_stated": 95000.0,
+   "top_unrounded": 107979.24001305464,
+   "top_stated": 105000.0,
+   "funds_pay": 111683.80058853525,
+   "funds_pay_plan_run_model": 112605.38698315898,
+   "contribution": 105000.0,
+   "above_top_to_her_flexibility": 6683.800588535247,
+   "her_flexibility_jan2033": 10310.239871010734,
+   "her_flexibility_plus_above_top": 16994.040459545984,
+   "contribution_plus_flexibility_plus_above_top": 121994.04045954597,
+   "contribution_inside_stated_range": true,
+   "payments_all_ten_paid": true,
+   "payments_shortfall": 0.0,
+   "payments_left_after_2042_nominal": 55195.14590567732,
+   "payments_left_after_2042_jan2033_money": 40523.286031627686,
+   "change_vs_central": {
+    "bottom_stated": 0.0,
+    "top_stated": -10000.0,
+    "top_unrounded": -10464.21863816888,
+    "funds_pay": -11791.756959303239,
+    "contribution": -10000.0,
+    "her_flexibility_jan2033": -11037.058082750998,
+    "her_flexibility_plus_above_top": -12828.815042054237,
+    "contribution_plus_flexibility_plus_above_top": -22828.81504205425
+   }
+  },
+  "d3": {
+   "label": "As a, with yields 3 points below today's forwards from the move on",
+   "vt3_index": 0.6,
+   "vt2_index": 1.155625,
+   "yield_move_at_move_points": -3.0,
+   "vt_value_at_move_over_jan2028_cost_after_fee": 0.5989206478703999,
+   "completion_jan2028": 38282.14224962851,
+   "floor_money_jan2028": 81889.1897310223,
+   "vt_bought_jan2028": 29828.668019349192,
+   "vt_on_move_day": 17865.005175259696,
+   "moved_money": 8932.502587629848,
+   "floor_pays": 101800.08425901484,
+   "moved_shares_pay": 9244.844123549714,
+   "bottom_unrounded": 98728.56167619981,
+   "bottom_stated": 95000.0,
+   "top_unrounded": 107846.4818756349,
+   "top_stated": 105000.0,
+   "funds_pay": 111044.92838256455,
+   "funds_pay_plan_run_model": 112422.88846409023,
+   "contribution": 105000.0,
+   "above_top_to_her_flexibility": 6044.928382564554,
+   "her_flexibility_jan2033": 10310.239871010734,
+   "her_flexibility_plus_above_top": 16355.168253575292,
+   "contribution_plus_flexibility_plus_above_top": 121355.16825357528,
+   "contribution_inside_stated_range": true,
+   "payments_all_ten_paid": true,
+   "payments_shortfall": 0.0,
+   "payments_left_after_2042_nominal": 47069.68251410642,
+   "payments_left_after_2042_jan2033_money": 37811.905959022224,
+   "change_vs_central": {
+    "bottom_stated": 0.0,
+    "top_stated": -10000.0,
+    "top_unrounded": -10596.976775588628,
+    "funds_pay": -12430.629165273931,
+    "contribution": -10000.0,
+    "her_flexibility_jan2033": -11037.058082750998,
+    "her_flexibility_plus_above_top": -13467.68724802493,
+    "contribution_plus_flexibility_plus_above_top": -23467.687248024944
+   }
+  },
+  "e": {
+   "label": "VT 40% below its 7.5% path at the move (25.5% below cost), then 7.5% a year",
+   "vt3_index": 0.7453781249999999,
+   "vt2_index": 1.155625,
+   "yield_move_at_move_points": 0.0,
+   "vt_value_at_move_over_jan2028_cost_after_fee": 0.744037249222373,
+   "completion_jan2028": 38282.14224962851,
+   "floor_money_jan2028": 81889.1897310223,
+   "vt_bought_jan2028": 29828.668019349192,
+   "vt_on_move_day": 22193.640101083944,
+   "moved_money": 11096.820050541972,
+   "floor_pays": 103178.04434054055,
+   "moved_shares_pay": 12178.50792437876,
+   "bottom_unrounded": 98728.56167619981,
+   "bottom_stated": 95000.0,
+   "top_unrounded": 110557.49986121403,
+   "top_stated": 110000.0,
+   "funds_pay": 115356.55226491932,
+   "funds_pay_plan_run_model": 115356.55226491927,
+   "contribution": 110000.0,
+   "above_top_to_her_flexibility": 5356.552264919315,
+   "her_flexibility_jan2033": 12808.378772257036,
+   "her_flexibility_plus_above_top": 18164.931037176357,
+   "contribution_plus_flexibility_plus_above_top": 128164.93103717634,
+   "contribution_inside_stated_range": true,
+   "payments_all_ten_paid": true,
+   "payments_shortfall": 0.0,
+   "payments_left_after_2042_nominal": 74122.56759813958,
+   "payments_left_after_2042_jan2033_money": 45455.57570475247,
+   "change_vs_central": {
+    "bottom_stated": 0.0,
+    "top_stated": -5000.0,
+    "top_unrounded": -7885.958790009492,
+    "funds_pay": -8119.00528291917,
+    "contribution": -5000.0,
+    "her_flexibility_jan2033": -8538.919181504696,
+    "her_flexibility_plus_above_top": -11657.924464423864,
+    "contribution_plus_flexibility_plus_above_top": -16657.92446442388
+   }
+  },
+  "zero": {
+   "label": "VT worthless at the move (deletion test)",
+   "vt3_index": 0.0,
+   "vt2_index": 1.0,
+   "yield_move_at_move_points": 0.0,
+   "vt_value_at_move_over_jan2028_cost_after_fee": 0.0,
+   "completion_jan2028": 38282.14224962851,
+   "floor_money_jan2028": 81889.1897310223,
+   "vt_bought_jan2028": 29828.668019349192,
+   "vt_on_move_day": 0.0,
+   "moved_money": 0.0,
+   "floor_pays": 103178.04434054055,
+   "moved_shares_pay": 0.0,
+   "bottom_unrounded": 98728.56167619981,
+   "bottom_stated": 95000.0,
+   "top_unrounded": 98728.56167619981,
+   "top_stated": 95000.0,
+   "funds_pay": 103178.04434054055,
+   "funds_pay_plan_run_model": 103178.04434054051,
+   "contribution": 95000.0,
+   "above_top_to_her_flexibility": 8178.044340540553,
+   "her_flexibility_jan2033": 0.0,
+   "her_flexibility_plus_above_top": 8178.044340540553,
+   "contribution_plus_flexibility_plus_above_top": 103178.04434054054,
+   "contribution_inside_stated_range": true,
+   "payments_all_ten_paid": true,
+   "payments_shortfall": 0.0,
+   "payments_left_after_2042_nominal": 74122.56759813958,
+   "payments_left_after_2042_jan2033_money": 45455.57570475247,
+   "change_vs_central": {
+    "bottom_stated": 0.0,
+    "top_stated": -20000.0,
+    "top_unrounded": -19714.896975023716,
+    "funds_pay": -20297.513207297932,
+    "contribution": -20000.0,
+    "her_flexibility_jan2033": -21347.297953761732,
+    "her_flexibility_plus_above_top": -21644.811161059668,
+    "contribution_plus_flexibility_plus_above_top": -41644.81116105968
+   }
+  }
+ },
+ "line_stated_top_vs_vt_at_move": [
+  {
+   "vt3_index": 0.0,
+   "top_unrounded": 98728.56167619981,
+   "top_stated": 95000.0,
+   "funds_pay": 103178.04434054055,
+   "contribution": 95000.0,
+   "her_flexibility_jan2033_if_7_5_after": 0.0,
+   "her_flexibility_plus_above_top": 8178.044340540553
+  },
+  {
+   "vt3_index": 0.05,
+   "top_unrounded": 99522.04741104173,
+   "top_stated": 95000.0,
+   "funds_pay": 103994.97923008932,
+   "contribution": 95000.0,
+   "her_flexibility_jan2033_if_7_5_after": 859.1866559175612,
+   "her_flexibility_plus_above_top": 9854.165886006871
+  },
+  {
+   "vt3_index": 0.1,
+   "top_unrounded": 100315.53314588364,
+   "top_stated": 100000.0,
+   "funds_pay": 104811.91411963808,
+   "contribution": 100000.0,
+   "her_flexibility_jan2033_if_7_5_after": 1718.3733118351224,
+   "her_flexibility_plus_above_top": 6530.2874314732035
+  },
+  {
+   "vt3_index": 0.15,
+   "top_unrounded": 101109.01888072555,
+   "top_stated": 100000.0,
+   "funds_pay": 105628.84900918684,
+   "contribution": 100000.0,
+   "her_flexibility_jan2033_if_7_5_after": 2577.5599677526834,
+   "her_flexibility_plus_above_top": 8206.408976939521
+  },
+  {
+   "vt3_index": 0.2,
+   "top_unrounded": 101902.50461556746,
+   "top_stated": 100000.0,
+   "funds_pay": 106445.7838987356,
+   "contribution": 100000.0,
+   "her_flexibility_jan2033_if_7_5_after": 3436.746623670245,
+   "her_flexibility_plus_above_top": 9882.53052240584
+  },
+  {
+   "vt3_index": 0.25,
+   "top_unrounded": 102695.99035040937,
+   "top_stated": 100000.0,
+   "funds_pay": 107262.71878828436,
+   "contribution": 100000.0,
+   "her_flexibility_jan2033_if_7_5_after": 4295.933279587806,
+   "her_flexibility_plus_above_top": 11558.652067872157
+  },
+  {
+   "vt3_index": 0.3,
+   "top_unrounded": 103489.47608525128,
+   "top_stated": 100000.0,
+   "funds_pay": 108079.65367783312,
+   "contribution": 100000.0,
+   "her_flexibility_jan2033_if_7_5_after": 5155.119935505367,
+   "her_flexibility_plus_above_top": 13234.77361333849
+  },
+  {
+   "vt3_index": 0.35,
+   "top_unrounded": 104282.96182009319,
+   "top_stated": 100000.0,
+   "funds_pay": 108896.58856738188,
+   "contribution": 100000.0,
+   "her_flexibility_jan2033_if_7_5_after": 6014.306591422928,
+   "her_flexibility_plus_above_top": 14910.895158804808
+  },
+  {
+   "vt3_index": 0.4,
+   "top_unrounded": 105076.4475549351,
+   "top_stated": 105000.0,
+   "funds_pay": 109713.52345693065,
+   "contribution": 105000.0,
+   "her_flexibility_jan2033_if_7_5_after": 6873.49324734049,
+   "her_flexibility_plus_above_top": 11587.01670427114
+  },
+  {
+   "vt3_index": 0.45,
+   "top_unrounded": 105869.93328977702,
+   "top_stated": 105000.0,
+   "funds_pay": 110530.45834647941,
+   "contribution": 105000.0,
+   "her_flexibility_jan2033_if_7_5_after": 7732.679903258053,
+   "her_flexibility_plus_above_top": 13263.138249737473
+  },
+  {
+   "vt3_index": 0.5,
+   "top_unrounded": 106663.41902461894,
+   "top_stated": 105000.0,
+   "funds_pay": 111347.39323602818,
+   "contribution": 105000.0,
+   "her_flexibility_jan2033_if_7_5_after": 8591.866559175613,
+   "her_flexibility_plus_above_top": 14939.25979520379
+  },
+  {
+   "vt3_index": 0.55,
+   "top_unrounded": 107456.90475946084,
+   "top_stated": 105000.0,
+   "funds_pay": 112164.32812557694,
+   "contribution": 105000.0,
+   "her_flexibility_jan2033_if_7_5_after": 9451.053215093176,
+   "her_flexibility_plus_above_top": 16615.38134067011
+  },
+  {
+   "vt3_index": 0.6,
+   "top_unrounded": 108250.39049430276,
+   "top_stated": 105000.0,
+   "funds_pay": 112981.26301512569,
+   "contribution": 105000.0,
+   "her_flexibility_jan2033_if_7_5_after": 10310.239871010734,
+   "her_flexibility_plus_above_top": 18291.502886136426
+  },
+  {
+   "vt3_index": 0.65,
+   "top_unrounded": 109043.87622914468,
+   "top_stated": 105000.0,
+   "funds_pay": 113798.19790467445,
+   "contribution": 105000.0,
+   "her_flexibility_jan2033_if_7_5_after": 11169.426526928299,
+   "her_flexibility_plus_above_top": 19967.624431602744
+  },
+  {
+   "vt3_index": 0.7,
+   "top_unrounded": 109837.36196398658,
+   "top_stated": 105000.0,
+   "funds_pay": 114615.13279422322,
+   "contribution": 105000.0,
+   "her_flexibility_jan2033_if_7_5_after": 12028.613182845856,
+   "her_flexibility_plus_above_top": 21643.745977069077
+  },
+  {
+   "vt3_index": 0.75,
+   "top_unrounded": 110630.84769882848,
+   "top_stated": 110000.0,
+   "funds_pay": 115432.06768377198,
+   "contribution": 110000.0,
+   "her_flexibility_jan2033_if_7_5_after": 12887.79983876342,
+   "her_flexibility_plus_above_top": 18319.867522535395
+  },
+  {
+   "vt3_index": 0.8,
+   "top_unrounded": 111424.3334336704,
+   "top_stated": 110000.0,
+   "funds_pay": 116249.00257332074,
+   "contribution": 110000.0,
+   "her_flexibility_jan2033_if_7_5_after": 13746.98649468098,
+   "her_flexibility_plus_above_top": 19995.989068001727
+  },
+  {
+   "vt3_index": 0.85,
+   "top_unrounded": 112217.81916851232,
+   "top_stated": 110000.0,
+   "funds_pay": 117065.93746286951,
+   "contribution": 110000.0,
+   "her_flexibility_jan2033_if_7_5_after": 14606.173150598539,
+   "her_flexibility_plus_above_top": 21672.110613468045
+  },
+  {
+   "vt3_index": 0.9,
+   "top_unrounded": 113011.30490335423,
+   "top_stated": 110000.0,
+   "funds_pay": 117882.87235241827,
+   "contribution": 110000.0,
+   "her_flexibility_jan2033_if_7_5_after": 15465.359806516106,
+   "her_flexibility_plus_above_top": 23348.232158934377
+  },
+  {
+   "vt3_index": 0.95,
+   "top_unrounded": 113804.79063819614,
+   "top_stated": 110000.0,
+   "funds_pay": 118699.80724196704,
+   "contribution": 110000.0,
+   "her_flexibility_jan2033_if_7_5_after": 16324.546462433664,
+   "her_flexibility_plus_above_top": 25024.35370440071
+  },
+  {
+   "vt3_index": 1.0,
+   "top_unrounded": 114598.27637303805,
+   "top_stated": 110000.0,
+   "funds_pay": 119516.74213151578,
+   "contribution": 110000.0,
+   "her_flexibility_jan2033_if_7_5_after": 17183.733118351225,
+   "her_flexibility_plus_above_top": 26700.475249867013
+  },
+  {
+   "vt3_index": 1.05,
+   "top_unrounded": 115391.76210787997,
+   "top_stated": 115000.0,
+   "funds_pay": 120333.67702106455,
+   "contribution": 115000.0,
+   "her_flexibility_jan2033_if_7_5_after": 18042.919774268787,
+   "her_flexibility_plus_above_top": 23376.596795333346
+  },
+  {
+   "vt3_index": 1.1,
+   "top_unrounded": 116185.24784272187,
+   "top_stated": 115000.0,
+   "funds_pay": 121150.61191061331,
+   "contribution": 115000.0,
+   "her_flexibility_jan2033_if_7_5_after": 18902.10643018635,
+   "her_flexibility_plus_above_top": 25052.718340799678
+  },
+  {
+   "vt3_index": 1.15,
+   "top_unrounded": 116978.73357756378,
+   "top_stated": 115000.0,
+   "funds_pay": 121967.54680016208,
+   "contribution": 115000.0,
+   "her_flexibility_jan2033_if_7_5_after": 19761.29308610391,
+   "her_flexibility_plus_above_top": 26728.83988626598
+  },
+  {
+   "vt3_index": 1.2,
+   "top_unrounded": 117772.2193124057,
+   "top_stated": 115000.0,
+   "funds_pay": 122784.48168971084,
+   "contribution": 115000.0,
+   "her_flexibility_jan2033_if_7_5_after": 20620.479742021467,
+   "her_flexibility_plus_above_top": 28404.961431732314
+  },
+  {
+   "vt3_index": 1.25,
+   "top_unrounded": 118565.70504724761,
+   "top_stated": 115000.0,
+   "funds_pay": 123601.41657925959,
+   "contribution": 115000.0,
+   "her_flexibility_jan2033_if_7_5_after": 21479.66639793903,
+   "her_flexibility_plus_above_top": 30081.082977198617
+  },
+  {
+   "vt3_index": 1.3,
+   "top_unrounded": 119359.19078208953,
+   "top_stated": 115000.0,
+   "funds_pay": 124418.35146880837,
+   "contribution": 115000.0,
+   "her_flexibility_jan2033_if_7_5_after": 22338.853053856597,
+   "her_flexibility_plus_above_top": 31757.20452266495
+  },
+  {
+   "vt3_index": 1.35,
+   "top_unrounded": 120152.67651693143,
+   "top_stated": 120000.0,
+   "funds_pay": 125235.28635835712,
+   "contribution": 120000.0,
+   "her_flexibility_jan2033_if_7_5_after": 23198.039709774155,
+   "her_flexibility_plus_above_top": 28433.326068131282
+  },
+  {
+   "vt3_index": 1.4,
+   "top_unrounded": 120946.16225177335,
+   "top_stated": 120000.0,
+   "funds_pay": 126052.22124790588,
+   "contribution": 120000.0,
+   "her_flexibility_jan2033_if_7_5_after": 24057.226365691713,
+   "her_flexibility_plus_above_top": 30109.447613597586
+  },
+  {
+   "vt3_index": 1.45,
+   "top_unrounded": 121739.64798661527,
+   "top_stated": 120000.0,
+   "funds_pay": 126869.15613745464,
+   "contribution": 120000.0,
+   "her_flexibility_jan2033_if_7_5_after": 24916.413021609274,
+   "her_flexibility_plus_above_top": 31785.569159063918
+  },
+  {
+   "vt3_index": 1.5,
+   "top_unrounded": 122533.13372145718,
+   "top_stated": 120000.0,
+   "funds_pay": 127686.09102700341,
+   "contribution": 120000.0,
+   "her_flexibility_jan2033_if_7_5_after": 25775.59967752684,
+   "her_flexibility_plus_above_top": 33461.69070453025
+  },
+  {
+   "vt3_index": 1.55,
+   "top_unrounded": 123326.61945629909,
+   "top_stated": 120000.0,
+   "funds_pay": 128503.02591655217,
+   "contribution": 120000.0,
+   "her_flexibility_jan2033_if_7_5_after": 26634.7863334444,
+   "her_flexibility_plus_above_top": 35137.81224999658
+  },
+  {
+   "vt3_index": 1.6,
+   "top_unrounded": 124120.105191141,
+   "top_stated": 120000.0,
+   "funds_pay": 129319.96080610093,
+   "contribution": 120000.0,
+   "her_flexibility_jan2033_if_7_5_after": 27493.97298936196,
+   "her_flexibility_plus_above_top": 36813.933795462886
+  },
+  {
+   "vt3_index": 1.65,
+   "top_unrounded": 124913.5909259829,
+   "top_stated": 120000.0,
+   "funds_pay": 130136.8956956497,
+   "contribution": 120000.0,
+   "her_flexibility_jan2033_if_7_5_after": 28353.159645279524,
+   "her_flexibility_plus_above_top": 38490.05534092922
+  },
+  {
+   "vt3_index": 1.7,
+   "top_unrounded": 125707.07666082482,
+   "top_stated": 125000.0,
+   "funds_pay": 130953.83058519845,
+   "contribution": 125000.0,
+   "her_flexibility_jan2033_if_7_5_after": 29212.346301197078,
+   "her_flexibility_plus_above_top": 35166.17688639552
+  },
+  {
+   "vt3_index": 1.75,
+   "top_unrounded": 126500.56239566673,
+   "top_stated": 125000.0,
+   "funds_pay": 131770.76547474723,
+   "contribution": 125000.0,
+   "her_flexibility_jan2033_if_7_5_after": 30071.532957114643,
+   "her_flexibility_plus_above_top": 36842.298431861855
+  },
+  {
+   "vt3_index": 1.8,
+   "top_unrounded": 127294.04813050864,
+   "top_stated": 125000.0,
+   "funds_pay": 132587.70036429598,
+   "contribution": 125000.0,
+   "her_flexibility_jan2033_if_7_5_after": 30930.71961303221,
+   "her_flexibility_plus_above_top": 38518.41997732819
+  },
+  {
+   "vt3_index": 1.85,
+   "top_unrounded": 128087.53386535056,
+   "top_stated": 125000.0,
+   "funds_pay": 133404.63525384472,
+   "contribution": 125000.0,
+   "her_flexibility_jan2033_if_7_5_after": 31789.906268949766,
+   "her_flexibility_plus_above_top": 40194.54152279449
+  },
+  {
+   "vt3_index": 1.9,
+   "top_unrounded": 128881.01960019248,
+   "top_stated": 125000.0,
+   "funds_pay": 134221.5701433935,
+   "contribution": 125000.0,
+   "her_flexibility_jan2033_if_7_5_after": 32649.092924867327,
+   "her_flexibility_plus_above_top": 41870.66306826082
+  },
+  {
+   "vt3_index": 1.95,
+   "top_unrounded": 129674.50533503437,
+   "top_stated": 125000.0,
+   "funds_pay": 135038.50503294225,
+   "contribution": 125000.0,
+   "her_flexibility_jan2033_if_7_5_after": 33508.27958078489,
+   "her_flexibility_plus_above_top": 43546.784613727126
+  },
+  {
+   "vt3_index": 2.0,
+   "top_unrounded": 130467.99106987628,
+   "top_stated": 130000.0,
+   "funds_pay": 135855.43992249103,
+   "contribution": 130000.0,
+   "her_flexibility_jan2033_if_7_5_after": 34367.46623670245,
+   "her_flexibility_plus_above_top": 40222.90615919349
+  }
+ ],
+ "breakeven": {
+  "top_unrounded_at_vt_zero": 98728.56167619981,
+  "top_added_per_1x_of_vt_at_move": 15869.714696838244,
+  "top_added_per_1pct_of_vt_change": 158.69714696838244,
+  "steps": {
+   "95000": {
+    "note": "stated even if VT is worthless at the move (the bottom is $95,000)"
+   },
+   "100000": {
+    "vt3_needed": 0.08011727671786698,
+    "vt_change_from_jan2028_needed": -0.919882723282133,
+    "yearly_growth_needed_2028_2031": -0.5689026106067581
+   },
+   "105000": {
+    "vt3_needed": 0.39518280218671237,
+    "vt_change_from_jan2028_needed": -0.6048171978132877,
+    "yearly_growth_needed_2028_2031": -0.26616343863094216
+   },
+   "110000": {
+    "vt3_needed": 0.7102483276555578,
+    "vt_change_from_jan2028_needed": -0.2897516723444422,
+    "yearly_growth_needed_2028_2031": -0.10778386411145735
+   },
+   "115000": {
+    "vt3_needed": 1.0253138531244033,
+    "vt_change_from_jan2028_needed": 0.025313853124403263,
+    "yearly_growth_needed_2028_2031": 0.008367736723360553
+   },
+   "120000": {
+    "vt3_needed": 1.3403793785932485,
+    "vt_change_from_jan2028_needed": 0.3403793785932485,
+    "yearly_growth_needed_2028_2031": 0.10257780515192949
+   },
+   "125000": {
+    "vt3_needed": 1.655444904062094,
+    "vt_change_from_jan2028_needed": 0.655444904062094,
+    "yearly_growth_needed_2028_2031": 0.18296413274094858
+   },
+   "130000": {
+    "vt3_needed": 1.9705104295309395,
+    "vt_change_from_jan2028_needed": 0.9705104295309395,
+    "yearly_growth_needed_2028_2031": 0.2536979410310285
+   },
+   "135000": {
+    "vt3_needed": 2.2855759549997847,
+    "vt_change_from_jan2028_needed": 1.2855759549997847,
+    "yearly_growth_needed_2028_2031": 0.3172409379411718
+   },
+   "140000": {
+    "vt3_needed": 2.60064148046863,
+    "vt_change_from_jan2028_needed": 1.6006414804686302,
+    "yearly_growth_needed_2028_2031": 0.3751819449315754
+   },
+   "145000": {
+    "vt3_needed": 2.9157070059374757,
+    "vt_change_from_jan2028_needed": 1.9157070059374757,
+    "yearly_growth_needed_2028_2031": 0.42861309546877036
+   },
+   "150000": {
+    "vt3_needed": 3.230772531406321,
+    "vt_change_from_jan2028_needed": 2.230772531406321,
+    "yearly_growth_needed_2028_2031": 0.47832116234728517
+   }
+  }
+ },
+ "house": {
+  "futures": 200000,
+  "check_unconditional": {
+   "stated_bottom_p5_p50_p95": [
+    85000.0,
+    95000.0,
+    115000.0
+   ],
+   "stated_top_p5_p50_p95": [
+    95000.0,
+    115000.0,
+    140000.0
+   ],
+   "her_flexibility_p1_p5_p50_p95": [
+    6670.465741764184,
+    9881.236889574937,
+    20738.638468607984,
+    41258.136025700245
+   ]
+  },
+  "vt_40pct_or_more_below_cost_at_move": {
+   "count": 1900,
+   "share": 0.0095,
+   "stated_bottom_p5_p50_p95": [
+    85000.0,
+    95000.0,
+    115000.0
+   ],
+   "stated_top_p5_p50_p95": [
+    90000.0,
+    105000.0,
+    125000.0
+   ],
+   "stated_top_min": 75000.0,
+   "contribution_p5_p50_p95": [
+    90000.0,
+    105000.0,
+    125000.0
+   ],
+   "funds_pay_p5_p50_p95": [
+    94184.34976680786,
+    111863.85046474297,
+    134479.4481744741
+   ],
+   "her_flexibility_p5_p50_p95": [
+    5181.153640586526,
+    9160.734373830332,
+    15028.15700865243
+   ],
+   "her_flexibility_plus_above_top_p5_p50_p95": [
+    10737.502068932456,
+    16499.214132146477,
+    23562.12585117681
+   ],
+   "contribution_inside_range": 1.0
+  },
+  "vt_30pct_or_more_below_cost_at_move": {
+   "count": 6437,
+   "share": 0.032185,
+   "stated_bottom_p5_p50_p95": [
+    85000.0,
+    95000.0,
+    115000.0
+   ],
+   "stated_top_p5_p50_p95": [
+    90000.0,
+    105000.0,
+    125000.0
+   ],
+   "stated_top_min": 75000.0,
+   "contribution_p5_p50_p95": [
+    90000.0,
+    105000.0,
+    125000.0
+   ],
+   "funds_pay_p5_p50_p95": [
+    94836.35546496001,
+    113032.6081100807,
+    135876.2156177621
+   ],
+   "her_flexibility_p5_p50_p95": [
+    5813.458316564379,
+    10378.105362656803,
+    17017.47913235625
+   ],
+   "her_flexibility_plus_above_top_p5_p50_p95": [
+    11331.792558103236,
+    17855.67643266487,
+    25684.722066723487
+   ],
+   "contribution_inside_range": 1.0
+  },
+  "vt_20pct_or_more_below_cost_at_move": {
+   "count": 15543,
+   "share": 0.077715,
+   "stated_bottom_p5_p50_p95": [
+    85000.0,
+    95000.0,
+    115000.0
+   ],
+   "stated_top_p5_p50_p95": [
+    90000.0,
+    105000.0,
+    130000.0
+   ],
+   "stated_top_min": 65000.0,
+   "contribution_p5_p50_p95": [
+    90000.0,
+    105000.0,
+    130000.0
+   ],
+   "funds_pay_p5_p50_p95": [
+    96009.92175100851,
+    114603.94587015282,
+    137542.76253985488
+   ],
+   "her_flexibility_p5_p50_p95": [
+    6483.2117018864765,
+    11719.61544266013,
+    18958.04284526176
+   ],
+   "her_flexibility_plus_above_top_p5_p50_p95": [
+    12218.873011531157,
+    19194.548112335975,
+    27665.311925182537
+   ],
+   "contribution_inside_range": 1.0
+  },
+  "vt_below_cost_at_move": {
+   "count": 48193,
+   "share": 0.240965,
+   "stated_bottom_p5_p50_p95": [
+    85000.0,
+    95000.0,
+    115000.0
+   ],
+   "stated_top_p5_p50_p95": [
+    90000.0,
+    110000.0,
+    130000.0
+   ],
+   "stated_top_min": 65000.0,
+   "contribution_p5_p50_p95": [
+    90000.0,
+    110000.0,
+    130000.0
+   ],
+   "funds_pay_p5_p50_p95": [
+    97624.69815868713,
+    116859.82043181658,
+    140500.5373039924
+   ],
+   "her_flexibility_p5_p50_p95": [
+    7633.349447002947,
+    14069.277941421493,
+    23240.38269010114
+   ],
+   "her_flexibility_plus_above_top_p5_p50_p95": [
+    13531.934235956576,
+    21649.970687012777,
+    31826.420820888405
+   ],
+   "contribution_inside_range": 1.0
+  },
+  "vt_falls_40pct_or_more_move_to_2033": {
+   "count": 985,
+   "share": 0.004925,
+   "stated_bottom_p5_p50_p95": [
+    85000.0,
+    95000.0,
+    115000.0
+   ],
+   "stated_top_p5_p50_p95": [
+    95000.0,
+    115000.0,
+    140000.0
+   ],
+   "stated_top_min": 70000.0,
+   "contribution_p5_p50_p95": [
+    95000.0,
+    115000.0,
+    140000.0
+   ],
+   "funds_pay_p5_p50_p95": [
+    100974.32136309828,
+    123770.6390691449,
+    151287.77263187978
+   ],
+   "her_flexibility_p5_p50_p95": [
+    5166.454821131187,
+    9897.623678195047,
+    17433.215371892093
+   ],
+   "her_flexibility_plus_above_top_p5_p50_p95": [
+    10998.022761914348,
+    17637.28676844226,
+    26488.444633079853
+   ],
+   "contribution_inside_range": 1.0
+  },
+  "vt_40pct_or_more_below_cost_on_1jan2033": {
+   "count": 2916,
+   "share": 0.01458,
+   "stated_bottom_p5_p50_p95": [
+    85000.0,
+    95000.0,
+    115000.0
+   ],
+   "stated_top_p5_p50_p95": [
+    90000.0,
+    105000.0,
+    130000.0
+   ],
+   "stated_top_min": 75000.0,
+   "contribution_p5_p50_p95": [
+    90000.0,
+    105000.0,
+    130000.0
+   ],
+   "funds_pay_p5_p50_p95": [
+    95935.84689424887,
+    114597.41130383214,
+    137850.9488144777
+   ],
+   "her_flexibility_p5_p50_p95": [
+    4954.799631180489,
+    7896.3981531924965,
+    9508.20657081177
+   ],
+   "her_flexibility_plus_above_top_p5_p50_p95": [
+    10207.2691151814,
+    15019.715104810102,
+    19595.605237145555
+   ],
+   "contribution_inside_range": 1.0
+  },
+  "all": {
+   "count": 200000,
+   "share": 1.0,
+   "stated_bottom_p5_p50_p95": [
+    85000.0,
+    95000.0,
+    115000.0
+   ],
+   "stated_top_p5_p50_p95": [
+    95000.0,
+    115000.0,
+    140000.0
+   ],
+   "stated_top_min": 65000.0,
+   "contribution_p5_p50_p95": [
+    95000.0,
+    115000.0,
+    140000.0
+   ],
+   "funds_pay_p5_p50_p95": [
+    101092.84611771931,
+    124007.7665514291,
+    152051.4357665914
+   ],
+   "her_flexibility_p5_p50_p95": [
+    9881.236889574937,
+    20738.638468607984,
+    41258.136025700245
+   ],
+   "her_flexibility_plus_above_top_p5_p50_p95": [
+    16193.060743308508,
+    28540.632639984036,
+    49923.93165155483
+   ],
+   "contribution_inside_range": 1.0
+  },
+  "note": "plan.draws, seed 2033: VT lognormal, 7.5% median a year, 17.88% s.d.; yields independent of shares",
+  "lognormal_exact": {
+   "p_vt3_le_0.6": 0.009385524845059057,
+   "p_vt2_le_0.6": 0.004768234067917987,
+   "p_vt5_le_0.6": 0.01455054026744479,
+   "p_vt3_le_1.0253": 0.26767673181444396
+  },
+  "monthly_lognormal_same_assumptions": {
+   "paths": 100000,
+   "seed": 4040,
+   "share_40pct_fall_from_a_peak_inside_36_months": 0.04177,
+   "share_40pct_fall_from_a_peak_inside_60_months": 0.10497,
+   "share_ending_40pct_below_start_36_months": 0.00935,
+   "share_20pct_fall_from_a_peak_inside_36_months": 0.51172
+  }
+ },
+ "history_us_rates_at_forwards": {
+  "windows": 1770,
+  "first": "1871-01",
+  "last": "2018-06",
+  "check_unconditional": {
+   "stated_top_p5_p50_p95": [
+    110000.0,
+    115000.0,
+    130000.0
+   ],
+   "stated_top_min": 100000.0,
+   "her_flexibility_p5_p50_p95": [
+    13238.259705759978,
+    23481.232203086234,
+    40607.47252898624
+   ]
+  },
+  "vt_40pct_or_more_below_cost_at_move": {
+   "count": 20,
+   "share": 0.011299435028248588,
+   "stated_bottom_p5_p50_p95": [
+    95000.0,
+    95000.0,
+    95000.0
+   ],
+   "stated_top_p5_p50_p95": [
+    100000.0,
+    100000.0,
+    105000.0
+   ],
+   "stated_top_min": 100000.0,
+   "contribution_p5_p50_p95": [
+    100000.0,
+    100000.0,
+    105000.0
+   ],
+   "funds_pay_p5_p50_p95": [
+    106778.04577212628,
+    109086.43390208611,
+    111717.78623593444
+   ],
+   "her_flexibility_p5_p50_p95": [
+    6129.794963136631,
+    8443.547534106074,
+    9123.057733809344
+   ],
+   "her_flexibility_plus_above_top_p5_p50_p95": [
+    13469.745892812429,
+    14980.63733499646,
+    18155.15681259336
+   ],
+   "contribution_inside_range": 1.0,
+   "starts": [
+    "1928-10",
+    "1928-11",
+    "1928-12",
+    "1929-01",
+    "1929-02",
+    "1929-03",
+    "1929-04",
+    "1929-05",
+    "1929-06",
+    "1929-07",
+    "1929-08",
+    "1929-09",
+    "1929-10",
+    "1929-11",
+    "1929-12",
+    "1930-01",
+    "1930-02",
+    "1930-03",
+    "1930-04",
+    "1930-05"
+   ]
+  },
+  "vt_30pct_or_more_below_cost_at_move": {
+   "count": 40,
+   "share": 0.022598870056497175,
+   "stated_bottom_p5_p50_p95": [
+    95000.0,
+    95000.0,
+    95000.0
+   ],
+   "stated_top_p5_p50_p95": [
+    100000.0,
+    105000.0,
+    105000.0
+   ],
+   "stated_top_min": 100000.0,
+   "contribution_p5_p50_p95": [
+    100000.0,
+    105000.0,
+    105000.0
+   ],
+   "funds_pay_p5_p50_p95": [
+    107353.50008392108,
+    112602.26963570918,
+    114447.02923398187
+   ],
+   "her_flexibility_p5_p50_p95": [
+    6504.020221692326,
+    9395.437781389563,
+    16695.374639855952
+   ],
+   "her_flexibility_plus_above_top_p5_p50_p95": [
+    13519.85420401261,
+    18396.157030016846,
+    25113.78454959786
+   ],
+   "contribution_inside_range": 1.0,
+   "starts": [
+    "1928-09",
+    "1928-10",
+    "1928-11",
+    "1928-12",
+    "1929-01",
+    "1929-02",
+    "1929-03",
+    "1929-04",
+    "1929-05",
+    "1929-06",
+    "1929-07",
+    "1929-08",
+    "1929-09",
+    "1929-10",
+    "1929-11",
+    "1929-12",
+    "1930-01",
+    "1930-02",
+    "1930-03",
+    "1930-04",
+    "1930-05",
+    "1930-06",
+    "1930-07",
+    "1930-08",
+    "1930-09",
+    "1930-10",
+    "1999-07",
+    "1999-09",
+    "1999-10",
+    "1999-11",
+    "1999-12",
+    "2000-01",
+    "2000-02",
+    "2000-03",
+    "2000-04",
+    "2000-05",
+    "2000-08",
+    "2006-02",
+    "2006-03",
+    "2006-04"
+   ]
+  },
+  "vt_20pct_or_more_below_cost_at_move": {
+   "count": 71,
+   "share": 0.04011299435028248,
+   "stated_bottom_p5_p50_p95": [
+    95000.0,
+    95000.0,
+    95000.0
+   ],
+   "stated_top_p5_p50_p95": [
+    100000.0,
+    105000.0,
+    110000.0
+   ],
+   "stated_top_min": 100000.0,
+   "contribution_p5_p50_p95": [
+    100000.0,
+    105000.0,
+    110000.0
+   ],
+   "funds_pay_p5_p50_p95": [
+    108095.28033672564,
+    114359.15480538845,
+    116176.07179266855
+   ],
+   "her_flexibility_p5_p50_p95": [
+    6968.211284512577,
+    13250.85148197871,
+    18602.604063788698
+   ],
+   "her_flexibility_plus_above_top_p5_p50_p95": [
+    13965.771579373479,
+    20223.564997979887,
+    24872.49245515142
+   ],
+   "contribution_inside_range": 1.0
+  },
+  "vt_below_cost_at_move": {
+   "count": 276,
+   "share": 0.15593220338983052,
+   "stated_bottom_p5_p50_p95": [
+    95000.0,
+    95000.0,
+    95000.0
+   ],
+   "stated_top_p5_p50_p95": [
+    105000.0,
+    110000.0,
+    110000.0
+   ],
+   "stated_top_min": 100000.0,
+   "contribution_p5_p50_p95": [
+    105000.0,
+    110000.0,
+    110000.0
+   ],
+   "funds_pay_p5_p50_p95": [
+    109770.70046249317,
+    117496.98751295226,
+    119371.19576383424
+   ],
+   "her_flexibility_p5_p50_p95": [
+    8668.57944301081,
+    16422.855132267126,
+    23390.654808567655
+   ],
+   "her_flexibility_plus_above_top_p5_p50_p95": [
+    15398.058778677088,
+    24228.3203170075,
+    32396.179768102986
+   ],
+   "contribution_inside_range": 1.0
+  },
+  "vt_falls_40pct_or_more_move_to_2033": {
+   "count": 25,
+   "share": 0.014124293785310734,
+   "stated_bottom_p5_p50_p95": [
+    95000.0,
+    95000.0,
+    95000.0
+   ],
+   "stated_top_p5_p50_p95": [
+    110000.0,
+    120000.0,
+    135000.0
+   ],
+   "stated_top_min": 110000.0,
+   "contribution_p5_p50_p95": [
+    110000.0,
+    120000.0,
+    135000.0
+   ],
+   "funds_pay_p5_p50_p95": [
+    119684.21611720257,
+    129783.69368773459,
+    145628.54205801658
+   ],
+   "her_flexibility_p5_p50_p95": [
+    6538.456379422249,
+    9623.692881658473,
+    20905.679288597683
+   ],
+   "her_flexibility_plus_above_top_p5_p50_p95": [
+    13252.3396157901,
+    17369.520565377396,
+    28890.555389297526
+   ],
+   "contribution_inside_range": 1.0,
+   "starts": [
+    "1926-06",
+    "1926-07",
+    "1926-08",
+    "1926-09",
+    "1926-10",
+    "1926-11",
+    "1926-12",
+    "1927-01",
+    "1927-02",
+    "1927-03",
+    "1927-04",
+    "1927-05",
+    "1927-06",
+    "1927-07",
+    "1927-08",
+    "1927-09",
+    "1927-10",
+    "1927-11",
+    "1927-12",
+    "1928-01",
+    "1928-02",
+    "1928-03",
+    "1928-04",
+    "2004-02",
+    "2004-03"
+   ]
+  },
+  "vt_40pct_or_more_below_cost_on_1jan2033": {
+   "count": 29,
+   "share": 0.01638418079096045,
+   "stated_bottom_p5_p50_p95": [
+    95000.0,
+    95000.0,
+    95000.0
+   ],
+   "stated_top_p5_p50_p95": [
+    100000.0,
+    105000.0,
+    120000.0
+   ],
+   "stated_top_min": 100000.0,
+   "contribution_p5_p50_p95": [
+    100000.0,
+    105000.0,
+    120000.0
+   ],
+   "funds_pay_p5_p50_p95": [
+    107023.22415442172,
+    110106.77562602576,
+    131813.30337942427
+   ],
+   "her_flexibility_p5_p50_p95": [
+    6186.473722672865,
+    7776.152055780455,
+    8796.903960077714
+   ],
+   "her_flexibility_plus_above_top_p5_p50_p95": [
+    13244.38340744767,
+    15107.33777907235,
+    17743.4150931687
+   ],
+   "contribution_inside_range": 1.0,
+   "starts": [
+    "1927-04",
+    "1927-05",
+    "1927-06",
+    "1927-07",
+    "1927-10",
+    "1927-11",
+    "1927-12",
+    "1928-01",
+    "1928-02",
+    "1928-03",
+    "1928-04",
+    "1928-10",
+    "1928-11",
+    "1928-12",
+    "1929-01",
+    "1929-03",
+    "1929-04",
+    "1929-05",
+    "1929-06",
+    "1929-07",
+    "1929-08",
+    "1929-09",
+    "1929-10",
+    "1929-12",
+    "1930-01",
+    "1930-02",
+    "1930-03",
+    "1930-04",
+    "1930-05"
+   ]
+  },
+  "lowest_vt3": {
+   "value": 0.21454739274873025,
+   "start": "1929-07",
+   "stated_top": 100000.0
+  },
+  "note": "US stocks with dividends (Shiller monthly mirror), every 3-year window and the 2 years after, rates at today's forwards; US, not world; monthly averages smooth the lows",
+  "named_vt_purchase_months": {
+   "1929-09": {
+    "vt3_index": 0.3244634544131315,
+    "vt2_index": 1.1978998053250582,
+    "stated_top": 100000.0,
+    "top_unrounded": 103877.7041272868,
+    "contribution": 100000.0,
+    "her_flexibility_jan2033": 5779.454812061106,
+    "her_flexibility_plus_above_top": 14258.809478473639
+   },
+   "1937-03": {
+    "vt3_index": 0.7904761980536321,
+    "vt2_index": 0.7719306530666924,
+    "stated_top": 110000.0,
+    "top_unrounded": 111273.19341395235,
+    "contribution": 110000.0,
+    "her_flexibility_jan2033": 9073.350230329694,
+    "her_flexibility_plus_above_top": 15166.74628182759
+   },
+   "1973-01": {
+    "vt3_index": 0.9196242053182687,
+    "vt2_index": 1.0115517325961294,
+    "stated_top": 110000.0,
+    "top_unrounded": 113322.73544290732,
+    "contribution": 110000.0,
+    "her_flexibility_jan2033": 13832.449156255638,
+    "her_flexibility_plus_above_top": 22035.955468757093
+   },
+   "2000-03": {
+    "vt3_index": 0.6127416251950674,
+    "vt2_index": 1.4584790360049151,
+    "stated_top": 105000.0,
+    "top_unrounded": 108452.59645092252,
+    "contribution": 105000.0,
+    "her_flexibility_jan2033": 13288.567465896826,
+    "her_flexibility_plus_above_top": 21478.012044450566
+   },
+   "2000-08": {
+    "vt3_index": 0.6969053366695207,
+    "vt2_index": 1.278702180108035,
+    "stated_top": 105000.0,
+    "top_unrounded": 109788.2505398491,
+    "contribution": 105000.0,
+    "her_flexibility_jan2033": 13250.85148197871,
+    "her_flexibility_plus_above_top": 22815.421507280364
+   },
+   "2007-10": {
+    "vt3_index": 0.8171802618595486,
+    "vt2_index": 1.2762293951251416,
+    "stated_top": 110000.0,
+    "top_unrounded": 111696.97928779841,
+    "contribution": 110000.0,
+    "her_flexibility_jan2033": 15507.693258142463,
+    "her_flexibility_plus_above_top": 22037.39893795614
+   },
+   "2008-01": {
+    "vt3_index": 0.9988156684950636,
+    "vt2_index": 1.2012274815143802,
+    "stated_top": 110000.0,
+    "top_unrounded": 114579.48136994823,
+    "contribution": 110000.0,
+    "her_flexibility_jan2033": 17840.671491357756,
+    "her_flexibility_plus_above_top": 27338.06318833002
+   }
+  }
+ },
+ "us_drawdowns_since_1871": {
+  "series": "US stocks with dividends, nominal USD, Shiller monthly mirror (monthly average prices), Jan 1871 to Jun 2023 (the window plan.py reads)",
+  "episodes_40pct_or_more": [
+   {
+    "peak": "1929-09",
+    "trough": "1932-06",
+    "fall": -0.8170724797270104,
+    "months_peak_to_trough": 33,
+    "recovered": "1944-12",
+    "months_trough_to_recovery": 150,
+    "months_peak_to_recovery": 183
+   },
+   {
+    "peak": "2000-08",
+    "trough": "2003-02",
+    "fall": -0.4155704326495535,
+    "months_peak_to_trough": 30,
+    "recovered": "2006-10",
+    "months_trough_to_recovery": 44,
+    "months_peak_to_recovery": 74
+   },
+   {
+    "peak": "2007-10",
+    "trough": "2009-03",
+    "fall": -0.4903578293187463,
+    "months_peak_to_trough": 17,
+    "recovered": "2012-08",
+    "months_trough_to_recovery": 41,
+    "months_peak_to_recovery": 58
+   }
+  ],
+  "episodes_30pct_or_more": [
+   {
+    "peak": "1876-03",
+    "trough": "1877-06",
+    "fall": -0.32965162612743426,
+    "months_peak_to_trough": 15,
+    "recovered": "1879-02",
+    "months_trough_to_recovery": 20,
+    "months_peak_to_recovery": 35
+   },
+   {
+    "peak": "1906-09",
+    "trough": "1907-11",
+    "fall": -0.33925882592912837,
+    "months_peak_to_trough": 14,
+    "recovered": "1908-12",
+    "months_trough_to_recovery": 13,
+    "months_peak_to_recovery": 27
+   },
+   {
+    "peak": "1929-09",
+    "trough": "1932-06",
+    "fall": -0.8170724797270104,
+    "months_peak_to_trough": 33,
+    "recovered": "1944-12",
+    "months_trough_to_recovery": 150,
+    "months_peak_to_recovery": 183
+   },
+   {
+    "peak": "1973-01",
+    "trough": "1974-12",
+    "fall": -0.3918101564957456,
+    "months_peak_to_trough": 23,
+    "recovered": "1976-07",
+    "months_trough_to_recovery": 19,
+    "months_peak_to_recovery": 42
+   },
+   {
+    "peak": "2000-08",
+    "trough": "2003-02",
+    "fall": -0.4155704326495535,
+    "months_peak_to_trough": 30,
+    "recovered": "2006-10",
+    "months_trough_to_recovery": 44,
+    "months_peak_to_recovery": 74
+   },
+   {
+    "peak": "2007-10",
+    "trough": "2009-03",
+    "fall": -0.4903578293187463,
+    "months_peak_to_trough": 17,
+    "recovered": "2012-08",
+    "months_trough_to_recovery": 41,
+    "months_peak_to_recovery": 58
+   }
+  ],
+  "windows_3y": {
+   "windows": 1794,
+   "total_return_p1_p5_p10_p25_p50_p75_p95": [
+    -0.4825306219339155,
+    -0.1653441621998993,
+    -0.0894589740256631,
+    0.10019018199403174,
+    0.32620268335868585,
+    0.5678950017631319,
+    1.051373690241004
+   ],
+   "share_ending_40pct_or_more_down": 0.011148272017837236,
+   "share_ending_20pct_or_more_down": 0.039576365663322184,
+   "share_ending_below_start": 0.15384615384615385,
+   "share_with_a_40pct_fall_inside": 0.06744704570791528,
+   "share_with_a_20pct_fall_inside": 0.3272017837235229,
+   "starts_ending_40pct_or_more_down_first_last": [
+    "1928-10",
+    "1930-05",
+    20
+   ]
+  },
+  "windows_5y": {
+   "windows": 1770,
+   "total_return_p1_p5_p10_p25_p50_p75_p95": [
+    -0.44191667288779063,
+    -0.10971243750689971,
+    -0.006145708642112789,
+    0.20119444501548056,
+    0.5791387574398716,
+    1.0017439853062897,
+    1.7308973037526063
+   ],
+   "share_ending_40pct_or_more_down": 0.01638418079096045,
+   "share_ending_20pct_or_more_down": 0.03446327683615819,
+   "share_ending_below_start": 0.10508474576271186,
+   "share_with_a_40pct_fall_inside": 0.12259887005649718,
+   "share_with_a_20pct_fall_inside": 0.5090395480225989,
+   "starts_ending_40pct_or_more_down_first_last": [
+    "1927-04",
+    "1930-05",
+    29
+   ]
+  },
+  "episodes_40pct_per_century": 1.9682886823400767,
+  "years_span": 152.41666666666666
+ },
+ "developed_world_msci_calendar_years": {
+  "series": "MSCI World (USD, gross), calendar years 1970-2025; see source note in the script",
+  "windows_3y": {
+   "windows": 54,
+   "first_start": 1970,
+   "last_start": 2023,
+   "total_return_min_p5_p10_p25_p50": [
+    -0.415100986336,
+    -0.1649957388703501,
+    -0.1167584474242,
+    0.21446231354149992,
+    0.38288817228000005
+   ],
+   "worst_start": 2000,
+   "share_40pct_or_more_down": 0.018518518518518517,
+   "starts_40pct_or_more_down": [
+    2000
+   ],
+   "share_20pct_or_more_down": 0.05555555555555555,
+   "share_below_zero": 0.16666666666666666,
+   "starts_below_zero": [
+    1972,
+    1973,
+    1990,
+    1999,
+    2000,
+    2001,
+    2006,
+    2007,
+    2008
+   ],
+   "compound_growth_whole_period": 0.10085810974282228
+  },
+  "windows_5y": {
+   "windows": 52,
+   "first_start": 1970,
+   "last_start": 2021,
+   "total_return_min_p5_p10_p25_p50": [
+    -0.09832903891979627,
+    -0.07414175558354369,
+    -0.017429767046115898,
+    0.26976958793155503,
+    0.7012032489748863
+   ],
+   "worst_start": 2000,
+   "share_40pct_or_more_down": 0.0,
+   "starts_40pct_or_more_down": [],
+   "share_20pct_or_more_down": 0.0,
+   "share_below_zero": 0.11538461538461539,
+   "starts_below_zero": [
+    1970,
+    1998,
+    1999,
+    2000,
+    2007,
+    2008
+   ],
+   "compound_growth_whole_period": 0.10085810974282228
+  },
+  "check_2012_2025_equal_factsheet": true
+ },
+ "seconds": 9.4
+}

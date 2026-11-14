@@ -1,0 +1,391 @@
+id,F,R,S,C,status,merged_into,note
+Q1-007,3,5,5,3,merged,Q1b-001,"Same lagged-link point (Campbell et al. 2001 Table 11.1); SKELETON 2.3 bans a lag rule or a beta; say 'same downturn, not always same months'."
+Q1-009,3,5,5,3,merged,Q1b-005,"Same Benzoni et al. (2007) cointegration paper as Q1b-005, which was read at the source."
+Q1-010,3,5,5,3,merged,Q1b-002,Same Huggett and Kaplan (2016) abstract as Q1b-002 (stock component under a fifth for graduates).
+Q1-015,3,1,5,4,adapt,,"Industry default (Vanguard: careers bond-like) as the critique to answer in 2.3 or 3e: Laura has no paycheck; fewer shares, not none (card Q33)."
+Q1-022,5,5,5,4,keep,,"Landed (gem2 must-land): 2.3 'why about 7%?' Betermier et al. 2012, households moving to volatile-wage work cut risky assets up to 35%; fewer, not none."
+Q1-023,2,5,5,3,merged,Q1b-013,Same Davis and Willen occupation study as Q1b-013 (broad market uncorrelated with occupation income; no self-employed).
+Q1-030,4,3,5,4,keep,,For IPS l.9 'smaller' (CANON B4 'for'): 2009 advances cut to a quarter while sales fell about 5%. One UK article; 3e area (2) or 2.3 clause.
+Q1-031,4,5,5,4,keep,,For 3e area (2): new-book money stops within weeks (HMH froze acquisitions Nov 2008) while the backlist sells; a downturn reaches the 2028 deposit as delay.
+Q1-044,3,5,5,4,adapt,,"Keel timeline of 2008-10; say 'in the same downturn, not always the same months' (3e rank 4), never 'trough 1-3 years later' (SKELETON 2.3: no lag rule)."
+Q1-047,5,5,4,4,keep,,"3e area (2) and Table 3 row 1: by the case's design her career meets the portfolio once, through the 2028 deposit (case l.44, l.64). Pairs with Q12-001."
+Q1-049,3,5,5,3,adapt,,"Keep 'a single, hit-driven holding'; drop 'moderate market beta' and the lag (SKELETON 2.3: never a beta or a lag rule)."
+H9-001,3,3,2,3,merged,Q1c-023,"Same Bodie, Merton and Samuelson (1992) idea, read on the page in Q1c-023."
+H9-002,3,3,2,3,merged,Q1-005,"Same Viceira quote as Q1-005, which is verified at the NBER page."
+H9-003,3,3,2,3,merged,Q1-021,"Same Heaton and Lucas (2000) finding as Q1-021, verified at source."
+H9-004,3,5,2,3,merged,Q1b-005,Same Benzoni et al. (2007) cointegration result as Q1b-005.
+H9-005,3,5,2,3,merged,Q1-038,Same Authors Guild 2023 survey figures as Q1-038.
+H9-006,3,3,2,3,merged,Q1b-025,"Same split as Q1b-025: new advances, licences and speaking shrink; the backlist holds."
+H9-007,3,5,5,3,adapt,,"Her real fee terms are her public business, not evidence (H9-029: the case wins); industry rows (Q12, Q1-033) carry 'speaking fees fall'."
+H9-008,4,5,5,4,adapt,,"CONCEIT guard 12: quote once, exactly, cited to the dated climbing.com interview, about how a book sells; never about the case's money or plan."
+H9-009,3,5,3,3,adapt,,"The case (l.17) already says she left tech; guard 12 allows one public quote in all (H9-008), so these lines stay in the store."
+H9-012,3,5,3,3,merged,H4-002,"Same 'one storm, three holes' synergy as H4-002; its 'only the gift feels it' rests on older designs."
+H9-014,2,5,3,3,adapt,,"Never attribute a motive to Laura from a 2016 student interview (paraphrase, not a quote); the case's credibility line (case p.3) carries the point."
+H9-015,2,5,5,3,keep,,"Colour only; the case's 'small business' is enough, and her real ventures are not evidence (H9-029)."
+H9-016,3,5,3,3,adapt,,Never put her book's theme forward as her view of the plan (guard 12); IPS l.11's 'or on anybody else's money' answers the reader.
+H9-017,3,5,5,3,adapt,,"3d is in Laura's voice from the case only; her real festival is framing, never cited as her practice or a model she chose (H9-029)."
+H9-018,3,5,5,3,adapt,,Framing only (H9-029): the case already puts the residency in Taiwan; never infer where she lives or plans to live.
+H9-023,2,5,5,3,adapt,,Store only: personal history beyond the case is never cited; naming weak points first needs no evidence about her.
+H9-026,4,3,4,4,keep,,"Guard list read from the case: no dated facility bill, no living-cost buffer, residency is not where she lives, no values screens."
+H9-029,4,5,5,4,keep,,"The rule for every public-profile fact: the scenario is Wharton's, so her real finances are never evidence; the case wins (CONCEIT guard 12)."
+H9-031,3,3,2,3,keep,,"Superseded by WORDS.md (one plain name per thing, the IPS's own words first), which differs from this list in places."
+H9-033,2,5,5,3,adapt,,"IPS l.11 is the only definition (CANON A4); shortfall frequency and size serve as checks, and at the no-interest standard no tested future falls short."
+H9-035,3,3,3,3,adapt,,"The ratio goes in Figure 1's note only (WORDS: never '111% funded'); never a WInS value line, since WInS gains are never evidence."
+H9-037,5,5,3,4,keep,,Landed: Figure 1 borrows the escrow verifier's sufficiency schedule (SKELETON Exhibits 2); never 'escrow verifier's standard' in prose (WORDS).
+H9-043,2,3,5,3,adapt,,Density cut and WORDS: each part states its basis once; a disclosure under every figure is too heavy. 3e names the assumptions once.
+H9-051,4,3,3,3,adapt,,"3f: date the 27 Sep model's misses as that day's model; the IPS's own reason for the turn, how a writer is paid (l.9, CANON A3), stays the main one."
+H9-080,2,3,2,3,adapt,,"Coverage is 65.6-70.4% (card Q17), cut from Section 2 by the density cut; the WInS value is never evidence."
+H9-093,5,3,5,4,keep,,"The rule CANON is built on (Guide: planned adjustments yes, redesign after results no); the 2031 move and the 2028 order are planned steps."
+H9-095,3,5,5,3,merged,Q11b-026,Same Set in Stone study as Q11b-026; 3b's overrun base rate is England's arts lottery (Q5d-006).
+H9-097,3,5,3,3,keep,,Store: a national venue is the wrong reference class for Laura's facility (as Q9-026); card Q5d's small-building classes carry 3b.
+H9-098,3,5,2,3,keep,,"Store: a founder-funded project whose cost multiplied; card Q5d's small-building classes carry 3b, and facility cost estimates are out of scope."
+H9-099,2,5,3,3,adapt,,Void base (a $169k gift); NUMBERS 8j's 10% test on the contribution (about 93 in 100 simulated futures) replaces it.
+H9-108,3,3,3,3,merged,Q6-011,Same dated range of house forecasts as Q6-011 (7.5% is the top of about 6% to 7.5%).
+H9-109,2,3,1,3,keep,,"Settled: 7.5% compound (J.P. Morgan 2027, NUMBERS 0), tested from 4% to 10% (NUMBERS 4)."
+H9-123,1,5,2,3,keep,,Out of scope (Taiwan legal and visa questions; case).
+H9-124,3,3,3,3,adapt,,"Use NUMBERS 8d (Sep 2026 +7.29% y/y; 3.27% a year over five years) and say 'building-cost trend' (Table 3 row 7), never one year's print."
+H9-125,2,5,5,3,keep,,"Background only; not in NUMBERS, and one year's producer prices say nothing about a 2033 build."
+H9-127,3,3,5,3,adapt,,"Use NUMBERS 8d/8j's rate (NT$32.768 on 6 Nov 2026), for scale only (Table 3 row 7)."
+H9-128,3,5,3,3,keep,,"Cut by SKELETON: 3b keeps one currency figure (the 10% test, NUMBERS 8j); store and defence."
+H9-138,3,5,5,3,merged,Q11a-031,"Same n = 5,780 study as Q11a-031; never add a 'most likely' figure inside the range (Q35-005; SKELETON 3d)."
+H9-139,3,3,2,3,keep,,Applied: WORDS 'simulated futures' and Table 2's denominators; its '3 in 4' example is a void figure.
+H9-143,2,3,3,3,adapt,,A range chart was drawn and failed the five-second test; Table 2 replaces it (SKELETON Exhibits 3).
+H9-146,3,3,3,3,keep,,"Done internally as CANON; the report cites the IPS, never restates it (SKELETON's one rule)."
+H9-148,5,3,5,4,keep,,Landed: Table 1's 'Pays for' cell gives each holding its job (SKELETON 2.1; Week 6 email).
+H9-161,1,3,2,3,keep,,Superseded: Wharton's Final Report instructions filed 9 Nov (WHARTON_NORTH_STAR section 0).
+H9-180,3,5,2,3,adapt,,"3f bars events that repeat the Trading Notes (missing years, stale prices; SKELETON 3f); the forced substitutes are one clause in 2.2."
+H9-184,4,5,2,3,adapt,,"3f candidate: date the room under $300,000 as the 16 Oct curve model ($1,913); the ladder crossed $300,000 on 2 Nov (card Q21)."
+Q1b-001,3,4,4,4,adapt,,"SKELETON 2.3 bans a lag rule or a beta; the finding supports 'in the same downturn, not always the same months' (3e rank 4) only."
+Q1b-007,3,5,5,3,adapt,,Worker betas: SKELETON 2.3 bans a beta; keep only 'the very top pays for a bad year' as support for 3e's top-earner clause (Q1b-010).
+Q1b-021,4,5,5,4,adapt,,"Say it as 'in the same downturn, not always the same months' (3e rank 4); never as a lag of one to two years (SKELETON 2.3)."
+H10-002,3,5,3,3,keep,,"Sponsor's purpose: context for the reader, explains no decision in the IPS."
+H10-007,3,5,2,3,keep,,Keel reading of Wharton's purposes (unverified synthesis); context only.
+H10-011,3,5,3,3,merged,H10-013,"Same 'a reader with a pile' point as H10-013, which quotes Wharton's own guidebook."
+H10-012,3,3,5,3,merged,H10-013,Same 'a reader with a pile' point as H10-013.
+H10-041,3,3,5,3,merged,H10-013,Same 'a reader with a pile' point as H10-013 (scale of the competition).
+H10-023,2,5,5,3,keep,,"Judges' names are context only; 'family offices think in total wealth' is inference, and the report never writes to named judges."
+H10-031,2,5,5,3,keep,,Little use: legacy tools are simply not used.
+H10-040,2,5,2,3,keep,,Context only; no report use.
+H10-042,1,5,5,3,keep,,No report use (the row says so).
+H10-044,2,5,5,3,adapt,,"Laura's student-era words are framing only; guard 12 allows one public quote in all (H9-008), so never quoted here."
+H10-065,2,5,3,3,keep,,"Context only; Caplet chose its one conceit (pencil and ink, CONCEIT), which is not a device from 2025."
+H5-012,3,5,5,3,keep,,"Applied internally as CANON's check of every figure across IPS, TNA and report; no report sentence."
+H5-014,4,3,3,4,keep,,Applied: SKELETON's 'raised and answered' block (card Q39) names two critiques and answers each.
+H5-020,3,5,3,3,adapt,,"Co-sponsors count the bottom and she intends the top (3d); centrally the contribution lands at the top, so the range is not built to persuade."
+H5-025,2,3,5,3,keep,,"Writing order only, and unproven for donors; the voice rules ban one-line endings and images on a last line (CONCEIT guard 3)."
+H5-041,4,5,5,4,keep,,"3e's default clause (GEM 3d): the one Treasury term broken in modern times was a gold clause, which Laura's bonds lack. Read Perry at source first."
+H5-047,4,5,2,3,keep,,Answered by the standing instruction with the custodian for the ten January transfers (Q2b-008; ASK_HUMANS Thu 12 Nov).
+H5-048,2,5,2,3,adapt,,"A pooled reserve for the payments is not the IPS's design (one Treasury per payment, l.13); the one-cause idea is carried by H4-002."
+H5-049,2,3,5,3,keep,,"Store: at most one sentence, and Wharton's permitted list already makes the point."
+H5-051,1,3,2,3,keep,,Unverified and binned by its own row.
+H5-078,2,3,2,3,keep,,Refused list only.
+H5-079,1,5,2,3,keep,,Not permitted and not in the case; refused.
+H5-080,2,3,2,3,merged,H9-168,Same refusal of Black-Litterman as H9-168.
+H5-088,1,3,2,3,keep,,Not relevant (the row says so).
+H5-094,2,3,2,3,keep,,"Contrast only: the payments are fixed, not pooled."
+H5-097,2,3,2,3,keep,,Method note; no report use.
+H5-099,1,3,2,3,keep,,Not relevant.
+H5-104,2,3,2,3,keep,,Contrast only.
+H5-108,1,3,2,3,keep,,No use.
+H5-110,2,3,2,3,keep,,Contrast only; TNA l.7 already says no TIPS for nominal payments.
+H5-111,1,5,2,3,keep,,No use.
+H5-119,2,3,2,3,keep,,Analogy only; no report use.
+H5-122,1,3,2,3,keep,,Facility governance is outside the case's scope.
+H5-123,1,5,2,3,keep,,Decorative; no use.
+H5-126,1,5,2,3,keep,,No use.
+H5-133,2,3,2,3,merged,H9-176,Same pre-mortem method as H9-176.
+H5-134,2,3,2,3,merged,H9-174,Same point as H9-174 (decision journals guard against hindsight bias).
+H5-135,3,3,2,3,keep,,Applied as WORDS's repeat-back test (readers keep the gist).
+H5-136,2,3,2,3,keep,,"The range comes from owned money, not a forecast, so forecast calibration is beside the point (3c)."
+H5-137,2,3,2,3,keep,,Writing habit only.
+H5-138,2,3,2,3,keep,,Writing habit only.
+H5-140,2,3,2,3,keep,,Method note; Table 3 carries the plan's checks.
+H5-141,3,3,2,3,keep,,Method behind 3e's 'why only these two': a missed payment traces to a missed deposit or a US default once the extra Treasuries are bought.
+H5-143,1,5,2,3,keep,,"No use, and applied it would move money on returns, which IPS l.17 rules out."
+H5-144,1,5,2,3,keep,,Decorative.
+H5-145,1,5,2,3,keep,,No use.
+H5-146,1,3,2,3,keep,,No use.
+H5-151,2,5,2,3,keep,,Method note only.
+H5-152,2,3,2,3,keep,,Method note only.
+H5-033,3,5,3,3,merged,H4-002,"Same common-cause point as H4-002; since 10 Nov the extra Treasuries remove reinvestment as a shared layer, so it reaches only the deposit and the facility."
+H4-007,3,5,3,3,adapt,,"No order of call among the three uses (IPS l.15's order, ranked by no one; WORDS); the top is owned before the meetings, never 'locked' (CONCEIT guard 5)."
+H4-018,2,3,2,3,merged,H9-166,Same refusal of insurance ruin models as H9-166.
+H9-165,2,3,2,3,merged,H4-021,"Same refusal of annuities as H4-021, which was read at source."
+H4-021,3,3,5,3,keep,,"Refused list: without a mortality pool an annuity is a ladder plus an insurer's margin, and annuities are not permitted."
+H4-022,2,5,2,3,keep,,Refused list only.
+H4-023,2,3,2,3,keep,,Refused list only; never 'guarantee' for Laura's plan (WORDS).
+H4-024,1,3,2,3,keep,,No use (the row says so).
+H4-030,3,5,1,3,merged,H5-041,Same Perry v. United States point as H5-041.
+H4-033,3,5,5,3,adapt,,Never 'callable after the builder's contingency' or any order (second coherence reader: a rule the IPS never wrote); Norway's owner-held reserve (Q5-018) carries the practice.
+H4-035,2,5,1,3,keep,,Colour only.
+H4-036,3,5,5,3,adapt,,"'Headroom' is void (the ten cost more than $300,000); 2.5 states the cost as $200 of fees, in dollars only."
+H4-045,3,5,5,3,adapt,,"Never 'a seed others match' (3d: no match is set, card Q9c); the dated, capped contribution announced first is the usable part (Q11a)."
+H4-047,2,3,5,3,keep,,Second spend-down example; no slot.
+H4-050,2,5,2,3,keep,,Decorative history; no slot.
+H4-051,3,5,5,3,adapt,,"Store only: in a hui the organiser covers members' missed payments, which Laura never offers co-sponsors (3d: her ten payments and her flexibility are never offered)."
+H4-052,2,3,2,3,keep,,Refused list only.
+H4-054,2,3,2,3,keep,,Facility cost estimates are out of scope (case); 3d's yearly programme ask covers running costs.
+H4-055,1,3,2,3,keep,,No use.
+H4-056,3,5,2,3,merged,H4-002,"Same common-cause point as H4-002; IAEA's defence in depth is cited from card Q8a if used, with no nuclear vocabulary (SKELETON 3e)."
+H4-058,2,3,2,3,adapt,,Contrast only: the 2031 move is one dated step in a buy-and-hold plan (Perold and Sharpe 1988); never put the plan in CPPI's or portfolio insurance's line.
+H4-062,2,3,2,3,merged,H5-014,Same two-sided refutation point as H5-014.
+H4-063,3,3,2,3,keep,,"Tone rule: one honest concession per part, not many."
+H4-068,3,5,2,3,adapt,,"Say it plainly (VT spreads across firms; only Treasuries answer a shared bad year), without seed or roots imagery, which the one conceit rule forbids."
+H4-073,2,3,2,3,merged,H5-021,Same narrow-bracketing point as H5-021.
+H4-074,2,3,2,3,merged,H5-046,Same FMEA idea as H5-046.
+H4-079,2,5,2,3,merged,H5-012,Same consistency audit as H5-012 (now CANON's check).
+H4-080,1,3,2,3,keep,,Refused; no use.
+H4-084,3,3,2,3,keep,,"Guardrail met: waiting money sits in a Treasury-bill ETF (NUMBERS 0), never cash at 0% in Laura's plan (CANON A15)."
+H4-085,1,5,2,3,keep,,"Old drafting guardrails, superseded by WORDS, CONCEIT and the voice programme."
+H4-086,3,5,3,3,keep,,Done in part by card Q24's joint replay (NUMBERS 8i); a deposit that falls with shares is still untested.
+H4-092,3,5,3,3,keep,,Done: NUMBERS 5 sizes a smaller or missed 2028 deposit on the submitted design.
+H4-095,3,5,3,3,keep,,"Untested on the escrow standard; the payments no longer depend on reinvestment after January 2028, so it bears only on her flexibility."
+H4-122,2,3,2,3,merged,Q1c-023,"Same Bodie, Merton and Samuelson idea as Q1c-023."
+H4-160,2,5,2,3,merged,Q17-013,"Same New York Regulation 126 test as Q17-013, cut by the density cut (one test shown three ways)."
+H6-017,1,5,2,3,keep,,Odd detail only (the row says so).
+H6-033,4,3,5,3,keep,,"Supports 3e's 'nobody can force a sale' clause (card Q3b): collateral calls come from value falls, and no one can call Laura's Treasuries before they pay."
+H6-040,3,5,5,3,adapt,,"Since 10 Nov the payments do use the 2028 deposit (the top-up and the extra Treasuries, IPS l.13); keep only 'insure the real risk'."
+H6-044,3,5,5,3,keep,,"Supports 3c's range from owned money, not estimates; one clause at most."
+H6-046,3,5,5,3,keep,,Framing for 2.3; no slot of its own.
+H6-056,3,1,5,3,keep,,Applied: NUMBERS states 7.5% a year compound and each yield's basis.
+H6-057,1,1,5,3,keep,,No use.
+H6-059,3,5,5,3,keep,,Figure 1 already shows the run-down by year (one holding per payment); the mortgage image would be a second mapping (CONCEIT guard 4).
+H6-068,4,3,5,4,keep,,Landed: Table 3 row 5 trades on the plan's days with limit orders against the day's premium to net asset value.
+H6-070,2,1,5,3,keep,,Never 'optimal' (WORDS); no slot.
+H6-073,2,3,5,3,keep,,No slot; VT's breadth is Trading Note 3's.
+H6-074,2,3,3,3,keep,,Card Q39's Anarkulova et al. carries the US-lucky-sample point.
+H6-079,2,3,5,3,keep,,No slot.
+H6-082,2,3,5,3,keep,,No slot; Table 2 replaces a fan.
+H6-087,2,1,5,3,keep,,No slot; WInS gains are never evidence.
+H6-088,5,3,2,4,keep,,"Thesis 2 in 3b (SKELETON rank 3): promised money is leverage, so a 60/40 fund in front of the building money is a geared bet. Read Hamada at source first."
+H6-100,2,5,5,3,keep,,Decorative history.
+H6-105,3,3,3,3,keep,,"Support for the date rule; the deposits are dated by the case, so no slot."
+H6-111,3,5,5,3,keep,,"The objection to a date-based plan, answered by Table 3: readers named for each row, one trigger per cell."
+H6-114,4,5,5,4,keep,,3e's 'what the two-reason rule costs and why it is still right' (rank 8): rules written in advance cannot drift with the market.
+H6-115,3,5,5,3,keep,,Same support as H6-114; one clause at most.
+H6-118,3,3,5,3,merged,Q6-030,"Same 'intuitive ranges miss' finding as Q6-030 (finance chiefs' 80% ranges held 36%), which SKELETON uses."
+H6-136,2,5,5,3,keep,,No slot.
+H6-138,2,1,5,3,keep,,Applied as plain English; no slot.
+H6-147,3,3,5,3,keep,,"The co-sponsor incentive gap; 3d's 'one total, one close date' (Q11a-025) answers part of it."
+H6-151,2,1,5,3,keep,,The residency's legal form is out of scope.
+H6-152,2,5,5,3,keep,,Facility governance after 2033 is out of scope (case).
+H6-155,3,5,5,3,keep,,"Steelman answered by TNA l.7 (nominal payments, nominal bonds); store."
+H6-156,2,5,5,3,adapt,,History only; TIPS are banned for both contributions and TNA l.7 rejects them.
+H6-157,2,3,5,3,keep,,No slot.
+H6-158,2,3,5,3,keep,,No slot.
+H6-160,2,5,5,3,keep,,Decorative history.
+H6-161,2,5,5,3,adapt,,The IPS names no review body; Table 3 names a reader per row from Wharton's 'Laura or her asset management team'.
+H6-162,3,5,5,3,keep,,Applied as Table 3's 'carry on while' column.
+H6-163,3,3,5,3,keep,,A check for Table 3 and the co-sponsor words.
+H6-164,3,3,5,3,keep,,For 3e's limits: the plan is built round known failures.
+H6-165,3,5,5,3,keep,,Answered by the standing instruction with the custodian (Q2b-008) and Table 3's dates.
+H6-166,3,3,5,3,keep,,Framing only.
+H6-167,2,3,5,3,keep,,No slot.
+H6-168,2,3,5,3,keep,,No slot.
+H6-169,1,3,5,3,keep,,No use.
+H6-170,1,3,5,3,keep,,Taxes are outside the case.
+H6-171,2,1,5,3,keep,,No slot.
+H8-001,3,3,3,3,keep,,"Superseded by Table 2's two denominators (simulated futures; every starting month since 1962), each dated (WORDS)."
+H8-007,3,3,3,3,adapt,,"Void kept half (~$26k; now about $21,300, NUMBERS 8k). 3e area (4): inflation decides what the payments buy, never whether they are paid."
+H8-010,2,3,3,3,adapt,,Old-design figures: on the no-interest standard all ten are paid in every test; rival comparisons are NUMBERS 4 (C8) and 8c.
+H8-011,2,3,3,3,adapt,,Old-design scoreboard; NUMBERS 4 (C8) and 8c hold the current comparisons.
+H8-013,2,3,2,3,merged,H7-088,"Same line ('Inflation can make $50,000 buy less') as H7-088, which cites its source."
+H8-019,3,5,2,3,merged,Q5e-028,Same 'the uses take turns' finding on US CPI; card Q5e's Taiwan data and the 1974 and 2022 exception carry it. Never 'natural hedge'.
+H9-054,2,5,3,3,merged,Q5e-028,"Mislabelled restatement of H8-019: 8.6% against 16.3% is shares short with costs over, not rates with inflation; Q5e-028 carries it."
+H8-025,4,5,5,3,adapt,,"Pool candidate for the Mon 16 Nov blind re-rank (I102), told with dates and whose decision it was; never as Caplet's event if Keel made it."
+H8-029,5,3,5,4,keep,,Landed: Table 3 row 5's trade days are Mon 4 Jan 2027 and Mon 3 Jan 2028 (both 1 Januaries are closed).
+H8-034,2,3,2,3,keep,,Context only.
+H8-044,2,3,2,3,keep,,"The IPS's thesis itself (l.3, l.9); nothing new."
+H8-046,2,5,2,3,adapt,,"A second mapping (advance and royalties); the report has one conceit, pencil and ink (CONCEIT guard 4; card Q42)."
+H8-047,2,5,5,3,adapt,,"CONCEIT guard 4 bans panels, gutters and splash pages; the one conceit is pencil and ink, never a strip."
+H8-053,3,3,2,3,keep,,Support for 3e's two-reason rule: written before results.
+H8-054,1,5,5,3,adapt,,Medical imagery is gone; the one conceit is pencil and ink.
+H8-056,2,5,2,3,keep,,A second image; one conceit only.
+H8-057,1,5,2,3,adapt,,Banned imagery; no use.
+H8-071,3,3,5,3,adapt,,"Say her flexibility meets building costs that overrun (IPS l.15), where inflation lands; never 'buffer', 'kept half' or 'inflation hedge' (WORDS)."
+H8-112,3,5,5,3,merged,H9-013,"Same Giving USA recession figures as H9-013 (corrected by Q4b-002). CANON B4: private and US co-sponsors only, never Taiwan's government."
+H8-118,1,5,5,3,adapt,,An aside about the team's name; no use in the report.
+H8-121,3,5,5,3,merged,Q1-030,"Same 2009 advances cut and COVID survey as Q1-030 and Q1-033, which cite the sources directly."
+H8-124,2,5,3,3,adapt,,"Void figures ($298,087; STRIPS-era first plan); the ten cost $302,287 at the 6 Nov close (NUMBERS 1)."
+H8-140,3,3,5,3,keep,,For 3e's model limits; one clause at most.
+H8-147,3,5,5,3,merged,Q11b-026,Same Set in Stone figures as Q11b-026.
+H8-149,3,5,5,3,adapt,,"WInS gains are never evidence (Wharton); say that the ten's cost rose with yields falling from the curve (NUMBERS 8b), never from WInS P&L."
+H8-156,2,3,2,3,merged,H9-104,Same point as H9-104 (VT's Taiwan shares are a tiny currency offset).
+H8-160,4,3,5,3,keep,,"3e area (4): state the inflation assumption and what it moves: what the payments and contribution buy, never whether they are paid."
+H7-006,3,5,5,3,merged,H6-007,Same Damodaran debt-design mirror as H6-007.
+H7-048,4,3,5,3,keep,,Pairs with thesis 2 (H6-088): a 60/40's bonds offset only about a fifth of the payments' rate move. Duration figures stay out of Section 2 (CANON C12).
+H7-051,3,3,5,3,adapt,,"WInS gains are never evidence; its cost figures ($292k, $298.9k) sit on older bases. NUMBERS 8b gives the ten's cost path by date."
+H7-070,4,5,5,4,keep,,3e area (3) beside Q9-033 (GEM 3d): pledges from a donor's own fortune failed with Lehman; Laura states only money she owns.
+H6-089,3,5,5,3,merged,H7-078,Norway's oil is carried with GM's 1950 pension rule in H7-078.
+H7-079,2,3,2,3,keep,,"Rejected tilt; impossible with one world fund, and VT is frozen."
+H7-081,5,5,5,4,keep,,"Landed (gem2 must-land): 2.3 cites UPIA s.2, each holding judged within the whole, counting other resources and regularity of income; an analogy, never compliance."
+H7-087,2,3,1,3,adapt,,"Use NUMBERS 8d's dated series (national index, Sep 2026 +7.29% y/y; NT$32.768 on 6 Nov), never Taichung's or a 30 Oct rate."
+H7-102,2,3,2,3,merged,H9-175,Same 'resulting' point as H9-175.
+H7-104,2,3,5,3,keep,,Method note only.
+H7-115,2,5,5,3,keep,,Colour at most; Australia appears only if it earns its place (3f's time-zone event).
+H7-118,1,2,2,3,keep,,No use (the row says so).
+H5-009,3,3,1,3,merged,H1-087,"Same refusal of 'barbell' as H1-087, which gives the reason (shares are linear and the top is capped)."
+H1-009,2,3,3,3,adapt,,"Not in the IPS: shrinking the floor and shares means sales, which l.17's two reasons rule out."
+H1-018,2,3,2,3,adapt,,No release schedule of our own (second coherence reader): whatever her flexibility does not use stays Laura's (WORDS); never 'second cheque'.
+H1-019,3,3,3,3,merged,H7-088,"Same 'Inflation can make $50,000 buy less' line as H7-088; Baumol and Buffett add colour only."
+H1-021,3,3,2,3,merged,H8-058,"Same freeze-as-commitment point as H8-058, which quotes Wharton's no-revision rule."
+H2-096,2,3,2,3,merged,H8-058,Same freeze-as-commitment point as H8-058.
+H8-161,2,3,2,3,merged,H8-058,Same freeze list idea as H8-058.
+H4-145,2,5,2,3,merged,H8-058,Same pre-registration point as H8-058.
+H1-036,2,3,2,3,keep,,Refused list only.
+H1-037,3,3,2,3,keep,,Support for 3e's two written reasons; one clause at most.
+H1-040,2,3,2,3,keep,,Refused list only.
+H1-044,3,5,2,3,adapt,,"IPS l.17 fixes two reasons for the whole plan, shares included; quote only the goal-versus-route line."
+H1-046,3,3,2,3,keep,,Card Q39 answers the stronger critique (Siegel) in 3a; Buffett stays in the store.
+H1-048,3,3,2,3,keep,,Framing for 2.3; no slot.
+H1-056,3,3,3,3,keep,,"Method: rivals are reported with their losses (NUMBERS 4 C8, 8c); never 'optimal'."
+H1-057,3,3,3,3,adapt,,"Never 'a natural hedge' or 'free hedge' (card Q5e); only a stronger Taiwan dollar costs her, tested against her flexibility (3e area 4)."
+H1-060,1,5,2,3,keep,,Decorative aside.
+H1-061,3,3,3,3,adapt,,"Void headroom figures: the ten crossed $300,000 on 2 Nov (card Q21) and cost $302,287 at the 6 Nov close (NUMBERS 1)."
+H1-063,5,3,3,4,adapt,,"Landed as Table 3 row 7's 'building-cost trend' (card Q10c); use NUMBERS 8d: Sep 2026 +7.29% y/y, 3.27% a year over five years."
+H1-065,4,3,3,3,adapt,,"3a rank 1 ('what certainty cost'): the price is now the first $38,282 of the 2028 deposit, about a quarter (NUMBERS 2)."
+H1-069,2,5,2,3,keep,,Decorative line.
+H1-071,3,3,3,3,keep,,Applied: WInS gains are never evidence.
+H1-075,2,3,2,3,merged,H9-175,"Same 'judge the decision, not the result' point as H9-175."
+H1-078,3,5,2,3,keep,,Applied as WORDS rule 3 (each pot says what it is in the same sentence).
+H1-087,3,3,2,3,keep,,"Refused, with its reason: shares are linear and the top is capped, so the plan is no barbell; 3b names it buy-and-hold (Perold and Sharpe)."
+H1-088,2,3,2,3,merged,H8-154,Same refused list as H8-154.
+H2-008,3,5,3,3,merged,H9-051,Same 27 Sep first-plan test as H9-051; the IPS's own reason for the turn (CANON A3) stays the main one.
+H2-010,3,5,5,3,merged,Q1-044,"Same 'different clocks' inference as Q1-044; arts receipts did rebound within a year or two (Q1c-006), so never 'does not come back'."
+H2-011,3,3,5,3,merged,Q1-011,"Same stock-or-bond test as Q1-011 (Ibbotson et al. 2007), read at source."
+H2-013,4,4,5,4,keep,,"3e area (2) beside Q12-001: the 2028 deposit is her own covenant, and the pension regulator warns a sponsor and its investments can share drivers."
+H2-030,3,5,3,3,adapt,,"The WInS book holds the higher-coupon bonds; a lesson for 2.5 at most, never a change to the frozen book."
+H2-037,2,5,3,3,adapt,,As a trigger it adds a reason beyond IPS l.17's two; Table 3's rows watch without changing the plan.
+H2-046,2,3,3,3,adapt,,"No order of call among the three uses (IPS l.15's order, ranked by no one; WORDS); never 'standby' or 'kept half'."
+H2-062,3,5,3,3,adapt,,"Use NUMBERS 8c: buying the floor in January 2028 rather than 2031 gives up about $7,400 at the middle and avoids about 1 in 6 under $95,000."
+H2-083,2,5,2,3,adapt,,"Store only: the hui organiser covers others' missed payments, which Laura never offers (3d)."
+H2-094,4,5,5,3,keep,,3a's evidence clause takes reinvestment-rate risk as its subject in the notes' own words (TNA l.5; WN l.24); the IPS never prices it.
+H2-095,3,5,5,3,adapt,,"Say 'scaled to the model portfolio' ($300,000 of the plan's $450,000), never 'two-thirds size' (WORDS); VT is 8.84% at cost (NUMBERS 8g)."
+H2-099,2,2,5,3,merged,H9-031,"Same 'use the case's words' rule as H9-031, both superseded by WORDS."
+H2-103,2,5,3,3,adapt,,Method note; the voice programme's fresh writers use FACTS_PLAIN instead.
+H2-104,3,5,2,3,keep,,Applied: blind readers and the repeat-back test (WORDS; voice/).
+H2-118,2,5,2,3,merged,H4-052,Same cy-près refusal as H4-052.
+H2-119,2,5,2,3,merged,H4-068,Same Cohen bet-hedging point as H4-068.
+H2-121,2,5,2,3,merged,H4-045,Same Rosenwald example as H4-045.
+H2-122,2,5,2,3,merged,H4-050,Same waqf example as H4-050.
+H2-124,2,3,2,3,merged,H5-014,Same two-sided refutation point as H5-014.
+Q1-046,5,5,5,4,adapt,,"Landed (SKELETON Book 17 rank 4, 3e): her breakout came in 2020, the crash year (case l.18), a tested limit of IPS l.9; never 'her career moves against shares'."
+H4-150,2,3,2,3,merged,H3-056,"Same overtrading point as H3-056, read at source."
+H4-153,2,3,2,3,merged,H3-059,Same 'the endowment model does not fit' point as H3-059.
+H4-046,2,3,5,3,merged,H3-059,Tobin's rule belongs to the same refusal as H3-059 (Laura spends down to a date).
+H7-090,2,3,1,3,merged,H3-059,Same refusal as H3-059 (spending rules are built for perpetual money).
+H4-175,3,5,2,3,merged,H3-112,"Same Baumol and May 2025 Taiwan-dollar point as H3-112, which is read at source; card Q10b sizes the shock."
+H3-003,3,3,3,3,keep,,"Contrast for 2.3 or a question: immunisation needs rebalancing, the ladder held to its dates does not."
+H3-010,3,5,2,3,keep,,For questions: rung-by-rung matching leaves no key-rate gap; duration figures stay out of Section 2 (CANON C12).
+H3-018,3,3,5,3,keep,,"Background for 3e area (4): the currency test is a move from the 2031 rate, not a forecast (Table 3 row 7)."
+H3-019,2,1,5,3,keep,,No slot.
+H3-021,2,1,3,3,keep,,No slot.
+H3-028,2,3,3,3,merged,Q1c-023,"Same human-capital root as Q1c-023 (Bodie, Merton and Samuelson, read on the page)."
+H3-029,4,3,3,3,keep,,"With H3-030, the answer SKELETON gives Siegel's critique (card Q39): a longer horizon makes a loss rarer, not smaller, for a fixed-dollar promise."
+H3-030,5,3,5,4,keep,,"Landed in 3a's answer to Siegel (SKELETON, card Q39): insuring shares costs more, not less, as the horizon lengthens (Bodie), so the floor sits in Treasuries."
+H3-038,3,3,5,3,merged,Q3a-034,"Same naming as Q3a-034: buy-and-hold in Perold and Sharpe's terms, with one dated move fixed in advance."
+H3-043,1,5,5,3,adapt,,Name motif is gone; the reinvestment point is carried by 3a's evidence clause.
+H3-056,3,3,5,3,keep,,Support for holding: 11 of 200 WInS trades; no slot of its own.
+H3-059,3,3,3,3,keep,,"Refused, with its reason: Laura's money has dates and spends down; only a written rule is borrowed."
+H3-063,2,3,3,3,keep,,The report evaluates the IPS and never repeats it (Book 17).
+H3-064,3,5,5,3,keep,,Store: Laura's payments sit at the fixed-dollar end of Yale's dial; card Q2c carries spending rules.
+H3-068,1,5,5,3,adapt,,Medicine imagery is gone; no use.
+H3-072,3,3,5,3,keep,,"3b background: builders carry their own contingency and Taiwan's contracts pass index rises to the owner (Q5e-011), which is why her flexibility is hers."
+H3-073,1,5,5,3,keep,,No use stated.
+H3-076,2,3,5,3,keep,,No slot.
+H3-078,2,5,5,3,adapt,,"Trigger logic only (either named event alone changes the plan), without the hospital image (banned)."
+H3-082,3,3,5,3,merged,H8-113,"Same Harvard and university building pauses as H8-113, which carries card Q2c's correction (gem2 must-land)."
+H3-089,3,5,3,3,merged,H9-037,"Same sufficiency-table idea as H9-037, landed as Figure 1."
+H3-097,2,3,5,3,merged,Q17-013,Same New York Regulation 126 test as Q17-013.
+H3-111,2,3,3,3,merged,H4-174,Same staged-commitment and reference-class point as H4-174; never 'second cheque'.
+H3-112,4,5,5,3,keep,,3e area (4): the Taiwan dollar moved more than 6% in two days in May 2025 (card Q10b: +6.21%); Baumol is colour only.
+H3-113,1,5,2,3,keep,,Refused; no use.
+H3-114,1,5,2,3,keep,,Refused; no use.
+H3-115,1,5,2,3,keep,,Refused; no use.
+H3-117,3,3,2,3,merged,Q1-039,"Same 'author income is a lottery' point as Q1-039, which carries the data."
+H3-125,2,5,3,3,adapt,,"Void figures and a superseded claim: certainty now costs $33,150 of floor payout against no margin (NUMBERS 4; SKELETON 3a rank 1)."
+Q9-016,5,5,5,5,keep,,"Landed (SKELETON Book 17, 3a, thesis 8): founder-led museums that closed lasted a median ten years and closed for money; 2043 on is outside the plan."
+Q12-001,5,4,5,5,keep,,"Landed (SKELETON Book 17, 3e area 2): advances arrive in instalments, so a downturn reaches the 2028 deposit as delay; Table 3 row 1's 1 Dec 2027 check."
+Q1c-005,5,5,5,4,keep,,"Landed (SKELETON Book 17 rank 4, 3e): IRS data show arts sole proprietors' receipts -11.6% in 2009, the year after the crash; a tested limit of IPS l.9."
+Q1b-010,5,5,5,4,keep,,"Landed (SKELETON Book 17 rank 4): for very top earners income moves with GDP and shares (above 0.6), paired with Q1b-002's weak link for the average graduate."
+Q1-002,3,1,5,3,merged,Q39-003,"Same Bodie, Merton and Samuelson (1992) labour-flexibility critique as Q39-003, which carries the reply from the case."
+Q1-003,3,1,3,3,merged,Q39-001,"Same Campbell and Viceira quote as Q39-001 (careers bond-like, so more shares), the critique SKELETON answers."
+Q39-001,5,1,5,4,adapt,,"Landed (SKELETON 'raised and answered', rank 4): the critique is named and answered by the same authors' reversal (Q39-020); a limit, never a change to l.9."
+Q39-002,4,3,5,4,adapt,,"SKELETON's answer: the measured effect is modest, so the case's certainty standard does more of the work than the career; l.9's 'counterbalance' is a direction."
+Q39-003,4,3,5,4,keep,,The labour-flexibility critique; the reply is the case's: no additions to the portfolio after 2028 and no outside money for the payments.
+Q39-006,3,3,5,3,adapt,,"Answered by the case: the payments are fixed dollars (case l.90); inflation-indexed Treasuries are banned for both contributions, so never offered."
+Q39-020,5,3,5,4,keep,,"Landed (SKELETON 'raised and answered'): the textbook reverses for commission-type careers, closer to Laura's advances, fees and licences."
+NUM-004,4,5,5,4,keep,,"3f candidate (GEM 3a): orders filled within two trading days of 2026's cheapest close, told as luck; check against the Mon 16 Nov re-rank."
+NUM-007,4,5,5,4,keep,,"3a or 2.0 (GEM 3a): one deposit bought all ten in about one month in four since 1871, mostly 1966-1999; NUMBERS 8e, which no density row yet cites."
+H2-089,4,5,3,3,adapt,,Say now: one cause (a slump with falling yields) is met by the extra Treasuries bought Jan 2028; payments need no reinvestment (NUMBERS 2). 9 Nov 'as written/with margin' figures void.
+H2-102,3,5,5,3,adapt,,"Amount, reason, proof fits the extra Treasuries: $35,894, the operating reserve's size (IPS l.11). $7,500 and $21,149 void; never 'buffer' or 'margin' in the report."
+H3-104,4,5,3,3,adapt,,"Regime point stands for 3e; coupon-gap figures void (payments now need no reinvestment); VT in 2031 is $36,989, moved half $20,298 (NUMBERS 4). Never 'buffer'."
+H4-002,3,5,5,3,adapt,,One shared cause stays a 3e limit; the coupon-gap odds are void: under the escrow standard the payments need no reinvestment (NUMBERS 2). Never 'buffer' or 'backstop'.
+H4-005,4,5,3,3,adapt,,"Price of certainty now: an all-Treasury plan states $110,000 against the plan's central top $115,000 (NUMBERS C8). Medians $193k, $164k, $158k void."
+H4-028,4,5,5,3,adapt,,"Ricardo's question now: most of each payment is inked Jan 2027 from money she has; the rest waits on the 2028 deposit (CONCEIT). 47% and $2,287 void."
+H4-081,4,5,3,3,adapt,,"True form: most of each payment is owned Jan 2027, the rest Jan 2028 from the deposit; a missed deposit is one of the two reasons. 47%/56% void (NUMBERS 1, 5)."
+H5-015,4,3,5,3,adapt,,The one priced admission now: the rest of each payment and the bottom wait on the 2028 deposit (a missed deposit is a reason). Coupon-gap figures void.
+H8-064,4,5,3,3,adapt,,"Shares are now 6.63% of the $450,000 (VT $29,829, NUMBERS 8g); 7.1% and 7.4% void. Never call it a 'hedge' of the career."
+H8-122,4,5,3,3,adapt,,Joint shock stays a 3e limit; 2008 replay ladder costs void. Payments now meet the escrow standard without reinvestment (NUMBERS 2).
+H9-179,4,5,3,3,adapt,,"Real Sep decision for 3f pool (re-rank Mon 16 Nov); floor payout now $103,178, stated bottom $95,000 (NUMBERS 4). $140,000 and $115,929 void."
+Q19-001,5,5,3,4,adapt,,"3c's rule (each end at its fund's payout with no more interest, rounded down to $5,000); 4.14%/2.45% and $115,929 are 9 Nov's design, void; floor $103,178 now (NUMBERS 4)."
+Q24-022,4,5,3,4,adapt,,"3b's test on the half kept alone: 93.2% of house paths now (NUMBERS 8j); 93.0%, 1 in 14 and $1,590 void. Say 'her flexibility', never 'kept half'."
+Q24-024,5,5,3,4,adapt,,"With the excess the cap sends to her flexibility, a 10% stronger Taiwan dollar is covered in 99.77% of house paths (NUMBERS 8j); 99.97% void."
+Q12-004,5,5,5,4,keep,,Landed (SKELETON 3e area 2): in 2020 the biggest publisher stretched advance payments rather than cancelling; timing risk for a fixed January deposit.
+Q12-008,5,5,5,4,keep,,Landed (SKELETON 3e area 2): royalties on sales after mid-2027 arrive after the January 2028 deposit is due.
+Q12-018,5,5,5,5,adapt,,"Landed (rank 4 career test): her genre fell 22.4% in 2023 while shares rose; say 'in the same downturn, not always the same months', never a lag or beta."
+Q1c-010,5,5,5,4,adapt,,"Landed (rank 4 career test, 2020): receipts fell 12.4% in a year shares rose; say 'in the same downturn, not always the same months', never a lag rule."
+Q1b-002,5,4,5,4,adapt,,"Landed (rank 4): the average career is mostly a bond; Laura's advances, fees and licences are the share-like exception. Never a beta figure for her."
+Q9-009,5,4,5,5,keep,,"Landed (3a): reserves before buildings, the case's order and Caplet's."
+Q6-011,5,3,4,5,adapt,,"Landed: 7.5% is the top of a published range (about 6% to 7.5%, median about 6.5%); show the low case in 3e."
+Q6-030,5,4,5,5,keep,,"Landed: finance chiefs' 80% ranges caught the next year's market 36.3% of the time; why the range is a rule on owned money, not a forecast."
+Q16-018,5,5,5,5,keep,,"Landed (3a, 2.0): a state lottery's rule is to mature 'immediately prior' to each payment, a public twin of the IPS ladder."
+Q16-020,5,5,5,4,keep,,"Landed (3a): the lottery buys extra bonds against reinvestment risk, a public precedent for the extra Treasuries of Jan 2028."
+Q5-018,5,5,5,4,keep,,"Landed (3b): Norway's builders see the P50 frame while the ministry holds the reserve above it, like money promised to no one."
+Q5-023,5,5,5,4,keep,,Landed (3b/3e): Taiwan's manual prices escalation separately from the construction cost index.
+Q11a-025,5,5,5,4,keep,,Landed: groups funded a known threshold 18 times in 20 and an uncertain one never; the owned bottom takes Laura's part of that uncertainty away.
+H9-119,5,5,4,4,adapt,,"Must-land (gem2, 3d): $50,000 a year is a strong base, never a whole budget; residency budgets $111k to $599k. Check each figure's year at the source."
+H7-011,5,3,5,4,keep,,"Must-land (gem2): zero is a floor waiting cash has touched (2008-15, 2020); why 'if cash waiting earns nothing' is the test."
+H7-001,5,3,5,4,keep,,"Must-land (gem2): safe belongs to a date, not an asset class (no default and no reinvestment risk). Never 'risk-free' or 'default-free' in the report."
+NUM-001,5,5,5,4,keep,,"Must-land (gem2): bought as written, the ten paid only if cash earned 5.12% (the forwards); why the extra Treasuries make them sufficient without reinvestment."
+Q11b-025,5,4,4,4,keep,,"Must-land (gem2, 3d): reserves before capital projects (GIA); Laura's money is already owned in Treasuries."
+H8-113,5,3,5,4,keep,,"Must-land (gem2): universities paused buildings when their growth pools fell (Harvard's value -30%, return -27.3%); why the bottom is not in shares."
+H1-007,4,3,2,3,merged,H3-094,Same point as H3-094 (the 2028 deposit and the ladder's risk fall together); H3-094 carries it to the FINAL's own words.
+H9-011,3,3,5,3,merged,H3-094,"Same point as H3-094; its 'the 2027 money buys all ten' is now false: most of each payment is owned Jan 2027, the rest Jan 2028."
+H2-012,3,5,3,3,adapt,,"Order as protection stands; now say a downturn can shrink the deposit and so the rest of each payment and the bottom (NUMBERS 5). 99.96%, $70,400 void."
+H2-020,4,3,3,3,adapt,,"Order (longest-dated first) stands; the Jan 2028 top-up ($2,388) completes the ladder (IPS l.13). 46% and $2,287 void."
+H2-090,3,5,3,3,adapt,,"Payments now meet the escrow standard without reinvestment, barring a US default (NUMBERS 2); 998 in 1,000, 44% and 94% void."
+H3-091,3,5,1,3,merged,Q7-023,"UK 'low dependency' is carried by Q7-023, the code's own reliability-period wording with a primary source."
+H3-122,3,3,5,3,adapt,,"Three-date funding test stands; ladder completes Jan 2028 with the top-up, then the extra Treasuries, then the floor (NUMBERS 5). 47% and $34,555 void."
+H5-007,3,1,5,3,adapt,,"Why each payment has its own dated holding (a bullet); no fixed floor: floor payout $103,178 central, stated bottom $95,000 (NUMBERS 4). $115,929 void."
+H5-030,3,3,3,3,adapt,,"Studebaker (1963) fits 3e: a pension that waited on money not yet earned; say most of each payment is owned Jan 2027, the rest waits on the 2028 deposit."
+H7-075,4,3,3,3,adapt,,"Ability vs willingness stands: the ten cost more than the first $300,000 (NUMBERS 1), so none of it can bear share risk. 99.6% and $1,139 void."
+H7-076,4,3,3,3,adapt,,"'Too timid' answered: VT $29,829 is 6.63% of the $450,000 (NUMBERS 8g); 6.6% and 7.4% void. Never a 'hedge' of the career."
+H7-092,3,3,3,3,adapt,,"Alternatives rejected without naming CPPI; all-Treasury states $110,000 against the plan's central top $115,000 (NUMBERS C8); $190k and $158k void."
+H7-093,4,3,3,3,merged,H9-052,Same rival as H9-052 (floor bought in 2031); its 1 in 13 and 1 in 150 are void.
+H9-052,4,5,1,3,adapt,,"Rival now (NUMBERS 8c): floor bought 2031 is under $95,000 in 15.8% of house paths vs 1.3%, lowest $22,752 (Jul 1929). $140,000 and $115,929 void."
+H7-109,4,5,2,3,adapt,,"Money promised but not owned: the rest of each payment and the bottom until Jan 2028 (pencil until inked, CONCEIT). $24,475 void."
+H8-107,3,5,3,3,adapt,,"Joint downturn: after a 2-point fall the escrow standard needs $95,316 of the deposit (NUMBERS 5). 99.96%, $70,400 and $92,000 void."
+H8-109,3,3,3,3,adapt,,"Why 7.0% vs 7.5% barely moves the bottom: it is owned in Treasuries; bottom $140k, top $165k and $138,735 void (central range $95,000-$115,000)."
+H8-125,2,3,3,3,adapt,,"Old design (a growth sleeve with a share mix); the plan holds one world fund, so no use beyond history. $205k-$209k void."
+H9-050,4,3,3,3,adapt,,"Rivals rerun on the escrow standard needed; ours misses no payment barring a US default (NUMBERS 2). 0-1.6%, 6.0% and 55.6% void."
+H9-061,4,3,1,3,adapt,,"Cost path for 2.5 and the top-up: team engine $301,544 curve, $302,287 instruments at 6 Nov (NUMBERS 1, 8b); Keel bootstrap figures out."
+Q1b-028,5,3,3,4,adapt,,"Landed as SKELETON 2.3's wording: 'in the same downturn, not always the same months'; never a lag rule or a beta for Laura."
+Q12b-001,3,5,5,4,adapt,,"3e career limit, niche: in 2008-09 the graphic novel fall was manga's; the rest grew. Pairs with Q12-018; say 'not always the same months'."
+Q24-025,4,3,3,4,merged,Q10-021,"Same NT$ view of the gift; Q10-021 carries it on the current range (NT$3.60m to NT$4.42m at 32.768); $138,735 = NT$4.55m is void."
+Q24-023,3,5,2,4,adapt,,"Real Taiwan dollar since 1983: the half kept covers a 10% stronger NT$ in 98.1% of windows, 99.8% with the excess (NUMBERS 8j); 97.1% void."
+Q3a-001,5,2,5,3,keep,,"Landed: the plan is buy-and-hold in Perold and Sharpe's terms (multiplier one), never CPPI or portfolio insurance; Q3a-034 carries the naming."
+Q33-033,4,4,3,4,adapt,,"2.3 answer to 'why so few shares?' in dollars ($338,282 behind the payments, $81,889 the floor, $29,829 VT); half of VT moves before 2031; sum into NUMBERS first."
+Q44-021,2,4,3,4,adapt,,"Never quote her here (CONCEIT guard 12 allows one Climbing quote); at most the cited fact that she drew the first comic on an iPad, never her process."
+Q9c-035,2,4,3,4,merged,Q11d-032,"Same NT$ scale point; Q11d-032 carries NT$3.77m against the grant cap and Q9-035 the $50,000 a year."
+H8-103,1,5,2,3,merged,H2-102,"Same amount-reason-proof test as H2-102 (the overage rule), without the pharma image."
+H9-028,3,5,3,3,adapt,,"Guard only: state her from the case (l.16-18); awards and dates from her public profile stay out unless cited, and her finances are never evidence (H9-029)."
+H7-080,4,5,2,3,adapt,,Say corporate giving follows profits (Q4b-016); never that Taiwan's government cut arts money in a recession (CANON B4; Q10d-020: it rose in 2008-10).
+H4-048,4,3,5,4,adapt,,"Use 2.4% US inflation (J.P. Morgan 2027, Q10-001), not 2.5%; the 2042 payment buys about 70% of today's (Q10-013). Never 'cushion'."
+H1-086,4,5,2,3,adapt,,"Name it buy-and-hold in Perold and Sharpe's terms (multiplier one, Q3a-001); never floor-leverage, CPPI or portfolio insurance in the report."
+H7-082,4,5,2,3,merged,H2-012,Same 'order of purchase protects the payments' point as H2-012; its 'the 2027 money buys the payments' is now 'most of each payment'.
+H9-100,4,3,3,3,adapt,,"Point stands (her flexibility is for building costs, not inflation on the payments); never 'cushion' or 'kept shares'; building band from Q10-020."
+H9-120,4,5,2,3,merged,Q9-035,Same NT$1.64m-a-year scale point as Q9-035.
+H9-170,2,3,3,3,adapt,,TIPS in any form are banned for both contributions (Wharton Week 4 email); never offer a TIPS fund. Keep only: fixed-dollar payments need no inflation link.
+H9-079,4,3,3,3,adapt,,Say the cost of the payments moved with the curve (NUMBERS 8b); WInS gains are never evidence in the report.
+Q12-031,3,4,3,4,adapt,,"Out per gem2: a deposit after 31 Mar 2028 still runs the same order (card Q34); say lateness moves prices, never late = smaller; past 31 Mar it is a missed deposit."

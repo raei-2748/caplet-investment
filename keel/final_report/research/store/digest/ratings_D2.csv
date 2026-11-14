@@ -1,0 +1,268 @@
+id,F,R,S,C,status,merged_into,note
+Q37-018,5,4,5,5,adapt,,"HIGH clash (pitch, TN3): say the assumed average return moves the top by less than one $5,000 step, while realised markets set it ($95,000 to $140,000 across Table 2)"
+Q37-013,4,3,5,4,adapt,,"HIGH clash (pitch, TN3): say the assumed average return moves the top by less than one $5,000 step, while realised markets set it ($95,000 to $140,000 across Table 2)"
+Q37-011,2,2,5,3,adapt,,"Rule of thumb now: one $5,000 step of top needs VT about 25% higher or lower on the move day; 4% to 10% assumed moves the top $3,271 before rounding (Keel arithmetic)"
+Q6-027,5,4,3,5,adapt,,"VOID $136,580-$140,364: at 4%-10% the funds pay $121,557-$124,925, top before rounding $116,580-$119,851, under one $5,000 step; luck moves the moved half $10,581-$34,308"
+Q6-028,4,3,3,4,adapt,,"VOID $115,929: the floor now pays $103,178 and the stated bottom is $95,000 (NUMBERS 4); keep ""independent of the forecast, not of markets"""
+H2-088,4,3,3,3,adapt,,"Say it of the top: a 2-point cut in the assumed return moves the stated top less than one $5,000 step (NUMBERS 4); the 60/40 comparison needs a rerun on FINAL"
+H9-109,4,3,1,3,merged,Q37-018,Same claim as Q37-018 on an older basis (tabs disagree on 7.5%); say it as Q37-018's note does.
+H8-023,4,3,3,3,adapt,,"Void ""3 in 4"": with the cap the gift equals the stated top in every modelled path (Q19-005); say the bottom is owned now, the top once moved in Jan 2031"
+H3-096,1,3,5,3,adapt,,"Void ""2-3 in 4"": after the Jan 2031 move the top is owned in Treasuries; the share-risk window is 2028-2030, before the move (Q19-005, NUMBERS 4)"
+H3-123,1,3,3,3,adapt,,"Binned ratchet on the old $145k basis; figures void. FINAL moves once, in Jan 2031; keep only as a rejected rival if 3c needs one"
+H8-004,4,5,3,3,adapt,,"Older designs; ""top reached 84%/97%"" void: with the cap the gift equals the stated top in every history window (Q19-005). Keep 0 broken payments"
+H8-098,3,5,3,3,adapt,,"Old-design figures. Now NUMBERS 8c: the 2031-floor rival is about $7,400 better at the median but under $95,000 in 15.8% of house paths against 1.3%"
+H8-095,2,5,2,3,adapt,,"Newsvendor miss shares on an old design, no rerun; the cap makes range misses zero by construction (Q19-005). Use the cost-ratio idea only, never these figures"
+NUM-005,4,5,5,3,adapt,,"Rerun is NUMBERS 8c: the rival is about $7,400 better at the median, under $95,000 in 15.8% of house paths against 1.3% (history 9.1% against 0%); $110,000 and 18.7% void"
+NUM-006,4,3,5,3,adapt,,"Keep the precommitment idea; the price is now about $7,400 at the median (NUMBERS 8c), not $8,000"
+Q7-030,5,4,3,4,adapt,,"VOID figures. NUMBERS 8c: the 2031-floor rival is about $7,400 better at the median, under $95,000 in 15.8% of house paths against 1.3%; from Jul 1929 $22,752 against $106,683"
+H9-052,4,5,1,3,adapt,,"Rival now per NUMBERS 8c: about $7,400 more at the median, but under $95,000 in 15.8% of house paths against 1.3% (history 9.1% against 0%); older figures void"
+H9-179,4,5,3,3,adapt,,"Episode E1 holds; quote NUMBERS 8c: buying the floor in 2031 leaves Laura under $95,000 in 15.8% of house paths against 1.3%; $140,000 and $90,000 void"
+Q10-025,5,5,4,4,adapt,,"3e: the ten-year-strongest Taiwan dollar now needs $18,116-$21,930 more (NUMBERS 8d), about the central kept half of $21,347; $21k-$26k void"
+Q10-021,5,5,4,4,adapt,,Use NUMBERS 8d: the range buys NT$2.59m-3.14m of today's building at 3% a year; the card's NT$3.02m-3.70m and older NT$3.00m-3.69m are void
+Q10-014,4,1,4,5,adapt,,"Recomputed in NUMBERS 8d: $95,000-$115,000 is $82,399-$99,747 in 2027 dollars at 2.4%; the $110,000-$135,000 basis is void"
+Q10-022,4,5,3,4,adapt,,"Rescale to $95,000-$115,000 (5.7% lost at 3%, 9.3% at 5% over 2031-33: about $5,400-$6,600 and $8,800-$10,700); kept half 1-in-20 now $9,881 (8f)"
+Q19-003,5,5,3,4,adapt,,"Method holds; cite today's cuts 4.31% and 2.87% (NUMBERS 4), not 4.1% and 2.5%; recompute the yield-shift row before use"
+Q19-010,4,5,3,4,adapt,,"Move first, then state holds; now 2.9%/6.3%/8.7%/10.7% of house paths not owned if stated 1/3/6/12 months early, gap $1,756-$5,289 (NUMBERS)"
+Q20-012,5,4,3,4,adapt,,"Superseded: central range $95,000-$115,000 (unrounded $98,729-$118,443), floor pays $103,178; the escrow standard moves $33,150 of floor payout to the payments' safety (NUMBERS 4)"
+Q20-015,3,3,3,4,adapt,,"Superseded basis: kept half from NUMBERS 8f (house $9,881/$20,739/$41,258; history $13,238/$23,481/$40,607); range spread from Table 2"
+Q19-006,3,4,3,4,adapt,,"Excess now $8,476 central (kept half with it $29,823); with VT at zero it is $8,178 (NUMBERS); rerun the p5/p95 on FINAL before quoting a spread"
+Q24-022,4,5,3,4,adapt,,"Now NUMBERS 8j: the kept half alone covers a 10% stronger Taiwan dollar in 93.2% of house paths (about 1 in 15 not), 96.9% history, 99.3% joint"
+Q24-024,5,5,3,4,adapt,,Now NUMBERS 8j: with the excess the pot covers a 10% stronger Taiwan dollar in 99.77% of house paths; 99.97% is void
+Q24-026,5,3,3,4,adapt,,"Now: kept half $21,347 on 1 Jan 2033 central ($29,823 with the excess); moved half pays $20,298; house $9,881/$20,739/$41,258 (NUMBERS 8f)"
+Q24-005,3,5,3,3,adapt,,"Joint replay now NUMBERS 8i: kept half $13,874/$23,601/$42,015; the figures here are void"
+Q24-011,4,5,3,4,adapt,,"Point holds on FINAL: Table 2 house bottom $85,000/$95,000/$115,000; kept half 1-in-20 house $9,881 against history $13,238 (8f); old figures void"
+Q24-019,4,5,3,4,adapt,,VOID amounts on Keel's margin; under the cap the gift is the stated top; rerun the inflation row on FINAL before Table 3 uses it
+Q5-034,4,4,3,4,adapt,,"Now: the extra Treasuries return $45,456 in 2033 money (NUMBERS 8k); like her income, never counted in the range (CANON A30, D12)"
+Q5-001,4,3,3,3,adapt,,"Now: kept half $21,347 central is 18.6% of $115,000 and 22.5% of $95,000; rescale the house spread from NUMBERS 8f"
+H8-007,4,3,3,3,adapt,,"VOID ""~$26k kept"": kept half $21,347 central (NUMBERS 8f); keep the point that it cannot index the payments for inflation"
+H9-100,4,3,3,3,adapt,,"Keep the point (a cushion for building costs, not inflation insurance); any dollar figure from NUMBERS 8f, kept half $21,347 central"
+H4-061,4,3,3,3,adapt,,"Allais turn holds, but ""about nothing at the median"" is void: the 2031-floor rival is about $7,400 better at the median (NUMBERS 8c), the price of the promise"
+H5-003,4,3,5,3,adapt,,"Keep Allais; price the sure thing from NUMBERS 8c (about $7,400 at the median); the escrow standard moves $33,150 of floor payout to the payments (NUMBERS 4)"
+H9-084,4,5,3,3,adapt,,"Old rule: the bottom is the floor payout less 4.31%, the top adds the moved half less 2.87%, each rounded down to $5,000 (NUMBERS 4: $95,000-$115,000)"
+H9-088,3,3,3,3,adapt,,"v12 figures void; under FINAL the moved half is in Treasuries from Jan 2031, so a 2032 fall leaves the stated $95,000-$115,000 intact"
+H2-080,3,5,3,3,adapt,,"Say confidence as ownership: bottom owned now, top once moved; the gift equals the stated top in every modelled path (Q19-005); never ""guaranteed"""
+H1-029,4,5,3,3,adapt,,"Older design (pad on a $145k bottom); keep the idea only: the bottom comes from today's cuts 4.31% and 2.87%, not a fixed pad (NUMBERS 4)"
+H4-064,4,5,3,3,adapt,,"Lesson holds (a 60/40 pot bounces cheques); figures from an older model suite, rerun before quoting"
+H4-086,4,5,3,3,adapt,,Test spec on an older basis; rerun on FINAL only if 3e needs a partial-deposit line (CANON D9)
+H4-089,4,5,3,3,adapt,,Test spec on an older design; the top's odds are moot under the cap (Q19-005); rerun only the miss rates if used
+H4-091,4,5,3,3,adapt,,Newsvendor tops on an older design; the cap now sets the top from what is owned; keep only as a rejected way to size it
+H4-094,4,5,3,3,adapt,,Two-test spec on an older design; the lower-of-two rule now runs through the cuts 4.31% and 2.87% (NUMBERS 4)
+H4-095,4,5,3,3,adapt,,Test spec on an older design with a reinvestment leak FINAL removed (escrow standard); rerun before use
+H9-049,4,5,3,3,adapt,,"Point holds (crashes hit the share fund, not the payments); rerun the 1-in-20 on FINAL before quoting a dollar figure"
+H9-128,4,5,3,3,adapt,,"Currency history holds; any dollar cost uses NUMBERS 8d and 8j on $95,000-$115,000, not an older gift size"
+H8-089,3,5,3,3,adapt,,"V29 doors on an older design; ""top reached 84.6%"" void under the cap (Q19-005); keep the four-door idea only"
+H9-099,3,5,3,3,adapt,,"VOID ""typical gift $169,000"": on $95,000-$115,000 the ten-year-strongest Taiwan dollar needs $18,116-$21,930 more (NUMBERS 8d)"
+Q23-014,4,4,4,4,adapt,,"Measure superseded: Table 3 is now eight rows on one page with a 35-word note (21.9 lines, SKELETON); use that, not 17.1"
+H4-044,4,5,3,3,adapt,,"Rescale: a 10-20% first gift of $95,000-$115,000 implies a campaign of about $0.48m-$1.15m (Keel arithmetic); never ""lead gift"" in the report"
+H3-036,3,3,3,3,adapt,,"Label banned: never ""portfolio insurance""; in Perold and Sharpe's terms (Q3a-001) the plan is buy-and-hold, a floor plus shares with no trading rule"
+H4-130,4,3,2,3,merged,H3-036,Same OBPI label as H3-036 (banned as a name for the plan).
+H4-131,4,3,2,3,merged,H2-071,"Same point as H2-071: portfolio insurance sells into falls; the floor is bought, not insured by trading."
+H8-131,4,3,2,3,merged,H2-071,"Same point as H2-071: portfolio insurance sells into falls; the floor is bought, not insured by trading."
+H9-083,4,3,2,3,merged,H2-071,"Same point as H2-071: portfolio insurance sells into falls; the floor is bought, not insured by trading."
+H4-132,4,3,2,3,merged,Q3a-001,Perold and Sharpe; Q3a-001 holds the definitions read at source.
+H3-038,3,3,5,3,merged,Q3a-001,Perold and Sharpe; Q3a-001 holds the definitions read at source.
+Q39-023,4,3,5,3,merged,Q3a-001,Perold and Sharpe; Q3a-001 holds the definitions read at source.
+H7-024,4,3,5,3,merged,H6-096,Same Brady Commission quote as H6-096.
+H4-133,4,3,2,3,merged,H2-068,"Same note-without-the-bank idea as H2-068; never ""capital-protected""."
+H3-039,4,3,1,3,merged,H2-068,"Same note-without-the-bank idea as H2-068; never ""capital-protected""."
+H6-063,3,3,5,3,merged,H2-068,"Same note-without-the-bank idea as H2-068; never ""capital-protected""."
+H1-014,4,3,2,3,adapt,,"Keep unbundling, drop ""principal-protected"": with shares at zero the floor pays $103,178 on $111,718 put in (NUMBERS 4; banned label)"
+H7-040,4,3,5,3,adapt,,"Never call the plan capital-protected: shares at zero return $103,178 on $111,718; say why shares, not a bank's note, without the label"
+H8-117,3,3,5,3,adapt,,"SEC bulletin is background on bank notes; the plan is never principal-protected (WORDS); use only for ""no bank between Laura and the floor"""
+H7-039,3,5,5,3,adapt,,"Issuer credit point holds (no bank between Laura and the floor); avoid ""capital-protected"" for the plan; Lehman is colour, not a Section 3 line"
+H4-025,3,3,5,3,adapt,,"Analogy only (Treasury-backed principal); never ""protected""; the plan holds Treasury funds and individual Treasuries, not zeros (STRIPS banned)"
+H6-019,4,3,5,3,adapt,,"DB framing fits, but never ""full funding"": say the payments are owned in Treasuries, sufficient without reinvestment (escrow standard)"
+H4-015,3,5,5,3,adapt,,"Insurer-cap analogy; never ""guarantee"" for Laura's range; the cuts 4.31% and 2.87% play the safety margin's role (NUMBERS 4)"
+H8-071,2,3,5,3,adapt,,"TIPS ban is fact, but ""only inflation buffer"" overreaches: the payments are fixed in dollars; the kept half meets Taiwan building costs among other uses"
+H6-155,3,5,5,3,adapt,,"Real risk, out of scope for fixed-dollar payments; one assumption line in 3e at most, never ""risk-free"""
+H1-083,4,3,5,3,adapt,,"VOID: VT is $29,829 against the floor's interest of $21,289 (floor $81,889 pays $103,178; NUMBERS 4); say ""about the interest"", never ""only"""
+H5-075,4,5,3,3,adapt,,"VOID 21%: VT $29,829 against floor interest $21,289 (NUMBERS 4); shares at zero return $103,178 on $111,718, so never ""risk only the interest"""
+H9-082,4,5,2,3,adapt,,"VOID: VT $29,829 against floor interest $21,289 (NUMBERS 4); never ""capital-protected"": shares at zero return $103,178 on $111,718"
+H8-059,1,5,3,3,adapt,,"VOID: floor money $81,889 pays $103,178 (interest $21,289) and VT is $29,829 (NUMBERS 4)"
+H5-017,2,5,3,3,adapt,,"Crowding-out risk holds, but no match or refund on her range: frame it by the gap it leaves for others; Laura's figure is unconditional"
+H4-065,4,5,2,3,merged,H5-017,Same Varian point as H5-017.
+H3-110,4,3,3,3,merged,H9-133,Same Karlan-List result as H9-133 (refused as a match offer).
+H4-173,4,3,2,3,merged,H9-133,Same Karlan-List result as H9-133 (refused as a match offer).
+H5-018,3,5,5,3,adapt,,No refund or conditional top: Laura's stated figure is unconditional once inked; keep only the assurance logic for co-sponsors' own pledges
+H4-066,4,5,2,3,merged,H5-018,Same Bagnoli-Lipman refund rule as H5-018.
+H4-006,3,5,5,3,adapt,,"Keep ""her number sets everyone's""; drop ""conditional, matched and refundable top"" and ""lead gift"": her stated range is unconditional"
+H4-041,2,3,5,3,adapt,,"Gift-range chart is co-sponsor background; ""lead gift"" banned and their tiers are theirs to set; one clause in 3d at most"
+H6-119,3,5,5,3,adapt,,"Analogy fits the width question, but say the width is money (Q35-031); no market-maker language in Laura's words to co-sponsors"
+H4-007,2,5,3,3,adapt,,"Order of call for her flexibility is banned (no order of use or release schedule); keep only ""announced money is owned, the rest is hers"""
+H2-046,4,3,3,3,merged,H4-007,Same order-of-call idea as H4-007; banned for her flexibility.
+H4-033,2,5,5,3,adapt,,Order of call is banned for her flexibility (no order of use); keep the overrun-facility idea as background only
+H3-074,2,5,5,3,adapt,,A legal order of priority between pots; banned for her flexibility (no order of use or release schedule)
+H4-034,2,5,5,3,adapt,,"Pricing contingent support is apt, but her flexibility has no promised use or order; never counted or priced in the range"
+H4-032,2,5,3,3,adapt,,Two-test sizing now runs as the cuts 4.31% and 2.87% on owned payouts (NUMBERS 4); P50/P99 debt sizing is background only
+Q24-028,3,3,5,4,adapt,,"Owner's contingency apart is fine, but no order of use or release schedule for her flexibility; ""never for added scope"" is a co-sponsor point only"
+Q4b-020,2,5,5,4,adapt,,"Match evidence; Laura offers no match on her range, so use only as what co-sponsors' own funders do"
+Q11b-010,2,4,4,4,adapt,,Co-sponsor background only; Laura's words set no terms or naming for others' money; one clause in 3d's drafted language at most
+Q11d-032,4,5,4,5,keep,,"Scale check holds on $115,000 = NT$3.77m at 32.768 (8j); say ""announced first"", never ""lead gift"""
+H9-017,2,5,5,3,adapt,,"Draws on Laura's public profile beyond the case; keep ""partners, not donors"" without naming her projects (case only)"
+H9-014,4,5,3,3,refuse,,Quotes Laura beyond the case (rule: never quote her beyond the case)
+H4-042,3,5,5,3,adapt,,"Quiet phase 2028-2030 holds; the move is Jan 2031 and Laura states figures only once inked; drop ""top locked"""
+H3-118,3,5,3,3,merged,H1-005,Same newsvendor range idea as H1-005.
+H4-168,4,3,2,3,merged,H1-005,Same newsvendor range idea as H1-005.
+Q4b-029,3,5,4,4,adapt,,CANON B4 guard: never say Taiwan's government cut arts money in a recession; quote as data on one funder only
+Q4b-024,4,5,4,4,adapt,,CANON B4 guard: never say Taiwan's government cut arts money in a recession; quote as data on one funder only
+Q4b-002,3,5,5,4,adapt,,US foundation data only; never carry it to Taiwan's government (CANON B4)
+Q4b-003,3,4,5,4,adapt,,US foundation data only; never carry it to Taiwan's government (CANON B4)
+Q22-001,4,3,5,4,merged,Q18-008,"Same point as Q18-008 (funders sort committed, pledged, projected); Q18-008 has the definitions read at source."
+H8-147,4,5,5,3,merged,Q11b-026,"Same Set in Stone overrun figures as Q11b-026, read at source."
+H9-095,4,5,5,3,merged,Q11b-026,"Same Set in Stone overrun figures as Q11b-026, read at source."
+H9-138,4,5,5,3,merged,Q18-020,Same van der Bles study as Q18-020.
+H3-082,4,3,5,3,merged,H8-113,"Same idea as H8-113, which holds the stronger source or wording."
+H2-058,4,3,5,3,merged,H8-113,"Same idea as H8-113, which holds the stronger source or wording."
+H6-065,4,5,5,3,merged,H8-113,"Same idea as H8-113, which holds the stronger source or wording."
+H6-062,4,5,5,3,merged,H6-061,"Same idea as H6-061, which holds the stronger source or wording."
+H7-018,4,5,5,3,merged,H6-077,"Same idea as H6-077, which holds the stronger source or wording."
+H7-068,4,5,5,3,merged,Q11a-002,"Same idea as Q11a-002, which holds the stronger source or wording."
+H2-077,4,3,5,3,merged,Q11a-002,"Same idea as Q11a-002, which holds the stronger source or wording."
+H3-047,4,5,5,3,merged,Q11a-002,"Same idea as Q11a-002, which holds the stronger source or wording."
+H4-141,4,3,2,3,merged,Q11a-002,"Same idea as Q11a-002, which holds the stronger source or wording."
+H9-132,4,3,2,3,merged,Q11a-002,"Same idea as Q11a-002, which holds the stronger source or wording."
+H8-112,4,5,5,3,merged,H9-013,"Same idea as H9-013, which holds the stronger source or wording."
+H9-114,4,5,5,3,merged,Q16-038,"Same idea as Q16-038, which holds the stronger source or wording."
+H3-080,4,3,5,3,merged,H9-129,"Same idea as H9-129, which holds the stronger source or wording."
+H4-047,4,3,5,3,merged,H4-045,"Same idea as H4-045, which holds the stronger source or wording."
+H6-078,4,5,5,3,merged,H5-044,"Same idea as H5-044, which holds the stronger source or wording."
+H6-076,4,3,5,3,merged,H7-042,"Same idea as H7-042, which holds the stronger source or wording."
+H8-100,4,5,5,3,merged,H3-083,"Same idea as H3-083, which holds the stronger source or wording."
+H4-139,4,3,2,3,merged,H3-045,"Same idea as H3-045, which holds the stronger source or wording."
+H4-140,4,3,2,3,merged,H3-046,"Same idea as H3-046, which holds the stronger source or wording."
+H4-143,4,3,2,3,merged,H3-049,"Same idea as H3-049, which holds the stronger source or wording."
+H4-144,4,3,2,3,merged,H3-050,"Same idea as H3-050, which holds the stronger source or wording."
+H4-145,4,5,2,3,merged,H3-051,"Same idea as H3-051, which holds the stronger source or wording."
+H4-146,4,3,2,3,merged,H7-085,"Same idea as H7-085, which holds the stronger source or wording."
+H3-052,4,3,2,3,merged,H7-085,"Same idea as H7-085, which holds the stronger source or wording."
+H6-093,4,1,5,3,merged,H7-085,"Same idea as H7-085, which holds the stronger source or wording."
+H4-147,4,3,2,3,merged,H3-053,"Same idea as H3-053, which holds the stronger source or wording."
+H4-148,4,3,2,3,merged,H3-054,"Same idea as H3-054, which holds the stronger source or wording."
+H4-149,4,1,2,3,merged,H3-055,"Same idea as H3-055, which holds the stronger source or wording."
+H1-042,4,1,2,3,merged,H3-055,"Same idea as H3-055, which holds the stronger source or wording."
+H4-150,4,3,2,3,merged,H3-056,"Same idea as H3-056, which holds the stronger source or wording."
+H4-151,4,3,2,3,merged,H3-057,"Same idea as H3-057, which holds the stronger source or wording."
+H4-152,4,1,2,3,merged,H3-058,"Same idea as H3-058, which holds the stronger source or wording."
+H4-154,4,3,2,3,merged,H3-060,"Same idea as H3-060, which holds the stronger source or wording."
+H4-155,4,3,2,3,merged,H3-061,"Same idea as H3-061, which holds the stronger source or wording."
+H4-164,4,3,2,3,merged,H8-141,"Same idea as H8-141, which holds the stronger source or wording."
+H4-166,4,3,2,3,merged,H3-103,"Same idea as H3-103, which holds the stronger source or wording."
+H4-171,4,3,2,3,merged,H3-108,"Same idea as H3-108, which holds the stronger source or wording."
+H4-174,4,3,2,3,merged,H3-111,"Same idea as H3-111, which holds the stronger source or wording."
+H4-178,4,3,2,3,merged,H3-123,"Same idea as H3-123, which holds the stronger source or wording."
+H4-182,4,3,2,3,merged,H3-124,"Same idea as H3-124, which holds the stronger source or wording."
+H4-180,4,3,2,3,merged,H8-033,"Same idea as H8-033, which holds the stronger source or wording."
+H4-188,4,5,2,3,merged,H3-065,"Same idea as H3-065, which holds the stronger source or wording."
+H4-114,4,1,2,3,merged,H3-019,"Same idea as H3-019, which holds the stronger source or wording."
+H4-115,4,1,2,3,merged,H3-020,"Same idea as H3-020, which holds the stronger source or wording."
+H4-119,4,3,2,3,merged,H3-025,"Same idea as H3-025, which holds the stronger source or wording."
+H4-120,4,3,2,3,merged,H3-026,"Same idea as H3-026, which holds the stronger source or wording."
+H4-121,4,3,2,3,merged,H3-027,"Same idea as H3-027, which holds the stronger source or wording."
+H4-124,4,3,2,3,merged,H7-041,"Same idea as H7-041, which holds the stronger source or wording."
+H4-128,4,3,2,3,merged,H7-057,"Same idea as H7-057, which holds the stronger source or wording."
+H4-138,4,1,2,3,merged,H9-091,"Same idea as H9-091, which holds the stronger source or wording."
+H2-116,4,5,2,3,merged,H4-077,"Same idea as H4-077, which holds the stronger source or wording."
+H2-117,4,5,2,3,merged,H5-022,"Same idea as H5-022, which holds the stronger source or wording."
+H4-078,4,3,2,3,merged,H5-022,"Same idea as H5-022, which holds the stronger source or wording."
+H2-118,4,5,2,3,merged,H4-052,"Same idea as H4-052, which holds the stronger source or wording."
+H5-125,4,3,2,3,merged,H4-052,"Same idea as H4-052, which holds the stronger source or wording."
+H2-120,4,5,2,3,merged,H5-038,"Same idea as H5-038, which holds the stronger source or wording."
+H4-057,4,5,2,3,merged,H5-038,"Same idea as H5-038, which holds the stronger source or wording."
+H4-079,4,5,2,3,merged,H5-012,"Same idea as H5-012, which holds the stronger source or wording."
+H2-070,4,3,2,3,merged,H5-004,"Same idea as H5-004, which holds the stronger source or wording."
+H4-058,4,3,2,3,merged,H5-004,"Same idea as H5-004, which holds the stronger source or wording."
+H8-130,4,3,2,3,merged,H5-004,"Same idea as H5-004, which holds the stronger source or wording."
+H9-081,4,3,2,3,merged,H5-004,"Same idea as H5-004, which holds the stronger source or wording."
+H4-069,4,3,2,3,merged,H8-115,"Same idea as H8-115, which holds the stronger source or wording."
+H5-045,4,3,1,3,merged,H8-115,"Same idea as H8-115, which holds the stronger source or wording."
+H1-086,4,5,2,3,merged,H5-066,"Same idea as H5-066, which holds the stronger source or wording."
+H1-004,4,5,2,3,merged,H5-006,"Same idea as H5-006, which holds the stronger source or wording."
+H2-002,4,3,2,3,merged,H5-006,"Same idea as H5-006, which holds the stronger source or wording."
+H7-056,4,5,2,3,merged,H5-006,"Same idea as H5-006, which holds the stronger source or wording."
+H2-073,4,3,2,3,merged,H2-081,"Same idea as H2-081, which holds the stronger source or wording."
+H2-092,4,5,2,3,merged,H4-009,"Same idea as H4-009, which holds the stronger source or wording."
+H8-133,4,3,2,3,merged,H1-085,"Same idea as H1-085, which holds the stronger source or wording."
+H5-068,3,3,2,3,merged,H1-085,"Same idea as H1-085, which holds the stronger source or wording."
+H2-091,3,5,1,3,merged,H8-123,"Same idea as H8-123, which holds the stronger source or wording."
+H4-134,4,3,2,3,merged,H3-040,"Same idea as H3-040, which holds the stronger source or wording."
+H4-135,4,3,2,3,merged,H3-041,"Same idea as H3-041, which holds the stronger source or wording."
+H4-136,4,3,2,3,merged,H3-042,"Same idea as H3-042, which holds the stronger source or wording."
+H6-101,4,5,5,3,merged,H6-097,"Same idea as H6-097, which holds the stronger source or wording."
+H7-023,4,5,5,3,merged,H6-097,"Same idea as H6-097, which holds the stronger source or wording."
+H6-104,4,3,5,3,merged,H6-097,"Same idea as H6-097, which holds the stronger source or wording."
+H6-107,4,3,5,3,merged,H6-097,"Same idea as H6-097, which holds the stronger source or wording."
+H6-112,4,3,5,3,merged,H6-097,"Same idea as H6-097, which holds the stronger source or wording."
+H6-116,4,3,5,3,merged,H6-097,"Same idea as H6-097, which holds the stronger source or wording."
+H6-115,4,5,5,3,merged,H6-114,"Same idea as H6-114, which holds the stronger source or wording."
+H8-093,4,5,5,3,merged,H8-110,"Same idea as H8-110, which holds the stronger source or wording."
+H2-049,3,3,5,3,merged,H8-110,"Same idea as H8-110, which holds the stronger source or wording."
+H6-014,4,3,5,3,merged,H7-022,"Same idea as H7-022, which holds the stronger source or wording."
+H10-020,4,5,5,3,refuse,,"Wharton's own history or judges: never a reference (Book 17) and nothing for Laura's report; ""evaluate"" is already Book 17's rule"
+H10-023,4,5,5,3,refuse,,"Wharton's own history or judges: never a reference (Book 17) and nothing for Laura's report; ""evaluate"" is already Book 17's rule"
+H10-030,4,5,3,3,refuse,,"Wharton's own history or judges: never a reference (Book 17) and nothing for Laura's report; ""evaluate"" is already Book 17's rule"
+H10-009,4,5,5,3,refuse,,"Wharton's own history or judges: never a reference (Book 17) and nothing for Laura's report; ""evaluate"" is already Book 17's rule"
+H10-028,4,5,5,3,refuse,,"Wharton's own history or judges: never a reference (Book 17) and nothing for Laura's report; ""evaluate"" is already Book 17's rule"
+H10-034,4,3,5,3,refuse,,"Wharton's own history or judges: never a reference (Book 17) and nothing for Laura's report; ""evaluate"" is already Book 17's rule"
+H10-035,4,3,5,3,refuse,,"Wharton's own history or judges: never a reference (Book 17) and nothing for Laura's report; ""evaluate"" is already Book 17's rule"
+H9-094,4,5,5,3,refuse,,Another team's commendation; nothing for Laura's report
+H3-056,2,3,5,3,keep,,Overtrading point is already made by buy-and-hold; WInS trading is never evidence (Wharton)
+H9-093,2,3,5,3,keep,,A guide rule already obeyed; restating it repeats Wharton's instructions
+H10-058,2,5,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H2-082,2,5,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H3-065,2,5,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H3-081,2,5,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H4-029,2,5,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H5-012,2,5,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H6-098,2,5,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H6-099,2,5,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H6-100,2,5,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H6-148,2,5,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H6-160,2,5,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H2-053,2,5,3,3,keep,,Too small or off the path for 6-8 pages; store only
+H3-078,2,5,5,3,adapt,,Too small or off the path for 6-8 pages; store only
+H5-022,2,3,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H6-117,2,3,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H9-016,2,5,3,3,keep,,Too small or off the path for 6-8 pages; store only
+H3-071,2,5,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H6-094,2,5,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H6-095,2,5,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H6-135,2,5,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H6-149,2,5,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H6-150,2,5,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H6-047,2,3,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H6-073,2,3,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H6-079,2,3,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H6-085,2,3,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H6-086,2,3,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H6-147,2,3,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H6-163,2,3,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H8-069,2,3,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H8-047,2,5,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H3-018,2,3,5,3,keep,,Too small or off the path for 6-8 pages; store only
+H4-051,2,5,5,3,keep,,Taiwan legal matters are out of scope (case); colour only
+H9-103,4,3,5,3,merged,Q1c-037,Same VT facts as Q1c-037; they repeat the Trading Notes.
+Q1c-037,3,2,5,5,keep,,"2.3 line read at source (VT 10,185 stocks, 0.06%, US 62.4%); repeats TN3, so one clause at most; never quote ""8,000 holdings"""
+Q17-039,4,2,5,5,merged,Q1c-037,Same VT fact-sheet read as Q1c-037.
+Q9-027,2,5,5,4,keep,,National venues are the wrong reference class for a small residency; background only
+Q9-028,2,5,5,4,keep,,National venues are the wrong reference class for a small residency; background only
+H4-137,4,3,2,3,refuse,,Name pun (Caplet XR); no place in the report
+H7-081,5,5,5,4,keep,,Raised: trust law judges a holding within the whole portfolio and the beneficiary's other resources; the frame for VT inside Laura's plan (3a or 3e)
+H8-113,5,4,5,4,keep,,"Raised: Book 17 must-land; Harvard, Yale and Princeton paused buildings when growth pools fell; 3b's case for owning the floor first"
+H3-026,4,5,5,4,keep,,"Raised C: separate goal pots with shortfall limits map to mean-variance, so Laura's pots are not a bias (3a)"
+H7-007,4,3,5,4,keep,,"Raised C: price each promise at Treasury rates on the day, not at expected returns (the pension error); 3a"
+Q11b-025,5,4,4,4,keep,,"Reserves before capital projects, three to five years to stabilise, post-opening reserve drives futile; carries Q9-008."
+H9-119,5,5,4,4,adapt,,"Raised F: say ""ten years of her operating commitment, a base not a budget"" (never ""ten years of operations owned""); date or drop Jentel's $599,000 (Q9b)"
+H7-041,5,3,5,4,keep,,"Raised: time makes a loss rarer, not smaller (put cost rises with horizon); 3a's answer to ""shares win over ten years"""
+H4-169,4,5,2,4,keep,,"Raised C: the cap makes ""inside the range"" true by construction; name this objection in 3e before a judge does"
+H8-046,4,5,2,4,keep,,"Raised C: advance first, royalties later is Laura's own trade (case); any use counts against the five image sentences"
+H5-059,4,5,3,4,keep,,"Raised: the US tax code's 5% exhaustion test is an outside yardstick for ""high certainty""; read at source before use"
+H8-123,4,5,3,4,keep,,"Raised C: the deletion test; now VT at zero leaves one figure, $95,000, with excess $8,178 (NUMBERS); 3a"
+H2-040,4,5,3,4,keep,,"Keep: reserve surplus goes back to Laura, never to the facility; the escrow standard ""sufficient without reinvestment"""
+H2-045,3,5,3,3,refuse,,"Refused: the half kept never covers payment gaps; the ten payments are sufficient without reinvestment (escrow standard, NUMBERS)"
+H3-119,1,5,3,3,refuse,,"Refused: the half kept never covers payment gaps; the ten payments are sufficient without reinvestment (escrow standard, NUMBERS)"
+H8-148,1,5,3,3,refuse,,"Refused: the half kept never covers payment gaps; the ten payments are sufficient without reinvestment (escrow standard, NUMBERS)"
+H8-019,3,5,2,3,adapt,,Contradicted by card Q5e: same-year building costs and shares lean wrong-way (-0.31 to -0.34); never say they rarely come together
+Q6-011,5,3,4,5,adapt,,7.5% is the top of a published range of about 6% to 7.5% (median about 6.5%); never say the TNA quoted the most optimistic house; show a low case
+Q19-005,5,4,3,5,adapt,,"3c: two-part confidence: the bottom owned now, the top once moved in Jan 2031; certain barring a US default; drop the ""prospectus"" wording; carries Q24-018"
+Q7-027,3,4,5,4,adapt,,"The plan never rebalances (buy-and-hold, one move in 2031); keep only ""a rule written in advance survives a fall"""
+H6-097,4,5,5,3,keep,,"Family head: 1987 panic quotes merged here; one clause at most in 3c on why the move is dated, not triggered"
