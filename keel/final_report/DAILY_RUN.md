@@ -12,6 +12,16 @@ each reading primary sources in full (papers, theses, essays, filings, data), ne
 carded; the day's volume logged in the RUNLOG row (sources read, cards added, claims kept, killed or changed). Waste is
 re-reading what the store already holds, regenerating what exists, or research that feeds no section of the report.
 
+## Book 17 (Caplet, Sat 14 Nov, INSTRUCTIONS I104-I113): three things every run now does
+- **Voice, on the round days** (Mon 16, Wed 18, Fri 20, Sun 22, Tue 24; rehearsal Thu 26): run the round in
+  `voice/README.md`. Fresh writers read only Caplet's own writing (`voice/CORPUS.md`) and the plain facts; readers judge
+  whole passages blind, with Caplet's real passages mixed in. Never a rule list, never word-level comparison.
+- **Evaluate, never describe again:** any new note for the report says what it judges, against what
+  (`research/meta/EVALUATE_NOT_DESCRIBE.md`).
+- **Nothing lost:** a new card's strong rows get a place in SKELETON, a named line that carries them, or a written
+  reason, the same day (`research/GEM_LEDGER.md`, `research/gem2/`); its investing sources go to the references
+  (`research/REFERENCES_PLAN.md`, Keel's call of Sat 14 Nov: cite it all, APA-clean).
+
 ## The loop (Ray, Mon 9 Nov: "running automically self-reinforcing to produce the BEST final report")
 Every run makes the next one better (`BEST_IN_COMPETITION.md` section 3):
 - **Start** from `LESSONS.md` (how to work) and `SCORECARD.md` (where the report is weakest). The two or three lowest
