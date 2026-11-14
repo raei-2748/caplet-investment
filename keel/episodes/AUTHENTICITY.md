@@ -145,7 +145,12 @@ a message from Caplet, a finding, a mistake caught); only the people are invente
   words, entry endings that landed, a closing moral, Caplet's export put as the slow side), then 12 small ones (endings,
   a real line about the spare money nobody could follow), then 17 mostly small (every problem paragraph ending on its fix,
   scoring talk), then four small ones (two tangled sentences, an ending); each was cut or put in plain words, and the
-  fourth read's four were fixed without a fifth read.
+  fourth read's four were fixed without a fifth read. Ep 48 (Sat 14 Nov) failed three fresh reads: 31 lines (four serious:
+  a closing two-beat line about Laura's spare money, a sister's car music that echoed the voice test, a mistaken fix
+  told with no one taking it in, and unexplained marks), then 11 mostly small (a closing moral, a one-line paragraph,
+  endings on wins), then 13 small (endings, stiff words, a time that said "afternoon" for before six, a contradiction in
+  how the average was described); each was cut or put in plain words, and the third read's fixes went in without a
+  fourth read.
 
 ## 3. Sources, and what each teaches (all accessed Sun 8 Nov 2026)
 
