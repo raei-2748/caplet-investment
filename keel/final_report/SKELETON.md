@@ -97,8 +97,9 @@ WORDS's names; about 275 new words, paid by the cuts and Section 3's 60 spare).*
 
 **Added: strong ideas the plan had dropped (GEM_LEDGER section 4; one clause each, inside the words above or in an
 exhibit's note).**
-- 3e area (1): 7.5% is the top of published forecasts of about 6% to 7.5% a year (Q6-011), so the 4%-10% test covers
-  every house's view. Thesis 6, said so it keeps the pitch: the share forecast barely moves the top Laura states, while what shares actually do before 2031 sets it (coherence reader 4: never "the share forecast barely matters" alone).
+- 3e area (1): 7.5% sits in the upper third of fifteen houses' published forecasts, median about 6.5%, with four above it
+  (card Q6b row 22, Sun 15 Nov; "the top of published forecasts" (Q6-011) is killed), so the 4%-10% test covers all but
+  two houses' views, and at the lowest (GMO, about -2.5% a year) the stated top is one step lower, $110,000 (NUMBERS 8p). Thesis 6, said so it keeps the pitch: the share forecast barely moves the top Laura states, while what shares actually do before 2031 sets it (coherence reader 4: never "the share forecast barely matters" alone).
 - 3e area (2): the 2028 deposit comes from income paid on contract dates, and a downturn delays it first (card Q12:
   Q12-001, Q12-004, Q12-008); this is why Table 3 row 1 asks for written confirmation by 1 December 2027.
 - 3a: one public precedent beside the extra Treasuries: a state lottery that pays fixed prizes matures its holdings
@@ -115,6 +116,27 @@ exhibit's note).**
 - Theses 7, 10, 13, 14 and 15 already have homes (3b and 3e; 2.3; Table 3 row 7; 2.5; 2.1); BOLD_THESES gives each
   its line. The 39 at-risk ideas are listed with their lines in GEM_LEDGER section 2a; the second pass over the other
   tier-A ideas is in `research/gem2/` (Sat 14 Nov).
+
+**Sun 15 Nov (Day 8; cards Q6b, Q6c, Q6d, Q7b, Q7c; first digest `research/store/DIGEST_2026-11-15.md`). One clause
+each at most, inside the words above; no new number in prose beyond those named.**
+- 3e area (1) or Table 2's note: a 40% fall in world shares before the 2031 move lowers the top Laura can state to about
+  $105,000 and leaves the bottom and every payment where they were; a fall after the move changes only her flexibility
+  (NUMBERS 8p; Q6c-015, Q6c-016). The plan answers to where the shares stand on the move day, not the low on the way.
+  Never "protected from crashes"; no probability rarer than 1 in 100.
+- 3e, "why only these two": both reasons are exits for when the plan cannot be carried out (no deposit to complete it;
+  a Treasury that does not pay), never for when keeping it would hurt (Q7b-033); Yale kept its spending rule through an
+  8% endowment tax in 2026, and Stanford's trustees named their 2009 trigger after the fall (Q7c-003, Q7c-004), the
+  contrast with exits named in advance. The two weak tests (no outside check, and a reversal that costs nothing before
+  2031) are said as a limit, with no new rule (Q7b-035; CANON A34). Table 3's other rows ask for a closer look, never a
+  change (Q7b-036); the five-business-day test stays the definition of a Treasury default (Q7b-037).
+- 3a or 3e: the Treasuries carry the plan (it runs unless someone acts), the sentence names the only two exits, and from
+  the 2031 meetings co-sponsors bind it (Q7b-034). Never "Ulysses" or "binding" before 2031.
+- 3d: a foundation's pledge is owed (a liability paid from a risky pool); Laura's bottom is owned (Q7c-035). Never call
+  the operating reserve an endowment or a spending rule (Q7c-017).
+- 2.3 or 3b: VT is one world fund because the half kept may be spent in Taiwan dollars, where the usual reason for
+  staying at home (spending in US dollars) does not reach (Q6d-018); it guards against one country's long slump, not a
+  crash month (Q6d-012, Q6d-013). Taiwan is 3.5% of VT and does almost nothing for a Taiwan-dollar cost; never imply an
+  offset (Q6d-023).
 
 **Raised and answered by the report itself (card Q39, Sat 14 Nov: the strongest published critiques of each decision).**
 Two critiques a finance judge is most likely to hold, each named and answered in one or two sentences, so the report

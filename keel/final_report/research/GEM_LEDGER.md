@@ -72,7 +72,7 @@ INTENT.
 | 3 | Q12-018 | 23 (adapt) | high | Laura's own genre, graphic novels, rose 29% in 2020 and fell about a third over 2023-24 while shares boomed, so her career has a cycle of its own too. | `Q12_lauras_working_life.md` | 3e | Same clause, as the case-specific example of '2020 does not' (the case calls her a graphic novelist). Adapt: a limit, never 'her career moves against shares'. |
 | 4 | Q1b-002 | 23 (adapt) | high | An average college graduate's career is less than a fifth share-like, so the IPS's thesis rests on Laura not being average: self-employed, paid in advances and fees, at the top of a hit-driven field. | `Q1b_career_beta_horizon.md` | 3e | Same clause: the condition under which IPS l.3's thesis holds. Adapt: never 'her career is not share-like' (CANON A1). |
 | 5 | Q1b-010 | 22 | high | For the very top earners, income moves with GDP and shares (correlations above 0.6). | `Q1b_career_beta_horizon.md` | 3e | Same clause, paired with Q1b-002: weak link for the average graduate, strong for top earners. |
-| 6 | Q6-011 | 22 (adapt) | high | J.P. Morgan's 7.5% for world shares is the top of eight houses' dated forecasts, which run from about 6% to 7.5% (median about 6.5%). | `Q6_how_far_to_trust_7_5.md` | 3e | Edit 2: 3e area (1) says '7.5% a year (J.P. Morgan 2027), the top of published forecasts of about 6% to 7.5%', then the 4%-10% test. Adapt: never say the Trading Notes quoted the most optimistic house. |
+| 6 | Q6-011 | 22 (adapt) | high | J.P. Morgan's 7.5% for world shares is the top of eight houses' dated forecasts, which run from about 6% to 7.5% (median about 6.5%). Changed Sun 15 Nov (card Q6b): upper third of fifteen houses, four above it. | `Q6_how_far_to_trust_7_5.md` | 3e | Edit 2: 3e area (1) says '7.5% a year (J.P. Morgan 2027), the top of published forecasts of about 6% to 7.5%', then the 4%-10% test. Adapt: never say the Trading Notes quoted the most optimistic house. |
 | 7 | Q6-030 | 22 | high | Finance chiefs' 80% ranges for the next year's market caught the outcome only 36% of the time; experts' ranges run about a third as wide as reality. | `Q6_how_far_to_trust_7_5.md` | 3c | Edit 3: one clause in 3c. Forecast ranges miss, so Laura's range is built from money she will own, not from a forecast (Ben-David, Graham and Harvey 2013). This gives INTENT's 'biggest strength' its evidence. |
 | 8 | Q16-020 | 22 | high | A state lottery that pays fixed yearly prizes buys extra bonds 'to hold in reserve' against reinvestment risk. | `Q16_operating_reserve_mechanics.md` | 3a | Edit 4: one clause beside the extra Treasuries. A public payer of fixed prizes buys reserve bonds against reinvestment risk on purpose (California State Lottery 2025, s.VI), so the extra Treasuries read as practice, not a patch (INTENT failure 7). |
 | 9 | Q16-018 | 23 | high | The same lottery's written policy is the IPS's rule: investments mature 'immediately prior' to each prize date and are held to maturity. | `Q16_operating_reserve_mechanics.md` | 3a | Same clause as Q16-020, one source (s.III). |
@@ -260,8 +260,9 @@ page shows tier A at 1,198; the rebuild gives 1,186. Rerun `store/build_store.py
    link is strong for top earners and weak for the average graduate (Q1c-005, Q1c-010, Q12-018, Q1b-002, Q1b-010,
    Q1-046). Frame it as the tested limit of IPS l.9, which CANON B4 rates PARTLY true, never as a reversal of the
    thesis.
-2. 3e area (1): call 7.5% "the top of published forecasts of about 6% to 7.5%" (Q6-011), so the 4%-10% test reads as
-   covering every house's view.
+2. 3e area (1): ~~call 7.5% "the top of published forecasts of about 6% to 7.5%" (Q6-011)~~ (killed Sun 15 Nov, card Q6b:
+   fifteen houses on one basis put it in the upper third, median about 6.5%, four above it); say "upper third", with the
+   4%-10% test and NUMBERS 8p's lowest-house row.
 3. 3c: add one clause that forecast ranges miss (finance chiefs' 80% ranges held 36% of the time, Q6-030), so Laura's
    range comes from owned money. INTENT's "biggest strength" then has its evidence.
 4. 3a: add one public precedent beside the extra Treasuries. A state lottery that pays fixed prizes matures its holdings
@@ -307,3 +308,21 @@ Every strong row has a place or a reason. Places are notes in `CONCEIT.md`, `SKE
 | Q44-006, -011 | 20-21 | CONCEIT 5 and 5b: Martin (2019, p. 6) verified in print; Richmond (2006) for "never taken off cleanly" |
 | Q44-001, -002, -004 | store | Process pages: not in 3f (card Q42: a second mapping that would call a plan pencil) |
 | Q44-017, -019 | store | Non-photo blue: a third term, store only unless the trim/bleed image fails the blind read |
+
+## 6. Sun 15 Nov (Day 8): cards Q6b-Q7c and the first digest
+
+Nothing lost: every row the digest refused or merged is still in the store with its reason (`store/DIGEST_2026-11-15.md`
+section 1 lists the refusals; merged rows point to the row that holds their idea). Where the day's strongest rows land:
+
+| Ids | Score or status | Where it lands |
+|---|---|---|
+| Q6b-022 (with Q6-011 re-noted) | 21, keep | 3e area (1): "upper third" of fifteen houses; "the top of published forecasts" killed (section 4 edit 2 struck) |
+| Q6c-015, Q6c-016, Q6c-019 | 23-24, keep | 3e area (1) or Table 2's note, one clause; NUMBERS 8p |
+| Q6c-017 | 21, keep | 3e as a limit of IPS l.15's fixed move date (a fall before the move is kept even if shares recover) |
+| Q6d-018, Q6d-012, Q6d-013 | 20-22, keep | 2.3 or 3b, one clause: why one world fund for money that may be spent in Taiwan dollars |
+| Q6d-023, Q6d-026 | keep, adapt | Guard: never imply VT offsets the Taiwan dollar (IPS l.15) |
+| Q7b-033, Q7b-034 | 21-22, keep | 3e "why only these two"; 3a "the Treasuries carry the plan" |
+| Q7b-035 to Q7b-038 | adapt | 3e limit (two weak tests, no new rule); guards on Table 3 and the five-business-day definition |
+| Q7c-003, Q7c-004 | 21-22, keep | 3e, one clause at most: rules kept through a shock against triggers named after one |
+| Q7c-033, Q7c-035 | 22-23, keep | 3d: owed, not owned |
+| Q7c-017 | keep | Guard: never call the reserve an endowment |

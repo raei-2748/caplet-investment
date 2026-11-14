@@ -1430,6 +1430,63 @@ half; 70% and 30% only show the trade-off it chose. Nothing is re-sized and no e
   co-sponsor's size or shortfall is modelled (case l.106-107). The three uses are tested one at a time, never together
   (card Q5). The move is modelled on 1 Jan 2031. 70% and 30% are not choices open to Caplet: the IPS is frozen.
 
+### 8p. A 40% fall in world shares before or after the 2031 move (Sun 15 Nov, MODEL; card Q6c)
+- **Checked:** the lead re-ran the script on Sun 15 Nov; every register check passes (central row to the cent).
+- **Script and rerun:** `numbers/fall40.py`, results `numbers/results_fall40_2026-11-15.json`. From the repo root,
+  `python3 -I keel/final_report/numbers/fall40.py` (about 9 seconds). Imports engine, plan and completion; changes no
+  other script and writes no other file.
+- **Basis:** the Tue 10 Nov register (design H_plain with the fee cushion, the range rule on the fund's holdings, Keel's
+  reading of "most"), rates at today's forwards unless a row says otherwise; the move on 1 Jan 2031. "Down 40%" = VT with
+  dividends, before its 0.06% fee, at 0.6 times its value on the earlier date.
+- **Check:** the central row reproduces 8i row 1 to the cent and section 4's deletion test ($95,000; $103,178; $8,178).
+
+| World (VT; rates) | Stated range (unrounded top) | What the funds pay | Contribution | Above the top | Her flexibility, 1 Jan 2033 | Ten payments | Back from the extra Treasuries by 2042 |
+|---|---|---|---|---|---|---|---|
+| Central: 7.5% a year; forwards | $95,000 to $115,000 ($118,443) | $123,476 | $115,000 | $8,476 | $21,347 | All paid | $74,123 |
+| 40% below Jan 2028 cost at the move, then 7.5% a year | $95,000 to $105,000 ($108,250) | $112,981 | $105,000 | $7,981 | $10,310 | All paid | $74,123 |
+| The same, then flat to 2033 | $95,000 to $105,000 ($108,250) | $112,981 | $105,000 | $7,981 | $8,922 | All paid | $74,123 |
+| Flat to the move, then 7.5% a year (baseline for the next row) | $95,000 to $110,000 ($114,598) | $119,517 | $110,000 | $9,517 | $17,184 | All paid | $74,123 |
+| Flat to the move, then 40% down by Jan 2033 | $95,000 to $110,000 ($114,598) | $119,517 | $110,000 | $9,517 | $8,922 | All paid | $74,123 |
+| 40% down at the move, back on the 7.5% path by Jan 2033 | $95,000 to $105,000 ($108,250) | $112,981 | $105,000 | $7,981 | $21,347 | All paid | $74,123 |
+| 40% down at the move; yields 2 points below forwards from the move | $95,000 to $105,000 ($107,979) | $111,684 | $105,000 | $6,684 | $10,310 | All paid | $55,195 |
+| 40% below the 7.5% path at the move (25.5% below cost), then 7.5% | $95,000 to $110,000 ($110,557) | $115,357 | $110,000 | $5,357 | $12,808 | All paid | $74,123 |
+| VT worthless at the move (section 4's deletion test) | $95,000 ($98,729) | $103,178 | $95,000 | $8,178 | $0 | All paid | $74,123 |
+
+- **The steps (today's forwards):** each $1 VT gains or loses before the move moves the unrounded top by about $0.53.
+  Stated top $115,000 needs VT at least 2.5% above its January 2028 cost at the move; $110,000 holds down to a 29.0%
+  fall; $105,000 to 60.5%; $100,000 to 92.0%; $95,000 at zero; $120,000 needs +34.0%. On J.P. Morgan's 7.5% and 17.88%,
+  VT is below +2.5% at the move in 26.8% of futures (lognormal arithmetic).
+- **One $5,000 step of the stated top (lead's check, Sun 15 Nov; closes the digest's CEILING hole):** VT must move about
+  31.5 points of its January 2028 cost (about $9,400), which is about 25% of its central value on the move day
+  ($36,989). The share assumption from 4% to 10% moves the unrounded top $116,580 to $119,851 (section 4), $3,271, about
+  0.65 of a step, and the stated top stays $115,000 throughout (card Q6b row 31). Market luck moves it several steps
+  (Table 2: $95,000 to $140,000). Keel arithmetic on this section's steps.
+- **Every house in card Q6b's panel, as VT's return to 2033 (lead's run, Sun 15 Nov, `fall40.scenario`; central row
+  reproduced to the dollar):** GMO -2.5% a year: unrounded top $113,438, stated $110,000, her flexibility $13,102;
+  Ninety One 2.2%: $115,669, $115,000, $16,579; Syzygy 5.0%: $117,100, $115,000, $18,978; the panel median 6.5%:
+  $117,898, $115,000, $20,373; J.P. Morgan 7.5%: $118,443, $115,000, $21,347; BlackRock 9.0%: $119,280, $115,000,
+  $22,879. So fourteen of fifteen houses' figures give a stated top of $115,000 and the lowest gives $110,000; the
+  stated top holds at $115,000 for any return above about 0.84% a year to the move.
+- **How often (house model, 200,000 futures, seed 2033):** VT 40% or more below cost at the move in 0.95% (exact
+  lognormal 0.94%); there the stated top is $90,000 / $105,000 / $125,000 (1 in 20 low / median / 1 in 20 high), the
+  bottom $85,000 / $95,000 / $115,000 (as in all futures) and the contribution inside the range in every future. A 40%
+  fall after the move: 0.49% of futures; contribution median $115,000; her flexibility median $9,898.
+- **How often (US stocks since 1871, rates at forwards, 1,770 windows):** VT 40%+ below cost at the move in 20 windows
+  (1.1%), all purchases Oct 1928 to May 1930; stated top $100,000 to $105,000. A 40% fall after the move in 25 windows
+  (1.4%; purchases Jun 1926 to Apr 1928 and Feb-Mar 2004); stated top median $120,000; her flexibility median $9,624.
+- **Named purchase months (US stocks):** Oct 2007 $110,000 top (VT 0.82 of cost at the move); Mar 2000 and Aug 2000
+  $105,000; Jan 1973 $110,000; Sep 1929 $100,000.
+- **Drawdowns against point-to-point falls:** on the house model's own assumptions, month by month (100,000 paths, seed
+  4040), 4.2% of 3-year paths contain a 40% fall from a peak, 0.94% end 40% below their start; US stocks since 1871
+  (monthly averages): 6.7% and 1.1%. The plan's top responds only to the second.
+- **What the report may say (notes, not wording):** a 40% fall in world shares before half moves lowers the top Laura can
+  state from about $115,000 to about $105,000 and leaves the bottom, about $95,000, and every payment where they were; a
+  fall after the move changes only her flexibility. Never "the plan is protected from crashes"; never a probability rarer
+  than 1 in 100 in prose.
+- **Limits:** a fall is a point on 1 Jan 2031; the recession row moves yields in parallel by a fixed 2 points (3 points:
+  top $107,846, funds pay $111,045, $47,070 back); US stocks stand in for VT in history; stocks and yields are drawn apart
+  in the house model (section 7).
+
 ## 9. Still to add (later days)
 - **The exhibits are not yet re-built on these figures.** `exhibits/exhibit_data.py` reads 8h (per payment: own holding above $50,000 and backstop cover, now in four worlds), section 4 and 8i (Exhibit 3). Re-run it, then `exhibits/build_exhibits.py`; this register run did not touch them. `exhibit_data.py` should read the backstop's value on 1 Jan 2033 ($45,456), not its cost carried ($45,487).
 - **Cards Q19, Q20 and Q24 refresh to these figures** (section 10). Q24's Taiwan dollar test (verdict 3, rows 22-25, card 4) is replaced by 8j.
