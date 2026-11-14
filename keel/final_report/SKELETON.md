@@ -1,4 +1,4 @@
-# Skeleton: the Final Report's parts, budgets and evidence (version 2, Tue 10 Nov 2026, amended Wed 11 Nov morning and evening, Thu 12 Nov morning and evening and Sat 14 Nov midday (Book 17); first version Mon 9 Nov night)
+# Skeleton: the Final Report's parts, budgets and evidence (version 2, Tue 10 Nov 2026, amended Wed 11 Nov morning and evening, Thu 12 Nov morning and evening, Sat 14 Nov midday (Book 17) and Sat 14 Nov evening (the conceit); first version Mon 9 Nov night)
 
 Planning notes, not report text: each part lists its job, the claims it must establish (as notes), the figures it may
 use and where the evidence is. Section names and limits are Wharton's (`WHARTON_NORTH_STAR.md` section 0). The argument
@@ -160,6 +160,30 @@ the plan secures the money, not the site or the people.
 **How each part is read on 27 Nov.** Every paragraph is read once for its verb: if it only describes something the IPS
 or Trading Notes already say (EVALUATE section 2 is the list), it is cut or turned into a judgement with its criterion
 and its comparison. Target: the share of prose that analyses or evaluates rises from about 31% to at least 44%.
+
+## The conceit (Sat 14 Nov, evening): pencil and ink
+
+Caplet's decision (`../EXPECTATIONS.md` standing order 20); Keel's mapping, placement, guards and the craft facts are in
+`CONCEIT.md`. Pencil is anything not yet owned; ink is a figure already owned in Treasuries that will pay it, barring a
+US default; Laura states a figure only once it is inked (IPS l.15). It adds no words: each image sentence comes out of
+its part's budget, and five to seven appear in the whole report.
+
+| Part | The image sentence's job (notes) |
+|---|---|
+| 2.0 | None: defining ink on a portfolio whose rungs rely on reinvested coupons would teach a false definition at first use |
+| 2.1 (optional) | The two-thirds reduction, the ratio only ($300,000 of $450,000, as comic art is drawn about half as large again as it is printed); never "every line there" |
+| 3.0 | The rule, defined once with its dates; the ten-year operating commitment finished by January 2028, five years before the first payment |
+| 3a | The one line the January 2027 purchase leaves in pencil (interest not yet earned) and how the first $38,282 of the 2028 deposit inks it; about $45,500 back if rates hold |
+| 3b | Ink only goes one way: every end rounded down and every surplus to unpromised money, so she can give more later and never take back; her flexibility is the pencil never inked (never a bleed, never a natural hedge) |
+| 3c | Trim, bleed and safe area: the top is the trim line, what the funds pay above it is the bleed (it joins her flexibility), the bottom sits in the safe area; inked before shown, nothing stated before the move |
+| 3d | None: Laura's words carry no comics image ("I only put in writing what I already own" may carry the idea plainly) |
+| 3e | The two reasons to change: the pencil never arriving (no 2028 deposit by 31 Mar 2028) and the ink failing (a Treasury payment more than five business days late); an illustrator's advance paid on delivery can be its evidence clause |
+| 3f | Only if an event chosen blind on Mon 16 Nov fits it |
+
+Never in tables, figures, notes or References; never a part's first or last line; never "inked" without "barring a US
+default" and its date; the report's own modelled figures are pencil; the IPS is never called pencil. The ranked
+parallels are in CONCEIT section 5b (independent audit, card Q41). Each image is read on 27 Nov against Johnson's test
+(CONCEIT section 7, guard 11) and cut, not fixed, if it fails.
 
 ## Section 2. Portfolio Implementation (3 pages: about 580 words and Table 1; 626 at most fit, Thu 12 Nov evening)
 

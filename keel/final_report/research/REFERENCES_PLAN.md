@@ -1183,6 +1183,21 @@ Depth is "reader" unless marked otherwise. "Re-read of" marks a duplicate entry.
 | 1003 | Stevens, "Issues in Economic Policy" (Jul 2015, Anika Foundation) https://www.rba.gov.au/speeches/2015/sp-gov-2015-07-22.html | reader |
 
 
+### 2H. The conceit's sources (Sat 14 Nov evening; card Q40, `../CONCEIT.md`)
+Not investing literature, so they enter References only if the image they support is printed (APA: cite what the text
+uses). Full elements and quotes in card Q40.
+- Johnson, S. (1779). *Life of Cowley*, in *Prefaces, biographical and critical, to the works of the English poets*
+  (Vol. 1). The definition of wit and the warning on forced conceits (CONCEIT section 7).
+- Silver, M. (2025, March 4). [Climbing interview with Laura Gao]. *Climbing*. Her line on not knowing how a book
+  will do "until the day it hits the shelves" (title and link in card Q40, item 8c).
+- Johnston, R. (2015, October 22). [Interview with Image publisher Eric Stephenson]. *Bleeding Cool*. "Three
+  completed issues, not just scripts" before a series is solicited.
+- Authors Guild. (n.d.). *Model trade book contract*: advance instalments; reserve against returns.
+- Association of Illustrators. (n.d.). *Publishing contracts: The basics*: advances in three parts.
+- The Comics Journal (2011, March 13): original art at 10 x 15 inches (card Q40, item 10).
+- Martin, G. *The art of comic book inking* (Dark Horse; 1997, 2nd ed. 2005, 3rd ed. 2019): cite only after a printed
+  copy is checked and the page noted; the sentences found so far are from a manuscript.
+
 ## 3. What the rules allow, and the shape we recommend
 
 ### 3a. Wharton

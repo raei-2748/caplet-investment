@@ -239,6 +239,9 @@ references run reads those sources again and merges them.
 | Q36 | [Q36_ibonds_fund_end_powers.md](cards/Q36_ibonds_fund_end_powers.md) | can an iBonds Treasury fund's end date move, and who decides? | Sources section, l.270 | none yet |
 | Q37 | [Q37_stating_assumptions.md](cards/Q37_stating_assumptions.md) | stating the plan's assumptions and limits so a judge trusts them | Sources section, l.264 | none yet |
 | Q38 | [Q38_holding_identifiers.md](cards/Q38_holding_identifiers.md) | a verified public identifier for every holding in Table 1 | Sources section, l.223 | none yet |
+| Q39 | [Q39_strongest_critiques.md](cards/Q39_strongest_critiques.md) | the strongest published critiques of the plan's ideas, and the answer to each | its source table | none yet |
+| Q40 | [Q40_pencil_and_ink_craft.md](cards/Q40_pencil_and_ink_craft.md) | the comics craft behind the conceit "pencil and ink": stages, pencils erased, ink corrections, bleed and safe area, finished issues before solicitation, non-returnable shop orders, advances in instalments, art drawn larger than printed, Laura's Climbing quote | "Quotes by item" sections, each with its link and date | the conceit (`../CONCEIT.md`) |
+| Q41 | [Q41_conceit_audit.md](cards/Q41_conceit_audit.md) | an independent audit of the conceit: the AI mapping's errors against the register, errors in Keel's own notes, where the image misleads, twelve ranked parallels, placement and guards | Parts A-D, each citing file and line | the conceit (`../CONCEIT.md` 5b, 6, 7) |
 
 ## 6. Older research files and official documents cited by short name
 

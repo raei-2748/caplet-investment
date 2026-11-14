@@ -41,6 +41,26 @@ Three rules:
 | The interest a bond pays along the way | the interest each bond pays (along the way) | the fixed payments a Treasury makes twice a year before it ends | coupons (except once in a note for bond readers) | lay reader, Thu 12 Nov evening ("I do not know what a coupon is here") |
 | Keel's numbers | "we modelled" | the basis and the date beside each modelled figure | MODEL, the register, NUMBERS 8h, card Q20, H_plain, Keel | EXPECTATIONS (Book 10: "we modelled", never "we judge") |
 
+## The conceit's words (Sat 14 Nov, evening; `CONCEIT.md`)
+The conceit adds words to the report; it never replaces a name in the table above. "The floor" stays "the floor", "the
+extra Treasuries" stay "the extra Treasuries". The image words are verbs and adjectives inside a sentence that already
+uses the plain name.
+
+| Word | Means | Never |
+|---|---|---|
+| ink, inked | a figure already owned in Treasuries that will pay it; always with "barring a US default" in the same sentence or the one before | guaranteed, locked in, set in stone, risk-free, bulletproof; "inked" for her flexibility, the 7.5%, a median or anything before its date; "the inked floor" or any new name |
+| pencil, pencilled | not yet owned: future income, the 2028 deposit before it arrives, the shares before half of them move, interest not yet earned, a model result | "the pencil money" as a name; "draft" (kept for the report's own drafts); calling the IPS pencil |
+| rubbed out | set aside, with its record kept (the first plan of 27 Sep) | erased without trace |
+| finished before it is offered (once) | the ten payments owned by January 2028, as publishers ask for issues "in the can" before a series is offered to shops | "banked issues" as a trade term (unsourced); any pun on "issue" (a Treasury issue); "each stands alone" (say "all ten owned") |
+| two-thirds (once, Section 2.1, optional) | the ratio only: $300,000 of the plan's $450,000, as comic art is drawn about half as large again as it is printed | "every line there", "the plan in miniature" or any claim that the weights or holdings match (no top-up, no extra Treasuries; VT 8.84% against 6.63%) |
+| trim, bleed, safe area (once, 3c, explained in the same sentence) | the stated top is the trim line; what the funds pay above it (about $8,500) is the bleed, which joins her flexibility instead of being thrown away; the bottom sits in the safe area (`CONCEIT.md` 5b, parallel 3) | the bleed for her flexibility; one printed figure for the safe area |
+| ink only goes one way (once, 3b) | every end rounded down, every surplus to unpromised money, so she can give more later and never has to take any back | a promise to add money |
+| erase the pencils (once) | the deletion test: shares at zero, and the payments, the floor and a one-figure range still stand | "colour" for the shares; "colour on a scan" |
+| non-photo blue (at most once, as 3c's alternative) | the report's modelled figures: construction lines dropped before anything is stated | "invisible"; for her flexibility |
+| (banned in images) | | panels, gutters, splash page, origin story, sound effects; puns on "issue", "draw" or "drawdown"; "buffer", "cushion", "backstop", "triggers" |
+
+Nowhere in tables, figures, exhibit notes, References or Laura's words to co-sponsors.
+
 ## Numbers in prose
 - Prose rounds to about $500 or $1,000 with "about"; tables carry exact figures. The co-sponsor passage never puts
   "about" before a figure co-sponsors are to count (SKELETON 3d).

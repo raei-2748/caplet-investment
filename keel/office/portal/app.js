@@ -655,7 +655,8 @@
       ["#/doc/keel/final_report/research/SOURCES.md", "Sources register", "Where every source label in the Final Report research leads (W8, T14, card rows), with its link"],
       ["#/doc/keel/final_report/voice/ROUND1.md", "Voice round 1", "Three writers, fourteen passages read blind against Caplet's IPS, and what changes for 27 Nov"],
       ["#/doc/keel/final_report/voice/WHY_OPAQUE.md", "Why Keel goes opaque", "Why Keel's writing changed on investing, and what round 1 showed"],
-      ["#/doc/keel/final_report/research/gem2/README.md", "Nothing lost", "Every strong idea in the store read by hand: where each lands, or why it stays out"]];
+      ["#/doc/keel/final_report/research/gem2/README.md", "Nothing lost", "Every strong idea in the store read by hand: where each lands, or why it stays out"],
+      ["#/doc/keel/final_report/CONCEIT.md", "Pencil and ink", "Caplet's conceit for the report: when each part of Laura's money is inked, the draft mapping corrected, and where each image goes"]];
     app.innerHTML = `<div class="today"><div class="day-title"><span class="eyebrow">One click deeper</span><h1>Everything else</h1></div>
       <ul class="morelist">${L.map(([h, t, d]) => `<li><a href="${h}"><b>${esc(t)}</b><span>${esc(d)}</span></a></li>`).join("")}</ul>${judgedCard()}</div>`;
   }
