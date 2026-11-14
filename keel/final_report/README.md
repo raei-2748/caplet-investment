@@ -42,6 +42,21 @@ of this thread early in the morning (06:00 on Fri 27); every run reads `../EXPEC
 | - | Mon 30 Nov, Wed 2 Dec | Review week: hard issues only in Caplet's text (numbers, coherence, Works Cited, Wharton's limits), read only |
 | - | Fri 4 Dec 18:00 | Last check, fifteen hours before the deadline (Sat 5 Dec 09:00 Sydney) |
 
+**What Book 17 changed (Sat 14 Nov).** Caplet: "START with OUR voice and style and tone ... Literally write like we
+do", and the report must "evaluate" and "analyse" where the IPS described. Three changes to the plan above:
+- **Voice runs beside the research every other day** (`voice/README.md`): rounds on Sat 14, Mon 16, Wed 18, Fri 20,
+  Sun 22 and Tue 24, a rehearsal on Thu 26. Round 1 (`voice/ROUND1.md`), read blind by three readers: Caplet's own
+  reflections were heard as Caplet's 9 times in 9; writers who had read only Caplet's writing, 13 times in 18; Keel's
+  main session, 0 times in 9. **So on Fri 27 the report's sentences are written by fresh writers who have read only
+  Caplet's own writing and the plain facts for their part. The main session plans, supplies the facts, and checks the
+  finished text afterwards; any fix goes back to a writer to make in the voice.** `WRITING_SESSION.md` (Thu 26) is
+  built on that.
+- **Every part evaluates** (`research/meta/EVALUATE_NOT_DESCRIBE.md`): what the IPS and Trading Notes already say is
+  listed sentence by sentence and not said again beyond the one clause a reader needs; each part carries the judge's
+  questions it must answer, with the criterion and the comparison.
+- **Nothing found is lost** (`research/GEM_LEDGER.md`, the 253 strongest ideas; `research/gem2/`, the other 862, every one read by hand) and **the references are built for the judges**
+  (`research/REFERENCES_PLAN.md`): investing literature in, Wharton's own pages out.
+
 **Why it changed (8 Nov evening).** The old plan researched for nine days before anything said what shape the report
 would take, re-ran the numbers on day 9, asked for Caplet's sentences on day 14 and drew the charts on day 16. A report
 written in one day needs its skeleton, numbers and exhibits settled long before. So: numbers first (Mon 9), so every

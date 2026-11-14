@@ -1,5 +1,10 @@
 # Voice study 1: the same ideas in two voices (Sun 8 Nov 2026)
 
+> **History, not method (Sat 14 Nov, Book 17).** Caplet's verdict on this study: comparing sentences word by word and
+> closing with a list of rules can at best remove the worst sentences while Keel's own style stays the backbone. Its
+> six rules are retired. The voice is now learnt by reading Caplet whole and writing forward from inside it: see
+> [`README.md`](README.md) and [`WHY_OPAQUE.md`](WHY_OPAQUE.md).
+
 **Question.** Caplet's FINAL IPS and Keel's last draft (V62, `/mnt/project-files/ips/FINAL/ips_V62.txt`, 6 Nov 07:30)
 carry mostly the same plan. Caplet called Keel's drafts incomprehensible and wrote its own. Idea by idea, what did the
 human writers do that Keel did not? Read by ear, sentence against sentence. No counting.

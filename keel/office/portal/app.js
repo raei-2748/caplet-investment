@@ -652,7 +652,10 @@
     const L = [["#/office", "Office dashboard", "Rooms on time, charts, deadlines and the latest commits"], ["#/ideas", "The idea bank", "Every good idea and the deliverable it lands in"], ["#/ips", "The IPS", "Every version and what changed"], ["#/doc/keel/BIBLE.md", "The bible", "Nine books, read first by every run"],
       ["#/plan", "Questions for you", "The danger-zone question, Keel's own calls with reasons, and your instructions"], ["#/rooms", "Rooms", "Twelve rooms, each with its decisions and work"], ["#/team", "The six", "Profiles and every take"],
       ["#/activity", "Activity", "Every commit and the run log"], ["#/episodes", "Episodes", "The story so far (fiction)"], ["#/library", "Library", "Every page Keel has written"],
-      ["#/doc/keel/final_report/research/SOURCES.md", "Sources register", "Where every source label in the Final Report research leads (W8, T14, card rows), with its link"]];
+      ["#/doc/keel/final_report/research/SOURCES.md", "Sources register", "Where every source label in the Final Report research leads (W8, T14, card rows), with its link"],
+      ["#/doc/keel/final_report/voice/ROUND1.md", "Voice round 1", "Three writers, fourteen passages read blind against Caplet's IPS, and what changes for 27 Nov"],
+      ["#/doc/keel/final_report/voice/WHY_OPAQUE.md", "Why Keel goes opaque", "Why Keel's writing changed on investing, and what round 1 showed"],
+      ["#/doc/keel/final_report/research/gem2/README.md", "Nothing lost", "Every strong idea in the store read by hand: where each lands, or why it stays out"]];
     app.innerHTML = `<div class="today"><div class="day-title"><span class="eyebrow">One click deeper</span><h1>Everything else</h1></div>
       <ul class="morelist">${L.map(([h, t, d]) => `<li><a href="${h}"><b>${esc(t)}</b><span>${esc(d)}</span></a></li>`).join("")}</ul>${judgedCard()}</div>`;
   }
