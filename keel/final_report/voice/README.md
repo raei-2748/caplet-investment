@@ -69,7 +69,11 @@ whole (Book 14: no report prose before then).
 
 - **The conceit (Sat 14 Nov, evening).** Caplet chose "pencil and ink" for the report (`../CONCEIT.md`). From round 2
   every writer gets its plain-words summary in `FACTS_PLAIN.md`, and the readers judge it like everything else: by ear,
-  blind. Round 1 warned that set-piece openings and rounded endings read as Keel, so an image sentence never opens or
+  blind. For the 2031 range passage the readers are also scored, not polled (card Q42: readers prefer metaphor even
+  where it does not help them): each restates the range rule in their own words and answers one applied question ("in
+  January 2030, may Laura tell a co-sponsor $115,000?"; no, the top is not yet owned). A restatement with "owned"
+  and "barring a US default" counts; "committed", "promised" or "signed" is a miss. Trim, bleed and safe area is tried
+  in one conceit version and stays only if its readers do better (`../CONCEIT.md` section 10). Round 1 warned that set-piece openings and rounded endings read as Keel, so an image sentence never opens or
   closes a passage.
 
 ## Files

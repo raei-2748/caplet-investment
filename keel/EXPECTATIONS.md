@@ -107,8 +107,8 @@ days are run. Quotes are Ray's words. Keel's steps for following them every day 
    surprising and seemingly far-fetched parallels. It displays wit, intellectual ingenuity, and offers a startling new
    perspective. THAT is what we're going for." The IPS had none because "That was a letter; this is not a letter."
    Caplet sent an AI-drafted mapping as "an absolutely brilliant starting point", "not gospel", and left the changes to
-   Keel. Keel's version is `final_report/CONCEIT.md`: pencil is anything not yet owned; ink is a figure already owned in
-   Treasuries that will pay it, barring a US default; Laura states a figure only once it is inked, which is the IPS's
+   Keel. Keel's version is `final_report/CONCEIT.md`: ink is a dollar figure owned in Treasuries that will pay it on its
+   date, barring a US default; pencil is a figure no Treasury she owns will pay yet; Laura states a figure only once it is inked, which is the IPS's
    own rule ("whatever figure you choose is money you already own", l.15). Every figure in the AI draft is reconciled to
    `final_report/NUMBERS.md` there, and the parts that no longer matched the plan (a $140,000-$160,000 range, a $7,500
    buffer checked in 2033, VT as "colour") are replaced. This replaces Keel's 8 Nov reading of Part 6 for the Final
@@ -352,7 +352,8 @@ latter certainly couldn't do any harm."
 - *Meets it:* the creative moves are decisions, and the writing serves them.
 - **The conceit (standing order 20).** Caplet's pencil and ink is craft on top of intellect, Book 1's "combination of
   BOTH". It earns its place only where an image explains, predicts or tests a decision: each line has its own inking
-  date (the ten payments and the bottom in January 2028, the top before the 2031 meetings, her flexibility never);
+  date (most of each payment in January 2027, when the ten are bought; the rest of each payment and the bottom in
+  January 2028; the top before the 2031 meetings; her flexibility never);
   nothing is stated before it is owned; ink only goes one way, so every end is rounded down; erase the pencils (shares
   at zero) and the inked page still reads. An
   image sentence that does no such job is cut (`final_report/CONCEIT.md` section 7).
@@ -558,9 +559,10 @@ like a human, aloud, against Caplet's own writing.
 - *Falls short:* a line a reader would quote as an example of AI writing.
 - *Meets it:* nothing reads as a slogan; nothing is there to sound clever.
 - **The conceit's corniness guard (standing order 20).** Elaborate metaphor is what Book 2 warned AI over-uses, so the
-  conceit is held tight: two carrying words (pencil, ink); any other craft fact once, explained in the same sentence;
-  at most one image sentence in a part and never as its first or last line (round 1's readers heard set-piece openings
-  and rounded endings as not Caplet); never in tables or Laura's words to co-sponsors; no comics jargon or puns.
+  conceit is held tight: two carrying words (pencil, ink); any other craft fact once, explained in the same sentence,
+  and only if it extends "owned or not yet"; at most five image sentences in the report and one in a part, never its
+  last line (evidence: card Q42) or its first (round 1's readers heard set-piece openings and rounded endings as not
+  Caplet), the image before or with its number; struck out, the sentence must still state its number and rule; never in tables or Laura's words to co-sponsors; no comics jargon or puns.
   Samuel Johnson's test is the bar: wit "which he that never found it, wonders how he missed", never the conceit whose
   reader "thinks his improvement dearly bought" (`final_report/CONCEIT.md` section 7).
 - *Delights:* the prose is invisible: the reader notices only the ideas and, now and then, a line they enjoy.

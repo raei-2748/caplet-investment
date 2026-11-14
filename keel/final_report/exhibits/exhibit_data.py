@@ -312,7 +312,7 @@ WORLDS = [
     # (key, plain name printed in the table, where the data sit in the JSON)
     ("forwards", "Today's forward rates", ("scenarios", "forwards")),
     ("2006-06", "Replay from 2006: shares fall", ("named", "2006-06")),
-    ("minus3", "Rates 3 points lower for good", ("scenarios", "minus3")),
+    ("minus3", "Rates 3 points lower from Jan 2027", ("scenarios", "minus3")),   # Sat 14 Nov: timing labelled
     ("2007-07", "Replay from 2007: rates fall early", ("named", "2007-07")),
     ("inflation", "Inflation: rates 3 points higher", ("scenarios", "inflation")),
 ]
@@ -436,14 +436,14 @@ TABLE3_ROWS = [
         f"The 2028 deposit ({dollars(DEPOSIT_2028)})",
         "Laura",
         f"Confirmed by {CONFIRM_BY.day} {CONFIRM_BY.strftime('%b')} {CONFIRM_BY.year}; its first {dollars(TOPUP)} "
-        "to the payments",
+        "(today's rates) to the payments",   # Sat 14 Nov (bond reader 2): a today's-rates figure, so labelled
         f"Nothing received by {_d(MISSED_BY, weekday=False)} (a missed deposit)",
         _changes(f"no range until money comes; 2033's payment {dollars(MISSED_SHORT_2033)} short at today's rates",
                  "a sale")]),
     ("reason", [
         "Treasury payments",
         "Team",
-        "Paid when due, or the next business day after a holiday",
+        "Paid when due, or the next business day",   # 31 CFR 356.30(a): weekends and holidays alike (bond reader 2)
         f"A Treasury default: a payment over {_NUM[DEFAULT_DAYS]} business days late",
         _changes("payments and range, restated on what was paid", "a forced sale")]),
     ("closer", [
@@ -453,25 +453,33 @@ TABLE3_ROWS = [
         "An X-date within a month of a cash date",
         _changes("nothing before it", "a sale ahead of it")]),
     ("closer", [
-        "iBond fund notices, the floor's too",
+        "iBond and Treasury-bill fund notices",
         "Team",
-        f"Ending notice in October; cash {IBOND_SLACK} business days before the year's last ({IBOND_SLACK_2036} "
-        "for 2036)",
-        "No notice by 31 October, or one that ends a fund early, merges it or moves its end past a payment",
-        _changes("the fund, for a Treasury maturing just before it's needed; any gap from the extra Treasuries, "
-                 "the floor's from its 0.5% margin",
-                 "VT")]),   # Fri 13 Nov evening (card Q36 row 23): "the shares" could mean the iBond fund's own
+        f"Ending notice in October; cash {IBOND_SLACK} business days before year end ({IBOND_SLACK_2036}, "
+        "2036 payment); bill fee 0.15%",
+        "A fund ends early, merges or moves past a payment; bill fee over 0.15%; no notice: read filings",
+        _changes("its money (paid out or sold) buys a Treasury due by 15 December; a gap from the extra "
+                 "Treasuries, re-tested; the range's from its 0.5%",
+                 "VT")]),
+    # Sat 14 Nov (bond reader 2, coherence reader 4): an extension or merger needs a sale, so "paid out, or its shares
+    # sold"; a 31 December note can pay after 1 January, so "by 15 December"; the late-2032 fund holds both ends of the
+    # range, so "the range's" margin; a gap paid from the extra Treasuries leaves the no-interest test short by it, so
+    # "re-tested"; the October notice is practice, not a duty ("without further notice"), so silence is a reading, not
+    # a swap; the waiting money's bill fund (0.15%, NUMBERS 0, its fund UNVERIFIED) is now watched.   # Fri 13 Nov evening (card Q36 row 23): "the shares" could mean the iBond fund's own
     ("closer", [
         "Trades in 2027, 2028, 2031",
         "Team",
-        "Limit orders near each fund's value",
+        "First trading day; limit orders near each holding's value",
         "A date cannot be kept (a trading halt)",
-        _changes("the date", "the step or its order")]),
+        _changes("the date, never past the 2031 meetings", "the step or its order")]),
+    # Sat 14 Nov (bond reader 2): an open date for the 2031 move is a timing option, and waiting after a fall is the
+    # market call IPS l.17 rules out, so the day is fixed now (the first trading day, as modelled; Keel's call,
+    # ASK_HUMANS); coherence reader 4: the 2031 date stays before the meetings (IPS l.15).
     ("watch", [
         "Treasury yields and share prices",
         "Team",
-        "Any level: a fall in the market is not a reason",
-        f"None. 1 percentage point lower before 2027: an {dollars(BOTTOM_AFTER_1PT_FALL)} bottom",
+        "Any level",   # Sat 14 Nov (coherence reader 4): the l.17 echo dropped, as SKELETON said
+        f"None (for scale: 1 point lower before 4 Jan 2027 gives an {dollars(BOTTOM_AFTER_1PT_FALL)} bottom)",
         _changes("the bottom to Jan 2028, the top to the 2031 move, then her flexibility", "the payments")]),
     ("watch", [
         "Her flexibility's three uses",
@@ -479,9 +487,11 @@ TABLE3_ROWS = [
         f"NT${TWD_PER_USD:.3f} per US$1 (6 Nov 2026); building-cost trend {100 * CCI_BAND[0]:.1f}% to "
         f"{100 * CCI_BAND[1]:.1f}% a year",   # "trend": a rate over years, not a one-year ceiling
         # (card Q10c: costs rise in bursts); the five-year rate, 3.27% (8d), goes to 3e's prose: no room
-        f"A Taiwan dollar {100 * TWD_TEST:.0f}% stronger than in 2031 ({dollars(TWD_NEED)} more on "
-        f"{dollars(CONTRIBUTION_FWD)})",   # the test's base (8j; card Q10b): the rate when the range is stated
-        _changes(f"a call on her flexibility and anything above the top ({hundreds(FLEX_FWD)})", "the range")]),
+        f"A Taiwan dollar {100 * TWD_TEST:.0f}% stronger than in 2031 ({dollars(TWD_NEED)} more US dollars on "
+        f"{dollars(CONTRIBUTION_FWD)})",   # the test's base (8j; card Q10b): the rate when the
+        # range is stated; Sat 14 Nov (bond reader 2): the convention said, or a desk reads NT$29.49 and gets $12,778
+        _changes(f"a call on her flexibility ({hundreds(FLEX_FWD)} in 2033 with anything above the top)",
+                 "the range")]),
 ]
 
 
@@ -956,9 +966,20 @@ def check(verbose=True):
     known = {"2028", "31", "2027", "4", "3", "17", "2037", "10", "14", "2031", "2033", "2", "1", "1.5%", "5.0%",
              "9", "6", "2036",
              f"{FALL_TAKES_WHOLE_DEPOSIT:.2f}", f"{TWD_PER_USD:.3f}", "10%", "2026", f"{100 * CCI_5Y:.2f}%", "0.5%"}
-    ok = "less 0.5%" in md and "0.5% margin" in printed      # row 4: the floor's swap from the range rule's 0.5% cut
+    ok = "less 0.5%" in md and "from its 0.5%" in printed      # row 4: the floor's swap from the range rule's 0.5% cut
     note("Table 3", "Row 4: the floor's 0.5% margin is the range rule's cut (NUMBERS 4: each end less 0.5%)",
          "0.5% margin", "less 0.5%" if "less 0.5%" in md else None, "4", "PASS" if ok else "FAIL")
+    # Sat 14 Nov (bond reader 2): row 4 watches the bill fund's fee (NUMBERS 0: 0.15% a year, its fund UNVERIFIED) and
+    # swaps into a Treasury maturing by 15 December (the iBonds' end, 15 December, card Q36)
+    fee_ok = "0.15% a year" in md
+    note("Table 3", "Row 4: the bill fund's fee is the register's", "0.15%", "0.15% a year" if fee_ok else None, "0",
+         "PASS" if fee_ok and "0.15%" in printed else "FAIL")
+    q36 = open(os.path.join(FR, "research", "cards", [f for f in os.listdir(os.path.join(FR, "research", "cards"))
+                                                         if f.startswith("Q36")][0])).read()
+    dec_ok = "15 December" in q36 and "by 15 December" in printed
+    note("Table 3", "Row 4: the swap's latest maturity is the funds' own end date", "15 December",
+         "15 December" if "15 December" in q36 else None, "card Q36", "PASS" if dec_ok else "FAIL")
+    known |= {"0.15%", "15"}
     note("Table 3", "Every other number printed is a checked date or figure", ", ".join(sorted(nums - known)) or "none",
          "dates and figures above", "this check", "PASS" if nums <= known else "FAIL")
 

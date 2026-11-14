@@ -286,3 +286,24 @@ page shows tier A at 1,198; the rebuild gives 1,186. Rerun `store/build_store.py
     - 3e's density row holds two versions (the five-area spine and the "Before Fri 13 Nov evening" limits). Say which
       limits survive: net asset value, the model's limits and the site.
     - Close the open questions already settled (Q20 and Q19 on Tue 10 Nov; Q23 measured).
+
+## 5. Sat 14 Nov evening: cards Q42, Q43 and Q44 (96 rows, all rated; 51 in tier A)
+
+Every strong row has a place or a reason. Places are notes in `CONCEIT.md`, `SKELETON.md` and `WORDS.md`; nothing is prose.
+
+| Row | Score | Where it lands, or why not |
+|---|---|---|
+| Q43-009 | 24 | 3c or 3d, one clause at most: the Antideficiency Act's "very act of obligating" before the money is in the account is the closest public rule to Laura's (GAO Red Book, 2006); investing-literature references stay first |
+| Q43-039 | 24 | 3c: a university counts gifted shares for a building only once sold, the 2031 move in another institution's words |
+| Q42-001, -005, -006, -012 | 23 | CONCEIT sections 6 and 7: small effect, one mapping, at most five images, never the last line, the image before or with its number |
+| Q42-017, -028 | 23 | CONCEIT guard 5 and WORDS: "inked" is read as signed, so 3.0 says "owned" and the exception travels inside each use |
+| Q43-028 | 23 | CONCEIT 5b rank 1 and WORDS: Watts (2003), the lenders' "asymmetrical verification requirements"; never "prudent" |
+| Q43-003 | 22 | 3b: the deletion test in public-budget form |
+| Q43-006 | 22 | 3d: building on promised but late money cost one DOE project 33% and three years |
+| Q42-014, -022, -025 | 22 | 3.0's explicit comparison; the image never explains finance to experts; round 2 scores restatement, not preference |
+| Q43-037, -040, -043, -045 | 21-22 | 3d: builders count binding pledges plus part cash; when money falls short the building shrinks or someone else pays; the charity regulator asks where surplus goes in advance |
+| Q43-032, -034 | adapt | WORDS bans "prudent", "prudence" and "conservative estimate" for the range rule (IASB 2018, FASB) |
+| Q43-001, -005 | adapt | The idea lands in 3a and 3d; the phrase "full funding" is banned for the facility |
+| Q44-006, -011 | 20-21 | CONCEIT 5 and 5b: Martin (2019, p. 6) verified in print; Richmond (2006) for "never taken off cleanly" |
+| Q44-001, -002, -004 | store | Process pages: not in 3f (card Q42: a second mapping that would call a plan pencil) |
+| Q44-017, -019 | store | Non-photo blue: a third term, store only unless the trim/bleed image fails the blind read |

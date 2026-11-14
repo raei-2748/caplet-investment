@@ -211,7 +211,10 @@ EXHIBITS = {
     # Every title says the exhibit's scale (fresh reader and coordinator, Wed 11 Nov): Table 1 is the WInS book on the
     # original $300,000 (8g: "Laura's whole plan in miniature"); Figure 1 and Table 2 are her plan for both deposits.
     "t1": {"label": "Table 1",
-           "title": "The Final WInS Portfolio at Cost on the Original $300,000: Laura's Plan in Miniature",
+           "title": "The Final WInS Portfolio at Cost on the Original $300,000",
+           # Sat 14 Nov (coherence reader 4): "in Miniature" claimed a faithful reduction (no top-up, no extra
+           # Treasuries; VT 8.84% against the plan's 6.63%); the scale stays in the WInS notes' "scaled to the model
+           # portfolio", said in 2.0 and 2.1
            # Thu 12 Nov evening: 75 words (was 50). The units column needs its basis (targets set before the first
            # trade; a bond unit is $1,000 of face value) and SKELETON's density cut sends 2.5's two other targets
            # here (bonds within 25 basis points; cash never below $1,000). The costs label now says what the row is,
@@ -272,7 +275,7 @@ EXHIBITS = {
            "title": "Seven Signals to Watch as 2031 and 2033 Approach; Two Can Change Laura's $450,000 Plan",
            "section": "Section 3, part 3e", "note_budget_words": 40,
            "note_items": [
-               "$38,282: top-up ($2,388) and extra Treasuries ($35,894)",
+               "$38,282: January 2028 money at today's rates, the top-up ($2,388) and the extra Treasuries ($35,894)",
                "X-date: when the debt limit stops the Treasury paying every bill (its estimate, else the "
                "Congressional Budget Office's)",
                "cash dates: fund payouts, maturities, trade days",

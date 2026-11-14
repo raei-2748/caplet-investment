@@ -68,36 +68,35 @@ are facts to write from, not sentences to copy.
 - 16 Oct: rates fell and the room under $300,000 for the ten payments shrank to about $1,900.
 - 6 Nov: the team set aside the AI-drafted IPS ("reads as AI and corny") and wrote its own, the one submitted.
 
-## The conceit Caplet chose for the report: pencil and ink (Sat 14 Nov)
+## The conceit Caplet chose for the report: pencil and ink (Sat 14 Nov; revised that night)
 - Laura is a graphic novelist and illustrator (the case also calls her an entrepreneur, an educator and a speaker).
-  Comic pages are drawn in pencil first, which can be rubbed out, then inked; only the
-  ink is printed. In the report, pencil is anything Laura doesn't own yet (her future income, the 2028 deposit before
-  it arrives, the shares, interest not yet earned, every forecast), and ink is a figure already owned in Treasuries
-  that will pay it, barring a US default. Laura only states a figure once it's inked. That is the IPS's own rule:
-  "whatever figure you choose is money you already own".
-- The dates: the ten payments are bought in January 2027, but each relies on interest not yet earned until January
-  2028, when the first $38,282 of the 2028 deposit (the top-up, then the extra Treasuries) inks them. The floor is
+  Comic pages are drawn in pencil first, which can be rubbed out, then inked; only the ink is printed. In the report,
+  ink is a dollar figure Laura already owns in Treasuries that will pay it on its date, barring a US default, and
+  pencil is a figure no Treasury she owns will pay yet (her future income, the 2028 deposit before it arrives, the
+  value of her shares before half of them move, interest on cash waiting, every forecast). She owns the shares; no
+  Treasury pays their value. Laura only states a figure once it's inked. That is the IPS's own rule: "whatever figure
+  you choose is money you already own". Say "owned" when you define it: most readers hear "inked" as "signed".
+- The dates: most of each payment is inked in January 2027, when the ten Treasuries are bought ("held to the end,
+  these pay what they say", IPS l.13). The rest of each payment, which the IPS and the WInS trade notes left to the
+  2028 deposit, is inked in January 2028 by its first $38,282 (the top-up, then the extra Treasuries). The floor is
   bought in January 2028, which fixes the bottom of the range. Half the shares move into Treasuries before the 2031
   meetings, which fixes the top. The other half is never inked: it is her flexibility, promised to no one, and
-  co-sponsors never see it. So each line has its own date: the ten payments and the bottom are inked in January 2028,
-  the top before the 2031 meetings, and her flexibility never.
-- The two reasons to change the plan: the pencil never arriving (no 2028 deposit) or the ink failing (a Treasury
-  default). A fall in the market only moves pencil.
-- Craft facts you may use, each once: ink can be added to a page but never taken off it cleanly (a mistake can only be
-  painted over, and the original keeps the record), which is why every end of the range is rounded down and anything
-  above the top goes to her flexibility; comic art is printed a little past the trim line (the bleed) so a wandering
-  blade leaves no white edge, and words are kept back from the edge (the safe area): the top is the trim line, what
-  the funds pay above it is the bleed, and the bottom sits in the safe area; erase the pencils and the inked page
-  still reads, as the plan does if the shares go to zero; publishers want issues finished before a series is offered
-  to shops ("three completed issues", Image, 2015); an illustrator's advance is paid in parts, the last only once the
-  art is delivered and accepted; comic art is drawn about half as large again as it is printed, and the WInS portfolio
-  is $300,000 of the plan's $450,000, two-thirds (the ratio only: the portfolio was built before the extra Treasuries,
-  so its weights differ). Laura
-  herself has said: "As an author and illustrator, I don't know how my book will do until the day it hits the
-  shelves" (Climbing, 4 Mar 2025).
-- How to use it: at most one image sentence in a passage, inside the paragraph whose number it explains, never as the
-  first or last line; never in Laura's words to co-sponsors; never "inked" without "barring a US default" and its date;
-  the report's own modelled figures are pencil and say so; never "colour" for the shares; no comics jargon or puns. If it needs explaining twice, say it plainly instead.
+  co-sponsors never see it. Never call the January 2027 purchase pencil.
+- The two reasons to change the plan, in the IPS's words: a missed deposit or a Treasury default. A fall in the market
+  is not one of them, and only moves pencil.
+- Craft facts you may use, at most one in the whole report, and only if it extends "owned or not yet": ink can be
+  added to a page but never taken off it cleanly (a mistake can only be painted over, and the original keeps the
+  record), which is why every end of the range is rounded down and anything above the top goes to her flexibility;
+  publishers want issues finished before a series is offered to shops ("three completed issues", Image, 2015); an
+  illustrator's advance is paid in parts, the last only once the art is delivered and accepted. Trim, bleed and safe
+  area are being tested on Mon 16 Nov and are not used unless that test says so. Laura herself has said: "As an
+  author and illustrator, I don't know how my book will do until the day it hits the shelves" (Climbing, 4 Mar 2025).
+- How to use it: at most five image sentences in the whole report, at most one in a passage, inside the paragraph
+  whose number it explains, before or with that number, never as the last line (and not as the first); none in
+  Section 2 or the Team Reflection; never in Laura's words to co-sponsors; never "inked" without "barring a US default"
+  and its date; strike the image word and the sentence must still say its number and rule; the report's own modelled
+  figures are pencil and say so; never "colour" for the shares; no comics jargon or puns. If it needs explaining
+  twice, say it plainly instead.
 
 ## Words the report uses
 "Facility contribution" (not "gift"), "her flexibility" (the half kept), "the top-up" ($2,388), "the extra
