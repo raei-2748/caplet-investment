@@ -1279,7 +1279,7 @@ Depth is "reader" unless marked otherwise. "Re-read of" marks a duplicate entry.
   4. voice-log pieces, only where one supports a specific claim and has been read again in full.
 - **Before 27 Nov:** card the chosen section-2 works into `REFERENCES_APA.md`, with publisher page, DOI and a
   retraction check, as for the existing rows. Merge the 16 unmerged cards (2A) first.
-- **This is Caplet's decision.** The students asked for every investing link in the final list. APA and Wharton allow
+- **Decided Sat 14 Nov (Keel's call, `keel/pm/ASK_HUMANS.md`; Caplet can overrule): the shape above, cited it all, APA-clean, about 120 to 180 works, no separate bibliography.** Earlier note: The students asked for every investing link in the final list. APA and Wharton allow
   only works the report cites. The shape above keeps the largest honest share, and section 2 keeps the rest on record.
 
 ## 4. The sources to make most visible (cited in the body)
