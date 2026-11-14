@@ -59,8 +59,8 @@ do", and the report must "evaluate" and "analyse" where the IPS described. Three
 
 **The conceit (Sat 14 Nov, evening).** Caplet chose one conceit for the report, "pencil and ink" (I114): pencil is
 anything not yet owned, ink a figure already owned in Treasuries that will pay it, barring a US default, and Laura
-states a figure only once it is inked. `CONCEIT.md` holds the true dates of inking (the plan is fully inked by January
-2028, apart from the half of the shares never meant to be), the AI draft's mapping corrected to the register, the
+states a figure only once it is inked. `CONCEIT.md` holds the true dates of inking (the ten payments and the bottom in
+January 2028, the top before the 2031 meetings, her flexibility never), the AI draft's mapping corrected to the register, the
 craft facts checked at source, the part each image belongs to, and the guards. It adds no words and appears in five
 to seven sentences of the report; voice round 2 tests it blind.
 

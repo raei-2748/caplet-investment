@@ -351,8 +351,10 @@ latter certainly couldn't do any harm."
 - *Falls short:* a motif, a name or a turn of phrase doing the work an idea should do.
 - *Meets it:* the creative moves are decisions, and the writing serves them.
 - **The conceit (standing order 20).** Caplet's pencil and ink is craft on top of intellect, Book 1's "combination of
-  BOTH". It earns its place only where an image explains, predicts or tests a decision: the plan is fully inked by
-  January 2028; nothing is stated before it is owned; if the shares went to zero the inked page would still print. An
+  BOTH". It earns its place only where an image explains, predicts or tests a decision: each line has its own inking
+  date (the ten payments and the bottom in January 2028, the top before the 2031 meetings, her flexibility never);
+  nothing is stated before it is owned; ink only goes one way, so every end is rounded down; erase the pencils (shares
+  at zero) and the inked page still reads. An
   image sentence that does no such job is cut (`final_report/CONCEIT.md` section 7).
 - *Delights:* the most creative thing in the report is a decision, the reader admires the decision, and the writing
   makes it a pleasure to follow.

@@ -69,7 +69,8 @@ are facts to write from, not sentences to copy.
 - 6 Nov: the team set aside the AI-drafted IPS ("reads as AI and corny") and wrote its own, the one submitted.
 
 ## The conceit Caplet chose for the report: pencil and ink (Sat 14 Nov)
-- Laura draws comics for a living. Comic pages are drawn in pencil first, which can be rubbed out, then inked; only the
+- Laura is a graphic novelist and illustrator (the case also calls her an entrepreneur, an educator and a speaker).
+  Comic pages are drawn in pencil first, which can be rubbed out, then inked; only the
   ink is printed. In the report, pencil is anything Laura doesn't own yet (her future income, the 2028 deposit before
   it arrives, the shares, interest not yet earned, every forecast), and ink is a figure already owned in Treasuries
   that will pay it, barring a US default. Laura only states a figure once it's inked. That is the IPS's own rule:
@@ -78,18 +79,25 @@ are facts to write from, not sentences to copy.
   2028, when the first $38,282 of the 2028 deposit (the top-up, then the extra Treasuries) inks them. The floor is
   bought in January 2028, which fixes the bottom of the range. Half the shares move into Treasuries before the 2031
   meetings, which fixes the top. The other half is never inked: it is her flexibility, promised to no one, and
-  co-sponsors never see it. So the plan is fully inked by January 2028, three years before Laura shows anyone the page.
+  co-sponsors never see it. So each line has its own date: the ten payments and the bottom are inked in January 2028,
+  the top before the 2031 meetings, and her flexibility never.
 - The two reasons to change the plan: the pencil never arriving (no 2028 deposit) or the ink failing (a Treasury
   default). A fall in the market only moves pencil.
-- Craft facts you may use, each once: publishers want issues finished before a series is offered to shops ("three
-  completed issues", Image, 2015); a mistake in ink can only be painted over, and the original keeps the record;
-  comic art is drawn about half as large again as it is printed, so the WInS portfolio is like Laura's plan printed at
-  two-thirds; an illustrator's advance is paid in parts, each only once the work is delivered and accepted. Laura
+- Craft facts you may use, each once: ink can be added to a page but never taken off it cleanly (a mistake can only be
+  painted over, and the original keeps the record), which is why every end of the range is rounded down and anything
+  above the top goes to her flexibility; comic art is printed a little past the trim line (the bleed) so a wandering
+  blade leaves no white edge, and words are kept back from the edge (the safe area): the top is the trim line, what
+  the funds pay above it is the bleed, and the bottom sits in the safe area; erase the pencils and the inked page
+  still reads, as the plan does if the shares go to zero; publishers want issues finished before a series is offered
+  to shops ("three completed issues", Image, 2015); an illustrator's advance is paid in parts, the last only once the
+  art is delivered and accepted; comic art is drawn about half as large again as it is printed, and the WInS portfolio
+  is $300,000 of the plan's $450,000, two-thirds (the ratio only: the portfolio was built before the extra Treasuries,
+  so its weights differ). Laura
   herself has said: "As an author and illustrator, I don't know how my book will do until the day it hits the
   shelves" (Climbing, 4 Mar 2025).
 - How to use it: at most one image sentence in a passage, inside the paragraph whose number it explains, never as the
-  first or last line; never in Laura's words to co-sponsors; never "inked" without "barring a US default"; no comics
-  jargon or puns. If it needs explaining twice, say it plainly instead.
+  first or last line; never in Laura's words to co-sponsors; never "inked" without "barring a US default" and its date;
+  the report's own modelled figures are pencil and say so; never "colour" for the shares; no comics jargon or puns. If it needs explaining twice, say it plainly instead.
 
 ## Words the report uses
 "Facility contribution" (not "gift"), "her flexibility" (the half kept), "the top-up" ($2,388), "the extra

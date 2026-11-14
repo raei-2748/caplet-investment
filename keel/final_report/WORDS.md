@@ -51,9 +51,13 @@ uses the plain name.
 | ink, inked | a figure already owned in Treasuries that will pay it; always with "barring a US default" in the same sentence or the one before | guaranteed, locked in, set in stone, risk-free, bulletproof; "inked" for her flexibility, the 7.5%, a median or anything before its date; "the inked floor" or any new name |
 | pencil, pencilled | not yet owned: future income, the 2028 deposit before it arrives, the shares before half of them move, interest not yet earned, a model result | "the pencil money" as a name; "draft" (kept for the report's own drafts); calling the IPS pencil |
 | rubbed out | set aside, with its record kept (the first plan of 27 Sep) | erased without trace |
-| finished before it is offered (once) | the ten payments owned by January 2028, as publishers ask for issues "in the can" before a series is offered to shops | "banked issues" as a trade term (unsourced); more than one use of "issue" as a pun on a Treasury issue |
-| two-thirds (once, Section 2) | the WInS portfolio is Laura's plan printed at two-thirds, as comic art is drawn larger than it is printed | "the plan in miniature" said as if the weights matched (VT 8.84% against 6.63%) |
-| bleed, safe area, colour on a scan (each at most once, explained in the same sentence) | see `CONCEIT.md` sections 4 and 5, with the limit said beside it | panels, gutters, splash page, origin story, sound effects; puns on "draw" or "drawdown" |
+| finished before it is offered (once) | the ten payments owned by January 2028, as publishers ask for issues "in the can" before a series is offered to shops | "banked issues" as a trade term (unsourced); any pun on "issue" (a Treasury issue); "each stands alone" (say "all ten owned") |
+| two-thirds (once, Section 2.1, optional) | the ratio only: $300,000 of the plan's $450,000, as comic art is drawn about half as large again as it is printed | "every line there", "the plan in miniature" or any claim that the weights or holdings match (no top-up, no extra Treasuries; VT 8.84% against 6.63%) |
+| trim, bleed, safe area (once, 3c, explained in the same sentence) | the stated top is the trim line; what the funds pay above it (about $8,500) is the bleed, which joins her flexibility instead of being thrown away; the bottom sits in the safe area (`CONCEIT.md` 5b, parallel 3) | the bleed for her flexibility; one printed figure for the safe area |
+| ink only goes one way (once, 3b) | every end rounded down, every surplus to unpromised money, so she can give more later and never has to take any back | a promise to add money |
+| erase the pencils (once) | the deletion test: shares at zero, and the payments, the floor and a one-figure range still stand | "colour" for the shares; "colour on a scan" |
+| non-photo blue (at most once, as 3c's alternative) | the report's modelled figures: construction lines dropped before anything is stated | "invisible"; for her flexibility |
+| (banned in images) | | panels, gutters, splash page, origin story, sound effects; puns on "issue", "draw" or "drawdown"; "buffer", "cushion", "backstop", "triggers" |
 
 Nowhere in tables, figures, exhibit notes, References or Laura's words to co-sponsors.
 

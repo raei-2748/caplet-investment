@@ -170,18 +170,20 @@ its part's budget, and five to seven appear in the whole report.
 
 | Part | The image sentence's job (notes) |
 |---|---|
-| 2.0 or 2.1 | The WInS portfolio is Laura's whole plan printed at two-thirds, as comic art is drawn about half as large again as it is printed ($300,000 of $450,000; VT 8.84% of the portfolio, 6.63% of the plan) |
-| 3.0 | The rule; the ten-year operating commitment finished by January 2028, five years before the first payment |
+| 2.0 | None: defining ink on a portfolio whose rungs rely on reinvested coupons would teach a false definition at first use |
+| 2.1 (optional) | The two-thirds reduction, the ratio only ($300,000 of $450,000, as comic art is drawn about half as large again as it is printed); never "every line there" |
+| 3.0 | The rule, defined once with its dates; the ten-year operating commitment finished by January 2028, five years before the first payment |
 | 3a | The one line the January 2027 purchase leaves in pencil (interest not yet earned) and how the first $38,282 of the 2028 deposit inks it; about $45,500 back if rates hold |
-| 3b | Her flexibility is the pencil never inked, so co-sponsors never see or count it; with its limit (about $9,900 in a bad 1-in-20 future) |
-| 3c | Inked before shown: the bottom in January 2028, the top before the meetings, nothing stated before the move |
+| 3b | Ink only goes one way: every end rounded down and every surplus to unpromised money, so she can give more later and never take back; her flexibility is the pencil never inked (never a bleed, never a natural hedge) |
+| 3c | Trim, bleed and safe area: the top is the trim line, what the funds pay above it is the bleed (it joins her flexibility), the bottom sits in the safe area; inked before shown, nothing stated before the move |
 | 3d | None: Laura's words carry no comics image ("I only put in writing what I already own" may carry the idea plainly) |
-| 3e | The two reasons to change: the pencil never arriving (no 2028 deposit by 31 Mar 2028) and the ink failing (a Treasury payment more than five business days late) |
+| 3e | The two reasons to change: the pencil never arriving (no 2028 deposit by 31 Mar 2028) and the ink failing (a Treasury payment more than five business days late); an illustrator's advance paid on delivery can be its evidence clause |
 | 3f | Only if an event chosen blind on Mon 16 Nov fits it |
 
 Never in tables, figures, notes or References; never a part's first or last line; never "inked" without "barring a US
-default"; the IPS is never called pencil. Each image is read on 27 Nov against Johnson's test (CONCEIT section 7) and
-cut, not fixed, if it fails.
+default" and its date; the report's own modelled figures are pencil; the IPS is never called pencil. The ranked
+parallels are in CONCEIT section 5b (independent audit, card Q41). Each image is read on 27 Nov against Johnson's test
+(CONCEIT section 7, guard 11) and cut, not fixed, if it fails.
 
 ## Section 2. Portfolio Implementation (3 pages: about 580 words and Table 1; 626 at most fit, Thu 12 Nov evening)
 
