@@ -41,6 +41,22 @@ Three rules:
 | The interest a bond pays along the way | the interest each bond pays (along the way) | the fixed payments a Treasury makes twice a year before it ends | coupons (except once in a note for bond readers) | lay reader, Thu 12 Nov evening ("I do not know what a coupon is here") |
 | Keel's numbers | "we modelled" | the basis and the date beside each modelled figure | MODEL, the register, NUMBERS 8h, card Q20, H_plain, Keel | EXPECTATIONS (Book 10: "we modelled", never "we judge") |
 
+## The conceit's words (Sat 14 Nov, evening; `CONCEIT.md`)
+The conceit adds words to the report; it never replaces a name in the table above. "The floor" stays "the floor", "the
+extra Treasuries" stay "the extra Treasuries". The image words are verbs and adjectives inside a sentence that already
+uses the plain name.
+
+| Word | Means | Never |
+|---|---|---|
+| ink, inked | a figure already owned in Treasuries that will pay it; always with "barring a US default" in the same sentence or the one before | guaranteed, locked in, set in stone, risk-free, bulletproof; "inked" for her flexibility, the 7.5%, a median or anything before its date; "the inked floor" or any new name |
+| pencil, pencilled | not yet owned: future income, the 2028 deposit before it arrives, the shares before half of them move, interest not yet earned, a model result | "the pencil money" as a name; "draft" (kept for the report's own drafts); calling the IPS pencil |
+| rubbed out | set aside, with its record kept (the first plan of 27 Sep) | erased without trace |
+| finished before it is offered (once) | the ten payments owned by January 2028, as publishers ask for issues "in the can" before a series is offered to shops | "banked issues" as a trade term (unsourced); more than one use of "issue" as a pun on a Treasury issue |
+| two-thirds (once, Section 2) | the WInS portfolio is Laura's plan printed at two-thirds, as comic art is drawn larger than it is printed | "the plan in miniature" said as if the weights matched (VT 8.84% against 6.63%) |
+| bleed, safe area, colour on a scan (each at most once, explained in the same sentence) | see `CONCEIT.md` sections 4 and 5, with the limit said beside it | panels, gutters, splash page, origin story, sound effects; puns on "draw" or "drawdown" |
+
+Nowhere in tables, figures, exhibit notes, References or Laura's words to co-sponsors.
+
 ## Numbers in prose
 - Prose rounds to about $500 or $1,000 with "about"; tables carry exact figures. The co-sponsor passage never puts
   "about" before a figure co-sponsors are to count (SKELETON 3d).

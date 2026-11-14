@@ -4,7 +4,7 @@ First draft Sun 8 Nov 2026 (Sydney), a day earlier than the plan's Mon 9 Nov; re
 independent line-by-line checks against every book and every register row. Written at Caplet's request (Book 14): "create truly comprehensive notes on all of my Bibles
 ... such that I could say, 'You've expressed my thoughts and expectations even better than I did.'"
 
-**What these notes cover.** Every book of the Bible (Books 1-17; Book 17 of Sat 14 Nov is carried in standing orders 11-19, the cover note of 26 Oct, the preface on where the
+**What these notes cover.** Every book of the Bible (Books 1-17; Book 17 of Sat 14 Nov is carried in standing orders 11-19, and Caplet's conceit decision of the same evening in standing order 20; the cover note of 26 Oct, the preface on where the
 Bible sits, the list of what it overruled on 26 Oct), Ray's points of 5 Nov that Book 12 says to keep in mind, the Ten
 Commandments Keel drew from Books 1-10, every row of the instruction register (`INSTRUCTIONS.md`, B and I01-I93), and
 Keel's earlier rubric of Caplet's expectations for the IPS (`ips_rewrite/final_night/other_thread/harvest/05_EXPECTATIONS.md`).
@@ -99,6 +99,21 @@ days are run. Quotes are Ray's words. Keel's steps for following them every day 
    Caplet asked that the diary's invented people and scenes, and invented details, be usable too; Keel does not write
    invented events, people or details into the report as things that happened (5.1, T24). The diary's material can be
    used where the report presents it openly as a simulation the team ran. The final text is Caplet's to decide.
+
+### Caplet's conceit decision (Sat 14 Nov, 17:19 Sydney; INSTRUCTIONS I114): standing order 20
+
+20. **One conceit for the Final Report: pencil and ink (I114).** "We've decided to go with a conceit after all ...
+   Notice that I'm calling it a conceit, not a motif or an extended metaphor ... It involves strikingly dissimilar,
+   surprising and seemingly far-fetched parallels. It displays wit, intellectual ingenuity, and offers a startling new
+   perspective. THAT is what we're going for." The IPS had none because "That was a letter; this is not a letter."
+   Caplet sent an AI-drafted mapping as "an absolutely brilliant starting point", "not gospel", and left the changes to
+   Keel. Keel's version is `final_report/CONCEIT.md`: pencil is anything not yet owned; ink is a figure already owned in
+   Treasuries that will pay it, barring a US default; Laura states a figure only once it is inked, which is the IPS's
+   own rule ("whatever figure you choose is money you already own", l.15). Every figure in the AI draft is reconciled to
+   `final_report/NUMBERS.md` there, and the parts that no longer matched the plan (a $140,000-$160,000 range, a $7,500
+   buffer checked in 2033, VT as "colour") are replaced. This replaces Keel's 8 Nov reading of Part 6 for the Final
+   Report only; the IPS stays as it was. Ray's 5 Nov warning becomes the conceit's guard: each image sentence must do
+   an investing job, carry a number or a rule, and never stand in for an idea (2.7, 3.6).
 
 ---
 
@@ -335,6 +350,10 @@ and strategic thinking and so on than mastery of the English language. But a com
 latter certainly couldn't do any harm."
 - *Falls short:* a motif, a name or a turn of phrase doing the work an idea should do.
 - *Meets it:* the creative moves are decisions, and the writing serves them.
+- **The conceit (standing order 20).** Caplet's pencil and ink is craft on top of intellect, Book 1's "combination of
+  BOTH". It earns its place only where an image explains, predicts or tests a decision: the plan is fully inked by
+  January 2028; nothing is stated before it is owned; if the shares went to zero the inked page would still print. An
+  image sentence that does no such job is cut (`final_report/CONCEIT.md` section 7).
 - *Delights:* the most creative thing in the report is a decision, the reader admires the decision, and the writing
   makes it a pleasure to follow.
 
@@ -536,6 +555,12 @@ amusing given that I literally wrote it myself" (Book 9). Detector checks are ba
 like a human, aloud, against Caplet's own writing.
 - *Falls short:* a line a reader would quote as an example of AI writing.
 - *Meets it:* nothing reads as a slogan; nothing is there to sound clever.
+- **The conceit's corniness guard (standing order 20).** Elaborate metaphor is what Book 2 warned AI over-uses, so the
+  conceit is held tight: two carrying words (pencil, ink); any other craft fact once, explained in the same sentence;
+  at most one image sentence in a part and never as its first or last line (round 1's readers heard set-piece openings
+  and rounded endings as not Caplet); never in tables or Laura's words to co-sponsors; no comics jargon or puns.
+  Samuel Johnson's test is the bar: wit "which he that never found it, wonders how he missed", never the conceit whose
+  reader "thinks his improvement dearly bought" (`final_report/CONCEIT.md` section 7).
 - *Delights:* the prose is invisible: the reader notices only the ideas and, now and then, a line they enjoy.
 
 ### 3.7 The case's words and real names
@@ -675,14 +700,17 @@ the IPS." Keel's list, each with where the lesson now lives:
 1. Writing began early and then only tweaked (Book 13): 4.1.
 2. The sentences didn't make sense to humans (Books 10, 11, 12, 16): 3.1.
 3. The argument was fragmented across many mechanisms (Ray, 5 Nov): 2.9.
-4. A conceit stood in for intellect, and made Laura sound like a patient (Ray, 5 Nov; I85): 2.7, Part 6.
+4. A conceit stood in for intellect, and made Laura sound like a patient (Ray, 5 Nov; I85): 2.7, Part 6. For the
+   Final Report Caplet has chosen a conceit of its own (standing order 20); this lesson is now its guard: the image
+   never stands in for an idea, and nothing in it is medical.
 5. The first paragraph summarised the case, "the most stupid use of scarce word count" (Book 12): Part 9 keeps the
    rule for the report.
 6. Mock judges approved nearly everything and could not test comprehension (Book 10): 4.3.
 7. Good ideas from the rooms were ignored or forgotten (Book 12): 4.4.
 8. Wharton's guidelines were not read closely (Book 11): section 0.
 9. Sentences were squeezed to fit, which made them sound like AI (Books 2, 9, 12): 3.2.
-10. The motif was half used, then had to go (Books 11, 12): Part 6.
+10. The motif was half used, then had to go (Books 11, 12): Part 6. The Final Report's conceit (standing order 20)
+   is placed part by part in advance (`final_report/CONCEIT.md` section 6), so it is neither half used nor everywhere.
 11. Keel produced more than the team could read, and the team could not follow what Keel had done (I80): Part 7.
 12. Keel's own inference, not Caplet's words: Keel kept building on its own drafts after Caplet had turned against
     them, and Caplet had to write the IPS itself (Book 16). Caplet's IPS is the base; Keel works from Caplet's text (5.2).
@@ -696,7 +724,9 @@ Verified facts, cited; anything unchecked is marked UNVERIFIED (working rules, 2
 invented teamwork or experience stories (Wharton ethics). Keel's six members and their episodes are fiction and never
 appear as Caplet's experience. Laura is never contacted; her public work may be read and used for framing, but the case is the only source on her
 plan, money and dates, and wins wherever a public source differs. No quotes are put in her mouth that the case does not
-contain.
+contain. One narrow exception (Keel's call, Sat 14 Nov, for the conceit): her own published words about her career
+in general may be quoted once, exactly and cited (Climbing, 4 Mar 2025: "As an author and illustrator, I don't know how
+my book will do until the day it hits the shelves."), never as a statement about the case's plan, money or dates.
 Strictness here is about truth, not polish: a wrong fact is fixed, but Keel does not spend days on details that change
 nothing (2.10, T20).
 
@@ -746,7 +776,15 @@ every claim must hold where it is written, or be fixed or cut.
 
 ---
 
-## Part 6. The motif and the name: what happened, and where it stands
+## Part 6. The motif, the name and the conceit: what happened, and where it stands
+
+**Sat 14 Nov, evening: Caplet chose a conceit for the Final Report (standing order 20, I114).** "Pencil and ink":
+pencil is anything not yet owned, ink a figure already owned in Treasuries that will pay it, and Laura states a figure
+only once it is inked. It comes from Laura's own trade, continues the IPS's last line ("You take risks on the page"),
+and is the IPS's own rule made visible. For the Final Report it replaces the reading below that ruled out a
+long-running image; the IPS is unchanged, and what the reading below protected (an idea doing the work, nothing corny,
+nothing medical, investing first) now guards the conceit. Keel's mapping, placement and guards:
+`final_report/CONCEIT.md`. The history below is kept as it was written on 8 Nov.
 
 Books 1, 2, 3, 5 and 11 asked for "some kind of single unifying extended metaphor or motif" (Book 1), subtle, used
 "where it's genuinely impactful and adds a thoughtful layer – and indeed perhaps an almost transcendent quality, I
@@ -805,7 +843,7 @@ page").
 | T1 | Erudition (2.1) against plainness (3.1) | Erudition shows in which ideas we chose and how we used them, never in vocabulary. Every niche idea is explained so a reader new to it follows. Book 13 says plainness "doesn't mean dumbing down". |
 | T2 | Lean (Book 2) against unsqueezed (3.2) | Lean by choosing fewer ideas per paragraph; each idea gets the sentences it needs. The report has room the IPS did not. |
 | T3 | Every good idea in (4.4, Book 14) against one convincing argument (2.9) | One argument, and inside it as many good ideas as can each do a job for it and for a judging criterion. Commandment VII's "few ideas" was about the 500-word IPS and sent the rest to the report. The store keeps everything else, ranked. |
-| T4 | A unifying motif (Books 1-5, 11) against "packaging" and "corny" (Ray, 5 Nov, endorsed by Ahaan in Book 12) | The later word and Caplet's own IPS win on the image: no Caplet XR, no tablet. The motif's purposes survive (thread, arc, set-up and payoff, craft), carried by Caplet's own idea (Part 6). |
+| T4 | A unifying motif (Books 1-5, 11) against "packaging" and "corny" (Ray, 5 Nov, endorsed by Ahaan in Book 12) | For the IPS, the later word and Caplet's own IPS won on the image: no Caplet XR, no tablet. For the Final Report, Caplet's latest word wins (Sat 14 Nov, standing order 20): one conceit, pencil and ink, carrying the IPS's own idea; Ray's "packaging" and "corny" become its guards (2.7, 3.6; `final_report/CONCEIT.md`). |
 | T5 | Freedom to overclaim (3.4) against every number sourced (2.11) | Strong words for true claims; every number sourced. A false claim is a fact error, not a tone choice. |
 | T6 | Judges aren't Lauras; optimise for ourselves (Books 2, 3) against Wharton's client focus | Wharton scores Client Knowledge, so tailoring to Laura is done well, for the judges' eyes. See T22 for whom the report addresses. |
 | T7 | Not bound by the TNA (Book 9) against one consistent strategy (5.2) | Go deeper and further than the TNA; never contradict it. |
@@ -939,6 +977,7 @@ the report (4.5).
 | I89-I91 (Books 13-15) | Part 2, 4.1, 4.4, 2.8 |
 | I92 (Book 16) | 3.1, 5.2, 4.9 |
 | I93 (Research tabs written directly, 7 Nov) | 0 |
+| I114 (the conceit, pencil and ink, Sat 14 Nov evening) | Standing order 20, 2.7, 3.6, 4.9, 5.1, Part 6, T4 |
 
 ---
 

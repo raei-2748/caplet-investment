@@ -68,6 +68,29 @@ are facts to write from, not sentences to copy.
 - 16 Oct: rates fell and the room under $300,000 for the ten payments shrank to about $1,900.
 - 6 Nov: the team set aside the AI-drafted IPS ("reads as AI and corny") and wrote its own, the one submitted.
 
+## The conceit Caplet chose for the report: pencil and ink (Sat 14 Nov)
+- Laura draws comics for a living. Comic pages are drawn in pencil first, which can be rubbed out, then inked; only the
+  ink is printed. In the report, pencil is anything Laura doesn't own yet (her future income, the 2028 deposit before
+  it arrives, the shares, interest not yet earned, every forecast), and ink is a figure already owned in Treasuries
+  that will pay it, barring a US default. Laura only states a figure once it's inked. That is the IPS's own rule:
+  "whatever figure you choose is money you already own".
+- The dates: the ten payments are bought in January 2027, but each relies on interest not yet earned until January
+  2028, when the first $38,282 of the 2028 deposit (the top-up, then the extra Treasuries) inks them. The floor is
+  bought in January 2028, which fixes the bottom of the range. Half the shares move into Treasuries before the 2031
+  meetings, which fixes the top. The other half is never inked: it is her flexibility, promised to no one, and
+  co-sponsors never see it. So the plan is fully inked by January 2028, three years before Laura shows anyone the page.
+- The two reasons to change the plan: the pencil never arriving (no 2028 deposit) or the ink failing (a Treasury
+  default). A fall in the market only moves pencil.
+- Craft facts you may use, each once: publishers want issues finished before a series is offered to shops ("three
+  completed issues", Image, 2015); a mistake in ink can only be painted over, and the original keeps the record;
+  comic art is drawn about half as large again as it is printed, so the WInS portfolio is like Laura's plan printed at
+  two-thirds; an illustrator's advance is paid in parts, each only once the work is delivered and accepted. Laura
+  herself has said: "As an author and illustrator, I don't know how my book will do until the day it hits the
+  shelves" (Climbing, 4 Mar 2025).
+- How to use it: at most one image sentence in a passage, inside the paragraph whose number it explains, never as the
+  first or last line; never in Laura's words to co-sponsors; never "inked" without "barring a US default"; no comics
+  jargon or puns. If it needs explaining twice, say it plainly instead.
+
 ## Words the report uses
 "Facility contribution" (not "gift"), "her flexibility" (the half kept), "the top-up" ($2,388), "the extra
 Treasuries" ($35,894), "operating reserve" (the ten payments' money from 2033). Never "capital-protected", "portfolio

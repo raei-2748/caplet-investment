@@ -48,7 +48,7 @@ backbone. So:
 | Round | Day (Sydney) | Practice topics | File |
 |---|---|---|---|
 | 1 | Sat 14 Nov | How certain is "certain"; why half; the "copout" argument of 5 Oct | `ROUND1.md` |
-| 2 | Mon 16 Nov | Round 1's topics written again from scratch, plus the 2031 range and how sure Laura can be; four writers (formal writing only; formal plus Ahaan's essays; formal plus the team's long messages; the main session again) | `ROUND2.md` |
+| 2 | Mon 16 Nov | Round 1's topics written again from scratch, plus the 2031 range and how sure Laura can be; four writers (formal writing only; formal plus Ahaan's essays; formal plus the team's long messages; the main session again). The conceit Caplet chose on Sat 14 Nov (pencil and ink, `../CONCEIT.md`) is tested here: two writers use it in the 2031 range passage and two don't, and the blind readers say which they understood better and which sounds like the team | `ROUND2.md` |
 | 3 | Wed 18 Nov | The operating reserve; what to watch as 2031 and 2033 approach; one bold argument a judge would first resist | `ROUND3.md` |
 | 4 | Fri 20 Nov | Section 2 (the portfolio as built); the assumptions and their limits | `ROUND4.md` |
 | 5 | Sun 22 Nov | The co-sponsor words, in Laura's name; the Team Reflection | `ROUND5.md` |
@@ -66,6 +66,11 @@ whole (Book 14: no report prose before then).
   session's passages were clear but "too finished": built set pieces, neat reversals, rounded endings. So on 27 Nov the
   report's sentences are written by fresh writers who have read only Caplet's writing and the plain facts, and the main
   session checks afterwards.
+
+- **The conceit (Sat 14 Nov, evening).** Caplet chose "pencil and ink" for the report (`../CONCEIT.md`). From round 2
+  every writer gets its plain-words summary in `FACTS_PLAIN.md`, and the readers judge it like everything else: by ear,
+  blind. Round 1 warned that set-piece openings and rounded endings read as Keel, so an image sentence never opens or
+  closes a passage.
 
 ## Files
 

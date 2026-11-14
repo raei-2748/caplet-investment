@@ -21,6 +21,9 @@ re-reading what the store already holds, regenerating what exists, or research t
 - **Nothing lost:** a new card's strong rows get a place in SKELETON, a named line that carries them, or a written
   reason, the same day (`research/GEM_LEDGER.md`, `research/gem2/`); its investing sources go to the references
   (`research/REFERENCES_PLAN.md`, Keel's call of Sat 14 Nov: cite it all, APA-clean).
+- **The conceit (Caplet, Sat 14 Nov evening, I114):** a note that changes a figure, a date or a part checks
+  `CONCEIT.md` sections 3 and 6 the same day, so the dates of inking and the image placed in each part stay true to the
+  register. A new parallel goes into CONCEIT only with its craft fact sourced (card Q40) and its number in NUMBERS.
 
 ## The loop (Ray, Mon 9 Nov: "running automically self-reinforcing to produce the BEST final report")
 Every run makes the next one better (`BEST_IN_COMPETITION.md` section 3):
