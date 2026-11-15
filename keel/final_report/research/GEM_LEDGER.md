@@ -87,7 +87,7 @@ INTENT.
 | 18 | Q5c-021 | 22 | low | NASA commits to Congress at 70% confidence and holds its reserve above the project, not inside it. | `Q5c_option_value_and_last_dollar.md` | 3b | Alternative to Q5-018 for the same clause. |
 | 19 | Q5c-011 | 24 | low | A fixed minimum with full freedom above it is the best simple rule when you want commitment but expect news (Amador, Werning and Angeletos 2006). | `Q5c_option_value_and_last_dollar.md` | 3b | The theory form of the same clause, if theory is wanted over practice. Never 'optimal' (SKELETON 3b). |
 | 20 | Q5-006 | 22 (adapt) | low | In cost engineers' terms the half kept is a management reserve held by the owner, not a contingency the builder expects to spend. | `Q5_is_half_right.md` | 3b | A word for 3b's clause, not a sentence. Adapt: the IPS gives one pot three jobs, which engineers price apart; never call it a 'contingency'. |
-| 21 | Q16-006 | 22 | med | The three iBond Treasury funds that have already ended (2023, 2024, 2025) each paid cash 10 to 14 days before 1 January. | `Q16_operating_reserve_mechanics.md` | 3a | 3a's liquidity clause or Figure 1's note: 'every one so far', after checking BlackRock's count of terminations (card note). |
+| 21 | Q16-006 | 22 | med | The three iBond Treasury funds that have already ended (2023, 2024, 2025) each paid cash 10 to 14 days before 1 January [Sun 15 Nov evening, card Q3c: five have ended; cash came 29 (IBTA, which ended 15 days early), 11, 10, 13 and 14 days before 1 January; 'every one so far' holds for cash before 1 January]. | `Q16_operating_reserve_mechanics.md` | 3a | 3a's liquidity clause or Figure 1's note: 'every one so far', after checking BlackRock's count of terminations (card note). |
 | 22 | Q16-008 | 22 | med | IBTF, a fund that has ended, returned 1.15% a year against a 1.16% five-year yield on its launch day, after a -6.4% year. | `Q16_operating_reserve_mechanics.md` | 2 | 2.2 or 3a, one clause: proof of the Trading Notes' 'behave a lot like bonds when held to their end'. WInS price moves stay noise. |
 | 23 | Q17-010 | 22 | low | Before zero-coupon Treasuries existed (1985), a ladder of coupon bonds could not be a certain match, because the interest arrives early and must be reinvested. | `Q17_judging_the_implementation.md` | 3a | 3a's evidence clause: why reinvested interest needs help, said neutrally (coupon bonds pay interest early); never as blame on Wharton's rules. |
 | 24 | Q15-009 | 23 | med | Pension schemes that de-risk on triggers never move back into shares after a fall. | `Q15_monitoring_and_triggers.md` | 3e | 3e's 'why only these two' clause or Table 3's note: professional de-risking is one-way, the practice behind 'a fall in the market is not one of them' and the fixed 2031 move. |
@@ -326,3 +326,32 @@ section 1 lists the refusals; merged rows point to the row that holds their idea
 | Q7c-003, Q7c-004 | 21-22, keep | 3e, one clause at most: rules kept through a shock against triggers named after one |
 | Q7c-033, Q7c-035 | 22-23, keep | 3d: owed, not owned |
 | Q7c-017 | keep | Guard: never call the reserve an endowment |
+
+## 7. Sun 15 Nov evening: cards Q2d, Q3c, Q10e, Q11e and Q45 (175 rows, all rated)
+
+Nothing lost: every row is in the store with a judged score and a note; store-only rows say so in `store/ratings.csv`.
+Where the evening's strongest rows land:
+
+| Ids | Score or status | Where it lands |
+|---|---|---|
+| Q2d-001, Q2d-005, Q2d-007, Q2d-013 | 21-23, keep | 3a, one clause: why test with cash earning nothing (9 of 17.9 years at 0-0.25%; $48 at most on $50,000 for half a year) |
+| Q2d-016, Q2d-018, Q2d-019 | 20-22, keep | Guard: never "cash cannot go below zero"; the auction and SLGS zero floors explain why escrow verifiers test at zero |
+| Q2d-015, Q2d-031 | 21, keep; 20, adapt | 3e limit, store figures until NUMBERS carries them: real bill-ETF years leave money over; a fifteen-year regime below -0.15% leaves a few thousand short, late |
+| Q2d-032 | 22, keep | 3a or 3e, one clause at most: zero is a forward risk in the Fed's own work (20-50% within a decade) |
+| Q3c-002, Q3c-011, Q3c-013, Q3c-014 | 24-25, keep | 3e area (2) and the haircut's evidence: the funds' only cost is the fee; the floor fund's own index already assumes cash earning nothing |
+| Q3c-004, Q3c-006 | 22-24, keep | 3e or Table 1's note: all five ended funds paid within 0.066% of their last price, final NAV to the cent |
+| Q3c-007, Q3c-008, Q3c-010 | 22-24, keep | Table 3 row 4 and 3e: an early end has happened (IBTA, 15 days, cash before 1 January); the watch reads September-October |
+| Q3c-022 | 20, keep | Table 3 row 5: read the premium before each purchase; a stressed day is outside the 0.5% |
+| Q10e-002, Q10e-004, Q10e-016, Q10e-019 | 24-25, keep | 3e area (4): the pair's 1-in-20 two-year move (+28.0%, about $32,200) and worst (+38.9%), a limit, never a change |
+| Q10e-021, Q10e-022, Q10e-024 | 23-24, keep | 3e: the joint moves came with rising shares; her flexibility short in 9 of 250 windows, at most $9,363 |
+| Q10e-017 | 21, keep | Table 3 row 7 stays a currency watch at 10% (its own 1 in 20) |
+| Q10e-025 | 21, keep | NUMBERS 8j wording (sent to the numbers owner) |
+| Q11e-001, Q11e-031, Q11e-032 | 24-25, keep | 3b and 3d: founder first, co-sponsors after; "first", never "largest" |
+| Q11e-016, Q11e-018 | 24, keep | 3b: overruns are the owner's to meet (Ministry rule); owners paid 48.3% |
+| Q11e-033 | 22, adapt | Guard for 3b: the half held back answered by who meets overruns, never as giving less |
+| Q11e-025 | 22, keep | Store only (3d if a clause is free): Laura's range in the upper half of owners' parts |
+| Q45-012, Q45-014, Q45-037 | 24-25, keep | 3e or Table 3 row 5: the 2031 move costs about $6, about $267 in a March-2020 week |
+| Q45-023, Q45-036, Q45-038 | 22-24, keep | 3e: selling one bond early costs tens of dollars, a few hundred in a stress |
+| Q45-001, Q45-008 | 20-22, keep | 2.5 or 3e: Treasury funds stayed near value in March 2020; long Treasury funds were the exception (TLT about -5%) |
+| Q45-026, Q45-027 | 21-24, adapt | Guard: the FR never repeats TNA l.15's "no odd-lot bond offers" for Treasuries (a 3bp gap) |
+| Q45-017 | 22, keep | CANON B22 corrected: IBTR $112.3m |

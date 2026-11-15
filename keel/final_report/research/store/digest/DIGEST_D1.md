@@ -141,7 +141,7 @@ GEM_LEDGER placement in the tables:
 |---|---|---|---|
 | NUM-001 (24, raised from 21) | The ten as written pay only if the interest each bond pays earns 5.12% a year until needed. That hurdle is why the extra Treasuries exist. | 3a, must land | SKEL; gem2 should land high |
 | Q16-020 (22) | The same lottery buys extra bonds on purpose against reinvestment risk: a public precedent for the extra Treasuries. | 3a | SKEL; GL2a should land (now in SKELETON) |
-| H7-011 (20, C raised) | Zero is a rate that waiting cash has really earned: Fed target 0-0.25% from Dec 2008 to Dec 2015, and again from Mar 2020. The zero-interest test is history, not an invented stress. | 3a | SKEL; gem2 should land high, REF |
+| H7-011 (20, C raised) | Zero is a rate that waiting cash has really earned: Fed target 0-0.25% from Dec 2008 to Dec 2015, and again from Mar 2020 to 16 Mar 2022 (card Q2d, Sun 15 Nov). The zero-interest test is history, not an invented stress. | 3a | SKEL; gem2 should land high, REF |
 
 Runner-up: Q2a-030. The ten as written would have needed the 2028 deposit's help in about half the starting months (55.6% of 585).
 

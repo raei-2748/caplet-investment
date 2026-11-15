@@ -31,6 +31,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import engine as E   # noqa: E402
+RESULTS = "2026-11-15"   # completion.RESULTS: the Sun 15 Nov evening re-run (fee charged in the range rule)
 
 c = E.Curve(E.load_par())
 I = E.instruments(c)
@@ -40,9 +41,9 @@ END = date(2032, 12, 15)
 FEE, VFEE = E.ASSUMPTIONS["fund_fee"], E.ASSUMPTIONS["vt_fee"]
 G_VT = 1 + E.ASSUMPTIONS["eq_growth"]
 
-R = json.load(open(HERE / "results_reserve_2026-11-10.json"))
-RR = json.load(open(HERE / "results_range_rule_2026-11-10.json"))
-JS = json.load(open(HERE / "results_joint_stress_2026-11-10.json"))
+R = json.load(open(HERE / f"results_reserve_{RESULTS}.json"))
+RR = json.load(open(HERE / f"results_range_rule_{RESULTS}.json"))
+JS = json.load(open(HERE / f"results_joint_stress_{RESULTS}.json"))
 assert R["stamp"]["design"] == RR["stamp"]["design"] == JS["stamp"]["design"] == "H_plain"
 cen = RR["central"]["holdings"]
 fwd_js = JS["returns_to_laura"]["forwards"]
@@ -111,9 +112,9 @@ checks = {
     "route2_cost_minus_reserve_file": cost27 - R["ladder_cost_jan2027"],
     "joint_stress_share_returned_minus_route2": fwd_js["share_returned"] - r2["shares"]["returned"],
 }
-out = {"stamp": {"curve": E.CURVE_DAY, "run": "Tue 10 Nov 2026 evening (Sydney)", "design": "H_plain", "status": "MODEL"},
+out = {"stamp": {"curve": E.CURVE_DAY, "run": "Tue 10 Nov 2026 evening (Sydney); re-run Sun 15 Nov evening", "design": "H_plain", "status": "MODEL"},
        "route1_other_files": r1, "route2_value_conservation": r2, "joint_stress_forwards": fwd_js, "checks": checks}
-(HERE / "results_returns_2026-11-10.json").write_text(json.dumps(out, indent=1))
+(HERE / f"results_returns_{RESULTS}.json").write_text(json.dumps(out, indent=1))
 
 f = lambda x: f"${x:,.2f}"
 print("route 1 (reserve + range_rule):", {a: f(b) for a, b in r1.items()})

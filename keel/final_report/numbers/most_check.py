@@ -104,7 +104,7 @@ def comp(d0, d1):
     return (tail * r_tail + back * r_back) * carry
 
 
-out = {"stamp": {"run": "Fri 13 Nov 2026 (Sydney)", "design": C.CALL, "curve": E.CURVE_DAY, "deposit_2028": DEP,
+out = {"stamp": {"run": "Fri 13 Nov 2026 (Sydney); re-run Sun 15 Nov evening", "rule": C.RULE_VERSION, "design": C.CALL, "curve": E.CURVE_DAY, "deposit_2028": DEP,
                  "most_means": "the floor gets more than half the 2028 deposit (more than $75,000)",
                  "keel_reading": "floor = max(73.3% of what is left, min(what is left, $75,001)); VT the rest"}}
 
@@ -276,7 +276,7 @@ def at_fall(x):
 
 out["e_what_the_plan_does"] = {"at_threshold": at_fall(a_call), "at_1.5pt": at_fall(0.015), "at_2pt": at_fall(0.02)}
 
-(HERE / "results_most_2026-11-13.json").write_text(json.dumps(out, indent=1, default=str))
+(HERE / f"results_most_{C.RESULTS}.json").write_text(json.dumps(out, indent=1, default=str))
 
 k = C.fmt
 A, B, Cc, D = (out[x] for x in ("a_fall_before_jan2027", "b_fall_during_2027", "c_smallest_deposit", "d_how_often"))

@@ -197,7 +197,7 @@ def qs(a, ps=(5, 50, 95)):
     return C.qs(a, ps) if np.size(a) else None
 
 
-out = {"stamp": {"curve": E.CURVE_DAY, "run": C.RUN, "design": NAME, "label": DSG["label"],
+out = {"stamp": {"curve": E.CURVE_DAY, "run": C.RUN, "rerun": "Sun 15 Nov 2026 evening", "rule": C.RULE_VERSION, "design": NAME, "label": DSG["label"],
                  "margin_jan2027_value": MARGIN, "ladder_yield_from_jan2028": YL, "fF": fF, "fM": fM}}
 
 # ---------------------------------------------------------------- 0. checks against the register
@@ -639,7 +639,7 @@ out["liquidity_cash_dates"] = liq
 out["liquidity_floor_and_moved"] = {"holding": "IBTM (late-2032 Treasury fund)", "cash_on_or_about": END.isoformat(),
                                     "kept_half": "VT, promised to no one; sellable any trading day"}
 
-json.dump(out, open(HERE / f"results_joint_stress_2026-11-10{C.tag(NAME)}.json", "w"), indent=1, default=float)
+json.dump(out, open(HERE / f"results_joint_stress_{C.RESULTS}{C.tag(NAME)}.json", "w"), indent=1, default=float)
 
 # ---------------------------------------------------------------- print
 k = lambda x: f"${x:,.0f}"

@@ -231,7 +231,7 @@ def versus(o, b):
 
 
 # ---------------------------------------------------------------- run
-out = {"stamp": {"run": "Thu 12 Nov 2026 morning (Sydney)", "curve": E.CURVE_DAY, "design": NAME,
+out = {"stamp": {"run": "Thu 12 Nov 2026 morning (Sydney); re-run Sun 15 Nov evening", "rule": C.RULE_VERSION, "curve": E.CURVE_DAY, "design": NAME,
                  "register": "Tue 10 Nov 2026 (NUMBERS 0, 3, 4, 8h, 8i, 8k, 8l)", "haircut": C.HAIRCUT,
                  "step": C.STEP, "status": "MODEL; a benchmark, not a recommendation",
                  "options": {k: v["label"] for k, v in OPTIONS.items()},
@@ -278,10 +278,10 @@ for k in OPTIONS:
 out["options"] = res
 
 # ---------------------------------------------------------------- checks
-reg = json.load(open(HERE / "results_2026-11-10.json"))["plan"]
+reg = json.load(open(HERE / f"results_{C.RESULTS}.json"))["plan"]
 c8 = reg["all_treasury"]
 hp = reg["H_plain"]
-JSN = json.load(open(HERE / "results_joint_stress_2026-11-10.json"))
+JSN = json.load(open(HERE / f"results_joint_stress_{C.RESULTS}.json"))
 cA, cB = res["A"]["central_today"], res["B"]["central_today"]
 hA, hB = W["A"]["house"], W["B"]["house"]
 checks = {
@@ -327,7 +327,7 @@ checks = {
 out["checks"] = checks
 out["run_seconds"] = time.perf_counter() - T0
 
-(HERE / f"results_share_split_2026-11-12{C.tag(NAME)}.json").write_text(json.dumps(out, indent=1, default=float))
+(HERE / f"results_share_split_{C.RESULTS}{C.tag(NAME)}.json").write_text(json.dumps(out, indent=1, default=float))
 
 
 # ---------------------------------------------------------------- print (rounded to $1,000 and whole percentages)

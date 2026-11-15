@@ -111,11 +111,17 @@ c1["H_plain_backstop"]["morning_backstop_units"] = {y: u for y, u in C.design("H
 # the IBTM tail bought in Jan 2028 misses its 2027 distributions; the completion money above its Jan 2028 price covers them
 _tail = C.PLAIN_COST - 300_000
 _tu = _tail / I[2033].price
+_fee0 = E.ASSUMPTIONS["fund_fee"]
 c1["H_plain_backstop"]["ibtm_tail"] = {
     "tail_jan2027": _tail, "units": _tu,
     "distributions_2027_missed": sum(_tu * a for d, a, _ in I[2033].flows if d <= E.J28),
     "completion_money_for_tail_jan2028": _tail * math.exp(f01),
-    "tail_price_jan2028": sum(_tu * a * c.P(d) / c.P(E.J28) for d, a, _ in I[2033].flows if d > E.J28)}
+    # Sun 15 Nov evening: priced at its net asset value (the gross holdings after a year's fee), not the value of its
+    # after-fee flows, which left out the fee from January 2028 on (as the range rule did; bond desk 3c precision, H1).
+    # Was $2,279.63; the value of the after-fee flows is kept beside it.
+    "tail_price_jan2028": sum(_tu * a / (1 - _fee0) ** E.yf(d, E.J27) * (1 - _fee0) ** E.yf(E.J28, E.J27) * c.P(d) / c.P(E.J28)
+                              for d, a, _ in I[2033].flows if d > E.J28),
+    "tail_after_fee_flows_value_jan2028": sum(_tu * a * c.P(d) / c.P(E.J28) for d, a, _ in I[2033].flows if d > E.J28)}
 out["C1"] = c1
 
 # ---------------------------------------------------------------- C2: an iBond fund pays its net asset value (unchanged)
@@ -339,9 +345,10 @@ for fall in (0.005, 0.01, 0.02):
 out["C6"] = c6
 out["stamp"] = {"curve": "US Treasury par yield curve, 6 Nov 2026 close", "valuation": "forward to 1 Jan 2027",
                 "design": NAME, "decided": C.DECIDED, "run": C.RUN,
+                "rerun": "Sun 15 Nov 2026 evening", "rule": C.RULE_VERSION,
                 "assumptions": {k: v for k, v in E.ASSUMPTIONS.items()}}
 
-(HERE / f"results_2026-11-10{C.tag(NAME)}.json").write_text(json.dumps(out, indent=1, default=str))
+(HERE / f"results_{C.RESULTS}{C.tag(NAME)}.json").write_text(json.dumps(out, indent=1, default=str))
 
 # ---------------------------------------------------------------- print
 k = C.fmt

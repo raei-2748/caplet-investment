@@ -231,35 +231,40 @@ def months_add(d, m):
 WAM2 = months_add(date(2026, 11, 4), round(5.65 * 12))     # IBTM's holdings: average maturity 5.65 years on 4 Nov 2026
 CDS2 = sorted(d for d in (months_add(WAM2, -6 * k) for k in range(40)) if d > E.J27)
 CPN2 = (1 - Pd(WAM2)) / (sum(Pd(d) for d in CDS2) / 2)    # par coupon to the WAM date on the 6 Nov curve
-FLOWS2 = [(d, (CPN2 / 2 + (1.0 if d == WAM2 else 0.0)) * (1 - FEE) ** yrs(d, E.J27)) for d in CDS2]
+GROSS2 = [(d, CPN2 / 2 + (1.0 if d == WAM2 else 0.0)) for d in CDS2]             # the holdings, before the fee
+FLOWS2 = [(d, a * (1 - FEE) ** yrs(d, E.J27)) for d, a in GROSS2]                # after the fee from 1 Jan 2027
 WAITFEE2 = (1 - FEE) ** yrs(END, WAM2)
+ETF2 = C.RULE_WAIT_FEE        # Sun 15 Nov evening: the rule charges waiting distributions the Treasury-bill ETF's fee
 
 
-def zero_payout2(buy, rate_of, etf_fee=0.0):
-    """What $1 put into the fund on `buy` pays on 15 Dec 2032 if nothing earns interest: remaining holdings' flows at
-    face (principal less the fee while it waits in the fund; distributions less etf_fee a year while they wait outside)
-    over their price on the trade day, discounted at rate_of(d) (a per-flow continuously compounded rate, floored at 0)."""
+def zero_payout2(buy, rate_of, etf_fee=ETF2):
+    """What $1 put into the fund on `buy` pays on 15 Dec 2032 if nothing earns interest: the remaining holdings' flows
+    at face less the fund fee from the trade day to each flow (principal also while it waits in the fund to 15 Dec),
+    distributions less etf_fee a year while they wait outside, over the price of the GROSS holdings on the trade day
+    (the net asset value), discounted at rate_of(d) (a per-flow continuously compounded rate, floored at 0).
+    Sun 15 Nov evening: until today the price was the value of the after-fee flows (FLOWS2), so the fee cancelled from
+    the trade day on, as in completion.zero_per_dollar (bond desk 3c precision, H1); and etf_fee defaulted to 0."""
     num = den = 0.0
-    for d, a in FLOWS2:
+    for d, a in GROSS2:
         if d <= buy:
             continue
         t = yrs(d, buy)
         den += a * math.exp(-max(rate_of(d), 0.0) * t)
-        num += a * (WAITFEE2 if d == WAM2 else math.exp(-etf_fee * yrs(END, d)))
+        num += a * (1 - FEE) ** t * (WAITFEE2 if d == WAM2 else math.exp(-etf_fee * yrs(END, d)))
     return num / den
 
 
-def zero_payout2_vec(buy, s, etf_fee=0.0):
+def zero_payout2_vec(buy, s, etf_fee=ETF2):
     """As zero_payout2, vectorised over a parallel move s of today's forwards (house paths)."""
     s = np.asarray(s, float)
     num, den = 0.0, 0.0
-    for d, a in FLOWS2:
+    for d, a in GROSS2:
         if d <= buy:
             continue
         t = yrs(d, buy)
         f = math.log(Pd(buy) / Pd(d)) / t
         den = den + a * np.exp(-np.maximum(f + s, 0.0) * t)
-        num = num + a * (WAITFEE2 if d == WAM2 else math.exp(-etf_fee * yrs(END, d)))
+        num = num + a * (1 - FEE) ** t * (WAITFEE2 if d == WAM2 else math.exp(-etf_fee * yrs(END, d)))
     return num / den
 
 
@@ -286,8 +291,8 @@ def route2_house(w):
     Fz, Mz = fm * zF, mm * zM
     F = fm * np.exp(np.maximum(fF2 + w["sF"], 0.001) * tauF2) * (1 - FEE) ** tauF2
     M = mm * np.exp(np.maximum(fM2 + w["sM"], 0.001) * tauM2) * (1 - FEE) ** tauM2
-    zFw = zero_payout2_vec(E.J28, w["sF"], C.WAIT_FEE)
-    zMw = zero_payout2_vec(E.J31, w["sM"], C.WAIT_FEE)
+    zFw = zero_payout2_vec(E.J28, w["sF"], 0.0)
+    zMw = zero_payout2_vec(E.J31, w["sM"], 0.0)
     return finish2(fm, mm, Fz, Mz, F, F + M, fm * zFw, mm * zMw)
 
 
@@ -295,8 +300,8 @@ def route2_history(w):
     fm, mm = split2(w["R"], w["vt3"])
     zF = zero_payout2(E.J28, lambda d: math.log(Pd(E.J28) / Pd(d)) / yrs(d, E.J28))
     zM = zero_payout2(E.J31, lambda d: math.log(Pd(E.J31) / Pd(d)) / yrs(d, E.J31))
-    zFw = zero_payout2(E.J28, lambda d: math.log(Pd(E.J28) / Pd(d)) / yrs(d, E.J28), C.WAIT_FEE)
-    zMw = zero_payout2(E.J31, lambda d: math.log(Pd(E.J31) / Pd(d)) / yrs(d, E.J31), C.WAIT_FEE)
+    zFw = zero_payout2(E.J28, lambda d: math.log(Pd(E.J28) / Pd(d)) / yrs(d, E.J28), 0.0)
+    zMw = zero_payout2(E.J31, lambda d: math.log(Pd(E.J31) / Pd(d)) / yrs(d, E.J31), 0.0)
     F = fm * math.exp(fF2 * tauF2) * (1 - FEE) ** tauF2
     M = mm * math.exp(fM2 * tauM2) * (1 - FEE) ** tauM2
     return finish2(fm, mm, fm * zF, mm * zM, F, F + M, fm * zFw, mm * zMw)
@@ -317,7 +322,7 @@ def route2_joint(w, ns):
             mb = m(buy)
             rate = lambda d, buy=buy, mb=mb: math.log(Pd(buy) / Pd(d)) / yrs(d, buy) * mb
             out[zk][k] = zero_payout2(buy, rate)
-            out[wk][k] = zero_payout2(buy, rate, C.WAIT_FEE)
+            out[wk][k] = zero_payout2(buy, rate, 0.0)
             grow = lambda d1: (Pd(max(d1, E.J27)) / Pd(END)) ** m(d1) if d1 < END else 1.0
             price = sum(a * math.exp(-max(rate(d), 0.0) * yrs(d, buy)) for d, a in raw if d > buy)
             paid = sum(a * grow(d) for d, a in raw if d > buy)
@@ -354,8 +359,8 @@ def compare(w, r2):
         cx = np.minimum(Z * (1 - x), r2["T"])
         h[f"at_{x:.4f}"] = {"top_short": int((cx < r2["T"] - 0.5).sum()), "below_bottom": int((cx < r2["B"] - 0.5).sum()),
                             "largest_top_gap": float((r2["T"] - cx).max())}
-    # the stricter reading: distributions wait in the Treasury-bill ETF at its fee, not at face
-    h["etf_wait_fee"] = {"floor_zero_less_bottom": stats(r2["Fzw"] - r2["B"]),
+    # the looser reading (the rule until Sun 15 Nov, apart from the fund fee): distributions counted at face
+    h["distributions_at_face"] = {"floor_zero_less_bottom": stats(r2["Fzw"] - r2["B"]),
                          "both_zero_less_top": stats(r2["Zw"] - r2["T"]),
                          "bottom_not_owned": int((r2["Fzw"] < r2["B"] - 0.5).sum()),
                          "top_not_owned": int((r2["Zw"] < r2["T"] - 0.5).sum()),
@@ -384,7 +389,8 @@ def no_model_checks(w):
 
 
 # ---------------------------------------------------------------- run
-out = {"stamp": {"run": "Wed 11 Nov 2026 evening (Sydney)", "curve": E.CURVE_DAY, "design": NAME,
+out = {"stamp": {"run": "Wed 11 Nov 2026 evening (Sydney); re-run Sun 15 Nov 2026 evening", "rule": C.RULE_VERSION,
+                 "curve": E.CURVE_DAY, "design": NAME,
                  "register": "Tue 10 Nov 2026 (NUMBERS 0, 3, 4, 8i)", "haircut": C.HAIRCUT, "step": STEP,
                  "status": "MODEL"}}
 
@@ -412,7 +418,7 @@ for k, w in W.items():
     out[k]["no_model_checks"] = no_model_checks(w)
 
 # the joint replay reproduces joint_stress's register figures (8i)
-JS = json.load(open(HERE / "results_joint_stress_2026-11-10.json"))["joint"]
+JS = json.load(open(HERE / f"results_joint_stress_{C.RESULTS}.json"))["joint"]
 oj = out["joint"]
 out["joint"]["reproduces_8i"] = {
     "floor_zero_less_bottom_min": [oj["v_floor_zero_less_bottom"]["min"], JS["zero_interest_floor_minus_bottom_stated_min"]],
@@ -426,17 +432,24 @@ out["joint"]["reproduces_8i"] = {
 # route 2
 R2 = {"house": route2_house(W["house"]), "history": route2_history(W["history"]), "joint": route2_joint(W["joint"], ns)}
 out["second_way"] = {k: compare(W[k], R2[k]) for k in R2}
-# the stricter reading's cost at the central path, in dollars at each end
-zFw_c = zero_payout2(E.J28, lambda d: math.log(Pd(E.J28) / Pd(d)) / yrs(d, E.J28), C.WAIT_FEE)
+# the waiting ETF's fee on distributions, at the central path, in dollars at each end (the rule charges it since
+# Sun 15 Nov evening; 'at face' is the reading before)
+zFa_c = zero_payout2(E.J28, lambda d: math.log(Pd(E.J28) / Pd(d)) / yrs(d, E.J28), 0.0)
 zF_c = zero_payout2(E.J28, lambda d: math.log(Pd(E.J28) / Pd(d)) / yrs(d, E.J28))
-zMw_c = zero_payout2(E.J31, lambda d: math.log(Pd(E.J31) / Pd(d)) / yrs(d, E.J31), C.WAIT_FEE)
+zMa_c = zero_payout2(E.J31, lambda d: math.log(Pd(E.J31) / Pd(d)) / yrs(d, E.J31), 0.0)
 zM_c = zero_payout2(E.J31, lambda d: math.log(Pd(E.J31) / Pd(d)) / yrs(d, E.J31))
 fmc, mmc = g(cen["floor_money"]), g(cen["moved_money"])
 out["second_way"]["etf_wait_fee_central"] = {
-    "floor_cost": fmc * (zF_c - zFw_c), "moved_cost": mmc * (zM_c - zMw_c),
-    "share_of_floor_zero": 1 - zFw_c / zF_c, "share_of_moved_zero": 1 - zMw_c / zM_c,
-    "floor_zero_less_bottom": fmc * zFw_c - g(rc["bottom"]),
-    "both_zero_less_top": fmc * zFw_c + mmc * zMw_c - g(rc["top"])}
+    "floor_cost": fmc * (zFa_c - zF_c), "moved_cost": mmc * (zMa_c - zM_c),
+    "share_of_floor_zero_at_face": 1 - zF_c / zFa_c, "share_of_moved_zero_at_face": 1 - zM_c / zMa_c,
+    "floor_zero_at_face_less_bottom": fmc * zFa_c - g(rc["bottom"]),
+    "both_zero_at_face_less_top": fmc * zFa_c + mmc * zMa_c - g(rc["top"])}
+# the fund fee from the trade day (H1), at the central path: what the rule's per-$1 figures were before tonight
+out["second_way"]["fee_from_trade_day_central"] = {
+    "floor_per_dollar_before": float(C.zero_per_dollar_before_15nov(E.J28)), "floor_per_dollar_now": zF_c,
+    "moved_per_dollar_before": float(C.zero_per_dollar_before_15nov(E.J31)), "moved_per_dollar_now": zM_c,
+    "floor_dollars": fmc * (float(C.zero_per_dollar_before_15nov(E.J28)) - zF_c),
+    "moved_dollars": mmc * (float(C.zero_per_dollar_before_15nov(E.J31)) - zM_c)}
 out["second_way"]["holdings"] = {"coupon_route2": CPN2, "coupon_engine": C.HOLD_COUPON, "wam": WAM2.isoformat(),
                                  "flows": len(FLOWS2)}
 # sampling: the house model drawn again with another seed
@@ -451,7 +464,7 @@ out["second_way"]["house_seed_2034"] = {
     "both_zero_less_top_min": a34["v_both_zero_less_top"]["min"],
     "excess_p5_p50_p95_min": [a34["iv_excess"]["p5"], a34["iv_excess"]["p50"], a34["iv_excess"]["p95"], a34["iv_excess"]["min"]]}
 
-(HERE / f"results_range_margin_2026-11-11{C.tag(NAME)}.json").write_text(json.dumps(out, indent=1, default=float))
+(HERE / f"results_range_margin_{C.RESULTS}{C.tag(NAME)}.json").write_text(json.dumps(out, indent=1, default=float))
 
 
 # ---------------------------------------------------------------- print

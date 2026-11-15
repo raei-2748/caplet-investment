@@ -121,7 +121,7 @@
 - **What is it?** Once lenders, depositors and margin are gone, two parties can still end a holding early.
   - The fund's board. It "may extend the termination date" with no shareholder vote; whether it can end a fund early is UNVERIFIED.
   - Laura herself. The IPS is not a trust (H3-120).
-- **Did it work?** Three iBond Treasury funds ended on schedule in 2023-2025 (NUMBERS 8h; Q16). No extension case was found (Q16).
+- **Did it work?** Three iBond Treasury funds ended on schedule in 2023-2025 (NUMBERS 8h; Q16) [15 Nov evening, card Q3c: five have ended, IBTA 15 days early]. No extension case was found (Q16).
 - **How is Laura's case like it?** An extension past a payment, or an early end, would make her act on a date she did not pick. Her own need in a recession could do the same.
 - **How is it not?** Neither party is a creditor. An extension meets the swap step, when the fund holds almost nothing but cash. Laura has promised the ten to herself, so no third party calls them.
 - **What Caplet takes.**

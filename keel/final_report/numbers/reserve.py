@@ -141,7 +141,7 @@ def release_schedule(world, r_test=0.0):
     return out, total
 
 
-out = {"stamp": {"curve": E.CURVE_DAY, "run": C.RUN, "design": NAME, "label": D["label"]}}
+out = {"stamp": {"curve": E.CURVE_DAY, "run": C.RUN, "rerun": "Sun 15 Nov 2026 evening (unchanged by the range rule)", "design": NAME, "label": D["label"]}}
 WORLDS = (("base", C.BASE), ("zero", C.ZERO), ("fee", C.FEEW), ("minus3", E.Reinvest(c, "shift", 0.03)))
 for wname, w in WORLDS:
     rows, left = run(w)
@@ -189,7 +189,7 @@ for key, rt in (("release_if_forwards_hold", -C.WAIT_FEE), ("release_if_forwards
                 "value_jan2027": sum(r["released"] * c.P(date(int(r["date"][:4]), 1, 1)) for r in rs),
                 "value_jan2033": sum(r["released"] * c.P(date(int(r["date"][:4]), 1, 1)) for r in rs) / c.P(E.J33)}
 rs, tot = release_schedule(C.BASE, -C.WAIT_FEE)
-(HERE / f"results_reserve_2026-11-10{C.tag(NAME)}.json").write_text(json.dumps(out, indent=1))
+(HERE / f"results_reserve_{C.RESULTS}{C.tag(NAME)}.json").write_text(json.dumps(out, indent=1))
 
 k = C.fmt
 print("design", NAME, "cost", k(D["cost"]), "margin", k(D["margin"]), "margin at 1 Jan 2033", k(out["margin_value_1jan2033_at_forwards"]))

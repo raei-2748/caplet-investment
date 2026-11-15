@@ -295,7 +295,7 @@ def real_twd(o, ns, w):
 
 
 # ---------------------------------------------------------------- run
-out = {"stamp": {"run": "Sat 14 Nov 2026 (Sydney)", "curve": E.CURVE_DAY, "design": NAME,
+out = {"stamp": {"run": "Sat 14 Nov 2026 (Sydney); re-run Sun 15 Nov evening", "rule": C.RULE_VERSION, "curve": E.CURVE_DAY, "design": NAME,
                  "register": "Tue 10 Nov 2026 (NUMBERS 0, 3, 4, 8f, 8i, 8j, 8k, 8l, 8n)", "haircut": C.HAIRCUT,
                  "step": C.STEP, "seed": P.SEED, "futures": P.N,
                  "status": "MODEL; benchmarks of the split the frozen IPS chose (l.15), not a recommendation",
@@ -374,10 +374,10 @@ out["central_frontier"] = {"by_fraction": fr, "step_starts": steps,
                                    "choice open to Caplet (IPS l.15 is frozen at half)"}
 
 # ---------------------------------------------------------------- checks: the plan must reproduce the register
-reg = json.load(open(HERE / "results_2026-11-10.json"))["plan"]["H_plain"]
-KH = json.load(open(HERE / "results_kept_half_2026-11-10.json"))
-JSN = json.load(open(HERE / "results_joint_stress_2026-11-10.json"))
-SS = json.load(open(HERE / "results_share_split_2026-11-12.json"))["options"]["B"]
+reg = json.load(open(HERE / f"results_{C.RESULTS}.json"))["plan"]["H_plain"]
+KH = json.load(open(HERE / f"results_kept_half_{C.RESULTS}.json"))
+JSN = json.load(open(HERE / f"results_joint_stress_{C.RESULTS}.json"))
+SS = json.load(open(HERE / f"results_share_split_{C.RESULTS}.json"))["options"]["B"]
 pc_, ph, ps, pj = res["plan"]["central_today"], res["plan"]["house"], res["plan"]["history"], res["plan"]["joint"]
 tw = JSN["twd_test"]
 WP = W["plan"]
@@ -534,7 +534,7 @@ checks["summary"] = {"pairs_compared": len(pairs), "largest_dollar_difference": 
 out["checks"] = checks
 out["run_seconds"] = time.perf_counter() - T0
 
-(HERE / f"results_kept_share_2026-11-14{C.tag(NAME)}.json").write_text(json.dumps(out, indent=1, default=float))
+(HERE / f"results_kept_share_{C.RESULTS}{C.tag(NAME)}.json").write_text(json.dumps(out, indent=1, default=float))
 
 
 # ---------------------------------------------------------------- print

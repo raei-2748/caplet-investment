@@ -182,7 +182,7 @@ so the asset test must carry the whole weight.
   In all, $173,476 (Keel arithmetic), against $10,775 of waiting cash on 1 Jan 2033 (NUMBERS 8h). Her holdings also sit
   with one broker: SIPC covers $500,000 against $589,655 (store Q26-022).
 - **How is it not?** An iBond ETF has a set end date and promises no fixed amount. It trades on an exchange, so a holder
-  can sell before the end. Three iBond Treasury funds have ended on schedule (2023, 2024, 2025; NUMBERS 8h). Only the
+  can sell before the end. Three iBond Treasury funds have ended on schedule (2023, 2024, 2025; NUMBERS 8h) [15 Nov evening, card Q3c: five have ended, IBTA 15 days early]. Only the
   $50,000 is due on 1 January; the facility money is not.
 - **What Caplet takes.** 3e: name "a late payout" as a limit, sized, and its answer in her own holdings: the gap after
   the waiting cash is $39,225, less than the next rung (IBTO, $47,545; NUMBERS 8h; Keel arithmetic). "Late, not lost."

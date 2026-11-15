@@ -327,7 +327,7 @@ Additions the store asks for most:
 | H6-082 | CE | random-walk run with no gain in 100 years | outside illustration |
 | H6-118 | FL | Shiller's class: about 80% inside on one question, about 10% on others | outside fact |
 | H6-121 | FL | 19 Oct 1987 -20.47%, 10^-71, 25 standard deviations | outside fact |
-| H7-011 | RE | policy rate 0-0.25% from Dec 2008 to Dec 2015 and from Mar 2020 | outside fact |
+| H7-011 | RE | policy rate 0-0.25% from Dec 2008 to Dec 2015 and from Mar 2020 (to 16 Mar 2022: card Q2d, Sun 15 Nov) | outside fact |
 | H7-013 | RE | Treasury called its 11.75% and 12.5% 2009-14 bonds in 2009 | outside fact |
 | H7-039 | FL CE | FINRA fined UBS $2.5m and ordered $8.25m restitution | outside fact |
 | H7-042 | CE | 16-market premium 4.04% vs US 4.52% (DMS 2008) | outside fact (stale edition) |

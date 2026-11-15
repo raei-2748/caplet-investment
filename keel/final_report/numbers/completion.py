@@ -25,6 +25,12 @@ Tue 10 Nov, afternoon (bond desk check, research/panel/2026-11-10_bond_desk_regi
     6 Nov curve) priced on the trade day's curve, cut by HAIRCUT (0.5%) before rounding down; the morning's one-par-bond
     deductions (ded_floor, ded_moved) stay as a comparison ("par stand-in"); owned_test() checks the stated ends
     against holdings the rule does not assume (3.50% and 4.00% coupons, the par stand-in) and against frictions.
+
+Sun 15 Nov, evening (bond desk 3c precision, research/panel/2026-11-15_bond_desk_3c_precision.md, H1 and M3):
+  * the range rule charges the fund's 0.07% fee from each trade day: the price is the gross holdings' value (the net
+    asset value the buyer pays), the payout each flow less the fee from the trade day (until today the fee cancelled
+    from the trade day on); the distributions wait in the Treasury-bill ETF and, at zero interest, lose its 0.15% fee.
+    The 0.5% cut is now for other costs alone. Results files from this rule carry the suffix RESULTS (2026-11-15).
 """
 import itertools
 import math
@@ -412,30 +418,69 @@ def rule_par(F, M, sF=0.0, sM=0.0, payout=None):
 
 _PW = (1 - FEE) ** ((END - WAM).days / 365.25)     # the fee on the holdings' principal while it waits to 15 Dec 2032
 
+# Sun 15 Nov 2026 evening (numbers owner; research/panel/2026-11-15_bond_desk_3c_precision.md, H1 and M3).
+# H1, the fee now charged from each trade day. Until today zero_per_dollar divided the holdings' flows AFTER the fee
+# (charged from 1 Jan 2027, as the engine's IBTM carries it) by the present value of those same after-fee flows, so the
+# fee cancelled from the trade day on and only the fee on the principal's wait to 15 Dec 2032 (_PW) survived: the rule
+# priced the purchase as if the buyer paid the value of after-fee flows. An ETF buyer pays the net asset value, the
+# market value of the GROSS holdings, and then bears the fee. Now HOLD holds the gross holdings (no fee), the price on
+# the trade day is their value on that day's curve, and the holder receives each remaining flow less the fee from the
+# trade day to that flow (the principal: to 15 Dec 2032, via _PW). At today's forwards this lowers what $1 pays by
+# 0.284% for the floor bought 1 Jan 2028 (1.211695 to 1.208257 before M3) and 0.101% for money moved 1 Jan 2031
+# (1.071332 to 1.070250). The ladder ($302,287: price 1.0 on 1 Jan 2027 for a par bond's after-fee flows) and the
+# modelled payouts (plan.run: the fee over the whole term) already counted the fee and are unchanged.
+# M3, where the distributions wait. The floor's and the moved half's distributions (and the last coupon's share of the
+# final flow aside) wait in the Treasury-bill ETF where every waiting dollar sits (NUMBERS 0); plan.run's payout has
+# them earn forward short rates there. At zero interest they lose that ETF's 0.15% a year (WAIT_FEE) from arrival to
+# 15 Dec 2032, the charge 3a's standard puts on every waiting dollar. RULE_WAIT_FEE = 0.0 counts them at face (the rule
+# before tonight, apart from H1). The haircut stays 0.5% (the lead decides its size later); it is now for costs beyond
+# the 0.07% fee and the waiting ETF's fee alone.
+RULE_WAIT_FEE = WAIT_FEE
+RULE_VERSION = ("Sun 15 Nov 2026 evening: fund fee charged from each trade day (price = gross holdings' value); "
+                "distributions wait in the Treasury-bill ETF at its 0.15% fee; haircut 0.5%; rounded down to $5,000")
+RESULTS = "2026-11-15"   # date suffix of the results files written on this rule (Sun 15 Nov evening re-run)
+
 
 def _bond(coupon):
-    """Holdings as one bond with this coupon maturing at IBTM's average maturity, fee from 1 Jan 2027 (test variants)."""
+    """Holdings as one bond with this coupon maturing at IBTM's average maturity, before the fee (test variants)."""
     fl = [(d, coupon / 2) for d in E.coupon_dates(WAM)]
     fl[-1] = (WAM, coupon / 2 + 1.0)
-    return [(d, a * (1 - FEE) ** E.yf(d, E.J27)) for d, a in fl]
+    return fl
 
 
-HOLD = {"engine": [(d, a) for d, a, _ in I[2033].flows],     # the engine's IBTM: coupon fixed on the 6 Nov curve
+# The fund's GROSS holdings per $1 of 1 Jan 2027 net assets (Sun 15 Nov evening: the engine's after-fee flows with the
+# fee from 1 Jan 2027 taken back out; the coupon variants are built gross).
+HOLD = {"engine": [(d, a / (1 - FEE) ** E.yf(d, E.J27)) for d, a, _ in I[2033].flows],   # coupon fixed on the 6 Nov curve
         "coupon_3.50": _bond(0.035), "coupon_4.00": _bond(0.040)}
 HOLD_COUPON = 2 * I[2033].flows[0][1] / (1 - FEE) ** E.yf(I[2033].flows[0][0], E.J27)
 
 
-def zero_per_dollar(buy, s=0.0, mult=1.0, hold="engine"):
-    """What $1 put into the late-2032 fund on `buy` pays on 15 Dec 2032 if nothing earns interest from then on: the
-    holdings' remaining coupons and principal (fee to each flow, and on the principal to 15 Dec), over their price on
-    the trade day's curve (today's forwards from `buy`, x mult + s; rates floored at zero). Vectorised over s, mult."""
+def zero_per_dollar(buy, s=0.0, mult=1.0, hold="engine", wait_fee=None):
+    """What $1 put into the late-2032 fund on `buy` pays on 15 Dec 2032 if nothing earns interest from then on.
+    Price: the gross holdings' remaining coupons and principal valued on the trade day's curve (today's forwards from
+    `buy`, x mult + s; rates floored at zero), i.e. the net asset value the buyer pays. Payout: each remaining flow less
+    the fund fee from the trade day to that flow (the principal also to 15 Dec 2032), each distribution less the waiting
+    ETF's fee from its arrival to 15 Dec 2032 (wait_fee; default RULE_WAIT_FEE). Vectorised over s, mult.
+    (Sun 15 Nov evening: before, the price was the value of the after-fee flows, so the fee cancelled; see above.)"""
+    wf = RULE_WAIT_FEE if wait_fee is None else wait_fee
     fl = [(d, a) for d, a in HOLD[hold] if d > buy]
     s, mult = np.asarray(s, float), np.asarray(mult, float)
     nav = 0.0
     for d, a in fl:
         nav = nav + a * np.exp(-np.maximum(c.fwd(buy, d) * mult + s, 0.0) * E.yf(d, buy))
-    z = sum(a * (_PW if d == WAM else 1.0) for d, a in fl)
+    z = sum(a * (1 - FEE) ** E.yf(d, buy) * (_PW if d == WAM else math.exp(-wf * E.yf(END, d))) for d, a in fl)
     return z / nav
+
+
+def zero_per_dollar_before_15nov(buy, s=0.0, mult=1.0, hold="engine"):
+    """The rule's per-$1 figure as computed until Sun 15 Nov afternoon (fee cancelled from the trade day, distributions
+    at face), kept only to show what moved. Not used by any register figure."""
+    fl = [(d, a * (1 - FEE) ** E.yf(d, E.J27)) for d, a in HOLD[hold] if d > buy]
+    s, mult = np.asarray(s, float), np.asarray(mult, float)
+    nav = 0.0
+    for d, a in fl:
+        nav = nav + a * np.exp(-np.maximum(c.fwd(buy, d) * mult + s, 0.0) * E.yf(d, buy))
+    return sum(a * (_PW if d == WAM else 1.0) for d, a in fl) / nav
 
 
 _fF0, _fM0 = c.fwd(E.J28, END), c.fwd(E.J31, END)
@@ -445,7 +490,9 @@ def rule(res, sF=0.0, sM=0.0, mF=1.0, mM=1.0, payout=None, hold="engine", haircu
     """Stated ends and the 2033 contribution under the rule (card Q19, on holdings). res: plan.run output (needs
     floor_money, moved_money, floor, moved); sF, sM: parallel yield moves at the floor's purchase (Jan 2028) and at the
     move; mF, mM: proportional moves (history windows). Each end = the money put in x the fund's zero-interest payout
-    per $1 on that trade day, less the haircut, rounded down to $5,000; top = bottom (unrounded) + the moved half.
+    per $1 on that trade day (fee charged from that day; Sun 15 Nov evening), less the haircut, rounded down to $5,000;
+    top = (the floor's zero-interest value, measured once at its purchase in January 2028 and carried unchanged, + the
+    moved half's, measured on the move day) less the haircut, rounded down ONCE (never the parts rounded).
     payout: what the two funds pay (default: plan.run's floor + moved, at the path's own rates)."""
     Fm, Mm = np.asarray(res["floor_money"], float), np.asarray(res["moved_money"], float)
     zf, zm = zero_per_dollar(E.J28, sF, mF, hold), zero_per_dollar(E.J31, sM, mM, hold)
