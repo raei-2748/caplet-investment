@@ -1,5 +1,8 @@
 # Reflection moments, re-picked: the team's own learning only (Sun 15 Nov 2026, afternoon)
 
+> **Superseded Sun 15 Nov night by `RANKING_4_PURPOSE.md` (Caplet, Book 18, INSTRUCTIONS I116).** The own-work test below was Keel's misreading of I115; this file is kept as history, not instructions.
+
+
 Why this file exists: Caplet, Sun 15 Nov 14:46 Sydney (INSTRUCTIONS I115, EXPECTATIONS standing order 21): the "copout"
 moment is not a sign of learning without a good reason the team kept the world fund, and setting aside the Keel drafts
 "doesn't suggest the growth of US as a team" because the drafts were Keel's. This replaces the morning's five strongest

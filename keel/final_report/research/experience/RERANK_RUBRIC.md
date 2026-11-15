@@ -18,11 +18,18 @@ decision-making, uncertainty, and learning shaped its investment thinking and fi
 4. Read all five rows first, then score each criterion on its own. Never give one overall mark: readers agree far less
    on an overall mark than criterion by criterion.
 
-**The gate (Caplet, Sun 15 Nov, INSTRUCTIONS I115; applies before any scoring).** Only the moments in
-`RANKING_3_TEAM_LEARNING.md` section 2 go in the pack. A moment is in only if it is the team's own (a teammate noticed,
-argued or decided it) and shows learning (what the team believed before, what changed it, what it did after). Events
-whose decisive work was Keel's or Claude's are out, however vivid. A reason found later is told as what the team
-understands now. Criterion D below is read first and breaks every tie.
+**The gate (Caplet, Sun 15 Nov 21:29, INSTRUCTIONS I116, Book 18; replaces the afternoon's I115 gate; applies before
+any scoring).** The pack holds the three moments of `RANKING_4_PURPOSE.md` section 2, plus up to three challengers from
+RANKING_2 that pass all four checks below. Whose work a moment rested on is not asked.
+1. **Human.** Could it authentically be a human experience, with the point landing without saying whose work it was?
+   A moment only an AI would plausibly do is out.
+2. **Purpose.** Can the sheet state what it teaches and which recommendation it explains? Decoration and log entries
+   are out.
+3. **Impressive.** Would a Wharton judge find it so? Trivia, ideas passed off as experiences and a strategy premised on
+   last year's team are out.
+4. **New.** Is it more than a retelling of the Trading Notes Analysis?
+
+Criterion D below is read first and breaks every tie.
 
 **Five criteria, 1 to 5** (2 and 4 sit between the anchors)
 
@@ -45,7 +52,7 @@ before scoring.
 kept after a real, dated test, told with what was luck. No two tell one story (the ladder's cost through 2026 is one).
 None retells the Trading Notes.
 
-**For whoever prepares the pack (not the readers).** Pack only the moments in `RANKING_3_TEAM_LEARNING.md` section 2, with its before, trigger and after, and the team's own words. Remove origin, candidate ids, old ranks and personal names (use
+**For whoever prepares the pack (not the readers).** Pack the three moments of `RANKING_4_PURPOSE.md` section 2 (facts, purpose, what changed) and up to three RANKING_2 challengers that pass the Book 18 gate. Remove origin, candidate ids, old ranks and personal names (use
 roles). Correct from card Q21 a2, refreshed to Tue 10 Nov's register:
 - VOID figures: X006, X020 (part), X026, X028 (and its "about $1,900"), X032 (part), X045, X059, X087.
 - X003 and X045 after-figures: floor payout $103,178; central range $95,000 to $115,000 (NUMBERS s4, s6, s10).

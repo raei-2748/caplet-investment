@@ -4,7 +4,7 @@ First draft Sun 8 Nov 2026 (Sydney), a day earlier than the plan's Mon 9 Nov; re
 independent line-by-line checks against every book and every register row. Written at Caplet's request (Book 14): "create truly comprehensive notes on all of my Bibles
 ... such that I could say, 'You've expressed my thoughts and expectations even better than I did.'"
 
-**What these notes cover.** Every book of the Bible (Books 1-17; Book 17 of Sat 14 Nov is carried in standing orders 11-19, and Caplet's conceit decision of the same evening in standing order 20; Caplet's rule on reflection moments (Sun 15 Nov) in standing order 21; the cover note of 26 Oct, the preface on where the
+**What these notes cover.** Every book of the Bible (Books 1-18; Book 17 of Sat 14 Nov is carried in standing orders 11-19, and Caplet's conceit decision of the same evening in standing order 20; Caplet's rule on reflection moments (Sun 15 Nov) in standing order 21, amended the same night by Book 18 in standing order 22; the cover note of 26 Oct, the preface on where the
 Bible sits, the list of what it overruled on 26 Oct), Ray's points of 5 Nov that Book 12 says to keep in mind, the Ten
 Commandments Keel drew from Books 1-10, every row of the instruction register (`INSTRUCTIONS.md`, B and I01-I93), and
 Keel's earlier rubric of Caplet's expectations for the IPS (`ips_rewrite/final_night/other_thread/harvest/05_EXPECTATIONS.md`).
@@ -102,7 +102,7 @@ days are run. Quotes are Ray's words. Keel's steps for following them every day 
 
 ### Caplet on the reflection moments (Sun 15 Nov, 14:46 Sydney; INSTRUCTIONS I115): standing order 21
 
-21. **A reflection moment shows the team's own learning, or it is out (I115).** "Unless you can find (or come up
+21. **A reflection moment shows the team's own learning, or it is out (I115); amended by standing order 22 (Book 18, 15 Nov night): the test of the team's own work is withdrawn, and purpose and judgement decide.** "Unless you can find (or come up
    with!) a good reason for us to have chosen to stick with the world fund, it's not a great indicator of learning";
    and the Keel drafts "weren't done by us – they were done by you – so that doesn't suggest the growth of US as a
    team." Two tests, both needed: (1) the team's own: a teammate noticed it, argued it or decided it; an event whose
@@ -111,7 +111,37 @@ days are run. Quotes are Ray's words. Keel's steps for following them every day 
    changed it, what it did differently afterwards, with the reason in the team's own record (its timeline, notes,
    Trading Notes, IPS). A reason found later is told as what the team understands now, never as what it thought at the
    time. This supersedes standing order 19's blind, equal pooling for the Team Reflection and the Articulation
-   section. Scores: `final_report/research/experience/RANKING_3_TEAM_LEARNING.md`.
+   section. Scores: `final_report/research/experience/RANKING_3_TEAM_LEARNING.md` (superseded by RANKING_4_PURPOSE.md, standing order 22).
+
+### Book 18 (Sun 15 Nov, 21:29 Sydney; INSTRUCTIONS I116): standing order 22, which amends 21
+
+22. **A clear purpose for everything in the report; moments chosen by judgement (I116, Book 18).** "You must have a
+   clear purpose behind everything you do in the Final Report. That's absolutely imperative, and non-negotiable."
+   - **Purpose.** Every part, number, source, moment and detail of the report carries a reason Keel can state: what it
+     proves, which of Wharton's words it answers, or what it shows a reader. Anything without a reason is cut, however
+     true, well sourced or hard-won it is.
+   - **Moments.** The only test for using an experience is that it "could authentically be a human experience", told
+     so that "the point lands" without saying whose work it rested on. Standing order 21's test of the team's own work
+     is withdrawn; whose work it was no longer matters. The moment must still have happened. It is told without saying
+     who did the work, and never with a false attribution: "a click landed on the wrong row as the page scrolled",
+     never "one of us clicked". Keel invents no event, person or detail (5.1, T24).
+   - **Few, and impressive.** "The articulation of competition experience fundamentally exists to serve the Final
+     Report and help us win, not to document every single experience we had." Choose few moments, each teaching
+     something, chosen for what a Wharton judge would find impressive. A small detail such as the 00:30 open may stay
+     when it shows the team's real conditions.
+   - **Out.**
+     - A strategy premised on last year's team.
+     - An idea passed off as an experience: the career as a stock she can't sell is an idea.
+     - Trivia, such as WInS never showing the second deposit.
+     - Anything only an AI would plausibly do, such as catching the floor counted inside the operating reserve.
+     - A retelling of the Trading Notes.
+   - **Erudition.** Why the team kept the world fund is where the report's investing erudition shows, inside the
+     articulation of the experience: the best possible justification, with the literature read at source.
+   - **Instructions.** Read for what Caplet means, not only for what the words allow, and get it right the first time.
+     When the meaning is unclear, act on the most likely reading, say which reading was taken, and ask ("Let me know if
+     not! That goes for everything").
+   - **Where it is applied:** `final_report/research/experience/RANKING_4_PURPOSE.md` (three moments and the
+     world-fund case), card Q46, SKELETON 3f.
 
 ### Caplet's conceit decision (Sat 14 Nov, 17:19 Sydney; INSTRUCTIONS I114): standing order 20
 
