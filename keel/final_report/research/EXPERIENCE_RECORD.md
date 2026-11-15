@@ -51,6 +51,13 @@ world-fund case are in `experience/RANKING_4_PURPOSE.md`; in short:
    a click that landed on the wrong row as the page scrolled, a cancel with no confirmation step, and the rule that one
    person places orders. Told without saying who clicked; never "one of us clicked".
 
+**Re-ranked blind on Mon 16 Nov (`experience/RANKING_5_RERANK.md`, three fresh readers, six events).** Moment 1 held,
+first with every reader. Moment 2 holds only as the opening clause of "too timid" (the plan called too timid in a blind
+test and priced from the other side), since the IPS already opens with the same switch. Moment 3 moved to 2.5 as one or
+two clauses (the curve check; the one-owner rule after the click) and the 00:30 open closes the knife edge. The set for
+3f is now: the knife edge (the headline "fits inside $300,000" dropped, which is why the completion rule was written);
+too bold, then too timid; "a copout". The weakest-promise event (27 Oct) is the reserve.
+
 Out, each for a stated reason (RANKING_4 section 4): last year's lessons; the career idea (an idea, not an experience);
 the $300,000 in WInS (trivia); the floor counted twice (reads as only an AI would catch it); a fund pays its value, not
 par (retells Trading Note 2); the IPS letter (to land it would have to call the drafts "ours").

@@ -2624,7 +2624,7 @@ H9-127,3,3,5,3,adapt,,"Use NUMBERS 8d/8j's rate (NT$32.768 on 6 Nov 2026), for s
 H9-128,3,5,3,3,keep,,"Cut by SKELETON: 3b keeps one currency figure (the 10% test, NUMBERS 8j); store and defence."
 H9-138,3,5,5,3,merged,Q11a-031,"Same n = 5,780 study as Q11a-031; never add a 'most likely' figure inside the range (Q35-005; SKELETON 3d)."
 H9-139,3,3,2,3,keep,,Applied: WORDS 'simulated futures' and Table 2's denominators; its '3 in 4' example is a void figure.
-H9-143,2,3,3,3,adapt,,A range chart was drawn and failed the five-second test; Table 2 replaces it (SKELETON Exhibits 3).
+H9-143,2,3,3,3,refuse,,"A range chart was drawn and failed the five-second test; Table 2 replaces it (SKELETON Exhibits 3). Mon 16 Nov, refused: a fan draws the spread's ends as a boundary readers take as two categories (card Q14a rows 20-21); the stated range's ends may be hard lines, the spread's never."
 H9-146,3,3,3,3,keep,,"Done internally as CANON; the report cites the IPS, never restates it (SKELETON's one rule)."
 H9-148,5,3,5,4,keep,,Landed: Table 1's 'Pays for' cell gives each holding its job (SKELETON 2.1; Week 6 email).
 H9-161,1,3,2,3,keep,,Superseded: Wharton's Final Report instructions filed 9 Nov (WHARTON_NORTH_STAR section 0).
@@ -3257,3 +3257,85 @@ Q46-013,3,3,5,4,merged,Q46-012,"Night 15 Nov: precision for row 12."
 Q46-014,4,5,5,3,keep,,"Night 15 Nov: data snooping and the every-run clause; moment 1."
 Q46-015,3,5,5,3,keep,,"Night 15 Nov: Citi-Revlon, one sentence in moment 3 if room."
 Q46-016,5,5,4,4,keep,,"Night 15 Nov: the 30 Sep bar set before the numbers; moment 1's event, dated."
+Q13-001,3,3,5,4,keep,,"Mon 16 Nov: Pre-mortem; moment 2 is a test run before trading, a pre-mortem in effect; one clause at most."
+Q13-002,3,5,5,4,keep,,Mon 16 Nov: Why prospective hindsight works; background for row 1.
+Q13-003,3,3,5,4,keep,,"Mon 16 Nov: Hindsight bias: why moments are told with dated verbs of finding, not realising."
+Q13-004,3,3,3,4,keep,,Mon 16 Nov: Decision journal; the 5 Oct entry left [fill in]; detail for moment 1.
+Q13-005,3,3,5,4,keep,,"Mon 16 Nov: Resulting: the fills were luck, never told as skill (moment 3)."
+Q13-006,3,3,5,4,keep,,"Mon 16 Nov: Outcome bias in the lab (Baron and Hershey 1988): judge the 2026 choices by their reasons, not WInS results."
+Q13-007,4,3,5,4,keep,,Mon 16 Nov: A Wharton-trained investor on judging a decision by its outcome; one clause in 3f if room.
+Q13-008,4,3,5,4,keep,,"Mon 16 Nov: Only one path happens: why the payments are not run on expected value (3a, moment 2)."
+Q13-009,5,5,5,4,keep,,"Mon 16 Nov: Timid choices and bold forecasts (Kahneman and Lovallo 1993) names both turns: the first plan bold, the later timid charge; aggregation cannot rescue ten fixed promises."
+Q13-010,4,3,3,4,keep,,Mon 16 Nov: Outside view: the 585 replays as the reference class (3c).
+Q13-011,4,3,5,4,keep,,"Mon 16 Nov: Intuition earns trust only where feedback is valid; stock picking is not, so one world fund (moment 1)."
+Q13-012,2,3,3,4,keep,,Mon 16 Nov: Foxes and hedgehogs; background only.
+Q13-013,2,3,3,4,keep,,Mon 16 Nov: Perpetual beta; background only.
+Q13-014,3,3,5,4,keep,,Mon 16 Nov: Teaming and tracking improved forecasts; background for how the team checked itself.
+Q13-015,2,5,3,4,keep,,Mon 16 Nov: Update frequency; background only.
+Q13-016,2,3,3,4,keep,,Mon 16 Nov: Brier score; not used: the report states no forecast probability to score.
+Q13-017,4,3,3,4,keep,,"Mon 16 Nov: Luck and skill on a continuum; the fills were luck (moment 3, 2.5)."
+Q13-018,4,5,5,4,keep,,"Mon 16 Nov: Authentic dissent beats an assigned devil's advocate: the copout objection was real, never ""devil's advocate"" (moment 1)."
+Q13-019,5,3,5,4,keep,,Mon 16 Nov: Preregistration: the 30 Sep bar was set before the numbers were run (moment 1).
+Q13-020,4,3,5,4,keep,,"Mon 16 Nov: Reason's system approach: the mis-click led to a rule (one owner), not blame (moment 3)."
+Q13-021,4,3,5,4,keep,,Mon 16 Nov: One-way doors: an order that cannot be undone has one owner (moment 3).
+Q13-022,2,3,5,4,keep,,Mon 16 Nov: Surgical checklist; parallel not needed.
+Q13-023,3,3,3,4,keep,,Mon 16 Nov: Curse of knowledge and concreteness: one physical detail per moment.
+Q14a-001,4,1,5,4,keep,,Mon 16 Nov: Cleveland and McGill: position on a common scale; Figure 1 and c1 use it.
+Q14a-002,4,1,5,4,keep,,"Mon 16 Nov: Put compared numbers side by side: Figure 1 columns, c2 panels."
+Q14a-003,3,1,5,4,keep,,Mon 16 Nov: Replication of the ranking; no pie or treemap.
+Q14a-004,3,3,5,4,keep,,Mon 16 Nov: Pick the graph by the task.
+Q14a-005,4,3,5,4,keep,,Mon 16 Nov: A reference point for action: Table 3 prints each normal value and action level.
+Q14a-006,3,1,5,4,keep,,"Mon 16 Nov: Bars read as comparisons, lines as trends: c1 is a line, c4 dots."
+Q14a-007,5,1,5,4,keep,,Mon 16 Nov: Tables beat graphics under about 20 numbers: Table 2 stays a table.
+Q14a-008,3,1,5,4,keep,,Mon 16 Nov: Data-ink: Figure 1 draws only what differs between rows.
+Q14a-009,3,1,5,4,keep,,Mon 16 Nov: Decoration is cheap; no exhibit carries the conceit.
+Q14a-010,2,1,5,4,keep,,Mon 16 Nov: Small multiples of the staircase rejected for page cost.
+Q14a-011,4,1,5,4,keep,,Mon 16 Nov: Compared with what? every exhibit has its comparator (today's rates first in Table 2).
+Q14a-012,2,5,3,4,keep,,Mon 16 Nov: Sparklines: card rejects price paths of holdings; c1c stays a format risk.
+Q14a-013,3,3,5,4,keep,,Mon 16 Nov: Order by the variable that answers the question: rows by payment date.
+Q14a-014,4,3,5,4,keep,,Mon 16 Nov: Show the zeros: $0 short in every Figure 1 row is the finding.
+Q14a-015,5,3,5,4,keep,,"Mon 16 Nov: Natural frequencies: write N of 100 simulated futures, never a percentage alone."
+Q14a-016,4,5,5,4,keep,,Mon 16 Nov: Icon arrays make a risk feel smaller: the 2.3 icon array dropped.
+Q14a-017,3,5,5,4,keep,,Mon 16 Nov: Visual aids help when part and whole show; background.
+Q14a-018,2,5,5,4,keep,,Mon 16 Nov: Accuracy versus preference; background.
+Q14a-019,3,1,5,4,keep,,"Mon 16 Nov: Words, numbers and a fixed denominator with any graphic."
+Q14a-020,5,5,5,4,keep,,"Mon 16 Nov: A drawn boundary reads as two categories: the stated range's ends may be hard lines, the spread's never; no fan (H9-143 refused)."
+Q14a-021,3,5,5,4,keep,,Mon 16 Nov: Quantile dotplots: twenty dots if 3c's confidence is ever pictured.
+Q14a-022,3,3,5,4,keep,,"Mon 16 Nov: One comparison per exhibit, annotated."
+Q14a-023,3,3,5,4,keep,,Mon 16 Nov: At most four visual groups.
+Q14a-024,3,1,3,4,keep,,"Mon 16 Nov: Wainer: no mid-axis scale change, no alphabetical order."
+Q14a-025,3,3,5,4,keep,,Mon 16 Nov: Decoration aids memory only when it carries the message.
+Q14a-026,5,3,5,4,keep,,"Mon 16 Nov: Conjunctive events overrated (Tversky and Kahneman 1974): aha 2's sentence names the intuition, then the count."
+Q14a-027,4,5,3,4,keep,,Mon 16 Nov: Per trip against a lifetime (Slovic et al. 1978): each payment 99 in 100 against all ten about 90 in 100.
+Q14a-028,2,5,5,4,keep,,"Mon 16 Nov: Comics closure: for the conceit's prose only, never an exhibit."
+Q14a-029,3,5,5,4,keep,,Mon 16 Nov: Time read as distance: Figure 1's date axis drawn to scale.
+Q14a-030,1,5,5,4,refuse,,Mon 16 Nov: Hypothetical outcome plots need animation; the report is a PDF.
+Q14b-001,5,3,5,4,keep,,"Mon 16 Nov: Write for one named reader as if places were swapped: the report writes to Laura, as the IPS did."
+Q14b-002,4,1,5,4,keep,,Mon 16 Nov: The least expert reader needs it most; first-round readers skim.
+Q14b-003,4,1,5,4,keep,,Mon 16 Nov: Ifs and thens go in a table: Table 3's shape.
+Q14b-004,4,1,5,4,keep,,Mon 16 Nov: Draw to scale and start at zero: c1d drawn from $0.
+Q14b-005,3,1,5,4,keep,,Mon 16 Nov: Time forward; rows ordered so the point shows.
+Q14b-006,3,1,5,4,keep,,Mon 16 Nov: No pie beside Table 1.
+Q14b-007,4,3,5,4,keep,,Mon 16 Nov: Test on first reading with readers like the real ones: the Mon 23 Nov fresh reader.
+Q14b-008,4,3,5,4,keep,,Mon 16 Nov: Plain words read as more intelligent (Buffett's preface; Oppenheimer).
+Q14b-009,3,3,5,4,keep,,Mon 16 Nov: Legibility raises judged truth; crisp black print.
+Q14b-010,3,3,5,4,keep,,Mon 16 Nov: One recurring table: Figure 1 as the schedule re-run each January.
+Q14b-011,5,3,5,4,keep,,Mon 16 Nov: Fix the yardstick before the result: the payments' standard and the 30 Sep bar.
+Q14b-012,4,3,5,4,keep,,Mon 16 Nov: Tell the reader the bad message in the table: each exhibit's call-out names its weak part.
+Q14b-013,4,5,5,4,keep,,Mon 16 Nov: Say in advance where the plan will look worse: in a share boom it looks cautious (3c or Table 2 note).
+Q14b-014,3,3,5,4,keep,,Mon 16 Nov: Change a measure openly: any basis moved since the IPS named once.
+Q14b-015,5,5,5,4,keep,,Mon 16 Nov: Courts read cost beside payout with the guaranteed part named: Figure 1's note; goldmine row 14's neighbour.
+Q14b-016,4,5,5,4,keep,,Mon 16 Nov: Courts ask for the rejected alternatives: one row or clause.
+Q14b-017,4,5,5,4,keep,,Mon 16 Nov: ASOP 51's test names; minimal-risk comparison gap is zero for the reserve.
+Q14b-018,5,5,5,4,keep,,Mon 16 Nov: Named worlds are not probabilities: Table 2's two heads (SSA form).
+Q14b-019,4,5,5,4,keep,,"Mon 16 Nov: Best estimate first, what did not move shown: today's rates first, payments column."
+Q14b-020,4,5,5,4,keep,,Mon 16 Nov: Bank of England: a line for assumptions held the same in every world.
+Q14b-021,5,5,5,4,keep,,"Mon 16 Nov: Check named worlds against a reference distribution: aha reserve, the worlds were picked to hurt."
+Q14b-022,4,5,5,4,keep,,"Mon 16 Nov: Confidence in two steps, history then judgement (3c)."
+Q14b-023,5,5,5,4,keep,,Mon 16 Nov: IPCC states its strongest finding as plain fact: what Laura owns stated as fact; conceit parallel for prose.
+Q14b-024,3,5,3,4,keep,,"Mon 16 Nov: No winning report is public; the one public Top-50 used tables and few charts; research only, never a reference."
+Q14b-025,2,5,3,4,keep,,"Mon 16 Nov: A past champion's account; research only, never a reference or a premise."
+Q14b-026,2,5,3,4,keep,,"Mon 16 Nov: Last year's Top-50 repository; research only, never a premise (Book 18)."
+Q14b-027,3,3,5,4,keep,,Mon 16 Nov: Statisticians' table layout rules.
+Q14b-028,4,3,5,4,keep,,Mon 16 Nov: Say a number as a person says it; text adds what the table cannot.
+Q14b-029,4,5,5,4,keep,,"Mon 16 Nov: Open each paragraph with the claim, no number: a check for 27 Nov."

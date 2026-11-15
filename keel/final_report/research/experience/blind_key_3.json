@@ -1,0 +1,118 @@
+{
+  "pack": "BLIND_POOL_3.md",
+  "built": "Mon 16 Nov 2026, Sydney",
+  "rubric": "RERANK_RUBRIC.md (gate of Sun 15 Nov 21:29, INSTRUCTIONS I116, Book 18)",
+  "shuffle": {
+    "method": "Python random.shuffle on the list in input_order, after random.seed(20261116); labels E1-E6 in the shuffled order",
+    "python": "3.13",
+    "seed": 20261116,
+    "input_order": ["M1", "M2", "M3", "Y017", "Y001", "Y076"],
+    "output_order": ["M1", "M3", "Y001", "Y017", "Y076", "M2"],
+    "code": "import random; items = ['M1','M2','M3','Y017','Y001','Y076']; random.seed(20261116); random.shuffle(items)"
+  },
+  "events": {
+    "E1": {
+      "source": "RANKING_4_PURPOSE.md section 2, moment 1 ('a copout')",
+      "ids": {"first_pool": "X100", "second_pool": "Y129", "candidate": "W-03"},
+      "origin": "CAPLET (objection, journal and timeline in the team's record); the 30 Sep test in archive/rab/decisions/D_fund_choice.md",
+      "corrections": [
+        "Objector named in the record; replaced by 'a teammate'",
+        "30 Sep test printed as that day's model on an older design ($150,000 floor, about $41,000 in VT; card Q21 X100)",
+        "Told as a bar set five days before the objection, never as a test run to settle it (Q21 X100)",
+        "Reasons for keeping VT given as what the team understands now (journal left 'Outcome and reasons: [fill in]')",
+        "Fourteen-of-fifteen houses from NUMBERS 8p; $800-$1,600 against $9,881-$41,258 from card Q6d row 30 (Sun 15 Nov model)",
+        "Trading Note 3's 'vain illusion' clause not used"
+      ],
+      "gate": "passes all four (RANKING_4 section 2)"
+    },
+    "E2": {
+      "source": "RANKING_4_PURPOSE.md section 2, moment 3 ('buying it')",
+      "ids": {"first_pool": ["X092", "X033", "X058"], "second_pool": ["Y082", "Y038", "Y133"], "candidate": ["W-02", "W-07", "W-38"]},
+      "origin": "CAPLET (journal, Experience tab, COMPETITION.md)",
+      "corrections": [
+        "No one named: 'a teammate fell asleep'; 'a click landed on the wrong row as the page scrolled' (Book 18)",
+        "Order rule given by role: 'only the team leader places or cancels orders'",
+        "Times from card Q21 X092: first order 10:55 Wed 7 Oct Sydney, US open 00:30 Thu 8 Oct Sydney, May-2038 re-placed 15:22",
+        "111 and 92 basis points printed as dated screen readings, not register figures (Q21 X033)",
+        "Fills told as luck, as the team's own review did",
+        "The Execution Alpha quote leaves out the paragraph's word 'optimal'"
+      ],
+      "gate": "passes all four (RANKING_4 section 2)"
+    },
+    "E3": {
+      "source": "RANKING_2 challenger: 'A knife edge'",
+      "ids": {"first_pool": "X032", "second_pool": "Y001", "candidate": "K-03"},
+      "origin": "KEEL",
+      "corrections": [
+        "VOID removed (Q21 X032, NUMBERS 8b): '$300,485 on 22 Sep', '$5,613 headroom', 'about 1 in 3 model rate paths'",
+        "HOLDS kept: 173 of 185 closes to 25 Sep over $300,000, first under on 10 Sep; room $7,736 on 25 Sep (register)",
+        "After-state from NUMBERS 8b: 37 of 214 closes under $300,000 to 6 Nov; $301,544 at the freeze; completion $2,388 (register)",
+        "Cheapest close $287,938 on 5 Oct and fills on 7-8 Oct told as 'timing, not skill' (8b's own words)",
+        "The $204 between two pricings of the 28 Sep curve kept as that day's check"
+      ],
+      "gate": {
+        "human": "yes: pricing ten bonds on every close of a year is spreadsheet work a student could do",
+        "purpose": "explains IPS l.13's completion rule and the first use of the 2028 deposit",
+        "impressive": "yes: a headline claim tested against a year of data and dropped",
+        "new": "partly: the IPS states the rule; the event that produced it is not in the TNA or IPS",
+        "note": "Only one ladder-cost event in the pack (rubric's set rule); X026, X028, X087, Y060, Y121 left out as the same story"
+      }
+    },
+    "E4": {
+      "source": "RANKING_2 challenger: 'Too timid'",
+      "ids": {"first_pool": "X010", "second_pool": "Y017", "candidate": "W-18", "merged_after_state": "Y049 / S-01 (Thu 12 Nov re-pricing, NUMBERS 8n)"},
+      "origin": "KEEL (the verdict and the 29 Sep test are also in caplet/google_drive/notes_and_discussions.md l.101)",
+      "corrections": [
+        "Readers described as 'three readers each asked to rank six anonymous plans as Laura would': true to the record ('three pretend Lauras'), with no claim that they were people",
+        "29 Sep figures printed as that day's model on a design since revised; the floor today pays $103,178, stated as a $95,000 bottom (register)",
+        "After-state from NUMBERS 8n as re-run Sun 15 Nov with the fee: 63 of 100; medians $4,000 / $8,000 / $12,000; bottom $65,000 / $30,000 / nothing; under $95,000 in 27 / 62 / 79 against 3 (Y049's '26' superseded)",
+        "Y049 itself (12 Nov, after the IPS) not entered as a separate event: one story with Y017 (RANKING_2's own note)"
+      ],
+      "gate": {
+        "human": "borderline yes: a team could ask readers to read as its client; the readers were simulated, so writers must never call them people, friends or family",
+        "purpose": "explains the floor in the 2028 deposit and the bottom of the range",
+        "impressive": "yes: a criticism priced on both sides and answered with numbers",
+        "new": "yes: not in the TNA; the IPS states the floor, not the test"
+      }
+    },
+    "E5": {
+      "source": "RANKING_2 challenger: 'The promise called certain was the weakest'",
+      "ids": {"first_pool": "X029", "second_pool": "Y076", "candidate": "K-02"},
+      "origin": "KEEL (keel/rooms/lab/L-10_last_in_line.md, 27 Oct)",
+      "corrections": [
+        "The file's fictional frame (a Keel member's 'roast') left out entirely; only the test and its figures used",
+        "Time 13:40 from the lab file's header (the second pool said 13:53)",
+        "Figures printed as the 27 Oct model (22 Oct curve, 7.5%, 200,000 paths); the superseded median gift (about $165,000) dropped",
+        "The second pool's quoted 'vivid detail' was a paraphrase, not a line of the record; replaced",
+        "After-state from the register: interest worth $93,941 by 1 Jan 2033; extra Treasuries $35,894, 'even if cash waiting earns nothing'. Not claimed as caused by this event alone",
+        "The overlap with Trading Note 1 (the reinvestment gap of one bond) stated in the sheet so readers can score criterion E"
+      ],
+      "gate": {
+        "human": "borderline yes: reading a plan as a lender reads a company's debts is a finance student's move; the work was a Keel model run",
+        "purpose": "explains the order of claims and the extra Treasuries in the 2028 deposit",
+        "impressive": "yes: a capital-structure reading and a coverage test borrowed from loan funds",
+        "new": "partly: TNA note 1 named the risk for one bond; the plan-wide finding is new"
+      }
+    },
+    "E6": {
+      "source": "RANKING_4_PURPOSE.md section 2, moment 2 (the first plan failed its own test)",
+      "ids": {"first_pool": "X076", "second_pool": "Y087", "candidate": "W-01"},
+      "origin": "CAPLET (team notes of 27 Sep and the Experience tab); the model in keel/library/verified_2026-09-27/strategy_mc.py",
+      "corrections": [
+        "Not on the register: printed as the 27 Sep model (200,000 paths, seed 20260927, J.P. Morgan 6.70% compound, 25 Sep curve), which reproduces exactly on a re-run (Q21 X076)",
+        "Paths not counted; 'in simulated markets'",
+        "IPS l.9's writer's-income reason for the same switch named in one clause, so the sheet does not contradict the IPS; the career idea itself left out (RANKING_4 guard)"
+      ],
+      "gate": "passes all four (RANKING_4 section 2)"
+    }
+  },
+  "challengers_left_out": {
+    "Y049 (S-01)": "After the IPS (cap of 3 on A) and one story with Y017; its figures used as Y017's after-state",
+    "Y054": "A research run of 472 questions: only an AI would plausibly do it",
+    "Y016": "Simulated judges; figures VOID",
+    "Y003 (K-11), Y114 (N-03), Y074, Y096, Y061, Y109, Y034": "After the IPS, process of an AI brief, or the same story as a sheet already in the pack",
+    "Y060 (S-04), Y121": "Part of the ladder-cost story, which E3 carries",
+    "Y117": "Trivia (RANKING_4 section 4)"
+  },
+  "new_events_since_15_Nov_ranking": "none passed (card Q13 section c)"
+}
