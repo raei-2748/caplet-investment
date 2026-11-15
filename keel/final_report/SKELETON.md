@@ -93,7 +93,7 @@ WORDS's names; about 275 new words, paid by the cuts and Section 3's 60 spare).*
 | 7 | 2.2 | 25 | The IBTR choice for 2037 with what it bought and cost; each forced constraint joined to its price | NUMBERS 8m; 0.5% cut |
 | 8 | 3e | 25 | What the two-reason rule costs and why it is still right (nothing is promised before January 2028). Thesis 5 ("nobody can run on the plan": the two reasons are the only two flows the plan does not own) | NUMBERS 5; Table 3 row 6; BOLD_THESES 5 |
 | 9 | 3b | 15 | The co-sponsor use of her flexibility is untested, and why | NUMBERS 8o limits |
-| 10 | 3f | 35, inside the 600 | How the team settled its disagreements, judged, not told | experience pool |
+| 10 | 3f | 35, inside the 600 | How the team settled its disagreements, judged, not told | the team's own moments only (`research/experience/RANKING_3_TEAM_LEARNING.md`, I115) |
 
 **Added: strong ideas the plan had dropped (GEM_LEDGER section 4; one clause each, inside the words above or in an
 exhibit's note).**
