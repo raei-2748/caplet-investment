@@ -40,7 +40,7 @@ one "to place" row (DAILY_RUN, Book 19) and marks it here with the date.
 | 11 | Campaigns go public at 60-80%; Set in Stone's 92% against 19% | 3d | Why co-sponsors will believe her | Card Q11b; C #4 | Placed (spine 8) |
 | 12 | Building costs rise in the year shares fall (Taiwan 2008: +14% against -46%) | 3e | The honest limit on her flexibility | Card Q5e; C #14 | Placed (spine 9) |
 | 13 | The first plan's danger was registration, not a crash (3.2% / 13.7% / 40.8%) | 3f | Thinking that changed, for a reason | RANKING_4; card Q47 row 3 | Placed (spine 10) |
-| 14 | Structured settlements are funded by law with US obligations (26 U.S.C. 130(d)); GFOA and state codes | 3a clause | Prior art for the commitment money's home | H3-069, H8-114; C #10 | To place |
+| 14 | Structured settlements are funded by law with US obligations (26 U.S.C. 130(d)); GFOA and state codes | 3a clause | Prior art for the commitment money's home | H3-069, H8-114; C #10 | Placed Mon 16 Nov (SKELETON aha table, 3a row; 130(d) read at source: the funding asset is an insurer's annuity "or any obligation of the United States", its payments "reasonably related" in time to the periodic payments and not above them, (d)(2)) |
 | 15 | Founder-run cultural places close within about ten years, for money | 3.0 or 3a | Why the commitment comes first | Card Q9 rows 1-3, 16; C #11 | To place |
 | 16 | Interest on interest is 3% of the 2033 payment, about 15% of the last two | Figure 1 note | Where the reinvestment risk sits | NUMBERS 8a; A #28; B #27; C #12 | To place |
 | 17 | A pledge from a fortune fails with the fortune (Spelman, Lehman); her floor is owned | 3d | A pledge is owed, her floor owned | H7-070; C #13 | To place |

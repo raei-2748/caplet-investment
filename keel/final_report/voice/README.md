@@ -99,6 +99,17 @@ of them, reading a round's passages blind.
   separates the conceit from the reading diet: the writers who were heard as Caplet's write passages that each carry
   one turn, set up where it is used.
 
+- **Rounds 3 and 4 (Mon 16 Nov), `ROUND3.md`, `ROUND4.md`.** Two fresh writers on writer E's diet and Keel's main
+  session each wrote four topics twice, plain and with one conceit turn; six blind readers. Caplet's reflections 18 of
+  18. Plain passages 20 of 24 (Keel's main session 11 of 12); one-turn passages 2 of 24, the two being Keel's "one line
+  that waited" on the operating reserve, which kept the team's loose "we" around the image. Every check question was
+  answered right in both conditions: the image never cost understanding and the pencil line often helped it. The
+  readers' reason: Caplet's IPS has one analogy, "stated once and put to work, not staged"; what they marked down was a
+  turn built and then named, a slogan or closing aphorism, a second reference beside the turn, two images crossed in a
+  sentence, and "ink" used before it was defined. Rounds 5-6 give readers the definition in the pack's preamble, as the
+  report gives it at 2.0, and each conceit passage puts one turn to work in a sentence or two, the way the IPS uses its
+  own analogy.
+
 ## Files
 
 - `CORPUS.md`: everything Caplet has written itself, and where it came from.

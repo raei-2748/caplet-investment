@@ -1,0 +1,12 @@
+# VOICE (VOICE): 6 ideas, ranked
+
+Built by `../build_store.py`; do not edit by hand (change `../ratings.csv` instead). Full rows are in `../insights.jsonl` and in the harvest file named in each row.
+
+| Rank | Id | Score (F R S C) | Tier | Status | Idea | Sources | Clash |
+|---|---|---|---|---|---|---|---|
+| 1 | Q14b-023 | 24 (5 5 5 4) | A | keep | The most careful assessment body states its strongest findings as plain facts: "key findings can be formulated as statements of fact or associated with an assessed level of confidence"; A.1: "It is unequivocal that huma… | IPCC (2021), SPM introduction, footnote 4, A.1, A.1.4 | no; IPS l.11's guard is history, and the FR carries none (standing order 24) |
+| 2 | Q14b-001 | 22 (5 3 5 4) | A | keep | Write for one named reader and give her what you would want if your places were swapped: "Write with a specific person in mind ... Though highly intelligent, they are not experts in accounting or finance ... My goal is … | SEC (1998), pp. 1-2; Berkshire Hathaway (2018, Owner's Manual, principle 12); Buffett (2025), p. 3 | no; the IPS is already written to her |
+| 3 | Q14b-029 | 22 (4 5 5 4) | A | keep | Open each paragraph with the claim, not the number: "Paragraphs should start with a theme sentence that contains no numbers"; avoid "'Table reading', that is, describing every cell of a complex table in your text" and "… | UNECE (2009), pp. 3-4 and 10 | no |
+| 4 | Q14b-008 | 20 (4 3 5 4) | A | keep | Plain words make the writer look cleverer, not simpler: Buffett, "Write as this handbook instructs you and you will be amazed at how much smarter your readers will think you have become" (p. 1). The experiment: needless… | SEC (1998), p. 1; Oppenheimer (2006), abstract and Experiments 1-4; Kahneman (2011), ch. 5 | no |
+| 5 | Q14b-028 | 20 (4 3 5 4) | A | keep | Write the number the way a person says it, and let the text add what the table cannot: "Before: 'Gross weekly pay in the bottom income decile was below £276 for full-time employees.' After: 'One in ten full-time employe… | Government Analysis Function (n.d.-b); Office for National Statistics (n.d.-a, n.d.-b) | no |
+| 6 | Q14b-002 | 18 (4 1 5 4) | B | keep | The least expert reader needs the document most, and the writer should picture how it is first read: "your least sophisticated investors have the greatest need for a disclosure document they can understand"; "How will t… | SEC (1998), ch. 3, pp. 9-10 | no |
