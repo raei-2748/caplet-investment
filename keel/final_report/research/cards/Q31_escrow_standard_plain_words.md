@@ -163,8 +163,9 @@ from Treasuries (state lotteries) and pension insurers supply the lay pictures.
   will file the ten as "safe" or "risky"; the exception decides whether "safe" is true.
 - *How is it not?* Laura's residual is not a probability Caplet estimates; it is a named event (US default) plus small
   sized frictions (CANON C9).
-- *What Caplet takes.* 3a and 2.0: the exception travels with the standard, in the frozen words "barring a US default"
-  (CANON A4); never "the only exception"; never "guaranteed" (C13). Figure 1's title carries the exception too.
+- *What Caplet takes.* 3a and 2.0: the standard is said plainly; "barring a US default" appears only where IPS l.11 is
+  quoted, and "guaranteed", "locked" or "risk-free" may be used with no exception attached (Book 19, Sun 15 Nov, voids
+  this card's earlier rule that the exception travels with the standard and Figure 1's title, and the old C13 objection).
 
 **B4. Saying the price: which one number (rows 16, 19-20, 31).**
 - *What is it?* Regulators require benefits and limits with "equal prominence" (Rule 156) and warn that protection is

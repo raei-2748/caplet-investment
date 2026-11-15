@@ -4,7 +4,25 @@ First draft Sun 8 Nov 2026 (Sydney), a day earlier than the plan's Mon 9 Nov; re
 independent line-by-line checks against every book and every register row. Written at Caplet's request (Book 14): "create truly comprehensive notes on all of my Bibles
 ... such that I could say, 'You've expressed my thoughts and expectations even better than I did.'"
 
-**What these notes cover.** Every book of the Bible (Books 1-18; Book 17 of Sat 14 Nov is carried in standing orders 11-19, and Caplet's conceit decision of the same evening in standing order 20; Caplet's rule on reflection moments (Sun 15 Nov) in standing order 21, amended the same night by Book 18 in standing order 22; the cover note of 26 Oct, the preface on where the
+> **The frame, and how everything here is held (Book 20, Sun 15 Nov 2026, 21:51 Sydney).** "I don't want some things
+> to be 'saved at the top of memory' over others. Everything should be saved equally, with Expectations being somewhere
+> at the very top, of course, along with the other things we've explained to you (Wharton as God, past deliverables as
+> Canon, etc.). My expectation is that we shouldn't need to repeat ourselves because EVERYTHING should ALWAYS be fresh
+> in your memory."
+> - **At the very top, the frame only:** Wharton's word ("God": `WHARTON_WORD.md`, `final_report/WHARTON_NORTH_STAR.md`),
+>   the past deliverables as Canon (the Trading Notes, the TNA reflections, the portfolio and the IPS as submitted:
+>   `final_report/CANON.md`, `final_report/FINAL_IPS_as_submitted.txt`), and these notes.
+> - **Under the frame, every instruction is equal.** Nothing in these notes, the register or memory is ranked above
+>   anything else by labels, capitals or position (the cover note of 26 Oct said the same: "Every single thing I've said
+>   throughout all of these 'Bibles' is equal in importance").
+> - **Always fresh.** Every session, room, run and worker reads the frame and these notes in full before any work, and
+>   every brief to a worker carries the instructions that bear on its task. The team should never have to repeat itself.
+> - **No Keel file outranks a book.** Keel's own guards (in `final_report/CONCEIT.md`, `WORDS.md`, SKELETON, a card) are
+>   checked against these notes before they are written; a guard that contradicts a book is void the moment it is
+>   found (standing order 24). This is how Keel forgot the over-claiming instruction twice, and why Book 19 had to say it
+>   a third time.
+
+**What these notes cover.** Every book of the Bible (Books 1-20; Books 19 and 20 of Sun 15 Nov night in standing orders 23 and 24 and the frame above; Book 17 of Sat 14 Nov is carried in standing orders 11-19, and Caplet's conceit decision of the same evening in standing order 20; Caplet's rule on reflection moments (Sun 15 Nov) in standing order 21, amended the same night by Book 18 in standing order 22; the cover note of 26 Oct, the preface on where the
 Bible sits, the list of what it overruled on 26 Oct), Ray's points of 5 Nov that Book 12 says to keep in mind, the Ten
 Commandments Keel drew from Books 1-10, every row of the instruction register (`INSTRUCTIONS.md`, B and I01-I93), and
 Keel's earlier rubric of Caplet's expectations for the IPS (`ips_rewrite/final_night/other_thread/harvest/05_EXPECTATIONS.md`).
@@ -23,7 +41,7 @@ not said, which Book 10 asked for.
 
 ---
 
-## Ray's standing orders of Sun 8 Nov, evening (INSTRUCTIONS I94-I100), and Caplet's of Mon 9 Nov (I101-I102): read these before anything else
+## Ray's standing orders of Sun 8 Nov, evening (INSTRUCTIONS I94-I100), and Caplet's of Mon 9 Nov (I101-I102)
 
 Seven messages from Ray between 19:29 and 19:40 Sydney, after these notes were written. They govern how the next 20
 days are run. Quotes are Ray's words. Keel's steps for following them every day are in `final_report/DAILY_RUN.md`.
@@ -143,6 +161,49 @@ days are run. Quotes are Ray's words. Keel's steps for following them every day 
    - **Where it is applied:** `final_report/research/experience/RANKING_4_PURPOSE.md` (three moments and the
      world-fund case), card Q46, SKELETON 3f.
 
+### Book 19 (Sun 15 Nov, 21:48 Sydney; INSTRUCTIONS I117): standing order 23
+
+23. **An intricate conceit, many 'aha' moments, the whole goldmine, no over-claiming guards, far more voice study (I117,
+   Book 19).**
+   - **The Final Report Doc's drafts are inspiration only.** "Whatever versions that are posted on Caplet's Final Report
+     doc (e.g. the current v1) will always be AI-generated (and, mind you, by other AIs who are inferior to you!) until
+     we get your one ... only ever take them as inspiration, never as gospel or as superior to your own work." Keel
+     reads them for ideas and never treats them as Caplet's writing or as a reason to change its own work.
+   - **The conceit is intricate.** "Don't forget what I said about a conceit. It is intricate. It involves strikingly
+     dissimilar parallels. It offers a startling new perspective. Never forget that. Never." It is developed through
+     the report, parallel by parallel, each true to the craft and to the plan and each doing an investing job (standing
+     order 22); never shrunk to a motif of two words. `final_report/CONCEIT.md` version 2; craft facts in card Q47.
+   - **The whole report aims at the same.** "These are the sorts of things you're aiming for – not only through the
+     conceit, but through the Final Report in its entirety." Several 'aha' moments, planned and placed: "The 'aha'
+     moment in the judge which I keep mentioning is imperative and indeed central to our team's strategy. And there
+     should be multiple." The register is `final_report/research/goldmine/AHA_REGISTER.md`.
+   - **The goldmine.** "You've got SO MANY gold nuggets scattered throughout the Github ... I want to ensure that you
+     incorporate all of them in the Final Report." Every nugget (Caplet's instructions and the ideas Keel built from
+     them) is mapped to a place in the report with its purpose, or merged into one that lands:
+     `final_report/research/goldmine/GOLDMINE.md`.
+   - **Over-claiming, the third time (Books 3, 5, 19).** "STOP OBSESSING OVER 'OVER-CLAIMING'!!! I literally don't care
+     if you describe Treasuries as, for instance, 'guaranteed', "locked", 'set in stone' or 'risk-free'. These are all
+     perfectly accurate descriptions in the investing world. You needn't preface this every single time with 'barring
+     a US default'." Every Keel guard on certainty words is void. A false statement is still a fact error (T5); a
+     strong true statement about a Treasury is not one.
+   - **Voice, far more.** "You've also GOT to put some more effort into voice studies ... I think you're on the right
+     track with your most recent voice study, but I think you're going to need to do a hell of a lot more of such work."
+     The programme in `final_report/voice/README.md` now runs a round in every run to Thu 26 Nov, on round 1's method.
+   - **Falls short:** a report with one clever image and no surprise in the argument; a strong true word softened.
+   - **Meets it:** the conceit opens a new way to see Laura's money, and the judge meets an 'aha' every page or so.
+   - **Delights:** a judge finishes the report seeing risk, certainty and credibility differently, and remembers which
+     team showed them.
+
+### Book 20 (Sun 15 Nov, 21:51 Sydney; INSTRUCTIONS I118): standing order 24
+
+24. **Every instruction equal and always fresh (I118, Book 20).** See the frame at the top of these notes. In practice:
+   - Every session reads the frame and these notes in full before any work; the memory index lists the frame first and
+     every other entry as an equal.
+   - Every worker brief carries the instructions that bear on its task, quoted or cited.
+   - Before Keel writes a guard, a ban or a test into any working file, it checks it against these notes; a guard that
+     contradicts a book is void and is removed the day it is found, in every file that carries it.
+   - "Is that clear?" Yes; answered in the thread on Sun 15 Nov.
+
 ### Caplet's conceit decision (Sat 14 Nov, 17:19 Sydney; INSTRUCTIONS I114): standing order 20
 
 20. **One conceit for the Final Report: pencil and ink (I114).** "We've decided to go with a conceit after all ...
@@ -150,13 +211,14 @@ days are run. Quotes are Ray's words. Keel's steps for following them every day 
    surprising and seemingly far-fetched parallels. It displays wit, intellectual ingenuity, and offers a startling new
    perspective. THAT is what we're going for." The IPS had none because "That was a letter; this is not a letter."
    Caplet sent an AI-drafted mapping as "an absolutely brilliant starting point", "not gospel", and left the changes to
-   Keel. Keel's version is `final_report/CONCEIT.md`: ink is a dollar figure owned in Treasuries that will pay it on its
-   date, barring a US default; pencil is a figure no Treasury she owns will pay yet; Laura states a figure only once it is inked, which is the IPS's
+   Keel. Keel's version is `final_report/CONCEIT.md` (version 2 since Book 19): ink is a dollar figure owned in Treasuries that will pay it on its
+   date; pencil is a figure no Treasury she owns will pay yet; Laura states a figure only once it is inked, which is the IPS's
    own rule ("whatever figure you choose is money you already own", l.15). Every figure in the AI draft is reconciled to
    `final_report/NUMBERS.md` there, and the parts that no longer matched the plan (a $140,000-$160,000 range, a $7,500
    buffer checked in 2033, VT as "colour") are replaced. This replaces Keel's 8 Nov reading of Part 6 for the Final
-   Report only; the IPS stays as it was. Ray's 5 Nov warning becomes the conceit's guard: each image sentence must do
-   an investing job, carry a number or a rule, and never stand in for an idea (2.7, 3.6).
+   Report only; the IPS stays as it was. Ray's 5 Nov warning becomes the conceit's guard: each image must do
+   an investing job and never stand in for an idea (2.7, 3.6). **Amended by standing order 23 (Book 19):** the conceit is
+   intricate, never capped into a motif; Keel's old caps (two words, five sentences, one craft fact) are void.
 
 ---
 
@@ -176,7 +238,9 @@ the way.
 
 ## Caplet's own emphasis, and the order Keel reads it in
 
-Caplet has called several things the most important. Keel keeps all of them and reads them in this order:
+Caplet has called several things the most important. These are Caplet's own words of emphasis and they guide
+trade-offs inside a piece of work; they do not rank what is remembered (Book 20: every instruction is held and read
+equally). Keel keeps all of them and reads them in this order:
 
 1. **Extraordinary is the goal.** "There's only one real rule above all else. Both our IPS and our Final Report must be
    truly, exceptionally, stunningly, breathtakingly, extraordinary" (Book 5); "That's your number one instruction,
@@ -562,7 +626,13 @@ investing other than literal T-Bonds"; a distinction from T-bonds, if made, is "
 'nuanced'". The 26 Oct overrule added: "'Exact sums on exact dates' is allowed for iBonds held to liquidation and for
 T-bonds held to maturity." The Trading Notes' own line ("their terminal payout is a net asset value, as opposed to a
 promise of par") is the concise distinction already on the record.
-- *Falls short:* "may", "potentially", "it could be argued"; a true strong claim softened.
+**Book 19 (Sun 15 Nov), the third time.** "STOP OBSESSING OVER 'OVER-CLAIMING'!!! I literally don't care if you
+describe Treasuries as, for instance, 'guaranteed', "locked", 'set in stone' or 'risk-free'. These are all perfectly
+accurate descriptions in the investing world. You needn't preface this every single time with 'barring a US default'."
+Keel had rebuilt the guard in its Final Report files after the 26 Oct fix removed it from the office tools; it is gone
+again from every file, and standing order 24 stops it coming back.
+- *Falls short:* "may", "potentially", "it could be argued"; a true strong claim softened; "barring a US default" or any
+  other safety clause attached to a Treasury.
 - *Meets it:* plain, confident statements; a strong word is changed only if it is false, and then for an equally
   strong true one.
 - *Delights:* the reader trusts us because we sound as if we know.
@@ -601,11 +671,12 @@ amusing given that I literally wrote it myself" (Book 9). Detector checks are ba
 like a human, aloud, against Caplet's own writing.
 - *Falls short:* a line a reader would quote as an example of AI writing.
 - *Meets it:* nothing reads as a slogan; nothing is there to sound clever.
-- **The conceit's corniness guard (standing order 20).** Elaborate metaphor is what Book 2 warned AI over-uses, so the
-  conceit is held tight: two carrying words (pencil, ink); any other craft fact once, explained in the same sentence,
-  and only if it extends "owned or not yet"; at most five image sentences in the report and one in a part, never its
-  last line (evidence: card Q42) or its first (round 1's readers heard set-piece openings and rounded endings as not
-  Caplet), the image before or with its number; struck out, the sentence must still state its number and rule; never in tables or Laura's words to co-sponsors; no comics jargon or puns.
+- **The conceit and corniness (standing orders 20 and 23).** Book 2 warned that AI over-uses elaborate metaphor, and
+  Book 19 asks for an intricate conceit. Both hold when every parallel is true to the craft and true to the plan, does
+  an investing job, and gives the reader something they had not seen; corniness is decoration, not intricacy. Keel's
+  old caps (two words, five sentences, one craft fact, never a part's first or last line) are void (Book 19). What
+  stays: never in tables, never in Laura's words to co-sponsors (the mapping Caplet sent says so), no puns, and the
+  blind readers' ear as the test.
   Samuel Johnson's test is the bar: wit "which he that never found it, wonders how he missed", never the conceit whose
   reader "thinks his improvement dearly bought" (`final_report/CONCEIT.md` section 7).
 - *Delights:* the prose is invisible: the reader notices only the ideas and, now and then, a line they enjoy.
@@ -831,7 +902,9 @@ only once it is inked. It comes from Laura's own trade, continues the IPS's last
 and is the IPS's own rule made visible. For the Final Report it replaces the reading below that ruled out a
 long-running image; the IPS is unchanged, and what the reading below protected (an idea doing the work, nothing corny,
 nothing medical, investing first) now guards the conceit. Keel's mapping, placement and guards:
-`final_report/CONCEIT.md`. The history below is kept as it was written on 8 Nov.
+`final_report/CONCEIT.md`. **Book 19 (Sun 15 Nov):** "It is intricate. It involves strikingly dissimilar parallels. It
+offers a startling new perspective. Never forget that. Never." Keel's first version had shrunk it to two words in five
+sentences; version 2 develops it through the report (standing order 23). The history below is kept as it was written on 8 Nov.
 
 Books 1, 2, 3, 5 and 11 asked for "some kind of single unifying extended metaphor or motif" (Book 1), subtle, used
 "where it's genuinely impactful and adds a thoughtful layer – and indeed perhaps an almost transcendent quality, I
@@ -982,6 +1055,10 @@ the report (4.5).
 | Book 14, 8 Nov | No report prose until the day before; 24-hour session, a dozen rounds; benchmark the Bible and Wharton; expectation notes on a continuum, and pay attention to them; apply them; originals out of the working set once certain; promise; 19 days of deep thinking, nothing pasteable, a little voice study; every last token on the task; a ranked store, nothing lost | 4.1, 4.2, 0, this page, 4.4, 4.5, T21, Part 11 |
 | Book 15, 8 Nov | Research on every part of the case, not only investing | 2.8 |
 | Book 16, 7 Nov (Caplet's IPS) | Keel's IPS too bad to use; Caplet's sounds human and, even more importantly, is comprehensible to humans; compare our work to its standard; make notes on what went wrong; produce a stunning Final Report | 3.1, 3.3, 5.2, 4.9, voice study 1 |
+| Book 17, 14 Nov | Write like us from Caplet's own voice; evaluate, don't repeat the IPS; lose nothing; references from investing literature | Standing orders 11-19, 3.3 |
+| Book 18, 15 Nov | A purpose for everything; moments by human plausibility, few and impressive; the world-fund case | Standing order 22 |
+| Book 19, 15 Nov | Doc drafts are other AIs' (inspiration only); intricate conceit; many aha moments; the goldmine; no over-claiming guards (third time); far more voice study | Standing order 23, 3.4, 3.6, Part 6 |
+| Book 20, 15 Nov | Every instruction equal and always fresh; frame at the top (Wharton as God, Canon, Expectations) | The frame, standing order 24 |
 | Ten Commandments (Books 1-10) | I-X, each with a test | Part 9 maps each |
 | What the Bible overruled, 26 Oct | Removed IPS-era checks; kept: strategies named for what they are, stocks never called sure; "exact sums on exact dates" allowed for iBonds held to liquidation and T-bonds held to maturity | 2.2, 3.4, Part 9 |
 | Keel's 5 Nov rubric (`05_EXPECTATIONS.md`) | Earlier list of Caplet's expectations for the IPS, incl. Ray's 23 Oct "don't soften" and 5 Nov Stop Slop lines | 3.4, Part 7, Part 9 |

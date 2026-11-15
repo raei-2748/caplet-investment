@@ -58,11 +58,12 @@ do", and the report must "evaluate" and "analyse" where the IPS described. Three
   (`research/REFERENCES_PLAN.md`): investing literature in, Wharton's own pages out.
 
 **The conceit (Sat 14 Nov, evening).** Caplet chose one conceit for the report, "pencil and ink" (I114): pencil is
-anything not yet owned, ink a figure already owned in Treasuries that will pay it, barring a US default, and Laura
-states a figure only once it is inked. `CONCEIT.md` holds the true dates of inking (the ten payments and the bottom in
+anything not yet owned, ink a figure already owned in Treasuries that will pay it, and Laura
+states a figure only once it is inked. Version 2 (Book 19, Sun 15 Nov night): the conceit is intricate and developed
+through the report, one turn per part (`CONCEIT.md` V2.2); version 1's caps and certainty guards are void. `CONCEIT.md` holds the true dates of inking (the ten payments and the bottom in
 January 2028, the top before the 2031 meetings, her flexibility never), the AI draft's mapping corrected to the register, the
-craft facts checked at source, the part each image belongs to, and the guards. It adds no words and appears in five
-to seven sentences of the report; voice round 2 tests it blind.
+craft facts checked at source, the arc of turns part by part (V2.2), and the guards that survive (V2.4); voice
+round 2 tests it blind.
 
 **Why it changed (8 Nov evening).** The old plan researched for nine days before anything said what shape the report
 would take, re-ran the numbers on day 9, asked for Caplet's sentences on day 14 and drew the charts on day 16. A report

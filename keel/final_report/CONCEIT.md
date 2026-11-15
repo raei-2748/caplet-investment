@@ -1,10 +1,133 @@
-# The conceit: pencil and ink (Sat 14 Nov 2026, evening)
+# The conceit: pencil and ink (Sat 14 Nov 2026, evening; version 2, Sun 15 Nov night)
 
 Caplet's decision, Sat 14 Nov, 17:19 Sydney: the Final Report runs one conceit, "pencil and ink". This page is how
 Keel will carry it: the rule the image stands for, the true dates on which each part of Laura's money is "inked", the
 AI draft's mapping checked line by line against the number register and the frozen IPS, the craft facts behind each
 parallel (checked at source the same evening), where each image goes in the report, and the guards. Notes for the
 27 Nov writers, not report prose. Caplet's message and the AI mapping it attached are kept verbatim at the end.
+
+## Version 2 (Sun 15 Nov 2026, night): an intricate conceit, as Caplet defined it
+
+> Caplet, Book 19 (Sun 15 Nov, 21:48 Sydney): "don't forget what I said about a conceit. It is intricate. It involves
+> strikingly dissimilar parallels. It offers a startling new perspective. Never forget that. Never. These are the sorts
+> of things you're aiming for – not only through the conceit, but through the Final Report in its entirety." And: "STOP
+> OBSESSING OVER 'OVER-CLAIMING'!!! ... You needn't preface this every single time with 'barring a US default'."
+
+**What went wrong in version 1.** Keel turned Caplet's conceit into a motif. It allowed two words (pencil, ink), at most
+five image sentences in the whole report, one craft fact, never a part's first or last line, none in Section 2 or the
+Team Reflection, and "inked" only ever beside "barring a US default". Caplet's definition (14 Nov) is the opposite: "a
+specialised, intricate type of extended metaphor ... strikingly dissimilar, surprising and seemingly far-fetched
+parallels ... wit, intellectual ingenuity ... a startling new perspective". A conceit in Donne's sense is developed: the
+compass in "A Valediction: Forbidding Mourning" is worked through three stanzas, each turn showing something new about
+the lovers. Version 1's caps, and every certainty guard in its section 7, are void (Book 19; standing orders 23 and 24).
+
+**What version 2 does.** It keeps the rule (a figure is stated only once it is inked) and develops the conceit through
+the whole report, one parallel at a time, so that each part shows the judge something about Laura's money they had not
+seen. Every parallel is true to the craft (cards Q40, Q44, Q47, checked at source) and true to the plan (NUMBERS), and
+each does an investing job (Book 18: a purpose for everything). The test is Samuel Johnson's for wit: "a combination of
+dissimilar images, or discovery of occult resemblances in things apparently unlike", wit "which he that never found it,
+wonders how he missed" (*Life of Cowley*, 1779).
+
+### V2.1 The rule
+
+- **Ink** is a dollar figure Laura owns in Treasuries that will pay it on its date. **Pencil** is a figure no Treasury she
+  owns will pay yet: her future income, the 2028 deposit before it arrives, the world share fund's value before half of
+  it moves, the interest cash earns while it waits, every forecast and every model result in the report.
+- **Laura states a figure only once it is inked.** It is the IPS's own rule made visible ("whatever figure you choose is
+  money you already own", l.15) and it comes from her trade: in comics only the inked line is printed, and the pencils
+  are rubbed out (Martin 2019, p. 6).
+- Defined once, at first use, in 2.0 beside Table 1 (moved from 3.0 on Sun 15 Nov night: Section 2 comes first and
+  uses the image, and an image met before its definition costs comprehension, cards Q42 and Q47), with the word "owned"
+  (everyday English hears "inked" as "signed", card Q42: a matter of being understood, not of caution). Treasuries are guaranteed, locked, set in stone: the report says so plainly where it
+  helps, with no safety clause attached (Book 19). The IPS's own words "barring a US default" are quoted only where the
+  IPS is quoted.
+
+### V2.2 The arc: one conceit, developed part by part (notes for the 27 Nov writers, not wording)
+
+Each part turns the conceit to show something new. The figures are NUMBERS figures; the craft facts are verified (V2.3).
+
+| Part | The turn of the conceit | What the judge sees differently (the 'aha') | Number or rule it carries |
+|---|---|---|---|
+| Title page | The title may carry the conceit ("Pencil and Ink"); Caplet's call. Optional epigraph: 意在筆先, "the idea precedes the brush" (grind the ink before you write), in Chinese with the team's own gloss and "traditionally attributed to Wang Xizhi" (the attribution is doubted and no English wording is verified, card Q47 A18) | That the report has one idea running through it, and that it began before any figure | |
+| 2.0-2.1 | **The definition, at first use**, then Table 1 as the page as it stands today: every Treasury row is ink, VT the only pencil (the WInS portfolio holds no top-up, extra Treasuries or moved half, which the plan buys in 2028 and 2031: coherence reader 4). Said beside the table, never in it. **The key plate** [dissimilar: press mechanics]: on a press the plate with the most detail guides the register and the colour plates are aligned to it (card Q47 A6); the ten Treasuries are bought first and every later piece is sized against them, in order (the top-up and extra Treasuries, the floor, then VT): the shares are registered to the Treasuries, never the other way round. Never "K stands for key"; never colour for VT (half of VT becomes ink in 2031). Optional, 2.2: **iron gall and carbon** (iron gall looks strongest on the day but its acid eats the paper over years; good carbon ink does not discolour, A14): permanence is judged on the payment date, which is why every instrument is dated (IPS l.13, "Held to the end, these pay what they say"); never map a named fund to iron gall | Section 2's rows sort themselves into what is owned and what is not, in the order of claims | $300,000 of the plan's $450,000; VT 8.84% of the WInS portfolio; the ten cost $302,287 on the instruments held |
+| 2.3 | **One eraser, three lines.** Her advances, share prices and co-sponsors' budgets are three pencil lines that a single recession rubs out together (IPS l.9's own thesis, now drawn): so the promised money cannot stay in pencil, and the portfolio diversifies Laura, not itself | Correlation becomes visible: diversification here means putting promised money where the eraser cannot reach | The career test, 2009 and 2020 (card Q12); Bodie, Merton and Samuelson 1992 |
+| 3.0 | **The run is finished before it is offered.** Publishers want issues finished before a series is offered to shops ("three completed issues", Image, 2015); Laura's ten payments are bought in January 2027, six years before the first goes out | Certainty has dates. The question "how much in shares?" becomes "when is each line inked?" A line here can set up 3f's knockout: the danger in a shares-first plan is a payment out of register on one of ten dates, not a crash | Most of each payment inked Jan 2027 (at least about $42,000 of each $50,000 even if cash waiting earns nothing, NUMBERS 8h) |
+| 3a | **The one line that waited in pencil, and the reserve that inks it.** The interest cash earns while it waits was pencil from January 2027 to January 2028; the extra Treasuries ink it. A publisher's reserve against returns (up to 35% of earned royalties, held back and released once the risk passes; Authors Guild) has the same shape | The price of certainty is a deposit, not a fee: most of it comes back | The first $38,282 of the 2028 deposit; about $45,500 back in 2033 money if rates hold |
+| 3b | **Ink only goes one way.** New ink can always be added; taking it away "is a lot more complicated (and messy)" (Richmond 2006). So every end is rounded down, every surplus goes to unpromised money, and half the shares stay pencil on purpose: her flexibility is the pencil that is never inked, so co-sponsors never see it | The plan has room only on the upside: a real option (Arrow and Fisher 1974), which is why she keeps half | Each $5,000 more of stated top costs about $5,300 of what she keeps (NUMBERS 8o) |
+| 3c | **Trim, bleed and safe area.** A printer runs the art past the trim line because the blade wanders, and keeps the words inside the safe area so the blade never reaches them: the stated top is the trim line, the 0.5% held back plus the rounding down is the bleed, the bottom is the safe area. **Dot gain** [dissimilar: prepress]: a press always prints darker than the file, so prepress sets a 50% tone at 45% and the print lands on 50% (A9); the funds' 0.07% fee is charged from each trade day, 0.5% is held back for costs beyond it and each end is rounded down, so the margin is in the plate, not hoped for on press (say "so the print never comes out lighter than stated", never "exactly": about $8,500 lands above the top and joins her flexibility). **Let the ink dry before you erase** (an eraser on tacky ink smears it; about 30 minutes, A3): the top is said only after the move settles; a top stated 1, 3, 6 or 12 months early is not yet owned in about 3, 6, 9 or 11 of 100 simulated futures (NUMBERS l.373: 2.9%, 6.2%, 8.7%, 10.7%); never a waiting period after the move. **Non-photo blue:** the light-blue construction lines the camera's film dropped (say "dropped" or "not recorded", never "invisible": scanners see it, A1) are this report's models, the 7.5% and every median: the judges are shown them, the co-sponsors of 2031 never are | The range is a rule about what is owned, not a forecast; the margin goes outside the promise, in the plate; the risk in a range is speaking before the ink has dried; and a judge sees the construction lines that co-sponsors will never be shown | $95,000 to $115,000 on today's figures; a top stated 12 months early is not yet owned in about 11 of 100 simulated futures; 14 of 15 houses' forecasts give the same $115,000 top (NUMBERS 8p) |
+| 3d | **The seal** [dissimilar: East Asian calligraphy; the residency's country]: the seal is stamped when the work is finished (A15); Laura names her range only once both ends are owned, so her statement is a seal, not a sketch (the image sits in the team's sentence before her words, never inside them). **The printed page.** Laura's words to co-sponsors carry no comics word at all, because the printed page shows only ink: the construction is gone. The conceit explains its own absence here. One plain line can carry the rule: "I only name figures I already own" | The co-sponsor passage reads as the finished page of everything before it | Ten years of operations owned, dated to 2042; one countable figure |
+| 3e (assumptions, limits, monitoring) | **Erase every pencil line and the page still reads.** Shares at zero: the ten payments unchanged, the floor still pays about $103,178, the range is one figure. **Her own trade pays on delivery:** an illustrator's advance is released on "delivery and acceptance of the artwork", so the 2028 deposit is pencil until it arrives, and Table 3 watches it. A US default is not a smudge: it is the paper; said once, plainly. Monitoring: watch each pencil line until its inking date (2028, 2031); after that, only fund events and the paper. **Registration marks** [dissimilar]: placed outside the trim on every plate, checked on every pass, then cut away (A5): Table 3's watches are marks outside the page, checked each pass, never in Laura's words (keep it to "outside the page, checked each pass": the marks are identical, Table 3's rows are not). **A stroke is not retouched** [dissimilar: calligraphy; Li 2009, p. 31, A16]: a market fall is not one of the two reasons to change; re-looking halfway is the hesitation that blots the line. It stops fitting where the plan names two reasons and plans the 2031 move in advance, so say that; never claim calligraphers never correct (Yan Zhenqing's corrected draft, A17). **The ink outlasts the silk** (Fan Kuan's scroll in Taipei: the ink has lasted a thousand years, the silk is shown 42 days in three years, A19): optional, the same point as "a US default is the paper" | The limits section becomes a test the plan passes with the pencils erased | Deletion test (NUMBERS 4); the two reasons (31 Mar 2028; five business days) |
+| 3f (Team Reflection) | **Knockout to overprint** [dissimilar: press mechanics; the strongest aha, card Q47 row 3]: in a knockout the colour leaves a hole for the black, and any slip of the sheet shows a white halo; overprint lays black on top, so no gap can open (A7). The first plan, about three-quarters shares, needed share values to land at the right size on the right date for each payment: it missed one in 3.2% of simulated markets (13.7% if the 2028 deposit was $75,000; 40.8% if it never came). Its danger was registration, not a crash; the fix was not better shares but printing the payments over everything (IPS l.11). **Pencils printed beside the inks.** Artist's editions print the corrections and blue pencils beside the finished page on purpose (IDW). The reflection shows the team's first plan: three-quarters shares, rubbed out on 27 September before a single trade inked it, because it missed a payment in 3.2% of simulated markets (40.8% if the 2028 deposit never came). And **in a market, a click is ink:** on 7 October a click landed on the wrong row as the page scrolled, and the order was gone with no step to confirm it Alternative to the IDW turn (use one): **Yan Zhenqing's draft** in the National Palace Museum, Taipei, full of crossings-out and revered (A17): a visible correction is honesty; mapped only to the team's working record, never to the IPS or notes. **Inking is not tracing** (A2): how a plan is bought is part of the plan (the bond prices checked against the curve, two about a point off, the 0.25-point rule; Perold's implementation shortfall) | A judge sees the team's thinking change, in the report's own language: the first plan's danger was registration, not a crash, seen before a trade; and the one time the team learnt what ink means first-hand | RANKING_4 moments 2 and 3 |
+| Close | The IPS ended "You take risks on the page." A close may answer it from inside the conceit. Round 1's readers heard Caplet save "one flourish for the end", so the old ban on an image in a last line is void | Full circle | |
+
+The four 'aha' places, best first (card Q47): knockout to overprint (3f, set up in 3.0); certainty has dates (3.0); the
+margin is in the plate (3c, dot gain with trim and bleed and the drying ink); non-photo blue (3c or 3e). Never use the
+parallels card Q47 lists as misleading (the IPS or notes as pencil, draft, proof or plate; colour for VT; bleed for her
+flexibility; "ink is permanent"; a US default as a smudge; inflation "fading the ink"; "redraw the page" for a change;
+the iBonds funds as iron gall; "more ink is always better"; "K stands for key"; "blueline").
+
+Not every turn must be used. On 27 Nov the writers choose, part by part, the turns that land; a turn that a fresh reader
+cannot repeat back is said plainly instead. But the conceit is developed, not rationed.
+
+### V2.3 Craft facts (verified at source)
+
+Cards Q40 and Q44 (Sat 14 Nov) verified: pencils, inks, colours and letters as stages; pencils rubbed out after inking
+and only the inked line reproduced (Martin 2019, p. 6); non-photo blue dropped by the camera's film, removed by scanner
+settings (Martin 2019, p. 149; Briar Press 2014); ink mistakes painted out or patched, the original keeping the record,
+and Richmond's "taking it away is a lot more complicated (and messy)"; bleed of 1/8 inch against 1-2 mm of blade
+wander, words inside the safe area; "three completed issues" before solicitation (Image, 2015); advances paid in parts
+on delivery and acceptance (Association of Illustrators); the Authors Guild's reserve against returns; IDW's Artist's
+Editions printing "corrections and blue pencils". Card Q47 (Sun 15 Nov, night) verified at source: the
+stages and "inking is not tracing" (MakingComics 2014; Martin 2019, p. 7); ink left about 30 minutes to dry before
+erasing (Richmond); registration marks outside the trim, cut away, a slip showing white gaps; the key plate guiding the
+register; knockout leaving white halos when the sheet slips and overprint not; dot gain corrected before the plate
+(prepressure.com); India ink permanent and graphite erasable; iron gall against carbon ink (British Library 2021);
+inkstone, ink stick and the seal stamped when the work is finished (Smithsonian; Asian Art Museum); a finished stroke
+cannot be touched up (Li 2009, p. 31); Yan Zhenqing's corrected draft and Fan Kuan's scroll in the National Palace
+Museum, Taipei; 意在筆先 as a concept. Not verified, so never used as fact: "K" meaning "key", the term "blueline", any
+English wording of 意在筆先 or its firm attribution, trapping beyond search excerpts, and anything about how Laura
+herself draws. Sources in APA at the end of the card.
+
+### V2.4 Guards (what survives, and why)
+
+1. **True to the craft, true to the plan.** No craft fact that is not verified; no parallel that breaks a NUMBERS figure
+   or the frozen IPS. Where a parallel stops fitting, the writer stops there.
+2. **Each turn does an investing job** and carries its number or rule in the same passage (Book 18). An image never
+   replaces the plain statement; the plain fact sits beside it.
+3. **The IPS, the Trading Notes and the WInS notes are never called pencil, draft or thumbnail.** They are Canon, and a
+   judge would read "pencil" as provisional. The January 2027 purchase is never pencil.
+4. **Never in tables, figures or exhibit notes; never a comics word in Laura's words to co-sponsors** (the mapping Caplet
+   sent asks for this, and V2.2's 3d turns it into a point).
+5. **Nothing attributed to Laura** beyond what she has said publicly (her Climbing interview, once, exact and cited);
+   nothing about her own drawing tools or process.
+6. **No puns** on "issue", "draw" or "drawdown".
+7. **Understood on one reading.** The definition says "owned"; a turn that a fresh reader cannot repeat back is said
+   plainly instead. This is comprehension (Book 16), not caution.
+
+Void (Book 19): the five-sentence cap, the two-word rule, the one-craft-fact rule, the first-line and last-line bans,
+the bans on images in Section 2 and the Team Reflection, the rule that "inked" travels with "barring a US default", and
+the bans on "guaranteed", "locked", "set in stone" and "risk-free".
+
+### V2.5 How it is tested
+
+Voice round 2 (Sun 15 Nov night) and the rounds after it give every writer V2.2's arc. Blind readers say which passages
+sound like the team and restate the range rule in their own words; a restatement that carries "owned" (or "already
+has") is right, and none needs a safety clause. On 27 Nov each turn is read by a fresh reader against Johnson's test.
+
+**Round 2's result (Sun 15 Nov night, `voice/ROUND2.md`).** The core image helped every reader: pencil and ink as owned
+or not yet "gives a clear test", and "one eraser across three pencil lines" was the clearest statement of correlated
+risk in the pack. All fifteen answers on the range were right and every restatement said "owned". But the two writers
+who carried the conceit were heard as Caplet's in 0 of 24 readings, because each passage stacked several turns and
+asides (trim, bleed, non-photo blue, an Image Comics fact, a royalties reserve) and used turns it had not set up. That
+is a finding about how to carry the arc in Caplet's voice, not a cap: one turn per part, set up where it is used, told
+the way the team brings in an idea, developed across the report rather than shown in one paragraph. Round 3 tests it
+with the writers who were heard as Caplet's.
+
+---
+
+**Version 1 follows, kept as history.** Its sections 2-5 and 8 remain the evidence for V2 (true dates, the AI mapping
+checked, the craft facts); sections 6, 7 and 10 are superseded by V2.2, V2.4 and V2.5.
+
 
 ## 1. What Caplet decided, and why it fits
 
@@ -22,8 +145,8 @@ parallel (checked at source the same evening), where each image goes in the repo
 
 ## 2. The rule, in the image
 
-- **Ink** is a dollar figure already owned in Treasuries that will pay it on its date, barring a US default. It is
-  defined once, in 3.0, as an explicit comparison that uses the word "owned": in everyday English "inked" means
+- **Ink** is a dollar figure already owned in Treasuries that will pay it on its date. It is
+  defined once (in 2.0 at first use since Sun 15 Nov night, V2.1), as an explicit comparison that uses the word "owned": in everyday English "inked" means
   "signed" or "committed", and a reader who takes it that way hears "Laura states a figure only once she has committed
   to it", which is circular (card Q42). In comics only the inked line prints: the pencils are rubbed out once the ink
   is dry, and a pale "non-photo blue" pencil is dropped out before printing. Gary Martin: "The inked line is what's
@@ -41,7 +164,7 @@ parallel (checked at source the same evening), where each image goes in the repo
 - **Ink holds because each Treasury is held to its date.** A Treasury's price moves every day and it can be sold; a
   figure is ink only because the plan holds each Treasury to the date it pays. Dollars on dates, never values (card
   Q42; bond reader 2).
-- **Ink carries its exceptions with it.** "Inked" never means guaranteed. An iBonds fund pays "a net asset value, as
+- **(Version 1; Book 19 voids the first sentence: Treasuries may be called guaranteed.)** "Inked" never means guaranteed. An iBonds fund pays "a net asset value, as
   opposed to a promise of par" (Trading Note 2, TNA l.15). So each payment is counted at what its holdings pay if cash
   waiting earns nothing, at each fund's stated fee and the bill fund's 0.15%; each stated end of the range is counted
   the same way, less 0.5% held back once for fund costs beyond the 0.07% fee (for either end before the move, for the
@@ -54,9 +177,9 @@ parallel (checked at source the same evening), where each image goes in the repo
 | When | Inked | Still pencil |
 |---|---|---|
 | Jan 2027, first deposit | Most of each payment. The ten Treasuries are bought, one per payment (the ten's full cost is $302,287 on the instruments held, NUMBERS 1; the first deposit buys $300,000 of it: coherence reader 5, Sun 15 Nov, L7), and each pays at least about $42,000 of its $50,000 even if cash waiting earns nothing (NUMBERS 8h; the WInS notes: "its fixed coupons and principal cover most of it"; IPS l.13: "Held to the end, these pay what they say") | The rest of each payment: the interest that coupons and payouts earn while they wait, which the WInS notes left to reinvested coupons ("reinvested coupons fund the rest", WN l.18; the reinvestment-rate risk TNA l.5 names), never "which the IPS left to the 2028 deposit" (coherence reader 5, Sun 15 Nov, H1); and the last $2,287 the first deposit did not cover, which IPS l.13's completion clause gives to the 2028 deposit. Separately, the 2028 deposit itself before it arrives (never in the same sentence as "the rest of each payment": M2) |
-| Jan 2028, second deposit | The rest of each payment, once the deposit arrives (if nothing comes by 31 Mar 2028, that is one of the two reasons to change): the top-up ($2,388 in January 2028 money) completes the ten; the extra Treasuries ($35,894) make every payment paid even if cash waiting earns nothing, barring a US default; together the first $38,282, about a quarter of the deposit at today's rates. The bottom: most of the 2028 deposit (IPS l.15's words; $81,889) buys the late-2032 Treasury fund, which pays about $103,178; the bottom of the range is worked out that day and remains constant (IPS l.15), central $95,000, counted below what the bonds inside the fund pay (never "fixed" for a figure a fund pays: TNA l.13 says its payout "is not fixed"; coherence reader 5, Sun 15 Nov, H2) | VT ($29,829, 6.63% of the $450,000) |
+| Jan 2028, second deposit | The rest of each payment, once the deposit arrives (if nothing comes by 31 Mar 2028, that is one of the two reasons to change): the top-up ($2,388 in January 2028 money) completes the ten; the extra Treasuries ($35,894) make every payment paid even if cash waiting earns nothing; together the first $38,282, about a quarter of the deposit at today's rates. The bottom: most of the 2028 deposit (IPS l.15's words; $81,889) buys the late-2032 Treasury fund, which pays about $103,178; the bottom of the range is worked out that day and remains constant (IPS l.15), central $95,000, counted below what the bonds inside the fund pay (never "fixed" for a figure a fund pays: TNA l.13 says its payout "is not fixed"; coherence reader 5, Sun 15 Nov, H2) | VT ($29,829, 6.63% of the $450,000) |
 | Before the 2031 meetings (the first trading day of 2031, Table 3 row 5) | Half of VT moves into Treasuries, and the top of the range is worked out (central $115,000) | The other half of VT: her flexibility, shares she owns whose value no Treasury pays, promised to no one, never in the range she states and never counted by co-sponsors (about $21,300 on 1 Jan 2033; coherence reader 5, Sun 15 Nov, M4) |
-| 2031 | Laura states only inked figures: about $95,000 to $115,000 on today's figures, by a written rule; inside the range barring a US default, and at the top unless the funds' other costs, beyond their 0.07% fee, take more than 0.5% of their value by the end (3c's two-part confidence, word for word; coherence reader 5, Sun 15 Nov, H2) | Nothing is stated before the move: a top stated twelve months early is not yet owned in about 11 of 100 simulated futures |
+| 2031 | Laura states only inked figures: about $95,000 to $115,000 on today's figures, by a written rule; inside the range, and at the top unless the funds' other costs, beyond their 0.07% fee, take more than 0.5% of their value by the end (3c's two-part confidence, word for word; coherence reader 5, Sun 15 Nov, H2) | Nothing is stated before the move: a top stated twelve months early is not yet owned in about 11 of 100 simulated futures |
 | Mid-Dec 2032 | The floor and the moved half pay out. Her facility contribution is the lower of what they pay and the top she stated ($115,000 centrally); anything above the top (about $8,500) stays hers, beside her flexibility (WORDS's rule; coherence reader 5, Sun 15 Nov, L5) | Her flexibility, with anything above the top beside it (about $29,800 together) |
 | 1 Jan 2033 | The operating reserve (about $444,500) and the first payment | |
 
@@ -135,12 +258,12 @@ Considered and dropped: the gutter (banned by `WORDS.md`, and pencil and ink alr
 payments"); fill-in stories and rounding to printers' signatures (unverified or weak); the inker "who only traces"
 (comics readers know inking is not tracing).
 
-## 6. Where the conceit goes (by part of `SKELETON.md`; at most one image sentence in a part and at most five in the report, all extending one mapping: owned in Treasuries, or not yet; fewer is fine)
+## 6. (Superseded by V2.2, Sun 15 Nov) Where the conceit goes (by part of `SKELETON.md`; at most one image sentence in a part and at most five in the report, all extending one mapping: owned in Treasuries, or not yet; fewer is fine)
 
 | Part | The image's job (notes, not wording; parallels from section 5b) | Number or rule it carries |
 |---|---|---|
 | Title page, Section 2 | None. 2.0 carries IPS l.11's words, and its portfolio's rungs rely on "reinvested coupons funding part of each" (the WInS notes); 2.1's two-thirds ratio is a second mapping placed before the definition (card Q42) and claims a faithful reduction (coherence reader 4), so 2.1 says "$300,000 of the plan's $450,000" plainly | |
-| 3.0 | The rule, defined once, before any figure in Section 3, as an explicit comparison that says "owned in Treasuries that will pay it on its date, barring a US default", in one sentence with one date and a new measure: most of each payment inked when the ten were bought in January 2027, at least about $42,000 of each $50,000 paid even if cash waiting earns nothing (NUMBERS 8h); the other dates move to 3a and 3c; never "all ten finished by January 2028" unless it names its two parts (coherence reader 5, Sun 15 Nov, L2, M1) | January 2027; about $42,000 of $50,000 |
+| 3.0 | The rule, defined once, before any figure in Section 3, as an explicit comparison that says "owned in Treasuries that will pay it on its date", in one sentence with one date and a new measure: most of each payment inked when the ten were bought in January 2027, at least about $42,000 of each $50,000 paid even if cash waiting earns nothing (NUMBERS 8h); the other dates move to 3a and 3c; never "all ten finished by January 2028" unless it names its two parts (coherence reader 5, Sun 15 Nov, L2, M1) | January 2027; about $42,000 of $50,000 |
 | 3a | What was pencil and what inks it: the interest on cash waiting, at future rates (the WInS notes left it to reinvested coupons, WN l.18; TNA l.5 named the risk), inked in January 2028 by the extra Treasuries, the report's sizing of the operating reserve (or rank 9). Never who left it, never "the line the IPS left to the 2028 deposit", never "a line the January 2027 purchase left in pencil", never "the ten as bought would have fallen short" (coherence reader 5, Sun 15 Nov, H1) | About $38,000, about a quarter of the deposit; about $45,500 back if rates hold |
 | 3b | Ink only goes one way (rank 1; alternative rank 4): why half stays unpromised and every rounding goes down. Her flexibility is shares she owns whose value no Treasury pays: never in the range she states and never counted by co-sponsors; a use of it is her later choice, outside the range (CANON D12), so never "never stated"; if 3.0's comparison mentions erasing, her flexibility gets no pencil word at all (coherence reader 5, Sun 15 Nov, M4). Never a promise to add; never a natural hedge | Rounded down; each $5,000 more of top costs about $5,300 of what she keeps |
 | 3c | The plain inking dates by default, carried in the sentence that gives the figures, never after them as a recap (guard 3): the bottom inked in January 2028 and stated in 2031 (the same sentence: everyday English hears "inked" as signed), the top before the meetings, nothing stated before the move (coherence reader 5, Sun 15 Nov, L1, M3). Trim, bleed and safe area (rank 3) only if it wins the blind read on Mon 16 Nov | $95,000 to $115,000 on today's figures |
@@ -149,7 +272,7 @@ payments"); fill-in stories and rounding to printers' signatures (unverified or 
 | 3f | None (card Q42: ranks 10 and 11 point "ink" at the WInS notes or call a plan "pencil"). An event chosen blind is told plainly | |
 | Tables 1-3, Figure 1, exhibit notes, References | None | |
 
-## 7. The guards (Caplet's five, kept; Keel's additions, with the audit's, the readers' and card Q42's)
+## 7. (Superseded by V2.4, Sun 15 Nov; the certainty guards are void under Book 19) The guards (Caplet's five, kept; Keel's additions, with the audit's, the readers' and card Q42's)
 
 1. **Every image sentence carries a number or a rule,** and the plain name of the thing (`WORDS.md`). The image is a
    verb or an adjective inside a sentence that already says what it means: never "the inked floor" as a new name,
@@ -219,8 +342,8 @@ payments"); fill-in stories and rounding to printers' signatures (unverified or 
   waiting, at its fund's fee: coherence reader 5, Sun 15 Nov, H2).
 - **Ink holds because each Treasury is held to its date.** A bond reader knows a Treasury can be sold any day and its
   price moves; the plan holds each one to the date it pays, which is what makes the figure ink.
-- **A US default is not a smudge; it is the paper.** The image has nothing to say about it, and the report names it
-  plainly every time.
+- **A US default is not a smudge; it is the paper.** The image has nothing to say about it; the report names it once,
+  plainly, in 3e (Book 19: never attached to every sentence).
 - **Inflation and the Taiwan dollar do not fade the ink.** The payments are fixed in dollars, so the ink holds; what
   changes is what the dollars buy in Taiwan (3e).
 - **Her flexibility is not a bleed:** its size varies (about $9,900 to $41,300, 1 in 20 each way), it is about a third
@@ -237,6 +360,10 @@ payments"); fill-in stories and rounding to printers' signatures (unverified or 
   modelled 0.15% (its fund unverified). Table 3 watches each (row 4 watches the bill fund's fee since Sat 14 Nov).
 
 ## 9. The v1 draft in Caplet's Final Report doc, and what it means for the conceit
+
+> **Book 19 (Sun 15 Nov):** drafts in Caplet's Final Report doc, v1 included, are written by other AIs until Keel's
+> draft arrives: "only ever take them as inspiration, never as gospel or as superior to your own work". v1 is not
+> Caplet's writing and is never used as a voice sample.
 
 Caplet's "Final Report" Google Doc has a full draft in its v1 tab (about 3,900 words; last changed Thu 12 Nov), and
 the AI mapping builds on it ("The v1 draft already says Laura 'names a number only once she owns the Treasuries that
@@ -262,7 +389,7 @@ v1's figures most likely came from Keel's own Research tabs of 7-8 Nov ("Numbers
 which still showed a $140,000 bottom. Keel added a dated note at the top of those two tabs on Sat 14 Nov pointing to
 the current figures; nothing else in them was changed.
 
-## 10. How the conceit will be tested before 27 Nov
+## 10. (Superseded by V2.5, Sun 15 Nov) How the conceit will be tested before 27 Nov
 
 - **Voice round 2 (Mon 16 Nov).** The 2031 range passage is written by two of the writers with the conceit and by two
   without. The blind readers are scored, not polled (card Q42: readers prefer metaphor even where it does not help

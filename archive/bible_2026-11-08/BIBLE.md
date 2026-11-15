@@ -1,4 +1,4 @@
-# THE BIBLE: sixteen books (23 Oct – 8 Nov 2026), under Wharton's word (`WHARTON_WORD.md`), which ranks first. Top priority for every Keel member, room, agent and run.
+# THE BIBLE: twenty books (23 Oct – 15 Nov 2026), under Wharton's word (`WHARTON_WORD.md`), which ranks first. Top priority for every Keel member, room, agent and run.
 
 > **"The message Ray quoted earlier isn't the only Bible. In fact, you've got quite a few Bibles. (Multiple books of
 > the Bible, I suppose?) ... All are equal."** (Caplet, Mon 26 Oct 2026, 23:21 Sydney.) The first version of this page
@@ -867,3 +867,57 @@ Data: FRED (Treasury yields, real yields, breakevens), the Treasury yield curve,
    articulation of the competition experience. Find the best possible justification.
 6. Understand instructions the first time, by reading for what Caplet means, not only what the words allow. When the
    meaning is unclear, act on the most likely reading, say which reading was taken, and ask.
+
+## Book 19: The conceit is intricate; many 'aha' moments; the goldmine; stop obsessing over over-claiming; far more voice study (Caplet, Sun 15 Nov 2026, 21:48 Sydney)
+
+> Caplet's own words, verbatim, sent at 21:48 Sydney (10:48 UTC) on Sun 15 Nov, three minutes before Book 20, which
+> asked for both messages to be filed here. Registered as I117 in `keel/INSTRUCTIONS.md`; carried into
+> `keel/EXPECTATIONS.md` as standing order 23. Over-claiming is the third time Caplet has said it (Book 3, 25 Oct;
+> Book 5, 26 Oct; this book).
+
+> By the way: whatever versions that are posted on Caplet's Final Report doc (e.g. the current v1) will always be AI-generated (and, mind you, by other AIs who are inferior to you!) until we get your one and we start writing our own based on yours. So only ever take them as inspiration, never as gospel or as superior to your own work, which we of course trust far more. Also: don't forget what I said about a conceit. It is intricate. It involves strikingly dissimilar parallels. It offers a startling new perspective. Never forget that. Never. These are the sorts of things you're aiming for – not only through the conceit, but through the Final Report in its entirety. That is absolutely crucial. The 'aha' moment in the judge which I keep mentioning is imperative and indeed central to our team's strategy. And there should be multiple, by the way. Speaking of which: you've got SO MANY gold nuggets scattered throughout the Github. So many things from my instructions and your ideas flowing from those instructions and so on. It's genuinely impressive. I want to ensure that you incorporate all of them in the Final Report. Please don't forget to. You've got a goldmine hiding in plain sight. That's what this is. Also – for the love of all that is holy, STOP OBSESSING OVER 'OVER-CLAIMING'!!! I literally don't care if you describe Treasuries as, for instance, 'guaranteed', "locked", 'set in stone' or 'risk-free'. These are all perfectly accurate descriptions in the investing world. You needn't preface this every single time with 'barring a US default'. I feel like I have to periodically repeat this to you on a regular basis. (This is what I mean, by the way. You seem to forget instructions I've given you in the past. You mustn't let this happen!) By the way, you've also GOT to put some more effort into voice studies, consistent with what I explained earlier. I'm genuinely concerned with the current state of your voice and style and tone. I think you're on the right track with your most recent voice study, but I think you're going to need to do a hell of a lot more of such work to get to where we need you to be.
+
+**Keel's reading of Book 19.**
+1. Whatever sits in Caplet's Final Report Google Doc before Keel's draft (now the v1 tab) was written by other AIs.
+   It is inspiration only: never authority, never a reason to change Keel's own work. Keel's notes that called v1
+   "Caplet's draft" are corrected.
+2. The conceit is intricate: strikingly dissimilar parallels, wit, a startling new perspective (Caplet's definition of
+   14 Nov, restated). Keel had cut "pencil and ink" down to two words in at most five sentences, never a part's first
+   or last line, with one other craft fact in the whole report. That made a conceit into a motif, the thing Caplet
+   said it is not. Those caps are void. The conceit is developed through the report, each parallel true to the craft
+   and true to the plan, each doing an investing job (Book 18: a purpose for everything).
+3. The whole report aims at the same: unlike things joined, perspectives a judge has not met. Several 'aha' moments,
+   spread through the report, are central to the team's strategy. They are planned, placed and tested like any figure.
+4. The goldmine. Every gold nugget in the repo (Caplet's instructions, and the ideas Keel built from them) goes into
+   the report. Each lands with a purpose, or is merged into one that lands; none is lost by being forgotten.
+5. Over-claiming, for the third time (Books 3 and 5 said it first). Treasuries may be called guaranteed, locked, set
+   in stone or risk-free; these are accurate descriptions in investing. No "barring a US default" each time. Every
+   Keel guard that policed certainty words is void (the conceit's guard 5, the bans in `WORDS.md`, the ban on
+   "default-free", the repeat-back test that required "barring a US default"). Accuracy still matters (Book 5:
+   "accuracy is important"): a false statement stays out, and a true statement about a Treasury is not a false one.
+6. The team must not have to repeat itself. How Keel keeps every instruction fresh is Book 20.
+7. Far more voice study, consistent with Book 17 and building on the most recent study (round 1: start from Caplet's
+   own writing, write forward, read blind). Many more rounds before 27 Nov, not six.
+
+## Book 20: Every instruction held equally and always fresh (Caplet, Sun 15 Nov 2026, 21:51 Sydney)
+
+> Caplet's own words, verbatim, sent at 21:51 Sydney (10:51 UTC) on Sun 15 Nov. Registered as I118 in
+> `keel/INSTRUCTIONS.md`; carried into `keel/EXPECTATIONS.md` as standing order 24 and into the frame at its top.
+
+> The last 2 messages probably belong in Bible, by the way. And, as well, some modifications or additions to the Expectations list, and potentially some other things, may be warranted. Oh, and can I also say: I don't want some things to be 'saved at the top of memory' over others. Everything should be saved equally, with Expectations being somewhere at the very top, of course, along with the other things we've explained to you (Wharton as God, past deliverables as Canon, etc.). My expectation is that we shouldn't need to repeat ourselves because EVERYTHING should ALWAYS be fresh in your memory. Is that clear? I hope you'll be able to fulfil this expectation.
+
+**Keel's reading of Book 20.**
+1. Books 18 and 19's messages, and this one, are Bible (filed here; Book 18 was filed earlier the same night).
+2. Nothing is saved at the top over anything else. At the very top sits the frame only: Wharton's word ("God",
+   `keel/WHARTON_WORD.md`), the past deliverables as Canon (the Trading Notes, the TNA reflections, the portfolio and
+   the IPS as submitted; `keel/final_report/CANON.md`), and the Expectations (`keel/EXPECTATIONS.md`, the notes on every
+   book). Under the frame, every instruction is equal, as the cover note of 26 Oct already said ("Every single thing
+   I've said throughout all of these 'Bibles' is equal in importance").
+3. Everything always fresh. Every session reads the frame and `keel/EXPECTATIONS.md` in full before any work, and every
+   worker's brief carries the instructions that bear on its task. The memory index lists the frame first and every
+   other entry as an equal, with no "ironclad" or capitals ranking.
+4. Why Keel forgot, and the fix. The old instructions were in the notes; Keel's own working files added guards on top
+   of them (the conceit's guard 5, `WORDS.md`'s bans), and the guards won by being closer to the work. From now on a
+   Keel file never outranks a book: before Keel writes a new guard, it checks the guard against `keel/EXPECTATIONS.md`,
+   and a guard that contradicts a book is void the moment it is found.
+5. "Is that clear?" Yes. Answered in the thread the same night.

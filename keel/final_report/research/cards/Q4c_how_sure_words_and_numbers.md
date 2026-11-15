@@ -40,7 +40,8 @@ agencies' default studies).
    IPCC para 5), give numbers with what they are out of for what is uncertain, and use no likelihood word. If one is
    wanted, only "virtually certain (99-100%)", once, never alone. "Almost certain" undersells (heard as roughly 1 chance
    in 7 to 10 of failing); "guaranteed", "risk-free", "ironclad" and an unqualified "certain" or "100%" are what a bond
-   reader calls an overclaim.
+   reader calls an overclaim. (Void as a rule for the report, Book 19, Sun 15 Nov: Caplet allows "guaranteed",
+   "locked", "set in stone" and "risk-free" for Treasuries, with no exception attached.)
 2. **Claim 2: KEEP, as context with caveats, not as the plan's probability.** The Chicago Fed's CDS-implied,
    risk-adjusted one-year chance of a US credit event was about 0.3-0.4% in 2022, about 0.2% after June 2023 and below
    0.3% in mid-November 2024; about 1% to 1.2% in late 2024 and April 2025; 4% at the 2013 and 2023 peaks and 6% in
@@ -195,7 +196,7 @@ PDF excerpts), Chernov et al. 2020, BIS 2011.
   take about 6%; the public hears "almost certain" at 78-90% depending on the scale. Only IPCC "virtually certain"
   (99-100%) reaches the claim, and readers shade it too (store H10-057). Kent and IPCC para 5 both say: state an
   overwhelming finding as fact.
-- Bond reader's view: an overclaim is "guaranteed", "risk-free", "ironclad", or "certain"/"100%" without the exception
+- Bond reader's view (a finding, not a rule for the report since Book 19): an overclaim is "guaranteed", "risk-free", "ironclad", or "certain"/"100%" without the exception
   (the US is AA+/Aa1 and its CDS has priced 0.2-6% a year). An underclaim that invites questions is "almost certain" or
   "highly likely".
 
@@ -235,7 +236,7 @@ PDF excerpts), Chernov et al. 2020, BIS 2011.
    interest from the trade day, less 0.5%, rounded down to $5,000; bottom fixed Jan 2028, top on the move day; no figure
    stated before the move; contribution = lower of what both funds pay and the top; any excess to the half kept (NUMBERS
    0, 3, 4; CANON D12).
-2. The word: none for the owned range; ownership stated as a fact with its exception (Kent; IPCC para 5). If one is
+2. The word: none for the owned range; ownership stated as a fact (Kent; IPCC para 5); no exception needs to travel with it (Book 19, Sun 15 Nov). If one is
    wanted: "virtually certain (99-100%, IPCC scale)", once, never alone, never "almost certain".
 3. The number with its denominator: inside the range in every one of 200,000 modelled paths, 1,770 US stock windows
    since 1871 and 585 overlapping rate-and-stock windows from 1962 (about four independent rate eras), on three fund

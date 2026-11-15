@@ -105,7 +105,7 @@ in the same sentence as the standard, and the price goes in the next (WORDS row 
 **(7) Lands.** 3a, as the backbone of the commitment paragraph; the MSRB name appears once, for bond readers. The
 standard also goes in 2.0's lead. The tax-trust counterexample gets one sentence at most.
 
-**Flags.** [W] Never "sufficient without reinvestment", "fail-safe", "guaranteed", "risk-free", "our definition of high
+**Flags.** [W] (Book 19, 15 Nov: "guaranteed" and "risk-free" are allowed for Treasuries.) Never "sufficient without reinvestment", "fail-safe", "our definition of high
 certainty" or "new standard" (l.11 is the definition). Never "the ten as bought would have fallen short": frame design A
 as "sized at one assumed rate". Keep the design-basis idea but not the label (Q8a). [H5] Escrows' instruments appear
 only as the disanalogy, never as something Laura could hold.
@@ -272,7 +272,7 @@ showing the spread of where the range will sit.
 **(7) Lands.** 3c (the range and its confidence), 3d ("bottom committed; top owned and available"), Table 2's note. Two
 or three sentences; it answers one of Wharton's named items directly.
 
-**Flags.** [W] Never "guaranteed" and never a "definition of high certainty" of the report's own; say "simulated futures",
+**Flags.** [W] Never a "definition of high certainty" of the report's own ("guaranteed" is allowed for Treasuries, Book 19); say "simulated futures",
 never "paths". Check the confidence wording against CANON A29-A32 before drafting.
 
 ---
@@ -322,7 +322,7 @@ admits it* in Table 3 (row 4 watches an early end, a merger, and an end moved pa
 **(7) Lands.** 2.3 (the diversification and risk reframe), 3a (the reserve), Table 3. One short paragraph in 2.3; a
 clause in 3a.
 
-**Flags.** [W] Never "risk-free" or "fail-safe". Use "a Treasury default" for the two reasons and "a US default" for the
+**Flags.** [W] Never "fail-safe" for the whole plan ("risk-free" is allowed for Treasuries, Book 19). Use "a Treasury default" for the two reasons and "a US default" for the
 standard. Do not imply SVB's bonds were bad: its funding was the fault.
 
 ---

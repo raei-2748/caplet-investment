@@ -45,19 +45,34 @@ backbone. So:
 
 ## The rounds
 
-| Round | Day (Sydney) | Practice topics | File |
-|---|---|---|---|
-| 1 | Sat 14 Nov | How certain is "certain"; why half; the "copout" argument of 5 Oct | `ROUND1.md` |
-| 2 | Mon 16 Nov | Round 1's topics written again from scratch, plus the 2031 range and how sure Laura can be; four writers (formal writing only; formal plus Ahaan's essays; formal plus the team's long messages; the main session again). The conceit Caplet chose on Sat 14 Nov (pencil and ink, `../CONCEIT.md`) is tested here: two writers use it in the 2031 range passage and two don't, and the blind readers say which they understood better and which sounds like the team | `ROUND2.md` |
-| 3 | Wed 18 Nov | The operating reserve; what to watch as 2031 and 2033 approach; one bold argument a judge would first resist | `ROUND3.md` |
-| 4 | Fri 20 Nov | Section 2 (the portfolio as built); the assumptions and their limits | `ROUND4.md` |
-| 5 | Sun 22 Nov | The co-sponsor words, in Laura's name; the Team Reflection | `ROUND5.md` |
-| 6 | Tue 24 Nov | The weakest two topics so far, again | `ROUND6.md` |
-| Rehearsal | Thu 26 Nov | One whole part of the report end to end in the voice, read blind | `REHEARSAL.md` |
+**Book 19 (Sun 15 Nov, 21:48 Sydney):** "you've also GOT to put some more effort into voice studies ... I think you're
+on the right track with your most recent voice study, but I think you're going to need to do a hell of a lot more of
+such work to get to where we need you to be." So the programme no longer runs a round every other day: it runs **a
+round in every Final Report run, two a day, from Sun 15 Nov night to Thu 26 Nov**, on round 1's method (read Caplet
+whole, write forward, read blind). That is about twenty rounds instead of six, and every part of the report is written
+in the voice at least six times before 27 Nov.
 
-Every topic is a part of the Final Report, so by 27 Nov every part has been written in the voice at least twice.
+Each round: three or four writers (fresh writers on different reading diets, and Keel's main session as a control every
+other round), four passages of about 300-350 words, three blind readers with Caplet's real reflections mixed in as a
+check and two old Keel paragraphs as controls. Each round writes its file (`ROUNDn.md`) with the key, the readings and a
+few honest sentences on what moved, and the next round starts from what won, never from rules.
+
+| Rounds | Days (Sydney) | Topics (each a part of the report) |
+|---|---|---|
+| 2 | Sun 15 Nov, night | How certain the payments are; why half; the 2031 range and how sure Laura can be; the copout and why the world fund stayed (Team Reflection). Two writers use the conceit (version 2), two do not |
+| 3-4 | Mon 16 Nov | The operating reserve; what to watch as 2031 and 2033 approach; one bold argument a judge would first resist; the first plan failing its own test. After round 2: the writers heard as Caplet's (writer E's diet, Keel's main session) write each topic twice, plain and with one conceit turn set up where it is used, so the conceit and the diet are tested apart |
+| 5-6 | Tue 17 Nov | Section 2 (the portfolio as built, with Table 1 beside it); the assumptions and their limits; buying it (stale prices, the 00:30 open, the click) |
+| 7-8 | Wed 18 Nov | The co-sponsor words, in Laura's name; the Team Reflection whole; the opening page |
+| 9-10 | Thu 19 Nov | Diversify Laura, not the portfolio (2.3); the facility contribution and her flexibility (3b) |
+| 11-12 | Fri 20 Nov | Monitoring to 2031 and 2033; the closing page; the conceit's turns, part by part |
+| 13-16 | Sat 21-Sun 22 Nov | The weakest four topics so far, from blank pages |
+| 17-20 | Mon 23-Tue 24 Nov | Whole parts end to end (3a, 3c, 3f, Section 2), read blind |
+| 21-22 | Wed 25 Nov | The two weakest whole parts again |
+| Rehearsal | Thu 26 Nov | One whole part of the report end to end in the voice, read blind (`REHEARSAL.md`) |
+
 Practice passages are studies, not drafts: on 27 Nov the report is written fresh, by a writer who has just read Caplet
-whole (Book 14: no report prose before then).
+whole (Book 14: no report prose before then). If any of the team has ten minutes, the most useful reader of all is one
+of them, reading a round's passages blind.
 
 ## Results so far
 
@@ -72,9 +87,17 @@ whole (Book 14: no report prose before then).
   blind. For the 2031 range passage the readers are also scored, not polled (card Q42: readers prefer metaphor even
   where it does not help them): each restates the range rule in their own words and answers one applied question ("in
   January 2030, may Laura tell a co-sponsor $115,000?"; no, the top is not yet owned). A restatement with "owned"
-  and "barring a US default" counts; "committed", "promised" or "signed" is a miss. Trim, bleed and safe area is tried
-  in one conceit version and stays only if its readers do better (`../CONCEIT.md` section 10). Round 1 warned that set-piece openings and rounded endings read as Keel, so an image sentence never opens or
-  closes a passage.
+  (or "already has") counts; "committed", "promised" or "signed" is a miss; no safety clause is needed (Book 19).
+  **Version 2 (Book 19, Sun 15 Nov night):** the conceit is intricate and developed through the report
+  (`../CONCEIT.md` V2.2); the old caps, including "an image sentence never opens or closes a passage", are void.
+
+- **Round 2 (Sun 15 Nov, night), `ROUND2.md`.** Four writers, three blind readers, 21 passages. Caplet's reflections 9
+  of 9; the fresh writer without the conceit 12 of 12; Keel's main session 11 of 12 (0 of 9 in round 1); the two
+  writers who used the conceit 0 of 24, heard as "a skilled adult writer working a conceit" because they stacked
+  several turns and asides in each passage. The core image helped every reader ("one eraser across three pencil lines"
+  was the clearest statement of correlated risk in the pack), and all fifteen answers on the range were right. Round 3
+  separates the conceit from the reading diet: the writers who were heard as Caplet's write passages that each carry
+  one turn, set up where it is used.
 
 ## Files
 
