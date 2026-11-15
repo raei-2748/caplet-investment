@@ -26,7 +26,7 @@ of this thread early in the morning (06:00 on Fri 27); every run reads `../EXPEC
 | 6 | Fri 13 | Q3 and Q9 |
 | 7 | Sat 14 | Q5 and Q10; the evening run builds the corrected, blind event sheets for Monday's re-rank (SCORECARD target 4) |
 | 8 | Sun 15 | Q6, Q7; the first digest to Caplet, with the experience section's best real moments from `research/EXPERIENCE_RECORD.md` (Caplet may add any; nothing is chased) |
-| 9 | Mon 16 | Q13, Q14, the first round closed a day early, the first exhibit designs (two or three fit beside the holdings table), and the blind re-rank of the team's own moments only (`research/experience/RANKING_3_TEAM_LEARNING.md` section 2, Caplet 15 Nov, I115), scored first on whether the team's thinking changed, then on the instructions' Articulation and Team Reflection wording |
+| 9 | Mon 16 | Q13, Q14, the first round closed a day early, the first exhibit designs (two or three fit beside the holdings table), and the blind re-rank of the three moments chosen by purpose (`research/experience/RANKING_4_PURPOSE.md`, Caplet's Book 18, I116, which replaced the afternoon's I115 list), with the Book 18 gate (human, purpose, impressive, new), then the instructions' Articulation and Team Reflection wording |
 | 10 | Tue 17 | Anything Caplet added to the experience record filed; the second research round begins |
 | 11 | Wed 18 | Second research round on the richest seams |
 | 12 | Thu 19 | Combining ideas |

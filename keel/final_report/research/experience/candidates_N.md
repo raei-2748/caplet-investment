@@ -5,7 +5,7 @@ the next blind re-rank (scheduled Mon 16 Nov), so that one panel reads every wee
 
 **Sun 15 Nov (Caplet, INSTRUCTIONS I115).** Only the team's own moments that show its thinking changing go to the
 reflection. Entries here whose origin is KEEL (all of N-01 to N-13) are out of the reflection pool; they stay as a
-record of Keel's work. Mon 16 Nov's re-rank reads `RANKING_3_TEAM_LEARNING.md` section 2 only. Evening run, Sun 15 Nov:
+record of Keel's work. Mon 16 Nov's re-rank reads `RANKING_4_PURPOSE.md` (Book 18, I116; it replaced RANKING_3 the same night). Evening run, Sun 15 Nov:
 no new team event today (Caplet's message on the moments is a ruling on how Keel picks them, not a moment), so nothing
 added.
 

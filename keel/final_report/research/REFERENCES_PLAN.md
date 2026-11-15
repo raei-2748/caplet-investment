@@ -1253,6 +1253,27 @@ the date read are in each card's Sources section (Q2d l.173, Q3c l.183, Q10e l.2
 | Public Construction Commission model construction contract, art. 5(1)6 | Q10e | B | Public contracts in Taiwan pass index rises to the owner by default (store only; Taiwan legal is out of scope) |
 | 文化部 (Ministry of Culture) private old buildings programme rules and case list (2026) | Q11e | B | Owners paid 48.3%; overruns are the owner's to meet |
 
+### 2K. Sun 15 Nov night: the case for one world fund, and the three moments (card Q46; `experience/RANKING_4_PURPOSE.md`)
+
+Class-A works read tonight for Caplet's Book 18 and not yet in `REFERENCES_APA.md`. Full APA elements, links and the
+date read are in card Q46's Sources section.
+
+| Work | Card | Class | What it supports |
+|---|---|---|---|
+| Bessembinder (2018), *Journal of Financial Economics* 129(3) | Q46 | A | Most stocks lose to bills; 4% of companies made all net wealth |
+| Bessembinder, Chen, Choi & Wei (2023), *Financial Analysts Journal* 79(3) | Q46 | A | The same worldwide; 2.4% of 63,785 firms |
+| Sharpe (1991), *Financial Analysts Journal* 47(1) | Q46 | A | The arithmetic of active management (evidence only; the TNA made the claim) |
+| S&P Dow Jones Indices (2026), SPIVA U.S. Scorecard Mid-Year 2026 | Q46 | A | 94.71% of global funds trailed over 15 years |
+| Fama & French (2010), *Journal of Finance* 65(5) | Q46 | A | Few funds cover their costs |
+| Barber & Odean (2000), *Journal of Finance* 55(2) | Q46 | A | Trading most earned least; why a fund needing no opinions keeps IPS l.17 |
+| Ellis (1975), *Financial Analysts Journal* 31(4) | Q46 | A | Win a loser's game by avoiding errors |
+| Erb & Harvey (2013), *Financial Analysts Journal* 69(4) | Q46 | A | Gold an unreliable inflation hedge over practical horizons |
+| Dimson, Marsh & Staunton (2026), UBS Yearbook 2026 summary | Q46 | A | Gold 1.3% a year real since 1900; fell in 13 of 28 high-inflation years |
+| iShares (2026), EWT fact sheet, 30 Sep 2026 | Q46 | A | TSMC 21.89%; technology 75.26% |
+| Brinson, Hood & Beebower (1986); Ibbotson & Kaplan (2000), *Financial Analysts Journal* | Q46 | A | The policy decision drives the outcome; which shares to hold matters little |
+| Harvey, Liu & Zhu (2016), *Review of Financial Studies* 29(1) | Q46 | A | A bar set in advance; t above 3.0 against data mining |
+| In re Citibank August 11, 2020 Wire Transfers (2d Cir. 2022) | Q46 | B | An irreversible action and its interface (moment 3, if room) |
+
 ## 3. What the rules allow, and the shape we recommend
 
 ### 3a. Wharton
