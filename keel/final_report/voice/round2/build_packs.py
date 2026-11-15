@@ -1,0 +1,35 @@
+import re, random, json, pathlib
+d=pathlib.Path(__file__).parent
+repo=pathlib.Path('/home/user/caplet-investment')
+def parts(fn):
+    t=(d/fn).read_text()
+    out={}
+    for k in ['P1','P2','P3','P4']:
+        m=re.search(r'^=== %s ===\s*\n(.*?)(?=^=== )'%k, t, re.S|re.M)
+        out[k]=m.group(1).strip() if m else None
+    return out
+P={}
+for w,fn in [('B','writer_B.md'),('E','writer_E.md'),('M','writer_M.md'),('K','keel_main.md')]:
+    for k,v in parts(fn).items():
+        assert v, (w,k)
+        P[w+k[1]]=v
+corpus=(repo/'keel/final_report/voice/CORPUS.md').read_text()
+refl=re.findall(r'^> \*\*(The Treasury maturing 15 Feb 2037|IBTM|VT)\.\*\*(.*?)(?=^\s*$)', corpus, re.S|re.M)
+for i,(h,body) in enumerate(refl[:3],1):
+    txt=re.sub(r'\n>\s?',' ',body).strip()
+    P['C%d'%i]=txt
+v56=(repo/'keel/ips_rewrite/drafts/D36_I81/ips_V56.txt').read_text().split('\n')
+P['X1']=v56[4].strip()
+P['X2']=v56[10].strip()+'\n\n'+v56[12].strip()
+keys=sorted(P)
+json.dump(P,open(d/'passages.json','w'),indent=1)
+random.seed(20261115)
+for r in (1,2,3):
+    order=keys[:]; random.shuffle(order)
+    lines=['# Passages for reader %d (%d passages)\n'%(r,len(order))]
+    for i,k in enumerate(order,1):
+        lines.append('## Passage %d\n\n%s\n'%(i,P[k]))
+    (d/('pack_reader%d.md'%r)).write_text('\n'.join(lines))
+    (d/('order_reader%d.txt'%r)).write_text(','.join(order))
+print(len(keys), keys)
+for k in keys: print(k, len(P[k].split()))

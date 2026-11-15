@@ -68,35 +68,69 @@ are facts to write from, not sentences to copy.
 - 16 Oct: rates fell and the room under $300,000 for the ten payments shrank to about $1,900.
 - 6 Nov: the team set aside the AI-drafted IPS ("reads as AI and corny") and wrote its own, the one submitted.
 
-## The conceit Caplet chose for the report: pencil and ink (Sat 14 Nov; revised that night)
-- Laura is a graphic novelist and illustrator (the case also calls her an entrepreneur, an educator and a speaker).
-  Comic pages are drawn in pencil first, which can be rubbed out, then inked; only the ink is printed. In the report,
-  ink is a dollar figure Laura already owns in Treasuries that will pay it on its date, barring a US default, and
-  pencil is a figure no Treasury she owns will pay yet (her future income, the 2028 deposit before it arrives, the
-  value of her shares before half of them move, interest on cash waiting, every forecast). She owns the shares; no
-  Treasury pays their value. Laura only states a figure once it's inked. That is the IPS's own rule: "whatever figure
-  you choose is money you already own". Say "owned" when you define it: most readers hear "inked" as "signed".
+## The conceit Caplet chose for the report: pencil and ink (Sat 14 Nov; developed further Sun 15 Nov night)
+- Laura is a graphic novelist and illustrator. Comic pages are drawn in pencil first, which can be rubbed out, then
+  inked; only the ink is printed. In the report, ink is a dollar figure Laura already owns in Treasuries that will pay it
+  on its date, and pencil is a figure no Treasury she owns will pay yet (her future income, the 2028 deposit before it
+  arrives, the value of her shares before half of them move, interest on cash waiting, every forecast). She owns the
+  shares; no Treasury pays their value. Laura only states a figure once it's inked. That is the IPS's own rule:
+  "whatever figure you choose is money you already own". Say "owned" when you define it: most readers hear "inked" as
+  "signed".
+- Caplet's own words about the conceit: "It is intricate. It involves strikingly dissimilar parallels. It offers a
+  startling new perspective." So it is not a word dropped in now and then: it is worked through, each turn showing
+  something new. The turns you can use (all checked):
+  - **One eraser, three lines.** A recession rubs out three pencil lines at once: her book advances, share prices, and
+    co-sponsors' budgets. That's why the promised money can't sit in pencil.
+  - **Finished before it's offered.** Comic publishers want several issues finished before a series is offered to
+    shops ("three completed issues", Image, 2015). Laura's ten payments are bought in January 2027, six years before
+    the first one goes out.
+  - **The one line that waited.** From January 2027 to January 2028 the interest cash earns while it waits was the one
+    pencil line in the payments; the extra Treasuries in January 2028 ink it, and most of that money comes back to her
+    if rates hold (about $45,500 in 2033 money). Publishers do something similar: they hold back part of an author's
+    royalties against returns and release it once the risk passes.
+  - **Ink only goes one way.** You can always add ink, but you can't take it off cleanly (a mistake is painted over and
+    the original keeps the record). So every end of the range is rounded down, anything above the top goes to her
+    flexibility, and half the shares stay pencil on purpose: co-sponsors never see them. Each $5,000 more she states
+    costs her about $5,300 of what she keeps.
+  - **Trim, bleed and safe area.** Printers run the art past the line where the page is cut, because the blade wanders,
+    and keep the words well inside it. The stated top is the cut line; the 0.5% held back and the rounding down are the
+    bleed; the bottom sits safely inside.
+  - **Non-photo blue.** Artists drew construction lines in a light blue that the printing camera couldn't see. The
+    report's models, the 7.5% and every median are like that: the judges see them, the co-sponsors in 2031 never will.
+  - **The printed page.** Laura's words to co-sponsors have no comics words in them at all, because the printed page
+    only shows ink.
+  - **Erase every pencil line and the page still reads.** If the shares went to zero, the ten payments wouldn't change,
+    the floor would still pay about $103,178, and the range would be one figure, $95,000.
+  - **The key plate.** On a printing press the plate with the most detail guides the register; the colour plates are
+    lined up to it. The ten Treasuries were bought first, and everything after (the top-up, the extra Treasuries, the
+    floor, then VT) is sized against them.
+  - **Dot gain.** A press always prints a little darker than the file, so printers lighten the file first and the print
+    lands where they want it. The funds' fee, the 0.5% held back and the rounding down are taken out before the range is
+    stated, so the money never comes out lighter than the figure she names.
+  - **Let the ink dry.** Rub out the pencils while the ink is still tacky and it smears. So the top is only stated once
+    the shares have moved: a top stated a year early would not yet be owned in about 11 of 100 model futures.
+  - **The seal.** In Chinese calligraphy the seal is stamped when the work is finished. Laura names her range only once
+    both ends are owned.
+  - **Registration marks.** Printers put marks outside the page, check them on every pass, and cut them off. The things
+    the team watches (the deposit, late payments, a fund closing early, the Taiwan dollar) are like that: checked, never
+    in Laura's words.
+  - **Knockout and overprint.** In a knockout the colour leaves a hole for the black, and if the sheet slips a white gap
+    shows. Overprinting lays the black on top, so no gap can open. The first plan's danger was not a crash: it needed
+    share prices to be in the right place on each of ten dates. Buying the payments first prints them over everything.
+  - **Pencils printed beside the inks.** Some art books print an artist's pencils beside the finished page on purpose.
+    The Team Reflection can show the first plan the same way: three-quarters shares, rubbed out on 27 September before
+    a single trade was placed. And in a market, a click is ink: on 7 October a click landed on the wrong row as the page
+    scrolled, and the order was gone with no step to confirm it.
 - The dates: most of each payment is inked in January 2027, when the ten Treasuries are bought ("held to the end,
-  these pay what they say", IPS l.13). The rest of each payment, which the IPS and the WInS trade notes left to the
-  2028 deposit, is inked in January 2028 by its first $38,282 (the top-up, then the extra Treasuries). The floor is
-  bought in January 2028, which fixes the bottom of the range. Half the shares move into Treasuries before the 2031
-  meetings, which fixes the top. The other half is never inked: it is her flexibility, promised to no one, and
-  co-sponsors never see it. Never call the January 2027 purchase pencil.
-- The two reasons to change the plan, in the IPS's words: a missed deposit or a Treasury default. A fall in the market
-  is not one of them, and only moves pencil.
-- Craft facts you may use, at most one in the whole report, and only if it extends "owned or not yet": ink can be
-  added to a page but never taken off it cleanly (a mistake can only be painted over, and the original keeps the
-  record), which is why every end of the range is rounded down and anything above the top goes to her flexibility;
-  publishers want issues finished before a series is offered to shops ("three completed issues", Image, 2015); an
-  illustrator's advance is paid in parts, the last only once the art is delivered and accepted. Trim, bleed and safe
-  area are being tested on Mon 16 Nov and are not used unless that test says so. Laura herself has said: "As an
-  author and illustrator, I don't know how my book will do until the day it hits the shelves" (Climbing, 4 Mar 2025).
-- How to use it: at most five image sentences in the whole report, at most one in a passage, inside the paragraph
-  whose number it explains, before or with that number, never as the last line (and not as the first); none in
-  Section 2 or the Team Reflection; never in Laura's words to co-sponsors; never "inked" without "barring a US default"
-  and its date; strike the image word and the sentence must still say its number and rule; the report's own modelled
-  figures are pencil and say so; never "colour" for the shares; no comics jargon or puns. If it needs explaining
-  twice, say it plainly instead.
+  these pay what they say", IPS l.13). The rest is inked in January 2028 by the first $38,282 of the 2028 deposit (the
+  top-up, then the extra Treasuries). The floor is bought in January 2028, which fixes the bottom of the range. Half the
+  shares move into Treasuries before the 2031 meetings, which fixes the top. The other half is never inked: it is her
+  flexibility. Never call the January 2027 purchase pencil, and never call the IPS or the Trading Notes pencil.
+- Treasuries are guaranteed, locked, set in stone: say so if it helps, plainly (Caplet, Sun 15 Nov: "You needn't preface
+  this every single time with 'barring a US default'").
+- Never in tables; never in Laura's words to co-sponsors; no puns. Laura herself has said: "As an author and
+  illustrator, I don't know how my book will do until the day it hits the shelves" (Climbing, 4 Mar 2025); nothing else
+  goes in her mouth.
 
 ## Words the report uses
 "Facility contribution" (not "gift"), "her flexibility" (the half kept), "the top-up" ($2,388), "the extra

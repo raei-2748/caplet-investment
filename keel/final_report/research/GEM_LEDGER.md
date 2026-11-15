@@ -124,7 +124,7 @@ Nov), so each addition needs a named trade. The obvious sources are figures alre
 | Q17-008 | 23 | Moody's two escrow tests (maturities before each payment; enough without reinvestment) applied to the book. | `Q17_judging_the_implementation.md` | 3a | Cut by SKELETON | Same as Q20-020; the card asks to merge the two. |
 | Q5e-029 | 23 | The part of her flexibility that does not move with shares is the excess above the stated top. | `Q5e_does_the_reserve_fall_with_its_uses.md` | 3b | Duplicate | Carried by 3b's two named parts of what she keeps. |
 | Q9-020 | 23 | Yaddo nearly closed before its first guest when its founders' investments fell. | `Q9_what_makes_a_residency_last.md` | 3a | Duplicate | An anecdote in the same slot as Q9-016 (at risk); one evidence clause. |
-| Q31-015 | 23 | A 2% surgical risk remembered as 10% is informed consent; remembered as 0% it is not. | `Q31_escrow_standard_plain_words.md` | 3a | Too small, or a rule already applied | A wording rule, already applied: the exception travels inside 3a's sentence. |
+| Q31-015 | 23 | A 2% surgical risk remembered as 10% is informed consent; remembered as 0% it is not. | `Q31_escrow_standard_plain_words.md` | 3a | Too small, or a rule already applied | A wording rule, void since Book 19 (Sun 15 Nov): no exception needs to travel inside 3a's sentence. |
 | Q9-022 | 23 | MacDowell's endowment fell 15% in 2022 while it ran a deficit. | `Q9_what_makes_a_residency_last.md` | T3 | Too small, or a rule already applied | Too small: 3e's argument is structural (a market fall moves a number inside the design). |
 | Q4b-001 | 23 | US foundation giving rose 5.4% in 2008 while foundation assets fell 17.2%. | `Q4b_cosponsors_in_downturns.md` | 3e | Conflicts with the frozen IPS | Cuts against IPS l.9's 'co-sponsors cut their budgets' (CANON B4). Store. |
 | Q17-025 | 23 | The team rejected an all-bond WInS book so the book would show the whole strategy. | `Q17_judging_the_implementation.md` | 3f | Carried elsewhere | Carried by the Team Reflection's event pool (research/experience/candidates_W.md l.376) and by 2.1's reason. |
@@ -297,7 +297,7 @@ Every strong row has a place or a reason. Places are notes in `CONCEIT.md`, `SKE
 | Q43-009 | 24 | 3c or 3d, one clause at most: the Antideficiency Act's "very act of obligating" before the money is in the account is the closest public rule to Laura's (GAO Red Book, 2006); investing-literature references stay first |
 | Q43-039 | 24 | 3c: a university counts gifted shares for a building only once sold, the 2031 move in another institution's words |
 | Q42-001, -005, -006, -012 | 23 | CONCEIT sections 6 and 7: small effect, one mapping, at most five images, never the last line, the image before or with its number |
-| Q42-017, -028 | 23 | CONCEIT guard 5 and WORDS: "inked" is read as signed, so 3.0 says "owned" and the exception travels inside each use |
+| Q42-017, -028 | 23 | CONCEIT guard 5 and WORDS: "inked" is read as signed, so the definition (2.0 since Sun 15 Nov night) says "owned"; the exception no longer travels with each use (Book 19) |
 | Q43-028 | 23 | CONCEIT 5b rank 1 and WORDS: Watts (2003), the lenders' "asymmetrical verification requirements"; never "prudent" |
 | Q43-003 | 22 | 3b: the deletion test in public-budget form |
 | Q43-006 | 22 | 3d: building on promised but late money cost one DOE project 33% and three years |

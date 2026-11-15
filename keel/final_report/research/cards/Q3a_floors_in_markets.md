@@ -147,7 +147,7 @@ match the need.
 - **How is it not?** No middleman's promise: the fund owns Treasuries and promises nothing itself. And unlike a note,
   Laura's 2028 money is not capital-protected (NUMBERS 4: $103,178 back on $111,718), so the store's "principal-
   protected note without the bank" (H2-068, H3-092) should drop "protected".
-- **What Caplet takes.** Store only, plus WORDS' ban on "guaranteed", which this case explains. The co-sponsor words
+- **What Caplet takes.** Store only. (WORDS' old ban on "guaranteed" is void, Book 19: the Lehman case is about a product named "principal-protected", not about Treasuries, which may be called guaranteed.) The co-sponsor words
   (3d) say what pays each end, never "protected". TNA l.7's "near-ironclad guarantee" stays unrepeated (CANON C13).
 
 ### Card 4. Target-date 2010 funds in 2008: a date is not a floor (rows 19-24)

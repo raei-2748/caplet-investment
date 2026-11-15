@@ -13,17 +13,18 @@ carded; the day's volume logged in the RUNLOG row (sources read, cards added, cl
 re-reading what the store already holds, regenerating what exists, or research that feeds no section of the report.
 
 ## Book 17 (Caplet, Sat 14 Nov, INSTRUCTIONS I104-I113): three things every run now does
-- **Voice, on the round days** (Mon 16, Wed 18, Fri 20, Sun 22, Tue 24; rehearsal Thu 26): run the round in
-  `voice/README.md`. Fresh writers read only Caplet's own writing (`voice/CORPUS.md`) and the plain facts; readers judge
+- **Voice, in every run** (Book 19, Sun 15 Nov: "a hell of a lot more"; two rounds a day to Wed 25, rehearsal Thu 26):
+  run the next round in `voice/README.md`. Fresh writers read only Caplet's own writing (`voice/CORPUS.md`) and the plain facts; readers judge
   whole passages blind, with Caplet's real passages mixed in. Never a rule list, never word-level comparison.
 - **Evaluate, never describe again:** any new note for the report says what it judges, against what
   (`research/meta/EVALUATE_NOT_DESCRIBE.md`).
 - **Nothing lost:** a new card's strong rows get a place in SKELETON, a named line that carries them, or a written
   reason, the same day (`research/GEM_LEDGER.md`, `research/gem2/`); its investing sources go to the references
   (`research/REFERENCES_PLAN.md`, Keel's call of Sat 14 Nov: cite it all, APA-clean).
-- **The conceit (Caplet, Sat 14 Nov evening, I114):** a note that changes a figure, a date or a part checks
-  `CONCEIT.md` sections 3 and 6 the same day, so the dates of inking and the image placed in each part stay true to the
-  register. A new parallel goes into CONCEIT only with its craft fact sourced (card Q40) and its number in NUMBERS.
+- **The conceit (Caplet, Sat 14 Nov evening, I114; Book 19, 15 Nov: intricate, never capped):** a note that changes a figure, a date or a part checks
+  `CONCEIT.md` section 3 and V2.2 the same day, so the dates of inking and the image placed in each part stay true to the
+  register. A new parallel goes into CONCEIT only with its craft fact sourced (cards Q40, Q44, Q47) and its number in NUMBERS.
+- **Aha moments and the goldmine (Book 19):** each run adds to or tests `research/goldmine/AHA_REGISTER.md` and lands at least one unplaced nugget from `research/goldmine/GOLDMINE.md` in SKELETON, with its purpose.
 
 ## The loop (Ray, Mon 9 Nov: "running automically self-reinforcing to produce the BEST final report")
 Every run makes the next one better (`BEST_IN_COMPETITION.md` section 3):
@@ -39,7 +40,8 @@ Every run makes the next one better (`BEST_IN_COMPETITION.md` section 3):
   `research/panel/`; their disagreements become targets.
 
 ## Before work
-1. Read `../EXPECTATIONS.md` (Ray's standing orders first), `WHARTON_NORTH_STAR.md`, this page, the last five lines of
+1. Read the frame in full (Book 20): `../WHARTON_WORD.md` and `WHARTON_NORTH_STAR.md` (Wharton as God), `CANON.md`
+   (the past deliverables), and `../EXPECTATIONS.md` whole, every instruction equal; then this page, the last five lines of
    `ARGUMENT_LOG.md`, and any message from Caplet since the last run. A student's word overrides everything below.
 2. Name the day's questions as **claims to keep, kill or change**, not topics to read about (Story-Based Inquiry,
    Tetlock). Example: not "authors' incomes" but "Laura's 2028 deposit falls when share prices fall".

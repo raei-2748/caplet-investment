@@ -234,7 +234,7 @@ nothing; these costs are sized at exactly 0%, so the call is compared at its 0% 
 - **The 2033 contribution** is the lower of what the two funds pay and the stated top. Any excess joins the half kept (CANON D12).
 - **No figure is stated before the move.**
 - **Why the holdings, not one par bond.** The morning's rule modelled the fund as one par bond at the purchase yield. That stand-in is cautious at today's yields; if yields fall about a point before the purchase, the holdings' premium makes it slightly generous, so the rule uses the holdings.
-- **So "the bare minimum ... without doubt" is true by construction once worked out on the holdings; the market cannot move either end after the move.** It holds barring a US default, with 0.5% of value to spare for the fund's costs beyond its 0.07% fee and the waiting ETF's fee, which are now inside the value. The 0.5% cut, not the prospectus, carries that risk: a fund can pay slightly less than its holdings' cash flows without breaking its prospectus (costs outside the fee, a swap of holdings; the list is in section 0). That this applies to IBTM's prospectus is UNVERIFIED; read its wording before quoting it.
+- **So "the bare minimum ... without doubt" is true by construction once worked out on the holdings; the market cannot move either end after the move.** It holds with 0.5% of value to spare for the fund's costs beyond its 0.07% fee and the waiting ETF's fee, which are now inside the value. The 0.5% cut, not the prospectus, carries that risk: a fund can pay slightly less than its holdings' cash flows without breaking its prospectus (costs outside the fee, a swap of holdings; the list is in section 0). That this applies to IBTM's prospectus is UNVERIFIED; read its wording before quoting it.
 
 The cut depends on the yield at purchase. The more of the payout that is interest, the more is lost if interest stops. As a share of the modelled payout, today's values are 4.650% (floor) and 2.981% (moved half), of which 0.5% is the haircut (Tue 10 Nov, with the fee cancelled: 4.312% and 2.870%):
 
@@ -354,10 +354,10 @@ More from the same runs:
   - The top is fixed on the day half of VT moves into Treasuries, before the 2031 meetings (modelled Thu 2 Jan 2031). It turns on markets to that move.
   - Her flexibility (the half kept and the excess) turns on markets to January 2033.
   - Good and bad markets before the move change only the top. After the move nothing changes either end (case A6).
-- **The confidence Laura can state after the move: certain, barring a US default.** True by construction once worked out on the holdings; the market cannot move either end after the move. Both ends are then money she owns in Treasuries maturing late 2032, each counted at what its holdings pay if no more interest is earned, after the fund's fee from the trade day and the waiting ETF's fee, less 0.5%. What the test of section 3 supports, and no more:
+- **The confidence Laura can state after the move: certain.** True by construction once worked out on the holdings; the market cannot move either end after the move. Both ends are then money she owns in Treasuries maturing late 2032, each counted at what its holdings pay if no more interest is earned, after the fund's fee from the trade day and the waiting ETF's fee, less 0.5%. What the test of section 3 supports, and no more:
   - on the engine's holdings, on 3.50% and on 4.00% coupons, both ends are owned in every house path, every history window and every joint window;
   - a fund cost beyond the two fees of up to 0.5% of value is covered everywhere; one of 0.75% would break an end in about 1 house path in 17;
-  - so the report says "certain, barring a US default" for the stated ends after the move, and never claims more for the fund than its holdings.
+  - so the report says "certain" (or "guaranteed", Book 19; no "barring a US default") for the stated ends after the move, and never claims more for the fund than its holdings.
 - **Before the move, the uncertainty is which range she will be able to announce:**
 
   | When | What is fixed | Stated bottom | Stated top |
