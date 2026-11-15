@@ -3,6 +3,12 @@
 Same format as `candidates_W.md` and `candidates_K.md`. Real events only, each with its evidence. They join the pool at
 the next blind re-rank (scheduled Mon 16 Nov), so that one panel reads every week's additions together.
 
+**Sun 15 Nov (Caplet, INSTRUCTIONS I115).** Only the team's own moments that show its thinking changing go to the
+reflection. Entries here whose origin is KEEL (all of N-01 to N-13) are out of the reflection pool; they stay as a
+record of Keel's work. Mon 16 Nov's re-rank reads `RANKING_3_TEAM_LEARNING.md` section 2 only. Evening run, Sun 15 Nov:
+no new team event today (Caplet's message on the moments is a ruling on how Keel picks them, not a moment), so nothing
+added.
+
 ### N-01: Laura's own market fell while shares rose
 - Date (Sydney): Mon 9 Nov
 - Origin: KEEL (research on the team's submitted idea)

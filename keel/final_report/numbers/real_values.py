@@ -8,8 +8,9 @@ import json
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
+RESULTS = "2026-11-15"   # completion.RESULTS: the Sun 15 Nov evening re-run (fee charged in the range rule)
 j = json.load(open(HERE / "inflation_inputs.json"))
-_reg = json.load(open(HERE / "results_2026-11-10.json"))
+_reg = json.load(open(HERE / f"results_{RESULTS}.json"))
 _cr = _reg["plan"][_reg["stamp"]["design"]]["central_rule"]
 LO, HI = _cr["bottom"], _cr["top"]
 us, tc = j["us"], j["taiwan_construction"]
@@ -28,7 +29,7 @@ for lab in ("low", "central", "high"):
         "range_ntd_today_costs": [v * fx["latest"] / (1 + g) ** yrs for v in (LO, HI)]}
 out["fx"] = {"latest": fx["latest"], "strong_twd_10y": min(fx["range_10y"]),
              "extra_usd_for_same_ntd_at_strong_twd": [v * (fx["latest"] / min(fx["range_10y"]) - 1) for v in (LO, HI)]}
-json.dump(out, open(HERE / "results_real_2026-11-10.json", "w"), indent=1)
+json.dump(out, open(HERE / f"results_real_{RESULTS}.json", "w"), indent=1)
 k = lambda v: f"${v:,.0f}"
 for lab in ("low", "central", "high"):
     o = out[f"us_{lab}"]

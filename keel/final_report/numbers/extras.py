@@ -191,8 +191,9 @@ out["rival_late_lock"]["history"] = {
     "final_total": P.pct(fin_h["total"]), "rival_total": P.pct(riv_h["total"]),
     "share_rival_top_below_final_top": float((riv_h["top"] < fin_h["top"]).mean()),
 }
-out["stamp"] = {"curve": E.CURVE_DAY, "design": NAME, "margin_jan2027_value": m3, "run": C.RUN}
-json.dump(out, open(HERE / f"results_extras_2026-11-10{C.tag(NAME)}.json", "w"), indent=1, default=str)
+out["stamp"] = {"curve": E.CURVE_DAY, "design": NAME, "margin_jan2027_value": m3, "run": C.RUN,
+                "rerun": "Sun 15 Nov 2026 evening", "rule": C.RULE_VERSION}
+json.dump(out, open(HERE / f"results_extras_{C.RESULTS}{C.tag(NAME)}.json", "w"), indent=1, default=str)
 
 k = lambda v: f"${v:,.0f}"
 for y, r in rows.items():

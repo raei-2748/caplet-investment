@@ -43,7 +43,7 @@ SNAPSHOT_MD = os.path.normpath(os.path.join(FR, "..", "..", "competition", "wins
 # The Portfolio tab's target units, set before the first fill (NUMBERS 8m cites portfolio.csv l.20-31)
 PORTFOLIO_CSV = os.path.normpath(os.path.join(FR, "..", "..", "caplet", "google_drive", "sheets",
                                               "portfolio_and_trading_notes", "portfolio.csv"))
-REGISTER_DATE = "2026-11-10"
+REGISTER_DATE = "2026-11-15"   # Sun 15 Nov evening: the re-run with the fee charged in the range rule (was 2026-11-10)
 
 
 def _load(name):
@@ -56,7 +56,7 @@ JOINT = _load(f"results_joint_stress_{REGISTER_DATE}.json")
 RETURNS = _load(f"results_returns_{REGISTER_DATE}.json")
 MAIN = _load(f"results_{REGISTER_DATE}.json")          # NUMBERS sections 1-5 (Table 3: the top-up, section 5's distances)
 INPUTS = _load("inflation_inputs.json")                # NUMBERS 8d's inputs (Table 3: the Taiwan dollar, building costs)
-TOPUP_PAID = _load("results_topup_2026-11-13.json")    # NUMBERS 8h, Fri 13 Nov: the top-up reconciled; the cash dates
+TOPUP_PAID = _load(f"results_topup_{REGISTER_DATE}.json")    # NUMBERS 8h, Fri 13 Nov: the top-up reconciled; the cash dates
 SKELETON_MD = os.path.join(FR, "SKELETON.md")         # Table 3's definitions and dates are Keel's calls, set out there
 WORDS_MD = os.path.join(FR, "WORDS.md")               # the report's one name for each thing
 
@@ -397,6 +397,8 @@ CONFIRM_BY = _date(2027, 12, 1)                          # the early warning: La
 MISSED_SHORT_2033 = MAIN["C6"]["missed"]["short_at_forwards"]   # $3,016: the 2033 payment short at today's rates (NUMBERS 5)
 IBOND_SLACK = "4 to 9"                                   # business days, cash in hand to the year's last business day (card Q2b)
 IBOND_SLACK_2036 = "4 to 6"                              # the tightest year, 15 Dec 2035 a Saturday (card Q2b)
+IBTA_SLACK = "19"                                        # Sun 15 Nov evening (card Q3c row 8): IBTA ended early, its cash
+# about 19 business days before year end, notice filed 28 Sep 2021, so notices come in September to October (NUMBERS 8h)
 DEFAULT_DAYS = 5                                         # a Treasury default: not paid within five business days
 
 
@@ -455,8 +457,11 @@ TABLE3_ROWS = [
     ("closer", [
         "iBond and Treasury-bill fund notices",
         "Team",
-        f"Ending notice in October; cash {IBOND_SLACK} business days before year end ({IBOND_SLACK_2036}, "
-        "2036 payment); bill fee 0.15%",
+        f"Ending notice in September to October; cash {IBOND_SLACK} business days before year end "
+        f"({IBOND_SLACK_2036} for 2036); bill fee 0.15%",
+        # Sun 15 Nov evening (card Q3c row 8): notices since September (IBTA's, 28 Sep 2021). IBTA's early end (cash
+        # about 19 business days before year end) is the trigger's "ends early", for 3e's prose: any mention of it in
+        # this row or the note puts Table 3 on two pages (measured); "for 2036" (was ", 2036 payment") keeps 18.9 lines
         "A fund ends early, merges or moves past a payment; bill fee over 0.15%; no notice: read filings",
         _changes("its money (paid out or sold) buys a Treasury due by 15 December; a gap from the extra "
                  "Treasuries, re-tested; the range's from its 0.5%",
@@ -925,6 +930,17 @@ def check(verbose=True):
     ok = bool(m) and m.group(1) == IBOND_SLACK and m.group(2) == IBOND_SLACK_2036
     note("Table 3", "Row 4: business days of slack, all years and 2036", f"{IBOND_SLACK}; {IBOND_SLACK_2036}",
          f"{m.group(1)}; {m.group(2)}" if m else None, "card Q2b, card 5", "PASS" if ok else "FAIL")
+    # Sun 15 Nov evening (card Q3c row 8; NUMBERS 8h): IBTA's cash about 19 business days before year end; notices
+    # in September to October
+    with open(os.path.join(FR, "research", "cards", "Q3c_ended_ibond_funds_payouts.md")) as fh:
+        q3c = re.sub(r"\s+", " ", fh.read())
+    m = re.search(r"its cash came about (\d+) business days before year end", q3c)
+    sep_ok = "September to October" in re.sub(r"\s+", " ", s8h)
+    note("Table 3", "Row 4: IBTA's business days before year end; notices September to October",
+         f"{IBTA_SLACK}; September to October", f"{m.group(1) if m else None}; "
+         f"{'September to October' if sep_ok else None}", "card Q3c row 8, NUMBERS 8h",
+         "PASS" if m and m.group(1) == IBTA_SLACK and sep_ok and "September to October" in
+         " ".join(cell_text(c) for _, cells in TABLE3_ROWS for c in cells) else "FAIL")
     m = re.search(r"the 2033 payment is \$([\d,]+) short at forward rates", re.sub(r"\s+", " ", s5))
     cmp("Table 3", "Row 1: a missed deposit, the 2033 payment short", round(MISSED_SHORT_2033),
         float(m.group(1).replace(",", "")) if m else None, "5")
@@ -964,7 +980,7 @@ def check(verbose=True):
          "this check", "PASS" if found <= allowed else "FAIL")
     nums = set(re.findall(r"(?<![\w$,.])\d+(?:\.\d+)?%?", printed.replace("NT$", "NT ").replace("US$", "US ")))
     known = {"2028", "31", "2027", "4", "3", "17", "2037", "10", "14", "2031", "2033", "2", "1", "1.5%", "5.0%",
-             "9", "6", "2036",
+             "9", "6", "2036", IBTA_SLACK,
              f"{FALL_TAKES_WHOLE_DEPOSIT:.2f}", f"{TWD_PER_USD:.3f}", "10%", "2026", f"{100 * CCI_5Y:.2f}%", "0.5%"}
     ok = "less 0.5%" in md and "from its 0.5%" in printed      # row 4: the floor's swap from the range rule's 0.5% cut
     note("Table 3", "Row 4: the floor's 0.5% margin is the range rule's cut (NUMBERS 4: each end less 0.5%)",

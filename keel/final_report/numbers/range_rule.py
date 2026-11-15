@@ -57,7 +57,7 @@ MARGIN = DSG["margin"]                                   # 1 Jan 2027 value: H_p
 MF = C.margin_fn(NAME)                                   # its January 2028 price on each path (completion.py)
 WAM, END = I[2033].hold_mat, I[2033].end               # IBTM's holdings mature about 4 Jul 2032; fund ends 15 Dec 2032
 FEE = E.ASSUMPTIONS["fund_fee"]
-out = {"stamp": {"curve": "US Treasury par curve, 6 Nov 2026 close", "engine": "engine.py + plan.py (register)",
+out = {"stamp": {"rerun": "Sun 15 Nov 2026 evening", "rule": C.RULE_VERSION, "curve": "US Treasury par curve, 6 Nov 2026 close", "engine": "engine.py + plan.py (register)",
                  "design": NAME, "margin_jan2027_value": MARGIN, "rounding": "down to $5,000", "status": "MODEL"}}
 
 
@@ -460,7 +460,7 @@ for key in ("2007-07",):
         rows[f"joint_rates_and_stocks_from_{key}"] = dict(named_j[key], range=f"rates and US stocks from {key}")
 out["exhibit3_rows"] = rows
 
-(HERE / f"results_range_rule_2026-11-10{C.tag(NAME)}.json").write_text(json.dumps(out, indent=1, default=str))
+(HERE / f"results_range_rule_{C.RESULTS}{C.tag(NAME)}.json").write_text(json.dumps(out, indent=1, default=str))
 
 
 # ---------------------------------------------------------------- print

@@ -3,6 +3,19 @@
 Every figure the Final Report may use comes from this page. It uses one curve, one engine and Caplet's design as
 submitted. These are research notes, not report text.
 
+**What changed on Sun 15 Nov, evening (numbers owner; bond desk check `research/panel/2026-11-15_bond_desk_3c_precision.md`, findings H1, HIGH 2, M1, M3, M4; cards Q45, Q3c, Q10e).**
+- **The fund fee is now charged in the range rule from each trade day (H1).** Until tonight `completion.zero_per_dollar` priced $1 of the late-2032 fund at the value of its holdings' flows AFTER the fee and then paid those same after-fee flows, so the 0.07% fee cancelled from the trade day on. A buyer of an ETF pays its net asset value, the value of the gross holdings, and then bears the fee. The rule now prices on the gross holdings and pays each flow less the fee from the trade day (the principal to 15 Dec 2032).
+- **Where the distributions wait (M3).** In the Treasury-bill ETF with every other waiting dollar (section 0). At zero interest each loses that ETF's 0.15% a year from its arrival to 15 Dec 2032, the charge the completion standard puts on every waiting dollar. `completion.RULE_WAIT_FEE = 0.0` would count them at face.
+- **Effect.** What $1 pays at zero interest: the floor bought 1 Jan 2028, 1.211695 to **1.207415** (the fee alone gives 1.208257); money moved 1 Jan 2031, 1.071332 to **1.070113** (1.070250). The rule's cut, as a share of the modelled payout: floor 4.31% to **4.65%**, moved half 2.87% to **2.98%** (section 3).
+- **The central range does not move: $95,000 to $115,000**, unrounded **$98,380 to $118,072** (was $98,729 to $118,443). The bottom now sits $3,380 above its step (was $3,729) and $1,620 under $100,000; the top $3,072 above (was $3,443) and $1,928 under $120,000.
+- **The 1-in-20, median and 1-in-20 points do not move** in the house model, the stock history or the joint replay (section 4). What moves is how often an end lands one $5,000 step lower than Tue 10 Nov's rule gave: house bottom 7.1% of paths, top 7.4%, either 14.0%; history top 8.1% of windows; joint bottom 6.0%, top 8.0%.
+- **What the 0.5% now leaves (M4).** In every path, at least 0.5% of each end's zero-interest value for costs beyond the two fees, by construction (house and joint 0.50%; history bottom 3.92%, top 0.50%). Before tonight the cancelled fee ate most of it: the old ends left 0.15% in the worst path. Centrally the bottom has $494 of haircut and $3,380 of rounding under the floor's zero-interest value ($98,874), the top $593 and $3,072 under both funds' ($118,666). Each 0.1% of costs above the cut takes about $119 from the top centrally ($145 at the house 1-in-20 high).
+- **Not moved:** the ladder ($302,287), completion ($38,282), floor payout ($103,178), contribution ($115,000), excess ($8,476), half kept ($21,347), reserve and what returns to Laura centrally ($75,298). The IBTM tail priced at net asset value is $2,286 (was $2,280), still under the $2,388 counted (section 7).
+- **$5,000 steps crossed** (none is a central figure): no-margin bottom $130,000 to $125,000 (section 4); **rates 3 points lower for good, bottom $80,000 to $75,000 (8i, Table 2)**; all-Treasury option A's house 1-in-20 high $160,000 to $155,000 (8n); 8p's 40%-fall group, 1-in-20 bottom $85,000 to $80,000. In the JSON only (not quoted on this page): joint replay starts 1980-99, median top $120,000 to $115,000; independent pairs, 1-in-20 high top $145,000 to $140,000; Mon 9 Nov's design, house 1-in-20 bottom $90,000 to $85,000; 8l's lowest-margin house path, stated ends $85,000 to $80,000; kept_share's 70% split on the real Taiwan dollar, contribution 1-in-20 $115,000 to $110,000 and high $145,000 to $140,000.
+- **Checked a second way.** An independent bootstrap of the 6 Nov CSV with its own holdings code reproduces $98,380 and $118,072 and every house percentile of both ends at two seeds (2033 and 2034); no path differs.
+- **Results:** `numbers/results_*_2026-11-15.json`, each stamped with the rule; the Tue 10 Nov and Fri 13 Nov files are kept as the record. This morning's fall40 file is kept as `results_fall40_2026-11-15_morning.json`.
+- **Also tonight:** Q45's "money put in" at net asset value (section 0); Q3c's five ended funds (8h); Q10e's Taiwan dollar against shares (8f, 8j); the exhibits rebuilt from this register (`exhibits/tables.md`, 390 checks, 0 FAIL): Table 2's rates-lower bottom $75,000 and history flexibility $20,200 / $32,300 / $50,900, Table 2's note items with the basis of each end and each column's own date (bond desk M2, M5-M7; 16.2 lines, was 12.2), Table 3 row 4's notices in September to October (21.9 lines, unchanged; section 10).
+
 **What changed on Tue 10 Nov.**
 - **Morning.** Keel made two calls at 07:04 (`../pm/ASK_HUMANS.md`), and every script that depends on them was re-run.
   - **The completion standard is "sufficient without reinvestment"** (design H_plain, card Q20). It replaces Mon 9 Nov's "design A sized for rates 3 points lower", which is kept as the alternative.
@@ -20,7 +33,7 @@ submitted. These are research notes, not report text.
   - `joint_stress` re-run: only its `twd_test` block changed, and it gains `returns_to_laura`; every other figure in it is identical.
 - **The headline now:**
   - completion **$38,282** in January 2028; floor payout **$103,178**;
-  - central range **$95,000 to $115,000** (unrounded $98,729 to $118,443); contribution **$115,000**; excess **$8,476**; half kept **$21,347**;
+  - central range **$95,000 to $115,000** (unrounded $98,380 to $118,072 since Sun 15 Nov evening; was $98,729 to $118,443); contribution **$115,000**; excess **$8,476**; half kept **$21,347**;
   - reserve **$444,545** on 1 Jan 2033, **111.4%** funded;
   - **$74,123** left by 2042 if forward rates hold, or $45,456 in 2033 money.
 
@@ -35,7 +48,8 @@ submitted. These are research notes, not report text.
   - `run_numbers.py`: sections 1 to 5;
   - `returns_check.py` (Tue 10 Nov evening): the independent check of 8k;
   - `most_check.py` (Fri 13 Nov): when "most" cannot hold (section 5); `topup_paid.py` (Fri 13 Nov): what the top-up pays, reconciled with its cost, and the cash dates (8h). They write `results_most_2026-11-13.json` and `results_topup_2026-11-13.json` and change no earlier file.
-- **Results.** `numbers/results_2026-11-10.json`, plus `results_reserve_`, `results_range_rule_`, `results_joint_stress_`, `results_kept_half_`, `results_extras_` and `results_real_2026-11-10.json`, all rewritten Tue 10 Nov afternoon (`results_joint_stress_` again in the evening, 8j and 8k), and `results_returns_2026-11-10.json` (evening). The Mon 9 Nov files (`results_2026-11-06.json` and the undated `results_*.json`) are kept as the record of the old call.
+- **Results (Sun 15 Nov evening).** Every file the range rule touches is rewritten as `results_*_2026-11-15.json` (`completion.RESULTS`); the lines below are the Tue 10 Nov record. Figures on this page are from the 2026-11-15 files unless a line names another.
+- **Results (Tue 10 Nov).** `numbers/results_2026-11-10.json`, plus `results_reserve_`, `results_range_rule_`, `results_joint_stress_`, `results_kept_half_`, `results_extras_` and `results_real_2026-11-10.json`, all rewritten Tue 10 Nov afternoon (`results_joint_stress_` again in the evening, 8j and 8k), and `results_returns_2026-11-10.json` (evening). The Mon 9 Nov files (`results_2026-11-06.json` and the undated `results_*.json`) are kept as the record of the old call.
 - **Rerun.** From the repo root, run `python3 -I keel/final_report/numbers/<script>.py` for `run_numbers`, `reserve`, `range_rule`, `joint_stress`, `returns_check`, `kept_half`, `extras` and `real_values`, in that order. Each needs only numpy; `extras` takes about two minutes, the others under a minute.
   - Adding `--design KEEL` to any of the first six reproduces Mon 9 Nov's standard on the same code and writes `*_KEEL.json`.
   - `pooled.py` (card Q20) is the record of the comparison at 0%, with the old fixed deductions.
@@ -60,9 +74,12 @@ Rule for every later note and draft: a figure not on this page is not used. A fi
 | Stock history | Shiller monthly S&P Composite with dividends, 1871 to Jun 2023 | `keel/models/data/shiller_monthly.csv` (mirror; `keel/models/data/SOURCES.md`) |
 | Completion standard (Tue 10 Nov) | "Sufficient without reinvestment": the ten rungs at plain size plus a pooled backstop, sized so all ten are paid even if no coupon, fund payout or waiting dollar earns anything from 2027, after the waiting ETF's fee (next row) | Keel's call, `../pm/ASK_HUMANS.md` Tue 10 Nov 07:04; card Q20 (design H_plain); fee cushion: bond desk check, finding 3; `numbers/completion.py` |
 | Where waiting money sits, and its fee | A Treasury-bill ETF (0 to 3 months), not a 1-3 year fund whose price can fall. Every coupon, fund payout and carried surplus waits there (TNA note 1 puts the Feb-2037 bond's proceeds in a short-term Treasury ETF). The design test charges 0.15% a year on every waiting dollar; in the forward-rate world the money earns forward short rates | Keel's call. Which ETF is UNVERIFIED: Laura's plan may use only WInS-listed ETFs (6 Oct email), so a student checks the listing |
-| Range rule (Tue 10 Nov) | Each end is the money put into the late-2032 fund times what $1 of the fund's holdings pays on 15 Dec 2032 if nothing earns interest from the trade day, less 0.5%, rounded down to $5,000; capped (section 3) | Keel's call 07:04, card Q19; holdings and haircut: bond desk check, finding 1; `completion.rule` |
-| The range rule's holdings | The engine's IBTM bond (coupon 4.2513%, average maturity 5.65 years), its remaining coupons and principal less the fund fee, priced on the trade day's curve (today's forwards, moved), rates floored at zero. Coupons of 3.50% (IBTM's real average) and 4.00% are test variants | Engine; ishares.com (row 4) |
-| Haircut on each end | 0.5% of its zero-interest value, before rounding down. It carries the fund risks a bond does not have: an ETF bought above its net asset value, bid-ask spreads, an expense change made with notice | Bond desk check, finding 1; Keel's call |
+| Range rule (Tue 10 Nov; fee from the trade day since Sun 15 Nov evening) | Bottom: the money put into the late-2032 fund in January 2028 times what $1 of the fund's holdings pays on 15 Dec 2032 if nothing earns interest from the trade day, after the fund's fee from that day and the waiting ETF's fee on each distribution, less 0.5%, rounded down to $5,000. Top: the floor's unrounded zero-interest value (measured once, in January 2028, carried forward, never re-measured) plus the moved half's on the move day, less 0.5%, rounded down once to $5,000. Capped (section 3) | Keel's call 07:04, card Q19; holdings and haircut: bond desk check, finding 1; fee and the one rounding: bond desk 3c check, H1 and HIGH 2; `completion.rule` |
+| "Money put in" (Sun 15 Nov evening, card Q45) | Units bought × that day's net asset value, for the January 2028 floor purchase and for the 2031 move alike. So a price above net asset value and the bid-ask spread on the purchase day fall outside both ends and outside the 0.5% | Card Q45. The engine buys at net asset value: `plan.run`'s floor and moved money become net asset value one for one, and `zero_per_dollar` prices $1 at the gross holdings' value |
+| How Laura measures an end on the day | Units held × the fund's remaining coupons and principal per unit from its published holdings on the trade day, added up undiscounted, less the fund's fee to each payment and the waiting ETF's 0.15% a year from then to 15 Dec 2032, less 0.5%. The bottom is rounded down; the top is the unrounded bottom plus the moved half's, rounded down once. Modelled on the 6 Nov 2026 curve until then | Bond desk 3c check, M2; `completion.zero_per_dollar` (its numerator is this sum) |
+| The range rule's holdings | The engine's IBTM bond (coupon 4.2513%, average maturity 5.65 years). Its remaining coupons and principal are priced on the trade day's curve (today's forwards, moved; rates floored at zero) BEFORE the fee, which is the net asset value a buyer pays; the holder then receives each flow less the 0.07% fee from the trade day to that flow (the principal to 15 Dec 2032). Coupons of 3.50% (IBTM's real average) and 4.00% are test variants | Engine; ishares.com (row 4); bond desk 3c check, H1 |
+| Where the range rule's distributions wait (Sun 15 Nov evening) | In the Treasury-bill ETF with every other waiting dollar (row above). At zero interest each distribution loses 0.15% a year from its arrival to 15 Dec 2032; the principal waits inside the fund at its 0.07% fee. Counted at face instead (`completion.RULE_WAIT_FEE = 0.0`), $1 of the floor pays 1.208257 and the central unrounded ends are $98,449 and $118,143 (stated the same) | Bond desk 3c check, M3; Keel's call, consistent with the completion standard |
+| Haircut on each end | 0.5% of its zero-interest value, before rounding down. Since Sun 15 Nov the 0.07% fee and the waiting ETF's fee are inside the zero-interest value, so the 0.5% carries only what they leave out: costs the prospectus leaves outside the 0.07% fee (tracking beyond the fee: up to 0.03 points a year, IBTF in 2022); money-market fund fees in the fund's final months (waived in the ended funds, card Q3c row 17); a fund swap under Table 3 row 4; and, only if the ends were set on cash spent rather than units × net asset value (row above), the purchase-day premium (up to 0.09% above net asset value, IBTM on 6 Nov 2026) and half the 0.05% spread. Together about 0.27% for a January 2028 buy held to December 2032 (Keel arithmetic). Every ended iBond fund trailed its index by less than its fee over its life, and all five paid within 0.066% of their last market price. A stressed purchase day (March 2020: government bond ETFs more than 1% off net asset value; a stressed week's premium plus half-spread about 0.74%) is outside the haircut: a watch item, not a rule change | Bond desk check, finding 1; bond desk 3c check, M1; cards Q3c (frictions w1) and Q45; Keel's call |
 | Percentiles of stated figures | Stated (rounded) ends are read without interpolating between two $5,000 steps (numpy method "lower") | Bond desk check, finding 9 |
 
 ## 1. The ladder's cost now (CASE_MAP C3): settled
@@ -202,27 +219,36 @@ nothing; these costs are sized at exactly 0%, so the call is compared at its 0% 
 
 - The fee is already in the engine's $302,287. Across the five funds it is $1,098 in the money of each payment year (the column above), or $743 in 1 Jan 2027 money: $302,287 against the payments' $301,544, since the T-bonds carry no fee (checked in `numbers/returns_check.py`, Tue 10 Nov evening).
 - What is left is the cash wait. In its final months a fund holds cash, and that cash earns whatever short rates are then. This is why the payout "is not fixed" (TNA note 2): it moves by up to about 2%.
-- The floor fund has the same feature. On its own holdings (section 0), measured from the day it is bought (January 2028 at today's forwards), its payout falls by 3.83% if every distribution and its final cash earn nothing; for money moved into it in 2031, by 2.38%.
+- The floor fund has the same feature. On its own holdings (section 0), measured from the day it is bought (January 2028 at today's forwards), its payout falls by 4.17% if every distribution and its final cash earn nothing; for money moved into it in 2031, by 2.49%. These charge the fund fee from the trade day and the waiting ETF's fee on each distribution (Sun 15 Nov evening; before, with the fee cancelled, 3.83% and 2.38%).
 
-**The range rule (Keel's call Tue 10 Nov 07:04, card Q19; worked out on the fund's holdings since the afternoon; `completion.rule`, `numbers/range_rule.py`).**
-- **Bottom:** the money put into the floor fund in January 2028, times what $1 of the fund's holdings pays on 15 Dec 2032 if from that day no distribution and none of its final cash earns anything. The holdings are priced on that day's curve. Less 0.5%, rounded down to $5,000.
-- **Top:** the unrounded bottom plus the moved half on the same basis, worked out on the move day (before the 2031 meetings), less 0.5%, rounded down to $5,000.
+**The range rule (Keel's call Tue 10 Nov 07:04, card Q19; worked out on the fund's holdings since the afternoon; the fee charged from each trade day since Sun 15 Nov evening; `completion.rule`, `numbers/range_rule.py`).**
+- **Bottom:** the money put into the floor fund in January 2028 (units bought × that day's net asset value), times what $1 of the fund's holdings pays on 15 Dec 2032 if from that day no distribution and none of its final cash earns anything. The holdings are priced on that day's curve before the fee, since a buyer pays the net asset value; the holder then bears the fund's 0.07% fee from that day, and each distribution the waiting ETF's 0.15% a year from its arrival. Less 0.5%, rounded down to $5,000.
+- **Top, stated one way only:** the floor's unrounded zero-interest value (measured once, in January 2028, carried forward, never re-measured) plus the moved half's on the same basis on the move day (before the 2031 meetings), less 0.5%, rounded down once to $5,000. The parts are never rounded.
+- **The central worked example** (today's forwards; trade dates modelled as the first trading days, Mon 3 Jan 2028 for the floor and Thu 2 Jan 2031 for the move; the engine values both on 1 January, two days that change no dollar shown):
+
+  | | Money put in | × what $1 pays at zero interest | = zero-interest value | Less 0.5% | Stated |
+  |---|---|---|---|---|---|
+  | Floor (bottom) | $81,889 | 1.207415 | $98,874 | $98,380 | **$95,000** |
+  | Moved half | $18,495 | 1.070113 | $19,791 | | |
+  | Both (top) | | | $118,666 | $118,072 | **$115,000** |
 - **The 2033 contribution** is the lower of what the two funds pay and the stated top. Any excess joins the half kept (CANON D12).
 - **No figure is stated before the move.**
 - **Why the holdings, not one par bond.** The morning's rule modelled the fund as one par bond at the purchase yield. That stand-in is cautious at today's yields; if yields fall about a point before the purchase, the holdings' premium makes it slightly generous, so the rule uses the holdings.
-- **So "the bare minimum ... without doubt" is true by construction once worked out on the holdings; the market cannot move either end after the move.** It holds barring a US default, with 0.5% of value to spare for the fund's own frictions. The 0.5% cut, not the prospectus, carries the fund risk: a fund can pay slightly less than its holdings' cash flows without breaking its prospectus (an expense change made with notice, trading costs). That this applies to IBTM's prospectus is UNVERIFIED; read its wording before quoting it.
+- **So "the bare minimum ... without doubt" is true by construction once worked out on the holdings; the market cannot move either end after the move.** It holds barring a US default, with 0.5% of value to spare for the fund's costs beyond its 0.07% fee and the waiting ETF's fee, which are now inside the value. The 0.5% cut, not the prospectus, carries that risk: a fund can pay slightly less than its holdings' cash flows without breaking its prospectus (costs outside the fee, a swap of holdings; the list is in section 0). That this applies to IBTM's prospectus is UNVERIFIED; read its wording before quoting it.
 
-The cut depends on the yield at purchase. The more of the payout that is interest, the more is lost if interest stops. As a share of the modelled payout, today's values are 4.312% (floor) and 2.870% (moved half), of which 0.5% is the haircut:
+The cut depends on the yield at purchase. The more of the payout that is interest, the more is lost if interest stops. As a share of the modelled payout, today's values are 4.650% (floor) and 2.981% (moved half), of which 0.5% is the haircut (Tue 10 Nov, with the fee cancelled: 4.312% and 2.870%):
 
 | Purchase yield against today's forwards for that date | -3 pt | -2 pt | -1 pt | 0 | +1 pt | +2 pt | +3 pt |
 |---|---|---|---|---|---|---|---|
-| Floor, bought January 2028: the rule's cut (holdings, with the 0.5%) | 1.75% | 2.60% | 3.45% | 4.31% | 5.18% | 6.04% | 6.91% |
-| Moved half, bought on the move day: the rule's cut | 1.37% | 1.87% | 2.37% | 2.87% | 3.37% | 3.86% | 4.35% |
+| Floor, bought January 2028: the rule's cut (holdings, with the 0.5%; Sun 15 Nov evening) | 2.10% | 2.95% | 3.80% | 4.65% | 5.51% | 6.37% | 7.24% |
+| Moved half, bought on the move day: the rule's cut | 1.49% | 1.99% | 2.48% | 2.98% | 3.48% | 3.97% | 4.46% |
+| Floor, Tue 10 Nov (fee cancelled; void) | 1.75% | 2.60% | 3.45% | 4.31% | 5.18% | 6.04% | 6.91% |
+| Moved half, Tue 10 Nov (void) | 1.37% | 1.87% | 2.37% | 2.87% | 3.37% | 3.86% | 4.35% |
 | Floor, the morning's par stand-in (void) | 1.18% | 2.03% | 3.02% | 4.14% | 5.36% | 6.68% | 8.08% |
 | Moved half, the morning's par stand-in (void) | 0.92% | 1.42% | 1.92% | 2.45% | 2.98% | 3.53% | 4.09% |
 
-- **The engine's holdings are the cautious choice of three.** A fund holding 3.50% coupons (IBTM's real average) pays 0.10% (3 points lower) to 0.51% (3 points higher) more at zero interest per dollar than the engine's 4.25% holdings; 4.00% coupons pay 0.03% to 0.17% more.
-- **The test, no longer circular.** Each stated end is checked against the zero-interest payout of holdings the rule does not assume, and against frictions beyond the 0.5%. "Not owned" means that payout is below the stated end:
+- **The engine's holdings are the cautious choice of three.** A fund holding 3.50% coupons (IBTM's real average) pays 0.11% (3 points lower) to 0.51% (3 points higher) more at zero interest per dollar than the engine's 4.25% holdings; 4.00% coupons pay 0.04% to 0.17% more.
+- **The test, no longer circular** (re-run Sun 15 Nov evening with the fee charged from the trade day in every variant). Each stated end is checked against the zero-interest payout of holdings the rule does not assume, and against frictions of 0.1% to 1% of value on top of the two fees. "Not owned" means that payout is below the stated end:
 
   | Holdings tested | House model (200,000 paths): bottom / top not owned | Stock history (1,770 windows, rates at forwards) | Joint replay (585 windows, each on its own curve) |
   |---|---|---|---|
@@ -230,19 +256,20 @@ The cut depends on the yield at purchase. The more of the payout that is interes
   | 3.50% coupons (IBTM's real average) | 0 / 0 | 0 / 0 | 0 / 0 |
   | 4.00% coupons | 0 / 0 | 0 / 0 | 0 / 0 |
   | Engine's holdings less a friction of 0.1%, 0.25% or 0.5% of value | 0 / 0 | 0 / 0 | 0 / 0 |
-  | Less 0.75% | 5.0% / 6.0% (largest gaps $339 / $429) | 0 / 6.3% (largest $312) | 22 / 34 windows ($281 / $312) |
-  | Less 1% | 10.1% / 12.0% ($678 / $881) | 0 / 13.1% ($626) | 47 / 72 windows ($570 / $664) |
-  | A fund of new par bonds at the purchase yield (the morning's stand-in) | 1.8% / 1.3% ($1,969 / $2,470) | 0 / 0 | 18 / 25 windows ($2,721 / $2,953) |
+  | Less 0.75% | 5.0% / 6.0% (largest gaps $326 / $402) | 0 / 6.7% (largest $320) | 30 / 31 windows ($236 / $373) |
+  | Less 1% | 10.0% / 12.0% ($653 / $815) | 0 / 12.8% ($647) | 57 / 63 windows ($496 / $750) |
+  | A fund of new par bonds at the purchase yield (the morning's stand-in) | 0.43% / 0.29% ($1,868 / $1,480) | 0 / 0 | 14 / 12 windows ($2,721 / $2,953) |
 
-  So "certain" holds on the fund's real and modelled holdings and against any friction up to 0.5% of value. It does not hold against a fund that swapped its holdings for new par bonds, or a friction above 0.5%. The joint replay's realised payouts (at historical rates, which say nothing about the zero-interest case) never fell below either end either: smallest margins $1,262 (floor against the bottom) and $934 (both funds against the top).
+  So "certain" holds on the fund's real and modelled holdings and against any friction up to 0.5% of value beyond the two fees. It does not hold against a fund that swapped its holdings for new par bonds, or a friction above 0.5%. The joint replay's realised payouts (at historical rates, which say nothing about the zero-interest case) never fell below either end either: smallest margins $1,262 (floor against the bottom) and $934 (both funds against the top).
+- **What margin the 0.5% now leaves (Sun 15 Nov evening; bond desk 3c check, M4).** By construction each stated end is at least 0.5% under its own zero-interest value, now that the two fees are inside that value. Measured: house model 0.50% (bottom) and 0.50% (top) in the worst path; stock history 3.92% and 0.50%; joint replay 0.52% and 0.50%. Centrally the bottom is $3,874 under the floor's $98,874 ($494 haircut, $3,380 rounding) and the top $3,666 under both funds' $118,666 ($593, $3,072). Before tonight the ends left 0.146% (bottom) and 0.149% (top) in the worst house path, 0.216% and 0.219% with the distributions counted at face: the cancelled fee had eaten most of the cut. If costs beyond the two fees exceed 0.5%, the funds' zero-interest value falls short of the stated top by at most 0.1% of both funds' value per 0.1% of excess cost: about $119 centrally and about $145 at the house 1-in-20 high top. That bounds "short by a few hundred dollars".
 - **Why a rule and not the fixed 4.1% and 2.5%.**
-  - On the holdings, a fixed 4.1% is too small whenever the floor is bought more than 0.31 points above today's forward yield, which happens in 37.4% of house paths.
-  - Run with the fixed figures, the zero-interest payout falls below the stated top in 5.9% of house paths (median gap $517, 1-in-20 $1,903, worst $6,416), and the floor below the stated bottom in 5.2%. Under the rule, both are 0%.
-- **A variant Keel did not adopt.** Re-measuring the floor in 2031, when fewer of its flows are left, would cut 3.27%. Centrally it still states $95,000 to $115,000, but its ends are above what the holdings pay at zero interest in 11% of house paths, because money received by 2031 is counted at more than its value. The rule measures the floor once, at purchase, so the bottom never moves after January 2028.
+  - On the holdings, a fixed 4.1% is now too small even at today's forwards (the cut before the haircut is 4.17%): it falls short unless the floor is bought at least 0.08 points below today's forward yield, which fails in 53.4% of house paths (Tue 10 Nov, with the fee cancelled: above +0.31 points, 37.4%).
+  - Run with the fixed figures, the zero-interest payout falls below the stated top in 9.6% of house paths (median gap $580, 1-in-20 $2,083, worst $6,993), and the floor below the stated bottom in 8.5%. Under the rule, both are 0%.
+- **A variant Keel did not adopt.** Re-measuring the floor in 2031, when fewer of its flows are left, would cut 3.27% (par stand-in). Centrally it still states $95,000 to $115,000, but its ends are above what the holdings pay at zero interest in 18% of house paths (11% before the fee was charged), because money received by 2031 is counted at more than its value. The rule measures the floor once, at purchase, so the bottom never moves after January 2028.
 
 ## 4. The plan from 2028, on the escrow standard and the range rule (CASE_MAP C5, C8). MODEL
 
-Central case: today's forward rates, VT at its median 7.5%. Move date modelled as 1 Jan 2031. The house and history columns give each row's own 1-in-20 points, so the rows do not add across. Stated figures are read without interpolation (section 0).
+Central case: today's forward rates, VT at its median 7.5%. Move date modelled as 1 Jan 2031 (the trade, Thu 2 Jan 2031, the first trading day; the floor's, Mon 3 Jan 2028). Range rows re-run Sun 15 Nov evening with the fee charged from each trade day (section 3); rows without a range figure are unchanged. The house and history columns give each row's own 1-in-20 points, so the rows do not add across. Stated figures are read without interpolation (section 0).
 
 | Item | Central | House model 1-in-20 low / median / 1-in-20 high | History (US stocks, every 3-year window since 1871; rates at today's forwards) |
 |---|---|---|---|
@@ -251,17 +278,17 @@ Central case: today's forward rates, VT at its median 7.5%. Move date modelled a
 | Floor money (Jan 2028) / share of the $150,000 | $81,889 / 54.6% | $75,001 / $81,848 / $93,015 | $81,889 |
 | VT bought (Jan 2028) | $29,829 | $20,320 / $29,814 / $33,881 | $29,829 |
 | Floor payout, late 2032 | $103,178 | $88,047 / $103,097 / $124,380 | $103,178 (fixed once bought) |
-| Bottom before rounding (zero-interest payout of the holdings, less 0.5%; 4.312% under the payout centrally) | $98,729 | $85,359 / $98,653 / $117,614 | $98,729 |
+| Bottom before rounding (zero-interest payout of the holdings, less 0.5%; 4.650% under the payout centrally) | $98,380 | $85,056 / $98,305 / $117,200 | $98,380 |
 | **Bottom Laura states** | **$95,000** | $85,000 / $95,000 / $115,000 | $95,000 in every window |
 | VT on 1 Jan 2031 | $36,989 | $19,535 / $36,095 / $61,959 | $24,792 / $39,421 / $61,172 |
 | The moved half, paid late 2032 | $20,298 | $10,581 / $19,828 / $34,308 | $13,604 / $21,632 / $33,568 |
 | What the floor and the moved half pay | $123,476 | $101,093 / $124,008 / $152,051 | $116,782 / $124,810 / $136,746; lowest $106,683 (start Jul 1929) |
-| Top before rounding (bottom plus the moved half's zero-interest payout less 0.5%) | $118,443 | $97,932 / $118,921 / $144,548 | $111,942 / $119,740 / $131,333 |
+| Top before rounding (bottom plus the moved half's zero-interest payout less 0.5%) | $118,072 | $97,611 / $118,549 / $144,110 | $111,579 / $119,367 / $130,947 |
 | **Top Laura states** | **$115,000** | $95,000 / $115,000 / $140,000 | $110,000 / $115,000 / $130,000; lowest $100,000 (start Jan 1929) |
 | **The 2033 contribution (the lower of what the funds pay and the stated top)** | **$115,000** | Equals the stated top in every path | Equals the stated top in every window |
-| Excess, joining the half kept | $8,476 | $4,340 / $7,629 / $11,218 | $5,322 / $7,524 / $9,846 |
+| Excess, joining the half kept | $8,476 | $4,669 / $8,005 / $11,634 | $5,694 / $7,928 / $10,227 |
 | Half kept, promised to no one, on 1 Jan 2033 | $21,347 | $9,881 / $20,739 / $41,258 | $13,238 / $23,481 / $40,607 |
-| Half kept plus excess | $29,823 | $16,193 / $28,541 / $49,924 | $20,019 / $30,902 / $48,399; lowest $12,838 |
+| Half kept plus excess | $29,823 | $16,508 / $28,918 / $50,348 | $20,469 / $31,314 / $49,217; lowest $12,838 |
 | Contribution plus half kept plus excess | $144,823 | $113,449 / $145,687 / $187,490 | $131,548 / $148,063 / $173,858 |
 
 **Keel's reading of "most" (Tue 10 Nov afternoon; bond desk check, finding 2).** The IPS says "Most of the 2028
@@ -281,15 +308,15 @@ It keeps the frozen book's split wherever that split already meets the IPS's wor
 
 | | at least $80,000 | $90,000 | $95,000 | $100,000 | $110,000 | $115,000 | $120,000 | $130,000 | $140,000 | $150,000 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Stated bottom | 99.9% | 79.9% | 62.9% | 45.2% | 15.9% | | 3.3% | | | |
-| Stated top | | 99.4% | | 92.6% | 73.6% | 60.8% | 47.0% | 22.8% | 8.5% | 2.5% |
+| Stated bottom | 99.9% | 78.7% | 61.8% | 44.0% | 15.1% | | 3.0% | | | |
+| Stated top | | 99.3% | | 92.2% | 72.7% | 59.8% | 46.0% | 22.1% | 8.1% | 2.4% |
 
 **What certainty costs the gift (central, same rule):**
 
 | Standard | Floor payout | Stated range | Funds pay | Contribution | Excess | Half kept |
 |---|---|---|---|---|---|---|
-| No margin (ladder at forwards only) | $136,328 | $130,000 to $155,000 | $163,147 | $155,000 | $8,147 | $28,206 |
-| Mon 9 Nov call (A, 3 points lower) | $115,929 | $110,000 to $130,000 (unrounded $110,930 to $133,081) | $138,735 | $130,000 | $8,735 | $23,986 |
+| No margin (ladder at forwards only) | $136,328 | $125,000 to $155,000 (unrounded $129,988 to $156,008; bottom $130,000 before Sun 15 Nov) | $163,147 | $155,000 | $8,147 | $28,206 |
+| Mon 9 Nov call (A, 3 points lower) | $115,929 | $110,000 to $130,000 (unrounded $110,538 to $132,664) | $138,735 | $130,000 | $8,735 | $23,986 |
 | **Escrow standard (H_plain, with the fee cushion)** | **$103,178** | **$95,000 to $115,000** | **$123,476** | **$115,000** | **$8,476** | **$21,347** |
 
 - The escrow standard moves $33,150 of floor payout to the payments' safety against no margin, and $12,751 against Mon 9 Nov's call.
@@ -301,13 +328,13 @@ More from the same runs:
   | VT growth a year | 4% | 6% | 7.5% | 9% | 10% |
   |---|---|---|---|---|---|
   | What the funds pay | $121,557 | $122,638 | $123,476 | $124,337 | $124,925 |
-  | Top before rounding | $116,580 | $117,630 | $118,443 | $119,280 | $119,851 |
+  | Top before rounding | $116,211 | $117,259 | $118,072 | $118,908 | $119,478 |
   | Stated top = contribution | $115,000 | $115,000 | $115,000 | $115,000 | $115,000 |
   | Excess to the half kept | $6,557 | $7,638 | $8,476 | $9,337 | $9,925 |
   | Half kept | $18,091 | $19,899 | $21,347 | $22,879 | $23,948 |
   | Half kept plus excess | $24,648 | $27,537 | $29,823 | $32,216 | $33,873 |
 
-  So the 7.5% is not doing the work; the Treasuries are (EXPECTATIONS T12 asked for 4% to 10%). The top stays under $120,000 even at 10% ($149 short of it).
+  So the 7.5% is not doing the work; the Treasuries are (EXPECTATIONS T12 asked for 4% to 10%). The top stays under $120,000 even at 10% ($522 short of it).
 - **Deletion test.** If VT went to zero:
   - the ten payments would be unchanged;
   - the floor still pays $103,178;
@@ -321,14 +348,15 @@ More from the same runs:
   - or $58,603 handed back year by year from 2033 under an escrow release (8h).
 
 ### The 2031 move and the range (C5): the rule and its confidence
-- **Central today, $95,000 to $115,000** (unrounded $98,729 to $118,443). This is the rule's value on today's forwards, not a promise. The two funds pay $123,476; the contribution is $115,000; the $8,476 excess takes the half kept from $21,347 to $29,823.
+- **Central today, $95,000 to $115,000** (unrounded $98,380 to $118,072). This is the rule's value on today's forwards, not a promise. The two funds pay $123,476; the contribution is $115,000; the $8,476 excess takes the half kept from $21,347 to $29,823.
 - **When each end is fixed.**
-  - The bottom is fixed in January 2028, when the floor is bought: that day's curve sets both its payout and its zero-interest payout.
-  - The top is fixed on the day half of VT moves into Treasuries, before the 2031 meetings.
+  - The bottom is fixed in January 2028, when the floor is bought (modelled Mon 3 Jan 2028): that day's curve sets both its payout and its zero-interest payout. It turns on markets to January 2028.
+  - The top is fixed on the day half of VT moves into Treasuries, before the 2031 meetings (modelled Thu 2 Jan 2031). It turns on markets to that move.
+  - Her flexibility (the half kept and the excess) turns on markets to January 2033.
   - Good and bad markets before the move change only the top. After the move nothing changes either end (case A6).
-- **The confidence Laura can state after the move: certain, barring a US default.** True by construction once worked out on the holdings; the market cannot move either end after the move. Both ends are then money she owns in Treasuries maturing late 2032, each counted at what its holdings pay if no more interest is earned, less 0.5%. What the test of section 3 supports, and no more:
+- **The confidence Laura can state after the move: certain, barring a US default.** True by construction once worked out on the holdings; the market cannot move either end after the move. Both ends are then money she owns in Treasuries maturing late 2032, each counted at what its holdings pay if no more interest is earned, after the fund's fee from the trade day and the waiting ETF's fee, less 0.5%. What the test of section 3 supports, and no more:
   - on the engine's holdings, on 3.50% and on 4.00% coupons, both ends are owned in every house path, every history window and every joint window;
-  - a fund friction of up to 0.5% of value is covered everywhere; one of 0.75% would break an end in about 1 house path in 17;
+  - a fund cost beyond the two fees of up to 0.5% of value is covered everywhere; one of 0.75% would break an end in about 1 house path in 17;
   - so the report says "certain, barring a US default" for the stated ends after the move, and never claims more for the fund than its holdings.
 - **Before the move, the uncertainty is which range she will be able to announce:**
 
@@ -341,7 +369,8 @@ More from the same runs:
   | After the 2031 move, central | Both ends, owned | $95,000 | $115,000 |
   | December 2032, paid, central | Contribution $115,000; excess $8,476 to the half kept | | |
 
-- **Why nothing is stated before the move.** A top stated 1, 3, 6 or 12 months before the move is not yet owned in 2.9%, 6.3%, 8.7% or 10.7% of house paths. The 1-in-20 gap is $1,756, $2,925, $3,986 or $5,289.
+- **How often an end steps down against Tue 10 Nov's rule (Sun 15 Nov evening; scratch check of the same paths).** Charging the fee from the trade day lowers every unrounded end by about 0.35% (bottom) and 0.31% (top); an end steps down $5,000 where it sat within that of a step. House model: bottom 7.1% of paths, top 7.4%, either 14.0%, both 0.5%; stock history: top 8.1% of windows (the bottom is the central one, which holds); joint replay: bottom 6.0%, top 8.0%, either 13.5%. The 1-in-20, median and 1-in-20 points in the table above are the same as on Tue 10 Nov.
+- **Why nothing is stated before the move.** A top stated 1, 3, 6 or 12 months before the move is not yet owned in 2.9%, 6.2%, 8.7% or 10.7% of house paths. The 1-in-20 gap is $1,745, $2,952, $3,988 or $5,263.
 - **Exhibit 3, one input moved at a time** (`numbers/range_rule.py`, central otherwise; 8i moves rates and shares together):
 
   | Case | Stated range | What the funds pay | Excess | Half kept, 1 Jan 2033 |
@@ -361,17 +390,17 @@ More from the same runs:
   - **C, narrow to what is owned after the move:** $115,000 to $120,000 central. In the house model C counts $10,000, $20,000 or $35,000 (1-in-20 low, median, high) more as pledged.
   - **D, one figure:** "at least $115,000".
 - **Rounding is fragile at the centre.** Rounding down to $5,000 turns small gaps into $5,000 steps:
-  - The unrounded bottom ($98,729) is $1,271 under $100,000; it would take a floor payout of $104,507 to state $100,000.
-  - The unrounded top ($118,443) is $1,557 under $120,000.
-  - On IBTM's real 3.50% coupons the ends are $99,023 and $118,747, still stated $95,000 and $115,000.
+  - The unrounded bottom ($98,380) is $3,380 above $95,000 and $1,620 under $100,000; it would take a floor payout of $104,877 to state $100,000.
+  - The unrounded top ($118,072) is $3,072 above $115,000 and $1,928 under $120,000.
+  - On IBTM's real 3.50% coupons the ends are $98,679 and $118,381, still stated $95,000 and $115,000 (4.00% coupons: $98,478 and $118,173).
   - So the report says "about $95,000 to $115,000 on today's figures" and gives the rule, never the figures as a promise.
 - **One definition, used everywhere:** the 2033 facility contribution is the lower of what the floor and the moved half pay and the stated top, and the range above is for that. The excess and the half kept are Laura's; money she later spends on the building from them is her separate choice, outside the announced range (`CANON.md` D12).
 
 ### The all-Treasury benchmark (C8)
-- **The comparison.** If everything left in January 2028 bought the floor fund instead of 73% floor and 27% VT, with the same completion, Laura would have **$140,761** in late 2032 at forward rates. Stated under the same rule, that is $130,000 (unrounded $134,691). House model: $113,169 / $140,649 / $169,686, depending on yields to 2028.
-- **The FINAL's funds pay less than that benchmark in 97.6% of house paths.** Its stated top is below the benchmark's stated figure in 95.0%. Half of VT is held back from the contribution on purpose, as flexibility.
+- **The comparison.** If everything left in January 2028 bought the floor fund instead of 73% floor and 27% VT, with the same completion, Laura would have **$140,761** in late 2032 at forward rates. Stated under the same rule, that is $130,000 (unrounded $134,215). House model: $113,169 / $140,649 / $169,686, depending on yields to 2028.
+- **The FINAL's funds pay less than that benchmark in 97.6% of house paths.** Its stated top is below the benchmark's stated figure in 94.8%. Half of VT is held back from the contribution on purpose, as flexibility.
 - **Counting the half kept and the excess,** the FINAL leaves Laura more in total than the benchmark in 62.8% of house paths: median $145,687 against $140,649. In its 1-in-20 low it has about the same ($113,449 against $113,169).
-- **An all-Treasury plan with the same flexibility** holds back the FINAL's median half kept ($20,739) and pays $120,023, stated $110,000 with certainty: $5,000 under the FINAL's central stated top, because the moved half's cut (2.87%) is smaller than the floor's (4.31%).
+- **An all-Treasury plan with the same flexibility** holds back the FINAL's median half kept ($20,739) and pays $120,023, stated $110,000 with certainty: $5,000 under the FINAL's central stated top, because the moved half's cut (2.98%) is smaller than the floor's (4.65%).
 - **What VT adds** is a share of world growth for the top and for the half kept, at the cost of a lower certain bottom. Keel's reading: VT costs the contribution little at the median, and it is what lets half the growth stay unpromised. The report should say so plainly, not claim that VT makes the gift bigger.
 
 ## 5. A smaller or missed 2028 deposit (CASE_MAP C6). MODEL
@@ -459,7 +488,7 @@ deposit, yields lower by the fall before 1 Jan 2027 and then at that curve's for
 
 | Old figure | Where it came from | Now |
 |---|---|---|
-| Range $145k-$168k, $145k-$170k, top reached "about three times in four" | October numbers on older designs | Section 4: stated range $95,000 to $115,000 central (unrounded $98,729 to $118,443). After the 2031 move the stated ends are owned; what is uncertain is which range she can announce |
+| Range $145k-$168k, $145k-$170k, top reached "about three times in four" | October numbers on older designs | Section 4: stated range $95,000 to $115,000 central (unrounded $98,380 to $118,072 since Sun 15 Nov evening). After the 2031 move the stated ends are owned; what is uncertain is which range she can announce |
 | About $21,000 short if yields fall 2 points for good | Old design, 23 Oct curve | $23,509 for the ladder as written; $0 on the escrow standard |
 | "All ten paid in full in about 75-76% of base futures" | Old runs, H8 (model futures) | 44% of historical windows as written; all 585 on the escrow standard (history replay, not model futures) |
 | All-Treasury plan about $191,000 | 4 Nov curve, `ips_rewrite/final_night/IDEA_LIST_MATHS.md` | $140,761, stated $130,000 (section 4). The Mon 9 Nov $158,157 (with margin) and $185,987 (without) are void too |
@@ -489,7 +518,7 @@ deposit, yields lower by the fall before 1 Jan 2027 and then at that curve's for
 | Deletion test: the gift would be the floor alone, $115,929 | Section 4 | Stated $95,000, contribution $95,000, excess $8,178 |
 | VT $33,515 against the floor's expected interest $23,919; $115,929 returned on $125,525 | Section 4 | $29,829 against $21,289; $103,178 on $111,718 |
 | Overflow "about $27,990" / $27,939 in Jan 2033 money; each rung $1,705 (2033) to $5,266 (2041) above $50,000, $36,859 in all | Sections 4 and 8h | Each own rung pays exactly $50,000 at forwards ($0 above); the backstop's $74,123 by 1 Jan 2042 ($45,456 in 2033 money, $34,345 in 2027 money), or $58,603 released year by year (8h) |
-| All-Treasury $158,157 certain; FINAL's top below it in 98%; more in total in 63%; median $164k against $158k; 1-in-20 $128k against $127k; "about $134k" with the same flexibility | Section 4 (C8) | $140,761 (stated $130,000); 97.6% (95.0% on stated figures); 62.8%; $145,687 against $140,649; $113,449 against $113,169; $120,023, stated $110,000 |
+| All-Treasury $158,157 certain; FINAL's top below it in 98%; more in total in 63%; median $164k against $158k; 1-in-20 $128k against $127k; "about $134k" with the same flexibility | Section 4 (C8) | $140,761 (stated $130,000); 97.6% (94.8% on stated figures since Sun 15 Nov evening); 62.8%; $145,687 against $140,649; $113,449 against $113,169; $120,023, stated $110,000 |
 | Deposit needed with Keel's margin $24,500 / $40,400 / $56,900 / $92,000; floors about $81k / $47k / $12k for $112,500 / $75,000 / $37,500 | Section 5 | $38,282 / $51,541 / $65,437 / $95,316; floor payouts $70,875 / $46,263 / $0 (section 5) |
 | "A margin sized for them protects the whole ladder" | 8a | The backstop pays what interest would have, up to every payment's full $50,000 at 0% after the ETF fee (8a) |
 | 8b's "with Keel's margin" column blank on 7 and 8 Oct | 8b | Filled ($310,138, $312,024); the escrow column added |
@@ -523,7 +552,7 @@ deposit, yields lower by the fall before 1 Jan 2027 and then at that curve's for
 | A top stated before the move not owned in 7.2% / 10.8% / 13.1% / 14.6%; gaps $1,933 / $3,139 / $4,208 / $5,540 | Section 4 | 2.9% / 6.3% / 8.7% / 10.7%; $1,756 / $2,925 / $3,986 / $5,289 |
 | The morning's Exhibit 3 rows (from $116,328 / $12,932 to $107,566 / $6,808) | Section 4 | Section 4 table |
 | Rounding: $271 and $307 short of the next step; floor payout $104,314 to state $100,000; real coupon $100,023 (stated $100,000) and $119,989; "the house median stated top is $120,000" | Section 4 | $1,271 and $1,557; $104,507; $99,023 and $118,747, stated $95,000 and $115,000; house median $115,000 |
-| All-Treasury $141,926 certain, stated $135,000 ($136,056), house $114,370 / $141,812 / $170,820; 95.3%; $147,037 against $141,812; $115,074 against $114,370; $120,534, stated $115,000 "equal to the FINAL's central top" | Section 4 (C8) | $140,761, stated $130,000 ($134,691), house $113,169 / $140,649 / $169,686; 95.0%; $145,687 against $140,649; $113,449 against $113,169; $120,023, stated $110,000 |
+| All-Treasury $141,926 certain, stated $135,000 ($136,056), house $114,370 / $141,812 / $170,820; 95.3%; $147,037 against $141,812; $115,074 against $114,370; $120,534, stated $115,000 "equal to the FINAL's central top" | Section 4 (C8) | $140,761, stated $130,000 ($134,215 since Sun 15 Nov evening), house $113,169 / $140,649 / $169,686; 94.8%; $145,687 against $140,649; $113,449 against $113,169; $120,023, stated $110,000 |
 | Section 5: $37,358 / $43,900 / $50,594 / $64,469 / $94,301; 75.1% / 70.7% / 66.3% / 57.0% / 37.1%; 3.63 points; 22% / 50% / 79% and $42,712 / $27,100 / $11,487; floors $69,398 / $34,765 / $131, stated $65,000 / $30,000 / $0; after a 1-point fall $75,238, stated $70,000 | Section 5 | Section 5 |
 | 8a: backstop money due $9,098, $1,516 ... $7,376 ($54,595 in all); carries $6,510 / $4,847 / $2,606; $1,517 of 2027 flows; "from 2037 the match is exact" | 8a | 8a |
 | 8b escrow column ($349,317 on 2 Jan ... $335,771 on 6 Nov; cheapest $324,402) | 8b | 8b |
@@ -533,6 +562,24 @@ deposit, yields lower by the fall before 1 Jan 2027 and then at that curve's for
 | **Voided Tue 10 Nov evening (8j):** | | |
 | Taiwan dollar test, half kept alone: 90.9% of house paths (median gap $1,583; 8.8% covered 19 in 20), history 96.5%, joint 97.4%; stricter reading 85.7% / 94.9% / 93.8%; real currency 97.1% (worst $8,942) | `twd_test` in this afternoon's `results_joint_stress_2026-11-10.json` (never in the register; quoted in the evening brief). It divided by what the funds pay before the cap | 8j, on the contribution after the cap: 93.2% ($1,407; 9.4%), 96.9%, 99.3%; stricter 89.1% / 96.0% / 97.3%; real currency 98.1% (worst $7,312). The 99.77% with the excess stands |
 | Mon 9 Nov's Taiwan dollar test: 93.0%, "1 in 14", $1,590, 99.97% with the cap rule, real currency 97.1% (worst $10,048), and the gift in NT$ ($138,735 = NT$4.55m) | Card Q24 verdict 3, rows 22-25, card 4 | 8j (section 10 lists the lines) |
+| **Voided Sun 15 Nov evening (the fund fee charged from each trade day, H1; distributions wait at the ETF's fee, M3):** | | |
+| What $1 pays at zero interest 1.211695 (floor) and 1.071332 (moved half); the rule's cut 4.312% / 4.31% and 2.870% / 2.87%; before the haircut 3.83% and 2.38%; the cut table's two holdings rows (1.75% ... 6.91%; 1.37% ... 4.35%) | Section 3; `completion.zero_per_dollar` before tonight (kept as `zero_per_dollar_before_15nov`) | 1.207415 and 1.070113; 4.650% and 2.981%; 4.17% and 2.49%; section 3's table |
+| Unrounded central range $98,729 to $118,443; floor zero-interest value $99,225, both funds' $119,039; margins $4,225 and $4,039; "$1,271 and $1,557 under the next step"; a floor payout of $104,507 to state $100,000; on 3.50% coupons $99,023 and $118,747 | Sections 3, 4, 7, 8i, 8l | $98,380 to $118,072; $98,874 and $118,666; $3,874 and $3,666; $1,620 and $1,928; $104,877; $98,679 and $118,381 |
+| House bottom / top before rounding $85,359 / $98,653 / $117,614 and $97,932 / $118,921 / $144,548; history top $111,942 / $119,740 / $131,333; excess $4,340 / $7,629 / $11,218 (house) and $5,322 / $7,524 / $9,846 (history); half kept plus excess $16,193 / $28,541 / $49,924 and $20,019 / $30,902 / $48,399 | Section 4, 8f, 8j, 8o | Section 4 (the stated 1-in-20, median and 1-in-20 points did not move) |
+| Odds of stating at least ...: bottom 79.9% / 62.9% / 45.2% / 15.9% / 3.3%; top 99.4% / 92.6% / 73.6% / 60.8% / 47.0% / 22.8% / 8.5% / 2.5% | Section 4 | Bottom 78.7% / 61.8% / 44.0% / 15.1% / 3.0%; top 99.3% / 92.2% / 72.7% / 59.8% / 46.0% / 22.1% / 8.1% / 2.4% |
+| The test table: less 0.75% 5.0% / 6.0% ($339 / $429), history 6.3% ($312), joint 22 / 34 ($281 / $312); less 1% 10.1% / 12.0% ($678 / $881), 13.1% ($626), 47 / 72 ($570 / $664); par stand-in 1.8% / 1.3% ($1,969 / $2,470), joint 18 / 25 | Section 3 | Section 3's table |
+| Fixed 4.1% too small above +0.31 points (37.4% of paths); fixed figures miss in 5.9% / 5.2% (median $517, 1-in-20 $1,903, worst $6,416); the 2031 re-measure variant above the holdings in 11% | Section 3 | Below -0.08 points only (fails in 53.4%); 9.6% / 8.5% ($580, $2,083, $6,993); 18% |
+| No-margin stated range $130,000 to $155,000 (bottom $130,449); Mon 9 Nov call unrounded $110,930 to $133,081; VT columns' tops $116,580 ... $119,851, "$149 short of $120,000" | Section 4 | $125,000 to $155,000 ($129,988); $110,538 to $132,664; $116,211 ... $119,478, "$522 short" |
+| Stated before the move: 6.3% at 3 months; 1-in-20 gaps $1,756 / $2,925 / $3,986 / $5,289 | Section 4 | 6.2%; $1,745 / $2,952 / $3,988 / $5,263 |
+| All-Treasury stated $134,691; 95.0% | Section 4 (C8), 8n | $134,215; 94.8% |
+| 8i: rates 3 points lower, bottom $80,000 ($80,020), zero-interest floor $80,422, top $96,172; Jul 2007 $81,527 / $96,589; Jun 2006 $97,501 / $108,859; inflation $103,862 / $120,774, floor $104,384, shares -20% top $117,392; zero-interest margins $458 and $532 | 8i, 8l, card N-04 | **Rates 3 points lower, bottom $75,000** ($79,735; floor $80,136; top $95,869); $81,237 / $96,282; $97,157 / $108,501; $103,496 / $120,389, $104,016, $117,010; $472 and $541 |
+| 8j: 93.2% (13,618; $1,407 / $4,553), 96.9% (54; $1,795 / $4,860), stricter 89.1% / 96.0% / 97.3%; with the excess 99.77% (467, "1 in 430"; $1,280 / $6,083), 15.6%, 17.5%, 17.6%, 99.56%; overrun rows 79.7% / 54.9% ... 98.7% / 91.0%; real currency worst $7,312, with the excess 99.8% (Nov 1983 $1,755 short); "+0.09, close to none" | 8j, 8o, top note of Tue 10 Nov evening | 8j: 93.3% (13,430), 97.1% (51), 89.2% / 96.0% / 97.4%; 99.80% (392, "1 in 510"), 16.0%, 18.0%, 17.7%, 99.64%; overruns 79.9% / 55.2% ... 98.9% / 92.2%; worst $5,844; 100% with the excess; the correlation is two opposite periods (card Q10e) |
+| 8k joint: excess $3,526 / $7,698 / $13,196; total $40,404 / $78,584 / $120,375; 1-in-100 $33,607 | 8k, 8n, 8o | $3,839 / $8,066 / $13,609; $40,755 / $78,759 / $121,156; $34,137 |
+| 8l: 254 one-figure paths (0.127%, "1 in 790"); 3,040 and 13 five-thousand-wide; at 0.75% 11,984 / 112 / 34 and 1 path $211 below; at 1% 5 paths up to $425; smallest margins $405 / $430 (house), $4,225 / $533 (history), $458 / $532 (joint); "the stricter reading" $349 / $370 and 0.43% | 8l | 247 (0.124%, "1 in 810"); 3,032 and 15; 12,012 / 119 / 31 and 3 paths up to $182; 4 up to $383; $405 / $421, $3,874 / $581, $472 / $541; the waiting fee is now the rule (at face: $461 / $477, about 0.55%-0.58%) |
+| 8o: the 70% and 30% columns' unrounded tops $126,329 and $110,557, their TWD and overrun shares, one-figure 254 / 144 / 882; frontier steps at 28.6%, 41.3%, 53.9% and $35,272 / $30,006 / $24,740 | 8o | 8o (the stated figures and the trade, about $5,300 per $5,000, hold) |
+| 8p: breakevens +2.5% (0.84% a year), 29.0%, 60.5%, 92.0%, +34.0%; 26.8% of futures; the house panel's tops $113,438 ... $119,280; the group's bottom "$85,000 as in all futures"; 3-point recession top $107,846 | 8p (this morning) | +4.8% (1.6% a year), 26.7%, 58.2%, 89.8%, +36.4%; 29.2%; $113,072 ... $118,908; $80,000 at the group's 1-in-20; $107,487 |
+| 8f, 8h: "unlinked to shares (+0.09, 8j)"; "the three ... read at the source", IBTA's date from a secondary site, "10 to 14 days" for all, notice "in mid-October" | 8f, 8h; Fri 13 Nov (card Q3a) | Cards Q10e and Q3c: two opposite periods; all five read at source, IBTA paid 29 days before 1 January, notices September to October |
+| IBTM tail bought for $2,280, $108 left | Section 7, 8a | $2,286 at net asset value, $102 left |
 
 ## 7. Limits of these numbers
 - **The reinvestment history** uses 1-year yields in proportion. That is harsh on windows starting at high rates, and it is only 585 overlapping windows, roughly four independent rate eras. A design that passes at 0% passes it anyway.
@@ -543,15 +590,15 @@ deposit, yields lower by the fall before 1 Jan 2027 and then at that curve's for
 - **The fund coupons** are modelled at par yields (IBTM 4.25%), above IBTM's real 3.50%:
   - **reinvestment:** a little overstated;
   - **the backstop:** a lower-coupon fund pays more at 0% per dollar, so the model is cautious;
-  - **the range rule:** cautious at today's yields and at every shift tested (section 3: 3.50% and 4.00% coupons pay more at zero interest). Real holdings drift; the rule is worked out on the trade day's holdings, and the 0.5% cut covers frictions up to 0.5% of value.
+  - **the range rule:** cautious at today's yields and at every shift tested (section 3: 3.50% and 4.00% coupons pay more at zero interest). Real holdings drift; the rule is worked out on the trade day's holdings, the fund fee from the trade day and the waiting ETF's fee are inside the zero-interest value, and the 0.5% cut covers other costs up to 0.5% of value.
 - **The backstop's size** is fixed by the fee-cushioned 0% test on the rungs bought in January 2027, so it depends on yields before then. The model takes that from a grid of re-sized ladders 0.25 points apart and prices the backstop on each path's January 2028 curve.
 - **The fee on waiting money** is modelled as 0.15% a year on every waiting dollar, including the cash inside the iBond funds in their last months (conservative: the fund's own fee is already counted). A Treasury-bill ETF's real fee is UNVERIFIED until a student checks the WInS listing; at 0.20% a year the cushion would need about a third more (an estimate scaled from the bond desk's figures, not a run).
-- **The IBTM tail.** The $2,287 still unbought in January 2027 misses its 2027 distributions ($97). The $2,388 set aside for it buys it for $2,280 in January 2028, and the $108 left goes into the waiting cash (8a).
+- **The IBTM tail.** The $2,287 still unbought in January 2027 misses its 2027 distributions ($97). The $2,388 set aside for it buys it for $2,286 in January 2028 at net asset value (Sun 15 Nov evening; $2,280 before, priced at the value of its after-fee flows), and the $102 left goes into the waiting cash (8a).
 - **Not modelled.**
   - Bond lots: the backstop's face amounts ($5,603 and so on) are not rounded to tradable lots.
   - Which Treasury-bill ETF: UNVERIFIED (section 0).
 - **The escrow release** in 8h is Keel's reading, not in the IPS. Without it, the backstop's money simply waits and is Laura's after the last payment.
-- **Rounding to $5,000** sits close to a step at the centre (section 4). The central ends are $1,271 and $1,557 below the next $5,000.
+- **Rounding to $5,000** sits close to a step at the centre (section 4). The central ends are $1,620 and $1,928 below the next $5,000, and $3,380 and $3,072 above their own (Sun 15 Nov evening; were $1,271 and $1,557 below).
 - **Fund holdings data** comes from one day's iShares figures. Holdings and cash-wait months will drift.
 - **"Most"** is Keel's reading (section 4). The IPS gives no figure; the 73.3% comes from the frozen WInS book.
 - **No market quotes on 6 Nov.** Everything is priced on the curve.
@@ -580,7 +627,7 @@ and what the backstop pays towards that payment, at 0% and with the ETF fee on e
 - **Two columns do not price the funds' last months the same way.** The "3 points lower" and "earns nothing" columns leave each fund's final months of cash at forward rates; the two test columns, and 8h, let that cash follow the world. The T-bond rows agree. Figure 1 uses 8h.
 - **How the 2033 money flows.** At 0% the backstop's money for 2033 is $9,339: its flows to the end of 2032, including $1,557 that its holdings would have paid in 2027, which the 2028 deposit puts into the ETF as cash when it buys them. That is more than the 2033 gap ($2,587). The rest carries forward in the ETF: $6,752 after 2033, $5,128 after 2034, $2,928 after 2035. From 2036 a little is left each year ($449, rising to $1,414 after 2042): the fee cushion, spare at 0%.
 - **With the ETF fee the match is exact.** The carry is $6,636, $4,912 and $2,601 after 2033-2035, then nothing, and nothing is left after 2042.
-- **The IBTM tail.** The $2,287 of IBTM still unbought in January 2027 misses its 2027 distributions ($97), which both tests count. The $2,388 the completion sets aside for it buys it for $2,280 in January 2028; the $108 left goes into the waiting cash with the backstop's $1,557 and covers the $97.
+- **The IBTM tail.** The $2,287 of IBTM still unbought in January 2027 misses its 2027 distributions ($97), which both tests count. The $2,388 the completion sets aside for it buys it for $2,286 in January 2028 at net asset value ($2,280 before Sun 15 Nov evening, priced at the value of its after-fee flows); the $102 left goes into the waiting cash with the backstop's $1,557 and covers the $97.
 - The later the payment, the more of it is interest earned on interest: 3% of the 2033 payment, about 15% of the 2041 and 2042 payments. The risk sits in the last five, the T-bonds, which is why most of the backstop is extra face in them.
 
 **Flat break-even.** Bought at today's prices with no completion standard, the ladder pays all ten only if every coupon earns at least
@@ -692,7 +739,7 @@ ten otherwise. Before this September it had happened on a single day since June 
 this engine with dates attached: 5 Oct 2026 was the cheapest the payments had been since May 2002 (28 Sep: since June
 2002). The older line "on no day since 2008" was one day wrong (19 Oct 2023).
 
-### 8f. How small the half kept gets in the years shares fall (`numbers/kept_half.py`, `numbers/results_kept_half_2026-11-10.json`)
+### 8f. How small the half kept gets in the years shares fall (`numbers/kept_half.py`, `numbers/results_kept_half_2026-11-15.json`; the half kept is unchanged since Tue 10 Nov, the excess rows re-run Sun 15 Nov evening)
 Same engine, escrow standard with the fee cushion, range rule on the holdings, Keel's reading of "most", house paths and history windows as section 4.
 - **The half kept** is half of the VT bought in January 2028 (about $14,914 at cost centrally), grown to 1 Jan 2033. Where "most" binds, VT is smaller and so is its half (section 4).
 - **The excess** is what the floor and the moved half pay above the stated top; under the cap it joins the half kept.
@@ -710,18 +757,18 @@ Same engine, escrow standard with the fee cushion, range rule on the holdings, K
 | Half kept under $15,000 / under $10,000 | 22.7% / 5.2% of paths | 11.1% / 2.2% of windows |
 | Lowest window | | $5,779 (start September 1929) |
 | Named starts | | 1973: $13,832; March 2000: $13,289; October 2007: $15,508 |
-| **Half kept plus excess:** 1-in-100 / 1-in-20 / median / 1-in-20 high | $12,027 / $16,193 / $28,541 / $49,924 | $15,231 / $20,019 / $30,902 / $48,399 |
-| Half kept plus excess, median, if shares fell over 2031-2033 | $23,201 | $23,987 |
-| Half kept plus excess, median, if VT ends below its 2028 cost | $19,508 | $20,218 |
-| Half kept plus excess under $15,000 / under $10,000 | 3.3% / 0.4% of paths | 0.8% / 0% of windows |
+| **Half kept plus excess:** 1-in-100 / 1-in-20 / median / 1-in-20 high | $12,313 / $16,508 / $28,918 / $50,348 | $15,434 / $20,469 / $31,314 / $49,217 |
+| Half kept plus excess, median, if shares fell over 2031-2033 | $23,576 | $24,320 |
+| Half kept plus excess, median, if VT ends below its 2028 cost | $19,867 | $20,803 |
+| Half kept plus excess under $15,000 / under $10,000 | 3.0% / 0.3% of paths | 0.7% / 0% of windows |
 | Half kept plus excess, named starts | | September 1929: $14,259; 1973: $22,036; March 2000: $21,478; October 2007: $22,037 |
 
 What it shows:
 - **The risk the morning research flagged is real and has a size.** In the years shares fall, when the IPS expects co-sponsors to cut, the half kept is about a third smaller than when they rise (median about $15,400 against $23,300). In a fall of more than a fifth it is about $13,000.
 - **It does not vanish.** Even from September 1929 it is about $5,800, and from every other bad start named above it is close to what was put in. The house model's lowest 1 in 100 ($6,670) is lower than history's, because there "most" has also squeezed VT.
-- **The cap adds a second cushion that does not move with shares.** The excess is Treasury money, so the half kept plus the excess has a median of about $23,200 even in the years shares fall, and is under $15,000 in about 3% of house paths.
+- **The cap adds a second cushion that does not move with shares.** The excess is Treasury money, so the half kept plus the excess has a median of about $23,600 even in the years shares fall, and is under $15,000 in about 3% of house paths.
 - **The 2031 range itself does not move,** because the floor and the moved half are Treasuries by then.
-- **The honest line:** the half kept is a cushion whose size moves with the markets. That is a cost of keeping flexibility in shares rather than in Treasuries (section 4, the all-Treasury benchmark). Narrowed Sat 14 Nov (card Q5e): it is smallest when two of its uses may grow, co-sponsors in a slump and building costs in an inflationary fall (1974, 2022), but not for a stronger Taiwan dollar, whose two-year move is unlinked to shares (+0.09, 8j). The uses take turns; never "a natural hedge", and never "smallest in the years it is most likely to be needed" for all three.
+- **The honest line:** the half kept is a cushion whose size moves with the markets. That is a cost of keeping flexibility in shares rather than in Treasuries (section 4, the all-Treasury benchmark). Narrowed Sat 14 Nov (card Q5e): it is smallest when two of its uses may grow, co-sponsors in a slump and building costs in an inflationary fall (1974, 2022), but not for a stronger Taiwan dollar. Corrected Sun 15 Nov (card Q10e): the Taiwan dollar's two-year move is not unlinked to shares. 8j's +0.09 averages two opposite periods: against US stocks, -0.39 for windows ending by Dec 2000 and +0.32 since 2001; against world shares, +0.42 since 2001. Since 2001 a stronger Taiwan dollar has come with rising shares, so the half kept has tended to be large in those years; the exception is a Taiwan-dollar rebound in the two years after a crash (Mar 2009 to Mar 2011). The uses take turns; never "a natural hedge", and never "smallest in the years it is most likely to be needed" for all three.
 
 ### 8g. The holdings table Wharton asks for in Section 2, at cost on the original $300,000 (Mon 9 Nov, evening)
 Wharton's instructions (`WHARTON_NORTH_STAR.md` section 0): every holding of the final WInS portfolio, with ticker or
@@ -778,7 +825,7 @@ so these are the final holdings. Not a model.
   late-2032 floor stand-in inside IBTM, and VT), not her January 2027 purchase alone. Section 2's text explains this
   once; the evidence is in `CANON.md` and the 23 Oct snapshot's "Pays for" column.
 
-### 8h. The operating reserve from 1 Jan 2033 (`numbers/reserve.py`, `numbers/results_reserve_2026-11-10.json`)
+### 8h. The operating reserve from 1 Jan 2033 (`numbers/reserve.py`, `numbers/results_reserve_2026-11-10.json`; re-run Sun 15 Nov evening as `results_reserve_2026-11-15.json`, every figure identical)
 The IPS: "From 2033 the Treasuries are the operating reserve." These are the ten own rungs plus the backstop (Keel's call,
 section 2: cost $336,656 in 1 Jan 2027 money, of which the backstop is $34,369), plus money waiting in the Treasury-bill
 ETF: the backstop's, and IBTM's payout of 15 Dec 2032 for the first payment.
@@ -861,9 +908,11 @@ pays the next business day. Neither changes a figure here materially.
 | 2041 | 4.250% Nov 2040 | Thu 15 Nov 2040 | Thu 15 Nov 2040 | 47 (1.5 months) |
 | 2042 | 3.125% Nov 2041 | Fri 15 Nov 2041 | Fri 15 Nov 2041 | 47 (1.5 months) |
 
-- **Funds:** the three iBond Treasury funds whose payouts were read at the source (Dec 2023, 2024 and 2025; five have ended,
-  8h below) paid holders 3 to 7 days after their end, 18 to 22 December
-  (card Q16 row 6). The ranges are card Q2b's (card 5), the same ones Table 3's row 4 counts business days from; IBTQ's
+- **Funds:** all five ended iBond Treasury funds have now been read at the source (card Q3c, Sun 15 Nov; corrected from
+  "the three ... read at the source"). Four paid holders 3 to 7 days after their last trade, 18 to 22 December, 10 to 14
+  days before 1 January (IBTB: last trade 15 Dec 2022, cash 21 Dec). IBTA ended early: its prospectus said "on or about
+  December 15, 2021", it last traded on 30 Nov 2021 and paid on 3 Dec 2021, 29 days before 1 January, after a notice
+  filed on 28 Sep 2021 (EDGAR). So cash came before 1 January every time, never after (card Q16 row 6; Q3c rows 7, 8, 10). The ranges are card Q2b's (card 5), the same ones Table 3's row 4 counts business days from; IBTQ's
   end is taken as Mon 17 Dec 2035. Figure 1's bars end on the last date of each range.
 - **Bonds:** a payment due on a weekend or federal holiday is made the next business day (card Q16 row 12); 16 Feb 2037
   is Presidents' Day. The Trading Notes' "10.5 months" for the Feb-2037 bond counts from 15 Feb (10.4 from the cash);
@@ -924,10 +973,10 @@ The backstop's cost carried to 1 Jan 2033 at forwards is $45,487; its value ther
   - The escrow standard covers these even if every wait earns nothing and pays the ETF's fee: the design test assumes exactly that.
   - A Treasury payment due on a weekend or holiday is made the next business day (the Feb-2037 bond pays on Tue 17 Feb 2037), which changes none of these figures materially.
 - **The funds' payouts in practice** (Q16).
-  - Five iBonds Treasury funds have already ended (Dec 2021 to Dec 2025; card Q3a, Fri 13 Nov: IBTB's Dec 2022 end read at the source, IBTA's Dec 2021 date from a secondary site, so say "five" only with that caveat and "three, read at the source" otherwise); the three of Dec 2023, 2024 and 2025 each paid its net asset value to holders 10 to 14 days before 1 January, with notice in mid-October.
+  - Five iBonds Treasury funds have already ended (Dec 2021 to Dec 2025), and all five were read at the source (card Q3c, Sun 15 Nov; this replaces Fri 13 Nov's "three, read at the source" and IBTA's secondary date). Each paid its net asset value in cash before 1 January: 29 (IBTA), 11 (IBTB), 10, 13 and 14 days before. "10 to 14 days" holds for four of five; IBTA ended early and paid 29 days before, with notice filed on 28 Sep 2021, so the notices came in September to October, not only mid-October. All five paid within 0.066% of their last market price, and every one trailed its index by less than its fee over its life.
   - The 2026 prospectus says money from bonds maturing in a fund's last months is typically reinvested in its remaining notes, so section 3's "earns nothing" case is a stress test, not the expected case.
 
-### 8i. The scenario matrix for Exhibit 3 (`numbers/joint_stress.py`, `numbers/results_joint_stress_2026-11-10.json`)
+### 8i. The scenario matrix for Exhibit 3 (`numbers/joint_stress.py`, `numbers/results_joint_stress_2026-11-15.json`; range columns re-run Sun 15 Nov evening with the fee charged from each trade day, every other column unchanged)
 Added Tue 10 Nov; re-run in the afternoon. This is the plan under the escrow standard (with the fee cushion), the range rule on the fund's holdings and Keel's reading of "most", in five worlds; rates and shares move together where history moved them together. MODEL.
 - **Stated ends** are rounded down to $5,000, with the unrounded value in brackets.
 - **"Funds pay"** is what the floor and the moved half actually pay along that world's path, their final months included.
@@ -937,18 +986,18 @@ Added Tue 10 Nov; re-run in the afternoon. This is the plan under the escrow sta
 
 | World | Ten payments | Stated bottom | Stated top | Funds pay | Contribution | Excess | Half kept, 1 Jan 2033 | Half kept plus excess | Left after 2042 (1 Jan 2033 money; nominal) | Completion, Jan 2028 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Today's forwards; shares 7.5% a year | All paid | $95,000 ($98,729) | $115,000 ($118,443) | $123,476 | $115,000 | $8,476 | $21,347 | $29,823 | $45,456 ($74,123) | $38,282 |
-| Rates 3 points lower for good from Jan 2027; shares 7.5% ("most" binds) | All paid | $80,000 ($80,020) | $95,000 ($96,172) | $97,822 | $95,000 | $2,822 | $18,264 | $21,086 | $20,606 ($25,651) | $49,478 |
-| Joint replay from Jul 2007 (rates fall towards zero; VT bought Jul 2008; "most" binds) | All paid | $80,000 ($81,527) | $95,000 ($96,589) | $97,117 | $95,000 | $2,117 | $19,793 | $21,910 | $11,705 ($11,846) | $48,214 |
-| Joint replay from Jun 2006 (VT bought Jun 2007, near the 2007 peak) | All paid | $95,000 ($97,501) | $105,000 ($108,859) | $110,053 | $105,000 | $5,053 | $14,423 | $19,476 | $18,775 ($19,114) | $38,881 |
-| Inflation world: yields 3 points higher by 2031, shares flat 2028-2033, prices up 5% a year | All paid | $100,000 ($103,862) | $120,000 ($120,774) | $128,467 | $120,000 | $8,467 | $15,175 | $23,641 | $58,861 ($125,731) | $35,990 |
+| Today's forwards; shares 7.5% a year | All paid | $95,000 ($98,380) | $115,000 ($118,072) | $123,476 | $115,000 | $8,476 | $21,347 | $29,823 | $45,456 ($74,123) | $38,282 |
+| Rates 3 points lower for good from Jan 2027; shares 7.5% ("most" binds) | All paid | **$75,000 ($79,735; $80,000 before Sun 15 Nov)** | $95,000 ($95,869) | $97,822 | $95,000 | $2,822 | $18,264 | $21,086 | $20,606 ($25,651) | $49,478 |
+| Joint replay from Jul 2007 (rates fall towards zero; VT bought Jul 2008; "most" binds) | All paid | $80,000 ($81,237) | $95,000 ($96,282) | $97,117 | $95,000 | $2,117 | $19,793 | $21,910 | $11,705 ($11,846) | $48,214 |
+| Joint replay from Jun 2006 (VT bought Jun 2007, near the 2007 peak) | All paid | $95,000 ($97,157) | $105,000 ($108,501) | $110,053 | $105,000 | $5,053 | $14,423 | $19,476 | $18,775 ($19,114) | $38,881 |
+| Inflation world: yields 3 points higher by 2031, shares flat 2028-2033, prices up 5% a year | All paid | $100,000 ($103,496) | $120,000 ($120,389) | $128,467 | $120,000 | $8,467 | $15,175 | $23,641 | $58,861 ($125,731) | $35,990 |
 
 - **The ten are paid in every world.** The worlds differ only in what is left for the building and for Laura.
 - **Each stated end is owned in each world.**
-  - Rates 3 points lower: "most" sets the floor money at $75,001 (VT $25,521, $1,318 less than 73.3% would give). The floor's zero-interest payout from its trade day is $80,422 against the stated $80,000, and it actually pays $81,445. This replaces this morning's row, where the floor's zero-interest payout was $79,864 against a stated $80,000.
+  - Rates 3 points lower: "most" sets the floor money at $75,001 (VT $25,521, $1,318 less than 73.3% would give). With the fee charged from the trade day the floor's zero-interest payout is $80,136; less 0.5% it is $79,735, so the stated bottom is $75,000 (Sun 15 Nov evening; before, $80,422 and a stated $80,000 with $20 to spare). It actually pays $81,445. The top stays $95,000 ($95,869), so the contribution, excess and half kept do not move. Tue 10 Nov morning's row (zero-interest payout $79,864 against a stated $80,000) stays void.
   - Jul 2007: floor money $75,001; the floor actually pays $81,984 against the stated $80,000.
-  - Inflation world: the floor's zero-interest payout is $104,384 and it actually pays $110,786, against the stated $100,000.
-- **The inflation world's contribution buys less.** It is $120,000, worth $89,546 in 1 Jan 2027 dollars at 5% a year. With shares down 20% over 2028-2031 as well (1973-74 style), the top is $115,000 ($117,392) and the half kept $12,140.
+  - Inflation world: the floor's zero-interest payout is $104,016 and it actually pays $110,786, against the stated $100,000.
+- **The inflation world's contribution buys less.** It is $120,000, worth $89,546 in 1 Jan 2027 dollars at 5% a year. With shares down 20% over 2028-2031 as well (1973-74 style), the top is $115,000 ($117,010) and the half kept $12,140.
 - **Money left after 2042 depends on which rates convert it.** At today's forwards the rates-3-lower world's $25,651 would read $15,730 and the inflation world's $125,731 would read $77,104; at their own rates they are $20,606 and $58,861.
 - **Every one of the 585 joint windows (Jan 1962 to Sep 2010 starts):**
 
@@ -961,13 +1010,13 @@ Added Tue 10 Nov; re-run in the afternoon. This is the plan under the escrow sta
   | Completion, January 2028 | $29,995 | $38,397 | $47,706 |
 
   - The ten are paid in full in every window.
-  - The floor never paid less than the stated bottom (smallest margin $1,262), and the funds always paid at least the stated top (smallest margin $934). Measured at zero interest from each trade day, the smallest margins are $458 and $532.
+  - The floor never paid less than the stated bottom (smallest margin $1,262), and the funds always paid at least the stated top (smallest margin $934). Measured at zero interest from each trade day, with the fee charged from that day, the smallest margins are $472 and $541 (Tue 10 Nov: $458 and $532; the stated ends fell by more than the zero-interest values in those windows).
   - "Most" binds in 30 windows (section 4).
   - The lowest stated bottom was $75,000 (starts including Nov 2000, Apr 2007 and Jan 2008); the lowest stated top $90,000 (starts including Oct 2000, Apr 2007 and Jan 2008).
 - **Other named windows:** Jan 2000, $90,000 to $100,000; Jan 2008, $75,000 to $90,000 (completion $55,006, "most" binds); Jan 1973, $105,000 to $125,000.
 - **Two figures for the Jul 2007 window.** `range_rule.py` gives $98,386 for what the funds pay there, against $97,117 here. There, the funds' final months follow today's forwards; here, they follow the window's own rates. Exhibit 3 uses this table.
 
-### 8j. The Taiwan dollar test on the Tue 10 Nov register (`numbers/joint_stress.py`, block `twd_test` of `numbers/results_joint_stress_2026-11-10.json`). MODEL
+### 8j. The Taiwan dollar test on the Tue 10 Nov register (`numbers/joint_stress.py`, block `twd_test` of `numbers/results_joint_stress_2026-11-15.json`, re-run Sun 15 Nov evening with the fee charged from each trade day). MODEL
 Added Tue 10 Nov evening. Design H_plain with the fee cushion, the range rule on the fund's holdings, Keel's reading of
 "most" (sections 2 to 4). It replaces card Q24's Mon 9 Nov test (verdict 3), whose figures are void (section 10).
 - **The question** (bond desk, card Q24 claim 3). The contribution is fixed in US dollars at the 2031 meetings and is
@@ -978,7 +1027,7 @@ Added Tue 10 Nov evening. Design H_plain with the fee cushion, the range rule on
   window the funds pay at least the stated top, so the contribution equals the stated top: $115,000 centrally; house
   $95,000 / $115,000 / $140,000. It is never what the funds pay before the cap ($123,476 centrally).
   - This afternoon's JSON divided the half kept by what the funds pay before the cap. That gave the 90.9% the evening
-    brief quoted; on the contribution it is 93.2%. Its 99.77% with the excess was already on the contribution.
+    brief quoted; on the contribution it was 93.2% (93.3% since Sun 15 Nov evening). Its 99.77% with the excess (now 99.80%) was already on the contribution.
 - **"10% stronger"** means 10% more US dollars for the same NT$ budget, 8d's convention (NT$ per US$ from 32.768 to
   32.768 / 1.10 = 29.79). The stricter reading, NT$ per US$ down 10% (to 29.49), needs 11.1% more and is shown beside it.
 - **Two pots.** The half kept alone (VT's market value on 1 Jan 2033, MODEL). And the half kept plus the excess the cap sends to it (paid on
@@ -987,18 +1036,18 @@ Added Tue 10 Nov evening. Design H_plain with the fee cushion, the range rule on
 
 | Test (gift = the contribution after the cap) | House model (200,000 paths, seed 2033) | US stock history (1,770 windows since 1871; rates at today's forwards) | Joint replay (585 windows, 1962-2010 starts; each on its own rates) |
 |---|---|---|---|
-| **Half kept alone covers a 10% stronger Taiwan dollar** | **93.2%** (fails in 13,618 paths, about 1 in 15) | **96.9%** (fails in 54) | **99.3%** (fails in 4) |
-| Gap when it fails: median (95th percentile of the gaps / largest) | $1,407 ($4,553 / $8,500) | $1,795 ($4,860 / $5,756) | $746 (largest $1,022) |
+| **Half kept alone covers a 10% stronger Taiwan dollar** | **93.3%** (fails in 13,430 paths, about 1 in 15) | **97.1%** (fails in 51) | **99.3%** (fails in 4) |
+| Gap when it fails: median (95th percentile of the gaps / largest) | $1,397 ($4,542 / $8,500) | $1,927 ($4,951 / $5,756) | $746 (largest $1,022) |
 | Largest move covered 19 in 20 (more US dollars needed) | 9.4% (NT$ per US$ down to 29.96) | 11.8% | 11.6% |
-| Stricter reading (11.1% more): covered / median gap | 89.1% / $1,699 | 96.0% / $2,513 | 97.3% / $1,170 |
-| **Half kept plus the excess covers a 10% stronger Taiwan dollar** | **99.77%** (fails in 467 paths, about 1 in 430) | **100%** | **100%** |
-| Gap when it fails: median (largest) | $1,280 ($6,083) | none | none |
-| Largest move covered 19 in 20 | 15.6% (NT$ per US$ down to 28.34) | 17.5% | 17.6% |
-| Stricter reading: covered | 99.56% | 100% | 100% |
+| Stricter reading (11.1% more): covered / median gap | 89.2% / $1,689 | 96.0% / $2,403 | 97.4% / $1,258 |
+| **Half kept plus the excess covers a 10% stronger Taiwan dollar** | **99.80%** (fails in 392 paths, about 1 in 510) | **100%** | **100%** |
+| Gap when it fails: median (largest) | $1,281 ($6,062) | none | none |
+| Largest move covered 19 in 20 | 16.0% (NT$ per US$ down to 28.26) | 18.0% | 17.7% |
+| Stricter reading: covered | 99.64% | 100% | 100% |
 | The half kept, 1 Jan 2033: 1-in-20 low / median / 1-in-20 high | $9,881 / $20,739 / $41,258 | $13,238 / $23,481 / $40,607 | $13,874 / $23,601 / $42,015 |
-| The half kept plus the excess: the same | $16,193 / $28,541 / $49,924 | $20,019 / $30,902 / $48,399 | $19,690 / $31,809 / $49,629 |
-| Against an overrun allowance of 13% / 17% of the contribution (card Q5's overrun allowances, about middle odds for small buildings from an approved budget (card Q5d); an illustration, never a cost estimate): half kept alone | 79.7% / 54.9% | 90.1% / 67.0% | 87.5% / 67.7% |
-| The same, half kept plus the excess | 98.7% / 91.0% | 99.4% / 95.8% | 100% / 96.8% |
+| The half kept plus the excess: the same | $16,508 / $28,918 / $50,348 | $20,469 / $31,314 / $49,217 | $20,180 / $32,326 / $50,881 |
+| Against an overrun allowance of 13% / 17% of the contribution (card Q5's overrun allowances, about middle odds for small buildings from an approved budget (card Q5d); an illustration, never a cost estimate): half kept alone | 79.9% / 55.2% | 90.3% / 67.4% | 87.7% / 67.7% |
+| The same, half kept plus the excess | 98.9% / 92.2% | 99.6% / 96.5% | 100% / 97.4% |
 
 - **Central case** (today's forwards, VT 7.5% a year). A 10% stronger Taiwan dollar on $115,000 needs $11,500 more in
   December 2032. The half kept ($21,347) covers it 1.9 times; with the excess ($29,823), 2.6 times. At the ten-year
@@ -1013,23 +1062,23 @@ Added Tue 10 Nov evening. Design H_plain with the fee cushion, the range rule on
     largest +29.4% (VT bought Nov 1983: the 1986-1988 appreciation). It moved 10% or more against Laura in 11.0% of
     windows, and against her at all in 51.1%.
   - **The half kept alone covered the actual move in 98.1% of windows** (fails in 8: VT bought Oct 1983 to Mar 1984,
-    and Feb and Mar 2006). Median gap when it fails $1,833; largest $7,312 (Nov 1983).
-  - **With the excess: 99.8%** (fails in 1: Nov 1983, $1,755 short).
-  - The move's correlation with shares over the same two years: +0.09, close to none.
+    and Feb and Mar 2006). Median gap when it fails $1,833; largest $5,844 (Nov 1983; $7,312 before Sun 15 Nov, when that window's contribution was a step higher).
+  - **With the excess: 100%** (Sun 15 Nov evening; before, 99.8% with Nov 1983 $1,755 short). The closest window, Dec 1983, has $1,570 to spare.
+  - The move's correlation with US shares over the same two years is +0.09 over the whole span. **Corrected Sun 15 Nov (card Q10e): that is not "close to none".** It averages two opposite periods: -0.39 for 24-month windows ending by Dec 2000 (183 windows) and +0.32 for windows since 2001; against world shares (MSCI ACWI) since 2001, +0.42. Since 2001 a stronger Taiwan dollar has come with rising shares, so the half kept has tended to be large in those years. The squeeze that does happen comes later: a Taiwan-dollar rebound after a crash, while shares are still low (Mar 2009 to Mar 2011: costs and currency together +24.6%, currency +16.3%, world shares up only 18.6% over the five years to Mar 2011). Q10e's figures are its own arithmetic on primary data, not re-run here.
 - **The contribution in other money** (block `gift_terms`, on 8d's conventions; agrees with 8d to the dollar): the
   central $115,000, paid December 2032, is NT$3.77m at 32.768, NT$3.43m if the Taiwan dollar is 10% stronger, and
   NT$3.16m at 27.52. It is $99,747 in 1 Jan 2027 US dollars at 2.4% inflation, and NT$3.14m of today's building at 3%.
 
 What it shows:
 - **On the register's own definitions, "19 in 20" holds for the half kept alone on history and in the joint replay,
-  but not in the house model** (93.2%: about 1 path in 15 fails, by about $1,400 at the median). The house model is the
+  but not in the house model** (93.3%: about 1 path in 15 fails, by about $1,400 at the median). The house model is the
   harshest mainly because its shares grow more slowly: a median 7.5% a year against about 9.6% in the US history windows
   (Keel arithmetic on the same Shiller series; the spreads are close, 17.88% against about 16-18%). It also moves yields
   before 2028, so "most" squeezes VT in 16.9% of its paths.
-- **Counting the excess, it fails in about 1 house path in 430 and in no history or joint window.** The excess is
+- **Counting the excess, it fails in about 1 house path in 510 and in no history or joint window.** The excess is
   Treasury money, fixed once the half is moved in 2031, so the weaker part of the pot is always the half kept.
-- **On the real currency since 1983, 98 windows in 100 for the half kept alone, and all but one with the excess.** The
-  one failure is the 1986-1988 appreciation, the largest two-year move in the series.
+- **On the real currency since 1983, 98 windows in 100 for the half kept alone, and every window with the excess**
+  (since Sun 15 Nov; the 1986-1988 appreciation, the largest two-year move in the series, now leaves $1,570 or more).
 - **The test is about one use of the pot only.** The IPS names three (l.15: overruns, a stronger Taiwan dollar, a
   co-sponsor falling short); the overrun rows show how fast the pot is used when they come together.
 
@@ -1066,20 +1115,20 @@ Added Tue 10 Nov evening for part 3b. Same design as 8j. Three parts come back t
 - Do not add nominal dollars across years ($500,000 plus $115,000 against $74,123 plus $8,476 plus $21,347): they fall
   in different years.
 
-**Across the 585 joint windows** (rates and US stocks from the same months, as 8i). Each part is in 1 Jan 2033 money at
+**Across the 585 joint windows** (rates and US stocks from the same months, as 8i; re-run Sun 15 Nov evening, `results_joint_stress_2026-11-15.json`: the excess and the totals move, the backstop's money and the half kept do not). Each part is in 1 Jan 2033 money at
 the window's own rates; the excess is carried 17 days at the window's rate:
 
 | | 1-in-20 low | Median | 1-in-20 high |
 |---|---|---|---|
 | The backstop's money | $18,053 | $43,469 | $84,845 |
-| The excess | $3,526 | $7,698 | $13,196 |
+| The excess | $3,839 | $8,066 | $13,609 |
 | The half kept | $13,874 | $23,601 | $42,015 |
-| **Total, each window's sum** | **$40,404** | **$78,584** | **$120,375** |
+| **Total, each window's sum** | **$40,755** | **$78,759** | **$121,156** |
 | Share of all the money that returns (the rest is the payments and the contribution, at the window's own rates) | 7.0% | 13.3% | 19.1% |
 
 - Each row's percentiles are its own, so the rows do not add.
 - **Lowest total $32,148** (start Mar 2007: rates fall to near zero and VT is bought in March 2008; backstop $14,361,
-  excess $2,325, half kept $15,461). 1-in-100 $33,607. Never under $25,000; under $50,000 in 9.7% of windows.
+  excess $2,325, half kept $15,461). 1-in-100 $34,137. Never under $25,000; under $50,000 in 9.7% of windows.
 - The backstop's money and the half kept barely move together across windows (correlation -0.16), so the total is
   steadier than its parts.
 - The ten are paid in full in every window (8i); only what comes back varies.
@@ -1100,60 +1149,60 @@ the one that sized it):
   forward carry ($38,282.14 against $38,281.00, January 2028 money), and the floor and VT get that much less between them. Left as it is: it moves the
   completion and the floor money by $1 and nothing a reader sees (section 9).
 
-### 8l. How much room the 2031 range leaves, path by path; and the Taiwan dollar file checked at FRED (`numbers/range_margin.py`, `numbers/results_range_margin_2026-11-11.json`). MODEL
+### 8l. How much room the 2031 range leaves, path by path; and the Taiwan dollar file checked at FRED (`numbers/range_margin.py`, `numbers/results_range_margin_2026-11-15.json`, re-run Sun 15 Nov evening with the fee charged from each trade day; the Wed 11 Nov file is the record). MODEL
 Added Wed 11 Nov evening (numbers owner) for part 3c and card Q4c (its Gaps: "the smallest in-range margin across
 paths"). Nothing is re-sized and no earlier figure moves. Same register as sections 3, 4 and 8i: design H_plain with
 the fee cushion, the range rule on the fund's holdings, Keel's reading of "most".
 - **The claim tested:** "After the 2031 move the gift stays inside the stated range with room to spare in every path,
   and the range never collapses to one figure."
 - **Definitions, exactly as section 4.** Each stated end is the money put into the late-2032 fund times what $1 of the
-  fund's own holdings pays on 15 Dec 2032 if nothing earns interest from the trade day, less 0.5%, rounded down to
-  $5,000. The bottom is fixed when the floor is bought (January 2028); the top at the 2031 move. The 2033 contribution
+  fund's own holdings pays on 15 Dec 2032 if nothing earns interest from the trade day (after the fund's fee from that
+  day and the waiting ETF's fee on distributions, since Sun 15 Nov), less 0.5%, rounded down to $5,000. The bottom is fixed when the floor is bought (January 2028); the top at the 2031 move. The 2033 contribution
   is the lower of what the floor and the moved half pay and the stated top; the excess joins the half kept.
 - **What the funds pay:** house model and US stock history as section 4 (at their purchase yields); joint replay as 8i
   (realised on each window's own rates). The script builds the first two with `plan.run` and `completion.rule`, as
   `range_rule.py` does, and the joint replay by running `joint_stress.py`'s own setup code (none of its results
-  blocks). It reproduces 8i to the dollar: $458, $532, $1,262 and $934, and the stated ends' 1-in-20 points.
+  blocks). It reproduces 8i to the dollar: $472, $541, $1,262 and $934, and the stated ends' 1-in-20 points.
 - **Rerun:** `python3 -I keel/final_report/numbers/range_margin.py` from the repo root (about 15 seconds). It reads
-  `results_joint_stress_2026-11-10.json` only to show the match, and writes nothing else.
+  `results_joint_stress_2026-11-15.json` only to show the match, and writes `results_range_margin_2026-11-15.json` only.
 
 | Measure (central case in brackets) | House model (200,000 paths, seed 2033) | US stock history (1,770 windows since 1871; rates at today's forwards) | Joint replay (585 windows, 1962-2010 starts) |
 |---|---|---|---|
 | **(i) Contribution less the stated bottom** ($20,000): 1-in-20 low / median / smallest | $10,000 / $20,000 / **$0** | $15,000 / $20,000 / $5,000 | $10,000 / $20,000 / $10,000 |
-| Contribution equal to the bottom (no room) / below it | **254 paths (0.127%, about 1 in 790)** / none | none / none | none / none |
+| Contribution equal to the bottom (no room) / below it | **247 paths (0.124%, about 1 in 810)** / none | none / none | none / none |
 | **(ii) Width: stated top less stated bottom** ($20,000): 1-in-20 low / median / 1-in-20 high | $10,000 / $20,000 / $35,000 | $15,000 / $20,000 / $35,000 | $10,000 / $20,000 / $35,000 |
-| Width $0, a single figure | **254 (0.127%)** | 0 | 0 |
-| Width $5,000 | 3,040 (1.52%) | 13 (0.73%: VT bought Jan 1929 to Apr 1930) | 0 |
-| Width $10,000 or more | 98.35% | 99.27% | 100% (narrowest $10,000) |
+| Width $0, a single figure | **247 (0.124%)** | 0 | 0 |
+| Width $5,000 | 3,032 (1.52%) | 15 (0.85%: VT bought Jan 1929 to Apr 1930, all but Nov 1929) | 0 |
+| Width $10,000 or more | 98.36% | 99.15% | 100% (narrowest $10,000) |
 | **(iii) Contribution less the stated top**, funds paying as modelled ($0) | $0 in every path | $0 in every window | $0 in every window |
 | The same if the funds pay only their holdings' zero-interest payout less a fund cost of 0.5% ($0) | $0 in every path | $0 | $0 |
-| Fund cost 0.75%: top missed in / largest gap / median gap where missed ($0 centrally) | 11,984 paths (5.99%) / $429 / $153 | 112 windows (6.3%) / $312 / $142 | 34 windows (5.8%) / $312 / $151 |
-| Fund cost 0.75%: contribution below the stated bottom | **1 path ($211 below)** | 0 | 0 |
-| Fund cost 1%: top missed / largest gap; below the bottom | 12.0% / $881; 5 paths (up to $425 below) | 13.1% / $626; 0 | 12.3% / $664; 0 |
-| **(iv) Excess** at face, 15 Dec 2032 ($8,476): 1-in-20 low / median / 1-in-20 high / smallest | $4,340 / $7,629 / $11,218 / $1,251 | $5,322 / $7,524 / $9,846 / $4,640 | $3,522 / $7,671 / $13,134 / $934 |
-| **(v) Floor's zero-interest payout less the stated bottom** ($4,225): 1-in-20 low / median / smallest | $749 / $3,001 / **$405** | $4,225 in every window (the floor is bought at forwards) | $811 / $3,024 / **$458** (start Feb 2002) |
-| **Both funds' zero-interest payout less the stated top** ($4,039): the same | $851 / $3,101 / **$430** | $848 / $3,064 / **$533** (start Dec 1929) | $872 / $3,144 / **$532** (start Aug 2010) |
-| What the floor pays less the bottom; what both pay less the top: smallest | $1,063; $1,251 | $8,178; $4,640 | $1,262; $934 |
-| Card Q4c's measure: both funds' zero-interest payout less 0.5%, less the stated bottom ($23,443): 1-in-20 low / median / smallest | $12,456 / $21,790 / $3 | $16,942 / $24,740 / $7,133 | $14,196 / $24,106 / $10,891 |
-| Largest fund cost covered at zero interest in every path: bottom / top | 0.50% / 0.50% | 4.26% / 0.50% | 0.51% / 0.50% |
+| Fund cost 0.75% (beyond the two fees): top missed in / largest gap / median gap where missed ($0 centrally) | 12,012 paths (6.01%) / $402 / $150 | 119 windows (6.7%) / $320 / $156 | 31 windows (5.3%) / $373 / $176 |
+| Fund cost 0.75%: contribution below the stated bottom | **3 paths (up to $182 below)** | 0 | 0 |
+| Fund cost 1%: top missed / largest gap; below the bottom | 12.0% / $815; 4 paths (up to $383 below) | 12.8% / $647; 0 | 10.8% / $750; 0 |
+| **(iv) Excess** at face, 15 Dec 2032 ($8,476): 1-in-20 low / median / 1-in-20 high / smallest | $4,669 / $8,005 / $11,634 / $1,317 | $5,694 / $7,928 / $10,227 / $5,106 | $3,832 / $8,045 / $13,557 / $934 |
+| **(v) Floor's zero-interest payout less the stated bottom** ($3,874): 1-in-20 low / median / smallest | $745 / $3,000 / **$405** | $3,874 in every window (the floor is bought at forwards) | $758 / $3,020 / **$472** (start Dec 1994) |
+| **Both funds' zero-interest payout less the stated top** ($3,666): the same | $847 / $3,098 / **$421** | $826 / $3,058 / **$581** (start Oct 1973) | $892 / $3,165 / **$541** (start Sep 2007) |
+| What the floor pays less the bottom; what both pay less the top: smallest | $1,673; $1,317 | $8,178; $5,106 | $1,262; $934 |
+| Card Q4c's measure: both funds' zero-interest payout less 0.5%, less the stated bottom ($23,072): 1-in-20 low / median / smallest | $12,460 / $21,771 / $19 | $16,579 / $24,367 / $6,781 | $14,118 / $24,083 / $10,491 |
+| Largest fund cost covered at zero interest in every path, beyond the two fees: bottom / top | 0.50% / 0.50% | 3.92% / 0.50% | 0.52% / 0.50% |
 
 - In every path and window the funds pay at least the stated top, so (i) equals (ii) everywhere: the room above the
   bottom is the width of the range.
-- **Where the range is one figure (254 house paths).**
+- **Where the range is one figure (247 house paths).**
   - Every one is a path where "most" binds. Yields fell before January 2028 (median 2.3 points), the completion took
-    most of the $150,000, and VT bought was a median $3,765. In 55 paths (0.028%) nothing was left for VT at all: the
+    most of the $150,000, and VT bought was a median $3,935. In 55 paths (0.028%) nothing was left for VT at all: the
     completion took $75,000 or more.
   - The single figure is a median $80,000 (from $65,000 to $90,000). The contribution equals it, and the excess
-    (median $5,998, smallest $1,917) joins the half kept.
+    (median $6,181, smallest $1,938) joins the half kept.
   - Section 4's "VT worthless" row ($95,000, one figure) is the same case at the centre.
-  - A range $5,000 wide: 3,040 house paths, 85% of them with "most" binding (VT a median 18% down by the move); in the
-    stock history, the 13 windows with VT bought Jan 1929 to Apr 1930 (VT a median 68% down).
-- **The 0.75% case.** Beyond the rule's 0.5% cut, only the top is missed, by at most $429, except where the range is
-  one figure: then a missed top is a missed bottom (1 house path in 200,000 at 0.75%; 0 with seed 2034).
+  - A range $5,000 wide: 3,032 house paths, 85% of them with "most" binding (VT a median 18% down by the move); in the
+    stock history, the 15 windows with VT bought Jan 1929 to Apr 1930 except Nov 1929 (VT a median 67% down).
+- **The 0.75% case.** Beyond the rule's 0.5% cut, only the top is missed, by at most $402, except where the range is
+  one figure: then a missed top can be a missed bottom (3 house paths in 200,000 at 0.75%, up to $182; 1 with seed 2034).
 - **The smallest margins are the 0.5% cut, by construction.** Each end is at most 99.5% of its zero-interest value,
   so its margin is at least 0.5% of that value (about $400 to $600) plus whatever the rounding leaves. Card N-04's
-  "$458 and $532 across 585 historical windows" is right as worded; keep "historical windows" in any use, since the
-  house model goes to $405 and $430.
+  "$458 and $532 across 585 historical windows" is now $472 and $541 (Sun 15 Nov evening); keep "historical windows"
+  in any use, since the house model goes to $405 and $421.
 
 **The check by a different calculation** (functions ending in 2 in `range_margin.py`; the margins are tested by a
 calculation other than the one that set them):
@@ -1162,35 +1211,38 @@ calculation other than the one that set them):
   moved half, each end's zero-interest payout, the rounding (whole dollars, integer division), what the funds pay (in
   the joint replay, from each window's 1-year yield ratios), the contribution and the excess. It calls none of
   `completion.rule`, `completion.zero_per_dollar`, `plan.run` or `joint_stress.py`'s functions.
-  - **Result:** every stated end is identical in all 202,355 paths and windows. Every dollar figure agrees to within a
+  - **Result (re-run Sun 15 Nov evening, route 2 also charging the fee from the trade day):** every stated end is identical in all 202,355 paths and windows. Every dollar figure agrees to within a
     millionth of a cent, and every count and percentile in the table is the same.
 - **No-model checks.**
   - Each margin lies between 0.5% of its end's zero-interest value and that plus $5,000, in every path (no breaks).
-    The lowest possible margins are $333 (house) and $386 (joint floor); the smallest found are just above them.
-  - A one-figure range needs the moved half, after the cut, to be under $5,000 (693 house paths). If the rounding
-    remainder were spread evenly, 247 of them would round to one figure; 254 do.
+    The lowest possible margins are $332 (house) and $385 (joint floor); the smallest found are just above them.
+  - A one-figure range needs the moved half, after the cut, to be under $5,000 (695 house paths). If the rounding
+    remainder were spread evenly, 248 of them would round to one figure; 247 do.
 - **Sampling.** The house model drawn again with seed 2034 gives:
-  - one-figure ranges 236, $5,000 ranges 3,032;
-  - at 0.75%, top missed 11,951 and none below the bottom;
-  - smallest margins $421 and $433;
-  - excess $4,368 / $7,637 / $11,218, smallest $1,184.
-  So "about 1 path in 800" holds, and the one 0.75% path below the bottom is noise around zero.
-- **A stricter reading.** The rule counts the funds' monthly distributions at face. Suppose instead they wait in the
-  Treasury-bill ETF at its 0.15% a year fee, section 0's rule for waiting money.
-  - Centrally the floor's zero-interest payout falls by $69 and the moved half's by $3.
-  - Every end is still owned in every path. The smallest margins become $349 and $370 (house), $399 and $472
-    (joint) and $4,155 and $463 (history).
-  - The largest fund cost covered in every path falls from 0.50% to about 0.43%.
+  - one-figure ranges 252, $5,000 ranges 3,019;
+  - at 0.75%, top missed 11,844 and 1 path below the bottom;
+  - smallest margins $409 and $429;
+  - excess $4,702 / $8,004 / $11,645, smallest $1,280.
+  So "about 1 path in 800" holds, and the few 0.75% paths below the bottom are noise around zero.
+- **The waiting fee is now in the rule (Sun 15 Nov evening, M3).** Until tonight the rule counted the funds' monthly
+  distributions at face and this was the stricter reading; now they wait in the Treasury-bill ETF at its 0.15% a year
+  fee in the rule itself. Counted at face instead (`distributions_at_face` in the results):
+  - centrally the floor's zero-interest payout would be $69 higher and the moved half's $3;
+  - every end is owned in every path either way; the smallest margins would be $461 and $477 (house), $535 and $600
+    (joint) and $3,943 and $652 (history);
+  - the largest fund cost covered in every path would be about 0.55% to 0.58% instead of 0.50%.
+- **The fee from the trade day (H1)** costs the central floor $350 of zero-interest value and the moved half $23
+  (`fee_from_trade_day_central`).
 
 **Verdict on the claim: CHANGE.**
 - **"Inside the stated range in every path": KEEP.** It is true in all 200,000 house paths, 1,770 stock windows and 585
-  joint windows. It holds at the funds' modelled payouts, and at zero interest after fund costs up to 0.5%.
+  joint windows. It holds at the funds' modelled payouts, and at zero interest after the two fees and fund costs up to 0.5%.
 - **"With room to spare in every path": CHANGE.**
-  - The room above the bottom is $10,000 or more in 98.35% of house paths, 99.27% of stock windows and every joint
-    window. It is $0 in 254 house paths (1-in-20 $10,000, median $20,000).
-  - The room between what is owned and what is stated is at least 0.5% of each end. The smallest is $405 and $430
-    (house), $458 and $532 (joint) and $4,225 and $533 (history).
-- **"The range never collapses to one figure": KILL** for the house model: 254 paths in 200,000 (0.127%; 236 with
+  - The room above the bottom is $10,000 or more in 98.36% of house paths, 99.15% of stock windows and every joint
+    window. It is $0 in 247 house paths (1-in-20 $10,000, median $20,000).
+  - The room between what is owned and what is stated is at least 0.5% of each end. The smallest is $405 and $421
+    (house), $472 and $541 (joint) and $3,874 and $581 (history).
+- **"The range never collapses to one figure": KILL** for the house model: 247 paths in 200,000 (0.124%; 252 with
   another seed). It holds in the stock history and the joint replay.
   - One figure means yields fell about 2 points before January 2028 and left almost nothing for VT, or VT became
     worthless.
@@ -1234,9 +1286,9 @@ floor-VT split of the 2028 deposit against a growthier alternative ... the plan 
 buy." Section 4's C8 is the benchmark with fewer shares; this is the one with more. **A benchmark, not a
 recommendation:** the plan stays B, and C to E break the frozen IPS's "Most of the 2028 deposit will fund a Treasury
 fund maturing in late 2032" (l.15). Nothing is re-sized and no earlier figure moves.
-- **Script and rerun:** `numbers/share_split.py`, results `numbers/results_share_split_2026-11-12.json` (exact
+- **Script and rerun:** `numbers/share_split.py`, results `numbers/results_share_split_2026-11-15.json` (re-run Sun 15 Nov evening with the fee charged from each trade day; the Thu 12 Nov file is the record; exact
   values). From the repo root, `python3 -I keel/final_report/numbers/share_split.py` (about 12 seconds). It changes no
-  other script; it reads `results_2026-11-10.json` and `results_joint_stress_2026-11-10.json` only for the checks.
+  other script; it reads `results_2026-11-15.json` and `results_joint_stress_2026-11-15.json` only for the checks.
 - **Basis and date:** the Tue 10 Nov register on the 6 Nov 2026 curve (design H_plain with the fee cushion, the range
   rule on the fund's holdings). Three bases, built exactly as 8l builds them:
   - 200,000 simulated futures (seed 2033; stocks and rates drawn apart, section 7);
@@ -1262,9 +1314,9 @@ fund maturing in late 2032" (l.15). Nothing is re-sized and no earlier figure mo
 | Option | Floor money as a share of the $150,000 deposit (today's market rates) | Keeps "most of the 2028 deposit"? | Stated range on today's market rates | Facility contribution: median / 1-in-20 low | Contribution under $95,000 | Her flexibility: median / 1-in-20 low | All money left to Laura beyond the ten: median / 1-in-20 low |
 |---|---|---|---|---|---|---|---|
 | A. All to the floor (C8) | 74% | Yes | $130,000 (one figure) | $130,000 / $105,000 | under 1% | $9,000 / $5,000 | $186,000 / $159,000 |
-| **B. The plan** | **55%** | **Yes** | **$95,000 to $115,000** | **$115,000 / $95,000** | **3%** | **$29,000 / $16,000** | **$191,000 / $159,000** |
-| C. Half floor, half VT | 37% | No | $65,000 to $100,000 | $100,000 / $80,000 | 26% | $46,000 / $26,000 | $194,000 / $154,000 |
-| D. A quarter floor, three quarters VT | 19% | No | $30,000 to $85,000 | $85,000 / $60,000 | 62% | $65,000 / $35,000 | $198,000 / $145,000 |
+| **B. The plan** | **55%** | **Yes** | **$95,000 to $115,000** | **$115,000 / $95,000** | **3%** | **$29,000 / $17,000** | **$191,000 / $159,000** |
+| C. Half floor, half VT | 37% | No | $65,000 to $100,000 | $100,000 / $80,000 | 27% | $47,000 / $26,000 | $194,000 / $154,000 |
+| D. A quarter floor, three quarters VT | 19% | No | $30,000 to $85,000 | $85,000 / $60,000 | 62% | $66,000 / $35,000 | $198,000 / $145,000 |
 | E. All VT | 0% | No | $0 to $70,000 (no floor) | $70,000 / $40,000 | 79% | $84,000 / $44,000 | $202,000 / $134,000 |
 
 - A and B keep "most" in all but 0.03% of simulated futures (the 55 where the top-up took $75,000 or more, 8l).
@@ -1277,11 +1329,11 @@ fund maturing in late 2032" (l.15). Nothing is re-sized and no earlier figure mo
 
 | Option | US stocks since 1871: contribution median / 1-in-20 low; under $95,000 | Her flexibility: median / 1-in-20 low | All money: median / 1-in-20 low | Rates and US stocks together since 1962: contribution median / 1-in-20 low; under $95,000 | Her flexibility | All money |
 |---|---|---|---|---|---|---|
-| A | $130,000 in every start; 0% | $11,000 in every start | $186,000 in every start | $130,000 / $110,000; 0% | $8,000 / $4,000 | $185,000 / $137,000 |
+| A | $130,000 in every start; 0% | $11,000 in every start | $186,000 in every start | $130,000 / $110,000; 0% | $9,000 / $4,000 | $185,000 / $137,000 |
 | **B** | **$115,000 / $110,000; 0%** | **$31,000 / $20,000** | **$194,000 / $177,000** | **$115,000 / $95,000; 3%** | **$32,000 / $20,000** | **$198,000 / $138,000** |
-| C | $105,000 / $90,000; 11% | $51,000 / $31,000 | $200,000 / $169,000 | $105,000 / $85,000; 19% | $52,000 / $31,000 | $205,000 / $140,000 |
-| D | $90,000 / $70,000; 57% | $72,000 / $42,000 | $207,000 / $160,000 | $90,000 / $65,000; 53% | $73,000 / $44,000 | $214,000 / $135,000 |
-| E | $75,000 / $45,000; 77% | $93,000 / $53,000 | $214,000 / $152,000 | $80,000 / $45,000; 81% | $95,000 / $56,000 | $223,000 / $129,000 |
+| C | $105,000 / $90,000; 12% | $51,000 / $31,000 | $200,000 / $169,000 | $105,000 / $85,000; 19% | $52,000 / $32,000 | $205,000 / $140,000 |
+| D | $90,000 / $70,000; 57% | $72,000 / $43,000 | $207,000 / $160,000 | $90,000 / $65,000; 54% | $73,000 / $44,000 | $214,000 / $135,000 |
+| E | $75,000 / $45,000; 78% | $93,000 / $54,000 | $214,000 / $152,000 | $80,000 / $45,000; 81% | $95,000 / $56,000 | $223,000 / $129,000 |
 
 **The worst historical start** (US stocks: the month VT is bought; rates and stocks together: the starting month, VT
 bought a year later):
@@ -1289,9 +1341,9 @@ bought a year later):
 | Option | US stocks since 1871: lowest contribution | Lowest all money | Rates and stocks together since 1962: lowest contribution | Lowest all money |
 |---|---|---|---|---|
 | A | $130,000 in every start (no shares) | $186,000 in every start | $95,000 (6 starts: Dec 2007, Jan 2008, Jun to Sep 2008; yields fell and the top-up took more) | $111,000 (Dec 2007) |
-| **B** | **$100,000 (13 months: Jan to Oct 1929, Feb to Apr 1930)** | **$159,000 (Jul 1929)** | **$90,000 (15 starts, including Oct 2000, Mar 2007 and Jan 2008; as 8i)** | **$122,000 (Mar 2007)** |
-| C | $70,000 (May to Jul 1929) | $135,000 (Jul 1929) | $75,000 (Mar and Apr 2007) | $124,000 (Apr 2007) |
-| D | $40,000 (Jun and Jul 1929) | $109,000 (Jul 1929) | $60,000 (8 starts: Sep 1970; Jul, Aug and Sep 1998; Mar 1999; Jul, Sep and Oct 2006) | $124,000 (Nov 2006) |
+| **B** | **$100,000 (15 months: Jan to Oct 1929, Dec 1929 to Apr 1930)** | **$159,000 (Jul 1929)** | **$90,000 (15 starts, including Oct 2000, Mar 2007 and Jan 2008; as 8i)** | **$122,000 (Mar 2007)** |
+| C | $70,000 (May to Jul 1929) | $135,000 (Jul 1929) | $75,000 (Mar to May 2007) | $124,000 (Apr 2007) |
+| D | $40,000 (Jun and Jul 1929) | $109,000 (Jul 1929) | $60,000 (9 starts: Sep 1970; Jul, Aug and Sep 1998; Feb and Mar 1999; Jul, Sep and Oct 2006) | $124,000 (Nov 2006) |
 | E | $10,000 (Jun and Jul 1929) | $84,000 (Jul 1929) | $35,000 (9 starts: 8 between Jul 1998 and Apr 1999, and Mar 2005) | $116,000 (Jun 2006) |
 
 **Against the plan, future by future** (share of futures where the option leaves Laura more in all; then the median
@@ -1306,19 +1358,19 @@ and the 1-in-20 low of the difference from B):
 
 - **The check against C8: passed exactly.**
   - Option A reproduces section 4's C8 to the dollar: the floor pays $140,761 centrally, stated $130,000 (unrounded
-    $134,691); in simulated futures $113,169 / $140,649 / $169,686.
-  - Against A, the plan's funds pay less in 97.6% of futures, its stated top is below A's stated figure in 95.0%, and its
+    $134,215); in simulated futures $113,169 / $140,649 / $169,686 (A's house 1-in-20 high stated figure is $155,000 since Sun 15 Nov; was $160,000).
+  - Against A, the plan's funds pay less in 97.6% of futures, its stated top is below A's stated figure in 94.8%, and its
     contribution plus flexibility is more in 62.8%: C8's three shares, future by future.
   - A's contribution plus flexibility equals C8's payout in every future; A's flexibility is only what the floor pays
     above its stated figure ($10,761 centrally).
   - Option B reproduces section 4 (central, simulated futures, US stocks), 8i (stated ends, contribution, excess and
-    half kept identical in all 585 starting months) and 8k ($40,404 / $78,584 / $120,375 returned; the top-up's $45,456).
+    half kept identical in all 585 starting months) and 8k ($40,755 / $78,759 / $121,156 returned; the top-up's $45,456).
 - **Reading, against C to E (notes, not wording):**
   - *What the plan gives up:* more shares leave Laura more in all in about 63 of 100 simulated futures (69 and 71 of 100
-    on history), by a median $4,000, $8,000 and $12,000 (C, D, E), and her flexibility is $18,000 to $56,000 larger at
+    on history), by a median $4,000, $8,000 and $12,000 (C, D, E), and her flexibility is $18,000 to $55,000 larger at
     the median.
   - *What it gets:* a bottom owned from January 2028 of $95,000 against $65,000, $30,000 and nothing; a contribution
-    under $95,000 in 3 of 100 simulated futures against 26, 62 and 79; a lowest contribution since 1871 of $100,000
+    under $95,000 in 3 of 100 simulated futures against 27, 62 and 79; a lowest contribution since 1871 of $100,000
     against $70,000, $40,000 and $10,000 (VT bought in 1929); a 1-in-20 low of all money $5,000 to $25,000 higher in simulated
     futures and on US stocks (with rates and stocks together, C's is $2,000 above B's); and "most of the 2028 deposit"
     kept. Against A, the plan gives up $15,000 of the median contribution for $20,000 more median flexibility, at the
@@ -1334,11 +1386,11 @@ unpromised (IPS l.15) is a sound split between what Laura can promise co-sponsor
 three named uses (cost overruns, a stronger Taiwan dollar, a co-sponsor falling short). Moving 70% of VT (keeping 30%)
 or moving 30% (keeping 70%) would be worse on balance." **Benchmarks, not a recommendation:** IPS l.15 is frozen at
 half; 70% and 30% only show the trade-off it chose. Nothing is re-sized and no earlier figure moves.
-- **Script and rerun:** `numbers/kept_share.py`, results `numbers/results_kept_share_2026-11-14.json` (exact values,
-  plus a central line every 5% moved, `central_frontier`). From the repo root, `python3 -I
-  keel/final_report/numbers/kept_share.py` (about 13 seconds). It changes no other script; it reads
-  `results_2026-11-10.json`, `results_kept_half_2026-11-10.json`, `results_joint_stress_2026-11-10.json` and
-  `results_share_split_2026-11-12.json` only for the checks.
+- **Script and rerun:** `numbers/kept_share.py`, results `numbers/results_kept_share_2026-11-15.json` (re-run Sun 15
+  Nov evening with the fee charged from each trade day; the Sat 14 Nov file is the record; exact values, plus a central
+  line every 5% moved, `central_frontier`). From the repo root, `python3 -I keel/final_report/numbers/kept_share.py`
+  (about 13 seconds). It changes no other script; it reads `results_2026-11-15.json`, `results_kept_half_2026-11-15.json`,
+  `results_joint_stress_2026-11-15.json` and `results_share_split_2026-11-15.json` only for the checks.
 - **Basis:** the Tue 10 Nov register (design H_plain with the fee cushion, the range rule on the fund's holdings, Keel's
   reading of "most"), on 8n's three bases: 200,000 simulated futures (seed 2033; stocks and rates drawn apart), US stocks
   from every starting month since 1871 (1,770; rates at today's market rates), rates and US stocks together from every
@@ -1359,7 +1411,7 @@ half; 70% and 30% only show the trade-off it chose. Nothing is re-sized and no e
 
 | Measure | Move 70%, keep 30% | **The plan: move half, keep half** | Move 30%, keep 70% |
 |---|---|---|---|
-| **Today's market rates, VT 7.5% a year:** stated range | $95,000 to $125,000 (unrounded top $126,329) | **$95,000 to $115,000 ($118,443)** | $95,000 to $110,000 ($110,557) |
+| **Today's market rates, VT 7.5% a year:** stated range | $95,000 to $125,000 (unrounded top $125,949) | **$95,000 to $115,000 ($118,072)** | $95,000 to $110,000 ($110,195) |
 | Facility contribution / what the funds pay | $125,000 / $131,595 | **$115,000 / $123,476** | $110,000 / $115,357 |
 | Her flexibility / plus anything above the top | $12,808 / $19,403 | **$21,347 / $29,823** | $29,886 / $35,243 |
 | Her flexibility as a share of the stated top (plus anything above) | 10.2% (15.5%) | **18.6% (25.9%)** | 27.2% (32.0%) |
@@ -1367,41 +1419,41 @@ half; 70% and 30% only show the trade-off it chose. Nothing is re-sized and no e
 | **Simulated futures (200,000):** stated bottom, 1-in-20 low / median / 1-in-20 high | $85,000 / $95,000 / $115,000 | **$85,000 / $95,000 / $115,000** | $85,000 / $95,000 / $115,000 |
 | Stated top (= the contribution in every future) | $100,000 / $125,000 / $155,000 | **$95,000 / $115,000 / $140,000** | $90,000 / $110,000 / $130,000 |
 | Width of the range | $15,000 / $25,000 / $45,000 | **$10,000 / $20,000 / $35,000** | $5,000 / $10,000 / $20,000 |
-| Range one figure; range $5,000 wide or less | 144 futures (0.07%); 0.5% | **254 (0.13%, 8l); 1.6%** | 882 (0.44%); 13.9% |
+| Range one figure; range $5,000 wide or less | 145 futures (0.07%); 0.5% | **247 (0.12%, 8l); 1.6%** | 892 (0.45%); 14.0% |
 | Contribution inside the stated range | 100% | **100%** | 100% |
 | Her flexibility, 1 Jan 2033: 1-in-100 / 1-in-20 / median / 1-in-20 high | $4,000 / $5,900 / $12,400 / $24,800 | **$6,670 / $9,881 / $20,739 / $41,258 (8f)** | $9,300 / $13,800 / $29,000 / $57,800 |
-| Her flexibility plus anything above the top: 1-in-20 / median | $12,100 / $20,500 | **$16,193 / $28,541** | $20,100 / $36,600 |
+| Her flexibility plus anything above the top: 1-in-20 / median | $12,400 / $20,900 | **$16,508 / $28,918** | $20,500 / $36,900 |
 | Her flexibility, median, if shares fell over 2031-2033 (28.4% of futures) | $9,300 | **$15,423 (8f)** | $21,600 |
-| Her flexibility over the stated top: 1-in-20 / median | 5.4% / 10.0% | **9.4% / 17.8%** | 13.7% / 26.7% |
-| **Her flexibility covers a 10% stronger Taiwan dollar (8j)** | **50.0%** | **93.2%** | **98.9%** |
-| The same, plus anything above the top | 97.9% | **99.77%** | 99.89% |
-| Overrun illustration: her flexibility covers 13% / 17% of the contribution | 23.1% / 6.5% | **79.7% / 54.9% (8j)** | 96.2% / 87.3% |
-| The same, plus anything above the top | 84.8% / 44.3% | **98.7% / 91.0%** | 99.7% / 98.5% |
+| Her flexibility over the stated top: 1-in-20 / median | 5.4% / 10.0% | **9.4% / 17.8%** | 13.8% / 26.8% |
+| **Her flexibility covers a 10% stronger Taiwan dollar (8j)** | **50.3%** | **93.3%** | **99.0%** |
+| The same, plus anything above the top | 98.5% | **99.80%** | 99.90% |
+| Overrun illustration: her flexibility covers 13% / 17% of the contribution | 23.4% / 6.6% | **79.9% / 55.2% (8j)** | 96.3% / 87.5% |
+| The same, plus anything above the top | 87.4% / 48.0% | **98.9% / 92.2%** | 99.7% / 98.7% |
 | Against the plan, future by future: contribution, median (1-in-20 low to high) | +$10,000 (+$5,000 to +$15,000) | | -$10,000 (-$15,000 to -$5,000) |
-| Her flexibility plus anything above the top, against the plan | -$8,300 (-$16,700 to -$3,200) | | +$8,300 (+$3,200 to +$16,700) |
+| Her flexibility plus anything above the top, against the plan | -$8,300 (-$16,700 to -$3,100) | | +$8,300 (+$3,200 to +$16,700) |
 | Contribution plus her flexibility plus anything above, against the plan; share of futures with more | -$400 (-$5,200 to +$2,700); 42% | **median $145,687** | +$400 (-$2,700 to +$5,200); 58% |
 | **US stocks since 1871:** stated top 1-in-20 / median / high; lowest contribution | $115,000 / $125,000 / $140,000; $100,000 | **$110,000 / $115,000 / $130,000; $100,000** | $105,000 / $110,000 / $115,000; $100,000 |
 | Her flexibility: 1-in-20 / median; lowest (VT bought) | $7,900 / $14,100; $3,500 (Sep 1929) | **$13,238 / $23,481; $5,779 (Sep 1929)** | $18,500 / $32,900; $8,100 (Sep 1929) |
-| Covers a 10% stronger Taiwan dollar: her flexibility / plus anything above | 62.2% / 99.3% | **96.9% / 100%** | 99.4% / 100% |
+| Covers a 10% stronger Taiwan dollar: her flexibility / plus anything above | 62.5% / 99.4% | **97.1% / 100%** | 99.4% / 100% |
 | **Rates and US stocks together since 1962:** stated top 1-in-20 / median / high | $100,000 / $125,000 / $155,000 | **$95,000 / $115,000 / $140,000** | $90,000 / $110,000 / $130,000 |
 | Her flexibility: 1-in-20 / median | $8,300 / $14,200 | **$13,874 / $23,601** | $19,400 / $33,000 |
-| Covers a 10% stronger Taiwan dollar: her flexibility / plus anything above | 64.1% / 99.0% | **99.3% / 100%** | 100% / 100% |
-| **The real Taiwan dollar since 1983** (actual two-year move, 417 windows): her flexibility / plus anything above | 91.6% (fails 35) / 97.6% (fails 10) | **98.1% (8) / 99.8% (1)** | 100% / 100% |
+| Covers a 10% stronger Taiwan dollar: her flexibility / plus anything above | 64.4% / 99.5% | **99.3% / 100%** | 100% / 100% |
+| **The real Taiwan dollar since 1983** (actual two-year move, 417 windows): her flexibility / plus anything above | 91.6% (fails 35) / 97.8% (fails 9) | **98.1% (8) / 100% (0)** | 100% / 100% |
 | Contribution plus her flexibility plus anything above, against the plan: median; share with more (US stocks; together) | -$900, 32%; -$1,100, 27% | | +$900, 68%; +$1,100, 73% |
 
 - **The plan reproduces the register exactly** (`checks.summary`: 179 figures compared, largest difference
-  $0.00000000004, no share or count differs): section 4 (central $95,000 to $115,000, unrounded $98,729 to $118,443;
+  $0.00000000004, no share or count differs; re-run Sun 15 Nov evening against the 2026-11-15 files): section 4 (central $95,000 to $115,000, unrounded $98,380 to $118,072;
   funds pay $123,476; excess $8,476; half kept $21,347; $29,823; $144,823; the simulated futures' and US stocks'
   stated ends, contribution, excess and totals); 8f (half kept $6,670 / $9,881 / $20,739 / $41,258, its share of what
   the funds pay, the medians if shares fell, the lowest window $5,779 in Sep 1929); 8i (stated ends and half kept, and
-  `joint_stress.py`'s own arrays in all 585 starting months); 8j (93.2%, 13,618 failures; 99.77%, 467; 96.9%, 54;
-  99.3%, 4; the 13% and 17% rows; the real currency's 98.1% with the same eight failing starts and 99.8%); 8k ($75,298
-  centrally; $40,404 / $78,584 / $120,375 across the 585); 8n's option B. The floor and the stated bottom are identical
+  `joint_stress.py`'s own arrays in all 585 starting months); 8j (93.3%, 13,430 failures; 99.80%, 392; 97.1%, 51;
+  99.3%, 4; the 13% and 17% rows; the real currency's 98.1% with the same eight failing starts and 100%); 8k ($75,298
+  centrally; $40,755 / $78,759 / $121,156 across the 585); 8n's option B. The floor and the stated bottom are identical
   in every split and every future.
-- **The trade at the centre** (`central_frontier`, today's market rates): the stated top steps up $5,000 at 28.6%,
-  41.3% and 53.9% of the shares moved ($110,000, $115,000, $120,000). Where each step starts, her flexibility plus
-  anything above the top is $35,272, $30,006 and $24,740: each $5,000 more promised costs about $5,266 of what she
-  keeps. Inside a step only the mix moves (more shares kept, or more Treasury money above the top), not the total.
+- **The trade at the centre** (`central_frontier`, today's market rates): the stated top steps up $5,000 at 29.5%,
+  42.2% and 54.9% of the shares moved ($110,000, $115,000, $120,000; 28.6%, 41.3% and 53.9% before Sun 15 Nov). Where
+  each step starts, her flexibility plus anything above the top is $35,253, $29,987 and $24,720: each $5,000 more
+  promised costs about $5,267 of what she keeps. Inside a step only the mix moves (more shares kept, or more Treasury money above the top), not the total.
 - **The total barely moves.** What Laura has beyond the ten (the contribution plus her flexibility plus anything above
   the top) is linear in the share moved: against the plan it differs by a median of $372 in the simulated futures, $877
   on US stocks and $1,094 with rates and stocks together, either way. The split decides what is promised and what stays
@@ -1432,7 +1484,11 @@ half; 70% and 30% only show the trade-off it chose. Nothing is re-sized and no e
 
 ### 8p. A 40% fall in world shares before or after the 2031 move (Sun 15 Nov, MODEL; card Q6c)
 - **Checked:** the lead re-ran the script on Sun 15 Nov; every register check passes (central row to the cent).
-- **Script and rerun:** `numbers/fall40.py`, results `numbers/results_fall40_2026-11-15.json`. From the repo root,
+  **Re-run Sun 15 Nov evening** (numbers owner) with the fee charged from each trade day: the script's two hard-coded
+  register values were moved to $98,379.86 and $118,072.32 and every check passes; this morning's file is kept as
+  `results_fall40_2026-11-15_morning.json`. Every stated figure in the table holds; the unrounded tops, the breakevens and
+  the house panel below moved.
+- **Script and rerun:** `numbers/fall40.py`, results `numbers/results_fall40_2026-11-15.json` (evening). From the repo root,
   `python3 -I keel/final_report/numbers/fall40.py` (about 9 seconds). Imports engine, plan and completion; changes no
   other script and writes no other file.
 - **Basis:** the Tue 10 Nov register (design H_plain with the fee cushion, the range rule on the fund's holdings, Keel's
@@ -1442,34 +1498,38 @@ half; 70% and 30% only show the trade-off it chose. Nothing is re-sized and no e
 
 | World (VT; rates) | Stated range (unrounded top) | What the funds pay | Contribution | Above the top | Her flexibility, 1 Jan 2033 | Ten payments | Back from the extra Treasuries by 2042 |
 |---|---|---|---|---|---|---|---|
-| Central: 7.5% a year; forwards | $95,000 to $115,000 ($118,443) | $123,476 | $115,000 | $8,476 | $21,347 | All paid | $74,123 |
-| 40% below Jan 2028 cost at the move, then 7.5% a year | $95,000 to $105,000 ($108,250) | $112,981 | $105,000 | $7,981 | $10,310 | All paid | $74,123 |
-| The same, then flat to 2033 | $95,000 to $105,000 ($108,250) | $112,981 | $105,000 | $7,981 | $8,922 | All paid | $74,123 |
-| Flat to the move, then 7.5% a year (baseline for the next row) | $95,000 to $110,000 ($114,598) | $119,517 | $110,000 | $9,517 | $17,184 | All paid | $74,123 |
-| Flat to the move, then 40% down by Jan 2033 | $95,000 to $110,000 ($114,598) | $119,517 | $110,000 | $9,517 | $8,922 | All paid | $74,123 |
-| 40% down at the move, back on the 7.5% path by Jan 2033 | $95,000 to $105,000 ($108,250) | $112,981 | $105,000 | $7,981 | $21,347 | All paid | $74,123 |
-| 40% down at the move; yields 2 points below forwards from the move | $95,000 to $105,000 ($107,979) | $111,684 | $105,000 | $6,684 | $10,310 | All paid | $55,195 |
-| 40% below the 7.5% path at the move (25.5% below cost), then 7.5% | $95,000 to $110,000 ($110,557) | $115,357 | $110,000 | $5,357 | $12,808 | All paid | $74,123 |
-| VT worthless at the move (section 4's deletion test) | $95,000 ($98,729) | $103,178 | $95,000 | $8,178 | $0 | All paid | $74,123 |
+| Central: 7.5% a year; forwards | $95,000 to $115,000 ($118,072) | $123,476 | $115,000 | $8,476 | $21,347 | All paid | $74,123 |
+| 40% below Jan 2028 cost at the move, then 7.5% a year | $95,000 to $105,000 ($107,891) | $112,981 | $105,000 | $7,981 | $10,310 | All paid | $74,123 |
+| The same, then flat to 2033 | $95,000 to $105,000 ($107,891) | $112,981 | $105,000 | $7,981 | $8,922 | All paid | $74,123 |
+| Flat to the move, then 7.5% a year (baseline for the next row) | $95,000 to $110,000 ($114,232) | $119,517 | $110,000 | $9,517 | $17,184 | All paid | $74,123 |
+| Flat to the move, then 40% down by Jan 2033 | $95,000 to $110,000 ($114,232) | $119,517 | $110,000 | $9,517 | $8,922 | All paid | $74,123 |
+| 40% down at the move, back on the 7.5% path by Jan 2033 | $95,000 to $105,000 ($107,891) | $112,981 | $105,000 | $7,981 | $21,347 | All paid | $74,123 |
+| 40% down at the move; yields 2 points below forwards from the move | $95,000 to $105,000 ($107,620) | $111,684 | $105,000 | $6,684 | $10,310 | All paid | $55,195 |
+| 40% below the 7.5% path at the move (25.5% below cost), then 7.5% | $95,000 to $110,000 ($110,195) | $115,357 | $110,000 | $5,357 | $12,808 | All paid | $74,123 |
+| VT worthless at the move (section 4's deletion test) | $95,000 ($98,380) | $103,178 | $95,000 | $8,178 | $0 | All paid | $74,123 |
 
 - **The steps (today's forwards):** each $1 VT gains or loses before the move moves the unrounded top by about $0.53.
-  Stated top $115,000 needs VT at least 2.5% above its January 2028 cost at the move; $110,000 holds down to a 29.0%
-  fall; $105,000 to 60.5%; $100,000 to 92.0%; $95,000 at zero; $120,000 needs +34.0%. On J.P. Morgan's 7.5% and 17.88%,
-  VT is below +2.5% at the move in 26.8% of futures (lognormal arithmetic).
+  Stated top $115,000 needs VT at least 4.8% above its January 2028 cost at the move (1.6% a year); $110,000 holds down
+  to a 26.7% fall; $105,000 to 58.2%; $100,000 to 89.8%; $95,000 at zero; $120,000 needs +36.4% (Sun 15 Nov evening;
+  this morning, with the fee cancelled: +2.5%, 29.0%, 60.5%, 92.0%, +34.0%). On J.P. Morgan's 7.5% and 17.88%, VT is
+  below +4.8% at the move in 29.2% of futures (lognormal arithmetic; 26.8% for +2.5% this morning).
 - **One $5,000 step of the stated top (lead's check, Sun 15 Nov; closes the digest's CEILING hole):** VT must move about
   31.5 points of its January 2028 cost (about $9,400), which is about 25% of its central value on the move day
-  ($36,989). The share assumption from 4% to 10% moves the unrounded top $116,580 to $119,851 (section 4), $3,271, about
+  ($36,989). The share assumption from 4% to 10% moves the unrounded top $116,211 to $119,478 (section 4), $3,267, about
   0.65 of a step, and the stated top stays $115,000 throughout (card Q6b row 31). Market luck moves it several steps
   (Table 2: $95,000 to $140,000). Keel arithmetic on this section's steps.
-- **Every house in card Q6b's panel, as VT's return to 2033 (lead's run, Sun 15 Nov, `fall40.scenario`; central row
-  reproduced to the dollar):** GMO -2.5% a year: unrounded top $113,438, stated $110,000, her flexibility $13,102;
-  Ninety One 2.2%: $115,669, $115,000, $16,579; Syzygy 5.0%: $117,100, $115,000, $18,978; the panel median 6.5%:
-  $117,898, $115,000, $20,373; J.P. Morgan 7.5%: $118,443, $115,000, $21,347; BlackRock 9.0%: $119,280, $115,000,
-  $22,879. So fourteen of fifteen houses' figures give a stated top of $115,000 and the lowest gives $110,000; the
-  stated top holds at $115,000 for any return above about 0.84% a year to the move.
+- **Every house in card Q6b's panel, as VT's return to 2033 (lead's run, Sun 15 Nov, `fall40.scenario`, VT at (1 + r)
+  cubed to the move and squared after; re-run Sun 15 Nov evening by the numbers owner, J.P. Morgan's row reproducing the
+  register to the dollar):** GMO -2.5% a year: unrounded top $113,072, stated $110,000, her flexibility $13,102;
+  Ninety One 2.2%: $115,301, $115,000, $16,579; Syzygy 5.0%: $116,730, $115,000, $18,978; the panel median 6.5%:
+  $117,528, $115,000, $20,373; J.P. Morgan 7.5%: $118,072, $115,000, $21,347; BlackRock 9.0%: $118,908, $115,000,
+  $22,879. So fourteen of fifteen houses' figures still give a stated top of $115,000 and the lowest gives $110,000;
+  the stated top holds at $115,000 for any return above about 1.6% a year to the move (0.84% this morning). Ninety One
+  now clears the step by $301, so say "fourteen of fifteen" only with the rule as it stands tonight.
 - **How often (house model, 200,000 futures, seed 2033):** VT 40% or more below cost at the move in 0.95% (exact
   lognormal 0.94%); there the stated top is $90,000 / $105,000 / $125,000 (1 in 20 low / median / 1 in 20 high), the
-  bottom $85,000 / $95,000 / $115,000 (as in all futures) and the contribution inside the range in every future. A 40%
+  bottom $80,000 / $95,000 / $115,000 ($85,000 at the 1-in-20 low this morning and in all futures; the group's own
+  1-in-20 now lands one step lower) and the contribution inside the range in every future. A 40%
   fall after the move: 0.49% of futures; contribution median $115,000; her flexibility median $9,898.
 - **How often (US stocks since 1871, rates at forwards, 1,770 windows):** VT 40%+ below cost at the move in 20 windows
   (1.1%), all purchases Oct 1928 to May 1930; stated top $100,000 to $105,000. A 40% fall after the move in 25 windows
@@ -1484,10 +1544,14 @@ half; 70% and 30% only show the trade-off it chose. Nothing is re-sized and no e
   fall after the move changes only her flexibility. Never "the plan is protected from crashes"; never a probability rarer
   than 1 in 100 in prose.
 - **Limits:** a fall is a point on 1 Jan 2031; the recession row moves yields in parallel by a fixed 2 points (3 points:
-  top $107,846, funds pay $111,045, $47,070 back); US stocks stand in for VT in history; stocks and yields are drawn apart
+  top $107,487, funds pay $111,045, $47,070 back); US stocks stand in for VT in history; stocks and yields are drawn apart
   in the house model (section 7).
 
 ## 9. Still to add (later days)
+- **Sun 15 Nov evening (numbers owner), open after the fee fix:**
+  - The haircut's size is the lead's call; the code keeps 0.5% (`completion.HAIRCUT`). The w1 frictions add to about 0.27%, so the 0.5% now leaves about 0.23% of each end beyond them (section 0).
+  - 8q, "both Taiwan risks together" (card Q10e: the US-dollar cost of a fixed Taiwan building budget rose +28.0% at the 1-in-20 two-year point since 1991 and +38.9% at worst, Jul 2006 to Jul 2008), is not yet run against the half kept and the excess in the house model and history the way 8j tests 10%. Q10e's own arithmetic on register figures (a $32,191 need at 28% on $115,000, $2,368 beyond the central $29,823) stands as the card's, not the register's.
+  - `plan.py`'s 365.25-day carry (8k) is still unfixed; tonight's re-run kept it so that every file moves only by the fee.
 - **The exhibits are not yet re-built on these figures.** `exhibits/exhibit_data.py` reads 8h (per payment: own holding above $50,000 and backstop cover, now in four worlds), section 4 and 8i (Exhibit 3). Re-run it, then `exhibits/build_exhibits.py`; this register run did not touch them. `exhibit_data.py` should read the backstop's value on 1 Jan 2033 ($45,456), not its cost carried ($45,487).
 - **Cards Q19, Q20 and Q24 refresh to these figures** (section 10). Q24's Taiwan dollar test (verdict 3, rows 22-25, card 4) is replaced by 8j.
 - **8j and 8k were added Tue 10 Nov evening.** Still open from them:
@@ -1526,6 +1590,33 @@ Paths are under `keel/final_report/` unless shown. Each file's owner changes it,
 | exhibits/exhibit_data.py | 109-112 | Exhibit 3 central row: $110,000 to $130,000*, $138,735*, $23,986 | Re-run from 8i |
 | exhibits/exhibit_data.py | 122-127 | House bands (93000, 115929, 140000), (111000, 138735, 171000), (12000, 23986, 47000); stated $110,000 / $130,000 | Re-run from section 4 |
 | exhibits/build_exhibits.py and exhibits/exhibit2_reserve.svg (lines 553, 625 show +$1,705 and +$5,266) | | Built from exhibit_data.py | Re-run after exhibit_data.py |
+
+**Sun 15 Nov evening: files quoting a figure the fee fix (or cards Q3c and Q10e) moved** (listed, not edited; line numbers as of Sun 15 Nov evening; each owner replaces from the section named)
+
+| File | Line | Quotes | Replace with |
+|---|---|---|---|
+| SKELETON.md | 27, 45, 46, 235 | "1 in 790", "$211" (one house path below the bottom at a 0.75% cost) | About 1 in 810 (247 paths); 3 paths, up to $182 (8l). Line 27 is a judge's quote of old tail figures: leave the quote, fix any figure Keel restates |
+| SKELETON.md | 27, 44, 234 | "99.77%" (half kept plus excess covers a 10% stronger Taiwan dollar); l.44 and 234 "96.9%" (history); l.234 "93.2%", "1 in 430" | 99.80%; 97.1%; 93.3%, about 1 in 510 (8j). The real currency with the excess is now 100% (was 99.8%) |
+| SKELETON.md | 47 | Unrounded top "$116,580" to "$119,851" across VT 4% to 10% | $116,211 to $119,478 (section 4); the stated top is $115,000 throughout, unchanged |
+| CONCEIT.md | 82 | Stated bottom $95,000 "(unrounded $98,729)" | $98,380 (section 3's worked example) |
+| exhibits/tables.md | 68-72 | Table 2: rates 3 points lower, bottom $80,000; history flexibility $19,700 / $31,800 / $49,600 | Done Sun 15 Nov evening (rebuilt from `exhibit_data.py`, 390 checks, 0 FAIL): $75,000 (8i); $20,200 / $32,300 / $50,900 (8j joint replay). No plan file quotes the old three |
+| exhibits/tables.md | 93 | Table 3 row 4: "Ending notice in October; cash 4 to 9 business days before year end" | Done: "Ending notice in September to October; cash 4 to 9 business days before year end (4 to 6 for 2036)". IBTA's early end (cash about 19 business days before year end, card Q3c row 8) is not in the table: any mention of it in row 4 or a longer note puts Table 3 on two pages (measured), so it is listed under the table for 3e's prose |
+| exhibits/tables.md, Table 2's note items | 78 | Basis of each end missing; "each row is a different market before January 2028" | Done (bond desk 3c check M2, M5, M6, M7): the basis as in section 0; each column's own date with the trade days (Mon 3 Jan 2028; Thu 2 Jan 2031, before the 2031 meetings); M7's sequence if room. The note budget is now 95 words (was 45), so Table 2 costs 16.2 double-spaced lines (was 12.2), about 57 words of prose more |
+| SKELETON.md | 10-11 | Section 3 "at most about 1,960 words beside Figure 1, Table 2 and the monitoring table", "budget 1,900" | About 1,900 at most with Table 2's 95-word note (4.0 lines more at 14.26 words a line), so no headroom on the 1,900 budget; or cut Table 2's note back. Table 3 is unchanged (21.9 lines with its note, one page) |
+| ARGUMENT_LOG.md 15, 17; LESSONS.md 37, 45, 53; SCORECARD.md 145, 147 | | 1 in 790, 93.2%, 99.77% | Dated records: leave as history |
+| research/cards/Q6c_falls_and_the_top.md | 54-70, 98-102, 156-159, 186-187, 253-266, 284 | Unrounded tops $118,443, $108,250, $114,598, $107,979, $110,557, $98,729, $107,846; breakevens +2.5% (0.84% a year), 29.0%, 60.5%, 92.0%, +34.0%; 26.8% of futures | 8p: $118,072, $107,891, $114,232, $107,620, $110,195, $98,380, $107,487; +4.8% (1.6% a year), 26.7%, 58.2%, 89.8%, +36.4%; 29.2%. Every stated figure holds |
+| research/cards/Q6b_forecast_panel_2027.md | 47, 87 (row 31) | $116,580 to $119,851 | $116,211 to $119,478 (section 4) |
+| research/cards/Q41_conceit_audit.md | 30-32, 85 | 4.312%, 3.83%, $98,729, $118,443, 93.2% | 4.650%, 4.17%, $98,380, $118,072 (section 3); 93.3% (8j) |
+| research/cards/Q4c_how_sure_words_and_numbers.md | 65, 106, 120 | Unrounded top $118,443 | $118,072 (section 4) |
+| research/cards/Q3a_floors_in_markets.md | 99, 178 | 3.83% / 2.38%; 4.312% / 2.870% | 4.17% / 2.49%; 4.650% / 2.981% (section 3) |
+| research/cards/Q10b_taiwan_dollar_2025_and_insurers.md | 11, 12, 171 | 93.2%, 99.77%; the correlation "close to none" | 93.3%, 99.80% (8j); the correlation is two opposite periods (8j, card Q10e) |
+| research/cards/Q39_strongest_critiques.md | 280, 300, 350 | 4.312; 93.2%, 99.77%; "unlinked to shares" | 4.650% (section 3); 93.3%, 99.80% (8j); 8f as corrected (card Q10e) |
+| research/cards/Q5b_kept_share_numbers.md | 35, 54, 55 | 93.2%, 99.77% | 93.3%, 99.80% (8j, 8o) |
+| research/cards/Q30_table3_cut_and_xdate.md 257; Q37_stating_assumptions.md 96, 220; Q6d_one_world_fund.md 83, 120, 208 | | 93.2% (and Q30's 99.77%) | 93.3%; 99.80% (8j) |
+| research/meta/BOLD_THESES.md | 339, 400, 688 | $116,580 to $119,851; 93.2%; 99.77% | $116,211 to $119,478; 93.3%; 99.80% |
+| Cards Q16 row 6, Q36 row 5 and any card saying "three funds read at the source" or "notice in mid-October" | | IBTA from a secondary site; 10 to 14 days for all | Card Q3c: all five read at source; IBTA paid 29 days before 1 January; notices September to October (8h) |
+
+False positives, not changed: 3.83% in Q12b l.50 and Q16 l.137 (other figures), 4.31% in Q10c l.123 and harvest H8 l.112, 60.5% in Q11a l.81 and Q11c l.117, 0.84% in Q32 l.107. Panel files are dated records.
 
 **Research cards** (`research/cards/`)
 

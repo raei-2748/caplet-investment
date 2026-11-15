@@ -1222,6 +1222,37 @@ These shape Keel's guards; they enter References only if the report's text uses 
 - Full elements for every source: cards Q42 (l.302), Q43 (l.363) and Q44 (l.163).
 
 
+### 2J. Sun 15 Nov evening: cash at zero, ended funds, Taiwan's two risks, founders' share, selling in a stress (cards Q2d, Q3c, Q10e, Q11e, Q45)
+
+Class-A investing and central-bank works read tonight and not yet in `REFERENCES_APA.md`. Full APA elements, URLs and
+the date read are in each card's Sources section (Q2d l.173, Q3c l.183, Q10e l.204, Q11e l.203, Q45 l.155).
+
+| Work | Card | Class | What it supports |
+|---|---|---|---|
+| Burke, Hilton, Judson, Lewis & Skeie (2010), FOMC staff memo on the IOER rate | Q2d | A | Why US short rates stop near zero (currency), so the escrow test at zero is the floor of the record |
+| Kiley & Roberts (2017), FEDS 2017-080; FEDS 2019-003 and 2020-067 | Q2d | A | Zero is a forward risk: roughly 20-50% odds of the lower bound within a decade |
+| Bech & Malkhozov (2016), *BIS Quarterly Review* | Q2d | A | How negative policy rates passed into money markets abroad |
+| Keister (2011), *Liberty Street Economics* | Q2d | A | Why money funds make a rate below zero hard |
+| U.S. Department of the Treasury (2012), 31 CFR Part 344 (SLGS) | Q2d | A | Escrow cash floored at zero by rule |
+| U.S. SEC (2023), money market fund reforms | Q2d | A | Stable-NAV funds may cancel shares if rates go below zero |
+| iShares (2026), *iBonds ETF maturity case study and FAQs* | Q3c | A | All five ended Treasury iBond funds against their launch yields (cite trust filings for dates) |
+| iShares Trust (2021, September 28), supplement on IBTA's early end; N-CSR annual reports 2021-2023 | Q3c | A | An early end brought cash before 1 January |
+| Bank for International Settlements (2021), "The anatomy of bond ETF arbitrage" | Q3c | A | Discounts turned to premiums after 23 March 2020 |
+| Haddad, Moreira & Muir (2020), NBER working paper | Q3c | A | Liquid bond ETFs, Treasuries included, traded at discounts in March 2020 |
+| Drenovak, Urošević & Jelic (2012), European bond ETFs in the sovereign debt crisis | Q3c | A | Sovereign bond funds tracked within tens of basis points in a crisis |
+| Duffie (2020), Hutchins Center Working Paper 62 | Q45 | A | The Treasury market's March 2020 dash for cash |
+| Fleming & Ruela (2020), *Liberty Street Economics* | Q45 | A | Treasury bid-ask and depth, 12-16 March 2020 |
+| Vissing-Jorgensen (2021), BIS Working Paper 966 | Q45 | A | Who sold Treasuries in spring 2020, and the Fed's purchases |
+| Interagency Working Group on Treasury Market Surveillance (2021) | Q45 | A | Dealer-to-customer spreads rose more than tenfold |
+| Pintér, Wang & Zou (2022), Bank of England Staff Working Paper 970 | Q45 | A | Small trades in government bonds cost little more than large ones |
+| U.S. SEC (2023), Regulation Best Execution, 88 FR 5440 | Q45 | A | Retail-size Treasury trades 0.07% against 0.04% (CANON B24) |
+| Wu (2025), MSRB | Q45 | A | Odd lots cost far more in municipal and corporate bonds |
+| Investment Company Institute (2020), ETFs during the COVID-19 crisis; IOSCO (2021) thematic note | Q45, Q3c | A | Government bond ETFs had the smallest discounts among bond funds |
+| Aramonte & Avalos (2020), BIS Bulletin 6 | Q45 | A | Bond ETF discounts as a stress gauge |
+| AACE International RP 58R-10 (escalation estimating) | Q10e | A | Escalation and currency share drivers and methods; estimate them apart, test them together |
+| Public Construction Commission model construction contract, art. 5(1)6 | Q10e | B | Public contracts in Taiwan pass index rises to the owner by default (store only; Taiwan legal is out of scope) |
+| 文化部 (Ministry of Culture) private old buildings programme rules and case list (2026) | Q11e | B | Owners paid 48.3%; overruns are the owner's to meet |
+
 ## 3. What the rules allow, and the shape we recommend
 
 ### 3a. Wharton

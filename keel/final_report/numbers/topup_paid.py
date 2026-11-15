@@ -52,7 +52,7 @@ covers_fee = sum(E.PAYMENT - min(own_fee[y], E.PAYMENT) for y in Y)
 topup28 = C.completion_exact(0.0)[0]
 tail28 = C.completion_exact(0.0, "plain")[0]
 
-out = {"stamp": {"run": "Fri 13 Nov 2026 (Sydney)", "design": C.CALL, "curve": E.CURVE_DAY},
+out = {"stamp": {"run": "Fri 13 Nov 2026 (Sydney); re-run Sun 15 Nov evening (unchanged by the range rule)", "design": C.CALL, "curve": E.CURVE_DAY},
        "topup_jan2028": topup28, "ten_still_lack_jan2028": tail28, "for_no_interest_jan2028": topup28 - tail28,
        "for_no_interest_jan2027": C.cost(C.BACKSTOP),
        "holdings": rows,
@@ -67,7 +67,7 @@ out = {"stamp": {"run": "Fri 13 Nov 2026 (Sydney)", "design": C.CALL, "curve": E
        "by_payment_fee_world": {y: {"own_pays": min(own_fee[y], E.PAYMENT), "topup_pays": E.PAYMENT - min(own_fee[y], E.PAYMENT),
                                     "topup_cash_arriving_for_it": pool_fee[y]} for y in Y}}
 # what comes back from the top-up if rates follow today's forwards (8h, 8k), for the same sentence
-res = json.loads((HERE / "results_reserve_2026-11-10.json").read_text())
+res = json.loads((HERE / f"results_reserve_{C.RESULTS}.json").read_text())
 out["comes_back_if_forwards_hold"] = {"nominal_by_1jan2042": res["base_left_after_2042"],
                                       "value_1jan2033": res["margin_value_1jan2033_at_forwards"]}
 
@@ -90,7 +90,7 @@ for y, (a, b) in CASH.items():
                "months_to_payment_from_last": round((date(y, 1, 1) - d2).days / 30.44, 2),
                "months_to_payment_model": round((date(y, 1, 1) - I[y].end).days / 30.44, 2)}
 out["cash_dates"] = cash
-(HERE / "results_topup_2026-11-13.json").write_text(json.dumps(out, indent=1))
+(HERE / f"results_topup_{C.RESULTS}.json").write_text(json.dumps(out, indent=1))
 
 k = C.fmt
 print(f"top-up {k(topup28)} = ten still lack {k(tail28)} + for no interest {k(topup28 - tail28)} "

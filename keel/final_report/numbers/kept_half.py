@@ -102,6 +102,7 @@ cen = P.run(c, m3, margin_fn=MF)
 out["central"] = {"kept33": float(cen["kept33"]), "vt_bought_jan2028": float(cen["vt28"]),
                   "kept_at_cost": float(cen["vt28"] / 2),
                   "excess": float(C.rule(cen)["excess"])}
-out["stamp"] = {"curve": E.CURVE_DAY, "design": NAME, "margin_jan2027_value": m3, "run": C.RUN}
-json.dump(out, open(HERE / f"results_kept_half_2026-11-10{C.tag(NAME)}.json", "w"), indent=1)
+out["stamp"] = {"curve": E.CURVE_DAY, "design": NAME, "margin_jan2027_value": m3, "run": C.RUN,
+                "rerun": "Sun 15 Nov 2026 evening", "rule": C.RULE_VERSION}
+json.dump(out, open(HERE / f"results_kept_half_{C.RESULTS}{C.tag(NAME)}.json", "w"), indent=1)
 print(json.dumps(out, indent=1))

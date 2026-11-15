@@ -153,7 +153,9 @@ SC["b"]["change_vs_b0"] = {x: SC["b"][x] - SC["b0"][x] for x in (
     "her_flexibility_plus_above_top")}
 
 # ---------------------------------------------------------------- checks against the register (NUMBERS 4, 8i, 8k)
-REG = {"bottom_stated": 95_000, "bottom_unrounded": 98_728.56, "top_stated": 115_000, "top_unrounded": 118_443.46,
+# Sun 15 Nov evening: the unrounded ends are the register's after the fee is charged from each trade day (NUMBERS 0,
+# section 4; were $98,728.56 and $118,443.46)
+REG = {"bottom_stated": 95_000, "bottom_unrounded": 98_379.86, "top_stated": 115_000, "top_unrounded": 118_072.32,
        "funds_pay": 123_475.56, "contribution": 115_000, "above_top_to_her_flexibility": 8_475.56,
        "her_flexibility_jan2033": 21_347.30, "her_flexibility_plus_above_top": 29_822.86,
        "completion_jan2028": 38_282.14, "payments_left_after_2042_nominal": 74_122.57,
@@ -401,7 +403,7 @@ years_span = (len(idx) - 1) / 12
 us["episodes_40pct_per_century"] = len(us["episodes_40pct_or_more"]) / years_span * 100
 us["years_span"] = years_span
 
-out = {"stamp": {"run": "Sun 15 Nov 2026 (Sydney)", "curve": E.CURVE_DAY, "design": NAME, "card": "Q6c",
+out = {"stamp": {"run": "Sun 15 Nov 2026 (Sydney); re-run Sun 15 Nov evening", "rule": C.RULE_VERSION, "curve": E.CURVE_DAY, "design": NAME, "card": "Q6c",
                  "margin_jan2027_value": MARGIN, "basis": "Tue 10 Nov register (NUMBERS 0, 4, 8i)",
                  "fall": "VT index with dividends, before its 0.06% fee, at 0.6x the earlier value"},
        "checks_central_vs_8i_row1": checks, "checks_zero_vs_numbers4": checks_zero, "all_checks_pass": bool(ok),
@@ -409,7 +411,7 @@ out = {"stamp": {"run": "Sun 15 Nov 2026 (Sydney)", "curve": E.CURVE_DAY, "desig
        "house": house, "history_us_rates_at_forwards": hist, "us_drawdowns_since_1871": us,
        "developed_world_msci_calendar_years": world,
        "seconds": round(time.perf_counter() - T0, 1)}
-json.dump(out, open(HERE / "results_fall40_2026-11-15.json", "w"), indent=1, default=float)
+json.dump(out, open(HERE / f"results_fall40_{C.RESULTS}.json", "w"), indent=1, default=float)
 
 # ---------------------------------------------------------------- print
 k = lambda x: f"${x:,.0f}"
