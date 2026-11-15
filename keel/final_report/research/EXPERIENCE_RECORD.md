@@ -33,22 +33,25 @@ The spine is Caplet's own timeline in the Final Report doc's Experience tab, as 
 | Fri 6-Sat 7 Nov | The team set every earlier draft aside and wrote its own IPS as a letter to Laura, in plain sentences, with one investing idea at its centre (her career behaves like shares she can't sell). It was in before 09:00 Sat Sydney, when trading froze and the portfolio locked | The plan stayed; the explanation was rebuilt | `keel/final_report/FINAL_IPS_as_submitted.txt`; `keel/INSTRUCTIONS.md` I92 |
 | 6 Nov close | The ten Treasuries would cost $301,544 on 1 Jan 2027, just over the $300,000 deposit | The IPS's completion rule is needed, not hypothetical | `keel/final_report/NUMBERS.md` section 1 |
 
-## 2. The five strongest moments, and what makes each vivid
+## 2. The strongest moments: the team's own learning only (re-picked Sun 15 Nov, INSTRUCTIONS I115)
 
-1. **The model that killed the team's own plan (27 Sep).** The numbers are the drama: 3.2%, then 40.8% if Laura's
-   2028 money never came. The team changed course on day one of trading. Growth: evidence over attachment.
-2. **00:30 in Sydney (7 Oct).** The US market opened after midnight; one teammate fell asleep before it; a mis-click
-   ended with one person placing every order. Concrete, human, and it shows a control coming from a mistake.
-3. **Darren's "copout" (5 Oct).** A teammate attacked the plan's simplest part; Taiwan and gold were on the table;
-   the team kept one world fund and can say why. Shows disagreement handled on reasons.
-4. **The stale prices (29-30 Sep).** Two bond prices a full point of yield off the curve, caught before any order,
-   and a rule written the same day. Shows checking.
-5. **The night of 6 Nov.** Weeks of rewrites, then the team wrote its own IPS as a letter to Laura and sent it
-   before the morning deadline. The plan held from late September; only the way of saying it changed.
+Caplet, Sun 15 Nov: a reflection moment must show the team's own thinking changing; a moment built on Keel's or
+Claude's work shows nothing about the team's growth. The morning's five (the 27 Sep model, 00:30 and the mis-click,
+the copout, the stale prices, the IPS letter of 6 Nov) are replaced. The ranked list, the tests and the evidence are in
+`experience/RANKING_3_TEAM_LEARNING.md`; in short:
 
-Also usable: the $1,900 margin on 16 Oct (the plan's tightest point, and the reason for the completion rule); the
-mid-competition rule changes (6 Oct, 20 Oct, 22 Oct) and how each was absorbed; last year's lesson as the opening of
-the team's growth story.
+1. **Last year's lessons carried into this year.** Twelve themed stocks and a $5,400 loss on one; this year every trade
+   inside the list, no stock picks, complexity made to earn its place.
+2. **Laura's career is a stock she cannot sell.** From the team's first client notes (27 Sep) to the pitch's first line.
+3. **What the $300,000 in WInS stands for (29 Sep-1 Oct).** A teammate saw WInS never shows the second deposit; the team
+   chose to show the whole plan, scaled.
+4. **The copout and one world fund (5 Oct).** Told with the team's own reason, from Trading Note 3's reflection ("the
+   vain illusion that we can pick winners"), never with the test of 30 Sep, which was Claude's.
+5. **Our first plan failed its own test (27 Sep).** Marked: the model was Claude's; the plan and the change were the
+   team's.
+
+Out: the IPS letter after the Keel drafts (the drafts were Keel's); the mis-click (an automated browser click, not a
+teammate's slip); 00:30 and the eleven fills (nothing changed); every event about directing Keel.
 
 ## 3. Illustrations the report may use (told as illustrations)
 

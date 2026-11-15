@@ -4,7 +4,7 @@ First draft Sun 8 Nov 2026 (Sydney), a day earlier than the plan's Mon 9 Nov; re
 independent line-by-line checks against every book and every register row. Written at Caplet's request (Book 14): "create truly comprehensive notes on all of my Bibles
 ... such that I could say, 'You've expressed my thoughts and expectations even better than I did.'"
 
-**What these notes cover.** Every book of the Bible (Books 1-17; Book 17 of Sat 14 Nov is carried in standing orders 11-19, and Caplet's conceit decision of the same evening in standing order 20; the cover note of 26 Oct, the preface on where the
+**What these notes cover.** Every book of the Bible (Books 1-17; Book 17 of Sat 14 Nov is carried in standing orders 11-19, and Caplet's conceit decision of the same evening in standing order 20; Caplet's rule on reflection moments (Sun 15 Nov) in standing order 21; the cover note of 26 Oct, the preface on where the
 Bible sits, the list of what it overruled on 26 Oct), Ray's points of 5 Nov that Book 12 says to keep in mind, the Ten
 Commandments Keel drew from Books 1-10, every row of the instruction register (`INSTRUCTIONS.md`, B and I01-I93), and
 Keel's earlier rubric of Caplet's expectations for the IPS (`ips_rewrite/final_night/other_thread/harvest/05_EXPECTATIONS.md`).
@@ -94,11 +94,24 @@ days are run. Quotes are Ray's words. Keel's steps for following them every day 
 18. **Nothing good is lost (I111).** "Every single thing you research is something that should end up in the Final
    Report if it's good." Every strong idea has a place in the report or a stated reason it has none
    (`final_report/research/GEM_LEDGER.md`); work that cannot reach the report is stopped or changed until it does.
-19. **Experiences, blind and equal (I112, I113).** Every real event of Caplet's and of Keel's real work is pooled and
+19. **Experiences, blind and equal (I112, I113); for the reflection, superseded by standing order 21 (I115, 15 Nov).** Every real event of Caplet's and of Keel's real work is pooled and
    judged blind, with equal standing, and the strongest are told vividly; new real events are made by doing real work.
    Caplet asked that the diary's invented people and scenes, and invented details, be usable too; Keel does not write
    invented events, people or details into the report as things that happened (5.1, T24). The diary's material can be
    used where the report presents it openly as a simulation the team ran. The final text is Caplet's to decide.
+
+### Caplet on the reflection moments (Sun 15 Nov, 14:46 Sydney; INSTRUCTIONS I115): standing order 21
+
+21. **A reflection moment shows the team's own learning, or it is out (I115).** "Unless you can find (or come up
+   with!) a good reason for us to have chosen to stick with the world fund, it's not a great indicator of learning";
+   and the Keel drafts "weren't done by us – they were done by you – so that doesn't suggest the growth of US as a
+   team." Two tests, both needed: (1) the team's own: a teammate noticed it, argued it or decided it; an event whose
+   decisive work was Keel's or Claude's (a draft, a model run, a price check, a browser click) is out, and one where the
+   team decided on Claude's work is marked so Caplet can judge it; (2) learning: what the team believed before, what
+   changed it, what it did differently afterwards, with the reason in the team's own record (its timeline, notes,
+   Trading Notes, IPS). A reason found later is told as what the team understands now, never as what it thought at the
+   time. This supersedes standing order 19's blind, equal pooling for the Team Reflection and the Articulation
+   section. Scores: `final_report/research/experience/RANKING_3_TEAM_LEARNING.md`.
 
 ### Caplet's conceit decision (Sat 14 Nov, 17:19 Sydney; INSTRUCTIONS I114): standing order 20
 

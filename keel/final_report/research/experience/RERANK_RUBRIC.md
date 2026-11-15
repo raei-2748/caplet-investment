@@ -18,6 +18,12 @@ decision-making, uncertainty, and learning shaped its investment thinking and fi
 4. Read all five rows first, then score each criterion on its own. Never give one overall mark: readers agree far less
    on an overall mark than criterion by criterion.
 
+**The gate (Caplet, Sun 15 Nov, INSTRUCTIONS I115; applies before any scoring).** Only the moments in
+`RANKING_3_TEAM_LEARNING.md` section 2 go in the pack. A moment is in only if it is the team's own (a teammate noticed,
+argued or decided it) and shows learning (what the team believed before, what changed it, what it did after). Events
+whose decisive work was Keel's or Claude's are out, however vivid. A reason found later is told as what the team
+understands now. Criterion D below is read first and breaks every tie.
+
 **Five criteria, 1 to 5** (2 and 4 sit between the anchors)
 
 | Criterion (Wharton's words first) | 1 | 3 | 5 |
@@ -32,14 +38,14 @@ decision-making, uncertainty, and learning shaped its investment thinking and fi
 "may not redesign your strategy after observing the results". An event that mainly retells a Trading Note scores 1 on E.
 
 **Totals and ties.** Score = mean of the three readers' totals (5 to 25); one reader never decides. A gap under 1.0 is a
-tie: break it on A, then E. Where two readers differ by 2 or more on a criterion, each writes one line why. No conferring
+tie: break it on D, then A, then E (I115). Where two readers differ by 2 or more on a criterion, each writes one line why. No conferring
 before scoring.
 
 **The set (the lead, after scoring).** At least one event scores 4 or 5 on C. At least one is a success or a decision
 kept after a real, dated test, told with what was luck. No two tell one story (the ladder's cost through 2026 is one).
 None retells the Trading Notes.
 
-**For whoever prepares the pack (not the readers).** Remove origin, candidate ids, old ranks and personal names (use
+**For whoever prepares the pack (not the readers).** Pack only the moments in `RANKING_3_TEAM_LEARNING.md` section 2, with its before, trigger and after, and the team's own words. Remove origin, candidate ids, old ranks and personal names (use
 roles). Correct from card Q21 a2, refreshed to Tue 10 Nov's register:
 - VOID figures: X006, X020 (part), X026, X028 (and its "about $1,900"), X032 (part), X045, X059, X087.
 - X003 and X045 after-figures: floor payout $103,178; central range $95,000 to $115,000 (NUMBERS s4, s6, s10).
