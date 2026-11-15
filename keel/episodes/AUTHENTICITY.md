@@ -150,7 +150,11 @@ a message from Caplet, a finding, a mistake caught); only the people are invente
   told with no one taking it in, and unexplained marks), then 11 mostly small (a closing moral, a one-line paragraph,
   endings on wins), then 13 small (endings, stiff words, a time that said "afternoon" for before six, a contradiction in
   how the average was described); each was cut or put in plain words, and the third read's fixes went in without a
-  fourth read.
+  fourth read. Ep 49 (Sun 15 Nov) failed three fresh reads: 17 lines (three serious: an entry ending on the case
+  for the world fund as a slide line, "for the right reason", a fee paragraph nobody could follow), then 11 (one serious:
+  a line saying what Caplet's 21:29 message took back), then eight (one serious: a paragraph ending on the readers'
+  verdict on the two writers who used the picture; files as the subject where Keel had put the warning back); each was
+  cut or put in plain words, and the third read's fixes went in without a fourth read.
 
 ## 3. Sources, and what each teaches (all accessed Sun 8 Nov 2026)
 
