@@ -94,6 +94,9 @@ Moment 1 leads, because it carries the most investing thought.
   - it missed one in 13.7% if the 2028 deposit came in at $75,000;
   - it missed one in 40.8% if the deposit never came;
   - a plan that bought the ten in Treasuries first never missed one.
+    (Mon 16 Nov, NUMBERS 8s: in the 27 Sep model this "never" was written into the code, not tested. The true basis
+    is NUMBERS 2: the ten are paid even if cash waiting earns nothing, with the 2028 deposit's first dollars. Say it on
+    that basis, and never set 40.8% against it.)
 
   These are figures from 27 Sep's model (`keel/library/verified_2026-09-27/strategy_mc.py`), always dated. Say "in our
   simulations", without counting paths. The plan was dropped before a single trade and rebuilt with payments first. The

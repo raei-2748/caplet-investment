@@ -160,7 +160,7 @@ Findings:
    $7,296-$22,459; 226 windows over $10,000). The 55.6% is one rate cycle: 17.1% of windows starting 1962-1980 (39 of 228),
    80.1% of those starting 1981-2010 (286 of 357); with about four independent periods its 95% interval is about 18%-88%,
    so it is said as "more often than not for start dates since 1981, rarely before", never as a bare 55.6%. Taking out the
-   term premium does not rescue it: centred on the Fed's Kim-Wright premium of 6 Nov (0.87 points) it is 54.7% (Q64).
+   term premium does not rescue it: centred on the Fed's Kim-Wright ten-year term premium of 6 Nov (0.87 points; a single forward's premium is larger, so never mix the two) it is 54.7% (Q64, rater H).
 2. **The bond desk's answer (B) halves the risk at the same cost, but contradicts the IPS.** In B, the long bonds'
    coupons pay 2033 and 2034, so the 2033 and 2034 funds are never bought in January. That breaks "In January 2027
    we'll use your first deposit to buy 10 Treasuries" and TNA note 2's IBTM for "her first $50,000 payment". It stays
@@ -1747,12 +1747,188 @@ What it shows:
   year); yields move apart from shares; history uses monthly averages; the first trading day of each month stands for
   the 1st.
 
+### 8s. The first plan, re-run: how a share-led plan missed its payments (Mon 16 Nov, numbers owner, MODEL; `numbers/first_plan.py`, `numbers/results_first_plan_2026-11-16.json`)
+- **Script and rerun:** `python3 -I keel/final_report/numbers/first_plan.py` from the repo root (about 10 seconds).
+  Imports the 27 Sep model by its path, and engine, plan and completion; changes no other script, writes no bytecode
+  beside them, reads no results file and writes no other file.
+- **The question.** The Team Reflection (3f; RANKING_4 moment 2, RANKING_5's "too bold, then too timid") tells how the
+  team's first plan (its notes of Sun 27 Sep, `keel/library/council_2026-09-27/team_notes_2026-09-27.md`: a growth
+  clock to 2031 at about 75% shares, a glide to 20-25% by the eve of 2033, then a Treasury "Payment Ladder" bought from
+  2033) was tested that day, before any trade, and missed at least one of the ten payments in 3.2% of simulated markets,
+  13.7% with a $75,000 2028 deposit and 40.8% with none. The three figures were in CLAUDE.md and RANKING_4, not here.
+  Three cold readers (Mon 16 Nov) asked (a) why 3.2% fails "a high degree of certainty" and (b) how the risk works.
+- **The model: the 27 Sep model, not this register's engine.** `keel/library/verified_2026-09-27/strategy_mc.py`,
+  Strategy G ("growth first, buy the reserve in 2033"). Its inputs, exactly as the script states them:
+
+  | Input | Value in the 27 Sep model |
+  |---|---|
+  | Paths, seed | 200,000; 20260927 |
+  | Shares | J.P. Morgan 2026 LTCMA, U.S. large cap: 6.70% compound, 7.94% arithmetic, 16.47% volatility; annual returns lognormal, log mean 0.0649 and log s.d. 0.1520, solved so compound and arithmetic both match |
+  | The rest | J.P. Morgan 2026 LTCMA, U.S. intermediate Treasuries: 4.00% compound, 4.06% arithmetic (3.48% volatility; log s.d. 0.0340); correlation with shares -0.01 |
+  | Share weight, 2027 to 2032 | 75%, 75%, 75%, 75%, 60%, 40%, rebalanced each year |
+  | Money in | $300,000 on 1 Jan 2027; the 2028 deposit ($150,000, $75,000 or none) on 1 Jan 2028, before that year's return |
+  | The ten, bought 1 Jan 2033 | Ten $50,000 payments, the first that day, at one flat yield of 5.26% plus a normal draw of s.d. 1.0 point, floored at zero ("ASSUMPTION: flat curve in 2033"): $401,312 at 5.26%, $16,089 more per point lower |
+  | Curve | The official par curve of Fri 25 Sep 2026: the lock-early ladder at $292,264 and the 2-year 4.81%. The growth-first design uses neither; its 5.26% is the flat rate the script takes as that curve's equivalent (it gives about $295,000 in 1 Jan 2027 money) |
+  | Fees, taxes | None |
+  | A miss | The money on 1 Jan 2033 is less than the ten cost that day (the script's "P(payments not fully funded)") |
+
+- **Check (asserted).** The model is imported unchanged: 6,453 of 200,000 paths short, **3.2265%**; with a $75,000
+  deposit 27,386, **13.693%**; with none 81,615, **40.8075%**. Its printed surplus percentiles ($20,000 / $131,000 /
+  $226,000 / $338,000 / $540,000, as CLAUDE.md records) and its two sensitivity rows (shares 5.0% compound: 5.5%; 2033
+  yield s.d. 1.5 points: 3.5%) also reproduce. The draws are rebuilt in the script's order and equal `simulate("G")`'s
+  surplus path by path, so each miss can be taken apart.
+- **What decides a miss: one date, 1 Jan 2033.** The growth-first design sells no share to pay a payment. Its share
+  weight glides to 40% in 2032 and on 1 Jan 2033 all the money buys the ten in Treasuries. Every miss is settled that
+  day, before the first payment, by the share and bond returns of 2027 to 2032 and the 2033 yield. The model has no share
+  return after 2032, so it cannot test "shares sold to pay each date" or a fall in 2033-2035; the analysis below splits
+  2027-2030 (the four years at 75%) from 2031-2032 instead. A shortfall that day cannot be made up later: no money comes
+  in after January 2028.
+
+**The misses, 27 Sep model** (shortfalls in 1 Jan 2033 money):
+
+| 2028 deposit | $150,000 (the case) | $75,000 | None |
+|---|---|---|---|
+| Paths short (of 200,000) | **6,453 (3.23%; 1 in 31.0)** | 27,386 (13.69%; 1 in 7.3) | 81,615 (40.81%; 1 in 2.5) |
+| Shortfall where short: median / 1-in-20 largest / largest | $27,695 / $92,543 / $199,697 | $37,264 / $116,026 / $242,009 | $57,549 / $151,063 / $285,401 |
+| Median shortfall, share of the ten's cost that day | 6.8% | 9.2% | 14.3% |
+| Shortfall less than $50,000 (1 Jan 2033 money) | 74.6% of misses | 62.4% | 44.0% |
+| Payments bought in full where short, date order: median / 1-in-20 low | 9 / 7 | 8 / 6 | 8 / 5 |
+
+**Which payment goes unpaid first,** if the money on 1 Jan 2033 buys the ten nearest first (the team's notes lock the
+near payments first). Number of failing paths:
+
+| First payment not bought in full | 2033-2036 | 2037 | 2038 | 2039 | 2040 | 2041 | 2042 |
+|---|---|---|---|---|---|---|---|
+| $150,000 deposit (6,453 misses) | 0 | 1 | 22 | 177 (2.7%) | 726 (11.3%) | 1,881 (29.1%) | **3,646 (56.5%)** |
+| $75,000 (27,386) | 1 (2036) | 41 | 413 | 1,808 | 4,584 | 8,382 | 12,157 |
+| None (81,615) | 76 (2035-2036) | 1,125 | 4,920 | 11,491 | 18,308 | 22,073 | 23,622 |
+
+Bought longest first instead (the IPS's build order for 2027), the same shortfall would fall on 2033. Which date carries
+it is a choice made in January 2033; its size in 1 Jan 2033 money is not. In the late payment's own dollars it is larger,
+since money set aside for 2042 would have earned interest to then: the median miss leaves 2042 $40,412 short, or 2033
+$27,695 short.
+
+**What drives the 3.2%** ($150,000 deposit):
+
+| | Failing paths (6,453) | All paths |
+|---|---|---|
+| Shares lower after 2027-2030 than at the start | **97.5%** | 19.7% |
+| Chance of a miss if shares are lower after 2027-2030 / higher | **16.0% (about 1 in 6)** / 0.10% (about 1 in 1,000) | |
+| Shares over 2027-2030: 1-in-20 low / median / 1-in-20 high | -46.4% / -27.6% / -4.6% | -21.4% / +29.7% / +114.1% |
+| Shares over 2027-2032: 1-in-20 low / median / 1-in-20 high | -51.1% / -32.3% / -15.7% | |
+| A year with shares down 20% or more: in 2027-2030 / only in 2031-2032 / none | 53.2% / 11.3% / **35.6%** | any year: 16.3% (2.9% a year) |
+| Worst single share year: 1-in-20 / median / 1-in-20 | -33.2% / -22.3% / -13.6% | median -11.5% |
+| Year of the worst share return: 2027 / 2028 / 2029 / 2030 / 2031 / 2032 | 11.4 / 21.7 / 21.6 / 21.9 / 14.1 / 9.4% | 16.7% each |
+| 2033 yield below the central 5.26% | 64.7% | 50% |
+| Short even at the central 5.26% (same share paths) | 82.4% | 3.01% of all paths |
+
+- **The gap, split exactly (log terms).** The model's central path (every return at its median, 6.70% and 4.00%; the
+  2033 yield 5.26%) has $619,165 on 1 Jan 2033 against ten costing $401,312, 1.54 times. In the failing paths the money
+  is on average 0.53 lower in logs against the cost (about 41% below the central ratio). Of that gap: 2027 9.5%, 2028
+  22.2%, 2029 22.2%, 2030 22.5%, 2031 13.7%, 2032 6.9%, the 2033 yield 2.9%. **The four years at 75% shares carry
+  76.5%**, the two glide years 20.5%. 2027 weighs less because its return falls on the $300,000 alone, before the 2028
+  deposit; 2028 to 2030 each fall on all the money at 75%.
+- **The median miss, in words** (path 161,327): shares lose 21.3% in 2027 and 5.9% in 2028, gain 11.1% in 2029, lose
+  3.9% in 2030 (down 20.9% over the four years at 75%), lose 13.2% in 2031 and gain 3.0% in 2032 (down 29.3% over six
+  years). The money is $389,241 on 1 Jan 2033. The 2033 yield is 4.29%, so the ten cost $416,937: $27,695 short (6.6%).
+  Bought nearest first, 2033 to 2041 are paid in full and 2042 gets $9,588 of its $50,000 ($40,412 short).
+- **A miss with no crash year** (path 176,353, the median of the 2,297 misses with no year down 20% or more): shares
+  lose 5.5%, 17.1%, 0.3% and 4.9% in 2027-2030 (down 25.7%), then gain 7.2% and 7.5%. The 2033 yield is 3.70%, so the
+  ten cost $426,854 against $406,956: $19,898 short; 2042 gets $22,399. Only 27 misses (0.4%) have no year below -10%.
+
+**The same design on US stock history** (Keel's replay, not run on 27 Sep): US stocks with dividends (the register's
+Shiller file), every 72-month window since 1871 (1,758, first purchases Jan 1871 to Jun 2017), rates fixed:
+
+| Rates | $150,000 | $75,000 | None |
+|---|---|---|---|
+| The 27 Sep model's central: the rest earns 4.00% a year, the ten at 5.26% flat ($401,312) | 25 windows (1.4%); short median $50,959, largest $97,652 | 84 (4.8%) | 546 (31.1%) |
+| The register's forwards: the rest in 1-year Treasuries at the 6 Nov forwards, the ten at $399,089 (8h), VT's 0.06% fee | 25 (1.4%); median $43,585, largest $90,802 | 75 (4.3%) | 487 (27.7%) |
+
+- **All 25 failing windows start from Oct 1927 to Oct 1929:** one episode, the 1929 crash. Started Jan 1929 (shares
+  -9.5%, -22.7%, -44.2% and -5.8% in the first four years): $81,508 short. Started Jan 1937: $50,602 over; Jan 1973:
+  $128,639 over; Jan 2000: $71,199 over; Oct 2007: $206,521 over (27 Sep rates).
+
+**The same design on today's engine** (Keel's re-run, MODEL). The register's house model: the same 200,000 paths as
+section 4 (plan.draws, seed 2033; VT's 2028-2030 and 2031-2032 growth split into years by Brownian bridges; VT's 2027
+growth and the yield moves of 2031-2032 drawn with seed 2027), VT at 7.5% and 17.88% less its 0.06% fee, yields
+parallel at 0.9 points a year and apart from shares, the 6 Nov curve. The rest is in 1-year Treasuries rolled each
+January (variant: a Treasury fund of 6.95 years' duration, IEF-like). On 1 Jan 2033 the ten are bought at that day's
+curve (the 6 Nov curve moved by the path's yield change, par yields floored at zero; section 1's payment-date basis):
+$399,089 unmoved, 8h's figure. Central path: $645,366 against $399,089, 1.62 times.
+
+| 2028 deposit | $150,000 | $75,000 | None |
+|---|---|---|---|
+| The rest in 1-year Treasuries: paths short | **9,953 (4.98%; 1 in 20)** | 29,506 (14.75%) | 72,916 (36.46%) |
+| The same: shortfall median / 1-in-20 largest / largest | $37,737 / $130,846 / $251,826 | $48,163 / $151,452 / $294,818 | $66,713 / $183,877 / $340,502 |
+| The rest in a 6.95-year Treasury fund: paths short | 8,147 (4.07%; 1 in 25) | 26,801 (13.40%) | 70,678 (35.34%) |
+| Caplet's plan on the same paths: escrow standard met (section 2) | 100% | 99.97% (55 paths fail, all after yields fell 0.9 to 1.6 points before January 2027; section 5) | 2 paths (0.001%) |
+
+- With the rest in 1-year Treasuries: 91.5% of misses had VT lower after 2027-2030 (a miss in 21.7% of those paths);
+  81.3% had yields lower by 2033 than today's forwards; with the 2033 curve unmoved the miss rate is 3.64%.
+- **Why higher than 3.2%:** VT's spread (a log s.d. of 17.88% against the 27 Sep model's 15.2%) and yields that keep
+  moving to 2033 (s.d. 2.2 points by then, against 1.0 point), which reprice the ten; faster growth (7.5% against 6.7%)
+  offsets part.
+- **Caplet's plan in the 9,953 paths where the first plan misses:** all ten paid under the escrow standard in every one;
+  stated range $90,000 to $105,000 at the median (bottom $80,000 / $90,000 / $110,000, top $90,000 / $105,000 /
+  $125,000 at the 1-in-20 low / median / 1-in-20 high); half kept median $10,067. The markets that break the first plan
+  give Caplet's plan a smaller range, not a missed payment.
+- **With no 2028 deposit,** Caplet's ladder alone costs more than $300,000 in January 2027 in 58.6% of house paths (median
+  $8,114 unbought where it does; centrally $2,287, so the 2033 payment is $3,016 short at forward rates and the ten
+  $57,455 short at 0%, section 5).
+
+What it shows:
+- **About 1 in 31.** The 27 Sep 3.2% is 6,453 of 200,000 simulated markets, 1 in 31.0. Under the standard Caplet's plan
+  meets (section 2: all ten paid if no coupon earns anything), the count is none: by construction in every house path
+  (the deposit covers the completion in all 200,000) and in all 585 historical rate windows. With a $75,000 deposit
+  the first plan misses in about 1 in 7 (13.7%); Caplet's plan still meets the standard in 99.97% of house paths.
+- **The 27 Sep model's "never" for the Treasury plan is an assumption, not a result.** Strategy L's 0.0% is written into
+  the code ("ladder covers all ten payments by construction"); on its 25 Sep curve the ten cost $292,264, under
+  $300,000. At forward rates alone the ladder falls short in many history windows (section 2, design A: more often than
+  not for start dates since 1981, rarely before); the escrow standard is what makes "none" true. So 3f's "none" rests
+  on section 2, not on the 27 Sep run.
+- **"None" needs the 2028 deposit's first dollars.** It holds with $150,000 and with $75,000, not with no deposit. So
+  3.2% and 13.7% can be set against none; 40.8% cannot (on its own standard Caplet's plan is then short too: the
+  ten $57,455 short at 0%, section 5; never quote the $3,016 at forward rates alone). A missing deposit is one of the IPS's two reasons to change course.
+- **How the risk works (the readers' point b).** The first plan bought the ten on 1 Jan 2033 with whatever its shares had
+  become, so a miss is settled that day, before any payment. 97.5% of misses had shares lower after the four years at
+  three-quarters; when shares were lower a miss came about 1 time in 6, when higher about 1 in 1,000. Those four years
+  carry three-quarters of the gap; the 2033 yield about 3%. It needs no crash: in 35.6% of misses no year fell 20%, only
+  several poor ones. And a gap found that January cannot be closed, because no money comes after January 2028.
+- **Not "early payment years draining later ones", and not "one of ten dates".** The model has no share return after
+  2032 and sells no share to pay a payment. So "shares sold to pay each date" is not what 3.2% measured, and card Q47 row
+  3's and SKELETON 3f's "out of place on one of ten dates" / "registration on ten dates" read, on this model, as one date:
+  1 Jan 2033, the day the ten had to be bought.
+- **What a miss looks like.** Median $27,695 in 1 Jan 2033 money, 6.8% of the ten's cost; under $50,000 in 3 misses of
+  4; 1 miss in 20 is $92,543 or more. Bought nearest first, 2033 to 2036 are always paid and the last payments carry
+  it: 2042 first in 56.5% of misses, 2041 in 29.1%. Bought longest first, 2033 would carry it.
+- **History is kinder; today's engine harsher.** The same design misses in 25 of 1,758 US stock windows since 1871 (1.4%),
+  all of them purchases from Oct 1927 to Oct 1929; bought in Jan 2000 or Oct 2007 it would have paid the ten. On today's
+  engine it misses in about 1 path in 20 (4.98%; 4.07% with a 6.95-year bond fund), mainly because yields that fall by
+  2033 raise the price of the ten. The reflection quotes the 27 Sep figures, dated ("in our simulations" on 27 Sep);
+  history and today's engine are context, never a replacement.
+- **Limits:** the 27 Sep model draws independent lognormal years for US large caps and an index of intermediate
+  Treasuries, with no fees or taxes and one flat 2033 yield drawn apart from everything else; it prices the ten as ten
+  discounted payments at that yield (no reinvestment risk after 2033, not the escrow standard), which favours the first
+  plan, and its miss is a yes or no on one date. History: monthly averages, US stocks for world shares, rates fixed, about
+  25 independent six-year spans, one failing episode. Today's engine: the house model's yield walk is carried past 2031 to
+  2033 (the register stops it at 2031, section 7); shares and yields independent; the rest's two holdings are Keel's
+  choice; the ten on the payment-date basis, not the escrow standard, which would cost the first plan more. Not run: a
+  variant in which the first plan kept shares past 2033 and sold them to pay each date (the readers' reading). It was not
+  the team's plan.
+
 ## 9. Still to add (later days)
 - **Sun 15 Nov evening (numbers owner), open after the fee fix:**
   - The haircut's size is the lead's call; the code keeps 0.5% (`completion.HAIRCUT`). The w1 frictions add to about 0.27%, so the 0.5% now leaves about 0.23% of each end beyond them (section 0).
   - **Done Mon 16 Nov (8q):** both Taiwan risks together, run against the half kept and the excess in all three worlds; Q10e's $32,191 need and $2,368 short are now the register's central figures. The move date inside 2031 is run in 8r (1 January stays).
   - `plan.py`'s 365.25-day carry (8k) is still unfixed; tonight's re-run kept it so that every file moves only by the fee.
 - **Done Mon 16 Nov:** the exhibits are re-built on these figures, and `exhibit_data.py` reads the backstop's value on 1 Jan 2033 ($45,456) from 8h (`exhibits/REBUILD_2026-11-16.md`; 395 checks, 0 FAIL).
+- **Added Mon 16 Nov (8s, numbers owner):** the first plan's 27 Sep figures (3.2%, 13.7%, 40.8%) are now in the register,
+  reproduced from `strategy_mc.py` and taken apart; 3.2% is 1 in 31.0. Still open, for the lead and the files' owners:
+  3f's account of the risk is one date (1 Jan 2033, when the ten had to be bought), not shares sold on ten dates, so card
+  Q47 row 3 and SKELETON 3f ("registration on ten dates") are re-read against 8s; 3f's "none" rests on section 2 and
+  needs the 2028 deposit's first dollars, so it is set against 3.2% and 13.7%, never 40.8%; RANKING_4's "a plan that
+  bought the ten in Treasuries first never missed one" is the 27 Sep model's assumption, not its result. Not run: a
+  variant that keeps shares past 2033 and sells them to pay each date.
 - **Cards Q19, Q20 and Q24 refresh to these figures** (section 10). Q24's Taiwan dollar test (verdict 3, rows 22-25, card 4) is replaced by 8j.
 - **8j and 8k were added Tue 10 Nov evening.** Still open from them:
   - SKELETON 3b's Taiwan dollar sentence was written "to be re-run before use"; it is now re-run (section 10 gives the replacement).

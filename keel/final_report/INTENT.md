@@ -71,7 +71,7 @@ Keel's belief, untestable, and stays out of the report: panel 2's professor, Thu
    on the rest. (Thu 12 Nov, panel 2: the overrun is said in 3a with the top-up, not in the 2.0 lead, where beside a table
    totalling $300,000 at two-thirds scale it confuses; SKELETON's density cut.)
 3. In 2031 Laura states about $95,000 to $115,000, and both ends are money she already owns in Treasury funds; co-sponsors
-   count the bottom, and the contribution reaches the top unless the US defaults or the funds' running costs pass half a
+   count the bottom, and the contribution reaches the top unless the funds' running costs pass half a
    percent, and then falls short by a few hundred dollars (the coherence reader: this second exception must travel
    with the first). (Notes, not words for the report: the written
    rule, the cap and the two exceptions are in SKELETON 3c and cards Q19, Q4c and Q26; the payments' standard costs the
@@ -80,7 +80,7 @@ Keel's belief, untestable, and stays out of the report: panel 2's professor, Thu
    the opening idea 3 for clarity.)
 4. Half the shares are promised to no one, for the IPS's three uses in the IPS's own order (overruns, a stronger Taiwan
    dollar, a co-sponsor falling short; no ranking of our own, coherence reader Thu 12 Nov evening; "her flexibility" is the half kept, about $21,300, and
-   $29,800 is "her flexibility plus anything above the top", third coherence reader, Fri 13 Nov evening); that cushion is smallest in the years it is most likely to be needed, and the report says so, with a
+   $29,800 is "her flexibility plus anything above the top", third coherence reader, Fri 13 Nov evening); that cushion can be smallest when it is needed (never "tends to be": card Q66 and NUMBERS 8q, Mon 16 Nov, find no general tendency, only a share slump followed by a cost burst), and the report says so, with a
    recession replayed from history (card Q24).
 5. Laura watches many things, but only a missed deposit or a Treasury default changes the plan; everything else changes
    a number, never a payment. (Defined Wed 11 Nov evening, so the two exits are not vague: a Treasury default is

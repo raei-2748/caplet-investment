@@ -41,6 +41,13 @@ wonders how he missed" (*Life of Cowley*, 1779).
   (everyday English hears "inked" as "signed", card Q42: a matter of being understood, not of caution). Treasuries are guaranteed, locked, set in stone: the report says so plainly where it
   helps, with no safety clause attached (Book 19). The IPS's own words "barring a US default" are quoted only where the
   IPS is quoted.
+- **"Owned" is the law's own word (card Q72, Mon 16 Nov, rater O):** securities a broker holds for its customers "are
+  not property of the securities intermediary" (UCC 8-503), and a fund holder owns "a proportionate undivided beneficial
+  interest" in the fund (iShares Declaration s.3.08), so the definition stands word for word. Say "held for her", never
+  "in her name". When Lehman's broker failed, its customers got back 100% and its general creditors 41.28%: owned, not
+  owed, has a measured price (Q72-016; never "lenders"). The one promise in the chain is the US Treasury's; the chain of
+  holders is named once, in 3e's prose, never as a Table 3 row (Q72-013). "Guaranteed" goes on the Treasuries, never
+  on an iBond fund's payout (the CFA's interest-only example, card Q76-020).
 
 ### V2.2 The arc: one conceit, developed part by part (notes for the 27 Nov writers, not wording)
 
