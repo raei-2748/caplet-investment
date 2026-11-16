@@ -1,23 +1,23 @@
 {
- "built": "2026-11-16T17:04+11:00",
+ "built": "2026-11-16T17:37+11:00",
  "today": "2026-11-16",
- "store_ideas": 4965,
- "store_judged": 4131,
+ "store_ideas": 5147,
+ "store_judged": 4276,
  "totals": {
-  "workers": 60,
-  "cards": 107,
-  "rows": 3705,
-  "sources": 4017,
+  "workers": 64,
+  "cards": 112,
+  "rows": 3887,
+  "sources": 4134,
   "passages": 47,
   "readings": 26
  },
  "days": [
   {
    "day": "2026-11-16",
-   "workers": 60,
-   "cards": 32,
-   "rows": 1259,
-   "sources": 1433,
+   "workers": 64,
+   "cards": 37,
+   "rows": 1441,
+   "sources": 1550,
    "passages": 26,
    "readings": 14
   },
@@ -99,42 +99,12 @@
    "date": "2026-11-16",
    "run": "afternoon (overdrive)",
    "research_workers": "34",
-   "analysis_workers": "23",
+   "analysis_workers": "27",
    "readers": "3",
-   "notes": "Thirty-four research workers: cards Q48-Q76 on the digest's holes and today's cold-test questions in four waves, then Q77-Q81 (money if the facility is cancelled, waiting when a custodian fails, new conceit parallels, what makes a reflection convincing, months of zero interest); nineteen raters judged every row of Q48-Q76 the same afternoon; numbers 8q, 8r and 8s; exhibits rebuilt; an aha-candidate hunt; three cold readers on eight ahas"
+   "notes": "Thirty-four research workers: cards Q48-Q76 on the digest's holes and today's cold-test questions in four waves, then Q77-Q81 (money if the facility is cancelled, waiting when a custodian fails, new conceit parallels, what makes a reflection convincing, months of zero interest); twenty-three raters judged every row of Q48-Q76 and Q78-Q81 the same day; numbers 8q, 8r and 8s; exhibits rebuilt; an aha-candidate hunt; three cold readers on eight ahas"
   }
  ],
  "cards": [
-  {
-   "card": "Q5e_does_the_reserve_fall_with_its_uses",
-   "day": "2026-11-14",
-   "rows": 46,
-   "sources": 73
-  },
-  {
-   "card": "Q60_reader_tests_for_a_headline",
-   "day": "2026-11-16",
-   "rows": 44,
-   "sources": 56
-  },
-  {
-   "card": "Q61_world_shares_four_to_six_years",
-   "day": "2026-11-16",
-   "rows": 38,
-   "sources": 15
-  },
-  {
-   "card": "Q62_sinking_funds_and_trust_funds",
-   "day": "2026-11-16",
-   "rows": 41,
-   "sources": 78
-  },
-  {
-   "card": "Q63_the_duty_to_diversify_and_its_exception",
-   "day": "2026-11-16",
-   "rows": 44,
-   "sources": 32
-  },
   {
    "card": "Q64_forward_rates_and_overlapping_windows",
    "day": "2026-11-16",
@@ -238,6 +208,24 @@
    "sources": 23
   },
   {
+   "card": "Q77_if_the_building_does_not_happen",
+   "day": "2026-11-16",
+   "rows": 37,
+   "sources": 0
+  },
+  {
+   "card": "Q78_waiting_when_a_custodian_fails",
+   "day": "2026-11-16",
+   "rows": 42,
+   "sources": 44
+  },
+  {
+   "card": "Q79_new_conceit_parallels",
+   "day": "2026-11-16",
+   "rows": 37,
+   "sources": 37
+  },
+  {
    "card": "Q7_precommitment_and_rules",
    "day": "2026-11-09",
    "rows": 32,
@@ -254,6 +242,18 @@
    "day": "2026-11-15",
    "rows": 35,
    "sources": 48
+  },
+  {
+   "card": "Q80_what_makes_a_reflection_convincing",
+   "day": "2026-11-16",
+   "rows": 33,
+   "sources": 19
+  },
+  {
+   "card": "Q81_waiting_cash_at_zero",
+   "day": "2026-11-16",
+   "rows": 33,
+   "sources": 17
   },
   {
    "card": "Q8a_certainty_in_engineering",

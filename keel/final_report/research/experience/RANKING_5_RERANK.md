@@ -114,3 +114,12 @@ away. No moral is spelled out; each ends on the part of the plan it explains.
   when, in the roles the record supports".
 - SKELETON 2.5: the curve check and the one-owner rule after the click, as implementation facts in one or two clauses.
 - EXPERIENCE_RECORD section 2 points here.
+
+## Research on how assessors read a reflection (card Q80, Mon 16 Nov evening, rater X)
+
+Notes for the 27 Nov writers, no wording. Owning a lapse of skill raises a reader's view of integrity and owning a lapse
+of honesty lowers it (Kim et al.: 5.32 against 4.27; 2.73 against 4.39), so each moment is a mistake of judgement, told
+first and plainly. Markers cannot check most reflections; each moment here carries one dated figure a judge can check.
+Readers average across moments, so three strong ones beat three plus a weaker fourth (abstract only). Wharton's guide
+welcomes a strategy that "may evolve as you learn more" (p. 1) and does not treat results as evidence, so each change of
+mind is told from what the team learned, never from a market result.
