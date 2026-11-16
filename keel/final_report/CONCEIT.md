@@ -95,6 +95,22 @@ Museum, Taipei; 意在筆先 as a concept. Not verified, so never used as fact: 
 English wording of 意在筆先 or its firm attribution, trapping beyond search excerpts, and anything about how Laura
 herself draws. Sources in APA at the end of the card.
 
+**New candidate turns, card Q79 (Mon 16 Nov, rater V; craft facts checked at source; each waits for a reader test before it
+joins V2.2, and none replaces a turn there):**
+- **3c, the range is a rule and today's figures are a reading of it (Q79-013, keep).** The geologic time scale's own
+  footnote: "Numerical ages ... do not define units; only GSSPs do": a boundary is fixed by a marker in rock, and the
+  date beside it is a measurement that can move. Laura's range is fixed by the written rule; $95,000-$115,000 is today's
+  reading. The one candidate no V2.2 turn covers.
+- **2.0, why ink means owned, not signed (Q79-004, adapt).** Taiwan Civil Code art. 758: a land transfer must be in
+  writing but has no effect until it is registered. Map ink to the register entry, never to the deed.
+- **3b-3c, overstating is fatal and understating is not (Q79-024, keep).** Golf Rule 3.3b(3): a returned score higher
+  than the real one stands, a lower one disqualifies. A stated bottom below what she pays is safe; a stated top above
+  what she owns would not be.
+- **3b, the order of claims (Q79-036, adapt):** senior and junior land title, mapped to the 2028 deposit's order
+  (ladder first, then the extra Treasuries, then the floor and VT).
+- Dropped: the holotype, because the code accepts a stated intent to deposit the specimen (art. 16.4.2), which is pencil,
+  not ink; MoMA's firm-title rule survives only without its deposit-as-gift mapping (Q79-031).
+
 ### V2.4 Guards (what survives, and why)
 
 1. **True to the craft, true to the plan.** No craft fact that is not verified; no parallel that breaks a NUMBERS figure

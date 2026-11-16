@@ -642,6 +642,8 @@ the ladder as written assumes today's forward rates come true. At a flat 4.0% th
 fall $13,906 short in all; at 3.0%, $46,215 and $25,144; at zero, $42,347 and $54,595 (matches section 2). With the
 backstop, the ten are paid at every flat rate down to zero, and with the ETF fee on every waiting dollar.
 
+- **Waiting cash at zero is history, not only a stress (card Q81, Mon 16 Nov, rater U; outside facts, not plan figures).** On FRED's 3-month bill rate (TB3MS, monthly, `research/cards/data/Q81_bill_rate_months.csv`, a month counted if strictly below the line), the bill paid under 0.07% in 83 of 1,110 months since 1934 and 53 of 222 since January 2008 (longest spell 19 months, Jan 2014 to Jul 2015); under 0.15%, the bill fund's fee in this register's standard, in 141 and 90 months (longest 58 months, Feb 2011 to Nov 2015); under 0.25% in 191 and 108 (longest 82 months, Mar 2009 to Dec 2015). The Treasury sold bills at exactly 0.000% in 54 auctions (Q81-016), and the Federal Reserve's 2026 bank stress test holds the 3-month bill at 0.1% for 12 quarters (Q81-015). BIL's own filings give its 2015 return as -0.11% (store Q2d-014 corrected). So the standard's condition has really happened, in two eras within fifteen years; the standard is still harsher than history, because it charges a fee and holds it for all sixteen years. Never "twice in fifteen years" as a count of tests: two eras, not two events.
+
 ### 8b. The cost of the ten payments through 2026, from this one engine (every Treasury close, 2 Jan to 6 Nov)
 214 closes. Value on 1 Jan 2027 of the ten payments (payment-date basis), of the ten instruments held (design A), and
 of the ten with each completion standard bought that day:
