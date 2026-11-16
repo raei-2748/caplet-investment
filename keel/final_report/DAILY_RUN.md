@@ -12,6 +12,22 @@ each reading primary sources in full (papers, theses, essays, filings, data), ne
 carded; the day's volume logged in the RUNLOG row (sources read, cards added, claims kept, killed or changed). Waste is
 re-reading what the store already holds, regenerating what exists, or research that feeds no section of the report.
 
+**Overdrive, the volume floor (Caplet, Mon 16 Nov 16:06: "I don't see you doing anywhere near the volume of research and
+analysis I want to see from you ... how many goddamn times do I need to tell you to GO INTO OVERDRIVE?!?").** Four workers
+was far too few. From Mon 16 Nov to Thu 26 Nov every run, morning and evening, beside the day's own task and never
+instead of it:
+- sends **at least twelve research workers at once, one per hole or claim** (from the newest store digest, the
+  scorecard's lowest cells, SKELETON parts short of material, the aha register and the conceit), each briefed by
+  `research/ROUND2_WORKER_BRIEF.md` and writing one card of 25-45 rows read at source;
+- sends **analysis workers** on whatever NUMBERS section 9 and the day's questions leave open (the numbers engine, the
+  exhibits), and **blind readers** for the voice round and the aha register;
+- runs in waves when the twenty-at-once limit binds (a new wave as each worker returns), so the run ends with the budget
+  used, not with workers waiting;
+- rates every new row the same day (`store/ratings.csv`), registers every card in `research/SOURCES.md`, and logs the
+  run in `research/volume_runs.csv`, then rebuilds `research/VOLUME.md` with `research/volume.py`. The portal's front
+  page shows the last seven days, so the volume is visible to Caplet.
+On Fri 27 Nov the inputs freeze and the writing session starts; this floor ends there.
+
 ## Book 17 (Caplet, Sat 14 Nov, INSTRUCTIONS I104-I113): three things every run now does
 - **Voice, in every run** (Book 19, Sun 15 Nov: "a hell of a lot more"; two rounds a day to Wed 25, rehearsal Thu 26):
   run the next round in `voice/README.md`. Fresh writers read only Caplet's own writing (`voice/CORPUS.md`) and the plain facts; readers judge

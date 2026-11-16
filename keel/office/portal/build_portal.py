@@ -669,6 +669,19 @@ def idea_bank():
     return {"ideas": ideas, "dropped": dropped}
 
 
+def fr_volume():
+    """keel/final_report/research/volume.json (Caplet, 16 Nov: make the research volume visible); rebuilt here so the
+    portal never shows a stale count."""
+    script = ROOT / "keel/final_report/research/volume.py"
+    if script.exists():
+        try:
+            subprocess.run([sys.executable, str(script)], cwd=ROOT, check=True, capture_output=True, timeout=120)
+        except Exception as e:  # the committed volume.json is still read below
+            print(f"volume.py failed: {e}")
+    f = ROOT / "keel/final_report/research/volume.json"
+    return json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="_site")
@@ -717,7 +730,7 @@ def main():
         "projects": [{**p, "id": p["id"].removeprefix("project-")} for p in of("project")],
         "changes": of("change"), "asks": of("ask"), "instructions": of("instruction"),
         "ips": ips_versions(), "commits": cs, "runlog": rl, "memos": ms, "episodes": episodes(), "docs": docs,
-        "bible": bible(), "idea_bank": idea_bank(),
+        "bible": bible(), "idea_bank": idea_bank(), "volume": fr_volume(),
         "days": days(ms, cs, rooms, known, titles),
     }
     data = json.loads(scrub(json.dumps(data, ensure_ascii=False)))

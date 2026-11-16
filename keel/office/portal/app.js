@@ -606,6 +606,16 @@
       <div class="chat">${shown.map(msg).join("")}${rest.length ? `<details class="more-lines"><summary>${plural(rest.length, "more line")}</summary>${rest.map(msg).join("")}</details>` : ""}</div>
       ${t.path ? `<p class="go">${docLink(t.path, "Read it all →")}</p>` : ""}</details>`;
   }
+  function volumeBlock() {
+    const V = K.volume || {}, ds = (V.days || []).slice(0, 7);
+    if (!ds.length) return "";
+    const cols = [["workers", "Workers sent"], ["cards", "New cards"], ["rows", "Store rows"], ["sources", "Sources read"], ["passages", "Voice passages"], ["readings", "Blind readings"]];
+    const t = V.totals || {};
+    return `<section class="block"><h2>Final Report research volume</h2>
+      <p class="note">Counted from the files by day (Sydney), every run. Store: ${(V.store_ideas || 0).toLocaleString()} ideas, ${(V.store_judged || 0).toLocaleString()} judged one by one; ${(t.cards || 0)} cards, ${(t.rows || 0).toLocaleString()} rows, ${(t.sources || 0).toLocaleString()} sources. ${docLink("keel/final_report/research/VOLUME.md", "Every day and every run →")}</p>
+      <div class="vol-wrap"><table class="vol"><thead><tr><th>Day</th>${cols.map(c => `<th>${esc(c[1])}</th>`).join("")}</tr></thead>
+      <tbody>${ds.map(d => `<tr><td>${esc(shortDay(d.day))}</td>${cols.map(c => `<td>${d[c[0]] ? d[c[0]].toLocaleString() : "–"}</td>`).join("")}</tr>`).join("")}</tbody></table></div></section>`;
+  }
   function pageToday(day) {
     if (!DAYS.length) { app.innerHTML = `<div class="today"><h1>Nothing yet</h1></div>`; return; }
     const i = Math.max(0, day ? DAYS.findIndex(d => d.day === day) : 0), D = DAYS[i];
@@ -620,6 +630,7 @@
           <p class="meta">${plural(D.memos, "memo")} · ${plural(D.talks.length, "conversation")} · ${plural(D.commits, "commit")}${i === 0 && nextDeadline() ? ` · ${nextDeadline()}` : ""}</p></div>
         ${next ? `<a class="arrow" href="#/day/${next.day}" aria-label="Later day: ${esc(shortDay(next.day))}">›</a>` : `<span class="arrow off">›</span>`}
       </div>
+      ${i === 0 ? volumeBlock() : ""}
       ${D.for_caplet.length ? `<section class="essence"><h2>For Caplet</h2><ol>${D.for_caplet.map(p => `<li>${p.who ? `<b>${esc(p.who)}</b> ` : ""}${esc(p.text)}</li>`).join("")}</ol></section>` : ""}
       <section class="block"><h2>In plain words</h2><ul class="plainlist">${plainItems || `<li class="muted">Nothing written yet today.</li>`}</ul>
         ${D.plain_auto && D.plain.length ? `<p class="note">No one wrote a plain summary this day, so these are the rooms' own result lines.</p>` : ""}${D.today_doc ? `<p class="note">${docLink(D.today_doc, "The day's page")}</p>` : ""}</section>
@@ -652,6 +663,7 @@
     const L = [["#/office", "Office dashboard", "Rooms on time, charts, deadlines and the latest commits"], ["#/ideas", "The idea bank", "Every good idea and the deliverable it lands in"], ["#/ips", "The IPS", "Every version and what changed"], ["#/doc/keel/BIBLE.md", "The bible", "Nine books, read first by every run"],
       ["#/plan", "Questions for you", "The danger-zone question, Keel's own calls with reasons, and your instructions"], ["#/rooms", "Rooms", "Twelve rooms, each with its decisions and work"], ["#/team", "The six", "Profiles and every take"],
       ["#/activity", "Activity", "Every commit and the run log"], ["#/episodes", "Episodes", "The story so far (fiction)"], ["#/library", "Library", "Every page Keel has written"],
+      ["#/doc/keel/final_report/research/VOLUME.md", "Research volume", "The Final Report's research and analysis counted by day: workers, cards, rows, sources, readings"],
       ["#/doc/keel/final_report/research/SOURCES.md", "Sources register", "Where every source label in the Final Report research leads (W8, T14, card rows), with its link"],
       ["#/doc/keel/final_report/voice/ROUND1.md", "Voice round 1", "Three writers, fourteen passages read blind against Caplet's IPS, and what changes for 27 Nov"],
       ["#/doc/keel/final_report/voice/WHY_OPAQUE.md", "Why Keel goes opaque", "Why Keel's writing changed on investing, and what round 1 showed"],

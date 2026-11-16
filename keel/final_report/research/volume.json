@@ -1,0 +1,289 @@
+{
+ "built": "2026-11-16T16:24+11:00",
+ "today": "2026-11-16",
+ "store_ideas": 3788,
+ "store_judged": 2954,
+ "totals": {
+  "workers": 21,
+  "cards": 78,
+  "rows": 2528,
+  "sources": 2718,
+  "passages": 47,
+  "readings": 25
+ },
+ "days": [
+  {
+   "day": "2026-11-16",
+   "workers": 21,
+   "cards": 3,
+   "rows": 82,
+   "sources": 134,
+   "passages": 26,
+   "readings": 13
+  },
+  {
+   "day": "2026-11-15",
+   "workers": 0,
+   "cards": 12,
+   "rows": 361,
+   "sources": 547,
+   "passages": 21,
+   "readings": 5
+  },
+  {
+   "day": "2026-11-14",
+   "workers": 0,
+   "cards": 13,
+   "rows": 392,
+   "sources": 694,
+   "passages": 0,
+   "readings": 4
+  },
+  {
+   "day": "2026-11-13",
+   "workers": 0,
+   "cards": 7,
+   "rows": 215,
+   "sources": 330,
+   "passages": 0,
+   "readings": 0
+  },
+  {
+   "day": "2026-11-12",
+   "workers": 0,
+   "cards": 9,
+   "rows": 302,
+   "sources": 513,
+   "passages": 0,
+   "readings": 0
+  },
+  {
+   "day": "2026-11-11",
+   "workers": 0,
+   "cards": 6,
+   "rows": 213,
+   "sources": 241,
+   "passages": 0,
+   "readings": 0
+  },
+  {
+   "day": "2026-11-10",
+   "workers": 0,
+   "cards": 13,
+   "rows": 448,
+   "sources": 259,
+   "passages": 0,
+   "readings": 0
+  },
+  {
+   "day": "2026-11-09",
+   "workers": 0,
+   "cards": 14,
+   "rows": 465,
+   "sources": 0,
+   "passages": 0,
+   "readings": 3
+  },
+  {
+   "day": "2026-11-08",
+   "workers": 0,
+   "cards": 1,
+   "rows": 50,
+   "sources": 0,
+   "passages": 0,
+   "readings": 0
+  }
+ ],
+ "runs": [
+  {
+   "date": "2026-11-16",
+   "run": "afternoon (overdrive)",
+   "research_workers": "16",
+   "analysis_workers": "2",
+   "readers": "3",
+   "notes": "Sixteen store cards Q48-Q63 on the digest's holes; numbers 8q (both Taiwan risks) and 8r (the move date in 2031); exhibits rebuilt; three cold readers on eight ahas"
+  }
+ ],
+ "cards": [
+  {
+   "card": "Q3a_floors_in_markets",
+   "day": "2026-11-13",
+   "rows": 34,
+   "sources": 64
+  },
+  {
+   "card": "Q3b_floors_in_institutions",
+   "day": "2026-11-13",
+   "rows": 34,
+   "sources": 11
+  },
+  {
+   "card": "Q3c_ended_ibond_funds_payouts",
+   "day": "2026-11-15",
+   "rows": 33,
+   "sources": 30
+  },
+  {
+   "card": "Q40_pencil_and_ink_craft",
+   "day": "2026-11-14",
+   "rows": 7,
+   "sources": 9
+  },
+  {
+   "card": "Q41_conceit_audit",
+   "day": "2026-11-14",
+   "rows": 28,
+   "sources": 0
+  },
+  {
+   "card": "Q42_analogy_and_metaphor_evidence",
+   "day": "2026-11-14",
+   "rows": 28,
+   "sources": 83
+  },
+  {
+   "card": "Q43_when_a_promise_counts",
+   "day": "2026-11-14",
+   "rows": 57,
+   "sources": 73
+  },
+  {
+   "card": "Q44_conceit_craft_open_items",
+   "day": "2026-11-14",
+   "rows": 23,
+   "sources": 28
+  },
+  {
+   "card": "Q45_selling_in_a_stress",
+   "day": "2026-11-15",
+   "rows": 38,
+   "sources": 29
+  },
+  {
+   "card": "Q46_world_fund_case_and_moments",
+   "day": "2026-11-15",
+   "rows": 16,
+   "sources": 17
+  },
+  {
+   "card": "Q47_conceit_intricate",
+   "day": "2026-11-15",
+   "rows": 3,
+   "sources": 48
+  },
+  {
+   "card": "Q4b_cosponsors_in_downturns",
+   "day": "2026-11-09",
+   "rows": 35,
+   "sources": 0
+  },
+  {
+   "card": "Q4c_how_sure_words_and_numbers",
+   "day": "2026-11-11",
+   "rows": 33,
+   "sources": 21
+  },
+  {
+   "card": "Q5_is_half_right",
+   "day": "2026-11-09",
+   "rows": 34,
+   "sources": 0
+  },
+  {
+   "card": "Q5b_kept_share_numbers",
+   "day": "2026-11-14",
+   "rows": 11,
+   "sources": 0
+  },
+  {
+   "card": "Q5c_option_value_and_last_dollar",
+   "day": "2026-11-14",
+   "rows": 27,
+   "sources": 53
+  },
+  {
+   "card": "Q5d_small_arts_buildings_overruns",
+   "day": "2026-11-14",
+   "rows": 30,
+   "sources": 26
+  },
+  {
+   "card": "Q5e_does_the_reserve_fall_with_its_uses",
+   "day": "2026-11-14",
+   "rows": 46,
+   "sources": 73
+  },
+  {
+   "card": "Q6_how_far_to_trust_7_5",
+   "day": "2026-11-09",
+   "rows": 33,
+   "sources": 0
+  },
+  {
+   "card": "Q6b_forecast_panel_2027",
+   "day": "2026-11-15",
+   "rows": 34,
+   "sources": 80
+  },
+  {
+   "card": "Q6c_falls_and_the_top",
+   "day": "2026-11-15",
+   "rows": 25,
+   "sources": 38
+  },
+  {
+   "card": "Q6d_one_world_fund",
+   "day": "2026-11-15",
+   "rows": 31,
+   "sources": 90
+  },
+  {
+   "card": "Q7_precommitment_and_rules",
+   "day": "2026-11-09",
+   "rows": 32,
+   "sources": 0
+  },
+  {
+   "card": "Q7b_rules_and_escape_clauses",
+   "day": "2026-11-15",
+   "rows": 42,
+   "sources": 62
+  },
+  {
+   "card": "Q7c_endowment_rules",
+   "day": "2026-11-15",
+   "rows": 35,
+   "sources": 48
+  },
+  {
+   "card": "Q8a_certainty_in_engineering",
+   "day": "2026-11-12",
+   "rows": 35,
+   "sources": 38
+  },
+  {
+   "card": "Q8b_certainty_standards_1in200_ALARP",
+   "day": "2026-11-12",
+   "rows": 35,
+   "sources": 54
+  },
+  {
+   "card": "Q9_what_makes_a_residency_last",
+   "day": "2026-11-09",
+   "rows": 35,
+   "sources": 0
+  },
+  {
+   "card": "Q9b_residencies_reserves_and_founders",
+   "day": "2026-11-13",
+   "rows": 31,
+   "sources": 42
+  },
+  {
+   "card": "Q9c_taiwan_residencies_funding",
+   "day": "2026-11-13",
+   "rows": 38,
+   "sources": 82
+  }
+ ]
+}

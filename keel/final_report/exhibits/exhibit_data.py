@@ -1,4 +1,5 @@
-"""Data for the Final Report exhibits, on the register of Tue 10 Nov 2026 (rebuilt Wed 11 Nov 2026, Sydney).
+"""Data for the Final Report exhibits, on the register of Tue 10 Nov 2026 (rebuilt Wed 11 Nov 2026, Sydney; on the
+Sun 15 Nov evening re-run files since then, every input path and figure re-checked Mon 16 Nov morning).
 
 Design H_plain ("sufficient without reinvestment", with the fee cushion), the Treasury curve of Fri 6 Nov 2026, the
 range rule on the fund's holdings and Keel's reading of "most". Everything modelled is MODEL (NUMBERS.md stamp).
@@ -8,16 +9,20 @@ Where the figures come from:
                             copied here by hand and check() compares every cell with the 8g table. Since Thu 12 Nov
                             evening also the units bought against the targets set before trading (NUMBERS 8m), checked
                             against 8m, the Portfolio tab (portfolio.csv) and the 23 Oct WInS snapshot.
-  Figure 1 (3a)             numbers/results_reserve_2026-11-10.json (NUMBERS 8h): blocks composition_1jan2033_base,
+  Figure 1 (3a)             numbers/results_reserve_2026-11-15.json (NUMBERS 8h): blocks composition_1jan2033_base,
                             base (today's forwards), fee (nothing earns interest and waiting money pays the ETF's fee:
                             Keel's standard, SKELETON Exhibits item 2) and zero (nothing earns interest, no fee).
-  Table 2  (3b, 3c)         numbers/results_joint_stress_2026-11-10.json (NUMBERS 8i, 8j): scenarios forwards, minus3
+  Table 2  (3b, 3c)         numbers/results_joint_stress_2026-11-15.json (NUMBERS 8i, 8j): scenarios forwards, minus3
                             and inflation; joint.named 2006-06 and 2007-07; the 585-window percentiles; and
                             twd_test.joint_replay for the contribution and the flexibility across windows.
-  Cross-check (8k)          numbers/results_returns_2026-11-10.json: the flexibility at forwards by a second route.
-  Figure 1, Fri 13 Nov      numbers/results_topup_2026-11-13.json (NUMBERS 8h): when each payment's cash reaches Laura
+  Cross-check (8k)          numbers/results_returns_2026-11-15.json: the flexibility at forwards by a second route.
+  Figure 1, Fri 13 Nov      numbers/results_topup_2026-11-15.json (NUMBERS 8h): when each payment's cash reaches Laura
                             (a fund's end date is not its cash date; a bond due on a weekend or holiday pays the next
                             business day), and the top-up's column reconciled with its cost (the note items).
+  Table 3  (3e)             numbers/results_2026-11-15.json (NUMBERS 2, 5) and inflation_inputs.json (8d).
+  The backstop on 1 Jan 2033 (Figure 1's note, item 2): its VALUE there at today's forwards, $45,456
+                            (results_reserve margin_value_1jan2033_at_forwards; NUMBERS 8h, 8i, section 4), never its
+                            cost carried, $45,487 (margin_cost_carried_to_1jan2033_at_forwards: no funds' fee). NUMBERS 9.
 
 Nothing is computed here except rounding, sums and the joining of two parts the register names (the flexibility is the
 half kept plus the excess, NUMBERS 8i column "Half kept plus excess"). Run this file to print every exhibit figure and
@@ -209,7 +214,7 @@ TABLE1_HEADER = ["Ticker or identifier", "Name of investment", "Asset type", UNI
 
 
 # =================================================================================================================
-# Figure 1, the operating reserve running down (3a). NUMBERS 8h, MODEL, read from results_reserve_2026-11-10.json.
+# Figure 1, the operating reserve running down (3a). NUMBERS 8h, MODEL, read from results_reserve_2026-11-15.json.
 # =================================================================================================================
 # Waiting times in the Trading Notes' words (CANON A15, A16, B35): the figure labels a wait only where it is long
 # enough to see. The model's months stay in FIGURE1_ROWS[...]["months_model"] (10.5 and 7.6).
@@ -276,8 +281,17 @@ FIGURE1_NOTE_FACTS = {
     "topup_interest_undiscounted": TOPUP_PAID["interest_undiscounted"],           # $19,143
     "topup_all_flows_undiscounted": TOPUP_PAID["all_flows_undiscounted"],         # $56,010
     "topup_fee_while_waiting": TOPUP_PAID["fee"]["fee_on_the_topups_own_waiting_money"],   # $90
-    "topup_comes_back_1jan2033": TOPUP_PAID["comes_back_if_forwards_hold"]["value_1jan2033"],  # $45,456
+    # Mon 16 Nov (NUMBERS 9): the backstop is read at its VALUE on 1 Jan 2033 at today's forwards ($45,456: the reserve
+    # before the first payment less the own rungs, 8h), never its cost carried there ($45,487, which leaves out the
+    # funds' fee). Read from 8h's own reserve run; the top-up file and Table 2's forwards world must agree (below).
+    "topup_comes_back_1jan2033": RESERVE["margin_value_1jan2033_at_forwards"],             # $45,456
+    "backstop_cost_carried_1jan2033": RESERVE["margin_cost_carried_to_1jan2033_at_forwards"],   # $45,487: never printed
 }
+_bk = FIGURE1_NOTE_FACTS["topup_comes_back_1jan2033"]
+assert abs(_bk - (RESERVE["composition_1jan2033_total"] - RESERVE["own_rungs_value_1jan2033"])) < 0.01, _bk
+assert abs(_bk - TOPUP_PAID["comes_back_if_forwards_hold"]["value_1jan2033"]) < 0.01, _bk
+assert abs(_bk - JOINT["scenarios"]["forwards"]["overflow_jan2033_value"]) < 0.01, _bk
+assert round(_bk) != round(FIGURE1_NOTE_FACTS["backstop_cost_carried_1jan2033"]), "the backstop must be its value"
 
 
 def cash_words(r):
@@ -817,6 +831,24 @@ def check(verbose=True):
         F["topup_fee_while_waiting"]), round(T["backstop_if_nothing_earns"]), "8h reconciled")
     cmp("Figure 1", "Note: what comes back = 8h's backstop on 1 Jan 2033", round(F["topup_comes_back_1jan2033"]),
         round(RESERVE["margin_value_1jan2033_at_forwards"]), "8h")
+    # Mon 16 Nov (NUMBERS 9): the backstop at its value on 1 Jan 2033, not its cost carried; against 8h's own sentence,
+    # 8h's composition total, the 8i forwards row and section 4
+    m = re.search(r"cost carried to 1 Jan 2033 at forwards is \$([\d,]+); its value there is \$([\d,]+)", s8h1)
+    cmp("Figure 1", "Note: the backstop is its value on 1 Jan 2033 (8h), not its cost carried",
+        round(F["topup_comes_back_1jan2033"]), float(m.group(2).replace(",", "")) if m else None, "8h")
+    cmp("Figure 1", "Note: the cost carried, kept apart and never printed", round(F["backstop_cost_carried_1jan2033"]),
+        float(m.group(1).replace(",", "")) if m else None, "8h")
+    m = re.search(r"\| \*\*Total \$[\d,]+\*\* \| \| \*\*\$[\d,]+\*\* \| \*\*\$([\d,]+)\*\* \|", s8h)
+    cmp("Figure 1", "Note: the backstop = 8h composition's backstop column total", round(F["topup_comes_back_1jan2033"]),
+        float(m.group(1).replace(",", "")) if m else None, "8h composition")
+    r = [x for x in _table_rows(_section(md, "### 8i.", "\n### 8j."), "| World | Ten payments")
+         if x[0].startswith("Today's forwards")][0]
+    cmp("Figure 1", "Note: the backstop = 8i forwards row, left after 2042 in 1 Jan 2033 money",
+        round(F["topup_comes_back_1jan2033"]), _money(r[9])[0], "8i")
+    m = re.search(r"if it all waits in the ETF, worth \$([\d,]+) in 1 Jan 2033 money",
+                  re.sub(r"\s+", " ", _section(md, "## 4. The plan from 2028", "\n## 5.")))
+    cmp("Figure 1", "Note: the backstop = section 4's 1 Jan 2033 value", round(F["topup_comes_back_1jan2033"]),
+        float(m.group(1).replace(",", "")) if m else None, "4")
     phrase = "money already received earns nothing while it waits"
     with open(WORDS_MD) as fh:            # read again: the wait-label loop above reuses the name `words`
         words_md = fh.read()
