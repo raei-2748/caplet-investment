@@ -1,0 +1,1092 @@
+section,sample,item,value,note
+engine,6 Nov 2026 curve,"cost of the ten (engine, register)",302287,
+engine,6 Nov 2026 curve,"dollars per basis point, parallel",300.53,
+key_rate,6 Nov 2026 curve,tenor 0.08333y: dollars per bp,0,share 0.000
+key_rate,6 Nov 2026 curve,tenor 0.1667y: dollars per bp,0,share 0.000
+key_rate,6 Nov 2026 curve,tenor 0.25y: dollars per bp,0,share 0.000
+key_rate,6 Nov 2026 curve,tenor 0.5y: dollars per bp,-4.91578,share -0.016
+key_rate,6 Nov 2026 curve,tenor 1y: dollars per bp,-1.3219,share -0.004
+key_rate,6 Nov 2026 curve,tenor 2y: dollars per bp,-3.07487,share -0.010
+key_rate,6 Nov 2026 curve,tenor 3y: dollars per bp,-7.9224,share -0.026
+key_rate,6 Nov 2026 curve,tenor 5y: dollars per bp,-5.13114,share -0.017
+key_rate,6 Nov 2026 curve,tenor 7y: dollars per bp,49.8022,share 0.166
+key_rate,6 Nov 2026 curve,tenor 10y: dollars per bp,200.865,share 0.668
+key_rate,6 Nov 2026 curve,tenor 20y: dollars per bp,72.1675,share 0.240
+key_rate,6 Nov 2026 curve,tenor 30y: dollars per bp,0,share 0.000
+threshold,parallel fall in points,topup_zero (rise),-0.0764167,
+threshold,parallel fall in points,topup_10000,0.240014,
+threshold,parallel fall in points,topup_20000,0.547411,
+threshold,parallel fall in points,topup_38282,1.08748,
+threshold,parallel fall in points,"completion_47679 (Keel's $75,001 binds)",0.356727,
+threshold,parallel fall in points,"completion_75001 (most fails, VT nil)",1.3308,
+threshold,parallel fall in points,completion_150000 (whole deposit),3.60206,
+central,"6 Nov 2026 curve (Keel arithmetic; register: top-up $2,388, extra $35,894)",s,0,
+central,"6 Nov 2026 curve (Keel arithmetic; register: top-up $2,388, extra $35,894)",topup,2388.22,
+central,"6 Nov 2026 curve (Keel arithmetic; register: top-up $2,388, extra $35,894)",extra,35893.9,
+central,"6 Nov 2026 curve (Keel arithmetic; register: top-up $2,388, extra $35,894)",leftover,0,
+central,"6 Nov 2026 curve (Keel arithmetic; register: top-up $2,388, extra $35,894)",completion,38282.1,
+central,"6 Nov 2026 curve (Keel arithmetic; register: top-up $2,388, extra $35,894)",left,111718,
+central,"6 Nov 2026 curve (Keel arithmetic; register: top-up $2,388, extra $35,894)",floor,81889.2,
+central,"6 Nov 2026 curve (Keel arithmetic; register: top-up $2,388, extra $35,894)",vt,29828.7,
+current,"13 Nov 2026 curve (treasury.gov, read 17 Nov)",cost of the ten,294081,
+current,"13 Nov 2026 curve (treasury.gov, read 17 Nov)",s,0.00277293,
+current,"13 Nov 2026 curve (treasury.gov, read 17 Nov)",topup,0,
+current,"13 Nov 2026 curve (treasury.gov, read 17 Nov)",extra,37410.2,
+current,"13 Nov 2026 curve (treasury.gov, read 17 Nov)",leftover,6202.86,
+current,"13 Nov 2026 curve (treasury.gov, read 17 Nov)",completion,31207.3,
+current,"13 Nov 2026 curve (treasury.gov, read 17 Nov)",left,118793,
+current,"13 Nov 2026 curve (treasury.gov, read 17 Nov)",floor,87075,
+current,"13 Nov 2026 curve (treasury.gov, read 17 Nov)",vt,31717.6,
+current,further parallel fall needed from 13 Nov levels,topup_10000,0.517307,
+current,further parallel fall needed from 13 Nov levels,topup_20000,0.824703,
+current,further parallel fall needed from 13 Nov levels,topup_38282,1.36477,
+current,further parallel fall needed from 13 Nov levels,"completion_47679 (Keel's $75,001 binds)",0.634019,
+current,further parallel fall needed from 13 Nov levels,"completion_75001 (most fails, VT nil)",1.60809,
+history,56 days abs; all starts 1962-,windows,16164,1962-01-02 to 2026-09-18
+history,56 days abs; all starts 1962-,"topup > $10,000",0.235462,
+history,56 days abs; all starts 1962-,"topup > $20,000",0.0762188,
+history,56 days abs; all starts 1962-,"topup > $38,282",0.0155902,
+history,56 days abs; all starts 1962-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.153984,
+history,56 days abs; all starts 1962-,"completion > $75,001 (most fails; VT nil)",0.0116308,
+history,56 days abs; all starts 1962-,"topup = $0 (ten cost under $300,000)",0.403799,
+history,56 days abs; all starts 1962-,parallel-equivalent fall >= 0.5 point,0.0915615,
+history,56 days abs; all starts 1962-,top-up percentile 50,2175.1,
+history,56 days abs; all starts 1962-,top-up percentile 90,17638.6,
+history,56 days abs; all starts 1962-,top-up percentile 95,23559.8,
+history,56 days abs; all starts 1962-,top-up percentile 99,51164.4,
+history,56 days abs; all starts 1962-,top-up largest,103893,1981-09-30
+history,56 days abs; all starts 1962-,parallel-equivalent fall: s.d. (points),0.449666,
+history,56 days abs; all starts 1962-,"topup > $10,000: share starting in a recession",0.163952,3806 windows
+history,56 days abs; all starts 1962-,"topup > $10,000: share with a recession within 14 months",0.297162,
+history,56 days abs; all starts 1962-,"topup > $20,000: share starting in a recession",0.257305,1232 windows
+history,56 days abs; all starts 1962-,"topup > $20,000: share with a recession within 14 months",0.359578,
+history,56 days abs; all starts 1962-,"topup > $38,282: share starting in a recession",0.702381,252 windows
+history,56 days abs; all starts 1962-,"topup > $38,282: share with a recession within 14 months",0.706349,
+history,56 days abs; all starts 1962-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0.18401,2489 windows
+history,56 days abs; all starts 1962-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",0.317798,
+history,56 days abs; all starts 1962-,"completion > $75,001 (most fails; VT nil): share starting in a recession",0.81383,188 windows
+history,56 days abs; all starts 1962-,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",0.81383,
+history,56 days abs; starts 1990-,windows,9185,1990-01-02 to 2026-09-18
+history,56 days abs; starts 1990-,"topup > $10,000",0.250517,
+history,56 days abs; starts 1990-,"topup > $20,000",0.0599891,
+history,56 days abs; starts 1990-,"topup > $38,282",0.00381056,
+history,56 days abs; starts 1990-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.153185,
+history,56 days abs; starts 1990-,"completion > $75,001 (most fails; VT nil)",0.00228634,
+history,56 days abs; starts 1990-,"topup = $0 (ten cost under $300,000)",0.383669,
+history,56 days abs; starts 1990-,parallel-equivalent fall >= 0.5 point,0.0771911,
+history,56 days abs; starts 1990-,top-up percentile 50,3075.85,
+history,56 days abs; starts 1990-,top-up percentile 90,16858.8,
+history,56 days abs; starts 1990-,top-up percentile 95,21018.7,
+history,56 days abs; starts 1990-,top-up percentile 99,31572.6,
+history,56 days abs; starts 1990-,top-up largest,65608.2,2008-10-31
+history,56 days abs; starts 1990-,parallel-equivalent fall: s.d. (points),0.358435,
+history,56 days abs; starts 1990-,"topup > $10,000: share starting in a recession",0.0921339,2301 windows
+history,56 days abs; starts 1990-,"topup > $10,000: share with a recession within 14 months",0.246849,
+history,56 days abs; starts 1990-,"topup > $20,000: share starting in a recession",0.127042,551 windows
+history,56 days abs; starts 1990-,"topup > $20,000: share with a recession within 14 months",0.297641,
+history,56 days abs; starts 1990-,"topup > $38,282: share starting in a recession",0.8,35 windows
+history,56 days abs; starts 1990-,"topup > $38,282: share with a recession within 14 months",0.828571,
+history,56 days abs; starts 1990-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0.0909737,1407 windows
+history,56 days abs; starts 1990-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",0.263682,
+history,56 days abs; starts 1990-,"completion > $75,001 (most fails; VT nil): share starting in a recession",0.952381,21 windows
+history,56 days abs; starts 1990-,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",0.952381,
+history,56 days abs; starts 2000-,windows,6682,2000-01-03 to 2026-09-18
+history,56 days abs; starts 2000-,"topup > $10,000",0.231069,
+history,56 days abs; starts 2000-,"topup > $20,000",0.0535768,
+history,56 days abs; starts 2000-,"topup > $38,282",0.0050883,
+history,56 days abs; starts 2000-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.134391,
+history,56 days abs; starts 2000-,"completion > $75,001 (most fails; VT nil)",0.00314277,
+history,56 days abs; starts 2000-,"topup = $0 (ten cost under $300,000)",0.384466,
+history,56 days abs; starts 2000-,parallel-equivalent fall >= 0.5 point,0.0676444,
+history,56 days abs; starts 2000-,top-up percentile 50,2910.23,
+history,56 days abs; starts 2000-,top-up percentile 90,15791.3,
+history,56 days abs; starts 2000-,top-up percentile 95,20454.6,
+history,56 days abs; starts 2000-,top-up percentile 99,32725,
+history,56 days abs; starts 2000-,top-up largest,65608.2,2008-10-31
+history,56 days abs; starts 2000-,parallel-equivalent fall: s.d. (points),0.352263,
+history,56 days abs; starts 2000-,"topup > $10,000: share starting in a recession",0.101036,1544 windows
+history,56 days abs; starts 2000-,"topup > $10,000: share with a recession within 14 months",0.318653,
+history,56 days abs; starts 2000-,"topup > $20,000: share starting in a recession",0.136872,358 windows
+history,56 days abs; starts 2000-,"topup > $20,000: share with a recession within 14 months",0.391061,
+history,56 days abs; starts 2000-,"topup > $38,282: share starting in a recession",0.823529,34 windows
+history,56 days abs; starts 2000-,"topup > $38,282: share with a recession within 14 months",0.852941,
+history,56 days abs; starts 2000-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0.096882,898 windows
+history,56 days abs; starts 2000-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",0.348552,
+history,56 days abs; starts 2000-,"completion > $75,001 (most fails; VT nil): share starting in a recession",0.952381,21 windows
+history,56 days abs; starts 2000-,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",0.952381,
+history,56 days abs; 10y at start 3.5%-6.5%,windows,6840,1962-01-02 to 2026-09-18
+history,56 days abs; 10y at start 3.5%-6.5%,"topup > $10,000",0.19269,
+history,56 days abs; 10y at start 3.5%-6.5%,"topup > $20,000",0.0390351,
+history,56 days abs; 10y at start 3.5%-6.5%,"topup > $38,282",0.00438596,
+history,56 days abs; 10y at start 3.5%-6.5%,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.110673,
+history,56 days abs; 10y at start 3.5%-6.5%,"completion > $75,001 (most fails; VT nil)",0.00292398,
+history,56 days abs; 10y at start 3.5%-6.5%,"topup = $0 (ten cost under $300,000)",0.387427,
+history,56 days abs; 10y at start 3.5%-6.5%,parallel-equivalent fall >= 0.5 point,0.0517544,
+history,56 days abs; 10y at start 3.5%-6.5%,top-up percentile 50,1991.27,
+history,56 days abs; 10y at start 3.5%-6.5%,top-up percentile 90,14408.2,
+history,56 days abs; 10y at start 3.5%-6.5%,top-up percentile 95,18550.8,
+history,56 days abs; 10y at start 3.5%-6.5%,top-up percentile 99,26488.5,
+history,56 days abs; 10y at start 3.5%-6.5%,top-up largest,65608.2,2008-10-31
+history,56 days abs; 10y at start 3.5%-6.5%,parallel-equivalent fall: s.d. (points),0.316769,
+history,56 days abs; 10y at start 3.5%-6.5%,"topup > $10,000: share starting in a recession",0.107739,1318 windows
+history,56 days abs; 10y at start 3.5%-6.5%,"topup > $10,000: share with a recession within 14 months",0.248103,
+history,56 days abs; 10y at start 3.5%-6.5%,"topup > $20,000: share starting in a recession",0.157303,267 windows
+history,56 days abs; 10y at start 3.5%-6.5%,"topup > $20,000: share with a recession within 14 months",0.28839,
+history,56 days abs; 10y at start 3.5%-6.5%,"topup > $38,282: share starting in a recession",0.9,30 windows
+history,56 days abs; 10y at start 3.5%-6.5%,"topup > $38,282: share with a recession within 14 months",0.9,
+history,56 days abs; 10y at start 3.5%-6.5%,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0.101717,757 windows
+history,56 days abs; 10y at start 3.5%-6.5%,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",0.250991,
+history,56 days abs; 10y at start 3.5%-6.5%,"completion > $75,001 (most fails; VT nil): share starting in a recession",1,20 windows
+history,56 days abs; 10y at start 3.5%-6.5%,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",1,
+history,56 days abs; starts in an NBER recession,windows,1759,1970-01-02 to 2020-04-30
+history,56 days abs; starts in an NBER recession,"topup > $10,000",0.354747,
+history,56 days abs; starts in an NBER recession,"topup > $20,000",0.180216,
+history,56 days abs; starts in an NBER recession,"topup > $38,282",0.100625,
+history,56 days abs; starts in an NBER recession,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.260375,
+history,56 days abs; starts in an NBER recession,"completion > $75,001 (most fails; VT nil)",0.0869812,
+history,56 days abs; starts in an NBER recession,"topup = $0 (ten cost under $300,000)",0.379761,
+history,56 days abs; starts in an NBER recession,parallel-equivalent fall >= 0.5 point,0.196703,
+history,56 days abs; starts in an NBER recession,top-up percentile 50,4369.55,
+history,56 days abs; starts in an NBER recession,top-up percentile 90,38785.5,
+history,56 days abs; starts in an NBER recession,top-up percentile 95,61552.7,
+history,56 days abs; starts in an NBER recession,top-up percentile 99,86264.2,
+history,56 days abs; starts in an NBER recession,top-up largest,103893,1981-09-30
+history,56 days abs; starts in an NBER recession,parallel-equivalent fall: s.d. (points),0.733253,
+history,56 days abs; starts in an NBER recession,"topup > $10,000: share starting in a recession",1,624 windows
+history,56 days abs; starts in an NBER recession,"topup > $10,000: share with a recession within 14 months",1,
+history,56 days abs; starts in an NBER recession,"topup > $20,000: share starting in a recession",1,317 windows
+history,56 days abs; starts in an NBER recession,"topup > $20,000: share with a recession within 14 months",1,
+history,56 days abs; starts in an NBER recession,"topup > $38,282: share starting in a recession",1,177 windows
+history,56 days abs; starts in an NBER recession,"topup > $38,282: share with a recession within 14 months",1,
+history,56 days abs; starts in an NBER recession,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",1,458 windows
+history,56 days abs; starts in an NBER recession,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",1,
+history,56 days abs; starts in an NBER recession,"completion > $75,001 (most fails; VT nil): share starting in a recession",1,153 windows
+history,56 days abs; starts in an NBER recession,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",1,
+history,56 days abs; starts with no recession within 14 months,windows,12122,1962-01-02 to 2026-09-18
+history,56 days abs; starts with no recession within 14 months,"topup > $10,000",0.220673,
+history,56 days abs; starts with no recession within 14 months,"topup > $20,000",0.0650883,
+history,56 days abs; starts with no recession within 14 months,"topup > $38,282",0.0061046,
+history,56 days abs; starts with no recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.140076,
+history,56 days abs; starts with no recession within 14 months,"completion > $75,001 (most fails; VT nil)",0.00288731,
+history,56 days abs; starts with no recession within 14 months,"topup = $0 (ten cost under $300,000)",0.395149,
+history,56 days abs; starts with no recession within 14 months,parallel-equivalent fall >= 0.5 point,0.0800198,
+history,56 days abs; starts with no recession within 14 months,top-up percentile 50,2175.26,
+history,56 days abs; starts with no recession within 14 months,top-up percentile 90,16658.4,
+history,56 days abs; starts with no recession within 14 months,top-up percentile 95,21938,
+history,56 days abs; starts with no recession within 14 months,top-up percentile 99,35538.1,
+history,56 days abs; starts with no recession within 14 months,top-up largest,62714.5,1986-02-19
+history,56 days abs; starts with no recession within 14 months,parallel-equivalent fall: s.d. (points),0.372034,
+history,56 days abs; starts with no recession within 14 months,"topup > $10,000: share starting in a recession",0,2675 windows
+history,56 days abs; starts with no recession within 14 months,"topup > $10,000: share with a recession within 14 months",0,
+history,56 days abs; starts with no recession within 14 months,"topup > $20,000: share starting in a recession",0,789 windows
+history,56 days abs; starts with no recession within 14 months,"topup > $20,000: share with a recession within 14 months",0,
+history,56 days abs; starts with no recession within 14 months,"topup > $38,282: share starting in a recession",0,74 windows
+history,56 days abs; starts with no recession within 14 months,"topup > $38,282: share with a recession within 14 months",0,
+history,56 days abs; starts with no recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0,1698 windows
+history,56 days abs; starts with no recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",0,
+history,56 days abs; starts with no recession within 14 months,"completion > $75,001 (most fails; VT nil): share starting in a recession",0,35 windows
+history,56 days abs; starts with no recession within 14 months,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",0,
+history,56 days abs; starts with a recession within 14 months,windows,4042,1968-11-01 to 2020-04-30
+history,56 days abs; starts with a recession within 14 months,"topup > $10,000",0.279812,
+history,56 days abs; starts with a recession within 14 months,"topup > $20,000",0.109599,
+history,56 days abs; starts with a recession within 14 months,"topup > $38,282",0.0440376,
+history,56 days abs; starts with a recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.195695,
+history,56 days abs; starts with a recession within 14 months,"completion > $75,001 (most fails; VT nil)",0.0378525,
+history,56 days abs; starts with a recession within 14 months,"topup = $0 (ten cost under $300,000)",0.429738,
+history,56 days abs; starts with a recession within 14 months,parallel-equivalent fall >= 0.5 point,0.126175,
+history,56 days abs; starts with a recession within 14 months,top-up percentile 50,2161.51,
+history,56 days abs; starts with a recession within 14 months,top-up percentile 90,21019.3,
+history,56 days abs; starts with a recession within 14 months,top-up percentile 95,33788.3,
+history,56 days abs; starts with a recession within 14 months,top-up percentile 99,74421.2,
+history,56 days abs; starts with a recession within 14 months,top-up largest,103893,1981-09-30
+history,56 days abs; starts with a recession within 14 months,parallel-equivalent fall: s.d. (points),0.627297,
+history,56 days abs; starts with a recession within 14 months,"topup > $10,000: share starting in a recession",0.551724,1131 windows
+history,56 days abs; starts with a recession within 14 months,"topup > $10,000: share with a recession within 14 months",1,
+history,56 days abs; starts with a recession within 14 months,"topup > $20,000: share starting in a recession",0.715576,443 windows
+history,56 days abs; starts with a recession within 14 months,"topup > $20,000: share with a recession within 14 months",1,
+history,56 days abs; starts with a recession within 14 months,"topup > $38,282: share starting in a recession",0.994382,178 windows
+history,56 days abs; starts with a recession within 14 months,"topup > $38,282: share with a recession within 14 months",1,
+history,56 days abs; starts with a recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0.579014,791 windows
+history,56 days abs; starts with a recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",1,
+history,56 days abs; starts with a recession within 14 months,"completion > $75,001 (most fails; VT nil): share starting in a recession",1,153 windows
+history,56 days abs; starts with a recession within 14 months,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",1,
+tenor_check,56 days abs,"corr(parallel-equivalent, 10y change)",0.997482,
+tenor_check,56 days abs,"corr(parallel-equivalent, 1y change)",0.75626,
+tenor_check,56 days abs,share 1y fell >= 1.33 pt (register NUMBERS 5d test),0.0214675,
+tenor_check,56 days abs,share parallel-equivalent fell >= 1.33 pt,0.0117545,
+tenor_check,56 days abs,share 10y fell >= 1.33 pt,0.0118782,
+tenor_check,56 days abs,s.d. 1y change,0.685935,
+tenor_check,56 days abs,s.d. 10y change,0.461238,
+tenor_check,56 days abs,s.d. parallel-equivalent,0.449666,
+tenor_check,56 days abs 1990-,s.d. 1y change,0.348162,
+tenor_check,56 days abs 1990-,s.d. 10y change,0.361722,
+tenor_check,56 days abs 1990-,s.d. parallel-equivalent,0.358435,
+tenor_check,56 days abs,house model s.d. over 56 days (0.9 pt a year),0.352404,
+episode,"56 days abs; topup > $10,000",1962-01-25 to 1962-02-07,11180.7,"largest at 1962-02-07: fall 0.28 pt, 10y at start 4.07%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1966-08-23 to 1966-12-14,23247.2,"largest at 1966-11-18: fall 0.65 pt, 10y at start 5.22%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1967-11-09 to 1967-12-01,15174.2,"largest at 1967-11-13: fall 0.40 pt, 10y at start 5.87%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1968-05-14 to 1968-06-18,18813.5,"largest at 1968-05-29: fall 0.51 pt, 10y at start 5.95%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1969-12-15 to 1970-02-05,28744.1,"largest at 1970-01-07: fall 0.81 pt, 10y at start 7.99%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",1970-05-11 to 1971-02-19,38119.7,"largest at 1970-10-22: fall 1.09 pt, 10y at start 7.46%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",1971-06-22 to 1971-09-27,29006.2,"largest at 1971-08-09: fall 0.82 pt, 10y at start 6.88%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1972-09-08 to 1972-10-05,14751.9,"largest at 1972-09-25: fall 0.39 pt, 10y at start 6.62%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",1973-07-27 to 1973-09-17,24669.9,"largest at 1973-08-07: fall 0.69 pt, 10y at start 7.58%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",1974-08-23 to 1974-11-14,21043.4,"largest at 1974-10-24: fall 0.58 pt, 10y at start 7.87%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",1975-04-11 to 1975-05-01,21879.7,"largest at 1975-04-21: fall 0.61 pt, 10y at start 8.32%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1975-08-15 to 1976-02-20,22314.3,"largest at 1975-09-16: fall 0.62 pt, 10y at start 8.59%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1976-07-22 to 1976-11-12,24360.3,"largest at 1976-10-25: fall 0.68 pt, 10y at start 7.53%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1977-05-03 to 1977-05-05,10888.3,"largest at 1977-05-03: fall 0.27 pt, 10y at start 7.44%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1978-06-28 to 1978-07-25,13306.4,"largest at 1978-07-20: fall 0.34 pt, 10y at start 8.66%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1979-04-12 to 1979-05-18,21594.4,"largest at 1979-05-07: fall 0.60 pt, 10y at start 9.39%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",1979-10-22 to 1979-11-08,20092.1,"largest at 1979-10-23: fall 0.56 pt, 10y at start 11.02%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",1980-02-15 to 1980-05-19,97019,"largest at 1980-02-26: fall 2.67 pt, 10y at start 13.65%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",1980-10-31 to 1980-12-11,24543.8,"largest at 1980-11-10: fall 0.69 pt, 10y at start 12.78%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",1981-04-06 to 1981-05-13,27976,"largest at 1981-05-05: fall 0.79 pt, 10y at start 14.69%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",1981-08-24 to 1982-10-28,103893,"largest at 1981-09-30: fall 2.88 pt, 10y at start 15.84%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",1983-02-02 to 1983-03-18,20301.5,"largest at 1983-02-09: fall 0.55 pt, 10y at start 11.00%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1983-07-29 to 1983-09-02,28085.1,"largest at 1983-08-10: fall 0.79 pt, 10y at start 12.17%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1983-12-08 to 1983-12-14,12256.8,"largest at 1983-12-09: fall 0.31 pt, 10y at start 11.90%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1984-05-24 to 1984-12-13,42419.6,"largest at 1984-06-29: fall 1.20 pt, 10y at start 13.84%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1985-02-21 to 1986-07-08,62714.5,"largest at 1986-02-19: fall 1.77 pt, 10y at start 8.70%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1986-09-11 to 1986-11-14,19601.1,"largest at 1986-10-20: fall 0.53 pt, 10y at start 7.66%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1987-05-11 to 1987-05-22,20298.8,"largest at 1987-05-19: fall 0.56 pt, 10y at start 8.89%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1987-09-02 to 1988-01-19,41087,"largest at 1987-12-11: fall 1.16 pt, 10y at start 9.28%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1988-05-06 to 1988-05-10,11091,"largest at 1988-05-09: fall 0.27 pt, 10y at start 9.03%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1988-07-20 to 1988-09-08,24410.8,"largest at 1988-08-15: fall 0.68 pt, 10y at start 9.37%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1988-12-02 to 1988-12-14,10600.4,"largest at 1988-12-02: fall 0.26 pt, 10y at start 9.18%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1989-03-01 to 1989-10-05,37014.7,"largest at 1989-05-09: fall 1.05 pt, 10y at start 9.15%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",1990-04-17 to 1990-05-21,20622,"largest at 1990-05-02: fall 0.57 pt, 10y at start 9.09%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",1990-08-23 to 1990-12-26,30205.5,"largest at 1990-10-16: fall 0.85 pt, 10y at start 8.79%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",1991-06-10 to 1991-11-27,28844.7,"largest at 1991-11-05: fall 0.81 pt, 10y at start 7.56%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1992-03-13 to 1992-08-07,26726.1,"largest at 1992-06-15: fall 0.75 pt, 10y at start 7.28%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1992-11-06 to 1993-08-25,33048.7,"largest at 1993-01-07: fall 0.93 pt, 10y at start 6.76%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1994-07-11 to 1994-07-11,10724.6,"largest at 1994-07-11: fall 0.26 pt, 10y at start 7.47%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1994-11-04 to 1995-11-27,36576.6,"largest at 1995-04-10: fall 1.04 pt, 10y at start 7.12%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1996-06-07 to 1996-06-26,18460,"largest at 1996-06-12: fall 0.50 pt, 10y at start 7.03%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1996-08-26 to 1996-10-15,25672.7,"largest at 1996-09-19: fall 0.72 pt, 10y at start 6.87%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1997-04-04 to 1997-12-17,23755.2,"largest at 1997-05-28: fall 0.66 pt, 10y at start 6.80%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1998-04-20 to 1998-09-04,40667.3,"largest at 1998-08-10: fall 1.16 pt, 10y at start 5.41%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",1998-11-06 to 1998-11-06,10943.7,"largest at 1998-11-06: fall 0.27 pt, 10y at start 4.93%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2000-01-03 to 2000-03-01,26643.5,"largest at 2000-02-11: fall 0.74 pt, 10y at start 6.63%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",2000-05-03 to 2000-07-19,20537,"largest at 2000-05-18: fall 0.56 pt, 10y at start 6.56%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",2000-09-27 to 2001-01-29,31262.8,"largest at 2000-11-07: fall 0.89 pt, 10y at start 5.87%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",2001-05-23 to 2001-09-18,22410.5,"largest at 2001-09-05: fall 0.63 pt, 10y at start 4.97%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",2001-12-10 to 2002-01-03,13606.7,"largest at 2002-01-02: fall 0.35 pt, 10y at start 5.20%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2002-03-08 to 2002-08-19,33481.8,"largest at 2002-07-30: fall 0.94 pt, 10y at start 4.65%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2002-11-04 to 2003-05-06,29086.3,"largest at 2003-04-21: fall 0.82 pt, 10y at start 4.00%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2003-07-31 to 2003-09-03,19965.9,"largest at 2003-08-05: fall 0.54 pt, 10y at start 4.47%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2003-11-28 to 2004-02-05,18220.7,"largest at 2004-01-28: fall 0.49 pt, 10y at start 4.22%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2004-05-07 to 2004-09-03,22846.2,"largest at 2004-07-28: fall 0.63 pt, 10y at start 4.61%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2004-11-29 to 2004-11-29,10259.1,"largest at 2004-11-29: fall 0.25 pt, 10y at start 4.34%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2005-03-09 to 2005-05-09,22549.1,"largest at 2005-04-07: fall 0.62 pt, 10y at start 4.49%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2005-11-01 to 2005-11-14,12030,"largest at 2005-11-03: fall 0.30 pt, 10y at start 4.65%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2006-06-21 to 2006-10-17,17229.9,"largest at 2006-07-05: fall 0.46 pt, 10y at start 5.23%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2007-01-16 to 2007-01-30,11746,"largest at 2007-01-29: fall 0.29 pt, 10y at start 4.90%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",2007-06-07 to 2008-02-19,25979.4,"largest at 2007-10-09: fall 0.73 pt, 10y at start 4.67%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",2008-06-12 to 2008-11-26,65608.2,"largest at 2008-10-31: fall 1.83 pt, 10y at start 4.01%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",2009-02-04 to 2009-02-04,10699.6,"largest at 2009-02-04: fall 0.26 pt, 10y at start 2.95%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",2009-06-05 to 2009-08-13,23824.9,"largest at 2009-08-07: fall 0.66 pt, 10y at start 3.89%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",2010-01-04 to 2010-01-07,10323.3,"largest at 2010-01-07: fall 0.25 pt, 10y at start 3.85%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2010-03-11 to 2010-08-13,25810.5,"largest at 2010-03-30: fall 0.72 pt, 10y at start 3.88%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2011-02-08 to 2011-08-15,46751.7,"largest at 2011-07-28: fall 1.31 pt, 10y at start 2.98%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2011-10-18 to 2011-12-06,17791.6,"largest at 2011-10-27: fall 0.48 pt, 10y at start 2.42%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2012-03-13 to 2012-05-29,23856.4,"largest at 2012-04-04: fall 0.66 pt, 10y at start 2.25%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2012-09-14 to 2012-09-18,11682.7,"largest at 2012-09-14: fall 0.29 pt, 10y at start 1.88%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2013-02-08 to 2013-03-14,13844.2,"largest at 2013-03-07: fall 0.36 pt, 10y at start 2.00%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2013-08-22 to 2013-09-12,15541.2,"largest at 2013-09-05: fall 0.41 pt, 10y at start 2.98%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2013-12-09 to 2014-01-08,14877,"largest at 2014-01-06: fall 0.39 pt, 10y at start 2.98%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2014-03-19 to 2014-04-04,15166,"largest at 2014-04-02: fall 0.40 pt, 10y at start 2.82%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2014-06-19 to 2014-12-11,23519.6,"largest at 2014-12-05: fall 0.65 pt, 10y at start 2.31%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2015-02-17 to 2015-02-20,10992,"largest at 2015-02-20: fall 0.27 pt, 10y at start 2.13%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2015-06-08 to 2015-07-13,17933.5,"largest at 2015-06-26: fall 0.48 pt, 10y at start 2.49%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2015-11-20 to 2016-01-12,22103.4,"largest at 2015-12-17: fall 0.61 pt, 10y at start 2.24%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2016-04-20 to 2016-06-03,16585.9,"largest at 2016-05-02: fall 0.44 pt, 10y at start 1.88%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2017-02-21 to 2017-04-07,10662.4,"largest at 2017-02-21: fall 0.26 pt, 10y at start 2.43%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2017-07-06 to 2017-07-14,12158.4,"largest at 2017-07-13: fall 0.31 pt, 10y at start 2.35%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2018-05-16 to 2018-05-18,11368.1,"largest at 2018-05-17: fall 0.28 pt, 10y at start 3.11%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2018-10-09 to 2019-07-31,24601.7,"largest at 2018-11-08: fall 0.68 pt, 10y at start 3.24%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",2019-12-06 to 2020-03-20,45452.7,"largest at 2020-01-13: fall 1.29 pt, 10y at start 1.85%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $10,000",2020-06-04 to 2020-06-09,15070.5,"largest at 2020-06-05: fall 0.40 pt, 10y at start 0.91%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2021-05-11 to 2021-06-28,16707,"largest at 2021-05-24: fall 0.44 pt, 10y at start 1.61%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2021-10-08 to 2021-10-22,11407.8,"largest at 2021-10-08: fall 0.28 pt, 10y at start 1.61%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2022-06-02 to 2022-06-22,24619,"largest at 2022-06-14: fall 0.68 pt, 10y at start 3.49%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2022-10-06 to 2022-11-29,29301.2,"largest at 2022-10-20: fall 0.82 pt, 10y at start 4.24%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2023-02-07 to 2023-03-09,20211.6,"largest at 2023-03-08: fall 0.55 pt, 10y at start 3.98%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2023-10-02 to 2023-12-07,39449.3,"largest at 2023-10-25: fall 1.12 pt, 10y at start 4.95%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2024-04-10 to 2024-07-31,23795.2,"largest at 2024-06-10: fall 0.66 pt, 10y at start 4.47%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2024-12-31 to 2025-02-12,20532.4,"largest at 2025-01-13: fall 0.56 pt, 10y at start 4.79%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $10,000",2025-06-06 to 2025-09-02,16713.9,"largest at 2025-07-17: fall 0.45 pt, 10y at start 4.47%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1966-11-16 to 1966-11-25,23247.2,"largest at 1966-11-18: fall 0.65 pt, 10y at start 5.22%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1969-12-24 to 1970-01-30,28744.1,"largest at 1970-01-07: fall 0.81 pt, 10y at start 7.99%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",1970-05-25 to 1970-05-29,26318.6,"largest at 1970-05-26: fall 0.74 pt, 10y at start 8.22%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",1970-09-25 to 1970-11-06,38119.7,"largest at 1970-10-22: fall 1.09 pt, 10y at start 7.46%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",1971-01-25 to 1971-02-02,22931.9,"largest at 1971-01-26: fall 0.64 pt, 10y at start 6.07%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1971-07-22 to 1971-08-13,29006.2,"largest at 1971-08-09: fall 0.82 pt, 10y at start 6.88%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1973-08-01 to 1973-08-15,24669.9,"largest at 1973-08-07: fall 0.69 pt, 10y at start 7.58%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",1974-10-23 to 1974-10-24,21043.4,"largest at 1974-10-24: fall 0.58 pt, 10y at start 7.87%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",1975-04-21 to 1975-04-22,21879.7,"largest at 1975-04-21: fall 0.61 pt, 10y at start 8.32%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1975-09-12 to 1975-09-16,22314.3,"largest at 1975-09-16: fall 0.62 pt, 10y at start 8.59%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1976-10-22 to 1976-11-10,24360.3,"largest at 1976-10-25: fall 0.68 pt, 10y at start 7.53%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1979-05-04 to 1979-05-09,21594.4,"largest at 1979-05-07: fall 0.60 pt, 10y at start 9.39%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",1979-10-23 to 1979-10-23,20092.1,"largest at 1979-10-23: fall 0.56 pt, 10y at start 11.02%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",1980-02-19 to 1980-05-01,97019,"largest at 1980-02-26: fall 2.67 pt, 10y at start 13.65%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",1980-11-06 to 1980-12-11,24543.8,"largest at 1980-11-10: fall 0.69 pt, 10y at start 12.78%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",1981-04-20 to 1981-05-05,27976,"largest at 1981-05-05: fall 0.79 pt, 10y at start 14.69%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",1981-09-04 to 1981-11-02,103893,"largest at 1981-09-30: fall 2.88 pt, 10y at start 15.84%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",1982-01-05 to 1982-03-29,41390.2,"largest at 1982-01-11: fall 1.17 pt, 10y at start 14.81%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",1982-06-16 to 1982-10-06,95132.7,"largest at 1982-08-12: fall 2.61 pt, 10y at start 13.55%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",1983-02-09 to 1983-02-09,20301.5,"largest at 1983-02-09: fall 0.55 pt, 10y at start 11.00%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1983-08-04 to 1983-08-12,28085.1,"largest at 1983-08-10: fall 0.79 pt, 10y at start 12.17%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1984-05-29 to 1984-10-17,42419.6,"largest at 1984-06-29: fall 1.20 pt, 10y at start 13.84%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1985-02-22 to 1985-05-17,59207,"largest at 1985-04-10: fall 1.68 pt, 10y at start 11.58%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1985-09-10 to 1986-03-06,62714.5,"largest at 1986-02-19: fall 1.77 pt, 10y at start 8.70%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1986-05-15 to 1986-06-10,32535.2,"largest at 1986-06-04: fall 0.92 pt, 10y at start 8.39%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1987-05-19 to 1987-05-19,20298.8,"largest at 1987-05-19: fall 0.56 pt, 10y at start 8.89%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1987-09-08 to 1988-01-12,41087,"largest at 1987-12-11: fall 1.16 pt, 10y at start 9.28%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1988-08-12 to 1988-08-26,24410.8,"largest at 1988-08-15: fall 0.68 pt, 10y at start 9.37%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1989-03-17 to 1989-06-06,37014.7,"largest at 1989-05-09: fall 1.05 pt, 10y at start 9.15%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",1990-04-27 to 1990-05-03,20622,"largest at 1990-05-02: fall 0.57 pt, 10y at start 9.09%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",1990-09-21 to 1990-11-08,30205.5,"largest at 1990-10-16: fall 0.85 pt, 10y at start 8.79%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",1991-07-18 to 1991-08-09,24375.2,"largest at 1991-07-23: fall 0.68 pt, 10y at start 8.31%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1991-10-25 to 1991-11-13,28844.7,"largest at 1991-11-05: fall 0.81 pt, 10y at start 7.56%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1992-05-27 to 1992-07-20,26726.1,"largest at 1992-06-15: fall 0.75 pt, 10y at start 7.28%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1992-12-28 to 1993-01-26,33048.7,"largest at 1993-01-07: fall 0.93 pt, 10y at start 6.76%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1993-07-13 to 1993-08-03,21534,"largest at 1993-07-23: fall 0.59 pt, 10y at start 5.95%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1995-01-03 to 1995-05-15,36576.6,"largest at 1995-04-10: fall 1.04 pt, 10y at start 7.12%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1995-08-11 to 1995-08-23,22740.6,"largest at 1995-08-23: fall 0.63 pt, 10y at start 6.60%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1996-09-05 to 1996-09-30,25672.7,"largest at 1996-09-19: fall 0.72 pt, 10y at start 6.87%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1997-04-25 to 1997-06-05,23755.2,"largest at 1997-05-28: fall 0.66 pt, 10y at start 6.80%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",1998-07-16 to 1998-08-25,40667.3,"largest at 1998-08-10: fall 1.16 pt, 10y at start 5.41%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",2000-01-21 to 2000-02-18,26643.5,"largest at 2000-02-11: fall 0.74 pt, 10y at start 6.63%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",2000-05-08 to 2000-05-18,20537,"largest at 2000-05-18: fall 0.56 pt, 10y at start 6.56%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",2000-10-25 to 2000-11-14,31262.8,"largest at 2000-11-07: fall 0.89 pt, 10y at start 5.87%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",2001-07-05 to 2001-09-06,22410.5,"largest at 2001-09-05: fall 0.63 pt, 10y at start 4.97%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",2002-05-15 to 2002-08-12,33481.8,"largest at 2002-07-30: fall 0.94 pt, 10y at start 4.65%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",2003-01-13 to 2003-01-13,20577.9,"largest at 2003-01-13: fall 0.56 pt, 10y at start 4.15%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",2003-03-21 to 2003-04-29,29086.3,"largest at 2003-04-21: fall 0.82 pt, 10y at start 4.00%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",2004-06-14 to 2004-07-29,22846.2,"largest at 2004-07-28: fall 0.63 pt, 10y at start 4.61%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",2005-03-23 to 2005-04-07,22549.1,"largest at 2005-04-07: fall 0.62 pt, 10y at start 4.49%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",2007-07-05 to 2007-07-18,24874.3,"largest at 2007-07-13: fall 0.70 pt, 10y at start 5.11%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",2007-09-26 to 2007-10-16,25979.4,"largest at 2007-10-09: fall 0.73 pt, 10y at start 4.67%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",2008-07-21 to 2008-07-23,25707.6,"largest at 2008-07-23: fall 0.72 pt, 10y at start 4.16%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",2008-09-25 to 2008-11-25,65608.2,"largest at 2008-10-31: fall 1.83 pt, 10y at start 4.01%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",2009-08-06 to 2009-08-10,23824.9,"largest at 2009-08-07: fall 0.66 pt, 10y at start 3.89%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",2010-03-25 to 2010-07-13,25810.5,"largest at 2010-03-30: fall 0.72 pt, 10y at start 3.88%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",2011-04-06 to 2011-08-08,46751.7,"largest at 2011-07-28: fall 1.31 pt, 10y at start 2.98%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",2012-03-19 to 2012-04-09,23856.4,"largest at 2012-04-04: fall 0.66 pt, 10y at start 2.25%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",2014-11-20 to 2014-12-08,23519.6,"largest at 2014-12-05: fall 0.65 pt, 10y at start 2.31%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",2015-12-16 to 2015-12-31,22103.4,"largest at 2015-12-17: fall 0.61 pt, 10y at start 2.24%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",2018-11-07 to 2018-11-08,24601.7,"largest at 2018-11-08: fall 0.68 pt, 10y at start 3.24%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",2019-07-05 to 2019-07-12,21831.3,"largest at 2019-07-10: fall 0.60 pt, 10y at start 2.07%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",2019-12-31 to 2020-03-18,45452.7,"largest at 2020-01-13: fall 1.29 pt, 10y at start 1.85%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $20,000",2022-06-13 to 2022-06-15,24619,"largest at 2022-06-14: fall 0.68 pt, 10y at start 3.49%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",2022-10-19 to 2022-10-24,29301.2,"largest at 2022-10-20: fall 0.82 pt, 10y at start 4.24%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",2023-03-08 to 2023-03-08,20211.6,"largest at 2023-03-08: fall 0.55 pt, 10y at start 3.98%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",2023-10-06 to 2023-11-13,39449.3,"largest at 2023-10-25: fall 1.12 pt, 10y at start 4.95%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",2024-06-07 to 2024-07-24,23795.2,"largest at 2024-06-10: fall 0.66 pt, 10y at start 4.47%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $20,000",2025-01-13 to 2025-01-13,20532.4,"largest at 2025-01-13: fall 0.56 pt, 10y at start 4.79%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $38,282",1980-02-19 to 1980-04-25,97019,"largest at 1980-02-26: fall 2.67 pt, 10y at start 13.65%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $38,282",1981-09-09 to 1981-10-28,103893,"largest at 1981-09-30: fall 2.88 pt, 10y at start 15.84%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $38,282",1982-01-07 to 1982-01-13,41390.2,"largest at 1982-01-11: fall 1.17 pt, 10y at start 14.81%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $38,282",1982-06-18 to 1982-09-30,95132.7,"largest at 1982-08-12: fall 2.61 pt, 10y at start 13.55%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $38,282",1984-06-26 to 1984-06-29,42419.6,"largest at 1984-06-29: fall 1.20 pt, 10y at start 13.84%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $38,282",1984-09-04 to 1984-10-02,41901.4,"largest at 1984-10-02: fall 1.20 pt, 10y at start 12.54%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $38,282",1985-03-25 to 1985-05-10,59207,"largest at 1985-04-10: fall 1.68 pt, 10y at start 11.58%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $38,282",1985-10-22 to 1985-10-28,42922.7,"largest at 1985-10-28: fall 1.21 pt, 10y at start 10.28%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $38,282",1986-01-06 to 1986-02-25,62714.5,"largest at 1986-02-19: fall 1.77 pt, 10y at start 8.70%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $38,282",1987-12-11 to 1987-12-11,41087,"largest at 1987-12-11: fall 1.16 pt, 10y at start 9.28%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $38,282",1998-08-10 to 1998-08-10,40667.3,"largest at 1998-08-10: fall 1.16 pt, 10y at start 5.41%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $38,282",2008-10-09 to 2008-11-19,65608.2,"largest at 2008-10-31: fall 1.83 pt, 10y at start 4.01%, in recession True, recession within 14 months True"
+episode,"56 days abs; topup > $38,282",2011-07-25 to 2011-07-28,46751.7,"largest at 2011-07-28: fall 1.31 pt, 10y at start 2.98%, in recession False, recession within 14 months False"
+episode,"56 days abs; topup > $38,282",2020-01-13 to 2020-01-13,45452.7,"largest at 2020-01-13: fall 1.29 pt, 10y at start 1.85%, in recession False, recession within 14 months True"
+episode,"56 days abs; topup > $38,282",2023-10-19 to 2023-10-25,39449.3,"largest at 2023-10-25: fall 1.12 pt, 10y at start 4.95%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1966-08-26 to 1966-08-31,19491.2,"largest at 1966-08-29: fall 0.53 pt, 10y at start 5.51%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1966-11-04 to 1966-12-09,23247.2,"largest at 1966-11-18: fall 0.65 pt, 10y at start 5.22%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1967-11-10 to 1967-11-20,15174.2,"largest at 1967-11-13: fall 0.40 pt, 10y at start 5.87%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1968-05-20 to 1968-06-12,18813.5,"largest at 1968-05-29: fall 0.51 pt, 10y at start 5.95%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1969-12-19 to 1970-02-04,28744.1,"largest at 1970-01-07: fall 0.81 pt, 10y at start 7.99%, in recession True, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1970-05-21 to 1971-02-11,38119.7,"largest at 1970-10-22: fall 1.09 pt, 10y at start 7.46%, in recession True, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1971-07-06 to 1971-09-23,29006.2,"largest at 1971-08-09: fall 0.82 pt, 10y at start 6.88%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1972-09-22 to 1972-09-25,14751.9,"largest at 1972-09-25: fall 0.39 pt, 10y at start 6.62%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1973-07-30 to 1973-08-31,24669.9,"largest at 1973-08-07: fall 0.69 pt, 10y at start 7.58%, in recession False, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1974-09-12 to 1974-11-04,21043.4,"largest at 1974-10-24: fall 0.58 pt, 10y at start 7.87%, in recession True, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1975-04-15 to 1975-04-29,21879.7,"largest at 1975-04-21: fall 0.61 pt, 10y at start 8.32%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1975-09-05 to 1975-12-09,22314.3,"largest at 1975-09-16: fall 0.62 pt, 10y at start 8.59%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1976-08-13 to 1976-11-10,24360.3,"largest at 1976-10-25: fall 0.68 pt, 10y at start 7.53%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1979-04-30 to 1979-05-15,21594.4,"largest at 1979-05-07: fall 0.60 pt, 10y at start 9.39%, in recession False, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1979-10-22 to 1979-11-07,20092.1,"largest at 1979-10-23: fall 0.56 pt, 10y at start 11.02%, in recession False, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1980-02-15 to 1980-05-01,97019,"largest at 1980-02-26: fall 2.67 pt, 10y at start 13.65%, in recession True, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1980-11-06 to 1980-12-11,24543.8,"largest at 1980-11-10: fall 0.69 pt, 10y at start 12.78%, in recession False, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1981-04-06 to 1981-05-12,27976,"largest at 1981-05-05: fall 0.79 pt, 10y at start 14.69%, in recession False, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1981-09-04 to 1981-11-02,103893,"largest at 1981-09-30: fall 2.88 pt, 10y at start 15.84%, in recession True, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1982-01-04 to 1982-04-05,41390.2,"largest at 1982-01-11: fall 1.17 pt, 10y at start 14.81%, in recession True, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1982-06-07 to 1982-10-25,95132.7,"largest at 1982-08-12: fall 2.61 pt, 10y at start 13.55%, in recession True, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1983-02-04 to 1983-03-11,20301.5,"largest at 1983-02-09: fall 0.55 pt, 10y at start 11.00%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1983-08-01 to 1983-08-15,28085.1,"largest at 1983-08-10: fall 0.79 pt, 10y at start 12.17%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1984-05-24 to 1984-12-07,42419.6,"largest at 1984-06-29: fall 1.20 pt, 10y at start 13.84%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1985-02-21 to 1986-06-26,62714.5,"largest at 1986-02-19: fall 1.77 pt, 10y at start 8.70%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1986-09-19 to 1986-10-29,19601.1,"largest at 1986-10-20: fall 0.53 pt, 10y at start 7.66%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1987-05-15 to 1987-05-22,20298.8,"largest at 1987-05-19: fall 0.56 pt, 10y at start 8.89%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1987-09-03 to 1988-01-14,41087,"largest at 1987-12-11: fall 1.16 pt, 10y at start 9.28%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1988-08-10 to 1988-09-01,24410.8,"largest at 1988-08-15: fall 0.68 pt, 10y at start 9.37%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1989-03-17 to 1989-06-08,37014.7,"largest at 1989-05-09: fall 1.05 pt, 10y at start 9.15%, in recession False, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1989-08-29 to 1989-10-03,18300.7,"largest at 1989-09-29: fall 0.50 pt, 10y at start 8.31%, in recession False, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1990-04-18 to 1990-05-10,20622,"largest at 1990-05-02: fall 0.57 pt, 10y at start 9.09%, in recession False, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1990-08-24 to 1990-12-24,30205.5,"largest at 1990-10-16: fall 0.85 pt, 10y at start 8.79%, in recession True, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1991-06-12 to 1991-08-13,24375.2,"largest at 1991-07-23: fall 0.68 pt, 10y at start 8.31%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1991-10-21 to 1991-11-26,28844.7,"largest at 1991-11-05: fall 0.81 pt, 10y at start 7.56%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1992-04-23 to 1992-08-06,26726.1,"largest at 1992-06-15: fall 0.75 pt, 10y at start 7.28%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1992-11-09 to 1993-02-17,33048.7,"largest at 1993-01-07: fall 0.93 pt, 10y at start 6.76%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1993-05-18 to 1993-08-20,21534,"largest at 1993-07-23: fall 0.59 pt, 10y at start 5.95%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1994-12-22 to 1995-11-24,36576.6,"largest at 1995-04-10: fall 1.04 pt, 10y at start 7.12%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1996-06-07 to 1996-06-21,18460,"largest at 1996-06-12: fall 0.50 pt, 10y at start 7.03%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1996-08-30 to 1996-10-10,25672.7,"largest at 1996-09-19: fall 0.72 pt, 10y at start 6.87%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1997-04-11 to 1997-12-09,23755.2,"largest at 1997-05-28: fall 0.66 pt, 10y at start 6.80%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",1998-04-27 to 1998-09-03,40667.3,"largest at 1998-08-10: fall 1.16 pt, 10y at start 5.41%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2000-01-12 to 2000-02-28,26643.5,"largest at 2000-02-11: fall 0.74 pt, 10y at start 6.63%, in recession False, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2000-05-04 to 2000-07-19,20537,"largest at 2000-05-18: fall 0.56 pt, 10y at start 6.56%, in recession False, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2000-10-04 to 2000-11-17,31262.8,"largest at 2000-11-07: fall 0.89 pt, 10y at start 5.87%, in recession False, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2001-01-22 to 2001-01-29,18396.5,"largest at 2001-01-24: fall 0.50 pt, 10y at start 5.33%, in recession False, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2001-05-24 to 2001-09-10,22410.5,"largest at 2001-09-05: fall 0.63 pt, 10y at start 4.97%, in recession True, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2002-04-19 to 2002-08-19,33481.8,"largest at 2002-07-30: fall 0.94 pt, 10y at start 4.65%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2003-01-06 to 2003-01-16,20577.9,"largest at 2003-01-13: fall 0.56 pt, 10y at start 4.15%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2003-03-19 to 2003-05-05,29086.3,"largest at 2003-04-21: fall 0.82 pt, 10y at start 4.00%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2003-07-31 to 2003-09-02,19965.9,"largest at 2003-08-05: fall 0.54 pt, 10y at start 4.47%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2004-01-02 to 2004-01-29,18220.7,"largest at 2004-01-28: fall 0.49 pt, 10y at start 4.22%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2004-05-13 to 2004-08-04,22846.2,"largest at 2004-07-28: fall 0.63 pt, 10y at start 4.61%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2005-03-18 to 2005-04-14,22549.1,"largest at 2005-04-07: fall 0.62 pt, 10y at start 4.49%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2006-06-23 to 2006-08-02,17229.9,"largest at 2006-07-05: fall 0.46 pt, 10y at start 5.23%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2007-06-08 to 2007-12-18,25979.4,"largest at 2007-10-09: fall 0.73 pt, 10y at start 4.67%, in recession False, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2008-06-23 to 2008-11-26,65608.2,"largest at 2008-10-31: fall 1.83 pt, 10y at start 4.01%, in recession True, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2009-07-17 to 2009-08-12,23824.9,"largest at 2009-08-07: fall 0.66 pt, 10y at start 3.89%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2010-03-11 to 2010-08-09,25810.5,"largest at 2010-03-30: fall 0.72 pt, 10y at start 3.88%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2011-03-29 to 2011-08-11,46751.7,"largest at 2011-07-28: fall 1.31 pt, 10y at start 2.98%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2011-10-21 to 2011-10-27,17791.6,"largest at 2011-10-27: fall 0.48 pt, 10y at start 2.42%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2012-03-14 to 2012-05-03,23856.4,"largest at 2012-04-04: fall 0.66 pt, 10y at start 2.25%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2013-03-07 to 2013-03-07,13844.2,"largest at 2013-03-07: fall 0.36 pt, 10y at start 2.00%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2013-09-05 to 2013-09-05,15541.2,"largest at 2013-09-05: fall 0.41 pt, 10y at start 2.98%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2013-12-31 to 2014-01-06,14877,"largest at 2014-01-06: fall 0.39 pt, 10y at start 2.98%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2014-04-02 to 2014-04-03,15166,"largest at 2014-04-02: fall 0.40 pt, 10y at start 2.82%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2014-11-10 to 2014-12-11,23519.6,"largest at 2014-12-05: fall 0.65 pt, 10y at start 2.31%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2015-06-25 to 2015-06-29,17933.5,"largest at 2015-06-26: fall 0.48 pt, 10y at start 2.49%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2015-12-08 to 2016-01-05,22103.4,"largest at 2015-12-17: fall 0.61 pt, 10y at start 2.24%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2016-05-02 to 2016-05-18,16585.9,"largest at 2016-05-02: fall 0.44 pt, 10y at start 1.88%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2018-10-23 to 2018-11-16,24601.7,"largest at 2018-11-08: fall 0.68 pt, 10y at start 3.24%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2019-04-05 to 2019-07-30,21831.3,"largest at 2019-07-10: fall 0.60 pt, 10y at start 2.07%, in recession False, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2019-12-24 to 2020-03-19,45452.7,"largest at 2020-01-13: fall 1.29 pt, 10y at start 1.85%, in recession True, recession within 14 months True"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2020-06-05 to 2020-06-05,15070.5,"largest at 2020-06-05: fall 0.40 pt, 10y at start 0.91%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2021-05-12 to 2021-06-08,16707,"largest at 2021-05-24: fall 0.44 pt, 10y at start 1.61%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2022-06-06 to 2022-06-21,24619,"largest at 2022-06-14: fall 0.68 pt, 10y at start 3.49%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2022-10-07 to 2022-11-21,29301.2,"largest at 2022-10-20: fall 0.82 pt, 10y at start 4.24%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2023-02-15 to 2023-03-09,20211.6,"largest at 2023-03-08: fall 0.55 pt, 10y at start 3.98%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2023-10-03 to 2023-11-20,39449.3,"largest at 2023-10-25: fall 1.12 pt, 10y at start 4.95%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2024-04-18 to 2024-07-30,23795.2,"largest at 2024-06-10: fall 0.66 pt, 10y at start 4.47%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2025-01-03 to 2025-02-07,20532.4,"largest at 2025-01-13: fall 0.56 pt, 10y at start 4.79%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $47,679 (Keel's $75,001 binds; VT squeezed)",2025-07-14 to 2025-07-18,16713.9,"largest at 2025-07-17: fall 0.45 pt, 10y at start 4.47%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $75,001 (most fails; VT nil)",1980-02-19 to 1980-04-25,97019,"largest at 1980-02-26: fall 2.67 pt, 10y at start 13.65%, in recession True, recession within 14 months True"
+episode,"56 days abs; completion > $75,001 (most fails; VT nil)",1981-09-14 to 1981-10-27,103893,"largest at 1981-09-30: fall 2.88 pt, 10y at start 15.84%, in recession True, recession within 14 months True"
+episode,"56 days abs; completion > $75,001 (most fails; VT nil)",1982-06-21 to 1982-09-27,95132.7,"largest at 1982-08-12: fall 2.61 pt, 10y at start 13.55%, in recession True, recession within 14 months True"
+episode,"56 days abs; completion > $75,001 (most fails; VT nil)",1985-04-08 to 1985-04-11,59207,"largest at 1985-04-10: fall 1.68 pt, 10y at start 11.58%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $75,001 (most fails; VT nil)",1986-01-10 to 1986-02-24,62714.5,"largest at 1986-02-19: fall 1.77 pt, 10y at start 8.70%, in recession False, recession within 14 months False"
+episode,"56 days abs; completion > $75,001 (most fails; VT nil)",2008-10-14 to 2008-11-13,65608.2,"largest at 2008-10-31: fall 1.83 pt, 10y at start 4.01%, in recession True, recession within 14 months True"
+episode,"56 days abs; completion > $75,001 (most fails; VT nil)",2011-07-28 to 2011-07-28,46751.7,"largest at 2011-07-28: fall 1.31 pt, 10y at start 2.98%, in recession False, recession within 14 months False"
+history,56 days prop; all starts 1962-,windows,16164,1962-01-02 to 2026-09-18
+history,56 days prop; all starts 1962-,"topup > $10,000",0.220985,
+history,56 days prop; all starts 1962-,"topup > $20,000",0.0622371,
+history,56 days prop; all starts 1962-,"topup > $38,282",0.0102079,
+history,56 days prop; all starts 1962-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.134744,
+history,56 days prop; all starts 1962-,"completion > $75,001 (most fails; VT nil)",0.00686711,
+history,56 days prop; all starts 1962-,"topup = $0 (ten cost under $300,000)",0.402871,
+history,56 days prop; all starts 1962-,parallel-equivalent fall >= 0.5 point,0.0734348,
+history,56 days prop; all starts 1962-,top-up percentile 50,2183.16,
+history,56 days prop; all starts 1962-,top-up percentile 90,16059.6,
+history,56 days prop; all starts 1962-,top-up percentile 95,22039.1,
+history,56 days prop; all starts 1962-,top-up percentile 99,38733.9,
+history,56 days prop; all starts 1962-,top-up largest,125599,2020-01-13
+history,56 days prop; all starts 1962-,parallel-equivalent fall: s.d. (points),0.44253,
+history,56 days prop; all starts 1962-,"topup > $10,000: share starting in a recession",0.138018,3572 windows
+history,56 days prop; all starts 1962-,"topup > $10,000: share with a recession within 14 months",0.262878,
+history,56 days prop; all starts 1962-,"topup > $20,000: share starting in a recession",0.184891,1006 windows
+history,56 days prop; all starts 1962-,"topup > $20,000: share with a recession within 14 months",0.345924,
+history,56 days prop; all starts 1962-,"topup > $38,282: share starting in a recession",0.224242,165 windows
+history,56 days prop; all starts 1962-,"topup > $38,282: share with a recession within 14 months",0.569697,
+history,56 days prop; all starts 1962-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0.147383,2178 windows
+history,56 days prop; all starts 1962-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",0.277778,
+history,56 days prop; all starts 1962-,"completion > $75,001 (most fails; VT nil): share starting in a recession",0.279279,111 windows
+history,56 days prop; all starts 1962-,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",0.675676,
+history,56 days prop; starts 1990-,windows,9185,1990-01-02 to 2026-09-18
+history,56 days prop; starts 1990-,"topup > $10,000",0.281981,
+history,56 days prop; starts 1990-,"topup > $20,000",0.0886228,
+history,56 days prop; starts 1990-,"topup > $38,282",0.0179641,
+history,56 days prop; starts 1990-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.179641,
+history,56 days prop; starts 1990-,"completion > $75,001 (most fails; VT nil)",0.0120849,
+history,56 days prop; starts 1990-,"topup = $0 (ten cost under $300,000)",0.400871,
+history,56 days prop; starts 1990-,parallel-equivalent fall >= 0.5 point,0.102014,
+history,56 days prop; starts 1990-,top-up percentile 50,3211.68,
+history,56 days prop; starts 1990-,top-up percentile 90,18722.9,
+history,56 days prop; starts 1990-,top-up percentile 95,25640.6,
+history,56 days prop; starts 1990-,top-up percentile 99,51758.4,
+history,56 days prop; starts 1990-,top-up largest,125599,2020-01-13
+history,56 days prop; starts 1990-,parallel-equivalent fall: s.d. (points),0.533923,
+history,56 days prop; starts 1990-,"topup > $10,000: share starting in a recession",0.0772201,2590 windows
+history,56 days prop; starts 1990-,"topup > $10,000: share with a recession within 14 months",0.227413,
+history,56 days prop; starts 1990-,"topup > $20,000: share starting in a recession",0.0712531,814 windows
+history,56 days prop; starts 1990-,"topup > $20,000: share with a recession within 14 months",0.27027,
+history,56 days prop; starts 1990-,"topup > $38,282: share starting in a recession",0.224242,165 windows
+history,56 days prop; starts 1990-,"topup > $38,282: share with a recession within 14 months",0.569697,
+history,56 days prop; starts 1990-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0.0660606,1650 windows
+history,56 days prop; starts 1990-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",0.226061,
+history,56 days prop; starts 1990-,"completion > $75,001 (most fails; VT nil): share starting in a recession",0.279279,111 windows
+history,56 days prop; starts 1990-,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",0.675676,
+history,56 days prop; starts 2000-,windows,6682,2000-01-03 to 2026-09-18
+history,56 days prop; starts 2000-,"topup > $10,000",0.304999,
+history,56 days prop; starts 2000-,"topup > $20,000",0.114337,
+history,56 days prop; starts 2000-,"topup > $38,282",0.0246932,
+history,56 days prop; starts 2000-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.210117,
+history,56 days prop; starts 2000-,"completion > $75,001 (most fails; VT nil)",0.0166118,
+history,56 days prop; starts 2000-,"topup = $0 (ten cost under $300,000)",0.419186,
+history,56 days prop; starts 2000-,parallel-equivalent fall >= 0.5 point,0.131398,
+history,56 days prop; starts 2000-,top-up percentile 50,3117.93,
+history,56 days prop; starts 2000-,top-up percentile 90,21350.4,
+history,56 days prop; starts 2000-,top-up percentile 95,29313.6,
+history,56 days prop; starts 2000-,top-up percentile 99,56475.9,
+history,56 days prop; starts 2000-,top-up largest,125599,2020-01-13
+history,56 days prop; starts 2000-,parallel-equivalent fall: s.d. (points),0.60122,
+history,56 days prop; starts 2000-,"topup > $10,000: share starting in a recession",0.0819431,2038 windows
+history,56 days prop; starts 2000-,"topup > $10,000: share with a recession within 14 months",0.265456,
+history,56 days prop; starts 2000-,"topup > $20,000: share starting in a recession",0.0759162,764 windows
+history,56 days prop; starts 2000-,"topup > $20,000: share with a recession within 14 months",0.287958,
+history,56 days prop; starts 2000-,"topup > $38,282: share starting in a recession",0.224242,165 windows
+history,56 days prop; starts 2000-,"topup > $38,282: share with a recession within 14 months",0.569697,
+history,56 days prop; starts 2000-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0.0669516,1404 windows
+history,56 days prop; starts 2000-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",0.254986,
+history,56 days prop; starts 2000-,"completion > $75,001 (most fails; VT nil): share starting in a recession",0.279279,111 windows
+history,56 days prop; starts 2000-,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",0.675676,
+history,56 days prop; 10y at start 3.5%-6.5%,windows,6840,1962-01-02 to 2026-09-18
+history,56 days prop; 10y at start 3.5%-6.5%,"topup > $10,000",0.185673,
+history,56 days prop; 10y at start 3.5%-6.5%,"topup > $20,000",0.0431287,
+history,56 days prop; 10y at start 3.5%-6.5%,"topup > $38,282",0.00423977,
+history,56 days prop; 10y at start 3.5%-6.5%,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.100585,
+history,56 days prop; 10y at start 3.5%-6.5%,"completion > $75,001 (most fails; VT nil)",0.00394737,
+history,56 days prop; 10y at start 3.5%-6.5%,"topup = $0 (ten cost under $300,000)",0.395468,
+history,56 days prop; 10y at start 3.5%-6.5%,parallel-equivalent fall >= 0.5 point,0.0523392,
+history,56 days prop; 10y at start 3.5%-6.5%,top-up percentile 50,1958.29,
+history,56 days prop; 10y at start 3.5%-6.5%,top-up percentile 90,13809.9,
+history,56 days prop; 10y at start 3.5%-6.5%,top-up percentile 95,18841.6,
+history,56 days prop; 10y at start 3.5%-6.5%,top-up percentile 99,29710.9,
+history,56 days prop; 10y at start 3.5%-6.5%,top-up largest,78125.9,2008-10-31
+history,56 days prop; 10y at start 3.5%-6.5%,parallel-equivalent fall: s.d. (points),0.327239,
+history,56 days prop; 10y at start 3.5%-6.5%,"topup > $10,000: share starting in a recession",0.112598,1270 windows
+history,56 days prop; 10y at start 3.5%-6.5%,"topup > $10,000: share with a recession within 14 months",0.253543,
+history,56 days prop; 10y at start 3.5%-6.5%,"topup > $20,000: share starting in a recession",0.138983,295 windows
+history,56 days prop; 10y at start 3.5%-6.5%,"topup > $20,000: share with a recession within 14 months",0.254237,
+history,56 days prop; 10y at start 3.5%-6.5%,"topup > $38,282: share starting in a recession",0.965517,29 windows
+history,56 days prop; 10y at start 3.5%-6.5%,"topup > $38,282: share with a recession within 14 months",0.965517,
+history,56 days prop; 10y at start 3.5%-6.5%,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0.104651,688 windows
+history,56 days prop; 10y at start 3.5%-6.5%,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",0.239826,
+history,56 days prop; 10y at start 3.5%-6.5%,"completion > $75,001 (most fails; VT nil): share starting in a recession",1,27 windows
+history,56 days prop; 10y at start 3.5%-6.5%,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",1,
+history,56 days prop; starts in an NBER recession,windows,1759,1970-01-02 to 2020-04-30
+history,56 days prop; starts in an NBER recession,"topup > $10,000",0.280273,
+history,56 days prop; starts in an NBER recession,"topup > $20,000",0.105742,
+history,56 days prop; starts in an NBER recession,"topup > $38,282",0.0210347,
+history,56 days prop; starts in an NBER recession,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.18249,
+history,56 days prop; starts in an NBER recession,"completion > $75,001 (most fails; VT nil)",0.0176236,
+history,56 days prop; starts in an NBER recession,"topup = $0 (ten cost under $300,000)",0.363843,
+history,56 days prop; starts in an NBER recession,parallel-equivalent fall >= 0.5 point,0.123366,
+history,56 days prop; starts in an NBER recession,top-up percentile 50,3630.07,
+history,56 days prop; starts in an NBER recession,top-up percentile 90,21107.6,
+history,56 days prop; starts in an NBER recession,top-up percentile 95,28502.3,
+history,56 days prop; starts in an NBER recession,top-up percentile 99,57877.6,
+history,56 days prop; starts in an NBER recession,top-up largest,78125.9,2008-10-31
+history,56 days prop; starts in an NBER recession,parallel-equivalent fall: s.d. (points),0.492739,
+history,56 days prop; starts in an NBER recession,"topup > $10,000: share starting in a recession",1,493 windows
+history,56 days prop; starts in an NBER recession,"topup > $10,000: share with a recession within 14 months",1,
+history,56 days prop; starts in an NBER recession,"topup > $20,000: share starting in a recession",1,186 windows
+history,56 days prop; starts in an NBER recession,"topup > $20,000: share with a recession within 14 months",1,
+history,56 days prop; starts in an NBER recession,"topup > $38,282: share starting in a recession",1,37 windows
+history,56 days prop; starts in an NBER recession,"topup > $38,282: share with a recession within 14 months",1,
+history,56 days prop; starts in an NBER recession,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",1,321 windows
+history,56 days prop; starts in an NBER recession,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",1,
+history,56 days prop; starts in an NBER recession,"completion > $75,001 (most fails; VT nil): share starting in a recession",1,31 windows
+history,56 days prop; starts in an NBER recession,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",1,
+history,56 days prop; starts with no recession within 14 months,windows,12122,1962-01-02 to 2026-09-18
+history,56 days prop; starts with no recession within 14 months,"topup > $10,000",0.217208,
+history,56 days prop; starts with no recession within 14 months,"topup > $20,000",0.0542815,
+history,56 days prop; starts with no recession within 14 months,"topup > $38,282",0.00585712,
+history,56 days prop; starts with no recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.129764,
+history,56 days prop; starts with no recession within 14 months,"completion > $75,001 (most fails; VT nil)",0.00296981,
+history,56 days prop; starts with no recession within 14 months,"topup = $0 (ten cost under $300,000)",0.401749,
+history,56 days prop; starts with no recession within 14 months,parallel-equivalent fall >= 0.5 point,0.0645933,
+history,56 days prop; starts with no recession within 14 months,top-up percentile 50,2168.86,
+history,56 days prop; starts with no recession within 14 months,top-up percentile 90,15496.1,
+history,56 days prop; starts with no recession within 14 months,top-up percentile 95,20550,
+history,56 days prop; starts with no recession within 14 months,top-up percentile 99,34069.5,
+history,56 days prop; starts with no recession within 14 months,top-up largest,76459.1,2011-07-28
+history,56 days prop; starts with no recession within 14 months,parallel-equivalent fall: s.d. (points),0.428183,
+history,56 days prop; starts with no recession within 14 months,"topup > $10,000: share starting in a recession",0,2633 windows
+history,56 days prop; starts with no recession within 14 months,"topup > $10,000: share with a recession within 14 months",0,
+history,56 days prop; starts with no recession within 14 months,"topup > $20,000: share starting in a recession",0,658 windows
+history,56 days prop; starts with no recession within 14 months,"topup > $20,000: share with a recession within 14 months",0,
+history,56 days prop; starts with no recession within 14 months,"topup > $38,282: share starting in a recession",0,71 windows
+history,56 days prop; starts with no recession within 14 months,"topup > $38,282: share with a recession within 14 months",0,
+history,56 days prop; starts with no recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0,1573 windows
+history,56 days prop; starts with no recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",0,
+history,56 days prop; starts with no recession within 14 months,"completion > $75,001 (most fails; VT nil): share starting in a recession",0,36 windows
+history,56 days prop; starts with no recession within 14 months,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",0,
+history,56 days prop; starts with a recession within 14 months,windows,4042,1968-11-01 to 2020-04-30
+history,56 days prop; starts with a recession within 14 months,"topup > $10,000",0.232311,
+history,56 days prop; starts with a recession within 14 months,"topup > $20,000",0.086096,
+history,56 days prop; starts with a recession within 14 months,"topup > $38,282",0.0232558,
+history,56 days prop; starts with a recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.149678,
+history,56 days prop; starts with a recession within 14 months,"completion > $75,001 (most fails; VT nil)",0.0185552,
+history,56 days prop; starts with a recession within 14 months,"topup = $0 (ten cost under $300,000)",0.406235,
+history,56 days prop; starts with a recession within 14 months,parallel-equivalent fall >= 0.5 point,0.0999505,
+history,56 days prop; starts with a recession within 14 months,top-up percentile 50,2210.5,
+history,56 days prop; starts with a recession within 14 months,top-up percentile 90,18319.9,
+history,56 days prop; starts with a recession within 14 months,top-up percentile 95,26908.4,
+history,56 days prop; starts with a recession within 14 months,top-up percentile 99,70858.5,
+history,56 days prop; starts with a recession within 14 months,top-up largest,125599,2020-01-13
+history,56 days prop; starts with a recession within 14 months,parallel-equivalent fall: s.d. (points),0.480834,
+history,56 days prop; starts with a recession within 14 months,"topup > $10,000: share starting in a recession",0.525027,939 windows
+history,56 days prop; starts with a recession within 14 months,"topup > $10,000: share with a recession within 14 months",1,
+history,56 days prop; starts with a recession within 14 months,"topup > $20,000: share starting in a recession",0.534483,348 windows
+history,56 days prop; starts with a recession within 14 months,"topup > $20,000: share with a recession within 14 months",1,
+history,56 days prop; starts with a recession within 14 months,"topup > $38,282: share starting in a recession",0.393617,94 windows
+history,56 days prop; starts with a recession within 14 months,"topup > $38,282: share with a recession within 14 months",1,
+history,56 days prop; starts with a recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0.530579,605 windows
+history,56 days prop; starts with a recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",1,
+history,56 days prop; starts with a recession within 14 months,"completion > $75,001 (most fails; VT nil): share starting in a recession",0.413333,75 windows
+history,56 days prop; starts with a recession within 14 months,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",1,
+history,59 days abs; all starts 1962-,windows,16161,1962-01-02 to 2026-09-15
+history,59 days abs; all starts 1962-,"topup > $10,000",0.238723,
+history,59 days abs; all starts 1962-,"topup > $20,000",0.0799455,
+history,59 days abs; all starts 1962-,"topup > $38,282",0.0169544,
+history,59 days abs; all starts 1962-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.16051,
+history,59 days abs; all starts 1962-,"completion > $75,001 (most fails; VT nil)",0.0115711,
+history,59 days abs; all starts 1962-,"topup = $0 (ten cost under $300,000)",0.409319,
+history,59 days abs; all starts 1962-,parallel-equivalent fall >= 0.5 point,0.096343,
+history,59 days abs; all starts 1962-,top-up percentile 50,2082.93,
+history,59 days abs; all starts 1962-,top-up percentile 90,18084.8,
+history,59 days abs; all starts 1962-,top-up percentile 95,24036.4,
+history,59 days abs; all starts 1962-,top-up percentile 99,51712.6,
+history,59 days abs; all starts 1962-,top-up largest,110475,1980-03-25
+history,59 days abs; all starts 1962-,parallel-equivalent fall: s.d. (points),0.459531,
+history,59 days abs; all starts 1962-,"topup > $10,000: share starting in a recession",0.164075,3858 windows
+history,59 days abs; all starts 1962-,"topup > $10,000: share with a recession within 14 months",0.2986,
+history,59 days abs; all starts 1962-,"topup > $20,000: share starting in a recession",0.256192,1292 windows
+history,59 days abs; all starts 1962-,"topup > $20,000: share with a recession within 14 months",0.345201,
+history,59 days abs; all starts 1962-,"topup > $38,282: share starting in a recession",0.653285,274 windows
+history,59 days abs; all starts 1962-,"topup > $38,282: share with a recession within 14 months",0.664234,
+history,59 days abs; all starts 1962-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0.18697,2594 windows
+history,59 days abs; all starts 1962-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",0.3165,
+history,59 days abs; all starts 1962-,"completion > $75,001 (most fails; VT nil): share starting in a recession",0.807487,187 windows
+history,59 days abs; all starts 1962-,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",0.807487,
+history,59 days abs; starts 1990-,windows,9182,1990-01-02 to 2026-09-15
+history,59 days abs; starts 1990-,"topup > $10,000",0.255391,
+history,59 days abs; starts 1990-,"topup > $20,000",0.0639294,
+history,59 days abs; starts 1990-,"topup > $38,282",0.00424744,
+history,59 days abs; starts 1990-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.161729,
+history,59 days abs; starts 1990-,"completion > $75,001 (most fails; VT nil)",0.00217817,
+history,59 days abs; starts 1990-,"topup = $0 (ten cost under $300,000)",0.389675,
+history,59 days abs; starts 1990-,parallel-equivalent fall >= 0.5 point,0.0820083,
+history,59 days abs; starts 1990-,top-up percentile 50,3087.57,
+history,59 days abs; starts 1990-,top-up percentile 90,17198.6,
+history,59 days abs; starts 1990-,top-up percentile 95,21441.4,
+history,59 days abs; starts 1990-,top-up percentile 99,32232.2,
+history,59 days abs; starts 1990-,top-up largest,66276.8,2008-10-31
+history,59 days abs; starts 1990-,parallel-equivalent fall: s.d. (points),0.367943,
+history,59 days abs; starts 1990-,"topup > $10,000: share starting in a recession",0.0916844,2345 windows
+history,59 days abs; starts 1990-,"topup > $10,000: share with a recession within 14 months",0.251173,
+history,59 days abs; starts 1990-,"topup > $20,000: share starting in a recession",0.122658,587 windows
+history,59 days abs; starts 1990-,"topup > $20,000: share with a recession within 14 months",0.274276,
+history,59 days abs; starts 1990-,"topup > $38,282: share starting in a recession",0.692308,39 windows
+history,59 days abs; starts 1990-,"topup > $38,282: share with a recession within 14 months",0.769231,
+history,59 days abs; starts 1990-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0.0936027,1485 windows
+history,59 days abs; starts 1990-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",0.264646,
+history,59 days abs; starts 1990-,"completion > $75,001 (most fails; VT nil): share starting in a recession",0.95,20 windows
+history,59 days abs; starts 1990-,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",0.95,
+history,59 days abs; starts 2000-,windows,6679,2000-01-03 to 2026-09-15
+history,59 days abs; starts 2000-,"topup > $10,000",0.234017,
+history,59 days abs; starts 2000-,"topup > $20,000",0.0547986,
+history,59 days abs; starts 2000-,"topup > $38,282",0.00568947,
+history,59 days abs; starts 2000-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.142536,
+history,59 days abs; starts 2000-,"completion > $75,001 (most fails; VT nil)",0.00299446,
+history,59 days abs; starts 2000-,"topup = $0 (ten cost under $300,000)",0.390627,
+history,59 days abs; starts 2000-,parallel-equivalent fall >= 0.5 point,0.0705195,
+history,59 days abs; starts 2000-,top-up percentile 50,2882.91,
+history,59 days abs; starts 2000-,top-up percentile 90,16114.1,
+history,59 days abs; starts 2000-,top-up percentile 95,20712.6,
+history,59 days abs; starts 2000-,top-up percentile 99,33473.8,
+history,59 days abs; starts 2000-,top-up largest,66276.8,2008-10-31
+history,59 days abs; starts 2000-,parallel-equivalent fall: s.d. (points),0.360913,
+history,59 days abs; starts 2000-,"topup > $10,000: share starting in a recession",0.0972489,1563 windows
+history,59 days abs; starts 2000-,"topup > $10,000: share with a recession within 14 months",0.323736,
+history,59 days abs; starts 2000-,"topup > $20,000: share starting in a recession",0.136612,366 windows
+history,59 days abs; starts 2000-,"topup > $20,000: share with a recession within 14 months",0.36612,
+history,59 days abs; starts 2000-,"topup > $38,282: share starting in a recession",0.710526,38 windows
+history,59 days abs; starts 2000-,"topup > $38,282: share with a recession within 14 months",0.789474,
+history,59 days abs; starts 2000-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0.102941,952 windows
+history,59 days abs; starts 2000-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",0.353992,
+history,59 days abs; starts 2000-,"completion > $75,001 (most fails; VT nil): share starting in a recession",0.95,20 windows
+history,59 days abs; starts 2000-,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",0.95,
+history,59 days abs; 10y at start 3.5%-6.5%,windows,6837,1962-01-02 to 2026-09-15
+history,59 days abs; 10y at start 3.5%-6.5%,"topup > $10,000",0.195554,
+history,59 days abs; 10y at start 3.5%-6.5%,"topup > $20,000",0.0397835,
+history,59 days abs; 10y at start 3.5%-6.5%,"topup > $38,282",0.00424163,
+history,59 days abs; 10y at start 3.5%-6.5%,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.118327,
+history,59 days abs; 10y at start 3.5%-6.5%,"completion > $75,001 (most fails; VT nil)",0.002779,
+history,59 days abs; 10y at start 3.5%-6.5%,"topup = $0 (ten cost under $300,000)",0.398567,
+history,59 days abs; 10y at start 3.5%-6.5%,parallel-equivalent fall >= 0.5 point,0.0549949,
+history,59 days abs; 10y at start 3.5%-6.5%,top-up percentile 50,1899.62,
+history,59 days abs; 10y at start 3.5%-6.5%,top-up percentile 90,14768.3,
+history,59 days abs; 10y at start 3.5%-6.5%,top-up percentile 95,18928.5,
+history,59 days abs; 10y at start 3.5%-6.5%,top-up percentile 99,28211.4,
+history,59 days abs; 10y at start 3.5%-6.5%,top-up largest,66276.8,2008-10-31
+history,59 days abs; 10y at start 3.5%-6.5%,parallel-equivalent fall: s.d. (points),0.323995,
+history,59 days abs; 10y at start 3.5%-6.5%,"topup > $10,000: share starting in a recession",0.106956,1337 windows
+history,59 days abs; 10y at start 3.5%-6.5%,"topup > $10,000: share with a recession within 14 months",0.253553,
+history,59 days abs; 10y at start 3.5%-6.5%,"topup > $20,000: share starting in a recession",0.161765,272 windows
+history,59 days abs; 10y at start 3.5%-6.5%,"topup > $20,000: share with a recession within 14 months",0.268382,
+history,59 days abs; 10y at start 3.5%-6.5%,"topup > $38,282: share starting in a recession",0.931034,29 windows
+history,59 days abs; 10y at start 3.5%-6.5%,"topup > $38,282: share with a recession within 14 months",0.931034,
+history,59 days abs; 10y at start 3.5%-6.5%,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0.110012,809 windows
+history,59 days abs; 10y at start 3.5%-6.5%,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",0.258344,
+history,59 days abs; 10y at start 3.5%-6.5%,"completion > $75,001 (most fails; VT nil): share starting in a recession",1,19 windows
+history,59 days abs; 10y at start 3.5%-6.5%,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",1,
+history,59 days abs; starts in an NBER recession,windows,1759,1970-01-02 to 2020-04-30
+history,59 days abs; starts in an NBER recession,"topup > $10,000",0.359864,
+history,59 days abs; starts in an NBER recession,"topup > $20,000",0.188175,
+history,59 days abs; starts in an NBER recession,"topup > $38,282",0.101762,
+history,59 days abs; starts in an NBER recession,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.275725,
+history,59 days abs; starts in an NBER recession,"completion > $75,001 (most fails; VT nil)",0.0858442,
+history,59 days abs; starts in an NBER recession,"topup = $0 (ten cost under $300,000)",0.389994,
+history,59 days abs; starts in an NBER recession,parallel-equivalent fall >= 0.5 point,0.203525,
+history,59 days abs; starts in an NBER recession,top-up percentile 50,4167.58,
+history,59 days abs; starts in an NBER recession,top-up percentile 90,39845.4,
+history,59 days abs; starts in an NBER recession,top-up percentile 95,64131,
+history,59 days abs; starts in an NBER recession,top-up percentile 99,89323.4,
+history,59 days abs; starts in an NBER recession,top-up largest,110475,1980-03-25
+history,59 days abs; starts in an NBER recession,parallel-equivalent fall: s.d. (points),0.751374,
+history,59 days abs; starts in an NBER recession,"topup > $10,000: share starting in a recession",1,633 windows
+history,59 days abs; starts in an NBER recession,"topup > $10,000: share with a recession within 14 months",1,
+history,59 days abs; starts in an NBER recession,"topup > $20,000: share starting in a recession",1,331 windows
+history,59 days abs; starts in an NBER recession,"topup > $20,000: share with a recession within 14 months",1,
+history,59 days abs; starts in an NBER recession,"topup > $38,282: share starting in a recession",1,179 windows
+history,59 days abs; starts in an NBER recession,"topup > $38,282: share with a recession within 14 months",1,
+history,59 days abs; starts in an NBER recession,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",1,485 windows
+history,59 days abs; starts in an NBER recession,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",1,
+history,59 days abs; starts in an NBER recession,"completion > $75,001 (most fails; VT nil): share starting in a recession",1,151 windows
+history,59 days abs; starts in an NBER recession,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",1,
+history,59 days abs; starts with no recession within 14 months,windows,12119,1962-01-02 to 2026-09-15
+history,59 days abs; starts with no recession within 14 months,"topup > $10,000",0.223286,
+history,59 days abs; starts with no recession within 14 months,"topup > $20,000",0.0698077,
+history,59 days abs; starts with no recession within 14 months,"topup > $38,282",0.00759139,
+history,59 days abs; starts with no recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.146299,
+history,59 days abs; starts with no recession within 14 months,"completion > $75,001 (most fails; VT nil)",0.00297054,
+history,59 days abs; starts with no recession within 14 months,"topup = $0 (ten cost under $300,000)",0.399373,
+history,59 days abs; starts with no recession within 14 months,parallel-equivalent fall >= 0.5 point,0.0858157,
+history,59 days abs; starts with no recession within 14 months,top-up percentile 50,2113.01,
+history,59 days abs; starts with no recession within 14 months,top-up percentile 90,17090.5,
+history,59 days abs; starts with no recession within 14 months,top-up percentile 95,22320.7,
+history,59 days abs; starts with no recession within 14 months,top-up percentile 99,36106.6,
+history,59 days abs; starts with no recession within 14 months,top-up largest,65882.8,1986-02-10
+history,59 days abs; starts with no recession within 14 months,parallel-equivalent fall: s.d. (points),0.38143,
+history,59 days abs; starts with no recession within 14 months,"topup > $10,000: share starting in a recession",0,2706 windows
+history,59 days abs; starts with no recession within 14 months,"topup > $10,000: share with a recession within 14 months",0,
+history,59 days abs; starts with no recession within 14 months,"topup > $20,000: share starting in a recession",0,846 windows
+history,59 days abs; starts with no recession within 14 months,"topup > $20,000: share with a recession within 14 months",0,
+history,59 days abs; starts with no recession within 14 months,"topup > $38,282: share starting in a recession",0,92 windows
+history,59 days abs; starts with no recession within 14 months,"topup > $38,282: share with a recession within 14 months",0,
+history,59 days abs; starts with no recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0,1773 windows
+history,59 days abs; starts with no recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",0,
+history,59 days abs; starts with no recession within 14 months,"completion > $75,001 (most fails; VT nil): share starting in a recession",0,36 windows
+history,59 days abs; starts with no recession within 14 months,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",0,
+history,59 days abs; starts with a recession within 14 months,windows,4042,1968-11-01 to 2020-04-30
+history,59 days abs; starts with a recession within 14 months,"topup > $10,000",0.285007,
+history,59 days abs; starts with a recession within 14 months,"topup > $20,000",0.110341,
+history,59 days abs; starts with a recession within 14 months,"topup > $38,282",0.0450272,
+history,59 days abs; starts with a recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.203117,
+history,59 days abs; starts with a recession within 14 months,"completion > $75,001 (most fails; VT nil)",0.0373577,
+history,59 days abs; starts with a recession within 14 months,"topup = $0 (ten cost under $300,000)",0.439139,
+history,59 days abs; starts with a recession within 14 months,parallel-equivalent fall >= 0.5 point,0.127907,
+history,59 days abs; starts with a recession within 14 months,top-up percentile 50,1927.9,
+history,59 days abs; starts with a recession within 14 months,top-up percentile 90,21316.5,
+history,59 days abs; starts with a recession within 14 months,top-up percentile 95,34998,
+history,59 days abs; starts with a recession within 14 months,top-up percentile 99,74217.7,
+history,59 days abs; starts with a recession within 14 months,top-up largest,110475,1980-03-25
+history,59 days abs; starts with a recession within 14 months,parallel-equivalent fall: s.d. (points),0.638801,
+history,59 days abs; starts with a recession within 14 months,"topup > $10,000: share starting in a recession",0.549479,1152 windows
+history,59 days abs; starts with a recession within 14 months,"topup > $10,000: share with a recession within 14 months",1,
+history,59 days abs; starts with a recession within 14 months,"topup > $20,000: share starting in a recession",0.742152,446 windows
+history,59 days abs; starts with a recession within 14 months,"topup > $20,000: share with a recession within 14 months",1,
+history,59 days abs; starts with a recession within 14 months,"topup > $38,282: share starting in a recession",0.983516,182 windows
+history,59 days abs; starts with a recession within 14 months,"topup > $38,282: share with a recession within 14 months",1,
+history,59 days abs; starts with a recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0.590743,821 windows
+history,59 days abs; starts with a recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",1,
+history,59 days abs; starts with a recession within 14 months,"completion > $75,001 (most fails; VT nil): share starting in a recession",1,151 windows
+history,59 days abs; starts with a recession within 14 months,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",1,
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,windows,16166,1962-01-02 to 2026-09-22
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,"topup > $10,000",0.0769516,
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,"topup > $20,000",0.0272795,
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,"topup > $38,282",0.00958802,
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.0477545,
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,"completion > $75,001 (most fails; VT nil)",0.00612396,
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,"topup = $0 (ten cost under $300,000)",0.737907,
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,parallel-equivalent fall >= 0.5 point,0.0308673,
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,top-up percentile 50,0,
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,top-up percentile 90,8036.01,
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,top-up percentile 95,13358.2,
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,top-up percentile 99,37579.5,
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,top-up largest,84721.6,1980-03-24
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,parallel-equivalent fall: s.d. (points),0.429109,
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,"topup > $10,000: share starting in a recession",0.25,1244 windows
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,"topup > $10,000: share with a recession within 14 months",0.357717,
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,"topup > $20,000: share starting in a recession",0.489796,441 windows
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,"topup > $20,000: share with a recession within 14 months",0.528345,
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,"topup > $38,282: share starting in a recession",0.845161,155 windows
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,"topup > $38,282: share with a recession within 14 months",0.845161,
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0.34456,772 windows
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",0.432642,
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,"completion > $75,001 (most fails; VT nil): share starting in a recession",0.959596,99 windows
+history,52 days abs from the 13 Nov 2026 curve; all starts 1962-,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",0.959596,
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,windows,9187,1990-01-02 to 2026-09-22
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,"topup > $10,000",0.0580168,
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,"topup > $20,000",0.0108849,
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,"topup > $38,282",0.00130619,
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.0280832,
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,"completion > $75,001 (most fails; VT nil)",0.000870796,
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,"topup = $0 (ten cost under $300,000)",0.718842,
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,parallel-equivalent fall >= 0.5 point,0.0126265,
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,top-up percentile 50,0,
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,top-up percentile 90,7290.73,
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,top-up percentile 95,10764.8,
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,top-up percentile 99,20938.7,
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,top-up largest,56209.4,2008-10-30
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,parallel-equivalent fall: s.d. (points),0.344483,
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,"topup > $10,000: share starting in a recession",0.120075,533 windows
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,"topup > $10,000: share with a recession within 14 months",0.298311,
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,"topup > $20,000: share starting in a recession",0.29,100 windows
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,"topup > $20,000: share with a recession within 14 months",0.44,
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,"topup > $38,282: share starting in a recession",1,12 windows
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,"topup > $38,282: share with a recession within 14 months",1,
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0.170543,258 windows
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",0.387597,
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,"completion > $75,001 (most fails; VT nil): share starting in a recession",1,8 windows
+history,52 days abs from the 13 Nov 2026 curve; starts 1990-,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",1,
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,windows,6684,2000-01-03 to 2026-09-22
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,"topup > $10,000",0.0508677,
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,"topup > $20,000",0.0124177,
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,"topup > $38,282",0.00179533,
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.0273788,
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,"completion > $75,001 (most fails; VT nil)",0.00119689,
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,"topup = $0 (ten cost under $300,000)",0.738031,
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,parallel-equivalent fall >= 0.5 point,0.0139138,
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,top-up percentile 50,0,
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,top-up percentile 90,6590.25,
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,top-up percentile 95,10048.8,
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,top-up percentile 99,22346.3,
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,top-up largest,56209.4,2008-10-30
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,parallel-equivalent fall: s.d. (points),0.339789,
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,"topup > $10,000: share starting in a recession",0.126471,340 windows
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,"topup > $10,000: share with a recession within 14 months",0.382353,
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,"topup > $20,000: share starting in a recession",0.349398,83 windows
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,"topup > $20,000: share with a recession within 14 months",0.53012,
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,"topup > $38,282: share starting in a recession",1,12 windows
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,"topup > $38,282: share with a recession within 14 months",1,
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0.185792,183 windows
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",0.491803,
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,"completion > $75,001 (most fails; VT nil): share starting in a recession",1,8 windows
+history,52 days abs from the 13 Nov 2026 curve; starts 2000-,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",1,
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,windows,6842,1962-01-02 to 2026-09-22
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,"topup > $10,000",0.0388775,
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,"topup > $20,000",0.00672318,
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,"topup > $38,282",0.00175387,
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.0188541,
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,"completion > $75,001 (most fails; VT nil)",0.00116925,
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,"topup = $0 (ten cost under $300,000)",0.781497,
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,parallel-equivalent fall >= 0.5 point,0.0073078,
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,top-up percentile 50,0,
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,top-up percentile 90,5308.54,
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,top-up percentile 95,8908.55,
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,top-up percentile 99,16720.9,
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,top-up largest,56209.4,2008-10-30
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,parallel-equivalent fall: s.d. (points),0.305838,
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,"topup > $10,000: share starting in a recession",0.135338,266 windows
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,"topup > $10,000: share with a recession within 14 months",0.259398,
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,"topup > $20,000: share starting in a recession",0.586957,46 windows
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,"topup > $20,000: share with a recession within 14 months",0.586957,
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,"topup > $38,282: share starting in a recession",1,12 windows
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,"topup > $38,282: share with a recession within 14 months",1,
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0.224806,129 windows
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",0.387597,
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,"completion > $75,001 (most fails; VT nil): share starting in a recession",1,8 windows
+history,52 days abs from the 13 Nov 2026 curve; 10y at start 3.5%-6.5%,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",1,
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,windows,1759,1970-01-02 to 2020-04-30
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,"topup > $10,000",0.176805,
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,"topup > $20,000",0.122797,
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,"topup > $38,282",0.0744741,
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.151222,
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,"completion > $75,001 (most fails; VT nil)",0.054008,
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,"topup = $0 (ten cost under $300,000)",0.621376,
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,parallel-equivalent fall >= 0.5 point,0.126777,
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,top-up percentile 50,0,
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,top-up percentile 90,28536.2,
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,top-up percentile 95,48165.3,
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,top-up percentile 99,68724.9,
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,top-up largest,84721.6,1980-03-24
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,parallel-equivalent fall: s.d. (points),0.701125,
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,"topup > $10,000: share starting in a recession",1,311 windows
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,"topup > $10,000: share with a recession within 14 months",1,
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,"topup > $20,000: share starting in a recession",1,216 windows
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,"topup > $20,000: share with a recession within 14 months",1,
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,"topup > $38,282: share starting in a recession",1,131 windows
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,"topup > $38,282: share with a recession within 14 months",1,
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",1,266 windows
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",1,
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,"completion > $75,001 (most fails; VT nil): share starting in a recession",1,95 windows
+history,52 days abs from the 13 Nov 2026 curve; starts in an NBER recession,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",1,
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,windows,12124,1962-01-02 to 2026-09-22
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,"topup > $10,000",0.0659023,
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,"topup > $20,000",0.0171561,
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,"topup > $38,282",0.00197954,
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.0361267,
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,"completion > $75,001 (most fails; VT nil)",0.000329924,
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,"topup = $0 (ten cost under $300,000)",0.753299,
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,parallel-equivalent fall >= 0.5 point,0.0207027,
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,top-up percentile 50,0,
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,top-up percentile 90,7073.87,
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,top-up percentile 95,11612.7,
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,top-up percentile 99,24601.4,
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,top-up largest,55117,1986-02-07
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,parallel-equivalent fall: s.d. (points),0.355779,
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,"topup > $10,000: share starting in a recession",0,799 windows
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,"topup > $10,000: share with a recession within 14 months",0,
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,"topup > $20,000: share starting in a recession",0,208 windows
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,"topup > $20,000: share with a recession within 14 months",0,
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,"topup > $38,282: share starting in a recession",0,24 windows
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,"topup > $38,282: share with a recession within 14 months",0,
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0,438 windows
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",0,
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,"completion > $75,001 (most fails; VT nil): share starting in a recession",0,4 windows
+history,52 days abs from the 13 Nov 2026 curve; starts with no recession within 14 months,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",0,
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,windows,4042,1968-11-01 to 2020-04-30
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,"topup > $10,000",0.110094,
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,"topup > $20,000",0.0576447,
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,"topup > $38,282",0.0324097,
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",0.0826324,
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,"completion > $75,001 (most fails; VT nil)",0.0235032,
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,"topup = $0 (ten cost under $300,000)",0.691737,
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,parallel-equivalent fall >= 0.5 point,0.0613558,
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,top-up percentile 50,0,
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,top-up percentile 90,11259.4,
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,top-up percentile 95,24262.5,
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,top-up percentile 99,61995.9,
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,top-up largest,84721.6,1980-03-24
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,parallel-equivalent fall: s.d. (points),0.597291,
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,"topup > $10,000: share starting in a recession",0.698876,445 windows
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,"topup > $10,000: share with a recession within 14 months",1,
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,"topup > $20,000: share starting in a recession",0.927039,233 windows
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,"topup > $20,000: share with a recession within 14 months",1,
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,"topup > $38,282: share starting in a recession",1,131 windows
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,"topup > $38,282: share with a recession within 14 months",1,
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share starting in a recession",0.796407,334 windows
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,"completion > $47,679 (Keel's $75,001 binds; VT squeezed): share with a recession within 14 months",1,
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,"completion > $75,001 (most fails; VT nil): share starting in a recession",1,95 windows
+history,52 days abs from the 13 Nov 2026 curve; starts with a recession within 14 months,"completion > $75,001 (most fails; VT nil): share with a recession within 14 months",1,
+same_weeks,1962-11-05 to 1963-01-02,top-up / completion / VT (abs); top-up (prop),4885 / 40386 / 29267; 5529,"fall 0.08 pt; 10y -0.09, 20y -0.02, 1y +0.04; 10y at start 3.91%; recession at start False; within 14 months False"
+same_weeks,1963-11-06 to 1964-01-02,top-up / completion / VT (abs); top-up (prop),3092 / 38903 / 29663; 3198,"fall 0.02 pt; 10y -0.03, 20y +0.01, 1y +0.09; 10y at start 4.17%; recession at start False; within 14 months False"
+same_weeks,1964-11-06 to 1965-01-04,top-up / completion / VT (abs); top-up (prop),873 / 37047 / 30159; 581,"fall -0.05 pt; 10y +0.05, 20y +0.04, 1y +0.10; 10y at start 4.15%; recession at start False; within 14 months False"
+same_weeks,1965-11-05 to 1966-01-03,top-up / completion / VT (abs); top-up (prop),0 / 33809 / 31023; 0,"fall -0.18 pt; 10y +0.20, 20y +0.13, 1y +0.56; 10y at start 4.43%; recession at start False; within 14 months False"
+same_weeks,1966-11-04 to 1967-01-03,top-up / completion / VT (abs); top-up (prop),14520 / 48239 / 26760; 14236,"fall 0.38 pt; 10y -0.42, 20y -0.25, 1y -0.56; 10y at start 5.11%; recession at start False; within 14 months False"
+same_weeks,1967-11-06 to 1968-01-02,top-up / completion / VT (abs); top-up (prop),7008 / 42175 / 28789; 6351,"fall 0.15 pt; 10y -0.14, 20y -0.13, 1y +0.09; 10y at start 5.77%; recession at start False; within 14 months False"
+same_weeks,1968-11-06 to 1969-01-02,top-up / completion / VT (abs); top-up (prop),0 / 27398 / 32735; 0,"fall -0.43 pt; 10y +0.42, 20y +0.46, 1y +0.71; 10y at start 5.62%; recession at start False; within 14 months True"
+same_weeks,1969-11-06 to 1970-01-02,top-up / completion / VT (abs); top-up (prop),0 / 21620 / 34277; 0,"fall -0.66 pt; 10y +0.85, 20y +0.23, 1y +0.54; 10y at start 7.01%; recession at start False; within 14 months True"
+same_weeks,1970-11-06 to 1971-01-04,top-up / completion / VT (abs); top-up (prop),22280 / 54561 / 20438; 15986,"fall 0.62 pt; 10y -0.69, 20y -0.37, 1y -1.08; 10y at start 7.15%; recession at start True; within 14 months True"
+same_weeks,1971-11-05 to 1972-01-03,top-up / completion / VT (abs); top-up (prop),0 / 32419 / 31394; 0,"fall -0.22 pt; 10y +0.22, 20y +0.24, 1y -0.11; 10y at start 5.72%; recession at start False; within 14 months False"
+same_weeks,1972-11-06 to 1973-01-02,top-up / completion / VT (abs); top-up (prop),0 / 34206 / 30917; 0,"fall -0.16 pt; 10y +0.16, 20y +0.24, 1y +0.51; 10y at start 6.27%; recession at start False; within 14 months True"
+same_weeks,1973-11-05 to 1974-01-02,top-up / completion / VT (abs); top-up (prop),0 / 34571 / 30820; 0,"fall -0.14 pt; 10y +0.20, 20y +0.08, 1y -0.26; 10y at start 6.74%; recession at start False; within 14 months True"
+same_weeks,1974-11-06 to 1975-01-02,top-up / completion / VT (abs); top-up (prop),12018 / 46165 / 27724; 8428,"fall 0.30 pt; 10y -0.34, 20y -0.15, 1y -0.51; 10y at start 7.76%; recession at start True; within 14 months True"
+same_weeks,1975-11-06 to 1976-01-02,top-up / completion / VT (abs); top-up (prop),7524 / 42539 / 28692; 5537,"fall 0.16 pt; 10y -0.17, 20y -0.13, 1y -0.11; 10y at start 7.94%; recession at start False; within 14 months False"
+same_weeks,1976-11-05 to 1977-01-03,top-up / completion / VT (abs); top-up (prop),19992 / 52814 / 22185; 13890,"fall 0.55 pt; 10y -0.57, 20y -0.52, 1y -0.57; 10y at start 7.41%; recession at start False; within 14 months False"
+same_weeks,1977-11-04 to 1978-01-03,top-up / completion / VT (abs); top-up (prop),0 / 33261 / 31169; 0,"fall -0.19 pt; 10y +0.19, 20y +0.17, 1y -0.04; 10y at start 7.64%; recession at start False; within 14 months False"
+same_weeks,1978-11-06 to 1979-01-02,top-up / completion / VT (abs); top-up (prop),0 / 30815 / 31822; 0,"fall -0.29 pt; 10y +0.33, 20y +0.20, 1y +0.51; 10y at start 8.85%; recession at start False; within 14 months False"
+same_weeks,1979-11-05 to 1980-01-02,top-up / completion / VT (abs); top-up (prop),12777 / 46625 / 27601; 7232,"fall 0.33 pt; 10y -0.35, 20y -0.30, 1y -1.08; 10y at start 10.85%; recession at start False; within 14 months True"
+same_weeks,1980-11-06 to 1981-01-02,top-up / completion / VT (abs); top-up (prop),22684 / 55206 / 19793; 10010,"fall 0.63 pt; 10y -0.62, 20y -0.63, 1y -0.09; 10y at start 13.04%; recession at start False; within 14 months True"
+same_weeks,1981-11-06 to 1982-01-04,top-up / completion / VT (abs); top-up (prop),0 / 33532 / 31097; 366,"fall -0.18 pt; 10y +0.25, 20y +0.06, 1y +0.18; 10y at start 13.94%; recession at start True; within 14 months True"
+same_weeks,1982-11-05 to 1983-01-03,top-up / completion / VT (abs); top-up (prop),6670 / 41711 / 28913; 4353,"fall 0.14 pt; 10y -0.16, 20y -0.03, 1y -0.41; 10y at start 10.48%; recession at start True; within 14 months True"
+same_weeks,1983-11-04 to 1984-01-03,top-up / completion / VT (abs); top-up (prop),2291 / 38210 / 29848; 2358,"fall -0.00 pt; 10y +0.01, 20y -0.02, 1y +0.04; 10y at start 11.85%; recession at start False; within 14 months False"
+same_weeks,1984-11-05 to 1985-01-02,top-up / completion / VT (abs); top-up (prop),0 / 32879 / 31271; 0,"fall -0.20 pt; 10y +0.10, 20y +0.26, 1y -0.82; 10y at start 11.60%; recession at start False; within 14 months False"
+same_weeks,1985-11-06 to 1986-01-02,top-up / completion / VT (abs); top-up (prop),31530 / 62542 / 12457; 16422,"fall 0.89 pt; 10y -0.89, 20y -0.84, 1y -0.27; 10y at start 9.93%; recession at start False; within 14 months False"
+same_weeks,1986-11-06 to 1987-01-02,top-up / completion / VT (abs); top-up (prop),7055 / 42204 / 28782; 5533,"fall 0.15 pt; 10y -0.14, 20y -0.12, 1y +0.07; 10y at start 7.32%; recession at start False; within 14 months False"
+same_weeks,1987-11-06 to 1988-01-04,top-up / completion / VT (abs); top-up (prop),238 / 36564 / 30287; 1185,"fall -0.07 pt; 10y +0.07, 20y +0.08, 1y +0.25; 10y at start 8.76%; recession at start False; within 14 months False"
+same_weeks,1988-11-04 to 1989-01-03,top-up / completion / VT (abs); top-up (prop),0 / 29316 / 32223; 0,"fall -0.36 pt; 10y +0.38, 20y +0.28, 1y +0.89; 10y at start 8.85%; recession at start False; within 14 months False"
+same_weeks,1989-11-06 to 1990-01-02,top-up / completion / VT (abs); top-up (prop),3492 / 39128 / 29603; 3086,"fall 0.04 pt; 10y -0.06, 20y -0.01, 1y -0.24; 10y at start 8.00%; recession at start False; within 14 months True"
+same_weeks,1990-11-06 to 1991-01-02,top-up / completion / VT (abs); top-up (prop),19399 / 52310 / 22689; 12155,"fall 0.53 pt; 10y -0.55, 20y -0.52, 1y -0.62; 10y at start 8.52%; recession at start True; within 14 months True"
+same_weeks,1991-11-06 to 1992-01-02,top-up / completion / VT (abs); top-up (prop),24945 / 56861 / 18138; 16756,"fall 0.70 pt; 10y -0.73, 20y -0.64, 1y -0.85; 10y at start 7.51%; recession at start False; within 14 months False"
+same_weeks,1992-11-06 to 1993-01-04,top-up / completion / VT (abs); top-up (prop),14331 / 48268 / 26731; 10758,"fall 0.37 pt; 10y -0.37, 20y -0.40, 1y -0.04; 10y at start 6.97%; recession at start False; within 14 months False"
+same_weeks,1993-11-05 to 1994-01-03,top-up / completion / VT (abs); top-up (prop),0 / 34006 / 30971; 0,"fall -0.17 pt; 10y +0.17, 20y +0.14, 1y +0.09; 10y at start 5.75%; recession at start False; within 14 months False"
+same_weeks,1994-11-04 to 1995-01-03,top-up / completion / VT (abs); top-up (prop),8612 / 43783 / 28360; 6268,"fall 0.19 pt; 10y -0.16, 20y -0.23, 1y +0.84; 10y at start 8.04%; recession at start False; within 14 months False"
+same_weeks,1995-11-06 to 1996-01-02,top-up / completion / VT (abs); top-up (prop),13398 / 47394 / 27396; 11386,"fall 0.35 pt; 10y -0.36, 20y -0.31, 1y -0.29; 10y at start 5.96%; recession at start False; within 14 months False"
+same_weeks,1996-11-06 to 1997-01-02,top-up / completion / VT (abs); top-up (prop),0 / 32278 / 31432; 0,"fall -0.23 pt; 10y +0.24, 20y +0.18, 1y +0.19; 10y at start 6.30%; recession at start False; within 14 months False"
+same_weeks,1997-11-06 to 1998-01-02,top-up / completion / VT (abs); top-up (prop),10715 / 45254 / 27967; 9262,"fall 0.26 pt; 10y -0.23, 20y -0.31, 1y +0.04; 10y at start 5.90%; recession at start False; within 14 months False"
+same_weeks,1998-11-06 to 1999-01-04,top-up / completion / VT (abs); top-up (prop),9807 / 44482 / 28173; 9613,"fall 0.23 pt; 10y -0.24, 20y -0.21, 1y -0.06; 10y at start 4.93%; recession at start False; within 14 months False"
+same_weeks,1999-11-05 to 2000-01-03,top-up / completion / VT (abs); top-up (prop),0 / 22664 / 33999; 0,"fall -0.62 pt; 10y +0.66, 20y +0.53, 1y +0.66; 10y at start 5.92%; recession at start False; within 14 months False"
+same_weeks,2000-11-06 to 2001-01-02,top-up / completion / VT (abs); top-up (prop),31225 / 62027 / 12972; 26293,"fall 0.88 pt; 10y -0.95, 20y -0.66, 1y -1.05; 10y at start 5.87%; recession at start False; within 14 months True"
+same_weeks,2001-11-06 to 2002-01-02,top-up / completion / VT (abs); top-up (prop),0 / 15855 / 35817; 0,"fall -0.90 pt; 10y +0.90, 20y +0.81, 1y +0.31; 10y at start 4.30%; recession at start True; within 14 months True"
+same_weeks,2002-11-06 to 2003-01-02,top-up / completion / VT (abs); top-up (prop),3290 / 39019 / 29632; 3308,"fall 0.03 pt; 10y -0.02, 20y -0.07, 1y -0.04; 10y at start 4.09%; recession at start False; within 14 months False"
+same_weeks,2003-11-06 to 2004-01-02,top-up / completion / VT (abs); top-up (prop),4848 / 40316 / 29286; 4882,"fall 0.08 pt; 10y -0.07, 20y -0.11, 1y -0.07; 10y at start 4.45%; recession at start False; within 14 months False"
+same_weeks,2004-11-05 to 2005-01-03,top-up / completion / VT (abs); top-up (prop),2866 / 38802 / 29690; 3164,"fall 0.01 pt; 10y +0.02, 20y -0.08, 1y +0.35; 10y at start 4.21%; recession at start False; within 14 months False"
+same_weeks,2005-11-04 to 2006-01-03,top-up / completion / VT (abs); top-up (prop),12293 / 46570 / 27616; 12776,"fall 0.31 pt; 10y -0.29, 20y -0.33, 1y +0.04; 10y at start 4.66%; recession at start False; within 14 months False"
+same_weeks,2006-11-06 to 2007-01-02,top-up / completion / VT (abs); top-up (prop),3139 / 38894 / 29665; 3181,"fall 0.02 pt; 10y -0.03, 20y -0.02, 1y -0.06; 10y at start 4.71%; recession at start False; within 14 months True"
+same_weeks,2007-11-06 to 2008-01-02,top-up / completion / VT (abs); top-up (prop),16360 / 49727 / 25272; 17962,"fall 0.44 pt; 10y -0.47, 20y -0.31, 1y -0.66; 10y at start 4.38%; recession at start False; within 14 months True"
+same_weeks,2008-11-06 to 2009-01-02,top-up / completion / VT (abs); top-up (prop),44993 / 73681 / 1318; 56668,"fall 1.27 pt; 10y -1.29, 20y -1.30, 1y -0.77; 10y at start 3.75%; recession at start True; within 14 months True"
+same_weeks,2009-11-06 to 2010-01-04,top-up / completion / VT (abs); top-up (prop),0 / 30373 / 31940; 0,"fall -0.31 pt; 10y +0.31, 20y +0.25, 1y +0.11; 10y at start 3.54%; recession at start False; within 14 months False"
+same_weeks,2010-11-05 to 2011-01-03,top-up / completion / VT (abs); top-up (prop),0 / 18940 / 34993; 0,"fall -0.77 pt; 10y +0.78, 20y +0.49, 1y +0.07; 10y at start 2.58%; recession at start False; within 14 months False"
+same_weeks,2011-11-04 to 2012-01-03,top-up / completion / VT (abs); top-up (prop),5615 / 40990 / 29106; 9702,"fall 0.10 pt; 10y -0.09, 20y -0.14, 1y +0.01; 10y at start 2.06%; recession at start False; within 14 months False"
+same_weeks,2012-11-06 to 2013-01-02,top-up / completion / VT (abs); top-up (prop),0 / 35864 / 30474; 0,"fall -0.09 pt; 10y +0.08, 20y +0.11, 1y -0.04; 10y at start 1.78%; recession at start False; within 14 months False"
+same_weeks,2013-11-06 to 2014-01-02,top-up / completion / VT (abs); top-up (prop),0 / 29871 / 32074; 0,"fall -0.33 pt; 10y +0.33, 20y +0.22, 1y +0.02; 10y at start 2.67%; recession at start False; within 14 months False"
+same_weeks,2014-11-06 to 2015-01-02,top-up / completion / VT (abs); top-up (prop),12331 / 46657 / 27592; 22681,"fall 0.31 pt; 10y -0.27, 20y -0.42, 1y +0.13; 10y at start 2.39%; recession at start False; within 14 months False"
+same_weeks,2015-11-06 to 2016-01-04,top-up / completion / VT (abs); top-up (prop),5776 / 41166 / 29059; 9545,"fall 0.11 pt; 10y -0.10, 20y -0.12, 1y +0.14; 10y at start 2.34%; recession at start False; within 14 months False"
+same_weeks,2016-11-04 to 2017-01-03,top-up / completion / VT (abs); top-up (prop),0 / 21608 / 34281; 0,"fall -0.66 pt; 10y +0.66, 20y +0.56, 1y +0.27; 10y at start 1.79%; recession at start False; within 14 months False"
+same_weeks,2017-11-06 to 2018-01-02,top-up / completion / VT (abs); top-up (prop),0 / 35238 / 30641; 0,"fall -0.12 pt; 10y +0.14, 20y +0.06, 1y +0.33; 10y at start 2.32%; recession at start False; within 14 months False"
+same_weeks,2018-11-06 to 2019-01-02,top-up / completion / VT (abs); top-up (prop),20689 / 53526 / 21473; 30702,"fall 0.57 pt; 10y -0.56, 20y -0.52, 1y -0.12; 10y at start 3.22%; recession at start False; within 14 months False"
+same_weeks,2019-11-06 to 2020-01-02,top-up / completion / VT (abs); top-up (prop),162 / 36408 / 30329; 0,"fall -0.07 pt; 10y +0.07, 20y +0.06, 1y -0.02; 10y at start 1.81%; recession at start False; within 14 months True"
+same_weeks,2020-11-06 to 2021-01-04,top-up / completion / VT (abs); top-up (prop),0 / 35678 / 30524; 0,"fall -0.10 pt; 10y +0.10, 20y +0.09, 1y -0.02; 10y at start 0.83%; recession at start False; within 14 months False"
+same_weeks,2021-11-05 to 2022-01-03,top-up / completion / VT (abs); top-up (prop),0 / 33730 / 31044; 0,"fall -0.18 pt; 10y +0.18, 20y +0.17, 1y +0.26; 10y at start 1.45%; recession at start False; within 14 months False"
+same_weeks,2022-11-04 to 2023-01-03,top-up / completion / VT (abs); top-up (prop),15267 / 49017 / 25982; 17445,"fall 0.40 pt; 10y -0.38, 20y -0.43, 1y -0.04; 10y at start 4.17%; recession at start False; within 14 months False"
+same_weeks,2023-11-06 to 2024-01-02,top-up / completion / VT (abs); top-up (prop),26365 / 58139 / 16860; 27526,"fall 0.74 pt; 10y -0.72, 20y -0.75, 1y -0.53; 10y at start 4.67%; recession at start False; within 14 months False"
+same_weeks,2024-11-06 to 2025-01-02,top-up / completion / VT (abs); top-up (prop),0 / 34274 / 30899; 0,"fall -0.15 pt; 10y +0.15, 20y +0.15, 1y -0.14; 10y at start 4.42%; recession at start False; within 14 months False"
+same_weeks,2025-11-06 to 2026-01-02,top-up / completion / VT (abs); top-up (prop),0 / 35474 / 30579; 0,"fall -0.11 pt; 10y +0.08, 20y +0.14, 1y -0.18; 10y at start 4.11%; recession at start False; within 14 months False"
+same_weeks_summary,1962-2025,years,64,
+same_weeks_summary,1962-2025,top-up $0,25,
+same_weeks_summary,1962-2025,"top-up > $10,000",20,
+same_weeks_summary,1962-2025,"top-up > $20,000",8,
+same_weeks_summary,1962-2025,"top-up > $38,282",1,
+same_weeks_summary,1962-2025,median top-up,3214.5,
+same_weeks_summary,1962-2025,smallest VT bought,1318,
+same_weeks_summary,1990-2025,years,36,
+same_weeks_summary,1990-2025,top-up $0,14,
+same_weeks_summary,1990-2025,"top-up > $10,000",13,
+same_weeks_summary,1990-2025,"top-up > $20,000",5,
+same_weeks_summary,1990-2025,"top-up > $38,282",1,
+same_weeks_summary,1990-2025,median top-up,4069,
+same_weeks_summary,1990-2025,smallest VT bought,1318,
+episode_count,56 days abs; 1962-,"topup > $10,000",94,in a recession at the start 12; recession within 14 months 25
+episode_count,56 days abs; 1990-,"topup > $10,000",61,in a recession at the start 7; recession within 14 months 13
+episode_count,56 days abs; 1962-,"topup > $20,000",69,in a recession at the start 13; recession within 14 months 26
+episode_count,56 days abs; 1990-,"topup > $20,000",40,in a recession at the start 5; recession within 14 months 12
+episode_count,56 days abs; 1962-,"topup > $38,282",15,in a recession at the start 5; recession within 14 months 6
+episode_count,56 days abs; 1990-,"topup > $38,282",5,in a recession at the start 1; recession within 14 months 2
+episode_count,56 days abs; 1962-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",83,in a recession at the start 11; recession within 14 months 25
+episode_count,56 days abs; 1990-,"completion > $47,679 (Keel's $75,001 binds; VT squeezed)",52,in a recession at the start 4; recession within 14 months 11
+episode_count,56 days abs; 1962-,"completion > $75,001 (most fails; VT nil)",7,in a recession at the start 4; recession within 14 months 4
+episode_count,56 days abs; 1990-,"completion > $75,001 (most fails; VT nil)",2,in a recession at the start 1; recession within 14 months 1
+recession,peak 1969-12 to trough 1970-11,10y change peak-to-trough (points),-1.39,"parallel-equivalent -1.10 pt; 1y -3.26; largest 56-day top-up starting inside $38,120 (start 1970-10-22, fall 1.09 pt)"
+recession,peak 1973-11 to trough 1975-03,10y change peak-to-trough (points),1.32,"parallel-equivalent +1.32 pt; 1y -0.92; largest 56-day top-up starting inside $21,043 (start 1974-10-24, fall 0.58 pt)"
+recession,peak 1980-01 to trough 1980-07,10y change peak-to-trough (points),-0.37,"parallel-equivalent -0.33 pt; 1y -3.04; largest 56-day top-up starting inside $97,019 (start 1980-02-26, fall 2.67 pt)"
+recession,peak 1981-07 to trough 1982-11,10y change peak-to-trough (points),-3.88,"parallel-equivalent -3.82 pt; 1y -6.74; largest 56-day top-up starting inside $103,893 (start 1981-09-30, fall 2.88 pt)"
+recession,peak 1990-07 to trough 1991-03,10y change peak-to-trough (points),-0.31,"parallel-equivalent -0.25 pt; 1y -1.44; largest 56-day top-up starting inside $30,205 (start 1990-10-16, fall 0.85 pt)"
+recession,peak 2001-03 to trough 2001-11,10y change peak-to-trough (points),-0.15,"parallel-equivalent -0.07 pt; 1y -2.03; largest 56-day top-up starting inside $22,411 (start 2001-09-05, fall 0.63 pt)"
+recession,peak 2007-12 to trough 2009-06,10y change peak-to-trough (points),-0.51,"parallel-equivalent -0.34 pt; 1y -2.78; largest 56-day top-up starting inside $65,608 (start 2008-10-31, fall 1.83 pt)"
+recession,peak 2020-02 to trough 2020-04,10y change peak-to-trough (points),-0.49,"parallel-equivalent -0.46 pt; 1y -0.81; largest 56-day top-up starting inside $20,496 (start 2020-03-18, fall 0.56 pt)"

@@ -2,7 +2,9 @@
 re-built Mon 16 Nov 2026 on the Sun 15 Nov evening results files, NUMBERS 9; Mon 16 Nov evening: card Q73's three
 Figure 1 fixes and Table 2's held-the-same line and history check, REBUILD_2026-11-16_evening.md; Mon 16 Nov night:
 that night's hand edits to tables.md (coherence reader 6; bond desk 4) carried in, here and in exhibit_data.py, and an
-exhibit too tall for one Letter page measured on a tall page and previewed whole, with a warning).
+exhibit too tall for one Letter page measured on a tall page and previewed whole, with a warning; Tue 17 Nov: Table 3
+cut back to one page, 27.9 to 21.4 lines with its note, the cut details listed under it for 3e's notes, and row 5's
+trade-day limit from NUMBERS 4, REBUILD_2026-11-17.md).
 
     python3 -I keel/final_report/exhibits/build_exhibits.py            everything below (about a minute)
     python3 -I keel/final_report/exhibits/build_exhibits.py figure     Figure 1 only
@@ -187,7 +189,11 @@ def figure1(outputs):
     # ---- totals: 8h's totals of unrounded figures, which add up exactly, "$444,080 + $55,920 = $500,000" ----
     ax.plot([0, W], [last + 0.03, last + 0.03], color=INK, linewidth=0.6)
     yt = last + 0.03 + ROW_H / 2 + 0.01
-    text(X_YEAR, yt, "Total")
+    # Tue 17 Nov (coherence reader 7, M2): labelled as a ten-year sum of payouts, never "Total" (read as a size)
+    lab = text(X_YEAR, yt, D.FIGURE1_TOTAL_LABEL)
+    fig.canvas.draw()
+    assert lab.get_window_extent().transformed(ax.transData.inverted()).x1 + 0.04 <= C2_L, \
+        "the total row's label runs into the number column"
     text(C2_R, yt, own_tot, ha="right")
     text(X_PLUS, yt, hd["plus"], ha="center")
     text(C3_R, yt, extra_tot, ha="right")
@@ -275,7 +281,8 @@ EXHIBITS = {
            # clause is required (item 3), since the total row prints 8h's totals and the rows foot a dollar off. In a
            # terse note items 1-5 run 17 words longer than Fri 13 Nov's items 1-4 (114 against 97, counted), so the
            # budget is 77 (was 60); item 6 only if room, else 3a's prose (the bars show the cash dates)
-           "section": "Section 3, part 3a", "note_budget_words": 77,
+           # Tue 17 Nov (coherence reader 7, M1): the reserve's size joins item 4, about 7 words in a terse note, so 84
+           "section": "Section 3, part 3a", "note_budget_words": 84,
            "note_items": [
                # Mon 16 Nov night (coherence reader 6, M9; WORDS "The standard the payments meet"): the funds' basis
                "1. \"if cash waiting earns nothing\" (the title's condition), defined once: money already received "
@@ -298,7 +305,10 @@ EXHIBITS = {
                f"pays its whole {D.dollars(D.FIGURE1_PAYMENT)} and about "
                f"{D.hundreds(D.FIGURE1_NOTE_FACTS['topup_comes_back_1jan2033'])} of the extra Treasuries comes back "
                f"(1 Jan 2033 money): about {D.FIGURE1_PER_DOLLAR} for each $1 the payments need on 1 Jan 2033, because "
-               "the extra Treasuries are sized for cash waiting earning nothing (8h; card Q31)",
+               "the extra Treasuries are sized for cash waiting earning nothing (8h; card Q31); the operating "
+               f"reserve's size on 1 Jan 2033, printed once, here: about "
+               f"{D.hundreds(D.FIGURE1_NOTE_FACTS['reserve_1jan2033'])} at today's rates (8h; the Wed 18 Nov re-size "
+               "moves it; coherence reader 7, M1, M2: never beside the total row, a ten-year sum of payouts)",
                "5. Treasury par curve of 6 Nov 2026; each payment in its own year's dollars (8h)",
                "6. if room: bars end when the cash reaches Laura (a fund a few days after its 15 December end, a bond "
                "on its maturity date or the next business day; 8h cash table); paid in every historical rate stretch "
@@ -319,7 +329,10 @@ EXHIBITS = {
            # two: the fund's and the waiting ETF's 0.15%; morning observation 2). M7's dates item, "if room", is
            # cut, as SKELETON's page arithmetic names it first: Figure 1 carries the cash dates, and the sequence stays
            # in the store and 3a's prose.
-           "section": "Section 3, parts 3b and 3c", "note_budget_words": 95,
+           # Tue 17 Nov (coherence reader 7, M13; lay reader 3): 3b's simulated futures' volatility and yield moves join
+           # the shares item (about 17 words in a terse note) and 3c's rate past the margin leaves 3c's prose for an
+           # if-then item (about 25 words), so 137 (was 95); 3c and 3e give back about 36 words of prose
+           "section": "Section 3, parts 3b and 3c", "note_budget_words": 137,
            "note_items": [
                "MODEL, not forecasts; Treasury curve of 6 Nov 2026",
                "each end (the range rule): units of the fund held x its remaining coupons and principal per unit, "
@@ -329,7 +342,18 @@ EXHIBITS = {
                "the bottom rounded down to $5,000; the top = the unrounded bottom plus that of the shares moved into "
                "Treasuries, rounded down once (NUMBERS 0, 3; coherence reader 6, Mon 16 Nov, L2: never \"the moved "
                "half's\")",
-               "shares 7.5% a year in rows 1 and 3",
+               # Tue 17 Nov (coherence reader 7, M13; lay reader 3): the simulated futures' assumptions beside the 7.5%,
+               # out of 3e's prose (17.88%) and beside 3b's "about 93 of 100" (0.9 points a year), NUMBERS 0
+               f"shares 7.5% a year in rows 1 and 3; 3b's simulated futures draw shares with "
+               f"{100 * D.SHARE_VOL:.2f}% volatility (J.P. Morgan 2027) and yields moving about "
+               f"{D.YIELD_SD_POINTS:.1f} points a year, independent of shares (our own assumption, not a market "
+               "figure; NUMBERS 0)",
+               # Tue 17 Nov (lay reader 3: "$120 for each further 0.1%" was one figure too many in 3c's prose): the
+               # bond desk's signed form kept for judges as an if-then line (NUMBERS 3; bond desk 4, H1), the 0.5% the
+               # range's only (coherence reader 7, M3)
+               f"if the funds' costs beyond their fees passed the range's 0.5% and cash waiting earned nothing, the "
+               f"contribution would fall short of the top by at most about ${round(D.SHORT_PER_TENTH, -1):,.0f} for "
+               "each further 0.1% (NUMBERS 3; bond desk 4, H1)",
                "starting months: U.S. yields and stocks from the start month (method in 3e)",
                "inflation row: prices up 5% a year",
                "flexibility: the half of VT promised to no one plus whatever the funds pay above the stated top, to "
@@ -344,19 +368,28 @@ EXHIBITS = {
     "t3": {"label": "Table 3",
            # Thu 12 Nov (SKELETON Exhibits item 4): seven rows in three levels, five columns, one trigger per cell.
            # Fri 13 Nov evening: rows rewritten for three readers and card Q36, refitted to one page (18.4 lines without
-           # the note, 21.4 with 40 words; was 18.9 and 21.9 with 35)
+           # the note, 21.4 with 40 words; was 18.9 and 21.9 with 35). Mon 16 Nov night: 27.9 lines after that night's
+           # hand edits, off the page. Tue 17 Nov: cut back to 21.4 and 18.4, the cut details in D.TABLE3_FOR_3E
            "title": "Seven Signals to Watch as 2031 and 2033 Approach; Two Can Change Laura's $450,000 Plan",
-           "section": "Section 3, part 3e", "note_budget_words": 40,
+           # Tue 17 Nov (coherence reader 7, M13): the building-cost band's source and date join the note; the X-date
+           # item is reworded in plain words (lay reader 3). Measured that evening: the table holds one page with a
+           # 44-word note and not with 46, so 44 (was 40); a terse note of all five items runs about 44-45 words
+           # ("Building costs: DGBAS index, October 2026" is six of them)
+           "section": "Section 3, part 3e", "note_budget_words": 44,
            "note_items": [
                f"{D.dollars(D.TOPUP)}: January 2028 money at today's rates, the top-up ({D.dollars(D.TOPUP_TEN_LACK)}) "
                f"and the extra Treasuries ({D.dollars(D.TOPUP_NO_INTEREST)})",
-               "X-date: when the debt limit stops the Treasury paying every bill (its estimate, else the "
-               "Congressional Budget Office's)",
+               # Tue 17 Nov (lay reader 3): the cells say "debt-limit deadline"; the note defines it and keeps the
+               # term of art once
+               "debt-limit deadline: the day the debt limit would stop the Treasury paying every bill, the \"X-date\" "
+               "(its estimate, else the Congressional Budget Office's)",
                "cash dates: fund payouts, maturities, trade days",
                # Mon 16 Nov night (bond desk 4, L10): the 3.60 points are the standard's, with cash waiting earning
                # nothing (NUMBERS 5; the ladder alone holds to 3.89 points)
                f"payments hold, even if cash waiting earns nothing, to a {D.FALL_TAKES_WHOLE_DEPOSIT:.2f}-point fall "
-               "before 2027"]},
+               "before 2027",
+               # Tue 17 Nov (coherence reader 7, M13; case l.146-147): the building-cost band's source and date
+               f"building-cost trend: {D.CCI_SOURCE} (8d)"]},
 }
 
 
@@ -552,7 +585,9 @@ def add_table2(BT, rep, note_text, top=False):
 def add_table3(BT, rep, note_text, top=False):
     # Widths (6.5 in): the reader column holds "Laura" and "Team" on one line; the last column is the widest, as it
     # carries two parts ("Changes:" and "Never:", in italics).
-    widths = [0.85, 0.48, 1.55, 1.62, 2.00]   # Fri 13 Nov evening: "Who" needs less than "Reader"
+    # Fri 13 Nov evening: "Who" needs less than "Reader". Tue 17 Nov: 0.05 in from each middle column to the last, which
+    # carries the longest cells (rows 1, 2 and 4 each a line shorter); [0.85, 0.48, 1.55, 1.62, 2.00] before
+    widths = [0.85, 0.48, 1.50, 1.57, 2.10]
     aligns = [BT.L] * 5
     return apa_table(BT, rep, "t3", D.TABLE3_HEADER, D.table3_rows(), widths, aligns, note_text, top, row_gap=1)
 
@@ -577,11 +612,13 @@ def exhibit_texts():
     hd = D.FIGURE1_HEADS
     out += [("f1 head", v if isinstance(v, str) else " ".join(v)) for v in hd.values()]
     out += [("f1 legend", t) for t in D.FIGURE1_LEGEND] + [("f1 bar", r["holding"]) for r in D.FIGURE1_ROWS]
+    out += [("f1 total label", D.FIGURE1_TOTAL_LABEL)]     # Tue 17 Nov (coherence reader 7, M2)
     out += [("t2 head", h) for h in D.TABLE2_HEAD_ROW + [D.TABLE2_SPANNER, D.TABLE2_SPREAD_LABEL]]
     out += [("t2 line", D.TABLE2_HELD_SAME), ("t2 line", D.TABLE2_RESULT_ROW)]
     out += [("t2 world", name) for _, name, _ in D.TABLE2_WORLDS]
     out += [("t3 head", h) for h in D.TABLE3_HEADER + list(D.TABLE3_LEVELS.values())]
     out += [("t3 cell", D.cell_text(c)) for _, cells in D.TABLE3_ROWS for c in cells]
+    out += [("t3 for 3e", t) for t in D.TABLE3_FOR_3E]     # Tue 17 Nov: the cut details, read like the cells
     return out
 
 
@@ -823,7 +860,7 @@ def _md_table(header, rows, right):
 
 def tables_md(measures):
     L = []
-    L.append("# The Final Report's exhibits as text (built Mon 16 Nov 2026 evening, Sydney)\n")
+    L.append("# The Final Report's exhibits as text (built Tue 17 Nov 2026, Sydney)\n")
     L.append(f"Generated by `build_exhibits.py` from `exhibit_data.py`, which reads `../numbers/results_*_{D.REGISTER_DATE}.json` "
              "and checks every figure against `../NUMBERS.md` (sections named under each exhibit). Notes for the "
              "store, not report prose: titles are working labels and each note lists the items it must carry; both "
@@ -833,6 +870,20 @@ def tables_md(measures):
              "`exhibit_data.py` and `build_exhibits.py` the same night, so a rebuild keeps them; Table 3's page fit is "
              "re-measured (its page cost below), since rows 4, 5 and 7 are longer, and Table 2's, since its printed "
              "head now reads \"" + D.TABLE2_FLEX_HEAD + "\" as well (SKELETON Exhibits item 3).**\n")
+    L.append("**Tue 17 Nov: Table 3 cut back to one page (27.9 to " + str(measures.get("t3_note_budget", {}).get("lines"))
+             + " double-spaced lines with its note), every row's signal, trigger, change and \"never\" kept and no "
+             "figure changed; each detail cut is listed under the table for 3e's notes; row 5's \"[x]%\" is now NUMBERS "
+             "4's trade-day limit, 0.5% (`REBUILD_2026-11-17.md`).**\n")
+    # Tue 17 Nov evening: coherence reader 7 (M1, M2, M3, M13) and lay reader 3, applied in the scripts
+    L.append("**Tue 17 Nov evening (coherence reader 7; lay reader 3; `../research/panel/2026-11-17_fixes_applied.md`):** "
+             "Figure 1's total row is labelled \"" + D.FIGURE1_TOTAL_LABEL + "\", a ten-year sum of payouts, never the "
+             "reserve's size, which note item 4 now carries once at today's rates (M1, M2); Table 2's note gains the "
+             "simulated futures' volatility and yield moves (M13) and 3c's rate past the margin as an if-then item (lay "
+             "reader 3); Table 3 says \"debt-limit deadline\" for the X-date, ties the 0.5% to the range only (M3), says "
+             "\"Never: a sale of shares\" for \"Never: VT\" and the Taiwan dollar's move once, as 10% stronger, and its "
+             "note names the building-cost band's source and date (M13); row 6 reads \"the top to Jan 2031\" so the "
+             "table stays on one page (" + str(measures.get("t3_note_budget", {}).get("lines")) + " lines with a "
+             + str(EXHIBITS["t3"]["note_budget_words"]) + "-word note).\n")
 
     def cost(ex):
         m = measures.get(f"{ex}_note_budget", {})
@@ -897,15 +948,20 @@ def tables_md(measures):
                      arrives, D.dollars(r["own_if_nothing_earns"]), D.dollars(r["backstop_if_nothing_earns"]), ""])
     # Mon 16 Nov evening (card Q73): one world; the heads print the sum and the total row adds up exactly
     own_tot, extra_tot, sum_tot = (D.dollars(v) for v in D.FIGURE1_TOTAL_ROW)
-    rows.append(["**Total**", "", "", "", f"**{own_tot}**", f"**+ {extra_tot}**", f"**= {sum_tot}**"])
+    # Tue 17 Nov (coherence reader 7, M2): the row's label says it is a sum of payouts 2033-2042, not a size
+    rows.append([f"**{D.FIGURE1_TOTAL_LABEL}**", "", "", "", f"**{own_tot}**", f"**+ {extra_tot}**",
+                 f"**= {sum_tot}**"])
     hd = D.FIGURE1_HEADS
     L.append(_md_table([hd["payment"] + " (1 Jan)", "Paid from", "Type", "Cash arrives", " ".join(hd["c2"]),
                         f"{hd['plus']} {' '.join(hd['c3'])}", f"{hd['equals']} {hd['sum']}"], rows,
                        right={4, 5, 6}) + "\n")
     L.append(f"As drawn (Mon 16 Nov evening, card Q73's three fixes): one world, cash waiting earning nothing after the "
              f"0.15% fee on waiting money (8h's \"fee\" block); the heads read \"{' '.join(hd['c2'])} {hd['plus']} "
-             f"{' '.join(hd['c3'])} {hd['equals']} {hd['sum']}\" and the total row \"{own_tot} {hd['plus']} {extra_tot} "
-             f"{hd['equals']} {sum_tot}\" (8h's totals of unrounded figures; the rows, rounded, add to "
+             f"{' '.join(hd['c3'])} {hd['equals']} {hd['sum']}\" and the total row \"{D.FIGURE1_TOTAL_LABEL}: "
+             f"{own_tot} {hd['plus']} {extra_tot} "
+             f"{hd['equals']} {sum_tot}\" (Tue 17 Nov, coherence reader 7, M2: what the ten payments are paid over "
+             f"2033-2042, summed undiscounted, never the reserve's size, which is note item 4's; 8h's totals of "
+             f"unrounded figures; the rows, rounded, add to "
              f"{D.dollars(D.FIGURE1_FOOT[0])} and {D.dollars(D.FIGURE1_FOOT[1])}, note item 3); the \"At today's "
              f"market rates\" column ($50,000 ten times) is now note item 4; no axis break (the timeline runs unbroken "
              f"from January 2027 to 2042); a dotted line and \"waits 10.5 months\" / \"waits 7.5 months\" mark the two "
@@ -935,8 +991,10 @@ def tables_md(measures):
     L.append(f"## {EXHIBITS['t3']['label']}. {EXHIBITS['t3']['title']} (working title)\n")
     L.append(f"{EXHIBITS['t3']['section']}. Source: SKELETON Exhibits item 4 (Thu 12 Nov spec: card Q30's cut, the bond "
              "reader of Wed 11 Nov, Keel's definitions of the two reasons); every figure from NUMBERS 2, 5, 8d, 8h and "
-             "8j through `exhibit_data.py`, checked. Single-spaced; each level is an italic row across the table; the "
-             "last column prints \"Changes:\" and \"Never:\" in italics, each on its own line.\n")
+             "8j (and row 5's limit from NUMBERS 4) through `exhibit_data.py`, checked. Single-spaced; each level is an "
+             "italic row across the table; the last column prints \"Changes:\" and \"Never:\" in italics, in one run of "
+             "text (a line break between them would cost a line a row). Column widths 0.85, 0.48, 1.50, 1.57 and 2.10 "
+             "in (Tue 17 Nov; was 0.85, 0.48, 1.55, 1.62 and 2.00).\n")
     rows = []
     for kind, cells in D.table3_rows():
         if kind == "spanner":
@@ -946,21 +1004,25 @@ def tables_md(measures):
                          "".join(f"*{t}*" if it else ("<br>" if t == "\n" else t) for t, it in c) for c in cells])
     L.append(_md_table(D.TABLE3_HEADER, rows, right=set()) + "\n")
     L.append("Note items: " + "; ".join(EXHIBITS["t3"]["note_items"]) + ".\n")
-    L.append("Mon 16 Nov hand edits to Table 3 (carried into `exhibit_data.py` the same night; page re-measured below): "
+    L.append("Mon 16 Nov hand edits to Table 3 (carried into `exhibit_data.py` the same night; on Tue 17 Nov rows 1, 2, "
+             "4, 5 and 7 were cut back to fit the page, their details listed below): "
              "row 1, the missed deposit's cost on both bases (coherence reader 6 and bond desk 4, M7, L5; L5's action "
              "wording declined: card Q34 keeps the later money's order in 3e's prose); row 2, \"payments ... "
              "restated\" corrected (bond desk 4, L6); row 4, the frozen name of the waiting fund (coherence reader 6, "
              "L1: TNA l.5, WN l.17), filings read in any year and a dated missing-notice trigger (bond desk 4, M5), one "
              "action per event and no \"Treasury due by 15 December\", which WInS does not list for 2033 or 2035 (bond "
-             "desk 4, M4; coherence reader 6, L17); row 5, a stressed-trade-day trigger, its distance [x]% not yet in "
-             "NUMBERS (bond desk 4, M6); row 6, \"the 2031 move\" alone banned (coherence reader 6, L2); row 7, one "
+             "desk 4, M4; coherence reader 6, L17); row 5, a stressed-trade-day trigger, its distance then a placeholder, "
+             "not yet in NUMBERS (bond desk 4, M6; 0.5% since Tue 17 Nov, NUMBERS 4); row 6, \"the 2031 move\" alone banned (coherence reader 6, L2); row 7, one "
              "reading of \"10% stronger\" (8j: 10% more US dollars) and a \"carry on while\" that is a condition "
              "(bond desk 4, M7; its building-cost trigger declined: SKELETON's Sat 14 Nov decision, CANON A34); the "
              "note names its basis (bond desk 4, L10; the ladder alone holds to 3.89 points, NUMBERS 5).\n")
-    L.append("Not a row: custody (one line of 3e prose, SKELETON item 4 (c)). Not in the table or its note: IBTA's "
-             f"early end in 2021 (cash about {D.IBTA_SLACK} business days before year end; notice filed 28 Sep 2021; "
-             "card Q3c row 8, NUMBERS 8h), an example of row 4's \"ends early\" for 3e's prose. Any mention of it in "
-             "row 4 or a longer note puts Table 3 on two pages (measured Sun 15 Nov evening).\n")
+    # Tue 17 Nov: the details cut to fit the page, for 3e's notes (D.TABLE3_FOR_3E, checked in D.check())
+    L.append("**For 3e's notes (Tue 17 Nov): what left Table 3's cells to fit one page, not printed in the table or its "
+             "note, never lost.**\n")
+    L.append("\n".join(f"- {t}." for t in D.TABLE3_FOR_3E) + "\n")
+    L.append("Not a row: custody (one line of 3e prose, SKELETON item 4 (c)). IBTA's early end in 2021 is in the list "
+             "above (row 4's window and cash), an example of row 4's \"early end\" for 3e's prose, never in the table "
+             "or its note.\n")
     L.append(cost("t3") + "\n")
     with open(os.path.join(HERE, "tables.md"), "w") as fh:
         fh.write("\n".join(L))
@@ -991,7 +1053,8 @@ def main(argv):
     m["_method"] = ("Card Q23: Letter, 1-inch margins, 12-pt Times New Roman metrics (Liberation Serif), double-spaced "
                     "text at a 27.6-pt pitch, table bodies single-spaced, APA number, title and note double-spaced, a "
                     "blank double-spaced line after each exhibit; LibreOffice headless; words a line 14.26 (Q23 row 5)")
-    m["_built"] = f"Mon 16 Nov 2026 evening (Sydney), register of {D.REGISTER_DATE} (results_*_{D.REGISTER_DATE}.json)"
+    m["_built"] = (f"Tue 17 Nov 2026 (Sydney), register of {D.REGISTER_DATE} (results_*_{D.REGISTER_DATE}.json; Table 3 "
+                   "row 5's limit from NUMBERS 4, Tue 17 Nov)")
     with open(os.path.join(HERE, "measurements.json"), "w") as fh:
         json.dump(m, fh, indent=1)
     print(json.dumps(m, indent=1))

@@ -311,7 +311,8 @@ def cash_words(r):
     one = lambda d, month=True: f"{d.strftime('%a')} {d.day}" + (f" {d.strftime('%b')} {d.year}" if month else "")
     return one(a) if a == b else f"{one(a, False)} to {one(b)}"
 # The note's ratio in WORDS.md's form (Thu 12 Nov): "about $1.11 for each $1 the payments need at today's rates, because
-# the top-up is sized for no interest" ($444,545 against $399,089 on 1 Jan 2033, NUMBERS 8h).
+# the top-up is sized for no interest" ($444,545 against $399,089 on 1 Jan 2033, NUMBERS 8h). Since Thu 12 Nov the
+# printed reason is "because the extra Treasuries are sized for cash waiting earning nothing" (WORDS).
 FIGURE1_PER_DOLLAR = f"${FIGURE1_NOTE_FACTS['funded_1jan2033']:.2f}"
 # Mon 16 Nov evening (card Q73's three fixes, charts/DESIGNS.md section 2):
 #   1. the sum in the column heads, "Its own Treasury + Extra Treasuries = $50,000" (Q73-010, -036: LACERA's formula
@@ -343,6 +344,12 @@ FIGURE1_TOTAL_ROW = (FIGURE1_TOTALS["own_if_nothing_earns"], FIGURE1_TOTALS["bac
                      FIGURE1_TOTALS["own_if_nothing_earns"] + FIGURE1_TOTALS["backstop_if_nothing_earns"])
 assert round(FIGURE1_TOTAL_ROW[0]) + round(FIGURE1_TOTAL_ROW[1]) == round(FIGURE1_TOTAL_ROW[2]) == \
     10 * FIGURE1_PAYMENT == round(FIGURE1_TOTALS["at_forwards"]), FIGURE1_TOTAL_ROW
+# Tue 17 Nov (coherence reader 7, M1 and M2; the lead's call): the total row is what each payment's own Treasury and the
+# extra Treasuries pay over 2033-2042, summed undiscounted, not a value on any date, so it is never labelled "Total",
+# which read as the reserve's size ($444,080 beside the reserve's $444,545 on 1 Jan 2033). The reader's label, "paid by
+# each payment's own Treasury, 2033-2042, added up", names the first column only; the row carries all three, so the
+# label keeps its words for the whole row. The reserve's size is printed once, in note item 4 (at today's rates)
+FIGURE1_TOTAL_LABEL = "Paid 2033-2042, added up"
 # What the printed rows add to (each row rounded to the dollar): the rounding note's pairing
 FIGURE1_FOOT = (sum(round(r["own_if_nothing_earns"]) for r in FIGURE1_ROWS),
                 sum(round(r["backstop_if_nothing_earns"]) for r in FIGURE1_ROWS))
@@ -457,6 +464,19 @@ FALL_TAKES_WHOLE_DEPOSIT = 3.60   # points; NUMBERS 5 text only (no results file
 TWD_PER_USD = INPUTS["usdtwd"]["latest"]                                # 32.768 on 6 Nov (NUMBERS 8d)
 CCI_BAND = (INPUTS["taiwan_construction"]["low"], INPUTS["taiwan_construction"]["high"])   # 1.5% to 5.0% (8d)
 CCI_5Y = 0.0327                                          # building costs a year, five years to Sep 2026 (8d; card Q10 row 20)
+# Tue 17 Nov: NUMBERS 8d now leads with October 2026 (3.19% a year over five years, card Q103) and keeps September's
+# 3.27% as its record. Neither is printed in Table 3 (row 7 prints the band only; the five-year rate is 3e's prose)
+CCI_5Y_OCT = 0.0319                                      # building costs a year, five years to Oct 2026 (8d; card Q103)
+# Tue 17 Nov (coherence reader 7, M13): the band's source and date, printed in Table 3's note (case l.146-147 asks for
+# the inflation assumption; NUMBERS 8d: "band 1.5%-5.0% (DGBAS construction cost index: October 2026 ...")
+CCI_SOURCE = "DGBAS construction cost index, to October 2026"
+# Tue 17 Nov (coherence reader 7, M13; lay reader 3): the simulated futures' share volatility and yield moves leave 3e's
+# prose for Table 2's note, beside the 7.5% (NUMBERS 0: "17.88% yearly spread"; "s.d. 0.9 points a year, independent
+# of shares"), and 3c's rate past the margin moves there too as an if-then line (NUMBERS 3: "About $119 short for each
+# 0.1% above", a ceiling on the slope, said as "at most about $120")
+SHARE_VOL = 0.1788
+YIELD_SD_POINTS = 0.9
+SHORT_PER_TENTH = 119.0                                  # printed to the nearest $10, "at most about $120"
 TWD_TEST = 0.10                                          # a 10% stronger Taiwan dollar (NUMBERS 8j)
 _TWDF = JOINT["scenarios"]["forwards"]
 CONTRIBUTION_FWD = _TWDF["gift_realised"]                # $115,000 at today's forwards (8i, 8j)
@@ -484,6 +504,8 @@ DEFAULT_DAYS = 5                                         # a Treasury default: n
 FUND_FEE = 0.0007                                        # the iBond funds' fee (NUMBERS 0: "0.07% fee"), checked below
 WAIT_FEE = FIGURE1_NOTE_FACTS["etf_fee"]                 # the short-term Treasury ETF's 0.15% a year (NUMBERS 0)
 NOTICE_BY = "31 October"                                 # of the final year: the last day of the notice window
+# Tue 17 Nov (numbers owner; bond desk 4, M6): row 5's trade-day limit, checked against NUMBERS section 4
+TRADE_LIMIT = 0.005                                      # limit orders within 0.5% of net asset value, each fund leg
 
 
 def _d(d, weekday=True):
@@ -517,16 +539,24 @@ def _changes(changes, never):
 # extra Treasuries, never "the reserve" before 2033; row 5 adds the 2031 move, the first draw goes to 3e's prose;
 # row 6 shows the 1-point case ("most" still holds, NUMBERS 5) and what a fall changes and when it stops changing it;
 # the 3.6-point bound moves to the note; row 7's levels are dated and the five-year building-cost rate is shown.
+# Tue 17 Nov (DESIGNS "Next", first item; REBUILD_2026-11-17.md): after the Mon 16 Nov night fixes the table measured
+# 27.9 lines against a 23.5-line Letter page (row 4 alone about 12). Cut to one page between two prose lines (21.4
+# lines with its 40-word note, 18.4 without) with every row's signal, trigger, change and "never" kept and no figure
+# changed. Every detail that left a cell is in TABLE3_FOR_3E below (printed in tables.md under the table, headed for
+# 3e's notes, and checked in check()). Widths moved 0.05 in each from the two middle columns to the last
+# (build_exhibits.add_table3).
 TABLE3_ROWS = [
     ("reason", [
         f"The 2028 deposit ({dollars(DEPOSIT_2028)})",
         "Laura",
-        f"Confirmed by {CONFIRM_BY.day} {CONFIRM_BY.strftime('%b')} {CONFIRM_BY.year}; its first {dollars(TOPUP)} "
-        "(today's rates) to the payments",   # Sat 14 Nov (bond reader 2): a today's-rates figure, so labelled
+        # Sat 14 Nov (bond reader 2): a today's-rates figure, so labelled. Tue 17 Nov: "its first" to "first"
+        f"Confirmed by {CONFIRM_BY.day} {CONFIRM_BY.strftime('%b')} {CONFIRM_BY.year}; first {dollars(TOPUP)} "
+        "(today's rates) to the payments",
         f"Nothing received by {_d(MISSED_BY, weekday=False)} (a missed deposit)",
         # Mon 16 Nov night (coherence reader 6, M7; bond desk 4, L5): both bases, never the $3,016 alone (NUMBERS 5);
-        # L5's action wording declined: card Q34 keeps the later money's order in 3e's prose
-        _changes(f"no range until money comes; the ten short: {dollars(MISSED_SHORT_2033)} at today's rates, "
+        # L5's action wording declined: card Q34 keeps the later money's order in 3e's prose.
+        # Tue 17 Nov: "until money comes" to "until paid" (one line; same meaning: no range is stated before it is paid)
+        _changes(f"no range until paid; the ten short {dollars(MISSED_SHORT_2033)} at today's rates, "
                  f"{dollars(MISSED_SHORT_ZERO)} if cash waiting earns nothing",
                  "a sale")]),
     ("reason", [
@@ -534,46 +564,46 @@ TABLE3_ROWS = [
         "Team",
         "Paid when due, or the next business day",   # 31 CFR 356.30(a): weekends and holidays alike (bond reader 2)
         f"A Treasury default: a payment over {_NUM[DEFAULT_DAYS]} business days late",
-        # Mon 16 Nov night (bond desk 4, L6): Laura's payments are fixed at $50,000 and never restated
-        _changes("each payment's cover and both ends re-checked on what was paid; the range restated",
+        # Mon 16 Nov night (bond desk 4, L6): Laura's payments are fixed at $50,000 and never restated. Tue 17 Nov: "each
+        # payment's" and "both ends" to the 3e list (two lines saved); the cover and the range still named
+        _changes("cover re-checked and the range restated on what was paid",
                  "a forced sale")]),
+    # Tue 17 Nov (lay reader 3: "X-date" was explained only in the note): the cells say "debt-limit deadline" in plain
+    # words; the note defines it once and keeps the term of art ("the X-date") for a bond reader
     ("closer", [
-        "Debt-limit X-date",
+        "Debt-limit deadline",
         "Team",
-        "No X-date within a month of a cash date",
-        "An X-date within a month of a cash date",
+        "No deadline within a month of a cash date",
+        "A deadline within a month of a cash date",
         _changes("nothing before it", "a sale ahead of it")]),
     ("closer", [
-        # Mon 16 Nov night (coherence reader 6, L1: the frozen name of the waiting fund, TNA l.5, WN l.17; bond desk 4,
-        # M5: filings read in any year, the ending notice in its final year, a dated missing-notice trigger and the
-        # iBond fee beside the waiting ETF's; M4 and coherence reader 6, L17: one action per event, and no "Treasury due
-        # by 15 December", which WInS does not list for 2033 or 2035 (WN l.20, l.22))
-        "iBond and short-term Treasury ETF notices",
+        # Mon 16 Nov night (coherence reader 6, L1; bond desk 4, M4, M5; coherence reader 6, L17), cut Tue 17 Nov from
+        # ten lines to four (DESIGNS "Next": the signal and action, the window and the earlier-fund class out): the
+        # watched events stay (an early end, a merger, an end moved past a payment, a fee rise, no notice by 31
+        # October); the notice window, the cash days, the fees' owners, one action per event and the frozen name of
+        # the waiting fund go to TABLE3_FOR_3E. "Treasury fund" keeps VT out of the signal, so "Never: VT" still holds.
+        "Treasury fund notices",
         "Team",
-        f"Every filing read, any year; ending notice in September to October of the final year; cash {IBOND_SLACK} "
-        f"business days before year end ({IBOND_SLACK_2036} for 2036); fees {100 * FUND_FEE:.2f}% and "
-        f"{100 * WAIT_FEE:.2f}%",
-        # Sun 15 Nov evening (card Q3c row 8): notices since September (IBTA's, 28 Sep 2021). IBTA's early end (cash
-        # about 19 business days before year end) is the trigger's "ends early", for 3e's prose: any mention of it in
-        # this row or the note puts Table 3 on two pages (measured); "for 2036" (was ", 2036 payment") keeps 18.9 lines
-        f"A fund ends early, merges or moves past a payment; a fee rises; no ending notice by {NOTICE_BY} of the "
-        "final year",
-        _changes("early cash waits in the short-term Treasury ETF; a merged or moved fund is sold for an earlier iBond "
-                 "fund or that ETF, any gap from the extra Treasuries, re-tested; a dearer waiting ETF swapped for a "
-                 "cheaper one; the range's from its 0.5%",
-                 "VT")]),
-    # Sat 14 Nov (bond reader 2, coherence reader 4): an extension or merger needs a sale, so "paid out, or its shares
-    # sold"; a 31 December note can pay after 1 January, so "by 15 December"; the late-2032 fund holds both ends of the
-    # range, so "the range's" margin; a gap paid from the extra Treasuries leaves the no-interest test short by it, so
-    # "re-tested"; the October notice is practice, not a duty ("without further notice"), so silence is a reading, not
-    # a swap; the waiting money's bill fund (0.15%, NUMBERS 0, its fund UNVERIFIED) is now watched.   # Fri 13 Nov evening (card Q36 row 23): "the shares" could mean the iBond fund's own
+        f"Notice by {NOTICE_BY} of a fund's final year; fees {100 * FUND_FEE:.2f}% and {100 * WAIT_FEE:.2f}%",
+        "Early end, merger or end moved past a payment; fee rise; no notice by then",
+        # the instrument changes, never the plan (the level's heading); a gap is paid from the extra Treasuries and the
+        # ten re-tested; the floor's from the range's 0.5% cut (Sat 14 Nov, bond reader 2, coherence reader 4).
+        # Tue 17 Nov (lay reader 3: "(the range's from its 0.5%)" and "Never: VT" were shorthand; coherence reader 7,
+        # M3: the 0.5% is the range's alone until the Wed 18 Nov re-size): plain words, the 0.5% tied to the range
+        # (Measured Tue 17 Nov: the cell must stay within row 4's four lines, so "re-tested" is in the 3e list only)
+        _changes("the fund; any gap met from the extra Treasuries, or for the range its 0.5% margin",
+                 "a sale of shares")]),
     ("closer", [
         "Trades in 2027, 2028, 2031",
         "Team",
         # Mon 16 Nov night (bond desk 4, M6): a stressed trade day is a watch item (NUMBERS 0, l.82), so the row has a
-        # trigger for it; its distance, [x]%, is a placeholder until NUMBERS carries it
-        "First trading day; limit orders within [x]% of net asset value",
-        "A date cannot be kept (a trading halt); prices further off: wait day by day",
+        # trigger for it. Tue 17 Nov: its distance is the register's, 0.5% of net asset value for each fund leg
+        # (NUMBERS 4, "A trade-day limit for Table 3 row 5"; it replaces the [x]% placeholder); "of net asset value"
+        # covers the fund legs (NUMBERS 4: a bond has none and keeps 8m's 25-basis-point curve test, in the 3e list;
+        # "fund prices" cost a line); the condition is the price ("limit orders", the means, to the 3e list), and "a
+        # trading halt" is the date that cannot be kept
+        f"First trading day, prices within {100 * TRADE_LIMIT:.1f}% of net asset value",
+        "A trading halt, or prices further off: wait day by day",
         _changes("the date, never past the 2031 meetings", "the step or its order")]),
     # Sat 14 Nov (bond reader 2): an open date for the 2031 move is a timing option, and waiting after a fall is the
     # market call IPS l.17 rules out, so the day is fixed now (the first trading day, as modelled; Keel's call,
@@ -583,26 +613,65 @@ TABLE3_ROWS = [
         "Team",
         "Any level",   # Sat 14 Nov (coherence reader 4): the l.17 echo dropped, as SKELETON said
         f"None (for scale: 1 point lower before 4 Jan 2027 gives an {dollars(BOTTOM_AFTER_1PT_FALL)} bottom)",
-        # Mon 16 Nov night (coherence reader 6, L2): never "the 2031 move" alone
-        _changes("the bottom to Jan 2028, the top to the move before the 2031 meetings, then her flexibility",
+        # Mon 16 Nov night (coherence reader 6, L2): never "the 2031 move" alone. Tue 17 Nov: "the top to Jan 2031", the
+        # move's trade day (row 5: the first trading day of 2031, before the meetings), dated like "the bottom to Jan
+        # 2028", so the cell takes four lines and Table 3 stays on one page with its note
+        _changes("the bottom to Jan 2028, the top to Jan 2031, then her flexibility",
                  "the payments")]),
     ("watch", [
         "Her flexibility's three uses",
         "Laura",
         # Mon 16 Nov night (bond desk 4, M7): "carry on while" is a condition, measured from the rate when the range is
-        # stated (8j; card Q10b), with 6 Nov 2026's rate for scale only
-        f"NT$ per US$ within {100 * TWD_BAND:.1f}% of its level when the range is stated ({TWD_PER_USD:.3f} on 6 Nov "
-        f"2026, for scale); building-cost trend {100 * CCI_BAND[0]:.1f}% to "
-        f"{100 * CCI_BAND[1]:.1f}% a year",   # "trend": a rate over years, not a one-year ceiling
-        # (card Q10c: costs rise in bursts); the five-year rate, 3.27% (8d), goes to 3e's prose: no room
+        # stated (8j; card Q10b). Tue 17 Nov: that base is printed once, in the trigger beside it; 6 Nov 2026's rate,
+        # for scale only, goes to the 3e list. "trend": a rate over years, not a one-year ceiling (card Q10c: costs
+        # rise in bursts); the five-year rate, 3.27% (8d), goes to 3e's prose
+        # Tue 17 Nov (lay reader 3: 9.1% and 10% printed for the same move): the cells say the move once, in plain words,
+        # "the Taiwan dollar 10% stronger"; the NT$-per-US$ quote's 9.1% and 29.79 stay in the 3e list for a bond reader
+        f"Taiwan dollar under {100 * TWD_TEST:.0f}% stronger; building-cost trend {100 * CCI_BAND[0]:.1f}% to "
+        f"{100 * CCI_BAND[1]:.1f}% a year",
         # Mon 16 Nov night (bond desk 4, M7): one reading of "10% stronger", 8j's: 10% more US dollars for the same NT$
-        # budget, NT$ per US$ from 32.768 to 29.79 (never 29.49, which gives $12,778); its building-cost trigger declined
-        # (SKELETON's Sat 14 Nov decision, CANON A34)
-        f"NT$ per US$ {100 * TWD_BAND:.1f}% below its level when the range is stated ({TWD_STRONG:.2f} from "
-        f"{TWD_PER_USD:.3f}): {100 * TWD_TEST:.0f}% more US dollars, {dollars(TWD_NEED)} on "
+        # budget (never NT$ per US$ down 10%, 29.49, which gives $12,778); its building-cost trigger declined
+        # (SKELETON's Sat 14 Nov decision, CANON A34). Tue 17 Nov: "$11,500 more on $115,000" (10% of it) says which
+        # reading without a second percentage
+        f"Taiwan dollar {100 * TWD_TEST:.0f}% stronger than in 2031: {dollars(TWD_NEED)} more on "
         f"{dollars(CONTRIBUTION_FWD)}",
         _changes(f"a call on her flexibility ({hundreds(FLEX_FWD)} in 2033 with anything above the top)",
                  "the range")]),
+]
+
+# Tue 17 Nov: what left Table 3's cells to fit one page, for 3e's prose and the store, never lost. Printed in tables.md
+# under the table, headed for 3e's notes (not report text); each figure is built from the constants above and checked
+# in check(). Rows are the table's rows, 1 to 7.
+TABLE3_FOR_3E = [
+    "Row 2: a Treasury default re-checks each payment's cover and both ends of the range on what was actually paid, "
+    "and the range is restated; the $50,000 payments are never restated (bond desk 4, L6)",
+    "Row 4, the funds: the five iBond funds and the short-term Treasury ETF, where waiting cash sits (the frozen name, "
+    "TNA l.5, WN l.17; never \"bill fund\"); VT is not a Treasury fund, so its notices are not this row's",
+    "Row 4, the filings: every fund filing is read as it comes, in any year, since a fund's board can end it early, "
+    "merge it or move its end without a vote, and no notice period binds a later end (IBTM prospectus, 27 Feb 2026; "
+    "card Q36; bond desk 4, M5)",
+    "Row 4, the window: an ending notice comes in September to October of a fund's final year (IBTA's was filed "
+    f"28 Sep 2021; card Q3c row 8, NUMBERS 8h), so the table prints only its end, {NOTICE_BY}",
+    f"Row 4, the cash: a fund's cash arrives {IBOND_SLACK} business days before year end ({IBOND_SLACK_2036} for "
+    "2036, the tightest year) for a stated end only (card Q2b); an early end brings it earlier, still before 1 January "
+    f"(IBTA: about {IBTA_SLACK} business days before year end, card Q3c row 8)",
+    f"Row 4, the fees: {100 * FUND_FEE:.2f}% is each iBond fund's, {100 * WAIT_FEE:.2f}% the short-term Treasury ETF's "
+    "(NUMBERS 0)",
+    "Row 4, one action per event (bond desk 4, M4): an early end's cash waits in the short-term Treasury ETF to "
+    "1 January; a merged or moved fund is sold for an earlier iBond fund or the short-term Treasury ETF, never a "
+    "Treasury due by 15 December, which WInS does not list for 2033 or 2035 (WN l.20, l.22; coherence reader 6, L17); "
+    "a dearer waiting ETF is swapped for a cheaper one; any gap comes from the extra Treasuries and the ten are "
+    "re-tested with cash waiting earning nothing; the floor's gap comes from the range's 0.5% cut; never VT",
+    f"Row 5: each fund leg goes in as a limit order within {100 * TRADE_LIMIT:.1f}% of net asset value, the worst "
+    "median gap of March 2020 for government bond and equity ETFs (NUMBERS 4, \"A trade-day limit for Table 3 row "
+    "5\"; bond desk 4, M6); the bond legs have no net asset value and keep the 25-basis-point curve test (8m); this "
+    "limit and row 4's 0.5% cut are the same size with separate jobs (NUMBERS 4); a trading halt is the case where a "
+    "date cannot be kept",
+    # Tue 17 Nov (lay reader 3): the table prints "Taiwan dollar 10% stronger" only; the quote's 9.1% lives here
+    f"Row 7: \"10% stronger\" is 8j's one reading, {100 * TWD_TEST:.0f}% more US dollars for the same Taiwan-dollar "
+    f"cost, which moves NT$ per US$ {100 * TWD_BAND:.1f}% below its level when the range is stated; for scale only, "
+    f"{100 * TWD_BAND:.1f}% below 6 Nov 2026's {TWD_PER_USD:.3f} NT$ per US$ is "
+    f"{TWD_STRONG:.2f}, {100 * TWD_TEST:.0f}% more US dollars (8j; never 29.49, NT$ per US$ down 10%)",
 ]
 
 
@@ -834,6 +903,11 @@ def check(verbose=True):
     cmp("Figure 1", "Total row: the sum = 8h's All-ten total ($500,000)", s, _money(tot[1])[0], "8h", tol=0)
     cmp("Figure 1", "Total row: own = 8h's All-ten total, after fee", a, _money(tot[4])[0], "8h", tol=0)
     cmp("Figure 1", "Total row: extra = 8h's All-ten total, after fee", b, _money(tot[4])[1], "8h", tol=0)
+    # Tue 17 Nov (coherence reader 7, M2): the total row is a ten-year sum of payouts, never labelled as a size
+    lab_ok = "total" not in FIGURE1_TOTAL_LABEL.lower() and "2033-2042" in FIGURE1_TOTAL_LABEL and \
+        "added up" in FIGURE1_TOTAL_LABEL and round(a) != round(FIGURE1_NOTE_FACTS["reserve_1jan2033"])
+    note("Figure 1", "Total row labelled as a sum of payouts 2033-2042, not the reserve's size", FIGURE1_TOTAL_LABEL,
+         "coherence reader 7, M2", "8h", "PASS" if lab_ok else "FAIL")
     cmp("Figure 1", "Rounding note: the printed rows' foot adds to $500,000", sum(FIGURE1_FOOT), 10 * 50000,
         "8h", tol=0)
     cmp("Figure 1", "Rounding note: own foot is $1 from 8h's total", abs(FIGURE1_FOOT[0] - a), 1, "8h", tol=0)
@@ -939,7 +1013,7 @@ def check(verbose=True):
     s8h1 = re.sub(r"\s+", " ", s8h)
     F = FIGURE1_NOTE_FACTS
     for what, mine, pat in (
-            ("top-up's part for no interest, January 2028", F["topup_for_no_interest_jan2028"],
+            ("the extra Treasuries, sized for cash waiting earning nothing, January 2028", F["topup_for_no_interest_jan2028"],
              r"part for no interest costs \$([\d,]+) in January 2028"),
             ("what it buys, face and fund dollars", F["topup_face_and_fund_dollars"],
              r"What it buys:\*\* \$([\d,]+) of face and fund dollars"),
@@ -954,7 +1028,7 @@ def check(verbose=True):
              r"\*\*\$([\d,]+)\*\* in 1 Jan 2033 money \(this part of the top-up plus")):
         m = re.search(pat, s8h1)
         cmp("Figure 1", f"Note: {what}", round(mine), float(m.group(1).replace(",", "")) if m else None, "8h reconciled")
-    cmp("Figure 1", "Note: $35,894 is Table 3's part for no interest", round(F["topup_for_no_interest_jan2028"]),
+    cmp("Figure 1", "Note: $35,894 is Table 3's extra Treasuries", round(F["topup_for_no_interest_jan2028"]),
         round(TOPUP_NO_INTEREST), "2, 5")
     cmp("Figure 1", "Note: face + interest - fee = the column's total", round(F["topup_all_flows_undiscounted"] -
         F["topup_fee_while_waiting"]), round(T["backstop_if_nothing_earns"]), "8h reconciled")
@@ -1053,6 +1127,18 @@ def check(verbose=True):
          dollars(lo_b), f"< {dollars(sb[0])}", "8i", "PASS" if lo_b < sb[0] else "FAIL")
     note("Table 2", "History check (for 3c, not printed): no named world's top reaches the 1-in-20 high",
          dollars(hi_t), f"< {dollars(st[2])}", "8i", "PASS" if hi_t < st[2] else "FAIL")
+    # Tue 17 Nov (coherence reader 7, M13; lay reader 3): the note's model assumptions and 3c's rate past the margin
+    s0n = re.sub(r"\s+", " ", _section(md, "## 0.", "\n## 1."))
+    m = re.search(r"VT median growth 7\.5% a year; ([\d.]+)% yearly spread", s0n)
+    cmp("Table 2", "Note: share volatility in the simulated futures (%)", 100 * SHARE_VOL,
+        float(m.group(1)) if m else None, "0", tol=0.0001)
+    m = re.search(r"Parallel, s\.d\. ([\d.]+) points a year, independent of shares", s0n)
+    cmp("Table 2", "Note: yield moves in the simulated futures (points a year, our own assumption)", YIELD_SD_POINTS,
+        float(m.group(1)) if m else None, "0", tol=0.0001)
+    s3n = re.sub(r"\s+", " ", _section(md, "## 3.", "\n## 4."))
+    m = re.search(r"About \$([\d,]+) short for each 0\.1% above", s3n)
+    cmp("Table 2", "Note: short of the top for each 0.1% past the margin (a ceiling; printed about $120)",
+        SHORT_PER_TENTH, float(m.group(1).replace(",", "")) if m else None, "3 (bond desk 4, H1)", tol=0.5)
     m = re.search(r"\$120,000, worth \$([\d,]+) in 1 Jan 2027 dollars", s8i)
     infl = JOINT["scenarios"]["inflation"]["gift_in_2027_us_dollars"]
     cmp("Table 2", "Inflation row's contribution in 1 Jan 2027 dollars (now for 3b or 3c prose)", round(infl), float(m.group(1).replace(",", "")), "8i")
@@ -1072,8 +1158,11 @@ def check(verbose=True):
     r = [x for x in _table_rows(s5, "| Yields fall before Jan 2027") if x[0].startswith("None")][0]
     cmp("Table 3", "Row 1: the top-up ($38,282)", round(TOPUP), _money(r[2])[0], "5")
     cmp("Table 3", "Row 1: what the ten Treasuries still lack ($2,388)", round(TOPUP_TEN_LACK), _money(r[1])[0], "5")
-    m = re.search(r"the \$([\d,]+) tail plus the backstop \(\$([\d,]+)\)", s2)
-    cmp("Table 3", "Row 1: the top-up's part for no interest on money received ($35,894)", round(TOPUP_NO_INTEREST),
+    # Tue 17 Nov: NUMBERS 2's line was re-anchored by the numbers owner ("the $2,388 top-up that finishes the ten plus
+    # the extra Treasuries ($35,894, the backstop)"; was "the $2,388 tail plus the backstop ($35,894)"); same figures
+    m = re.search(r"the \$([\d,]+) (?:tail plus the backstop \(|top-up that finishes the ten plus the extra Treasuries "
+                  r"\()\$([\d,]+)", s2)
+    cmp("Table 3", "Row 1: the extra Treasuries, sized for cash waiting earning nothing ($35,894)", round(TOPUP_NO_INTEREST),
         float(m.group(2).replace(",", "")), "2")
     cmp("Table 3", "Row 1: the top-up's two parts add up", round(TOPUP_TEN_LACK) + round(TOPUP_NO_INTEREST),
         round(TOPUP), "2, 5")
@@ -1101,9 +1190,15 @@ def check(verbose=True):
         tol=0.0001)
     cmp("Table 3", "Row 7: building costs, high end of the band (%)", 100 * CCI_BAND[1], float(m.group(2)), "8d",
         tol=0.0001)
-    m = re.search(r"([\d.]+)% a year over the five years to September 2026", s8d)
-    cmp("Table 3", "Row 7: building costs a year, five years to Sep 2026 (%)", 100 * CCI_5Y,
+    # Tue 17 Nov: 8d re-worded by the numbers owner (October 2026 read at source); September's figure kept as a record
+    s8d1 = re.sub(r"\s+", " ", s8d)
+    m = re.search(r"([\d.]+)% a year over the five years to September 2026", s8d1) or \
+        re.search(r"September 2026 stays [\d.]+, \+[\d.]+%, ([\d.]+)% a year over five years", s8d1)
+    cmp("Table 3", "Row 7 (3e prose, not printed): building costs a year, five years to Sep 2026 (%)", 100 * CCI_5Y,
         float(m.group(1)) if m else None, "8d", tol=0.0001)
+    m = re.search(r"([\d.]+)% a year over the five years to October 2026", s8d1)
+    cmp("Table 3", "Row 7 (3e prose, not printed): building costs a year, five years to Oct 2026 (%), 8d's latest",
+        100 * CCI_5Y_OCT, float(m.group(1)) if m else None, "8d", tol=0.0001)
     m = re.search(r"A ([\d.]+)% stronger Taiwan dollar on \$([\d,]+) needs \$([\d,]+) more", re.sub(r"\s+", " ", s8j))
     cmp("Table 3", "Row 7: the test, a stronger Taiwan dollar (%)", 100 * TWD_TEST, float(m.group(1)), "8j", tol=0.0001)
     cmp("Table 3", "Row 7: the contribution it is tested on", round(CONTRIBUTION_FWD), _money(m.group(0))[0], "8j")
@@ -1128,11 +1223,20 @@ def check(verbose=True):
         q3c = re.sub(r"\s+", " ", fh.read())
     m = re.search(r"its cash came about (\d+) business days before year end", q3c)
     sep_ok = "September to October" in re.sub(r"\s+", " ", s8h)
-    note("Table 3", "Row 4: IBTA's business days before year end; notices September to October",
+    # Tue 17 Nov: the window and IBTA's case sit in the 3e list (TABLE3_FOR_3E); the table prints the window's end
+    for3e = " ".join(TABLE3_FOR_3E)
+    note("Table 3", "Row 4: IBTA's business days before year end; notices September to October (3e list)",
          f"{IBTA_SLACK}; September to October", f"{m.group(1) if m else None}; "
          f"{'September to October' if sep_ok else None}", "card Q3c row 8, NUMBERS 8h",
-         "PASS" if m and m.group(1) == IBTA_SLACK and sep_ok and "September to October" in
-         " ".join(cell_text(c) for _, cells in TABLE3_ROWS for c in cells) else "FAIL")
+         "PASS" if m and m.group(1) == IBTA_SLACK and sep_ok and "September to October" in for3e and
+         f"about {IBTA_SLACK} business days before year end" in for3e else "FAIL")
+    ibta_ok = "28 Sep 2021" in re.sub(r"\s+", " ", s8h) and "filed 28 Sep 2021" in for3e
+    note("Table 3", "3e list: IBTA's notice date (filed 28 Sep 2021)", "28 Sep 2021",
+         "28 Sep 2021" if ibta_ok else None, "8h", "PASS" if ibta_ok else "FAIL")
+    slack_ok = f"arrives {IBOND_SLACK} business days before year end ({IBOND_SLACK_2036} for 2036" in for3e
+    note("Table 3", "3e list: the cash days, all years and 2036 (card Q2b, checked above)",
+         f"{IBOND_SLACK}; {IBOND_SLACK_2036}", "in the 3e list" if slack_ok else None, "card Q2b",
+         "PASS" if slack_ok else "FAIL")
     m = re.search(r"the 2033 payment is \$([\d,]+) short at forward rates", re.sub(r"\s+", " ", s5))
     cmp("Table 3", "Row 1: a missed deposit, the 2033 payment short", round(MISSED_SHORT_2033),
         float(m.group(1).replace(",", "")) if m else None, "5")
@@ -1174,30 +1278,68 @@ def check(verbose=True):
                dollars(BOTTOM_AFTER_1PT_FALL), dollars(TWD_NEED), dollars(CONTRIBUTION_FWD), hundreds(FLEX_FWD)}
     found = set(re.findall(r"(?<![A-Z])\$[\d,]+", printed))   # NT$ and US$ mark an exchange rate, not a dollar figure
     # Mon 16 Nov night (bond desk 4, M7): the rate is printed as "NT$ per US$", 6 Nov 2026's level for scale only, and
-    # the trigger at 8j's one reading of "10% stronger" (10% more US dollars: 32.768 / 1.10 = 29.79, 9.1% below)
+    # the trigger at 8j's one reading of "10% stronger" (10% more US dollars: 32.768 / 1.10 = 29.79, 9.1% below).
+    # Tue 17 Nov: the scale (29.79 from 32.768 on 6 Nov 2026) is in the 3e list; the table prints the condition, the
+    # trigger measured from the level when the range is stated, and "(10%)" for 8j's reading
     if "NT$" in printed:
-        note("Table 3", "Row 7: the exchange rate as printed (for scale)", f"{TWD_PER_USD:.3f} on 6 Nov 2026",
-             "32.768 (8d)", "8d", "PASS" if f"({TWD_PER_USD:.3f} on 6 Nov 2026, for scale)" in printed and
-             "NT$ per US$ within" in printed else "FAIL")
+        note("Table 3", "Row 7: the exchange rate for scale, 6 Nov 2026's, in the 3e list (never printed undated)",
+             f"{TWD_PER_USD:.3f} on 6 Nov 2026", "32.768 (8d)", "8d",
+             "PASS" if f"6 Nov 2026's {TWD_PER_USD:.3f} NT$ per US$" in for3e and
+             f"NT$ per US$ within {100 * TWD_BAND:.1f}%" in printed and f"{TWD_PER_USD:.3f}" not in printed
+             else "FAIL")
     m = re.search(r"\(NT\$ per US\$ from ([\d.]+) to\s+([\d.]+) / 1\.10 = ([\d.]+)\)", s8j)
     cmp("Table 3", "Row 7: the trigger's level, NT$ per US$ for 10% more US dollars (8j)", round(TWD_STRONG, 2),
         float(m.group(3)) if m else None, "8j", tol=0.0001)
     cmp("Table 3", "Row 7: how far below its level (%), 1 - 29.79 / 32.768", round(100 * TWD_BAND, 1),
         round(100 * (1 - float(m.group(3)) / float(m.group(2))), 1) if m else None, "8j", tol=0.0001)
+    # Tue 17 Nov (lay reader 3): the table prints the move once, "Taiwan dollar 10% stronger", with $11,500 (10% of
+    # $115,000) showing 8j's reading; the quote's 9.1% and 29.79 are in the 3e list only
     note("Table 3", "Row 7: one reading of \"10% stronger\", 8j's (never NT$ per US$ down 10%, 29.49)",
-         f"{TWD_STRONG:.2f}", "29.79 (8j)", "8j", "PASS" if f"({TWD_STRONG:.2f} from {TWD_PER_USD:.3f})" in printed and
-         f"{100 * TWD_BAND:.1f}% below its level when the range is stated" in printed and
-         f"{TWD_PER_USD * (1 - TWD_TEST):.2f}" not in printed else "FAIL")
+         f"{TWD_STRONG:.2f}", "29.79 (8j)", "8j", "PASS" if f"is {TWD_STRONG:.2f}, {100 * TWD_TEST:.0f}% more US dollars"
+         in for3e and f"Taiwan dollar {100 * TWD_TEST:.0f}% stronger than in 2031: "
+         f"{dollars(TWD_NEED)} more on {dollars(CONTRIBUTION_FWD)}" in printed
+         and abs(TWD_NEED - TWD_TEST * CONTRIBUTION_FWD) < 0.5
+         and f"{TWD_PER_USD * (1 - TWD_TEST):.2f}" not in printed else "FAIL")
+    note("Table 3", "Row 7: one percentage for one move in the table (9.1% and 32.768 in the 3e list only)",
+         f"{100 * TWD_TEST:.0f}%", "no 9.1% or 32.768 printed", "lay reader 3, Tue 17 Nov",
+         "PASS" if f"{100 * TWD_BAND:.1f}%" not in printed and f"{TWD_PER_USD:.3f}" not in printed
+         and f"{100 * TWD_BAND:.1f}% below its level when the range is stated" in for3e else "FAIL")
     note("Table 3", "Every dollar figure printed is checked", ", ".join(sorted(found)), ", ".join(sorted(allowed)),
          "this check", "PASS" if found <= allowed else "FAIL")
+    found3e = set(re.findall(r"(?<![A-Z])\$[\d,]+", for3e))
+    note("Table 3", "3e list: every dollar figure is checked", ", ".join(sorted(found3e)) or "none",
+         ", ".join(sorted(allowed | {"$50,000"})), "this check", "PASS" if found3e <= allowed | {"$50,000"} else "FAIL")
+    # Tue 17 Nov (numbers owner; bond desk 4, M6): row 5's trade-day limit is the register's (NUMBERS section 4)
+    s4 = _section(md, "## 4.", "\n## 5.")
+    m = re.search(r"A trade-day limit for Table 3 row 5: limit orders within ([\d.]+)% of net asset value", s4)
+    cmp("Table 3", "Row 5: the trade-day limit, % of net asset value for each fund leg", 100 * TRADE_LIMIT,
+        float(m.group(1)) if m else None, "4", tol=0.0001)
+    lim_ok = f"prices within {100 * TRADE_LIMIT:.1f}% of net asset value" in printed and "[x]" not in printed \
+        and "[x]" not in for3e and "25-basis-point curve test" in for3e and "25 basis points" in md
+    note("Table 3", "Row 5: the limit printed for fund legs only (bonds keep 8m's 25-basis-point curve test)",
+         f"{100 * TRADE_LIMIT:.1f}%", "NUMBERS 4; 8m" if lim_ok else None, "4; 8m", "PASS" if lim_ok else "FAIL")
     nums = set(re.findall(r"(?<![\w$,.])\d+(?:\.\d+)?%?", printed.replace("NT$", "NT ").replace("US$", "US ")))
     known = {"2028", "31", "2027", "4", "3", "17", "2037", "10", "14", "2031", "2033", "2", "1", "1.5%", "5.0%",
              "9", "6", "2036", IBTA_SLACK,
              f"{FALL_TAKES_WHOLE_DEPOSIT:.2f}", f"{TWD_PER_USD:.3f}", "10%", "2026", f"{100 * CCI_5Y:.2f}%", "0.5%",
              f"{100 * TWD_BAND:.1f}%", f"{TWD_STRONG:.2f}", f"{100 * FUND_FEE:.2f}%"}   # Mon 16 Nov night: row 7, row 4
-    ok = "less 0.5%" in md and "from its 0.5%" in printed      # row 4: the floor's swap from the range rule's 0.5% cut
+    # row 4: the floor's swap from the range rule's 0.5% cut; Tue 17 Nov (coherence reader 7, M3): the 0.5% is tied to
+    # the range only, never to the payments, until the Wed 18 Nov re-size
+    ok = "less 0.5%" in md and "or for the range its 0.5% margin" in printed and \
+        "range's from its 0.5%" not in printed and "payment from its 0.5%" not in printed
     note("Table 3", "Row 4: the floor's 0.5% margin is the range rule's cut (NUMBERS 4: each end less 0.5%)",
          "0.5% margin", "less 0.5%" if "less 0.5%" in md else None, "4", "PASS" if ok else "FAIL")
+    # Tue 17 Nov (lay reader 3): plain words for "X-date" in the cells, defined in the note; "Never" says what it means
+    ok = "X-date" not in printed and "deadline within a month of a cash date" in printed and \
+        "Never: a sale of shares." in printed and "Never: VT." not in printed
+    note("Table 3", "Rows 3 and 4: plain words (no \"X-date\" in a cell; \"Never: VT\" said in full)",
+         "debt-limit deadline; a sale of shares", "lay reader 3", "lay reader 3, Tue 17 Nov",
+         "PASS" if ok else "FAIL")
+    # Tue 17 Nov (coherence reader 7, M13): the building-cost band's source and date are the register's (8d)
+    ok = "DGBAS construction cost index" in s8d and "to October 2026" in s8d1 and \
+        CCI_SOURCE == "DGBAS construction cost index, to October 2026"
+    note("Table 3", "Note: the building-cost band's source and date (8d)", CCI_SOURCE,
+         "DGBAS, October 2026 (8d)" if ok else None, "8d; card Q103", "PASS" if ok else "FAIL")
     # Sat 14 Nov (bond reader 2): row 4 watches the bill fund's fee (NUMBERS 0: 0.15% a year, its fund UNVERIFIED) and
     # swaps into a Treasury maturing by 15 December (the iBonds' end, 15 December, card Q36)
     fee_ok = "0.15% a year" in md and abs(WAIT_FEE - 0.0015) < 1e-12
@@ -1215,23 +1357,28 @@ def check(verbose=True):
     with open(WN_TXT) as fh:
         wn = fh.read()
     wn_ok = "no individual Treasury maturing in 2033" in wn and "no individual Treasury maturing in 2035" in wn
-    swap_ok = "Treasury due by" not in printed and "sold for an earlier iBond fund or that ETF" in printed and \
-        "early cash waits in the short-term Treasury ETF" in printed
-    note("Table 3", "Row 4: a fund's swap names the class, never an individual Treasury (WInS lists none for 2033, 2035)",
-         "an earlier iBond fund or that ETF", "WN l.20, l.22" if wn_ok else None, "WN; card Q36",
-         "PASS" if wn_ok and swap_ok else "FAIL")
+    # Tue 17 Nov: the table prints "Changes: the fund"; the class and one action per event are in the 3e list
+    swap_ok = "Treasury due by" not in printed and \
+        "Changes: the fund; any gap met from the extra Treasuries" in printed \
+        and "sold for an earlier iBond fund or the short-term Treasury ETF" in for3e and \
+        "early end's cash waits in the short-term Treasury ETF" in for3e and "a dearer waiting ETF" in for3e
+    note("Table 3", "Row 4: a fund's swap names the class, never an individual Treasury (WInS lists none for 2033, "
+         "2035); one action per event (3e list)", "an earlier iBond fund or the short-term Treasury ETF",
+         "WN l.20, l.22" if wn_ok else None, "WN; card Q36; bond desk 4, M4", "PASS" if wn_ok and swap_ok else "FAIL")
     # Mon 16 Nov night (coherence reader 6, L1): the waiting fund's frozen name (TNA l.5, WN l.17)
     with open(TNA_TXT) as fh:
         tna = fh.read()
+    # Tue 17 Nov: the signal reads "Treasury fund notices" (VT out); the waiting fund is named in the 3e list only,
+    # by its frozen name, and no exhibit text calls it a bill fund
     name_ok = "short-term Treasury ETF" in tna and "short-term Treasury ETF" in wn and \
-        "iBond and short-term Treasury ETF notices" in printed and "bill fund" not in printed and \
-        "Treasury-bill" not in printed
+        "Treasury fund notices" in printed and "the short-term Treasury ETF, where waiting cash sits" in for3e and \
+        "bill fund" not in printed and "Treasury-bill" not in printed and "Treasury-bill" not in for3e
     note("Table 3", "Row 4: the waiting fund's name is the frozen notes' (TNA l.5, WN l.17)", "short-term Treasury ETF",
          "found in TNA and WN" if name_ok else None, "TNA; WN", "PASS" if name_ok else "FAIL")
     note("Table 3", "Row 4: a dated missing-notice trigger at the end of the notice window (September to October)",
          NOTICE_BY, "September to October (8h)", "8h; bond desk 4, M5",
-         "PASS" if sep_ok and NOTICE_BY == "31 October" and f"no ending notice by {NOTICE_BY} of the final year"
-         in printed else "FAIL")
+         "PASS" if sep_ok and NOTICE_BY == "31 October" and f"Notice by {NOTICE_BY} of a fund's final year" in printed
+         and "no notice by then" in printed else "FAIL")
     known |= {"0.15%", "15"}
     note("Table 3", "Every other number printed is a checked date or figure", ", ".join(sorted(nums - known)) or "none",
          "dates and figures above", "this check", "PASS" if nums <= known else "FAIL")
@@ -1239,7 +1386,7 @@ def check(verbose=True):
     banned3 = ("backstop", "gift", "overflow", "paths", "forward rates", "half kept", "kept half", "moved half", "rung",
                "completion", "model", "cap ", "capped", "excess", "stated ends", "escrow", "reserve",
                "interest earns nothing")
-    printed3 = " ".join([printed] + TABLE3_HEADER + list(TABLE3_LEVELS.values())).lower()
+    printed3 = " ".join([printed, for3e] + TABLE3_HEADER + list(TABLE3_LEVELS.values())).lower()   # Tue 17 Nov: + list
     note("Table 3", "No word WORDS.md bans", ", ".join(b for b in banned3 if b in printed3) or "none", "none",
          "WORDS.md", "PASS" if not any(b in printed3 for b in banned3) else "FAIL")
 

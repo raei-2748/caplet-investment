@@ -1,0 +1,25 @@
+year,min_wage_monthly_NTD,min_wage_hourly_NTD,arts_avg_regular_monthly_NTD,arts_median_regular_monthly_NTD,cpi_yoy_pct,cpi_rent_index_2021eq100,notes
+2006,,,28503,,,,
+2007,17280,95,28838,,,,"minimum from 1 Jul 2007"
+2008,17280,95,29602,,,,
+2009,17280,95,29216,,,,
+2010,17280,95,29925,,,,
+2011,17880,98,30388,,,,
+2012,18780,103,31740,,,,
+2013,19047,109,32981,,,,"monthly from 1 Apr 2013; hourly from 1 Jan 2013"
+2014,19273,115,33231,,,94.10,"monthly from 1 Jul 2014; hourly from 1 Jan 2014"
+2015,20008,120,33738,,,94.93,"from 1 Jul 2015"
+2016,20008,126,34275,,1.40,95.71,"hourly 126 from 1 Oct 2016"
+2017,21009,133,35041,,0.62,96.59,
+2018,22000,140,36144,,1.36,97.42,
+2019,23100,150,36957,,0.55,98.30,
+2020,23800,158,37737,30196,-0.23,99.18,
+2021,24000,160,36707,30733,1.97,100.00,
+2022,25250,168,37826,,2.95,101.68,
+2023,26400,176,38148,,2.49,103.88,
+2024,27470,183,39037,,2.18,106.42,
+2025,28590,190,40634,32810,1.66,108.87,"arts 2025 labour compensation NT$604,258 a year (regular 487,608; irregular 42,744; non-wage 73,906)"
+2026,29500,196,,33143,2.07,,"arts median is Jan-Jul 2026 (DGBAS 11507); CPI 2026 is DGBAS forecast of 14 Aug 2026 as cited by the MOL research team"
+2027,30900,205,,,,,"decided 24 Sep 2026; Executive Yuan approved; announced 16 Oct 2026; in force 1 Jan 2027"
+# Sources (read 17 Nov 2026, Sydney): minimum wage 2016-2027 = MOL minimum wage research report Table 1-1 (Aug 2026) and Executive Yuan 14 Oct 2026; 2015 level (from 1 Jul 2015) = MOL Taiwan Labour Quarterly No. 76 Table 1; arts average regular = DGBAS Yearbook of Earnings and Productivity Statistics 2025 Table 19 (cont. 3 end); arts medians = DGBAS release 11412 Table 7 (2020-2025) and 11507 (Jan-Jul 2026); CPI yoy 2016-2025 = MOL research report Figure 1-1 (DGBAS data); rent index 2014-2024 = housing-index.com from DGBAS (secondary), 2025 = DGBAS Dec 2025 price release
+# 2007-2014 minimum wage rows: UNVERIFIED at a primary source in this run (secondary tables only; MOL's history page returned only its 1984-1989 lines); context only, not used in any card figure

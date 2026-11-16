@@ -223,7 +223,7 @@ Galesic, Garcia-Retamero and Gigerenzer (2009) on icon arrays; Padilla, Kay and 
 
 ## Next
 
-- **Mon 16 Nov evening (first):** Table 3 is 27.9 lines against a 23.5-line Letter page after tonight's precision fixes (row 4, the fund-event watch, alone takes 12 lines; 1.4 lines over even with no note). Cut it before any reader sees it: row 4 to its signal and action in Wharton's words, its window and the earlier-fund class to the note or 3e; `../exhibits/build_exhibits.py` now measures and warns.
+- ~~**Mon 16 Nov evening (first):** Table 3 is 27.9 lines against a 23.5-line Letter page after tonight's precision fixes (row 4, the fund-event watch, alone takes 12 lines; 1.4 lines over even with no note). Cut it before any reader sees it: row 4 to its signal and action in Wharton's words, its window and the earlier-fund class to the note or 3e; `../exhibits/build_exhibits.py` now measures and warns.~~ **Done Tue 17 Nov** (`../exhibits/REBUILD_2026-11-17.md`): 21.4 lines with its note, one page between two prose lines (18.4 without); row 4 from 10 printed lines to 4 with all its watched events; row 5's limit is NUMBERS 4's 0.5%; every cut detail in the "For 3e's notes" list under Table 3 in `tables.md`; 433 checks, 0 FAIL; charts 37 of 37. Next: a bond reader on rows 4 and 5, and the stranger test on the cut table.
 
 - Done Mon 16 Nov: Q14's cards (`../research/cards/Q14a_showing_work_graphics.md`, `Q14b_showing_work_plain_english.md`)
   read against these designs (section 8).

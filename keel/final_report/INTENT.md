@@ -8,7 +8,7 @@ Planning notes, not report text. No sentence here is meant to be pasted into the
 
 Money Laura has promised is owned in Treasuries before she promises it; only money not yet promised takes market risk
 (IPS l.11's own words: "only money you haven't promised yet goes into shares"; never "only money promised to no one",
-which is l.15's phrase for the half kept, while the half moved before 2031 carries share risk until then: third
+which is l.15's phrase for the half kept, while the shares moved into Treasuries before the 2031 meetings carry share risk until then (coherence reader 7, Tue 17 Nov, LOW 7): third
 coherence reader, Fri 13 Nov evening). The IPS set this rule (the payments in Treasuries; the bottom of the facility contribution a Treasury fund, the floor; half the shares, the world
 share fund VT bought with the 2028 deposit, moved into Treasuries before she names a figure; the other half promised
 to no one). Say once which shares "half the shares" means (fresh reader, Wed 11 Nov). The report shows that the WInS book put the rule
@@ -20,18 +20,20 @@ the holdings table make sense.
 
 ## What it means to a co-sponsor (panel 1, the funder judge)
 
-Ten years of the residency's operations are owned in Treasuries before the doors open, so the facility is the only
-thing Laura asks anyone to share. It leads 3.0 and the passage in 3d. (The note that no other founder can say that is
+Ten years of her operating commitment are owned in Treasuries before the doors open: a base, not the residency's
+whole budget (coherence reader 7, Tue 17 Nov, M8; SKELETON H9-119: never "ten years of operations owned" or "the facility is the only
+ask", since 3d also asks co-sponsors for yearly programme money and the case, l.85-86, lets operating support
+beyond Laura's commitment come from co-sponsors). It leads 3.0 and the passage in 3d. (The note that no other founder can say that is
 Keel's belief, untestable, and stays out of the report: panel 2's professor, Thu 12 Nov.)
 
 ## The argument in three sentences (EXPECTATIONS 2.9: the strategy, its biggest strength, its main trade-off)
 
-1. The strategy: ten Treasuries pay the ten operating payments; the 2028 deposit completes them, then buys a Treasury
-   fund maturing late 2032 for the bottom of the facility contribution and a world share fund for the top and for flexibility.
+1. The strategy: ten Treasuries pay the ten operating payments; the 2028 deposit completes them (the top-up) and buys the
+   extra Treasuries, then a Treasury fund maturing late 2032 (coherence reader 7, Tue 17 Nov, LOW 7) for the bottom of the facility contribution and a world share fund for the top and for flexibility.
 2. Its biggest strength: every promise Laura makes, to the residency in 2033 and to co-sponsors in 2031, is backed by
    money she already owns, so the confidence she states comes from structure rather than from a forecast.
-3. Its main trade-off: a lower certain contribution than an all-Treasury plan at the bottom, and a smaller cushion in the years
-   shares fall, in exchange for a share of world growth, half of which is never promised to anyone.
+3. Its main trade-off: a lower certain contribution than an all-Treasury plan at the bottom, and less flexibility for her in the years
+   shares fall (coherence reader 7, Tue 17 Nov, LOW 2: never "cushion"), in exchange for a share of world growth, half of which is never promised to anyone.
 
 ## Six things a judge should be able to say after the first page (version 2)
 
@@ -55,16 +57,17 @@ Keel's belief, untestable, and stays out of the report: panel 2's professor, Thu
    since l.13's completion applies only if yields fall and the $35,894 is bought at every yield). Their subject is the risk the Trading Notes already named,
    reinvestment-rate risk (TNA l.5; WN l.24, "reinvested coupons funding part of each"): priced at today's rates, the
    interest each bond pays along the way, reinvested, would have fallen short more often than not for start dates
-   since 1981 and rarely before (585 starting months since 1962); when short, about $16,000 at the median, and about
+   since 1981 and far less often before (585 starting months since 1962; coherence reader 7, Tue 17 Nov, LOW 5); when short, about $16,000 at the median, and about
    $35,000 at 1 in 20 of all starting months (NUMBERS 2 as corrected Mon 16 Nov; never a bare 55.6%); the extra
    Treasuries take that risk out in January 2028, sized in advance (coherence reader 6, Mon 16 Nov, H1 and M8: struck
    "which l.13 promises ("our plan isn't dependent on yields staying put")", which is the top-up's). l.11 is the test they meet, never their
    justification (never "justified by l.11", "the ten as bought would have fallen short", or "could have been met only
    from the shares": each tells a judge the submitted plan failed; second and third coherence readers, Fri 13 Nov).
-   Most of the extra Treasuries come back to Laura if rates hold (worth about $45,500 in 1 January 2033 money with
-   their interest, hers as the payments stop needing it and all of it by the last payment in 2042, NUMBERS 8k; never
-   "back by 2033", lay reader Fri 13 Nov evening). The report never offers a definition of high certainty of its own:
-   l.11 is the definition (CANON A4). From 2033 the Treasuries are the operating reserve. (Changed Wed 11 Nov evening,
+   What comes back from the extra Treasuries, in one wording everywhere (coherence reader 7, Tue 17 Nov, M11): worth about $45,500 in 1 January 2033 money if rates hold, all of it Laura's by the last payment in 2042; if cash waiting earns nothing, none
+   (NUMBERS 8k; never "most", never "back by 2033", lay reader Fri 13 Nov evening). The report never offers a definition of high certainty of its own:
+   l.11 is the definition (CANON A4). The operating reserve is defined at first use as the money set aside for the
+   ten payments (SKELETON 3a; never "from 2033 the Treasuries are the operating reserve": coherence reader 6, L8;
+   coherence reader 7, Tue 17 Nov, LOW 7). (Changed Wed 11 Nov evening,
    card Q31 and two readers: the funded ratio, about 111%, is no longer the headline; it invited "why is the range so
    small?" and a lay reader followed it "only by faith". It goes to Figure 1's note with its reason. "Escrow verifier's
    standard" is dropped as a label: MSRB's name for the test is "full cash" or "gross" refunding, named once in 3a for
@@ -84,7 +87,7 @@ Keel's belief, untestable, and stays out of the report: panel 2's professor, Thu
    further 0.1% (bond desk 4, Mon 16 Nov, H1; never "a few hundred dollars"; the coherence reader: this condition must
    travel with the confidence). (Notes, not words for the report: the written
    rule, the cap and the two exceptions are in SKELETON 3c and cards Q19, Q4c and Q26; the payments' standard costs the
-   range about $15,000 and about $45,500 of the extra Treasuries comes back to Laura if forward rates hold (coherence reader 6, Mon 16 Nov, H1: never "of the top-up"), NUMBERS 4, 8k; the real
+   range about $15,000 at each end against Mon 9 Nov's design, whose margin was sized for rates 3 points lower (NUMBERS l.220; coherence reader 7, Tue 17 Nov, LOW 7), and what comes back from the extra Treasuries is worth about $45,500 in 1 January 2033 money if rates hold, all of it Laura's by the last payment in 2042; if cash waiting earns nothing, none (M11) (coherence reader 6, Mon 16 Nov, H1: never "of the top-up"), NUMBERS 4, 8k; the real
    uncertainty is earlier, which range she will be able to announce. Shortened Wed 11 Nov after a fresh reader scored
    the opening idea 3 for clarity.)
 4. Half the shares are promised to no one, for the IPS's three uses in the IPS's own order (overruns, a stronger Taiwan
@@ -119,7 +122,7 @@ Keel's belief, untestable, and stays out of the report: panel 2's professor, Thu
    four real events from the blind ranking, each saying what the team did and when, with names where the team's own record gives them (Darren's "copout", 5 Oct; Eric asleep before the 00:30 open, 7 Oct; Ray placing or cancelling every order from 7 Oct), analysis and decisions as "we", never credited to a named student, the AI's share never needed for the point to land, never a false attribution, and nothing that was not a person described as one (no "readers" or "blind test"; people in the room, Mon 16 Nov evening, `research/experience/PEOPLE_IN_THE_ROOM_2026-11-16.md`) (Book 18; amended Mon 16 Nov evening after panel 3's finalist found this line and SKELETON 3f at odds), each ending on what changed or what was tested and kept,
    with a number where the register has one; one of them a success.
 5. **It is too dense to follow at speed.** Guard: the stack test on the first page; word budgets per part
-   (`SKELETON.md`: about 2,700 words of prose in all); cut whole ideas, never squeeze sentences (EXPECTATIONS 3.2).
+   (`SKELETON.md`: about 2,550 words of prose in all, its page arithmetic since the density cut; coherence reader 7, Tue 17 Nov, LOW 7); cut whole ideas, never squeeze sentences (EXPECTATIONS 3.2).
 6. **It ignores what the case names.** Guard: liquidity, inflation, the Taiwan dollar and a recession that hits shares
    and rates together each appear once, with a number (panel 1: all three were thin in version 1).
 7. **It reads as the IPS changed** (panel 2's finalist judge, Thu 12 Nov: "the zero-interest standard was set after the

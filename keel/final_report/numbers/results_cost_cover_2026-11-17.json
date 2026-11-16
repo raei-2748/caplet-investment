@@ -1,0 +1,521 @@
+{
+ "run": "Tue 17 Nov 2026 (Sydney), numbers owner",
+ "rule": "Sun 15 Nov 2026 evening: fund fee charged from each trade day (price = gross holdings' value); distributions wait in the Treasury-bill ETF at its 0.15% fee; haircut 0.5%; rounded down to $5,000",
+ "design": "H_plain",
+ "A_bond_desk_4": {
+  "central": {
+   "floor_zero": 98874.23058785987,
+   "moved_zero": 19791.417135764772,
+   "both_zero": 118665.64772362464,
+   "bottom_raw": 98379.85943492057,
+   "top_raw": 118072.31948500652,
+   "stated_bottom": 95000.0,
+   "stated_top": 115000.0,
+   "funds_pay_modelled": 123475.55754783844,
+   "top_haircut": 593.3282386181236,
+   "top_rounding": 3072.3194850065192,
+   "bottom_haircut": 494.371152939304,
+   "bottom_rounding": 3379.859434920567,
+   "cover_top_zero_interest": 0.030890555050624546,
+   "cover_top_modelled_payout": 0.06864158150939903,
+   "cover_bottom_floor_alone_zero": 0.03918342084510307,
+   "cover_bottom_both_funds_zero": 0.1994313280852985,
+   "cover_bottom_modelled_payout": 0.2306169586381992,
+   "per_0.1pct_of_both_funds_zero": 118.66564772362464
+  },
+  "house": {
+   "paths": 200000,
+   "by_cost": {
+    "0.0050": {
+     "zero_interest_top_missed": 0,
+     "zero_interest_top_missed_share": 0.0,
+     "zero_interest_largest_gap_top": 0.0,
+     "zero_interest_below_bottom": 0,
+     "modelled_top_missed": 0,
+     "modelled_top_missed_share": 0.0,
+     "modelled_largest_gap_top": 0.0,
+     "modelled_below_bottom": 0
+    },
+    "0.0075": {
+     "zero_interest_top_missed": 12012,
+     "zero_interest_top_missed_share": 0.06006,
+     "zero_interest_largest_gap_top": 401.9345094343007,
+     "zero_interest_below_bottom": 3,
+     "modelled_top_missed": 0,
+     "modelled_top_missed_share": 0.0,
+     "modelled_largest_gap_top": 0.0,
+     "modelled_below_bottom": 0
+    },
+    "0.0100": {
+     "zero_interest_top_missed": 24093,
+     "zero_interest_top_missed_share": 0.120465,
+     "zero_interest_largest_gap_top": 815.3993674652011,
+     "zero_interest_below_bottom": 4,
+     "modelled_top_missed": 0,
+     "modelled_top_missed_share": 0.0,
+     "modelled_largest_gap_top": 0.0,
+     "modelled_below_bottom": 0
+    },
+    "0.0200": {
+     "zero_interest_top_missed": 72087,
+     "zero_interest_top_missed_share": 0.360435,
+     "zero_interest_largest_gap_top": 2523.3904867369856,
+     "zero_interest_below_bottom": 15,
+     "modelled_top_missed": 6,
+     "modelled_top_missed_share": 3e-05,
+     "modelled_largest_gap_top": 409.17977471940685,
+     "modelled_below_bottom": 0
+    },
+    "0.0300": {
+     "zero_interest_top_missed": 120177,
+     "zero_interest_top_missed_share": 0.600885,
+     "zero_interest_largest_gap_top": 4283.355889933562,
+     "zero_interest_below_bottom": 45,
+     "modelled_top_missed": 469,
+     "modelled_top_missed_share": 0.002345,
+     "modelled_largest_gap_top": 1272.351409671246,
+     "modelled_below_bottom": 5
+    }
+   },
+   "cover_zero": {
+    "min": 0.005000156899695352,
+    "p5": 0.007072854242539706,
+    "median": 0.025793799670196738
+   },
+   "cover_modelled": {
+    "min": 0.015259578070562663,
+    "p5": 0.04182074815142873,
+    "median": 0.06449869748644876,
+    "argmin_floor_money": 75001.0,
+    "argmin_most_binds": true
+   },
+   "never_printed": {
+    "contribution_in_95k_115k": 0.512395,
+    "stated_range_exactly_95k_115k": 0.05458,
+    "contribution_at_least_95k": 0.972735,
+    "note": "check figures from today, never printed (bond desk 4, M1): the certainty belongs to the range stated in 2031"
+   },
+   "printable_instead": {
+    "stated_bottom_at_least_95k": 0.6177,
+    "stated_top_at_least_115k": 0.597885
+   }
+  },
+  "payouts_before_end": {
+   "floor": {
+    "paid_before_end_net_of_bill_fee": 15568.694698409794,
+    "paid_before_end_at_face": 15637.691297231082,
+    "final_flow": 83305.5358894501,
+    "count": 9,
+    "first": "2028-01-04",
+    "last": "2032-01-04"
+   },
+   "moved_half": {
+    "paid_before_end_net_of_bill_fee": 1161.9267568060568,
+    "paid_before_end_at_face": 1164.4537542795024,
+    "final_flow": 18629.49037895872,
+    "count": 3,
+    "first": "2031-01-04",
+    "last": "2032-01-04"
+   },
+   "note": "the engine's holdings pay semiannual coupons (the real fund pays monthly); the coupon at the holdings' maturity (4 Jul 2032) is in the final flow, as check3"
+  }
+ },
+ "B_payments_exposure": {
+  "0.1pct": {
+   "x_by_year": {
+    "2033": 0.001,
+    "2034": 0.001,
+    "2035": 0.001,
+    "2036": 0.001,
+    "2037": 0.001
+   },
+   "cost_share_x_payout": {
+    "2033": {
+     "units": 37907.61602562171,
+     "pays_zero": 47412.56643930151,
+     "pays_zero_and_bill_fee_to_payment": 47337.65122112597,
+     "cost": 47.412566439301514
+    },
+    "2034": {
+     "units": 36065.4384990294,
+     "pays_zero": 46820.26949362256,
+     "pays_zero_and_bill_fee_to_payment": 46730.74909073699,
+     "cost": 46.82026949362256
+    },
+    "2035": {
+     "units": 34299.815917269785,
+     "pays_zero": 46244.090553684735,
+     "pays_zero_and_bill_fee_to_payment": 46141.81806469207,
+     "cost": 46.244090553684735
+    },
+    "2036": {
+     "units": 33007.861749256605,
+     "pays_zero": 46135.59604930968,
+     "pays_zero_and_bill_fee_to_payment": 46016.77231501507,
+     "cost": 46.13559604930968
+    },
+    "2037": {
+     "units": 35022.91625339575,
+     "pays_zero": 50547.31786229195,
+     "pays_zero_and_bill_fee_to_payment": 50391.26480164602,
+     "cost": 50.547317862291955
+    }
+   },
+   "cost_total": 237.15984039821046,
+   "forwards": {
+    "short_by_year": {},
+    "short_total": 0.0,
+    "left_after_2042": 73743.73173647036,
+    "left_after_2042_without_the_cost": 74122.56759813958
+   },
+   "zero": {
+    "short_by_year": {},
+    "short_total": 0.0,
+    "left_after_2042": 1177.1100842476735,
+    "left_after_2042_without_the_cost": 1414.2699246458724
+   },
+   "zero_and_bill_fee": {
+    "short_by_year": {
+     "2036": 187.54184621410968,
+     "2037": 48.65762129703944
+    },
+    "short_total": 236.19946751114912,
+    "left_after_2042": 0.0,
+    "left_after_2042_without_the_cost": 7.275957614183426e-12
+   },
+   "flat_net_rate_needed": -0.0008711981208170504,
+   "flat_gross_rate_needed_before_bill_fee": 0.0006288018791829497
+  },
+  "0.5pct": {
+   "x_by_year": {
+    "2033": 0.005,
+    "2034": 0.005,
+    "2035": 0.005,
+    "2036": 0.005,
+    "2037": 0.005
+   },
+   "cost_share_x_payout": {
+    "2033": {
+     "units": 37907.61602562171,
+     "pays_zero": 47412.56643930151,
+     "pays_zero_and_bill_fee_to_payment": 47337.65122112597,
+     "cost": 237.06283219650754
+    },
+    "2034": {
+     "units": 36065.4384990294,
+     "pays_zero": 46820.26949362256,
+     "pays_zero_and_bill_fee_to_payment": 46730.74909073699,
+     "cost": 234.1013474681128
+    },
+    "2035": {
+     "units": 34299.815917269785,
+     "pays_zero": 46244.090553684735,
+     "pays_zero_and_bill_fee_to_payment": 46141.81806469207,
+     "cost": 231.22045276842368
+    },
+    "2036": {
+     "units": 33007.861749256605,
+     "pays_zero": 46135.59604930968,
+     "pays_zero_and_bill_fee_to_payment": 46016.77231501507,
+     "cost": 230.6779802465484
+    },
+    "2037": {
+     "units": 35022.91625339575,
+     "pays_zero": 50547.31786229195,
+     "pays_zero_and_bill_fee_to_payment": 50391.26480164602,
+     "cost": 252.73658931145977
+    }
+   },
+   "cost_total": 1185.799201991052,
+   "forwards": {
+    "short_by_year": {},
+    "short_total": 0.0,
+    "left_after_2042": 72228.38828979363,
+    "left_after_2042_without_the_cost": 74122.56759813958
+   },
+   "zero": {
+    "short_by_year": {
+     "2036": 492.30480505353626,
+     "2037": 101.20845573906263
+    },
+    "short_total": 593.5132607925989,
+    "left_after_2042": 821.983983447426,
+    "left_after_2042_without_the_cost": 1414.2699246458724
+   },
+   "zero_and_bill_fee": {
+    "short_by_year": {
+     "2036": 937.7092310705193,
+     "2037": 243.2881064852554
+    },
+    "short_total": 1180.9973375557747,
+    "left_after_2042": 0.0,
+    "left_after_2042_without_the_cost": 7.275957614183426e-12
+   },
+   "flat_net_rate_needed": 0.0016405054531834198,
+   "flat_gross_rate_needed_before_bill_fee": 0.0031405054531834196
+  },
+  "0.03pt_a_year": {
+   "x_by_year": {
+    "2033": 0.001786447638603696,
+    "2034": 0.002086242299794661,
+    "2035": 0.002386036960985626,
+    "2036": 0.0026858316221765916,
+    "2037": 0.0029864476386036957
+   },
+   "cost_share_x_payout": {
+    "2033": {
+     "units": 37907.61602562171,
+     "pays_zero": 47412.56643930151,
+     "pays_zero_and_bill_fee_to_payment": 47337.65122112597,
+     "cost": 84.70006735563103
+    },
+    "2034": {
+     "units": 36065.4384990294,
+     "pays_zero": 46820.26949362256,
+     "pays_zero_and_bill_fee_to_payment": 46730.74909073699,
+     "cost": 97.67842670538094
+    },
+    "2035": {
+     "units": 34299.815917269785,
+     "pays_zero": 46244.090553684735,
+     "pays_zero_and_bill_fee_to_payment": 46141.81806469207,
+     "cost": 110.34010928825802
+    },
+    "2036": {
+     "units": 33007.861749256605,
+     "pays_zero": 46135.59604930968,
+     "pays_zero_and_bill_fee_to_payment": 46016.77231501507,
+     "cost": 123.91244277720136
+    },
+    "2037": {
+     "units": 35022.91625339575,
+     "pays_zero": 50547.31786229195,
+     "pays_zero_and_bill_fee_to_payment": 50391.26480164602,
+     "cost": 150.9569180675922
+    }
+   },
+   "cost_total": 567.5879641940636,
+   "forwards": {
+    "short_by_year": {},
+    "short_total": 0.0,
+    "left_after_2042": 73224.386533334,
+    "left_after_2042_without_the_cost": 74122.56759813958
+   },
+   "zero": {
+    "short_by_year": {},
+    "short_total": 0.0,
+    "left_after_2042": 846.6819604518168,
+    "left_after_2042_without_the_cost": 1414.2699246458724
+   },
+   "zero_and_bill_fee": {
+    "short_by_year": {
+     "2036": 420.0963313778484,
+     "2037": 145.3134382226417
+    },
+    "short_total": 565.4097696004901,
+    "left_after_2042": 0.0,
+    "left_after_2042_without_the_cost": 7.275957614183426e-12
+   },
+   "flat_net_rate_needed": -6.250630216987917e-05,
+   "flat_gross_rate_needed_before_bill_fee": 0.001437493697830121
+  },
+  "years_to_end_from_1jan2027": {
+   "2033": 5.95482546201232,
+   "2034": 6.954140999315538,
+   "2035": 7.953456536618754,
+   "2036": 8.952772073921972,
+   "2037": 9.95482546201232
+  },
+  "largest_flat_cost_covered_zero_interest_no_bill_fee": 0.002386392905872003,
+  "five_funds_pay_zero": 237159.84039821045
+ },
+ "C_trade_day_limit": {
+  "note": "every fund leg filled p off net asset value against Laura; stated ends worked out after the trade on units x net asset value (NUMBERS 0), so ownership holds by construction and only the stated figures can fall",
+  "0.0025": {
+   "extra_top_up_jan2028": 465.42251231332,
+   "central_all_legs": {
+    "bottom_raw": 97725.68950624569,
+    "top_raw": 117238.30214265168,
+    "bottom": 95000.0,
+    "top": 115000.0,
+    "bottom_raw_change": -654.1699286748772,
+    "top_raw_change": -834.0173423548404,
+    "floor_money": 81548.03502949663
+   },
+   "central_range_legs_only": {
+    "bottom_raw_change": -245.33630781773536,
+    "top_raw_change": -343.55306617230235
+   },
+   "house_range_legs_only": {
+    "bottom_steps_down": 0.05001,
+    "top_steps_down": 0.069795,
+    "either_steps_down": 0.116005,
+    "bottom_1in20_median_1in20": [
+     [
+      85000.0,
+      95000.0,
+      115000.0
+     ],
+     [
+      80000.0,
+      95000.0,
+      115000.0
+     ]
+    ],
+    "top_1in20_median_1in20": [
+     [
+      95000.0,
+      115000.0,
+      140000.0
+     ],
+     [
+      95000.0,
+      115000.0,
+      140000.0
+     ]
+    ]
+   }
+  },
+  "0.0050": {
+   "extra_top_up_jan2028": 930.84502462664,
+   "central_all_legs": {
+    "bottom_raw": 97074.77415433041,
+    "top_raw": 116408.84229867443,
+    "bottom": 95000.0,
+    "top": 115000.0,
+    "bottom_raw_change": -1305.0852805901523,
+    "top_raw_change": -1663.477186332093,
+    "floor_money": 81206.88032797098
+   },
+   "central_range_legs_only": {
+    "bottom_raw_change": -489.4520369896345,
+    "top_raw_change": -685.3969131098856
+   },
+   "house_range_legs_only": {
+    "bottom_steps_down": 0.099535,
+    "top_steps_down": 0.13964,
+    "either_steps_down": 0.22516,
+    "bottom_1in20_median_1in20": [
+     [
+      85000.0,
+      95000.0,
+      115000.0
+     ],
+     [
+      80000.0,
+      95000.0,
+      115000.0
+     ]
+    ],
+    "top_1in20_median_1in20": [
+     [
+      95000.0,
+      115000.0,
+      140000.0
+     ],
+     [
+      95000.0,
+      115000.0,
+      140000.0
+     ]
+    ]
+   }
+  },
+  "0.0074": {
+   "extra_top_up_jan2028": 1377.6506364474274,
+   "central_all_legs": {
+    "bottom_raw": 96452.93483064238,
+    "top_raw": 115616.81704706019,
+    "bottom": 95000.0,
+    "top": 115000.0,
+    "bottom_raw_change": -1926.9246042781888,
+    "top_raw_change": -2455.5024379463284,
+    "floor_money": 80879.37181450633
+   },
+   "central_range_legs_only": {
+    "bottom_raw_change": -722.6632517554244,
+    "top_raw_change": -1011.9707847525133
+   },
+   "house_range_legs_only": {
+    "bottom_steps_down": 0.146515,
+    "top_steps_down": 0.205195,
+    "either_steps_down": 0.32119,
+    "bottom_1in20_median_1in20": [
+     [
+      85000.0,
+      95000.0,
+      115000.0
+     ],
+     [
+      80000.0,
+      95000.0,
+      115000.0
+     ]
+    ],
+    "top_1in20_median_1in20": [
+     [
+      95000.0,
+      115000.0,
+      140000.0
+     ],
+     [
+      95000.0,
+      115000.0,
+      140000.0
+     ]
+    ]
+   }
+  },
+  "0.0100": {
+   "extra_top_up_jan2028": 1861.69004925328,
+   "central_all_legs": {
+    "bottom_raw": 95782.6105101817,
+    "top_raw": 114763.45973461376,
+    "bottom": 95000.0,
+    "top": 110000.0,
+    "bottom_raw_change": -2597.248924738873,
+    "top_raw_change": -3308.8597503927595,
+    "floor_money": 80524.57092491965
+   },
+   "central_range_legs_only": {
+    "bottom_raw_change": -974.0580142071267,
+    "top_raw_change": -1364.0077181692322
+   },
+   "house_range_legs_only": {
+    "bottom_steps_down": 0.19625,
+    "top_steps_down": 0.276075,
+    "either_steps_down": 0.417345,
+    "bottom_1in20_median_1in20": [
+     [
+      85000.0,
+      95000.0,
+      115000.0
+     ],
+     [
+      80000.0,
+      95000.0,
+      115000.0
+     ]
+    ],
+    "top_1in20_median_1in20": [
+     [
+      95000.0,
+      115000.0,
+      140000.0
+     ],
+     [
+      95000.0,
+      115000.0,
+      140000.0
+     ]
+    ]
+   }
+  },
+  "inputs": {
+   "five_funds_cost_1jan2027": 171782.62850282146,
+   "fwd_2027": 0.043411380532984906,
+   "top_up_ibtm_nav_jan2028": 2286.0,
+   "backstop_ibtq_ibtr_jan2028": 4478.821144001289
+  }
+ }
+}
