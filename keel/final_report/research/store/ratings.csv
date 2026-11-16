@@ -3967,3 +3967,194 @@ Q63-041,2,4,5,3,merged,Q63-038,Mon 16 Nov: a third regulator asking no credit qu
 Q63-042,2,5,5,4,keep,,Mon 16 Nov: 2.3 detail: even a US state's own bonds are capped for insurers and only the US is not; a model act that states adopt in their own versions.
 Q63-043,4,5,4,4,adapt,,"Mon 16 Nov: 2.3 or a Table 1 note, the answer to 89.55% in one issuer (NUMBERS 8g); say every cap we found (six), never every cap in US law, and never that the law approves the plan."
 Q63-044,2,4,3,3,adapt,,Mon 16 Nov: Keel mapping; answers every reason repeats the overclaim cold test 2 struck from 5b: name the limits beside it (not a trust; inflation reaches the building).
+Q61-001,3,3,4,4,keep,,"Mon 16 Nov: 3c/3e: the moved half's plain three-year dollar loss chance on world data since 2001 (about one start in eight); script re-run, output identical; say month-end, dollars and one era (28 of 35 losing spans from one crisis)."
+Q61-002,2,3,3,4,keep,,Mon 16 Nov: 3e context only (the range is stated in dollars); 2001+ real shares re-run and match; the 1970-2000 calendar 18.5% rests on the unverified Wikipedia table; US CPI is not Taiwan building costs.
+Q61-003,2,3,3,3,keep,,"Mon 16 Nov: store only; NUMBERS 8r already tests the move date inside 2031, so the four-year case adds little; 2001+ figures re-run and match, 1970-2000 calendar figures UNVERIFIED."
+Q61-004,3,3,3,3,keep,,Mon 16 Nov: 3b data behind row 38; figures re-run and match; quote NUMBERS 8f's 18.3% and 10.5% as the plan's and this row only as world history; the 1970-74 real figure rests on the unverified table.
+Q61-005,3,4,3,3,adapt,,"Mon 16 Nov: 2.3 clash watch on IPS l.9; fix before use: borne out by history reads as shares are safe over six years, so add the survivorship caveat (row 20, the US was the survivor; ACO's 39 markets) beside the real 9.6%; its disanalogy cites row 23 for DMS 1916-20, which is row 28."
+Q61-006,3,4,2,4,adapt,,"Mon 16 Nov: 2.3/3e: the aha holds only on the unverified 1970-2000 table; on verified 2001+ month-ends real losses also fell with the wait (15.6% at three years to 9.6% at six), only more slowly than dollar losses (12.7% to 0%); say that, or verify the 1970s at MSCI first; US CPI is not Taiwan costs."
+Q61-007,2,3,2,3,keep,,"Mon 16 Nov: 3e illustration of row 6 (1970-74 -6.5% in dollars, -32.1% real); rests wholly on the unverified pre-2001 table; US prices, not Taiwan building costs."
+Q61-008,3,4,4,4,adapt,,"Mon 16 Nov: 2.3: joins IPS l.9 to why only the move-date value matters (8p); figures re-run and match; fix: the ending-in-a-loss share falling to 0% at six years must carry the real 9.6% and the one-era and survivor caveat, or it reads as shares are safe over six years."
+Q61-009,3,3,4,4,keep,,"Mon 16 Nov: Table 2 note and 3c: 8p's 40% test is worse than any month-end three-year dollar result since 2001 (worst -38.0%, Feb 2006 to Feb 2009); re-run and matches; pair with row 29 on counting conventions."
+Q61-010,2,4,2,3,adapt,,"Mon 16 Nov: 3c process point (the move is a trade day, not a month-end); fix the source label: 57.46% is MSCI World's gross drawdown (World factsheet, store Q6c-004), not the ACWI factsheet (ACWI 58.38%); stays approximate, Mar 2006 interpolated (Oct 2007 level 5,164.82 checks)."
+Q61-011,4,4,3,5,keep,,"Mon 16 Nov: Table 2's note: a plain yardstick for the named 40% stress; say about twice against month-end World (-19.7%), or two to two and a half times with the calendar -16.5% (pre-2001 era unverified); never against the house model, whose 1-in-20 is about -25%."
+Q61-012,4,3,3,4,keep,,"Mon 16 Nov: 3c and Table 2's note: names the two 40% events in one sentence; house 0.94% and US 1.1% are in NUMBERS 8p; adds 0 of 275 world month-ends; the distinction itself is store Q6c-013 and Q6c-021, so R 3; never rarer than 1 in 100 in prose (8p)."
+Q61-013,3,3,4,3,keep,,"Mon 16 Nov: 3c: on the plan's own calendar (January buy, early-2031 move) 4 of 23 January starts lost since 2001, from two episodes; re-run and matches; say which count is meant."
+Q61-014,2,3,4,3,adapt,,"Mon 16 Nov: 3b; figures re-run and match; fix: none of 20 at six years in dollars needs the survivor and one-era caveat beside its real count (2 of 20), or it reads as shares are safe over six years."
+Q61-015,1,2,4,4,adapt,,"Mon 16 Nov: store only; the latest three years are the best only for MSCI World (+92.0%, Sep 2022 to Sep 2025); ACWI's best was +95.6% (Mar 2003 to Mar 2006), so name the index; context, never a forecast."
+Q61-016,4,4,3,3,adapt,,"Mon 16 Nov: 3c, IPS l.15 in numbers; but stated-top frequencies on world history are plan figures not in NUMBERS (section 4 has US history only): the numbers owner adds a world column, or it is said strictly as a Keel arithmetic mapping; its since-1970 line rests on the unverified pre-2001 table; mapping re-run and matches."
+Q61-017,4,4,2,4,adapt,,"Mon 16 Nov: 3e aha, but not the register's figures: the engine takes 17.88% as the log s.d. (engine.py eq_vol; 8p's 0.94% and 8f's 18.3% follow from it), giving about 24.2, 20.9, 18.3 and 16.1% at 3-6 years and a 1-in-20 three-year -25.4% (Keel arithmetic), not 22.1% and -21.9%; only 18.3% is in NUMBERS; the model is the pessimist on depth too."
+Q61-018,2,5,5,3,keep,,"Mon 16 Nov: 3e backing only (15.8% against 4.2%, 10.1% against 12.6%, read at source); 30-year real horizon, and the paper's lognormal is iid monthly, not independent years; never a 3-6 year claim about the house model."
+Q61-019,3,4,5,3,adapt,,"Mon 16 Nov: 2.3 and 3f (the world fund's case); b=120 column read at source; fix the use: ACO's international portfolio excludes the home market and for a US investor lost more often (row 20), so state it as the typical developed-market investor's payoff, never as VT's measured payoff for Laura."
+Q61-020,3,4,5,3,keep,,"Mon 16 Nov: 3e: NUMBERS' US-history column is the survivor's record (1.2% against 7.6% at 30 years, read at source); extends store Q39-019 and H4-059 to 1-30 years; the survivorship caveat other rows need."
+Q61-021,2,4,2,3,adapt,,"Mon 16 Nov: 3b; fix the plan figure: the house model's five-year loss chance in NUMBERS is 18.3% (8f), not the face-value 16.1%; nominal local currency, and which panel is home is Keel's inference."
+Q61-022,3,3,5,4,keep,,"Mon 16 Nov: 2.3, against shares are safe if you wait; quote and Table VI figures checked at source; price only, so pair with row 23 (Jorion's total-return table gives the global index 30.2, 18.2 and 12.0% at 1, 5 and 10 years)."
+Q61-023,3,3,5,4,keep,,Mon 16 Nov: 3e presentation rule (say whether dividends are in); 12.0% against 19.9% checked at source; the Gaps' missing global total-return rows are in the same table: 30.2% and 18.2% at one and five years.
+Q61-024,3,3,5,4,adapt,,"Mon 16 Nov: 3b; the VAR quote and -20.8, -40.4 and -41.1% checked at source; fix the use: the IPS keeps half unpromised as flexibility, not because of its horizon, so say only that its bad case is larger; the history twin of store H7-041."
+Q61-025,2,3,5,3,adapt,,"Mon 16 Nov: store and 3e; -43.2% (Oct 1974) and -51.4% (Jun 1949) checked at source; fix the use: a fall before the move also lowers the top to about $105,000 (NUMBERS 8p), so only a fall after the move costs only flexibility."
+Q61-026,2,3,5,3,keep,,"Mon 16 Nov: 3e context: with dividends the worst case shrinks after five years, so the plan's 3-6 year horizons sit near the worst; annual DMS data; read with row 24."
+Q61-027,1,2,4,4,keep,,"Mon 16 Nov: store only; 20-30 year horizons are not Laura's share horizons; carries its survivor caveat (Japan, Germany, Belgium); Morningstar read from a copy on a third-party blog."
+Q61-028,2,3,5,4,keep,,"Mon 16 Nov: 3b: the world record's five-year real worst (-58%, 1916-20, 2024 Yearbook); name the vintage (row 35); real terms, not the dollar test the range uses."
+Q61-029,3,4,3,3,keep,,"Mon 16 Nov: 3c and 3e presentation: name the count (calendar, month-end or trade day); DMS quote read at source; -43.5% is approximate and -41.5% rests on the unverified 2000 return."
+Q61-030,3,3,4,4,keep,,Mon 16 Nov: 3c: why history counts are never probabilities for the promises; arithmetic checks (56 and about 26 years of data); agrees with SKELETON 3c's four independent rate eras for the 585 windows.
+Q61-031,3,5,5,4,keep,,"Mon 16 Nov: 3c and 3e: quote checked at source (Oct 2025 working paper); backs the split: the top rests on history and moves, the bottom rests on Treasuries and does not."
+Q61-032,3,4,4,4,keep,,"Mon 16 Nov: 2.3 and 3a: Siegel's real-return comparison does not apply to dollar promises held to their date (-11% a year is about -44% over five years, checks); edition with data to 1996 on a hosted copy, so S 4."
+Q61-033,1,3,4,4,keep,,Mon 16 Nov: store only; the long-run US and world records carry their survivor caveat; Laura's share horizons are 3-6 years.
+Q61-034,1,2,4,4,keep,,Mon 16 Nov: store only; beating bills is not the half kept's test; US real data to 1996.
+Q61-035,2,3,3,3,keep,,"Mon 16 Nov: references and 3e: quote one DMS vintage and name it, preferring the 2024 Yearbook; the conflict is recorded, not resolved."
+Q61-036,2,4,3,3,keep,,Mon 16 Nov: references: cite MSCI World gross for long history; ACWI before launch is back-tested; the two launch dates stay unresolved.
+Q61-037,2,3,4,4,adapt,,"Mon 16 Nov: 3e stand-in check (largest monthly gap 1.15 points, re-run); fix: the six-year worst +5.0% and +4.6% is dollars only (real -6.3% and -7.8%) and one era, so say so or drop it; VT's FTSE index not computed."
+Q61-038,4,3,3,4,keep,,"Mon 16 Nov: 3b: world history's five-year dollar loss (6.4-11.5%) sits near NUMBERS 8f's US 10.5% and under its house 18.3%, so 3b quotes the register's cautious figure; row 17's aha on register figures; the 11.5% rests on the unverified pre-2001 table."
+Q64-001,3,3,5,3,keep,,"Mon 16 Nov: 3e citation (store first): a forward is the expected rate plus a premium, with Fama and Bliss's evidence; row 4 carries the plain split if 3e needs words."
+Q64-002,2,3,5,2,keep,,Mon 16 Nov: store only; true but nuanced and hard to say in one sentence; row 1 carries the citable point.
+Q64-003,2,3,5,2,keep,,Mon 16 Nov: store only; academic proof the premium moves with the cycle; too technical for 3e's budget.
+Q64-004,2,3,5,4,keep,,Mon 16 Nov: 3e plain words if a clause is wanted (what the market expects plus what it charges for waiting); near twin of row 1 and H3-015.
+Q64-005,4,5,5,3,adapt,,"Mon 16 Nov: 3a and aha 5, the dated premium (0.87 on 6 Nov is in NUMBERS 2 finding 1; FRED 0.8738 re-read 16 Nov); fix the use column: 0.87 is the 10-year yield's premium and 1.58 one forward ten years out, never '1-1.6 points above for her reinvestment years'; say 'a Fed model estimates' (row 8)."
+Q64-006,2,4,4,3,keep,,Mon 16 Nov: store; context that the premium on the freeze day is near its 1990-2026 average after a decade near zero; never a forecast.
+Q64-007,2,4,4,3,keep,,"Mon 16 Nov: store, supports row 15: part of the forty-year fall behind the 55.6% was a falling premium; ACM's own values unread."
+Q64-008,3,4,5,4,keep,,"Mon 16 Nov: 3a and 3e guard: any premium figure is one model's estimate, with its date; never printed as a fact."
+Q64-009,4,5,5,4,keep,,"Mon 16 Nov: 3a, why the payments are sized without reinvestment; quote re-read 16 Nov; name what was tested (5- and 10-year yields 10-20 years out, forecasts from 1986, the falling-rate era) and pair with row 12's split."
+Q64-010,4,4,5,4,keep,,"Mon 16 Nov: 3a; SEP longer-run 3.2% re-read 16 Nov; $13,906 and $25,144 are NUMBERS 8a's flat 4.0% and 3.0%; say it is the Fed's policy rate, not a Treasury yield, and bracket it, never a flat-3.2% figure not in NUMBERS."
+Q64-011,2,4,3,3,keep,,"Mon 16 Nov: store; forwards overshot only after 1981 and undershot before; approximate par-as-zero method; supports row 12, not printed."
+Q64-012,5,4,4,4,keep,,"Mon 16 Nov: 3a and aha 5, the honest form of the 55.6% (one cycle: 17.1% of starts 1962-1980, 80.1% of 1981-2010), now in NUMBERS 2 finding 1; '585 starting months', never '585 tests'; Keel arithmetic, S capped at 4."
+Q64-013,5,4,4,4,keep,,"Mon 16 Nov: 3a and aha 5, size when short: median $16,055 (NUMBERS 2 finding 1 as corrected) beside $34,555 at 1 in 20 of all windows and $45,266 worst, never 'usually small'; the 62 over $25,000 and the era medians are not in NUMBERS."
+Q64-014,3,3,4,4,merged,Q64-013,"Mon 16 Nov: already applied to NUMBERS 2 finding 1; the wording rule (median when short, not across all 585) rides with row 13."
+Q64-015,3,4,4,3,keep,,"Mon 16 Nov: 3e limits and the professor's answer: the replay scales today's forwards by history's moves (A35), so the 55.6% is history's drift, not today's premium; the 0.52 ratio is not in NUMBERS."
+Q64-016,3,4,3,3,adapt,,"Mon 16 Nov: would back aha 5 without the falling era, but 42.2% and 41.2% are plan-ladder figures not in NUMBERS: register them first or keep in the store."
+Q64-017,4,5,4,3,keep,,"Mon 16 Nov: 3e or a 3a clause: the term premium does not make the 55.6% an overstatement (54.7% centred on Kim-Wright's 0.87, NUMBERS 2 finding 1); the 73.3% at 1.6 points is not in NUMBERS; one premium at every horizon."
+Q64-018,2,4,3,3,adapt,,Mon 16 Nov: store; 67.2% is not in NUMBERS and rests on approximate forwards whose 1980s errors hit the zero floor; register before any use.
+Q64-019,3,4,3,3,keep,,"Mon 16 Nov: 3a and aha 5 guard: confirms NUMBERS 7's 'roughly four' three ways; 3.4 and 13 stay in the store; 585 counts starting months, not independent tries."
+Q64-020,4,4,4,4,keep,,"Mon 16 Nov: 3a and aha 5, why the 55.6% is never printed bare (about 18%-88% with four independent periods, NUMBERS 2 finding 1; Wilson intervals re-computed 16 Nov); the 13- and 585-try intervals stay in the store."
+Q64-021,2,2,3,3,keep,,"Mon 16 Nov: store or a reference for the overlap point; Hansen and Hodrick unread (no text layer), so Hakkio carries the quote."
+Q64-022,2,3,4,3,merged,Q6b-026,"Mon 16 Nov: same paper and point as Q6b-026, which was read further than this abstract."
+Q64-023,3,4,4,4,keep,,Mon 16 Nov: 3a or 3e parallel for the overlap point: the 4% rule's US record is fewer than four independent 30-year tries; shares not bonds; Q61-030 and Q39-019 hold the share side.
+Q64-024,3,4,5,3,keep,,Mon 16 Nov: 3a clause with row 32: insurers test unfavourable but not extreme conditions; that sixteen years at zero lies beyond it is Keel's reading and must be said as such.
+Q64-025,2,5,5,3,keep,,Mon 16 Nov: store; the 2026 US standard names reinvestment as a choice and sets no rate; Q37-015 holds the same idea from ASOP 27.
+Q64-026,3,5,5,4,keep,,"Mon 16 Nov: 3a beside the 26 U.S.C. 130(d) clause: actuaries named structured settlements for reinvestment risk; cite as the 2002 edition, now superseded."
+Q64-027,3,5,4,3,keep,,"Mon 16 Nov: 3a store or one clause: the UK Test 1 accumulates surpluses and shortfalls at the risk-free rate with a 3% tolerance (re-read 16 Nov), so the ladder as written passes and the insurer adds capital; $9,046 is Keel arithmetic, not NUMBERS."
+Q64-028,2,4,3,2,adapt,,"Mon 16 Nov: illustration only: $6,600 and 2.2% are not in NUMBERS and measure the ten without the extra Treasuries, so they read as the plan failing a UK test; Test 2 is a 1-in-200 one-year VaR, not a 1-point fall; TNA l.7 duration-matching risk."
+Q64-029,3,3,5,4,keep,,"Mon 16 Nov: 3a with row 27: 'fully funded at market' is the regulator's best estimate, the middle, never its safety standard; $34,369 is NUMBERS 2."
+Q64-030,2,5,5,3,keep,,Mon 16 Nov: store; the loose end of the scale (rescue money sized above corporate yields); Q2a rows 15-16 hold the rescue itself.
+Q64-031,3,5,3,3,adapt,,"Mon 16 Nov: 3a clause candidate, but ranking Regulation 126 against ASOP 22 is Keel's and they work together; use three points only (expected returns, risk-free forwards plus capital, zero) and name each backstop Laura lacks."
+Q64-032,3,3,5,4,keep,,"Mon 16 Nov: 3a beside Q2d's US record: zero is lived, not invented (Japan's call rate under 0.5% every year 1996-2024); one clause at most, the US record leads."
+Q64-033,3,3,4,4,merged,Q31-029,Mon 16 Nov: same point as Q31-029 and NUMBERS 2's 'not separate evidence'; aha 5's fix already holds the wording (never 585 beside the zero standard).
+Q64-034,3,4,3,3,keep,,"Mon 16 Nov: 3a, one sentence answering the professor: the premium pays her on bonds held and works against coupons reinvested; extends H7-012 and H3-015; the premium's size is one model's."
+Q64-035,2,4,4,3,merged,H3-067,Mon 16 Nov: aha 5 already uses H3-067's wording for the IRS clause; this fix is applied there.
+Q65-001,3,3,5,4,keep,,"Mon 16 Nov: 3a or 3e map, pattern 1: insurers break most often by setting aside too little (37.2% of property/casualty cases); property/casualty only, pair with row 3 for life."
+Q65-002,2,4,3,3,keep,,Mon 16 Nov: store; the rest of Best's list from a search extract of the IAIR reprint (S 3); investment losses barely register for property/casualty.
+Q65-003,3,3,4,3,keep,,"Mon 16 Nov: 3a support for pattern 1 in both segments to 2009; the life share is printed without labels, so never quote a life percentage."
+Q65-004,2,3,5,4,keep,,Mon 16 Nov: store; guards 'commonest cause' with its field and dates (life/health since 2000 has no single leader).
+Q65-005,2,4,4,4,keep,,Mon 16 Nov: store; the EU's own census puts underpricing first; 20 firms over six years.
+Q65-006,2,4,4,3,adapt,,Mon 16 Nov: store; 'no management layer' is untrue (BlackRock advises the funds; the 2031 move is a decision): say no one makes investment decisions on the reserve after January 2028.
+Q65-007,3,4,4,3,adapt,,"Mon 16 Nov: 2.3 or 3e; 74.5% and 56.4% match NUMBERS 5, but never 'the one correlated pair': her flexibility against building costs in an inflationary fall is the other (aha 9; 3e area 5)."
+Q65-008,3,3,5,4,keep,,"Mon 16 Nov: 3a clause, the reinvestment failure read at source; verified, so it supersedes store Q2a-017's same figures."
+Q65-009,4,4,5,3,adapt,,"Mon 16 Nov: 3a, pattern 1 in Laura's form; $54,595, $55,920, $35,894 and 111.4% match NUMBERS 2 and 8h, but never 'the least flattering assumption available' (card Q2d: a deeper negative-rate regime is worse); say the test sits below every real half-year."
+Q65-010,2,3,5,4,keep,,"Mon 16 Nov: store; Australia's under-reserving case, paid late before it paid less; use only if the team's home earns its place."
+Q65-011,3,2,4,4,keep,,"Mon 16 Nov: 3e support for pattern 2: the S&L time mismatch sized (415 insolvent, 32% of assets); textbook in outline."
+Q65-012,4,4,4,4,keep,,"Mon 16 Nov: 3e no-forced-sale clause: S&L losses were not 'only on paper' because deposits could leave, Laura's are because nothing she owes can be called; competes with SVB (Q3b) for the one clause, never both."
+Q65-013,2,3,4,3,keep,,"Mon 16 Nov: store; kills 'not a credit failure': the mismatch made the insolvency, credit losses made the bill."
+Q65-014,2,3,4,4,keep,,"Mon 16 Nov: store; the $153bn bill; row 12 dates the $25bn closing cost to 1982, so say six times the 1982 cost, not 1983."
+Q65-015,2,4,4,4,keep,,"Mon 16 Nov: store; fraud 10-15% of S&L losses, riding on hidden losses; the RTC count is a search extract."
+Q65-016,3,4,5,4,keep,,"Mon 16 Nov: 3a or 3e, pattern 2 the safe way round; 0.5-10.5 months, $1,572 and 7.76 against 9.94 years match NUMBERS 1 and 8h; say 'matched payment by payment' beside TNA's duration-matching."
+Q65-017,2,4,4,3,adapt,,"Mon 16 Nov: store, pattern 9; 'counts on no backstop at all' collides with the register's backstop (the extra Treasuries) and with SIPC in row 32: say no outside guarantor or insurer of value."
+Q65-018,2,5,5,4,keep,,"Mon 16 Nov: store; the cleanest late-not-lost case for savers (RISDIC 1991, paid nearly in full, up to 18 months late)."
+Q65-019,3,4,5,4,keep,,Mon 16 Nov: 2.3 or 3a clause: a failed insurer's fixed annuity took two years to restart and 16 to settle; adds the timeline to store Q2a-009.
+Q65-020,2,3,5,3,keep,,"Mon 16 Nov: store; Executive Life sold annuities, structured settlements and GICs through one promiser; links to the 26 U.S.C. 130(d) reserve aha."
+Q65-021,1,4,4,3,keep,,"Mon 16 Nov: store only; dates verified, recovery unread; serves no part."
+Q65-022,2,3,5,4,keep,,"Mon 16 Nov: store; a bank deposit is a bank's promise (Cyprus, 47.5% converted); the broker's cash sweep is the one set-up choice to watch."
+Q65-023,2,2,5,4,keep,,"Mon 16 Nov: 3e or Table 3 custody line: a statement is not ownership, so holdings are checked by CUSIP and published fund holdings."
+Q65-024,2,3,5,3,keep,,Mon 16 Nov: store; theft at a keeper costs money and time (72% of allowed claims after 17 years).
+Q65-025,2,5,5,4,keep,,"Mon 16 Nov: store; Peregrine's forged bank statements; futures customers outside SIPC, so a parallel only."
+Q65-026,2,3,5,4,keep,,"Mon 16 Nov: store; MF Global paid 100% but took over two years, which corrects store Q2a-022's 'days, not money' for MF Global."
+Q65-027,1,4,3,3,keep,,"Mon 16 Nov: store only; LBIE from a secondary case summary, judgment unread (S 3)."
+Q65-028,3,3,5,3,keep,,"Mon 16 Nov: 3e custody clause: Rule 15c3-3 is why a broker failure costs fully paid securities time, not money."
+Q65-029,3,3,5,4,keep,,"Mon 16 Nov: 3e, answers the readers' 'fund sponsors': BlackRock runs the funds but does not hold their Treasuries; custodian bank still unnamed (read IBTM's SAI)."
+Q65-030,2,4,2,3,keep,,"Mon 16 Nov: store; the absence after one search is UNVERIFIED (say 'none found'); 40.7%, 2.4%, 45.6% and $103,178 match NUMBERS 8h and 4."
+Q65-031,2,4,4,3,adapt,,"Mon 16 Nov: store; the 0.5% cut covers only the floor and top: a lending loss in the five payment funds falls on the ten, met at forwards by the extra Treasuries' surplus but not at 0% (NUMBERS 8h: standard met exactly)."
+Q65-032,4,4,4,3,adapt,,"Mon 16 Nov: 3e and Table 3 custody row; $589,655 is NUMBERS 8k's all-money total in 1 Jan 2033 money incl. the contribution paid Dec 2032 (about $474,000 after it, store Q30-034), not a broker balance, and one broker is a set-up assumption: needs a NUMBERS entry for the peak balance and its dates."
+Q65-033,3,5,3,4,adapt,,"Mon 16 Nov: 3e clause, the US record's one blemish was a delay (1979; details secondary); drop 'which is why': the rungs pay early by design, so say a delay of days falls inside the 10-47 days each pays early."
+Q65-034,3,4,5,3,merged,Q2a-021,"Mon 16 Nov: the same bridge as Q2a-021 ($39,225 after $10,775 waiting); adds only the 10-29 days and the seven-day cap, both already in the store (8h, Q36-012)."
+Q65-035,3,3,5,3,adapt,,"Mon 16 Nov: 3e pattern 7; figures match NUMBERS 5, but per the AHA register state the missed deposit at 0% ($57,455) and drop '$3,016 at forward rates'."
+Q65-036,3,4,5,4,keep,,"Mon 16 Nov: 3e pattern 8: Laura herself is the one failure no structure removes ($444,545 matches 8h); its guard is IPS l.17, never 'cannot be raided'."
+Q65-037,3,4,4,3,keep,,"Mon 16 Nov: 3a one sentence on where losses sat, extending store Q2b-005; always 'read here', a bounded list, never 'every promise that broke'."
+Q65-038,4,5,4,2,adapt,,"Mon 16 Nov: 3e and Table 3; now names the readers' three patterns, the real parties and the missed deposit at 0% truthfully; fix (5)'s $589,655 (not a broker balance, row 32) and add the funds' NAV payout on the five payment rungs (NUMBERS 3; row 31)."
+Q65-039,3,4,4,3,adapt,,"Mon 16 Nov: 3e, the parties named; IBTM is one of the five iBond funds (not 'and IBTM'), and the Treasury-bill ETF holding all waiting money (which one UNVERIFIED, NUMBERS 0) is missing."
+Q65-040,3,4,4,4,keep,,"Mon 16 Nov: 3e naming rule: the Treasury the one promise, the funds, custodian and broker its keepers; consistent with Book 19."
+Q68-001,3,3,4,4,keep,,"Mon 16 Nov: 3a reserve aha: hibernation defined; Russell's 105-110% trigger is on corporate-bond yields, a weaker yardstick than Laura's."
+Q68-002,2,3,4,4,keep,,"Mon 16 Nov: store; the lifecycle stages; she skips them because the case fixed the ten, not by skill."
+Q68-003,4,4,4,3,adapt,,"Mon 16 Nov: 3a; funding not age decides hibernation, and 99.5% is labelled Keel arithmetic on NUMBERS 1, but it sits under row 1's 105% trigger: never 'she hibernates' or 'funded at Treasury prices on day one'; say nearly funded, finished January 2028 (IPS l.13)."
+Q68-004,3,4,4,4,keep,,"Mon 16 Nov: 2.0 or 3a citation: lock the fixed promise once funded, only the surplus at risk (IPS l.11); never name his dynamic strategy."
+Q68-005,3,4,4,4,adapt,,"Mon 16 Nov: 2.3 citation for the career argument's timing; the IPS's career argument is l.9 and the pitch, not l.5-6; never Black's tax reason."
+Q68-006,2,4,4,3,keep,,"Mon 16 Nov: references only; the UK actuarial case for matching, about 25 years before practice."
+Q68-007,2,3,4,3,keep,,"Mon 16 Nov: store; abstract only, and its tool is a custom liability index, not a ladder."
+Q68-008,4,5,4,4,keep,,"Mon 16 Nov: 3a precedent a judge can look up: Boots sold all equities for long AAA bonds held passively while still open; it bought agency bonds over gilts, so never 'only government bonds'."
+Q68-009,3,5,4,4,adapt,,"Mon 16 Nov: 3a, Boots's aim reads like the IPS; line refs wrong: the twins are IPS l.11 and l.17 ('A fall in the market is not one of them'), not l.9 and l.21."
+Q68-010,3,5,4,4,keep,,"Mon 16 Nov: 3a clause: even Boots kept a 5% reinvestment cushion; Laura's extra Treasuries are about 11% ($34,369 of $302,287, labelled Keel arithmetic on NUMBERS 2) and mostly return."
+Q68-011,2,4,4,3,keep,,Mon 16 Nov: store; Boots's costs fell from about 0.5% to almost nothing; hindsight on timing.
+Q68-012,2,3,4,4,keep,,Mon 16 Nov: store; Boots's choice became the industry's over twenty years; consultant figures.
+Q68-013,3,3,5,4,keep,,"Mon 16 Nov: 3a context clause on how long pensions took (bonds 28% to 71%, 2006-2025)."
+Q68-014,2,3,3,3,keep,,Mon 16 Nov: store; 95.8% on buy-out conflicts with TPR's 62% in surplus (row 15): quote each with its date.
+Q68-015,2,3,4,3,keep,,"Mon 16 Nov: store; the regulator's end-state measure, reached after 2022's yield rise; dated and model-specific."
+Q68-016,1,3,4,3,merged,Q68-013,Mon 16 Nov: a monthly gauge of the same rise row 13 carries over twenty years; October figures from trade press.
+Q68-017,3,3,4,4,keep,,"Mon 16 Nov: 3a context clause: the 100 largest US plans in deficit at every year-end 2008-2023, measured at corporate-bond yields."
+Q68-018,3,4,4,4,adapt,,"Mon 16 Nov: 3a; 'no closer' for 2009-2017 is strong, but 'Laura is there in month one' implies funded on day one: say matched in month one, funded on her own standard in January 2028."
+Q68-019,4,3,4,4,keep,,"Mon 16 Nov: 3a wording guard for the aha: most pensions end with an insurer, so 'the state a pension reaches last', never 'every pension'."
+Q68-020,2,3,4,3,keep,,Mon 16 Nov: store; run-on for surplus has IPS l.11's shape; the surveys' samples differ.
+Q68-021,4,5,4,3,keep,,"Mon 16 Nov: 3a: UK law's significant-maturity line (10 years; 100% low dependency by the relevant date), the yardstick behind row 22."
+Q68-022,4,5,3,3,adapt,,"Mon 16 Nov: 3a reserve aha; 10.06, 10.02, 10.22 and 9.06 years are Keel arithmetic not in NUMBERS: needs a NUMBERS entry before use, kept apart from NUMBERS 1's 9.94 and TNA's duration-matching."
+Q68-023,3,4,4,4,keep,,"Mon 16 Nov: 3a contrast for row 22: a typical closed UK scheme was 15-20 years from the line in 2020, average 13 years in 2025."
+Q68-024,4,5,4,3,keep,,"Mon 16 Nov: 3e honest limit: she counts as mature because her stream is short, not because payments began; the $93,941 waiting (NUMBERS 2) is what the extra Treasuries close."
+Q68-025,4,5,4,4,keep,,"Mon 16 Nov: 2.0 or 3b: the UK code's objective 'does not apply to any surplus', IPS l.11's rule in law; credit allowed there, Treasuries only here."
+Q68-026,3,3,4,4,keep,,"Mon 16 Nov: 3b clause: VT 6.6% at cost ($29,829 of $450,000, NUMBERS 8g's 6.63%) sits inside hibernating plans' 0-15% growth slice."
+Q68-027,3,3,4,4,keep,,"Mon 16 Nov: 3a: Laura's matched block is stricter than a pension's (UK bonds 34.8% corporate, 44.4% index-linked); she can afford Treasuries because the deposit about equals the price."
+Q68-028,2,3,4,3,keep,,Mon 16 Nov: store; long credit is five times too small for pensions to match; Laura's 2042 end sits inside the Treasury curve.
+Q68-029,3,3,4,3,adapt,,"Mon 16 Nov: 3e, pension risks absent for the ten; drop the 'never no risk' default guard (Book 19); the real residual is the funds' NAV payout (NUMBERS 3); IPS refs are l.11 and l.17, not l.21."
+Q68-030,2,3,4,3,adapt,,"Mon 16 Nov: store; 'the curve price with no margin' contradicts row 10: say no insurer's margin; her own margin, the extra Treasuries, mostly returns ($45,456 in 2033 money, 8k)."
+Q68-031,2,3,4,4,keep,,"Mon 16 Nov: store; a hibernating plan shrinks by paying, as the reserve runs off from 2033 (Q16 holds the mechanics)."
+Q68-032,3,3,4,4,keep,,"Mon 16 Nov: 3a or 2.0 clause: the industry calls cash-flow matching LDI's final phase, Laura's first trade; vendor sources."
+Q68-033,2,4,3,3,adapt,,"Mon 16 Nov: store; 'her whole gap is the $2,388 top-up' holds only at market prices; on her own standard it is the first $38,282 of the 2028 deposit."
+Q68-034,3,3,4,4,keep,,"Mon 16 Nov: 3b, the devil's advocate answered: she locks only promised money, so VT keeps room to grow; JPM sells the alternative."
+Q68-035,2,4,5,4,keep,,"Mon 16 Nov: store; US rescue money must be at least 67% investment-grade bonds; a floor, not a match."
+Q68-036,4,4,3,3,adapt,,"Mon 16 Nov: 3a; 99.5% and 89.1% are labelled Keel arithmetic on NUMBERS 1-2, but $286,970 at Treasuries + 0.5% (104.5%) is not in NUMBERS: needs an entry or drop that yardstick."
+Q68-037,4,4,5,4,adapt,,"Mon 16 Nov: 3b, the correct sharper form (floor a second matched block, only VT return-seeking, per IPS l.15); say the half moves before the 2031 meetings, not 'before 2031' (the move is in early January 2031, NUMBERS 3, 8r)."
+Q68-038,2,4,4,3,adapt,,"Mon 16 Nov: store; 'promised to no one' is IPS l.15, not l.17, and the half kept is bought in January 2028, so never 'hers from day one'."
+Q68-039,2,3,4,3,merged,Q2a-027,"Mon 16 Nov: Aon's 2017 self-sufficiency basis repeats store Q2a-027's gilts + 0.5% end state, the regulator's own version."
+Q68-040,2,3,4,5,keep,,Mon 16 Nov: store or 3a colour: a pension manager says what TNA l.15 says about price noise; a marketing paper.
+Q66-001,3,3,2,4,adapt,,"Mon 16 Nov: 3e and aha 9 (which says the eight years since 1970); four of the eight falls (1973, 1974, 1990, 2000) rest on the unverified Wikipedia table; verify at MSCI's history file or Dimson-Marsh-Staunton before the figure is used."
+Q66-002,5,4,2,4,adapt,,"Mon 16 Nov: aha 9 and 3e headline (28 of 35 against 140 of 172: no tendency); built on the unverified 1970-2000 world table, so verify before use; supersedes Q5e-001's more-often-rise wording (a correlation, not a frequency)."
+Q66-003,4,4,2,3,adapt,,"Mon 16 Nov: 3e, the trend form of more than planned (15 of 30 against 86 of 178); pairs with row 2; same unverified 1970-2000 world years, verify before use."
+Q66-004,3,4,2,3,keep,,Mon 16 Nov: 3e store; the year after a fall runs below trend (25 of 34); unverified world years; never told as comfort or a hedge for 2033.
+Q66-005,4,4,2,4,adapt,,"Mon 16 Nov: aha 9 uses 7 of 9; means check (+16.0%, -8.6%) but define stalled (UK 0.0%, Japan FY1975 +0.8% give 7 or 8 of 9 by the cut); Japan 1974 is a different deflator from 2008's; 1974 rests on the unverified table."
+Q66-006,3,4,3,3,keep,,"Mon 16 Nov: 3e store; re-run matches (+4.4% against +2.7% yearly average, +1.4% against +3.2% Dec to Dec); 2000 also a fall on ACWI read at MSCI; corrects Q5e row 6 for world shares."
+Q66-007,3,5,4,3,keep,,"Mon 16 Nov: 3e store; Laura's own pair on matched months, re-run exact (20 windows, -1.4%, 8 rose, -15.0% to +14.2%); about three episodes only."
+Q66-008,4,4,4,4,keep,,"Mon 16 Nov: 3e guard, now in SKELETON and aha 9: never the 2008 example; re-run exact (+1.2% against ACWI -41.8%; Jul to Jul +20.8%; to May 2009 -15.1%); sharper twin of Q5e-009's critique."
+Q66-009,4,5,4,3,keep,,"Mon 16 Nov: 3e and aha 9, the U shape on Laura's window; re-run exact (297 windows, +9.6%/37%, +4.5%/15%, +10.3%/44%, r +0.13); never set +0.13 beside 8q's -0.30 as agreeing (costs alone against cost and currency, different spans, opposite signs)."
+Q66-010,4,5,4,3,adapt,,"Mon 16 Nov: 3e, Laura's January calendar; re-run exact (losses 1998, 1999, 2000, 2004, 2007; 3 of 5 against 4 of 20); say world shares (MSCI ACWI), not VT, which began in 2008; two episodes carry it."
+Q66-011,5,5,4,4,adapt,,"Mon 16 Nov: aha 9 and SKELETON 3e example; re-run exact (-6.6%, +17.9%); say world shares (MSCI ACWI) bought January 2000, not VT (launched 2008), and that 2000 is price only (dividends would trim the loss slightly)."
+Q66-012,3,4,2,2,keep,,"Mon 16 Nov: 3e store; the shape is absent outside Taiwan (r +0.13, -0.12, +0.25), but MSCI World 1970-2000 is unverified and the windows overlap; dense to say."
+Q66-013,3,4,3,3,adapt,,"Mon 16 Nov: 3e store, 1974 was not one story; ArchSD figures re-checked on the table (+13.5%, -30.3%, -35.7%); mark the world 1975 +34.5% UNVERIFIED in the Verified column."
+Q66-014,2,4,4,4,keep,,"Mon 16 Nov: store; HK 2000-02 falls re-checked on the table (-13.1%, -8.5%, -11.7%); local deflation, a right-way case Laura's Taiwan series did not share."
+Q66-015,2,3,4,4,keep,,"Mon 16 Nov: store; HK 2008-09 re-checked (+41.9%, -29.8%, -15.9%); one city's public works; illustration of a boom-top tender, not a cost estimate."
+Q66-016,2,4,2,3,keep,,"Mon 16 Nov: store, supports no hedge in 3b's guard (the local cycle can run against world shares); 1982-83 world returns from the unverified table."
+Q66-017,2,4,4,3,keep,,"Mon 16 Nov: store; PUBSEC 1973-75 re-checked (+40.9%, +16.1%, flat); whole-number index; nominal stall only, UK inflation not read."
+Q66-018,3,5,4,4,keep,,"Mon 16 Nov: 3e or a footnote beside Table 3 row 7 (DGBAS is an input index); UK 1990-92 inputs +14-20% against tenders -20.4%, re-checked; NOCOS column labels not read."
+Q66-019,2,4,4,4,keep,,"Mon 16 Nov: store; UK 2000-02 tenders re-checked (+4.4%, +9.2%, +4.6%); local demand outran the world bear market; public works only."
+Q66-020,2,3,3,4,keep,,"Mon 16 Nov: store; Singapore figures re-checked (+12.0%, -15.5%, +11.6%, +4.1%); table read via a search extract, not the PDF itself."
+Q66-021,4,3,4,5,adapt,,"Mon 16 Nov: 3e area (5), the inflationary fall to name; figures re-checked, but they are yearly averages against a year-end share fall, the mismatch row 8 kills for 2008: label them or give Dec to Dec (Taiwan +4.5%, HK Q4 to Q4 +5.0%); stronger twin of Q5e-012."
+Q66-022,2,4,3,2,keep,,"Mon 16 Nov: store; Japan deflator re-checked; read via ecitizen mirrors, fiscal years, three different series mixed; a list, hard to say in one line."
+Q66-023,2,3,4,4,keep,,"Mon 16 Nov: store; 2009 tender deflation across 12 of 20 European countries with quotes (Reina, ENR); a cost consultant's survey, method not stated."
+Q66-024,2,3,4,4,keep,,Mon 16 Nov: store; BCIS 2008 quote that contractors could not pass input rises to clients; a press summary; same mechanism as row 18 in another year.
+Q66-025,2,3,4,3,merged,Q5e-022,"Mon 16 Nov: same source (Lowery 2010) and same figures (13% and 4%, Q5e-022's 12.6% and 3.7%); only the materials +6.5% line is new, carry it there."
+Q66-026,2,4,4,4,keep,,"Mon 16 Nov: store; US 2020-21 bids +3.4% against inputs +26.3%, 28 months, with quotes; a trade body arguing for relief."
+Q66-027,2,3,5,3,keep,,"Mon 16 Nov: store; AGC press releases read at source, bids caught inputs in May 2022; timing of pass-through only, not a cost estimate."
+Q66-028,2,3,4,3,keep,,"Mon 16 Nov: store; US goods PPI peaked at 12.9% in Sep 2008, the crash came at the cost peak; US goods only."
+Q66-029,2,5,4,3,keep,,Mon 16 Nov: store or References; Akintoye and Skitmore's model (R2 0.97) with the input-costs-times-mark-up quote; the mechanism behind row 18; UK to 1987.
+Q66-030,2,5,2,3,keep,,"Mon 16 Nov: store; prior art for the card (McCaffer et al. 1983, Runeson 1988), but read only through a thesis whose author was not read; cannot be cited as read."
+Q66-031,2,4,3,3,keep,,"Mon 16 Nov: store; South Africa's late-peak, slump-fall shape, quoted from Hindle (1991) citing Snyman; cite as Hindle."
+Q66-032,2,4,2,3,keep,,"Mon 16 Nov: store; Wong and Ng (2010) cointegration, abstract via a search extract only, volume and issue unverified."
+Q66-033,3,5,3,3,keep,,Mon 16 Nov: 3e and Table 3 row 7 wording: name the index (DGBAS is an input index); BIS and AECOM quote read via a search extract.
+Q66-034,1,3,5,3,keep,,"Mon 16 Nov: store only; what ArchSD's tender index is; serves no part unless 3e cites a tender index, which it does not."
+Q66-035,3,4,3,4,merged,Q5e-028,Mon 16 Nov: the two kinds of fall is Q5e-028's uses-take-turns idea on six economies instead of two; carry the 10-35% tender-index falls there; never as a hedge.
+Q66-036,2,4,3,3,keep,,"Mon 16 Nov: store only; tender at award then the index through the build, Keel's join of Q5e-011; Taiwan legal and contract form are out of scope (F capped)."
+Q66-037,5,4,3,4,keep,,"Mon 16 Nov: spine row 9 and 3e, the honest form (can, never tends to; no hedge either way); the Taiwan 2003-05 window re-run exact; rests in part on rows built on unverified world years."
+Q66-038,3,4,3,3,keep,,"Mon 16 Nov: Table 3 row 7 note, record only (cost above 5% a year while world shares fall, or while VT is below its January 2028 cost); never a plan change or a third reason."
