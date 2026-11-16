@@ -5185,3 +5185,570 @@ Q88-033,4,4,5,4,keep,,"Mon 16 Nov: 2.5's order in a filed report's spine: comple
 Q88-034,3,4,4,4,merged,Q17-003,"Mon 16 Nov: a filed example of Q17-003's point (market moves swamp execution: 168 of 206 bp was opportunity cost); keeps $200 apart from the $37,625 swing (8b) for aha 3."
 Q88-035,2,3,4,4,merged,Q29-027,"Mon 16 Nov: twin of Q29-026/Q29-027 (a model portfolio's results are hypothetical); never call the WInS book a model portfolio, since our trade notes use that phrase for the plan the book is scaled to (CANON A18)."
 Q88-036,4,4,3,3,adapt,,"Mon 16 Nov: 3e limits and 2.5's could-not-show; $75-$105 is a plan figure not in NUMBERS; two-thirds scale is banned in prose (SKELETON 2.0: say $300,000 of the plan's $450,000); SKELETON keeps 2.5's could-not-show to the 2028 date, so dealer costs go to 3e."
+Q96-001,2,4,5,4,keep,,"Tue 17 Nov: 2.3 background, store first: backlist share of US print units rose from 51% (2004) to 71% (2022), read at source on NPD's slide; units for the whole market, not one author's dollars, so never as Laura's income mix."
+Q96-002,2,3,4,4,merged,Q96-001,"Tue 17 Nov: twin of Q96-001 carried to 2023 (70%, a record, from the data owner's analyst); carry the 2023 figure there."
+Q96-003,2,4,3,3,adapt,,"Tue 17 Nov: 2.3 or 3e area (2) at most: the 2009 split is Keel arithmetic on whole-percent shares and the card's own rounding ranges touch at -3.8%, so never about three times; say new books fell more than the backlist, or use Q96-006's direct BookScan figures."
+Q96-004,1,3,5,3,keep,,"Tue 17 Nov: store only; the unit series behind rows 3, 5 and 6; 2011-12 falls are e-books and Borders, not the cycle."
+Q96-005,2,4,3,3,keep,,"Tue 17 Nov: store only; in the 2020 lockdown the backlist rose and new books fell (direction holds under the rounding); Laura's own 2020 breakout ran the other way (Q1-046), so never as her pattern."
+Q96-006,2,4,4,3,keep,,"Tue 17 Nov: 2.3 support at most: in 2022, when US shares fell 18.04% (checked in the repo's Damodaran file), new-book units fell 10.5% and the backlist 3.7%, direct BookScan figures with no rounding issue; units, a lockdown unwind, and Q1-030 and Q1-031 already carry the advance evidence."
+Q96-007,2,4,3,4,keep,,"Tue 17 Nov: store; supports Q1-049's single hit-driven holding (new books fell about 7.5% in 2019 while shares rose 31.21%); the 2018 inputs are not shown in rows 1 and 4, so list them before use."
+Q96-008,1,3,4,3,keep,,"Tue 17 Nov: store only; the new-book slice shrank from 49% to 30% of units over twenty years, a trend in units, not author income."
+Q96-009,2,5,4,4,keep,,"Tue 17 Nov: 2.0 or 2.3, one sentence at most: Laura's own trade runs IPS l.11's split (PRH's CEO: the backlist gives latitude to take risks with new acquisitions); never a second extended mapping beside pencil and ink (CONCEIT guard, H8-046), and the publisher wants risk where her payments want none."
+Q96-010,2,5,4,3,merged,Q96-009,"Tue 17 Nov: twin of Q96-009 (backlist as the publisher's cushion for advances), from the government's proposed findings, not the court; carry it as a second source there."
+Q96-011,2,4,4,4,keep,,"Tue 17 Nov: 2.3 mechanism, store first: an advance is priced from the publisher's sales forecast (court's words), so it moves on expectations like a share price; that it falls before sales do is Keel inference, never a finding; the court's market is advances of $250,000 or more."
+Q96-012,3,4,4,4,keep,,"Tue 17 Nov: 3e area (2): a court's figure (an advance can take three to four years to be paid) for why a downturn reaches the 2028 deposit late and only in part, beside Q12-033; say in the same downturn, not always the same months, never a lag rule (SKELETON 2.3)."
+Q96-013,2,3,4,4,keep,,"Tue 17 Nov: store; about half of Hachette's books earn out, so for the rest the advance is all the book pays; Laura's own earn-out is not in the case."
+Q96-014,2,5,4,3,keep,,"Tue 17 Nov: store, or one clause in 2.3 if a judge asks whether a backlist could stand in for Treasuries: the catalogue's valuer held 8.5% while the 10-year went from 1.52% to 4.59% (checked in the repo FRED file); carry Q96-015's quote."
+Q96-015,2,5,4,4,merged,Q96-014,Tue 17 Nov: the fund's own words for Q96-014 (a long-term view on interest rates); carry the quote there.
+Q96-016,2,5,4,3,keep,,"Tue 17 Nov: store; disclosed sensitivity gives a catalogue about 16-17 years of duration (Keel arithmetic), longer than the ten payments' 9.94 and the holdings' 7.76 (NUMBERS 1 checked); the 2022 note's figures conflict, so 2023 only."
+Q96-017,2,5,4,3,merged,Q96-016,"Tue 17 Nov: twin of Q96-016 from the second fund, with the same valuer firm, so it is not independent evidence."
+Q96-018,1,4,4,3,refuse,,"Tue 17 Nov: false as used: a 50:50 debt-equity mix in a discount rate is the buyer's assumed financing, not a split of the catalogue's risk, so it never shows professionals price a creative asset as half bond, half stock."
+Q96-019,1,4,3,3,keep,,"Tue 17 Nov: store only; a catalogue's cash flows are forecasts with growth sensitivities as large as the rate's; the KBRA wording is via MBW, not read at source."
+Q96-020,1,4,4,3,keep,,"Tue 17 Nov: store only; a rate court cut the catalogue's royalty income ($155.0m of value); books have no rate court, so no part needs it."
+Q96-021,2,4,4,3,keep,,"Tue 17 Nov: store; the market priced the catalogues about 50% below their marked values by Sep 2023; discounts also reflect fees and governance, so never all of it rates; carry Q96-022's vote."
+Q96-022,1,3,4,3,merged,Q96-021,"Tue 17 Nov: twin of Q96-021 (owners acted on the price, 83.2% against continuing); partly a vote on governance."
+Q96-023,2,5,5,3,keep,,"Tue 17 Nov: store, the Hipgnosis reveal in one statement (a 26.3% cut at a 9.63% midpoint rate), read at source; if used, one clause that the steadiest-looking creative asset has no price until sold, never as a reason about Laura's own career."
+Q96-024,1,4,3,3,merged,Q96-023,"Tue 17 Nov: Keel arithmetic splitting Q96-023's cut (about three-fifths rates); a linear extension past the disclosed 9.5%, so carry it there as rough."
+Q96-025,1,3,5,3,keep,,Tue 17 Nov: store only; Blackstone paid 24.7% under the last Citrin value and 10.3% over the new one in a competitive bid; carry Q96-029's Round Hill sale.
+Q96-026,1,4,4,3,merged,Q96-027,Tue 17 Nov: twin of Q96-027 (9.25% a month after 9.63%: the rate is a judgement); carry the offer document's figures there.
+Q96-027,1,5,3,4,keep,,"Tue 17 Nov: store only; three valuers, three prices in eleven months; the 8.25% or 8.50% conflict stands, and no conceit slot is free for it (2.3's turn is the eraser), never in Laura's words or a table."
+Q96-028,1,5,3,3,keep,,Tue 17 Nov: store only; private catalogue multiples fell about a sixth from the 2019 peak; Shot Tower's own report not read and two 2022 figures conflict.
+Q96-029,1,3,4,3,merged,Q96-025,Tue 17 Nov: twin of Q96-025 (both listed catalogue funds sold below their valuers' figures).
+Q96-030,2,3,4,4,keep,,"Tue 17 Nov: store, or a 2.3 clause if a judge says a career can be sold: the backlist part can (Bowie bonds 1997, 7.9% against a 10-year near 6.3%-6.4%, checked in the repo FRED file), new advances cannot, which is the part IPS l.9 names; reported EMI guarantee noted."
+Q96-031,1,3,3,4,keep,,"Tue 17 Nov: store only; the Bowie bonds fell to one notch above junk in 2004 while the 10-year sat at 3.80%; repayment in 2007 rests on secondary sources, not Moody's."
+Q96-032,2,5,4,3,keep,,"Tue 17 Nov: store, a creative-world instance for the reserve aha nobody can run on the plan (Laura borrows nothing): Chorion's covenant breach forced the Christie, Blyton and Mr Men sales; carry Q96-033's Hipgnosis covenant."
+Q96-033,1,4,4,3,merged,Q96-032,Tue 17 Nov: twin of Q96-032 (leverage turns a slow valuation fall into a forced choice).
+Q96-034,1,4,3,3,keep,,"Tue 17 Nov: store only; the Dahl price is reported, not announced, and its revenue includes screen licences; serves no part."
+Q96-035,1,3,4,3,keep,,"Tue 17 Nov: store only; a publisher's backlist at 1.8 times sales; sales are not royalties, so it says nothing about an author's share."
+Q96-036,2,4,4,3,keep,,"Tue 17 Nov: store; adds to Q12-027 (10% option fee) that the author writes the option, a small sure fee and a capped, rare purchase price; whether the case's licensing includes screen rights is not said."
+Q96-037,1,3,2,3,keep,,"Tue 17 Nov: store only; no audited exercise rate exists (guesses from under 1% to 10%), so never count options in any plan figure."
+Q96-038,2,4,3,3,adapt,,Tue 17 Nov: store; never in the same squeeze as shares: US shares rose 26.06% in 2023 (repo Damodaran file) while adaptation deals fell 53%; say when money cost more and studios struck; vendor method unstated.
+Q96-039,1,5,4,3,keep,,"Tue 17 Nov: store only; a creator's reversion right opens after 2052 for any grant Laura signs now, beyond every plan date."
+Q96-040,4,3,4,4,adapt,,"Tue 17 Nov: 2.3 and 3e area (2), Client Knowledge: the case says the 2028 deposit comes from publishing advances, speaking engagements, licensing and other ventures (case text checked), the incomes IPS l.9 says come later and smaller, so the premise bites where the plan needs money; never the backlist never enters the portfolio (royalties may sit in other ventures, and licences can rest on old books)."
+Q96-041,3,4,4,3,keep,,"Tue 17 Nov: 2.3 wording guard: the counterbalance (IPS l.9, CANON A2) holds in dollars on dates held to the end, not in value: in 2022 the 10-year lost 17.83% and shares 18.04%, in 2008 +20.10% against -36.55% (repo Damodaran file checked); never the ladder rises when her career falls."
+Q96-042,3,4,3,3,adapt,,"Tue 17 Nov: 2.3 at most as Q96-040's form (the deposit comes from the stock-like and option-like parts); never a replacement for IPS l.3's giant stock she can't sell, which CANON A1 leads with, nor a second extended mapping beside pencil and ink; near Q1b-025's two-part career."
+Q104-001,3,4,4,4,keep,,"Tue 17 Nov: 3a, one clause of history if room: in 1970 saying a bond's yield is not what its holder earns drew outrage (Homer and Leibowitz's own preface), which is why IPS l.13's pay what they say is exactly true of coupons and face while the coupons' own interest is the open line; preface read as an extract."
+Q104-002,2,1,2,4,merged,Q104-027,"Tue 17 Nov: the 1972 quote is secondary (a teaching site), so the plain definition comes from Becketti, read at source (Q104-027)."
+Q104-003,2,3,4,3,keep,,"Tue 17 Nov: store; interest on interest by horizon for a 9% bond (Leibowitz 1979 via Ferguson); never beside NUMBERS 8a's 3.4%-15.3% as like for like (one bond's whole return against each $50,000 payment)."
+Q104-004,2,4,4,3,keep,,"Tue 17 Nov: store or 3e area (1): Ferguson's $100m goal falls $18.4m short at two points less reinvestment; Laura's figures match NUMBERS 8a ($13,906 short at a flat 4.0%, $54,595 at zero, before the extra Treasuries)."
+Q104-005,3,3,5,4,keep,,"Tue 17 Nov: 3a, the disanalogy a dedication-minded judge raises: a cash-matched book escapes reinvestment only if every coupon goes straight to a payment, and Laura's cannot before 2033, which is why the extra Treasuries exist; say cash-flow matched, never not duration-matched (CANON C12); carry Q104-008."
+Q104-006,2,4,5,3,keep,,"Tue 17 Nov: 2.2 or 3a, store first: matching is easiest for a falling payment stream; Laura's is level and starts six years out, which is why her late rungs carry the most interest on interest (NUMBERS 8a)."
+Q104-007,2,3,5,4,adapt,,"Tue 17 Nov: 3a: anchor only on TNA l.5's reinvestment-rate risk (and WN l.18, l.24); drop IPS l.13's isn't dependent on yields staying put, which covers only the $2,388 top-up and the ten's price (coherence reader 6, H1; NUMBERS 2 box)."
+Q104-008,2,2,4,4,merged,Q104-005,Tue 17 Nov: twin of Q104-005 in Fabozzi's words (very little reinvestment risk when cash is paid out each month); carry the quote there.
+Q104-009,2,1,4,3,keep,,Tue 17 Nov: store; the textbook trade-off (a conservative reinvestment rate costs more and risks less); the extra Treasuries are that conservative end.
+Q104-010,2,4,4,3,merged,Q104-011,Tue 17 Nov: the setup for Q104-011 (Fabozzi's 1992 book yielded 7.83% but assumed only 3%); carry it there.
+Q104-011,3,4,3,4,keep,,"Tue 17 Nov: 3a's why test at no interest, beside Q81's bill months: practice's cautious 3% of 1992 was breached for 42 months from Sep 2001 and in 217 of 407 months (rater reproduced on the repo DGS6MO); say the strictest standard found, then a fee below it, never below every assumption."
+Q104-012,2,4,3,3,keep,,"Tue 17 Nov: store; zero reinvestment as a working convention in a mortgage deal and bond indexes, beside the escrows' without reinvestment (Q54); chapter not noted, so cite Q54's sources first."
+Q104-013,3,4,5,4,adapt,,"Tue 17 Nov: 2.2 or 3a: Bader's ideal of no selling and no reinvesting; Laura's book meets the first by holding to the end and the second's purpose because no payment depends on reinvesting; never that nothing is reinvested (WN l.18: reinvested coupons fund the rest, CANON A17)."
+Q104-014,2,4,5,3,adapt,,"Tue 17 Nov: store; Bader weighed zero reinvestment as a cost case when choosing what to prefund, not as a solvency test, so never zero was a named test in 1983; the professional test at zero is the escrow verifier's (Q54)."
+Q104-015,3,4,5,3,keep,,"Tue 17 Nov: 3a parallel, not how they were sized (NUMBERS 2's linear programme): a distant contingency is covered by a modest reserve bought early; about 65% of the zero-interest gap falls in 2038-2042 (Keel arithmetic on NUMBERS 8a) and $35,894 of extra Treasuries covers it."
+Q104-016,2,4,5,3,adapt,,"Tue 17 Nov: 3a; fix the clash cell: the ten's own rungs pay only their own payments, but the extra Treasuries pool, paying the 2033-2036 gaps from later bonds' coupons and carrying the rest forward (NUMBERS 2 and 8a), so never no payment depends on another bond."
+Q104-017,2,4,5,4,keep,,"Tue 17 Nov: 2.2 store; dedicators feared calls in 1983; Laura's five T-bonds cannot be called (Q26-018), so the coupons are her only reinvestment exposure."
+Q104-018,1,3,4,3,keep,,"Tue 17 Nov: store only; the 2042 rung carries 14.8% interest on interest against 2041's 15.3% (NUMBERS 8a checked); the bond was the latest available, not chosen for its coupon."
+Q104-019,1,4,5,3,keep,,"Tue 17 Nov: store only; 1983 actuaries valued dedicated books at 12-14%; a discussant's suggestion, serves no part."
+Q104-020,2,4,4,3,keep,,"Tue 17 Nov: 3a or 3e area (1), outside authority beside Q104-042: a New York Fed sum shows the same 16% bond realises about 14.25% with coupons and 16% as a zero; zeros are history only, never a holding for Laura (STRIPS banned)."
+Q104-021,3,4,4,3,adapt,,"Tue 17 Nov: 3a cost of certainty: 1980s buyers gave up 40-100bp for life (partly call and tax protection); name each money year: $35,894 in January 2028 money, about $45,500 back in 1 January 2033 money if rates hold (NUMBERS 8h, 8k), never about $45,000 or most comes back."
+Q104-022,1,4,4,3,keep,,Tue 17 Nov: store only; adds the reason to Q26-019 and H7-013: Treasury stopped issuing callables from February 1985 with the STRIPS programme.
+Q104-023,2,4,4,3,keep,,"Tue 17 Nov: store or a Table 1 note; stripping began against shrinking durations, Laura's 7.76 years against 9.94 (NUMBERS 1); say cash-flow matched, never not duration-matched (CANON C12)."
+Q104-024,1,4,4,4,keep,,Tue 17 Nov: store only; the first TIGRs (August 1982) drew over $1 billion of orders on the promise of no reinvesting; never a holding for Laura; carry Q104-026's date note.
+Q104-025,1,5,4,3,keep,,Tue 17 Nov: store only; even the first receipts carried call risk on bonds callable from 2006; Laura's five T-bonds are the clean case (Q26-018).
+Q104-026,1,2,3,4,merged,Q104-024,"Tue 17 Nov: date note for Q104-024: say August 1982 (NYT and Garbade), not Ferguson's July."
+Q104-027,2,3,5,4,keep,,"Tue 17 Nov: 3a, the plain definition if one is needed: a Kansas City Fed economist on 1981's 16% coupons that had to be reinvested at lower rates; stronger than Q16-011's handbook line; strips as history only."
+Q104-028,1,4,5,3,keep,,Tue 17 Nov: store only; stripping was partly a tax trade before TEFRA 1982; taxes are out of the case's scope.
+Q104-029,1,4,5,3,keep,,"Tue 17 Nov: store only; $33.7bn stripped by Feb 1985 and STRIPS to $48.2bn by 1988, demand that includes tax trades."
+Q104-030,2,3,5,3,adapt,,"Tue 17 Nov: 3e; certainty from holding to the date is true of a zero and of Laura's five T-bonds; her five iBond funds pay their net asset value, not a fixed sum (TNA l.13), so never for Laura's Treasuries alike."
+Q104-031,1,4,4,4,keep,,Tue 17 Nov: store only; Treasury unveiled STRIPS on 15 Jan 1985 to serve a market that already existed.
+Q104-032,1,4,4,4,keep,,"Tue 17 Nov: store; the dates behind Q104-033's correction: corporate zeros from March-April 1981 (Martin Marietta, J.C. Penney via Ferguson)."
+Q104-033,2,3,4,4,keep,,"Tue 17 Nov: agreed, zeros came before STRIPS: corporate zeros 1981 and Treasury receipts August 1982 (NY Fed, NYT); so Q17-010 is adapt: say before the Treasury's own STRIPS (1985) or before zero-coupon bonds (1981-82), never no zeros before 1985 or where dedication stood before 1985; its twins H2-029, Q1c-039, Q20-026 and Q87-022 carry no date and stand."
+Q104-034,1,4,3,3,keep,,Tue 17 Nov: store only; a 1985 newspaper sum where interest on interest is about two-thirds of a long zero's total value; its figures are inconsistent by about 2%.
+Q104-035,2,3,4,4,keep,,"Tue 17 Nov: conceit 3a support only (the one line that waited in pencil, inked by the extra Treasuries): the 1985 sales line for zeros, you know exactly how much and when; never as Laura's words or in a table, and zeros never as her holding."
+Q104-036,2,4,4,4,keep,,"Tue 17 Nov: 2.2 or 3a, one clause: dedication had about $100bn in place by end-1985 (a trade estimate; one banker said nearer $60bn), so Laura's ladder has a large professional history; say estimated."
+Q104-037,2,5,4,4,keep,,"Tue 17 Nov: 3a contrast, store first: First Boston explored insuring dedication's reinvestment risk; Laura holds the cover herself in Treasuries with no insurer to fail; whether a rider was sold is unknown."
+Q104-038,2,3,4,3,keep,,"Tue 17 Nov: store; falling rates made the same payments dearer to dedicate, IPS l.13's completion in another setting (NUMBERS 1 already shows it); the pension saving was against an actuarial rate."
+Q104-039,2,5,4,3,keep,,"Tue 17 Nov: 2.2 contrast, store first: dedications were swapped and re-optimised (Leibowitz: optimisation picks the worst-priced bonds); Laura's book is held with two reasons to change, so no swaps; never optimal for the plan."
+Q104-040,1,4,4,3,keep,,"Tue 17 Nov: store only; 1984 pension practice; the chapter reverses dedication and immunisation, so check before quoting."
+Q104-041,2,3,4,4,merged,Q104-042,Tue 17 Nov: the 1992 locked-in claim that Q104-042 tests; carry the quote there.
+Q104-042,4,4,3,4,keep,,"Tue 17 Nov: 3a reserve aha beside spine row 5: the 1982 14.25% Treasury paid what it said yet, coupons rolled in 6-month bills, compounded 9.29% to 2002 (rater reproduced $6,144 on the repo DGS6MO); say its coupon was locked, never its compounded rate; purchase at par and call status unchecked; Laura's coupons are a third of 14.25%, so her gap is far smaller."
+Q104-043,2,3,4,3,keep,,"Tue 17 Nov: store; a rolled ladder's return converges to its starting yield, a rate on a ladder sold and rebought, not dollars on dates; Laura's question is the dollars."
+Q100-001,3,5,5,3,keep,,"Tue 17 Nov: claim 2's audited base for 3.0 and 3a (Juming's 2022 gap of NT$25.06m, tickets 31.49%, government 3.31%); arithmetic checked; a store figure, at most one clause."
+Q100-002,2,5,5,4,keep,,"Tue 17 Nov: store support for claim 2: the running gap was there 12 years in (NT$20m a year raised outside, 2011); not like-for-like with row 1's 2022 total."
+Q100-003,2,5,5,5,merged,Q100-001,Tue 17 Nov: same point as Q100-001 (tickets do not pay Juming's running costs) in the museum's own appeal words; Q100-001's audited table is the stronger evidence.
+Q100-004,2,4,3,3,adapt,,"Tue 17 Nov: store only; keep the museum's quotes, drop the NT$2m and NT$177m property figures until read on the court's record (secondary aggregator), and note registered property includes land and works, not cash."
+Q100-005,2,5,5,3,adapt,,"Tue 17 Nov: a flood is a site shock, so in Laura's plan it meets her flexibility or co-sponsors (3b; 3e: the plan secures the money, not the site), never the operating reserve; drop the 3a use; carry Q101-043's 136 damaged works here."
+Q100-006,2,5,4,4,keep,,"Tue 17 Nov: possible 3.0 clause: Taiwan's best-known artist-founder named keeping it going among the three hardest parts; quoted second-hand in a 2003 thesis; her ten are a base for running it, not its budget (H9-119)."
+Q100-007,2,5,5,4,keep,,"Tue 17 Nov: store support for claim 3: even Chimei's running money is a yearly charter grant (NT$35m, 2024); Q100-036's December board vote makes the sharper 3d point."
+Q100-008,2,5,4,3,keep,,"Tue 17 Nov: store only; IPS l.9 in a founder's own books, but the museum still got its grant and the link to Chi Mei's loss is timing only; say can, never fall together (Q50)."
+Q100-009,3,5,5,3,keep,,"Tue 17 Nov: 3a or 3d guard: the one large Taiwan fund is permanent and spends income, while Laura's reserve is spent down one dated payment at a time; arithmetic checked (19.6 and 2.3 years); never call her reserve an endowment."
+Q100-010,3,5,4,4,keep,,"Tue 17 Nov: 3a contrast: a NT$660m fund's interest could not run a museum, while each of Laura's payments rests on an instrument that pays on its date; cite as a 2003 museum head, since the speaker is inferred."
+Q100-011,2,5,4,3,adapt,,"Tue 17 Nov: store note for 3d (company giving can track profit); say the 10% cap as the 2003 rule, never in the present tense, since today's Income Tax Act limit is unchecked."
+Q100-012,2,5,4,3,keep,,"Tue 17 Nov: store evidence for Q100-041 (the company covered about a third, the chairman the rest each year); not artist-founded; attribution by page order."
+Q100-013,3,5,4,4,keep,,Tue 17 Nov: store evidence for 3a or 2.3 beside IPS l.9: a director named the parent-company risk about a year before the museum lost its space (Q11d-024 holds the loss); attribution by page order.
+Q100-014,2,5,5,4,keep,,"Tue 17 Nov: store evidence for Q100-041: a museum whose running money was its founder's business closed with that business six years in; a builder's museum, not an artist's."
+Q100-015,3,5,5,4,keep,,"Tue 17 Nov: 3d guard with a Taiwan reason: officials gave less to museums they thought rich, so never pitch her ten owned years as a reason the state need not help, nor as an anchor or match."
+Q100-016,2,4,4,4,keep,,"Tue 17 Nov: store evidence for Q100-041 (closed in 1985 with the founder's finances, after a scandal); KNOWN in Taiwan, rare for a Wharton judge."
+Q100-017,3,5,5,4,keep,,"Tue 17 Nov: 3.0 or 3a contrast in a founder's own words: he had to earn NT$14m each year to run it, while Laura's ten are owned before 2033; NT$1.64m is context, never her residency's cost."
+Q100-018,2,5,5,3,keep,,Tue 17 Nov: store support for claim 1: outside money came a decade or two on and for named projects; close to the pattern of Q11e-035.
+Q100-019,3,5,5,4,keep,,"Tue 17 Nov: 3.0's clearest Taiwan statement of the model: a family must earn NT$25m of profit a year to carry the running costs; a collector's museum, not an artist's."
+Q100-020,3,5,4,3,adapt,,"Tue 17 Nov: 3.0 store note; the 4.3 times sets $500,000 of face against the $115,000 top, so say face dollars or use $399,089 (NUMBERS 8h), about 3.5 times; the building remark is context, never a cost."
+Q100-021,1,4,5,4,keep,,Tue 17 Nov: store only; one rural quote doubling adds little to Q5d's base rates for Table 3 row 7; never an estimate for Laura's building.
+Q100-022,2,5,5,3,keep,,Tue 17 Nov: store evidence for claims 1-3 (an artist's family built with a loan and runs on almost nothing; succession named as a hard problem).
+Q100-023,2,5,4,4,keep,,"Tue 17 Nov: store evidence that family galleries survive on persistence without money set aside; a student report, not peer-reviewed."
+Q100-024,3,5,5,4,keep,,"Tue 17 Nov: 3d support for the founder pays first: the biggest co-sponsor gift found came 35 years on, for visible persistence; one donor's reasons and a capital gift; never about the founder's share."
+Q100-025,2,5,5,4,keep,,"Tue 17 Nov: store contrast: the artist's works were the reserve, sold when needed; pairs with Q101-002; never imply shares are sold to pay a payment (IPS l.11)."
+Q100-026,2,5,5,4,keep,,"Tue 17 Nov: store nuance for Q100-041: the usual answer to a running gap was opening less (half-closing, appointments) or selling works, not closing."
+Q100-027,2,3,4,4,keep,,Tue 17 Nov: store base rate from two theses that tickets do not pay running costs; the 2007 thesis read as an abstract only.
+Q100-028,3,5,5,4,adapt,,"Tue 17 Nov: 3d note, but from one New Taipei museum forum; say it of private museums, never of residencies, where the Ministry's village grants pay yearly running costs (Q10d-009)."
+Q100-029,2,5,5,4,merged,Q100-030,"Tue 17 Nov: same case as Q100-030 (IT Park run on the founder's photography surplus); carry the NT$170,000 a month (2001) as context only."
+Q100-030,4,5,4,4,keep,,"Tue 17 Nov: 3a or 3.0's one Taiwan example of IPS l.9: a career paid for an artist-run space for 37 years and its end ended the space; say rest, not closure, and leave the blog's borrowing detail out."
+Q100-031,2,5,5,3,keep,,"Tue 17 Nov: store support for 3d and 3e area (3): co-sponsors paid in short fixed terms, three years at most; beside Q50-008 and Q55-001."
+Q100-032,2,5,4,4,adapt,,"Tue 17 Nov: 3.0 note; say owned years free some of that time, since her ten are a base and the residency still raises the rest (H9-119); two practitioners' views."
+Q100-033,2,3,5,4,keep,,"Tue 17 Nov: store only; key-person risk, and the building lived on under a new operator; whether payments continue without Laura is outside the case."
+Q100-034,1,5,5,3,adapt,,"Tue 17 Nov: store only; drop the analogy: Laura plans to establish the residency (case l.76), so she is not an outside contributor to an institution others run."
+Q100-035,3,5,3,4,adapt,,"Tue 17 Nov: 3d half-clause support, but registered funds are legal minimums that include land and works, Juming's is secondary and its 2026 figure exceeds a year; say no case found showed a year of running costs set aside at opening, never none of the 13."
+Q100-036,3,5,5,4,keep,,"Tue 17 Nov: 3d contrast: Chi Mei, the best-known corporate museum backer, still votes its donation each December, while Laura's ten need no vote; read in Chi Mei's own filings."
+Q100-037,2,3,5,4,merged,Q11d-023,"Tue 17 Nov: twin of Q11d-023 (Chimei's tickets cover about half, the company the rest); carry the 2003 free-entry figures there."
+Q100-038,2,5,3,4,keep,,"Tue 17 Nov: store horizon note: her commitment needs ten dated years, not permanence (the case puts after 2042 out of scope); never the 40-50 year figure, which is unsourced."
+Q100-039,2,5,4,3,adapt,,"Tue 17 Nov: 3.0 context only; drop residency-sized, which reads as costing the residency; say her NT$1.64m is below every case's yearly running cost, so a base, not a budget; mixed years."
+Q100-040,3,5,3,4,adapt,,"Tue 17 Nov: 3b evidence beside Q11e-033, but only Juming is among the praised founders; say founder-funded places with nothing set aside met shocks by appeal, sale or borrowing, and her half meets IPS l.15's three uses, never giving less."
+Q100-041,4,5,4,4,adapt,,"Tue 17 Nov: 3.0 and 3a, IPS l.9 in Taiwan's own record; say most of each payment is owned January 2027 and the rest January 2028, never all from 2027; cases found, not a census; test cold first, since the Taiwan halls row failed by inviting what after 2042."
+Q101-001,4,5,4,5,keep,,"Tue 17 Nov: 3a outside yardstick from the artists' own adviser: fund the first years without art sales; Laura's ten do it for ten years in Treasuries; say advice for artists' foundations, not a standard, and initially means the first years."
+Q101-002,3,5,5,4,keep,,"Tue 17 Nov: pairs with Q101-001 for 3a: without money set aside at the start, study centres sell their works to run; never call Laura's reserve an endowment."
+Q101-003,2,5,5,4,keep,,Tue 17 Nov: store support for IPS l.9: art alone funds a foundation only if it sells; Laura's payments do not rest on her career's market.
+Q101-004,2,5,5,3,merged,Q101-003,Tue 17 Nov: same idea as Q101-003 (assuming art alone will fund a foundation); about estate-distribution foundations.
+Q101-005,2,5,5,3,keep,,Tue 17 Nov: store support for claim 1 and 3b: house museums strain against estate plans and turn to public money; the case already plans co-sponsors for the facility.
+Q101-006,1,4,5,4,keep,,Tue 17 Nov: store only; a US accreditation rule on sale proceeds serves no part.
+Q101-007,3,5,4,4,adapt,,"Tue 17 Nov: 2.3 contrast if room (70% of the field's assets in art, 2015); drop the unsourced superlative most concentrated portfolios in philanthropy; Laura's residency is not an artist-endowed foundation."
+Q101-008,2,5,4,3,keep,,"Tue 17 Nov: store correction to claim 2: by count 46% held only financial assets in 2005; most hold art is true of the dollars, not the foundations."
+Q101-009,2,5,5,3,keep,,"Tue 17 Nov: store support for Q101-007: programme-running foundations were the most art-heavy (74%, 2005)."
+Q101-010,3,5,5,4,keep,,"Tue 17 Nov: 3.0 contrast: living founders' foundations run pass-through, spending each year's gift, while Laura owns ten years before the first payment; Jentel (Q32-031) is the case."
+Q101-011,3,3,3,4,keep,,"Tue 17 Nov: 3.0 store note (main money arrives about 18 years on, at death); the cited study was not read; never as no other founder can, which SKELETON 3.0 cut as untestable."
+Q101-012,2,5,4,3,keep,,"Tue 17 Nov: store support for IPS l.9 (founders' gifts fell from 66.5% to 26.7% of revenue, 1995-2000); the study says cause cannot be confirmed; cite IPS l.9, partly true per CANON B4."
+Q101-013,2,5,5,4,adapt,,"Tue 17 Nov: store support for 2.3: art can fall in the same downturn as shares; say a downturn that can cut co-sponsors, never one that cuts them (Q50)."
+Q101-014,2,5,4,4,keep,,"Tue 17 Nov: possible conceit or 3e note: a value that did not move in 2008 was unpriced, not safe; the study only speculates on the cause."
+Q101-015,2,5,5,3,keep,,Tue 17 Nov: store contrast: forced block sales are discounted and borrowing against future sales is pencil; Laura's payments need neither.
+Q101-016,2,5,5,3,keep,,"Tue 17 Nov: store only; one sentence naming flexibility as the design question, loosely beside the half kept; not a finding."
+Q101-017,3,5,4,3,adapt,,"Tue 17 Nov: 3a base rate beside Q9-016: 44% of ended foundations were spent out or never funded (Keel arithmetic); drop than buildings do, since the reasons list has no building category, and 28% ended as planned."
+Q101-018,1,4,4,4,keep,,"Tue 17 Nov: store only; operating foundations spend on operations, true but serves no part."
+Q101-019,3,5,5,4,adapt,,"Tue 17 Nov: 3e site limit (the plan secures the money, not the site); never the first artist-founded residency, since Yaddo (1900) and MacDowell (1907) had artist co-founders; say an early one, 1918."
+Q101-020,2,3,5,3,keep,,"Tue 17 Nov: store context for Q101-021 (a residency run from an owned fortune, 3.4% of book assets spent in FY2025); arithmetic checked."
+Q101-021,3,5,4,4,keep,,"Tue 17 Nov: 3e limit beside Q9c's site closures: even an owned fortune did not keep a storm-hit site; said as a limit on the site, never as comfort for the payments."
+Q101-022,2,5,4,4,merged,Q101-021,Tue 17 Nov: same event as Q101-021 (Captiva from Hurricane Ian to sale); carry the storm-to-sale timeline; the price is unconfirmed.
+Q101-023,1,3,3,3,keep,,Tue 17 Nov: store only; a size marker with conflicting counts.
+Q101-024,2,5,4,4,keep,,"Tue 17 Nov: store case of money before the place (17 years to opening), but forced by an estate's settling, not chosen; Q9-009 carries the principle."
+Q101-025,2,3,4,4,keep,,"Tue 17 Nov: store only; a founder's institution that takes no gifts needs a large owned base; 2014, and it later took a Mellon grant."
+Q101-026,1,3,5,4,keep,,Tue 17 Nov: store contrast only; paying operations from art sales would clash with IPS l.11 if offered as a model.
+Q101-027,2,5,5,3,keep,,Tue 17 Nov: store support for Q101-007 and 2.3 (one residency-running foundation 75.7% in the founder's art); arithmetic checked.
+Q101-028,3,5,5,5,keep,,"Tue 17 Nov: conceit candidate for 3.0 or 2.3: the same paintings at $22.8m book and $437.3m market on one form, pencil until sold; one turn, never in tables or Laura's words."
+Q101-029,1,5,5,3,keep,,"Tue 17 Nov: store only; art's carrying cost (0.16% a year, arithmetic checked) serves no part."
+Q101-030,2,5,4,3,adapt,,"Tue 17 Nov: store only; drop the $50,000-as-2.5% and per-artist comparisons, which read as costing the residency, and fix the on-site count (16 with 2 virtual against 13 named)."
+Q101-031,1,3,3,4,keep,,"Tue 17 Nov: store only; programme terms are the residency's business, which SKELETON 3d cuts."
+Q101-032,1,5,4,3,adapt,,"Tue 17 Nov: store only beside Q32-031; drop $50,000 as seven or eight Jentel residencies, a per-artist costing in 2008 US money."
+Q101-033,2,5,3,4,keep,,"Tue 17 Nov: store contrast for 3.0: one painting bought a building and two years of running, then yearly grants; read through search excerpts."
+Q101-034,1,5,3,3,keep,,Tue 17 Nov: store only; the grant figure comes via an aggregator and covers all of Le Korsa's work.
+Q101-035,1,5,4,3,keep,,Tue 17 Nov: store only; sales of assets mix securities and art; arithmetic checked.
+Q101-036,2,3,3,4,keep,,"Tue 17 Nov: store failure case for reserves before buildings: buildings, debt and little cash; heirs not named; search excerpts."
+Q101-037,2,5,5,4,keep,,"Tue 17 Nov: store or conceit note: art-rich and cash-poor (spending 0.40% of assets in 2005), a large pencil figure that pays no bills; arithmetic checked."
+Q101-038,2,3,2,4,adapt,,"Tue 17 Nov: store only; the lot count conflicts (26 against 25 of 36), so say about two dozen works with the source named."
+Q101-039,1,3,2,4,adapt,,"Tue 17 Nov: store only; one historic restoration with conflicting final costs ($23m or $28m), never set against her flexibility (aha row 8's guard); Q5d holds the base rates."
+Q101-040,1,5,4,3,adapt,,"Tue 17 Nov: store only; say public charity since FY2013, the year 101 Spring Street opened, as timing, not that the building pushed it."
+Q101-041,1,5,5,4,keep,,Tue 17 Nov: store only; trustees chose to end rather than sell the core asset.
+Q101-042,2,3,3,4,keep,,Tue 17 Nov: store parallel for 3b: one estate split the money from the building and gave the house to a university to run; transfer terms not read.
+Q101-043,2,5,4,4,merged,Q100-005,"Tue 17 Nov: same event as Q100-005 (Juming after the October 2024 flood), which was read at source; carry the 136 damaged works there."
+Q101-044,3,4,3,3,adapt,,"Tue 17 Nov: 2.3 contrast if room; the parallel is concentration, not unsellability, since the foundations can and do sell the art; a Keel inference, never the IPS's own claim."
+Q103-001,4,2,5,5,keep,,"Tue 17 Nov: 3e area (4), Table 3 row 7: October 2026 index 120.50, +7.18% on a year, now read at source; NUMBERS 8d still carries September's +7.29% until the numbers owner updates it."
+Q103-002,4,2,4,4,keep,,Tue 17 Nov: 3e area (4): five years to October run 3.19% a year (reproduced on the register's own series plus 120.50); 8d and SKELETON 3e still say 3.27% to September until the numbers owner updates them; band stands.
+Q103-003,3,4,4,4,keep,,"Tue 17 Nov: 3e area (4) watch line: the 7% headline is mostly Dec 2025 to May 2026 (+5.24%); May to Oct +1.46%, about 3.5% a year, inside the band (reproduced); October's reading, so 8d's update caveat applies."
+Q103-004,2,4,4,3,keep,,"Tue 17 Nov: Store: a 12-month rise above 7.18% in 73 of 418 months (reproduced); overlapping windows; the 2.5% threshold is public-contract law, context only."
+Q103-005,2,3,4,4,keep,,"Tue 17 Nov: Store: three-year index rises above 20% in 15.2% of 394 windows (reproduced); index history, never a facility cost estimate; 8q already tests the joint two-year move."
+Q103-006,2,4,4,3,keep,,"Tue 17 Nov: Store: under the model clause the owner carries the excess above 2.5%, at most 65% of a 7.18% rise; corrects the store's 'pass index rises to the owner' (H3-072, Q5e-011) for public contracts."
+Q103-007,1,4,5,3,merged,Q103-006,"Tue 17 Nov: Store: the PCC's worked example behind row 6; my recompute gives about NT$1,254,950 against the PCC's NT$1,255,007, a rounding gap in the source."
+Q103-008,2,5,4,3,keep,,"Tue 17 Nov: Store: the 2004 relief applied only where the project's own budget could cover it; Taiwan administrative rule, context for the half kept, never legal analysis."
+Q103-009,3,5,4,3,keep,,"Tue 17 Nov: 3b/3e store: Taiwan's 2004, 2008 and 2009 burst-relief rules excluded subsidised legal persons and groups by name, so a co-sponsored residency meets a burst with its own spare money; context only, legal requirements are outside the case (l.168-169)."
+Q103-010,1,4,4,3,keep,,"Tue 17 Nov: Store: the 2008 subsidy principle's dates and thresholds, read through Rootlaw's copy; relief as a dated exception."
+Q103-011,3,5,4,3,keep,,"Tue 17 Nov: 3b parallel for the half kept: in 2008 the government paid a burst from the job's own savings and budget first; the break (a government can tax and borrow, Laura has two reasons only) travels with it; co-sponsors still exist, so drop 'nothing behind it'."
+Q103-012,2,4,4,4,keep,,"Tue 17 Nov: Store: cutting the work is a named lever in the 2008 list; the residency's design choices are its own and outside the case, so never a plan step."
+Q103-013,1,4,4,3,keep,,Tue 17 Nov: Store: the 2008 relief's duties and closing dates; administrative detail.
+Q103-014,2,3,4,4,adapt,,"Tue 17 Nov: Store/3e: bursts are fast (reproduced), but one quarter (+11.6%, Dec 2003 to Mar 2004) is more than two years of the band's 5% top, not three; one year (+16.5%) carried more than three."
+Q103-015,2,4,4,4,keep,,"Tue 17 Nov: Store: relief rules reached back after a burst, so until they came a budget carried it alone; public works only."
+Q103-016,1,4,4,3,keep,,"Tue 17 Nov: Store: the clause refunds owners in a fall, which is why the 2009 waiver was born; adds the reason to Q10e-027's date."
+Q103-017,1,3,4,3,merged,Q10e-028,"Tue 17 Nov: Store: restoring a clause reaches only work not yet done, already in Q10e-028; the 30 Dec 2021 end of waivers is in Q10e-029."
+Q103-018,2,3,3,4,keep,,"Tue 17 Nov: Store: in 2021 the PCC's answer was more clauses, not a subsidy; the absence of a relief rule rests on the pages searched."
+Q103-019,1,4,4,3,keep,,Tue 17 Nov: Store: the model clause's default named items; public contracts only.
+Q103-020,2,4,4,3,keep,,"Tue 17 Nov: Store: the relief principles are administrative rules that cannot change a private contract; with Q10e-031, the contract decides who carries a rise."
+Q103-021,2,4,3,3,keep,,"Tue 17 Nov: Store: past relief covered domestic materials only, so imported fit-out sits outside an index clause; one article's suggestion, and the national index is not her building (8q limits)."
+Q103-022,2,2,5,4,keep,,"Tue 17 Nov: Store: Civil Code art. 227-2's text, read at source; the floor under every fixed price in Taiwan; context only, never legal advice."
+Q103-023,2,5,3,3,keep,,Tue 17 Nov: Store: courts split on whether a no-adjustment clause shuts out art. 227-2; read only as quoted by one article.
+Q103-024,2,5,3,3,keep,,Tue 17 Nov: Store: Chiayi City Hall's 2004 burst split in halves after years in court; the remand ruling was not read at source.
+Q103-025,2,5,4,3,keep,,"Tue 17 Nov: Store: an index clause can miss one material (Taipower, owner bore about 63% of the gap, checked: 51.09 of 81.23); a state utility, not a residency."
+Q103-026,1,5,4,2,keep,,"Tue 17 Nov: Store only; the conceit use is refused: a judgment is a figure owed, and ink is a figure owned in Treasuries (a pledge is owed, her floor owned)."
+Q103-027,1,5,4,3,keep,,"Tue 17 Nov: Store: art. 227-2 claims should be made quickly, and owner-caused delay turns design changes into a price claim; public road case."
+Q103-028,1,5,4,3,keep,,Tue 17 Nov: Store: 2008 relief paid to a main contractor did not reach its steel subcontractor; outside anything the case asks.
+Q103-029,1,5,4,3,merged,Q10e-029,Tue 17 Nov: Store: the private-subcontract dismissal is in Q10e-029; carry the late site and the private-contract argument as detail.
+Q103-030,1,5,4,3,keep,,"Tue 17 Nov: Store: a waived clause stays waived (Kinmen 2025), about 1% a month held foreseeable."
+Q103-031,2,4,5,4,keep,,Tue 17 Nov: 3e area (4) and Table 3 row 7 presentation: quote every index move as a percentage with its data month (the Kinmen claim's 11.49 was points; 11.80% checked).
+Q103-032,2,4,4,4,keep,,"Tue 17 Nov: Table 3 row 7 presentation: DGBAS's own rules for index-linked figures (data month, percentage, threshold); pairs with row 31."
+Q103-033,1,5,4,3,keep,,Tue 17 Nov: Store: under the NLMA's points who causes a delay carries the index during it; one agency.
+Q103-034,1,3,4,3,keep,,"Tue 17 Nov: Store: 427 adjusted contracts ended 2017 to Jul 2022, NT$1.576bn; with Q10c-016 and Q10c-010 (2021 materials-led, 2026 wage-led)."
+Q103-035,2,5,4,4,adapt,,"Tue 17 Nov: Store: the Green Museumbrary's three failed tenders came in 2018, when the index rose only about 2.8% (Dec to Dec, register series), so not a burst; say price risk before signing sits with the owner, never that a burst showed as no bidders."
+Q103-036,2,5,3,3,keep,,Tue 17 Nov: Store: its clause paid about 2.4% of the contract while the index rose 22.4% (reproduced); final total not found and much work came later.
+Q103-037,2,5,4,4,keep,,"Tue 17 Nov: Store, 3b background: a Taiwan arts building met the 2021-22 burst with about a seventh more money from its owner; a large public building is the wrong reference class (as Q9-027) and never a sizing of her overrun."
+Q103-038,2,4,5,4,keep,,"Tue 17 Nov: Store: the Interior Ministry's private renovation template has a fixed price and no adjustment clause; with Q10e-031, corrects the store's 'contracts pass rises to the owner' for private fit-out."
+Q103-039,2,3,3,3,keep,,"Tue 17 Nov: Store only: never call her flexibility insurance; no premium, a private contract may have no clause, and her shares do not move with building costs."
+Q103-040,1,5,4,3,keep,,Tue 17 Nov: Store: art. 227-2 follows Germany's lost-basis doctrine (BGB 313); academic background only.
+Q108-001,1,4,2,2,adapt,,Tue 17 Nov: Store: the 2008 channel parts add to $455m against a $395m total (CONFLICTING); use only the 2006-07 split or the total.
+Q108-002,2,4,4,3,keep,,Tue 17 Nov: Store: in 2009 comic shops' graphic novels fell 15% while BookScan's line fell 8% in 25 weeks; collectors' channel hit hardest.
+Q108-003,4,4,5,4,keep,,"Tue 17 Nov: 3e area (2): her genre fell a year after the 2008 crash, about three times as fast as all books (BookScan units -9.3% and -13.9% against -3.3% and -4.5%); the case's own genre for l.9's 'later', in place of Q12-018's 2023 figure; same downturn, later, never a lag or beta."
+Q108-004,3,5,5,3,merged,Q12b-001,"Tue 17 Nov: 3e store: BookScan's top 750 confirms Q12b-001 on a second dataset (manga -21.5%, the rest +18.8% in 2009; about +14% without Watchmen, Keel arithmetic); book sales, never evidence against l.9's 'smaller', which is about advances, fees and licences."
+Q108-005,2,5,5,3,keep,,"Tue 17 Nov: Store: Graphix rose 24.8% in 2009 and fell 16.4% in 2010 (checked), a release calendar not the economy; the case never says her books are children's."
+Q108-006,2,5,5,3,keep,,Tue 17 Nov: Store: 2009's release cut was manga's; non-manga releases -2.2% (checked); lists outside manga barely shrank.
+Q108-007,3,5,4,4,keep,,"Tue 17 Nov: 3e area (2) store: in 2007-10 listed titles rose 67% and sales per title fell 53% (checked), the figure advances follow (row 29), so the squeeze reached new advances, not the shelf."
+Q108-008,2,5,4,3,keep,,"Tue 17 Nov: Store: the same pattern in 2023 (titles +6.8%, sales per title -20%, checked); pairs with row 7."
+Q108-009,4,5,5,4,keep,,Tue 17 Nov: 3e/2.3: I agree with Q108 that Q12-018's 'her genre fell by a third' was mostly manga: in 2023 manga lost 7.74m of the whole list's 7.87m units (Keel arithmetic on this row) while the non-manga long tail fell 0.6%; GEM_LEDGER row 3's 3e clause needs this fix.
+Q108-010,4,5,4,3,adapt,,"Tue 17 Nov: 3e/2.3: agree the -22.4% and -11.5% were mostly manga with YA hits in 2024; fix the card's own wording too: the third is BookScan's adult graphic novel line, while the whole list fell 15.0% in 2023 (row 8), so never 'graphic novels as BookScan counts them fell about a third'; whether the YA fall sits inside the adult line is not shown."
+Q108-011,2,3,4,3,keep,,"Tue 17 Nov: Store: the slump ended within two years in a rising market, 2025 a record $2.2bn; two BookScan scopes move differently."
+Q108-012,1,4,3,2,merged,Q12b-002,"Tue 17 Nov: Store: channel splits 2019-2024 extend Q12b-002's totals; methods changed in 2020, 2023 and 2024."
+Q108-013,2,3,4,4,merged,Q12b-002,"Tue 17 Nov: Store: 2020's growth through other doors while Diamond shut seven weeks adds detail to Q12b-002 and CANON B4's 2020 rise; a closure, not a recession."
+Q108-014,2,3,5,4,keep,,"Tue 17 Nov: Store: the genre's long boom ($75m in 2001 to $395m in 2008) hides its dips; the pitch's 'giant stock' as a single stock, never a forecast of her genre's growth."
+Q108-015,2,5,5,3,keep,,"Tue 17 Nov: Store: Tokyopop cut its list and reopened licences together, months before Lehman, warned by bookshop returns; a manga licensor, not an author's publisher."
+Q108-016,2,5,4,3,keep,,"Tue 17 Nov: Store: a retailer's failure (Borders, 2011, S&P +2.10%) stopped money already earned; pairs with Q12-011 (authors' royalties unpaid) and row 31."
+Q108-017,2,5,3,3,keep,,"Tue 17 Nov: Store: DC closed Minx for shelving, not the economy, taking a creator's finished book; launch spend CONFLICTING."
+Q108-018,1,4,5,4,keep,,Tue 17 Nov: Store: Virgin Comics became Liquid Comics; an end can be a change of owner.
+Q108-019,2,5,5,3,keep,,"Tue 17 Nov: Store: the imprint closures were manga lines, two to three years after the share trough; supports 'later' at most as background."
+Q108-020,1,5,4,3,keep,,"Tue 17 Nov: Store: Diamond raised its minimum order in Jan 2009 citing the economy; reached small presses, not advances."
+Q108-021,1,4,3,3,keep,,Tue 17 Nov: Store: marketing went before books at BookExpo 2009; one show.
+Q108-022,2,3,5,3,keep,,"Tue 17 Nov: Store: ICv2's reasons for 2009's fall (shelf space, store closures, selective buying); an analyst's reading, with row 3."
+Q108-023,3,4,4,4,adapt,,"Tue 17 Nov: 2.3 store beside Laura's own line (goldmine row 36): fix the figure: 837 is the average across all 53,466 listed titles (44.74m / 53,466, row 8), not the top 750; quote her line once, never about the case's money."
+Q108-024,2,4,5,3,keep,,"Tue 17 Nov: Store: Scholastic's FY2023 trade fell while book fairs rose 29%; book fairs are family money at school (Q12b-008), background only."
+Q108-025,2,4,4,3,keep,,"Tue 17 Nov: Store: the 2023-24 cuts were firm-specific (IDW, Oni, Abrams), idiosyncratic risk like a single stock's."
+Q108-026,2,5,3,3,keep,,"Tue 17 Nov: Store: imprints opened in the 2023-24 slump, killing 'lists and imprints go first'; 23rd Street's launch month seen in headlines only."
+Q108-027,3,4,3,3,keep,,"Tue 17 Nov: 3e area (2) store: new deals fell first (children's deals -17% in Q2 2024) while the top set records; market-wide, open excerpts only, and the case never says her books are children's, so never 'her corner of the market'."
+Q108-028,1,5,4,3,keep,,Tue 17 Nov: Store: 192 graphic novel deals in 2023 against about 137 agents; a small deal market.
+Q108-029,2,4,4,3,keep,,"Tue 17 Nov: Store: a graphic novel advance follows expected sales, not work, and signing to release runs about a year; one agent and one editor."
+Q108-030,3,4,3,3,adapt,,"Tue 17 Nov: 3e area (2): IPS l.9 says advances come later and smaller, so drop 'less their size'; say new deals fall first and money comes later; Laura's contracts are not known (Keel inference)."
+Q108-031,3,5,4,4,keep,,"Tue 17 Nov: 3e/2.3 store: her genre's sharpest cash shock (Diamond's Chapter 11, Jan 2025, S&P 2024 +24.88%) came from its own pipes, the single-stock reading of the pitch; never 'her career moves against shares'."
+Q108-032,1,3,3,3,keep,,Tue 17 Nov: Store: comic shops led the 2025 recovery; about 125 stores behind the estimate.
+Q108-033,3,4,3,4,merged,Q108-003,"Tue 17 Nov: 3e area (2): twin of row 3 with the S&P years and ICv2's 2013 'tough couple of years' quote; carry the quote, say same downturn, later; Borders and manga are causes of their own."
+Q108-034,1,4,4,3,keep,,Tue 17 Nov: Store: Australia's kids' and literary graphic novels rose in 2023; Australian angle only if it earns its place.
+Q108-035,2,4,4,3,keep,,"Tue 17 Nov: Store: kids' graphic novels were the steadiest part of the genre, dominated by Dog Man; the case says read in classrooms, never that her books are children's."
+Q107-001,3,5,4,4,adapt,,"Tue 17 Nov: aha setting, claim 1; true for magic-trick solvers who found the answer themselves, so never read the 12 points as a judge's gain or the gap to the next team's report; rows 4-5 (shown answers) are the report's case."
+Q107-002,3,5,3,4,keep,,"Tue 17 Nov: register process guard: a felt aha is no truth check (75 of 329 wrong, Keel arithmetic on Danek's Table 1), so each spine row's truth check stays apart from its aha score; pairs with row 22."
+Q107-003,3,5,4,3,adapt,,"Tue 17 Nov: aha setting; the certainty measured was the solver's own, not the text's tone, so the link to stating each fact flatly (Book 19) is Keel inference; say only that right answers held with certainty were remembered best and restructuring added nothing."
+Q107-004,4,5,5,4,keep,,"Tue 17 Nov: every spine row and Book 11: a shown answer after a brief attempt still gave an aha and better memory, so the report states each answer and asks nothing of the judge; never quote d = 0.96 as the aha's size (the controls were nonsense items)."
+Q107-005,3,5,4,3,keep,,"Tue 17 Nov: sizes what Book 11's ban costs: a shown answer keeps a smaller aha benefit, a self-found one more; supports row 4, with the aha's own link to memory weak."
+Q107-006,2,5,4,3,merged,Q107-004,"Tue 17 Nov: same lesson as row 4 (a watched reveal still sticks) on camouflaged pictures, with no told-cold baseline; row 4 carries it."
+Q107-007,2,3,5,4,keep,,"Tue 17 Nov: context only: the generation effect is the ceiling the report gives up under Book 11; word-level tasks, so no aha row changes."
+Q107-008,2,4,2,3,adapt,,"Tue 17 Nov: UNVERIFIED (the 1983 paper read only as cited); a judge's unstated expectation is not an attempt to generate, so never call the judge fail-to-generate until the original or Brod et al. 2018 is read."
+Q107-009,3,5,3,4,merged,Q107-010,"Tue 17 Nov: the original of row 10's delayed-key effect, its results read only as summarised; row 10 carries the verified table."
+Q107-010,4,5,5,4,adapt,,"Tue 17 Nov: the sentence-scale recipe for all ten spine rows (puzzle sentence, key in the next, recall about doubled for lab sentences); drop the cold-test clause: Zaromb's readers were people, and simulated readers' ratings are no evidence of the same blindness."
+Q107-011,4,3,5,4,keep,,"Tue 17 Nov: 2.0 and CONCEIT V2.1: the frame before the rows (8.00 against 3.60 of 14 ideas) and a key held to a whole passage's end did nothing, so the definition stays before Table 1 and each aha's key sits in the next sentence."
+Q107-012,3,4,4,4,keep,,"Tue 17 Nov: conceit guard (V2.4): an irrelevant cue lowered recall below no cue, so a turn that fits a different mapping is worse than none, and a turn is never an aha's key sentence."
+Q107-013,3,3,5,3,adapt,,"Tue 17 Nov: conceit (Book 19's startling new perspective): grasping a metaphor counts as insight and needs no impasse, so a defined turn can be a small aha; drop the leap from unconscious processing to where evidence sits on the page."
+Q107-014,3,3,4,4,keep,,"Tue 17 Nov: aha setting: the ease of the last step is the felt aha, so each key sentence is short and plain; distinct from Q14b-009 (fluency of a whole text)."
+Q107-015,3,3,4,4,keep,,"Tue 17 Nov: aha targets and the conceit: curiosity rises with knowledge, so each aha opens a gap in finance (confidence, diversification, funding at market) and each cross-field turn serves that gap, as CONCEIT V2.4 guard 2 already asks."
+Q107-016,4,3,4,4,adapt,,"Tue 17 Nov: Book 11 answered: a stated fact that breaks an expectation (trigger 3) opens the gap with no question; drop the trigger-4 mapping, since the judge sees the construction lines co-sponsors never do, so it opens no gap for the judge."
+Q107-017,3,4,4,3,keep,,"Tue 17 Nov: aha targets: a judge sure of the answer feels no gap, so naming the belief's real holder lets the judge notice they share it, with the gap one sentence wide (pairs with row 39)."
+Q107-018,3,3,4,4,keep,,"Tue 17 Nov: register row 3 (2.5): satisfied curiosity tends to disappoint, so a one-sentence setup closed at once by its figure; the evidence is anecdotal."
+Q107-019,3,4,4,3,keep,,"Tue 17 Nov: aha targets: curiosity peaks near 50% sure, so half-held beliefs (the usual reading of a confidence level, diversification) suit spine rows 1 and 2; 16 people, figures only in a chart."
+Q107-020,3,4,4,3,adapt,,"Tue 17 Nov: aha targets: confident errors are corrected more once shown wrong, so a confidently held expert belief is the best target; drop the cold-test field, since a simulated reader's stated confidence is not a person's."
+Q107-021,3,4,4,4,keep,,"Tue 17 Nov: the register's told once: confident errors returned when the fact was forgotten, so each aha's figure may recur once plainly (a table cell, a later number), never as a second aha."
+Q107-022,4,5,5,4,adapt,,"Tue 17 Nov: guard for every aha and the conceit: an induced aha raised the felt truth of false claims as much as true ones, so every aha stands on its own NUMBERS figure and a turn is never the evidence; drop row 5b's 2.3 (simulated readers, not judges) and never use it to bring back certainty guards (Book 19)."
+Q107-023,2,5,2,3,merged,Q107-022,"Tue 17 Nov: UNVERIFIED (title only); the same lesson as row 22, which was read."
+Q107-024,2,3,3,4,keep,,"Tue 17 Nov: context only: felt insight is usually right for solvers, which is why readers trust it; it licenses no unchecked aha."
+Q107-025,3,3,5,4,keep,,"Tue 17 Nov: claim 3: refutation (the belief, why it misleads, the fact) is the tested form for setting each spine row; row 26 gives the adult size."
+Q107-026,4,4,5,4,keep,,"Tue 17 Nov: every spine row: g = 0.33 for university readers, and it works only on a misconception really held, so each aha names a belief someone real holds (a rule, a court, an industry figure), never a straw one."
+Q107-027,3,3,4,4,keep,,"Tue 17 Nov: register setting: no widespread backfire across 76 studies, so each row may state the wrong belief once without planting it."
+Q107-028,3,4,2,4,keep,,"Tue 17 Nov: UNVERIFIED (Paynter et al. read only as reported); the nearest evidence to expert readers says a refutation can fade, which backs row 21's plain recurrence; read the paper before leaning on it."
+Q107-029,2,3,3,3,keep,,"Tue 17 Nov: store; older readers gain less (the grade-11 finding UNVERIFIED, second-hand); row 26's verified university figure does the job."
+Q107-030,2,3,2,3,merged,Q107-025,"Tue 17 Nov: CONFLICTING (original not read, effect sizes cannot be assigned); its conflict lesson is carried by rows 25 and 16."
+Q107-031,4,3,4,4,keep,,"Tue 17 Nov: the order for each register row: a pithy fact leads (row 2), a subtle one starts from why the belief misleads (row 1), each ends on its fact; repeat the fact yields to told once through row 21."
+Q107-032,4,4,4,4,keep,,"Tue 17 Nov: the register's density rule: unusual items are remembered only beside plain ones, so about one aha a page with plain ground between, and the range paragraph between spine rows 1 and 7 in 3c."
+Q107-033,2,4,4,3,merged,Q107-032,"Tue 17 Nov: the same mixed-list lesson as row 32, from humour; row 32 carries it."
+Q107-034,3,3,2,4,adapt,,"Tue 17 Nov: Book 18 backed by research: an aha that does no part's job is a seductive detail; UNVERIFIED (press release only, read the paper for its size), and drop the cold test 3 failures as examples (simulated readers' scores, failed for repetition)."
+Q107-035,3,5,4,4,keep,,"Tue 17 Nov: aha ethics from detective fiction: every figure the key needs is on the page before it, so never a puzzle the report cannot answer truthfully; disanalogy recorded (a report never withholds for chapters)."
+Q107-036,2,2,2,3,adapt,,"Tue 17 Nov: CONFLICTING (book not read; the page read says the question is written out); use SCQA only as complication then answer, never as Minto backing an unwritten question."
+Q107-037,3,3,3,4,adapt,,"Tue 17 Nov: holder, fallacy, fact is a sound template for every spine row from rows 25-31; drop the claim that this is why row 5 scored 4.3 (three simulated readers' scores are not reader evidence)."
+Q107-038,4,3,2,3,adapt,,"Tue 17 Nov: 3f, register row 10: set the aha on a belief a judge holds (a crash is the danger) so the judge's correction and the team's 27 Sep change land together; untested, so drop the causal claim from simulated scores, and keep the team's own reason from its record (standing order 21)."
+Q107-039,3,3,3,5,adapt,,"Tue 17 Nov: every spine row: name the belief's real holder, never you or many think; fix its own row 3 example (the reader's own sense is a you holder): give row 3 a real holder or set it plainly."
+Q107-040,2,3,2,3,refuse,,"Tue 17 Nov: refuse: it treats simulated readers as people (filler items as a week's delay, a model's stated confidence as hypercorrection, its recall as memory); the human findings in rows 10, 20 and 21 cannot be measured on simulated readers."
+Q99-001,3,3,5,4,keep,,"Tue 17 Nov: 3d context; a statement of what she holds is, in a court's terms, a comfort letter, so it needs the promise sentence beside it (row 36)."
+Q99-002,4,3,5,4,keep,,"Tue 17 Nov: 3d; the verb decides (We will not against It is our policy), the law's own reason for WORDS' ban on intend, expect, hope and aim for the top."
+Q99-003,2,5,4,3,keep,,"Tue 17 Nov: store; lenders priced the weaker word (3/8% to 1/2%); the 50,000 pounds a year is a 1990 comment's arithmetic, not the court's."
+Q99-004,4,5,5,4,adapt,,"Tue 17 Nov: 3c or 3d aha and conceit turn (a policy is pencil, rubbed out in the 1985 tin crash); anchor the contrast on IPS l.15's move (money she already owns before the meetings), not on l.17 alone, which is itself a policy a judge could set beside It is our policy; keep the guard that her words do not bind her."
+Q99-005,2,3,5,3,keep,,"Tue 17 Nov: 3d guard; the fact half of her words must be literally true on the day (bottom held since January 2028, top since the move); never say her words make her liable."
+Q99-006,2,4,4,3,keep,,"Tue 17 Nov: store, a 3e clause at most; policy lost in London and practice won in Sydney in 1989; read through Gate Gourmet's quotation; say a Sydney court, no Australian flag."
+Q99-007,2,5,4,3,keep,,"Tue 17 Nov: store; the reader says what it counts (the bank refused a not-a-guarantee line); a practitioner's account, not the law report."
+Q99-008,1,5,2,2,merged,Q99-006,Tue 17 Nov: the same Sydney ruling in secondary quotations only; row 6 carries it.
+Q99-009,3,5,5,4,keep,,"Tue 17 Nov: 3d; will provide and will not be withdrawn, with an end point, were held a promise; supports will give with an amount and a date."
+Q99-010,3,5,5,3,merged,H7-070,"Tue 17 Nov: same point as H7-070 (support promised from someone's will is withdrawn in a downturn), here a corporate parent; H7-070's donor pledges fit 3e better; keep can also fall, never fall together."
+Q99-011,4,5,5,4,keep,,"Tue 17 Nov: 3d; even we will reads as intention when the rest is vague, so will give needs its amount, purpose and date in the same sentence; converges with rows 18 and 26."
+Q99-012,1,4,4,4,keep,,"Tue 17 Nov: store guard; say a New South Wales court, never Australian law has held; the Australian angle has no place unless it earns one."
+Q99-013,3,2,5,4,keep,,Tue 17 Nov: 3d guard; no line disclaiming legal force (it would be read exactly so) and none claiming it; note the tension with Q22-021's use (one line calling it a statement of intent).
+Q99-014,3,3,5,3,adapt,,"Tue 17 Nov: 3d; what counts is how a reasonable listener hears her words; drop which is what the funder test measured, since its four readers were simulated, a rehearsal, not listeners measured."
+Q99-015,2,4,4,3,keep,,Tue 17 Nov: store; why US funders treat a signed pledge as near cash (a probability of reliance is enough); read in two verbatim quotations; s.90(2) not widely adopted.
+Q99-016,2,5,5,3,keep,,"Tue 17 Nov: store, 3c background; a signed pledge's legal weight depends on the state; Maryland refused s.90(2)."
+Q99-017,2,5,5,4,adapt,,"Tue 17 Nov: store only, not a 3d aha; the parallel breaks: Laura's money also stays hers (held for her, not given) and her statement is no more enforceable, so the difference is markets, not paper; never set the lapsed card against her owned money."
+Q99-018,3,5,5,4,keep,,"Tue 17 Nov: 3d; name the facility as the purpose, not the residency in general; converges with rows 26 and 29."
+Q99-019,1,4,5,3,keep,,"Tue 17 Nov: store; New Jersey enforces charitable pledges, the state-line contrast with rows 16-17."
+Q99-020,2,4,3,3,adapt,,"Tue 17 Nov: store; the US pledge-law synthesis holds, but funders' box counts a signed one anyway rests on the simulated funder test, not on rows 15-19; re-base it on a real funder definition (Q18-009 counts a pledge only if legally obligated) or drop the clause."
+Q99-021,3,5,4,3,keep,,Tue 17 Nov: 3d client knowledge; a Taiwan court read best efforts as no promise; pairs with H6-001; Laura says will give.
+Q99-022,3,5,4,3,adapt,,Tue 17 Nov: 3c or 3d; the reader's own credit file decided the letter's weight; drop co-sponsors filed Laura's figure as committed as if real funders did: the funder test's readers were simulated.
+Q99-023,1,5,5,3,keep,,"Tue 17 Nov: store; why Taiwan's companies write comfort letters (Company Act art. 16); art. 16 binds companies, not foundations, and the funder test's corporate-foundation personas were simulated, so no claim about real co-sponsors."
+Q99-024,3,5,5,3,keep,,"Tue 17 Nov: 3d; Taiwan's scholarship sorts letters into confirming a fact and promising to act, academic backing for row 36's two sentences."
+Q99-025,2,5,4,3,keep,,"Tue 17 Nov: 3d guard from a second legal system; the fact sentence must be correct and complete (held for her, never in her name, never secured); an academic view."
+Q99-026,4,5,4,4,keep,,"Tue 17 Nov: 3d; art. 153's necessary points (amount, purpose, time) make will give a promise, not a moral expectation; the time is the 2033 contribution, paid from Treasuries maturing December 2032."
+Q99-027,1,5,2,3,keep,,"Tue 17 Nov: store; Taiwan letters of intent judged by content; rulings seen only in a forum article, UNVERIFIED until the Judicial Yuan texts are read."
+Q99-028,1,5,5,3,keep,,"Tue 17 Nov: store, 3e background; even a binding Taiwan gift yields only the gift, no interest or damages (art. 409 para 2); adds to Q55-035; Taiwan law is outside the case's scope."
+Q99-029,3,5,4,3,keep,,Tue 17 Nov: 3d; a restricted gift needs words naming the purpose and the receiving body; never suggest an escrow or any legal step for Laura.
+Q99-030,1,3,2,3,merged,Q99-014,"Tue 17 Nov: unread mainland China minutes giving the same reasonable-reader test as row 14, which is read at source."
+Q99-031,1,5,2,3,keep,,Tue 17 Nov: store; concrete words bound under a soft heading (claim 4); judgment not read at source.
+Q99-032,2,5,5,3,keep,,"Tue 17 Nov: store, claim 4; French law made the letter of intent a binding security, so the heading decides nothing and courts read the verb."
+Q99-033,2,3,5,4,keep,,"Tue 17 Nov: store, 3e background; a promise to give is weak until paid or notarised in Germany as in Taiwan; never suggest a notary; Laura's strength is money owned."
+Q99-034,3,3,2,4,adapt,,"Tue 17 Nov: 3c and 3d; never secured holds, but this row files the simulated funder test as VERIFIED funder practice; label it a rehearsal with simulated readers and rest what secured means in a funder's office on real definitions (Q18-009, Q22-001, Q32-021, Q75-013)."
+Q99-035,4,5,3,4,adapt,,"Tue 17 Nov: 3c or 3d aha (a pledge that can lapse is counted above money she holds); rest it on real funder definitions, not the simulated test; say what is stated is owned whatever markets do, never that the floor fund's payout is fixed; paper not money oversimplifies, since secured also means cash received."
+Q99-036,4,4,3,4,keep,,"Tue 17 Nov: 3d spine; one fact (what is held for her and since when) plus one promise (she will give the top, $115,000 on today's figures); the law's reason for the bans on intend, expect, at least and up to; fits the settled order."
+Q99-037,3,4,3,3,adapt,,"Tue 17 Nov: 3e clause; the contribution rests on what is owned, never on the words' legal force; fix certain, which takes the stated range as its subject (settled 16 Nov), not the Treasuries or an amount."
+Q99-038,4,5,3,4,keep,,"Tue 17 Nov: 3d conceit turn (the team's sentence, never Laura's); a comfort letter is pencil dressed as ink, signed and on letterhead, still only a policy; it turns readers' habit of hearing ink as signed into the definition (ink is owned); one turn per part, so this or row 4."
+Q105-001,4,3,5,4,keep,,"Tue 17 Nov: 3a density; deleting off-topic measures raised best choices 40% to 62%, the evidence for cutting 3a's figures that do not answer its question."
+Q105-002,4,4,5,4,keep,,"Tue 17 Nov: 3a; moving figures to the end did not reliably help, only deletion did, so cut figures go to Figure 1's note or the store, not the part's last sentence."
+Q105-003,3,4,5,4,keep,,"Tue 17 Nov: 3a-3e; numerate readers gained only from deletion, not reordering; the judges' numeracy is assumed."
+Q105-004,3,4,5,3,adapt,,"Tue 17 Nov: Table 2 highlights one row at most (74% vs 60%); drop an aha or a conceit turn, not both, which contradicts the aha register's pairing and Book 19's conceit developed part by part."
+Q105-005,3,3,5,3,keep,,"Tue 17 Nov: 3c order; lead with the top co-sponsors count, then the part held since January 2028; an analogy from a scale's direction."
+Q105-006,4,3,4,4,keep,,"Tue 17 Nov: 3a; the headline figure carries its yardstick in the same sentence, and a yardstick is not a secondary figure."
+Q105-007,4,3,4,4,keep,,"Tue 17 Nov: 3c density; the cushion slope and the 0.75% case are small differences in an unfamiliar field, so they go to Table 2's note; NUMBERS 3 has about $119 per 0.1% and at most $402."
+Q105-008,3,3,4,4,keep,,"Tue 17 Nov: 3a-3e; the facts box cut words and kept the needed numbers in a small table; supports tables over prose, not cutting figures as such."
+Q105-009,3,3,4,4,keep,,Tue 17 Nov: 3a; the headline figure must stay in the prose or readers guess (65% overestimated tenfold).
+Q105-010,4,4,5,4,adapt,,"Tue 17 Nov: 3a; one form of the price, but the top-up ($2,388, IPS l.13) and the extra Treasuries ($35,894, the reserve's size) keep their two names in words, so the price is never said as l.13's completion; the split figures may go to Figure 1's note."
+Q105-011,3,4,4,3,merged,Q105-018,"Tue 17 Nov: the same do-the-subtraction point as row 18, which carries the direct quote."
+Q105-012,4,4,5,4,keep,,"Tue 17 Nov: 3a and 3c; a one-line explanation of what a figure means raised good choices (71% vs 59%), support for one basis clause, for use not trust."
+Q105-013,3,4,5,4,keep,,"Tue 17 Nov: process; three layers (prose, tables and notes, store); lose nothing holds only where each cut has its written reason."
+Q105-014,2,4,5,3,keep,,"Tue 17 Nov: process; evidence alone did not change a document, so the density rule needs its 27 Nov check."
+Q105-015,3,3,4,3,keep,,Tue 17 Nov: 3c; the part held since January 2028 is the one yardstick for the top co-sponsors count.
+Q105-016,4,4,4,4,keep,,Tue 17 Nov: 3a; compare the chosen standard with one alternative at most (51% to 77%); aha 1's three sizings go to a note.
+Q105-017,2,4,4,3,keep,,"Tue 17 Nov: 3b-3c; say one side of a split; the parallel is partial, since the plan's sides do not add to a whole."
+Q105-018,3,4,4,4,keep,,"Tue 17 Nov: 3a; when a figure leaves the prose, state its result (most of the extra Treasuries come back by 2042 at today's rates), never its parts."
+Q105-019,3,3,4,4,keep,,"Tue 17 Nov: process; present what is critical even at the expense of completeness; completeness lives in the tables and the store, each cut with its written reason."
+Q105-020,3,3,4,4,keep,,"Tue 17 Nov: process for 27 Nov; the numbers owner marks each SKELETON figure prose, table or store; a summary of rows 1 and 16, not new evidence."
+Q105-021,2,3,4,3,keep,,"Tue 17 Nov: process; readers say they want more and use less; panel 3's judges were simulated, so the evidence is Boyce's readers, not the panel."
+Q105-022,4,4,4,4,keep,,"Tue 17 Nov: 3c density; computations interspersed in a plain explanation hurt (d about 0.69-0.97), so the rounding and the cut leave the sentence on who owns each end."
+Q105-023,4,4,4,4,keep,,"Tue 17 Nov: 3c; a mechanic may stay only after the answer, never between its steps."
+Q105-024,4,3,4,4,keep,,"Tue 17 Nov: 3e; five areas, one sentence each, as a captioned summary; each keeps its step or the summary fails."
+Q105-025,3,4,4,3,keep,,"Tue 17 Nov: 3a; the honest size of the coherence effect, large in labs and small in the field; extra details' costs add."
+Q105-026,2,4,4,3,adapt,,"Tue 17 Nov: conceit and ahas; interesting material held attention; drop the finalist's an aha or a conceit turn, not both, which contradicts the aha register's pairing under Book 19."
+Q105-027,4,4,4,4,keep,,"Tue 17 Nov: 3a; readers average, so a weaker figure or source dilutes the strongest; same paper as Q80-010 (3f); gold nuggets still land in an exhibit's note, never only in the store (Book 19)."
+Q105-028,4,4,4,4,keep,,"Tue 17 Nov: 3c; certain, said of the stated range, reads weaker when its sentence carries the rounding and the fee, so the mechanics stay out of that sentence."
+Q105-029,3,4,4,4,keep,,"Tue 17 Nov: 3a and 3e; each figure after the fee only, the fee's working in Figure 1's note."
+Q105-030,3,4,4,3,keep,,"Tue 17 Nov: Table 2; detail helps when it sits in one table, a nuance to Q60-041 from the same study."
+Q105-031,4,4,4,3,keep,,"Tue 17 Nov: 3e; one number for shares, $95,000 to $140,000 for the top across every start since 1962 (NUMBERS 8i), the rest to Table 2's note."
+Q105-032,4,4,4,4,keep,,"Tue 17 Nov: Table 2, 3c and 3e; columns labelled by market, never central or moderate, since a short warning did not stop PRIIPs scenarios being read as forecasts."
+Q105-033,2,4,3,4,merged,Q60-041,"Tue 17 Nov: an industry body restating the 2015 test's table over histogram and funnel, already Q60-041."
+Q105-034,4,4,4,4,keep,,"Tue 17 Nov: 3c; the bottom line said plainly on its basis ($115,000 on today's figures), assumptions in Table 2's note on the same page; you would pay over you might pay."
+Q105-035,3,4,4,5,keep,,"Tue 17 Nov: 3c and 3d; no might in the co-sponsor sentence; one tester's words, agreeing with Book 19."
+Q105-036,4,4,4,4,keep,,"Tue 17 Nov: 3a; name the headline figure in the first sentence and every table in the prose, since half of readers missed examples at the back."
+Q105-037,3,4,3,4,merged,Q105-034,"Tue 17 Nov: the same coverage-example finding as row 34, from the advocate's own retrospective; the funder test is no corroboration (simulated readers)."
+Q105-038,4,5,4,5,keep,,"Tue 17 Nov: first sentences of 3a, 3c and 3e; the same notice doubled switching on the front page and had no effect inside, so position matters as much as presence."
+Q105-039,3,4,4,4,keep,,"Tue 17 Nov: 3a-3e; structure, not length, did the work (2.5 pages no worse than 1), so cut for one answer per part, not for brevity."
+Q105-040,2,4,4,3,keep,,Tue 17 Nov: process; both sides of Book 17 in one hearing; each moved figure needs a findable home and a written reason.
+Q105-041,3,3,5,4,keep,,Tue 17 Nov: 3a; a 250-word paragraph with a caveat in most clauses is the one GOV.UK warns against.
+Q105-042,4,3,4,4,keep,,"Tue 17 Nov: 3e; detail implies unwarranted accuracy, so say by less than one $5,000 step and move $116,211-$119,478 to Table 2's note; Q71-026 records the counter for experts."
+Q105-043,4,3,5,5,keep,,"Tue 17 Nov: the 27 Nov test, first sentences of 3a, 3c and 3e only; note the tension with Q14b-029 (a theme sentence without numbers), since the density cut puts the answer and its one figure first."
+Q105-044,4,3,4,4,keep,,"Tue 17 Nov: 3e; the margins said once together in one place, and prose never repeats Figure 1 or Table 2."
+Q105-045,4,3,4,4,keep,,"Tue 17 Nov: 3c; core sentence first, conditions as if-then lines in Table 2's note; NUMBERS 3 has about $119 per 0.1%, so about $120 only as its rounding."
+Q105-046,3,4,4,4,keep,,"Tue 17 Nov: 3a; a second form of the same number added nothing and no word label is needed, support for row 10's one form."
+Q95-001,2,3,5,4,adapt,,"Tue 17 Nov: 3a order clause at most; cite IPS l.13 only for the $2,388 top-up and l.11 for the $35,894 extra Treasuries (the report's reserve answer), never l.13's quote over the whole $38,282; the tax-percentage parallel breaks four ways (row 9)."
+Q95-002,1,2,5,4,keep,,"Tue 17 Nov: store only; tax is out of scope (case), so the report never adds a tax slice to the plan."
+Q95-003,1,2,5,4,merged,Q95-007,Tue 17 Nov: twin of row 7 (the cheque arrives already spoken for); temptation is not the plan's worry since her living costs sit outside the portfolio (case l.61).
+Q95-004,3,4,5,4,keep,,"Tue 17 Nov: 2.3 or 3a: the Guild's own salary has a bare-minimum option for lean years, the residency's fixed $50,000 has none, so it is bought in Treasuries, not drawn from a running account; say the payments fund operations like a salary."
+Q95-005,2,3,5,4,keep,,"Tue 17 Nov: 3.0 (certainty has dates): authors are told to live a month behind, the residency lives five to fifteen years behind its money; Keel arithmetic on the case's dates, most of each payment bought Jan 2027."
+Q95-006,1,3,5,3,keep,,"Tue 17 Nov: store only; month-to-month cash buffers, not dated promises, so dollars over percentages is a weak link."
+Q95-007,1,3,5,3,keep,,"Tue 17 Nov: store only, explanation not method; never imply Laura might spend the deposit (case states it and puts living costs outside the portfolio)."
+Q95-008,1,4,4,3,adapt,,"Tue 17 Nov: the parallel inverts: the couple pays to be bound, while Laura can sell any Treasury (card Q3b); say the Treasury pays on its dates whatever markets do, never whatever anyone later wants, and never call share returns the price of a commitment."
+Q95-009,2,3,4,3,keep,,"Tue 17 Nov: store; keeps claim 1 honest by listing where set-aside-first breaks for Laura (percentage, tax, cash, own spending)."
+Q95-010,1,2,5,4,keep,,"Tue 17 Nov: store only; answers a judge's why-no-rainy-day-cash with case l.61, which the store already holds."
+Q95-011,1,3,5,3,refuse,,"Tue 17 Nov: a weak UK-tax parallel by its own critique, and the top-up as the plan's one first claim whose size moves is false: the extra Treasuries' part moves with yields too (NUMBERS 5 table; $35,894 today, $23,932 after a 2-point fall, Keel arithmetic)."
+Q95-012,1,2,5,4,keep,,Tue 17 Nov: store; kills the draft claim that graphic novels come in more parts; adds 2026 wording and the size link to Q12-001.
+Q95-013,2,4,5,4,keep,,"Tue 17 Nov: 3e area (2) evidence: on one agent's schedule a 2025 deal can still be paying after Jan 2028 (Keel arithmetic); an adult deal, not a graphic novel."
+Q95-014,1,3,5,4,keep,,Tue 17 Nov: store; plain outside wording for money triggered by her own delivery; row 24 carries the point.
+Q95-015,1,3,4,4,merged,Q95-012,"Tue 17 Nov: twin of row 12 (instalment counts, one YA author); the two-years-to-publication line is in row 19."
+Q95-016,2,4,4,4,keep,,"Tue 17 Nov: 3e area (2) evidence for row 24: graphic novel parts wait on her own pages; two cartoonists' accounts, beside Q12b-016."
+Q95-017,1,4,5,4,keep,,"Tue 17 Nov: store; kills paid-by-the-page: pages set when parts fall due, not how much."
+Q95-018,1,4,4,4,keep,,Tue 17 Nov: store; a cartoonist cannot pull an advance forward; one account.
+Q95-019,2,4,4,4,keep,,"Tue 17 Nov: 3e area (2) evidence: signing to release about a year at one house, so a deal signed after Jan 2027 pays its last part after the deposit date (Keel arithmetic)."
+Q95-020,2,4,4,4,keep,,"Tue 17 Nov: Table 3 row 1 support: graphic novel payouts are partly negotiated, so the plan asks for confirmation by 1 Dec 2027 rather than guessing; an advocacy checklist, not data."
+Q95-021,1,4,5,4,keep,,"Tue 17 Nov: store; contract wording can move money by up to a year (SoA); advice, not a measure."
+Q95-022,3,4,4,3,adapt,,Tue 17 Nov: CONCEIT 3e (her trade pays on delivery): the Guild's model clause gives the advance-is-pencil-until-accepted turn its evidence; never beside her until-the-day-it-hits-the-shelves quote (SKELETON 2.3 bars her words beside the conceit's comics terms).
+Q95-023,1,4,5,3,keep,,Tue 17 Nov: store; whether her contracts carry joint accounting is unknown (not in the case).
+Q95-024,3,4,4,4,keep,,"Tue 17 Nov: 3e area (2): the deposit can depend on her delivery and the publisher's acceptance as well as the market; NUMBERS 5 thresholds check (98.4%, 74.5%, 49.0%); can, never does."
+Q95-025,3,4,4,4,keep,,"Tue 17 Nov: 3e area (2) or Table 3 row 1: late money in a non-recession year (52% of 262 UK authors surveyed, average delay over a year among them); always with row 27's agents' view and the self-selected sample."
+Q95-026,1,2,5,4,merged,Q95-025,Tue 17 Nov: twin of row 25 with no figure; the US trend line can ride in row 25's note.
+Q95-027,2,4,4,4,keep,,Tue 17 Nov: travels with row 25 to keep the size honest (a minority of transactions against half of respondents); foreign-rights money least protected.
+Q95-028,1,4,5,3,keep,,"Tue 17 Nov: store only; small UK creators, while Laura is a bestseller (case), so context not her case."
+Q95-029,1,2,5,4,keep,,Tue 17 Nov: store only; commission changes nothing in the plan's sums (the case gives the deposit).
+Q95-030,1,4,5,4,keep,,Tue 17 Nov: store only; an agent's 10-21 day clock can carry a December 2027 payment into January 2028.
+Q95-031,1,4,5,4,keep,,"Tue 17 Nov: store only; a rare fraud at one agency; Laura's agent, if any, is not in the case."
+Q95-032,1,4,5,4,keep,,"Tue 17 Nov: store only; a distributor can freeze the chain (2020, 2025); her channel share unknown."
+Q95-033,1,4,3,4,keep,,Tue 17 Nov: store only; a payment delay and a share fall can come in the same year; cause disputed (CONFLICTING).
+Q95-034,2,3,4,4,keep,,Tue 17 Nov: 3e area (2): the plan takes the case's figure and asks for confirmation by 1 Dec 2027 rather than forecasting from past earnings; lobbying text.
+Q95-035,1,4,5,3,keep,,"Tue 17 Nov: store only; designed lumps save cost, a weak link to one payment a year."
+Q95-036,1,4,3,3,adapt,,"Tue 17 Nov: keep only Thaler's definition (a fully anticipated but lumpy payment) for the 2028 deposit; drop the spending inference for Laura, which the case does not support (living costs outside; deposit stated); Ishikawa and Ueda unverified."
+Q95-037,2,5,5,3,merged,Q95-038,"Tue 17 Nov: same paper; the farmers' self-control motive does not map to Laura's ladder (it pays interest, bought for certainty), so only row 38's credibility half carries."
+Q95-038,3,5,5,3,adapt,,"Tue 17 Nov: 2.3: a deferred payment is worth only its payer's credibility: publishers can delay her money (rows 25-33), the Treasury pays on its date; never the same trade as the farmers, whose lumps cost them a higher price."
+Q95-039,1,3,5,4,keep,,"Tue 17 Nov: store only; typical-author hardship rows are context, not her case."
+Q97-001,3,4,5,4,keep,,"Tue 17 Nov: 2.3: supplies the exact double-up sentence for store H2-013 (F4); IPS l.9 in the regulator's words, said with can; never call the deposit a covenant (row 9: informal support)."
+Q97-002,3,4,5,4,keep,,Tue 17 Nov: 2.3: the regulator's remedy is IPS l.9's counterbalance (diversify scheme assets away from the sponsor's driver); pairs with row 1 in one clause.
+Q97-003,2,4,4,3,keep,,"Tue 17 Nov: store or 3a: size the bad case against what the sponsor can pay; Laura's payments' bad case fits inside the deposit's first $38,282; figures summarised, not quoted."
+Q97-004,2,3,5,4,merged,Q97-001,"Tue 17 Nov: the 2014 code's common-cause line, superseded code; row 1 and H2-013 carry it."
+Q97-005,2,4,5,3,keep,,Tue 17 Nov: evidence for row 40 (pensions trade a strict standard for time; Laura has none to trade); clash if applied.
+Q97-006,2,3,5,4,keep,,"Tue 17 Nov: store; as soon as affordable is the rule, not shortness; the top-up is the first dollars of the first new money."
+Q97-007,3,4,5,3,keep,,"Tue 17 Nov: 3a's zero-interest test: the code counts no outperformance past the reliability period, and Laura's standard is stricter still (nothing earned on cash waiting)."
+Q97-008,2,4,5,4,keep,,Tue 17 Nov: 3e area (2): the plan leans on her income for 12 months against TPR's normal three to six years (Keel arithmetic); a company's cash flow is not a writer's advances.
+Q97-009,3,4,3,4,keep,,"Tue 17 Nov: 3e area (2): the disanalogy is the point: she owes the portfolio nothing, so by TPR's test the deposit is informal support, and the payments' 0% standard rests $38,282 on it until Jan 2028 ($2,388 at forwards); page read via extract."
+Q97-010,2,4,3,3,merged,Q68-025,"Tue 17 Nov: same UK-law-to-IPS-l.11 mapping as Q68-025 (F4), here on a search extract and Keel inference."
+Q97-011,2,4,3,3,adapt,,"Tue 17 Nov: say the same income that can fall in a recession, never falls; the case already rules out money after Jan 2028, so TPR explains the choice, it does not make it."
+Q97-012,3,4,3,3,adapt,,"Tue 17 Nov: 3a: pensions test a 1-in-6 bad case with a sponsor behind them, Laura's payments a 0% bound with no odds; say no sponsor can add money after January 2028, never no one stands behind them (the Treasury does)."
+Q97-013,1,3,5,3,keep,,Tue 17 Nov: store only; a wording note: covenant risk means insolvency in the 2024 code.
+Q97-014,2,4,5,4,adapt,,"Tue 17 Nov: Table 3 row 1 support (confirmation by 1 Dec 2027); acting on the sign means checking, never a change, since the plan changes only on a missed deposit (IPS l.17)."
+Q97-015,1,3,5,3,keep,,Tue 17 Nov: store only; deferral is the regulator's tool and the plan has none to give; clash if applied.
+Q97-016,1,4,5,3,keep,,Tue 17 Nov: store only; size of the 2020 call on sponsors at their weakest.
+Q97-017,1,3,2,3,merged,Q97-018,Tue 17 Nov: unverified trade-press report; row 18's verified tranche-4 lengths say the same.
+Q97-018,3,4,4,3,keep,,"Tue 17 Nov: 3a evidence for row 40: UK recovery plans averaged 9.7 years for 2008-09 valuations; one figure at most, tranche dates by Keel arithmetic."
+Q97-019,3,5,5,3,adapt,,"Tue 17 Nov: 3a or 2.3: weak sponsors get the longest plans; the case, not the plan, sets one deposit 12 months on, so never reverses as if chosen; the plan's choice is most of each payment owned from the first deposit, leaving only the top-up waiting at forwards."
+Q97-020,1,4,5,3,keep,,Tue 17 Nov: store only; pensions add security where the sponsor is weak; hers is the Treasuries.
+Q97-021,1,4,5,3,keep,,Tue 17 Nov: store only; about one plan in seven pushed out even in good years.
+Q97-022,2,4,4,2,refuse,,"Tue 17 Nov: sets the 89.1% gap to her 0% standard beside pension recovery-plan lengths, so the $35,894 extra Treasuries read as a recovery plan, against the card's own row 44 and claim 2; at forwards (99.2%) the 80-90% bucket does not apply."
+Q97-023,2,3,4,3,keep,,Tue 17 Nov: evidence for row 40: the US rule moved from 7 to 15 years; her completion takes one.
+Q97-024,2,4,4,3,keep,,Tue 17 Nov: evidence for row 40: US relief for 2008-2011 was time.
+Q97-025,2,5,4,3,keep,,Tue 17 Nov: store: the hardship waiver's industry-depressed test is the law's picture of IPS l.9's sponsor; no waiver counts known.
+Q97-026,2,4,4,4,keep,,Tue 17 Nov: evidence for row 43: in US law a missed contribution becomes a lien someone collects; hers has no collector.
+Q97-027,2,3,5,4,merged,Q97-026,Tue 17 Nov: UK twin of row 26 (an unpaid contribution is a debt); row 43 carries both.
+Q97-028,3,3,4,4,keep,,"Tue 17 Nov: 3e areas (2)-(3): Bethlehem Steel 97% to 45% funded as shares and rates fell and contributions did not keep up; a decades-long decline, so one clause, with can for Laura."
+Q97-029,2,4,4,3,keep,,Tue 17 Nov: store or 2.5 manner: credit from good years let the sponsor stop paying; the report counts no past margin as future money.
+Q97-030,1,3,4,4,merged,Q97-032,Tue 17 Nov: steel's share of PBGC losses; row 32's top-ten table carries it.
+Q97-031,2,4,4,3,keep,,Tue 17 Nov: store or 3a: Polaroid over 100% funded in 2000 and 67% in 2002; a margin on one date is not a standard.
+Q97-032,1,3,4,3,keep,,Tue 17 Nov: store only; the largest PBGC claims came from industries that fell in 2001-2009.
+Q97-033,2,4,4,4,keep,,Tue 17 Nov: store: about 77% of PBGC claims 1975-2014 came in 2000-2009 (Keel arithmetic); sponsor failure arrives with markets' bad years.
+Q97-034,2,3,4,4,keep,,Tue 17 Nov: evidence for row 43: United's unpaid contributions as a sponsor's exit.
+Q97-035,2,5,4,3,keep,,Tue 17 Nov: evidence for row 40: the Dutch answer to shares and rates down at once was time.
+Q97-036,2,5,3,3,keep,,"Tue 17 Nov: store: the Dutch bijstorting is a top-up in name; where it is missing benefits give way, and Laura's ten cannot be cut; clash if applied."
+Q97-037,2,4,3,3,keep,,"Tue 17 Nov: store: without a paying sponsor Dutch recovery rested on returns, the opposite of IPS l.11 for promised money; clash if applied."
+Q97-038,2,3,4,4,keep,,"Tue 17 Nov: store or 2.3: US states' tax income and contributions fell with their funds in 2009, a public case of the double hit; states can tax later, Laura cannot add later."
+Q97-039,1,3,4,3,adapt,,"Tue 17 Nov: is what separated the outcomes is causal overclaim (rules and benefit cuts differ, its own critique); say went with."
+Q97-040,3,4,4,4,keep,,"Tue 17 Nov: 3a clause: three regimes answered the double hit with time; the case gives Laura none after Jan 2028, so the plan owns the payments instead; survives its disanalogy because the disanalogy is its point."
+Q97-041,3,3,4,4,adapt,,"Tue 17 Nov: figures check (NUMBERS 5: $2,388, $38,282, 25.5%, 98.4%, 74.5%, 1.33 points); drop covenant exposure (she owes the portfolio nothing in law), say the plan's reliance on the deposit, and never hardly for the payments without the 0% standard beside it."
+Q97-042,3,4,4,3,adapt,,"Tue 17 Nov: figures check (NUMBERS 5); lead with the 2027 fall ($39,912-$45,347), since a 1-point fall before 1 Jan 2027 is weeks away and rare near today's yields (NUMBERS 5 (d)); drop the Bethlehem label, say a recession can do both."
+Q97-043,3,4,4,4,keep,,"Tue 17 Nov: 3e and Table 3 reason-1 row: in pension law a missed contribution is a debt someone collects, Laura's missed deposit is a fact, so the plan changes (IPS l.17); matches Table 3's nothing received by 31 March 2028."
+Q97-044,2,2,4,4,keep,,"Tue 17 Nov: guard for 3a: bought, not promised, true from Jan 2028 only; never call the $35,894 a recovery plan; restates the settled names."
+Q102-001,2,4,3,4,keep,,"Tue 17 Nov: 3.0 store and questions only: one payment as 55.5 to 32.5 staff-months today (Keel arithmetic on verified pay); a yardstick, never a staffing plan or budget (case: no business plan for the residency); H9-119 and Q9-035 already carry a base, not the whole budget."
+Q102-002,1,2,3,4,adapt,,"Tue 17 Nov: store only; the 9.1% cut is right (8j convention), but drop the analogy's which helps the half kept: 8q says a stronger NT$ comes with rising shares, not a larger half kept, and VT is never a Taiwan-dollar hedge."
+Q102-003,1,3,5,4,keep,,"Tue 17 Nov: store only; defines the staff-month (172.6 full-time hours, 2025) so a reader can check rows 1 and 22-25."
+Q102-004,1,5,4,4,keep,,"Tue 17 Nov: store only; the closer subsector (NT$42,997, 38.1 staff-months) tightens row 1's yardstick; performers, not residency managers."
+Q102-005,2,4,5,5,keep,,"Tue 17 Nov: 3e area (4) context at most: Taiwan's minimum wage rose eleven years running, +54.4% 2016-2027, 3.96% a year, read at source; past pace, never a forecast or a cost of Laura's residency."
+Q102-006,2,5,5,3,adapt,,"Tue 17 Nov: 3e area (4) clause at most; never indexed by statute or inflation-linked by law: Art. 9 tells the committee to take the CPI's rise as its reference (參採) and the committee decides; Taiwan legal matters are out of the case's scope, so the law is context, never a requirement."
+Q102-007,1,5,5,4,keep,,"Tue 17 Nov: store only; one year's minutes (2026), so say in 2026 the committee agreed, never that the floor always rises by prices plus growth; row 8 carries the decade."
+Q102-008,2,4,4,4,keep,,"Tue 17 Nov: 3e area (4) store: the floor beat prices by about two points a year 2015-2026 except 2016 and 2021 (MOL's own words); 2026's CPI is a forecast, so label it."
+Q102-009,1,5,5,4,adapt,,"Tue 17 Nov: never a Table 3 row: Table 3 is cut to one page of seven, and this watch has no action, sits after the payments are owned and tracks running costs the case leaves to others (l.85-86); CANON A34 bars it as a trigger; the timing fact stays in the store."
+Q102-010,1,4,5,4,keep,,"Tue 17 Nov: store only; the 2027 rise (NT$1,400, +4.745%) is one boom year's jump, context for row 5."
+Q102-011,1,5,5,4,keep,,"Tue 17 Nov: store only; D1 equals the minimum in 2025 and 2026, evidence for row 14; all industries, not the arts."
+Q102-012,1,4,5,4,keep,,Tue 17 Nov: store only; drop the unsourced the reverse of what most people assume; six years incl. 2021.
+Q102-013,1,4,5,4,keep,,"Tue 17 Nov: store only; median pay +1.43% after prices since 2020, so Baumol's wage drift was weak mid-scale; supports row 26's kill of claim 4."
+Q102-014,2,5,3,3,keep,,"Tue 17 Nov: store only: arts median 1.27 to 1.15 times the floor (2020-2025, read at source); the 2031-32 meeting is Keel's straight-line arithmetic and breaks before it meets (the card's own critique), so say may, never will."
+Q102-015,1,4,5,4,keep,,"Tue 17 Nov: store only; the arts-pay input series (1.88% a year 2015-2025, Table 19 read at source) behind rows 23 and 26."
+Q102-016,2,3,5,4,keep,,"Tue 17 Nov: 3e area (4) store: arts pay beat Taiwan prices by only about 0.4 points a year (CPI 1.49%, agrees with Q10-017's 1.47%); the evidence that kills claim 4."
+Q102-017,1,4,4,3,keep,,"Tue 17 Nov: store only; arts pay fell from 0.874 to 0.849 of all-industry pay (2016 to 2025); colour for Baumol's offsets, two sources spliced."
+Q102-018,1,4,5,3,adapt,,"Tue 17 Nov: store only; fix the analogy: in 2021 the floor still rose 0.84%, so a fixed payment bought slightly less floor time, not never less; one pandemic year."
+Q102-019,1,4,5,4,keep,,"Tue 17 Nov: store only; 2026 part-year arts pay (+1.81% average, +1.01% median) is the slow path even in a boom."
+Q102-020,1,4,4,4,keep,,"Tue 17 Nov: store only; full employer cost about 24% above regular pay (604,258 / 12 / 40,634, checked), the basis of row 1's NT$50,355 staff-month."
+Q102-021,1,5,3,3,keep,,"Tue 17 Nov: store only; the Labour Insurance Act itself was not read, so check its start year (7.5% at the 2009 amendment, raised from the third year) and that 13% includes the 1% employment insurance before any use."
+Q102-022,2,4,3,3,keep,,"Tue 17 Nov: 3e store and questions: minimum-wage path 42.0 to 29.6 staff-months, 29.5% fewer (Keel arithmetic, checked: NT$39,008 and NT$55,330); straight-line past pace, never a forecast or a second printed figure."
+Q102-023,2,4,3,3,keep,,"Tue 17 Nov: 3e store and questions: arts-pay path 34.7 to 29.4 staff-months, 15.4% fewer (checked); slow end of the band."
+Q102-024,2,3,3,4,keep,,"Tue 17 Nov: 3e store: quote a band (about 29-42 staff-months per payment), never one figure; the paths cross by 2042, so the band is the honest form."
+Q102-025,2,4,3,4,keep,,"Tue 17 Nov: 3e questions: first-to-tenth loss 12.5% at prices to 30% at the floor (checked); the 23% twice-prices case is a sensitivity on Baumol and Bowen's old ratio, not a forecast; store, since claim 4 shows no second printed figure is needed."
+Q102-026,3,5,3,3,keep,,"Tue 17 Nov: 3e area (4): answers a judge's what about wages: a wage-heavy Taiwan blend keeps 67%-69% (77% at arts pay) against NUMBERS 8d's about 70%, so one figure suffices (blend checked); say it as Keel arithmetic at a steady exchange rate, from 2026 levels (16 years) against 8d's 15 from 1 Jan 2027, and never the verdict's 68.4% from end-2026."
+Q102-027,1,2,5,3,keep,,"Tue 17 Nov: store only; the primary Baumol (1967) quote, the APA source if a Baumol clause is ever used; H3-112 keeps Baumol as colour only."
+Q102-028,1,3,5,4,keep,,Tue 17 Nov: store only; Baumol (1999): costs rise faster than prices and the only escapes are amateurs or fewer players; an orchestra is not a residency.
+Q102-029,1,3,4,4,keep,,"Tue 17 Nov: store only; the 2-to-1 ratio behind row 25's twice-prices case, via Heilbrun (2003); Baumol and Bowen (1966) not read."
+Q102-030,1,4,5,4,keep,,"Tue 17 Nov: store only; the predicted cost gap did not happen because organisations adapted; residency management, not the investment plan."
+Q102-031,2,5,4,4,keep,,"Tue 17 Nov: 3.0 store, beside H9-119: a fixed budget shrinks quietly (Broadway casts 15.8 to 8.1), never by a missed payment; never in Laura's text to co-sponsors as her residency shrinking; Broadway is commercial."
+Q102-032,1,4,3,4,keep,,Tue 17 Nov: store only; Millay Colony staff 30.7%-38.3% of expenses; label the filing years at ProPublica before use (2023 figure secondary); the anchor for rows 33-34.
+Q102-033,1,4,3,4,merged,Q9c-017,"Tue 17 Nov: arithmetic on Q9c-017's Treasure Hill staff (NT$730,000 a head, NT$60,900 a month); carry that figure there as scale only, never as Laura's staffing cost."
+Q102-034,1,3,4,4,merged,Q102-032,"Tue 17 Nov: same staff-share point as Q102-032; carry AFTA's 35% (FY2001, local arts agencies, read at source) there as a second check."
+Q102-035,1,4,5,4,keep,,"Tue 17 Nov: store only; wages +35% against non-personnel +3% (Washington arts nonprofits, 2019-2024): rising pay squeezes programmes first; one US state, post-pandemic."
+Q102-036,1,4,3,4,keep,,"Tue 17 Nov: store only; Taiwan's CPI rent index +1.38% a year 2015-2025, faster since 2021; 2014-2024 levels from a secondary site, open cpisplrent.xls before use."
+Q102-037,1,5,5,3,keep,,"Tue 17 Nov: store only; the rent index smooths new-lease steps; its weights (1.39% plus 13.85%) are the 2023 document's, not row 36's 147.82 per thousand, so name the base; a residency lease is beyond the plan's 3e limits."
+Q102-038,1,4,5,4,keep,,Tue 17 Nov: store only; Taiwan services prices above 2% a year since 2022 against under 1.5% in 2018-2021.
+Q102-039,1,3,3,4,merged,Q9c-002,"Tue 17 Nov: arithmetic on Q9c-002's NT$800 daily allowance (2,048 resident-days per payment); carry it there as scale only; a grant floor, not a market price or a residency plan."
+Q102-040,2,2,3,4,merged,H7-088,"Tue 17 Nov: same principle as H7-088 (inflation decides what the payments buy, never whether they are paid; TNA's nonexistent inflation risk is about funding); carry the staff-month band from Q102-024 there as questions material only."
+Q102-041,2,3,3,3,merged,Q49-036,Tue 17 Nov: links Q49-036 and Q10d-018 with no new source; Q49-036 already says the ten payments do the job public capital cannot; add NCAF's salaried grants there; never that her money qualifies the residency for grants.
+Q106-001,3,4,4,3,keep,,"Tue 17 Nov: 3c-3d, the true version of the erase claim: Pacioli (1494, Geijsbeek 1914) answers a wrong ink figure with a counter-entry and both stay on the page, so a top stated early and cut later would show; NUMBERS pointer is section 4 l.453, not l.378, and its four percentages stay in the store (density cut)."
+Q106-002,2,5,3,4,keep,,"Tue 17 Nov: wording guard, kept only with the right attribution: the never cross out or erase line is Manzoni's (Venice, as Geijsbeek 1914 renders his index), never Pacioli's; Manzoni's Italian not read; no CONCEIT line attributes it to Pacioli, so nothing there to fix."
+Q106-003,2,5,4,3,keep,,Tue 17 Nov: store only; a charming 1494 precedent for Table 1's identifiers and dates but close to trivia (Book 18) and it serves no decision; never say Pacioli's merchants held government bonds; Taiwan's art. 26 does not bind Laura.
+Q106-004,2,4,4,3,keep,,"Tue 17 Nov: 2.0 guard evidence: a ledger's ink can hold bad money, so a written figure is not ink; supports the definition's owned, never signed; the synthesis is Q106-035 and the owed against owned point is already Q7c-035."
+Q106-005,2,3,4,3,keep,,"Tue 17 Nov: store only; a notary's seal attests the book, not the money (Q83 guard); never mix with V2.2's calligraphy seal in 3d, and never ink as a sealed figure."
+Q106-006,2,5,3,2,adapt,,"Tue 17 Nov: struck-but-readable drafts do the job non-photo blue already does in 3c; never print the unrounded $118,072 in prose (density cut: Table 2's note); the later writer behind erasures improper is unconfirmed."
+Q106-007,2,4,4,3,keep,,"Tue 17 Nov: store; ruling off unused space maps loosely to the cap ($8,476 excess, NUMBERS 4) but the rule stops someone else forging and the space above her top is money she keeps, so trim and bleed in 3c does it better."
+Q106-008,1,3,4,4,refuse,,"Tue 17 Nov: a yearly account to co-sponsors is a new process outside the IPS, and before 2031 it would state figures the plan states only at the 2031 meetings (SKELETON 3c, IPS l.15); the proverb is decoration."
+Q106-009,2,5,4,3,keep,,"Tue 17 Nov: store; a 1494 precedent for 3e's custody clause (checked each January against the broker statement, already in SKELETON); never the broker's record is the ink."
+Q106-010,2,5,4,3,keep,,"Tue 17 Nov: 3d store; Taiwan's Accounting Act art. 67 (no patching, rubbing or scraping) is the national version of Q83's turn but lacks the word pencil and is about the record, not ownership; Q83-029 stays the turn; never legal advice."
+Q106-011,2,5,4,3,merged,Q106-010,"Tue 17 Nov: twin of Q106-010 for company books (two red lines, signed); one Taiwan correction rule is enough, and red adds a colour the conceit avoids."
+Q106-012,1,4,5,4,keep,,"Tue 17 Nov: guard only for Q106-011: quote the Chinese with Keel's translation, never the 2021 official English of art. 13."
+Q106-013,2,4,4,4,keep,,"Tue 17 Nov: wording guard: never say Taiwan's Business Entity Accounting Act forbids erasing; if named, it forbids altering or destroying the books (arts 24, 71, 76)."
+Q106-014,2,5,4,4,keep,,"Tue 17 Nov: 3d store; no figure in the books without a real event behind it is a neat Taiwan echo of no stated figure without an owned Treasury, but it binds companies, not a donor's letter; Q67-043 and Q43-009 carry the point more directly."
+Q106-015,2,4,4,3,keep,,"Tue 17 Nov: store; the parallel is the word 確定 only; 3c's certain keeps the stated range as its subject (Q71, Q74), never the figures."
+Q106-016,3,3,5,4,adapt,,"Tue 17 Nov: 3c outside check, verified quotes, but IAS 37's bar is virtually certain, a likelihood, while Laura's is owned, which is stricter; never Laura's rule is IAS 37's rule or IFRS requires, never set it beside KPMG's probability is not a factor (US GAAP), never prudence or conservatism (CONCEIT 5b rank 1)."
+Q106-017,3,4,5,3,keep,,"Tue 17 Nov: 3b-3d: IAS 37 would disclose a probable gain and Laura offers none of her flexibility ($21,347, NUMBERS 4), backing never offered; the change happens on one date, the move in January 2031; a parallel, never a rule she follows."
+Q106-018,3,3,4,4,keep,,"Tue 17 Nov: 3d test from US GAAP (FAS 5 para 17, ASC 450-30): Laura's words must avoid misleading implications as to the likelihood of realization, so nothing in them suggests more than the stated top; fits SKELETON 3d's no up to, no at least."
+Q106-019,4,3,5,4,adapt,,"Tue 17 Nov: 3c's best outside answer to why not state a top early: for gains probability is not a factor (KPMG on ASC 450-30); fix: 97% is Keel arithmetic on NUMBERS 4 l.453's 2.9% (not l.378) and is said as aha row 7 words it; drop the treats losses early clause, which reads as conservatism (CONCEIT 5b rank 1)."
+Q106-020,2,4,4,3,adapt,,"Tue 17 Nov: the VT mapping likely breaks: Concepts Statement 5 para 83, which Deloitte cites, counts fungible units with quoted prices in an active market as readily convertible (check at source), so VT would be realizable; split ink from pencil by payer and date, never by convertibility; never fixed for IBTM's payout."
+Q106-021,2,3,4,4,adapt,,"Tue 17 Nov: keep the guard (3c says certain, never virtually certain) but drop which the top passes only after the move and not a percentage: IAS 37 leaves the bar unquantified, so where the top crosses it is Keel's inference."
+Q106-022,3,5,4,3,adapt,,"Tue 17 Nov: 3d candidate, Taiwan's own law fixes the amount line (票據法 art. 11, Taichung ruling 23 Mar 2026), but a note is owed, so use it only for writing the amount once, in the team's sentence, never as what makes a figure ink (owned, never signed, Q42); one Taiwan turn with Q83-029; read the statute on the MOJ page; never legal advice."
+Q106-023,1,5,4,3,keep,,"Tue 17 Nov: store only; about vouchers inside government, and no source says any co-sponsor applies it; never imply co-sponsors check Laura's figures this way."
+Q106-024,2,5,2,3,adapt,,"Tue 17 Nov: the link between the grant rules and art. 67 is Keel's reading; say the same words, never derived from, and drop not a local quirk, which implies the link; never co-sponsors count only ink."
+Q106-025,3,4,4,4,keep,,"Tue 17 Nov: 2.0 or 3c, pairs with Q106-026: bookkeepers really kept entries in ink and running totals in pencil, a literal pencil and ink in the judge's own trade; close to finance (Q58 claim 4), so one clause; never in Table 1."
+Q106-026,4,4,4,4,keep,,"Tue 17 Nov: 3c-3b, the strongest new turn that keeps the mapping: a pencil total was inked only when the account was ruled and closed, as the top is owned only at the move, while half the account stays open as her flexibility, the pencil never inked; needs no glossary; textbook authors not recorded."
+Q106-027,3,3,4,4,adapt,,"Tue 17 Nov: 3e, a glossary-free alternative to registration marks (panel 3) but a coloured-pencil tick gives pencil a second meaning beside the definition; say a tick beside each owned line, never a pencil tick or a colour; Castenholz read only via Ariail and Hughes."
+Q106-028,2,4,4,3,merged,Q106-027,Tue 17 Nov: twin of Q106-027 (ticking each figure to its voucher); the CUSIP tie is already Table 1's job (Q38).
+Q106-029,2,5,4,3,keep,,"Tue 17 Nov: store; Peloubet's ink is an impression of authenticity, so the parallel breaks under its own disanalogy; useful only as the warning that an inked look without an owned Treasury is the fault the conceit avoids."
+Q106-030,1,5,3,2,keep,,"Tue 17 Nov: store only; the two reasons are exits for when the plan cannot be carried out (Q7b-033), not marks on corrections; author and year unverified."
+Q106-031,1,2,5,4,refuse,,"Tue 17 Nov: beside the 2.0 definition a cheque teaches inked as signed and owed, which V2.1 and Q42 rule out (ink is defined with owned); cheques correct in the open but that is record integrity, not the conceit's rule."
+Q106-032,1,2,2,4,merged,Q106-033,"Tue 17 Nov: in the red rests on secondary pages; the guard (no in the red or in the black, no colour for VT) is covered by Q106-033 and CONCEIT's no-puns, no-colour rules."
+Q106-033,1,4,4,4,keep,,"Tue 17 Nov: guard only: red ink marked closings, gains and corrections, not loss alone; the report uses no colour words."
+Q106-034,3,5,4,4,adapt,,"Tue 17 Nov: 3c-3d, a witty glossary-free turn (the inker may paint a mistake out, the bookkeeper may not hide one) but fix: the will be construed as deceit quote is Manzoni's as Geijsbeek renders him, never Pacioli's; and it must not undo V2.2 3d's printed page (use one frame for co-sponsors, never lives in a ledger, not on a comic page)."
+Q106-035,3,4,4,4,keep,,"Tue 17 Nov: guard for every ledger turn (V2.4 guards 1 and 7): borrow the ledger's visibility, never its recorded for owned; ledger ink records the past and can hold bad money, Laura's ink is a Treasury held to its date (IPS l.13)."
+Q106-036,1,3,4,3,keep,,"Tue 17 Nov: store only; the parallel breaks under its own disanalogy, since all three of Pacioli's books are in ink and record past trades, not forecasts."
+Q98-001,3,4,3,3,adapt,,"Tue 17 Nov: Table 3 row 6 and 3e: the top-up rides on 7- to 20-year yields, not the Fed's rate; fix bills and the 30-year nothing (the CSV gives the 6-month -1.6%, so say 6-month to 5-year -7.3%); Keel arithmetic, not in NUMBERS."
+Q98-002,2,4,3,3,keep,,"Tue 17 Nov: for the numbers owner, already open in NUMBERS 9: 5(d) tests DGS1, which carries -0.4% of the ten's rate risk; the report states no odds on most either way, so a register wording point only."
+Q98-003,3,4,3,4,keep,,"Tue 17 Nov: Table 3 row 6 can name the 10-year as the one yield to watch for the top-up (0.997 over 56 days, CSV tenor_check); Keel arithmetic on FRED repo copies, DGS10 checked at source."
+Q98-004,2,3,3,3,keep,,"Tue 17 Nov: store or Table 2 note: history on the ten's key rates supports NUMBERS 1's house-model about 8% for a 0.5-point fall before 1 Jan 2027 (9.2% since 1962, 5.2% near today); tails fatter than the model, as the row says."
+Q98-005,3,3,4,4,adapt,,"Tue 17 Nov: 3a or 3e: the $2,388 is a 6 Nov price; 0.357, 1.331 and 3.602 reproduce NUMBERS 4-5, but 0.076, 0.240, 0.547 and 1.087 are not in NUMBERS, so prose uses NUMBERS 5's 0.25-point row ($10,320); keep the words knife edge for 3f's moment."
+Q98-006,3,4,3,3,adapt,,"Tue 17 Nov: claim 1 sized for 3e or Table 3's note; NUMBERS 9 says not a register figure until re-run on the engine; shares of overlapping windows, never odds."
+Q98-007,2,4,3,3,keep,,"Tue 17 Nov: store variant of row 6 since 1990; 28 of the 35 windows over $38,282 are 2008, so the tail is one episode."
+Q98-008,2,4,3,3,keep,,Tue 17 Nov: store variant of row 6 near today's 10-year; the closest sample to carry beside row 6 if history is quoted after registration.
+Q98-009,2,4,3,3,keep,,"Tue 17 Nov: store robustness check: the $10,000 share holds under the A35 proportional convention, the tail does not (0.38% to 1.8% since 1990)."
+Q98-010,1,2,3,4,merged,Q98-006,Tue 17 Nov: three extra days to Mon 4 Jan change little; a footnote to row 6.
+Q98-011,3,4,3,5,adapt,,"Tue 17 Nov: Table 3 row 6 note or 3e, the plainest scale for a judge: these exact weeks cost over $10,000 in 20 of 64 years and over $20,000 in 8 (counts checked against the CSV); register on the engine before use (NUMBERS 9); counts of years, never odds."
+Q98-012,4,4,3,4,adapt,,"Tue 17 Nov: 3e area (2) or Table 3's note: a real dated test of the IPS order (payments whole, floor bought, VT about $1,300 bought, checked in the CSV); $44,993 and $1,318 not in NUMBERS; say a fall the size of 2008's and the largest of these weeks since 1962, never worst on record or the shares fell to; the deposit may shrink too (NUMBERS 5)."
+Q98-013,3,4,3,3,adapt,,"Tue 17 Nov: pairs with aha 3: 19 Oct 2023, 8e's one cheap day, was dear ten weeks later; $26,365 and $39,449 not in NUMBERS; say a fall the size of 2023's."
+Q98-014,3,3,3,4,keep,,"Tue 17 Nov: store context only: the 13 Nov curve is not in NUMBERS (section 9 open, Wed 18 Nov re-run), never today's figure; shows why WORDS dates the $2,388 and the first $38,282."
+Q98-015,2,3,3,3,keep,,"Tue 17 Nov: store and process on the 13 Nov curve, context until NUMBERS carries it; quote the distance, never the odds, and re-run on the day."
+Q98-016,2,3,3,3,adapt,,"Tue 17 Nov: off-grid twin of NUMBERS 5's own rows (0.5 point: VT $23,458; 1 point: $9,562) and 5(e); prose uses those; never print the floor's written minimum (WORDS)."
+Q98-017,3,4,4,3,keep,,"Tue 17 Nov: 3a or Figure 1's note: checked against NUMBERS 5's grid ($35,894, $34,516, $33,102): the extra Treasuries shrink as yields fall, so the first part of the deposit rises about $259 a basis point, not $314; never called a hedge."
+Q98-018,3,3,3,4,adapt,,"Tue 17 Nov: true on every 56-day window since 1962, but split it: l.13's complete it covers the top-up alone, the extra Treasuries are the reserve's part held as l.11 says, never inside l.13's step; completion for the sum is a register label, not a report word (WORDS)."
+Q98-019,2,4,3,3,keep,,Tue 17 Nov: store: the order runs and VT takes the move; the clash with most is already in NUMBERS 5(e); never print the written minimum.
+Q98-020,2,4,4,3,adapt,,"Tue 17 Nov: for the lead: a real gap in words, but NUMBERS 0 already puts every carried surplus in the bill ETF, so only a dated line for the first deposit's leftover is missing; the IPS is silent, so Keel's reading."
+Q98-021,3,4,3,2,keep,,"Tue 17 Nov: 3e area (2) store: in window counts large top-ups are recession events; dense, carry only with row 23's episode count."
+Q98-022,3,4,3,3,adapt,,"Tue 17 Nov: CANON D8 sized, but sixteen-fold is a ratio of overlapping-window shares dominated by 1980-82 and 2008 (row 23: most large episodes had no recession); say far more often, never a multiple."
+Q98-023,3,4,3,4,keep,,"Tue 17 Nov: 3e area (2): a large top-up does not by itself mean her income is falling; 6 of the 9 episodes without a recession are 1984-87 at 9-14% yields, so cite 1998, 2011 and 2023 for today (checked in the CSV)."
+Q98-024,3,5,3,3,adapt,,"Tue 17 Nov: 3e mechanism, but the ten's key rate fell in 7 of 8 recessions (one rise, 1973-75), by under half a point in 5; say that, never mostly did not or mixed; peak to trough misses falls before the peak."
+Q98-025,3,4,3,4,keep,,"Tue 17 Nov: 3e area (2): a recession brings a sharp eight-week plunge, not a steady slide; 1974 and 2020 only just pass $20,000, and 6.5% of windows without a recession did too."
+Q98-026,5,4,4,4,keep,,"Tue 17 Nov: 3e area (2) and CANON D8's action: buying the ten in January 2027 takes most rate risk off a year before the deposit her career puts at risk; $7,065 and $57,034 checked against NUMBERS 5 by subtraction; the 2000, 2007 and 2008 figures are MODEL, store only."
+Q98-027,1,2,5,4,keep,,"Tue 17 Nov: store limit for rows 21-23: NBER lists no peak after Feb 2020, so recent flags are provisional."
+Q98-028,2,4,5,3,merged,Q98-031,Tue 17 Nov: twin of row 31 (the named price lock); Linklaters' definitions kept as its second source.
+Q98-029,2,4,5,3,adapt,,"Tue 17 Nov: the parallel breaks on its own disanalogy: a Balancing Premium settles a data cleanse, not a market move, so never call the top-up one; keep only the risk that the premium moves past what the trustee can afford, beside row 18."
+Q98-030,2,4,4,4,keep,,"Tue 17 Nov: store: market conditions date names NUMBERS' one-curve convention (6 Nov 2026) against January's price; a paraphrase, so quote only the phrase."
+Q98-031,3,4,5,4,keep,,"Tue 17 Nov: 3e area (2), one clause at most: the field nearest Laura's plan names the gap between quote and transaction and locks it; Laura cannot (no money until January 2027, no derivatives), so the top-up from her second deposit does that job."
+Q98-032,2,2,5,4,keep,,"Tue 17 Nov: store: buy-in prices rise as yields fall in every market for fixed payments; textbook bond pricing, the price-chip quote for colour only."
+Q98-033,2,3,5,4,keep,,Tue 17 Nov: store answer to why not lock the price first: professionals hold matching bonds before the trade; Laura has no money until January 2027 (case).
+Q98-034,1,3,3,4,keep,,Tue 17 Nov: store guard against a year-end rally claim; November starts match all windows.
+Q98-035,2,3,4,4,keep,,"Tue 17 Nov: Table 3 row 5 support: a fixed first trading day takes the choice of day away, either way; DGS10 read at source; pairs with H1-051 (the 2028 deposit on a fixed date)."
+Q98-036,2,3,3,4,merged,Q98-012,"Tue 17 Nov: Table 3 form of row 12; Table 3 has no headroom (17 Nov), so a note item at most, once registered."
+Q98-037,2,1,4,4,keep,,"Tue 17 Nov: for the lead: D8's $1,544 is the curve basis less $300,000 (NUMBERS 1: $301,544); the top-up is $2,287 or $2,388; D8's figure sits in Keel's analysis column, not submitted text, and NUMBERS 9 already lists it."
+Q98-038,1,2,4,4,keep,,"Tue 17 Nov: store rule restated from SKELETON 3e: shares of overlapping windows, never probabilities."

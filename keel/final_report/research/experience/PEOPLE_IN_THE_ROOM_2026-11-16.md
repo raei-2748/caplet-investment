@@ -99,7 +99,7 @@ IPS and TNA). **KEEL/CLAUDE** = in the AI's records only. **NOT IN THE RECORD** 
 | Fact | Who | Source | Status |
 |---|---|---|---|
 | The first plan: a "growth clock" to 2031 with "'full license' for growth-tilted, equity-heavy portfolio", equity "~75% in 2027", gliding to 20-25%, a Treasury "Payment Ladder" bought from 2033; three buckets "inspired by Ashvin Chhabra" | The team's notes ("Student-authored brainstorming"); no author named. One line says "author leans to" partial locking, so at least one teammate leaned another way | `team_notes_2026-09-27.md` l.15-24, l.40 | CAPLET. Which student held which view: NOT IN THE RECORD |
-| "So, naturally, that was our plan – until we stopped and considered the actual nature of a writer's income" | The team | IPS l.9 | CAPLET (the team's own reason for the same turn; tell the test, not this reason, which is the IPS's) |
+| "So, naturally, that was our plan – until we stopped and considered the actual nature of a writer's income" | The team | IPS l.9 | CAPLET (the team's own reason for the same turn, and since Tue 17 Nov the moment's cause, told in the team's own words and never by repeating the IPS's sentence; the test only priced it: coherence reader 7, Tue 17 Nov, H1, the lead's call; CANON A3. The team's notes of 27 Sep already call her income "lumpy income", `team_notes_2026-09-27.md` l.33) |
 | "27 Sep: first model of our original plan, about three-quarters shares. It missed a payment in 3.2% of model paths, 13.7% ... 40.8% ... We changed strategy." | "we" (Caplet's edit; Keel's draft said "The team changed strategy") | the tab l.3 | CAPLET wording; the model was the assistant's (`strategy_mc.py`, NUMBERS 8s) |
 | "the team deferred to the assistant's evidence-based calls, provisionally: (1) growth sleeve ~60% equity (weakest call: 50-70% barely changes the median)" | The team deferred | CLAUDE.md l.240 (interview part 2, 27 Sep) | KEEL/CLAUDE record. **So "the share weight the team had argued over (50, 60 or 70%)" (RANKING_4 moment 2, BLIND_POOL_3 E6, RANKING_5, card Q13 M2) is NOT IN THE RECORD.** The record says the team deferred; the 50/60/70 is the model's sensitivity |
 | "28 Sep: trading opened. We decided upon our new strategy: ... a Treasury floor plus a world share fund with the second, with gift = floor + half the fund. Reason: better outcomes in bad years." | "we" (Caplet replaced Keel's "A large AI research run ... recommended the shape") | the tab l.4; Keel's draft `01_keel_experience.md` l.14 | CAPLET |
@@ -160,9 +160,12 @@ IPS and TNA). **KEEL/CLAUDE** = in the AI's records only. **NOT IN THE RECORD** 
 **B. Laura's taste for risk, priced both ways (replaces "too bold, then too timid"), about 190 words.**
 - Say:
   - the case pulls two ways ("willing to take thoughtful risks" and "a high degree of certainty");
-  - our first plan, about three-quarters shares (our notes of 27 Sep), took the first pull and failed its own test
-    before any trade: one date, 1 Jan 2033, decided it (8s), 3.2% of simulated markets (about 1 in 31); "We changed
-    strategy";
+  - our first plan, about three-quarters shares (our notes of 27 Sep), took the first pull, and we dropped it
+    before any trade for the reason our IPS gives, how a writer is paid, said in our own words and never by
+    repeating the IPS's sentence (CANON A3; our notes of 27 Sep already say "lumpy income"); then we checked it:
+    the 27 Sep model priced the change at about 1 in 31 simulated markets with a missed payment (3.2%; one date,
+    1 Jan 2033, decided every miss, 8s), against none from January 2028; "We changed strategy" (coherence reader 7, Tue 17 Nov, H1:
+    the 3.2% is the check that priced the change, never its reason);
   - the careful plan we chose on 28 Sep ("Reason: better outcomes in bad years") then had to answer the same words of
     the case, and before the strategy was locked on 1 Oct we priced the other side: each $25,000 less floor added
     about $2,000-3,000 in the middle and cost about $9,000-10,000 in a bad market (29 Sep model). Today's version is
@@ -173,7 +176,10 @@ IPS and TNA). **KEEL/CLAUDE** = in the AI's records only. **NOT IN THE RECORD** 
   - "the weight we argued over" (the team deferred, 27 Sep);
   - any vote on the floor (none logged);
   - a named student as the plan's author or its critic;
-  - IPS l.9's career reason as this moment's reason (it is the IPS's, and an idea, Book 18);
+  - (Struck Tue 17 Nov, coherence reader 7, Tue 17 Nov, H1, on the lead's call: this line kept IPS l.9's career reason out as the
+    moment's reason. It is now the moment's cause, told in the team's words, since CANON A3 says no other reason
+    may replace it.) Keep out instead: the 3.2% as the reason the plan was dropped, and the IPS's own sentence
+    repeated;
   - 40.8% set against "never" (8s).
 
 **C. "A copout", about 220 words.**
@@ -222,7 +228,7 @@ IPS and TNA). **KEEL/CLAUDE** = in the AI's records only. **NOT IN THE RECORD** 
 | Moment | People named | Disagreement or decision | What changed | The one number | Purpose (Wharton's words, instructions l.128 and l.148) |
 |---|---|---|---|---|---|
 | A. The knife edge | Eric (00:30); "we" for the pricing and the rule | A decision, no quarrel: the Big Idea's own catch ("very tight") was the usual state of 2026, so the 2028 deposit got a first job before any order, written into our IPS | The completion rule is live: $301,544 at the freeze, $2,388 completes the ten; fills told as luck | 37 of 214 closes under $300,000, all from 10 Sep (8b) | research; uncertainty; decision-making |
-| B. Laura's taste for risk, priced both ways | "we": our first plan (27 Sep notes), "We changed strategy", "We decided upon our new strategy" | The case's two pulls: thoughtful risk against certainty. Bold first (about three-quarters shares, failed before any trade), then the careful plan priced against the same words before the 1 Oct lock | The order of claims (payments, bottom, top, what she keeps); the floor kept | 3.2% of simulated markets missed a payment (27 Sep model; 8s, about 1 in 31) | learning; uncertainty; decision-making ("growth and response to challenges", WHARTON_WORD l.30-32) |
+| B. Laura's taste for risk, priced both ways | "we": our first plan (27 Sep notes), "We changed strategy", "We decided upon our new strategy" | The case's two pulls: thoughtful risk against certainty. Bold first (about three-quarters shares, dropped before any trade for how a writer is paid, IPS l.9's reason in the team's words; the 27 Sep model priced it), then the careful plan priced against the same words before the 1 Oct lock | The order of claims (payments, bottom, top, what she keeps); the floor kept | 3.2% of simulated markets missed a payment (27 Sep model; 8s, about 1 in 31): the check that priced the change, never its reason (H1) | learning; uncertainty; decision-making ("growth and response to challenges", WHARTON_WORD l.30-32) |
 | C. "A copout" | Darren | Darren argued one world fund was "a copout" and proposed picking stocks and ETFs; "We decided, in the end, to keep the one world fund (VT)" | VT kept for Laura's reasons, not as a default | 0.8991 against a 0.90 bar (30 Sep model) | disagreements; collaboration; research (the erudition, Book 18) |
 
 **Can "too bold, then too timid" be told at all? Not as planned.**
@@ -262,7 +268,8 @@ IPS and TNA). **KEEL/CLAUDE** = in the AI's records only. **NOT IN THE RECORD** 
    date decided its misses (27 Sep model, 3.2%; 8s); the careful plan of 28 Sep ('Reason: better outcomes in bad
    years') priced against the same words before the 1 Oct lock (29 Sep model; today 8n); no 'readers', 'reviewers' or
    'blind test' (`experience/PEOPLE_IN_THE_ROOM_2026-11-16.md` section 5); no 'weight we argued over' (the team
-   deferred, CLAUDE.md l.240); Kahneman and Lovallo 1993 (card Q13 row 9)".
+   deferred, CLAUDE.md l.240); Kahneman and Lovallo 1993 (card Q13 row 9)". (Superseded Tue 17 Nov for the cause, coherence reader 7, Tue 17 Nov, H1: SKELETON's 3f row now gives IPS l.9's reason, how a writer is paid, in the team's words, with the
+   27 Sep model's 3.2% as the check that priced the change, never "dropped ... when one date decided its misses".)
 4. Quoted: "(3) "a copout", about 220 words: the world fund against its strongest objection". Add: "Darren named (journal
    l.23; the tab l.11); 'We decided, in the end, to keep the one world fund (VT)' as the decision; who answered him, any
    vote and his reply are not in the record and never written; the bar told as already written, never as the answer

@@ -51,11 +51,11 @@ carries it. Nothing here edits NUMBERS, `numbers/`, SKELETON or WORDS; section 4
    (section 3e).
 4. **Recommendation: option (b).** Keep the range in the case's form (about $95,000 to $115,000 on today's figures, by
    the rule). Name the top as her facility contribution and the figure co-sponsors count. Name the bottom once as the
-   part held since January 2028, which rests on the floor alone. Both ends are owned when she speaks. The range records
-   when each part was secured; it is not a margin for error.
-5. **The one sentence for 3c** (the gist; the 27 Nov writers re-voice it, no figures, no "certain" in it): "Both ends
-   are Treasuries Laura already owns, so the range shows when each part was secured, the bottom in January 2028 before
-   shares had any say and the rest when half the shares moved before the 2031 meetings, and she gives the top."
+   part held since January 2028, counted from the Treasury fund bought that month alone. Both ends are owned when she
+   speaks. The range records how long each part has been held; it is not a margin for error (coherence reader 7, Tue 17 Nov, LOW 1:
+   never "secured" or "before shares had any say").
+5. **The one sentence for 3c** (the gist; the 27 Nov writers re-voice it, no figures, no "certain" in it; reworded
+   Tue 17 Nov in 3c's own "held since", coherence reader 7, Tue 17 Nov, LOW 1): "Both ends are Treasuries Laura already owns: the bottom is the part held since January 2028, the rest has been held since half the shares moved into Treasuries before the 2031 meetings, and she gives the top."
 6. **Nothing the IPS froze changes.** Holdings, dates, the move, the half promised to no one, the rule and the stated
    figures are all unchanged; only which figure co-sponsors are told to count changes. (b) is the reading CANON D1, D12
    and D14 already give: the moved half is "the promised half", and the contribution is "floor plus the promised half"
@@ -168,10 +168,10 @@ no one"), so her choice is the top. One clause in 3c says this.
 | Holds whatever shares do (VT to zero: one figure, $95,000; a 40% fall before the move: $95,000 to $105,000; NUMBERS 4, 8p) | Yes: it is the only owned figure, and IPS l.15's constant | No: the shares' part is already in Treasuries |
 | Bounds a risk below the top | Yes (shares) | Only at fund costs of about a fifth of value (Keel arithmetic), or if the moved half sat in a different fund that failed alone (UNVERIFIED target, CANON A32) |
 | What co-sponsors may count before 2031 | No audience: the case's meetings begin in 2031 (l.109), and the rule states nothing before the move (NUMBERS 4) | Replaced by the top, which is owned |
-| The most she could have promised at any time from January 2028 (IPS l.15, "the bare minimum ... without doubt"; card Q43's Antideficiency parallel: promise only what is already in the account) | Yes | Yes, as a record: it shows she secured a minimum before markets had any say |
+| The most she could have promised at any time from January 2028 (IPS l.15, "the bare minimum ... without doubt"; card Q43's Antideficiency parallel: promise only what is already in the account) | Yes | Yes, as a record: it shows the part she has held since January 2028 (never "secured" or "before markets had any say", LOW 1) |
 | The TNA's "minimum figure in 2031" and "her promised minimum" (l.13, l.21) | | Yes: frozen words; the bottom must still be said to co-sponsors in 2031 |
 | The case's form ("a credible range") and Wharton's required item | | Yes |
-| Shows what the width is: the half of the shares moved into Treasuries (CANON D1), so co-sponsors see what markets added and that it was secured before she spoke | | Yes |
+| Shows what the width is: the half of the shares moved into Treasuries (CANON D1), so co-sponsors see what markets added and that it was owned before she spoke | | Yes |
 
 So the bottom's risk job is real only before the move; its record job, its frozen-word job and its form job are real in
 2031. None of these is a reason to count it in place of the top.
@@ -217,8 +217,8 @@ So the bottom's risk job is real only before the move; its record job, its froze
 ### (b) The range, with the top as her contribution and the bottom as the part owned first (recommended)
 
 - **What it says.** In 2031 Laura states her range, both ends owned; the top is her facility contribution and the figure
-  to count; the bottom is the part held since January 2028, resting on the floor alone. The range records when each
-  part was secured.
+  to count; the bottom is the part held since January 2028, counted from the Treasury fund bought that month alone. The range
+  records how long each part has been held (LOW 1).
 - **For.**
   - True to the money: the contribution is the top in every tested future (NUMBERS 4).
   - Gneezy and Epley: promise what you will deliver, keep it, and get full credit at the ask (Q25 rows 1-4). The AHA
@@ -358,12 +358,13 @@ the event and is "certain" after the move, on the Treasuries; and the before-the
 
 ### 4d. The one sentence that answers "why a range" before a judge asks
 
-"Both ends are Treasuries Laura already owns, so the range shows when each part was secured, the bottom in January 2028
-before shares had any say and the rest when half the shares moved before the 2031 meetings, and she gives the top."
+"Both ends are Treasuries Laura already owns: the bottom is the part held since January 2028, the rest has been held since half the shares moved into Treasuries before the 2031 meetings, and she gives the top."
+
+(Reworded Tue 17 Nov, coherence reader 7, Tue 17 Nov, LOW 1: the old sentence said "secured" and "before shares had any say", both banned since the funder test; 3c's own words are "held since".)
 
 - No figures in it, so it never sits beside "certain" (M1). The figures go in the sentence before it.
-- If the writers want the shortest form: "The range records when each part was secured, not how far she might miss,
-  and she gives the top." (Check it against the slogan-flip list in `keel/ips_rewrite/drafts/D35/README.md` first.)
+- If the writers want the shortest form: "The range records how long each part has been held, not how far she might
+  miss, and she gives the top." (Check it against the slogan-flip list in `keel/ips_rewrite/drafts/D35/README.md` first.)
 
 ### 4e. What would have to change elsewhere (for each file's owner; this worker edits none of them)
 

@@ -9,10 +9,16 @@ Decided Tue 10 Nov 2026 07:04 (Sydney), `keel/pm/ASK_HUMANS.md`:
      next payment due. The backstop is the cheapest one (exact linear programme) that pays all ten if no coupon and no
      waiting dollar ever earns a cent. It replaces Mon 9 Nov's call (design A sized for reinvestment 3 points below
      forwards, kept here as the alternative "KEEL").
-  2. Range rule (card Q19): bottom = the floor fund's payout if no more interest is earned from its purchase (January
-     2028), worked out at its purchase yield; top = that plus the moved half's payout on the same basis, worked out on
-     the move day (before the 2031 meetings); both rounded down to $5,000; the 2033 contribution is the lower of what
-     the two funds pay and the stated top, and any excess joins the half kept (CANON D12); no figure before the move.
+  2. Range rule (card Q19), as `rule()` below computes it today (docstring corrected Tue 17 Nov, bond desk 4, L4; the
+     code is unchanged): each part's zero-interest value = the money put in (units x that day's net asset value) x
+     `zero_per_dollar` on its trade day (the fund's gross holdings priced on that day's curve; each remaining flow paid
+     less the 0.07% fee from the trade day, each distribution less the bill fund's 0.15% a year to 15 Dec 2032). Bottom
+     = the floor's zero-interest value (January 2028, measured once) less HAIRCUT (0.5%), rounded down to $5,000. Top =
+     the floor's unrounded zero-interest value plus the moved half's (move day, before the 2031 meetings), less 0.5%,
+     rounded down ONCE to $5,000: the parts are never rounded, so "both rounded down" does not describe it. The 2033
+     contribution is the lower of what the two funds pay and the stated top, and any excess joins the half kept (CANON
+     D12); no figure before the move. (Tue 10 Nov morning's version, one par bond at the purchase yield, no haircut,
+     no fee from the trade day, is `rule_par()`, kept as a comparison.)
 
 Every script reads the design from here (CALL), so a change of standard is one line. `--design KEEL` on a script
 reproduces the Mon 9 Nov standard on the same code.

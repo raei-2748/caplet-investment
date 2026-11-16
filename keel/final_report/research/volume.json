@@ -1,17 +1,26 @@
 {
- "built": "2026-11-16T20:21+11:00",
- "today": "2026-11-16",
- "store_ideas": 5634,
- "store_judged": 4800,
+ "built": "2026-11-17T08:18+11:00",
+ "today": "2026-11-17",
+ "store_ideas": 6201,
+ "store_judged": 5367,
  "totals": {
-  "workers": 113,
-  "cards": 125,
-  "rows": 4374,
-  "sources": 4692,
-  "passages": 60,
-  "readings": 33
+  "workers": 152,
+  "cards": 139,
+  "rows": 4941,
+  "sources": 5245,
+  "passages": 73,
+  "readings": 40
  },
  "days": [
+  {
+   "day": "2026-11-17",
+   "workers": 39,
+   "cards": 14,
+   "rows": 567,
+   "sources": 553,
+   "passages": 13,
+   "readings": 7
+  },
   {
    "day": "2026-11-16",
    "workers": 113,
@@ -19,7 +28,7 @@
    "rows": 1928,
    "sources": 2108,
    "passages": 39,
-   "readings": 21
+   "readings": 20
   },
   {
    "day": "2026-11-15",
@@ -28,7 +37,7 @@
    "rows": 361,
    "sources": 547,
    "passages": 21,
-   "readings": 5
+   "readings": 6
   },
   {
    "day": "2026-11-14",
@@ -110,39 +119,17 @@
    "analysis_workers": "20",
    "readers": "15",
    "notes": "Thirteen research workers: cards Q82-Q94 (proofs and trade customs; seals and pledges in Taiwan; forecast rules in Taiwan and Japan; building costs and world shares re-derived; giving against means; the price of certainty; implementation shortfall; one issuer; pledges at a discount; dissent in teams; Taiwan's political calendar; why no bond matures 2031-2036; guidance heard as a promise), 482 rows from about 490 sources read at source; thirteen raters judged every row the same evening; five analysis workers (custody balance and the waiting-cash replay, NUMBERS 8t; Figure 1 and Table 2 rebuilt; why a range once both ends are owned; people in the reflection; the coherence and bond readers' fixes) and two fresh voice writers; fifteen readers: panel 3 (three judges), bond desk 4, coherence reader 6, four funders (which figure is booked), three voice readers (round 5) and three cold aha readers"
+  },
+  {
+   "date": "2026-11-17",
+   "run": "morning (overdrive)",
+   "research_workers": "14",
+   "analysis_workers": "17",
+   "readers": "8",
+   "notes": "Fourteen research workers on the thinnest tags and short SKELETON parts: cards Q95-Q108 (authors' lumpy advances; a career as bond, stock and option; pension sponsors and recovery plans; the top-up before January 2027 with eight-week moves since 1962; comfort letters and pledges; Taiwan's artist-founded museums; artist-endowed foundations; what $50,000 buys in Taiwan; Taiwan's price adjustment and October's cost index read at source; coupon reinvestment history; fewer numbers, better understood; ink in the ledger; aha moments and memory; graphic novels through downturns), 567 rows from about 495 sources read at source; nine raters judged every row the same morning; six analysis workers (numbers owner: bond desk 4 reproduced and the payments' cost exposure sized; Table 3 cut to one page; the density cut of 3a, 3c and 3e; the aha test brief; landing Q82-Q108 in SKELETON, GEM_LEDGER and REFERENCES; coherence and lay fixes) and two fresh voice writers; eight readers: voice round 6 (three), cold aha test 4 (three), coherence reader 7 and a lay reader"
   }
  ],
  "cards": [
-  {
-   "card": "Q73_how_institutions_draw_a_matched_ladder",
-   "day": "2026-11-16",
-   "rows": 39,
-   "sources": 29
-  },
-  {
-   "card": "Q74_what_confidence_means",
-   "day": "2026-11-16",
-   "rows": 39,
-   "sources": 28
-  },
-  {
-   "card": "Q75_matching_funds_in_asia",
-   "day": "2026-11-16",
-   "rows": 44,
-   "sources": 44
-  },
-  {
-   "card": "Q76_rules_for_stating_future_figures",
-   "day": "2026-11-16",
-   "rows": 39,
-   "sources": 23
-  },
-  {
-   "card": "Q77_if_the_building_does_not_happen",
-   "day": "2026-11-16",
-   "rows": 42,
-   "sources": 35
-  },
   {
    "card": "Q78_waiting_when_a_custodian_fails",
    "day": "2026-11-16",
@@ -274,6 +261,36 @@
    "day": "2026-11-16",
    "rows": 40,
    "sources": 44
+  },
+  {
+   "card": "Q95_authors_and_lumpy_advances",
+   "day": "2026-11-17",
+   "rows": 39,
+   "sources": 57
+  },
+  {
+   "card": "Q96_career_as_bond_stock_and_option",
+   "day": "2026-11-17",
+   "rows": 42,
+   "sources": 59
+  },
+  {
+   "card": "Q97_sponsor_covenant_and_recovery_plans",
+   "day": "2026-11-17",
+   "rows": 44,
+   "sources": 35
+  },
+  {
+   "card": "Q98_top_up_before_january_2027",
+   "day": "2026-11-17",
+   "rows": 38,
+   "sources": 12
+  },
+  {
+   "card": "Q99_comfort_letters_and_pledges",
+   "day": "2026-11-17",
+   "rows": 38,
+   "sources": 32
   },
   {
    "card": "Q9_what_makes_a_residency_last",

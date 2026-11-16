@@ -1,0 +1,129 @@
+{
+ "run": "Tue 17 Nov 2026 (Sydney), numbers owner",
+ "basis": "team record and arithmetic, not a model",
+ "ibond_funds": {
+  "lines": {
+   "IBTM": {
+    "units": 4503.0,
+    "sheet_price_2oct": 21.69,
+    "paid": 21.65,
+    "drift": -180.12,
+    "drift_pct": -0.0018441678192716582
+   },
+   "IBTO": {
+    "units": 1024.0,
+    "sheet_price_2oct": 22.92,
+    "paid": 22.86,
+    "drift": -61.44,
+    "drift_pct": -0.002617801047120505
+   },
+   "IBTP": {
+    "units": 927.0,
+    "sheet_price_2oct": 23.98,
+    "paid": 23.9,
+    "drift": -74.16,
+    "drift_pct": -0.0033361134278566684
+   },
+   "IBTQ": {
+    "units": 894.0,
+    "sheet_price_2oct": 23.56,
+    "paid": 23.46,
+    "drift": -89.4,
+    "drift_pct": -0.004244482173174746
+   },
+   "IBTR": {
+    "units": 853.0,
+    "sheet_price_2oct": 23.36,
+    "paid": 23.24,
+    "drift": -102.36,
+    "drift_pct": -0.005136986301369939
+   }
+  },
+  "drift_total": -507.48
+ },
+ "vt": {
+  "target_units": 164.0,
+  "filled_units": 167.0,
+  "sheet_price_2oct": 159.13,
+  "paid": 158.83,
+  "sheet_cost": 26097.32,
+  "fill_cost": 26524.61,
+  "change": 427.29,
+  "three_extra_at_fill_price": 476.49,
+  "drift_on_target_units": -49.2,
+  "drift_on_filled_units": -50.1,
+  "three_extra_at_sheet_price": 477.39
+ },
+ "six_funds_drift_on_filled_units": -557.58,
+ "bonds": {
+  "lines": {
+   "T 4.750% 15-Feb-2037": {
+    "face": 20000.0,
+    "sheet_clean_per100": 96.484,
+    "sheet_accrued_per100": 0.638,
+    "sheet_dirty_per100": 97.122,
+    "wins_clean_per1000": 960.19,
+    "clean_drift": -93.0
+   },
+   "T 4.500% 15-May-2038": {
+    "face": 20000.0,
+    "sheet_clean_per100": 93.601,
+    "sheet_accrued_per100": 0.604,
+    "sheet_dirty_per100": 94.205,
+    "wins_clean_per1000": 930.763,
+    "clean_drift": -104.94
+   },
+   "T 4.375% 15-Nov-2039": {
+    "face": 18000.0,
+    "sheet_clean_per100": 90.57,
+    "sheet_accrued_per100": 1.678,
+    "sheet_dirty_per100": 92.248,
+    "wins_clean_per1000": 900.053,
+    "clean_drift": -101.65
+   },
+   "T 4.250% 15-Nov-2040": {
+    "face": 18000.0,
+    "sheet_clean_per100": 88.247,
+    "sheet_accrued_per100": 1.642,
+    "sheet_dirty_per100": 89.889,
+    "wins_clean_per1000": 877.24,
+    "clean_drift": -94.14
+   },
+   "T 3.125% 15-Nov-2041": {
+    "face": 20000.0,
+    "sheet_clean_per100": 75.488,
+    "sheet_accrued_per100": 1.207,
+    "sheet_dirty_per100": 76.695,
+    "wins_clean_per1000": 749.55,
+    "clean_drift": -106.6
+   }
+  },
+  "sheet_dirty": 86389.06,
+  "sheet_clean": 85301.66,
+  "sheet_accrued": 1087.4,
+  "wins_clean": 84801.33,
+  "wins_accrued_8g": 1109.42,
+  "clean_drift": -500.33,
+  "accrued_drift": 22.02,
+  "drift_dirty": -478.31,
+  "basis": "sheet bond prices = Book L clean + accrued per $100, WInS screens 5 Oct 01:18 ET (asserted)"
+ },
+ "cash": {
+  "sheet_shown": 2955.0,
+  "sheet_exact_from_its_prices": 2955.29,
+  "wins": 3513.79,
+  "gap_vs_shown": 558.79,
+  "gap_vs_exact": 558.5
+ },
+ "reconciliation": {
+  "ibond_funds": -507.48,
+  "vt": 427.29,
+  "bonds": -478.31,
+  "commissions": 0.0,
+  "fills_less_sheet": -558.5
+ },
+ "zones": {
+  "first_fill": "Tue 6 Oct 7:55 PM ET = Wed 7 Oct 10:55 AM Sydney",
+  "last_fill": "Wed 7 Oct 8:27 PM ET = Thu 8 Oct 11:27 AM Sydney"
+ }
+}

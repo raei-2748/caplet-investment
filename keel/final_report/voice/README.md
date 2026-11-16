@@ -117,6 +117,11 @@ of them, reading a round's passages blind.
   made; the ones that failed repeated a point already made plainly or let the image stand as the reason for a decision.
   Writer J, without the essays, did at least as well as H, so the essays are not needed in a writer's diet.
 
+- Round 6 (Tue 17 Nov morning, `ROUND6.md`): writers K and L on writer J's diet, buying it and the 2031 range. Caplet 9
+  of 9; plain 12 of 12; one turn 9 of 12 ("a click is ink" 3 of 3, "two inkings, two dates" 3 of 3 and helpful to all
+  three readers, the key plate 2 of 3, "let the ink dry" 1 of 3); every check answer right. Images read as the team's only
+  as a working word in passing; the middle passages lost ground by loading figures into single sentences.
+
 ## Files
 
 - `CORPUS.md`: everything Caplet has written itself, and where it came from.

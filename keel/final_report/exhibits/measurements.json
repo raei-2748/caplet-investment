@@ -14,10 +14,10 @@
   "pages_spanned": 1
  },
  "f1_note_budget": {
-  "lines": 17.3,
-  "inches": 6.64,
-  "prose_words_displaced": 250,
-  "note_words": 77,
+  "lines": 18.3,
+  "inches": 7.02,
+  "prose_words_displaced": 260,
+  "note_words": 84,
   "pages_spanned": 1
  },
  "f1_no_note": {
@@ -28,10 +28,10 @@
   "pages_spanned": 1
  },
  "t2_note_budget": {
-  "lines": 18.2,
-  "inches": 6.96,
-  "prose_words_displaced": 260,
-  "note_words": 95,
+  "lines": 20.2,
+  "inches": 7.73,
+  "prose_words_displaced": 290,
+  "note_words": 137,
   "pages_spanned": 1
  },
  "t2_no_note": {
@@ -42,26 +42,18 @@
   "pages_spanned": 1
  },
  "t3_note_budget": {
-  "lines": null,
-  "pages_spanned": 4,
-  "note_words": 40,
-  "lines_on_a_tall_page": 27.9,
-  "inches": 10.69,
-  "over_one_letter_page_inches": 1.69,
-  "over_one_letter_page_lines": 4.4,
-  "fits_one_page": false,
-  "method": "too tall for one Letter page: measured on a page of Letter width, 22 in tall (Letter's text block is 9 in, 23.5 double-spaced lines)"
+  "lines": 21.4,
+  "inches": 8.2,
+  "prose_words_displaced": 310,
+  "note_words": 44,
+  "pages_spanned": 1
  },
  "t3_no_note": {
-  "lines": null,
-  "pages_spanned": 3,
+  "lines": 18.4,
+  "inches": 7.05,
+  "prose_words_displaced": 260,
   "note_words": 0,
-  "lines_on_a_tall_page": 24.9,
-  "inches": 9.54,
-  "over_one_letter_page_inches": 0.54,
-  "over_one_letter_page_lines": 1.4,
-  "fits_one_page": false,
-  "method": "too tall for one Letter page: measured on a page of Letter width, 22 in tall (Letter's text block is 9 in, 23.5 double-spaced lines)"
+  "pages_spanned": 1
  },
  "s2_fit": {
   "ceiling_words": 626,
@@ -78,5 +70,5 @@
   "method": "card Q23 row 33 (fit_mock): Letter, Wharton's format, 120-word filler paragraphs, the paper title on page 2, Level 1 heading, lead + 2.1 under one Level 2 heading before Table 1 (top of page 3), 2.2, 2.3 and 2.5 under three after it; Table 1 with its note budget in filler. Real text runs 2-3% under a filler ceiling (Q23), so the real-text headroom takes 3% off the ceiling."
  },
  "_method": "Card Q23: Letter, 1-inch margins, 12-pt Times New Roman metrics (Liberation Serif), double-spaced text at a 27.6-pt pitch, table bodies single-spaced, APA number, title and note double-spaced, a blank double-spaced line after each exhibit; LibreOffice headless; words a line 14.26 (Q23 row 5)",
- "_built": "Mon 16 Nov 2026 evening (Sydney), register of 2026-11-15 (results_*_2026-11-15.json)"
+ "_built": "Tue 17 Nov 2026 (Sydney), register of 2026-11-15 (results_*_2026-11-15.json; Table 3 row 5's limit from NUMBERS 4, Tue 17 Nov)"
 }
