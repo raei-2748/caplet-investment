@@ -154,7 +154,13 @@ a message from Caplet, a finding, a mistake caught); only the people are invente
   for the world fund as a slide line, "for the right reason", a fee paragraph nobody could follow), then 11 (one serious:
   a line saying what Caplet's 21:29 message took back), then eight (one serious: a paragraph ending on the readers'
   verdict on the two writers who used the picture; files as the subject where Keel had put the warning back); each was
-  cut or put in plain words, and the third read's fixes went in without a fourth read.
+  cut or put in plain words, and the third read's fixes went in without a fourth read. Ep 50 (Mon 16 Nov) failed three fresh
+  reads: 23 lines (eight serious: a lesson line closing the judges' scene, the narrator explaining the score drop,
+  pencil and ink and the funders' two framings never explained, a summary giving one member a fix a researcher made, a
+  tangled line on Caplet's Sunday message), then four plus two framing problems ("the argument" for a real exchange of
+  Caplet's; outside readers presented as a real professor and real funders), then eight (two serious: a definition of
+  pencil that changed its meaning, the Sunday message still unclear); each was cut or put in plain words, the readers
+  now named as readers playing parts, and the third read's fixes went in without a fourth read.
 
 ## 3. Sources, and what each teaches (all accessed Sun 8 Nov 2026)
 
