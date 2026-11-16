@@ -327,7 +327,7 @@ save(fig, "c3_when_owned")
 t2 = (FR / "exhibits/tables.md").read_text()
 worlds = []
 for line in t2.splitlines():
-    m = re.match(r"\| (Today's forward rates|Replay from 2006: shares fall|Rates 3 points lower from Jan 2027|"
+    m = re.match(r"\| (Today's market rates|Replay from 2006: shares fall|Rates 3 points lower from Jan 2027|"
                  r"Replay from 2007: rates fall early|Inflation: rates 3 points higher|&nbsp;&nbsp;1-in-20 low|"
                  r"&nbsp;&nbsp;Median|&nbsp;&nbsp;1-in-20 high) \| All paid \| \$([\d,]+) \| \$([\d,]+) \| "
                  r"\$([\d,]+) \|", line)
@@ -340,14 +340,16 @@ fig, (a1, a2) = plt.subplots(1, 2, figsize=(6.5, 2.7), sharey=True, gridspec_kw=
 fig.subplots_adjust(left=0.33, right=0.97, top=0.84, bottom=0.12, wspace=0.10)
 ys = [8.4, 7.4, 6.4, 5.4, 4.4, 2.4, 1.5, 0.6]
 for y, (w, lo, hi, flex) in zip(ys, worlds):
-    col = INK if w == "Today's forward rates" else DARK
+    col = INK if w == "Today's market rates" else DARK
     a1.plot([lo / 1000, hi / 1000], [y, y], color=col, lw=2.0, solid_capstyle="butt")
     a1.plot([lo / 1000, hi / 1000], [y, y], "|", color=col, ms=7, mew=1.0)
     a1.text(hi / 1000 + 2, y, f"${lo / 1000:.0f}k-${hi / 1000:.0f}k", fontsize=10, va="center")
     a2.plot([flex / 1000], [y], "o", ms=4.5, color=col)
     a2.text(flex / 1000 + 2.5, y, f"${flex / 1000:.1f}k", fontsize=10, va="center")
 a1.axhline(3.75, color=RULE, lw=0.5)
-a1.text(52, 3.25, "All 585 history replays, 1962-2010 starts:", fontsize=10, style="italic", va="center")
+# Mon 16 Nov night: WORDS's names, as Table 2 now prints them ("Today's market rates", "every starting month since
+# 1962"; coherence reader 6, L2), so the row names above are read from tables.md under the new first name
+a1.text(52, 3.25, "Every starting month since 1962:", fontsize=10, style="italic", va="center")
 a2.axhline(3.75, color=RULE, lw=0.5)
 a1.set_yticks(ys)
 a1.set_yticklabels([w for w, *_ in worlds])

@@ -62,7 +62,7 @@ one "to place" row (DAILY_RUN, Book 19) and marks it here with the date.
 | 33 | "Fixed outcome, not fixed income" (Howard Marks) | 3a | A practitioner's name for the standard | A #31 | To place |
 | 34 | Portfolio insurance and the 1987 crash, as the design not taken | 3b clause | The refused design (never "portfolio insurance" for this plan) | A #76 | To place |
 | 35 | One "took / refused" clause per part (Book 13's synthesis made visible) | Every part | Erudition shown as choices | A #4-5 | To place (27 Nov writers) |
-| 36 | Laura's own words, "until the day it hits the shelves" (Climbing, 4 Mar 2025), once, cited | 2.3 | Her career risk in her own words | A #59 | To place |
+| 36 | Laura's own words, "until the day it hits the shelves" (Climbing, 4 Mar 2025), once, cited | 2.3 | Her career risk in her own words | A #59 | Placed Mon 16 Nov evening (SKELETON 2.3 density-cut row: the quote is 2.3's one extra on 27 Nov, BMS's figure to the store unless there is room; purpose: the pitch's premise in the client's own words; panel 3's LDI judge and finalist both found BMS the weakest load in 2.3) |
 | 37 | Co-sponsors reach a target far more often with a known figure and the richest moving first (threshold experiments) | 3d | Why one figure, said first | Candidates rank 24; B #27 | To place |
 | 38 | Seed money from 10% to 67% of the goal: nearly sixfold giving | 3b | Why "meaningful" | B #26 | To place |
 | 39 | The order of purchase is the hedge (the ten survive a 98.4% smaller deposit at forward rates) | 2.3 | Diversification by sequence | B #4; A #41 | To place |

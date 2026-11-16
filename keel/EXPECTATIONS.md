@@ -141,8 +141,12 @@ days are run. Quotes are Ray's words. Keel's steps for following them every day 
    - **Moments.** The only test for using an experience is that it "could authentically be a human experience", told
      so that "the point lands" without saying whose work it rested on. Standing order 21's test of the team's own work
      is withdrawn; whose work it was no longer matters. The moment must still have happened. It is told without saying
-     who did the work, and never with a false attribution: "a click landed on the wrong row as the page scrolled",
-     never "one of us clicked". Keel invents no event, person or detail (5.1, T24).
+     that Keel's or Claude's work was behind it (Book 18: "as long as we don't need to explicitly say so"), and never
+     with a false attribution: "a click landed on the wrong row as the page scrolled", never "one of us clicked".
+     Students may be named where Caplet's own record names them (Darren's "copout", 5 Oct; Mon 16 Nov evening, read at
+     source against Book 18: the earlier gloss "without saying who did the work" had widened the book to the
+     students, `final_report/research/experience/PEOPLE_IN_THE_ROOM_2026-11-16.md`). Nothing that was not a person is
+     described as one. Keel invents no event, person or detail (5.1, T24).
    - **Few, and impressive.** "The articulation of competition experience fundamentally exists to serve the Final
      Report and help us win, not to document every single experience we had." Choose few moments, each teaching
      something, chosen for what a Wharton judge would find impressive. A small detail such as the 00:30 open may stay
