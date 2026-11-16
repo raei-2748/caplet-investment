@@ -1,23 +1,23 @@
 {
- "built": "2026-11-16T17:37+11:00",
+ "built": "2026-11-16T17:50+11:00",
  "today": "2026-11-16",
- "store_ideas": 5147,
- "store_judged": 4276,
+ "store_ideas": 5152,
+ "store_judged": 4318,
  "totals": {
-  "workers": 64,
+  "workers": 65,
   "cards": 112,
-  "rows": 3887,
-  "sources": 4134,
+  "rows": 3892,
+  "sources": 4169,
   "passages": 47,
   "readings": 26
  },
  "days": [
   {
    "day": "2026-11-16",
-   "workers": 64,
+   "workers": 65,
    "cards": 37,
-   "rows": 1441,
-   "sources": 1550,
+   "rows": 1446,
+   "sources": 1585,
    "passages": 26,
    "readings": 14
   },
@@ -99,9 +99,9 @@
    "date": "2026-11-16",
    "run": "afternoon (overdrive)",
    "research_workers": "34",
-   "analysis_workers": "27",
+   "analysis_workers": "28",
    "readers": "3",
-   "notes": "Thirty-four research workers: cards Q48-Q76 on the digest's holes and today's cold-test questions in four waves, then Q77-Q81 (money if the facility is cancelled, waiting when a custodian fails, new conceit parallels, what makes a reflection convincing, months of zero interest); twenty-three raters judged every row of Q48-Q76 and Q78-Q81 the same day; numbers 8q, 8r and 8s; exhibits rebuilt; an aha-candidate hunt; three cold readers on eight ahas"
+   "notes": "Thirty-four research workers: cards Q48-Q76 on the digest's holes and today's cold-test questions in four waves, then Q77-Q81 (money if the facility is cancelled, waiting when a custodian fails, new conceit parallels, what makes a reflection convincing, months of zero interest); twenty-four raters judged every row of Q48-Q81 the same day; numbers 8q, 8r and 8s; exhibits rebuilt; an aha-candidate hunt; three cold readers on eight ahas"
   }
  ],
  "cards": [
@@ -210,8 +210,8 @@
   {
    "card": "Q77_if_the_building_does_not_happen",
    "day": "2026-11-16",
-   "rows": 37,
-   "sources": 0
+   "rows": 42,
+   "sources": 35
   },
   {
    "card": "Q78_waiting_when_a_custodian_fails",

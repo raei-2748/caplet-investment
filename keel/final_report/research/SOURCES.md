@@ -293,6 +293,7 @@ references run reads those sources again and merges them.
 | Q79 | [Q79_new_conceit_parallels.md](cards/Q79_new_conceit_parallels.md) | in fields far from finance, where does a provisional figure become fixed only by a dated act of owning or holding it, not by signing or announcing it? (Mon 16 Nov) | Sources, l.130 | none yet |
 | Q78 | [Q78_waiting_when_a_custodian_fails.md](cards/Q78_waiting_when_a_custodian_fails.md) | how long did investors wait, and what did they get back, when a broker, a fund, its sponsor or its custodian failed? (Mon 16 Nov) | Sources, l.160 | none yet |
 | Q80 | [Q80_what_makes_a_reflection_convincing.md](cards/Q80_what_makes_a_reflection_convincing.md) | what makes a written reflection convincing to the people who assess it? (Mon 16 Nov) | Sources, l.205 | none yet |
+| Q77 | [Q77_if_the_building_does_not_happen.md](cards/Q77_if_the_building_does_not_happen.md) | if the building does not happen: what becomes of money stated, pledged or given for a capital project that is cancelled, delayed or shrunk (Mon 16 Nov) | Sources, l.139 | none yet |
 | DIGEST | [DIGEST_2026-11-15.md](store/DIGEST_2026-11-15.md) | the first digest of the whole store: per tag the three strongest ideas and the biggest hole, mapped to SKELETON; worker files D1-D3 in `store/digest/` | cites store ids, which resolve in `store/insights.jsonl` | SKELETON (Sun 15 Nov block); the second research round |
 
 ## 6. Older research files and official documents cited by short name
