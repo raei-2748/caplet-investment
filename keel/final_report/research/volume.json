@@ -1,23 +1,23 @@
 {
- "built": "2026-11-16T16:47+11:00",
+ "built": "2026-11-16T17:04+11:00",
  "today": "2026-11-16",
- "store_ideas": 4529,
- "store_judged": 3582,
+ "store_ideas": 4965,
+ "store_judged": 4131,
  "totals": {
-  "workers": 43,
-  "cards": 97,
-  "rows": 3307,
-  "sources": 3644,
+  "workers": 60,
+  "cards": 107,
+  "rows": 3705,
+  "sources": 4017,
   "passages": 47,
   "readings": 26
  },
  "days": [
   {
    "day": "2026-11-16",
-   "workers": 43,
-   "cards": 22,
-   "rows": 861,
-   "sources": 1060,
+   "workers": 60,
+   "cards": 32,
+   "rows": 1259,
+   "sources": 1433,
    "passages": 26,
    "readings": 14
   },
@@ -98,73 +98,13 @@
   {
    "date": "2026-11-16",
    "run": "afternoon (overdrive)",
-   "research_workers": "29",
-   "analysis_workers": "11",
+   "research_workers": "34",
+   "analysis_workers": "23",
    "readers": "3",
-   "notes": "Twenty-nine store cards Q48-Q76 on the digest's holes and today's cold-test questions, in four waves; eight raters judged every row the same afternoon; numbers 8q (both Taiwan risks), 8r (the move date in 2031) and 8s (the first plan re-run); exhibits rebuilt; three cold readers on eight ahas"
+   "notes": "Thirty-four research workers: cards Q48-Q76 on the digest's holes and today's cold-test questions in four waves, then Q77-Q81 (money if the facility is cancelled, waiting when a custodian fails, new conceit parallels, what makes a reflection convincing, months of zero interest); nineteen raters judged every row of Q48-Q76 the same afternoon; numbers 8q, 8r and 8s; exhibits rebuilt; an aha-candidate hunt; three cold readers on eight ahas"
   }
  ],
  "cards": [
-  {
-   "card": "Q54_defeasance_escrow_rules",
-   "day": "2026-11-16",
-   "rows": 45,
-   "sources": 38
-  },
-  {
-   "card": "Q55_multiyear_operating_support",
-   "day": "2026-11-16",
-   "rows": 45,
-   "sources": 60
-  },
-  {
-   "card": "Q56_author_incomes_at_the_top",
-   "day": "2026-11-16",
-   "rows": 37,
-   "sources": 36
-  },
-  {
-   "card": "Q57_the_plans_academic_family",
-   "day": "2026-11-16",
-   "rows": 45,
-   "sources": 24
-  },
-  {
-   "card": "Q58_issue_only_against_what_is_owned",
-   "day": "2026-11-16",
-   "rows": 38,
-   "sources": 160
-  },
-  {
-   "card": "Q59_margins_that_hold",
-   "day": "2026-11-16",
-   "rows": 42,
-   "sources": 40
-  },
-  {
-   "card": "Q5_is_half_right",
-   "day": "2026-11-09",
-   "rows": 34,
-   "sources": 0
-  },
-  {
-   "card": "Q5b_kept_share_numbers",
-   "day": "2026-11-14",
-   "rows": 11,
-   "sources": 0
-  },
-  {
-   "card": "Q5c_option_value_and_last_dollar",
-   "day": "2026-11-14",
-   "rows": 27,
-   "sources": 53
-  },
-  {
-   "card": "Q5d_small_arts_buildings_overruns",
-   "day": "2026-11-14",
-   "rows": 30,
-   "sources": 26
-  },
   {
    "card": "Q5e_does_the_reserve_fall_with_its_uses",
    "day": "2026-11-14",
@@ -202,16 +142,34 @@
    "sources": 25
   },
   {
+   "card": "Q65_how_fixed_promises_broke_recut",
+   "day": "2026-11-16",
+   "rows": 40,
+   "sources": 30
+  },
+  {
    "card": "Q66_building_costs_when_world_shares_fall",
    "day": "2026-11-16",
    "rows": 38,
    "sources": 23
   },
   {
+   "card": "Q67_founders_who_stated_a_floor",
+   "day": "2026-11-16",
+   "rows": 44,
+   "sources": 53
+  },
+  {
    "card": "Q68_pension_hibernation_and_endgames",
    "day": "2026-11-16",
    "rows": 40,
    "sources": 51
+  },
+  {
+   "card": "Q69_converting_dollars_for_a_taiwan_building",
+   "day": "2026-11-16",
+   "rows": 45,
+   "sources": 49
   },
   {
    "card": "Q6_how_far_to_trust_7_5",
@@ -236,6 +194,48 @@
    "day": "2026-11-15",
    "rows": 31,
    "sources": 90
+  },
+  {
+   "card": "Q70_charitable_lead_annuity_trusts",
+   "day": "2026-11-16",
+   "rows": 36,
+   "sources": 39
+  },
+  {
+   "card": "Q71_how_listeners_hear_a_range",
+   "day": "2026-11-16",
+   "rows": 35,
+   "sources": 37
+  },
+  {
+   "card": "Q72_what_owning_a_treasury_means",
+   "day": "2026-11-16",
+   "rows": 37,
+   "sources": 41
+  },
+  {
+   "card": "Q73_how_institutions_draw_a_matched_ladder",
+   "day": "2026-11-16",
+   "rows": 39,
+   "sources": 29
+  },
+  {
+   "card": "Q74_what_confidence_means",
+   "day": "2026-11-16",
+   "rows": 39,
+   "sources": 28
+  },
+  {
+   "card": "Q75_matching_funds_in_asia",
+   "day": "2026-11-16",
+   "rows": 44,
+   "sources": 44
+  },
+  {
+   "card": "Q76_rules_for_stating_future_figures",
+   "day": "2026-11-16",
+   "rows": 39,
+   "sources": 23
   },
   {
    "card": "Q7_precommitment_and_rules",

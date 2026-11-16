@@ -1784,14 +1784,14 @@ What it shows:
   2027-2030 (the four years at 75%) from 2031-2032 instead. A shortfall that day cannot be made up later: no money comes
   in after January 2028.
 
-**The misses, 27 Sep model:**
+**The misses, 27 Sep model** (shortfalls in 1 Jan 2033 money):
 
 | 2028 deposit | $150,000 (the case) | $75,000 | None |
 |---|---|---|---|
 | Paths short (of 200,000) | **6,453 (3.23%; 1 in 31.0)** | 27,386 (13.69%; 1 in 7.3) | 81,615 (40.81%; 1 in 2.5) |
 | Shortfall where short: median / 1-in-20 largest / largest | $27,695 / $92,543 / $199,697 | $37,264 / $116,026 / $242,009 | $57,549 / $151,063 / $285,401 |
 | Median shortfall, share of the ten's cost that day | 6.8% | 9.2% | 14.3% |
-| Shortfall less than $50,000 | 74.6% of misses | 62.4% | 44.0% |
+| Shortfall less than $50,000 (1 Jan 2033 money) | 74.6% of misses | 62.4% | 44.0% |
 | Payments bought in full where short, date order: median / 1-in-20 low | 9 / 7 | 8 / 6 | 8 / 5 |
 
 **Which payment goes unpaid first,** if the money on 1 Jan 2033 buys the ten nearest first (the team's notes lock the
@@ -1804,7 +1804,9 @@ near payments first). Number of failing paths:
 | None (81,615) | 76 (2035-2036) | 1,125 | 4,920 | 11,491 | 18,308 | 22,073 | 23,622 |
 
 Bought longest first instead (the IPS's build order for 2027), the same shortfall would fall on 2033. Which date carries
-it is a choice made in January 2033; its size is not.
+it is a choice made in January 2033; its size in 1 Jan 2033 money is not. In the late payment's own dollars it is larger,
+since money set aside for 2042 would have earned interest to then: the median miss leaves 2042 $40,412 short, or 2033
+$27,695 short.
 
 **What drives the 3.2%** ($150,000 deposit):
 
@@ -1829,7 +1831,7 @@ it is a choice made in January 2033; its size is not.
 - **The median miss, in words** (path 161,327): shares lose 21.3% in 2027 and 5.9% in 2028, gain 11.1% in 2029, lose
   3.9% in 2030 (down 20.9% over the four years at 75%), lose 13.2% in 2031 and gain 3.0% in 2032 (down 29.3% over six
   years). The money is $389,241 on 1 Jan 2033. The 2033 yield is 4.29%, so the ten cost $416,937: $27,695 short (6.6%).
-  Bought nearest first, 2033 to 2041 are paid in full and 2042 gets $9,588 of its $50,000.
+  Bought nearest first, 2033 to 2041 are paid in full and 2042 gets $9,588 of its $50,000 ($40,412 short).
 - **A miss with no crash year** (path 176,353, the median of the 2,297 misses with no year down 20% or more): shares
   lose 5.5%, 17.1%, 0.3% and 4.9% in 2027-2030 (down 25.7%), then gain 7.2% and 7.5%. The 2033 yield is 3.70%, so the
   ten cost $426,854 against $406,956: $19,898 short; 2042 gets $22,399. Only 27 misses (0.4%) have no year below -10%.
@@ -1863,9 +1865,9 @@ $399,089 unmoved, 8h's figure. Central path: $645,366 against $399,089, 1.62 tim
 
 - With the rest in 1-year Treasuries: 91.5% of misses had VT lower after 2027-2030 (a miss in 21.7% of those paths);
   81.3% had yields lower by 2033 than today's forwards; with the 2033 curve unmoved the miss rate is 3.64%.
-- **Why higher than 3.2%:** VT's spread (a log s.d. of 17.88% against the 27 Sep model's 15.2%) and yields that keep moving to
-  2033 (s.d. 2.2 points by then, against 1.0 point), which reprice the ten; faster growth (7.5% against 6.7%) offsets
-  part.
+- **Why higher than 3.2%:** VT's spread (a log s.d. of 17.88% against the 27 Sep model's 15.2%) and yields that keep
+  moving to 2033 (s.d. 2.2 points by then, against 1.0 point), which reprice the ten; faster growth (7.5% against 6.7%)
+  offsets part.
 - **Caplet's plan in the 9,953 paths where the first plan misses:** all ten paid under the escrow standard in every one;
   stated range $90,000 to $105,000 at the median (bottom $80,000 / $90,000 / $110,000, top $90,000 / $105,000 /
   $125,000 at the 1-in-20 low / median / 1-in-20 high); half kept median $10,067. The markets that break the first plan
@@ -1877,27 +1879,28 @@ $399,089 unmoved, 8h's figure. Central path: $645,366 against $399,089, 1.62 tim
 What it shows:
 - **About 1 in 31.** The 27 Sep 3.2% is 6,453 of 200,000 simulated markets, 1 in 31.0. Under the standard Caplet's plan
   meets (section 2: all ten paid if no coupon earns anything), the count is none: by construction in every house path
-  (the deposit covers the completion in all 200,000) and in all 585 historical rate windows. With a $75,000 deposit the first plan misses in about 1 in 7 (13.7%); Caplet's plan still meets the
-  standard in 99.97% of house paths.
+  (the deposit covers the completion in all 200,000) and in all 585 historical rate windows. With a $75,000 deposit
+  the first plan misses in about 1 in 7 (13.7%); Caplet's plan still meets the standard in 99.97% of house paths.
 - **The 27 Sep model's "never" for the Treasury plan is an assumption, not a result.** Strategy L's 0.0% is written into
   the code ("ladder covers all ten payments by construction"); on its 25 Sep curve the ten cost $292,264, under
   $300,000. At forward rates alone the ladder falls short in many history windows (section 2, design A: more often than
-  not for start dates since 1981, rarely before); the escrow standard is what makes "none" true. So 3f's "none" rests on section 2, not on the 27 Sep run.
+  not for start dates since 1981, rarely before); the escrow standard is what makes "none" true. So 3f's "none" rests
+  on section 2, not on the 27 Sep run.
 - **"None" needs the 2028 deposit's first dollars.** It holds with $150,000 and with $75,000, not with no deposit. So
-  3.2% and 13.7% can be set against none; 40.8% cannot (Caplet's plan is then $3,016 short on the 2033 payment at
-  forward rates). A missing deposit is one of the IPS's two reasons to change course.
+  3.2% and 13.7% can be set against none; 40.8% cannot (on its own standard Caplet's plan is then short too: the
+  ten $57,455 short at 0%, section 5; never quote the $3,016 at forward rates alone). A missing deposit is one of the IPS's two reasons to change course.
 - **How the risk works (the readers' point b).** The first plan bought the ten on 1 Jan 2033 with whatever its shares had
   become, so a miss is settled that day, before any payment. 97.5% of misses had shares lower after the four years at
   three-quarters; when shares were lower a miss came about 1 time in 6, when higher about 1 in 1,000. Those four years
-  carry three-quarters of the gap; the 2033 yield 3%. It needs no crash: in 35.6% of misses no year fell 20%, only
+  carry three-quarters of the gap; the 2033 yield about 3%. It needs no crash: in 35.6% of misses no year fell 20%, only
   several poor ones. And a gap found that January cannot be closed, because no money comes after January 2028.
 - **Not "early payment years draining later ones", and not "one of ten dates".** The model has no share return after
   2032 and sells no share to pay a payment. So "shares sold to pay each date" is not what 3.2% measured, and card Q47 row
   3's and SKELETON 3f's "out of place on one of ten dates" / "registration on ten dates" read, on this model, as one date:
   1 Jan 2033, the day the ten had to be bought.
-- **What a miss looks like.** Median $27,695, 6.8% of the ten's cost; less than one payment in 3 misses of 4; 1 miss in
-  20 is $92,543 or more. Bought nearest first, 2033 to 2036 are always paid and the last payments carry it: 2042 first
-  in 56.5% of misses, 2041 in 29.1%. Bought longest first, 2033 would carry it.
+- **What a miss looks like.** Median $27,695 in 1 Jan 2033 money, 6.8% of the ten's cost; under $50,000 in 3 misses of
+  4; 1 miss in 20 is $92,543 or more. Bought nearest first, 2033 to 2036 are always paid and the last payments carry
+  it: 2042 first in 56.5% of misses, 2041 in 29.1%. Bought longest first, 2033 would carry it.
 - **History is kinder; today's engine harsher.** The same design misses in 25 of 1,758 US stock windows since 1871 (1.4%),
   all of them purchases from Oct 1927 to Oct 1929; bought in Jan 2000 or Oct 2007 it would have paid the ten. On today's
   engine it misses in about 1 path in 20 (4.98%; 4.07% with a 6.95-year bond fund), mainly because yields that fall by

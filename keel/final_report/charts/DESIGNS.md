@@ -55,11 +55,26 @@ graphs ... will not dazzle". The default answer is four exhibits; a fifth must w
   hide the sufficiency test.
 - **Rival tested: c3, "when each part is owned".** Four rows (the ten payments, the bottom, the top, her flexibility)
   from January 2027 to January 2033, solid where the money is owned in Treasuries, hatched where it rests on markets;
-  the payments row is grey for 2027 (89% owned, $444,080 of $500,000, if waiting cash earns nothing) and black from
+  the payments row is grey for 2027 ($444,080 of $500,000 owned if waiting cash earns nothing; never "89%", which is not in NUMBERS, rater P) and black from
   January 2028. It answers 3.0's aha ("certainty has dates") rather than 3a's question, so it is not a rival to Figure
   1 but a candidate for 3.0, where no exhibit sits. Its words are plain on purpose: the conceit stays in prose, never
   in an exhibit (CONCEIT V2.2: "said beside the table, never in it"), and the prose beside it can say "ink" for solid.
   Cost: about 8 lines with a two-line title and a short note, about 110 words of 3.0's prose. Not yet read cold.
+- **Card Q73 (Mon 16 Nov, rater P): how institutions draw a matched ladder, and three fixes for Figure 1's clarity
+  cell (3).** Professionals rarely pair each payment with the money that pays it: lotteries print bonds and prizes in two
+  tables or prove the match by two equal totals (Missouri, $34,904,000 = $34,904,000), pension funds give one ratio, and
+  only GASB 67 projections and escrow verifiers go row by row, so Figure 1's form is rare, not standard (Q73's own
+  finding). Its test is stricter than the UK insurance regulator's on both counts: the PRA lets waiting cash earn the
+  risk-free rate and allows a shortfall up to 3% of the liabilities' value; Figure 1 lets it earn nothing and allows none
+  (Q73-025, both details checked at source; a 3a aha candidate). The fixes, for the next rebuild:
+  1. **The sum in the column heads** ("Its own Treasury + Extra Treasuries = $50,000"), New Jersey's split-column shape
+     without its "Funded / Unfunded" labels, and a total row that adds up: the printed rows sum to $444,081 and $55,919,
+     not $444,080 and $55,920, so the rounding note stays (Q73-036, Q73-011).
+  2. **One world per exhibit:** the today's-rates column ($50,000 ten times) goes to the note (Q73-035).
+  3. **The condition first in the title, then the verdict** ("If cash waiting earns nothing, ..."); never "about 89%",
+     which is not in NUMBERS (Q73-037, adapt).
+  Table 1's cost column is never read against the $50,000 payments (Missouri's matched book shows "short" on market
+  value), and both exhibits' titles name their scale ($300,000 for Table 1, $450,000 for Figure 1).
 
 ## 3. Table 2, five markets (3b and 3c)
 
@@ -213,5 +228,5 @@ Galesic, Garcia-Retamero and Gigerenzer (2009) on icon arrays; Padilla, Kay and 
 - Mon 23 Nov: the fresh-reader five-second test reads the four built exhibits plus c1d and c1a, c3 and c4 (as
   alternatives), each cold with only its title.
 - Next exhibits rebuild (`../exhibits/build_exhibits.py`): Table 2's line of what is held the same in every world and
-  its one-sentence check against the replays; Figure 1's "$0" column and direct labels, each only if it fits the page.
+  its one-sentence check against the replays; Figure 1's "$0" column and direct labels, each only if it fits the page. Figure 1's three Q73 fixes (section 2): the sum in the heads with a total row that adds up, the today's-rates column to the note, the condition first in the title.
 - Rebuild: `python3 -I keel/final_report/charts/build_charts.py` from the repo root (about 20 seconds; 37 checks, then 8 renders).

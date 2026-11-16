@@ -4,11 +4,11 @@ Caplet, Mon 16 Nov 2026: "I don't see you doing anywhere near the volume of rese
 from you ... GO INTO OVERDRIVE". This page counts the Final Report's research and analysis by day, straight from
 the files (`volume.py`; the workers column from `volume_runs.csv`, kept by each run). Rebuilt by every run.
 
-Store: 4,529 ideas, every one kept, 3,582 judged one by one (`store/insights.jsonl`). Cards in `cards/`: 97; store rows in them: 3,307; sources listed: 3,644.
+Store: 4,965 ideas, every one kept, 4,131 judged one by one (`store/insights.jsonl`). Cards in `cards/`: 107; store rows in them: 3,705; sources listed: 4,017.
 
 | Day | Workers sent | New cards | Store rows | Sources read | Voice passages | Blind readings |
 |---|---|---|---|---|---|---|
-| Mon 16 Nov | 43 | 22 | 861 | 1060 | 26 | 14 |
+| Mon 16 Nov | 60 | 32 | 1259 | 1433 | 26 | 14 |
 | Sun 15 Nov |  | 12 | 361 | 547 | 21 | 5 |
 | Sat 14 Nov |  | 13 | 392 | 694 |  | 4 |
 | Fri 13 Nov |  | 7 | 215 | 330 |  |  |
@@ -25,4 +25,4 @@ A card dated by its commit can land a day after its research when a run ends aft
 
 | Day | Run | Research workers | Analysis workers | Blind readers | What they did |
 |---|---|---|---|---|---|
-| 2026-11-16 | afternoon (overdrive) | 29 | 11 | 3 | Twenty-nine store cards Q48-Q76 on the digest's holes and today's cold-test questions, in four waves; eight raters judged every row the same afternoon; numbers 8q (both Taiwan risks), 8r (the move date in 2031) and 8s (the first plan re-run); exhibits rebuilt; three cold readers on eight ahas |
+| 2026-11-16 | afternoon (overdrive) | 34 | 23 | 3 | Thirty-four research workers: cards Q48-Q76 on the digest's holes and today's cold-test questions in four waves, then Q77-Q81 (money if the facility is cancelled, waiting when a custodian fails, new conceit parallels, what makes a reflection convincing, months of zero interest); nineteen raters judged every row of Q48-Q76 the same afternoon; numbers 8q, 8r and 8s; exhibits rebuilt; an aha-candidate hunt; three cold readers on eight ahas |
