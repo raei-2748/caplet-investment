@@ -257,7 +257,7 @@ page shows tier A at 1,198; the rebuild gives 1,186. Rerun `store/build_store.py
 
 1. 3e's density row, limits: restore the career test in one clause. It holds "in the same downturn, not always the
    same months": tax data show 2009 at -11.6%; 2020 fell 12.4% while shares rose; her own genre rose in 2020; the
-   link is strong for top earners and weak for the average graduate (Q1c-005, Q1c-010, Q12-018, Q1b-002, Q1b-010,
+   link is strong for top earners in general and weak for the average graduate, while at the top of the author trade 2020 hit speaking and the biggest advances, not book income (card Q56 rows 9, 22, 33, Mon 16 Nov) (Q1c-005, Q1c-010, Q12-018, Q1b-002, Q1b-010,
    Q1-046). Frame it as the tested limit of IPS l.9, which CANON B4 rates PARTLY true, never as a reversal of the
    thesis.
 2. 3e area (1): ~~call 7.5% "the top of published forecasts of about 6% to 7.5%" (Q6-011)~~ (killed Sun 15 Nov, card Q6b:
@@ -355,3 +355,26 @@ Where the evening's strongest rows land:
 | Q45-001, Q45-008 | 20-22, keep | 2.5 or 3e: Treasury funds stayed near value in March 2020; long Treasury funds were the exception (TLT about -5%) |
 | Q45-026, Q45-027 | 21-24, adapt | Guard: the FR never repeats TNA l.15's "no odd-lot bond offers" for Treasuries (a 3bp gap) |
 | Q45-017 | 22, keep | CANON B22 corrected: IBTR $112.3m |
+
+## 8. Mon 16 Nov afternoon (overdrive): cards Q48-Q57, Q59, Q60 and Q62 (546 rows, all rated by raters A-E)
+
+Nothing lost: every row is in the store with a judged score and a note (`store/ratings.csv`, raters' files in
+`store/digest/ratings_R2_*.csv`). Cards Q58, Q61, Q63, Q64 and the second wave (Q65 onward) land in this section when
+rated. Where the strongest rows land:
+
+| Ids | Score or status | Where it lands |
+|---|---|---|
+| Q50-008, Q55-001, Q55-009, Q55-010, Q55-045 | 22-23; Q50-008 adapt (drop its 70%; ink means owned, never paid) | 3d, and aha reserves "In Taiwan a promise to pay later fades": the national arts foundation's five-year donors fell from 137 payers to 46 to none; Arts Council England calls later years "indicative"; 5 of 93 top Taiwan troupes hold any multi-year operating promise, at most three years; no arts funder read fixes more than seven. Laura's ten are owned |
+| Q51-035, Q51-010, Q51-004 | 20-22; Q51-035 adapt | 3a (aha reserves): of 399 subsidised Taiwan culture halls, all 22 changes of use came after the subsidies ended; the field's 1994 diagnosis "arts managers lack early money" (her bottom is early money); 3e: in 2008 about three-quarters of Kresge's capital grantees asked for more time |
+| Q52-003, Q52-023, Q52-002 | 21-22; Q52-002 adapt (never "narrower than every one") | 3c slot 5 (aha register, the biggest question): counsel gives confidence only in words; boards' feasibility ranges ran 22-50% of their midpoint, hers is 19.0% and owned; the Lilly gift to Poetry, "well in excess of $100 million", sat in one share and lost $102 million in 2002 (3c or 3e, one clause) |
+| Q53-030, Q53-016, Q53-017 | 19-21, keep | Table 3 row 1 and 3e: 31 March 2028 is 90 days after 1 January, the line bank supervisors use for a non-performing loan; gift offices review pledges on 1 December and act at 90 days; silence keeps the file open, so no word by 1 December is a question, never a reason |
+| Q54-003, Q54-038, Q54-004 | 19-21, keep | 2.2 and 3a: S&P's "fixed principal amount due at its maturity" is the line Trading Note 2 drew; a BBB- company's bonds became AA+ once Treasuries were owned against each payment (3.0 or 3d, aha candidate); honest limit: no rated escrow may hold a fund, so the plan meets the escrow's sufficiency test, never "escrow-grade holdings" (NUMBERS 3 corrected the same afternoon) |
+| Q48-011, Q48-016, Q48-024; Q49-010, Q49-012, Q49-027 | 20, keep | 3d: Taiwan proves an owner's share by receipts at each instalment and a public funder's by a budget vote a later vote can cut; the state's own grant is a provisional sum (a pencil figure); Table 3 and 3e: the budget passed on time in 0 of 11 years, and a late budget holds back new capital; a private residency's public capital line is equipment-sized |
+| Q50-019, Q50-012 | 20, keep | 2.3 and CANON B4: a Taiwanese firm's arts budget follows this year's profit, not last year's; the one multi-year gift the foundation could count on was paid on day one |
+| Q56-009, Q56-005, Q56-016 | 20-21, keep | 2.3 and 3e area (2): SKELETON row 4 corrected the same afternoon (the top of the author trade held in 2020; the risk is a quiet year more than a share-market fall); 17% of UK writers in print every year still had a zero year |
+| Q57-010, Q57-011, Q57-015, Q57-042 | 20-21, keep | 2.3 and the lineage of the central idea (EXPECTATIONS 2.4): behavioural portfolio theory's layers filled with the textbook's two funds, for a covariance reason BPT investors overlook; Chhabra's aspirational bucket; Waring and Whitney's liability-matching asset; Roy (1952), "the standard error of this estimate is zero" |
+| Q59-026, Q59-014, Q59-025; Q59-003, Q59-011 | 22; 014, 025 and 003 adapt | 3a or 3b: aha candidate for the open slot, "every margin has a job and a spender" (aviation's contingency, alternate and discretionary fuel = the 0.5% cut, the extra Treasuries, her flexibility); who bears the loss sets the dam standard (3b); the 1890 load line drawn by law from tables, not the owner's intention (3c) |
+| Q60-042, Q60-015, Q60-006 | 20-21, keep | 3.0 and 3d: fewer than half of 7,684 EU investors could pick the guaranteed product, so the owned ten must be impossible to miss; method for every reader panel: never self-rated understanding; a "heard as Caplet's" claim needs about 60 judgements to prove (voice README) |
+| Q62-002, Q62-008, Q62-015, Q62-027, Q62-037 | 20; 015 adapt | 3a (aha candidates): a separate account is not what makes a reserve real; New York cancelled $774 million of its own bonds in its sinking funds in 1932; trust-fund Treasuries are legal claims to the holder (OMB) and net out only for the government as a whole; Ireland's locked reserve was redirected by its own owner, so Laura's guard is her two-reason rule (3e) |
+| Q58-014 | 22, adapt | 3c, one bridge sentence beside aha row 7: a note needs backing only once it leaves the issuer (Scottish notes printed but not collected need none), so the top needs owning only when she states it; Q58's other money parallels stay in the store (F 2 or lower: too close to the subject for a conceit turn) |
+| Q63-016, Q63-026, Q63-034, Q63-043 | 21-22; 043 adapt (say "every cap we found, six", never "every cap in US law") | 2.3 and aha row 2 (added the same afternoon): GIW Industries faulted an all-Treasury fund's dates, never its issuer, and the remedy was staggered maturities; a pension buying fixed payments adds money, never risk (IB 95-1), as the IPS's 2028 completion does, said as a parallel; the tax code deems Treasuries "adequately diversified" |
