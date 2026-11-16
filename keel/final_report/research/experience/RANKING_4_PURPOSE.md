@@ -12,7 +12,9 @@ experience. Notes for the writers of Fri 27 Nov, not report prose.
 point lands without saying whose work it rested on. It does not matter whether the work behind a moment was a
 teammate's, Keel's or Claude's.
 
-**What stays true.** Every moment happened. It is told without saying who did the work, and never with a false
+**What stays true.** Every moment happened. It is told without saying that Keel's or Claude's work was behind it (Book
+18: "as long as we don't need to explicitly say so"; corrected Mon 16 Nov evening: students are named where Caplet's
+own record names them, `PEOPLE_IN_THE_ROOM_2026-11-16.md`), and never with a false
 attribution. For example, write "a click landed on the wrong row as the page scrolled", never "one of us clicked the
 wrong row". Keel still invents no event, person or detail (I113, 5.1).
 

@@ -24,9 +24,11 @@ are facts to write from, not sentences to copy.
 ## The ten payments
 - At the close on 6 Nov 2026, buying the ten payments cost about $301,500, roughly the whole first deposit. If yields
   fell 1 point before January 2027, the same ten would cost about $334,000; the 2028 deposit covers the difference.
-- The first $38,282 of the 2028 deposit goes to the payments: $2,388 finishes the ten (the top-up the IPS promised),
-  and $35,894 buys extra Treasuries so that the ten are paid even if the cash waiting between a bond's maturity and
-  each 1 January earns nothing at all.
+- The first $38,282 of the 2028 deposit goes to the payments: $2,388 completes the ten (the top-up the IPS promised
+  if yields fell), and $35,894 buys extra Treasuries so that the ten are paid even if the cash waiting between a bond's
+  maturity and each 1 January earns nothing at all. The extra Treasuries are the part of the operating reserve, beyond
+  the ten, that the case asks the team to recommend; never say they "complete" or "finish" the ten (coherence reader 6,
+  Mon 16 Nov, H1).
 - Why that matters: the bonds pay interest along the way, and one bond (February 2037) matures ten and a half months
   before the payment it funds (1 January 2038). That interest and that gap are where a "certain" plan could quietly
   depend on future interest rates. The extra Treasuries remove that dependence.
@@ -34,12 +36,19 @@ are facts to write from, not sentences to copy.
   pay out what their bonds are worth, which is close to, but not exactly, a promised amount.
 - By 1 January 2033 the operating reserve is about $444,500, about 111% of what the ten payments need.
 - The team's first plan (about three-quarters shares) missed at least one payment in 3.2% of model runs; 13.7% if the
-  2028 deposit was only $75,000; 40.8% if it never came. Buying the payments first never missed one.
+  2028 deposit was only $75,000; 40.8% if it never came. The Treasury plan misses none because of how it is sized: from January 2028 each payment is
+  met even if cash waiting earns nothing, once the 2028 deposit's first dollars arrive (NUMBERS 2). (Corrected Mon 16
+  Nov from NUMBERS 8s: the first model's "never missed one" was written into its code, not found by it.)
 
 ## The building and the range
-- The late-2032 Treasury fund pays about $103,000 in 2033. VT's value decides how far above that the range reaches.
-- The central range she would state in 2031: $95,000 to $115,000. The facility contribution itself, centrally:
-  $115,000.
+- The late-2032 Treasury fund (the floor) pays about $103,000 in mid-December 2032 at today's rates. The bottom of the
+  range is lower, $95,000, because it counts that payout as if no more interest were earned, less 0.5%, rounded down:
+  the fund's payout is not fixed (Trading Note 2). VT, half of which moves into Treasuries before the 2031 meetings,
+  decides how far above the bottom the range reaches (coherence reader 6, Mon 16 Nov, M5).
+- On today's figures, the range she would state in 2031 is $95,000 to $115,000. The top, $115,000, is her facility
+  contribution and the figure co-sponsors count; the bottom is the part held since January 2028. Once both ends are
+  owned, the range she states is certain; never put "certain" in the same sentence as the figures, and never
+  "secured" for either end (funder test, Mon 16 Nov evening; coherence reader 6 and bond desk 4, M1).
 - Her flexibility (the half of the shares promised to no one) is about $21,300 in January 2033, centrally; about
   $29,800 if you add whatever the funds pay above the top of the range. In a bad 1-in-20 future it is about $9,900.
 - It is meant for three things the IPS names: building costs that overrun, a stronger Taiwan dollar, or a co-sponsor
@@ -53,8 +62,10 @@ are facts to write from, not sentences to copy.
 - Each $5,000 more of promised top costs her about $5,300 of what she keeps. The total she ends up with barely changes
   (within about $1,100 either way at the median). So the split decides what is promised and what stays hers, not how
   much there is. Half is the middle of that trade, chosen by the team; it is not "optimal" and no model chose it.
-- Building costs more often rise in the years shares fall, so her flexibility is not a "natural hedge". It is a cushion
-  that can be at its smallest just when costs press hardest.
+- Building costs rise about four years in five whatever shares do, so her flexibility is not a "natural hedge". But a
+  share slump followed by a cost burst can catch her: world shares bought at the start of 2000 were down about 41% at
+  the 2003 meetings, and Taiwan's building costs then rose about 18% in Taiwan dollars before the contribution (cards
+  Q66, Q85; NUMBERS 8q; coherence reader 6, Mon 16 Nov, L10; never "cushion").
 
 ## Real events from the competition (dated, from the team's record)
 - 27 Sep: the first model of the original plan showed the missed-payment numbers above. The team changed strategy.
@@ -79,8 +90,9 @@ are facts to write from, not sentences to copy.
 - Caplet's own words about the conceit: "It is intricate. It involves strikingly dissimilar parallels. It offers a
   startling new perspective." So it is not a word dropped in now and then: it is worked through, each turn showing
   something new. The turns you can use (all checked):
-  - **One eraser, three lines.** A recession rubs out three pencil lines at once: her book advances, share prices, and
-    co-sponsors' budgets. That's why the promised money can't sit in pencil.
+  - **One eraser, three lines.** A recession can rub out three pencil lines in the same downturn: her book advances,
+    share prices, and co-sponsors' budgets (not always in the same months, and never every co-sponsor). That's why the
+    promised money can't sit in pencil (coherence reader 6, Mon 16 Nov, M4).
   - **Finished before it's offered.** Comic publishers want several issues finished before a series is offered to
     shops ("three completed issues", Image, 2015). Laura's ten payments are bought in January 2027, six years before
     the first one goes out.
@@ -106,7 +118,8 @@ are facts to write from, not sentences to copy.
     floor, then VT) is sized against them.
   - **Dot gain.** A press always prints a little darker than the file, so printers lighten the file first and the print
     lands where they want it. The funds' fee, the 0.5% held back and the rounding down are taken out before the range is
-    stated, so the money never comes out lighter than the figure she names.
+    stated, so the money comes out lighter than the figure she names only if the funds' other costs pass the margin
+    held back (at least 0.5%, about 3% on today's figures) (coherence reader 6, M1; bond desk 4, H1, Mon 16 Nov).
   - **Let the ink dry.** Rub out the pencils while the ink is still tacky and it smears. So the top is only stated once
     the shares have moved: a top stated a year early would not yet be owned in about 11 of 100 model futures.
   - **The seal.** In Chinese calligraphy the seal is stamped when the work is finished. Laura names her range only once
@@ -116,7 +129,9 @@ are facts to write from, not sentences to copy.
     in Laura's words.
   - **Knockout and overprint.** In a knockout the colour leaves a hole for the black, and if the sheet slips a white gap
     shows. Overprinting lays the black on top, so no gap can open. The first plan's danger was not a crash: it needed
-    share prices to be in the right place on each of ten dates. Buying the payments first prints them over everything.
+    share prices to be in the right place on one date, 1 January 2033, when all ten payments had to be bought with
+    whatever the shares had become (three-quarters of the gap came from the four years at 75% shares; corrected Mon 16
+    Nov from "each of ten dates", NUMBERS 8s). Buying the payments first prints them over everything.
   - **Pencils printed beside the inks.** Some art books print an artist's pencils beside the finished page on purpose.
     The Team Reflection can show the first plan the same way: three-quarters shares, rubbed out on 27 September before
     a single trade was placed. And in a market, a click is ink: on 7 October a click landed on the wrong row as the page

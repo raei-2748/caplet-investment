@@ -109,6 +109,13 @@ of them, reading a round's passages blind.
   sentence, and "ink" used before it was defined. Rounds 5-6 give readers the definition in the pack's preamble, as the
   report gives it at 2.0, and each conceit passage puts one turn to work in a sentence or two, the way the IPS uses its
   own analogy.
+- **Round 5 (Mon 16 Nov, evening), `ROUND5.md`.** Definition given to readers beforehand. Two fresh writers (H on writer
+  E's diet with the essays; J on the IPS and CORPUS sections 3 and 5 only), two topics (Section 2 beside Table 1; the
+  assumptions and limits), each plain and with one turn; three blind readers. Caplet's reflections 9 of 9. Plain 12 of
+  12; one turn 8 of 12 (J's 6 of 6, H's 2 of 6), up from 2 of 24; every check answer right; the image helped in 10 of 12
+  one-turn readings. The turns that worked glossed themselves in the same sentence and were the only place the point was
+  made; the ones that failed repeated a point already made plainly or let the image stand as the reason for a decision.
+  Writer J, without the essays, did at least as well as H, so the essays are not needed in a writer's diet.
 
 ## Files
 

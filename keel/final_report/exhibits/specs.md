@@ -4,6 +4,13 @@ Design notes, not report text. Titles below are working labels and each note is 
 both are written on 27 Nov. Design: H_plain ("sufficient without reinvestment", with the fee cushion), the Treasury
 curve of 6 Nov 2026, the range rule on the fund's holdings, Keel's reading of "most". MODEL = Keel's calculation.
 
+**Mon 16 Nov evening: read `REBUILD_2026-11-16_evening.md` before Exhibits 2 and 3 below.** Figure 1 now shows one
+basis (cash waiting earns nothing), its heads print the sum ("Its own Treasury + Extra Treasuries = $50,000"), its
+total row is "$444,080 + $55,920 = $500,000", the "At today's market rates" column and the question head are gone
+(today's rates are note item 4) and its title opens with the condition (card Q73). Table 2 gains a first line of what
+is held the same in every row and a note sentence checking the five worlds against the median replay. Where the specs
+below say otherwise for these two exhibits, the evening notes and `tables.md` are current.
+
 **What changed Thu 12 Nov evening, and why** (lead's brief; SKELETON's density cut, row 2.5, and Exhibits item 1; panel 2's
 faculty and finalist judges, `../research/panel/2026-11-12_judge_faculty.md` and `..._judge_finalist.md`).
 - **Table 1 has a seventh column, "Units bought / target"** (after the asset type): "4,503 / 4,503" and so on for the

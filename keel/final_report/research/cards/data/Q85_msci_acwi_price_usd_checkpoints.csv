@@ -1,0 +1,6 @@
+period,msci_acwi_price_usd_level,source
+1999-12,341.6261446134503,https://app2.msci.com/products/service/index/indexmaster/getLevelDataForGraph?currency_symbol=USD&index_variant=STRD&start_date=19970101&end_date=20261031&data_frequency=END_OF_MONTH&index_codes=892400 (read 16 Nov 2026)
+2000-01,322.8336191306643,https://app2.msci.com/products/service/index/indexmaster/getLevelDataForGraph?currency_symbol=USD&index_variant=STRD&start_date=19970101&end_date=20261031&data_frequency=END_OF_MONTH&index_codes=892400 (read 16 Nov 2026)
+2000-12,290.11335667934014,https://app2.msci.com/products/service/index/indexmaster/getLevelDataForGraph?currency_symbol=USD&index_variant=STRD&start_date=19970101&end_date=20261031&data_frequency=END_OF_MONTH&index_codes=892400 (read 16 Nov 2026)
+2004-12,284.5205214535708,https://app2.msci.com/products/service/index/indexmaster/getLevelDataForGraph?currency_symbol=USD&index_variant=STRD&start_date=19970101&end_date=20261031&data_frequency=END_OF_MONTH&index_codes=892400 (read 16 Nov 2026)
+2005-01,278.29937602205104,https://app2.msci.com/products/service/index/indexmaster/getLevelDataForGraph?currency_symbol=USD&index_variant=STRD&start_date=19970101&end_date=20261031&data_frequency=END_OF_MONTH&index_codes=892400 (read 16 Nov 2026)

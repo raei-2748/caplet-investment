@@ -1,25 +1,25 @@
 {
- "built": "2026-11-16T17:50+11:00",
+ "built": "2026-11-16T20:21+11:00",
  "today": "2026-11-16",
- "store_ideas": 5152,
- "store_judged": 4318,
+ "store_ideas": 5634,
+ "store_judged": 4800,
  "totals": {
-  "workers": 65,
-  "cards": 112,
-  "rows": 3892,
-  "sources": 4169,
-  "passages": 47,
-  "readings": 26
+  "workers": 113,
+  "cards": 125,
+  "rows": 4374,
+  "sources": 4692,
+  "passages": 60,
+  "readings": 33
  },
  "days": [
   {
    "day": "2026-11-16",
-   "workers": 65,
-   "cards": 37,
-   "rows": 1446,
-   "sources": 1585,
-   "passages": 26,
-   "readings": 14
+   "workers": 113,
+   "cards": 50,
+   "rows": 1928,
+   "sources": 2108,
+   "passages": 39,
+   "readings": 21
   },
   {
    "day": "2026-11-15",
@@ -102,87 +102,17 @@
    "analysis_workers": "28",
    "readers": "3",
    "notes": "Thirty-four research workers: cards Q48-Q76 on the digest's holes and today's cold-test questions in four waves, then Q77-Q81 (money if the facility is cancelled, waiting when a custodian fails, new conceit parallels, what makes a reflection convincing, months of zero interest); twenty-four raters judged every row of Q48-Q81 the same day; numbers 8q, 8r and 8s; exhibits rebuilt; an aha-candidate hunt; three cold readers on eight ahas"
+  },
+  {
+   "date": "2026-11-16",
+   "run": "evening (overdrive)",
+   "research_workers": "13",
+   "analysis_workers": "20",
+   "readers": "15",
+   "notes": "Thirteen research workers: cards Q82-Q94 (proofs and trade customs; seals and pledges in Taiwan; forecast rules in Taiwan and Japan; building costs and world shares re-derived; giving against means; the price of certainty; implementation shortfall; one issuer; pledges at a discount; dissent in teams; Taiwan's political calendar; why no bond matures 2031-2036; guidance heard as a promise), 482 rows from about 490 sources read at source; thirteen raters judged every row the same evening; five analysis workers (custody balance and the waiting-cash replay, NUMBERS 8t; Figure 1 and Table 2 rebuilt; why a range once both ends are owned; people in the reflection; the coherence and bond readers' fixes) and two fresh voice writers; fifteen readers: panel 3 (three judges), bond desk 4, coherence reader 6, four funders (which figure is booked), three voice readers (round 5) and three cold aha readers"
   }
  ],
  "cards": [
-  {
-   "card": "Q64_forward_rates_and_overlapping_windows",
-   "day": "2026-11-16",
-   "rows": 35,
-   "sources": 25
-  },
-  {
-   "card": "Q65_how_fixed_promises_broke_recut",
-   "day": "2026-11-16",
-   "rows": 40,
-   "sources": 30
-  },
-  {
-   "card": "Q66_building_costs_when_world_shares_fall",
-   "day": "2026-11-16",
-   "rows": 38,
-   "sources": 23
-  },
-  {
-   "card": "Q67_founders_who_stated_a_floor",
-   "day": "2026-11-16",
-   "rows": 44,
-   "sources": 53
-  },
-  {
-   "card": "Q68_pension_hibernation_and_endgames",
-   "day": "2026-11-16",
-   "rows": 40,
-   "sources": 51
-  },
-  {
-   "card": "Q69_converting_dollars_for_a_taiwan_building",
-   "day": "2026-11-16",
-   "rows": 45,
-   "sources": 49
-  },
-  {
-   "card": "Q6_how_far_to_trust_7_5",
-   "day": "2026-11-09",
-   "rows": 33,
-   "sources": 0
-  },
-  {
-   "card": "Q6b_forecast_panel_2027",
-   "day": "2026-11-15",
-   "rows": 34,
-   "sources": 80
-  },
-  {
-   "card": "Q6c_falls_and_the_top",
-   "day": "2026-11-15",
-   "rows": 25,
-   "sources": 38
-  },
-  {
-   "card": "Q6d_one_world_fund",
-   "day": "2026-11-15",
-   "rows": 31,
-   "sources": 90
-  },
-  {
-   "card": "Q70_charitable_lead_annuity_trusts",
-   "day": "2026-11-16",
-   "rows": 36,
-   "sources": 39
-  },
-  {
-   "card": "Q71_how_listeners_hear_a_range",
-   "day": "2026-11-16",
-   "rows": 35,
-   "sources": 37
-  },
-  {
-   "card": "Q72_what_owning_a_treasury_means",
-   "day": "2026-11-16",
-   "rows": 37,
-   "sources": 41
-  },
   {
    "card": "Q73_how_institutions_draw_a_matched_ladder",
    "day": "2026-11-16",
@@ -256,6 +186,54 @@
    "sources": 17
   },
   {
+   "card": "Q82_contract_proofs_and_trade_customs",
+   "day": "2026-11-16",
+   "rows": 37,
+   "sources": 31
+  },
+  {
+   "card": "Q83_seals_and_pledges_in_taiwan",
+   "day": "2026-11-16",
+   "rows": 40,
+   "sources": 54
+  },
+  {
+   "card": "Q84_forecast_correction_rules_taiwan_japan",
+   "day": "2026-11-16",
+   "rows": 42,
+   "sources": 30
+  },
+  {
+   "card": "Q85_building_costs_and_world_shares_verified",
+   "day": "2026-11-16",
+   "rows": 36,
+   "sources": 19
+  },
+  {
+   "card": "Q86_responsible_giving_against_means",
+   "day": "2026-11-16",
+   "rows": 41,
+   "sources": 47
+  },
+  {
+   "card": "Q87_price_of_certainty_against_buyouts",
+   "day": "2026-11-16",
+   "rows": 32,
+   "sources": 32
+  },
+  {
+   "card": "Q88_implementation_shortfall_for_the_book",
+   "day": "2026-11-16",
+   "rows": 36,
+   "sources": 97
+  },
+  {
+   "card": "Q89_series_promises_and_one_issuer",
+   "day": "2026-11-16",
+   "rows": 36,
+   "sources": 27
+  },
+  {
    "card": "Q8a_certainty_in_engineering",
    "day": "2026-11-12",
    "rows": 35,
@@ -266,6 +244,36 @@
    "day": "2026-11-12",
    "rows": 35,
    "sources": 54
+  },
+  {
+   "card": "Q90_pledges_counted_at_a_discount",
+   "day": "2026-11-16",
+   "rows": 36,
+   "sources": 43
+  },
+  {
+   "card": "Q91_dissent_and_team_decisions",
+   "day": "2026-11-16",
+   "rows": 40,
+   "sources": 44
+  },
+  {
+   "card": "Q92_taiwan_political_calendar_2030_2033",
+   "day": "2026-11-16",
+   "rows": 36,
+   "sources": 45
+  },
+  {
+   "card": "Q93_why_no_bonds_mature_2031_to_2036",
+   "day": "2026-11-16",
+   "rows": 30,
+   "sources": 10
+  },
+  {
+   "card": "Q94_guidance_heard_as_a_promise",
+   "day": "2026-11-16",
+   "rows": 40,
+   "sources": 44
   },
   {
    "card": "Q9_what_makes_a_residency_last",

@@ -223,6 +223,8 @@ Galesic, Garcia-Retamero and Gigerenzer (2009) on icon arrays; Padilla, Kay and 
 
 ## Next
 
+- **Mon 16 Nov evening (first):** Table 3 is 27.9 lines against a 23.5-line Letter page after tonight's precision fixes (row 4, the fund-event watch, alone takes 12 lines; 1.4 lines over even with no note). Cut it before any reader sees it: row 4 to its signal and action in Wharton's words, its window and the earlier-fund class to the note or 3e; `../exhibits/build_exhibits.py` now measures and warns.
+
 - Done Mon 16 Nov: Q14's cards (`../research/cards/Q14a_showing_work_graphics.md`, `Q14b_showing_work_plain_english.md`)
   read against these designs (section 8).
 - Mon 23 Nov: the fresh-reader five-second test reads the four built exhibits plus c1d and c1a, c3 and c4 (as
@@ -230,3 +232,4 @@ Galesic, Garcia-Retamero and Gigerenzer (2009) on icon arrays; Padilla, Kay and 
 - Next exhibits rebuild (`../exhibits/build_exhibits.py`): Table 2's line of what is held the same in every world and
   its one-sentence check against the replays; Figure 1's "$0" column and direct labels, each only if it fits the page. Figure 1's three Q73 fixes (section 2): the sum in the heads with a total row that adds up, the today's-rates column to the note, the condition first in the title.
 - Rebuild: `python3 -I keel/final_report/charts/build_charts.py` from the repo root (about 20 seconds; 37 checks, then 8 renders).
+- Mon 16 Nov evening, done (`../exhibits/REBUILD_2026-11-16_evening.md`): Figure 1's three Q73 fixes (one world; heads "Its own Treasury + Extra Treasuries = $50,000"; total "$444,080 + $55,920 = $500,000", with the $444,081 / $55,919 rounding note now required; title opens "If Cash Waiting Earns Nothing") and Table 2's held-the-same line and history check; 419 checks, 0 FAIL; Section 3's exhibits 55.4 -> 55.9 lines.

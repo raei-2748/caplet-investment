@@ -40,7 +40,7 @@ re-run it in NUMBERS before use.
 | 8 | Residencies run out of running money, not building money | 4 | 4 | 3.0, 3a, 3d | H2, W |
 | 9 | The textbook says a young earner should own more shares; Laura is the exception, and the case says where it bites | 5 | 3 | 2.3, 3e | H1, H2 |
 | 10 | "Safe" depends on what is owed: one issuer on purpose, cash is the risky asset | 3 | 4 | 2.3, 2.2 | H5, W |
-| 11 | Co-sponsors count the bottom; she should say she intends the top | 3 | 4 | 3d, 3c | W |
+| 11 | Co-sponsors count the top, because after the move it is owned; the bottom stays beside it as the part owned first (funder test, Mon 16 Nov evening; was "co-sponsors count the bottom; she should say she intends the top") | 3 | 4 | 3d, 3c | W |
 | 12 | The price of certainty is closer to a deposit than a fee | 3 | 4 | 3a, 3b, Figure 1 note | W |
 | 13 | We know which way the Taiwan dollar hurts without forecasting it | 3 | 4 | 3b, 3e (Table 3) | H1, W |
 | 14 | $300,000 rarely buys the ten: 2026 was lucky, and the plan is built for the year that is not | 3 | 4 | 2.5, 3e | H4, P |
@@ -51,7 +51,7 @@ re-run it in NUMBERS before use.
 promise, because promised money levers whatever sits on top of it (2, 10), and her career would lever it again (9). So
 the floor is bought first and a figure is named only once it is owned (3), which is why the confidence attaches to the
 rule (4) and the share forecast hardly moves it (6). What is not promised is kept for bad news only (7, 13). What
-co-sponsors hear follows: ten years of running money owned (8), a bottom to count and a top she intends (11). Then the
+co-sponsors hear follows: ten years of running money owned (8), a top to count and the bottom as the part owned first (11; funder test, Mon 16 Nov evening). Then the
 honest account of what it cost (12), what was luck (14) and what the simulator could and could not show (15).
 
 ---
@@ -581,11 +581,22 @@ payments' dollar amount. [W] Never "not duration-matched": say "matched payment 
 
 ---
 
-## 11. Co-sponsors count the bottom; she should say she intends the top
+## 11. Co-sponsors count the top, because after the move it is owned; the bottom stays beside it as the part owned first
 
-**(1) Claim.** "Co-sponsors will plan on the bottom of Laura's range, so the bottom has to be money she already owns. But
-she should also say plainly that she intends to give the top, because after 2031 the top is owned money too, not a margin
-of error."
+**Rewritten Mon 16 Nov evening (funder test, `../panel/funder_test_2026-11-16/RESULTS.md`; WHY_A_RANGE option (b),
+section 4e):** both readers of option (b) booked $115,000 and took the meeting; both readers of the old framing booked
+$95,000. The old claim, "co-sponsors count the bottom; she should say she intends the top", is kept below for the record.
+The chain still holds and now supports the new claim: step 2 says the top is owned and available after the move, step 3
+that "over-deliver" has nothing to offer. Three changes from the funders: the passage leads with the single figure,
+$115,000, the dates underneath; never "before shares had any say" and never "secured" for the parts of the range (say
+"held since" or "owned since"); in Laura's words the margin for running costs is never named as something that can lower
+the top (3c carries the cost condition for judges). Never "intends", "expects", "hopes" or "aims" on the top once owned.
+
+**(1) Claim.** "Co-sponsors count the top of Laura's range, $115,000, because after the shares move into Treasuries
+before the 2031 meetings it is money she already owns. The bottom stays beside it, said once, as the part held since
+January 2028." (Was: "Co-sponsors will plan on the bottom of Laura's range, so the bottom has to be money she already
+owns. But she should also say plainly that she intends to give the top, because after 2031 the top is owned money too,
+not a margin of error.")
 
 **(2) Why a judge resists.** "Under-promise and over-deliver" is common wisdom. A wide range reads as unsure. Fundraisers
 say aim high, and anchoring research says the top anchors expectations.
@@ -608,14 +619,16 @@ say aim high, and anchoring research says the top anchors expectations.
 **(4) Literature and the connection.** Tang et al. (2015); Ciconte et al.; Gneezy & Epley (2014); CASE reporting
 standards; Mandel & Irwin on numbers over words (Q4c). No founder found states a range with a likelihood (Q18).
 **Connection:** earnings-guidance research, promise psychology and charity counting rules together say Laura's range is
-a statement of holdings, which is why "bottom committed, top intended" is honest, not hedged. *A judge could look up:*
+a statement of holdings, which is why "the top to count, the bottom as the part owned first" is honest, not hedged (was "bottom committed, top intended"; funder test, Mon 16 Nov evening). *A judge could look up:*
 Gneezy & Epley, "Worth keeping but not exceeding".
 
 **(5) Evidence.** Cards Q35 (claims 1-3, row 18), Q25 (Q25-001), Q11b (Q11b-032), Q18, Q19 (claim 3), Q4c. NUMBERS 4, 8l.
 
 **(6) Where it could be wrong.** Markets do reward beats (Bartov et al.; Q35 claim 1), so "exceeding buys nothing" holds
 for promises, not market forecasts. The studies are of analysts and lab subjects, not Taiwan co-sponsors. *The report
-admits it* by keeping the claim to promises and naming the two exceptions beside "she intends the top".
+admits it* by keeping the claim to promises and naming the cost condition in 3c for judges, never in Laura's words
+(funder test, Mon 16 Nov evening; was "naming the two exceptions beside "she intends the top""). The funder test had
+four readers, two per framing: a small sample, said as such.
 
 **(7) Lands.** 3d (the order of the co-sponsor passage) and 3c. A clause each; the passage's wording is Caplet's.
 

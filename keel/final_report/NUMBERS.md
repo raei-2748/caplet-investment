@@ -643,6 +643,7 @@ fall $13,906 short in all; at 3.0%, $46,215 and $25,144; at zero, $42,347 and $5
 backstop, the ten are paid at every flat rate down to zero, and with the ETF fee on every waiting dollar.
 
 - **Waiting cash at zero is history, not only a stress (card Q81, Mon 16 Nov, rater U; outside facts, not plan figures).** On FRED's 3-month bill rate (TB3MS, monthly, `research/cards/data/Q81_bill_rate_months.csv`, a month counted if strictly below the line), the bill paid under 0.07% in 83 of 1,110 months since 1934 and 53 of 222 since January 2008 (longest spell 19 months, Jan 2014 to Jul 2015); under 0.15%, the bill fund's fee in this register's standard, in 141 and 90 months (longest 58 months, Feb 2011 to Nov 2015); under 0.25% in 191 and 108 (longest 82 months, Mar 2009 to Dec 2015). The Treasury sold bills at exactly 0.000% in 54 auctions (Q81-016), and the Federal Reserve's 2026 bank stress test holds the 3-month bill at 0.1% for 12 quarters (Q81-015). BIL's own filings give its 2015 return as -0.11% (store Q2d-014 corrected). So the standard's condition has really happened, in two eras within fifteen years; the standard is still harsher than history, because it charges a fee and holds it for all sixteen years. Never "twice in fifteen years" as a count of tests: two eras, not two events.
+  - **As code (Mon 16 Nov night, numbers owner):** `python3 -I keel/final_report/numbers/waiting_cash_zero.py` (about 35 seconds) reads the card's CSV and reproduces 63 of the card's 65 stated counts (`numbers/results_waiting_cash_zero_2026-11-16.json`), every count in this bullet among them, and its row 13 replay through `completion.ledger` (design H_plain; each waiting dollar earns that month's bill rate less 0.15%, continuously): all ten paid in all 919 start months (Jan 1934 to Jul 2010), least left **$2,454** (start Jan 1934), $7,238 from Nov 2008, MODEL. Two do not reproduce: row 9's "worst windows start Jan 2007-Dec 2008" is true of the 15-year windows, but the 16-year windows holding the most months under 0.15% (90 of 192) start Jan 2006 to Dec 2008; and the card's note that adding Jul-Oct 2026 moves the shares "by at most 0.4 points" holds since 1934 (0.06) but not since 2008, where the 0.15% share falls from 40.5% to 39.8% (90 of 226) and the 0.25% share from 48.6% to 47.8%, so "90 of the 222 months from January 2008" is said with "to June 2026". Not wrong, noted in the JSON: 2014's year is 0.0325% and 2011's and 2015's 0.0525% each (the card rounds them to 0.033% and 0.052%); one stray month under 0.25%, Apr 2016, sits outside the card's two eras but inside its 108.
 
 ### 8b. The cost of the ten payments through 2026, from this one engine (every Treasury close, 2 Jan to 6 Nov)
 214 closes. Value on 1 Jan 2027 of the ten payments (payment-date basis), of the ten instruments held (design A), and
@@ -696,7 +697,13 @@ What it shows:
 Sources and bands in `research/cards/Q10_inflation_inputs.md` (all read 9 Nov 2026).
 - **US inflation:** central 2.4% a year (J.P. Morgan 2027 matrix, the same edition as the 7.5%); band 1.9%-3.5%.
 - **Taiwan construction costs:** central 3.0%, band 1.5%-5.0% (DGBAS construction cost index: September 2026 +7.29% on a year, 3.27% a year over the five years to September 2026 (card Q10 row 20; Table 3 row 7), about 3% a year since 2000).
+  - **October 2026, checked Mon 16 Nov night (numbers owner): published, value not read at source.** DGBAS's database page for the index (營造工程物價指數, nstatdb.dgbas.gov.tw, funid A030502015) lists "最新公布資料 ... (月)民國115年10月", so October 2026 is out. Its value was not read: `cci.xls` came back as binary to both fetch tools, curl is refused for ws.dgbas.gov.tw, the database's output pages were refused by the proxy, and the session's fetch budget ran out. MacroMicro's +7.18% on a year (card Q10c row 6) stays secondary and UNVERIFIED. **The register keeps September's +7.29%** until the lead decides; the next read is DGBAS's `cci.xls` (November's index follows in early December).
 - **USD/TWD:** 32.768 on 6 Nov (central bank of Taiwan); the strongest Taiwan dollar of the last ten years was 27.52.
+- **Taiwan's 2026 artist-village grants in US dollars (Mon 16 Nov night; card Q10d row 9; fact, converted at this register's rate, NT$32.768 per US$ on 6 Nov 2026).** The Ministry of Culture's 2026 list (文化部, 29 Jan 2026, read in full by card Q10d on Sat 14 Nov) gives NT$13.5m to 11 grantees, each NT$0.7m to NT$1.8m, under a NT$3m cap, "subject to the legislature's budget review":
+  - the total, NT$13.5m: **$411,987** (about $412,000);
+  - the mean, NT$13.5m / 11 = NT$1,227,273 (card: NT$1.23m): **$37,453** (about $37,450; NT$1.23m rounded would give $37,537);
+  - each grant, NT$0.7m to NT$1.8m: $21,362 to $54,932; the cap, NT$3m: $91,553 (about $91,550).
+  - Against the central contribution ($115,000, section 4): the mean grant is 32.6% of it, the cap 79.6% (card Q10d's "about a third" and "about four-fifths"). A year's grant is running money, the contribution one-off capital: a comparison of scale, not of use (Q10d row 9). Converted at one day's rate; the grants are paid in NT$ over 2026.
 - The range is read from `results_2026-11-10.json`.
 
 | | US inflation 1.9% | 2.4% (central) | 3.5% |
@@ -1918,6 +1925,79 @@ What it shows:
   variant in which the first plan kept shares past 2033 and sold them to pay each date (the readers' reading). It was not
   the team's plan.
 
+### 8t. Custody: the largest balance at one broker (Mon 16 Nov night, numbers owner, MODEL; `numbers/custody.py`, `numbers/results_custody_2026-11-16.json`)
+- **Script and rerun:** `python3 -I keel/final_report/numbers/custody.py` from the repo root (about 10 seconds). Imports
+  engine, plan and completion and changes none of them; reads no results file.
+- **Why.** SKELETON item 4(c)'s custody line, aha row 5b and the cards behind them set "$589,655 at the end" (8k) against
+  SIPC's $500,000 cover (of which at most $250,000 cash). 8k's $589,655 is all of Laura's money valued on 1 Jan 2033 for
+  its 87.2% / 12.8% split: the reserve, the $115,000 contribution carried 17 days from December 2032, the excess and the
+  half kept. It is a dated broker balance only if the contribution were still at the broker on the morning of 1 Jan 2033.
+  This section values what the plan holds at one broker (every holding at one broker: card Q78) on every month-end
+  from 31 Jan 2028 to 31 Dec 2032, and on 1 Jan 2033 before the first payment.
+- **Method: the plan as registered, no new assumption.** The 6 Nov 2026 curve's forward rates, VT at its median 7.5% a
+  year (plan.run's central path, filled in between 1 Jan 2028, 1 Jan 2031 and 1 Jan 2033 at a constant rate); the escrow
+  standard (the ten own rungs plus the backstop, section 2); Keel's reading of "most"; the move on 1 Jan 2031. Fees as
+  the forward world charges them: the iBond funds' 0.07% and VT's 0.06%; waiting money earns forward short rates (the
+  Treasury-bill ETF's 0.15% belongs to the design test, section 0). Each holding at nominal market value on the date:
+  - the ten rungs and the backstop as 8h values them: each coupon, distribution or fund payout already received waits
+    in the Treasury-bill ETF, grown at forwards; each flow still to come is discounted on the forwards to that date. On
+    1 Jan 2033 this gives 8h's **$444,545** (asserted);
+  - the floor ($81,889, bought Mon 3 Jan 2028) and the moved half ($18,495, 1 Jan 2031) as plan.run grows them, to
+    $103,178 and $20,298 on 15 Dec 2032 (asserted); their payout then waits in the Treasury-bill ETF;
+  - VT: $29,829 in January 2028, $36,989 on 1 Jan 2031, the half kept $21,347 on 1 Jan 2033 (asserted).
+  - With every part counted to 1 Jan 2033 the script gives 8k's **$589,655** (asserted), so the two figures are one
+    valuation read on different days.
+- **The contribution's day is not set.** 8k has it paid in December 2032; the funds' cash reaches Laura Mon 20 to Wed
+  22 Dec 2032 (8h). **Reading A:** it leaves then, before 31 Dec 2032 (the excess, $8,476, stays). **Reading B:** it
+  waits at the broker to 1 Jan 2033.
+
+| | Reading A (contribution leaves about 22 Dec 2032) | Reading B (it waits to 1 Jan 2033) |
+|---|---|---|
+| **Largest month-end balance** | **$587,039 on Tue 30 Nov 2032**, $87,039 over $500,000 | **$589,573 on Fri 31 Dec 2032**, $89,573 over |
+| Of it: Treasury bonds / iBond ETFs / Treasury-bill ETF (waiting money) | $161,391 / $177,790 (IBTM to IBTR) / $103,420 | $162,078 / $138,185 (IBTO to IBTR; IBTM has paid out) / $144,221 |
+| Of it: the floor and the moved half (late-2032 fund, or its payout waiting) / VT (the half kept) | $102,969 + $20,256 (in the fund) / $21,214 | $123,746 (payout waiting) / $21,343 |
+| Of it: uninvested cash | $0 | $0 |
+| Daily, between month-ends | $588,262 on Wed 15 Dec 2032 (the funds pay); $588,754 on Tue 21 Dec 2032, the day before the contribution leaves | rises to $589,655 on 1 Jan 2033 |
+| 31 Dec 2032 / 1 Jan 2033 before the first payment | $474,321 / $474,387 (after it, $424,387) | $589,573 / $589,655 |
+
+- **When it passes $500,000: the end of August 2029.** $462,499 on 1 Jan 2028 after the purchases; $499,144 on Tue
+  31 Jul 2029; **$501,224 on Fri 31 Aug 2029**; then above $500,000 at every month-end to 30 Nov 2032 (40 month-ends,
+  reading A; 41 in reading B, with 31 Dec 2032). So the custody exposure is not "at the end": it runs for about three
+  years and four months, from late 2029 until the contribution leaves.
+- **At net asset value** (the iBond funds as a broker's statement shows them, gross holdings less the fee already
+  charged, instead of 8h's value after the fee still to come): peak $587,222 on 30 Nov 2032; first above $500,000 still
+  31 Aug 2029 ($501,741). The headline keeps 8h's convention, so that it agrees with $444,545 and $589,655.
+- **Cash against SIPC's $250,000.** The model holds no uninvested cash at any month-end: every waiting dollar is in the
+  Treasury-bill ETF, an ETF share. If each month's receipts sat as cash until the month-end, the most before December
+  2032 is $3,639 (31 May 2028). At 31 Dec 2032, IBTM's own payout ($39,433 on 15 Dec 2032) and the month's distributions
+  are $40,361; with the funds' payout waiting as cash too, $48,855 (A, with the excess) or $164,107 (B). Under $250,000
+  in every case.
+- **How firm "over $500,000" is on 30 Nov 2032.** Yields that day 1 point lower: $600,010; 1 point higher: $574,789;
+  2 points higher: $563,212. It takes a parallel rise of 8.7 points that day to bring it under $500,000: by then the
+  floor and the moved half are cash inside their fund (its holdings matured about July 2032), VT is $21,214, and the
+  reserve's bonds and iBond ETFs ($339,181) have a duration of 3.7 years.
+
+What it shows:
+- **The figure for the custody line:** at one broker the plan holds more than SIPC's $500,000 from the end of August
+  2029 until the contribution leaves in December 2032, at most about **$587,000** at a month-end (30 Nov 2032, today's
+  forwards), **about $87,000 over**. $589,655 is the same money one month later, and only if the contribution had not
+  yet left; never call it "the balance at the end".
+- **After the contribution leaves the balance is under $500,000:** $474,387 on 1 Jan 2033 before the first payment
+  (8k's "about $474,000" is this figure), $424,387 after it, and lower each year.
+- **What sits above $500,000 is mostly Treasuries and Treasury funds.** At the peak, $102,969 + $20,256 of facility money
+  in the late-2032 fund and $21,214 of VT; the rest is the reserve. SIPC's $500,000 caps only its own advance above her
+  share of the broker's customer property, so the $87,039 is at risk only if that pool is short by more than SIPC fills
+  (card Q72 row 13); the history is delay, not loss, where assets were kept apart (cards Q72, Q78).
+- **Limits:** the central path only (forward rates; VT on a smooth 7.5% path); the house model's yield walk stops in 2031
+  (section 7), so no distribution is given. Markets before the peak move it: in the house model the floor's payout runs
+  $88,047 to $124,380, the moved half's $10,581 to $34,308 and the half kept $9,881 to $41,258 (1-in-20 low to high,
+  section 4, each its own percentiles), tens of thousands either way on a peak $87,039 over the line; shares alone take
+  out at most the moved half and the half kept ($41,470 centrally), which still leaves $545,569. It values month-ends
+  and the days named only; the engine pays the iBond funds' distributions twice a year, not monthly, which moves the
+  month-end cash figures a little and, at forward rates, the balances not at all; one broker is the plan's set-up (card Q78).
+- **Files that set $589,655 (or "about $589,000 / $589,700") against SIPC** are listed in section 10 (Mon 16 Nov night
+  block), not edited.
+
 ## 9. Still to add (later days)
 - **Sun 15 Nov evening (numbers owner), open after the fee fix:**
   - The haircut's size is the lead's call; the code keeps 0.5% (`completion.HAIRCUT`). The w1 frictions add to about 0.27%, so the 0.5% now leaves about 0.23% of each end beyond them (section 0).
@@ -1940,8 +2020,22 @@ What it shows:
   - `plan.py` carries the January 2028 completion a year as if 2027 had 365.25 days ($1.14 too much; 8k's check). Fix it on the next full re-run, not alone: it moves the completion to $38,281 and the floor money to $81,890 in every file.
 - **Two checks only a student can make:** which Treasury-bill ETF WInS lists, with its fee (section 0; the cushion is sized for 0.15% a year); and IBTM's prospectus wording on what may make the fund pay less than its holdings (section 3).
 - `pooled.py` (card Q20) still compares the designs at exactly 0%, with the old fixed deductions; it is a record, not a source.
-- **Sat 14 Nov (cards Q10b, Q10c, Q10d):** DGBAS lists the October 2026 construction cost index as published (+7.18% on a year, a secondary read) but its downloadable files still ended in September on 14 Nov; re-read the DGBAS file before 8d is next changed (8d keeps September's +7.29%). Before 3d prints Taiwan's 2026 artist-village grants (NT$13.5m to 11 grantees, a mean of NT$1.23m, card Q10d row 9), they need an entry here with their conversion date.
+- **Sat 14 Nov (cards Q10b, Q10c, Q10d):** DGBAS lists the October 2026 construction cost index as published (+7.18% on a year, a secondary read) but its downloadable files still ended in September on 14 Nov; re-read the DGBAS file before 8d is next changed (8d keeps September's +7.29%). ~~Before 3d prints Taiwan's 2026 artist-village grants (NT$13.5m to 11 grantees, a mean of NT$1.23m, card Q10d row 9), they need an entry here with their conversion date.~~ **Done Mon 16 Nov night (8d):** $411,987 in all, a mean of $37,453, at NT$32.768 (6 Nov 2026).
+- **Mon 16 Nov night (numbers owner): closed and still open.**
+  - **Closed, custody (8t):** the largest balance at one broker is $587,039 at a month-end (Tue 30 Nov 2032; $589,573 on 31 Dec 2032 if the contribution waits), above SIPC's $500,000 from 31 Aug 2029; no uninvested cash at any month-end in the model, at most $164,107 if December 2032's payouts waited as cash, under the $250,000 cash limit. Still open, for the files' owners: the files in section 10's Mon 16 Nov night block replace "$589,655 at the end" from 8t. Not run: a distribution of the peak (the house model's yield walk stops in 2031).
+  - **Closed, card Q81 as code (8a):** `numbers/waiting_cash_zero.py` reproduces 63 of the card's 65 counts and its row 13 replay ($2,454 least, all ten paid in 919 starts), now a register figure (MODEL). Still open, for the card's owner: row 9's start dates are the 15-year windows' (16-year: Jan 2006 to Dec 2008), and the method's "at most 0.4 points" holds only since 1934 (since 2008 the 0.15% share is 39.8% of 226 months to Oct 2026).
+  - **Checked, still open, DGBAS October 2026 (8d):** the database page lists October 2026 as published; its value was not read at source tonight (binary file, proxy refusals, fetch budget). 8d keeps September's +7.29%; the next run reads `cci.xls`.
+- **Mon 16 Nov night (coherence reader 6; bond desk 4, `research/panel/2026-11-16_*`): open items for the numbers owner. Added, not changed; no figure above is altered.**
+  - **Bond desk 4's check figures, not in the register:** the top's cost cover, 3.09% of the funds' value with cash waiting earning nothing (it follows from section 3's $593 + $3,072 against $118,666) and **6.86% at the interest the market expects (not derivable here)**; paths missing the top at the modelled payout at costs of 0.75% / 1% / 2% / 3%: 0 / 0 / 6 / 469 (check2); the smallest cover in any path at the modelled payout, 1.53%; the contribution inside $95,000-$115,000 from today in 51.2% of simulated futures (never to be printed; SKELETON 3c uses "about half" only as a never-printed note); the floor's monthly payouts before its end, about $15,569 of its $98,874 zero-interest value (the moved shares' $1,162) (check3). SKELETON 3c, 3d and 3e, CONCEIT and INTENT now say "about 3%" (derivable) and keep "about 7%" and the payout size out of prose until a script and this register carry them.
+  - **The payments' own exposure to fund costs beyond the 0.07% fee** at zero interest (coherence reader 6, M9: "a few hundred dollars at most", Keel arithmetic, not a register figure): size it before 27 Nov, since the range carries 0.5% for the same costs and the payments carry none.
+  - **Section 4's history column label** "$103,178 (fixed once bought)" should read "(rates at forwards)": an iBond fund's payout is never fixed (TNA l.13; bond desk 4, L2). A label change for the owner, not a figure change.
+  - **`numbers/completion.py` l.12-15:** the docstring still describes the Tue 10 Nov morning rule ("both rounded down"); the code rounds once (bond desk 4, L4).
+  - **Section 2's names box and finding 3** still anchor the extra Treasuries on IPS l.13; WORDS, SKELETON, INTENT and CONCEIT now say l.13's "complete it", "top up" and "isn't dependent on yields staying put" belong to the $2,388 top-up alone, and the $35,894 is the part of the operating reserve above the ten that the report recommends (case l.95-96, Wharton), held in Treasuries as IPS l.11 says (coherence reader 6, H1; lead's decision Mon 16 Nov).
+  - **Table 3 row 5's distance** from net asset value for a stressed trade day ("limit orders within [x]%", bond desk 4, M6; section 3's March 2020 note says more than 1%): a figure for the register before the row prints one.
+  - **`exhibits/tables.md` was edited by hand Mon 16 Nov night** (Tables 1-3, Figure 1's legend and note 1); `exhibit_data.py` and `build_exhibits.py` must carry the same changes before the next build, and Table 3's one-page fit must be re-measured.
 - Later days add what the research rounds and the skeleton ask for.
+
+- **Added Mon 16 Nov evening (lead, from card Q88 and rater AL):** the WInS fills are dated 7-8 Oct in 8b and 6-7 Oct in 8g and 8m; both are right in their own zone (Sydney and ET), so every use names its zone, and 8b says so in its next edit. The price drift from the 2 Oct prices to the fills ($558.79 measured from 2 Oct, the iBond funds $507 under, three extra VT shares $476.49; card Q88) is not yet in 8m: re-derive it from the trade records before 2.5 quotes any of it.
 
 ## 10. Files that still quote a void figure (Tue 10 Nov afternoon, with evening rows; listed, not edited)
 Paths are under `keel/final_report/` unless shown. Each file's owner changes it, using the section named as the replacement. Line numbers are as of Tue 10 Nov afternoon; rows marked "(evening)" were added Tue 10 Nov evening for 8j.
@@ -2044,3 +2138,26 @@ False positives, not void: 25.94%, 36.55% and other S&P 500 years (Q1 l.17, 51, 
 
 **Outside `keel/final_report/`:**
 - `keel/pm/ASK_HUMANS.md` (Tue 10 Nov 07:04 entry, line 19) says the call costs $335,771, "$12,335 more", and "about $44,000 comes back to Laura in 2033 (2033 money; $33,461 in 1 Jan 2027 money)". Now: $336,656, $13,220 more, about $45,000 ($45,456 in 2033 money; $34,345 in 1 Jan 2027 money).
+
+**Mon 16 Nov night: files that set $589,655 (or "about $589,000 / $589,700") against SIPC's $500,000 (8t)** (listed, not edited; line numbers as of Mon 16 Nov night; each owner replaces from 8t). The replacement in one line: at one broker the plan holds more than $500,000 from the end of August 2029 ($501,224) until the contribution leaves in December 2032, at most $587,039 at a month-end (Tue 30 Nov 2032), $87,039 over; $589,655 is that money on 1 Jan 2033 only if the contribution had not left; with it gone, $474,387 that morning before the first payment.
+
+| File | Line | Quotes | Replace with |
+|---|---|---|---|
+| SKELETON.md | 289 (item 4(c) and Table 3's notes) | "crossing SIPC's $500,000 is predictable now ($589,655 at the end, NUMBERS 8k)"; "holdings near Dec 2032 of about $589,000 against SIPC's $500,000" | Above $500,000 from the end of Aug 2029 to Dec 2032; at most about $587,000 (30 Nov 2032), about $87,000 over (8t) |
+| research/goldmine/AHA_REGISTER.md | 58 (row 5b) | "fix rows 32 and 38's $589,655 (NUMBERS 8k's all-money figure in 1 Jan 2033 dollars, not a broker balance)" | The fix is 8t's peak and dates |
+| research/goldmine/aha_candidates_2026-11-16.md | 114 | "her money reaches $589,655 near the end" | About $587,000 at most (30 Nov 2032), above $500,000 from Aug 2029 (8t) |
+| research/GEM_LEDGER.md | 382 | "fix the $589,655 broker-balance reading" | 8t |
+| research/cards/Q30_table3_cut_and_xdate.md | 99 (row 34), 258 (Table 3 row 8), 331 | "$589,655 in 1 Jan 2033 money ... about $474,000 after the $115,268 contribution leaves"; "Above it before 2033" | $587,039 on 30 Nov 2032; above $500,000 from Aug 2029; $474,387 on 1 Jan 2033 before the first payment once the contribution has left (8t) |
+| research/cards/Q65_how_fixed_promises_broke_recut.md | 84, 122 (row 32), 128 (row 38), 137 | "$589,655 at the end" / "at one broker against $500,000" | 8t's peak, dates and the $87,039 over |
+| research/cards/Q72_what_owning_a_treasury_means.md | 28, 75 (row 13) | "$589,655 ... the $89,655 above $500,000" | $87,039 over at the month-end peak ($89,573 on 31 Dec 2032 if the contribution waits) (8t) |
+| research/cards/Q3b_floors_in_institutions.md | 25, 78 (row 31), 157 | "$589,655 at the end against SIPC's $500,000" | 8t |
+| research/cards/Q8b_certainty_standards_1in200_ALARP.md | 57, 101 (row 24), 103 (row 26) | "$589,655 at the end" | 8t |
+| research/cards/Q2a_fixed_promises_what_broke.md | 103 (row 22), 183 | "SIPC covers $500,000 against holdings of $589,655" | 8t |
+| research/cards/Q2b_escrows_lotteries_settlements_stress.md | 67 (row 4) | "SIPC covers $500,000 against $589,655 at the end (NUMBERS 8k)" | 8t |
+| research/cards/Q26_monitoring_table.md | 46, 76 (row 22), 137, 250 (row 33), 267 | "about $589,000 near Dec 2032 (Keel arithmetic)"; l.267 "adding three NUMBERS figures at slightly different dates" | About $587,000 (30 Nov 2032), one valuation on one date (8t) |
+| research/cards/Q8a_certainty_in_engineering.md | 59, 106 | "about $589,000 held near Dec 2032" | 8t |
+| research/panel/2026-11-11_bond_desk_table3.md | 53 | "$589,655 at the end, NUMBERS 8k" | Dated record: leave |
+| voice/round3/brief_F.md 58; writer_F.md 50, 57; passages.json 4, 5 | | "about $589,700 by late 2032" | Voice-study records: leave; a later brief uses 8t |
+| research/store/insights.jsonl 2392, 2523, 2538, 2665, 3000, 4118, 4124, 4500, 5006, 5040, 5042 (Q26-022, Q2a-022, Q2b-004, Q30-034, Q3b-031, Q65-032, Q65-038, Q72-013, Q8a-025, Q8b-024, Q8b-026); ratings.csv 969, 1212, 1614, 4074, 4080, 4411; by_tag CERTAINTY.md 497, PROCESS.md 233, RESERVE2033.md 142, 231; digest/ratings_R2_I.csv 32, 38, ratings_R2_O.csv 13 | | $589,655 or about $589,000 against SIPC | Dated records: a store refresh adds superseding entries from 8t |
+
+Not against SIPC, not changed: 8k's own "$589,655" ("Of all the money at the end"), which is right for its split; card Q25 (l.107, 312) and store Q25-026's $589,368 (the reserve, the funds' $123,476 payout at face on 15 Dec 2032 and the half kept; store ratings already say to quote 8k).

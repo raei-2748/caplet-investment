@@ -45,14 +45,20 @@ Keel's belief, untestable, and stays out of the report: panel 2's professor, Thu
    come true sixteen times over). **The top-up** is the $2,388 (January 2028 money) by which the ten cost more than $300,000 (IPS l.13, "we'll
    simply complete it with the 2028 deposit"; the ten cost $302,287 at the 6 Nov close, a $2,287 gap in January 2027
    money, NUMBERS 1), bought first, into the
-   2033 payment's fund. **The extra Treasuries** are the other $35,894, which size the operating reserve above the ten,
-   as Wharton asks Section 3 to recommend; both parts are said inside l.13's step (the ten completed so they do not
-   depend on yields: the top-up for their price, the extra Treasuries for the interest our WInS trade notes say they
-   rely on), before l.15's split of the rest, never "which the IPS leaves open" (coherence reader 4, Sat 14 Nov evening). Their subject is the risk the Trading Notes already named,
-   reinvestment-rate risk (TNA l.5; WN l.24, "reinvested coupons funding part of each"): in about half of the starting
-   months since 1962, yields fell enough after purchase that the interest each bond pays along the way, reinvested,
-   would have needed the 2028 deposit's help, which l.13 promises ("our plan isn't dependent on yields staying put");
-   the extra Treasuries give that help in January 2028, sized in advance. l.11 is the test they meet, never their
+   2033 payment's fund. **The extra Treasuries** are the other $35,894: the part of the operating reserve above the ten
+   that the report recommends, answering the case (l.95-96: "Teams must recommend its size and initial asset
+   composition") and Wharton ("Recommend an appropriate operating reserve"), held in Treasuries as IPS l.11 says ("The
+   money for the operating commitment will go straight into Treasuries"), bought with the 2028 deposit's first dollars
+   and sized so all ten are paid even if cash waiting earns nothing; never "which the IPS leaves open" or "the
+   reserve's size" (coherence reader 4, Sat 14 Nov evening) (coherence reader 6, Mon 16 Nov, H1: struck "both parts are
+   said inside l.13's step (the ten completed so they do not depend on yields ...), before l.15's split of the rest",
+   since l.13's completion applies only if yields fall and the $35,894 is bought at every yield). Their subject is the risk the Trading Notes already named,
+   reinvestment-rate risk (TNA l.5; WN l.24, "reinvested coupons funding part of each"): priced at today's rates, the
+   interest each bond pays along the way, reinvested, would have fallen short more often than not for start dates
+   since 1981 and rarely before (585 starting months since 1962); when short, about $16,000 at the median, and about
+   $35,000 at 1 in 20 of all starting months (NUMBERS 2 as corrected Mon 16 Nov; never a bare 55.6%); the extra
+   Treasuries take that risk out in January 2028, sized in advance (coherence reader 6, Mon 16 Nov, H1 and M8: struck
+   "which l.13 promises ("our plan isn't dependent on yields staying put")", which is the top-up's). l.11 is the test they meet, never their
    justification (never "justified by l.11", "the ten as bought would have fallen short", or "could have been met only
    from the shares": each tells a judge the submitted plan failed; second and third coherence readers, Fri 13 Nov).
    Most of the extra Treasuries come back to Laura if rates hold (worth about $45,500 in 1 January 2033 money with
@@ -63,31 +69,35 @@ Keel's belief, untestable, and stays out of the report: panel 2's professor, Thu
    small?" and a lay reader followed it "only by faith". It goes to Figure 1's note with its reason. "Escrow verifier's
    standard" is dropped as a label: MSRB's name for the test is "full cash" or "gross" refunding, named once in 3a for
    bond readers.)
-2. The WInS portfolio holds Laura's plan's instruments at two-thirds scale, built before the operating reserve was sized, so it holds neither the top-up nor the extra Treasuries, and splits what is left of the 2028 money as the plan does (about 73% floor, 27% VT) (said in one sentence, one reason only; second and third coherence readers, Fri 13 Nov: never "in the plan's order", since the plan's order puts the top-up and the extra Treasuries first, and never "could not show the 2028 deposit", since Table 1 holds the floor and VT it buys) (the WInS notes' own words: "scaled to the model
+2. The WInS portfolio holds Laura's plan's instruments, built from the plan and scaled to $300,000 of its $450,000 (never "two-thirds scale" or "scale model", WORDS; coherence reader 6, Mon 16 Nov, M10), built in October, when the ten cost less than the first deposit (our IBTR note, WN l.15), and before the operating reserve was sized, so it holds neither the top-up nor the extra Treasuries, and splits what is left of the 2028 money as the plan does (about 73% floor, 27% VT) (said in one sentence, one reason only; second and third coherence readers, Fri 13 Nov: never "in the plan's order", since the plan's order puts the top-up and the extra Treasuries first, and never "could not show the 2028 deposit", since Table 1 holds the floor and VT it buys) (the WInS notes' own words: "scaled to the model
    portfolio"), built to targets set before trading and matching them (all ten Treasury holdings at exactly their target
    units; NUMBERS 8m); what does not scale (fixed fees, $1,000 bond lots, the 2028 date, time) is calculated, not
-   shown (card Q29). And it cost more than the deposit: the ten cost $302,287 at the 6 Nov close, and the IPS's own
-   clause completes them from the 2028 deposit. A team that shows its overrun and the rule that covers it is believed
+   shown (card Q29). And it cost more than the deposit: the ten cost $302,287 at the 6 Nov close, and the top-up,
+   IPS l.13's own clause, completes them from the 2028 deposit (coherence reader 6, Mon 16 Nov, H1). A team that shows its overrun and the rule that covers it is believed
    on the rest. (Thu 12 Nov, panel 2: the overrun is said in 3a with the top-up, not in the 2.0 lead, where beside a table
    totalling $300,000 at two-thirds scale it confuses; SKELETON's density cut.)
-3. In 2031 Laura states about $95,000 to $115,000, and both ends are money she already owns in Treasury funds; co-sponsors
-   count the bottom, and the contribution reaches the top unless the funds' running costs pass half a
-   percent, and then falls short by a few hundred dollars (the coherence reader: this second exception must travel
-   with the first). (Notes, not words for the report: the written
+3. In 2031 Laura states her range, about $95,000 to $115,000 on today's figures, and both ends are money she already
+   owns in Treasury funds; co-sponsors count the top, owned before she speaks; the bottom is the part owned since
+   January 2028 (funder test, Mon 16 Nov evening; WHY_A_RANGE 4e, which calls this item "failure 3"). The contribution
+   falls short of the top only if the funds' costs beyond the fees pass the margin held back (at least 0.5% of their
+   value, about 3% on today's figures) with cash waiting earning nothing, and then by at most about $120 for each
+   further 0.1% (bond desk 4, Mon 16 Nov, H1; never "a few hundred dollars"; the coherence reader: this condition must
+   travel with the confidence). (Notes, not words for the report: the written
    rule, the cap and the two exceptions are in SKELETON 3c and cards Q19, Q4c and Q26; the payments' standard costs the
-   range about $15,000 and about $45,500 of the top-up comes back to Laura if forward rates hold, NUMBERS 4, 8k; the real
+   range about $15,000 and about $45,500 of the extra Treasuries comes back to Laura if forward rates hold (coherence reader 6, Mon 16 Nov, H1: never "of the top-up"), NUMBERS 4, 8k; the real
    uncertainty is earlier, which range she will be able to announce. Shortened Wed 11 Nov after a fresh reader scored
    the opening idea 3 for clarity.)
 4. Half the shares are promised to no one, for the IPS's three uses in the IPS's own order (overruns, a stronger Taiwan
    dollar, a co-sponsor falling short; no ranking of our own, coherence reader Thu 12 Nov evening; "her flexibility" is the half kept, about $21,300, and
-   $29,800 is "her flexibility plus anything above the top", third coherence reader, Fri 13 Nov evening); that cushion can be smallest when it is needed (never "tends to be": card Q66 and NUMBERS 8q, Mon 16 Nov, find no general tendency, only a share slump followed by a cost burst), and the report says so, with a
+   $29,800 is "her flexibility plus anything above the top", third coherence reader, Fri 13 Nov evening); a share slump followed by a cost burst can catch her flexibility (never "cushion", "tends to be" or "smallest when it is needed": cards Q66 and Q85 and NUMBERS 8q, Mon 16 Nov, find no general tendency; coherence reader 6, Mon 16 Nov, L2), and the report says so, with a
    recession replayed from history (card Q24).
 5. Laura watches many things, but only a missed deposit or a Treasury default changes the plan; everything else changes
    a number, never a payment. (Defined Wed 11 Nov evening, so the two exits are not vague: a Treasury default is
    a payment on any marketable Treasury not made within five business days; a missed deposit is nothing received by
    31 March 2028. Card Q30, bond reader, ASK_HUMANS.)
-6. The team changed its own first plan on its own evidence, and its recommendation came from disagreements it settled
-   on reasons; each event in the reflection ends on something that changed, or was tested and kept, in a
+6. The team changed its own first plan on its own evidence, and its recommendation came from a disagreement it settled
+   on reasons (Darren's, 5 Oct) and a tension in Laura's own brief it priced both ways (27 Sep to 1 Oct; the record
+   holds one teammate disagreement, not several: people in the room, Mon 16 Nov evening); each event in the reflection ends on something that changed, or was tested and kept, in a
    recommendation earlier in the report (card Q27).
 
 ## Ways the report could fail (each has a scorecard row)
@@ -99,10 +109,14 @@ Keel's belief, untestable, and stays out of the report: panel 2's professor, Thu
    not par; matched payment by payment, said positively (never "not duration-matched": it negates the frozen TNA l.7
    in a judge's eyes; panel 2's finalist judge, Thu 12 Nov); reinvestment priced; the margin explained.
 3. **The confidence statement overpromises or can be made to fail.** Guard: one definition of the contribution (floor
-   plus moved half, capped at the stated top, CANON D12); the range as a rule; the confidence said in numbers and
-   words; what could lower it named.
+   plus the shares moved into Treasuries, capped at the stated top, CANON D12); the range as a rule; the confidence said
+   in numbers and words; what could lower it named for judges in 3c. The subject of "certain" is the range she states
+   in 2031 once both ends are owned, never "$95,000 to $115,000", which travels with "on today's figures" in another
+   sentence (coherence reader 6 and bond desk 4, Mon 16 Nov, M1). Co-sponsors count the top; the bottom is said once,
+   as the part owned since January 2028; in Laura's words nothing is named as able to lower the top (funder test, Mon
+   16 Nov evening).
 4. **The reflection is generic, retells the Trading Notes, or is about analysis rather than people.** Guard: three or
-   four real events from the blind ranking, each naming who did what and when, each ending on what changed or what was tested and kept,
+   four real events from the blind ranking, each saying what the team did and when, with names where the team's own record gives them (Darren's "copout", 5 Oct; Eric asleep before the 00:30 open, 7 Oct; Ray placing or cancelling every order from 7 Oct), analysis and decisions as "we", never credited to a named student, the AI's share never needed for the point to land, never a false attribution, and nothing that was not a person described as one (no "readers" or "blind test"; people in the room, Mon 16 Nov evening, `research/experience/PEOPLE_IN_THE_ROOM_2026-11-16.md`) (Book 18; amended Mon 16 Nov evening after panel 3's finalist found this line and SKELETON 3f at odds), each ending on what changed or what was tested and kept,
    with a number where the register has one; one of them a success.
 5. **It is too dense to follow at speed.** Guard: the stack test on the first page; word budgets per part
    (`SKELETON.md`: about 2,700 words of prose in all); cut whole ideas, never squeeze sentences (EXPECTATIONS 3.2).
@@ -113,13 +127,17 @@ Keel's belief, untestable, and stays out of the report: panel 2's professor, Thu
    evening after a strict coherence reader rated this risk high (`research/panel/2026-11-12_coherence_reader.md`) and
    again Fri 13 Nov evening (`2026-11-13_coherence_reader_3.md`): only the $2,388 by which the ten cost more than
    $300,000 is the IPS's "we'll simply complete it with the 2028 deposit" (l.13) and the WInS notes' "top up" (WN l.15,
-   l.20), and only it is called the top-up; the other $35,894, the extra Treasuries, sizes the operating reserve above
-   the ten, which Wharton asks Section 3 to recommend, said inside l.13's step with the top-up (coherence reader 4,
-   Sat 14 Nov evening: "which the IPS leaves open" in prose reads as a new allocation outside l.13 and l.15). Its subject is the reinvestment-rate risk the
-   Trading Notes named (TNA l.5); it rests on l.13's "our plan isn't dependent on yields staying put", which the 2028
-   deposit keeps for reinvested interest as it keeps it for a dearer ladder; l.11 is the test it meets. Said that way
-   it is the IPS's own promise kept, not a new rule, and never a failure of the IPS's sizing (second and third
-   coherence readers, Fri 13 Nov).
+   l.20), and only it is called the top-up; the other $35,894, the extra Treasuries, is the part of the operating
+   reserve above the ten that the report recommends, answering the case (l.95-96) and Wharton ("Recommend an
+   appropriate operating reserve"), held in Treasuries as IPS l.11 says ("The money for the operating commitment will
+   go straight into Treasuries"), bought with the 2028 deposit's first dollars (coherence reader 4, Sat 14 Nov evening:
+   "which the IPS leaves open" in prose reads as a new allocation outside l.13 and l.15). Its subject is the
+   reinvestment-rate risk the Trading Notes named (TNA l.5); l.11 is the test it meets. Said that way it is the case's
+   own question answered by the IPS's own rule for promised money, not a new rule, and never a failure of the IPS's
+   sizing (second and third coherence readers, Fri 13 Nov) (coherence reader 6, Mon 16 Nov, H1: struck "said inside
+   l.13's step with the top-up" and "it rests on l.13's "our plan isn't dependent on yields staying put", which the
+   2028 deposit keeps for reinvested interest as it keeps it for a dearer ladder": l.13's clause applies only if
+   yields fall and belongs to the top-up; the $35,894 is bought at every yield).
    "Roughly $300,000" stays true as the ten's price with interest as the market expects (NUMBERS 1); "most of the 2028
    deposit" still funds the floor at today's rates (54.6% centrally, NUMBERS 4; never print $75,001, "just over half" or
    a label saying the rule binds; always "at today's rates", with no odds: "most" fails only if yields fall more than

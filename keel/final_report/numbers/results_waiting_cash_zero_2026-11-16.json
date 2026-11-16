@@ -1,0 +1,576 @@
+{
+ "stamp": {
+  "run": "Mon 16 Nov 2026 (Sydney)",
+  "data": "keel/final_report/research/cards/data/Q81_bill_rate_months.csv",
+  "months": 1110,
+  "first": "1934-01",
+  "last": "2026-06",
+  "status": "Outside facts (FRED TB3MS) and Keel arithmetic; rows 13-14 MODEL on the register's engine",
+  "card": "keel/final_report/research/cards/Q81_waiting_cash_at_zero.md",
+  "replay_convention": "continuous within each month at (bill rate - 0.15%); month k of the window = month k from Jan 2027; completion.ledger, design H_plain"
+ },
+ "claims": [
+  {
+   "id": "months",
+   "claim": "Months in the copy, Jan 1934 to Jun 2026 / since Jan 2008",
+   "card": "1,110 / 222",
+   "script": "1,110 / 222",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r1_0.07_count",
+   "claim": "Under 0.07% since 1934: months",
+   "card": "83",
+   "script": "83",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r1_0.07_share",
+   "claim": "Under 0.07% since 1934: share",
+   "card": "7.5%",
+   "script": "7.5%",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r1_0.07_spells",
+   "claim": "Under 0.07% since 1934: spells",
+   "card": "12",
+   "script": "12",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r2_0.07_count",
+   "claim": "Under 0.07% since Jan 2008: months",
+   "card": "53",
+   "script": "53",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r2_0.07_share",
+   "claim": "Under 0.07% since Jan 2008: share of 222",
+   "card": "23.9%",
+   "script": "23.9%",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r1_0.07_longest",
+   "claim": "Under 0.07%: longest spell",
+   "card": "19 (Jan 2014-Jul 2015)",
+   "script": "19 (Jan 2014-Jul 2015)",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r1_0.15_count",
+   "claim": "Under 0.15% since 1934: months",
+   "card": "141",
+   "script": "141",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r1_0.15_share",
+   "claim": "Under 0.15% since 1934: share",
+   "card": "12.7%",
+   "script": "12.7%",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r1_0.15_spells",
+   "claim": "Under 0.15% since 1934: spells",
+   "card": "9",
+   "script": "9",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r2_0.15_count",
+   "claim": "Under 0.15% since Jan 2008: months",
+   "card": "90",
+   "script": "90",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r2_0.15_share",
+   "claim": "Under 0.15% since Jan 2008: share of 222",
+   "card": "40.5%",
+   "script": "40.5%",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r1_0.15_longest",
+   "claim": "Under 0.15%: longest spell",
+   "card": "58 (Feb 2011-Nov 2015)",
+   "script": "58 (Feb 2011-Nov 2015)",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r1_0.25_count",
+   "claim": "Under 0.25% since 1934: months",
+   "card": "191",
+   "script": "191",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r1_0.25_share",
+   "claim": "Under 0.25% since 1934: share",
+   "card": "17.2%",
+   "script": "17.2%",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r1_0.25_spells",
+   "claim": "Under 0.25% since 1934: spells",
+   "card": "7",
+   "script": "7",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r2_0.25_count",
+   "claim": "Under 0.25% since Jan 2008: months",
+   "card": "108",
+   "script": "108",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r2_0.25_share",
+   "claim": "Under 0.25% since Jan 2008: share of 222",
+   "card": "48.6%",
+   "script": "48.6%",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r1_0.25_longest",
+   "claim": "Under 0.25%: longest spell",
+   "card": "82 (Mar 2009-Dec 2015)",
+   "script": "82 (Mar 2009-Dec 2015)",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "le_0.07",
+   "claim": "At or below 0.07%: months since 1934 / since 2008",
+   "card": "90 / 59",
+   "script": "90 / 59",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "le_0.15",
+   "claim": "At or below 0.15%: months since 1934 / since 2008",
+   "card": "156 / 94",
+   "script": "156 / 94",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "le_0.25",
+   "claim": "At or below 0.25%: months since 1934 / since 2008",
+   "card": "194 / 108",
+   "script": "194 / 108",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "le_0.07_longest",
+   "claim": "At or below 0.07%: longest spell",
+   "card": "31 (Apr 2013-Oct 2015)",
+   "script": "31 (Apr 2013-Oct 2015)",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "q2d_check",
+   "claim": "Q2d's 0.25% counts, 2008-2022: months / longest",
+   "card": "108 / 82",
+   "script": "108 / 82",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r3",
+   "claim": "Modern spells under 0.07%",
+   "card": "Dec 2008 (1), Nov 2009-Jan 2010 (3), Apr 2011-Jan 2012 (10), Apr 2013-Oct 2013 (7), Jan 2014-Jul 2015 (19), Sep 2015-Oct 2015 (2), Feb 2021-Dec 2021 (11)",
+   "script": "Dec 2008 (1), Nov 2009-Jan 2010 (3), Apr 2011-Jan 2012 (10), Apr 2013-Oct 2013 (7), Jan 2014-Jul 2015 (19), Sep 2015-Oct 2015 (2), Feb 2021-Dec 2021 (11)",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r3_blip",
+   "claim": "Aug 2015's rate (the blip that breaks the 2014-15 spell)",
+   "card": "0.07",
+   "script": "0.07",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r4",
+   "claim": "Modern spells under 0.15%",
+   "card": "Dec 2008-Jan 2009 (2), Sep 2009-Feb 2010 (6), Jun 2010 (1), Oct 2010-Dec 2010 (3), Feb 2011-Nov 2015 (58), Apr 2020-May 2020 (2), Jul 2020-Dec 2021 (18)",
+   "script": "Dec 2008-Jan 2009 (2), Sep 2009-Feb 2010 (6), Jun 2010 (1), Oct 2010-Dec 2010 (3), Feb 2011-Nov 2015 (58), Apr 2020-May 2020 (2), Jul 2020-Dec 2021 (18)",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r4_avg_58",
+   "claim": "Average rate in the 58-month spell",
+   "card": "0.052%",
+   "script": "0.052%",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r4_avg_18",
+   "claim": "Average rate in the 18-month spell",
+   "card": "0.064%",
+   "script": "0.064%",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r5_07",
+   "claim": "1930s under 0.07%: months, first-last month, spells, longest",
+   "card": "30, May 1938-Feb 1941, 5, 11 (Oct 1938-Aug 1939)",
+   "script": "30, May 1938-Feb 1941, 5, 11 (Oct 1938-Aug 1939)",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r5_15",
+   "claim": "1930s under 0.15% running: months, dates, average",
+   "card": "48, Nov 1937-Oct 1941, 0.060%",
+   "script": "48, Nov 1937-Oct 1941, 0.060%",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r5_low",
+   "claim": "Lowest month on record (0.01%)",
+   "card": "Jan 1940, Sep 2011, Nov 2011, Dec 2011",
+   "script": "Jan 1940, Sep 2011, Nov 2011, Dec 2011 at 0.01%",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r1_015_other",
+   "claim": "Under 0.15% before 2008 outside the 1937-41 spell (not stated on the card; shown so the 141 adds up)",
+   "card": "(not stated)",
+   "script": "Oct 1936-Dec 1936 (3)",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r6_eras",
+   "claim": "Under 0.25% since 2008 (spells)",
+   "card": "Nov 2008 to Dec 2015 with Feb 2009 at 0.30%; Apr 2020 to Jan 2022",
+   "script": "Nov 2008-Jan 2009 (3); Mar 2009-Dec 2015 (82); Apr 2016 (1); Apr 2020-Jan 2022 (22); Feb 2009 at 0.30%",
+   "reproduced": true,
+   "note": "The two eras hold. The card leaves out one stray month under 0.25%, Apr 2016 (0.23%), which its count of 108 since 2008 includes."
+  },
+  {
+   "id": "r6_2022",
+   "claim": "Jan 2022 / Feb 2022",
+   "card": "0.15% / 0.33%",
+   "script": "0.15% / 0.33%",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r7",
+   "claim": "Jul 2011-Jun 2026: months under 0.15%, share, 2011-15 era, 2020-21 era",
+   "card": "73, 40.6%, 53, 20",
+   "script": "73 of 180, 40.6%, 53, 20",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r8",
+   "claim": "Lowest calendar years (mean of monthly averages)",
+   "card": "2014 0.033%, 1940 0.036%, 2021 0.044%, 1939 0.046%, 2011 0.052%, 2015 0.052%",
+   "script": "2014 0.0325%, 1940 0.0358%, 2021 0.0442%, 1939 0.0458%, 2015 0.0525%, 2011 0.0525%",
+   "reproduced": true,
+   "note": "Same six years, same order (2011 and 2015 tie). 2014 is 0.0325% and 2011 and 2015 are 0.0525% each, exactly; the card rounds the first up (0.033%) and the other two down (0.052%)."
+  },
+  {
+   "id": "r9_180",
+   "claim": "Most months under 0.15% / 0.25% in any 180-month window",
+   "card": "90 (50%) / 108 (60%)",
+   "script": "90 (50%) / 108 (60%)",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r9_192",
+   "claim": "Most months under 0.15% in any 192-month window",
+   "card": "90 of 192 (47%)",
+   "script": "90 of 192 (47%)",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r9_starts",
+   "claim": "The worst windows (most months under 0.15%) start: 16-year windows",
+   "card": "Jan 2007-Dec 2008",
+   "script": "Jan 2006-Dec 2008 (36 starts)",
+   "reproduced": false,
+   "note": "The card's dates follow 'for 16 years', but they are the 15-year windows' (next line); every 16-year window from Jan 2006 to Dec 2008 holds all 90 modern months."
+  },
+  {
+   "id": "r9_starts_180",
+   "claim": "The worst windows (most months under 0.15%) start: 15-year windows",
+   "card": "Jan 2007-Dec 2008",
+   "script": "Jan 2007-Dec 2008 (24 starts)",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r10_82",
+   "claim": "The 82-month spell under 0.25%: a year, gross / after 0.15%",
+   "card": "0.078% / -0.072%",
+   "script": "0.078% / -0.072%",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r10_58",
+   "claim": "The 58-month spell under 0.15%: a year, gross / after 0.15%",
+   "card": "0.052% / -0.098%",
+   "script": "0.052% / -0.098%",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r11_192",
+   "claim": "Worst 16 years: dates, a year gross, after the fee",
+   "card": "Jan 1934-Dec 1949, 0.36%, +0.21%",
+   "script": "Jan 1934-Dec 1949, 0.36%, +0.21%",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r11_180",
+   "claim": "Worst 15 years: dates, after the fee",
+   "card": "Jan 1934-Dec 1948, +0.16%",
+   "script": "Jan 1934-Dec 1948, +0.16%",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r11_180_since48",
+   "claim": "Worst 15 years starting 1948 or later: dates, after the fee",
+   "card": "Nov 2007-Oct 2022, +0.48%",
+   "script": "Nov 2007-Oct 2022, +0.48%",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r12",
+   "claim": "Worst 12 months after the fee: dates, return",
+   "card": "Aug 2014-Jul 2015, -0.126%",
+   "script": "Aug 2014-Jul 2015, -0.126%",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r12_vs_test",
+   "claim": "The test's -0.15% sits below every 12-month span since 1934",
+   "card": "yes",
+   "script": "yes",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r13_n",
+   "claim": "Replay: start months, first-last",
+   "card": "919, Jan 1934-Jul 2010",
+   "script": "919, Jan 1934-Jul 2010",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r13_paid",
+   "claim": "Replay: all ten paid in every start month",
+   "card": "yes",
+   "script": "yes",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r13_least",
+   "claim": "Replay: least left after 2042, and its start",
+   "card": "$2,454 (start Jan 1934)",
+   "script": "$2,454 (start Jan 1934)",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r13_nov08",
+   "claim": "Replay: left after 2042, start Nov 2008",
+   "card": "$7,238",
+   "script": "$7,238",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r13_flat",
+   "claim": "Flat 0% / flat -0.15%: left after 2042 (NUMBERS 2)",
+   "card": "$1,414 / $0",
+   "script": "$1,414 / $0",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r14_-0.0007",
+   "claim": "Flat -0.07% held 2027-2042: left after 2042",
+   "card": "$751",
+   "script": "$750.50",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r14_-0.0008",
+   "claim": "Flat -0.08% held 2027-2042: left after 2042",
+   "card": "$656",
+   "script": "$656.22",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r14_-0.0011",
+   "claim": "Flat -0.11% held 2027-2042: left after 2042",
+   "card": "$374",
+   "script": "$374.18",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r14_+0.0016",
+   "claim": "Flat +0.16% held 2027-2042: left after 2042",
+   "card": "$2,957",
+   "script": "$2,956.57",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r14_+0.0048",
+   "claim": "Flat +0.48% held 2027-2042: left after 2042",
+   "card": "$6,149",
+   "script": "$6,148.55",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "note_1114",
+   "claim": "Months to Oct 2026 with Jul-Oct 2026 added",
+   "card": "1,114",
+   "script": "1,114",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "note_dgs3mo",
+   "claim": "Daily DGS3MO, Jul to 25 Sep 2026: lowest",
+   "card": "never below 3.82%",
+   "script": "3.82%",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "note_04",
+   "claim": "Shares change by at most 0.4 points with four more months above every line",
+   "card": "at most 0.4 points",
+   "script": "at most 0.86 points (since 1934: 0.06; since 2008: 0.07% 0.42, 0.15% 0.72, 0.25% 0.86)",
+   "reproduced": false,
+   "note": "Holds for the since-1934 shares (at most 0.06 points). Not for the since-2008 shares: with Jul-Oct 2026 the 0.15% share is 39.8% (90 of 226), not 40.5%, and the 0.25% share 47.8% (108 of 226), not 48.6%."
+  },
+  {
+   "id": "r27_zero",
+   "claim": "DGS1MO at exactly 0.00 since 2008: days, first, last, 2015, 2011",
+   "card": "100, 2008-12-10, 2021-06-03, 39, 34",
+   "script": "100, 2008-12-10, 2021-06-03, 39, 34",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r27_07",
+   "claim": "DGS1MO under 0.07% since 2008: days of all, share, longest run",
+   "card": "1,415 of 4,687, 30.2%, 398 (2014-03-20 to 2015-10-19)",
+   "script": "1,415 of 4,687, 30.2%, 398 (2014-03-20 to 2015-10-19)",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r28",
+   "claim": "DGS3MO since 2008: longest run under 0.15%; days at exactly 0.00 (years)",
+   "card": "1,180 (2011-03-01 to 2015-11-13); 21 (2008, 2011, 2013, 2015, 2020)",
+   "script": "1,180 (2011-03-01 to 2015-11-13); 21 (2008, 2011, 2013, 2015, 2020)",
+   "reproduced": true,
+   "note": ""
+  },
+  {
+   "id": "r31_q2d",
+   "claim": "Longest spell under 0.50% in the 1930s-40s (Q2d row 8, cited by row 31)",
+   "card": "122",
+   "script": "122 (May 1937-Jun 1947)",
+   "reproduced": true,
+   "note": ""
+  }
+ ],
+ "not_reproduced": [
+  "r9_starts",
+  "note_04"
+ ],
+ "replay": {
+  "windows": 919,
+  "all_paid": true,
+  "least_left": 2454.267151682332,
+  "least_start": "1934-01",
+  "left_nov2008": 7238.03798454022,
+  "left_p5_p50_p95": [
+   4855.333361112883,
+   43797.400122264546,
+   154690.07306321073
+  ],
+  "other_conventions_least_and_nov2008": {
+   "month": [
+    "$2,451",
+    "$7,222"
+   ],
+   "simple": [
+    "$2,454",
+    "$7,232"
+   ]
+  },
+  "flat_0pct": 1414.2699246458724,
+  "flat_minus_fee": 7.275957614183426e-12
+ },
+ "share_moves_with_jul_oct_2026": {
+  "0.07": {
+   "since_1934": 0.03,
+   "since_2008": 0.42
+  },
+  "0.15": {
+   "since_1934": 0.05,
+   "since_2008": 0.72
+  },
+  "0.25": {
+   "since_1934": 0.06,
+   "since_2008": 0.86
+  }
+ }
+}
