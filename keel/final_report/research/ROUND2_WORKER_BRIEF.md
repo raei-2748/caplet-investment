@@ -31,6 +31,8 @@ level for co-sponsors. No report prose is written before Fri 27 Nov: workers wri
 
 ## Rules that bind every row (Caplet's books; `keel/EXPECTATIONS.md` holds them all)
 
+- If a search tool says its credits or free tier are used up (Firecrawl, Parallel), switch to WebSearch and WebFetch and carry
+  on; list in Gaps anything you could not reach.
 - Real sources only, read at source (the page, paper, statute or dataset itself, not a summary of it), with URL and
   the date you read it. Quote short exact phrases when a row rests on wording. Anything you could not read at source is
   marked UNVERIFIED and says why. Never fill a gap from memory or "typical" practice.

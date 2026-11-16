@@ -154,16 +154,21 @@ certainty" and the IPS's "pay what they say" both depend on this. TNA note 1 alr
 
 Findings:
 1. **The ladder as written needs a completion standard.** Sized at today's forward rates, it falls short somewhere in more than
-   half of the historical windows. The shortfall is usually small (median $1,592), but 1 time in 20 it is $34,555,
-   about 7% of the $500,000, and its worst is $45,266.
+   half of the historical windows. Across all 585 windows the median shortfall is $1,592, because 260 windows were short by
+   nothing; 1 time in 20 it is $34,555, about 7% of the $500,000, and its worst is $45,266. **Corrected Mon 16 Nov (card Q64,
+   Keel arithmetic on this engine): never "usually small".** When short, the median shortfall is $16,055 (middle half
+   $7,296-$22,459; 226 windows over $10,000). The 55.6% is one rate cycle: 17.1% of windows starting 1962-1980 (39 of 228),
+   80.1% of those starting 1981-2010 (286 of 357); with about four independent periods its 95% interval is about 18%-88%,
+   so it is said as "more often than not for start dates since 1981, rarely before", never as a bare 55.6%. Taking out the
+   term premium does not rescue it: centred on the Fed's Kim-Wright premium of 6 Nov (0.87 points) it is 54.7% (Q64).
 2. **The bond desk's answer (B) halves the risk at the same cost, but contradicts the IPS.** In B, the long bonds'
    coupons pay 2033 and 2034, so the 2033 and 2034 funds are never bought in January. That breaks "In January 2027
    we'll use your first deposit to buy 10 Treasuries" and TNA note 2's IBTM for "her first $50,000 payment". It stays
    in the store as the alternative a bond reader would expect, not as the plan.
 3. **Keel's call (Tue 10 Nov 07:04, `../pm/ASK_HUMANS.md`; it replaces Mon 9 Nov's): "sufficient without
    reinvestment"**, the escrow verifier's arithmetic (paid even if no coupon earns anything), applied to holdings an
-   escrow would not accept (card Q17; design H_plain, card Q20). A municipal escrow verifier credits only direct
-   Treasuries and uninvested cash; here five rungs, $4,521 of the backstop (IBTQ and IBTR) and all waiting money are ETFs.
+   escrow would not accept (card Q17; design H_plain, card Q20). A municipal escrow verifier credits direct
+   Treasuries, agency debt where the escrow allows it, and uninvested cash, never fund shares (card Q54, Mon 16 Nov: Fitch excludes mutual funds and unit trusts, S&P requires a fixed principal due at maturity); here five rungs, $4,521 of the backstop (IBTQ and IBTR) and all waiting money are ETFs.
    - **Each payment has its own Treasury; a shared reserve of extra Treasuries pays any gap if interest earns nothing.** The ten stay exactly as written. They are bought in January 2027 at their plain size, sized at today's forward rates; the $2,287 still unbought is finished in January 2028. Each Treasury's own coupons are reinvested for its own payment, as the Trading Notes say ("reinvested coupons fund the rest").
    - **The backstop.** In January 2028 the deposit's first dollars also buy extra face in the same Treasuries. Its coupons and principal wait in the Treasury-bill ETF for the next payment due, and any money above a payment carries forward there. It is the cheapest such backstop (an exact linear programme) that pays all ten if nothing earns a cent and every waiting dollar, the own rungs' included, loses 0.15% a year:
 
@@ -388,7 +393,7 @@ More from the same runs:
 - **Framing options weighed (card Q19; same money, different words).** Keel's call is A; C and D are presentation choices the report may weigh.
   - **A, the rule above:** $95,000 to $115,000.
   - **C, narrow to what is owned after the move:** $115,000 to $120,000 central. In the house model C counts $10,000, $20,000 or $35,000 (1-in-20 low, median, high) more as pledged.
-  - **D, one figure:** "at least $115,000".
+  - **D, one figure:** "at least $115,000". (Card Q52, Mon 16 Nov: "at least" tells listeners the speaker does not know the exact figure; after the move she does, so D would be said as the plain figure, "$115,000".)
 - **Rounding is fragile at the centre.** Rounding down to $5,000 turns small gaps into $5,000 steps:
   - The unrounded bottom ($98,380) is $3,380 above $95,000 and $1,620 under $100,000; it would take a floor payout of $104,877 to state $100,000.
   - The unrounded top ($118,072) is $3,072 above $115,000 and $1,928 under $120,000.
@@ -570,7 +575,7 @@ deposit, yields lower by the fall before 1 Jan 2027 and then at that curve's for
 | The test table: less 0.75% 5.0% / 6.0% ($339 / $429), history 6.3% ($312), joint 22 / 34 ($281 / $312); less 1% 10.1% / 12.0% ($678 / $881), 13.1% ($626), 47 / 72 ($570 / $664); par stand-in 1.8% / 1.3% ($1,969 / $2,470), joint 18 / 25 | Section 3 | Section 3's table |
 | Fixed 4.1% too small above +0.31 points (37.4% of paths); fixed figures miss in 5.9% / 5.2% (median $517, 1-in-20 $1,903, worst $6,416); the 2031 re-measure variant above the holdings in 11% | Section 3 | Below -0.08 points only (fails in 53.4%); 9.6% / 8.5% ($580, $2,083, $6,993); 18% |
 | No-margin stated range $130,000 to $155,000 (bottom $130,449); Mon 9 Nov call unrounded $110,930 to $133,081; VT columns' tops $116,580 ... $119,851, "$149 short of $120,000" | Section 4 | $125,000 to $155,000 ($129,988); $110,538 to $132,664; $116,211 ... $119,478, "$522 short" |
-| Stated before the move: 6.3% at 3 months; 1-in-20 gaps $1,756 / $2,925 / $3,986 / $5,289 | Section 4 | 6.2%; $1,745 / $2,952 / $3,988 / $5,263 |
+| Stated before the move: 6.3% at 3 months; 1-in-20 gaps $1,756 / $2,925 / $3,986 / $5,289 | Section 4 | 6.2%; $1,745 / $2,952 / $3,988 / $5,263 (the current figures; the 6.3% two rows up is the earlier correction, superseded) |
 | All-Treasury stated $134,691; 95.0% | Section 4 (C8), 8n | $134,215; 94.8% |
 | 8i: rates 3 points lower, bottom $80,000 ($80,020), zero-interest floor $80,422, top $96,172; Jul 2007 $81,527 / $96,589; Jun 2006 $97,501 / $108,859; inflation $103,862 / $120,774, floor $104,384, shares -20% top $117,392; zero-interest margins $458 and $532 | 8i, 8l, card N-04 | **Rates 3 points lower, bottom $75,000** ($79,735; floor $80,136; top $95,869); $81,237 / $96,282; $97,157 / $108,501; $103,496 / $120,389, $104,016, $117,010; $472 and $541 |
 | 8j: 93.2% (13,618; $1,407 / $4,553), 96.9% (54; $1,795 / $4,860), stricter 89.1% / 96.0% / 97.3%; with the excess 99.77% (467, "1 in 430"; $1,280 / $6,083), 15.6%, 17.5%, 17.6%, 99.56%; overrun rows 79.7% / 54.9% ... 98.7% / 91.0%; real currency worst $7,312, with the excess 99.8% (Nov 1983 $1,755 short); "+0.09, close to none" | 8j, 8o, top note of Tue 10 Nov evening | 8j: 93.3% (13,430), 97.1% (51), 89.2% / 96.0% / 97.4%; 99.80% (392, "1 in 510"), 16.0%, 18.0%, 17.7%, 99.64%; overruns 79.9% / 55.2% ... 98.9% / 92.2%; worst $5,844; 100% with the excess; the correlation is two opposite periods (card Q10e) |
@@ -768,7 +773,7 @@ What it shows:
 - **It does not vanish.** Even from September 1929 it is about $5,800, and from every other bad start named above it is close to what was put in. The house model's lowest 1 in 100 ($6,670) is lower than history's, because there "most" has also squeezed VT.
 - **The cap adds a second cushion that does not move with shares.** The excess is Treasury money, so the half kept plus the excess has a median of about $23,600 even in the years shares fall, and is under $15,000 in about 3% of house paths.
 - **The 2031 range itself does not move,** because the floor and the moved half are Treasuries by then.
-- **The honest line:** the half kept is a cushion whose size moves with the markets. That is a cost of keeping flexibility in shares rather than in Treasuries (section 4, the all-Treasury benchmark). Narrowed Sat 14 Nov (card Q5e): it is smallest when two of its uses may grow, co-sponsors in a slump and building costs in an inflationary fall (1974, 2022), but not for a stronger Taiwan dollar. Corrected Sun 15 Nov (card Q10e): the Taiwan dollar's two-year move is not unlinked to shares. 8j's +0.09 averages two opposite periods: against US stocks, -0.39 for windows ending by Dec 2000 and +0.32 since 2001; against world shares, +0.42 since 2001. Since 2001 a stronger Taiwan dollar has come with rising shares, so the half kept has tended to be large in those years; the exception is a Taiwan-dollar rebound in the two years after a crash (Mar 2009 to Mar 2011). The uses take turns; never "a natural hedge", and never "smallest in the years it is most likely to be needed" for all three.
+- **The honest line:** the half kept is a cushion whose size moves with the markets. That is a cost of keeping flexibility in shares rather than in Treasuries (section 4, the all-Treasury benchmark). Narrowed Sat 14 Nov (card Q5e): it is smallest when two of its uses may grow, co-sponsors in a slump and building costs in an inflationary fall (1974, 2022), but not for a stronger Taiwan dollar. Corrected Sun 15 Nov (card Q10e): the Taiwan dollar's two-year move is not unlinked to shares. 8j's +0.09 averages two opposite periods: against US stocks, -0.39 for windows ending by Dec 2000 and +0.32 since 2001; against world shares, +0.42 since 2001. Since 2001 a stronger Taiwan dollar has come with rising shares in the same two years, not with a larger half kept (corrected Mon 16 Nov, 8q: the half kept is set by five years of shares, and against those the Taiwan dollar's two-year move runs -0.12 since 2001 and the joint cost-and-currency move -0.30 since 1988, US stocks); the exception is a Taiwan-dollar rebound in the two years after a crash (Mar 2009 to Mar 2011). The uses take turns; never "a natural hedge", and never "smallest in the years it is most likely to be needed" for all three.
 
 ### 8g. The holdings table Wharton asks for in Section 2, at cost on the original $300,000 (Mon 9 Nov, evening)
 Wharton's instructions (`WHARTON_NORTH_STAR.md` section 0): every holding of the final WInS portfolio, with ticker or
@@ -1064,7 +1069,7 @@ Added Tue 10 Nov evening. Design H_plain with the fee cushion, the range rule on
   - **The half kept alone covered the actual move in 98.1% of windows** (fails in 8: VT bought Oct 1983 to Mar 1984,
     and Feb and Mar 2006). Median gap when it fails $1,833; largest $5,844 (Nov 1983; $7,312 before Sun 15 Nov, when that window's contribution was a step higher).
   - **With the excess: 100%** (Sun 15 Nov evening; before, 99.8% with Nov 1983 $1,755 short). The closest window, Dec 1983, has $1,570 to spare.
-  - The move's correlation with US shares over the same two years is +0.09 over the whole span. **Corrected Sun 15 Nov (card Q10e): that is not "close to none".** It averages two opposite periods: -0.39 for 24-month windows ending by Dec 2000 (183 windows) and +0.32 for windows since 2001; against world shares (MSCI ACWI) since 2001, +0.42. Since 2001 a stronger Taiwan dollar has come with rising shares, so the half kept has tended to be large in those years. The squeeze that does happen comes later: a Taiwan-dollar rebound after a crash, while shares are still low (Mar 2009 to Mar 2011: costs and currency together +24.6%, currency +16.3%, world shares up only 18.6% over the five years to Mar 2011). Q10e's figures are its own arithmetic on primary data, not re-run here.
+  - The move's correlation with US shares over the same two years is +0.09 over the whole span. **Corrected Sun 15 Nov (card Q10e): that is not "close to none".** It averages two opposite periods: -0.39 for 24-month windows ending by Dec 2000 (183 windows) and +0.32 for windows since 2001; against world shares (MSCI ACWI) since 2001, +0.42. Since 2001 a stronger Taiwan dollar has come with rising shares in the same two years, not with a larger half kept (corrected Mon 16 Nov, 8q: the half kept is set by five years of shares, and against those the Taiwan dollar's two-year move runs -0.12 since 2001 and the joint cost-and-currency move -0.30 since 1988, US stocks). The squeeze that does happen comes later: a Taiwan-dollar rebound after a crash, while shares are still low (Mar 2009 to Mar 2011: costs and currency together +24.6%, currency +16.3%, world shares up only 18.6% over the five years to Mar 2011). Q10e's figures are its own arithmetic on primary data, not re-run here.
 - **The contribution in other money** (block `gift_terms`, on 8d's conventions; agrees with 8d to the dollar): the
   central $115,000, paid December 2032, is NT$3.77m at 32.768, NT$3.43m if the Taiwan dollar is 10% stronger, and
   NT$3.16m at 27.52. It is $99,747 in 1 Jan 2027 US dollars at 2.4% inflation, and NT$3.14m of today's building at 3%.
@@ -1547,12 +1552,207 @@ half; 70% and 30% only show the trade-off it chose. Nothing is re-sized and no e
   top $107,487, funds pay $111,045, $47,070 back); US stocks stand in for VT in history; stocks and yields are drawn apart
   in the house model (section 7).
 
+### 8q. Both Taiwan risks together: building costs and the Taiwan dollar against her flexibility (Mon 16 Nov, numbers owner, MODEL; card Q10e; `numbers/taiwan_joint.py`, `numbers/results_taiwan_joint_2026-11-16.json`)
+- **Script and rerun:** `python3 -I keel/final_report/numbers/taiwan_joint.py` from the repo root (about 12 seconds).
+  Imports engine, plan and completion and runs joint_stress.py's setup code the way range_margin.py does; changes no
+  other script, reads no results file and writes no other file.
+- **The question.** 8j tests one of the three uses IPS l.15 names, a 10% stronger Taiwan dollar. Card Q10e put two of
+  them on one series: the US-dollar cost of a fixed Taiwan building budget (DGBAS's construction cost index divided by
+  NT$ per US$, monthly since Jan 1991). Its two-year rise was **+28.0% at the 1-in-20 point** (405 windows) and **+38.9%
+  at worst** (Jul 2006 to Jul 2008: building costs +29.5%, the Taiwan dollar 7.2% stronger); over 18 months, +24.6% at
+  1 in 20. This section runs those rises against her flexibility exactly as 8j runs 10%.
+- **Definitions, as 8j.** The gift is the 2033 contribution after the cap. It equals the stated top in every path and
+  window (100% in all three worlds), so a test "on the stated top" and a test "on the contribution she names" are one
+  test. The stated bottom is shown beside it as the lower reading (a building budget set on the figure owned from
+  January 2028). "A 28% rise" means 28% more US dollars for the same NT$ building. Two pots: the half kept alone, and
+  the half kept plus the excess (her flexibility; $29,823 centrally). Need = the rise times the gift, in December 2032
+  money; "left" = the pot less the need, at face. The central column is Keel arithmetic on register figures ($115,000,
+  $95,000, $21,347, $8,476).
+- **Data and checks.** The building index is the series card Q10e read at the source on Sun 15 Nov (DGBAS,
+  ccispl.xls and cciidx.xls), copied into the script; it was not re-read today (curl to ws.dgbas.gov.tw is refused,
+  403). It agrees with the register's own read of 9 Nov (`numbers/inflation_inputs.json`, card Q10): September 2026 at
+  120.26, and its 1-, 5-, 10-, 26- and 35-year rates. The Taiwan dollar is 8j's mirror of FRED EXTAUS, verified for all
+  516 months (8l). The script reproduces card Q10e's 405 and 411 windows, +28.0%, +24.6% and +38.9%, and 8j's 10% test
+  in all three worlds (93.3% and 99.80%; 97.1% and 100%; 99.3% and 100%). All are asserted.
+
+**Fixed rises on the contribution (= the stated top).** Each cell gives the share of paths her flexibility covers, with
+the half kept alone in brackets.
+
+| Rise in the US-dollar cost of the building | Central (Keel arithmetic) | House model (200,000 paths, seed 2033) | US stock history (1,770 windows since 1871; rates at today's forwards) | Joint replay (585 windows, 1962-2010 starts) |
+|---|---|---|---|---|
+| +24.6% (18-month 1-in-20: meetings in mid-2031) | need $28,276; **$1,547 left** (half kept alone $6,929 short) | 51.4% (19.2%) | 63.1% (25.3%) | 65.1% (28.9%) |
+| **+28.0% (24-month 1-in-20)** | need **$32,191**; **$2,368 short** (half kept alone $10,844 short) | **32.9%** (10.9%) | **43.2%** (13.4%) | **49.9%** (13.9%) |
+| At +28.0%: flexibility less the need, 1-in-20 low / median / 1-in-20 high | -$2,368 | -$13,107 / -$3,668 / +$14,006 | -$11,245 / -$1,306 / +$14,393 | -$12,508 / -$34 / +$16,035 |
+| At +28.0%: gap where it fails, median / largest | | $6,644 / $22,714 | $5,768 / $21,709 | $6,079 / $16,739 |
+| **+38.9% (worst, Jul 2006 to Jul 2008)** | need **$44,756**; **$14,933 short** (half kept alone $23,409 short) | **5.3%** (1.5%) | **6.0%** (1.3%) | **7.5%** (0.9%) |
+| At +38.9%: gap where it fails, median / largest | | $16,679 / $38,556 | $14,532 / $35,912 | $13,273 / $35,313 |
+| The rise her flexibility covers 19 times in 20 (half kept alone) | 25.9% (18.6%), centrally | 16.0% (9.4%), as 8j | 18.0% (11.8%) | 17.7% (11.6%) |
+
+**The same rises on the stated bottom** ($95,000 centrally):
+
+| Rise | Central (Keel arithmetic) | House model | US stock history | Joint replay |
+|---|---|---|---|---|
+| +24.6% | need $23,358; $6,465 left (half kept alone $2,011 short) | 73.9% (37.1%) | 85.1% (50.5%) | 83.1% (53.5%) |
+| +28.0% | need $26,593; **$3,230 left** (half kept alone $5,246 short) | 58.1% (26.0%) | 70.2% (36.2%) | 70.1% (42.9%) |
+| +38.9% | need $36,972; $7,149 short (half kept alone $15,625 short) | 20.0% (7.3%) | 28.4% (8.9%) | 31.6% (9.7%) |
+
+**On Taiwan's own two-year moves, on the same months as the shares** (as 8j's real-currency test: the history model's
+pots and contribution, rates at today's forwards; the move measured from the meetings, 36 months after VT is bought,
+to the gift, 60 months; 366 windows, VT bought Jan 1988 to Jun 2018, so meetings Jan 1991 to Jun 2021):
+- The actual joint move: 1-in-20 low -12.8%, median +3.2%, 1-in-20 high +28.1%, largest +38.9% (VT bought Jul 2003);
+  above 28% in 5.5% of windows. The contribution: $105,000 / $120,000 / $130,000.
+- **Her flexibility covered the actual move in 91.5% of windows** (fails in 31; median gap $5,408; largest $14,629, VT
+  bought Aug 2003). **The half kept alone: 82.5%** (fails in 64; largest gap $24,188, Jul 2003). On the stated bottom:
+  95.1% and 88.8%.
+- **Where it fails (with the excess), four episodes:** VT bought Jan 1988 (meetings 1991, the 1992 gravel crisis);
+  most months from Feb 1999 to Aug 2000 (meetings 2002-03: the 2002-04 cost burst came after the 2000-02 share fall, so the half kept
+  bought near the peak was small); every month Mar to Oct 2003 (meetings 2006, the 2006-08 burst); Mar and May to Aug 2006
+  (meetings 2009, the Taiwan dollar's rebound after the crash).
+- **By era:** meetings by Dec 2000, covered in 99.2% (1 fail in 120); meetings from Jan 2001, 87.8% (30 in 246).
+  January purchases only (Laura's calendar): 29 of 31 (fails 1988 and 2000).
+- **The worst window itself** (VT bought Jul 2003; meetings Jul 2006, gift Jul 2008): contribution $115,000, need
+  $44,756, half kept $20,568 plus excess $10,000 = $30,569, **$14,187 short**. Other named windows: 1991-93 (VT Jan
+  1988) $191 short of a $37,254 need; 2002-04 (VT Jan 1999) $3,280 left; 2009-11 (VT Mar 2006) $785 short; 2019-21 (VT
+  Aug 2016) $4,892 left.
+- **Drawn apart** (every house path's pot against every 24-month move since 1991): her flexibility covers 90.7% (half
+  kept alone 82.6%); history pots 92.5% (85.2%); joint replay pots 93.1% (85.6%).
+
+What it shows:
+- **The 1-in-20 joint rise is about her whole flexibility.** At the centre, 28% on $115,000 needs $32,191, $2,368 more
+  than $29,823 (card Q10e's own figures, now on the register's paths). Across the house model her flexibility covers it
+  in about 1 path in 3; history and the joint replay, about 2 in 5 and 1 in 2. The half kept alone covers it in about 1
+  path in 9 (house) to 1 in 7 (history and the joint replay).
+- **That is a 1-in-20 rise put on every path, so it is harsher than any one history.** On Taiwan's own moves since
+  1991, matched to the same months' shares, her flexibility covered the move in about 9 windows in 10 (91.5%), and in
+  about 9 in 10 when house pots meet history's moves drawn apart (90.7%).
+- **The worst two years needed about one and a half times her central flexibility** ($44,756 against $29,823). Replayed
+  on its own months the plan would have been $14,187 short. It is covered in about 1 house path in 19.
+- **On the stated bottom** the 1-in-20 rise is covered centrally with $3,230 to spare, and in 58.1% of house paths.
+- **18 months instead of 24** (meetings, and so the NT$ budget, in mid-2031): the 1-in-20 rise is +24.6% and her
+  central flexibility covers it with $1,547 left; house 51.4%.
+- **The link with shares runs the other way over five years.** On this history model (US stocks), the joint move rose
+  with shares over the same two years since 2001 (+0.28; the Taiwan dollar part +0.40, close to card Q10e's +0.32 on US
+  stocks and +0.42 on world shares). But the half kept is VT over five years, and against the five-year share return the
+  joint move runs -0.30 since 1988 and -0.15 for meetings since 2001 (the Taiwan dollar part alone -0.28 and -0.12).
+  That is why coverage since 2001 (87.8%) is lower than before (99.2%). Card Q10e's rough replay (3.6% short, world
+  shares, windows ending from Dec 2005) started after the 2002-04 burst.
+- **For the lead (register wording, record only):** 8f's last bullet and 8j's correction (both Sun 15 Nov, from card
+  Q10e) say that since 2001 a stronger Taiwan dollar "has come with rising shares, so the half kept has tended to be
+  large in those years". The first half holds over the same two years. The second does not on this register's history
+  model: the half kept is set by five years of shares, and its link with the Taiwan dollar's move since 2001 is -0.12
+  (US stocks). A safer note: "a stronger Taiwan dollar has come with rising shares in the same two years, not with a
+  larger half kept".
+- **Nothing in the plan changes.** 8j's 10% stays as the currency test (Table 3 row 7). The 28% is two of IPS l.15's
+  three uses together; the third, a co-sponsor falling short, is not in it. The case asks for no contingency sizing
+  (CANON A31): these figures show how fast two uses can draw on her flexibility, never a facility cost estimate. Never
+  "a 10% joint stress".
+- **Limits:** the national index is not her building (card Q10c claim 3); monthly averages; about 16 to 17 independent
+  two-year spans since 1991, so each history share describes the past, not odds for 2031; US stocks stand in for VT;
+  rates at today's forwards in the history model; the build after the dollars are converted is not counted (card Q10e
+  row 32: +31.8% at 1 in 20 with a 12-month build); the half kept is a market value on 1 Jan 2033.
+
+### 8r. The move date inside 2031: 1 January, 1 April or 1 July (Mon 16 Nov, numbers owner, MODEL; `numbers/move_date.py`, `numbers/results_move_date_2026-11-16.json`)
+- **Script and rerun:** `python3 -I keel/final_report/numbers/move_date.py` from the repo root (about 8 seconds). Imports
+  engine, plan and completion; changes no other script, reads no results file and writes no other file.
+- **The question.** IPS l.15: "Before you meet co-sponsors in 2031, the other half will move into Treasuries." The
+  register moves it on **1 Jan 2031** (section 4: the trade on Thu 2 Jan 2031), and that stays the base. This runs the
+  same plan with the move on 1 Apr and 1 Jul 2031.
+- **What the date changes, and nothing else.**
+  - VT grows 3, 3.25 or 3.5 years before half of it moves.
+  - The moved half buys the late-2032 fund at that day's yield: 4.83%, 4.85% or 4.87% forward on the 6 Nov curve, plus
+    the path's yield move.
+  - The top is the range rule on that day: completion.zero_per_dollar on the move day, less 0.5%, rounded down once.
+  - **The bottom (fixed January 2028) and the half kept (VT on 1 Jan 2033 on the same path) do not change.** Both are
+    asserted identical path by path.
+- **Paths, the same for all three dates.**
+  - House: plan.draws exactly (200,000, seed 2033). VT's path inside 2031 is a Brownian bridge on each path's own
+    Jan 2031 to Jan 2033 draw (its quarterly spread checks at 8.95% against 8.94%), and yields move on by 0.45 points a
+    quarter. The extra draws use seed 2031.
+  - History: Shiller windows since 1871, the move 36, 39 or 42 months after VT is bought; rates at today's forwards.
+  - Joint replay: rates and US stocks from the same months, the move at window month 48, 51 or 54. Funds pay as modelled
+    at the purchase yields (range_rule.py section 5), so its flexibility differs a little from 8i's realised figures.
+- **Check:** with the move on 1 January every array equals plan.run and completion.rule (asserted): $98,380 and
+  $118,072, the excess $8,476, the half kept $21,347; the house top $95,000 / $115,000 / $140,000 and 59.8% at least
+  $115,000; history $110,000 / $115,000 / $130,000; the joint replay's top and bottom as section 4.
+
+**Central path** (today's forwards, VT 7.5% a year):
+
+| | 1 Jan 2031 (register) | 1 Apr 2031 | 1 Jul 2031 |
+|---|---|---|---|
+| VT on the move day / the moved half | $36,989 / $18,495 | $37,659 / $18,829 | $38,340 / $19,170 |
+| What the moved half pays in December 2032; the rule's cut on it | $20,298; 2.98% | $20,431; 2.84% | $20,562; 2.84% |
+| Top before rounding / **stated top** | $118,072 / **$115,000** | $118,231 / **$115,000** | $118,358 / **$115,000** |
+| Stated bottom | $95,000 ($98,380) | the same | the same |
+| What the funds pay; excess | $123,476; $8,476 | $123,609; $8,609 | $123,740; $8,740 |
+| Half kept; her flexibility (half kept plus excess) | $21,347; $29,823 | $21,347; $29,956 | $21,347; $30,088 |
+
+The cut is smaller after January because the IBTM holdings' 4 January coupon (in the engine) is already paid, so one
+fewer distribution waits; April and July hold the same flows.
+
+**House model:**
+
+| | 1 Jan 2031 | 1 Apr 2031 | 1 Jul 2031 |
+|---|---|---|---|
+| Stated top: 1-in-20 low / median / 1-in-20 high | $95,000 / $115,000 / $140,000 | $95,000 / $115,000 / $140,000 | $95,000 / $115,000 / $145,000 |
+| Top before rounding: mean | $119,355 | $119,594 | $119,812 |
+| Stated top at least $100,000 / $110,000 / $115,000 / $120,000 / $130,000 / $140,000 / $150,000 | 92.2 / 72.7 / 59.8 / 46.0 / 22.1 / 8.1 / 2.4% | 92.2 / 73.1 / 60.3 / 46.6 / 22.7 / 8.5 / 2.6% | 92.3 / 73.3 / 60.6 / 47.1 / 23.2 / 9.0 / 2.8% |
+| Each step: $100,000 / $105,000 / $110,000 / $115,000 / $120,000 / $125,000 / $130,000 | 8.3 / 11.2 / 12.9 / 13.8 / 13.0 / 11.0 / 8.2% | 8.2 / 10.9 / 12.8 / 13.6 / 12.9 / 11.0 / 8.3% | 8.1 / 10.9 / 12.7 / 13.5 / 12.9 / 11.0 / 8.3% |
+| Stated bottom | $85,000 / $95,000 / $115,000 | the same, path by path | the same, path by path |
+| Half kept: 1-in-20 low / median | $9,881 / $20,739 | the same, path by path | the same, path by path |
+| Her flexibility: 1-in-20 low / median | $16,508 / $28,918 | $16,498 / $28,879 | $16,517 / $28,885 |
+| Against 1 January, path by path: stated top lower / same / higher | | 12.1% / 71.4% / 16.5% | 15.9% / 61.0% / 23.1% |
+| VT lower on the later date than on 1 January | | 42.0% of paths | 38.6% |
+| **A fall between the two dates lowers the stated top** | | **12.0% of paths** (28.5% of those where VT fell) | **15.5%** (40.2%) |
+| VT down more than 10% between the dates: share of paths / stated top lower in | | 8.4% / 56.6% | 13.1% / 65.8% |
+| Her flexibility's change against 1 January: 1-in-20 / median / 1-in-20 | | -$3,467 / -$21 / +$3,407 | -$3,439 / -$21 / +$3,421 |
+
+**History and the joint replay**, against 1 January, path by path:
+
+| | US stock history (1,770 windows; rates at today's forwards) | Joint replay (585 windows) |
+|---|---|---|
+| Stated top, 1 Jan / 1 Apr / 1 Jul: 1-in-20 low / median / 1-in-20 high | $110,000 / $115,000 / $130,000 on all three dates | $95,000 / $115,000 / $140,000 (Jan, Apr); $95,000 / $120,000 / $140,000 (Jul) |
+| Stated top at least $115,000: Jan / Apr / Jul | 80.5% / 80.6% / 80.6% | 63.6% / 65.1% / 66.7% |
+| Top before rounding, mean: Jan / Apr / Jul | $119,808 / $120,140 / $120,447 | $120,498 / $120,812 / $121,094 |
+| 1 April: stated top lower / higher; a fall between the dates lowers it | 8.9% / 16.6%; 8.7% | 8.0% / 15.2%; 7.7% |
+| 1 July: stated top lower / higher; a fall between the dates lowers it | 13.2% / 25.5%; 12.9% | 10.8% / 27.0%; 10.4% |
+| Half kept: 1-in-20 low / median (all three dates) | $13,238 / $23,481 | $13,874 / $23,601 |
+
+- **A named case:** VT bought Jan 2017, so the move falls in 2020. Moved in January the stated top is $120,000; moved in
+  April, after the COVID fall (US stocks' April average 15.3% below January's), $115,000; moved in July, $120,000 again.
+
+What it shows:
+- **The date moves only the top, and only by luck.** The bottom and the half kept are the same on every path. The
+  central stated top is $115,000 on all three dates (the unrounded top gains $159 by April and $286 by July: VT's
+  expected return above the Treasury yield, on half of VT, for 3 or 6 months). The house median is $115,000 on all three.
+- **What a later date adds is risk to the one figure co-sponsors hear.** Against 1 January the stated top moves a step
+  in 28.6% of house paths by April and 39.0% by July, down in 12.1% and 15.9%. A fall between the dates lowers it in
+  12.0% and 15.5% of paths (history 8.7% and 12.9%; joint replay 7.7% and 10.4%). Where VT falls more than 10% between
+  the dates, the top steps down in more than half of the paths.
+- **Her flexibility barely moves.** When the top steps down $5,000, what the funds pay falls by much less, so the
+  excess the cap sends to her rises; when it steps up, the excess falls. Path by path her flexibility's median change is
+  -$21, and its 1-in-20 low moves by about $10.
+
+**Finding for the lead (not a decision): the evidence favours 1 January, the register's date.**
+1. **The case and the IPS.** The case puts every flow "at the beginning of the applicable year" and has Laura "begin
+   approaching potential co-sponsors in 2031, two years before the residency is established". So the first meeting can
+   come at the start of 2031. IPS l.15 moves the half "Before you meet co-sponsors in 2031, ... so whatever figure you
+   choose is money you already own". Only a move at the start of January is before every possible first meeting.
+2. **A later date gains almost nothing.** It does not change the central stated top, the house median, the bottom or
+   the half kept. The mean unrounded top rises by $239 (April) or $457 (July).
+3. **A later date adds a 3- or 6-month bet on shares to the top.** About 1 house path in 8 (April) or 1 in 6 (July)
+   states a lower top than 1 January would have.
+4. **If a meeting came before a later move,** the top would be stated before it is owned. Section 4 already prices that:
+   a top stated 3 or 6 months before the move is not yet owned in 6.2% or 8.7% of house paths.
+- **Limits:** the bridge fills VT's path inside 2031 on the house model's own assumptions (normal log returns, 17.88% a
+  year); yields move apart from shares; history uses monthly averages; the first trading day of each month stands for
+  the 1st.
+
 ## 9. Still to add (later days)
 - **Sun 15 Nov evening (numbers owner), open after the fee fix:**
   - The haircut's size is the lead's call; the code keeps 0.5% (`completion.HAIRCUT`). The w1 frictions add to about 0.27%, so the 0.5% now leaves about 0.23% of each end beyond them (section 0).
-  - 8q, "both Taiwan risks together" (card Q10e: the US-dollar cost of a fixed Taiwan building budget rose +28.0% at the 1-in-20 two-year point since 1991 and +38.9% at worst, Jul 2006 to Jul 2008), is not yet run against the half kept and the excess in the house model and history the way 8j tests 10%. Q10e's own arithmetic on register figures (a $32,191 need at 28% on $115,000, $2,368 beyond the central $29,823) stands as the card's, not the register's.
+  - **Done Mon 16 Nov (8q):** both Taiwan risks together, run against the half kept and the excess in all three worlds; Q10e's $32,191 need and $2,368 short are now the register's central figures. The move date inside 2031 is run in 8r (1 January stays).
   - `plan.py`'s 365.25-day carry (8k) is still unfixed; tonight's re-run kept it so that every file moves only by the fee.
-- **The exhibits are not yet re-built on these figures.** `exhibits/exhibit_data.py` reads 8h (per payment: own holding above $50,000 and backstop cover, now in four worlds), section 4 and 8i (Exhibit 3). Re-run it, then `exhibits/build_exhibits.py`; this register run did not touch them. `exhibit_data.py` should read the backstop's value on 1 Jan 2033 ($45,456), not its cost carried ($45,487).
+- **Done Mon 16 Nov:** the exhibits are re-built on these figures, and `exhibit_data.py` reads the backstop's value on 1 Jan 2033 ($45,456) from 8h (`exhibits/REBUILD_2026-11-16.md`; 395 checks, 0 FAIL).
 - **Cards Q19, Q20 and Q24 refresh to these figures** (section 10). Q24's Taiwan dollar test (verdict 3, rows 22-25, card 4) is replaced by 8j.
 - **8j and 8k were added Tue 10 Nov evening.** Still open from them:
   - SKELETON 3b's Taiwan dollar sentence was written "to be re-run before use"; it is now re-run (section 10 gives the replacement).

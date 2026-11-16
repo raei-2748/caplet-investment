@@ -3339,3 +3339,631 @@ Q14b-026,2,5,3,4,keep,,"Mon 16 Nov: Last year's Top-50 repository; research only
 Q14b-027,3,3,5,4,keep,,Mon 16 Nov: Statisticians' table layout rules.
 Q14b-028,4,3,5,4,keep,,Mon 16 Nov: Say a number as a person says it; text adds what the table cannot.
 Q14b-029,4,5,5,4,keep,,"Mon 16 Nov: Open each paragraph with the claim, no number: a check for 27 Nov."
+Q48-001,2,5,5,4,keep,,"Mon 16 Nov: 3d store; lead evidence that Taiwan's main private old-building grant asked no money proof at application (programme closed June 2022), so a custodian statement is more than asked."
+Q48-002,2,5,5,3,keep,,"Mon 16 Nov: store; Taipei judges track record and a reasonable budget, not a balance; written for running venues, so a new residency fits it poorly."
+Q48-003,1,5,5,3,keep,,"Mon 16 Nov: store only; city-owned buildings lent free, so the founder's share is never tested; serves no part."
+Q48-004,2,5,5,4,keep,,"Mon 16 Nov: 3d store; the split budget table is the Taiwanese form of 'here is my share', declared not proved; small grants."
+Q48-005,2,4,5,4,merged,Q48-006,"Mon 16 Nov: same idea as row 6 (own funding planned and scored, not proved); for city and county venues, not private founders."
+Q48-006,2,5,5,4,keep,,"Mon 16 Nov: 3d store; self-funding is scored as a ratio written in the budget, not proved; private bodies capped at NT$2m a year."
+Q48-007,2,4,4,3,keep,,"Mon 16 Nov: store; NCAF weighs finances in the round with no ratio or proof; read in part, so S 4."
+Q48-008,1,4,4,3,keep,,"Mon 16 Nov: store only; the bankbook copy's purpose is not stated, so never cite it as proof of funds."
+Q48-009,2,5,4,3,keep,,"Mon 16 Nov: store; the one grant text asking proof of own funds leaves its form open; 2016 text, current clause unchecked."
+Q48-010,2,3,5,3,keep,,Mon 16 Nov: store; explains why the rules differ (DGBAS leaves documents to each rule and checks after the money); frame text.
+Q48-011,3,5,5,4,keep,,"Mon 16 Nov: 3b or 3d conceit turn: the state's grant is a provisional sum settled on receipts while Laura's bottom is owned; the team's sentence only, never in Laura's words to co-sponsors."
+Q48-012,2,5,5,4,merged,Q11d-002,"Mon 16 Nov: same idea as Q11d-002 (multi-year grants approved year by year and cut to the budget); adds only the 'earmark' wording, usable beside row 11's turn."
+Q48-013,2,5,5,4,merged,Q11d-002,Mon 16 Nov: twin of Q11d-002 and Q11e-016 (the state's grant can be cut by a budget vote); the Taichung rule adds nothing new.
+Q48-014,2,5,4,3,keep,,"Mon 16 Nov: 3d store; the matching share is named in the contract papers, the Taiwanese stage where her figure would appear; 2023 text via a county repost."
+Q48-015,1,5,5,3,keep,,"Mon 16 Nov: store only; checks before money are on the building and the contract, not the owner's bank."
+Q48-016,3,5,5,4,keep,,"Mon 16 Nov: 3d; head row for claim 2: Taiwan proves an owner's share by receipts and a cost-split table at each instalment, never by a balance before."
+Q48-017,2,5,4,3,merged,Q48-016,Mon 16 Nov: same idea as row 16 (own-funded work tracked and paid on actual spending at the agreed split); 2016 text.
+Q48-018,2,5,5,3,merged,Q48-016,Mon 16 Nov: same idea as row 16 in the regional-revival grant (the share shown as a ratio of money spent).
+Q48-019,1,4,5,3,merged,Q48-016,"Mon 16 Nov: same idea as row 16 (own share reported, not pre-proved); creative businesses, not residencies."
+Q48-020,3,5,4,4,keep,,"Mon 16 Nov: 3b beside card Q11e's founder-first order: in several rules the owner spends before the state pays; always 'several rules', since row 23 shows Taipei pays ahead; 2018 rule."
+Q48-021,2,5,4,4,merged,Q48-020,"Mon 16 Nov: same idea as row 20 (small grants reimburse after the owner spends); the MoC's national version, amendment date not shown."
+Q48-022,2,3,5,3,keep,,"Mon 16 Nov: store; the central-local rule bars spending a grant ahead of the matching share, but it binds governments, not private founders."
+Q48-023,2,5,5,4,keep,,"Mon 16 Nov: store; the qualifier row 20 needs: Taipei pays 70% within ten days, so 'the founder pays first' on timing is not universal."
+Q48-024,3,5,5,4,keep,,"Mon 16 Nov: 3d; a public co-funder proves committed money by a budget vote that a later vote can cut, Laura by ownership; a fair comparison, not a boast (Q30-033 has the vote, not the proof form)."
+Q48-025,3,5,5,3,adapt,,"Mon 16 Nov: 3d; Taipei's grant falls pro rata if the matching money spent falls short (Q11c-024 is the NEA's version); reword the use: never 'one-for-one grant', since SKELETON 3d says a Taiwanese funder never matches her money; public art, not buildings."
+Q48-026,2,5,5,3,merged,Q48-025,"Mon 16 Nov: same idea as row 25 (grant recalculated at the original ratio when spending falls), at the MoC, Taichung and Hsinchu."
+Q48-027,2,5,4,3,keep,,"Mon 16 Nov: store; adds that the owner's own spending is checked at unit prices, so in-kind shares may count; 2018 rule."
+Q48-028,1,3,5,3,merged,Q9c-006,Mon 16 Nov: same idea as Q9c-006 (unspent grant money returned in proportion).
+Q48-029,2,4,5,3,keep,,"Mon 16 Nov: store; clawback is for breach (false papers, misuse), not a shortfall, which only shrinks the grant; claim 4."
+Q48-030,1,4,5,3,merged,Q48-029,Mon 16 Nov: the bans are the consequence chain of row 29's clawback; Q10d-003 has the village grant's two-year bar.
+Q48-031,2,5,5,4,merged,Q22-012,"Mon 16 Nov: same idea as Q22-012 (every funder disclosed; concealment revokes the grant), here in four more rules."
+Q48-032,2,5,4,3,adapt,,"Mon 16 Nov: 3b store; city grants of NT$0.5m-1.5m against her range; NT$3.11m is Keel arithmetic not in NUMBERS (only NT$3.77m is, 8j): label it at the 6 Nov rate or add it to NUMBERS; caps change yearly."
+Q48-033,1,5,3,3,keep,,Mon 16 Nov: store only; a warning to quote a Taiwanese ratio only from a clear text; the slip's meaning is Keel's reading.
+Q48-034,2,5,5,3,keep,,Mon 16 Nov: 3a or 3d store; a 20% own-funds floor for running costs is common; never say her ten payments qualify the residency for any grant (SKELETON 3d).
+Q48-035,2,5,5,4,merged,Q11e-016,"Mon 16 Nov: same idea as Q11e-016 (priority to owners with higher matching money), at three cities with a 70% line."
+Q48-036,1,4,5,3,keep,,"Mon 16 Nov: store only; designated-heritage owners' share fell from 10% to 5%: the state's share is policy; heritage, not Laura's case."
+Q48-037,2,4,5,4,keep,,"Mon 16 Nov: 3d store; general arts money will not pay for walls, which supports the ask's two parts (capital, and yearly programme money)."
+Q48-038,1,3,5,3,keep,,Mon 16 Nov: store only; founding a foundation proves endowed property once; Taiwan legal form is out of scope.
+Q48-039,2,5,4,4,adapt,,"Mon 16 Nov: 3e store; the one proof form found is a Taiwan-dollar time deposit; say her Treasuries pay out and are converted, never 'sold' (IPS l.13, held to the end); sample charter, not law."
+Q48-040,1,5,5,3,keep,,"Mon 16 Nov: store only; dedicated accounts and 100% cash are foundation-capital rules, not grant rules; Taiwan legal is out of scope."
+Q48-041,2,5,4,4,keep,,"Mon 16 Nov: store; Taiwan's Foundations Act lets foundation capital buy government bonds, the same instinct as the ladder; never claim US Treasuries qualify (UNVERIFIED)."
+Q48-042,1,5,5,3,keep,,"Mon 16 Nov: store only; concession tenders examine a balance sheet up front, a different deal from a co-sponsored residency."
+Q48-043,1,5,5,3,keep,,"Mon 16 Nov: store only; Taiwanese contracts take Taiwanese government bonds as security; foreign bonds not stated, so no parallel claim."
+Q48-044,3,4,2,3,keep,,"Mon 16 Nov: 3d guard; UNVERIFIED Keel reading: say what her owned figure is for (a co-sponsor sizing its grant), never that it satisfies Taiwanese rules."
+Q48-045,3,5,2,3,adapt,,"Mon 16 Nov: 3d aha candidate but an UNVERIFIED Keel reading; drop 'one-for-one' and 'no risk' (SKELETON 3d: no match claim; budget cuts, row 13; the exchange rate; eligible costs); NT$3.11m is Keel arithmetic not in NUMBERS."
+Q53-001,3,3,5,4,keep,,Mon 16 Nov: Table 3 row 1 and 3e; 22 trading days from 1 Dec 2027 is about twice ILPA's 10-business-day floor for a capital call: a month is generous by practice.
+Q53-002,2,4,5,3,keep,,"Mon 16 Nov: Table 3 row 1 store; ILPA pairs a hard notice with soft quarterly projections, the two speeds of Q15's draft row (a quarterly 2027 look, then the December confirmation)."
+Q53-003,3,4,5,3,adapt,,"Mon 16 Nov: 3e; the 100%-of-unfunded point is good, but fix the critique: the order runs for any amount while the payments' standard holds only down to a 74.5% cut (NUMBERS 5), never 'absorbs any size'."
+Q53-004,2,4,5,3,keep,,"Mon 16 Nov: Table 3 row 1 store; a confirmation can be 'at least $X'; $76,565 matches NUMBERS 5(c); never state a confirmed amount to co-sponsors before it is owned."
+Q53-005,2,3,5,3,adapt,,"Mon 16 Nov: Table 3 row 1 store; 88 days and 62 trading days check (Keel arithmetic); say 'no payment falls due before January 2033', never 'no payment rests on the money', since the payments' standard rests on the extra Treasuries."
+Q53-006,2,3,5,3,adapt,,"Mon 16 Nov: 3e store; 'Laura's only cost is a plan with no floor, VT or range' is false: a missed deposit also leaves the ten $57,455 short at 0% and $2,287 of the ladder unbought (NUMBERS 5)."
+Q53-007,2,4,5,3,keep,,"Mon 16 Nov: 3a store; no partners cover a gap, the plan's order does; $38,282, $2,388, $35,894 and $2,287 match NUMBERS."
+Q53-008,2,3,5,4,keep,,"Mon 16 Nov: 3e area (2); for an individual the default rate is higher and unpublished, so the deposit stays an assumption (Q37-016), never a base rate."
+Q53-009,1,4,4,4,keep,,Mon 16 Nov: store only; stakes sold at 40-70% discounts rather than default (Fitch citing Cogent); the report never asks Laura to sell.
+Q53-010,1,4,5,4,merged,Q53-008,Mon 16 Nov: same idea as row 8 (open capital-call defaults are rare); a lender-side source.
+Q53-011,3,4,4,4,keep,,"Mon 16 Nov: 3e area (2); the likely bad case is a smaller deposit, which runs the same order, and 'most' holds to a 49.0% cut (NUMBERS 5); a 2009 forecast for institutions."
+Q53-012,1,3,3,3,keep,,Mon 16 Nov: store only; practice notice periods conflict (about 10 to 30 days); ILPA's written standard is row 1.
+Q53-013,2,5,4,3,keep,,"Mon 16 Nov: 3e store; no systematic data on investor defaults exist, so the deposit is stated as an assumption, not a probability; a theory paper."
+Q53-014,2,3,5,4,merged,Q53-016,Mon 16 Nov: same idea as row 16 (a month-before reminder and a three-months-late escalation).
+Q53-015,2,3,4,3,merged,Q53-016,Mon 16 Nov: same idea as row 16 (a 30-60-90 day ladder with 90 days as the decision point); the 2014 policy's issuer is unconfirmed.
+Q53-016,3,5,5,4,keep,,Mon 16 Nov: Table 3 row 1; a gift office reviews pledges on 1 December and considers write-off at 90 days overdue: practice lands on the table's own two marks.
+Q53-017,3,4,5,4,keep,,"Mon 16 Nov: Table 3 row 1 and 3e; silence keeps the file open, so no word by 1 December is a question, never a reason (IPS l.17, CANON A34)."
+Q53-018,2,3,5,3,keep,,Mon 16 Nov: store; write-off clocks run a year or more because universities have many donors; Laura's line is a quarter because what the 2028 money buys waits on it.
+Q53-019,1,3,5,3,merged,Q53-016,Mon 16 Nov: same idea as row 16 (three months late as the escalation point).
+Q53-020,3,4,3,4,keep,,"Mon 16 Nov: 3d; audited allowances show written gifts lose about 2-15%, a contrast with her owned bottom (a pledge is owed, her floor owned); the percentages are Keel arithmetic."
+Q53-021,2,3,5,3,merged,Q53-020,"Mon 16 Nov: same idea as row 20 (pledge allowances of a few percent), from a 2011 self-reported survey."
+Q53-022,2,4,3,3,keep,,"Mon 16 Nov: store; pledge losses come in lumps, so one promise cannot be averaged; one institution, Keel arithmetic."
+Q53-023,2,5,5,3,keep,,"Mon 16 Nov: Table 3 row 1 store; pension law presumes the worst when a certificate is missing; a contrast only, never copied as a trigger (CANON A34)."
+Q53-024,2,5,5,3,merged,Q53-002,"Mon 16 Nov: same structural idea as row 2 (a soft early checkpoint and a hard late one), in pension law."
+Q53-025,1,4,5,3,keep,,"Mon 16 Nov: store; checked at the card's source 16 Nov: 101(d) is the missed-contribution notice ('before the 60th day'), 101(j) the funding-based limitation notice ('within 30 days'); the card's correction holds."
+Q53-026,2,3,5,3,keep,,Mon 16 Nov: store; quarterly instalments are why a big yearly sum is watched in quarters; never an instalment schedule for Laura.
+Q53-027,1,4,5,3,merged,Q53-033,Mon 16 Nov: same principle as row 33 (grace shrinks as the harm nears); the PBGC's 30-day waiver.
+Q53-028,1,4,4,3,keep,,"Mon 16 Nov: store only; full-year figures come months late, as her late-2027 royalties do (Q12-008); Keel inference."
+Q53-029,2,4,5,3,keep,,"Mon 16 Nov: Table 3 row 1 store; lenders watch the income stream (household early-warning signs), the reason to watch her 2027 earnings, not only the date."
+Q53-030,4,3,5,5,keep,,"Mon 16 Nov: Table 3 row 1 and 3e; 31 March 2028 is 90 days after 1 January (leap year), the line ECB supervisors use for a non-performing loan: the cut-off reads as a standard, not a guess."
+Q53-031,2,4,5,4,keep,,Mon 16 Nov: Table 3 store; 31 March is a late indicator by design: it decides and does not warn; the warning is the 2027 look.
+Q53-032,1,5,5,3,keep,,"Mon 16 Nov: store only; reluctance to respond is an early sign, a reason to look closer, never a trigger (CANON A34)."
+Q53-033,3,3,4,4,keep,,"Mon 16 Nov: 3e, why the two reasons carry different grace: a Treasury default is five business days late because a payment rests on it, the deposit 90 days because its first need is 2033; one indenture."
+Q53-034,1,4,5,4,keep,,Mon 16 Nov: store only; the OCC's cure yardstick is about a month.
+Q53-035,2,3,5,4,keep,,"Mon 16 Nov: Table 3 store; law's checklist for a money notice (amount, date, place, payee, consequence), which row 1 already mostly meets."
+Q53-036,2,2,3,4,keep,,Mon 16 Nov: 3e store; a month confirms money but cannot raise it; never a plan step (the case names earnings and no home); Keel arithmetic.
+Q53-037,1,2,2,3,merged,Q53-036,"Mon 16 Nov: same idea as row 36 on a slower, UNVERIFIED secondary measure."
+Q53-038,2,2,5,4,keep,,"Mon 16 Nov: 3e store; a loan takes about 37 days, longer than the 33 from 1 December, so a confirmation must rest on money earned; never suggest borrowing."
+Q53-039,1,3,5,3,merged,Q22-020,Mon 16 Nov: same idea as Q22-020 (proof letters go stale within one to three months).
+Q53-040,1,2,4,3,keep,,"Mon 16 Nov: store only; taxes are outside the case, so no tax figure or date enters the report."
+Q53-041,2,4,4,3,keep,,"Mon 16 Nov: 3e area (2) store; speaking fees are paid ahead, so near-term speaking income is firm by 1 December; adds contract terms to Q12-033; Laura's own contracts are unknown."
+Q53-042,1,3,5,3,keep,,"Mon 16 Nov: store only; a US federal grant calendar, not Laura's co-sponsors (NCAF's calendar is Q10d-015)."
+Q53-043,2,2,2,4,adapt,,"Mon 16 Nov: Table 3 row 1 store; the counts check (33 days, 22 and 62 trading days) but the NYSE 2027-28 holidays are UNVERIFIED: read them at source, and drop 'a month's word, a quarter's grace' (a slogan flip)."
+Q53-044,3,4,3,3,adapt,,"Mon 16 Nov: 3e and Table 3; restate on the plan's own standard: it holds down to a 74.5% cut and a missed deposit leaves the ten $57,455 short at 0% (NUMBERS 5), never 98.4% or $3,016 at forward rates (AHA register reserve 5b)."
+Q54-001,3,3,5,3,adapt,,"Mon 16 Nov: 3a bond-reader clause; say the plan meets the no-reinvestment arithmetic, never that it passes S&P's cash-flow test (its stresses and market-value haircuts were not read); the asset test is passed by five rungs of ten."
+Q54-002,3,4,4,3,adapt,,"Mon 16 Nov: 3c; a parallel of method only: S&P would not admit the floor fund at all (row 3), so never imply it would value the fund with a haircut; the 0.5% is Caplet's, never S&P's."
+Q54-003,4,4,5,4,keep,,"Mon 16 Nov: 2.2 and 3a aha: S&P's eligibility line, 'a fixed principal amount due at its maturity', is the line TNA note 2 drew; never call a fund's payout fixed."
+Q54-004,3,5,4,4,keep,,Mon 16 Nov: 3a and 2.2 honest limit: no Fitch-rated escrow may hold a fund; that an ETF is a 'mutual fund' here is Keel's reading.
+Q54-005,2,5,4,3,keep,,Mon 16 Nov: store; Moody's caps an escrow at its weakest permitted investment; outdated 2020 edition.
+Q54-006,3,4,5,4,keep,,Mon 16 Nov: 3e and Table 3 T11; head row for the downgrades: escrows fell with the US to Aa1 with 'no changes to the structural elements or cash flows' (adds wording to H3-088).
+Q54-007,2,3,5,4,merged,Q54-006,Mon 16 Nov: same idea as row 6 (Fitch's 2023 cut of escrowed bonds with the US).
+Q54-008,2,3,5,4,merged,Q54-006,Mon 16 Nov: same idea as row 6 (S&P's 2011 cut of pre-refunded bonds; nothing went unpaid); counts from the press.
+Q54-009,2,5,5,4,keep,,"Mon 16 Nov: 2.3 store; a fund of Treasuries is rated no better than the Treasuries in it: an iBond fund adds fund rules, not safety."
+Q54-010,2,5,4,3,keep,,"Mon 16 Nov: 3e store; in August 2011 escrowed bonds' prices barely moved: buyers priced the cash flows, not the label; one week."
+Q54-011,3,4,4,4,keep,,"Mon 16 Nov: Table 3 T11 and 3e; escrow covenants name direct obligations, not a rating, the same choice as the IPS's reason (a default, never a downgrade); one lawyer's view."
+Q54-012,2,4,4,3,keep,,"Mon 16 Nov: store; even escrows keep a fallback for an actual US default, as the IPS keeps its second reason."
+Q54-013,2,5,5,2,adapt,,"Mon 16 Nov: store; by the asset list the book is no legal defeasance: say it meets the sufficiency arithmetic, never 'meets the legal test'; economic defeasance names agency or higher-yielding paper, not funds of Treasuries."
+Q54-014,2,3,5,4,keep,,"Mon 16 Nov: 3a store; why waiting money sits in Treasury bills, not a GIC or a bank's promise: no counterparty stands between Laura and the US."
+Q54-015,2,4,5,3,keep,,"Mon 16 Nov: store; corrects NUMBERS 2 l.165's 'only direct Treasuries and uninvested cash' (agency debt and top money funds are admitted, a bond fund never); stripped Treasuries are banned for Laura."
+Q54-016,1,4,5,3,merged,Q54-015,"Mon 16 Nov: Wisconsin's escrow is row 15's live example of agency paper; it also held strips, banned for Laura."
+Q54-017,2,5,4,3,keep,,"Mon 16 Nov: store; only top-rated money funds enter escrows; Laura's bill ETF is not a 2a-7 fund, so the 0% test with its fee covers it."
+Q54-018,2,5,5,3,keep,,"Mon 16 Nov: Table 3 row 4 store; raters treat a callable holding as called at once, as the 0% rule treats a fund ended early."
+Q54-019,2,3,4,4,keep,,"Mon 16 Nov: Table 3 row 4 store; the funds are the only holdings whose end date a board can move, which is why the notice watch exists."
+Q54-020,3,4,5,3,merged,Q15-006,"Mon 16 Nov: same idea as Q15-006 and Q20-021 (rerun the no-reinvestment test before any swap), here for Table 3 row 4's swap."
+Q54-021,2,4,4,4,keep,,"Mon 16 Nov: Table 3 row 4 store; a Treasury is swapped only for another Treasury, never for something weaker; excerpt, issuer unnamed."
+Q54-022,2,4,5,3,merged,Q28-001,Mon 16 Nov: same idea as Q28-001 (the verifier's per-payment cash-flow table).
+Q54-023,2,2,5,4,keep,,"Mon 16 Nov: 3d or 3e store; a ten-business-day disclosure clock Laura could borrow after 2031; a habit, never a new rule."
+Q54-024,2,4,5,4,keep,,"Mon 16 Nov: 3d store; escrow reports are published for checking, so co-sponsors could be offered the payments table; never 'verified'."
+Q54-025,3,4,4,4,keep,,Mon 16 Nov: 3.0 or 3a conceit turn: in law sufficient Treasuries owned count as payment made (ink at its strongest); verified wording for H1-015; her payments are not legally discharged; the SEC letter is unread.
+Q54-026,2,5,5,3,adapt,,"Mon 16 Nov: store; the rule caps an escrow's yield against arbitrage; it does not stop escrows being sized on hoped-for earnings, so fix the use column before any parallel."
+Q54-027,3,5,4,3,adapt,,"Mon 16 Nov: 3a, why 0%: zero-interest SLGS blended yield down when Treasury yields exceeded the refunded bonds'; the 44 of 51 were in SLGS, not all at 0%; a 2002 sample from before tax-exempt advance refundings ended (row 29): say 'was', never 'often required'."
+Q54-028,2,5,5,3,keep,,"Mon 16 Nov: 2.5 store; escrow purchases need a fair-price record, as each bond was bought within its 25 basis-point band (NUMBERS 8m)."
+Q54-029,1,3,5,4,keep,,"Mon 16 Nov: store; tax-exempt advance refundings ended for bonds issued after 2017, the context that dates row 27."
+Q54-030,2,4,5,3,adapt,,Mon 16 Nov: 2.2 store; NUMBERS 3's 5.4-7.4 months is cash waiting inside the funds; the T-bonds' own waits run 1.5 to 10.5 months before their payments (NUMBERS 8h): fix the clause.
+Q54-031,2,5,4,4,keep,,Mon 16 Nov: 2.2 store; the T-bonds held for 2038-2042 are what municipal escrows buy on the open market when cheaper than SLGS.
+Q54-032,1,3,5,3,merged,Q20-020,Mon 16 Nov: same idea as Q20-020 and Q17-007 (an independent verifier checks the escrow); adds only procurement.
+Q54-033,1,4,5,3,keep,,"Mon 16 Nov: store only; small escrows use bank CDs and repos, never funds; never a size argument (card Q45)."
+Q54-034,2,5,5,3,keep,,Mon 16 Nov: 3a store; verifies H8-045 at source: CMBS borrowers swap a building for Treasuries that pay each instalment.
+Q54-035,1,5,4,3,keep,,"Mon 16 Nov: store only; a second, legal reason a fund share is not a government security; the application is Keel's reading."
+Q54-036,2,5,4,4,keep,,"Mon 16 Nov: 3a store; the no-reinvestment test reached CMBS by 2001, so it is not a municipal quirk; excerpts, possibly superseded."
+Q54-037,2,4,4,4,keep,,"Mon 16 Nov: 2.3 store; CMBS servicers accept Treasuries only, the IPS's own line for promised money; law-firm guidance."
+Q54-038,4,5,4,4,keep,,"Mon 16 Nov: 3.0 or 3d aha: a BBB- company's bonds became AA+ the day Treasuries were owned against each payment, so the promiser stopped mattering; Laura cannot buy SLGS, so never 'rated like an escrow'."
+Q54-039,1,4,5,3,keep,,"Mon 16 Nov: store only; the prerefunded method now covers corporates, so it is general."
+Q54-040,2,5,5,3,adapt,,"Mon 16 Nov: Table 3 row 3 store; S&P's stress is the debt limit being reached (SLGS suspended), not the X-date; do not repeat Q26-023's binding-date-for-X-date error."
+Q54-041,2,4,5,3,adapt,,"Mon 16 Nov: 3a store; the longest wait is the Feb-2037 bond's 10.5 months (NUMBERS 8h), not 7.4; still inside Fitch's 12-month line."
+Q54-042,3,3,5,4,keep,,"Mon 16 Nov: 3a; the legal shell Laura lacks on purpose (irrevocable, segregated, no liens) is what 'the same arithmetic, not the same legal standing' means; never call the reserve an escrow."
+Q54-043,2,4,4,4,keep,,"Mon 16 Nov: Table 3 store; once Treasuries are owned, raters watch only the US; Laura's funds add fund events (card Q36)."
+Q54-044,1,4,4,3,keep,,Mon 16 Nov: store only; money-fund criteria test escrowed munis against the defeasance rules; excerpt.
+Q54-045,3,4,4,4,keep,,"Mon 16 Nov: 2.2 and 3a; the ten as an escrow officer sees them: the T-bonds pass, the funds and bill ETF fail, and the plan meets the arithmetic, not the asset list; never imply the funds are pencil."
+Q60-001,3,4,5,4,keep,,"Mon 16 Nov: Keel's method (voice rounds, aha cold tests, exhibit reads): write each check's target before the round and report the interval beside the count; serves no report part directly, so F 3."
+Q60-002,2,3,4,3,keep,,Mon 16 Nov: method only; the bars are conventions (ERIC calls them arbitrary) and the ANSI and ISO figures are second-hand; useful only to set the 3c and 3d check targets by what a miss costs.
+Q60-003,3,4,5,4,keep,,Mon 16 Nov: method for every blind round (adjusted Wald interval beside each count); the ROUND3-4 intervals check at z 1.96; recheck the 4-of-5 example against Sauro and Lewis Table 1 (z 1.96 gives about 36-98%).
+Q60-004,3,3,3,4,keep,,"Mon 16 Nov: voice programme: the conceit's 2 of 24 stands, plain 20 of 24 is no gap found in 24 reads, never indistinguishable; one-sided Fisher p 0.095 checks; Keel arithmetic, so S 3."
+Q60-005,2,3,3,4,keep,,"Mon 16 Nov: method; the 19, 27 and 42 reads check by Keel arithmetic; mostly restates row 4: three-reader rounds report findings, not rates."
+Q60-006,3,5,5,4,keep,,"Mon 16 Nov: voice programme: heard as Caplet's is a similarity claim, so ISO 4120's about 60 assessors bounds what 24 reads can say; from another field."
+Q60-007,3,5,5,4,keep,,Mon 16 Nov: voice programme: a duo-trio forced choice with Caplet's reflections as the reference replaces the surely/probably scale; a concrete change for rounds 5-6.
+Q60-008,2,2,5,4,keep,,"Mon 16 Nov: method; Nielsen's five-user formula is textbook UX; Keel's 67, 84 and 96% and the 27% for a rare misreading check."
+Q60-009,3,3,5,4,keep,,"Mon 16 Nov: method for the 3c and 3d reader panels: a clean three-reader round may be luck, so the key passages get a second round with new readers before 27 Nov."
+Q60-010,2,3,5,4,keep,,"Mon 16 Nov: method; the voice rounds already iterate; makes the rule explicit: fix, then re-test on readers who never saw the old version."
+Q60-011,3,3,5,4,keep,,Mon 16 Nov: method: Keel's rounds give many reads but only three minds; more readers each reading fewer passages; a real fix for the voice and aha tests.
+Q60-012,3,3,5,5,keep,,"Mon 16 Nov: method for every blind read: one reader hearing owned as signed is a fix, not a vote lost 2 to 1; feeds the critical-confusion list (row 22)."
+Q60-013,2,3,4,3,merged,Q60-010,Mon 16 Nov: same cognitive-interview sample-size point as row 10 (size the panel by its job); Blair and Conrad only as reported by GESIS.
+Q60-014,2,2,5,4,keep,,"Mon 16 Nov: method; test twice and fix the success rule in advance, mostly carried by row 1; applies to the aha test's words-against-chart comparison."
+Q60-015,3,5,5,5,keep,,"Mon 16 Nov: method for every reader panel: never score did-you-follow-it or a 1-5 clarity rating, only what readers say back or do; the BoE gap (0.71 self-rated, 2.02 to 2.85 of 5 tested) is the proof."
+Q60-016,3,4,5,3,keep,,Mon 16 Nov: method: one direct and one applied question in Laura's world per check; the relatable version's 32-point gain on applied answers also backs concrete wording in 3a and 3d.
+Q60-017,3,4,5,5,keep,,"Mon 16 Nov: method for all check questions (voice, aha, exhibits): never borrow the passage's words; the BoE's own footnote is the warning."
+Q60-018,2,3,5,4,keep,,Mon 16 Nov: method: one pilot reader answers the check questions first so a failure points at the passage; small cost on 27 Nov's schedule.
+Q60-019,3,5,4,4,keep,,"Mon 16 Nov: aha test and exhibit designs: hold reading grade fixed when words face a chart, since grade beat visuals for 4,521 adults; slides, not a paper, so S 4."
+Q60-020,3,4,5,5,keep,,"Mon 16 Nov: method for 3d's reader test: a third-party budget question (which figure does a co-sponsor's board count?), keyed to the stated bottom as SKELETON 3d says."
+Q60-021,2,4,4,3,keep,,Mon 16 Nov: method: five-box scoring by two blind scorers with opposite readings counted apart; doubles the scoring; ANSI's wording read only in its contents note.
+Q60-022,4,4,4,4,keep,,"Mon 16 Nov: 3c and 3d: the pre-listed confusions (top owned before the move, gift outside the range, who pays it, owned heard as signed) are what the text must pre-empt as well as what tests score; Keel's list, so S 4."
+Q60-023,3,4,5,4,keep,,"Mon 16 Nov: method for the 3c range check: count a reader's figure only with the right reason (the Treasuries she owns), which stops lucky guesses at the middle."
+Q60-024,2,3,5,4,merged,Q22-035,"Mon 16 Nov: explain-it-to-someone-else with expert grading is paraphrase testing (Q22-035, with Q31-033 teach-back); the co-sponsor framing can go into that row's use."
+Q60-025,3,4,5,4,keep,,"Mon 16 Nov: method for the aha tests: judgment quality (pick the plan that pays the ten whatever markets do) over recall; the rival must be a real plan, such as the team's growth-first first plan."
+Q60-026,2,3,5,4,merged,Q60-015,Mon 16 Nov: same point as row 15 (what readers say they like or understand is not evidence); the FTC's 66 readers over 8 rounds stay findable here.
+Q60-027,2,3,5,4,keep,,"Mon 16 Nov: method: faster reading is not better choosing, and an early good result needs a re-run; Beshears et al. are known in behavioural finance."
+Q60-028,3,4,5,4,keep,,"Mon 16 Nov: Book 18 (every element has a purpose) and the exhibit tests: an element readers skip or misread is a cut candidate, as the SEC cut holdings after its focus groups."
+Q60-029,2,2,5,4,keep,,"Mon 16 Nov: method; a checklist (record what was measured, before and after counts); generic, mostly covered by rows 1 and 43."
+Q60-030,2,2,5,5,merged,Q14b-007,Mon 16 Nov: twin of Q14b-007 (test with readers like the real ones); the judge-versus-funder panel split can go into that row's use.
+Q60-031,3,3,5,5,keep,,Mon 16 Nov: method for 3d: green and red highlighting finds the sentence that loses a funder's trust; pair it with one why question.
+Q60-032,2,2,4,4,keep,,"Mon 16 Nov: method; cloze is a cheap sentence-level check for 3c's rule sentences, cut-offs depend on the scoring rule; Taylor read only via Potter."
+Q60-033,2,4,4,4,keep,,"Mon 16 Nov: method limit: cloze misses meaning across sentences, so never use it for an aha or the whole range rule; abstracts only, so S 4."
+Q60-034,3,4,4,4,keep,,"Mon 16 Nov: method with a word payoff: blank owned in the range rule and the readers' own word (saved, set aside) tests the conceit's key term; one small charity test."
+Q60-035,2,2,5,4,keep,,Mon 16 Nov: method for Table 2 and Figure 1: how to run the five-second look that Q23-029 holds; the 80% bar is a vendor's.
+Q60-036,3,4,5,5,keep,,"Mon 16 Nov: method: time passage tests to the minute or two a judge gives a page (BoE median 1 min 12 s), not an unhurried read."
+Q60-037,3,4,5,3,keep,,"Mon 16 Nov: method for the 3c range test: lowest, best and highest from the reader, scored against $95,000 to $115,000; both figures match NUMBERS 4."
+Q60-038,3,4,5,3,adapt,,"Mon 16 Nov: 3c test: set the probe after the 2031 move; on today's figures the stated bottom itself may be $80,000-$85,000 (NUMBERS 4, 1-in-20 low), so not being surprised by $90,000 is no confusion before then."
+Q60-039,4,4,4,4,keep,,"Mon 16 Nov: 3c: readers will not guess where the gift lands, so the text must say it equals the stated top in every tested path (NUMBERS 4), within IPS l.15's choice; Dieckmann read as abstract."
+Q60-040,3,3,5,4,keep,,"Mon 16 Nov: method: a no-finance reader scored separately on 3c, 3d and 2.0's definition; here the weakest real reader is a co-sponsor's board member."
+Q60-041,3,4,5,4,keep,,"Mon 16 Nov: exhibit designs: simple tables beat funnels and histograms in the EU's PRIIPs test, backing Table 2 as a plain table and the dropped fan chart; record the McMahon 2026 tension."
+Q60-042,4,5,4,4,keep,,"Mon 16 Nov: 3.0 and 3d: fewer than half spotted the guaranteed product, so the ten owned in Treasuries must be said so plainly a skimming judge cannot miss it (guaranteed allowed, Book 19); full 2020 report not read."
+Q60-043,3,3,5,3,keep,,"Mon 16 Nov: aha test: words and chart must be equally finished, and every round keeps a control; written for persuasive ads, not a plan."
+Q60-044,2,3,5,4,keep,,"Mon 16 Nov: method; inform-not-persuade is new, anticipate-misunderstandings is already row 22 and words-and-numbers is Q4c; a hard-sell reaction counts against a passage."
+Q62-001,3,3,5,4,keep,,"Mon 16 Nov: 3a clause: Hamilton's 1813 original of store H4-028's test (only a real surplus is a sinking fund); Laura's reserve is bought with owned money, nothing borrowed."
+Q62-002,3,5,5,4,keep,,"Mon 16 Nov: 3a aha candidate: a separate account is not what makes a reserve real; owned money with nothing borrowed is, which a judge may have backwards."
+Q62-003,2,5,5,3,keep,,"Mon 16 Nov: store, 3d at most: a reserve that can be filled by borrowing says nothing by its size; Laura borrows nothing, so hers does."
+Q62-004,2,4,5,3,keep,,"Mon 16 Nov: store: Pitt's fund sized (about 26% of the funded debt, Keel arithmetic) with Hamilton's own loss estimate; adds figures to H4-027."
+Q62-005,2,5,5,3,adapt,,"Mon 16 Nov: store; the use is wrong: Laura's ten pay $500,000 on far less money owned, the gap filled by Treasury interest, so it is not zero; say nothing is borrowed instead."
+Q62-006,2,5,4,3,keep,,"Mon 16 Nov: store: Parliament's own verdict corrects store H5-103 (on schedule reads too kindly); the 1829 Act's text not read, so S 4."
+Q62-007,2,3,3,3,adapt,,"Mon 16 Nov: store, 3e raid example: the DMO quote stands; drop the 1733 sum until Hamilton's full page settles L.500,000 against five millions."
+Q62-008,3,5,5,4,keep,,"Mon 16 Nov: 3a or 3e: a legal wall guards a reserve's form, not its substance; corrects store H4-029; Laura has both, owned Treasuries and her two-reason rule."
+Q62-009,1,5,5,3,adapt,,"Mon 16 Nov: store only; drop Pitt's flaw on day one: the 1790 borrowing clause was mainly for steadying prices, as the row's own critique says."
+Q62-010,2,5,5,3,keep,,"Mon 16 Nov: store: the first US reserve put promised payments first, the order IPS l.11 keeps."
+Q62-011,2,5,5,3,adapt,,"Mon 16 Nov: store; the use is wrong: the Treasury enforces payment, not Laura keeping the bonds; her two-reason rule is her firmly-and-inviolably (card claim 4, row 41)."
+Q62-012,1,5,5,3,keep,,"Mon 16 Nov: store only; serves no part, and Hamilton's 1792 purchases are admired as a rescue, a poor cautionary tale."
+Q62-013,2,4,5,3,adapt,,"Mon 16 Nov: store; never call held own debt a label anywhere near the US trust funds, whose Treasuries are legal claims real to the holder (row 27)."
+Q62-014,2,5,5,3,keep,,"Mon 16 Nov: store: cities moved their reserves from own paper (91% own-city in 1940) toward federal debt after the 1930s, where Laura's reserve starts."
+Q62-015,3,5,5,4,adapt,,"Mon 16 Nov: 3a aha candidate (New York cancels $774m, reserve and debt vanish together); drop the use's cancel-a-Treasury-in-Laura's-reserve, which casts the doubt Book 19 rules out; say only an issuer can cancel its own bond."
+Q62-016,2,5,5,3,keep,,"Mon 16 Nov: store: New York's 1903 general fund bonds, a raid dressed as an investment."
+Q62-017,2,3,5,4,keep,,"Mon 16 Nov: store, 3e clause at most: raids came when money was tight; Laura's rule names a market fall as no reason."
+Q62-018,3,5,4,4,keep,,"Mon 16 Nov: 3a phrase candidate beside row 15 (a debt-creating instead of a debt-paying scheme); reporter citation unconfirmed, so S 4."
+Q62-019,2,5,5,3,adapt,,"Mon 16 Nov: store; Table 1 lists the WInS book (bonds by CUSIP, funds by ticker), not the extra Treasuries bought in 2028; and Laura's reserve is not made by law (Q3b-033), so the court's line inverts."
+Q62-020,2,5,4,3,keep,,"Mon 16 Nov: store: officers raided reserves despite rules; Laura is owner and controller, so her rule is the guard (Q3b-033); South Houston's facts are allegations."
+Q62-021,2,5,5,3,keep,,"Mon 16 Nov: store, 3e only if fraud and custody are named (AHA_REGISTER's 5b fix): own-paper reserves escaped outside checks; Laura's holdings carry public identifiers."
+Q62-022,3,5,5,4,adapt,,"Mon 16 Nov: 2.2 shape (the holder's side of a serial issue); drop no pot waiting to be raided: all ten are marketable and held until each date, so the guard is still her rule (Q3b-033)."
+Q62-023,2,2,5,4,keep,,"Mon 16 Nov: store: a corporate sinking fund is a lender's covenant (textbook); Laura has no lender, so her rule does that job."
+Q62-024,2,4,5,3,keep,,Mon 16 Nov: store: corporate practice agrees with row 13; own debt bought back is safe only when cancelled.
+Q62-025,3,3,5,3,merged,Q62-027,Mon 16 Nov: OMB's 1999 bookkeeping line alone reads as the trust funds being worthless; row 27 carries the same office's both halves; never cite it via the Heritage misquote.
+Q62-026,3,4,5,3,keep,,Mon 16 Nov: 3a: Treasury's own books call trust-fund Treasuries an asset to the funds and a liability to Treasury that net out; always keep the asset-to-the-funds half beside it.
+Q62-027,4,4,5,3,keep,,"Mon 16 Nov: 3a's aha in official words: legal claims real to the holder, netting out only for the government as a whole; Laura is a holder; the safe wording of the card's central claim."
+Q62-028,2,4,5,3,adapt,,"Mon 16 Nov: store; replace promise-to-itself with debt one part of the government owes another, netted out in consolidation; FY2024 figures, FY2025 shows $2.7tn for Social Security."
+Q62-029,3,3,5,3,adapt,,"Mon 16 Nov: 3a counterweight (trust-fund Treasuries are real to holders, not worthless IOUs); fix the use: bonds pay face value on their dates, the iBond funds pay net asset value (NUMBERS 3), never a fixed sum."
+Q62-030,3,4,5,3,keep,,Mon 16 Nov: 3a contrast from the chief actuary: redemption swaps debt owed to beneficiaries for debt owed to the public; Laura borrows nothing when hers pays.
+Q62-031,2,3,5,3,keep,,"Mon 16 Nov: store; the late-2032 coincidence is striking but invites fiscal worry; NUMBERS 8h figures (111.4% funded, $74,123 by 2042) check; a sizing contrast only."
+Q62-032,1,4,4,3,adapt,,"Mon 16 Nov: store; never topped up clashes with the plan's own top-up ($2,388 in January 2028, WORDS); say nothing is added after January 2028."
+Q62-033,2,3,5,3,keep,,"Mon 16 Nov: store: the government's own funds are what it suspends at the debt limit, and made whole by statute; Laura's marketable Treasuries cannot be; Q16 rows 35-37 hold her side."
+Q62-034,2,3,5,4,keep,,"Mon 16 Nov: store, 2.3 at most: Norway's fund invests only abroad; the disanalogy (no fixed payments) is recorded."
+Q62-035,3,5,5,4,keep,,"Mon 16 Nov: 3a clause: Norway's law defines real savings as Hamilton did (nothing borrowed); new beside H3-075, H5-074 and Q7-027."
+Q62-036,2,4,5,3,adapt,,"Mon 16 Nov: store; never call Norway's 2020 draw a raid or a failure: it was within its rule for a fund with no fixed liabilities; use it only as a rule with a crisis clause, which Laura's lacks."
+Q62-037,3,5,5,4,keep,,"Mon 16 Nov: 3e honest limit: a legally locked reserve in others' assets was still redirected by its owner (EUR 20.7bn), so the report names her rule as the guard, never cannot be raided."
+Q62-038,2,5,5,3,keep,,"Mon 16 Nov: store, beside row 37: a raid that loses nothing still breaks the promise; valuations are not cash."
+Q62-039,3,3,5,4,keep,,Mon 16 Nov: 2.3: ERISA s.407's 10% cap on a sponsor's own paper anchors the reserve holding nothing tied to her career; the statute behind H7-078.
+Q62-040,4,4,3,3,adapt,,"Mon 16 Nov: 3e and 3a map; fix: the raid guard is the whole two-reason rule (Walpole and New York 1903 raided for tax cuts, not market falls); drop Norway 2020 as a raid; name the fund sponsors and broker, as AHA_REGISTER's 5b fix asks."
+Q62-041,4,4,3,3,adapt,,"Mon 16 Nov: 3a one-sentence aha; replace empty for the owner with OMB's cancel out for the government as a whole and keep real to the fund, so it never reads as the trust funds being worthless."
+Q49-001,1,4,4,3,keep,,"Mon 16 Nov: store only; internal budget steps before late August that Laura cannot see; the late-May date is one year's description, not a statute."
+Q49-002,1,5,4,3,keep,,"Mon 16 Nov: store only; a 2009 description of the old Council's March capital ceiling, current practice not re-checked."
+Q49-003,2,4,5,4,keep,,Mon 16 Nov: 3e or Table 3 note: the statute behind the late-August first sight (Art. 46); used only with Q49-004's dates.
+Q49-004,2,5,5,4,keep,,"Mon 16 Nov: 3e or Table 3 note: the cabinet's draft each late August (13-26 Aug in seven years) is the one fixed first sight of Taiwan's public arts money; Table 3 has no room, so store unless a line is freed."
+Q49-005,2,4,5,4,merged,Q49-004,Mon 16 Nov: same late-August first sight as Q49-004; the Ministry's headline figure the same day adds only the 2026 number (2027 figures are Q10d-027).
+Q49-006,1,5,4,4,keep,,"Mon 16 Nov: store only; line items about two weeks after the draft, one year's posting date seen."
+Q49-007,1,4,2,3,keep,,"Mon 16 Nov: store only; UNVERIFIED (dates read from URL paths, NCAF's endowment share not read); verify before any use."
+Q49-008,1,5,5,4,keep,,"Mon 16 Nov: store only; the Budget Center's November evaluations are a free source for Laura's watch, serving no report part."
+Q49-009,2,3,5,4,keep,,"Mon 16 Nov: 3e: the legal certain date (30 Nov, Art. 51); used only beside Q49-010, which shows it is not kept."
+Q49-010,3,5,4,5,keep,,"Mon 16 Nov: 3e area (3) and Table 3 row 7's note: public co-sponsor money is certain only at passage, which missed its legal date in 0 of 11 years (median about 20 Jan); widens Q10d's 351-day 2026 case into a record."
+Q49-011,2,4,5,4,keep,,Mon 16 Nov: 3e store: adds the lapse risk (frozen items may never be spent) to Q10d-026's 351-day budget.
+Q49-012,3,5,5,4,keep,,"Mon 16 Nov: 3d or 3e contrast in one clause: under Art. 54 new capital waits for the vote when Taiwan's budget is late, while Laura's owned Treasuries wait for no vote; a fact about co-sponsors' money, never Taiwan legal advice."
+Q49-013,2,5,5,3,keep,,Mon 16 Nov: 3e store beside Q10d-025: a voted grant can still sit frozen for months (building money frozen in FY2014).
+Q49-014,2,5,5,4,keep,,"Mon 16 Nov: 3e store: cities and counties run the same calendar (to council by 30 Sep or 31 Oct, vote by 30 Nov); councils' on-time record not checked."
+Q49-015,1,5,5,4,keep,,Mon 16 Nov: store only; one city's late-August letter of its central grants.
+Q49-016,2,5,5,3,keep,,Mon 16 Nov: 3e store: site-specific public building money is often known only in late December and paid over two years; one office's book.
+Q49-017,1,5,5,3,keep,,"Mon 16 Nov: store only; the 2026 shift to general grants, needed only to read Q49-019."
+Q49-018,1,5,5,3,keep,,"Mon 16 Nov: store only; named plan totals are budgets, not money paid."
+Q49-019,2,5,4,4,keep,,"Mon 16 Nov: Table 3 reading note: one bureau's 67% fall in 2026 was mostly a move into general grants, so the watch reads the general-grant line; 2026 was no recession (CANON B4); the line-by-line match was not traced."
+Q49-020,2,5,5,4,keep,,"Mon 16 Nov: 3d guard: the special forward-looking building budgets have expired, so never cite 2017-25 venue capital as money a residency could reach in 2031-33."
+Q49-021,1,5,5,4,keep,,Mon 16 Nov: store only; Taipei's grant calendar.
+Q49-022,1,5,4,4,keep,,"Mon 16 Nov: store only; placemaking review months, result dates not found."
+Q49-023,1,5,5,4,keep,,"Mon 16 Nov: store only; local bureaus pay artists, not buildings; one county."
+Q49-024,2,5,5,4,keep,,"Mon 16 Nov: 3d contrast if room: public building money must be spent within its year or can be clawed back, while Laura's waits; store first."
+Q49-025,3,5,3,4,keep,,"Mon 16 Nov: 3e and Table 3: public co-sponsors' 2033 money is first visible in late August 2032, about four months before Laura pays in December 2032, unlike private filings (Q30-031); passage usually comes after she pays; Keel arithmetic on verified dates."
+Q49-026,2,5,4,4,keep,,"Mon 16 Nov: Table 3 row 7 note line only if room is freed (Table 3 sits at one page with none): first seen late August, certain at passage, on time in 0 of 11 years."
+Q49-027,3,5,5,4,keep,,"Mon 16 Nov: 3d or 3b: a private residency's public capital line is equipment-sized (at most NT$3m, about $91,550, shared with running costs), so Laura's capital is money public funders do not give a founder directly; fuller twin of Q9c-002."
+Q49-028,2,5,5,4,keep,,"Mon 16 Nov: 3d support for Q49-027: the equipment line is used (10 village grants, NT$12m, 2023)."
+Q49-029,2,4,5,4,merged,Q9c-019,"Mon 16 Nov: same city-over-Ministry point as Q9c-019 (Treasure Hill, Ministry 5.8% of public money); adds only 2018's 15.5 times."
+Q49-030,2,5,5,4,keep,,Mon 16 Nov: 3d support: Taipei's open grants pay no capital at all; one city.
+Q49-031,2,5,5,3,keep,,"Mon 16 Nov: 3d store: placemaking is the one public line where a private body asks for building money directly, at most NT$2m a year with public-use pledges; grant rules stay out of the report beyond one clause."
+Q49-032,1,5,5,3,keep,,Mon 16 Nov: store only; private building money shrank within four years; Q10d-007's rule changes already carry the point.
+Q49-033,1,5,4,4,keep,,Mon 16 Nov: context only: Taiwan has paid to reuse idle buildings for the arts since 1990; no part needs it.
+Q49-034,2,5,4,3,adapt,,"Mon 16 Nov: 3e store: a cabinet-approved building plan was cut and stretched as yearly budgets fell short in 2008-13; never told as a recession cut (CCA spending rose 29.1% in 2009, CANON B4); plan and outturn differ by source."
+Q49-035,1,5,3,4,keep,,"Mon 16 Nov: store only; phase 2 grants averaged about NT$1.6m with a local match; case counts conflict (1,452 against 1,473)."
+Q49-036,2,5,4,4,keep,,"Mon 16 Nov: 3.0 or 3d store: Taiwan's public building money could not pay staff (2009 rule, not re-read today), so owned running money does a job public capital cannot."
+Q49-037,2,5,4,4,merged,Q51-036,"Mon 16 Nov: same Chishang hall case and source as Q51-036, which reads it rightly as a fit-out and repair gap; Fangliao F3 adds little."
+Q49-038,2,5,5,3,keep,,"Mon 16 Nov: 3d store: a city-run district's building money came as a decade of yearly grants, not one cheque."
+Q49-039,1,5,5,4,keep,,"Mon 16 Nov: store only; public capital at scale went to a city's flagship district, not a residency."
+Q49-040,1,5,5,4,keep,,"Mon 16 Nov: store only; the one residency-space capital grant found, city applicant with a 30% match."
+Q49-041,1,5,5,3,keep,,Mon 16 Nov: store only; residency-named public items are small and mostly running costs.
+Q49-042,2,5,5,4,keep,,"Mon 16 Nov: 3d support: every applicant on the forward-looking culture list is a city or county, so a founder reaches it only as a city's partner."
+Q49-043,2,5,5,4,adapt,,"Mon 16 Nov: 3.0 or 3a store: a publicly built film centre sat idle over two years for want of an operator; reword the use, never the ten payments are the operations (H9-119: a base, not the whole budget)."
+Q50-001,3,5,4,4,keep,,"Mon 16 Nov: 2.3 or 3e: Taiwan's named arts sponsorship set its record in the 2008-09 window (about NT$2.2bn, TAIEX -46%), so IPS l.9's cut is a risk for some co-sponsors, never all; fuller twin of Q4b-024; windows are Keel inference and part is Morakot giving."
+Q50-002,2,5,5,4,keep,,"Mon 16 Nov: 3e store: the 2008-09 peak has not been beaten (14th NT$2.04bn, 16th NT$1.87bn); fills Q12b-022's 15th; nominal figures."
+Q50-003,2,5,5,4,keep,,"Mon 16 Nov: Table 3 store: the only national sponsorship count dropped its money bands in 2025, so a 2031 check needs another source."
+Q50-004,2,5,4,4,adapt,,"Mon 16 Nov: 3d scale: $115,000 = NT$3.77m (NUMBERS 8j) is a bronze-band sum; fix about 45-48 to 44-48 gold givers (15th and 16th editions); a two-year sum against a one-time contribution; never the largest share."
+Q50-005,2,5,5,4,keep,,"Mon 16 Nov: 2.3 support: NCAF's untied fundraising fell in 2008-09 and recovered in 2010, the channel where IPS l.9 holds; small sums."
+Q50-006,2,5,5,3,adapt,,"Mon 16 Nov: 2.3 or 3e store: NCAF's market income fell 37% short in 2008 and nearly doubled in 2009; never as Taiwan's government cutting arts money (its regular grants dipped about 6%, CCA spending rose 29.1% in 2009; CANON B4)."
+Q50-007,2,3,5,4,keep,,Mon 16 Nov: supporting data: TAIEX and GDP for 2008-09 read at source settle Q4b's UNVERIFIED figures; no part of its own.
+Q50-008,4,5,5,5,adapt,,"Mon 16 Nov: 3d or 3c evidence and a conceit turn for the judge: Taiwan's five-year arts pledge had 137 payers in year one, 46 in year five, none by year seven; use the counts, drop the 70% (unclear base, one 18-month period), and keep ink as owned in Treasuries, never paid money."
+Q50-009,2,5,4,4,keep,,Mon 16 Nov: 3d store: in Taiwan's 2001 slowdown donors moved from a pooled fund to named projects; one institution's own account; the residency's fundraising design is cut from 3d.
+Q50-010,2,5,5,4,merged,Q50-009,"Mon 16 Nov: same point as Q50-009 (named, matched projects raised money in the bad years); the NT$9m figure supports it."
+Q50-011,2,5,5,4,keep,,"Mon 16 Nov: 3d store: Taiwanese givers want results within the year, which frames the ten owned years as the long promise co-sponsors never make; recognition terms are cut from 3d."
+Q50-012,3,5,5,4,keep,,"Mon 16 Nov: 3d or 3a parallel: the one multi-year gift NCAF could count on was paid on day one and booked a year at a time, as Laura's ten are owned before 2033; one anonymous gift."
+Q50-013,1,5,5,3,merged,Q50-012,Mon 16 Nov: NCAF's carry-forward entries are the accounting habit behind Q50-012; no separate use.
+Q50-014,2,5,4,4,keep,,"Mon 16 Nov: 3d store: Tung Ho Steel's three-year residency (2009-11), paid in kind, shows the multi-year form that survives a slump; one firm, not a facility gift; in-kind asks are not in the plan."
+Q50-015,1,5,4,3,keep,,Mon 16 Nov: store only; award citations without amounts; long-term as renewal is read from citations only.
+Q50-016,2,5,4,4,keep,,"Mon 16 Nov: 3d store: firms renewed year by year; the 2009 step down may be project design, not the crash."
+Q50-017,2,5,5,4,keep,,"Mon 16 Nov: 3d or 3e store: NCAF's flagship partners rotated in three- to four-year blocks, so expect one co-sponsor to change before 2033."
+Q50-018,2,5,5,4,merged,Q9-033,"Mon 16 Nov: same NT$10bn fund promised in law and never reached as Q9-033, which is current to 2025 and says whose share was missing; adds only the 2010 figure."
+Q50-019,3,5,5,4,keep,,"Mon 16 Nov: 2.3 and CANON B4: a Taiwanese firm's arts budget follows this year's profit (p=0.007), not last year's, supporting IPS l.9's during that same period for corporate co-sponsors against Q4b's US lag; a 1999-2000 cross-section."
+Q50-020,2,5,5,4,keep,,"Mon 16 Nov: 3d support: Taiwanese firms said they cannot sponsor long-term, which fits the yearly programme ask from 2033 and the range never counting co-sponsors; survey before 2000."
+Q50-021,2,5,4,4,keep,,Mon 16 Nov: 3d timing: meet co-sponsors before they set next year's budgets; the move before the meetings is unchanged; budget months not stated.
+Q50-022,2,4,3,4,keep,,Mon 16 Nov: 3e store: foundations cap their total budget in a slump; abstract only.
+Q50-023,2,5,4,4,keep,,"Mon 16 Nov: 3e store: nine in ten Taiwanese foundations raise money to run programmes, so Q4b's US endowed-funder lag does not carry over; an old edition."
+Q50-024,2,5,4,4,keep,,"Mon 16 Nov: Table 3 store: most Taiwanese foundations publish little, so Laura can watch only what they disclose; press reports of the survey."
+Q50-025,2,5,5,4,keep,,"Mon 16 Nov: 3e store: in 2020 culture foundations' income held while spending fell 13.5%, a can't-spend shock, not a can't-pay one; different samples each year."
+Q50-026,2,5,4,4,keep,,"Mon 16 Nov: 3e support for CANON B4: Ministry subsidies to arts groups rose 79.6% in 2020 with relief and fell back in 2021, a boom year; 2021 is approved amounts, so never halved as like for like."
+Q50-027,2,5,5,4,keep,,Mon 16 Nov: Table 3 store: listed firms' sustainability reports are a yearly source on corporate culture support before 2031.
+Q50-028,1,5,4,4,keep,,Mon 16 Nov: out of scope beyond context: the culture-investment tax credit is a Taiwan tax matter (case p.4); store only.
+Q50-029,3,4,5,4,keep,,"Mon 16 Nov: 3e: Taiwan's arts' worst years (2020-21) were boom years for its shares, so co-sponsor risk follows the kind of shock; pairs with SKELETON 3e's 2009 supports it, 2020 does not; Laura's shares are VT, not the TAIEX."
+Q50-030,2,5,4,4,keep,,"Mon 16 Nov: 3e store: Taiwanese company giving (all causes) fell 3.3% in 2020 and rose 64.8% in 2021, following profit, not share prices; tax-adjusted figures."
+Q50-031,1,5,3,3,keep,,Mon 16 Nov: store only; one industry drove 2021's jump; the label is Keel's alignment and the cause unread.
+Q50-032,2,4,5,4,keep,,Mon 16 Nov: 3e store: Taiwan's private patrons are concentrated in the top fifth; the share-risk link is Keel inference.
+Q50-033,2,3,5,4,keep,,"Mon 16 Nov: 3.0 or 3a store: households cut culture spending in the shutdown (9.53% to 6.34%), so a residency's earned income is the exposed line; the ten payments do not rest on it."
+Q50-034,1,4,5,4,keep,,"Mon 16 Nov: correction only: the Act is the 2021 rewrite, not a 2019 law; Taiwan legal and tax matters are out of scope, so cite it by its 2021 name if at all."
+Q50-035,1,5,4,3,keep,,"Mon 16 Nov: out of scope: Taiwan tax routing of gifts (case p.4); store only, never advice on how co-sponsors give."
+Q50-036,1,4,5,4,keep,,"Mon 16 Nov: store only; state firms appear among Wenxin winners, bands unchecked."
+Q50-037,2,3,4,4,keep,,Mon 16 Nov: 2.3 store: the government's yearbook says 2008 hit Taiwan's creative industries hard; excerpt only.
+Q50-038,2,3,3,4,keep,,Mon 16 Nov: 3e contrast: Korean and Australian firms cut sponsorship in 2008-09 while Taiwan's named totals rose; news reports of surveys.
+Q51-001,2,3,4,4,keep,,"Mon 16 Nov: 3d or 3e store: campaigns that finish report about 108% of goal; self-selected respondents and a vendor, never a base rate."
+Q51-002,2,5,5,4,keep,,"Mon 16 Nov: 3d store: Kresge cancelled 0.2%-1.2% of a year's capital grants (2003-05), extending Q25-020; counts cancellations, not shortfall sizes."
+Q51-003,2,5,5,4,keep,,"Mon 16 Nov: 3b store: 9 of 119 small agencies missed a fixed-deadline match, a minority case for a co-sponsor falling short; endowment, not buildings."
+Q51-004,3,5,5,4,keep,,"Mon 16 Nov: 3e or 3d: in the 2008 crash about three-quarters of Kresge's capital grantees asked for more time; Laura's bottom, owned since January 2028 and stated in 2031, needs neither time nor money back."
+Q51-005,2,5,5,4,keep,,Mon 16 Nov: 3a or 3.0 store: in 2008 grantees most wanted bridge money between building and running; Laura's ten payments are a base bought in advance (H9-119); never suggest a bridge loan; adds to Q11b-022 and Q11b-023.
+Q51-006,2,3,5,4,keep,,"Mon 16 Nov: 3c or 3d store: at the AT&T Performing Arts Center the goal was raised and raised again, why Laura states one fixed top; a very large centre."
+Q51-007,1,4,5,3,adapt,,"Mon 16 Nov: fix the use: non-local money in US arts buildings includes state and national grants, so it says nothing of a founder from abroad or who pays first; store only."
+Q51-008,3,5,5,4,keep,,"Mon 16 Nov: 3.0 or 3a: NFF's 1994 base rate, close to a third of arts building projects left owners with serious long-term problems; the split between cushion and payments is Keel's mapping."
+Q51-009,2,5,4,4,keep,,Mon 16 Nov: 3b store: 50-60% of projects borrowed; the plan borrows nothing; scanned text read as 50.
+Q51-010,4,5,5,4,keep,,"Mon 16 Nov: 3d or 3b aha: the field's 1994 diagnosis is that arts managers lack early money and commit too soon; Laura's bottom is early money, owned from January 2028; pairs with aha 8 and never licenses a figure before it is owned."
+Q51-011,2,4,5,4,merged,Q11b-023,Mon 16 Nov: same point as Q11b-023 (new buildings raise running costs that campaigns forget); 1994 wording only.
+Q51-012,2,5,5,4,keep,,"Mon 16 Nov: 3d store: funding was often set without cost estimates; supports stating dollars, never a facility estimate (out of scope)."
+Q51-013,2,4,3,3,keep,,"Mon 16 Nov: 3b store: surplus ratios fall after a facility project (matched sample); abstract only, read in full before use."
+Q51-014,2,5,5,4,keep,,"Mon 16 Nov: 3b store: 65% of $1-building groups saw budgets more than double; 17 hand-picked cases, and budget growth is not all facility cost."
+Q51-015,2,5,5,4,keep,,"Mon 16 Nov: 3b store: about half of small arts groups given cheap buildings ended financially weak; small sample, no comparison group."
+Q51-016,2,4,5,5,keep,,"Mon 16 Nov: 3b store: a practitioner's words, any cushion helps; one anonymous quote, and 3b's evidence line is already Klein 2001."
+Q51-017,2,3,5,4,keep,,"Mon 16 Nov: 3b store: most Philadelphia arts groups in expansion campaigns were thinly capitalised; one city, 2008."
+Q51-018,3,5,5,4,keep,,"Mon 16 Nov: 3b: US theatres locked their liquid capital into buildings (working capital negative for two-thirds); Laura's flexibility stays out of the building, in VT, promised to no one (IPS l.15); theatres, not residencies."
+Q51-019,2,3,4,4,merged,Q9-010,"Mon 16 Nov: same point as Q9-010 (a cushion inside an operating budget gets spent); mixed results, no counts."
+Q51-020,2,5,4,4,keep,,"Mon 16 Nov: 3b or 3d store: few nonprofits can raise facility reserves from funders, so a self-funded cushion is rare; all sectors, a mirror copy."
+Q51-021,2,3,5,4,keep,,"Mon 16 Nov: 3e store: US nonprofits running deficits rose from 13% to 37% (2021 to 2024); adds to H9-115; US, all sectors."
+Q51-022,2,5,5,4,keep,,"Mon 16 Nov: 3b illustration only (A31): owners paid about 12% of small Capital Works! projects; her flexibility is 25.9% times her unknown share s of the project, Keel arithmetic, never a plan figure."
+Q51-023,3,5,4,4,keep,,"Mon 16 Nov: 3b guard: Capital Works! gives both 78/57 and 57/78 for small and large projects, so store Q5d-016's 78% of small kept scope must be marked CONFLICTING; say a fifth to two-fifths cut scope."
+Q51-024,2,4,4,4,keep,,Mon 16 Nov: 3e store: small projects took about 13 months; one collapsed scheme returned its grant; survey responses.
+Q51-025,2,5,4,4,keep,,"Mon 16 Nov: 3b store: liquidity improved for 45% of small owners against 90% of large; samples of 20 and 30, not attributable."
+Q51-026,2,3,5,4,merged,Q11c-019,Mon 16 Nov: same rule as Q11c-019 (Arts Council England counts only 100% of other funding secured); a 2024 round repeats it.
+Q51-027,3,5,5,4,keep,,"Mon 16 Nov: 3b and Table 3: without one public co-sponsor of about a fifth of cost, 48% of Canadian projects would not have happened, which sizes a co-sponsor falling short (IPS l.15); self-reported by grantees."
+Q51-028,2,5,3,3,adapt,,"Mon 16 Nov: 3b: keep the fund's 10%-27% share of cost; drop only if she pays about 70% or more of the building, a figure solved for her unknown share s and not in NUMBERS (illustration only, A31)."
+Q51-029,2,3,5,4,keep,,Mon 16 Nov: 3e store: the Cultural Spaces Fund approved 69% of applications (50% in 2022-23); a co-sponsor's own grant may not come.
+Q51-030,2,5,5,4,adapt,,"Mon 16 Nov: 3d store: later phases are where projects break; fix paid in 2033 to the 2033 contribution paid in December 2032 (NUMBERS 4, 8j); never suggest paying in phases."
+Q51-031,3,5,4,3,adapt,,"Mon 16 Nov: 3b: Washington's small projects still had a median 14% of goal to find after the state grant (a snapshot at award); drop her cushion is 13% if she pays half, a plan figure from the unknown s not in NUMBERS; state the yardstick with s named."
+Q51-032,2,4,5,4,merged,Q11c-023,"Mon 16 Nov: same Washington rules as Q11c-021 to Q11c-023 (over 50% raised, all other money bound, lapsing funds)."
+Q51-033,1,4,3,4,keep,,"Mon 16 Nov: store only; small applicants returned for more, the reason unstated, so her own second round is Keel's reading."
+Q51-034,2,3,4,4,keep,,Mon 16 Nov: 3d store: Massachusetts gives 24 months and may cancel; no cancellation counts; cash-in-hand rule already Q18-009.
+Q51-035,4,5,5,4,adapt,,"Mon 16 Nov: 3.0 or 3a aha: of 399 subsidised Taiwan culture halls, 46 changed use or stopped by 2017, all 22 changes of use after subsidies ended; reword the use to ten years of her operating commitment, a base, not the whole budget (H9-119); public halls, not a private residency."
+Q51-036,2,5,5,4,keep,,"Mon 16 Nov: 3b store: Chishang's hall had money for the shell, none for fit-out or roof repair, and reverted; one case cited from a book; not Chishang's granary (Q11e-008)."
+Q51-037,2,5,4,4,keep,,Mon 16 Nov: 3b illustration only (A31): reopening idle Ministry buildings cost 5.8% of build cost; reopening is not finishing; 25.9% times s stays Keel arithmetic.
+Q51-038,2,5,5,4,keep,,"Mon 16 Nov: 3e store: lack of funds caused 13% of Taiwan's idle public facilities, so the plan secures money, not use; all public facilities."
+Q51-039,2,3,5,4,keep,,"Mon 16 Nov: 3b store: a 14.5% late inflation top-up on a UK museum, 73% from the owner, as in Q5d-008; a large museum."
+Q51-040,2,3,4,4,keep,,Mon 16 Nov: 3e store: rising material costs brought a wave of grant-increase requests; no counts.
+Q51-041,1,4,2,4,keep,,Mon 16 Nov: store only; UNVERIFIED (seen in a review's table); read Woronkowicz and Nicholson-Crotty in full before any use.
+Q51-042,3,4,3,3,adapt,,"Mon 16 Nov: 3b illustration only (A31): keep her flexibility as 25.9% times her unknown share s, beside Q5d-030's overrun version; drop 13.0% at half and about the typical gap as plan figures not in NUMBERS; never to co-sponsors."
+Q51-043,3,4,3,3,adapt,,"Mon 16 Nov: 3b or 3e map: say what each part addresses (scope, debt, delay, trouble after opening) without claiming the plan answers each; flexibility a cushion, not a cure; the ten payments a base (H9-119); 22%-43% is a conflicting range."
+Q52-001,3,5,4,4,keep,,"Mon 16 Nov: 3c context: a range is the more careful form, not the usual one (8 of 20 posted reports); Keel's tally, not a survey."
+Q52-002,4,5,4,4,adapt,,"Mon 16 Nov: 3c and Table 2 note; 19.0% checks ($20,000 over a $105,000 midpoint; NUMBERS 4's stated $95,000-$115,000) and so do the 22.2-50% widths, but 'narrower than any range a consultant gave a board' is false inside this card: Spooner's report also states 8.7% (row 13) and Howard County's whole campaign with its committed $25M is 5.9% (row 15), the like-for-like shape; say narrower than all eight ranges of money not yet offered."
+Q52-003,4,5,5,4,keep,,Mon 16 Nov: 3c aha: counsel gives confidence only in words; after the move Laura can say certain because both ends are owned (NUMBERS 4).
+Q52-004,3,5,5,4,keep,,"Mon 16 Nov: 3c: practitioners already treat a range as a firm bottom and a hoped-for top, Laura's shape before the move (IPS l.15)."
+Q52-005,3,5,5,3,keep,,Mon 16 Nov: 3c/3d: a board's confidence is a poll of opinions about money not yet given; one clause at most beside row 3.
+Q52-006,2,5,4,3,keep,,"Mon 16 Nov: store only: ask high, then cut; close to H9-129's working goal."
+Q52-007,4,5,4,4,keep,,"Mon 16 Nov: 3d beside aha 8: at feasibility a board has only 10-53% of its goal offered, so most of its range is money not yet given; the conceit's contrast in numbers (CONCEIT V2)."
+Q52-008,2,5,4,3,keep,,"Mon 16 Nov: store only: fundraisers also round a stated goal down; matches NUMBERS 4's rounding to $5,000."
+Q52-009,3,5,5,4,keep,,"Mon 16 Nov: 3c/3d: a real report's baseline and stretch, reassessed before going public, is Laura's order (2.9-10.7% checks with NUMBERS 4); one parish, so one clause."
+Q52-010,3,5,4,4,keep,,Mon 16 Nov: 3d wording: 'at least' is counsel's word while the top is unknown; supports rows 31-33 against NUMBERS 4 option D.
+Q52-011,3,5,5,4,keep,,"Mon 16 Nov: 3b/3d: a public rule for money above the stated top; Laura's excess ($8,476) joins the half kept (NUMBERS 4; CANON D12)."
+Q52-012,3,5,5,3,keep,,"Mon 16 Nov: 3d contrast: a feasible bottom missed and the building cut; the shortfall is mostly a bond vote, so say so."
+Q52-013,2,5,5,4,keep,,Mon 16 Nov: store only: three ranges in one report read as soft; also why row 2's 'narrower than every range' needs care.
+Q52-014,2,3,4,4,keep,,Mon 16 Nov: 3d context: campaign pledges arrive over three years; Laura's money is owned first (IPS l.15).
+Q52-015,3,5,5,3,keep,,Mon 16 Nov: 3c/3d: the closest public shape to Laura's (a committed nucleus plus a range on top); its 5.9% whole-campaign width is the fair comparison for row 2.
+Q52-016,2,5,5,4,keep,,Mon 16 Nov: store only: counsel's own methods differ by 70%.
+Q52-017,2,5,5,3,keep,,"Mon 16 Nov: store only: a leader's hopes push a figure up; a letter to parishioners, not co-funders."
+Q52-018,4,4,4,4,adapt,,"Mon 16 Nov: 3c: campaigns average 106-116% of goal, worst 75%; 107.4% checks ($123,476 over $115,000, NUMBERS 4) but that excess joins her flexibility, not the facility (CANON D12), so lead with the floor of outcomes: their worst is 75% of goal, her contribution equals the stated top in every path."
+Q52-019,2,5,4,3,keep,,Mon 16 Nov: store only: the sample shapes the lesson; not causal.
+Q52-020,2,5,4,4,keep,,Mon 16 Nov: store only: a smaller goal against what is in hand matters more than a study; 2005 and local.
+Q52-021,3,4,5,4,keep,,"Mon 16 Nov: 3d beside aha 8: a large arts campaign went public at 92% committed; one campaign, so aha 8's 60-80% stays the norm."
+Q52-022,3,5,5,4,keep,,"Mon 16 Nov: 3c: the setup for row 23, a floor and a range hung on one share price."
+Q52-023,4,5,5,4,keep,,Mon 16 Nov: 3c/3e aha: the best-known 'at least' arts gift sat in one share and lost $102M in a year despite a draft IPS; Laura's bottom is a Treasury fund; tell with row 24's recovery so it is not read as cherry-picked.
+Q52-024,3,5,4,3,adapt,,"Mon 16 Nov: 3c: the share floor came good only after a lawsuit; say her floor's payout cannot fall after January 2028, not that it never has a bad year (the fund's price can move)."
+Q52-025,2,5,3,3,keep,,Mon 16 Nov: store only: conflicting figures from different dates; context for row 23.
+Q52-026,3,5,3,3,keep,,"Mon 16 Nov: 3b/3e: a Taiwan founder's figure outrun by a building and topped up, IPS l.15's overruns; never imply her flexibility covers a top-up of that size (aha 8's fix); pledge amount conflicting."
+Q52-027,2,5,5,3,keep,,"Mon 16 Nov: store only: a fixed donor figure while the state carried the rise; in Taiwan the founder pays first and grantees carry overruns (row 30), so never suggest co-sponsors carry hers."
+Q52-028,2,3,5,4,keep,,"Mon 16 Nov: store only: a fixed founder figure, then more as a separate choice (CANON D12)."
+Q52-029,3,4,4,4,keep,,"Mon 16 Nov: 3d conceit contrast: promises stated as a share of future wealth were kept 8 times in 22; an advocacy think tank's count, so name it."
+Q52-030,3,5,5,3,merged,Q11e-016,Mon 16 Nov: Twin of Q11e-016 (overruns borne by the grantee; multi-year grants cut with the budget); the no-compensation clause can be added there.
+Q52-031,3,5,4,4,keep,,Mon 16 Nov: 3d wording: 'at least n' leaves about half of readers doubting an exact n; Geurts and Nouwen read only through Cummins and Katsos.
+Q52-032,3,5,5,4,keep,,"Mon 16 Nov: 3d: from a speaker who knows, 'at least' signals ignorance and hints at money CANON D12 keeps outside; argues against NUMBERS 4 option D."
+Q52-033,3,5,5,3,keep,,Mon 16 Nov: 3d: the bare figure says exactly; 'at least' fits only a how-much-at-minimum question asked before the top is known.
+Q52-034,2,5,5,3,keep,,"Mon 16 Nov: store only: counsel shows its record; Laura's is the rule's record (both ends owned in every history window after the move, NUMBERS 4)."
+Q55-001,4,5,5,4,keep,,"Mon 16 Nov: 3a/3d, a conceit turn: a national funder calls its own later years 'indicative'; Laura's ten are owned and dated (NUMBERS 8h)."
+Q55-002,3,5,5,4,merged,Q55-001,Mon 16 Nov: Twin of Q55-001 (the same funder's 'indicative' later years); the over-1m-a-year line is its detail.
+Q55-003,2,5,5,3,keep,,Mon 16 Nov: store only: long public relationships built one budget at a time.
+Q55-004,2,5,5,3,keep,,Mon 16 Nov: store only: payment mechanics; Laura's is one dated sum a year (8h cash dates).
+Q55-005,2,4,4,3,keep,,Mon 16 Nov: store only: Australia's four-year funding; Australia only if it earns its place.
+Q55-006,3,5,5,4,keep,,Mon 16 Nov: 3e: a four-year promise ends in a cliff with no transition; Laura's end (2042) is dated from the start.
+Q55-007,3,5,5,4,keep,,"Mon 16 Nov: 3d: a funder scores confirmed future funding as capacity; say proof the residency can run, never that it qualifies for public support or is an anchor or match (SKELETON 3d); an Australian funder."
+Q55-008,3,5,5,3,keep,,Mon 16 Nov: 3d: verifies Q9c-011: NCAF approves year one only and earmarks later years; pair with row 9 in one clause.
+Q55-009,4,5,5,4,keep,,Mon 16 Nov: 3d's half-clause (pays one year at a time) and a conceit turn: NCAF may cut pro rata or stop every later year.
+Q55-010,4,5,4,5,keep,,"Mon 16 Nov: 3d evidence clause: 5 of 93 top Taiwan troupes held any multi-year operating promise, at most three years; use this or Q9c's clause, not both."
+Q55-011,2,5,5,3,keep,,"Mon 16 Nov: store only: a funder's own money covered a budget trim; $35,894 matches NUMBERS 2 and 8h; never a recession cut (CANON B4)."
+Q55-012,3,5,4,4,keep,,"Mon 16 Nov: 3d scale: $50,000 is about NT$1.64m at 32.768 (8d), inside NCAF's NT$1m-8m band; the rate moves (8j)."
+Q55-013,3,5,4,4,keep,,"Mon 16 Nov: 3d scale: Taiwan's visual-arts operating grants average about NT$714,000; Laura's is over twice that for ten years; a nearer analogue than row 12."
+Q55-014,3,5,5,4,keep,,Mon 16 Nov: 3d wording: even unrestricted multi-year letters gate later years and may stop; Laura's letter can say will be paid.
+Q55-015,2,5,5,4,keep,,Mon 16 Nov: store only: a leadership change can stop a funder's later payments; same point as row 14.
+Q55-016,3,5,5,4,keep,,Mon 16 Nov: 3d wording: big funders write 'expected'; Laura can write will be paid because each payment is bought.
+Q55-017,3,5,5,4,keep,,Mon 16 Nov: 3d: one 'no conditions' line lets the residency count the ten; adds drafting practice to Q18-001 to Q18-003.
+Q55-018,3,3,5,4,keep,,Mon 16 Nov: 3a/3d: only 12.4% of grants are both multi-year and operating support; US and pre-2020.
+Q55-019,2,4,3,3,keep,,Mon 16 Nov: store only: Exponent's figures only as CEP quotes them; read the report before use.
+Q55-020,4,5,5,4,keep,,"Mon 16 Nov: 3a aha: a quarter of willing foundation leaders hold back because precommitting funds is risky; Laura bought first (IPS l.13); the survey is about large unrestricted gifts, say so."
+Q55-021,2,4,5,3,keep,,Mon 16 Nov: store only: a funding cliff is funders' first worry; recipients save into reserves.
+Q55-022,3,5,5,3,keep,,Mon 16 Nov: 3a: a model funder's later years rode on its investments and shrank; Laura's ride on no share price (IPS l.11).
+Q55-023,3,5,5,4,keep,,Mon 16 Nov: 3d: arts groups ask for five to seven years; supports row 45.
+Q55-024,3,5,5,4,keep,,"Mon 16 Nov: 3d scale: $50,000 a year is what MacArthur gives a $1m-budget arts group, for three years, not ten."
+Q55-025,2,5,5,4,keep,,Mon 16 Nov: store only: twenty years built from four renewals; what is promised on day one differs.
+Q55-026,3,5,4,4,keep,,"Mon 16 Nov: 3a/3d: the longest fixed arts schedule found is seven years, to individuals; supports row 45."
+Q55-027,2,3,4,4,keep,,Mon 16 Nov: store only: BUILD's five-year term; the $1.85 million slip unconfirmed.
+Q55-028,3,4,4,3,keep,,"Mon 16 Nov: 3a/3b: steady money lets a grantee build its own reserve, which Q9 and Q9b tie to survival; self-report."
+Q55-029,3,5,5,4,keep,,Mon 16 Nov: 3e: not knowing the end hurt planning more each year; Laura's last payment is dated from 2027.
+Q55-030,3,5,5,4,keep,,"Mon 16 Nov: 3e: say the end at the start; one clause on what follows 2042 (8k), since Wharton's monitoring runs to 2033."
+Q55-031,2,4,5,4,adapt,,"Mon 16 Nov: store only: long funders exit by choice; fix the citation: the two reasons are IPS l.17, not l.19."
+Q55-032,3,5,5,3,keep,,"Mon 16 Nov: 3a: dated payments are each year's support in the residency's books, the ladder's shape (IPS l.13)."
+Q55-033,3,5,5,4,keep,,"Mon 16 Nov: 3a/2.3: an auditor values a promise by the giver's creditworthiness; Laura's answer is Treasuries, not her career (IPS l.11)."
+Q55-034,3,4,5,4,merged,H3-109,Mon 16 Nov: Twin of H3-109 (an unconditional pledge is booked at once); the schedule-alone point can be added there.
+Q55-035,2,5,5,3,keep,,Mon 16 Nov: store only: Taiwan gift law is out of scope (case A13); context for one clause at most.
+Q55-036,2,5,5,4,keep,,Mon 16 Nov: store only: periodic gifts lapse at death unless stated; case A13; Laura's age and health never raised.
+Q55-037,2,5,5,3,keep,,Mon 16 Nov: store only: the livelihood defence; Keel inference; case A13.
+Q55-038,2,5,4,3,keep,,Mon 16 Nov: store only: a notarial deed gives the right and Treasuries the assets; case A13; a secondary law-firm note.
+Q55-039,2,5,5,3,keep,,"Mon 16 Nov: store only: verifies Salsbury (Q18-028, merged into H3-109) and adds that executors may wait for a court."
+Q55-040,2,4,5,4,keep,,Mon 16 Nov: store only: a second state's pledge test; specific sums and dates make a promise usable.
+Q55-041,2,3,5,4,merged,Q18-031,Mon 16 Nov: Twin of Q18-031 (a DAF route turns a promise into an intention); note IPS l.19 does not say the Treasuries stay hers (l.17 makes them the reserve).
+Q55-042,3,5,5,4,adapt,,"Mon 16 Nov: 3a clause beside H3-069: the tax code's test of a guaranteed stream (a determinable amount, at least yearly, a fixed term) is met by the ten without a trust; fix the citation: IPS l.19 says nothing about keeping them, use l.17."
+Q55-043,3,4,3,3,adapt,,"Mon 16 Nov: 3a: 'only the ten sit in owned and promised' is wrong: after the move the stated range is owned in Treasuries and promised too (NUMBERS 4); the half kept is owned in shares, which the conceit calls pencil, so the ink square means owned in Treasuries; no new exhibit (four stay)."
+Q55-044,3,4,3,3,adapt,,"Mon 16 Nov: 3d/3e list: amounts, dates, no conditions, the schedule, 111.4% (checks with 8h) and what follows 2042 stand; drop the notarised deed, which is advice on Taiwan law (case A13)."
+Q55-045,4,5,4,5,keep,,"Mon 16 Nov: 3a/3d one line: no arts funder read fixes more than seven years and Laura's ten are owned; programmes read, not a census."
+Q59-001,2,4,5,3,keep,,Mon 16 Nov: 3c context only: 'checked before take-off' maps loosely to stating after the move; the 2.9/6.2/8.7/10.7% match NUMBERS 4.
+Q59-002,3,5,5,3,keep,,"Mon 16 Nov: 3a: interest on cash waiting as unusable fuel; fees match NUMBERS 0 and 2; say cash waiting, since every coupon still counts (8h's definition)."
+Q59-003,4,4,5,3,adapt,,"Mon 16 Nov: 3.0/3a: each margin's job matches NUMBERS (the 0.5% for costs beyond the two fees; the extra Treasuries for zero interest, $45,456 back on 1 Jan 2033 at forwards; her flexibility for IPS l.15's three uses), but the three guard three promises (the ten, the stated ends, the building), not one flight, and no final reserve sits under the design test ($0 left at 0% with the ETF fee), so drop 'her bound plays that role'; evidence, never a second image."
+Q59-004,2,4,5,4,keep,,"Mon 16 Nov: 3c: both round toward safety; $98,380 to $95,000 and $118,072 to $115,000 match NUMBERS 4."
+Q59-005,2,5,5,3,adapt,,Mon 16 Nov: 3b: 'the extra Treasuries never fund the facility' is not in NUMBERS: what comes back from them is Laura's (8k) and may reach the building as her separate choice (CANON D12); say they never count toward the stated range.
+Q59-006,3,5,5,4,keep,,"Mon 16 Nov: 3e and Table 3: watch and act in fixed words; matches IPS l.17's two reasons and Table 3's notice watch; SKELETON 3e already has the tiers, so this is outside evidence; no aviation words in Table 3."
+Q59-007,3,4,5,4,keep,,Mon 16 Nov: 3e: one clause at most beside row 6; competes with the conceit's 3e turn (registration marks).
+Q59-008,2,5,5,4,keep,,Mon 16 Nov: store only: fixed names must be used one way every time (WORDS).
+Q59-009,3,5,5,3,adapt,,"Mon 16 Nov: 3c: the 0.5% is itself a round figure checked against the ended funds' costs (about 0.27%, NUMBERS 0, card Q3c), not set from data as EASA's statistical fuel is; say checked against evidence, never sized on evidence."
+Q59-010,3,5,5,3,keep,,"Mon 16 Nov: 3a: a release passes the test that sized it (8h's release test counts future flows at zero); Keel's reading, IPS silent."
+Q59-011,3,5,5,4,keep,,"Mon 16 Nov: 3b: her flexibility has no rule-set size, Caplet's choice (Q5b, 8o); the parallel is the owner's discretion only, as its disanalogy says; never the best split."
+Q59-012,3,5,5,4,keep,,Mon 16 Nov: 3c: the setup for rows 13-14 (a line that recorded what the owner intended).
+Q59-013,4,5,4,4,keep,,"Mon 16 Nov: 3c aha: a mark means nothing when the one who gains can move it; the range rule is fixed before it gives a figure and both ends are owned after the move; cite Glover for the derision, the funnel story is 'apparently'."
+Q59-014,4,5,5,4,adapt,,"Mon 16 Nov: 3c/3d: say from tables, not intentions (each holding's zero-interest payout); never imply an outside authority sets or enforces Laura's rule (it is the team's written rule, card Q19), as the disanalogy admits."
+Q59-015,2,5,5,4,keep,,"Mon 16 Nov: store only: a closed list of exceptions, like IPS l.17's two reasons."
+Q59-016,2,5,5,3,keep,,"Mon 16 Nov: store only: a voluntary rule was ignored; it cuts both ways, since Laura's rule is voluntary too."
+Q59-017,2,4,5,3,keep,,"Mon 16 Nov: store only: $5,300 of flexibility per $5,000 of top matches 8o; never imply misconduct."
+Q59-018,3,4,5,4,keep,,"Mon 16 Nov: 3d: a mark anyone can check; co-sponsors can check holdings by CUSIP and ticker (Table 1, card Q38)."
+Q59-019,2,4,5,4,keep,,"Mon 16 Nov: Figure 1 note at most: 111.4% ($444,545 against $399,089) matches 8h; form only, never beside NERC's 15%."
+Q59-020,3,5,5,3,adapt,,"Mon 16 Nov: 3c: the floor is counted at what its holdings pay with no interest after the two fees, less 0.5% (NUMBERS 3), not at net asset value less costs; VT at zero gives $95,000 (NUMBERS 4) checks."
+Q59-021,3,4,5,4,keep,,"Mon 16 Nov: 3a: a probability margin misses the common shock; the 585 windows follow from the bound (NUMBERS 2), so never offer them as separate proof (aha 5's fix)."
+Q59-022,2,3,5,4,keep,,Mon 16 Nov: store only: the cost lands on people who never chose the risk.
+Q59-023,3,5,5,4,adapt,,"Mon 16 Nov: 3a/3c: 'contractually pay' is wrong for the iBond funds, which seek no predetermined amount; say counted at what their holdings pay with no interest earned, less 0.5%; never call a fund's payout fixed."
+Q59-024,3,4,5,3,merged,Q8a-010,"Mon 16 Nov: Twin of Q8a-010 (graver consequence, stricter standard); row 26 carries the dam point for 3b."
+Q59-025,4,5,5,4,adapt,,"Mon 16 Nov: 3a aha: a fraction of the bound is not a standard; $22,192 and 35 of 585 match NUMBERS 2; but only the $2,388 top-up is IPS l.13's completion clause: the extra Treasuries ($35,894) rest on l.13's 'not dependent on yields staying put', never 'inside the completion clause' for the $38,282 (WORDS; INTENT failure 7)."
+Q59-026,4,5,5,4,keep,,"Mon 16 Nov: 3b aha: the standard follows who carries the loss; the payments reach the residency's people, a fall in her flexibility lands on her; the stalled-facility disanalogy does not break it, since the stated top is owned before it is stated."
+Q59-027,2,4,5,4,keep,,Mon 16 Nov: store only: freeboard as the gap above the design case; Q47's trim and safe area cover the stated top.
+Q59-028,2,3,5,3,keep,,"Mon 16 Nov: store only: the No-margin row ($125,000-$155,000) matches NUMBERS 4, but a 2,209-death disaster beside one open sizing call (Keel's, Tue 10 Nov) is the wrong tone, and the margin was never spent a little at a time."
+Q59-029,3,5,5,3,keep,,"Mon 16 Nov: 3a/3e: the backstop is the same instruments as the rungs, and the payout path has run five times (IBTA 15 days early, card Q3c); common cause stays the named exception."
+Q59-030,3,5,5,3,keep,,"Mon 16 Nov: 3a: $8,813 and $58,603 released, 113.0% to 248.2% kept, all match 8h; Keel's reading, IPS silent."
+Q59-031,2,5,5,3,adapt,,"Mon 16 Nov: 3a: $1,180 compares the fee-cushioned $336,656 with $337,836 sized without the fee; NUMBERS 2's like-for-like is $335,771 against $337,836, $2,065 dearer."
+Q59-032,2,5,5,3,merged,Q5c-024,Mon 16 Nov: Twin of Q5c-024 (one pot cannot back two promises); one holder of all margins adds little.
+Q59-033,3,5,5,3,keep,,"Mon 16 Nov: 2.0/3c: measured, calculated and estimated numbers draw the ink and pencil line (bonds and the funds' zero-interest payouts owned, VT pencil until moved); a fact under the conceit, never a second image."
+Q59-034,2,5,5,4,keep,,"Mon 16 Nov: store only: policed words, like WORDS' fixed names."
+Q59-035,2,5,4,3,keep,,Mon 16 Nov: store only: heritage parts need less margin; read through the Air Force tailoring only.
+Q59-036,2,4,4,3,keep,,Mon 16 Nov: 3e context: why the plan never claims her flexibility covers any overrun; mass is not money.
+Q59-037,3,4,4,3,keep,,"Mon 16 Nov: 3a: $13,220 more and the floor payout $115,929 to $103,178 match NUMBERS 2; Apollo adds little beyond stating the price plainly."
+Q59-038,2,3,5,3,merged,Q5-003,Mon 16 Nov: Twin of Q5-003 (estimate plus contingency set at a 50% chance of overrun); the two-to-three-times and currency notes can be added there.
+Q59-039,4,5,4,4,keep,,"Mon 16 Nov: 3.0/3a aha: the plan's biggest margin is expected back ($45,456 on 1 Jan 2033 at forwards, 8h) and its smallest, the 0.5%, partly spent; matches NUMBERS; say the two guard different promises."
+Q59-040,3,1,5,5,keep,,"Mon 16 Nov: References: Graham's motto bridges to the investing literature; ch. 20 may apply it to bonds as earnings over fixed charges, nearer Laura than price below value: check in the book; the 'accurate estimate' line stays UNVERIFIED."
+Q59-041,3,4,3,2,keep,,"Mon 16 Nov: 3.0/3e: four marks of a margin that holds; too long for one sentence, use one mark at a time."
+Q59-042,3,5,3,3,adapt,,"Mon 16 Nov: 3a: the margin guards interest on every waiting dollar from 2027 (coupons worth $93,941 by 2033, NUMBERS 2), not only the principal waits named; H8-104 already holds the zero-rate line."
+Q56-001,2,4,4,3,adapt,,"Mon 16 Nov: 2.3/3e scale only; check slide 81 first: the overall median $12,000 sits above the 5th decile's $10,000, impossible if both are medians of one group; never size her income from it (claim 5)."
+Q56-002,3,4,4,3,adapt,,"Mon 16 Nov: 3e career test: the one set where the US top fell more than the middle; say two cross-sections five years apart, not a Covid-year measure, and check what the overall median refers to (deciles 2-5 fell while it rose 20%)."
+Q56-003,2,3,4,4,keep,,"Mon 16 Nov: guard for 2.3: inside the top tenth incomes span about 100 times, so no decile sizes her year; the source conflicts on the floor ($83,400 or $84,200), so cite neither."
+Q56-004,3,3,5,4,keep,,"Mon 16 Nov: 3e area (2) and Table 3 row 1: a zero book year is common among full-time US authors; pairs with Q56-005, and one of the two is enough in prose."
+Q56-005,4,4,5,4,keep,,"Mon 16 Nov: 3e area (2) and Table 3 row 1: work in print every year and still a zero year, so the deposit is confirmed by 1 Dec 2027 and nothing is stated before it lands; say UK writers of all kinds, not authors like her."
+Q56-006,3,4,4,3,keep,,"Mon 16 Nov: 2.3 lumpiness: about 2 in 5 UK authors doubled or halved their writing income over 2008-13, so the swing is personal as much as the cycle; recall data and Keel arithmetic, said so."
+Q56-007,2,3,5,3,merged,Q1-039,"Mon 16 Nov: twin of Q1-039 (concentration of UK author income at the top); adds the 2012/13 point (58%, Gini 0.69) to its series."
+Q56-008,2,4,5,3,keep,,"Mon 16 Nov: 2.3/3e support: UK lecture income is very skewed (mean 2,714 pounds, median 250); it does not show top authors are the ones who earn it, so say only that speaking money goes to a few."
+Q56-009,4,4,5,4,keep,,"Mon 16 Nov: 2.3 and 3e career test: in 2020 the UK 80th percentile held (+2% real) while the 20th fell 16%; replaces SKELETON's 'the link is strong for top earners' for authors. CLASH RISK: qualifies IPS l.9's 'later and smaller' for top earnings in 2020 (IPS frozen; 3e already says 2009 supports it, 2020 does not); say top fifth and all-source earnings."
+Q56-010,2,4,5,3,keep,,"Mon 16 Nov: 3e support for Q56-009: agented UK authors' writing median held at 10,000 pounds nominal in both years; an agent is a rough proxy, so a clause at most."
+Q56-011,2,4,4,3,keep,,"Mon 16 Nov: 3e support: Australia's share above A$200,000 rose from 2.5% to 5.3% between surveys seven years apart; nominal threshold and all-source income, so a weak second country beside Q56-009."
+Q56-012,2,4,4,3,keep,,"Mon 16 Nov: 2.3/3e: Australian children's authors' practice income rose while events fell; the case never says her books are children's, so use only as which streams held and which fell, never as her income."
+Q56-013,2,3,5,4,merged,Q1-037,"Mon 16 Nov: twin of Q1-037 (the typical author's long slide is a trend, not the cycle); Canada adds a third country, store only."
+Q56-014,3,4,4,4,adapt,,"Mon 16 Nov: 3e career test: the Forbes top ten without Rowling barely moved between the years to June 2008 and June 2010; say before and after, never through, since the worst year (to June 2009) is missing, and check $270m less Rowling's $10m is $260m (-1.1%), not $259m (-1.5%)."
+Q56-015,3,3,4,4,keep,,"Mon 16 Nov: 2.3 lumpiness: at the very top one author's own calendar moved a year's income -97% to +40% while the group barely moved; Forbes estimates and famous outliers, so one clause."
+Q56-016,3,4,5,5,keep,,"Mon 16 Nov: 2.3/3e: 96% of a fiction bestseller's sales come in its first year, so an author's year depends on whether a book came out; verified network science; cash follows contract dates (Q12)."
+Q56-017,3,4,5,5,keep,,"Mon 16 Nov: guard for 2.3 and 3d: one week on the list makes a bestselling author for life, so the case's 'bestselling' never sizes her income or decile; a rule for the writers, not a claim about her."
+Q56-018,2,3,4,4,merged,Q12-006,"Mon 16 Nov: twin of Q12-006 (2009 advance cuts fell on the midlist, not proven names); The Bookseller adds forecasts by an agent and an editor, not outcomes, and Q1-030's cut to a quarter runs the other way."
+Q56-019,3,4,2,4,adapt,,"Mon 16 Nov: 2.3/3e: in 2020 deal counts rose (+8%, read at source) while $500,000+ deals fell 17% (read only in a blog's copy); read Publishers Lunch at source or say 'softened' as Q12-007 does; the fall began in 2019."
+Q56-020,2,4,2,4,adapt,,"Mon 16 Nov: store only: six-figure children's graphic-novel deals 3, 10, 24 (blog copy, unverified); the case never says her books are children's, so never 'her corner of the market'."
+Q56-021,2,3,4,4,keep,,"Mon 16 Nov: 3e recovery: US deal counts were up 19% on 2020 by April 2021, so the advance stream came back in about a year; counts, not sums, and a secondary report."
+Q56-022,3,4,5,4,keep,,"Mon 16 Nov: 2.3/3e: the share of speakers at $500,000 or more fell from 7% to 4% in 2020, the top's clearest fall; self-selected speakers, not authors; adds the top to Q12b-012."
+Q56-023,2,4,5,3,keep,,"Mon 16 Nov: 3e recovery by stream: the speaking top recovered first while cancellations ran 20-30% of gigs in 2021; store only, Q56-036 carries it."
+Q56-024,2,3,4,3,merged,Q12b-012,Mon 16 Nov: twin of Q12b-012 (speaking took two to three years to come back); event attendance at 57-68% of 2019 into mid-2022 adds a measure; the Forbes line was read only in an excerpt.
+Q56-025,2,3,3,3,keep,,"Mon 16 Nov: store only: speaking falls through bookings more than fees in a recession; an undated press release on motivational speakers, never cited for her."
+Q56-026,2,4,5,3,adapt,,"Mon 16 Nov: store only: US physical book exports -14.6% and imports -25.9% in H1 2009; it measures physical trade, not rights, so drop 'foreign editions and rights are the likelier casualty' unless a rights figure is found."
+Q56-027,2,4,4,4,keep,,"Mon 16 Nov: store only, residency context: Taiwan's book publishers' revenue fell about 31% in 2016-23 (Keel arithmetic), a trend, not a cycle; the link to co-sponsors is untested and the 2021-22 step may be a reporting break."
+Q56-028,1,4,5,3,keep,,Mon 16 Nov: store only: in Taiwan's 2020 new books sold more while backlist and fairs fell; Taiwan-language publisher revenue serves no part on its own.
+Q56-029,1,4,4,3,keep,,"Mon 16 Nov: store only, a method note: Taiwan's statistics cannot see an author's income, so 3e rests the career idea on US, UK and Australian data, as it already does."
+Q56-030,3,5,5,4,keep,,"Mon 16 Nov: 2.3 or 3e: UK law lets creators average two years when one is under 75% of the other, an outside institution writing lumpiness into law; say the law expects swings of a quarter or more; UK law, not hers."
+Q56-031,2,4,5,4,merged,Q56-030,Mon 16 Nov: twin of Q56-030 (tax law averages creators' lumpy income); Australia makes it two countries in one clause of Q56-030's use.
+Q56-032,2,3,4,4,keep,,Mon 16 Nov: 3e limit: every statement about the top compares different people at two dates; one clause if the report leans on Q56-009 or Q56-014.
+Q56-033,4,4,3,4,keep,,"Mon 16 Nov: 2.3 and 3e: at the top the cycle ran through speaking and the biggest advances, not book income, which narrows IPS l.9 to its own words ('the speaking fees', 'advances'). CLASH RISK: top book income held in 2020, so never say all her income falls; leans on unverified Q56-019."
+Q56-034,3,3,3,4,keep,,"Mon 16 Nov: guard for 3e area (2): the case puts her living costs outside the portfolio but gives neither the costs nor what is already earned, so an income fall never converts into a deposit forecast; corrects Q12b-019, which took costs out of the deposit."
+Q56-035,4,4,3,3,adapt,,"Mon 16 Nov: 3e area (2) and Table 3 row 1: measured falls at the top sit far below the 74.5% cut the escrow standard survives (NUMBERS 5); lead with the plan's own standard (the first $38,282, 25.5%) and give the $2,388 top-up only as at forward rates, never 'the payments need only 1.6%'; row 19's -17% unverified."
+Q56-036,3,3,3,3,keep,,"Mon 16 Nov: 3e recovery by stream: books and deals back in about a year, paid appearances in two to three; a downturn reaches the 2028 deposit only if it starts by 2027 (Q12b-018)."
+Q56-037,2,3,3,3,adapt,,"Mon 16 Nov: 3e context only: $150,000 is more than the UK top tenth's entry income; never imply her decile or income (claim 5), and say 'nothing is stated before it lands', not 'never leans on it', since the top-up and extra Treasuries come from it first."
+Q57-001,3,5,4,3,keep,,"Mon 16 Nov: lineage for the ladder (2.0 or 3a): Roy's own yardstick gives money a zero standard error in money terms, so the Treasury paying the dollar sum on its date is his zero-error asset; Roy wrote about borrowing, so the mapping is Keel's, said so."
+Q57-002,3,5,4,3,keep,,"Mon 16 Nov: lineage for the ladder: Roy in 1952 warned a ten-year scheme off short funding because of the rate on reborrowing, the case for matching dates; he writes as a borrower and Laura is the lender, so say the same logic, not the same case."
+Q57-003,3,3,5,4,merged,Q13-008,"Mon 16 Nov: twin of Q13-008 (only one path happens, so the average is irrelevant); Roy (1952) is the older source and can join its citation."
+Q57-004,3,3,5,4,keep,,"Mon 16 Nov: lineage for the 2031 move (3c): Roy's ambush line; the move is a dated trade before the meetings, never a rule that reacts to prices (Q3a)."
+Q57-005,2,4,4,3,adapt,,"Mon 16 Nov: store or 3e: Roy counts inflation as a disaster (70% is his example); fix 'not the dollar payments': inflation cannot leave a payment short of its dollars but does lower what each buys (H4-048); her flexibility is a cushion, never a hedge."
+Q57-006,3,4,4,3,keep,,"Mon 16 Nov: 2.3 lineage: Roy makes diversification the safety of the wealthier, money with room above the disaster level, which backs aha 2 (spread only what is not promised); the promised and unpromised mapping is Keel inference."
+Q57-007,2,5,4,4,keep,,"Mon 16 Nov: lineage exhibit: safety-first came from insurers' ruin theory (Roy's footnote to Cramer), insurers meeting fixed claims as Laura meets ten; Cramer not read, so cite Roy only."
+Q57-008,3,3,2,4,adapt,,"Mon 16 Nov: 2.0 or lineage: Markowitz gives Roy an equal share of MPT's honour; Markowitz (1999) unread, so cite it as quoted in Rubinstein (2002) in APA's secondary form, or read FAJ 55(4) first."
+Q57-009,2,2,4,4,merged,H3-019,"Mon 16 Nov: twin of H3-019 (Markowitz 1952 is one period, used only inside VT); Chhabra's 'diversified as prescribed by MPT' can join its sources."
+Q57-010,4,5,5,3,keep,,Mon 16 Nov: 2.3 and the lineage exhibit (EXPECTATIONS 2.4): BPT says layered investors hold bonds plus lottery tickets; Caplet keeps the layers and fills them with the CAPM's two funds; pairs with Q57-042 and Q57-011; goes past H3-025.
+Q57-011,4,5,4,3,keep,,"Mon 16 Nov: central idea's lineage (2.3): BPT investors overlook covariances and Caplet's layers exist because of one. CLASH RISK: the covariance is IPS l.9's, which Q56-009 and Q56-033 qualify for top book income in 2020; say 'in the same downturn' (3e)."
+Q57-012,2,4,5,3,keep,,"Mon 16 Nov: store or the lineage exhibit's refused cell: BPT predicts demand for floor-plus-index notes; the plan has that shape with no note, issuer or option; never call it a note, capital-protected or portfolio insurance (it is buy-and-hold); near H2-068."
+Q57-013,3,5,2,3,adapt,,"Mon 16 Nov: 3c lineage: the range rule as Kataoka's criterion; Kataoka unread, so cite via Shefrin and Statman; say alpha near zero, not zero, since an iBond fund pays net asset value, and give the bottom as the floor's zero-interest payout less 0.5%, rounded down ($98,380 to $95,000), never 'what the floor pays'."
+Q57-014,2,4,2,3,keep,,"Mon 16 Nov: References and lineage order: Roy, then Kataoka, Telser, Arzac and Bawa, Lopes, then BPT; only Roy and Shefrin and Statman were read, so the rest are cited through them."
+Q57-015,4,5,4,3,keep,,"Mon 16 Nov: 2.3 and 3.0, the central idea's lineage: Chhabra's aspirational bucket holds a business tied to one's own income, so her career is that bucket and the portfolio adds none; settles H3-027 against H7-099; answer his s9.9 (earning power as personal risk) in the same breath."
+Q57-016,2,3,5,4,keep,,Mon 16 Nov: 3a support: Chhabra's 'the journey matters' is the sequence point H2-006 and H1-002 make; the ladder takes the path away from the payments; one clause at most.
+Q57-017,2,4,5,4,keep,,"Mon 16 Nov: lineage exhibit's refused cell: Chhabra builds his buckets with puts and calls, Caplet with owned Treasuries and one index fund (derivatives are banned in WInS)."
+Q57-018,3,3,5,4,keep,,Mon 16 Nov: lineage for the half kept and the order of claims (3b): Brunel's least important goal bears the most residual risk; a practitioner's line for H7-015.
+Q57-019,3,4,5,4,adapt,,"Mon 16 Nov: 3.0 or 3b: Brunel's philanthropic goals take the least risk and losses fall elsewhere; fix 'any loss falls on the half kept' to 'after the 2031 move', since before it a fall lowers the top she can state."
+Q57-020,2,4,2,3,keep,,"Mon 16 Nov: 2.3 support: Wilcox's ratio ties risk to discretionary wealth, and VT is 6.63% of the $450,000 (NUMBERS 8g); Wilcox unread and Caplet sized VT as the remainder, so never as the method and never beside a textbook share."
+Q57-021,2,3,4,4,keep,,"Mon 16 Nov: presentation: risk as dollars short on a date, not volatility (Pfau on Bodie and Taqqu; JFP 2014); cite Pfau, since the book was not read; near H9-038."
+Q57-022,2,3,3,4,keep,,"Mon 16 Nov: store, a judge's question: a surplus is not automatic risk appetite; the IPS's answer is that the half kept is promised to no one and is her flexibility; a journalist's paraphrase, never quoted as Brunel's words."
+Q57-023,3,3,5,4,keep,,"Mon 16 Nov: lineage for the ladder and floor: Zwecher's floor is a subportfolio of safe, time-dated cash flows; read in the publisher's preview, it upgrades H5-067 (unverified)."
+Q57-024,2,3,4,3,keep,,"Mon 16 Nov: lineage exhibit's refused cell: Zwecher puts only wealth above the floor's cost at risk and re-sizes as wealth moves; VT's $29,829 is the remainder bought once (NUMBERS 4); never present the plan as his rule (buy-and-hold, Q3a)."
+Q57-025,2,4,3,3,adapt,,"Mon 16 Nov: lineage for the 2028 completion: Zwecher's underfunded floor and 'Raising the Floor' (chapter titles only); call it the ladder, not 'the floor', which in the report is the 2032 fund."
+Q57-026,3,4,2,3,keep,,"Mon 16 Nov: lineage for the 2031 move and the conceit: at-risk flooring (pencil) becomes locked-in flooring (ink); search excerpt only, so fetch Pfau's June 2012 piece before use."
+Q57-027,2,3,4,4,keep,,"Mon 16 Nov: 3b support: an owned floor frees the upside to sit through a crash; an interview, secondary; 'one whack at the cat' echoes Q13-008."
+Q57-028,4,3,5,4,keep,,"Mon 16 Nov: 3c lineage for the 2031 move: Merton takes risk out once the goal is achieved; a parallel in aim only, since his rule runs on funded status and Caplet's is one dated trade (buy-and-hold, Q3a), never a trigger."
+Q57-029,3,4,5,4,keep,,"Mon 16 Nov: 3e and Table 3's market-price row: Merton says floor-value rules would bar long Treasuries, the safest assets for dated income; backs TNA note 2 and H7-003."
+Q57-030,3,3,5,4,keep,,"Mon 16 Nov: 3d and Table 3: hedging income makes capital value swing, so communication matters; Table 3 watches what each holding pays and the co-sponsor words say so."
+Q57-031,2,4,4,3,keep,,Mon 16 Nov: lineage for the reserve from 2033: Merton's ladder category does his guaranteed-income job for Laura's dollar payments. CLASH RISK (recorded): his ladder spends interest as income; never imply later bonds' interest pays earlier payments.
+Q57-032,2,4,5,3,keep,,"Mon 16 Nov: lineage exhibit's refused cell: Merton copies an annuity that cannot be bought by trading; Laura buys dated Treasuries outright and holds them; TIPS only as his tool, never hers."
+Q57-033,3,3,5,4,merged,Q1c-023,"Mon 16 Nov: twin of Q1c-023 and H3-028 (riskier earnings, fewer shares); Bodie and Clowes is the personal-finance entry for the central idea's lineage, one citation at most beside BMS."
+Q57-034,2,4,4,3,keep,,"Mon 16 Nov: lineage for the 2028 completion: price the goal with no risk first, then choose risk; near H3-001; the mapping is Keel inference."
+Q57-035,2,3,5,4,adapt,,"Mon 16 Nov: store or lineage: Bodie's reversal is that shares are risky in the long run (Q39-017), the IPS's that her career is already shares; say they reverse different wisdoms, never 'the same reversal'."
+Q57-036,3,4,2,3,keep,,"Mon 16 Nov: 2031 move lineage: payments locked now (Bodie and Taqqu, via Pfau) and the range later (Pfau); the book and Guyton's survey unread, so cite Pfau's review and drop Guyton."
+Q57-037,3,4,5,4,keep,,"Mon 16 Nov: 3a lineage: Sharpe's sealed box per year is the ladder and the facility box is opened once before 2031; a citation in the lineage exhibit, never a second image beside pencil and ink."
+Q57-038,3,5,5,3,keep,,Mon 16 Nov: 2.0 and 3.0 naming: the Sharpe of Perold and Sharpe left dynamic strategies out of his own retirement design on purpose and chose buy-and-hold boxes; backs Q3a-034's buy-and-hold.
+Q57-039,2,5,4,2,adapt,,"Mon 16 Nov: store or a note: a safe asset plus the market gives a straight line in market return; fix 'no kink': the contribution is capped at the stated top, so only the floor-plus-shares holding is linear; utility language too hard for the prose."
+Q57-040,3,4,4,4,keep,,"Mon 16 Nov: 3e and the two reasons: 'you still have the key'; Laura's only keys are written down, a missed deposit or a Treasury default; an interview, secondary."
+Q57-041,3,3,4,4,keep,,Mon 16 Nov: 3a and 3f (aha 10): a fixed spending plan funded by a volatile portfolio is 'fundamentally flawed'; the academic source H1-002 and H2-006 lack; their case is 30 years of real spending.
+Q57-042,4,5,4,3,keep,,"Mon 16 Nov: 2.3 and the lineage exhibit: with dated liabilities the risk-free asset is the liability-matching portfolio, and with a world market portfolio it forms a new two-fund theorem, Caplet's ladder and floor plus VT; upgrades H3-020 (Tobin's cash); body unread, so quote the abstract."
+Q57-043,3,4,4,4,keep,,"Mon 16 Nov: 3e, nominal not real: 'nominal if protecting nominal consumption' answers why not inflation-linked bonds on principle (TIPS are also banned this year); working-paper text, check the FAJ version."
+Q57-044,3,4,4,3,keep,,"Mon 16 Nov: 3c: an aspirational liability cannot be made risk-free by investing alone, only by buying it, which is why the top is stated only once owned; the payments are not ARVA, which cuts spending with the portfolio."
+Q57-045,3,3,5,3,keep,,"Mon 16 Nov: 3.0 and 3c: safety-first counts the whole household balance sheet (her career), and in Kitces's terms the payments' risk is transferred in 2027 and the range's in 2031; the JFP page shows no author."
+Q58-001,2,3,5,4,merged,Q58-004,"Mon 16 Nov: the two compartments; row 4 carries the wall with the deletion test and store H6-036 the idea, so this statute line adds no use."
+Q58-002,2,5,5,3,keep,,Mon 16 Nov: 2.0 or 3.0 at most a clause: what is promised decides what counts as cover; needs the gold setup and is not timing evidence for 3c.
+Q58-003,1,4,4,4,merged,Q58-026,"Mon 16 Nov: weekly totals only; row 26 carries backing shown, not sworn, for Table 1."
+Q58-004,2,5,5,4,keep,,"Mon 16 Nov: 3b or 3e colour for the wall both ways; $103,178 matches NUMBERS 4; the idea is already store H6-036 and the deletion test is a headline."
+Q58-005,2,5,5,4,adapt,,"Mon 16 Nov: 3b, the free side takes the strain; $9,881 and $21,347 match NUMBERS 4, but the stated range is unchanged only after the move (before it the top falls, NUMBERS 8p)."
+Q58-006,1,5,3,3,keep,,"Mon 16 Nov: store only; the opposite of Laura's case and the 1847 excess is conflicting, so no 1847 figure in the report."
+Q58-007,3,5,5,3,keep,,"Mon 16 Nov: 3c timing evidence: an 1857 breach was forgiven by statute, a figure Laura states before she owns it cannot be; aha row 4 keeps the principle, so a clause."
+Q58-008,2,5,5,3,merged,Q58-005,"Mon 16 Nov: 1866, same shape as row 5 (the cover held, the free side fell); 8.4% is correct Keel arithmetic."
+Q58-009,2,4,5,3,adapt,,"Mon 16 Nov: 3e, exits named in advance; the IPS names only a missed deposit or a Treasury default (l.17): 31 Mar 2028 and five business days are Keel's Table 3 definitions; Q7b-009 has the convention."
+Q58-010,2,4,5,3,keep,,"Mon 16 Nov: 3d guard with a historical reason: a backing rule covers only the promises it names, so no figure above the stated top; the rule itself is already in the store."
+Q58-011,1,5,5,3,adapt,,"Mon 16 Nov: store only; 99% of the cover is a deposit with the Bank's own Banking Department, not owned government bonds, so never Laura's rule pound for pound."
+Q58-012,2,5,5,4,keep,,"Mon 16 Nov: 2.0 or 2.3 at most a clause: a finance ministry names long government bonds as cover for a stable liability; marked to market and topped up, so a parallel only."
+Q58-013,1,5,5,4,keep,,"Mon 16 Nov: store only; an image of owned cover, a third picture beside pencil and ink, not timing evidence."
+Q58-014,4,5,5,4,adapt,,"Mon 16 Nov: 3c, the best timing evidence: backing attaches when a promise leaves the issuer; 2.9-10.7% match NUMBERS l.373 (6.2% current), but use aha row 7's wording (a top named early would turn out larger than the move could buy); one bridge sentence at most."
+Q58-015,1,5,5,3,keep,,Mon 16 Nov: store only; the dollar's own collateral serves no part.
+Q58-016,3,3,5,3,keep,,Mon 16 Nov: 3c's margin: boards hold 100% or slightly more against price falls; Laura's 0.5% covers costs beyond the fee because each end is counted at what the holdings pay (NUMBERS 0 figures correct).
+Q58-017,2,3,5,3,merged,Q58-020,"Mon 16 Nov: paid for before issue, the same timing point row 20 makes more sharply."
+Q58-018,2,5,5,3,keep,,"Mon 16 Nov: 3b or 3c, the excess above the top joins her flexibility as Hong Kong's leaves its band; $8,476 matches NUMBERS 4; upside only, never shares behind payments."
+Q58-019,2,5,5,3,merged,Q58-016,Mon 16 Nov: the mark-to-market reason for a board's cushion; row 16 already states it in Hanke and Schuler's words.
+Q58-020,3,5,5,3,keep,,"Mon 16 Nov: 3c timing evidence: new paper only after the money behind it is in, as the top is stated only after the move; a parallel, never the same rule (aha row 7 fix); $5,300 per $5,000 matches 8o."
+Q58-021,2,5,5,3,keep,,"Mon 16 Nov: 2.0 or 3a: a backed system that launched short and was completed; $302,287, 99.2% and $2,388 match NUMBERS, but 2.0 states the gap plainly and the parallel adds little."
+Q58-022,1,5,5,3,keep,,"Mon 16 Nov: store only; an image, not timing evidence, and a third picture risks Q42's switched mapping."
+Q58-023,1,4,5,3,keep,,"Mon 16 Nov: store only; both boards ended by merging into the euro, not by paying out."
+Q58-024,1,5,4,3,merged,Q58-004,"Mon 16 Nov: a copy of the 1844 split; row 4 holds the wall, and the 1997 law was not read."
+Q58-025,2,3,5,3,adapt,,"Mon 16 Nov: 3c or 3d evidence that only owned cover counts (never the 2028 deposit before it comes, a pledge or the shares); drop the pencil-counted-as-ink phrasing (Q58 claim 4)."
+Q58-026,2,5,5,4,keep,,"Mon 16 Nov: 2.5 or Table 1, one clause: backing shown, not sworn, a reason for every Treasury by CUSIP; Table 1 is required anyway."
+Q58-027,1,3,5,3,merged,Q58-028,Mon 16 Nov: the safeguarding law row 28 needs; its use lives there.
+Q58-028,2,5,5,4,keep,,Mon 16 Nov: 3e or Table 3: a backing rule nobody checks ran 65% short; the trade-day check in the range rule and Table 3 are the plan's check.
+Q58-029,1,3,5,3,keep,,Mon 16 Nov: store only; the price of full cover is already 8o's trade-off.
+Q58-030,2,5,4,3,keep,,"Mon 16 Nov: 2.2 colour: an 1842 law matched each promise with an asset maturing in time; read through Pennacchi, the Act itself not read."
+Q58-031,1,5,4,3,keep,,"Mon 16 Nov: store only; a case about a banking system, not one owner."
+Q58-032,2,5,5,4,keep,,"Mon 16 Nov: 3d or 3e: fifty years of Treasury-backed dollar notes with no holder loss; a parallel, never the exact rule; its elasticity limit fits 3e (Q10e)."
+Q58-033,3,4,5,4,adapt,,"Mon 16 Nov: 3c and 3d: in excess maps the top, in advance the timing; say it as a parallel, never Laura's two or the same rule (aha row 7 fix); Q43-009 holds the core."
+Q58-034,1,5,4,3,keep,,"Mon 16 Nov: store only; as of 2006, later years not checked."
+Q58-035,3,4,5,4,keep,,"Mon 16 Nov: 3e or Table 3: interest on the public debt is a permanent appropriation, so a shutdown is not reason 2 and needs no row; principal stays with the debt-limit row."
+Q58-036,2,4,3,3,adapt,,Mon 16 Nov: Keel synthesis; Laura answers all three repeats the overclaim cold test 2 struck from 5b: name the plan's real exposures beside it.
+Q58-037,1,3,3,4,keep,,Mon 16 Nov: guard only: at most one bridge sentence in 3c or 3d; no timing evidence and never a conceit turn.
+Q58-038,1,5,5,4,adapt,,"Mon 16 Nov: store only; Hong Kong defends a price band, redeems on demand and marks to market, so never the rule Laura follows."
+Q63-001,3,2,5,4,merged,H7-081,Mon 16 Nov: H7-081 already carries UPIA's special-circumstances exception; quote this row's purposes wording from it in 2.3.
+Q63-002,3,3,5,3,keep,,Mon 16 Nov: 2.3 and aha 2: the law diversifies to shed unpaid risk and a Treasury of the payment date has no default risk to shed; say the spread-against-certainty trade with it.
+Q63-003,3,3,5,5,keep,,Mon 16 Nov: 2.3 or 3b: purpose sets risk; the ten are the widow's money and the half kept the scion's; the split by purpose is Keel's reading.
+Q63-004,2,2,5,4,merged,Q63-003,Mon 16 Nov: the same UPIA comment's point (risk suited to purpose); row 3 says it more plainly.
+Q63-005,2,3,5,4,keep,,"Mon 16 Nov: 3e limit: the old trust bond failed on inflation; the payments are fixed in dollars (TNA already says so, do not repeat) while Taiwan prices reach the building money (Q10e)."
+Q63-006,3,4,4,3,keep,,Mon 16 Nov: 2.3: the Restatement allows a plan built on one category when it suits the objective; read only as quoted by the Washington AG.
+Q63-007,3,4,4,3,merged,Q63-015,Mon 16 Nov: the beneficiary's own risk as a reason to shape the trust; row 15 gives it in a statute's words.
+Q63-008,2,4,4,3,merged,Q63-015,"Mon 16 Nov: the career as the one-enterprise holding; row 15 carries the career point, and this comment also warns against one type of security."
+Q63-009,2,4,3,3,keep,,"Mon 16 Nov: store; the all-government exception is old but tied to a crisis, not dated payments; Haskell's paraphrase only."
+Q63-010,1,4,4,3,keep,,"Mon 16 Nov: store only; 1830 credit, never used to bring back a default caveat (Books 3, 5, 19)."
+Q63-011,2,4,5,3,keep,,"Mon 16 Nov: 2.3 colour: the legal-list answer for promised money, the 1994 rule for the rest; history, never a standard the plan meets."
+Q63-012,1,2,5,4,keep,,"Mon 16 Nov: store only; Caplet already allows risk-free plainly, so no authority is needed."
+Q63-013,2,3,5,3,merged,H7-081,Mon 16 Nov: other trust and nontrust resources is H7-081's point.
+Q63-014,3,4,5,4,adapt,,Mon 16 Nov: 2.3: concentration is judged by what it buys; quote only Langbein's own words (no offsetting benefit; without compensating advantage) unless the question in quotes is found in his text.
+Q63-015,3,5,4,4,keep,,"Mon 16 Nov: 2.3 and aha 2: earning capacity in a trust statute's words behind IPS l.9; statute read as quoted in the opinion; analogy only, Laura is not a trust."
+Q63-016,4,5,5,4,keep,,"Mon 16 Nov: 2.3 aha: the leading all-Treasury breach was its dates, not its issuer (court quote read at source); the report says matched by date."
+Q63-017,3,5,5,4,adapt,,"Mon 16 Nov: 2.3 with row 16: the yardstick was a model with 35% long and 35% intermediate bonds at staggered dates, not a ladder alone; never the plan's cure or diversified by date."
+Q63-018,2,5,5,3,keep,,Mon 16 Nov: 2.3 or 3e: the fault was an unrecorded weighing; the IPS writes its reasons (l.9-11); feeds row 44.
+Q63-019,2,3,4,4,adapt,,Mon 16 Nov: 2.5 hindsight clause possible; drop the fund figures (seen only in a headnote copy) unless read at source.
+Q63-020,2,3,5,4,merged,H7-081,Mon 16 Nov: the UK version of the same exception; the review duty is Q34-018's.
+Q63-021,3,2,5,4,keep,,"Mon 16 Nov: 2.3 and aha 2: ERISA's aim is to avoid large losses, and for the payments the large loss is a missed payment; funds pay net asset value, said once."
+Q63-022,1,4,4,3,keep,,"Mon 16 Nov: store only; Congress's list invites diversified by date, which SKELETON 2.3 bans."
+Q63-023,2,4,4,3,keep,,Mon 16 Nov: 2.3: full concentration allowed when what stands behind is sound; an insurer's reason differs from a Treasury's.
+Q63-024,2,4,5,4,keep,,"Mon 16 Nov: 2.1 or a Table 1 note: IBTM's 32.50% is looked through to Treasuries, 89.55% (NUMBERS 8g correct)."
+Q63-025,3,3,5,4,keep,,"Mon 16 Nov: 2.3 or 3a: for fixed payments US pension rules ask for the safest source, not a spread; analogy only, never compliance."
+Q63-026,4,5,5,4,keep,,"Mon 16 Nov: 3a: add money, never risk is the IPS's 2028 completion (l.13) in a regulator's words; say it as a parallel, and the deposit is planned, not owed."
+Q63-027,2,3,5,4,merged,Q63-025,Mon 16 Nov: shows row 25's standard is live; supporting detail only.
+Q63-028,1,5,5,2,keep,,"Mon 16 Nov: store; legal structure of pension annuities only, no part needs it."
+Q63-029,1,5,4,3,keep,,"Mon 16 Nov: store; litigation over pension annuities, appeals unverified; legal exposure, not a part's job."
+Q63-030,2,3,5,3,merged,Q63-043,Mon 16 Nov: the 1940 Act carve-out is one of row 43's six.
+Q63-031,3,5,4,4,keep,,Mon 16 Nov: Table 1 note or 2.3: IBTM is a Diversified Fund in its own SAI while corporate ladders are not; never call the payments diversified; table read through a page extract.
+Q63-032,2,4,3,3,adapt,,Mon 16 Nov: a legal-status claim: never say the book would count as diversified (Laura's account is not a fund); the 8g sums are correct; row 43 does the job.
+Q63-033,2,3,5,3,merged,Q63-043,Mon 16 Nov: the card says it supports rows 30 and 43 only.
+Q63-034,3,5,5,5,keep,,"Mon 16 Nov: 2.3, one clause behind aha 2: Treasuries treated as adequately diversified; quote as how the law sees Treasuries, never a rule covering Laura."
+Q63-035,2,3,5,3,merged,Q63-043,Mon 16 Nov: Rule 2a-7's exemption is one of row 43's six.
+Q63-036,3,5,5,3,adapt,,"Mon 16 Nov: 3d: the SEC treats a refunded bond as its escrowed Treasuries (pairs with H5-064); add that the floor is a fund and no escrow may hold one (card Q54 row 27), so never escrow-grade."
+Q63-037,3,3,5,4,keep,,"Mon 16 Nov: 2.0 or 2.3: bank capital puts the line where IPS l.11 does, sovereigns 0% and equity 250%; Basel's 0% depends on the rating band."
+Q63-038,2,4,5,4,keep,,"Mon 16 Nov: claim 2 support: US capital rules give Treasuries 0% whatever the rating; Caplet already allows risk-free, so support only."
+Q63-039,2,4,5,4,merged,Q63-043,Mon 16 Nov: Basel's sovereign exemption is one of row 43's six.
+Q63-040,1,4,4,4,keep,,Mon 16 Nov: store; landing page only; a counterweight that must not become a default caveat.
+Q63-041,2,4,5,3,merged,Q63-038,Mon 16 Nov: a third regulator asking no credit question; row 38 holds claim 2.
+Q63-042,2,5,5,4,keep,,Mon 16 Nov: 2.3 detail: even a US state's own bonds are capped for insurers and only the US is not; a model act that states adopt in their own versions.
+Q63-043,4,5,4,4,adapt,,"Mon 16 Nov: 2.3 or a Table 1 note, the answer to 89.55% in one issuer (NUMBERS 8g); say every cap we found (six), never every cap in US law, and never that the law approves the plan."
+Q63-044,2,4,3,3,adapt,,Mon 16 Nov: Keel mapping; answers every reason repeats the overclaim cold test 2 struck from 5b: name the limits beside it (not a trust; inflation reaches the building).

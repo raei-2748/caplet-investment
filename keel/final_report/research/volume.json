@@ -1,25 +1,25 @@
 {
- "built": "2026-11-16T16:24+11:00",
+ "built": "2026-11-16T16:47+11:00",
  "today": "2026-11-16",
- "store_ideas": 3788,
- "store_judged": 2954,
+ "store_ideas": 4529,
+ "store_judged": 3582,
  "totals": {
-  "workers": 21,
-  "cards": 78,
-  "rows": 2528,
-  "sources": 2718,
+  "workers": 43,
+  "cards": 97,
+  "rows": 3307,
+  "sources": 3644,
   "passages": 47,
-  "readings": 25
+  "readings": 26
  },
  "days": [
   {
    "day": "2026-11-16",
-   "workers": 21,
-   "cards": 3,
-   "rows": 82,
-   "sources": 134,
+   "workers": 43,
+   "cards": 22,
+   "rows": 861,
+   "sources": 1060,
    "passages": 26,
-   "readings": 13
+   "readings": 14
   },
   {
    "day": "2026-11-15",
@@ -98,90 +98,48 @@
   {
    "date": "2026-11-16",
    "run": "afternoon (overdrive)",
-   "research_workers": "16",
-   "analysis_workers": "2",
+   "research_workers": "29",
+   "analysis_workers": "11",
    "readers": "3",
-   "notes": "Sixteen store cards Q48-Q63 on the digest's holes; numbers 8q (both Taiwan risks) and 8r (the move date in 2031); exhibits rebuilt; three cold readers on eight ahas"
+   "notes": "Twenty-nine store cards Q48-Q76 on the digest's holes and today's cold-test questions, in four waves; eight raters judged every row the same afternoon; numbers 8q (both Taiwan risks), 8r (the move date in 2031) and 8s (the first plan re-run); exhibits rebuilt; three cold readers on eight ahas"
   }
  ],
  "cards": [
   {
-   "card": "Q3a_floors_in_markets",
-   "day": "2026-11-13",
-   "rows": 34,
-   "sources": 64
+   "card": "Q54_defeasance_escrow_rules",
+   "day": "2026-11-16",
+   "rows": 45,
+   "sources": 38
   },
   {
-   "card": "Q3b_floors_in_institutions",
-   "day": "2026-11-13",
-   "rows": 34,
-   "sources": 11
+   "card": "Q55_multiyear_operating_support",
+   "day": "2026-11-16",
+   "rows": 45,
+   "sources": 60
   },
   {
-   "card": "Q3c_ended_ibond_funds_payouts",
-   "day": "2026-11-15",
-   "rows": 33,
-   "sources": 30
+   "card": "Q56_author_incomes_at_the_top",
+   "day": "2026-11-16",
+   "rows": 37,
+   "sources": 36
   },
   {
-   "card": "Q40_pencil_and_ink_craft",
-   "day": "2026-11-14",
-   "rows": 7,
-   "sources": 9
+   "card": "Q57_the_plans_academic_family",
+   "day": "2026-11-16",
+   "rows": 45,
+   "sources": 24
   },
   {
-   "card": "Q41_conceit_audit",
-   "day": "2026-11-14",
-   "rows": 28,
-   "sources": 0
-  },
-  {
-   "card": "Q42_analogy_and_metaphor_evidence",
-   "day": "2026-11-14",
-   "rows": 28,
-   "sources": 83
-  },
-  {
-   "card": "Q43_when_a_promise_counts",
-   "day": "2026-11-14",
-   "rows": 57,
-   "sources": 73
-  },
-  {
-   "card": "Q44_conceit_craft_open_items",
-   "day": "2026-11-14",
-   "rows": 23,
-   "sources": 28
-  },
-  {
-   "card": "Q45_selling_in_a_stress",
-   "day": "2026-11-15",
+   "card": "Q58_issue_only_against_what_is_owned",
+   "day": "2026-11-16",
    "rows": 38,
-   "sources": 29
+   "sources": 160
   },
   {
-   "card": "Q46_world_fund_case_and_moments",
-   "day": "2026-11-15",
-   "rows": 16,
-   "sources": 17
-  },
-  {
-   "card": "Q47_conceit_intricate",
-   "day": "2026-11-15",
-   "rows": 3,
-   "sources": 48
-  },
-  {
-   "card": "Q4b_cosponsors_in_downturns",
-   "day": "2026-11-09",
-   "rows": 35,
-   "sources": 0
-  },
-  {
-   "card": "Q4c_how_sure_words_and_numbers",
-   "day": "2026-11-11",
-   "rows": 33,
-   "sources": 21
+   "card": "Q59_margins_that_hold",
+   "day": "2026-11-16",
+   "rows": 42,
+   "sources": 40
   },
   {
    "card": "Q5_is_half_right",
@@ -212,6 +170,48 @@
    "day": "2026-11-14",
    "rows": 46,
    "sources": 73
+  },
+  {
+   "card": "Q60_reader_tests_for_a_headline",
+   "day": "2026-11-16",
+   "rows": 44,
+   "sources": 56
+  },
+  {
+   "card": "Q61_world_shares_four_to_six_years",
+   "day": "2026-11-16",
+   "rows": 38,
+   "sources": 15
+  },
+  {
+   "card": "Q62_sinking_funds_and_trust_funds",
+   "day": "2026-11-16",
+   "rows": 41,
+   "sources": 78
+  },
+  {
+   "card": "Q63_the_duty_to_diversify_and_its_exception",
+   "day": "2026-11-16",
+   "rows": 44,
+   "sources": 32
+  },
+  {
+   "card": "Q64_forward_rates_and_overlapping_windows",
+   "day": "2026-11-16",
+   "rows": 35,
+   "sources": 25
+  },
+  {
+   "card": "Q66_building_costs_when_world_shares_fall",
+   "day": "2026-11-16",
+   "rows": 38,
+   "sources": 23
+  },
+  {
+   "card": "Q68_pension_hibernation_and_endgames",
+   "day": "2026-11-16",
+   "rows": 40,
+   "sources": 51
   },
   {
    "card": "Q6_how_far_to_trust_7_5",
