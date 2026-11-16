@@ -329,3 +329,7 @@ footer.foot { max-width: 78rem; margin: 0 auto; padding: 0 16px 2rem; color: var
 .dropped { margin-top: 1.2rem; } .dropped summary { cursor: pointer; color: var(--ink-2); }
 @media (max-width: 480px) { nav.tabs a { padding: .45rem .4rem; font-size: .9em; } }
 a.chip { text-decoration: none; color: inherit; }
+/* Final Report research volume (16 Nov) */
+.vol-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; margin: .6rem 0; }
+table.vol th, table.vol td { padding: .35rem .5rem; text-align: right; white-space: nowrap; }
+table.vol th:first-child, table.vol td:first-child { text-align: left; }
