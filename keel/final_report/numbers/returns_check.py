@@ -31,7 +31,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import engine as E   # noqa: E402
-RESULTS = "2026-11-15"   # completion.RESULTS: the Sun 15 Nov evening re-run (fee charged in the range rule)
+RESULTS = "2026-11-17"   # completion.RESULTS: the Tue 17 Nov evening re-run (the payments' 0.5% margin, the 365.25-day carry)
 
 c = E.Curve(E.load_par())
 I = E.instruments(c)

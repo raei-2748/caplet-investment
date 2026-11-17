@@ -1,0 +1,77 @@
+{
+ "stamp": {
+  "curve": "11/06/2026",
+  "run": "Tue 10 Nov 2026 evening (Sydney); re-run Sun 15 Nov evening",
+  "design": "H_plain",
+  "status": "MODEL"
+ },
+ "route1_other_files": {
+  "backstop_jan2033_from_reserve_composition": 46566.44847009833,
+  "backstop_jan2033_from_reserve_ledger_run_to_2042": 46566.448470098374,
+  "backstop_jan2033_from_escrow_release_schedule": 46566.448470098345,
+  "excess_from_range_rule_dec2032": 7503.0,
+  "half_kept_from_range_rule_jan2033": 21179.0,
+  "total_excess_at_face": 75248.44847009833
+ },
+ "route2_value_conservation": {
+  "deposits_grown_jan2033": 587140.8775120664,
+  "vt_premium_jan2033": 3887.300530993547,
+  "fees_jan2033": 1404.7728880616996,
+  "fee_on_rungs_and_backstop_jan2027": 771.040579715657,
+  "fee_floor_and_moved_dec2032": 383.4170018973611,
+  "payments_value_jan2033": 399089.02046706824,
+  "contribution_jan2033": 115268.12857076705,
+  "returns_jan2033": 75266.25611716289,
+  "returns_in_jan2027_money": 56869.67449731703,
+  "recomputed": {
+   "cost_jan2027": 337499.38026162813,
+   "completion_jan2028": 39161.968069843344,
+   "left_jan2028": 110838.03193015666,
+   "floor_money": 81244.27740480483,
+   "vt_bought": 29593.754525351833,
+   "half_kept_jan2033": 21179.17886958178
+  },
+  "carry_15dec2032_to_1jan2033": 1.0023315527892787,
+  "shares": {
+   "all_money_jan2033": 589623.4051549982,
+   "promised": 0.8723485949520997,
+   "payments": 0.6768541020893787,
+   "contribution": 0.195494492862721,
+   "returned": 0.1276514050479003,
+   "promised_over_deposits_grown": 0.8760370274632509,
+   "returned_over_deposits_grown": 0.128191136062769,
+   "vt_premium_less_fees_over_deposits_grown": 0.004228163526019918
+  },
+  "parts_route1_jan2033": {
+   "backstop": 46566.44847009833,
+   "excess": 7520.493640577958,
+   "half_kept": 21179.0
+  }
+ },
+ "joint_stress_forwards": {
+  "backstop_left_jan2033": 46566.448470098374,
+  "backstop_left_nominal_1jan2042": 75934.02285672241,
+  "excess_paid_dec2032": 7503.134822558946,
+  "excess_jan2033": 7520.628777482818,
+  "half_kept_jan2033": 21179.178869581778,
+  "total_excess_at_face": 75248.7621622391,
+  "total_jan2033": 75266.25611716296,
+  "contribution_paid_dec2032": 115000.0,
+  "contribution_jan2033": 115268.12857076705,
+  "payments_value_jan2033": 399089.02046706824,
+  "carry_15dec2032_to_1jan2033": 1.0023315527892787,
+  "promised_jan2033": 514357.1490378353,
+  "share_returned": 0.12765140504790037,
+  "total_in_jan2027_money": 56869.674497317086
+ },
+ "checks": {
+  "route1_total_excess_at_face_minus_joint_stress": -0.3136921407713089,
+  "route1_backstop_composition_minus_ledger": -4.3655745685100555e-11,
+  "route2_minus_joint_stress_total_jan2033": -7.275957614183426e-11,
+  "route2_minus_route1_total_jan2033": 0.31400648660201114,
+  "route2_floor_money_minus_range_rule": 0.2774048048304394,
+  "route2_half_kept_minus_range_rule": 0.17886958178132772,
+  "route2_cost_minus_reserve_file": 5.820766091346741e-11,
+  "joint_stress_share_returned_minus_route2": 8.326672684688674e-17
+ }
+}

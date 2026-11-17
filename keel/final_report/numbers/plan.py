@@ -11,6 +11,10 @@ Worlds:
            stocks and yields independent. 200,000 paths, seed 2033.
   history  VT replaced by US stocks with dividends (Shiller monthly, every 3-year and 5-year window since 1871);
            yields stay on today's forward curve.
+
+Tue 17 Nov 2026 evening (numbers owner): the one-year carry from 1 Jan 2027 to 1 Jan 2028 is exp(r01 x E.T01), 2027's
+365 days on the engine's 365.25-day count, as Reinvest.grow does; until tonight it was exp(r01), a 365.25-day 2027
+(NUMBERS 8k's $1.14).
 """
 import csv
 import math
@@ -61,7 +65,7 @@ def run(curve, margin=0.0, share=None, deposit=150_000.0, d0=None, d1=None, d2=N
     c27 = s["c27"] * np.exp(-s["dur_l"] * d0)                   # the ten at Jan 2027 prices
     short27 = np.maximum(c27 - 300_000, 0.0)
     left27 = np.maximum(300_000 - c27, 0.0)
-    r01 = np.maximum(s["f01"] + d0, 0.001)
+    r01 = np.maximum(s["f01"] + d0, 0.001) * E.T01            # a year's carry at 2027's rate on 2027's 365 days
     # completion in Jan 2028: the unbought tail (plus the margin), re-priced for a year of carry and the 2027 move
     if margin_fn is None:
         mcost = margin * np.exp(-s["dur_l"] * d1) * np.exp(r01)

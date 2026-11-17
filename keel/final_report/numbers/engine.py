@@ -58,6 +58,13 @@ def yf(d, base=VAL):
     return (d - base).days / 365.25
 
 
+# Tue 17 Nov 2026 evening (numbers owner; NUMBERS 8k's check, 9): 2027 in years on the engine's 365.25-day count
+# (365 / 365.25). The one-year carry from 1 Jan 2027 to 1 Jan 2028 at the 2027 forward rate f01 is exp(f01 x T01), the
+# same day count as Reinvest.grow and Curve.fwd; until tonight plan.py and completion.py carried exp(f01), a 365.25-day
+# 2027, which made the January 2028 completion $1.14 too large.
+T01 = yf(J28, J27)
+
+
 def load_par(path=CURVE_CSV, day=CURVE_DAY):
     for r in csv.DictReader(open(path)):
         if r["Date"] == day:

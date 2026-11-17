@@ -1,0 +1,1190 @@
+{
+ "stamp": {
+  "run": "Mon 16 Nov 2026 (Sydney)",
+  "status": "MODEL",
+  "curve": "11/06/2026",
+  "design": "H_plain",
+  "label": "Ten rungs as written plus a pooled backstop, sufficient without reinvestment after a 0.15% a year fee on all waiting money (Tue 10 Nov call, afternoon) and with every iBond fund flow 0.5% smaller (Tue 17 Nov evening, PAY_MARGIN)",
+  "numbers_section": "8t",
+  "world": "today's forward rates; VT at its median 7.5% a year (plan.run central)",
+  "fees": "iBond funds 0.07% (engine flows; plan.run floor and moved half); VT 0.06%; waiting money earns forwards (the Treasury-bill ETF's 0.15% is the design test's, not the forward world's)",
+  "one_broker": "every holding at one broker (CLAUDE.md; card Q78)",
+  "reading_A": "the contribution leaves when the funds' cash arrives (by Wed 22 Dec 2032, 8h's cash dates)",
+  "reading_B": "the contribution waits at the broker to 1 Jan 2033 (8k's all-money total counts it so)"
+ },
+ "checks": {
+  "reserve_1jan2033": 445655.4689371666,
+  "floor_payout": 102365.47319642748,
+  "moved_half_payout": 20137.661626131423,
+  "half_kept_1jan2033": 21179.178869581778,
+  "all_money_1jan2033_reading_B": 589623.4051549982,
+  "contribution": 115000.0,
+  "excess": 7503.134822558903,
+  "balance_1jan2028_after_purchases": 462495.6965323682
+ },
+ "peak_month_end_reading_A": {
+  "date": "2032-11-30",
+  "total": 587007.915483147,
+  "parts": {
+   "treasury_bonds": 161390.99354227755,
+   "ibond_etfs": 178627.69212842855,
+   "tbill_etf_waiting": 103687.44058815375,
+   "floor_fund": 102158.28043915766,
+   "moved_half_fund": 20096.902007609668,
+   "facility_payout_waiting": 0.0,
+   "vt": 21046.606777519846
+  },
+  "excess_over_500k": 87007.91548314702
+ },
+ "peak_month_end_reading_B": {
+  "date": "2032-12-31",
+  "total": 589541.3835243764,
+  "parts": {
+   "treasury_bonds": 162077.83105735367,
+   "ibond_etfs": 139027.02716484218,
+   "tbill_etf_waiting": 144489.56431946653,
+   "floor_fund": 0.0,
+   "moved_half_fund": 0.0,
+   "facility_payout_waiting": 122771.93760392482,
+   "vt": 21175.0233787892
+  },
+  "excess_over_500k": 89541.38352437643
+ },
+ "first_month_end_above_500k": {
+  "date": "2029-08-31",
+  "total": 501210.17074323783,
+  "previous_month_end": "2029-07-31",
+  "previous_total": 499131.5112190965
+ },
+ "month_ends_above_500k_reading_A": {
+  "count": 40,
+  "first": "2029-08-31",
+  "last": "2032-11-30"
+ },
+ "15dec2032_before_the_funds_pay_out": 588230.5978203132,
+ "21dec2032_reading_A_before_the_contribution_leaves": 588721.798434736,
+ "1jan2033_before_first_payment": {
+  "reading_A": 474355.2765842312,
+  "reading_A_parts": {
+   "treasury_bonds": 162100.03570551955,
+   "ibond_etfs": 139046.07385496385,
+   "tbill_etf_waiting": 144509.35937668322,
+   "floor_fund": 0.0,
+   "moved_half_fund": 0.0,
+   "facility_payout_waiting": 7520.628777482773,
+   "vt": 21179.178869581778
+  },
+  "reading_B": 589623.4051549982
+ },
+ "cash": {
+  "model_uninvested_cash_every_month_end": 0.0,
+  "largest_month_receipts_unswept": {
+   "date": "2032-12-31",
+   "amount": 40360.85732310073
+  },
+  "largest_month_receipts_unswept_before_dec2032": {
+   "date": "2028-05-31",
+   "amount": 3644.9718559533153
+  },
+  "ibtm_own_rung_payout_15dec2032": 39432.95118291433,
+  "december_2032_reserve_receipts": 40360.85732310073,
+  "31dec2032_if_december_receipts_wait_as_cash_reading_A": 47880.45591625774,
+  "31dec2032_if_december_receipts_wait_as_cash_reading_B": 163132.79492702556,
+  "sipc_cash_limit": 250000.0
+ },
+ "nav_basis": {
+  "peak_month_end_reading_A": {
+   "date": "2032-11-30",
+   "total": 587192.1070236315
+  },
+  "first_month_end_above_500k": {
+   "date": "2029-08-31",
+   "total": 501731.0465872592
+  },
+  "note": "iBond funds at net asset value (gross holdings less the fee already charged), as a broker's statement shows them; the headline uses 8h's convention (after the fee still to come)"
+ },
+ "sensitivity_30nov2032": {
+  "central": 587007.915483147,
+  "parallel_yield_move_that_day": {
+   "-1%": 600004.5045107289,
+   "+1%": 574731.9330774118,
+   "+2%": 563130.0110606779
+  },
+  "rise_that_takes_it_under_500k": 0.08680873060290215,
+  "reserve_bonds_and_ibond_etfs_value": 340018.6856707061,
+  "their_duration_years": 3.7129257626717984
+ },
+ "month_ends": [
+  {
+   "date": "2028-01-31",
+   "reading": "A and B",
+   "total": 464288.0728023514,
+   "parts": {
+    "treasury_bonds": 160680.4825281935,
+    "ibond_etfs": 174319.0170552837,
+    "tbill_etf_waiting": 17975.970460935358,
+    "floor_fund": 81544.04288041443,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 29768.559877524396
+   },
+   "above_sipc_500k": false,
+   "excess_over_500k": -35711.92719764862,
+   "cash_if_month_receipts_unswept": 2327.6964212982875
+  },
+  {
+   "date": "2028-02-29",
+   "reading": "A and B",
+   "total": 466027.42992076743,
+   "parts": {
+    "treasury_bonds": 160440.90907288773,
+    "ibond_etfs": 174950.44766337797,
+    "tbill_etf_waiting": 18862.68588994302,
+    "floor_fund": 81834.8674819712,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 29938.519812587496
+   },
+   "above_sipc_500k": false,
+   "excess_over_500k": -33972.570079232566,
+   "cash_if_month_receipts_unswept": 821.6016040734895
+  },
+  {
+   "date": "2028-03-31",
+   "reading": "A and B",
+   "total": 467894.0848550398,
+   "parts": {
+    "treasury_bonds": 161062.22695538856,
+    "ibond_etfs": 175627.95468021644,
+    "tbill_etf_waiting": 18935.73287105989,
+    "floor_fund": 82146.89602960293,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 30121.274318771946
+   },
+   "above_sipc_500k": false,
+   "excess_over_500k": -32105.91514496022,
+   "cash_if_month_receipts_unswept": 0.0
+  },
+  {
+   "date": "2028-04-30",
+   "reading": "A and B",
+   "total": 469707.7781302912,
+   "parts": {
+    "treasury_bonds": 161665.79315223196,
+    "ibond_etfs": 176286.1046305154,
+    "tbill_etf_waiting": 19006.69282541712,
+    "floor_fund": 82449.99188010165,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 30299.195642025094
+   },
+   "above_sipc_500k": false,
+   "excess_over_500k": -30292.221869708796,
+   "cash_if_month_receipts_unswept": 0.0
+  },
+  {
+   "date": "2028-05-31",
+   "reading": "A and B",
+   "total": 471642.5804823106,
+   "parts": {
+    "treasury_bonds": 159506.1847462911,
+    "ibond_etfs": 176150.34254176385,
+    "tbill_etf_waiting": 22727.567372488753,
+    "floor_fund": 82774.33399045763,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 30484.15183130925
+   },
+   "above_sipc_500k": false,
+   "excess_over_500k": -28357.419517689385,
+   "cash_if_month_receipts_unswept": 3644.9718559533153
+  },
+  {
+   "date": "2028-06-30",
+   "reading": "A and B",
+   "total": 473537.388502492,
+   "parts": {
+    "treasury_bonds": 160127.8989508715,
+    "ibond_etfs": 175993.17122246145,
+    "tbill_etf_waiting": 23659.91378464189,
+    "floor_fund": 83092.18793325614,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 30664.21661126101
+   },
+   "above_sipc_500k": false,
+   "excess_over_500k": -26462.611497508013,
+   "cash_if_month_receipts_unswept": 843.7601827632773
+  },
+  {
+   "date": "2028-07-31",
+   "reading": "A and B",
+   "total": 475503.4767935393,
+   "parts": {
+    "treasury_bonds": 160772.88286535448,
+    "ibond_etfs": 174374.86131447254,
+    "tbill_etf_waiting": 26082.412276569794,
+    "floor_fund": 83421.91932934467,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 30851.401007797802
+   },
+   "above_sipc_500k": false,
+   "excess_over_500k": -24496.523206460697,
+   "cash_if_month_receipts_unswept": 2327.198023307975
+  },
+  {
+   "date": "2028-08-31",
+   "reading": "A and B",
+   "total": 477477.8533440669,
+   "parts": {
+    "treasury_bonds": 160598.5925827238,
+    "ibond_etfs": 175077.2309913051,
+    "tbill_etf_waiting": 27009.3425456867,
+    "floor_fund": 83752.95918530498,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 31039.728039046287
+   },
+   "above_sipc_500k": false,
+   "excess_over_500k": -22522.146655933117,
+   "cash_if_month_receipts_unswept": 821.8721469563429
+  },
+  {
+   "date": "2028-09-30",
+   "reading": "A and B",
+   "total": 479396.46546011936,
+   "parts": {
+    "treasury_bonds": 161224.56471291502,
+    "ibond_etfs": 175759.6371411296,
+    "tbill_etf_waiting": 27114.61803668877,
+    "floor_fund": 84074.57105476635,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 31223.074514619635
+   },
+   "above_sipc_500k": false,
+   "excess_over_500k": -20603.53453988064,
+   "cash_if_month_receipts_unswept": 0.0
+  },
+  {
+   "date": "2028-10-31",
+   "reading": "A and B",
+   "total": 481387.2554933712,
+   "parts": {
+    "treasury_bonds": 161873.96591995412,
+    "ibond_etfs": 176467.58459759474,
+    "tbill_etf_waiting": 27223.833811051572,
+    "floor_fund": 84408.20080238716,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 31413.670362383647
+   },
+   "above_sipc_500k": false,
+   "excess_over_500k": -18612.744506628776,
+   "cash_if_month_receipts_unswept": 0.0
+  },
+  {
+   "date": "2028-11-30",
+   "reading": "A and B",
+   "total": 483300.1536961587,
+   "parts": {
+    "treasury_bonds": 159692.3450901516,
+    "ibond_etfs": 176307.59094885265,
+    "tbill_etf_waiting": 30972.727075204053,
+    "floor_fund": 84728.26492931038,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 31599.225652640078
+   },
+   "above_sipc_500k": false,
+   "excess_over_500k": -16699.846303841274,
+   "cash_if_month_receipts_unswept": 3644.0925214465638
+  },
+  {
+   "date": "2028-12-31",
+   "reading": "A and B",
+   "total": 485279.88780323794,
+   "parts": {
+    "treasury_bonds": 160325.8446013985,
+    "ibond_etfs": 176163.47413583047,
+    "tbill_etf_waiting": 31939.124881627828,
+    "floor_fund": 85059.32653453782,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 31792.117649843338
+   },
+   "above_sipc_500k": false,
+   "excess_over_500k": -14720.112196762057,
+   "cash_if_month_receipts_unswept": 843.5290023301864
+  },
+  {
+   "date": "2029-01-31",
+   "reading": "A and B",
+   "total": 487267.86803532013,
+   "parts": {
+    "treasury_bonds": 160961.8572051204,
+    "ibond_etfs": 174536.06034607204,
+    "tbill_etf_waiting": 34392.08165337674,
+    "floor_fund": 85391.68170793343,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 31986.187122817486
+   },
+   "above_sipc_500k": false,
+   "excess_over_500k": -12732.131964679866,
+   "cash_if_month_receipts_unswept": 2326.2542676887174
+  },
+  {
+   "date": "2029-02-28",
+   "reading": "A and B",
+   "total": 489070.5800400152,
+   "parts": {
+    "treasury_bonds": 160716.95697102253,
+    "ibond_etfs": 175161.32005055435,
+    "tbill_etf_waiting": 35336.81976532017,
+    "floor_fund": 85692.98953071571,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 32162.493722402447
+   },
+   "above_sipc_500k": false,
+   "excess_over_500k": -10929.419959984778,
+   "cash_if_month_receipts_unswept": 821.5315793307097
+  },
+  {
+   "date": "2029-03-31",
+   "reading": "A and B",
+   "total": 491074.3517541707,
+   "parts": {
+    "treasury_bonds": 161354.52111746155,
+    "ibond_etfs": 175856.18498336477,
+    "tbill_etf_waiting": 35477.00092452172,
+    "floor_fund": 86027.82063689319,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 32358.8240919295
+   },
+   "above_sipc_500k": false,
+   "excess_over_500k": -8925.648245829274,
+   "cash_if_month_receipts_unswept": 0.0
+  },
+  {
+   "date": "2029-04-30",
+   "reading": "A and B",
+   "total": 493021.43429210375,
+   "parts": {
+    "treasury_bonds": 161973.92672726445,
+    "ibond_etfs": 176531.25938935514,
+    "tbill_etf_waiting": 35613.18956825757,
+    "floor_fund": 86353.09636023689,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 32549.962246989682
+   },
+   "above_sipc_500k": false,
+   "excess_over_500k": -6978.565707896254,
+   "cash_if_month_receipts_unswept": 0.0
+  },
+  {
+   "date": "2029-05-31",
+   "reading": "A and B",
+   "total": 495066.76711662783,
+   "parts": {
+    "treasury_bonds": 159820.07583731686,
+    "ibond_etfs": 176401.99982719315,
+    "tbill_etf_waiting": 39400.82018246586,
+    "floor_fund": 86695.21341867086,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 32748.657850981104
+   },
+   "above_sipc_500k": false,
+   "excess_over_500k": -4933.232883372169,
+   "cash_if_month_receipts_unswept": 3644.4118759038884
+  },
+  {
+   "date": "2029-06-30",
+   "reading": "A and B",
+   "total": 497061.60441743187,
+   "parts": {
+    "treasury_bonds": 160444.53616266174,
+    "ibond_etfs": 176248.0733311925,
+    "tbill_etf_waiting": 40397.94674884283,
+    "floor_fund": 87028.94948596084,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 32942.098688773935
+   },
+   "above_sipc_500k": false,
+   "excess_over_500k": -2938.3955825681332,
+   "cash_if_month_receipts_unswept": 843.1768897728547
+  },
+  {
+   "date": "2029-07-31",
+   "reading": "A and B",
+   "total": 499131.5112190965,
+   "parts": {
+    "treasury_bonds": 161092.37523129745,
+    "ibond_etfs": 174634.133577435,
+    "tbill_etf_waiting": 42886.654564069235,
+    "floor_fund": 87375.15982457345,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 33143.18802172136
+   },
+   "above_sipc_500k": false,
+   "excess_over_500k": -868.4887809035135,
+   "cash_if_month_receipts_unswept": 2325.5899626494147
+  },
+  {
+   "date": "2029-08-31",
+   "reading": "A and B",
+   "total": 501210.17074323783,
+   "parts": {
+    "treasury_bonds": 160920.95382200857,
+    "ibond_etfs": 175339.26705941354,
+    "tbill_etf_waiting": 43881.69756773812,
+    "floor_fund": 87722.74742442237,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 33345.50486965522
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 1210.1707432378316,
+   "cash_if_month_receipts_unswept": 821.8763068514974
+  },
+  {
+   "date": "2029-09-30",
+   "reading": "A and B",
+   "total": 503230.14609062055,
+   "parts": {
+    "treasury_bonds": 161549.71557582467,
+    "ibond_etfs": 176024.365068409,
+    "tbill_etf_waiting": 44053.155245982074,
+    "floor_fund": 88060.43901756623,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 33542.47118283858
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 3230.1460906205466,
+   "cash_if_month_receipts_unswept": 0.0
+  },
+  {
+   "date": "2029-10-31",
+   "reading": "A and B",
+   "total": 505326.13923165464,
+   "parts": {
+    "treasury_bonds": 162202.0171111721,
+    "ibond_etfs": 176735.1119934866,
+    "tbill_etf_waiting": 44231.03201104739,
+    "floor_fund": 88410.75273031037,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 33747.225385638165
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 5326.139231654641,
+   "cash_if_month_receipts_unswept": 0.0
+  },
+  {
+   "date": "2029-11-30",
+   "reading": "A and B",
+   "total": 507325.9034435636,
+   "parts": {
+    "treasury_bonds": 160018.30832948317,
+    "ibond_etfs": 176573.0590925267,
+    "tbill_etf_waiting": 48043.82563595047,
+    "floor_fund": 88744.1457909665,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 33946.564594636795
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 7325.903443563613,
+   "cash_if_month_receipts_unswept": 3643.446733944962
+  },
+  {
+   "date": "2029-12-31",
+   "reading": "A and B",
+   "total": 509391.67043020524,
+   "parts": {
+    "treasury_bonds": 160648.34992270492,
+    "ibond_etfs": 176425.3646376992,
+    "tbill_etf_waiting": 49075.9062675612,
+    "floor_fund": 89088.26408659607,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 34153.78551564382
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 9391.670430205239,
+   "cash_if_month_receipts_unswept": 842.9172242223065
+  },
+  {
+   "date": "2030-01-31",
+   "reading": "A and B",
+   "total": 511465.999500377,
+   "parts": {
+    "treasury_bonds": 161280.87218462845,
+    "ibond_etfs": 174795.4387605338,
+    "tbill_etf_waiting": 51593.70042353715,
+    "floor_fund": 89433.7167508235,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 34362.27138085406
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 11465.999500376987,
+   "cash_if_month_receipts_unswept": 2324.56712779145
+  },
+  {
+   "date": "2030-02-28",
+   "reading": "A and B",
+   "total": 513346.976592828,
+   "parts": {
+    "treasury_bonds": 161032.80153500964,
+    "ibond_etfs": 175416.94193430658,
+    "tbill_etf_waiting": 52598.668526714515,
+    "floor_fund": 89746.88973381161,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 34551.67486298564
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 13346.976592827996,
+   "cash_if_month_receipts_unswept": 821.5213909102172
+  },
+  {
+   "date": "2030-03-31",
+   "reading": "A and B",
+   "total": 515437.70186381764,
+   "parts": {
+    "treasury_bonds": 161666.83750188895,
+    "ibond_etfs": 176107.61271272035,
+    "tbill_etf_waiting": 52805.765759936585,
+    "floor_fund": 90094.8963145048,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 34762.58957476694
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 15437.701863817638,
+   "cash_if_month_receipts_unswept": 0.0
+  },
+  {
+   "date": "2030-04-30",
+   "reading": "A and B",
+   "total": 517469.23721650796,
+   "parts": {
+    "treasury_bonds": 162282.79749641073,
+    "ibond_etfs": 176778.59289540927,
+    "tbill_etf_waiting": 53006.95877942533,
+    "floor_fund": 90432.96167526608,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 34967.926369996545
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 17469.237216507958,
+   "cash_if_month_receipts_unswept": 0.0
+  },
+  {
+   "date": "2030-05-31",
+   "reading": "A and B",
+   "total": 519585.3847807347,
+   "parts": {
+    "treasury_bonds": 160119.43881977373,
+    "ibond_etfs": 176639.1353445839,
+    "tbill_etf_waiting": 56860.238712385166,
+    "floor_fund": 90785.18988702129,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 35181.38201697065
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 19585.38478073472,
+   "cash_if_month_receipts_unswept": 3643.659937109538
+  },
+  {
+   "date": "2030-06-30",
+   "reading": "A and B",
+   "total": 521644.1802275063,
+   "parts": {
+    "treasury_bonds": 160733.01325151403,
+    "ibond_etfs": 176473.48061459616,
+    "tbill_etf_waiting": 57920.658292941465,
+    "floor_fund": 91127.83551942985,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 35389.19254902483
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 21644.180227506324,
+   "cash_if_month_receipts_unswept": 842.5323026984627
+  },
+  {
+   "date": "2030-07-31",
+   "reading": "A and B",
+   "total": 523780.3228895314,
+   "parts": {
+    "treasury_bonds": 161369.51034058494,
+    "ibond_etfs": 174848.50310251134,
+    "tbill_etf_waiting": 60473.82836542136,
+    "floor_fund": 91483.26133862566,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 35605.219742388086
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 23780.32288953138,
+   "cash_if_month_receipts_unswept": 2323.8062992590167
+  },
+  {
+   "date": "2030-08-31",
+   "reading": "A and B",
+   "total": 525925.3666352177,
+   "parts": {
+    "treasury_bonds": 161186.6845037544,
+    "ibond_etfs": 175540.89703579125,
+    "tbill_etf_waiting": 61535.14603451281,
+    "floor_fund": 91840.07342484112,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 35822.565636318126
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 25925.36663521768,
+   "cash_if_month_receipts_unswept": 821.84343202644
+  },
+  {
+   "date": "2030-09-30",
+   "reading": "A and B",
+   "total": 528009.7262227769,
+   "parts": {
+    "treasury_bonds": 161804.3485992413,
+    "ibond_etfs": 176213.5661816477,
+    "tbill_etf_waiting": 61770.94746211258,
+    "floor_fund": 92186.70044713696,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 36034.16353263834
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 28009.726222776924,
+   "cash_if_month_receipts_unswept": 0.0
+  },
+  {
+   "date": "2030-10-31",
+   "reading": "A and B",
+   "total": 530172.3960966379,
+   "parts": {
+    "treasury_bonds": 162445.0881386742,
+    "ibond_etfs": 176911.36571679317,
+    "tbill_etf_waiting": 62015.55824525806,
+    "floor_fund": 92546.2561563077,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 36254.12783960479
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 30172.396096637938,
+   "cash_if_month_receipts_unswept": 0.0
+  },
+  {
+   "date": "2030-11-30",
+   "reading": "A and B",
+   "total": 532282.660946509,
+   "parts": {
+    "treasury_bonds": 160265.66920375748,
+    "ibond_etfs": 176754.27386887046,
+    "tbill_etf_waiting": 65897.25017616538,
+    "floor_fund": 92897.19279612583,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 36468.27490158985
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 32282.660946508986,
+   "cash_if_month_receipts_unswept": 3642.947652286738
+  },
+  {
+   "date": "2030-12-31",
+   "reading": "A and B",
+   "total": 534474.5207476133,
+   "parts": {
+    "treasury_bonds": 160903.9943518162,
+    "ibond_etfs": 176615.91087512326,
+    "tbill_etf_waiting": 67002.07448868561,
+    "floor_fund": 93261.6518658068,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 0.0,
+    "vt": 36690.889166181405
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 34474.52074761328,
+   "cash_if_month_receipts_unswept": 842.3609154349869
+  },
+  {
+   "date": "2031-01-31",
+   "reading": "A and B",
+   "total": 536636.7880786475,
+   "parts": {
+    "treasury_bonds": 161544.86189711234,
+    "ibond_etfs": 174996.32474902837,
+    "tbill_etf_waiting": 69591.97127051683,
+    "floor_fund": 93627.54080015291,
+    "moved_half_fund": 18418.707760011548,
+    "facility_payout_waiting": 0.0,
+    "vt": 18457.38160182548
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 36636.788078647456,
+   "cash_if_month_receipts_unswept": 2323.032959212681
+  },
+  {
+   "date": "2031-02-28",
+   "reading": "A and B",
+   "total": 538596.220478094,
+   "parts": {
+    "treasury_bonds": 161304.3666273569,
+    "ibond_etfs": 175625.7485107053,
+    "tbill_etf_waiting": 70663.81551404699,
+    "floor_fund": 93959.25479282367,
+    "moved_half_fund": 18483.963592202534,
+    "facility_payout_waiting": 0.0,
+    "vt": 18559.071440958553
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 38596.22047809395,
+   "cash_if_month_receipts_unswept": 821.5370419222093
+  },
+  {
+   "date": "2031-03-31",
+   "reading": "A and B",
+   "total": 540774.0158762444,
+   "parts": {
+    "treasury_bonds": 161946.82882291952,
+    "ibond_etfs": 176325.25160751946,
+    "tbill_etf_waiting": 70945.26375386343,
+    "floor_fund": 94327.88059904006,
+    "moved_half_fund": 18556.48083381193,
+    "facility_payout_waiting": 0.0,
+    "vt": 18672.31025908997
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 40774.015876244404,
+   "cash_if_month_receipts_unswept": 0.0
+  },
+  {
+   "date": "2031-04-30",
+   "reading": "A and B",
+   "total": 542890.0215844997,
+   "parts": {
+    "treasury_bonds": 162571.00271689333,
+    "ibond_etfs": 177004.84267887136,
+    "tbill_etf_waiting": 71218.70030003176,
+    "floor_fund": 94685.99217846857,
+    "moved_half_fund": 18626.92968327011,
+    "facility_payout_waiting": 0.0,
+    "vt": 18782.554026964623
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 42890.021584499744,
+   "cash_if_month_receipts_unswept": 0.0
+  },
+  {
+   "date": "2031-05-31",
+   "reading": "A and B",
+   "total": 545094.533680859,
+   "parts": {
+    "treasury_bonds": 160416.17665617092,
+    "ibond_etfs": 176874.95487033523,
+    "tbill_etf_waiting": 75146.78124237977,
+    "floor_fund": 95059.12994755412,
+    "moved_half_fund": 18700.334532572724,
+    "facility_payout_waiting": 0.0,
+    "vt": 18897.156431846204
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 45094.53368085902,
+   "cash_if_month_receipts_unswept": 3643.173393580348
+  },
+  {
+   "date": "2031-06-30",
+   "reading": "A and B",
+   "total": 547239.4462792267,
+   "parts": {
+    "treasury_bonds": 161038.0620446201,
+    "ibond_etfs": 176718.67056325995,
+    "tbill_etf_waiting": 76280.0782081973,
+    "floor_fund": 95422.15731136751,
+    "moved_half_fund": 18771.75043077771,
+    "facility_payout_waiting": 0.0,
+    "vt": 19008.727721004132
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 47239.446279226686,
+   "cash_if_month_receipts_unswept": 841.9754406586619
+  },
+  {
+   "date": "2031-07-31",
+   "reading": "A and B",
+   "total": 549464.803212649,
+   "parts": {
+    "treasury_bonds": 161683.2098006056,
+    "ibond_etfs": 175104.36383330333,
+    "tbill_etf_waiting": 78907.94392517055,
+    "floor_fund": 95798.74212699891,
+    "moved_half_fund": 18845.83339404572,
+    "facility_payout_waiting": 0.0,
+    "vt": 19124.710132524888
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 49464.803212648956,
+   "cash_if_month_receipts_unswept": 2322.2738546669225
+  },
+  {
+   "date": "2031-08-31",
+   "reading": "A and B",
+   "total": 551699.2914639674,
+   "parts": {
+    "treasury_bonds": 161509.07917714774,
+    "ibond_etfs": 175805.8637517451,
+    "tbill_etf_waiting": 80045.9264539821,
+    "floor_fund": 96176.81313962437,
+    "moved_half_fund": 18920.208726715668,
+    "facility_payout_waiting": 0.0,
+    "vt": 19241.40021475247
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 51699.29146396741,
+   "cash_if_month_receipts_unswept": 821.8629586527143
+  },
+  {
+   "date": "2031-09-30",
+   "reading": "A and B",
+   "total": 553870.4294316233,
+   "parts": {
+    "treasury_bonds": 162135.20142077567,
+    "ibond_etfs": 176487.41033981307,
+    "tbill_etf_waiting": 80356.240495273,
+    "floor_fund": 96544.10889494336,
+    "moved_half_fund": 18992.46431648015,
+    "facility_payout_waiting": 0.0,
+    "vt": 19355.003964338084
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 53870.42943162331,
+   "cash_if_month_receipts_unswept": 0.0
+  },
+  {
+   "date": "2031-10-31",
+   "reading": "A and B",
+   "total": 556122.9967452791,
+   "parts": {
+    "treasury_bonds": 162784.74451658045,
+    "ibond_etfs": 177194.45099402108,
+    "tbill_etf_waiting": 80678.16220481643,
+    "floor_fund": 96925.12150745287,
+    "moved_half_fund": 19067.418330039796,
+    "facility_payout_waiting": 0.0,
+    "vt": 19473.099192368376
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 56122.99674527906,
+   "cash_if_month_receipts_unswept": 0.0
+  },
+  {
+   "date": "2031-11-30",
+   "reading": "A and B",
+   "total": 558374.482698278,
+   "parts": {
+    "treasury_bonds": 160629.82642656114,
+    "ibond_etfs": 177064.4253981605,
+    "tbill_etf_waiting": 84643.07991876111,
+    "floor_fund": 97306.61340217768,
+    "moved_half_fund": 19142.46662952197,
+    "facility_payout_waiting": 0.0,
+    "vt": 19588.070923095616
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 58374.482698278036,
+   "cash_if_month_receipts_unswept": 3642.714346643108
+  },
+  {
+   "date": "2031-12-31",
+   "reading": "A and B",
+   "total": 560727.8114079644,
+   "parts": {
+    "treasury_bonds": 161297.8704094833,
+    "ibond_etfs": 176958.9191185783,
+    "tbill_etf_waiting": 85837.00251617111,
+    "floor_fund": 97705.49521704206,
+    "moved_half_fund": 19220.935929430765,
+    "facility_payout_waiting": 0.0,
+    "vt": 19707.588217258857
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 60727.811407964444,
+   "cash_if_month_receipts_unswept": 841.9001773299717
+  },
+  {
+   "date": "2032-01-31",
+   "reading": "A and B",
+   "total": 563091.131076024,
+   "parts": {
+    "treasury_bonds": 161968.6927230122,
+    "ibond_etfs": 175373.11187380648,
+    "tbill_etf_waiting": 88515.75269744583,
+    "floor_fund": 98106.01213867532,
+    "moved_half_fund": 19299.726892746232,
+    "facility_payout_waiting": 0.0,
+    "vt": 19827.834750337985
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 63091.13107602403,
+   "cash_if_month_receipts_unswept": 2321.76235206092
+  },
+  {
+   "date": "2032-02-29",
+   "reading": "A and B",
+   "total": 565311.0613483557,
+   "parts": {
+    "treasury_bonds": 161777.0542240034,
+    "ibond_etfs": 176055.32488289571,
+    "tbill_etf_waiting": 89681.79226292658,
+    "floor_fund": 98482.17546956029,
+    "moved_half_fund": 19373.726940193716,
+    "facility_payout_waiting": 0.0,
+    "vt": 19940.98756877605
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 65311.061348355724,
+   "cash_if_month_receipts_unswept": 821.7074306721692
+  },
+  {
+   "date": "2032-03-31",
+   "reading": "A and B",
+   "total": 567693.8402518748,
+   "parts": {
+    "treasury_bonds": 162449.86941688185,
+    "ibond_etfs": 176787.5220287551,
+    "tbill_etf_waiting": 90054.77020252675,
+    "floor_fund": 98885.87617919994,
+    "moved_half_fund": 19453.144228416993,
+    "facility_payout_waiting": 0.0,
+    "vt": 20062.658196094075
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 67693.84025187476,
+   "cash_if_month_receipts_unswept": 0.0
+  },
+  {
+   "date": "2032-04-30",
+   "reading": "A and B",
+   "total": 570009.3878720587,
+   "parts": {
+    "treasury_bonds": 163103.64500882372,
+    "ibond_etfs": 177498.99915875934,
+    "tbill_etf_waiting": 90417.19345905309,
+    "floor_fund": 99278.1298635477,
+    "moved_half_fund": 19530.30962139907,
+    "facility_payout_waiting": 0.0,
+    "vt": 20181.11076047571
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 70009.38787205867,
+   "cash_if_month_receipts_unswept": 0.0
+  },
+  {
+   "date": "2032-05-31",
+   "reading": "A and B",
+   "total": 572432.6713693327,
+   "parts": {
+    "treasury_bonds": 160982.60067919243,
+    "ibond_etfs": 177406.29104658746,
+    "tbill_etf_waiting": 94439.62959544935,
+    "floor_fund": 99688.80466514263,
+    "moved_half_fund": 19611.098875184158,
+    "facility_payout_waiting": 0.0,
+    "vt": 20304.24650777673
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 72432.6713693327,
+   "cash_if_month_receipts_unswept": 3643.0194849011486
+  },
+  {
+   "date": "2032-06-30",
+   "reading": "A and B",
+   "total": 574793.3532612304,
+   "parts": {
+    "treasury_bonds": 161637.95425993216,
+    "ibond_etfs": 177286.97884586093,
+    "tbill_etf_waiting": 95665.61541649656,
+    "floor_fund": 100088.87693293479,
+    "moved_half_fund": 19689.80236478107,
+    "facility_payout_waiting": 0.0,
+    "vt": 20424.1254412249
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 74793.3532612304,
+   "cash_if_month_receipts_unswept": 841.5259529745299
+  },
+  {
+   "date": "2032-07-31",
+   "reading": "A and B",
+   "total": 577243.0229419465,
+   "parts": {
+    "treasury_bonds": 162317.95588235458,
+    "ibond_etfs": 176517.39381239712,
+    "tbill_etf_waiting": 97583.49639191653,
+    "floor_fund": 100503.97176351534,
+    "moved_half_fund": 19771.46114073326,
+    "facility_payout_waiting": 0.0,
+    "vt": 20548.743951029646
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 77243.02294194652,
+   "cash_if_month_receipts_unswept": 1515.4212066664363
+  },
+  {
+   "date": "2032-08-31",
+   "reading": "A and B",
+   "total": 579703.2046975631,
+   "parts": {
+    "treasury_bonds": 162178.87045768788,
+    "ibond_etfs": 177259.9923854102,
+    "tbill_etf_waiting": 98815.97235116147,
+    "floor_fund": 100920.78810125683,
+    "moved_half_fund": 19853.458577052195,
+    "facility_payout_waiting": 0.0,
+    "vt": 20674.122824994454
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 79703.20469756308,
+   "cash_if_month_receipts_unswept": 821.9477749953855
+  },
+  {
+   "date": "2032-09-30",
+   "reading": "A and B",
+   "total": 582094.077540482,
+   "parts": {
+    "treasury_bonds": 162839.09400375045,
+    "ibond_etfs": 177981.6105617944,
+    "tbill_etf_waiting": 99218.2481315341,
+    "floor_fund": 101325.80457927226,
+    "moved_half_fund": 19933.134707417277,
+    "facility_payout_waiting": 0.0,
+    "vt": 20796.18555671353
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 82094.07754048205,
+   "cash_if_month_receipts_unswept": 0.0
+  },
+  {
+   "date": "2032-10-31",
+   "reading": "A and B",
+   "total": 584575.0775099432,
+   "parts": {
+    "treasury_bonds": 163524.1487523293,
+    "ibond_etfs": 178730.3690108695,
+    "tbill_etf_waiting": 99635.65362278915,
+    "floor_fund": 101746.02927330544,
+    "moved_half_fund": 20015.802646431704,
+    "facility_payout_waiting": 0.0,
+    "vt": 20923.0742042181
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 84575.07750994316,
+   "cash_if_month_receipts_unswept": 0.0
+  },
+  {
+   "date": "2032-11-30",
+   "reading": "A and B",
+   "total": 587007.915483147,
+   "parts": {
+    "treasury_bonds": 161390.99354227755,
+    "ibond_etfs": 178627.69212842855,
+    "tbill_etf_waiting": 103687.44058815375,
+    "floor_fund": 102158.28043915766,
+    "moved_half_fund": 20096.902007609668,
+    "facility_payout_waiting": 0.0,
+    "vt": 21046.606777519846
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 87007.91548314702,
+   "cash_if_month_receipts_unswept": 3642.3326203164156
+  },
+  {
+   "date": "2032-12-31",
+   "reading": "A",
+   "total": 474289.04451360856,
+   "parts": {
+    "treasury_bonds": 162077.83105735367,
+    "ibond_etfs": 139027.02716484218,
+    "tbill_etf_waiting": 144489.56431946653,
+    "floor_fund": 0.0,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 7519.598593157008,
+    "vt": 21175.0233787892
+   },
+   "above_sipc_500k": false,
+   "excess_over_500k": -25710.955486391438,
+   "cash_if_month_receipts_unswept": 40360.85732310073
+  },
+  {
+   "date": "2032-12-31",
+   "reading": "B",
+   "total": 589541.3835243764,
+   "parts": {
+    "treasury_bonds": 162077.83105735367,
+    "ibond_etfs": 139027.02716484218,
+    "tbill_etf_waiting": 144489.56431946653,
+    "floor_fund": 0.0,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 122771.93760392482,
+    "vt": 21175.0233787892
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 89541.38352437643,
+   "cash_if_month_receipts_unswept": 40360.85732310073
+  },
+  {
+   "date": "2033-01-01",
+   "reading": "A",
+   "total": 474355.2765842312,
+   "parts": {
+    "treasury_bonds": 162100.03570551955,
+    "ibond_etfs": 139046.07385496385,
+    "tbill_etf_waiting": 144509.35937668322,
+    "floor_fund": 0.0,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 7520.628777482773,
+    "vt": 21179.178869581778
+   },
+   "above_sipc_500k": false,
+   "excess_over_500k": -25644.72341576882,
+   "cash_if_month_receipts_unswept": null
+  },
+  {
+   "date": "2033-01-01",
+   "reading": "B",
+   "total": 589623.4051549982,
+   "parts": {
+    "treasury_bonds": 162100.03570551955,
+    "ibond_etfs": 139046.07385496385,
+    "tbill_etf_waiting": 144509.35937668322,
+    "floor_fund": 0.0,
+    "moved_half_fund": 0.0,
+    "facility_payout_waiting": 122788.75734824983,
+    "vt": 21179.178869581778
+   },
+   "above_sipc_500k": true,
+   "excess_over_500k": 89623.40515499818,
+   "cash_if_month_receipts_unswept": null
+  }
+ ]
+}

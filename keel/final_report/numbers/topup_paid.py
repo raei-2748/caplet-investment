@@ -1,8 +1,8 @@
 """What the top-up pays, reconciled with what it costs (numbers owner, Fri 13 Nov 2026, Sydney). MODEL.
 
 Figure 1's right-hand column ("What the top-up pays", NUMBERS 8h) totals $55,920 if nothing earns interest and waiting
-money pays the Treasury-bill ETF's 0.15% fee; the top-up's part bought for that (NUMBERS 2) costs $35,894 in January
-2028. A bond reader (research/panel/2026-11-12_bond_desk_table3_built.md, section 2) guessed the bridge: $36,867 of face
+money pays the Treasury-bill ETF's 0.15% fee; the top-up's part bought for that (NUMBERS 2) costs $36,774 in January
+2028 ($35,894 before Tue 17 Nov evening's re-size: the payments' 0.5% margin, 365.25-day fix). A bond reader (research/panel/2026-11-12_bond_desk_table3_built.md, section 2) guessed the bridge: $36,867 of face
 and fund dollars plus about $19,000 of their coupons, summed undiscounted over the ten payment years. This script checks
 it on the engine, and writes the cash dates Figure 1 uses (when the money reaches Laura, not when a fund ends).
 
@@ -33,7 +33,7 @@ rows, face, interest = [], 0.0, 0.0
 for y, u in BACK.items():
     fl = E.rung_flows(I[y], C.ZERO)                   # at zero the fund's final payout is its cash, nothing added
     tot = u * sum(a for _, a, _ in fl)
-    price28 = u * I[y].price * math.exp(f01)         # its 1 Jan 2027 cost carried a year, as completion_exact does
+    price28 = u * I[y].price * math.exp(f01 * E.T01)  # its 1 Jan 2027 cost carried a year, as completion_exact does
     rows.append({"pays_for": y, "holding": I[y].name, "face_or_fund_dollars": u, "cost_jan2027": u * I[y].price,
                  "price_jan2028": price28, "price_per_100_face_jan2028": 100 * price28 / u,
                  "all_flows_undiscounted": tot, "interest_undiscounted": tot - u,
@@ -52,7 +52,7 @@ covers_fee = sum(E.PAYMENT - min(own_fee[y], E.PAYMENT) for y in Y)
 topup28 = C.completion_exact(0.0)[0]
 tail28 = C.completion_exact(0.0, "plain")[0]
 
-out = {"stamp": {"run": "Fri 13 Nov 2026 (Sydney); re-run Sun 15 Nov evening (unchanged by the range rule)", "design": C.CALL, "curve": E.CURVE_DAY},
+out = {"stamp": {"run": "Fri 13 Nov 2026 (Sydney); re-run Sun 15 Nov evening (unchanged by the range rule); re-run Tue 17 Nov evening (the payments' 0.5% margin, the 365.25-day carry)", "design": C.CALL, "curve": E.CURVE_DAY},
        "topup_jan2028": topup28, "ten_still_lack_jan2028": tail28, "for_no_interest_jan2028": topup28 - tail28,
        "for_no_interest_jan2027": C.cost(C.BACKSTOP),
        "holdings": rows,

@@ -54,7 +54,7 @@ import plan as P          # noqa: E402
 import completion as C    # noqa: E402
 
 RUN = "Mon 16 Nov 2026 (Sydney)"
-OUTFILE = HERE / "results_taiwan_joint_2026-11-16.json"
+OUTFILE = HERE / f"results_taiwan_joint_{C.RESULTS}.json"   # Tue 17 Nov evening re-run; the 2026-11-16 file is the record
 NAME = C.design_arg()
 DSG = C.design(NAME)
 MARGIN = DSG["margin"]
@@ -239,21 +239,23 @@ WORLDS = {
                   label="joint replay, 585 windows (Jan 1962 to Sep 2010 starts), funds pay as realised"),
 }
 # register checks: section 4's central figures and 8f's pots, 8j's 10% coverage
-reg = {"central_contribution": [float(cr["gift"]), 115_000.0], "central_excess": [round(float(cr["excess"])), 8_476],
-       "central_kept": [round(float(cen["kept33"])), 21_347],
-       "house_kept_p5_p50": [[round(x) for x in q(H["kept33"], (5, 50))], [9_881, 20_739]],
-       "house_kept_plus_excess_p5_p50": [[round(x) for x in q(H["kept33"] + Hr["excess"], (5, 50))], [16_508, 28_918]],
+# (Tue 17 Nov evening re-run: the payments' 0.5% margin and the 365.25-day carry; the Mon 16 Nov values were $8,476,
+# $21,347, [9,881, 20,739], [16,508, 28,918], [20,469, 31,314], [20,180, 32,326])
+reg = {"central_contribution": [float(cr["gift"]), 115_000.0], "central_excess": [round(float(cr["excess"])), 7_503],
+       "central_kept": [round(float(cen["kept33"])), 21_179],
+       "house_kept_p5_p50": [[round(x) for x in q(H["kept33"], (5, 50))], [9_621, 20_486]],
+       "house_kept_plus_excess_p5_p50": [[round(x) for x in q(H["kept33"] + Hr["excess"], (5, 50))], [16_176, 28_624]],
        "history_kept_plus_excess_p5_p50": [[round(x) for x in q(HS["kept33"] + HSr["excess"], (5, 50))],
-                                           [20_469, 31_314]],
-       "joint_kept_plus_excess_p5_p50": [[round(x) for x in q(J["kept33"] + J["excess"], (5, 50))], [20_180, 32_326]]}
+                                           [20_387, 31_308]],
+       "joint_kept_plus_excess_p5_p50": [[round(x) for x in q(J["kept33"] + J["excess"], (5, 50))], [19_412, 31_845]]}
 for k, (a, b) in reg.items():
     assert a == b, (k, a, b)
 cov10 = {w: [float((WORLDS[w]["kept"] >= 0.10 * WORLDS[w]["contrib"]).mean()),
              float((WORLDS[w]["kept"] + WORLDS[w]["excess"] >= 0.10 * WORLDS[w]["contrib"]).mean())]
          for w in ("house", "history", "joint")}
-assert round(cov10["house"][0], 3) == 0.933 and round(cov10["house"][1], 4) == 0.998, cov10      # 8j: 93.3%, 99.80%
-assert round(cov10["history"][0], 3) == 0.971 and cov10["history"][1] == 1.0, cov10              # 97.1%, 100%
-assert round(cov10["joint"][0], 3) == 0.993 and cov10["joint"][1] == 1.0, cov10                  # 99.3%, 100%
+assert round(cov10["house"][0], 3) == 0.929 and round(cov10["house"][1], 4) == 0.9974, cov10     # 8j: 92.9%, 99.74% (17 Nov evening; were 93.3%, 99.80%)
+assert round(cov10["history"][0], 3) == 0.969 and cov10["history"][1] == 1.0, cov10              # 96.9%, 100% (was 97.1%)
+assert round(cov10["joint"][0], 3) == 0.991 and cov10["joint"][1] == 1.0, cov10                  # 99.1%, 100% (was 99.3%)
 out["checks"]["register"] = reg
 out["checks"]["8j_10pct_reproduced_kept_and_kept_plus_excess"] = cov10
 out["checks"]["contribution_equals_stated_top_share"] = {

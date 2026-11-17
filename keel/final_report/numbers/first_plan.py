@@ -59,7 +59,7 @@ import plan as P          # noqa: E402
 import completion as C    # noqa: E402
 
 RUN = "Mon 16 Nov 2026 (Sydney)"
-OUTFILE = HERE / "results_first_plan_2026-11-16.json"
+OUTFILE = HERE / f"results_first_plan_{C.RESULTS}.json"   # Tue 17 Nov evening re-run; the 2026-11-16 file is the record
 SRC = E.ROOT / "keel/library/verified_2026-09-27/strategy_mc.py"
 YEARS6 = list(range(2027, 2033))
 PAY_YEARS = list(range(2033, 2043))
@@ -421,7 +421,7 @@ def potB(bond, deposit):
 # Caplet's plan on the same paths (the register's house run)
 HF = P.run(c, DSG["margin"], None, 150_000.0, d0, d1, d2, vt3, vt2, MF)
 RR = C.rule(HF, d0 + d1, d0 + d1 + d2)
-assert C.qs(RR["top"]) == [95_000.0, 115_000.0, 140_000.0] and C.qs(RR["bottom"]) == [85_000.0, 95_000.0, 115_000.0]
+assert C.qs(RR["top"]) == [95_000.0, 115_000.0, 140_000.0] and C.qs(RR["bottom"]) == [80_000.0, 95_000.0, 115_000.0]  # bottom's 1-in-20 low $85,000 until Tue 17 Nov evening
 assert bool(np.all(HF["payments_full"]))
 
 B = {"basis": "register house model, 6 Nov curve; growth-first glide as 27 Sep; bonds rolled in 1-year Treasuries "
@@ -458,7 +458,7 @@ for bname, bond in (("bonds_1y_roll", roll), ("bonds_duration_6_95", ief)):
                 "half_kept_p5_p50_p95": q(HF["kept33"][m])}
     B[bname] = o
 # Caplet's plan with a smaller or no 2028 deposit, same paths (plan.run's payments_full: the deposit covers the
-# completion to the escrow standard, $38,282 centrally; NUMBERS 5)
+# completion to the escrow standard, $39,162 centrally since Tue 17 Nov evening ($38,282 before); NUMBERS 5)
 B["caplet_plan_payments_full_by_deposit"] = {}
 for dep_ in (150_000.0, 75_000.0, 0.0):
     hd = P.run(c, DSG["margin"], None, dep_, d0, d1, d2, vt3, vt2, MF)
@@ -482,7 +482,7 @@ assert round(A["base"]["shortfall_failing_paths"]["median"]) == 27695
 assert A2["rates_27sep_central"]["deposit_150k"]["windows_short"] == 25
 assert B["bonds_1y_roll"]["deposit_150k"]["paths_short"] == 9953
 assert B["bonds_duration_6_95"]["deposit_150k"]["paths_short"] == 8147
-assert B["caplet_plan_payments_full_by_deposit"] == {"150k": 1.0, "75k": 0.999725, "0k": 1e-05}
+assert B["caplet_plan_payments_full_by_deposit"] == {"150k": 1.0, "75k": 0.99965, "0k": 1e-05}   # 75k: 0.999725 until Tue 17 Nov evening
 assert round(B["caplet_plan_no_deposit_ladder_alone"]["central_unbought"]) == 2_287
 
 # ================================================================ write

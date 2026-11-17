@@ -115,7 +115,7 @@ _fee0 = E.ASSUMPTIONS["fund_fee"]
 c1["H_plain_backstop"]["ibtm_tail"] = {
     "tail_jan2027": _tail, "units": _tu,
     "distributions_2027_missed": sum(_tu * a for d, a, _ in I[2033].flows if d <= E.J28),
-    "completion_money_for_tail_jan2028": _tail * math.exp(f01),
+    "completion_money_for_tail_jan2028": _tail * math.exp(f01 * E.T01),
     # Sun 15 Nov evening: priced at its net asset value (the gross holdings after a year's fee), not the value of its
     # after-fee flows, which left out the fee from January 2028 on (as the range rule did; bond desk 3c precision, H1).
     # Was $2,279.63; the value of the after-fee flows is kept beside it.
@@ -332,7 +332,7 @@ c6["missed"] = {"tail_unbought_jan2027": tail,
 # a deposit between the ladder's tail and the full standard: ladder complete, backstop part-bought, nothing for the
 # building; what it still pays at zero interest if the backstop is bought pro rata
 for dep in (10_000, 20_000, 30_000):
-    frac = max(min((dep - max(C.completion_exact(0.0, "plain")[0], 0)) / (C.design(NAME)["margin"] * math.exp(f01)), 1.0), 0.0) \
+    frac = max(min((dep - max(C.completion_exact(0.0, "plain")[0], 0)) / (C.design(NAME)["margin"] * math.exp(f01 * E.T01)), 1.0), 0.0) \
         if NAME == "H_plain" else 0.0
     pool_part = {y: u * frac for y, u in C.BACKSTOP.items()} if NAME == "H_plain" else None
     c6[f"partial_{dep}"] = {"backstop_share_bought": frac, "short_at_zero": C.short(zero, C.PLAIN, pool_part)}
@@ -345,7 +345,7 @@ for fall in (0.005, 0.01, 0.02):
 out["C6"] = c6
 out["stamp"] = {"curve": "US Treasury par yield curve, 6 Nov 2026 close", "valuation": "forward to 1 Jan 2027",
                 "design": NAME, "decided": C.DECIDED, "run": C.RUN,
-                "rerun": "Sun 15 Nov 2026 evening", "rule": C.RULE_VERSION,
+                "rerun": "Tue 17 Nov 2026 evening (the payments' 0.5% margin, completion.PAY_MARGIN; the 365.25-day carry, engine.T01)", "rule": C.RULE_VERSION,
                 "assumptions": {k: v for k, v in E.ASSUMPTIONS.items()}}
 
 (HERE / f"results_{C.RESULTS}{C.tag(NAME)}.json").write_text(json.dumps(out, indent=1, default=str))

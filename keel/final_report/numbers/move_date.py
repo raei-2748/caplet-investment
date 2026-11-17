@@ -47,7 +47,7 @@ import plan as P          # noqa: E402
 import completion as C    # noqa: E402
 
 RUN = "Mon 16 Nov 2026 (Sydney)"
-OUTFILE = HERE / "results_move_date_2026-11-16.json"
+OUTFILE = HERE / f"results_move_date_{C.RESULTS}.json"   # Tue 17 Nov evening re-run; the 2026-11-16 file is the record
 NAME = C.design_arg()
 DSG = C.design(NAME)
 MARGIN = DSG["margin"]
@@ -150,8 +150,10 @@ for key, (mv, k) in MOVES.items():
                     "contribution": f(r["gift"]), "excess": f(r["excess"]), "half_kept": f(r["kept33"]),
                     "flexibility": f(r["flex"]),
                     "moved_cut_share_of_its_payout": 1 - f(r["zM"]) * (1 - C.HAIRCUT) * f(r["moved_money"]) / f(r["moved"])}
-assert round(central["jan"]["top_unrounded"]) == 118_072 and round(central["jan"]["bottom_unrounded"]) == 98_380
-assert round(central["jan"]["excess"]) == 8_476 and round(central["jan"]["half_kept"]) == 21_347
+# (Tue 17 Nov evening re-run: the payments' 0.5% margin and the 365.25-day carry; were $118,072, $98,380, $8,476, $21,347
+# and 59.79%; the history top's 1-in-20 high was $130,000)
+assert round(central["jan"]["top_unrounded"]) == 117_142 and round(central["jan"]["bottom_unrounded"]) == 97_605
+assert round(central["jan"]["excess"]) == 7_503 and round(central["jan"]["half_kept"]) == 21_179
 out["central"] = central
 
 # ---------------------------------------------------------------- house model
@@ -172,7 +174,7 @@ for key, (mv, k) in MOVES.items():
 check_jan(H, house_r["jan"], d0 + d1, d0 + d1 + d2)
 house = {key: summary(r) for key, r in house_r.items()}
 assert house["jan"]["stated_top_p5_p50_p95"] == [95_000.0, 115_000.0, 140_000.0]
-assert round(house["jan"]["share_top_at_least"]["115k"], 4) == 0.5979                       # NUMBERS 4: 59.8%
+assert round(house["jan"]["share_top_at_least"]["115k"], 4) == 0.5722                       # NUMBERS 4: 57.2%
 house["bridge_check"] = {"vt_growth_jan_to_apr_median_and_mean": [float(np.median(G["apr"])), float(np.mean(G["apr"]))],
                          "expected_mean_jan_to_apr": math.exp(MU * t1 + SD ** 2 * t1 / 2),
                          "vt_log_sd_jan_to_apr": float(np.std(X1)), "expected_sd_jan_to_apr": SD * math.sqrt(t1),
@@ -215,7 +217,7 @@ for key, (mv, k) in MOVES.items():
     hist_r[key] = moved_and_rule(HS, mv, k, g_to, g_af, 0.0, 1.0, 0.0, 1.0)
 check_jan(HS, hist_r["jan"], 0.0, 0.0)
 hist = {key: summary(r) for key, r in hist_r.items()}
-assert hist["jan"]["stated_top_p5_p50_p95"] == [110_000.0, 115_000.0, 130_000.0]
+assert hist["jan"]["stated_top_p5_p50_p95"] == [110_000.0, 115_000.0, 125_000.0]
 hist["compare"] = {"apr_vs_jan": compare(hist_r["jan"], hist_r["apr"], GH["apr"] < 1.0),
                    "jul_vs_jan": compare(hist_r["jan"], hist_r["jul"], GH["jul"] < 1.0),
                    "jul_vs_apr": compare(hist_r["apr"], hist_r["jul"], GH["jul"] < GH["apr"])}

@@ -37,7 +37,15 @@ Sun 15 Nov, evening (bond desk 3c precision, research/panel/2026-11-15_bond_desk
     asset value the buyer pays), the payout each flow less the fee from the trade day (until today the fee cancelled
     from the trade day on); the distributions wait in the Treasury-bill ETF and, at zero interest, lose its 0.15% fee.
     The 0.5% cut is now for other costs alone. Results files from this rule carry the suffix RESULTS (2026-11-15).
+
+Tue 17 Nov, evening (numbers owner; the lead's call of 07:00, keel/pm/ASK_HUMANS.md; NUMBERS 2 and 9):
+  * the ten payments carry the range's 0.5% margin for fund costs beyond the 0.07% fee (PAY_MARGIN): the backstop is
+    sized with every iBond fund flow 0.5% smaller (cost_cut), on top of zero interest and the bill fund's 0.15%. The
+    plain rungs and the top-up are unchanged; the backstop without the margin is kept as H_plain_nomargin (comparison);
+  * the one-year carry from 1 Jan 2027 to 1 Jan 2028 is exp(f01 x E.T01) (2027's 365 days on the 365.25-day count) in
+    margin_fn, margin_fn_mult and completion_exact, as in plan.run (NUMBERS 8k's $1.14). Results files: 2026-11-17.
 """
+import copy
 import itertools
 import math
 import sys
@@ -64,6 +72,13 @@ ZERO = E.Reinvest(c, "zero")
 FEE = E.ASSUMPTIONS["fund_fee"]
 WAIT_FEE = 0.0015    # a year on every waiting dollar: a Treasury-bill ETF's fee, as a cushion (bond desk check, finding 3)
 HAIRCUT = 0.005      # cut from each end's zero-interest value before rounding down (bond desk check, finding 1)
+# Tue 17 Nov 2026 evening (the lead's call of 07:00, keel/pm/ASK_HUMANS.md; NUMBERS 2, "The payments' own exposure"):
+# the ten payments carry the same 0.5% margin for fund costs beyond the 0.07% fee that the range carries (HAIRCUT). The
+# backstop (the extra Treasuries) is sized so all ten are paid if every iBond fund flow (IBTM to IBTR: the own rungs and
+# the backstop's own IBTQ and IBTR) is 0.5% smaller, nothing earns interest and every waiting dollar loses WAIT_FEE. The
+# T-bonds hold no fund and carry no margin. The plain rungs and the $2,388 top-up are unchanged (IPS l.13's completion
+# is sized at forwards); the margin is bought with the 2028 deposit's first dollars, as part of the extra Treasuries.
+PAY_MARGIN = 0.005
 
 
 class Flat(E.Reinvest):
@@ -206,13 +221,25 @@ def backstop_for(insts, base_units, r=-WAIT_FEE):
     return lp_min_cost(insts, np.zeros(10), need, r)
 
 
+def cost_cut(insts, x=PAY_MARGIN):
+    """The instruments with every iBond fund flow cut by x (a fund cost beyond the 0.07% fee, off every distribution and
+    the final payout; as cost_cover.py part B). Prices are unchanged; the T-bonds are untouched."""
+    out = {}
+    for y, inst in insts.items():
+        i = copy.copy(inst)
+        if y in E.FUNDS and x:
+            i.flows = [(d, a * (1 - x), k) for d, a, k in inst.flows]
+        out[y] = i
+    return out
+
+
 def build(curve, zero_too=False):
     """The designs on one curve: plain rungs, Keel's minus-3 rungs, the backstop sized with the ETF's fee (and, if
     asked, the one sized at exactly 0%)."""
     insts = E.instruments(curve)
     plain = E.size_own_rung(insts, E.Reinvest(curve))
     keel = E.size_own_rung(insts, E.Reinvest(curve, "shift", 0.03))
-    back = backstop_for(insts, plain, -WAIT_FEE)
+    back = backstop_for(cost_cut(insts), plain, -WAIT_FEE)      # Tue 17 Nov evening: with the 0.5% PAY_MARGIN
     pc = cost(plain, insts)
     out = {
         "insts": insts, "plain": plain, "plain_cost": pc,
@@ -224,6 +251,9 @@ def build(curve, zero_too=False):
         b0 = backstop_for(insts, plain, 0.0)
         out["H_plain_0"] = {"own": plain, "pool": b0, "cost": pc + cost(b0, insts), "margin": cost(b0, insts),
                             "backstop": b0}
+        bn = backstop_for(insts, plain, -WAIT_FEE)              # the call until Tue 17 Nov evening: no PAY_MARGIN
+        out["H_plain_nomargin"] = {"own": plain, "pool": bn, "cost": pc + cost(bn, insts), "margin": cost(bn, insts),
+                                   "backstop": bn}
     return out
 
 
@@ -233,9 +263,13 @@ PLAIN_COST = B0["plain_cost"]
 BACKSTOP = B0["H_plain"]["backstop"]
 DESIGNS = {
     "H_plain": dict(B0["H_plain"], label="Ten rungs as written plus a pooled backstop, sufficient without reinvestment "
-                                         "after a 0.15% a year fee on all waiting money (Tue 10 Nov call, afternoon)"),
+                                         "after a 0.15% a year fee on all waiting money (Tue 10 Nov call, afternoon) and "
+                                         "with every iBond fund flow 0.5% smaller (Tue 17 Nov evening, PAY_MARGIN)"),
     "H_plain_0": dict(B0["H_plain_0"], label="The same backstop sized at exactly 0% (Tue 10 Nov morning; comparison "
                                              "only, not runnable as --design)"),
+    "H_plain_nomargin": dict(B0["H_plain_nomargin"], label="The backstop with the ETF's fee and no margin for fund costs "
+                                                           "beyond the 0.07% fee (Tue 10 Nov afternoon to Tue 17 Nov "
+                                                           "morning; comparison only, not runnable as --design)"),
     "KEEL": dict(B0["KEEL"], label="Design A sized for reinvestment 3 points below forwards (Mon 9 Nov call, "
                                    "replaced)"),
 }
@@ -324,11 +358,11 @@ def margin_fn(name=None, curve=c):
         import plan as P
         dur = P.setup(curve)["dur_l"]
         m = d["margin"]
-        return lambda d0, d1: m * np.exp(-dur * np.asarray(d1, float)) * np.exp(np.maximum(f01 + np.asarray(d0, float), 0.001))
+        return lambda d0, d1: m * np.exp(-dur * np.asarray(d1, float)) * np.exp(np.maximum(f01 + np.asarray(d0, float), 0.001) * E.T01)
 
     def f(d0, d1):
         d0, d1 = np.asarray(d0, float), np.asarray(d1, float)
-        return (margin_at(name, d0) * np.exp(np.maximum(f01 + d0, 0.001))
+        return (margin_at(name, d0) * np.exp(np.maximum(f01 + d0, 0.001) * E.T01)
                 * backstop_price28(d0 + d1) / backstop_price28(d0))
     return f
 
@@ -341,7 +375,7 @@ def margin_fn_mult(name, m28):
     f01 = c.fwd(E.J27, E.J28)
     if name == "KEEL":
         return None
-    return lambda d0, d1: d["margin"] * math.exp(f01) * backstop_price28(0.0, np.asarray(m28, float)) / _P0
+    return lambda d0, d1: d["margin"] * math.exp(f01 * E.T01) * backstop_price28(0.0, np.asarray(m28, float)) / _P0
 
 
 def completion_exact(d0=0.0, name=None):
@@ -352,7 +386,7 @@ def completion_exact(d0=0.0, name=None):
     cc = E.Curve(c.par, shift=float(d0)) if d0 else c
     f01 = cc.fwd(E.J27, E.J28)
     cst = b["plain_cost"] if name == "plain" else b[name or CALL]["cost"]
-    return (cst - 300_000.0) * math.exp(f01), b, cc
+    return (cst - 300_000.0) * math.exp(f01 * E.T01), b, cc
 
 
 # ---------------------------------------------------------------- the range rule (card Q19)
@@ -444,7 +478,8 @@ _PW = (1 - FEE) ** ((END - WAM).days / 365.25)     # the fee on the holdings' pr
 RULE_WAIT_FEE = WAIT_FEE
 RULE_VERSION = ("Sun 15 Nov 2026 evening: fund fee charged from each trade day (price = gross holdings' value); "
                 "distributions wait in the Treasury-bill ETF at its 0.15% fee; haircut 0.5%; rounded down to $5,000")
-RESULTS = "2026-11-15"   # date suffix of the results files written on this rule (Sun 15 Nov evening re-run)
+RESULTS = "2026-11-17"   # date suffix of the results files: Tue 17 Nov evening re-run (the payments' 0.5% margin and the
+#                          365.25-day carry); the Sun 15 Nov evening files (2026-11-15) are kept as the record
 
 
 def _bond(coupon):

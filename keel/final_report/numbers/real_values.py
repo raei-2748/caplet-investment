@@ -8,7 +8,7 @@ import json
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-RESULTS = "2026-11-15"   # completion.RESULTS: the Sun 15 Nov evening re-run (fee charged in the range rule)
+RESULTS = "2026-11-17"   # completion.RESULTS: the Tue 17 Nov evening re-run (the payments' 0.5% margin, the 365.25-day carry)
 j = json.load(open(HERE / "inflation_inputs.json"))
 _reg = json.load(open(HERE / f"results_{RESULTS}.json"))
 _cr = _reg["plan"][_reg["stamp"]["design"]]["central_rule"]

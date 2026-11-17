@@ -22,7 +22,7 @@ How each holding is valued on a date t (the register's own conventions):
   * the ten rungs and the backstop (8h, reserve.py): each flow already received (a coupon, a fund distribution, a fund's
     payout) waits in the Treasury-bill ETF, grown at forwards from its arrival; each flow still to come is discounted on
     the 6 Nov curve's forwards to t (a forward market value). The backstop's 2027 flows are counted from their dates,
-    as 8h counts them. On 1 Jan 2033 this gives 8h's $444,545 (asserted);
+    as 8h counts them. On 1 Jan 2033 this gives 8h's $445,655 (asserted; $444,545 before Tue 17 Nov evening's re-size);
   * the floor (bought 1 Jan 2028 with plan.run's floor money) and the moved half (1 Jan 2031): the money put in grown at
     forwards from the purchase, less the fund fee from the purchase (plan.run's formula); on 15 Dec 2032 they pay
     plan.run's $103,178 and $20,298 (asserted), which then wait in the Treasury-bill ETF;
@@ -51,7 +51,7 @@ import plan as P          # noqa: E402
 import completion as C    # noqa: E402
 
 RUN = "Mon 16 Nov 2026 (Sydney)"
-OUTFILE = HERE / "results_custody_2026-11-16.json"
+OUTFILE = HERE / f"results_custody_{C.RESULTS}.json"   # Tue 17 Nov evening re-run; the 2026-11-16 file is the record
 NAME = C.design_arg()
 DSG = C.design(NAME)
 OWN, POOL = DSG["own"], DSG["pool"] or {}
@@ -78,7 +78,7 @@ def reserve_parts(t, shift=0.0, nav=False):
     """The ten rungs and the backstop on date t: flows received wait in the Treasury-bill ETF (grown at forwards from
     arrival); flows to come at forwards to t, discounted at an extra parallel `shift` (continuous) if given.
     nav=False: 8h's convention, an iBond fund at the value of its flows after the fee still to be charged (so 1 Jan 2033
-    gives $444,545). nav=True: at its net asset value, the gross holdings' value less only the fee already charged,
+    gives $445,655, was $444,545). nav=True: at its net asset value, the gross holdings' value less only the fee already charged,
     which is what a broker's statement shows (each fund flow grossed up for the fee from t to the holdings' maturity)."""
     out = {"treasury_bonds": 0.0, "ibond_etfs": 0.0, "tbill_etf_waiting": 0.0}
     for y in E.YEARS:
@@ -151,13 +151,15 @@ def received_in_month(t):
 
 # ---------------------------------------------------------------- checks against the register
 r33 = reserve_parts(J33)
-assert abs(sum(r33.values()) - 444_545) < 1.0, sum(r33.values())                    # 8h
-assert abs(fund_value(fm, J28, END) - floor_pay) < 1e-6 and abs(floor_pay - 103_178) < 1.0     # section 4
-assert abs(fund_value(vt31 / 2, J31, END) - moved_pay) < 1e-6 and abs(moved_pay - 20_298) < 1.0
-assert abs(vt_value(J31)[0] - vt31 / 2) < 1e-6 and abs(vt_value(J33)[1] - kept33) < 1e-6 and abs(kept33 - 21_347) < 1.0
-assert abs(vt31 - 36_989) < 1.0 and abs(vt28 - 29_829) < 1.0 and abs(fm - 81_889) < 1.0      # section 4
+# (Tue 17 Nov evening re-run: the payments' 0.5% margin and the 365.25-day carry; were $444,545, $103,178, $20,298,
+# $21,347, $36,989, $29,829, $81,889 and $589,655)
+assert abs(sum(r33.values()) - 445_655) < 1.0, sum(r33.values())                    # 8h
+assert abs(fund_value(fm, J28, END) - floor_pay) < 1e-6 and abs(floor_pay - 102_365) < 1.0     # section 4
+assert abs(fund_value(vt31 / 2, J31, END) - moved_pay) < 1e-6 and abs(moved_pay - 20_138) < 1.0
+assert abs(vt_value(J31)[0] - vt31 / 2) < 1e-6 and abs(vt_value(J33)[1] - kept33) < 1e-6 and abs(kept33 - 21_179) < 1.0
+assert abs(vt31 - 36_698) < 1.0 and abs(vt28 - 29_594) < 1.0 and abs(fm - 81_244) < 1.0      # section 4
 b33B = balance(J33, "B")[0]
-assert abs(b33B - 589_655) < 2.0, b33B                                                 # 8k's all-money total
+assert abs(b33B - 589_623) < 2.0, b33B                                                 # 8k's all-money total
 b28 = balance(date(2028, 1, 1))[0]                                                    # after the January 2028 purchases
 
 # ---------------------------------------------------------------- month-ends

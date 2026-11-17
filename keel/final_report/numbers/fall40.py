@@ -155,14 +155,17 @@ SC["b"]["change_vs_b0"] = {x: SC["b"][x] - SC["b0"][x] for x in (
 # ---------------------------------------------------------------- checks against the register (NUMBERS 4, 8i, 8k)
 # Sun 15 Nov evening: the unrounded ends are the register's after the fee is charged from each trade day (NUMBERS 0,
 # section 4; were $98,728.56 and $118,443.46)
-REG = {"bottom_stated": 95_000, "bottom_unrounded": 98_379.86, "top_stated": 115_000, "top_unrounded": 118_072.32,
-       "funds_pay": 123_475.56, "contribution": 115_000, "above_top_to_her_flexibility": 8_475.56,
-       "her_flexibility_jan2033": 21_347.30, "her_flexibility_plus_above_top": 29_822.86,
-       "completion_jan2028": 38_282.14, "payments_left_after_2042_nominal": 74_122.57,
-       "payments_left_after_2042_jan2033_money": 45_455.58, "vt_bought_jan2028": 29_828.67,
-       "floor_money_jan2028": 81_889.19, "vt_on_move_day": 36_989.0}
+# Tue 17 Nov evening: re-sized (the payments' 0.5% margin, 365.25-day fix); the Sun 15 Nov register was bottom
+# $98,379.86, top $118,072.32, funds pay $123,475.56, excess $8,475.56, half kept $21,347.30, completion $38,282.14,
+# left after 2042 $74,122.57 ($45,455.58 in Jan 2033 money), VT $29,828.67, floor $81,889.19, VT at the move $36,989.
+REG = {"bottom_stated": 95_000, "bottom_unrounded": 97_605.08, "top_stated": 115_000, "top_unrounded": 117_142.45,
+       "funds_pay": 122_503.13, "contribution": 115_000, "above_top_to_her_flexibility": 7_503.13,
+       "her_flexibility_jan2033": 21_179.18, "her_flexibility_plus_above_top": 28_682.31,
+       "completion_jan2028": 39_161.97, "payments_left_after_2042_nominal": 75_934.02,
+       "payments_left_after_2042_jan2033_money": 46_566.45, "vt_bought_jan2028": 29_593.75,
+       "floor_money_jan2028": 81_244.28, "vt_on_move_day": 36_698.09}
 checks = {k_: {"register": v, "this_run": cen[k_], "diff": cen[k_] - v} for k_, v in REG.items()}
-zero_reg = {"top_stated": 95_000, "contribution": 95_000, "funds_pay": 103_178.04, "above_top_to_her_flexibility": 8_178.04}
+zero_reg = {"top_stated": 95_000, "contribution": 95_000, "funds_pay": 102_365.47, "above_top_to_her_flexibility": 7_365.47}  # Sun 15 Nov: $103,178.04, $8,178.04
 checks_zero = {k_: {"register": v, "this_run": SC["zero"][k_], "diff": SC["zero"][k_] - v} for k_, v in zero_reg.items()}
 ok = all(abs(v["diff"]) < 1.0 for k_, v in checks.items() if k_ != "vt_on_move_day") and \
     abs(checks["vt_on_move_day"]["diff"]) < 1.0 and all(abs(v["diff"]) < 1.0 for v in checks_zero.values())

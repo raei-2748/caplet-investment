@@ -29,9 +29,10 @@ Where the figures come from:
                             row); Table 3 rows 1, 2, 4, 5, 6 and 7 (row 1's second figure, the ten $57,455 short if cash
                             waiting earns nothing: results_2026-11-15.json C6.missed.short_at_zero, NUMBERS 5; row 7's
                             29.79 = 32.768 / 1.10 and its 9.1%, NUMBERS 8j), each checked in check().
-  The backstop on 1 Jan 2033 (Figure 1's note, item 4 since Mon 16 Nov evening): its VALUE there at today's forwards, $45,456
+  The backstop on 1 Jan 2033 (Figure 1's note, item 4 since Mon 16 Nov evening): its VALUE there at today's forwards, $46,566
                             (results_reserve margin_value_1jan2033_at_forwards; NUMBERS 8h, 8i, section 4), never its
-                            cost carried, $45,487 (margin_cost_carried_to_1jan2033_at_forwards: no funds' fee). NUMBERS 9.
+                            cost carried, $46,603 (margin_cost_carried_to_1jan2033_at_forwards: no funds' fee). NUMBERS 9.
+                            (Re-sized Tue 17 Nov evening with the payments' 0.5% margin: were $45,456 and $45,487.)
 
 Nothing is computed here except rounding, sums and the joining of two parts the register names (the flexibility is the
 half kept plus the excess, NUMBERS 8i column "Half kept plus excess"). Run this file to print every exhibit figure and
@@ -57,7 +58,7 @@ SNAPSHOT_MD = os.path.normpath(os.path.join(FR, "..", "..", "competition", "wins
 # The Portfolio tab's target units, set before the first fill (NUMBERS 8m cites portfolio.csv l.20-31)
 PORTFOLIO_CSV = os.path.normpath(os.path.join(FR, "..", "..", "caplet", "google_drive", "sheets",
                                               "portfolio_and_trading_notes", "portfolio.csv"))
-REGISTER_DATE = "2026-11-15"   # Sun 15 Nov evening: the re-run with the fee charged in the range rule (was 2026-11-10)
+REGISTER_DATE = "2026-11-17"   # Tue 17 Nov evening: the re-size (0.5% margin on the payments, 365.25-day fix); was 2026-11-15 (Sun 15 Nov evening: the fee charged in the range rule), before it 2026-11-10
 
 
 def _load(name):
@@ -277,24 +278,24 @@ FIGURE1_TOTALS = {
 }
 FIGURE1_NOTE_FACTS = {
     "left_after_2042_no_fee": RESERVE["zero_left_after_2042"],          # the $1,414 spare without the fee
-    "left_after_2042_with_fee": RESERVE["fee_left_after_2042"],         # $0: the standard is met exactly
-    "left_after_2042_at_forwards": RESERVE["base_left_after_2042"],     # $74,123 if rates follow the forwards
-    "reserve_1jan2033": RESERVE["composition_1jan2033_total"],          # $444,545
+    "left_after_2042_with_fee": RESERVE["fee_left_after_2042"],         # $1,177: the 0.5% margin (was $0 before Tue 17 Nov evening)
+    "left_after_2042_at_forwards": RESERVE["base_left_after_2042"],     # $75,934 if rates follow the forwards (was $74,123)
+    "reserve_1jan2033": RESERVE["composition_1jan2033_total"],          # $445,655 (was $444,545)
     "own_rungs_1jan2033": RESERVE["own_rungs_value_1jan2033"],          # $399,089
     "funded_1jan2033": RESERVE["composition_1jan2033_total"] / RESERVE["own_rungs_value_1jan2033"],
     "etf_fee": 0.0015,
     "curve": "Treasury par yield curve, 6 Nov 2026",
     # Fri 13 Nov (bond reader, 12 Nov): the last column reconciled with the top-up's cost (NUMBERS 8h)
-    "topup_for_no_interest_jan2028": TOPUP_PAID["for_no_interest_jan2028"],       # $35,894
-    "topup_face_and_fund_dollars": TOPUP_PAID["face_and_fund_dollars"],           # $36,867
-    "topup_interest_undiscounted": TOPUP_PAID["interest_undiscounted"],           # $19,143
-    "topup_all_flows_undiscounted": TOPUP_PAID["all_flows_undiscounted"],         # $56,010
-    "topup_fee_while_waiting": TOPUP_PAID["fee"]["fee_on_the_topups_own_waiting_money"],   # $90
-    # Mon 16 Nov (NUMBERS 9): the backstop is read at its VALUE on 1 Jan 2033 at today's forwards ($45,456: the reserve
-    # before the first payment less the own rungs, 8h), never its cost carried there ($45,487, which leaves out the
+    "topup_for_no_interest_jan2028": TOPUP_PAID["for_no_interest_jan2028"],       # $36,774 (was $35,894)
+    "topup_face_and_fund_dollars": TOPUP_PAID["face_and_fund_dollars"],           # $37,711 (was $36,867)
+    "topup_interest_undiscounted": TOPUP_PAID["interest_undiscounted"],           # $19,489 (was $19,143)
+    "topup_all_flows_undiscounted": TOPUP_PAID["all_flows_undiscounted"],         # $57,200 (was $56,010)
+    "topup_fee_while_waiting": TOPUP_PAID["fee"]["fee_on_the_topups_own_waiting_money"],   # $103 (was $90)
+    # Mon 16 Nov (NUMBERS 9): the backstop is read at its VALUE on 1 Jan 2033 at today's forwards ($46,566: the reserve
+    # before the first payment less the own rungs, 8h), never its cost carried there ($46,603, which leaves out the
     # funds' fee). Read from 8h's own reserve run; the top-up file and Table 2's forwards world must agree (below).
-    "topup_comes_back_1jan2033": RESERVE["margin_value_1jan2033_at_forwards"],             # $45,456
-    "backstop_cost_carried_1jan2033": RESERVE["margin_cost_carried_to_1jan2033_at_forwards"],   # $45,487: never printed
+    "topup_comes_back_1jan2033": RESERVE["margin_value_1jan2033_at_forwards"],             # $46,566 (was $45,456)
+    "backstop_cost_carried_1jan2033": RESERVE["margin_cost_carried_to_1jan2033_at_forwards"],   # $46,603: never printed
 }
 _bk = FIGURE1_NOTE_FACTS["topup_comes_back_1jan2033"]
 assert abs(_bk - (RESERVE["composition_1jan2033_total"] - RESERVE["own_rungs_value_1jan2033"])) < 0.01, _bk
@@ -311,7 +312,8 @@ def cash_words(r):
     one = lambda d, month=True: f"{d.strftime('%a')} {d.day}" + (f" {d.strftime('%b')} {d.year}" if month else "")
     return one(a) if a == b else f"{one(a, False)} to {one(b)}"
 # The note's ratio in WORDS.md's form (Thu 12 Nov): "about $1.11 for each $1 the payments need at today's rates, because
-# the top-up is sized for no interest" ($444,545 against $399,089 on 1 Jan 2033, NUMBERS 8h). Since Thu 12 Nov the
+# the top-up is sized for no interest" ($444,545 against $399,089 on 1 Jan 2033, NUMBERS 8h; about $1.12 since Tue 17 Nov
+# evening's re-size, $445,655 against $399,089). Since Thu 12 Nov the
 # printed reason is "because the extra Treasuries are sized for cash waiting earning nothing" (WORDS).
 FIGURE1_PER_DOLLAR = f"${FIGURE1_NOTE_FACTS['funded_1jan2033']:.2f}"
 # Mon 16 Nov evening (card Q73's three fixes, charts/DESIGNS.md section 2):
@@ -329,7 +331,7 @@ FIGURE1_HEADS = {
     "payment": "Payment",
     "timeline": "Held from January 2027 until its cash arrives",
     "c2": ("Its own", "Treasury"),
-    "c3": ("Extra", "Treasuries"),  # Fri 13 Nov evening: the $35,894's name (WORDS); was "What the top-up pays"
+    "c3": ("Extra", "Treasuries"),  # Fri 13 Nov evening: the $36,774's name (WORDS; $35,894 before Tue 17 Nov evening); was "What the top-up pays"
     "plus": "+",
     "equals": "=",
     "sum": dollars(FIGURE1_PAYMENT),            # the heads read "Its own Treasury + Extra Treasuries = $50,000"
@@ -427,15 +429,15 @@ TABLE2_HELD_SAME = ("Every row keeps the plan's deposits, steps, dates, fees and
 # The note's check against history (Mon 16 Nov, ARGUMENT_LOG Day 9; card Q14b row 21, the Bank of England's staff
 # checking named scenarios against a reference distribution): all five named worlds leave her less flexibility than
 # the median replay. Computed here, checked in check(), and printed in the note.
-TABLE2_FLEX_MEDIAN = TABLE2_SPREAD[1][1]["flexibility"]                       # $32,326 (8j joint replay column)
+TABLE2_FLEX_MEDIAN = TABLE2_SPREAD[1][1]["flexibility"]                       # $31,845 (8j joint replay column; was $32,326)
 TABLE2_FLEX_WORLDS = (min(v["flexibility"] for _, _, v in TABLE2_WORLDS),     # $19,476 (replay from 2006)
-                      max(v["flexibility"] for _, _, v in TABLE2_WORLDS))     # $29,823 (today's forwards)
+                      max(v["flexibility"] for _, _, v in TABLE2_WORLDS))     # $28,682 (today's forwards; was $29,823)
 assert TABLE2_FLEX_WORLDS[1] < TABLE2_FLEX_MEDIAN, (TABLE2_FLEX_WORLDS, TABLE2_FLEX_MEDIAN)
 
 
 def table2_cells(v):
     """One printed row: stated ends to the dollar (they are $5,000 steps by the rule); the
-    flexibility to the nearest $100, as SKELETON's prose rounds it (about $29,800), so no model value prints as a round
+    flexibility to the nearest $100, as SKELETON's prose rounds it (about $28,700), so no model value prints as a round
     $5,000 step or as $50,000, the payment's size."""
     return [v["payments"], dollars(v["bottom"]), dollars(v["top"]), hundreds(v["flexibility"])]
 
@@ -455,12 +457,13 @@ from datetime import date as _date  # noqa: E402
 
 _C6 = MAIN["C6"]
 DEPOSIT_2028 = 150000.0
-TOPUP = _C6["fall_0bp"]["with_standard"]                 # $38,282: the top-up, January 2028 prices (NUMBERS 2, 5)
+TOPUP = _C6["fall_0bp"]["with_standard"]                 # $39,162 (was $38,282): the top-up, January 2028 prices (NUMBERS 2, 5)
 TOPUP_TEN_LACK = _C6["fall_0bp"]["ladder_only"]          # $2,388: what the ten Treasuries still lack
-TOPUP_NO_INTEREST = TOPUP - TOPUP_TEN_LACK               # $35,894: met even if money received earns nothing (NUMBERS 2)
-BOTTOM_AFTER_2PT_FALL = _C6["fall_200bp"]["150000"]["stated_bottom"]   # $60,000 (NUMBERS 5)
+TOPUP_NO_INTEREST = TOPUP - TOPUP_TEN_LACK               # $36,774 (was $35,894): met even if money received earns nothing (NUMBERS 2)
+BOTTOM_AFTER_2PT_FALL = _C6["fall_200bp"]["150000"]["stated_bottom"]   # $55,000 (NUMBERS 5; $60,000 before Tue 17 Nov evening)
 BOTTOM_AFTER_1PT_FALL = _C6["fall_100bp"]["150000"]["stated_bottom"]   # $85,000: "most" still holds (NUMBERS 5)
-FALL_TAKES_WHOLE_DEPOSIT = 3.60   # points; NUMBERS 5 text only (no results file holds it), checked against the text
+FALL_TAKES_WHOLE_DEPOSIT = 3.57   # points; NUMBERS 5 text only (no results file holds it), checked against the text
+                                  # (3.60 until Tue 17 Nov evening's re-size: the payments' 0.5% margin, 365.25-day fix)
 TWD_PER_USD = INPUTS["usdtwd"]["latest"]                                # 32.768 on 6 Nov (NUMBERS 8d)
 CCI_BAND = (INPUTS["taiwan_construction"]["low"], INPUTS["taiwan_construction"]["high"])   # 1.5% to 5.0% (8d)
 CCI_5Y = 0.0327                                          # building costs a year, five years to Sep 2026 (8d; card Q10 row 20)
@@ -476,12 +479,13 @@ CCI_SOURCE = "DGBAS construction cost index, to October 2026"
 # 0.1% above", a ceiling on the slope, said as "at most about $120")
 SHARE_VOL = 0.1788
 YIELD_SD_POINTS = 0.9
-SHORT_PER_TENTH = 119.0                                  # printed to the nearest $10, "at most about $120"
+SHORT_PER_TENTH = 118.0   # printed to the nearest $10, "about $120 ... centrally" ($119 until Tue 17 Nov evening's re-size;
+                          # "at most" until coherence reader 8, L6: $144 at the house 1-in-20 high, NUMBERS 3)
 TWD_TEST = 0.10                                          # a 10% stronger Taiwan dollar (NUMBERS 8j)
 _TWDF = JOINT["scenarios"]["forwards"]
 CONTRIBUTION_FWD = _TWDF["gift_realised"]                # $115,000 at today's forwards (8i, 8j)
 TWD_NEED = TWD_TEST * CONTRIBUTION_FWD                   # $11,500 more in December 2032 (8j central case)
-FLEX_FWD = _TWDF["kept_plus_excess_jan2033"]             # $29,823; printed to the nearest $100, as Table 2 prints it
+FLEX_FWD = _TWDF["kept_plus_excess_jan2033"]             # $28,682 (was $29,823); printed to the nearest $100, as Table 2 prints it
 TRADE_DAYS = (_date(2027, 1, 4), _date(2028, 1, 3))      # 1 Jan 2027 is a market holiday, 1 Jan 2028 a Saturday
 FEB37_PAYS = _date(2037, 2, 17)                          # 15 Feb 2037 is a Sunday, 16 Feb Presidents' Day (8h)
 MISSED_BY = _date(2028, 3, 31)                           # a missed deposit: nothing received by this date
@@ -532,7 +536,7 @@ def _changes(changes, never):
 
 
 # Fri 13 Nov evening (bond desk re-read, third coherence reader, lay reader; research/panel/2026-11-13_*): "Watched
-# by" for "Reader"; row 1 names the first $38,282's two parts and what a missed deposit changes until the money comes;
+# by" for "Reader"; row 1 names the first $39,162's (was $38,282's) two parts and what a missed deposit changes until the money comes;
 # row 2 says how a due date moves; row 3 one set of cash dates, the X-date defined in the note; row 4 watches all three
 # fund events (an early end, a merger, an end moved past a payment) and a missing October notice (card Q36), the swap
 # for a Treasury "maturing just before it's needed" (IPS l.13) paid from the fund's own cash and any gap from the
@@ -556,9 +560,13 @@ TABLE3_ROWS = [
         # Mon 16 Nov night (coherence reader 6, M7; bond desk 4, L5): both bases, never the $3,016 alone (NUMBERS 5);
         # L5's action wording declined: card Q34 keeps the later money's order in 3e's prose.
         # Tue 17 Nov: "until money comes" to "until paid" (one line; same meaning: no range is stated before it is paid)
+        # Tue 17 Nov evening (evening lay reader, stumble 2: "who fills the gap, and a sale of what?"; the lead's call):
+        # the deposit, when paid, fills the ten first (card Q34: a late deposit runs the same order, NUMBERS 5's order),
+        # and what is never done is selling a bond or fund the ten hold before its end (IPS l.13: held to the end; the
+        # words of 3a's liquidity clause, coherence reader 8, M4). Measured: 21.9 lines with the 44-word note, one page
         _changes(f"no range until paid; the ten short {dollars(MISSED_SHORT_2033)} at today's rates, "
-                 f"{dollars(MISSED_SHORT_ZERO)} if cash waiting earns nothing",
-                 "a sale")]),
+                 f"{dollars(MISSED_SHORT_ZERO)} if cash waiting earns nothing, until the deposit fills them",
+                 "a bond or fund sold early")]),
     ("reason", [
         "Treasury payments",
         "Team",
@@ -589,9 +597,14 @@ TABLE3_ROWS = [
         # the instrument changes, never the plan (the level's heading); a gap is paid from the extra Treasuries and the
         # ten re-tested; the floor's from the range's 0.5% cut (Sat 14 Nov, bond reader 2, coherence reader 4).
         # Tue 17 Nov (lay reader 3: "(the range's from its 0.5%)" and "Never: VT" were shorthand; coherence reader 7,
-        # M3: the 0.5% is the range's alone until the Wed 18 Nov re-size): plain words, the 0.5% tied to the range
+        # M3: the 0.5% was the range's alone until the re-size, done Tue 17 Nov evening, after which the extra Treasuries
+        # carry it for the payments too, so a payment's gap is met from them): plain words, the 0.5% tied to the range
         # (Measured Tue 17 Nov: the cell must stay within row 4's four lines, so "re-tested" is in the 3e list only)
-        _changes("the fund; any gap met from the extra Treasuries, or for the range its 0.5% margin",
+        # Tue 17 Nov evening (coherence reader 8, M1; the lead's call): "any gap met from the extra Treasuries" claimed
+        # more than the zero-interest numbers carry ($1,177 spare, NUMBERS 2), and "for the range its 0.5% margin" read
+        # as if the payments had none since the re-size: the cell names the one margin both carry; what it covers and
+        # what a larger gap draws on are in the 3e list (no new reason to change the plan: IPS l.17's two stand)
+        _changes("the fund; a gap met from the 0.5% margin the payments and the range each carry",
                  "a sale of shares")]),
     ("closer", [
         "Trades in 2027, 2028, 2031",
@@ -612,7 +625,11 @@ TABLE3_ROWS = [
         "Treasury yields and share prices",
         "Team",
         "Any level",   # Sat 14 Nov (coherence reader 4): the l.17 echo dropped, as SKELETON said
-        f"None (for scale: 1 point lower before 4 Jan 2027 gives an {dollars(BOTTOM_AFTER_1PT_FALL)} bottom)",
+        # Tue 17 Nov evening (evening lay reader, stumble 3: the $85,000 read against IPS l.15's "the bottom will remain
+        # constant"; "Why 4 Jan 2027?"; the lead's call): the bottom is set in January 2028 and stays put after it; the
+        # first trade day and the rest are in the 3e list
+        # (measured: "gives an $85,000 bottom, set Jan 2028" took a fifth line and two pages; this wording keeps four)
+        f"None (for scale: 1 point lower by Jan 2027 sets an {dollars(BOTTOM_AFTER_1PT_FALL)} bottom in Jan 2028)",
         # Mon 16 Nov night (coherence reader 6, L2): never "the 2031 move" alone. Tue 17 Nov: "the top to Jan 2031", the
         # move's trade day (row 5: the first trading day of 2031, before the meetings), dated like "the bottom to Jan
         # 2028", so the cell takes four lines and Table 3 stays on one page with its note
@@ -639,6 +656,11 @@ TABLE3_ROWS = [
                  "the range")]),
 ]
 
+# Tue 17 Nov evening (card Q117; the lead's call): Table 3 prints "today's rates" for a register figure, so its note
+# says once which rates they are; the register stays on the 6 Nov 2026 curve by rule, and later curves are disclosed,
+# never re-booked (build_exhibits.py, Table 3's note item 1)
+TABLE3_NOTE_TODAY = "at today's rates (the Treasury curve of 6 Nov 2026)"
+
 # Tue 17 Nov: what left Table 3's cells to fit one page, for 3e's prose and the store, never lost. Printed in tables.md
 # under the table, headed for 3e's notes (not report text); each figure is built from the constants above and checked
 # in check(). Rows are the table's rows, 1 to 7.
@@ -660,13 +682,25 @@ TABLE3_FOR_3E = [
     "Row 4, one action per event (bond desk 4, M4): an early end's cash waits in the short-term Treasury ETF to "
     "1 January; a merged or moved fund is sold for an earlier iBond fund or the short-term Treasury ETF, never a "
     "Treasury due by 15 December, which WInS does not list for 2033 or 2035 (WN l.20, l.22; coherence reader 6, L17); "
-    "a dearer waiting ETF is swapped for a cheaper one; any gap comes from the extra Treasuries and the ten are "
-    "re-tested with cash waiting earning nothing; the floor's gap comes from the range's 0.5% cut; never VT",
+    "a dearer waiting ETF is swapped for a cheaper one; a payment's gap comes from the 0.5% margin the extra "
+    "Treasuries carry for the ten and the ten are re-tested with cash waiting earning nothing; the floor's gap comes "
+    "from the range's 0.5% cut; never VT",
+    # Tue 17 Nov evening (coherence reader 8, M1; the lead's call): what the margin covers, from NUMBERS 2, and what a
+    # larger gap draws on, with no new reason to change the plan
+    f"Row 4, the margin: with cash waiting earning nothing the extra Treasuries leave "
+    f"{dollars(FIGURE1_NOTE_FACTS['left_after_2042_with_fee'])} spare when the funds cost nothing beyond their fees, "
+    "and nothing once those costs reach 0.5% (NUMBERS 2); a gap beyond that is met only from interest the waiting "
+    "cash earns, never from shares, and is not a reason to change the plan (IPS l.17's two reasons stand)",
     f"Row 5: each fund leg goes in as a limit order within {100 * TRADE_LIMIT:.1f}% of net asset value, the worst "
     "median gap of March 2020 for government bond and equity ETFs (NUMBERS 4, \"A trade-day limit for Table 3 row "
     "5\"; bond desk 4, M6); the bond legs have no net asset value and keep the 25-basis-point curve test (8m); this "
     "limit and row 4's 0.5% cut are the same size with separate jobs (NUMBERS 4); a trading halt is the case where a "
     "date cannot be kept",
+    # Tue 17 Nov evening (evening lay reader, stumble 3; the lead's call): why a lower bottom can appear at all
+    f"Row 6: the bottom is set when the floor is bought in January 2028 and stays put after it (IPS l.15: \"the "
+    f"bottom will remain constant\"); before then the rate on the day decides it. {_d(TRADE_DAYS[0])} is the first "
+    f"trade day, when the ten are bought; a 1-point fall in yields by then leaves the 2028 deposit less for the "
+    f"floor, so the bottom set in January 2028 would be {dollars(BOTTOM_AFTER_1PT_FALL)} (NUMBERS 5)",
     # Tue 17 Nov (lay reader 3): the table prints "Taiwan dollar 10% stronger" only; the quote's 9.1% lives here
     f"Row 7: \"10% stronger\" is 8j's one reading, {100 * TWD_TEST:.0f}% more US dollars for the same Taiwan-dollar "
     f"cost, which moves NT$ per US$ {100 * TWD_BAND:.1f}% below its level when the range is stated; for scale only, "
@@ -1014,29 +1048,32 @@ def check(verbose=True):
     F = FIGURE1_NOTE_FACTS
     for what, mine, pat in (
             ("the extra Treasuries, sized for cash waiting earning nothing, January 2028", F["topup_for_no_interest_jan2028"],
-             r"part for no interest costs \$([\d,]+) in January 2028"),
+             r"(?:part for no interest costs|the extra Treasuries \(for cash waiting that earns nothing\) cost) \$([\d,]+) in January 2028"),
             ("what it buys, face and fund dollars", F["topup_face_and_fund_dollars"],
-             r"What it buys:\*\* \$([\d,]+) of face and fund dollars"),
+             r"What it buys:\*\* \$([\d,]+)(?: \(\$[\d,]+\))? of face and fund dollars"),
             ("its own interest, undiscounted", F["topup_interest_undiscounted"],
-             r"back plus \$([\d,]+) of its own interest"),
+             r"back plus \$([\d,]+)(?: \(was \$[\d,]+\))? of its own interest"),
             ("face plus interest, undiscounted", F["topup_all_flows_undiscounted"],
              r"without discounting: \$([\d,]+)"),
-            ("the ETF's fee while it waits", F["topup_fee_while_waiting"], r"fee takes \$([\d,]+) of that"),
+            ("the ETF's fee while it waits", F["topup_fee_while_waiting"], r"fee takes \$([\d,]+)(?: \(was \$[\d,]+\))? of that"),
             ("reaches the payments (the column's total)", T["backstop_if_nothing_earns"],
              r"\*\*\$([\d,]+)\*\* reaches the payments"),
             ("what comes back, 1 Jan 2033 money", F["topup_comes_back_1jan2033"],
-             r"\*\*\$([\d,]+)\*\* in 1 Jan 2033 money \(this part of the top-up plus")):
+             r"\*\*\$([\d,]+)\*\* in 1 Jan 2033 money \((?:this part of the top-up|the extra Treasuries) plus")):
         m = re.search(pat, s8h1)
         cmp("Figure 1", f"Note: {what}", round(mine), float(m.group(1).replace(",", "")) if m else None, "8h reconciled")
-    cmp("Figure 1", "Note: $35,894 is Table 3's extra Treasuries", round(F["topup_for_no_interest_jan2028"]),
+    cmp("Figure 1", "Note: $36,774 is Table 3's extra Treasuries", round(F["topup_for_no_interest_jan2028"]),
         round(TOPUP_NO_INTEREST), "2, 5")
-    cmp("Figure 1", "Note: face + interest - fee = the column's total", round(F["topup_all_flows_undiscounted"] -
-        F["topup_fee_while_waiting"]), round(T["backstop_if_nothing_earns"]), "8h reconciled")
+    # Tue 17 Nov evening (the payments' 0.5% margin): the backstop now has $1,177 left after 2042 at zero interest with
+    # the fee, so face + interest - fee = the column's total + what is left (8h)
+    cmp("Figure 1", "Note: face + interest - fee = the column's total + what is left after 2042",
+        round(F["topup_all_flows_undiscounted"] - F["topup_fee_while_waiting"]),
+        round(T["backstop_if_nothing_earns"] + F["left_after_2042_with_fee"]), "8h reconciled")
     cmp("Figure 1", "Note: what comes back = 8h's backstop on 1 Jan 2033", round(F["topup_comes_back_1jan2033"]),
         round(RESERVE["margin_value_1jan2033_at_forwards"]), "8h")
     # Mon 16 Nov (NUMBERS 9): the backstop at its value on 1 Jan 2033, not its cost carried; against 8h's own sentence,
     # 8h's composition total, the 8i forwards row and section 4
-    m = re.search(r"cost carried to 1 Jan 2033 at forwards is \$([\d,]+); its value there is \$([\d,]+)", s8h1)
+    m = re.search(r"cost carried to 1 Jan 2033 at forwards is \$([\d,]+)(?: \(\$[\d,]+\))?; its value there is \$([\d,]+)", s8h1)
     cmp("Figure 1", "Note: the backstop is its value on 1 Jan 2033 (8h), not its cost carried",
         round(F["topup_comes_back_1jan2033"]), float(m.group(2).replace(",", "")) if m else None, "8h")
     cmp("Figure 1", "Note: the cost carried, kept apart and never printed", round(F["backstop_cost_carried_1jan2033"]),
@@ -1139,7 +1176,8 @@ def check(verbose=True):
     m = re.search(r"About \$([\d,]+) short for each 0\.1% above", s3n)
     cmp("Table 2", "Note: short of the top for each 0.1% past the margin (a ceiling; printed about $120)",
         SHORT_PER_TENTH, float(m.group(1).replace(",", "")) if m else None, "3 (bond desk 4, H1)", tol=0.5)
-    m = re.search(r"\$120,000, worth \$([\d,]+) in 1 Jan 2027 dollars", s8i)
+    # Tue 17 Nov evening (re-size): the inflation world's top stepped down to $115,000 and 8i keeps the old figure in brackets
+    m = re.search(r"It is \$[\d,]+ \(was[^)]*\), worth \$([\d,]+)(?: \(\$[\d,]+\))? in 1 Jan 2027 dollars", s8i)
     infl = JOINT["scenarios"]["inflation"]["gift_in_2027_us_dollars"]
     cmp("Table 2", "Inflation row's contribution in 1 Jan 2027 dollars (now for 3b or 3c prose)", round(infl), float(m.group(1).replace(",", "")), "8i")
 
@@ -1156,22 +1194,23 @@ def check(verbose=True):
     # ---- Table 3 against NUMBERS 2, 5, 8d, 8h, 8j and SKELETON's definitions (Exhibits item 4) ----
     s5 = _section(md, "## 5. A smaller or missed 2028 deposit", "\n## 6.")
     r = [x for x in _table_rows(s5, "| Yields fall before Jan 2027") if x[0].startswith("None")][0]
-    cmp("Table 3", "Row 1: the top-up ($38,282)", round(TOPUP), _money(r[2])[0], "5")
+    cmp("Table 3", "Row 1: the top-up ($39,162; $38,282 before Tue 17 Nov evening)", round(TOPUP), _money(r[2])[0], "5")
     cmp("Table 3", "Row 1: what the ten Treasuries still lack ($2,388)", round(TOPUP_TEN_LACK), _money(r[1])[0], "5")
     # Tue 17 Nov: NUMBERS 2's line was re-anchored by the numbers owner ("the $2,388 top-up that finishes the ten plus
     # the extra Treasuries ($35,894, the backstop)"; was "the $2,388 tail plus the backstop ($35,894)"); same figures
-    m = re.search(r"the \$([\d,]+) (?:tail plus the backstop \(|top-up that finishes the ten plus the extra Treasuries "
-                  r"\()\$([\d,]+)", s2)
-    cmp("Table 3", "Row 1: the extra Treasuries, sized for cash waiting earning nothing ($35,894)", round(TOPUP_NO_INTEREST),
+    # Tue 17 Nov evening (re-size): the line now carries "(unchanged: ...)" after the top-up
+    m = re.search(r"the \$([\d,]+) (?:tail plus the backstop \(|top-up that finishes the ten (?:\([^)]*\) )?plus the extra "
+                  r"Treasuries \()\$([\d,]+)", s2)
+    cmp("Table 3", "Row 1: the extra Treasuries, sized for cash waiting earning nothing ($36,774; $35,894 before Tue 17 Nov evening)", round(TOPUP_NO_INTEREST),
         float(m.group(2).replace(",", "")), "2")
     cmp("Table 3", "Row 1: the top-up's two parts add up", round(TOPUP_TEN_LACK) + round(TOPUP_NO_INTEREST),
         round(TOPUP), "2, 5")
     dep = [x for x in _table_rows(s5, "| 2028 deposit | Floor money") if x[0].startswith("$150,000")]
     cmp("Table 3", "Row 1: the 2028 deposit", DEPOSIT_2028, _money(dep[0][0])[0] if dep else None, "5")
-    m = re.search(r"After 2 points: the floor takes all \$[\d,]+ left, VT \$0, stated \$([\d,]+)", s5)
+    m = re.search(r"After 2 points: the floor takes all \$[\d,]+(?: \(\$[\d,]+\))? left, VT \$0, stated \$([\d,]+)", s5)
     cmp("Table 3", "Row 6 (store): bottom after a 2-point fall before Jan 2027", BOTTOM_AFTER_2PT_FALL,
         float(m.group(1).replace(",", "")) if m else None, "5")
-    m = re.search(r"After a 1-point fall: \$([\d,]+), VT \$([\d,]+), floor payout \$[\d,]+, stated \$([\d,]+)", s5)
+    m = re.search(r"After a 1-point fall: \$([\d,]+), VT \$([\d,]+)(?: \(\$[\d,]+\))?, floor payout \$[\d,]+, stated \$([\d,]+)", s5)
     cmp("Table 3", "Row 6: bottom after a 1-point fall before Jan 2027", BOTTOM_AFTER_1PT_FALL,
         float(m.group(3).replace(",", "")) if m else None, "5")
     note("Table 3", "Row 6: \"most\" still holds after a 1-point fall (floor money over half the deposit, VT bought)",
@@ -1264,7 +1303,7 @@ def check(verbose=True):
             ("Row 5: the 2031 move", "the 2031 move", "row 5 adds the 2031 move"),
             ("Row 6: the scale", f"1 point; {dollars(BOTTOM_AFTER_1PT_FALL)}",
              "a 1-point fall in yields before January 2027 gives a stated bottom of $85,000"),
-            ("Note: the bound", f"{FALL_TAKES_WHOLE_DEPOSIT:.2f}-point", "a 3.60-point fall takes the whole deposit"),
+            ("Note: the bound", f"{FALL_TAKES_WHOLE_DEPOSIT:.2f}-point", "a 3.57-point fall takes the whole deposit"),
             ("Row 7: the test", f"{100 * TWD_TEST:.0f}% stronger", "row 7 tests a 10% stronger Taiwan dollar")):
         note("Table 3", what, mine, want, "SKELETON Exhibits item 4", "PASS" if want in sk4 else "FAIL")
     shut = (TRADE_DAYS[0] - _date(2027, 1, 1)).days == 3 and _date(2028, 1, 1).weekday() == 5 and \
@@ -1307,8 +1346,20 @@ def check(verbose=True):
     note("Table 3", "Every dollar figure printed is checked", ", ".join(sorted(found)), ", ".join(sorted(allowed)),
          "this check", "PASS" if found <= allowed else "FAIL")
     found3e = set(re.findall(r"(?<![A-Z])\$[\d,]+", for3e))
+    # Tue 17 Nov evening (coherence reader 8, M1): the margin's $1,177 is Figure 1's checked note figure (8h)
+    allowed3e = allowed | {"$50,000", dollars(FIGURE1_NOTE_FACTS["left_after_2042_with_fee"])}
     note("Table 3", "3e list: every dollar figure is checked", ", ".join(sorted(found3e)) or "none",
-         ", ".join(sorted(allowed | {"$50,000"})), "this check", "PASS" if found3e <= allowed | {"$50,000"} else "FAIL")
+         ", ".join(sorted(allowed3e)), "this check", "PASS" if found3e <= allowed3e else "FAIL")
+    # Tue 17 Nov evening (evening lay reader, stumbles 2 and 3; coherence reader 8, M1; the lead's calls)
+    m1 = re.search(r"leave(?:s)? \$([\d,]+) spare", re.sub(r"\s+", " ", for3e))
+    ok = "Never: a bond or fund sold early." in printed and "until the deposit fills them" in printed \
+        and f"sets an {dollars(BOTTOM_AFTER_1PT_FALL)} bottom in Jan 2028" in printed \
+        and "stays put after it" in for3e and "is not a reason to change the plan" in for3e \
+        and "Treasury curve of 6 Nov 2026" in TABLE3_NOTE_TODAY and "6 Nov 2026 curve" in md \
+        and m1 is not None and m1.group(1) == f"{round(FIGURE1_NOTE_FACTS['left_after_2042_with_fee']):,}"
+    note("Table 3", "Rows 1, 4, 6 and the note: who fills the gap, what is never sold, what the margin covers, when the "
+         "bottom is set, what today's rates are", "the lead's calls, Tue 17 Nov evening", "found" if ok else None,
+         "lay reader (evening); coherence reader 8, M1", "PASS" if ok else "FAIL")
     # Tue 17 Nov (numbers owner; bond desk 4, M6): row 5's trade-day limit is the register's (NUMBERS section 4)
     s4 = _section(md, "## 4.", "\n## 5.")
     m = re.search(r"A trade-day limit for Table 3 row 5: limit orders within ([\d.]+)% of net asset value", s4)
@@ -1323,9 +1374,10 @@ def check(verbose=True):
              "9", "6", "2036", IBTA_SLACK,
              f"{FALL_TAKES_WHOLE_DEPOSIT:.2f}", f"{TWD_PER_USD:.3f}", "10%", "2026", f"{100 * CCI_5Y:.2f}%", "0.5%",
              f"{100 * TWD_BAND:.1f}%", f"{TWD_STRONG:.2f}", f"{100 * FUND_FEE:.2f}%"}   # Mon 16 Nov night: row 7, row 4
-    # row 4: the floor's swap from the range rule's 0.5% cut; Tue 17 Nov (coherence reader 7, M3): the 0.5% is tied to
-    # the range only, never to the payments, until the Wed 18 Nov re-size
-    ok = "less 0.5%" in md and "or for the range its 0.5% margin" in printed and \
+    # row 4: the floor's swap from the range rule's 0.5% cut; Tue 17 Nov (coherence reader 7, M3): the 0.5% in this cell
+    # is tied to the range only; since Tue 17 Nov evening's re-size the payments' own 0.5% sits in the extra Treasuries
+    # Tue 17 Nov evening (coherence reader 8, M1): one margin named for both, the payments' and the range's
+    ok = "less 0.5%" in md and "the 0.5% margin the payments and the range each carry" in printed and \
         "range's from its 0.5%" not in printed and "payment from its 0.5%" not in printed
     note("Table 3", "Row 4: the floor's 0.5% margin is the range rule's cut (NUMBERS 4: each end less 0.5%)",
          "0.5% margin", "less 0.5%" if "less 0.5%" in md else None, "4", "PASS" if ok else "FAIL")
@@ -1359,7 +1411,7 @@ def check(verbose=True):
     wn_ok = "no individual Treasury maturing in 2033" in wn and "no individual Treasury maturing in 2035" in wn
     # Tue 17 Nov: the table prints "Changes: the fund"; the class and one action per event are in the 3e list
     swap_ok = "Treasury due by" not in printed and \
-        "Changes: the fund; any gap met from the extra Treasuries" in printed \
+        "Changes: the fund; a gap met from the 0.5% margin the payments and the range each carry" in printed \
         and "sold for an earlier iBond fund or the short-term Treasury ETF" in for3e and \
         "early end's cash waits in the short-term Treasury ETF" in for3e and "a dearer waiting ETF" in for3e
     note("Table 3", "Row 4: a fund's swap names the class, never an individual Treasury (WInS lists none for 2033, "

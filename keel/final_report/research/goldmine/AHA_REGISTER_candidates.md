@@ -97,3 +97,14 @@ Why these eight:
   says instead that a missed deposit stops being possible after 31 Mar 2028.
 - Perry v. United States (store H5-041): held. It is a fact about the gold clause and buying power, and it raises a
   default history that today's rules do not ask the report to raise.
+
+## Tested cold: test 5 (Tue 17 Nov 2026, evening; `aha_test_2026-11-17_evening/RESULTS.md`)
+
+Three cold readers X, Y and Z (simulated: an investment professional, a fixed-income professor, a former finalist of a
+student competition) scored surprise (the old aha-strength anchors) and conviction apart. Two candidates from
+`GOLDMINE.md`'s "To place" rows were tested.
+
+| Candidate | Source rows | Surprise X / Y / Z (mean) | Conviction X / Y / Z (mean) | Repeat tomorrow | Figure recalled | Verdict |
+|---|---|---|---|---|---|---|
+| A world fund does almost nothing for a Taiwan-dollar cost: Taiwan is VT's third-largest country (3.5% on VT's fact sheet of 30 Sep 2026, ahead of the UK's 3.1%), yet a 10% stronger Taiwan dollar lifts the Taiwan slice of her unpromised half about $75 against an $11,500 need on $115,000, counting the currency alone; her unpromised half covers that need about 1.9 times, 2.6 with what the funds pay above the stated top, on today's figures | Rank 19 above; GOLDMINE #22; card Q6d rows 21-23; NUMBERS 8j, 8k | 3 / 2 / 2 (2.3) | 4 / 4 / 4 (4.0) | maybe from all three | all three the key figure ($75) | **Not an aha; stays here.** All three already held its conclusion (70, 85 and 65 sure); only Taiwan's rank was new; nobody listed it after 40 reports. Its use is one clause in 3e where Table 3 watches the Taiwan dollar ("about $75 against $11,500", with her flexibility's size, not its mix, as the answer). Fixes: VT's fact sheet named beside the rank (readers X, Z); "against this one of its three uses" (8j: "The test is about one use of the pot only"; reader X); "if all of it is spent in Taiwan dollars" (readers Y, Z); never "hedge". Open: readers X and Y asked why the unpromised half holds no Taiwan-dollar asset (a research card, answered inside the frozen IPS, adding no holding or rule). Figure re-checked after the Tue 17 Nov evening re-size ($21,300, 1.9 and 2.6 times) |
+| The order of purchase decides where a smaller deposit lands | GOLDMINE #39; sweep B #4; sweep A #41; NUMBERS 5 | 4 / 2 / 4 (3.3) | 5 / 4 / 5 (4.7) | yes from X and Z, maybe from Y | all three the key figure (74.5%) | **Promoted to the register's reserves** (first in line for 2.3 or 3e), on the plan's standard, never GOLDMINE's "98.4% at forward rates" or "hedge"; its "only a deposit that never comes" is fixed first (reader X: wrong against its own threshold). See `AHA_REGISTER.md`, reserves |

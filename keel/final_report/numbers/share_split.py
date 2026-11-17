@@ -33,8 +33,8 @@ Three bases, built exactly as range_margin.py builds them (route 1):
            run), then its plan_path re-done with the split passed through (585 windows, Jan 1962 to Sep 2010 starts).
 
 What comes back from the top-up (the backstop's money, NUMBERS 8h and 8k) is the same in every option: the backstop and
-the ten are bought before the split. Joint replay: each window's own figure (8k). US stock history: $45,456 in every
-window (rates at today's forwards). House model: $45,456 too, because the house model moves no rates after 2031 and
+the ten are bought before the split. Joint replay: each window's own figure (8k). US stock history: $46,566 in every
+window (rates at today's forwards; $45,456 before Tue 17 Nov evening's re-size). House model: $46,566 too, because the house model moves no rates after 2031 and
 models no reinvestment (NUMBERS 7); it is labelled so.
 """
 import ast
