@@ -1,0 +1,116 @@
+{
+ "house": {
+  "kept_half_at_cost_2028": 14789.073724064168,
+  "kept_p1_p5_p50_p95": [
+   6329.093562217387,
+   9621.027714573438,
+   20486.495245937913,
+   40890.0605462364
+  ],
+  "kept_as_share_of_top_p5_p50_p95": [
+   0.08651413347850644,
+   0.1660300632542494,
+   0.3028437259498166
+  ],
+  "share_paths_shares_fell_2031_2033": 0.28422,
+  "kept_median_if_fell_2031_2033": 15249.715395230704,
+  "kept_p5_if_fell_2031_2033": 7811.764775863086,
+  "kept_median_if_rose_2031_2033": 23034.503868764637,
+  "share_paths_fell_over_20pct_2031_2033": 0.073195,
+  "kept_median_if_fell_over_20pct": 12806.321051804582,
+  "share_paths_vt_below_cost_2033": 0.18274,
+  "kept_median_if_vt_below_cost_2033": 12075.249675394462,
+  "share_paths_kept_under_15k": 0.237415,
+  "share_paths_kept_under_10k": 0.05821,
+  "kept_plus_excess_p1_p5_p50_p95": [
+   11868.346390375318,
+   16176.365555886601,
+   28623.812442236784,
+   49900.64681570996
+  ],
+  "kept_plus_excess_median_if_fell_2031_2033": 23343.986853761016,
+  "kept_plus_excess_median_if_rose_2031_2033": 31143.47255176401,
+  "kept_plus_excess_median_if_fell_over_20pct": 20901.51051386184,
+  "kept_plus_excess_median_if_vt_below_cost_2033": 19736.830058606916,
+  "share_paths_kept_plus_excess_under_15k": 0.033405,
+  "share_paths_kept_plus_excess_under_10k": 0.00447,
+  "excess_p5_p50_p95": [
+   4648.9538888535035,
+   7974.821603130491,
+   11572.652111567912
+  ]
+ },
+ "history": {
+  "kept_half_at_cost_2028": 14796.877262675916,
+  "kept_p1_p5_p50_p95": [
+   8233.146532718383,
+   13134.002759391899,
+   23296.30747575304,
+   40287.671348189375
+  ],
+  "kept_as_share_of_top_p5_p50_p95": [
+   0.10986467689141076,
+   0.18870128937248815,
+   0.3059217064545997
+  ],
+  "share_paths_shares_fell_2031_2033": 0.20734463276836157,
+  "kept_median_if_fell_2031_2033": 16036.603469182503,
+  "kept_p5_if_fell_2031_2033": 10060.117531493403,
+  "kept_median_if_rose_2031_2033": 24991.833905952913,
+  "share_paths_fell_over_20pct_2031_2033": 0.0519774011299435,
+  "kept_median_if_fell_over_20pct": 14367.340694165305,
+  "share_paths_vt_below_cost_2033": 0.10508474576271186,
+  "kept_median_if_vt_below_cost_2033": 13206.468195854664,
+  "share_paths_kept_under_15k": 0.11299435028248588,
+  "share_paths_kept_under_10k": 0.022598870056497175,
+  "kept_plus_excess_p1_p5_p50_p95": [
+   15182.20979860427,
+   20386.99316632543,
+   31308.093258714496,
+   48615.84769288763
+  ],
+  "kept_plus_excess_median_if_fell_2031_2033": 23777.529018534347,
+  "kept_plus_excess_median_if_rose_2031_2033": 33274.175962944624,
+  "kept_plus_excess_median_if_fell_over_20pct": 22095.482470811028,
+  "kept_plus_excess_median_if_vt_below_cost_2033": 20467.948892787907,
+  "share_paths_kept_plus_excess_under_15k": 0.00903954802259887,
+  "share_paths_kept_plus_excess_under_10k": 0.0,
+  "excess_p5_p50_p95": [
+   5648.967300396864,
+   7903.519965443367,
+   10136.00929801043
+  ],
+  "kept_lowest": {
+   "value": 5733.939138266338,
+   "start": "1929-09"
+  },
+  "kept_at_named_starts": {
+   "1929-09": 5733.939138266338,
+   "1973-01": 13723.512714315655,
+   "2000-03": 13183.914324442148,
+   "2007-10": 15385.563553767248,
+   "2020-01": null
+  },
+  "kept_plus_excess_at_named_starts": {
+   "1929-09": 13358.972578711466,
+   "1973-01": 20996.1159555638,
+   "2000-03": 20481.94370831406,
+   "2007-10": 20997.54805682671
+  },
+  "kept_plus_excess_lowest": 12541.938517640076
+ },
+ "central": {
+  "kept33": 21179.178869581778,
+  "vt_bought_jan2028": 29593.754525351833,
+  "kept_at_cost": 14796.877262675916,
+  "excess": 7503.134822558903
+ },
+ "stamp": {
+  "curve": "11/06/2026",
+  "design": "H_plain",
+  "margin_jan2027_value": 35212.61868103828,
+  "run": "Tue 10 Nov 2026 (Sydney)",
+  "rerun": "Sun 15 Nov 2026 evening",
+  "rule": "Sun 15 Nov 2026 evening: fund fee charged from each trade day (price = gross holdings' value); distributions wait in the Treasury-bill ETF at its 0.15% fee; haircut 0.5%; rounded down to $5,000"
+ }
+}

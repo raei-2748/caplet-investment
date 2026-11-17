@@ -491,3 +491,67 @@ Rows that land nowhere, one line per card:
 - **Q106:** rows 008 refused (a yearly account to co-sponsors is a new process outside the IPS and would state figures before 2031) and 031 refused (a cheque teaches inked as signed and owed); 019 kept in the store since 3c takes one outside case.
 - **Q107:** row 040 refused (it treats simulated readers as people); the method rows are already the register's rules.
 - **Q108:** none at F 4 left out; the industry-history rows stay in the store as context.
+
+
+## 11. Tue 17 Nov evening: cards Q109-Q121 (519 rows, all rated by raters AV-BG)
+
+Nothing lost: every row is in the store with a judged score and a note (raters' files `store/digest/ratings_R2_AV.csv`
+to `_BG.csv`: keep 319, adapt 111, merged 70, refuse 19; score = 2F+R+S+C). 72 rows score 19 or more; each is listed
+below by where it lands. Landed in SKELETON the same evening as dated notes "(Tue 17 Nov evening)", one per part
+(2.2, 2.3, 3.0, 3a-3f), under the density cut (no new figure in prose unless it replaces one); the conceit's facts land
+in CONCEIT's "Tue 17 Nov evening" list; goldmine row 39 lands in 2.3. Three rows below 19 land because the lead named
+them (Q115-029, 18; Q117-024, 17; Q117-029, 15), and three conceit facts below 19 land in CONCEIT (Q114-020, 18;
+Q121-006, 16; Q112-040, 17, as a later voice-round candidate).
+
+| Ids | Score or status | Where it lands |
+|---|---|---|
+| Q109-033, Q109-031 | 20, 20 | SKELETON 3e: reasons to change and ways a promise breaks are two lists, so never "only two things can break the plan"; a missed deposit means no range stated, never a broken one, said as a consequence (aha row 4 keeps the principle) |
+| Q109-009, Q109-004 | 19, 19 | SKELETON 3e's limits: the supervisors' two-step form (define failure, then the events), PRA 2025 cited as a draft; 004 gives the range's failure (a stated figure going unpaid). Read as shaping the limits, not the five assumption areas |
+| Q109-034 | 19 | SKELETON Open questions, for the next coherence reader and the exhibits owner: Table 3 row 4's "any gap met from the extra Treasuries" at zero interest ($1,177 left with no cost beyond the fee, nothing at 0.5%) |
+| Q109-029, Q109-030, Q109-037 | 19 adapt, 20, 19 | Store: 3e's reverse sentences and the pair's 25.9%, 28.0% and 38.9%; the density cut keeps them in words in 3e and their figures in Table 3 or the store; 029 and 030 were written before the margin re-size and go back to the numbers owner |
+| Q109-003, Q109-005 | 19, 19 | Store: three parts per promise and a warning time per failure are Table 3's existing columns and dates; no new row |
+| Q109-016, Q109-025, Q109-036 | 20 adapt, 19 adapt, 19 adapt | Store: 016 (insurers fail on several shocks, Laura's payments on single non-market events; fix: before 1 Jan 2027 a yield fall is one too) and 025 (why the default is named once) have no room in 3e's 200 words; 036's branches (delay at any balance, loss only above what SIPC fills) go to the custody clause's owner, superseding Q3b-031's $589,655 |
+| Q110-002 | 20 | SKELETON 3a: Rippl (1883), the worst run sets the store, so the standard holds cash waiting at zero for all sixteen years; one plain clause, no water image |
+| Q110-027 | 20 adapt | Store, for the next cold aha test (Cape Town plans on no rain); never beside Rippl, which carries the same point tonight |
+| Q110-007, Q110-017, Q110-021, Q110-033, Q110-038 | 19-20; 021, 033 adapt | Store: 007 (firm yield touches empty once) goes with the Open question on the $1,177; 017 and 038 one clause at most in 3c or 3d and never together (aha row 4 holds the principle); 021 and 033 read in reposts or as assumed volumes, no water words |
+| Q111-001, Q111-015 | 20, 19 | Store: a 3e evidence clause or reference if room (the fixed fuel words came 22 years after Avianca; a watch fires before the reason does); 3e's 200 words are full tonight |
+| Q112-003, Q112-036 | 20, 20 | SKELETON 3a: Taiwan's statute gives a hui's reason as the organiser's credit and the members' good faith, beside IPS l.11; 036 is its guard (never "a hui whose organiser is the US Treasury"; store H4-051 for the lead to mark refuse) |
+| Q112-011 | 19 | Store: 68% joined and 39% of them saw a collapse (Jou 2003) would be a fourth figure in 3a |
+| Q113-003 | 22 | SKELETON 3d, the team's sentence: a giver may hide the name, not the sum, the local reason 3d leads with one figure |
+| Q113-004 | 19 | Travels with 113-003 as its example (the printed line only), if 3d has room |
+| Q113-013, Q113-019, Q113-021, Q113-026, Q113-039, Q113-040 | 19-21; 013, 019 adapt | Store: 026 supports 3d's existing "today's size in Taiwan dollars, not a promise" (cite the 2026 college rule); 040 supports leading with the top ($115,000 re-checked after the Tue 17 Nov evening re-size: unchanged, NUMBERS 4; coherence reader 8, L3); 013, 019, 021 and 039 are 3d judge's notes and aha reserves (two lists, names and sums, of money that has arrived; temple foundations as a co-sponsor kind) |
+| Q114-021 (with 024 merged) | 19 | CONCEIT, Tue 17 Nov evening: the archives' pencil-only rule behind "pencil" for the report's models (3c); replaces non-photo blue if used, never beside it; cold test first |
+| Q115-011 | 19 | SKELETON 3b: Statman (2018), selling only part soothes regret; the half kept does this too, never built for it |
+| Q116-042 | 20 | SKELETON 3d, the team's sentence: Osaka's partners each promised a third and each bill nearly doubled, while a dollar figure does not rise with overruns; in words |
+| Q116-005 | 20 adapt | Store, as 116-042's alternative and never beside it; its fix (she may still meet overruns from her flexibility) travels with 042 as a guard |
+| Q116-017, Q116-024, Q116-031 | 20, 19, 19 | Store: 017 for the next cold aha test (a date that cannot move turns every problem into money); 024 a 3d aha reserve; 031 (Rio) Brazil only, never beside Taiwan's public co-sponsors |
+| Q117-008 | 19 adapt | SKELETON 3e density row and Book 17 bullet, `ROUND2_WORKER_BRIEF.md` l.48, CANON B15's check column: "above the middle of published forecasts (median about 6.5%)" replaces "upper third" |
+| Q117-014 | 19 adapt | SKELETON 2.2 (IBTR's slice 2.30% on 13 Nov 2026, printed only with its date) and CANON B22's check column |
+| Q117-026 | 19 | SKELETON Open questions, for the exhibits owner: AS 2801 as the reason the 6 Nov curve stays frozen, Table 2's note at most |
+| Q118-009 | 22 adapt | SKELETON 3.0: the Schulz Museum planned its running money on the sources the case bars, where "no other founder" was struck |
+| Q118-035 | 19 | Store, 3d beside H7-070: the 27 Nov writers choose one pledge-failure case (the lead's one of two went to 118-009) |
+| Q118-010, Q118-015, Q118-017 | 19-20; 010 adapt | Store: 3a clauses (a ticket forecast missed; licences handed over before opening; Chihiro's separate pots filled over decades); 3a is full tonight |
+| Q119-001 (with 002 merged), Q119-029 | 21, 22 adapt | Store, 3a: alternates to Q112-003's clause, never beside it; not 3d, where Q9c's residency clause is kept (the lead's one of three; rater AX: 029 must beat Q9c and is further from it) |
+| Q119-003, Q119-010, Q119-011, Q119-023, Q119-026, Q119-028 | 19-21; all but 028 adapt | Store: Taiwan pension background for 3a, each with its fix (010: contributions began at 8%, never 5-7%, and never "Laura's own country"; 011: the civil-service 10.6% or both; 023 with 036) |
+| Q120-015 | 22 | SKELETON 3a in words (the SEC's "high degree of confidence"); its 90 sent to 3f |
+| Q120-018 | 22 | SKELETON 3c: the CPSC defined "high degree of assurance" by its evidence and decided against 95% |
+| Q120-040, Q120-001 | 20, 20 | SKELETON 3f: aha row 10 version B's sources, one clause of bars at most, the bar named in words |
+| Q120-004, Q120-022 | 20, 19 | Inputs of 120-040 (Fatico's nine judges; the OCC's 90), References only |
+| Q120-005, Q120-014, Q120-024, Q120-028, Q120-031, Q120-034, Q120-038 | 19-22 | Store: 005 (a court cannot demand 100%; Laura's deposits buy it for the payments) and 014 (Tribe) are version B's reasoning, already carried by its wording; 024, 028, 031, 034 and 038 are 3a, 3c and 3d context, one clause at most each if room |
+| Q121-001 | 19 | CONCEIT: the seal turn is out of 3d (the painter's seal is a signature); kept as the recorded disanalogy |
+| Q121-028 | 19 adapt | CONCEIT: Chinese colour woodblock behind "inked in January 2028" (3c), a fact or reference only |
+
+Rows that land nowhere, one line per card:
+- **Q109:** no refusals; 5 merged; the rows above that are not in SKELETON stay in the store, 029 and 030 going back to the numbers owner after the margin re-size.
+- **Q110:** no refusals; the water rows stay in the store, since round 7 retired second images and Rippl carries 3a's one clause.
+- **Q111:** no refusals; the aviation rows stay in the store as evidence for 3e and Table 3, no fuel words.
+- **Q112:** no refusals; the hui sheet (row 040, 17) waits for a later voice round; row 011 stays in the store.
+- **Q113:** no refusals; the gift-list rows beyond 003 are 3d judge's notes in the store.
+- **Q114:** rows 001-004, 011, 013, 015, 017, 025, 028, 029, 034 and 035 refused and recorded in CONCEIT as a disanalogy only (in law ink means signed or decided); row 033 refused too (its dropped layer is the ink, which reverses ink as owned).
+- **Q115:** none refused; 011 and 029 landed; the averaging rows stay in the store (l.15 sets when, not how).
+- **Q116:** rows 016 refused (it reads the Games' fat tail as her building's overruns, against case l.164) and 044 refused (the blank cheque makes ink a signature).
+- **Q117:** none refused; the VT, Taiwan-dollar and CPI rows are KEEP checks with no change.
+- **Q118:** none refused; the founders' rows stay in the store as 3a and 3d context.
+- **Q119:** none refused; the pension rows stay in 3a's store, since Taiwan's law is out of the case's scope and 3d keeps Q9c.
+- **Q120:** none refused; the remaining standards rows are References or store context for version B.
+- **Q121:** rows 004 refused (a connoisseur's seal is endorsement, the signed sense), 018 refused (stirring maps to rebalancing; the plan is buy-and-hold) and 023 refused (slow drying argues for a gradual move, against NUMBERS 8r).

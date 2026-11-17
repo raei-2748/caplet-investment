@@ -121,6 +121,12 @@ of them, reading a round's passages blind.
   of 9; plain 12 of 12; one turn 9 of 12 ("a click is ink" 3 of 3, "two inkings, two dates" 3 of 3 and helpful to all
   three readers, the key plate 2 of 3, "let the ink dry" 1 of 3); every check answer right. Images read as the team's only
   as a working word in passing; the middle passages lost ground by loading figures into single sentences.
+- Round 7 (Tue 17 Nov evening, `ROUND7.md`): writers M and N on writer J's diet, the Team Reflection whole and the
+  opening page. Caplet 9 of 9; plain 12 of 12; the definition at first use 6 of 6 (best when pencil's examples come from
+  Laura's life; "not merely signed for" brought in the reading it meant to rule out); one turn 3 of 6 (knockout and
+  overprint 0 of 3, the third outside printing image to fail; "our first pencil, rubbed out" 3 of 3 but it stretches
+  pencil from a figure to a plan). Every reader gave the IPS's reason for dropping the first plan and the model as the
+  check. The whole reflection was heard as the team's and lost ground only where the record's dates and figures piled up.
 
 ## Files
 

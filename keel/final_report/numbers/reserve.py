@@ -109,11 +109,13 @@ class Switch(E.Reinvest):
         return g * math.exp(self.r * (d2 - t0).days / 365.25) if d2 > t0 else g
 
 
-def release_schedule(world, r_test=0.0):
+def release_schedule(world, r_test=0.0, margin=C.PAY_MARGIN):
     """Escrow-style release (Keel's reading, not in the IPS): after each payment, the ETF money that can be handed back
     while everything left still pays every later payment if, from that day, nothing earns interest (r_test = 0) or
     every waiting dollar loses the ETF's fee (r_test = -WAIT_FEE), cash inside the iBond funds included. Money already received (own rungs' coupons waiting in
-    the ETF) is counted at its value that day; flows still to come at face; all in that day's money (exact carry)."""
+    the ETF) is counted at its value that day; flows still to come at face; all in that day's money (exact carry).
+    Tue 17 Nov evening: iBond fund flows still to come are counted `margin` (completion.PAY_MARGIN, 0.5%) smaller, as the
+    design test sizes them, so a release never hands back the payments' margin for fund costs beyond the fee."""
     rel, cin, total, out = {}, 0.0, 0.0, []
     pb = C.pool_buckets(POOL, world)
     oa = C.own_amounts(OWN, world)
@@ -126,9 +128,11 @@ def release_schedule(world, r_test=0.0):
         slack = surplus
         cum_av, cum_need = surplus, 0.0
         for k in [y for y in Y if y > yr]:
-            own_k = sum(OWN[k] * a * (world.grow(d, on) if d <= on else dfl(d))
+            ck = (1 - margin) if k in E.FUNDS else 1.0
+            own_k = sum(OWN[k] * a * (world.grow(d, on) if d <= on else ck * dfl(d))
                         for d, a, _ in E.rung_flows(I[k], sw))
-            pool_k = sum(u * a * dfl(d) for y2, u in POOL.items() for d, a, _ in E.rung_flows(I[y2], sw)
+            pool_k = sum(u * a * dfl(d) * ((1 - margin) if y2 in E.FUNDS else 1.0)
+                         for y2, u in POOL.items() for d, a, _ in E.rung_flows(I[y2], sw)
                          if d > on and E.next_payment(d) == k)
             cum_av += own_k + pool_k
             cum_need += E.PAYMENT * dfl(date(k, 1, 1))
@@ -141,7 +145,7 @@ def release_schedule(world, r_test=0.0):
     return out, total
 
 
-out = {"stamp": {"curve": E.CURVE_DAY, "run": C.RUN, "rerun": "Sun 15 Nov 2026 evening (unchanged by the range rule)", "design": NAME, "label": D["label"]}}
+out = {"stamp": {"curve": E.CURVE_DAY, "run": C.RUN, "rerun": "Tue 17 Nov 2026 evening (the payments' 0.5% margin: a larger backstop; the 365.25-day carry)", "design": NAME, "label": D["label"]}}
 WORLDS = (("base", C.BASE), ("zero", C.ZERO), ("fee", C.FEEW), ("minus3", E.Reinvest(c, "shift", 0.03)))
 for wname, w in WORLDS:
     rows, left = run(w)
@@ -189,6 +193,20 @@ for key, rt in (("release_if_forwards_hold", -C.WAIT_FEE), ("release_if_forwards
                 "value_jan2027": sum(r["released"] * c.P(date(int(r["date"][:4]), 1, 1)) for r in rs),
                 "value_jan2033": sum(r["released"] * c.P(date(int(r["date"][:4]), 1, 1)) for r in rs) / c.P(E.J33)}
 rs, tot = release_schedule(C.BASE, -C.WAIT_FEE)
+# Tue 17 Nov evening: the release test without the payments' margin (as until this morning), for comparison only
+rs0, tot0 = release_schedule(C.BASE, -C.WAIT_FEE, margin=0.0)
+out["release_if_forwards_hold_without_the_margin"] = {"schedule": rs0, "total_nominal": tot0}
+# Tue 17 Nov evening: the design test itself (completion.PAY_MARGIN): nothing earns interest, every waiting dollar pays
+# the ETF's fee and every iBond fund flow is 0.5% smaller. The standard is met exactly (nothing left).
+_ins = C.cost_cut(I)
+_paid, _avail, _carry, _left = C.ledger(C.FEEW, OWN, POOL, _ins)
+_oa = C.own_amounts(OWN, C.FEEW, _ins)
+out["fee_and_margin"] = {
+    "world": "nothing earns interest, every waiting dollar pays the ETF's 0.15% a year, every iBond fund flow 0.5% smaller",
+    "by_payment": {str(y): {"own_holding_pays": _oa[y], "backstop_and_carry_cover": _paid[y] - min(_oa[y], E.PAYMENT),
+                            "paid": _paid[y]} for y in Y},
+    "own_total": sum(_oa.values()), "backstop_total": sum(_paid[y] - min(_oa[y], E.PAYMENT) for y in Y),
+    "short_total": sum(E.PAYMENT - v for v in _paid.values()), "left_after_2042": _left}
 (HERE / f"results_reserve_{C.RESULTS}{C.tag(NAME)}.json").write_text(json.dumps(out, indent=1))
 
 k = C.fmt
@@ -210,5 +228,9 @@ for key in ("release_if_forwards_hold", "release_if_forwards_hold_tested_at_0pct
     o = out[key]
     print(key, [(r["date"][:4], round(r["released"])) for r in o["schedule"]], "total", k(o["total_nominal"]),
           "value 2027", k(o["value_jan2027"]), "2033", k(o["value_jan2033"]))
+print("fee and margin (design test):", {y: (round(v["own_holding_pays"]), round(v["backstop_and_carry_cover"])) for y, v in out["fee_and_margin"]["by_payment"].items()},
+      "own", k(out["fee_and_margin"]["own_total"]), "backstop", k(out["fee_and_margin"]["backstop_total"]),
+      "short", k(out["fee_and_margin"]["short_total"]), "left", k(out["fee_and_margin"]["left_after_2042"]))
+print("release without the margin", [(r["date"][:4], round(r["released"])) for r in rs0], "total", k(tot0))
 print("by type 1 Jan 2033", {t: (k(v["value"]), f"{v['share']:.1%}") for t, v in out["composition_1jan2033_by_type"].items()},
       "total", k(tot33), "| backstop", k(back33), "| cost carried", k(out["margin_cost_carried_to_1jan2033_at_forwards"]))

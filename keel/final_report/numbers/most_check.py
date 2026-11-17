@@ -1,7 +1,7 @@
 """When can the floor no longer get "most" of the 2028 deposit? (Numbers owner, Fri 13 Nov 2026, Sydney.) MODEL.
 
 IPS l.15: "Most of the 2028 deposit will fund a Treasury fund maturing in late 2032" (the floor). The IPS's order is the
-ladder first (l.13), then the floor and VT. Under Keel's call (completion.py: the top-up, $38,282 in January 2028 at
+ladder first (l.13), then the floor and VT. Under Keel's call (completion.py: the top-up, $39,162 in January 2028 (was $38,282 before Tue 17 Nov evening's re-size) at
 today's forwards) and Keel's reading of "most" (plan.run, most=True: the floor gets the larger of 73.3% of what is left
 and $75,001, or all of what is left if that is less), "most" holds exactly when what is left after the ladder and the
 top-up is more than half the deposit, so when the top-up costs less than half the deposit.
@@ -174,7 +174,7 @@ out["d_how_often"] = {"house": {
 _g = C.D0_GRID
 _tail_exact = np.interp(d0, _g, [max(C.shifted(x)["plain_cost"] - 300_000.0, 0.0) for x in _g])
 _tail_dur = np.maximum(S0["c27"] * np.exp(-S0["dur_l"] * d0) - 300_000.0, 0.0)
-_corr = (_tail_exact - _tail_dur) * np.exp(-S0["tail_dur"] * d1) * np.exp(np.maximum(S0["f01"] + d0, 0.001))
+_corr = (_tail_exact - _tail_dur) * np.exp(-S0["tail_dur"] * d1) * np.exp(np.maximum(S0["f01"] + d0, 0.001) * E.T01)
 out["d_how_often"]["house"]["paths_failing_with_the_tail_resized_exactly"] = int((h["R"] - _corr <= HALF).sum())
 # the 585 joint windows (joint_stress.py's method: rates from 1 Jan 2027 at today's forwards x the window's ratio)
 S = P.setup(c)

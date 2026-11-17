@@ -122,7 +122,7 @@ about 30% and 2009. If it lands in 3c, it does so in words and its figures stay 
 
 | # | Figure or mechanic | Was in | Now lives | Status | Guard that travels |
 |---|---|---|---|---|---|
-| E1 | 7.5% a year compound | density row; added bullet | 3e prose, headline; also Table 2's note | KEPT | J.P. Morgan's; "upper third of published forecasts", never "the top" or "the consensus" |
+| E1 | 7.5% a year compound | density row; added bullet | 3e prose, headline; also Table 2's note | KEPT | J.P. Morgan's; "above the middle of published forecasts" (Tue 17 Nov evening, card Q117 row 8; was "upper third of published forecasts"), never "the top" or "the consensus" |
 | E2 | 17.88% volatility | density row | Table 2's note, beside 7.5% (moved Tue 17 Nov evening, coherence reader 7 and lay reader 3, Tue 17 Nov evening; the lead's call over L9) | MOVED | 3e's prose keeps two figures |
 | E3 | yields moving about 0.9 points a year, independent of shares | density row | NUMBERS (l.72, the engine); bond desk 4 L11 | store | named in words as "our own assumption, not a market figure"; if any simulated-futures figure is printed (for example 3b's 1 in 6), its size returns beside it; since Tue 17 Nov evening its size, about 0.9 points a year, is printed in Table 2's note, which 3b's 93 of 100 points to (M13) |
 | E4 | one $5,000 step | density row | Table 2's note (the rounding) | already there | prose: "one rounding step" |
@@ -136,7 +136,7 @@ about 30% and 2009. If it lands in 3c, it does so in words and its figures stay 
 | E12 | the 0.07% fee (net asset value basis) | density row | Figure 1's note item 1; Table 3 row 4 | already there | said once in words, with the margins |
 | E13 | the 0.5% one-time cut | density row; "3e's two versions" | 3c prose (its size); Table 2's note | moved to 3c | 3e says "the range rule's margin" |
 | E14 | about 1% a year or less for a US default outside a debt-limit standoff | older limits list; 3c's row ("to 3e"); reservoir | card Q4c | store | default named once, in 3e; no "barring a US default" anywhere else (Book 19) |
-| E15 | about 0.15%, the ended funds' worst year beyond the fee | older limits list | card Q3c (as corrected by bond desk 4, M3) | store | prose: "small in the ended funds"; "well inside the margin" only of the range's 0.5% until the Wed 18 Nov re-size gives the payments the same 0.5% (coherence reader 7, M3); never "shown by the five ended funds" |
+| E15 | about 0.15%, the ended funds' worst year beyond the fee | older limits list | card Q3c (as corrected by bond desk 4, M3) | store | prose: "small in the ended funds"; "well inside the margin" of the range's 0.5%, and of the payments' since the Tue 17 Nov evening re-size gave them the same 0.5% (coherence reader 7, M3; date corrected, coherence reader 8, L3); never "shown by the five ended funds" |
 | E16 | 0.27% | older limits list | card Q3c | store | only as the worst of three measures |
 | E17 | about $45,500 spare at today's rates | older limits list | Figure 1's note item 4; 3a prose | already there | |
 | E18 | the 10% stronger NT$ test | Sat 14 Nov block | Table 3 row 7 (as 9.1% on NT$ per US$) | already there | measured from the rate in 2031 (8j); fits the currency alone, not the pair |
@@ -161,7 +161,7 @@ about 30% and 2009. If it lands in 3c, it does so in words and its figures stay 
 | E37 | arts sole proprietors' receipts -11.6% in 2009 | rank 4 | Q1c-005, Q1c-010 | store | prose: "the financial crisis supports it, the pandemic does not" |
 | E38 | UK authors' 80th percentile +2% real, 20th -16% | rank 4 | card Q56 rows 9, 22, 33 | store | never "the link is strong for top earners" of authors |
 | E39 | $500,000+ speakers 7% to 4% | rank 4 | card Q56 | store | |
-| E40 | fifteen houses | added bullet | card Q6b row 22 | store; "upper third" kept in words | never "the top" or "the consensus" |
+| E40 | fifteen houses | added bullet | card Q6b row 22 | store; "above the middle" in words (Tue 17 Nov evening, card Q117 row 8; was "upper third") | never "the top" or "the consensus" |
 | E41 | median about 6.5% | added bullet | card Q6b | store | |
 | E42 | four houses above 7.5% | added bullet | card Q6b | store | |
 | E43 | the 4%-10% test covers all but two houses | added bullet | card Q6b | store | prose: "nearly every published view" |
@@ -199,7 +199,7 @@ about 30% and 2009. If it lands in 3c, it does so in words and its figures stay 
   - about $15,600 of $98,874 (not yet in NUMBERS).
 - **3a:** none. From the reservoir, $444,545 against $399,089 stays out of prose (flag 1). (Tue 17 Nov evening,
   coherence reader 7, M1, M2, the lead's call: the reserve's 1 January 2033 size is printed once, at today's rates,
-  in Figure 1's note item 4, and moves with the Wed 18 Nov re-size; the ratio stays out of prose.)
+  in Figure 1's note item 4, and moved with the Tue 17 Nov evening re-size, to $445,655, about $445,700 (coherence reader 8, L3); the ratio stays out of prose.)
 
 ## 5. Where card Q105 was used, and where this cut departs from it
 

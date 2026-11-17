@@ -43,7 +43,7 @@ import completion as C    # noqa: E402
 RUN = "Mon 16 Nov 2026 (Sydney)"
 DATA = HERE.parent / "research/cards/data/Q81_bill_rate_months.csv"
 DAILY1, DAILY3 = E.ROOT / "archive/rab/data/fred/DGS1MO.csv", E.ROOT / "archive/rab/data/fred/DGS3MO.csv"
-OUTFILE = HERE / "results_waiting_cash_zero_2026-11-16.json"
+OUTFILE = HERE / f"results_waiting_cash_zero_{C.RESULTS}.json"   # Tue 17 Nov evening re-run; the 2026-11-16 file is the record
 LINES = (0.07, 0.15, 0.25)
 FEE = 0.15                      # % a year: the register's waiting-ETF fee (NUMBERS 0)
 

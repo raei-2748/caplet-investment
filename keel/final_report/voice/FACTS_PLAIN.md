@@ -2,7 +2,8 @@
 
 This page exists so that someone practising Caplet's voice can write about the plan without opening Keel's working
 files, whose shorthand is part of what goes wrong when Keel writes. Every figure is a model result from the number
-register (`../NUMBERS.md`, Tue 10 Nov register, Treasury curve of Fri 6 Nov 2026), not a forecast or a promise. These
+register (`../NUMBERS.md` as re-sized Tue 17 Nov evening, Treasury curve of Fri 6 Nov 2026; re-dated that evening,
+coherence reader 8, L14), not a forecast or a promise. These
 are facts to write from, not sentences to copy.
 
 ## The client and the case
@@ -22,10 +23,12 @@ are facts to write from, not sentences to copy.
   default.
 
 ## The ten payments
-- At the close on 6 Nov 2026, buying the ten payments cost about $301,500, roughly the whole first deposit. If yields
+- At the close on 6 Nov 2026, buying the ten payments cost about $301,500 priced on the Treasury curve, roughly the
+  whole first deposit; on the instruments the plan holds, the gap the 2028 deposit fills is the $2,388 top-up below
+  (two bases, each named when used: coherence reader 8, L14). If yields
   fell 1 point before January 2027, the same ten would cost about $334,000; the 2028 deposit covers the difference.
-- The first $38,282 of the 2028 deposit goes to the payments: $2,388 completes the ten (the top-up the IPS promised
-  if yields fell), and $35,894 buys extra Treasuries so that the ten are paid even if the cash waiting between a bond's
+- The first $39,162 of the 2028 deposit goes to the payments: $2,388 completes the ten (the top-up the IPS promised
+  if yields fell), and $36,774 buys extra Treasuries so that the ten are paid even if the cash waiting between a bond's
   maturity and each 1 January earns nothing at all. The extra Treasuries are the part of the operating reserve, beyond
   the ten, that the case asks the team to recommend; never say they "complete" or "finish" the ten (coherence reader 6,
   Mon 16 Nov, H1).
@@ -34,31 +37,42 @@ are facts to write from, not sentences to copy.
   depend on future interest rates. The extra Treasuries remove that dependence.
 - Some years have no Treasury bond on WInS, so iShares iBonds funds (IBTM to IBTR) do the job. Held to the end they
   pay out what their bonds are worth, which is close to, but not exactly, a promised amount.
-- By 1 January 2033 the operating reserve is about $444,500, about 111% of what the ten payments need.
-- The team's first plan (about three-quarters shares) missed at least one payment in 3.2% of model runs; 13.7% if the
-  2028 deposit was only $75,000; 40.8% if it never came. The Treasury plan misses none because of how it is sized: from January 2028 each payment is
-  met even if cash waiting earns nothing, once the 2028 deposit's first dollars arrive (NUMBERS 2). (Corrected Mon 16
-  Nov from NUMBERS 8s: the first model's "never missed one" was written into its code, not found by it.)
+- At today's rates the operating reserve on 1 January 2033 is about $445,700: printed once, in Figure 1's note item 4,
+  never in prose and never as a percentage (coherence reader 8, M8). (Re-sized Tue 17 Nov
+  evening: the extra Treasuries now also hold back 0.5% for fund costs beyond the fee, the same margin the range carries,
+  so the ten payments carry the 0.5% margin; the first part of the 2028 deposit was $38,282 and the reserve about $444,500 before.)
+- The team dropped its first plan (about three-quarters shares) for how a writer is paid (IPS l.9). A check run that
+  day priced the change: the first plan missed at least one payment in about 1 in 31 model runs (3.2%), against none
+  for the Treasury plan from January 2028, which meets each payment even if cash waiting earns nothing once the 2028
+  deposit's first dollars arrive (NUMBERS 2). The 3.2% is the price of the IPS's "one step further" (l.11), never the
+  reason and never a test of "high": 96.8 in 100 would pass the usual reading of "high" (card Q120). (Corrected Mon 16
+  Nov from NUMBERS 8s: the first model's "never missed one" was written into its code, not found by it. Reordered Tue 17
+  Nov evening, coherence reader 8, M6.)
+- Never set against "none": the first plan's 13.7% if the 2028 deposit was only $75,000 and 40.8% if it never came.
+  With no deposit the Treasury plan is short too ($57,455 for the ten if cash waiting earns nothing), and a missed
+  deposit is one of the IPS's two reasons to change the plan (IPS l.17).
 
 ## The building and the range
-- The late-2032 Treasury fund (the floor) pays about $103,000 in mid-December 2032 at today's rates. The bottom of the
+- The late-2032 Treasury fund (the floor) pays about $102,000 in mid-December 2032 at today's rates. The bottom of the
   range is lower, $95,000, because it counts that payout as if no more interest were earned, less 0.5%, rounded down:
   the fund's payout is not fixed (Trading Note 2). VT, half of which moves into Treasuries before the 2031 meetings,
   decides how far above the bottom the range reaches (coherence reader 6, Mon 16 Nov, M5).
-- On today's figures, the range she would state in 2031 is $95,000 to $115,000. The top, $115,000, is her facility
+- On today's figures, the range she would state in 2031 is $95,000 to $115,000 (she states it in $5,000 steps, each
+  end rounded down). The bottom is set when the floor is bought in January 2028 and stays put after that ("the bottom
+  will remain constant", IPS l.15); before then the rate on the day decides it. The top, $115,000, is her facility
   contribution and the figure co-sponsors count; the bottom is the part held since January 2028. Once both ends are
   owned, the range she states is certain; never put "certain" in the same sentence as the figures, and never
   "secured" for either end (funder test, Mon 16 Nov evening; coherence reader 6 and bond desk 4, M1).
-- Her flexibility (the half of the shares promised to no one) is about $21,300 in January 2033, centrally; about
-  $29,800 if you add whatever the funds pay above the top of the range. In a bad 1-in-20 future it is about $9,900.
+- Her flexibility (the half of the shares promised to no one) is about $21,200 in January 2033, centrally; about
+  $28,700 if you add whatever the funds pay above the top of the range. In a bad 1-in-20 future it is about $9,600.
 - It is meant for three things the IPS names: building costs that overrun, a stronger Taiwan dollar, or a co-sponsor
   falling short. A Taiwan dollar 10% stronger than in 2031 would need about $11,500 more; her flexibility covers that
   in about 93 of 100 model futures, and in about 98 of 100 two-year stretches of the real Taiwan dollar since 1983.
 
 ## Why half (the trade-off the IPS chose)
-- Keep 30% of the shares back instead, and she could promise about $10,000 more, but her flexibility would cover a
+- Keep 30% of the shares back instead, and she could promise about $5,000 more (one $5,000 step; $10,000 before the Tue 17 Nov evening re-size), but her flexibility would cover a
   10% stronger Taiwan dollar in only about half the futures.
-- Keep 70% back, and she would promise about $10,000 less, with a bigger cushion and a narrower range.
+- Keep 70% back, and she would promise about $10,000 less, with more flexibility and a narrower range.
 - Each $5,000 more of promised top costs her about $5,300 of what she keeps. The total she ends up with barely changes
   (within about $1,100 either way at the median). So the split decides what is promised and what stays hers, not how
   much there is. Half is the middle of that trade, chosen by the team; it is not "optimal" and no model chose it.
@@ -68,7 +82,10 @@ are facts to write from, not sentences to copy.
   Q66, Q85; NUMBERS 8q; coherence reader 6, Mon 16 Nov, L10; never "cushion").
 
 ## Real events from the competition (dated, from the team's record)
-- 27 Sep: the first model of the original plan showed the missed-payment numbers above. The team changed strategy.
+- 27 Sep: the team dropped its first plan (about three-quarters shares) for the reason the IPS gives: "the actual
+  nature of a writer's income" (IPS l.9), which comes later and smaller in the same recessions that hit shares. The
+  first model that day only priced the change (the missed-payment numbers above); it was the check, never the reason
+  (corrected Tue 17 Nov evening, coherence reader 7, H1).
 - 29 Sep: WInS listed no Treasury bonds maturing between February 2031 and February 2036, so iBonds funds were used.
 - 29-30 Sep: two WInS bond prices were stale, about 1 percentage point of yield off the real Treasury curve. New rule:
   check every bond's yield against the curve (within 0.25 points) before ordering.
@@ -90,15 +107,17 @@ are facts to write from, not sentences to copy.
 - Caplet's own words about the conceit: "It is intricate. It involves strikingly dissimilar parallels. It offers a
   startling new perspective." So it is not a word dropped in now and then: it is worked through, each turn showing
   something new. The turns you can use (all checked):
-  - **One eraser, three lines.** A recession can rub out three pencil lines in the same downturn: her book advances,
+  - **One eraser, three lines.** A recession can shrink three pencil lines in the same downturn (never "rub out": IPS l.9 says
+    "later and smaller"): her book advances,
     share prices, and co-sponsors' budgets (not always in the same months, and never every co-sponsor). That's why the
     promised money can't sit in pencil (coherence reader 6, Mon 16 Nov, M4).
   - **Finished before it's offered.** Comic publishers want several issues finished before a series is offered to
     shops ("three completed issues", Image, 2015). Laura's ten payments are bought in January 2027, six years before
     the first one goes out.
   - **The one line that waited.** From January 2027 to January 2028 the interest cash earns while it waits was the one
-    pencil line in the payments; the extra Treasuries in January 2028 ink it, and most of that money comes back to her
-    if rates hold (about $45,500 in 2033 money). Publishers do something similar: they hold back part of an author's
+    pencil line in the payments; the extra Treasuries in January 2028 ink it. What comes back from them is worth about
+    $46,600 in 2033 money if rates hold, all of it hers by 2042; if cash waiting earns nothing, none beyond the 0.5%
+    margin for fund costs (never "most comes back"; coherence reader 8, M8). Publishers do something similar: they hold back part of an author's
     royalties against returns and release it once the risk passes.
   - **Ink only goes one way.** You can always add ink, but you can't take it off cleanly (a mistake is painted over and
     the original keeps the record). So every end of the range is rounded down, anything above the top goes to her
@@ -111,35 +130,30 @@ are facts to write from, not sentences to copy.
     report's models, the 7.5% and every median are like that: the judges see them, the co-sponsors in 2031 never will.
   - **The printed page.** Laura's words to co-sponsors have no comics words in them at all, because the printed page
     only shows ink.
-  - **Erase every pencil line and the page still reads.** If the shares went to zero, the ten payments wouldn't change,
-    the floor would still pay about $103,178, and the range would be one figure, $95,000.
-  - **The key plate.** On a printing press the plate with the most detail guides the register; the colour plates are
-    lined up to it. The ten Treasuries were bought first, and everything after (the top-up, the extra Treasuries, the
-    floor, then VT) is sized against them.
+  - **Erase every pencil line and the page still reads.** If the shares went to zero, the ten payments wouldn't change
+    and the range would be one figure, the bottom (no payout figure here, as in SKELETON and CONCEIT since Tue 17 Nov).
   - **Dot gain.** A press always prints a little darker than the file, so printers lighten the file first and the print
     lands where they want it. The funds' fee, the 0.5% held back and the rounding down are taken out before the range is
     stated, so the money comes out lighter than the figure she names only if the funds' other costs pass the margin
-    held back (at least 0.5%, about 3% on today's figures) (coherence reader 6, M1; bond desk 4, H1, Mon 16 Nov).
-  - **Let the ink dry.** Rub out the pencils while the ink is still tacky and it smears. So the top is only stated once
-    the shares have moved: a top stated a year early would not yet be owned in about 11 of 100 model futures.
-  - **The seal.** In Chinese calligraphy the seal is stamped when the work is finished. Laura names her range only once
-    both ends are owned.
+    held back (at least 0.5%, about 2% on today's figures; "about 3%" before the Tue 17 Nov evening re-size, coherence
+    reader 8, M2) (coherence reader 6, M1; bond desk 4, H1, Mon 16 Nov).
+  - (Retired Tue 17 Nov after voice round 6: "let the ink dry" and the key plate needed decoding; do not use them. The
+    plain fact stays: the top is stated only once the shares have moved, and a top stated a year early would be more
+    than the move could buy in about 11 of 100 model futures.)
   - **Registration marks.** Printers put marks outside the page, check them on every pass, and cut them off. The things
     the team watches (the deposit, late payments, a fund closing early, the Taiwan dollar) are like that: checked, never
     in Laura's words.
-  - **Knockout and overprint.** In a knockout the colour leaves a hole for the black, and if the sheet slips a white gap
-    shows. Overprinting lays the black on top, so no gap can open. The first plan's danger was not a crash: it needed
-    share prices to be in the right place on one date, 1 January 2033, when all ten payments had to be bought with
-    whatever the shares had become (three-quarters of the gap came from the four years at 75% shares; corrected Mon 16
-    Nov from "each of ten dates", NUMBERS 8s). Buying the payments first prints them over everything.
-  - **Pencils printed beside the inks.** Some art books print an artist's pencils beside the finished page on purpose.
-    The Team Reflection can show the first plan the same way: three-quarters shares, rubbed out on 27 September before
-    a single trade was placed. And in a market, a click is ink: on 7 October a click landed on the wrong row as the page
-    scrolled, and the order was gone with no step to confirm it.
+  - (Struck Tue 17 Nov evening, history only, never offered to writers: the seal, which makes ink heard as signed;
+    knockout and overprint, and pencils printed beside the inks, which call the first plan pencil; the key plate, retired
+    by voice round 6. Coherence reader 8, M7. The plain facts stay: the first plan's danger was one date, 1 January 2033,
+    when all ten payments had to be bought with whatever the shares had become, not a crash; it was dropped before a
+    single trade for how a writer is paid, IPS l.9, and the 3.2% only priced the change.)
+  - **In a market, a click is ink** (Section 2, how the plan was bought, not the Team Reflection): on 7 October a click
+    landed on the wrong row as the page scrolled, and the order was gone with no step to confirm it.
 - The dates: most of each payment is inked in January 2027, when the ten Treasuries are bought ("held to the end,
-  these pay what they say", IPS l.13). The rest is inked in January 2028 by the first $38,282 of the 2028 deposit (the
-  top-up, then the extra Treasuries). The floor is bought in January 2028, which fixes the bottom of the range. Half the
-  shares move into Treasuries before the 2031 meetings, which fixes the top. The other half is never inked: it is her
+  these pay what they say", IPS l.13). The rest is inked in January 2028 by the first $39,162 of the 2028 deposit (the
+  top-up, then the extra Treasuries). The floor is bought in January 2028, which sets the bottom of the range, and it stays put after that. Half the
+  shares move into Treasuries before the 2031 meetings, which sets the top. The other half is never inked: it is her
   flexibility. Never call the January 2027 purchase pencil, and never call the IPS or the Trading Notes pencil.
 - Treasuries are guaranteed, locked, set in stone: say so if it helps, plainly (Caplet, Sun 15 Nov: "You needn't preface
   this every single time with 'barring a US default'").
@@ -149,5 +163,5 @@ are facts to write from, not sentences to copy.
 
 ## Words the report uses
 "Facility contribution" (not "gift"), "her flexibility" (the half kept), "the top-up" ($2,388), "the extra
-Treasuries" ($35,894), "operating reserve" (the ten payments' money from 2033). Never "capital-protected", "portfolio
+Treasuries" ($36,774), "operating reserve" (the ten payments' money from 2033). Never "capital-protected", "portfolio
 insurance", "optimal" or "natural hedge"; never TIPS or STRIPS (not allowed this year).

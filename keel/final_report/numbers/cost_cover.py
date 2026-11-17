@@ -57,11 +57,11 @@ c = C.c
 NAME = C.CALL
 MARGIN = C.design(NAME)["margin"]
 MF = C.margin_fn(NAME)
-OUT = HERE / "results_cost_cover_2026-11-17.json"
+OUT = HERE / "results_cost_cover_2026-11-17.json"   # Tue 17 Nov evening re-run; the morning's file is results_cost_cover_2026-11-17_morning.json
 COSTS = (0.005, 0.0075, 0.01, 0.02, 0.03)
 FUND_YEARS = (2033, 2034, 2035, 2036, 2037)
 f = lambda x: float(np.asarray(x).item())
-out = {"run": "Tue 17 Nov 2026 (Sydney), numbers owner", "rule": C.RULE_VERSION, "design": NAME}
+out = {"run": "Tue 17 Nov 2026 (Sydney), numbers owner; re-run Tue 17 Nov evening (the payments' 0.5% margin, the 365.25-day carry)", "rule": C.RULE_VERSION, "design": NAME}
 
 # ================================================================ Part A: bond desk 4's check figures
 cen = P.run(c, margin=MARGIN, margin_fn=MF)
@@ -172,10 +172,13 @@ def insts_less(x_by_year):
 
 
 WORLDS = {"forwards": C.BASE, "zero": C.ZERO, "zero_and_bill_fee": C.FEEW}
-OWN, POOL = C.PLAIN, C.BACKSTOP
+OWN = C.PLAIN
+# Tue 17 Nov evening: part B is run on the call's backstop (sized with the payments' 0.5% margin, completion.PAY_MARGIN)
+# and on the backstop without it (H_plain_nomargin, the call until this morning: the record behind NUMBERS 2's table)
+POOLS = {"call_with_margin": C.BACKSTOP, "record_no_margin": C.design("H_plain_nomargin")["pool"]}
 
 
-def exposure(x_by_year, label):
+def exposure(x_by_year, label, POOL):
     ins = insts_less(x_by_year)
     res = {"x_by_year": {str(y): x for y, x in x_by_year.items()}}
     # cost share times each fund rung's payout at zero interest (own units plus the backstop's units)
@@ -194,52 +197,61 @@ def exposure(x_by_year, label):
         res[w] = {"short_by_year": {str(y): E.PAYMENT - paid[y] for y in E.YEARS if E.PAYMENT - paid[y] > 0.005},
                   "short_total": sum(E.PAYMENT - v for v in paid.values()), "left_after_2042": left,
                   "left_after_2042_without_the_cost": base_left}
-    print("B. %s: cost share x payout $%.2f; zero interest: short $%.2f, left $%.2f (was $%.2f); zero + bill fee: short $%.2f %s; forwards: left $%.2f (was $%.2f)"
+    print("B. %s: cost share x payout $%.2f; zero interest: short $%.2f, left $%.2f (was $%.2f); zero + bill fee: short $%.2f %s, left $%.2f (was $%.2f); forwards: left $%.2f (was $%.2f)"
           % (label, res["cost_total"], res["zero"]["short_total"], res["zero"]["left_after_2042"],
              res["zero"]["left_after_2042_without_the_cost"], res["zero_and_bill_fee"]["short_total"],
              {k: round(v, 2) for k, v in res["zero_and_bill_fee"]["short_by_year"].items()},
+             res["zero_and_bill_fee"]["left_after_2042"], res["zero_and_bill_fee"]["left_after_2042_without_the_cost"],
              res["forwards"]["left_after_2042"], res["forwards"]["left_after_2042_without_the_cost"]))
     return res
 
 
 years_to_end = {y: E.yf(C.I[y].end, E.J27) for y in FUND_YEARS}
-Bx = {
-    "0.1pct": exposure({y: 0.001 for y in FUND_YEARS}, "0.1% off every fund flow"),
-    "0.5pct": exposure({y: 0.005 for y in FUND_YEARS}, "0.5% (the range's share)"),
-    "0.03pt_a_year": exposure({y: 0.0003 * years_to_end[y] for y in FUND_YEARS}, "0.03 points a year to each fund's end"),
-}
-Bx["years_to_end_from_1jan2027"] = {str(y): v for y, v in years_to_end.items()}
-# the largest flat cost the $1,414 spare at zero interest (no bill fee) covers: solve by bisection
-lo, hi = 0.0, 0.02
-for _ in range(60):
-    mid = (lo + hi) / 2
-    paid = C.ledger(C.ZERO, OWN, POOL, insts_less({y: mid for y in FUND_YEARS}))[0]
-    if sum(E.PAYMENT - v for v in paid.values()) > 0.005:
-        hi = mid
-    else:
-        lo = mid
-Bx["largest_flat_cost_covered_zero_interest_no_bill_fee"] = lo
-Bx["five_funds_pay_zero"] = sum(v["pays_zero"] for v in Bx["0.5pct"]["cost_share_x_payout"].values())
-print("   largest cost off every fund flow that zero interest (no bill fee) still covers: %.4f%%; five funds pay $%.2f at zero"
-      % (100 * lo, Bx["five_funds_pay_zero"]))
-# the lowest flat yearly rate on every waiting dollar (and the funds' own cash), after the bill fund's 0.15%, at which
-# all ten are still paid with each cost: how much interest the cost needs
-for key, xb in (("0.1pct", {y: 0.001 for y in FUND_YEARS}), ("0.5pct", {y: 0.005 for y in FUND_YEARS}),
-                ("0.03pt_a_year", {y: 0.0003 * years_to_end[y] for y in FUND_YEARS})):
-    ins = insts_less(xb)
-    lo, hi = -C.WAIT_FEE, 0.02
-    for _ in range(60):
-        mid = (lo + hi) / 2
-        paid = C.ledger(C.Flat(c, mid), OWN, POOL, ins)[0]
-        if sum(E.PAYMENT - v for v in paid.values()) > 0.005:
-            lo = mid
-        else:
-            hi = mid
-    Bx[key]["flat_net_rate_needed"] = hi
-    Bx[key]["flat_gross_rate_needed_before_bill_fee"] = hi + C.WAIT_FEE
-    print("   %s: all ten paid if waiting money earns at least %.4f%% a year net (%.4f%% before the bill fund's 0.15%%)"
-          % (key, 100 * hi, 100 * (hi + C.WAIT_FEE)))
-out["B_payments_exposure"] = Bx
+BX = {}
+for ptag, POOL in POOLS.items():
+    print("B. backstop:", ptag)
+    Bx = {
+        "0.1pct": exposure({y: 0.001 for y in FUND_YEARS}, "0.1% off every fund flow", POOL),
+        "0.5pct": exposure({y: 0.005 for y in FUND_YEARS}, "0.5% (the range's share)", POOL),
+        "0.03pt_a_year": exposure({y: 0.0003 * years_to_end[y] for y in FUND_YEARS}, "0.03 points a year to each fund's end", POOL),
+    }
+    Bx["years_to_end_from_1jan2027"] = {str(y): v for y, v in years_to_end.items()}
+    Bx["backstop_cost_jan2027"] = C.cost(POOL)
+    # the largest flat cost the spare at zero interest (no bill fee) covers, and with the bill fee: by bisection
+    for key, world in (("largest_flat_cost_covered_zero_interest_no_bill_fee", C.ZERO),
+                       ("largest_flat_cost_covered_zero_interest_and_bill_fee", C.FEEW)):
+        lo, hi = 0.0, 0.02
+        for _ in range(60):
+            mid = (lo + hi) / 2
+            paid = C.ledger(world, OWN, POOL, insts_less({y: mid for y in FUND_YEARS}))[0]
+            if sum(E.PAYMENT - v for v in paid.values()) > 0.005:
+                hi = mid
+            else:
+                lo = mid
+        Bx[key] = lo
+    Bx["five_funds_pay_zero"] = sum(v["pays_zero"] for v in Bx["0.5pct"]["cost_share_x_payout"].values())
+    print("   largest cost off every fund flow covered at zero interest: %.4f%% (no bill fee), %.4f%% (bill fee); five funds pay $%.2f at zero"
+          % (100 * Bx["largest_flat_cost_covered_zero_interest_no_bill_fee"],
+             100 * Bx["largest_flat_cost_covered_zero_interest_and_bill_fee"], Bx["five_funds_pay_zero"]))
+    # the lowest flat yearly rate on every waiting dollar (and the funds' own cash), after the bill fund's 0.15%, at which
+    # all ten are still paid with each cost: how much interest the cost needs
+    for key, xb in (("0.1pct", {y: 0.001 for y in FUND_YEARS}), ("0.5pct", {y: 0.005 for y in FUND_YEARS}),
+                    ("0.03pt_a_year", {y: 0.0003 * years_to_end[y] for y in FUND_YEARS})):
+        ins = insts_less(xb)
+        lo, hi = -C.WAIT_FEE - 0.02, 0.02
+        for _ in range(60):
+            mid = (lo + hi) / 2
+            paid = C.ledger(C.Flat(c, mid), OWN, POOL, ins)[0]
+            if sum(E.PAYMENT - v for v in paid.values()) > 0.005:
+                lo = mid
+            else:
+                hi = mid
+        Bx[key]["flat_net_rate_needed"] = hi
+        Bx[key]["flat_gross_rate_needed_before_bill_fee"] = hi + C.WAIT_FEE
+        print("   %s: all ten paid if waiting money earns at least %.4f%% a year net (%.4f%% before the bill fund's 0.15%%)"
+              % (key, 100 * hi, 100 * (hi + C.WAIT_FEE)))
+    BX[ptag] = Bx
+out["B_payments_exposure"] = BX
 
 # ================================================================ Part C: a trade-day limit
 
@@ -269,7 +281,7 @@ for y in (2036, 2037):
         if d > E.J28:
             extra_funds28 += u * a * math.exp(-c.fwd(E.J28, d) * E.yf(d, E.J28))
 for p in (0.0025, 0.005, 0.0074, 0.01):
-    extra28 = (fund27 * p * math.exp(f01)) + (tail28 + extra_funds28) * p    # more top-up in January 2028 money
+    extra28 = (fund27 * p * math.exp(f01 * E.T01)) + (tail28 + extra_funds28) * p    # more top-up in January 2028 money
     mfp = (lambda e: (lambda a, b: MF(a, b) + e))(extra28)
     cp = P.run(c, margin=MARGIN, margin_fn=mfp)                              # the 2027 and 2028 Treasury legs
     cp2 = dict(cp)

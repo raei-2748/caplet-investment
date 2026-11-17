@@ -1,25 +1,25 @@
 {
- "built": "2026-11-17T08:18+11:00",
+ "built": "2026-11-17T21:59+11:00",
  "today": "2026-11-17",
- "store_ideas": 6201,
- "store_judged": 5367,
+ "store_ideas": 6720,
+ "store_judged": 5886,
  "totals": {
-  "workers": 152,
-  "cards": 139,
-  "rows": 4941,
-  "sources": 5245,
-  "passages": 73,
-  "readings": 40
+  "workers": 192,
+  "cards": 152,
+  "rows": 5460,
+  "sources": 5759,
+  "passages": 86,
+  "readings": 44
  },
  "days": [
   {
    "day": "2026-11-17",
-   "workers": 39,
-   "cards": 14,
-   "rows": 567,
-   "sources": 553,
-   "passages": 13,
-   "readings": 7
+   "workers": 79,
+   "cards": 27,
+   "rows": 1086,
+   "sources": 1067,
+   "passages": 26,
+   "readings": 10
   },
   {
    "day": "2026-11-16",
@@ -37,7 +37,7 @@
    "rows": 361,
    "sources": 547,
    "passages": 21,
-   "readings": 6
+   "readings": 7
   },
   {
    "day": "2026-11-14",
@@ -127,6 +127,14 @@
    "analysis_workers": "17",
    "readers": "8",
    "notes": "Fourteen research workers on the thinnest tags and short SKELETON parts: cards Q95-Q108 (authors' lumpy advances; a career as bond, stock and option; pension sponsors and recovery plans; the top-up before January 2027 with eight-week moves since 1962; comfort letters and pledges; Taiwan's artist-founded museums; artist-endowed foundations; what $50,000 buys in Taiwan; Taiwan's price adjustment and October's cost index read at source; coupon reinvestment history; fewer numbers, better understood; ink in the ledger; aha moments and memory; graphic novels through downturns), 567 rows from about 495 sources read at source; nine raters judged every row the same morning; six analysis workers (numbers owner: bond desk 4 reproduced and the payments' cost exposure sized; Table 3 cut to one page; the density cut of 3a, 3c and 3e; the aha test brief; landing Q82-Q108 in SKELETON, GEM_LEDGER and REFERENCES; coherence and lay fixes) and two fresh voice writers; eight readers: voice round 6 (three), cold aha test 4 (three), coherence reader 7 and a lay reader"
+  },
+  {
+   "date": "2026-11-17",
+   "run": "evening (overdrive)",
+   "research_workers": "13",
+   "analysis_workers": "19",
+   "readers": "8",
+   "notes": "Thirteen research workers: cards Q109-Q121 (reverse stress tests for 3e; reservoir firm yield; aviation fuel categories; Taiwan's rotating credit groups and their law; Taiwanese donor lists and exact sums; pencil and ink in law and archives; one-day move or averaging out; Olympic and Expo guarantees; data freshness; illustrators who founded places; Taiwan's public promises cut and floors; certainty words as numbers; Taiwanese ink, seal and type craft), 519 rows from about 490 sources read at source (many in part or as extracts, each card's Gaps says which); twelve raters judged every row the same evening (store 6,720 ideas); seven analysis workers (the numbers re-size: the ten payments carry the 0.5% cost margin, plan.py's day count fixed, every file swept; the aha test 5 pack and its results; landing Q109-Q121 in SKELETON, CONCEIT, GEM_LEDGER section 11 and REFERENCES 2h; the readers' fixes, 28 of 29) and two fresh voice writers; eight readers: voice round 7 (three), cold aha test 5 (three), coherence reader 8 and a lay reader"
   }
  ],
  "cards": [
