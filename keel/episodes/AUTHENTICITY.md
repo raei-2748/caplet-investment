@@ -160,7 +160,12 @@ a message from Caplet, a finding, a mistake caught); only the people are invente
   tangled line on Caplet's Sunday message), then four plus two framing problems ("the argument" for a real exchange of
   Caplet's; outside readers presented as a real professor and real funders), then eight (two serious: a definition of
   pencil that changed its meaning, the Sunday message still unclear); each was cut or put in plain words, the readers
-  now named as readers playing parts, and the third read's fixes went in without a fourth read.
+  now named as readers playing parts, and the third read's fixes went in without a fourth read. Ep 51 (Tue 17 Nov) failed three fresh
+  reads: eight lines (one serious: office and finance words throughout, a slogan-shaped line on the first plan's risk
+  given as three numbers never tied together, three entry endings that landed), then eight (one serious: a sentence
+  defining the scorecard's average; a line that read as blaming the writers for Amara's mistake), then four small ones
+  (a nested report sentence, a $1.14 script fix played down, Amara's mistake named only in the summary, a count missed
+  with nobody's name on it); each was cut or put in plain words, and the third read's fixes went in without a fourth read.
 
 ## 3. Sources, and what each teaches (all accessed Sun 8 Nov 2026)
 
